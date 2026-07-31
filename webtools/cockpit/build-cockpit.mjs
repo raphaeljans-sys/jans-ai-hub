@@ -332,7 +332,7 @@ const kbFarbe = a => a === null ? 'c-grau' : a <= 3 ? 'c-gruen' : a <= 14 ? 'c-g
 // Second Brain: eine Blase je KB — Flaeche ~ Wiki-Artikelbestand, Farbe = Frische.
 const brainMax = Math.max(1, ...wissen.map(k => k.artikel));
 const blase = k => {
-  const d = Math.round(54 + 92 * Math.sqrt(k.artikel / brainMax));
+  const d = Math.round(62 + 88 * Math.sqrt(k.artikel / brainMax));
   const frische = k.alter === null ? 'ohne Datum' : k.alter === 0 ? 'heute gepflegt' : `vor ${k.alter} Tg. gepflegt`;
   return `<div class="blase ${kbFarbe(k.alter)}" style="width:${d}px;height:${d}px"
     title="${esc(k.name)} — ${k.artikel} Wiki-Artikel · ${k.outputs} Reports · ${k.raw} raw · ${esc(frische)}">
@@ -460,7 +460,7 @@ body.statisch button.done{display:none}
   text-align:center;overflow:hidden;padding:6px;border:2px solid var(--linie);background:var(--flaeche);cursor:default}
 .blase b{font-size:17px;line-height:1.1}
 .blase span{font-size:9.5px;color:var(--dim);line-height:1.15;word-break:break-word;
-  font-family:ui-monospace,Menlo,monospace;max-width:100%}
+  font-family:ui-monospace,Menlo,monospace;max-width:100%;max-height:2.4em;overflow:hidden}
 .blase.c-gruen{border-color:var(--gruen);background:color-mix(in srgb,var(--gruen) 13%,var(--flaeche))}
 .blase.c-gelb{border-color:var(--gelb);background:color-mix(in srgb,var(--gelb) 10%,var(--flaeche))}
 .brain-total{font-size:13px;color:var(--dim);margin-bottom:12px}

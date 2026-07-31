@@ -3,7 +3,7 @@
 - **Datum Lauf:** 31.07.2026
 - **Quellordner:** `/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/IMMO - 04 Marktpreise/wuest partner/`
 - **Auftrag:** Vollständige Destillation der Wüest-Partner-Bestände in `IMMO - 04`, mit Fundstelle und Preisstand je Zahl.
-- **Status:** Quelle 1 erfasst, Quellen 2 bis 6 folgen.
+- **Status:** abgeschlossen. Alle sechs Quellen gelesen und destilliert.
 
 Hinweis zur Seitenzählung Quelle 1: das PDF hat 156 physische Seiten (Teil 1/2 = PDF-Seiten
 1 bis 103, Teil 2/2 «Ökologische Kennzahlen» von durable = PDF-Seiten 104 bis 156). Der
@@ -672,3 +672,634 @@ Nebenbefund vermerkt.
   Seitenaufteilung. Für die KB irrelevant.
 - `Wuest Reports/Hedonic/WuestPartnerAG_Appraisal_Long_Beispiel_EFH.pdf` — von einem anderen
   Lauf erfasst, hier als Duplikat vermerkt.
+
+---
+
+## 2 `00 Kommunikation/240502 Altersheime/` — kritische Prüfung: KEINE Wüest-Benchmarks
+
+**Befund: Der Ordner enthält keinerlei Wüest-Kostenkennwerte für Altersheime.** Er enthält
+ausschliesslich eine **ausgehende JANS-Anfrage ohne dokumentierte Antwort**.
+
+| Datei | Inhalt |
+|---|---|
+| `Benchmarks Altersheime Kostenkennwerte GF-GV.eml` | Ausgehende Mail Raphael Jans an Wüest Partner |
+| `Benchmarks Altersheime Kostenkennwerte GF_GV.pdf` | PDF-Ausdruck derselben Mail, 1 Seite, kein Zusatzinhalt |
+| `Altersheim.docx` | Enthält nur eine URL, keinen Text |
+
+**Die Mail (Beleg):**
+- Von: Raphael Jans, rj@raphaeljans.ch
+- An: nikola.haefeli@wuestpartner.com
+- Datum: Donnerstag, 2. Mai 2024, 16:05:51 MESZ (14:05:50 UTC)
+- Betreff: «Benchmarks Altersheime Kostenkennwerte GF/GV»
+- Anrede: «Sehr geehrter Herr Häfeli, sehr geehrter Herr Weber» (Herr Weber steht in der
+  Anrede, ist aber **nicht** im An-Feld und nicht im Cc)
+- Inhalt, sinngemäss: Anfrage, ob Wüest Partner einen Report mit Kostenkennzahlen für den
+  Bereich Altersheime publiziert.
+- Signatur mit der **veralteten** Adresse Flüelastrasse 6, 8048 Zürich (heute Grubenstrasse 37,
+  8045 Zürich, Rule `jans-absenderadresse`).
+
+**Keine Antwortmail im Ordner.** Ob eine Antwort einging, ist aus diesem Bestand nicht
+feststellbar. Die Frage «Publiziert Wüest Partner Kostenkennwerte für Altersheime?» ist damit
+seit dem 02.05.2024 **offen** und gehört in `wissensluecken`.
+
+**`Altersheim.docx`** enthält als einzigen Inhalt den Link
+`https://www.wuestpartner.com/ch-de/2023/06/21/wohnen-im-alter-treiber-des-wohnflaechenkonsums/`
+(Wüest-Artikel «Wohnen im Alter, Treiber des Wohnflächenkonsums», datiert 21.06.2023). Der
+Artikeltext selbst liegt nicht vor.
+
+**Kontaktdaten Wüest Partner (Screenshot `_Kontaktinfos/Bildschirmfoto 2024-05-02 um 16.01.16.png`,
+Stand 02.05.2024, von wuestpartner.com):**
+
+Nikola Haefeli, +41 44 289 91 84
+Matthias Weber MRICS, +41 44 289 91 60
+
+Weitere in Quelle 1 belegte Kontakte: Wüest Partner AG, Alte Börse, Bleicherweg 5, 8001 Zürich,
+T +41 44 289 90 00. Dr. Julia Selberherr (Partner), julia.selberherr@wuestpartner.com.
+Magdalena Goller (Consultant), magdalena.goller@wuestpartner.com.
+
+---
+
+## 3 Standortinformationen Diemtigen und Langenthal
+
+Beides sind **Wüest-Partner-Standortinformationen** («Business intelligence by Wüest Partner»).
+Sie sind **nicht** inhaltsgleich: die beiden Abfragen wurden mit unterschiedlichen Modulen
+zusammengestellt und ergänzen einander.
+
+| | Diemtigen | Langenthal |
+|---|---|---|
+| Datei | `Standortinformation-Diemtigen -- Oey-762.pdf` | `Standortinformation-Langenthal.pdf` |
+| **Abfragedatum** | **2. Juli 2023** | **21. Juni 2023** |
+| Umfang | 31 Seiten | 13 Seiten |
+| Gewählte Region | Gemeinde Diemtigen (BE) | Gemeinde Langenthal (BE) |
+| MS-Region | Thun | Oberaargau |
+| Monitoring-Region | Bern | (nicht ausgewiesen, Modul fehlt) |
+| Kapitel «Preise» | **nur** EFH-Preisspektren | Mietwohnungen, Eigentumswohnungen, EFH, Büro, Gewerbe, Verkauf **plus Baulandpreise** |
+| Kapitel «Preisindizes» | umfangreich (Wohnen und Geschäft kompakt, dann ausführlich für Mietwohnungen, Eigentumswohnungen, EFH, Büro, Gewerbe, Verkauf) | **fehlt vollständig** |
+
+### 3.1 Erhebungsstand (Anhang «Datengrundlagen», je letzte Seite) — der eigentliche Preisstand
+
+| Datengrundlage | Quelle | Erhebungsstand | Letzte Aktualisierung | Turnus |
+|---|---|---|---|---|
+| Preisspektren | Wüest Partner | **2023-03-31** | 2023-04-19 | vierteljährlich |
+| Baulandpreise (nur Langenthal) | Wüest Partner | **2023-02-28** | 2023-04-03 | halbjährlich |
+| Angebotspreisindex (nur Diemtigen) | Wüest Partner | **2023-03-31** | 2023-04-12 | vierteljährlich |
+| Regionalisierung | BFS, Swisstopo | 2022-01-01 | 2022-06-28 | jährlich |
+
+**Merksatz:** Das Abfragedatum (Juni/Juli 2023) ist nicht der Preisstand. Massgeblich ist der
+**Erhebungsstand 31.03.2023** für alle Preisspektren, 28.02.2023 für die Baulandpreise. Die
+Quartalsreihen laufen entsprechend bis 2023/1.
+
+### 3.2 Diemtigen — der ländliche Tiefpreis-Anker
+
+**Einfamilienhäuser, Preisspektren (Kaufpreis in CHF pro m2), Stand 2023/1** (S. 3):
+
+| Quantil | Diemtigen | MS-Reg. Thun | Schweiz |
+|---|---|---|---|
+| 90% | 8'740 | 10'300 | 14'100 |
+| 70% | 6'460 | 8'490 | 9'380 |
+| **50% (Median)** | **5'440** | **7'170** | **7'140** |
+| 30% | 4'140 | 6'080 | 5'460 |
+| 10% | 2'560 | 3'960 | 4'170 |
+
+Bemerkenswert: der Median Diemtigen (5'440) liegt **24 Prozent unter** dem Schweizer Median
+(7'140), das 10%-Quantil (2'560) sogar 39 Prozent darunter. Die MS-Region Thun liegt im Median
+praktisch auf Schweizer Niveau (7'170 zu 7'140), aber mit deutlich schmalerem oberem Rand
+(90%: 10'300 zu 14'100). Das ist die typische Signatur eines Berggebiets in einer Region mit
+gutem Durchschnitt.
+
+**Quartalsentwicklung EFH Diemtigen (CHF pro m2)** (S. 3):
+
+| Quartal | 10% | 30% | 50% | 70% | 90% |
+|---|---|---|---|---|---|
+| 2020/4 | 2'540 | 3'900 | 4'840 | 6'040 | 7'620 |
+| 2021/1 | 2'740 | 4'110 | 5'000 | 6'150 | 7'880 |
+| 2021/2 | 2'870 | 4'260 | 5'170 | 6'430 | 8'050 |
+| 2021/3 | 2'620 | 3'990 | 5'000 | 6'150 | 7'790 |
+| 2021/4 | 2'550 | 3'740 | 4'930 | 6'050 | 7'790 |
+| 2022/1 | 2'480 | 3'790 | 4'990 | 6'130 | 8'250 |
+| 2022/2 | 2'610 | 4'040 | 5'160 | 6'420 | 8'730 |
+| 2022/3 | 2'590 | 4'100 | 5'260 | 6'510 | 8'890 |
+| 2022/4 | 2'570 | 4'170 | 5'450 | 6'580 | 9'050 |
+| **2023/1** | **2'560** | **4'140** | **5'440** | **6'460** | **8'740** |
+
+Veränderung QOQ: −0.4 / −0.7 / −0.2 / −1.8 / −3.4 Prozent. YOY: +3.2 / +9.2 / +9.0 / +5.4 /
++5.9 Prozent. Also im Jahresvergleich klar positiv, im Quartalsvergleich erstmals rückläufig,
+am oberen Rand am stärksten.
+
+**EFH-Preisspektren pro Objekt (Kaufpreis in CHF), Diemtigen** (S. 3):
+
+| Quantil | 3-Zi | 4-Zi | 5-Zi | 6-Zi | 7-Zi | 8-Zi |
+|---|---|---|---|---|---|---|
+| 90% | 743'000 | 888'000 | 1'112'000 | 1'320'000 | 1'599'000 | 1'908'000 |
+| 70% | 549'000 | 657'000 | 822'000 | 976'000 | 1'182'000 | 1'411'000 |
+| 50% | 463'000 | 554'000 | 693'000 | 823'000 | 996'000 | 1'189'000 |
+| 30% | 352'000 | 421'000 | 526'000 | 625'000 | 757'000 | 904'000 |
+| 10% | 218'000 | 261'000 | 326'000 | 388'000 | 469'000 | 560'000 |
+
+**MS-Region Thun, dieselbe Tabelle:**
+
+| Quantil | 3-Zi | 4-Zi | 5-Zi | 6-Zi | 7-Zi | 8-Zi |
+|---|---|---|---|---|---|---|
+| 90% | 873'000 | 1'065'000 | 1'352'000 | 1'605'000 | 2'000'000 | 2'283'000 |
+| 70% | 718'000 | 875'000 | 1'111'000 | 1'319'000 | 1'644'000 | 1'877'000 |
+| 50% | 606'000 | 739'000 | 938'000 | 1'114'000 | 1'389'000 | 1'585'000 |
+| 30% | 515'000 | 627'000 | 797'000 | 946'000 | 1'179'000 | 1'346'000 |
+| 10% | 336'000 | 409'000 | 519'000 | 616'000 | 768'000 | 877'000 |
+
+**Angebotspreisindizes Diemtigen** (Index 1996/1 = 100, nominal):
+
+Mietwohnungen, Monitoringregion Bern gegen Schweiz (S. 4):
+
+| Quartal | Monitoringreg. Bern | Schweiz |
+|---|---|---|
+| 2021/1 | 112.7 | 121.7 |
+| 2021/2 | 112.5 | 120.2 |
+| 2021/3 | 112.7 | 119.9 |
+| 2021/4 | 112.4 | 119.4 |
+| 2022/1 | 112.6 | 119.7 |
+| 2022/2 | 113.0 | 120.9 |
+| 2022/3 | 114.3 | 121.1 |
+| 2022/4 | 114.9 | 121.2 |
+| **2023/1** | **115.3** | **121.3** |
+
+QOQ +0.4% / 0.0%; YOY +2.4% / +1.3%; 3 Jahre +0.3% / −2.8%.
+
+Geschäftsflächen, Büromarktregion Bern gegen Schweiz, halbjährlich (S. 5):
+
+| Halbjahr | Büro Bern | Büro CH | Gewerbe Bern | Gewerbe CH | Verkauf Bern | Verkauf CH |
+|---|---|---|---|---|---|---|
+| 2019/1 | 106.5 | 120.5 | 98.6 | 110.8 | 103.4 | 105.1 |
+| 2019/2 | 109.0 | 121.2 | 92.5 | 106.4 | 105.8 | 104.4 |
+| 2020/1 | 110.7 | 121.8 | 94.9 | 104.6 | 105.2 | 103.6 |
+| 2020/2 | 107.7 | 122.1 | 106.3 | 107.9 | 102.5 | 105.4 |
+| 2021/1 | 108.9 | 121.8 | 111.4 | 111.6 | 91.1 | 105.2 |
+| 2021/2 | 109.1 | 119.8 | 106.4 | 111.7 | 83.9 | 103.2 |
+| 2022/1 | 110.5 | 118.7 | 105.0 | 114.1 | 94.0 | 97.9 |
+| 2022/2 | 110.7 | 117.9 | 109.4 | 115.3 | 92.4 | 101.6 |
+| **2023/1** | **111.6** | **117.5** | **111.5** | **115.0** | **96.1** | **102.0** |
+
+3-Jahres-Veränderung: Büro Bern +0.8% gegen CH −3.6%; Gewerbe Bern +17.5% gegen CH +10.0%;
+Verkauf Bern −8.6% gegen CH −1.5%.
+
+Die Seiten 6 bis 30 enthalten die «ausführlichen» Angebotspreisindizes je Nutzungsart
+(Mietwohnungen, Eigentumswohnungen, EFH, Büro, Gewerbe, Verkauf), je über mehrere Seiten
+mit Regionsvergleichen. Sie sind für JANS nur bei einer konkreten Berner Bewertung relevant
+und hier nicht vollständig transkribiert.
+
+### 3.3 Langenthal — der Gegen-Anker
+
+**Mietwohnungen, Preisspektren (Nettomiete in CHF pro m2 und Jahr), Stand 2023/1** (S. 3):
+
+| Quantil | Langenthal | MS-Reg. Oberaargau | Schweiz |
+|---|---|---|---|
+| 90% | 253 | 228 | 263 |
+| 70% | 201 | 190 | 214 |
+| **50%** | **179** | **171** | **190** |
+| 30% | 159 | 157 | 167 |
+| 10% | 140 | 137 | 139 |
+
+Der Schweizer Median 190 CHF/m2a deckt sich exakt mit dem nationalen Durchschnitt aus
+Quelle 1 (S. 15). Zwei unabhängige Belege für denselben Wert, gleiche Periode.
+
+Quartalsreihe Langenthal Mietwohnungen: 2020/4 135/155/174/198/243 · 2021/1 138/157/178/202/250 ·
+2021/2 135/155/174/198/245 · 2021/3 134/153/173/196/237 · 2021/4 136/157/177/200/245 ·
+2022/1 141/161/181/204/253 · 2022/2 138/157/176/198/248 · 2022/3 138/157/176/198/247 ·
+2022/4 137/157/177/200/249 · 2023/1 140/159/179/201/253 (je 10/30/50/70/90%).
+QOQ +2.2 / +1.3 / +1.1 / +0.5 / +1.6 Prozent; YOY −0.7 / −1.2 / −1.1 / −1.5 / 0.0 Prozent.
+
+Mietwohnungen pro Objekt (Nettomiete CHF pro Monat), Langenthal: 1-Zi 420/480/540/606/763,
+2-Zi 669/764/860/964/1'210, 3-Zi 848/970/1'090/1'220/1'540, 4-Zi 1'080/1'240/1'390/1'560/1'960,
+5-Zi 1'270/1'460/1'640/1'840/2'310, 6-Zi 1'590/1'820/2'040/2'290/2'890 (je 10/30/50/70/90%).
+
+**Eigentumswohnungen, Preisspektren (Kaufpreis CHF pro m2), Stand 2023/1** (S. 4):
+
+| Quantil | Langenthal | MS-Reg. Oberaargau | Schweiz |
+|---|---|---|---|
+| 90% | 7'530 | 6'720 | 17'800 |
+| 70% | 6'210 | 5'890 | 12'400 |
+| **50%** | **5'350** | **5'180** | **8'250** |
+| 30% | 4'690 | 4'110 | 6'500 |
+| 10% | 3'650 | 3'430 | 4'890 |
+
+Der Schweizer 90%-Wert von 17'800 CHF/m2 zeigt, wie stark die Spitzenlagen den nationalen
+Rand ziehen: Langenthal erreicht im 90%-Quantil nur 42 Prozent davon.
+
+Quartalsreihe Langenthal EWG (10/30/50/70/90%): 2020/4 3'160/4'030/4'840/5'640/7'160 ·
+2021/1 3'260/4'120/4'990/5'830/7'250 · 2021/2 3'270/4'100/4'950/5'760/7'310 ·
+2021/3 3'370/4'200/4'930/5'870/7'440 · 2021/4 3'490/4'370/5'110/6'130/7'640 ·
+2022/1 3'560/4'500/5'260/6'160/7'710 · 2022/2 3'550/4'510/5'200/6'090/7'620 ·
+2022/3 3'590/4'590/5'260/6'130/7'490 · 2022/4 3'600/4'630/5'330/6'190/7'530 ·
+2023/1 3'650/4'690/5'350/6'210/7'530.
+
+**Einfamilienhäuser, Preisspektren (Kaufpreis CHF pro m2), Stand 2023/1** (S. 5):
+
+| Quantil | Langenthal | MS-Reg. Oberaargau | Schweiz |
+|---|---|---|---|
+| 90% | 9'180 | 7'150 | 14'100 |
+| 70% | 6'750 | 6'050 | 9'380 |
+| **50%** | **5'570** | **5'320** | **7'140** |
+| 30% | 4'650 | 4'430 | 5'460 |
+| 10% | 3'200 | 3'020 | 4'170 |
+
+Die Schweiz-Spalte ist identisch mit jener im Diemtigen-Report (14'100 / 9'380 / 7'140 /
+5'460 / 4'170) — beide Abfragen liegen im selben Erhebungsstand 31.03.2023. Damit ist die
+Schweizer EFH-Referenzreihe zweifach belegt.
+
+**Direktvergleich der beiden Anker (EFH, CHF pro m2, Median, Stand 2023/1):**
+Diemtigen 5'440 · Langenthal 5'570 · MS-Thun 7'170 · MS-Oberaargau 5'320 · Schweiz 7'140.
+Beide Gemeinden liegen rund 22 bis 24 Prozent unter dem Schweizer Median. Der Unterschied
+zwischen ihnen liegt nicht im Median, sondern in der Streuung: Langenthal reicht im
+90%-Quantil auf 9'180, Diemtigen nur auf 8'740, und Diemtigens 10%-Quantil (2'560) liegt
+20 Prozent unter jenem von Langenthal (3'200).
+
+Quartalsreihe Langenthal EFH (10/30/50/70/90%): 2020/4 2'910/4'050/4'870/6'060/8'170 ·
+2021/1 2'980/4'130/4'970/6'170/8'340 · 2021/2 2'860/4'190/5'000/6'400/8'800 ·
+2021/3 3'040/4'190/5'000/6'410/8'880 · 2021/4 3'250/4'320/5'180/6'550/9'160 ·
+2022/1 3'370/4'500/5'360/6'760/9'600 · 2022/2 3'440/4'640/5'560/6'990/9'740 ·
+2022/3 3'430/4'870/5'770/7'180/10'000 · 2022/4 3'320/4'840/5'770/7'060/9'780 ·
+2023/1 3'200/4'650/5'570/6'750/9'180. QOQ −3.6 / −3.9 / −3.5 / −4.4 / −6.1 Prozent —
+Langenthal dreht im ersten Quartal 2023 deutlich stärker nach unten als Diemtigen.
+
+EFH pro Objekt Langenthal (CHF): 3-Zi 271'000/394'000/471'000/572'000/777'000,
+4-Zi 333'000/484'000/580'000/703'000/956'000, 5-Zi 418'000/608'000/727'000/882'000/1'199'000,
+6-Zi 505'000/734'000/879'000/1'066'000/1'449'000, 7-Zi 623'000/905'000/1'083'000/1'314'000/1'786'000,
+8-Zi 714'000/1'038'000/1'242'000/1'507'000/2'048'000 (je 10/30/50/70/90%).
+
+**Geschäftsflächen Langenthal, Preisspektren (Nettomiete CHF pro m2 und Jahr), Stand 2023/1**
+(S. 6 bis 8):
+
+| Nutzung | Quantil | Langenthal | MS-Oberaargau | Schweiz |
+|---|---|---|---|---|
+| Büro | 90% | 226 | 190 | 440 |
+| Büro | 70% | 187 | 167 | 279 |
+| Büro | **50%** | **155** | **149** | **221** |
+| Büro | 30% | 123 | 121 | 180 |
+| Büro | 10% | 97 | 99 | 131 |
+| Gewerbe | 90% | 184 | 173 | 263 |
+| Gewerbe | 70% | 131 | 119 | 180 |
+| Gewerbe | **50%** | **100** | **94** | **138** |
+| Gewerbe | 30% | 79 | 72 | 109 |
+| Gewerbe | 10% | 60 | 41 | 80 |
+| Verkauf | 90% | 331 | 347 | 500 |
+| Verkauf | 70% | 233 | 225 | 300 |
+| Verkauf | **50%** | **171** | **158** | **237** |
+| Verkauf | 30% | 145 | 127 | 189 |
+| Verkauf | 10% | 110 | 94 | 120 |
+
+Gewerbeflächen Langenthal YOY +11.1 / +5.3 / +7.5 / +7.4 / +13.6 Prozent, Verkaufsflächen
+YOY +19.6 / +11.5 / +4.9 / +15.9 / +7.1 Prozent — beide deutlich im Aufwind, Büro dagegen
+im Median leicht rückläufig (YOY −0.6% im 50%-Quantil).
+
+### 3.4 Baulandpreise Langenthal (nur in diesem Report, Erhebungsstand 28.02.2023)
+
+**Ausdrücklicher Hinweis in jeder dieser Tabellen: «Nach der Residualmethode modellierte
+Preise».** Das ist für die KB `residualwertmethode` die direkte Verbindung: Wüest bepreist
+Bauland selbst residual. Nur 10/50/90-Quantile, keine 30/70.
+
+| Bauland-Kategorie | Quantil | Langenthal | MS-Oberaargau | Kanton BE |
+|---|---|---|---|---|
+| MFH, Wohnzone hohe AZ | 90% | 850 | 560 | 3'840 |
+| MFH, Wohnzone hohe AZ | **50%** | **530** | **310** | **940** |
+| MFH, Wohnzone hohe AZ | 10% | 490 | 100 | 140 |
+| EFH, Wohnzone tiefe AZ | 90% | 960 | 850 | 1'860 |
+| EFH, Wohnzone tiefe AZ | **50%** | **840** | **530** | **780** |
+| EFH, Wohnzone tiefe AZ | 10% | 540 | 210 | 270 |
+| Geschäft (Büro/Verkauf) | 90% | 650 | 650 | 5'610 |
+| Geschäft (Büro/Verkauf) | **50%** | **290** | **260** | **1'620** |
+| Geschäft (Büro/Verkauf) | 10% | 260 | 110 | 170 |
+| Gewerbe/Industrie | 90% | 310 | 310 | 1'090 |
+| Gewerbe/Industrie | **50%** | **90** | **90** | **260** |
+| Gewerbe/Industrie | 10% | 80 | 60 | 60 |
+
+Bemerkenswerte Auffälligkeit: In Langenthal liegt der Median für **EFH-Bauland (840)
+deutlich über jenem für MFH-Bauland (530)**. Das ist die klassische Signatur eines Marktes
+mit tiefen Mietpreisen: bei einer Miete von 179 CHF/m2a rechtfertigt die Residualrechnung
+für die verdichtete Wohnbauzone weniger Landwert als der Eigenheimmarkt zahlt.
+
+Halbjahresreihe MFH-Bauland Langenthal (10/50/90%, CHF pro m2): 2018/1 330/360/630 ·
+2018/2 340/380/620 · 2019/1 350/390/620 · 2019/2 370/400/640 · 2020/1 380/420/650 ·
+2020/2 380/410/630 · 2021/1 410/440/680 · 2021/2 440/480/730 · 2022/1 470/510/790 ·
+2022/2 490/530/850. HOH +4.3 / +3.9 / +7.6 Prozent, YOY +11.4 / +10.4 / +16.4 Prozent.
+Das MFH-Bauland in Langenthal hat sich von 2018/1 bis 2022/2 im Median um 47 Prozent verteuert.
+
+Halbjahresreihe Gewerbe-Bauland Langenthal (10/50/90%): 2018/1 100/120/520 · 2018/2 100/120/510 ·
+2019/1 100/120/490 · 2019/2 100/120/470 · 2020/1 100/110/460 — hier praktisch stagnierend
+beziehungsweise am oberen Rand rückläufig.
+
+### 3.5 Was in beiden Reports NICHT enthalten ist
+
+- **Keine Kantons-Spalte in den Preisspektren.** Die Preisspektren zeigen nur Gemeinde,
+  MS-Region und Schweiz. Der Kanton BE erscheint ausschliesslich bei den Baulandpreisen.
+- **Keine Renditen, keine Kapitalisierungssätze, keine Leerstandsquoten, keine
+  Angebotsquoten, keine Bevölkerungs-/Beschäftigtendaten, kein Makrolagenrating,
+  keine Steuerbelastung.** Diese Module wurden nicht bestellt.
+- **Keine Kostenkennwerte** (weder BKP noch CHF/m3).
+- **Keine Healthcare-Nutzungen** (Alters-/Pflegeheim, Klinik) — die Standortinformation
+  kennt nur Wohnen (Miete, EWG, EFH) und Geschäft (Büro, Gewerbe, Verkauf).
+- Diemtigen: **keine Mietwohnungs- und keine Eigentumswohnungs-Preisspektren**, keine
+  Baulandpreise.
+- Langenthal: **keine Preisindizes/Indexreihen** überhaupt.
+- Der Dateiname `Standortinformation-Diemtigen -- Oey-762.pdf` enthält den Zusatz «Oey-762»
+  (Ortsteil Oey, vermutlich Parzelle 762). Im PDF selbst ist **nur die Gemeinde Diemtigen**
+  gewählt, keine Parzelle. Der Report ist gemeindeweit, nicht objektbezogen.
+
+---
+
+## 4 Kostenbenchmarks Wohnbau — Abgleich mit der Hub-Referenz
+
+**Dateien im Quellordner** (`Kostenbenchmarks/`):
+
+| Datei | Art | Datum |
+|---|---|---|
+| `260607_Kostenbenchmarks-Wohnbau_Zusammenfassung-Wuest.pdf` | JANS-Erzeugnis, 2 Seiten | 07.06.2026 |
+| `260607_Kostenbenchmarks-Wohnbau_Zusammenfassung-Wuest.docx` | dasselbe als DOCX | 07.06.2026 |
+| `2_Immo_02_P23D_Praesentation_Nextcloud-Seite32.pdf` | Wüest-Academy-Originalfolie, Bild-PDF | abgelegt 29.12.2023 |
+| `...Seite33.pdf` | dito | dito |
+| `...Seite34.pdf` | dito | dito |
+| `Bildschirmfoto 2025-03-25 um 16.16.38.png` | Spread-Grafik Massiv/Holz | 25.03.2025 |
+
+### 4.1 Verhältnis PDF/DOCX zur Hub-Referenz
+
+**Kein reines Duplikat.** PDF und DOCX sind inhaltsgleich (dieselben sechs Abschnitte,
+dieselben Tabellen); die DOCX ist die Quelle, das PDF der Export.
+
+**Die Hub-Referenz `/Volumes/daten/jans-ai-hub/skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`
+ist der Superset.** Sie enthält alles aus dem PDF und zusätzlich:
+- die **vollständige Reihe Q1.0 bis Q5.0** (das PDF nennt nur Q1.5/Q3.0/Q4.5 und verweist
+  für den Rest auf «Quelle S. 33 (Anhang)»),
+- den Abschnitt 3b (GV-Basis, Wüest/Lignum/BAFU 25.09.2025) mit dem ungeklärten
+  Spreizungsbefund,
+- die Richtigstellungen vom 30.07.2026 (Wissens-Chef Run 21) zu den Prozent-Deltas.
+
+Das PDF/DOCX-Paar ist damit ein **eingefrorener Vorstand** vom 07.06.2026. Für die Arbeit
+gilt die MD-Referenz; das PDF ist nur die präsentierbare Fassung mit Chart.
+
+### 4.2 Die «abgelesenen» Näherungswerte — sie können jetzt durch exakte Quantile ersetzt werden
+
+Abschnitt 3 der Hub-Referenz (und des PDF) trägt selbst den Vorbehalt «aus Spread abgelesen».
+Diese Werte stammen aus derselben Wüest-Studie wie Quelle 1 dieses Berichts. Der Abgleich:
+
+| Zeile | Hub-Referenz abgelesen (unterer / Median / oberer) | Exakt aus Quelle 1, S. 18/36 (10% / 50% / 90%) | Abweichung Median |
+|---|---|---|---|
+| Massivbau 2023 | ≈ 3'500 / ≈ 4'500 / ≈ 7'000 | **3'100 / 4'492 / 6'900** | +0.2% |
+| Holzbau 2023 | ≈ 4'700 / ≈ 5'400 / ≈ 6'700 | **4'749 / 5'466 / 6'587** | −1.2% |
+| Holzbau unteres Preissegment | ≈ 4'600 / ≈ 5'000 / ≈ 5'400 | **4'687 / 4'980 / 5'499** | +0.4% |
+| Holzbau oberes Preissegment | ≈ 5'200 / ≈ 6'200 / ≈ 6'700 | **5'561 / 6'506 / 6'653** | −4.7% |
+
+Die Mediane wurden gut abgelesen. Die grössten Fehler liegen an den Rändern: der «untere»
+Massivbau-Wert 3'500 gegen exakt 3'100 (+12.9 Prozent zu hoch) und der «untere» Wert des
+oberen Holzbau-Segments 5'200 gegen exakt 5'561 (−6.5 Prozent zu tief).
+
+**Empfehlung: Abschnitt 3 der Hub-Referenz auf die exakten Quantile umstellen**, mit
+Fundstelle «Wüest Partner/Lignum/BAFU, Holzbaukennzahlen für Investoren, Wohnbauten Teil 1/2,
+26.04.2024, S. 18 und 36, Preisstand April 2023», und die volle 10/30/50/70/90-Reihe statt
+des Dreispalters übernehmen. Damit fällt der Vorbehalt «abgelesen» weg.
+
+**Folgekorrektur der Prozent-Deltas:** Die Hub-Referenz nennt für das obere Preissegment
++38 Prozent gegenüber Massivbau (aus 6'200 zu 4'500). Exakt gerechnet: **6'506 zu 4'492 =
++44.8 Prozent**. Für das untere Preissegment: 4'980 zu 4'492 = **+10.9 Prozent** (die
+Referenz nennt +11 Prozent, das stimmt). Für Holzbau gesamt: 5'466 zu 4'492 = **+21.7 Prozent**
+(die Referenz spricht von «rund 10 bis 20 Prozent», das ist am unteren Rand zu tief).
+
+### 4.3 Ein wahrscheinlicher Etikettenfehler in der Hub-Referenz: Q1.0 bis Q5.0 sind keine Quantile
+
+Die Hub-Referenz führt die Wüest-Dimensions-Reihe als «Quantile Q1.5 (≈ unteres Segment) /
+Q3.0 (Median) / Q4.5 (≈ oberes Segment)». Die visuelle Prüfung der Originalfolie
+(`...Seite33.pdf`, Wüest Academy P23D S. 33) zeigt: die Achse trägt die Werte 1.0 / 1.5 /
+2.0 / 2.5 / 3.0 / 3.5 / 4.0 / 4.5 / 5.0 als Farbrampe unter der Überschrift «Wüest Dimensions,
+Übersicht Kostenbenchmarks».
+
+Dieselbe 1.0-bis-5.0-Skala erscheint in den Wüest-Dimensions-Residualwert-Reports aus
+Quelle 1 als **Ausbaustandard**: dort steht in der Investitionskostentabelle in der Spalte
+«Standard» der Eintrag «**3.0 - Durchschnittlich**» (S. 87, 98, 103). Es handelt sich also
+mit hoher Wahrscheinlichkeit um die **Wüest-Standard-/Ausbaugradskala**, nicht um
+statistische Quantile. Der Wert 4'360 wäre dann «Kosten bei durchschnittlichem
+Ausbaustandard 3.0», nicht «Median der Stichprobe».
+
+Die Folie selbst spricht allerdings von «Median bei rund CHF 4'400/m2 HNF BKP 1-5» und meint
+damit den 3.0-Wert (4'360, aufgerundet). Wüest verwendet den Begriff also selbst unscharf.
+
+**Status: begründeter Verdacht, nicht belegt.** Eintrag für `wiki/QUESTIONS.md` bzw.
+`wissensluecken.md`: Ist die Reihe Q1.0 bis Q5.0 in Wüest Dimensions eine Quantil- oder eine
+Ausbaustandard-Skala? Klärung über Wüest Partner oder das vollständige Immo-Monitoring P23D.
+Solange ungeklärt, sollte die Hub-Referenz die Bezeichnung «Q1.0 bis Q5.0 (Wüest-Skala,
+Bedeutung ungeklärt)» tragen statt «Quantile».
+
+Die Folie nennt zudem ausdrücklich «Gemäss umfassender Baukosten-Analyse mit **Daten bis
+2021**» und beschriftet die Zeilen mit «**2022**: Wohnen Vollausbau». Der Preisstand dieser
+Reihe ist damit 2021/2022, **nicht** April 2023 wie bei Quelle 1. Die beiden Datensätze
+dürfen nicht ohne Indexierung nebeneinandergestellt werden.
+
+### 4.4 Teuerungsaussagen — Originalfolie S. 32 verifiziert
+
+Die Folie «Steigende Baukosten» (P23D S. 32, **Stand April beziehungsweise Oktober 2022**,
+Quellen BFS und Wüest Partner) belegt wortgetreu:
+- Seit 2021 steigen die Wohnbaukosten ungewöhnlich stark; ältere Kostenbenchmarks sind
+  heute um mindestens **10 Prozent** anzuheben.
+- Wegen anspruchsvollerer Baustandards und gestiegener Bedürfnisse wird zusätzlich zur
+  statischen Bauteuerung um **weitere 10 bis 15 Prozent** teurer gebaut als vor 10 Jahren.
+- Zürcher Index der Wohnbaupreise, Neubauten: **+8.3 Prozent** von Oktober 2021 bis
+  Oktober 2022.
+- Fazit der Folie: Wohnbauprojekte 2023 rund **+30 Prozent** teurer als vor 10 Jahren.
+- Grafik: Wohnbauinvestitionsindex nach Nutzung, Index 1. Halbjahr 2012 = 100; Mietwohnungen
+  und Eigentumswohnungen erreichen 2022 rund 122 beziehungsweise 127, der BFS-Baupreisindex
+  nur rund 111.
+- Verweis auf Wüest Partner Immo-Monitoring, Ausgabe 2023 | 1, «Baupreissteuerung».
+
+Alle vier Teuerungsaussagen der Hub-Referenz sind damit an der Originalquelle verifiziert.
+
+---
+
+## 5 Regionenkarte — Wüest-Regionensystematik
+
+**Datei:** `Regionkarte/regionenkarte.pdf`, 1 Seite, PDF erstellt **11.08.2008**.
+Die Karte ist damit die älteste Datei im Bestand; die Systematik selbst ist bis heute in
+Gebrauch (die Standortinformationen von 2023 verwenden dieselben Begriffe MS-Region und
+Monitoring-Region).
+
+Verbindlicher Wortlaut der Systematik:
+- Die Schweiz wird für den Marktbericht in **106 MS-Regionen** aufgeteilt («mobilité
+  spatiale»-Modell).
+- Quelle des Modells: **Schuler/Joye, Die Raumgliederungen der Schweiz, BFS, Bern 1994.**
+- Die MS-Regionen werden zu **8 Marktregionen («Monitoring-Regionen»)** zusammengefasst.
+
+Die acht Monitoring-Regionen von Wüest Partner:
+
+| Nr. | Region |
+|---|---|
+| 1 | Region Zürich |
+| 2 | Region Ostschweiz |
+| 3 | Region Innerschweiz |
+| 4 | Region Nordwestschweiz |
+| 5 | Region Bern |
+| 6 | Region Südschweiz |
+| 7 | Region Genfersee |
+| 8 | Region Westschweiz |
+
+Die Karte selbst zeigt die 106 nummerierten MS-Regionen flächig eingefärbt nach
+Monitoring-Region; eine Namensliste der einzelnen MS-Regionen enthält das Blatt nicht.
+
+Praktische Bestätigung aus Quelle 3: Diemtigen liegt in der **MS-Region Thun**, Langenthal in
+der **MS-Region Oberaargau**; beide fallen in die **Monitoring-Region Bern** (im
+Diemtigen-Report als Indexregion ausgewiesen). Für Büroflächen verwendet Wüest zusätzlich
+eine eigene Gliederung, die **Büromarktregionen** (im Diemtigen-Report «Büromarktreg. Bern»).
+Das sind drei verschiedene Ebenen und dürfen nicht verwechselt werden: MS-Region (106) für
+Preisspektren, Monitoring-Region (8) für Wohn-Indizes, Büromarktregion für Geschäftsindizes.
+
+---
+
+## 6 Wüest-Reports-Zugänge und das hedonische Portal
+
+### 6.1 `Wuest Reports/Wuest_Reports.docx`
+
+Enthält keinen Text, nur zwei Links (abgelegt 26.03.2025):
+- Reports-Katalog: `https://www.wuest.io/reports/#/home?catalogCountry=CH&currency=CHF`
+- Immo-Monitoring-Abo (1 Benutzer): `https://www.wuestpartner.com/ch-de/produkt/immo-monitoring-abo-1-benutzer/`
+
+Preise sind in der Datei **nicht** vermerkt.
+
+### 6.2 `Wuest Reports/Hedonic/https.docx`
+
+Enthält als einzigen Inhalt den Link `https://wuestpartner-hedonic.wuestappraisal.com/`
+(abgelegt 13.06.2026).
+
+### 6.3 Das Hedonic-Portal — Preise und Modellgrenzen
+
+Belegt durch sechs Screenshots vom **15.06.2026** (`Bildschirmfoto 2026-06-15 um 10.31.56`
+bis `10.33.01.png`) und einen Ausschnitt vom 13.06.2026 (`260613 um 13.51.32.jpg`).
+
+**Produkt:** «Hedonische Marktwertschätzung», Wüest Partner, unter
+`wuestpartner-hedonic.wuestappraisal.com`. Sprachen DE/FR/IT/EN.
+Selbstbeschreibung: umfassende Immobilienbewertung in wenigen Schritten plus Zugang zur
+interaktiven Standortanalyse; die hedonischen Bewertungsfunktionen von Wüest Partner
+basieren auf **effektiven Immobilientransaktionen**.
+
+**Preise (Stand 15.06.2026):**
+
+| Leistung | Preis |
+|---|---|
+| Hedonische Marktwertschätzung | **CHF 450, zuzüglich MWST** |
+| Sanierungs- und Nachhaltigkeitsanalyse (Zusatzmodul) | **zusätzlich CHF 150, zuzüglich MWST** |
+
+Inhalt des Zusatzmoduls laut Portal: Übersicht, welche Bauteile als nächstes saniert werden
+sollten, mit welchen Sanierungskosten zu rechnen ist, welche Fördergelder für energetische
+Massnahmen zur Verfügung stehen und welche Steuerersparnisse möglich sind; dazu die Reduktion
+des Wärmebedarfs und der CO2-Emissionen.
+
+**Abdeckung:** nur **Einfamilienhaus** und **Eigentumswohnung**. Renditeobjekte, MFH,
+Geschäftsliegenschaften und Healthcare-Nutzungen sind **nicht** abgedeckt.
+
+**Erfasste Merkmale (was ins Modell eingeht):**
+- Adresse, Standort per Karten-Marker («Das Bewertungsmodell berücksichtigt die
+  kleinräumlichen Lageeigenschaften»)
+- Immobilientyp, Haustyp, Erst- oder Zweitwohnsitz (Nutzungsbeschränkungen nur in
+  Tourismusgebieten relevant)
+- Grundstücksfläche, Zimmerzahl total, davon Zimmerzahl Einliegerwohnung
+- Gebäudevolumen, Wohnfläche (eine der beiden Angaben darf fehlen)
+- Parkierung: Garagenplätze im Gebäudevolumen enthalten / in separatem Gebäude auf dem
+  Grundstück / ausserhalb des Grundstücks; Aussenparkplätze auf dem Grundstück /
+  ausserhalb
+- Ausbaustandard je Bauteil: Küche, Nasszellen (Anzahl nach Typ), Bodenbeläge,
+  Aussenbereich/Umgebung
+- Grundrissqualität: Raumhöhe, Grundriss
+- Energie-Zertifizierung
+- Wärme: Wärmeerzeugung, Wärmeabgabe; weitere Ausstattungen
+- Baujahr, durchgeführte Sanierungen
+- Baurechtssituation
+
+**Datenherkunft für Vorbefüllung:** «Wo möglich, leiten wir Angaben zur Objektgrösse,
+Wärmeerzeugung und Baujahr anhand der Adresse aus dem eidgenössischen Gebäude- und
+Wohnungsregister (**GWR**, Bundesamt für Statistik), **a2-c** oder **geodienste.ch** ab.
+Vollständigkeit und Korrektheit der Angaben können nicht garantiert werden.»
+
+**Die Modellgrenzen — der wichtigste Befund für die KB.** Wörtlich sinngemäss auf der
+Seite «Besonderheiten und weitere Angaben»:
+
+> Die erfassten Besonderheiten dienen zur Dokumentation der Liegenschaft. In der hedonischen
+> Bewertung werden **nur die Angaben zur Baurechtssituation wertmässig berücksichtigt**. Bei
+> den weiteren Besonderheiten wären detailliertere Angaben notwendig, diese werden deshalb
+> **wertmässig nicht berücksichtigt**.
+
+Konkret gehen die folgenden, unbestreitbar wertrelevanten Sachverhalte **nicht** in den
+hedonischen Wert ein:
+
+| Kategorie | Merkmal | Wertwirksam? |
+|---|---|---|
+| Dienstbarkeiten | Objekt im **Baurecht** | **ja** |
+| Dienstbarkeiten | Objekt im **Wohnrecht** | nein, nur Dokumentation |
+| Dienstbarkeiten | Objekt im **Nutzniessungsrecht** | nein |
+| Dienstbarkeiten | **Wertvermindernde Servitute** | nein |
+| Weitere Angaben | Objekt **ausserhalb der Bauzone** | nein |
+| Weitere Angaben | **Ausbaureserven vorhanden** | nein |
+
+Ebenfalls nur als Referenzwert erfassbar, ohne Modellwirkung: Freihandtransaktion,
+Gebäudeversicherungswert, Steuerwert, andere Bewertung.
+
+**Folgerung für JANS:** Bei jedem Objekt mit Wohnrecht, Nutzniessung, wertvermindernder
+Dienstbarkeit, Lage ausserhalb der Bauzone oder ungenutzter Ausnützungsreserve ist der
+hedonische Wert von Wüest **systematisch verzerrt** und muss durch eine eigene Korrektur
+ergänzt werden. Genau diese Sachverhalte sind das Kerngeschäft der JANS-Bewertung
+(Ausbaureserve → Residualwert, Servitut → Agent `dienstbarkeiten-pruefer`,
+ausserhalb Bauzone → Bestandesschutz). Das hedonische Modell ist damit ein
+**Plausibilisierungssignal für Standardobjekte**, kein Ersatz für das Gutachten.
+
+Weiterer erfasster Punkt: «Grund der Bewertung» (Kaufabsicht, Verkaufsabsicht,
+Wertüberprüfung als Eigentümer, Erbteilung, anderer Hintergrund), Mehrfachauswahl.
+Bestellung mit Personendaten, AGB- und Datenschutzbestätigung sowie Einwilligung, dass die
+Daten zu Bewertungs- und technischen Zwecken durch die Wüest Partner AG bearbeitet werden.
+
+**Nicht gelesen:** `Wuest Reports/Hedonic/WuestPartnerAG_Appraisal_Long_Beispiel_EFH.pdf`
+(Beispielreport, in einem anderen Lauf erfasst, hier nur als Duplikat vermerkt).
+
+---
+
+## 7 Zuordnung zu den Wiki-Artikeln
+
+| Befund | Zielartikel | Art |
+|---|---|---|
+| HNF/GF = 0.75 statt 0.70, Spanne 0.70 bis 0.80, Obergrenze 0.79 | `flaechendefinitionen-sia` | **Korrektur** eines kanonischen Werts |
+| BKP 1-5 und BKP 2 Quantilreihen Holz/Massiv je HNF, GF, GV, Preisstand April 2023 | `realwert-sachwert` | Erweiterung, ersetzt abgelesene Werte |
+| BKP 214, TG-/PV-Sensitivitäten, Einstellplatz- und Stellplatzkennwerte | `realwert-sachwert` | Erweiterung |
+| Vollständige Residualwert-Kaskade dreier Wüest-Dimensions-Reports, Stichtag 01.09.2023 | `residualwertmethode` | grosse Erweiterung, erstes vollständiges Muster |
+| Nebenkosten Erwerb 1.00%, Finanzierungssätze 1.30 bis 3.20%, Bauherrenleistungen 1.56 bis 1.58%, Erstvermietung 10%, Sammelpositionen 4.30% und 5.70% | `residualwertmethode` | neue Ansatz-Tabelle |
+| Risiko/Gewinn 7% Bestand gegen 8% Neubau, auf BKP 1-5; Risikonote-Struktur mit Gewichtung 40/20/40 | `residualwertmethode` | Erweiterung |
+| Betriebskosten 5.5% Soll, Unterhalt CHF 20/m2, Instandsetzung CHF 40/m2; Brutto- zu Netto-Spread 0.49 Prozentpunkte | `ertragswert-dcf` | Erweiterung |
+| Brutto-Kapitalisierungssätze 2.56 bis 2.59% gesamt, 2.58/2.59% Wohnen, 2.45% Gewerbe, 2.16/2.21% Parken | `ertragswert-dcf` | Erweiterung |
+| Bruttoanfangsrendite Neubau (Median 3.16%) gegen Transaktionen (Median 3.71%), 2022/23 | `investorenmarkt-makro` | Erweiterung |
+| Landwert in Prozent Anlagewert 65 bis 80%; Landwert pro m2 GSF 39'890 bis 46'178 im Grosszentrum | `lageklasse-landwertanteil` | Erweiterung |
+| Lageklassen-Kurve Landwert/Neubauwert 0 bis 10 (nur Grafik) | `lageklasse-landwertanteil` | Verweis |
+| EFH-/EWG-/Miet-/Geschäfts-Preisspektren Diemtigen und Langenthal, Erhebungsstand 31.03.2023 | `marktdaten-gemeinden/` | **zwei neue Gemeindeblätter** |
+| Schweizer Referenzwerte 2022/23: Miete 190 CHF/m2a, Leerstand 1.9%, Angebotsquote 5.5%, EFH-Median 7'140 CHF/m2 | `investorenmarkt-makro` | Erweiterung, doppelt belegt |
+| Baulandpreise Langenthal, ausdrücklich residual modelliert; EFH-Bauland über MFH-Bauland | `residualwertmethode` + `lageklasse-landwertanteil` | Erweiterung |
+| Wüest-Regionensystematik: 106 MS-Regionen, 8 Monitoring-Regionen, dazu Büromarktregionen; Schuler/Joye BFS 1994 | `datenquellen-registry` | neuer Abschnitt |
+| Hedonic-Portal: CHF 450 plus 150, nur EFH/EWG, GWR/a2-c/geodienste-Vorbefüllung | `vergleichswert-hedonisch` + `datenquellen-registry` | Erweiterung |
+| Modellgrenzen hedonisch: nur Baurecht wertwirksam; Wohnrecht, Nutzniessung, Servitute, ausserhalb Bauzone, Ausbaureserven gehen NICHT ein | `vergleichswert-hedonisch` | **zentrale Erweiterung** |
+| PDF-Ziffernpermutation in Anhang E, Seiten 88 bis 92 | `datenquellen-registry` + `wissensluecken` | Werkzeug-Fallstrick |
+| Q1.0 bis Q5.0 vermutlich Ausbaustandard-Skala, nicht Quantile | `wissensluecken` / `QUESTIONS` | offene Frage |
+| Anfrage Altersheim-Kennwerte an Wüest seit 02.05.2024 ohne belegte Antwort | `wissensluecken` | offene Bring-Schuld |
+| BKP 2 der Holzbaustudie enthält die Planungskosten (über 90% der Gesamtkosten) | `projektstruktur-deliverables` + `realwert-sachwert` | Abgrenzungshinweis |
+| Bauzeit-Effekt: ein halbes Jahr kürzer entspricht rund CHF 200/m2 HNF | `projektstruktur-deliverables` | Erweiterung |
+
+**Vorschlag für einen neuen Artikel:** `wiki/kostenkennwerte-holzbau-wohnen.md`. Begründung:
+die Quantilreihen aus Quelle 1 sind umfangreich (sechs Tabellen mit je sechs Reihen plus
+Sensitivitäten), tragen alle denselben Preisstand und dieselbe Bereinigungslogik und würden
+den Artikel `realwert-sachwert` (bereits 34 KB) sprengen. Der neue Artikel verlinkt nach
+`realwert-sachwert`, `flaechendefinitionen-sia` und `residualwertmethode`.
+
+## 8 Offene Punkte für `wissensluecken.md` / `QUESTIONS`
+
+1. Publiziert Wüest Partner Kostenkennwerte für **Altersheime/Pflegeheime**? Anfrage vom
+   02.05.2024 an nikola.haefeli@wuestpartner.com ohne belegte Antwort im Bestand.
+2. Sind **Q1.0 bis Q5.0** in Wüest Dimensions Quantile oder die Ausbaustandard-Skala
+   (3.0 = durchschnittlich)? Konsequenz für die Auslegung von CHF 4'360/m2 HNF.
+3. Der **Preisstand April 2023** ist zum Zeitpunkt der Nutzung (2026) rund drei Jahre alt.
+   Fortschreibungsfaktor über den BFS-Baupreisindex für Wohnbauten nach Grossregion
+   (getrennt Holz und Massiv) ist noch nicht ermittelt.
+4. Zur **Lageklassen-Kurve** aus dem Wüest-Dimensions-Report liegt nur die Grafik vor, keine
+   Wertetabelle. Ist die Kurve (Landwert/Neubauwert über Lageklasse 0 bis 10, rund 100% bei
+   Klasse 8, rund 160% bei Klasse 10) anderswo tabelliert?
+5. Die Diemtigen-Seiten 6 bis 30 (ausführliche Angebotspreisindizes) sind hier nur strukturell
+   erfasst, nicht transkribiert. Bei einer konkreten Berner Bewertung nachziehen.
+6. Der Dateiname `Standortinformation-Diemtigen -- Oey-762.pdf` deutet auf ein konkretes Objekt
+   in Oey (Parzelle 762). Der Report selbst ist gemeindeweit. Welches JANS-Projekt steht
+   dahinter, und existiert dazu eine Objektbewertung?
