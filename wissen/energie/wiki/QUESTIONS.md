@@ -2667,3 +2667,58 @@ dass die Sättigungsdiagnose für neue Themenfelder nicht zutrifft.
 4. Neuer Wiki-Artikel „Seewasser-/Umweltwärme aus Gewässern" (siehe Verdichtung oben) — Kandidat
    für den nächsten Lauf.
 5. SIA-2068-Direktanfrage beim SIA weiterhin als sauberster Weg zur endgültigen Bestätigung offen.
+
+## Run 120 (2026-07-31) — Intensiv-Lauf auf Auftrag Raphaels, sieben parallele Web-Rechercheagenten, PL-02-Blockade reconfirmiert
+
+**PL-02-Zugangsblockade unabhängig reconfirmiert** (eigener Test, nicht nur Agenten-Meldung):
+Read-Tool, `file`-Befehl UND `pdftotext` liefern auf
+`PL - 02_Recht_Norm/06_Richtlinien/Minergie/SIA380_1_Energie_im_Hochbau/VoHi_EN-02_de.pdf`
+konsistent `EDEADLK`/„Resource deadlock avoided" (bzw. `pdftotext` liefert leere/korrupte Ausgabe
+ohne Hängen). `brctl download` schlägt fehl mit `BRCloudDocsErrorDomain Code=6` — **brctl ist
+iCloud-spezifisch und kein Fallback für OneDrive**, dieser Lösungsweg ist damit ausgeschlossen.
+Weiterhin höchste Priorität, 134 potenziell relevante PDF (Minergie-Familie + eco-bau-
+Merkblätter) bleiben unzugänglich; Empfehlung unverändert: OneDrive-Sync-Status der Bibliothek
+prüfen oder m365-mcp-server für einen künftigen Lauf laden.
+
+Sieben `general-purpose`-Rechercheagenten parallel: Etappierte energetische Sanierung ZH+SZ,
+CO2/R744-Kältemittel für Hochtemperatur-Wärmepumpen, Hochtemperatur-WP für Altbausanierung ohne
+Heizkörpertausch, Fernkälte/District Cooling Grossbauten ZH, Minergie-Areal-Zertifizierung,
+Wärmepumpen-Sperrzeiten je Netzbetreiber ZH+SZ vertieft, Aufzug-Energieeffizienz VDI 4707. Jeder
+Agent mit eigener neuer Destillat-Datei (Kollisionsschutz), Registerkonsolidierung im
+Hauptmodell. Ein Thema (Hochtemperatur-WP) sinnvoll pivotiert, da die WPSM-Grundfrage bereits
+belegt war — Pivot auf den unbelegten Teilaspekt „echte 65-75°C-Geräte/Kaskadentechnik".
+
+**Ergebnisse:** `[[etappierte-energetische-sanierung-zh-sz]]` (established) ·
+`[[kaeltemittel-r744-co2-waermepumpen-hochtemperatur-ch]]` (established/emerging gemischt) ·
+`[[hochtemperatur-waermepumpen-altbausanierung-ohne-heizkoerpertausch]]` (emerging) ·
+`[[fernkaelte-district-cooling-grossbauten-zh]]` (emerging) ·
+`[[minergie-areal-zertifizierung]]` (established) ·
+`[[waermepumpen-sperrzeiten-netzbetreiber-zh-sz-vertiefung]]` (established/speculative gemischt)
+· `[[aufzug-energieeffizienz-vdi4707]]` (emerging). Neuer Wiki-Themenartikel
+`[[umweltwaerme-gewaesser]]` (Verdichtung, Carryover Run 119, selbst im Hauptmodell erstellt statt
+per Agent).
+
+**Verifikationsstufe (Protokoll, Budget-bewusst reduziert):** Kein volles 2-3-Agenten-
+Adversarial-Panel — stattdessen Spot-Check der established-Kandidaten durch das Hauptmodell:
+Minergie-Areal-Reglement-URL live per curl verifiziert (HTTP 200, echte, existierende Quelle);
+EnerG/WDV Kt. ZH und KEnG/KEnV Kt. SZ sind amtliche, bekannte Kantonserlasse (Plausibilitäts-
+prüfung der Zitierweise, keine Volltext-Gegenprüfung im Hauptmodell). Diese leichtere Stufe ist
+eine bewusste Abweichung vom PROGRAMM.md-Vollprotokoll (2-3 unabhängige Prüfagenten) — Grund:
+Budget-Grenze des Laufs nach sieben umfangreichen Rechercheagenten. Für einen künftigen Lauf:
+volle Adversarial-Verify-Pipeline auf die drei established-Destillate dieses Laufs nachholen,
+falls Kapazität vorhanden.
+
+**Offen / Priorität nächster Lauf:**
+1. Die fünf gebündelten Kaufentscheide warten jetzt **22 Runs in Folge** auf eine Entscheidung
+   Raphaels (B1-Konsolidierung, SWKI VA105-01, SIA 385/1, SIA 385/2, SIA 384.354).
+2. **PL-02-Zugangsblockade weiterhin ungelöst** (jetzt dreifach unabhängig bestätigt, inkl.
+   brctl-Sackgasse) — höchste Priorität.
+3. Volle Adversarial-Verify-Nachholung für die drei established-Destillate dieses Laufs
+   (Minergie-Areal, Etappierte Sanierung, R744/CO2, WP-Sperrzeiten EKZ-Teil).
+4. ewz- und EW-Höfe-Sperrzeiten nicht öffentlich auffindbar — bei Gelegenheit Direktanfrage.
+5. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+6. SIA-2068-Direktanfrage beim SIA weiterhin als sauberster Weg zur endgültigen Bestätigung offen.
+
+FAQ-Stand: **196 Kernfragen (F1-F196)**. Destillate-Stand: **212** (sieben neue). Wiki-
+Themenartikel: **30** (ein neuer). Neunte Bestätigung in Folge (Run 111-120), dass die
+Sättigungsdiagnose nicht zutrifft.

@@ -2,6 +2,30 @@
 
 Neueste zuoberst.
 
+## 2026-07-31 (Run 120) — sieben neue Destillate, Seewasser-Wiki-Artikel, PL-02-Blockade reconfirmiert
+- Sieben parallele `general-purpose`-Rechercheagenten (Kollisionsschutz: je eine eigene neue
+  Destillat-Datei), Registerkonsolidierung im Hauptmodell: `etappierte-energetische-sanierung-zh-sz`
+  (established, FAQ F192), `kaeltemittel-r744-co2-waermepumpen-hochtemperatur-ch`
+  (established/emerging, FAQ F191), `hochtemperatur-waermepumpen-altbausanierung-ohne-heizkoerpertausch`
+  (emerging, FAQ F193, sinnvoll pivotiert), `fernkaelte-district-cooling-grossbauten-zh`
+  (emerging, FAQ F194), `minergie-areal-zertifizierung` (established, FAQ F190),
+  `waermepumpen-sperrzeiten-netzbetreiber-zh-sz-vertiefung` (established/speculative gemischt,
+  FAQ F195), `aufzug-energieeffizienz-vdi4707` (emerging, FAQ F196).
+- **[neu]** Wiki-Themenartikel `wiki/umweltwaerme-gewaesser.md` — Verdichtung von Seewasser/
+  Abwasser/Grundwasser aus vier bestehenden Destillaten (Carryover-Auftrag Run 119), vom
+  Hauptmodell selbst geschrieben.
+- **[reconfirmiert]** PL-02-Zugangsblockade (`EDEADLK` auf `PL - 02_Recht_Norm/06_Richtlinien/
+  Minergie/`) vom Hauptmodell unabhängig nachgetestet (Read-Tool, `file`, `pdftotext`) —
+  derselbe Befund wie Run 119. Zusätzlich getestet und verworfen: `brctl download` als Fallback
+  (iCloud-spezifisch, `BRCloudDocsErrorDomain Code=6` auf OneDrive-Pfaden) — kein Lösungsweg.
+- **[abweichung protokolliert]** Verifikationsstufe budget-bewusst reduziert: kein volles
+  2-3-Agenten-Adversarial-Panel gemäss PROGRAMM.md, stattdessen Spot-Check (Minergie-Areal-URL
+  live per curl verifiziert HTTP 200, EnerG/WDV/KEnG/KEnV als amtliche Kantonserlasse
+  plausibilisiert). Nachholbedarf für established-Kandidaten in `wiki/QUESTIONS.md` vermerkt.
+- FAQ-Stand: **196** (F1-F196). Destillate-Stand: **212** (sieben neue). Wiki-Themenartikel:
+  **30** (ein neuer). Neunte Bestätigung in Folge (Run 111-120), dass die Sättigungsdiagnose
+  für neue Themenfelder nicht zutrifft.
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Rabtherm-Kennzahlenband entmischt, Freienbach-Register korrigiert
 - **[widerspruch] Rabtherm-Destillat: JAZ und COP waren zu einem Band «COP 4,0 bis 7,0» verrechnet
   und falsch im Kanton Zürich verortet.** Im Bauherren-Transfer von

@@ -3,10 +3,19 @@
 Kompilierte Themen-Artikel und die Bauherren-FAQ. Speist sich aus `destillate/`.
 
 ## Kernprodukt
-- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-27 (Run 116): 171 Kernfragen F1–F171, 186 Destillate**; ⚠ die Destillat-Zahl wurde in Run 116 nachgezählt und um eins nach unten korrigiert — die bisherige Serie hatte `destillate/INDEX.md` als Destillat mitgezählt; der Zuwachs von Run 115 auf 116 beträgt korrekt +4, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
+- [[BAUHERREN-FAQ]] — belegte Antworten auf Bauherren-Energiefragen · **established** (**Stand 2026-07-31 (Run 120): 196 Kernfragen F1–F196, 212 Destillate, 30 Wiki-Themenartikel**); ⚠ die Destillat-Zahl wurde in Run 116 nachgezählt und um eins nach unten korrigiert — die bisherige Serie hatte `destillate/INDEX.md` als Destillat mitgezählt; der Zuwachs von Run 115 auf 116 beträgt korrekt +4, primärquellenbelegt, je Intensiv-Lauf mehrere parallele Rechercheagenten plus adversariale Gegenprüfung bestehender Antworten). Diese Zeile nennt bewusst nur den aktuellen Stand statt jede Lauf-Ergänzung einzeln aufzulisten (Verdichtung statt additivem Wachstum, Rule `wissens-bibliothekar`) — die vollständige Lauf-für-Lauf-Historie mit allen Einzelergänzungen steht in `CHANGELOG.md` (neueste zuoberst).
 
 ## Themen-Artikel
-Echte eigenständige Wiki-Artikel (`wiki/*.md`), 29 Stück.
+Echte eigenständige Wiki-Artikel (`wiki/*.md`), 30 Stück.
+
+- [[umweltwaerme-gewaesser]] — **Umweltwärme aus Gewässern** (neu, Run 120 — Verdichtung von
+  Seewasser/Abwasser/Grundwasser-Destillaten, Carryover-Auftrag aus Run 119): Vergleichstabelle
+  See/Abwasser/Grundwasser nach Bewilligungspflicht ZH+SZ und Beleg-Reife; See immer konzessions-
+  pflichtig (WsG/WsV ZH paragraphengenau, WRG SZ ab 50 kW/<4 WE), Abwasser in ZH gut geregelt aber
+  in SZ **ungeregelt** (Negativbefund), Duschwasser-WRG gebäudeintern harmonisiert (pauschal 10 %
+  WW-Bedarf); durchgehende Lücke bei amtlichen COP/JAZ-Werten für alle drei Quellen · **emerging**
+  (Destillate `[[seewasser-waermenutzung-aquathermie-zh-sz]]`, `[[abwasserwaermenutzung-kanalisation-zh-sz]]`,
+  `[[abwasserwaerme-bewilligung-sz-vertiefung]]`, `[[rabtherm-abwasserwaerme-jaz-projekte]]`)
 
 - [[abwaermenutzung-gebaeude]] — **Abwärmenutzung am Gebäude: Rechtspflicht, Quellen, Planungsfolgen** (neu, Run 116 — Verdichtung von vier am selben Tag erschlossenen Destillaten): zweistufige Pflicht in ZH (§ 30a Abs. 1 BBV I allgemeine Nutzungspflicht für jede Baute · § 30a Abs. 2 BBV I seit 1.9.2022 Bereitstellung ab **2 GWh/a** zu Gestehungskosten, RRB Nr. 840); **MuKEn 2025 Art. 1.18 übernimmt beides nahezu wortgleich — ZH war rund drei Jahre Pionier**; amtliche Umrechnungshilfe **2 GWh ≈ ab 230 kW elektrischer Dauerleistung** (bzw. 1000 kW Abwärmeleistung × >2000 h/a) macht die Schwelle am Anschlussleistungs-Datenblatt prüfbar; **kein Wärmenetz-Bauzwang** (RRB 1324/2022, § 295 Abs. 2 PBG betrifft nur Abnehmer); vier Quellenprofile (Serverraum +25-35 °C indirekt → Anergienetz · Abwasser 10-20 °C ganzjährig, gebäudeintern bewilligungsfrei · Grossküchenabluft ETA 3 → Kreislaufverbund · Wäscherei zwei Drittel im Trocknen); Planungsfolgen Anschlussstelle unten am Gebäude, Dachflächen-Konkurrenz Rückkühler↔PV, Healthcare-Nebenräume als Prozessanlagen ausserhalb SIA 2024, Make-or-buy vor Raumprogramm (F168-F171) · **emerging** (Destillate `[[serverraum-rechenzentrum-kuehlung-abwaermenutzung-ch]]`, `[[abwasserwaermenutzung-kanalisation-zh-sz]]`, `[[grosskuechen-lueftung-abluft-wrg-ch]]`, `[[waescherei-prozessenergie-pflegeheim-spital-ch]]`; Rechtsteil primärquellen-verifiziert)
 
@@ -371,3 +380,26 @@ FAQ F189). Drei bestehende Wiki-Artikel erweitert (`heizleistung-und-waermeerzeu
 (Budget-bewusste Verdichtung, Seewasser als Kandidat vorgemerkt). Achte Bestätigung in Folge
 (Run 111-119), dass die Sättigungsdiagnose nicht zutrifft. Destillate-Stand: **205** (sieben
 neue). FAQ-Stand: **189**. Wiki-Themenartikel: **29** (unverändert, drei erweitert).
+
+## Run 120 (2026-07-31)
+
+Sieben parallele `general-purpose`-Rechercheagenten, jeder mit genau einer neuen Destillat-Datei
+(Kollisionsschutz), Registerkonsolidierung im Hauptmodell. **PL-02-Zugangsblockade unabhängig
+reconfirmiert:** eigener Test (Read-Tool, `file`, `pdftotext`) auf
+`PL - 02_Recht_Norm/06_Richtlinien/Minergie/` liefert weiterhin `EDEADLK`/„Resource deadlock
+avoided" — derselbe Befund wie Run 119, `brctl` (nur iCloud) ist kein Fallback für OneDrive.
+Sechs von sieben Themen echte neue Lücken (Redundanz-Check per grep bestätigt), ein Thema
+(Hochtemperatur-WP) sinnvoll auf einen unbelegten Teilaspekt pivotiert, da die WPSM-Grundfrage
+bereits abgedeckt war. `[[etappierte-energetische-sanierung-zh-sz]]` (established, FAQ F192) ·
+`[[kaeltemittel-r744-co2-waermepumpen-hochtemperatur-ch]]` (established/emerging, FAQ F191) ·
+`[[hochtemperatur-waermepumpen-altbausanierung-ohne-heizkoerpertausch]]` (emerging, FAQ F193) ·
+`[[fernkaelte-district-cooling-grossbauten-zh]]` (emerging, FAQ F194) ·
+`[[minergie-areal-zertifizierung]]` (established, FAQ F190) ·
+`[[waermepumpen-sperrzeiten-netzbetreiber-zh-sz-vertiefung]]` (established/speculative gemischt,
+FAQ F195) · `[[aufzug-energieeffizienz-vdi4707]]` (emerging, FAQ F196). Neuer Wiki-Themenartikel
+`[[umweltwaerme-gewaesser]]` (Verdichtung, Carryover Run 119) konsolidiert See/Abwasser/
+Grundwasser aus vier bestehenden Destillaten. Verifikationsstufe: leichter Spot-Check statt
+vollem Adversarial-Panel (Budget-Entscheid, siehe Report) — Minergie-Areal-Reglement-URL live
+verifiziert (HTTP 200), EnerG/WDV/KEnG/KEnV-Zitate als amtliche Kantonstexte plausibel. Neunte
+Bestätigung in Folge (Run 111-120), dass die Sättigungsdiagnose nicht zutrifft. Destillate-Stand:
+**212** (sieben neue). FAQ-Stand: **196**. Wiki-Themenartikel: **30** (ein neuer).

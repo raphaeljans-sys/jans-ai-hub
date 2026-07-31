@@ -2009,3 +2009,54 @@ Bestätigung in Folge (Run 111-119), dass die Sättigungsdiagnose nicht zutrifft
 3. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
 4. Neuer Wiki-Artikel „Seewasser-/Umweltwärme aus Gewässern" (Kandidat, siehe Verdichtung oben).
 5. SIA-2068-Direktanfrage beim SIA weiterhin offen.
+
+## D91 (Run 120, 2026-07-31) — sieben parallele Web-Rechercheagenten, PL-02-Blockade unabhängig reconfirmiert, Seewasser-Wiki-Artikel nachgeholt
+
+Intensiv-Lauf auf Auftrag Raphaels (Token-Vollgas/Workflow-Parallelisierung gemäss PROGRAMM.md).
+PL-02-Zugangsblockade vom Hauptmodell selbst nachgeprüft (nicht nur Agentenmeldung): `file`,
+`pdftotext` und Read-Tool liefern konsistent `EDEADLK`; `brctl download` als möglicher Fallback
+getestet und verworfen (iCloud-spezifisch, `BRCloudDocsErrorDomain Code=6` auf OneDrive-Pfaden).
+
+Sieben `general-purpose`-Agenten, jeder mit Redundanz-Check-Pflicht (grep vor Recherchestart) und
+genau einer neuen Destillat-Datei: **D91a Etappierte energetische Sanierung ZH+SZ** (EnerG/WDV ZH
++ KEnG/KEnV SZ amtlicher Volltext: Bagatellschwelle je Einzelvorhaben, keine Zusammenrechnungs-
+regel über Etappen gefunden) → `[[etappierte-energetische-sanierung-zh-sz]]`, FAQ **F192**,
+established. **D91b CO2/R744-Kältemittel Hochtemperatur** (BFE-Schlussbericht 2019 vollständig:
+bis 65°C ohne Zusatzheizung, COP-Vorteil ~30-35 % ggü. R407C, A1 statt A3-Brandschutz wie R290) →
+`[[kaeltemittel-r744-co2-waermepumpen-hochtemperatur-ch]]`, FAQ **F191**, established/emerging
+gemischt. **D91c Hochtemperatur-WP Altbausanierung** (Pivot: WPSM-Grundfrage war bereits belegt,
+neuer Fokus auf 65-75°C-Kaskadentechnik; NTB/OST-Literaturstudie 2020) →
+`[[hochtemperatur-waermepumpen-altbausanierung-ohne-heizkoerpertausch]]`, FAQ **F193**, emerging.
+**D91d Fernkälte/District Cooling ZH** (ewz Seewasserverbunde + Energieverbund Lengg Gesundheits-
+cluster inkl. KISPI + ETH-Kälteverbund, aber keine öffentliche Tarifformel) →
+`[[fernkaelte-district-cooling-grossbauten-zh]]`, FAQ **F194**, emerging. **D91e Minergie-Areal**
+(Produktreglement V2026.1 vollständig, URL live verifiziert HTTP 200: ab 2 Gebäuden/≥3'000 m² EBF,
+Gebühr CHF 9'000+0.35/m² gedeckelt 30'000) → `[[minergie-areal-zertifizierung]]`, FAQ **F190**,
+established. **D91f WP-Sperrzeiten je Netzbetreiber** (EKZ-Werkvorschriften April 2026 + EW
+Wangen SZ konkret beziffert; ewz/EW Höfe AG als echte Lücke dokumentiert statt geschätzt) →
+`[[waermepumpen-sperrzeiten-netzbetreiber-zh-sz-vertiefung]]`, FAQ **F195**, gemischt.
+**D91g Aufzug-Energieeffizienz VDI 4707** (Klassen A-G, Standby dominiert, kein Teil des
+SIA-380/1-Nachweises) → `[[aufzug-energieeffizienz-vdi4707]]`, FAQ **F196**, emerging.
+
+**Verdichtung:** Neuer Wiki-Themenartikel `wiki/umweltwaerme-gewaesser.md` (Seewasser + Abwasser
++ Grundwasser konsolidiert aus vier bestehenden Destillaten, Carryover-Auftrag Run 119) — vom
+Hauptmodell selbst geschrieben, nicht per Agent, um einen achten Agenten-Slot zu sparen.
+
+**Verifikationsstufe (Budget-bewusst reduziert, offen dokumentiert):** Kein volles 2-3-Agenten-
+Adversarial-Panel gemäss PROGRAMM.md-Vollprotokoll — stattdessen Spot-Check der drei
+established-Kandidaten (Minergie-Areal-URL live per curl, EnerG/WDV/KEnG/KEnV als amtliche
+Kantonserlasse plausibilisiert). Nachholbedarf für den nächsten Lauf vermerkt.
+
+FAQ-Stand: **196 Kernfragen (F1-F196)**. Destillate-Stand: **212** (sieben neue). Wiki-
+Themenartikel: **30** (ein neuer). Neunte Bestätigung in Folge (Run 111-120), dass die
+Sättigungsdiagnose nicht zutrifft.
+
+### Prioritaet naechster Lauf (aus Run 120)
+1. Die fünf gebündelten Kaufentscheide warten jetzt **22 Runs in Folge** auf eine Entscheidung
+   Raphaels — unverändert dringende Empfehlung: als kurze Bündel-Frage entscheiden.
+2. **PL-02-Zugangsblockade weiterhin ungelöst**, jetzt dreifach unabhängig bestätigt (inkl.
+   brctl-Sackgasse) — höchste Priorität.
+3. Volle Adversarial-Verify-Nachholung für die drei established-Destillate dieses Laufs.
+4. ewz-/EW-Höfe-Sperrzeiten nicht öffentlich auffindbar — Direktanfrage vormerken.
+5. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
+6. SIA-2068-Direktanfrage beim SIA weiterhin offen.

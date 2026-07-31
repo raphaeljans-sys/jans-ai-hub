@@ -6340,6 +6340,130 @@ belegter COP/JAZ-Wert gefunden — nur eine Hoval-Herstellerangabe (4-5,5) ohne 
 Circulago-Projektdaten. Datenstand 2026-07-29 (Run 119) →
 `[[seewasser-waermenutzung-aquathermie-zh-sz]]`. Status **emerging** — neues Themenfeld.
 
+## F190 — «Ab wann lohnt sich ein Minergie-Areal statt einzelner Gebäude-Labels?»
+
+**Kurzantwort:** Ab mindestens 2 Gebäuden auf zusammenhängender Parzelle mit zusammen
+mindestens 3'000 m² Energiebezugsfläche, wovon mindestens 60 % Minergie-zertifiziert sein
+müssen. Bei einem einzelnen Neubau bleibt Minergie/-P/-A/-ECO auf Gebäudeebene der richtige Weg.
+
+**Fachliche Begründung:** Minergie-Areal ist das seit 2023 eingeführte Quartierslabel
+(Nachfolger des 2000-Watt-Areals) mit 17 Pflicht- und mindestens 3 Wahlvorgaben in fünf
+Themenbereichen (u.a. Aussenraum, Mobilität, Areal-Organisation), das Kompensation zwischen
+Gebäuden erlaubt und damit über die reine Gebäudehülle hinausgeht.
+
+**Quelle:** Produktreglement zum MINERGIE-Areal®, Version 2026.1 (gültig ab 01.01.2026,
+vollständig gelesen); Praxisbeispiele suissetec Campus Lostorf SO, Fischermätteli Burgdorf BE.
+Datenstand 2026-07-31 (Run 120) → `[[minergie-areal-zertifizierung]]`. Status **established**.
+
+## F191 — «Ist CO2 (R744) als Kältemittel für unsere Wärmepumpe im Pflegeheim/Spital besser geeignet als Propan (R290)?»
+
+**Kurzantwort:** Fachlich ja, sobald hohe Vorlauf-/Warmwassertemperaturen gebraucht werden
+(z.B. 60 °C Legionellenschutz): R744 erreicht dank transkritischem Kreisprozess bis 65 °C ohne
+Zusatzheizung, ohne die A3-Brandschutzauflagen von R290 (Propan, Sicherheitsklasse A3 vs. R744
+A1). Eine konkrete Schweizer Healthcare-Referenzanlage mit R744 liess sich in dieser Recherche
+nicht bestätigen.
+
+**Fachliche Begründung:** Der BFE-Schlussbericht 2019 (Vertragsnr. SI/501780, vollständig
+gelesen) belegt für R744-Wärmepumpen einen COP-Vorteil von rund 30-35 % gegenüber R407C-
+Standard-WP bei hoher Temperaturspreizung/Warmwasseranteil. Schweizer Hersteller (CTA AG) und
+Vertrieb (Mitsubishi Q-ton via BestClima AG) bieten entsprechende Grosswärmepumpen an.
+
+**Quelle:** BFE-Schlussbericht «CO2-Wärmepumpe für Warmwasser und Gebäudeheizung»,
+EduMedia/Frigo-Consulting, 06.09.2019; CTA AG; Mitsubishi Heavy Industries/BestClima AG.
+Datenstand 2026-07-31 (Run 120) → `[[kaeltemittel-r744-co2-waermepumpen-hochtemperatur-ch]]`,
+ergänzt `[[kaeltemittel-r290-waermepumpen-ch]]`. Status **established** (Regulatorik/BFE-Kern-
+aussagen), **emerging** (Markt-/Referenzprojekte).
+
+## F192 — «Muss ich für jede Sanierungsetappe einen eigenen Energienachweis einreichen?»
+
+**Kurzantwort:** Ja — Nachweispflicht und Bagatellschwelle (Kt. ZH: Fr. 200'000 und ≤30 %
+Gebäudeversicherungswert; Kt. SZ: Fr. 250'000) werden je Baugesuch/Vorhaben geprüft, nicht über
+mehrere zeitlich getrennte Etappen kumuliert. Bleibt eine Etappe unter der Schwelle, genügt eine
+Deklaration statt des vollen Formulars — die U-Wert-Anforderungen an die angefassten Bauteile
+gelten aber in jeder Etappe trotzdem zwingend.
+
+**Fachliche Begründung:** § 2 Abs. 4 WDV (Kt. ZH) und § 3 Abs. 2 KEnV (Kt. SZ) enthalten keine
+ausdrückliche Zusammenrechnungsregel über mehrere Bauetappen. Ein bewusstes «Zerstückeln» eines
+bereits fertig geplanten Gesamtprojekts allein zur Unterschreitung der Bagatellgrenze ist
+rechtlich nicht abschliessend geklärt (allgemeines Rechtsmissbrauchsverbot könnte greifen) — bei
+Zweifel vorab beim AWEL bzw. Amt für Umwelt und Energie SZ abklären.
+
+**Quelle:** EnerG/WDV Kt. ZH (LS 730.1/LS 700.211, amtlicher Volltext); KEnG/KEnV Kt. SZ
+(SRSZ 420.100/420.111, amtlicher Volltext, Stand 1.2.2025). Datenstand 2026-07-31 (Run 120) →
+`[[etappierte-energetische-sanierung-zh-sz]]`, ergänzt `[[sanierungsfahrplan-etappierung-gebaeudehuelle]]`,
+`[[energienutzungs-deklaration-geringfuegige-umbauten-zh]]`. Status **established**.
+
+## F193 — «Können wir die alte Ölheizung durch eine Wärmepumpe ersetzen, ohne alle Heizkörper auszutauschen?»
+
+**Kurzantwort:** In aller Regel ja. Aktuelle Wärmepumpen mit dem Kältemittel Propan (R290)
+erreichen bis 70 °C Vorlauftemperatur; das WPSM-Zertifizierungsminimum liegt bereits bei
+55-60 °C bei -7 °C Aussentemperatur. Das deckt praktisch jeden Schweizer Altbau-Radiator ab.
+
+**Fachliche Begründung:** Einstufige Luft-Wasser-Wärmepumpen mit R290 (z.B. Viessmann Vitocal
+250-A, Ovum AirCube ACP) erübrigen im Wohnbau-Massstab den zwingenden Heizkörperersatz; die
+klassische zweistufige Kaskadentechnik mit zwei Verdichtern bleibt der Industrie-Prozesswärme
+(90-160 °C) vorbehalten. Die kantonale Förderung (ZH/SZ) differenziert nicht nach
+Vorlauftemperatur. Reale Schweizer JAZ-Werte beim tatsächlichen 65-75 °C-Betriebspunkt fehlen
+noch in belastbarer Form (offener Punkt).
+
+**Quelle:** NTB/OST Buchs, Cordin Arpagaus, «Hochtemperatur Wärmepumpen — Literaturstudie»,
+25.09.2020; Viessmann/Ovum-Datenblätter. Datenstand 2026-07-31 (Run 120) →
+`[[hochtemperatur-waermepumpen-altbausanierung-ohne-heizkoerpertausch]]`, ergänzt
+`[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`. Status **emerging**.
+
+## F194 — «Können wir unser Spital/Pflegeheim an ein Fernkältenetz anschliessen statt eine eigene Kälteanlage zu bauen?»
+
+**Kurzantwort:** Nur wenn der Standort in einem bestehenden oder geplanten Versorgungsgebiet von
+ewz oder Energie 360° liegt (z.B. Seewasserverbund-Perimeter oder Gesundheitscluster Lengg) —
+sonst bleibt die eigene Kälteerzeugung die einzige Option. Selbst das Universitätsspital Zürich
+betreibt trotz Innenstadtlage eigene Kältezentralen, weil es ausserhalb der bekannten
+Netzperimeter liegt.
+
+**Fachliche Begründung:** Im Raum Zürich bestehen zwei belegte Fernkälte-Wege: ewz-
+Seewasserverbunde (Escherwiese/Fraumünster/Falkenstrasse in Betrieb, CoolCity im Bau bis 2035)
+und der Energieverbund Lengg von Energie 360° (Gesundheitscluster inkl. KISPI, Betriebsstart
+2026/2027 je nach Quelle uneinheitlich). Anders als bei der Fernwärme gibt es keine öffentlich
+publizierte Fernkälte-Tarifformel.
+
+**Quelle:** ewz-Projektseiten Seewasserverbund/CoolCity; Energie 360° Energieverbund Lengg;
+NZZ 10.05.2022; eicher+pauli ETH-Kälteverbund. Datenstand 2026-07-31 (Run 120) →
+`[[fernkaelte-district-cooling-grossbauten-zh]]`. Status **emerging**.
+
+## F195 — «Wie lange darf mein Netzbetreiber meine Wärmepumpe abschalten?»
+
+**Kurzantwort:** Das ist von Werk zu Werk verschieden und muss vor der Heizungsauslegung konkret
+abgeklärt werden — bei EKZ sind es maximal 2 Stunden am Stück, maximal 4 Stunden/Tag, abends;
+beim EW Wangen SZ ein fixes Mittagsfenster 10.30-12.00 Uhr; bei ewz und EW Höfe AG ist die genaue
+Sperrzeit öffentlich nicht beziffert und muss direkt beim Werk erfragt werden.
+
+**Fachliche Begründung:** Nur EKZ und EW Wangen SZ veröffentlichen die Sperrzeiten mit exakter
+Uhrzeit/Stundenzahl (EKZ-Werkvorschriften, Ausgabe April 2026, Anhang 1, vollständig gelesen);
+ewz und EW Höfe AG regeln die Steuerung nur vertraglich/technisch, ohne die Sperrstunden
+öffentlich zu beziffern — echte Lücke, für ein konkretes Projekt vorab beim jeweiligen Werk
+erfragen.
+
+**Quelle:** EKZ Werkvorschriften CH, Ausgabe April 2026; EW Wangen SZ, Website; ewz Spezielle
+Anschlussbestimmungen, Stand 1.1.2025 V2; EW Höfe AG, Website. Datenstand 2026-07-31 (Run 120)
+→ `[[waermepumpen-sperrzeiten-netzbetreiber-zh-sz-vertiefung]]`, ergänzt
+`[[stromtarife-waermepumpen-sperrzeiten-ch]]`. Status gemischt: **established** (EKZ, EW Wangen
+SZ), **speculative** (ewz, EW Höfe AG).
+
+## F196 — «Zählt der Aufzug zum SIA-380/1-Energienachweis unseres Gebäudes?»
+
+**Kurzantwort:** Nein, SIA 380/1 erfasst nur den Heizwärmebedarf der Gebäudehülle. Der
+Aufzugsstrom gehört, falls überhaupt normativ erfasst, in die separate Elektrizitäts-
+Normenfamilie (SIA 2056:2019 für die Vorprojekt-Bedarfsermittlung, SIA 387/4 für den
+kantonalen Beleuchtungsnachweis ab EBF > 1'000 m²).
+
+**Fachliche Begründung:** VDI 4707 klassiert Aufzüge in Klassen A-G aus Fahrbetrieb plus
+Standby (Standby macht bei geringer Nutzung über 90 %, im Schnitt rund 58-60 % des
+Gesamtverbrauchs aus); Energierückspeisung (Rekuperation) spart real 16-45 % je nach Auslastung
+— bei einem Pflegeheim mit Rund-um-die-Uhr-Verkehr eher am oberen Ende der Bandbreite.
+
+**Quelle:** VDI 4707 (Sekundärquellen, Klassengrenzwerte selbst kostenpflichtig nicht gelesen);
+KONE/Schindler-Fallbeispiele; SIA-Shop-Produktseiten. Datenstand 2026-07-31 (Run 120) →
+`[[aufzug-energieeffizienz-vdi4707]]`. Status **emerging**.
+
 ## F189 — «Wie viel graue Energie spart mir ein Holzbau gegenüber einem Massivbau konkret?»
 
 **Kurzantwort:** Bei einem vergleichbaren Mehrfamilienhaus im Median rund 23 % weniger graue
