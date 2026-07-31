@@ -1,0 +1,93 @@
+---
+title: Umweltwärme aus Gewässern — See, Abwasser, Grundwasser als Wärmequelle
+status: emerging
+last_updated: 2026-07-31
+sources: [destillate/seewasser-waermenutzung-aquathermie-zh-sz.md, destillate/abwasserwaermenutzung-kanalisation-zh-sz.md, destillate/abwasserwaerme-bewilligung-sz-vertiefung.md, destillate/rabtherm-abwasserwaerme-jaz-projekte.md, destillate/abwasserwaermepumpe-jaz-foerderung-vertiefung-zh.md, destillate/grundwasserwaermenutzung-bewilligung-zh-sz.md, destillate/duschwasser-waermerueckgewinnung-joulia.md, destillate/anergienetz-kalte-fernwaerme-ch.md]
+links: [[INDEX]], [[heizleistung-und-waermeerzeuger]], [[erdwaermesonden-bewilligung-zh-sz]], [[grundwasserwaermenutzung-bewilligung-zh-sz]], [[fernwaerme-anschlusskosten-zh]]
+---
+
+# Umweltwärme aus Gewässern
+
+Verdichtet die drei Gewässer-Wärmequellen der KB zu **einem** Themenartikel: **See** (Aquathermie/
+OWEN), **Abwasser** (Kanalisation/ARA, gebäudeintern Duschwasser-WRG) und **Grundwasser**
+(eigener, ausführlicherer Artikel `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`, hier nur die
+Einordnung im Vergleich). Alle drei sind Alternativen zur Erdsonde, wenn eine Bohrung nicht
+möglich oder nicht bewilligt wird (Grundwasserschutzzone, fehlende Fläche, See-/Gewässernähe).
+
+## Das Wichtigste in 1 Satz
+Seewasser, Abwasser und Grundwasser sind in Zürich und Schwyz **durchweg bewilligungs- oder
+konzessionspflichtige** Wärmequellen mit sehr unterschiedlicher Reife der Rechtsgrundlage (See:
+klar geregelt über das Wasserrechtsgesetz ZH, Abwasser: gut dokumentiert in ZH/**ungeregelt** in
+SZ) und einer durchgehenden Lücke bei amtlichen COP-/JAZ-Werten — die belegten Zahlen stammen fast
+immer aus einzelnen realen Referenzprojekten, nicht aus systematischen Feldmessungen wie bei der
+Luft-/Erdwärmepumpe.
+
+## 1. Seewasser (Aquathermie / OWEN)
+- **Immer konzessions- und bewilligungspflichtig** — der Kanton ist Hoheitsträger über die
+  Seewärme (ZH: § 68 Abs. 1 lit. c WsG + § 119 Abs. 2 lit. c WsV, Konzessionsdauer 15-30 Jahre
+  gemäss § 121 Abs. 1 lit. b WsV; SZ: § 11 Abs. 2 lit. b WRG SRSZ 451.100, Schwelle > 50 kW oder
+  < 4 Wohneinheiten).
+- **Verfahrensdauer ZH:** rund 3 Monate unter 800 kW, + 2 Monate bei Ausschreibungspflicht darüber.
+- **Technik:** Entnahme/Rückgabe deutlich unterhalb der Sprungschicht (ZH-Richtwert 20-30 m,
+  Vierwaldstättersee 20-35 m), max. 7 °C Temperaturänderung, Zwischenkreislauf-Pflicht (nie
+  Seewasser-Direktkreislauf), Muschelproblematik einplanen.
+- **Reale Grossprojekte:** ewz Zürichsee-Verbunde (165 GWh Wärme + 40 GWh Kälte 2022),
+  Energieverbund Lengg (Endausbau 30-40 Gebäude, ~90 Mio. CHF), Circulago Zugersee (Ziel 50 % des
+  Zuger Wärme-/Kältebedarfs bis 2035).
+- **COP/JAZ:** kein amtlicher Wert; einziger gefundener Bereichswert ist eine Herstellerangabe
+  (Hoval, JAZ 4-5,5), nicht unabhängig geprüft.
+- Vertiefung: `[[seewasser-waermenutzung-aquathermie-zh-sz]]`.
+
+## 2. Abwasser (Kanalisation/ARA)
+- **Kanton Zürich gut dokumentiert:** technische Mindestgrössen 10 l/s stetiger Abwasserfluss,
+  Kanaldurchmesser ≥ 800 mm, wirtschaftlich ab rund 150 kW; Potenzial laut AWEL-Planungshilfe 2025
+  erst zu 11 % genutzt (674 GWh/Jahr Gesamtpotenzial).
+- **Kanton Schwyz — ehrlicher Negativbefund:** weder kEnG noch kEnV noch EGzGSchG enthalten einen
+  abwasserspezifischen Bewilligungstatbestand; die WRG-Konzessionspflicht bezieht sich nur auf
+  öffentliche Gewässer und erfasst die Kanalisation ausdrücklich **nicht**.
+- **Reale Anlagen ohne amtlichen JAZ-Wert:** die vier bekannten Rabtherm-Referenzprojekte
+  (Wädenswil, Winterthur-Maienried, Winterthur-Wässerwiesen, EWZ Wipkingen) nennen keine JAZ/COP —
+  als Vergleichswerte dienen zwei andere reale CH-Anlagen: Zwingen JAZ 4,4, Basel-Allschwil
+  «gegen 7» (sommerlastig).
+- **Gebäudeintern (Duschwasser-WRG):** eigene, einfachere Kategorie mit harmonisierter
+  Anrechnungsregel im Energienachweis (pauschal 10 % des Warmwasserbedarfs, EnFK-Vollzugshilfe
+  EN-101) — kein Bewilligungsthema, siehe `[[duschwasser-waermerueckgewinnung-joulia]]`.
+- Vertiefung: `[[abwasserwaermenutzung-kanalisation-zh-sz]]`, `[[abwasserwaerme-bewilligung-sz-vertiefung]]`,
+  `[[rabtherm-abwasserwaerme-jaz-projekte]]`, `[[abwasserwaermepumpe-jaz-foerderung-vertiefung-zh]]`.
+
+## 3. Grundwasser
+- Eigener, ausführlicher Themenartikel-Kandidat mit eigener Bewilligungssystematik (Konzession via
+  Gemeinde/AWEL bzw. SZ-Vorabklärung) — hier nur der Quervergleich: technisch oft die
+  effizienteste Quelle (stabile Temperatur ganzjährig), rechtlich ähnlich streng wie See/Abwasser.
+- Vertiefung: `[[grundwasserwaermenutzung-bewilligung-zh-sz]]`.
+
+## Vergleichstabelle (Stand der KB-Belegung)
+
+| Quelle | Bewilligungspflicht ZH | Bewilligungspflicht SZ | Amtlicher COP/JAZ-Wert | Reife der Rechtsgrundlage |
+|---|---|---|---|---|
+| Seewasser | Konzession + Bewilligung (immer) | Konzession ab 50 kW / <4 WE | nein (nur Herstellerwert) | hoch (WsG/WsV paragraphengenau) |
+| Abwasser Kanalisation/ARA | Bewilligung ab Mindestgrösse | **keine Regelung (Negativbefund)** | nein (Vergleichswerte anderer Anlagen) | ZH hoch, SZ nicht vorhanden |
+| Duschwasser-WRG (gebäudeintern) | kein Bewilligungsthema | kein Bewilligungsthema | pauschal 10 % WW-Bedarf (EN-101) | hoch, CH-weit harmonisiert |
+| Grundwasser | Konzession | Vorabklärung/eBau | teils vorhanden | hoch |
+
+## Bauherren-Transfer
+- **Konzession/Bewilligung ist bei See und Abwasser der eigentliche Projektschritt, nicht die
+  Technik.** Bei Seewasser lohnt sich zuerst die Frage, ob bereits ein kommunaler Wärmeverbund
+  existiert, dem man sich anschliessen kann — das ist regelmässig einfacher als eine eigene
+  Konzession für ein Einzelgebäude.
+- **Im Kanton Schwyz ist Abwasserwärme aus der Kanalisation rechtlich unklares Terrain** (keine
+  eigene Regelung) — anders als Seewasser (WRG-Konzession klar geregelt). Vor einem SZ-Projekt mit
+  Abwasserwärme-Ambition frühzeitig direkt beim kantonalen Amt für Umwelt (AfU) nachfragen.
+- **JAZ/COP-Herstellerangaben nie ungeprüft übernehmen** — bei allen drei Gewässerquellen fehlt
+  eine amtliche oder unabhängige Feldmessung analog zu den WPZ-Buchs-Zahlen für Luft-/Erdwärme;
+  eine projektspezifische Auslegungsrechnung ersetzt die pauschale Bandbreite.
+- **Reale Referenzprojekte (ewz, Energie 360°, WWZ) als Türöffner im Gespräch mit Behörden/
+  Bauherrschaft nutzen** — Gewässerwärme ist im JANS-Projektgebiet keine Exotik, sondern politisch
+  gewollte Strategie, ersetzt aber nie die projektspezifische Konzessionsabklärung.
+
+## Offene Punkte
+- Amtliche/unabhängige JAZ-Feldmessung für Seewasser- und Abwasserwärmepumpen fehlt durchgehend.
+- SZ-Rechtslage Abwasserwärme bleibt ungeregelt — kein Handlungsbedarf von JANS-Seite, aber bei
+  jedem SZ-Projekt mit dieser Quelle früh direkt beim AfU abklären.
+- Kanton Zug (Zugersee) und die übrigen Vierwaldstättersee-Kantone nur auf Ebene WebsEite/
+  gemeinsamer AKV-Richtlinie geprüft, keine eigenen Gesetzestexte einzeln verifiziert.
