@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 23:47:27
+Stand: 31.07.2026 23:57:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.07.2026 23:47:27
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ab20b1d4 nas-selfcommit: 26 Datei(en) 2026-07-31 23:45
+- bf1ef4ac Wissens-Chef Run 22: Cross-KB-Pruefung des Zuwachses seit Run 21 (31 Agenten, 16/25 bestaetigt) — SZ-Konzessionsschwelle korrigiert, SIA-2056-Zuschreibung berichtigt, StrAV-Auftrag ersetzt, BZO Art. 11 auf amtlichen Wortlaut, exakte Wuest-Quantile, toter WsG-Pfad an 18 Stellen, Erst-Verlinkung bauprodukte<->projekt-lessons

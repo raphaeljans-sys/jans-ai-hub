@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 31.07.2026 23:43:35
+Stand: 31.07.2026 23:53:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 31.07.2026 23:43:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 50ca4ccf Nachtschicht 31.07.: bauprodukte — ERCO-Ratgeber S.20->40 fortgeschrieben, QUESTIONS Punkt 9 (Holzbau/Bekleidungen) als Fehlannahme korrigiert und geblockt
+- bf1ef4ac Wissens-Chef Run 22: Cross-KB-Pruefung des Zuwachses seit Run 21 (31 Agenten, 16/25 bestaetigt) — SZ-Konzessionsschwelle korrigiert, SIA-2056-Zuschreibung berichtigt, StrAV-Auftrag ersetzt, BZO Art. 11 auf amtlichen Wortlaut, exakte Wuest-Quantile, toter WsG-Pfad an 18 Stellen, Erst-Verlinkung bauprodukte<->projekt-lessons
