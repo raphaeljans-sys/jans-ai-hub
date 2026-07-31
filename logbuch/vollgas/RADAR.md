@@ -39,6 +39,69 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-31 04:57 — [FREI] Jeder gemessene Nachtlauf hat geliefert, auch der zunaechst stumm wirkende 02:30-Slot. Der Aufsichtstakt sitzt jetzt zwei Laeufe in Folge. Der Token-Verbrauch steigt den vierten Tag in Folge und ist der einzige offene Punkt
+
+**Selbstkontrolle: kein verpasster Lauf — und damit ist das Pruefkriterium abgeschlossen.** Letzter
+Eintrag 00:58, dieser Lauf 04:57 — 4,0 h bei 4-h-Takt. Der 20:57-Eintrag vom 30.07. hatte zwei
+planmaessige Feuerungen (00:57 und 04:57) als Beweis verlangt, dass der uebersprungene 16:50-Slot
+nur der Neuarmierungseffekt der Taktumstellung war. Beide sind gefeuert. Der Punkt ist erledigt und
+wird nicht weiter beobachtet.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Speicher
+MacBook 3,61 GB bei **Druckstufe 1** — die Stufe 2 von 00:58 hat sich mit dem Ende von Raphaels
+Session von selbst geloest, keine Massnahme noetig. Mini 9,51 GB, Druckstufe 1.
+
+**Feuermechanismen: konsistent.** `vollgas-supervisor` und `vollgas-monitor` auf beiden Stationen
+weiterhin entladen und als `*.disabled-260729` geparkt; auf dem Mini zusaetzlich unveraendert
+`training-plg` (disabled-260728) und die beiden Drossel-Backups. Geladen auf dem Mini nur
+`ch.jans.nachtschicht` und `ch.jans.training-energie`, `ch.jans.training-normen` liegt korrekt
+ungeladen vor. Registry gegengelesen: kein Doppelfeuer, keine unerwartet scharfe Task. Der stehende
+Entscheid Raphaels vom 30.07. ist gewahrt, der Endlos-Runner wurde nicht angetastet.
+
+**P1 — Liefer-Delta: 22 inhaltliche Commits seit dem letzten Lauf, keine Delta-Null-Serie auf
+keinem Loop.** Geliefert haben `normen-training-nacht` (Run 40: neunte Lignatec-Runde, Tab. 2 plus
+acht Axonometrien rechnerisch, null Wertfehler bei neun Luecken; dazu 13 Positionen PL-02-Kern, und
+am Original korrigiert: die GVZ-RWA-Matrix loeste die Sprinkler-Zellen 601–1200 m2 falsch auf, der
+SWKI-Anwendungsbereich gilt nur fuer Mittel-/Grossgaragen ab 100 m2), `twin-mail-training` (Batch 83,
+Lueckensweep rj@ November 2025, dazu ein Marker in `wissen/twin/wiki/stimme.md`), die
+Nachtschicht im 02:30-Slot (bauprodukte QUESTIONS Punkt 10 zur VKF-BRL-23-15-Teilrevision 2017
+geschlossen, Artikel `bkp-261-aufzuege.md` plus Ruecklauf ins Normen-Destillat), zwei
+`brandschutz`-Bloecke (Modus-B-Trockenlauf gegen 2507 TKHL; netzferner Kleinbau C41–C44 samt
+Destillat VKF-Merkblatt 2005-15) und die KB `immobilienbewertung` mit vier Ingest-Clustern
+(A/B Wuest Partner, C BFS-Werkmaterial, E Projekte — allein Cluster C und E 1'563 Zeilen).
+Weder Ruecktaktung noch Deaktivierung faellig.
+
+**Gegenprobe zum 02:30-Slot, weil er zunaechst wie ein teurer Leerlauf aussah.** Das Lauf-Journal
+zeigt fuer 02:39 nur eine rc-Zeile mit 4,19 USD, und zwischen 02:07 und 04:01 steht kein einziger
+sprechender Commit. Das ist genau das Muster, das die 3x-Regel ausloesen wuerde. Es traf nicht zu:
+der Ertrag liegt im Selfcommit `1bca88b7` (02:45) und ist dort inhaltlich belegt, das
+Nachtschicht-Protokoll bestaetigt ihn Zeile fuer Zeile. Das ist die praktische Bestaetigung der am
+30.07. verschaerften Messregel — **eine fehlende Ergebniszeile im Journal ist kein Delta Null**, und
+ein Selfcommit ohne sprechende Message kann volle Arbeit tragen. Wer nur die Commit-Titel liest,
+schaltet produktive Loops ab.
+
+**P2 — der Token-Verbrauch steigt den vierten Tag in Folge, und die Steigerung traegt nicht mehr
+allein Raphaels Session.** MacBook-Transcripts, lokale Zeit, «teuer» = input + cache_creation +
+output: 28.07. **16,87 Mio** · 29.07. **39,88 Mio** · 30.07. **57,92 Mio** · 31.07. bis 04:57 bereits
+**25,61 Mio**. Am 30.07. war der Treiber belegt die interaktive Arbeit; heute Nacht endete Raphaels
+Session gegen 02:10, und trotzdem sind seit dem letzten Radar-Lauf rund 19 Mio dazugekommen. Was in
+dieser Zeit lief, sind die Nacht-Loops und diese Aufsicht selbst. Ich habe das bewusst **nicht**
+weiter aufgeschluesselt — eine Verbrauchs-Forensik ist genau die Tiefenuntersuchung, die der
+Sparsamkeitsauftrag einem Regellauf verbietet, und die `vollgas-fruehwarnung` misst um 07:15 mit
+ihrer eigenen, saubereren Methodik beide Stationen. Der Befund gehoert hierher, die Zerlegung dorthin.
+**Bewusst keine Mail:** die Fensterprobe antwortet «OK», das Wochenkontingent ist nicht erschoepft,
+und nur dessen Erschoepfung ist ein Mail-Anlass. Letzte belastbare Prozentzahl bleibt 66 % vom
+30.07. 12:49, Reset am 03.08. 12:00.
+
+**P3 — nichts Offenes.** Der am 00:58 als Muster festgehaltene Nachtlauf mit Rueckfrage hat sich
+nicht wiederholt; der 02:30-Slot hat entschieden, gearbeitet und protokolliert. Naechste faellige
+Mechanismen: Nachtschicht 05:30 und `twin-fidelity-review` 05:44.
+
+**Schlankheit:** Regellauf. Fuenf Messungen (Fenster, Speicher beider Stationen, launchd beider
+Stationen plus Registry, Commit-Delta, Verbrauch) und eine gezielte Gegenprobe auf den einen
+verdaechtigen Befund. Keine Tiefenuntersuchung.
+
+---
 ## 2026-07-31 00:58 — [FREI] Der ertragreichste Nachtblock seit dem Runner-Ausbau: sieben Loops liefern in achtzig Minuten. Der Aufsichtstakt ist wieder in der Spur. Ein unbeaufsichtigter Lauf hat sich mit einer Rückfrage selbst entwertet
 
 **Selbstkontrolle: kein verpasster Lauf, und damit ist der 16:50-Ausfall geklärt.** Letzter
