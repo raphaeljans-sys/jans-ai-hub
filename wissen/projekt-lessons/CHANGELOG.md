@@ -3,6 +3,29 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-07-31 (Nachtschicht-Zyklus Mac Mini) — Fuenfter Lesson-Artikel: fehlende Auftragsbestaetigung als verdeckte Mahnkaskaden-Ursache (KISPI RE-00087)
+- Neues Destillat `raw/260731-kispi-fehlende-auftragsbestaetigung-mahnkaskade.md` (Stufe A,
+  5 belegte Aussagen aus `logbuch/LOGBUCH.md` + `logbuch/fristen.md`, Zeitraum 16.06.-31.07.2026).
+  Quelle bewusst das bereits verifizierte Logbuch-Journal, NICHT die KISPI-Projektordner-Pipeline
+  (die haengt weiterhin auf Freigabe Raphael, siehe `training/PROGRAMM.md` Abschnitt «Freigabe»).
+- Neuer Artikel [[kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087]] (Fokus-Bereich
+  Kosten & Termine, bisher leer, damit 4 von 5 Fokus-Bereichen belegt): RE-00087 (KISPI,
+  CHF 15'000, faellig 16.04.) stand ueber drei Monate auf Mahnstufe 2, ohne dass der
+  Mahnwesen-Automatismus je die Ursache diagnostizierte (nur Tage-Zaehler + Whitelist-Grenze
+  A1); erst Raphaels eigene gebuendelte Mail am 21.07. benannte die fehlende
+  Auftragsbestaetigung als Kern. Zwei unabhaengige Nebenbelege im selben Mandat (Gruner AG:
+  kein Vertrag mit JANS; TeKoSi: Auftragsbestaetigung Tuerfachplanung offen) stuetzen
+  `status: emerging`. Lesson: bei Verzug ueber eine Mahnstufe hinaus die Auftragsgrundlage
+  aktiv pruefen statt nur Tage zu zaehlen — als Ampel-Zusatzfeld im Fristen-Register, keine
+  neue autonome Aktion.
+- Stufe C (Gegenpruefung, selbst durchgefuehrt): alle 5 Zitate gegen `LOGBUCH.md`/`fristen.md`
+  wortgetreu verifiziert (Zeilen 1226, 1491, 1833, 1949/1835/1684/1674/1535, 2871; fristen.md:14+26)
+  — keine Widerlegung, keine Korrektur noetig.
+- `wiki/INDEX.md` (4→5 Artikel, Statistik-Datum), `wiki/QUESTIONS.md` (Bootstrap-Fortschritt
+  5/5, offene Nachpruef-Frage: wurde die Auftragsbestaetigung inzwischen nachgereicht),
+  `training/PROGRAMM.md` (Tracker-Zeile Lauf 2) nachgefuehrt. Kein Fan-out, kein Versand,
+  kein Eingriff in die gesperrte KISPI-Projektordner-Pipeline. Budget ca. 2.4 von 5 USD.
+
 ## 2026-07-29 (Nachlauf Run 20, Freigabe Raphael) — Titel und H1 geschaerft
 - **[Entscheid C1]** `kispi-behoerden-zustaendigkeitswechsel-1171-26`: Titel neu «KISPI 1171/26:
   Zustaendigkeiten bei Behoerden aendern sich **ohne proaktive Mitteilung** — am zuletzt bekannten
