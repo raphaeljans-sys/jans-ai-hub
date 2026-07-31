@@ -39,6 +39,52 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-07-31 16:58 — [FREI] Nachmittag ohne Befund: ein echtes Deliverable aus dem Mini-13:30-Slot, keine Delta-Null-Serie, keine Massnahme faellig
+
+**Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 12:58, dieser Lauf 16:58 — 4,0 h bei
+4-h-Takt, fuenfter planmaessiger Lauf in Folge.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK» (rc 0). Weder
+5-Stunden- noch Wochen-Limit.
+
+**Feuermechanismen: konsistent, keine Abweichung.** MacBook Pro: `vollgas-supervisor` und
+`vollgas-monitor` weiterhin ungeladen und als `*.disabled-260729` geparkt, geladen nur die
+operativen Jobs. Mac Mini: geladen `ch.jans.nachtschicht` und `ch.jans.training-energie` neben den
+operativen Jobs, `training-normen` und `training-plg` korrekt ungeladen, `vollgas-supervisor` dort
+ebenfalls `.disabled-260729`. Registry gegengelesen: 31 Tasks, kein Doppelfeuer, keine unerwartet
+scharfe Task. Der stehende Entscheid Raphaels vom 30.07. ist gewahrt — nichts angetastet.
+
+**Liefer-Delta seit 12:58: ein Deliverable, aus dem Mini-Slot 13:30.** Die Nachtschicht hat in
+`wissen/projekt-lessons` einen neuen Artikel geliefert (Commit 1c406412, 13:45): Fall RE-00087
+KISPI, fehlende Auftragsbestaetigung und die daraus folgende Mahnkaskade — Rohdokument 62 Zeilen,
+Wiki-Artikel 81 Zeilen, dazu INDEX, QUESTIONS und CHANGELOG nachgefuehrt. **Delta-Null-Serie:
+keine**, weder Ruecktaktung noch Deaktivierung faellig. Auf dem MacBook Pro stand nach
+Rollentrennung auch in diesem Fenster planmaessig kein Lern-Lauf an; naechster getakteter Lauf
+`normen-training-nacht` 01:28, naechster Mini-Slot 23:30. Die uebrigen 15 Commits dieses Fensters
+sind Selfcommits mit ausschliesslich `station-status/*.md` — Heartbeat-Rauschen, am Diff geprueft
+und auftragsgemaess nicht als Arbeit gezaehlt.
+
+**Arbeits-Weiche laeuft wie vorgesehen.** `260731-entscheide.jsonl` zeigt fuer alle vier
+Takt-Entscheide des Tages (01:28 normen zweimal, 02:30/05:30/13:30 nachtschicht) sauber `ziel=mini`
+mit Begruendung «mini-frei» — der seit 31.07. verpflichtende `--takt`-Einstieg queued nicht und
+verdoppelt nichts.
+
+**Speicher: beide Stationen entspannt.** MacBook Pro 5,77 GB frei (`vm_stat` free+inactive+
+purgeable), Druckstufe 1; Mac Mini 10,28 GB, Druckstufe 1. Kein Eingriff noetig.
+
+**Massnahmen: keine.** Regellauf schlank gehalten (rund 10 Turns), keine Tiefen-Recherche
+ausgeloest, weil kein Befund sie verlangt hat.
+
+P1 — keiner. Kein Blocker, kein Login-Problem, kein Kontingent-Engpass. Keine Mail (kein
+Mail-Anlass nach der Mail-Disziplin).
+P2 — Beobachtung ohne Handlungsbedarf: der Ertrag des Tages haengt an einer einzigen Station. Faellt
+der Mini aus, liefert der Hub tagsueber nichts, weil das MacBook nach Rollentrennung bewusst frei
+bleibt. Bisher kein Vorfall, nur die Struktur benannt.
+P3 — offen aus 12:58: der Pfad `~/.claude/projects/*/*.jsonl` im SKILL.md der Fruehwarnung trifft
+als Glob null Dateien; der Lauf greift weiter als sein schriftlicher Auftrag. Reine
+Dokumentationskorrektur, nicht dringlich.
+
+---
 ## 2026-07-31 12:58 — [FREI] Stiller Mittag auf der Arbeitsstation, planmaessig und kein Leerlauf. Die offene Verbrauchsdifferenz aus dem 08:58-Lauf ist geklaert: es sind die Subagenten-Transcripts, nicht die Methode
 
 **Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 08:58, dieser Lauf 12:58 — 4,0 h bei
