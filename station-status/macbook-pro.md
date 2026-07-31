@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 09:13:09
+Stand: 31.07.2026 11:19:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:58)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 09:13:09
 - 7 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 53006026 vollgas-radar 31.07. 08:58: Morgenblock 8/8 geliefert, keine Delta-Null-Serie; Verbrauch dedupliziert neu gerechnet (30.07. 21.7 statt 57.9 Mio), Differenz zur Fruehwarnung offen
+- 51f0e1c4 nas-selfcommit: 1 Datei(en) 2026-07-31 11:15

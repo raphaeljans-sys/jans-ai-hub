@@ -1885,3 +1885,8 @@ Bisher hiess sie: erst den Bestand nach jüngeren **Ausgaben** durchsuchen. Neu 
 wenn die **Ausgabe unverändert gilt**, können **Korrigenda** einzelne Ziffern materiell ändern —
 sie tragen keine neue Jahreszahl im Normtitel und sind deshalb an der Ausgabe nicht erkennbar.
 Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops dazu; sie sind gratis.
+
+## 260731 — NIN: eigener Stromkreis fuer Geschirrspueler?
+- Frage: Enthaelt die NIN (SN 411000, aktuelle Ausgabe NIN 2025/2020) eine Bestimmung, die fuer Geschirrspueler eine eigene, separat abgesicherte Steckdose/Endstromkreis verlangt, oder ist das Teilen einer Gruppe (z.B. mit Kuehlschrank) zulaessig?
+- Stand: NIN liegt nicht in PL-02/02_Normen (dort nur SIA/VKF/DIN/VSS/RAL/Lignum). Web-Recherche 31.07.2026: keine explizite NIN-Fundstelle gefunden; deutsche DIN 18015-2 verlangt eigene Stromkreise fuer Geraete >2 kW (in CH nicht direkt verbindlich). Praxis-Hebel: Montageanleitung des Herstellers (verbindlich) + Bemessung des Endstromkreises.
+- Naechster Schritt: NIN-Zugang (ninonline.electrosuisse.ch) oder Rueckfrage Elektroplaner; bei Antwort Destillat-Artikel anlegen.
