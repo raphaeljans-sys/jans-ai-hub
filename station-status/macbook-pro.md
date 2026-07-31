@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 31.07.2026 07:01:19
+Stand: 31.07.2026 07:11:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:01)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 31.07.2026 07:01:19
 - 7 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 2cbae043 nas-selfcommit: 2 Datei(en) 2026-07-31 07:00
+- f66873b7 wissens-ruecklauf auflagebereinigung: Moeblierung im Fluchtweg als eigener Verfahrensstrang (Beleg SRZ 30.07.2026)
