@@ -35,10 +35,29 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
   benannte Kanal nach `wissen/grobkosten/raw/` fehlt weiter) · SYN-14 (unveraendert).
 - **Phase 5:** kein neuer Service-ENTWURF; das Delta ist fast vollstaendig infrastruktureller
   Natur, die KB `bauprodukte` mit 8 von 37 Sektionen noch zu duenn fuer ein Leistungsversprechen.
-- **Offen fuer Raphael:** SYN-16 (Rollentrennung Produkt-/System-Wissen gegen LV-Praxis),
-  SYN-17 (Tabellen aus CLAUDE.md in den Setup-Connector verlagern), SYN-19 (7 Skill-Zeilen
-  ergaenzen). Alle drei betreffen geteilten oder immer geladenen Kontext, deshalb nicht
-  eigenmaechtig gesetzt.
+- **[EIGENKORREKTUR am selben Tag, auf Rueckfrage Raphaels nachgemessen] Die Doppelspur-Haelfte
+  von SYN-16 traegt nicht.** Der Erstbefund leitete aus «37 Gewerke-Sektionen nach BKP» ab, die
+  KB werde zwangslaeufig mit `ausschreibung/wissensbasis/05_knowhow-gewerke.md` kollidieren.
+  Messung am Objekt: 272 Metallbau ist im Korpus bereits destilliert, aber
+  `05_knowhow-gewerke.md` sagt zu 272 ausschliesslich Ausschreibungsform («funktional
+  ausschreiben, Grundlage Architektenplaene») und zu 281/282 nichts; die Datei enthaelt ueber
+  alle vier Gewerke keine Produktaussage, 271/226/285 fehlen im Korpus ganz. Die Bestaende sind
+  disjunkt, die Rollentrennung wird gelebt. SYN-16 auf **Typ 1** zurueckgestuft, Entscheid
+  entfaellt, Kante direkt gesetzt.
+  **Lehre:** Ein Doppelspur-Verdacht darf nie aus der Ueberschneidung von Ordnungsbegriffen
+  (BKP-Nummern, Gewerkenamen) abgeleitet werden — zwei Bestaende koennen dasselbe Kapitel
+  fuehren und trotzdem ueber verschiedene Sachen reden. Vor jedem Typ-2-Befund den Inhalt
+  beider Seiten lesen.
+- **Zweite Direktsetzung (SYN-16):** `wissen/bauprodukte` in die «Inputs»-Zeile von
+  `ausschreibung` (inkl. Abgrenzung gegen `05_knowhow-gewerke.md` und Neutralitaetsvermerk
+  Rule 260626), `offertenpruefung` und `kostenschaetzung`.
+- **Offen fuer Raphael (nur noch zwei, beide betreffen CLAUDE.md):** SYN-19 — 7 Skill-Zeilen
+  ergaenzen, **Empfehlung ja ohne Vorbehalt** (7 Zeilen Kontext gegen zwei unsichtbare aktive
+  Fach-Skills). SYN-17 — **Empfehlung ja, aber differenziert:** Netzwerk-Tabelle und
+  M365-Parameter raus (reine Nachschlagedaten; `hub-setup.mjs` liegt git-versioniert im
+  SSD-Klon, also auch ohne NAS greifbar — gemessen), Mail-Konten dagegen verdichtet auf zwei
+  Zeilen drin lassen, weil Standard-Absender/kein-Gmail/Apple-Mail Verhaltenswissen fuer fast
+  jede Session ist. An CLAUDE.md wurde nichts geaendert.
 
 ## 2026-07-31 — Run 22 (Workflow-Fan-out: 6 Lese-Agenten + 25 adversariale Verifikatoren; 16 BESTAETIGT / 9 WIDERLEGT)
 - **Verfahren:** ein Workflow, 31 Agenten, ~4.83 Mio. Subagent-Token, 516 Tool-Calls, ~18.5 Min.

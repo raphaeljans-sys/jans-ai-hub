@@ -177,13 +177,38 @@ die Wettbewerbs-Fabrik-Verknuepfung (SYN-02/SYN-13) warten beide auf Raphaels Fr
 
 ## 6. Was Raphael entscheiden muss
 
-1. **SYN-17** — Die drei Faktentabellen aus CLAUDE.md in den Setup-Connector verlagern
-   (spart Grundkontext, beseitigt Doppelpflege) oder bewusst doppelt fuehren?
-2. **SYN-16** — Rollentrennung `bauprodukte` (Produkt/System) gegen
-   `ausschreibung/wissensbasis` (LV-Praxis) so bestaetigen?
-3. **SYN-19** — Die sieben fehlenden Skill-Zeilen ergaenzen? Betrifft den immer
-   geladenen Kontext, deshalb nicht eigenmaechtig gesetzt.
+Nach der Korrektur von SYN-16 bleiben **zwei** Entscheide, beide betreffen `CLAUDE.md`
+und damit den immer geladenen Kontext.
 
-Nichts davon wurde ausgefuehrt. Direkt gesetzt wurde allein die Contract-Nachruestung in
-`skills/wissens-destillat/SKILL.md` (SYN-18) — eine mechanische Vervollstaendigung
-gegen `SKILL-CONTRACT.md`, ohne inhaltliche Entscheidung.
+**1. SYN-19 — die sieben fehlenden Skill-Zeilen ergaenzen. Empfehlung: ja, ohne
+Vorbehalt.** Kosten sieben Zeilen Grundkontext, Nutzen sind zwei aktive Fach-Skills
+(`brandschutz`, `honorarberechnung-sia102`), die heute bei der Auftrags-Dekomposition
+nicht mitgedacht werden. Das ist der billigste Gewinn im ganzen Lauf.
+`email-preferences` bleibt draussen (Register: `referenz`/`parkiert`).
+
+**2. SYN-17 — Faktentabellen aus CLAUDE.md verlagern. Empfehlung: ja, aber
+differenziert, nicht alle drei gleich.**
+
+- **Netzwerk-Tabelle und M365-Parameter raus.** Das sind reine Nachschlagedaten, die
+  niemand auswendig braucht, aber jede Session mittraegt. Der Einwand «dann sind sie ohne
+  NAS weg» traegt nicht: `connectors/hub-setup.mjs` und `hub-setup-daten.json` sind
+  git-versioniert und liegen im SSD-Klon (gemessen 01.08.), also auch bei nicht
+  gemountetem NAS greifbar.
+- **Mail-Konten-Tabelle verdichtet drin lassen.** Hier steckt Verhaltenswissen, nicht nur
+  ein Datensatz: Standard-Absender `rj@raphaeljans.ch`, Gmail wird nicht verwendet,
+  Versand ueber Apple Mail. Das gilt in fast jeder Mail-Session und gehoert nach der
+  Kontext-Diaet-Logik (260719) genau deshalb in den Grundkontext — aber als zwei Zeilen,
+  nicht als Sechs-Zeilen-Tabelle. Die Adressliste selbst wandert in die JSON.
+
+## 7. Was in diesem Lauf direkt gesetzt wurde
+
+Zwei mechanische Vervollstaendigungen, beide ohne inhaltliche Entscheidung
+(active-with-flagging):
+
+1. **SYN-18** — die drei fehlenden Contract-Felder in
+   `skills/wissens-destillat/SKILL.md` (gegen `SKILL-CONTRACT.md`).
+2. **SYN-16** — `wissen/bauprodukte` in die «Inputs»-Zeile von `ausschreibung`,
+   `offertenpruefung` und `kostenschaetzung`, mit Abgrenzung gegen
+   `05_knowhow-gewerke.md` und Neutralitaetsvermerk (Rule 260626).
+
+An `CLAUDE.md` wurde nichts geaendert.
