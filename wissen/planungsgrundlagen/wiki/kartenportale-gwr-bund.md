@@ -1,10 +1,10 @@
 ---
 title: GWR-Gebäudedaten je Parzelle — Baujahr, Volumen, EBF, Wärmeerzeuger (Bund)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-01 (Wartungslauf 02: www.gwr.admin.ch + www.housing-stat.ch (nur mit www.))
 sources:
   - api3.geo.admin.ch (find/identify/SearchServer), Layer ch.bfs.gebaeude_wohnungs_register — Stand 07/2026
-  - Merkmalskatalog eidg. GWR v4.2, housing-stat.ch/files/881-2200.pdf, S. 63f. (GVOLNORM/GVOLSCE), S. 91-94 (WSTWK/WSTAT), S. ~100 (WKCHE) — gelesen 2026-07-02 + 2026-07-13
+  - Merkmalskatalog eidg. GWR v4.2, www.housing-stat.ch/files/881-2200.pdf, S. 63f. (GVOLNORM/GVOLSCE), S. 91-94 (WSTWK/WSTAT), S. ~100 (WKCHE) — gelesen 2026-07-02 + 2026-07-13
   - Benchmark Connector gwr-bund.mjs — KISPI Lenggstrasse 30 (EGID 302064023) + Giebelweg 12 Langnau a.A. (EGID 57977, EGRID CH879777718909), getestet 2026-07-02; Albertstrasse 7 Zürich (EGID 150071, 26 Wohnungen), getestet 2026-07-13 (Run 20)
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-grundlagen-checkliste-neue-parzelle]] [[energie-uebersicht]] [[energie-energienachweis-zh-formulare]]
 ---
@@ -148,7 +148,8 @@ Bewertungsstudien, ohne Bauplan-Digitalisierung.
 
 ## Offene Punkte
 - GKLAS/GKAT/GSTAT-Codelisten im Connector aus Katalog v4.2; bei Umstieg auf **Katalog v5.0**
-  (gwr.admin.ch, aktuell) Codes gegenprüfen (bisher stabil, aber nicht verifiziert — Vergleich
-  2026-07-13 an JS-Portal gwr.admin.ch/catalog technisch nicht möglich, Seite clientseitig
+  (www.gwr.admin.ch, aktuell — **nur mit `www.`**, der blanke Name hat keinen A-Record,
+  gemessen 01.08.2026) Codes gegenprüfen (bisher stabil, aber nicht verifiziert — Vergleich
+  2026-07-13 an JS-Portal www.gwr.admin.ch/catalog technisch nicht möglich, Seite clientseitig
   gerendert; Restaufgabe bleibt offen).
 - ~~Wohnungsdaten (EWID-Ebene)~~ **✓ gelöst 2026-07-13 (Run 20)**, siehe §6.

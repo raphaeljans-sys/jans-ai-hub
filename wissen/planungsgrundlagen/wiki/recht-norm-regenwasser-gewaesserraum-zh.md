@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Regenwasserentsorgung und Gewässerraum-Festlegung Kt. ZH
 status: established
-last_updated: 2026-07-29 (Wissens-Chef Run 20)
+last_updated: 2026-08-01 (Wartungslauf 02: gis.zh.ch + gewaesserschutzgesetz.zh.ch ohne www.)
 sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 März 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewässerraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwässerung, Februar 2009, 12 S.)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]], [[regenwasserbewirtschaftung-versickerung-zh]] (KB energie — aktuelle Bewilligungsschwellen + Schwammstadt)
 ---
@@ -195,7 +195,11 @@ vertieft):
 Massgebend ist die **natürliche Gerinnesohlenbreite (GSB)**, aus der
 **aktuellen** GSB via Breitenvariabilitäts-Faktor abgeleitet (ausgeprägt
 x1, eingeschränkt x1.5, keine x2) — ermittelbar über die Karte
-«Gewässer-Ökomorphologie» im GIS-Browser (`www.gis.zh.ch`). Mindestbreiten
+«Gewässer-Ökomorphologie» im GIS-Browser (`gis.zh.ch`, leitet auf
+`www.zh.ch/de/planen-bauen/geoinformation.html`; **nur über `http://`** —
+das Zertifikat unter `https://gis.zh.ch` gehört `maps.zh.ch` und deckt
+diesen Namen nicht, gemessen 01.08.2026. Direkt zum Kartenclient:
+`maps.zh.ch`). Mindestbreiten
 je nach Gebietstyp (allgemein/Schutzgebiet/stehendes Gewässer) sowie
 Abweichungsregeln (Verkleinerung in dicht überbauten Gebieten,
 Vergrösserung bei Hochwasserschutz/Revitalisierung/Natur-
@@ -212,7 +216,8 @@ Landschaftsschutz-Interessen, Gewässernutzung), Begründung bei
 Gewässerunterhalt, **Fruchtfolgeflächen-Bilanz** (Rundschreiben ARE
 4.5.2011), Einbezug betroffener Grundeigentümer. Pläne folgen
 spezifischen Darstellungsvorgaben + Musterdatensatz
-(`www.gewaesserschutzgesetz.zh.ch`); bei privaten Gestaltungsplänen ist der
+(`gewaesserschutzgesetz.zh.ch`, leitet auf
+`www.zh.ch/de/planen-bauen/wasserbau.html`); bei privaten Gestaltungsplänen ist der
 Gewässerraum-Plan von **allen** Grundeigentümern zu unterschreiben.
 
 ## C) Praxis-Broschüre AWEL «Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen» (Run 52, 2026-07-18)

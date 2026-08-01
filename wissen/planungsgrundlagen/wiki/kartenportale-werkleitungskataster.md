@@ -1,7 +1,7 @@
 ---
 title: Werkleitungskataster — Strom/Kommunikation-Planauskunft (EKZ, Swisscom, Sunrise-UPC) + Wasser/Gas/Kanalisation SZ (EW Lachen AG)
 status: emerging
-last_updated: 2026-07-25
+last_updated: 2026-08-01 (Wartungslauf 02: upc.ch unerreichbar (K65 geschlossen))
 sources:
   - EKZ Einsiedeln AG — Merkblatt zur einmaligen Datenabgabe (Planauskunft 1428968, 27.11.2023,
     reale JANS-Bestellung Reckholdernstrasse 20 Willerzell)
@@ -36,7 +36,7 @@ Auskunft über ein eigenes, meist login-pflichtiges Bestellportal.
 |---|---|---|
 | **Strom** | EKZ (Elektrizitätswerke des Kantons Zürich; regional auch Gemeindewerke, z.B. ewz Stadt Zürich) | `ekz-planauskunft.ch` (Login + Bestellformular je Parzelle/Perimeter) |
 | **Festnetz/Kommunikation (Kupfer/Glasfaser)** | Swisscom | `swisscom.ch` Geo-Portal, "Netzauskunft" |
-| **Kabelnetz/Kommunikation** | Sunrise UPC (vormals UPC) | `upc.ch/leitungskataster` — 4 Regionen (West/Ost/Ticino/Romandie), Region Ost deckt Zürich/Winterthur/Gossau/Jona ab; Sunrise-Markenauftritt führt real auf dieselbe `leitungskataster.upc.ch`-Domäne (Delta Run 42, Anmeldung/Bestellung Reckholdern belegt: Sunrise-gebrandete Korrespondenz, Login/Bestellung technisch weiterhin unter dem UPC-Namen — Marken-/Technikstand-Delta nach der Sunrise-UPC-Fusion, kein separates zweites Portal) |
+| **Kabelnetz/Kommunikation** | Sunrise UPC (vormals UPC) | ⚠ ~~`upc.ch/leitungskataster`~~ **seit spätestens 01.08.2026 unerreichbar** (Zertifikat abgelaufen 29.06.2026, Kataster-Host 403 auch im Browser) → Bezug über Sunrise, siehe Kasten unten. Historischer Stand: 4 Regionen (West/Ost/Ticino/Romandie), Region Ost deckt Zürich/Winterthur/Gossau/Jona ab; Sunrise-Markenauftritt führt real auf dieselbe `leitungskataster.upc.ch`-Domäne (Delta Run 42, Anmeldung/Bestellung Reckholdern belegt: Sunrise-gebrandete Korrespondenz, Login/Bestellung technisch weiterhin unter dem UPC-Namen — Marken-/Technikstand-Delta nach der Sunrise-UPC-Fusion, kein separates zweites Portal) |
 | **Gas** | kommunale Gaswerke / Energie 360° (Stadt ZH) / regionale Erdgas-Versorger | i.d.R. separate Anmeldung bei der Gemeinde-/Regionalwerk |
 | **Wasser/Abwasser** | Gemeindewerke (Wasserversorgung, Kanalisation) | i.d.R. beim Tiefbau-/Werkamt der Gemeinde, oft zusammen mit dem Werkleitungskataster der Gemeinde selbst |
 
@@ -87,8 +87,19 @@ regelt Strassenabstand/Erschliessung, **nicht** die Werkleitungsauskunft selbst.
   eingemessen werden.
 - Swisscom: **Netzauskunft** als PDF-Plot, Massstab typ. **1:200**, Zentrumskoordinate + Perimeter
   angegeben, Gültigkeit 3 Monate.
-- Sunrise UPC: online abrufbare Katasterauskunft je Region (`upc.ch/leitungskataster`), analoges
-  Prinzip.
+- Sunrise UPC: online abrufbare Katasterauskunft je Region (~~`upc.ch/leitungskataster`~~ —
+  **nicht mehr erreichbar**, siehe Kasten unten), analoges Prinzip.
+
+> ⚠ **`upc.ch` ist unerreichbar — Bezug nur noch über Sunrise (gemessen 01.08.2026).**
+> Das TLS-Zertifikat von `www.upc.ch` (CN `www.upc.ch`, SAN u.a. `upc.ch`) ist am
+> **29.06.2026 abgelaufen**; `https://` bricht damit ab, `http://` antwortet nicht.
+> `leitungskataster.upc.ch` liefert **HTTP 403 — auch im echten Browser**, ist also
+> **keine** Bot-Sperre, sondern eine abgeschaltete Ressource. Betreiber ist nach der
+> Fusion die **Sunrise** (`www.sunrise.ch`, 200). Ein direkter Nachfolge-URL für den
+> Leitungskataster ist **nicht belegt** und wird hier bewusst nicht behauptet — die
+> Auskunft ist über den Sunrise-Kundendienst/Business-Kontakt anzufordern.
+> (Schliesst K65; Wartungslauf 01 hatte den Fall zu Recht offen gelassen, weil eine
+> Bot-Sperre wie ein Ausfall aussieht — die Browser-Gegenprüfung entscheidet.)
 
 ## 5. Automatisierbarkeit — bewusst (noch) kein Connector
 

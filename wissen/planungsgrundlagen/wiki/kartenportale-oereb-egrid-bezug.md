@@ -1,7 +1,7 @@
 ---
 title: OEREB-Auszug und EGRID beziehen (Kt. ZH)
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-08-01 (Wartungslauf 02: Connector-Benchmark 5 von 5 gruen, Pfad-Warnung)
 sources: [GIS-Helpdesk Kt. ZH (Hannah Gies, 2026), api3.geo.admin.ch, maps.zh.ch/oereb/v2, map.geo.sz.ch/oereb, eigene Endpunkt-Messungen 30.07.2026 (Training Run 93)]
 links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-kataster-system-zh]]
 ---
@@ -125,10 +125,40 @@ Die Zonenplan-Werte (W1, BMZ 1.5, GH 4.5) stimmen mit dem in
 `[[kartenportale-zonenplan-zh]]` festgehaltenen Stand überein — kein Revisions-Delta an dieser
 Parzelle.
 
+## Connector-Benchmark 01.08.2026 (Wartungslauf 02) — 5 von 5 grün
+
+Alle fünf Connectoren am belegten JANS-Benchmark gemessen; **jeder Wert identisch zum
+Wartungslauf 01** (30.07.2026), also keine Endpunkt-Erosion und kein Revisions-Delta:
+
+| Test | Ergebnis |
+|---|---|
+| `geo-zh` Adresse → EGRID (Giebelweg 12, 8135 Langnau a.A.) | **EGRID CH879777718909 · Parz. 3338 · BFS 136** — unverändert seit Erstbezug 05.06.2026 |
+| `geo-zh --produkt zonenplan` | **W/1.5 (W1) · BMZ 1.5 · GH 4.5 · ES_II · inKraft** — unverändert |
+| `geo-zh --produkt baulinien` | 7 Baulinien (nächste **116.2 m**) + 1 Waldgrenze (**105.6 m**) — unverändert |
+| `geo-zh --oereb` | PDF **889 KB** abgelegt |
+| `geo-sz --parzelle "Einsiedeln 3301"` + OEREB | **EGRID CH527708492462 · Parz. 3301 · BFS 1301**, PDF **2'005 KB** |
+| Weiterleitungsdatei `oereb-schwyz/geo-sz.mjs` | löst denselben EGRID auf — **eine** Wahrheit bestätigt |
+| `gwr-bund --egid 302064023` (KISPI) | EGRID CH267999915472 · Parz. RI5416 · «Kinderspital» · Lenggstrasse 30 |
+| `geoshop-zh --list` | **247 Zeilen** Produkt-/Formatliste live vom Geoshop-API |
+| `behoerden-zh --check` | **33 aktuell · 0 geändert · 0 neu · 0 TOT** (von 33) |
+| `--hilfe` alle fünf (E15-Regression) | voller Hilfetext · **rc=0**; Aufruf ohne Argument weiterhin **rc≠0** |
+| 204-Diagnose, ZH-EGRID gegen SZ-Service und umgekehrt | beide melden zutreffend «EGRID im Register nicht vorhanden … Kein Negativbeweis» — **E12 hält** |
+
+> ⚠ **Der Endpunkt `geoservices.zh.ch/geoshopapi/v1` antwortet auf die blanke Basis mit 404.**
+> Das ist **kein** Defekt, sondern REST-Normalverhalten — `…/v1/products` liefert 200. Ein
+> Frischecheck, der nur die Basis-URL misst, meldet hier sonst einen Phantom-Ausfall.
+
 ## Connector
 
 `skills/planungsgrundlagen/connectors/geo-zh.mjs` kapselt die ganze Kette:
-`node geo-zh.mjs --adresse "Giebelweg 12 Langnau am Albis" --oereb --out <A> --out <B>`.
+`node skills/planungsgrundlagen/connectors/geo-zh.mjs --adresse "Giebelweg 12 Langnau am Albis" --oereb --out <A> --out <B>`.
+
+> ⚠ **Pfad vollständig angeben.** Die Connectoren liegen unter
+> `skills/planungsgrundlagen/connectors/`, **nicht** unter `connectors/` in der Hub-Wurzel (dort
+> liegen nur bexio, zefix, truninger-ds3, ebaugesuche-zh, hub-setup, claude-usage). Die verkürzte
+> Form `node connectors/geo-zh.mjs …` scheitert mit `MODULE_NOT_FOUND` und sieht aus wie ein
+> defekter Connector. Im Wartungslauf 02 in `skills/planungsgrundlagen/SKILL.md` (3 Stellen),
+> `skills/massgebendes-terrain/SKILL.md` und [[recht-norm-radonschutz]] korrigiert.
 
 ## Standard-Ablage
 

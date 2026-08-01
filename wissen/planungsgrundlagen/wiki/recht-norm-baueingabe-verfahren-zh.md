@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Baueingabe-Verfahren ZH (Fristen, Ablauf, Plandarstellung)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-01 (Wartungslauf 02: zh.ch-Kurzadressen ohne www.; altlasten.zh.ch traegt nicht mehr)
 sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/Baueingabe Fristen/Baueingabe Fristen.pdf (JANS-Vorlage, Fallbeleg Wartstrasse 8 Zürich B25-01615.01 + Bohlweg 3 Thalwil BE2024.227), .../link/wegleitung-eingabe-baugesuch.pdf (Stadt Zürich AfB Merkblatt Eingabe Baugesuch, Ablageort 500.100.110, Stand 1.6.2024), .../link/ratgeber_baubewilligung_4_auflage.pdf (Kt. ZH Baudirektion AWEL, "Ratgeber Baubewilligung" 4. Aufl. März 2016, energetische Sanierung), Zürcher Planungs- und Baurecht Band 1 S.389/390/579 (zitiert in JANS-Vorlage)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-ivhb-baubegriffe]], [[recht-norm-baurechtsanalysen-benchmarks]], [[kartenportale-grundlagen-checkliste-neue-parzelle]]
 ---
@@ -96,11 +96,11 @@ Monate einkalkulieren**.
 - Grundsätzlich ist die **Gemeinde** Baubewilligungsbehörde (Stadt Zürich:
   Amt für Baubewilligungen AfB, Lindenhofstrasse 19, 8021 Zürich, Tel. 044
   412 11 11; Stadt Winterthur: Baupolizeiamt).
-- Rechtsgrundlagen abrufbar über `www.energie.zh.ch` (PBG LS 700.1, ABV LS
+- Rechtsgrundlagen abrufbar über `energie.zh.ch` (PBG LS 700.1, ABV LS
   700.2, BBV I LS 700.21, BVV LS 700.6); Planungsgrundlagen (GIS: geschützte
   Ortsbilder, Erdsonden, Altlasten, Lärm-/Solarkataster) über `www.maps.zh.ch`.
 - Kantonale Fachstellen: GS Bauverfahren + Koordination Umweltschutz
-  (`www.baugesuche.zh.ch`, 043 259 24 17), ARE Bauen ausserhalb Bauzonen (043
+  (`baugesuche.zh.ch`, 043 259 24 17), ARE Bauen ausserhalb Bauzonen (043
   259 54 75), AWEL Gewässerschutz (043 259 32 07), AWEL Energie (043 259 42
   66), ARE Archäologie und Denkmalpflege (043 259 69 00).
 - **Kantonale Spezialbewilligungen** (Ratgeber S.11): Bauten ausserhalb
@@ -111,7 +111,11 @@ Monate einkalkulieren**.
   Fristen für dauernde Anordnungen bis zu einem Jahr gemäss Baugesetz —
   frühzeitige Kontakte wichtig), Archäologie (Bewilligung Kantonsarchäologie
   für Eingriffe in archäologischen Zonen), Altlasten (Altlastenkataster via
-  `www.altlasten.zh.ch`).
+  ~~`altlasten.zh.ch`~~ — **die Kurzadresse trägt nicht mehr** (gemessen
+  01.08.2026): ohne `www.` besteht kein A-Record, mit `www.` antwortet sie nur
+  über `http://` und landet auf der **Startseite** `www.zh.ch/de.html`, nicht
+  beim Kataster. Bezugsweg heute über den GIS-Browser `maps.zh.ch` (Layer
+  Altlastenkataster) bzw. die AWEL-Seite auf `www.zh.ch`).
 
 ## 4. Gesuchsunterlagen und Plandarstellung (Merkblatt AfB Stadt Zürich, Stand 1.6.2024)
 

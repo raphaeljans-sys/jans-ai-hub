@@ -19,7 +19,7 @@ description: >-
 - **Trigger:** Hangparzellen in `machbarkeit` / `volumenstudie` / `behoerden-vorabklaerung`;
   manuell auf Zuruf (Stichworte siehe Frontmatter).
 - **Inputs:** Parzellen-Polygon (amtlich, LV95), Gebaeude-Fussabdruck (+ Attika), DTM
-  (swissALTI3D via `planungsgrundlagen/connectors/geo-zh.mjs --produkt dtm --download`),
+  (swissALTI3D via `skills/planungsgrundlagen/connectors/geo-zh.mjs --produkt dtm --download`),
   zonengemaesse Fassadenhoehe + Attikahoehe + Baumasse-Budget (aus Skill `baurecht`/BZO).
 - **Output:** Hangschnitt-Nachweis (Grafik + Rechnung), ggf. abgetrepptes Volumen
   (OBJ/3dm via volumenstudie-Pipeline), Kennzahlen (anrechenbare Baumasse, Hoehen je Ecke).

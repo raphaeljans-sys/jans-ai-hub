@@ -42,7 +42,7 @@ Destilliert aus den vier buerofweiten **PL-Grundordnern** auf SharePoint:
 ### A — Geodaten-Beschaffung (PL-01, der Hauptfall)
 
 1. **Ort bestimmen.** Adresse oder Parzelle vom Benutzer; bei Unklarheit Gemeinde nachfragen.
-2. **EGRID ermitteln.** Connector `connectors/geo-zh.mjs --adresse "..."` →
+2. **EGRID ermitteln.** Connector `skills/planungsgrundlagen/connectors/geo-zh.mjs --adresse "..."` →
    liefert EGRID + Parzellennummer + BFS. EGRID wird **nie erfunden** (Rule
    `identifikatoren-verifizieren`); bei 0/mehrdeutigen Treffern Mensch fragen.
 3. **OEREB-Auszug beziehen.** `--oereb --out <Ordner>` (mehrere `--out` moeglich).
@@ -72,12 +72,12 @@ Siehe `connectors/README.md`. Validiert fuer Kt. ZH:
 
 ```bash
 # OEREB/EGRID/Bund-Produkte (synchron)
-node connectors/geo-zh.mjs --adresse "Giebelweg 12 Langnau am Albis" --oereb \
+node skills/planungsgrundlagen/connectors/geo-zh.mjs --adresse "Giebelweg 12 Langnau am Albis" --oereb \
   --out ".../PL - 01 Kartenportale/OEREB-Auszug" \
   --out ".../AR - 03 Studien/2621 Giebelweg 12/01_Plaene/99 Plangrundlage"
 
 # Grundstueckkataster / amtliche Vermessung als DXF (Geodatenshop, asynchron mit Polling)
-node connectors/geoshop-zh.mjs --gemeinde "Langnau am Albis" \
+node skills/planungsgrundlagen/connectors/geoshop-zh.mjs --gemeinde "Langnau am Albis" \
   --out ".../PL - 01 Kartenportale/Grundstueckkataster/Langnau a Albis"
 # auch je Parzelle (--egrid CH...) oder andere Shop-Produkte (--produkt/--format, --list)
 ```

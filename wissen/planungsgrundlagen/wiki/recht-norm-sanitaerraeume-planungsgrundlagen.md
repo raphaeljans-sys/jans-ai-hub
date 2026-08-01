@@ -1,7 +1,7 @@
 ---
 title: Sanitärräume — Apparate-Bemessung und altersgerechtes/barrierefreies Bad (09_Sanitaereinrichtung)
 status: established
-last_updated: 2026-07-18 (Run 52)
+last_updated: 2026-08-01 (Wartungslauf 02: procap-bauen.ch Zertifikat, Ziel-URL nachgefuehrt)
 sources: [
   "Procap Bauen, Merkblatt 105 «Rollstuhlgerechte Toiletten in öffentlich zugänglichen Bauten nach Norm SIA 500» (Ausgabe 10/09, 6 S., PL-02/04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf)",
   "Geberit, «Arbeitshilfen Sanitärapparate» (Achs-/Wandabstände und Platzbedarf Sanitärapparate, Tab. 1.9-1.11 + Bild 48-53, PL-02/09_Sanitaereinrichtung)",
@@ -222,4 +222,7 @@ Pflegekonzept-Vorgaben massgebend (§4 + §5.1).
   ausdrücklich als massgeblich für Spital-/Pflegeheim-/Betreutes-Wohnen-Projekte referenzierte
   Fundstelle) liegt weder in `09_Sanitaereinrichtung` noch in `04_Merkblätter` im Hub vor — bei
   einem konkreten JANS-Healthcare-Mandat mit IV-WC-Pflicht direkt bei Procap Bauen
-  (bauen@procap.ch, www.procap-bauen.ch) zu beschaffen und nachzutragen.
+  (bauen@procap.ch, `www.procap-bauen.ch` — **https bricht am Zertifikat**;
+  über `http://` leitet die Adresse auf
+  `www.procap.ch/angebote/beratung-information/bauen-und-verkehr/`, gemessen
+  01.08.2026, das ist die zitierfähige Form) zu beschaffen und nachzutragen.

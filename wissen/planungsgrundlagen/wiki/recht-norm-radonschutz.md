@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Radonschutz bei Neu- und Umbauten (StSV)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-01 (Wartungslauf 02: Connector-Pfad vollstaendig)
 sources: [
   "Strahlenschutzverordnung (StSV) vom 26. April 2017, SR 814.501, aktuell konsolidierte Fassung (fedlex ELI cc/2017/502, PDF-A Stand 20250101, geladen 2026-07-13) — Art. 155/156/163/164/166",
   "PL - 02_Recht_Norm/01_Gesetze/01_Bund/Radonbelastung/Strahlenschutzverordnung/814.501.pdf — ⚠ HISTORISCHE Fassung 'vom 22. Juni 1994 (Stand am 1. Januar 2014)', durch die Totalrevision 2017 ersetzt, nicht mehr zitierfähig",
@@ -87,7 +87,7 @@ Die im Ordner abgelegte **BAG-«Suchmaschine nach Gemeinde» (Stand 2013)** ist 
 **Überschreitungswahrscheinlichkeit [%] des Referenzwerts von 300 Bq/m³ je 1×1-km-Pixel**, mit einem
 **Konfidenzindex** (hoch/mittel/tief/sehr tief) zur Verlässlichkeit der berechneten Wahrscheinlichkeit.
 Für ein konkretes Projekt ist dieser Layer die zu ziehende, aktuelle Quelle — nicht die alte
-Gemeinde-Statistik-PDF. Anbindung an den Connector `geo-zh.mjs`/`connectors/geo-zh.mjs --produkt` ist
+Gemeinde-Statistik-PDF. Anbindung an den Connector `skills/planungsgrundlagen/connectors/geo-zh.mjs --produkt` ist
 noch **nicht geprüft** (offener Punkt, s.u.) — bislang nur als manueller Kartenlink bekannt.
 
 ## 4. Nutzung im JANS-Workflow

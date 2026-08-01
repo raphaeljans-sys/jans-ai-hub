@@ -1,8 +1,8 @@
 ---
 title: Energie/HLS — Zusatzformulare zur Baueingabe (WTA, Schallschutz Aussenlärm, Versickerung)
 status: established
-last_updated: 2026-07-29
-sources: [PL - 04 Energie/endk.ch (SharePoint) — WTA-Formular Ausgabe Januar 2024, Formular S Schallschutznachweis Aussenlärm, Gesuch zur Versickerung von Regenwasser (AWEL, Kt. ZH); www.awel.zh.ch/versickerung; www.baugesuche.zh.ch]
+last_updated: 2026-08-01 (Wartungslauf 02: awel- und baugesuche-Kurzadressen ohne www.)
+sources: [PL - 04 Energie/endk.ch (SharePoint) — WTA-Formular Ausgabe Januar 2024, Formular S Schallschutznachweis Aussenlärm, Gesuch zur Versickerung von Regenwasser (AWEL, Kt. ZH); awel.zh.ch/versickerung; baugesuche.zh.ch]
 links: [[energie-uebersicht]], [[energie-energienachweis-zh-formulare]], [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]]
 ---
 

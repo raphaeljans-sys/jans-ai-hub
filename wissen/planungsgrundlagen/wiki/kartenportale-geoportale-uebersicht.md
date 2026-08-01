@@ -1,7 +1,7 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-07-30 (Wartungslauf 01: geoglatt.ch abgeschaltet, LU-Hosts nachgefuehrt, ObjektwesenZH-URL)
+last_updated: 2026-08-01 (Wartungslauf 02: Landschaftsmodell-URL nur mit www. aufrufbar)
 link_status: "Die sources-Liste unten ist ein HISTORISCHES Herkunftsprotokoll (was wann gelesen wurde),
   keine Liste lebender Adressen — sie wird bewusst nicht rueckwirkend umgeschrieben. Stand
   Frischecheck 2026-07-30: `geoglatt.ch` ABGESCHALTET (Domain nicht mehr delegiert),
@@ -21,7 +21,7 @@ Geodatenshop Kanton Luzern/03 Produkte Geodatenshop/Grundbuchplan (ags_MapReport
 Ausdruck geoportal.lu.ch 12.06.2024) + .../Gebaeudeenergie Solarpotential/
 GeoportalLU_gebaudeenergie_2024-05-29.pdf, Gemeinden Luzern Stadt/_Stadt Luzern GIS/LINK.docx
 (Kundendienst-Kontaktdaten) + _Kontakte Links/_LINK_Stadt Luzern.docx (CityMap) +
-Landschaftsmodell/_LINK.docx (geo.lu.ch/landschaftsmodell), CH Schweiz/geoportal.ch/Oberaegerie/
+Landschaftsmodell/_LINK.docx (www.geo.lu.ch/landschaftsmodell), CH Schweiz/geoportal.ch/Oberaegerie/
 (6 Screenshots, ktzg-URL-Präzisierung, Run 65 2026-07-25 Token-Vollgas)]
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-bund-geodaten]] [[kartenportale-zonenplan-zh]] [[kartenportale-baulinien-abstandslinien-zh]] [[kartenportale-naturgefahren-objektschutz]] [[kartenportale-werkleitungskataster]] [[kartenportale-denkmalschutz-isos]] [[recht-norm-dispensrecht]] [[kartenportale-oereb-kataster-system-zh]]
 ---
@@ -345,7 +345,7 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   diesem Kundendienst angefragt (nicht über den kantonalen Geodatenshop). Zusätzlich die
   **Stadtplan/CityMap** (`map.stadtluzern.ch/citymap/`, Bau- und Zonenordnung) als weiteres
   Stadt-Tool sowie ein eigenständiges Geodatenshop-Produkt **Landschaftsmodell**
-  (`geo.lu.ch/landschaftsmodell/`, bisher nur als Katalogzeile ohne URL geführt).
+  (`www.geo.lu.ch/landschaftsmodell/`, bisher nur als Katalogzeile ohne URL geführt).
 - **K58 — bestätigte Doppelfunde (Registerpflege, kein neuer Inhalt):** die Dateien
   `Gemeinden Luzern Stadt/_Stadt Luzern Tiefbauamt/Tiefbauamt.docx` und
   `.../Stadt Luzern 3D-Stadtmodell/_Stadt Luzern Stadt Modell.docx` wurden erneut geprüfte —

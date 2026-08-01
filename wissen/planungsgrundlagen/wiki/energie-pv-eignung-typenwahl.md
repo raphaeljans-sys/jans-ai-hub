@@ -1,7 +1,7 @@
 ---
 title: PV/Solar — Typenwahl, Eignung & Ertrag (Planungsgrundlage)
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-01 (Wartungslauf 02: solarrechner.ch tot, EnergieSchweiz-Nachfolge belegt)
 sources: [PL - 04 Energie/Solaranlage (SharePoint), EnergieSchweiz Solarrechner Usermanual (Okt 2022), SolarApp AG "SolarReport" Reckholdern/Willerzell (09.01.2024, vollständiger Bericht Run 42) + MFH Basel (05.11.2022), PVSOL premium 2019 Projekt "PI" Thomas Lueem Partner AG (18.01.2019, Run 42), JANS-Projekt ewzWHH PS 19.36 (Korrespondenz 02/2019), Formular EN-104 (EnDK, Juni 2019), PREFA Solarfolder CH (Stand 09.2023 V5), Datenblatt SI-Saphir M175-M180 (Stand 06/2015, DIBt Z-70.3-204), Eternit Sunskin roof GG-L 195W (solar-home.ch Webshop, Screenshot 17.11.2024), Amt für Umwelt und Energie Basel/jessenvollenweider (2021, Fassaden-PV Schmelzglas), uvek-gis.admin.ch, sonnenverlauf.de, Megasol Datenblatt Hochleistungsmodul M385-HC120-b BF GG U30b Art. 0322.1580 (Version 10/2022, Run 31), PL - 04 Energie/Solaranlage/Dachausstiege (6 Produktfotos, 11/2024, Run 31), Eternit Sunskin roof "Planung + Ausführung" (solar-home.ch/Sunskin, Rev. 01.2022/web, Run 40), UVEK-GIS-Bericht "Wie viel Strom oder Wärme kann mein Dach produzieren?" (uvek-gis.admin.ch/BFE, sonnendach.ch-Druckausgabe, 02.07.2023, Run 40), EnergieSchweiz-Solarrechner-Report "Schlüsseldaten rund um meine Solaranlage" (energieschweiz.ch, Diemtigen, 02.07.2023, Run 40), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" (PL-04/Solaranlage/_Literatur, Run 40), HSLU T&A "GreenPV" Workshop 2 Foliensatz (20220606_GreenPV - Workshop 2.pdf, 15.06.2022, S. 1-29 von 46, Run 49), HSLU IGE "GreenPV" Schlussbroschüre (502400-greenpv-broschuere-20240827-web.pdf, hslu.ch, 27.08.2024, 47 S. vollständig, Run 50), TEC21 | TRACÉS | archi Dossier 5/2012 "SolaRes Bauen" S. 1-38 vollständig gelesen (Final_Dossier_Solararchitekur_tiefaufgeloest.pdf, 8 weitere Referenzprojekte, Run 65 2026-07-25 Token-Vollgas)]
 links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienachweis-zh-formulare]], [[energie-betriebsenergie-pv-wirtschaftlichkeit]], [[kartenportale-geoportale-uebersicht]], [[recht-norm-arbeitshilfen-planungsdetails]]
 ---
@@ -119,7 +119,7 @@ Reihenfolge von grob (Portal, kostenlos) zu fein (professionelle Simulation):
 | Werkzeug | Liefert | Endpunkt / Quelle | Datenstand |
 |---|---|---|---|
 | **sonnendach.ch** (BFE) | Eignung + grober Jahresertrag je Dachfläche der CH | `sonnendach.ch` (geom. Basis swisstopo) | laufend (BFE) |
-| **EnergieSchweiz Solarrechner** | Ertrag, Eigenverbrauch, Batterie, **Renditerechner** | `solarrechner.ch` / energieschweiz.ch | Usermanual Okt 2022 |
+| **EnergieSchweiz Solarrechner** | Ertrag, Eigenverbrauch, Batterie, **Renditerechner** | **`www.energieschweiz.ch/tools/solarrechner/`** (200, gemessen 01.08.2026) — die frühere Kurzadresse ~~`solarrechner.ch`~~ ist **tot** (kein verwertbares TLS-Zertifikat, `http://` antwortet 436; auch im Browser nicht ladbar) | Usermanual Okt 2022 |
 | **uvek-gis.admin.ch** | kartenbasierte Eignung/Ertrag, Layer | `uvek-gis.admin.ch` (Map-Viewer Bund) | laufend |
 | **sonnenverlauf.de** | Sonnenstand/Verschattung über Jahr | `sonnenverlauf.de` | laufend |
 | **SolarApp AG** | vollständiges "SolarReport"-Vorprojekt (Auslegung + Nutzenanalyse) | `solarapp.ch` (Deitingen SO), Bestellung durch Installateur/Planer | projektweise |
