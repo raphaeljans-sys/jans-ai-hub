@@ -1,3 +1,68 @@
+## 2026-08-01 (MacBook Pro, Run 41) — zehnte Lignatec-Runde, zwei Zweitverifikationen, 13 neue Destillate
+
+Report: [`outputs/2026-08-01_normen-nacht-run41.md`](outputs/2026-08-01_normen-nacht-run41.md)
+
+**Lignatec, zehnte Runde — erstmals der Fliesstext.** Der Vorrang-Auftrag des Task-Textes war
+zweifach überholt (Runden 8, 9 und 10 sind gefahren). Gemacht wurde, was Run 40 als offen
+auswies: die **vollständige Seiten-Inventur** (neu: `training/lignatec-seiteninventur.md`, alle
+24 Druckseiten Element für Element) und der **systematische Diff des Fliesstextes der Kapitel
+1-4**. Ergebnis: **kein falscher Zahlenwert, 6 Kernbefunde + 12 Nebenbefunde**, und fünf der
+sechs sind ganz fehlende Sätze — fast ausschliesslich **Schutzziel- und Verknüpfungssätze**.
+Schwerster Befund: **beide Kumulationssätze** (Ziff. 2.1 und 2.2.2) fehlten, also die
+Verknüpfungsregel der zwei Tabellen-3-Spalten. Ebenfalls neu: die ganze Festlegungsregel für
+den Feuerwiderstand brandabschnittsbildender Bauteile samt der Aussage, dass Sprinkler auch die
+zulässige **Ausdehnung** von Brandabschnitten beeinflussen. Kernbefunde 4-6 vom Hauptprozess am
+eigenen 300-dpi-Rendering der S. 7 wörtlich nachgelesen. Regressionscheck 32-36: alle halten;
+die Schrägstrich-Notation ist ein viertes Mal unabhängig bestätigt.
+Strukturell festgestellt: Blatt 12 trägt `24 | 1` (äusserster Bogen) — ein Agentenbefund
+«Titelblatt fehlt» wurde dadurch vom Hauptprozess **widerlegt**; es gibt **keine Tabelle 1**.
+
+**GVZ RWA-Parkhaus, zweite Runde.** Alle 27 Wertzellen halten — die Run-40-Neufassung ist
+inhaltlich richtig, und die Sprinkler-Lesart ist durch das Original selbst bewiesen
+(Anhang-Beispiel 2). **Aber die Beschreibung war falsch:** die Zellen sind **waagrecht**
+geteilt, nicht diagonal; die einzige Diagonale steht in der Spalte ≤ 600 m². Vom Hauptprozess
+am eigenen 300-dpi-Rendering selbst bestätigt. **Dritter belegter Fall in dieser KB, in dem
+eine frühere «geprüft korrekt»-Bestätigung selbst der Fehler war.** Fünf weitere Kernbefunde
+korrigiert (letzte Spalte durchgehend blau; Praxis-Schwelle 600 statt 1200 m²; Anhangseiten
+10-12 fehlten ganz; Unterzeichnungspflicht des Entrauchungskonzepts; unhaltbare
+Methodenangabe «kein Rendering nötig»).
+
+**SWKI VA103-01, zweite Runde — der teuerste Fund des Laufs.** Alle drei Run-40-Korrekturen
+halten (eine mit einem zweiten, neuen Beleg). Beanstandet: die **12-WB/h-Schwelle war als
+Entscheidungsparameter zwischen natürlicher und mechanischer Lüftung dargestellt — sachlich
+falsch.** Abb. 6 verzweigt über offen? / unter 100 m²? / tiefer als 2. UG? /
+Veranstaltungs-Parkplätze / Machbarkeit; die 12 WB/h entscheiden erst danach über die
+Ausrüstungskonfiguration 1-6. Vom Hauptprozess am eigenen gedrehten Rendering selbst gelesen.
+Die daraus abgeleitete Handlungsanweisung war unbrauchbar und ist ersetzt. Vier weitere
+Kernbefunde korrigiert (innerer Widerspruch, PC 1/PC 2 sind Druckbedingungen nach SIA 382/1,
+zwei fehlende Abgrenzungsregeln, fehlende Ausschlussgründe). Abdeckung ehrlich gemacht;
+Seitenversatz belegt (PDF = Druckseite + 2).
+
+**PL-02 Kern-Nachtrag: 13 Positionen, 12 neue Destillate.** Neun PAVIDENSA-Merkblätter
+(Estriche, Abdichtungen im Verbund, Schutzschichten, Verschleisswiderstand), das
+suissetec-Merkblatt zur SN 592000 und drei Dokumente zum hindernisfreien Bauen.
+Drei Funde am Rand, die Zeit sparen bzw. Fehler verhindern:
+- **Tabelle 1 von PAV-A 01 an drei Stellen korrigiert** — die Tabelle arbeitet mit über mehrere
+  Normspalten verbundenen Zellen, die Textextraktion ordnete Rautiefe, Ebenheit und
+  Feuchtigkeit falsch zu. Harte LV-Werte.
+- **`SN592_Liegenschaftsentwaesserung_d.pdf` ist NICHT die Norm**, sondern ein
+  suissetec-Änderungsmerkblatt von 2013 zur Ausgabe 4:2012.
+- **Zwei der vier Dateien im BKZ-Ordner stammen nicht von der BKZ.** Und: **BKZ heisst in dieser
+  KB neu zweierlei** — Brandkennziffer (Brandschutz) und Behindertenkonferenz Kanton Zürich.
+  Ab sofort beim ersten Vorkommen je Artikel ausschreiben.
+Die Kreuzmatrix von PAV-A 03 ist **bewusst nicht wiedergegeben** (nicht spaltengenau
+rekonstruierbar); sie entscheidet über Materialverträglichkeit, eine halbrichtige Fassung wäre
+schlimmer als keine.
+
+**Nachgeführt:** 13 Destillate, `destillate/INDEX.md` (13 Zeilen), `training/norm-inventar.md`
+(13 Positionen, 2 Annotationen korrigiert), `training/lignatec-seiteninventur.md` (neu),
+`wiki/QUESTIONS.md` (22 neue Punkte).
+
+**Endbedingung des Vorrang-Auftrags weiterhin NICHT erfüllt; Ereignis-Trigger wird nicht
+vorgeschlagen.** Methodik-Kandidat für das PROGRAMM (M41-1): Tabellen mit verbundenen Zellen
+oder Farbcodierung werden gerendert und abgelesen, nie extrahiert — dieselbe Falle hat in
+diesem Lauf zweimal zugeschlagen und beide Male harte LV-Werte getroffen.
+
 ## 2026-07-31 (Mac Mini Nachtschicht) — VKF-BRL 23-15 Fassungsfrage geklärt (Bring-Schuld aus `bauprodukte`)
 
 `wissen/bauprodukte/wiki/QUESTIONS.md` Punkt 10 verlangte zu prüfen, ob die Teilrevision 2017
