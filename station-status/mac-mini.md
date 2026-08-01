@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 05:56:04
+Stand: 01.08.2026 06:06:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:42)
@@ -12,4 +12,4 @@ Stand: 01.08.2026 05:56:04
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c06c46da nas-selfcommit: 3 Datei(en) 2026-08-01 05:45
+- aeea8e33 twin-fidelity-review 01.08.2026: Modalitaetswechsel auf Dokument-Gold (Fidelity 56), Gattungsweiche Eigendokument in allen 6 Facetten, QUESTIONS 260801, DNA neu kompiliert
