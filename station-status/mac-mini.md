@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 05:05:38
+Stand: 01.08.2026 05:25:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 05:05:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a32de401 planungsgrundlagen-wartung 02: zh.ch-Zitierregel beide Richtungen, K65 geschlossen, Connector-Pfad korrigiert, link-frischecheck.sh neu
+- 5ebb6a22 nas-selfcommit: 2 Datei(en) 2026-08-01 05:15
