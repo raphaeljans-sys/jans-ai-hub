@@ -2,6 +2,29 @@
 
 Neueste zuoberst.
 
+## 2026-08-01 (interaktive Session mit Raphael) — PL-02-Zugangsblockade WIDERLEGT, 134 PDF freigegeben
+
+- **Die seit Run 119 als «hoechste Prioritaet» gefuehrte PL-02-Zugangsblockade existiert nicht.**
+  Gemessen auf dem MacBook Pro und per SSH auf dem Mac Mini: **1170/1170 PDF in
+  `PL - 02_Recht_Norm` lesbar, Fehlerzahl 0**; fuer die beiden angemeldeten Bestaende einzeln mit
+  Byte-Vergleich (Dateigroesse gegen tatsaechlich gelesene Bytes, nicht nur Header) nachgemessen:
+  **Minergie 79/79, eco 55/55 vollstaendig lesbar**. Die Werkzeuge, die in Run 119/120 `EDEADLK`
+  lieferten, arbeiten fehlerfrei: Read-Tool rendert `VoHi_EN-02_de.pdf` (Vollzugshilfe EN-2
+  «Waermeschutz von Gebaeuden», EnFK, Januar 2009, 14 S.), `file` meldet auf dem Mini «PDF
+  document, version 1.4, 14 pages», voller `md5`-Durchlauf `28fe2f69aa6b5d25a1a9105f7ab3bb4c`,
+  `pdftotext` extrahiert sauberen Text.
+- **Die Ursachenvermutung der drei Laeufe war falsch.** Weder TCC/Festplattenvollzugriff noch ein
+  Sync-/Scope-Ausschluss: die Dateien liegen materialisiert auf der Platte und lesen sich auf dem
+  Mini sogar bei nicht laufendem OneDrive. `EDEADLK` war ein transienter Zustand des
+  OneDrive-File-Providers.
+- **Methodische Lehre (uebertragbar):** die «dreifach unabhaengige Bestaetigung» aus Run 119/120
+  war eine Wiederholung derselben Messung im selben Fehlerzustand — sie hat die Diagnose
+  gehaertet, nicht geprueft. Ein `EDEADLK` auf CloudStorage ist eine Zustandsmeldung, keine
+  Rechtelage, und gehoert vor jeder Eskalation zu einem spaeteren Zeitpunkt UND aus einem zweiten
+  Kontext gegengemessen. Kosten der unterlassenen Gegenprobe: 134 PDF ueber drei Laeufe blockiert.
+- `wiki/QUESTIONS.md` an beiden Fundstellen korrigiert (Anmeldung 2026-07-29 und Run-120-Block);
+  E-PL02-1 und E-PL02-2 sind ohne Vorbedingung bearbeitbar, kein Handlungsbedarf bei Raphael.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B8 · C0 · D0 · E0 · F167 · G10
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 7 Backlinks sind ueber den Zeilenumbruch zerrissen (Audit B): `BAUHERREN-FAQ. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

@@ -59,6 +59,35 @@ Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
 
 ## 2026-07-29 (Cross-KB normen → energie, Normen-Run 36) — 134 nie erfasste PDFs liegen in PL-02 und gehoeren hierher
 
+> **AUFGEHOBEN 01.08.2026 — die PL-02-Zugangsblockade existiert nicht mehr, der Bestand ist offen.**
+> Gemessen am 01.08.2026 auf dem MacBook Pro (interaktive Session, Raphael anwesend) und per SSH
+> auf dem Mac Mini. Ergebnis: **alle 1170 PDF in `PL - 02_Recht_Norm` sind lesbar, Fehlerzahl 0.**
+> Fuer die beiden hier angemeldeten Bestaende einzeln nachgemessen, mit Vergleich Dateigroesse
+> gegen tatsaechlich gelesene Bytes (nicht nur Header): **Minergie 79/79 vollstaendig lesbar,
+> eco 55/55 vollstaendig lesbar.** Genau die Werkzeuge, die in Run 119/120 `EDEADLK` lieferten,
+> arbeiten fehlerfrei: das **Read-Tool** hat `VoHi_EN-02_de.pdf` gerendert (Vollzugshilfe EN-2
+> «Waermeschutz von Gebaeuden», EnFK, Ausgabe Januar 2009, 14 Seiten), `file` meldet auf dem Mini
+> «PDF document, version 1.4, 14 pages», ein voller `md5`-Durchlauf laeuft durch
+> (`28fe2f69aa6b5d25a1a9105f7ab3bb4c`), und `pdftotext` extrahiert sauberen Text.
+>
+> **Die Ursache war nicht die, die drei Laeufe vermutet haben.** Weder Festplattenvollzugriff/TCC
+> noch ein Sync-/Scope-Ausschluss der Bibliothek: die Dateien liegen materialisiert auf der Platte
+> und lesen sich auf dem Mini sogar dann, wenn OneDrive dort gar nicht laeuft. `EDEADLK`
+> («Resource deadlock avoided») war ein **transienter Zustand des OneDrive-File-Providers**, der
+> sich von selbst aufgeloest hat. Die dreifache «unabhaengige Bestaetigung» aus Run 119/120 war
+> keine Bestaetigung der Ursache, sondern eine Wiederholung derselben Messung im selben
+> Fehlerzustand — sie hat die Diagnose gehaertet, nicht geprueft.
+>
+> **Lehre fuer kuenftige Laeufe:** Ein `EDEADLK` auf einem CloudStorage-Pfad ist eine
+> Zustandsmeldung, keine Rechtelage. Bevor er als Blocker eskaliert wird, gehoert er zu einem
+> spaeteren Zeitpunkt und aus einem zweiten Kontext (anderer Prozess, andere Station) gegengemessen
+> — sonst blockiert eine abgelaufene Momentaufnahme monatelang echten Bestand. Hier waren es
+> 134 PDF ueber drei Laeufe hinweg, gefuehrt als «hoechste Prioritaet».
+>
+> **E-PL02-1 und E-PL02-2 sind damit ohne Vorbedingung bearbeitbar** — es ist keine Aktion
+> Raphaels mehr noetig, die Kaestchen unten bleiben offen, weil der INHALT noch nicht destilliert
+> ist, nicht weil der Zugang fehlt.
+
 Angemeldet in der **Empfaenger-KB** (Regel aus Wissens-Chef Run 8). Auslöser: Umsetzung des
 PL-02-Strukturentscheids in der KB `normen` (Freigabe Raphael 29.07.2026). Das Normen-Inventar
 scannte bis dahin nur `PL - 02_Recht_Norm/02_Normen/`; in den uebrigen Ordnern liegen rund 680
@@ -2679,6 +2708,13 @@ iCloud-spezifisch und kein Fallback für OneDrive**, dieser Lösungsweg ist dami
 Weiterhin höchste Priorität, 134 potenziell relevante PDF (Minergie-Familie + eco-bau-
 Merkblätter) bleiben unzugänglich; Empfehlung unverändert: OneDrive-Sync-Status der Bibliothek
 prüfen oder m365-mcp-server für einen künftigen Lauf laden.
+
+> **UEBERHOLT 01.08.2026:** Diese Blockade besteht nicht mehr und ihre Ursachenvermutung war
+> falsch. Alle 134 PDF sind vollstaendig lesbar (Minergie 79/79, eco 55/55), ebenso die uebrigen
+> 1036 PDF in PL-02. Weder ein Sync-/Scope-Problem noch TCC war die Ursache, sondern ein
+> transienter Zustand des OneDrive-File-Providers. Vollstaendige Messung und Lehre: Abschnitt
+> «2026-07-29 (Cross-KB normen → energie)» weiter oben in dieser Datei. **Kein Handlungsbedarf
+> bei Raphael; der Bestand kann destilliert werden.**
 
 Sieben `general-purpose`-Rechercheagenten parallel: Etappierte energetische Sanierung ZH+SZ,
 CO2/R744-Kältemittel für Hochtemperatur-Wärmepumpen, Hochtemperatur-WP für Altbausanierung ohne
