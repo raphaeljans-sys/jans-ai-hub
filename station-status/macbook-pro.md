@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 05:11:26
+Stand: 01.08.2026 05:41:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 04:54)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 05:11:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a32de401 planungsgrundlagen-wartung 02: zh.ch-Zitierregel beide Richtungen, K65 geschlossen, Connector-Pfad korrigiert, link-frischecheck.sh neu
+- 7fc70918 nas-selfcommit: 1 Datei(en) 2026-08-01 05:30
