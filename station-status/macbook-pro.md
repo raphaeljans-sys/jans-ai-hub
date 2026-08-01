@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 13:57:25
+Stand: 01.08.2026 14:07:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 13:57:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8101faba nas-selfcommit: 8 Datei(en) 2026-08-01 13:45
+- 00ff46a9 vollgas-radar 01.08. 00:58: Fenster frei, 3 Lieferungen belegt, zwei Takt-Kollisionen am Monatsersten korrigiert

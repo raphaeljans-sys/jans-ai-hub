@@ -85,10 +85,13 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   **benannte Szenarien in Anführungszeichen und VERSALIEN** («UMBAU»/«ENSEMBLE»/
   «TRANSFORMATION») statt neutraler «Variante 1/2/3»; Erkenntnisse **durchnummeriert**
   («1. Erkenntnis: …»); **«>»** als Herkunfts-/Grundlagenmarker vor einer Quelle oder einem
-  Sitzungsdatum; **«>>>»** als eigenes Zeichen für die **offene, noch unbeantwortete Frage**
-  (dritte Marke neben «_ » und «–»); Themenblöcke als blosses Label ohne Doppelpunkt
+  Sitzungsdatum; **«>>>»** für die offene, noch unbeantwortete Frage; Themenblöcke als blosses Label ohne Doppelpunkt
   («Baukörperlänge», «Nutzungsverteilung»). Ein Skript ist bei Raphael ein **Gerüst zum
-  Sprechen**, kein Vortragstext.
+  Sprechen**, kein Vortragstext. **Die Zeichen sind gewachsen, keine Grammatik (Raphael,
+  01.08.2026, [[QUESTIONS]] 260801 #4 beantwortet):** «_ » bleibt der Default; «>>>» und «>»
+  werden nur dort gesetzt, wo dieselbe Gattung und derselbe Zweck vorliegen, und **nie
+  erzwungen** — nicht jede offene Frage muss «>>>» tragen. Zeichen abschauen, wo sie belegt
+  sind; keine Zeichen-Semantik daraus ableiten und keine neuen Zeichen erfinden.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji in
   Geschäft/Sie/Dokument/Folien/operativer Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail
   (dort Hochdeutsch = Norm); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als

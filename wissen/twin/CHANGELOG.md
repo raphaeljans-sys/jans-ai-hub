@@ -20,6 +20,17 @@ Aussen-Erzeugnis.
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 288 offene Fragen in `QUESTIONS. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
 
+## 01.08.2026 — Raphael beantwortet QUESTIONS 260801 #4: «Zeichensystem ist gewachsen»
+
+Direktantwort, `authentisch`. Das Dokument-Gold-Zeichenrepertoire («>>>» offene Frage, «>»
+Grundlage, «_ » Aufzaehlung, «➢» Sub-Detail) ist **keine bewusste Notation mit fester Semantik**.
+Konsequenz in `wiki/stimme.md` (Do/Don't) und im Gehirn: «_ » bleibt Default; «>>>» und «>» nur
+in derselben Gattung und zu demselben Zweck uebernehmen, **nie erzwingen**; Zeichen abschauen,
+wo belegt, aber keine Zeichen-Grammatik ableiten und keine neuen erfinden. Damit ist die im
+Fidelity-Report 260801 als «Zeichensystem» beschriebene Tabellenzeile bewusst entschaerft — die
+uebrigen sieben Notations-Elemente der Gattungsweiche bleiben unveraendert gueltig. QUESTIONS
+260801 #4 auf beantwortet gesetzt, `rules/jans-dna.md` neu kompiliert.
+
 ## 01.08.2026 — twin-fidelity-review: MODALITAETSWECHSEL, erstes Dokument-Gold. Gesamt-Fidelity 56.
 
 Stimme 51 · Denken 57 · Haltung 62 · Beziehung 63 · Fachsignatur 45 · Arbeitsweise 59. Der Wert

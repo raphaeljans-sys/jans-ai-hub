@@ -61,10 +61,12 @@ diese Lücke.
    Regensdorf gebaut?** *Facette: Denken. Warum: wenn es Standard ist, gehört es als
    Pflichtschritt in jede Machbarkeit — es ist das stärkste Denkinstrument, das dieser Lauf
    gefunden hat.*
-4. **«>>>» für die offene Frage, «>» für die Grundlage, «_ » für die Aufzählung, «➢» für das
-   Sub-Detail — ist das ein bewusstes Zeichensystem?** *Facette: Stimme. Warum: vier Zeichen mit
-   je eigener Bedeutung wären eine Notation, die der Zwilling exakt bedienen kann; sind sie
-   zufällig gewachsen, darf er sie nicht mechanisch anwenden.*
+4. ✅ **BEANTWORTET am 01.08.2026 — «Zeichensystem ist gewachsen».** Es ist keine Notation mit
+   fester Semantik. Konsequenz, eingearbeitet in [[stimme]] und ins Gehirn: «_ » bleibt der
+   Default; «>>>» und «>» werden nur in derselben Gattung und zu demselben Zweck übernommen und
+   **nie erzwungen**; der Zwilling schaut die Zeichen ab, wo sie belegt sind, leitet aber keine
+   Zeichen-Grammatik daraus ab und erfindet keine neuen. *(Ursprüngliche Frage: sind «>>>» /
+   «>» / «_ » / «➢» ein bewusstes System? Facette: Stimme.)*
 5. **Benennst Du Szenarien immer («UMBAU»/«ENSEMBLE»/«TRANSFORMATION») statt sie zu
    nummerieren?** Und läuft die Namensgebung vor oder nach der Rechnung? *Facette: Stimme +
    Denken. Warum: ein benanntes Szenario trägt schon eine These; der Zwilling schreibt heute
