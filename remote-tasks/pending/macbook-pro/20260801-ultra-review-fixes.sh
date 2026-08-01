@@ -128,6 +128,28 @@ datierter Korrektur-Nachtrag im Report, der die Begruendung auf die tatsaechlich
 Ausnahme (App-Scheduled-Task; Stations-Split als sachliches Zusatzargument) engfuehrt,
 damit keine Klassen-Ausnahme «Norm-Familien» als Praezedenz stehen bleibt.
 
+STAND-NACHTRAG (01.08., nach Abgleich mit dem aktuellen main — 170 Commits nach 084d01d)
+Der Review-Stand ist weitergelaufen (Nachtlaeufe 31.07./01.08., u.a. Normen-Run 41).
+Aktueller Befund-Status, bitte VOR jedem Fix nochmals selbst pruefen:
+- Befund 1 (ID-Kollision): besteht weiter — neue Auftraege jetzt QUESTIONS.md ~Z. 111-127,
+  alte Checkboxen ~Z. 173-183. WICHTIG: Run 41 hat die zweite SWKI-Refuter-Runde bereits
+  gefahren (outputs/2026-08-01_normen-nacht-run41.md) — der neue Auftrag «zweite Runde
+  swki-va103-01» ist damit sachlich erledigt und beim Umnummerieren gleich als erledigt
+  zu markieren; pruefe analog, ob Run 41 auch die zweite GVZ-Runde abgedeckt hat.
+- Befund 2 (N-R21-1): besteht weiter (~Z. 200).
+- Befund 3 (Negation brennbar): besteht weiter (PROGRAMM.md:187).
+- Befund 4 (Widerspruchs-Flag): besteht weiter (Cluster-C-Datei ~Z. 66-72) — die Datei ist
+  inzwischen auf ueber 1100 Zeilen gewachsen, das Flag steht unveraendert drin.
+- Befund 5 (Umlaute): besteht weiter und ist groesser geworden (~1100 Zeilen betroffen).
+  Wenn eine vollstaendige saubere Konversion den Budget-Rahmen sprengt: mindestens die
+  Abschnitte mit Entscheiden/Flags konvertieren und den Rest als offenen Punkt mit klarer
+  Notiz im KB-CHANGELOG festhalten.
+- Befund 6 (CHANGELOG-Eintrag Cluster-C): INZWISCHEN ERLEDIGT — nur noch den Eintrag fuer
+  die heutigen Korrekturen ergaenzen, keinen Ingest-Eintrag doppeln.
+- Befund 7 (100-m2-Grenze): besteht weiter, auch im ueberarbeiteten Destillat
+  (swki-va103-01-2017.md: «ab 100 m2»/«unter 100 m2» vs. «Kleingarage bis 100 m2»).
+- Befunde 8-12: nach Stichprobe unveraendert gueltig.
+
 ABSCHLUSS
 - normen/CHANGELOG.md: Sammeleintrag 01.08.2026 «Korrekturen aus Ultra-Code-Review» mit
   den betroffenen Punkten.
