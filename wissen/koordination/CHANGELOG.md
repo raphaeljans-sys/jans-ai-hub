@@ -51,7 +51,23 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 - **Zweite Direktsetzung (SYN-16):** `wissen/bauprodukte` in die «Inputs»-Zeile von
   `ausschreibung` (inkl. Abgrenzung gegen `05_knowhow-gewerke.md` und Neutralitaetsvermerk
   Rule 260626), `offertenpruefung` und `kostenschaetzung`.
-- **Offen fuer Raphael (nur noch zwei, beide betreffen CLAUDE.md):** SYN-19 — 7 Skill-Zeilen
+- **[NACHTRAG gleicher Tag] SYN-17 und SYN-19 durch Raphael freigegeben und umgesetzt.**
+  SYN-19: 6 Zeilen in der Skill-Tabelle ergaenzt (`brandschutz`, `honorarberechnung-sia102`,
+  `heartbeat`, `tenant-hygiene`, `masterclass`, `telesales`), `email-preferences` als Fussnote.
+  Gegenprobe: alle 50 Skills auf Platte sind jetzt in CLAUDE.md erwaehnt, 0 Fehlstellen.
+  SYN-17 differenziert wie empfohlen: Netzwerk-Tabelle und M365-Parameter raus, ersetzt durch
+  einen Wegweiser auf `node connectors/hub-setup.mjs --alles`; Mail-Konten bewusst als zwei
+  Zeilen Verhaltenswissen behalten (Standard-Absender rj@, kein Gmail, Apple Mail), Adressliste
+  in die JSON; Zertifikats-Faelligkeit 23.03.2028 bleibt sichtbar, weil Termin und nicht
+  Nachschlagewert.
+  **Wichtiger Zwischenschritt:** drei M365-Fakten standen NUR in CLAUDE.md (Berechtigungsliste,
+  M365-Gruppen-Logik, Verweis auf `docs/referenz/m365-zertifikat-erneuern.md`). Sie wurden
+  **vor** dem Entfernen in `hub-setup-daten.json` nachgetragen und der Connector-Output
+  nachgemessen. Verlustkontrolle ueber 14 Stichproben (IPs, Drucker, ssh.github.com,
+  Mount-URL, App-/Tenant-ID, Zertifikatspfad, Sites.FullControl, Doku-Pfad, Nebenadressen):
+  kein Fakt nur noch in CLAUDE.md. Netto trotz 6 neuer Skill-Zeilen 182 Zeichen weniger
+  Grundkontext.
+- **Offen war fuer Raphael (beide inzwischen erledigt, siehe Nachtrag):** SYN-19 — 7 Skill-Zeilen
   ergaenzen, **Empfehlung ja ohne Vorbehalt** (7 Zeilen Kontext gegen zwei unsichtbare aktive
   Fach-Skills). SYN-17 — **Empfehlung ja, aber differenziert:** Netzwerk-Tabelle und
   M365-Parameter raus (reine Nachschlagedaten; `hub-setup.mjs` liegt git-versioniert im

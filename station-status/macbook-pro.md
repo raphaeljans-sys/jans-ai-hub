@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 14:07:32
+Stand: 01.08.2026 14:17:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 14:07:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 00ff46a9 vollgas-radar 01.08. 00:58: Fenster frei, 3 Lieferungen belegt, zwei Takt-Kollisionen am Monatsersten korrigiert
+- 67ca3af9 vollgas-radar 01.08. 14:12 Nachhol-Lauf: Fenster frei, Feuermechanismen konsistent; Vorlauf-Aussage zum Scheduler korrigiert (ein Nachhol-Lauf feuert doch)

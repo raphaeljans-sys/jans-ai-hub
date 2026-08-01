@@ -30,33 +30,23 @@ Skills sind zentral, keine Merge-Konflikte.
 `.claude/skills|agents|commands → /Volumes/daten/jans-ai-hub/...` — Aenderungen sind sofort
 auf allen Stationen sichtbar. Neue Station: `bash ~/Developer/jans-ai-hub/scripts/setup-nas-skills.sh`.
 
-## Netzwerk
+## Setup-Fakten (Stationen · IPs · SSH-Wege · Mail-Konten · M365)
 
-| Geraet | LAN IP | Tailscale IP | Funktion |
-|---|---|---|---|
-| Mac Mini | 192.168.1.210 | 100.120.219.12 | Arbeitsstation (Always-On) |
-| MacBook Pro | DHCP | 100.117.99.62 | Mobile Arbeitsstation |
-| NAS DS918+ | 192.168.1.10 | 100.92.246.28 | Datei-Server + Skill-Bibliothek |
-| OPNsense | 192.168.1.1 | — | Firewall/Router |
-| Drucker | Im LAN | — | Konica Minolta bizhub c300i |
+Kanonisch im Setup-Konnektor, **nicht hier**: `node connectors/hub-setup.mjs --alles`
+(Fakten) bzw. `--check` (Live-Verbindungscheck). Datenquelle
+`connectors/hub-setup-daten.json`, nur dort pflegen (Rule 260730). Der Konnektor ist
+git-versioniert und liegt im SSD-Klon, also auch ohne gemountetes NAS greifbar.
 
-- **VPN**: Tailscale fuer externen Zugriff
-- **GitHub SSH**: Port 443 via ssh.github.com (Port 22 blockiert)
-- **NAS-Mount**: Buero `open smb://192.168.1.10/daten`, extern `open smb://diskstation918.tail8265aa.ts.net/daten`
+Dort nachschlagen statt raten: LAN-/Tailscale-IPs aller Stationen, NAS-Mount-Befehle
+Buero/extern, SSH-Dual-Pfade zwischen den Stationen, GitHub-SSH ueber Port 443,
+M365-App-/Tenant-ID, Zertifikatspfad und Berechtigungen, Lastverteilung.
 
-## E-Mail-Konten
+## E-Mail — was in jeder Session gilt
 
-| Konto | Adresse | Typ | Verwendung |
-|---|---|---|---|
-| Geschaeft (Haupt) | rj@raphaeljans.ch | Microsoft 365 | Geschaeftliche Korrespondenz |
-| Geschaeft 2 | mail@raphaeljans.ch | Microsoft 365 | Geschaeftliche Korrespondenz |
-| Gruppe KISPI | kispi@raphaeljans.ch | M365 Group | Fachplaner Kinderspital (Mail an alle Mitglieder) |
-| Gruppe HLEB | HLEBWEB@raphaeljans.ch | M365 Group | Website-Projekt |
-| Privat | raphaeljans@me.com | Apple/iCloud | Private Korrespondenz |
-| Zusatz | raphaeljans@outlook.com | Outlook.com | Wird im Radar mitgescannt (Apple Mail, deutsche Mailboxnamen) |
-
-- **Gmail wird NICHT verwendet** (Connector nur technisch vorhanden)
-- Versand ueber **Apple Mail** (osascript); Standard-Absender geschaeftlich: `rj@raphaeljans.ch`
+- **Standard-Absender geschaeftlich `rj@raphaeljans.ch`**; Versand ueber **Apple Mail**
+  (osascript, Bundle-ID `com.apple.mail`). **Gmail wird NICHT verwendet.**
+- Adressliste (Zweitkonto, M365-Gruppen kispi@/HLEBWEB@, privat, outlook.com-Zusatz):
+  `node connectors/hub-setup.mjs --alles`.
 
 ## Datenquellen
 - **NAS**: /Volumes/daten (Archiv, Buerodaten, Skill-Bibliothek)
@@ -67,19 +57,10 @@ auf allen Stationen sichtbar. Neue Station: `bash ~/Developer/jans-ai-hub/script
 
 ## M365 Connector — Certificate-Auth
 
-| Einstellung | Wert |
-|---|---|
-| App Registration | SharePoint MCP Connector (JANS) |
-| App ID | `80c24101-4597-48db-8388-c6e8bdc75f5f` |
-| Tenant ID | `d3ea8e1a-8ecc-479d-b831-6c0784ee0b51` |
-| Auth-Typ | Certificate (PEM), Pfad `~/.cli-m365-cert-combined.pem` (lokal pro Station) |
-| Gueltig bis | 23. Maerz 2028 |
-
-- Berechtigungen (Application): Graph Files/Group/Mail/Sites/User (Read bzw. ReadWrite), Mail.Send; SharePoint Sites.FullControl.All
-- M365-Gruppen (kispi@, HLEBWEB@): Mail erreicht alle Mitglieder; Verwaltung via Outlook Web; je Gruppe eigene SharePoint-Bibliothek
-
-Zertifikat erneuern (alle 2 Jahre, naechste Faelligkeit Maerz 2028):
-Anleitung in `docs/referenz/m365-zertifikat-erneuern.md`.
+App-/Tenant-ID, Zertifikatspfad und Berechtigungen: `node connectors/hub-setup.mjs --alles`.
+**Zertifikat gueltig bis 23.03.2028** (Erneuerung alle 2 Jahre, Anleitung
+`docs/referenz/m365-zertifikat-erneuern.md`) — die Faelligkeit steht hier, weil sie ein
+Termin ist, nicht ein Nachschlagewert.
 
 ## Multi-Station Regeln
 - **Geteilt via Git+NAS**: `.mcp.json` (secret-frei, seit 29.07. versioniert), `.claude/settings.json`, CLAUDE.md, NAS-Inhalte — identisch auf beiden Stationen
@@ -125,7 +106,9 @@ Inputs, Ablage) steht dort und laedt beim Aufruf; hier nur der Zweck-Einzeiler.
 | `spec` | Spec-Methode: wahres Ziel als Spec aufdecken, dann agil bauen (Gate via Rule `spec-methode`) |
 | `baurecht` | Schweizer Baurecht ZH+SZ; Buch-Destillate zuerst (Rule 260629) |
 | `normen` | Baunormen-Router SIA/VKF/DIN/VSS/RAL mit Fundstellen-Pflicht (Rule `normen-referenz`) |
+| `brandschutz` | VKF-Ertuechtigung, EI/RF-Klassen, Fluchtwege; Modus B fuer Wettbewerb/Vorprojekt |
 | `kostenschaetzung` | Healthcare-Kostenkennwerte, Grobschaetzungen |
+| `honorarberechnung-sia102` | Architektenhonorar nach SIA 102 + Honorarofferte (Pauschal/Text) |
 | `grobkosten-onepager` | A4-Grobkosten Volumen x Kennwert BKP 1–5 (KB `wissen/grobkosten`) |
 | `machbarkeit-studio` | Orchestrator: interaktives Live-Studio (HTML) + Dossier aus einem Lauf |
 | `website-content` | WordPress-Upload raphaeljans.ch |
@@ -162,8 +145,15 @@ Inputs, Ablage) steht dort und laedt beim Aufruf; hier nur der Zweck-Einzeiler.
 | `volumenstudie` | 3D-Volumen: Rhino-3dm, C4D-Renderings, Kennzahlen (venv `~/.venvs/volumen3d`) |
 | `pdf2dwg` | Vektor-PDF zu leichtem DWG/DXF fuer ArchiCAD (venv `~/.venvs/pdf2dwg`, LibreDWG) |
 | `hub-chef` | Dach-Orchestrator: Tagesbriefing, Whitelist-Aktionen (`logbuch/AKTIONS-WHITELIST.md`) |
+| `heartbeat` | System-Health-Check (NAS, Git, M365, Disk, Sync-Tasks, Symlinks) |
+| `tenant-hygiene` | M365-Speicher-Hygiene: Papierkoerbe/Versionen/tote Sites (Phase 2 nur interaktiv) |
+| `masterclass` | Reaktiver Harness-Review: Korrektur-Cluster zu Rules befoerdern |
+| `telesales` | Kaltakquise: Gespraechsleitfaeden, Lead-Qualifizierung (Gegenstueck zu `marketing`) |
 | `synergie-orchestrator` | Struktur-Aufsicht: Synergie-Register, Geschaeftsmodell-Entwuerfe (monatlich) |
 | `workstation-setup` | Stations-Onboarding inkl. Pflichtschritt FDA fuer /bin/bash |
+
+Nicht in der Tabelle: `email-preferences` (Konfigurationsreferenz, keine Faehigkeit;
+Rollen-Register `parkiert`).
 
 ### Skill-Referenzen (Konvention)
 Jeder Skill kann `referenzen/` mit hochprioritaeren PDFs haben (README.md als Inhaltsverzeichnis,

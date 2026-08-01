@@ -74,7 +74,10 @@
     "app_id": "80c24101-4597-48db-8388-c6e8bdc75f5f",
     "tenant_id": "d3ea8e1a-8ecc-479d-b831-6c0784ee0b51",
     "auth": "Certificate PEM ~/.cli-m365-cert-combined.pem (lokal pro Station, NIE in Git)",
-    "gueltig_bis": "2028-03-23"
+    "gueltig_bis": "2028-03-23",
+    "berechtigungen": "Application: Graph Files/Group/Mail/Sites/User (Read bzw. ReadWrite), Mail.Send; SharePoint Sites.FullControl.All",
+    "gruppen": "M365-Gruppen kispi@ und HLEBWEB@: Mail erreicht alle Mitglieder; Verwaltung via Outlook Web; je Gruppe eigene SharePoint-Bibliothek",
+    "erneuerung": "Alle 2 Jahre, naechste Faelligkeit Maerz 2028. Anleitung: docs/referenz/m365-zertifikat-erneuern.md"
   },
   "pfade": {
     "nas_hub": "/Volumes/daten/jans-ai-hub",
