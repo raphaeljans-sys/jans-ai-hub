@@ -1300,10 +1300,10 @@ Hindernisfreies Bauen Kt. ZH (Behindertenkonferenz) — normnah zu SIA 500. NACH
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P3 | `06_Richtlinien/BKZ/0.Mindestanforderungen_E-Version.pdf` |  |
+| [x] 260801 | P3 | `06_Richtlinien/BKZ/0.Mindestanforderungen_E-Version.pdf` | zhb-2005… NICHT von der BKZ, sondern Paraplegiker-Stiftung/ZHB Muhen |
 | [ ] | P3 | `06_Richtlinien/BKZ/BKZ - Behindertenkonferenz Kanton Zürich.pdf` |  |
-| [ ] | P3 | `06_Richtlinien/BKZ/BKZ_Checkliste.pdf` |  |
-| [ ] | P3 | `06_Richtlinien/BKZ/hindernisfrei-bauen_Sehbehig Bauen.pdf` |  |
+| [x] 260801 | P3 | `06_Richtlinien/BKZ/BKZ_Checkliste.pdf` | bkz-2005-checkliste… traegt § 239 PBG + § 34 BBV I |
+| [x] 260801 | P3 | `06_Richtlinien/BKZ/hindernisfrei-bauen_Sehbehig Bauen.pdf` | fachstelle-mb-13-05… NICHT von der BKZ, sondern Schweiz. Fachstelle |
 
 **`04_Merkblätter/Fugenlose Bodenbeläge`** — 9 PDF, P2
 
@@ -1311,15 +1311,15 @@ PAVIDENSA-Merkblaetter Estriche/Abdichtungen — Faktenbasis Skill `ausschreibun
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_01-2010_Betonoberfla__chenbearbeitung_zur_Aufnahme_von_Abdichtungen_im_Verbund.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_03-2013_Schutzschichten.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_01-2008_Spez__Bedingungen_Fussbodenheizung_02.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_02-2008_Ausfu__hrung_von_Estrichen.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_05-2009_Mineralfaserda__mmplatten_auf_frischen_Betondecken_oder_Ausgleichsschichten_01.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_11-2009_Fugen_in_schwimmenden_Calciumsulfatestrichen.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_12-2013_Verschleisswiderstand_von_Hartbeton-_und_Zement-Kunstharzbelaegen.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_16-2012_Checkliste_-_Planung_und_Ausfu__hrung_von_Estrichen.pdf` |  |
-| [ ] | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_17-2012_Schwimmende_Estriche_oberflaechenfertig.pdf` |  |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_01-2010_Betonoberfla__chenbearbeitung_zur_Aufnahme_von_Abdichtungen_im_Verbund.pdf` | pav-a-01-2010… Tab. 1 vom Hauptprozess korrigiert |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-A_03-2013_Schutzschichten.pdf` | pav-a-03-2013… Kreuzmatrix offen |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_01-2008_Spez__Bedingungen_Fussbodenheizung_02.pdf` | pav-e-01-2008… |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_02-2008_Ausfu__hrung_von_Estrichen.pdf` | pav-e-02-2008… |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_05-2009_Mineralfaserda__mmplatten_auf_frischen_Betondecken_oder_Ausgleichsschichten_01.pdf` | pav-e-05-2009… |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_11-2009_Fugen_in_schwimmenden_Calciumsulfatestrichen.pdf` | pav-e-11-2009… |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_12-2013_Verschleisswiderstand_von_Hartbeton-_und_Zement-Kunstharzbelaegen.pdf` | pav-e-12-2013… |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_16-2012_Checkliste_-_Planung_und_Ausfu__hrung_von_Estrichen.pdf` | pav-e-16-2012… |
+| [x] 260801 | P2 | `04_Merkblätter/Fugenlose Bodenbeläge/PAV-E_17-2012_Schwimmende_Estriche_oberflaechenfertig.pdf` | pav-e-17-2012… |
 
 **`09_Sanitaereinrichtung`** — 14 PDF, P2
 
@@ -1363,7 +1363,7 @@ Heterogen und erst am Titelblatt klassierbar. Darunter mit `SN592_Liegenschaftse
 | [ ] | P3 | `04_Merkblätter/Merkblatt_16d-06.pdf` |  |
 | [ ] | P3 | `04_Merkblätter/Merkblatt_fuer_Ausfuehrung_REPOXIT-HB_als_Decorbelag.pdf` |  |
 | [ ] | P3 | `04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf` |  |
+| [x] 260801 | P3 | `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf` | suissetec-mb-2013… ACHTUNG: ist NICHT die Norm SN 592000, sondern ein Aenderungs-Merkblatt 2013 zur Ausgabe 4:2012; abgeloest durch SN 592 000:2024 |
 | [ ] | P3 | `04_Merkblätter/Tiefbauamt_Leitfaden.pdf` |  |
 | [ ] | P3 | `04_Merkblätter/UGZ_Hindernisfreie_Aufzuege.pdf .pdf` |  |
 | [ ] | P3 | `04_Merkblätter/UGZ_Wohnungsbau_hindernisfrei.pdf` |  |

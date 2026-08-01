@@ -1,3 +1,96 @@
+# Offene Fragen — KB Normen
+
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen
+
+### Lignatec / Lignum
+- **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
+  «Heime für Behinderte, Strafanstalten, geschlossene Erziehungsanstalten». In Runde 10
+  ausdrücklich NICHT als Befund gewertet (Tabellenapparat, nicht Fliesstext) — in der nächsten
+  Tabellenrunde zu prüfen. Für JANS mit Healthcare-Schwerpunkt potenziell einschlägig.
+- **L41-2 REI90(nbb)/EI90(nbb) in Tabelle 4:** auf S. 13 trägt eine Nutzungszeile diese Werte
+  (Spalten 4, 5-6, 7-8), und der Erläuterungskasten derselben Seite definiert die Klasse. Das
+  Destillat nennt in seinem gesamten Tab.-4-Abschnitt **keine 90-Minuten-Klasse**. Welche
+  Nutzungszeile es ist, wurde nicht abschliessend zugeordnet und deshalb nicht behauptet.
+- **L41-3 Getönte Deckschicht/Stiel in Tabelle 2:** in drei Zeilen sind Deckschicht und Stiel
+  messbar grau unterlegt (177/180/179 gegen 240/245 bei identischem Muster); die Legende kennt
+  keine getönte Variante. Konsistent, aber aus der Quelle nicht ableitbar. (Aus Run 40, hier
+  fortgeschrieben.)
+- **L41-4 Was am Lignatec noch NIE geprüft wurde** (auszuweisen nach der Methoden-Lehre): die
+  Zellwerte der Tabellen 3, 4 und 5 sind seit Runde 8 nicht erneut aufgenommen worden; Tabelle 2
+  ist nur im Einleitungsabsatz, nicht zellenweise gegen das Destillat gehalten. Die Seiten-
+  Inventur (`training/lignatec-seiteninventur.md`) liegt nun vor und macht eine solche Runde
+  billig.
+
+### GVZ RWA-Parkhaus
+- **G41-1 Bedeutung der durchgehend blauen letzten Matrixspalte.** Ob dort «nur der gesprinklerte
+  Fall ist tabelliert» oder «der Wert gilt für beide Fälle» gemeint ist, sagt der Fliesstext
+  nicht. Auslegungsfrage an die Kantonale Feuerpolizei ZH.
+- **G41-2** Ob eine neuere Ausgabe des Merkblatts 30.17.3 als die vom 28.02.2011 existiert.
+- **G41-3** DIN 18232-2:2003-06 (Quelle der Durchflussbeiwerte) gegen die im Haus liegende
+  Fassung 2007 — weiterhin ungeprüft.
+
+### SWKI VA103-01
+- **S41-1 Der Bemessungskern ist nicht destilliert:** Kap. 3.4/3.5 mit Tab. 12
+  (Benutzerkategorien, Parkdauer, Wagenbewegungen je Parkplatz), Tab. 15 (Kaltstart 22 m³/WB,
+  Kaltfahrt 0,35 m³/m, Wartezeit 10 m³/WB) und den vier Korrekturfaktoren f_ODA/f_IDA/f_FG/f_IH.
+  Ohne sie erweckt das Destillat Bemessungsfähigkeit, die es nicht hat. **Dringlichster Punkt.**
+- **S41-2 Die Mess- und Steuerungsebene fehlt ganz** (Kap. 2.8): Schaltwerte Tab. 10 (CO ein bei
+  50 ppm, Alarm 200 ppm; NO, NO₂), Messstellendichte (eine je 20 PP oder 400 m², mindestens zwei
+  je Anlage), Fühlerhöhen (CO 1,5-3,0 m, NO/NO₂ 0,2-1,5 m), Nachlaufzeit min. 5 Minuten,
+  Mehrstufigkeit ab 2'000 m³/h empfohlen und ab 2 kW zwingend.
+- **S41-3 Ziff. 2.8.2 Brandfall fehlt** — für den Skill `brandschutz` die zentrale Aussage: die
+  Entrauchung darf NICHT allein mit der normalen Lüftungsanlage erfolgen; Kombination nur mit
+  separatem Abluftventilator für die Lüftung.
+- **S41-4 Die konkreten Kaminhöhen fehlen** (Tab. 7/8): Normalfall Q/S ≤ 1 Schrägdach Firsthöhe
+  + 0,5 m, Flachdach min. 1,5 m, begehbares Flachdach min. 2 m; für Q/S > 1 abweichend.
+- **S41-5 Kap. 2.7 Spezialanwendungen fehlt ganz** — Waschboxen, Motorrad-/Veloräume,
+  Autoaufzüge und insbesondere **Elektrofahrzeuge** (SN EN 50272-3 nur bei wässrigem Elektrolyt;
+  bei Lithium stattdessen Wärmeeintrag 10 % der Ladeleistung nach VDI 2166 Blatt 2). Bei
+  heutigen Tiefgaragenprojekten der praktisch meistgefragte Punkt.
+- **S41-6 Kap. 6/7 Abnahme und Betrieb fehlen** — Abnahme nach SIA 118 Art. 157-164,
+  Abnahmeprotokolle SWKI 96-5, Kontrollmessverfahren SN EN 12599, jährliche Wartungspflicht.
+  Für `unternehmerkontrolle` und `kostenkontrolle` einschlägig.
+- **S41-7 Impulsventilatoren (Jet-Fan, Ziff. 2.5.3) fehlen** — heute die übliche Bauart in
+  Tiefgaragen; Funktionsnachweis mittels Simulation zwingend.
+- **S41-8** Ob die französische Parallelfassung von der deutschen abweicht — nicht gediffed.
+
+### Hindernisfreies Bauen (neu aufgenommener Bestand)
+- **H41-1** Schlagen § 239 PBG und § 34 BBV I heute auf **SIA 500:2009** durch, oder verweist
+  das kantonale Recht noch auf SN 521 500:1988? Die BKZ-Checkliste nennt ausdrücklich die
+  Fassung 1988. **Rechtlich relevant, an der Quelle nicht entscheidbar.**
+- **H41-2** Das Mass der «erhöhten Anforderungen» für **Sonderbauten** (Spitäler, Alters- und
+  Behindertenheime) gegenüber SN 521 500 — im Dokument nicht beziffert. Für JANS mit
+  Healthcare-Schwerpunkt der wichtigste offene Punkt dieses Bestands.
+- **H41-3** Adressüberschneidung: die Schweizerische Fachstelle für behindertengerechtes Bauen
+  und die BKZ-Bauberatung teilen Kernstrasse 57, 8004 Zürich, führen aber verschiedene
+  Telefonnummern. Ko-Lokation, Trägerschaft oder Zufall? Aus den Dokumenten nicht klärbar.
+- **H41-4** Die Merkblätter 14/04 und 15/04 der Fachstelle liegen im Bestand nicht vor.
+
+### PAVIDENSA
+- **P41-1 Die Kreuzmatrix von PAV-A 03:2013 ist nicht aufgenommen** — sie liess sich aus dem
+  Textextrakt nicht spaltengenau rekonstruieren, eine gerenderte Zellaufnahme steht aus. Sie
+  entscheidet über die **Materialverträglichkeit** von Schutzsystem und Abdichtungsbahn; eine
+  halbrichtige Fassung wäre schlimmer als keine.
+- **P41-2 Sechs PAV-E-Merkblätter fehlen im Bestand**, obwohl die Checkliste PAV-E 16:2012 sie
+  als zuständige Quellen benennt: PAV-E 03:2008 (Austrocknungsverhalten), 04:2008
+  (Feuchtigkeitssperren), 06:2009 (Masstoleranz und Ebenheit), 10:2009 (Fugen in Zementestrichen),
+  13:2010 (Untergrund und Einbaudicken), 14:2011 (Fugen mit Parkettbelag). Ob sie im Haus fehlen
+  oder anderswo liegen, ist offen.
+- **P41-3** Widerspruch in PAV-E 12:2013: die Klasse «A 3» trägt die Abriebmenge **4** cm³/50 cm².
+  Quelleneigenheit oder Satzfehler? Am Merkblatt nicht entscheidbar.
+- **P41-4** PAV-E 17:2012 führt für Calciumsulfat-Fliessestriche und -Mörtelestriche **identische**
+  Ampelwerte. Bewusst nicht differenziert oder Satzfehler?
+- **P41-5** Vier PAVIDENSA-Merkblätter tragen kein Tag/Monat-Fassungsdatum, PAV-E 11:2009 nicht
+  einmal ein Monat/Jahr im Fliesstext.
+
+### Methodik
+- **M41-1 Textlayer-Falle bei bebilderten Merkblättern.** Beim GVZ-Merkblatt verfälscht der
+  Textlayer die Vergleichszeichen (gedruckt «≤», extrahiert «<»; gedruckt «≥», extrahiert «>»)
+  und bildet Zellteilungen gar nicht ab. Beim PAVIDENSA PAV-A 01 ordnete die Textextraktion drei
+  über mehrere Spalten **verbundene Zellen** falsch zu. **Regel: Tabellen mit verbundenen Zellen
+  oder Farbcodierung werden gerendert und abgelesen, nie extrahiert.** Kandidat für die
+  Aufnahme als Methodik-Pflicht 8 ins PROGRAMM.
+
 # QUESTIONS — KB Normen (offene Fragen / Lücken)
 
 ## Run 40 (MacBook Pro, 31.07.2026) — neunte Lignatec-Runde: null Wertfehler, neun Lücken

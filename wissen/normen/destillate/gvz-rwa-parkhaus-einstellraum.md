@@ -2,9 +2,28 @@
 quelle: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 02_Recht_Norm/06_Richtlinien/GVZ/M30-17-3_RWA-Parkhaus.pdf"
 herausgeber: "Kantonale Feuerpolizei / GVZ Gebäudeversicherung Kanton Zürich, Postfach, 8050 Zürich, Tel. 044 308 22 04"
 ausgabe: "Merkblatt Nr. 30.17.3 «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für Motorfahrzeuge», Merkblatt vom 28. Februar 2011, in Kraft seit 11. April 2011; Auflagevermerk April 11/5000, 12 Seiten (7 Textseiten + 5-seitiger Anhang mit Formeln/Beispielen)"
-gelesen: "alle 12 Seiten vollständig (echter Textlayer, Adobe InDesign/PDF Library erzeugt, direkt gelesen, kein Rendering nötig)"
+gelesen: "S. 1-9 destilliert; S. 10-12 (Anhang: Legende zu den Beispielen, Beispiel 1, Beispiel 2) erst in Run 41 erschlossen. ACHTUNG ZUR METHODE: die frühere Angabe «echter Textlayer, kein Rendering nötig» war falsch und hat den Erstfehler mitverursacht. Der Textlayer dieses Merkblatts verfälscht die Vergleichszeichen (gedruckt «≤ 600 m²» / «≥ 60°», extrahiert «<» / «>») und bildet die Ober-/Unterteilung der Matrixzellen überhaupt nicht ab. Bebilderte Merkblätter dieser Art sind zu RENDERN, nicht zu extrahieren."
 datenstand: "28. Februar 2011 (in Kraft 11. April 2011)"
-status: "speculative (Run 40, 31.07.2026: unabhaengiger Refuter, ~45 Einzelaussagen, VERDIKT BEANSTANDET mit 6 zusammenhaengenden KERNBEFUNDEN. Die diagonal zweigeteilten Matrixzellen (oben blau = mit Sprinkleranlage, unten weiss = ohne) waren im Bereich 601-1200 m2 durchgehend falsch aufgeloest; Folge waere ein unnoetiger Nachweis N2/N3 gewesen, wo das Merkblatt GAR KEINEN RWA-Nachweis verlangt. Beide Matrizes 6.1 und 6.2 vom Hauptprozess am eigenen 220-dpi-Rendering der S. 6 zellenweise nachgeprueft und als Tabelle neu gefasst. Status bewusst NICHT gehoben: die Neufassung ist noch nicht durch eine unabhaengige zweite Runde gegangen.)"
+status: "speculative (Run 41, 01.08.2026: ZWEITE unabhaengige Refuter-Runde, VERDIKT BEANSTANDET
+  mit 6 Kernbefunden und 15 Nebenbefunden — Status bleibt bewusst speculative.
+  ERTRAG POSITIV: alle 27 Wertzellen beider Matrizes wurden zellenweise nachgemessen (Median-RGB
+  je Teilzelle gegen die je Matrix EINZELN gemessene Legende) und stimmen mit der Run-40-Neufassung
+  ueberein — die Werte halten vollstaendig, die Sprinkler-Lesart ist durch das Original selbst
+  bewiesen (Anhang-Beispiel 2 markiert bei ausdruecklich 'ohne Sprinkleranlage' genau die untere
+  weisse Teilzelle).
+  BEANSTANDET wurde anderes als in Run 40: (1) Die Beschreibung 'diagonal zweigeteilt' ist FALSCH —
+  die Teilung ist waagrecht auf halber Zeilenhoehe; die einzige Diagonale steht in der Spalte
+  <=600 m2 und traegt das gedrehte Label 'keine RWA erforderlich'. Vom Hauptprozess am eigenen
+  300-dpi-Rendering der S. 6 selbst nachgeprueft und bestaetigt. Damit war eine in Run 40
+  ausdruecklich als 'geprueft' gefuehrte Stelle selbst der Fehler — dritter belegter Fall dieses
+  Musters in dieser KB. (2) Die letzte Spalte ist ueber die volle Zeilenhoehe blau, also
+  durchgehend 'mit Sprinkleranlage'; das Destillat fuehrte sie unmarkiert. (3) Die
+  Handlungsempfehlung setzte die MRWA-Schwelle bei 600 statt 1200 m2 und widersprach damit der
+  eigenen Matrix. (4) Die Anhangseiten 10-12 fehlten ganz — ausgerechnet die drei Seiten mit dem
+  Leseschluessel. (5) Die Unterzeichnungspflicht des Entrauchungskonzepts fehlte. (6) Die
+  Frontmatter-Methodenangabe 'kein Rendering noetig' war unhaltbar: der Textlayer verfaelscht
+  '<=' zu '<' und '>=' zu '>' und bildet die Zellteilung gar nicht ab. Alle sechs korrigiert.
+  Vorherige Runde: Run 40, 31.07.2026: unabhaengiger Refuter, ~45 Einzelaussagen, VERDIKT BEANSTANDET mit 6 zusammenhaengenden KERNBEFUNDEN. Die diagonal zweigeteilten Matrixzellen (oben blau = mit Sprinkleranlage, unten weiss = ohne) waren im Bereich 601-1200 m2 durchgehend falsch aufgeloest; Folge waere ein unnoetiger Nachweis N2/N3 gewesen, wo das Merkblatt GAR KEINEN RWA-Nachweis verlangt. Beide Matrizes 6.1 und 6.2 vom Hauptprozess am eigenen 220-dpi-Rendering der S. 6 zellenweise nachgeprueft und als Tabelle neu gefasst. Status bewusst NICHT gehoben: die Neufassung ist noch nicht durch eine unabhaengige zweite Runde gegangen.)"
 last_updated: 2026-07-31
 links: [[REGISTER]]
 ---
@@ -122,31 +141,47 @@ Brandabschnitte mit dem dort erforderlichen Feuerwiderstand ausführen.
 ### 6 Anforderungs-/Nachweismatrizes (Ziff. 6, siehe Anhang)
 Zwei Tabellen, RWA-Konzept gegen Brandabschnittsfläche, mit separater Sprinkler-Kennzeichnung:
 
-⚠ **Lesart der Matrizes (Korrektur Run 40, 31.07.2026 — vorher falsch destilliert).** Jede
-Flächenspalte ab 601 m² ist **diagonal zweigeteilt**: die **obere, blau hinterlegte** Teilzelle
-gilt **mit Sprinkleranlage**, die **untere, weisse** Teilzelle **ohne**. Die Legende steht unten
-rechts neben der Matrix («mit Sprinkleranlage», blaues Feld). Die Erstfassung dieses Destillats
-hat diese Zweiteilung im Bereich 601–1200 m² durchgehend übersehen und daraus in beiden
-Matrizes falsche Anforderungen abgeleitet. Refuter-Befund, vom Hauptprozess am eigenen
-220-dpi-Rendering der S. 6 zellenweise nachgeprüft und bestätigt.
+⚠ **Lesart der Matrizes — zweimal korrigiert (Run 40 die Werte, Run 41 die Beschreibung).**
+
+Die Zellen der Spalten 601–1200, 1201–2400 und 2401–4800 m² sind **waagrecht** zweigeteilt,
+auf halber Zeilenhöhe: die **obere, blau hinterlegte** Teilzelle gilt **mit Sprinkleranlage**,
+die **untere, weisse** Teilzelle **ohne**. Die Legende steht unten rechts neben der Matrix
+(blaues Feld, «mit Sprinkleranlage»).
+
+**Die letzte Spalte** (6.1: 4801–9600 m² · 6.2: 2401–4800 m²) ist **über die volle Zeilenhöhe
+blau** und trägt je Zeile nur einen Wert. Tabellarisch ausgewiesen ist dort also **nur der
+gesprinklerte Fall**; eine weisse Teilzelle existiert nicht. Was das für den ungesprinklerten
+Fall bedeutet, sagt das Merkblatt nicht — siehe Offene Punkte.
+
+**Die einzige Diagonale der Publikation steht in der Spalte ≤ 600 m²** und hat mit Sprinklern
+nichts zu tun: sie durchquert die über alle drei Zeilen verbundene Zelle von unten links nach
+oben rechts und trägt das an ihr entlang gedrehte Label «keine RWA erforderlich».
+
+*Korrekturgeschichte: Run 40 (31.07.2026) fand, dass die Erstfassung die Zweiteilung im Bereich
+601–1200 m² durchgehend übersehen hatte, und fasste die **Werte** neu — richtig. Die
+**Beschreibung** «diagonal zweigeteilt» war dabei jedoch falsch und wurde vom Hauptprozess
+seinerzeit mitbestätigt. Run 41 (01.08.2026) hat sie am eigenen 300-dpi-Rendering der S. 6
+widerlegt: gemessene Zellkante waagrecht auf halber Zeilenhöhe, ohne jede Staffelung. Das ist
+der dritte belegte Fall in dieser KB, in dem eine frühere «geprüft korrekt»-Bestätigung selbst
+der Fehler war.*
 
 **6.1 Geschossweise abgetrennt** (Fussnoten: NRWA in UG nicht zulässig; RWA mit BL in UG nur
 in Geschosslage 1. UG zulässig). Werte je Zelle **mit Sprinkler / ohne Sprinkler**:
 
 | RWA-Konzept | ≤ 600 m² | 601–1200 m² | 1201–2400 m² | 2401–4800 m² | 4801–9600 m² |
 |---|---|---|---|---|---|
-| NRWA (N1)* | keine RWA erforderlich | **keine RWA** / (wenig sinnvoll) | (wenig sinnvoll) / (wenig sinnvoll) | (wenig sinnvoll) / (wenig sinnvoll) | nicht zulässig |
-| RWA mit BL (N2)** | keine RWA erforderlich | **keine RWA** / N2 | N2 / N2 | N2 / N2 | N2 |
-| MRWA mit vorgegebenem Luftwechsel/h (N3) | keine RWA erforderlich | **keine RWA** / N3 | N3 / N3 | N3 / N3 | N3 |
+| NRWA (N1)* | keine RWA erforderlich | **keine RWA** / (wenig sinnvoll) | (wenig sinnvoll) / (wenig sinnvoll) | (wenig sinnvoll) / (wenig sinnvoll) | nicht zulässig (Zelle ganz blau) |
+| RWA mit BL (N2)** | keine RWA erforderlich | **keine RWA** / N2 | N2 / N2 | N2 / N2 | N2 (Zelle ganz blau) |
+| MRWA mit vorgegebenem Luftwechsel/h (N3) | keine RWA erforderlich | **keine RWA** / N3 | N3 / N3 | N3 / N3 | N3 (Zelle ganz blau) |
 
 **6.2 Mehrgeschossig mit offener Verbindung zwischen den Geschossen** (dieselben Fussnoten,
 Matrix endet bei 4800 m²):
 
 | RWA-Konzept | ≤ 600 m² | 601–1200 m² | 1201–2400 m² | 2401–4800 m² |
 |---|---|---|---|---|
-| NRWA (N1)* | keine RWA erforderlich | **keine RWA** / (wenig sinnvoll) | nicht zulässig / nicht zulässig | nicht zulässig |
-| RWA mit BL (N2)** | keine RWA erforderlich | **keine RWA** / N2 | nicht zulässig / nicht zulässig | nicht zulässig |
-| MRWA mit vorgegebenem Luftwechsel/h (N3) | keine RWA erforderlich | **keine RWA** / N3 | N3 / N3 | N3 |
+| NRWA (N1)* | keine RWA erforderlich | **keine RWA** / (wenig sinnvoll) | nicht zulässig / nicht zulässig | nicht zulässig (Zelle ganz blau) |
+| RWA mit BL (N2)** | keine RWA erforderlich | **keine RWA** / N2 | nicht zulässig / nicht zulässig | nicht zulässig (Zelle ganz blau) |
+| MRWA mit vorgegebenem Luftwechsel/h (N3) | keine RWA erforderlich | **keine RWA** / N3 | N3 / N3 | N3 (Zelle ganz blau) |
 
 **Die praktisch wichtigste Zelle:** Bei einer Brandabschnittsfläche von 601–1200 m² **mit
 Sprinkleranlage** verlangt das Merkblatt in beiden Matrizes **gar keinen RWA-Nachweis**. Die
@@ -204,12 +239,48 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
   unmittelbare Kostenfolgen (BKP 246/etc.) und muss früh mit der Kantonalen Feuerpolizei
   abgestimmt werden, da N1/N2 **vor Baubeginn** zur Genehmigung einzureichen sind.
 - Bei offenen, mehrgeschossigen Rampenverbindungen (z. B. durchgehende Wendelrampe) direkt mit
-  MRWA (N3) planen, sobald mehr als ca. 600 m² Brandabschnittsfläche entstehen — Matrix 6.2
-  lässt NRWA/RWA mit BL dort praktisch nicht zu.
+  MRWA (N3) planen, sobald mehr als **1200 m²** Brandabschnittsfläche entstehen — erst dort
+  führt Matrix 6.2 NRWA und RWA mit BL als «nicht zulässig». **Korrigiert in Run 41:** die
+  frühere Fassung nannte «ca. 600 m²» und setzte die Schwelle damit eine ganze Flächenklasse
+  zu tief; im Bereich 601–1200 m² ist RWA mit BL (N2) ohne Sprinkleranlage ausdrücklich
+  zulässig, NRWA dort «(wenig sinnvoll)», nicht unzulässig.
+- **Das Entrauchungskonzept ist mit Ort und Datum zu versehen und durch die Eigentümer- bzw.
+  Nutzerschaft UND den von ihr beauftragten Planer rechtsverbindlich zu unterzeichnen**
+  (Anhang zu Ziff. 4.2). Mit dem Konzept wird bestätigt, dass die vorgängig vereinbarten
+  Schutzziele mit den vorgesehenen Massnahmen erreicht werden können. Das ist die
+  unmittelbarste Planerpflicht des Merkblatts und gehört in die Honorar-/Leistungsabgrenzung.
 - Die Luftwechselraten-Tabelle (8-/7-/6-fach) direkt für die Ventilator-/Kanaldimensionierung
   in Ausschreibungsunterlagen Lüftung (BKP 244) übernehmen.
 - Für Ausschreibungspositionen Entrauchungsöffnungen die Kunststoffdübel-Ausschluss-Regel
   (Ziff. 4.3) als Ausführungshinweis in die LV-Position aufnehmen.
+
+## Anhang S. 10-12 — der Leseschlüssel, den das Merkblatt selbst mitliefert
+
+*Erst in Run 41 erschlossen. Diese drei Seiten hätten den Erstfehler verhindert.*
+
+- **S. 10 «Legende zu den Beispielen»** — fünf Symbole: Strömungsrichtung Zuluft ·
+  Strömungsrichtung Abluft · Brandlüfter · Fluchtwege · zu entrauchender Raum · NA Notausgang.
+- **S. 11 Beispiel 1:** «RWA mit BL (N2), Brandabschnittsfläche > 1200 m², geschossweise
+  abgetrennt, **mit oder ohne Sprinkleranlage**, im 1. UG liegend — Vier Entrauchungsöffnungen
+  notwendig, davon sind zwei Notausgänge anrechenbar.» Die Beispielmarkierung umfasst die
+  **ganze** Zelle (beide Teilzellen) — konsistent mit «mit oder ohne».
+- **S. 12 Beispiel 2:** «RWA mit BL (N2), Brandabschnittsfläche < 1200 m², geschossweise
+  abgetrennt, **ohne Sprinkleranlage**, im 1. UG liegend — Vier Entrauchungsöffnungen notwendig
+  (bedingt durch die Raumgeometrie).» Die Beispielmarkierung umfasst **nur die untere, weisse**
+  Teilzelle — konsistent mit «ohne Sprinkleranlage».
+
+**Damit beweist das Merkblatt seine eigene Lesart:** untere weisse Teilzelle = ohne
+Sprinkleranlage. Das ist die zweite, vom Farbmessen unabhängige Bestätigung (die erste ist
+Ziff. 1.1 mit den Schwellen 600 m² bzw. 1200 m² mit Sprinkleranlage).
+
+**Achtung Legendenfarben:** die Publikation kennt genau zwei Füllungen und eine Schraffur —
+hellblaue **Vollfläche** = «mit Sprinkleranlage», rote **Schraffur mit Rahmen** = «Beispiel»
+(nur in den Anhangbeispielen), weiss = ohne. Die Sprinklerkennzeichnung ist keine Schraffur.
+
+## Rechtsgrundlage (Titelseite)
+
+Das Merkblatt stützt sich auf **§ 14 Abs. 2 des Gesetzes über die Feuerpolizei und das
+Feuerwehrwesen (FFG) vom 24. September 1978**.
 
 ## Offene Punkte
 
@@ -219,10 +290,15 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
   lich identisch ist, wurde in diesem Run **nicht** geprüft und ist gesondert zu verifizieren.
 - SN EN 12101-2:2003-08 (Zitat zu Ziff. 4.2.1.4, Witterungsunabhängigkeit der Öffnungen) liegt
   nach Stand 31.07.2026 nicht als eigenes Destillat in dieser KB vor.
-- Die genaue Herleitung der Zellenwerte in Matrix 6.2 (ab wann genau «nicht zulässig» vs. N2
-  mit Sprinkler zwischen 601–1200 m²) ist im Fliesstext nicht erläutert, nur tabellarisch im
-  Anhang dargestellt — für eine konkrete Projektanwendung die Originaltabelle (Ziff. 6.2)
-  nochmals am Original prüfen, insbesondere die Sprinkler-Schraffur-Bedeutung.
+- **Bedeutung der durchgehend blauen letzten Spalte.** Ob «nur der gesprinklerte Fall ist
+  tabelliert» oder «der Wert gilt für beide Fälle», sagt der Fliesstext nicht. Oberhalb
+  4800 m² (6.1) bzw. 2400 m² (6.2) kennt das Merkblatt keine weisse Teilzelle. Das ist eine
+  Auslegungsfrage an die Kantonale Feuerpolizei, am Dokument nicht entscheidbar.
+- Ob eine **neuere Ausgabe** des Merkblatts 30.17.3 existiert (dieses datiert vom 28.02.2011),
+  ist nicht recherchiert.
+- Die Grundriss-Abbildungen der beiden Anhangbeispiele sind auf Vorhandensein und
+  Bildunterschrift geprüft, aber nicht geometrisch nachgemessen (Lage und Anzahl der
+  Entrauchungsöffnungen im Plan gegen die Bildunterschrift).
 - Kein Absatz definiert einen Zahlenwert für «komplexe Raumgeometrien», bei denen RWA mit BL
   laut Ziff. 4.2.2.1 Abs. 1 nicht geeignet ist — Einzelfallbeurteilung mit der Kantonalen
   Feuerpolizei bleibt offen.

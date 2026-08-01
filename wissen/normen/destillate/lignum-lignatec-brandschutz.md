@@ -2,9 +2,35 @@
 quelle: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 03 Brandschutz/06 Lignum Brandschutz/Lignum Bauten in Holz -  Brandschutzanforderungen/Lignatec_brandschutz.pdf"
 herausgeber: "Lignum, Holzwirtschaft Schweiz, Zürich (Christoph Starck, Direktor); verantwortlich Roland Brunner, Dipl. Ing. HTL, Lignum; technische Bearbeitung Makiol + Wiederkehr, Dipl. Holzbauingenieure HTL/SISH, Beinwil am See"
 ausgabe: "Lignatec 17/2005 «Bauten in Holz – Brandschutz-Anforderungen», erschienen Juni 2005, ISSN 1421-0320; geprüft durch die Technische Kommission der Vereinigung Kantonaler Feuerversicherungen (TKB-VKF) auf materielle Übereinstimmung mit den Schweizerischen Brandschutzvorschriften VKF (Ausgabe 2003, gültig seit 1.1.2005) und als «Stand der Technik» anerkannt"
-gelesen: "alle 12 PDF-Seiten (= gedruckte Seiten 2-24 plus Titelblatt) komplett, Bild-Scan ohne Textlayer, visuell gelesen"
+gelesen: "alle 12 A3-Blaetter = 24 Halbseiten = Druckseiten 1-24 lueckenlos, Bild-Scan ohne Textlayer, visuell gelesen. Vollstaendige Element-Inventur je Seite in training/lignatec-seiteninventur.md (Run 41). ACHTUNG: Blatt 12 traegt 24 | 1 (aeusserster Bogen), NICHT 24 | 25 — wer die Halbseiten-Regel fortschreibt, haelt das Titelblatt fuer einen Rueckumschlag."
 datenstand: "2005 (Bezug: VKF-Brandschutzvorschriften Ausgabe 2003/gültig ab 1.1.2005) — VERALTET gegenüber der aktuellen VKF-Vorschriftengeneration 2015 (vgl. Destillat vkf-ah-1001-15-wohnbauten.md)"
-status: "speculative (ACHTE Runde 260730, Run 38: BEANSTANDET mit 7 Kernbefunden + 4 Nebenbefunden.
+status: "speculative (ZEHNTE Runde 010826, Run 41: BEANSTANDET mit 6 KERNBEFUNDEN + 12 Nebenbefunden.
+  Erstmals wurde der FLIESSTEXT der Kapitel 1-4 (Druckseiten 3, 4, 6, 7, 10, 11, 14) systematisch gegen das
+  Destillat gediffed — in neun Vorrunden waren nur Tabellen und Zeichnungen geprueft worden. Zusaetzlich
+  entstand die vollstaendige Seiten-Inventur der Quelle (training/lignatec-seiteninventur.md).
+  BEFUNDBILD QUALITATIV NEU: KEIN EINZIGER ZAHLENWERT im Fliesstext ist falsch — alle Feuerwiderstandsklassen,
+  Flaechen- und Abstandsgrenzen stimmen. Fuenf der sechs Kernbefunde sind FEHLENDE Absaetze oder Saetze, und
+  sie treffen fast ausschliesslich SCHUTZZIEL- UND VERKNUEPFUNGSSAETZE — jene Saetze ohne Zahl, die sagen, wie
+  die Zahlen zusammenwirken, und die beim Destillieren als Prosa durchrutschen.
+  Kernbefunde: (1) Ziff. 1.4.2 — «insbesondere» gestrichen, die Nutzungsliste «grosse Personenbelegung» wurde
+  dadurch abschliessend; sechste Stelle desselben Fehlertyps, den Run 36 unvollstaendig bereinigt hatte.
+  (2) Ziff. 1.5 — der ganze Einleitungsabsatz fehlte («Der Brandschutz muss fruehzeitig in die Gesamtplanung
+  einbezogen werden»), die einzige Verfahrenspflicht der Publikation. (3) Ziff. 1.5.2 — der zweite
+  Art.-11-Spiegelstrich fehlte; das objektbezogene Konzept erschien als reines Reduktionsinstrument, obwohl
+  Art. 11 die Behoerde ausdruecklich auch zur ERWEITERUNG ermaechtigt. (4) Ziff. 2.1 und 2.2.2 — BEIDE
+  KUMULATIONSSAETZE fehlten; das ist die Verknuepfungsregel der zwei Tabellen-3-Spalten, ohne sie liest man
+  die Tabelle als Alternative statt als Kumulation. Folgenreichster Befund der Runde. (5) Ziff. 2.1 — der
+  Schutzziel-Satz zum Tragwerks-Feuerwiderstand fehlte (Personenevakuierung und Brandbekaempfung).
+  (6) Ziff. 2.2.2 — die GESAMTE Festlegungsregel fuer den Feuerwiderstand brandabschnittsbildender Bauteile
+  fehlte, samt Kriterium b «Feuerwiderstand der Tragwerke» und samt der Aussage, dass Sprinkler auch die
+  zulaessige AUSDEHNUNG von Brandabschnitten beeinflussen. Kernbefunde 4, 5 und 6 hat der Hauptprozess am
+  eigenen 300-dpi-Rendering der S. 7 woertlich nachgelesen und bestaetigt.
+  REGRESSIONSCHECK: alle Korrekturen der Runden 32-36 halten (Modalitaeten «meistens», «im Normalfall»,
+  «insbesondere»; Brandschutzabschluss-Satz steht tatsaechlich zweimal im Original; Abschottungen gefuehrt).
+  Die Schraegstrich-/Bindestrich-Notation ist ein VIERTES Mal methodisch unabhaengig bestaetigt, diesmal aus
+  dem gedruckten Erlaeuterungskasten der S. 13.
+  ENDBEDINGUNG DES VORRANG-AUFTRAGS WEITERHIN NICHT ERFUELLT — Ereignis-Trigger wird NICHT vorgeschlagen.
+  Vorherige Runde (ACHTE, 260730, Run 38): BEANSTANDET mit 7 Kernbefunden + 4 Nebenbefunden.
   Vorrang-Auftrag Raphaels vom 29.07.2026 ausgefuehrt: die RECHNERISCHE Zellaufnahme (Median-RGB je
   Zellbox, Klassierung gegen die am Original gemessenen Legenden-Swatches) wurde erstmals auf
   Tab. 3 (S. 8-9) und Tab. 4 (S. 12-13) angewandt — bisher war sie nur auf Tab. 5 gelaufen. Beide
@@ -226,7 +252,7 @@ werden.
   vorübergehend ≥ 10 Personen auf fremde Hilfe angewiesen) sowie Hotels, Pensionen,
   Ferienheime (dauernd/vorübergehend ≥ 15 Personen, nicht auf fremde Hilfe angewiesen)
   (Ziff. 1.4.2, S. 6).
-- Bauten/Anlagen mit Räumen grosser Personenbelegung: Mehrzweck-, Sport-, Ausstellungshallen,
+- Bauten/Anlagen mit Räumen grosser Personenbelegung: **insbesondere** Mehrzweck-, Sport-, Ausstellungshallen,
   Schulbauten mit Sälen, Bahnstationen, Theater, Kinos, Restaurants u.ä. mit Räumen für > 100
   Personen; Verkaufsgeschäfte mit Verkaufsfläche < 1200 m² sofern ermittelte Personenzahl > 100
   (Ziff. 1.4.2, S. 6).
@@ -236,6 +262,11 @@ werden.
   dem der Feuerwehr dienenden angrenzenden Terrain bzw. > 25 m Traufhöhe (Ziff. 1.4.2, S. 6).
 
 **Brandschutzkonzepte (Ziff. 1.5, S. 6)**
+- **Einleitung (ergänzt Runde 10, 010826 — fehlte bis dahin ganz):** «Der Brandschutz muss
+  frühzeitig in die Gesamtplanung einbezogen werden.» Wirksamer Brandschutz beruht auf
+  Schutzkonzepten, die aus aufeinander abgestimmten Massnahmen bestehen. Das ist die einzige
+  Stelle der Publikation, die dem Planer eine **Verfahrenspflicht** auferlegt, und sie trägt
+  das Konzeptdenken der ganzen Schrift.
 - Standardkonzept (Ziff. 1.5.1): im Normalfall wird das Schutzziel mit vorgeschriebenen
   Standardmassnahmen erreicht; zwei Varianten — Bauliches Brandschutzkonzept (Anforderungen an
   Feuerwiderstand/Brennbarkeit richten sich insbesondere nach Lage, Geschosszahl, Nutzung,
@@ -246,8 +277,18 @@ werden.
   werden; Reduktion des Feuerwiderstands höchstens 30 Minuten). Die Anforderungen nach Tabelle 3
   gelten als Standardlösungen.
 - Objektbezogenes Konzept (Ziff. 1.5.2): Schutzziele werden für das Einzelobjekt erfüllt;
-  Rahmenbedingungen in Art. 11 der Brandschutznorm; weitere Reduktionen nur gestützt auf
-  Art. 11 mit entsprechendem Nachweis, Gleichwertigkeit entscheidet die Brandschutzbehörde.
+  Rahmenbedingungen in Art. 11 der Brandschutznorm. Art. 11 trägt **zwei** Fälle:
+  1. **alternative Massnahmen** als Einzel- oder Konzeptlösung, sofern die Schutzziele
+     gleichwertig erfüllt werden; die Brandschutzbehörde entscheidet über die Gleichwertigkeit.
+  2. **Weicht die Brandgefahr im Einzelfall so vom Normalfall ab, dass die vorgeschriebenen
+     Anforderungen als ungenügend oder als unverhältnismässig erscheinen, sind die zu
+     treffenden Massnahmen angemessen zu ERWEITERN oder zu reduzieren.**
+  ⚠ **Korrektur Runde 10 (010826):** Das Destillat führte bisher nur die Reduktionsrichtung und
+  liess das objektbezogene Konzept als reines Erleichterungsinstrument erscheinen. Art. 11
+  erlaubt der Behörde ausdrücklich auch die **Verschärfung**. Ausserdem ist «Gleichwertigkeit»
+  nicht dasselbe wie «Reduktion» — der erste Fall war semantisch zu einer Reduktion verschoben.
+  *(Zuschreibungshinweis: der Satz zu den «weiteren Reduktionen … gestützt auf Art. 11» steht
+  im Original am Ende von Ziff. 1.5.1 beim Sprinklerkonzept, nicht in Ziff. 1.5.2.)*
 
 ### 2. Tragwerke und Brandabschnitte (Ziff. 2, S. 7-11)
 
@@ -257,11 +298,27 @@ werden.
   Brandbeanspruchung ausreichend erhalten, b) weder vorzeitiges Versagen eines Einzelbauteils
   noch Auswirkung von Wärmedehnungen auf gleicher Ebene/andere Geschosse führt zum Einsturz,
   c) keine unverhältnismässigen Schäden in angrenzenden Brandabschnitten.
-- Tragwerke in Untergeschossen müssen den gleichen Feuerwiderstand aufweisen wie die
-  überirdischen Geschosse, mindestens aber R60(nbb) (S. 7).
-- Massgebend für den Feuerwiderstand sind insbesondere: Geschosszahl, immobile/mobile
-  Brandbelastung, Bauart/Lage/Ausdehnung/Nutzung; Sprinkleranlagen können angemessen
-  berücksichtigt werden (S. 7).
+- Tragwerke in Untergeschossen müssen den gleichen Feuerwiderstand aufweisen wie die **über dem
+  gewachsenen Terrain liegenden** Geschosse, mindestens aber R60(nbb) (S. 7). *(Präzisiert
+  Runde 10: bisher «überirdische Geschosse» — an Hanglagen ist das nicht dasselbe.)*
+- **Schutzziel (ergänzt Runde 10 — fehlte bis dahin):** «Der Feuerwiderstand von Tragwerken ist
+  so festzulegen, dass die **Personenevakuierung und die Brandbekämpfung gewährleistet sind**.»
+  Erst dieses Schutzziel gibt der folgenden Kriterienliste ihren Massstab und ist die Grösse,
+  gegen die ein objektbezogener Nachweis nach Art. 11 überhaupt geführt wird.
+- Massgebend für den Feuerwiderstand sind **insbesondere**: Geschosszahl, gesamthaft vorhandene
+  immobile und mobile Brandbelastung, Bauart/Lage/Ausdehnung/Nutzung von Bauten, Anlagen oder
+  Brandabschnitten; Sprinkleranlagen können angemessen berücksichtigt werden (S. 7).
+- ⚠ **KUMULATIONSREGEL (ergänzt Runde 10 — fehlte bis dahin, der folgenreichste Befund der
+  Runde):** «Für Tragwerke, die brandabschnittsbildend sind, gelten **zusätzlich** die
+  Anforderungen an brandabschnittsbildende Bauteile.» Die Gegenrichtung steht am Ende von
+  Ziff. 2.2.2: «Für brandabschnittsbildende Bauteile, die tragend sind, gelten **zusätzlich**
+  die Anforderungen an Tragwerke.» **Das ist die Verknüpfungsregel der beiden Tabellen-3-Spalten
+  «Tragwerk» und «Brandabschnitt».** Ohne sie liest man die Tabelle so, als seien die beiden
+  Werte je nach Bauteilfunktion alternativ; tatsächlich muss ein Bauteil, das tragend **und**
+  brandabschnittsbildend ist, **beide** Anforderungssätze kumulativ erfüllen. Für die Bemessung
+  einer tragenden Wohnungstrennwand oder einer tragenden Geschossdecke im Holzbau ist das die
+  Kernaussage. Beide Sätze vom Hauptprozess am eigenen 300-dpi-Rendering der S. 7 wörtlich
+  nachgelesen und bestätigt.
 
 **Brandabschnitte (Ziff. 2.2, S. 7)**
 - Begriff: Brandabschnitte sind durch brandabschnittbildende Bauteile voneinander getrennte
@@ -270,6 +327,8 @@ werden.
   brandabschnittbildende Wände und Decken, Brandschutzabschlüsse, Abschottungen (S. 7).
 - Brandmauern: standfeste, gebäudetrennende, bis unter die oberste Schicht der Dach- und bis
   an die äusserste Schicht der Fassadenkonstruktion geführte Bauteile (S. 7).
+- **Brandabschnittsbildende Wände und Decken** (eigener Begriffsabsatz, ergänzt Runde 10):
+  Bauteile, die Bauten und Anlagen in Brandabschnitte unterteilen (S. 7).
 - Allgemeine Anforderungen (Ziff. 2.2.2, S. 7): Brandabschnittsbildung richtet sich nach
   Bauart, Lage, Ausdehnung, Nutzung. Abzutrennen sind u.a. Aneinandergebaute/ausgedehnte
   Bauten, einzelne Geschosse, Korridore/Treppenanlagen als Flucht-/Rettungswege,
@@ -277,6 +336,21 @@ werden.
   Räume unterschiedlicher Nutzung/Brandgefahr. Feuerwiderstand brandabschnittbildender Bauteile
   mindestens 30 Minuten; Durchgänge/Öffnungen mit Brandschutzabschlüssen (min. 30 Min.)
   abzuschliessen.
+- ⚠ **Festlegungsregel für den Feuerwiderstand brandabschnittsbildender Bauteile (ergänzt
+  Runde 10 — fehlte bis dahin VOLLSTÄNDIG; das Destillat führte nur die analoge Liste für
+  Tragwerke):** Der Feuerwiderstand ist so festzulegen, dass **die Ausbreitung von Bränden auf
+  andere Brandabschnitte verhindert wird**. Massgebend sind **insbesondere**:
+  a) **Art** (Brandmauern, brandabschnittsbildende Wände und Decken);
+  b) **Feuerwiderstand der Tragwerke** — die entscheidende Kopplung im Holzbau;
+  c) Geschosszahl;
+  d) gesamthaft vorhandene immobile und mobile Brandbelastung;
+  e) Bauart, Lage, Ausdehnung und Nutzung von Bauten, Anlagen oder Brandabschnitten.
+- ⚠ **Sprinkler wirken zweifach (ergänzt Runde 10):** Sprinkleranlagen können bei der Festlegung
+  des Feuerwiderstands brandabschnittsbildender Wände und Decken **oder der zulässigen
+  AUSDEHNUNG von Brandabschnitten** angemessen berücksichtigt werden (siehe Tabellen 3 und 4).
+  Das Destillat nannte bisher nur die Reduktion des Feuerwiderstands. Praktisch ist die zweite
+  Wirkung oft die wichtigere: sie ist der Grund, im Gewerbebau ein Sprinklerkonzept zu prüfen,
+  weil sie die 2400-/1200-m²-Grenzen der Ziff. 2.2.3 verschiebt.
 - **Farbkodierung Tabelle 3 (Legende S. 9)** — fünf Einträge, für die Anwendung zentral und in
   Runde 8 (260730) erstmals erfasst: **orange** = Nutzungen gemäss Brandschutzrichtlinien VKF ·
   **gelb** = Weitere Nutzungen (beides nur die Nutzungsspalte links) · **weiss** = Holzbauteile ·
@@ -405,7 +479,7 @@ werden.
     (z.B. Gartenhäuser, Velounterstände, Kleintierställe, Kleinlager ohne dauernden Aufenthalt)
     von den Abstandsvorschriften gegenüber grundstückinternen Bauten befreit, wenn ihre
     Grundfläche 20 m² nicht übersteigt und darin keine gefährlichen Stoffe vorhanden sind.
-  - Landwirtschaftliche Bauten: landwirtschaftlich genutzte Mehrgebäudestellen können
+  - Landwirtschaftliche Bauten: landwirtschaftlich genutzte Mehrgebäudeställe können
     untereinander reduzierte Schutzabstände aufweisen, sofern die Arealfläche 2400 m² bzw. bei
     mehrgeschossigen brennbaren Bauten 1200 m² nicht übersteigt. Andere Nutzungen (Wohnhäuser,
     Einstellräume für Motorfahrzeuge, Lager für brennbare Flüssigkeiten) sind mit
