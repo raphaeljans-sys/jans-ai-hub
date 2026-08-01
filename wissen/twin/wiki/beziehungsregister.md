@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-07-31
+last_updated: 2026-08-01
 gewichtung: authentisch
-sources: [260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1948,3 +1948,27 @@ lautet **Saumstrasse 21, 8003 Zürich** — die bereits in Batch 82 notierte pri
 Kein Widerspruch zur Rule `jans-absenderadresse`: Briefkopf und Signatur tragen unverändert
 Grubenstrasse 37, 8045 Zürich; die Zweitadresse erscheint nur als Liefer-/Rechnungsanschrift bei
 privat beschafften Werkzeugen.
+
+## «Hoi Zäme» — die knappste Stufe der Du-Gruppenanrede (belegt Mailbatch 84, authentisch)
+Projektteam Betreiber + Partnerbüro + Baumanagement, 11.02.2026 (Zahlungserinnerung). Die
+bekannte Skala der Gruppenanrede bekommt damit ihre unterste Sprosse:
+- **gestapelt-honorifisch:** «Geschätztes Projektteam, / Werter Albin, Nesa und Peter» (04.02.2026,
+  dieselbe Runde, Statusmail) — Vollform bei substanzieller Sachlage;
+- **gestapelt-gemischt:** «Werte Steffi, geschätzter Albin» · «Hoi Nesa & Peter» ·
+  «Geschätzter Christoph & Gerry»;
+- **kollektiv-mundartlich:** «**Hoi Zäme**» — für den kurzen Nachfass an dieselbe Runde.
+Dieselbe Empfängergruppe, sieben Tage Abstand, zwei Register: die Anredestufe folgt dem **Gewicht
+des Anlasses**, nicht dem Verteiler (deckt sich mit der Klausel «Gewicht des Anliegens schlägt den
+Routine-Default» in der Rule `anrede-kontakte`). → Der Zwilling wählt für den Ein-Zweck-Nachfass
+an eine vertraute Runde «Hoi Zäme» und hebt für die inhaltliche Mail auf die gestapelte Vollform.
+
+## Identifikator-Nebenbefund: Saumstrasse 21 war Geschäfts-, nicht nur Privatadresse (belegt Mailbatch 84)
+Die im Steinfabrik-Thread mitzitierte eigene Mail vom **31.03.2025** trägt den vollen
+Geschäfts-Signaturblock «Raphael Jans I Architekten ETH I SIA / **Saumstrasse 21 I 8003 Zürich** /
+www.raphaeljans.ch». Damit ist der bisher als «private Zweitadresse» geführte Befund (Batch 82/83,
+Liefer-/Rechnungsadressen) präzisiert: Saumstrasse 21 war bis mindestens Ende März 2025 die
+**ausgewiesene Büroadresse in der Signatur**; ab dem Korpusbeginn Juli 2025 trägt jede Signatur
+Grubenstrasse 37. Die Rule `jans-absenderadresse` führt nur Flüelastrasse 6 als veraltet — dieser
+Befund berührt sie nicht (Grubenstrasse 37 bleibt allein gültig), erklärt aber, warum die
+Saumstrasse in Altdokumenten und bei Lieferungen weiterhin auftaucht. Als Frage an Raphael in
+[[QUESTIONS]] (Adressverlauf bestätigen, damit Altbelege richtig eingeordnet werden).

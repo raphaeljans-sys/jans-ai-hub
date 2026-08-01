@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-07-31
+last_updated: 2026-08-01
 gewichtung: authentisch
-sources: [260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2746,3 +2746,51 @@ nicht als Abweichung lesen, gleiche Lage wie Batch 81). Grüsse: «Freundliche G
 Sie-Default trägt auch die Ein-Satz-Mail. Anreden: «Hoi Peter» 1×, «Sehr geehrter Herr» 1×,
 «Sehr geehrte Frau» 1×, «**Sehr geehrter Frau**» 1× — der Genus-Slip erscheint hier direkt in der
 Metrik neben seiner korrekten Form. Tausender-Apostroph 0, Ellipsen 0, «%» nicht vorkommend.
+
+## «Hoi Zäme» + Frist im Inline-Signoff «Bis am Freitag, Lieber Gruss, raphael» (belegt Mailbatch 84, authentisch)
+Zahlungserinnerung an das Projektteam (Du, gemischte Gruppe Betreiber/Partnerbüro), 11.02.2026.
+Die ganze Mail sind drei Zeilen über der zitierten Originalmail vom 04.02.:
+«**Hoi Zäme** / Da noch keine schriftliche Bestätigung/Freigabe vorliegt hier meine
+Zahlungserinnerung. / **Bis am Freitag, Lieber Gruss, raphael**».
+Drei Marker in drei Zeilen:
+- **Mundart-Kollektivanrede «Hoi Zäme»** — erster Beleg. Sie ersetzt im Du-Projektteam die sonst
+  belegte gestapelte Aufzählung («Werte Steffi, geschätzter Albin», «Hoi Nesa & Peter») und ist
+  damit die *knappste* Stufe der Gruppenanrede; Mundart tritt hier ausnahmsweise in eine
+  geschäftskritische Geld-Mail ein (bisher belegt: Mundart-Einsprengsel im warmen Handwerker-Sie,
+  Mundart-Neujahrsgruss, rein privat-soziales Du).
+- **Frist im Inline-Signoff:** die Deadline steht nicht als Satz, sondern verschmilzt mit dem
+  Gruss («Bis am Freitag, Lieber Gruss, raphael»). Das ist die Verschärfung des bekannten
+  Inline-Merge-Signoffs (Batch 31 «Bis morgen, schönes Wochenende, Raphael») — dort ein
+  freundlicher Zeitbezug, hier eine echte Zahlungsfrist, die dadurch beiläufig statt fordernd
+  klingt. Name **klein geschrieben** («raphael») trotz Geld-Kontext.
+- **Begründet wird aus dem fehlenden Prozessschritt, nicht aus der Fälligkeit:** «Da noch keine
+  schriftliche Bestätigung/**Freigabe** vorliegt» — gemahnt wird die ausstehende Freigabe, nicht
+  die Zahlung; der Empfänger bleibt Prüfer, nicht Schuldner.
+→ Der Zwilling darf im eingespielten Du-Projektteam mit «Hoi Zäme» eröffnen, hängt die Frist an
+den Gruss statt sie als Forderungssatz zu setzen und benennt als Grund den fehlenden
+Freigabeschritt.
+
+## Echo-Prüfung mit offenem Ausgang: der AfB-Anfrageentwurf vom 11.02.2026
+Der von Raphael in die Steinmann-Mail eingebettete Entwurf der Behördenanfrage trägt **gemischte
+Signale** und wird deshalb nicht als Stilquelle verbucht, aber auch nicht abgewertet:
+- *dafür (KI-assistiert):* fette Leitfrage + nummerierte Punkte mit fetten Titeln
+  («Nutzungszuordnung», «Wohnanteil (Anrechenbarkeit)», «Abgrenzungskriterien»), und —
+  entscheidend — **typografische Gänsefüsschen “klassische Hotelnutzung”** statt Raphaels
+  Guillemets «…», eines der in Batch 83 festgehaltenen Detektionssignale.
+- *dagegen (authentisch):* der Rahmen ist unbestritten handgetippt («gegen zu **Lessen**»,
+  «**Angrage**struktur», «ggf» ohne Punkt); die Fundstellenkette BEZ 1988 Nr. 14 / BEZ 2015
+  Nr. 36 / BGer 1C_148/2010 und die Formel «Als Hintergrund meiner Frage:» sind seit Batch 30 als
+  Raphaels eigene Fachsignatur belegt, ebenso die geschlossene Behörden-Leitfrage.
+Bewertung: wahrscheinlich ein von Raphael inhaltlich diktierter, maschinell ausformulierter
+Entwurf. Der Verdacht ist **nicht erhärtet**; der Marker-Ertrag dieses Fensters stammt
+ausschliesslich aus dem Rahmen. Als Frage an Raphael in [[QUESTIONS]] festgehalten.
+
+## Mikro-Metrik Mailbatch 84 (9 Eigentexte, 235 W, stilmetrik.py)
+Satzlänge ø **13.8 Wörter** — am oberen Rand des Korpusbandes 11.9–13.4, getragen von den beiden
+mehrsätzigen Du-Liefermails; die Sie-Kurzmails (Betreff-als-Body, «Lgr»-Zweizeiler) drücken
+gegenan. Du-Gross-Quote **0.857** (ein kleines «du» in «Könntest du mir Bitte noch …» —
+derselbe Flüchtigkeits-Slip wie Batch 82, im schnellen Nachfass). Anreden: «Hoi Labi» 2×,
+«**Hoi Zäme**» 1×, «Geschätzter Herr» 1×, «Sehr geehrter Herr» 1×. Grüsse: «Freundliche Grüsse»
+3× (Sie-Default), «Lieber Gruss» 1×, dazu «Bester Gruss» und «Danke und Gruss» im Du-Faden —
+das ganze belegte Kurzgruss-Repertoire in einem 14-Tage-Fenster. Tausender-Apostroph 0,
+Ellipsen 0, «%» nicht vorkommend.

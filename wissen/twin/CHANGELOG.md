@@ -4,6 +4,21 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 01.08.2026 — twin-mail-training Batch 84 (Luecken-Sweep rj@ 01.–14.02.2026)
+
+Fenster vollstaendig gelistet (123 Sent Items im Februar, erste Haelfte bearbeitet), Vorabgleich
+**pro Kalendertag** gegen den Wiki-Bestand in beiden Datumsformaten: 01./05./07./11.02. null
+Belege. 4 Kandidaten-Volltexte gelesen, 9 Eigentexte destilliert, **5 neue Marker**:
+`arbeitsweise` (Behoerdenanfrage vor dem Versand dem Auftraggeber zur Freigabe vorlegen; eigenes
+Erzeugnis vom Fachplaner kritisch begutachten lassen), `stimme` («Hoi Zaeme» als knappste
+Du-Gruppenanrede; Frist im Inline-Signoff «Bis am Freitag, Lieber Gruss, raphael»), `haltung`
+(den Preis der eigenen Empfehlung benennen und den Entscheid zurueckgeben). Dazu
+`beziehungsregister` (Gruppenanrede-Skala + Identifikator-Nebenbefund Saumstrasse 21 als fruehere
+Bueroadresse) und 3 neue Fragen in QUESTIONS. Echo-Pruefung mit offenem Ausgang am eingebetteten
+AfB-Anfrageentwurf (typografische Gaensefuesschen gegen handgetippten Rahmen) — Verdacht nicht
+erhaertet, nicht als Stilquelle verbucht. Metrik: 235 W, ø 13.8 W/Satz, Du-Gross 0.857.
+Registerlehre: der Vorabgleich muss pro Kalendertag zaehlen, nicht pro Thread.
+
 - **2026-07-31 09:18 — twin-chef Gate (Hub-Chef-Tagesbriefing 31.07., Mail rj@ an rj@): Fidelity 79 → 89, Veredelung Runde 1/3.**
   Schnell-Scan: Stimme 78 · Denken 82 · Haltung 85 · Beziehung 88 · Fachsignatur 74 · Arbeitsweise 79.
   Drei Facetten unter der Schwelle 80, deshalb gezielter Fan-out an `twin-stilist`, `twin-fachsignatur`

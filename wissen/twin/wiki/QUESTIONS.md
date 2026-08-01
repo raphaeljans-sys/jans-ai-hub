@@ -2453,3 +2453,28 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
    Muster, den Call-to-Action allein im Betreff zu führen. Ist das die richtige Kompensation, oder
    soll die Blockfolge die Dringlichkeit allein tragen?
    → [[stimme]], [[arbeitsweise]]
+
+## Aus Mailbatch 84 (Lücken-Sweep rj@ 01.–14.02.2026, gestellt 01.08.2026)
+
+1. **Der AfB-Anfrageentwurf vom 11.02.2026 — von Dir formuliert oder maschinell ausformuliert?**
+   Der Rahmen der Mail an den Asset Manager ist eindeutig Deine Hand («gegen zu Lessen»,
+   «Angragestruktur»). Der eingebettete Anfrageentwurf trägt dagegen typografische Gänsefüsschen
+   „…" statt Deiner Guillemets «…» und eine nummerierte Fett-Titel-Struktur. Die Fundstellenkette
+   (BEZ 1988 Nr. 14 / BEZ 2015 Nr. 36 / BGer 1C_148/2010) ist unbestritten Deine. Hast Du den
+   Entwurf selbst getippt, oder hast Du ihn Dir ausformulieren lassen? *Warum: davon hängt ab, ob
+   die Behörden-Anfragestruktur als Gold-Vorlage weitergegeben wird oder nur ihr Inhalt.*
+   → [[stimme]], [[fachsignatur]]
+
+2. **«Hoi Zäme» — bewusste Stufe oder Zufall des Moments?** Am 04.02.2026 schreibst Du derselben
+   Runde «Geschätztes Projektteam, / Werter Albin, Nesa und Peter», am 11.02.2026 im Nachfass
+   «Hoi Zäme». Ist die Mundart-Kollektivanrede für Dich die reguläre Kurzform an ein vertrautes
+   Projektteam (dann baue ich sie ein), oder war das die Ausnahme eines schnellen Mobile-Tipps?
+   *Warum: betrifft jede kurze Gruppenmail.* → [[beziehungsregister]], [[stimme]]
+
+3. **Adressverlauf Saumstrasse 21 → Grubenstrasse 37.** Deine Signatur vom 31.03.2025 trägt
+   «Raphael Jans I Architekten ETH I SIA / Saumstrasse 21 I 8003 Zürich». Ab Korpusbeginn Juli 2025
+   steht überall Grubenstrasse 37. War die Saumstrasse die frühere Büroadresse (dann ist sie in
+   Altdokumenten korrekt und darf beim Zitieren stehen bleiben), oder war sie immer die private
+   Adresse und stand versehentlich im Geschäftsblock? *Warum: entscheidet, ob Altbelege korrigiert
+   oder unverändert zitiert werden; die Rule `jans-absenderadresse` kennt nur Flüelastrasse 6 als
+   veraltet.* → [[beziehungsregister]]
