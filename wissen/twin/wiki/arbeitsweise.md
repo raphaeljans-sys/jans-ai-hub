@@ -153,7 +153,15 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Telefon · Rolle · Objektadresse · Anliegen) als Mail-Body ausfüllen statt frei zu formulieren;
   ist die **Zuständigkeit unklar**, dieselbe Anfrage im selben Zug an zwei Kanäle derselben
   Organisation (Sammelpostfach + benannte Person) richten; vor jedem **Nachhaken** den eigenen
-  zugewiesenen Prüfschritt belegt ausweisen, bevor die Bitte wiederholt wird.
+  zugewiesenen Prüfschritt belegt ausweisen, bevor die Bitte wiederholt wird. **Die
+  Studien-/Sitzungspräsentation beginnt mit der Agenda, nicht mit dem Inhalt (belegt Fidelity
+  260801, authentisch):** nummerierte Kapitelliste mit Kurzbeschrieb je Zeile → Zustimmung zur
+  Agenda einholen → erst dann sprechen. Die **Grundlagen werden mit ihrer Herkunft belegt**,
+  bevor sie verwendet werden («> Studie von 2018 : Kernaussage 7'200 m3 Baumassenreserve»,
+  «> Sitzung vom 7.2.2024 mit Herrn Bopp : Festlegung der Verdichtungstypen») — samt offener
+  Kritik an der übernommenen Vorstudie («Desktop-Studie, sagt nicht viel aus über das «WIE»»)
+  und dem daraus abgeleiteten eigenen Anspruch («muss eine belastbare Entscheidungsgrundlage
+  für weitere Planungsschritte sein»).
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene
   Enden ohne nächsten Schritt; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** — dort

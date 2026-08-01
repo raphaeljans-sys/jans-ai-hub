@@ -38,6 +38,38 @@ Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/be
 > Vollständige Belegkette und Korrekturliste im Eintrag ganz unten in dieser Datei
 > («2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG»).
 
+## Offen — Runde 260801 (twin-fragesteller, aus Fidelity-Review 2026-08-01)
+
+Quelle: Drift-Report `outputs/2026-08-01_fidelity-modalitaetswechsel.md`. Besonderheit dieses
+Laufs: **erstes Dokument-Gold** statt Mail (Präsentationsskript + Fragenkatalog, Projekt 2407
+Regensdorf, 2024). Die Fidelity fiel auf **56** — nicht wegen falscher Marker, sondern weil der
+Zwilling ausserhalb der Mail keine belegte Notation hatte. Diese fünf Fragen schliessen genau
+diese Lücke.
+
+1. **Wann schreibst Du ein Skript, und wann redest Du frei?** Das Skript vom 19.04.2024 ist ein
+   Stichwort-Gerüst, kein Vortragstext. Gilt das für jede Bauherren-Präsentation, oder gab es
+   den Volltext, weil die Studie neu war? *Facette: Arbeitsweise. Warum: entscheidet, ob der
+   Zwilling für Dich künftig Gerüste oder Reden schreibt — die beiden Erzeugnisse haben nichts
+   miteinander zu tun.*
+2. **«Herr Bopp» im internen Dokument — Höflichkeit oder Zeitstand?** Das Skript nennt den
+   Auftraggeber in der Drittform, die Kontaktliste führt ihn heute als Du-Kontakt. Wart Ihr im
+   Februar 2024 noch per Sie, oder schreibst Du auch über Du-Kontakte im internen Papier
+   «Herr <Nachname>»? *Facette: Beziehungsregister. Warum: entscheidet, ob eine neue Regel
+   (Drittform im Eigendokument) entsteht oder nur ein Datumsartefakt vorliegt.*
+3. **Ist das Vier-Interessen-Raster (Bauherrschaft · Behörde · Nachbarschaft als Advocatus
+   diaboli · Bewohner/Bautechnik) Dein Standardraster für Verdichtungsfragen, oder war es für
+   Regensdorf gebaut?** *Facette: Denken. Warum: wenn es Standard ist, gehört es als
+   Pflichtschritt in jede Machbarkeit — es ist das stärkste Denkinstrument, das dieser Lauf
+   gefunden hat.*
+4. **«>>>» für die offene Frage, «>» für die Grundlage, «_ » für die Aufzählung, «➢» für das
+   Sub-Detail — ist das ein bewusstes Zeichensystem?** *Facette: Stimme. Warum: vier Zeichen mit
+   je eigener Bedeutung wären eine Notation, die der Zwilling exakt bedienen kann; sind sie
+   zufällig gewachsen, darf er sie nicht mechanisch anwenden.*
+5. **Benennst Du Szenarien immer («UMBAU»/«ENSEMBLE»/«TRANSFORMATION») statt sie zu
+   nummerieren?** Und läuft die Namensgebung vor oder nach der Rechnung? *Facette: Stimme +
+   Denken. Warum: ein benanntes Szenario trägt schon eine These; der Zwilling schreibt heute
+   neutrale «Variante 1/2/3» und verliert damit Deine Zuspitzung.*
+
 ## Offen — Runde 260729 (twin-fragesteller, aus Fidelity-Review 2026-07-29)
 
 Quelle: Drift-Report `outputs/2026-07-29_fidelity.md`. Besonderheit dieses Laufs: beide

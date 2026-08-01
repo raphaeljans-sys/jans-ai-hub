@@ -522,7 +522,20 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Sonnenschutzglas») und jeden Punkt seiner **namentlichen Amtsstelle** zuordnen (UGZ Energie
   im Bau · UGZ Gebäudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
   Baumerhalt · Tiefbauamt). Bei einer **Korrektur-/Planlieferung** die Plan-Metadaten
-  mitführen und ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»).
+  mitführen und ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»). **In der
+  Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der konkreten Gemeinde rechnen, nicht die
+  generische Ausnützungsziffer (belegt Fidelity 260801, authentisch):** wo die BZO mit der
+  **Baumassenziffer** arbeitet, lautet die Kette «W2.2 = Grundstücksfläche × 2.2 ergibt die
+  Baumasse der Regelbebauung, **+ 0.3 für die Arealüberbauung**» → Volumen Arealüberbauung /
+  Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3. Weiteres belegtes Vokabular
+  dieser Gattung: **Abstandsbild** (statt «Grenzabstände»), **Mehrhöhenzuschlag**,
+  **Spännerzahl** (aus der maximalen Gebäudelänge abgeleitet), **subsidiäre
+  Tragwerksmassnahmen** und **Sondierbohrungen** als noch nicht erbrachte Vorleistung einer
+  Aufstockung, **Geländeschnitt** zum Nachbarhaus als Beweismittel der Nachbarsicht.
+  **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie rein typologisch
+  stellen («Wie nahe darf der Baukörper architektonisch **und feuerpolizeilich** an die
+  Nachbarsbauten kommen?»; «Was ergibt sich **aus der maximalen Gebäudelänge** für eine ideale
+  Spännerzahl?»).
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich

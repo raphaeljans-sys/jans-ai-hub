@@ -82,12 +82,28 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   der nächste Schritt); Verfahrens-/Status-Sie-Mail sachlich ohne Wunschzeile, «melde ich mich
   unverzüglich» + FG+Block. Datierte Detail-Präzedenzen: Abschnitte unten in diesem Artikel
   (werden nicht in die DNA kompiliert).
+- **Gattungsweiche Mail ↔ Eigendokument (belegt Fidelity 260801, authentisch):** Alles oben
+  gilt der **Mail**. Im **JANS-Eigendokument** (Präsentationsskript, Fragenkatalog, internes
+  Arbeitspapier) fällt der ganze Mail-Rahmen weg — keine Anrede, kein Gruss, keine
+  Signatur-Phrase, kein Service-Satz. Dort gilt: **Stichwort-Gerüst statt ausformulierter
+  Sätze**; Kapitel als **nummerierte VERSALIEN-Zeile + Tabulator + Doppelpunkt +
+  Kurzbeschrieb** («01 AUSGANGSLAGE : Studie von 2018 mit Berechnung Baumassenreserve»);
+  Werte in einer **rechtsbündigen Zahlenkolonne** mit nachgestelltem Label statt im Fliesstext;
+  **benannte Szenarien in Anführungszeichen und VERSALIEN** («UMBAU»/«ENSEMBLE»/
+  «TRANSFORMATION») statt neutraler «Variante 1/2/3»; Erkenntnisse **durchnummeriert**
+  («1. Erkenntnis: …»); **«>»** als Herkunfts-/Grundlagenmarker vor einer Quelle oder einem
+  Sitzungsdatum; **«>>>»** als eigenes Zeichen für die **offene, noch unbeantwortete Frage**
+  (dritte Marke neben «_ » und «–»); Themenblöcke als blosses Label ohne Doppelpunkt
+  («Baukörperlänge», «Nutzungsverteilung»). Ein Skript ist bei Raphael ein **Gerüst zum
+  Sprechen**, kein Vortragstext.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji in
   Geschäft/Sie/Dokument/Folien/operativer Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail
   (dort Hochdeutsch = Norm); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
-  wegglätten.
+  wegglätten; **den Mail-Ton in ein Eigendokument tragen** — in Skript, Fragenkatalog oder
+  Arbeitspapier haben Anrede, Gruss, «Besten Dank für …», «Ich erlaube mir …» und der warme
+  Schluss nichts verloren (belegte Haupt-Drift des Modalitätswechsels, Fidelity 260801).
 
 ## Sie-Register (belegt KISPI)
 - Hoeflich-bittend: «**Darf ich Sie bitten** uns Ihr Angebot … einzureichen», «**stehe ich
@@ -2794,3 +2810,31 @@ derselbe Flüchtigkeits-Slip wie Batch 82, im schnellen Nachfass). Anreden: «Ho
 3× (Sie-Default), «Lieber Gruss» 1×, dazu «Bester Gruss» und «Danke und Gruss» im Du-Faden —
 das ganze belegte Kurzgruss-Repertoire in einem 14-Tage-Fenster. Tausender-Apostroph 0,
 Ellipsen 0, «%» nicht vorkommend.
+
+## Erstes Dokument-Gold: die Gattung Eigendokument hat eine eigene Notation (belegt Fidelity 260801, authentisch)
+
+Erster Modalitätswechsel des Twin-Harness weg von der Mail — Quelle sind zwei
+JANS-Eigendokumente aus Projekt 2407 Regensdorf, Holenbachstrasse 45-55 (19.04.2024 bzw.
+undatiert 2024, beide klar vor-Claude). Die Mail-Notation trägt dort **nicht**; das ist keine
+Nuance, sondern ein anderes Schriftsystem:
+
+| Element | Mail (belegt) | Eigendokument (neu belegt) |
+|---|---|---|
+| Rahmen | Anrede · Gruss · Signatur | keiner |
+| Grundform | ausformulierter Satz | Stichwort-Gerüst, Doppelpunkt-Zuordnung |
+| Kapitel | fette Blocktitel | `01 AUSGANGSLAGE` VERSALIEN + Tab + `: Kurzbeschrieb` |
+| Offene Frage | «_ »/«–»-Bullet | **`>>>`** (eigenes Zeichen) |
+| Quelle/Grundlage | Fliesstext-Verweis | **`>`** vor Studie/Sitzungsdatum |
+| Varianten | «Variante 1/2/3» | benannte Szenarien «UMBAU»/«ENSEMBLE»/«TRANSFORMATION» |
+| Zahlen | im Satz | rechtsbündige Kolonne, Label nachgestellt |
+| Erkenntnis | Fliesstext | nummeriert («1. Erkenntnis: …») |
+
+**Echo-Prüfung negativ, beide Dokumente sind Gold:** dichte Tippfehler («Bebauuntstyp»,
+«Szenariso», «Macharkeitsstudie», «Machbarekti», «NACHBARSCAHFT», «Abgestuffte»,
+«Maumassenverteilung», «Bauköper»), Kasusfehler («mit den Themenschwerpunkte einverstanden»),
+gemischte Anführungszeichen (Guillemets «WIE» neben typografischen „UMBAU") und gemischte
+Apostrophformen (7'200 neben 1’440) im selben Absatz — ein Modell hätte all das
+vereinheitlicht. Handgetippt.
+
+Quellen: `AR - 03 Studien/2407 Regensdorf/09_Dokumente/JANS/01_Machbarkeitsstudie/240419_Praesentationsskript_Strategische_Machbarkeit.docx`
+und `.../Architektonische_Fragestellungen/Entwerferische Fragestellungen in Bezug auf Grundriss.docx`.

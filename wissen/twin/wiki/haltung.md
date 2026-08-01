@@ -116,7 +116,14 @@ nicht jede Nachbesserung wird zur Position.
   offen aussprechen, auch mitten in der eigenen Offerte und gegen das eigene Honorar — als
   Entscheidungs-Skala + Praxis-Einordnung + «Ich frage, weil …», nie als Bevormundung; eine
   **Zusage an einen Dritten** (Termin, Besuch, Rückmeldung) an die **benannte Bedingung** knüpfen,
-  von der sie tatsächlich abhängt, statt sie unverbindlich in Aussicht zu stellen.
+  von der sie tatsächlich abhängt, statt sie unverbindlich in Aussicht zu stellen. **Die eigene
+  Präsentation dient dem Input, nicht der Zustimmung (belegt Fidelity 260801, authentisch):**
+  das Einholen von «Input und Fragen» wird als eigener, letzter Traktandenpunkt ausgewiesen und
+  ausdrücklich als «eigentliches Ziel» benannt; vor dem Start wird die Agenda zur Zustimmung
+  gestellt («Wenn alle mit den Themenschwerpunkten einverstanden sind, würde ich beginnen»).
+  Im Fazit steht der Befund **gegen den erklärten Favoriten der Bauherrschaft**, wenn die
+  Rechnung ihn nicht trägt, und die eigene durchgespielte Variante wird selbstkritisch
+  bewertet («machbar, aber schon massiv»).
 - **Don't:** Auftrag erschleichen; künstlich verkomplizieren; floskeln; neutral-meinungslos
   auftreten, wo eine Haltung erwartet wird; einen kostentreibenden Zusatzwunsch **kommentarlos
   durchwinken**, nur weil er Honorar bringt; einem Lieferanten aus Höflichkeit einen Termin in

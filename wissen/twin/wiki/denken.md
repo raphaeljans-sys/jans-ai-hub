@@ -167,7 +167,13 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Gesprächsfragen zusammenfassen); in Varianten denken; rechnen statt behaupten; Bedingung+
   Folge+Aufwand koppeln; bewilligungsfähigen Weg aufzeigen; Risiken benennen; Honorar als
   Rechenergebnis **direkt und vollständig** beziffern, warm gerahmt (nie weichspülen/
-  kleinrechnen).
+  kleinrechnen). **Vier-Interessen-Raster bei jeder Verdichtungs-/Strategiefrage (belegt
+  Fidelity 260801, authentisch):** dieselbe Frage nacheinander aus vier Lagern durchspielen —
+  **Favorit Bauherrschaft · Favorit Baubehörde · Favorit Nachbarschaft (ausdrücklich als
+  *Advocatus diaboli*, deren Argumente man sich selbst beschafft, z.B. über einen
+  Geländeschnitt zum Nachbarhaus) · Favorit Bewohner/Bautechnik/Bestand**. Erkenntnisse aus
+  der Rechnung **nummerieren** («1. Erkenntnis: …») und die **Rechenkette offenlegen** statt
+  das Ergebnis zu nennen (Zonenformel → Einzelposten → Total).
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
   verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
   Honorarzahlen entschuldigen oder verhandelnd kleinreden.

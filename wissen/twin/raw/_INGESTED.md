@@ -513,3 +513,33 @@ Vorabgleich muss **pro Kalendertag** zaehlen, nicht pro Thread — ein dicht bea
 faellt sonst komplett durch. **Naechstes Fenster:** `rj@` **15.–28.02.2026** (Batches 29–31 haben
 19.02.–28.02. ebenfalls nur stichprobenartig gelesen; der Tagesabgleich ist erneut Pflicht),
 danach die Luecken Maerz–Juni 2026 bzw. der Modalitaetswechsel auf Archiv-Dokumente.
+
+## Gold-Verbrauch Fidelity 01.08.2026 — NEUER STRANG: Dokument-Gold (Archiv, vor 2026)
+
+Erster Modalitaetswechsel weg von der Mail (Empfehlung 3/4 der Reports 260729/260730/260731).
+Anlass ist eine **gemessene** Erschoepfung des Mail-Golds, nicht mehr eine Vermutung:
+
+```
+Sent Items rj@, beforeDateTime 2025-07-04, order oldest  →  totalResultCount 2
+```
+
+Das Postfach `rj@raphaeljans.ch` beginnt am **04.07.2025**. Es existiert kein aelteres Mail-Gold;
+das vor-Claude-Fenster Juli–Dezember 2025 ist vollstaendig durchgearbeitet.
+
+**Verbraucht in Fidelity 260801** (Projekt 2407 Regensdorf, Holenbachstrasse 45-55, beide 2024,
+beide vor der Lektuere mit `grep -rin "regensdorf\|holenbach" wiki/` = **0 Belege** gegengeprueft):
+
+| Dokument | Gattung | verbraucht durch |
+|---|---|---|
+| `09_Dokumente/JANS/01_Machbarkeitsstudie/240419_Praesentationsskript_Strategische_Machbarkeit.docx` | Praesentationsskript vor der Bauherrschaft | Fidelity 260801 (Gold A) |
+| `09_Dokumente/JANS/Architektonische_Fragestellungen/Entwerferische Fragestellungen in Bezug auf Grundriss.docx` | interner Fragenkatalog | Fidelity 260801 (Gold B) |
+
+Echo-Pruefung beider: **negativ** (dichte Tippfehler, gemischte Anfuehrungszeichen und
+Apostrophformen im selben Absatz — handgetippt).
+
+**Naechstes Dokument-Fenster:** `AR - 03 Studien` weiter ruecklaufend — im selben Projekt noch
+`240221_01_Protokoll` (5 Seiten, Sitzungsprotokoll), `240408_Inhaltsverzeichnis_Machbarkeitsstudie`,
+`240313_HNF_Holenbachstrasse 45`, `240307_Todo_zeichenarbeiten`; danach die uebrigen Vor-2026-
+Studien (2001, 2002, 2103, 2304, 2305, 2306, 2408, 2409, 2410 WALD, 2411, 2412) und
+`AR - 02 Wettbewerbe` (Erlaeuterungsberichte). Lesezugriff auf die OneDrive-Bibliothek ist
+verifiziert (DOCX per `zipfile` + `word/document.xml`, keine TCC-Blockade in dieser Session).

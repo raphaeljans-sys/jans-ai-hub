@@ -427,7 +427,12 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; «Darf ich … bitten» stets
-  mit Begründung.
+  mit Begründung. **Im Eigendokument über eine Person in der Drittform «Herr <Nachname>»
+  (belegt Fidelity 260801, authentisch):** das Präsentationsskript führt den Auftraggeber als
+  «Sitzung vom 7.2.2024 mit Herrn Bopp», obwohl derselbe Kontakt in der Korrespondenz als
+  Du-Kontakt geführt wird — die Anrede-Stufe der Mail wandert **nicht** in die Drittnennung
+  eines internen Dokuments. (Einzelbeleg 2024; der Du-Status zu diesem Zeitpunkt ist nicht
+  gesichert → [[QUESTIONS]] 260801 #1.)
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»

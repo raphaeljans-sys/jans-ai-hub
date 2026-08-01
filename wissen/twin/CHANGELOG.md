@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 01.08.2026 — twin-fidelity-review: MODALITAETSWECHSEL, erstes Dokument-Gold. Gesamt-Fidelity 56.
+
+Stimme 51 · Denken 57 · Haltung 62 · Beziehung 63 · Fachsignatur 45 · Arbeitsweise 59. Der Wert
+ist **nicht** mit den Mail-Laeufen vergleichbar: gemessen wurde erstmals ein JANS-Eigendokument
+statt einer Mail. Anlass ist die jetzt **gemessene** Erschoepfung des Mail-Golds (Sent Items rj@
+beginnen am 04.07.2025, `totalResultCount 2` vor diesem Datum) — der seit 260729 dreimal
+empfohlene Modalitaetswechsel. Gold: Praesentationsskript «Strategische Machbarkeit» (19.04.2024)
+und Fragenkatalog «Entwerferische Fragestellungen» aus Projekt 2407 Regensdorf, beide vor der
+Lektuere mit null Wiki-Belegen gegengeprueft, Echo-Pruefung negativ (dichte Tippfehler, gemischte
+Anfuehrungszeichen/Apostrophformen im selben Absatz). **Kernbefund: der Zwilling ist ein
+Mail-Zwilling** — ohne Mail-Rahmen schreibt er weiter Mails. Das Eigendokument hat bei Raphael
+eine **eigene Notation**, die nirgends beschrieben war: kein Anrede-/Gruss-Rahmen, Stichwort-
+Geruest statt Saetzen, `01 AUSGANGSLAGE` VERSALIEN + Tab + «: Kurzbeschrieb», **`>>>`** fuer die
+offene Frage, **`>`** fuer Grundlage/Sitzungsdatum, benannte Szenarien («UMBAU»/«ENSEMBLE»/
+«TRANSFORMATION») statt «Variante 1/2/3», Zahlenkolonne, nummerierte «1. Erkenntnis». Weitere
+neue Marker: **Vier-Interessen-Raster** (Bauherrschaft · Baubehoerde · Nachbarschaft ausdruecklich
+als *Advocatus diaboli* · Bewohner/Bautechnik), Praesentationsziel «Input und Fragen» als eigener
+letzter Traktandenpunkt + Agenda-Zustimmung vor dem Start, Fazit gegen den erklaerten Favoriten
+der Bauherrschaft, Baumassenziffer-Mechanik (W2.2 x Flaeche, +0.3 Arealueberbauung, «stille
+Reserven»), Vokabular Abstandsbild/Mehrhoehenzuschlag/Spaennerzahl/subsidiaere
+Tragwerksmassnahmen, jede entwerferische Frage an eine Rechts-/Schutzgroesse gekoppelt, Drittform
+«Herrn Bopp» im Eigendokument trotz Du-Kontakt (Einzelbeleg, mit Vorbehalt). Geaendert: Do/Don't
+aller **sechs** Facetten, Beleg-Abschnitt in `wiki/stimme.md`, QUESTIONS Runde 260801 (5 Fragen),
+`raw/_INGESTED.md` (Gold-Verbrauch verbucht — Empfehlung 1 aus 260731 erstmals angewandt, plus
+neuer Strang Dokument-Gold), `rules/jans-dna.md` neu kompiliert. Report:
+`outputs/2026-08-01_fidelity-modalitaetswechsel.md`.
+
 ## 01.08.2026 — twin-mail-training Batch 84 (Luecken-Sweep rj@ 01.–14.02.2026)
 
 Fenster vollstaendig gelistet (123 Sent Items im Februar, erste Haelfte bearbeitet), Vorabgleich
