@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 02:34:26
+Stand: 01.08.2026 02:44:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:34)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 02:34:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 49b1261a nas-selfcommit: 3 Datei(en) 2026-08-01 02:30
+- add6e681 grobkosten Run 12: Neuwert-Richtwerte Bauklasse I-VI aus Schaetzungsanleitung Kap.5 extrahiert und teuerungsnormalisiert (letzter offener Run-6-Kandidat aus IMMO-03 KNOW-HOW)
