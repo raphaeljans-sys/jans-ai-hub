@@ -4,6 +4,100 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-01 07:15 — STILL (keine Mail)
+
+Verbrauch teuer/total je Station (Mio), Messung 07:12–07:20, Duplikate über
+(message.id, requestId) ausgeschlossen:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total |
+|---|---|---|---|---|
+| 27.07. | 18.73 | 556.45 | 7.77 | 178.32 |
+| 28.07. | 8.35 | 191.59 | 2.16 | 53.74 |
+| 29.07. | 9.37 | 333.30 | 2.05 | 59.73 |
+| 30.07. | 12.15 | 430.38 | 3.93 | 73.22 |
+| 31.07. (voll) | 4.79 | 127.57 | 1.32 | 45.51 |
+| 01.08. (bis 07:12) | 2.05 | 68.61 | 0.41 | 14.07 |
+
+Kombiniert teuer: 27.07. **26.50** · 28.07. **10.51** · 29.07. **11.41** · 30.07. **16.07** ·
+31.07. **6.11** · 01.08. bis 07:12 **2.46 Mio**. Kriterium (b) nicht erfüllt: kein Tag über
+35 Mio, keine zwei Folgetage über je 18 Mio. **Der 31.07. ist mit 6.11 Mio der niedrigste
+Tageswert der Woche** und liegt am unteren Rand des Drosselphasen-Bands (Referenz MacBook Pro
+3–15 Mio teuer/Tag: 4.79). Die Reihe fällt seit dem 30.07. Nachtrag zum letzten Eintrag: die
+dort für den 31.07. genannten 1.75/0.43 waren der Teiltag bis 07:15, der volle Tag schliesst
+mit 4.79/1.32.
+
+**Blockade-Status: SAUBER.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429, jeweils in Verbindung mit einem Limit-Textmuster) über
+das 26-h-Fenster: **0 Ereignisse auf beiden Stationen**. Kein 5-Stunden-Limit, kein Wochen-Limit.
+Kriterien (a) und (c) nicht erfüllt.
+
+**Operative Briefings: ALLE ERREICHT.** `logbuch-radar` lief heute 06:55–07:12 (204 Zeilen,
+87 Turns) und schliesst mit nachgeführtem Register und Journal (Commit `5e00444d`).
+`hub-chef-taeglich` lief zuletzt 31.07. 08:39–09:21; am Sitzungsprotokoll nachgemessen, dass die
+Briefing-Mail tatsächlich rausging (osascript-Ergebnis «GESENDET», nach `korrektur` und
+twin-Fidelity 89) — der heutige 08:35-Slot war zum Messzeitpunkt noch nicht fällig, ebenso
+`mahnwesen-verzugscheck` (08:05) und `zahlungsabgleich-check` (08:23), beide zuletzt am 31.07.
+mit Deliverable. Kriterium (d) nicht erfüllt.
+
+**Radar-Herzschlag: LEBT.** Beide Signale frisch: eine Session mit dem Opener
+`vollgas-chef-radar` lief **01.08. 00:58–01:00** (also vor 6.2 h, im 4-h-Takt, davor 20:58 und
+16:58), und RADAR.md trägt den Dateistand **31.07. 22:59** (vor 10.2 h). Beides innerhalb der
+12-h-Schwelle, Kriterium (e) nicht erfüllt. Anmerkung: der 00:58-Lauf hat RADAR.md nicht mehr
+geschrieben und schliesst mit einem englischsprachigen Zwischenstand — Herzschlag vorhanden,
+Sprachvorgabe dort verletzt.
+
+**Destillat-Aufsicht (sechste Erhebung) — Ertrag bewegt sich, die Front steht seit zwei Tagen
+still, und das Inventar wird von den Läufen nicht mehr nachgeführt:**
+- (a) Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, `--stand` weist **32 offene
+  Dateien** aus — unverändert seit dem 30.07. Marker **147 `[-]` · 33 `[ ]` · 22 `[t]` ·
+  16 `[x]`**, exakt wie in der letzten Erhebung. Dateistand des Inventars
+  `training/bauprodukte-inventar.md` weiterhin **30.07. 13:34**, also inzwischen **42 h
+  unberührt**, obwohl in dieser Zeit zwei Artikel fortgeschrieben wurden. Der am 31.07.
+  gemeldete Nachführungs-Rückstand hat sich verdoppelt: die Front unterzeichnet den
+  tatsächlichen Fortschritt strukturell, nicht nur einmalig.
+- (b) Ertrag: **8 inhaltliche Artikel**, alle `emerging`, **0 `established`** — die Zahl ist
+  unverändert, aber der Ertrag lief über Tiefe statt Breite:
+  `erco-lichtplanung-grundlagen.md` von S. 20 auf S. 40 fortgeschrieben (31.07. 23:33, Commit
+  `50ca4ccf`) und `bkp-261-aufzuege.md` erweitert (23:41, Commit `ab20b1d4`). Zusätzlich hat
+  der Lauf QUESTIONS Punkt 9 (Holzbau/Bekleidungen BKP 214/225/271) als **Fehlannahme**
+  korrigiert und geblockt, nachdem er die Quellordner geprüft und leer vorgefunden hat — ein
+  Negativbefund, der künftige Läufe vor derselben leeren Suche bewahrt.
+- (c) Delta-Null-Serie: **0.** Alle vier Nachtläufe seit der letzten Erhebung haben geliefert
+  (30.07. Terrazzo, 31.07. 02:38 BKP 261, 31.07. 23:33 ERCO, 01.08. 02:36 grobkosten).
+  **Messweg-Korrektur:** unter `wissen/bauprodukte/outputs/` liegt seit dem 28.07. kein
+  Lauf-Report mehr (nur der heutige Wissenscheck-Health-Check) — der Loop dokumentiert
+  ausschliesslich in `CHANGELOG.md` und im Lauf-Journal. Die Delta-Null-Serie ist deshalb über
+  `outputs/` nicht mehr messbar und wurde ersatzweise über CHANGELOG plus
+  `logbuch/laeufe/*.jsonl` erhoben. Für den Radar: die im Task hinterlegte Drei-/Fünf-Report-
+  Regel greift an dieser Stelle ins Leere.
+- (d) Stückkosten: **31.07. 0.66 Mio teuer je Artikel-Delta** (Mac Mini 1.32 Mio / 2 erweiterte
+  Artikel), **01.08. bis 07:12 0.41 Mio** (0.41 Mio / 1 Delta, `grobkosten/kennwerte.md`).
+  Reihe bisher: 31.07. 0.66 · 01.08. 0.41.
+- Spec: `specs/bauprodukte-spec.md` liegt vor (28.07.), Spec-Gate hängt nicht. Kriterium (f)
+  nicht erfüllt — es wurden Tokens verbraucht, aber der Ertrag hat sich nachweislich bewegt.
+  Kriterium (g) nicht erfüllt: Korpus 1 (bauprodukte) ist «in Arbeit», die Queue meldet keine
+  Komplettmeldung.
+
+**Mittags-Slot 13:30 (befristeter Versuch seit 29.07.) — er liefert, und das Lauf-Gate hat ihn
+nie abgewiesen.** Drei Läufe belegt, alle rc=0 mit Ertrag: 29.07. 13:34, 30.07. 13:36
+(zusätzlich ein 12:51-Lauf), 31.07. 13:36 (fünfter Lesson-Artikel in `projekt-lessons`,
+Fokus-Bereich «Kosten & Termine» erstmals belegt). `logbuch/speicher/gate-Macmini.log` endet am
+**29.07. 22:38** — seither kein einziger Eintrag, weder Freigabe noch Abweisung. Das heisst
+nicht, dass das Gate den Slot durchgelassen hat, sondern dass die Nachtschicht das Gate
+offenbar gar nicht aufruft. Für Raphaels Entscheid nach der Woche (ab 05.08.) ist damit belegt:
+der Slot liefert, aber er läuft ungeschützt.
+
+**Nebenbefund zum Radar (P3 aus dessen Lauf 31.07. 20:58): falsch.** Der Radar meldet, der Glob
+`~/.claude/projects/*/*.jsonl` im SKILL.md dieser Frühwarnung treffe null Dateien. Nachgemessen:
+er trifft **3'132 Dateien** auf dem MacBook Pro, die gesamte Verbrauchsmessung dieses Laufs steht
+darauf. Der P3 sollte fallengelassen und nicht weiter mitgeschleppt werden.
+
+**Speicher (vm_stat frei+inactive+purgeable, Druck via sysctl):** MacBook Pro 5'790 MB / Druck 1,
+Mac Mini 9'259 MB / Druck 1. Beide normal.
+
+**Meldeentscheid: keine Mail.** Keines der Kriterien (a) bis (g) erfüllt. Letzte Mail dieser
+Frühwarnung: **27.07.2026 21:45** (Wochenlimit-Totalausfall) — seither still.
+
 ## 2026-07-31 07:15 — STILL (keine Mail)
 
 Verbrauch teuer/total je Station (Mio), Messung 07:15, Duplikate über (message.id, requestId)
