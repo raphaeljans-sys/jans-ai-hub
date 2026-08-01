@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 07:02:57
+Stand: 01.08.2026 07:13:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 07:02:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1c567971 nas-selfcommit: 2 Datei(en) 2026-08-01 07:00
+- 5e00444d logbuch-radar 01.08.2026: Register + Journal nachgefuehrt (Termine 31.07. geschlossen, RE-00101 im Verzug, 3 neue Zeilen: Prencipe SIA-Normen, Swisscom-Karte, Mail-Vorfilter blind auf mail@)
