@@ -5,6 +5,92 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-01 — Hub-Chef 08:39 (planmässig, mit Befund, Briefing versendet)
+
+**Signale:** Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-Destillat 01.08.
+(10 Themenblöcke), `mail-vorfilter.sh 26` plus ein Gegenlauf mit 60 h, die Apple-Mail-
+Kontenliste direkt abgefragt, bexio `--verzug` und `--abgleich`, M365-Kalender 8 Tage,
+Sync- und Remote-Queues, die heutigen Loop-Outputs. Der Radar hatte um 07:12 gemailt.
+**Im Mailfenster ist seither nichts eingegangen** — jüngster Fremdeingang bleibt
+M. Prencipe 31.07. 16:55, danach nur zwei Werbemails auf iCloud. Die Operative ist damit
+unverändert; dieses Briefing trägt zwei **interne** Befunde.
+
+**Befund 1 — Korrektur des eigenen Radar-Briefings von heute früh.** Der dort als
+wichtigster Methodikbefund gemeldete «blinde Mailkanal» auf `mail@raphaeljans.ch`
+existiert nicht. Am Script nachgemessen: `scripts/mail-vorfilter.sh` führt in Zeile 30
+eine Namensliste **inklusive** `Inbox`, `Sent Items`, `Sent Messages`, und jeder Zugriff
+steht in einem `try` — er kann am Mailbox-Namen gar nicht scheitern. Der Gegenlauf mit
+60 h liefert das Konto prompt mit `Inbox` (3 Zeilen) und `Sent Items` (1 Zeile). Die null
+Zeilen im 26-h-Extrakt hatten einen trivialen Grund: mail@ hatte in diesem Fenster keine
+Mail, der jüngste Eingang lag um 31.07. 02:09 und damit vor dem Cutoff von 06:40. Ein
+Nullbefund war als Defektbeleg gelesen worden. Alle sechs Konten gegen die Namensliste
+geprüft; einzige reale Lücke ist `Sent Mail` bei `brunnengold@gmail.com`, unerheblich,
+weil Gmail nicht verwendet wird. **Keine Script-Änderung** — der Fix hätte an einem
+funktionierenden Script angesetzt und die Registerzeile hätte eine Phantom-Lücke auf
+genau dem Konto behauptet, das den UBS-/AG-Gründungsstrang trägt.
+
+**Befund 2 — die hub-weite ae/oe-Drift hat eine Ursache, und sie ist behoben.** Der
+Monats-Wissenscheck (20 KB-Health-Checks, heute gelaufen und vom Radar noch nicht
+ausgewertet) meldet ae/oe-Ersatzschreibungen in **13 von 20 KBs**: immobilienbewertung
+831, normen 620, baurecht 455, architekten-synobsis 175, wettbewerbs-dna 151,
+planungsgrundlagen 125, claude-code 66, auflagebereinigung 46, kunde-bopp 10 und weitere.
+Betroffen sind ausdrücklich **frisch geschriebene** Artikel (`last_updated` 27.–30.07.).
+Die von den Checks genannte Ursache wurde **selbst verifiziert statt übernommen**
+(Rule 260729b): `dispatch-run.sh` exportiert seit dem Fix vom 21.07. `de_CH.UTF-8`
+(Z. 81/82), `claude-run.sh` hatte keinen einzigen Locale-Treffer. Der Regressionsgrund
+ist der interessante Teil: **`claude-run.sh` entstand am 29.07., eine Woche nach dem Fix
+im Geschwister-Script, und hat ihn nie geerbt** — ist aber seit Rule 260729 der
+verbindliche Einstieg aller automatischen Läufe. Der Fehler galt als behoben und lief
+weiter. Es ist kein Encoding-Schaden, sondern eine Schreibgewohnheit der ASCII-Laufumgebung;
+dieselbe Datei enthält daneben 1383 korrekte Umlaute. Verstoss gegen Rule
+`umlaute-konvention`, die ausdrücklich Vorrang hat.
+
+**Aktion (Rule 260730, erkannte Verbesserung im selben Lauf umsetzen):** Locale-Export in
+`claude-run.sh` nachgezogen, wortgleich zum Geschwister-Script samt Herkunftskommentar.
+**Beide Pfade nachgemessen** mit `env -i … LC_ALL=C` und einem Fake-`CLAUDE_BIN`: mit Fix
+`LANG=de_CH.UTF-8 LC_ALL=de_CH.UTF-8 CTYPE=de_CH.UTF-8`, Kontrollgruppe ohne Fix
+`LANG=LEER LC_ALL=C CTYPE=C`. **Bestandssweep** über `scripts/`: `arbeits-weiche.sh`,
+`multi-claude.sh`, `vollgas-runner.sh`, `wissens-trigger.sh` und `rollen-bilanz.sh` rufen
+über `claude-run.sh` und erben den Fix; `sync-task-run.sh` läuft über `dispatch-run.sh`;
+`lauf-gate.sh`, `trust-check.sh` und `sync-task-create.sh` nennen `claude -p` nur im
+Kommentar. Jeder ausführende Pfad trägt jetzt die UTF-8-Locale. Commit `dd239633` via
+`nas-commit-now.sh`, Inhalt im Ziel nachgemessen. **Offen bleibt die Altlast:** die bereits
+geschriebenen Stellen sind nicht rückwirkend korrigiert, das ist Aufräumarbeit der
+jeweiligen Lern-Loops.
+
+**Aktionen: A4** — zwei Registerzeilen (Fehlalarm geschlossen, Locale-Befund mit Messwerten)
+und dieser Eintrag.
+
+**Nebenbefund Betrieb (Umlaut-Guard):** Der Stop-Hook hat den ersten Versandversuch des
+Briefings korrekt blockiert, weil der Betreff ein ASCII-«frueh» trug. Er hat zusätzlich das
+**Zitat** des Fehlerbildes im Body angeschlagen (der Satz erklärte, dass «für» in der
+ASCII-Locale als Doppellaut geschrieben wird). Der Guard kann eine zitierte Fehlschreibung
+nicht von einer echten unterscheiden — bei einem Text, der genau über diesen Fehler
+berichtet, ist das ein garantierter Treffer. Betreff korrigiert und die Zitatstelle
+umformuliert statt den Guard umgangen; kein Handlungsbedarf am Hook, aber als Reibung
+festgehalten, falls das Thema wiederkehrt. Body nach dem Versand mit **4836 Zeichen**
+nachgemessen (Gegenprobe zum Leer-Draft-Fehler der Nacht vom 01.08.).
+
+**Guards / bewusst unterlassen:** **A1** nicht qualifiziert — RE-00087 CHF 15'000 nach
+107 Tagen auf Mahnstufe 2 ist per Whitelist immer nur Entwurf; RE-00098/99 tragen die
+laufende Frist bis 03.08.; RE-00100 bleibt gesperrt, solange die Fälligkeit in bexio auf
+30.07. steht; RE-00101 ist einen Tag überfällig und steht neben der laufenden Planlieferung
+Bohlweg. `--abgleich` lief sauber, die 19 Warnpositionen sind historisch. **A2** nicht
+qualifiziert — kein neuer, in einer Mail bestätigter Termin; die zwei Kalendereinträge bis
+08.08. stehen bereits. **A5 bewusst unterlassen** — der KISPI-Nachfass-Entwurf (id 12050)
+liegt geprüft im Postfach, eine zweite Fassung wäre Leerlauf. Keine Zahlung, keine Buchung,
+keine Löschung, kein Versand ausser dem Briefing. Kein `git` über SMB.
+
+**Lehre (Wissens-Rücklauf):** Zwei Muster derselben Familie an einem Tag. Erstens: ein
+Nullbefund ist kein Defektbeleg — «die Quelle liefert nichts» und «die Quelle ist kaputt»
+sehen im Extrakt identisch aus und müssen am Werkzeug getrennt werden. Zweitens: ein Fix
+gilt nicht dem Problem, sondern der Datei — entsteht später ein zweiter Einstiegspunkt,
+erbt er nichts, und der Befund kehrt unter neuem Namen zurück. Wer einen Fix einbaut, muss
+prüfen, ob ein Geschwister-Script existiert, und wer einen Wrapper neu schreibt, muss die
+Härtungen des abgelösten Wegs mitnehmen.
+
+---
+
 ## 2026-08-01 — Logbuch-Radar 06:55 (planmässig, ruhiger Tag, Briefing versendet)
 
 **Signale:** Register + Journal, Konversations-Destillat 01.08. (10 Themenblöcke),

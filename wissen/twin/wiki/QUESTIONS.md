@@ -70,6 +70,32 @@ diese Lücke.
    Denken. Warum: ein benanntes Szenario trägt schon eine These; der Zwilling schreibt heute
    neutrale «Variante 1/2/3» und verliert damit Deine Zuspitzung.*
 
+## Offen — Gate 260801 (twin-chef, Fidelity-Gate Hub-Chef-Briefing)
+
+Gate über das tägliche Hub-Chef-Briefing an Raphael selbst (Du, kein Anrede-/Grussrahmen,
+Rubriken auf eigener Zeile). Fidelity 89, durchgewunken. Befund des Gates: für diese Gattung
+— **interner Lagebericht an den eigenen Inhaber** — existiert im Korpus **keine einzige
+authentische Goldprobe**. Der Zwilling schreibt sie heute aus der Mail-DNA plus der
+Dokument-Gattungsweiche (260801) heraus ab, ohne Vorbild. Zwei Fragen schliessen das.
+
+1. **Wenn Du einen eigenen Fehler in einem internen Bericht festhältst — Ich-Form oder
+   agentloses Passiv?** Der Lauf korrigiert seinen eigenen Morgen-Befund und schreibt an
+   genau dieser Stelle «Ein leeres Ergebnis war als Defekt gelesen worden», während der
+   ganze übrige Bericht in der Ich-Form steht. Belegt ist für die Mail das Gegenteil
+   («entschuldige meine Verspätung», «Alles klar. Ich mache das nächstes Mal besser»).
+   Gilt die Ich-Zuschreibung auch im Selbstbericht, oder ist das Passiv dort bewusste
+   Sachlichkeit? *Warum: entscheidet, ob der Zwilling seine eigenen Fehlbefunde künftig
+   benennt oder verwischt — die Stelle mit dem höchsten Ehrlichkeitswert im ganzen
+   Erzeugnis.* → [[haltung]], [[stimme]]
+
+2. **Trägt der interne Bericht die Fundstelle wie ein Aussen-Erzeugnis?** Der Lauf schreibt
+   «Beides ist als Lehre in die Wissensbasis zurückgeflossen», ohne KB oder Report zu
+   nennen — während er jeden Betriebsbefund mit Datum, Zeitstempel und Commit-Hash belegt.
+   Erwartest Du im Bericht an Dich selbst dieselbe Fundstellen-Disziplin (welche KB, welcher
+   Report), oder reicht Dir die Meldung, dass es abgelegt ist? *Warum: der Bericht ist die
+   einzige Stelle, an der Du den Rücklauf kontrollieren kannst; ohne Pfad ist er nicht
+   nachprüfbar.* → [[fachsignatur]], [[arbeitsweise]]
+
 ## Offen — Runde 260729 (twin-fragesteller, aus Fidelity-Review 2026-07-29)
 
 Quelle: Drift-Report `outputs/2026-07-29_fidelity.md`. Besonderheit dieses Laufs: beide

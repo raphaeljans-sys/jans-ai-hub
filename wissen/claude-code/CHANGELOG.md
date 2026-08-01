@@ -2,6 +2,22 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-01 (Hub-Chef 08:39) — Locale-Regression: neuer Wrapper erbt keine Härtung
+
+- **[befund, Ursache behoben] Report abgelegt:** `outputs/2026-08-01_locale-regression-wrapper-erbt-keine-haertung.md`.
+  Der Monats-Wissenscheck fand ae/oe-Ersatzschreibungen in 13 von 20 KBs (immobilienbewertung 831,
+  normen 620, baurecht 455). Ursache selbst am Script verifiziert statt übernommen: `claude-run.sh`
+  entstand am 29.07.2026, eine Woche nach der Locale-Härtung in `dispatch-run.sh` (21.07.), und hat
+  sie nie geerbt — ist aber seit Rule 260729 der verbindliche Einstieg **aller** automatischen Läufe.
+  Fix nachgezogen, beide Pfade gegen eine C-Locale-Umgebung nachgemessen, Bestandssweep über alle
+  `claude -p`-Aufrufer, Commit `dd239633`.
+- **[lehre] Drei verallgemeinerbare Punkte:** (1) ein Fix gilt der Datei, nicht dem Problem — ein
+  später entstandener zweiter Einstiegspunkt erbt nichts, und die Chronik sagt trotzdem «behoben»;
+  (2) ein Nullbefund ist kein Defektbeleg (Gegenstück am selben Tag: der «blinde Mailkanal» auf
+  `mail@` war ein leeres Zeitfenster, nicht ein defektes Script); (3) der Bestandssweep gehört zum
+  Fix, sonst ist die Aussage «alle Pfade sind sauber» unbelegt.
+- **[offen] Altlast:** die bereits geschriebenen ae/oe-Stellen sind nicht rückwirkend korrigiert.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F66 · G0
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Erster Health-Check dieser KB. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
