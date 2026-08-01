@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 21:52:09
+Stand: 01.08.2026 22:12:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 21:46)
@@ -12,4 +12,4 @@ Stand: 01.08.2026 21:52:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d4223b16 nas-selfcommit: 2 Datei(en) 2026-08-01 21:45
+- a1340f06 nas-selfcommit: 2 Datei(en) 2026-08-01 22:00
