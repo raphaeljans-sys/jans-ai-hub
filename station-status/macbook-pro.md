@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 01:59:00
+Stand: 01.08.2026 02:09:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:43)
@@ -12,4 +12,4 @@ Stand: 01.08.2026 01:59:00
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 762dc1fb nas-selfcommit: 8 Datei(en) 2026-08-01 01:45
+- 42575ea9 normen Run 41: Lignatec Runde 10 (Seiten-Inventur + Fliesstext Kap. 1-4, 6 Kernbefunde), Zweitverifikation GVZ-RWA und SWKI VA103-01 (12-WB/h-Aussage war falsch), 13 neue Destillate PL-02 Kern-Nachtrag
