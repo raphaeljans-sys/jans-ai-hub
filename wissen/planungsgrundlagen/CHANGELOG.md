@@ -2,6 +2,43 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-01 (Wartungslauf 02, maintainer) — zh.ch-Zitierregel in beide Richtungen belegt, K65 geschlossen, Connector-Pfad korrigiert
+
+- **[links] Die `www.`-Falle bei `zh.ch` geht in BEIDE Richtungen — sechs Fundstellen waren nicht
+  aufrufbar.** Am Zertifikat belegt: das Staatskanzlei-Wildcard lautet `*.zh.ch` und deckt nur EINE
+  Label-Ebene; `www.<thema>.zh.ch` liegt eine Ebene tiefer und bricht die TLS-Pruefung.
+  `energie` / `baugesuche` / `awel` / `gewaesserschutzgesetz` / `gis.zh.ch` auf die Form ohne `www.`
+  umgestellt (Weiterleitungsziele je dokumentiert), `altlasten.zh.ch` als nicht mehr tragend
+  markiert (landet auf der Startseite). Regel-Tabelle neu in `wiki/recht-norm-quellenlandkarte.md`
+  als Gegenstueck zu R75. → K66
+- **[links] K65 im Browser geschlossen — beide Adressen sind wirklich tot, keine Bot-Sperre.**
+  `leitungskataster.upc.ch` liefert 403 auch im echten Browser; `www.upc.ch` hat ein am
+  **29.06.2026 abgelaufenes** Zertifikat (Betreiber heute Sunrise, Nachfolge-URL nicht belegt und
+  nicht behauptet); `solarrechner.ch` hat gar kein verwertbares Zertifikat — belegter Nachfolger
+  `www.energieschweiz.ch/tools/solarrechner/`. → `wiki/kartenportale-werkleitungskataster.md`,
+  `wiki/energie-pv-eignung-typenwahl.md`
+- **[links] Vier Adressen brauchen zwingend `www.`** (`www.gwr.admin.ch`,
+  `www.housing-stat.ch/files/881-2200.pdf` = GWR-Merkmalskatalog v4.2 und tragende sources-Zeile,
+  `www.geo.lu.ch/landschaftsmodell/`, `www.procap-bauen.ch` mit Zertifikatsbruch). → K67
+- **[connector] Der dokumentierte Connector-Pfad war falsch und liess die Connectoren als defekt
+  erscheinen.** `node connectors/geo-zh.mjs …` endet mit MODULE_NOT_FOUND — die Connectoren liegen
+  unter `skills/planungsgrundlagen/connectors/`. An fuenf Stellen korrigiert (davon zwei
+  Kopiervorlagen im Bash-Block der SKILL.md). Der Auftragstext des Scheduled Task traegt denselben
+  Fehler, ist aber stationslokal — als Entscheid-Posten fuer Raphael im Report vermerkt. → E17
+- **[tooling] NEU `wissen/tools/link-frischecheck.sh`** — Erreichbarkeits-Check je KB, Schwester von
+  `wiki-konsistenz.sh`. Drei Extraktionsfallen fest eingebaut, alle in diesem Lauf real aufgetreten:
+  Adressen ohne Protokoll (sonst 30 statt 258 Treffer), Umlaute im Hostnamen (sonst Phantom-Hosts
+  `rich.ch`/`ude.ch`/`sserschutzgesetz.zh.ch`), Schraegstrich als Prosa-Trenner. Getestet vor der
+  Ablage (Hilfe/Bedienfehler/unbekannte KB/realer Lauf). → E18
+- **[connector] Funktionstest 5 von 5 gruen**, jeder Benchmark-Wert identisch zum Wartungslauf 01
+  (EGRID CH879777718909 · W/1.5 · BMZ 1.5 · GH 4.5 · 7 Baulinien · 33 Behoerden-Dokumente aktuell).
+  E11/E12/E14/E15 nachkontrolliert und haltend; E13 unveraendert bei einem Treffer
+  (`connectors/bexio.mjs`, Entscheid-Posten Raphael).
+- **[quellbestand] 30. Erschoepfungsbestaetigung** — 0 neue Inhaltsdateien (979 / 2'503 / 152 / 317).
+  Zaehlfalle dokumentiert: eine rohe `find`-Zaehlung meldet +1 je Ordner, das ist die versteckte
+  OneDrive-Sync-Markierung, kein Material. Keine Reaktivierung als grower.
+- Report: `outputs/2026-08-01_wartung-02.md`
+
 ## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — BZO Art. 11 Stadt Zuerich stand im vorrevidierten Wortlaut, toter WsG-Pfad korrigiert
 
 - **[widerspruch] `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` schrieb Art. 11 Abs. 1 BZO
