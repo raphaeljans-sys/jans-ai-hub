@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 02:39:30
+Stand: 01.08.2026 02:59:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 02:39:30
 - keine
 
 ## Hub-Git-Stand (NAS)
-- add6e681 grobkosten Run 12: Neuwert-Richtwerte Bauklasse I-VI aus Schaetzungsanleitung Kap.5 extrahiert und teuerungsnormalisiert (letzter offener Run-6-Kandidat aus IMMO-03 KNOW-HOW)
+- 8a7a8a69 nas-selfcommit: 2 Datei(en) 2026-08-01 02:45
