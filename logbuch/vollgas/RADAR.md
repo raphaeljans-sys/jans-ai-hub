@@ -39,6 +39,68 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-01 00:58 — [FREI] Drei belegte Lieferungen im Fenster; zwei Takt-Kollisionen am Monatsersten korrigiert; Speicher unter der Gate-Schwelle
+
+**Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 31.07. 20:58, dieser Lauf 01.08. 00:58
+— 4,0 h bei 4-h-Takt, siebter planmaessiger Lauf in Folge.
+
+**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK». Weder
+5-Stunden- noch Wochen-Limit.
+
+**Feuermechanismen: konsistent, keine Abweichung gegenueber 20:58.** MacBook Pro: geladen nur die
+operativen Jobs; `vollgas-supervisor` und `vollgas-monitor` weiterhin ungeladen und als
+`*.disabled-260729` geparkt, `aihub.runner` als `.disabled-260728`. Mac Mini: geladen
+`ch.jans.nachtschicht` und `ch.jans.training-energie`, `training-normen` und `training-plg` korrekt
+ungeladen, `vollgas-supervisor` dort ebenfalls `.disabled-260729`. Registry gegengelesen: 31 Tasks,
+kein Doppelfeuer. Der stehende Entscheid Raphaels vom 30.07. ist gewahrt — der Runner blieb
+unberuehrt.
+
+**Liefer-Delta: drei echte Lieferungen, alle rc 0. Keine Delta-Null-Serie, keine Ruecktaktung
+faellig.**
+- 22:52 **Energie Run 120**: 7 neue Destillate (Sanierungsetappen, R744/CO2, Hochtemperatur-WP,
+  Fernkaelte, Minergie-Areal, WP-Sperrzeiten, Aufzug), Wiki-Artikel `umweltwaerme-gewaesser`,
+  FAQ F190–F196. 1420 s, 36 Turns.
+- 23:34 **Nachtschicht `bauprodukte`**: ERCO-Ratgeber von S.20 auf S.40 fortgeschrieben; QUESTIONS
+  Punkt 9 (Holzbau/Bekleidungen BKP 214/225/271) als Fehlannahme erkannt und geblockt — die
+  Quellordner sind leer, kuenftige Laeufe wiederholen die leere Suche nicht mehr. Commit `50ca4ccf`.
+- 23:51 **Wissens-Chef Run 22**: Cross-KB-Pruefung des Zuwachses seit Run 21 (31 Agenten, 16 von 25
+  bestaetigt) — SZ-Konzessionsschwelle korrigiert, SIA-2056-Zuschreibung berichtigt, StrAV-Auftrag
+  ersetzt, BZO Art. 11 auf amtlichen Wortlaut, toter WsG-Pfad an 18 Stellen bereinigt.
+
+Seit 00:00 nur Selfcommits mit exakt `station-status/*` — am Diff geprueft, auftragsgemaess nicht
+als Arbeit gezaehlt.
+
+**Massnahme: zwei Takt-Kollisionen am Monatsersten korrigiert.** Heute ist der 1., damit fallen
+drei Monats-Tasks in ein Nachtfenster, das die taeglichen Loops schon fuellt. Zwei Slots lagen
+unter der dokumentierten Taktentzerrung von min. 2 h:
+- `wissenscheck-monatlich` lag mit 07:00 nur **6 Minuten** hinter dem operativen `logbuch-radar`
+  (06:54) und 14 Minuten vor der `vollgas-fruehwarnung` (07:14). Ein Monats-Audit darf dem
+  Morgenbriefing nicht den Speicher wegnehmen. **Verlegt auf 19:30 am Monatsersten.**
+- `synergie-lauf-monatlich` lag mit 04:40 nur **26 Minuten** hinter
+  `planungsgrundlagen-wartung` (04:19). **Verlegt auf 21:40 am Monatsersten** (130 Min Abstand zu
+  wissenscheck, 91 Min zu wissens-chef 23:11).
+
+Beide sind Audit-Tasks, kein operatives Briefing wurde angetastet; das Abendfenster des
+Monatsersten war frei. `planungsgrundlagen-wartung` bleibt bei 04:19 und hat damit 40 Min Abstand
+nach vorne und 85 Min nach hinten.
+
+**P1 — Speicher am MacBook unter der Gate-Schwelle.** Gemessen 1,70 GB (free+inactive+purgeable)
+gegen die 3-GB-Schwelle des Lauf-Gates, Swap 2,55 von 4,00 GB belegt; Druckstufe 1 (normal), also
+noch kein akuter Engpass. Heute Nacht feuern auf dieser Station `normen-training-nacht` 01:27,
+`twin-mail-training` 03:39, `planungsgrundlagen-wartung` 04:19 und `twin-fidelity-review` 05:44 —
+App-Tasks laufen ungegated durch. Endet einer dieser Laeufe ohne Ergebnis, ist der Speicher der
+erste Verdacht, nicht die Loop-Logik. Beobachtung fuer den 04:57-Lauf.
+
+**P2 — PL-02-OneDrive-Zugriffsblockade (`EDEADLK`), unveraendert.** Aus Energie Run 120 erneut
+selbst nachgetestet und bestaetigt; der gepruefte Fallback `brctl download` wurde als untauglich
+verworfen (iCloud-spezifisch). Bekannt seit Run 119, braucht Raphael (Festplattenvollzugriff bzw.
+SharePoint-Fallback). Keine Wiederholungsmail — der Befund ist bereits gemeldet.
+
+**P3 — Verifikationsstufe Energie Run 120 verkuerzt.** Der Lauf fuhr budgetbedingt einen leichten
+Spot-Check statt des vollen 2–3-Agenten-Adversarial-Panels aus dem PROGRAMM.md und hat das selbst
+offengelegt; Nachholung fuer die drei established-Kandidaten ist in `wiki/QUESTIONS.md` vorgemerkt.
+
+---
 ## 2026-07-31 20:58 — [FREI] Abendfenster planmaessig ohne getakteten Lern-Lauf, kein Leerlauf-Befund; naechster Ertrag ab 23:11 erwartet
 
 **Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 16:58, dieser Lauf 20:58 — 4,0 h bei
