@@ -53,6 +53,16 @@
 - **S41-7 Impulsventilatoren (Jet-Fan, Ziff. 2.5.3) fehlen** — heute die übliche Bauart in
   Tiefgaragen; Funktionsnachweis mittels Simulation zwingend.
 - **S41-8** Ob die französische Parallelfassung von der deutschen abweicht — nicht gediffed.
+- **S41-9 (P2, Korrektur 01.08.2026, Ultra-Code-Review): Grenzfall exakt 100 m² ungeklärt.**
+  `outputs/2026-07-31_normen-nacht-run40.md` (Abschnitt 3.2) und das Destillat selbst formulieren
+  den Anwendungsbereich als «gilt ab 100 m²» / «Kleingaragen unter 100 m² gilt sie nicht»,
+  während dieselbe Quelle die Garagentypen als «Kleingarage bis 100 m², Mittelgarage
+  100-1'000 m², Grossgarage über 1'000 m²» definiert (Ziff. 1.1.1). Bei exakt 100 m² ist damit
+  unklar, ob die Richtlinie greift (Kleingarage «bis 100 m²» wäre eingeschlossen) oder nicht
+  (Anwendungsbereich «ab 100 m²» wäre ebenfalls eingeschlossen — beide Lesarten kollidieren).
+  Diese Session hat keinen Zugriff auf das Original (SWKI VA 103-1, OneDrive PL-02, Ziff. 0.1.2/
+  1.1.1) und entscheidet den Grenzfall NICHT selbst. Am Original zu klären, dann Destillat und
+  Run-40-Report-Verweis hier schliessen.
 
 ### Hindernisfreies Bauen (neu aufgenommener Bestand)
 - **H41-1** Schlagen § 239 PBG und § 34 BBV I heute auf **SIA 500:2009** durch, oder verweist
@@ -108,35 +118,48 @@ in den Runden 6-8 und für die Taktungsfrage bedeutsam.
    Destillat gediffed, und eine **Seiten-Inventur nach dem Muster `training/l41-seiteninventur.md`**
    existiert für den Lignatec nicht. Das ist die nächste Methode auf einem noch ungeprüften Teil.
    Erst danach ist die Frage redlich zu beantworten.
-2. **N-R40-1 (P1): zweite Runde für `gvz-rwa-parkhaus-einstellraum.md`.** Die Matrizes 6.1/6.2
-   sind vom Hauptprozess am Original neu gefasst worden, nachdem die Erstfassung die diagonal
-   zweigeteilten Sprinkler-Zellen bei 601-1200 m² falsch aufgelöst hatte. Die Neufassung hat noch
-   niemand unabhängig geprüft. Dringlich, weil das Merkblatt direkt in die Parkhaus-Beratung geht.
-3. **N-R40-2 (P1): zweite Runde für `swki-va103-01-2017.md`** — gleiche Lage. Zusätzlich sind
-   **65 von 110 Seiten ungelesen**, darunter die Anhänge C/D/E (Rechenformulare,
-   Anwendungsbeispiele, Simulationsmethodik), die für eine Anlagenauslegung die eigentliche
-   Grundlage sind. Zwei Refuter-Befunde (Zuordnung Zu-/Abluftgitter zu Kap. 2.5.2; Rolle der
-   12-WB/h-Schwelle im Entscheidungsdiagramm) sowie die Fussnote S. 62 zu VA104-01 sind im
-   Destillat als **ungeprüft** markiert und noch nachzumessen.
-4. **N-R40-3 (P3): Grauton in Tabelle 2 des Lignatec ungeklärt.** In den Zeilen R30/EI30/REI30,
-   R60/EI60/REI60 und EI60-EI30(nbb) sind Deckschicht und Stiel messbar grau unterlegt
-   (Median-RGB 177/180/179 gegen 240/245 bei identischem Muster in «Keine Anforderung»). Die
-   Legende auf S. 5 kennt keine getönte Variante. Der Effekt ist konsistent (immer Deckschicht +
-   Stiel, nie das Dämmstofffeld), seine Bedeutung aus der Quelle nicht ableitbar — grafische
-   Hervorhebung oder Druck-/Scan-Effekt. Nicht gedeutet.
-5. **N-R40-4 (P3): Fassungsstand Suva 67012.d «Checkliste Böden».** Im Fliesstext steht kein
-   Ausgabedatum — am Original bestätigt, kein Übersehen. PDF-Metadaten nennen CreationDate
-   23.01.2006 und ModDate 08.08.2007, das ist aber kein Fassungsbeleg. Nur über suva.ch/waswo
-   klärbar.
-6. **Bookkeeping-Widerspruch zusammenführen.** Der Abschnitt vom 31.07.2026 (Wissens-Chef Run 21,
+2. **Bookkeeping-Widerspruch zusammenführen.** Der Abschnitt vom 31.07.2026 (Wissens-Chef Run 21,
    unten) führt als offene Frage, ob diese KB die restlichen `06_Richtlinien`-Bestände (GVZ, Suva,
    Suissetec, VSA, PAVIDENSA, `09_Sanitaereinrichtung`) **systematisch** abarbeitet. Das Inventar
    hat sie am 29.07.2026 bereits als Arbeitsliste aufgenommen (Entscheid Raphael). Run 40 ist dem
    Inventar gefolgt — es ist der spezifischere und gezeichnete Entscheid. Die beiden Stellen
    widersprechen sich und gehören zusammengeführt.
-7. **Rest des Kern-Nachtrags: 47 Positionen offen** (PAVIDENSA 9, `09_Sanitaereinrichtung` 14,
+3. **Rest des Kern-Nachtrags: 47 Positionen offen** (PAVIDENSA 9, `09_Sanitaereinrichtung` 14,
    BKZ 4, lose Merkblätter 20). Darunter mit `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf`
    eine echte SN-Norm, die ins REGISTER gehört.
+
+**Hinweis Nummerierung (Korrektur 01.08.2026, Ultra-Code-Review):** Die vier Aufträge dieser
+Runde kollidierten in der ursprünglichen Nummerierung N-R40-1..4 mit vier älteren, bereits
+vergebenen Aufträgen (VSA/Aufzug-Themen, Abschnitt «31.07.2026, Run 40, Bestandsfalle» unten).
+Sie sind unten als Checkboxen unter den korrigierten IDs **N-R40-5..8** geführt.
+
+- [x] **N-R40-5 (P1): zweite Runde für `gvz-rwa-parkhaus-einstellraum.md`.** Die Matrizes 6.1/6.2
+  sind vom Hauptprozess am Original neu gefasst worden, nachdem die Erstfassung die diagonal
+  zweigeteilten Sprinkler-Zellen bei 601-1200 m² falsch aufgelöst hatte. Die Neufassung hat noch
+  niemand unabhängig geprüft. Dringlich, weil das Merkblatt direkt in die Parkhaus-Beratung geht.
+  Erledigt 01.08.2026, Run 41 → `outputs/2026-08-01_normen-nacht-run41.md`, Abschnitt 3.1
+  (alle 27 Wertzellen zellenweise nachgemessen, halten; Beschreibung der Zellteilung korrigiert
+  waagrecht statt diagonal).
+- [x] **N-R40-6 (P1): zweite Runde für `swki-va103-01-2017.md`** — gleiche Lage. Zusätzlich sind
+  **65 von 110 Seiten ungelesen**, darunter die Anhänge C/D/E (Rechenformulare,
+  Anwendungsbeispiele, Simulationsmethodik), die für eine Anlagenauslegung die eigentliche
+  Grundlage sind. Zwei Refuter-Befunde (Zuordnung Zu-/Abluftgitter zu Kap. 2.5.2; Rolle der
+  12-WB/h-Schwelle im Entscheidungsdiagramm) sowie die Fussnote S. 62 zu VA104-01 sind im
+  Destillat als **ungeprüft** markiert und noch nachzumessen.
+  Erledigt 01.08.2026, Run 41 → `outputs/2026-08-01_normen-nacht-run41.md`, Abschnitt 3.2
+  (alle 110 Seiten erschlossen, die drei Run-40-Korrekturen halten; 12-WB/h-Schwelle als
+  Entscheidungsparameter Lüftungsart widerlegt und ersetzt; Bemessungskern bleibt offen, siehe
+  S41-1 bis S41-7 unten).
+- [ ] **N-R40-7 (P3): Grauton in Tabelle 2 des Lignatec ungeklärt.** In den Zeilen R30/EI30/REI30,
+  R60/EI60/REI60 und EI60-EI30(nbb) sind Deckschicht und Stiel messbar grau unterlegt
+  (Median-RGB 177/180/179 gegen 240/245 bei identischem Muster in «Keine Anforderung»). Die
+  Legende auf S. 5 kennt keine getönte Variante. Der Effekt ist konsistent (immer Deckschicht +
+  Stiel, nie das Dämmstofffeld), seine Bedeutung aus der Quelle nicht ableitbar — grafische
+  Hervorhebung oder Druck-/Scan-Effekt. Nicht gedeutet.
+- [ ] **N-R40-8 (P3): Fassungsstand Suva 67012.d «Checkliste Böden».** Im Fliesstext steht kein
+  Ausgabedatum — am Original bestätigt, kein Übersehen. PDF-Metadaten nennen CreationDate
+  23.01.2006 und ModDate 08.08.2007, das ist aber kein Fassungsbeleg. Nur über suva.ch/waswo
+  klärbar.
 
 ### Zwei Arbeitsfallen, die diesen Lauf Zeit gekostet haben
 
@@ -197,13 +220,13 @@ bestehende Regel auf einen weiteren Herausgeber; Präzedenz ist bfu (Run 38). Re
 destillieren, obwohl die Richtlinie seit dem 1.8.2015 durch VA 105-01 ersetzt ist und `energie` das
 seit dem 25.07.2026 belegt hatte. Die Registerzeile ist billiger als der nächste Fehlaufwand.
 
-- [ ] **N-R21-1 (P2): SWKI VA 103-1 «Lüftungsanlagen für Parkhäuser» destillieren.** Das einzige
-  SWKI-Dokument im Haus (`PL - 02_Recht_Norm/06_Richtlinien/SWKI/`, Inventarzeile in
-  `training/norm-inventar.md` unverändert offen). Es ergänzt VKF-BRL 25-15 und ist unmittelbar
-  einschlägig für `wissen/planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung`, das Run 21
-  gerade mit einem Fassungs-Vorbehalt versehen hat — die Parkhaus-Lüftung ist dort materiell geführt.
-  Beim Destillieren Ausgabe und Stand **am Deckblatt** erfassen (die Registerzeile trägt bisher
-  bewusst keine).
+- [x] **N-R21-1 (P2): SWKI VA 103-1 «Lüftungsanlagen für Parkhäuser» destillieren.** Das einzige
+  SWKI-Dokument im Haus (`PL - 02_Recht_Norm/06_Richtlinien/SWKI/`). Es ergänzt VKF-BRL 25-15 und
+  ist unmittelbar einschlägig für `wissen/planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung`,
+  das Run 21 gerade mit einem Fassungs-Vorbehalt versehen hat — die Parkhaus-Lüftung ist dort
+  materiell geführt. Beim Destillieren Ausgabe und Stand **am Deckblatt** erfassen.
+  Erledigt 31.07.2026, Run 40 → `destillate/swki-va103-01-2017.md` (Inventarzeile
+  `training/norm-inventar.md` Zeile ~1267 führt es entsprechend als erfüllt).
 - [ ] **N-R21-2 (P3, Kaufentscheid Raphael): VA 105-01:2015 Volltext.** Kap. 3-6 (Zahlenwerte) sind
   kostenpflichtig und nicht im Bestand; Sachstand und Struktur liegen in `wissen/energie` destilliert
   vor. Bis zum Kauf **keine** Gültigkeits- oder Zahlenaussage aus Sekundärquellen ins Register.

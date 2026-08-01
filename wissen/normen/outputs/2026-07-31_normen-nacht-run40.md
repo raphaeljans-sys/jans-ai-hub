@@ -29,6 +29,13 @@ verlangt.
 Norm-Familien** ausdrücklich vom Weichen-Zwang aus. Dieser Task ist beides. Ein Verschieben auf
 den Mini hätte zudem den Stations-Split verletzt — SIA/VKF gehören dem MacBook.
 
+**Korrektur 01.08.2026 (Ultra-Code-Review):** Die obige Begründung überdehnt die Chronik-
+Ausnahme. `rules/betrieb-chronik.md` (Abschnitt 260731b) listet nur konkrete Scripts
+(`cron-training-mini.sh` u.a.) und die Klasse App-Scheduled-Tasks, keine pauschale Ausnahme für
+«stationsgeteilte Norm-Familien». Das Ergebnis (Weiche nicht befolgt) war dennoch regelkonform,
+weil `normen-training-nacht` als App-Scheduled-Task läuft; der Stations-Split ist dabei nur ein
+sachliches Zusatzargument, keine eigene Regel-Ausnahme.
+
 **Der Lauf hat sich zweimal selbst gedrosselt.** Bei 2.4 GB bzw. 2.9 GB freiem Speicher wies das
 Gate weitere Agenten ab; die Verifikations-Staffel wurde dann gefahren, als wieder 3.3 GB frei
 waren. Limit-Pausen sind laut Programm zulässig und kein Fehler.

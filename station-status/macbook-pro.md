@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 14:17:39
+Stand: 01.08.2026 14:27:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 14:17:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 67ca3af9 vollgas-radar 01.08. 14:12 Nachhol-Lauf: Fenster frei, Feuermechanismen konsistent; Vorlauf-Aussage zum Scheduler korrigiert (ein Nachhol-Lauf feuert doch)
+- 4107b423 twin: QUESTIONS 260801 #3 gemessen (377 DOCX) — Reflex belegt/Raster Einzelbeleg; Echo-Falle im Dokument-Archiv verankert

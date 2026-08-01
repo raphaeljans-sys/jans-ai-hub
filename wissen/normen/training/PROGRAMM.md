@@ -146,7 +146,7 @@ verallgemeinert), und einer, der eine ganze Ebene der Quelle sichtbar macht: **d
 führen drei verschiedene Legenden, und dieselbe Farbe bedeutet in Tab. 3/4 etwas anderes als in
 Tab. 5.** Das Destillat kannte nur die Tab.-5-Legende.
 
-### Ergebnis der neunten Runde (Run 39, 30.07.2026) — Abdeckung von `lignum-4-1` gemessen
+### Ergebnis der Abdeckungsmessung `lignum-4-1` (Run 39, 30.07.2026) — vollständig gemessen statt geschätzt
 
 Raphael hat die weitere Runde freigegeben; sie ist gefahren. Die vollständige Seiten-Inventur
 (Seiten 2-80 lückenlos, 184 Elemente, 5 parallele Aufnahme-Agenten) hat ergeben: **72 Nummern in
@@ -184,7 +184,7 @@ brandabschnittsbildende Bauteile, die VKF-Richtlinie «Verwendung brennbarer Bau
 zusätzlich zu beachten); die ganze Zeichnungsspalte war nie destilliert, inklusive der Aussage,
 dass R30/R60 ohne (nbb) vollständig brennbar sein dürfen; und «Decke = Dach über
 Korridor/Treppenhaus: Keine Anforderung» fehlte auf allen vier Doppelseiten — der Wert gilt nur
-für den Feuerwiderstand, Dachbelag und Fluchtweg-Seite müssen nicht brennbar sein.
+für den Feuerwiderstand, Dachbelag und Fluchtweg-Seite müssen nichtbrennbar sein (BKZ 6q.3).
 
 **Bewertung für die Taktung: weiterhin NICHT entscheidbar; Ereignis-Trigger wird nicht
 vorgeschlagen.** Nach der Methoden-Lehre ist auszuweisen, was ungeprüft blieb: der **Fliesstext
@@ -203,6 +203,48 @@ ein Agentenbefund als Fehler übernommen wird, ist zu prüfen, ob das Destillat 
 anderer Stelle** bereits führt. Sonst entstehen Scheinbefunde, und eine bestätigte Regel wird
 fälschlich als Widerspruch verbucht. Umgekehrt gilt der Ertrag: solche Beobachtungen sind
 **unabhängige Bestätigungen** und gehören als solche protokolliert.
+
+### Methodik-Pflicht 8 — Tabellen werden gerendert und abgelesen, nie per Textextraktion aufgenommen
+
+Aus Run 41 (01.08.2026), Freigabe Raphael am selben Tag. Die Regel gilt für **jede Tabelle mit
+verbundenen Zellen, Farbcodierung oder mehrspaltigen bzw. gedrehten Kopfzeilen**:
+
+> Eine solche Tabelle wird **gerendert und visuell bzw. rechnerisch abgelesen**. Eine
+> Textextraktion (`pdftotext`, auch mit `-layout`) ist dafür strukturell blind und darf nicht
+> als Aufnahme gelten — auch dann nicht, wenn die Datei einen sauberen Textlayer hat.
+
+**Warum als eigene Pflicht und nicht als Unterfall von Pflicht 6.** Pflicht 6 verlangt, die
+Abdeckung zu messen; sie beantwortet die Frage «wurde alles aufgenommen». Diese Pflicht hier
+beantwortet die andere Frage: «ist das Aufgenommene richtig zugeordnet». Ein Destillat kann
+vollständig sein und trotzdem jede Zelle falsch verorten.
+
+**Die Belege, alle aus einem einzigen Lauf — das ist der Grund für die Aufnahme.**
+1. **GVZ-Merkblatt 30.17.3:** Der Textlayer verfälscht die Vergleichszeichen — gedruckt
+   «≤ 600 m²» und «≥ 60°», extrahiert «<» und «>» — und bildet die Ober-/Unterteilung der
+   Matrixzellen überhaupt nicht ab, sondern nur eine Leseabfolge. Genau daraus entstand der
+   Erstfehler, der ein Projekt zu einem RWA-Nachweis verpflichtet hätte, den das Merkblatt gar
+   nicht verlangt. Die Frontmatter-Angabe «echter Textlayer, kein Rendering nötig» stand
+   dokumentiert im Destillat und hätte den Fehler beim nächsten Merkblatt wiederholt.
+2. **PAVIDENSA PAV-A 01:2010, Tabelle 1:** Die Tabelle arbeitet mit über mehrere Normspalten
+   **verbundenen Zellen**. Die Textextraktion ordnete drei Zeilen falsch zu — Rautiefe,
+   Ebenheit und Feuchtigkeit. Es sind Haftfestigkeits-, Ebenheits- und Feuchtegrenzwerte, also
+   Werte, die unverändert in ein Leistungsverzeichnis wandern.
+3. **PAVIDENSA PAV-A 03:2013:** Dort war die Kreuzmatrix gar nicht rekonstruierbar. Richtige
+   Konsequenz: sie wurde **nicht** wiedergegeben und als offener Auftrag geführt. Eine
+   halbrichtige Verträglichkeitsmatrix hätte ein Schutzsystem freigegeben, das mit der
+   gewählten Abdichtungsbahn nicht verträglich ist.
+
+**Verfahren.** Rendern mit normspezifischem Präfix (Pflicht 5), Zellraster bestimmen, je Zelle
+Median-RGB messen und gegen die **je Tabelle einzeln** gemessene Legende klassieren (Pflicht 6),
+bei verbundenen Zellen die Zellgeometrie ausdrücklich festhalten (von welcher Spalte bis zu
+welcher). **Rendern heisst nicht automatisch messen:** wo Kategorien sich nur über das
+Linienmuster trennen und nicht über die Farbe — belegt bei Tabelle 2 des Lignatec, wo Vollholz,
+brennbarer Baustoff und brennbarer Dämmstoff alle bei RGB ~233-243 liegen — versagt die reine
+Farbklassierung und die Sichtkontrolle entscheidet.
+
+**Und wenn es nicht geht:** Die Tabelle wird **nicht** wiedergegeben, die Lücke wird benannt.
+Eine ausgewiesene Lücke ist ein offener Auftrag; eine halbrichtig abgeschriebene Normtabelle
+ist ein Planungsfehler mit Quellenschein.
 
 ### Methodik-Pflicht 6 — Abdeckung messen, nicht nur Behauptungen prüfen
 

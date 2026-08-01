@@ -98,7 +98,7 @@ Lauf-Report: `outputs/2026-07-31_normen-nacht-run40.md`.
   war nie destilliert, inklusive der Aussage, dass R30/R60 ohne (nbb) vollständig brennbar sein
   dürfen; (3) «Decke = Dach über Korridor/Treppenhaus: Keine Anforderung» fehlte auf allen vier
   Doppelseiten — und gilt nur für den Feuerwiderstand, während Dachbelag und Fluchtweg-Seite
-  nicht brennbar sein müssen. Destillat entsprechend erweitert.
+  nichtbrennbar sein müssen (BKZ 6q.3). Destillat entsprechend erweitert.
 - **[methodik] Zwei Agentenbefunde zurückgestuft.** Die gemeldete «beidseitige gegen
   korridorseitige Verkleidung» widerspricht dem Destillat nicht — sie bestätigt die
   Run-32/33-Korrektur (Schrägstrich gegen Bindestrich) ein drittes, unabhängiges Mal. Beleg für
