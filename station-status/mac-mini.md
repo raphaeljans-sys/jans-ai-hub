@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 13:59:23
+Stand: 01.08.2026 14:09:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:46)
@@ -12,4 +12,4 @@ Stand: 01.08.2026 13:59:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8101faba nas-selfcommit: 8 Datei(en) 2026-08-01 13:45
+- db3bf5c2 twin: QUESTIONS 260801 #4 beantwortet (Zeichensystem gewachsen) — stimme entschaerft, DNA neu kompiliert

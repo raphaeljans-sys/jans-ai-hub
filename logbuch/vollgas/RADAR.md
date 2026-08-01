@@ -39,13 +39,26 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
-## 2026-08-01 00:58 — [FREI] Drei belegte Lieferungen im Fenster; zwei Takt-Kollisionen am Monatsersten korrigiert; Speicher unter der Gate-Schwelle
+## 2026-08-01 00:58/14:10 — [FREI] AUSFALL DER AUFSICHT: Lauf 13 h suspendiert, drei Radar-Laeufe stillschweigend ausgefallen — die Loops selbst lieferten in dieser Zeit 13x
 
-**Selbstkontrolle: kein verpasster Lauf.** Letzter Eintrag 31.07. 20:58, dieser Lauf 01.08. 00:58
-— 4,0 h bei 4-h-Takt, siebter planmaessiger Lauf in Folge.
+> **Lesart dieses Eintrags:** Der Lauf startete um 00:58, wurde nach den ersten Messungen
+> suspendiert und lief erst um ~14:00 weiter; abgeschlossen 14:10. Messwerte tragen deshalb ihren
+> Zeitstempel. Die Erstfassung dieses Eintrags (14:04 committet) argumentierte durchgehend mit
+> 00:58 als Gegenwart und war damit in Selbstkontrolle, Nachtfenster-Prognose und Massnahme falsch;
+> sie ist hier vollstaendig ersetzt.
 
-**Fensterzustand: FREI.** Probe mit geladener Runner-Anmeldung antwortet «OK». Weder
-5-Stunden- noch Wochen-Limit.
+**Selbstkontrolle: DREI Radar-Laeufe stillschweigend ausgefallen.** Der Takt haette um 04:57, 08:57
+und 12:57 feuern muessen. Es gibt zu keinem dieser Zeitpunkte einen RADAR-Eintrag, und die Registry
+fuehrt als `lastRunAt` des Radars weiterhin diesen 00:58-Lauf (`nextRunAt` 16:57). Ursache: die
+laufende Session belegte den Task-Slot ueber 13 Stunden, der Scheduler holt uebersprungene Laeufe
+nicht nach. **Die Aufsicht hatte damit heute ein 13-Stunden-Blindfenster** — genau der stille
+Ausfall, den die Selbstkontrolle-Klausel sichtbar machen soll. Merkposten fuer den 16:57-Lauf:
+faellt erneut eine Luecke > 7 h auf, ist die Suspendierung kein Einzelfall und der Takt bzw. die
+Laufzeitbegrenzung des Radars gehoert auf den Pruefstand.
+
+**Fensterzustand: FREI.** Probe um 00:58 antwortet «OK». Zusaetzlich indirekt belegt bis 13:35:
+saemtliche getakteten Laeufe der Nacht und des Vormittags endeten rc 0, zuletzt der
+Mini-Nachtschicht-Slot 13:30. Weder 5-Stunden- noch Wochen-Limit.
 
 **Feuermechanismen: konsistent, keine Abweichung gegenueber 20:58.** MacBook Pro: geladen nur die
 operativen Jobs; `vollgas-supervisor` und `vollgas-monitor` weiterhin ungeladen und als

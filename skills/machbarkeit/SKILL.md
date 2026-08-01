@@ -122,6 +122,34 @@ Baufeld), dann `volumen-rechner` auf dem bereinigten Baufeld, dann — bei Studi
 keine Servitute, kleine Frage) darfst du ohne Fan-out direkt rechnen — der Fan-out lohnt sich bei
 Aenderungsfaellen (Revision/Baulinie), Servituten und der Wirtschaftlichkeitsrechnung.
 
+## Pflichtschritt vor der Variantenbewertung: das Vier-Interessen-Raster
+
+Bevor Varianten gegeneinander bewertet werden, wird **jede Variante durch vier Interessenlagen
+gespiegelt**. Destilliert aus dem Praesentationsskript «Strategische Machbarkeit» (Projekt 2407
+Regensdorf, 19.04.2024, authentisch; Beleg `wissen/twin/outputs/2026-08-01_fidelity-modalitaetswechsel.md`).
+
+| Lager | Frage | Ergebnis |
+|---|---|---|
+| **Bauherrschaft** | Welche Variante favorisiert sie — und **sagt sie es ausdruecklich**? | Favorit protokollieren, mit Datum der Festlegung |
+| **Baubehoerde** | Welche Verdichtungsvariante wuerde die Behoerde favorisieren? | offene Punkte → Skill `behoerden-vorabklaerung` |
+| **Nachbarschaft** (*Advocatus diaboli*) | Was sind **die Argumente der Gegenseite**? | **Gelaendeschnitt zum Nachbarhaus** mit der Massnahme eingezeichnet |
+| **Bewohner / Bautechnik / Bestand** | Belichtung, Aussenraeume, Erschliessung, Tragwerk | offene Vorleistungen benennen (z.B. Sondierbohrungen fuer eine Aufstockung) |
+
+Zwei Regeln dazu:
+
+- **Die Nachbarschaft ist der Kniff, nicht die Pflichtuebung.** Bauherrschaft, Behoerde und
+  Bewohner denkt jede Studie ohnehin mit; die Nachbarschaft kommt in Skills und Studien sonst nur
+  als *rechtliche* Groesse vor (Grenzabstand, Servitut) — nie als Interessenlage. Dabei ist sie
+  die einzige der vier, die Einsprache erheben kann. Deshalb ist das Deliverable ein **Bild gegen
+  die eigene Variante**, keine Denkuebung: der Gelaendeschnitt wird gezeichnet, nicht erwogen.
+- **Widerspricht die Rechnung dem Favoriten der Bauherrschaft, steht das im Fazit** — im Original
+  ist der Innenhof der «klare Favorit» und das Fazit lautet trotzdem, dass er die Baumassenreserve
+  nicht ausschoepft. Die eigene durchgespielte Variante wird selbstkritisch bewertet («machbar,
+  aber schon massiv»).
+
+**Wann NICHT:** bei einer Einzelfrage ohne Variantenvergleich (Schnell-Memo) und wo es keine
+betroffene Nachbarschaft gibt (Innenumbau, freistehende Lage ohne Sichtbezug).
+
 ## Rechen-Kern (das Volumen-Modell)
 
 Die Grobformel der Studie (Details und Kantonsbesonderheiten im Agent `volumen-rechner`):
@@ -132,6 +160,13 @@ Die Grobformel der Studie (Details und Kantonsbesonderheiten im Agent `volumen-r
    PBG/BZO; die Baulinie begrenzt zusaetzlich die *Stellung*, nicht direkt die Ziffer — beide
    Restriktionen zusammen ergeben das real Baubare (Ziffer ODER Baufeld×Geschosse, je nachdem,
    was zuerst bindet). Immer beide rechnen und die **bindende** ausweisen.
+   **Zuerst pruefen, mit WELCHER Ziffer die Gemeinde arbeitet** — nicht jede BZO kennt die
+   Ausnuetzungsziffer. Arbeitet sie mit der **Baumassenziffer (BMZ)**, lautet die Kette
+   `Zone W<x> → Grundstuecksflaeche × <x> = Baumasse der Regelbebauung in m3`, plus dem
+   Zuschlag fuer die **Arealueberbauung** (Beispiel Regensdorf: W2.2, +0.3). Ausgewiesen wird
+   dann in m3, gegliedert nach Volumen Arealueberbauung / **Baumassenreserve** / **stille
+   Reserven** / Total. Wer hier reflexhaft mit der Ausnuetzungsziffer rechnet, rechnet die
+   falsche Groesse (belegter Fehlgriff, Fidelity 260801).
 3. **Geschosszahl / Hoehe** = zulaessige Vollgeschosse + Attika/Dach gemaess Zone; Gebaeudehoehe
    als Deckel.
 4. **Volumen (m3)** ≈ Baufeld-Grundflaeche × Geschosse × Geschosshoehe (Grobwert SIA 416).

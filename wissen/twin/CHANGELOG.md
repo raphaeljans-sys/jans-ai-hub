@@ -20,6 +20,29 @@ Aussen-Erzeugnis.
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 288 offene Fragen in `QUESTIONS. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
 
+## 01.08.2026 — Vier-Interessen-Raster in den Skill `machbarkeit` promoviert (Entscheid Raphael)
+
+Der im Dokument-Gold gefundene Befund wandert dorthin, wo er wirkt: **Fach-Methode gehoert in
+den Fach-Skill, nicht in die Stil-DNA** (jans-dna.md «Wann NICHT»: im Konflikt gewinnt die
+Fach-Rule fuer den Inhalt). Neu in `skills/machbarkeit/SKILL.md`: Abschnitt «Pflichtschritt vor
+der Variantenbewertung: das Vier-Interessen-Raster» (Bauherrschaft · Baubehoerde · Nachbarschaft
+als *Advocatus diaboli* · Bewohner/Bautechnik/Bestand) mit dem **Gelaendeschnitt zum Nachbarhaus
+als hartem Deliverable** statt einer Denkuebung, plus der Regel, dass ein der Bauherren-Favorit
+widersprechender Befund ins Fazit gehoert. Begruendung der Priorisierung, nachgemessen: in
+`machbarkeit`, `nutzungsstrategie` und `behoerden-vorabklaerung` kommt die Nachbarschaft
+ausschliesslich als *rechtliche* Groesse vor (Grenzabstand, Servitut), nie als Interessenlage —
+dabei ist sie die einzige der vier Lagen, die Einsprache erheben kann.
+
+**Zweitbefund im selben Zug behoben:** der Rechen-Kern des Skills kannte nur die Ausnuetzungs-/
+Geschossflaechenziffer. Die **Baumassenziffer (BMZ)** fehlte — genau der Fehlgriff, den der
+Zwilling im Fidelity-Lauf gemacht hat, steckte auch im Skill. Ergaenzt: zuerst pruefen, mit
+welcher Ziffer die Gemeinde arbeitet; bei BMZ die Kette `W<x> × Grundstuecksflaeche` + Zuschlag
+Arealueberbauung, ausgewiesen als Arealueberbauung / Baumassenreserve / stille Reserven / Total.
+
+In `wiki/denken.md` bleibt nur noch der **Denk-Reflex** («dieselbe Frage aus den beteiligten
+Interessenlagen durchspielen, inklusive der Gegenseite») mit Verweis auf den Skill — das
+ausformulierte Raster ist aus dem Grundkontext entfernt (Kontext-Diaet). DNA neu kompiliert.
+
 ## 01.08.2026 — Raphael beantwortet QUESTIONS 260801 #4: «Zeichensystem ist gewachsen»
 
 Direktantwort, `authentisch`. Das Dokument-Gold-Zeichenrepertoire («>>>» offene Frage, «>»
