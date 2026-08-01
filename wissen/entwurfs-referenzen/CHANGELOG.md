@@ -1,5 +1,9 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G0
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Kleinste KB im Bestand (2 Wiki-Dateien: INDEX + QUESTIONS, kein einziger Sachartikel). Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-27 — `wohnen-mfh-urban.json` komplett neu geschrieben (v1.0 → v2.0, Etappe-3-Baustein B5) — damit ALLE DREI Etappe-3-Bauaufgaben vollständig
 - **Vollständige Neufassung, rein aus den beiden established Etappe-3-Mustern abgeleitet**
   (`wissen/wettbewerbs-dna/wiki/muster/kennwerte-wohnungsbau.md` B6 + `jury-argumente-

@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D15 · E0 · F831 · G16
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 831 ae/oe-Verstoesse in 14 von 16 Artikeln — der hoechste Wert des gesamten Wissens-Layers. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Protokoll-Nachtrag: Ingest Cluster B, C, D und E waren nie eingetragen
 
 - **[protokollpflicht] Vier von fuenf Ingest-Reports des Laufs vom 31.07.2026 fehlten in diesem

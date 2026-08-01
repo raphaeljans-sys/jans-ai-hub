@@ -3,6 +3,10 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F0 · G28
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Diese KB hat kein `wiki/`, kein `raw/`, kein `QUESTIONS. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 — Synergie-Lauf 03 (monatlich, Scheduled Task `synergie-lauf-monatlich`)
 - **Verfahren:** leichtgewichtig inline, kein Multi-Agent-Fan-out (Drossel-Disziplin,
   `synergie-orchestrator/SKILL.md` Z. 107 ff.). Delta-Basis 26.07.–01.08.2026. Bericht:

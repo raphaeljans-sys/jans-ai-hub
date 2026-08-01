@@ -5,6 +5,48 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-01 — Logbuch-Radar 06:55 (planmässig, ruhiger Tag, Briefing versendet)
+
+**Signale:** Register + Journal, Konversations-Destillat 01.08. (10 Themenblöcke),
+`mail-vorfilter.sh 26`, danach Gegenscan direkt in Apple Mail über alle sechs Konten,
+bexio `--verzug`, M365-Kalender 8 Tage, lokaler Kalender, Sync- und Remote-Queues,
+Entwurfsordner. Das Mailfenster ist das dünnste seit Wochen: auf rj@ sechs Nachrichten
+seit 31.07. 05:00, davon zwei eigene Loop-Briefings und eine Werbemail.
+
+**Erledigt/geschlossen:** Die drei Termine des 31.07. sind verstrichen — Möblierungs-Sitzung
+11:00 (Merci hatte 08:11 abgelehnt; RJ hat die SRZ-Rückmeldung 08:40 an Merci und Spörri
+weitergeleitet, die Bauherrschaft ist damit belegt orientiert), UBS «Finanzierungen» 10:00
+(kein Ergebnisbeleg) und die eigene Türbuch-Frist 17:00 (ohne Rückmeldung verstrichen,
+Nachfass-Entwurf id 12050 liegt bereit, Body heute mit 1'280 Zeichen nachgemessen).
+Beide Terminzeilen im Register geschlossen, der Sachpunkt SRZ Ziff. 16 läuft weiter.
+
+**Befund 1 (Methodik): der Mail-Vorfilter ist auf `mail@raphaeljans.ch` blind.** Die
+Mailboxen dieses Kontos heissen englisch (`Inbox`, `Sent Items`), nicht deutsch wie bei
+outlook.com und Exchange; der Zugriff scheitert mit einem Lesefehler, und das Konto
+erschien im Extrakt mit null Zeilen trotz 371 Mails im Posteingang. Gleiche Fehlerfamilie
+wie der `ag-gruendung-monitor`-Blindfleck vom 17./19.07. — und mail@ trägt den
+UBS-/AG-Gründungsstrang. Heute folgenlos (Gegenscan 30 h und 7 Tage: nichts Relevantes).
+Neue Registerzeile, Fix am Script offen.
+
+**Befund 2: M. Prencipe bittet um SIA 118:2013 und SIA 102** (31.07. 16:54, iCloud). Am
+Bestand gegengeprüft: SIA 118:2013 liegt nicht vor, sie steht seit Run 98 auf der
+unentschiedenen Kaufliste der KB `normen`. Weitergabe lizenzierter Volltexte ist zudem
+eine Lizenzfrage. Neue Registerzeile, Antwort und Entscheid bei Raphael.
+
+**Befund 3: Swisscom meldet eine ablaufende Visa (Endziffer 1222, gültig bis 08/26)** —
+zweiter Fall nach der Dropbox-Meldung vom 26.07. Möglicherweise dieselbe Karte.
+
+**bexio:** fünf Verzugsfälle, zusammen CHF 51'400.00. RE-00087 107 Tage (Mahnung 2),
+RE-00098 + RE-00099 je 12 Tage (Frist 03.08.), RE-00100 2 Tage (sachlich keiner, A1
+gesperrt), **neu RE-00101 Tschopp CHF 6'000, 1 Tag**. Keine Mahnaktion qualifiziert.
+
+**Token-Tempo 31.07.:** MacBook Pro 473.0 Mio Tokens / 420.54 USD, Mac Mini 65.0 Mio /
+23.00 USD, zusammen 538.0 Mio / 443.54 USD API-Äquivalent.
+
+Kein Kalendereintrag, keine Buchung, keine Mail an Dritte — nur das Briefing an rj@.
+
+---
+
 ## 2026-07-31 — Hub-Chef 08:39 (planmässig, mit Befund, Briefing versendet)
 
 **Signale:** Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-Destillat 31.07.

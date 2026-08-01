@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D1 · E0 · F125 · G11
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Groesste KB im Bestand (49 Artikel) und strukturell tadellos: kein toter Backlink, kein fehlender INDEX-Eintrag, kein Frontmatter-Mangel. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Wartungslauf 02, maintainer) — zh.ch-Zitierregel in beide Richtungen belegt, K65 geschlossen, Connector-Pfad korrigiert
 
 - **[links] Die `www.`-Falle bei `zh.ch` geht in BEIDE Richtungen — sechs Fundstellen waren nicht

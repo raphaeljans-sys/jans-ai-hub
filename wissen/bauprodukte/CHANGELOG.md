@@ -1,5 +1,9 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G4
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Erster Health-Check dieser KB (angelegt 28. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Selbstwiderspruch in bkp-261-aufzuege aufgeloest, Erst-Verlinkung zu projekt-lessons
 
 - **[widerspruch] `wiki/bkp-261-aufzuege.md` schrieb aus, was es zwei Zeilen spaeter zu unterlassen

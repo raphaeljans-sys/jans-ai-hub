@@ -1,5 +1,9 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C1 · D0 · E0 · F151 · G0
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 1 Sachartikel steht 93 raw-Quellen gegenueber — das schwaechste Verdichtungsverhaeltnis im Bestand. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-30 — REAKTIVIERT als ETAPPE 4 «Vertiefung» (Entscheid Raphael, Variante B)
 - **[takt/umwidmung]** Die seit dem 27.07.2026 offene Richtungsentscheidung ist gefallen:
   **vertiefen statt verbreitern**. Kein neues Quellmaterial, keine weitere Bauaufgabe. Der

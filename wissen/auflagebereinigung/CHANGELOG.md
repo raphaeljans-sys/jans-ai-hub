@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F46 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Dreifach-Klammer-Tippfehler in `aemter-stadt-zuerich. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-31 (Hub-Chef) — Der materielle Gehalt einer Behördenantwort kann vollständig in PDF-Kommentaren stecken
 - **[neuer Report, methodisch] `outputs/2026-07-31_behoerdenantwort-in-pdf-kommentaren.md`** aus dem
   Beleg M. Gantenbein (SRZ) vom 31.07.2026 07:59 zur Auflage Ziff. 16 des BE 1171/26, Projekt 2619

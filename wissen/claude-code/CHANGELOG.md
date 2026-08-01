@@ -2,6 +2,10 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F66 · G0
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Erster Health-Check dieser KB. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-30 (methoden-radar, Wochenlauf 23:07) — Vorfilter war blind: Quellordner umbenannt
 - **[befund, behoben] `scripts/methoden-scan.sh` brach mit Exit 2 ab**, weil der Methodenordner
   von «03 Prompteingaben» auf **«00 Prompteingaben»** umbenannt wurde (mtime 30.07. 09:49). Die

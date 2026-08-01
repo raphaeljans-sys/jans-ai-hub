@@ -63,6 +63,10 @@ vorgeschlagen.** Methodik-Kandidat für das PROGRAMM (M41-1): Tabellen mit verbu
 oder Farbcodierung werden gerendert und abgelesen, nie extrahiert — dieselbe Falle hat in
 diesem Lauf zweimal zugeschlagen und beide Male harte LV-Werte getroffen.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B9 · C2 · D0 · E0 · F620 · G24
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 620 ae/oe-Verstoesse in 4 Dateien (Audit F), davon 305 allein in `synthese-din-vss-ral-fachskills. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-31 (Mac Mini Nachtschicht) — VKF-BRL 23-15 Fassungsfrage geklärt (Bring-Schuld aus `bauprodukte`)
 
 `wissen/bauprodukte/wiki/QUESTIONS.md` Punkt 10 verlangte zu prüfen, ob die Teilrevision 2017

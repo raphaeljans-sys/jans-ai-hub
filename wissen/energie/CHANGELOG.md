@@ -2,6 +2,10 @@
 
 Neueste zuoberst.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B8 · C0 · D0 · E0 · F167 · G10
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 7 Backlinks sind ueber den Zeilenumbruch zerrissen (Audit B): `BAUHERREN-FAQ. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — SZ-Konzessionsschwelle umgedreht, SIA-2056-Zuschreibung falsch, EnerG-Fassung geklaert
 
 - **[widerspruch, schwerwiegend] `wiki/umweltwaerme-gewaesser.md`: die Schwyzer Konzessionsschwelle

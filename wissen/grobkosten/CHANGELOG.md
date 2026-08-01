@@ -1,5 +1,9 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D1 · E0 · F1 · G30
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 30 Outputs seit dem letzten Check (2026-07-25) stehen 1 Wiki-Artikel gegenueber — das schaerfste Missverhaeltnis im ganzen Wissens-Layer. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Mac Mini Nachtschicht, Run 12) — letzter offener Run-6-Kandidat extrahiert: Neuwert-Richtwerte Bauklasse I–VI
 
 Letzten in `training/quellen-inventar.md` (Run 6) offen gelassenen Kandidaten aus

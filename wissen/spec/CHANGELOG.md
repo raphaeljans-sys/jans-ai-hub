@@ -1,5 +1,9 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F3 · G13
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Strukturell sauber: 5 Artikel, alle `established`, vollstaendiges Frontmatter, keine toten Backlinks, nur 3 ae/oe-Treffer, keine Deko-Symbole. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-30 — Trainingslauf 38 (Auswertungslauf): die erste maschinen-gerichtete Spec
 - **Ausgewertet: die neunte reale Spec** — Korpus-Spec `bauprodukte` (28.07.), erster Fall, dessen
   Adressat weder ein Mensch noch ein einzelnes Vorhaben ist, sondern ein **Strom unbeaufsichtigter

@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B5 · C0 · D0 · E0 · F10 · G0
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 5 Backlinks zeigen auf Artikel, die es nicht gibt (Audit B) — und zwar sowohl aus `INDEX. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — Giebelweg-12-Endstand nachgefuehrt, Baar-Querverweis gesetzt
 - **[widerspruch] `wiki/projekt-giebelweg12.md` (Abschnitt «Machbarkeitsstudie (Juni 2026)») auf den
   Endstand vom 13.06.2026 nachgefuehrt.** Vorher stand dort der am selben Tag verworfene

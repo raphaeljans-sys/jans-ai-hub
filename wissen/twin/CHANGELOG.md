@@ -4,6 +4,10 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D18 · E0 · F232 · G17
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 288 offene Fragen in `QUESTIONS. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 01.08.2026 — twin-fidelity-review: MODALITAETSWECHSEL, erstes Dokument-Gold. Gesamt-Fidelity 56.
 
 Stimme 51 · Denken 57 · Haltung 62 · Beziehung 63 · Fachsignatur 45 · Arbeitsweise 59. Der Wert

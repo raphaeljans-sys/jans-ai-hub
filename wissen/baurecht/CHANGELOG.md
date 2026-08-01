@@ -3,6 +3,10 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D0 · E0 · F455 · G22
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 455 ae/oe-Verstoesse in 12 Artikeln — der hoechste Absolutwert nach `immobilienbewertung`, und er waechst weiter. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — StrAV-Auftrag lief ins Leere, Revisionsvorbehalt 7-%-Quote gesetzt
 
 - **[veraltet, mit Steuerungswirkung] `training/PROGRAMM.md` beauftragte die Beschaffung eines

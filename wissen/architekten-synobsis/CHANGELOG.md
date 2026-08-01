@@ -4,6 +4,10 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D0 · E0 · F175 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. `THEMEN. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-28 — Kein Batch (15. Leerlauf), Deaktivierung in der Registry nachvollzogen (Mac Mini)
 Nachtlauf 02:17, Host-Weiche und NAS-Mounts erfuellt. Status unveraendert **853/853,
 0 offen** (Scan-Stand steht seit 02.07.2026 still) — kein Batch gefahren, weil es nichts

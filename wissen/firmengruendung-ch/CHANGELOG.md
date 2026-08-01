@@ -3,6 +3,10 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Sauberste grosse KB im Bestand. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-07-29 (Nachtschicht-Zyklus Mac Mini, 05:30) — Kapitalband & Fremdwährungskapital: letzte needs-verification-Lücke geschlossen
 - Neuer Artikel [[kapitalband-und-fremdwaehrung]]: Art. 621 OR (Aktienkapital in
   Fremdwährung) und Art. 653s–653v OR (Kapitalband) direkt am Fedlex-Volltext verifiziert
