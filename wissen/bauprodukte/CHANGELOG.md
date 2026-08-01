@@ -1,5 +1,23 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-01 (Mac Mini Nachtschicht, Versuchs-Slot 13:30)
+
+- **Artikel `wiki/cheminee-aufbau-hafnerarbeiten.md` geschrieben** (status `emerging`) aus
+  `284 Cheminee/Cheminee.pdf` (Detailplan Scheitlin-Syfrig+Partner Architekten Luzern,
+  Projekt «Haus Karlsen», datiert 18.06.2009, Fremdbüro-Referenz): Schichtenfolge
+  Porenbeton/Brandschutz um den Cheminée-Einsatz, Zuluft-Trennung vom Raum,
+  Kaminaufsatz-Anschluss inkl. Kupfer-Einfassung. Konstruktionsprinzip übernommen,
+  Produktnamen (Rüegg Neptun, Ohnsorg Söhne) als Beispiel Stand 2009 markiert
+  (Altersregel 31.07.2026).
+- Inventar-Zeile `284 Cheminee/Cheminee.pdf` auf `[x]` gesetzt →
+  [[cheminee-aufbau-hafnerarbeiten]]; `wiki/INDEX.md` (neue Sektion BKP 284) und
+  `wiki/QUESTIONS.md` (Punkt 12: VKF-Zulassungsnummer im Plan nicht genannt,
+  ereignisgetrieben) nachgefuehrt.
+- **Inventar-Stand danach:** 214 Dateien erfasst, davon 16 destilliert `[x]`, 21
+  triagiert `[t]`, 31 weiterhin offen `[ ]`, 146 uebersprungen `[-]`.
+- Kein Fan-out, ein Artikel, Budget dieses Zyklus gering (Einzelfile-Extraktion via
+  pdftotext, keine Subagenten).
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G4
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Erster Health-Check dieser KB (angelegt 28. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

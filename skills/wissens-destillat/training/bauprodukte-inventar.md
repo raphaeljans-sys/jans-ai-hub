@@ -183,7 +183,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | - · Kostendokument |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | |
-| [ ] | 284 Cheminee | 284 Cheminee/Cheminee.pdf | bauprodukte | |
+| [x] | 284 Cheminee | 284 Cheminee/Cheminee.pdf | bauprodukte | destilliert 01.08.2026 → [[cheminee-aufbau-hafnerarbeiten]] |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/9783959721622.pdf | bauprodukte | |

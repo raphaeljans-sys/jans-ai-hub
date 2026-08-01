@@ -39,3 +39,8 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[terrazzo-kunststein-bodenbelaege]] — Kunststein-Plattenboden (281.5) vs.
   vor Ort gegossener Terrazzo/geschliffener Beton (281.1): Aufbauvarianten,
   Rezeptur-Hinweise, Ausführungsrisiken, Preisvergleich (Stand 2002, unverifiziert)
+
+### BKP 284 — Hafnerarbeiten
+- [[cheminee-aufbau-hafnerarbeiten]] — Cheminée-Ummantelung: Schichtenfolge
+  Porenbeton/Brandschutz, Zuluft-Trennung, Kaminaufsatz-Anschluss (Detailplan
+  Fremdbüro 2009, Produktnamen nur als Beispiel)

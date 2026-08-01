@@ -113,3 +113,9 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
     Breitenwert selbst stammt aber allein aus der Masskizze «Swisslift» — vor jeder
     Bemessung beim Hersteller verifizieren, ebenso, ob Winner und Swisslift dieselbe
     Kabine haben.
+12. **VKF-Zulassungsnummer Kaminaufsatz nicht im Plan genannt (aufgenommen Mac Mini
+    Nachtschicht, 01.08.2026, [[cheminee-aufbau-hafnerarbeiten]]):** Das Detail
+    «Haus Karlsen» (Scheitlin-Syfrig+Partner, 2009) verweist auf «Kamintyp und
+    VKF-Zulassung», nennt aber keine Zulassungsnummer. Für eine konkrete Ausführung
+    beim gewählten Kaminhersteller nachfragen; ereignisgetrieben, kein eigener
+    Nachtlauf nötig.
