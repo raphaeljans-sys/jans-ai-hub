@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 07:26:31
+Stand: 01.08.2026 07:36:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 07:26:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c125bdfa vollgas-fruehwarnung 01.08.2026: STILL (keine Mail) — kombiniert teuer 6.11 Mio (31.07.), 0 Limit-Ereignisse, alle 4 Briefings erreicht, Radar-Herzschlag 6.2h; Destillat-Front seit 2 Tagen still bei bewegtem Ertrag, Inventar 42h unberuehrt, Mittags-Slot liefert aber ohne Gate
+- 34ceabc8 nas-selfcommit: 2 Datei(en) 2026-08-01 07:30
