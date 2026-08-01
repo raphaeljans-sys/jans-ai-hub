@@ -1,3 +1,17 @@
+## Run 12 (01.08.2026) — letzter offener Run-6-Kandidat aus `IMMO - 03 KNOW-HOW` extrahiert
+
+Der in Run 6 zurückgestellte Kandidat «Schätzungsanleitung Kap. 5, generische Referenztabelle
+ohne Projektbezug» (Zeile unten, `[ ]` offen) ist jetzt bearbeitet: `[x]` extrahiert Run 12 →
+`raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md` (Tabelle «Richtwerte für die
+Bestimmung des Neuwertes», Bauklassen I–VI, Stand 2003, plus zwei Nebenfunde derselben Seite:
+Gewerbe/Industrie-Richtwerte und BKP-2-Prozentanteile). Auf 01.04.2025 teuerungsnormalisiert und
+als Cross-Check in `wiki/kennwerte.md` (Abschnitt «Run 12») dokumentiert — bewusst NICHT zu einem
+führenden Kennwert promoviert, da der BKP-Scope der Quelle («Baukosten je m³ … SIA-Norm 116»)
+nicht eindeutig belegt ist (BKP 2 allein oder BKP 1–9). Neue offene Frage dazu in
+`wiki/QUESTIONS.md`. Damit ist der letzte in Run 6 identifizierte, noch offene Kandidat aus
+`IMMO - 03 KNOW-HOW` bearbeitet (das Pre-Check-Tool 2305 Wädenswil war bereits in Run 7
+extrahiert worden).
+
 ## Run 11 (27.07.2026) — letzte offene `AR`-Bibliothek geprüft (leer) + Brassel-Nebenfund abschliessend geklärt (Fremdmandat)
 
 Gemäss Empfehlung aus Run 10: (1) `AR - 06 Referenzen` gesichtet, (2) der in Run 10
@@ -241,8 +255,8 @@ Jans, Projekt 2305 Wädenswil: GV 11'724 m³ oi explizit, Erstellungskosten BKP1
 Mio CHF — `[ ]` offen für einen künftigen Lauf, in diesem Lauf aus Kapazitätsgründen
 zurückgestellt), 1 generische Referenztabelle ohne Projektbezug (Schätzungsanleitung Kap. 5:
 Zürcher Baukostenindex 1939-2004, CHF/m³-Bandbreiten nach Bauklasse I-VI — potenziell wertvoll
-für die in `training/PROGRAMM.md` Stufe 4 geforderte Teuerungs-Normalisierung, `[ ]` offen,
-nicht als Projekt-Einzelfall zu behandeln), Rest `[-]` (Healthcare-Verweis bewusst
+für die in `training/PROGRAMM.md` Stufe 4 geforderte Teuerungs-Normalisierung, `[x]` extrahiert
+Run 12, siehe oben, nicht als Projekt-Einzelfall zu behandeln), Rest `[-]` (Healthcare-Verweis bewusst
 ausgeklammert, Kurs-/Übungs-Excel ohne Realbezug, reine Marktwert-/Methodik-Dokumente).
 
 **`IMMO - 05 Bodenpreise`**: `[-]` vollständig geprüft, komplett out of scope (reine

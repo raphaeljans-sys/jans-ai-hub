@@ -1,5 +1,22 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-01 (Mac Mini Nachtschicht, Run 12) — letzter offener Run-6-Kandidat extrahiert: Neuwert-Richtwerte Bauklasse I–VI
+
+Letzten in `training/quellen-inventar.md` (Run 6) offen gelassenen Kandidaten aus
+`IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf` extrahiert (Tabelle 2:
+Richtwerte für die Bestimmung des Neuwertes, Bauklassen I–VI nach SIA-Ordnung 102, Stand 2003,
+EFH/MFH je m³; Nebenfunde: Gewerbe/Industrie-Richtwerte, Prozentanteile BKP 2). Neu:
+`raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md`. In `wiki/kennwerte.md`
+(Abschnitt «Run 12») mit dem bereits belegten Teuerungsfaktor 01.04.2004→01.04.2025 (+33.4 %,
+Run 8) auf 2025 hochgerechnet und als historischer Cross-Check dokumentiert — bewusst NICHT zu
+einem führenden Kennwert promoviert, da der BKP-Scope der Quelle nicht eindeutig ist (neue offene
+Frage in `wiki/QUESTIONS.md`). Der hochgerechnete MFH-Bereich (467–834 CHF/m³) liegt unterhalb
+des bestehenden MFH-gehoben-Seed-Bands (850–1'050 CHF/m³), was zur Arbeitsvermutung passt, dass
+die Quelle nur BKP 2 abbildet — stützt die Seed-Bandbreite, widerspricht ihr nicht. `training/
+quellen-inventar.md` nachgeführt (Legende `[x]`). Kein Versand, keine Publikation, kein Fan-out,
+kein Subagent — Recherche/Extraktion direkt in der Hauptsession (Memory-Feedback: Background-
+Subagents stallen auf OneDrive-Pfaden).
+
 ## 2026-07-31 (Wissens-Chef Run 22, Cross-KB) — Estrich-BKP richtiggestellt, Wuest-Quantile exakt, «verschiedene Stichproben» widerlegt
 
 - **[widerspruch, teilweise] BKP-Zuordnung des Mehrestrichs war falsch — die der Holzbau-Positionen

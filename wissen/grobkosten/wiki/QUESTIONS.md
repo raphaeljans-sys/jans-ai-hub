@@ -2,6 +2,22 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-01 (Mac Mini Nachtschicht, Run 12) — Welchen BKP-Scope meint die Neuwert-Richtwerttabelle der Schätzungsanleitung Kap. 5?
+
+**Offen, blockiert die Promotion eines historischen Cross-Checks zu einem führenden Kennwert.**
+`raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md` (Tabelle 2, Bauklassen I–VI,
+Stand 2003) bezeichnet die Werte nur als «Baukosten je m³ umbauter Raum (SIA-Norm 116)» — ohne
+Aussage, ob BKP 2 (Gebäude) allein gemeint ist oder BKP 1–9 (Gesamtkosten inkl. Baugrube,
+Umgebung, Honorare, Nebenkosten). Die unmittelbar danebenstehende Tabelle 3 derselben Quelle
+zeigt, dass BKP 2 selbst nur 90.63 % einer Gesamtkosten-Grösse ausmacht — die Differenz ist
+kostenmässig relevant (rund 10 % zzgl. weiterer BKP-1/3–9-Anteile). Solange das nicht geklärt
+ist, bleibt die Tabelle ein reiner Cross-Check in `wiki/kennwerte.md` (Abschnitt «Run 12»), nicht
+ein promovierbarer Kennwert. **Möglicher nächster Schritt:** die Primärquelle
+(`IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf`) enthält evtl. in einem
+anderen, hier nicht extrahierten Kapitel eine explizite Scope-Definition dieser Tabelle — bei
+Gelegenheit gegenprüfen, nicht als eigener Suchauftrag priorisieren (Quelle ist historisch,
+Stand 2003, nachrangig gegenüber realen Einzelfällen).
+
 ## 2026-07-31 (Wissens-Chef Run 22) — Warum läuft dieselbe Stichprobe je nach Bezugsgrösse so weit auseinander?
 
 **Ursachenfrage, keine Belegfrage mehr.** Neu belegt ist: die HNF-Reihe (S. 18/36) und die

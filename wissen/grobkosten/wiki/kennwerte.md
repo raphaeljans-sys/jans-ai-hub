@@ -382,6 +382,38 @@ NICHT normalisiert: sie sind bereits aus anderen Gründen (Teilvolumen statt Ges
 unverifiziertes Volumen) von einer Kennwert-Verwendung ausgeschlossen — eine Preisstand-
 Korrektur würde daran nichts ändern.
 
+## Run 12 (01.08.2026, Mac Mini Nachtschicht) — historischer Cross-Check aus Schätzungsanleitung Kap. 5
+
+Letzter offener Kandidat aus `IMMO - 03 KNOW-HOW` (`training/quellen-inventar.md`, Run 6)
+extrahiert: `raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md`, Tabelle «Richtwerte
+für die Bestimmung des Neuwertes», Stand 2003, Bauklassen I–VI nach SIA-Ordnung 102.
+
+**Auf 01.04.2025 teuerungsnormalisiert** (Faktor 1210.4/907.6 = 1.334, Stützpunkt 01.04.2004 —
+Vorbehalt Preisstand-Interpretation siehe Roh-Beleg):
+
+| Bauklasse | Baubeschrieb | EFH CHF/m³ (2025) | MFH CHF/m³ (2025) |
+|---|---|---|---|
+| I | Einfachste ländliche Bauweise | 567 | 467 |
+| II | Einfache Konstruktion, bescheidener Ausbau | 634 | 534 |
+| III | Durchschnittliche Qualität, einfacher Innenausbau | 700 | 600 |
+| IV | Einwandfreie Qualität, durchschnittlicher Innenausbau | 767 | 667 |
+| V | Überdurchschnittliche Qualität, komfortabler Ausbau | 900 | 734 |
+| VI | Vornehm, beste Qualität, hoher Komfort | 1'000 | 834 |
+
+**Nicht promoviert zu einem führenden Kennwert, bewusst als Cross-Check geführt:** die
+Primärquelle bezeichnet die Werte nur als «Baukosten je m³ umbauter Raum (SIA-Norm 116)» ohne
+expliziten BKP-Scope. Die unmittelbar auf derselben Quellseite stehende Tabelle 3 (Prozentanteile,
+siehe Roh-Beleg) zeigt, dass BKP 2 allein nur 90.63 ‰ resp. 100 % einer eigenen Teilsumme bildet
+— ob die Neuwert-Richtwerte BKP 2 allein oder BKP 1–9 meinen, ist nicht eindeutig belegt. Eine
+Gleichsetzung mit den oben geführten BKP-1–5-Einzelfällen ohne diese Klärung wäre Raten, nicht
+Belegen (KB-Regel). Offene Frage dazu in `wiki/QUESTIONS.md`.
+
+**Als Cross-Check trotzdem aufschlussreich:** MFH Bauklasse IV/V (667–734 CHF/m³, 2025) liegt
+unterhalb des in dieser KB geführten MFH-gehoben-Seed-Bands (850–1'050 CHF/m³) — konsistent mit
+der Annahme, dass die Neuwert-Richtwerte BKP 2 allein abbilden (ein BKP-1–5-Wert läge über einem
+reinen BKP-2-Wert). Stützt die bestehende Seed-Bandbreite eher, als ihr zu widersprechen; hebt
+aber keinen Wert auf `belegt`.
+
 ## Umrechnung Baumasse → Gebäudevolumen
 
 Die baurechtliche **Baumasse** (BMZ) zählt meist nur oberirdisch; das **GV SIA 416** schliesst das
