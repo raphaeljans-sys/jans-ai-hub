@@ -49,6 +49,22 @@ empfehlenswerte …») und Schluss-Floskel («…sag einfach Bescheid!»). Solch
 Mail-Datum vor dem Stichtag liegt. Gewichtet wird der von Raphael selbst getippte Text, nicht
 das, was er aus einem KI-Tool hineinkopiert hat.
 
+**Achtung — AI-Paste im DOKUMENT-Archiv (neu 01.08.2026, mit dem Dokument-Strang):** Der
+Vor-2026-Stichtag schützt den Dokument-Strang **nicht**. Belegt im Archiv-Scan über 377 DOCX:
+`AR - 03 Studien/2409 Steinhof/06_Reglemente/_Teilthemen/Gestaltungsplan/` enthält zwei
+KI-Antworten aus 2024 als Word-Datei — `ChatGPT_2.docx` (verräterischer Name) und, gefährlicher,
+`Um ein Bauprojekt im Rahmen eines Gestaltungsplans in der Stadt Luzern … .docx`, deren Dateiname
+nichts anderes ist als der **Prompt-Anfang**. Zwei billige Detektionssignale für diese Gattung:
+
+- **rohes Markdown im Word-Fliesstext** — `**Fett**` als Sternchen statt als Zeichenformat
+  (8 bzw. 18 Vorkommen in den beiden Dateien). Wer in Word selbst tippt, benutzt die Fett-Taste;
+  Sternchen entstehen nur beim Einfügen aus einem Chat-Fenster.
+- **null Guillemets** «…» bei gleichzeitig deutschem Fachtext — Raphael setzt in eigenen
+  Dokumenten Guillemets, ein eingefügter Modelltext enthält keine.
+
+Ein Dateiname, der wie ein ganzer Satz oder eine Frage aussieht, ist ein zusätzliches Warnsignal.
+Solche Dateien sind `claude-aera`-äquivalent und **nie** Stilquelle.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

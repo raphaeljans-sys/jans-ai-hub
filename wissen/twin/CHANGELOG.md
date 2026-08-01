@@ -20,6 +20,28 @@ Aussen-Erzeugnis.
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 288 offene Fragen in `QUESTIONS. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
 
+## 01.08.2026 — QUESTIONS 260801 #3 gemessen statt gefragt: Reflex belegt, Raster Einzelbeleg
+
+Statt die offene Frage an Raphael zurueckzugeben, maschinell beantwortet: **377 DOCX** aller
+Vor-2026-Studien gescannt (Suchbegriffe FAVORIT · Advocatus · Nachbarschaft · Baubehoerde,
+46 Trefferdateien). **«FAVORIT»/«Advocatus diaboli» kommen ausschliesslich im Regensdorf-Skript
+vor** — das Vier-Achsen-Raster bleibt Einzelbeleg. Der **Reflex** dahinter ist dagegen ueber
+vier Jahre und drei Projekte belegt: Nachbarsicht am eigenen Entwurf pruefen und die Nachbarschaft
+sichtbar machen (Haus Deuber 20.10.2020 «Neu muessen die Nachbarschaften aufgezeigt werden …
+ganz zu schweigen vom Anblick fuer den Nachbar», Regensdorf 19.04.2024, WALD 23.10.2024
+«Rahmenbedingungen erarbeiten: Nachbarschaft»), sowie antizipierte Behoerdenhaltung mit
+Rueckfallebene (Haus Deuber 08.02.2021, Waedenswil 22.08.2023). `wiki/denken.md` traegt den
+Reflex jetzt mit dieser Belegkette; QUESTIONS #3 auf beantwortet gesetzt, offen bleibt nur die
+Ein-Zeilen-Frage, ob die FAVORIT-Formel bewusst als Raster gefuehrt wird.
+
+**Nebenbefund mit Folgen — Echo-Falle im Dokument-Archiv.** Der Scan fand KI-Antworten als
+Word-Dateien aus 2024 (`2409 Steinhof/.../Gestaltungsplan/ChatGPT_2.docx` und die daneben
+liegende, nicht verraeterisch benannte Datei, deren Dateiname der Prompt-Anfang ist). **Der
+Vor-2026-Stichtag schuetzt den Dokument-Strang also nicht.** Zwei billige Detektionssignale in
+`wissen/twin/CLAUDE.md` verankert: rohes `**` im Word-Fliesstext (Word rendert kein Markdown —
+Sternchen entstehen nur beim Einfuegen aus einem Chat-Fenster) und null Guillemets bei deutschem
+Fachtext. Scan-Ergebnis und Warnung in `raw/_INGESTED.md`. DNA neu kompiliert.
+
 ## 01.08.2026 — Vier-Interessen-Raster in den Skill `machbarkeit` promoviert (Entscheid Raphael)
 
 Der im Dokument-Gold gefundene Befund wandert dorthin, wo er wirkt: **Fach-Methode gehoert in

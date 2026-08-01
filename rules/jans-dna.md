@@ -107,9 +107,11 @@ nur das **Authentische** (vor-Claude) und das **Korrektur-Delta** (was Raphael a
   Folge+Aufwand koppeln; bewilligungsfähigen Weg aufzeigen; Risiken benennen; Honorar als
   Rechenergebnis **direkt und vollständig** beziffern, warm gerahmt (nie weichspülen/
   kleinrechnen). **Dieselbe Frage aus den beteiligten Interessenlagen durchspielen**, statt nur
-  aus der eigenen — inklusive der Gegenseite, deren Argumente man sich selbst beschafft (belegt
-  Fidelity 260801, authentisch; das ausformulierte Vier-Interessen-Raster für Machbarkeits- und
-  Verdichtungsstudien steht als Pflichtschritt im Skill `machbarkeit`, nicht hier). Erkenntnisse
+  aus der eigenen — inklusive der Gegenseite, deren Argumente man sich selbst beschafft, und der
+  Behörde, deren Ablehnung man vorwegnimmt (Rückfallebene bereithalten). Belegt über vier Jahre
+  und drei Projekte (Haus Deuber 20.10.2020 + 08.02.2021, Wädenswil 22.08.2023, Regensdorf
+  19.04.2024, WALD 23.10.2024); das ausformulierte Vier-Achsen-Raster ist dagegen Einzelbeleg
+  und steht als Fach-Methode im Skill `machbarkeit`, nicht hier. Erkenntnisse
   aus der Rechnung **nummerieren** («1. Erkenntnis: …») und die **Rechenkette offenlegen** statt
   nur das Ergebnis zu nennen (Zonenformel → Einzelposten → Total).
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer

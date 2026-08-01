@@ -56,11 +56,21 @@ diese Lücke.
    Februar 2024 noch per Sie, oder schreibst Du auch über Du-Kontakte im internen Papier
    «Herr <Nachname>»? *Facette: Beziehungsregister. Warum: entscheidet, ob eine neue Regel
    (Drittform im Eigendokument) entsteht oder nur ein Datumsartefakt vorliegt.*
-3. **Ist das Vier-Interessen-Raster (Bauherrschaft · Behörde · Nachbarschaft als Advocatus
-   diaboli · Bewohner/Bautechnik) Dein Standardraster für Verdichtungsfragen, oder war es für
-   Regensdorf gebaut?** *Facette: Denken. Warum: wenn es Standard ist, gehört es als
-   Pflichtschritt in jede Machbarkeit — es ist das stärkste Denkinstrument, das dieser Lauf
-   gefunden hat.*
+3. ✅ **GRÖSSTENTEILS BEANTWORTET am 01.08.2026 — gemessen statt gefragt.** Scan über **377
+   DOCX** aller Vor-2026-Studien (`AR - 03 Studien`, Suchbegriffe FAVORIT · Advocatus ·
+   Nachbarschaft · Baubehörde): «FAVORIT» und «Advocatus diaboli» kommen **ausschliesslich** im
+   Regensdorf-Skript vor — das ausformulierte Vier-Achsen-Raster ist ein **Einzelbeleg**. Der
+   **Reflex dahinter** ist dagegen mehrfach und über Jahre belegt: den eigenen Entwurf aus der
+   Nachbarsicht prüfen und die Nachbarschaft sichtbar machen (Haus Deuber 20.10.2020: «Die
+   Darstellung der Umgebung bis zur Parzellengrenze reicht nicht aus. Neu müssen die
+   Nachbarschaften aufgezeigt werden» … «ganz zu schweigen vom Anblick für den Nachbar»;
+   Regensdorf 19.04.2024; WALD 23.10.2024 als Methodik-Vorspann «Rahmenbedingungen erarbeiten:
+   Nachbarschaft»), ebenso die antizipierte Behördenhaltung samt Rückfallebene (Haus Deuber
+   08.02.2021: «wäre so oder so eine starke Rückfallebene bei einer allfälligen Rückweisung der
+   Baubehörde»; Wädenswil 22.08.2023). **Fazit: die Konstante ist der Reflex, nicht die
+   Vierzahl** — so steht er jetzt in [[denken]]; das ausformulierte Raster lebt als Fach-Methode
+   im Skill `machbarkeit`. **Rest-offen für Raphael, eine Zeile genügt:** führst Du die
+   FAVORIT-Formel bewusst als wiederverwendbares Raster, oder ist sie in Regensdorf entstanden?
 4. ✅ **BEANTWORTET am 01.08.2026 — «Zeichensystem ist gewachsen».** Es ist keine Notation mit
    fester Semantik. Konsequenz, eingearbeitet in [[stimme]] und ins Gehirn: «_ » bleibt der
    Default; «>>>» und «>» werden nur in derselben Gattung und zu demselben Zweck übernommen und

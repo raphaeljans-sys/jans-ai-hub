@@ -543,3 +543,22 @@ Apostrophformen im selben Absatz — handgetippt).
 Studien (2001, 2002, 2103, 2304, 2305, 2306, 2408, 2409, 2410 WALD, 2411, 2412) und
 `AR - 02 Wettbewerbe` (Erlaeuterungsberichte). Lesezugriff auf die OneDrive-Bibliothek ist
 verifiziert (DOCX per `zipfile` + `word/document.xml`, keine TCC-Blockade in dieser Session).
+
+### Archiv-Scan 01.08.2026 — Abdeckungsmessung fuer den Dokument-Strang
+
+Vor dem eigentlichen Sweep einmalig **377 DOCX** aller Vor-2026-Studien maschinell gescannt
+(`AR - 03 Studien`, Projekte 2001/2002/2103/2304/2305/2306/2407/2408/2409/2410/2411/2412;
+Suchbegriffe FAVORIT · Advocatus · Nachbarschaft · Baubehoerde; 46 Dateien mit Treffer,
+0 uebersprungen — OneDrive liefert die Inhalte vollstaendig, kein Platzhalter-Problem).
+
+**Ergebnis fuer QUESTIONS 260801 #3:** «FAVORIT»/«Advocatus diaboli» nur im Regensdorf-Skript
+(Einzelbeleg). Der Reflex dahinter ist mehrfach belegt — Haus Deuber 20.10.2020 und 08.02.2021,
+Waedenswil 22.08.2023, WALD 23.10.2024. Details in `wiki/QUESTIONS.md` 260801 #3.
+
+**ECHO-WARNUNG fuer jeden kuenftigen Dokument-Sweep:** das Archiv enthaelt KI-Antworten als
+Word-Dateien, Beispiel `2409 Steinhof/06_Reglemente/_Teilthemen/Gestaltungsplan/ChatGPT_2.docx`
+und die gleich daneben liegende, NICHT verraeterisch benannte Datei
+`Um ein Bauprojekt im Rahmen eines Gestaltungsplans in der Stadt Luzern ... .docx` (Dateiname =
+Prompt-Anfang). Detektion: **rohes `**` im Word-Fliesstext** und **null Guillemets** bei
+deutschem Fachtext. Signale und Vorgehen jetzt in `wissen/twin/CLAUDE.md` verankert. Der
+Stichtag «vor 2026» schuetzt den Dokument-Strang NICHT — jede Datei einzeln pruefen.
