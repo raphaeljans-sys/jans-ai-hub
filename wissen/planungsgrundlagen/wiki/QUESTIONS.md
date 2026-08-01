@@ -9,6 +9,12 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Erledigtes ab — er produziert **kein** neues Wissen. Inhaltliche Fragen (K/R/C/D-Punkte) bleiben
 > deshalb offen stehen, bis Raphael neues Quellmaterial in die PL-Ordner legt oder ein reales
 > Projekt sie auslöst; sie sind **keine** Aufgaben des Wartungslaufs.
+>
+> **Werkzeuge des Wartungslaufs (seit 01.08.2026):**
+> `bash wissen/tools/link-frischecheck.sh planungsgrundlagen` (Erreichbarkeit aller zitierten
+> Adressen) und `bash wissen/tools/wiki-konsistenz.sh planungsgrundlagen` (Struktur/Backlinks).
+> Beide nicht von Hand nachbauen — die eingebauten Extraktions- und Messfallen sind teuer
+> erkauft (E18).
 
 ## A — Kartenportale
 - [x] **K64 — Link-Frischecheck PL-01: drei tote Adressen ersetzt, eine Abschaltung belegt
@@ -32,13 +38,52 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
     Bauen», dieselben Zuständigkeiten, eBau-Pflicht seit Dez. 2022).
   → [[kartenportale-geoportale-uebersicht]], [[kartenportale-denkmalschutz-isos]],
   [[kartenportale-ebau-sz-baugesuch]].
-- [ ] **K65 (neu Wartungslauf 01, 2026-07-30) — zwei Adressen antworten nur im Browser, nicht im
-  Skript.** `leitungskataster.upc.ch` liefert auf skriptierte Anfragen **HTTP 403**, und die
-  Elterndomain `www.upc.ch` hat ein **abgelaufenes TLS-Zertifikat** (curl-Fehler 60, gemessen
-  2026-07-30); `solarrechner.ch` scheitert an der TLS-Aushandlung (unrecognized name) bzw. 403.
-  Beides ist **kein Beleg für «tot»** — eine Bot-Sperre sieht wie ein Ausfall aus. Bei nächster
-  Gelegenheit im Browser gegenprüfen; Sunrise (Muttergesellschaft von UPC) ist unter `sunrise.ch`
-  live. Betrifft [[kartenportale-werkleitungskataster]] und [[energie-pv-eignung-typenwahl]].
+- [x] **K65 — im Browser gegengeprüft: beide Adressen sind wirklich tot, keine Bot-Sperre
+  (Wartungslauf 02, 2026-08-01)** Die von Wartungslauf 01 offen gelassene Messlücke ist
+  geschlossen. Ergebnis der Browser-Gegenprüfung:
+  - **`leitungskataster.upc.ch`** liefert **403 auch im echten Browser** (nicht nur skriptiert) —
+    also **keine** Bot-Sperre, sondern eine abgeschaltete Ressource.
+  - **`www.upc.ch`**: TLS-Zertifikat (CN `www.upc.ch`, SAN u.a. `upc.ch`) **abgelaufen am
+    29.06.2026**; `https` bricht ab, `http` antwortet nicht, Browser-Navigation verweigert.
+    Betreiber nach der Fusion ist **Sunrise** (`www.sunrise.ch`, 200). Ein Nachfolge-URL für den
+    Leitungskataster ist **nicht belegt** und wurde nicht behauptet (gleiche Disziplin wie beim
+    `geoglatt.ch`-Fall) — Auskunft über den Sunrise-Kundendienst.
+  - **`solarrechner.ch`**: **gar kein verwertbares TLS-Zertifikat**, `http` antwortet 436, im
+    Browser nicht ladbar. **Belegter Nachfolger:** `www.energieschweiz.ch/tools/solarrechner/`
+    (200) — die Kurzadresse `energieschweiz.ch/solarrechner` leitet ebenfalls dorthin.
+  ⚠ **Methodenlehre:** Wartungslauf 01 hatte zu Recht nicht auf «tot» geschlossen — ein 403 kann
+  Bot-Sperre *oder* Abschaltung sein. Die Browser-Gegenprüfung ist der Entscheider, und sie hat
+  hier **gegen** die vorsichtige Vermutung entschieden. Beide Fälle sind echte Ausfälle.
+  → [[kartenportale-werkleitungskataster]], [[energie-pv-eignung-typenwahl]].
+- [x] **K66 (neu + erledigt Wartungslauf 02, 2026-08-01) — die `www.`-Falle bei `zh.ch` geht in
+  BEIDE Richtungen; sechs Fundstellen waren nicht aufrufbar.** Gegenstück zu R75. Das
+  Wildcard-Zertifikat der Staatskanzlei lautet **`*.zh.ch`** (SAN: `*.zh.ch`, `zh.ch`) und deckt
+  damit nur **eine** Label-Ebene. Eine Legacy-Kurzadresse `<thema>.zh.ch` ist gedeckt,
+  `www.<thema>.zh.ch` liegt eine Ebene tiefer und **bricht die TLS-Prüfung** (curl-Fehler 60).
+  Die KB zitierte sechs solche Adressen mit `www.`; alle auf die gemessene Form ohne `www.`
+  umgestellt, Weiterleitungsziel je dokumentiert: `energie.zh.ch` · `baugesuche.zh.ch` ·
+  `awel.zh.ch/versickerung` · `gewaesserschutzgesetz.zh.ch` (je 200 → kanonische
+  `www.zh.ch`-Seite) und `gis.zh.ch` (nur über `http://`; unter `https://` antwortet das
+  Zertifikat von `maps.zh.ch`, das diesen Namen nicht führt).
+  **`altlasten.zh.ch` trägt gar nicht mehr:** ohne `www.` kein A-Record, mit `www.` nur über
+  `http://` und nur bis zur Startseite `www.zh.ch/de.html` — als Fundstelle unbrauchbar, im
+  Artikel entsprechend markiert. Regel-Tabelle in [[recht-norm-quellenlandkarte]].
+  ⚠ Ein Zertifikatsfehler auf `*.zh.ch` ist deshalb fast nie ein Amtsausfall, sondern ein
+  überzähliges `www.` in der eigenen Notation.
+  → [[recht-norm-baueingabe-verfahren-zh]], [[recht-norm-regenwasser-gewaesserraum-zh]],
+  [[energie-baueingabe-zusatzformulare]], [[recht-norm-quellenlandkarte]].
+- [x] **K67 (neu + erledigt Wartungslauf 02, 2026-08-01) — vier Adressen brauchen zwingend
+  `www.`, drei weitere sind Zertifikats-/Weiterleitungsfälle.** Gemessen und korrigiert:
+  `www.gwr.admin.ch` und `www.housing-stat.ch/files/881-2200.pdf` (blanker Name hat **keinen**
+  A-Record — letztere trägt den GWR-Merkmalskatalog v4.2 und ist eine tragende `sources`-Zeile),
+  `www.geo.lu.ch/landschaftsmodell/`, sowie `www.procap-bauen.ch`, dessen `https` am Zertifikat
+  bricht und über `http` auf `www.procap.ch/angebote/beratung-information/bauen-und-verkehr/`
+  leitet. **Kein Defekt, bewusst nicht angetastet** (geprüft, damit sie nicht jeden Lauf erneut
+  Arbeit machen): `geodienste.kgk-cgc.ch` ist eine **E-Mail-Domain**, keine URL;
+  `geoservices.zh.ch/geoshopapi/v1` liefert auf die blanke Basis 404, `…/v1/products` aber 200
+  (REST-Normalverhalten); `daten.geo.lu.ch/download/` ohne Parameter 404 (erwartet).
+  → [[kartenportale-gwr-bund]], [[kartenportale-geoportale-uebersicht]],
+  [[recht-norm-sanitaerraeume-planungsgrundlagen]], [[kartenportale-oereb-egrid-bezug]].
 - [x] **K63 — Endpunkt-Frischecheck bestanden (Run 93, 2026-07-30)** Alle 13 in dieser KB
   dokumentierten Bezugs-Endpunkte der Domäne wurden am realen JANS-Benchmark (Giebelweg 12,
   EGRID CH879777718909) gemessen: **13 von 13 antworten**, Zonenplan-Werte (W/1.5, BMZ 1.5, GH 4.5,
@@ -1227,6 +1272,39 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   ausstehend) — bis dahin gilt MuKEn 2014 (Eigenstrom 10 W/m²).
 
 ## E — Connector/Tooling
+- [x] **E17 (neu + erledigt Wartungslauf 02, 2026-08-01) — der dokumentierte Connector-Pfad war
+  falsch und liess die Connectoren als defekt erscheinen.** `skills/planungsgrundlagen/SKILL.md`
+  (3 Stellen, davon 2 als Kopiervorlage im Bash-Block), `skills/massgebendes-terrain/SKILL.md`
+  und [[recht-norm-radonschutz]] nannten den Aufruf als **`node connectors/geo-zh.mjs …`**. Diesen
+  Pfad gibt es nicht: in `connectors/` der Hub-Wurzel liegen nur `bexio`, `zefix`,
+  `truninger-ds3`, `ebaugesuche-zh`, `hub-setup`, `claude-usage` — die Planungsgrundlagen-
+  Connectoren liegen unter **`skills/planungsgrundlagen/connectors/`**. Der verkürzte Aufruf
+  endet mit `MODULE_NOT_FOUND`.
+  ⚠ **Warum das mehr ist als ein Tippfehler:** dieser Wartungslauf ist selbst darauf
+  hereingefallen — der Auftragstext des Scheduled Task nennt ebenfalls `connectors/geo-zh.mjs`
+  und `connectors/behoerden-zh.mjs`, der erste Testlauf meldete daraufhin zwei «defekte»
+  Connectoren. Erst die Prüfung am Original (Rule 260729b: Agenten-/Fremdbefunde nie ungeprüft
+  übernehmen) zeigte, dass der **Pfad** falsch ist und nicht der Code. Alle Fundstellen im
+  Repo korrigiert und der korrigierte Befehl ab Repo-Wurzel nachgemessen (EGRID CH879777718909).
+  **Offen bleibt der Auftragstext des Scheduled Task selbst** (`~/.claude/scheduled-tasks/
+  planungsgrundlagen-wartung/SKILL.md`, stationslokal, nicht im NAS-Repo) — dort steht der
+  falsche Pfad weiterhin; er ist im Report als Korrekturvorschlag für Raphael vermerkt.
+  Warnkasten in [[kartenportale-oereb-egrid-bezug]] §Connector.
+- [x] **E18 (neu + erledigt Wartungslauf 02, 2026-08-01) — Link-Frischecheck ist jetzt ein
+  Werkzeug statt ad-hoc-Arbeit.** Wartungslauf 01 musste die Adressmessung von Hand aufbauen;
+  dieser Lauf hätte sie erneut aufgebaut. Neu: `wissen/tools/link-frischecheck.sh <kb>`,
+  Schwester von `wiki-konsistenz.sh` (dort Struktur, hier Erreichbarkeit). **Drei Extraktions-
+  fallen sind fest eingebaut, alle in diesem Lauf real aufgetreten:**
+  1. **Adressen ohne Protokoll** — die KB schreibt fast alles als `www.zh.ch/…`; ein Muster nur
+     auf `https?://` findet **30 von 258** Adressen und überspringt den Rest stillschweigend.
+  2. **Umlaute im Hostnamen** — ohne `perl -CSD` zerschneidet die Regex `stadt-zürich.ch`,
+     `energiehub-gebäude.ch`, `gewässerschutzgesetz.zh.ch` und erzeugt die Phantom-Hosts
+     `rich.ch`, `ude.ch`, `sserschutzgesetz.zh.ch`, die dann als «tot» gemeldet würden.
+  3. **Schrägstrich als Prosa-Trenner** — `vkg.ch/presseportal.ch` ist eine Aufzählung, kein
+     Pfad; solche Treffer liefern 404 und werden jetzt als `VERDACHT-ARTEFAKT` markiert statt
+     als toter Link.
+  Getestet: `--hilfe` rc=0 · Bedienfehler rc=2 · unbekannte KB rc=2 · realer Lauf auf dieser KB
+  rc=1 mit 184/258 sofort 200. Kein ungetestetes Werkzeug abgelegt.
 - [x] **E15 — `--hilfe` funktionierte in KEINEM der fünf Connectoren (Wartungslauf 01, 2026-07-30,
   behoben + beide Pfade nachgemessen)** Rule 260729 verlangt, jeden Connector zuerst per
   `node <pfad> --hilfe` selbst befragen zu können. Gemessen: **alle fünf** (`geo-zh`, `geo-sz`,
@@ -1301,6 +1379,18 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   `connectors/bexio.mjs:279`. Stand unverändert; wartet weiterhin auf Raphaels Einzelfreigabe und
   bleibt bewusst offen. Der Punkt ist damit kein Rückstand des Wartungslaufs, sondern ein
   Entscheid-Posten.
+  **↳ Nachkontrolle Wartungslauf 02 (2026-08-01):** Sweep erneut über `connectors/`, `scripts/`,
+  `skills/` und `wissen/` gefahren (auch `.substring(0,10)`- und `.split("T")`-Varianten) —
+  **weiterhin genau ein** Treffer, `connectors/bexio.mjs:279`, unverändert. Entscheid-Posten
+  Raphael, kein Rückstand.
+  **↳ E11 nachkontrolliert (Wartungslauf 02):** alle vier PL-Connectoren nutzen unverändert
+  `toLocaleDateString("sv-SE")`. ⚠ Der Funktionstest lief um 04:37 CEST — in diesem Fenster
+  liefern Lokalzeit und UTC **dasselbe** Datum, der erzeugte Dateiname
+  `Oereb-Auszug_136_3338_2026-08-01.pdf` beweist also **nichts**. Massgeblich ist die Codeprüfung
+  plus die Gegenprobe im kritischen Fenster: simuliert auf 02.08.2026 00:30 CEST ergibt lokal
+  `2026-08-02`, UTC dagegen `2026-08-01` — Unterschied reproduziert, Fix wirkt.
+  **↳ E12 nachkontrolliert (Wartungslauf 02):** 204-Diagnose kreuzweise gemessen; beide Services
+  melden zutreffend «EGRID im Register nicht vorhanden … Kein Negativbeweis», nicht «Serverdefekt».
 - [x] **E14 — `geo-sz.mjs` existiert zweimal und divergiert** (neu Run 93, 2026-07-30):
   `skills/planungsgrundlagen/connectors/geo-sz.mjs` (23'149 B, Stand 22.07.2026, mit
   Parzellensuche/Grundwasser/JANS-Umbenennung, seit heute mit 204-Diagnose und lokalem Datum) gegen
@@ -1353,6 +1443,16 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (am Langnau-Benchmark nicht ausgelöst, kein Regress). → [[kartenportale-bund-geodaten]].
 
 ## F — Meta/Querschnitt
+- [x] **F-QUELLBESTAND — 30. Erschöpfungsbestätigung (Wartungslauf 02, 2026-08-01)** Alle vier
+  PL-Ordner gegen den Referenzstand von Run 92 (2026-07-28 00:35) geprüft: **0 neue oder
+  geänderte Inhaltsdateien**. Zahlen exakt wie im Wartungslauf 01: `PL - 01 Kartenportale`
+  **979** · `PL - 02_Recht_Norm` **2'503** · `PL - 03 Brandschutz` **152** · `PL - 04 Energie`
+  **317**. ⚠ **Zählfalle vermieden:** eine rohe `find -type f`-Zählung meldet in jedem der vier
+  Ordner **+1** gegenüber dem Vorlauf. Das ist **kein** neues Material, sondern in allen vier
+  Ordnern dieselbe versteckte OneDrive-Sync-Markierung `.849C9593-D756-4E56-8D6E-42412F2A707B`
+  (63 Bytes JSON, angelegt 31.07.2026 11:20). Wer sie mitzählt, meldet eine Reaktivierung des
+  grower, die es nicht gibt — **versteckte Dateien beim Quellbestands-Check ausschliessen**
+  (`! -name ".*"`). **Keine Reaktivierung als grower**, kein Entscheid für Raphael nötig.
 - [x] **F-QUELLBESTAND — 29. Erschöpfungsbestätigung (Wartungslauf 01, 2026-07-30)** Alle vier
   PL-Ordner gegen den Zeitstempel des letzten Trainingslaufs (Run 92, 2026-07-28 00:35) geprüft:
   **0 neue oder geänderte Inhaltsdateien** in `PL - 01 Kartenportale` (979 Dateien),
@@ -1360,9 +1460,13 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   den grower stillzulegen, bleibt richtig; **keine Reaktivierung** zu prüfen. Nächste Prüfung im
   nächsten Wartungslauf — legt Raphael zwischenzeitlich Material ab, meldet ohnehin der
   `wissens-trigger`.
-- [ ] **F-LINKS-REST (neu Wartungslauf 01, 2026-07-30) — vier Adressen mit gealterter, aber nicht
-  toter Fundstelle.** Beim Frischecheck aufgefallen, bewusst **nicht** eigenmächtig umgeschrieben,
-  weil sie in der Sache noch tragen und teils als Zitat aus einer Quelle stehen:
+- [ ] **F-LINKS-REST (Wartungslauf 01, 2026-07-30 · nachgemessen Wartungslauf 02, 2026-08-01) —
+  vier Adressen mit gealterter, aber nicht toter Fundstelle.** **Stand 01.08.2026:** alle vier
+  erneut gemessen, **unverändert**; bleibt offen, weil die Korrektur je einen inhaltlichen
+  Anlass braucht und keinen mechanischen Austausch. `energieheld.ch` ist inzwischen zusätzlich
+  **522** auf dem blanken Namen (mit `www.` 200) — der Anbieterwechsel zu `ckw.ch` ist damit
+  auch technisch sichtbar. Beim Frischecheck aufgefallen, bewusst **nicht** eigenmächtig
+  umgeschrieben, weil sie in der Sache noch tragen und teils als Zitat aus einer Quelle stehen:
   - `www.eco-bau.ch/index.cfm?Nav=15&ID=16` (**404**, alte CFM-Struktur) in
     [[recht-norm-ahb-stadt-zuerich-projektstandards]] — die Organisation firmiert heute unter
     **`ecobau.ch`** (`eco-bau.ch` leitet dorthin, 200). Der Artikel führt die Adresse ausdrücklich

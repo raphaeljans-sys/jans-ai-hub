@@ -3,6 +3,39 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-01 — Synergie-Lauf 03 (monatlich, Scheduled Task `synergie-lauf-monatlich`)
+- **Verfahren:** leichtgewichtig inline, kein Multi-Agent-Fan-out (Drossel-Disziplin,
+  `synergie-orchestrator/SKILL.md` Z. 107 ff.). Delta-Basis 26.07.–01.08.2026. Bericht:
+  `outputs/2026-08-01_synergie-lauf-03.md`.
+- **Messhinweis fuer Folgelaeufe:** Commit `7b4c0777` (25.07. 21:00, «3185 Datei(en)») erfasst
+  den ganzen Bestand als Add — `--diff-filter=A --since=2026-07-25` meldet fast jeden Skill
+  faelschlich als neu. Delta ab 26.07. gemessen.
+- **Inventar-Delta:** 50 Skills (vorher 49); neu `wissens-destillat`, KBs `bauprodukte` +
+  `claude-code`, Rules `wissens-ruecklauf` + `rollen-taxonomie` (importiert), Connector
+  `hub-setup`; 0 neue Agenten.
+- **Vier neue Register-Eintraege:** SYN-16 (KB `bauprodukte` als Insel, null Verweise ausserhalb
+  des Erzeugers, zugleich Parallelwissen in `ausschreibung/wissensbasis/05_knowhow-gewerke.md`,
+  Ueberschneidung ueber die 37-Sektionen-Queue strukturell absehbar) · SYN-17 (Setup-Fakten
+  doppelt in `hub-setup-daten.json` und drei CLAUDE.md-Tabellen; Staende stimmen heute ueberein,
+  aber die Kopie liegt im immer geladenen Kontext) · SYN-18 (Contract von `wissens-destillat`
+  ohne die Pflichtfelder Abhaengige Rules/Vorgelagert/Nachgelagert) · SYN-19 (7 von 50 Skills
+  fehlen im Wegweiser CLAUDE.md, darunter die aktiven Kern-Skills `brandschutz` und
+  `honorarberechnung-sia102`).
+- **Direkt gesetzt (active-with-flagging):** die drei fehlenden Contract-Felder in
+  `skills/wissens-destillat/SKILL.md` (SYN-18, umgesetzt) — mechanische Vervollstaendigung
+  gegen `skills/SKILL-CONTRACT.md`, ohne inhaltliche Entscheidung. Sonst nichts ausgefuehrt.
+- **Status nachgefuehrt:** SYN-01 (halb geschlossen — `realwert-rechner` und
+  `wirtschaftlichkeit-rechner` weiterhin 0 Treffer auf `wissen/grobkosten`) · SYN-02
+  (unveraendert nachgemessen, `volumen_generator.py` liest weiterhin kein Parameter-Set) ·
+  SYN-06 (teilweise — die neue Rule `wissens-ruecklauf` schafft die allgemeine Pflicht, der
+  benannte Kanal nach `wissen/grobkosten/raw/` fehlt weiter) · SYN-14 (unveraendert).
+- **Phase 5:** kein neuer Service-ENTWURF; das Delta ist fast vollstaendig infrastruktureller
+  Natur, die KB `bauprodukte` mit 8 von 37 Sektionen noch zu duenn fuer ein Leistungsversprechen.
+- **Offen fuer Raphael:** SYN-16 (Rollentrennung Produkt-/System-Wissen gegen LV-Praxis),
+  SYN-17 (Tabellen aus CLAUDE.md in den Setup-Connector verlagern), SYN-19 (7 Skill-Zeilen
+  ergaenzen). Alle drei betreffen geteilten oder immer geladenen Kontext, deshalb nicht
+  eigenmaechtig gesetzt.
+
 ## 2026-07-31 — Run 22 (Workflow-Fan-out: 6 Lese-Agenten + 25 adversariale Verifikatoren; 16 BESTAETIGT / 9 WIDERLEGT)
 - **Verfahren:** ein Workflow, 31 Agenten, ~4.83 Mio. Subagent-Token, 516 Tool-Calls, ~18.5 Min.
   Bericht: `outputs/2026-07-31_wissens-chef-run22.md`. **Korrekturen in 15 Dateien in 7 KBs plus der

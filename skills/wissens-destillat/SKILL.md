@@ -19,6 +19,14 @@ description: "Wissens-Destillat — erschliesst das ungenutzte Fachwissen auf de
   `INDEX.md`/`QUESTIONS.md`/`CHANGELOG.md`, ein Lauf-Report unter `<kb>/outputs/`.
 - **Nicht-Ziel:** Quelldateien im Archiv verändern, verschieben oder löschen. Das Archiv
   ist `raw/` im Sinne der Rule `wissens-bibliothekar` — **nur lesen**.
+- **Abhaengige Rules:** `wissens-bibliothekar` (raw/wiki/outputs-Trennung, CHANGELOG-Pflicht),
+  `wissens-ruecklauf`, `umlaute-konvention`, `dateinamen-konvention`,
+  `bkp-2017-referenz` (jede BKP-Nummer), `normen-referenz` (jede Norm-Fundstelle),
+  `spec-methode` (Spec je Korpus vor dem ersten Lauf), `sync-kanonische-quelle`.
+- **Vorgelagert:** `spec` (Korpus-Spec unter `specs/<korpus>-spec.md`, bindend für alle Folgeläufe).
+- **Nachgelagert:** `wissenscheck` (Gesundheit des gefüllten KB), `wissens-bibliothekar`-Betrieb
+  der Ziel-KB; fachlich konsumierend je nach Korpus (Korpus 1 `bauprodukte` →
+  `ausschreibung`, `offertenpruefung`, `kostenschaetzung`, `brandschutz`).
 
 ## Das ideale Modell je Phase
 
