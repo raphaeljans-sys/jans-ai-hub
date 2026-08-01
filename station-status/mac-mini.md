@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 01.08.2026 09:07:23
+Stand: 01.08.2026 09:27:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 09:07:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8aefc21a Hub-Chef 01.08.: Locale-Regression behoben und belegt, Radar-Fehlalarm mail@ widerlegt, Register+Logbuch+KB claude-code nachgefuehrt
+- 9cae32b5 nas-selfcommit: 2 Datei(en) 2026-08-01 09:15
