@@ -21,6 +21,21 @@
 # die Rohausgabe zurueck (nie stiller Textverlust).
 set -uo pipefail
 
+# --- Locale abhaerten --------------------------------------------------------
+# Identisch zu dispatch-run.sh (dort seit 21.07.2026): launchd-/Cowork-Prozesse laufen
+# ohne interaktives Login-Profil in der POSIX-"C"-Locale (LANG leer, LC_CTYPE=C) statt
+# der Terminal-UTF-8-Locale. Ergebnis sind flaechendeckende ae/oe/ue-Ersatzschreibungen
+# statt echter Umlaute (Rule umlaute-konvention.md) — kein Encoding-Schaden, sondern
+# eine Schreibgewohnheit der ASCII-Laufumgebung.
+# WARUM HIER ERST AM 01.08.2026: dieser Wrapper entstand am 29.07.2026, eine Woche NACH
+# dem Fix im Geschwister-Script, und hat ihn nie geerbt. Seither laufen alle Loops ueber
+# claude-run.sh (Rule 260729) — die Drift lief also weiter, obwohl sie als behoben galt.
+# Belegt durch den Monats-Wissenscheck 01.08.2026: ae/oe-Treffer in 13 von 20 KBs,
+# u.a. immobilienbewertung 831, normen 620, baurecht 455 — betroffen ausdruecklich
+# auch frisch geschriebene Artikel (last_updated 27.–30.07.2026).
+export LANG="de_CH.UTF-8"
+export LC_ALL="de_CH.UTF-8"
+
 NAME="unbenannt"; BUDGET="50"; PERM="acceptEdits"; FALLBACK="sonnet"; MODELL=""
 while [ $# -gt 0 ]; do
     case "$1" in
