@@ -39,6 +39,53 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-01 14:12 — [FREI] NACHHOL-LAUF 2 Min nach dem Vorlauf: der Scheduler holt einen versaeumten Slot doch nach (korrigiert den Vorlauf)
+
+**Kurzlauf, bewusst schlank.** Dieser Lauf startete um 14:12, also zwei Minuten nachdem die
+13 Stunden lang suspendierte Vorsession um 14:10 abgeschlossen hatte. Er misst damit ein
+Zeitfenster von zwoelf Minuten; ein Liefer-Delta ist darueber nicht beurteilbar, und es wird
+keine Ruecktaktung und keine Deaktivierung ausgeloest. Der Lauf hat genau eine Erkenntnis, und
+die betrifft die Aufsicht selbst.
+
+**Faktenkorrektur am Vorlauf.** Der Eintrag von 14:10 haelt fest, «der Scheduler holt
+uebersprungene Laeufe nicht nach». Das ist so nicht richtig, und dieser Lauf ist der Gegenbeleg:
+sobald der ueber 13 Stunden belegte Task-Slot frei wurde, hat der Scheduler den Radar sofort
+gefeuert, ohne den naechsten Takt abzuwarten. Registry gegengelesen: `lastRunAt` steht neu auf
+2026-08-01T12:12:52Z (14:12 CEST), `nextRunAt` auf 16:57 CEST — der 4-h-Takt laeuft normal
+weiter. **Praeziser formuliert:** die drei versaeumten Slots 04:57, 08:57 und 12:57 werden nicht
+einzeln nachgeholt, aber der Ausfall bleibt nicht folgenlos — genau EIN Nachhol-Lauf feuert,
+sobald der Slot frei ist. Ein 13-Stunden-Blindfenster der Aufsicht bleibt es trotzdem; der
+Befund des Vorlaufs steht, nur seine Begruendung war zu absolut.
+
+**Fensterzustand: FREI.** Probe um 14:13 antwortet «OK». Weder 5-Stunden- noch Wochen-Limit.
+
+**Feuermechanismen: unveraendert konsistent, keine Abweichung.** MacBook Pro: kein
+`vollgas`-/Runner-Job geladen; `vollgas-supervisor` und `vollgas-monitor` weiterhin als
+`*.disabled-260729` geparkt, `com.jans.aihub.runner` als `.disabled-260728`. Mac Mini: geladen
+nur `ch.jans.nachtschicht` und `ch.jans.training-energie`; `training-normen` und `training-plg`
+korrekt ungeladen, `vollgas-supervisor` dort ebenfalls `.disabled-260729`. Registry: 31 Tasks,
+kein Doppelfeuer. Der stehende Entscheid Raphaels vom 30.07. ist gewahrt.
+
+**Liefer-Delta: nicht beurteilbar (Messfenster 12 Min), kein Delta Null.** Die drei juengsten
+Commits (14:10 `b992a6c3` machbarkeit, 14:11 `8d34eae3` Radar-Korrekturfassung, 14:12
+`3682c7cc` Synergie-Lauf 03 Eigenkorrektur) sind der Nachlauf des nativen Committers auf die
+Arbeit der Vorsession, keine neue Lieferung. Der naechste getaktete Lern-Slot ist die
+Mini-Nachtschicht; die naechste echte Delta-Messung gehoert in den 16:57-Lauf.
+
+**Speicher MacBook Pro:** frei+inactive+purgeable 3.5 GB, `kern.memorystatus_vm_pressure_level`
+= 1 (normal). Kein Druck, keine Massnahme.
+
+**P1 —** keiner. Kein Blocker, kein Login-Problem, kein Kontingentproblem, keine Mail.
+**P2 —** Merkposten fuer den 16:57-Lauf unveraendert: faellt erneut eine Taktluecke > 7 h auf,
+ist die Suspendierung kein Einzelfall und die Laufzeitbegrenzung des Radars gehoert auf den
+Pruefstand. Der heutige Nachhol-Mechanismus federt einen Ausfall ab, ersetzt die Aufsicht aber
+nicht.
+**P3 —** die beiden offenen Takt-Empfehlungen aus dem Vorlauf (`wissenscheck-monatlich` auf
+19:30, `synergie-lauf-monatlich` auf 21:40) bleiben liegen und sind **an einem beliebigen Tag
+ausser dem Monatsersten** umzustellen, weil eine Cron-Aenderung die Task fuer denselben Tag
+re-armt und einen Doppellauf erzeugt.
+
+---
 ## 2026-08-01 00:58/14:10 — [FREI] AUSFALL DER AUFSICHT: Lauf 13 h suspendiert, drei Radar-Laeufe stillschweigend ausgefallen — die Loops selbst lieferten in dieser Zeit 13x
 
 > **Lesart dieses Eintrags:** Der Lauf startete um 00:58, wurde nach den ersten Messungen
