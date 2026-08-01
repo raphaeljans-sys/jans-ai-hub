@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 01.08.2026 08:54:03
+Stand: 01.08.2026 09:14:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:52)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:59)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 01.08.2026 08:54:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- dd239633 nas-selfcommit: 3 Datei(en) 2026-08-01 08:45
+- 8aefc21a Hub-Chef 01.08.: Locale-Regression behoben und belegt, Radar-Fehlalarm mail@ widerlegt, Register+Logbuch+KB claude-code nachgefuehrt
