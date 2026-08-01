@@ -7,7 +7,7 @@ description: Kostenschaetzungs-Agent fuer Healthcare-Architektur. Nutzt Referenz
 ## Contract
 
 - **Trigger:** Greift, sobald in frühen Projektphasen eine Grobkostenschätzung, Richtkosten, Kostenkennwerte oder ein Benchmark (CHF/m2, BKP 1-5) für ein Healthcare-Bauprojekt verlangt wird — Neubau wie Umbau/Sanierung. Planungsseitiges Gegenstück zu `kostenkontrolle` (dort Kostenkontrolle in der Ausführung).
-- **Inputs:** Nutzungstyp (Spital, Altersheim, Reha, Praxis), Neubau/Umbau + Eingriffstiefe, Fläche (m2 NF nach SIA 416), Besonderheiten/Kostentreiber. Referenzen: `referenzen/` (Wüest Partner Kostenkennwerte), `bauteilkennwerte/`, BKP-2017-Liste.
+- **Inputs:** Nutzungstyp (Spital, Altersheim, Reha, Praxis), Neubau/Umbau + Eingriffstiefe, Fläche (m2 NF nach SIA 416), Besonderheiten/Kostentreiber. Referenzen: `referenzen/` (Wüest Partner Kostenkennwerte), `bauteilkennwerte/`, BKP-2017-Liste, KB `wissen/bauprodukte` (Produkt-/Systemwissen nach BKP — Aufbau, Kennwerte, Einsatzgrenzen als Plausibilisierung des Kostentreibers).
 - **Output-Ablage:** kein Datei-Output (nur Antwort), ausser explizit ein Dokument verlangt — dann Kurzbericht DOCX+PDF unter `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/kostenschaetzung/<jahr>/`, Namensschema YYMMDD.
 - **Abhaengige Rules:** bkp-2017-referenz, umlaute-konvention, dokument-layout-standard (bei Dokument), dateinamen-konvention (bei Ablage), identifikatoren-verifizieren (Projektnr./Objekt bei Dokument), auftrags-dekomposition (mehrere Varianten) + Korrektur-Pflicht (jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`).
 - **Vorgelagert:** —

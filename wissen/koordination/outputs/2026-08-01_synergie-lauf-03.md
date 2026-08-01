@@ -56,22 +56,38 @@ wo der Artikel in ein LV fliessen koennte (Rule 260626)». Der vorgesehene Konsu
 also benannt — die Kante zu ihm fehlt. `skills/ausschreibung/SKILL.md` nennt in
 «Inputs» keine einzige `wissen/`-KB.
 
-**Zweite Haelfte des Befunds:** `ausschreibung` fuehrt bereits eigenes Gewerkewissen in
-`wissensbasis/05_knowhow-gewerke.md` (56 Zeilen, Gewerke 271, 226, 272, 285). Die
-Ueberschneidung ist nicht spekulativ, sondern strukturell absehbar: die Quelle der KB
-ist `/Volumes/daten/03 Bauprodukte_BKP` mit **37 Gewerke-Sektionen nach BKP**
-(`KORPUS-QUEUE.md` Z. 14), die Queue arbeitet sie der Reihe nach durch und wird auf 271,
-226, 272 und 285 zwangslaeufig treffen. Dann existiert dasselbe Gewerk an zwei Orten mit
-zwei Pflegewegen.
+**Zweite Haelfte des Erstbefunds — am selben Tag nachgemessen und WIDERLEGT.** Der
+Erstbefund behauptete eine sich anbahnende Doppelspurigkeit mit
+`ausschreibung/wissensbasis/05_knowhow-gewerke.md` (56 Zeilen, Gewerke 271, 226, 272,
+285) und stuetzte das auf die «37 Gewerke-Sektionen nach BKP» der Quelle. Die Messung am
+Objekt ergibt ein anderes Bild:
 
-**Empfehlung:** Rollen jetzt trennen, solange die Ueberschneidung noch leer ist.
-`wissen/bauprodukte` wird fuehrend fuer **Produkt-, System- und Fehlerbildwissen**
-(was ein Bauteil ist, wie es aufgebaut ist, wo seine Grenzen liegen);
-`ausschreibung/wissensbasis/05_knowhow-gewerke.md` bleibt fuehrend fuer die
-**LV-Schreibpraxis** (welche Bedingung in welches Kapitel gehoert, JANS-Konditionen).
-Danach die Kante setzen: `bauprodukte` in die «Inputs»-Zeile von `ausschreibung`,
-`offertenpruefung` und `kostenschaetzung`, mit dem Hinweis, dass Produktnamen aus der KB
-im LV nur als Beispiel und nie als Vorgabe erscheinen.
+- Die Sektionsliste des Korpus enthaelt **272 Metallbau bereits** (1 Datei destilliert) —
+  die Ueberschneidung ist also nicht kuenftig, sondern schon da. Aber:
+- `05_knowhow-gewerke.md` sagt zu 272 ausschliesslich **Ausschreibungsform**
+  («funktional ausschreiben — zu spezifisch fuer ein NPK-LV; Grundlage
+  Architektenplaene + Architektenbeschrieb statt Positionsverzeichnis»), zu 281/282
+  **gar nichts**. Die Datei enthaelt ueber alle vier Gewerke hinweg keine einzige
+  Produktaussage, sondern LV-Schreibpraxis (Garantie, Werkpreis-Vollstaendigkeit,
+  Plan-vor-Text, Musterpflicht).
+- 271, 226 und 285 fehlen im Bauprodukte-Korpus ganz; die 37 Sektionen sind die real
+  vorhandenen Archivordner, nicht die vollstaendige BKP-Gliederung.
+
+Die beiden Bestaende reden also nicht ueber dieselbe Sache. Die Rollentrennung, die der
+Erstbefund als Entscheid vorlegen wollte, wird faktisch bereits gelebt. Der Befund
+reduziert sich auf **Typ 1** — es fehlt nur die Kante.
+
+**Lehre fuer Folgelaeufe:** Ein Doppelspur-Verdacht darf nicht aus der Ueberschneidung
+von *Gewerke-Nummern* abgeleitet werden. Zwei Bestaende koennen dasselbe BKP-Kapitel
+fuehren und trotzdem disjunkt sein, wenn der eine ueber das Bauteil und der andere ueber
+die Ausschreibungsform spricht. Vor jedem Typ-2-Befund den Inhalt beider Seiten lesen,
+nicht nur ihre Ordnungsbegriffe vergleichen.
+
+**Umgesetzt (active-with-flagging):** Die Kante ist gesetzt — `wissen/bauprodukte` steht
+jetzt in der «Inputs»-Zeile von `ausschreibung` (mit expliziter Abgrenzung gegen
+`05_knowhow-gewerke.md` und dem Neutralitaetsvermerk nach Rule 260626),
+`offertenpruefung` (technische Plausibilisierung der angebotenen Systeme) und
+`kostenschaetzung` (Plausibilisierung des Kostentreibers). Kein Entscheid Raphael noetig.
 
 ### SYN-17 — Setup-Fakten doppelt gepflegt: `hub-setup-daten.json` gegen CLAUDE.md (Typ 2)
 

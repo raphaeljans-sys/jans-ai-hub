@@ -60,58 +60,91 @@ Laufzeitbegrenzung des Radars gehoert auf den Pruefstand.
 saemtliche getakteten Laeufe der Nacht und des Vormittags endeten rc 0, zuletzt der
 Mini-Nachtschicht-Slot 13:30. Weder 5-Stunden- noch Wochen-Limit.
 
-**Feuermechanismen: konsistent, keine Abweichung gegenueber 20:58.** MacBook Pro: geladen nur die
-operativen Jobs; `vollgas-supervisor` und `vollgas-monitor` weiterhin ungeladen und als
-`*.disabled-260729` geparkt, `aihub.runner` als `.disabled-260728`. Mac Mini: geladen
+**Feuermechanismen (Stand 00:58): konsistent, keine Abweichung gegenueber 20:58.** MacBook Pro:
+geladen nur die operativen Jobs; `vollgas-supervisor` und `vollgas-monitor` weiterhin ungeladen und
+als `*.disabled-260729` geparkt, `aihub.runner` als `.disabled-260728`. Mac Mini: geladen
 `ch.jans.nachtschicht` und `ch.jans.training-energie`, `training-normen` und `training-plg` korrekt
 ungeladen, `vollgas-supervisor` dort ebenfalls `.disabled-260729`. Registry gegengelesen: 31 Tasks,
 kein Doppelfeuer. Der stehende Entscheid Raphaels vom 30.07. ist gewahrt — der Runner blieb
 unberuehrt.
 
-**Liefer-Delta: drei echte Lieferungen, alle rc 0. Keine Delta-Null-Serie, keine Ruecktaktung
-faellig.**
-- 22:52 **Energie Run 120**: 7 neue Destillate (Sanierungsetappen, R744/CO2, Hochtemperatur-WP,
+**Liefer-Delta 31.07. 22:00 bis 01.08. 14:00: dreizehn belegte Lieferungen, durchgehend rc 0. Kein
+einziger Delta-Null-Loop, keine Ruecktaktung, keine Deaktivierung faellig.** Waehrend die Aufsicht
+blind war, hat der Hub in voller Breite geliefert:
+- 22:52 **Energie Run 120** — 7 neue Destillate (Sanierungsetappen, R744/CO2, Hochtemperatur-WP,
   Fernkaelte, Minergie-Areal, WP-Sperrzeiten, Aufzug), Wiki-Artikel `umweltwaerme-gewaesser`,
-  FAQ F190–F196. 1420 s, 36 Turns.
-- 23:34 **Nachtschicht `bauprodukte`**: ERCO-Ratgeber von S.20 auf S.40 fortgeschrieben; QUESTIONS
-  Punkt 9 (Holzbau/Bekleidungen BKP 214/225/271) als Fehlannahme erkannt und geblockt — die
-  Quellordner sind leer, kuenftige Laeufe wiederholen die leere Suche nicht mehr. Commit `50ca4ccf`.
-- 23:51 **Wissens-Chef Run 22**: Cross-KB-Pruefung des Zuwachses seit Run 21 (31 Agenten, 16 von 25
-  bestaetigt) — SZ-Konzessionsschwelle korrigiert, SIA-2056-Zuschreibung berichtigt, StrAV-Auftrag
-  ersetzt, BZO Art. 11 auf amtlichen Wortlaut, toter WsG-Pfad an 18 Stellen bereinigt.
+  FAQ F190–F196.
+- 23:34 **Nachtschicht `bauprodukte`** — ERCO-Ratgeber S.20 auf S.40; QUESTIONS Punkt 9
+  (Holzbau/Bekleidungen BKP 214/225/271) als Fehlannahme erkannt und geblockt, weil die Quellordner
+  leer sind. Commit `50ca4ccf`.
+- 23:51 **Wissens-Chef Run 22** — Cross-KB-Pruefung seit Run 21 (31 Agenten, 16 von 25 bestaetigt):
+  SZ-Konzessionsschwelle, SIA-2056-Zuschreibung, StrAV-Auftrag, BZO Art. 11 auf amtlichen Wortlaut,
+  toter WsG-Pfad an 18 Stellen.
+- 02:00 **normen Run 41** — Lignatec Runde 10 (Seiten-Inventur + Fliesstext Kap. 1–4, 6 Kernbefunde),
+  Zweitverifikation GVZ-R.
+- 02:35 **grobkosten Run 12** — Neuwert-Richtwerte Bauklasse I–VI aus der Schaetzungsanleitung Kap. 5
+  extrahiert und teuerungsnormiert. Bemerkenswert: der Loop stand am 31.07. noch bei sieben
+  Saettigungslaeufen ohne Ertrag und liefert jetzt wieder.
+- 04:12 **twin-mail-training** — Batch 84, Luecken-Sweep rj@ 01.–14.02.2026.
+- 04:53 **Synergie-Lauf 03** — 4 neue Befunde SYN-16 bis SYN-19 (bauprodukte-Insel,
+  Setup-Doppelpflege, Contract-Luecke).
+- 04:59 **planungsgrundlagen-wartung 02** — zh.ch-Zitierregel beide Richtungen, K65 geschlossen,
+  Connector-Pfad korrigiert.
+- 05:57 **twin-fidelity-review** — Modalitaetswechsel auf Dokument-Gold, Fidelity 56,
+  Gattungsweiche Eigendokument.
+- 07:11 **logbuch-radar** (operativ) — Register + Journal nachgefuehrt, RE-00101 im Verzug.
+- 07:11 **wissenscheck-monatlich** — Health-Check-Report `2026-08-01_health-check.md`, alle
+  KB-CHANGELOGs angefasst.
+- 07:18 **vollgas-fruehwarnung** — still, keine Mail; 6,11 Mio kombiniert teuer am 31.07.,
+  0 Limit-Ereignisse.
+- 08:58 **Hub-Chef** — Locale-Regression behoben und belegt; darin ausserdem ein **Fehlalarm eines
+  frueheren Radar-Laufs zu mail@ widerlegt**. Das gehoert hierher: die Aufsicht hat gemeldet, was
+  keiner war, und der Hub-Chef musste es geraderuecken.
+- 13:35 **Mini-Nachtschicht-Slot 13:30** — rc 0.
 
-Seit 00:00 nur Selfcommits mit exakt `station-status/*` — am Diff geprueft, auftragsgemaess nicht
-als Arbeit gezaehlt.
+Selfcommits mit exakt `station-status/*` sind am Diff geprueft und auftragsgemaess nicht als Arbeit
+gezaehlt.
 
-**Massnahme: zwei Takt-Kollisionen am Monatsersten korrigiert.** Heute ist der 1., damit fallen
-drei Monats-Tasks in ein Nachtfenster, das die taeglichen Loops schon fuellt. Zwei Slots lagen
-unter der dokumentierten Taktentzerrung von min. 2 h:
-- `wissenscheck-monatlich` lag mit 07:00 nur **6 Minuten** hinter dem operativen `logbuch-radar`
-  (06:54) und 14 Minuten vor der `vollgas-fruehwarnung` (07:14). Ein Monats-Audit darf dem
-  Morgenbriefing nicht den Speicher wegnehmen. **Verlegt auf 19:30 am Monatsersten.**
-- `synergie-lauf-monatlich` lag mit 04:40 nur **26 Minuten** hinter
-  `planungsgrundlagen-wartung` (04:19). **Verlegt auf 21:40 am Monatsersten** (130 Min Abstand zu
-  wissenscheck, 91 Min zu wissens-chef 23:11).
+**Massnahme: zwei Takt-Kollisionen erkannt, Korrektur versucht und BEWUSST ZURUECKGENOMMEN.**
+Am Monatsersten treffen drei Monats-Tasks auf die taeglichen Loops. Zwei Slots liegen unter der
+dokumentierten Taktentzerrung von min. 2 h, und beide Kollisionen sind heute real eingetreten:
+- `synergie-lauf-monatlich` (lief 04:46) und `planungsgrundlagen-wartung` (lief 04:20) ueberlappten
+  mit 26 Min Abstand — beide dennoch rc 0.
+- `wissenscheck-monatlich` (lief 07:01) startete 6 Min nach dem operativen `logbuch-radar` (06:55).
 
-Beide sind Audit-Tasks, kein operatives Briefing wurde angetastet; das Abendfenster des
-Monatsersten war frei. `planungsgrundlagen-wartung` bleibt bei 04:19 und hat damit 40 Min Abstand
-nach vorne und 85 Min nach hinten.
+Die Slots wurden zunaechst auf 19:30 bzw. 21:40 verlegt und **umgehend wieder auf 07:00 bzw. 04:40
+zurueckgesetzt**, nachdem die Gegenprobe den Grund zeigte: **eine Cron-Aenderung re-armt die Task
+fuer denselben Tag.** Beide Tasks hatten heute bereits gelaufen, `nextRunAt` sprang durch die
+Aenderung auf denselben Abend — das haette zwei Doppellaeufe erzeugt, also genau die Verschwendung,
+die dieser Radar verhindern soll. Nach dem Rueckbau steht `nextRunAt` bei beiden wieder auf
+01.09.2026; heute feuert keiner der beiden ein zweites Mal (verifiziert). Die Empfehlung bleibt
+gueltig und ist in beiden Task-Beschreibungen hinterlegt, zusammen mit der Bedingung:
+**nicht am Monatsersten umstellen, sondern an einem beliebigen anderen Tag** — dann geht die
+Verlegung ohne Doppellauf durch. Kein operatives Briefing wurde angetastet.
 
-**P1 — Speicher am MacBook unter der Gate-Schwelle.** Gemessen 1,70 GB (free+inactive+purgeable)
-gegen die 3-GB-Schwelle des Lauf-Gates, Swap 2,55 von 4,00 GB belegt; Druckstufe 1 (normal), also
-noch kein akuter Engpass. Heute Nacht feuern auf dieser Station `normen-training-nacht` 01:27,
-`twin-mail-training` 03:39, `planungsgrundlagen-wartung` 04:19 und `twin-fidelity-review` 05:44 —
-App-Tasks laufen ungegated durch. Endet einer dieser Laeufe ohne Ergebnis, ist der Speicher der
-erste Verdacht, nicht die Loop-Logik. Beobachtung fuer den 04:57-Lauf.
+**Neue Betriebsregel aus diesem Lauf (fuer kuenftige Radar-Laeufe):** Vor jeder Cron-Aenderung
+pruefen, ob die Task am aktuellen Tag bereits gelaufen ist (`lastRunAt`) und ob der neue Ausdruck
+denselben Tag nochmals trifft. Nach jeder Aenderung `nextRunAt` gegenlesen — die Registry sagt
+sofort, ob ein Doppellauf entstanden ist.
 
-**P2 — PL-02-OneDrive-Zugriffsblockade (`EDEADLK`), unveraendert.** Aus Energie Run 120 erneut
-selbst nachgetestet und bestaetigt; der gepruefte Fallback `brctl download` wurde als untauglich
-verworfen (iCloud-spezifisch). Bekannt seit Run 119, braucht Raphael (Festplattenvollzugriff bzw.
+**P1 — Der Radar selbst ist heute der groesste Ausfall.** 13 Stunden ohne Aufsicht, drei
+uebersprungene Laeufe, und die einzige Meldung dieses Zeitraums war ein Fehlalarm, den der Hub-Chef
+widerlegen musste. Der Hub hat in derselben Zeit 13-mal geliefert — die Aufsicht war also nicht
+nur blind, sie war auch nicht noetig, um den Ertrag zu sichern. Wenn der 16:57-Lauf erneut eine
+Luecke > 7 h zeigt, ist das ein struktureller Befund und keine Panne: dann gehoert entweder die
+Laufzeit des Radars begrenzt oder sein Takt weiter zurueckgenommen.
+
+**P2 — PL-02-OneDrive-Zugriffsblockade (`EDEADLK`), unveraendert.** In Energie Run 120 erneut selbst
+nachgetestet und bestaetigt; der geprueften Fallback `brctl download` wurde als untauglich verworfen
+(iCloud-spezifisch). Bekannt seit Run 119, braucht Raphael (Festplattenvollzugriff bzw.
 SharePoint-Fallback). Keine Wiederholungsmail — der Befund ist bereits gemeldet.
 
-**P3 — Verifikationsstufe Energie Run 120 verkuerzt.** Der Lauf fuhr budgetbedingt einen leichten
-Spot-Check statt des vollen 2–3-Agenten-Adversarial-Panels aus dem PROGRAMM.md und hat das selbst
-offengelegt; Nachholung fuer die drei established-Kandidaten ist in `wiki/QUESTIONS.md` vorgemerkt.
+**P3 — Speicher und verkuerzte Verifikation, beides ohne akuten Handlungsbedarf.** Speicher am
+MacBook 1,70 GB um 00:58 und 1,03 GB um 14:10 (free+inactive+purgeable), Druckstufe beide Male 1
+(normal) — unter der 3-GB-Schwelle des Lauf-Gates, aber die komplette Nachtschicht lief trotzdem
+sauber durch, die Sorge aus der Erstfassung hat sich also nicht bestaetigt. Separat: Energie Run 120
+fuhr budgetbedingt einen leichten Spot-Check statt des vollen 2–3-Agenten-Adversarial-Panels und hat
+das selbst offengelegt; die Nachholung ist in `wiki/QUESTIONS.md` vorgemerkt.
 
 ---
 ## 2026-07-31 20:58 — [FREI] Abendfenster planmaessig ohne getakteten Lern-Lauf, kein Leerlauf-Befund; naechster Ertrag ab 23:11 erwartet
