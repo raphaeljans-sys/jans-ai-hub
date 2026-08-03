@@ -1,16 +1,22 @@
 # Stations-Status: mac-mini
 
-Stand: 04.08.2026 01:12:41
+Stand: 04.08.2026 01:22:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 11 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 9 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
+- 1 Datei(en): AR - 07 Archiv / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 06 Referenzen / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 05 Transfer / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 04 Honorarauftraege / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
+- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9e9e4e16 vollgas-radar 04.08. 00:57: Fenster FREI, Budget 18% bei 7.7% Woche (+10.3 Punkte Vorsprung), 86 Commits/13h produktiv; Runner weiter ausgebaut, alle Lern-Tasks scharf, kein Delta-Null-Kandidat; P2 Tagesdeckel fehlt, P3 energie-training ohne Registry-Zuordnung
+- a2cd4009 nas-selfcommit: 3 Datei(en) 2026-08-04 01:15
