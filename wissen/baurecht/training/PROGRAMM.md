@@ -143,9 +143,13 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    Strassenrecht (§ 240 PBG, VErV §§ 23/26/27/28 — StrAV per 01.06.2020 aufgehoben) /
    Privatrecht (§ 178 EG ZGB, 1,5 m) / Einordnung
    (§ 238 Abs. 1 PBG). **Kein eigener Wiki-Artikel** — die grösste Lücke; Batch T2.
-5. **Negative Vorwirkung revidierter BZO** — ab wann welche Fassung, «jeweils die strengere»
-   (in [[baureife-und-erschliessung]] nur als planungsrechtliche Baureife § 234 PBG; die
-   Auslegungsfrage der BZO-Revision fehlt). Batch T1.
+5. **Negative Vorwirkung revidierter BZO** — **ERLEDIGT (Run 72, 03.08.2026, Batch T1).**
+   Eigener Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]]: Anknüpfung § 234 PBG
+   («durch den Gemeindevorstand **beantragte** planungsrechtliche Festlegung»), nur negative
+   und nie positive Vorwirkung (VB.2008.00044) → in der Übergangsphase gilt die **jeweils
+   strengere** Bestimmung; Dauer nach § 235 PBG (3 Jahre ab *Geltendmachung*, danach nur noch
+   solange Rechtsmittel/Genehmigung das Inkrafttreten blockieren). Fall Thalwil ausgewertet
+   inkl. artikelweiser Vorwirkungs-Karte (23 von 55 revBZO-Artikeln markiert).
 6. **Einordnung § 238 Abs. 1 PBG als Verteidigungslinie** — «befriedigend, nicht optimal»,
    objektive Massstäbe, darf ein rechtskonformes Vorhaben nicht verhindern, Begründungspflicht
    des ablehnenden Entscheids. Rechtsprechungs-Register aufbauen.

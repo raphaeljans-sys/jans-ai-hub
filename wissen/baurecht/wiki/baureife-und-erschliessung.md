@@ -25,7 +25,9 @@ planungsrechtlich unbedenklich (§ 234 PBG).
   (amtlicher Wortlaut § 236 Abs. 1 PBG: «Behandlung», nicht «Beseitigung»; Art. 19 RPG).
 
 **2. Planungsrechtliche Baureife** — die bauliche Massnahme darf **keine künftige planungsrechtliche
-Festlegung negativ präjudizieren** (§ 234 PBG; befristete Bausperre).
+Festlegung negativ präjudizieren** (§ 234 PBG; befristete Bausperre). Der praktisch häufigste
+Anwendungsfall ist die laufende **BZO-Revision** einer Gemeinde → [[negative-vorwirkung-und-bzo-revision]]
+(dort auch die Regel «es gilt die jeweils strengere Bestimmung» und der ausgewertete Fall Thalwil).
 
 ## Massgebender Zeitpunkt & Umbauten
 

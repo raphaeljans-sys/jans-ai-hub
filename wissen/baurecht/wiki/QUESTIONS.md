@@ -1,5 +1,35 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-08-03 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil: Verfahrensstand und ein Zitat-Flag
+
+**T-01 · Genehmigung und Inkrafttreten der revBZO Thalwil — offen, zu überwachen.**
+Die Revision wurde am **14.06.2026** an der Urne mit 78.81 % festgesetzt. Zum Stand
+03.08.2026 ist weder eine Genehmigung der Baudirektion publiziert noch ein Inkrafttreten
+vermerkt; die Gesetzessammlung Thalwil führt weiterhin **SR 700.1 BZO vom 11.12.2019, in
+Kraft seit 31.08.2024**. Damit gilt die alte BZO, überlagert von der negativen Vorwirkung
+(→ [[negative-vorwirkung-und-bzo-revision]]). **Sobald das Inkrafttreten publiziert ist,
+ist der ganze Artikel Abschnitt 4-6 überholt** und die revBZO wird zur allein massgebenden
+Fassung. Prüfweg: thalwil.ch/bzorevision und Gesetzessammlung SR 700.1. Kein Ratedatum
+setzen — das Inkrafttreten hängt an Rekursen, deren Zahl nicht publiziert ist.
+
+**T-02 · Gibt es eine aktualisierte Vorwirkungs-Synopse nach der Festsetzung?**
+Die ausgewertete Fassung datiert vom **05.09.2025**, also aus der Zeit **vor** der
+Festsetzung. Zwischen Auflage und Festsetzung können Bestimmungen aufgrund der
+Einwendungen geändert worden sein; dann stimmt die Grau-Markierung nicht mehr. Der
+Projektordner enthält keine spätere Fassung (Stand 03.08.2026). Bei der nächsten
+Thalwiler Eingabe bei der Gemeinde nachfragen.
+
+**T-03 · Zitat-Flag im Destillat [[12-baureife]]: «RB 1980 Nr. 113» vs. «RB 1998 Nr. 113».**
+Dasselbe Destillat zitiert in Ziff. 12.2.1.1 (S. 709 f.) «RB 1980 Nr. 113» für das
+Präjudizierungsverbot und in Ziff. 12.2.1.2 (S. 710) «RB 1998 Nr. 113» für den Grundsatz,
+dass ein die künftige Planung begünstigendes Vorhaben bewilligungsfähig bleibt. Zwei
+verschiedene Jahrgänge mit **identischer Nummer 113** sind möglich, aber auffällig — das
+Muster passt zu den in Run 63/67/71 belegten Kompressionsfehlern. **Nicht geraten und
+nicht stillschweigend vereinheitlicht**; der neue Wiki-Artikel zitiert nur die Fundstelle
+aus 12.2.1.2 (RB 1998 Nr. 113), weil sie dort die tragende Aussage stützt. Auflösbar nur
+am Buch (Bd. 2, S. 709 f.) oder an der Rechenschaftsberichts-Sammlung des Verwaltungs-
+gerichts ZH.
+
 ## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — ERLEDIGT: die VSS-40-291-Rampenkennwerte waren nie «dauerhaft offen»
 
 **Befund.** Der Artikel [[fahrzeugabstellplaetze-und-parkierung]] und dieses Register führten die

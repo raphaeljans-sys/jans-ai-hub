@@ -163,7 +163,7 @@ PBG-Wortlaut.
 Das ist die
 Argumentationsbasis, wenn eine BZO-Revision während der Baueingabe in Kraft tritt —
 verbindet sich mit der planungsrechtlichen Baureife (§ 234 PBG, negative Vorwirkung) →
-[[baureife-und-erschliessung]].
+[[baureife-und-erschliessung]], ausführlich → [[negative-vorwirkung-und-bzo-revision]].
 
 ## JANS-Anwendung
 

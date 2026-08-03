@@ -50,7 +50,7 @@ Klassen sauber trennen:
 
 | # | Batch | Inhalt | Ziel in der KB | Status |
 |---|---|---|---|---|
-| **T1** | **BZO-Revision 2025** | `02 BZO Thalwil/_BZO-Revision 2025/`: `20250416-BZO-Vorschriften-Synopse.pdf`, `20250905-Auslegung-negative-Vorwirkung-BZO-Artikel.pdf` | neuer `raw/`-Volltext revBZO Thalwil + neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]] | offen |
+| **T1** | **BZO-Revision 2025** | `02 BZO Thalwil/_BZO-Revision 2025/`: `20250416-BZO-Vorschriften-Synopse.pdf`, `20250905-Auslegung-negative-Vorwirkung-BZO-Artikel.pdf` | neuer `raw/`-Volltext revBZO Thalwil + neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]] | **erledigt** (Run 72, 03.08.2026) |
 | **T2** | **Umgebungsgestaltung** | `02 BZO Thalwil/02 Umgebungsgestaltung/` (Gartenmauern, Vorgarten, Grünanteil) | Wiki [[umgebungsgestaltung-und-einfriedungen]] (neu) | offen |
 | **T3** | **Grundmasse + SBV W3** | `02 BZO Thalwil/01 Grundmasse/`, `Sonderbauvorschrift W3/`, `Zonenplan/` | [[zonenkonformitaet]] + [[nutzungsziffern]] schärfen | offen |
 | **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | offen |
@@ -58,6 +58,24 @@ Klassen sauber trennen:
 | **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | offen |
 | **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | offen |
 | **T8** | **Gegenlesen der Claude-Factsheets** | die drei datierten Factsheets (siehe Echo-Schutz) | Fehlerbericht in `outputs/`, keine Aufnahme als Quelle | offen |
+
+## Erledigt
+
+### T1 — BZO-Revision 2025 (Run 72, 03.08.2026)
+
+- `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md` angelegt (Synopse «Fassung zur
+  Negativen Vorwirkung» vom 05.09.2025, 51 Seiten, dreispaltig).
+- Wiki [[negative-vorwirkung-und-bzo-revision]] neu (§ 234/§ 235 PBG, Strenge-Regel,
+  Verfahrensstand Thalwil, artikelweise Vorwirkungs-Karte).
+- **Die zwei Fassungen sind nicht identisch:** die April-Fassung (16.4.2025, «öffentliche
+  Auflage/Anhörung/Vorprüfung») enthält gegenüber der September-Fassung inhaltliche
+  Abweichungen. Massgebend ist die **September-Fassung**; die April-Fassung dient nur noch
+  als Vergleichsbasis für die Markierungs-Extraktion.
+- **Neue Leitplanke (siehe PROGRAMM):** die Grau-Markierung geht bei jeder Textextraktion
+  verloren und muss aus der Grafikebene gelesen werden.
+- **Fassungsstand-Befund:** die revBZO wurde am 14.06.2026 an der Urne festgesetzt (78.81 %),
+  ist aber weder genehmigt noch in Kraft. Die Queue-Kopfzeile «negative Vorwirkung seit
+  16.05.2025» ist bestätigt (Auflage 16.05.–15.07.2025).
 
 ## Arbeitsregeln je Batch
 

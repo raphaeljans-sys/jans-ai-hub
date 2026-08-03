@@ -177,7 +177,8 @@ Während eine Planung läuft, sichert die **Planungszone** den künftigen Inhalt
 ist nichts zulässig, was die Planung erschweren könnte — **längstens 3 Jahre, verlängerbar
 um längstens 2 Jahre** (§ 346 Abs. 3 PBG; entspricht Art. 27 RPG, S. 124 f.). Dieselbe
 negative Vorwirkung greift über die planungsrechtliche Baureife (§ 234 PBG) →
-[[baureife-und-erschliessung]].
+[[baureife-und-erschliessung]]; für die laufende BZO-Revision einer Gemeinde ausführlich
+→ [[negative-vorwirkung-und-bzo-revision]].
 
 ### Geoinformation / ÖREB-Kataster
 Rechtsverbindliche Planungen sind im Kt. ZH in den **ÖREB-Kataster** zu übertragen und

@@ -2468,3 +2468,45 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   Aufhebungsklausel zur KGSchV. Lehre: die Aufhebung eines Erlasses und die Aufhebung des
   zugehörigen Ausführungserlasses passieren **nicht** zwingend gleichzeitig; beide Ebenen
   einzeln prüfen. _[2026-08-03]_
+
+- **F (Modell D / Fassungsstand, kommunal):** Die Stimmbevölkerung von Thalwil hat die BZO-Revision
+  am 14.06.2026 mit 78.81 % angenommen. Ein Bauherr am **Bohlweg 3** fragt, ob er sein Projekt
+  jetzt nach der neuen BZO bemessen darf. — **A:** **Nein.** Die Festsetzung durch die
+  Stimmbevölkerung ist erst der zweite von vier Schritten; es fehlen **Genehmigung durch die
+  Baudirektion** und **Inkrafttreten**. Zum Stand 03.08.2026 ist beides nicht publiziert, und die
+  Gesetzessammlung Thalwil führt weiterhin **SR 700.1 BZO vom 11.12.2019, in Kraft seit
+  31.08.2024**. Massgebend bleibt also die alte BZO, überlagert von der negativen Vorwirkung nach
+  **§ 234 PBG**. Die Festsetzung hat die Vorwirkung nur auf den **zweiten Satzteil von § 235 PBG**
+  gestellt (die rechtzeitig erlassene Festlegung kann wegen Rechtsmitteln noch nicht in Kraft
+  gesetzt werden). Lehre: bei kommunalen Erlassen sind **Festsetzung ≠ Genehmigung ≠
+  Inkrafttreten** — ein Abstimmungsresultat in der Zeitung ist kein Fassungsstand.
+  _[2026-08-03]_
+
+- **F (Modell D / Anwendung, Fall Bohlweg 3):** Welche Bestimmungen der revBZO Thalwil muss eine
+  Baueingabe heute einhalten — und welche gerade nicht? — **A:** **Nur die in der Synopse grau
+  hinterlegten**, und zwar **absatz-, teils zellengenau, nicht artikelweise**. Markiert sind 23 der
+  55 Artikel. Konkret: aus **Art. 31 revBZO (Grundmasse)** wirken nur die **Min. Grünflächenziffer**
+  (W2a/W2b/WG2/W3 je 40 %, WG3/WG4/WG5 je 35 %), die **max. Gebäudelänge 25.00 m in der W2b**
+  (bisher 30.00 m) und die Streichung des Vollgeschoss-Zuschlags bei Arealüberbauungen vor —
+  **nicht** Ausnützungsziffer, Vollgeschosse, Fassadenhöhen oder Grundabstand, weil die neuen
+  Höhenmasse **milder** sind. **Art. 45 revBZO (Klein- und Anbauten) wirkt gar nicht vor.**
+  **Art. 50 revBZO (Umgebungsgestaltung) dagegen fast vollständig**: Vorgarten im Strassenabstands-
+  und Baulinienbereich, max. die Hälfte versiegelt (Abs. 1 lit. b), Fällbewilligung ab
+  **Stammumfang 100 cm** (lit. c), **ein Baum je 500 m² anrechenbare Grundfläche** (lit. d), je mit
+  dem Vorbehalt «Abweichungen möglich, wenn die ordentliche Grundstücksnutzung übermässig
+  erschwert wird». Lehre: **es gilt die jeweils strengere Bestimmung** — deshalb wirkt nur vor, was
+  verschärft; eine Behördenauflage auf eine *nicht* markierte revBZO-Stelle ist angreifbar, weil
+  § 234 PBG **keine positive Vorwirkung** kennt (VB.2008.00044). _[2026-08-03]_
+
+- **F (Modell A / Methodik):** Ein Planungsbüro liefert die Revisionssynopse als PDF, die
+  massgebenden Bestimmungen seien «grau hinterlegt». Man extrahiert den Text und arbeitet damit.
+  Was geht schief? — **A:** **Die Markierung verschwindet.** Grau ist ein Füllrechteck im
+  Content-Stream, kein Zeichen; `pdftotext`, Copy-Paste und jede LLM-Textextraktion liefern
+  markierte und nicht markierte Bestimmungen **ununterscheidbar**. Wer so arbeitet, wendet
+  entweder die ganze neue BZO an (verbotene positive Vorwirkung) oder keine (verpasste negative
+  Vorwirkung). Auswertbar ist es nur über die Grafikebene: Füllfarbe aus dem Content-Stream lesen
+  (hier `sc 0.8509804` = #D9D9D9), gegen eine **unmarkierte Vergleichsfassung** als Grundrauschen
+  abgleichen (in der April-Fassung ist nur das Tabellen-Kopfband grau) und am **gerenderten Pixel**
+  gegenprüfen. Lehre allgemein: **visuelle Rechtsinformation ist Information** — Markierung,
+  Durchstreichung, Farbe im Rotdruck. Geht sie bei der Extraktion verloren, ist der extrahierte
+  Text nicht die Quelle, sondern eine stillschweigend beschädigte Fassung. _[2026-08-03]_
