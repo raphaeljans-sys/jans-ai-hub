@@ -3,6 +3,39 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — RE-00087 nachgeführt: Duplikat-Flag als zweiter Blocker, offene QUESTIONS-Frage teilbeantwortet
+
+- Priorität 3 (Fristen-Radar) und Priorität 4 (Trainings-KB) geprüft: fristen.md zeigt 58
+  `offen`-Einträge, alle innert der letzten Woche aktiv bearbeitet (nichts Überfälliges/
+  Vergessenes über die bestehende Cockpit-Praxis 31.07. hinaus) — kein Entwurf nötig.
+  `projekt-lessons` ist die am längsten unberührte freie Trainings-KB (Wiki zuletzt 31.07.,
+  vor `bauprodukte`/`grobkosten` 01.08.). Gesuchter Kandidat für den fehlenden Fokus-Bereich
+  «Bauen im Betrieb» im Logbuch-Journal nicht gefunden (Nullbefund, siehe `wiki/QUESTIONS.md`
+  — bleibt offen für einen Lauf mit Zugriff auf die gesperrte Projektordner-Pipeline).
+- Stattdessen frisches, hochrelevantes Material zur bestehenden Lesson
+  [[kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087]] entdeckt: ein Mail-Thread vom
+  03.08.2026 (rj@raphaeljans.ch ↔ Michael Spörri, KISPI HLKKS) zeigt, dass RE-00087 zwischen-
+  zeitlich bereits Mahnstufe 3 erreicht hatte (09.07., vom bisherigen KB-Stand nicht erfasst)
+  und dass der Direktkontakt zu einem benannten technischen Ansprechpartner zwei der drei
+  offenen Rechnungen (RE-00098/99) binnen einer Stunde löste. RE-00087 selbst zeigt einen
+  neuen, konkreteren Blocker: KISPIs Buchhaltungsprogramm führt sie als Duplikat einer
+  Rechnung «BC304304495»; Auflösung steht aus (Cornelia Schäfer). Raphael hat parallel eine
+  Zahlungsnachforschung über die UBS eröffnet.
+- Neues Destillat `raw/260803-kispi-re00087-zahlungsnachforschung.md` (Stufe A, 4 belegte
+  Aussagen, Spannung zur bestehenden Auftragsbestätigungs-These offen benannt statt
+  aufgelöst). Bestehender Artikel um Abschnitt «Update 03.08.2026» ergänzt (status bleibt
+  `emerging` — neue Ursache ist noch nicht verifiziert), `sources` im Frontmatter ergänzt.
+  `wiki/QUESTIONS.md` nachgeführt: alte Frage teilbeantwortet, neue offene Frage (Duplikat
+  BC304304495 real oder Fehleintrag?) gesetzt — bexio-Gegenprüfung auf dieser Station mangels
+  `~/.bexio.env` nicht möglich.
+- Quelle bewusst der Live-Mail-Thread (verifizierbare Primärquelle über `mdfind`/OneDrive),
+  nicht die gesperrte KISPI-Projektordner-Pipeline (`training/PROGRAMM.md`, Abschnitt
+  «Freigabe» — weiterhin unangetastet). OneDrive-Pfade mit `–`-Sonderzeichen über Symlink
+  `/tmp/onedrive-jans` gelesen (Rule `osascript-apple-apps.md`); `.eml`-Dateien liessen sich
+  wegen Unicode-Normalisierung (NFC/NFD) nur über `os.listdir`-Glob öffnen, nicht über
+  getippte Pfade — für künftige Läufe gegen dieselbe OneDrive-Struktur relevant.
+  Kein Versand/Publikation/Buchung. Zyklus ~3.9 von 5 USD, via `nas-commit-now.sh` committet.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D1 · E0 · F11 · G0
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Dreifach-Klammer-Tippfehler in `kispi-behoerden-zustaendigkeitswechsel-1171-26. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

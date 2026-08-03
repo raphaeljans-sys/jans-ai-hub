@@ -20,8 +20,8 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 ### Koordination & Kommunikation
 - [[kispi-behoerden-zustaendigkeitswechsel-1171-26]] — KISPI 1171/26: UGZ- und AFB-Zuständigkeiten wechseln mitten im Verfahren (Fallgrösse bzw. Gebiets-/Team-Zuteilung), ohne Mitteilung ans Projekt; Lesson: bei länger laufenden Verfahren die aktuelle Zuständigkeit aktiv verifizieren statt am zuletzt bekannten Kontakt festzuhalten
 
-## Statistik (Stand 2026-07-31)
-- Artikel im Wiki: 5 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26 — status established; kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087 — status emerging, 2 unabhängige Nebenbelege)
+## Statistik (Stand 2026-08-03)
+- Artikel im Wiki: 5 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26 — status established; kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087 — status emerging, 03.08. um zweiten Blocker/Update ergänzt)
 - Letzter Health-Check: 2026-07-25 (siehe outputs/2026-07-25_health-check.md)
 
 > Befüllung: Roh-Material in `raw/` ablegen → kompilieren lassen. Siehe `CLAUDE.md`.

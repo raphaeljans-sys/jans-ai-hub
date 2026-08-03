@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 13:27:43
+Stand: 03.08.2026 13:37:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:24)
@@ -14,4 +14,4 @@ Stand: 03.08.2026 13:27:43
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- c56a5011 energie+runner: Doppellauf-Sperre gehaertet (EXCLUDE_RE + case-insensitiver Namensmatch), Kollisionsreport 30.07. bereinigt/umdatiert, Taktmessung Runs 111-120
+- ffac56e8 energie/PROGRAMM: Verifikations-Stufe geschaerft (Refuter-Aussage woertlich zitieren, Beanstandung selbst gegenpruefen, Alterskorpus braucht Aktualitaetspruefung statt Refuter-Panel) - Lehre Run 121

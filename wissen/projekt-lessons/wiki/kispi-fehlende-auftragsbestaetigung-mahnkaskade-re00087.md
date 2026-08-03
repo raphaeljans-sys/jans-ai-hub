@@ -1,9 +1,10 @@
 ---
 title: "KISPI RE-00087: eine fehlende Auftragsbestätigung blieb drei Monate lang unsichtbar, weil das Mahnwesen nur zählt, nicht diagnostiziert"
 status: emerging
-last_updated: 2026-07-31
+last_updated: 2026-08-03
 sources:
   - raw/260731-kispi-fehlende-auftragsbestaetigung-mahnkaskade.md
+  - raw/260803-kispi-re00087-zahlungsnachforschung.md
 links:
   - kispi-behoerden-zustaendigkeitswechsel-1171-26
 tags:
@@ -79,3 +80,33 @@ ins Briefing an Raphael — nicht erst nach Monaten mechanischen Zählens.
 
 Mit diesem Artikel ist der in `wiki/QUESTIONS.md` benannte fünfte Fokus-Bereich «Kosten &
 Termine» erstmals belegt (5. Artikel der KB, 4. thematisch neuer Bereich von 5).
+
+## Update 03.08.2026 — Diagnose erweitert: Direktkontakt löst zwei von drei Rechnungen, RE-00087 zeigt einen zweiten, konkreteren Blocker
+
+Zwischenzeitlich hatte RE-00087 bereits am 09.07.2026 Mahnstufe 3 erreicht (Stand des obigen
+Artikels, 31.07., nannte noch Stufe 2 — der Automatismus hatte die dritte Stufe nicht sichtbar
+nachgeführt). Am 03.08.2026 bündelt Raphael die drei offenen Rechnungen erneut und sendet sie
+erstmals nicht an Rechnungswesen (Marc Tobler) oder TEC (Albin Spahic), sondern an Michael
+Spörri, Teamleiter HLKKS / Stv. Leiter Technischer Dienst — einen bislang in der Zahlungssache
+nicht direkt kontaktierten, aber intern anschlussfähigen Ansprechpartner.
+
+Ergebnis binnen einer Stunde: RE-00098 und RE-00099 werden von Spörri sofort kontiert (Lesson
+bestätigt sich — der richtige Adressat löst, was Tage-Zählen nicht löst). RE-00087 bleibt
+offen, aber mit einer neuen, konkreteren Ursache: Spörris eigenes Buchhaltungsprogramm führt
+sie als **Duplikat** einer anderen Rechnung («BC304304495»); er leitet sie an Cornelia Schäfer
+weiter und hat selbst keinen Zugriff auf die vermeintliche Duplikat-Rechnung. Raphael eröffnet
+darauf aktiv eine Zahlungsnachforschung über die UBS und fordert von KISPI den Zahlungsbeleg
+(Ausführungs-/Valutadatum, Betrag, IBAN, Referenz) — ohne Beleg gilt die Rechnung laut seiner
+eigenen Formulierung als unbezahlt und fällig.
+
+**Einordnung, nicht aufgelöst:** Ob das Duplikat-Flag die «fehlende Auftragsbestätigung» als
+Ursache ablöst oder ob beides zusammenhängt (z. B. eine unklare Auftragsgrundlage, die auch
+im Buchhaltungssystem des Debitors zu Verwechslungen führt), ist aus dem Thread nicht zu
+beantworten — offene Frage in `wiki/QUESTIONS.md`. Bestätigt und verstärkt wird dagegen die
+Kernregel: die entscheidende Diagnose kam wieder erst durch Raphaels eigenes, gezieltes
+Nachfassen bei einer benannten Person, nicht aus einem Automatismus. Neu dazu: der **richtige
+Ansprechpartner** (operativ/technisch statt nur Rechnungswesen) kann eine Blockade lösen, die
+über Wochen bei der Finanzabteilung feststeckt — ein Eskalationsmuster, das die «Regel für
+nächstes Mal» oben ergänzt, sobald sich der Fall ein zweites Mal bestätigt.
+
+Quelle: `raw/260803-kispi-re00087-zahlungsnachforschung.md`.

@@ -18,11 +18,17 @@ geplante Artikel.
   "Fehlerfall" (Situation→Ursache→Konsequenz→Regel). Der erste Artikel ist aber eine
   "Verifikation" (Vorgabe X war korrekt) mit eigener Struktur. Bei einem zweiten Fall
   dieser Art: pruefen, ob ein zweiter zulaessiger Artikeltyp in CLAUDE.md ergaenzt wird.
-- Aus [[kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087]]: unklar, ob KISPI die
-  fehlende Auftragsbestaetigung nach Raphaels Mail vom 21.07. inzwischen nachgereicht hat
-  (Logbuch-Stand 31.07. zeigt RE-00087 unveraendert auf Mahnstufe 2, das ist ein Indiz, kein
-  Beleg). Bei naechster Gelegenheit gegen bexio/Mail-Fortgang pruefen und Artikel-Status ggf.
-  auf `established` heben oder mit Aufloesung ergaenzen.
+- **Teilbeantwortet (03.08.2026, Nachtschicht Mac Mini, Versuchs-Slot):** die fehlende
+  Auftragsbestaetigung war zum Zeitpunkt 31.07. nicht nachgereicht (RE-00087 erreichte
+  stattdessen bereits am 09.07. Mahnstufe 3). Am 03.08. taucht ein zweiter, konkreterer
+  Blocker auf: KISPIs eigenes Buchhaltungsprogramm fuehrt RE-00087 als Duplikat einer
+  Rechnung "BC304304495"; der kontaktierte Mitarbeiter (Spoerri) hat selbst keinen Zugriff
+  darauf und hat den Fall an Cornelia Schaefer weitergeleitet. **Weiterhin offen:** ob
+  BC304304495 eine reale Zahlung belegt oder ein Fehleintrag ist — Antwort Schaefer steht
+  aus; bexio war auf dieser Station ohne hinterlegten Token nicht abrufbar (kein
+  `~/.bexio.env`), Pruefung dort nachholen sobald verfuegbar. Bei Klaerung: Artikel-Status
+  ggf. auf `established` heben und pruefen, ob die Auftragsbestaetigungs- und die
+  Duplikat-Ursache zusammenhaengen oder unabhaengig sind.
 
 ## Cross-Article-Spannungen (worth resolving)
 - (leer)
