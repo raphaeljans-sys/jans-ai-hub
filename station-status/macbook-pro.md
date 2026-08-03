@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.08.2026 12:42:09
+Stand: 03.08.2026 12:52:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 12:42:09
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- d9f9e02f wissen/planungsgrundlagen: Umlaute-Ersatzschreibungen (ae/oe/ue) im Wiki-Fliesstext korrigiert (36 Dateien geprueft, 18 mit Fund)
+- 3f05f06a nas-selfcommit: 7 Datei(en) 2026-08-03 12:45

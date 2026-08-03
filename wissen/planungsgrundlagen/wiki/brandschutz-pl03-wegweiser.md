@@ -987,7 +987,7 @@ Ziff. 3.3.1: Beherbergung [b]/[c] bei geringer Höhe = QSS 2) oder einer objekts
 Festlegung durch die Brandschutzbehörde, die dieselbe Ziffer ausdrücklich zulässt
 («Objektspezifisch kann die Brandschutzbehörde eine höhere oder tiefere QSS festlegen»).
 
-> **Merksatz für Modus B:** Bei jedem Uebernachtungsbau **zwei** Schwellen prüfen, nicht eine. Die
+> **Merksatz für Modus B:** Bei jedem Übernachtungsbau **zwei** Schwellen prüfen, nicht eine. Die
 > Personenzahl entscheidet über die Nutzung, die Schlafnutzung über die Gebäudekategorie — und
 > die QSS hängt an beiden. QSS 2 heisst: ein QS-Verantwortlicher Brandschutz gehört ins Team, mit
 > Honorarfolge BKP 298.5.
