@@ -1,5 +1,9 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Einziger substanzieller Befund: kein `raw/_INGESTED.md` bei 93 raw-Dateien — alle sind zwar zitiert (Audit D auf 0), aber ohne Register nicht nachweisbar, was als eingearbeitet gilt. Sonst sauber, 71/71 Artikel `established`. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 — ETAPPE 4, VERTIEFUNGSLAUF 01 (V1, Teilnahme 2408 BIWAK/Grassen)
 
 - **[steuerung/ehrlichkeit]** **V1 ist nach diesem Lauf erschöpft — und zwar aus

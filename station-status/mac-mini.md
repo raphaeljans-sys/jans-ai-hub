@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 23:21:58
+Stand: 03.08.2026 23:32:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:59)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:31)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 23:21:58
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- c678c4a0 nas-selfcommit: 2 Datei(en) 2026-08-03 23:15
+- 9ea30192 normen-run42: PL-02-Kern-Nachtrag abgeschlossen (68/69) — 22 neue Destillate, 9 Refuter-Runden (16 Kern-/36 Nebenbefunde), SWKI-Bemessungskern + Kap. 2.7/4-9 ergaenzt, Sichtbeton XD2a-Ueberdeckung korrigiert

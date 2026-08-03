@@ -425,7 +425,8 @@ Nachhaltigkeitsanforderungen im Projekthandbuch, Ziff. 2.1/2.5).
 Ordnet die Fachstellen-Leistungen den 7 Meilenschritten (§6.3) zu und benennt die intern
 zuständigen Kürzel (GUH/KET/SIM/KAW/POM/LAA) — Meilenschritt 1+2 MINERGIE-Bau/-Technik
 (Checks Gebäudehülle/Energieversorgung, Nachweis Behaglichkeit), Meilenschritt 3 MINERGIE-
-Beleuchtung/-Lüftung nach **SIA 380/4**, Meilenschritt 5 Bauökologie (Materialisierungs-Check,
+Beleuchtung/-Lüftung nach **SIA 380/4** (archiviert seit 31.07.2019, heute SIA 387/4 / SIA 2056 —
+siehe Vermerk beim Beleuchtungsnachweis weiter unten), Meilenschritt 5 Bauökologie (Materialisierungs-Check,
 Devis-/Materialdeklarationskontrolle vor Vergabe, Baustellenkontrolle) + Innenraumklima
 (Schadstoff-Check, Abschlussmessungen, Elektrosmog), Meilenschritt 6 Wettbewerbsvorprüfung nach
 **Snarc/Vitruvius**. Nur für städtische Bauprojekte gültig (Fussnote im Original).
@@ -894,7 +895,13 @@ Wärmeerzeugung nach dynamischem Tages-/Jahresgang, **Leistungsreserven grundsä
 vermeiden** (Ausnahme explizit auszuweisen); jede Anlage braucht eine **Serviceschaltung** für
 zeitweisen Volllastbetrieb unabhängig vom aktuellen Bedarf. Gas-/Ölfeuerung: modulierend mit
 gleitender Kesseltemperatur + Brennwerttechnik Standard; **Konformitätsnachweis Art. 20a LRV**
-bis 350 kW, **Abnahmemessung Pflicht >350 kW**. Wärmepumpen: JAZ **inkl. Förderenergie**
+bis 350 kW, **Abnahmemessung Pflicht >350 kW** [**TOTER VERWEIS — Art. 20 und Art. 20a LRV sind
+aufgehoben** durch Ziff. I der V vom 20. Okt. 2021, **mit Wirkung seit 1. Jan. 2022** (AS 2021
+632). Die Konformitätsnachweis-Pflicht ist damit **entfallen** — nicht bloss «älter geworden».
+Weiterhin gelten die Emissionsbegrenzung und die periodische Feuerungskontrolle nach Art. 13
+Abs. 3 LRV. Am Fedlex-Volltext SR 814.318.142.1 (Konsolidierung 01.01.2026) nachgelesen;
+Zweitbeleg im Hub: `../../baurecht/raw/260713_amtlich_ch_lrv.md`. Führend für den Erlassstand
+ist die KB `baurecht`. *(Wissens-Chef Run 24, 03.08.2026.)*]. Wärmepumpen: JAZ **inkl. Förderenergie**
 messtechnisch nachzuweisen (Systemgrenze aufzeigen), separater Stromzähler für ewz-WP-Tarif,
 D-A-CH-Gütesiegel im unteren Leistungsbereich, Erdsonden-Druckprüfung/Durchflusstest nach
 DIN V 4279-7. Wärmeverteilung: Pumpen knapp dimensioniert (Permanentmagnet <200 W, sonst
@@ -970,7 +977,11 @@ Ziele: standardisierte, einfache Nutzersteuerung, **keine Eigenentwicklungen**, 
 wirkungsgrad Leuchten 70–90 % (Ausnahme repräsentative Zonen). Projektierung nach **EN 12464-1**
 + Normen der Schweizer Lichtgesellschaft; Leuchtmittel **EU-Effizienzklasse A**, Long-Life-
 Fluoreszenzröhren T8/T5, Halogen-Niedervoltlampen zu vermeiden. Nachweis elektrische Energie
-nach SIA 380/4; **bei Bausumme >ca. 5 Mio. CHF drei gestaffelte Nachweise** (Projekt/
+nach SIA 380/4 [**ARCHIVIERTE NORM — SIA 380/4:2006 ist seit 31.07.2019 nicht mehr gültig.** Der
+heutige Nachweisweg für Beleuchtung läuft über **SIA 387/4 / SIA 2056**, im Kanton Zürich
+vollzogen über EVEN mit **Formular EN-111** (siehe `../../energie/wiki/energie-energienachweis-zh-formulare.md`).
+Es ist kein blosser Altersvorbehalt: der Nachweisweg selbst ist ein anderer. Führend für den
+Fassungsstand ist die KB `normen`. *(Wissens-Chef Run 24, 03.08.2026.)*]; **bei Bausumme >ca. 5 Mio. CHF drei gestaffelte Nachweise** (Projekt/
 Ausschreibung/Übergabe) einzureichen; MINERGIE-Grenzwert Beleuchtung bei Nicht-Wohnbauten
 zwingend einzuhalten. Steuerung: **halbautomatisch** (Abschaltung nach Präsenz 15 Min./
 Tageslicht >800 Lux, Einschalten manuell — Anwendung Büros/Sitzungszimmer/Schulzimmer) vs.

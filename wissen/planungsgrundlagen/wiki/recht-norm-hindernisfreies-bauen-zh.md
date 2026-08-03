@@ -59,11 +59,29 @@ Rechtsgrundlage in ZH: **PBG §§ 239a/239b** neben BehiG/BehiV.
 
 | Lage | Kabinenbreite × -tiefe |
 |---|---|
-| Im Gebäudeinneren, Standard | **min. 1.10 × 1.40 m** |
-| Im Gebäudeinneren, erhöhte Anforderung | **1.40 × 1.40 m** |
+| Im Gebäudeinneren, Türen an der Schmalseite oder gegenüberliegend (Durchlader) | **min. 1.10 × 1.40 m** |
+| Im Gebäudeinneren, **Türen über Eck angeordnet** | **zwingend min. 1.40 × 1.40 m** |
 | Im Aussenraum | **min. 1.10 × 2.00 m** |
 | Über/unter Eingangsgeschoss bei **> 5 Geschossen**, Krankentransport (**§ 40 BBV I**) | **1.10 × 2.10 m** |
 | **Bedingt hindernisfrei** (nur begründete Ausnahmefälle, Umbau) | 1.00 × 1.25 m |
+
+> **BERICHTIGT — Wissens-Chef Run 24, 03.08.2026.** Die zweite Zeile stand bis heute als
+> «erhöhte Anforderung» in der Tabelle und las sich damit als **freiwillige Komfortstufe**.
+> Sie ist es nicht: **1.40 × 1.40 m ist bei über Eck angeordneten Kabinentüren zwingend.**
+> Fundstelle am Original: **SIA 500:2009 Ziff. 3.7.4** — «Die Kabinentüren sind an den
+> Schmalseiten der Aufzugskabine anzuordnen, vorzugsweise zur Ermöglichung der Durchfahrt an
+> gegenüberliegenden Seiten. Übereck angeordnete Kabinentüren sind zulässig, wenn das
+> Kabinenmass mindestens 1,40 m x 1,40 m beträgt.» Vollzugs-/Auslegungsbeleg:
+> [[../../normen/destillate/ugz-hindernisfreie-aufzuege-2010]] (Merkblatt März 2010, drei
+> Figuren) und die SIA-500-Auslegung A07.
+> **Warum das übersehen wird:** Tabelle 4 (Ziff. 3.7.3) führt nur die Kabinenmasse; die
+> Bedingung steht **eine Ziffer später** in 3.7.4. Wer nur die Tabelle liest, hält 1.10 × 1.40 m
+> auch bei Über-Eck-Türen für zulässig und baut eine Kabine, in der nicht gewendet werden kann —
+> ein baulich nicht mehr korrigierbarer Fehler.
+> **Fassungsvorbehalt:** Ziff. 3.7.3 **und** 3.7.4 sind durch **SN 521500/C4:2019** (gültig ab
+> 01.10.2019) geändert; der C4-Wortlaut ist im Hub nicht ausgewertet (P1 in
+> `normen/wiki/QUESTIONS.md`). Die Angaben oben sind der Stand der Basisausgabe 2009 und vor
+> jeder Bemessung oder LV-Verwendung am Korrigendum gegenzulesen.
 
 **Weitere Fixmasse:** Türöffnung im Licht min. 0.80 m; Handlauf min. 1 Seite (SN EN 81-70
 Ziff. 5.3.2.1); Bedientableau vor dem Aufzug 1.40 × 1.40 m, Befehlsgeber 0.80–1.10 m über Boden,

@@ -3,6 +3,10 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B24 · C10 · D0 · E0 · F3 · G3
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befund: 10 Wiki-Artikel ohne `title:`/`sources:` im Frontmatter (formaler Verstoss gegen die verschaerfte Quellenpflicht der KB), 41 echte Deko-Symbole in `wiki/QUESTIONS.md` (40x Haken). **Audit D auf 0 korrigiert:** die 42 unzitierten raw-Dateien sind die kommunalen BZO-Volltexte, in `raw/_INGESTED.md` Z. 19 als Direktkonsultation registriert — kein Coverage-Befund. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — § 259 PBG: Fassungs-Weiche nachgetragen
 
 - **[veraltetes, ausnutzungsrelevant] `wiki/nutzungsziffern.md`.** Der Abschnitt zur Bezugsgroesse

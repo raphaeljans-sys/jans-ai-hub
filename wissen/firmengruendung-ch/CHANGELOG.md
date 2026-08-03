@@ -3,6 +3,10 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Sauberste KB des Wissens-Layers: keine B/C/D/E-Befunde, 15/15 Artikel `established`, mit 5 ae/oe/ue-Treffern niedrigster Umlaut-Rueckstand aller KBs. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Sauberste grosse KB im Bestand. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

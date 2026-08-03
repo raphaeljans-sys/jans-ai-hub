@@ -3,6 +3,35 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B3 · C0 · D0 · E0 · F2 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Die drei B-Befunde sind Schema-Abweichungen (kein `wiki/`, kein `INDEX.md`, kein `raw/_INGESTED.md`) — als Register-KB nachvollziehbar, aber nirgends festgehalten. Empfehlung: in `CLAUDE.md` ausdruecklich festschreiben, sonst wird es monatlich neu als Fehlbestand gemeldet. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
+## 2026-08-03 — Synergie-Lauf 04 (Struktur-Aufsicht, Skill `synergie-orchestrator`)
+
+- **Bericht:** `outputs/2026-08-03_synergie-lauf-04.md`. Delta-Basis 01.08. 14:20 – 03.08. 23:30,
+  leichtgewichtiger Inline-Lauf ohne Fan-out. Register: SYN-20 bis SYN-22 neu.
+- **SYN-20 (Typ 1):** der neue Skill `energie` (03.08., loest PL-04 ab) ist einseitig verdrahtet —
+  er benennt neun Fach-Skills und den Agenten `energie-berater`, aber **0 von 10** nennen ihn
+  zurueck. Einzige gesetzte Rueckkante: `planungsgrundlagen` (Z. 29, 65–70). Zweitens fehlten
+  alle drei Contract-Pflichtfelder; **im Lauf nachgetragen** (active-with-flagging, mechanisch).
+- **Muster statt Einzelfall:** zweiter neuer Skill in Folge ohne Graph-Felder (nach SYN-18,
+  `wissens-destillat`); dazu weiterhin vier Skills ganz ohne Contract-Block (SYN-14, nachgemessen).
+  Empfehlung: mechanische Contract-Pruefung in `heartbeat`/`wissenscheck` einhaengen.
+- **SYN-21 (Typ 1):** Service S6 «Energie-Vorabklaerung» fuehrt in der Pipeline weiterhin den
+  Agenten `energie-berater` (PL-04) statt den nun fuehrenden Skill `energie`. Nicht selbst
+  geaendert — Katalog ist Produkttext, Freigabe Raphael noetig.
+- **SYN-22 (Typ 1):** Nebenwirkung der Grundkontext-Diaet — der DNA-Feinregelsatz liegt seit dem
+  03.08. in der nicht importierten `rules/jans-dna-facetten.md`. Vier Konsumenten wurden explizit
+  verdrahtet, neun texterzeugende Bausteine (LinkedIn-Strang, `bericht-autor`, `website-content`,
+  `marketing`, `protokoll`, `telesales`) haben je 0 Treffer. Keine harte Kappung (die
+  Leseanweisung steht im importierten Kern), aber ein Verlaesslichkeitsgefaelle — verschaerft
+  SYN-08.
+- **Nachgemessen ohne Delta:** SYN-02 (`volumen_generator.py` unveraendert), SYN-13 (Etappe 4 vom
+  03.08. vertiefte 2408 BIWAK, nicht Healthcare — weiterhin kein `typologien/healthcare.md`).
+- **Takt-Befund:** der als monatlich gefuehrte Task lief 25.07./01.08./03.08.; Empfehlung
+  naechster Lauf fruehestens 01.09.2026.
+
 ## 2026-08-03 — Wissens-Chef Run 23 (Cross-KB, 30 Agenten)
 
 - **Bericht:** `outputs/2026-08-03_wissens-chef-run23.md`. Sechs Felder, 46 gemeldete Befunde,

@@ -42,6 +42,29 @@
   und entscheidet den Sitzhöhen-Konflikt aus K42-4. Höchste Priorität unter den offenen
   Lese-Aufträgen, weil drei KBs auf die Antwort warten. *(Aufgenommen Wissens-Chef Run 23.)*
 
+  > **BEANTWORTET — Wissens-Chef Run 24, 03.08.2026, am Original-PDF.**
+  > **Die Sitzhöhe beträgt 0,46 m (OK Brille). Die 50 cm der KL_Hochbau-Katalogblätter sind
+  > widerlegt.**
+  > - **Fundstelle:** SIA 500:2009, **Anhang E**, Schnitt zu **Figur E.1 (S. 49)** und
+  >   **Figur E.2 (S. 51)**: Bemassung «**+ 0.46 (OK Brille)**». Derselbe Anhang, Positionslegende
+  >   **M**: «Klappsitz 0,46 m über Boden, Ausladung mindestens 0,45 m»; Position **S**: «Sitzbank
+  >   bzw. Liege 0,46 m über Boden».
+  > - **Zweitbeleg, unabhängig und am selben Tag in die KB gekommen:**
+  >   [[procap-mb105-2009-rollstuhlgerechte-toiletten]] führt für Pos. F «OK Brille (Sitzhöhe)
+  >   **+0.46 m**» (S. 2-4) — es ist die erste ausdrücklich SIA-500-bezogene Quelle im Bestand,
+  >   die das Mass trägt. Dazu ZHB 2005, Plan7-Katalog, DIN 18040-1.
+  > - **Nachgezogen in:** [[kl-hochbau-sanitaer-katalogblaetter]] (Vorbehalt aufgelöst),
+  >   `planungsgrundlagen/wiki/recht-norm-sanitaerraeume-planungsgrundlagen.md` (Sitzhöhen-Vorbehalt
+  >   aufgelöst, Wert freigegeben), [[sia-500-2009]] (`gelesen`-Feld).
+  > - **Anhang E ist damit nicht vollständig gelesen**, nur die Sanitär-Figuren E.1/E.2 und die
+  >   Positionslegenden. Die übrigen Detailmasse (E.3 Dusche, E.4/E.5) bleiben offen — neuer,
+  >   kleinerer Leseauftrag **K42-4b**.
+
+- **K42-4b Anhang E vollständig** (S. 42-60): E.3 Dusche, E.4/E.5 sowie die vollständigen
+  Positionslegenden sind über die in K42-4a gelesenen Figuren E.1/E.2 hinaus noch nicht
+  ausgewertet. Geringere Priorität als K42-4a, weil kein KB darauf wartet.
+  *(Aufgenommen Wissens-Chef Run 24.)*
+
 ### SWKI VA103-01 (Anschluss an S41, [[swki-va103-01-2017]])
 - **S42-1** Anhang D (Anwendungsbeispiele S. 81-94), Anhang E (Simulationsnachweis-Methodik
   S. 95-106) und Anhang F sind weiterhin nicht destilliert.

@@ -20,6 +20,18 @@ grösste Wissensbasis des Hub und weit über dem Punkt, an dem der Umweg über
   Format der KB: Kurz-Antwort für den Bauherrn / fachliche Begründung / Quelle und Datenstand.
 - **Nicht-Ziel:** Rechtsberatung; Ersatz des Energienachweis-Fachplaners; Wiedergabe ganzer
   Norm-Passagen (Urheberrecht — nur kurze Zitate mit Fundstelle).
+- **Abhängige Rules:** `normen-referenz` (Norm-Fundstellen), `wissens-bibliothekar`
+  (Compounding-Pflicht Schritt 5), `wissens-ruecklauf` (Rücklauf nach Deliverables),
+  `identifikatoren-verifizieren`, `umlaute-konvention`, `dokument-layout-standard`,
+  `projekt-ablage-stand` (projektgebundene Ablage), Korrektur-Pflicht (`korrektur`).
+- **Vorgelagert:** `planungsgrundlagen` (Beschaffung der PL-04-Grundlagen und des
+  Objektkontexts; führte dieses Feld bis 03.08.2026), `baurecht` (Erlasswortlaut ZH/SZ),
+  `normen` (Norm-Fundstellen).
+- **Nachgelagert:** `machbarkeit`, `machbarkeit-studio`, `kostenschaetzung`,
+  `grobkosten-onepager`, `ankaufspruefung`, `immobilienbewertung`,
+  `healthcare-wirtschaftlichkeit`, `wettbewerb`, `auflagebereinigung` (belegen ihre
+  Energie-Aussagen hier); Agent `energie-berater` als Fan-out; Service S6
+  (`services/KATALOG.md`).
 
 ## Router (immer in dieser Reihenfolge)
 

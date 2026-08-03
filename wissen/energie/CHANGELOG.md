@@ -2,6 +2,10 @@
 
 Neueste zuoberst.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B8 · C1 · D0 · E0 · F3 · G4
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befunde: 1 echter ss-Verstoss (`destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` Z. 181, eigener Fliesstext), 7 ueber Zeilenumbruch zerrissene Backlinks in `wiki/BAUHERREN-FAQ.md`/`wiki/QUESTIONS.md`, 1 totes Ziel `[[sia-2024-nutzungsdaten-gesundheitsbau]]`. **Audit F korrigiert gegenueber 2026-08-01:** die 497 Warnmarker sind durch `CLAUDE.md` Z. 32 vorgeschrieben und damit kein Deko-Verstoss. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 — Run 122: AHB-Gebaeudetechnik-Richtlinien (RL1-RL9) vollstaendig destilliert
 
 **Transfer:** Neun neue Destillate `ahb-zuerich-gt-rl1-planungsgrundlagen` bis

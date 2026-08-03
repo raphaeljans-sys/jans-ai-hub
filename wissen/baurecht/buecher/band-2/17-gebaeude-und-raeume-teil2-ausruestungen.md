@@ -108,11 +108,39 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 - **Anerkannte Regeln der Baukunde** = Summe abgeleiteter Verhaltens-/Vorgehensnormen;
   SIA-Normen 260-267 (Tragwerksnormen), SIA 465; via Anhang BBV I als
   Verordnungsbestimmung beachtlich (§ 360 PBG) (S. 1290).
-- **Absturzsicherung / Geländer SIA-Norm 358** (Ausgabe 1996): Schutzziel Sicherheit vor
-  Absturz; Geländer/Brustungen ab **Absturzhoehe > 1 m**; Mindesthoehe i.d.R. 90 cm, bei
-  Brustungstiefe > 20 cm dann 100 cm; bei Hoehe > 12 m mindestens 110 cm; Öffnungen
-  «unbeaufsichtigte Kinder»: bis 75 cm Hoehe keine Öffnung > 90 mm, Stäbe senkrecht
-  (S. 1290-1291).
+- **Absturzsicherung / Geländer SIA-Norm 358** (das Buch zitiert die Ausgabe 1996; geltend ist
+  **SIA 358:2010**, die Masse sind unveraendert — siehe Korrekturvermerk unten): Schutzziel
+  Sicherheit vor Absturz; Geländer/Brustungen ab **Absturzhoehe > 1 m**; **Mindesthoehe 1 m**,
+  bei **festen Brustungen mit einer Mindestbreite von 20 cm** dagegen **90 cm**; Treppengelaender
+  im Bereich des Treppenlaufs 90 cm, Handlaeufe bei mehr als fuenf Stufen auf 90 cm, Abstand
+  untere Traverse/Stufenkante max. 5 cm; Öffnungen bei **Gefaehrdungsbild 1** («Fehlverhalten
+  unbeaufsichtigter Kinder»): bis 75 cm Hoehe **keine Öffnung groesser als 12 cm Durchmesser**
+  (Kugelprobe), Stäbe senkrecht (S. 1290-1291).
+
+  > **KORREKTURVERMERK — Wissens-Chef Run 24, 03.08.2026 (Cross-KB, Feld Absturzsicherung).**
+  > Diese Zeile fuehrte bis heute drei falsche Werte, die **beim Destillieren** aus dem
+  > Buch-Screenshot entstanden sind — es war **keine** Fassungsdivergenz zwischen SIA 358:1996
+  > und :2010, wie die KB bis dahin vermutete:
+  > - «Mindesthoehe i.d.R. 90 cm, bei Brustungstiefe > 20 cm dann 100 cm» — die beiden Werte
+  >   waren **vertauscht**. Buchwortlaut S. 1291: «Gelaender und Bruestungen muessen eine
+  >   Mindesthoehe von 1 m aufweisen, feste Bruestungen mit einer Mindestbreite von 20 cm eine
+  >   solche von 90 cm.»
+  > - «bis 75 cm Hoehe keine Öffnung > 90 mm» — das Buch nennt die **Kugelprobe 12 cm
+  >   Durchmesser**. Ein Wert «90 mm» kommt in keiner Ausgabe der Norm vor.
+  > - «bei Hoehe > 12 m mindestens 110 cm» — **ersatzlos gestrichen**. Der Wert steht weder auf
+  >   S. 1290/1291 noch in SIA 358:1996 noch in :2010; die Fundstellenangabe war eine
+  >   Falschzuschreibung. (Eine bfu-Empfehlung «+10 cm ab 12 m» darf allenfalls separat und mit
+  >   bfu-Beleg gefuehrt werden, nie in der Buchzitat-Tabelle.)
+  >
+  > **Belege** (zwei unabhaengige Verifikatoren, je am Original, nicht Destillat gegen Destillat):
+  > Buch-Screenshot **Shot 649** (S. 1290/1291, Ziff. 17.7.2.2 «Anforderungen»,
+  > `seiten-inventar.md:667`) · SIA 358:**1996** deutsche Originalfassung, Ziff. 3 13/3 14/3 15
+  > und 3 22 (`…/SIA_Normen/alle/xalt/358_1996_d.pdf`, Textlayer; Suche nach «90 mm»/«1.1 m»
+  > ohne Treffer) · SIA 358:**2010**, Ziff. 3.1.3-3.1.6 und 3.2.2 sowie Anhang A
+  > (`…/SIA_Normen/alle/358_2010 Geländer und Brüstungen.pdf`, Scan gerendert und gelesen).
+  > Die Teilrevision 2010 beruehrte Ziff. 0.3, die Normenliste 0.2, den Begriff «Traverse»
+  > (3.2.1), die Texte 3.3.2/3.3.4 und Anhang B — **nicht** die Masse. Geltende Fassung und
+  > Fundstellen: [[../../../normen/destillate/sia-358-2010]].
 - **Stoerfallvorsorge § 239 PBG + StFV (Bund):** zwingendes oeffentliches Recht; betroffen
   z.B. Hallen-/Freibaeder, Kunsteisbahnen, Metallbetriebe, Grossanlagen; Vollzug AWEL,
   Kantonale Fachstelle Stoerfallvorsorge (S. 1292-1293).
@@ -185,8 +213,8 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 | BehiG Arbeitsplaetze | > 50 Arbeitsplaetze | Art. 3 BehiG, S. 1280 |
 | Kostenschranke Behindertenanpassung | > 5 % Gebaeudeversicherungs-/Neuwert (bzw. > 20 % Erneuerungskosten) | Art. 7 BehiV / Art. 12 BehiG, S. 1284 |
 | Geländer/Brustung erforderlich ab | Absturzhoehe > 1 m | SIA 358, S. 1290 |
-| Geländerhoehe Standard / tiefe Brustung / Hochhaus | 90 cm / 100 cm (Brustungstiefe > 20 cm) / 110 cm (> 12 m) | SIA 358, S. 1290-1291 |
-| Öffnungsweite Geländer (Kinderschutz, bis 75 cm Hoehe) | ≤ 90 mm | SIA 358, S. 1291 |
+| Geländerhoehe Standard / feste Brustung ≥ 20 cm Breite / Treppenlauf | **1 m** / **90 cm** / 90 cm | SIA 358, S. 1291 (korrigiert Run 24) |
+| Öffnungen Geländer (Kinderschutz Gefaehrdungsbild 1, bis 75 cm Hoehe) | keine Öffnung > **12 cm Durchmesser** (Kugelprobe) | SIA 358, S. 1291 (korrigiert Run 24) |
 | Schutzplaetze Wohnungen | 2 SP pro 3 Zimmer | Art. 17 ZSV, S. 1294 |
 | Schutzplaetze Spital | 1 SP pro Patientenbett | Art. 17 ZSV, S. 1294 |
 | Gemeinsamer Schutzraum zulaessig bis | < 25 SP | § 21 KZV, S. 1294 |

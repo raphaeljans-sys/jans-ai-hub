@@ -233,8 +233,8 @@ Industrie-/Gewerbeareale** mit konkreten Kostenbenchmarks — echtes Delta, kein
 | Flächentyp | Versickerung in üB | Versickerung in Au | Empfohlene Lösung |
 |---|---|---|---|
 | **1 Verkehrsflächen** (Zufahrten, Plätze) | + | + | Oberflächliche Ableitung auf Grünfläche/Rinne mit Versickerung, oder Leitung in humusierte Mulde |
-| **2 Lagerflächen für Güter ohne wassergefährdendes Potenzial** | + | +/− (je nach Belag) | Ableitung auf Fläche + humusierte Mulde; bei Rasengittersteinen/Schotterrasen auch ohne belebte Bodenschicht (−) |
-| **3 Parkplätze für PW** | + | +/− | Versickerung auf Fläche durch teilbewachsene Systeme (Rasengittersteine, Rasenfugenpflaster, Schotterrasen) |
+| **2 Lagerflächen für Güter ohne wassergefährdendes Potenzial** | + | +/− (je nach Belag) | (+) Ableitung auf der Fläche und Versickerung in humusierter Mulde; (−) Plätze mit Rasengittersteinen, Rasenfugenpflaster, Schotterrasen, Verbund- und Sickersteinen und Chaussierung |
+| **3 Parkplätze für PW** | + | +/− | (+) Versickerung auf Fläche durch teilbewachsene Systeme (Rasengittersteine, Rasenfugenpflaster, Schotterrasen); (−) Versickerung ohne belebte Bodenschicht wie Verbund- und Sickersteine, Chaussierung (Kies, Splitt) |
 | **4 Arbeitsflächen im Freien** | − | − | **Nicht versickern** — flüssigkeitsdichter Belag Pflicht, Entwässerung gemäss **SN 592'000** in die Schmutzwasserkanalisation; Fläche klein halten, Überdachung anstreben |
 | **5 Güterumschlagplätze** | − | − | Überdacht, flüssigkeitsdichter Belag, abflusslos (Verweis Merkblatt Güterumschlagplätze) |
 

@@ -56,6 +56,32 @@ Seite 14» laufe ins Leere (siehe Abschnitt «Selbstdeklaration»).
 | 20-21 | 12 | Abdruck Bundesrecht |
 | 22-23 | 13 | Abdruck Kantonsrecht Zürich |
 
+> **RECHTSSTAND-VORBEHALT — Wissens-Chef Run 24, 03.08.2026. Die tragende kantonale
+> Rechtsgrundlage dieses Leitfadens ist aufgehoben.** Das **Wasserwirtschaftsgesetz (WWG) vom
+> 2. Juni 1991** wurde durch das **Wassergesetz (WsG, LS 724.1)** abgelöst, in Kraft seit
+> **1. Juni 2026** (§ 126 WsG: «Die nachstehenden Gesetze werden aufgehoben: … b. Wasser-
+> wirtschaftsgesetz vom 2. Juni 1991»; amtlicher Volltext im Hub:
+> `../../baurecht/raw/260803_amtlich_zh_wsg.md`). Jede Zitierung von «§ 22 WWG», «§ 12 WWG»
+> und «§ 9 HWV» in diesem Destillat ist damit **historisch**. Die Nachfolgekette:
+> - **Gefahrenkarte, Festsetzung, Verbindlichkeit:** § 26 WsG. Der Wortlaut hat sich geändert —
+>   die Gefahrengebiete «werden bei allen raumwirksamen Tätigkeiten und Planungen **beachtet**»
+>   (der Begriff «behördenverbindlich» wird nicht mehr verwendet); neu ist ein Feststellungs-
+>   anspruch der Grundeigentümer zur Rechtmässigkeit der Eintragung (Abs. 3). Inhalt und
+>   Nachführung der Karten: § 31 WsV (LS 724.11).
+> - **Planungsrechtliche Festlegungen der Gemeinden** (im Text als «§ 9 HWV»): § 36 WsV.
+> - **Anordnung der Massnahmen im baurechtlichen Verfahren** (bisher § 22 WWG): §§ 33 und 34
+>   WsG, § 44 WsV. **Materiell geändert:** die **Gemeinde** ordnet die Objektschutzmassnahmen
+>   mit der baurechtlichen Bewilligung **selbst** an (§ 34 Abs. 1 WsG, § 44 Abs. 2 WsV), die
+>   Direktion nur noch bei Sonderobjekten und Sonderrisiken (§ 34 Abs. 2 WsG); die Bauherrschaft
+>   weist die Massnahmen nach (§ 44 Abs. 1 WsV). Der unten in den Ablauf-Schritten 5 und 6
+>   beschriebene Weg über eine **«Genehmigung der Auflagen durch die Baudirektion» entspricht
+>   nicht mehr dem geltenden Recht.**
+>
+> Führend für den Erlasswortlaut ist die KB `baurecht` (Führungsmatrix
+> `koordination/QUERBEZUEGE.md`). Die **fachlich-technischen** Aussagen des Leitfadens
+> (Gefahrenstufen, Intensitätskriterien, Objektschutz-Prinzipien) bleiben unberührt; **keine
+> Rechtsaussage dieses Destillats wandert ohne Abgleich mit WsG/WsV in eine Baueingabe.**
+
 ## Das Wichtigste in 3 Sätzen
 
 Der Leitfaden ist eine **gemeinsame Vollzugshilfe** von Baudirektion Kanton Zürich (AWEL, Abt.

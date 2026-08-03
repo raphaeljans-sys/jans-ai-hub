@@ -3,6 +3,10 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Ein B-Befund: toter Backlink `[[[sbb-naeherbaurecht-thalwil-2414-vordach]]` (Klammer-Tippfehler) in `wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md` — derselbe Fehlertyp wie in auflagebereinigung. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Nachtschicht Mac Mini, Versuchs-Slot 13:30) — RE-00087 nachgeführt: Duplikat-Flag als zweiter Blocker, offene QUESTIONS-Frage teilbeantwortet
 
 - Priorität 3 (Fristen-Radar) und Priorität 4 (Trainings-KB) geprüft: fristen.md zeigt 58

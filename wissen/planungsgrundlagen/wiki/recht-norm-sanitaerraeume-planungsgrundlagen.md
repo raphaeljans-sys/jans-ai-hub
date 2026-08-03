@@ -88,13 +88,16 @@ rollstuhlgängige Sanitärräume:
 - **Klosett:** seitliche Bewegungsfläche mind. **80 cm** breit (freie Zufahrt gesichert), davor
   **120 cm** tiefe Bewegungsfläche, Sitzhöhe des Klosetts 50 cm. Türen dürfen nicht nach innen
   aufschlagen, Pendeltüren sind unzulässig.
-  **Zur Sitzhöhe: offener Konflikt, kein verwendungsreifer Wert.** Die 50 cm sind ein undatierter
-  Lehrbuchwert (Herausgeber/Ausgabejahr der KL_Hochbau-Katalogblätter nicht ermittelbar).
-  Derselbe Artikel führt in §4 «WC-Sitzfläche OK ca. +460 mm»; für 46 cm sprechen ZHB 2005
-  (S. 27-28, `status: speculative`, stützt auf SN 521 500:1988) und DIN 18040-1 Ziff. 5.3.3
-  (46-48 cm, nicht 1:1 auf SIA übertragbar). SIA 500 Anhang E (S. 42-60) enthält die Detailmasse
-  und ist im Hub noch **nicht gelesen** — bis dahin wandert **kein** Sitzhöhenmass aus diesem
-  Artikel in Grundriss, Sanitärplan oder LV (Rule `identifikatoren-verifizieren`).
+  **Zur Sitzhöhe: entschieden — massgebend sind 46 cm, nicht 50 cm.** (Wissens-Chef Run 24,
+  03.08.2026, am Original-PDF; löst den in Run 23 hier gesetzten Vorbehalt auf.)
+  **SIA 500:2009, Anhang E**, Schnitt zu **Figur E.1 (S. 49)** und **Figur E.2 (S. 51)**:
+  «**+ 0.46 (OK Brille)**»; Positionslegende M «Klappsitz 0,46 m über Boden». Damit ist der Wert
+  **normbelegt und verwendungsreif**. Die 50 cm der KL_Hochbau-Katalogblätter sind ein
+  undatierter Wert ohne Normbezug und **nicht zu verwenden**. Unabhängig gegenbelegt durch
+  Procap MB 105:2009 («OK Brille +0.46 m», die erste ausdrücklich SIA-500-bezogene Quelle im
+  Bestand), ZHB 2005, den Plan7-Katalog und DIN 18040-1 Ziff. 5.3.3 (46-48 cm). Der eigene
+  §4-Wert dieses Artikels («WC-Sitzfläche OK ca. +460 mm») war von Anfang an richtig.
+  Fundstellen-Führung: [[../../normen/destillate/sia-500-2009]] (Rule `normen-referenz`).
 - **Minimale Lösung** (nur seitliches Hinüberwechseln): Raumbreite 140 cm (95 + 45 cm Aufteilung)
   — **unterschreitet SIA 500 Ziff. 7.2.3.2 (min. 1,65 m Breite), nicht verwenden.**
 - **Normalausführung:** Raumbreite 160 cm (110 + 50 cm), Raumtiefe 220 cm — **die Breite

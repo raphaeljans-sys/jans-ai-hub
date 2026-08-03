@@ -158,8 +158,15 @@ Toiletten → SIA 500), HyV, BehiG, Gastgewerbegesetz ZH.
 **Update Run 32 (2026-07-13):** im selben Ordner liegt eine **aktuellere Fassung desselben
 UGZ-Merkblatts** vor (`MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf`, **Merkblatt
 Dezember 2020**, neue Zuständigkeit UGZ Abt. «Bau und Energieeffizienz», Eggbühlstrasse 23 statt
-vormals Walchestrasse 31). Inhaltlich deckungsgleich mit der Mai-2012-Fassung (Personal-/
-Publikums-Tabellen unverändert), aber **eine neue, detailliertere Tabelle für
+vormals Walchestrasse 31). ~~Inhaltlich deckungsgleich mit der Mai-2012-Fassung (Personal-/
+Publikums-Tabellen unverändert)~~ **[GESTRICHEN, falsch — Wissens-Chef Run 24, 03.08.2026: die
+Tabellen sind nachweislich geändert. Belegt am Destillat der Ausgabe 2020
+(`../../normen/destillate/ugz-toilettenanlagen-personal-publikum-2020.md`): Stadien/Grossevents
+150 → 100 Personen je Einheit; Theater/Kino von «Sitzplätzen» auf «Besucher» umgestellt;
+Personalschwelle von 5 auf 10 Arbeitnehmende verschoben und an «wenig verschmutzende Tätigkeit»
+geknüpft; die Krippen-/Hort-/Kindergarten-Tabellen entfallen 2020 ganz (Verweis auf ein separates
+Merkblatt). Alle unten stehenden Zahlen dieses Abschnitts sind deshalb als **Stand Mai 2012** zu
+lesen — siehe den Fassungsvorbehalt beim Publikumsabschnitt.]**, aber **eine neue, detailliertere Tabelle für
 Gastwirtschaftsbetriebe** ist hinzugekommen (in der 2012er-Fassung nur als Faustregel
 "25 Innenplätze je WC-Einheit" vorhanden):
 
@@ -202,6 +209,26 @@ Nutzungsintensität: **35–75 Personen/Toiletteneinheit** bei Disco/Theater/Kin
 bei Ausstellungen, **75–150 Personen** bei Stadien/Grossevents. Gastronomie: bis 10 Innenplätze
 eine geschlechtsneutrale WC, ab 10 Plätzen geschlechtergetrennt (mind. 1 Damen-/1 Herren-WC, je
 25 Innenplätze eine weitere WC-Einheit).
+
+> **FASSUNGSVORBEHALT — die Zahlen dieses Absatzes sind der Stand Mai 2012 und für eine
+> Baueingabe nicht mehr verwendbar** (Wissens-Chef Run 24, 03.08.2026).
+> - **Gastronomie:** Die Ausgabe **Dezember 2020** hat nicht nur Werte, sondern die
+>   **Bemessungsmethodik** geändert: Schwelle für Geschlechtertrennung bei **49 Gästeplätzen**
+>   statt 10, gezählt werden **Innen- und Aussenplätze**, dazu eine 12-stufige Tabelle statt der
+>   Pauschale «je 25 Innenplätze». Ein Lokal mit 30 Plätzen wird nach den beiden Fassungen
+>   **gegensätzlich** bemessen. Belegt in
+>   `../../normen/destillate/ugz-toilettenanlagen-personal-publikum-2020.md`.
+> - **Und es gibt eine noch jüngere Ausgabe:** die Stadt Zürich führt auf ihrer Seite
+>   «Bauvorschriften und planerische Grundlagen» eine Fassung **September 2022**, die im Hub
+>   **fehlt**. Nach dem Befund des Verifikators ändert sie die Zählweise erneut (Trennung ab
+>   **50 innenliegenden** Gästeplätzen, zwei Bezugsspalten Innen- bzw. Innen-und-Aussenplätze).
+>   Diese Werte sind hier **bewusst nicht eingetragen**, weil die Quelle nicht im Hub liegt und
+>   nicht am Original verifiziert werden konnte.
+> - **Offener Auftrag (Run 24):** Merkblatt Ausgabe **September 2022** beschaffen, als
+>   `ugz-toilettenanlagen-personal-publikum-2022.md` destillieren, im normen-REGISTER die
+>   Ausgabenkette **2012 → 2020 → 2022** führen und diesen Absatz danach materiell umstellen.
+> - **Bis dahin gilt:** kein Sanitär-Mengengerüst aus diesem Absatz ohne Blick ins geltende
+>   Merkblatt (Rule `normen-referenz`, Rule `identifikatoren-verifizieren`).
 
 **Betreuungsstätten (Krippen/Horte/Kindergärten, Tab. 2/3):** eigene WC-Schlüssel nach
 Kinderzahl-Bandbreite (z.B. Krippe ≤12 Kinder → 1 Kinder-WC, 25–36 Kinder → 2 Kinder-WC + 2

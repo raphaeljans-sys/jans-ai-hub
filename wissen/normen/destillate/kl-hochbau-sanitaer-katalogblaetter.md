@@ -154,9 +154,14 @@ empfohlen (Rule `identifikatoren-verifizieren`).
 > bei innen öffnender; siehe [[sia-500-2009]] S. 24). Gegenbelegt in
 > [[zhb-2005-mindestanforderungen-hindernisfreies-bauen]] und
 > [[bkz-2005-checkliste-hindernisfrei-hochbau]]. Die Raumtiefe 220 cm erfüllt die Norm.
-> Die **Sitzhöhe 50 cm** steht gegen 46 cm aus mehreren nicht-normativen Quellen; der Konflikt
-> ist **offen**, bis SIA 500 Anhang E gelesen ist (K42-4a). **Kein Mass dieses Blatts wandert
-> ohne Normabgleich in Grundriss, Sanitärplan oder LV.**
+> **Die Sitzhöhe 50 cm ist ebenfalls normwidrig — entschieden am Original, Wissens-Chef Run 24,
+> 03.08.2026 (schliesst K42-4a).** **SIA 500:2009, Anhang E** bemasst die Klosett-Sitzhöhe in
+> den Schnitten der Figuren **E.1 (S. 49)** und **E.2 (S. 51)** mit «**+ 0.46 (OK Brille)**»;
+> derselbe Anhang setzt den Klappsitz auf «0,46 m über Boden». Der Wert **46 cm** ist damit
+> normbelegt, die 50 cm dieses Blatts sind ein undatierter Wert ohne Normbezug. Unabhängig
+> gegenbelegt durch [[procap-mb105-2009-rollstuhlgerechte-toiletten]] («OK Brille +0.46 m»,
+> S. 2-4) sowie ZHB 2005, Plan7-Katalog und DIN 18040-1.
+> **Kein Mass dieses Blatts wandert ohne Normabgleich in Grundriss, Sanitärplan oder LV.**
 
 Textteil «Klosetts»: auf einer Seite des Klosetts ist eine 80 cm breite Bewegungsfläche mit
 gesicherter freier Zufahrt vorzusehen; vor dem Klosett eine 120 cm tiefe Bewegungsfläche;

@@ -4,6 +4,10 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B6 · C0 · D0 · E0 · F1 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Unveraendert zur Basis 2026-08-01: alle sechs B-Befunde entfallen auf `wiki/THEMEN.md` (kein Frontmatter, nicht im INDEX). Kein `raw/_INGESTED.md` — Audit D strukturell nicht anwendbar. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D0 · E0 · F175 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. `THEMEN. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

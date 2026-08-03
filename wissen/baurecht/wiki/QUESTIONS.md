@@ -78,6 +78,33 @@ geführten Werte als Stand-1996-Angabe zu kennzeichnen sind. **In diesem Lauf be
 geändert** — nur die Frage angemeldet; führend für Ausgabe und Kennwert ist `normen`
 (Führungsmatrix `koordination/QUERBEZUEGE.md`).
 
+> **GESCHLOSSEN — Wissens-Chef Run 24, 03.08.2026. Die Frage war falsch gerahmt: es gab nie
+> eine Fassungsdivergenz.** Beide Ausgaben führen dieselben Masse; die Abweichung entstand
+> **beim Destillieren aus dem Buch-Screenshot**, nicht zwischen den Normausgaben.
+> - **SIA 358:1996**, deutsche Originalfassung, Ziff. 3 13 / 3 14 / 3 15: «Die normale Höhe
+>   eines Schutzelementes beträgt mindestens 1.0 m» · «Bei festen Brüstungen von mindestens
+>   0.2 m Dicke beträgt die Mindesthöhe 0.9 m» · Treppenlauf 0.9 m. Ziff. 3 22: Kugel 0.12 m
+>   bis Höhe 0.75 m. (`…/SIA_Normen/alle/xalt/358_1996_d.pdf`, Textlayer ausgelesen; die Suche
+>   nach «90 mm», «0.09», «1.1 m» bleibt **ohne Treffer**.)
+> - **SIA 358:2010**, Ziff. 3.1.3-3.1.6 / 3.2.2 und Anhang A: wortgleiche Werte. Das Vorwort
+>   S. 4 hält fest, dass die Teilrevision nur Ziff. 0.3, die Normenliste 0.2, den Begriff
+>   «Traverse» (3.2.1), die Texte 3.3.2/3.3.4 und Anhang B betraf.
+> - **Das Buch war korrekt:** S. 1291 (Shot 649) schreibt «Mindesthöhe von 1 m … feste
+>   Brüstungen mit einer Mindestbreite von 20 cm eine solche von 90 cm» und «keine Öffnung
+>   grösser als 12 cm Durchmesser». Die KB hatte 90/100 vertauscht, die Kugelprobe in «≤ 90 mm»
+>   verwandelt und den Wert «110 cm (> 12 m)» frei hinzugefügt.
+>
+> **Erledigt:** die drei Werte in `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`
+> (Fliesstext und Schwellenwert-Tabelle) sind auf den Buchwortlaut korrigiert, mit
+> Korrekturvermerk und Belegkette. Das bfu-Destillat und `normen` hatten durchgehend recht.
+> **Einzige echte Fassungsnotiz, die bleibt:** das Buch zitiert «SIA-Norm 358, Ausgabe 1996»
+> (S. 1291), geltend ist SIA 358:2010 — ohne Wirkung auf die Zahlen.
+>
+> **Offener Folgeauftrag an den Buch-Harness:** Der Fehler entstand in der Screenshot-Destillation,
+> nicht in der Quelle. Die übrigen Schwellenwert-Tabellen desselben Shot-Bereichs (632-655) sind
+> stichprobenweise gegen die Buchseiten gegenzulesen, bevor ihr Status `established` fortgeführt
+> wird. *(Aufgenommen Run 24.)*
+
 ## 2026-07-29 (Wissens-Chef Run 20) — P1: der Wasserversorgungsteil des WsG (§§ 95-100) ist im ganzen Hub unverarbeitet
 
 **Befund.** Der WsG-Volltext liegt seit dem 28.07.2026 im Haus

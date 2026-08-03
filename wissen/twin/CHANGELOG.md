@@ -4,6 +4,10 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F3 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befunde: 1 echter ss-Verstoss (`wiki/beziehungsregister.md` Z. 1384, eigener Fliesstext), 3 Deko-Haken in `wiki/QUESTIONS.md`, totes Ziel `[[260607-kispi-korpus]]`. **Ausdruecklich KEIN Verstoss:** die 7 ss-Treffer in `wiki/stimme.md` sind wortgetreue Korpus-Zitate («Mit freundlichen Grüßen») und als Beleg zu erhalten. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — Erst-Verlinkung zur Kontext-Budget-KB, Takt berichtigt
 
 - **[erst-verlinkung] `CLAUDE.md`.** Diese KB kannte `wissen/claude-code` in keiner Datei

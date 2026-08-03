@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D0 · E0 · F1 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Zwei B-Befunde: toter Backlink `[[[fristenlogik-bauentscheid-zh]]` (Klammer-Tippfehler) in `wiki/aemter-stadt-zuerich.md`, `wiki/gvz-einreichung-bma-sprinkler.md` ohne `sources`. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Wissens-Rücklauf aus dem Hub-Chef-Lauf 22:07, Fall 2619 KISPI)
 
 - Report abgelegt: `outputs/2026-08-03_flachgelegte-planmarkierungen-seiten-diff.md`. Härtere

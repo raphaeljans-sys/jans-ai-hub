@@ -1,5 +1,9 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Ein B-Befund: `[[architekten-synobsis]]` im `wiki/INDEX.md` ist ein KB-Name, kein Artikel — als Pfadangabe schreiben. Sonst sauber. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G0
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Kleinste KB im Bestand (2 Wiki-Dateien: INDEX + QUESTIONS, kein einziger Sachartikel). Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

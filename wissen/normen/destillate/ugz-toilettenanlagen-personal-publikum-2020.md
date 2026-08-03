@@ -233,6 +233,17 @@ unabhängigen Quellen. Festgestellte inhaltliche Abweichungen zwischen den Ausga
    All das fehlt in der Ausgabe 2020 ersatzlos — für Zellen- und Vorraummasse bleibt die
    Ausgabe 2012 damit die einzige belegte Quelle des UGZ.
 
+> **AUSGABEN-VORBEHALT — Wissens-Chef Run 24, 03.08.2026: Dezember 2020 ist NICHT die jüngste
+> Ausgabe.** Die Stadt Zürich führt auf «Bauvorschriften und planerische Grundlagen» eine Fassung
+> **September 2022**, die im Hub fehlt und nach Befund des Verifikators die Gastro-Zählweise
+> erneut ändert (Trennung ab **50 innenliegenden** Gästeplätzen, zwei Bezugsspalten Innen- bzw.
+> Innen-und-Aussenplätze, Zusatzregeln zu rollstuhlgerechten und genderneutralen Einheiten).
+> Dieses Destillat ist damit **abgelöst**, solange die Ausgabe 2022 nicht beschafft und
+> destilliert ist (offener Auftrag Run 24: `ugz-toilettenanlagen-personal-publikum-2022.md`
+> anlegen, im REGISTER die Kette **2012 → 2020 → 2022** führen). Die Zahlen unten bleiben als
+> **datierter Stand Dezember 2020** gültig und sind gegenüber der Fassung 2012 weiterhin die
+> bessere Auskunft — für eine Baueingabe ist aber das Merkblatt 2022 zu konsultieren.
+
 Für die tagesaktuelle Bauberatung/Baueingabe ist mangels expliziten Ausserkraftsetzungsvermerks
 auf dem älteren Dokument die **jüngere Ausgabe (Dezember 2020) massgebend**, ausser bei den
 Krippen-/Horte-Zahlenwerten, wo die 2012-Ausgabe die einzige belegte Quelle bleibt (offener

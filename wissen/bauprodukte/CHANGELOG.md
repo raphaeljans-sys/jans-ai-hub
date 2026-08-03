@@ -1,5 +1,9 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Strukturell sauber (keine toten Backlinks, Frontmatter vollstaendig, RAW-Register konsistent). 9 Artikel, alle `emerging` — Promotion erst mit Zweitbeleg je Produktgruppe. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Mac Mini Nachtschicht, Versuchs-Slot 13:30)
 
 - **Artikel `wiki/cheminee-aufbau-hafnerarbeiten.md` geschrieben** (status `emerging`) aus

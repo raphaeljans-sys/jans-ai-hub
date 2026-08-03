@@ -184,9 +184,9 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | |
 | [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | |
 | [x] | 284 Cheminee | 284 Cheminee/Cheminee.pdf | bauprodukte | destilliert 01.08.2026 → [[cheminee-aufbau-hafnerarbeiten]] |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/9783959721622.pdf | bauprodukte | |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | - · Falsche Sektion |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/9783959721622.pdf | bauprodukte | P3 · ISBN-Datenblatt unklar |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_FSG1100_D.pdf | bauprodukte | - · Falsche Sektion |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_Router_ZyXEL_NBG6617.pdf | bauprodukte | - · Falsche Sektion |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/IFL-schedule-Aug2017.pdf | bauprodukte | - · Falsche Sektion |
@@ -198,13 +198,13 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/WDS-Konfiguration mit NWA1100-N.pdf | bauprodukte | - · Falsche Sektion |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/ZahlungInland_20180223_1504.pdf | bauprodukte | - · Zahlungsbeleg |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/degewo_feuchtwangerweg_0908.pdf | bauprodukte | P3 · Scan ohne Kontext |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/fs-lsv-zahlungsausgang-de.pdf | bauprodukte | |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/fs-lsv-zahlungsausgang-de.pdf | bauprodukte | - · Finanzdokument |
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/mo table.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/teilnahmeerklaerung-sepa-basislastschrift-zahlungspflichtige-de.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/wbw-002_1967_54__797_d.pdf | bauprodukte | |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | - · Finanzdokument |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/mo table.pdf | bauprodukte | P3 · Dateiname kryptisch |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf | bauprodukte | P2 · Spiegelelement Möbel-Datenblatt |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/teilnahmeerklaerung-sepa-basislastschrift-zahlungspflichtige-de.pdf | bauprodukte | - · Finanzdokument |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/wbw-002_1967_54__797_d.pdf | bauprodukte | P3 · Historisches Dokument |
 | [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/100902_Auswahl_IKEA_fuer_mich_Matratze_Linie_Sultan.pdf | bauprodukte | |
 | [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/Schaumstoff/170T95~O.PDF | bauprodukte | |

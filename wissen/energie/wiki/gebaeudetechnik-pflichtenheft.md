@@ -222,7 +222,16 @@ Verwendung am geltenden Normtext nachzuschlagen. Die Normtexte sind kostenpflich
 - Ob die Stadt Zürich die Richtlinien seit 2008 in einer neueren Version herausgegeben hat, ist
   **nicht geprüft** — die vorliegende Fassung ist die im JANS-Bestand abgelegte. Vor einer
   Berufung gegenüber der Stadt Zürich zu verifizieren.
-- Die in RL8 erwähnte EN-12464-1-Übersichtstabelle mit den Lux-Werten fehlt im Bestand.
+- Die in RL8 erwähnte EN-12464-1-Übersichtstabelle **liegt entgegen der bisherigen Annahme im
+  Bestand** (`PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/…/14.3-Richtlinien/`,
+  Übersichtstabelle Beleuchtung EN 12464-1, AHB, 19.01.2007) und ist in
+  `../../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §14.2 mit
+  Zahlenwerten destilliert. **Aber:** sie gibt den Stand **EN 12464-1 vor 2011** und **SIA
+  2024:2006** wieder und ist damit keine aktuelle Bemessungsgrundlage. Die heute geltenden
+  Ausgaben (SN EN 12464-1:2021, SIA 2024:2015) liegen im Bestand **nicht** vor — die Lücke
+  «aktuelle Lux-Bemessungsgrundlage fehlt» bleibt deshalb offen (E-122-6 **nicht** geschlossen).
+  *(Berichtigt Wissens-Chef Run 24, 03.08.2026 — die Aussage «fehlt im Bestand» schickte den
+  Nutzer auf einen kostenpflichtigen Umweg an einer vorhandenen Datei vorbei.)*
 - Ein eigener Wiki-Themenartikel **Beleuchtung** (Lux-Werte, spezifische Anschlussleistung,
   Tageslichtquotient) fehlt der KB weiterhin; RL8 liefert dafür die Steuerungslogik, aber keine
   Zahlen.

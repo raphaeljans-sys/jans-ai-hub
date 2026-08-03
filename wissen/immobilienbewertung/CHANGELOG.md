@@ -2,6 +2,10 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B6 · C1 · D0 · E0 · F2 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Fuenf der sechs B-Befunde entfallen auf `wiki/wissensluecken.md` (kein Frontmatter, totes Ziel `[[outputs/…]]`). Fehlende `wiki/QUESTIONS.md` ist bewusste Schema-Abweichung — gehoert in `CLAUDE.md` dokumentiert. **Audit F korrigiert gegenueber 2026-08-01:** die 91 Warnmarker sind durch `CLAUDE.md` Z. 52 vorgeschrieben, kein Deko-Verstoss. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 — Korrekturen aus Ultra-Code-Review (Befunde A-D)
 
 - **Befund A (wichtigster Punkt):** `outputs/2026-07-31_ingest-cluster-C-bfs-werkmaterial.md`,

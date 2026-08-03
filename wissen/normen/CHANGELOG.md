@@ -1,3 +1,7 @@
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B13 · C5 · D0 · E0 · F2 · G3
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befunde: 6 tote Backlink-Ziele in `wiki/QUESTIONS.md` (`[[sia-102-2003]]`, `[[sia-180]]`, `[[sia-2024]]`, `[[sia-2032]]`, `[[din-1961-2012]]`, `[[links]]`), `REGISTER.md` ohne jedes Frontmatter, 2 Destillate nicht im INDEX (`synthese-sia-vkf-fachskills`, `vkf-beherbergungskategorien`). Die 68 Warnmarker sind funktionale Fassungsvorbehalte — Empfehlung, sie in `CLAUDE.md` ausdruecklich zuzulassen. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Run 42) — PL-02 Kern-Nachtrag: 21 neue Destillate, 9x unabhaengig widerlegungsgeprueft, SWKI VA103-01 erweitert
 
 - **21 neue Destillate aus dem PL-02-Kern-Nachtrag** (09_Sanitaereinrichtung + lose

@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F2 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Bester Strukturbefund des Wissens-Layers: 51 Artikel, kein einziger B/C/D/E-Befund. **Zwei Korrekturen gegenueber 2026-08-01:** die 160 Warnmarker sind durch `CLAUDE.md` Z. 21 vorgeschrieben (kein Deko-Verstoss), und der damals als «einziger ss-Fall im Wissens-Layer» gemeldete Treffer ist ein Quell-Dateiname im `sources`-Feld (kein Verstoss). Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — Sanitaer-Normvorbehalt, Kuechen-Sachfehler, Gewaesser-Merksatz
 
 - **[widerspruch, hoechster Schaden] `wiki/recht-norm-sanitaerraeume-planungsgrundlagen.md`.** Der

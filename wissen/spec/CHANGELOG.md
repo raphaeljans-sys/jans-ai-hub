@@ -1,5 +1,9 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G2
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Strukturell sauber, unveraendert zur Basis 2026-08-01. 50 Outputs gegen 7 Artikel — zweitschaerfster Ruecklauf-Rueckstand nach grobkosten. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F3 · G13
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Strukturell sauber: 5 Artikel, alle `established`, vollstaendiges Frontmatter, keine toten Backlinks, nur 3 ae/oe-Treffer, keine Deko-Symbole. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

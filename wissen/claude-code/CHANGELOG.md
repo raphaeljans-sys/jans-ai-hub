@@ -2,6 +2,10 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Strukturell sauber. **Audit D auf 0 korrigiert:** die 29 vermeintlich unzitierten raw-Dateien sind die 32 Slide-Fotos der Anthropic-Lecture, in `raw/_INGESTED.md` Z. 5 als destilliert registriert. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — SPW-Befund geklaert, Kontext-Budget nachgemessen
 
 - **[geklaert] `wiki/methoden-register.md` Zeile «Methode SPW» + `wiki/QUESTIONS.md` Punkt 0.** Der

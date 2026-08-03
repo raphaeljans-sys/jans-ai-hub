@@ -2,6 +2,10 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B5 · C0 · D0 · E0 · F1 · G1
+
+- Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Fuenf tote Backlink-Fundstellen: `[[auftrags-muster-bopp]]` und `[[zusammenarbeit-lessons-bopp]]` (angekuendigt, nie angelegt) sowie `[[project_2620_bauherrschaft]]` — ein Memory-Name, der als Backlink geschrieben wurde. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B5 · C0 · D0 · E0 · F10 · G0
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 5 Backlinks zeigen auf Artikel, die es nicht gibt (Audit B) — und zwar sowohl aus `INDEX. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
