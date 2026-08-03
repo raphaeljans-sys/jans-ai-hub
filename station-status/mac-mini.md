@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 22:21:32
+Stand: 03.08.2026 22:31:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -10,8 +10,8 @@ Stand: 03.08.2026 22:21:32
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 39 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 7 Datei(en): AR - 01 Projekte / 2414 THALWIL
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
-- 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- b5537fc7 Korrektur Ultra-Code-Review Rest: Befunde A-E immobilienbewertung/normen
+- 6751edc3 hub-chef 03.08. 22:30: Feuerpolizei-Anmerkungen inventarisiert (7/15 Blaetter, vierter Punkt 33.22), liegender Kuebler-Entwurf mit Frist 04.08.

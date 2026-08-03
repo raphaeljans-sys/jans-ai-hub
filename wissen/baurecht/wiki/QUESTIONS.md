@@ -108,7 +108,7 @@ Wissens-Chef hat die Fundstelle im energie-Destillat und in FAQ F186 nachgetrage
 Gebührenkette. Erst dann kann `energie` von einem Verbands-Merkblatt auf kantonales Recht
 umstellen, statt es nur im Korrekturkasten zu führen.
 
-## 2026-08-03 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
+## 2026-07-30 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
 
 **Der Sachfehler.** Die Konkordanztabelle in `raw/260717_amtlich_zh_hwschv.md` führt in Z. 40
 («Grundsatz / Zuständigkeit Festlegung») und Z. 252 als Nachfolge zu § 15 HWSchV den
@@ -1686,7 +1686,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Strang kennen, sobald er in die Vernehmlassung/Inkraftsetzung geht. Beim nächsten Buch-/Amts-Run
   aufnehmen; Querbezug ist in `planungsgrundlagen` bereits gesetzt (Run 15).
 
-## 2026-08-03 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
+## 2026-07-30 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
 
 Beide fielen an, als ein Verifikator einen Vorwurf gegen `projekt-lessons` **kippte** — der Vorwurf
 war falsch, aber das Gegenlesen legte zwei echte Maengel in DIESER KB frei. Keiner wurde vom Chef

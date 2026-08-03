@@ -2,6 +2,18 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissens-Rücklauf aus dem Hub-Chef-Lauf 22:07, Fall 2619 KISPI)
+
+- Report abgelegt: `outputs/2026-08-03_flachgelegte-planmarkierungen-seiten-diff.md`. Härtere
+  Variante des Musters vom 31.07.: die Bemerkungen der Feuerpolizei sind **keine
+  PDF-Annotationen**, sondern in die Seiten eingebrannt (`/Annots` kommt im Dokument nicht vor).
+  Gefunden über Grössenvergleich gegen die eigene Abgabefassung (+10'972 Bytes) und
+  seitenweisen Render-Diff (`pdftoppm` 60 dpi, Hash je Seite): 7 von 15 Blättern markiert,
+  die beiden Türblätter byte-identisch und damit nachweislich unbeanstandet. Drei Lehren:
+  ein fehlender Annotationsbefund ist kein Nullbefund; die archivierte eigene Abgabefassung
+  ist das Prüfmittel; zwischen «abklären» und «schriftlich bestätigen lassen» liegt die
+  Auflage. Verlinkt an [[behoerdenantwort-in-pdf-kommentaren]].
+
 ## 2026-08-03 (Wissens-Rücklauf aus dem Logbuch-Radar, Fall 2619 KISPI)
 
 - Report abgelegt: `outputs/2026-08-03_srz-genehmigung-ziff18-19-und-ugz-strang.md`. Drei belegte
