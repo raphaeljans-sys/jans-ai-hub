@@ -1,6 +1,24 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 27.07.2026 abends (Etappe 3, **Baustein B5 Wohnungsbau Parameter-Set-Revision
+Stand: 03.08.2026 (**Etappe 4 «Vertiefung», Lauf 01 — Baustein V1 abgeschlossen UND
+erschöpft**): Vertieft wurde **2408 BIWAK/Grassen** gegen die im Erst-Destillat nicht
+ausgewerteten Berichtsteile (Kap. 4.3 «Würdigung», Würdigungen des 2. und 3. Rangs,
+Planbeilage «Pläne engere Auswahl»). Ertrag: zwei neue Befunde im Muster
+`delta-zum-ersten-rang` — **Befund 12** (zentrale gewendelte Erschliessung bei 4 von 5
+Projekten der engeren Auswahl = Eintrittsschwelle, nicht Siegargument) und **Befund 13**
+(der Rangentscheid fiel über die Weiterbearbeitungs-Robustheit, S. 19/36) — plus
+Schärfungen an den Befunden 2, 3 und 6. **Zwei Kurzschlüsse korrigiert:** weder die
+Sechseck-zu-Fünfeck-Referenz noch die Standorttreue trennte «-Babuschka-» vom Feld —
+«PATELLOIDEA» nahm dieselbe Referenz auf und kam in die engere Auswahl der letzten
+fünf, der 2. Rang baute am exakt gleichen Standort weiter. **V1 ist mit diesem Lauf
+erschöpft, aus Quellenmangel:** von den fünf V1-Teilnahmen (2104, 2207, 2503, 2408,
+2501) hat nur 2408 einen Jurybericht — der Ausgangsbefund der Etappe (Nennungszählung)
+misst die Quellenlage, nicht die Bearbeitungstiefe. **Zwei unabhängige Refuter, beide
+NICHT BESTANDEN**, 9 Beanstandungen eingearbeitet (u.a. falsche Belegstelle für den
+PATELLOIDEA-Status — korrekt ist der Kontrollrundgang S. 12/36; widerlegte
+Ausschlussbehauptung zu den Kennwerten; Befunde 12/13 als n=1 markiert). Report
+`outputs/2026-08-03_etappe4-vertiefung-01.md`. **Nächste Zelle: V2 Rückkopplung,
+beginnend mit Schulbau.** — vorher 27.07.2026 abends (Etappe 3, **Baustein B5 Wohnungsbau Parameter-Set-Revision
 abgeschlossen — `entwurfs-referenzen/wiki/parameter-sets/wohnen-mfh-urban.json` v2.0
 established, damit ETAPPE 3 FUER ALLE DREI ZIEL-BAUAUFGABEN VOLLSTAENDIG (Schulbau,
 Healthcare, Wohnungsbau, je B1-B6):** Parameter-Set komplett neu geschrieben, rein aus B4
@@ -176,11 +194,17 @@ Teil 2 Rang-Klaerung UND Teil 3 Muster-Verdichtung, siehe `training/PROGRAMM.md`
 
 ## Muster (verallgemeinerte DNA)
 
-- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? 11 Befunde,
+- muster/delta-zum-ersten-rang.md — Was trennte JANS-Beitraege vom Sieg? **13 Befunde**,
   Basis alle 7 Dossiers mit verfuegbarem Jury-Delta (2101/2102/2103/2205/2206/2408/2507) —
   strukturelles Maximum, da die uebrigen 4 Teilnahmen keinen Jurybericht im Archiv haben.
   Status **established** (refuter-verifiziert, Lauf 3 13.07.2026, VERDIKT BESTANDEN; 2507
-  Halden + Befund 11 «harte Vorgaben» am 24.07.2026 nachgetragen, noch nicht refuter-geprueft)
+  Halden + Befund 11 «harte Vorgaben» am 24.07.2026 nachgetragen, noch nicht refuter-geprueft).
+  **Etappe 4, Lauf 01 (03.08.2026):** Befunde 12 (zentrale gewendelte Erschliessung als
+  Eintrittsschwelle, n=1) und 13 (Weiterbearbeitungs-Robustheit entschied den Rang, n=1) neu,
+  Befunde 2/3/6 geschaerft — zwei unabhaengige Refuter, beide NICHT BESTANDEN, 9 Beanstandungen
+  eingearbeitet. **Offener Formmangel:** der Altbestand des Artikels (Befunde 1–11, Kopf)
+  transliteriert ae/oe/ue auch INNERHALB woertlicher Zitate (Rule `umlaute-konvention`);
+  neue Abschnitte tragen echte Umlaute, Volltext-Sanierung steht aus (QUESTIONS)
 - muster/jury-argumente-schulbauten.md — Jury-DNA Schul-/Bildungsbau: Kriterien-Rangordnung, Gewinner-Typologien je Aufgabe, 10 Siegargumente, K.-o.-Liste, Verfahrensmechanik; Basis erweitert von 11 auf **23** ausgewertete Fremd-Juryberichte + 3 eigene (Etappe-3-Schulbau-Sweep 14.07.2026, B4 abgeschlossen). Status **established** (Refuter-Erstlauf 13.07. «nicht bestanden», 10 Korrekturen eingearbeitet, fokussierter Zweitlauf 10/10 bestaetigt; Basis-Erweiterung 14.07. mit eigenem Verifikations-Hinweis im Artikel belegt)
 - muster/jury-argumente-healthcare.md — Jury-DNA Healthcare (Alters-/Pflege-/Gesundheitsbau): Kriterien-Rangordnung, Gewinner-Typologien je Subtyp (Spital/Klinik, Pflegeheim/Alterszentrum, Demenz-Sondertyp, Psychiatrie, betreutes Alterswohnen), 12 Siegargumente, K.-o.-Liste, Verfahrensmechanik, Skill-Massnahmen. Basis **8** ausgewertete Fremd-Juryberichte (subtyp-gespreizt: Spital 3×, Pflegeheim 3×, Psychiatrie/Alterswohnen je 1× = Einzelbeleg, im Text markiert). **Healthcare-Kernbefund:** betrieblich fehlerfrei + etappierbar-weiterbetreibbar + bewilligungsfähig (Brandschutz/Tageslicht) schlägt architektonischen Ausdruck. Status **established** (Etappe 3, Baustein B4, 25.07.2026: 5 Quellen-Shard-Refuter + 1 Konsistenz-Refuter bestanden; Kennwert-Zahl «Fünf»→«Sechs» harmonisiert, draft-Narrative nachgezogen)
 - muster/jury-argumente-wohnungsbau.md — Jury-DNA Wohnungsbau (gemeinnützig/genossenschaftlich/institutionell): Kriterien-Rangordnung (Kontextbezug → Wohnungsspiegel/Gemeinschaft → Bewilligungsfähigkeit → Wirtschaftlichkeit → Ausdruck), Gewinner-Typologien je Trägertyp (stadt-gemeindlich, genossenschaftlich, privat-institutionell, gemischt/Mehr-Bauherren-Areal als Einzelbeleg), 12 Siegargumente, K.-o.-Liste, Verfahrensmechanik (grösste Verfahrensvielfalt der drei Bauaufgaben: einstufig offen/selektiv, vier parallele Baufeld-Verfahren, zweistufig getrennt jurierte Disziplinen, Studienauftrag ohne Preisdifferenzierung), Skill-Massnahmen. Basis **8** ausgewertete Fremd-Juryberichte, trägertyp-gespreizt (genossenschaftlich 3×, stadt-gemeindlich/privat-institutionell je 2×, gemischt 1× = Einzelbeleg). **Wohnungsbau-Kernbefund:** Kontextbezug + Wohnungsspiegel-Konformität + Gemeinschaftskonzept entscheiden, Architektur/Fassade kostet fast nie allein den Sieg. Status **established** (Etappe 3, Baustein B4, 27.07.2026: 5 Quellen-Shard-Refuter + 1 Konsistenz-Refuter bestanden, rund 20 Korrekturen, Wätterweid-Seitenzahlen zusätzlich direkt gegen die Fussmarker im Rohextrakt nachgerechnet)

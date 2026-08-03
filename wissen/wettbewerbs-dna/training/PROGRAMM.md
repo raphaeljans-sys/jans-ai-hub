@@ -34,6 +34,39 @@
 > wird das ausdruecklich im Report und hier vermerkt («Vertiefung erschoepft») — nicht durch
 > Struktur- und Registerpflege kaschiert. Genau daraus entstand die Stilllegung vom 27.07.
 >
+> ---
+>
+> ### STAND 03.08.2026 nach Lauf 01: **V1 ABGESCHLOSSEN UND ERSCHOEPFT** — naechster Lauf V2
+>
+> **V1 ist nach einem einzigen Lauf erschoepft, aus Quellenmangel.** Die vorgesehene
+> Reihenfolge (2104 → 2207 → 2503 → 2408 → 2501) ist nur zu einem Fuenftel durchfuehrbar:
+> die V1-Frage setzt ein Jury-Urteil voraus, und **nur 2408 BIWAK/Grassen hat einen
+> Jurybericht im Bestand**. 2104, 2207, 2501 und 2503 haben keinen — dort ist ein Delta
+> strukturell nicht bildbar, unabhaengig vom Aufwand.
+>
+> **Damit ist der Ausgangsbefund der Etappe korrigiert:** die Nennungszaehlung je Dossier
+> misst die **Quellenlage**, nicht die Bearbeitungstiefe. Die drei «duennsten» Dossiers
+> (2104/2207/2503 mit je 2 Nennungen) sind duenn, weil dort nichts zu verdichten ist. Die
+> Schieflage war kein Arbeitsvorrat, sondern ein Abbild der Archivluecken.
+>
+> **Ertrag Lauf 01 (2408):** 2 neue Befunde (12 zentrale gewendelte Erschliessung als
+> Eintrittsschwelle bei 4 von 5 der engeren Auswahl · 13 Weiterbearbeitungs-Robustheit
+> entschied den Rang), Schaerfung der Befunde 2, 3 und 6, zwei korrigierte Kurzschluesse
+> (weder Fuenfeck-Referenz noch Standorttreue trennten) und eine Faktenkorrektur im Dossier
+> (68 Projekteingaben, Diskrepanz von 2 offengelegt). Zwei unabhaengige Refuter, **beide
+> NICHT BESTANDEN**, 9 Beanstandungen eingearbeitet. Report
+> `outputs/2026-08-03_etappe4-vertiefung-01.md`.
+>
+> **Naechster Lauf: V2**, beginnend mit **Schulbau** — dort stehen drei eigene Beitraege mit
+> Jury-Urteil (2102 Muttenz, 2103 Steinhof, 2206 Schoental) den 10 belegten Siegargumenten
+> aus `muster/jury-argumente-schulbauten.md` gegenueber; das ist die dichteste Datenlage der
+> drei Bauaufgaben. Danach Healthcare (2101 als einziger eigener Beitrag), dann Wohnungsbau
+> (2205; 2207/2503 fallen mangels Jury-Urteil aus), zuletzt V3.
+>
+> **Nebenaufgaben aus Lauf 01** (klein, aber echt, in QUESTIONS): raumweiser
+> Kennwert-Quervergleich 2408 aus der Planbeilage · Volltext-Umlaut-Sanierung von
+> `delta-zum-ersten-rang.md` (Altbestand transliteriert Zitate, Rule-Verstoss).
+>
 > **Kein gueltiges Ziel fuer die Nachtschicht-Prioritaet 4:** diese KB hat mit
 > `wettbewerbs-dna-training` wieder einen **eigenen aktiven Taktgeber**.
 
@@ -77,6 +110,7 @@ je Ziel-Bauaufgabe) — Bauaufgaben-Prioritaeten vorher bei Raphael abholen (QUE
 | 4 | 13.07.2026 (4. Lauf) | Statt reiner Leerlauf-Beobachtung ein lokal abschliessbarer QUESTIONS-Punkt bearbeitet: **2103 Steinhof Ausscheidungsgruende** — `02 Korrespondenz/` enthaelt nur Abgabe-Logistik (Modellbauer, Velo-Kurier, Konkurado-Eingabe, DWG), `11 Loggbuch/` nur zwei Eingabephasen-Dokumente (Konzeptnotizen + Programm-Stichworte); alles vor der Jurierung (Abgabe Maerz 2022, Jurybericht 23.05.2022). Kein Post-Jury-Debrief im Archiv → Gruende definitiv nicht rekonstruierbar, Punkt von Offen → Geklaert. Zusaetzlich 4. Beobachtung 2501/2507: lokal unveraendert kein neues Material. Loop-Takt-Note in QUESTIONS mit VOLLGAS-Kontext (260712c: Loops laufen bis Ruecktaktung durchgehend) praezisiert | erledigt (1 QUESTIONS-Punkt geschlossen) |
 | 5 | 13.07.2026 (5. Lauf) | **Letzter offener Endbedingung-Punkt Etappe 2 erledigt: Bild-/Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert** — neuer established-Artikel `wiki/referenz-katalog.md` (~250 Dateien, 10 Themen-Ordner je speisendem Agenten zugeordnet: schema-zeichner/plakat-setzer/flaechen-nachweis/grobkosten-onepager/volumenstudie). Reines Direkt-Inventar, per Ordner-Listing verifiziert. Zusaetzlich 5. Beobachtung 2501/2507: lokal unveraendert (2501 19.03.2026, 2507 12.11.2025), extern konkurado.ch fuer 2501 weiter ohne downloadbaren Jurybericht — kein neues Material | erledigt (Katalog indexiert, Endbedingung Etappe 2 nun auch im Deliverable-Teil vollstaendig) |
 | Beobachtung 6 | 20.07.2026 (Dauerschicht-Zyklus 15) | **BEFUND: 2507 Halden entschieden** — Sieger «ZVIERI» (Richter Tobler GmbH, Basel), einstimmig, 51 Beitraege; Medienmitteilung stadt.sg.ch 02.04.2026; **Jurybericht-PDF (Stand 14.04.2026) auf stadt.sg.ch publiziert** (>10 MB, Download braucht Freigabe). espazium war >3 Monate veraltet → Methoden-Lehre: Ausloberin-Website mitpruefen (QUESTIONS). 2501 unveraendert (konkurado, 6. Pruefung); lokal beide Ordner ohne neue Dateien. **Naechste Lektion: Jurybericht beschaffen + destillieren (Dossier-Ergebnisteil, Rang LIMO, Delta-Muster, Refuter)** | erledigt (Blocker 2507 GELOEST, Destillation faellig) |
+| **E4-01** | **03.08.2026** | **Etappe 4, Baustein V1 — Vertiefung 2408 BIWAK/Grassen.** Quellenlage-Pruefung vorab: nur 1 der 5 V1-Teilnahmen hat einen Jurybericht → V1 nach diesem Lauf erschoepft, Ausgangsbefund der Etappe als Quellenlage-Messung korrigiert. Inhalt: Befunde 12+13 neu, Befunde 2/3/6 geschaerft, 2 Kurzschluesse korrigiert (Fuenfeck-Referenz und Standorttreue trennten NICHT), Faktenkorrektur 68 Projekteingaben. 2 unabhaengige Refuter, beide NICHT BESTANDEN, 9 Beanstandungen eingearbeitet; Refuter-Dissens zur Seitenzahl selbst am Original entschieden. Report `outputs/2026-08-03_etappe4-vertiefung-01.md` | erledigt |
 | Nachbrenner-Fix | 13.07.2026 | **`muster/jury-argumente-schulbauten.md` von draft auf established gehoben:** die 10 Korrekturauflagen aus dem durchgefallenen Refuter-Erstlauf (Fehlzuordnungen Fermate/Froeschmatt/Merian-LINK/Muhen/Sandgruben/Merian-COMEPURE, uebertriebene Quellenzahl, dekorative Steinhof/Schoental-Verlinkung) einzeln gegen die Rohquellen in `raw/` korrigiert und mit Zitat/Seite belegt. Fokussierter Zweitlauf (unabhaengiger Refuter-Agent) prueft alle 10 Punkte gegen die Originaltexte: 9/10 sofort bestaetigt, 1 Praezisierung (Heilpaed.-Bern-Ausschluss gehoert zum Abschnitt «Ausschluss von der Preiserteilung», nicht «2. Wertungsrundgang») nachgezogen und selbst verifiziert. Status jetzt `established` | erledigt |
 
 **Endbedingung Etappe 2 VOLLSTAENDIG ERREICHT (13.07.2026):** alle 11 destillierbaren

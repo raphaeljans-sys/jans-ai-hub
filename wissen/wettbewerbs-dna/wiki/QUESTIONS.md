@@ -158,6 +158,27 @@ Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 - **2408 BIWAK:** Grund des Ausscheidens im 2. Rundgang ist im Jurybericht nicht
   dokumentiert (keine Einzelwürdigung der Ausgeschiedenen); Bedeutung des Kennworts
   «-Babuschka-» unbelegt. Nur klärbar durch Raphael/Verfahrenssekretariat.
+  **Eingegrenzt 03.08.2026 (Etappe 4, Lauf 01):** Der Grund bleibt undokumentiert, aber
+  drei Erklärungen sind nun ausgeschlossen bzw. entkräftet — (a) die Setzung/Landschafts-
+  integration reichte im 1. Rundgang nicht zum Ausscheiden (S. 9/36–10/36), (b) die
+  Sechseck-zu-Fünfeck-Referenz war es nicht («PATELLOIDEA» nahm dieselbe auf und kam in die
+  engere Auswahl der letzten fünf), (c) die Standorttreue war es nicht (der 2. Rang baute am
+  exakt gleichen Standort weiter). Belegt bleibt als auffälligster Unterschied die fehlende
+  zentrale Erschliessungsfigur (4 von 5 der engeren Auswahl hatten eine). Details im Dossier.
+- **NEU 03.08.2026 — 2408: raumweiser Kennwert-Quervergleich aus der Planbeilage noch nicht
+  ausgewertet.** Die Planblätter der engeren Auswahl führen Raumflächen für ALFONSO, TUMI und
+  DOPPELBOCK; damit liesse sich die eigene Aufstellung (Total Fläche Biwak 51.7 m2) erstmals
+  gegen weitergekommene Projekte stellen — beim Leitthema des Verfahrens (Raumsuffizienz,
+  S. 19/36) der naheliegendste offene Prüfschritt. GF-/GV-Totale und m2/m3 je Schlafplatz
+  fehlen den Planblättern, ein Vergleich der SIA-416-Gesamtkennwerte bleibt unmöglich.
+- **NEU 03.08.2026 — Formmangel `wiki/muster/delta-zum-ersten-rang.md`: Volltext-Umlaut-
+  Sanierung fällig.** Der Altbestand des Artikels (Kopf, Befunde 1–11) transliteriert
+  durchgängig ae/oe/ue, **auch innerhalb wörtlicher Zitate** — Verstoss gegen Rule
+  `umlaute-konvention` und ein Hindernis für jede maschinelle Zitatprüfung (aufgedeckt vom
+  Refuter im Vertiefungslauf 01). Die in Lauf 01 neu geschriebenen Abschnitte tragen echte
+  Umlaute, der Artikel ist dadurch vorübergehend gemischt. Die Sanierung fasst den ganzen
+  Artikel an und braucht einen eigenen Verifikationsgang gegen die Originalquellen — deshalb
+  bewusst nicht nebenbei erledigt. Kandidat für einen eigenen, mechanischen Lauf.
 - **2101 KSSG:** Kein individuelles Jury-Feedback zu «LOUISE» (nur Sammelurteil
   2. Rundgang, Bericht S. 13) — welche Kritikpunkte den Ausschlag gaben, bleibt
   unbelegbar, sofern keine Nachbesprechungs-Notizen existieren.
