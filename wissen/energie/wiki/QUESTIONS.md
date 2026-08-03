@@ -2787,3 +2787,45 @@ sofort aus jeder Prioritätenliste zu streichen** — kein Lauf legt sie erneut 
    `ch.jans.training-normen.plist` nach `.disabled-260803` entschärft. Nachgemessen: kein
    Trainings-Agent mehr geladen, Scheduled Task `energie-training` bleibt alleiniger Taktgeber.
    Damit endet die Kollisionsserie vom 27./28./29.07. Details in `rules/betrieb-chronik.md`.
+
+## 2026-08-03 (Run 121) — PL-02-Korpus erschlossen, Verifikations-Nachholung vollzogen
+
+**Erledigt aus der Run-120-Prioritätenliste:** Punkt 3 (volle Adversarial-Verify-Nachholung) ist
+mit drei unabhängigen Refuter-Agenten vollzogen; Punkt 2 (PL-02-Zugang) ist gegenstandslos, der
+Ordner ist lesbar und wurde in diesem Lauf produktiv genutzt.
+
+**Neue offene Punkte aus diesem Lauf:**
+
+- **E-121-1 — Uf-Rechenwerte widersprüchlich (mittlere Priorität).** Das EnFK-Fensterblatt (2009)
+  nennt Uf Holz 1,8 / Kunststoff 2,2 / Verbundprofil 2,8 W/(m²·K); der BFE-Bauteilekatalog (2002)
+  nennt 1,9 / 2,5 / 3,3. Beide sind amtsnah. Vermutung (unbelegt): Fortschreibung zwischen 2002
+  und 2009. Aufzulösen an der geltenden SIA-380/1-Ausgabe bzw. den kantonalen Rechenwerten →
+  `[[enfk-fensterblatt]]`, `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
+- **E-121-2 — Klimareferenz-Widerspruch bei der Gebäudehüllziffer.** Quelle rechnet mit 8,5 °C /
+  8 % pro K (SIA 380/1:2009), KB-Basis ist 9,4 °C / 6 % pro K (SIA 380/1:2016). Nicht geglättet →
+  `[[gebaeudehuellziffer-ebf-flaechendefinition]]`, `[[bezugsgroessen-energienachweis]]`.
+- **E-121-3 — «Norm SIA 180/4» existiert vermutlich nicht.** Die BaFa-Quelle zur
+  Energiebezugsfläche zitiert wörtlich eine «Norm SIA 180/4»; vermutlich Schreibfehler für
+  SIA 380/4. Unverändert übernommen, nicht stillschweigend korrigiert. Klärung über Skill `normen`.
+- **E-121-4 — Kurzform «KEnV» KB-weit ungeklärt (Namenskonvention, niedrige Priorität).** Ein
+  Refuter meldet, der amtliche Titel von SRSZ 420.111 laute schlicht «Energieverordnung»; «KEnV»
+  sei eine gebräuchliche, aber nicht amtliche Kurzform. **Eigene Gegenprüfung war nicht möglich**
+  (beide sz.ch-URLs lieferten HTTP 404), deshalb wurde der KB-weite Rename in 15 Dateien bewusst
+  NICHT vorgenommen (Rule 260729b: kein Datei-Eingriff auf einen ungegengeprüften Agentenbefund).
+  Zu klären, sobald die amtliche Quelle erreichbar ist. Betrifft auch Nennungen für andere Kantone
+  (z.B. Kt. Luzern), wo «KEnV» ebenfalls verwendet wird.
+- **E-121-5 — Kt. SZ: neues Energiegesetz in Vernehmlassung.** Per SRSZ-Registerstand 1.2.2026
+  nicht in Kraft; SRSZ 420.100/420.111 gelten unverändert. Als Rechtsänderung zu beobachten →
+  `[[etappierte-energetische-sanierung-zh-sz]]`.
+- **E-121-6 — Alterskorpus PL-02 systematisch prüfbedürftig.** Die neun neuen Destillate stammen
+  aus Quellen von 2001 bis 2019. Methodik und Prinzipien tragen, aber **kein** Zahlenwert daraus
+  darf ohne Abgleich mit der geltenden Fassung in ein Mandat. Besonders scharf bei
+  `[[minergie-p-a-anwendungshilfe-2019]]` (MKZ-Werte 2019 nachweislich lockerer als 2023) und
+  `[[minergie-eco-gebaeudelabel]]` (Verfahrensstand 2007).
+
+**Methodischer Nebenbefund (für künftige Läufe):** Zwei der von den Refutern gemeldeten
+Beanstandungen hielten der eigenen Gegenprüfung nicht stand — sie richteten sich gegen die
+Paraphrase in der Prüf-Aufgabe, nicht gegen den Dateiinhalt (R744-Sicherheitsklasse: das
+Destillat schrieb die Herstellerquelle von Anfang an korrekt aus; Wohnbaupreise-Index: stand
+bereits richtig in der Datei). **Lehre: die zu widerlegende Aussage im Refuter-Auftrag wörtlich
+aus der Datei zitieren, nicht zusammenfassen** — sonst prüft der Refuter die Zusammenfassung.

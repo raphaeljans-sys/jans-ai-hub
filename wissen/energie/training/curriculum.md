@@ -2060,3 +2060,16 @@ Sättigungsdiagnose nicht zutrifft.
 4. ewz-/EW-Höfe-Sperrzeiten nicht öffentlich auffindbar — Direktanfrage vormerken.
 5. Meta-Punkt M2 (eigenständiger Skill "energie"?) seit Run 45 spruchreif, weiterhin unentschieden.
 6. SIA-2068-Direktanfrage beim SIA weiterhin offen.
+
+## D92 (Run 121, 03.08.2026) — PL-02-Korpus, Erstzugriff
+
+Erste neun Destillate aus `PL - 02_Recht_Norm` (Minergie-/eco-Bibliothek). Schwerpunkt
+Gebaeudehuelle und Bezugsgroessen: Sanierungs-Bauteilekatalog, Fensterblatt EnFK,
+Untergeschoss-Daemmperimeter, Gebaeudehuellziffer/EBF, Innenraumklima, Minergie-ECO,
+Minergie-P/-A-Anwendungshilfe.
+
+**Naechste Etappe im Korpus:** die neun Gebaeudetechnik-Richtlinien GT_RL1-RL9 (V21) der Stadt
+Zuerich (Planungsgrundlagen, Systemwahl, Heizung, Raumkuehlung, Lueftung, Sanitaer, Elektro,
+Beleuchtung, Gebaeudeautomation) — groesster geschlossener Fachblock, hohe Uebertragbarkeit auf
+JANS-Healthcare-Projekte. Danach `Bauteilkatalog_Energie+Oekologie.pdf` und die eco-bau-Reihe
+«Merkblaetter nach BKP» (direkt an die BKP-Systematik anschlussfaehig).

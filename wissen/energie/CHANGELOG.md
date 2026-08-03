@@ -2,6 +2,45 @@
 
 Neueste zuoberst.
 
+## 2026-08-03 (Run 121) — zweiter PDF-Korpus PL-02 produktiv erschlossen; Verifikations-Rueckstand eingeloest
+
+- **Die Aussage «PDF-Inventar erschoepft» galt nur fuer PL-04.** `PL - 02_Recht_Norm` enthaelt
+  **1'171 PDF, davon 182 energierelevant** (Minergie 79 · eco-bau 55 · Stadt-ZH-AHB 38 · Energie-
+  recht ZH 5 · uebrige 5). Run 120 trug die laengst aufgehobene Zugangsblockade noch als
+  «hoechste Prioritaet, dreifach bestaetigt ungeloest» weiter — dieselbe Fehlerfamilie wie der
+  SIA-2024-Merge: aus der Vorliste fortgeschrieben statt am Bestand gegengeprueft.
+- **Messfalle dokumentiert:** Die PL-02-Dateien liegen als OneDrive-Platzhalter; `du -h` meldet
+  **0 B** und suggeriert leere Dateien. Massgeblich ist `stat -f %z` plus Flag `dataless`;
+  `head -c 200000 > /dev/null` erzwingt die Materialisierung. Nachgetragen im `pdf-inventar.md`.
+- **Neun neue Destillate aus zehn PDF** (acht parallele Destillier-Agenten, je eigene Zieldatei):
+  `bauteilekatalog-sanierungen` · `waermebrueckenkatalog-minergie-pl02` · `enfk-fensterblatt` ·
+  `untergeschosse-daemmen` · `minergie-innenraumklima` · `minergie-eco-gebaeudelabel` ·
+  `gebaeudehuellziffer-ebf-flaechendefinition` · `minergie-p-a-anwendungshilfe-2019` ·
+  `minergie-fragenkatalog-mfh`. Alle `emerging` (Quellen 2001-2019, Methodik gueltig, Zahlenwerte
+  pruefbeduerftig). Zwei Agenten relativierten ihren Auftrag korrekt am Bestand statt Redundanz
+  zu produzieren (Werkidentitaet des Waermebrueckenkatalogs, Formatbefund beim Fragenkatalog).
+- **Verdichtung:** FAQ **F197-F201** neu (Daemmperimeter · Gebaeudehuellziffer · Fenster-Nachweisweg ·
+  U-Wert im Bestand · Innenraumklima vertraglich sichern). Neuer Themenartikel
+  `wiki/bezugsgroessen-energienachweis.md` (EBF, Gebaeudehuellziffer, Daemmperimeter konsolidiert).
+- **Verifikations-Stufe: Rueckstand aus Run 120 eingeloest** — volles Refuter-Panel (drei
+  unabhaengige Pruef-Agenten mit Widerlegungsauftrag) statt Spot-Check. Bestanden:
+  Minergie-Areal 8/8 am Reglement 2026.1 · Etappierte Sanierung 5/7 (2 mit Negativbeweis-
+  Vorbehalt) · R744 A1-A6 zahlengenau am BFE-Bericht · EKZ-Sperrzeiten B1-B6 am Anhang 1.
+- **Vier Korrekturen umgesetzt:** «von 10 Wahlvorgaben» → **17**; «37 Seiten» → **38**;
+  EKZ-Tagessperrdauer 1-4 Std. als **tarifabhaengig** praezisiert (nur Netz 400WP; 400F 1-3 Std.);
+  dritte Vorbedingung der ZH-Bagatellschwelle («nur geringfuegige Umnutzungen») ergaenzt.
+- **Zwei Beanstandungen verworfen** (Rule 260729b, jede Beanstandung vor dem Eingriff am Original
+  gegengeprueft): die R744-Sicherheitsklasse war bereits korrekt der Herstellerquelle zugeschrieben
+  und als unverifiziert markiert; der Wohnbaupreise-Index stand bereits richtig in der Datei.
+  **Ursache: die Refuter-Auftraege haben die Aussage zusammengefasst statt woertlich aus der Datei
+  zitiert** — als methodische Lehre in QUESTIONS festgehalten.
+- **Nicht umgesetzt, bewusst:** KB-weiter Rename «KEnV» → «Energieverordnung» (15 Dateien). Eigene
+  Gegenpruefung unmoeglich (sz.ch HTTP 404); kein Datei-Eingriff auf einen ungegengeprueften
+  Agentenbefund. Als `E-121-4` in QUESTIONS.
+- **Stand:** Destillate **221** · FAQ **201** (F1-F201) · Wiki-Themenartikel **31**.
+- **Offen:** 172 energierelevante PL-02-PDF; naechster Block die neun Gebaeudetechnik-Richtlinien
+  GT_RL1-RL9 (V21) der Stadt Zuerich. Report: `outputs/2026-08-03_energie-run121.md`.
+
 ## 2026-08-01 (interaktive Session mit Raphael) — PL-02-Zugangsblockade WIDERLEGT, 134 PDF freigegeben
 
 - **Die seit Run 119 als «hoechste Prioritaet» gefuehrte PL-02-Zugangsblockade existiert nicht.**

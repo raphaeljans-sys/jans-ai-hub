@@ -403,3 +403,37 @@ vollem Adversarial-Panel (Budget-Entscheid, siehe Report) — Minergie-Areal-Reg
 verifiziert (HTTP 200), EnerG/WDV/KEnG/KEnV-Zitate als amtliche Kantonstexte plausibel. Neunte
 Bestätigung in Folge (Run 111-120), dass die Sättigungsdiagnose nicht zutrifft. Destillate-Stand:
 **212** (sieben neue). FAQ-Stand: **196**. Wiki-Themenartikel: **30** (ein neuer).
+
+## Run 121 (03.08.2026) — zweiter PDF-Korpus PL-02 erschlossen + Verifikations-Nachholung
+
+**Der Befund des Laufs:** Die seit Run 65 gefuehrte Aussage «PDF-Inventar erschoepft» galt nur
+fuer **PL - 04 Energie**. Der Ordner **PL - 02_Recht_Norm** enthaelt **1'171 PDF, davon 182
+energierelevant** — ein zweiter, nie angetasteter Primaerquellen-Korpus (Minergie 79, eco-bau 55,
+Stadt-ZH-AHB 38 inkl. der neun Gebaeudetechnik-Richtlinien GT_RL1-RL9, Energierecht ZH 5).
+Messfalle dokumentiert: die Dateien liegen als OneDrive-Platzhalter, `du -h` meldet 0 B —
+massgeblich ist `stat -f %z` plus Flag `dataless`. Inventar: `training/pdf-inventar.md`, Nachtrag.
+
+**Neun neue Destillate aus zehn PDF** (acht parallele Destillier-Agenten):
+`[[bauteilekatalog-sanierungen]]` (FAQ F200) · `[[waermebrueckenkatalog-minergie-pl02]]` ·
+`[[enfk-fensterblatt]]` (FAQ F199) · `[[untergeschosse-daemmen]]` (FAQ F197) ·
+`[[minergie-innenraumklima]]` (FAQ F201) · `[[minergie-eco-gebaeudelabel]]` ·
+`[[gebaeudehuellziffer-ebf-flaechendefinition]]` (FAQ F198) ·
+`[[minergie-p-a-anwendungshilfe-2019]]` · `[[minergie-fragenkatalog-mfh]]`. Alle `emerging` —
+der Korpus ist durchgehend aelter (2001-2019), Methodik gueltig, Zahlenwerte pruefbeduerftig.
+
+**Neuer Themenartikel** `[[bezugsgroessen-energienachweis]]` — konsolidiert EBF, Gebaeudehuellziffer
+und Daemmperimeter, die bisher nur verstreut in Einzeldestillaten vorkamen.
+
+**Verifikations-Nachholung (Prioritaet 3 aus Run 120), volles Refuter-Panel statt Spot-Check:**
+drei unabhaengige Pruef-Agenten mit Widerlegungsauftrag, Beurteilung im Hauptmodell.
+`[[minergie-areal-zertifizierung]]` 8/8 wortgetreu bestaetigt (zwei Zaehl-/Metadatenfehler
+korrigiert: «von 10 Wahlvorgaben» → 17, «37 Seiten» → 38) · `[[etappierte-energetische-sanierung-zh-sz]]`
+5/7 bestaetigt, 2 mit Negativbeweis-Vorbehalt, dritte Vorbedingung «nur geringfuegige Umnutzungen»
+ergaenzt · `[[kaeltemittel-r744-co2-waermepumpen-hochtemperatur-ch]]` A1-A6 zahlengenau am
+BFE-Bericht bestaetigt · `[[waermepumpen-sperrzeiten-netzbetreiber-zh-sz-vertiefung]]` B1-B6
+bestaetigt, fehlende Tarifbedingung ergaenzt (1-4 Std. nur EKZ Netz 400WP, 400F 1-3 Std.).
+**Zwei Beanstandungen hielten der eigenen Gegenpruefung NICHT stand** (Rule 260729b) und wurden
+verworfen statt umgesetzt — Details im Lauf-Report.
+
+Destillate-Stand: **221** (neun neue). FAQ-Stand: **201** (F197-F201 neu). Wiki-Themenartikel:
+**31** (ein neuer).
