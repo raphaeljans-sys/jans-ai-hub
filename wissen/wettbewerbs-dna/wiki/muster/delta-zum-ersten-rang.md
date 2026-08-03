@@ -26,6 +26,16 @@ verfuegbaren Quellenlage vollstaendig; sie waechst automatisch, sobald fuer eine
 der 4 offenen Verfahren ein Jurybericht eintrifft (2501: Bericht seit Sommer 2026
 angekuendigt, 7. Pruefung 22.07.2026 weiterhin ohne Download).
 
+**Vertiefungsstand (Etappe 4, ab 03.08.2026):** Die Etappe 4 gleicht die ungleiche
+Tiefe je Dossier an. Dabei hat sich der Ausgangsbefund der Etappe (Nennungszaehlung
+je Dossier) als Messung der **Quellenlage**, nicht der Bearbeitungstiefe erwiesen:
+die drei am duennsten vertretenen Teilnahmen (2104, 2207, 2503) sind genau jene
+ohne Jury-Urteil im Bestand — dort ist kein Delta bildbar, unabhaengig vom Aufwand.
+Vertieft ist bisher **2408 BIWAK/Grassen** (Lauf 01, 03.08.2026): die bis dahin
+unausgewerteten Kapitel des Juryberichts (Kap. 4.3 «Wuerdigung», die Wuerdigungen
+des 2. und 3. Rangs, die Planbeilagen der engeren Wahl) tragen die Befunde 12 und 13
+sowie Schaerfungen an den Befunden 2, 3 und 6.
+
 ## Befund 1 — Die JANS-Staerken sind konstant: Setzung und konstruktive Klarheit
 
 In allen sieben Verfahren wurde die staedtebauliche Setzung bzw. die konstruktive
