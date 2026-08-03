@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.08.2026 05:05:47
+Stand: 03.08.2026 05:26:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 03.08.2026 05:05:47
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3f6cfbdf nas-selfcommit: 2 Datei(en) 2026-08-03 05:00
+- 826a7cc4 nas-selfcommit: 2 Datei(en) 2026-08-03 05:15
