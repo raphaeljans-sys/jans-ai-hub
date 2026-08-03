@@ -135,7 +135,7 @@ Vor dem Lesen einmal `head -c 200000 <datei> > /dev/null` erzwingt die Materiali
 |---|---|---|---|
 | `06_Richtlinien/Minergie/` | 79 | Bauteile-/Waermebrueckenkataloge, Nachweisformulare, Merkblaetter EnFK, Anwendungshilfen Minergie-P/-A, Fragenkataloge | 1 |
 | `04_Merkblätter/eco/` | 55 | eco-bau/KBOB: oekologisch Bauen, Zielvereinbarungen SIA 112/1, Merkblaetter nach BKP, Solarstromanlagen, Deviskontrolle | 2 |
-| `04_Merkblätter/Projektadmin AHB/` | 38 | Stadt Zuerich AHB: **Gebaeudetechnik-Richtlinien GT_RL1-RL9 (V21)**, 2000-Watt-Gesellschaft, Bauteilkatalog Energie+Oekologie, Innenraumklima | 2 |
+| `04_Merkblätter/Projektadmin AHB/` | 38 | Stadt Zuerich AHB: **Gebaeudetechnik-Richtlinien GT_RL1-RL9 (Version 2.1, Juli 2008)**, 2000-Watt-Gesellschaft, Bauteilkatalog Energie+Oekologie, Innenraumklima | 2 (alle neun destilliert Run 122) |
 | `01_Gesetze/02_Zuerich/Energie/` | 5 | EnerG-Fassung 730.1, WDV 2009, Vollzugsordner Energie Kt. ZH, VoHi EN-10 | 3 (Recht: mit KB `baurecht` abgleichen) |
 | uebrige | 5 | Einzelblaetter (VKF, SECO, Bodenbelaege) | 4 |
 
@@ -155,9 +155,7 @@ Vor dem Lesen einmal `head -c 200000 <datei> > /dev/null` erzwingt die Materiali
 
 ### Naechste Prioritaet aus PL-02
 
-1. **GT_RL1-RL9 Stadt Zuerich (V21)** — neun Gebaeudetechnik-Richtlinien (Planungsgrundlagen,
-   Systemwahl, Heizung, Raumkuehlung, Lueftung, Sanitaer, Elektro, Beleuchtung,
-   Gebaeudeautomation). Groesster geschlossener Fachblock des Korpus.
+1. ~~**GT_RL1-RL9 Stadt Zuerich**~~ — **erledigt Run 122 (03.08.2026), alle neun destilliert.**
 2. `Bauteilkatalog_Energie+Oekologie.pdf` (AHB) — verbindet Energie mit Bauoekologie.
 3. eco-bau-Reihe «Merkblaetter nach BKP» — direkt an die BKP-Systematik anschlussfaehig.
 

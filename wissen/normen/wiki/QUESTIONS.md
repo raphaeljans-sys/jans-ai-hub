@@ -18,6 +18,30 @@
   (cm-Bemassung, keine SIA-500-Terminologie) — ungeprüft, ob sie mit SIA 500:2009
   übereinstimmen. Fassungsvorbehalt analog [[bkz-2005-checkliste-hindernisfrei-hochbau]].
 
+  > **BEANTWORTET — Wissens-Chef Run 23, 03.08.2026 (Cross-KB, Feld normen ↔ planungsgrundlagen).**
+  > Nein, sie stimmen **nicht** überein, und zwar in der Raumbreite belegbar:
+  > - **Raumbreite.** «Minimale Lösung» 140 cm und «Normalausführung» 160 cm unterschreiten
+  >   **SIA 500:2009 Ziff. 7.2.3.2: WC-Raum min. 1,65 × 1,80 m** (aussen öffnende Tür, +0,50 m
+  >   bei innen öffnender). Belegt in [[sia-500-2009]] (S. 24), unabhängig gegenbelegt in
+  >   [[zhb-2005-mindestanforderungen-hindernisfreies-bauen]] («min. 165 × 180 cm») und
+  >   [[bkz-2005-checkliste-hindernisfrei-hochbau]]. Die Raumtiefe 220 cm erfüllt die Norm.
+  > - **Sitzhöhe.** Die 50 cm sind ein undatierter Wert ohne Normbezug (Herausgeber/Ausgabejahr
+  >   dieser Katalogblätter sind nach K42-1 nicht ermittelbar). Gegen sie stehen 46 cm aus
+  >   [[zhb-2005-mindestanforderungen-hindernisfreies-bauen]] (S. 27-28), dem Plan7-Katalog und
+  >   DIN 18040-1 Ziff. 5.3.3 (46-48 cm, nicht 1:1 übertragbar). **Entschieden ist der Konflikt
+  >   nicht** — SIA 500 Anhang E (S. 42-60) enthält die Detailmasse und ist im Hub noch nicht
+  >   gelesen. Das ist die einzige Stelle, die ihn auflöst; **als Leseauftrag offen (K42-4a)**.
+  > - **Wirkung schon gesetzt:** Der abnehmende Artikel
+  >   `wissen/planungsgrundlagen/wiki/recht-norm-sanitaerraeume-planungsgrundlagen.md` führte
+  >   diese Masse als «direkt als Planungsgrundlage für Pflegezimmer-Nasszellen nutzbar». Dort
+  >   sind Normvorbehalt und Sitzhöhen-Vorbehalt in Run 23 gesetzt.
+  > - **Für dieses Destillat:** Fassungsvorbehalt bei den S56-Massen gesetzt (siehe dort).
+
+- **K42-4a Leseauftrag SIA 500:2009 Anhang E** (S. 42-60, PDF im Hub vorhanden, laut
+  [[sia-500-2009]] noch nicht gelesen): enthält die Detailmasse rollstuhlgerechter Sanitärräume
+  und entscheidet den Sitzhöhen-Konflikt aus K42-4. Höchste Priorität unter den offenen
+  Lese-Aufträgen, weil drei KBs auf die Antwort warten. *(Aufgenommen Wissens-Chef Run 23.)*
+
 ## Run 41 (MacBook Pro, 01.08.2026) — neu offen
 
 ### Lignatec / Lignum

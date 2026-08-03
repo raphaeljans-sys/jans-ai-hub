@@ -147,6 +147,17 @@ empfohlen (Rule `identifikatoren-verifizieren`).
 
 ## Blatt S56 — Besondere Einrichtungen für Behindertenanlagen
 
+> **Fassungsvorbehalt — die Raumbreiten dieses Blatts sind normwidrig (Wissens-Chef Run 23,
+> 03.08.2026; beantwortet den eigenen offenen Punkt K42-4).** Die Grundrissvarianten
+> «Minimale Lösung» **140 cm** und «Normalausführung» **160 cm** Raumbreite unterschreiten
+> **SIA 500:2009 Ziff. 7.2.3.2 (WC-Raum min. 1,65 × 1,80 m** bei aussen öffnender Tür, +0,50 m
+> bei innen öffnender; siehe [[sia-500-2009]] S. 24). Gegenbelegt in
+> [[zhb-2005-mindestanforderungen-hindernisfreies-bauen]] und
+> [[bkz-2005-checkliste-hindernisfrei-hochbau]]. Die Raumtiefe 220 cm erfüllt die Norm.
+> Die **Sitzhöhe 50 cm** steht gegen 46 cm aus mehreren nicht-normativen Quellen; der Konflikt
+> ist **offen**, bis SIA 500 Anhang E gelesen ist (K42-4a). **Kein Mass dieses Blatts wandert
+> ohne Normabgleich in Grundriss, Sanitärplan oder LV.**
+
 Textteil «Klosetts»: auf einer Seite des Klosetts ist eine 80 cm breite Bewegungsfläche mit
 gesicherter freier Zufahrt vorzusehen; vor dem Klosett eine 120 cm tiefe Bewegungsfläche;
 Türen dürfen nicht nach innen aufschlagen, Pendeltüren sind unzulässig; Sitzhöhe des Klosetts

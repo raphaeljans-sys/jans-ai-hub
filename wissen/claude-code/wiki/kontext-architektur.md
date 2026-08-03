@@ -1,8 +1,8 @@
 ---
 title: Kontext-Architektur des Hubs — was wann laedt
 status: established
-last_updated: 2026-07-29
-sources: [messung-260729-grundkontext, lecture-260729-anthropic]
+last_updated: 2026-08-03
+sources: [messung-260729-grundkontext, messung-260803-grundkontext-wissens-chef-run23, lecture-260729-anthropic]
 links: [[lecture-260729-anthropic]], [[INDEX]], [[environment-jans-hub]] (KB spec — formales Layer-3-Modell)
 ---
 
@@ -42,8 +42,15 @@ Schluessel 4 B/Token.
 | vor der Diaet 2.0 (Commit `29bcb1ac~1`) | 105'573 | ~26'400 |
 | nach der Diaet 2.0 (29.07.2026 02:00, Commit `29bcb1ac`) | 87'398 | ~21'800 |
 | Ersparnis der Diaet | 18'175 | 17 % |
-| **Stand heute (29.07.2026 23:39, 20 @-Importe)** | **96'946** | **~24'200** |
-| Rebound seit der Diaet-Messung | +9'548 | 53 % der Ersparnis |
+| Stand 29.07.2026 23:39, 20 @-Importe | 96'946 | ~24'200 |
+| Rebound bis dahin seit der Diaet-Messung | +9'548 | 53 % der Ersparnis |
+| **Stand 03.08.2026 22:30, 21 @-Importe** | **115'482** | **~28'900** |
+| Rebound gesamt seit der Diaet | **+28'084** | **die Ersparnis ist vollstaendig aufgezehrt** |
+
+*(Zeile 03.08. nachgemessen Wissens-Chef Run 23; Messweise unveraendert: `stat -f %z` ueber
+`CLAUDE.md` + `~/.claude/CLAUDE.md` + alle @-importierten Rules. Der Stand liegt jetzt **ueber**
+dem Vor-Diaet-Wert von 105'573 B — die Kontext-Diaet 2.0 ist rechnerisch rueckgaengig gemacht,
+allein durch das Wachstum von `jans-dna.md` (+17'072 B in fuenf Tagen) und einen 21. Import.)*
 
 Die Ersparnis-Zeile misst die **Wirkung des Eingriffs** am Commit `29bcb1ac` und bleibt
 gueltig; sie wird nicht mit dem heutigen Stand verrechnet. Das Wiederanwachsen ist eine
@@ -66,8 +73,20 @@ Groesster Einzelposten vor der Diaet: `rules/auto-verbesserungen.md` mit 36'029 
 Speicher-Messwerte, Vorfallschroniken —, das bei fachlicher Arbeit (Offerte, Baurecht,
 Mail) keine Rolle spielt. Ausgelagert nach `rules/betrieb-chronik.md` (nicht importiert).
 
-Zweitgroesster Posten: `rules/jans-dna.md` mit 15'356 B (14 %). Bleibt bewusst importiert —
-sie rahmt jede Texterzeugung und ist damit echter Grundkontext.
+**Groesster Einzelposten: `rules/jans-dna.md`.** Sie bleibt bewusst importiert — sie rahmt jede
+Texterzeugung und ist damit echter Grundkontext. Aber sie waechst, und zwar schnell:
+
+| Messung | jans-dna.md | Anteil am Grundkontext |
+|---|---|---|
+| 29.07.2026 23:39 | 15'356 B | 14 % (zweitgroesster Posten) |
+| **03.08.2026 22:30** | **32'428 B** | **28.1 % (groesster Posten)** |
+
+In fuenf Tagen mehr als verdoppelt. Ursache ist der Kompilationsmechanismus: `twin` schreibt die
+sechs Facetten-Artikel fort, `skills/twin/tools/build_dna.py` kompiliert sie in den Auto-Block
+der Rule, und **keine Stufe dieser Kette misst oder meldet die resultierende Dateigroesse**. Der
+zweitgroesste Posten ist `rules/auto-verbesserungen.md` mit 17'194 B.
+Erzeuger-KB: `wissen/twin/` (dort in `CLAUDE.md` der Gegenverweis auf diese Messung).
+*(Nachgemessen Wissens-Chef Run 23, 03.08.2026.)*
 
 ## Die Entscheidungsregel
 

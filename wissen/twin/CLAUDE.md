@@ -118,9 +118,19 @@ gesprochen hat**.
 ## Loops
 
 - `twin-mail-training` (täglich) destilliert neue Marker hierher; CHANGELOG führen.
-- `twin-fidelity-review` (alle 2 Tage) scort, validiert Facetten gegeneinander, hängt
-  Fragen an [[QUESTIONS]] und stösst die Neukompilierung von `rules/jans-dna.md` an.
+- `twin-fidelity-review` (**täglich**, Registry-Stand 03.08.2026: cron `40 5 * * *`) scort,
+  validiert Facetten gegeneinander, hängt Fragen an [[QUESTIONS]] und stösst die
+  Neukompilierung von `rules/jans-dna.md` an. *(Berichtigt Wissens-Chef Run 23: hier stand
+  «alle 2 Tage».)*
 - Health-Check: Skill `wissenscheck` auditiert auch diese KB.
+
+**Kontext-Kosten dieser KB.** Was hier wächst, wird über `skills/twin/tools/build_dna.py` in
+`rules/jans-dna.md` kompiliert und lädt damit in **jede** Session — die Facetten-Artikel sind
+also nicht nur Wissen, sondern Grundkontext-Budget. Geführt und gemessen wird dieses Budget in
+`wissen/claude-code/wiki/kontext-architektur.md`. Vor einer grösseren Erweiterung einer Facette
+dort nachsehen, wie der Stand ist.
+*(Erst-Verlinkung Wissens-Chef Run 23, 03.08.2026: die KB, die die grösste Datei des
+Grundkontexts erzeugt, kannte die KB nicht, die dieses Budget führt.)*
 
 ## Sync
 

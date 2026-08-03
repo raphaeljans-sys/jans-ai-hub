@@ -18,6 +18,28 @@ Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeit
    ohne Ertrag? **Nichts deaktiviert und nichts angetastet** (Vorschrift des Loops: nur melden).
    Entscheid ueber Diagnose oder Rueckbau liegt bei Raphael.
 
+   > **GEKLAERT — Wissens-Chef Run 23, 03.08.2026.** Zwei Richtigstellungen, beide gemessen:
+   >
+   > **(a) Die Ursache ist das Wochen-Kontingent, kein Loop-Defekt.** Das Lauf-Journal belegt fuer
+   > genau dieses Fenster bei *jedem* getakteten Lauf beider Stationen denselben Abbruch:
+   > `logbuch/laeufe/260801-laeufe.jsonl` ab 14:28 «You've hit your weekly limit · resets Aug 3 at
+   > 12pm (Europe/Zurich)», durchgehend in `260802-laeufe.jsonl` (02:30 / 05:30 / 13:30 / 22:30 /
+   > 23:30, alle rc=1) und in `260803-laeufe.jsonl` bis 05:30. Der erste erfolgreiche Lauf nach
+   > dem Reset ist am 03.08. um 13:41 (rc=0) protokolliert. Die `wissens-chef`-Slots vom 01.08.
+   > und 02.08. um 23:12 fielen mitten in dieses Fenster. Der Task ist gefeuert (`lastRunAt`
+   > gesetzt) und hatte kein Kontingent — er ist weder abgestuerzt noch leer gelaufen.
+   >
+   > **(b) Das dritte Beweisstueck war ein Nicht-Signal.** Die fehlende Journalzeile taugt fuer
+   > diesen Task nicht als Indiz: `wissens-chef` ist ein App-Scheduled-Task und laeuft **nicht**
+   > ueber `scripts/claude-run.sh`, das die JSON-Zeilen nach `logbuch/laeufe/` schreibt. Er hat
+   > dort auch vor dem 31.07. nie eine Zeile hinterlassen. Fuer diese Klasse von Laeufen sind
+   > allein Run-Bericht und CHANGELOG-Eintrag gueltige Liefer-Belege — die beiden ersten
+   > Beweisstuecke der Meldung halten also, das dritte nicht.
+   >
+   > **Lehre fuer die Rotation:** vor dem Befund «Loop liefert nicht» zuerst pruefen, ob der Loop
+   > ueberhaupt in das gepruefte Belegsystem schreibt, und ob im selben Fenster ein
+   > Kontingent-Abbruch protokolliert ist. Beides kostet je einen `grep`.
+
 ## Offen (29.07.2026)
 
 0a. **Quelle der «Methode SPW» nicht identifiziert.** Kanal «bettercreating…» (URL

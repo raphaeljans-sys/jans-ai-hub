@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 22:31:35
+Stand: 03.08.2026 22:41:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:40)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 22:31:35
 - 3 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 6751edc3 hub-chef 03.08. 22:30: Feuerpolizei-Anmerkungen inventarisiert (7/15 Blaetter, vierter Punkt 33.22), liegender Kuebler-Entwurf mit Frist 04.08.
+- c524c858 vollgas-fruehwarnung 03.08. Vollzug + Messfehler-Korrektur: vollgas-chef-radar auf 8h zurueckgetaktet (Freigabe Raphael, ~4.1 Mio/Woche); Wochenwerte korrigiert (mtime-Vorfilter zaehlte Zeilen ausserhalb des Fensters — 83.72 auf 56.80 Mio), Task-Prompt gehaertet (9-Tage-Vorfilter, Zeilenfilter-Pflicht, Mini-Loops ohne Task-Header)
