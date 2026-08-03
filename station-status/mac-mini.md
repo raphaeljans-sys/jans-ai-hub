@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 13:37:50
+Stand: 03.08.2026 13:58:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:24)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 13:37:50
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- ffac56e8 energie/PROGRAMM: Verifikations-Stufe geschaerft (Refuter-Aussage woertlich zitieren, Beanstandung selbst gegenpruefen, Alterskorpus braucht Aktualitaetspruefung statt Refuter-Panel) - Lehre Run 121
+- 6e8ad57d nas-selfcommit: 2 Datei(en) 2026-08-03 13:45
