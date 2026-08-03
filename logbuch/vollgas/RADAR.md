@@ -34,6 +34,18 @@ Neueste Eintraege zuoberst.
 > `*.disabled-260729`-plists. Eine Wiederbelebung braucht eine neue, ausdrückliche Anweisung
 > Raphaels — Schweigen gilt nicht als Zustimmung.
 
+> **STEHENDER ENTSCHEID 03.08.2026 (Raphael) — VERBRAUCH GLEICHMAESSIG UEBER DIE WOCHE:**
+> Auf die P1-Regimefrage dieses Radars vom 03.08. 22:07 («soll der Verbrauch frueher in der
+> Woche gedrosselt werden, damit das Wochenende nicht leer laeuft?») hat Raphael entschieden:
+> **ja, gleichmaessig ueber die Woche.** Das Kontingent soll bis zum Montags-Reset reichen;
+> ein dunkles Wochenende wie 01.–03.08. (47 h, 11 blockierte Laeufe, 02.08. null Commits)
+> ist nicht laenger hinzunehmen. Kein Vollgas-Spitzentag mehr am Wochenanfang.
+> **Der Radar legt diese Frage nicht erneut als P1 vor.** Ein Tagesdeckel-Mechanismus ist
+> damit noch NICHT gebaut — der Hebel «Wochenbudget-Steuerung» wurde am 03.08. bewusst
+> zurueckgestellt; der Entscheid steht, die Umsetzung ist ein eigener Auftrag. Bis dahin
+> wirkt er als Leitplanke fuer Takt-Empfehlungen: neue oder hochgetaktete Loops gehoeren
+> nicht auf Montag bis Mittwoch gebuendelt.
+
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
 Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt (Ziel im VOLLGAS-Regime) ·
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).

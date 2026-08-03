@@ -2,6 +2,54 @@
 
 Neueste zuoberst.
 
+## 2026-08-03 — Run 122: AHB-Gebaeudetechnik-Richtlinien (RL1-RL9) vollstaendig destilliert
+
+**Transfer:** Neun neue Destillate `ahb-zuerich-gt-rl1-planungsgrundlagen` bis
+`ahb-zuerich-gt-rl9-gebaeudeautomation` (Stadt Zuerich, Amt fuer Hochbauten, Fachstelle Energie &
+Gebaeudetechnik). Alle neun Quelldokumente vollstaendig gelesen (4-7 Seiten), neun parallele
+Agenten ohne Ausfall. Damit ist der groesste geschlossene Fachblock des Korpus PL-02 erledigt;
+19 von 182 energierelevanten PDF sind destilliert, 163 offen.
+
+**Korrektur an Run 121:** «V21» im Dateinamen ist eine **Versions-, keine Jahresangabe** —
+Version 2.1, **Juli 2008** (am Titelblatt im Hauptmodell selbst verifiziert). Der Block wurde
+bisher 13 Jahre zu jung gefuehrt. `pdf-inventar.md` und `PROGRAMM.md` entsprechend korrigiert.
+
+**Verifikation (Aktualitaetspruefung, nicht Refuter-Panel):** Sieben Normverweise geprueft, jeder
+umsetzungsrelevante Befund im Hauptmodell am Original gegengeprueft (Rule 260729b). **Vier
+Verweise sind nicht gealtert, sondern falsch geworden:** Art. 20/20a LRV aufgehoben per
+01.01.2022 (AS 2021 632, am Fedlex-Volltext bestaetigt) — die 350-kW-Konformitaetsschwelle
+existiert nicht mehr · SIA 380/4:2006 archiviert seit 31.07.2019 (an der SIA-Shop-Produktseite
+bestaetigt), aufgeteilt in SIA 387/4:2023 / SIA 2056:2019 / SIA 382/2, energycodes.ch tot,
+Vollzug ZH ueber EVEN · EN 779:2002 → EN ISO 16890 (Methodenwechsel, keine 1:1-Uebersetzung von
+F7) · ChemRRV: R134a/R410A/R407C fuer neue WP und Gebaeudekuehlung nicht mehr zulaessig.
+Ausserdem: DIN V 4279-7 zurueckgezogen → SIA 384/6:2021; SIA 180:1999 → 2014; SIA 382/1:2007 →
+2025.
+
+**Zwei eigene Transfer-Abschnitte waren positiv falsch und wurden korrigiert:** RL8 behauptete
+SIA 380/4 sei «Pflicht bei Nichtwohnbauten», RL3 fuehrte die 350-kW-Schwelle als «echten
+Gewinn». Beide Destillate gaben die Quelle treu wieder — falsch war die eigene Einordnung.
+Daraus die Methodik-Regel: Destillat-Treue und Aktualitaet sind zwei verschiedene Pruefungen.
+
+**Eine Beanstandung praezisiert statt uebernommen:** «350 kW kommt im LRV-Text nicht mehr vor»
+stimmt inhaltlich, aber die Zeichenfolge steht dreimal im geltenden Text (Abfallverbrennung in
+Kleinanlagen, Anhang 5 Ziff. 13) — so praezise vermerkt.
+
+**Verdichtung:** Sechs neue Bauherren-Antworten **F202-F207** (Legionellenschutz im Pflegeheim
+bei Waermepumpe · aktive Kuehlung als Ausnahme · Checkliste Variantenvergleich ·
+Betriebsoptimierung und Messpflichten · Gebaeudeautomation Herstellerneutralitaet ·
+Lichtsteuerung nach Raumtyp). F202 wurde nach eigener Lektuere des PDF um die fehlende Bedingung
+«sofern nicht saemtliche Warmwasser-Installationen neu erstellt werden» ergaenzt.
+
+**Neuer Themenartikel** `wiki/gebaeudetechnik-pflichtenheft.md` — Bestellerlogik einer
+professionellen Bauherrschaft (Instrumentenkette, Entscheidungskaskade, Mess- und
+Nachweispflichten, Betriebsoptimierung), mit Aktualitaetspruefung und ausdruecklichem Abschnitt
+«Was NICHT uebertragbar ist». 13 Backlinks geprueft.
+
+**Register:** `destillate/INDEX.md` · `pdf-inventar.md` · `BAUHERREN-FAQ.md` · `wiki/INDEX.md` ·
+`QUESTIONS.md` (E-122-1 bis E-122-6) · `curriculum.md` (D93) · `raw/_INGESTED.md` ·
+`PROGRAMM.md` (vier Methodik-Regeln). Stand: **230 Destillate · 207 FAQ · 32 Themenartikel**.
+
+
 ## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — drei Korrekturen an Destillaten aus Lauf 121
 
 - **[korrektur] `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` — Klimareferenz

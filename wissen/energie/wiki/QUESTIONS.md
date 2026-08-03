@@ -2829,3 +2829,47 @@ Paraphrase in der Prüf-Aufgabe, nicht gegen den Dateiinhalt (R744-Sicherheitskl
 Destillat schrieb die Herstellerquelle von Anfang an korrekt aus; Wohnbaupreise-Index: stand
 bereits richtig in der Datei). **Lehre: die zu widerlegende Aussage im Refuter-Auftrag wörtlich
 aus der Datei zitieren, nicht zusammenfassen** — sonst prüft der Refuter die Zusammenfassung.
+
+### Run 122 (03.08.2026) — Gebäudetechnik-Richtlinien AHB Stadt Zürich
+
+- **E-122-1 — Ziffern-Kontinuität SIA 382/1 über zwei Ausgabenwechsel (hohe Priorität).** Die
+  AHB-Richtlinien zitieren SIA 382/1:2007 mit den Ziffern 4.4.4 (Kühlbedarfsnachweis), 4.3, 5.6,
+  5.10, 5.11 und 5.12. Verifiziert ist nur der **Normstatus** (2007 → 2014 → **SIA 382/1:2025**,
+  gültig ab 01.02.2025, neuer Titel «Mechanische Lüftung in Gebäuden»), **nicht**, ob diese
+  Ziffern in der geltenden Ausgabe noch dieselben Inhalte tragen. Der Normtext ist
+  kostenpflichtig. Bis zur Klärung ist jede Ziffernangabe aus diesem Block **unbelegt** →
+  `[[ahb-zuerich-gt-rl4-raumkuehlung]]`, `[[ahb-zuerich-gt-rl5-lueftungsanlagen]]`,
+  `[[ahb-zuerich-gt-rl1-planungsgrundlagen]]`. Gleiches gilt für SIA 180 Ziff. 3.3.1.2
+  (1999 → 2014).
+- **E-122-2 — Schreibt SIA 382/1:2025 Luftfilter nach ISO 16890 vor?** Und mit welcher
+  ODA-/SUP-Systematik? Ohne diese Antwort lässt sich für ein Pflichtenheft keine belegte
+  Filterklasse setzen — die Umrechnung F7 → ePM1 ist ausdrücklich **keine 1:1-Übersetzung**
+  (reale Spreizung ePM2,5 60 % bis ePM1 65 %). Normtext kostenpflichtig, nicht verifiziert →
+  `[[ahb-zuerich-gt-rl5-lueftungsanlagen]]`, an Skill `normen` zu übergeben.
+- **E-122-3 — Wohin sind die Inverkehrbringens-Bestimmungen für Feuerungsanlagen gewandert?**
+  Art. 20 und 20a LRV wurden per 01.01.2022 aufgehoben (AS 2021 632, am Fedlex-Volltext
+  verifiziert); die Emissionsbegrenzungen bestehen weiter. In welches Regelwerk die
+  produktrechtlichen Anforderungen überführt wurden (naheliegend Produktsicherheits- bzw.
+  Ecodesign-Recht), ist **nicht verifiziert** und wird hier ausdrücklich nicht vermutet →
+  `[[ahb-zuerich-gt-rl3-heizungsanlagen]]`.
+- **E-122-4 — Amtliche Schweizer GWP-Werte für R134a / R410A / R407C (niedrige Priorität).**
+  Die Einordnung «alle drei über der ChemRRV-Schwelle 750» ist wegen des grossen Abstands
+  sicher, die konkreten GWP-Zahlen stammen aber aus der gängigen AR4-Zuordnung und wurden
+  **nicht** an einer amtlichen Schweizer Quelle gegengelesen; je zugrunde gelegtem IPCC-Bericht
+  weichen sie ab. Welcher Bericht ist für die ChemRRV massgebend? →
+  `[[ahb-zuerich-gt-rl4-raumkuehlung]]`.
+- **E-122-5 — Gibt es eine neuere Fassung der Richtlinien Gebäudetechnik der Stadt Zürich?**
+  Der JANS-Bestand enthält Version 2.1 von Juli 2008. Ob das AHB seither revidiert hat, ist
+  **nicht geprüft**. Vor jeder Berufung gegenüber der Stadt Zürich (etwa in einem Mandat für
+  die öffentliche Hand) zu verifizieren → alle neun `ahb-zuerich-gt-rl*`-Destillate.
+- **E-122-6 — Lux-Werte und spezifische Anschlussleistung Beleuchtung fehlen der KB.** RL8
+  verweist auf eine EN-12464-1-Übersichtstabelle, die **nicht Teil des Dokuments** ist, und
+  nennt selbst keine Lux- oder W/m²-Werte. Damit fehlt der KB weiterhin die Zahlenbasis für
+  einen eigenen Wiki-Themenartikel Beleuchtung; die Steuerungslogik ist belegt, die Bemessung
+  nicht → `[[ahb-zuerich-gt-rl8-beleuchtung]]`.
+
+**Methodische Lehre Run 122 (zur Aufnahme ins PROGRAMM.md bereits vollzogen):** Ein
+**Versionskürzel im Dateinamen ist keine Jahreszahl.** Run 121 las «V21» als 2021 und stufte
+einen 18 Jahre alten Korpus als fünf Jahre alt ein. Das Ausgabedatum steht am Titelblatt und
+wird dort gelesen. Der Fehler war folgenreich, weil er über die Alterseinstufung entscheidet und
+damit darüber, ob ein Destillat eine Aktualitätsprüfung braucht.

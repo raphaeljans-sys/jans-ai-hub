@@ -78,6 +78,22 @@ Widerlegungs-Pruefung (Verifier-Prinzip der Spec-Methode, automatisiert):
   (Quellen 2001-2019) brauchen stattdessen eine **Aktualitaetspruefung** gegen die geltende
   Fassung — ein Refuter-Panel auf den Altstand bestaetigt nur, dass der Altstand korrekt
   wiedergegeben ist, und rechtfertigt keine Hebung auf `established`.
+- **Das Alter der Quelle wird am Titelblatt GELESEN, nie aus dem Dateinamen abgeleitet**
+  (Lehre Run 122, 03.08.2026). Ein Versionskuerzel wie `_V21`, `_V13`, `_1.3` ist eine
+  **Versions-, keine Jahresangabe**: «GT_RL5_Lueftungsanlagen_V21.pdf» ist Version 2.1 von
+  **Juli 2008**, nicht 2021. Run 121 hat den ganzen AHB-Block dadurch 13 Jahre zu jung
+  eingestuft. Der Fehler ist folgenreich, weil die Alterseinstufung darueber entscheidet, ob
+  ein Destillat ueberhaupt eine Aktualitaetspruefung erhaelt — ein zu jung eingestufter Korpus
+  wird nie geprueft und schleppt tote Normverweise als geltendes Wissen mit.
+- **Die Aktualitaetspruefung prueft die Bauherren-Transfer-Abschnitte MIT, nicht nur die
+  Quellenwiedergabe** (Lehre Run 122). Zwei der neun Destillate gaben die Quelle von 2008 treu
+  wieder und zogen daraus im eigenen Transfer-Abschnitt eine **heute positiv falsche**
+  Empfehlung («SIA 380/4 ist Pflicht bei Nichtwohnbauten», «350-kW-Schwelle nach Art. 20a LRV
+  als echter Zugewinn»). Destillat-Treue und Aktualitaet sind zwei verschiedene Pruefungen;
+  die zweite muss ausdruecklich auf die eigene Einordnung angesetzt werden.
+- **Bei Subagenten auf OneDrive-/SharePoint-Pfaden zuerst eine lokale Arbeitskopie anlegen**
+  (Memory `feedback_background_agent_onedrive_stall`; in Run 122 mit 9/9 fehlerfreien Agenten
+  bestaetigt). Kosten: ein `cp`. Nutzen: kein stallender Agent.
 
 ## Intensivphase (ab 12.07.2026, bis auf Widerruf)
 

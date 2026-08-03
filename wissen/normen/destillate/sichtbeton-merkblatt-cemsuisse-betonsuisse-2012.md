@@ -2,9 +2,9 @@
 quelle: "04_Merkblätter/Betonsuisse_Merkblatt.pdf"
 herausgeber: "Verfasserin: cemsuisse, Verband der Schweizerischen Cementindustrie, Marktgasse 53, 3011 Bern, www.cemsuisse.ch; Herausgeberin: Betonsuisse Marketing AG, Marktgasse 53, 3011 Bern, www.betonsuisse.ch (S.2)"
 ausgabe: "«Merkblatt für Sichtbetonbauten», cemsuisse-Merkblatt MB 02, April 2012 (Titelblatt; Vorwort datiert Januar 2012, S.4), 56 Seiten inkl. Anhang A-E"
-gelesen: "Run 42 (030826): Volltext gelesen (56 S. in 3 Bloecken à 20/20/16 S., PDF-Rendering via Read-Tool, Seite fuer Seite als Bild); Tab.9 (Bewehrungsueberdeckung, S.33) und Tab.12 (Mindestnachbehandlungsdauer, S.37) zusaetzlich einzeln bei 300dpi gerendert und zugeschnitten verifiziert wegen mehrspaltiger Kopfzeilen und verbundener Zellen"
+gelesen: "Run 42 (030826): Volltext gelesen (56 S. in 3 Bloecken à 20/20/16 S., PDF-Rendering via Read-Tool, Seite fuer Seite als Bild); Tab.9 (Bewehrungsueberdeckung, S.33) und Tab.12 (Mindestnachbehandlungsdauer, S.37) zusaetzlich einzeln bei 300dpi gerendert und zugeschnitten verifiziert wegen mehrspaltiger Kopfzeilen und verbundener Zellen. Runde 2 (Refutation, 030826 Run 42): rund 180 Einzelaussagen gegengelesen, alle Kerntabellen (u.a. Tab. 4/5, 6, 9, 11) bei 300/600dpi neu gerendert. Nicht (bzw. nur kursorisch) geprueft blieben: Kap. 1 Begriffe im Uebrigen (S.8-11 ausser S.10), Kap. 2.1/2.2 (S.12-17) nur kursorisch, S.31/32/34/38/39 (Nutzungsvereinbarung, Ausfuehrbarkeit, Distanzhalter-Uebersicht S.34, PQM, Kostenwahrheit, Bauzeit), S.40 (Kap. 6.1 NPK-241-Kennzeichnung), S.42 (Kap. 7), S.45-46 (Literatur/Bildnachweis), Anhang B und C (Formulare)."
 datenstand: "April 2012 (Vorwort Januar 2012)"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhängige Verifikation)"
+status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhängige Verifikation). Runde 2 (030826, Run 42): unabhaengiger Refuter, rund 180 Einzelaussagen, VERDIKT BEANSTANDET, 2 Kernbefunde + 8 Nebenbefunde, alle korrigiert. Kernbefund 1 (Tab. 9 XD2a) vom Hauptprozess am eigenen 300-dpi-Rendering nachgelesen und bestaetigt."
 last_updated: 2026-08-03
 links: [[REGISTER]]
 ---
@@ -38,7 +38,9 @@ Abgleich mit der JANS-Normen-KB: `sia-262-2003.md` führt SIA 262 «Betonbau» i
 
 ## Aufbau und Gliederung des Merkblatts
 
-Neun Hauptkapitel plus Anhang (Inhaltsverzeichnis S.3):
+Zehn Hauptkapitel (0 bis 9) plus Anhang (Inhaltsverzeichnis S.3); dazu ein eigener Abschnitt «Mitglieder der Arbeitsgruppe» (S.5), der in der Gliederung unten miterfasst wird:
+
+Mitglieder der Arbeitsgruppe (S.5)
 
 0. Geltungsbereich (S.6-7): Abgrenzungen, Verweise, vertragliche Einbindung
 1. Begriffe (S.8-11): Glossar Sichtbeton-Fachbegriffe
@@ -52,6 +54,8 @@ Neun Hauptkapitel plus Anhang (Inhaltsverzeichnis S.3):
 9. Literaturverzeichnis/Bildnachweis (S.45-46)
 
 Anhang (S.47-53): A Objektdaten-Formular, B Bauteildaten-Formular, C Planer-Checkliste fürs Leistungsverzeichnis, D Devistext-Beispiele nach NPK 241 für SBK 1/2/3/S (informativ), E ausformuliertes Fallbeispiel SBK S («Rostiger Beton», Stellwerk Vorbahnhof Zürich, Gigon + Guyer Architekten).
+
+**Geltungsbereich Ziff. 0.1 (S.6):** Das Merkblatt gilt für mit Schalhaut gestaltete Sichtbetonoberflächen. Es ist wegweisend für Beton nach SN EN 206-1 und lässt sich auf Spritzbeton, Leichtbeton und Recyclingbeton sinngemäss anwenden, sofern die jeweilige spezifische Anpassung erfolgt. Es bezieht sich vor allem auf Ortbeton, ist aber ebenso auf Fertigbauteile anwendbar. Sichtbare Betonflächen ohne ästhetische Ansprüche gelten nicht als Sichtbeton im Sinn des Merkblatts und werden nicht klassifiziert.
 
 ## Sichtbetonklassen SBK 1 bis SBK 3 und SBK S (Kap. 4, S.22-30)
 
