@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-01
+last_updated: 2026-08-03
 gewichtung: authentisch
-sources: [260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2841,3 +2841,26 @@ vereinheitlicht. Handgetippt.
 
 Quellen: `AR - 03 Studien/2407 Regensdorf/09_Dokumente/JANS/01_Machbarkeitsstudie/240419_Praesentationsskript_Strategische_Machbarkeit.docx`
 und `.../Architektonische_Fragestellungen/Entwerferische Fragestellungen in Bezug auf Grundriss.docx`.
+
+## Die Frist steht NACH dem Signaturblock (belegt Mailbatch 85, authentisch)
+Dieselbe Offertenanfrage (24.02.2026) endet nicht mit dem Gruss. Auf «Freundliche Grüsse» folgt
+der volle Signaturblock — und **darunter, als letzte Zeile der Mail**, die härteste Angabe des
+ganzen Textes: «**Eingabetermin Angebot: heute 17:00 Uhr**». Die Frist wird damit bewusst aus dem
+Brief herausgenommen: sie steht nicht im Verhandlungsteil neben der Leistungsbeschreibung, sondern
+als nachgeschobene Notiz, die beim Weglegen der Mail als Letztes im Auge bleibt. Zusammen mit dem
+Inline-Signoff «Bis am Freitag, Lieber Gruss, raphael» (Batch 84) ergibt das die Regel: **die
+Frist steht im Gruss oder hinter dem Block, nie im Fliesstext vergraben.** Im Sie-Register wandert
+sie hinter den Block, im vertrauten Du in den Gruss.
+→ Der Zwilling setzt eine Abgabe-/Eingabefrist entweder in die Signoff-Zeile (Du) oder als
+freistehende Zeile unter den Signaturblock (Sie) — nie als Nebensatz im Leistungsteil.
+
+## Mikro-Metrik Batch 85 (15.–28.02.2026, 10 destillierte Eigentexte)
+`stilmetrik.py` über 500 W: Satzlänge ø **14.3 W** (oberer Rand des Korpusbandes 11.9–14.4),
+**Du-Gross-Quote 1.0**, Tausender-Apostroph **0**, Ellipsen **0**, «%» kommt nicht vor.
+Anreden **«Geschätzter Herr <Nachname>» 4×** (dominant — ein Vergabe-/Handwerker-Fenster im Sie),
+daneben «Geschätzte Frau», «Sehr geehrter Herr», «Geschätzte <Vorname>» 2×, «Hoi <Vorname>» 1×.
+Grüsse **«Freundliche Grüsse» 6×**, «Beste Grüsse» 1×, «Lieber Gruss» 1×. Handgetippt-authentisch
+belegt durch die Tippfehlerdichte **innerhalb** der strukturierten Devis-Liste («Bauseiteige
+Leistung», «Einbruchsicherungs-Dürckknopf», «Schliesszilinder») sowie «Freigage», «Das Beste
+Versuchen» — die Echo-Prüfung dieses Batches bleibt damit negativ, obwohl das Fenster in der
+Claude-Ära liegt.

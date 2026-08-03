@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-08-03
 gewichtung: authentisch
-sources: [260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1678,3 +1678,28 @@ berufspolitisches Thema** verfolgt er aktiv und teilt sie im Peer-Kreis — füg
 belegten Honorar-Fachsignatur (SIA-102-Phasenofferte, Tagespauschalen-Modell, Kostendach, Honorar
 direkt und ohne Polster beziffert). Kein Do-Block-Marker, nur Kontext; die Nullform der Weiterleitung
 selbst → [[beziehungsregister]].
+
+## Offertenanfrage als Kurz-Devis im Mailbody, verankert am Referenzobjekt (belegt Mailbatch 85, authentisch)
+24.02.2026 an eine Schreinerei (Sie), Balkontüre Wartstrasse 8. Der Mailbody **ist** das
+Leistungsverzeichnis, in vier Blöcken: **Bauteil-Spezifikation** → **Leistungsumfang Montage** mit
+abgesetzter bauseitiger Abgrenzung (a) / b)) → **Rahmenbedingungen** → **Beilagen**. Die Spec ist
+ausführungsscharf und produktneutral zugleich: «zweiflüglig mit Oberlicht, 1 Stk. Drehkippflügel
+rechts, links 1 Stk. Drehflügel, Oberlicht Kippflügel horizontal», «Richtmass Element: ca.
+1170 × 2590 mm», «Bauteilstärke / Querschnitt: 58 x 68; **Sirius HHB 58/68 oder gleichwertig**»,
+«Fertiganstrich in weiss nach **RAL-9010**», «Wärmeschutzverglasung, 3-fach, **Zielwert Ug ca.
+0.7 W/m²K**», «Verbundsicherheitsglas innen und aussen (je 5 mm)», «Fugen aussen mit
+**Seidenzopf** ausstopfen». Die Bauteil-Entscheide tragen ihren Grund mit («Aussen Zuziehgriff
+**weil** Rolladenführung direkt an Balkontürrahmen aufliegt»).
+
+Das Eigentümliche ist der **Referenz-Anker**: dreimal «analog Referenz» / «gemäss Referenz», bis
+hinunter zum Aufwandskennwert «**Montageansatz gemäss Referenz: 2 Monteure, ca. 2 Stunden**».
+Der bereits ausgeführte Vergleichsfall wird dem Anbieter als Massstab **mitgegeben**, statt ihn
+den Aufwand frei ansetzen zu lassen — dieselbe Bewegung wie das Hochfaktorieren vom bekannten
+Kennwert (Batch 26), hier auf der Vergabeseite. Dazu die **Zugänglichkeit als Kalkulationsgrösse**
+(«gut gegeben mit Auto bis an Trottoir, 10m zu Fuss bis Montageort») und die Vergleichbarkeits-
+Klausel «**Bitte separat ausweisen: Lieferfrist ab Auftrag, Montagezeit vor Ort, Zahlungs- und
+Garantiebedingungen**» — die Auswertbarkeit wird erzwungen, bevor die Offerten eintreffen.
+→ Der Zwilling schreibt eine Offertenanfrage als vollständiges Kurz-Devis in den Mailbody, nennt
+Fabrikat «oder gleichwertig», begründet die kritischen Bauteil-Entscheide, gibt Aufwands- und
+Zugänglichkeitskennwerte des Referenzfalls vor und verlangt die vergleichsrelevanten Positionen
+separat ausgewiesen (→ [[arbeitsweise]], Vergabe; Skill `ausschreibung`).

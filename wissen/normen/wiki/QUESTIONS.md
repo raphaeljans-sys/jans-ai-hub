@@ -119,11 +119,13 @@ in den Runden 6-8 und für die Taktungsfrage bedeutsam.
    existiert für den Lignatec nicht. Das ist die nächste Methode auf einem noch ungeprüften Teil.
    Erst danach ist die Frage redlich zu beantworten.
 2. **Bookkeeping-Widerspruch zusammenführen.** Der Abschnitt vom 31.07.2026 (Wissens-Chef Run 21,
-   unten) führt als offene Frage, ob diese KB die restlichen `06_Richtlinien`-Bestände (GVZ, Suva,
-   Suissetec, VSA, PAVIDENSA, `09_Sanitaereinrichtung`) **systematisch** abarbeitet. Das Inventar
-   hat sie am 29.07.2026 bereits als Arbeitsliste aufgenommen (Entscheid Raphael). Run 40 ist dem
-   Inventar gefolgt — es ist der spezifischere und gezeichnete Entscheid. Die beiden Stellen
-   widersprechen sich und gehören zusammengeführt.
+   unten) führt als offene Frage, ob diese KB die restlichen normrelevanten Bestände **systematisch**
+   abarbeitet — konkret `06_Richtlinien` (GVZ, Suva, Suissetec, VSA) sowie die eigenständigen
+   Schwesterordner `04_Merkblätter/Fugenlose Bodenbeläge` (PAVIDENSA) und `09_Sanitaereinrichtung`
+   (**nicht** Teile von `06_Richtlinien`, siehe `training/norm-inventar.md`, Tabelle ~Z. 1162 f.).
+   Das Inventar hat sie am 29.07.2026 bereits als Arbeitsliste aufgenommen (Entscheid Raphael).
+   Run 40 ist dem Inventar gefolgt — es ist der spezifischere und gezeichnete Entscheid. Die beiden
+   Stellen widersprechen sich und gehören zusammengeführt.
 3. **Rest des Kern-Nachtrags: 47 Positionen offen** (PAVIDENSA 9, `09_Sanitaereinrichtung` 14,
    BKZ 4, lose Merkblätter 20). Darunter mit `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf`
    eine echte SN-Norm, die ins REGISTER gehört.

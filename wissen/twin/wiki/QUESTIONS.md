@@ -2548,3 +2548,19 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
    Adresse und stand versehentlich im Geschäftsblock? *Warum: entscheidet, ob Altbelege korrigiert
    oder unverändert zitiert werden; die Rule `jans-absenderadresse` kennt nur Flüelastrasse 6 als
    veraltet.* → [[beziehungsregister]]
+
+## Offen — Mailbatch 85 (03.08.2026)
+
+1. **Vollform «Geschätzter Herr Beson Bilali» in der Auftragsfreigabe (26.02.2026)** — bewusste
+   Anhebung auf den vollen Namen im verbindlichsten Moment (Pauschalfreigabe CHF 11K), oder
+   schlicht Unsicherheit, welcher Teil Vor- und welcher Nachname ist? Der Zwilling führt bis zur
+   Antwort die Routineform «Geschätzter Herr Beson». → [[beziehungsregister]]
+2. **Referenz-Anker in der Offertenanfrage (24.02.2026)** — ist «Montageansatz gemäss Referenz:
+   2 Monteure, ca. 2 Stunden» eine bewusste Methode (dem Anbieter den Aufwandskennwert des
+   ausgeführten Vergleichsfalls vorgeben, damit er ihn nicht frei setzt), oder war es hier nur die
+   nächstliegende Beschreibungshilfe? Falls Methode: gehört sie in den Skill `ausschreibung` als
+   Pflichtblock der Anfrage. → [[fachsignatur]]
+3. **Terminkoordination an den Unternehmer delegieren statt selbst terminieren** («Ich bitte um
+   Terminkoordination bis Ende KW9», dreimal am 26.02.2026) — gilt das generell, oder nur bei
+   kleinen Vergaben mit wenigen Beteiligten? Bei mehreren Gewerken am selben Bauteil (hier
+   Baumeister → Storen → Schreiner) hängt die Reihenfolge an der Bauleitung. → [[arbeitsweise]]

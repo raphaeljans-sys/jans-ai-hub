@@ -55,7 +55,7 @@ Ich handle als **active librarian** (siehe `rules/wissens-bibliothekar.md`):
   rechtsverbindliches Schaetzungsgutachten. Heikle Annahmen (Diskontsatz, Mietzins) immer
   als Annahme kennzeichnen, nie als Tatsache.
 - **Kanton/Gemeinde kennzeichnen** bei ortsspezifischen Werten (Bodenpreis, Lageklasse).
-- Schweizer Hochdeutsch, echte Umlaute ae/oe/ue, kein ss-Ersatz fuer scharfes S
+- Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß
   (Rules `umlaute-konvention.md`, `dokument-layout-standard.md`).
 
 ## Ordner

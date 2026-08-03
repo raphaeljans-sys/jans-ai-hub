@@ -1,7 +1,7 @@
 ---
 title: Delta zum 1. Rang — was JANS-Beitraege vom Sieg trennte (Muster ueber alle 7 verfuegbaren Dossiers)
 status: established
-last_updated: 2026-07-24
+last_updated: 2026-08-03
 sources: [teilnahmen/2101-kssg-h14.md, teilnahmen/2102-muttenz.md, teilnahmen/2103-steinhofschule.md, teilnahmen/2205-guggerbach.md, teilnahmen/2206-schoental.md, teilnahmen/2408-biwak-grassen.md, teilnahmen/2507-tkhl-ps-halden.md]
 links: [[2101-kssg-h14]], [[2102-muttenz]], [[2103-steinhofschule]], [[2205-guggerbach]], [[2206-schoental]], [[2408-biwak-grassen]], [[2507-tkhl-ps-halden]]
 ---
