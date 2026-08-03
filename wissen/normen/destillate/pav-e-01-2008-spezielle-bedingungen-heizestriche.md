@@ -6,7 +6,7 @@ ausgabe: "Empfehlung PAV-E 01:2008; im Dokument datiert «PAVIDENSA Oktober 2008
 gelesen: "alle 5 Seiten (Volltext, kein Scan)"
 datenstand: "Oktober 2008"
 status: "speculative (Erstdestillat 010826, Verifikation ausstehend)"
-bkp: "281 (Bodenbeläge/Estriche), Schnittstelle 244 Heizung"
+bkp: "281.0 (Estriche), Schnittstelle 242 Heizungsanlagen"
 ---
 
 # PAV-E 01:2008 — Spezielle Bedingungen für Heizestriche
@@ -122,7 +122,10 @@ Direkt in die Terminplanung übersetzbar: **Funktionsheizen frühestens 21 Tage 
 Vorlaufzeit gehört als eigene Position in den Bauzeitenplan vor dem Belagseinbau, nicht in eine
 Pufferzeile. Die **Fugenplanpflicht des Bestellers** (SIA 251:2008 Art. 2.4.9) gehört in die
 Ausschreibungsunterlagen von Heizungsplaner **und** Estrichleger; sie ist der häufigste
-Schnittstellenkonflikt zwischen BKP 244 und 281.
+Schnittstellenkonflikt zwischen **BKP 242** (Heizungsanlagen) und **BKP 281.0** (Estriche).
+*(Berichtigt Wissens-Chef Run 23, 03.08.2026: hier stand BKP 244 «Lufttechnische Anlagen» — eine
+Fussbodenheizung ist eine Heizungsanlage. Quelle `references/bkp-2017/BKP-2017-Liste.md`, wo 242
+Heizungsanlagen, 244 Lufttechnische Anlagen und 281.0 Estriche lauten.)*
 
 ## Verweise auf andere Regelwerke
 

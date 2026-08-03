@@ -76,11 +76,29 @@ Wohnungs-Nasszellen.
 Ergänzt die allgemeine Norm SIA 500 (Hindernisfreies Bauen) um konkrete Grundrissmasse für
 rollstuhlgängige Sanitärräume:
 
+> **Normvorbehalt (Wissens-Chef Run 23, 03.08.2026).** Die Raumgrössen dieses Abschnitts
+> unterschreiten die geltende Norm in der **Breite** und dürfen so nicht bemessen werden.
+> Massgebend ist **SIA 500:2009 Ziff. 7.2.3.2: WC-Raum min. 1,65 × 1,80 m** bei aussen öffnender
+> Tür, **+0,50 m** bei innen öffnender; Dusche min. 1,65 × 1,80 m, WC+Dusche kombiniert min.
+> 1,80 × 1,80 m (Ziff. 7.2.4). Quelle `wissen/normen/destillate/sia-500-2009.md` (S. 24),
+> unabhängig gegenbelegt in `wissen/normen/destillate/zhb-2005-mindestanforderungen-hindernisfreies-bauen.md`
+> («Raumgrösse min. 165 × 180 cm»). Die KL_Hochbau-Masse bleiben als historische Angabe stehen,
+> sie sind **keine Planungsgrundlage**.
+
 - **Klosett:** seitliche Bewegungsfläche mind. **80 cm** breit (freie Zufahrt gesichert), davor
-  **120 cm** tiefe Bewegungsfläche, Sitzhöhe des Klosetts **50 cm**. Türen dürfen nicht nach innen
+  **120 cm** tiefe Bewegungsfläche, Sitzhöhe des Klosetts 50 cm. Türen dürfen nicht nach innen
   aufschlagen, Pendeltüren sind unzulässig.
-- **Minimale Lösung** (nur seitliches Hinüberwechseln): Raumbreite 140 cm (95 + 45 cm Aufteilung).
-- **Normalausführung:** Raumbreite 160 cm (110 + 50 cm), Raumtiefe 220 cm.
+  **Zur Sitzhöhe: offener Konflikt, kein verwendungsreifer Wert.** Die 50 cm sind ein undatierter
+  Lehrbuchwert (Herausgeber/Ausgabejahr der KL_Hochbau-Katalogblätter nicht ermittelbar).
+  Derselbe Artikel führt in §4 «WC-Sitzfläche OK ca. +460 mm»; für 46 cm sprechen ZHB 2005
+  (S. 27-28, `status: speculative`, stützt auf SN 521 500:1988) und DIN 18040-1 Ziff. 5.3.3
+  (46-48 cm, nicht 1:1 auf SIA übertragbar). SIA 500 Anhang E (S. 42-60) enthält die Detailmasse
+  und ist im Hub noch **nicht gelesen** — bis dahin wandert **kein** Sitzhöhenmass aus diesem
+  Artikel in Grundriss, Sanitärplan oder LV (Rule `identifikatoren-verifizieren`).
+- **Minimale Lösung** (nur seitliches Hinüberwechseln): Raumbreite 140 cm (95 + 45 cm Aufteilung)
+  — **unterschreitet SIA 500 Ziff. 7.2.3.2 (min. 1,65 m Breite), nicht verwenden.**
+- **Normalausführung:** Raumbreite 160 cm (110 + 50 cm), Raumtiefe 220 cm — **die Breite
+  unterschreitet SIA 500 Ziff. 7.2.3.2 (min. 1,65 m); die Tiefe erfüllt die Norm.**
 - **Dusche mit WC:** Raumbreite 220 cm, Raumtiefe 160 cm; **Dusche ohne WC** (minimale Lösung):
   160×160 cm.
 - Keine Duschuntersätze (nicht rollstuhlbefahrbar); Ablauf im Boden mit 2-3 % Gefälle genügt.
@@ -191,9 +209,12 @@ konkreten Healthcare-Projekt mit IV-WC-Pflicht in Patienten-/Pflegebereichen bei
 ### 5.3 Einordnung zu §3 (Behindertenanlagen-Grundrissmasse aus KL_Hochbau)
 
 Die Procap-Zahlen sind **spezifischer und aktueller** (Ausgabe 10/09, direkt SIA-500-referenziert)
-als die generische KL_Hochbau-Fassung in §3 — beide widersprechen sich nicht (§3: seitliche
-Bewegungsfläche 80 cm + 120 cm Tiefe, konsistent mit der Procap-Freiflächenlogik x=0.60 m +
-x+y=1.20 m), Procap liefert aber die vollständige, massstäblich bemasste Grundrissfigur inkl.
+als die generische KL_Hochbau-Fassung in §3. **Berichtigt Wissens-Chef Run 23 (03.08.2026):** der
+frühere Satz «beide widersprechen sich nicht» galt zu weit. Er gilt nur für die **Bewegungsflächen**
+(§3: seitliche Bewegungsfläche 80 cm + 120 cm Tiefe, konsistent mit der Procap-Freiflächenlogik
+x=0.60 m + x+y=1.20 m). Für **Raumbreite** und **Sitzhöhe** ist er zurückgenommen: die
+KL_Hochbau-Raumbreiten 140/160 cm unterschreiten SIA 500 Ziff. 7.2.3.2, und die Sitzhöhe steht
+gegen den eigenen §4-Wert (siehe die beiden Vorbehalte in §3). Procap liefert die vollständige, massstäblich bemasste Grundrissfigur inkl.
 Türanschlag-Varianten. Für Healthcare-Projekte gilt weiterhin: SIA 500 (und damit auch dieses
 Procap-Merkblatt) **nicht direkt anwendbar** — Merkblatt 401 respektive projektspezifische
 Pflegekonzept-Vorgaben massgebend (§4 + §5.1).
@@ -201,7 +222,10 @@ Pflegekonzept-Vorgaben massgebend (§4 + §5.1).
 ## Relevanz JANS / Anwendung
 
 - **Vorprojekt Healthcare/Alterswohnen:** §3 (Grundrissmasse Behindertenanlagen) + §4 (Bedienhöhen
-  + SIA-500-Zitat) direkt als Planungsgrundlage für Pflegezimmer-Nasszellen nutzbar, ergänzt Skill
+  + SIA-500-Zitat) als Orientierung nutzbar — **aber nicht die Raumbreiten und nicht die Sitzhöhe**
+  (Vorbehalte in §3, berichtigt Run 23). Für die Bemessung gilt SIA 500 Ziff. 7.2.3.2/7.2.4; für
+  Healthcare zusätzlich der Sonderbauten-Vorbehalt dieses Artikels (§5.1: SIA 500 nicht direkt
+  anwendbar, Merkblatt 401 bzw. Pflegekonzept massgebend). Ergänzt Skill
   `healthcare-wirtschaftlichkeit` und `ankaufspruefung` (Zustandsbeurteilung Bestandesbäder).
 - **Wohnbau allgemein:** §1/§2 (Apparate-Bemessung/Grundrissvorschläge) als Vorprojekt-
   Blockschema-Grundlage, ergänzt [[recht-norm-raumprogramm-referenzwerke]] §2 (WBS 2015

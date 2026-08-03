@@ -211,8 +211,15 @@ noch keine Parzellen-Attributabfrage validiert.
   Bewilligung (§ 220 PBG Gemeinde + Art. 17 WaG Kanton), strenger Massstab.
 - **Wald SZ:** 15 m ab Waldgrenze (§ 67 PBG SZ); Ausnahmewerte = Richtlinie, nicht Gesetz.
 - **Gewässer ZH/SZ:** kein fixer Meter, sondern der **Gewässerraum nach GSchV** (GSB-abhängig,
-  Faustzahl kleines Bächlein ≈ 11 m, See > 0.5 ha ≥ 15 m ab Ufer). Im Gewässerraum praktisch
-  Bauverbot (Art. 41c GSchV). Wo nicht festgelegt → kein Abstand.
+  Faustzahl kleines Fliessgewässer ≈ 11 m). Für **stehende** Gewässer beträgt der Gewässerraum
+  mind. **15 m ab Uferlinie (Art. 41b Abs. 1 GSchV)** — **unabhängig von der Fläche.** Die
+  **0,5-ha-Schwelle ist ein Verzichtsgrund** (Art. 41b Abs. 4: der Kanton kann bei kleineren
+  stehenden Gewässern auf die Festlegung verzichten), **keine Bemessungsschwelle**; sie darf die
+  15 m nicht bedingen. *(Berichtigt Wissens-Chef Run 23, 03.08.2026 — der frühere Merksatz «See
+  > 0.5 ha ≥ 15 m ab Ufer» knüpfte die 15 m wieder an die Schwelle und fiel damit hinter die
+  bereits gefahrene Korrektur zurück; Beleg `wissen/baurecht/wiki/QUESTIONS.md` und
+  `wissen/baurecht/raw/260712_amtlich_ch_gschv.md`.)* Im Gewässerraum praktisch Bauverbot
+  (Art. 41c GSchV). Wo nicht festgelegt → kein Abstand.
 - **Immer zuerst das Geodatum ziehen:** `geo-zh.mjs --produkt baulinien` gibt Waldgrenze (0150),
   Gewässer (0153), Gewässerraum (0185) **mit senkrechtem Abstand zur Parzelle** — nicht schätzen.
   → [[kartenportale-grundlagen-checkliste-neue-parzelle]].

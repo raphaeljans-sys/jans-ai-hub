@@ -102,16 +102,45 @@ nicht als Leerlauf gewertet werden, sonst schaltet der Leerlauf-Wächter gesunde
   Abweisungen**, am 03.08. 13:30 zwei Freigaben (`weiche-nachtschicht`, `nachtschicht`, 6135 MB
   frei, Druck 2). **Empfehlung an Raphael: Slot behalten.**
 
-**Verbrauchsverteilung der Limit-Woche** (letzte 7 Tage, teuer, Mio): MacBook Pro **68.75**
-gesamt, davon `vollgas-chef-radar` **9.59** · `normen-training-nacht` 5.28 · `wissens-chef`
-3.80 · `hub-chef-taeglich` 2.31 · `twin-fidelity-review` 1.98 · `twin-mail-training` 1.78 ·
-`vollgas-fruehwarnung` 1.67 · `logbuch-radar` 1.65 · `konversations-log` 1.52 ·
-`zahlungsabgleich-check` 1.15 · übrige Tasks je unter 1.0. Mac Mini **14.97** gesamt, davon
-`energie-training` 3.27 · `claude-abo-auslastung` 0.73 · `planungsgrundlagen-training` 0.64.
-**Nicht zuordenbar: 31.03 (MacBook) + 9.92 (Mini) = 40.95 Mio**, also fast die Hälfte — darin
-stecken Raphaels eigene Sitzungen, Subagenten-Sessions ohne Task-Opener und die
-Nachtschicht-Dispatch-Läufe. Diese Zahl ist **keine** Aussage über interaktive Arbeit und darf
-nicht so gelesen werden; sie sauber aufzuschlüsseln ist offen.
+**Verbrauchsverteilung der Limit-Woche** (28.07.–03.08., teuer, Mio) — **korrigierte Fassung,
+siehe Messfehler-Vermerk unten**: MacBook Pro **44.10** gesamt in 176 Sessions, davon
+`vollgas-chef-radar` **8.27** (30 Läufe, 0.28 je Lauf) · `normen-training-nacht` 4.83 ·
+`wissens-chef` 2.44 · `hub-chef-taeglich` 2.21 · `twin-fidelity-review` 1.86 ·
+`vollgas-fruehwarnung` 1.47 · `logbuch-radar` 1.45 · `konversations-log` 1.42 ·
+`twin-mail-training` 1.40 · `zahlungsabgleich-check` 1.05 · `baurecht-buch-training` 1.01 ·
+übrige je unter 1.0. Mac Mini **12.70** gesamt in 57 Sessions, davon `energie-training` 2.67 ·
+`claude-abo-auslastung` 0.61 · `planungsgrundlagen-training` 0.51. **Zusammen 56.80 Mio.**
+
+**Nicht zuordenbar: 11.58 (MacBook) + 8.61 (Mini) = 20.19 Mio**, also 35.5 % — und die beiden
+Hälften sind grundverschieden. Auf dem **Mac Mini** ist der Block fast vollständig
+**Loop-Arbeit ohne Task-Header**: die zehn grössten Sessions tragen die Opener «Fuehre EINEN
+Intensiv-Lauf des Energie-/Planungsgrundlagen-Trainings aus» und «Nachtschicht-Zyklus Mac
+Mini», je 0.25–0.39 Mio. Auf dem **MacBook Pro** ist es überwiegend **Raphaels eigene
+interaktive Arbeit** (Brandschutz-Scan 2620, Immobilienbewertungs-Wiki, Unternehmerwahl
+Tschopp, Speicher-/Systemfragen), in vielen kleinen Sitzungen. **Konsequenz für die
+Loop-Drosselung:** die Lern-Loops sind auf dem MacBook nicht der Hauptverbraucher, und auf dem
+Mini verschwindet ein Drittel der Loop-Kosten aus jeder Task-Statistik, weil die
+Trainings-Läufe per `claude -p` ohne `<scheduled-task`-Opener starten. Wer nur die getaggten
+Zeilen liest, unterschätzt die Mini-Loops systematisch.
+
+**MESSFEHLER GEFUNDEN UND BEHOBEN (03.08. 22:45).** Die zuerst berichteten Wochenwerte
+(MacBook 68.75 · Mini 14.97 · zusammen 83.72 · Radar 9.59 · nicht zuordenbar 40.95) waren
+**überhöht** und sind durch die Werte oben ersetzt. Ursache: die Task-Aufschlüsselung filterte
+die **Dateien** nach `mtime`, summierte dann aber **alle** `usage`-Zeilen darin — auch solche
+von vor dem Fenster. Aufgefallen an einer einzelnen Session mit scheinbar 16.55 Mio, die
+tatsächlich vom **19.–21.07.** stammt (470 User-Turns über zwei Tage, grösster einzelner
+`cache_read` 928'459 Token). Korrektur: Filter **je Zeile** über `timestamp[:10]` gegen ein
+explizites Fenster. Die **Tageswerte** der Tabelle oben sind davon **nicht** betroffen, sie
+waren von Anfang an nach `timestamp` gruppiert — mit einer Ausnahme: der mtime-Vorfilter von
+6 Tagen schneidet den **ältesten** Tag des Fensters an (28.07. mit 6.50 gemessen, real höher),
+weil Dateien, die an jenem Tag zuletzt geschrieben wurden, knapp herausfallen. Der Vorfilter
+im Task-Prompt ist deshalb am 03.08. auf 9 Tage erweitert worden.
+
+**Die Mail von 22:22 trägt die alten Wochenzahlen.** Raphael wurde im selben Gespräch über die
+Korrektur informiert; eine zweite Mail wurde bewusst nicht gesendet (Wiederholungsverbot, und
+der Empfänger war anwesend). Die Drossel-Entscheidung bleibt von der Korrektur unberührt und
+wird durch sie sogar deutlicher: `vollgas-chef-radar` ist mit 8.27 Mio weiterhin der grösste
+getaggte Einzelposten und **fast doppelt so teuer wie der zweitgrösste Loop** (normen 4.83).
 
 **Speicher MacBook Pro** zum Messzeitpunkt: 3531 MB verfügbar (vm_stat free+inactive+purgeable),
 `kern.memorystatus_vm_pressure_level: 2` — erhöhter Druck, aber kein Meldegrund dieser Warnung.
@@ -120,9 +149,28 @@ nicht so gelesen werden; sie sauber aufzuschlüsseln ist offen.
 e Radar-Herzschlag). Kein Wiederholungsfall der Mail vom 28.07. 06:58 — das war der Vorfall
 26./27.07.; dies ist eine **neue** Erschöpfung, und der damalige Eintrag hat genau dafür die
 nächste Mail vorgesehen. Empfohlen wurde **eine** Rücktaktung: `vollgas-chef-radar` von 4 h auf
-8 h (`50 */8 * * *`), belegt als grösster getaggter Einzelverbraucher mit 9.59 Mio bei rund
-42 Läufen. **Kein Drossel-Vollzug** — die Taktung entscheidet Raphael. Ausdrücklich **nicht**
-empfohlen: `wissens-chef` abzuschalten (siehe Gegenprüfung oben).
+8 h (`50 */8 * * *`), belegt als grösster getaggter Einzelverbraucher mit **8.27 Mio bei
+30 Läufen** (korrigierter Wert). Ausdrücklich **nicht** empfohlen: `wissens-chef` abzuschalten
+(siehe Gegenprüfung oben).
+
+**VOLLZUG 03.08. 22:40 — Freigabe Raphaels im Gespräch («kannst du deine empfehlungen umsetzen
+sodass wir token sparen?»).** `vollgas-chef-radar` steht neu auf `50 */8 * * *` (drei statt
+sechs Läufe pro Tag), Beschreibung mit Begründung und Vorgeschichte nachgeführt. Erwartete
+Ersparnis rund **4.1 Mio teuer pro Woche** (3 eingesparte Läufe je Tag × 7 × 0.28 Mio je Lauf,
+korrigierte Basis). In die Task-Beschreibung wurde zusätzlich die Lehre dieses Laufs
+aufgenommen: **ein Liefer-Delta von Null während einer Kontingentsperre ist kein Leerlauf** —
+vor jeder Stilllegungsempfehlung ist am Lauf-Journal (`rc`, `cost_usd`) zu prüfen, ob der Loop
+überhaupt laufen durfte.
+
+**Keine weitere Drosselung vollzogen, und zwar begründet.** Gegen den Liefer-Beleg geprüft
+haben **alle** grossen Lern-Loops in diesem Fenster geliefert: `normen` Run 40 + 41,
+`twin-fidelity` (03.08.), `wettbewerbs-dna` Etappe-4-Vertiefung (03.08.), `baurecht` Buch-Run 71
+(03.08.), `energie` Run 121 (03.08.), `koordination` Synergie-Lauf 03 (01.08.). Es gibt derzeit
+**keinen zweiten belegten Leerlauf-Kandidaten**; weitere Abschaltungen wären geraten und würden
+Wissen kosten statt Tokens sparen. Der nächste echte Hebel ist nicht ein weiterer Loop, sondern
+die **Mini-Loops ohne Task-Header** sichtbar zu machen (8.61 Mio unsichtbar in jeder
+Task-Statistik) — dafür müssten die `claude -p`-Trainingsprompts einen erkennbaren
+Loop-Namen im Opener führen. Vorschlag an Raphael, nicht vollzogen.
 
 **Nächste Mail:** nicht für denselben Befund. Erst wieder bei neuer Erschöpfung, bei blockierter
 interaktiver Sitzung, bei erneutem Briefing-Ausfall oder wenn der Radar nach dem Wiederanlauf

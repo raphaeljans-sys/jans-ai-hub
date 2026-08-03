@@ -24,7 +24,14 @@ private Feuerversicherung, kein Monopol) grundsätzlich unterschiedliche Versich
   fachgerecht angeschlossen bzw. im Schutzbereich montiert werden.
 - **Potenzialausgleich** vom Modulfeld bis zum Hauptverteiltableau ist mit wenigen Ausnahmen
   (Schutzklasse-2-Installation, Wechselrichter mit Potenzialtrennung) Pflicht. Normgrundlage
-  Blitzschutzsysteme: SNR 464022:2015.
+  Blitzschutzsysteme: **SN 414022:2024** (Electrosuisse, Ausgabe 20.02.2024). Sie ersetzt seit dem
+  20.02.2024 die Vorgängerausgabe **SNR 464022:2015+COR:2016**, die bei SNV-Connect als
+  «Withdrawn» geführt wird — Beleg `wissen/energie/destillate/snr-464022-blitzschutz-ausfuehrung.md`.
+  ⚠ Die inhaltlichen Kernaussagen dieses Destillats (PV-Integration ins bestehende LPS,
+  Erder-Werkstoffe, Blitzschutzpflicht-Tabelle) stammen aus der Ausgabe **2015**; ob sie in
+  SN 414022:2024 unverändert gelten, ist mangels freiem Auszug **nicht geprüft**.
+  *(Berichtigt Wissens-Chef Run 23, 03.08.2026: hier stand die zurückgezogene Ausgabe ohne
+  Rückzugsvermerk als «Normgrundlage».)*
 - **NIN-Risikoanalyse** (Sekundärquelle, nicht amtlich verifiziert, `emerging`): der PV-Anschluss löst
   eine objektbezogene Risikoanalyse (Blitzdichte Ng, Gebäudetyp) aus, aus der ein Schutzpegel LPL I–IV
   (IEC 62305-2) folgt und die Wahl der Überspannungsableiter (i.d.R. Typ 2, DC- und AC-seitig) bestimmt.

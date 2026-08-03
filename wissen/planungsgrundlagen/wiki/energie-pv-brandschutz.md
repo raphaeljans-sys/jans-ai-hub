@@ -33,8 +33,18 @@ VKF-Merkblatts in konkrete Lösungen übersetzt.
   zeigt den **Stand der Technik** (von der TKB-VKF am 15.09.2022 als «STP» genehmigt) — kann über
   die Mindestanforderungen der BSV 2015 hinausgehen.
 - Subsidiär gelten: **VKF-BSV 2015**, **SIA-Tragwerksnormen** (Naturgefahren), Elektro:
-  **NIV/NIE** (SR 734.27/734.26), **NIN SN 411000 Kap. 7.12** (NIN 2020), Blitzschutz **SN 414022**;
+  **NIV/NIE** (SR 734.27/734.26), **NIN SN 411000 Kap. 7.12** (NIN 2020), Blitzschutz
+  **SN 414022:2024** (ersetzt SNR 464022:2015 per 20.02.2024, Beleg
+  `wissen/energie/destillate/snr-464022-blitzschutz-ausfuehrung.md`);
   Montage/Unterhalt: **BauAV** + SUVA-Merkblätter.
+- **Eine Solaranlage begründet für sich keine Blitzschutzpflicht.** Ob ein Gebäude
+  blitzschutzpflichtig ist, richtet sich allein nach der VKF-Brandschutzrichtlinie 22-15
+  «Blitzschutzsysteme» (Ausgabe 01.01.2017). Ist ein Blitzschutzsystem vorhanden, ist die
+  Solaranlage zu integrieren und in den Überspannungsschutz einzubeziehen (VKF-Brandschutz-
+  merkblatt «Solaranlagen» 2001-15de, Ausgabe 01.01.2022, Kap. 3.1 Abs. 3). Belege:
+  `wissen/energie/destillate/pv-blitzschutz-gebaeudeversicherung-ch.md` und
+  `wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md`.
+  *(Ergänzt Wissens-Chef Run 23, 03.08.2026 — der Artikel führte diesen Kernsatz nirgends.)*
 - Gilt für **PV und Solarwärme (SW)**, auf **Steil- und Flachdächern** sowie Fassaden.
 
 ## Zwei Einbauarten (STP S. 8) — bestimmen die Brandschutz-Logik

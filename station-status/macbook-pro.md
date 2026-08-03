@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.08.2026 22:29:47
+Stand: 03.08.2026 22:39:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 22:29:47
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 755a8a39 twin-fidelity-review 03.08.2026 (Nachzug): Facetten-Wikis, QUESTIONS 260803, KB-CLAUDE.md Echo-Detektion, Drift-Report
+- 5168529d wettbewerbs-dna Etappe 4 Lauf 01 (Nachzug): Muster-Artikel delta-zum-ersten-rang, Dossier 2408, CHANGELOG und Report — im Erst-Commit wegen SMB-Latenz nicht erfasst

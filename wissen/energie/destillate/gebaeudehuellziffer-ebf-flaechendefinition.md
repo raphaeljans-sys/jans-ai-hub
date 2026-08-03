@@ -45,8 +45,12 @@ Zugehörigkeit klar abgegrenzt ist (was zählt, was nicht).
   Gebäudehüllzahl, θea mittlere Jahres-Aussenlufttemperatur der massgebenden Klimastation.
   Die Grenzwerte gelten für θea = 8,5 °C und werden um 8 % pro K höherer bzw. tieferer
   Jahresmitteltemperatur reduziert bzw. erhöht.
-  ⚠ Diese Klimareferenz (8,5 °C / 8 % pro K) entspricht **SIA 380/1:2016** widerspricht die
-  KB bereits mit 9,4 °C / 6 % pro K als aktueller Basis (siehe
+  ⚠ Diese Klimareferenz (8,5 °C / 8 % pro K) ist die **Vorgänger-Ausgabe SIA 380/1:2009**.
+  **SIA 380/1:2016 führt 9,4 °C und 6 % pro K** — belegt im Volldestillat
+  `wissen/normen/destillate/sia-380-1-2016.md` (Ziff. dort Z. 122 und 227: «neu 9,4 °C statt
+  8,5 °C», Temperaturkorrektur «neu 6 %/K»). *(Berichtigt Wissens-Chef Run 23, 03.08.2026: der
+  frühere Satz schrieb die Zahlen der Ausgabe 2016 zu und war zudem grammatikalisch defekt.)*
+  Die KB führt 9,4 °C / 6 % pro K bereits als aktuelle Basis (siehe
   [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]] und Abschnitt "Offene Punkte" unten) — die
   Grundstruktur der Formel (Basiswert + Steigungsfaktor × Gebäudehüllzahl) ist unverändert
   aktuell, die Klimazahlen im vorliegenden Infoblatt sind die Vorgänger-Ausgabe.
@@ -157,12 +161,17 @@ Primärquelle der Norm.
   ΔQh,li · Ath/AE) bleibt strukturell gültig, nur die Klimazahlen der 2009er-Ausgabe sind
   überholt. Ob und wie stark sich die konkreten Qh,li0-/ΔQh,li-Werte zwischen den Ausgaben
   unterscheiden, ist mit den drei vorliegenden PDFs nicht zu klären.
-- **Ungewöhnliche Normbezeichnung in Definition Energiebezugsflaeche.pdf:** Das Dokument
-  zitiert wörtlich «Auszug aus der Norm SIA 180/4 Energiekennzahl». Eine SIA-Norm mit dieser
-  Nummer ist nicht bekannt; naheliegend wäre ein Schreibfehler für SIA 380/4 im Original-PDF
-  selbst. Der Wortlaut wurde hier unverändert übernommen (Quellentreue), nicht stillschweigend
-  korrigiert — bei Zitat dieser Passage in einem Aussendokument gegenüber Amtsstellen sollte
-  die Normnummer vorher separat verifiziert werden (Rule `normen-referenz.md`).
+- **Normbezeichnung in Definition Energiebezugsflaeche.pdf — geklärt:** Das Dokument zitiert
+  wörtlich «Auszug aus der Norm SIA 180/4 Energiekennzahl». **Diese Norm existiert:
+  SIA 180/4:1982, zurückgezogen, Nachfolgenorm SIA 416/1:2007** — belegt im Normen-Register
+  `wissen/normen/wiki/REGISTER.md` (Z. 140 und 335) und in
+  `wissen/normen/destillate/sia-d0165-2000-kennzahlen-immobilienmanagement.md` (Z. 165, EBF-
+  Definition ausdrücklich «Quelle SIA 180/4»). *(Berichtigt Wissens-Chef Run 23, 03.08.2026: hier
+  stand «Eine SIA-Norm mit dieser Nummer ist nicht bekannt; naheliegend wäre ein Schreibfehler für
+  SIA 380/4» — die Existenzverneinung und die Schreibfehler-Vermutung sind beide widerlegt.)*
+  Der Wortlaut ist also quellentreu; **beim Zitat in einem Aussendokument ist statt der
+  zurückgezogenen Norm die Nachfolgenorm zu nennen** (Rule `normen-referenz.md`,
+  Ausgaben-Disziplin).
 - **Alter der EBF-Quelle:** Definition Energiebezugsflaeche.pdf datiert vom 10.06.2005 und
   damit deutlich vor SIA 380/1:2009 und :2016. Ob die Raum-Zugehörigkeitsliste (Ziffer 2 32/2
   33) seither unverändert übernommen wurde oder in neueren SIA-380/1-Ausgaben abweicht, ist mit

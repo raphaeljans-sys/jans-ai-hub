@@ -123,12 +123,31 @@ bereits behobenen Fassungsstand-Umkehr.
 > Grundstücksfläche* (Bezugsgrösse aller Ziffern), nicht die Grünflächen-/Freiflächenziffer.
 > Beleg: Buch Bd 2 S. 920, 949.
 
-## Massgebliche Grundstücksfläche (Bezugsgrösse)
-**§ 259 PBG.** Von der Baueingabe erfasste, baulich noch nicht ausgenützte
-Grundstücksfläche der Bauzone. Ausser Ansatz fallen u.a. Wald/Gewässer,
-Waldabstandsstreifen (>15 m hinter der Waldabstandslinie), übergeordnete Strassen
-und der Allgemeinheit dienende öffentliche Fusswege/Eisenbahnanlagen
-(§ 259 Abs. 2/3 PBG; Buch Bd 2 S. 920-927). Detail: [[14-nutzungsdichte-ausnuetzung]].
+## Anrechenbare Grundstücksfläche (Bezugsgrösse aller Nutzungsziffern)
+
+> **Fassungs-Weiche § 259 PBG — berichtigt Wissens-Chef Run 23 (03.08.2026).** Dieser Abschnitt
+> führte bis dahin die Anhang-Fassung als geltendes Recht. Der Artikel führt die Weiche an vier
+> anderen Stellen bereits; hier fehlte sie.
+
+**Geltendes Recht (harmonisierter Hauptteil, § 259 PBG; amtlicher Volltext
+`raw/260607_amtlich_zh_pbg.md` Z. 2724-2727, Nachtrag 133):** Zur anrechenbaren
+Grundstücksfläche gehören die in der entsprechenden Bauzone liegenden Grundstücksflächen bzw.
+-teile. Die Flächen der Hauszufahrten **werden angerechnet**, die Flächen der Grund-, Grob- und
+Feinerschliessung nicht. **Waldabstandsflächen und offene Gewässer, die in der Bauzone liegen,
+sind damit anrechenbar — auch mehr als 15 m hinter der Waldabstandslinie.** Waldareal und
+Gewässer ausserhalb der Bauzone fallen bereits über Abs. 1 heraus. Gleichlautend
+`wissen/planungsgrundlagen/wiki/recht-norm-ivhb-baubegriffe.md` (Ziff. 8.1, «neu anrechenbar»).
+
+**Anhang-Fassung (§ 259 «massgebliche Grundfläche», Stand 28.02.2017; amtlicher Volltext
+Z. 4322-4327):** Ausser Ansatz fallen Waldabstandsflächen >15 m hinter der Waldabstandslinie,
+Wald und offene Gewässer. **Sie gilt nur noch in Gemeinden, deren BZO noch nicht an die Änderung
+vom 14.09.2015 angepasst ist** (Übergangsbestimmungen, ebd. Z. 3907-3913, wo § 259 namentlich
+aufgeführt ist).
+
+**Handlungsanweisung:** Vor jeder AZ-/BMZ-/ÜZ-/Grünflächenziffer-Rechnung den BZO-Stand der
+Gemeinde prüfen. Bei harmonisierter BZO am Waldrand oder mit offenem Gewässer in der Bauzone die
+Ziffern gegen den früher gerechneten Abzug **nachrechnen — die Ausnützung kann höher liegen als
+bisher angenommen.** Detail: [[14-nutzungsdichte-ausnuetzung]]; Buch Bd 2 S. 920-927.
 
 ## Aussenwärmedämmung und Nutzungsziffern (35-cm-Kappung)
 Wird die **Konstruktionsstärke der Fassade** (bei der BMZ auch **des Dachs**) aufgrund der

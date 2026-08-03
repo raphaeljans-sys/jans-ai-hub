@@ -154,8 +154,7 @@ anpassbar» (Ausgabe 1992, Überarbeitung 2009).
 ## 3b. Sehbehinderten-/hörbehindertengerechtes Bauen + Begriffsleiter (BKZ/ZHB, Run 64 NEU)
 
 Bisher deckte dieser Artikel ausschliesslich **Mobilitätsbehinderte** (Rollstuhl) ab. Der
-Ordner `06_Richtlinien/BKZ` (Behindertenkonferenz Kanton Zürich, Bauberatung — seit 2005
-Rechtsnachfolgerin der Schweizerischen Fachstelle für behindertengerechtes Bauen) liefert eine
+Ordner `06_Richtlinien/BKZ` (Behindertenkonferenz Kanton Zürich, Bauberatung) liefert eine
 echte inhaltliche Erweiterung um zwei bisher nicht dokumentierte Behinderungsarten sowie eine
 begriffliche Präzisierungsleiter.
 
@@ -218,7 +217,8 @@ Kommunikationsanlagen (Gegensprech-/Tür-Rufanlagen) zusätzlich optische Anzeig
 | Küche 1-Front | Abstand zur Gegenwand min. **1.40 m** | BKZ Checkliste 2.6 |
 | Küche 2-Fronten | Abstand zwischen Fronten min. **1.20 m**, Spültrog+Herd auf derselben Front | BKZ Checkliste 2.6 |
 | Bedienungselemente (Griffe/Schalter/Steckdosen) | min. 0.85 m, max. 1.10 m ab Boden, min. 0.40 m ab Raumecke | BKZ Checkliste 1.7 |
-| Küchen-Arbeitsfläche (ZHB) | Höhe **72–76 cm**; Unterfahrbarkeit min. 70 cm hoch × 60 cm tief × 80 cm breit | ZHB-Handbuch Kap. 6/7 |
+| Küchen-Arbeitsfläche (ZHB) | Höhe **max. 82–83 cm**; unterfahrbare Zone min. **80 cm breit × 50 cm tief × 70 cm hoch**; Nutzhöhe bis ca. 140 cm; Bewegungsfläche min. 170 × 140 cm | ZHB-Handbuch **Kap. 6 «Küchen»** (S. 30-31) |
+| Arbeitsflächen/Tische allgemein (ZHB) | Höhe 72–76 cm; Unterfahrbarkeit min. 70 cm hoch × 60 cm tief × 80 cm breit | ZHB-Handbuch **Kap. 7 «Diverses»** (S. 32) |
 | Küche Kochherd/Spülbecken-Abstand zur Ecke (ZHB) | min. **25 cm** | ZHB-Handbuch Kap. 6 |
 | Bedienungselemente allgemein (ZHB) | min. 90 cm, max. 140 cm, **empfohlen 100 cm** ab Boden; Freiraum vor Automaten min. 140 × 170 cm | ZHB-Handbuch Kap. 7 |
 | Bodenbeläge — Stegroste/Gitterroste | Schlitzbreite max. 16 mm, Maschenweite Gitterrost max. 10 × 30 mm | ZHB-Handbuch Kap. 7 |

@@ -55,6 +55,22 @@ Umfassungswänden, die mindestens 25 % unverschliessbare, eine Querlüftung erm�
 Bestimmungen der VKF-Brandschutzrichtlinie «Rauch- und Wärmeabzugsanlagen» (Ausgabe 2003)
 (Ziff. 1.3).
 
+> **Fassungs- und Kollisionsvorbehalt (Wissens-Chef Run 23, 03.08.2026).** Dieses Merkblatt datiert
+> vom 28.02.2011 und stützt sich nach seiner eigenen Ziff. 1.3 auf die VKF-Brandschutzrichtlinie
+> RWA **Ausgabe 2003**. Diese Grundlage ist abgelöst durch die **VKF-BSR 21-15** (Ausgabe
+> 01.01.2015, IVTH-Beschluss 18.09.2014, für alle Kantone verbindlich; Destillat
+> `wissen/normen/destillate/vkf-brl-21-15-rauch-waermeabzugsanlagen.md`, Ziff. 3.1). Dort gilt für
+> Parking analog Industrie/Gewerbe, **nach Lage differenziert**: unter Terrain > 600 m² ohne /
+> **> 3'600 m² mit Löschanlage**; über Terrain > 2'400 m² ohne / > 4'800 m² mit Löschanlage; über
+> Terrain mit > 25 % offenen Umfassungswänden nicht notwendig.
+> **Divergenzband: gesprinklerte Einstellhalle unter Terrain, 1'201 bis 3'600 m²
+> Brandabschnittsfläche.** Dort verlangen die Matrizen 6.1/6.2 dieses Merkblatts N2 bzw. N3,
+> während BSR 21-15 gar keine RWA verlangt.
+> **Planungsregel bis zur Klärung:** im Divergenzband wird die strengere Merkblatt-Schwelle als
+> Planungsannahme geführt, die Divergenz aber **vor** dem Festschreiben von Konzept und
+> Kostenannahme aktiv mit der Kantonalen Feuerpolizei/GVZ geklärt. Weder ungeprüft budgetieren
+> noch ungeprüft weglassen — beide Fehlerrichtungen sind real.
+
 ## Kernziffern mit Fundstelle
 
 ### 2 Begriffe (Ziff. 2)
@@ -234,9 +250,11 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
 ## JANS-Praxis-Transfer
 
 - Bei jeder Tiefgaragen-/Parkhausplanung zuerst die Brandabschnittsfläche gegen die
-  600-m²/1200-m²-Schwelle (Ziff. 1.1) und dann gegen die passende Matrix (Ziff. 6.1
-  geschossweise vs. 6.2 offen verbunden) prüfen — die Wahl zwischen NRWA/RWA mit BL/MRWA hat
-  unmittelbare Kostenfolgen (BKP 246/etc.) und muss früh mit der Kantonalen Feuerpolizei
+  600-m²/1200-m²-Schwelle (Ziff. 1.1) **und parallel gegen BSR 21-15 Ziff. 3.1** (siehe
+  Fassungsvorbehalt oben, Divergenzband 1'201–3'600 m² gesprinklert) und dann gegen die passende
+  Matrix (Ziff. 6.1 geschossweise vs. 6.2 offen verbunden) prüfen — die Wahl zwischen NRWA/RWA
+  mit BL/MRWA hat unmittelbare Kostenfolgen (**BKP 245** Rauch- und Wärmeabzugsanlagen, Quelle
+  `references/bkp-2017/BKP-2017-Liste.md`) und muss früh mit der Kantonalen Feuerpolizei
   abgestimmt werden, da N1/N2 **vor Baubeginn** zur Genehmigung einzureichen sind.
 - Bei offenen, mehrgeschossigen Rampenverbindungen (z. B. durchgehende Wendelrampe) direkt mit
   MRWA (N3) planen, sobald mehr als **1200 m²** Brandabschnittsfläche entstehen — erst dort
@@ -250,7 +268,9 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
   Schutzziele mit den vorgesehenen Massnahmen erreicht werden können. Das ist die
   unmittelbarste Planerpflicht des Merkblatts und gehört in die Honorar-/Leistungsabgrenzung.
 - Die Luftwechselraten-Tabelle (8-/7-/6-fach) direkt für die Ventilator-/Kanaldimensionierung
-  in Ausschreibungsunterlagen Lüftung (BKP 244) übernehmen.
+  in Ausschreibungsunterlagen übernehmen — die RWA-Anlage selbst gehört unter **BKP 245**
+  (Rauch- und Wärmeabzugsanlagen); BKP 244 (Lufttechnische Anlagen) bleibt nur richtig für eine
+  mitgenutzte lufttechnische Anlage nach BSR 21-15 Ziff. 4.10.
 - Für Ausschreibungspositionen Entrauchungsöffnungen die Kunststoffdübel-Ausschluss-Regel
   (Ziff. 4.3) als Ausführungshinweis in die LV-Position aufnehmen.
 
