@@ -5,6 +5,74 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-03 — Hub-Chef 22:07 bis 22:30 (Nachlauf statt 08:35, Delta-Briefing versandt)
+
+**Ausgangslage:** Der planmässige Lauf 08:35 fiel am Wochenlimit aus (letztes Chef-Briefing
+01.08. 08:39). Dieser Lauf holt das Fenster von 62 Stunden nach. Zwischen dem Start dieses
+Laufs und seinem Versand haben **vier** andere Loops selbst gemailt: AG-Gründung 22:12:45,
+Wochenkontingent 22:13:00, Logbuch-Radar 22:21:29, Vollgas-Frühwarnung 22:22:16. Der ganze
+operative Tagesstoff (Feuerpolizei-Genehmigung, UGZ-Fachbefund, RE-00087-Duplikat, Debitoren,
+Bohlweg) steht dort und wurde hier **nicht** wiederholt.
+
+**Signale:** Fristen-Register und Logbuch (7-Tage-Horizont), Konversations-Destillat 260803
+(entstand um 22:20 während dieses Laufs, danach gelesen), `mail-vorfilter.sh 64` über alle
+sechs Konten plus die relevanten Threads im Original samt Anhängen, bexio `--verzug` und
+`--abgleich`, M365-Kalender 8 Tage, lokaler Kalender, Sync- und Remote-Queues, Entwurfsordner,
+Lauf-Journal.
+
+**Befund 1 — die Anmerkungen der Feuerpolizei sind inventarisiert, und einer der Punkte steht
+in keiner Liste.** Statt das 5-MB-PDF zu überfliegen, wurde die Rückgabe **seitenweise gegen
+die eigene Abgabefassung gedifft** (`pdftoppm` 60 dpi, Hash je Seite): **7 von 15 Blättern**
+tragen Markierungen (33.22, 33.23, 33.26, 33.27, 33.31, 33.32, 33.33), die beiden
+Jegen-Türblätter kamen **byte-identisch** zurück und sind unbeanstandet. Am Blatt abgelesen:
+33.22 «EI 30?» am Anschluss der Schiebetüre 01.0.303.1 an die **bestehende** Fluchtwegwand ·
+33.23 «?» bei VKF-Nr. 22636, Markierung 25973 und 26925 · 33.26 «Anschluss mit Systemhersteller
+klären» · 33.27 «durch den Systemhersteller **schriftlich** bestätigen zu lassen» · 33.31 «?»
+bei W430-00 · 33.32 «im Horizontalen Fluchtweg RF3?» · 33.33 sechs Häkchen plus Markierung am
+Bodenanschluss DT-TEH. **RJs Antwort an Ziegel (17:02), die Registerzeile und das Radar-Briefing
+führen drei Nachweise; 33.22 fehlt in allen dreien** und ist der einzige Punkt mit
+Bestandesbezug. Zweite Präzisierung: 33.27 verlangt die **Schriftlichkeit**, nicht nur eine
+Abklärung. Methodisch der Kern: der Diff hat die Bemerkungen gefunden, das Lesen des
+Begleitschreibens hätte sie nicht geliefert.
+
+**Befund 2 — der Nachfass-Entwurf an B. Kübler liegt unversendet und läuft am 04.08. 17:00 ab.**
+Entwurf vom 31.07. 00:35 (Body 2'170 Zeichen nachgemessen). Punkt 2 (Kontaktaufnahme mit Zala)
+ist überholt: die UGZ-Sitzung kam zustande und wurde am 03.08. 12:49 **vom Amt selbst** abgesagt;
+Zala schrieb RJ um 07:59 direkt. Punkt 1 hat den Adressaten gewechselt (Ziegel liefert 13:28 an
+Duran und verlangt **von RJ** die Fristvorgabe). Punkt 3 bleibt offen. Unverändert versendet
+würde der Entwurf nach Erledigtem fragen.
+
+**Aktionen: A4** — zwei Registerzeilen (Anmerkungs-Inventar, liegender Entwurf) und dieser
+Eintrag. Briefing an rj@ um **22:29:25** versendet, Eingang 22:29:35, **Body 3'488 Zeichen
+nachgemessen** (Gegenprobe zum Leer-Draft-Fehler).
+
+**Guards / bewusst unterlassen:** **A1** in keinem Fall qualifiziert — RE-00100 steht bei
+4 Tagen gegen die Schwelle von 5, RE-00098/99 laufen bis 12.08., RE-00101 bis 16.08., RE-00087
+ist Mahnstufe 2+ und hängt zusätzlich an der Duplikatsklärung. `--abgleich` sauber, die 19
+Warnpositionen stammen alle aus 2022 bis 2025. **A2 nicht qualifiziert:** Estermann kommt am
+05.08. zur Ausmessung, die Mail nennt **keine Uhrzeit**, der Guard verlangt Datum **und** Zeit;
+als Vorschlag ins Briefing statt als Eintrag in den Kalender. **A5 bewusst unterlassen:** die
+einzige echte Bringschuld gegenüber Dritten ist die Fristvorgabe an Duran, und ein Datum dafür
+zu erfinden verstiesse gegen `identifikatoren-verifizieren`; ein zweiter Kübler-Entwurf wäre
+Leerlauf, solange der erste ungesendet liegt. Keine Zahlung, keine Buchung, keine Löschung,
+kein Versand ausser dem Briefing. Kein `git` über SMB.
+
+**QS:** `korrektur` (rechtschreibung + layout, beide gelb) und `twin`-Gate (Fidelity 79,
+Veredelungsrunde Stimme/Fachsignatur/Arbeitsweise) gefahren; alle vier sperrenden Punkte des
+Gates vor dem Versand eingearbeitet, darunter die vollständige Norm-Fundstelle (VKF-BRL
+14-15de, Fassung 01.01.2017, IOTH-Beschluss 22.09.2016, Ziff. 4.2) und die eindeutige
+RF-Übersetzung des Bodenbelags.
+
+**Eigener Fehler, offen dokumentiert:** Die Einleitung des versendeten Briefings nennt «drei
+Briefings» und den Radar mit «22:30». Tatsächlich waren es **vier** (die Vollgas-Frühwarnung
+ging um 22:22:16 raus, also nach dem Entwurfs-Scan dieses Laufs um 22:20), und der Radar mailte
+um **22:21:29**, nicht 22:30 (22:30 ist der Titel seiner Logbuch-Sektion, nicht seine
+Versandzeit). Keine zweite Mail zur Korrektur, das Ein-Briefing-Gebot geht vor; hier steht der
+richtige Stand. Lehre: der Entwurfs-/Gesendet-Scan gehört **unmittelbar vor** den Versand,
+nicht an den Anfang der Redaktion, und eine Sektionsüberschrift ist kein Versandzeitstempel.
+
+---
+
 ## 2026-08-03 — Logbuch-Radar 22:30 (erster Lauf seit dem 01.08., dichtes Fenster, Briefing versandt)
 
 **Ausgangslage:** Das Wochenlimit riss am 01.08. 14:28; die Radar- und Chef-Briefings vom 02.08.
