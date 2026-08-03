@@ -1301,7 +1301,7 @@ Hindernisfreies Bauen Kt. ZH (Behindertenkonferenz) — normnah zu SIA 500. NACH
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
 | [x] 260801 | P3 | `06_Richtlinien/BKZ/0.Mindestanforderungen_E-Version.pdf` | zhb-2005… NICHT von der BKZ, sondern Paraplegiker-Stiftung/ZHB Muhen |
-| [ ] | P3 | `06_Richtlinien/BKZ/BKZ - Behindertenkonferenz Kanton Zürich.pdf` |  |
+| [x] 260804 | P3 | `06_Richtlinien/BKZ/BKZ - Behindertenkonferenz Kanton Zürich.pdf` | bkz-kontaktseite-website-2012 → Safari-Ausdruck der BKZ-Kontaktseite (2012), KEIN normativer Inhalt |
 | [x] 260801 | P3 | `06_Richtlinien/BKZ/BKZ_Checkliste.pdf` | bkz-2005-checkliste… traegt § 239 PBG + § 34 BBV I |
 | [x] 260801 | P3 | `06_Richtlinien/BKZ/hindernisfrei-bauen_Sehbehig Bauen.pdf` | fachstelle-mb-13-05… NICHT von der BKZ, sondern Schweiz. Fachstelle |
 
@@ -1371,6 +1371,7 @@ Heterogen und erst am Titelblatt klassierbar. Darunter `SN592_Liegenschaftsentwa
 
 <!-- Summe: 69 -->
 <!-- Stand 03.08.2026 (Run 42, selbst ausgezaehlt): 68 von 69 Positionen mit Status [x]/[~]/[-] versehen, 1 noch offen ([ ] `06_Richtlinien/BKZ/BKZ - Behindertenkonferenz Kanton Zürich.pdf`). -->
+<!-- Nachtrag 04.08.2026 (Destillier-Agent): letzte offene Position geschlossen -> destillate/bkz-kontaktseite-website-2012.md. Damit 69 von 69 Positionen des PL-02-Kerninventars mit Status [x]/[~]/[-] versehen. -->
 
 
 **Regeln fuer diesen Abschnitt:** Es gilt derselbe Standard wie fuer SIA/VKF — Destillat nach

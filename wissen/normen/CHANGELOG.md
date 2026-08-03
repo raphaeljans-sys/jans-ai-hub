@@ -1,3 +1,23 @@
+## 2026-08-04 — PL-02-Kerninventar vollständig: letzte offene Position destilliert (BKZ-Ordner)
+
+- **`destillate/bkz-kontaktseite-website-2012.md`** — neu. Quelle: `06_Richtlinien/BKZ/BKZ -
+  Behindertenkonferenz Kanton Zürich.pdf` (39 kB, 1 Seite), die letzte offene `[ ]`-Position
+  des `06_Richtlinien/BKZ`-Teilinventars in `training/norm-inventar.md`. **Der Dateiname hält
+  nicht, was er verspricht:** kein Grundsatz-/Vorstellungsdokument der BKZ, sondern ein am
+  13.07.2012 mit Safari erzeugter Website-Ausdruck der Kontakt-Unterseite (Creator «Safari»,
+  Producer «Mac OS X 10.6.8 Quartz PDFContext») mit ausschliesslich Adress-/Telefonangaben der
+  BKZ-Geschäftsleitung und der Bauberatung. **Kein normativer Inhalt** — bewusst kein Inhalt
+  hineindestilliert, stattdessen der Befund selbst als Destillat festgehalten.
+  Fassungsvorbehalt entfällt, da kein normativer Inhalt vorliegt.
+- Bei dieser Gelegenheit die drei Nachbardateien desselben Ordners gegengeprüft: alle drei
+  bereits eigenständig destilliert (`zhb-2005-mindestanforderungen-hindernisfreies-bauen`,
+  `bkz-2005-checkliste-hindernisfrei-hochbau`, `fachstelle-mb-13-05-sehbehindertengerechtes-bauen`);
+  keine zusätzliche Inventar-Position nötig.
+- **`training/norm-inventar.md`**: letzte `[ ]`-Zeile des BKZ-Abschnitts auf `[x] 260804`
+  gesetzt; Fussnote des PL-02-Kerninventars von «68 von 69» auf **69 von 69** Positionen mit
+  Status `[x]/[~]/[-]` aktualisiert. Damit ist das PL-02-Kern-Teilinventar (69 Positionen)
+  vollständig abgearbeitet.
+
 ## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — K42-4a geschlossen, zwei Fassungs-/Rechtsstandvorbehalte
 
 - **K42-4a BEANTWORTET am Original-PDF** — der hoechstprioritaere Leseauftrag aus Run 23, an dem
