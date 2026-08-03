@@ -4,6 +4,26 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 03.08.2026 — twin-mail-training Batch 85: Luecken-Sweep `rj@` 15.–28.02.2026
+
+Fenster vollstaendig gelistet (56 Sent Items), Tagesabgleich in beiden Datumsformaten vor der
+Lektuere: **26.02. stand mit null Belegen im Wiki, traegt aber acht Eigentexte** — die
+sequenziellen Batches 29–31 hatten nach Threads statt nach Tagen abgetastet. 6 Volltexte gelesen,
+10 Eigentexte destilliert, 17 Marker-Kandidaten vorab gegriffen (sieben bereits belegt, nicht
+erneut destilliert).
+
+**4 neue Marker:** `arbeitsweise` Vergabe-Choreografie (drei Angebotsfreigaben in neun Sekunden,
+je einzeln adressiert mit eigenem PDF, KW-Frist, Terminkoordination delegiert) + Behoerden-
+Protokoll an die Bauherrschaft mit Amt und Unternehmern im cc; `fachsignatur` Offertenanfrage als
+Kurz-Devis im Mailbody, verankert am Referenzobjekt («Montageansatz gemaess Referenz: 2 Monteure,
+ca. 2 Stunden»); `stimme` die Frist steht NACH dem Signaturblock + Mikro-Metrik (500 W, ø 14.3 W,
+Du-Gross 1.0); `beziehungsregister` Vollform «Geschaetzter Herr <Vorname> <Nachname>» in der
+Vergabemail — **Widerspruch markiert statt geglaettet** (Anlassgewicht vs. Namensunsicherheit).
+`haltung` und `denken` gehen leer aus; das Fenster ist ein Vergabe-/Abwicklungsfenster, dort
+bereits vollstaendig belegt. Drei Fragen nach `wiki/QUESTIONS.md`. Echo-Pruefung negativ trotz
+Claude-Aera-Fenster (Tippfehlerdichte innerhalb der Devis-Liste); englischer Website-Thread als
+bekannte Echo-Falle 9/10 ausgeschlossen. Register: `raw/260803-mailbatch-85.md`.
+
 ## 01.08.2026 — twin-chef Fidelity-Gate: Hub-Chef-Briefing (intern, an Raphael selbst). Fidelity 89, durchgewunken.
 
 Stimme 88 · Denken 93 · Haltung 85 · Beziehung 90 · Fachsignatur 89 · Arbeitsweise 90. Keine

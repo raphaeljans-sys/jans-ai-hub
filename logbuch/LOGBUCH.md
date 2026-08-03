@@ -5,6 +5,39 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-03 — Logbuch-Radar 22:30 (erster Lauf seit dem 01.08., dichtes Fenster, Briefing versandt)
+
+**Ausgangslage:** Das Wochenlimit riss am 01.08. 14:28; die Radar- und Chef-Briefings vom 02.08.
+und vom 03.08. früh sind ersatzlos ausgefallen (Lauf-Journal: alle fünf Läufe des 02.08. und die
+beiden Nachtläufe des 03.08. mit `rc=1`, `cost_usd=0`; erster erfolgreicher Lauf des neuen
+Fensters 03.08. 13:41). Mailfenster deshalb auf **72 h** geöffnet. `ccusage` weist für den 02.08.
+auf beiden Stationen keinen Verbrauch aus.
+
+**Erledigt:** SIA-Normen-Anfrage M. Prencipe (RJ 03.08. 07:52, vier Anhänge) — gepaart und
+geschlossen. Frist «KISPI Türbuch + Sicherheitskonzept 31.07. 17:00» — abgelöst durch die von RJ
+am 03.08. 15:06 mit dem KISPI vereinbarte **gebündelte Stellungnahme bis 15.08.2026**; der
+vorbereitete Nachfass-Entwurf (id 12050) ist gegenstandslos. UGZ-Termin 03.08. 13:30 — vom Amt
+abgesagt, Anliegen schriftlich beantwortet.
+
+**Neu und wichtig:** (1) **Die Feuerpolizei hat die Auflagen Ziff. 18 und 19 des Bauentscheids
+1171/26 genehmigt** (Schreiben 03.08., Detailpläne Architektur + zwei Jegen-Türen-Datenblätter,
+«mit Anmerkungen erfüllt») — nach Ziff. 16 vom 31.07. die zweite Genehmigung binnen drei Tagen.
+Offene Nachweise: Unterlagsboden EI60, Bodenbelag RF3 (durch das Factsheet vom 03.08. sachlich
+belegt: Bolon Sisal Plain Sand ist Bfl-s1) und die VKF-Nummern je Bauteil. (2) **Der UGZ-Fachbefund
+zur Lüftung** (Hansen, 14.07., lag drei Wochen bei Wintec) benennt fünf umzusetzende Punkte und
+ist der neue kritische Pfad der Baufreigabe. (3) Gruner-intern ist die Lüftungsplanung strittig;
+von RJ wird die Fristvorgabe erwartet. (4) **RE-00087 hat eine Erklärung**: das KISPI führt die
+Rechnung als Duplikat (BC304304495), RJ hat die UBS-Zahlungsnachforschung angestossen. (5) Der
+Begleitbeschrieb Bohlweg in der korrigierten Fassung 260731 wurde bis heute **nie versandt** —
+inzwischen haben zwei Empfänger die überholte 260730-Fassung mit dem toten StrAV-Zitat.
+
+**Debitoren:** Verzugssumme unverändert CHF 51'400.00, aber von Raphael selbst bewegt —
+RE-00098/99 neu auf Mahnung 1 mit Frist 12.08., RE-00101 mit Zahlungserinnerung bis 16.08.,
+RE-00100 erneut zugestellt. Keine Mahnaktion des Hub, keine Buchung, kein Kalendereintrag,
+keine Mail an Dritte.
+
+---
+
 ## 2026-08-03 — Methoden-Radar 21:02 (Wochenlauf, kein neues Material, ein Verifikationsbefund)
 
 **Vorfilter ohne Delta:** `scripts/methoden-scan.sh` meldet 8 Ordner unveraendert im

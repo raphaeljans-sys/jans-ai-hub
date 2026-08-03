@@ -1,3 +1,11 @@
+## 2026-08-03 — Korrektur Ordnerzuordnung (Ultra-Code-Review, Befund E)
+
+`wiki/QUESTIONS.md`, Punkt «Bookkeeping-Widerspruch zusammenführen»: PAVIDENSA und
+`09_Sanitaereinrichtung` fälschlich als Teil von `06_Richtlinien` bezeichnet — beide sind
+eigenständige Schwesterordner (`04_Merkblätter/Fugenlose Bodenbeläge` bzw.
+`09_Sanitaereinrichtung`), siehe `training/norm-inventar.md`. Nur Formulierung präzisiert,
+keine weiteren Änderungen an der normen-KB.
+
 ## 2026-08-01 (MacBook Pro, Run 41) — zehnte Lignatec-Runde, zwei Zweitverifikationen, 13 neue Destillate
 
 Report: [`outputs/2026-08-01_normen-nacht-run41.md`](outputs/2026-08-01_normen-nacht-run41.md)

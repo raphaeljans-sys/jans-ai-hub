@@ -166,7 +166,7 @@ Daraus die Aufindexierung eines Betrags (Umkehrung derselben Rechnung):
 Kontakt fuer Rueckfragen (aus dem Screenshot): BFS Sektion Preise, Espace de l'Europe 10,
 CH-2010 Neuchatel, Hotline BAP +41 58 463 63 06, bap@bfs.admin.ch.
 
-**Empfehlung an den Hauptlauf:** Aus diesem Befund gehoert ein eigener Wiki-Artikel
+**Empfehlung an den Hauptlauf:** Aus diesem Befund gehört ein eigener Wiki-Artikel
 `aufindexierung.md` in die KB — die Methode ist heute nur als Screenshot-Beleg vorhanden,
 nicht als JANS-Verfahren. Dazu die Warnung, dass ein Ausgangswert 2019 nicht mit der
 Okt-2020-Basis multipliziert werden darf, ohne zuvor den Index Okt/Apr 2019 der richtigen
@@ -431,12 +431,12 @@ abgeloest, in der Immobilienbranche aber weiter in Gebrauch). Die Wuest-Ebene is
 Monitoring-Regionen und der sieben Grossregionen sind daher **nicht deckungsgleich**
 (z.B. «Bern» und «Westschweiz» getrennt gegen den einen «Espace Mittelland»).
 
-**Praxis-Konsequenz — direkt relevant fuer die UBS-Fact-Sheets:** Die UBS-Fact-Sheets
+**Praxis-Konsequenz — direkt relevant für die UBS-Fact-Sheets:** Die UBS-Fact-Sheets
 referenzieren auf **MS-Regionen**. Ein Quantil aus einem UBS-Fact-Sheet darf deshalb nicht
 kommentarlos mit einem Baupreisindexwert einer BFS-Grossregion oder einer
 Wuest-Monitoring-Region kombiniert werden — die drei Ebenen haben verschiedene
 Gebietsgrenzen. In jedem Bewertungsgutachten ist die verwendete Regionsebene zu deklarieren.
-**Offene Frage fuer QUESTIONS.md:** ob die UBS-Fact-Sheets noch die MS-Ebene von 2005
+**Offene Frage für QUESTIONS.md:** ob die UBS-Fact-Sheets noch die MS-Ebene von 2005
 verwenden oder bereits auf die seit 2019 geltenden Arbeitsmarktregionen umgestellt haben —
 im vorliegenden Bestand nicht entscheidbar.
 
@@ -815,7 +815,7 @@ KB gehoert):
 7. **Reserve** als eigene eBKP-H-Position Y ausweisen.
 8. **Renditebezug herstellen:** Bruttorendite je Variante direkt neben den Gesamtkosten.
 
-**INNERE WIDERSPRUECHE — ausdruecklich benannt. Das Blatt darf in dieser Fassung NICHT als
+**INNERE WIDERSPRÜCHE — ausdrücklich benannt. Das Blatt darf in dieser Fassung NICHT als
 Vorlage verwendet werden, ohne dass folgende Punkte bereinigt sind:**
 
 1. **Drei verschiedene Gesamtkosten.** Deckblatt: «Gesamtkosten CHF 3'350'000.00 inkl.
@@ -1113,7 +1113,7 @@ Bauphysik, Geologe) aufteilt.
 Zuerich, **8. Januar 2024, 08:58**, woertlich: «**Es gibt keine detaillierte Aufteilung der
 Honorare auf die verschiedenen Fachrichtungen.**»
 
-**Die Frage wurde also beantwortet, und zwar ABSCHLAEGIG.** Der ZIW liefert keine
+**Die Frage wurde also beantwortet, und zwar ABSCHLÄGIG.** Der ZIW liefert keine
 Fachrichtungs-Aufteilung.
 
 **ABER — Querverweis, den der Hauptlauf setzen sollte:** Was der ZIW nicht hat, hat das
@@ -1224,11 +1224,11 @@ Baurecht-/Zustandstiefe, Option 3 «Schnell-Schaetzung automatisiert (WP-Konkurr
 Modellwert aus Kundenselbstauskunft, **ca. CHF 450**, ohne Besichtigung, «braucht eine
 Vergleichsdaten-Quelle».
 
-**Einordnung: Das ist eine KI-Ausgabe und darf NIE als Fachbeleg gefuehrt werden**
+**Einordnung: Das ist eine KI-Ausgabe und darf NIE als Fachbeleg geführt werden**
 (Echo-Schutz, Rule `jans-dna`). Auch die genannten CHF 450 sind eine **Modellannahme des
 Assistenten**, kein Marktpreis. Verwertbar ist ausschliesslich die Tatsache, dass zum
-**15.06.2026** eine Produktueberlegung zu einem gestuften Bewertungsangebot lief — das
-gehoert allenfalls in den Service-Katalog, nicht in die Wissensbasis.
+**15.06.2026** eine Produktüberlegung zu einem gestuften Bewertungsangebot lief — das
+gehört allenfalls in den Service-Katalog, nicht in die Wissensbasis.
 
 ---
 
@@ -1237,33 +1237,34 @@ gehoert allenfalls in den Service-Katalog, nicht in die Wissensbasis.
 **Neue Wiki-Artikel (empfohlen):**
 1. `wiki/baupreisindex.md` — Basis, Reihenlogik, Revisionsrhythmus (5 Jahre, Endziffer 0/5),
    Regionsebenen, Preis- gegen Kostenindex, PKI-Abgrenzung. Quellen: Kap. 1.1, 1.2, 1.4.
-2. `wiki/aufindexierung.md` — die BFS-Rechenwege (Indexierung von Betraegen,
-   Veraenderungsrate, Umbasierung), die Formel, die drei Fallen (falsche Basis, falsche
+2. `wiki/aufindexierung.md` — die BFS-Rechenwege (Indexierung von Beträgen,
+   Veränderungsrate, Umbasierung), die Formel, die drei Fallen (falsche Basis, falsche
    Region, falsche Objektart) und die **Honorar-Regel**: BKP 29 nie mit BKP 2 indexieren.
    Quellen: Kap. 1.3, 1.4, 1.5, 3.3.
 3. `wiki/raumnomenklaturen.md` — 7 Grossregionen gegen 8 Wuest-Monitoring-Regionen gegen
-   106 MS-Regionen (seit 2019 durch Arbeitsmarktregionen abgeloest). Quelle: Kap. 1.8.
+   106 MS-Regionen (seit 2019 durch Arbeitsmarktregionen abgelöst). Quelle: Kap. 1.8.
 4. `wiki/kostenkennwerte-referenzobjekte.md` — die Objekttabelle aus Kap. 2.1/2.2 als
    wachsende Referenzsammlung, je Objekt mit Preisstand und Grossregion.
 5. `wiki/grobkosten-doktrin.md` — die acht Deklarationspflichten aus Kap. 2.5, mit dem
-   Triplexhaus-Blatt als **Negativ-Beispiel** fuer die Pruefliste.
+   Triplexhaus-Blatt als **Negativ-Beispiel** für die Prüfliste.
 
-**Bestehende Artikel ergaenzen:** Mietpreisquellen (Kap. 3.5 OGD-Download),
+**Bestehende Artikel ergänzen:** Mietpreisquellen (Kap. 3.5 OGD-Download),
 Renditebenchmarks (Kap. 3.1 Bruttoanfangsrendite-Quantile 2019).
 
 **Nach `QUESTIONS.md`:**
-- Ist die BFS-Reihe per April 2026 auf **Oktober 2025 = 100** umbasiert? Beleg beim BFS
-  nachziehen (bap@bfs.admin.ch, +41 58 463 63 06) und beide Basen im Wiki fuehren.
-- Bueromietzins Stadt Zuerich: die BFS-Anfrage vom 04.12.2024 blieb unbeantwortet —
-  Alternativquelle suchen (Wuest Partner Bueromarkt, SVIT, Immobilienberichte).
+- Die BFS-Reihe ist per April 2026 auf **Oktober 2025 = 100** umbasiert — **inzwischen belegt**
+  (BFS/fachbau.ch 18.06.2026, Run 15; bestätigt Run 51 27.07.2026, siehe [[investorenmarkt-makro]]
+  und Abschnitt 1.1 oben). Erledigt, keine offene Frage mehr.
+- Bueromietzins Stadt Zürich: die BFS-Anfrage vom 04.12.2024 blieb unbeantwortet —
+  Alternativquelle suchen (Wuest Partner Büromarkt, SVIT, Immobilienberichte).
 - Beziehen sich die UBS-Fact-Sheets auf die MS-Regionen 2005 oder auf die
   Arbeitsmarktregionen ab 2019?
-- Stimmt die CRB-Aussage, der Preisueberwacher habe Kostenkennzahl-Buecher untersagt?
-- Preisstand der Lignum-Kennwerte und der Healthcare-Sammelwerte (Kap. 2.1 J) klaeren.
+- Stimmt die CRB-Aussage, der Preisüberwacher habe Kostenkennzahl-Bücher untersagt?
+- Preisstand der Lignum-Kennwerte und der Healthcare-Sammelwerte (Kap. 2.1 J) klären.
 
 **Handlungsbedarf ausserhalb der KB:**
-- **`werk-material.online/_Login.docx` enthaelt ein Klartext-Kennwort** → in den
-  Schluesselbund uebertragen, Datei loeschen.
+- **`werk-material.online/_Login.docx` enthält ein Klartext-Kennwort** → in den
+  Schlüsselbund übertragen, Datei löschen.
 - ETH-Tragwerksmodell-PDFs aus «IMMO - 04 Marktpreise» in eine Fachwissens-Ablage
   verschieben (Kap. 2.7).
 - OneDrive-Konfliktkopien («-MacBook Pro von Raphael») bereinigen.

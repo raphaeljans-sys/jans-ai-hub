@@ -1,6 +1,37 @@
 # CHANGELOG — KB Immobilienbewertung
 
-Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
+Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
+
+## 2026-08-03 — Korrekturen aus Ultra-Code-Review (Befunde A-D)
+
+- **Befund A (wichtigster Punkt):** `outputs/2026-07-31_ingest-cluster-C-bfs-werkmaterial.md`,
+  Abschnitt 1.1 — das «WIDERSPRUCHS-FLAG fuer den Hauptlauf» samt Dekret («Bis ein Beleg
+  vorliegt, gilt fuer JANS-Erzeugnisse Basis Okt 2020 = 100») war ein Ingest-Fehler: das
+  Archiv (juengstes Dokument Datenstand 30.10.2025) kann die erst im April 2026 publizierte
+  Totalrevision naturgemaess nicht enthalten — Abwesenheit im Archiv ist kein Widerspruch zum
+  belegten Stand in [[investorenmarkt-makro]] (BFS/fachbau.ch 18.06.2026 Run 15, bestaetigt
+  27.07.2026 Run 51). Abschnitt umgeschrieben, Dekret ersatzlos gestrichen: fuer
+  JANS-Erzeugnisse gilt die aktuelle Basis Oktober 2025 = 100 (April 2026 = 100.6, +1.0 % YoY);
+  alte Reihe (Basis Okt 2020) bleibt als historisches Werkmaterial mit Umrechnungshinweis
+  stehen. Folgestelle im selben Report (Abschnitt «Zusammenfassung der Ziel-Zuordnung»,
+  Punkt «Nach QUESTIONS.md») hatte dieselbe offene Frage nochmals aufgeworfen — als erledigt
+  markiert und auf den Beleg verwiesen.
+- **Befund B:** Datei war durchgehend transliteriert (ae/oe/ue statt ä/ö/ü, Rule
+  `umlaute-konvention`). Die Entscheids-/Flag-/Merkhilfe-Passagen (Widerspruchs-Flag,
+  Empfehlungen an den Hauptlauf, offene Fragen, innere Widersprueche, Zusammenfassung der
+  Ziel-Zuordnung, Handlungsbedarf ausserhalb der KB) sind auf echte Umlaute umgeschrieben.
+  **Offener Punkt:** die vollstaendige Konversion des rund 1'270-zeiligen Fliesstexts (v.a.
+  die Objektbeispiele A-J und Kapitel 1.4-1.9) wurde aus Budgetgruenden nicht abgeschlossen.
+  Dieselbe Transliteration betrifft auch die Schwesterdatei
+  `outputs/2026-07-31_ingest-cluster-E-projekte.md` (ungeprueft, vermutlich vollstaendig
+  betroffen). CLAUDE.md Zeile ~58 korrigiert («echte Umlaute ae/oe/ue» → «ä/ö/ü, ss statt ß»).
+- **Befund C:** ~Z. 129 — Selbstwiderspruch «Einzige belegte Zahl … unbelegter Ausgangswert»
+  aufgeloest (Trotte-Wert CHF 3'907/m2 bleibt unbelegter Ausgangswert; der zweite Wert
+  CHF 600/m2, 2008, als rein didaktische Uebungsaufgabe ohne Objektbezug eingeordnet).
+- **Befund D:** Abschnitt 1.2, Veraenderungsraten Schweiz (+0.1 %/+0.5 %) gegen die xlsx-Quelle
+  `241000 Grundlagen/cc-t-05.05.06.xlsx` (Registerblatt 1) geprueft: Die Raten sind die vom
+  BFS selbst publizierten Werte aus ungerundeten Indexstaenden und weichen deshalb von der
+  Differenz der gerundeten Tabellenwerte in Abschnitt 1.1 ab. Fussnote ergaenzt.
 
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D15 · E0 · F831 · G16
 
