@@ -137,7 +137,7 @@ Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse
   kriterium Spitäler/Pflegeheime ab 20 hilfsbedürftigen Personen). Ein am 2026-07-25 unabhängig
   parallel gelaufener Nebenlauf kam ohne Kenntnis dieses bereits bestehenden Destillats zum
   identischen Befund (services.vkg.ch, 22-15de, in Kraft seit 1.1.2015) — bestätigt den Stand
-  ein weiteres Mal, siehe `outputs/2026-07-25_energie-nebenlauf-vkf-22-15-gvz-pv-formular.md`.
+  ein weiteres Mal, siehe `outputs/2026-07-30_energie-nebenlauf-kollision-vierte-nacht.md`.
 - ~~GVZ-Originaltext zur Prämienmechanik bei PV/Speicher (nur Sekundärquellen verfügbar)~~ —
   **geschlossen in Run 92**: eigenes Destillat `[[gvz-praemienmechanik-pv-speicher]]`
   (established; GVZ-Einheitsprämie 0,29 ‰, PV nur als Wertvermehrung, kein PV-/Speicher-

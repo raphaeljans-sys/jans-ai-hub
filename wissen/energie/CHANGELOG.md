@@ -809,7 +809,7 @@ war nur nicht nachgezogen worden), `wiki/BAUHERREN-FAQ.md`, `training/curriculum
 Task `energie-training` auf demselben Host und erkannte die Kollision korrekt gemäss Rule
 `auto-verbesserungen` 260724 — er trat zurück und sicherte seine Funde (VKF 22-15 sowie GVZ-PDF,
 beide unabhängig bestätigend, aber ohne Kenntnis der bereits in Run 92 bestehenden eigenen
-Destillate) in `outputs/2026-07-25_energie-nebenlauf-vkf-22-15-gvz-pv-formular.md`, ohne Register
+Destillate) in `outputs/2026-07-30_energie-nebenlauf-kollision-vierte-nacht.md`, ohne Register
 zu editieren — Kollisionsschutz hat wie vorgesehen funktioniert. Dabei aufgefallen: die «Offene
 Punkte»-Liste in `destillate/pv-blitzschutz-gebaeudeversicherung-ch.md` verwies noch auf beide
 Punkte als offen, obwohl sie bereits in Run 92 durch eigene Destillate geschlossen worden waren

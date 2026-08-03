@@ -121,7 +121,12 @@ INCLUDE_RE='training|normen|twin|wettbewerb|spec|immob|synobsis|energie|planungs
 # GRUNDSATZ ab 27.07.2026: ein Loop mit eigenem Scheduled Task und definiertem Takt gehoert
 # NICHT zusaetzlich in den Endlos-Zyklus — sonst laeuft er doppelt und ignoriert jede
 # Drosselung. Der Runner ist fuer Loops OHNE eigenen Takt da, nicht als zweiter Taktgeber.
-EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|synobsis|grobkosten|twin|spec-training|wettbewerbs-dna|normen-training-nacht|immob|baurecht-buch'
+# energie-training / normen-training / planungsgrundlagen-training 03.08.2026 aufgenommen
+# (Freigabe Raphael): alle drei haben einen eigenen App-Scheduled-Task mit definiertem Takt
+# und fallen damit unter den GRUNDSATZ vom 27.07.2026. Bis hierhin standen sie als einzige
+# der getakteten Loops noch NICHT in der Liste — `normen-training-nacht` deckte `normen-training`
+# nicht ab (anderes Muster). Anlass war die Kollisionsserie 25.-30.07.2026 in der KB energie.
+EXCLUDE_RE='radar|chef|heartbeat|mahnwesen|zahlungsabgleich|hygiene|monitor|check|drosselung|messung|masterclass|woche|synobsis|grobkosten|twin|spec-training|wettbewerbs-dna|normen-training|energie-training|planungsgrundlagen-training|immob|baurecht-buch'
 
 mkdir -p "$NAS_DIR" 2>/dev/null || NAS_DIR="$HOME/.jans-vollgas-log"
 mkdir -p "$NAS_DIR"
@@ -209,6 +214,20 @@ while :; do
         # laufenden claude-Prozesses (Scheduled-Task wie Runner tragen sie).
         if pgrep -f "name: ${name}[^A-Za-z0-9-]" >/dev/null 2>&1; then
             log "SKIP  $name (laeuft bereits — Doppellauf vermieden)"
+            sleep "$PAUSE_BETWEEN"
+            continue
+        fi
+        # Zweite, breitere Stufe (03.08.2026): der Frontmatter-Match oben greift NUR bei
+        # Prozessen, die die SKILL.md woertlich tragen (Scheduled Task, Runner). Ein
+        # HANDGESCHRIEBENER Prompt fuer denselben Loop traegt keine `name:`-Zeile und blieb
+        # damit unsichtbar — genau so lief `cron-training-mini.sh energie` (LaunchAgent
+        # ch.jans.training-energie, inzwischen disabled-260803) vier Naechte in Folge
+        # parallel zum App-Scheduled-Task energie-training und liess die zweite Instanz
+        # dieselbe KB bearbeiten. Der Loop-Name selbst kommt in beiden Formen vor
+        # ("energie-training" bzw. "Energie-Trainings"), deshalb case-insensitiv auf den
+        # blossen Namen pruefen. Task-Namen sind distinkt genug fuer diesen Match.
+        if pgrep -if "${name}" >/dev/null 2>&1; then
+            log "SKIP  $name (gleichnamiger Lauf aktiv, auch ohne Frontmatter — Doppellauf vermieden)"
             sleep "$PAUSE_BETWEEN"
             continue
         fi
