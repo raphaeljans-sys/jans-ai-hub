@@ -28,11 +28,11 @@ eigenen Connectoren automatisiert; jeder Punkt verlinkt den vertiefenden Artikel
 | **0** | **EGRID + Parzelle + Koordinate** | Schlüssel-ID für alles Weitere; verifiziert Adresse↔Grundstück | `geo-zh.mjs --adresse "…" --json` | [[kartenportale-oereb-egrid-bezug]] |
 | **1** | **OEREB-Auszug (PDF)** | amtlicher Gesamtblick: Nutzungsplanung, Baulinien, Lärm, Grundwasser, Altlasten, Wald | `geo-zh.mjs --egrid … --oereb --out …` | [[kartenportale-oereb-egrid-bezug]] |
 | **2** | **Grundnutzung/Zonenplan (Vektor: Zone, BMZ/AZ, Höhen, VG, ES-Lärm)** | das **Baurecht in Zahlen** — mehr als der OEREB-PDF; inkl. ⚠ laufende BZO-Revision (proj-Layer) | `geo-zh.mjs --adresse "…" --produkt zonenplan --out …` | [[kartenportale-zonenplan-zh]] |
-| **3** | **Baulinien + Abstandslinien (Verkehr/Wald/Gewaesser/Waldgrenze/Gewaesserraum)** | grenzen das **Baufeld** ein (Agent `baulinien-analyst`) | `geo-zh.mjs --adresse "…" --produkt baulinien --out …` | [[kartenportale-baulinien-abstandslinien-zh]] |
+| **3** | **Baulinien + Abstandslinien (Verkehr/Wald/Gewässer/Waldgrenze/Gewässerraum)** | grenzen das **Baufeld** ein (Agent `baulinien-analyst`) | `geo-zh.mjs --adresse "…" --produkt baulinien --out …` | [[kartenportale-baulinien-abstandslinien-zh]] |
 | **4** | **Amtliche Vermessung (Situationsplan/Kataster DXF)** | CAD-Grundlage für Baufeld/Volumen; Parzellengeometrie | `geoshop-zh.mjs --gemeinde "…"` (Produkt 10016 DXF) | [[kartenportale-geoportale-uebersicht]] |
 | **5** | **Höhenmodell (swissALTI3D/DTM) + Orthofoto (SWISSIMAGE)** | Terrain/Hang (massgebendes Terrain), Kontext; 3D-Render | `geo-zh.mjs --adresse "…" --produkt height,dtm,orthofoto --download --out …` | [[kartenportale-bund-geodaten]] |
-| **6** | **GWR-Gebäudedaten (bei Bestand: Volumen, EBF, Baujahr, Wärmeerzeuger)** | Basis für Energienachweis/Kostenschaetzung/Umnutzung | `gwr-bund.mjs` (Layer ch.bfs.gebaeude_wohnungs_register) | [[kartenportale-gwr-bund]] |
-| **7** | **Zuständige Behörden/Aemter** | wer entscheidet/ist anzufragen (Vorabklärung) | `behoerden-zh.mjs` (Registry je BFS) | [[recht-norm-quellenlandkarte]] |
+| **6** | **GWR-Gebäudedaten (bei Bestand: Volumen, EBF, Baujahr, Wärmeerzeuger)** | Basis für Energienachweis/Kostenschätzung/Umnutzung | `gwr-bund.mjs` (Layer ch.bfs.gebaeude_wohnungs_register) | [[kartenportale-gwr-bund]] |
+| **7** | **Zuständige Behörden/Ämter** | wer entscheidet/ist anzufragen (Vorabklärung) | `behoerden-zh.mjs` (Registry je BFS) | [[recht-norm-quellenlandkarte]] |
 
 **Querschnitt-Prüfungen, die aus 0–7 folgen** (kein eigener Bezug, sondern Auswertung):
 - **Recht/Norm**: welcher Erlass/Datenstand gilt → [[recht-norm-quellenlandkarte]] (Skill `baurecht` für die Würdigung).
@@ -43,14 +43,14 @@ eigenen Connectoren automatisiert; jeder Punkt verlinkt den vertiefenden Artikel
   meldet die massgebende Gefahrenstufe 1-4 und ab Stufe 3 den Objektschutz-Hinweis.
   ⚠ Kein Treffer = «hier keine Gefahrenfläche», NICHT «Gemeinde nicht kartiert»
   → [[kartenportale-naturgefahren-objektschutz]] §8a.
-- **Grundwasserschutzzone** (bei jedem Vorhaben mit **Untergeschoss/Aushub/Erdwaermesonde**):
+- **Grundwasserschutzzone** (bei jedem Vorhaben mit **Untergeschoss/Aushub/Erdwärmesonde**):
   S1 = faktisches Bauverbot, S2 = UG/Sonden i.d.R. unzulässig, S3 = auflagenbehaftet — das
   entscheidet über das UG und damit über die Wirtschaftlichkeit, bevor gezeichnet wird.
   `geo-zh.mjs --adresse "…" --produkt grundwasser` (Run 54)
   → [[kartenportale-naturgefahren-objektschutz]] §8b.
 - **Ablage**: Produkte sofort in die PL-01-Sollstruktur legen → [[kartenportale-sharepoint-ablage]].
 
-**Nicht Teil der 8 Pflicht-Grundlagen, aber vor Baueingabe/Ausfuehrung nötig:** der
+**Nicht Teil der 8 Pflicht-Grundlagen, aber vor Baueingabe/Ausführung nötig:** der
 **Werkleitungskataster** (Strom/Kommunikation/Gas/Wasser) — betreiberspezifisch, login-pflichtig,
 kein zentrales Geoportal, kurze Gültigkeit (EKZ 2 Wochen) → erst kurz vor Ausführungsreife
 anfragen, nicht schon im Vorprojekt → [[kartenportale-werkleitungskataster]].

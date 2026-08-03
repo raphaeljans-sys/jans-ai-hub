@@ -364,7 +364,7 @@ Schadensbild (Durchfeuchtung, Risse, Ausblühungen) ein typischer Befund ist.
 
 Quelle: **AUVA «Planungsgrundlagen von Anschlageinrichtungen auf Dächern»** (Allgemeine Unfall-
 versicherungsanstalt Österreich, 10/2010, 20 S. vollständig gelesen, im D-A-C-H-S-Arbeitskreis
-— Deutschland/Oesterreich/Schweiz/Suedtirol — abgestimmt, `04_Merkblätter/AUVA Planungshilfe
+— Deutschland/Österreich/Schweiz/Südtirol — abgestimmt, `04_Merkblätter/AUVA Planungshilfe
 Anschlagsvorrichtung V101025-klein.pdf`, bisher nie erschlossen). ⚠ **Österreichische Quelle,
 keine Schweizer Rechtsgrundlage** — die Publikation selbst hält fest: «Nationale Bestimmungen
 bleiben von diesen Empfehlungen unberührt. Soweit diese Vorschläge gegenüber nationalem Recht
@@ -372,7 +372,7 @@ abweichen, geht der Anwender dieser Empfehlung im Umfang der Abweichung das voll
 Risiko ein.» Für die Schweiz gelten SUVA-Vorgaben/EKAS-Richtlinien parallel — dieser Artikel
 dient als **belegte D-A-CH-übergreifende Planungshilfe**, nicht als Schweizer Norm-Ersatz.
 
-**Abgrenzung zu §3 (Absturzsicherungen Stadt Zürich):** §3 regelt Geländer/Bruestungen für
+**Abgrenzung zu §3 (Absturzsicherungen Stadt Zürich):** §3 regelt Geländer/Brüstungen für
 **normale Gebäudenutzer** (Balkone, Treppen, Dachterrassen im täglichen Gebrauch). **Dieser
 Artikel** regelt einen anderen Personenkreis und Zweck: **permanente Anschlagpunkte für
 Wartungs-/Instandhaltungspersonal** (Dachdecker, Spengler, Lüftungstechniker, Reinigungspersonal),
@@ -387,7 +387,7 @@ Dach-Planungsfrage, KEIN Doppel zu §3.
 - **Prinzip Kollektiv vor Individuell:** Geländer/Attika/Brüstung/Durchsturzgitter haben
   **absoluten Vorrang** vor Anseilschutz; PSA nur wo bauliche Lösung fehlt.
 - **Vier Ausstattungsklassen 1-4** je Kombination aus Nutzerkategorie (Dachberufe → atypische
-  Dachberufe → private Nutzer → Jedermann/oeffentlicher Personenverkehr) und Wartungsintervall
+  Dachberufe → private Nutzer → Jedermann/öffentlicher Personenverkehr) und Wartungsintervall
   (A >5 Jahre selten bis D mehrmals jährlich): Klasse 1 (Einzelanschlagpunkte genügen) bis
   Klasse 4 (volle bauliche Absturzsicherung nach Bauvorschriften, kein PSA-Ersatz zulässig).
   **JANS-Praxisrelevanz:** ein Flachdach mit Solaranlage (mehrmals jährliche Wartung) landet
@@ -402,7 +402,7 @@ Dach-Planungsfrage, KEIN Doppel zu §3.
 - **Anforderungen an Anschlageinrichtungen:** Baumusterprüfung nach **EN 795** (Seilsysteme
   Klasse C, Dachhaken nach EN 517), **Montagedokumentation** (Objekt/Firma/Monteur/Produkt/
   Befestigungsmittel/Dach-Schemaplan) als Nachweis für den Auftraggeber, **periodische
-  Sachkundigenprüfung** (Sicht-/Funktionspruefung, Korrosion/Verformung/lose Teile).
+  Sachkundigenprüfung** (Sicht-/Funktionsprüfung, Korrosion/Verformung/lose Teile).
 
 **JANS-Praxiswert:** direkte Vorprojekt-Checkliste für Flachdächer mit PV-Anlagen, Lüftungs-
 zentralen oder sonstigen wartungsintensiven Dachaufbauten — die Ausstattungsklasse (und damit der

@@ -63,7 +63,7 @@ sich?"** → **"Erläuterungen"** → **"Was ist zu regeln bzw. zu prüfen?"**
 | 8.5 | Grünflächenziffer | — | 44 |
 | — | Ausnützungsziffer | — | 45 |
 | — | Dachaufbauten | — | 46 |
-| — | Wintergärten (AZ/UeZ/BMZ) | — | 47-49 |
+| — | Wintergärten (AZ/ÜZ/BMZ) | — | 47-49 |
 
 ## Kernbegriffe im Detail (belegt)
 
@@ -294,7 +294,7 @@ hinausragen bzw. bei Flachdächern das Rückversetzungsmass unterschreiten
 (unbeheizte Wintergärten, verglaste Balkone/Veranden/Loggien, Windfänge)
 sind bis **20 %** der anrechenbaren Geschossfläche **nicht** an die AZ
 anzurechnen (bisher 10 %) und erhalten zusätzlich den **20-%-Bonus** bei
-BMZ/UeZ (s.o.) — die drei Boni sind **kumulativ** je Ziffer zu prüfen.
+BMZ/ÜZ (s.o.) — die drei Boni sind **kumulativ** je Ziffer zu prüfen.
 
 ### Städtebauliche Gestaltungsvorgabe Dachlandschaft (informell, Run 37, 2026-07-14)
 

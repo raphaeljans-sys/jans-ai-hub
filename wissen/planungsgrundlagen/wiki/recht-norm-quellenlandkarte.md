@@ -97,7 +97,7 @@ fedlex-Fassung gemappt; vor Zitat nur noch das gewünschte Stand-Datum anhängen
 - **EnG SR 730.0:** aktuelle konsolidierte Fassung "**Stand am 01.01.2026**" (u.a. Änderung
   Bundesgesetz 29.9.2023 sichere Stromversorgung, in Kraft 01.01.2025). Quelle: fedlex `cc/2017/762`.
 - **Kantonales Recht (ZH/SZ):** nicht über fedlex — ZH via `zh.ch`/LS-Sammlung, SZ via
-  `sz.ch`/`lexfind.ch`. Messweisen/Ausnuetzung → Faktenbasis Skill `baurecht`.
+  `sz.ch`/`lexfind.ch`. Messweisen/Ausnützung → Faktenbasis Skill `baurecht`.
 - Erlasse mit Dateinamen-Datum >18 Mt. ohne Prüfung gelten als **potenziell veraltet** → vor
   Zitat fedlex-Abgleich (siehe QUESTIONS B1).
 
@@ -180,9 +180,9 @@ Würdigung bleibt der Skill `baurecht`; hier der belegte Datenstand für Planung
   **nicht** erreichen, um nötige Versorgungsbauten weiter hindernisfrei zu ermöglichen.
 - **Abbruchprämie ZH ab 01.07.2026:** der Kanton bezahlt den Rückbau von Gebäuden/versiegelten
   Flächen nach Massgabe der gesetzlichen Vorgaben; **bereits erfolgte Rückbauten werden NICHT
-  entschädigt** (zh.ch). → für JANS-Umnutzungs-/Rueckbaufaelle: Prämie erst nach Inkrafttreten
+  entschädigt** (zh.ch). → für JANS-Umnutzungs-/Rückbaufälle: Prämie erst nach Inkrafttreten
   auslösen, nicht vorgreifen.
-- Praxis-Anker JANS: relevant für Umnutzungs-/Ankaufsfaelle ausserhalb Bauzone (Stall-/
+- Praxis-Anker JANS: relevant für Umnutzungs-/Ankaufsfälle ausserhalb Bauzone (Stall-/
   Ökonomiegebäude, Landwirtschaftszone) → Skills [[machbarkeit]] / `nutzungsstrategie` /
   `ankaufspruefung`. Zonenkonformität/Bestandesschutz → `baurecht`.
 - ZH-Detailseite **„Bauen ausserhalb von Bauzonen"**
@@ -321,7 +321,7 @@ abgeschlossen; Kantonsratsvorlage/Inkraftsetzung noch offen.
 
 - **Kt. ZH** wendet die **IVHB** (Interkantonale Vereinbarung Harmonisierung Baubegriffe) über
   das PBG/die ABV an — `02_Zuerich/Planung/IVHB_Leitfaden` ist die Lese-/Umsetzungshilfe.
-- **Kt. SZ** regelt die **Grenz-/Gebaeude-/Abstands-/Hoehenmasse** direkt im **PBG SZ (400.100,
+- **Kt. SZ** regelt die **Grenz-/Gebäude-/Abstands-/Höhenmasse** direkt im **PBG SZ (400.100,
   SRSZ 1.2.2025)** — §§ 60/61/62/66/67 (unten amtlich bestätigt). Die **harmonisierten
   Dichtemasse (GFZ/BMZ/AZ) sind demgegenüber noch NICHT in Kraft** (Korrektur Run 18, s. Kasten).
 
@@ -352,15 +352,15 @@ aus Screenshots `01_Gesetze/02_Schwyz`):
 | **§ 61** | **Nebenbauten / unterirdische Bauten** | Nebenbau = eingeschossig, unbewohnt (Garage/Kleinbau), **≤ 3.50 m GH / 4.50 m FH / 60 m² Grundfläche** → **Grenzabstand ≥ 2.50 m**. Unterirdische Bauten (Terrain ≤ 1 m überragt) dürfen bis 1 m an die Grenze; mit schriftl. Nachbar-Einwilligung bis an die Grenze. |
 | **§ 62** | **Ungleiche Grenzabstands-Verteilung** | bei gewahrtem **Gebäudeabstand** per **Dienstbarkeitsvertrag** ungleich verteilbar; Dienstbarkeit ins Grundbuch. → vgl. Agent `dienstbarkeiten-pruefer`. |
 | **§ 66** | **Gewässerabstand** | **§ 66 Abs. 1 amtlich:** «Bei Fliessgewässern und Seen entspricht der Gewässerabstand dem **Gewässerraum nach dem [GSchG]**.» Abs. 2: wo auf die Festlegung verzichtet wurde, **kein** Abstand. Abs. 3: Zustimmung kant. Stelle für Baubewilligungen im Gewässerraum + Unterschreitung. → Bemessung [[recht-norm-abstandsvorschriften-wald-gewaesser]] §3–4. |
-| **§ 67** | **Waldabstand (Bau↔Wald)** | **§ 67 Abs. 1 amtlich:** «Bauten und Anlagen haben gegenüber Wäldern einen **Mindestabstand von 15 m ab Waldgrenze** einzuhalten.» Abs. 2: Erschliessungs-/Gueter-/Forststrassen im Abstandsbereich zulässig. **Präzisierung Run 18:** die Ausnahme-Minima (Hauptbau 10/8, Nebenbau 6/4 m) stehen **nicht in § 67** selbst, sondern in der kant. Richtlinie/Praxis (sz.ch, einsiedeln.ch 2018) → vor Zitat verifizieren. Details → [[recht-norm-abstandsvorschriften-wald-gewaesser]] §2. |
-| **§ 35 PBV SZ (400.111)** | **Waldgrenze / Waldabstandslinie** (Bezugslinie, NICHT das Baumass) | Waldgrenzen werden nach Waldgesetzgebung festgestellt (Einzelfall auf Gesuch oder generell beim Zonenplan-Erlass). **Die Waldgrenze verläuft 2 m ausserhalb der im Waldfeststellungsverfahren vermessenen Stockgrenze.** In Grundbuch-/Zonenplaenen sind i.d.R. Stock- und Waldgrenze eingetragen; im Zonenplan kann zusätzlich eine **Waldabstandslinie** eingezeichnet werden (→ Geodaten [[kartenportale-baulinien-abstandslinien-zh]]). Screenshot `Art 35 Waldabstand.png`. § 35 PBV regelt die **Bezugslinie**, das numerische Baumass steht in **§ 67 PBG**. |
+| **§ 67** | **Waldabstand (Bau↔Wald)** | **§ 67 Abs. 1 amtlich:** «Bauten und Anlagen haben gegenüber Wäldern einen **Mindestabstand von 15 m ab Waldgrenze** einzuhalten.» Abs. 2: Erschliessungs-/Güter-/Forststrassen im Abstandsbereich zulässig. **Präzisierung Run 18:** die Ausnahme-Minima (Hauptbau 10/8, Nebenbau 6/4 m) stehen **nicht in § 67** selbst, sondern in der kant. Richtlinie/Praxis (sz.ch, einsiedeln.ch 2018) → vor Zitat verifizieren. Details → [[recht-norm-abstandsvorschriften-wald-gewaesser]] §2. |
+| **§ 35 PBV SZ (400.111)** | **Waldgrenze / Waldabstandslinie** (Bezugslinie, NICHT das Baumass) | Waldgrenzen werden nach Waldgesetzgebung festgestellt (Einzelfall auf Gesuch oder generell beim Zonenplan-Erlass). **Die Waldgrenze verläuft 2 m ausserhalb der im Waldfeststellungsverfahren vermessenen Stockgrenze.** In Grundbuch-/Zonenplänen sind i.d.R. Stock- und Waldgrenze eingetragen; im Zonenplan kann zusätzlich eine **Waldabstandslinie** eingezeichnet werden (→ Geodaten [[kartenportale-baulinien-abstandslinien-zh]]). Screenshot `Art 35 Waldabstand.png`. § 35 PBV regelt die **Bezugslinie**, das numerische Baumass steht in **§ 67 PBG**. |
 
 - **Planungs-Trap SZ:** die **kantonale** AZ-Abschaffung greift nicht automatisch auf jede
   **kommunale/Bezirks-Ordnung** durch — ältere Zonen können via **Baureglement/Quartiergestaltungsplan
   weiterhin eine Ausnützungsziffer** tragen (Benchmark Willerzell/Einsiedeln AZ 0.2, s.
   [[recht-norm-baurechtsanalysen-benchmarks]]). Vor einer SZ-Dichteberechnung immer prüfen, **welches
   Mass die einschlägige Ordnung wirklich nennt** (GFZ/BMZ vs. alte AZ).
-- Konkrete Abstands-/Hoehen-/Dichtefragen → **Skill `baurecht`** (zitiert aus dieser Sammlung +
+- Konkrete Abstands-/Höhen-/Dichtefragen → **Skill `baurecht`** (zitiert aus dieser Sammlung +
   Gesetzessammlung); hier nur belegter Wegweiser, kein Abschreiben.
 
 ## Dispensrecht / Ausnahmebewilligung → eigener Artikel
@@ -372,7 +372,7 @@ Art. 24 RPG (ausserhalb Bauzone), Beschaffung der ZH-Präzedenzfälle (Baurekurs
 
 ## 06_Richtlinien — Wegweiser (Behörden-/Fach-Richtlinien)
 
-`06_Richtlinien` sammelt die *nicht-gesetzlichen, aber praxisverbindlichen* Richtlinien/Merkblaetter,
+`06_Richtlinien` sammelt die *nicht-gesetzlichen, aber praxisverbindlichen* Richtlinien/Merkblätter,
 die ein ZH-Projekt regelmässig braucht. Kein Abschreiben — hier nur, **wo was liegt und wann man
 es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
 
@@ -385,11 +385,11 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
 | `GVZ` | KFPM30 (MFH nicht brennbar), Ausbau Grossraumbüro, RWA Parkhaus | **Brandschutz ZH (GVZ-Kennziffern)** → Skill `brandschutz` (kein Doppel) |
 | `2000 Watt` | Weissbuch, Modul Wand/Dach (XLS) | 2000-Watt-/Nachhaltigkeitsvorgaben (Stadt-ZH-Arealentwicklung) |
 | `Lignum Brandschutz` | Holzbau-Brandschutz | Holzbau → Skill `brandschutz` |
-| `SWKI` / `Suissetec` / `SECO` / `Suva` / `VSA` | HLK/Sanitaer/Arbeitssicherheit/Abwasser-Fachrichtlinien | fachplaner-spezifisch beim konkreten Gewerk |
+| `SWKI` / `Suissetec` / `SECO` / `Suva` / `VSA` | HLK/Sanitär/Arbeitssicherheit/Abwasser-Fachrichtlinien | fachplaner-spezifisch beim konkreten Gewerk |
 | `_Kanton Basel` | BS-spezifische Richtlinien | nur bei BS-Projekten |
 
 > **Sicherheits-/Absturz-Trias ZH:** `BfU` (Empfehlung/Stand der Technik) + `_Stadt Zürich`-
-> Absturzsicherungs-Richtlinie (behördlich) ergänzen sich — für Brüstungen/Gelaender beide
+> Absturzsicherungs-Richtlinie (behördlich) ergänzen sich — für Brüstungen/Geländer beide
 > heranziehen. Brandschutz immer über `GVZ`/`Lignum` → Skill `brandschutz`.
 
 ## Zitierregel `zh.ch` — die `www.`-Falle geht in BEIDE Richtungen (Wartungslauf 02, 01.08.2026)
@@ -463,7 +463,7 @@ im Zertifikat und funktionieren in beiden Formen.
 - R3: **Dispensrecht § 220 PBG erledigt 2026-07-06 (Run 15)** → eigener Artikel
   [[recht-norm-dispensrecht]]; offen: zweiter Benchmark mit *gewährtem* Dispens (Hanglage) — jetzt
   auch als ZH-Waldabstand-Ausnahmefall in [[recht-norm-abstandsvorschriften-wald-gewaesser]] notiert.
-- B4: **Wald-/Gewaesserabstand ZH + SZ konsolidiert — erledigt 2026-07-12 (Run 18)** → eigener
+- B4: **Wald-/Gewässerabstand ZH + SZ konsolidiert — erledigt 2026-07-12 (Run 18)** → eigener
   Artikel [[recht-norm-abstandsvorschriften-wald-gewaesser]]: **ZH-Waldabstand 30 m Regel-Mass /
   § 262 PBG Bauverbot / Dispens § 220 PBG (Gemeinde) + Art. 17 WaG (Forstdienst)**; **ZH-Gewässerraum
   GSchV Art. 41a/41b (GSB-abhängig, See > 0.5 ha ≥ 15 m)**; SZ § 66/67 amtlich. Speist

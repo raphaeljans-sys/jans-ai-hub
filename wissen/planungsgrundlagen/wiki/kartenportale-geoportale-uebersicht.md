@@ -595,7 +595,7 @@ kein Ersatz).
   Stadtquartier/Bezirk aufgeteilt (z.B. «Notariat, Grundbuchamt und Konkursamt Höngg-Zürich»
   ist zuständig für Stadtquartier Höngg + die Gemeinden Oberengstringen/Unterengstringen/
   Regensdorf/Weiningen). Weg: `notariate-zh.ch` → Suche «Wählen Sie Ihr Notariat» nach PLZ/
-  Ortschaft/Quartier/Strasse → zuständiges Amt mit Adresse/Oeffnungszeiten/Kontaktformular.
+  Ortschaft/Quartier/Strasse → zuständiges Amt mit Adresse/Öffnungszeiten/Kontaktformular.
   **Termine nur auf telefonische Voranmeldung**, ausser für Beglaubigungen, eidesstattliche
   Erklärungen und Bürgschaften (dort Vorsprache ohne Termin möglich); als Legitimation gelten
   amtliche Ausweise (Pass, ID, Ausländerausweis — **kein** Führerausweis). Quelle: PL-01-Ordner

@@ -29,13 +29,13 @@ die aktuelle fedlex-Fassung (SR 822.113 / SR 822.114) prüfen (Schema → [[rech
 
 | Artikel | Thema | Kernanforderung (Wortlaut/sinngemäss) |
 |---|---|---|
-| **Art. 11** | Bauweise | Aussenwände/Bedachung ausreichend witterungsgeschützt; Innenwände/Boeden bei Bedarf gegen Feuchtigkeit/Kaelte isoliert; Baumaterialien dürfen nicht gesundheitsbeeinträchtigend sein |
+| **Art. 11** | Bauweise | Aussenwände/Bedachung ausreichend witterungsgeschützt; Innenwände/Böden bei Bedarf gegen Feuchtigkeit/Kälte isoliert; Baumaterialien dürfen nicht gesundheitsbeeinträchtigend sein |
 | **Art. 12** | **Luftraum** | Pro beschäftigtem Arbeitnehmer mind. **12 m³** Luftraum, bei **ausreichender künstlicher Lüftung mind. 10 m³**; die Behörde kann mehr verlangen |
-| Art. 13 | Decken/Waende | leicht reinigbar, wenig Staub-/Schmutzablagerung |
+| Art. 13 | Decken/Wände | leicht reinigbar, wenig Staub-/Schmutzablagerung |
 | Art. 14 | Böden | wenig staubbildend, gut reinigbar, rascher Flüssigkeitsablauf, wärmeisolierend wo produktionstechnisch nötig |
-| Art. 15 | Licht | Räume/Arbeitsplaetze/Verkehrswege ausreichend natürlich oder künstlich beleuchtet; **Tageslicht soll in Arbeitsräumen vorhanden sein**; fensterlose Arbeitsräume nur mit besonderen baulichen/organisatorischen Kompensationsmassnahmen zulässig |
-| Art. 16 | Raumklima | ausreichende natürliche/kuenstliche Lüftung, Temperatur/Luftgeschwindigkeit/Feuchte gesundheitsverträglich abgestimmt |
-| Art. 17 | Lüftung | bei natürlicher Lüftung: Fassadenfenster **und** Dachlichter für Dauer- **und** Stosslüftung; bei künstlicher Lüftung Störungs-Warneinrichtung, Kontroll-/Reinigungsoeffnungen an Lüftungskanälen |
+| Art. 15 | Licht | Räume/Arbeitsplätze/Verkehrswege ausreichend natürlich oder künstlich beleuchtet; **Tageslicht soll in Arbeitsräumen vorhanden sein**; fensterlose Arbeitsräume nur mit besonderen baulichen/organisatorischen Kompensationsmassnahmen zulässig |
+| Art. 16 | Raumklima | ausreichende natürliche/künstliche Lüftung, Temperatur/Luftgeschwindigkeit/Feuchte gesundheitsverträglich abgestimmt |
+| Art. 17 | Lüftung | bei natürlicher Lüftung: Fassadenfenster **und** Dachlichter für Dauer- **und** Stosslüftung; bei künstlicher Lüftung Störungs-Warneinrichtung, Kontroll-/Reinigungsöffnungen an Lüftungskanälen |
 | Art. 18 | Luftverunreinigung | Absaugung so nah wie möglich an der Verunreinigungsquelle; ersetzte Luft ausreichend erwärmt/befeuchtet |
 
 **Kompensationsmassnahmen fensterlose Arbeitsräume (Wegleitung zu Art. 15, SECO 2012):** zulässig
@@ -99,7 +99,7 @@ noch als regulärer Arbeitsraum durchgeht oder eine Ausnahmebewilligung braucht 
 
 Das arbeitsgesetzliche **Plangenehmigungsverfahren** ist ein eigenständiges Verfahren, das bei
 plangenehmigungspflichtigen Betrieben (Art. 1 ArGV 4: industrielle Betriebe + Sägereien/
-Entsorgungs-Recyclingbetriebe/chemisch-technische Produktionsbetriebe/Steinsaegewerke) **parallel
+Entsorgungs-Recyclingbetriebe/chemisch-technische Produktionsbetriebe/Steinsägewerke) **parallel
 oder VOR** dem kommunalen Baubewilligungsverfahren läuft.
 
 - **Gesuchsstelle (Art. 37):** in den meisten Kantonen über eine kantonale Koordinationsstelle
@@ -112,15 +112,15 @@ oder VOR** dem kommunalen Baubewilligungsverfahren läuft.
   Kontakt aufnehmen — beschleunigt das Verfahren, weil Unterlagen gezielt beschafft werden
   können (analog der JANS-Praxis bei `behoerden-vorabklaerung`).
 - **Einzureichende Pläne (Art. 38):** Lageplan (≥1:1000), Grundrisse **aller** Räume inkl.
-  Aufenthalts-/Ess-/Waschraeume/Erste-Hilfe/Garderoben/Toiletten + Ausgänge/Treppen/
+  Aufenthalts-/Ess-/Waschräume/Erste-Hilfe/Garderoben/Toiletten + Ausgänge/Treppen/
   Notausgänge, Fassadenpläne mit Fensterkonstruktion, Längs-/Querschnitte (Massstab 1:50/
   1:100/1:200; **1:100 hat sich als zweckmässigster Massstab erwiesen**). Bei Umbauten
   zusätzlich die Pläne der bisherigen Anlage. Aus den Plänen müssen Arbeitsplätze,
-  Maschinen und technische Einrichtungen (Dampfkessel/Heizung/Lueftung/Farbspritzanlagen/
+  Maschinen und technische Einrichtungen (Dampfkessel/Heizung/Lüftung/Farbspritzanlagen/
   Feuerlöscheinrichtungen etc.) ersichtlich sein — auch nachträglich einreichbar, spätestens
   vor Erstellung der Einrichtung.
 - **Planbeschreibung (Art. 39):** ergänzt die Pläne um Betriebsart/Raumzweck, **Höchstzahl
-  der Arbeitnehmer je Raum**, Baumaterialien, brandgefährliche/gesundheitsschaedliche Stoffe,
+  der Arbeitnehmer je Raum**, Baumaterialien, brandgefährliche/gesundheitsschädliche Stoffe,
   Lärmquellen.
 - **Rechtsfolge bei Nichteinhaltung:** wird ein Bauprojekt ohne durchgeführtes
   Plangenehmigungsverfahren realisiert, verlangt die Behörde die **nachträgliche Durchführung**
@@ -149,14 +149,14 @@ Wegleitung verweist auf das **Behindertengleichstellungsgesetz (BehiG)**, in Kra
 zum hindernisfreien Bauen) — dieser Abschnitt liefert die **bundesrechtliche Trigger-Schwelle**
 (>50 Arbeitsplätze bzw. öffentliche Zugänglichkeit), ab der die Fachnorm SN 521 500 zwingend
 zu prüfen ist, unabhängig vom kantonalen Verfahren. **Relevanz JANS:** bei Healthcare-Bauten
-(Heime/Spitaeler fallen explizit unter den "begrenzter Personenkreis mit besonderem
+(Heime/Spitäler fallen explizit unter den "begrenzter Personenkreis mit besonderem
 Rechtsverhältnis"-Fall) ist SN 521 500 IMMER zu prüfen, unabhängig von der Arbeitsplatzzahl;
 bei Büro-/Gewerbebauten ist die 50-Arbeitsplätze-Schwelle der praktische Vorprüf-Test.
 
 ## 3. Bezug zu bereits erschlossenem Material
 
 - **Toiletten (Art. 32 ArGV 3):** Bemessungstabellen bereits in [[recht-norm-raumprogramm-referenzwerke]]
-  §3 dokumentiert (Personal-/Publikumstoiletten-Schluessel Stadt-ZH-Merkblatt).
+  §3 dokumentiert (Personal-/Publikumstoiletten-Schlüssel Stadt-ZH-Merkblatt).
 - **Ess-/Aufenthaltsräume (Art. 33 ArGV 3):** zweckmässige, ruhige, möglichst natürlich beleuchtete
   Aufenthaltsräume mit Blick ins Freie bei Bedarf (insb. Nacht-/Schichtarbeit); bei Arbeitsbereitschaft
   ohne Pausenraum sind andere Aufenthaltsräume bereitzustellen.
@@ -167,7 +167,7 @@ bei Büro-/Gewerbebauten ist die 50-Arbeitsplätze-Schwelle der praktische Vorpr
 
 ## 4. Nutzung im JANS-Workflow
 
-- **Healthcare-Wirtschaftlichkeit / Machbarkeit (Personal-/Bueroraeume in Pflegeeinrichtungen):**
+- **Healthcare-Wirtschaftlichkeit / Machbarkeit (Personal-/Büroräume in Pflegeeinrichtungen):**
   Stationszimmer, Personalräume, Verwaltungsbüros in Spital-/Pflegeheim-Projekten unterliegen Art. 12
   (Luftraum 12/10 m³ pro Person) und Art. 15 (Tageslicht-Grundsatz) — bei fensterlosen Nebenräumen
   (Lager, Technik ohne Daueraufenthalt) greift die ArGV 3 nicht, sobald es sich nicht um einen
