@@ -2,6 +2,22 @@
 
 Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeitet.
 
+## Offen (03.08.2026)
+
+0. **`wissens-chef` laeuft, liefert aber seit dem 31.07.2026 nichts Sichtbares.** Befund der
+   Verifikations-Rotation `methoden-radar` vom 03.08.2026 (Registerzeile `Methode SPW`, wo der
+   Task als eines von zwei Aufsichtsmitteln des Wissens-Layers gefuehrt ist). Der Scheduled Task
+   ist enabled=true, taeglich 23:10, `lastRunAt` 02.08.2026 23:12 — aber der letzte Bericht ist
+   **Run 22 vom 31.07.2026 23:48** (`wissen/koordination/outputs/2026-07-31_wissens-chef-run22.md`).
+   Fuer die Laeufe vom 01.08. und 02.08. fehlt jeder Liefer-Beleg: kein Run-Bericht
+   (`find . -iname "*wissens-chef*" -newermt "2026-08-01"` → leer), kein CHANGELOG-Eintrag in
+   `wissen/koordination/CHANGELOG.md` (dort stehen fuer den 01.08. nur der Wissenscheck-Sammellauf
+   und Synergie-Lauf 03), keine Journalzeile in `logbuch/laeufe/260801|260802|260803-laeufe.jsonl`.
+   Zu klaeren: bricht der Lauf ab (Session-/Speicher-/Locale-Ursache — der Wrapper `claude-run.sh`
+   war bis 01.08. ungehaertet, siehe Report `2026-08-01_locale-regression…`), oder laeuft er still
+   ohne Ertrag? **Nichts deaktiviert und nichts angetastet** (Vorschrift des Loops: nur melden).
+   Entscheid ueber Diagnose oder Rueckbau liegt bei Raphael.
+
 ## Offen (29.07.2026)
 
 0a. **Quelle der «Methode SPW» nicht identifiziert.** Kanal «bettercreating…» (URL

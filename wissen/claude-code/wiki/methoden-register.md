@@ -1,7 +1,7 @@
 ---
 title: Methoden-Register — Quellen aus «00 Prompteingaben» und ihr Implementationsstand
 status: established
-last_updated: 2026-07-30
+last_updated: 2026-08-03
 sources: [OneDrive AD - 01 Geschaeftsfuerung/JANS AI/00 Prompteingaben/ (Vollanalyse 29.07.2026, Ordner am 30.07. von «03» auf «00» umbenannt), scripts/methoden-scan.sh]
 links: [[methode-spw-wissensbasis]], [[lecture-260729-anthropic]], [[INDEX]]
 ---
@@ -42,7 +42,7 @@ Training liefert?) und der Verifikations-Stempel gesetzt.
 | Ordner (Quelle) | Inhalt | Destillat | Implementation im Hub | Training/Ueberpruefung | Status | Letzte Verifikation |
 |---|---|---|---|---|---|---|
 | `3 EASY STEPS - the Spec` | 34 Screenshots, YT Austin Marchese / Karpathy «The Spec» | `wissen/spec/` (5 Wiki-Artikel, Transkript in raw) | Rule `spec-methode` (Gate, immer aktiv) + Skill `spec` | Task `spec-training` (seit 26.07. Ereignis-Trigger bei realer Spec-Anwendung) | implementiert | **2026-07-30 geprueft, ohne Befund**: `rules/spec-methode.md` + `skills/spec/SKILL.md` + 5 KB-Artikel vorhanden; Registry `spec-training` enabled=false MIT dokumentiertem Entscheid (Raphael 26.07., Registry-Nachzug 27.07.) = kein stiller Ausfall; Liefer-Beleg `wissen/spec/CHANGELOG.md` 29.07. (Wissens-Chef Run 20 + Programm-Statuskopf) |
-| `Methode SPW` | 30 Screenshots, YT «Second Brain / Claude als Bibliothekar» (Karpathy-Ansatz) | [[methode-spw-wissensbasis]] (nachgeholt 29.07.) | Wissens-Layer `wissen/` + Rule `wissens-bibliothekar` + Skill `wissenscheck` (7 Audits) | Task `wissenscheck-monatlich` (1. des Monats) + `wissens-chef` (taeglich, Cross-KB) | implementiert | 2026-07-29 (dieser Lauf) |
+| `Methode SPW` | 30 Screenshots, YT «Second Brain / Claude als Bibliothekar» (Karpathy-Ansatz) | [[methode-spw-wissensbasis]] (nachgeholt 29.07.) | Wissens-Layer `wissen/` + Rule `wissens-bibliothekar` + Skill `wissenscheck` (7 Audits) | Task `wissenscheck-monatlich` (1. des Monats) + `wissens-chef` (taeglich, Cross-KB) | implementiert, **ein Befund** | **2026-08-03 geprueft, ein Befund**: (a) Implementation vollstaendig vorhanden — `rules/wissens-bibliothekar.md`, `skills/wissenscheck/SKILL.md` («Die sieben Audits»), `wissen/WISSEN-CLAUDE.md`, 19 KBs, Destillat [[methode-spw-wissensbasis]]; (b) beide Tasks in der Registry enabled=true (`wissenscheck-monatlich` letzter Lauf 01.08., naechster 01.09.; `wissens-chef` letzter Lauf 02.08. 23:12); (c) Liefer-Beleg `wissenscheck-monatlich` **belegt** (20 Health-Check-Reports `outputs/2026-08-01_health-check.md` quer ueber alle KBs plus CHANGELOG-Zeilen). **BEFUND `wissens-chef`: zwei Laeufe ohne Liefer-Beleg.** Letzter Bericht ist Run 22 vom 31.07.2026 23:48 (`wissen/koordination/outputs/2026-07-31_wissens-chef-run22.md`); fuer 01.08. und 02.08. existiert weder ein Run-Bericht (`find -iname "*wissens-chef*" -newermt 2026-08-01` leer) noch ein CHANGELOG-Eintrag in `wissen/koordination/CHANGELOG.md` (dort nur Wissenscheck-Sammellauf und Synergie-Lauf 03) noch eine Journalzeile in `logbuch/laeufe/2608{01,02,03}-laeufe.jsonl`. Nicht deaktiviert, nicht angetastet — Eintrag in QUESTIONS + hub-chef-Briefing |
 | `260729 Antrophic Lecture` | 32 Slides, Anthropic-Lecture Claude Code | [[lecture-260729-anthropic]] + [[kontext-architektur]] | Rule `auto-verbesserungen` 260729 + Kontext-Diaet 2.0 + `scripts/claude-run.sh` + `connectors/README.md` | Betriebsaufsicht `vollgas-fruehwarnung` (Lauf-Journal) | implementiert | 2026-07-29 (dieser Lauf) |
 | `260725 Archetypen` | 5 Screenshots, YT-Short @niklasvolland «5 Tech-Jobs» (Prototyper/Builder/Sweeper/Grower/Maintainer) | `docs/konzepte/260729-Rollen-Taxonomie/` | Rule `rollen-taxonomie` + `logbuch/rollen/rollen-map.tsv` + Scripts `rollen-bilanz.sh`, `nutzungs-radar.sh`, `schutzmechanik-selbsttest.sh` | Erstmessung 29.07.2026; weitere Bilanzen via Rollen-Scripts | implementiert | 2026-07-29 (dieser Lauf) |
 | `Agenten` | 1 PNG (10.03.2026): 4-Agenten-Blaupause (Indexer, Baueingabe-Check, Brandschutz, QA-Trace). Die 2 DOCX zur Drei-Marken-/Website-Strategie am 29.07.2026 auf Entscheid Raphael GELOESCHT (Idee verworfen) | Blaupause unten destilliert | Skill-Kandidat aufgenommen (Entscheid Raphael 29.07.2026); teilabgedeckt durch `auflagebereinigung` (deckt NACH dem Entscheid) | via Verifikations-Rotation | Skill-Kandidat, Umsetzung offen | 2026-07-29 |
@@ -82,7 +82,8 @@ liegt beim hub-chef-Briefing (logbuch), Entscheid ueber Bauzeitpunkt bei Raphael
 
 ## Verifikations-Rotation
 
-Naechste Zeile in der Rotation: **`Methode SPW`** (Stand 30.07.2026).
+Naechste Zeile in der Rotation: **`260729 Antrophic Lecture`** (Stand 03.08.2026;
+`Methode SPW` am 03.08.2026 geprueft, Befund `wissens-chef` siehe Registerzeile).
 
 Der Loop prueft pro Lauf ohne neues Material genau EINE Zeile mit Status
 «implementiert», reihum von oben nach unten: existieren die genannten Rules/Skills/

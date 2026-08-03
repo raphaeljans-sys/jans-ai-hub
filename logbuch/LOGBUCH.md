@@ -5,6 +5,34 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-03 — Methoden-Radar 21:02 (Wochenlauf, kein neues Material, ein Verifikationsbefund)
+
+**Vorfilter ohne Delta:** `scripts/methoden-scan.sh` meldet 8 Ordner unveraendert im
+OneDrive-Quellordner «00 Prompteingaben» (Exit 0). Kein neues Methoden-Material, also
+Verifikations-Rotation statt Destillation.
+
+**Geprueft (Rotationszeile `Methode SPW` → Wissens-Layer):** Implementation vollstaendig
+vorhanden (`rules/wissens-bibliothekar.md`, `skills/wissenscheck/SKILL.md` mit den sieben
+Audits, `wissen/WISSEN-CLAUDE.md`, 19 KBs, Destillat `methode-spw-wissensbasis`). Beide
+Aufsichtsmittel in der Registry enabled=true. `wissenscheck-monatlich` liefert nachweislich:
+20 Health-Check-Reports vom 01.08.2026 quer ueber alle KBs.
+
+**OFFENER PUNKT fuer das hub-chef-Briefing — `wissens-chef` laeuft, liefert aber nichts
+Sichtbares.** Der Task ist taeglich 23:10 aktiv, `lastRunAt` 02.08.2026 23:12; der letzte
+Bericht ist Run 22 vom 31.07.2026 23:48. Fuer die Laeufe vom 01.08. und 02.08. fehlt jeder
+Liefer-Beleg: kein Run-Bericht in `wissen/koordination/outputs/`, kein CHANGELOG-Eintrag,
+keine Journalzeile. Moegliche Spur: der Wrapper `claude-run.sh` war bis zur Haertung vom
+01.08.2026 ohne Locale-Schutz (Report
+`wissen/claude-code/outputs/2026-08-01_locale-regression-wrapper-erbt-keine-haertung.md`).
+Der Loop hat nichts deaktiviert und nichts umgestellt — das ist Vorschrift. Entscheid ueber
+Diagnose oder Rueckbau bei Raphael. Belegt in
+`wissen/claude-code/wiki/QUESTIONS.md` (Punkt 0, 03.08.2026) und in der Registerzeile
+`Methode SPW` in `wissen/claude-code/wiki/methoden-register.md`.
+
+**Naechste Rotationszeile:** `260729 Antrophic Lecture`.
+
+---
+
 ## 2026-08-03 — Abo-Auslastungs-Check Mac Mini 12:22 (wöchentlich, Ampel GRÜN am frischen Fenster, aber ROT-Nachlese zum abgelaufenen)
 
 **Messung (einmalig, Token-Quelle Keychain mit gesicherter Rotation):** Woche alle Modelle

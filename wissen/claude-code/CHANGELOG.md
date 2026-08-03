@@ -2,6 +2,20 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-03 (methoden-radar, Wochenlauf 21:02) — kein neues Material, Rotationsbefund `wissens-chef`
+
+- **[kein Delta] Vorfilter Exit 0**, 8 Ordner unveraendert im Quellordner «00 Prompteingaben» —
+  keine Destillation, stattdessen Verifikations-Rotation.
+- **[geprueft, ohne Befund] Rotationszeile `Methode SPW`** (Wissens-Layer): Rule
+  `wissens-bibliothekar`, Skill `wissenscheck` (sieben Audits), `wissen/WISSEN-CLAUDE.md`, 19 KBs
+  und das Destillat [[methode-spw-wissensbasis]] vorhanden; `wissenscheck-monatlich` enabled und
+  mit belegter Lieferung (20 Health-Check-Reports vom 01.08.2026).
+- **[BEFUND] `wissens-chef` laeuft ohne sichtbaren Ertrag.** Task enabled, `lastRunAt` 02.08.
+  23:12 — letzter Bericht aber Run 22 vom 31.07. 23:48. Fuer 01.08. und 02.08. kein Run-Bericht,
+  kein CHANGELOG-Eintrag in `wissen/koordination/`, keine Journalzeile. Nichts deaktiviert
+  (Vorschrift); Eintrag in [[QUESTIONS]] Punkt 0 und im Logbuch fuer das hub-chef-Briefing.
+- **[Register]** Zeile `Methode SPW` gestempelt, Rotation weiter auf `260729 Antrophic Lecture`.
+
 ## 2026-08-01 (Hub-Chef 08:39) — Locale-Regression: neuer Wrapper erbt keine Härtung
 
 - **[befund, Ursache behoben] Report abgelegt:** `outputs/2026-08-01_locale-regression-wrapper-erbt-keine-haertung.md`.
