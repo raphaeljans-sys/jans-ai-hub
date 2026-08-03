@@ -39,7 +39,7 @@ Fassung (Nachtrag 82, Stand 1.10.2013). Konkordanz der hier relevanten Normen:
 > Zuordnungshilfe des Bibliothekars, keine amtliche Konkordanz der Staatskanzlei. Der amtliche
 > Teil dieser Datei beginnt erst unter **«TEIL A»**. Wer aus dieser Tabelle zitiert, zitiert eine
 > Interpretation — vor jeder Verwendung am Volltext gegenlesen
-> (`raw/260730_amtlich_zh_wsg.md`, `raw/260730_amtlich_zh_wsv.md`).
+> (`raw/260803_amtlich_zh_wsg.md`, `raw/260803_amtlich_zh_wsv.md`).
 > **Anlass der Warnung:** genau das ist am 18.07.2026 passiert (Wissens-Chef Run 8) — die Tabelle
 > wurde als «amtliche Konkordanztabelle» zitiert, ihre erste Zeile war falsch, und der Fehler
 > wanderte in drei KBs bis in die Rechtsgrundlagen-Spalte von OEREB-Thema 190.

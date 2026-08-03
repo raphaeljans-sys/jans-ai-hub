@@ -13,7 +13,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   aufgehobenen Erlasses.** Punkt 9 der Prioritaet (d) lautete «**Strassenabstandsverordnung
   (StrAV)** … Volltext fehlt in `raw/` — beschaffen». Die StrAV vom 19.04.1978 ist per **01.06.2020
   aufgehoben** (Verkehrserschliessungsverordnung, Dispositiv IV lit. a), und der Nachfolgeerlass
-  liegt seit dem **30.07.2026** in dieser KB — beschafft im Zuge derselben Triage, die den
+  liegt seit dem **03.08.2026** in dieser KB — beschafft im Zuge derselben Triage, die den
   KB-weiten StrAV-Sweep (Batch T0) angeordnet hatte. Der Sweep hatte Curriculum und QUESTIONS nie
   erreicht. Der naechste Lauf haette Arbeitszeit auf die Beschaffung eines toten Erlasses verwendet.
   Zweiter Beleg nach Run 21 dafuer, dass Wissensfehler nicht nur Inhalte, sondern **Auftraege**
@@ -46,7 +46,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 - **[offen]** Normierungsort der 50-m²-Grenze in der revBZO nur über die Bemerkungsspalte belegt
   → QUESTIONS-Eintrag; Artikel-Konkordanz alt/neu (Batch T1 der Triage 30.07.) weiter ausstehend.
 
-## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — überholter «Kostenpflicht»-Status bei VSS 40 291 geschlossen, Parkierung querverlinkt, Absturzsicherung angemeldet
+## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — überholter «Kostenpflicht»-Status bei VSS 40 291 geschlossen, Parkierung querverlinkt, Absturzsicherung angemeldet
 - **[veraltetes] `wiki/fahrzeugabstellplaetze-und-parkierung.md`:** Die Aussage, die
   Rampenneigungs-Kennwerte der VSS 40 291 blieben «**needs-verification wegen Kostenpflicht**» und
   der Normtext sei vor einer Projektierung käuflich zu beziehen, war seit ihrer Eintragung
@@ -63,7 +63,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   das Quergefälle) und das **SIA-500-Korrigendum C3** (1.10.2013) — anderer Sachverhalt, in diesem
   Lauf nicht geklärt.
 - **[frontmatter]** `quellen` um das normen-Destillat ergänzt, `verifiziert` um einen Eintrag
-  2026-07-30 (Wissens-Chef Run 21) nachgeführt; `last_updated` stand bereits auf 2026-07-30.
+  2026-08-03 (Wissens-Chef Run 21) nachgeführt; `last_updated` stand bereits auf 2026-08-03.
 - **[querverlinkung] `wiki/fahrzeugabstellplaetze-und-parkierung.md` (Schluss):** «Siehe auch»-Block
   um den Verweis auf die **führende** Geometrie-Fundstelle in `normen` und ergänzend auf den
   planerischen Kontext `wissen/planungsgrundlagen/wiki/recht-norm-tiefgarage-erschliessung.md`
@@ -100,7 +100,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 - **Geänderte Dateien:** `wiki/fahrzeugabstellplaetze-und-parkierung.md`,
   `wiki/ausnahmebewilligung-und-bestandesschutz.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`.
 
-## 2026-07-30 (Buch-Run 70, Festigungsmodus) — Verdichtungs-Drift in [[fahrzeugabstellplaetze-und-parkierung]] korrigiert
+## 2026-08-03 (Buch-Run 70, Festigungsmodus) — Verdichtungs-Drift in [[fahrzeugabstellplaetze-und-parkierung]] korrigiert
 - **Modell-D-Wortlautabgleich** §§ 242-248 PBG (`raw/260607_amtlich_zh_pbg.md`, Fassungsstand
   weiterhin Nachtrag 133) gegen den Wiki-Artikel `wiki/fahrzeugabstellplaetze-und-parkierung.md`
   (ältester `verifiziert`-Kern, 2026-07-12) — ältester noch unverifizierter Kandidat laut
@@ -158,7 +158,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   noch nicht vollzogen — Teil-Erledigung in `wiki/QUESTIONS.md` vermerkt.
 
 
-## 2026-07-30 — Wissens-Chef Run 19 (Cross-KB): erste Gegenlesung am neuen WsG-Volltext
+## 2026-08-03 — Wissens-Chef Run 19 (Cross-KB): erste Gegenlesung am neuen WsG-Volltext
 - **[korrektur, materiell] Gewaesserraum-Festlegung stand auf § 19 WsG — richtig ist § 18 Abs. 1 WsG.**
   `wiki/abstaende-und-hoehen.md` fuehrte «§ 15 Abs. 1 HWSchV, heute § 19 WsG». Das Wort
   «grundeigentuemerverbindlich» steht woertlich und ausschliesslich in **§ 18 Abs. 1 WsG** (Randtitel
@@ -181,10 +181,10 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   gebaeuden-teil2d.md` (Abschnitt Naeherbaurecht) — nicht zitierfaehig, haben bereits einen
   Lese-Agenten fehlgeleitet; (b) der Haupt-/Anhang-Vorbehalt zu **§ 260 Abs. 3 PBG** ist im
   Schwester-Artikel gesetzt, im `established`-Leit-Artikel `abstaende-und-hoehen` nicht.
-- Bericht: `koordination/outputs/2026-07-30_wissens-chef-run19.md`.
+- Bericht: `koordination/outputs/2026-08-03_wissens-chef-run19.md`.
 
 
-## 2026-07-30 — Buch-Run 71 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass
+## 2026-08-03 — Buch-Run 71 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass
 - **[korrektur, materiell] Art. 679 Abs. 2 ZGB war mit invertierter Polarität zitiert.** Der Artikel
   begründete «eine Baubewilligung entbindet nicht von privatem Nachbarrecht» mit Abs. 2 und der
   Aussage «Ansprüche können bestehen, auch wenn alle öffentlich-rechtlichen Vorschriften eingehalten
@@ -221,14 +221,14 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   Aufhebungsvermerke an 6 Fundorten gesetzt. **Offen:** welcher Erlass sie 2022 ablöste (die WsV
   enthält keine Aufhebungsklausel zur KGSchV); § 92 WsV trägt die Erdwärme-Materie des § 35 KGSchV,
   ist aber Indiz, nicht Aufhebungsbeleg.
-- **[beschaffung] P1 aus Wissens-Chef Run 18 geschlossen:** `raw/260730_amtlich_zh_wsg.md` (WsG,
-  LS 724.1, Nachtrag 133) und `raw/260730_amtlich_zh_wsv.md` (WsV, LS 724.11, Nachtrag 133) angelegt.
+- **[beschaffung] P1 aus Wissens-Chef Run 18 geschlossen:** `raw/260803_amtlich_zh_wsg.md` (WsG,
+  LS 724.1, Nachtrag 133) und `raw/260803_amtlich_zh_wsv.md` (WsV, LS 724.11, Nachtrag 133) angelegt.
   **§ 126 WsG am eigenen Volltext gegengelesen** — Aufhebung von EG GSchG und WWG jetzt KB-intern
   belegt. Die zwei offenen §-Zuordnungen (§ 15 Abs. 3 / § 36 Abs. 2 EG GSchG) bleiben an beiden
   Volltexten unauffindbar und ausdrücklich offen.
 - **[frage] Neu aufgeworfen:** ist SIA 380/1 noch «teilverbindlich»? Am geltenden BBV-I-Anhang nicht
   mehr belegbar — Cross-KB-Frage an `energie`/`normen`.
-- **[drills]** 4 neue Karten. **[report]** `outputs/2026-07-30_buch-run71.md`.
+- **[drills]** 4 neue Karten. **[report]** `outputs/2026-08-03_buch-run71.md`.
 - **[leitplanke, neu]** Fassungsstand-Prüfung bei **Verweisnormen zweiteilig** führen: Erlass **und**
   verwiesene Anhangsziffer altern getrennt. Ein Check auf Erlassebene hätte die BBV-I-Drift nicht
   gefunden (BBV I selbst ist unverändert Nachtrag 133 in Kraft).

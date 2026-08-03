@@ -178,7 +178,7 @@ hier «§ 19 WsG». Richtig ist **§ 18 Abs. 1 WsG**, Randtitel «b. Festlegung�
 Gewässerraum grundeigentümerverbindlich fest und hält ihn in einer Gewässerraumkarte fest.»
 **§ 19 WsG** trägt den Randtitel «c. Berücksichtigung der baulichen Gegebenheiten in dicht
 überbauten Gebieten» und regelt die **Anpassung**, nicht die Festlegung — siehe den eigenen
-Absatz dazu unten. Beleg: `raw/260730_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit
+Absatz dazu unten. Beleg: `raw/260803_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit
 01.06.2026.)*
 **Anpassung in dicht überbauten Gebieten — § 19 WsG:** Soweit keine Gründe des Hochwasserschutzes
 entgegenstehen, kann der Gewässerraum in dicht überbauten Gebieten den baulichen Gegebenheiten

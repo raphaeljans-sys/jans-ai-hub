@@ -9,10 +9,10 @@ inkraft: 2020-06-01
 ersetzt: "Strassenabstandsverordnung (StrAV), LS 700.4 vom 19.04.1978 — AUFGEHOBEN per 01.06.2020 (zhlex-Erlassseite, Metadatenblock: Aufhebungsdatum 01.06.2020, letzte Fassung Nachtrag 069 «in Kraft bis 01.06.2020»)"
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung/zhlex-ls/erlass-700_4-1978_04_19-1978_07_01-069.html
 pdf_url: https://www.zh.ch/bin/zhweb/publish/regierungsratsbeschluss-unterlagen./2019/393/VerkehrserschliessungsV_17.4.19.pdf
-abgerufen: 2026-07-30
+abgerufen: 2026-08-03
 fassungsstand: "Erlasstext der RRB-Vorlage vom 17.04.2019 (in Kraft seit 01.06.2020). ACHTUNG: dies ist die Erlassfassung, NICHT die konsolidierte LS-Fassung — vor Zitat in einem ausgehenden Dokument gegen die aktuelle konsolidierte Fassung auf zhlex gegenpruefen (allfaellige Nachtraege seit 2020)."
 kernparagraphen: "§ 23 Sichtbereiche dauernd freizuhalten · § 26 Abstaende von Mauern und Einfriedigungen (Abs. 1 lit. a offene Einfriedigungen / lit. b bis 0,8 m in allen Strassenbereichen / lit. c ueber 0,8 m an geraden Strecken und Kurven-Aussenseite, je AN der Strassengrenze; Abs. 2 bis 0,5 m bei fehlendem Fussgaengerschutz) · § 27 Abstaende von Pflanzen (4 m Baeume, 0,5 m Straeucher/Hecken, Reduktion auf 2 m bei Quartierstrassen/Ortsbild) · § 28 Innenseite von Kurven · § 29 Befreiungen"
-beschafft_von: "Buch-Run 71 / Triage Reglemente-Ordner 2414 Thalwil (30.07.2026) — die KB und der Begleitbeschrieb Bohlweg 3 zitierten die aufgehobene StrAV"
+beschafft_von: "Buch-Run 71 / Triage Reglemente-Ordner 2414 Thalwil (03.08.2026) — die KB und der Begleitbeschrieb Bohlweg 3 zitierten die aufgehobene StrAV"
 lizenz: Amtlicher Text — gemeinfrei (Art. 5 URG)
 konvertierung: pdftotext -layout
 ---

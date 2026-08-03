@@ -36,5 +36,5 @@ Begleitbeschrieb 2414 (Ziffer 4.5): 34.0 m² gesamt = 5.2 % < 7 % (alt) und 26.1
   verifiziert — nur die Bemerkungsspalte belegt sie. → QUESTIONS.
 - Die vollständige Artikel-Konkordanz alt/neu (Batch T1 der Triage vom 30.07.) steht aus.
 
-Verwandt: `2026-07-30_triage-reglemente-2414-thalwil.md` (StrAV-Befund, Synopse als
+Verwandt: `2026-08-03_triage-reglemente-2414-thalwil.md` (StrAV-Befund, Synopse als
 raw-Kandidat), [[zonenkonformitaet]], [[gebaeudearten-und-abstandssystem]].

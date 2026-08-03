@@ -1,6 +1,6 @@
 # Triage — Reglemente-Ordner 2414 Thalwil / Bohlweg 3
 
-**Auftrag Raphael, 30.07.2026:** «durchforsten und schauen, was in das Baurecht-Wiki gehört».
+**Auftrag Raphael, 03.08.2026:** «durchforsten und schauen, was in das Baurecht-Wiki gehört».
 **Umfang:** 243 Dateien (ohne `.DS_Store`), 13 Top-Ordner, ca. 250 MB.
 **Quelle:** Mac Mini, OneDrive `…/AR - 01 Projekte/2414 THALWIL/06 Reglemente`.
 **Methode:** vollständiges Inventar, dann Volltext-Extraktion der Schlüsseldokumente
@@ -22,7 +22,7 @@ Ordnungsnummer LS 700.4).
 
 Betroffen sind **drei** Bestände gleichzeitig:
 
-1. **Der Begleitbeschrieb Projektänderung Bohlweg 3 vom 30.07.2026** (Ziffer 5.2) stützt die
+1. **Der Begleitbeschrieb Projektänderung Bohlweg 3 vom 03.08.2026** (Ziffer 5.2) stützt die
    ganze strassenrechtliche Argumentation auf «§ 240 PBG i.V.m. StrAV» und zitiert
    §§ 11/12/16 StrAV. Das Dokument geht an die Gemeinde.
 2. **Das Merkblatt der Gemeinde Thalwil** «Abstände von Pflanzen, Mauern und Einfriedungen»
@@ -32,7 +32,7 @@ Betroffen sind **drei** Bestände gleichzeitig:
    ohne Fassungsvermerk.
 
 **Erledigt in diesem Lauf:** amtlicher Volltext der Nachfolgeverordnung beschafft und abgelegt
-als `raw/260730_amtlich_zh_verkehrserschliessungsv.md`.
+als `raw/260803_amtlich_zh_verkehrserschliessungsv.md`.
 
 ### Und das ist inhaltlich eine gute Nachricht für den Fall Bohlweg 3
 

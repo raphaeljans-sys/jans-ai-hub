@@ -27,14 +27,17 @@ der 4 offenen Verfahren ein Jurybericht eintrifft (2501: Bericht seit Sommer 202
 angekuendigt, 7. Pruefung 22.07.2026 weiterhin ohne Download).
 
 **Vertiefungsstand (Etappe 4, ab 03.08.2026):** Die Etappe 4 gleicht die ungleiche
-Tiefe je Dossier an. Dabei hat sich der Ausgangsbefund der Etappe (Nennungszaehlung
-je Dossier) als Messung der **Quellenlage**, nicht der Bearbeitungstiefe erwiesen:
-die drei am duennsten vertretenen Teilnahmen (2104, 2207, 2503) sind genau jene
-ohne Jury-Urteil im Bestand — dort ist kein Delta bildbar, unabhaengig vom Aufwand.
-Vertieft ist bisher **2408 BIWAK/Grassen** (Lauf 01, 03.08.2026): die bis dahin
-unausgewerteten Kapitel des Juryberichts (Kap. 4.3 «Wuerdigung», die Wuerdigungen
-des 2. und 3. Rangs, die Planbeilagen der engeren Wahl) tragen die Befunde 12 und 13
-sowie Schaerfungen an den Befunden 2, 3 und 6.
+Tiefe je Dossier an. Dabei hat sich der Ausgangsbefund der Etappe (Nennungszählung
+je Dossier) als Messung der **Quellenlage** erwiesen, nicht der Bearbeitungstiefe:
+alle drei am dünnsten vertretenen Teilnahmen (2104, 2207, 2503) gehören zu den vier
+Dossiers ohne Jury-Urteil im Bestand (2104, 2207, 2501, 2503) — dort ist ein Delta
+strukturell nicht bildbar, unabhängig vom Aufwand. Die beiden Mengen sind nicht
+deckungsgleich: 2501 hat ebenfalls kein Jury-Urteil, wird aber häufiger genannt.
+Vertieft ist bisher **2408 BIWAK/Grassen** (Lauf 01, 03.08.2026) — die einzige der
+fünf V1-Teilnahmen mit auswertbarem Jurybericht: die bis dahin unausgewerteten
+Kapitel (Kap. 4.3 «Würdigung», die Würdigungen des 2. und 3. Rangs, die Planbeilage
+«Pläne engere Auswahl») tragen die Befunde 12 und 13 sowie Schärfungen an den
+Befunden 2, 3 und 6.
 
 ## Befund 1 — Die JANS-Staerken sind konstant: Setzung und konstruktive Klarheit
 
@@ -66,18 +69,19 @@ woanders.
   Leben der Menschen im Zentrum Guggerbach hineinversetzt» (Bericht S. 19) — beim
   eigenen Beitrag dagegen «zu viele Verkehrsflaechen», «schlecht moeblierbare
   Raeume» (S. 50).
-- BIWAK/Grassen (2408): das Preisgericht benennt in der Schluss-Wuerdigung selbst,
+- BIWAK/Grassen (2408): das Preisgericht benennt in der Schluss-Würdigung selbst,
   worum die zwei Jurytage inhaltlich kreisten — «zentrale Fragen, wie z.B. nach dem
-  Standard, dem Komfort und vor allem nach dem Raumbedarf einer Huette resp. eines
-  Biwaks» sowie «die Anforderungen nach Raumsuffizienz, logischen Betriebsablaeufen
+  Standard, dem Komfort und vor allem nach dem Raumbedarf einer Hütte resp. eines
+  Biwaks» sowie «die Anforderungen nach Raumsuffizienz, logischen Betriebsabläufen
   sowie die zentrale Frage nach dem Wesen eines heutigen Biwaks» (Bericht S. 19/36).
-  Architektonischer Ausdruck taucht in dieser Selbstbeschreibung des Entscheids gar
-  nicht auf. Zusaetzlich belegt der Ausscheidungsmodus, wo das eigene Delta NICHT
-  lag: der 1. Rundgang schied «aufgrund wichtiger ortsbaulicher, landschaftlicher,
-  betrieblicher oder funktionaler Aspekte» aus (S. 9/36) — «-Babuschka-» ueberstand
-  ihn; ausgeschieden wurde es erst im 2. Rundgang, in dem die Projekte «vertieft aus
-  funktional-betrieblicher wie auf architektonisch-konstruktiver Sicht» geprueft
-  wurden (S. 10/36).
+  Genannt werden daneben «der Umgang mit dem alpinen Kontext und dem Bestand, die
+  landschaftliche Wirkung wie auch die gesellschaftliche Wirkung» (ebd.) — nicht aber
+  Gestaltung oder architektonischer Ausdruck. Zusätzlich grenzt der Ausscheidungsmodus
+  ein, wo das eigene Delta nicht lag: der 1. Rundgang schied «aufgrund wichtiger
+  ortsbaulicher, landschaftlicher, betrieblicher oder funktionaler Aspekte» aus
+  (S. 9/36–10/36) — «-Babuschka-» überstand ihn; ausgeschieden wurde es erst im
+  2. Rundgang, in dem die Projekte «vertieft aus funktional-betrieblicher wie auf
+  architektonisch-konstruktiver Sicht» geprüft wurden (S. 10/36).
 - **Regel:** Die Jury kauft den Betrieb/die Nutzerlogik, die Architektur ist
   Eintrittsbedingung. Jede betrieblich-funktionale Zielvorgabe des Programms
   (paedagogisch, medizinisch, pflegerisch) ist ein hartes Pruefkriterium erster
@@ -93,15 +97,15 @@ Grundriss mit umlaufenden Raumverbindungen» wurde als «spannender Ansatz»
 anerkannt, aber verworfen, weil er «dem zukuenftigen Nutzer keinen Mehrwert»
 brachte (Bericht S. 50) — waehrend der Sieger «verschiedene Zirkulationsschlaufen»
 UND moeblierbare Raeume gleichzeitig lieferte (S. 18). BIWAK (2408) liefert dazu
-den Preis-Nachweis am drittrangierten «TUMI»: dessen kaskadenfoermige Raumerfindung
-«fasziniert, ist jedoch nicht ohne Preis. Die formale Eigenstaendigkeit der
-Innenstruktur bedingt zahlreiche geometrische spezifische Loesungen von den
+den Preis-Nachweis am drittrangierten «TUMI»: dessen kaskadenförmige Raumerfindung
+«fasziniert, ist jedoch nicht ohne Preis. Die formale Eigenständigkeit der
+Innenstruktur bedingt zahlreiche geometrische spezifische Lösungen von den
 Einbauten, den Matratzen bis hin zu der Fassadengestaltung» — was die Jury direkt in
-zwei Abzuege uebersetzt: Kosten «im oberen Drittel im Quervergleich» und «fehlende
-Flexibilitaet der Raeume fuer spaetere Anpassungen» (Bericht S. 26/36). **Regel-
-Zusatz:** eine raeumliche Geste kostet nicht nur dann, wenn ihr der Nutzen fehlt,
-sondern auch dann, wenn ihr Nutzen echt ist, sie aber die **Dichte an Sonderloesungen**
-erhoeht — Sonderloesungen schlagen als Kosten und als verlorene Anpassbarkeit zurueck.
+zwei Abzüge übersetzt: Kosten «im oberen Drittel im Quervergleich» und «fehlende
+Flexibilität der Räume für spätere Anpassungen» (Bericht S. 26/36). **Regel-
+Zusatz:** eine räumliche Geste kostet nicht nur dann, wenn ihr der Nutzen fehlt,
+sondern auch dann, wenn ihr Nutzen echt ist, sie aber die **Dichte an Sonderlösungen**
+erhöht — Sonderlösungen schlagen als Kosten und als verlorene Anpassbarkeit zurück.
 **Regel:** Kein Luftraum,
 keine Geste, keine „interessante" Grundrissfigur ohne zugewiesene, benennbare
 Nutzung — ein Konzept, das nur der Idee dient und dem Nutzer nichts bringt, wird
@@ -159,40 +163,53 @@ Ressourcendebatte) praemiert die Jury tendenziell den kleineren Bestandseingriff
 Bei Ersatz ikonischer/vorhandener Bauten zusaetzlich: die bestehende Typologie
 weiterentwickeln, Konstruktion auf einen Elementtyp verdichten statt neu erfinden.
 
-**Praezisierung aus der Vertiefung 2408 (03.08.2026) — zwei bisherige Kurzschluesse
-korrigiert:**
+**Präzisierung aus der Vertiefung 2408 (03.08.2026) — zwei bisherige Kurzschlüsse
+korrigiert (beide Refuter-geprüft, Korrekturen eingearbeitet):**
 
-- *Nicht die Form-Transformation als solche trennte.* Die Lesart, «-Babuschka-» sei
-  an seiner Fuenfeck-Abwandlung des sechseckigen Vorgaengerbaus gescheitert, ist
-  durch eine Gegenprobe im selben Verfahren widerlegt: das Projekt Nr. 40
-  «PATELLOIDEA» (ASA + SAGA GmbH, Basel) vollzog **dieselbe Operation** — «Die Form
-  des neuen Grassenbiwaks gruendet so im wahrsten Sinne in der strengen hexagonalen
-  Geometrie des Bestands und ueberfuehrt diese in ein Pentagon mit unterschiedlichen
-  Seitenlaengen» (Planbeilage zum Jurybericht, Planblatt «PATELLOIDEA») — und kam
-  damit eine Runde weiter als der eigene Beitrag, naemlich in die engere Wahl des
-  3. Rundgangs (Bericht Kap. 7, S. 27/36–28/36). Der Unterschied liegt nicht in der
-  Geometrie, sondern in ihrer **Herleitung und Organisation**: PATELLOIDEA leitet das
-  Pentagon aus der Bestandsgeometrie her und organisiert es um eine «Zentrale Mitte»
-  mit «fuenf sternfoermig verlaufende[n] Waenden», die den Biwak «in drei bzw. fuenf
-  Raumeinheiten» gliedern (ebd.); «-Babuschka-» fuehrte das Fuenfeck als
-  «Reminiszenz» an den Vorgaenger und organisierte linear (vgl. [[2408-biwak-grassen]]).
-  **Regel:** Eine Typologie weiterzufuehren heisst, ihre **Ordnungslogik** zu
-  uebernehmen, nicht ihre Kontur. Eine Formzitat-Begruendung («Hommage»,
-  «Reminiszenz») ist gegenueber einer Herleitungs-Begruendung («gruendet in der
-  Geometrie des Bestands») nachweislich schwaecher.
-- *Standorttreue war in diesem Verfahren kein Delta-Erklaerer.* Die Jury war in der
-  Standortfrage selbst gespalten: der Sieger «bergkristall» wechselte den Standort,
-  was «kontrovers diskutiert» wurde (S. 21/36); der drittrangierte «TUMI» wechselte
-  ebenfalls, was «Raum fuer eine kontroverse Diskussion» bot, «ohne dass sich eine
-  eindeutige Meinung etablieren kann» (S. 25/36); der **zweitrangierte** «ALFONSO»
-  dagegen baute «auf dem exakt gleichen Standort und mit gleichem Fussabdruck weiter»
-  und wurde genau dafuer gelobt (S. 23/36). «-Babuschka-» blieb ebenfalls am
-  bestehenden Standort und verwendete die vorhandenen Fundamente weiter — also
-  dieselbe Strategie wie der 2. Rang. **Regel:** Wo eine Grundsatzfrage die Jury
-  selbst spaltet, entscheidet sie den Wettbewerb nicht; das Delta ist dann an anderer
-  Stelle zu suchen (hier: Innenraum-Organisation und konstruktive Verdichtung). Der
-  Umkehrschluss «wir haben die konservative Variante gewaehlt, also lag es daran» ist
-  unzulaessig.
+- *Nicht die Sechseck-zu-Fünfeck-Referenz als solche trennte.* Die naheliegende
+  Lesart, «-Babuschka-» sei an seiner Fünfeck-Abwandlung des sechseckigen
+  Vorgängerbaus gescheitert, ist durch eine Gegenprobe im selben Verfahren
+  **entkräftet** (nicht widerlegt — n=1): das Projekt Nr. 40 «PATELLOIDEA»
+  (ASA + SAGA GmbH, Basel) nahm dieselbe Referenz auf — «Die Form des neuen
+  Grassenbiwaks gründet so im wahrsten Sinne in der strengen hexagonalen Geometrie
+  des Bestands und überführt diese in ein Pentagon mit unterschiedlichen
+  Seitenlängen» (Planbeilage «Pläne engere Auswahl», Planblatt «PATELLOIDEA») — und
+  kam weiter als der eigene Beitrag. **Verfahrensweg exakt:** PATELLOIDEA wurde nach
+  dem 2. Rundgang für den 3. Rundgang qualifiziert (S. 10/36), dort zunächst
+  ausgeschieden (S. 11/36) und im anschliessenden Kontrollrundgang zusammen mit
+  «DOPPELBOCK» ausdrücklich «in die engere Wahl zurückzuholen» beantragt und
+  einstimmig zurückgeholt; die finale engere Auswahl umfasst die fünf Projekte 1, 3,
+  32, 40, 62 (S. 12/36). *Quellenwiderspruch offengelegt:* Kap. 7 führt PATELLOIDEA
+  gleichwohl unter «Projekte dritter Beurteilungsrundgang» (S. 28/36), die Rückholung
+  ist dort nicht nachgeführt. Für die Rückhol-Lesart spricht unabhängig, dass die
+  Planbeilage «Pläne engere Auswahl» genau diese fünf Planblätter enthält.
+  **Der Unterschied liegt nicht in der Referenz, sondern in ihrer Reichweite:**
+  PATELLOIDEA übersetzt die Geometrie in den **Grundriss** — «Diese asymetrische
+  Grundform lässt eine orthogonale und daher raumeffiziente Anordnung der Betten im
+  Schlafbereich zu», «Fünf sternförmig verlaufende Wände gliedern den Biwak in drei
+  bzw. fünf Raumeinheiten» (ebd.) —, während «-Babuschka-» das Fünfeck auf die
+  **Frontfassade** beschränkte («in Form der fünfeckigen Frontfassade eine ewige
+  Reminiszenz») und den Grundriss länglich mit Mittelachse beliess
+  (vgl. [[2408-biwak-grassen]]). **Arbeitshypothese** (Einzelfall; der Bericht
+  bewertet weder «-Babuschka-» noch PATELLOIDEA individuell, eine Aussage über
+  Begründungsarten ist ihm nicht zu entnehmen): Eine Typologie weiterzuführen dürfte
+  heissen, ihre **Ordnungslogik** in den Grundriss zu übernehmen, nicht nur ihre
+  Kontur in die Ansicht.
+- *Standorttreue war in diesem Verfahren kein belegter Nachteil.* Die Jury war in der
+  Standortfrage selbst gespalten: beim Sieger «bergkristall» wurde nicht der
+  Standortwechsel als solcher, sondern dessen Zweckbegründung kontrovers gesehen —
+  «Inwiefern diese Neuplatzierung zu Gunsten einer Zwischennutzung des alten Biwaks
+  als Baustellenunterkunft im sensiblen alpinen Gelände Sinn macht, wird kontrovers
+  diskutiert» (S. 21/36); der drittrangierte «TUMI» wechselte ebenfalls den Standort,
+  was «Raum für eine kontroverse Diskussion» bot, «ohne dass sich eine eindeutige
+  Meinung etablieren kann» (S. 25/36). Umgekehrt baute der **zweitrangierte**
+  «ALFONSO» «auf dem exakt gleichen Standort und mit gleichem Fussabdruck weiter»
+  und wurde genau dafür gelobt (S. 23/36), und auch PATELLOIDEA sitzt «auf den
+  bestehenden Fundamenten des Bestandsbaus» (Planbeilage) — beide kamen weiter als
+  «-Babuschka-», das dieselbe Strategie verfolgte. **Regel:** Wo eine Grundsatzfrage
+  die Jury selbst spaltet, entscheidet sie den Wettbewerb nicht; das Delta ist dann
+  an anderer Stelle zu suchen. Der Umkehrschluss «wir haben die konservative Variante
+  gewählt, also lag es daran» ist unzulässig.
 
 ## Befund 7 — Staedtebau als Passstueck statt Regelhaus (Luecken-/Randlagen)
 
@@ -261,56 +278,67 @@ als eigene Ja/Nein-Checkliste zu fuehren — getrennt von den weichen betrieblic
 Zielen aus Befund 2, weil sie anders sanktioniert werden: nicht als Qualitaets-
 abzug, sondern als Grunderfuellungs-Maengel.
 
-## Befund 12 — Bei kompakten Kleinbauten gewinnt die zentrale Organisation, nicht die flaechensparende Reihung
+## Befund 12 — Die zentrale gewendelte Erschliessung war das Eintrittsbillett, nicht das Siegargument (Einzelverfahren-Beleg 2408, n=1)
 
-BIWAK/Grassen (2408) liefert den bislang dichtesten Einzelbeleg des Bestandes, weil
-dort **alle drei praemierten Projekte dasselbe Organisationsprinzip** verwenden —
-eine zentrale, gewendelte Erschliessung, um die sich die Nutzungen legen:
+BIWAK/Grassen (2408): **vier der fünf Projekte der engeren Auswahl** organisieren
+sich um eine zentrale gewendelte Erschliessung:
 
 - 1. Rang «bergkristall»: «Um eine zentrale Wendeltreppe lagern sich im
-  Eingangsgeschoss funktional und zweckmaessig in unterschiedliche Sektoren
+  Eingangsgeschoss funktional und zweckmässig in unterschiedliche Sektoren
   gegliedert der Schuh- bzw. Skiraum, die Toilette und der dreiseitig orientierte
   Aufenthaltsraum mit der Kochstelle an» (Bericht S. 21/36–22/36); die Treppe
-  laesst sich zusaetzlich «zu einem Waermekamin» umfunktionieren, die Schlafplaetze
+  lässt sich zusätzlich «zu einem Wärmekamin» umfunktionieren, die Schlafplätze
   sind «in sechs Schlafnischen unterteilt, was sowohl dem Betrieb als auch den
   Biwakierenden zugutekommt» (S. 22/36).
 - 2. Rang «ALFONSO»: «Rund um eine zentrale Wendeltreppe sind jeweils klar bestimmte
   Nutzungen angeordnet» (S. 23/36–24/36).
-- 3. Rang «TUMI»: «Eine kaskadenfoermige Raumstruktur laesst entlang der zentralen
+- 3. Rang «TUMI»: «Eine kaskadenförmige Raumstruktur lässt entlang der zentralen
   gewendelten Erschliessung Kojen entstehen» (S. 26/36).
+- nicht prämiert, engere Auswahl, «DOPPELBOCK»: «Die Nutzungen sind in Segmenten um
+  die zentrale Wendeltreppe angelegt» (Planbeilage, Planblatt «DOPPELBOCK»).
 
-Auch das nicht praemierte, aber in die engere Wahl gelangte «PATELLOIDEA» arbeitet
-mit einer «Zentrale[n] Mitte» (Planbeilage, Planblatt «PATELLOIDEA»). Der eigene
-Beitrag «-Babuschka-» verzichtete demgegenueber bewusst auf Verkehrsflaechen und
-reihte die Raeume enfiladenartig entlang einer Mittelachse, mit dem Eingang ueber
-eine Aussenleiter im Obergeschoss (vgl. [[2408-biwak-grassen]]).
+Nicht in diese Reihe gehört PATELLOIDEA: dessen «Zentrale Mitte» ist keine
+Erschliessungs-, sondern eine Wärme- und Sozialfigur («in der Mitte des Hauses steht
+als zentrales und soziales Element der Ofen»), erschlossen über eine «aussenliegende
+Metalltreppe» (Planbeilage). Der eigene Beitrag «-Babuschka-» verzichtete bewusst auf
+Verkehrsflächen und reihte die Räume enfiladenartig entlang einer Mittelachse, mit
+dem Eingang über eine Aussenleiter im Obergeschoss (vgl. [[2408-biwak-grassen]]).
 
-**Regel:** Bei kompakten Kleinbauten mit gemischtem Programm (Biwak, Huette,
-Kleinstbau) ist die flaechensparende Reihung ohne Erschliessungsfigur die
-schwaechere Antwort. Die zentrale Erschliessungsfigur kostet zwar Flaeche, liefert
-aber gleichzeitig Zonierung, Betriebsordnung, thermische Funktion und
-Aufenthaltsqualitaet — sie erschlaegt mehrere Beurteilungskriterien mit einem
-Element. Wer «Kompaktheit und Raumeffizienz» isoliert optimiert, optimiert **ein**
-Kriterium von zehn (Kriterienliste Bericht S. 8/36, ausdruecklich ohne Gewichtung
-und mit Gesamtwertung).
+**Wichtige Gegenprobe — die Figur schützt nicht:** Bei allen drei Prämierten zieht
+die Wendeltreppe zugleich ausdrückliche Kritik auf sich: bergkristall «könnte man auf
+das eher aufwändige Herunterführen der Wendeltreppe in das unbeheizte Kellergeschoss
+verzichten» (S. 22/36); ALFONSO zeigt «räumliche Grenzen, die durch die Zonierung mit
+der Wendeltreppe teilweise beengend und einschränkend wirken» (S. 24/36); TUMI
+erscheinen «die Erschliessungsbereiche … eher beengt» (S. 26/36).
 
-## Befund 13 — Bei gleichwertigen Projekten entscheidet die Robustheit fuer die Weiterbearbeitung
+**Regel (belegt nur für dieses Verfahren):** Die zentrale gewendelte Erschliessung
+war im Feld der Weitergekommenen **Standard**, die flächensparende Reihung ohne
+Erschliessungsfigur dagegen bei keinem der fünf zu finden. Belegt ist damit eine
+Eintrittsschwelle, nicht ein Siegkriterium — gewonnen wurde mit anderem (Befund 13).
+Wer «Kompaktheit und Raumeffizienz» isoliert optimiert, optimiert **ein** Kriterium
+von zehn (Kriterienliste Bericht S. 8/36; «Die Reihenfolge der Kriterien entspricht
+nicht deren Gewichtung. Das Preisgericht nimmt eine Gesamtwertung vor», S. 9/36).
+**Offen:** Ob das über die Bauaufgabe Biwak hinaus für kompakte Kleinbauten
+allgemein gilt, ist nicht geprüft — ein zweites Kleinbau-Verfahren fehlt im Bestand.
 
-Das Preisgericht des BIWAK-Verfahrens legt seinen Stichentscheid ausdruecklich offen:
-«Mit dem erstrangierten Projekt «bergkristall» wird das – gegenueber dem
-zweitplatzierten Projekt «ALFONSO» – fuer die Weiterbearbeitung robustere und als
-«sicherer» Wert geltende Projekt empfohlen» (Bericht S. 19/36). Dieselbe Mechanik
-ist an «ALFONSO» negativ ablesbar: trotz ueberzeugender Strategie bleiben dort
-«raeumlich-betriebliche Fragen offen», konkret die «betriebliche Skepsis eines
-Biwaks auf vier Geschossen» (S. 24/36).
+## Befund 13 — Der Rangentscheid fiel über die Robustheit für die Weiterbearbeitung (Einzelverfahren-Beleg 2408, n=1)
 
-**Regel:** Der letzte Schritt vom 2. auf den 1. Rang wird nicht mehr mit Entwurfs-
-qualitaet gewonnen, sondern mit **Weiterbearbeitungs-Sicherheit**: keine offenen
-betrieblichen Grundsatzfragen, keine Loesung, die von einer noch unbewiesenen
-Annahme abhaengt, Reserven fuer die Optimierung. Praktische Konsequenz fuer die
-Abgabe: erkennbare offene Punkte im Erlaeuterungsbericht nicht verschweigen,
-sondern mit einem bereits mitgedachten Loesungsweg zeigen — das Preisgericht
-belohnt das Projekt, dessen Weiterbearbeitung es sich zutraut.
+Das Preisgericht des BIWAK-Verfahrens legt die Begründung seiner Empfehlung
+ausdrücklich offen: «Mit dem erstrangierten Projekt «bergkristall» wird das –
+gegenüber dem zweitplatzierten Projekt «ALFONSO» – für die Weiterbearbeitung
+robustere und als «sicherer» Wert geltende Projekt empfohlen» (Bericht S. 19/36).
+Dieselbe Mechanik ist an «ALFONSO» negativ ablesbar: trotz überzeugender Strategie
+bleiben dort «räumlich-betriebliche Fragen offen» (S. 24/36), konkret eine
+substanzielle Unsicherheit — «funktionieren vier Geschosse betrieblich?», das
+Dachgeschoss «mit den drei sehr niedrigen Bettlagen» erweist sich «als kritisch»,
+und es bleibt «die betriebliche Skepsis eines Biwaks auf vier Geschossen» (S. 24/36).
+
+**Regel (belegt nur für dieses Verfahren):** Zwischen zwei Projekten, die beide
+überzeugen, gab die **Weiterbearbeitungs-Sicherheit** den Ausschlag — kein offener
+betrieblicher Grundsatzzweifel, keine Lösung, die von einer unbewiesenen Annahme
+abhängt. **Praktische Konsequenz:** offene betriebliche Grundsatzfragen im Konzept
+selbst schliessen, nicht im Erläuterungsbericht abfedern — beanstandet wurde bei
+ALFONSO die Sache, nicht ihre Darstellung.
 
 ## Konsequenz fuers maschinelle Prozedere (Skill `wettbewerb`)
 

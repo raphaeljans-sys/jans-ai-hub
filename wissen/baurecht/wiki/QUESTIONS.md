@@ -1,13 +1,13 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — ERLEDIGT: die VSS-40-291-Rampenkennwerte waren nie «dauerhaft offen»
+## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — ERLEDIGT: die VSS-40-291-Rampenkennwerte waren nie «dauerhaft offen»
 
 **Befund.** Der Artikel [[fahrzeugabstellplaetze-und-parkierung]] und dieses Register führten die
 Rampen-/Parkierungskennwerte der VSS 40 291 seit Buch-Run 33 (13.07.2026) als
 **«needs-verification wegen Kostenpflicht, dauerhaft offen»** und verlangten, den Normtext vor
 einer Projektierung käuflich zu beziehen. Das war schon am Tag der Eintragung überholt: die
 Ausgabe **VSS 40 291:2021** liegt im JANS-Normenbestand
-(`PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291 Parkieren 2021.pdf`, physisch belegt 30.07.2026)
+(`PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291 Parkieren 2021.pdf`, physisch belegt 03.08.2026)
 und ist in der führenden KB `normen` vollständig destilliert und dreifach verifiziert:
 `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie` (S. 1-32 gelesen,
 Retro-Verifikation + Volltextabgleich Mini-Run 18 + Q&A-Selbstbefragung Run 20, Stand 260714).
@@ -35,7 +35,7 @@ Abschnitt 2026-07-15) stützte sich unter anderem auf die «VSS-Rampen-/Parkieru
 Korrekturvermerk gesetzt. Der Vorschlag als solcher wird durch diesen Lauf weder erneuert noch
 zurückgezogen — das entscheidet Raphael.
 
-## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — OFFEN: Absturzsicherung im Bestand, und die SIA-358-Ausgabe
+## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — OFFEN: Absturzsicherung im Bestand, und die SIA-358-Ausgabe
 
 **Frage 1 — Bestandesschutz und Absturzsicherung.** Wie verhält sich § 357 PBG (nach diesem KB
 **kein** numerischer Schwellenwert, Grenze im Einzelfall bei der neubauähnlichen Umgestaltung) zur
@@ -66,7 +66,7 @@ Quellen: `wissen/normen/destillate/bfu-gelaender-und-bruestungen.md` Z. 92-97;
 Geländer-/Brüstungsmasse aus **SIA 358, Ausgabe 1996**
 (`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`), während `normen` im REGISTER
 **SIA 358:2010** als geltend führt und SIA 358:1996 als ersetzt ausweist (REGISTER Z. 484; Z. 232
-zusätzlich «Bestand 2010, 1996 zurückgezogen»). Am Bestand nachgeprüft (30.07.2026): die Masse
+zusätzlich «Bestand 2010, 1996 zurückgezogen»). Am Bestand nachgeprüft (03.08.2026): die Masse
 decken sich nicht durchgängig. Zwei Beispiele, jeweils ohne Anspruch auf Vollständigkeit:
 - Regel-Mindesthöhe: `baurecht` **90 cm** (100 cm erst bei Brüstungstiefe > 20 cm) gegen das
   bfu-Destillat **100 cm** ab begehbarer Fläche, 90 cm nur am Treppenlauf.
@@ -81,18 +81,18 @@ geändert** — nur die Frage angemeldet; führend für Ausgabe und Kennwert ist
 ## 2026-07-29 (Wissens-Chef Run 20) — P1: der Wasserversorgungsteil des WsG (§§ 95-100) ist im ganzen Hub unverarbeitet
 
 **Befund.** Der WsG-Volltext liegt seit dem 28.07.2026 im Haus
-(`raw/260730_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026), aber der
+(`raw/260803_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026), aber der
 **6. Abschnitt Wasserversorgung** ist nie destilliert worden. Gegenprobe des Verifikations-Agenten:
 `grep` nach «Bezugspflicht», «Anschlusspflicht Wasser» und «§ 178 WsV» über `wiki/` und `buecher/`
 ergibt **null Treffer**. Konkret fehlen:
 
 - **§ 97 Abs. 1 WsG** (Randtitel «Bezugspflicht»): Eigentümer im Einzugsbereich einer
   Wasserversorgungsanlage sind verpflichtet, das Wasser aus dieser Anlage zu beziehen
-  (`raw/260730_amtlich_zh_wsg.md`, Z. 1363-1367).
+  (`raw/260803_amtlich_zh_wsg.md`, Z. 1363-1367).
 - **§ 97 Abs. 3 WsG**: «Die Verwendung von Regenwasser als Brauchwasser in getrennten Systemen ist
   zulässig und gebührenfrei» (ebd. Z. 1374-1376) — die kantonale Grundlage der
   Brauchwassernutzung.
-- **§ 178 WsV** (Anschlusspflicht, `raw/260730_amtlich_zh_wsv.md` Z. 2090-2097) sowie die
+- **§ 178 WsV** (Anschlusspflicht, `raw/260803_amtlich_zh_wsv.md` Z. 2090-2097) sowie die
   Gebührenkette § 100 Abs. 1 WsG i.V.m. §§ 61 ff. WsG.
 
 **Warum das eine Bring-Schuld an `baurecht` ist.** Die Norm ist ausserhalb der `raw/`-Datei im
@@ -108,11 +108,11 @@ Wissens-Chef hat die Fundstelle im energie-Destillat und in FAQ F186 nachgetrage
 Gebührenkette. Erst dann kann `energie` von einem Verbands-Merkblatt auf kantonales Recht
 umstellen, statt es nur im Korrekturkasten zu führen.
 
-## 2026-07-30 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
+## 2026-08-03 (Wissens-Chef Run 19) — P1: falsche Konkordanzzeile in `raw/260717_amtlich_zh_hwschv.md`, und der Mechanismus dahinter
 
 **Der Sachfehler.** Die Konkordanztabelle in `raw/260717_amtlich_zh_hwschv.md` führt in Z. 40
 («Grundsatz / Zuständigkeit Festlegung») und Z. 252 als Nachfolge zu § 15 HWSchV den
-**§ 19 WsG**. Am amtlichen Volltext (`raw/260730_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) ist
+**§ 19 WsG**. Am amtlichen Volltext (`raw/260803_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133) ist
 das falsch: die grundeigentümerverbindliche Festlegung steht in **§ 18 Abs. 1 WsG** (Randtitel
 «b. Festlegung»), **§ 19 WsG** trägt den Randtitel «c. Berücksichtigung der baulichen Gegebenheiten
 in dicht überbauten Gebieten» und regelt die **Anpassung**. Systematik: § 17 Grundsatz · § 18
@@ -147,15 +147,15 @@ Bestand:** in jeder weiteren
 «KB-Autorentext, nicht amtlich» kennzeichnen — sonst wiederholt sich der Mechanismus bei jeder
 Konkordanz-, Mapping- oder Übersichtstabelle im Bestand.
 
-## 2026-07-30 (Buch-Run 71) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
+## 2026-08-03 (Buch-Run 71) — P1 aus Wissens-Chef Run 18 GESCHLOSSEN: WsG + WsV liegen jetzt in `raw/`
 
 Die am 27.07. gemeldete Lücke («die führende KB zitiert das WsG an rund vierzehn Stellen und hat
 seinen Volltext nicht») ist geschlossen. Beide amtlichen Volltexte sind über den in der Meldung
 genannten `notes.zh.ch/WebView`-Weg beschafft, per `pdftotext -layout` konvertiert und abgelegt:
 
-- `raw/260730_amtlich_zh_wsg.md` — Wassergesetz (WsG), LS 724.1, vom 12.12.2022, Nachtrag 133,
+- `raw/260803_amtlich_zh_wsg.md` — Wassergesetz (WsG), LS 724.1, vom 12.12.2022, Nachtrag 133,
   in Kraft seit 01.06.2026 (OS 81, 145).
-- `raw/260730_amtlich_zh_wsv.md` — Wasserverordnung (WsV), LS 724.11, RRB vom 02.07.2025,
+- `raw/260803_amtlich_zh_wsv.md` — Wasserverordnung (WsV), LS 724.11, RRB vom 02.07.2025,
   Nachtrag 133, in Kraft seit 01.06.2026 (OS 81, 182).
 
 **§ 126 WsG am eigenen Volltext gegengelesen** (Randtitel «Aufhebung bisherigen Rechts»):
@@ -173,7 +173,7 @@ Chef-Bericht übernommene Aufhebung des EG GSchG ist damit KB-intern belegt.
    Grundbuchmeldung nach *Landumlegung*. Eine Entsprechung für die Schutzzonen-Anmerkung ist
    nicht auffindbar.
 
-## 2026-07-30 (Buch-Run 71) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
+## 2026-08-03 (Buch-Run 71) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
 
 **Bring-Schuld aus dem PROGRAMM-Tracker beantwortet, aber nur zur Hälfte.** Die zhlex-Erlassseite
 der Staatskanzlei zu LS 711.11 weist amtlich aus: Erlassdatum 22.01.1975, Inkraftsetzung
@@ -189,7 +189,7 @@ damit ohne Nachfolgezeiger für die Periode 2022–2026. Indiz, nicht Beleg: die
 Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich» — am Volltext bestätigt).
 Nächster Schritt: OS-Band der Jahre 2021/2022 nach dem aufhebenden RRB durchsuchen.
 
-## 2026-07-30 (Buch-Run 71) — Ist SIA 380/1 noch «teilverbindlich»?
+## 2026-08-03 (Buch-Run 71) — Ist SIA 380/1 noch «teilverbindlich»?
 
 Das Standardwerk (Bd 1, S. 85) nennt SIA 380/1 «Thermische Energie im Hochbau» als
 teilverbindlich erklärte Norm. Am geltenden **Anhang Ziff. 1 BBV I** (Nachtrag 133) ist das
@@ -974,8 +974,8 @@ Drei Komplexe, Modell-D-Volltextabgleich; zwei neue amtliche Volltexte beschafft
 - **Komplex 3 — Art. 43/44 LSV (Empfindlichkeitsstufen ES I-IV): beschafft + CONFIRMED.** Fedlex-Volltext beschafft (`raw/260715_amtlich_ch_lsv-es.md`, Stand 1.11.2023): ES I erhöhtes Lärmschutzbedürfnis/Erholungszonen, ES II keine störenden Betriebe/Wohnzonen + Zonen für öff. Bauten, ES III mässig störende Betriebe/Wohn-Gewerbe-Mischzonen + Landwirtschaftszonen, ES IV stark störende Betriebe/Industriezonen; Aufstufung nur ES I/II bei Vorbelastung (Art. 43 Abs. 2); Zuordnung durch Kantone Art. 44. Deckt sich mit dem Destillat [[19-baulicher-umweltschutz]] (dort generisch) — jetzt präzise Zonenzuordnung ergänzt + Wiki-`verifiziert`-Feld nachgezogen. Flag «Art. 43 LSV kein raw-Volltext» geschlossen.
 
 - **Status-Promotion:** [[rechtsschutz-und-rechtsmittelverfahren]] und [[09-rechtsschutz]] **emerging→established** (Gesetzeswortlaut-Ebene VRG/PBG-Rechtsschutz vollständig volltextverifiziert Run 32/44/46).
-- **✅ VERIFIKATIONS-RUECKSTAND ABGEBAUT:** Nach Schliessung dieser drei Flags sind **alle am Gesetzeswortlaut verifizierbaren** needs-verification-Komplexe abgearbeitet; die Drill-Abdeckung reicht über alle 23 Kapitel. **Verbleibend sind ausschliesslich Punkte, die per se NICHT am Gesetzeswortlaut belegbar sind:** ~~VSS-Rampen-/Parkierungsnormen (SN 640-Reihe — kostenpflichtig, dauerhaft nicht frei beschaffbar)~~ → **erledigt 2026-07-30 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021-parkieren-anordnung-geometrie` (260714); § 357 Abs. 5 PBG Verordnungs-/Gerichtspraxis (Wortlaut verifiziert Run 34, nur Fallrecht offen); reine Fallrecht-/Kommentar-Belege (BGE/BGer/URP/BEZ/VB — jurisprudentiell). **→ Vorschlag an Raphael: Rücktaktung des Loops `baurecht-buch-training` von 2× täglich auf WÖCHENTLICH im Nachtfenster** (Rule 260712/260711); der Loop wechselt damit vom Verifikations- in den reinen Festigungs-/Pflegemodus (adversariale Re-Verifikation established-Bestände + Nachführung bei Rechtsänderungen).
-  - **Korrekturvermerk 2026-07-30 (Wissens-Chef Run 21):** Eine der drei Begründungen dieses Rücktaktungs-Vorschlags ist weggefallen — die VSS-Rampen-/Parkierungsnormen waren nicht «dauerhaft nicht frei beschaffbar», die Ausgabe 2021 lag bereits im JANS-Normenbestand und ist in `normen` destilliert (siehe Kopfeintrag 2026-07-30). Der Vorschlag stützt sich damit nur noch auf § 357 Abs. 5 PBG (Fallrecht) und die reinen Fallrecht-/Kommentar-Belege. Der Text oben bleibt als historischer Wortlaut stehen; über die Taktung entscheidet Raphael.
+- **✅ VERIFIKATIONS-RUECKSTAND ABGEBAUT:** Nach Schliessung dieser drei Flags sind **alle am Gesetzeswortlaut verifizierbaren** needs-verification-Komplexe abgearbeitet; die Drill-Abdeckung reicht über alle 23 Kapitel. **Verbleibend sind ausschliesslich Punkte, die per se NICHT am Gesetzeswortlaut belegbar sind:** ~~VSS-Rampen-/Parkierungsnormen (SN 640-Reihe — kostenpflichtig, dauerhaft nicht frei beschaffbar)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021-parkieren-anordnung-geometrie` (260714); § 357 Abs. 5 PBG Verordnungs-/Gerichtspraxis (Wortlaut verifiziert Run 34, nur Fallrecht offen); reine Fallrecht-/Kommentar-Belege (BGE/BGer/URP/BEZ/VB — jurisprudentiell). **→ Vorschlag an Raphael: Rücktaktung des Loops `baurecht-buch-training` von 2× täglich auf WÖCHENTLICH im Nachtfenster** (Rule 260712/260711); der Loop wechselt damit vom Verifikations- in den reinen Festigungs-/Pflegemodus (adversariale Re-Verifikation established-Bestände + Nachführung bei Rechtsänderungen).
+  - **Korrekturvermerk 2026-08-03 (Wissens-Chef Run 21):** Eine der drei Begründungen dieses Rücktaktungs-Vorschlags ist weggefallen — die VSS-Rampen-/Parkierungsnormen waren nicht «dauerhaft nicht frei beschaffbar», die Ausgabe 2021 lag bereits im JANS-Normenbestand und ist in `normen` destilliert (siehe Kopfeintrag 2026-08-03). Der Vorschlag stützt sich damit nur noch auf § 357 Abs. 5 PBG (Fallrecht) und die reinen Fallrecht-/Kommentar-Belege. Der Text oben bleibt als historischer Wortlaut stehen; über die Taktung entscheidet Raphael.
 
 ## 2026-07-15 (Buch-Run 45, Modell-D — 3 Komplexe adversarial parallel via Agent-Tool: § 218/219/220 PBG, KNHV §§ 13-22/29-32, USG-Altlasten Re-Verifikation)
 Drei Komplexe parallel gegen amtliche Volltexte geprüft (je ein unabhängiger, adversarial refutierender Agent). Workflow-Tool bewusst nicht verwendet (kein separates Nutzer-Opt-in in dieser Session), stattdessen Agent-Tool-Fan-out wie in Run 31/36/44 erprobt. **Wichtiger Befund: der Verifikations-Rückstand ist weitgehend abgebaut** — die meisten „needs-verification"-Flags sind bereits erledigt, nur die QUESTIONS-Summary war nicht bereinigt (Stale-Flag-Muster der Runs 41/43/44). Ergebnis: 3 echte Korrekturen, 0 Halluzinationen; mehrere Stale-Flags geschlossen (siehe unten).
@@ -990,7 +990,7 @@ Drei Komplexe parallel gegen amtliche Volltexte geprüft (je ein unabhängiger, 
   - «§ 10 BBV II Zwischenwerte unklar / 0,002 als OCR-Verzerrung» → **erledigt**: unabhängig am `raw/260607_amtlich_zh_bbv2.md` bestätigt — «2,40 m³ je m² bis 200 m², erhöht sich um **0,002 m³** je zusätzlichem m², ab 500 m² konstant **3,0 m³** je m²»; der «0,002 m²»-Verschrieb war bereits behoben, Destillat/Wiki korrekt.
   - «KNHV §§ ... vor Kundenzitat am LS-Erlass gegenprüfen» → **erledigt** für §§ 13-22/29-32 (Komplex 2), zusammen mit §§ 4/6/7/8/10/12/23-28 (Run 41) ist die KNHV damit vollständig volltextverifiziert.
   - Gewässerraum-Divergenz [[abstaende-und-hoehen]] (< 2 m) ↔ [[15-lage-von-gebaeuden]] (< 1 m) → war **bereits Run 32 aufgelöst** (Art. 41a Abs. 2 Normalgebiete < 2 m → 11 m; Abs. 1 Schutzgebiete < 1 m → 11 m; kein Widerspruch, zwei Absätze); der Stale-Flag im Run-31-Block (unten) ist damit gegenstandslos.
-- **needs-verification (verbleibend, ohne verfügbaren amtlichen Volltext / per se nicht gesetzeswortlaut-belegbar):** § 209f PBG, § 50a VRG (Rechtsschutz-Restschuld, ausserhalb Volltextumfang); ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen)~~ → **erledigt 2026-07-30 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); § 357 Abs. 5 PBG Gerichts-/Verordnungspraxis (Wortlaut verifiziert Run 34, nur Fallrecht offen); Art. 43 LSV ES I-IV (kein raw-Volltext); reine Fallrecht-/Kommentar-Belege (BGE/BGer/URP/BEZ/VB — jurisprudentiell, nicht am Gesetzeswortlaut belegbar).
+- **needs-verification (verbleibend, ohne verfügbaren amtlichen Volltext / per se nicht gesetzeswortlaut-belegbar):** § 209f PBG, § 50a VRG (Rechtsschutz-Restschuld, ausserhalb Volltextumfang); ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); § 357 Abs. 5 PBG Gerichts-/Verordnungspraxis (Wortlaut verifiziert Run 34, nur Fallrecht offen); Art. 43 LSV ES I-IV (kein raw-Volltext); reine Fallrecht-/Kommentar-Belege (BGE/BGer/URP/BEZ/VB — jurisprudentiell, nicht am Gesetzeswortlaut belegbar).
 
 ## 2026-07-14 (Buch-Run 44, Modell-D — 4 Komplexe parallel via Agent-Tool: VRG-Rechtsschutz, § 238→§ 238a-Divergenz, Quartierplan § 160a/81/129, RPG/WEG-Erschliessung)
 Vier needs-verification-Komplexe parallel gegen amtliche Volltexte geprüft (je ein unabhängiger Agent, adversarial). Workflow-Tool bewusst nicht verwendet (kein Nutzer-Opt-in in dieser Session), stattdessen Agent-Tool-Fan-out wie in Run 31/36 erfolgreich erprobt.
@@ -999,7 +999,7 @@ Vier needs-verification-Komplexe parallel gegen amtliche Volltexte geprüft (je 
 - **Komplex 2 — § 238 Abs. 3 → § 238a PBG Divergenz (Wiki↔Wiki-Inkonsistenz):** [[naturschutz-und-denkmalschutz]] hatte bereits korrekt dokumentiert, dass § 238 Abs. 3 PBG per 1.12.2024 aufgehoben und in **§ 238a PBG** («Begrünung im Besonderen») übergeführt wurde (G vom 8.4.2024) — [[baulinien-und-abstandslinien]] zitierte für dieselbe Vorgärten-Regel aber noch die veraltete Fundstelle § 238 Abs. 3 PBG (Fliesstext + Frontmatter `sources:`). Gegen `raw/260607_amtlich_zh_pbg.md` (Z. 2408-2420) verifiziert: § 238 Abs. 3 im Volltext als aufgehoben markiert (Fussnote 71), § 238a Abs. 1 wortgleich zur Behauptung im naturschutz-Artikel (Fussnote 69, eingefügt). **Korrigiert:** `wiki/baulinien-und-abstandslinien.md` (Fliesstext + sources + verifiziert-Feld), `buecher/band-2/15-lage-von-gebaeuden.md` (Fliesstext + Frontmatter), `buecher/band-2/15-lage-von-gebaeuden-teil2b.md` (Frontmatter — dortige Fliesstext-Stelle zitiert § 238 ohne Abs. 3 und bleibt richtig, da allgemeine Gestaltungspflicht weiterhin in Kraft). `wiki/INDEX.md`-Zeile zu [[baulinien-und-abstandslinien]] ausserdem von der (bereits veralteten) `*emerging*`-Markierung auf `*established*` korrigiert (echte Status-Divergenz, Frontmatter war schon länger `established`) + § 238a-Hinweis ergänzt.
 - **Komplex 3 — Quartierplan § 160a/§ 160b/§ 81/§ 129 PBG:** gegen `raw/260607_amtlich_zh_pbg.md` unabhängig gegengeprüft — **alle CONFIRMED**, keine Korrektur nötig. Stellt sich heraus: [[baureife-und-erschliessung]] (Zeilen 242-251) und Destillat [[03-quartierplan-landumlegung-teil2]] waren **bereits am selben Tag von einer parallelen Instanz** vollständig volltextverifiziert worden (Destillat trug bereits `status: established` + `verifiziert`-Vermerk) — reine Kollision, kein Schaden, unabhängige Zweitprüfung bestätigt den bestehenden Stand identisch. § 81 PBG regelt die Rechtswirkung von Sonderbauvorschriften (kein Baubewilligungszwang), **nicht** den «Grundsatzentscheid» (das ist § 129 Abs. 2 PBG) — keine Verwechslung mit § 87/§ 87a, sauber getrennt.
 - **Komplex 4 — Art. 19/22/27 RPG + WEG-Klärung (Erschliessungsvertrag), Wiki [[baureife-und-erschliessung]]:** neue amtliche Bundesrechts-Volltexte beschafft (Fedlex, PDF/A): `raw/260714_amtlich_ch_rpg-erschliessung.md` (RPG SR 700, Stand 1.4.2026) und `raw/260714_amtlich_ch_weg.md` (WEG SR 843, Stand 1.1.2013). **1 Korrektur:** Art. 19 Abs. 2 RPG enthält **keine feste 15-Jahres-Frist** (nur «die im Erschliessungsprogramm vorgesehene Frist»); die 10-15-Jahres-Etappierung stammt aus **Art. 5 Abs. 1 WEG** und gilt nur für dem Wohnungsbau dienende Bauzonen — im Wiki präzisiert. Art. 19 Abs. 1/3 RPG, Art. 22 Abs. 2 lit. b RPG, Art. 27 RPG (Planungszone, Bundesmaximum 5 J. ↔ § 346 PBG 3+2 J. als kantonale Konkretisierung), Art. 4/5 WEG alle CONFIRMED. **WEG-Klärung:** keine Verwechslung mit dem kantonalen WWG (Wasserwirtschaftsgesetz, im selben Artikel korrekt separat abgekürzt) — «WEG» meint eindeutig das Bundesgesetz über Wohnbau- und Eigentumsförderung SR 843, dessen 1. Kapitel «Erschliessungsrecht» heisst.
-- **needs-verification (verbleibend):** § 209f PBG, § 50a VRG (Rechtsschutz-Restschuld); ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen)~~ → **erledigt 2026-07-30 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege.
+- **needs-verification (verbleibend):** § 209f PBG, § 50a VRG (Rechtsschutz-Restschuld); ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege.
 
 ## 2026-07-14 (Buch-Run 43, Modell-D Gestaltungsplan §§ 83-89 + § 44a PBG + zwei NISV-Fundstellen-Divergenzen bereinigt)
 Direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen parallel; Zielwahl auf einen bisher unangetasteten Komplex, um Kollision mit der laufenden Kap.-17-Instanz zu vermeiden, siehe deren zwischenzeitlich bereits committeter «Buch-Run 42»-Stand in den Kap.-17-Destillaten).
@@ -1007,7 +1007,7 @@ Direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen para
 - **Modell-D-Volltextabgleich §§ 83-89 + § 44a PBG (Gestaltungsplan), Wiki [[raumplanung-und-gestaltung]] (bleibt `established`, erstmals mit `verifiziert`-Feld):** alle Absätze gegen `raw/260607_amtlich_zh_pbg.md` (Z. 483-493 + 909-972) geprüft — **CONFIRMED, 0 Fehler.** § 83 (Inhalt, Regelbauweise-Abweichung, Projektierungs-Spielraum, Erschliessung/Umgebungsgestaltung, reduzierter Inhalt bei überbauten Gebieten), § 84 (öffentlicher GP, wesentliches öffentliches Interesse, kantonale Zuständigkeit bei Richtplan-Bauten), § 85 (privater GP, **2/3-Flächenquorum, kein Einstimmigkeitszwang** — Abgrenzung zum Quartierplan-Einstimmigkeitserfordernis § 160a PBG), § 86 (Zustimmung Legislative bzw. Gemeindevorstand bei Arealüberbauungs-Rahmen), § 87 (Aufhebung frühestens 5 Jahre, Verweis § 82, Ausnahme untergeordnete Änderungen), §§ 87a-89 (Vorprüfung 2/3 Monate, Festsetzung nach Gemeindeordnung, Genehmigung kantonal gebunden an Vorprüfungsbericht), § 44a (Gestaltungsplan Materialgewinnung/-ablagerung, 4 Absätze) — alle wortgetreu bestätigt, keine Korrektur nötig. Das Wiki war bereits vollständig und korrekt, trug aber bisher **gar kein `verifiziert`-Feld** im Frontmatter — jetzt nachgetragen.
 - **Zwei Fundstellen-Divergenzen bereinigt (NISV-AGW «Art. 6 Abs. 3» statt «Art. 3 Abs. 6»):** Der in Run 39 in `buecher/INDEX.md` korrigierte Fehler war in zwei WEITEREN, damals nicht mit-erfassten Stellen noch vorhanden: (1) **`wiki/INDEX.md`** Zeile zu [[laermschutz-und-nichtionisierende-strahlung]] («AGW nur OMEN Faktor 10 (Art. 6 Abs. 3)») — korrigiert; (2) **`training/drills.md`**, Modell-C-Karte vom 2026-07-11 («Der AGW (Art. 6 Abs. 3 NISV) betrifft nur eine einzelne Anlage») — korrigiert. Damit ist die Divergenz jetzt an allen vier bekannten Fundorten (Wiki-Artikel, Destillat 19, `buecher/INDEX.md`, `wiki/INDEX.md`, Drill-Karte) konsistent auf **Art. 3 Abs. 6 NISV**.
 - **Lehre für den Radar (ergänzt Run 39/40/41):** die Divergenz-Familie betrifft nicht nur Wiki↔Destillat und Destillat↔Destillat, sondern auch **`buecher/INDEX.md` ↔ `wiki/INDEX.md`** — zwei separate Index-Dateien mit teils redundanten Kurzfassungen, die bei einer Korrektur beide mitgezogen werden müssen. Ein `grep -rn "<Fundstelle>" wissen/baurecht/` über ALLE Unterordner (nicht nur wiki/+buecher/) findet auch Drill-Karten und Output-Reports mit derselben veralteten Angabe.
-- **needs-verification (unverändert, aus Run 41):** Kap. 17 Ausrüstungen-Teil war zum Zeitpunkt dieses Laufs bereits von einer Parallelinstanz als Run 42 abgeschlossen (siehe Destillat-Frontmatter, Register-Nachführung dort noch zu prüfen); ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen)~~ → **erledigt 2026-07-30 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege.
+- **needs-verification (unverändert, aus Run 41):** Kap. 17 Ausrüstungen-Teil war zum Zeitpunkt dieses Laufs bereits von einer Parallelinstanz als Run 42 abgeschlossen (siehe Destillat-Frontmatter, Register-Nachführung dort noch zu prüfen); ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege.
 
 ## 2026-07-14 (Buch-Run 41, Modell-D §§ 295-298 PBG + § 48 BBV I CONFIRMED aufgehoben + KNHV-Divergenz-Cleanup INDEX/QUESTIONS)
 Drei Aufgaben, direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen parallel; Kollisionsvermeidung durch Fokus auf Rest-/Cleanup-Punkte, die keine andere Instanz bearbeitet).
@@ -1015,7 +1015,7 @@ Drei Aufgaben, direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instan
 - **Komplex A — §§ 295-298 PBG (Kap. 17): Destillat↔Destillat-Divergenz geschlossen.** Das Destillat [[17-gebaeude-und-raeume]] führte §§ 295-298 PBG als «Detail offen», während das **Schwester-Destillat [[17-gebaeude-und-raeume-teil2-ausruestungen]]** sie **bereits seit 2026-07-13 Modell-D-volltextverifiziert** hatte (§ 296/297/298 dort ausdrücklich «volltextverifiziert 13.07.2026») — dieselbe Divergenz-Klasse wie die Wiki↔Destillat-Fälle aus Run 39/40, nur zwischen zwei Buch-Destillaten. Grundnorm-Kurzfassung in teil1 am strukturell richtigen Ort (vor §§ 299 ff.) ergänzt + auf teil2 als kanonische, vertiefte Fundstelle (inkl. § 71 PBG Energieplan-Anschlusspflicht/WKK) verlinkt; eigenständig gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057) gegengeprüft, alle **CONFIRMED**: § 295 (Waermeversorgung — standortgerechte Heizzentralen mit Abwaerme/erneuerbaren Abs. 1; **Fernwaerme-Anschluss- und Duldungspflicht** bei technisch/wirtschaftlich gleichwertigem Angebot Abs. 2), § 296 (Befoerderungsanlagen — zweckgerecht/fachgemaess, Anpassung an technische Entwicklung wo Sicherheit verlangt), § 297 (Nebenraeume in Wohnhaeusern — Trockenraeume/Einstellgelegenheiten, konkretisiert § 39 BBV I), § 298 (RR-Delegation für strengere Sicherheits-/Ausruestungsbestimmungen bei Gebaeuden > 6 anrechenbaren Geschossen). Eigener Abschnitt im Destillat ergänzt, Frontmatter-`verifiziert` nachgeführt. **Status bleibt `emerging`** (Ausruestungen-Teil § 4 ABV + Einstellraeume-Detail §§ 37-39 BBV I ab Shot 632 weiterhin ungelesen).
 - **Komplex B — § 48 BBV I CONFIRMED aufgehoben (schliesst Rest-Flag aus Run 40 Zeile 14):** amtlicher Volltext `raw/260607_amtlich_zh_bbv1.md` zeigt § 48 als leeren Paragraphen mit Fussnote 80 = **«Aufgehoben durch RRB vom 14. Juli 2021 (OS 77, 369; ABl 2021-07-23)»** (Z. 908 + Fussnote Z. 1383). Die Wiki-Aussage «§ 48 BBV I aufgehoben, Materie in § 12b EnerG» ist damit **präzise belegt**; §§ 48a/48b/48c BBV I (Grossverbraucher/Zielvereinbarung/Betriebsoptimierung) bleiben in Kraft (in § 48c CONFIRMED: Befreiung < 200'000 kWh/a bzw. bei Grossverbraucher-Zielvereinbarung). Flag geschlossen.
 - **Komplex C — KNHV-Divergenz-Cleanup (Wiki↔INDEX + QUESTIONS-Flag):** die von einer Parallelinstanz am 2026-07-14 vorgenommene KNHV-Klärung (KNHV NICHT aufgehoben, dieselbe LS 702.11, Nachtrag 130, RRB 15.01.2025 ändert nur § 3/§ 3a) war in Wiki [[naturschutz-und-denkmalschutz]] + Destillat [[04-natur-und-heimatschutz]] eingearbeitet, aber (1) `wiki/INDEX.md` führte beide Naturschutz-Artikel noch als `emerging`, obwohl beide seit 2026-07-13 (CHANGELOG) `established` sind → **korrigiert emerging→established** (Status-Divergenz); (2) der stehende «WICHTIGER FASSUNGSSTAND-BEFUND»-Block unten (Run 38) trug noch die widerlegte «per 01.08.2025 aufgehoben / Nachfolgeerlass ermitteln (hohe Prio)»-Aussage → **als geklärt umgeschrieben** (siehe unten). Beweis-Basis: `raw/260714_amtlich_zh_knhv.md` (Nachtrag 130).
-- **needs-verification (verbleibend):** Ausruestungen-Teil Kap. 17 (§ 4 ABV Heizung/Klima/Elektro/Briefkaesten + Einstellraeume-Detail §§ 37-39 BBV I, Shot 632 ff.) — [[17-gebaeude-und-raeume]] bleibt bis dahin `emerging`; ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen, Run 33)~~ → **erledigt 2026-07-30 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege (nicht gesetzeswortlaut-verifizierbar).
+- **needs-verification (verbleibend):** Ausruestungen-Teil Kap. 17 (§ 4 ABV Heizung/Klima/Elektro/Briefkaesten + Einstellraeume-Detail §§ 37-39 BBV I, Shot 632 ff.) — [[17-gebaeude-und-raeume]] bleibt bis dahin `emerging`; ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen, Run 33)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege (nicht gesetzeswortlaut-verifizierbar).
 
 ## 2026-07-14 (Buch-Run 40, Modell-D-Volltextabgleich BBV-I/BBV-II + Wiki→Destillat-Divergenz-Nachzug § 62 StrG)
 Zwei Komplexe geprüft, direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen parallel an KNHV/USG/VRG «Run 38»; Kollisionsvermeidung analog Run 39).
@@ -1091,8 +1091,8 @@ recherchiert. Betroffener Artikel: [[fahrzeugabstellplaetze-und-parkierung]] (bl
   **VSS 40 065** (2011/2019, Bedarfsermittlung/Standortwahl) und **VSS 40 066** (2011/2019,
   Projektierung) — inhaltlich dieselben Normen, nur umnummeriert.
 - **⚠️ VSS-Rampenneigungsnorm «SN 640 291a» — Normbezeichnung präzisiert, ~~Kennwerte bleiben
-  DAUERHAFT needs-verification (Kostenpflicht)~~ → ERLEDIGT 2026-07-30 (Wissens-Chef Run 21).**
-  **Nachtrag 2026-07-30:** Die Kostenpflicht-Aussage war bereits am Tag dieses Eintrags überholt.
+  DAUERHAFT needs-verification (Kostenpflicht)~~ → ERLEDIGT 2026-08-03 (Wissens-Chef Run 21).**
+  **Nachtrag 2026-08-03:** Die Kostenpflicht-Aussage war bereits am Tag dieses Eintrags überholt.
   Die Ausgabe VSS 40 291:2021 liegt im JANS-Normenbestand
   (`PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291 Parkieren 2021.pdf`) und ist in `normen`
   vollständig destilliert und dreifach verifiziert:
@@ -1253,7 +1253,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   - **§ 243 Abs. 2/Abs. 3:** Die «bei bestehenden Bauten Schaffung/Aufhebung»-Regel ist geltend **Abs. 3**; der neue **Abs. 2** (FN 72) = antragsgebundene tiefere Platzzahl.
   - **§ 247 Abs. 1:** geltend «nur für die Mobilität» (breiter); die Parkraum/ÖV-Zweckbindung ist die frühere Fassung.
   - Zusatz: § 243 Abs. 1 lit. b amtl. «wesentlich **andere**» (nicht «stärkere») Nutzung; § 309 Abs. 1 lit. i = Fahrzeugabstellplätze (bestätigt).
-- **needs-verification (verbleibend, kommunal/nicht im amtl. PBG-Volltext):** Wegleitungs-Tabelle 1 (Parkplatzkennzahlen je Nutzung), PPV Stadt Zürich Art. 8 Abs. 5-8 (autoarm), ~~VSS-Rampenneigungen SN 640 291a — an geltenden kommunalen Erlassen/VSS-Normen prüfen~~ → **erledigt 2026-07-30 (Wissens-Chef Run 21)**: geltende Ausgabe ist VSS 40 291:2021, Destillat `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie` (260714).
+- **needs-verification (verbleibend, kommunal/nicht im amtl. PBG-Volltext):** Wegleitungs-Tabelle 1 (Parkplatzkennzahlen je Nutzung), PPV Stadt Zürich Art. 8 Abs. 5-8 (autoarm), ~~VSS-Rampenneigungen SN 640 291a — an geltenden kommunalen Erlassen/VSS-Normen prüfen~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**: geltende Ausgabe ist VSS 40 291:2021, Destillat `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie` (260714).
 - **Methodenlehre Phase 3:** Bei Lehrbuch-Belegen aus der 6. Aufl. 2019 sind revidierte Absätze (Fussnote-Marker im Volltext, z. B. «72») ein systematischer Fehlerherd bei der **Absatz-Zählung** und bei **Zweckbindungen** — solche § immer am Volltext gegenprüfen, bevor sie in Bewilligungen/Reversen zitiert werden.
 
 ## Offene Wissenslücken (Coverage-Gaps)
@@ -1434,7 +1434,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
 - **needs-verification — Kap. 13 Teil 2 (§§/Erlasse):** § 238 Abs. 3 PBG (Umgebung/Umschwung ohne
   Ausnützungswirkung, BEZ 2011 Nr. 6), § 239 Abs. 1/2 PBG (Regeln der Baukunde / Baumaterialien; Art. 229
   StGB, Art. 58 OR, BauPG, PrSG), § 240/§ 241 PBG (Verkehrssicherheit), **§ 16 StrAV Sichtbereiche 90/150/50 m**,
-  §§ 11/12 StrAV (Einfriedungen) **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260730_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 30.07.2026]**, Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
+  §§ 11/12 StrAV (Einfriedungen) **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260803_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 03.08.2026]**, Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
   sinngemäss nach Buch S. 858-891, am amtlichen Volltext gegenprüfen (Modell D). **§§ 239a-d (hindernisfrei)
   hier nur verwiesen → Buch S. 1269.**
 - **needs-verification — Kap. 16 Teil 3 (§§/Erlasse):** § 282/§ 284 PBG (Hochhaus > 25 m Gebäudehöhe, keine
@@ -1645,7 +1645,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
 - **needs-verification — Wegleitungs-Tabelle 1 (Parkplatz-Kennzahlen je Nutzung):** im Destillat nur
   referiert, Zahlenwerk nicht erfasst — bei konkretem Parkplatz-Mandat am kommunalen Erlass/PPV verifizieren.
 - ~~**needs-verification — Rampenneigungen SN 640 291a (15/18 % bzw. 12/15 %):** aus dem Reader-Fliesstext
-  gelesen — vor Ausschreibung an der VSS-Norm gegenprüfen.~~ → **erledigt 2026-07-30 (Wissens-Chef
+  gelesen — vor Ausschreibung an der VSS-Norm gegenprüfen.~~ → **erledigt 2026-08-03 (Wissens-Chef
   Run 21):** massgebend ist die Ausgabe **VSS 40 291:2021**, in `normen` vollständig destilliert und
   dreifach verifiziert — `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie`
   (Ziff. 20.5-20.6, Tab. 13, S. 29, Stand 260714). Die Werte dort nachschlagen; `baurecht` führt
@@ -1686,7 +1686,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Strang kennen, sobald er in die Vernehmlassung/Inkraftsetzung geht. Beim nächsten Buch-/Amts-Run
   aufnehmen; Querbezug ist in `planungsgrundlagen` bereits gesetzt (Run 15).
 
-## 2026-07-30 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
+## 2026-08-03 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
 
 Beide fielen an, als ein Verifikator einen Vorwurf gegen `projekt-lessons` **kippte** — der Vorwurf
 war falsch, aber das Gegenlesen legte zwei echte Maengel in DIESER KB frei. Keiner wurde vom Chef

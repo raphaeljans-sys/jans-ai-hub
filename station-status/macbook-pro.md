@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.08.2026 22:19:39
+Stand: 03.08.2026 22:29:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:18)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 22:19:39
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- b5537fc7 Korrektur Ultra-Code-Review Rest: Befunde A-E immobilienbewertung/normen
+- 755a8a39 twin-fidelity-review 03.08.2026 (Nachzug): Facetten-Wikis, QUESTIONS 260803, KB-CLAUDE.md Echo-Detektion, Drift-Report

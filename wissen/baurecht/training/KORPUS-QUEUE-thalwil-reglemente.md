@@ -1,7 +1,7 @@
 ---
 name: KORPUS-QUEUE-thalwil-reglemente
 beschreibung: Erschliessungs-Fahrplan fuer den Baurechts-/Reglemente-Ordner des Projekts 2414 Thalwil, Bohlweg 3. Speist den Loop `baurecht-buch-training` als zweite Korpus-Quelle neben dem Standardwerk.
-angelegt: 2026-07-30 (Auftrag Raphael, nach der Begleitbeschrieb-Eingabe Bohlweg 3 vom selben Tag)
+angelegt: 2026-08-03 (Auftrag Raphael, nach der Begleitbeschrieb-Eingabe Bohlweg 3 vom selben Tag)
 quelle_pfad: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2414 THALWIL/06 Reglemente"
 station: Mac Mini (OneDrive-Mount); vom MacBook via `ssh mini` lesbar
 umfang: 243 Dateien (ohne .DS_Store), 13 Top-Ordner
@@ -16,7 +16,7 @@ was dem Harness bisher fehlt: die **kommunale Konkretisierung und die Anwendungs
 realen Parzelle — BZO Thalwil samt Revision 2025, Merkblätter und Wegleitungen der Gemeinde,
 OEREB-Auszug, Näherbaurecht, und Raphaels **eigene** baurechtliche Zusammenfassungen.
 
-Auslöser ist die Eingabe vom 30.07.2026 (Begleitbeschrieb Projektänderung, Bauentscheid
+Auslöser ist die Eingabe vom 03.08.2026 (Begleitbeschrieb Projektänderung, Bauentscheid
 2024.227). Dabei zeigte sich die Lücke konkret: die KB führt in `raw/` nur die **alte**
 BZO Thalwil (Stand 07.06.2026). Der Begleitbeschrieb argumentiert durchgehend mit der
 **revBZO** (Art. 50 Abs. 1 lit. b, Art. 31 Abs. 1, negative Vorwirkung seit 16.05.2025) —

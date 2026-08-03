@@ -7,7 +7,7 @@ ordnungsnummer: LS 724.11
 fassung_datei: 724.11_2.7.25_133.pdf
 quelle_url: https://www.zh.ch/de/politik-staat/gesetze-beschluesse/gesetzessammlung.html
 pdf_url: https://www.notes.zh.ch/appl/zhlex_r.nsf/WebView/A4BB5C137ABDC811C1258DE000251D38/$File/724.11.pdf
-abgerufen: 2026-07-30
+abgerufen: 2026-08-03
 fassungsstand: "Nachtrag 133; RRB vom 2. Juli 2025, in Kraft seit 1. Juni 2026 (OS 81, 182). Enthaelt KEINE Aufhebungsklausel zur KGSchV (LS 711.11) — diese war bereits per 01.01.2022 aufgehoben (Buch-Run 71)."
 lizenz: Amtlicher Text — gemeinfrei (Art. 5 URG)
 beschafft_von: Buch-Run 71 (schliesst die P1-Luecke aus wiki/QUESTIONS.md, Wissens-Chef Run 18 vom 27.07.2026)
