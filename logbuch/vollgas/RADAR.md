@@ -51,6 +51,88 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-04 00:57 — [FREI] Erste volle Nacht nach dem Reset: 86 Commits in 13 Stunden, aber der Verbrauch laeuft der Woche um 10.3 Punkte voraus. Genau das Muster, das der Entscheid vom Vortag beenden soll
+
+**Selbstkontrolle:** letzter Eintrag 03.08. 22:07, Abstand 2 h 50. Der Takt steht seit 03.08.
+auf 8 h (00:50 / 08:50 / 16:50); dieser Lauf ist der erste im neuen Raster nach dem
+Nachzuegler-Eintrag von gestern Abend. **Kein Aufsichtsausfall.**
+
+**Fenster FREI.** Probe (haiku, eigener Watchdog) antwortet «OK». Speicher unauffaellig:
+4.24 GB frei+inactive+purgeable, Druckstufe 1 (normal).
+
+**Wochenbudget — der eigentliche Befund dieses Laufs.** `kontingent-budget.sh --json`,
+gemessen ohne Modellaufruf:
+
+| Groesse | Wert |
+|---|---|
+| Ampel | **FREI** |
+| Verbraucht | **30.03 Mio** «teuer» von 167 Mio = **18.0 %** |
+| Woche verstrichen | 7.7 % (12 h 57 seit Reset Mo 03.08. 12:00) |
+| **Vorsprung** | **+10.3 Punkte** |
+| MacBook Pro / Mac Mini | 20.51 / 9.51 Mio (beide Stationsdateien frisch) |
+
+Die Ampel steht auf FREI, eine Drossel nach Schritt 2c ist **nicht** ausgeloest und wurde
+**nicht** gesetzt. Trotzdem gehoert die Richtung in den Eintrag: 2.32 Mio pro Stunde,
+linear fortgeschrieben waere das Kontingent nach rund 72 Stunden leer, also **Donnerstag
+06.08. um die Mittagszeit statt Montag 10.08. 12:00** — vier Tage Fehlbetrag. Die Rate ist
+von der Nachtspitze verzerrt (die 13 Stunden enthalten die volle Nachtschicht 23:00–01:00
+und die getakteten Nacht-Loops, die Tagesstunden fehlen noch), die Hochrechnung ist also
+eine Obergrenze, nicht eine Prognose. Die **Richtung** stimmt aber und deckt sich mit dem
+stehenden Entscheid Raphaels vom 03.08. («gleichmaessig ueber die Woche»): der Wochenanfang
+zieht weiterhin ueberproportional. Der Radar legt die Regimefrage weisungsgemaess **nicht
+erneut** vor; was fehlt, ist der Tagesdeckel-Mechanismus, und der ist ein eigener Auftrag.
+
+**Der Verbrauch ist produktiv, nicht Leerlauf.** 86 Commits im NAS-Repo seit dem Reset,
+davon Substanz statt Statusrauschen: baurecht Run 72 (Thalwil-Batch T1, Vorwirkungs-
+Markierung am Pixel verifiziert), normen Run 42 (PL-02-Kern 68/69, 22 Destillate),
+energie Run 122 (AHB-Richtlinien RL1–RL9, 4 tote Normverweise aufgedeckt), wissens-chef
+Run 23 **und** 24 (36 Dateien in mehreren KBs korrigiert, darunter falsch transkribierte
+Gelaenderhoehen im baurecht), wettbewerbs-dna Etappe 4, twin-fidelity-Review,
+bauprodukte-Destillat mit Kurator-Korrektur, Synergie-Lauf 04, tenant-hygiene,
+Grundkontext-Diaet Runde 2 (Grundkontext 117.2 → 85.9 kB). Das ist ein voll gefuelltes
+Fenster im Sinne der Zielsetzung.
+
+**Liefer-Delta je Loop: durchweg positiv, kein Stilllegungskandidat.** Kein Loop mit einer
+Serie von drei oder mehr Laeufen ohne Delta. `methoden-radar` lieferte am 03.08. kein
+inhaltliches Delta, hat aber auftragsgemaess die Rotationszeile «Methode SPW» verifiziert —
+ein Bestaetigungslauf, kein Leerlauf. Die drei Mini-Nachtschicht-Laeufe des 03.08. stehen
+im Journal mit rc=0 (4.43 / 4.56 / 3.48 USD); die beiden rc=1-Zeilen davor sind die
+Fehlversuche gegen die noch laufende Wochensperre, also Blockade und nicht Delta Null.
+
+**Feuermechanismen — alle drei Orte geprueft, keine Abweichung.**
+- Endlos-Runner weiterhin **ausgebaut**: `ch.jans.vollgas-supervisor` (beide Stationen) und
+  `ch.jans.vollgas-monitor` (MacBook) tragen unveraendert `.disabled-260729` und sind in
+  `launchctl list` **nicht** geladen. Nichts angefasst, dem stehenden Entscheid vom 30.07.
+  entsprechend.
+- Mac-Mini-Nachtschicht `ch.jans.nachtschicht` geladen, alle **vier** Slots intakt
+  (23 / 02 / 05 / 13 Uhr).
+- Registry: **alle Lern-Tasks stehen wieder auf enabled=true.** Aus der Drossel vom 03.08.
+  ist nichts haengengeblieben — es gab nichts scharfzuschalten. Auf `false` stehen nur
+  abgeschlossene One-Time-Tasks und die drei bewusst auf Ereignis-Trigger umgestellten
+  Loops (`immobewertung-training`, `spec-training`, plus die alten Einmal-Tasks).
+
+**P1 — keiner.** Kein Blocker, der nur Raphael loesen kann; keine Mail (Regimefrage ist
+entschieden und wird nicht erneut vorgelegt, Kontingent ist nicht erschoepft).
+
+**P2 — der fehlende Tagesdeckel bleibt der groesste Hebel.** Der Entscheid «gleichmaessig
+ueber die Woche» steht seit dem 03.08., die Mechanik dazu existiert nicht. Solange nur die
+DROSSEL-Schwelle greift, wirkt die Steuerung erst, wenn das Kontingent schon weitgehend
+verbraucht ist — also zu spaet, um das Wochenende zu retten. Ein Tagesdeckel (Richtwert
+167/7 ≈ 24 Mio pro Tag, mit Uebertrag) waere der ganze Unterschied zwischen «reicht bis
+Montag» und «Donnerstag dunkel».
+
+**P3 — offene Zuordnungsfrage `energie-training`.** Der Loop liefert (Run 122 in der Nacht
+auf den 04.08.), steht aber in **keiner** Scheduled-Task-Registry, und der Mini-launchd-Job
+`ch.jans.training-energie` traegt seit dem 03.08. `.disabled-260803`. Gefeuert hat ihn
+demnach die Nachtschicht oder `ch.jans.wissens-trigger`. Fuer diesen Regellauf nicht weiter
+vertieft (Sparsamkeitsgebot), aber die Zuordnung gehoert sauber dokumentiert, sonst faellt
+der Loop bei der naechsten Aenderung an einem der beiden Mechanismen still aus — genau die
+Falle, die am 30.07. schon `planungsgrundlagen` 64 Laeufe unzurechenbar gemacht hat.
+
+*Lauf schlank gehalten: Fensterprobe, Budget, Feuermechanismen, Liefer-Delta, Speicher,
+Eintrag. Keine Tiefenuntersuchung, kein Anlass dafuer.*
+
+---
 ## 2026-08-03 22:07 — [FREI, nach WOCHE LEER] Das Wochenkontingent war 47 Stunden erschoepft (01.08. 14:21 bis 03.08. 12:00). Der Hub stand still, die Aufsicht ebenfalls — und genau deshalb steht der Vorfall erst jetzt hier
 
 **Selbstkontrolle zuerst: 56 Stunden ohne Aufsichtseintrag.** Der letzte Eintrag stammt vom
