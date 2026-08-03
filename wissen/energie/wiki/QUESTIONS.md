@@ -2758,3 +2758,32 @@ falls Kapazität vorhanden.
 FAQ-Stand: **196 Kernfragen (F1-F196)**. Destillate-Stand: **212** (sieben neue). Wiki-
 Themenartikel: **30** (ein neuer). Neunte Bestätigung in Folge (Run 111-120), dass die
 Sättigungsdiagnose nicht zutrifft.
+
+## 2026-08-03 — ENTSCHEIDE RAPHAELS: die vier Dauerbrenner sind erledigt
+
+Raphael hat am 03.08.2026 alle vier seit Wochen mitgeführten Punkte entschieden. **Sie sind ab
+sofort aus jeder Prioritätenliste zu streichen** — kein Lauf legt sie erneut vor.
+
+1. **Kaufentscheide — TEILWEISE FREIGEGEBEN, Bündel aufgelöst.** Beschafft werden **SWKI VA105-01**
+   (OP-Klimatisierung, JANS-Kerngeschäft, hält den Reinraum-Artikel auf `emerging`) und
+   **SIA 385/2** (Duschwasser-WRG, betrifft jeden Neubau, hängt an F169). **Gestrichen und nicht
+   mehr vorzulegen: SIA 385/1 und SIA 384.354** — dort hebt eine Anschaffung nur einen Status-Flag,
+   ohne dass eine wiederkehrende Projektfrage daran hängt. Entscheidkriterium für künftige Fälle:
+   **eine Norm wird beschafft, wenn eine Paywall eine wiederkehrende Projektantwort blockiert, nicht
+   wenn sie eine Registerlücke schliesst.** Die B1-Konsolidierung war ohnehin kein Kauf.
+   ⚠ **Die eigentliche Bestellung führt Raphael selbst aus** — Claude löst keine Beschaffung aus.
+   Bis die beiden Dokumente vorliegen, bleiben die betroffenen Aussagen unverändert `emerging`.
+2. **Meta-Punkt M2 — FREIGEGEBEN: Energie wird ein eigenständiger Skill.** Begründung: 212
+   Destillate, 196 belegte Kernfragen und 30 Themenartikel sind weit über dem Punkt, an dem der
+   Umweg über `planungsgrundlagen` noch trägt. Seit Run 45 offen, damit erledigt.
+3. **SIA-2024-Gesundheitsbau-Merge — war bereits am 26.07.2026 ausgeführt.** Der Punkt wurde seither
+   irrtümlich als «wartet auf Zustimmung» weitergeschleppt (Run 107, 108, 116 und weitere), obwohl
+   der Merge-Vollzug im Run-88-Eintrag dieser Datei dokumentiert ist und nur noch **eine**
+   `sia-2024-*`-Datei existiert. **Lehre: einen als erledigt protokollierten Punkt beim Übertragen
+   in die nächste Prioritätenliste am Dateibestand gegenprüfen, nicht aus der Vorliste
+   fortschreiben** — dieselbe Fehlerfamilie wie die Run-116-Ausgabenverwechslung bei der MuKEn.
+4. **Doppeltakt-Kollision — BEHOBEN am 03.08.2026.** Der launchd-Agent `ch.jans.training-energie`
+   wurde per `bootout` entladen, `ch.jans.training-energie.plist` und
+   `ch.jans.training-normen.plist` nach `.disabled-260803` entschärft. Nachgemessen: kein
+   Trainings-Agent mehr geladen, Scheduled Task `energie-training` bleibt alleiniger Taktgeber.
+   Damit endet die Kollisionsserie vom 27./28./29.07. Details in `rules/betrieb-chronik.md`.

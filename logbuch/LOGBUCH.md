@@ -5,6 +5,50 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-03 — Abo-Auslastungs-Check Mac Mini 12:22 (wöchentlich, Ampel GRÜN am frischen Fenster, aber ROT-Nachlese zum abgelaufenen)
+
+**Messung (einmalig, Token-Quelle Keychain mit gesicherter Rotation):** Woche alle Modelle
+**0 %**, Reset **10.08.2026 12:00**; 5-Stunden-Fenster 2 %, Woche Fable 0 %. **Extra-Usage-Zeile
+nicht ausgegeben** → keine Extra-Kosten (Indizschluss, der Connector druckt sie nur bei aktivem
+`extra_usage`; bewusst kein Zweitlauf, Lehre aus dem 429-Vorfall vom 20.07.).
+
+**Tempo:** Das Wochenfenster hat heute um 12:00 zurückgesetzt und war bei der Messung
+**22 Minuten alt**, also 0.22 % der Fensterzeit verstrichen. Tempo-Faktor 0.00 bei 0 %
+Verbrauch. Formal **GRÜN** (< 50 % und Tempo ≤ 1.15), inhaltlich jedoch **ohne Aussagekraft** —
+eine Hochrechnung auf den 100-%-Tag ist bei dieser Basis nicht seriös möglich. Der erste
+belastbare Trajektorien-Wert entsteht beim Lauf in einer Woche.
+
+**Der eigentliche Befund liegt im abgelaufenen Fenster: das Limit ist gerissen, und die
+Prognose vom 30.07. hat exakt getroffen.** Der Lauf vom 30.07. rechnete aus 66 % bei 43 %
+Fensterzeit (Tempo 1.52) hoch, das Limit werde «rund am 01.08.» reissen. Am Lauf-Journal
+nachgemessen ist es am **01.08.2026 um 14:28** gerissen (erster Abbruch `dispatch-versuch1`,
+Station MacBook Pro). Danach brach **jeder** getaktete Lauf bis zum Reset mit «You've hit your
+weekly limit» ab: **10 abgebrochene Läufe** gegen 6 erfolgreiche im Zeitraum 01.–03.08.
+(01.08. 14:28/22:30/23:30, 02.08. 02:30/05:30/13:30/22:30/23:30, 03.08. 02:30/05:30, alle
+`dispatch-versuch1`, `rc=1`, `cost_usd=0`). **Folge: seit dem 01.08. kein Briefing mehr** —
+jüngste Logbuch-Datumssektion ist der 01.08. (Hub-Chef 08:39, Radar 06:55), die Läufe vom
+02.08. und 03.08. sind ersatzlos ausgefallen.
+
+**Das strukturell Wichtige: das Limit riss bei stillstehenden Vollgas-Runnern.**
+Betriebszustand gemessen, nicht fortgeschrieben: STOP-Flags `logbuch/vollgas/STOP-Macmini` und
+`STOP-Macbookpro` unverändert vom **29.07. 02:51** gesetzt, **kein Runner-Prozess in `ps`**.
+Die 100 % des Fensters 27.07.–03.08. entstanden also aus rund 1.6 Tagen Runner-Betrieb plus
+Normalbetrieb, Nachtschicht und Scheduled Tasks. Damit ist belegt, dass die STOP-Flags allein
+das Max-5x-Budget **nicht** halten. Die teuersten Einzelläufe vor dem Riss liegen bei
+CHF-äquivalent 3.00 bis 4.82 USD je Lauf (`dispatch-versuch1`, 01.08. 02:36 / 05:42 / 13:35 /
+14:28) und tragen den Löwenanteil.
+
+**Kostenseitig unauffällig:** die abgebrochenen Läufe zeigen durchgängig `cost_usd=0` und
+brachen ab, statt kostenpflichtig weiterzulaufen; zusammen mit der fehlenden Extra-Usage-Zeile
+ist das der zweite unabhängige Indizschluss, dass **keine Extra-Kosten** angefallen sind.
+
+**Empfehlung (Entscheid Raphael, Rule 260725 — der Check empfiehlt, er handelt nicht):** Vor
+der Wiederaufnahme der Vollgas-Runner ist der **Grundverbrauch** zu klären, nicht nur der
+Runner-Takt. Konkret der Takt von `dispatch-versuch1` (stündliche bis dreistündliche Läufe à
+300 bis 740 s), der das Fenster auch ohne Vollgas allein füllt. Pendenz im Fristen-Register
+oben angelegt; die dortige Beobachtung «bis 03.08.» ist damit abgeschlossen und beantwortet.
+Ausfall-Zähler bleibt 0 (Messung erfolgreich), keine `ALARM.md` vorhanden.
+
 ## 2026-08-01 — Hub-Chef 08:39 (planmässig, mit Befund, Briefing versendet)
 
 **Signale:** Fristen-Register + Logbuch (7-Tage-Horizont), Konversations-Destillat 01.08.

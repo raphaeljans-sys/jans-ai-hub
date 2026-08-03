@@ -21,6 +21,44 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260803 — Doppeltakt des Energie-Loops behoben: zwei Taktgeber fuer denselben Loop
+
+**Befund.** Der Energie-Loop hatte **zwei** Taktgeber: den Scheduled Task `energie-training` UND
+den launchd-Agenten `ch.jans.training-energie` (Kette launchd → `cron-training-mini.sh energie` →
+`claude-run.sh`, Budgetdeckel $25). In **drei Naechten in Folge** (27., 28., 29.07.2026) startete
+der Loop dadurch doppelt. Die jeweils spaetere Instanz trat nach dem Kollisionsschutz (Rule
+`auto-verbesserungen` 260724) korrekt zurueck — aber erst NACH dem Start, also nach Reservierung
+des eigenen Budgetdeckels. Ertrag jeder dieser Zweitinstanzen: ein Kollisionsbericht, kein
+Inhaltslauf. Belege: `wissen/energie/outputs/2026-07-27…`, `…-2026-07-28_energie-nebenlauf-kollision-wiederholung.md`,
+`2026-07-29_energie-nebenlauf-kollision-dritte-nacht.md`.
+
+**Warum es dreimal passierte.** Der Fix war seit dem 27.07. in jedem Bericht als fertiger
+Dreizeiler vorformuliert, aber niemand hat ihn ausgefuehrt: er beruehrt **Persistenz** (launchd)
+und faellt damit unter die Freigabe-Schwelle — Claude gibt sich dort nicht selbst frei, und
+Raphael hatte den Punkt nicht gesehen, weil er nur am Ende der Lauf-Reports stand.
+
+**Behoben am 03.08.2026** auf ausdruecklichen Entscheid Raphaels (Auswahl «launchd abschalten,
+Scheduled Task bleibt»):
+
+```
+launchctl bootout gui/$(id -u)/ch.jans.training-energie
+cd ~/Library/LaunchAgents && mv ch.jans.training-energie.plist ch.jans.training-energie.plist.disabled-260803
+mv ch.jans.training-normen.plist ch.jans.training-normen.plist.disabled-260803
+```
+
+**Nachgemessen** (Sicht-Verifikation, nicht nur rc): `launchctl list | grep ch.jans.training` →
+leer; im Ordner liegen nur noch `.disabled-260803` bzw. inerte `.bak-drossel-*` (launchd laedt nur
+`.plist`); Scheduled Task `energie-training` vorhanden und damit **alleiniger** Taktgeber.
+`ch.jans.training-normen` wurde mitentschaerft, weil die plist scharf im Ordner lag und beim
+naechsten Load denselben Defekt erzeugt haette (in allen drei Berichten angemahnt).
+
+**Kurzregel daraus** (ergaenzt die bestehende Betriebs-Kurzregel «Deaktivierung eines Loops
+braucht ALLE Orte»): **Beim Bereinigen einer Taktgeber-Flotte ist das Abschaltkriterium allein
+die Existenz eines zweiten Taktgebers fuer denselben Loop — nie die Ergiebigkeit des Loops.**
+Ein produktiver Loop mit zwei Uhren ist genauso defekt wie ein unergiebiger. Und: ein Fix, der
+unter die Freigabe-Schwelle faellt, gehoert **aktiv vorgelegt** (AskUserQuestion), nicht ans Ende
+eines Lauf-Reports geschrieben — sonst wiederholt sich der Schaden jede Nacht, wie hier dreimal.
+
 ## 260731e — Dedup allein genuegt nicht: der MESSUMFANG muss mitdefiniert werden
 
 **Die Regel.** Eine Verbrauchsmessung ist erst dann vergleichbar, wenn neben der Dedup-Pflicht

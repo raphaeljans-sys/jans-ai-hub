@@ -109,6 +109,7 @@ Inputs, Ablage) steht dort und laedt beim Aufruf; hier nur der Zweck-Einzeiler.
 | `brandschutz` | VKF-Ertuechtigung, EI/RF-Klassen, Fluchtwege; Modus B fuer Wettbewerb/Vorprojekt |
 | `kostenschaetzung` | Healthcare-Kostenkennwerte, Grobschaetzungen |
 | `honorarberechnung-sia102` | Architektenhonorar nach SIA 102 + Honorarofferte (Pauschal/Text) |
+| `energie` | Energie-Router ueber KB `wissen/energie`: belegte Bauherren-Antworten (Huelle, Waerme, PV/Eigenverbrauch, Foerderung, Energierecht ZH/SZ) |
 | `grobkosten-onepager` | A4-Grobkosten Volumen x Kennwert BKP 1–5 (KB `wissen/grobkosten`) |
 | `machbarkeit-studio` | Orchestrator: interaktives Live-Studio (HTML) + Dossier aus einem Lauf |
 | `website-content` | WordPress-Upload raphaeljans.ch |

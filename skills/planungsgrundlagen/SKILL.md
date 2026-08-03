@@ -26,7 +26,7 @@ Destilliert aus den vier buerofweiten **PL-Grundordnern** auf SharePoint:
 | PL - 01 Kartenportale | Geodaten / Kartenportale | **Kernfaehigkeit** — Agent `geodaten-beschaffer` + Connector `geo-zh.mjs` |
 | PL - 02_Recht_Norm | Recht & Normen | verweist auf Skill `baurecht` + KB `wissen/baurecht` (kein Doppel) |
 | PL - 03 Brandschutz | Brandschutz (VKF) | verweist auf Skill `brandschutz` |
-| PL - 04 Energie | Energie / PV / U-Wert | Agent `energie-berater` (Kandidat fuer eigenes Skill `energie-nachweis`) |
+| PL - 04 Energie | Energie / PV / U-Wert | verweist auf Skill `energie` (eigenstaendig seit 03.08.2026) + Agent `energie-berater` |
 
 ## Wann dieser Skill, wann ein anderer
 
@@ -62,9 +62,15 @@ Rechtsprechung, Dispensrecht, Baurechtsanalysen, SIA/VKF/DIN-Normen).
 ### C — Brandschutz (PL-03) → Skill `brandschutz`
 Frage an `brandschutz` durchreichen (VKF-Norm 2015, Richtlinien, EI/RF-Klassen).
 
-### D — Energie (PL-04) → Agent `energie-berater`
-PV-/Solar-Eignung (Indach/Ziegel/transparent/Fassade/Aufdach), U-Wert/Bauteilkatalog
-(SIA 380/1), Energienachweis-Vorpruefung, ZH-Baueingabe-Energieformulare.
+### D — Energie (PL-04) → **Skill `energie`** (bzw. Agent `energie-berater` fuer den Fan-out)
+**Seit 03.08.2026 fuehrt der eigenstaendige Skill `energie` dieses Feld** (Freigabe Raphael,
+Meta-Punkt M2): jede Energie-Fachfrage dorthin durchreichen — er routet ueber die KB
+`wissen/energie` (212+ Destillate, 196+ belegte Bauherren-Kernfragen, 30 Themenartikel) und
+antwortet mit Quelle und Datenstand. Hier bleibt nur die **Beschaffung** der PL-04-Grundlagen
+im Rahmen eines Grundlagen-Dossiers; der Agent `energie-berater` bleibt der Fan-out fuer
+PV-Eignung, U-Wert/Bauteilkatalog (SIA 380/1) und die Energienachweis-Vorpruefung
+(ZH-Baueingabe-Formulare). Nicht hier fachlich fortschreiben — sonst entsteht die Dublette
+zur KB.
 
 ## Connectoren
 

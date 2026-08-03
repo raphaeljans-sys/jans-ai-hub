@@ -10,12 +10,12 @@
     "ampel": "GRUEN | GELB | ROT | SCHWARZ (Messausfall)",
     "bemerkung": "Kurznotiz fuer den naechsten Lauf"
   },
-  "letzterLauf": "2026-07-30 12:49",
+  "letzterLauf": "2026-08-03 12:22",
   "ergebnis": "ok",
   "ausfaelleInFolge": 0,
-  "letzterWert": 66,
-  "letzterReset": "2026-08-03 12:00",
-  "tempoFaktor": 1.52,
-  "ampel": "ROT",
-  "bemerkung": "Erster erfolgreicher Lauf nach elf Tagen Blindheit (Re-Login 30.07. durch Raphael). 66 % nach nur 43 % der Fensterzeit -> Tempo-Faktor 1.52, deshalb ROT nach der neuen Tempo-Regel (die alte Schwellenlogik haette nur GELB gemeldet). Vollgas-Runner beidseitig gestoppt seit 29.07. 02:51; Empfehlung an Raphael: STOP-Flags bis zum Reset 03.08. 12:00 stehen lassen. Naechster Lauf misst gegen das frische Fenster."
+  "letzterWert": 0,
+  "letzterReset": "2026-08-10 12:00",
+  "tempoFaktor": 0.0,
+  "ampel": "GRUEN",
+  "bemerkung": "GRUEN ist hier ein Nullwert ohne Aussagekraft: das Fenster hatte beim Messen erst 22 Minuten (0.22 % Fensterzeit) bei 0 % Verbrauch. Der Befund dieses Laufs liegt im ABGELAUFENEN Fenster: das Limit riss am 01.08. um 14:28 exakt wie am 30.07. prognostiziert (66 % bei 43 % Fensterzeit, Tempo 1.52); 10 Laeufe brachen mit weekly limit ab, die Briefings vom 02.08. und 03.08. fielen aus. Entscheidend: das geschah bei STILLSTEHENDEN Vollgas-Runnern (STOP-Flags beidseitig seit 29.07. 02:51, kein Runner in ps) - die Flags allein halten das Max-5x-Budget nicht. Hauptlast ist dispatch-versuch1 (300 bis 740 s je Lauf, 3.00 bis 4.82 USD, stuendlich bis dreistuendlich). Pendenz im Register: Raphael entscheidet den Grundverbrauch VOR der Runner-Wiederaufnahme. Keine Extra-Kosten (keine Connector-Zeile plus cost_usd=0 bei allen Abbruechen, zwei unabhaengige Indizien). Naechster Lauf 10.08.: erster belastbarer Tempo-Wert am vollen Fenster, und er soll pruefen, ob der Grundverbrauch-Entscheid gefallen ist."
 }

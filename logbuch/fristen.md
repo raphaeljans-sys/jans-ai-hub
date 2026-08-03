@@ -3,6 +3,34 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Nachtrag 03.08.2026 (wöchentlicher Abo-Auslastungs-Check Mac Mini, 12:22 — **schliesst die
+Beobachtung «bis 03.08.» aus dem Nachtrag vom 30.07. 12:50 ab und legt EINEN neuen Entscheid
+vor**): **Das Wochenlimit ist am 01.08.2026 um 14:28 tatsächlich gerissen — die Prognose des
+30.07.-Laufs hat auf den Tag getroffen — und es riss bei stillstehenden Vollgas-Runnern.**
+Das neue Fenster ist frisch: Messung heute 12:22 ergibt Woche alle Modelle **0 %** (Reset
+**10.08.2026 12:00**), 5-Stunden-Fenster 2 %, **keine Extra-Usage-Zeile → keine Extra-Kosten**
+(Indizschluss). Formal GRÜN, aber bei 22 Minuten Fensterzeit ohne jede Aussagekraft; der erste
+belastbare Trajektorien-Wert entsteht erst beim Lauf am 10.08. **Am Lauf-Journal nachgemessen
+(nicht fortgeschrieben):** erster Abbruch `dispatch-versuch1` auf dem MacBook Pro am 01.08.
+14:28, danach **10 Läufe** mit «You've hit your weekly limit» abgebrochen gegen 6 erfolgreiche
+(01.08. 14:28/22:30/23:30, 02.08. 02:30/05:30/13:30/22:30/23:30, 03.08. 02:30/05:30, alle
+`rc=1`, `cost_usd=0`). **Folge: seit dem 01.08. ist kein Briefing mehr gelaufen** — jüngste
+Logbuch-Datumssektion ist der 01.08. (Hub-Chef 08:39, Radar 06:55); die Läufe vom 02.08. und
+03.08. fielen ersatzlos aus. **Der Entscheid, der daraus folgt, ist ein anderer als bisher
+angenommen:** die STOP-Flags `logbuch/vollgas/STOP-Macmini` und `STOP-Macbookpro` stehen
+unverändert seit **29.07. 02:51**, `ps` zeigt **keinen Runner-Prozess** — das Fenster
+27.07.–03.08. wurde also von Normalbetrieb, Nachtschicht und Scheduled Tasks allein bis auf
+100 % gefüllt. **Die STOP-Flags allein halten das Max-5x-Budget nicht.** Hauptlastträger ist
+nach Journal `dispatch-versuch1` mit 300 bis 740 s je Lauf und 3.00 bis 4.82 USD
+Abo-Äquivalent (01.08. 02:36 / 05:42 / 13:35 / 14:28) bei stündlichem bis dreistündlichem
+Takt. **Empfehlung (Entscheid Raphael, Rule 260725 — der Check empfiehlt, er handelt nicht):
+vor jeder Wiederaufnahme der Vollgas-Runner zuerst den Grundverbrauch entscheiden**, konkret
+den Takt von `dispatch-versuch1`; ein Wiederanlassen der Runner auf den heutigen Grundlast-Takt
+obendrauf würde das frische Fenster mit hoher Wahrscheinlichkeit erneut vor dem 10.08. reissen.
+Keine Änderung an Takten, Flags oder Runner-Zuständen vorgenommen.
+Status: **offen, Entscheid Raphael nötig** (Grundverbrauch `dispatch-versuch1` + Wiederaufnahme
+Vollgas). Nächste Messung 10.08.2026.
+
 Nachtrag Hub-Chef 01.08.2026 (08:39, planmässig, **MIT Befund** — Delta zum Radar-Briefing von 07:12, keine Doppelmeldung): Signale gegenverifiziert (Register + Logbuch 7-Tage-Horizont, Konversations-Destillat 01.08. mit 10 Themenblöcken, `mail-vorfilter.sh 26` **und** ein Gegenlauf mit 60 h, Apple-Mail-Kontenliste direkt abgefragt, bexio `--verzug` und `--abgleich`, M365-Kalender 8 Tage, Sync- und Remote-Queues, heutige Loop-Outputs). **Die Operative ist unverändert gegenüber dem Radar-Briefing von 07:12 — im Mailfenster ist seither nichts eingegangen** (jüngster Fremdeingang bleibt M. Prencipe 31.07. 16:55; danach nur zwei Werbemails auf iCloud). Beide Befunde dieses Laufs sind darum **interne Befunde aus dem Monats-Wissenscheck und aus der Gegenprüfung des eigenen Morgen-Briefings**. **Befund 1 (Korrektur des eigenen Radar-Briefings von heute): der gemeldete «blinde Mailkanal» auf `mail@raphaeljans.ch` existiert nicht.** Der Vorfilter führt die englischen Mailbox-Namen seit mindestens 19.07. in seiner Namensliste, jeder Zugriff steht in einem `try`; der 60-h-Gegenlauf liefert das Konto mit `Inbox` und `Sent Items`. Die null Zeilen im 26-h-Extrakt waren schlicht ein leeres Fenster (jüngster Eingang 31.07. 02:09, vor dem Cutoff). Ein Nullbefund war als Defekt gelesen worden; keine Script-Änderung vorgenommen, die Registerzeile ist als Fehlalarm geschlossen. **Befund 2 (der substanzielle): die hub-weite ae/oe-Drift hat eine benannte Ursache, und sie ist behoben.** Der Monats-Wissenscheck meldete ae/oe-Ersatzschreibungen in 13 von 20 KBs; die genannte Ursache — fehlender UTF-8-Locale-Export in `scripts/claude-run.sh` — wurde selbst am Script verifiziert, nicht übernommen. Regressionsgrund: der Wrapper entstand am 29.07., eine Woche nach dem identischen Fix im Geschwister-Script `dispatch-run.sh` (21.07.), und hat ihn nie geerbt, ist aber seit Rule 260729 der verbindliche Einstieg **aller** automatischen Läufe. Fix nachgezogen, beide Pfade gegen eine C-Locale-Umgebung nachgemessen, Bestandssweep über alle `claude -p`-Aufrufer, Commit `dd239633` verifiziert. Eigene Registerzeile mit den Messwerten. **Aktionen: A4** — diese beiden Registerzeilen und der Logbuch-Eintrag. Sonst nichts: **A1 nicht qualifiziert** (RE-00087 CHF 15'000 nach 107 Tagen auf Mahnstufe 2 = per Whitelist immer nur Entwurf; RE-00098/99 in laufender Frist bis 03.08.; RE-00100 bleibt gesperrt, solange die Fälligkeit in bexio auf 30.07. steht; RE-00101 erst 1 Tag überfällig und steht neben der laufenden Planlieferung Bohlweg). **A2 nicht qualifiziert** (kein neuer, in einer Mail bestätigter Termin; die zwei Kalendereinträge bis 08.08. stehen bereits). **A5 bewusst unterlassen** — der KISPI-Nachfass-Entwurf (id 12050) liegt seit heute früh geprüft im Postfach und braucht keine zweite Fassung; ein weiterer Entwurf wäre Leerlauf. Keine Zahlung, keine Buchung, keine Löschung, kein Versand ausser dem Briefing. Kein `git` über SMB (nativer Committer).
 
 Nachtrag Logbuch-Radar 01.08.2026 (06:55, planmässig, **ruhiger Tag mit drei neuen Punkten**): Quellen vollständig abgeklopft (Register + Journal, Konversations-Destillat 01.08. mit 10 Themenblöcken, `mail-vorfilter.sh 26`, danach die relevanten Threads im Original, bexio `--verzug`, M365-Kalender 8 Tage, lokaler Kalender, Sync- und Remote-Queues). **Das Mailfenster ist das dünnste seit Wochen: auf rj@ liegen seit 31.07. 05:00 genau sechs Nachrichten, davon zwei eigene Loop-Briefings und eine Werbemail; mail@ trägt nichts ausser zwei Anthropic-Login-Links, outlook.com nichts.**
