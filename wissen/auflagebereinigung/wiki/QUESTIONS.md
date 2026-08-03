@@ -5,6 +5,18 @@ Wiki-Artikel überführen und hier streichen.
 
 ## Offen
 
+- **Wann sind die Nachweisdokumente aus einer «mit Anmerkungen erfüllt»-Genehmigung beizubringen —
+  vor der Ausführung oder erst zur Bauabnahme?** (aufgeworfen 03.08.2026, Logbuch-Radar, Fall
+  2619 KISPI / BE 1171/26 Ziff. 18 und 19). Die Feuerpolizei genehmigt Auflagen mit der Formel
+  «Die Auflagen gemäss den oben genannten Ziffern sind mit Anmerkungen erfüllt» und hält fest,
+  dass nachträgliche Abweichungen vor der Ausführung bekanntzugeben sind. Aus den Anmerkungen
+  entstehen aber eigene Nachweispflichten (im Fall: Unterlagsboden EI60, Bodendeckbelag RF3,
+  VKF-Nummern je Bauteil). Ob diese Nachweise Bedingung der Ausführungsfreigabe sind oder erst
+  zur Abnahme vorliegen müssen, geht aus dem Schreiben nicht hervor; RJ hat die Frage am
+  03.08.2026 17:02 dem Brandschutz-Fachplaner gestellt, eine Antwort liegt nicht vor. Klärt sich
+  der Punkt, gehört er nach [[fristenlogik-bauentscheid-zh]] — er entscheidet, ob solche
+  Nachweise auf den kritischen Pfad der Baufreigabe gehören oder nicht.
+
 - **Was verlangt der Behördenkommentar «Art. 12» konkret?** (aufgeworfen 31.07.2026, Hub-Chef,
   Fall 2619 KISPI / BE 1171/26 Ziff. 16). Drei der fünf Textkommentare von SRZ zur Stellungnahme
   Brandschutz bestehen nur aus «Art. 12» bzw. «Art. 12!», gesetzt bei der Beurteilung nach

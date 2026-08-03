@@ -2,6 +2,21 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissens-Rücklauf aus dem Logbuch-Radar, Fall 2619 KISPI)
+
+- Report abgelegt: `outputs/2026-08-03_srz-genehmigung-ziff18-19-und-ugz-strang.md`. Drei belegte
+  Befunde zur Behördenpraxis Stadt Zürich: (1) die Feuerpolizei schliesst Auflagen mit einem
+  Genehmigungsschreiben an den Brandschutz-Fachplaner ab, dessen materieller Gehalt
+  ausschliesslich in den PDF-Anmerkungen steht (zweifach belegt, Ziff. 16 am 31.07. und
+  Ziff. 18/19 am 03.08.); (2) eine UGZ-Stellungnahme kann drei Wochen beim Fachplaner liegen
+  bleiben, ohne den Architekten zu erreichen — der Auflagen-Tracker darf sich bei
+  Gebäudetechnik-Fachbereichen nicht auf den eigenen Posteingang verlassen; (3) schriftlich
+  gezogene Rollenabgrenzung Brandschutz gegen Lüftungsplanung (Lüftungsabschnittsflächen, BSK,
+  Transitdämmungen sind Leistung des Lüftungsplaners). Dazu der belegte Verfahrensweg des UGZ
+  mit Stichtag 31.12.2025 (davor Stadt-Upload, danach kantonales Tool EVEN) und der
+  Ausschliesslichkeit von EN-105 für Lüftungsnachweise. Eine offene Frage in `wiki/QUESTIONS.md`
+  ergänzt. Kein Wiki-Artikel umgebaut.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F46 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Dreifach-Klammer-Tippfehler in `aemter-stadt-zuerich. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
