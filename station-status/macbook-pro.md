@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.08.2026 01:32:19
+Stand: 04.08.2026 01:42:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 04.08.2026 01:32:19
 - 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 1f4b069e nas-selfcommit: 3 Datei(en) 2026-08-04 01:30
+- afcc1b68 normen: letzte offene PL-02-Position destilliert (BKZ-Kontaktseite, kein normativer Inhalt), PL-02-Kerninventar 69/69

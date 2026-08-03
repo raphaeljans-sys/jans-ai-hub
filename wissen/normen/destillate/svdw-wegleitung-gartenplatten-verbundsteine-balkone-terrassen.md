@@ -186,3 +186,80 @@ selbst nicht in Tabellenform enthält.
   Kürzel ohne Jahreszahl zitiert.
 
 Siehe auch: [[REGISTER]].
+
+---
+
+## Verifikation Run 43 (04.08.2026) — VERDIKT BEANSTANDET, 8 Kernbefunde
+
+Alle 9 Scanseiten bei 200 dpi gerendert und visuell gelesen (die Datei hat **keinen
+Textlayer**), Schlüsselstellen bei 400 dpi nachgezoomt.
+
+**K2 — vom Hauptprozess am eigenen Rendering bestätigt: SIA 244 Tabelle 4 war falsch
+gelesen.** Das Destillat führte 300/200/150 mm als «Mindestbreiten der Bettung». Es sind
+**Mindestbreiten der PLATTE, gekoppelt an die Plattendicke**: Dicke 20 mm → Breite min.
+300 mm, Dicke 30 mm → min. 200 mm, Dicke 40 mm → min. 150 mm (Spalte «ungebunden, lose
+verlegt»; in der Spalte «gebunden, in Mörtel verlegt» steht «alle Formate»). Die Regel «je
+dünner die Platte, desto grösser muss ihr Format mindestens sein» ging damit verloren.
+**Zwei ganze Zeilen derselben Tabelle fehlten:** Seitenverhältnis **max. 1:1,5** (beide
+Bauweisen) und die typische Bettungsdicke — ungebunden **≥ 30 mm**, gebunden **30-100 mm bei
+Splittmörtel, 20-50 mm bei Sandmörtel**. Die frühere Pauschalisierung «Mörtelbett 20-100 mm»
+verlor die Unterscheidung Splitt-/Sandmörtel.
+
+**K1 — Mörtelverbot und Fugenpflicht waren zu einem Satz verschmolzen.** Die Quelle trennt:
+das Mörtelverbot in den Plattenfugen gilt **generell**, und befahrbare Beläge müssen wegen
+der Schubkräfte **immer mit Fugen** ausgebildet werden. Das Destillat las beides als eine
+Regel für befahrbare Beläge — damit wären Mörtelfugen auf nicht befahrbaren Terrassen
+zulässig erschienen (sind sie nicht), und die Fugenpflicht befahrbarer Beläge wäre nicht
+ausgeschrieben worden.
+
+**K4 — «Verlegetoleranz 2-3 mm» war eine Fehletikettierung.** Beim Einbau verlangt die
+Wegleitung **ebenbündige** Verlegung. Die 2-3 mm sind die Höhendifferenz, die durch
+**spätere Setzungen** entstehen darf. Wer die alte Fassung in ein LV übernahm, schrieb eine
+Einbautoleranz aus, die es nicht gibt — und kehrte damit die Beweislast bei der Abnahme um.
+
+**K3 — die praktisch wichtigste Fallback-Regel fehlte.** Wird das Mindestgefälle von 1,5 %
+nach SIA 318 nicht erreicht, muss die Entwässerung **durch die Plattenfugen** sichergestellt
+werden, konkret über **offene Fugen mit Abstandhaltern**. Das ist der Regelfall bei
+Bestandsbalkonen mit zu flachem Untergrund.
+
+**K5 — das Prüfverfahren der äusseren Beschaffenheit fehlte samt beiden Entlastungsklauseln.**
+Geprüft wird **bei Tageslicht, in 2 m Abstand von jeder Kante** einer quadratisch ausgelegten
+Probefläche. Ohne den 2-m-Abstand ist die Regel wertlos, weil jede Nahbetrachtung
+Beanstandungen erzeugt. Ferner: **Ausblühungen** und **Abweichungen der Farbintensität** aus
+unvermeidbaren Einfärbungs- und Erhärtungsschwankungen **gelten nicht als bedeutend** — die
+beiden Sätze, die im Mängelstreit tragen.
+
+**K6 — Ausblühungen: die einzige Frist des Kapitels fehlte.** Auch abgedeckte Paletten müssen
+**innerhalb von zwei Wochen** eingebaut werden, weil unter der Abdeckung Schwitzwasser
+entsteht. Und die «bis zu 2 Jahre» betreffen den **Abbau** des Calciumcarbonats (Umwandlung
+mit CO₂ und Wasser, Abtrag durch Regen, eingefärbte Beläge erhalten ihre Farbe zurück), nicht
+die Dauer des Ausblühens — das ist das eigentliche Argument gegenüber der Bauherrschaft.
+
+**K7 — Fundstellen systematisch um eine Seite verschoben** (Untergrund B-S. 4 statt 3,
+Schutzschicht B-S. 4-5 statt 3-4, SIA-318-Wert B-S. 6 statt 5, Entwässerungsrinnen B-S. 10
+statt 9). Bei Fundstellenpflicht nach Rule `normen-referenz` ist das ein Substanzfehler:
+die Nachprüfung schlägt fehl. Zählweise: Scanseite n trägt die Booklet-Seiten 2n-1 und 2n.
+
+**K8 — Ausgabenbruch bei SIA 244.** Die Wegleitung zitiert «SIA 244/ 4 32 2», eine Ziffer der
+**alten Dezimalklassifikation**. Der beigelegte Auszug der Ausgabe **2006** gliedert nach
+2.5.x / 2.6.x. Das Destillat glättete die Nummer zu «4.32.2» und stellte sie neben den
+2006er Auszug — wer sich in einem Vertrag auf «SIA 244:2006, Ziff. 4.32.2» stützt, zitiert
+eine Ziffer, die es dort nicht gibt.
+
+**Zum Fremdauszug (Befund aus Run 42) — bestätigt und präzisiert.** Scanseite 9 trägt die
+Fusszeile «SIA 244, Copyright © 2006 by SIA Zurich», Seitenzahl 11, und ist kein SVDW-Element.
+Die Wegleitung selbst endet auf Scanseite 8 links mit B-S. 15. **Zur Wegleitung gehören die
+Scanseiten 1 bis 8, zum Fremdauszug ausschliesslich Scanseite 9.**
+
+**Zur Datierung — die Suche hat drei Anhaltspunkte ergeben, keinen Beleg.** Harte Obergrenze:
+die PDF-Metadaten datieren den Scan auf den **19.02.2013** (Konica-Minolta-Kopierer), womit die
+Wegleitung spätestens von Februar 2013 stammt. Indiz für deutlich früher: die alte
+SIA-244-Gliederungsziffer (siehe K8). Drittens die Verbandsbezeichnung SVDW/ASTF, die heute
+nicht mehr geführt wird. Ein Ausgabedatum trägt das Dokument weiterhin nirgends.
+
+**Bestätigt** wurden unter anderem Plattenstärken und Befahrbarkeitsgrenzen, Vlies min.
+200 g/m² mit 10 cm Überlappung, Splitt 3-6 mm, Bettungsdicke 3-5 cm, Unebenheit max. 2 cm auf
+4 m, Stelzlager 4-60 cm und bis 1000 kg, Fugenbreite 2-4 mm, Diagonalverlegung, Anschlussplatten
+min. 8 cm, Umkehrdach-Auflast 12 kg/m² je 10 mm Dämmdicke, Abstände zu Kupfer 20 mm und
+verzinntem Chromstahl 15 mm sowie die **Herstellertoleranz-Tabelle vollständig**. Ebenso
+bestätigt: die doppelte Ziffer 3.3 im Original und das fehlende Ausgabedatum.

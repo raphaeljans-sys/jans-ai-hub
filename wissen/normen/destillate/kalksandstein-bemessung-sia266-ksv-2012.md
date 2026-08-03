@@ -79,3 +79,74 @@ Statische Berechnung «aufgrund der Norm SIA 260, Grundlagen der Projektierung v
 - Das angekündigte «Computerprogramm zur Bemessung von Mauerwerkswänden» (S.2, «im weiteren ist vorgesehen … zu entwickeln») ist im Merkblatt selbst nicht enthalten; unklar, ob und wo dieses Tool später erschienen ist.
 - Die Diagrammkurven (S.6, S.8, S.13) sind Kurvenscharen ohne numerische Tabellenwerte; die im Destillat zitierten Zahlenwerte stammen ausschliesslich aus den zwei durchgerechneten Beispielen (S.9-11), nicht aus einer vollständigen Digitalisierung der Diagramme. Für Bemessungsfälle ausserhalb dieser Beispiele sind die Original-Diagramme direkt heranzuziehen, nicht dieses Destillat.
 - Keine Angaben im Merkblatt zu Brandwiderstand, Schallschutz oder Wärmeschutz von Kalksandstein-Mauerwerk (ausserhalb des Geltungsbereichs dieses Dokuments).
+
+---
+
+## Verifikation Run 43 (04.08.2026) — VERDIKT BEANSTANDET, 10 Kernbefunde
+
+⚠ **Dieses Destillat ist bis zur Nachführung von K1, K2 und K3 NICHT als Bemessungsgrundlage
+zu verwenden.** Alle 16 Seiten wurden bei 300 dpi gerendert und einzeln visuell gelesen
+(keine Textextraktion). Die genannten Kennwerte sind fast durchwegs korrekt; beanstandet ist,
+dass drei tragende Rechengrössen so unvollständig wiedergegeben waren, dass eine Bemessung
+nach diesem Destillat **quantitativ falsch** herauskommt.
+
+**K2 — der schwerste Fehler, vom Hauptprozess am eigenen 300-dpi-Rendering der S. 11
+bestätigt.** Das Destillat setzte `l₁ = bezogene Spannweite der Decke` mit der Spannweite
+gleich. Die Quelle koppelt l₁ an die Lagerung: Aussenwände l₁ = l bzw. 0,8 l, **Zwischenwände
+l₁ = 0,6 l**. Beispiel 2 rechnet wörtlich «l₁ = 0.6 · 5.0 = 3.00 m». **l₁ geht in dritter
+Potenz** in die ϑd-Formel ein — wer die Rohspannweite einsetzt, liegt bei einer Zwischenwand
+um den Faktor (1/0,6)³ ≈ **4,6 zu hoch**. Das ist der grösste Einzelfehler, den dieses
+Destillat ermöglichte.
+
+**K1 — Gebrauchstauglichkeit: falsche Lastannahme und falscher E-Modul.** Das Destillat
+beschrieb den genaueren Nachweis als «dieselbe Formel, aber mit γ = 1,0». Die Quelle rechnet
+auf S. 10 mit einer eigens eingeführten **reduzierten Langzeit-Nutzlast q_ser,lang = 2,0 kN/m²**
+und im Nenner mit **E'c = 12 · 10⁶ kN/m²** (Langzeitwert mit Kriecheinfluss), nicht mit dem
+E'cd = 10 · 10⁶ der Tragsicherheitsbeispiele. Wer der bisherigen Beschreibung folgte, erhielt
+ϑ = 0,0080 statt 0,0055 rad, also rund **45 % zu viel**, und daraus eine deutlich zu grosse
+rechnerische Rissweite. Weder q_ser,lang noch E'c kamen im Destillat vor.
+
+**K3 — die Rissweiten-Diagramme (S. 8) waren nicht anwendbar.** Es fehlten der Zahlenwert
+**Nxo = 100 kN/m¹** und alle drei Transformationen, ohne die die Diagramme nicht lesbar sind:
+Ordinate = r200 · Nxo/Nx, Abszisse = hcr · √(Nx/Nxo), Kurvenparameter = ϑ · √(Nxo/Nx) (S. 7).
+Das Destillat charakterisierte Nxo korrekt als Hilfsgrösse, verschwieg aber ihren Wert.
+
+**K5 — ein Druckfehler der Quelle war stillschweigend korrigiert worden.** S. 7 druckt
+r = h₀ / (200 · r₂₀₀), das Beispiel S. 10 rechnet r = h₀/200 · r₂₀₀. Die Quelle widerspricht
+sich selbst; das Destillat übernahm die richtige Fassung, **ohne den Widerspruch zu
+kennzeichnen**. Damit ging die eigentlich wertvolle Information verloren: diese publizierte
+Anwendungshilfe trägt in einer Gebrauchstauglichkeitsformel einen Setzfehler.
+
+**K4 — Fassungsstand SIA 262 falsch als undatiert geführt.** S. 12 überschreibt das Schema
+ausdrücklich «gemäss Norm **SIA 262 (2003)**». Das Bemessungsschema für bewehrtes Mauerwerk
+stützt sich also auf die Ausgabe 2003 und ist bei heutiger Verwendung gegen die geltende
+SIA-262-Ausgabe zu prüfen.
+
+**K10 — Beispiel 1 überschreitet die Anforderung.** r_eff = 0,24 mm liegt über der
+SIA-266-Anforderung r ≤ 0,20 mm (normal). Deshalb schreibt die Quelle dort keinen
+Nachweisvermerk, sondern einen Beurteilungstext zum Zweischalenmauerwerk. Das Destillat führte
+beide Zahlen, stellte die Überschreitung aber nicht fest — der Wert darf **nicht** als
+Referenz für ein einschaliges Bauteil übernommen werden.
+
+**Weitere Kernbefunde:** K6 der Interpolationsvermerk steht auf S. 5 und gilt der
+Nxd-über-hcr-Kurvenschar, nicht den kN-Diagrammen der S. 4 · K7 das als wörtlich ausgewiesene
+Normzitat «SIA 261, Leistungseinwirkungen» heisst in der Quelle **Lasteinwirkungen** ·
+K8 die Anweisung zu freistehenden Wänden ist ein Entweder-oder: die vertikale Bewehrung ist
+der **Ersatz** für die nicht mögliche seitliche Halterung, nicht eine Zusatzforderung ·
+K9 der rote Block «Teilweise eingebundene Decken» (S. 2, Art. 4.3.1.3 SIA 266, hw =
+Geschosshöhe, Einbundlänge bei der Bemessung berücksichtigen) fehlte ganz.
+
+**Ebenfalls nachzutragen:** die Einspann-Definition der S. 11 — «eine Mauerwerkswand gilt dann
+als eingespannt, wenn das Tragelement, auf dem sie aufliegt, sich nicht verdrehen kann»
+(vom Hauptprozess am eigenen Rendering mitgelesen). Sie ist die Bedingung, unter der
+hcr = 0,7 hw überhaupt angesetzt werden darf.
+
+**Zwei bisherige «offene Punkte» sind gegenstandslos und gestrichen:** die SIA-266-Ausgabe ist
+am abgebildeten Deckblatt S. 2 direkt lesbar (**SIA 266:2003 / SN 505 266**, ersetzt zusammen
+mit SIA 266/1 die Empfehlung SIA V177:1995); und S. 14 nennt für nichttragende Innenwände
+sehr wohl Brand-, Wärme-, Feuchtigkeits- und Schallschutz — qualitativ, ohne Kennwerte.
+
+**Bestätigt** wurden Titel, Verfasser, Ausgabe Herbst 2012, Herausgeber KSV Lyss, sämtliche
+Festigkeits- und Beiwerte (fxd 3,5 / fxk 7,0 N/mm², Exd 3,5 / Exk 7,0 kN/mm², γG 1,35, γQ 1,5,
+k1 1 bzw. 2), die vier Wanddicken 120/145/180/200 mm, beide Rissweiten-Anforderungen
+(0,20 bzw. 0,05 mm), γM 2,0 / γS 1,15 und die Beispielwerte beider Rechenbeispiele.

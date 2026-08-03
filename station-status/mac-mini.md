@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.08.2026 01:32:49
+Stand: 04.08.2026 01:42:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 04.08.2026 01:32:49
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1f4b069e nas-selfcommit: 3 Datei(en) 2026-08-04 01:30
+- afcc1b68 normen: letzte offene PL-02-Position destilliert (BKZ-Kontaktseite, kein normativer Inhalt), PL-02-Kerninventar 69/69

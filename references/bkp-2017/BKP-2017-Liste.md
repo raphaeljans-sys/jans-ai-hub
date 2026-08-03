@@ -1045,7 +1045,13 @@ Diese Liste dient als verbindliche Referenz für alle BKP-Nummerierungen in JANS
 - **398.5** Brandschutzingenieur (Betriebseinrichtungen)
 
 ### Häufig benötigte Codes für Healthcare-Projekte (KISPI etc.)
-- **271.10** Innenputze (häufig im LV)
+- **271.0** Innenputze (häufig im LV) — ⚠ **korrigiert 04.08.2026:** dieser Block führte bis dahin
+  «271.10», ein Code, den das BKP 2017 **nicht kennt**. Am Original-PDF nachgezählt: die
+  Gliederung führt unter 271 Gipserarbeiten ausschliesslich 271.0 Innenputze / 271.1
+  Trockenbauarbeiten / 271.2 Gerüste; **zweistellige Nachkommastellen existieren im BKP 2017
+  überhaupt nicht** (Suche über die ganze Liste: null Treffer auf das Muster `NNN.NN`). Der
+  Abschnitt A dieser Datei führte 271.0 die ganze Zeit korrekt — die Datei widersprach sich
+  also selbst, und der falsche Wert stand ausgerechnet im Block, den man beim Devisieren liest.
 - **271.1** Trockenbauarbeiten (EI-Wände, Brandschutz)
 - **225.4** Brandschutzbekleidungen
 - **281.1** Fugenlose Bodenbeläge (häufig in OP-/Klinikbereich)

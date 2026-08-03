@@ -131,3 +131,65 @@ Nur drei Stufen (keine Q1):
   JANS-Archiv vor und wurden nicht eingesehen; bei Detailfragen zur Ausführung (z. B. genaue
   Produktwahl der Spachtelmasse) müsste eines dieser Quelldokumente zusätzlich beschafft
   werden.
+
+---
+
+## Verifikation Run 43 (04.08.2026) — VERDIKT BEANSTANDET, 6 Kernbefunde eingearbeitet
+
+Unabhängige Widerlegungs-Prüfung, alle vier Seiten bei 300 dpi gerendert und visuell gelesen.
+**Kein einziger Zahlenwert war falsch** — die 1,0-mm-Schwelle, die 3-mm-Schichtdicke, die fünf
+NPK-Kapitel, die drei Verbandsadressen und die Datierung 01/2006 sind am Original bestätigt.
+Beanstandet wurde das Destillat wegen **systematisch fehlender Vorbehalts-Klauseln**, also
+genau der Sätze, die im Abnahmestreit den Ausschlag geben.
+
+**K1 (vom Hauptprozess am eigenen Auszug wörtlich nachgelesen) — der Streiflicht-Vorbehalt bei
+Q4 fehlte auf beiden Plattenarten.** Ziff. 3.4 und Ziff. 4.4 enden je mit der Aussage, dass
+unerwünschte Effekte im Streiflicht weitgehend vermieden, **aber nicht völlig ausgeschlossen**
+werden können. Ohne diesen Satz erscheint Q4 als streiflichtfreie Stufe. Wer daraus einen
+LV-Text ableitet, sichert der Bauherrschaft eine Eigenschaft zu, die das Merkblatt
+ausdrücklich **nicht** zusichert — der teuerste denkbare Fehler dieses Dokuments, weil Q4 die
+Stufe ist, über die gestritten wird.
+
+**K2 (ebenfalls selbst nachgelesen) — Q3-geglättet:** im Streiflicht sichtbar werdende
+Abzeichnungen sind nicht völlig auszuschliessen und **zulässig** (Ziff. 5.2). Der Vorbehalt
+fehlte; damit fiel die Argumentationsgrundlage des Unternehmers bei der Abnahme weg.
+Zur Abgrenzung, ebenfalls am Original: Q2-geglättet sagt härter «Schattenfreiheit bei
+Streiflicht kann **nicht** erreicht werden», Q4-geglättet «Schattenbildung bei Streiflicht
+wird **weitgehend** ausgeschlossen». Die drei Stufen sind sprachlich fein abgestuft.
+
+**K3 — Q4-geglättet, Anwendungsbereich unvollständig:** er umfasst neben glänzenden
+Wandbekleidungen und Glättetechniken auch **Beschichtungen bis zu mittlerem Glanz**
+(Ziff. 5.3). Ohne diesen Zusatz landet ein seiden- bis mittelglänzender Anstrich auf
+Weissputz fälschlich bei Q3-geglättet — der häufigste Anwendungsfall im Wohnungsbau.
+
+**K4/K5 — Vollgipsplatten (Ziff. 4) sind nicht bloss «Gipsplatten mit Abweichungen».**
+Q1 verlangt sattes Füllen der Plattenfugen und **Schliessen von Fehlstellen**; ein Überziehen
+sichtbarer Befestigungsmittel (so bei Gipsplatten Ziff. 3.1) kommt hier gar nicht vor.
+Q2 nachspachtelt ausdrücklich **Stoss- UND Lagerfugen** — die horizontalen Lagerfugen fehlten
+im Destillat und damit in jeder daraus abgeleiteten Position.
+
+**K6 — BKP-Zuordnung war zu eng.** Ziff. 1 nennt neben den Gipser-Kapiteln auch NPK 651
+(Deckenbekleidungen aus Gipsbauplatten), 675 (Maler-/Tapeziererarbeiten innen) und 676
+(Malerarbeiten aussen). Nach BKP 2017 entspricht das **283.2, 285.1, 282.1 und 227.1**.
+Das Merkblatt ist gerade die Grundlage, die ein **Maler-LV (BKP 285.1)** für seine
+Untergrundforderung braucht; die frühere Zuordnung lenkte es ausschliesslich in die
+Gipser-Positionen.
+
+⚠ **BKP-Korrektur mit Reichweite über dieses Destillat hinaus.** Dieses Destillat führte
+Innenputze als «BKP 271.10». **Diesen Code kennt das BKP 2017 nicht** — richtig ist
+**BKP 271.0**. Am Original-PDF nachgezählt: unter 271 Gipserarbeiten stehen nur 271.0 / 271.1 /
+271.2, und die Gliederung enthält überhaupt keine zweistelligen Nachkommastellen. Der Fehler
+stammte aus dem Schnellreferenz-Block der Hub-Referenzliste, die sich damit selbst widersprach
+(ihr systematischer Teil führte 271.0 korrekt). Referenzliste und Rule `bkp-2017-referenz` sind
+am 04.08.2026 korrigiert; die Streuung lag bei 15 Hub-Dateien.
+
+**Nebenbefunde eingearbeitet:** Q2 verbietet auch sichtbar bleibende **Oberflächenbeschädigungen**;
+Q3-geglättet gilt für matte, **nicht strukturierte** Beschichtungen; die 1,0-mm-Schwelle steht
+auch in Ziff. 4.2/4.3; die Fusszeile trägt Seite 1 nicht. **Offener Punkt neu:** für exakt
+1,0 mm trifft das Merkblatt keine Zuordnung (es arbeitet durchgehend mit strikt grösser bzw.
+kleiner) — beim Devisieren ein realer Grenzfall.
+
+**Methodisch bemerkenswert:** Das Frontmatter deklarierte «reiner Fliesstext, kein Rendering
+notwendig». Die Gegenprüfung bei 300 dpi hat das **bestätigt** — das Dokument enthält keine
+Tabelle, keine verbundenen Zellen, keine Farbcodierung. Das ist in dieser KB der erste Fall,
+in dem sich eine Prüfzusicherung des Destillats am Original als zutreffend erwiesen hat.
