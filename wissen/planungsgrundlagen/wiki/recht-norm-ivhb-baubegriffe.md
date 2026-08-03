@@ -103,8 +103,8 @@ entfernbare Bauten (z.B. Autounterstände) **können** Gebäude sein.
 **Gesamthöhe max. 4,0 m** (bei Schrägdächern 5,0 m), enthalten **nur
 Nebennutzflächen** (SIA 416:1993 — Waschküche, Schutzraum, Abstellraum,
 Fahrzeugeinstellraum; **nicht** Hobbyräume oder Verkehrsflächen wie
-Korridore/Treppenhaeuser). Kleinbaute = freistehend (Garage, Geräteschuppen,
-Garten-/Gewaechshaus, Pavillon); Anbaute = mit anderem Gebäude
+Korridore/Treppenhäuser). Kleinbaute = freistehend (Garage, Geräteschuppen,
+Garten-/Gewächshaus, Pavillon); Anbaute = mit anderem Gebäude
 zusammengebaut. **Änderung:** die 50-m²-Grundflächenbeschränkung ist neu
 (frühere Regelung "besondere Gebäude" § 273 PBG a.F. kannte kein fixes
 Flächenmass). Feuerpolizeiliche Brandschutzabstands-Vorschriften (VKF
@@ -114,7 +114,7 @@ VKF-Definition separat prüfen.
 
 ### Unterirdische Bauten / Unterniveaubauten (§§ 2b, 2c ABV)
 **Unterirdische Bauten (§ 2b):** Gebäude, die **mit Ausnahme der
-Erschliessung sowie Geländer/Bruestungen vollständig unter dem
+Erschliessung sowie Geländer/Brüstungen vollständig unter dem
 massgebenden bzw. tiefer gelegten Terrain liegen**. **Verschärfung**
 gegenüber § 269 PBG a.F.: früher machten Abgrabungen ein unterirdisches
 Gebäude nicht automatisch zu einem oberirdischen — neu muss es tatsächlich
@@ -170,12 +170,12 @@ Seiten **um 3,3 m** (§ 280 Abs. 2 PBG), sofern BZO nichts anderes bestimmt;
 (3) Niveaulinien-Bezug entfällt neu vollständig — unterer Messpunkt liegt
 immer auf dem massgebenden Terrain (früher teils auf Niveaulinien, was zu
 Rechtsunsicherheit führte, da viele Niveaulinien nach Strassenbau aufgehoben
-werden); (4) offene Brüstungen/Gelaender bei Flachdächern zählen **immer**
+werden); (4) offene Brüstungen/Geländer bei Flachdächern zählen **immer**
 mit (im Gegensatz zur alten "Gebäudehöhe", die offene Geländer nicht
 anrechnete). Steilere Dächer als 45° sind neu **voll zulässig** (bisher nur
 zulässig, wenn die Gebäudehöhe nicht ausgeschöpft war), sofern die
 Gemeinde sie nicht per Dachgestaltungsvorschrift verbietet — betrifft
-insbesondere Mansarden-/Walm-/Tonnendaecher.
+insbesondere Mansarden-/Walm-/Tonnendächer.
 
 ### Kniestockhöhe (Ziff. 5.3, § 275 Abs. 2 PBG)
 **Amtlicher Wortlaut:** «Die Kniestockhöhe ist der Höhenunterschied
@@ -273,7 +273,7 @@ verkleinert, wird bis Unterkante Balkenlage gemessen.
   **GFZ = anrechenbare Grünfläche ÷ anrechenbare Grundstücksfläche**;
   anrechenbar sind **natürliche/bepflanzte, nicht versiegelte** Bodenflächen,
   die nicht als Abstellfläche dienen (Steingarten mit minimaler Bepflanzung
-  zählt, Dachbegrünung/Pflanzentroege/Rasengittersteine-Abstellflaechen
+  zählt, Dachbegrünung/Pflanzentröge/Rasengittersteine-Abstellflächen
   **nicht**). Im Gegensatz zur alten Freiflächenziffer zählen unbebaute
   **versiegelte** Flächen nicht mehr mit.
 - **Ausnützungsziffer (§ 254 PBG, kein IVHB-Begriff — Kt. ZH behält AZ statt
@@ -281,7 +281,7 @@ verkleinert, wird bis Unterkante Balkenlage gemessen.
   15.1.2009 befreit Konkordatskantone davon):** AZ = anrechenbare
   Geschossfläche ÷ anrechenbare Grundstücksfläche; anrechenbar sind alle
   dem Wohnen/Arbeiten/dauernden Aufenthalt dienenden Räume in Vollgeschossen
-  (inkl. Erschliessungsflächen/Sanitaerraeume); Dach-/Attika-/Untergeschoss-
+  (inkl. Erschliessungsflächen/Sanitärräume); Dach-/Attika-/Untergeschoss-
   Flächen nur, soweit sie die bei Gleichverteilung der zulässigen Ausnützung
   auf die Vollgeschosszahl rechnerische Fläche **überschreiten**.
 
@@ -317,7 +317,7 @@ soll dem Hauptvolumen **untergeordnet** sein (deckt sich mit dem bereits belegte
 zu Attikageschossen oben: kleineres, zurückversetztes Geschoss).
 
 **Solaranlagen — 5 Kategorien nach Denkmalschutz-Anspruch** (direkt anschlussfähig an den Agenten
-`energie-berater`/PV-Eignungspruefung):
+`energie-berater`/PV-Eignungsprüfung):
 
 | Kat. | Situation | Einordnung |
 |---|---|---|
@@ -335,22 +335,22 @@ Dach integrieren.
 
 **Einordnung:** ergänzt die oben belegten **rechtlich verbindlichen** IVHB-/PBG-Masse (§ 292 PBG
 Dachaufbauten-Breite, § 275 PBG Attikageschoss) um die **gestalterische** Beurteilungsebene der
-Stadt Zürich — relevant für Wettbewerbs-/Bewilligungsgespraeche mit dem Amt für Städtebau,
+Stadt Zürich — relevant für Wettbewerbs-/Bewilligungsgespräche mit dem Amt für Städtebau,
 aber selbst keine eigenständige Rechtsnorm.
 
 ## Verhältnis zur bereits dokumentierten ZH↔SZ-Messweisen-Tabelle
 
 `recht-norm-quellenlandkarte.md` (Abschnitt "SZ ↔ ZH — Messweisen") hält
 bereits fest: Kt. ZH wendet die IVHB über PBG/ABV an, während Kt. SZ die
-Grenz-/Gebaeude-/Abstands-/Hoehenmasse **direkt** im PBG SZ (§§ 60/61/62/66/67)
+Grenz-/Gebäude-/Abstands-/Höhenmasse **direkt** im PBG SZ (§§ 60/61/62/66/67)
 regelt und die harmonisierten Dichtemasse (GFZ/BMZ) dort **noch nicht in
 Kraft** sind. Dieser Artikel präzisiert die ZH-Seite: der IVHB-Leitfaden ist
 die **vollständige Begriffs-Landkarte** (29 Begriffe/Ziffern), während die
 Quellenlandkarte bisher nur "massgebendes Terrain"-Details (via
-`massgebendes-terrain`-Skill) und die Waldabstands-/Gewaesserabstands-Masse
+`massgebendes-terrain`-Skill) und die Waldabstands-/Gewässerabstands-Masse
 vertieft hatte. Für Volumen-/Machbarkeitsstudien (Skill `machbarkeit`,
 `volumenstudie`) ist der IVHB-Leitfaden die **primäre Quelle** für
-Gesamthöhe/Fassadenhoehe/Vollgeschoss-/Attikageschoss-Definitionen — bisher
+Gesamthöhe/Fassadenhöhe/Vollgeschoss-/Attikageschoss-Definitionen — bisher
 nur teilweise aus Sekundärquellen (Baurechts-Buch-Destillate) abgedeckt.
 
 ## Praxis-Anker JANS
@@ -369,7 +369,7 @@ nur teilweise aus Sekundärquellen (Baurechts-Buch-Destillate) abgedeckt.
 
 ## Offen / nächste Schritte
 - **2026-07-13 (Run 33) ERLEDIGT:** Ziffern 5.1-8.5 + Ausnützungsziffer/
-  Dachaufbauten/Wintergaerten (S.21-49) vollständig gelesen und oben mit
+  Dachaufbauten/Wintergärten (S.21-49) vollständig gelesen und oben mit
   amtlichem Wortlaut destilliert — Artikel jetzt vollständig (keine offenen
   Ziffern mehr). Kernbefund für `machbarkeit`/`volumenstudie`: die
   **Baumassenziffer-Formel** (§ 258 PBG, Bauvolumen über massgebendem
