@@ -32,7 +32,7 @@ Geschwister-Ordner: `PL - 02_Recht_Norm`, `PL - 03 Brandschutz`, `PL - 04 Energi
 | `KtSZ Schwyz/` | `map.geo.sz.ch`, `geoshop.lisag.ch`, `ebau-sz.ch`, `gis.bezirkeinsiedeln.ch`, `ortsplanung.ch`, Gemeinden |
 | `KtBE Bern/` | `be-geo.ch`, `map.apps.be.ch` |
 | `KtLU Luzern/` | Geoportal, Geodatenshop, Raumdatenpool, Gemeinden |
-| **`Hoehenlinie/`** | **Höhenlinien je Gemeinde** (Maur, Wald) + `_www.geoportal.ch` — zentrale Quelle für Topo/Hoehenlinien |
+| **`Hoehenlinie/`** | **Höhenlinien je Gemeinde** (Maur, Wald) + `_www.geoportal.ch` — zentrale Quelle für Topo/Höhenlinien |
 | `Orthofoto/` | Orthofotos je Gemeinde (Luzern, Regensdorf, Thalwil) |
 | `Grundstueckkataster/` | Kataster je Gemeinde (Maur, Niederhasli, Regensdorf, Thalwil, Wald ZH, Zürich, Allgemein) |
 | `OEREB-Auszug/` | OEREB-Auszüge + `_Kommunikation` |

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 12:27:09
+Stand: 03.08.2026 12:37:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:26)
@@ -14,4 +14,4 @@ Stand: 03.08.2026 12:27:09
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 92618892 Entscheide Raphael 03.08.2026: Doppeltakt Energie-Loop behoben (launchd entladen+entschaerft, Scheduled Task alleiniger Taktgeber); neuer Skill 'energie' (Meta-Punkt M2 freigegeben, planungsgrundlagen PL-04 verweist neu dorthin); Kaufentscheid aufgeloest (SWKI VA105-01 + SIA 385/2 ja, SIA 385/1 + 384.354 gestrichen); SIA-2024-Merge war bereits am 26.07. ausgefuehrt — Altposten bereinigt
+- e2812023 nas-selfcommit: 2 Datei(en) 2026-08-03 12:30

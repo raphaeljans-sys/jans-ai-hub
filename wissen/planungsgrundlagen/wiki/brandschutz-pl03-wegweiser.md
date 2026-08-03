@@ -15,7 +15,7 @@ wann nötig, Vorlagen) und die **Qualitätssicherungsstufen (QSS)** als Planungs
 
 > **Kein Doppel — bewusste Arbeitsteilung (Entscheid C1, 2026-06-22):**
 > Die **brandschutztechnische Fach-/Detailarbeit** (EI-/RF-Klassifizierung, Brandabschnitte,
-> Wandaufbauten W3xx, DoP-/Leistungserklaerungs-Pruefung, Bodenbeläge Bfl-s1, Ertüchtigungs-
+> Wandaufbauten W3xx, DoP-/Leistungserklärungs-Prüfung, Bodenbeläge Bfl-s1, Ertüchtigungs-
 > Factsheets, LV-Beilagen) liegt vollständig beim **Skill `brandschutz`** — der die PL-03-Ordner
 > bereits tief erschliesst. **Dieser PL-03-Artikel** ist der schlanke **Planungsgrundlagen-
 > Wegweiser**: Wo liegt was, welches Dokument braucht es **wann**, welche **QSS** gilt, und wie
@@ -62,7 +62,7 @@ nur pauschal als «02 BSR» kartiert waren. Ausgewertet: **10-15 Begriffe/Defini
 **13-15 Baustoffe/Bauteile** (§4), **15-15 Brandschutzabstände/Tragwerke** (§4b), **16-15
 Flucht-/Rettungswege** (§4b/§5d/§5u), **17-15 Kennzeichnung von Fluchtwegen** (§5r), **18-15
 Löscheinrichtungen** (§5q), **19-15 Sprinkleranlagen** (§5p), **20-15 Brandmeldeanlagen** (§5o),
-**21-15 Rauch-/Waermeabzugsanlagen** (§5l, ergänzt um Produktnorm DIN EN 12101-2 §5aa), **22-15
+**21-15 Rauch-/Wärmeabzugsanlagen** (§5l, ergänzt um Produktnorm DIN EN 12101-2 §5aa), **22-15
 Blitzschutzsysteme** (§5w), **23-15 Beförderungsanlagen** (§5q), **24-15 Wärmetechnische Anlagen**
 (§5x), **25-15 Lufttechnische Anlagen** (§5y), **26-15 Gefährliche Stoffe** (§5z, niedrige
 Priorität bestätigt, Ausnahme Notstromdiesel-Bezug), **27-15 Nachweisverfahren** (§5s),
@@ -73,8 +73,8 @@ Planungsgrundlagen-Bezug, Delta-Check Run 58 bestätigt die frühere Einordnung,
 Ziffern-Beleg statt pauschal), **Brandschutz-Praevention.pdf** (Delta-Check Run 58: **kein**
 eigenständiger Inhalt — identische Kopie des bereits dokumentierten Merkblatts
 «Brandschutz-Klassifikation von häufig verwendeten Bauteilen» V.2, `00 Brandschutznachweis.ch/
-05_Merkblaetter/`, RF/REI-Kurzbezeichnungs-Tabelle — bestätigter Nicht-Fund, keine neue Quelle),
-**gege-panikprogramm-1.pdf** (Herstellerkatalog GEGE/Kaba für Notausgangs-/Paniktuerbeschlaege
+05_Merkblätter/`, RF/REI-Kurzbezeichnungs-Tabelle — bestätigter Nicht-Fund, keine neue Quelle),
+**gege-panikprogramm-1.pdf** (Herstellerkatalog GEGE/Kaba für Notausgangs-/Paniktürbeschläge
 EN 179/EN 1125, produktespezifisch, keine normative Substanz über die bereits in
 [[recht-norm-arbeitshilfen-planungsdetails]] §4 dokumentierten Kennwerte hinaus — Nicht-Fund),
 **Merkblatt_012_d.pdf** (VST-Merkblatt Nr. 012 «Türen in Fluchtwegen», Erstausgabe 2009 — inhaltlich
@@ -102,7 +102,7 @@ gefallen) — im Unterschied zur bereits katalogisierten **13-15 «Baustoffe und
 liefert die RF-Klassifizierungs-**Systematik**) regelt 14-15 die konkrete **Anwendung** je
 Bauteiltyp: Fassadenbekleidungssysteme nach Gebäudehöhe × Nutzung (Beherbergung [a] durchgängig
 RF1 im baulichen Konzept), Bedachungen/Dachkonstruktionen (RF1-Trennschicht bei brennbarer oberster
-Schicht, Brandschutzplatte BSP 30 als Alternative), Rohrleitungen/-daemmungen in vertikalen
+Schicht, Brandschutzplatte BSP 30 als Alternative), Rohrleitungen/-dämmungen in vertikalen
 Fluchtwegen (RF1-Pflicht), Schaltgerätekombinationen, Informationstechnik-Einrichtungen in
 Fluchtwegen — Detail-Anwendung gehört in den Skill `brandschutz`, hier nur als Register-Ergänzung
 festgehalten (Datei liegt vor, Volltext bislang nicht ausdestilliert). Zusätzlich zwei bisher nicht
@@ -125,7 +125,7 @@ Ansatz, seit 2018 in Arbeit) ist **doppelt gebremst** und verschiebt sich von 20
 
 → **Konsequenz für JANS:** Bis zum Inkrafttreten gilt unverändert **BSV 2015/17/22** — voraussichtlich
 **über 2027 hinaus**. **Keine antizipierten Erleichterungen der BSV 2026 in Projekte einplanen**
-(der Marschhalt kann sie streichen/verschaerfen). Bei jedem Projekt aktuellen Stand auf
+(der Marschhalt kann sie streichen/verschärfen). Bei jedem Projekt aktuellen Stand auf
 **bsvonline.ch/de/aktuell** prüfen (löst die alte URL `praever.ch/de/bs/vs` ab, die in den
 2015-PDFs noch zitiert ist). ⚠ Nächster Check bei Start politische Vernehmlassung (08/2026) bzw.
 Publikation neuer Terminplan. **Refresh 2026-07-14 Run 47 (WebSearch bsvonline.ch/vkg.ch/baublatt.ch):**
@@ -140,7 +140,7 @@ gemäss bsvonline.ch weiterhin **08/2026**, Genehmigung IOTH-Plenum 03/2027, Ink
 2027**. Als **separate Sofortmassnahme** (nicht Teil der BSV-2026-Revision, aber gleicher Auslöser
 Crans-Montana) hat das IOTH per **01.04.2026** ein **schweizweites Pyroverbot in öffentlich
 zugänglichen Räumen** eingeführt (bsvonline.ch «Revision BSV – Sofortmassnahme und weiteres
-Vorgehen») — bei Veranstaltungsflächen/Versammlungsraeumen-Projekten (Beherbergung [b]/grosse
+Vorgehen») — bei Veranstaltungsflächen/Versammlungsräumen-Projekten (Beherbergung [b]/grosse
 Personenbelegung) als aktuelle Betriebsvorschrift vermerken.
 
 **Refresh 2026-07-14 (Run 39):** Stand per WebSearch/WebFetch gegen `bsvonline.ch/de/aktuell/
@@ -190,7 +190,7 @@ Terminplan publiziert.
 **Hintergrund Crans-Montana — verifizierte Fakten (Run 58, WebSearch de.wikipedia.org/zdfheute.de,
 2026-07-24):** Auslöser des Marschhalts war der Brand vom **01.01.2026** in der Bar «Le
 Constellation», Crans-Montana (VS): **41 Todesopfer, 115 Verletzte**. Brandverlauf laut Ermittlungen:
-an Champagnerflaschen angebrachte **Sprüh-/Feuerfontaenen (Deko-Pyrotechnik)** entzündeten die
+an Champagnerflaschen angebrachte **Sprüh-/Feuerfontänen (Deko-Pyrotechnik)** entzündeten die
 **brennbare Deckenverkleidung**, innert Sekunden **Flashover** zum Vollbrand; erschwerend **keine
 jährliche Brandschutzkontrolle 2020–2025**, möglicherweise **hochentflammbares schalldämmendes
 Material** und **eine einzige enge Treppe** als Fluchtweg aus dem Untergeschoss (Gedränge). Die
@@ -265,7 +265,7 @@ Für JANS praxisrelevante Eckpunkte:
   (VKF-BSR)** fällt weg — neu **eine** Erlassstufe: **«Schweizerische Brandschutzvorschriften
   (BSV)»** (Kurztitel «Brandschutzvorschriften», Abk. «BSV»), **max. 200 Seiten** (statt heute 277
   S. BSN+BSR bzw. 454 S. mit Anhängen + rund 500 S. Vollzugsweisungen). Alles Nicht-Normative
-  (Beschreibungen/Begruendungen/Erlaeuterungen) wandert in ein neues **Handbuch «BSV-Erläuterung»**
+  (Beschreibungen/Begründungen/Erläuterungen) wandert in ein neues **Handbuch «BSV-Erläuterung»**
   (Vollzugshilfe, keine eigene Rechtsverbindlichkeit, aber praxisentscheidend für die Auslegung —
   analog zur heutigen Rolle der VKF-Erläuterungen/Arbeitshilfen, neu aber IN EINEM Dokument
   gebündelt statt auf Dutzende PDFs verteilt). **Praxis-Konsequenz:** Der bisherige
@@ -273,18 +273,18 @@ Für JANS praxisrelevante Eckpunkte:
   entfallen — falls dieser Eckpunkt so umgesetzt wird.
 - **Qualitätssicherungsstufen QSS (Eckpunkt 9-10):** Reduktion von heute **vier auf drei** QSS —
   Einfach (mind. 80 % der Bauvorhaben), Mittel (max. 15 %), Schwierig (max. 5 %) — 80/20-Regel,
-  Zuordnungskriterien neu direkter an Personensicherheit/Brandrisiko/Komplexitaet orientiert statt
+  Zuordnungskriterien neu direkter an Personensicherheit/Brandrisiko/Komplexität orientiert statt
   wie heute an Gebäudehöhe/Nutzung (BSR 11-15 Tab. 3.3.1/3.4.1). Besonderes Augenmerk bei der
   Neuzuordnung auf **Bestandesbauten**.
 - **Deregulierung (Eckpunkt 8, 13-17):** Jede Vorschrift wird auf Verzichtbarkeit geprüft;
   Beibehaltung ist zu begründen. **Keine automatische Verbindlicherklärung privater Normen**
   durch Verweis in den BSV (anders als heute teilweise über § 3 Abs. 1 BBV I ZH); STP
-  («Stand-der-Technik-Papiere») behalten ihren empfehlenden Charakter, Abgrenzung Muss/Waere-gut
+  («Stand-der-Technik-Papiere») behalten ihren empfehlenden Charakter, Abgrenzung Muss/Wäre-gut
   soll klarer werden. Auslagerung von Vollzugsaufgaben auf Private bleibt Sache der Kantone/
   Gemeinden (keine Ausweitung durch den Bund/IOTH).
 - **Geltungsbereich (Eckpunkt 32, §5.3.1):** BSV gelten für Bauwerke UND Grundstücke/Anlagen/
   Handlungen (z. B. Indoor-Pyrotechnik-Bewilligung), NICHT für Kaminfegerwesen, Feuerwehrwesen
-  (ausser Zufahrts-/Bekaempfungsmoeglichkeiten), Löschwasserversorgung und -rückhaltung. Wichtige
+  (ausser Zufahrts-/Bekämpfungsmöglichkeiten), Löschwasserversorgung und -rückhaltung. Wichtige
   Schnittstelle für **Healthcare-/Heim-Projekte (JANS-Fokus):** Die **SIA 500:2009
   "Hindernisfreie Bauten"** soll ihr Brandschutz-Kap. 8 (Fluchtwege, brandgesicherte Bereiche,
   Alarm-/Notrufanlagen für Menschen mit Behinderung) **verlieren** — dieser Inhalt soll
@@ -320,7 +320,7 @@ Vernehmlassungsentwurf und schon gar kein geltendes Recht — bis zum effektiven
 Datenstand oben, 2027 mit Vorbehalt, Quartal offen) gilt unverändert BSV 2015/17/22. Die Eckpunkte zeigen
 aber bereits jetzt verlässlich die **Richtung** (Risikoorientierung, Straffung auf 200 S.,
 3 statt 4 QSS, "rote Linie" für Bestandesbauten) und sind für die strategische Beratung von
-Bauherren mit langem Planungshorizont (z. B. Heime/Spitaeler mit mehrjähriger Vorlaufzeit) bereits
+Bauherren mit langem Planungshorizont (z. B. Heime/Spitäler mit mehrjähriger Vorlaufzeit) bereits
 heute ein nützlicher Anhaltspunkt — mit dem Vorbehalt "Konzeptstand 2022, Marschhalt seit
 06.01.2026 kann Details ändern" zu kommunizieren.
 
@@ -371,7 +371,7 @@ sicherung Brandschutz** (Projektorganisation).
 **Objektbezogen (E, sofern nötig):** besondere Nutzungen · spezielle Aktivierungsgefahren ·
 Besonderheiten Ausbau · Blitzschutz · Aufzüge · TGA mit Einfluss auf Brandabschnitte ·
 Sicherheitsbeleuchtung/Rettungszeichen · RWA · Lufttechnik · BMA/Sprinkler (Pflicht/freiwillig,
-Teil-/Vollueberwachung) · **Abweichungen mit Begründung + Kompensationsmassnahmen**.
+Teil-/Vollüberwachung) · **Abweichungen mit Begründung + Kompensationsmassnahmen**.
 
 ### Brandschutzpläne (F)
 Massstab i. d. R. **1:100 oder 1:200**, Darstellung nach **SIA 400:2000**, möglichst **Format
@@ -486,7 +486,7 @@ vergrössert sich der Abstand um das überschiessende Mass (Ziff. 2.1).
 
 **Reduzierte Abstände (Ziff. 2.2 Abs. 3)** — zulässig zwischen Einfamilienhäusern, zwischen
 Gebäuden **geringer Höhe** (bis 11 m Gesamthöhe) und zwischen Gebäuden **mittlerer Höhe**
-(11–30 m), sofern die Aussenwände (ausser öffenbare Fenster/Tueren) mind. **30 Min. Feuer-
+(11–30 m), sofern die Aussenwände (ausser öffenbare Fenster/Türen) mind. **30 Min. Feuer-
 widerstand** aufweisen:
 
 | Aussenwände | reduzierter Abstand |
@@ -498,7 +498,7 @@ widerstand** aufweisen:
 Brennbare Anteile/vorspringende Teile (Balkone, Dachvorsprünge, Wintergärten) sind entsprechend
 zu berücksichtigen; **Dachuntersichten ausgenommen** (Ziff. 2.2 Abs. 4).
 
-**Sonderfälle (Ziff. 2.3):** Nebenbauten sind untereinander/grundstuecksintern abstandsbefreit,
+**Sonderfälle (Ziff. 2.3):** Nebenbauten sind untereinander/grundstücksintern abstandsbefreit,
 gegenüber Fremdgrundstücken gilt **4 m**; mehrere Nebenbauten untereinander befreit bis
 **150 m² Arealfläche**. Fahrnisbauten ≤ 150 m² sind abstandsbefreit (ausser Lagerung gefährlicher
 Stoffe). Büro-/Gewerbe-/Industriebauten (Areal-Überbauung, vergleichbare Nutzung/Brandgefahr)
@@ -525,14 +525,14 @@ Standardlösungen (Abweichungen mit Nachweis nach Art. 11 Brandschutznorm mögli
 > **JANS-Healthcare-Kernbefund:** Bei **Krankenhäusern und Alters-/Pflegeheimen (Beherbergung [a])**
 > gilt **durchgängig R 60 selbst bei geringer Gebäudehöhe** (die einzige Nutzungskategorie, die
 > in Tabelle 1 keine R 30-Stufe kennt) — der Tragwerks-Feuerwiderstand ist bei Healthcare-Projekten
-> **eine Stufe strenger** als bei vergleichbaren Wohn-/Buerobauten derselben Höhe. Mit Löschanlage
+> **eine Stufe strenger** als bei vergleichbaren Wohn-/Bürobauten derselben Höhe. Mit Löschanlage
 > reduziert auf R 30 (geringe Höhe) bzw. R 30/60 (mittlere Höhe) — Sprinkler-Vollschutz ist damit
 > bei Pflegeheim-Neubauten ein reales Tragwerks-Einsparpotenzial, nicht nur ein Personenschutz-Add-on.
 
 **Ausnahmen ohne Tragwerksanforderung (Ziff. 3.2.3/3.7.2/3.7.3):** eingeschossige Bauten, oberstes
 Geschoss mehrgeschossiger Bauten (geringe/mittlere Höhe), Gebäude mit geringen Abmessungen,
 **Einfamilienhäuser** (inkl. Untergeschosse + Einliegerwohnung) — dort **keine** Anforderung an
-Tragwerk/Waende/Decken.
+Tragwerk/Wände/Decken.
 
 **Reale JANS-Anwendung — Benchmark Thalwil Bohlweg 3 (Factsheet 05.03.2025, Aufstockung EFH mit
 Einliegerwohnung):** JANS stellt zwei Varianten einander gegenüber, um die bindende Tragwerks-
@@ -602,7 +602,7 @@ Ziff. 7.4.2 der Wohnbauten-Arbeitshilfe (= BSR 16-15, Z.3.2.2):
 
 Quelle: **VKF-Brandschutzarbeitshilfe 1002-03d «Parkhäuser und Einstellräume für Motorfahrzeuge»**
 (genehmigt **06.08.2003** — datiert **vor** der BSV-2015-Generation, `05 Arbeitshilfen Brandschutz
-2015/1002-03d_Parkhaeuser.pdf`). ⚠ **Datenstand-Vorbehalt:** die Arbeitshilfe selbst verweist auf
+2015/1002-03d_Parkhäuser.pdf`). ⚠ **Datenstand-Vorbehalt:** die Arbeitshilfe selbst verweist auf
 `bsvonline.vkf.ch` für die aktuelle Ausgabe — vor Anwendung in einem realen Nachweis **gegen die
 dortige Fassung/Stand prüfen** (Status hier bewusst `established` nur für die Grössenordnung/
 Systematik, nicht für punktgenaue Zahlen in einem laufenden Bewilligungsverfahren). Ergänzt die
@@ -735,7 +735,7 @@ Wasserlöschanlage als Vollschutz** vorzusehen (objekt-/nutzungsbezogen zu bemes
 | Typ | Konzept | Kernmassnahmen |
 |---|---|---|
 | **A** — ohne Brandabschnittsbildung gegen angrenzende Bereiche | Nutzungseinheiten öffnen direkt ins Atrium | Tragwerk/Geschossdecken nach BSR 15-15de Ziff. 3.7.1; **Löschanlage Vollschutz**; **Brandmeldeanlage Vollüberwachung**; RWA (Leistungsnachweis bei Atriumflächen > 2'400 m²); Fluchtwege ausserhalb der Nutzungseinheit über das Atrium nur mit **rechnerischem Nachweis (Simulation)** nach der Nachweisverfahren-Richtlinie |
-| **B** — mit Brandabschnittsbildung gegen angrenzende Bereiche | Umfassungswände EI 30/E 30 je nach Atriumbreite/-hoehe-Verhaeltnis (< 0.5 bzw. ≥ 0.5) | RWA immer, **Löschanlage nur bei brandabschnittsbildenden Wänden mit reduziertem Feuerwiderstand** (E statt EI); Flucht-/Rettungswege über Atrium max. **35 m**, Leistungsnachweis (Simulation) Pflicht |
+| **B** — mit Brandabschnittsbildung gegen angrenzende Bereiche | Umfassungswände EI 30/E 30 je nach Atriumbreite/-höhe-Verhältnis (< 0.5 bzw. ≥ 0.5) | RWA immer, **Löschanlage nur bei brandabschnittsbildenden Wänden mit reduziertem Feuerwiderstand** (E statt EI); Flucht-/Rettungswege über Atrium max. **35 m**, Leistungsnachweis (Simulation) Pflicht |
 | **C** — Atrium oben offen (seitenwindunabhängige Öffnungsfläche ≥ **10 %** der Atrium-Grundrissfläche) | Wie Typ B, aber ohne RWA-Pflicht (natürliche Entrauchung durch die offene Decke) | Bei Wänden E 30 statt EI 30 zusätzlich Löschanlage; Fluchtwege über Atrium ebenfalls max. 35 m mit Leistungsnachweis |
 
 **Innenhöfe (Ziff. 2.5):** bauliche Anforderungen an die Umfassungswände richten sich nach den
@@ -806,7 +806,7 @@ Regel aus §4b.
 
 **Reale JANS-Anwendung — Biwak Grassen (Brandschutzkonzept Schmitter Brandschutz GmbH/Yves
 Schmitter, 16.–18.01.2025, PL-03/_Projekte Themen/Gaststaetenbetriebe Alpin GrassenBiwak/):**
-alpine Kleinsthütte (EG + OG, wenige Schlafräume 2–4 Personen, Aufenthalt/Kueche/Werkstatt,
+alpine Kleinsthütte (EG + OG, wenige Schlafräume 2–4 Personen, Aufenthalt/Küche/Werkstatt,
 Fundament einer bestehenden Hütte weiterverwendet). Vom Brandschutzplaner kommentierte
 Zusammenfassung:
 
@@ -871,220 +871,220 @@ Treppen innerhalb Nutzungseinheit/IMG_1515.jpeg` ist der Screenshot einer ChatGP
 keine Fachstellenauskunft — nicht als Fundstelle verwenden. Die beiden `_extract`-PDFs im selben
 Ordner sind die Gegenprüfung am Original und tragen.
 
-### 4f.1 · Bauherrenstandard SAC-Wegleitung Huettenbau (Nachtrag 2026-07-31)
+### 4f.1 · Bauherrenstandard SAC-Wegleitung Hüttenbau (Nachtrag 2026-07-31)
 
-Neben den VKF-Vorschriften gilt fuer SAC-Bauten ein **Bauherrenstandard**, der im Hub bisher
-fehlte: die **«SAC-Wegleitung Huettenbau»** (Schweizer Alpen-Club SAC, verabschiedet durch den
-Zentralvorstand am 16.09.2021, ISBN 978-3-85902-466-3, Projektleitung Hanspeter Buergi). Sie ist in
-SAC-Wettbewerben regelmaessig als verbindliche Grundlage beigelegt und **empfiehlt Wege, ohne die
+Neben den VKF-Vorschriften gilt für SAC-Bauten ein **Bauherrenstandard**, der im Hub bisher
+fehlte: die **«SAC-Wegleitung Hüttenbau»** (Schweizer Alpen-Club SAC, verabschiedet durch den
+Zentralvorstand am 16.09.2021, ISBN 978-3-85902-466-3, Projektleitung Hanspeter Bürgi). Sie ist in
+SAC-Wettbewerben regelmässig als verbindliche Grundlage beigelegt und **empfiehlt Wege, ohne die
 VKF-Hoheit anzutasten** — sie ist damit Auslegungs- und Erwartungsrahmen, nicht Norm.
 
 Brandschutzrelevante Aussagen (Fundstellen = Seitenzahlen der Wegleitung):
 
-- **Kap. 2.2, S. 13** — als uebergeordnete Grundlagen genannt: «Brandschutzvorschriften des VKF und
-  der kantonalen Fachstellen, **besondere Bestimmungen fuer abgelegene Beherbergungsbetriebe**».
+- **Kap. 2.2, S. 13** — als übergeordnete Grundlagen genannt: «Brandschutzvorschriften des VKF und
+  der kantonalen Fachstellen, **besondere Bestimmungen für abgelegene Beherbergungsbetriebe**».
   Der Sonderfall [c] ist also bereits auf Grundlagenstufe gesetzt.
-- **S. 67 «Brandschutz»** — «Der Brandschutz betrifft **hauptsaechlich den Personenschutz**.»
-  Verbindlich sind VKF-Empfehlungen und allfaellige zusaetzliche kantonale Vorschriften; zusaetzlich
-  sind die besonderen Bestimmungen fuer abgelegene Beherbergungsbetriebe zu beachten
-  (Verweis: Brandschutznorm Art. 13 Abs. 2a[c]). Fuer das Brandschutzkonzept wird **frueher Kontakt
-  mit den zustaendigen Stellen** empfohlen.
-- **S. 66 «Fenster und Aussentueren» — praxisrelevante Erleichterung:** «Die Oeffnungsrichtung von
-  Tueren ist abhaengig vom Brandschutzkonzept. **Fuer abgelegene Beherbergungsbetriebe gem. VKF sind
-  keine nach aussen oeffnenden Fluchttueren erforderlich.**» Damit koennen die Vorteile nach innen
-  oeffnender Tueren genutzt werden (Dichtigkeit, Bedienbarkeit bei Schneeablagerung vor der Tuer).
-  Das loest den Zielkonflikt Fluchtweg gegen Schneeverfrachtung, der bei Winterbauten sonst die
+- **S. 67 «Brandschutz»** — «Der Brandschutz betrifft **hauptsächlich den Personenschutz**.»
+  Verbindlich sind VKF-Empfehlungen und allfällige zusätzliche kantonale Vorschriften; zusätzlich
+  sind die besonderen Bestimmungen für abgelegene Beherbergungsbetriebe zu beachten
+  (Verweis: Brandschutznorm Art. 13 Abs. 2a[c]). Für das Brandschutzkonzept wird **früher Kontakt
+  mit den zuständigen Stellen** empfohlen.
+- **S. 66 «Fenster und Aussentüren» — praxisrelevante Erleichterung:** «Die Oeffnungsrichtung von
+  Türen ist abhängig vom Brandschutzkonzept. **Für abgelegene Beherbergungsbetriebe gem. VKF sind
+  keine nach aussen öffnenden Fluchttüren erforderlich.**» Damit können die Vorteile nach innen
+  öffnender Türen genutzt werden (Dichtigkeit, Bedienbarkeit bei Schneeablagerung vor der Tür).
+  Das löst den Zielkonflikt Fluchtweg gegen Schneeverfrachtung, der bei Winterbauten sonst die
   Eingangsgeometrie diktiert.
-- **Kap. 5.1 Raeume, S. 47 ff.** — Fluchtwege und Notausgaenge nach kantonalen Brandschutz-
+- **Kap. 5.1 Räume, S. 47 ff.** — Fluchtwege und Notausgänge nach kantonalen Brandschutz-
   vorschriften; Hauptkorridore **min. 1.20 m**; Beleuchtung inkl. **Notbeleuchtung und Signalisation
-  Fluchtwege**; Mehrfachnutzung von Eingang/Schuhraum/Trocknungsraum ist moeglich, «jedoch
-  Brandschutzvorschriften resp. Fluchtwege beachten»; Technikraeume: «Brandschutzvorschriften
+  Fluchtwege**; Mehrfachnutzung von Eingang/Schuhraum/Trocknungsraum ist möglich, «jedoch
+  Brandschutzvorschriften resp. Fluchtwege beachten»; Technikräume: «Brandschutzvorschriften
   beachten».
 - **Kap. 5.4, S. 73** — **Personenschutz-Befund ausserhalb des klassischen Brandschutzes:** Beim
-  Betrieb grosser Abluftanlagen (z. B. Kuechenhaube) kann der Unterdruck so stark werden, dass
-  **Rauch aus dem Holzkochherd oder Raumofen in den Raum zurueckgesogen** wird — «nicht nur sehr
-  unangenehm, sondern wegen der giftigen CO-Gase auch gefaehrlich». Eine **kontrollierte
-  Nachstroemung** ist zwingend einzuplanen. Bei Huetten mit Holzherd als einziger Waermeerzeugung
-  (Normalfall) gehoert das ins Konzept, nicht in die Ausfuehrungsplanung.
-- **Kap. 5.4, S. 77** — Raumoefen: grosse Speichermasse, gute Verbrennung, **gesicherte Zufuhr der
+  Betrieb grosser Abluftanlagen (z. B. Küchenhaube) kann der Unterdruck so stark werden, dass
+  **Rauch aus dem Holzkochherd oder Raumofen in den Raum zurückgesogen** wird — «nicht nur sehr
+  unangenehm, sondern wegen der giftigen CO-Gase auch gefährlich». Eine **kontrollierte
+  Nachströmung** ist zwingend einzuplanen. Bei Hütten mit Holzherd als einziger Wärmeerzeugung
+  (Normalfall) gehört das ins Konzept, nicht in die Ausführungsplanung.
+- **Kap. 5.4, S. 77** — Raumöfen: grosse Speichermasse, gute Verbrennung, **gesicherte Zufuhr der
   Verbrennungsluft** (dieselbe Ursache wie oben).
 
 > **Einordnung:** Die Wegleitung ersetzt keine VKF-Fundstelle (Rule `normen-referenz`), liefert aber
-> den **Erwartungshorizont der Bauherrschaft** und mit der Fluchttuer-Aussage eine konkrete,
-> zitierfaehige Erleichterung. Original im Hub nicht abgelegt; zuletzt gelesenes Exemplar:
+> den **Erwartungshorizont der Bauherrschaft** und mit der Fluchttür-Aussage eine konkrete,
+> zitierfähige Erleichterung. Original im Hub nicht abgelegt; zuletzt gelesenes Exemplar:
 > Wettbewerbsunterlage 20 zu «Grassenbiwak 2027» (Projekt 2408, `AR - 02 Wettbewerbe/2408 WB BIWAK/
 > 09 Dokumente/3 Wettbewerbsgrundlagen/Auslober/20_SAC-Wegleitung Hüttenbau.pdf`).
 
 ### 4f.2 · Wettbewerbsfall Grassenbiwak 2027 — der Einstufungs-Widerspruch (Nachtrag 2026-07-31)
 
-Der Fall aus §4f ist der **Ausfuehrungs-/Entwurfsteil**; auf **Programmstufe** liegt der eigentliche
+Der Fall aus §4f ist der **Ausführungs-/Entwurfsteil**; auf **Programmstufe** liegt der eigentliche
 Lernwert, weil dort ein typischer Fehler dokumentiert ist. Quellen: Wettbewerbsprogramm
 «Grassenbiwak 2027» (SAC Sektion Engelberg, 08.07.2024 / rev. 28.08.2024) und die
 **Fragebeantwortung vom 03.10.2024** (83 Fragen), beide im Projekt 2408.
 
 - **Programm Ziff. 5.3 «Brandschutz»** setzt: VKF-Vorschriften Ausgabe 2015; «Gem. Brandschutznorm
-  gilt Art. 13, Kategorie Beherbergungsbetriebe **[c]** … in denen dauernd oder voruebergehend
-  **18 berggaengige Personen** aufgenommen werden». Daraus abgeleitet: «Der Fluchtweg ist ueber einen
-  angrenzenden Raum zu fuehren und darf nicht ueber den Eingang zum Biwak erfolgen.»
-- **Fehler:** Art. 13 Abs. 2 lit. a nennt fuer [c] **20 oder mehr** Personen (→
-  KB `normen`, Artikel `vkf-beherbergungskategorien`). Bei 18 verbindlichen Schlafplaetzen ist die
+  gilt Art. 13, Kategorie Beherbergungsbetriebe **[c]** … in denen dauernd oder vorübergehend
+  **18 berggängige Personen** aufgenommen werden». Daraus abgeleitet: «Der Fluchtweg ist über einen
+  angrenzenden Raum zu führen und darf nicht über den Eingang zum Biwak erfolgen.»
+- **Fehler:** Art. 13 Abs. 2 lit. a nennt für [c] **20 oder mehr** Personen (→
+  KB `normen`, Artikel `vkf-beherbergungskategorien`). Bei 18 verbindlichen Schlafplätzen ist die
   Schwelle nicht erreicht.
-- **Der Auslober raeumt das selbst ein — Frage 47:** «Gilt fuer das Grassenbiwak Art. 13, Kategorie
+- **Der Auslober räumt das selbst ein — Frage 47:** «Gilt für das Grassenbiwak Art. 13, Kategorie
   [c], obwohl weniger als 20 Personen beherbergt werden?» Antwort: «**Nein** … Wenn nicht 20
-  Schlafplaetze vorhanden sind, ist das Gebaeude auch kein Beherbergungsbetrieb.» Die in Ziff. 5.3
-  daraus abgeleitete **Fluchtweg-Auflage wurde jedoch nicht zurueckgenommen** — sie bleibt
+  Schlafplätze vorhanden sind, ist das Gebäude auch kein Beherbergungsbetrieb.» Die in Ziff. 5.3
+  daraus abgeleitete **Fluchtweg-Auflage wurde jedoch nicht zurückgenommen** — sie bleibt
   Wettbewerbsbedingung, deren zitierte Rechtsgrundlage im selben Verfahren bestritten ist.
-- **Frage 46 praezisiert den Begriff «angrenzender Raum»:** Nutzungseinheit = ein Raum oder der
-  Zusammenschluss funktionell zusammengehoeriger Raeume; alle fuer die Flucht notwendigen Raeume
-  muessen den Nutzern frei zugaenglich sein. In einzelnen Gebaeudenutzungen (Beherbergungsbetriebe,
-  Geschaeftsraeume, Schulen) darf der Fluchtweg **nur ueber einen angrenzenden Raum** gefuehrt
-  werden — und: «**Kleinere Raeume wie Toilette oder Putzraeume sind untergeordnete Raeume und werden
-  in der Regelung ‹Fluchtweg ueber einen angrenzenden Raum› nicht beruecksichtigt.**» Der zweite Weg
-  darf also nicht durch das WC gefuehrt werden. Das ist der planungsrelevanteste Satz des ganzen
+- **Frage 46 präzisiert den Begriff «angrenzender Raum»:** Nutzungseinheit = ein Raum oder der
+  Zusammenschluss funktionell zusammengehöriger Räume; alle für die Flucht notwendigen Räume
+  müssen den Nutzern frei zugänglich sein. In einzelnen Gebäudenutzungen (Beherbergungsbetriebe,
+  Geschäftsräume, Schulen) darf der Fluchtweg **nur über einen angrenzenden Raum** geführt
+  werden — und: «**Kleinere Räume wie Toilette oder Putzräume sind untergeordnete Räume und werden
+  in der Regelung ‹Fluchtweg über einen angrenzenden Raum› nicht berücksichtigt.**» Der zweite Weg
+  darf also nicht durch das WC geführt werden. Das ist der planungsrelevanteste Satz des ganzen
   Verfahrens.
-- **Vorpruefung:** Brandschutz ist am **zweiten Beurteilungstag eigenes Vorpruefkriterium**, Pruefer
+- **Vorprüfung:** Brandschutz ist am **zweiten Beurteilungstag eigenes Vorprüfkriterium**, Prüfer
   **Thomas Haecki, Brandschutzexperte, Leiter Abteilung Technische Inspektorate Kanton Obwalden**.
-  Der Beitrag wird also fachlich und nicht nur formal geprueft.
+  Der Beitrag wird also fachlich und nicht nur formal geprüft.
 - **Vollzugsfrage offen:** Der Bauperimeter liegt auf der **Kantonsgrenze Obwalden / Bern**
   (Standort Gemeinde Engelberg OW / Innertkirchen BE); ein Ersatzneubau ist auf einer der beiden
   Seiten zu erstellen. Die VKF-Vorschriften gelten schweizweit, der **Vollzug ist kantonal** — welche
-  Brandschutzbehoerde zustaendig wird, entscheidet sich erst mit dem Standort. Offen, siehe
+  Brandschutzbehörde zuständig wird, entscheidet sich erst mit dem Standort. Offen, siehe
   QUESTIONS C43.
 
-> **Lehre (verallgemeinerbar, gilt fuer jedes Wettbewerbsprogramm):** Die im Programm behauptete
+> **Lehre (verallgemeinerbar, gilt für jedes Wettbewerbsprogramm):** Die im Programm behauptete
 > **Nutzungskategorie immer gegen den Originalartikel und das verbindliche Raumprogramm
 > nachrechnen**, bevor daraus Grundrissentscheide abgeleitet werden — der Schwellenwert ist der
-> haeufigste Programmfehler und er entscheidet ueber R 30 gegen R 60 und ueber die Anzahl
+> häufigste Programmfehler und er entscheidet über R 30 gegen R 60 und über die Anzahl
 > Fluchtwege. Bei Widerspruch: Frageperiode nutzen; ist sie verstrichen, die strengere der beiden
-> Vorgaben erfuellen und das im Erlaeuterungstext benennen. Methodik: Skill `brandschutz`, Modus B,
+> Vorgaben erfüllen und das im Erläuterungstext benennen. Methodik: Skill `brandschutz`, Modus B,
 > Stufe 1 (Programm-Audit).
 
-### 4f.3 · Entscheidungsfiguren fuer den netzfernen Kleinbau (Nachtrag 2026-07-31)
+### 4f.3 · Entscheidungsfiguren für den netzfernen Kleinbau (Nachtrag 2026-07-31)
 
 Abarbeitung der vier offenen Fragen C41-C44 aus dem Wettbewerbs-Scan. **Norm-Fundstellen sind in der
-KB `normen` fuehrend** (Rule `normen-referenz`); hier steht die planerische Anwendung.
+KB `normen` führend** (Rule `normen-referenz`); hier steht die planerische Anwendung.
 
 #### a) Die QSS-Falle: klein heisst nicht QSS 1
 
-Zwei Kategorien werden regelmaessig verwechselt:
+Zwei Kategorien werden regelmässig verwechselt:
 
 | | Schwelle | Folge |
 |---|---|---|
 | **Beherbergungsbetrieb [a]/[b]/[c]** | **20 Personen** (BSN 1-15de Art. 13 Abs. 2 lit. a) | Nutzungskategorie, bestimmt Tragwerk und Fluchtwege |
-| **Gebaeude mit geringen Abmessungen** | Gebaeude geringer Hoehe, max. 2 Geschosse ueber / 1 unter Terrain, Summe Geschossflaechen bis 600 m², **keine Nutzung fuer schlafende Personen ausser einer Wohnung**, keine Kinderkrippe (BSN 1-15de Art. 13 Abs. 3 lit. d, uebernommen in AH 1000-15de Ziff. 2.1 lit. b, S. 5) | Gebaeudekategorie, oeffnet **QSS 1** (AH 1000-15de Ziff. 3.1, Verweis BSR 11-15 Ziff. 3.3.1) |
+| **Gebäude mit geringen Abmessungen** | Gebäude geringer Höhe, max. 2 Geschosse über / 1 unter Terrain, Summe Geschossflächen bis 600 m², **keine Nutzung für schlafende Personen ausser einer Wohnung**, keine Kinderkrippe (BSN 1-15de Art. 13 Abs. 3 lit. d, übernommen in AH 1000-15de Ziff. 2.1 lit. b, S. 5) | Gebäudekategorie, öffnet **QSS 1** (AH 1000-15de Ziff. 3.1, Verweis BSR 11-15 Ziff. 3.3.1) |
 
-**Ein Biwak mit 18 Schlafplaetzen faellt durch beide Raster:** unter 20 Personen ist es kein
+**Ein Biwak mit 18 Schlafplätzen fällt durch beide Raster:** unter 20 Personen ist es kein
 Beherbergungsbetrieb, aber die Schlafnutzung von 18 Personen ist keine «eine Wohnung» — also auch
-**kein Gebaeude mit geringen Abmessungen**. **Praezisierung (Trockenlauf 2507 TKHL, 31.07.2026):**
+**kein Gebäude mit geringen Abmessungen**. **Präzisierung (Trockenlauf 2507 TKHL, 31.07.2026):**
 Der Wegfall dieser Kategorie schliesst den **vereinfachten Anforderungssatz der Arbeitshilfe
-1000-15de** aus (deren Ziff. 1 Abs. 1 bezeichnet sie ausdruecklich als «Auszug der wichtigsten, im
+1000-15de** aus (deren Ziff. 1 Abs. 1 bezeichnet sie ausdrücklich als «Auszug der wichtigsten, im
 Normalfall geltenden» Anforderungen) — er bestimmt die QSS **nicht unmittelbar**. Die QSS kommt aus
-der Tabelle BSR 11-15de Ziff. 3.3.1 (Nutzung x Gebaeudehoehe), die die Behoerde objektspezifisch
-anpassen darf. Beide Schwellen sind zu pruefen, aber nicht gleichzusetzen. Das erklaert die
+der Tabelle BSR 11-15de Ziff. 3.3.1 (Nutzung x Gebäudehöhe), die die Behörde objektspezifisch
+anpassen darf. Beide Schwellen sind zu prüfen, aber nicht gleichzusetzen. Das erklärt die
 **QSS 2** im
 Konzept Schmitter (§4f): sie folgt entweder der vorsorglichen Einstufung als [c] (BSR 11-15de
-Ziff. 3.3.1: Beherbergung [b]/[c] bei geringer Hoehe = QSS 2) oder einer objektspezifischen
-Festlegung durch die Brandschutzbehoerde, die dieselbe Ziffer ausdruecklich zulaesst
-(«Objektspezifisch kann die Brandschutzbehoerde eine hoehere oder tiefere QSS festlegen»).
+Ziff. 3.3.1: Beherbergung [b]/[c] bei geringer Höhe = QSS 2) oder einer objektspezifischen
+Festlegung durch die Brandschutzbehörde, die dieselbe Ziffer ausdrücklich zulässt
+(«Objektspezifisch kann die Brandschutzbehörde eine höhere oder tiefere QSS festlegen»).
 
-> **Merksatz fuer Modus B:** Bei jedem Uebernachtungsbau **zwei** Schwellen pruefen, nicht eine. Die
-> Personenzahl entscheidet ueber die Nutzung, die Schlafnutzung ueber die Gebaeudekategorie — und
-> die QSS haengt an beiden. QSS 2 heisst: ein QS-Verantwortlicher Brandschutz gehoert ins Team, mit
+> **Merksatz für Modus B:** Bei jedem Uebernachtungsbau **zwei** Schwellen prüfen, nicht eine. Die
+> Personenzahl entscheidet über die Nutzung, die Schlafnutzung über die Gebäudekategorie — und
+> die QSS hängt an beiden. QSS 2 heisst: ein QS-Verantwortlicher Brandschutz gehört ins Team, mit
 > Honorarfolge BKP 298.5.
 
-#### b) Treppe und Raum-ueber-Raum (C41 — beantwortet in der KB `normen`)
+#### b) Treppe und Raum-über-Raum (C41 — beantwortet in der KB `normen`)
 
-Vollstaendig aufgeloest in `normen/destillate/vkf-brl-16-15-flucht-rettungswege.md`, Abschnitt
-«Entscheidungsfigur Treppen». Kurzfassung fuer die Anwendung:
+Vollständig aufgelöst in `normen/destillate/vkf-brl-16-15-flucht-rettungswege.md`, Abschnitt
+«Entscheidungsfigur Treppen». Kurzfassung für die Anwendung:
 
 - **1.20 m ist die Ausnahme, nicht die Regel.** Grundmass gewendelter Treppen ist **1.50 m bei
   innerer Auftrittsbreite 0.15 m** (Ziff. 2.4.5 Abs. 3). Die **1.20 m gelten nur zusammen mit einer
-  inneren Auftrittsbreite ≥ 0.10 m** und nur ueber eine der vier Ausnahmeziffern — fuer den
-  Huettenfall **Ziff. 3.6.2 Abs. 5** (Beherbergungsbetriebe [c]). Wer «gewendelt min. 1.20 m»
+  inneren Auftrittsbreite ≥ 0.10 m** und nur über eine der vier Ausnahmeziffern — für den
+  Hüttenfall **Ziff. 3.6.2 Abs. 5** (Beherbergungsbetriebe [c]). Wer «gewendelt min. 1.20 m»
   schreibt, ohne die zweite Zahl und die Ausnahmeziffer zu nennen, hat die Vorgabe halb zitiert.
-- **Die Entlastung «keine Anforderungen an Treppen innerhalb der Nutzungseinheit» gilt fuer Wohnen,
-  Buero/Gewerbe/Industrie, Schulen und Landwirtschaft — Beherbergung fehlt im Katalog.** Fuer die
-  offene Treppe im Biwak gibt es also **keine ausdrueckliche Erlaubnis**; das Gegenpraejudiz
-  (Ziff. 3.4.4 Abs. 3, Kindertagesstaetten: Schlafraeume auf Zwischengeschossen/Galerien brauchen
+- **Die Entlastung «keine Anforderungen an Treppen innerhalb der Nutzungseinheit» gilt für Wohnen,
+  Büro/Gewerbe/Industrie, Schulen und Landwirtschaft — Beherbergung fehlt im Katalog.** Für die
+  offene Treppe im Biwak gibt es also **keine ausdrückliche Erlaubnis**; das Gegenpräjudiz
+  (Ziff. 3.4.4 Abs. 3, Kindertagesstätten: Schlafräume auf Zwischengeschossen/Galerien brauchen
   horizontale **und** vertikale Fluchtwege) weist in die andere Richtung. Im Wettbewerb heisst das:
   offene Verbindung darstellbar, aber als **abzustimmender Punkt** benennen, nicht als gesetzt.
 
 #### c) Personensicherheit ohne abwehrenden Brandschutz (C42)
 
-Die Kategorie [c] ist nicht bloss eine Erschwernis, sie ist ein **Erleichterungspaket** fuer genau
+Die Kategorie [c] ist nicht bloss eine Erschwernis, sie ist ein **Erleichterungspaket** für genau
 den Fall, dass keine Hilfe kommt. Anwendbar nur, wenn die **vier Bedingungen der Begriffs-Richtlinie
-10-15de, Anhang «zu Beherbergungsbetriebe» (S. 40) gleichzeitig** erfuellt sind: weit entfernt von
+10-15de, Anhang «zu Beherbergungsbetriebe» (S. 40) gleichzeitig** erfüllt sind: weit entfernt von
 Siedlungsgebieten; lange Anfahrtswege, die eine rechtzeitige Intervention von Feuerwehr bzw.
-Rettungskraeften verunmoeglichen; keine genuegende Loeschwasserversorgung; keine dauernde
-Stromversorgung — **Photovoltaikanlagen und Notstromaggregate gelten ausdruecklich als ungenuegend**.
+Rettungskräften verunmöglichen; keine genügende Löschwasserversorgung; keine dauernde
+Stromversorgung — **Photovoltaikanlagen und Notstromaggregate gelten ausdrücklich als ungenügend**.
 Die PV-Pflicht eines Wettbewerbsprogramms hebt die [c]-Qualifikation also **nicht** auf.
 
 Was an die Stelle des abwehrenden Brandschutzes tritt:
 
 | Element | Regel | Fundstelle |
 |---|---|---|
-| **Loeschwasser** | Wasserloeschposten fuer [c] **nicht** verlangt (Tabellenfeld leer) — im Gegensatz zu [a] (Pflicht) und [b] (empfohlen) | BSR 18-15de, Anhang zu Ziff. 2, S. 8 |
-| **Handfeuerloescher** | fuer [c] **erforderlich**; Richtwert **1 Loescher pro 600 m² Grundflaeche**, Gehweglinie zum naechsten Loescher max. **40 m** | BSR 18-15de Anhang S. 8 Fussnote [1]; Ziff. 3.1.2 Abs. 1 |
-| **Begruendung** | Loeschgeraete sind ausdruecklich bereitzustellen «in Bauten, Anlagen und Betrieben **ohne genuegenden Wasseranschluss**» | BSR 18-15de Ziff. 2 Abs. 4 lit. c |
-| **Alarmierung** | in [c] (z. B. Berghuetten) kann **in Ruecksprache mit der Brandschutzbehoerde** auf die Alarmaufschaltung auf die oeffentliche Fernmeldestelle verzichtet werden; **sofern kein Netzstrom vorhanden ist, koennen vernetzte Rauchwarnmelder anstelle einer Brandmeldeanlage** installiert werden | BSR 20-15de, Anhang zu Ziff. 2.2.2 |
-| **BMA-Pflicht ueberhaupt** | Beherbergung: ab 2 Geschossen und > 50 beherbergten Personen bzw. ab 3 Geschossen und > 30 Personen; fuer [b]/[c] bei geringer Hoehe kann mit Loeschanlagenkonzept ganz verzichtet werden | BSR 20-15de Ziff. 2.2.2 lit. a-c |
-| **Tueren** | in [c] muessen **Hauseingangstueren nicht in Fluchtrichtung oeffnen** | BSR 16-15de Ziff. 3.6.2 Abs. 4 |
+| **Löschwasser** | Wasserlöschposten für [c] **nicht** verlangt (Tabellenfeld leer) — im Gegensatz zu [a] (Pflicht) und [b] (empfohlen) | BSR 18-15de, Anhang zu Ziff. 2, S. 8 |
+| **Handfeuerlöscher** | für [c] **erforderlich**; Richtwert **1 Löscher pro 600 m² Grundfläche**, Gehweglinie zum nächsten Löscher max. **40 m** | BSR 18-15de Anhang S. 8 Fussnote [1]; Ziff. 3.1.2 Abs. 1 |
+| **Begründung** | Löschgeräte sind ausdrücklich bereitzustellen «in Bauten, Anlagen und Betrieben **ohne genügenden Wasseranschluss**» | BSR 18-15de Ziff. 2 Abs. 4 lit. c |
+| **Alarmierung** | in [c] (z. B. Berghütten) kann **in Rücksprache mit der Brandschutzbehörde** auf die Alarmaufschaltung auf die öffentliche Fernmeldestelle verzichtet werden; **sofern kein Netzstrom vorhanden ist, können vernetzte Rauchwarnmelder anstelle einer Brandmeldeanlage** installiert werden | BSR 20-15de, Anhang zu Ziff. 2.2.2 |
+| **BMA-Pflicht überhaupt** | Beherbergung: ab 2 Geschossen und > 50 beherbergten Personen bzw. ab 3 Geschossen und > 30 Personen; für [b]/[c] bei geringer Höhe kann mit Löschanlagenkonzept ganz verzichtet werden | BSR 20-15de Ziff. 2.2.2 lit. a-c |
+| **Türen** | in [c] müssen **Hauseingangstüren nicht in Fluchtrichtung öffnen** | BSR 16-15de Ziff. 3.6.2 Abs. 4 |
 
-> **Quervalidierung SAC-Wegleitung:** Die Aussage der Wegleitung S. 66 («fuer abgelegene
-> Beherbergungsbetriebe gem. VKF sind keine nach aussen oeffnenden Fluchttueren erforderlich»,
-> §4f.1) ist damit **am Normtext bestaetigt** — sie gibt Ziff. 3.6.2 Abs. 4 korrekt wieder.
+> **Quervalidierung SAC-Wegleitung:** Die Aussage der Wegleitung S. 66 («für abgelegene
+> Beherbergungsbetriebe gem. VKF sind keine nach aussen öffnenden Fluchttüren erforderlich»,
+> §4f.1) ist damit **am Normtext bestätigt** — sie gibt Ziff. 3.6.2 Abs. 4 korrekt wieder.
 
-**Die planerische Konsequenz:** Bei einem netzfernen Kleinbau traegt die **Selbstrettung** das ganze
+**Die planerische Konsequenz:** Bei einem netzfernen Kleinbau trägt die **Selbstrettung** das ganze
 Konzept. Massgebend sind deshalb die Dinge, die ohne Strom und ohne Intervention funktionieren:
 kurze, eindeutige Wege direkt ins Freie; ein zweiter Ausgang, der bei Schnee auch benutzbar ist;
-Loescher am Weg nach draussen; batteriebetriebene vernetzte Rauchwarnmelder; nichtbrennbare
-Umgebung der Feuerstelle. Nicht massgebend sind Loeschleitungen, Sprinkler, Aufschaltung, RWA.
+Löscher am Weg nach draussen; batteriebetriebene vernetzte Rauchwarnmelder; nichtbrennbare
+Umgebung der Feuerstelle. Nicht massgebend sind Löschleitungen, Sprinkler, Aufschaltung, RWA.
 
-#### d) Vollzug: welche Behoerde (C43)
+#### d) Vollzug: welche Behörde (C43)
 
 Die VKF-Vorschriften gelten schweizweit, der **Vollzug ist kantonal**. Kanonische Adressquelle:
-**VKF/VKG «Adressliste Kantonale Brandschutzbehoerden», Version 3.3, 21.01.2026**
-(BSPUB-1394520214-1176, bezogen ueber bsronline.ch) — dort ist je Kanton genau **eine** Stelle
-gefuehrt:
+**VKF/VKG «Adressliste Kantonale Brandschutzbehörden», Version 3.3, 21.01.2026**
+(BSPUB-1394520214-1176, bezogen über bsronline.ch) — dort ist je Kanton genau **eine** Stelle
+geführt:
 
 - **Obwalden:** *Technische Inspektorate, Kanton Obwalden*, St. Antonistrasse 4, Postfach 1264,
-  6061 Sarnen — eine **Verwaltungsstelle** (beim Amt fuer Arbeit, Volkswirtschaftsdepartement), nicht
-  eine Gebaeudeversicherung. Leitung: Thomas Haecki — derselbe Fachmann, den das Programm 2408 als
-  Brandschutz-Vorpruefer einsetzt. Die Vorpruefung im Wettbewerb erfolgte also faktisch bereits durch
-  die spaeter zustaendige Behoerde.
-- **Bern:** *Gebaeudeversicherung Bern (GVB)*, Papiermuehlestrasse 130, 3063 Ittigen — eine
-  **Monopol-Gebaeudeversicherung**. Im Kanton Bern ist die Zustaendigkeit im Baubewilligungsverfahren
-  zusaetzlich **zwischen GVB und Gemeinden aufgeteilt**: je nach Nutzung pruefen die
-  Brandschutz-Fachleute der GVB oder die Feuerpolizei der Gemeinde/Region; oeffentliche und
-  personenintensive Bauten liegen bei der GVB. Ergaenzend gibt die GVB eigene
-  **Brandschutzmerkblaetter** heraus, die kantonale Praezisierungen enthalten.
+  6061 Sarnen — eine **Verwaltungsstelle** (beim Amt für Arbeit, Volkswirtschaftsdepartement), nicht
+  eine Gebäudeversicherung. Leitung: Thomas Haecki — derselbe Fachmann, den das Programm 2408 als
+  Brandschutz-Vorprüfer einsetzt. Die Vorprüfung im Wettbewerb erfolgte also faktisch bereits durch
+  die später zuständige Behörde.
+- **Bern:** *Gebäudeversicherung Bern (GVB)*, Papiermühlestrasse 130, 3063 Ittigen — eine
+  **Monopol-Gebäudeversicherung**. Im Kanton Bern ist die Zuständigkeit im Baubewilligungsverfahren
+  zusätzlich **zwischen GVB und Gemeinden aufgeteilt**: je nach Nutzung prüfen die
+  Brandschutz-Fachleute der GVB oder die Feuerpolizei der Gemeinde/Region; öffentliche und
+  personenintensive Bauten liegen bei der GVB. Ergänzend gibt die GVB eigene
+  **Brandschutzmerkblätter** heraus, die kantonale Präzisierungen enthalten.
 
 **Zur Grenzlage:** Eine Regel «Bauwerk auf der Kantonsgrenze» gibt es im Brandschutzrecht nicht und
 braucht es nicht — der Brandschutz folgt der Baubewilligung und damit dem **Standort**. Im Fall 2408
-loest sich die Frage schon vorher auf: laut Programm Ziff. 5.3 sind Bauten auf der Kantonsgrenze «von
+löst sich die Frage schon vorher auf: laut Programm Ziff. 5.3 sind Bauten auf der Kantonsgrenze «von
 Gesetzes wegen nicht mehr erlaubt», der Ersatzneubau steht entweder in OW oder in BE, und je nach
 Wettbewerbsresultat wird die Grenze bereinigt. **Planerische Folge:** Die Standortwahl ist damit
 zugleich eine Wahl des Bewilligungs- und Brandschutzregimes (Verwaltungsstelle OW gegen
-Gebaeudeversicherung BE, mit unterschiedlichen Merkblaettern und Gebuehrentarifen) — ein Argument,
-das in die Standortbegruendung gehoert und im Wettbewerb regelmaessig fehlt.
+Gebäudeversicherung BE, mit unterschiedlichen Merkblättern und Gebührentarifen) — ein Argument,
+das in die Standortbegründung gehört und im Wettbewerb regelmässig fehlt.
 
 #### e) Batteriespeicher (C44)
 
-Vollstaendiges Destillat neu in `normen/destillate/vkf-merkblatt-2005-15-lithium-ionen-batterien.md`
-(**VKF-Brandschutzmerkblatt 2005-15de, Stand 01.06.2021**). Fuer den Huetten-/Kleinbaufall:
+Vollständiges Destillat neu in `normen/destillate/vkf-merkblatt-2005-15-lithium-ionen-batterien.md`
+(**VKF-Brandschutzmerkblatt 2005-15de, Stand 01.06.2021**). Für den Hütten-/Kleinbaufall:
 
 - Die Einstufung erfolgt nach **Energieinhalt je Brandabschnitt**: **< 15 kWh = Hazard Level I**
-  (Ziff. 3.2). Ein Huettenspeicher liegt praktisch immer dort.
+  (Ziff. 3.2). Ein Hüttenspeicher liegt praktisch immer dort.
 - HL I verlangt (Ziff. 4.4 Abs. 3): geeigneter Raum **mit mindestens EI 30** — auch bei
-  Einfamilienhaeusern und Gebaeuden geringer Abmessung wird ein brandabschnittsbildender Raum
-  empfohlen; **keine Aufstellung in Fluchtwegen und Lueftungszentralen**; **mindestens 2.5 m Abstand
-  zu brennbaren Materialien**; zusaetzlich SN 411000 (NIN), SNR 460712, SIA 2061.
+  Einfamilienhäusern und Gebäuden geringer Abmessung wird ein brandabschnittsbildender Raum
+  empfohlen; **keine Aufstellung in Fluchtwegen und Lüftungszentralen**; **mindestens 2.5 m Abstand
+  zu brennbaren Materialien**; zusätzlich SN 411000 (NIN), SNR 460712, SIA 2061.
 - **Der Konflikt, den man im Wettbewerb sehen muss:** Ein Batterieraum von 2 m² in einem
-  Holzelementbau kann den **2.5-m-Abstand zu brennbaren Materialien** nicht einhalten. Aufloesung
-  entweder ueber **nichtbrennbare Auskleidung (RF1)** des Raums oder ueber Abstimmung mit der
-  Behoerde. Das ist eine Ableitung, keine Merkblatt-Aussage — aber es entscheidet ueber die
-  Raumgroesse und gehoert deshalb in die Grundrissentscheidung, nicht in die Ausfuehrungsplanung.
-- Das Merkblatt ist ausdruecklich **Hilfestellung**, nicht Richtlinie (Ziff. 4 Einleitung) — beim
+  Holzelementbau kann den **2.5-m-Abstand zu brennbaren Materialien** nicht einhalten. Auflösung
+  entweder über **nichtbrennbare Auskleidung (RF1)** des Raums oder über Abstimmung mit der
+  Behörde. Das ist eine Ableitung, keine Merkblatt-Aussage — aber es entscheidet über die
+  Raumgrösse und gehört deshalb in die Grundrissentscheidung, nicht in die Ausführungsplanung.
+- Das Merkblatt ist ausdrücklich **Hilfestellung**, nicht Richtlinie (Ziff. 4 Einleitung) — beim
   Zitieren kenntlich machen.
 
 ---
@@ -1152,7 +1152,7 @@ Bauteile (VKF-Brandschutzregister), (b) genormte, erfahrungsbasierte Bauteile (L
 selbst, DIN 4102-4, Holz-Brandschutz-Handbuch), (c) rechnerischer Nachweis nach anerkannten
 Berechnungsverfahren (Lignum «Feuerwiderstandsbemessung — Bauteile und Verbindungen», SIA 265
 Holzbau, SN EN 1995-1-2/Eurocode 5), (d) objektbezogene Konzepte mit Zustimmung der
-Brandschutzbehörde (parametrisierte Temperaturverläufe/Naturbraende).
+Brandschutzbehörde (parametrisierte Temperaturverläufe/Naturbrände).
 
 **Bezug zu §4b/§4d:** ein Holzbau-Tragwerk mit Anforderung **R 60** (z. B. Wohnbauten geringer
 Höhe mit Löschanlage oder Beherbergung [a] mit Sprinkler) ist mit RF1-klassifizierten
@@ -1189,7 +1189,7 @@ Feuerwiderstand als **Farbcode** (EI 60-RF1 dunkelblau, EI 30-RF1 hellblau, EI 6
 EI 30 orange/gelb, E 30 rosa); Fluchtwege als Flächenfarbe (vertikal dunkelgrün, horizontal
 hellgrün, freizuhaltende Fläche grün schraffiert) mit Pfeil-Symbolen für Notausgang,
 Fluchtweglänge (m) und Fluchtwegbreite (z. B. 1.20 m); feuerwehrbezogene Symbole (Hauptzugang
-Feuerwehr, Zugang SPA-Z, Handfeuerlöscher, Wasserlöschposten WLP mit Standort/Schlauchlaenge,
+Feuerwehr, Zugang SPA-Z, Handfeuerlöscher, Wasserlöschposten WLP mit Standort/Schlauchlänge,
 RWA-Bedienstelle, Entrauchung LRWA in m³/h, Öffnung natürliche Abströmung AOe in m², mobiler
 Lueter Feuerwehr, Sprinklerzentrale SPA-Z, gesprinklerte Bodenfläche, Brandmeldeanlage-
 Bedienstelle BMA-BS, Brandmeldeüberwachung BMA, Schlüsseldepot aussen, Raum/Schrank mit
@@ -1198,11 +1198,11 @@ Explosionsgefährdung, Personenbelegung «xxx Pers.», Treppenhaus-Bezeichnung �
 **Objektdatenblatt Feuerwehrpläne** (Kopfdaten Objekt/Betriebsname/Objektnummer/Adresse/Nutzung/
 Gemeinde/erstellt-aktualisiert-Datum/Visum Feuerwehr) fasst pro Objekt zusammen: Sofortmassnahmen,
 besondere Gefahren, Zufahrt, Schlüsseldepot, Feuerwehraufzug, Flucht-/Rettungswege, Sammelplatz;
-**Technischer Brandschutz** (BMA Voll-/Teilueberwachung, Sprinkler Voll-/Teilschutz, stationäre
+**Technischer Brandschutz** (BMA Voll-/Teilüberwachung, Sprinkler Voll-/Teilschutz, stationäre
 Löscheinrichtungen, RWA-/Rauchschutz-Druckanlage-/Evakuierungsanlage-Standorte); **Löschwasser-
 versorgung** (Steigleitung, Innenhydranten, Areal-Hydranten, Gewässer); **Gefahren** (Elektrizität/
 Trafostation, Photovoltaik, ABC-Gefahren, «Gefahr durch Löschen mit Wasser» bei wasserreaktiven
-Lagergütern) und **Ökologie/Entwaesserung** (Löschwasserrückhalt).
+Lagergütern) und **Ökologie/Entwässerung** (Löschwasserrückhalt).
 
 **JANS-Praxiswert:** diese Legenden-/Objektdatenblatt-Struktur ist eine belegte **Checkliste**, wenn
 JANS in einem Vorprojekt/einer Machbarkeitsstudie frühzeitig abschätzen will, welche Angaben ein
@@ -1220,14 +1220,14 @@ RWA-Pflicht, hier nur die Plan-Symbolik), **Poller** (versenkbar brandfallgesteu
 demontierbar) für Feuerwehrzufahrten, sowie **PV-Wechselrichter** und **Stromabschaltung
 (HV/PV)** als eigene Diverses-Symbole — relevant bei PV-belegten Dachflächen, Querverweis
 [[energie-pv-brandschutz]]. Farbcode-System durchgängig RGB-codiert (z. B. Fluchtwege 0/153/0,
-Löscheinrichtungen 0/50/204, Brandmeldeanlage 255/0/0, RWA/Ueberdruckbelueftung 255/255/0).
+Löscheinrichtungen 0/50/204, Brandmeldeanlage 255/0/0, RWA/Überdruckbelüftung 255/255/0).
 
 ---
 
 ## 5c · Feuerwehrzufahrten, Bewegungs- und Stellflächen — reale Bemessung (Pflegeheim Wald, Run 26, 2026-07-13)
 
 Quelle: `PL - 03 Brandschutz/_Projekte Themen/Pflegeheim Wald/IMG_0546.jpeg` — Foto einer
-Schulungs-/Praesentationsfolie «9 | Flächen für Gebäude mittlerer Höhe: bis 30 m Gesamthöhe»
+Schulungs-/Präsentationsfolie «9 | Flächen für Gebäude mittlerer Höhe: bis 30 m Gesamthöhe»
 (VKF-Feuerwehrzufahrten-Thematik; die Folie selbst nennt keine formelle Dokumentnummer — als Foto
 einer Präsentation, nicht als geprüfte Originalnorm zu behandeln, inhaltlich aber mit den
 Feuerwehr-Bewegungsflächen-Anforderungen konsistent, wie sie in der Praxis bei Gebäuden mittlerer
@@ -1248,10 +1248,10 @@ nahe an den Gebäudeeingang):
 - **Nicht unterkellert:** Bodendruckfestigkeit **800 kN/m²**.
 - **Unterkellert:** punktförmige Stützenlast **144 kN** bei einem Stützenteller von **0.18 m²**.
 
-**JANS-Praxisrelevanz:** die Feuerwehr-Bewegungs-/Stellflaeche ist ein **Vorprojekt-Parameter**,
+**JANS-Praxisrelevanz:** die Feuerwehr-Bewegungs-/Stellfläche ist ein **Vorprojekt-Parameter**,
 nicht erst eine spätere Brandschutz-Detailfrage — sie bindet eine Fläche entlang mindestens einer
 Fassade mit klaren Geometrie- und Traglastanforderungen (relevant für die Unterkellerungs-Statik
-bei Tiefgaragen unter der Zufahrt/Stellflaeche). Ergänzt die Erschliessungsgeometrie aus
+bei Tiefgaragen unter der Zufahrt/Stellfläche). Ergänzt die Erschliessungsgeometrie aus
 [[recht-norm-tiefgarage-erschliessung]] (dort Fahrzeug-/Rampengeometrie allgemein) um die
 feuerwehrspezifische Traglast- und Anleiterbarkeits-Anforderung — bei Healthcare-Neubauten mit
 Unterkellerung frühzeitig mit dem Statiker/Tiefbauplaner abzustimmen. **Offen:** exakte
@@ -1340,9 +1340,9 @@ eigene, vom baurechtlichen Geschossbegriff (§ 275 ff. PBG) **losgelöste** Defi
 Vorprojekten nicht verwechseln darf.
 
 **Ziff. 18.5 — Baulicher Brandschutz, Fluchtwege (Art. 37/38 BSN + § 305 PBG):**
-Mindestmasse Treppen/Tueren in Fluchtwegen (lichte Durchgangsbreite Türen mind. 0.9 m, Höhe
+Mindestmasse Treppen/Türen in Fluchtwegen (lichte Durchgangsbreite Türen mind. 0.9 m, Höhe
 mind. 2 m; horizontale Fluchtwege mind. 2.1 m), mit nutzungsbezogenen Abweichungsmöglichkeiten und
-Erleichterungen bei untergeordneten Räumen (Putzraum/Kleinlager/Sanitaerraum). **Wichtig für JANS:**
+Erleichterungen bei untergeordneten Räumen (Putzraum/Kleinlager/Sanitärraum). **Wichtig für JANS:**
 **§ 305 PBG geht vor, soweit er strengere Anforderungen stellt** — das betrifft insbesondere
 **Haustüren (Lichtmass 1 m)** und Treppen im Wohnungsinnern (Verweis Entscheid VB.2012.00854); die
 rein VKF-/BSN-seitige Mindestbreite (0.9 m) reicht in diesen Fällen **nicht**. Flucht- und
@@ -1434,13 +1434,13 @@ vollständig, andere Nutzungen nur als Kontext.
 | Lage | ohne Löschanlage | mit Löschanlage |
 |---|---|---|
 | unter Terrain oder allseitig geschlossen | > 600 m² | > 3'600 m² |
-| über Terrain, nicht allseitig geschlossen (< 25 % offene Umfassungswaende) | > 2'400 m² | > 4'800 m² |
+| über Terrain, nicht allseitig geschlossen (< 25 % offene Umfassungswände) | > 2'400 m² | > 4'800 m² |
 | über Terrain, Umfassungswände > 25 % offen | nicht notwendig | nicht notwendig |
 
 **Anlagetyp nach Brandabschnittsfläche (LRWA/MRWA/NRWA):** unter Terrain/allseitig geschlossen
 verlangt die Tabelle im mittleren Flächenband **MRWA** (maschinell); über Terrain analog auf den
 höheren Flächen-Schwellen verschoben. **NRWA** (natürlich) und **LRWA** (Lüftung durch die
-Feuerwehr) stehen je nach Konzept als Alternative/Ergaenzung zur Wahl — die Detailwahl bleibt
+Feuerwehr) stehen je nach Konzept als Alternative/Ergänzung zur Wahl — die Detailwahl bleibt
 Fachplaner-/Skill-`brandschutz`-Tiefe.
 
 **Zum Vergleich — andere Nutzungen (Tabellen-Kontext, hier nicht vertieft):** Industrie-/Gewerbe-/
@@ -1502,7 +1502,7 @@ dieser Bereiche zu versagen (Kapazitätsbemessung).
 **JANS-Praxisrelevanz:** Erdbebeneinwirkung ist bei neu erstellten mehrgeschossigen Holzbauten in
 der Schweiz **weder zu überbewerten noch zu unterschätzen** — bei eingehaltenen Regeln des
 erdbebengerechten Entwurfs gelingt der rechnerische Nachweis meist ohne Mehraufwand. Bei
-**bestehenden Gebäuden** (Umbau/Ertuechtigung) gelten zusätzlich die risikobasierten
+**bestehenden Gebäuden** (Umbau/Ertüchtigung) gelten zusätzlich die risikobasierten
 Beurteilungskriterien des Merkblatts SIA 2018 (2004) — für JANS-Ankaufsprüfungen/TDD an
 Holzbau-Bestand relevant (→ Skill `ankaufspruefung`).
 
@@ -1526,7 +1526,7 @@ Zusatz **(nbb)** = nicht brennbare Baustoffe, und mit/ohne nicht brennbarer Verk
 **Kernbefund für JANS-Healthcare (Tabelle 3, Beherbergungsbetriebe [a] — Krankenhäuser/
 Alters-/Pflegeheime):** einzige Nutzungskategorie, die **bereits ab 1 Geschoss und oberstem
 Geschoss** ein Feuerwiderstand-Bauteil verlangt (**EI60(nbb)**, baulich) bzw. **R60(nbb)/EI60(nbb)**
-ab 2 Geschossen — Wohnbauten/Buero/Schule kommen bei 1–2 Geschossen dagegen ohne Anforderung
+ab 2 Geschossen — Wohnbauten/Büro/Schule kommen bei 1–2 Geschossen dagegen ohne Anforderung
 oder mit blosser Mindestkantenabmessung aus. Deckt sich mit dem bereits in §4b dokumentierten
 Befund «Beherbergung [a] durchgängig R60, keine R30-Stufe» — die Lignatec-Tabelle liefert
 zusätzlich die **Sprinklerkonzept-Reduktion**: mit Sprinkleranlage sinkt die Anforderung bei
@@ -1535,7 +1535,7 @@ zurück (Fussnote 4: «Auf den Einbau einer Brandmeldeanlage kann verzichtet wer
 Krankenhäusern/Pflegeheimen [a] bleibt die Anforderung dagegen über alle Geschosszahlen
 unverändert R60(nbb)/EI60(nbb) — Sprinkler reduziert dort **nicht** die Tragwerksanforderung.
 
-**5–6-geschossige Holzbauten (Fussnote 3):** Wohnbauten/Buero/Schule/Industrie dürfen ab 5–6
+**5–6-geschossige Holzbauten (Fussnote 3):** Wohnbauten/Büro/Schule/Industrie dürfen ab 5–6
 Geschossen nur mit **anerkanntem Fachingenieur** und **Brandschutzkonzept vor Baubeginn**
 erstellt werden; das ausführende Unternehmen braucht ein Qualitätssicherungssystem — eine
 zusätzliche Verfahrensauflage neben der reinen Bauteil-Klassierung.
@@ -1573,7 +1573,7 @@ Vollüberwachung, ohne Schwelle (Ziff. 2.2.2 Abs. 1) — anders als [b]/[c] (Hot
 Sprinkler-Substitution möglich bleibt. Diese Asymmetrie deckt sich mit dem in §5n dokumentierten
 Befund (Sprinkler-Tragwerkserleichterung nur bei [b], nicht bei [a]).
 
-**Kernzahlen für die Lebenszyklusplanung:** Anwesenheits-/Erkundungsverzoegerung max. **3/5 Min.**
+**Kernzahlen für die Lebenszyklusplanung:** Anwesenheits-/Erkundungsverzögerung max. **3/5 Min.**
 (Ziff. 3.4.2); BMA-Beurteilungspflicht nach **15 Jahren** Betriebsdauer (Ziff. 4.5) — vs.
 Sprinkler-Generalüberholung nach **20 Jahren** (§5p, Ziff. 5.4 BSR 19-15). In Bettengeschossen
 entfällt die Raumanzeigelampen-Pflicht bei beschrifteten Zimmern (Ziff. 3.7.4 lit. b) — ergänzt §5d.
@@ -1584,16 +1584,16 @@ Volltext-Ziffern siehe `wissen/normen/destillate/vkf-brl-19-15-sprinkleranlagen.
 19-15de, 01.01.2015, vollständig destilliert und adversarial verifiziert 2026-07-14; Quelle
 `PL-03/02 Brandschutzrichtlinien 2015-17-22/Sprinkleranlage.pdf`).
 
-**Notwendigkeits-Schwellen, präzisiert/ergaenzt §4c (Parkhäuser, Delta zur Arbeitshilfe 1002-03d
+**Notwendigkeits-Schwellen, präzisiert/ergänzt §4c (Parkhäuser, Delta zur Arbeitshilfe 1002-03d
 von 2003):** unterirdisch >**4'800 m²**/Geschoss bzw. bei offenen Verbindungen >**2'400 m²**;
 oberirdisch geschlossen >**4'800 m²** bzw. teiloffen >**9'600 m²**/Geschoss; mechanisches
 Kompaktparkieren >**50 Fahrzeuge** (Ziff. 2.2.4). Verkaufsgeschäfte ab **2'400 m²**
 Brandabschnittsfläche (Ziff. 2.2.2).
 
-**Kernzahlen:** Nennwirkzeit **45-60 Min.** je nach Fläche/Raumhoehe (Ziff. 3.5), Hochhäuser bis
+**Kernzahlen:** Nennwirkzeit **45-60 Min.** je nach Fläche/Raumhöhe (Ziff. 3.5), Hochhäuser bis
 100 m Höhe 90 Min.; Generalüberholung nach **20 Jahren** (Ziff. 5.4, vs. BMA-Beurteilung §5o
 15 Jahre); Sprinklerzentrale eigener Brandabschnitt EI30 analog Brandmeldezentrale (§5o).
-Sprinkler können bei der Bemessung von Tragwerks-Feuerwiderstand/Brandabschnittsgroesse
+Sprinkler können bei der Bemessung von Tragwerks-Feuerwiderstand/Brandabschnittsgrösse
 berücksichtigt werden (Ziff. 2.1) — rechnerische Basis der in §5n dokumentierten Reduktion bei
 Hotels [b] (nicht bei [a]).
 
@@ -1671,7 +1671,7 @@ Kategorien gleichermassen; unterhalb 20 Personen fällt ein Betrieb ganz aus der
 Beherbergungs-Systematik.
 
 **Delta zur IVHB-Baubegriffe-KB** ([[recht-norm-ivhb-baubegriffe]]): **Gesamthöhe** verweist
-direkt auf die IVHB (kein Delta). **Geschosszahl/Geschossflaeche** ist dagegen eine eigenständige
+direkt auf die IVHB (kein Delta). **Geschosszahl/Geschossfläche** ist dagegen eine eigenständige
 VKF-Definition (Untergeschoss-Kriterium >50 % Aussenwandfläche unter Terrain), NICHT
 deckungsgleich mit der baurechtlichen Definition (§ 275 PBG) — bei Fassaden-/
 Gebäudehöhen-Grenzfällen (§4b) beide Definitionen separat prüfen.
@@ -1701,26 +1701,26 @@ Ziff. 3.6.1-Aufenthaltskonzept Beherbergung [a] (§4b/§5d).
 
 Volltext-Ziffern siehe `wissen/normen/destillate/vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md`
 (VKF-BSR 12-15de, 01.01.2015, adversarial vollständig verifiziert; Quelle `PL-03/02
-Brandschutzrichtlinien 2015-17-22/Brandverhuetung & organisatorischer Brandschutz.pdf`). Regelt
+Brandschutzrichtlinien 2015-17-22/Brandverhütung & organisatorischer Brandschutz.pdf`). Regelt
 die *organisatorische* Ebene (Sorgfaltspflichten, Sicherheitsbeauftragte, Alarmierung) neben dem
 baulichen/technischen Brandschutz.
 
 **a) Sicherheitsbeauftragte(r) Brandschutz — Pflicht:** Beherbergungsbetriebe [a] (Spital/
 Pflegeheim, ohne weitere Schwelle) und Fremdrettungskonzept-Gebäude generell; [b] ab
 **>100 Gästen**; Verkaufsgeschäfte ab **>2'400 m²**; Räume ab **>300 Personen**; Industrie-/
-Gewerbe-/Buero-/Schulbauten ab **>10'000 m²** Brandabschnittsfläche (Anhang zu Ziff. 4.3).
+Gewerbe-/Büro-/Schulbauten ab **>10'000 m²** Brandabschnittsfläche (Anhang zu Ziff. 4.3).
 
 **b) Sprachalarmierung:** Beherbergungsbetriebe [b] ab **50 Betten** Informationssystem, ab
 **300 Betten** Notfallwarnsystem; Evakuierungsräume (Aufenthaltskonzept, → §5d) ab **>100 Pers.**
 Informationssystem, ab **>1'000 Pers.** Notfallwarnsystem (Anhang zu Ziff. 6.1).
 
-**Weitere Kernzahlen:** Dekorationen RF2 (RF3 mit Sprinkler); Gerüstbekleidungen/Notdaecher auf
+**Weitere Kernzahlen:** Dekorationen RF2 (RF3 mit Sprinkler); Gerüstbekleidungen/Notdächer auf
 Baustellen RF2, Abstand zur Fassade **≥0.8 m**; temporäre Flüssiggasanlagen bis **13 m³** bzw.
 **1'100 kg**; Parking >600 m² max. **0.5 m³** brennbares Material je Einstellplatz.
 
 Diese Schwellen sind für JANS die organisatorische Früherkennung: ob ein Projekt einen
 Sicherheitsbeauftragten und/oder eine Sprachalarmierung auslöst, lässt sich mit Bettenzahl/
-Verkaufsfläche/Personenbelegung/Brandabschnittsflaeche bereits im Vorprojekt bestimmen.
+Verkaufsfläche/Personenbelegung/Brandabschnittsfläche bereits im Vorprojekt bestimmen.
 
 ## 5w · Blitzschutzsysteme — BSR 22-15de (Run 36, 2026-07-14; gekürzt Run 37, 2026-07-14)
 
@@ -1741,7 +1741,7 @@ der Elektroplanung zu koordinieren. Weitere Auslöser: Räume >300 Pers. (III/II
 
 Volltext-Ziffern siehe `wissen/normen/destillate/vkf-brl-24-15-waermetechnische-anlagen.md`
 (VKF-BSR 24-15de, 01.01.2015, adversarial vollständig verifiziert; Quelle `PL-03/02
-Brandschutzrichtlinien 2015-17-22/Waermetechnische Anlagen.pdf`).
+Brandschutzrichtlinien 2015-17-22/Wärmetechnische Anlagen.pdf`).
 
 **Kernzahlen für die JANS-Grundrissplanung:** Heizraum-Feuerwiderstand nach Nennwärmeleistung
 **bis 70 kW = EI 30, > 70 kW = EI 60** (Ziff. 3.3); direkter Zugang vom Freien für Anlagen
@@ -1892,14 +1892,14 @@ gegen den vorher nur behaupteten Stand «Revisionsstand 2017 identisch in der Sa
 volltextbelegt: die **Zahlenwerte/Schwellen bleiben unverändert** (Brandschutzabstände 5/7.5/10 m
 bzw. 4/5/6 m, Fluchtweg-Kernzahlen, QSS-Tabelle strukturell gleich); die Änderungen 2017 sind
 durchgängig **redaktionelle Präzisierungen**:
-- neue/praezisierte **Begriffe**: Dachkonstruktion (von Bedachung getrennt), Einliegerwohnung,
+- neue/präzisierte **Begriffe**: Dachkonstruktion (von Bedachung getrennt), Einliegerwohnung,
   Galerie (neu definiert), Gesamthöhe bei Flachdächern präzisiert («um die Dachfläche
   beziehungsweise um den Dachflächenbereich über dem tiefst gelegenen Teil des massgebenden
   Terrains» statt nur «um den Dachrand»);
 - **Nutzungseinheit:** Verschärfung von «sollen» auf **«müssen»** — Fluchtwege-relevante Räume
   innerhalb einer Nutzungseinheit müssen den Nutzern zwingend frei zugänglich sein (2015 nur
   Empfehlung, 2017 Pflicht);
-- durchgängige Einführung/Praezisierung der **«(cr)»-Kennzeichnung** (kritisches Verhalten) bei
+- durchgängige Einführung/Präzisierung der **«(cr)»-Kennzeichnung** (kritisches Verhalten) bei
   Baustoff-Zuordnungen (Baustoffe/Bauteile, Verwendung von Baustoffen, Brandverhütung) — schärft
   die Anwendungsgrenzen, ohne die RF-Klassen selbst zu ändern;
   QSS-Tabelle 2017 führt die Zeile «Brandschutzfachmann VKF» neu separat von «QS Verantwortlicher
@@ -2390,7 +2390,7 @@ Volltext-Diff aller drei Fassungen gegeneinander gefahren (nicht nur Stichprobe)
 
   | Betriebstyp | ebenerdig | über Treppen (UG/OG) |
   |---|---|---|
-  | Fachmärkte/Kaufhaeuser/Einkaufszentren (wenig/kein Food) | 0.10 Pers./m² | 0.10 Pers./m² |
+  | Fachmärkte/Kaufhäuser/Einkaufszentren (wenig/kein Food) | 0.10 Pers./m² | 0.10 Pers./m² |
   | Supermärkte (Food-Schwerpunkt) | 0.38 Pers./m² | 0.15 Pers./m² |
   | Hochfrequentierte Supermärkte (ÖV-Knotenpunkt, Sonntagsverkauf, > 7 Besucher/Tag/m² BGF) | 0.45 Pers./m² | 0.21 Pers./m² |
 
@@ -2444,7 +2444,7 @@ gleiches Muster wie Run 50/51 K41-K44):**
   Nach Dateiname vermutlich reine administrative Bestellbelege der gedruckten VKF-Norm 2015 (niedrige
   Priorität), aber nicht verifiziert — offen für den nächsten Lauf.
 - **Feuerwehrplan-Zusatzvariante `Stoerfall ABC-Objekt/`** (Unterordner von §5b, Musterplansatz
-  BSPUB-1394520214-207) — 8 PDF (Objektdatenblatt, Titelblatt, Anfahrts-/Situations-/Detailplaene EG+UG,
+  BSPUB-1394520214-207) — 8 PDF (Objektdatenblatt, Titelblatt, Anfahrts-/Situations-/Detailpläne EG+UG,
   Ökologieplan, Lagerliste), bisher nur als Existenz/Zweck ("optionale Zusatzvariante für Betriebe
   mit gefährlichen Stoffen") in §5b erwähnt, nie inhaltlich geöffnet. Alle 8 Dateien technisch
   blockiert (EDEADLK, auch nach Retry). **Fachlicher Erwartungswert (unverifiziert, deshalb nicht in
@@ -2475,7 +2475,7 @@ Produktion + Lagerung Farben»**.
 **Der Delta gegenüber einem normalen Feuerwehrplansatz (§5b) — neun Zusatzelemente:**
 
 1. **Eigenständige «Lagerliste» der gefährlichen Güter** — das zentrale Zusatzdokument. Spalten:
-   Stoff · Aggregatzustand (fest/fluessig/gasfoermig) · **Gefahren-/UN-Nr.** · **CAS-Nr.** ·
+   Stoff · Aggregatzustand (fest/flüssig/gasförmig) · **Gefahren-/UN-Nr.** · **CAS-Nr.** ·
    Behälter · Menge · Geschoss · Gebäude/Raum. Im Muster u. a. Butylacetat (33/1123, CAS
    123-86-4, 200-l-Fass, 20 t), Xylol (30+33/1307, Tank 30 m³ erdverlegt), Heizöl extra leicht
    (30/1202, 45 m³), Batteriesäure (80/2796) und Laborgasflaschen. Ein Standard-Feuerwehrplan
@@ -2491,7 +2491,7 @@ Produktion + Lagerung Farben»**.
    Produktion 1+2, Rohstofflager Harze, Leergebindelager).
 5. **Eigener Ökologieplan «Entwässerung»** (1:600) mit getrennter Führung von Regen-, Schmutz-
    und Mischabwasser, Rückhaltebecken mit m³-Angaben (RHB Süd 400 m³), Versickerungsanlage,
-   Kontroll-/Einlaufschaechten und **Schiebern zur Notabsperrung**. Warnkasten im Muster:
+   Kontroll-/Einlaufschächten und **Schiebern zur Notabsperrung**. Warnkasten im Muster:
    «Vorplatz Produktion entwässert Untergeschoss direkt in den Bach! Im Ereignisfall Schieber RHB
    Süd umgehend schliessen.» Zusätzlich die **ARA-Fliesszeiten** (Trockenwetter 40 Min. /
    Regenwetter 20 Min.) als Einsatzgrösse.
@@ -2504,7 +2504,7 @@ Produktion + Lagerung Farben»**.
 8. **PV-Sicherheitssymbole** «Wechselrichter PV» und «Stromabschaltung (HV, PV, …)» als eigene
    Abschaltpunkte — deckt sich mit dem Vollkatalog-Befund in §5b, Querverweis [[energie-pv-brandschutz]].
 9. **Erweiterter Verteiler** im Titelblatt: zusätzlich **ABC-Wehr** und **kantonale Fachstelle**
-   neben Orts-/Stuetzpunktfeuerwehr und Feuerwehrinspektorat.
+   neben Orts-/Stützpunktfeuerwehr und Feuerwehrinspektorat.
 
 **JANS-Praxiswert.** Der Satz ist die belegte Checkliste für die Frage, was ein Bauvorhaben
 **mit StFV-Unterstellung** über den normalen Brandschutz hinaus an Planungsleistung auslöst —
@@ -2530,7 +2530,7 @@ dedizierte Plan liefert die **konkreten Beckenvolumina je Lagerraum**: Fertigwar
 Sumpf unter Gitterrost 8 m³ — sowie den **zentralen Rückhalteraum «Löschwasserrückhalt 408 m³,
 max. Höhe 0.5 m»** als grossflächige Sammelzone zwischen den Lagerräumen. Zusätzlich zeigt der
 Plan erstmals die **Automatisierungslogik der Rückhalte-Absperrorgane**: an den
-Treppenhaus-Ausgängen (TH West/Sued/Nord/Nord II/Ost) sind vier von fünf Absperrklappen
+Treppenhaus-Ausgängen (TH West/Süd/Nord/Nord II/Ost) sind vier von fünf Absperrklappen
 **«Autom.» (brandfallgesteuert automatisch)**, eine einzige (Lager Biozide) **«Manuell»** — eine
 JANS-praxisrelevante Detailinformation für die Steuerungs-/BFS-Planung (vgl. §5ag), die im
 Standard-Feuerwehrplansatz nicht enthalten ist. → ergänzt Punkt 6 oben, kein neuer Artikel.
@@ -2576,20 +2576,20 @@ Konformitätsnachweis eines konkreten Produkts (dort bleibt DoP/VKF-Anerkennung 
 Skill `brandschutz`).
 
 **RF-Einstufung allgemeiner Baustoffe (Ziff. 2, Auswahl JANS-relevant):**
-- **RF1** (kein Brandbeitrag, Organik-Anteil ≤ 1 % gewichts-/volumenmaessig): Beton, Stahl, Glas,
+- **RF1** (kein Brandbeitrag, Organik-Anteil ≤ 1 % gewichts-/volumenmässig): Beton, Stahl, Glas,
   Gips/Putz auf Gipsbasis, Mineralwolle, Kalksandstein, Porenbeton, Kupfer/Aluminium (nicht fein
   verteilt), Faserzement.
 - **RF3** (zulässiger Brandbeitrag): **Nadelhölzer** (Fichte, Tanne, Lärche, Föhre, Doug­lasie,
   Arve) generell RF3; **Laubhölzer** je nach Art gespalten — Ahorn/Buche/Erle/Esche/Kirsche/
   Nussbaum RF3, aber **Eiche, Robinie (falsche Akazie), Afrormosia, Bilinga, Iroko, Teak, Wenge
   u.a. sind RF2** (geringerer Brandbeitrag als die übrigen Laubhölzer) — direkt LV-relevant bei
-  Holzartenwahl in Fluchtwegen/erhoehten Anforderungen.
+  Holzartenwahl in Fluchtwegen/erhöhten Anforderungen.
 - **Plattenmaterialien:** Gipsplatte (SN EN 520, Dichte ≥ 800 kg/m³) RF1; Holzfaserplatte/MDF,
   Massivholzplatte, OSB, Spanplatte, Sperrholz durchgängig RF3; **zementgebundene Spanplatte**
   (Rohdichte ≥ 1200 kg/m³, Zementgehalt ≥ 75 %) RF1.
-- **Bodenbeläge:** PVC-/Elastomer-/Linoleum-Belaege durchgängig **RF3 (cr)** — Zusatzflag «cr» =
+- **Bodenbeläge:** PVC-/Elastomer-/Linoleum-Beläge durchgängig **RF3 (cr)** — Zusatzflag «cr» =
   *kritisches Brandverhalten* trotz RF3-Einstufung, mit Mindestflächengewicht/-dicke je Norm (z.B.
-  PVC SN EN 649 min. 2300 g/m²/1.5 mm); Parkett/Holzfussboeden RF2 (versiegelt/geoelt aus
+  PVC SN EN 649 min. 2300 g/m²/1.5 mm); Parkett/Holzfussböden RF2 (versiegelt/geölt aus
   Ahorn/Buche/Eiche/Esche) oder RF2/RF3 je nach Holzart der Deckschicht.
 
 **Feuerwiderstandsfähige Bauteile ohne Einzelnachweis (Ziff. 3, Tabellen 4-9 — vereinfachte
@@ -2603,7 +2603,7 @@ SIA-262/266-Zusammenfassungen):**
 | Tragende Mauerwerkswand unverputzt (Backstein), Mindestdicke | 115 mm | 115 mm | 150 mm | 175 mm | SIA 266 |
 | Nichttragende Mauerwerkswand unverputzt (Backstein), Mindestdicke | 60 mm | 100 mm | 115 mm | 125 mm | SIA 266 |
 | Brandschutzplatte (BSP), Bekleidungsdicke (RF1, dauerwärmebeständig) | 22 mm | 30 mm | 40 mm | — | Herstellerangabe/Stand der Technik |
-| Verputz (Kalk-/Zement-/Gipsmoertel), Mindestdicke | 20 mm | 30 mm | 50 mm (90 Min.) | — | — |
+| Verputz (Kalk-/Zement-/Gipsmörtel), Mindestdicke | 20 mm | 30 mm | 50 mm (90 Min.) | — | — |
 
 **JANS-Praxiswert.** Die Tabellen sind das **schnellste Vorprojekt-Werkzeug** für die Frage
 «welche Mindestdicke braucht mein Bauteil für REI 60/90», bevor ein Fachplaner/Hersteller-DoP
@@ -2686,11 +2686,11 @@ JANS-Vorprojekte:**
   Fugenausbildung bei artgleichem Feuerwiderstand, Hohlräume im Anschlussbereich mit Mineralwolle
   (Schmelzpunkt ≥1000°C) zu füllen.
 - **Glossar (Kap. 7):** amtliche Begriffsdefinitionen Auflage/Baustoff/Beplankung/Brandabschnitt/
-  Feuerwiderstand/Hohlraum/Tragfaehigkeit — Querverweis zu den bereits dokumentierten BSR-10-15-
+  Feuerwiderstand/Hohlraum/Tragfähigkeit — Querverweis zu den bereits dokumentierten BSR-10-15-
   Begriffen (§5t), keine Widersprüche gefunden.
 - **Lignum-Dokumentation-Übersicht (S. 79):** die Publikation ist Teil eines **10-Themenblock-
   Systems** (1 Planung, 2 Qualitätssicherung, 3 Feuerwiderstandsbemessung, **4 Bauteile in Holz**
-  [Decken/Waende + **4.2 Anschlüsse**, s. §5as], 5 Flucht-/Rettungswege, 6 Haustechnik, 7 Aussen-
+  [Decken/Wände + **4.2 Anschlüsse**, s. §5as], 5 Flucht-/Rettungswege, 6 Haustechnik, 7 Aussen-
   wände, 8 Abschlüsse, 9 Brandmauern, 10 Grundlagen) — bisher war JANS nur Themenblock 4 bekannt;
   die Themenblöcke 5-9 (insbesondere «6 Haustechnik — Installationen und Abschottungen» und
   «7 Aussenwände — Konstruktion und Bekleidungen») sind potenzielle Backlog-Kandidaten für einen
@@ -2733,9 +2733,9 @@ konkrete Detailkonstruktionen, methodisch analog zu Kap. 4).
    Brettstapeln) — jede Situation braucht eine spezifische Massnahme (Dämmstreifen Mineralwolle
    ≥1000°C, Abdeckbrett, oder Fugendichtung).
 3. **Vorsatzkonstruktionen** (brandschutztechnisch NICHT wirksame Vorwandbekleidungen, Bodenauf-
-   bauten, Lattenroste): die Leitungs-/Installationsfuehrung muss ausserhalb des brandschutz-
+   bauten, Lattenroste): die Leitungs-/Installationsführung muss ausserhalb des brandschutz-
    technisch wirksamen Anschlusses liegen; wird eine solche Konstruktion Bestandteil des
-   Anschlusses, muss ihre Wirksamkeit nach Umbau/Konstruktionsaenderung sichergestellt werden.
+   Anschlusses, muss ihre Wirksamkeit nach Umbau/Konstruktionsänderung sichergestellt werden.
 4. **Baustoff-/Fugenmaterial-Definitionen** (Tab. 340-1) identisch zu Lignum 4.1 (§5ar), ergänzt
    um **Fugenabdichtungssysteme** (VKF-Register-Gruppe 224 «Fugenabdichtungen»).
 
@@ -2751,7 +2751,7 @@ Bauteildurchbrüche (nicht mehr im Detail gelesen, s. Backlog oben).
 
 **JANS-Praxiswert:** ergänzt Lignum 4.1 (§5ar) um die **Fugen-/Anschlussebene** — genau die
 Stelle, an der reale Holzbau-Brandschäden typischerweise entstehen (Schwachstellen an
-Bauteilstössen, nicht in der Fläche). Für die Werkplanung/Ausfuehrungskontrolle bei
+Bauteilstössen, nicht in der Fläche). Für die Werkplanung/Ausführungskontrolle bei
 Holzbau-Projekten mit Brandschutzanforderung ist dieses Dokument die noch fehlende dritte Säule
 neben Skill `brandschutz` (Fachbemessung) und Lignum 4.1 (Flächen-Konstruktion).
 
@@ -2764,8 +2764,8 @@ nächsten Recht/Norm+Brandschutz-Turnus.
 
 ## 6 · Wann Skill `brandschutz`, wann nur Verweis
 
-- **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertuechtigung Bestand-Wand, RF-Klassen,
-  Brandabschnitts-Grenzen, Bodenbelag im Fluchtweg (Bfl-s1), DoP/Leistungserklaerung prüfen,
+- **Skill `brandschutz` aufrufen** bei: EI30/EI60-Ertüchtigung Bestand-Wand, RF-Klassen,
+  Brandabschnitts-Grenzen, Bodenbelag im Fluchtweg (Bfl-s1), DoP/Leistungserklärung prüfen,
   Konformitätserklärung, Factsheet/Memo/LV-Beilage (z. B. BKP 271.1/225.4).
 - **Hier (PL-03-Wegweiser) bleiben** bei: «welche VKF-Dokumente gibt es / wo liegt was», «brauche
   ich einen Brandschutznachweis und wann», «was steht inhaltlich drin», «welche QSS gilt / wer
@@ -2778,7 +2778,7 @@ nächsten Recht/Norm+Brandschutz-Turnus.
   Unterkunft überhaupt als Beherbergungsbetrieb» (→ §4f), «welche Feuerwiderstandsklasse erreicht
   ein Holzbauteil, was heisst RF1/K30-RF1» (→ §5, Grobeinordnung — Detailbemessung Fachplaner),
   «wie sieht ein fertiger Brandschutz-/Feuerwehrplansatz konkret aus, welche Symbole/Angaben
-  braucht es» (→ §5b), «wie gross/tragfaehig muss die Feuerwehrzufahrt-/Anleiterflaeche sein»
+  braucht es» (→ §5b), «wie gross/tragfähig muss die Feuerwehrzufahrt-/Anleiterfläche sein»
   (→ §5c), «wie muss ein Bettengeschoss im Kinderspital/Pflegeheim brandschutztechnisch unterteilt
   werden (horizontale Evakuierung)» (→ §5d), «gilt für meinen Fall zusätzlich zur BSV auch das
   PBG (§ 305), und was steht im Blauen Buch zum Brandschutz» (→ §5e), «welche SN-EN-/SVGW-Norm
@@ -2786,7 +2786,7 @@ nächsten Recht/Norm+Brandschutz-Turnus.
   wann braucht es eine Schleuse zum Fluchtweg» (→ §5g), «ab welcher Fläche braucht die Tiefgarage
   eine Rauch- und Wärmeabzugsanlage» (→ §5l), «braucht mein Projekt eine Brandmeldeanlage, und ab
   wann bei einem Hotel/Beherbergungsbetrieb» (→ §5o), «ab welcher Fläche braucht mein Parkhaus/
-  Verkaufsgeschäft eine Sprinkleranlage» (→ §5p), «wieviele Handfeuerlöscher/Wasserloeschposten
+  Verkaufsgeschäft eine Sprinkleranlage» (→ §5p), «wieviele Handfeuerlöscher/Wasserlöschposten
   brauche ich, und was gilt für den Feuerwehraufzug bei bettlägerigen Patienten» (→ §5q), «welche
   Anforderungen gelten für Fluchtweg-Kennzeichnung und Sicherheitsbeleuchtung» (→ §5r), «wann darf
   ich statt dem Standardnachweis einen Rauchgas-/Ingenieur-Nachweis (Schutzzielnachweis) fahren»
@@ -2796,7 +2796,7 @@ nächsten Recht/Norm+Brandschutz-Turnus.
   einen Sicherheitsbeauftragten Brandschutz und/oder eine Sprachalarmierung (ab wieviel Betten/m²/
   Personen)» (→ §5v), «braucht mein Spital/Pflegeheim/Hochhaus ein Blitzschutzsystem und welche
   Blitzschutzklasse» (→ §5w), «welchen Feuerwiderstand braucht mein Heizraum (ab welcher kW-
-  Leistung EI 30 vs. EI 60) und welche Sicherheitsabstände gelten für Feuerungen/Kuechen»
+  Leistung EI 30 vs. EI 60) und welche Sicherheitsabstände gelten für Feuerungen/Küchen»
   (→ §5x), «wann brauche ich Brandschutzklappen bzw. wann darf ich darauf verzichten, und was gilt
   für die Abluft der gewerblichen Küche» (→ §5y), «welche Brandschutzabstände gelten für ein
   offenes/geschlossenes Cheminee, und darf ich die Schürze mit Holz verkleiden» (→ §5ai), «welche
@@ -2804,7 +2804,7 @@ nächsten Recht/Norm+Brandschutz-Turnus.
   «ab welcher Nennwärmeleistung braucht meine Schnitzelfeuerung einen eigenen Heizraum, und wie
   gross muss die Ausräumöffnung des Schnitzellagers sein» (→ §5ak), «welche Anforderungen gelten
   für ein Pelletslager (Grösse, Rückbrandsicherung, CO-Lüftung)» (→ §5al), «was braucht ein Betrieb unter der Störfallverordnung zusätzlich an
-  Feuerwehrplan-/Loeschwasserrueckhalt-Planung» (→ §5ao).
+  Feuerwehrplan-/Löschwasserrückhalt-Planung» (→ §5ao).
 - **Faktenbasis Recht:** Verfahrenseinbindung/Bestandesschutz → [[recht-norm-quellenlandkarte]]
   (GVZ-Brandschutz dort als Behörde geführt) + Skill `baurecht`. Solar-Schnittstelle →
   [[energie-pv-brandschutz]]. Erschliessungsgeometrie derselben Bauaufgabe (VSS-Normen) →

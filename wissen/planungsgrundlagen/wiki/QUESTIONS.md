@@ -113,7 +113,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   aber auch noch keine tragfähige Grundlage. Nachweis-Pflicht liegt bei `baurecht` (dort als offene
   Frage geführt, nächster Schritt: OS-Band 2021/2022 nach dem aufhebenden RRB). Sobald belegt: hier
   und in der Tabellenzeile eintragen. Führend für den Erlassstand bleibt `baurecht`.
-- [x] **K59 (Run 67, 2026-07-25, Token-Vollgas)** Dateinamens-/Groessen-basierter Scout (statt
+- [x] **K59 (Run 67, 2026-07-25, Token-Vollgas)** Dateinamens-/Grössen-basierter Scout (statt
   begriffsbasiert, Lehre aus Run 65 E45) findet die bisher nie gelesene 37-MB-Rasterdatei
   `geoglatt.ch/Maur/Zonenplan.pdf` — amtlicher Zonenplan Gemeinde Maur, genehmigt 27.02.2012,
   mit Gestaltungsplan-Register (8 benannte Perimeter Binz/Maur/Ebmatingen). Konkretisiert den
@@ -221,7 +221,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   §5.10/5.11) noch nicht ausgewertet — Kandidat für den nächsten Kartenportale-Turnus. Details
   siehe `training/curriculum.md` K40.
 - [x] **K37-K39 (Run 42, 2026-07-14, Token-Vollgas)** Drei weitere Ordner-Abgleich-Kandidaten
-  geprüft. **K37 — kein Delta:** `gisos.bak.admin.ch` enthält nur den bereits bekannten bloßen
+  geprüft. **K37 — kein Delta:** `gisos.bak.admin.ch` enthält nur den bereits bekannten blossen
   ISOS-Portal-Link, bestätigt K34. **K38 — echter Neufund:** Kt.-Bern-Portalarchitektur
   präzisiert (`be-geo.ch` = Login, `map.apps.be.ch` = Kartenclient), realer Fall Schloss
   Münchenwiler mit benannter Kontaktstelle Amt für Geoinformation Kt. Bern, AV-Bezug via
@@ -231,7 +231,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   kein zweites System) → [[kartenportale-werkleitungskataster]]. Details siehe
   `training/curriculum.md` K37-K39.
 - [x] **K34-K36 (Run 40, 2026-07-14, Token-Vollgas Fan-out)** Ordner-Abgleich PL-01 liefert drei
-  Neufunde. **K34 — neue Schutz-Domäne Denkmalpflege/Archaeologie:** national ISOS (BAK, nur
+  Neufunde. **K34 — neue Schutz-Domäne Denkmalpflege/Archäologie:** national ISOS (BAK, nur
   Portal-Link) + kantonal ZH (Denkmalschutzobjekte + archäologische Zonen, §§ 203/209/211 PBG);
   zwei bisher unbekannte, login-freie OGD-WFS-Layer live gefunden UND verifiziert
   (`ogd-0368_..._denkmalschutzobjekte_p` + `ogd-0087_..._archzonen_f`), Connector-Feature
@@ -263,7 +263,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 - [x] **K27/K28/K31 (Run 31, 2026-07-13)** Drei genuine Neufunde nach vollständigem Abgleich der
   Ordnerstruktur PL-01 gegen das Curriculum (K1-K26 bereits erschlossen): **Bezirks-Ebene GIS-
   Portal `gis.bezirkeinsiedeln.ch`** (unterhalb des kantonalen `map.geo.sz.ch`; Druckprodukte
-  Vermessung/Grundstuecksbeschrieb/Infrastruktur/Hoehendaten/ÖREB-Kataster; realer 9-seitiger
+  Vermessung/Grundstücksbeschrieb/Infrastruktur/Höhendaten/ÖREB-Kataster; realer 9-seitiger
   ÖREB-Auszug deckt zwei bisher unbekannte Fakten zum Willerzell/Reckholdern-Benchmark auf —
   Sondernutzungsplan «Gestaltungsplan Reckholdern» + statische Waldgrenze 22.8 % → NEU-Abschnitt
   [[kartenportale-geoportale-uebersicht]]), **ZH-Höhenkurven-Druckprodukt** (`Hoehenlinie/`-
@@ -318,7 +318,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   projektierte Gebäude blau/nicht einmessbar); Swisscom-Netzauskunft **3 Monate**/1:200,
   190-Volt-Warnhinweis. **Bewusst kein Connector-Anspruch** (login-pflichtig, kein offenes API) —
   Status `emerging`.
-- [x] **K9** GWR-Gebäudedaten je Parzelle (Baujahr/Volumen/EBF/Waermeerzeuger) — Bezug, Felder,
+- [x] **K9** GWR-Gebäudedaten je Parzelle (Baujahr/Volumen/EBF/Wärmeerzeuger) — Bezug, Felder,
   Verlässlichkeit? ✓ **2026-07-02 (Run 13):** `gwr-bund.mjs` login-frei via Layer
   `ch.bfs.gebaeude_wohnungs_register`. **GVOLNORM** (961 SIA 116 / 962 SIA 416 / 969 unbekannt) +
   **GVOLSCE** (851 amtl. Vermessung … 869 Baubewilligung … 878 nicht geschlossenes Gebäude) aus
@@ -335,7 +335,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 - [x] **A2** Zonenplan-/BZO-Ausschnitt automatisiert beziehen. ✓ **GELÖST 2026-06-16**: nicht
   über `wms.zh.ch` (401), sondern über den **ZH-OGD-WFS** `maps.zh.ch/wfs/OGDZHWFS` Datensatz
   **0156** `np_gn_zonenflaeche_f` (GeoJSON, login-frei) — liefert Zone (kommunal+kantonal),
-  **BMZ/AZ**, Gebäude-/Firsthoehe, Vollgeschosse, Gewerbeanteil, Rechtsstatus, Festsetzungsdaten;
+  **BMZ/AZ**, Gebäude-/Firsthöhe, Vollgeschosse, Gewerbeanteil, Rechtsstatus, Festsetzungsdaten;
   + **0154** Empfindlichkeitsstufe Lärm. Connector `--produkt zonenplan`, validiert Langnau
   Kat.3338 (BMZ) + Egg WG60 (AZ) → [[kartenportale-zonenplan-zh]]. **Mehr als der OEREB-PDF.**
   Bundes-Bauzonen `ch.are.bauzonen` PNG (`--produkt bauzonen`) bleibt für den Schnellblick.
@@ -413,11 +413,11 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Übergabe dorthin ist anzumelden (Rule `normen-referenz`, Muster
   [[brandschutz-pl03-wegweiser]]).
 - [x] **R73 (Run 90, 2026-07-26, Token-Vollgas)** Frischecheck `PL - 02_Recht_Norm` +
-  `PL - 03 Brandschutz` gegen Run 88 (`find -newer`): 0 neue/veraenderte Dateien. Vierzehnte
+  `PL - 03 Brandschutz` gegen Run 88 (`find -newer`): 0 neue/veränderte Dateien. Vierzehnte
   unabhängige Erschöpfungs-Bestätigung für dieses Domänenpaar, vierundzwanzigste in Folge
   über alle vier Domänen (Run 67-90). Details `outputs/2026-07-26_training-run90.md`.
 - [x] **R72 (Run 84, 2026-07-25, Token-Vollgas)** Frischecheck `PL - 02_Recht_Norm` +
-  `PL - 03 Brandschutz` gegen Run 82 (`find -newer`): 0 neue/veraenderte Dateien. Elfte
+  `PL - 03 Brandschutz` gegen Run 82 (`find -newer`): 0 neue/veränderte Dateien. Elfte
   unabhängige Erschöpfungs-Bestätigung für dieses Domänenpaar, achtzehnte in Folge über
   alle vier Domänen (Run 67-84). Details `outputs/2026-07-25_training-run84.md`.
 - [x] **R68-R71 (Run 66, 2026-07-25, Token-Vollgas)** SWKI VA103-01 Rest (S. 26-110/110, Backlog
@@ -488,7 +488,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (gemäss PROGRAMM.md Schritt 3a ausdrücklich für Aktualisierungen zulässig) plus die bereits
   lokal vorliegende `wissen/baurecht/raw/`-Kopie. **R52 NEU:** PBG-Revision «Erleichtertes Bauen im
   Bestand» — bisher nicht erfasster Rechtsetzungsstrang, § 220a E-PBG (Abweichungsanspruch
-  Grenzabstand/Fassadenhoehe/-laenge/Vollgeschosse bei neuen Wohneinheiten im Rahmen der
+  Grenzabstand/Fassadenhöhe/-länge/Vollgeschosse bei neuen Wohneinheiten im Rahmen der
   bestehenden Ausnützung) + § 357 E-PBG-Ergänzung für baurechtswidrige Bestandesbauten +
   Streichung Mehrlängenzuschlag ABV §§21/23/24; Primärquelle (Vorentwurf + erläuternder
   Bericht, RRB 827/2025, vzgv.ch) vollständig via WebFetch/PDF gelesen → NEU
@@ -613,9 +613,9 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   `training/curriculum.md` R32-R35.
 - [x] **R22–R26 (Run 30, 2026-07-13)** Fünf bisher unerschlossene PL-02-Einzelordner ausgewertet:
   **2-Stunden-Schatten-Grobnachweis** (§ 284 Abs. 4 PBG / § 30 ABV, Konstruktionsverfahren +
-  Azimut/Sonnenhoehe-Tabelle), **Post-Briefkastenanlage** (UVEK-Postverordnung 1998, Standort +
+  Azimut/Sonnenhöhe-Tabelle), **Post-Briefkastenanlage** (UVEK-Postverordnung 1998, Standort +
   Mindestmasse je Gebäudetyp), **Absturzsicherungen im Hochbau** (Richtlinie Stadt Zürich
-  1.6.2019, Geländer/Bruestungshoehen, kindersicher/nicht kindersicher, 15-%-Bestandsschwelle)
+  1.6.2019, Geländer/Brüstungshöhen, kindersicher/nicht kindersicher, 15-%-Bestandsschwelle)
   → alle drei NEU [[recht-norm-arbeitshilfen-planungsdetails]]; **Zimmerzählung ZH-Wohnbau-
   förderung** (Kt.-ZH-Merkblatt 15, halbe-Zimmer-Definition, eigenständiges kantonales
   Instrument neben der Bundes-WBS) → Ergänzung [[recht-norm-raumprogramm-referenzwerke]] §2b;
@@ -672,7 +672,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (Run 23):** **Denkmalschutz-PBG-Revision** — RRB verabschiedet **02.07.2026** zuhanden
   Kantonsrat (Vernehmlassung bereits erfolgt, Inkrafttreten offen): vereinfachtes Verfahren für
   kleinere Änderungen an Baudenkmälern (kein separater Schutzbeschluss mehr), stärkere
-  Gewichtung energetische Modernisierung/zeitgemaesse Nutzung/Barrierefreiheit, vertragliche
+  Gewichtung energetische Modernisierung/zeitgemässe Nutzung/Barrierefreiheit, vertragliche
   Unterschutzstellung bevorzugt, Gemeinden bleiben zuständig. **LSV-Novelle:** USG und LSV per
   **01.04.2026** geändert (bauen-im-laerm.ch), inhaltliche Details noch offen → beide in
   [[recht-norm-quellenlandkarte]] neue Abschnitte. **Offen:** Kantonsratsbeschluss Denkmalschutz-
@@ -711,7 +711,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   reduzierte Pflanzabstände 4 m/2 m + Strassenabstände, **§ 238a PBG** Begrünung Aussenraum),
   daneben kommunale Musterbestimmungen/BZO → [[recht-norm-quellenlandkarte]]. **Offen (RPG 2):**
   ZH-PBG-/Richtplan-Umsetzung RPG 2 bei Publikation nachziehen.
-- [x] **R8** Wald-/Gewaesserabstand ZH & SZ als beschaffbare Baufeld-Grundlage. ✓ **2026-07-12
+- [x] **R8** Wald-/Gewässerabstand ZH & SZ als beschaffbare Baufeld-Grundlage. ✓ **2026-07-12
   (Run 18):** NEU [[recht-norm-abstandsvorschriften-wald-gewaesser]] — **ZH-Wald** 30 m Regel-Mass
   (Merkblatt Abt. Wald Nov 2018), Bauverbot Hochbauten **§ 262 PBG** zwischen Waldgrenze und
   Waldabstandslinie, < 15 m immer forstlich, Ausnahme = **§ 220 PBG (Gemeinde) + Art. 17 WaG
@@ -741,10 +741,10 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   der SZ-Verordnung überwachen; SZ-Wald-Ausnahme-Minima aus sz.ch-Richtlinie (bisher einsiedeln.ch).
 - [x] **R3** Dispensrecht: § 220 PBG als Muster-Wegweiser (aus `05_Dispensrecht`). ✓ **2026-07-06
   (Run 15):** NEU [[recht-norm-dispensrecht]] — 3-Stufen-Prüfung (besondere Verhältnisse in
-  Topographie/Form/Lage; NICHT Vielzahl-Fälle/Haerten/persoenl. Verhältnisse · negative
+  Topographie/Form/Lage; NICHT Vielzahl-Fälle/Härten/persönl. Verhältnisse · negative
   Voraussetzungen Abs. 2/3, keine Nachbar-Zustimmungsabhängigkeit · Ermessen Gemeinde, freie
   Kognition der Rechtsmittelinstanz), **ausnahmebewilligungs-feindliche** zone-prägende Normen
-  (Höhe/Laenge/Abstand/Ausnuetzung), Abgrenzung § 357 Besitzstand / Art. 24 RPG, Beschaffung
+  (Höhe/Länge/Abstand/Ausnützung), Abgrenzung § 357 Besitzstand / Art. 24 RPG, Beschaffung
   **Baurekursgericht-ZH-DB** (login-frei, 4 Sucheinstiege, Rechtsgebiet-Direktlink). Benchmark
   **BRKE I 0247/2010** (Doppel-EFH-Ersatz W2bII, Dispens verweigert = Vielzahl-Fälle + zone-prägend;
   best. VB.2011.00041). ⚠ Harmonisierungs-Falle: nicht-harmonisierte BZO → PBG-Fassung bis 28.02.2017.
@@ -833,7 +833,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   [[recht-norm-arbeitshilfen-planungsdetails]] §4, kein neuer Fakt, Delta-Check-Vermerk dort
   ergänzt). Details siehe `training/curriculum.md` B45.
 - [x] **C36 (B42/B43) — GESCHLOSSEN Run 54, 2026-07-20** (OneDrive wieder lesbar; B42 vollständig ausgewertet → [[brandschutz-pl03-wegweiser]] §5ao, B43 als reine kaufmännische Belege ohne Fachinhalt verifiziert → §5ap). Ursprünglich (Run 52, 2026-07-18): Zwei technisch blockierte Kandidaten aus dem BSPUB-Register-Scan: Feuerwehrplan-Zusatzvariante `Stoerfall ABC-Objekt/` (8 PDF, §5b-Unterordner, nie inhaltlich gelesen) und `z_Administration/000_VKF_Lieferschein_Norm_2015.pdf`+`000_VKF_Bestellung_Norm_2015.pdf` — alle fünf Leseversuche scheiterten an EDEADLK ("Resource deadlock avoided"), auch nach Hintergrund-Priming mit 20 s Wartezeit. Gleiches Muster wie Run 50 K41-K44 (dort löste es sich nach ca. 2 Tagen von selbst). Für den nächsten Brandschutz-Lauf: erneuter Leseversuch, dann inhaltlich abschliessen.
-- [x] **C35 (B40) (Run 52, 2026-07-18, Token-Vollgas)** Systematischer BSPUB-Nummern-Scan im Ordner `02 Brandschutzrichtlinien 2015-17-22/` deckt eine dritte, bisher unkatalogisierte Fassung der BSR 16-15 «Flucht- und Rettungswege» auf (`BSPUB-1394520214-85.pdf`, Stand 01.12.2022). Volltext-Diff gegen die bereits dokumentierten 2015/2017-Fassungen: Fehlerkorrektur Ziff. 3.7 (Dez. 2022) ändert nur die Bezugsfläche der Schleusenpflicht von "Geschossfläche" auf "Brandabschnittsfläche > 1'200 m²" — der KB-Kennwert war bereits korrekt (Quelle war die präzisere Wohnbauten-Arbeitshilfe), kein Korrekturbedarf. Genuiner Delta: Ziff. 3.5.2 Personenbelegungsdichte-Tabelle Verkauf (TKB-Beschluss 09.06.2021) — neue 3x2-Matrix nach Betriebstyp (Fachmärkte/Kaufhaeuser 0.10, Supermärkte 0.38/0.15, hochfrequentierte Supermärkte 0.45/0.21 Pers./m²) ersetzt die alte 3-stufige Pauschaltabelle, JANS-relevant für Erdgeschoss-Retail in Wohn-/Mischnutzungsbauten. → NEU §5am [[brandschutz-pl03-wegweiser]]. Flag für normen-training: Destillat `vkf-brl-16-15-flucht-rettungswege.md` noch ohne 2021er-Tabelle. Details siehe `training/curriculum.md` B40.
+- [x] **C35 (B40) (Run 52, 2026-07-18, Token-Vollgas)** Systematischer BSPUB-Nummern-Scan im Ordner `02 Brandschutzrichtlinien 2015-17-22/` deckt eine dritte, bisher unkatalogisierte Fassung der BSR 16-15 «Flucht- und Rettungswege» auf (`BSPUB-1394520214-85.pdf`, Stand 01.12.2022). Volltext-Diff gegen die bereits dokumentierten 2015/2017-Fassungen: Fehlerkorrektur Ziff. 3.7 (Dez. 2022) ändert nur die Bezugsfläche der Schleusenpflicht von "Geschossfläche" auf "Brandabschnittsfläche > 1'200 m²" — der KB-Kennwert war bereits korrekt (Quelle war die präzisere Wohnbauten-Arbeitshilfe), kein Korrekturbedarf. Genuiner Delta: Ziff. 3.5.2 Personenbelegungsdichte-Tabelle Verkauf (TKB-Beschluss 09.06.2021) — neue 3x2-Matrix nach Betriebstyp (Fachmärkte/Kaufhäuser 0.10, Supermärkte 0.38/0.15, hochfrequentierte Supermärkte 0.45/0.21 Pers./m²) ersetzt die alte 3-stufige Pauschaltabelle, JANS-relevant für Erdgeschoss-Retail in Wohn-/Mischnutzungsbauten. → NEU §5am [[brandschutz-pl03-wegweiser]]. Flag für normen-training: Destillat `vkf-brl-16-15-flucht-rettungswege.md` noch ohne 2021er-Tabelle. Details siehe `training/curriculum.md` B40.
 - [x] **C34 (B41/B44) (Run 52, 2026-07-18, Token-Vollgas)** Register-Vervollständigung: zwei weitere bisher nicht katalogisierte BSPUB-Nummern gefunden (-57 = Zweitkopie 1-15 Brandschutznorm, bestätigter Nicht-Fund; -71 = 13-15 Baustoffe/Bauteile Rev. 01.01.2017, Volltext-Diff ergibt nur redaktionelle Änderungen: Rohrisolationen→Rohrdämmungen, Bauteil 208 Bedachung→Dachkonstruktionen umbenannt, keine Kernzahl-Änderung) → NEU §5an [[brandschutz-pl03-wegweiser]]. Zusätzlich BSV-2026-Refresh (WebSearch+WebFetch bsvonline.ch/vkg.ch) — Stand unverändert bestätigt, politische Vernehmlassung weiterhin 08-11/2026, keine neue Medienmitteilung seit 06.01.2026. Ausserdem bestätigt identisch: `1001-15_Wohnbauten Auszug Brandschutz_Arbeitshilfe_Wohnbauten.pdf` = byte-identische Mehrfachablage der bereits für Regensdorf/Thalwil genutzten Datei. Details siehe `training/curriculum.md` B41/B44.
 - [x] **C33 (B36-B39) (Run 45, 2026-07-14, Token-Vollgas)** Die vier seit Run 42 als Backlog vorgemerkten VKF-Brandschutzerläuterungen zu Feuerungsanlagen für feste Brennstoffe (103-15 Cheminées, 104-15 Spänefeuerungen, 105-15 Schnitzelfeuerungen, 106-15 Pelletsfeuerungen, alle Stand 01.01.2015, genehmigt 23.09.2014) vollständig volltextlich ausgewertet. Kernzahlen: Cheminée-Sicherheitsabstände 0.1 m/0.8 m (offen/verglast) + Vorbelag ≥0.4 m; Spänefeuerung IMMER separater EI-60-Heizraum unabhängig Nennwärmeleistung (keine kW-Erleichterung) + freistehende Silos 10 m Sicherheitsabstand + max. 40 m³ offene Lagerbehälter im Freien; Schnitzel-/Pelletsfeuerung teilen dieselbe 70-kW-Aufstellungsschwelle (EI 30/EI 60) und dieselbe Ausräumöffnungs-Staffel (1.0x0.7/2.0x0.9/2.5x1.5 m), unterscheiden sich aber im Rückbrandsicherungs-Regime (Schnitzel 3 Fallgruppen RHE/RSE+TÜB/RSE+SLE+TÜB, Pellets 5 feiner gestaffelte Fallgruppen wegen zusätzlicher pneumatischer Förderoptionen); Pellets zusätzlich mit pelletsspezifischer CO-Belüftungspflicht + Prallschutzmatten-Pflicht bei Befüllung sowie Kennwert 1 m³ ≈ 650 kg. Alle vier ehrlich als niedrige bis mittlere JANS-Priorität eingeordnet (primär Wohn-/Landwirtschaftsbauten-Relevanz, kaum Healthcare-/Grossprojekt-Bezug) → NEU §5ai-§5al [[brandschutz-pl03-wegweiser]]. Details siehe `training/curriculum.md` B36-B39.
 - [x] **C32 (B31) (Run 41, 2026-07-14)** Register-Korrektur zu C31/Run 39: die dort als «unbenannt/nie katalogisiert» geführte BSR 14-15 «Verwendung von Baustoffen» war eine Fehlidentifikation — `Baustoff & Bauteile.pdf` ist tatsächlich BSR 13-15 (bereits dokumentiert), die echte BSR-14-15-Datei ist `BSPUB-1394520214-77.pdf`. Eigenständig volltext-gelesen (Ziff. 1-7 + Anhang-Stichprobe) und gegen das bereits vorhandene, längst `established` Normen-KB-Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md` (seit 2026-07-12) geprüft — konsistent, keine Abweichung. Datenstand-Delta entdeckt (PL-03-Exemplar 01.01.2017 statt 2015 in der Normen-KB-Frontmatter, Kernzahlen bleiben gültig). Neuer Healthcare-Fund mit Fundstelle: Fussnote [6] Ziff. 4.2 — RF1-Pflicht Innenwände/Decken/Stützen in Beherbergungsbetrieben [a] ohne Erleichterung. → NEU §5ad [[brandschutz-pl03-wegweiser]]. Details siehe `training/curriculum.md` B31.
@@ -854,9 +854,9 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Stoffe, DIN EN 12101-2, Brandmauern 100-15) abgearbeitet + Doppelspur-Fix: **BSR 13-15
   Baustoffe/Bauteile** JANS-Anwendungsnotiz ergänzt in §4 (RF-Klasse↔Leistungserklärung-Brücke,
   Bestand-Übersetzung F30/F60→EI über BSR-Nr. 201-238), **BSR 26-15 Gefährliche Stoffe**
-  niedrige Priorität bestätigt (Ausnahme: Diesel/Heizoel-Notstromaggregate Spital/Pflegeheim
+  niedrige Priorität bestätigt (Ausnahme: Diesel/Heizöl-Notstromaggregate Spital/Pflegeheim
   können ab Lagermenge unter die Richtlinie fallen) → NEU §5z, **DIN EN 12101-2** (Produktnorm
-  NRWG-Auslösevorrichtungen, ergänzt BSR 21-15/§5l um die Komponenten-/Leistungserklaerungs-Ebene)
+  NRWG-Auslösevorrichtungen, ergänzt BSR 21-15/§5l um die Komponenten-/Leistungserklärungs-Ebene)
   → NEU §5aa, **100-15 Brandmauern**: beide Datei-Kopien waren 0-Byte, jetzt synchronisiert und
   lesbar (analog Lignum-Erdbeben-Fall) — Destillat bereits vollständig vorhanden
   (`vkf-brl-100-15-brandmauern.md`), Kernzahlen REI 180/90/60 + 1.0 m/0.3 m-Regel (deckt sich mit
@@ -880,7 +880,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Fluchtweglängen 35/50 m, Ausgänge-Staffelung nach Personenzahl, Breitenformel 0.6 m/100 bzw.
   60 Pers.) → alle NEU §5o-§5u [[brandschutz-pl03-wegweiser]]; §1-Register mit vollständiger
   Titelliste + Rest-Backlog (niedrige Priorität: Baustoff&Bauteile, Blitzschutz, DIN EN 12101-2,
-  Gefährliche Stoffe, Lufttechnische/Waermetechnische Anlage) ergänzt. Details siehe
+  Gefährliche Stoffe, Lufttechnische/Wärmetechnische Anlage) ergänzt. Details siehe
   `training/curriculum.md` B27.
 - [x] **C27–C28 (B25-B26) (Run 30, 2026-07-13)** B25-Verifikations-Retry gelang + eine neue
   Fundstelle: **Lignum «Erdbebengerechte mehrgeschossige Holzbauten»** (2010) — die seit Run 24
@@ -911,14 +911,14 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   B19-B25.
 - [x] **C15–C19 (B14-B18)** (Run 26, 2026-07-13) Bisher unerschlossene PL-03-Ordner ausgewertet:
   **Musterplansatz bsvonline.ch** (Legende/Symbolik + Objektdatenblatt Feuerwehrpläne → NEU
-  §5b), **Feuerwehr-Bewegungs-/Stellflaechen** (6×11 m, Schlauchlänge 60 m ⚠ Quelle nur Foto,
+  §5b), **Feuerwehr-Bewegungs-/Stellflächen** (6×11 m, Schlauchlänge 60 m ⚠ Quelle nur Foto,
   Verifikation offen → NEU §5c), **Fluchtwegkonzept Beherbergung [a]** (BSR 16-15 Ziff. 3.6.1,
   mind. 2 unabhängige Brandabschnitte je Bettengeschoss, real KISPI-Ordner → NEU §5d),
   **Blaues Buch Kap. 18** (§ 305 PBG geht vor BSN wo strenger, nur 2/>10 Seiten gelesen → NEU
   §5e), **VKF-Verzeichnis 40-15** (Konkordanz-Tabelle, niedrige Priorität bestätigt → NEU §5f)
   → alle [[brandschutz-pl03-wegweiser]]. Ordner `11 Projekte/` geprüft: leer. Details siehe
   `training/curriculum.md` B14-B18.
-- [x] **C11 (B10)** Atrien/Innenhoefe — ab wann gilt ein Raum als Atrium, welche Massnahmen? ✓
+- [x] **C11 (B10)** Atrien/Innenhöfe — ab wann gilt ein Raum als Atrium, welche Massnahmen? ✓
   **2026-07-13 (Run 24):** VKF-Erläuterung 101-15de vollständig — Definition (>3'600 m²/
   >3 Geschosse/>11 m), 3 Typen A/B/C, Innenhof-Sonderregel <5 m Breite → NEU
   [[brandschutz-pl03-wegweiser]] §4d.
@@ -926,14 +926,14 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   **2026-07-13 (Run 24):** VKF-Erläuterung 102-15de — Typ A/B, **JANS-Healthcare-Kernbefund**
   Typ B zieht BMA-Vollüberwachung + Verbot öffenbarer Fenster nach sich → NEU
   [[brandschutz-pl03-wegweiser]] §4e.
-- [x] **C13 (B12)** Kleine Beherbergungsbetriebe/Berghuetten < 20 Personen — gilt die strengere
+- [x] **C13 (B12)** Kleine Beherbergungsbetriebe/Berghütten < 20 Personen — gilt die strengere
   Beherbergungs-QSS-Kategorie? ✓ **2026-07-13 (Run 24):** 20-Personen-Schwelle belegt, realer
   Benchmark Biwak Grassen (QSS 2, R30, BMA-Erleichterung) → NEU [[brandschutz-pl03-wegweiser]] §4f.
 - [x] **C14 (B13)** Holzbau-Brandschutz — Einordnung in die VKF-Feuerwiderstandssystematik
   (R/EI/REI, RF1)? ✓ **2026-07-13 (Run 24):** Lignum-Dokumentation Themenblock 4 — RF1 begrenzt
   auf REI 30/60/90, Kapselungsregel K30-RF1, Abgleich zu §4b R60/R90-Schwellen → NEU
   [[brandschutz-pl03-wegweiser]] §5.
-- [x] **C10 (B9)** Parkhäuser/Einstellraeume als eigene Brandschutz-Bauaufgabe (Tragwerk/
+- [x] **C10 (B9)** Parkhäuser/Einstellräume als eigene Brandschutz-Bauaufgabe (Tragwerk/
   Brandabschnitte/Fluchtwege/RWA/Sprinkler) — reale JANS-Frage bei Healthcare-/Wohnbauten mit
   Tiefgarage. ✓ **2026-07-13 (Run 21):** VKF-Arbeitshilfe 1002-03d ausgewertet (⚠ Datenstand
   06.08.2003, vor Anwendung gegen bsvonline.ch prüfen) — Tragwerk UG mind. R 60 (nbb) bzw. R 30
@@ -952,10 +952,10 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Brandschutzfachstelle-Anfrage 16.02.2024 + JANS-Antwort 17.02.2024, Zitat Ziff. 2.1/2.2 wortgleich).
 - [x] **C8 (B7)** Tragwerk-/Brandabschnitts-Feuerwiderstand nach Gebäudehöhenkategorie × Nutzung
   (Tabellen 1-3, Ziff. 3.7.1). ✓ **2026-07-13 (Run 19):** R30/60/90/120-Matrix (geringe/mittlere
-  Höhe/Hochhaus × Wohnen/Buero/Industrie/Beherbergung) belegt, Konzept baulich vs. Löschanlage.
+  Höhe/Hochhaus × Wohnen/Büro/Industrie/Beherbergung) belegt, Konzept baulich vs. Löschanlage.
   **JANS-Healthcare-Kernbefund:** Beherbergung [a] (Krankenhaus/Alters-Pflegeheim) durchgängig
   **R 60 auch bei geringer Höhe** (einzige Kategorie ohne R30-Stufe) → Tragwerk bei Healthcare
-  eine Stufe strenger als bei Wohnen/Buero gleicher Höhe; Sprinkler-Vollschutz senkt auf R30/60.
+  eine Stufe strenger als bei Wohnen/Büro gleicher Höhe; Sprinkler-Vollschutz senkt auf R30/60.
   Real angewandt: Benchmark **Thalwil Bohlweg 3** (Factsheet 05.03.2025, EFH k.A. vs. «Konsumierung
   Sonderbauvorschrift» als MFH R 60 — Nutzungseinstufung entscheidet Tragwerks-Mehrkosten VOR der
   Statik) → [[brandschutz-pl03-wegweiser]] §4b.
@@ -983,9 +983,9 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 - [x] **C3 (B2)** Brandschutznachweis-Vorlagen brandschutznachweis.ch — wann braucht es welche? ✓
   2026-06-22 (Run 8): «Anleitung zum Brandschutznachweis» V.3 (A–F) belegt — Inhalt Textbereich D
   + objektbezogen E + Pläne F (SIA 400, 1:100/1:200, A3, Symbole VKF-MB 2003-15); EFH/Nebenbau/
-  geringe Abmessung nur Pläne auf Verlangen; Umbau/Nutzungsaenderung = Mängel aufzeigen + auf
+  geringe Abmessung nur Pläne auf Verlangen; Umbau/Nutzungsänderung = Mängel aufzeigen + auf
   aktuellen Stand; Vorlage MFH-5g-RF1 V.3 → [[brandschutz-pl03-wegweiser]] §2.
-- [x] **C4 (B3)** VKF-Struktur 2015 (Norm/Richtlinien/Verzeichnisse/Erlaeuterungen/Arbeitshilfen)
+- [x] **C4 (B3)** VKF-Struktur 2015 (Norm/Richtlinien/Verzeichnisse/Erläuterungen/Arbeitshilfen)
   als Wegweiser. ✓ 2026-06-22 (Run 8): 5-Teil-Struktur ↔ PL-03-Ordner-Mapping + Rev. 2017/2022 +
   Online (bsvonline.ch/brandschutznachweis.ch); ⚠ BSV 2026 in Vernehmlassung (Inkraft-Antrag
   03/2027, bis dahin BSV 2015 gültig) → [[brandschutz-pl03-wegweiser]] §1.
@@ -1075,10 +1075,10 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Status established. Details `training/curriculum.md` E39-Rest.
 - [x] **D24 (Run 42, 2026-07-14, E36-E38, Token-Vollgas)** Ordner-Abgleich PL-04 liefert drei
   weitere Funde. **E36 — neue Domäne:** Checkliste Gebäudeschadstoffe (AWEL 02.2023) —
-  Vier-Fälle-Weiche Asbest/PCB/CP nach Baujahr/Bausumme/Rueckbauvolumen, untersuchungspflichtige
+  Vier-Fälle-Weiche Asbest/PCB/CP nach Baujahr/Bausumme/Rückbauvolumen, untersuchungspflichtige
   Spezialobjekte inkl. **Spitäler** → NEU [[energie-baustoffe-schadstoffe-rueckbau]]. **E37 —
   Delta:** SolarApp AG als eigenständiges Vorprojekt-Tool eingeordnet, realer Willerzell-Bericht
-  liefert zusätzlich die Eigenverbrauchs-/Unabhaengigkeitsseite (53 %) → [[energie-pv-eignung-typenwahl]]
+  liefert zusätzlich die Eigenverbrauchs-/Unabhängigkeitsseite (53 %) → [[energie-pv-eignung-typenwahl]]
   §2c. **E38 — Delta:** PVSOL premium als TGA-Fachplaner-Tool eingeordnet, realer 491-kWp-Grossanlagenfall
   (Thomas Lueem Partner AG) mit explizitem "kein Planungsdokument"-Vorbehalt → [[energie-pv-eignung-typenwahl]]
   §2c. Details siehe `training/curriculum.md` E36-E38.
@@ -1155,7 +1155,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   **`_Heizwaermebedarf/`-Ordner** (nie in curriculum.md erfasster PL-04-Top-Level-Ordner) —
   vollständiges SIA-380/1-Berechnungsverfahren (11-Schritt-Formelkette + Beispielrechnung) +
   SIA-380/1-Anhang-A-Standardnutzungswerte (inkl. Kategorie Spitäler für Healthcare) +
-  SIA-384/1/384.201-Waermeerzeugerleistung-Dimensionierung (Formel + Holz/Pellet/Oel/Gas-
+  SIA-384/1/384.201-Wärmeerzeugerleistung-Dimensionierung (Formel + Holz/Pellet/Oel/Gas-
   Berechnungsbeispiele + Kontrollwerte spez. Heizleistung) → NEU [[energie-heizwaermebedarf-waermeerzeugerleistung]].
   **EN-101c Kt. Schwyz** (Willerzell-Fall) — SZ-Pendant zum EN-ZH-System (PV-Ersatzabgabe-
   Befreiung Globalstrahlung <1'120 kWh/m²a via map.geo.sz.ch, VHKA-Pflicht KEnV §26 SZ) →
@@ -1239,13 +1239,13 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   pauschal mit der Förderung verrechnet — ist jetzt eigenständig hergeleitet
   → `[[steuerabzug-energetische-sanierung-zh-sz]]` (§ 30 StG ZH/ZStB 30.4, § 32 StG SZ/
   LKPV-Weisung 18.11.2025), inkl. der steuerlichen Seite des ZEV-PV-Abzugs je Miteigentümer-Anteil.
-- [x] **D6** EVEN-Bedienung (Maskenführung, Rollen Planer/Bauherr/Behoerde, Beilagen-Upload).
+- [x] **D6** EVEN-Bedienung (Maskenführung, Rollen Planer/Bauherr/Behörde, Beilagen-Upload).
   ✓ **2026-07-04 (Run 14):** aus EnDK-Schulung V1.4 (13.10.2025, Kantone mit Privater Kontrolle)
   belegt — **Rollen** (Projektkoordination legt an/reicht ein/beauftragt PK · Nachweisverfassung
   füllt Teilnachweise · Vollzugsverantwortung/Interne+Externe Prüfung · **Private Kontrolle** nur
   in PK-Kantonen wie ZH · Admin-Rollen), **Projektstruktur** (Projekt→Gebäude je EGID→Zone→
   Teilnachweis), **Ablauf** Login→Projekt→Gebäude→Teilnachweis verfassen+Beilagen→einreichen→
-  Prüfung→abschliessen, **Aktionen** Nachtrag(Teilnachweis)/Beanstandung(Projekt)/Ausfuehrungs-/
+  Prüfung→abschliessen, **Aktionen** Nachtrag(Teilnachweis)/Beanstandung(Projekt)/Ausführungs-/
   Vollzugskontrolle, **Statusmodell** + **Freigabe-Kaskade** (Bewilligungs-/Baufreigabe-/Bezugsbereit),
   kein Undo/kein Offline/alles protokolliert, GWR-Anbindung → NEU [[energie-even-plattform-bedienung]].
   Teilnehmer: alle Kantone ausser BE + FL. **✓ Praxisfall-Teil erledigt 2026-07-13 (Run 20):**
@@ -1439,7 +1439,7 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   fixem ~0.0008-Grad-Fenster). (neu 2026-06-10) ✓ **2026-06-24 (Run 9):** adaptive Schleife im
   Connector — bei 0 Kacheln Fenster verdoppeln bis Treffer oder Max (~0.0064 Grad), `--radius`
   überschreibt den Start. **Befund:** STAC-Kacheln sind ~1 km → das Punktfenster trifft praktisch
-  immer beim ersten Versuch; die Verdoppelung ist Sicherheitsnetz für Kachelgrenzen/-luecken
+  immer beim ersten Versuch; die Verdoppelung ist Sicherheitsnetz für Kachelgrenzen/-lücken
   (am Langnau-Benchmark nicht ausgelöst, kein Regress). → [[kartenportale-bund-geodaten]].
 
 ## F — Meta/Querschnitt

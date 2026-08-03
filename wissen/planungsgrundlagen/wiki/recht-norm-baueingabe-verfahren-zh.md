@@ -14,7 +14,7 @@ Quellenschichten: (1) die JANS-eigene Terminplan-Vorlage «Baueingabe Fristen»
 (mit zwei realen Fallbelegen), (2) das amtliche Merkblatt «Eingabe Baugesuch»
 des Amts für Baubewilligungen (AfB) Stadt Zürich, (3) der kantonale «Ratgeber
 Baubewilligung» (Fokus energetische Sanierung, aber mit generischer
-Verfahrens-/Zustaendigkeits-Uebersicht).
+Verfahrens-/Zuständigkeits-Übersicht).
 
 ## 1. Das Drei-Spuren-Modell der ZH-Baubewilligung
 
@@ -27,7 +27,7 @@ S.4-5, Abb. 1 «Vereinfachter Ablauf der unterschiedlichen Verfahrenswege»):
   Bau-/Landwirtschaftszonen (nur **Meldepflicht** an die Gemeinde).
 - **Anzeigeverfahren** (vereinfachtes Verfahren) — bei Vorhaben von
   untergeordneter Bedeutung: Dachflächenfenster/-aufbauten/-einschnitte < 5 %
-  der Dachfläche, Fassadenöffnungen (Fenster/Tueren), energetische
+  der Dachfläche, Fassadenöffnungen (Fenster/Türen), energetische
   Gebäudehüllen-Sanierung, kleinere technisch bedingte Dachaufbauten
   (Kamine), Heizungs-Ein-/Umbauten. **Gilt als bewilligt, wenn 30 Tage nach
   Anzeige keine Antwort der Behörde vorliegt** — Voraussetzung: keine

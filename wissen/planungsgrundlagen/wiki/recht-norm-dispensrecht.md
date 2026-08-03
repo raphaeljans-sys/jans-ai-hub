@@ -56,7 +56,7 @@ Abschreiben des Gesetzestexts** — Wortlaut → zhlex, s.u.):
 **Stufe 2 — Negative Voraussetzungen (Abs. 2 und 3).** Selbst bei besonderen Verhältnissen **kein**
 Dispens, wenn:
 - die Ausnahme **gegen Sinn und Zweck** der Vorschrift verstiesse oder **öffentliche Interessen**
-  verletzte bzw. eine gesetzliche Gemeindeaufgabe verunmöglichte/uebermaessig erschwerte (Abs. 2);
+  verletzte bzw. eine gesetzliche Gemeindeaufgabe verunmöglichte/übermässig erschwerte (Abs. 2);
 - ein **Nachbar unzumutbar benachteiligt** würde (Abs. 3) — **aber:** die Ausnahmebewilligung darf
   **nicht von der Zustimmung des Nachbarn abhängig** gemacht werden.
 
@@ -71,7 +71,7 @@ Dispens, wenn:
 **Charakter einer Zone oder Ortschaft prägen**, ist der Dispens besonders restriktiv — namentlich
 Regelungen über **Zufahrt, Immissionen, Einordnung und die äussere Abmessung** von Bauten (primäre
 Baubeschränkungsnormen; BRKE I 0141/2003 E. 9c). → Für die JANS-Praxis: **Überschreitungen bei
-Höhe/Laenge/Abstand/Ausnuetzung sind die schlechtesten Dispens-Kandidaten**.
+Höhe/Länge/Abstand/Ausnützung sind die schlechtesten Dispens-Kandidaten**.
 
 ## Benchmark — BRKE I Nr. 0247/2010 vom 25.11.2010 (BEZ 2011 Nr. 43)
 
@@ -89,7 +89,7 @@ Realer Musterfall aus `05_Dispensrecht` (bestätigt vom Verwaltungsgericht mit *
   der Umgebung einschränkend → die Argumente treffen auf eine **Vielzahl von Fällen** zu → ein Dispens
   liefe auf eine **Änderung der gesetzlichen Ordnung** hinaus = unzulässig. Zudem **zone-prägende**
   äussere-Abmessungs-Norm (Zurückhaltung). Ergebnis: **Rekurs abgewiesen**, kein Dispens.
-- **Lehre für JANS:** Wenn ein Volumen/eine Kubatur nur über einen Dispens von einer Höhen-/Laengen-/
+- **Lehre für JANS:** Wenn ein Volumen/eine Kubatur nur über einen Dispens von einer Höhen-/Längen-/
   Abstands-/Dichte-Vorschrift erreichbar ist **und** dieselbe Vorschrift die ganze Nachbarschaft
   gleich betrifft → Dispens praktisch chancenlos; **nicht** als Machbarkeits-Annahme einsetzen, sondern
   als Risiko flaggen bzw. Umplanung/Normweg (BZO-Änderung) prüfen.

@@ -229,7 +229,7 @@ Innenseite) ist beim Fassadenaufbau-Vorprojekt zu prüfen, um Tauwasserausfall z
 Drei letzte, bisher nicht erschlossene Dateien im Ordner `U Wert berechnung/` ausgewertet:
 
 - **SIA-Merkblatt 2001 «Wärmedämmstoffe», Ausgabe 2005** (Bemessungswerte der Wärmeleitfähigkeit
-  λ_D je Dämmstoff-Typ von Herstellern/Lieferanten). **⚠ Status historisch/ueberholt:** die
+  λ_D je Dämmstoff-Typ von Herstellern/Lieferanten). **⚠ Status historisch/überholt:** die
   im Merkblatt bestätigten Nennwerte «gelten bis zum 31.12.2006» (Ziff. 0.7) — die konkreten
   Zahlenwerte sind **nicht mehr aktuell** und dürfen nicht zitiert werden. **Bleibender Wert:**
   die **methodische Definitionsebene** (Ziff. 1) ist normativ unverändert relevant — Definition
@@ -248,7 +248,7 @@ Drei letzte, bisher nicht erschlossene Dateien im Ordner `U Wert berechnung/` au
   Software-Schulungsmuster — aber **strukturell nützlich als Formularvorlage**: zeigt den
   vollständigen Aufbau eines SIA-380/1-Systemnachweises (Gebäudehüllzahl A_th/A_E, Grenzwert
   vs. Projektwert vs. effektiver Heizwärmebedarf je MJ/m² und kWh/m², Bauteiltabelle mit
-  Nr./Bezeichnung/U-Wert/Flaeche/Verlust in MJ/kWh/%, separate Fenster/Tueren-Tabelle,
+  Nr./Bezeichnung/U-Wert/Fläche/Verlust in MJ/kWh/%, separate Fenster/Türen-Tabelle,
   Energiebilanz-Zeile Q_T/Q_V/Q_i/Q_s/η_g/Q_h/Q_h,li/H). Nützlich als Format-Checkliste, welche
   Felder ein vollständiger EN-Nachweis mindestens enthalten muss — nicht als Kennwert-Quelle.
 

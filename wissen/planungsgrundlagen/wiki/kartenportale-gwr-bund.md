@@ -134,7 +134,7 @@ dekodiert sie seit Run 20 in `wohnungen[]` (JSON) bzw. Abschnitt «Wohnungen» i
 
 Damit ist die K9-Restfrage («Wohnungsdaten liefert der Connector noch nicht») gelöst — **kein
 Katalog-v5.0-Wechsel nötig**, die Rohdaten waren immer da, nur ungenutzt. Praxisnutzen: Belegung
-Zimmerzahl-/Flaechenmix (Kleinwohnungen vs. Familienwohnungen) für Machbarkeits-/
+Zimmerzahl-/Flächenmix (Kleinwohnungen vs. Familienwohnungen) für Machbarkeits-/
 Bewertungsstudien, ohne Bauplan-Digitalisierung.
 
 ## 7 · Wozu im JANS-Workflow
@@ -144,7 +144,7 @@ Bewertungsstudien, ohne Bauplan-Digitalisierung.
 - **Kostenschätzung / grobkosten-onepager:** `gvol` × Kennwert — aber erst nach GVOLNORM-Check (§3).
 - **Umnutzung / Ankaufsprüfung:** Baujahr + Heizsystem = erster Sanierungsstau-/Dekarbonisierungs-
   Indikator (Gas 1936-EFH → Heizungsersatz absehbar).
-- **Machbarkeit im Bestand:** Geschosse/Flaeche/Volumen als Ausgangswert für das Delta.
+- **Machbarkeit im Bestand:** Geschosse/Fläche/Volumen als Ausgangswert für das Delta.
 
 ## Offene Punkte
 - GKLAS/GKAT/GSTAT-Codelisten im Connector aus Katalog v4.2; bei Umstieg auf **Katalog v5.0**

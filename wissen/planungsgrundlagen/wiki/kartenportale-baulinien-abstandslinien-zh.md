@@ -67,7 +67,7 @@ GET https://maps.zh.ch/wfs/OGDZHWFS
 Gelieferte properties (je Layer leicht anders, Connector normalisiert auf `typ/zweck/bemerkung/
 rechtsstatus`):
 - **Baulinie 0158:** `typ_txt` (z.B. `Baulinie.Verkehr`), `zweck_txt`, `wirksamkeit`, `gemeindename`.
-- **Wald-/Gewaesserabstand 0152/0153:** `typ_txt`, `typ_bemerkungen` (oft die **Distanz** in m),
+- **Wald-/Gewässerabstand 0152/0153:** `typ_txt`, `typ_bemerkungen` (oft die **Distanz** in m),
   `festsetzung_txt`/`genehmigung_txt`/`inkraftsetzung_txt`.
 - **Waldgrenze 0150:** `typ`, `art_txt`, `inkraftsetzung_txt`.
 - **Gewässerraum 0185:** `gewaesserraumfestlegung_txt`, `rechtsstatus_txt`, `verfahren_txt`.
@@ -118,7 +118,7 @@ Verifikation: unabhängige Zweitmethode (Vertex-zu-Segment beidseitig) an Seuzac
 Analog zur BZO-Revisionserkennung bei der Grundnutzung (A6) fragt der Connector jetzt bei
 `--produkt baulinien` **zusätzlich die fünf proj-Layer** im selben Fenster (±`half` m) ab. Findet
 sich dort ein Treffer, meldet die Log-Zeile **`⚠ LAUFENDE REVISION`** mit Anzahl je Kategorie —
-damit weiss man VOR der Abgabe, ob eine Baulinie/ein Waldabstand/Gewaesserraum in der Nähe gerade
+damit weiss man VOR der Abgabe, ob eine Baulinie/ein Waldabstand/Gewässerraum in der Nähe gerade
 geändert wird, statt es erst beim nächsten OEREB-Bezug zu bemerken.
 
 **Live-Benchmark (kantonsweite Probe ohne bekannte Zielparzelle, dann per GWR-`identify`
@@ -148,10 +148,10 @@ Baulinie/29.8 m) unverändert grün — keine proj-Treffer dort, korrekt kein Re
 | **Langnau a.A.**, Giebelweg 12, Kat. 3338 (BFS 136, Projekt 2621) | 7 Baulinie + 1 Waldgrenze | Baulinie **116.2 m**, Waldgrenze **105.6 m** | Hanglage, Baufeld nicht durch Baulinie beschnitten |
 | **Seuzach**, Kirchgasse 2, Kat. 2304 (BFS 227) | 10 Baulinie | nächste **29.8 m** (dann 38.3 / 60.6 / 89 …) | Ortskern, Baulinie nahe aber nicht bindend |
 | **Seuzach**, Dorfstrasse 1 (BFS 227) | 10 Baulinie | nächste **0 m** | Baulinie **liegt auf/durch** die Parzelle → **bindend** |
-| **Wetzikon**, Zürcherstrasse 1 (BFS 121) | 10 Baulinie + 2 Gewässerabstand + 1 Gewässerraum | Baulinie 111.5 m, **Gewässerabstand 43.9 m**, Gewässerraum-Fläche 45.9 m | belegt, dass auch Wald/Gewaesser/Flaeche gemessen werden |
+| **Wetzikon**, Zürcherstrasse 1 (BFS 121) | 10 Baulinie + 2 Gewässerabstand + 1 Gewässerraum | Baulinie 111.5 m, **Gewässerabstand 43.9 m**, Gewässerraum-Fläche 45.9 m | belegt, dass auch Wald/Gewässer/Fläche gemessen werden |
 
 (Alle validiert 2026-07-08 gegen den Live-OGD-WFS; Baulinien-Zählung deckungsgleich mit dem
-Benchmark 2026-06-24.) Wald-/Gewaesserabstand 0152/0153/0185: an wald-/gewaesserfernen Parzellen
+Benchmark 2026-06-24.) Wald-/Gewässerabstand 0152/0153/0185: an wald-/gewässerfernen Parzellen
 erwartungsgemäss 0 Treffer.
 
 ## Grenzen / offen

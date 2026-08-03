@@ -169,7 +169,7 @@ Parz. 3301, gleicher Fall wie `[[kartenportale-ebau-sz-baugesuch]]`/`[[kartenpor
 - **Titel:** "Kontrolle EN-101c — Energienachweis für einfache Bauten"; **nur für Wohnbauten
   zulässig** (expliziter Hinweis im Formular).
 - **Struktur (Kontroll-Checkliste erfüllt/nicht erfüllt je Position):** Vollständigkeit der
-  Beilagen (Kontaktdaten/U-Wert-Berechnungen/Waermebrueckencheckliste/Fenster-Daten/Angaben
+  Beilagen (Kontaktdaten/U-Wert-Berechnungen/Wärmebrückencheckliste/Fenster-Daten/Angaben
   Eigenstromerzeugung/Planunterlagen) → Grunddaten Gebäude (Kanton, Klimastation, **Höhenlage
   über `www.map.geo.admin.ch`**, Gebäudekategorie, A_e, A_th, Gebäudehüllzahl) → Spezifische
   Daten Gebäudehülle (Bauweise/Speichermasse, U-Werte opak/Fenster, g-Werte, Fensteranteil,
@@ -289,5 +289,5 @@ erfasst — offener Punkt für einen künftigen Recht/Norm-Lauf.
   2026-07-13 (Run 20) im gesamten Projektordner (`AR - 02/03`, `PL - 04 Energie`) fand nur
   Referenz-/Planungsunterlagen (Workshop-PDFs, Kennwert-Tools), **keine abgerechnete PV-Anlage**;
   bisherige CHF-Werte bleiben Modul-Listenpreis/SolarApp-Schaetzung, keine Schlussabrechnung.
-- Offen: konkrete **EVEN-Bedienung** (Maskenführung, Rollen Planer/Bauherr/Behoerde) am
+- Offen: konkrete **EVEN-Bedienung** (Maskenführung, Rollen Planer/Bauherr/Behörde) am
   realen KISPI-Fall dokumentieren, sobald der Nachweis dort geführt ist (→ QUESTIONS D6 neu).

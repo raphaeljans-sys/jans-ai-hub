@@ -36,7 +36,7 @@ GET https://maps.zh.ch/wfs/OGDZHWFS
     &COUNT=10&OUTPUTFORMAT=geojson
 ```
 
-- **Mini-BBOX (±2 m)** um den Parzellen-/Gebaeudepunkt → genau **eine** Zonenfläche.
+- **Mini-BBOX (±2 m)** um den Parzellen-/Gebäudepunkt → genau **eine** Zonenfläche.
   Grössere Fenster (z.B. ±30 m) fangen Nachbarzonen mit (Benchmark Langnau: ±30 m liefert
   zusätzlich die angrenzende «Fk Kantonale Freihaltezone»). Bei >1 Treffer: Punkt präzisieren.
 - Achsen unkritisch hier, weil quadratische BBOX; CRS als `urn:ogc:def:crs:EPSG::2056`.
@@ -109,7 +109,7 @@ sich die Rahmennutzung gerade ändert:
 | `dokument` | **Verweis auf die OEREB-Dokumente** (BZO-Text/Plan der Revision) | `http://oerebdocs.zh.ch/documents?docid=…` |
 
 **Lese-Hinweis:** Bei `revisionsart = Aenderung_Bauordnung` ändert sich nur der **BZO-Text** —
-die Zone bleibt geometrisch gleich, die neuen Dichte-/Hoehenwerte stehen erst im verlinkten
+die Zone bleibt geometrisch gleich, die neuen Dichte-/Höhenwerte stehen erst im verlinkten
 `dokument`, nicht in den proj-Attributen (die `gebaeudehoehe_max` etc. können dann leer sein).
 Bei `Aenderung_Bauordnung_Zonenplan` ändert sich auch die Fläche/Zone → Vorher/Nachher direkt
 aus `_f` vs. `_proj_f` ablesbar. Immer **beide** Layer am selben Punkt abfragen.

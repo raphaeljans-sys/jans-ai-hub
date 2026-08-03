@@ -10,7 +10,7 @@ links: [[energie-uebersicht]], [[energie-pv-brandschutz]], [[energie-energienach
 
 Beschaffungs-/Entscheidungs-Artikel der Domäne Energie: **welcher PV-Typ wann** und **wie
 Eignung/Ertrag belegt bestimmt wird**, bevor ein konkretes Projekt geplant wird. Bedient vom
-Agent `energie-berater`. Physik/U-Werte/Heizwaermebedarf → eigene KB `wissen/energie/`
+Agent `energie-berater`. Physik/U-Werte/Heizwärmebedarf → eigene KB `wissen/energie/`
 (`[[u-werte-grenzwerte-ch]]`). **Brandschutz/Naturgefahren Solar → eigener Artikel
 `[[energie-pv-brandschutz]]`** (Swissolar-STP zu VKF-BSM 2001-15); Bauteil-Klassen → Skill
 `brandschutz`.
@@ -27,7 +27,7 @@ Die fünf in PL-04/Solaranlage geführten Bauarten (Ordner A–E) und ihr Entsch
 | D | **Fassaden-PV** | vertikal, Teil der Gebäudehülle | Stadt/Hochbau, hoher Fassaden- bei kleinem Dachanteil, Winterertrag (steiler Winkel) | `Solaranlage/D Fassaden PV Anlage` |
 | E | **Aufdach / Flachdach** | aufgeständert (Süd- oder Ost/West-/V-Anordnung) | Flachdach, schnelle Nachrüstung, max. kWp pro Fläche | `Solaranlage/E Aufdach Flachdach PV Anlage` |
 
-**Logik kurz:** Dach neu/Steildach + Gestaltung → A (oder B im Schutzbereich). Glasdach/lichtdurchlaessig
+**Logik kurz:** Dach neu/Steildach + Gestaltung → A (oder B im Schutzbereich). Glasdach/lichtdurchlässig
 → C. Wenig Dach, viel Fassade / Stadt → D. Flachdach, Ertrag maximieren → E (aufgeständert).
 Kombination D+E ist bei Hochbauten üblich (Fassade Winter, Dach Sommer).
 
@@ -39,7 +39,7 @@ Kombination D+E ist bei Hochbauten üblich (Fassade Winter, Dach Sommer).
 ## 1b — Flächenleistung (Wp/m²) je PV-Typ (belegt, D5)
 
 Der planerisch wichtigste Kennwert der frühen Studie ist **nicht** primär CHF/kWp, sondern **wieviel
-kWp auf die gegebene Dach-/Fassadenflaeche passt** — also die **Flächenleistung Wp/m² verlegte Fläche**.
+kWp auf die gegebene Dach-/Fassadenfläche passt** — also die **Flächenleistung Wp/m² verlegte Fläche**.
 Sie unterscheidet die Typen stärker als der spez. Ertrag und ist über Hersteller-Datenblätter hart belegbar:
 
 | Typ | Produkt (Beleg) | **Wp/m² verlegt** | Flächenbedarf | Gewicht/Besonderheit | Quelle |
@@ -58,7 +58,7 @@ generische Standardmodul-Band (~170–200), UND einen **zusätzlichen Mehrertrag
 Rückseite**, der stark vom Montageuntergrund abhängt (Albedo). Planerisch relevant: bei
 **Flachdach mit hellem Kies** oder **freistehender Geländer-/Carport-Montage** (Modul hängt
 frei, Rückseite sieht reflektierendes Material) ist Bifazial ein reeller Zusatzertrag von
-grob **+15–25 %**; auf dunklem Bitumen/Substrat-Gruendach kaum Mehrwert. Dieser Faktor gehört
+grob **+15–25 %**; auf dunklem Bitumen/Substrat-Gründach kaum Mehrwert. Dieser Faktor gehört
 in die Ertragsschätzung, sobald der Untergrund (Kies-/Substrat-Farbe) bekannt ist — nicht
 pauschal ansetzen.
 
@@ -94,10 +94,10 @@ in einer frühen Studie oft übersehen werden, weil sie nicht in der Flächenlei
   50×45/60×45 mm) — die statische Reserve eines Indach-Systems ist **kein pauschaler Wert**,
   sondern muss über die Bezugshöhe der Parzelle (SIA-Schneelastkarte, Postleitzahl-Tool
   `eternit.ch/Tools/Bezugshoehe`) hergeleitet werden.
-- **Hinterlüftung als Pflichtbauteil:** freier Querschnitt der Be-/Entlueftungsoeffnungen
+- **Hinterlüftung als Pflichtbauteil:** freier Querschnitt der Be-/Entlüftungsöffnungen
   mindestens die Hälfte des Durchlüftungsquerschnitts, gleichmässig über Trauf- und
   Firstlänge verteilt; **minimale Höhe des Durchlüftungsraums nach Norm SIA 60 mm**, je nach
-  Sparrenlänge/Dachneigung/Bezugshoehe auf bis zu 140 mm ansteigend (Tabelle S. 13). Bei
+  Sparrenlänge/Dachneigung/Bezugshöhe auf bis zu 140 mm ansteigend (Tabelle S. 13). Bei
   Dachdurchdringungen (Dachfenster) muss der unterbrochene Durchlüftungsraum konstruktiv
   umgeleitet werden.
 - **Materialkonflikt Dachschiefer/Naturgrau:** die Kombination von Sunskin-roof mit
@@ -139,7 +139,7 @@ Reduktion), Monatsanalyse, Produktübersicht (Montagesystem/Modul/Wechselrichter
 Wirtschaftlichkeit inkl. kumulierter Erträge, sowie **Anhang Statikbericht** und **Anhang
 Auslegung Montagekomponenten**. Realer Beleg Reckholdern 20 Willerzell (Bericht 09.01.2024,
 bereits in §3 als Ertrags-/Kostenbenchmark geführt) liefert zusätzlich die bisher nicht
-dokumentierte **Eigenverbrauchs-/Unabhaengigkeits-Seite**: Produktion 7'743 kWh/Jahr,
+dokumentierte **Eigenverbrauchs-/Unabhängigkeits-Seite**: Produktion 7'743 kWh/Jahr,
 Eigenverbrauch 3'386 kWh, Stromverbrauch Haushalt 14'500 kWh/Jahr → **Unabhängigkeit 53 %**,
 Bezug vom Netz 11'114 kWh, Einspeisung ins Netz 4'356 kWh. Alle SolarApp-Berichte tragen den
 Vorbehalt "Informationen ohne Gewähr, müssen vom Fachpartner überprüft werden" — Status eines
@@ -191,8 +191,8 @@ Werkzeug-Name dokumentiert (§2-Tabelle), nicht die Methodik dahinter:
   reale Verbrauchsdaten oder eine Fachberechnung (SIA 380/1, → §3 Detail in
   `[[energie-heizwaermebedarf-waermeerzeugerleistung]]`), das Portal ersetzt das nicht.
 - **Ausdrücklicher Vorbehalt der Quelle:** das Portal ersetzt keine Fachberatung, gibt keine
-  Auskunft zur Baubewilligungspflicht/-faehigkeit; Solaranlagen auf kantonal/national geschützten
-  Kultur-/Naturdenkmaelern bedeuten **immer** eine Baubewilligungspflicht (Art. 18a RPG) —
+  Auskunft zur Baubewilligungspflicht/-fähigkeit; Solaranlagen auf kantonal/national geschützten
+  Kultur-/Naturdenkmälern bedeuten **immer** eine Baubewilligungspflicht (Art. 18a RPG) —
   für die effektive Bewilligungsfrage bleibt der Skill `baurecht` massgebend, das Portal liefert
   nur den energetischen Grössenordnungswert.
 
@@ -260,7 +260,7 @@ S. 10-11.
 
 ### Detail-Lehre Flachdach V-Anordnung (ewzWHH, ewz/Meili Peter Partner/IBG, 13.02.2019)
 - **Belegungsdichte ↔ spez. Ertrag** ist ein Zielkonflikt: maximale Belegung senkt kWh/kWp
-  (Verschattung Brüstung/Lueftung) — weniger dicht belegt erreicht ~850 kWh/kWp.
+  (Verschattung Brüstung/Lüftung) — weniger dicht belegt erreicht ~850 kWh/kWp.
 - **Wirtschaftlichkeit:** Amortisation 31 J «nicht mehr wirtschaftlich», ohne Förderfaktor ~19 J;
   **techn. Lebensdauer PV 25–30 J** → Amortisation muss klar darunter liegen. Simulation PVSOL.
 - **Entwässerung V-Tiefpunkt:** Wasser sammelt sich aufs Substrat → Pflanzenwuchs/Pflege;
@@ -373,7 +373,7 @@ architektonischer Integrationsstrategie, als Design-Referenzkatalog für Studien
   Fassadenmitte verschoben → grosszügigere Küchen). Reales Beispiel für PV-Sanierung im
   bewohnten Zustand ohne vollständige Entmietung.
 - **Mehrfamilienhaus Romanshorn TG** (Viridén + Partner AG, Umbau 2012, Bestand 1962): **erster
-  Umbau eines Mehrfamilienhauses zum Plusenergiehaus in der Schweiz** — Südwest-/Suedost-Fassade
+  Umbau eines Mehrfamilienhauses zum Plusenergiehaus in der Schweiz** — Südwest-/Südost-Fassade
   vollständig mit PV verkleidet, Modulgrösse/Fugenbreiten an die Bestandsfensterraster angepasst
   (keine sichtbare Zäsur Alt/Neu). Jährlicher Stromüberschuss ca. 6'000 kWh, den Mietern nicht
   verrechnet. 200'000 CHF Fördergelder Kt. Thurgau, Investition 7.3 Mio. CHF.
@@ -417,7 +417,7 @@ Lösungsansätze zur optimalen Fassadengestaltung mit PV und Begrünungen im Hin
 Klimawandel", Workshop 2 (15.06.2022), Foliensatz `20220606_GreenPV - Workshop 2.pdf` (46 S.,
 `PL - 04 Energie/Solaranlage/_Literatur/`) — bisher als Backlog vermerkt (§Datenstand Run 40),
 jetzt S. 1-29 ausgewertet. Trägerschaft: BFE-Forschungsprogramm "Gebäude und Städte" +
-Stadt Zürich (Amt für Hochbauten/Gruen Stadt Zürich) + Kt. Basel-Stadt + Steiner Lab
+Stadt Zürich (Amt für Hochbauten/Grün Stadt Zürich) + Kt. Basel-Stadt + Steiner Lab
 Foundation; PV-Branche (3S Solar Plus/Sunage/Ges Gebäude-Energiesysteme) und Fassadenplaner
 (Lüchinger+Meyer, gkp Fassadentechnik) im Netzwerk vertreten — belastbare Praxisquelle, kein
 Marketingdokument.
@@ -425,7 +425,7 @@ Marketingdokument.
 **Referenzgebäude-Standard** (für die Simulationen, Stadt Zürich inkl. Hitzeinseleffekt,
 Nachbarbebauung mit 45°-Verschattungsregel): "Wohnen Altbau" (Baujahr-Analog 1988,
 U-Wert opake Bauteile 0.40 W/m²K, Fenster Ug 1.0/Uw 1.15 W/m²K, Fensteranteil 25 %,
-≤4 Geschosse) vs. "Wohnen Neubau" (SIA-180/1-Neubau-Daemmwert 0.17 W/m²K, Fenster Ug 0.7/
+≤4 Geschosse) vs. "Wohnen Neubau" (SIA-180/1-Neubau-Dämmwert 0.17 W/m²K, Fenster Ug 0.7/
 Uw 0.85 W/m²K, Fensteranteil 50 %, bis 8 Geschosse) — als Delta-Referenz brauchbar, wenn ein
 JANS-Umbau/Neubau grob gegen "Altbau-" oder "Neubau-Dämmstandard" eingeordnet werden soll.
 
@@ -451,7 +451,7 @@ Modul Wirkungsgrad 20 %, transparentes Modul Wirkungsgrad 14 % bei 30 % Lichtdur
 Pmpp -0.4 %/°C — Ergänzung zu §1b (Flächenleistung Wp/m² je System).
 
 **Einordnung für JANS:**
-- Eine **Fassaden-PV-Anlage rechnet sich energetisch/oekologisch IMMER langsamer als eine
+- Eine **Fassaden-PV-Anlage rechnet sich energetisch/ökologisch IMMER langsamer als eine
   Dachanlage** (Faktor 1.2-2.7× je nach Orientierung/Indikator) — bei der Typenwahl (§1) ist das
   ein reales Gegenargument zur reinen Flächenmaximierung, besonders bei Nordfassaden (Faktor
   ~2.7× bei THG/UBP) — dort ist eine energetische Nutzung kaum zu rechtfertigen, eher als
@@ -462,12 +462,12 @@ Pmpp -0.4 %/°C — Ergänzung zu §1b (Flächenleistung Wp/m² je System).
   (Temperaturkoeffizient ist symmetrisch), ist aber ein Warnsignal für Modul-Degradation und
   Wartungsintervalle bei Westfassaden.
 - **Kombination PV + Fassadenbegrünung** ist der eigentliche Fokus der GreenPV-Studie
-  (Bewertungsraster über Mensch/Gebaeude/Stadt&Umwelt: thermisches Wohlbefinden,
+  (Bewertungsraster über Mensch/Gebäude/Stadt&Umwelt: thermisches Wohlbefinden,
   Tageslichtversorgung, Mikroklima/Wärmeinseleffekt, Biodiversität, Luftqualität,
   Attraktivität Aussenraum) — Fassadenbegrünungssysteme (bodengebunden mit Kletterpflanzen,
   Wuchshöhe 15-30 m, Substrattiefe 50-60 cm; ODER wandgebunden modular, max. 30 kg/m²
   wassergesättigt, Wuchshöhe nur 20 cm, immergrün) können mit PV kombiniert werden, wenn
-  die Fassade in Zonen aufgeteilt wird (PV wo Ertrag hoch/Sued-Ost, Begrünung wo Ertrag tief/
+  die Fassade in Zonen aufgeteilt wird (PV wo Ertrag hoch/Süd-Ost, Begrünung wo Ertrag tief/
   Nord). Die Studie selbst war zum Auswertungszeitpunkt (Workshop 2 von geplant 3) noch nicht
   abgeschlossen — quantitative Kombinationsempfehlungen (Katalog/Handlungsempfehlungen)
   standen laut Agenda erst für Workshop 3 an; hier nur die **Referenzdaten**, keine
@@ -490,7 +490,7 @@ Frage nach einem Schlussbericht ist beantwortet, Status neu **established**.
   wegen der geringen solaren Ruckstrahlung (tiefe Albedo) und der Stromwandlung.
 - Eine unverschattete, nach Süden ausgerichtete PV-Fassadenanlage produziert **im Jahr rund
   20 % weniger Strom** als eine Dachanlage (5° südorientiert), erzeugt aber **im Winter 43 %
-  mehr Strom** als die Dachanlage — bestätigt/praezisiert quantitativ die bereits in §6
+  mehr Strom** als die Dachanlage — bestätigt/präzisiert quantitativ die bereits in §6
   dokumentierte Grundaussage "Winterstromproduktion Fassade > Dach".
   > **⚠ Divergenz zu §6 (Wissens-Chef Run 6, 16.07.2026):** Die Winter-Aussage bestätigt §6, der
   > **Jahres**-Minderertrag nicht: die §6-Tabelle (Workshop-2-Foliensatz 2022) führt für Süd
@@ -506,7 +506,7 @@ Frage nach einem Schlussbericht ist beantwortet, Status neu **established**.
   einen Viertel** und reduziert zusätzlich den städtischen Wärmeinseleffekt.
 
 **8 Empfehlungen zur Systemwahl** (S. 6-9, Planungs-Checkliste vor der Gestaltung):
-1. **Standort als zentraler Faktor** — Exposition/Verschattung/Laerm/Klima/vorhandene
+1. **Standort als zentraler Faktor** — Exposition/Verschattung/Lärm/Klima/vorhandene
    Grünflächen erst analysieren, dann Fassadensystem wählen; bei Neubau objektspezifisch
    optimieren, bei Sanierung auf vorhandenes Flächenpotential fokussieren.
 2. **Fachleute frühzeitig einbeziehen** (Effizienz/Brandschutz/Unterhalt/Statik/Denkmalschutz),
@@ -523,7 +523,7 @@ Frage nach einem Schlussbericht ist beantwortet, Status neu **established**.
 6. **Begrünungen: Potential steigern** über Pflanzen-/Substratwahl (hohes Grünvolumen,
    standortgerechte/einheimische Arten, hohe Pflanzendichte).
 7. **PV-Module sinnvoll einsetzen** — Orientierung (Süd > Ost/West), Verschattung vermeiden,
-   Nutzungszeiten/kuenftige Entwicklungen (E-Mobilität, Wärmepumpe) mitdenken.
+   Nutzungszeiten/künftige Entwicklungen (E-Mobilität, Wärmepumpe) mitdenken.
 8. **Kombination der Systeme** — Synergien nutzen (Begrünungs-Verdunstungskühlung steigert
    PV-Effizienz), gestalterische Vorteile für Gebäude/Stadtraum.
 
@@ -532,7 +532,7 @@ Biodiversität, Regenwassermanagement (Retention entlastet Kanalnetz), Kühlung 
 Verdunstung (mindert städtischen Wärmeinseleffekt), Verbesserung Luftqualität (Feinstaub/NOx/
 SO2-Bindung, CO2/O2), Steigerung Aufenthaltsqualität, sommerlicher Wärmeschutz (natürlicher
 Sonnenschutz, winters Blattverlust lässt solare Gewinne zu), langfristiger ökonomischer
-Vorteil (bessere Vermietbarkeit/Mietverhaeltnisse).
+Vorteil (bessere Vermietbarkeit/Mietverhältnisse).
 
 **Vorteile PV** (S. 30f.): hohe Eigenverbrauchsquote (Preis-Unabhängigkeit), kein zusätzlicher
 Flächenbedarf, Stromproduktion ohne Lärm/Abgase (auch in Siedlungsgebieten einsetzbar),
@@ -547,9 +547,9 @@ PV-Leistung in den nächsten 30 Jahren um **Faktor 13** steigern.
   Dämmwirkung; − höhere Investitionskosten als Standarddach, zusätzliche Auflast kann
   statische Verstärkung erfordern (graue CO2-Emissionen).
 - **Fassadenbegrünungen:** + kein Bodenanschluss (wandgebunden), architektonisches Element;
-  − insbesondere wandgebunden hohe Investitions-/Pflegekosten, hoher Wasser-/Naehrstoffbedarf.
-- **PV-Dach:** + höhere jährliche Stromproduktion, einfacher Zugang, geringere Kosten/hoehere
-  Effizienz bei Standardmodulen; − Flächenkonkurrenz mit Aufenthalts-/Technikflaechen,
+  − insbesondere wandgebunden hohe Investitions-/Pflegekosten, hoher Wasser-/Nährstoffbedarf.
+- **PV-Dach:** + höhere jährliche Stromproduktion, einfacher Zugang, geringere Kosten/höhere
+  Effizienz bei Standardmodulen; − Flächenkonkurrenz mit Aufenthalts-/Technikflächen,
   Hagelrisiko, stärkere Verschmutzung (horizontal).
 - **PV-Fassade:** + Winterstromproduktion ohne Verschattung > Dachanlage, bleibt vertikal
   schneefrei, bisher ungenutztes Flächenpotential; − geringeres Jahresertragspotential,
@@ -581,7 +581,7 @@ konzept-Kategorie** zugeordnet werden können). Für PV an Fassaden gilt bis 31.
 
 **Reales Fallbeispiel PV-Fassade — Sanierung Hochhaus Holenackerstrasse 65, Bern** (Baujahr
 1979-1986, Sanierung 2022-2023, Bauherrschaft FAMBAU Genossenschaft): PV-Typ AVANCIS SKALA
-135 W (rahmenloses Glas-Glas-Modul), 3 Modulfelder à 162 Module an Südwest-/Suedost-Fassade
+135 W (rahmenloses Glas-Glas-Modul), 3 Modulfelder à 162 Module an Südwest-/Südost-Fassade
 (Nordfassade ohne Modulfelder mangels Einstrahlung), **Investitionskosten CHF 1.1 Mio ≈
 CHF 1'400/m²**. Acht mit der Brandschutzbehörde vereinbarte Schutzziele (Art. 8 Brandschutz-
 norm) inkl. Segmentierung nach jedem 2. Geschoss, Fassadenwände ≥ EI 60-RF1, halogenfreie
@@ -598,9 +598,9 @@ zwei Jahren am wichtigsten, Kontrollschächte regelmässig auf Wurzelverstopfung
 
 **Checkliste für die Planung** (S. 88-91): 6 SIA-112:2014-Phasen (Strategische Planung →
 Vorstudien → Projektierung → Ausschreibung → Realisierung → Bewirtschaftung) mit
-Handlungsempfehlungen je Phase für Grundlagen/Zielsetzung/Standort/Gebaeude/
+Handlungsempfehlungen je Phase für Grundlagen/Zielsetzung/Standort/Gebäude/
 Fassadenbegrünung/PV-Fassade/Brandschutz/Umsetzung/Inbetriebnahme/Wartung/Dokumentation —
-direkt als Prüfraster für eine JANS-Fassaden-PV-/Begruenungs-Devisierung nutzbar.
+direkt als Prüfraster für eine JANS-Fassaden-PV-/Begrünungs-Devisierung nutzbar.
 
 Status **established** (offiziell publizierte, im Auftrag von Bund + zwei Städten erstellte
 Schlusspublikation einer Fachhochschule, mit Autoren-/Kontaktangaben; die Zahlen der
@@ -621,7 +621,7 @@ selbst nicht aufgefunden/gelesen — nur die öffentliche Zusammenfassungs-Brosc
 - **VKF-Norm-Fundstellen** (Höhen-/RF-Staffel in §6b) → KB `normen`, siehe Querbezug-Block dort.
 - Wirtschaftlichkeit/Rendite einer Anlage → Skill `healthcare-wirtschaftlichkeit` /
   `wirtschaftlichkeit-rechner` (Annuität, Amortisation).
-- Welches Portal liefert die Dach-/Hoehengeometrie → `[[kartenportale-geoportale-uebersicht]]`.
+- Welches Portal liefert die Dach-/Höhengeometrie → `[[kartenportale-geoportale-uebersicht]]`.
 - Eigenstromerzeugungs-**Pflicht** (Neubau, MuKEn/EN-104) → `[[energie-energienachweis-zh-formulare]]`
   (EN-104-Detail: EBF × 10 W/m², max 30 kW) bzw. `[[u-werte-grenzwerte-ch]]` (KB energie).
 - **Brandschutz/Naturgefahren** der Anlage (Brandmauer-Übergang, RWA-Abstand, Feuerwehr ≥30 kW,
@@ -649,7 +649,7 @@ gefunden — (1) `solar-home.ch/Sunskin/` Planungshandbuch liefert die **Einsatz
 dachintegrierten Typs B (§1c: Dachneigung 10–60°, Bezugshöhe/Schneelast-Kopplung, Hinterlüftung
 als Pflichtbauteil); (2) `uvek-gis.admin.ch/` Musterbericht legt die **Eignungsklassen-Skala und
 Rechenannahmen** hinter sonnendach.ch offen (§2b: 5 Klassen, Wirkungsgrad 20 % seit 09/2022,
-Performance Ratio 80 %, 10 Rp./kWh-Naeherung); (3) `energieschweiz.ch/Diemtigen/` liefert den
+Performance Ratio 80 %, 10 Rp./kWh-Näherung); (3) `energieschweiz.ch/Diemtigen/` liefert den
 **ersten installierten System-CHF/kWp-Wert** (§3: 3'190 CHF/kWp schlüsselfertig, Typ E
 Kleinanlage) — die in Run 17/§Offen als fehlend vermerkte Lücke ist damit **für Typ E teilweise
 geschlossen**, für Typ B/C/D (dachintegriert/transparent/Fassade) bleibt sie weiterhin offen; (4)

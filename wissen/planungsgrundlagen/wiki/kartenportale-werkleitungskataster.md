@@ -155,7 +155,7 @@ Entwässerungsreglement (KER, SRE 430.100, Bezirk Einsiedeln 28.02.2008)**. Kern
 - **Anschlussgebühr** wird einmalig über das **Nettogebäudevolumen (NGV)** berechnet (§ 24 KER),
   zwei zulässige Berechnungsvarianten nach **SIA 416 (SN 504 416)**: Variante A = Gebäudevolumen
   GV (Ziff. 5/Figur 8) abzüglich eines prozentualen Konstruktionsvolumenanteils je Ansatzgruppe
-  (EFH/MFH/Buero/Gewerbe/Hotel/oeffentliche Baute 15%, Industrie/Nebenbaute 8%, Lagerhalle/Tief-
+  (EFH/MFH/Büro/Gewerbe/Hotel/öffentliche Baute 15%, Industrie/Nebenbaute 8%, Lagerhalle/Tief-
   oder Sammelgarage > 60 m² 8%); Variante B = direkt das Nettogebäudevolumen NGV (Ziff. 5.1/
   Figur 9) aus Nutz-/Verkehrs-/Funktionsvolumen. Berechnung + Schemaplan sind **tabellarisch
   einzureichen**.
@@ -174,7 +174,7 @@ aber vollständig dokumentierter realer Fall (Bezirk Einsiedeln), nicht auf ande
 **Bezirks-GIS `gis.bezirkeinsiedeln.ch`** (siehe [[kartenportale-geoportale-uebersicht]]
 §Bezirk-Ebene) unter dem Druckprodukt «Infrastruktur» einen eigenen, sofort als PDF ausdruckbaren
 **«Leitungskataster Gde»** mit 7-Sparten-Legende (Abwasser/Kabelkommunikation/Wasser/Gas/
-Elektrizität/Oeffentliche Beleuchtung/Fernwaerme) — ein schneller, unverbindlicher Erstüberblick
+Elektrizität/Öffentliche Beleuchtung/Fernwärme) — ein schneller, unverbindlicher Erstüberblick
 ohne Bestellung/Wartezeit («Für die Richtigkeit und Aktualität der Daten wird keine Garantie
 übernommen»). **Ausdrücklich getrennt davon:** das kommunale White-Label-Portal `geoportal.ch`
 (Betreiber GEOINFO Applications AG, Service Desk 058 580 40 60) führt **keinen** Leitungskataster

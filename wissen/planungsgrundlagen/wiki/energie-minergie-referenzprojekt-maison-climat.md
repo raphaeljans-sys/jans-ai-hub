@@ -22,7 +22,7 @@ eigenen Studien zu Kompaktheit, Vorfabrikation und Bauteilaufbau.
   (Totalunternehmung).
 - **Programm:** 20 Mietwohnungen (2.5- bis 4.5-Zimmer) in additivem Rastersystem; 4 Geschosse
   (3 Vollgeschosse + 1 Mansardengeschoss).
-- **Terminplan:** Bauprojekt/Baueingabe/Ausfuehrungsplanung Januar 2020 bis April 2021;
+- **Terminplan:** Bauprojekt/Baueingabe/Ausführungsplanung Januar 2020 bis April 2021;
   Realisierung April 2021 bis Februar 2022 (rund 10 Monate Bauzeit).
 - **Standard:** **Minergie-A** (Plusenergiehaus).
 

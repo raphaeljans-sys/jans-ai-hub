@@ -54,7 +54,7 @@ fällt) abhängt:
    - Dringlichkeit durch unvorhersehbare Ereignisse,
    - Ergänzungs-/Erweiterungsauftraege (Wert max. Hälfte des
      Ursprungsauftrags),
-   - Ersatz-/Ergaenzungsleistungen aus Kompatibilitätsgründen (nur der
+   - Ersatz-/Ergänzungsleistungen aus Kompatibilitätsgründen (nur der
      ursprüngliche Anbieter kann liefern),
    - Wettbewerbs-/Studienauftrag mit Gewinnerin/Gewinner als Zuschlags-Basis
      (Punkt i — **relevant für Architekturwettbewerbe**: bei vorgängig
@@ -144,7 +144,7 @@ Abschreibung eines zugehörigen Postulats zur Lehrlingsausbildung bei
 Vergaben). Die Weisung liefert die **Entstehungsgeschichte** der bereits
 dokumentierten SubV 720.11 belegt nach:
 
-- Schweiz ist dem GATT/WTO-Uebereinkommen über das öffentliche
+- Schweiz ist dem GATT/WTO-Übereinkommen über das öffentliche
   Beschaffungswesen am **1.1.1996** beigetreten; Bundesgesetz über den
   Binnenmarkt (BGBM, SR 943.02) als Folgeerlass.
 - Die Kantone haben zur GPA-Umsetzung die **IVöB** (Interkantonale

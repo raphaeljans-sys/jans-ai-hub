@@ -169,7 +169,7 @@ betroffenem Haustechnik-Gewerk).
   Durchführungs-Auflagen aus dem Bauentscheid (SRZ-Amt), ergänzend zur bereits dokumentierten
   Ersatzabgabe-Mechanik im Fall KISPI.
 - **Ausschreibung/Kostenkontrolle**: Durchführungen `Ø > 60 mm` sind **prüfpflichtiges Material** —
-  Lieferzeiten/Pruefzertifikate rechtzeitig in den Bauprogramm einplanen (→ `terminplanung`).
+  Lieferzeiten/Prüfzertifikate rechtzeitig in den Bauprogramm einplanen (→ `terminplanung`).
 
 ## Offen (→ QUESTIONS)
 - Aktuelle SR-520.11-Fassung (nach ZSV-Revision 01.01.2026) noch nicht Volltext-verifiziert — bei

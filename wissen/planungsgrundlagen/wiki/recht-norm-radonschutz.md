@@ -29,7 +29,7 @@ Zitat die aktuelle fedlex-Fassung ziehen (Schema → [[recht-norm-quellenlandkar
 | Art. 110 Abs. 1 (Grenzwert 1000 Bq/m³) | **Art. 156** (Schwellenwert Arbeitsplatz) | Schwellenwert an **radonexponierten Arbeitsplätzen** weiterhin **1000 Bq/m³** (über die Jahres-Mittelung); Arbeitsplätze gelten als radonexponiert insb. in unterirdischen Bauten, Bergwerken, Höhlen, Wasserversorgungsanlagen |
 | Art. 110 Abs. 4 (Richtwert Neubau 400 Bq/m³) | **Art. 155** (Radonreferenzwert) | Für die **über ein Jahr gemittelte** Radongaskonzentration in Räumen, in denen sich Personen **regelmässig während mehrerer Stunden pro Tag** aufhalten, gilt ein **Radonreferenzwert von 300 Bq/m³** (Art. 155 Abs. 2) — der alte 1000-Bq/m³-Grenzwert für Wohnräume ist **ersatzlos durch den tieferen Referenzwert abgelöst** |
 | Art. 114 (Bauvorschriften) | **Art. 163** («Radonschutz bei Neu- und Umbauten») | (1) Die **Baubewilligungsbehörde** macht Eigentümer/Bauherrschaft im Baubewilligungsverfahren auf die Radonschutz-Anforderungen aufmerksam, soweit sinnvoll. (2) **Eigentümer/Bauherrschaft** ist dafür besorgt, dass **dem Stand der Technik entsprechende präventive bauliche Massnahmen** getroffen werden, um eine Radongaskonzentration **unter dem Referenzwert (300 Bq/m³)** zu erreichen; erfordert es Wissenschaft/Technik, ist eine Radonmessung durchzuführen |
-| Art. 113/116 (Sanierung) | **Art. 166** (Radonsanierung) | Bei Überschreitung des Referenzwerts trifft der Eigentümer die nötigen Sanierungsmassnahmen (Empfehlungen von BAG/Kantonen zur Dringlichkeit); bei Untätigkeit kann der Kanton die Sanierung anordnen; **Schulen/Kindergaerten**: Kanton ordnet bei Überschreitung **innert drei Jahren** die Sanierung an |
+| Art. 113/116 (Sanierung) | **Art. 166** (Radonsanierung) | Bei Überschreitung des Referenzwerts trifft der Eigentümer die nötigen Sanierungsmassnahmen (Empfehlungen von BAG/Kantonen zur Dringlichkeit); bei Untätigkeit kann der Kanton die Sanierung anordnen; **Schulen/Kindergärten**: Kanton ordnet bei Überschreitung **innert drei Jahren** die Sanierung an |
 | Art. 111 (Messungen) | **Art. 159 f.** | Radonmessungen nur durch **anerkannte Radonmessstellen**; Kanton kann Messungen verlangen (Art. 164), Pflicht in **Schulen und Kindergärten** (Art. 164 Abs. 2) |
 | Art. 115 (Radongebiete) | **Art. 157 Abs. 2 lit. b** | Fach- und Informationsstelle Radon (BAG) publiziert **in Absprache mit den Kantonen die Radonkarte** (siehe §3 unten) |
 
@@ -64,7 +64,7 @@ folgende vorsorgliche Massnahmen — Referenz-Normen bewusst SIA-verankert:
    Bodenplatte**; Luftbrunnen mit undurchlässiger Kiesfüllungs-Begrenzung; **Frischluftansaugung
    mind. 1.5 m über Erdoberfläche**, Lüftungsanlage druckneutral oder mit leichtem Überdruck
    (SIA-Merkblatt 2023 «Lüftung in Wohnbauten», Ziff. 6.7.1/6.7.2).
-6. **Unterboden-Entlüftung (Radondrainage)** bei erdberührenden Wohn-/Aufenthaltsraeumen oder
+6. **Unterboden-Entlüftung (Radondrainage)** bei erdberührenden Wohn-/Aufenthaltsräumen oder
    Naturkeller: perforierte Rohre in Kiesschicht unter der Bodenplatte mit Anschlussmöglichkeit für
    eine allfällige Bodenentlüftung.
 

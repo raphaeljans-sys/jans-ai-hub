@@ -96,7 +96,7 @@ betriebliche Prozesse/Staubemissionen verschmutzt, muss mit Havarien
 gerechnet werden? (4) kann das Problem mit optimierter Materialwahl oder
 betrieblichen Anpassungen entschärft werden?
 
-**Nicht Gegenstand dieser Richtlinie:** Planung/Ausfuehrung von
+**Nicht Gegenstand dieser Richtlinie:** Planung/Ausführung von
 Versickerungs-/Retentionsanlagen selbst, Gestaltung von
 Regenwassereinleitungen in Gewässer, Umschlagplätze für
 wassergefährdende Flüssigkeiten, Industrieabwasser, Baustellenentwässerung
@@ -113,7 +113,7 @@ EG GSchG **und** WWG zusammen auf. Nachfolge: planerischer Gewässerschutz
 Bewilligungen § 44 WsG. Führend `baurecht`; Wissens-Chef Run 18, 27.07.2026,
 am amtlichen Volltext `724.1_12.12.24_133.pdf` gegengelesen),
 GSchV-ZH (22.1.1975), **WWG** (2.6.1991, regelt Hochwasserschutz/
-Wasserbaupolizei/Gewaessernutzung/Wasserversorgung; § 18 kantonale
+Wasserbaupolizei/Gewässernutzung/Wasserversorgung; § 18 kantonale
 Bewilligung für bauliche Veränderungen an Oberflächengewässern
 — ⚠ **das WWG wurde per 1.6.2026 durch das neue Wassergesetz WsG vom
 12.12.2022 abgelöst**, § 126 WsG explizite Aufhebung, primärquellen-belegt
@@ -203,7 +203,7 @@ diesen Namen nicht, gemessen 01.08.2026. Direkt zum Kartenclient:
 je nach Gebietstyp (allgemein/Schutzgebiet/stehendes Gewässer) sowie
 Abweichungsregeln (Verkleinerung in dicht überbauten Gebieten,
 Vergrösserung bei Hochwasserschutz/Revitalisierung/Natur-
-Landschaftsschutz/Gewaessernutzung) — identische GSchV-Systematik wie bereits
+Landschaftsschutz/Gewässernutzung) — identische GSchV-Systematik wie bereits
 in `recht-norm-abstandsvorschriften-wald-gewaesser.md` (§3-4) dokumentiert.
 
 ### Anforderungen an die Planungsunterlagen (technischer Bericht, Verfahren 2)

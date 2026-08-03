@@ -27,7 +27,7 @@ für Kantone **mit Privater Kontrolle** (= Kt. ZH, siehe `[[energie-private-kont
 - **Auslöser:** die früheren PDF-Formulare EN-101…EN-141 waren «End of Life» (Mehrsprachigkeit,
   Platz, eingeschränkte Bearbeitung). EVEN ersetzt sie durch **web-basierte Formulare** mit
   geführter Eingabe (Einstieg mit wenigen zentralen Angaben, weitere Felder erst bei Bedarf).
-- **Betreiber/Traeger:** Projekt der **EnDK** (Konferenz Kantonaler Energiedirektoren), gestartet
+- **Betreiber/Träger:** Projekt der **EnDK** (Konferenz Kantonaler Energiedirektoren), gestartet
   Ende 2023 von 25 Kantonen; unterstützt von EnergieSchweiz.
 
 ### Teilnehmende Kantone (Folie 16, Stand 10/2025)
@@ -154,7 +154,7 @@ Diese drei Freigaben spiegeln die zwei Nachweis-Zeitpunkte im ZH-Verfahren
   die **Gebäude + ihre Teilnachweise mit Status**; oben die **Aktionen** («Projekt beanstanden»,
   «Ausführungskontrolle erstellen», «Prüfer zuweisen», «Projektfreigabe erteilen», «Projekt
   abschliessen») und die **Rollenumschaltung**. Klick auf einen Teilnachweis öffnet die
-  **Formularbearbeitung** (Angaben prüfen, Kommentare, Nachtrag/Pruefung abschliessen).
+  **Formularbearbeitung** (Angaben prüfen, Kommentare, Nachtrag/Prüfung abschliessen).
 - **Gebäudeansicht:** zeigt **Gebäude-Status lt. GWR**, EGID, Parzellennummern,
   Minergie-Zertifizierung (Ja/Nein) — **GWR-Anbindung** (relevante Daten können ans **GWR
   übermittelt** werden) → `[[kartenportale-gwr-bund]]`.

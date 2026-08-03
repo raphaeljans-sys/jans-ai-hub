@@ -61,13 +61,13 @@ zusätzlich die **befugte Person der Privaten Kontrolle** des betreffenden Fachb
 Die Befugnis wird **je Fachbereich** erteilt; nur wer die passende Befugnis hat, darf das
 zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbereiche
 (Spaltenkürzel des Merkblatts): **Lä** Schutz vor Lärm · **Wä** Wärmedämmung · **He** Heizung ·
-**Kl** Klima/Lueftung · **Bl** Beleuchtung.
+**Kl** Klima/Lüftung · **Bl** Beleuchtung.
 
 | Befugnis | deckt die Formulare | inhaltlich |
 |---|---|---|
-| **Wä** Wärmedämmung | EN-101, **102**, 104, **112**, **131**, **132** | Deckung Energiebedarf, Gebäudehülle SIA 380/1, Eigenstrom, Kühlräume, Ferienhäuser/Gewaechshaeuser |
+| **Wä** Wärmedämmung | EN-101, **102**, 104, **112**, **131**, **132** | Deckung Energiebedarf, Gebäudehülle SIA 380/1, Eigenstrom, Kühlräume, Ferienhäuser/Gewächshäuser |
 | **He** Heizung | EN-101, **103**, 104, **120**, **130**, **133**, **134**, **135**, **141** · **LN-1a** | Heizung/WW, erneuerbare Wärme bei Erzeugerersatz, Elektrizitätserzeugung, Heizung im Freien, beheizte Freiluftbäder, Gebäudeautomation; WP-Lärm einfach |
-| **Kl** Klima/Lueftung | EN-101, **105**, **110**, **141** · **LN-1b** | Lüftungstechnische Anlagen, Kühlung/Befeuchtung, Gebäudeautomation; WP-Lärm komplex |
+| **Kl** Klima/Lüftung | EN-101, **105**, **110**, **141** · **LN-1b** | Lüftungstechnische Anlagen, Kühlung/Befeuchtung, Gebäudeautomation; WP-Lärm komplex |
 | **Bl** Beleuchtung | EN-104, **111** | Beleuchtung (Nichtwohnen >1000 m² EBF, SIA 387/4) |
 | **Lä** Schutz vor Lärm | **S**, **LN-1a**, **LN-1b** | Schallschutznachweis Aussenlärm; Lärmschutznachweis Wärmepumpen |
 
@@ -101,13 +101,13 @@ zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbere
   Befugte Private Kontrolle) sicherstellen. Schallschutz **S** und WP-Lärm **LN-1** nicht
   vergessen — eigener Befugnisbereich **Lä**.
 - **Früh klären:** Welche Befugnisbereiche braucht das Projekt? Healthcare/Umbau im Bestand
-  zieht meist **Wä + He + Kl** (+ **Lä** bei WP/Aussenlaerm). Pro Bereich eine befugte Person
+  zieht meist **Wä + He + Kl** (+ **Lä** bei WP/Aussenlärm). Pro Bereich eine befugte Person
   organisieren (oft die Fachplaner selbst, sofern gelistet).
 - **Minergie-Abkürzung:** Mit zugesichertem/erteiltem **Minergie-Label** entfallen die
   Einzelnachweise EN-101…EN-111 (→ `[[energie-energienachweis-zh-formulare]]`, § 4 Abs. 3 BBV I)
   — und die Private Kontrolle dieser Bereiche reduziert sich entsprechend.
 - **EVEN-Bezug 2026:** Die Unterschriften-/Befugnis-Logik gilt unverändert, ist jetzt aber im
-  **EVEN-Workflow** (`energievollzug.ch`) abgebildet (Rollen Planer/Bauherr/Behoerde) → offene
+  **EVEN-Workflow** (`energievollzug.ch`) abgebildet (Rollen Planer/Bauherr/Behörde) → offene
   Frage D6 (Maskenführung am realen KISPI-Fall).
 - **Bezugsquelle Formulare + aktuelle Liste:** `zh.ch/de/planen-bauen/bauvorschriften/
   bauvorschriften-gebaeude-energie/energienachweise.html` → Nachweisformulare → Projektkontrolle
@@ -129,7 +129,7 @@ zugehörige Formular bei «Private Kontrolle» unterzeichnen. Fünf Befugnisbere
   Minergie; Kursunterlagen inkl. **Fallstudie "Maison Climat"** →
   `[[energie-minergie-referenzprojekt-maison-climat]]`) diente der Minergie-Grundausbildung
   (Kursattest zählt zur Voraussetzung für die Minergie-Fachpartnerschaft + Kompetenzerhalt
-  für bestehende Fachpartner). Sponsoren/Traeger 2023: EKZ, anex, Flumroc, Grünberg+Partner,
+  für bestehende Fachpartner). Sponsoren/Träger 2023: EKZ, anex, Flumroc, Grünberg+Partner,
   Kt. ZH Baudirektion, energie360°, Amstein+Walthert, energieschweiz, Neukom Engineering,
   Stadtwerk Winterthur, energie Uster, Belimo, Minergie, EM, ecowin, Isover, Zehnder.
 

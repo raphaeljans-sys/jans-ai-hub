@@ -32,13 +32,13 @@ duplizieren:
 - U-Wert-Grenzwerte je Bauteil (Einzelbauteil- vs. Systemnachweis) → `[[u-werte-grenzwerte-ch]]`
   (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2016 — Werte
   unverändert; Ausgabe korrigiert, Wissens-Chef Run 15 25.07.2026, PDF-Kopfzeile).
-- Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Daemmstoffwahl, CLT/Holz
+- Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Dämmstoffwahl, CLT/Holz
   (Stora Enso) → PL-04/`U Wert berechnung`. Reales Minergie-A-Referenzprojekt (Holzbau,
   Geschosswohnungsbau, PV-integriert + Erdwärmesonde, kompakte Grundrisse) → eigener Artikel
   `[[energie-minergie-referenzprojekt-maison-climat]]` (PL-04/`wissen.minergie.ch`, 2026-07-13).
 - **CLT-Bauphysik belegt (Run 25, 2026-07-13):** "CLT by Stora Enso — Technische Dokumentation
   Bauphysik" (Version 06.2021, PL-04/`U Wert berechnung/clt/`) — Wärmeleitfähigkeit von CLT laut
-  **Norm EN ISO 10456: λ = 0,12 W/mK** (Rohdichte/Holzfeuchte-abhaengig). Beispielrechnungen:
+  **Norm EN ISO 10456: λ = 0,12 W/mK** (Rohdichte/Holzfeuchte-abhängig). Beispielrechnungen:
   eine **unbekleidete CLT-Platte 100 mm** erreicht **U = 0,997 W/m²K**; mit **160 mm Mineralwolle-
   Dämmung** (λ = 0,035) sinkt der U-Wert auf **0,179 W/m²K** — bereits unter dem Neubau-Grenzwert
   0,17 nahe, mit etwas mehr Dämmstärke problemlos einzuhalten. Dieselbe Doku enthält eigene

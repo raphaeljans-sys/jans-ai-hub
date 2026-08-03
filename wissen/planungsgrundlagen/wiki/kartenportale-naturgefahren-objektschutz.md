@@ -90,7 +90,7 @@ Karte bis 300 Jahre, im Restgefährdungsbereich noch seltener.
 | **Blau** — mittlere Gefährdung | Personen innerhalb kaum, ausserhalb gefährdet; Gebäudeschäden möglich, keine rasche Zerstörung bei eingehaltenen Auflagen | **Gebotsbereich**: Bauen erlaubt **mit Auflagen** im Bau-/Zonenreglement; keine besonders sensiblen Objekte (z.B. Alters-/Pflegeheim!); möglichst keine neuen Bauzonen |
 | **Gelb** | Personen kaum gefährdet, geringe Gebäudeschäden | **Hinweisbereich**: Grundeigentümer informieren; Massnahmenplanung für sensible Objekte |
 | **Gelb-weiss gestreift** | Restgefährdung (sehr selten, hohe Intensität) | Hinweisbereich; Notfallplanung + Massnahmen für sensible Objekte; Anlagen mit sehr hohem Schadenpotenzial vermeiden |
-| **Weiss** | keine/vernachlaessigbare Gefährdung | keine Einschränkung |
+| **Weiss** | keine/vernachlässigbare Gefährdung | keine Einschränkung |
 | **Braun** (Gefahrenhinweisbereich, Perimeter B) | Intensität/Wahrscheinlichkeit nicht bestimmt | Einzelfallprüfung |
 
 **JANS-Praxisrelevanz Healthcare:** die Formulierung "keine besonders sensiblen Objekte" in der
@@ -104,7 +104,7 @@ bautechnische Auflage.
 |---|---|---|---|
 | **SZ** | `map.geo.sz.ch/mapserv_proxy` (WFS 1.1.0) | **GELÖST Run 55, 2026-07-21** — `ms:ch.sz.a012b.naturgefahrenkarte.gefahrenflaechen.ueberlagert` (Perimeter A) + `.hinweisflaechen.ueberlagert` (Perimeter B) + `.erhebungsgebiet` (Kartierungsstand); im Connector als `geo-sz.mjs --produkt naturgefahren`. Details Abschnitt 8c | login-frei |
 | **ZH** | `maps.zh.ch/wfs/OGDZHWFS` (OGD-WFS, AWEL Wasserbau) | **GELÖST Run 54, 2026-07-20** — `ms:ogd-0044_giszhpub_wb_syn_gk_f` (synoptische Gefahrenkarte 44.13) + `_wb_hw_gk_f` (Hochwasser 44.2) + `_wb_mb_gk_f` (Massenbewegungen 44.7); im Connector als `--produkt naturgefahren`. Details Abschnitt 8a | login-frei |
-| **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentümer/Architekten-Ansicht) + generische Gebäudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Öffnungen/Zugaenge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
+| **Alle CH (privat)** | `schutz-vor-naturgefahren.ch` | Adressgenauer "Naturgefahren-Check" (Eigentümer/Architekten-Ansicht) + generische Gebäudeschutz-Empfehlungen je Bauteilgruppe (Dach/Fassade, Innenraum, Technik, Tragstruktur, Öffnungen/Zugänge, Umgebung) x Naturgefahr (Hochwasser, Rutschung, Hagel, Schnee, Erdbeben, ...) | login-frei |
 
 **Historischer WebGIS-Direktlink** (Reckholdernstrasse 20, Willerzell, Zentrumskoordinate
 E=2'703'371 N=1'222'906, EPSG:2056) — bis Run 54 der einzige bekannte Zugriffsweg, jetzt durch den
@@ -140,7 +140,7 @@ Vorgehen laut Konzept:
    Schutzmassnahmen?" (vier Ebenen: **planerisch** [Gebäudehülle/Tragwerk schadenarm], **technisch**
    [z.B. automatisches Schott, Windwächter], **Materialwahl** [robuste Produkte], **organisatorisch**
    [Verhaltensregeln, Alarmorganisation]).
-4. Fachplaner-Zuzug: Gutachter/Unternehmer/Fachplaner/Geologe/Statiker/Foerster je nach Prozess.
+4. Fachplaner-Zuzug: Gutachter/Unternehmer/Fachplaner/Geologe/Statiker/Förster je nach Prozess.
 
 ### 3b. Checkliste im Detail (vollständig gelesen, Run 24 2026-07-13)
 
@@ -157,7 +157,7 @@ Architekt/Ingenieur — passt als Vorlage direkt in ein JANS-Vorprojekt-Pflichte
 | Sturm | Norm SIA 261 |
 | Hagel | Norm SIA 261/1 + VKF-Karten «Hagelgefährdung in der Schweiz» |
 | Hochwasser | kantonale Gefahrenkarte Hochwasser |
-| Starker Regen/Oberflaechenabfluss | kantonale Gefahrenkarte Hochwasser bzw. Gefährdungskarte Oberflächenabfluss + Erfahrungswerte Anwohner/Gemeinde |
+| Starker Regen/Oberflächenabfluss | kantonale Gefahrenkarte Hochwasser bzw. Gefährdungskarte Oberflächenabfluss + Erfahrungswerte Anwohner/Gemeinde |
 | Schneedruck/Schneerutsch | Normen SIA 261 und SIA 261/1 |
 | Erdrutsch/Lawinen/Murgang/Steinschlag | kantonale Gefahrenkarte + Erfahrungswerte Anwohner/Gemeinde |
 | Erdbeben | **SIA 261 bei Neubau, SIA 269/8 bei Umbau** (Erdbebenertüchtigung Bestand — eigene Norm, nicht identisch mit der Neubau-Norm!) |
@@ -169,7 +169,7 @@ Architekt/Ingenieur — passt als Vorlage direkt in ein JANS-Vorprojekt-Pflichte
 > Erdbeben-Ertüchtigungsnorm, nicht SIA 261.
 
 **Schritt 2 — Bauteilkatalog-Prinzip:** die Checkliste führt einen «**Bauteilkatalog**»-Gedanken:
-für viele Bauteile (Ziegel, Kunststoffplatten/Lichtdurchlaesse, etc.) gibt es sowohl schadenanfällige
+für viele Bauteile (Ziegel, Kunststoffplatten/Lichtdurchlässe, etc.) gibt es sowohl schadenanfällige
 als auch robuste Produktvarianten — die Wahl der Ausführung entscheidet, ob das SIA-Schutzziel
 tatsächlich erreicht wird. Zwei Konkretisierungen mit direktem Marktbezug:
 - **Hagel:** Verwendung hagelgeprüft er Bauteile gemäss **Hagelregister** (`www.hagelregister.ch`);
@@ -215,10 +215,10 @@ hier nur die planungsrelevante Grössenordnung:
 
 | Naturgefahr | Schutzziel (Kurzform) |
 |---|---|
-| Hochwasser/Oberflaechenabfluss | Gebäude bleibt bis zum **300-jährlichen** Ereignis intakt, UG trocken, schwimmt nicht auf |
+| Hochwasser/Oberflächenabfluss | Gebäude bleibt bis zum **300-jährlichen** Ereignis intakt, UG trocken, schwimmt nicht auf |
 | Sturm | Widerstand bis zum **50-jährlichen** Wind, keine abgerissenen Bauteile |
 | Hagel | Bis zum **50-jährlichen** Hagel keine Schäden an Fassade/Dach/Solaranlagen (Hagelwiderstand HW3 empfohlen — Querverweis [[energie-pv-brandschutz]]) |
-| Schnee | Dach/Aussenwaende/Vordaecher/Solaranlagen halten dem **50-jährlichen** Schnee stand |
+| Schnee | Dach/Aussenwände/Vordächer/Solaranlagen halten dem **50-jährlichen** Schnee stand |
 | Erdbeben | Gebäude schützt die Personen bis zum **475-jährlichen** Erdbeben |
 | Rutschung/Murgang/Steinschlag/Lawine | Gebäude bleibt auch bei **300-jährlichen** Ereignissen intakt und schützt die Personen |
 
@@ -308,7 +308,7 @@ Zusätzlich zeigt der Layer punktuelle Bestandes-Erdwärmenutzungen mit eigener 
 Eignungszonierung, sondern auch ein Bestandeskataster einzelner Anlagen inkl. Widerrufs-/
 Auslaufstatus.
 
-**Praxisrelevanz:** bevor eine Erdwärmesonde/Energiepfahl-Gruendung geplant wird, ist dieser
+**Praxisrelevanz:** bevor eine Erdwärmesonde/Energiepfahl-Gründung geplant wird, ist dieser
 Layer die erste Prüfstelle — analog zur Grundwasserkarte (Abschnitt 6) für den Weisse-Wanne-
 Entscheid, hier aber für die Heizungs-/Energiekonzept-Wahl. Eine "gelb" oder "rot" gezonte
 Parzelle bedeutet frühzeitigen Kontakt mit dem Amt für Umweltschutz/Amt für Geoinformation,
@@ -349,7 +349,7 @@ Grund, weshalb gerade das gelbe "geringe Risiko" in der Praxis unterschätzt wir
   Gleithorizonts: flachgründig (wenige Meter) / mittelgründig (bis 10 m) / tiefgründig
   (Zehnermeter bis hunderte Meter) — die Naturgefahrenkarte macht dazu **keine Angaben**.
 - **Typische baubedingt ausgelöste Rutschursachen:** (1) talseitiges Abgraben (z.B. Baugrube),
-  (2) hangseitige Auflasten (z.B. Aushubdepot), (3) Eintrag von Wasser in Untergrund/Gleitflaeche
+  (2) hangseitige Auflasten (z.B. Aushubdepot), (3) Eintrag von Wasser in Untergrund/Gleitfläche
   (z.B. Abhumusieren, Drainagen, Lecks). Schäden zunächst meist Riss-/Setzungsbilder, im
   fortschreitenden Fall Gebäude-Verkippung/Unbewohnbarkeit; besonders tückisch sind unsichtbare
   Untergrundschäden (z.B. eine reissende Wasserleitung, die ihrerseits eine Hangmure auslösen kann).
@@ -571,7 +571,7 @@ Hinweis aus. Default-Radius ±5 m (die Punktlage entscheidet, anders als bei Bau
 2. **Sturz/Steinschlag führt der ZH-WFS nicht** (topografisch plausibel, ZH ist kein alpiner
    Sturzkanton). Für Sturzprozesse bleibt die kantonale Fachstelle zuständig — im Kt. SZ dagegen
    ist Sturz Teil der Gefahrenkarte (Abschnitt 3).
-- Verhältnis zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Wald/Gewaesser als eigene
+- Verhältnis zu [[recht-norm-abstandsvorschriften-wald-gewaesser]] (Wald/Gewässer als eigene
   Abstandsvorschrift) und Brandschutz-Naturgefahren-Bezug in [[energie-pv-brandschutz]] (SIA 261
   bei Solaranlagen) — Naturgefahrenkarte ist die übergeordnete Planungsgrundlage, aus der sich
   Teile dieser Anforderungen ableiten.

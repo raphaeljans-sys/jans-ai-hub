@@ -86,7 +86,7 @@ Für den PV-**Kennwert** CHF/kWp bleibt die typdifferenzierte Benchmark-Tabelle 
   netto ~40 % Förderhebel bei EFH; konkrete Zahl aus dem Tarifrechner ziehen.
 - **Studientyp GREIV vs. KLEIV:** bei Rendite-/Areal-Objekten (> 100 kWp) gilt **GREIV** mit anderer
   Staffelung + Parkflächenbonus — nicht die EFH-Logik übertragen.
-- **`wirtschaftlichkeit-rechner`:** liefert Investition/Foerderung/Einsparung als belegte
+- **`wirtschaftlichkeit-rechner`:** liefert Investition/Förderung/Einsparung als belegte
   Eingangsgrössen für Annuität/Amortisation.
 
 ## Offene Punkte

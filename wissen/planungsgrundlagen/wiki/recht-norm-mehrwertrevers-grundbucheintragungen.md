@@ -62,7 +62,7 @@ Grundlast) — mit Ausnahme der Vormerkung, die im Baubewilligungskontext keine 
 **Ausgangslage:** Baulinien sichern bestehende und geplante Anlagen, vornehmlich
 Erschliessungsanlagen. Bauten über die Baulinie hinaus bzw. Änderungen an Bauten, die von
 einer Baulinie angeschnitten werden, sind nur **beschränkt** möglich. Werden solche
-baulinienwidrigen Bauten/Aenderungen dennoch bewilligt, verlangt die Behörde vom Bauherrn die
+baulinienwidrigen Bauten/Änderungen dennoch bewilligt, verlangt die Behörde vom Bauherrn die
 Eintragung entsprechender Reverse:
 
 - **Mehrwertrevers:** stellt sicher, dass der Eigentümer für den durch die baulinienwidrigen
@@ -89,7 +89,7 @@ jede Ankaufs-Due-Diligence als Risikoposten, nicht nur als formale Grundbuch-Fus
 | Typ | Mechanik | Heutige Relevanz |
 |---|---|---|
 | **Ausnützungsrevers** | Sichert die Übertragung von Grundfläche/Ausnuetzung von einem unternutzten Nachbargrundstück (Beizug) auf das Baugrundstück — nur im Nahbereich, nie über Zonengrenzen hinweg zulässig | Wirksamer, "statischer" Revers-Typ (wird bei jedem Folgegesuch auf verbleibende Ausnützungsreserve geprüft) |
-| **Hochhausrevers** | Historisch (altes Baugesetz 1893) verlangt, dass eine Parzelle nicht über die bewilligten Pläne hinaus ausgenützt wird | Heute **entbehrlich**: § 284 Abs. 3 PBG begrenzt die Ausnützung bei Hochhäusern (Gebäudehöhe >25 m) direkt auf das Mass der Regelbauweise/Arealueberbauung — kein eigener Revers mehr nötig (Delta zu [[recht-norm-ivhb-baubegriffe]], dort § 284 bereits als Fassadenhöhen-Norm erfasst, hier die materielle Ausnützungs-Rechtsfolge ergänzt) |
+| **Hochhausrevers** | Historisch (altes Baugesetz 1893) verlangt, dass eine Parzelle nicht über die bewilligten Pläne hinaus ausgenützt wird | Heute **entbehrlich**: § 284 Abs. 3 PBG begrenzt die Ausnützung bei Hochhäusern (Gebäudehöhe >25 m) direkt auf das Mass der Regelbauweise/Arealüberbauung — kein eigener Revers mehr nötig (Delta zu [[recht-norm-ivhb-baubegriffe]], dort § 284 bereits als Fassadenhöhen-Norm erfasst, hier die materielle Ausnützungs-Rechtsfolge ergänzt) |
 | **Arealüberbauungs-Anmerkung** | Sichert, dass die Privilegien einer Arealüberbauung (Ausnützungsbonus gegen erhöhte Gestaltungs-/Ausruestungsanforderungen) als Ganzes erhalten bleiben; spätere Änderungen/Parzellierungen stossen auf erhebliche Hürden | Bei Arealüberbauungs-Bestand: Parzellierung praktisch nur mit Dienstbarkeiten + Ausnützungsreversen lösbar |
 | **Natur-/Heimatschutz-Anmerkung** | Schutzverfügungen können angemerkt werden; bei verwaltungsrechtlichem Vertrag (Stadt ZH) wird stattdessen oft eine Personaldienstbarkeit begründet | Gleiche Kritik wie oben (§1) an der dogmatisch fragwürdigen Dienstbarkeits-Sicherung öffentlichen Rechts |
 | **Nutzungsgebote/-verbote** | Landwirtschaftspersonal-Wohnungen ausserhalb Bauzone, Wohnschutz-/Zweitwohnungsverbote, Wohnanteilvorschriften, Bastel-/Estrichraum-Umwandlungsverbot | Schwer durchsetzbar (nur via Verwaltungszwang), Reverse dienen primär der **Information künftiger Erwerber** |

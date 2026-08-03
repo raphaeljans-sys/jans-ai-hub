@@ -39,7 +39,7 @@ Trainings-Loop pro Lauf präzisiert; offene Felder in `wiki/QUESTIONS.md`.)
 | `map.geo.admin.ch` / api3.geo.admin.ch | CH (Bund) | Orthofoto (SWISSIMAGE), Höhenmodell (swissALTI3D), Gebäudekuben (swissBUILDINGS3D), amtl. Vermessung/EGRID, LIDAR | nein |
 | `maps.zh.ch` (GIS-Browser) | Kt. ZH | OEREB-Kataster, Zonenplan, Baulinien, kant. Fachdaten | nein (OEREB) |
 | `maps.zh.ch/wfs/OGDZHWFS` | Kt. ZH | **OGD-WFS (GeoJSON, login-frei):** Grundnutzung/Zonenplan 0156 (+ proj-Revision), ES Lärm 0154, überlagernd 0155, Baulinien/Abstandslinien 0158/0152/0153/0150/0185, Denkmalschutzobjekte 0368 + archäologische Zonen 0087 (nur überkommunal/kantonal, K34) — Connector `--produkt zonenplan,baulinien,denkmalschutz` | **nein** |
-| `geoservices.zh.ch/geoshopapi` | Kt. ZH | **Geodatenshop-REST-API**: AV/Grundstueckkataster (DXF), Höhenmodelle, LIDAR u.v.m. je Gemeinde/Parzelle — Connector `geoshop-zh.mjs` | **nein** |
+| `geoservices.zh.ch/geoshopapi` | Kt. ZH | **Geodatenshop-REST-API**: AV/Grundstückkataster (DXF), Höhenmodelle, LIDAR u.v.m. je Gemeinde/Parzelle — Connector `geoshop-zh.mjs` | **nein** |
 | `geodienste.ch` | CH (kantonsweise) | OGD-Downloads amtl. Vermessung (INTERLIS ganzer Kanton direkt; DXF-GEOBAU nur Formular), OEREB-Abstandslinien | tlw. Account |
 | `geoportal.ch` | div. Gemeinden (SZ/ZG…) | kommunale GIS (Einsiedeln, Oberägeri, Wald…), Betrieb **GEOINFO Applications AG** (Herisau AR) — Run 59 | tlw. |
 | `cadastre.ch` | CH | Cadastralinfo / Grundstückinformationen | nein |
@@ -47,7 +47,7 @@ Trainings-Loop pro Lauf präzisiert; offene Felder in `wiki/QUESTIONS.md`.)
 | `geoshop.lisag.ch` | Zentralschweiz (UR/SZ/OW/NW/ZG, Betrieb durch LISAG für die Kantone + LU-Region) | Datenbezug amtl. Vermessung (AV-Daten, Datenmodell DM01AV_UR_SZ_OW_NW) | **SZ: login-frei via vordefinierten Link `sz_public`/`public`**; sonst Account |
 | `geodatenshop.zh.ch` | Kt. ZH | **Web-Oberfläche** desselben Bestellsystems wie `geoservices.zh.ch/geoshopapi` (Amt für Raumentwicklung, Abt. Geoinformation) — über 500 Produkte, benutzergeführter Bestellprozess, Bestell-Übersicht; die API-Automatisierung läuft über den Connector `geoshop-zh.mjs`, das Web-Portal ist der manuelle Weg für dieselben Daten | Account (Freigabe je Produkt online) |
 | `maps.zh.ch` «Eigentumsauskunft» (ObjektwesenZH) | Kt. ZH | Eigentümer-/Grundbuchauskunft (Name, Adresse, Eigentumsform), 5/Tag | SMS-Code, kein Interessennachweis |
-| `gis.bezirkeinsiedeln.ch` | **Bezirk** Einsiedeln (Kt. SZ, unterhalb des kantonalen `map.geo.sz.ch`) | eigenständiges **Bezirks-GIS** mit Druck-/PDF-Produkten «Vermessung» (amtl. Vermessung inkl. Lage-/Hoehenfixpunkt-Legende), «Grundstücksbeschrieb» (Kurz-Grundbuchauszug: Eigentümer, Fläche, Bodenbedeckung, Gebäude/EGID), «Infrastruktur», «Höhendaten Kanton» (Isohypsen 1 m/100 m, Layer `ch.sz.a153a.isohypsen`), **«ÖREB-Kataster»** — Run 31 | nein (Public-Druckfunktion) |
+| `gis.bezirkeinsiedeln.ch` | **Bezirk** Einsiedeln (Kt. SZ, unterhalb des kantonalen `map.geo.sz.ch`) | eigenständiges **Bezirks-GIS** mit Druck-/PDF-Produkten «Vermessung» (amtl. Vermessung inkl. Lage-/Höhenfixpunkt-Legende), «Grundstücksbeschrieb» (Kurz-Grundbuchauszug: Eigentümer, Fläche, Bodenbedeckung, Gebäude/EGID), «Infrastruktur», «Höhendaten Kanton» (Isohypsen 1 m/100 m, Layer `ch.sz.a153a.isohypsen`), **«ÖREB-Kataster»** — Run 31 | nein (Public-Druckfunktion) |
 | `e-gov.stadt-zuerich.ch/geoshop` («GeoShop Stadt Zürich») | **Stadt Zürich** (eigenständig, separat vom kantonalen `geoservices.zh.ch/geoshopapi`) | Katasterplan-Bestellung als DXF (Lieferung ca. 30 Min. nach Bestellung per E-Mail-Link), Betrieb infoGrips GmbH + Geomatik+Vermessung Stadt Zürich — Run 31 | Account (kostenpflichtig/registriert) |
 | `stadt-zuerich.ch/energis/frontend/` («EnerGIS», Energiekarte) | **Stadt Zürich** | Vier Teilkarten der kommunalen Energieplanung: Wärme-/Kälteverbunde, Gasgebiete, Eignungsgebiete Erdwärme/Abwärme. **Informationsplattform, kein Rechtsakt** — die Verbindlichkeit kommt aus der Wärmeversorgungsverordnung WVV. Angular-SPA, UI nicht scriptbar; kein verifizierter Geodaten-Download (getestete Pfade HTTP 404/500). Zeigt **nicht** die geologische Bohreignung. Fachlich führend: `wissen/energie/destillate/energis-kartenwerk-stadt-zuerich.md` — Wissens-Chef Run 18 | nein (öffentlich, HTTP 200 ohne Login) |
 | `maps.zh.ch` «Wärmenutzungsatlas» (GIS-ZH Nr. P8) | Kt. ZH (AWEL) | Planungsgrundlage für die Nutzung von Untergrund und Wasser — **gesetzlich verankert in § 48 Abs. 2 WsG (LS 724.1)**: «Sie führt einen Wärmenutzungsatlas als Planungsgrundlage für die Nutzung von Untergrund und Wasser.» Für Erdwärmesonden die massgebende Bohreignungs-Grundlage, die EnerGIS gerade nicht liefert. Fachlich führend: KB `energie` — Wissens-Chef Run 18 | nein |
@@ -79,13 +79,13 @@ Trainings-Loop pro Lauf präzisiert; offene Felder in `wiki/QUESTIONS.md`.)
   (`geoshop.lisag.ch/client5/index_sz.html?user=sz_public&password=public`) — praktisch
   **login-frei für die öffentlichen Geobasisdaten**, ohne dass eine persönliche Registrierung
   ersichtlich nötig ist (Quelle: `_Link.docx`, JANS-interne Notiz 2023; ob für eine
-  kostenpflichtige/eingeschraenkte Bestellung dennoch ein Konto verlangt wird, bleibt offen).
+  kostenpflichtige/eingeschränkte Bestellung dennoch ein Konto verlangt wird, bleibt offen).
   Genauigkeit nach Toleranzstufen TS 2–5 (TVAV Art. 3/28 ff., überbautes Gebiet TS 2). Quelle:
   Amt für Geoinformation Kt. SZ, «Produkteinformationen zu den digitalen Daten der amtlichen
   Vermessung», 26.09.2023 (realer Fall KTN 3301 Einsiedeln, drei Bestellungen: AV-Kataster
   kleiner/grosser Perimeter + Stockgrenze). **Kein Connector bisher gebaut** — Status `emerging`
   (real erprobter manueller Weg, aber Automatisierbarkeit nicht validiert).
-- **Baulinien / Abstandslinien** (Verkehrsbaulinie, Wald-/Gewaesserabstand, Waldgrenze,
+- **Baulinien / Abstandslinien** (Verkehrsbaulinie, Wald-/Gewässerabstand, Waldgrenze,
   Gewässerraum) → **eigener Artikel** [[kartenportale-baulinien-abstandslinien-zh]]: login-freier
   Vektor via ZH-OGD-WFS, Datensätze 0158/0152/0153/0150/0185, Connector `--produkt baulinien`
   (grösserer Radius ±150 m, weil Linien neben der Parzelle liegen). Validiert 2026-06-24
@@ -102,12 +102,12 @@ Welches Format wofür, wenn man die Rohdaten weiterverarbeitet:
 | **INTERLIS (.itf/.xtf)** | CH-Modellsprache amtl. Vermessung/Geobasisdaten | **vollständiger, modellkonformer** AV-Datensatz (geodienste.ch, ganzer Kanton); Import via ili2db/QGIS-Plugin |
 | **DXF** | CAD-Austausch (AutoCAD/Rhino/Vectorworks) | **Kataster/AV in den Plan ziehen** — Geoshop-API ZH Produkt 10016 (DWG gibt es dort nicht; DXF ist das Austauschformat) |
 | **GeoTIFF (.tif)** | georeferenziertes Rasterbild | Orthofoto (SWISSIMAGE-DOP10) + Terrainmodell (swissALTI3D), STAC-Download `--produkt orthofoto,dtm` |
-| **XYZ / LAZ (.xyz.zip/.laz)** | Punktraster / Punktwolke (LIDAR) | Schnitte/Gelaende/Volumen (swissALTI3D-XYZ, swisssurface3D-LAZ); gross → nur bei Bedarf |
+| **XYZ / LAZ (.xyz.zip/.laz)** | Punktraster / Punktwolke (LIDAR) | Schnitte/Gelände/Volumen (swissALTI3D-XYZ, swisssurface3D-LAZ); gross → nur bei Bedarf |
 | **LandXML** | Vermessungs-/Terrain-Austausch (Punkte, Bruchkanten, DGM) | Übergabe an Geometer/Tiefbau; weniger gebraucht in der Architektur-Vorstufe |
 | **GeoPackage (.gpkg)** | SQLite-Container für Vektor+Raster | moderner Sammelcontainer (statt Shapefile); gut für kombinierte Layer-Ablage |
 | **File Geodatabase (.gdb)** | proprietäres ESRI-Containerformat (Ordnerstruktur, kein Einzelfile) | **kommt in der JANS-Praxis selten direkt vor** (ArcGIS-Ökosystem); bei Erhalt zuerst nach einem gängigeren Exportformat beim Absender fragen |
 
-Faustregel JANS: **GeoJSON** zum Abfragen/Pruefen, **DXF** in den CAD-Plan, **GeoTIFF** für
+Faustregel JANS: **GeoJSON** zum Abfragen/Prüfen, **DXF** in den CAD-Plan, **GeoTIFF** für
 Bild/Terrain, **INTERLIS** nur wenn der modellvollständige amtliche Datensatz nötig ist.
 
 **Re-Check ohne Delta (K20, Run 29 2026-07-13):** der Unterordner `Datenformate_Geokartenmaterial/
@@ -142,7 +142,7 @@ der kostenlose Umweg, falls die Gegenseite nicht liefern kann/will.
 
 Bisher unbearbeiteter PL-01-Ordner `Baumkataster/`. Ergebnis: der **Baumkataster ist kein
 kantonal/schweizweit standardisiertes Geoportal-Produkt** wie Zonenplan oder Baulinien, sondern
-eine **kommunale Fachanwendung auf GIS-Basis**, die einzelne Gemeinden/Staedte für die eigene
+eine **kommunale Fachanwendung auf GIS-Basis**, die einzelne Gemeinden/Städte für die eigene
 Baumbestandsverwaltung führen (Quelle: Produktblatt **GEOINFO IT AG** «Fachanwendung
 Baumkataster», Herisau) — Funktionen: Baumstandort-Erfassung, Sachdaten (Schutzwürdigkeit,
 Gesundheitszustand, Zuständigkeit), Pflegemassnahmen-Planung, Auswertungen zu anstehenden/
@@ -179,7 +179,7 @@ nicht die Pro-Projekt-Unterordner) enthält **keine neuen Fakten** — `Baumkata
 Produktblatt (bereits oben ausgewertet), die beiden `map.geo.admin.ch_*.pdf`-Ausdrucke zeigen
 lediglich generische Baum-Symbole (grüne Punkte) aus einer normalen Kartenansicht — **kein
 dedizierter Baumkataster-Layer**, sondern ein persönlicher Kartenausdruck mit Standort-Pin
-(Steinhofstrasse/Zuerich-Gebiet). Bestätigt die bestehende Einordnung: kein zentrales
+(Steinhofstrasse/Zürich-Gebiet). Bestätigt die bestehende Einordnung: kein zentrales
 Baumkataster-Geoportal, gemeinde-/portalspezifisch zu klären.
 
 ## ZH Geoportal OGD-Bestellportal `geoportal.zh.ch/opendata` — Datensatz-Nummern (K44, Run 51, 2026-07-18)
@@ -237,11 +237,11 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   (K42/K43, Run 51 2026-07-18):**
   - **`klimafreundlichheizen.ch`** — **adressgenaues Heizungsberatungs-Portal** der Stadt Luzern:
     liefert je Adresse eine konkrete Heizsystem-**Empfehlung** (Beleg Steinhofstrasse 25:
-    «Empfehlung Erdsonden-Wärmepumpe», Alternativen Luft-WP/Sonnenenergie/Daemmung) plus den
+    «Empfehlung Erdsonden-Wärmepumpe», Alternativen Luft-WP/Sonnenenergie/Dämmung) plus den
     **Stand Gebietserschliessung Wärmenetz** und **Hinweise zur Gasversorgung**. Kernaussage für
     das Energiekonzept (Informationsstand Jan. 2024): «spätestens **2040 kein fossiles Erdgas** für
     Raumwärme/Warmwasser mehr»; die Aufhebung der Gasversorgung einer Liegenschaft wird **mind. 10
-    Jahre im Voraus** angekündigt. Das ist die LU-Entsprechung zum ZH-Energie-/Waermerichtplan
+    Jahre im Voraus** angekündigt. Das ist die LU-Entsprechung zum ZH-Energie-/Wärmerichtplan
     (Energierichtplan-Layer, → [[energie-uebersicht]]) — bei Heizungsersatz-Beratung ausserhalb ZH
     die erste Adresse für LU-Objekte. login-frei, kein Connector-Anspruch (interaktives Web-Tool).
   - **Stadt Luzern 3D-Stadtmodell** (`poi.stadtluzern.ch/portal/apps/webappviewer3d/index.html?id=9ae40629f99e4d50afb39dc8abbc3d9d`)
@@ -269,9 +269,9 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   [[kartenportale-werkleitungskataster]]), sondern zentral über den **«Verein Raumdatenpool
   Kanton Luzern»**: Zugang für Mitglieder Kategorie A (Kanton, Einwohnergemeinden, Werke) und
   Kategorie B (z. B. ARA-Verbände), zusätzlich GIS-Koordinatoren, Feuerwehren sowie **private
-  Ingenieur-/Planungsbueros, die im Auftrag eines Mitglieds Daten verwalten** — d. h. ein JANS-Zugang
+  Ingenieur-/Planungsbüros, die im Auftrag eines Mitglieds Daten verwalten** — d. h. ein JANS-Zugang
   wäre nur über ein Mandat eines Mitglieds möglich, nicht als Direktregistrierung. Drei Produkte:
-  Leitungskataster (Sammelkarte Wasser/Abwasser/Elektrizitaet/Gas/Fernwaerme/Kommunikation),
+  Leitungskataster (Sammelkarte Wasser/Abwasser/Elektrizität/Gas/Fernwärme/Kommunikation),
   Werkinformationen Wasser, Werkinformationen Abwasser/GEP — alle als Web-Karte hinter Login.
   Genuiner **Organisationsmodell-Delta**: Verein-/Mitgliedschaftsmodell statt Betreiber-Einzelportale.
   Status `emerging`.
@@ -329,7 +329,7 @@ vertiefte Bearbeitung, da kein wiederkehrender Bedarf erkennbar ist.
   dem Kartenviewer druckbar. Ergänzt K4 (Situationsplan-Bezug) um einen dritten, schnelleren Weg
   neben (a) Geodatenshop-DXF-Bestellung und (b) `geodienste.ch`: für eine reine Übersichts-/
   Präsentationsqualität (kein CAD-Import) genügt der Sofort-Ausdruck.
-- **K56 — Solarpotential/Gebaeudeenergie-Layer, kantonales Pendant zu sonnendach.ch:** das
+- **K56 — Solarpotential/Gebäudeenergie-Layer, kantonales Pendant zu sonnendach.ch:** das
   Geodatenshop-Produkt «Gebäudeenergie» liefert einen gebäudeflächenscharfen Solarpotential-Layer
   (Ampel-/Farbcode je Dachfläche, PDF-Druckexport 1:500) — dieselbe Grundidee wie das bereits
   dokumentierte Bundes-Tool `sonnendach.ch`/`uvek-gis.admin.ch` ([[energie-pv-eignung-typenwahl]]
@@ -370,7 +370,7 @@ Selbstbedienungsformular** ("Geodienste Registrierung", Screenshot 18.12.2023) m
 E-Mail/Name/Vorname/Organisation (optional)/Adresse/PLZ+Ort/Land/Telefon/Passwort — keine
 sichtbare Vorabprüfung oder Freigabe durch eine Amtsstelle, vergleichbar mit einer gewöhnlichen
 Web-Kontoregistrierung (JANS-eigenes Konto seit mind. 18.12.2023 vorhanden; Zugangsdaten aus
-Datenschutz-/Sicherheitsgruenden nicht in die KB übernommen, analog K31-Praxis).
+Datenschutz-/Sicherheitsgründen nicht in die KB übernommen, analog K31-Praxis).
 
 Der Bestellablauf läuft über eine **Bestätigungslink-E-Mail** (dreisprachig DE/FR/IT): nach
 einer Bestellung (realer Beleg: Thema Amtliche Vermessung, Kanton BE, EGRID CH609835664683,
@@ -503,20 +503,20 @@ Bisher war für Kt. SZ nur die **kantonale** Ebene dokumentiert (`map.geo.sz.ch`
 **Bezirk Einsiedeln führt ein eigenes GIS-Portal** unterhalb des kantonalen Portals, mit
 eigenständigen Druck-/PDF-Exportprodukten:
 
-- **«Vermessung»** — Situationsplan mit Lagefixpunkt-/Hoehenfixpunkt-Legende (Stein/Bolzen/Rohr/
-  Pfahl/Kreuz-Symbolik, begehbar/unversichert), Liegenschaft/selbstaendiges Recht (auch
+- **«Vermessung»** — Situationsplan mit Lagefixpunkt-/Höhenfixpunkt-Legende (Stein/Bolzen/Rohr/
+  Pfahl/Kreuz-Symbolik, begehbar/unversichert), Liegenschaft/selbständiges Recht (auch
   *projektiert*), Gemeindegrenzen.
 - **«Grundstücksbeschrieb»** — ein **einfacher Kurz-Grundbuchauszug** direkt aus dem
   Bezirks-GIS: Grundstück-Nr., E-GRID, Plan-Nr., Flurname, Fläche Grundbuch, Eigentumsform,
   Eigentümer (Name/Adresse — **ohne Rechtsgültigkeit**, «rechtsgül­tige Eigentümerangaben
   beim Grundbuchamt»), Bodenbedeckung nach Art (Gebäude/Gartenanlage etc.) mit Flächenzahlen,
-  Gebäude-Tabelle (Geb.-Nr./EGID/Adresse/Flaeche), Mutationshistorie. Herausgeber: **Amt für
+  Gebäude-Tabelle (Geb.-Nr./EGID/Adresse/Fläche), Mutationshistorie. Herausgeber: **Amt für
   Geoinformation Kt. SZ, Mutationsverwaltung** — schneller Alternativweg zum vollen
-  Grundbuchauszug, wenn nur Fläche/Eigentuemer/EGID gebraucht werden (kein rechtsverbindlicher
+  Grundbuchauszug, wenn nur Fläche/Eigentümer/EGID gebraucht werden (kein rechtsverbindlicher
   Nachweis).
 - **«Infrastruktur»** — **präzisiert Run 61 (2026-07-25):** trägt den echten Produkttitel
   **«Leitungskataster Gde»** mit vollständiger 7-Sparten-Legende (Abwasser/Kabelkommunikation/
-  Wasser/Gas/Elektrizitaet/Oeffentliche Beleuchtung/Fernwaerme) — ist also der
+  Wasser/Gas/Elektrizität/Öffentliche Beleuchtung/Fernwärme) — ist also der
   Werkleitungskataster-Druckexport des Bezirks-GIS, nicht ein Gebäudeplan ohne Sachdaten; in
   der Reckholdern-Stichprobe waren im engen Kartenausschnitt jedoch keine farbigen Leitungen
   sichtbar (daher der ursprüngliche «kein Mehrwert»-Eindruck) → Details/Abgrenzung zu
@@ -537,7 +537,7 @@ eigenständigen Druck-/PDF-Exportprodukten:
   direkt.
 
 **Einordnung:** die Bezirks-Ebene ist in Kt. SZ ein **zusätzlicher, schnellerer Zugang** zu
-denselben/aehnlichen Daten wie das kantonale Portal — kein Ersatz, aber praktisch, weil der
+denselben/ähnlichen Daten wie das kantonale Portal — kein Ersatz, aber praktisch, weil der
 Kurz-Grundstücksbeschrieb ohne Bestellung/Wartezeit als PDF druckbar ist. Kein REST-Endpunkt
 identifiziert (reine Druckfunktion des WebGIS) — Status `emerging`, kein Connector-Feature.
 
@@ -548,8 +548,8 @@ Zusätzlich zum bereits dokumentierten **Raster**-Höhenmodell swissALTI3D
 ein **Vektor-Höhenlinien-Produkt direkt aus der amtlichen Vermessung** an: Layer «Höhenkurven Kt»
 mit wählbarer **Äquidistanz 0.5 m / 1 m / 5 m**, druckbar als georeferenziertes PDF (A3/A4, frei
 wählbarer Massstab bis 1:200). Ergänzend zeigt die Legende **«Amtliche Vermessung farbig Gde»**
-den vollständigen **Bodenbedeckungs-Farbcode** (Gebäude/oeffentl. Gebäude/Strasse/Trottoir/
-Bahn/Garten-Parkanlage/Acker-Wiese-Weide/Hoch-Flachmoor/Reben/Wasser/Wald/Fels/Geroell-Sand/
+den vollständigen **Bodenbedeckungs-Farbcode** (Gebäude/öffentl. Gebäude/Strasse/Trottoir/
+Bahn/Garten-Parkanlage/Acker-Wiese-Weide/Hoch-Flachmoor/Reben/Wasser/Wald/Fels/Geröll-Sand/
 Abbau-Deponie u.a.) — nützlich, um farbige Amtliche-Vermessung-Pläne aus anderen Gemeinden
 korrekt zu lesen. Quelle: Screenshots-Ordner `Hoehenlinie/Maur` + `Hoehenlinie/Wald` (11/2024),
 `geo.zh.ch`-Direktlink mit `x/y/scale/basemap`-Parametern. Status `emerging` (Druckfunktion belegt,
@@ -589,7 +589,7 @@ kein Ersatz).
 - **Formeller Behördenweg (Grundbuchauszug) — Abgrenzung zur Selbstbedienungs-Eigentumsabfrage
   (Run 27):** die A5-Eigentumsabfrage oben liefert nur eine **nicht rechtsverbindliche**
   Kurzauskunft (Eigentümer/Adresse/Eigentumsform). Ein **rechtsverbindlicher, beglaubigter
-  Grundbuchauszug** (z.B. für Beseitigungsrevers-/Mehrwertrevers-Eintraege, → [[recht-norm-dispensrecht]]
+  Grundbuchauszug** (z.B. für Beseitigungsrevers-/Mehrwertrevers-Einträge, → [[recht-norm-dispensrecht]]
   Abschnitt «Revers statt Dispens») wird beim **örtlich zuständigen Notariat** bestellt — in
   Kt. ZH sind Notariat, Grundbuchamt und Konkursamt **organisatorisch zusammengelegt** und nach
   Stadtquartier/Bezirk aufgeteilt (z.B. «Notariat, Grundbuchamt und Konkursamt Höngg-Zürich»

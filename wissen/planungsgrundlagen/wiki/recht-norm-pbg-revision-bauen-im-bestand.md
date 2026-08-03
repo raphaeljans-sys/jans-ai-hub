@@ -53,7 +53,7 @@ Dichte/Ausnuetzung selbst bleibt weiterhin ein ordentliches Nutzungsplanungsverf
   Grenzabstand ein, überschreiten aber die zulässige Fassadenlänge.
 
 **Wohnbau-Bedingung:** bei Wohnbauten ist die Erleichterung **nur anwendbar, wenn zusätzliche
-Wohneinheiten realisiert werden** (Aufstockung/Dachausbau/Anbau) — reine Komfort-/Flaechen-
+Wohneinheiten realisiert werden** (Aufstockung/Dachausbau/Anbau) — reine Komfort-/Flächen-
 erweiterung ohne neue Wohneinheit profitiert nicht.
 
 ## § 357 E-PBG — auch für bereits baurechtswidrige Bestandesbauten
@@ -84,7 +84,7 @@ Bauffläche und behindern damit die Innenverdichtung:
 | § 22 | Grundabstand (Definition) | unverändert, redaktionelle Folgeänderung (Begriff "ohne Mehrlängen-/Mehrhoehenzuschlag" gestrichen) |
 
 Zusätzlich werden im PBG **neun Paragraphen vollständig aufgehoben** (veraltete Bestimmungen,
-u. a. zu Feuerschutzabständen, Mindesthöhen/-flaechen von Räumen, Besonnungsvorschriften) und
+u. a. zu Feuerschutzabständen, Mindesthöhen/-flächen von Räumen, Besonnungsvorschriften) und
 mehrere Verfahren vereinfacht — u. a. entfällt die Bewilligungspflicht für Spielgeräte wie
 Schaukeln (WebSearch-Fund, nicht aus dem Vorentwurf-Auszug selbst verifiziert — bei Anwendung
 Primärtext prüfen).
