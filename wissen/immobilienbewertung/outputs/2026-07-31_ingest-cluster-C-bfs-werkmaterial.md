@@ -87,7 +87,7 @@ Quelle: `Baupreisindex/241000 Grundlagen/cc-t-05.05.06.xlsx`, «Hauptergebnisse 
 Baupreisindexes Oktober 2024», je ein Registerblatt pro Grossregion. Gewichte in % der
 jeweiligen Regionsstruktur (nicht CH-Anteile).
 
-**Schweiz (REG_01):** Total 115.2 (+0.1 % ggue. Apr 2024, +0.5 % ggue. Okt 2023) ·
+**Schweiz (REG_01):** Total 115.2 (+0.1 % ggue. Apr 2024, +0.5 % ggue. Okt 2023)[^1] ·
 Hochbau 115.3 (Gewicht 77.67 %) · Neubau 115.9 (45.11 %) · Neubau MFH 115.7 (25.70 %) ·
 Neubau MFH aus Holz 116.3 (5.17 %) · Neubau EFH 114.7 (5.38 %) · Neubau Buerogebaeude 117.9
 (5.39 %) · Neubau Lagerhalle 116.0 (3.47 %) · Renovation/Umbau 114.3 (32.56 %) ·
@@ -114,6 +114,14 @@ Oktober 2024 rund 5 Indexpunkte (Tessin 112.6 bis Nordwestschweiz 117.6). Wer ei
 Aufindexierung mit dem CH-Total statt der Regionsreihe rechnet, macht bei einem 2020er
 Ausgangswert einen Fehler von bis zu ~2 % — fuer Grobkosten tolerabel, fuer ein
 Bewertungsgutachten zu deklarieren.
+
+[^1]: Verifiziert gegen die Rohdatei `241000 Grundlagen/cc-t-05.05.06.xlsx`, Registerblatt
+«1» (Schweiz REG_01): Die Zellen E9/F9 fuehren die Veraenderungsraten +0.1 % / +0.5 % genau
+so, als vom BFS selbst berechnet und publiziert. Sie stammen aus **ungerundeten**
+Indexwerten und weichen daher von der Differenz der auf eine Dezimale gerundeten
+Tabellenwerte in Abschnitt 1.1 ab (115.0 → 115.2 rechnerisch +0.2 %, 114.5 → 115.2
+rechnerisch +0.6 %). Fuer JANS-Erzeugnisse gelten die vom BFS publizierten Raten
+(+0.1 % / +0.5 %), nicht die aus der gerundeten Tabelle nachgerechneten.
 
 ### 1.3 Aufindexierungs-METHODE — kritische Pruefung
 

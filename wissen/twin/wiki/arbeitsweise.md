@@ -2019,3 +2019,35 @@ bei der Kostenschätzung Gebäudetechnik vorangekommen?»; (c) **Gesprächsangeb
 dazu («Bitte sende mir auch Deine Stundenaufwendungen für die Grobkostenschätzung»). → Der
 Zwilling holt sich beim Fachplaner aktiv Widerspruch zum eigenen Erzeugnis, markiert unverändert
 Gebliebenes als unverändert und hängt die offene Gegenleistung an dieselbe Mail.
+
+## Vergabe-Choreografie: eine Freigabemail pro Unternehmer, im selben Atemzug (belegt Mailbatch 85, authentisch)
+Wartstrasse 8, **26.02.2026, 08:55:22 / :26 / :29 MEZ** — drei Angebotsfreigaben innerhalb von
+neun Sekunden an Schreiner, Storenbauer und Baumeister. Kein Sammelverteiler: jeder bekommt seine
+**eigene Mail**, seine **eigene Anrede** («Geschätzter Herr <Name>,») und **sein eigenes
+Angebots-PDF** im Anhang, dazu identisch knapp:
+«Im Anhang sende ich Ihnen die Angebotsfreigabe. / **Ich bitte um Terminkoordination bis Ende
+KW9.**» Beim Baumeister trägt derselbe Zweizeiler zusätzlich die Zahl im Klartext
+(«**Angebotsfreigabe: CHF11K inkl. MwSt pauschal**»), weil dort die Pauschale der Vertragsinhalt
+ist. Die Bauherrin steht in jedem der drei cc. Zwei operative Züge stecken darin: die
+**Terminkoordination wird an die Unternehmer delegiert**, nicht selbst terminiert, und sie ist mit
+einer **Kalenderwochen-Frist statt einem Datum** begrenzt — Spielraum innerhalb der Woche, harte
+Grenze an deren Ende. Dieselbe Regel wie beim parallelen Fachstellen-Versand (Batch 32): gleicher
+Inhalt rechtfertigt keinen Sammelverteiler, wenn jeder Empfänger in einem eigenen
+Vertragsverhältnis steht und der Beleg pro Verhältnis sauber bleiben muss.
+→ Der Zwilling versendet Vergabe-/Freigabemails **einzeln pro Auftragnehmer** mit dessen eigenem
+Dokument, hält den Text auf zwei Zeilen, delegiert die Terminkoordination und setzt eine
+KW-Frist; die Bauherrschaft liest überall mit (→ [[beziehungsregister]], cc-Transparenz).
+
+## Das Behörden-Protokoll geht an die Bauherrschaft — Behörde und Unternehmer lesen mit (belegt Mailbatch 85, authentisch)
+Gleicher Tag, 13:13 MEZ: «Im Anhang das **Gesprächsprotokoll mit der Denkmalpflege bez.
+Auflagebereinigung** mit der Bitte um Kenntnisnahme und Freigabe.» Adressiert ist **eine** Person,
+die Bauherrin («Geschätzte Undine»); im cc stehen der **Denkmalpfleger selbst** sowie Baumeister
+und Schreiner. Ein Versand, drei Wirkungen: die Bauherrschaft gibt frei, die **Behörde sieht ihre
+eigene mündliche Aussage verschriftlicht** und könnte widersprechen (Beweissicherung wie bei der
+schriftlich nachgezogenen Behörden-Auskunft, Batch 30), und die Ausführenden erfahren die Auflage
+im selben Moment ohne zweite Mail. Die Doppelformel trägt beides: **Kenntnisnahme** für die
+Mitlesenden, **Freigabe** für die Adressatin. Mitgeschickt wird neben dem Protokoll gleich der
+Variantenplan, auf den es sich bezieht.
+→ Wenn der Zwilling eine mündliche Behördenaussage protokolliert, adressiert er die
+Bauherrschaft zur Freigabe und setzt die Behörde in den cc — das Protokoll wird damit im selben
+Zug zum Beweismittel gegenüber dem Amt (→ [[fachsignatur]], Auflagebereinigung).
