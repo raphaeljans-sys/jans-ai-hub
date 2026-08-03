@@ -100,7 +100,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 - **Geänderte Dateien:** `wiki/fahrzeugabstellplaetze-und-parkierung.md`,
   `wiki/ausnahmebewilligung-und-bestandesschutz.md`, `wiki/QUESTIONS.md`, `CHANGELOG.md`.
 
-## 2026-08-03 (Buch-Run 70, Festigungsmodus) — Verdichtungs-Drift in [[fahrzeugabstellplaetze-und-parkierung]] korrigiert
+## 2026-07-30 (Buch-Run 70, Festigungsmodus) — Verdichtungs-Drift in [[fahrzeugabstellplaetze-und-parkierung]] korrigiert
 - **Modell-D-Wortlautabgleich** §§ 242-248 PBG (`raw/260607_amtlich_zh_pbg.md`, Fassungsstand
   weiterhin Nachtrag 133) gegen den Wiki-Artikel `wiki/fahrzeugabstellplaetze-und-parkierung.md`
   (ältester `verifiziert`-Kern, 2026-07-12) — ältester noch unverifizierter Kandidat laut
@@ -158,7 +158,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   noch nicht vollzogen — Teil-Erledigung in `wiki/QUESTIONS.md` vermerkt.
 
 
-## 2026-08-03 — Wissens-Chef Run 19 (Cross-KB): erste Gegenlesung am neuen WsG-Volltext
+## 2026-07-30 — Wissens-Chef Run 19 (Cross-KB): erste Gegenlesung am neuen WsG-Volltext
 - **[korrektur, materiell] Gewaesserraum-Festlegung stand auf § 19 WsG — richtig ist § 18 Abs. 1 WsG.**
   `wiki/abstaende-und-hoehen.md` fuehrte «§ 15 Abs. 1 HWSchV, heute § 19 WsG». Das Wort
   «grundeigentuemerverbindlich» steht woertlich und ausschliesslich in **§ 18 Abs. 1 WsG** (Randtitel
@@ -181,7 +181,7 @@ Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
   gebaeuden-teil2d.md` (Abschnitt Naeherbaurecht) — nicht zitierfaehig, haben bereits einen
   Lese-Agenten fehlgeleitet; (b) der Haupt-/Anhang-Vorbehalt zu **§ 260 Abs. 3 PBG** ist im
   Schwester-Artikel gesetzt, im `established`-Leit-Artikel `abstaende-und-hoehen` nicht.
-- Bericht: `koordination/outputs/2026-08-03_wissens-chef-run19.md`.
+- Bericht: `koordination/outputs/2026-07-30_wissens-chef-run19.md`.
 
 
 ## 2026-08-03 — Buch-Run 71 (Festigungsmodus): [[grundlagen-planungs-baurecht]] erstverifiziert — 3 echte Zitierfehler, 1 Fassungsstand-Drift eine Ebene unter dem Erlass

@@ -1,5 +1,58 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-03 — ETAPPE 4, VERTIEFUNGSLAUF 01 (V1, Teilnahme 2408 BIWAK/Grassen)
+
+- **[steuerung/ehrlichkeit]** **V1 ist nach diesem Lauf erschöpft — und zwar aus
+  Quellenmangel, nicht weil die Arbeit getan wäre.** Prüfung der Quellenlage vor
+  Arbeitsbeginn: von den fünf V1-Teilnahmen (2104, 2207, 2503, 2408, 2501) hat **nur
+  2408** einen Jurybericht im Bestand. Die V1-Frage («Was trennte diesen Beitrag vom
+  erstrangierten Projekt?») ist bei den übrigen vier strukturell nicht beantwortbar.
+  Damit ist auch der **Ausgangsbefund der Etappe korrigiert**: die Nennungszählung je
+  Dossier misst die Quellenlage, nicht die Bearbeitungstiefe — die drei «dünnsten»
+  Dossiers (2104/2207/2503) sind dünn, weil dort kein Jury-Urteil existiert.
+- **[inhalt]** Vertieft wurde 2408 gegen die im Erst-Destillat (12.07.2026) **nicht**
+  ausgewerteten Teile des Berichts: Kap. 3.2 (Rundgangs-Mechanik), Kap. 4.3
+  «Würdigung», die Würdigungen des 2. und 3. Rangs, die Planbeilage «Pläne engere
+  Auswahl» (5 Blätter). Ertrag: **2 neue Befunde** im Muster-Artikel — Befund 12
+  (zentrale gewendelte Erschliessung bei 4 von 5 Projekten der engeren Auswahl =
+  Eintrittsschwelle, nicht Siegargument; sie zieht bei allen drei Prämierten zugleich
+  Kritik auf sich) und Befund 13 (der Rangentscheid fiel über die
+  Weiterbearbeitungs-Robustheit, S. 19/36) — sowie **Schärfungen an den Befunden 2, 3
+  und 6**.
+- **[korrektur]** Zwei bisherige Kurzschlüsse zu 2408 korrigiert: (1) Nicht die
+  Sechseck-zu-Fünfeck-Referenz trennte — «PATELLOIDEA» (Nr. 40) nahm dieselbe Referenz
+  auf und gelangte in die engere Auswahl der letzten fünf; der Unterschied liegt in
+  der Reichweite (Grundriss-Pentagon gegen Fassaden-Fünfeck). (2) Standorttreue war
+  kein belegter Nachteil — der 2. Rang baute am exakt gleichen Standort weiter,
+  PATELLOIDEA auf den Bestandsfundamenten.
+- **[faktenkorrektur]** Die Dossier-Aussage «Gesamtzahl der eingereichten Projekte
+  wird im Bericht nicht als Zahl genannt» ist falsch: der Bericht nennt «Die 68
+  Projekteingaben» (S. 19/36). Es bleibt eine **Diskrepanz von 2** (Nummernkreis 1–66;
+  26 + 29 + 10 = 65 beurteilte + Nr. 5 nicht zugelassen = 66) — als offen markiert.
+- **[verifikation]** Zwei unabhängige Refuter mit getrenntem Fokus (A Wortlaut/
+  Seitenzahlen, B Zuordnung/Überdehnung). **Beide Gesamtverdikte NICHT BESTANDEN**;
+  9 Beanstandungen vollständig eingearbeitet, darunter vier sachliche Fehler: falsche
+  Belegstelle für den PATELLOIDEA-Status (Kap. 7 belegte das Gegenteil; korrekt ist
+  der Kontrollrundgang S. 12/36), falsche Gleichsetzung der beiden Fünfeck-Operationen,
+  widerlegte Ausschlussbehauptung zu den Kennwerten (die Planbeilage führt sehr wohl
+  raumweise Flächen für ALFONSO/TUMI/DOPPELBOCK), unbelegtes «nachweislich». Zusätzlich
+  wurden Befund 12/13 als Einzelverfahren-Belege (n=1) markiert und eine in Befund 13
+  erfundene Erläuterungsbericht-Empfehlung gestrichen.
+- **[refuter-dissens]** Die beiden Refuter widersprachen sich in einer Seitenzahl
+  (Kontrollrundgang S. 11/36 gegen S. 12/36). Selbst entschieden über die
+  Marker-Konvention (Marker steht am Seitenende): **S. 12/36**, Refuter B hat recht.
+  Sämtliche tragenden B-Befunde wurden vor Übernahme einzeln am Original gegengeprüft
+  (Rule 260729b).
+- **[offen, nicht behoben]** `delta-zum-ersten-rang.md` transliteriert im Altbestand
+  durchgängig ae/oe/ue, **auch innerhalb wörtlicher Zitate** (Verstoss gegen Rule
+  `umlaute-konvention`, verhindert maschinelle Zitatprüfung). Alle in diesem Lauf neu
+  geschriebenen Abschnitte und Zitate tragen echte Umlaute; die Volltext-Sanierung
+  steht aus und ist in QUESTIONS vermerkt — bewusst nicht nebenbei erledigt.
+- **[report]** `outputs/2026-08-03_etappe4-vertiefung-01.md`.
+- **[nächster Schritt]** **V2** (Rückkopplung der Siegargumente gegen die eigenen
+  Beiträge), beginnend mit **Schulbau** — dort stehen drei eigene Beiträge mit
+  Jury-Urteil (2102, 2103, 2206) zehn belegten Siegargumenten gegenüber.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C1 · D0 · E0 · F151 · G0
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 1 Sachartikel steht 93 raw-Quellen gegenueber — das schwaechste Verdichtungsverhaeltnis im Bestand. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
