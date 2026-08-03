@@ -1152,3 +1152,23 @@ Fidelity-Reports unter `outputs/`.
   `outputs/2026-07-17_fidelity.md`.
 
 
+
+## 2026-08-03 — twin-fidelity-review (Dokument-Strang, 2. Lauf)
+
+Gesamt-Fidelity **50** (Stimme 44 · Denken 52 · Haltung 51 · Beziehung 61 · Fachsignatur 42 ·
+Arbeitsweise 49) an zwei neuen Gattungen: Sitzungsprotokoll Waedenswil 24.08.2023 und
+Kriterienkatalog Haus Deuber 27.03.2021, beide vorher mit null Belegen im Wiki. Ein drittes
+Gold (`Text 1_Jury.docx`, Schoental) wurde beim Lesen als **Fremdtext** erkannt (Jurybericht
+eines fremden Verfahrens) und verworfen. Kernbefund: der Zwilling hat in **beiden**
+Blindfassungen erneut einen Mail-Schluss unter ein Eigendokument gesetzt, obwohl das Don't seit
+260731 im Gehirn steht — Ursache war ein ungetrennter Do-Satz («immer einen naechsten Schritt»)
+im selben Artikel; jetzt nach Gattung getrennt. Geaendert: [[stimme]] (Eigendokument als
+Familie mit drei Notationen + Anfuehrungszeichen nicht durchgaengig Guillemets + neuer
+Belegabschnitt), [[denken]] (Varianten bilanzieren statt benoten; Fremdaussage/eigene Wertung
+trennen), [[haltung]] (interne Haerte; Position gegen die Behoerde im Protokoll),
+[[fachsignatur]] (Kernzonen-Mechanik + vier Einordnungs-Hebel; Aussenraum-Fachsprache),
+[[beziehungsregister]] (zweiter Beleg Drittform im Eigendokument), [[arbeitsweise]] (Formular
+des Gastgebers; Mail-vs-Dokument-Schluss; Belege 5+6), `CLAUDE.md` (Echo-Detektion korrigiert:
+Guillemet-Signal nur in Kombination; neue Falle Fremdtext im eigenen Ordner), [[QUESTIONS]]
+Runde 260803 (6 Fragen + Facetten-Spannung), `raw/_INGESTED.md` (Gold-Verbrauch + verworfene
+Datei), Report `outputs/2026-08-03_fidelity.md`, `rules/jans-dna.md` neu kompiliert.

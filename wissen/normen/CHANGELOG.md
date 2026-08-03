@@ -1,3 +1,20 @@
+## 2026-08-03 (Run 42) — KL Hochbau Sanitäre Anlagen destilliert, Deckungsprüfung Einzelblätter
+
+Neues Destillat [`destillate/kl-hochbau-sanitaer-katalogblaetter.md`](destillate/kl-hochbau-sanitaer-katalogblaetter.md)
+aus `09_Sanitaereinrichtung/KL_Hochbau_S22_25.pdf` + `KL_Hochbau_S53_56.pdf` (Scans ohne
+Textlayer, alle 8 Seiten visuell gelesen). Inhalt: Katalog-Masszeichnungen Sanitärapparate
+(Badewannen, Duschwannen, Waschtische, Badezimmermöbel, Bidet, BKP 251) sowie Planungsregeln
+(Bedarfszahlen pro Personenbelegung, Achs-/Wandabstände MD/MI/MK, Behindertenanlagen-Masse,
+«BKB 256»). **Zusatzauftrag Deckungsprüfung:** alle 8 Einzelblätter unter `Kl Hochbau einzel/`
+gegen die Sammelblätter verglichen — **alle 8 gedeckt** (seitengenau identisch), die
+Deckungsvermutung aus `training/norm-inventar.md` bestätigt sich vollständig, kein Befund.
+Herausgeber/Werktitel/Ausgabedatum auf keiner der 8 Seiten ausgewiesen (Titelblatt nicht im
+Auszug enthalten) — als offener Punkt K42-1 in `wiki/QUESTIONS.md` geführt, ebenso die
+Diskrepanz BKP 251 vs. BKB 256 (K42-2), die nicht eindeutig lesbare Piktogramm-Tabelle S53
+(K42-3) und der ungeprüfte Fassungsvorbehalt der Behindertenanlagen-Masse S56 gegenüber
+SIA 500:2009 (K42-4). `training/norm-inventar.md` für alle 10 betroffenen Dateien nachgeführt
+(2 Sammelblätter `[x]`, 8 Einzelblätter `[-]` gedeckt).
+
 ## 2026-08-03 — Korrektur Ordnerzuordnung (Ultra-Code-Review, Befund E)
 
 `wiki/QUESTIONS.md`, Punkt «Bookkeeping-Widerspruch zusammenführen»: PAVIDENSA und

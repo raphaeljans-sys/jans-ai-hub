@@ -574,3 +574,34 @@ bezahlt gemacht (26.02. mit acht Eigentexten war vollstaendig unbelegt). **Naech
 `rj@` **Maerz 2026** — Batches 32/33 decken 04.–12.03. nur stichprobenartig ab, ab 13.03. ist der
 Bestand ungeprueft; danach der Modalitaetswechsel auf den Dokument-Strang (`AR - 03 Studien`,
 Empfehlung 3 des Reports 260731).
+
+## Gold-Verbrauch Fidelity 03.08.2026 — Dokument-Strang, zweiter Lauf
+
+Fortsetzung des am 01.08. eroeffneten Strangs (dessen Empfehlung 1). Gewaehlt wurden zwei im Wiki
+mit **null** Belegen vertretene Gattungen; Abdeckungspruefung in beiden Datumsformaten, mit
+Kontrollbegriff-Gegenprobe (0 Treffer).
+
+| Dokument | Gattung | verbraucht durch |
+|---|---|---|
+| `AR - 03 Studien/2304 Waedenswil/02_Korrespondenz/10_Huesser_Lukas/230824_Protokoll.docx` | Sitzungsprotokoll 24.08.2023 (im Formular des Gastgebers) | Fidelity 260803 (Gold A) |
+| `AR - 03 Studien/2001 Haus Deuber/09_Dokumente/Fragestellungen/210327_Kriterienkatalog_Variantenbewertung.docx` | Bewertungsdokument 27.03.2021 («+»/«-»-Bilanz) | Fidelity 260803 (Gold B) |
+
+Echo-Pruefung beider: **negativ** (dichte Tippfehler, Kasusfehler, uneinheitliche
+Grossschreibung, kein rohes `**`) — handgetippt, beide Gold.
+
+**VERWORFEN, nicht verbraucht:** `AR - 02 Wettbewerbe/2206 WB Schoental/09 Dokumente/
+Text 1_Jury.docx` — trotz des Dateinamens **kein** JANS-Erlaeuterungsbericht, sondern der
+Jurybericht-Text zum 1. Rang eines **fremden** Verfahrens («Text 1. Rang Bruehl», Projekt
+ÉCOLE DE SOLEURE). Fremde Autorschaft, damit als Stilquelle disqualifiziert. Gleiche Gattung
+betroffen: `2102 WB Muttenz/08_Publikationen/01 Texte/Jury-Text/Jurybericht.docx` sowie die
+Fachplanertexte `.../12 Tragwerk/220223 Tragwerk INGENI.docx` und
+`.../11 Brandschutz .../220222_Brandschutztext_Makiol_Wiederkehr.docx` — alle in JANS-eigenen
+Textordnern, alle fremd. Detektionssignale jetzt in `wissen/twin/CLAUDE.md` verankert
+(Dritte-Person-Perspektive · Trennstriche mitten im Wort als PDF-Copy-Spur · fremdes Kennwort).
+
+**Naechstes Dokument-Fenster:** der Erlaeuterungsbericht der eigenen Wettbewerbe liegt in der
+Regel NICHT als DOCX vor — gezielt in `01 Plaene/13_Layout`, `00_Abgabe` und `08 Publikationen`
+suchen (2102 Muttenz, 2206 Schoental, 2205 Guggerbach als 2. Raenge zuerst). Danach im Studien-
+Strang weiter: `2001 Haus Deuber/09_Dokumente/Fragestellungen/` (13 weitere Dateien 2020/2021,
+alle unbelegt), `2306 WOMA Maur/06_Reglemente/231018_QA_Baurecht.docx`, `2305 Muenchenwiler/
+02_Korrespondenz/230927_Notizen_Arbeitsbesprechung.docx`.

@@ -1,5 +1,23 @@
 # Offene Fragen — KB Normen
 
+## Run 42 (03.08.2026) — neu offen
+
+### KL Hochbau, Sanitäre Anlagen ([[kl-hochbau-sanitaer-katalogblaetter]])
+- **K42-1 Herausgeber/Werktitel/Ausgabedatum unbekannt.** Keine der acht gelesenen Seiten
+  (S22-25, S53-56) trägt Impressum, Verlagslogo oder Datum; die Titelseite des Gesamtwerks
+  liegt nicht im Ordner `09_Sanitaereinrichtung` vor. Der Dateiname «KL Hochbau» ist keine
+  belastbare Quelle. Falls Raphael den Werktitel kennt: nachtragen.
+- **K42-2 «BKP 251» (S22) gegen «BKB 256» (S53).** Auf beiden Blättern (Sammel- und Einzelblatt
+  übereinstimmend) so gedruckt — kein Lesefehler. Druckfehler des Originals oder eigenständige
+  ältere Gliederung? Für Ausschreibungstexte ohnehin die aktuelle BKP-2017-Nummer verwenden
+  (Rule `bkp-2017-referenz`).
+- **K42-3 Bedarfszahlen-Tabelle S53** (Piktogramm-Spalten «Apparate mit Wasser-/
+  Abwasseranschluss» je Personenbelegung) nicht einzeln benennbar aus dem Scan. Bei
+  verbindlicher Verwendung Original nochmals gezielt einsehen.
+- **K42-4 Behindertenanlagen-Masse S56** zitieren keine Norm, wirken älterer Provenienz
+  (cm-Bemassung, keine SIA-500-Terminologie) — ungeprüft, ob sie mit SIA 500:2009
+  übereinstimmen. Fassungsvorbehalt analog [[bkz-2005-checkliste-hindernisfrei-hochbau]].
+
 ## Run 41 (MacBook Pro, 01.08.2026) — neu offen
 
 ### Lignatec / Lignum
