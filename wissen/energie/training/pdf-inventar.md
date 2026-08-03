@@ -113,3 +113,55 @@ Beim Lauf 2026-06-19 im SharePoint gefunden, im urspruenglichen Inventar fehlend
 | [x] VSE «Branchenempfehlung Lokale Elektrizitätsgemeinschaften (LEG), BD LEG – CH 2025 V2» (strom.ch/de/media/15458/download, amtliche Primärquelle, verabschiedet 27.06.2025, 35 Seiten vollständig via Read gelesen) — löst `leg-lokale-elektrizitaetsgemeinschaft-2026` auf established | 2026-07-13 (Run 52; 40 %/20 %-Netzentgelt-Rabatt + ≥5 %-Produktionsverhältnis zahlengenau bestätigt, Anschlussleistungsformel + Rechenbeispiel, Gründungs-Timing (frühestens 1.4.2026 aktiv), vollständige Speicher-Übergangsregelung, Vergütungs-/HKN-Regeln neu erschlossen; FAQ F33 + `pv-eigenverbrauch-zev` geschärft, primärquellen-verifiziert established) |
 | [x] suissetec-Merkblatt «Information zur Norm SIA 382/1 — Mechanische Lüftung in Gebäuden» (merkblatt.suissetec.ch/de-CH/LUEF251, amtsnahe Primärquelle, Norm SIA 382/1:2025 in Kraft seit 1.2.2025, 12 Seiten vollständig via curl+pdftotext gelesen) — schärft `komfortlueftung-wrg-sia382-luftwechsel` auf established | 2026-07-13 (Run 53; offizielle Norm-WRG-Grenzwerte Tab.2 [73 %/70 % KVS], IDA-Kategorien Tab.1 [29/57/18 m³/h/Person], Raumluftfeuchte-Grenzen 30-62 % neu erschlossen; FAQ F43 geschärft) |
 | [x] BFE «Komfortlüftung — Dimensionierungshilfe, Teil 1: Allgemein» (pubdb.bfe.admin.ch/de/publication/download/2783, 9 Seiten vollständig via curl+pdftotext gelesen) | 2026-07-13 (Run 53; Faustregel Zuluft 30 m³/h/Zimmer, Abluft Küche/Bad 40 + WC 20 m³/h, WRG je Bautyp 50-80 %, Schall 25 dBA → `bfe-komfortlueftung-dimensionierungshilfe-1`; FAQ F62 neu; Grundlage SIA 2023 formell zurückgezogen, als Faustregel dokumentiert) |
+
+---
+
+## Nachtrag 2026-08-03 (Run 121): zweiter PDF-Korpus PL-02 erschlossen
+
+**Befund:** Die seit Run 65 gefuehrte Aussage «PDF-Inventar erschoepft» gilt **nur fuer
+PL - 04 Energie**. Der Ordner **PL - 02_Recht_Norm** enthaelt **1'171 PDF**, davon **182 nach
+Dateiname energierelevant** — ein zweiter, bisher nie angetasteter Primaerquellen-Korpus.
+Die Blockade, die diesen Ordner bis 31.07. unlesbar machte, ist seit 01.08.2026 aufgehoben
+(vgl. QUESTIONS-Eintrag «UEBERHOLT 01.08.2026»); Run 121 hat die Lesbarkeit nachgemessen:
+die Dateien liegen als OneDrive-Platzhalter (`dataless`) und materialisieren sich beim Lesen.
+
+⚠ **Messfalle, belegt in diesem Lauf:** `du -h` meldet fuer Platzhalter **0 B** und suggeriert
+leere Dateien. Massgeblich ist `stat -f %z` (echte Groesse) zusammen mit dem Flag `dataless`.
+Vor dem Lesen einmal `head -c 200000 <datei> > /dev/null` erzwingt die Materialisierung.
+
+### Verteilung der 182 energierelevanten PDF
+
+| Teilkorpus | Anzahl | Inhalt | Prioritaet |
+|---|---|---|---|
+| `06_Richtlinien/Minergie/` | 79 | Bauteile-/Waermebrueckenkataloge, Nachweisformulare, Merkblaetter EnFK, Anwendungshilfen Minergie-P/-A, Fragenkataloge | 1 |
+| `04_Merkblätter/eco/` | 55 | eco-bau/KBOB: oekologisch Bauen, Zielvereinbarungen SIA 112/1, Merkblaetter nach BKP, Solarstromanlagen, Deviskontrolle | 2 |
+| `04_Merkblätter/Projektadmin AHB/` | 38 | Stadt Zuerich AHB: **Gebaeudetechnik-Richtlinien GT_RL1-RL9 (V21)**, 2000-Watt-Gesellschaft, Bauteilkatalog Energie+Oekologie, Innenraumklima | 2 |
+| `01_Gesetze/02_Zuerich/Energie/` | 5 | EnerG-Fassung 730.1, WDV 2009, Vollzugsordner Energie Kt. ZH, VoHi EN-10 | 3 (Recht: mit KB `baurecht` abgleichen) |
+| uebrige | 5 | Einzelblaetter (VKF, SECO, Bodenbelaege) | 4 |
+
+### In Run 121 destilliert (10 PDF, 8 Destillate)
+
+| Status | Quelle (PL - 02_Recht_Norm/...) | KB-Datenstand |
+|---|---|---|
+| [x] `06_Richtlinien/Minergie/Nuetzliche Unterlagen/Bauteilekatalog_Sanierungen_d.pdf` | 2026-08-03 (S. 1-80/84, Rest Leerformulare; BFE 2001, BBL 805.155 d → `bauteilekatalog-sanierungen`) |
+| [x] `06_Richtlinien/Minergie/Nuetzliche Unterlagen/Wärmebrückenkatalog_d.pdf` | 2026-08-03 (→ `waermebrueckenkatalog-minergie-pl02`) |
+| [x] `06_Richtlinien/Minergie/Merkblaetter/EnFK_Fensterblatt_de.pdf` | 2026-08-03 (vollst. S. 1-16; EnFK 08.2009, 805.107.d, SIA 380/1:2009 → `enfk-fensterblatt`) |
+| [x] `06_Richtlinien/Minergie/Merkblaetter/Untergeschosse_besser_dämmen.pdf` | 2026-08-03 (vollst. S. 1-4; BFE/EnergieSchweiz 10.01.2003, 805.150.3 d → `untergeschosse-daemmen`) |
+| [x] `06_Richtlinien/Minergie/Nuetzliche Unterlagen/Innenraumklima/innenraumklima.pdf` | 2026-08-03 (vollst. S. 1-6; KBOB/IPB Empfehlung 2004/1 → `minergie-innenraumklima`) |
+| [x] `04_Merkblätter/eco/1.16.I_Gebaudelabel-MINERGIE-ECO.pdf` | 2026-08-03 (vollst. S. 1-4; Minergie/eco-bau Maerz 2007, ⚠ 19 Jahre → `minergie-eco-gebaeudelabel`) |
+| [x] `06_Richtlinien/Minergie/Nuetzliche Unterlagen/Gebaeudehuellziffer/{Gebaeudeform,Flächendefinition}.pdf` + `Merkblaetter/Definition Energiebezugsflaeche.pdf` | 2026-08-03 (Buendel, 3 PDF → `gebaeudehuellziffer-ebf-flaechendefinition`) |
+| [x] `06_Richtlinien/Minergie/Nuetzliche Unterlagen/Gebaeudehuellziffer/190103_anwendungshilfe_minergie_p_a_v2019.1_de.pdf` | 2026-08-03 (Anwendungshilfe Minergie-P/-A V2019.1 → `minergie-p-a-anwendungshilfe-2019`) |
+| [x] `06_Richtlinien/Minergie/Nuetzliche Unterlagen/Fragekatalog/Fragenkatalog_MFH_1.3_d.pdf` | 2026-08-03 (vollst. S. 1-26 → `minergie-fragenkatalog-mfh`) |
+
+### Naechste Prioritaet aus PL-02
+
+1. **GT_RL1-RL9 Stadt Zuerich (V21)** — neun Gebaeudetechnik-Richtlinien (Planungsgrundlagen,
+   Systemwahl, Heizung, Raumkuehlung, Lueftung, Sanitaer, Elektro, Beleuchtung,
+   Gebaeudeautomation). Groesster geschlossener Fachblock des Korpus.
+2. `Bauteilkatalog_Energie+Oekologie.pdf` (AHB) — verbindet Energie mit Bauoekologie.
+3. eco-bau-Reihe «Merkblaetter nach BKP» — direkt an die BKP-Systematik anschlussfaehig.
+
+⚠ **Dublettenwarnung eco-Ordner:** mehrere Dokumente liegen doppelt unter leicht abweichenden
+Dateinamen (z.B. `1.13.C Zielvereinbarungen SIA112_1.pdf` / `1.13.C Zielvereinbarungen-SIA112_1.pdf`
+/ `1.13Zielvereinbarungen_SIA112_1.pdf`). Vor dem Destillieren Dubletten pruefen, sonst wird
+dieselbe Quelle mehrfach gezaehlt.

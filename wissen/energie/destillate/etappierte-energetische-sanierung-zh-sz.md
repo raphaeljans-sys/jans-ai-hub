@@ -5,7 +5,7 @@ ausgabe: "EnerG ZH gelesen in Nachtrag 125 (gültig ab 1.7.2024); geltender Stan
 gelesen: "Volltext-PDFs direkt bezogen und gelesen 2026-07-31: EnerG ZH (notes.zh.ch, 13 S.), WDV ZH (zh.ch, 10 S., §§1-12 gelesen), KEnG SZ (sz.ch, 10 S., vollständig gelesen), KEnV SZ (sz.ch, §§1-30 gelesen); ergänzend WebSearch zu AWEL-Wegleitungen, EVEN-Vollzug und einer allfälligen Zusammenrechnungs-/Etappierungs-Regel (keine amtliche Fundstelle dazu gefunden, siehe Offene Punkte)"
 datenstand: 2026-07-31
 status: established
-last_updated: 2026-07-31
+last_updated: 2026-08-03 (Run 121: volles Adversarial-Verify nachgeholt — 5 von 7 Kernaussagen wortgetreu am Erlasstext bestaetigt, 2 mit methodischem Vorbehalt beim Negativbeweis; siehe Abschnitt «Verifikationsvermerk»)
 ---
 
 # Destillat — Etappierte energetische Sanierung: Nachweispflicht und Bagatellgrenze in ZH und SZ
@@ -150,6 +150,37 @@ Beleg dafür, dass eine Umgehung in der Vollzugspraxis tatsächlich toleriert w�
   Vorhaben am selben Gebäude sichtbar macht und die Vollzugsbehörde dadurch faktisch eine
   Gesamtsicht erhält — das ist aber eine **Vermutung zur Systemarchitektur**, nicht durch eine
   gelesene Quelle belegt (siehe Offene Punkte).
+
+## Verifikationsvermerk (Run 121, 03.08.2026)
+
+Die in Run 120 unterlassene Volltext-Gegenpruefung wurde nachgeholt (unabhaengiger Refuter-Agent
+mit Widerlegungsauftrag, Beurteilung im Hauptmodell):
+
+| Geprueft | Verdikt |
+|---|---|
+| § 2 Abs. 4 lit. b WDV ZH als Fundstelle der Bagatellschwelle | bestaetigt (Paragraf, Absatz, Litera, Fassung 8.6.2022) |
+| Fr. 200'000 UND ≤ 30 % GVW **kumulativ** («weder … noch») | bestaetigt im Originalwortlaut |
+| Bezugspunkt einzelnes Umbauvorhaben, nicht Etappensumme | bestaetigt, aber **Negativbeweis ueber begrenzte Quellenbasis** (nicht alle AWEL-Weisungen maschinenlesbar) |
+| § 3 Abs. 2 SRSZ 420.111, Fr. 250'000 ohne GVW-Bezug | bestaetigt |
+| Indexierung «Zuercher Index der Wohnbaupreise», Stand April 2022 | bestaetigt — dieses Destillat nannte den Index von Anfang an korrekt |
+| Keine amtliche Zusammenrechnungsregel ueber Etappen | bestaetigt, gleicher Negativbeweis-Vorbehalt |
+| U-Wert-Einzelanforderungen gelten auch unter der Schwelle | bestaetigt (§ 2 Abs. 4 Satz 1 WDV: Nachweis entfaellt, Einhaltung ist zu **deklarieren**) |
+
+**Zwei Praezisierungen aus der Pruefung:**
+1. § 2 Abs. 4 lit. b WDV enthaelt eine dritte, hier bisher nicht genannte Vorbedingung: das
+   Umbauvorhaben darf **nur geringfuegige Umnutzungen** enthalten. Die Bagatellschwelle ist damit
+   dreiteilig, nicht zweiteilig.
+2. ⚠ **Offene Namensfrage (KB-weit, nicht nur hier):** Der Refuter meldet, der amtliche Titel von
+   SRSZ 420.111 laute schlicht «Energieverordnung»; «KEnV» sei eine gebraeuchliche, aber nicht
+   amtliche Kurzform. Eine eigene Gegenpruefung am amtlichen Erlasskopf war in diesem Lauf nicht
+   moeglich (beide sz.ch-URLs lieferten HTTP 404). Die Kurzform «KEnV» wird in dieser KB in 15
+   Dateien verwendet, teils auch fuer andere Kantone (z.B. Kt. Luzern). Ein KB-weiter Rename wurde
+   deshalb **bewusst nicht** vorgenommen — er waere auf einen einzelnen, ungegengeprueften
+   Agentenbefund gestuetzt (Rule `auto-verbesserungen` 260729b). Als offene Frage in QUESTIONS.
+
+**Zu beobachtende Rechtsaenderung:** Im Kanton Schwyz laeuft ein Vernehmlassungsverfahren zu
+einem neuen Energiegesetz. Es ist per SRSZ-Registerstand 1.2.2026 **nicht in Kraft**; SRSZ
+420.100/420.111 gelten unveraendert.
 
 ## Offene Punkte
 - **Keine amtliche Fundstelle zu einer Zusammenrechnungs-/Beobachtungsfrist-Regel** gefunden,

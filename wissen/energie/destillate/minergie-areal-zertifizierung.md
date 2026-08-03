@@ -1,11 +1,11 @@
 ---
-quelle: "Produktreglement zum MINERGIE-Areal®, Version 2026.1, gueltig ab 01.01.2026 (PDF, 37 Seiten, minergie.ch/media/produktreglement-minergie-areal-v2026-1.pdf); ergaenzt durch minergie.ch-Webseiten «Zertifizierung von Minergie-Arealen», «Minergie-Areal: Areale klimafreundlich transformieren», «Minergie-Areal fuer Gemeinden»; Fallbeispiele suissetec Campus Lostorf SO (suissetec.ch-Medienmitteilung) und Fischermaetteli Burgdorf BE (mehrfach unabhaengig bestaetigt: minergie.ch-News, be-advanced.ch, immo-invest.ch, strueby.ch)"
+quelle: "Produktreglement zum MINERGIE-Areal®, Version 2026.1, gueltig ab 01.01.2026 (PDF, 38 Seiten, minergie.ch/media/produktreglement-minergie-areal-v2026-1.pdf); ergaenzt durch minergie.ch-Webseiten «Zertifizierung von Minergie-Arealen», «Minergie-Areal: Areale klimafreundlich transformieren», «Minergie-Areal fuer Gemeinden»; Fallbeispiele suissetec Campus Lostorf SO (suissetec.ch-Medienmitteilung) und Fischermaetteli Burgdorf BE (mehrfach unabhaengig bestaetigt: minergie.ch-News, be-advanced.ch, immo-invest.ch, strueby.ch)"
 herausgeber: "Verein Minergie Schweiz (Reglement, Primaerquelle); suissetec (Bildungszentrum-Beispiel); Strueby Unternehmungen / be-advanced AG (Fischermaetteli-Beispiel, Bautraeger-eigene Kommunikation, mit unabhaengiger Minergie-News gegengeprueft)"
 ausgabe: "Produktreglement Version 2026.1 (Neuerungen ggue. 2025.1 im Original blau markiert); Beispiele Stand September 2023 (suissetec, provisorisch) bzw. 02.09.2024 (Fischermaetteli, erstes definitives Zertifikat Schweiz)"
 gelesen: "Produktreglement vollstaendig per WebFetch/pdftotext ausgewertet (Kapitel 1-8 inkl. Anhang A Einbettung Label-Landschaft); Webseiten und Fallbeispiel-Artikel per WebSearch/WebFetch am 2026-07-31"
 datenstand: 2026-07-31
 status: established
-last_updated: 2026-07-31
+last_updated: 2026-08-03 (Run 121: Adversarial-Verify-Nachholung — alle acht Kernaussagen am Reglement 2026.1 wortgetreu bestaetigt; korrigiert wurden zwei Metadaten-/Zaehlfehler: «von 10 Wahlvorgaben» → 17, «37 Seiten» → 38)
 ---
 
 # Destillat — Minergie-Areal: Zertifizierung, Kriterien und Praxisbeispiele
@@ -14,7 +14,7 @@ last_updated: 2026-07-31
 Minergie-Areal ist das seit 2023 als Nachfolger des 2000-Watt-Areals eingefuehrte
 **Quartierslabel** von Minergie: mindestens 2 Gebaeude und 3'000 m² Energiebezugsflaeche (EBF),
 mindestens 60 % der Areal-EBF muss Minergie(-P/-A)-zertifiziert sein, dazu kommen 17 Pflichtvorgaben
-und mindestens 3 (bzw. 2 bei ueberwiegendem Bestand) von 10 Wahlvorgaben in den vier arealspezifischen
+und mindestens 3 (bzw. 2 bei ueberwiegendem Bestand) von 17 Wahlvorgaben in den vier arealspezifischen
 Themen Areal-Management, Energie/Treibhausgase, klimaangepasster Aussenraum und Mobilitaet, geprueft
 in einem zweistufigen Verfahren (provisorisch → definitiv, max. 10 Jahre) fuer CHF 9'000 plus CHF 0.35
 je m² EBF (Deckel CHF 30'000, exkl. MwSt.).
@@ -69,7 +69,7 @@ Grenzwert selbst oder per Kompensation mit anderen Minergie-A-Gebaeuden derselbe
 
 ## Die fuenf Themenbereiche (A-E) — Pflicht- und Wahlvorgaben
 
-Insgesamt 17 Pflichtvorgaben (alle zwingend) plus mindestens 3 von 10 Wahlvorgaben (nur 2, wenn der
+Insgesamt 17 Pflichtvorgaben (alle zwingend) plus mindestens 3 von 17 Wahlvorgaben (B4-B6, C6-C10, D4-D7, E6-E10) (nur 2, wenn der
 Bestandesanteil > 2/3 der Areal-EBF betraegt); eigene Vorschlaege sind als «Joker» je Thema B-E bei der
 Zertifizierungsstelle einreichbar.
 

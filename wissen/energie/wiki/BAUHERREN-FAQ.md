@@ -6340,6 +6340,133 @@ belegter COP/JAZ-Wert gefunden — nur eine Hoval-Herstellerangabe (4-5,5) ohne 
 Circulago-Projektdaten. Datenstand 2026-07-29 (Run 119) →
 `[[seewasser-waermenutzung-aquathermie-zh-sz]]`. Status **emerging** — neues Themenfeld.
 
+## F197 — «Welche Kellerräume muss ich dämmen — und welche besser nicht heizen?»
+
+**Kurzantwort:** Alles, was Sie später einmal nutzen wollen (Hobbyraum, Archiv, Reserveausbau),
+gehört von Anfang an **innerhalb** den Dämmperimeter, auch wenn es vorerst unbeheizt bleibt.
+Garagen mit Toren und Zivilschutzräume liegen zwingend **ausserhalb**. Die Merkregel des
+Ratgebers lautet: im Zweifel dämmen, aber nicht heizen — eine Heizung lässt sich nachrüsten,
+eine Dämmung im Bestand kaum noch wirtschaftlich.
+
+**Fachliche Begründung:** Der Dämmperimeter ist die lückenlose Linie um alle beheizten Räume
+inklusive der erdberührten Bauteile und ist in Grundriss **und** Schnitt einzuzeichnen. Die
+Zuordnung jedes Raums erfolgt über ein Fünf-Felder-Raster aus den drei Kriterien Dämmung,
+Energiebezugsfläche und Beheizung: aktiv beheizte Räume und solche, für deren Nutzung ein
+Beheizen «sonst üblich» ist (Treppe, Lift, Korridor, Bastelraum), zählen zur EBF; Trocken-,
+Wasch- und Kellerräume innerhalb des Perimeters zählen nicht dazu. Ein unbeheizter, aber
+gedämmter Raum erreicht rund 17 °C. Kellerräume sind gegen Erdreich mindestens bis 1,5 m unter
+Terrainoberkante zu dämmen. Zivilschutzräume liegen in der Regel ausserhalb; eine dortige
+Dämmung muss innerhalb von 24 Stunden demontierbar sein, sonst gilt der Raum als unbeheizter
+Kellerraum. Erdberührte Bauteile brauchen zusätzlich eine echte Abdichtung (Bitumenbahnen,
+Bitumendickbeschichtung oder Kunststoffabdichtung) — ein Schwarzanstrich genügt nicht.
+
+**Quelle:** Energiefachstellen der Kantone und des FL / EnergieSchweiz / BFE, «Untergeschosse
+besser dämmen», BBL 805.150.3 d, Stand 10.01.2003, Seiten 1-4 vollständig. ⚠ Datenstand 2003,
+Bezug SIA 380/1:2001 Anhang F; das Prinzip Dämmperimeter/EBF-Abgrenzung ist normfassungs-
+unabhängig, die EBF-Zitierung ist gegen die geltende SIA-380/1-Ausgabe zu prüfen. Datenstand
+2026-08-03 (Run 121) → `[[untergeschosse-daemmen]]`. Status **emerging**.
+
+## F198 — «Warum sagt der Architekt, ein kompakter Baukörper sei energetisch günstiger?»
+
+**Kurzantwort:** Weil die **Gebäudehüllziffer** — das Verhältnis der wärmeabgebenden Hüllfläche
+zur beheizten Energiebezugsfläche (Ath/AE) — direkt bestimmt, wie viel Aussenfläche Sie pro
+Quadratmeter Nutzfläche dämmen, unterhalten und beheizen müssen. Ein verwinkelter Baukörper
+bekommt zwar einen grosszügigeren Grenzwert zugestanden, hat aber real mehr Verlustfläche und
+mehr Fassadenkosten bei gleicher Nutzfläche.
+
+**Fachliche Begründung:** Der zulässige Heizwärmebedarf wird nicht absolut gesetzt, sondern über
+die Gebäudehüllziffer an die Gebäudeform gekoppelt. Das ist der Grund, weshalb sich die Kubatur
+in der Volumenstudie doppelt auswirkt: auf BKP 2 (mehr Fassadenfläche) und auf den
+Energienachweis (mehr Transmissionsverlust). Für eine erste Grössenordnung der
+Energiebezugsfläche, wenn erst die Nettogeschossfläche bekannt ist, nennt die Quelle den
+Faustwert NGF × 1,10 bis 1,15; die raumweise Zuordnung beheizt/unbeheizt ersetzt das nicht.
+Unbeheizte Nebenräume (Garage, Veloraum, offene Laubengänge) zählen nicht zur EBF.
+
+**Quelle:** EnergieSchweiz, Infoblatt EnerCoach «Gebäudeform», Version 20170908_AG (rechnet mit
+SIA 380/1:2009 und SIA 2031:2008); BaFa (EAWAG/EMPA/WSL/PSI), «Definition Energiebezugsfläche»,
+10.06.2005. ⚠ Zwei Vorbehalte, nicht geglättet: die Klimareferenz der Quelle (8,5 °C, 8 % pro K)
+entspricht der Ausgabe 2009 und weicht von der in der KB geführten aktuellen Basis
+SIA 380/1:2016 (9,4 °C, 6 % pro K) ab; die dritte Quelle zur Flächenhierarchie stammt von einer
+privaten Immobilienfirma, nicht von einer Normstelle, und ist entsprechend schwach belegt.
+Datenstand 2026-08-03 (Run 121) → `[[gebaeudehuellziffer-ebf-flaechendefinition]]`.
+Status **emerging**.
+
+## F199 — «Reicht es, wenn ich gute Fenster einbaue, oder muss das ganze Haus gerechnet werden?»
+
+**Kurzantwort:** Beides ist möglich. Beim **Einzelbauteilnachweis** genügt es, je Bauteil den
+Grenzwert einzuhalten (Fenster gegen Aussenklima 1,3 W/(m²·K), gegen unbeheizte Räume
+1,6 W/(m²·K)). Beim **Systemnachweis** wird der Heizwärmebedarf des ganzen Gebäudes gerechnet —
+dann dürfen einzelne Bauteile schlechter sein, wenn andere das kompensieren.
+
+**Fachliche Begründung:** Der Einzelbauteilnachweis ist der vereinfachte Weg, aber er ist
+**nicht in jedem Fall zulässig**: bei Vorhangfassaden (die Fensterfläche ist dort nicht
+definiert) und bei Sonnenschutzgläsern mit g⊥ < 0,3 ist der Systemnachweis zwingend. Wählt man
+die Standardlösung «Höchstanteil an nicht erneuerbaren Energien» mit erhöhten Anforderungen an
+die Gebäudehülle, gilt für Fenster Uw ≤ 1,0 W/(m²·K). Häufig unterschätzt wird die
+Einbau-Wärmebrücke: für den Fensteranschlag ist Ψ ≤ 0,10 W/(m·K) einzuhalten, und die
+Einbausituation allein entscheidet über Einhaltung oder Verfehlung (Beispiel der Quelle bei
+Uf = 1,40: Aussenanschlag mit tiefer Dämmung Ψ = 0,08, ungünstigere Anschlagsart Ψ = 0,11).
+Ein gutes Fenster schlecht eingebaut fällt also durch.
+
+**Quelle:** EnFK (Konferenz Kantonaler Energiefachstellen) mit EnergieSchweiz/BFE,
+«Fensterblatt», Ausgabe 08.2009, Bestellnummer 805.107.d, Seiten 1-16 vollständig; Grundlage
+SIA 380/1:2009. ⚠ Datenstand 17 Jahre alt — sämtliche Grenz- und Rechenwerte vor Verwendung im
+Energienachweis gegen den aktuellen kantonalen Stand (EVEN/EN-ZH, geltende SIA-380/1-Ausgabe)
+prüfen. Offener Widerspruch, bewusst nicht aufgelöst: die Uf-Rechenwerte dieses Merkblatts
+(Holz 1,8 / Kunststoff 2,2 / Verbundprofil 2,8) weichen von jenen des BFE-Bauteilekatalogs 2002
+(1,9 / 2,5 / 3,3) ab. Datenstand 2026-08-03 (Run 121) → `[[enfk-fensterblatt]]`.
+Status **emerging**.
+
+## F200 — «Wie kommen Sie auf den U-Wert meiner bestehenden Wand, ohne sie zu öffnen?»
+
+**Kurzantwort:** Über den Sanierungs-Bauteilekatalog. Dort wird nicht der neue Aufbau frei
+gerechnet, sondern der **bestehende** Bauteil im Katalog aufgesucht (jeder Bauteil ist mit seinem
+unsanierten U-Wert hinterlegt, typisch 0,7 bis 4,5 W/(m²·K)), und der sanierte U-Wert wird mit
+der geplanten Dämmstärke direkt aus einer Nachschlagetabelle abgelesen.
+
+**Fachliche Begründung:** Das Verfahren (Tabelle C) braucht fünf Angaben: die Nummer des
+bestehenden Bauteils, die Dicke der bestehenden Dämmung, den neuen Dämmstoff mit λ-Wert und
+Dicke, den abgelesenen U bestehend, und daraus U saniert aus Anhang I (homogene Sanierung) bzw.
+Anhang II (inhomogene Sanierung, etwa bei Kreuzlattung oder Vollmetallkonsolen). Durchgerechnetes
+Beispiel der Quelle für eine hinterlüftete Fassade mit Vollmetall-Konsolen: bestehende
+Kerndämmung 3 cm, neu 12 cm Dämmplatte mit λ = 0,034 W/(m·K) — U bestehend 0,7, U saniert
+0,21, zuzüglich Wärmebrückenzuschlag für die Konsolen (2 Stück/m²: ΔU = 0,04) ergibt effektiv
+**0,25 W/(m²·K)**. Der Konsolen-Zuschlag ist der Punkt, an dem Sanierungsrechnungen regelmässig
+zu günstig ausfallen. Ist die Altdämmung unbekannt, arbeitet der Katalog mit λ = 0,040 W/(m·K)
+als Faustregel.
+
+**Quelle:** BFE, «U-Wert-Berechnung und Bauteilekatalog Sanierungen», Ausgabe 2001,
+BBL 805.155 d, Seiten 1-80 von 84 gelesen. ⚠ Datenstand 2001 — die Methodik und die
+Bestandsaufbauten bleiben gültig, die Anforderungswerte sind gegen die geltenden kantonalen
+Wärmedämmvorschriften zu prüfen. Datenstand 2026-08-03 (Run 121) →
+`[[bauteilekatalog-sanierungen]]`, Schwesterwerk `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
+Status **emerging**.
+
+## F201 — «Wie stelle ich sicher, dass die Raumluft im fertigen Gebäude wirklich gut ist?»
+
+**Kurzantwort:** Nur über eine **vertraglich verankerte Zielvereinbarung mit Zahlenwerten** plus
+eine Abschlussmessung. Ohne beides haben Sie nach der Fertigstellung keine Handhabe, wenn die
+Raumluft schlecht ist — der Energienachweis deckt das Thema ausdrücklich nicht ab.
+
+**Fachliche Begründung:** Die KBOB/IPB-Empfehlung verlangt, die Zielvorgabe Innenraumklima
+bereits im Projektpflichtenheft festzuhalten, in der Projektierung als Zielvereinbarung in die
+Planer- und allfälligen GU/TU-Verträge zu überführen, in der Ausschreibung mit präzisen
+Emissionsvorgaben je Material zu unterlegen und 1 bis 3 Monate nach Ende der raumluftrelevanten
+Arbeiten — wenn möglich vor der Möblierung — zu messen. Die Beispiel-Zielvereinbarung nennt
+Formaldehyd unter 62 µg/m³, TVOC unter 1'000 µg/m³ sowie CO2 im Mittel höchstens 1'000 ppm und
+in der Spitze 1'500 ppm. Dass es nicht um Komfortfeinheiten geht, zeigen die vier dokumentierten
+Schadenfälle: Formaldehyd aus einem Furnierleim führte zu Gebäudeschliessung, sechs Monaten
+Bauverzögerung und siebenstelligen Zusatzkosten. Die Messkosten (bis zu mehreren tausend Franken)
+gehören ins Budget, und die Ausschreibung sollte festhalten, dass Mess- und Folgekosten bei
+Überschreitung der Verursacher trägt.
+
+**Quelle:** KBOB/IPB mit BAG, KÖB, «Gutes Innenraumklima ist planbar», Empfehlung Nachhaltiges
+Bauen 2004/1, Seiten 1-6 vollständig inkl. Beilage Schadenfälle. ⚠ Datenstand 2004; die
+Zahlenwerte sind im Dokument selbst ausdrücklich als **Beispiel** einer Zielvereinbarung
+gekennzeichnet, nicht als verbindlicher Grenzwert — vor Verwendung gegen aktuelle BAG-/
+eco-bau-Werte prüfen. Datenstand 2026-08-03 (Run 121) → `[[minergie-innenraumklima]]`.
+Status **emerging**.
+
 ## F190 — «Ab wann lohnt sich ein Minergie-Areal statt einzelner Gebäude-Labels?»
 
 **Kurzantwort:** Ab mindestens 2 Gebäuden auf zusammenhängender Parzelle mit zusammen
