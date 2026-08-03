@@ -1328,16 +1328,16 @@ Toilettenanlagen/Sanitaerapparate. Die `KL_Hochbau_S*`-Blaetter sind Katalogblae
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
 | [ ] | P2 | `09_Sanitaereinrichtung/Arbeitshilfen Sanitärapparate.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S22_25.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S53_56.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S22.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S23.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S24.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S25.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S53.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S54.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S55.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S56.pdf` |  |
+| [x] 260803 | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S22_25.pdf` | kl-hochbau-sanitaer-katalogblaetter… Sanitaerapparate (BKP 251): Badewannen/Duschwannen/Waschtische/Moebel/Bidet, kein Herausgeber/Datum am Blatt |
+| [x] 260803 | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S53_56.pdf` | kl-hochbau-sanitaer-katalogblaetter… Sanitaerraumeinrichtungen (BKB 256, so gedruckt): Bedarfszahlen, Achs-/Wandabstaende, Behindertenanlagen |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S22.pdf` | gedeckt durch S22_25.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S23.pdf` | gedeckt durch S22_25.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S24.pdf` | gedeckt durch S22_25.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S25.pdf` | gedeckt durch S22_25.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S53.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S54.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S55.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
+| [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S56.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
 | [ ] | P2 | `09_Sanitaereinrichtung/MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf` |  |
 | [ ] | P2 | `09_Sanitaereinrichtung/Plan7_Badezimmer Alterswohnung.pdf` |  |
 | [ ] | P2 | `09_Sanitaereinrichtung/UGZ_Toilettenanlagen.pdf` |  |
