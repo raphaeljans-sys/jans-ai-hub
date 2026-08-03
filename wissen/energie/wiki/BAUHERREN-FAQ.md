@@ -6626,10 +6626,11 @@ Status **established**.
 ## F202 — «Wir sanieren das Warmwasser im Pflegeheim und wollen eine Wärmepumpe. Geht das mit dem Legionellenschutz zusammen?»
 
 **Kurzantwort:** Ja, aber nur mit einer baulichen Vorkehrung, die man **jetzt** treffen muss.
-Alters- und Pflegeheime gehören zur **Risikogruppe 2**. Dort ist bei einer Erneuerung die
-**thermische Desinfektion mit 75 °C einzuplanen** — und wenn die Wärme aus einer Wärmepumpe
-kommt, ausdrücklich **ein Anschluss für eine mobile Heizzentrale vorzusehen**. Chemische oder
-elektrophysikalische Vorbeugesysteme sind kein zulässiger Ersatz.
+Altersheime und Pflegezentren gehören zur **Risikogruppe 2**. Dort ist bei einer Erneuerung die
+**Möglichkeit einer thermischen Desinfektion mit 75 °C einzuplanen** — und wenn die Wärme aus
+einer Wärmepumpe kommt, ausdrücklich **ein Anschluss für eine mobile Heizzentrale vorzusehen**.
+Die Pflicht entfällt nur dann, wenn **sämtliche Warmwasser-Installationen neu erstellt** werden.
+Chemische oder elektrophysikalische Vorbeugesysteme sind kein zulässiger Ersatz.
 
 **Fachliche Begründung:** Hier stehen zwei Ziele gegeneinander. Eine Wärmepumpe wird umso
 effizienter, je tiefer die geforderte Vorlauftemperatur liegt; der Legionellenschutz verlangt
@@ -6642,9 +6643,12 @@ nachrüsten. Ergänzend gilt die Leitungsregel: temporär ungenutzte Stränge ma
 entleeren oder demontieren — Stagnationsstrecken sind der eigentliche Nährboden.
 
 **Quelle:** Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik,
-«Richtlinie GT Sanitärinstallationen», Version 2.1, Juli 2008, Kapitel 3, Seite 3, vollständig
-gelesen. ⚠ Datenstand 18 Jahre; die Quelle ist zudem eine **bauherreneigene Richtlinie der Stadt
-Zürich, kein Recht** — die 75-°C-Vorhaltung ist als bewährte Bestellerpraxis zu lesen, nicht als
+«Richtlinie GT Sanitärinstallationen», Version 2.1, Juli 2008, Kapitel 3, Seite 3/4, vollständig
+gelesen; **Wortlaut im Hauptmodell am Original gegengeprüft** (Run 122) — die Quelle nennt als
+Risikogruppe 2 «Spitäler, Altersheime, Pflegezentren, Bade- und Sportanlagen sowie
+Wohnüberbauungen mit zentraler Wassererwärmung» und verweist im Übrigen auf das SVGW-Merkblatt
+«Legionellen in Trinkwasserinstallationen – was muss beachtet werden?». ⚠ Datenstand 18 Jahre;
+die Quelle ist zudem eine **bauherreneigene Richtlinie der Stadt Zürich, kein Recht** — die 75-°C-Vorhaltung ist als bewährte Bestellerpraxis zu lesen, nicht als
 Vorschrift. Massgebend für die Ausführung sind die geltenden SVGW-/SIA-Vorgaben und die
 kantonalen Hygienevorschriften. Datenstand 2026-08-03 (Run 122) →
 `[[ahb-zuerich-gt-rl6-sanitaerinstallationen]]`, vertieft in
@@ -6724,9 +6728,15 @@ Lüftung ist zusätzlich der **WRG-Temperaturänderungsgrad je Anlage nachzumess
 
 **Quelle:** Stadt Zürich AHB, «Richtlinie GT Planungsgrundlagen», Version 2.1, Juli 2008,
 Seite 5, sowie «Richtlinie GT Lüftungsanlagen», Ziffern 1.4 und 2.3, und «Richtlinie GT
-Heizungsanlagen», Abschnitt 1.3, alle vollständig gelesen. ⚠ Datenstand 18 Jahre; die
-350-kW-Schwelle stammt aus der damaligen LRV-Fassung und ist vor Berufung darauf gegen die
-geltende Luftreinhalte-Verordnung zu prüfen. Datenstand 2026-08-03 (Run 122) →
+Heizungsanlagen», Abschnitt 1.3, alle vollständig gelesen. ⚠ Datenstand 18 Jahre. **Wichtige
+Korrektur aus der Aktualitätsprüfung Run 122, am Fedlex-Volltext selbst verifiziert: die
+350-kW-Schwelle gilt nicht mehr.** Art. 20 und Art. 20a LRV sind aufgehoben durch Ziff. I der
+Verordnung vom 20.10.2021, mit Wirkung seit 01.01.2022 (AS 2021 632); die Bestimmungen zum
+Inverkehrbringen von Feuerungsanlagen wurden aus der LRV entfernt. **Emissionsbegrenzungen und
+Feuerungskontrolle bestehen unverändert weiter** — weggefallen ist die produktrechtliche
+Konformitätsschwelle, nicht die Überwachung. Der übrige Inhalt dieser Antwort (JAZ-Messpflicht
+mit Systemgrenze, WRG-Messung, Kanaldichtheit, Betriebsoptimierung) ist von der Aufhebung nicht
+betroffen. Datenstand 2026-08-03 (Run 122) →
 `[[ahb-zuerich-gt-rl1-planungsgrundlagen]]`, `[[ahb-zuerich-gt-rl3-heizungsanlagen]]`,
 `[[ahb-zuerich-gt-rl5-lueftungsanlagen]]`. Status **emerging**.
 
@@ -6758,3 +6768,42 @@ konkreten Produkt- und Netzbezeichnungen der Quelle (IMMO-Box ab 1'000 m² EBF, 
 nicht mit der MuKEn-2025-Monitoringpflicht ab 2'000 m² EBF zu verwechseln. Für die normative
 Seite (BACS-Klassen A-D, SIA 386.111:2022) gilt `[[sia-386-bacs-gebaeudeautomation]]`. Datenstand
 2026-08-03 (Run 122) → `[[ahb-zuerich-gt-rl9-gebaeudeautomation]]`. Status **emerging**.
+
+## F207 — «Brauchen wir überall Bewegungsmelder fürs Licht?»
+
+**Kurzantwort:** Nein — und die pauschale Lösung ist meist die schlechtere. Sinnvoll ist eine
+Unterscheidung nach Raumtyp: In Räumen, in denen Menschen **arbeiten**, wird das Licht **von
+Hand eingeschaltet** und automatisch abgeschaltet (halbautomatisch). In **Durchgangsräumen** darf
+beides automatisch laufen.
+
+**Fachliche Begründung:**
+
+| Steuerung | Verhalten | Raumtypen |
+|---|---|---|
+| **Halbautomatisch** | Einschalten von Hand, Abschaltung nach Präsenz **und** Tageslicht | Büro, Sitzungszimmer, Schulzimmer, Arbeitsräume |
+| **Vollautomatisch** | Ein- und Ausschalten automatisch nach Bewegung und Tageslicht | Korridor, Treppenhaus, WC, Garderobe, Parkgarage |
+
+Der Grund für den Unterschied ist Nutzerakzeptanz, nicht Technik: Wo das Licht ungefragt
+angeht, obwohl es hell genug wäre, wird Energie verbraucht, die niemand angefordert hat — und
+wo es während der Arbeit ausgeht, wird der Sensor über kurz oder lang überbrückt. Zwei
+Detailanforderungen sind entscheidend dafür, dass die Automatik im Betrieb nicht sabotiert
+wird: Die **Präsenzerfassung muss auch ruhig sitzende Personen** zuverlässig erkennen und alle
+Aufenthaltszonen ohne tote Winkel abdecken, und die Schaltschwellen sind so einzustellen, dass
+beim Abschalten **keine grossen Helligkeitssprünge** entstehen. Bei **Raumtiefen über 6 m** sind
+fensternahe und fensterferne Zone getrennt zu schalten — sonst bestimmt die eine Seite des
+Raums das Licht der anderen. Dimmbare Lichtregelung und Szenensteuerung lohnen sich nur in
+Sonderräumen (Mehrzwecksaal, Konferenzraum). Für die Leuchtenauswahl gilt als Kennwert ein
+**Betriebswirkungsgrad von 70-90 %**.
+
+**Quelle:** Stadt Zürich AHB, «Richtlinie GT Beleuchtung», Version 2.1, Juli 2008, Ziffern 1.3,
+2.1, 2.2 und 2.3, Seiten 2-4, vollständig gelesen. ⚠⚠ **Zwei Teile dieser Quelle sind überholt
+und hier bewusst NICHT wiedergegeben** (Aktualitätsprüfung Run 122): Erstens ist der dort
+verlangte Nachweisweg **SIA 380/4:2006 archiviert** (gültig gewesen bis 31.07.2019, an der
+SIA-Shop-Produktseite selbst verifiziert); für Beleuchtung gilt heute **SIA 387/4:2023**, im
+Kt. Zürich über Formular EN-111 auf der Plattform EVEN — die im Dokument beschriebene
+MINERGIE-Skala «¾ zwischen Grenz- und Zielwert SIA 380/4» ist damit **nicht mehr rechenbar**,
+und das genannte Tool energycodes.ch ist nicht mehr erreichbar. Zweitens ist die Lampentechnik
+der Quelle (Leuchtstoffröhren T8/T5) **vor-LED**. Die **Steuerungslogik nach Raumtyp**, um die
+es in dieser Antwort geht, ist davon unberührt. Konkrete Lux-Werte enthält die Quelle nicht —
+diese sind der geltenden **EN 12464-1** zu entnehmen. Datenstand 2026-08-03 (Run 122) →
+`[[ahb-zuerich-gt-rl8-beleuchtung]]`, `[[gebaeudetechnik-pflichtenheft]]`. Status **emerging**.

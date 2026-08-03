@@ -3,7 +3,7 @@ quelle: "Richtlinie GT Lüftungsanlagen (GT_RL5), Stadt Zürich, Amt für Hochba
 herausgeber: "Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, in Zusammenarbeit mit der Immobilien-Bewirtschaftung und der Liegenschaftenverwaltung"
 ausgabe: "Version 2.1, Juli 2008 (freigegeben durch die Geschäftsleitung des AHB am 18. Juni 2008; Richtlinien Gebäudetechnik ursprünglich durch die Geschäftsleitung am 4. Mai 2004 in Kraft gesetzt)"
 gelesen: "Seiten 1-5 (vollständiges Dokument), 2026-08-03"
-datenstand: "2008 — ⚠ Alterskorpus, Zahlenwerte vor Verwendung gegen geltende Fassung pruefen (Dokument ist 18 Jahre alt, seither mehrere SIA-Norm-Revisionen; insbesondere SIA 382/1 liegt heute in neuerer Ausgabe als 2007 vor)"
+datenstand: "2008 — ⚠⚠ Alterskorpus mit belegten Normabloesungen (Aktualitaetspruefung Run 122, 03.08.2026): **SIA 382/1:2007 → 2014 → SIA 382/1:2025** (gueltig ab 01.02.2025, neuer Titel «Mechanische Lueftung in Gebaeuden»; neu daneben SIA 382/5:2025 fuer Wohnbauten) — die materielle Verschiebung liegt im Schritt 2007→2014, und **die im Dokument zitierten Ziffern sind nicht als stabil anzunehmen**. **EN 779:2002 zurueckgezogen → EN ISO 16890** (Methodenwechsel, keine 1:1-Uebersetzung von F7, siehe Praezisierung im Text). **SIA 380/4 archiviert seit 31.07.2019**, energycodes.ch nicht mehr erreichbar, Vollzug heute ueber EVEN. Zahlenwerte vor Verwendung gegen die geltende Fassung pruefen"
 status: emerging
 last_updated: "2026-08-03 (Run 122)"
 ---
@@ -63,7 +63,26 @@ Die städtische Richtlinie schreibt für alle Lüftungsanlagen in Bauten der Sta
 
 - Dieses Dokument ist eine **Bauherren-Anforderung der Stadt Zürich an ihre eigenen Bauten** (AHB-interne Richtlinie Gebäudetechnik). Für private JANS-Projekte (Healthcare, Wohnbau) ist es **nicht verbindlich**, taugt aber als belegte, praxiserprobte Referenz für ein eigenes Anforderungsheft — insbesondere dort, wo die SIA 382/1 selbst offen bleibt (z.B. Materialwahl Lufterdregister, konkrete Filterklasse, Vermeidungsgebot Brandschutzklappen).
 - **Direkt übertragbar auf JANS-Projekte**, weil es unabhängig von der Bauherrschaft gute fachliche Praxis konkretisiert:
-  - Filterklasse F7 als «normale Anforderung» — ein belegter Richtwert, der in Pflichtenheften/Ausschreibungstexten (BKP-Bereich Lüftung) direkt zitierfähig ist, sofern die aktuelle Norm-Nachfolgerklassifikation (ISO 16890, seit ca. 2018 gültig, F7 dort etwa ePM1 50-60 %) berücksichtigt wird — dieses Dokument zitiert noch die alte EN 779:2002-Klassifikation.
+  - Filterklasse F7 als «normale Anforderung» — belegt für 2008, aber **heute nicht mehr zitierfähig**.
+
+  ⚠⚠ **PRÄZISIERT (Aktualitätsprüfung Run 122):** «F7» gehört **nicht mehr in einen
+  Ausschreibungstext**. Die zitierte **EN 779:2002 ist doppelt überholt** — zuerst durch
+  EN 779:2012, die Mitte 2018 zurückgezogen und durch die Reihe **EN ISO 16890-1 bis -4**
+  ersetzt wurde. Der Wechsel ist **kein Umetikettieren, sondern ein Methodenwechsel**:
+  EN 779 mass den Abscheidegrad bei **einer** Partikelgrösse (0,4 µm) mit synthetischem
+  Prüfstaub am geladenen Medium, ISO 16890 bewertet das **gesamte Partikelspektrum** gegen die
+  Feinstaubfraktionen PM1/PM2,5/PM10 am **entladenen** Medium mit realem Aussenluftaerosol.
+  Der gängige Orientierungswert lautet **F7 → ePM1 ≥ 50 %**, aber der FGK-Status-Report 44
+  (Nr. 291, 10/2020) gibt ihn ausdrücklich nur als Übergangshilfe heraus: «Eine einfache
+  begründete Übersetzung von alten auf neue Klassen scheitert aufgrund der unterschiedlichen
+  Bewertungsmethodik.» Real streuen früher als F7 klassierte Filter nach ISO-16890-Prüfung
+  **von ePM2,5 60 % bis ePM1 65 %**, also über zwei Fraktionsklassen — eine 1:1-Ersetzung kann
+  je nach Produkt **strenger oder milder** ausfallen als die ursprüngliche Anforderung.
+  **Richtig ist**, die ISO-16890-Klasse samt geforderter Effizienz aus der Anwendungsnorm
+  herzuleiten (ODA-Kategorie am Standort → SUP-Kategorie im Raum), nicht über eine
+  Umrechnungstabelle. Ob **SIA 382/1:2025** die ISO-16890-Klassen normativ vorschreibt und mit
+  welcher ODA/SUP-Systematik, ist **nicht verifiziert** (Normtext kostenpflichtig, QUESTIONS
+  E-122-2).
   - Materialvorgaben Lufterdregister (HDPE/Beton statt PVC, glattwandig, Gefälle > 1 %, Radon-Dichtheit) sind eine konkrete, seltene Detailtiefe, die in der übrigen KB (Komfortlüftung-Artikel) so nicht dokumentiert ist — für ein Healthcare-Projekt mit Erdregister direkt verwertbar.
   - Vermeidungsgebot für Brandschutzklappen («wenn möglich vermeiden, sonst jederzeit zugänglich») ist ein planerisch relevanter Grundsatz für die Kanalführung durch Brandabschnitte — Schnittstelle zum Skill `brandschutz`, dort nur verweisen.
   - Messpflichten (WRG-Temperaturänderungsgrad, Luftmengen bei Abnahme, Kanaldichtheit vor dem Isolieren) sind eine gute Vorlage für ein eigenes Abnahme-/Messkonzept in der Ausschreibung (BKP 244/246).

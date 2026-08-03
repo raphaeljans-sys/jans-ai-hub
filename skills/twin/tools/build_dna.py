@@ -33,6 +33,18 @@ FACETTEN = [
 BEGIN = "<!-- BEGIN AUTO: facetten -->"
 END = "<!-- END AUTO: facetten -->"
 
+# --- Wachstums-Riegel (03.08.2026, Grundkontext-Diaet Runde 2) --------------------
+# Der Auto-Block wird von JEDER Session geladen (Grundkontext ueber den @-Import in
+# CLAUDE.md). Am 03.08.2026 waren das allein auf dem MacBook Pro 111 Sessions; der
+# Block war unbemerkt von 15.4 kB (19.07.) auf 28.5 kB gewachsen, weil er ohne jede
+# Obergrenze kompiliert wurde und `twin-fidelity-review` taeglich laeuft.
+# Dieser Riegel kuerzt NICHTS von selbst — er bricht ab und verlangt eine
+# Entscheidung. Blindes Truncaten waere hier falsch: die Do/Don't-Bloecke sind
+# nahezu reine Regel, kaum Beleg-Prosa (geprueft 03.08.2026).
+# Wer die Grenze anhebt, hebt die Fixkosten JEDER Session — bewusst tun.
+MAX_AUTO_BYTES = 30000        # harte Obergrenze des kompilierten Blocks
+WARN_AUTO_BYTES = 24000       # ab hier warnen, damit es nicht erst am Anschlag auffaellt
+
 # matcht "## Do / Don't ..." bis zur naechsten H2 (##) oder Dateiende; tolerant ggue. Apostroph
 DODONT = re.compile(r"^##\s*Do\s*/\s*Don.?t.*?$(.*?)(?=^##\s|\Z)", re.M | re.S)
 
@@ -65,6 +77,32 @@ def main() -> int:
         print(f"FEHLER: Sentinels nicht in {DNA} gefunden.", file=sys.stderr)
         return 2
     auto = build_auto()
+
+    # Wachstums-Riegel: NIE still wachsen lassen (siehe Kommentar bei MAX_AUTO_BYTES)
+    groesse = len(auto.encode("utf-8"))
+    if groesse > MAX_AUTO_BYTES:
+        print(
+            f"ABBRUCH: Auto-Block waere {groesse} B gross, Obergrenze ist {MAX_AUTO_BYTES} B.\n"
+            f"  jans-dna.md wird von JEDER Session geladen — dieser Block ist Fixkosten.\n"
+            f"  Nichts geschrieben. Entscheide bewusst:\n"
+            f"  (a) einen Facetten-Block in wissen/twin/wiki/ verdichten (Regeln behalten,\n"
+            f"      Beleg-Prosa und abgeloeste Zwischenregeln in den Artikel-Fliesstext), oder\n"
+            f"  (b) MAX_AUTO_BYTES hier bewusst anheben und die Mehrkosten akzeptieren.\n"
+            f"  Groesse je Facette:",
+            file=sys.stderr,
+        )
+        for slug, titel in FACETTEN:
+            f = WIKI / f"{slug}.md"
+            n = len(extract_block(f.read_text(encoding="utf-8")).encode("utf-8")) if f.exists() else 0
+            print(f"    {n:7d} B  {titel}", file=sys.stderr)
+        return 3
+    if groesse > WARN_AUTO_BYTES:
+        print(
+            f"WARNUNG: Auto-Block {groesse} B, Obergrenze {MAX_AUTO_BYTES} B "
+            f"({MAX_AUTO_BYTES - groesse} B Reserve). Verdichten einplanen.",
+            file=sys.stderr,
+        )
+
     new = re.sub(
         re.escape(BEGIN) + r".*?" + re.escape(END),
         f"{BEGIN}\n{auto}\n{END}",

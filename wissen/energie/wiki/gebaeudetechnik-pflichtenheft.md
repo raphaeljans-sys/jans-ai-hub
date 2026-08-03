@@ -83,11 +83,11 @@ zu protokollieren.**
 
 | Gegenstand | Vorgabe | Quelle |
 |---|---|---|
-| Feuerungen | Konformitätsnachweis nach LRV bis **350 kW**, darüber Abnahmemessung | [[ahb-zuerich-gt-rl3-heizungsanlagen]] |
+| ~~Feuerungen~~ | ~~Konformitätsnachweis nach LRV bis **350 kW**, darüber Abnahmemessung~~ — **entfallen, siehe Aktualitätsprüfung unten** | [[ahb-zuerich-gt-rl3-heizungsanlagen]] |
 | Wärmepumpen/Kältemaschinen | **JAZ für das Gesamtsystem inkl. Förderenergie** dokumentieren UND messtechnisch überprüfen, Systemgrenze ausweisen | RL1, RL3, RL4 |
 | Kälteanlagen ab 5 kW | eigener Strom- und Impulszähler | [[ahb-zuerich-gt-rl4-raumkuehlung]] |
 | Lüftung | WRG-Temperaturänderungsgrad bei jeder Anlage nachmessen; Kanaldichtheit **vor dem Isolieren** prüfen | [[ahb-zuerich-gt-rl5-lueftungsanlagen]] |
-| Beleuchtung | Nachweis nach SIA 380/4, ab ca. 5 Mio. CHF Bausumme **dreistufig** (Projekt / Ausschreibung / Übergabe) | [[ahb-zuerich-gt-rl8-beleuchtung]] |
+| Beleuchtung | Nachweis (2008: SIA 380/4 — **heute SIA 387/4:2023**), ab ca. 5 Mio. CHF Bausumme **dreistufig** (Projekt / Ausschreibung / Übergabe) | [[ahb-zuerich-gt-rl8-beleuchtung]] |
 | Betrieb | **1-2 Jahre fachliche Nachbetreuung (Betriebsoptimierung) nach Inbetriebsetzung** | [[ahb-zuerich-gt-rl1-planungsgrundlagen]] |
 
 **Bauherren-Transfer:** Die JAZ-Messpflicht und die Betriebsoptimierung sind die zwei Punkte, die
@@ -190,6 +190,32 @@ Ehrlich abzugrenzen, damit der Artikel nicht mehr verspricht als er hält:
   [[energiemonitoring-submetering-grossverbraucher-zh-sz]]. Übertragbar bleibt die
   USV-Batterie-Raumtemperatur von **22-25 °C** (höhere Temperatur verkürzt die Lebensdauer
   erheblich) und die 20-30 % Platzreserve in Schaltgerätekombinationen.
+
+## Aktualitätsprüfung der zitierten Normen (Run 122, 03.08.2026)
+
+Weil die Quellen 18 Jahre alt sind, wurde nicht ein Refuter-Panel auf den Altstand gefahren
+(das hätte nur bestätigt, dass 2008 korrekt wiedergegeben ist), sondern eine
+**Aktualitätsprüfung**: Was gilt heute an Stelle des Zitierten? Die vier folgenden Punkte sind
+nicht bloss gealtert, sie sind **inhaltlich falsch geworden** und dürfen aus diesem Block nicht
+mehr übernommen werden.
+
+| Zitat 2008 | Status heute | Folge |
+|---|---|---|
+| **Art. 20a LRV**, Konformitätsnachweis bis 350 kW | **Aufgehoben** per 01.01.2022 (V vom 20.10.2021, AS 2021 632) — am Fedlex-Volltext SR 814.318.142.1, Stand 01.01.2026, selbst verifiziert | Die Pflicht existiert nicht mehr. Emissionsbegrenzung und Feuerungskontrolle bleiben; weggefallen ist die produktrechtliche Schwelle |
+| **SIA 380/4:2006** als Nachweisweg | **Archiviert**, gültig gewesen bis 31.07.2019 (an der SIA-Shop-Produktseite selbst verifiziert); nicht ersetzt, sondern **aufgeteilt** in SIA 387/4:2023 (Beleuchtung), SIA 2056:2019, SIA 382/2 | Es gibt keine «aktuelle SIA-380/4-Fassung». Die MINERGIE-¾-Skala hat keine Bezugsgrösse mehr. Tool energycodes.ch tot, Vollzug ZH über **EVEN**, Formular EN-111 |
+| **EN 779:2002**, Filterklasse **F7** | Doppelt überholt (→ EN 779:2012 → **EN ISO 16890** ab 2018). **Methodenwechsel**, keine 1:1-Übersetzung | «F7» gehört nicht mehr in einen Ausschreibungstext. Orientierung ePM1 ≥ 50 %, aber reale Spreizung ePM2,5 60 % bis ePM1 65 % — Klasse aus der Anwendungsnorm herleiten (ODA → SUP) |
+| **H-FKW R134a / R410A / R407C** als «bevorzugt» | **ChemRRV**: alle drei liegen über der GWP-Schwelle 750 und sind für neue Wärmepumpen und neue Gebäudekühlanlagen **nicht mehr zulässig** | Aus einer Bauherren-Empfehlung ist geltendes Recht geworden — und zwar strenger, als die Quelle es meinte. Bestandsanlagen laufen weiter, Frischware für GWP ≥ 2500 ist seit 2027 nicht mehr zulässig, für 750-2500 ab 2032 nur noch regeneriert |
+
+Nur gealtert, aber weiter zitierbar mit korrekter Ausgabe: **SIA 180:1999 → SIA 180:2014**
+(Korrigenda C1:2015/C2, Auslegungshilfe SIA 4001:2022) · **SIA 382/1:2007 → 2014 → 2025**
+(neuer Titel «Mechanische Lüftung in Gebäuden», daneben neu SIA 382/5:2025 für Wohnbauten) ·
+**DIN V 4279-7 zurückgezogen**, für Erdwärmesonden gilt in der Schweiz **SIA 384/6:2021**.
+
+⚠ **Ziffern-Vorbehalt.** Bei SIA 382/1 und SIA 180 ist jeweils nur der **Normstatus** verifiziert,
+**nicht die Kontinuität der Ziffernnummern**. Die im 2008er-Dokument zitierten Fundstellen
+(SIA 382/1 Ziff. 4.4.4 Kühlbedarfsnachweis, 4.3, 5.6, 5.10-5.12; SIA 180 Ziff. 3.3.1.2) sind
+über zwei Ausgabenwechsel und eine Titeländerung hinweg **nicht als stabil anzunehmen** und vor
+Verwendung am geltenden Normtext nachzuschlagen. Die Normtexte sind kostenpflichtig.
 
 ## Offene Punkte
 

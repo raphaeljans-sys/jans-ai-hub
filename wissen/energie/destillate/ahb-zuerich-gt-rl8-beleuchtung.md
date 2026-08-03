@@ -3,7 +3,7 @@ quelle: "Richtlinie GT Beleuchtung (GT_RL8_Beleuchtung_V21.pdf) — SharePoint P
 herausgeber: "Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, Lindenhofstrasse 21, Postfach, 8021 Zürich"
 ausgabe: "Version 2.1, Juli 2008 (freigegeben durch die Geschäftsleitung AHB am 18.06.2008; Richtlinien Gebäudetechnik ursprünglich in Kraft gesetzt 04.05.2004)"
 gelesen: "Seiten 1-4 (vollständiges Dokument), 2026-08-03"
-datenstand: "2008 ⚠ Alterskorpus, Zahlenwerte vor Verwendung gegen geltende Fassung pruefen — Dokument ist 18 Jahre alt, referenzierte Normen (SIA 380/4:2006, EN 12464-1, NIN 2005, SN EN 1838/50171) koennen in aktuellerer Ausgabe vorliegen; MINERGIE-Systematik seither mehrfach revidiert"
+datenstand: "2008 ⚠⚠ Alterskorpus mit einem belegten Totverweis (Aktualitaetspruefung Run 122, 03.08.2026): **SIA 380/4:2006 ist archiviert (gueltig bis 31.07.2019)** und wurde aufgeteilt — fuer Beleuchtung gilt heute **SIA 387/4:2023 (gueltig ab 01.08.2023)**, daneben SIA 2056:2019. Damit hat die im Dokument beschriebene **MINERGIE-Skala «drei Viertel zwischen Grenzwert und Zielwert SIA 380/4» keine gueltige Bezugsgroesse mehr und ist nicht mehr rechenbar**. Das Nachweistool www.energycodes.ch ist nicht mehr erreichbar; im Kt. Zuerich laeuft der Nachweis Beleuchtung seit 01.01.2026 ueber Formular EN-111 auf der Plattform EVEN. Ebenfalls ueberholt: die Lampentechnik (Long-Life-Leuchtstoffroehren T8/T5, «Halogen vermeiden») ist vor-LED. Gueltig bleibt die Steuerungslogik nach Raumtyp. Weitere Normverweise (EN 12464-1, NIN 2005, SN EN 1838, SN EN 50171) koennen in neuerer Ausgabe vorliegen"
 status: emerging
 last_updated: "2026-08-03 (Run 122)"
 ---

@@ -219,6 +219,14 @@ Kommunikationsanlagen (Gegensprech-/Tür-Rufanlagen) zusätzlich optische Anzeig
 | Bedienungselemente (Griffe/Schalter/Steckdosen) | min. 0.85 m, max. 1.10 m ab Boden, min. 0.40 m ab Raumecke | BKZ Checkliste 1.7 |
 | Küchen-Arbeitsfläche (ZHB) | Höhe **max. 82–83 cm**; unterfahrbare Zone min. **80 cm breit × 50 cm tief × 70 cm hoch**; Nutzhöhe bis ca. 140 cm; Bewegungsfläche min. 170 × 140 cm | ZHB-Handbuch **Kap. 6 «Küchen»** (S. 30-31) |
 | Arbeitsflächen/Tische allgemein (ZHB) | Höhe 72–76 cm; Unterfahrbarkeit min. 70 cm hoch × 60 cm tief × 80 cm breit | ZHB-Handbuch **Kap. 7 «Diverses»** (S. 32) |
+
+*Berichtigt Wissens-Chef Run 23 (03.08.2026): Die Zeile «Küchen-Arbeitsfläche» führte die Werte
+72–76 cm und 70/60/80, die zu Kap. 7 «Arbeitsflächen und Tische» gehören, nicht zu Kap. 6
+«Küchen». Beide Zeilen jetzt getrennt und der Kapitelbezug richtiggestellt; Beleg
+`wissen/normen/destillate/zhb-2005-mindestanforderungen-hindernisfreies-bauen.md` (Kap. 6, S. 30-31
+gegen Kap. 7, S. 32). Im selben Zug gestrichen: die Behauptung, die BKZ sei «seit 2005
+Rechtsnachfolgerin der Schweizerischen Fachstelle für behindertengerechtes Bauen» — die eigene
+Quelle (Merkblatt 13/05, S. 4) widerlegt sie, dort koordiniert die Fachstelle weiterhin selbst.*
 | Küche Kochherd/Spülbecken-Abstand zur Ecke (ZHB) | min. **25 cm** | ZHB-Handbuch Kap. 6 |
 | Bedienungselemente allgemein (ZHB) | min. 90 cm, max. 140 cm, **empfohlen 100 cm** ab Boden; Freiraum vor Automaten min. 140 × 170 cm | ZHB-Handbuch Kap. 7 |
 | Bodenbeläge — Stegroste/Gitterroste | Schlitzbreite max. 16 mm, Maschenweite Gitterrost max. 10 × 30 mm | ZHB-Handbuch Kap. 7 |

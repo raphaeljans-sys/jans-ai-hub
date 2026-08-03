@@ -94,7 +94,13 @@ Eigene Einordnung, nicht Teil des Originaldokuments:
   - Der **ewz-Wärmepumpentarif** mit separatem Stromzähler ab Hauptverteilung ist ein Zürcher-Stadtwerk-spezifisches Anreizsystem; für Projekte ausserhalb des ewz-Netzgebiets ist stattdessen der lokale Netzbetreiber-Tarif zu prüfen (vgl. KB-Destillate zu Wärmepumpen-Sperrzeiten/Netzbetreiber-Tarifen).
   - Das **«Behördenmodell»** für Thermostatventile in öffentlichen/halböffentlichen Räumen ist eine städtische Beschaffungs-/Ausstattungsnorm ohne bekannten Inhalt in diesem Dokument — bei Bedarf beim AHB nachfragen, nicht raten.
   - Die **Raumtemperatur-Richtlinie StRB 1194/2006** gilt nur für städtische Gebäude; für private Bauten sind die Raumtemperaturen frei vereinbar bzw. nach SIA 380/1 zu führen (dort in der KB bereits destilliert, vgl. `sia-380-1-heizwaermebedarf-berechnung.md`).
-- **Zugewinn gegenüber Bestand:** Die KB kennt bereits die Ersatzpflichten für Öl-/Gas-/Elektroheizungen (`oelheizung-gasheizung-ersatzpflicht-zh-sz`, `elektroheizungs-ersatzpflicht-zh-sz`) und die JAZ/COP-Grundlagen (`cop-scop-jaz-waermepumpe-gruenenwald`, `fawa-jaz-feldanalyse-waermepumpen`). Dieses Dokument überschneidet sich damit thematisch, liefert aber den **echten Zugewinn** in Form konkreter **Auslegungs-, Mess- und Ausrüstungsvorgaben eines grossen professionellen Bauherrn** — insbesondere die 350-kW-Schwelle für die LRV-Konformitätsnachweispflicht (Art. 20a LRV), die Druckverlust-/Kältemittelinhalt-Vorgaben für Wärmepumpen, das Verbot träger Fussbodenheizung bei schwankenden internen Lasten und die Kopplung von Zonenlast an separate Verteilgruppen. Diese Detailtiefe fehlte bisher in der KB.
+- **Zugewinn gegenüber Bestand:** Die KB kennt bereits die Ersatzpflichten für Öl-/Gas-/Elektroheizungen (`oelheizung-gasheizung-ersatzpflicht-zh-sz`, `elektroheizungs-ersatzpflicht-zh-sz`) und die JAZ/COP-Grundlagen (`cop-scop-jaz-waermepumpe-gruenenwald`, `fawa-jaz-feldanalyse-waermepumpen`). Dieses Dokument überschneidet sich damit thematisch, liefert aber den **echten Zugewinn** in Form konkreter **Auslegungs-, Mess- und Ausrüstungsvorgaben eines grossen professionellen Bauherrn** — insbesondere die Druckverlust-/Kältemittelinhalt-Vorgaben für Wärmepumpen, die **JAZ-Messpflicht für das Gesamtsystem inklusive Förderenergie mit ausgewiesener Systemgrenze**, das Verbot träger Fussbodenheizung bei schwankenden internen Lasten und die Kopplung von Zonenlast an separate Verteilgruppen. Diese Detailtiefe fehlte bisher in der KB.
+
+  ⚠ **Zurückgenommen (Run 122):** Ursprünglich stand hier die 350-kW-Schwelle der
+  LRV-Konformitätsnachweispflicht (Art. 20a LRV) an erster Stelle des «echten Zugewinns».
+  Genau diese Aussage ist heute **nicht mehr gültig** — Art. 20a LRV ist seit 01.01.2022
+  aufgehoben (siehe Korrekturvermerk oben). Der Zugewinn dieses Destillats liegt damit
+  ausschliesslich bei den Auslegungs- und Messvorgaben, nicht bei der Rechtsschwelle.
 
 ## Offene Punkte
 

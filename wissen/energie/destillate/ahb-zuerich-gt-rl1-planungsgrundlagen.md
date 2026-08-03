@@ -3,7 +3,7 @@ quelle: "Richtlinie^GT Planungsgrundlagen — SharePoint PL - 02_Recht_Norm/04_M
 herausgeber: "Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, Lindenhofstrasse 21, Postfach, 8021 Zürich"
 ausgabe: "Version 2.1, Juli 2008 (Richtlinien Gebäudetechnik ursprünglich am 4. Mai 2004 durch die Geschäftsleitung AHB in Kraft gesetzt, periodisch überarbeitet; vorliegende Version durch die Geschäftsleitung AHB freigegeben)"
 gelesen: "Seiten 1-6, vollständiges Dokument (Titelblatt/Inhalt Seite 1, Inhaltsseiten Seite 2/6 bis 6/6), 2026-08-03"
-datenstand: "2008 (Version 2.1) — ⚠ Alterskorpus, Zahlenwerte vor Verwendung gegen geltende Fassung pruefen (insbesondere die politischen Vorgaben in Abschnitt 2.2 und die Normverweise auf SIA 180/SIA 382/1:2007 sind mit hoher Wahrscheinlichkeit durch neuere Fassungen abgelöst)"
+datenstand: "2008 (Version 2.1) — ⚠ Alterskorpus. Praezisiert durch die Aktualitaetspruefung Run 122 (03.08.2026): **SIA 180:1999 → SIA 180:2014** (gueltig ab 01.07.2014, Korrigenda C1:2015/C2, Auslegungshilfe SIA 4001:2022) — Normnummer stimmt, Ausgabe nicht, die zitierte Ziffer 3.3.1.2 ist ohne Nachschlagen am geltenden Text keine gueltige Fundstelle. **SIA 382/1:2007 → SIA 382/1:2025**. **Die Kesselwirkungsgrad-Schwelle 350 kW stuetzt sich auf Art. 20a LRV, der seit 01.01.2022 aufgehoben ist** (siehe ahb-zuerich-gt-rl3-heizungsanlagen). Die politischen Zielwerte in Abschnitt 2.2 stammen aus den Legislaturzielen 2006-2010 und sind vom heutigen Recht ueberholt"
 status: emerging
 last_updated: "2026-08-03 (Run 122)"
 ---
