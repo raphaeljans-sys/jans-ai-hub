@@ -246,6 +246,29 @@ Farbklassierung und die Sichtkontrolle entscheidet.
 Eine ausgewiesene Lücke ist ein offener Auftrag; eine halbrichtig abgeschriebene Normtabelle
 ist ein Planungsfehler mit Quellenschein.
 
+### Methodik-Pflicht 9 — Befunde INLINE korrigieren, nicht nur anhängen
+
+Aus Run 43 (04.08.2026). Ein angehängter Verifikationsabschnitt dokumentiert den Befund, aber
+er **entfernt die widerlegte Aussage nicht**. Wer ein Destillat von oben liest, trifft zuerst
+auf den Fehler und liest die Korrektur womöglich nie.
+
+> Wird ein Kernbefund übernommen, ist die betroffene Stelle im **Fliesstext selbst** zu
+> korrigieren oder sichtbar zu markieren. Der Verifikationsabschnitt trägt die Begründung und
+> die Fundstelle, nicht die Korrektur allein.
+
+**Beleg, warum das eine eigene Pflicht ist:** Genau diese Mechanik hat in Run 42 beim
+Absturzsicherungs-Destillat zugeschlagen — der Fliesstext hatte die Kugelprobe/Lichtmass-Regel
+richtig, die vorangestellte Kurzfassung falsch, und zitiert wurde die Kurzfassung. In Run 43
+mussten deshalb neun Stellen nachträglich inline korrigiert werden (l1-Definition und E-Modul
+der Kalksandstein-Bemessung, der BKP-Code an zwei Stellen, die SIA-244-Tabellenzuordnung, die
+Verlegetoleranz, die 5-m-Leiterregel, das Dachhaken-Raster, die 8,5-m-Reichweite).
+
+**Zusatz aus demselben Lauf — die Prüfschärfe auch nach innen richten.** Fünf Läufe lang haben
+Refuter Normwerte gegen Originale geprüft, während die Hub-eigene BKP-Schnellreferenz einen
+Code führte, den das BKP 2017 **nicht kennt** (271.10 statt 271.0), und ihn in fünfzehn Dateien
+verteilte. Ein Schnellreferenz-Block ist eine **Abschrift** und damit genauso prüfbedürftig wie
+jede Sekundärquelle; im Streitfall gilt der systematische Teil, und darüber das Original-PDF.
+
 ### Methodik-Pflicht 6 — Abdeckung messen, nicht nur Behauptungen prüfen
 
 Aus Run 38, gilt für jede Retro-Verifikation: Eine Runde, die nur prüft, ob stimmt, **was das

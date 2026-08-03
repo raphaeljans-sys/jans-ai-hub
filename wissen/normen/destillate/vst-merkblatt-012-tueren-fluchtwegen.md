@@ -95,3 +95,28 @@ Zitierte Artikel (VKF-Norm, in Kraft seit 1.1.2005, alte Nummerierung Art. 37/47
 - Anhang I referenziert eine ältere VKF-Normfassung (Art. 37/47/48, Stand 2005/2009) — Abgleich mit der aktuellen VKF-Brandschutznorm 1-15:2015 und BRL 16-15:2015 wurde in diesem Destillat nicht Artikel-für-Artikel vorgenommen; bei rechtsverbindlichen Aussagen ist die aktuelle Norm/Richtlinie massgebend, nicht dieses Merkblatt
 - prEN 13633/prEN 13637 waren zum Publikationszeitpunkt (2009) noch Norm-Entwürfe («pr» = proposal) — Status der definitiven EN-Fassungen nicht verifiziert, bei aktuellen Ausschreibungen die gültige EN-Bezeichnung prüfen
 - Bild-/Grafikinhalte (Piktogramm Abb. 1, Drückerabmessungen Ziff. 6.1, Bedienkraft-Skizzen Bild 1-3, Funktionsschemata B-E, Fotos Ziff. 9) nicht im Detail wiedergegeben (Urheberrecht) — bei Detailfragen Original konsultieren
+
+---
+
+## ⚠ Vermerk Run 43 (04.08.2026) — Druckfehler der Quelle bei den Bedienkräften
+
+Beim Vergleich mit der **SMU-Ko-Ausgabe desselben Merkblatts**
+([[smu-merkblatt-004-tueren-in-fluchtwegen]], Quelle `Merkblatt-TK004_Fluchtwege_DE.pdf`) ist
+ein Unterschied im Vergleichsoperator aufgefallen. Vom Hauptprozess an **beiden** Originalen
+nachgelesen:
+
+- `Merkblatt_012_d.pdf` (diese Quelle) druckt für SN EN 1125: **F ≥ 80 N · F ≥ 100 N ·
+  F ≥ 220 N**.
+- Die SMU-Ausgabe druckt an derselben Stelle: **F ≤ 80 N · F ≤ 100 N · F ≤ 220 N**, und
+  zusätzlich für SN EN 179 **F ≤ 70 N** und **F ≤ 87,5 N**.
+
+**Sachlich richtig ist «≤».** Eine Bedienkraft ist eine Obergrenze; eine Fluchttür, die
+*mindestens* 220 N verlangt, wäre das Gegenteil des Schutzziels «Öffnen mit einer einzigen
+Handbewegung». Der Druckfehler steckt somit **in dieser Quelle**, und die SMU-Ko-Ausgabe hat
+ihn korrigiert.
+
+Dieses Destillat hat seine Quelle korrekt abgeschrieben — es ist kein Destillatfehler. Die
+Werte sind aber **nur mit «≤» weiterzuverwenden**; die bisherigen Angaben «F ≥ …» und die
+beiden operatorlosen EN-179-Werte sind entsprechend zu lesen. Ein Beleg dafür, dass zwei
+Ausgaben derselben Verbandspublikation nicht wortgleich sind, und ein Argument dafür, die
+beiden Destillate vor einer allfälligen Zusammenführung **nebeneinander** zu halten.

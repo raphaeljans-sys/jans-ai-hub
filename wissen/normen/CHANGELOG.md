@@ -1,3 +1,43 @@
+## 2026-08-04 (Normen-Training Run 43, MacBook Pro) — 5 Widerlegungs-Pruefungen, SWKI- und SIA-500-Anhaenge, BKP-Fehler in der Hub-Referenz
+
+- **Fuenf Erstdestillate des Run 42 unabhaengig refuter-geprueft — alle fuenf BEANSTANDET**
+  (CRB-Merkblatt 16 D/06, Kalksandstein-Bemessung, SVDW-Wegleitung Gartenplatten,
+  SMU-Merkblatt 004, AUVA-Planungshilfe): zusammen **38 Kernbefunde**, alle eingearbeitet,
+  Statusfelder und INDEX-Zeilen nachgefuehrt. Damit sind alle Positionen des
+  PL-02-Kern-Nachtrags mit Status versehen und die dringlichsten drei nach Schadenspotenzial
+  geprueft.
+- **Vier Befunde vom Hauptprozess am eigenen Rendering selbst nachgelesen:** die
+  Streiflicht-Vorbehalte des CRB-Merkblatts (Ziff. 3.4/4.4/5.2), `l1 = 0.6 x 5.0` in Beispiel 2
+  der Kalksandstein-Bemessung, SIA 244 Tab. 4 (Mindest-PLATTENbreiten, keine Bettungsmasse) und
+  der Vergleichsoperator der Bedienkraefte in beiden Tueren-Merkblatt-Ausgaben.
+- **Gefaehrlichster Einzelbefund:** Die Kalksandstein-Bemessung setzte `l1` mit der
+  Deckenspannweite gleich. Real gilt l1 = l / 0.8 l / **0.6 l bei Zwischenwaenden**, und l1 geht
+  in **dritter Potenz** ein — Fehlerfaktor rund **4.6**. Destillat traegt jetzt den Vermerk
+  «nicht als Bemessungsgrundlage verwenden, bis nachgetragen».
+- **Befund mit Reichweite ueber diese KB hinaus: BKP 271.10 existiert im BKP 2017 nicht.**
+  Am Original zweifach nachgezaehlt (271.0 / 271.1 / 271.2, keine zweistelligen
+  Nachkommastellen in der ganzen Gliederung). Die Hub-Referenzliste widersprach sich selbst —
+  ihr systematischer Teil fuehrte 271.0 korrekt, ihr Schnellreferenz-Block 271.10. **Korrigiert
+  in `references/bkp-2017/BKP-2017-Liste.md` und Rule `bkp-2017-referenz.md`**; die Streuung lag
+  bei 15 Hub-Dateien, 13 davon bleiben nachzuziehen (Ticket N43-1).
+- **`destillate/swki-va103-01-2017.md`:** Anhaenge D (Anwendungsbeispiele), E
+  (Simulationsnachweis) und F eingearbeitet — der laengste inhaltliche Rueckstand dieser KB ist
+  geschlossen (Ticket S42-1). Kern: Reduktion auf minimal **70 %**, CFD zwingend, RANS statt LES.
+- **`destillate/sia-500-2009.md`:** Anhang E vollstaendig (E.3/E.4/E.5, Ticket K42-4b); die
+  Seitenspanne des Anhangs am Original korrigiert (S. 48-55 statt 42-60).
+- **`destillate/vst-merkblatt-012-tueren-fluchtwegen.md`:** Vermerk zum **Druckfehler der
+  Quelle** — sie druckt `F >= 80/100/220 N`, die SMU-Ko-Ausgabe `F <=`. Das Destillat hat seine
+  Quelle korrekt abgeschrieben; der Fehler steckt im Original.
+- **`destillate/bkz-kontaktseite-website-2012.md`** (neu, im Lauf angelegt): die letzte offene
+  `[ ]`-Position des PL-02-Kerns. Befund: Safari-Ausdruck der BKZ-Kontaktseite vom 13.07.2012,
+  **kein normativer Inhalt** — am Volltext des Hauptprozesses gegengeprueft.
+- **Neun Stellen zusaetzlich INLINE korrigiert**, nicht nur im angehaengten Pruefabschnitt:
+  ein Verifikationsanhang allein laesst den widerlegten Satz im Fliesstext stehen, und der wird
+  zuerst gelesen.
+- `training/norm-inventar.md` (5 Zeilen auf `[x] 260804`, Fussnote neu gefasst) ·
+  `destillate/INDEX.md` (7 Zeilen) · `wiki/QUESTIONS.md` (3 Punkte geschlossen, 6 neu offen) ·
+  Report `outputs/2026-08-04_normen-nacht-run43.md`.
+
 ## 2026-08-04 — PL-02-Kerninventar vollständig: letzte offene Position destilliert (BKZ-Ordner)
 
 - **`destillate/bkz-kontaktseite-website-2012.md`** — neu. Quelle: `06_Richtlinien/BKZ/BKZ -

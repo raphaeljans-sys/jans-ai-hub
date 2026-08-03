@@ -4,7 +4,7 @@ herausgeber: "Technische Kommission Flachdach des SVDW (Schweizerischer Verband 
 ausgabe: "«Wegleitung für Gartenplatten und Verbundsteine auf Balkonen oder Terrassen», Booklet-Seiten 1-15 (Titel/Inhaltsverzeichnis + Kapitel 1-3); kein Ausgabedatum am Dokument erkennbar. Zusätzlich als letzte PDF-Scanseite angehängt: ein Fremd-Auszug aus SIA 244 «Naturstein- und Kunststeinplatten» (© 2006 SIA Zürich), dessen eigene Seite 11 (Ziff. 2.5.4-2.6.4, Tabellen 2-4) — eigenständiges Dokument, nicht Teil der SVDW-Wegleitung, aber in derselben PDF-Datei mitgescannt"
 gelesen: "Run 42 (030826): alle 9 PDF-Scanseiten (= Booklet-Seiten 1-15 der Wegleitung plus die angehängte SIA-244-Seite) einzeln über den Read-Tool visuell gerendert und Volltext abgelesen — das Dokument hat keinen Textlayer, jede Aussage stammt aus dem Bild, keine Textextraktion. Tabellen (Herstellertoleranzen S. 13-14, Tabelle 2-4 auf der SIA-244-Anhangseite) einzeln als eigene Seite nachgerendert, um Zellzuordnung visuell statt per Extraktion zu sichern"
 datenstand: "kein Ausgabedatum am SVDW-Dokument selbst; angehängter SIA-244-Auszug datiert 2006 (Copyright-Vermerk in der Fusszeile)"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
+status: "speculative (Erstdestillat Run 42; Run 43 04.08.2026 unabhaengige Widerlegungs-Pruefung, VERDIKT BEANSTANDET — 8 Kernbefunde + 16 Nebenbefunde, alle eingearbeitet. K2 vom Hauptprozess am eigenen Rendering bestaetigt: SIA 244 Tab. 4 fuehrt MINDEST-PLATTENBREITEN je Plattendicke (20 mm/300 mm, 30 mm/200 mm, 40 mm/150 mm), keine Bettungsmasse; zwei Tabellenzeilen fehlten ganz. Ferner: Mindestgefaelle-Fallback ueber offene Fugen, Verlegetoleranz war Setzungs- und nicht Einbautoleranz, Pruefverfahren 2 m Betrachtungsabstand. Fundstellen waren systematisch um eine Seite verschoben — korrigiert auf Booklet-Zaehlung. Datierung weiterhin offen, harte Obergrenze Scan 19.02.2013.)"
 last_updated: 2026-08-03
 links: [[REGISTER]]
 ---
@@ -73,7 +73,7 @@ Originalwerten der Norm selbst unterlegt.
   Schub- und Drehkräfte gleichmässig über alle vier Plattenseiten und reduziert die
   Geräuschentwicklung; optimale Stabilität erst ab erhöhter Plattendicke (grössere
   Stützfläche zwischen den Platten) (S. 8).
-- **Verlegetoleranz**: Höhendifferenz zwischen benachbart verlegten Platten max. 2-3 mm,
+- **Verlegetoleranz** ⚠ *korrigiert Run 43*: beim Einbau verlangt die Wegleitung **ebenbündige** Verlegung. Die 2-3 mm sind die Höhendifferenz, die durch **spätere Setzungen** entstehen darf — keine Einbautoleranz. Höhendifferenz zwischen benachbart verlegten Platten max. 2-3 mm,
   abhängig von der Plattenqualität (S. 9).
 - **Anschlussplatten**: nicht schmaler als 8 cm; kleinere Anschlussplatten nur an schwach
   belasteten Stellen; Zurückschneiden ganzer Platten zugunsten grösserer Anschlussplatten wird
@@ -141,7 +141,7 @@ Seitenzahl 11 im Original). Er enthält (paraphrasiert, keine Wortlaut-Übernahm
   min. 60 mm mit Bodenheizung bzw. 40 mm ohne.
 - **Tabelle 4 «Konstruktionsdicke für begehbare Bodenbeläge im Aussenbereich»**: unterscheidet
   ungebunden/lose verlegt gegenüber gebunden/in Mörtel verlegt, je nach Plattenformat und
-  -dicke (20/30/40 mm) Mindestbreiten der Bettung bzw. Mörtelbettdicken 20-100 mm.
+  -dicke (20/30/40 mm) **Mindestbreiten der PLATTE** — 20 mm/300 mm, 30 mm/200 mm, 40 mm/150 mm; ⚠ **korrigiert Run 43, am Original bestätigt: es sind KEINE Bettungsmasse.** Dieselbe Tabelle führt zusätzlich Seitenverhältnis max. 1:1,5 und die typische Bettungsdicke: ungebunden ≥ 30 mm, gebunden 30-100 mm bei Splittmörtel und 20-50 mm bei Sandmörtel.
 - Ziff. 2.6.3-2.6.4: Aussenbeläge vorzugsweise in Splittmörtel (Sickermörtel) bzw. losem
   Splitt/Sand oder auf Stelzlagern versetzt, Bettungsdicke ca. 50 mm (min. 30 mm);
   Kunststeinplattenbeläge im Aussenbereich können im Mittelbettverfahren geklebt werden, sofern

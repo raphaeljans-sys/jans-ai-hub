@@ -1,5 +1,80 @@
 # Offene Fragen — KB Normen
 
+## Run 43 (04.08.2026) — zwei Rückstände geschlossen, sechs neu offen
+
+### GESCHLOSSEN
+
+- **S42-1 (SWKI VA103-01, Anhänge D/E/F) — geschlossen.** Alle drei Anhänge sind aufgenommen
+  und eingearbeitet. Damit ist der als «dringlichster inhaltlicher Rückstand dieser KB»
+  geführte Simulationsnachweis destilliert: Reduktion des Gesamt-Abluftvolumenstroms **bis
+  auf minimal 70 %** (Ziff. E1.1, S. 95), **CFD zwingend** und Zonenmodelle ausdrücklich
+  ungeeignet, **RANS statt LES**, Dokumentationspflicht mit CO-Verteilung auf 1 m und 2 m
+  Höhe. Der Seitenversatz PDF = Druckseite + 2 wurde von zwei Agenten unabhängig nachgemessen.
+- **K42-4b (SIA 500:2009, Anhang E vollständig) — geschlossen.** E.3, E.4 und E.5 samt
+  vollständigen Positionslegenden aufgenommen. **Nebenbefund mit Korrekturwirkung:** die KB
+  führte Anhang E als «S. 42-60»; am Original umfasst er **S. 48-55** (davor B/C/D, danach ab
+  S. 56 Anhang F). Ein E.6 existiert nicht — die Abdeckung ist damit gemessen, nicht geschätzt.
+- **SMU42-1 (existiert eine an VKF 2015 angepasste Fassung?) — teilweise beantwortet.** Die
+  Fassungszuordnung zur Brandschutznorm vom 26.03.2003 ist belegt (Inkraftsetzung 01.01.2005,
+  zweimal im Dokument; Gegenprobe über die Nummerierung: geltende Norm 1-15 führt den Fluchtweg
+  in Art. 35, das Merkblatt zitiert Art. 37). Das Ausgabedatum ist über die inhaltsgleiche
+  VST-Ausgabe im Bestand als «Erstausgabe 2009, Version 2009_1» belegt — eine Herstelleranfrage
+  ist dafür **nicht** mehr nötig. Offen bleibt allein, ob der Verband inzwischen neu aufgelegt hat.
+
+### NEU OFFEN
+
+- **N43-1 — BKP 271.10 ist kein BKP-2017-Code, und er steckt noch in 13 Hub-Dateien.**
+  Am Original zweifach nachgezählt: unter 271 Gipserarbeiten führt das BKP 2017 nur
+  **271.0 Innenputze**, 271.1 Trockenbauarbeiten, 271.2 Gerüste; zweistellige Nachkommastellen
+  gibt es in der ganzen Gliederung nicht. Korrigiert sind die beiden normativen Quellen
+  (`references/bkp-2017/BKP-2017-Liste.md`, Rule `bkp-2017-referenz.md`) und dieses KB-Destillat.
+  **Nachzuziehen bleiben u.a. `skills/ausschreibung/SKILL.md` und `skills/brandschutz/SKILL.md`**
+  sowie mehrere Destillate und KB-Dateien. Solange sie stehen, erzeugen LV-Titel einen Code,
+  den weder Unternehmer noch Bauherrschaft verifizieren können. **Ausserhalb des Scopes dieses
+  Loops — vorzulegen.**
+- **N43-2 — Dublette SMU 004 / VST 012, Entscheid Raphael.**
+  `smu-merkblatt-004-tueren-in-fluchtwegen` und `vst-merkblatt-012-tueren-fluchtwegen`
+  beschreiben dieselbe Publikation (SMU-Ko-Ausgabe desselben VST-Merkblatts), werden aber mit
+  unterschiedlichem Status (`speculative` / `established`) und unterschiedlicher Tiefe geführt.
+  Zusammenführen ist destruktiv (Rule `wissens-bibliothekar`) und wird deshalb **nur vorgelegt**.
+  Argument dagegen, die beiden zu verschmelzen: siehe N43-3.
+- **N43-3 — die beiden Ausgaben sind NICHT wortgleich (Druckfehler im VST-Original).**
+  Vom Hauptprozess an beiden Originalen nachgelesen: die VST-Fassung druckt die Bedienkräfte
+  nach SN EN 1125 als **F ≥ 80/100/220 N**, die SMU-Fassung als **F ≤ 80/100/220 N**. Sachlich
+  richtig ist «≤» (eine Bedienkraft ist eine Obergrenze; eine Fluchttür, die mindestens 220 N
+  verlangt, wäre das Gegenteil des Schutzziels). Zu klären, ob der Verband den Fehler kennt,
+  und ob weitere Stellen der beiden Ausgaben auseinanderlaufen.
+- **N43-4 — echter Widerspruch Merkblatt gegen geltende VKF, für die Praxis zu entscheiden.**
+  Die Ausnahme von der Fluchtrichtungspflicht lautet im Merkblatt **max. 30 m² UND max. 6
+  Personen**, in der geltenden BRL 16-15 Ziff. 2.5.5 **max. 20 Personen ohne Flächenkriterium**.
+  Das Merkblatt ist strenger. Für JANS-Projekte ist festzulegen, ob dem strengeren
+  Verbandsstandard gefolgt wird oder dem geltenden Recht.
+- **N43-5 — Kalksandstein: drei Bemessungsgrössen sind erst im Prüfabschnitt korrigiert.**
+  l1 (Lagerungsfaktoren), E'c/q_ser,lang und die Diagramm-Transformationen samt Nxo = 100 kN/m¹
+  sind eingearbeitet und die gefährlichsten Stellen inline markiert; **der Kapitelteil zu den
+  Rissweiten-Diagrammen ist aber noch nicht neu geschrieben.** Bis dahin gilt der Vermerk im
+  Statusfeld: nicht als Bemessungsgrundlage verwenden. Ferner ungeprüft: der Wortlaut der
+  SIA 266 selbst (Art. 4.3.1, 4.3.1.3, 4.3.4.3) und der aktuelle Ausgabenstand der SIA 262
+  (das Merkblatt stützt sich auf SIA 262:2003).
+- **N43-6 — SWKI, was Anhang E nicht regelt.** Der Anhang nennt **keine abnehmende oder
+  genehmigende Instanz** für den Simulationsnachweis, keine Qualifikationsanforderung an den
+  CFD-Ingenieur und keine Konvergenzkriterien. Bei einem Nachweis, der den Volumenstrom um bis
+  zu 30 % senkt, ist das die praktisch entscheidende Lücke: zu klären, wer ihn in ZH/SZ prüft.
+
+### Methodische Notiz
+
+Die Regel «eine ausdrückliche Prüfzusicherung im Destillat ist kein Beleg» (Run 42) hat in
+diesem Lauf erstmals ein **Gegenbeispiel** bekommen: beim CRB-Merkblatt hat sich die Zusicherung
+«reiner Fliesstext, kein Rendering notwendig» am 300-dpi-Rendering als zutreffend erwiesen. Die
+Regel bleibt richtig — sie sagt, dass eine Zusicherung geprüft werden **muss**, nicht dass sie
+immer falsch ist.
+
+Zweite Notiz, aus der Arbeit an den fünf beanstandeten Destillaten: Ein angehängter
+Verifikationsabschnitt allein **genügt nicht**. Solange der Fliesstext oben die widerlegte
+Aussage weiterführt, liest ein Nutzer zuerst den Fehler — dieselbe Mechanik wie beim
+Absturzsicherungs-Destillat aus Run 42, wo die Kurzfassung falsch und der Fliesstext richtig
+war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worden.
+
 ## Run 42 (03.08.2026) — neu offen
 
 ### KL Hochbau, Sanitäre Anlagen ([[kl-hochbau-sanitaer-katalogblaetter]])

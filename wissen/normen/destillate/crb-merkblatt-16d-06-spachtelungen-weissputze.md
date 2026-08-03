@@ -4,7 +4,7 @@ herausgeber: "Schweizerische Zentralstelle für Baurationalisierung CRB, Steinst
 ausgabe: "«Merkblätter zum Devisieren Nr. 16 D/06 — Spachtelungen und Weissputze als Untergrund für Beschichtungen und Wandbekleidungen — Oberflächengüte — Hochbau», CRB Zürich, Ausgabe 01/2006 (Januar 2006), 4 Seiten (Fusszeile jeder Seite, z.B. S. 2)"
 gelesen: "Run 42 (030826): alle 4 Seiten per pdftotext -layout vollstaendig gelesen; reiner Fliesstext ohne Tabellen mit verbundenen Zellen oder Farbcodierung, kein Rendering notwendig"
 datenstand: "01/2006 (Januar 2006, CRB Zürich)"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
+status: "speculative (Erstdestillat Run 42; Run 43 04.08.2026 unabhaengige Widerlegungs-Pruefung, VERDIKT BEANSTANDET — 6 Kernbefunde + 8 Nebenbefunde, alle eingearbeitet. KEIN Zahlenwert war falsch; die Befunde betrafen durchwegs FEHLENDE Streiflicht- und Toleranzvorbehalte. K1 und K2 vom Hauptprozess am eigenen Auszug woertlich nachgelesen. Zusatzbefund mit Hub-Reichweite: der hier gefuehrte BKP-Code 271.10 EXISTIERT NICHT, richtig ist 271.0 — Referenzliste und Rule bkp-2017-referenz am 04.08.2026 korrigiert.)"
 last_updated: 2026-08-03
 links: [[REGISTER]]
 ---
@@ -99,7 +99,7 @@ Nur drei Stufen (keine Q1):
   S. 2 und S. 4).
 - **Schichtdicke Vollflächenspachtelung Q4**: bis etwa **3 mm** (Ziff. 3.4, S. 2).
 - **Fünf zugeordnete NPK-Kapitel**: 643, 651, 671, 675, 676 (Ziff. 1, S. 1) — direkter Bezug
-  zu BKP 271.1 (Trockenbauarbeiten) und BKP 271.10 (Innenputze) gemäss Rule
+  zu BKP 271.1 (Trockenbauarbeiten) und BKP 271.0 (Innenputze; ⚠ **korrigiert Run 43 — «271.10» ist kein BKP-2017-Code**) sowie, über NPK 651/675/676, zu BKP 283.2, 285.1, 282.1 und 227.1 gemäss Rule
   `bkp-2017-referenz.md`.
 - **Drei Trägerorganisationen**: CRB, SMGV, FRMPP (Ziff. 2, S. 1), gestützt auf drei
   externe SMGV-/Industrie-Quellmerkblätter (Ziff. 6, S. 4).
@@ -108,7 +108,7 @@ Nur drei Stufen (keine Q1):
 
 - Die Qualitätsstufen Q1–Q4 (Gipsplatten) bzw. Q2–Q4-geglättet (Weissputz) eignen sich direkt
   als LV-Positionstext-Baustein in Ausschreibungen für Trockenbau- und Gipserarbeiten (BKP
-  271.1/271.10): den geforderten Wandbelag/Anstrich zuerst bestimmen, dann anhand des
+  271.1/271.0): den geforderten Wandbelag/Anstrich zuerst bestimmen, dann anhand des
   1,0-mm-Grenzwerts und der Deckputz-/Beschichtungsart die passende Q-Stufe zuweisen, statt
   «Standardqualität» unpräzise zu verlangen.
 - Bei glänzenden oder stark beleuchteten Wandflächen (Q4/Q4-geglättet) frühzeitig die

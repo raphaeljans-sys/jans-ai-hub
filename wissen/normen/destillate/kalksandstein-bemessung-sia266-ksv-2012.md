@@ -4,7 +4,7 @@ herausgeber: "Verband Schweizer Kalksandstein-Produzenten (K·S·V), Postfach 43
 ausgabe: "«Kalksandstein-Mauerwerk. Bemessung nach Norm SIA 266 für Standard-Einsteinmauerwerk», Ausgabe Herbst 2012 (Titelblatt; Druckvermerk S.16: September 2012, Auflage 500 Ex.), 16 Seiten"
 gelesen: "Run 42 (030826): Volltext gelesen (16 S., PDF-Rendering via Read-Tool, Seite für Seite als Bild); Diagramme S.6/8/9/10/11/13 und Tabelle S.12 visuell abgelesen, keine Textextraktion"
 datenstand: "September/Herbst 2012"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhängige Verifikation)"
+status: "speculative — NICHT ALS BEMESSUNGSGRUNDLAGE VERWENDEN, bis K1/K2/K3 nachgetragen sind (Run 43, 04.08.2026, unabhaengige Widerlegungs-Pruefung, VERDIKT BEANSTANDET — 10 Kernbefunde + 12 Nebenbefunde). Schwerster Befund K2, vom Hauptprozess am eigenen 300-dpi-Rendering der S. 11 bestaetigt: l1 ist NICHT die Deckenspannweite, sondern l/0.8l/0.6l je nach Lagerung (Beispiel 2 rechnet woertlich l1 = 0.6 x 5.0); l1 geht in DRITTER POTENZ ein, Fehlerfaktor bei Zwischenwaenden rund 4.6. K1: Gebrauchstauglichkeit rechnet mit q_ser,lang = 2.0 kN/m2 und E_c = 12 x 10^6, nicht mit gamma = 1.0 und 10 x 10^6 (rund 45 % Abweichung). K3: die Rissweiten-Diagramme waren ohne Nxo = 100 kN/m1 und die drei Transformationen unanwendbar.)"
 last_updated: 2026-08-03
 links: [[REGISTER]]
 ---
@@ -46,7 +46,7 @@ Für Standard-Einsteinmauerwerk MK liefert S.6 vier direkte Bemessungsdiagramme 
 
 ϑd = [k1 · k2 · (γG·g + γQ·q) · l1³] / (2 · E'cd · tD³) [rad]
 
-mit k2 = Anteil der Lastabtragung der Decke in der betreffenden Richtung, l1 = bezogene Spannweite der Decke, E'cd = Bemessungswert des Elastizitätsmoduls des Betons (i.d.R. 10·10⁶ kN/m²), tD = Dicke der Decke. Knicklänge hcr der Wand (S.3): bei voll eingebundenen Decken hcr = 0.5 h bis 0.6 hw bzw. 0.7 hw (je nach Spannweiten/Nutzlasten); bei teilweise eingebundenen Decken hcr = hw bzw. 0.7 hw.
+mit k2 = Anteil der Lastabtragung der Decke in der betreffenden Richtung, l1 = bezogene Spannweite der Decke — ⚠ **NICHT die Rohspannweite l**: nach S.3/S.11 gilt für Aussenwände l1 = l bzw. 0,8 l, für **Zwischenwände l1 = 0,6 l** (Beispiel 2 rechnet «l1 = 0.6 · 5.0 = 3.00 m»). l1 geht in **dritter Potenz** ein, ein Gleichsetzen mit l ergibt bei Zwischenwänden rund den Faktor 4,6 zu viel (Run 43 am Original bestätigt) — E'cd = Bemessungswert des Elastizitätsmoduls des Betons (i.d.R. 10·10⁶ kN/m²; ⚠ für den **Gebrauchstauglichkeits**nachweis rechnet die Quelle mit dem Langzeitwert **E'c = 12·10⁶ kN/m²** und der reduzierten Nutzlast **q_ser,lang = 2,0 kN/m²**, siehe Verifikation Run 43), tD = Dicke der Decke. Knicklänge hcr der Wand (S.3): bei voll eingebundenen Decken hcr = 0.5 h bis 0.6 hw bzw. 0.7 hw (je nach Spannweiten/Nutzlasten); bei teilweise eingebundenen Decken hcr = hw bzw. 0.7 hw.
 
 ## Gebrauchstauglichkeit / Rissweite (S.4, S.7-8)
 
