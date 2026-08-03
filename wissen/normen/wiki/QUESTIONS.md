@@ -42,6 +42,46 @@
   und entscheidet den Sitzhöhen-Konflikt aus K42-4. Höchste Priorität unter den offenen
   Lese-Aufträgen, weil drei KBs auf die Antwort warten. *(Aufgenommen Wissens-Chef Run 23.)*
 
+### SWKI VA103-01 (Anschluss an S41, [[swki-va103-01-2017]])
+- **S42-1** Anhang D (Anwendungsbeispiele S. 81-94), Anhang E (Simulationsnachweis-Methodik
+  S. 95-106) und Anhang F sind weiterhin nicht destilliert.
+- **S42-2** Tab. 7: die Spalte Q/S > 1 ist am Scan nicht zweifelsfrei aufloesbar — ist
+  «Firsthoehe + 1,0 m» ein eigenstaendiger dachtypspezifischer Wert oder Teil der
+  Maximum-Bildung? Gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 zu verifizieren.
+- **S42-3** Fuer den Kanton Schwyz enthaelt Tab. 16 (Anhang A) **keinen** eigenen
+  Stationseintrag; naechstgelegen sind Altdorf und Luzern. Eine Zuordnung ist nicht belegt.
+
+### Absturzsicherungen ZH ([[stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019]])
+- **A42-1** Geometrische Bedeutung der Kote ≤ 90 in der Skizze «nur obere Traverse» unklar;
+  Zuordnung der Handlaufmasse (Profilbreite gegen Wandabstand) nur als Lesart belegt. Beides
+  beim Amt fuer Baubewilligungen zu klaeren.
+
+### Hindernisfreies Bauen (Anschluss an H41-1)
+- **H42-1** Alle drei neuen Merkblaetter (`ugz-hindernisfreie-aufzuege-2010`,
+  `ugz-wohnungsbau-hindernisfrei-2014`, `procap-mb105-2009-rollstuhlgerechte-toiletten`)
+  stuetzen sich auf SIA 500:2009, keines auf SN 521 500:1988 — aber **keines liefert einen
+  eigenstaendigen Beleg zum kantonalen Verordnungsstand** (§ 239 PBG / § 34 BBV I). H41-1
+  bleibt offen, ist jetzt aber praeziser gestellt. Ferner ungeklaert, ob SIA 500:2009 heute
+  noch die gueltige Ausgabe ist.
+
+### SMU-Merkblatt 004 ([[smu-merkblatt-004-tueren-in-fluchtwegen]])
+- **SMU42-1** Stuetzt sich auf die VKF-Generation 2003 und ist ueberholt. Zu klaeren, ob eine
+  an VKF 2015/BRL 16-15 angepasste Fassung existiert.
+
+### PAVIDENSA
+Kreuzmatrix PAV-A 03:2013 geprueft, bevor sie ein zweites Mal eingetragen wird: **bereits
+offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintrag noetig.
+
+### Fassungsstand-Sammelpunkt (Run 42)
+- **F42-1** Boulevardgastronomie (Gebuehrentarif Rechtsstand 1998), Leitfaden Mobilitaet
+  2000-Watt (2007, Mikrozensus 2005), Hochwasser-Leitfaden (2003, §§ nicht gegen heutige
+  Fassung geprueft), AFS-Leitfaeden (BZO/PBG-Fassungen 2009), SVDW-Wegleitung (kein
+  Ausgabedatum) — alle vor Verwendung in einer aktuellen Baueingabe zu verifizieren.
+
+### `Flaechen_Wettbewerb.pdf`
+- **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
+  Healthcare-Raumprogramm).
+
 ## Run 41 (MacBook Pro, 01.08.2026) — neu offen
 
 ### Lignatec / Lignum

@@ -1,3 +1,34 @@
+## 2026-08-03 (Run 42) — PL-02 Kern-Nachtrag: 21 neue Destillate, 9x unabhaengig widerlegungsgeprueft, SWKI VA103-01 erweitert
+
+- **21 neue Destillate aus dem PL-02-Kern-Nachtrag** (09_Sanitaereinrichtung + lose
+  Merkblaetter in `04_Merkblätter/`). **9 davon mit unabhaengiger Widerlegungs-Pruefung**
+  (alle VERDIKT BEANSTANDET, insgesamt **16 Kernbefunde und 36 Nebenbefunde**, alle
+  eingearbeitet) — betroffen: `ugz-toilettenanlagen-personal-publikum-2020`,
+  `ugz-toilettenanlagen-personal-publikum-2012`, `procap-mb105-2009-rollstuhlgerechte-toiletten`,
+  `ugz-hindernisfreie-aufzuege-2010`, `ugz-wohnungsbau-hindernisfrei-2014`,
+  `stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019`,
+  `sichtbeton-merkblatt-cemsuisse-betonsuisse-2012`,
+  `awel-versickerung-regenwasser-industrie-gewerbe-2009`,
+  `gvz-awel-leitfaden-hochwassergefahrenkarten-2003`. Die uebrigen Destillate bleiben
+  `speculative` (Erstdestillat, Verifikation offen) bzw. sind bewusst nicht destillierte
+  Fundstellen (`[-]`, u.a. `Flaechen_Wettbewerb.pdf` und das Repoxit-Herstellerdokument).
+- **Zwei Kernbefunde vom Hauptprozess am eigenen Rendering bestaetigt**: Sichtbeton-Merkblatt
+  Tab. 9 (XD2a) und der Seitenversatz im Hochwassergefahrenkarten-Leitfaden.
+- **`swki-va103-01-2017.md` erweitert**: Kap. 2.6.3-2.6.7, 2.7 und 2.8-Ergaenzungen,
+  Kap.-3-Ergaenzungen sowie Kap. 4-9 und Anhang C neu aufgenommen; ein Widerspruch im
+  eigenen Frontmatter aufgeloest.
+- **Zwei falsche Inventar-Annotationen in `training/norm-inventar.md` korrigiert**: die
+  AFS-Dublettenvermutung (`AFS_Leitfaden Dachlandschaften.pdf` gegen
+  `AFS_Leitfaden_Dachlandschaften.pdf`) ist widerlegt (verschiedene MD5, verschiedene
+  Seitenzahlen 17 gegen 60 — Kurzfassung 2010 und Vollfassung 2009); `MB_BAU_Toilettenanlagen-
+  fuer-Personal-und-Publikum.pdf` und `UGZ_Toilettenanlagen.pdf` sind keine zwei unabhaengigen
+  Dokumente, sondern zwei Ausgaben (2020/2012) derselben UGZ-Publikation.
+- Register `training/norm-inventar.md`, Abschnitt «PL-02 Kern-Nachtrag»: 68 von 69 Positionen
+  jetzt mit Status versehen, 1 Position bleibt offen (`06_Richtlinien/BKZ/BKZ -
+  Behindertenkonferenz Kanton Zürich.pdf`). Neue offene Punkte in `wiki/QUESTIONS.md`
+  (SWKI-Anhaenge, Absturzsicherungen-Auslegungsfrage, Hindernisfreies-Bauen-Anschluss,
+  SMU-Merkblatt-Fassungsstand, Fassungsstand-Sammelpunkt, `Flaechen_Wettbewerb.pdf`).
+
 ## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — RWA-Fassungskollision, Estrich-Ziffern und -BKP, K42-4 beantwortet
 
 - **[korrektur] `destillate/gvz-rwa-parkhaus-einstellraum.md` — Fassungs-/Kollisionsvorbehalt gesetzt.**

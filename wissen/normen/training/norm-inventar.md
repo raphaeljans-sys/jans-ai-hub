@@ -1323,11 +1323,11 @@ PAVIDENSA-Merkblaetter Estriche/Abdichtungen — Faktenbasis Skill `ausschreibun
 
 **`09_Sanitaereinrichtung`** — 14 PDF, P2
 
-Toilettenanlagen/Sanitaerapparate. Die `KL_Hochbau_S*`-Blaetter sind Katalogblaetter mit Ueberlappungen (S22_25 enthaelt S22-S25, S53_56 enthaelt S53-S56 — die Einzelblaetter liegen zusaetzlich unter `Kl Hochbau einzel/`): zuerst die Sammelblaetter destillieren, die Einzelblaetter dann als gedeckt `[-]` schliessen, sofern deckungsgleich.
+Toilettenanlagen/Sanitaerapparate. Die `KL_Hochbau_S*`-Blaetter sind Katalogblaetter mit Ueberlappungen (S22_25 enthaelt S22-S25, S53_56 enthaelt S53-S56 — die Einzelblaetter liegen zusaetzlich unter `Kl Hochbau einzel/`): zuerst die Sammelblaetter destillieren, die Einzelblaetter dann als gedeckt `[-]` schliessen, sofern deckungsgleich. **Korrektur 03.08.2026 (Run 42):** `MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf` und `UGZ_Toilettenanlagen.pdf` sind KEINE zwei unabhaengigen Dokumente, sondern zwei Ausgaben derselben UGZ-Publikation «Toilettenanlagen fuer Personal und Publikum» (Dezember 2020 bzw. Mai 2012) — am Original bestaetigt, keine Vertauschung.
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P2 | `09_Sanitaereinrichtung/Arbeitshilfen Sanitärapparate.pdf` |  |
+| [~] 260803 | P2 | `09_Sanitaereinrichtung/Arbeitshilfen Sanitärapparate.pdf` | Run 42 → `destillate/geberit-sgvsb-sanitas-troesch-arbeitshilfen-sanitaerapparate.md`. **Kein Einzeldokument**, sondern Sammelscan aus mind. 3 Quellen (GEBERIT mit zwei Nummernkreisen, «SGVSB»-Blattwerk, Sanitas Troesch) ohne gemeinsamen Titel/Ausgabestand; S. 8 = S. 9 Duplikat. Verifikation offen |
 | [x] 260803 | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S22_25.pdf` | kl-hochbau-sanitaer-katalogblaetter… Sanitaerapparate (BKP 251): Badewannen/Duschwannen/Waschtische/Moebel/Bidet, kein Herausgeber/Datum am Blatt |
 | [x] 260803 | P2 | `09_Sanitaereinrichtung/KL_Hochbau_S53_56.pdf` | kl-hochbau-sanitaer-katalogblaetter… Sanitaerraumeinrichtungen (BKB 256, so gedruckt): Bedarfszahlen, Achs-/Wandabstaende, Behindertenanlagen |
 | [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S22.pdf` | gedeckt durch S22_25.pdf (Deckungspruefung Run 42, seitengenau identisch) |
@@ -1338,38 +1338,39 @@ Toilettenanlagen/Sanitaerapparate. Die `KL_Hochbau_S*`-Blaetter sind Katalogblae
 | [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S54.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
 | [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S55.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
 | [-] 260803 | P2 | `09_Sanitaereinrichtung/Kl Hochbau einzel/KL_Hochbau_S56.pdf` | gedeckt durch S53_56.pdf (Deckungspruefung Run 42, seitengenau identisch) |
-| [ ] | P2 | `09_Sanitaereinrichtung/MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/Plan7_Badezimmer Alterswohnung.pdf` |  |
-| [ ] | P2 | `09_Sanitaereinrichtung/UGZ_Toilettenanlagen.pdf` |  |
+| [x] 260803 | P2 | `09_Sanitaereinrichtung/MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf` | Run 42 → `destillate/ugz-toilettenanlagen-personal-publikum-2020.md` (UGZ Stadt Zuerich, Ausgabe **Dezember 2020**). Refuter BEANSTANDET, 2 Kernbefunde + 4 Nebenbefunde, alle eingearbeitet; rund 105 Einzelaussagen geprueft |
+| [~] 260803 | P2 | `09_Sanitaereinrichtung/Plan7_Badezimmer Alterswohnung.pdf` | Run 42 → `destillate/plan7-badezimmer-alterswohnung.md`. Auszug S. 40-47 aus einem grösseren Werk, **kein Impressum/Herausgeber**, Hybrid Planungsblatt mit Herstellerbezug; zitiert SIA 500 nur als Disclaimer. Verifikation offen |
+| [x] 260803 | P2 | `09_Sanitaereinrichtung/UGZ_Toilettenanlagen.pdf` | Run 42 → `destillate/ugz-toilettenanlagen-personal-publikum-2012.md` (UGZ, Ausgabe **Mai 2012** — dieselbe Publikation wie MB_BAU, nur ältere Ausgabe). Refuter BEANSTANDET, 3 Kernbefunde + 3 Nebenbefunde, alle eingearbeitet; rund 110 Einzelaussagen geprueft. PDF-Metadaten nennen fälschlich «HOLZ IM OFEN UND CHEMINÉE» (Word-Vorlagen-Artefakt) |
 
 **Lose Merkblaetter direkt in `04_Merkblätter/`** — 20 PDF, P3
 
-Heterogen und erst am Titelblatt klassierbar. Darunter mit `SN592_Liegenschaftsentwaesserung_d.pdf` eine **echte SN-Norm** (dann P2 und ins REGISTER), Behoerden-Leitfaeden (AWEL, UGZ, AFS, Tiefbauamt), Verbands-Merkblaetter (Betonsuisse, Procap) und reine Herstellerdokumente (`Merkblatt_fuer_Ausfuehrung_REPOXIT-HB...` — nicht destillieren, `[-]` mit Begruendung). `AFS_Leitfaden Dachlandschaften.pdf` und `AFS_Leitfaden_Dachlandschaften.pdf` sind mutmasslich dasselbe Dokument (Namensvariante) — per MD5 pruefen.
+Heterogen und erst am Titelblatt klassierbar. Darunter `SN592_Liegenschaftsentwaesserung_d.pdf` — **keine** eigenstaendige SN-Norm, sondern ein suissetec-Aenderungs-Merkblatt 2013 zur SN 592000 (Revision 2012), bereits in Run 41 geklaert und destilliert (siehe Zeile unten). Weiter Behoerden-Leitfaeden (AWEL, UGZ, AFS, Tiefbauamt), Verbands-Merkblaetter (Betonsuisse, Procap) und reine Herstellerdokumente (`Merkblatt_fuer_Ausfuehrung_REPOXIT-HB...` — nicht destillieren, `[-]` mit Begruendung). **Korrektur 03.08.2026 (Run 42):** `AFS_Leitfaden Dachlandschaften.pdf` und `AFS_Leitfaden_Dachlandschaften.pdf` sind NICHT dasselbe Dokument — verschiedene MD5 UND verschiedene Seitenzahlen (17 gegen 60): Kurzfassung (Vortragsfolien 2010) und Vollfassung (Dezember 2009) desselben Leitfadens.
 
 | Status | Prio | Datei | Bemerkung |
 |---|---|---|---|
-| [ ] | P3 | `04_Merkblätter/120206_Leitfaden_Boulevardgastronomie.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/AFS_Leitfaden Dachlandschaften.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/AFS_Leitfaden_Dachlandschaften.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/AFS_Leitfaden_klein kunst.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/AUVA Planungshilfe Anschlagsvorrichtung V101025-klein.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Absturzsicherungen Richtlinie.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Bemessung Kalksandstein.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Betonsuisse_Merkblatt.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Flaechen_Wettbewerb.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Merkblatt_16d-06.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Merkblatt_fuer_Ausfuehrung_REPOXIT-HB_als_Decorbelag.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf` |  |
+| [~] 260803 | P3 | `04_Merkblätter/120206_Leitfaden_Boulevardgastronomie.pdf` | Run 42 → `destillate/stadt-zuerich-leitfaden-boulevardgastronomie-2008.md`. Tiefbauamt Stadt ZH, **4. Auflage März 2008** + zwei Einlageblätter. **Die Dateinamen-Ziffer 120206 ist NICHT das Ausgabedatum**, sondern das PDF-Erstellungsdatum 06.02.2012. Bewilligungsvoraussetzung (VBöGS AS 551.210). Verifikation offen |
+| [~] 260803 | P3 | `04_Merkblätter/AFS_Leitfaden Dachlandschaften.pdf` | Run 42 → `destillate/afs-leitfaden-dachlandschaften-2010-praesentation.md`. Vortragsfolien AfS Stadt ZH zur Veranstaltung vom 09.03.2010, **Kurzfassung der Vollfassung**; das Kapitel «Gesetzliche Grundlagen» fehlt dort ganz → **nicht zitierfähig**. Verifikation offen |
+| [~] 260803 | P3 | `04_Merkblätter/AFS_Leitfaden_Dachlandschaften.pdf` | Run 42 → `destillate/afs-leitfaden-dachlandschaften-2009-vollfassung.md`. Amt für Städtebau Stadt ZH, **Dezember 2009**, 60 S., die Vollfassung. Auslegungshilfe zu § 238/292/302 PBG, Art. 18b/24d/39/43/11 BZO, Art. 18a RPG, § 1/2 BVV. Verifikation offen |
+| [~] 260803 | P3 | `04_Merkblätter/AFS_Leitfaden_klein kunst.pdf` | Run 42 → `destillate/afs-leitfaden-kunst-im-oeffentlichen-raum-2009.md`. **Kein Dachlandschaften- und kein Kleinkunst-Bezug**: Leitfaden «Kunst im öffentlichen Raum», AG KiöR Stadt ZH, 2. Auflage November 2009. «AFS» im Dateinamen ist blosses Ablage-Präfix, nicht die Herausgeberin. Verifikation offen |
+| [~] 260803 | P3 | `04_Merkblätter/AUVA Planungshilfe Anschlagsvorrichtung V101025-klein.pdf` | Run 42 → `destillate/auva-planungsgrundlagen-anschlageinrichtungen-daecher-2010.md`. ⚠ **ÖSTERREICHISCHES Dokument** (AUVA Wien, 10/2010, ÖNORM B 3418) — Werte nicht unbesehen auf CH-Projekte übertragbar; Schweizer Primärquelle ist Suva 44066 (in dieser KB) plus BauAV/EKAS 6512. Verifikation offen |
+| [x] 260803 | P3 | `04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf` | Run 42 → `destillate/awel-versickerung-regenwasser-industrie-gewerbe-2009.md`. AWEL/ERZ, «Zürcher Umweltpraxis», Februar 2009. Refuter BEANSTANDET, 2 Kernbefunde + 3 Nebenbefunde, alle eingearbeitet |
+| [x] 260803 | P3 | `04_Merkblätter/Absturzsicherungen Richtlinie.pdf` | Run 42 → `destillate/stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019.md`. Amt für Baubewilligungen Stadt ZH, Richtlinie vom **01.06.2019**. Refuter BEANSTANDET, **5 Kernbefunde + 7 Nebenbefunde**, alle eingearbeitet; rund 95 Einzelaussagen |
+| [~] 260803 | P3 | `04_Merkblätter/Bemessung Kalksandstein.pdf` | Run 42 → `destillate/kalksandstein-bemessung-sia266-ksv-2012.md`. Verband Schweizer Kalksandstein-Produzenten, September 2012, Norm-Anwendungshilfe zu SIA 266. Verifikation offen |
+| [x] 260803 | P3 | `04_Merkblätter/Betonsuisse_Merkblatt.pdf` | Run 42 → `destillate/sichtbeton-merkblatt-cemsuisse-betonsuisse-2012.md`. cemsuisse-Merkblatt **MB 02**, April 2012, 56 S. Refuter BEANSTANDET, 2 Kernbefunde + 8 Nebenbefunde, alle korrigiert; **Kernbefund Tab. 9 (XD2a) vom Hauptprozess am eigenen 300-dpi-Rendering bestätigt** |
+| [-] 260803 | P3 | `04_Merkblätter/Flaechen_Wettbewerb.pdf` | Run 42: **kein Destillat**. Handschriftliche Skizze, 1 Scanseite, ohne Titel/Datum/Herausgeber; projektbezogenes Raumprogramm-Arbeitsblatt (technische Räume, Indiz «Medgas-Raum»), **kein SIA-416-Bezug und keine allgemeine Wettbewerbs-Flächendefinition** — am Original geprüft |
+| [x] 260803 | P3 | `04_Merkblätter/GVZ_Leitfaden_Hochwassergefahrenkarte.pdf` | Run 42 → `destillate/gvz-awel-leitfaden-hochwassergefahrenkarten-2003.md`. AWEL Wasserbau + GVZ, © 2003. Refuter BEANSTANDET, 2 Kernbefunde + 2 Nebenbefunde, alle eingearbeitet. **Seitenversatz-Befund vom Hauptprozess am eigenen Rendering bestätigt** (Doppelseiten-Layout ohne Folios) |
+| [~] 260803 | P3 | `04_Merkblätter/Merkblatt-TK004_Fluchtwege_DE.pdf` | Run 42 → `destillate/smu-merkblatt-004-tueren-in-fluchtwegen.md`. SMU/VST, **Verbandsauslegung der Türenindustrie**, keine VKF-Vorschrift. ⚠ stützt sich auf die **VKF-Generation 2003** und ist damit **überholt** (geltend VKF 2015 / BRL 16-15, Stand 2022). Verifikation offen |
+| [~] 260803 | P3 | `04_Merkblätter/Merkblatt_16d-06.pdf` | Run 42 → `destillate/crb-merkblatt-16d-06-spachtelungen-weissputze.md`. **CRB** mit SMGV und FRMPP, «Merkblätter zum Devisieren Nr. 16 D/06», 01/2006; Q1-Q4-Oberflächengüte, NPK 643/651/671/675/676, BKP 271.1/271.10. Verifikation offen |
+| [-] 260803 | P3 | `04_Merkblätter/Merkblatt_fuer_Ausfuehrung_REPOXIT-HB_als_Decorbelag.pdf` | Run 42 → `destillate/repoxit-ag-merkblatt-decor-hb.md` als **kurze Einordnung**: reines Herstellerdokument (Repoxit AG Winterthur, 11.12.2009), nicht normativ. Einzig verwertbar: der Verweis auf SIA 118/251/252/414 |
+| [x] 260803 | P3 | `04_Merkblätter/Procap MB_105_200910_D_rollstuhlgerechte_toiletten_oeffentlich__01.pdf` | Run 42 → `destillate/procap-mb105-2009-rollstuhlgerechte-toiletten.md`. Procap Bauen Olten, Merkblatt 105, Ausgabe 10/09. Refuter BEANSTANDET, 2 Kernbefunde + 9 Nebenbefunde, alle eingearbeitet. ⚠ Die Quelldatei trägt auf S. 1 eine **rote Fremdanmerkung, die nicht von Procap stammt** |
 | [x] 260801 | P3 | `04_Merkblätter/SN592_Liegenschaftsentwaesserung_d.pdf` | suissetec-mb-2013… ACHTUNG: ist NICHT die Norm SN 592000, sondern ein Aenderungs-Merkblatt 2013 zur Ausgabe 4:2012; abgeloest durch SN 592 000:2024 |
-| [ ] | P3 | `04_Merkblätter/Tiefbauamt_Leitfaden.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/UGZ_Hindernisfreie_Aufzuege.pdf .pdf` |  |
-| [ ] | P3 | `04_Merkblätter/UGZ_Wohnungsbau_hindernisfrei.pdf` |  |
-| [ ] | P3 | `04_Merkblätter/Wegleitung für Verlegung Gartenplatten.pdf` |  |
+| [~] 260803 | P3 | `04_Merkblätter/Tiefbauamt_Leitfaden.pdf` | Run 42 → `destillate/stadt-zuerich-leitfaden-mobilitaet-2000-watt-2007.md`. **Der Dateiname sagt nichts über den Inhalt**: «Leitfaden Mobilität in der 2000-Watt-Gesellschaft», Tiefbauamt Stadt ZH, Juni 2007 — es geht um die durch ein Bauprojekt induzierte Mobilität, nicht um Werkleitungen oder Strassenabstände. Kein Bewilligungsinstrument. Verifikation offen |
+| [x] 260803 | P3 | `04_Merkblätter/UGZ_Hindernisfreie_Aufzuege.pdf .pdf` | Run 42 → `destillate/ugz-hindernisfreie-aufzuege-2010.md`. UGZ Stadt ZH, Version März 2010. Refuter BEANSTANDET, 1 Kernbefund + 4 Nebenbefunde, alle eingearbeitet. Belegt **SIA 500:2009 wörtlich** |
+| [x] 260803 | P3 | `04_Merkblätter/UGZ_Wohnungsbau_hindernisfrei.pdf` | Run 42 → `destillate/ugz-wohnungsbau-hindernisfrei-2014.md`. UGZ Stadt ZH, November 2014. Refuter BEANSTANDET, 1 Kernbefund + 3 Nebenbefunde, alle eingearbeitet. Belegt **SIA 500:2009 wörtlich** (§ 34 BBV I) |
+| [~] 260803 | P3 | `04_Merkblätter/Wegleitung für Verlegung Gartenplatten.pdf` | Run 42 → `destillate/svdw-wegleitung-gartenplatten-verbundsteine-balkone-terrassen.md`. SVDW/ASTF Technische Kommission Flachdach, **kein Ausgabedatum am Dokument**. Normbezug SIA 271/318/244/118, EN 1339. Zusatzfund: die letzte Scanseite ist **kein Teil der Wegleitung**, sondern ein mitgescannter Fremd-Auszug aus SIA 244:2006. Verifikation offen |
 
 <!-- Summe: 69 -->
+<!-- Stand 03.08.2026 (Run 42, selbst ausgezaehlt): 68 von 69 Positionen mit Status [x]/[~]/[-] versehen, 1 noch offen ([ ] `06_Richtlinien/BKZ/BKZ - Behindertenkonferenz Kanton Zürich.pdf`). -->
 
 
 **Regeln fuer diesen Abschnitt:** Es gilt derselbe Standard wie fuer SIA/VKF — Destillat nach
