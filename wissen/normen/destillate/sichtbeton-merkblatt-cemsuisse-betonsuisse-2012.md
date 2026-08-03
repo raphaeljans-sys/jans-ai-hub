@@ -79,9 +79,9 @@ Grunddefinition (Tab. 3, S.22):
 
 Detailanforderungen (Tab. 5, S.24, Auszug der textlich erläuterten Stufen S.25-30):
 
-- **Textur** TX 1: geschlossene, weitgehend einheitliche Oberfläche, Versatz/Grate/Überzähne ≤ 5 mm zulässig, ausgetretener Zementleim ≤ 10 mm breit/≤ 5 mm tief zulässig, kein Schalungsmusterplan nötig (S.25). TX 2: glatte, geschlossene, weitgehend einheitliche Oberfläche, kein Zementleim/Feinmörtel an Schalelementstössen, feine technisch unvermeidbare Grate ≤ 3 mm zulässig (S.25). TX 3: Strukturbild gemäss Detailplan der geschalten Fläche (Schalungsmusterplan verbindlich) (S.26).
+- **Textur** TX 1: geschlossene, weitgehend einheitliche Oberfläche, Versatz/Grate/Überzähne ≤ 5 mm zulässig, ausgetretener Zementleim ≤ 10 mm breit/≤ 5 mm tief zulässig, kein Schalungsmusterplan nötig (S.25). TX 2: glatte, geschlossene, weitgehend einheitliche Oberfläche, kein Zementleim/Feinmörtel an Schalelementstössen, feine technisch unvermeidbare Grate ≤ 3 mm zulässig (S.25). TX 3: Strukturbild gemäss Detailplan der geschalten Fläche; die Struktur **kann** im Schalungsmusterplan dargestellt werden, Tab. 5 nennt dazu nur «(Schalungsmusterplan)» als Klammerhinweis, nicht als verbindliche Pflichtangabe (S.26).
 - **Lunker** LK 1 «gering»: keine Vorgaben für Lunker von 1 bis 15 mm Durchmesser auf 0.50×0.50 m Fläche (S.26). LK 2 «mässig»: Festlegung durch den Planer anhand einer Referenzfläche, bezogen auf dieselbe Flächengrösse (S.27).
-- **Farbton** FB 1: Hell-/Dunkelverfärbungen zulässig, Rost-/Schmutzflecken unzulässig (S.28). FB 2: möglichst gleichmässige Farbtönung, gleichmässige grossflächige Hell-/Dunkelverfärbungen zulässig (S.27). FB 3: besondere Bestimmungen, grossflächige Verfärbungen durch unterschiedliche Ausgangsstoffe/Schalhaut-Vorbehandlung unzulässig (S.28).
+- **Farbton** FB 1 und FB 2 stehen beide auf S.27: FB 1 Hell-/Dunkelverfärbungen zulässig, Rost-/Schmutzflecken unzulässig; FB 2 möglichst gleichmässige Farbtönung, gleichmässige grossflächige Hell-/Dunkelverfärbungen zulässig. FB 3 auf S.28: besondere Bestimmungen, grossflächige Verfärbungen durch unterschiedliche Ausgangsstoffe/Schalhaut-Vorbehandlung unzulässig.
 - **Ebenheit** EH 1 nach SIA 414/SIA V414/10 (S.28-29). EH 2A nach SN EN 13670, Tabelle 7 (2012 in Vernehmlassung, S.29). EH 2B nach DIN 18202, Tabelle 3, Zeile 6 (S.29).
 - **Fugen** FG 1: Fugen abgedichtet, kein Kantenschutz, Versatz zugelassen (S.24). FG 2: Fugen abgedichtet, Kantenschutz, mässiger Versatz zugelassen (S.24).
 
@@ -91,18 +91,22 @@ Gestaltungsmöglichkeiten (S.12-13): Grösse/Anordnung der Schalelemente, Eigens
 
 Schalungssysteme (S.14): konventionelle Schalung, Rahmenschalung, Trägerschalung, Rundschalung, Säulenschalung. Schalungstypen nach SIA 118/262 (S.10, Begriffe): Typ 1 «normale Betonoberfläche» (nicht für SBK 1-3/SBK S zugelassen, S.20), Typ 2 «Betonoberfläche mit einheitlicher Struktur», Typ 3 «Sichtbetonoberfläche mit Brettstruktur», Typ 4 «Sichtbetonoberfläche mit Tafelstruktur» (S.20).
 
-Saugverhalten der Schalhaut (Tab. 1, S.18, 13 Schalhauttypen von «saugend» über «schwach saugend» bis «nicht bzw. sehr schwach saugend»): saugende Schalhaut (z.B. Bretter sägerau/gehobelt, Spanplatten) ergibt dunklere, texturierte Oberflächen mit mehr Poren-Absandung bei Mehrfacheinsatz; nicht saugende Schalhaut (Metallschalungen, Matrizen, beschichtete Schaltafeln) ergibt hellere, glattere Oberflächen mit stärkerer Neigung zu Marmorierung/Wolkenbildung (Tab. 2, S.19). Empfehlung: einen maximalen Schalungsumlauf definieren, neue Schalungen vor ErstEinsatz mit Zementschlämme vorbehandeln (S.19).
+Saugverhalten der Schalhaut (Tab. 1, S.18, 13 Schalhauttypen von «saugend» über «schwach saugend» bis «nicht bzw. sehr schwach saugend»): Tab. 2 (S.19) ordnet der saugenden Schalhaut eine **geringere** Anzahl Luft- und Wasserporen zu als der nicht saugenden Schalhaut; höher ist bei saugender Schalhaut hingegen nur die Neigung zu Abmehlen/Absanden bei Mehrfacheinsatz. Nicht saugende Schalhaut (Metallschalungen, Matrizen, beschichtete Schaltafeln) ergibt dagegen mehr Luft-/Wasserporen und eine stärkere Neigung zu Marmorierung/Wolkenbildung. Empfehlung: einen maximalen Schalungsumlauf definieren, neue Schalungen vor Erst-Einsatz mit Zementschlämme vorbehandeln (S.19).
 
-## Bewehrungsüberdeckung nach Expositionsklasse (Tab. 9, S.33, verifiziert bei 300dpi)
+## Bewehrungsüberdeckung nach Expositionsklasse (Tab. 9, S.33, korrigiert nach Runde-2-Refutation, am eigenen 300-dpi-Rendering vom Hauptprozess bestätigt)
 
-Planmässige Bewehrungsüberdeckung cnom [mm] «gemäss SIA 262 in der Regel massgebend» (S.33), nach Expositionsklasse gemäss SN EN 206-1:
+Vor der Tabelle hält das Merkblatt (S.33) fest, dass die gewählte Bewehrungsüberdeckung c_nom auf den Plänen anzugeben ist und die zulässigen Abweichungen bereits einschliesst.
 
-| Bewehrung | XC1 | XC2/XC3 | XC4 | XD1 | XD2a/XD2b/XD3 |
+Planmässige Bewehrungsüberdeckung cnom [mm] «gemäss SIA 262 in der Regel massgebend» (S.33), nach Expositionsklasse gemäss SN EN 206-1. Die fünf Spalten der Tabelle sind **gruppiert** (verbundene Zellen über je zwei Expositionsklassen in den letzten beiden Spalten) — massgebend ist die Spaltengruppe, nicht die Einzelklasse:
+
+| Bewehrung | XC1 | XC2 + XC3 | XC4 | XD1 + XD2a | XD2b + XD3 |
 |---|---|---|---|---|---|
 | Betonstahl | 20 mm | 35 mm | 40 mm | 40 mm | 55 mm |
 | Spannstahl/Spannglied | 30 mm | 45 mm | 50 mm | 50 mm | 65 mm |
 
-Weitere Mindestanforderungen für Sichtbetonbauteile (S.33): bewitterte Sichtbetonbauteile mindestens Expositionsklasse XC4 (CH); geschützte Sichtbetoninnenbauteile mindestens XC1 (CH); nachbearbeitete/strukturierte Oberflächen benötigen eine zusätzliche Überdeckung zu cnom in Abhängigkeit der zu erwartenden Abtragstiefe.
+Wichtig für die Praxis: **XD2a fällt in die Gruppe XD1+XD2a** (Betonstahl 40 mm, Spannstahl 50 mm), nicht in die Gruppe XD2b+XD3 (55 mm bzw. 65 mm). Eine frühere Lesart dieses Destillats hatte die Spalten fälschlich als fünf Einzelklassen XC1/XC2-XC3/XC4/XD1/XD2a-XD2b-XD3 gegliedert und dabei XD2a mit 55 mm (Betonstahl) bzw. 65 mm (Spannstahl) statt korrekt 40 mm bzw. 50 mm ausgewiesen — 15 mm zu viel Überdeckung.
+
+Weitere Mindestanforderungen für Sichtbetonbauteile (S.33): bewitterte Sichtbetonbauteile mindestens Expositionsklasse XC4 (CH); geschützte Sichtbetoninnenbauteile mindestens XC1 (CH); nachbearbeitete/strukturierte Oberflächen bei **Innenbauteilen** benötigen eine zusätzliche Überdeckung zu cnom in Abhängigkeit von Abtragsart UND der zu erwartenden Abtragstiefe.
 
 ## Nachbehandlung (Tab. 10-12, S.35-37)
 
@@ -112,7 +116,7 @@ Nachbehandlungsklassen NBK 1-4 nach SIA 262 (Tab. 11, S.36):
 
 | NBK | Dauer | Anteil charakteristische Druckfestigkeit nach 28 Tagen | Anforderung |
 |---|---|---|---|
-| 1 | 12 h¹ | — | — |
+| 1 | 12 h¹ | — | (leer im Original, keine Angabe) |
 | 2 | — | 35 % | normal |
 | 3 | — | 50 % | erhöht |
 | 4 | — | 70 % | hoch |
@@ -127,7 +131,9 @@ Fehlen genauere Berechnungen/Prüfungen zur Festigkeitsentwicklung, gelten die R
 
 ## Ebenheit (Tab. 6-8, S.29)
 
-Tab. 6 (in Anlehnung an Tabelle 34/SIA Empfehlung V414/10): zulässige Abweichung Δzul in mm nach Messdistanz MD (0.4 bis 40 m) und Schalungstyp; Typ 2 z.B. 8 mm bei MD 0.4 m bis 30 mm bei MD 20 m, Typ 3/4 enger (4 mm bei MD 0.4 m bis 25 mm bei MD 20 m). Gültig für Ortbeton- und vorfabrizierte Hochbauteile, normalem Genauigkeitsgrad (SIA 414 Ziff. 1.11) und normalen Umwelt-/Belastungsbedingungen (SIA 414 Ziff. 4.4); gilt nicht für Baustoffe, Bauhilfszeug oder Abmessungen innerhalb von Bauteilen (S.29).
+Tab. 6 (in Anlehnung an Tabelle 34/SIA Empfehlung V414/10, korrigiert nach Runde-2-Refutation): zulässige Abweichung Δzul in mm über sieben Messdistanzspalten MD 0.4 / 1 / 2 / 4 / 10 / 20 / 40 m, je nach Schalungstyp. Typ 2: 8 / 10 / 12 / 16 / 20 / **30 mm bei MD 20 m** / kein Wert bei MD 40 m. Typ 3/Typ 4 (enger als Typ 2): 4 / 6 / 8 / 12 / 16 / **20 mm bei MD 20 m** / **25 mm erst bei MD 40 m**. Eine frühere Lesart dieses Destillats hatte für Typ 3/4 fälschlich «bis 25 mm bei MD 20 m» angegeben; richtig liegt der 25-mm-Wert bei MD 40 m, bei MD 20 m gelten 20 mm. Die Typ-2-Angabe (30 mm bei MD 20 m) war bereits korrekt.
+
+Geltungssatz (S.29, richtiggestellt): Tab. 6 gilt für Ortbeton- und vorfabrizierte Hochbauteile, normalen Genauigkeitsgrad (SIA 414 Ziff. 1.11) und normale Umwelt-/Belastungsbedingungen (SIA 414 Ziff. 4.4); sie gilt **«für Baustoffe, Bauhalbzeug sowie Bauelemente und nicht für Abmessungen innerhalb von Bauteilen»** und bezieht sich auf die im Merkblatt **angeführten Arbeitsgattungen gemäss BKP des CRB**. Eine frühere Lesart dieses Destillats hatte hier fälschlich «Bauhilfszeug» statt «Bauhalbzeug» geschrieben und den Verweis auf die BKP-Arbeitsgattungen ausgelassen.
 
 Tab. 7 (SN EN 13670, 2012 in Vernehmlassung): mit Schalung hergestellte/geglättete Oberfläche, global (Länge 2.0 m) zulässige Abweichung 9 mm, lokal (Länge 0.2 m) 4 mm; Ebenheit der Kanten Länge ≤ 1.0 m: ±8 mm, Länge > 1.0 m: ±8 mm/m, max. ±20 mm/m.
 
@@ -150,10 +156,14 @@ Anhang D liefert vier Musterdevistexte nach NPK 241, Position 062 «Beton nach E
 
 Anhang E (S.52-53) beschreibt das ausformulierte Fallbeispiel SBK S «Rostiger Beton» (Stellwerk Vorbahnhof Zürich, Gigon + Guyer Architekten): sägerohe Brettschalung Typ Lärche B=10 cm, Schalungstyp 3-123 nach SIA 118/262, Referenzbau mit 3 Musterflächen 2.50×1.50×0.25 m, Oberflächenschutz Tiefenhydrophobierung auf Silanbasis vier Wochen nach Fertigstellung.
 
+## Methodische Beobachtung aus der Runde-2-Refutation
+
+Die Bewehrungsüberdeckungstabelle (Tab. 9, S.33) trug im Erstdestillat ausdrücklich den Vermerk «verifiziert bei 300dpi» und enthielt trotzdem den Kernbefund-1-Fehler (Spaltengruppierung falsch gelesen, XD2a 15 mm zu hoch). Die SBK-Anforderungsmatrix (Tab. 4/5, S.23-24) war umgekehrt im Erstdestillat ausdrücklich als **nicht** hochauflösend nachgeprüft ausgewiesen (siehe vormaliger Eintrag in den Offenen Punkten) und erwies sich in der Runde-2-Nachprüfung als fehlerfrei. Eine explizite Prüfzusicherung im Destillat ist also für sich genommen **kein Beleg für Korrektheit** — sie beschreibt nur, dass eine Prüfung stattgefunden hat, nicht deren Ergebnis. Für künftige Destillat-Läufe folgt daraus: Tabellen mit verbundenen Zellen/mehrspaltigen Kopfzeilen (wie Tab. 9) sind fehleranfälliger als einfache Matrizen, unabhängig von der Sorgfalt der Erstlesung, und verdienen bei jeder Verifikationsrunde erneute, nicht nur einmalige Aufmerksamkeit.
+
 ## Offene Punkte
 
 - Die Norm SN EN 13670 «Ausführung von Tragwerken aus Beton» wird auf S.29 explizit als «zurzeit in der Schweiz in Vernehmlassung» (Stand 2012) bezeichnet; ob und wann sie in der Schweiz definitiv eingeführt wurde und ob die im Merkblatt zitierte Tabelle 7 in der Endfassung unverändert blieb, ist in dieser KB nicht geprüft.
 - Ziff. 0.2 (S.7) verweist bewusst dynamisch auf «die letzte und aktuellste Ausgabe» der zitierten Normen statt auf ein festes Jahr; die JANS-Normen-KB führt aktuell nur SIA 262:2003 (`sia-262-2003.md`) und keine SIA-266-analoge Prüfung, ob seither eine neuere SIA-262-Ausgabe erschienen ist. Bis zur Klärung gilt der KB-Stand SIA 262:2003 als Referenz für alle Aussagen dieses Destillats, die sich auf SIA 262 stützen (v.a. Bewehrungsüberdeckung Tab. 9, Nachbehandlungsklassen Tab. 11).
 - Gemäss Impressum (S.2) sind cemsuisse-Merkblätter nur 5 Jahre gültig, verlängerbar um je 5 Jahre; ob das Merkblatt MB 02 (2012) seither verlängert, überarbeitet oder durch eine Nachfolgepublikation ersetzt wurde, wurde in diesem Lauf nicht recherchiert (kein Zugriff auf cemsuisse.ch/betonsuisse.ch in diesem Lauf).
-- Zwei mehrspaltige Tabellen (Tab. 4/5, S.23-24, Sichtbetonklassen-Anforderungsmatrix) wurden aus dem seitenweise gerenderten Bild abgelesen, aber nicht zusätzlich bei erhöhter Auflösung nachgeprüft; bei einer künftigen Zweitprüfung dieses Destillats sollten sie wie Tab. 9 und Tab. 12 hochauflösend gegengelesen werden.
+- Die Tab. 4/5 (S.23-24, Sichtbetonklassen-Anforderungsmatrix) wurden in Runde 2 (300/600dpi) nachgeprüft und fehlerfrei befunden; siehe methodische Beobachtung unten.
 - Themen, die das Merkblatt laut eigener Abgrenzung (Ziff. 0.1, S.6) bewusst ausklammert und die daher hier keine Kennwerte liefern: Brandschutz, Rezyklierbarkeit, Beständigkeit gegen chemische/mikrobiologische Einwirkungen, Oberflächenschutz-Produktwahl im Detail, Instandsetzung, Betonzusammensetzung/Trennmitteleinsatz/Einbringen und Verdichten des Betons selbst.

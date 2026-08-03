@@ -221,14 +221,18 @@ derselben herausgebenden Stelle** (Stadt Zürich, Umwelt- und Gesundheitsschutz)
 verschiedenen Ausgaben. Festgestellte Abweichungen (Details siehe Schwester-Destillat):
 
 1. Stadien/Grossveranstaltungen: diese Ausgabe 75–150 Personen je Einheit, Ausgabe 2020 nur
-   noch 75–100 Besucher je Einheit — Ausgabe 2020 verschärft.
+   noch 75–100 Besucher je Einheit — Ausgabe 2020 verschärft. Genauer: die Obergrenze fällt von
+   150 auf 100 Personen, also auf zwei Drittel; die Bandbreite selbst schrumpft von 75 auf 25,
+   also auf ein Drittel.
 2. Gastwirtschaftsbetriebe: diese Ausgabe rechnet nur mit Innenplätzen (Schwelle 10, danach
    pauschal 25 Innenplätze/Einheit), Ausgabe 2020 rechnet mit Innen+Aussenplätzen zusammen
-   (Schwelle 49) und führt eine 12-stufige, degressiv beginnende Tabelle — methodisch andere
-   Bemessung, nicht nur andere Zahl.
-3. Kleinstbetriebe Personaltoiletten: diese Ausgabe nennt unbedingt ≤5 Arbeitnehmende für die
-   geschlechtsneutrale Ausnahme; Ausgabe 2020 verschiebt die Schwelle auf ≤10, aber bedingt
-   durch «wenig verschmutzende Tätigkeit».
+   (Schwelle 49) und führt eine 12-stufige Tabelle, deren Zuwächse in den unteren Stufen
+   zunächst kleiner sind und dann steigen (+15/+15/+21 Innenplätze), bevor sie ab Einheit 4
+   konstant +25 betragen — methodisch andere Bemessung, nicht nur andere Zahl. Der Kern der
+   25-Innenplätze-Regel dieser Ausgabe lebt in der Ausgabe 2020 ab Einheit 4 fort.
+3. Kleinstbetriebe Personaltoiletten: diese Ausgabe nennt ≤5 Arbeitnehmende für die
+   geschlechtsneutrale Ausnahme, ohne weitere Bedingung; Ausgabe 2020 verschiebt die Schwelle
+   auf ≤10, knüpft sie aber an «wenig verschmutzende Tätigkeit».
 4. Krippen-/Horte-/Kindergarten-Zahlenwerte (Tabellen 2+3 oben) sind NUR in dieser Ausgabe
    2012 enthalten; die Ausgabe 2020 verweist stattdessen auf ein eigenes Merkblatt ohne eigene
    Zahlen.
@@ -236,10 +240,46 @@ verschiedenen Ausgaben. Festgestellte Abweichungen (Details siehe Schwester-Dest
    «Leitfaden Gastwirtschaftsbetriebe, Finanzdirektion Kt. ZH»; Ausgabe 2020 nennt stattdessen
    zusätzlich SIA 382-1 (Lüftungs-/Klimaanlagen).
 
+**In Runde 2 zusätzlich gefundene Unterschiede (in der Erstfassung übersehen):**
+
+6. **Bezugsgrösse Theater/Kino gewechselt:** diese Ausgabe bemisst mit «35–75 Sitzplätze»,
+   die Ausgabe 2020 mit «35–75 Besucher». Für ein Raumprogramm ist das nicht dasselbe: 75
+   Sitzplätze sind eine bauliche Grösse, 75 gleichzeitig anwesende Besucher eine betriebliche.
+7. **Warmwasser:** diese Ausgabe verlangt die Handwascheinrichtungen generell mit fliessend
+   kaltem und warmem Wasser; die Ausgabe 2020 differenziert und lässt bei Toiletten für Kunden,
+   Gäste und Besucher kaltes Wasser genügen (warm nur bei Personaltoiletten). Relevant für den
+   Warmwasseranschluss und damit für die Kosten.
+8. **Ausdrückliche Rollstuhl-Mindestanforderung bei Publikumsbauten entfällt 2020:** diese
+   Ausgabe verlangt für Bauten mit Publikumsverkehr ausdrücklich mindestens eine
+   rollstuhlgängige Anlage; die Ausgabe 2020 nennt diese Anforderung an der entsprechenden
+   Stelle nicht mehr und regelt die Hindernisfreiheit nur noch über den BehiG-/SIA-500-Verweis
+   sowie über die Gastro-Formulierung «in der Regel rollstuhlgerecht».
+
 Personaltoiletten-Grundschlüssel (Tabelle 1 dieses Dokuments) ist hingegen **zahlenmässig
 identisch** mit der Ausgabe 2020 (10/50/100-Stufen, gleiche F/M-Verhältnisse) — hier besteht
-kein Widerspruch, nur eine andere tabellarische Darstellung der untersten Stufe («6 bis 10»
-hier vs. «bis 10» dort).
+kein Widerspruch. Unterschiedlich ist nur die Darstellung: diese Ausgabe beginnt bei «6 bis 10»
+und schreibt in dieser Zeile «1 Toilette und 1 Pissoir» ohne Bezugsgrösse, die Ausgabe 2020
+beginnt bei «bis 10» und ergänzt «/ 15 M»; zudem führt erst die Ausgabe 2020 im Tabellenkopf
+die Klausel, dass der Frauen-Schlüssel auch für Männer ohne Pissoir gilt.
+
+## Verifikationsprotokoll Runde 2 (03.08.2026)
+
+- Zuordnung der Ausgaben am Original bestätigt: diese Datei `UGZ_Toilettenanlagen.pdf` trägt
+  auf S. 2 unten links sichtbar «Merkblatt Version Mai 2012»; die Schwester-Datei
+  `MB_BAU_...pdf` trägt auf S. 2 oben rechts «Merkblatt Dezember 2020». **Kein
+  Vertauschungsfehler.**
+- **Alle fünf ursprünglich behaupteten Widersprüche zwischen den beiden Ausgaben wurden am
+  Original bestätigt; keiner war erfunden.** Drei weitere Unterschiede kamen hinzu (Ziffern
+  6–8 oben).
+- Verdikt Runde 2 für diese Datei: **BEANSTANDET**, 3 Kernbefunde (verschobene Tabellenzeile
+  «> 100», falsch zugeordnete Skizzenmasse, fehlende Vorraum-/Minimalflächen-/Legendenregeln)
+  und 3 Nebenbefunde (unbelegtes «unbedingt», unbelegte Auflösung «K»/«M», fehlende
+  Betriebstypen-Aufzählung). Alle eingearbeitet.
+- Über beide Ausgaben-Destillate zusammen wurden rund 215 Einzelaussagen und Tabellen-Zellwerte
+  geprüft. Bestätigt und unverändert: alle vier Zeilen der Tabelle 1, alle 24 Zellwerte der
+  Krippen-Tabelle 2, alle vier Fussnoten, die Volksschulen-Regel, die vier Kunden-/Gäste-Werte,
+  die Gastro-Schwellen, die Lüftungswerte, die 100-m-Regel, die 1.50-m-Belagshöhe, die
+  Rechtsgrundlagen-Liste und der Herausgeberblock.
 
 ## Offene Punkte
 
@@ -252,3 +292,9 @@ hier vs. «bis 10» dort).
 - Ob das in der Ausgabe 2020 erwähnte neue Merkblatt «Kinderkrippen / Horte / Mittagstisch» die
   Zahlenwerte der hier vorliegenden Tabellen 2/3 unverändert übernimmt oder ändert, ist nicht
   verifiziert.
+- Die Auflösung der Kürzel «K» und «M» in Tabelle 3 als Knaben und Mädchen ist eine Lesart aus
+  dem Zusammenhang, kein Beleg aus dem Dokument.
+- Nicht geprüft: die vollständige Detailgeometrie der drei Skizzen (nur die im Abschnitt
+  «Bemassung gewöhnlicher Toiletten und Vorräume» genannten Massketten wurden gegengelesen)
+  sowie der Wortlaut der referenzierten Fremdgrundlagen (Wegleitung zu ArGV 3, SIA 500:2009,
+  Leitfaden Gastwirtschaftsbetriebe, Empfehlungen für Schulanlagen).

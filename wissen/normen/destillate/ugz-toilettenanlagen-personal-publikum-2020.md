@@ -3,9 +3,9 @@ titel: "Toilettenanlagen für Personal und Publikum (Ausgabe 2020)"
 quelle: "09_Sanitaereinrichtung/MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf"
 herausgeber: "Stadt Zürich, Umwelt- und Gesundheitsschutz (UGZ), Bau und Energieeffizienz, Eggbühlstrasse 23, Postfach, 8050 Zürich"
 ausgabe: "Merkblatt «Toilettenanlagen für Personal und Publikum», Ausgabe Dezember 2020 (Fussvermerk oben rechts S. 2 «Merkblatt Dezember 2020»; CreationDate PDF 30.11.2020, ModDate 15.01.2021), 2 Seiten"
-gelesen: "Run 42 (030826): beide Seiten vollständig gelesen; beide Tabellen als 300-dpi-Rendering visuell abgelesen (Textextraktion bewusst nicht verwendet, Methodik-Pflicht der KB)"
+gelesen: "Run 42 (030826): beide Seiten vollständig gelesen; beide Tabellen als 300-dpi-Rendering visuell abgelesen (Textextraktion bewusst nicht verwendet, Methodik-Pflicht der KB). Runde 2 (03.08.2026, Refuter): beide Seiten erneut vollständig gelesen, alle drei Tabellen zusätzlich als 400-dpi-Ausschnitt Zelle für Zelle gegengelesen, Ausgabedatum am Dokument selbst abgelesen. NICHT geprüft (liegen nicht vor): Merkblatt «Kinderkrippen / Horte / Mittagstisch», Merkblatt «Rollstuhlgängige Toiletten», Empfehlungen für Schulanlagen vom 01.01.2012, Wegleitung zu ArGV 3, SIA 500:2009, SIA 382-1; ebenfalls nicht geprüft: ob nach Dezember 2020 eine noch neuere Ausgabe des Merkblatts erschienen ist"
 datenstand: "Dezember 2020"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
+status: "speculative (Erstdestillat Run 42, 03.08.2026; Verifikation Runde 2 am 03.08.2026 durch Refuter-Agent: VERDIKT BEANSTANDET, 2 Kernbefunde + 4 Nebenbefunde, alle eingearbeitet. Über beide Ausgaben-Destillate zusammen rund 215 Einzelaussagen und Tabellen-Zellwerte geprüft. Zuordnung der Ausgaben 2020/2012 am Original bestätigt — kein Vertauschungsfehler. Status bleibt speculative, weil die referenzierten Schwester-Merkblätter und die Wegleitung zu ArGV 3 nicht vorliegen und eine allfällige neuere Ausgabe nicht ausgeschlossen ist)"
 last_updated: 2026-08-03
 links: [[REGISTER]]
 ---
@@ -34,6 +34,15 @@ T +41 44 412 11 72, ugz-energie@zuerich.ch, stadt-zuerich.ch/ugz-baubewilligung.
 rechts). Der Dateiname `MB_BAU_...` ist keine Quelle für den Inhalt, deckt sich aber sinngemäss
 mit dem Titel.
 
+## Geltungsbereich (S. 1, Lead unter dem Titel)
+
+Das Merkblatt gilt für Toilettenanlagen für **Arbeitnehmer, Kunden, Gäste und Besucher,
+Schüler sowie betreute Kinder**; für sie alle bestehen technische und bauliche Bestimmungen.
+Das UGZ berät im Rahmen des **Baubewilligungsverfahrens** zu diesen Anforderungen. Der
+Adressatenkreis ist damit weiter gefasst als der Titel «Personal und Publikum» vermuten lässt:
+Schüler und betreute Kinder sind ausdrücklich eingeschlossen (materiell geregelt in Ziffer 4
+beziehungsweise über den Verweis auf die Schwester-Merkblätter).
+
 ## Bauliche und technische Anforderungen (S. 1)
 
 - Toilettenanlagen erfordern grundsätzlich einen Vorraum zu Arbeits-/Aufenthaltsbereichen.
@@ -57,6 +66,11 @@ mit dem Titel.
   verlassen werden müssen.
 - Bis 10 gleichzeitig anwesende Arbeitnehmende: bei wenig verschmutzender Tätigkeit genügt eine
   geschlechtsneutrale Toilette (Bedingung: Tätigkeitsart, nicht nur Kopfzahl).
+- **Kennzeichnungspflicht in den Baugesuchsplänen:** In den Planunterlagen zum Baugesuch müssen
+  Damen- und Herrentoiletten **für Arbeitnehmer** als solche gekennzeichnet sein. (In Runde 2
+  nachgetragen; in der Erstfassung dieses Destillats fehlend. Es ist zusammen mit der
+  gleichlautenden Pflicht für Kunden, Gäste und Besucher die einzige unmittelbar
+  baueingaberelevante Formvorschrift des Merkblatts.)
 
 **ANZAHL-SCHLÜSSEL — Tabelle «Anzahl Toiletten für Arbeitnehmer gemäss Arbeitsgesetz» (S. 1,
 Quelle in der Tabelle: «Anforderungen aus der Wegleitung zu ArGV 3»):**
@@ -68,19 +82,25 @@ Quelle in der Tabelle: «Anforderungen aus der Wegleitung zu ArGV 3»):**
 | bis 100 | 1 Toilette / 12 F (M) | 1 Toilette und 1 Pissoir / 20 M |
 | über 100 | 1 Toilette / 15 F (M) | 1 Toilette und 1 Pissoir / 25 M |
 
-## 2. Toiletten für Kunden, Gäste und Besucher (S. 1)
+## 2. Toiletten für Kunden, Gäste und Besucher (Abschnittsbeginn S. 1, Fortsetzung und Tabelle S. 2)
 
 - Pflicht in Bauten mit Publikumsverkehr: Hotels, Theater, Kinos, Sportanlagen, Grossläden
-  (>1000 m2), Verwaltungsbauten, Vereinsräume. Dürfen nicht als Personaltoiletten dienen.
+  (>1000 m2), Verwaltungsbauten, Vereinsräume. Dürfen nicht als Personaltoiletten dienen. (S. 1)
+- Dienstleistungsbetriebe mit längerem Kundenaufenthalt (z.B. Coiffeursalons): Kundentoiletten
+  empfohlen (nicht zwingend). Arztpraxen: Patiententoilette in der Regel aus betrieblichen
+  Gründen erforderlich. (S. 1)
 - Anzahl richtet sich nach gleichzeitig anwesenden Kunden/Gästen und Nutzungsintensität; in der
   Regel geschlechtergetrennt inkl. Vorräume; bei hohem Publikumsverkehr mind. Hälfte der
   Toiletteneinheiten für Damen; Anzahl Einheiten nimmt bei steigender Besucherzahl (>200 bis
-  >5000) proportional ab.
-- Dienstleistungsbetriebe mit längerem Kundenaufenthalt (z.B. Coiffeursalons): Kundentoiletten
-  empfohlen (nicht zwingend). Arztpraxen: Patiententoilette in der Regel aus betrieblichen
-  Gründen erforderlich.
+  >5000) proportional ab. (S. 2)
+- **Kennzeichnungspflicht in den Baugesuchsplänen:** In den Planunterlagen zum Baugesuch müssen
+  Damen- und Herrentoiletten **für Kunden, Gäste und Besucher** als solche gekennzeichnet sein.
+  (S. 2; in Runde 2 nachgetragen, in der Erstfassung fehlend.)
+- Eine ausdrückliche Mindestanforderung «mindestens eine rollstuhlgängige Anlage» kennt die
+  Ausgabe 2020 an dieser Stelle **nicht mehr** (anders die Ausgabe 2012); die Hindernisfreiheit
+  läuft hier nur über den BehiG-/SIA-500-Verweis.
 
-**ANZAHL-SCHLÜSSEL — Tabelle «Anzahl Toiletten für Kunden, Gäste und Besucher» (S. 1, «Je 1
+**ANZAHL-SCHLÜSSEL — Tabelle «Anzahl Toiletten für Kunden, Gäste und Besucher» (S. 2, «Je 1
 Toiletteneinheit für»):**
 
 | Nutzung | Besucherzahl je Toiletteneinheit |
@@ -120,9 +140,15 @@ Toiletteneinheit für»):**
 | 12 | 300 | 600 | 300 |
 
 Fussnoten der Tabelle: «Plätze = Sitz und/oder Stehplätze»; «Toiletteneinheiten = Anzahl
-Toiletten und Pissoirs (Pissoir gilt als Einheit)». Ab Einheit 4 verläuft die Skalierung linear
-(+25 Innenplätze je weiterer Einheit); die Einheiten 1–4 sind degressiv gestuft (+15/+15/+21
-Innenplätze).
+Toiletten und Pissoirs (Pissoir gilt als Einheit)».
+
+Beobachtung zur Stufung (eigene Auswertung, nicht Wortlaut des Merkblatts): Die Zuwächse der
+Innenplätze **steigen** über die ersten Stufen an — von Einheit 1 zu 2 sind es +15 (49 auf 64),
+von 2 zu 3 nochmals +15 (auf 79), von 3 zu 4 dann +21 (auf 100). Ab Einheit 4 bleibt der Zuwachs
+konstant bei +25 Innenplätzen je weiterer Einheit, was der pauschalen 25-Innenplätze-Regel der
+Ausgabe 2012 entspricht. Die unteren Stufen sind also **strenger** als die 25er-Regel, nicht
+grosszügiger. (Korrektur Runde 2: die Erstfassung nannte die Stufung «degressiv», was das
+Gegenteil beschreibt.)
 
 ## 4. Toiletten für Schulen, Kindergärten und Betreuungseinrichtungen (S. 2)
 

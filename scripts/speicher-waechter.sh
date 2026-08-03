@@ -192,4 +192,18 @@ if [ "$GEHANDELT" -eq 0 ] && [ "$KNAPP" -eq 0 ]; then
     [ "$LETZTE" != "$HEUTE" ] && log "OK — ${FREI} MB verfuegbar, Druck ${DRUCK}, OneDrive ${OD_GB} GB."
 fi
 
+# ============================================================================
+# Kontingent-Waechter mitlaufen lassen (03.08.2026, Block B nach dem
+# Wochenlimit-Vorfall 01.-03.08.). Bewusst KEIN eigener launchd-Job: der Hub
+# hat schon zu viele unabhaengige Feuermechanismen — genau das ist der Grund,
+# warum es das Lauf-Gate gibt. Der Speicher-Waechter passt, weil er dieselbe
+# Rolle hat (stiller Waechter, 30-Min-Takt, beide Stationen) und weil er wie
+# der Kontingent-Waechter OHNE Modellaufruf arbeitet.
+#
+# Der Aufruf darf diesen Waechter nie aufhalten: eigener Prozess, Fehler
+# geschluckt, kein set -e-Einfluss.
+KW="$HOME/Developer/jans-ai-hub/scripts/kontingent-waechter.sh"
+[ -f "$KW" ] || KW="/Volumes/daten/jans-ai-hub/scripts/kontingent-waechter.sh"
+[ -f "$KW" ] && bash "$KW" >/dev/null 2>&1 || true
+
 exit 0
