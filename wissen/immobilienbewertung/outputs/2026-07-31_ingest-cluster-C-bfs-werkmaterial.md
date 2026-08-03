@@ -63,16 +63,23 @@ Datenstand 30.10.2025):
 Reihenlogik: halbjaehrliche Erhebung, Stichmonate **April und Oktober**; die Reihe reicht in
 dieser Datei bis Okt 2010 (Total 97.6 / Hochbau 98.6 / Tiefbau 93.8) zurueck.
 
-**WIDERSPRUCHS-FLAG fuer den Hauptlauf:** Die KB fuehrt an anderer Stelle «neu Basis
-Okt-2025 = 100, April 2026 = 100.6». Diese Aussage ist durch den hier vorliegenden Bestand
-**nicht belegt** und steht im Widerspruch zum juengsten amtlichen Dokument (Datenstand
-30.10.2025, Basis Okt 2020 = 100). Zwei Moeglichkeiten, die der Hauptlauf trennen muss:
-(a) das BFS hat NACH dem 30.10.2025 auf Okt 2025 = 100 umbasiert — dann fehlt der Beleg in
-dieser Ablage und muss vom BFS nachgezogen werden; (b) die KB-Aussage ist eine unbelegte
-Fortschreibung. **Bis ein Beleg vorliegt, gilt fuer JANS-Erzeugnisse Basis Okt 2020 = 100.**
-Merkhilfe zur Plausibilitaet: Ein Umbasierungswert «April 2026 = 100.6» waere mit
-Okt 2025 = 100 rechnerisch konsistent (116.2 → 116.9 auf alter Basis), beweist die
-Umbasierung aber nicht.
+**KEIN WIDERSPRUCH — Archiv aelter als die Umbasierung:** Die KB fuehrt an anderer Stelle
+(«neu Basis Okt-2025 = 100, April 2026 = 100.6»; [[investorenmarkt-makro]]) einen Stand, der
+im hier vorliegenden Bestand nicht auftaucht. Das ist keine unbelegte Fortschreibung, sondern
+eine reine Zeitluecke: Das juengste Dokument dieser Ablage datiert vom 30.10.2025 und kann
+die erst im April 2026 publizierte Totalrevision naturgemaess nicht enthalten. Genau dieses
+Muster bestaetigt Abschnitt 1.4 unten unabhaengig ueber die dokumentierte
+Fuenfjahresrhythmus-Regel des BFS (naechste Totalrevision faellig auf Oktober 2025).
+Die Umbasierung selbst ist in der KB belegt: BFS-Baupreisindex April 2026, Web
+BFS/fachbau.ch vom 18.06.2026 (Run 15), erneut bestaetigt am 27.07.2026 (Run 51,
+`training/curriculum.md` E7).
+
+**Fuer JANS-Erzeugnisse gilt damit die aktuelle Basis Oktober 2025 = 100** (juengster Stand:
+April 2026 = 100.6, +1.0 % YoY). Die hier dokumentierte alte Reihe (Basis Oktober 2020 = 100,
+letzter Stand Okt 2025 = 116.2) bleibt als historisches Werkmaterial stehen.
+Umrechnungshinweis: Der alte Wert Okt 2025 = 116.2 entspricht dem neuen Basiswert 100 —
+Indexstaende duerfen nie ueber den Basiswechsel hinweg direkt verglichen oder dividiert
+werden, ohne die Reihe zuvor umzubasieren.
 
 ### 1.2 Regionale Indexstaende Oktober 2024 (Basis Okt 2020 = 100)
 
@@ -126,9 +133,12 @@ Beide Entwuerfe tragen die **veraltete Absenderadresse Fluelastrasse 6, 8048 Zue
 (korrekt waere Grubenstrasse 37, 8045 Zuerich — Rule `jans-absenderadresse`). Kein Beleg,
 dass die Mails je versandt wurden.
 
-Einzige belegte Zahl in dieser Ablage: **Altersheim Trotte Zuerich, 2019, CHF 3'907 je m2
-Geschossflaeche** — Quelle im Dokument selbst nicht genannt, daher als **unbelegter
-Ausgangswert** zu fuehren, nicht als Kennwert.
+Einzige konkrete Kennzahl dieser Ablage mit Objektbezug: **Altersheim Trotte Zuerich, 2019,
+CHF 3'907 je m2 Geschossflaeche** — die Quelle dieses Werts wird im Dokument selbst nicht
+genannt, daher ist er als **unbelegter Ausgangswert** zu fuehren, nicht als Kennwert. Der
+zweite genannte Wert (CHF 600.- je m2, Merkfrage «2008») ist rein didaktisch (Uebungsaufgabe
+ohne Objektbezug und ohne Antwort im Dokument) und daher ebenfalls kein verwendbarer
+Kennwert.
 
 **Die belegte Formel steht dagegen in den beiden Screenshots derselben Ablage**
 (`Bildschirmfoto 2024-05-02 um 15.34.00.png` / `...15.34.14.png`, BFS-Seite «Berechnungsweise»,

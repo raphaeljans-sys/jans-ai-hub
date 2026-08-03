@@ -39,6 +39,91 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-03 22:07 — [FREI, nach WOCHE LEER] Das Wochenkontingent war 47 Stunden erschoepft (01.08. 14:21 bis 03.08. 12:00). Der Hub stand still, die Aufsicht ebenfalls — und genau deshalb steht der Vorfall erst jetzt hier
+
+**Selbstkontrolle zuerst: 56 Stunden ohne Aufsichtseintrag.** Der letzte Eintrag stammt vom
+01.08. 14:12, dieser Lauf ist der naechste. Dazwischen liegen rechnerisch 13 versaeumte
+4-h-Slots. Das ist der laengste Aufsichtsausfall seit Fuehrung dieses Logs und muss sichtbar
+bleiben. **Die Ursache ist aber nicht der Scheduler** — die naheliegende Hypothese aus den
+beiden Vorlaeufen (suspendierte Session blockiert den Task-Slot) traegt hier nicht. Der Radar
+konnte nicht laufen, weil das Wochenkontingent leer war; er teilt es sich mit allen anderen
+Laeufen. Eine Aufsicht, die aus demselben Topf trinkt wie das, was sie beaufsichtigt, ist
+waehrend eines Kontingent-Ausfalls blind. Das ist der eigentliche Befund dieses Laufs.
+
+**Belegte Chronologie (Dispatch-Logs Mac Mini, `dispatch/log/`, jede Zeile einzeln geprueft):**
+
+| Zeitpunkt | Ereignis |
+|---|---|
+| 01.08. 13:30 | letzter erfolgreicher Nachtschicht-Zyklus (Exit 0) |
+| 01.08. 14:12 | letzter Radar-Eintrag — Fenster damals noch FREI, Probe «OK» |
+| **01.08. 14:21** | **erster Treffer «You've hit your weekly limit · resets 12pm (Europe/Zurich)»** |
+| 01.08. 22:30 – 03.08. 05:30 | 10 weitere Laeufe, alle Exit 1, alle mit derselben Meldung |
+| **03.08. 12:00** | **Wochen-Reset (Montag Mittag)** |
+| 03.08. 13:30 | erster erfolgreicher Zyklus wieder (Exit 0, 11 Min Laufzeit) |
+
+**Elf blockierte Laeufe in 47 Stunden.** Betroffen waren die Nachtschicht-Slots 22:30/23:30/
+02:30/05:30/13:30 beider Tage und der Mini-Energie-Lauf 22:30. Der 02.08. ist ein Tag mit
+**null substanziellen Commits** — der erste seit Fuehrung dieser Messung.
+
+**Fensterzustand jetzt: FREI.** Probe um 22:08 antwortet «OK». Der Reset liegt zehn Stunden
+zurueck, das System hat sich von allein gefangen: der 13:30-Zyklus lieferte
+`energie` Run 121 (PL-02-Korpus erschlossen, 1171 PDF gesichtet, 182 energierelevant, 9 neue
+Destillate, FAQ F197–F201, Themenartikel `bezugsgroessen-energienachweis`, dazu die
+Verifikations-Nachholung von Run 120 mit 4 Korrekturen), und der `methoden-radar` lief
+planmaessig um 21:02. Der Hub arbeitet wieder.
+
+**Liefer-Delta je Loop — und die entscheidende Unterscheidung.** Alle Nullbefunde dieses
+Fensters sind **Null-Ertrag durch Blockade, nicht Delta Null**. Es wird deshalb **nichts**
+ruecktaktet und **nichts** deaktiviert; das waere die Bestrafung eines hungrigen Loops fuer
+eine fremde Ursache.
+
+- `energie` — geliefert (Run 121, siehe oben). Kein Handlungsbedarf.
+- `projekt-lessons` — geliefert (RE-00087 Update, Register nachgefuehrt, 13:40).
+- `wissens-chef` — zwei Laeufe ohne Liefer-Beleg (01.08. 23:10, 02.08. 23:12), letzter Report
+  Run 22 vom 31.07. **Damit ist der Befund des `methoden-radar` von heute 21:02 erklaert und
+  zugleich entschaerft:** beide Laeufe fielen vollstaendig ins Limit-Fenster. Kein
+  Bestaetigungstakt, kein Eingriff. Der naechste Lauf um 23:11 faellt ins freie Fenster und
+  ist die erste belastbare Messung — er gehoert in den naechsten Radar-Lauf.
+- `vollgas-fruehwarnung` — **schreibt seit dem 01.08. 07:15 nicht mehr ins Log**, obwohl die
+  Registry fuer den 02.08. und 03.08. je einen Lauf ausweist. Fuer den 02.08. erklaert das
+  Limit den Ausfall; fuer den 03.08. 07:15 ebenfalls (Reset erst 12:00). Beobachtung, die
+  nicht ins Limit passt: die Session vom 03.08. 07:15 zeigt noch um 22:08 Aktivitaet, also
+  nach 15 Stunden, und hat trotzdem keinen Eintrag erzeugt. Das ist zu beobachten, nicht zu
+  bewerten — der Lauf morgen 07:15 faellt erstmals wieder in ein freies Fenster.
+
+**Feuermechanismen: konsistent, keine Abweichung.** MacBook Pro: kein `vollgas`-Job geladen,
+`vollgas-supervisor` und `vollgas-monitor` weiterhin `*.disabled-260729`, `aihub.runner`
+`.disabled-260728`. Mac Mini: geladen nur `ch.jans.nachtschicht`; `vollgas-supervisor`
+`.disabled-260729`, und `training-energie` traegt neu `.disabled-260803` — das ist der am
+03.08. behobene Doppeltakt (Commit `92618892`), der Scheduled Task ist dort jetzt alleiniger
+Taktgeber. Registry: 31 Tasks, kein Doppelfeuer. Der stehende Entscheid Raphaels vom 30.07.
+(Endlos-Runner bleibt ausgebaut) ist gewahrt; dieser Lauf hat nichts gestartet.
+
+**Speicher MacBook Pro: eng.** frei+inactive+purgeable **0.9 GB**,
+`kern.memorystatus_vm_pressure_level` = **2 (warning)**. Die Station ist in Benutzung
+(Claude.app aktiv). Keine Massnahme durch den Radar — das MacBook ist Arbeitsstation, und der
+Speicherdruck stammt aus der Arbeit, nicht aus Lern-Laeufen. Der Wert gehoert aber in die
+naechste Messung.
+
+**P1 — Das Wochenkontingent war am Samstagnachmittag aufgebraucht, zwei Tage vor dem Reset.**
+Das ist die Kernfrage fuer Raphael, und sie ist eine Regime-Entscheidung, keine
+Radar-Entscheidung: soll der Verbrauch frueher in der Woche gedrosselt werden, damit das
+Wochenende nicht leer laeuft? Zur Einordnung die letzten Messwerte der Fruehwarnung
+(kombiniert «teuer», Mio Token): 27.07. 26.50 · 28.07. 10.51 · 29.07. 11.41 · 30.07. 16.07 ·
+31.07. 6.11. Der Wochenanfang traegt die Last, das Wochenende zahlt sie. **Mail an rj@ ist
+raus** (Kriterium c, erschoepftes Wochenkontingent) — einmalig, ohne Wiederholung.
+
+**P2 — Die Aufsicht hat keinen Kanal ausserhalb des Kontingents.** Radar und Fruehwarnung
+sind beide `claude`-Laeufe und fallen mit dem Limit gemeinsam aus, genau dann, wenn gemeldet
+werden muesste. Ein Ein-Zeilen-Waechter ohne Modellaufruf (Dispatch-Log auf «weekly limit»
+grepen, bei Treffer eine Mail) wuerde diese Luecke schliessen. Nicht gebaut, weil er
+Mailversand ausloest und damit Raphaels Entscheid braucht — als Vorschlag hier notiert.
+
+**P3 —** Die beiden offenen Takt-Empfehlungen vom 01.08. stehen unveraendert und sind heute
+gefahrlos umsetzbar (nicht am Monatsersten): `wissenscheck-monatlich` 07:00 → 19:30 und
+`synergie-lauf-monatlich` 04:40 → 21:40, beide wegen Kollision mit benachbarten Slots.
+
+---
 ## 2026-08-01 14:12 — [FREI] NACHHOL-LAUF 2 Min nach dem Vorlauf: der Scheduler holt einen versaeumten Slot doch nach (korrigiert den Vorlauf)
 
 **Kurzlauf, bewusst schlank.** Dieser Lauf startete um 14:12, also zwei Minuten nachdem die

@@ -333,3 +333,52 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   Kapitaleinzahlungskontos direkt zu erfragen, statt bis zum 05.08. zu warten.
   **Status-Mail an rj@ gesendet** (kurz, nur der Entwurfs-Befund und der UBS-Termin; die
   Phasenlage selbst ist unveraendert und wurde nicht wiederholt). `fristen.md` nachgefuehrt.
+
+- **03.08.2026 (Monitor-Lauf, Montag, 22:07): der Notariats-Blocker ist gefallen, aber die
+  Mail liegt bei einem Abwesenden — und die UBS-IBAN ist am letzten der drei Arbeitstage
+  nicht eingetroffen.** Sweep ueber alle Konten (Apple Mail `mail@raphaeljans.ch` als
+  Primaerkanal, `rj@` Exchange, `raphaeljans@outlook.com`, iCloud), Vollsweep 4 Tage ueber
+  alle Mailboxen inkl. Entwuerfe/Geloescht/Junk plus Zielsuche 10 Tage auf
+  UBS/Jeckelmann/key4/IBAN/Kapitaleinzahlung/Kapitalbescheinigung/REGIX/Notariat/Beurkundung/
+  Handelsregister.
+
+  **Befund 1 (erledigt, echte Phasenaenderung): die Notariats-Mail ist am 03.08. 14:56:04
+  raus — in der richtigen Fassung.** Am Beleg geprueft: 3254 Zeichen (also Fassung (a) vom
+  31.07. 00:36:20, nicht die ueberholte vom 18.07.), Terminbitte «ab rund dem 10.08.26» als
+  provisorische Reservation unter Vorbehalt der Kapitalbescheinigung, beide Anhaenge
+  `260627_Gruendungsurkunde_Raphael-Jans-AG_Entwurf.docx` und
+  `260627_Statuten_Raphael-Jans-AG.docx`. Die vier ueberzaehligen Entwuerfe sind nach
+  `Geloeschte Elemente` verschoben; der Verwechslungsbefund vom 31.07. ist damit ebenfalls
+  geschlossen. Der Entwurf war zuletzt 16 Tage alt.
+
+  **Befund 2 (neu, terminkritisch): der Adressat ist abwesend, und die Mail ging nur an ihn
+  persoenlich.** Die automatische Antwort (03.08. 14:56:17) meldet M. Mathies **vom 27.07.
+  bis 07.08.2026 abwesend**, mit dem ausdruecklichen Hinweis, das E-Mail werde in dieser Zeit
+  **nicht gelesen oder bearbeitet**; fuer dringende Angelegenheiten nennt sie die Zentrale
+  **044 298 55 00** und das Sammelpostfach **wiedikon-zuerich@notariate-zh.ch**. Der
+  Empfaengercheck zeigt: die Mail ging **ausschliesslich an `marc.mathies@notariate-zh.ch`,
+  ohne Cc ans Sammelpostfach** — obwohl die urspruengliche Terminanfrage vom 21.06. genau
+  dorthin ging. Wirkung: die Unterlagen liegen bis fruehestens **Fr 07.08.** ungelesen, die
+  Vorbereitung der Urkunde beginnt fruehestens dann, und die eigene Terminrechnung
+  (Beurkundung ab rund 10.08.) verliert genau den Vorlauf, den der Versand von heute gewinnen
+  sollte. Nebenbefund: Mathies zeichnet als **Notariatslernender**, ist also nicht der
+  beurkundende Notar; die Terminreservation muss ohnehin ueber die Amtsstelle laufen.
+  **Aktion Raphael (Di 04.08.): dieselbe Mail ans Sammelpostfach nachreichen (Weiterleitung
+  mit Anhaengen) oder waehrend der Buerozeiten anrufen.**
+
+  **Befund 3 (UBS, unveraendert offen): keine IBAN.** Kein neuer UBS-Eingang; juengste Belege
+  bleiben Jeckelmann 29.07. 16:55 (Exchange) und der UBS-Bestaetigungscode 29.07. 12:50
+  (mail@). Gerechnet ab der Einreichung in der Geschaeftsstelle Wiedikon am Mi 29.07. waren
+  30.07. / 31.07. / 03.08. die drei zugesagten Arbeitstage — die Frist ist heute ausgelaufen,
+  ohne formal verletzt zu sein (ein Eingang morgen frueh bleibt im Rahmen). Die
+  **Nachfass-Schwelle 05.08.** bleibt unveraendert gueltig (B. Jeckelmann, 044 236 48 48).
+  Das Terminrisiko aus Jeckelmanns Ursprungsmail vom 23.06. (Ruecksendung per Post verlangt,
+  Abgabe in der Geschaeftsstelle verzoegere die Eroeffnung) ist damit weiterhin nicht
+  ausgeraeumt.
+
+  **Phasenlage:** Kapitaleinzahlungskonto beantragt und freigegeben → **IBAN ausstehend** →
+  Einzahlung CHF 100'000 → Kapitalbescheinigung (2 AT, Einschreiben) → Beurkundung →
+  HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com`. Beide offenen
+  Schritte sind Bring-Schulden Raphaels und durch den Monitor nicht aufloesbar.
+  **Status-Mail an rj@ gesendet** (echte Phasenaenderung); `fristen.md` in beiden AG-Zeilen
+  nachgefuehrt.

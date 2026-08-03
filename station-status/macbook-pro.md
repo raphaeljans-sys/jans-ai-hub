@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 03.08.2026 21:59:20
+Stand: 03.08.2026 22:09:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 21:59:20
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 861ba62f nas-selfcommit: 2 Datei(en) 2026-08-03 21:45
+- 02456697 methoden-radar: kein Delta, Rotation Methode SPW geprueft — Befund wissens-chef ohne Liefer-Beleg seit 31.07.
