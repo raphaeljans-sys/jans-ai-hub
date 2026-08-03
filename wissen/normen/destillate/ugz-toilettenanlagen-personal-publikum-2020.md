@@ -48,7 +48,8 @@ beziehungsweise über den Verweis auf die Schwester-Merkblätter).
 - Toilettenanlagen erfordern grundsätzlich einen Vorraum zu Arbeits-/Aufenthaltsbereichen.
   Trennwände Toiletten/Vorräume sowie Damen-/Herrenanlagen raumhoch; Elementwände für
   Toilettenzellen zulässig; Pissoirs untereinander sowie zum Lavabo mit Schamwänden.
-- Wand-/Bodenbeläge bis mind. 1.50 m glatt/abwaschbar, Fugen geschlossen.
+- Wandbeläge bis zu einer Höhe von mind. 1.50 m sowie Bodenbeläge glatt und leicht abwaschbar
+  (die Höhenangabe bezieht sich auf die Wand), Fugen geschlossen.
 - Handwascheinrichtungen im Vorraum (innerhalb Zellen nur bedingt zulässig).
 - Fensterlose Toilettenanlagen: mechanische Lüftung, Abluft grundsätzlich über Dach; je
   Toilette/Pissoir bei kontinuierlichem Betrieb (mind. 12 h/d) 30 m3/h, bei bedarfsgesteuertem/
@@ -163,8 +164,11 @@ Gegenteil beschreibt.)
 
 In Bauten im Geltungsbereich des Behindertengleichstellungsgesetzes (BehiG, vgl. § 34 BBV I)
 müssen die rollstuhlgängigen Toiletten gemäss Norm SIA 500:2009 «Hindernisfreie Bauten»
-ausgeführt werden (vgl. separates Merkblatt «Rollstuhlgängige Toiletten»). Keine eigene
-Bemassung/Skizze in dieser Ausgabe (anders als die Ausgabe 2012, dort mit Massskizzen).
+ausgeführt werden (vgl. separates Merkblatt «Rollstuhlgängige Toiletten»). Diese Ausgabe
+enthält keine Skizzen und keine Masse. Zu beachten (Klarstellung Runde 2): **auch die Ausgabe
+2012 nennt für rollstuhlgängige Anlagen keine eigenen Masse** — deren bemasste Skizzen zeigen
+gewöhnliche WC-Zellen und Vorräume. Für rollstuhlgängige Toiletten sind in beiden Ausgaben
+allein SIA 500:2009 und das Schwester-Merkblatt massgebend.
 
 ## Gesetzliche Grundlagen und Richtlinien (S. 2, Kasten)
 
@@ -183,16 +187,21 @@ Ausgaben (Mai 2012 und Dezember 2020) — trotz unterschiedlicher Dateinamen kei
 unabhängigen Quellen. Festgestellte inhaltliche Abweichungen zwischen den Ausgaben:
 
 1. **Stadien/Grossveranstaltungen-Schlüssel geändert:** Ausgabe 2020 setzt 75–100 Besucher je
-   Toiletteneinheit, Ausgabe 2012 setzte 75–150 Personen je Einheit (S. 1 dort) — die Ausgabe
-   2020 verschärft den Schlüssel auf die Hälfte der Bandbreite.
+   Toiletteneinheit, Ausgabe 2012 setzte 75–150 Personen je Einheit (S. 2 dort) — die Ausgabe
+   2020 verschärft: die Obergrenze fällt von 150 auf 100 Personen, also auf zwei Drittel; die
+   Bandbreite selbst schrumpft von 75 auf 25, also auf ein Drittel. (Korrektur Runde 2: die
+   Erstfassung sprach von «der Hälfte der Bandbreite», was in keiner Lesart zutrifft; die
+   Zahlenwerte 75–150 und 75–100 sind belegt und bleiben unverändert.)
 2. **Bemessungsgrundlage Gastwirtschaftsbetriebe grundlegend geändert:** Ausgabe 2012 stellte
    auf reine Innenplätze ab (Schwelle 10 Innenplätze für geschlechtsneutrale Toilette, danach
    pauschal 25 Innenplätze je WC-Einheit); Ausgabe 2020 stellt auf Innen+Aussenplätze
-   gemeinsam ab (Schwelle neu 49 Gästeplätze gesamt) und führt eine 12-stufige, anfangs
-   degressive Tabelle. Nicht nur eine Zahl geändert, sondern die Bemessungsmethodik selbst.
+   gemeinsam ab (Schwelle neu 49 Gästeplätze gesamt) und führt eine 12-stufige Tabelle mit
+   steigenden Zuwächsen in den unteren Stufen. Nicht nur eine Zahl geändert, sondern die
+   Bemessungsmethodik selbst — wobei die 25-Innenplätze-Regel der Ausgabe 2012 ab Einheit 4
+   fortlebt.
 3. **Ausnahme für Kleinstbetriebe bei Personaltoiletten unterschiedlich gefasst:** Ausgabe 2012
-   nennt explizit und unbedingt «bis zu 5 Arbeitnehmenden genügt eine geschlechtsneutrale
-   Toilette»; Ausgabe 2020 formuliert die Erleichterung bis 10 Arbeitnehmende, aber an die
+   nennt «bis zu 5 Arbeitnehmenden genügt eine geschlechtsneutrale Toilette», ohne weitere
+   Bedingung; Ausgabe 2020 formuliert die Erleichterung bis 10 Arbeitnehmende, aber an die
    Bedingung «wenig verschmutzende Tätigkeit» geknüpft — nicht direkt deckungsgleich, in der
    Fläche aber grosszügiger formuliert.
 4. **Krippen-/Horte-/Kindergarten-Tabellen entfallen 2020:** die detaillierten Zahlenwerte der
@@ -202,11 +211,55 @@ unabhängigen Quellen. Festgestellte inhaltliche Abweichungen zwischen den Ausga
    Hygieneverordnung (HyV) und den «Leitfaden Gastwirtschaftsbetriebe, Finanzdirektion Kt. ZH»;
    Ausgabe 2020 nennt zusätzlich SIA 382-1 (Lüftung/Klima) — beide Listen sind nicht identisch.
 
+**In Runde 2 zusätzlich gefundene Unterschiede (in der Erstfassung übersehen):**
+
+6. **Bezugsgrösse Theater/Kino gewechselt:** Ausgabe 2012 bemisst mit «35–75 Sitzplätze», diese
+   Ausgabe 2020 mit «35–75 Besucher». Für ein Raumprogramm ist das nicht dasselbe: Sitzplätze
+   sind eine bauliche, gleichzeitig anwesende Besucher eine betriebliche Grösse.
+7. **Warmwasser differenziert:** Ausgabe 2012 verlangt die Handwascheinrichtungen generell mit
+   fliessend kaltem und warmem Wasser; diese Ausgabe 2020 lässt bei Toiletten für Kunden,
+   Gäste und Besucher kaltes Wasser genügen und verlangt warmes nur bei Personaltoiletten.
+   Relevant für den Warmwasseranschluss und damit für die Kosten.
+8. **Ausdrückliche Rollstuhl-Mindestanforderung bei Publikumsbauten entfallen:** Ausgabe 2012
+   verlangt für Bauten mit Publikumsverkehr ausdrücklich mindestens eine rollstuhlgängige
+   Anlage; diese Ausgabe 2020 nennt das an der entsprechenden Stelle nicht mehr und regelt die
+   Hindernisfreiheit nur noch über den BehiG-/SIA-500-Verweis sowie über die
+   Gastro-Formulierung «in der Regel rollstuhlgerecht».
+9. **Bemasste Skizzen entfallen:** Die Ausgabe 2012 enthält drei bemasste Grundrissskizzen
+   «Toiletten und Vorräume (Beispiele)» samt Minimalflächen-Regel (kleineres Breitenmass mal
+   grösseres Längenmass, Beispiele 0.80 x 1.50 m bzw. 1.00 x 1.30 m), der Regel «Vorraum mit
+   Waschgelegenheit zwingend, wenn die Anlage gegen Arbeitsplätze oder Aufenthaltsbereiche
+   öffnet» und der Erleichterung «Korridor als Vorraum, wenn Fluchtweg mindestens 1.20 m».
+   All das fehlt in der Ausgabe 2020 ersatzlos — für Zellen- und Vorraummasse bleibt die
+   Ausgabe 2012 damit die einzige belegte Quelle des UGZ.
+
 Für die tagesaktuelle Bauberatung/Baueingabe ist mangels expliziten Ausserkraftsetzungsvermerks
 auf dem älteren Dokument die **jüngere Ausgabe (Dezember 2020) massgebend**, ausser bei den
 Krippen-/Horte-Zahlenwerten, wo die 2012-Ausgabe die einzige belegte Quelle bleibt (offener
 Punkt: ob das separate, in der 2020-Ausgabe erwähnte Merkblatt «Kinderkrippen / Horte /
 Mittagstisch» dieselben oder geänderte Werte führt, ist hier nicht verifiziert).
+
+## Verifikationsprotokoll Runde 2 (03.08.2026)
+
+- Zuordnung der Ausgaben am Original bestätigt: diese Datei
+  `MB_BAU_Toilettenanlagen-fuer-Personal-und-Publikum.pdf` trägt auf S. 2 oben rechts sichtbar
+  «Merkblatt Dezember 2020»; die Schwester-Datei `UGZ_Toilettenanlagen.pdf` trägt auf S. 2
+  unten links «Merkblatt Version Mai 2012». **Kein Vertauschungsfehler.**
+- **Alle fünf ursprünglich behaupteten Widersprüche zwischen den beiden Ausgaben wurden am
+  Original bestätigt; keiner war erfunden.** Vier weitere Unterschiede kamen hinzu (Ziffern
+  6–9 oben).
+- Verdikt Runde 2 für diese Datei: **BEANSTANDET**, 2 Kernbefunde (zweimal fehlende
+  Kennzeichnungspflicht in den Baugesuchsplänen, fehlender Geltungsbereichs-Abschnitt) und
+  4 Nebenbefunde (falsche Seitenangaben zu Abschnitt 2 und zur Kunden-Tabelle, falsche
+  Rechen-Charakterisierung des Stadien-Widerspruchs, «degressiv» statt steigender Zuwächse,
+  übersehene Unterschiede zu 2012). Alle eingearbeitet.
+- Über beide Ausgaben-Destillate zusammen wurden rund 215 Einzelaussagen und Tabellen-Zellwerte
+  geprüft. Bestätigt und unverändert: alle vier Zeilen der Personaltoiletten-Tabelle inklusive
+  Kopfzeile «Frauen (F) / Männer ohne Pissoir» und Quellenzeile zur Wegleitung ArGV 3, alle
+  36 Zellwerte der Gastwirtschafts-Tabelle mit beiden Fussnoten, alle vier Zeilen der
+  Kunden-/Gäste-Tabelle, die Gastro-Schwellen 49/50 und 10 Sitz-/20 Stehplätze, die
+  Lüftungswerte 30/60 m3/h, die 100-m-Regel, die 1.50-m-Belagshöhe, die Rechtsgrundlagen-Liste,
+  die Angaben zum Kantonalen Labor und der Herausgeberblock.
 
 ## Offene Punkte
 

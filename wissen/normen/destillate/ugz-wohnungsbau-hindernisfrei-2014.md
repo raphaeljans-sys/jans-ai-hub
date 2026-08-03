@@ -2,9 +2,9 @@
 quelle: "04_Merkblätter/UGZ_Wohnungsbau_hindernisfrei.pdf"
 herausgeber: "Stadt Zürich, Umwelt- und Gesundheitsschutz (UGZ), Bewilligungen Bauprojekte, Fachbereich Bau und Energieeffizienz, Walchestrasse 31, Postfach, 8021 Zürich"
 ausgabe: "Merkblatt «Wohnungsbau hindernisfrei - anpassbar», Ausgabe November 2014, 2 Seiten"
-gelesen: "Run 42 (030826): Volltext S. 1-2 gelesen; Parkfeld-Bemassungsfigur S. 1 zusaetzlich als PNG gerendert (200 dpi) und visuell abgelesen (Praefix /tmp/mb42-ugzwhg-)"
+gelesen: "Run 42 (030826): Volltext S. 1-2 gelesen; Parkfeld-Bemassungsfigur S. 1 zusaetzlich als PNG gerendert (200 dpi) und visuell abgelesen (Praefix /tmp/mb42-ugzwhg-). Runde 2 (030826, Run 42, unabhaengiger Refuter): Split-Level-Formulierung und Parkierungsfigur nachgeprueft. NICHT vorliegend/nicht geprueft: die Norm SIA 500 selbst (Merkblattmasse deshalb NICHT gegen den Normwortlaut verifiziert), die Richtlinie 'Wohnungsbau hindernisfrei - anpassbar' der Fachstelle, der Wortlaut von § 34 BBV I / Anhang BBV I Ziff. 2.51/2.52, PBG § 239a/§ 239b, SN 521 500:1988, ob SIA 500:2009 heute noch die gueltige Ausgabe ist"
 datenstand: "November 2014"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
+status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation). Runde 2 (030826, Run 42): unabhaengiger Refuter, rund 150 Einzelaussagen ueber die drei Dateien, VERDIKT BEANSTANDET, 1 Kernbefund + 3 Nebenbefunde, alle eingearbeitet."
 last_updated: 2026-08-03
 links: [[REGISTER]]
 ---
@@ -54,12 +54,18 @@ Bewegungsflächen sicherstellen.
   Kennzeichnung.
 - **Senkrecht-/Schrägparkierung**: Parkfeldbreite min. **3.50 m** (davon 1.00 m auf der
   Fahrerseite dürfen im Fussgängerbereich liegen, verbleibende Fahrzeug-/Manövrierfläche in
-  der Figur 2.50 m bzw. 5.00 m Parkfeldlänge dargestellt).
+  der Figur 2.50 m bzw. 5.00 m Parkfeldlänge dargestellt). **Nebenbefund:** Die Figur zeigt
+  zusätzlich, gestrichelt und nicht kotiert, eine Zusatzfläche «Manövrierfläche vor
+  Kofferraum» hinter dem 5.00 m langen Parkfeld, ausserhalb des Parkfelds selbst — in
+  Tiefgaragen-Layouts ein regelmässig übersehener Flächenbedarf.
 - **Längsparkierung**: Parkfeldlänge min. **8.00 m**, freie Fläche links des Parkfeldes (in
   Fahrtrichtung gesehen) min. **1.40 m** breit.
 - Längs- und Quergefälle max. **2 %**.
 
 ### Aussenraum (S. 1)
+
+**Menschen mit und ohne Behinderung sollen den gleichen Hauseingang benützen können** (S. 1,
+Grundsatz vor den Einzelmassen — fehlte bislang).
 
 - Gebäudezugang ab öffentlichem Grund zum Haupteingang: stufenlos, Rampen max. 6 % Steigung,
   Wege min. **1.20 m** breit, mit Rollstuhl befahrbarer Bodenbelag.
@@ -99,17 +105,29 @@ erhöhte Breite nach der Formel **Türbreite + Korridorbreite ≥ 2.00 m** aufwe
 
 Kabine min. **1.10 m breit x 1.40 m lang** (bei Umbauten min. 1.00 x 1.25 m), lichte
 Türbreite min. 0.80 m — Verweis auf das separate Merkblatt «Hindernisfreie Aufzüge» (siehe
-Destillat `ugz-hindernisfreie-aufzuege-2010.md`). Treppenlifte/Hebebühnen gelten ausdrücklich
-**nicht** als gleichwertige Alternative zum Aufzug.
+Destillat `ugz-hindernisfreie-aufzuege-2010.md`).
+
+### Treppenlifte und Hebebühnen (S. 2)
+
+Bislang nur verkürzt wiedergegeben; vollständig lautet der Originaltext: «Treppenlifte und
+Hebebühnen sind keine gleichwertigen Alternativen zum Aufzug und eignen sich eher für die
+nachträgliche wohnungsinterne Erschliessung. Die erforderlichen Frei- und Montageflächen sind
+zu beachten. Im Aussenraum sollte auf störungsanfällige technische Hilfsmittel verzichtet und
+der stufenlose Zugang mit Rampen realisiert werden.»
 
 ### Wohnungen mit unterschiedlichen Niveaus (S. 2)
 
-Bei mehrgeschossigen/Split-Level-Wohnungen: mindestens ein Wohnraum, eine Küche und ein
-rollstuhlgerechter Toilettenraum müssen im Eingangsgeschoss stufenlos erschlossen sein.
-Toilettenraum: Türbreite min. 0.80 m, kein Raummass unter 1.20 m, Freifläche vor dem
-Klosettbecken **0.80 x 1.20 m**. Wohnungsinterne Treppen müssen nachträglichen
-Treppenlift-Einbau ermöglichen: einläufig min. 1.00 m breit, andere Treppenformen 1.10 m
-breit, lichte Durchgangshöhe 2.10 m.
+**Korrekturvorbehalt:** Bei mehrgeschossigen und Split-Level-Wohnungen muss **das Wohngeschoss**
+— nicht das Eingangsgeschoss — mit mindestens einem Wohnraum, einer Küche und einem mit
+Rollstuhl zugänglichen Toilettenraum stufenlos erschlossen sein. Original wörtlich: «Bei
+mehrgeschossigen und Split-Level-Wohnungen muss das Wohngeschoss mit mindestens einem
+Wohnraum, einer Küche und einem mit Rollstuhl zugänglichen Toilettenraum stufenlos erschlossen
+sein.» Bei Split-Level-Wohnungen fallen Wohn- und Eingangsgeschoss regelmässig auseinander —
+die bisherige Fassung «im Eingangsgeschoss» verlegte die Anforderung fälschlich auf eine andere
+Ebene, als das Original verlangt. Toilettenraum: Türbreite min. 0.80 m, kein Raummass unter
+1.20 m, Freifläche vor dem Klosettbecken **0.80 x 1.20 m**. Wohnungsinterne Treppen müssen
+nachträglichen Treppenlift-Einbau ermöglichen: einläufig min. 1.00 m breit, andere
+Treppenformen 1.10 m breit, lichte Durchgangshöhe 2.10 m.
 
 ### Küchen (S. 2)
 
@@ -136,6 +154,18 @@ Ein Viertel der ausserhalb der Wohnung liegenden Abstellräume muss für Rollstu
 nutzbar sein. Mindestens eine Waschküche (falls angeboten) muss mit Rollstuhl erreichbar
 sein; vor Waschmaschinen/Wäschetrocknern freie Fläche **1.40 x 1.40 m**.
 
+## Normfassung
+
+Das Dokument zitiert die Norm in **zwei unterschiedlichen Weisen im selben Merkblatt**: S. 1
+jahreslos und mit ungenauem Titel — «Die Mindestanforderungen sind in der Norm SIA 500
+„Hindernisfreies Bauen“ definiert» (die Norm heisst tatsächlich «Hindernisfreie Bauten», nicht
+«Hindernisfreies Bauen»); S. 2 dagegen wörtlich exakt: «Folgende Norm und Richtlinie sind
+gemäss § 34 BBV I, Ziff. 2.51 und 2.52 Anhang BBV I anzuwenden: SIA 500:2009, Hindernisfreie
+Bauten». Das Dokument stützt sich nicht auf SN 521 500:1988 und liefert keinen eigenständigen
+Beleg zum Wortlaut von § 34 BBV I / Anhang BBV I Ziff. 2.51/2.52 oder zu PBG §239a/§239b
+selbst — der offene Punkt H41-1 bleibt offen, ist mit dieser Präzisierung aber genauer gestellt
+(siehe `wiki/QUESTIONS.md`).
+
 ## Rechtsgrundlagen (S. 2, wörtliche Aufzählung im Original)
 
 Bund: Behindertengleichstellungsgesetz BehiG, Behindertengleichstellungsverordnung BehiV.
@@ -155,21 +185,25 @@ ugz-energie@zuerich.ch.
 Zentrales Prüfraster für Wohnbau-Vorprojekte (Skills `machbarkeit`, `baurecht`) sobald ein
 Bauvorhaben ab 5 Wohnungen im gleichen Treppenhaus oder eine Arealüberbauung vorliegt — die
 Wohnungszahl-Schwellen (5/8/9) sind ein häufiger Übersehpunkt bei der Grundriss-Vordimensionierung.
-Sanitärraum-Mindestfläche 3.80/3.60 m² und Schlafzimmer-Mindestmasse 3.00 x 14 m² sind direkte
-Eingangsgrössen für Raumprogramme.
+Sanitärraum-Mindestfläche 3.80/3.60 m² sowie die Schlafzimmer-Mindestwerte (Minimalbreite
+3.00 m **und** Minimalfläche 14 m² — **kein** Rechteckmass 3.00 x 14 m², das Original nennt
+Breite und Fläche als zwei getrennte Grössen) sind direkte Eingangsgrössen für Raumprogramme.
 
 ## Offene Punkte
 
-- Norm eindeutig belegt: **SIA 500:2009** (S. 2, «Folgende Norm und Richtlinie sind gemäss
-  § 34 BBV I, Ziff. 2.51 und 2.52 Anhang BBV I anzuwenden: SIA 500:2009, Hindernisfreie
-  Bauten»). Zusätzlich wird **PBG §239a/§239b** explizit als kantonale Rechtsgrundlage
-  genannt — relevant für H41-1 (offene Frage in `wiki/QUESTIONS.md`, ob § 239 PBG/§ 34 BBV I
-  auf SIA 500:2009 durchschlägt): dieses Dokument datiert von 2014 und verweist bereits klar
-  auf SIA 500:2009, liefert also einen Beleg für den späteren Fassungsstand, aber keine
-  Aussage zum genauen Umstellungszeitpunkt der Verordnung selbst.
+- **Zugrunde liegende Normfassung**: siehe eigener Abschnitt «Normfassung» oben. H41-1 bleibt
+  offen (ob § 239 PBG/§ 34 BBV I zum Merkblatt-Datum, November 2014, bereits durchgängig auf
+  SIA 500:2009 durchschlägt), siehe `wiki/QUESTIONS.md`. Ebenfalls offen: ob SIA 500:2009 heute
+  noch die gültige Ausgabe ist.
+- Die Merkblattmasse sind **nicht** gegen den Wortlaut der Norm SIA 500 geprüft, da diese Norm
+  hier nicht vorliegt; ebenso nicht geprüft: der Wortlaut von § 34 BBV I / Anhang BBV I
+  Ziff. 2.51/2.52 und von PBG §239a/§239b selbst.
 - Die minimalen Wende- und Stellflächen im Sanitärraum werden im Merkblatt nur per Verweis
   auf die (hier nicht vorliegende) Richtlinie «Wohnungsbau hindernisfrei – anpassbar»
   benannt, nicht selbst beziffert — nicht belastbar aufnehmbar ohne diese Zusatzquelle.
 - Der genaue Umfang «weitergehende Anforderungen» für Bauten mit spezifischen Wohnnutzungen
   (Wohnheime, Alterswohnungen) wird nur erwähnt, nicht beziffert (S. 1) — für Healthcare-nahe
   JANS-Projekte (Pflegewohnen) separat zu klären, ausserhalb dieser Quelle.
+- **Das Merkblatt ist 12 Jahre alt** (Ausgabe November 2014) — vor Anwendung auf aktuelle
+  Wohnbauprojekte gegen den heute geltenden Stand von SIA 500 und der kantonalen
+  Rechtsgrundlagen zu verifizieren.

@@ -135,6 +135,45 @@ Mailversand ausloest und damit Raphaels Entscheid braucht — als Vorschlag hier
 gefahrlos umsetzbar (nicht am Monatsersten): `wissenscheck-monatlich` 07:00 → 19:30 und
 `synergie-lauf-monatlich` 04:40 → 21:40, beide wegen Kollision mit benachbarten Slots.
 
+### NACHTRAG 23:2x — Raphael hat das Paket freigegeben, es ist gebaut und nachgemessen
+
+Auf Nachfrage im Plan-Modus vorgelegt und freigegeben: **A3 + B1 + C1 + D1**. Umgesetzt:
+
+- **`scripts/kontingent-budget.sh`** (neu) — misst den Wochenverbrauch OHNE Modellaufruf
+  (4 Sekunden auf 3.3 GB Transcripts), stationsuebergreifend ohne SSH ueber
+  `logbuch/kontingent/verbrauch-<station>.json`. Beide Pfade nachgemessen: FREI → rc 0,
+  DROSSEL → rc 1. `--messung` haelt den Read-only-Vertrag (Verzeichnis blieb leer).
+- **`scripts/kontingent-waechter.sh`** (neu) — der Meldekanal AUSSERHALB des Kontingents,
+  haengt an `ch.jans.speicher-waechter` (30 Min, beide Stationen), kein neuer
+  Feuermechanismus. Mailweg, Sperrdatei, Fehlalarm-Freiheit und Echterkennung je einzeln
+  nachgemessen.
+- **`scripts/lauf-gate.sh`** — Budget-Abfrage ergaenzt, drei Pfade belegt (Freigabe,
+  Abweisung, operativer Name kommt trotz leerem Budget durch).
+- **Radar-SKILL** Schritte 2b/2c (Budget messen, Lern-Tasks ab Schwelle drosseln und nach
+  dem Reset ohne Rueckfrage zurueckholen) · **Fruehwarnungs-SKILL** Schritt 0 (Logeintrag
+  zuerst) · Registry-Verlegungen vollzogen, beide `nextRunAt` auf 01.09. gegengelesen.
+
+**Zwei Befunde aus dem Bau, die schwerer wiegen als das Gebaute:**
+
+1. **Die Fruehwarnung war strukturell blind fuer 63 % des Verbrauchs.** Ihr Glob
+   `~/.claude/projects/*/*.jsonl` greift nur eine Ebene tief; die Subagenten-Transcripts
+   liegen unter `<projekt>/<session>/subagents/`. Nachgemessen am 31.07.: Hauptsessions
+   7.24 Mio, Subagenten 12.23 Mio, gemeldet wurden 4.79. **Das ist der strukturelle Grund,
+   warum niemand das Limit kommen sah.** Glob im SKILL auf rekursiv korrigiert; alle
+   FRUEHWARNUNG.md-Werte vor dem 03.08. sind zu tief und nicht mit neuen vergleichbar.
+   Die Kalibrierung des Budgets stuetzt sich deshalb NICHT auf ihre Zahlen, sondern auf den
+   beobachteten Limit-Treffer: **167.07 Mio "teuer"** kombiniert (MacBook 142.58 + Mini
+   24.48) beim Treffer am 01.08.
+2. **Der Waechter waere in seiner ersten Fassung ein Dauermelder gewesen.** Ein simples
+   `grep "weekly limit"` fand beim ersten Trockenlauf 36 Dateien — darunter die Session,
+   die ihn gerade baute. Ein Text-Grep kann das Melden nicht vom Reden ueber das Gemeldete
+   unterscheiden. Behoben ueber den strukturellen Marker `isApiErrorMessage: true`.
+
+**Aktueller Budgetstand beim Bau:** 24.4 von 167 Mio (14.6 %) bei 6.5 % verstrichener Woche,
+also **+8.1 Punkte Vorsprung am ersten Tag**. Ein Tag ist kein Trend und der Nachhol-Effekt
+nach dem Reset wirkt mit — aber es ist genau das Muster, das den Vorfall erzeugt hat.
+Erste belastbare Messung: der Radar-Lauf morgen.
+
 ---
 ## 2026-08-01 14:12 — [FREI] NACHHOL-LAUF 2 Min nach dem Vorlauf: der Scheduler holt einen versaeumten Slot doch nach (korrigiert den Vorlauf)
 

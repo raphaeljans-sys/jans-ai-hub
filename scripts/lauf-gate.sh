@@ -179,6 +179,46 @@ if [ "$DRUCK" -ge 2 ]; then
     fi
 fi
 
+# --- Wochenkontingent ---------------------------------------------------------
+# Ergaenzt 03.08.2026 nach dem Wochenlimit-Vorfall 01.-03.08. (47 Stunden leeres
+# Kontingent, elf blockierte Laeufe, ein Sonntag ohne einen einzigen
+# substanziellen Commit). Bis dahin schuetzte das Gate nur den SPEICHER — eine
+# Station konnte kerngesund sein und trotzdem gegen ein leeres Wochenkontingent
+# laufen, weil niemand es gemessen hat.
+#
+# BEWUSSTE REICHWEITE: das Gate erreicht nur, was es fragt — die Nachtschicht
+# und die launchd-Jobs. Die 31 Claude-Scheduled-Tasks feuern aus der App und
+# fragen niemanden; sie sind seit dem Ausbau des Endlos-Runners die groesseren
+# Verbraucher. Deren Drossel besorgt der vollgas-chef-radar ueber
+# enabled=false. Dieser Block ist also die halbe Miete, nicht die ganze.
+#
+# Die Messung kostet rund 4 Sekunden (3.3 GB Transcripts, 03.08.2026) und
+# laeuft absichtlich ZULETZT: die billigen Speicherpruefungen sollen vorher
+# abweisen koennen, damit der Normalfall nichts kostet.
+#
+# Ein fehlendes oder defektes Budget-Script sperrt NIE (Exit 2 = Messung nicht
+# moeglich). Eine Schutzmechanik, die bei fehlender Kennzahl alles blockiert,
+# ist am 29.07. schon einmal zum Dauerveto geworden — dieser Fehler wird hier
+# nicht wiederholt.
+case "$NAME" in
+    # Operative Briefings blieben unberuehrt, falls sie je das Gate fragen.
+    logbuch-radar|hub-chef*|mahnwesen*|zahlungsabgleich*|heartbeat*|ag-gruendung*|konversations-log)
+        : ;;
+    *)
+        BUDGET="$HOME/Developer/jans-ai-hub/scripts/kontingent-budget.sh"
+        [ -f "$BUDGET" ] || BUDGET="/Volumes/daten/jans-ai-hub/scripts/kontingent-budget.sh"
+        if [ -f "$BUDGET" ]; then
+            BSTAND=$(bash "$BUDGET" --json 2>/dev/null | tail -1)
+            BRC=$?
+            if [ "$BRC" -eq 1 ]; then
+                BPROZ=$(echo "$BSTAND" | python3 -c "import json,sys; print(json.load(sys.stdin).get('anteil_prozent','?'))" 2>/dev/null)
+                log "ABGEWIESEN $NAME — Wochenkontingent zu ${BPROZ} % aufgebraucht (Drosselschwelle erreicht)."
+                exit 1
+            fi
+        fi
+        ;;
+esac
+
 # Freigabe wird nur protokolliert, wenn es eng war — sonst laeuft das Log zu.
 if [ "$AKTIV" -gt 0 ] || [ "$FREI" -lt $(( MIN_FREI_MB * 2 )) ]; then
     log "FREIGABE $NAME — $AKTIV/$MAX_LAEUFE Laeufe, ${FREI} MB verfuegbar, Druck $DRUCK."
