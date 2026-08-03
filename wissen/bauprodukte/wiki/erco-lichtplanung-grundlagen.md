@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht (Teil 1/n, Seiten 1-40)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht (Teil 1/n, Seiten 1-60)"
 status: emerging
-last_updated: 2026-07-31
-gelesen: "Seiten 1-40 von ca. 435 (Kapitel «Grundlagen» vollständig: Geschichte, Sehen und Wahrnehmen inkl. Konstanz/Gestaltwahrnehmung/Gegenstände der Wahrnehmung; Kapitel «Gestalten mit Licht» begonnen: Architekturbeleuchtung > Innenräume beleuchten vollständig, Räume verbinden bis «Innenraum–Aussenraum», S. 40). Offen: «Räume verbinden» Rest, «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik», «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht, Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-40 Edition 26.06.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-03
+gelesen: "Seiten 1-60 von ca. 435 (Kapitel «Grundlagen» vollständig: Geschichte, Sehen und Wahrnehmen inkl. Konstanz/Gestaltwahrnehmung/Gegenstände der Wahrnehmung; Kapitel «Gestalten mit Licht» weitgehend: Architekturbeleuchtung > Innenräume beleuchten, Räume verbinden (Innenraum-Innenraum, Innenraum-Aussenraum, Aussenraum-Innenraum, Aussenraum-Aussenraum) vollständig; Objekte beleuchten (Lichtrichtung, Lichtverteilung variieren, Objekt betonen) vollständig; Mit Lichtfarben gestalten (Farbe/Lichtfarbe/Körperfarbe, Farbsysteme CIE/Munsell, weisses/farbiges Licht, Farbmischung, Farbwiedergabe, Farbwirkung, Farbkontraste nach Itten) vollständig, S. 60). Offen: «Aussenraumbeleuchtung» (eigenes Kapitel), «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur als Leuchtenkennwert), «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht, Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54 und S.57-60 Edition 26.06.2006, S.55-56 Edition 01.03.2010 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[REGISTER]]
 ---
 
@@ -15,7 +15,7 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten beiden Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 40 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 60 Seiten.
 
 ## Herstellerneutralität
 

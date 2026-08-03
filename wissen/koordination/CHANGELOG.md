@@ -32,6 +32,51 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 - **Takt-Befund:** der als monatlich gefuehrte Task lief 25.07./01.08./03.08.; Empfehlung
   naechster Lauf fruehestens 01.09.2026.
 
+## 2026-08-03 — Wissens-Chef Run 24 (Cross-KB-Delta, 12 Agenten)
+
+- **Bericht:** `outputs/2026-08-03_wissens-chef-run24.md`. Vier Felder, 35 gemeldete Befunde,
+  **8 verifiziert (7 bestaetigt, 1 widerlegt)**, **9 Dateien in 4 KBs korrigiert**.
+- **Bewusst schlank dimensioniert:** Run 23 lag beim Start **22 Minuten** zurueck. Erst gemessen,
+  ob Substanz gewachsen ist (ja: `energie` Lauf 122 mit neun AHB-Destillaten um 22:58, `normen`
+  mit sieben Destillaten zwischen 22:46 und 23:08), dann vier Felder statt sechs, 12 Agenten statt
+  30. Zweiter Grund: das Kontingent lief mit 15.7 % Verbrauch bei 6.7 % verstrichener Woche
+  **9 Punkte vor** dem Zeitanteil.
+- **Teuerster Fund — die Baurechts-KB fuehrte falsche Gelaenderhoehen.** Regelhoehe und
+  Brustungshoehe **vertauscht** (90/100 statt 1 m/90 cm), Kugelprobe 12 cm als «≤ 90 mm», dazu
+  eine **frei hinzugefuegte** Hochhaus-Hoehe «110 cm (> 12 m)» mit falscher Fundstellenangabe.
+  Zwei unabhaengige Verifikatoren, beide am Original (Buch-Screenshot Shot 649 **und** beide
+  Norm-Ausgaben).
+- **Die angemeldete Fassungsdivergenz existierte nicht.** `baurecht` hatte den Widerspruch selbst
+  bemerkt und als Unterschied SIA 358:1996 ↔ :2010 angemeldet. Beide Originale liegen im Haus und
+  wurden gelesen: **identische Masse**. Der Fehler entstand beim Destillieren aus dem Screenshot.
+  Waere die Melder-Aufloesung («als Stand-1996-Zitat kennzeichnen») umgesetzt worden, haette die
+  KB eine Normhistorie festgeschrieben, die es nie gab.
+- **K42-4a geschlossen** — der hoechstprioritaere Leseauftrag aus Run 23, an dem drei KBs hingen.
+  SIA 500:2009 **Anhang E, Fig. E.1 (S. 49) / E.2 (S. 51)**: «+ 0.46 (OK Brille)». **46 cm ist
+  normbelegt**, die 50 cm sind widerlegt. Am Original-PDF vom Chef selbst gelesen, unabhaengig
+  bestaetigt durch das am Vorabend destillierte Procap MB 105.
+- **Aus einer Pflicht war eine Komfortstufe geworden:** die Aufzugs-Zeile «erhoehte Anforderung
+  1.40 × 1.40 m» in `planungsgrundlagen` — zwingend bei ueber Eck angeordneten Tueren
+  (SIA 500 Ziff. 3.7.4, am Original nachgelesen). Praxisfolge: eine nicht wendbare Kabine.
+- **Zwei tote Rechtsgrundlagen in frisch destilliertem Bestand:** § 22 WWG (aufgehoben, WsG seit
+  01.06.2026, mit geaenderter Zustaendigkeit im Bauverfahren) und Art. 20/20a LRV (aufgehoben seit
+  01.01.2022, Pflicht **entfallen**) samt SIA 380/4 (archiviert seit 31.07.2019).
+- **Eine Luecke, die keine war** — und ein Verifikator, der die falsche Schliessung verhinderte:
+  die EN-12464-1-Tabelle liegt im Bestand, gibt aber den Stand vor 2011 wieder; **E-122-6 bleibt
+  deshalb offen** statt mit einer 19 Jahre alten Tabelle geschlossen zu werden.
+- **Bewusst nicht eingetragen:** die Zahlen der UGZ-Ausgabe **September 2022** (vom Verifikator im
+  Web gefunden, nicht im Hub). Stattdessen Fassungsvorbehalt + Beschaffungsauftrag. Gestrichen
+  wurde die belegbar falsche Zusicherung «inhaltlich deckungsgleich, Tabellen unveraendert».
+- **Verfahren:** **6 von 8 Aufloesungen** mussten korrigiert werden, obwohl 7 von 8 Befunden
+  hielten. Neues Struktur-Muster im Register: «Transkriptionsfehler tarnt sich als
+  Fassungsdivergenz» — vor jeder Fassungserklaerung die **eigene Quelle** des abweichenden
+  Destillats oeffnen.
+- **Register:** `QUERBEZUEGE.md` um 5 Paar-Eintraege und das dritte Struktur-Muster ergaenzt.
+- **Keine eigene Mail** (Rule 260803). Ein Punkt fuer das Tagesbriefing markiert: wer zuletzt eine
+  Absturzsicherung aus der KB heraus bemessen hat, sollte den Wert gegenpruefen.
+- **Kein neuer Entscheid fuer Raphael.** Die beiden aus Run 23 bleiben offen; Entscheid 10.1
+  (Grundkontext-Waage) ist durch die DNA-Aufteilung um 23:11 in der Sache weitgehend erledigt.
+
 ## 2026-08-03 — Wissens-Chef Run 23 (Cross-KB, 30 Agenten)
 
 - **Bericht:** `outputs/2026-08-03_wissens-chef-run23.md`. Sechs Felder, 46 gemeldete Befunde,

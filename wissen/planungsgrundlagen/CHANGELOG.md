@@ -2,6 +2,43 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — 4 Artikel berichtigt: Aufzug, Sitzhoehe, tote Erlasse, Toilettenschluessel
+
+- **`wiki/recht-norm-hindernisfreies-bauen-zh.md` — aus einer Pflicht war eine Komfortstufe
+  geworden.** Die Kabinen-Tabelle fuehrte «Im Gebaeudeinneren, **erhoehte Anforderung** |
+  1.40 × 1.40 m». Richtig ist: **bei ueber Eck angeordneten Kabinentueren zwingend
+  1.40 × 1.40 m** — **SIA 500:2009 Ziff. 3.7.4**, am Original-PDF nachgelesen. Praxisfolge des
+  Fehlers: eine Kabine, in der der Rollstuhlfahrende nicht wenden kann, nach dem Bau nicht
+  korrigierbar. Beleg auf die Norm gesetzt (nicht auf das kommunale UGZ-Merkblatt, das
+  Vollzugshilfe ist), Warnhinweis zum strukturellen Uebersehpunkt (Tabelle in Ziff. 3.7.3, die
+  Bedingung eine Ziffer spaeter) und **Fassungsvorbehalt SN 521500/C4:2019** (unausgewertet, P1
+  in `../normen/wiki/QUESTIONS.md`).
+- **`wiki/recht-norm-sanitaerraeume-planungsgrundlagen.md` — Sitzhoehen-Vorbehalt aufgeloest.**
+  Massgebend sind **46 cm** (SIA 500:2009 Anhang E, Fig. E.1 S. 49 / E.2 S. 51: «+ 0.46 OK
+  Brille»), nicht die 50 cm der KL_Hochbau-Blaetter. Der eigene §4-Wert dieses Artikels
+  («ca. +460 mm») war von Anfang an richtig. Wert damit **verwendungsreif**.
+- **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` — zwei tote Erlasse/Normen an drei
+  Fundstellen.** **Art. 20 und 20a LRV** aufgehoben mit Wirkung seit **01.01.2022** (AS 2021 632,
+  Fedlex SR 814.318.142.1; Zweitbeleg `../baurecht/raw/260713_amtlich_ch_lrv.md`) — die
+  Konformitaetsnachweis-Pflicht ist **entfallen**, nicht bloss aelter geworden; Emissionsbegrenzung
+  und Feuerungskontrolle nach Art. 13 Abs. 3 LRV bleiben. **SIA 380/4:2006** archiviert seit
+  31.07.2019; heutiger Nachweisweg SIA 387/4 / SIA 2056, Vollzug ueber EVEN, Formular EN-111.
+  Fuehrend fuer den Erlassstand ist `baurecht`, fuer den Normfassungsstand `normen`.
+- **`wiki/recht-norm-raumprogramm-referenzwerke.md` — Falschzusicherung gestrichen.** Der Satz,
+  die UGZ-Ausgaben 2012 und 2020 seien «inhaltlich deckungsgleich, Publikums-Tabellen
+  unveraendert», ist belegbar falsch (Stadien 150 → 100 Personen je Einheit, Theater/Kino von
+  Sitzplaetzen auf Besucher, Personalschwelle 5 → 10 mit Taetigkeitsbedingung,
+  Betreuungsstaetten-Tabellen 2020 ganz entfallen, Gastro-Methodik komplett umgestellt).
+  Fassungsvorbehalt gesetzt: die Zahlen des Publikums-/Gastro-Absatzes sind **Stand Mai 2012** und
+  fuer eine Baueingabe nicht mehr verwendbar. Ein Lokal mit 30 Plaetzen wird nach 2012 und 2020
+  **gegensaetzlich** bemessen. Die Werte der noch juengeren Ausgabe **September 2022** wurden
+  **bewusst nicht eingetragen** (kein Original im Hub) — stattdessen Beschaffungsauftrag.
+- **`wiki/recht-norm-regenwasser-gewaesserraum-zh.md`** — Loesungsspalte der Zeilen 2 und 3
+  vervollstaendigt (die Wendung «ohne belebte Bodenschicht» gehoert zu den Parkplaetzen, nicht zu
+  den Lagerflaechen). Stammt aus einem **widerlegten** Befund: die gemeldete Vorzeichen-Korrektur
+  im Bereich Au traegt **nicht**, «je nach Belag» steht so im Original.
+- Bericht: `../koordination/outputs/2026-08-03_wissens-chef-run24.md`.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F2 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Bester Strukturbefund des Wissens-Layers: 51 Artikel, kein einziger B/C/D/E-Befund. **Zwei Korrekturen gegenueber 2026-08-01:** die 160 Warnmarker sind durch `CLAUDE.md` Z. 21 vorgeschrieben (kein Deko-Verstoss), und der damals als «einziger ss-Fall im Wissens-Layer» gemeldete Treffer ist ein Quell-Dateiname im `sources`-Feld (kein Verstoss). Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

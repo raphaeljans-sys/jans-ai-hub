@@ -3,6 +3,29 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — drei falsche Gelaenderwerte korrigiert, Frage 2 geschlossen
+
+- **`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`:** drei Werte im Fliesstext
+  **und** in der Schwellenwert-Tabelle auf den Buchwortlaut (S. 1291, Shot 649) korrigiert:
+  Regelhoehe **1 m** und feste Brustung ab 20 cm Breite **90 cm** (die Werte waren **vertauscht**
+  als «90 cm / 100 cm» gefuehrt) · Kinderschutz **keine Oeffnung > 12 cm Durchmesser**
+  (Kugelprobe) statt «≤ 90 mm» · die Hochhaus-Hoehe **«110 cm (> 12 m)» ersatzlos gestrichen**
+  (steht auf der zitierten Buchseite nicht, Fundstellenangabe war eine Falschzuschreibung).
+  Korrekturvermerk mit vollstaendiger Belegkette gesetzt.
+- **`wiki/QUESTIONS.md` Frage 2 GESCHLOSSEN, weil falsch gerahmt.** Es gab **keine**
+  Fassungsdivergenz zwischen SIA 358:1996 und :2010 — beide Originale liegen im Haus und wurden
+  gelesen (1996 mit Textlayer, Ziff. 3 13/3 14/3 15/3 22; 2010 gerendert, Ziff. 3.1.3-3.1.6/3.2.2
+  und Anhang A): **die Masse sind identisch.** Die Teilrevision 2010 betraf Ziff. 0.3, die
+  Normenliste 0.2, den Begriff «Traverse», die Texte 3.3.2/3.3.4 und Anhang B. Das Buch war
+  korrekt; der Fehler entstand **beim Destillieren aus dem Screenshot**.
+- **Einzige echte Fassungsnotiz, die bleibt:** das Buch zitiert «SIA-Norm 358, Ausgabe 1996»
+  (S. 1291), geltend ist SIA 358:2010 — ohne Wirkung auf die Zahlen.
+- **Neuer offener Punkt:** die uebrigen Schwellenwert-Tabellen des Shot-Bereichs **632-655** sind
+  stichprobenweise gegen die Buchseiten gegenzulesen, bevor ihr Status `established` fortgefuehrt
+  wird. Der Fehlertyp sitzt in der Screenshot-Destillation, nicht in der Quelle.
+- Verfahren: 2 unabhaengige adversariale Verifikatoren, beide am Original. Bericht:
+  `../koordination/outputs/2026-08-03_wissens-chef-run24.md`.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B24 · C10 · D0 · E0 · F3 · G3
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befund: 10 Wiki-Artikel ohne `title:`/`sources:` im Frontmatter (formaler Verstoss gegen die verschaerfte Quellenpflicht der KB), 41 echte Deko-Symbole in `wiki/QUESTIONS.md` (40x Haken). **Audit D auf 0 korrigiert:** die 42 unzitierten raw-Dateien sind die kommunalen BZO-Volltexte, in `raw/_INGESTED.md` Z. 19 als Direktkonsultation registriert — kein Coverage-Befund. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

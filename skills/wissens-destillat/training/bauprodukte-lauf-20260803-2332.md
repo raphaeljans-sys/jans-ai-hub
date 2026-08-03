@@ -24,3 +24,15 @@ Perfekt! Alle 15 Zeilen sind jetzt triagiert. Lass mich die Zusammenfassung bere
 **NAECHSTE-P1:** (keine P1 in dieser Tranche); **Höchste Kandidaten für Destillation:** 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf, 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf, 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf
 ```
 23:38:40 | PHASE 2 (Sonnet 5, Budget $1.5) — max. 3 Destillate
+23:42:56 |   rc=1, 256s
+
+## Phase 2 — Destillat (Sonnet)
+```
+Error: Exceeded USD budget (1.5)
+```
+
+## Uebergabe an Phase 3 (Kurator, Opus — aufrufende Session)
+
+- Protokoll: `/Volumes/daten/jans-ai-hub/skills/wissens-destillat/training/bauprodukte-lauf-20260803-2332.md`
+- Inventar-Stand: korpus=bauprodukte ziel_kb=bauprodukte sektionen=37/37 dateien_inventarisiert=214 dateien_offen=22
+- Exit-Codes: Triage rc=0 · Destillat rc=1

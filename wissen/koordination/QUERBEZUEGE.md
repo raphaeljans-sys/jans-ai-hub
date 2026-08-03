@@ -67,6 +67,102 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### baurecht (Buch-Destillat) ↔ normen (SIA 358) — geprueft 2026-08-03 (Run 24)
+- **Befund:** 2 verifiziert, **2 bestaetigt** — beide im **abnehmenden** Bestand (`baurecht`), und
+  beide mit derselben Wurzel. Das Buch-Destillat fuehrte **drei falsche Werte**: Regelhoehe und
+  Brustungshoehe **vertauscht** (90/100 statt 1 m/90 cm), die Kugelprobe 12 cm als «≤ 90 mm», und
+  eine **frei hinzugefuegte** Hochhaus-Hoehe «110 cm (> 12 m)», die auf der zitierten Buchseite
+  nicht steht.
+- **Die angemeldete Fassungsdivergenz existiert nicht.** `baurecht/wiki/QUESTIONS.md` Frage 2
+  vermutete einen Unterschied zwischen SIA 358:**1996** und :**2010**. Beide Originale sind im
+  Haus und wurden gelesen (1996 mit Textlayer, 2010 gerendert): **die Masse sind identisch**; die
+  Teilrevision 2010 betraf Ziff. 0.3, die Normenliste 0.2, den Begriff «Traverse», 3.3.2/3.3.4 und
+  Anhang B. Das Buch (S. 1291, Shot 649) war korrekt — der Fehler entstand **beim Destillieren**.
+- **Aktion:** beide Stellen auf den Buchwortlaut korrigiert, Korrekturvermerk mit Belegkette,
+  Frage 2 als **falsch gerahmt geschlossen**. **Status: bereinigt.** Offen: Stichprobe der
+  uebrigen Schwellenwert-Tabellen des Shot-Bereichs 632-655.
+- **Fuehrung bestaetigt:** `normen` fuehrt Ziffer/Ausgabe/Kennwert, `baurecht` den Gesetzes- und
+  Buchbezug. Das bfu-Destillat und `normen` hatten durchgehend recht.
+
+### normen ↔ planungsgrundlagen (Aufzuege, Sanitaerraeume, Toilettenanlagen) — geprueft 2026-08-03 (Run 24)
+- **Befund:** 9 gemeldet, 2 verifiziert, **2 bestaetigt**. **Aufzugskabine:** die Zeile «erhoehte
+  Anforderung 1.40 × 1.40 m» machte aus einer **Pflicht** eine freiwillige Komfortstufe. Beleg am
+  Original: **SIA 500:2009 Ziff. 3.7.4** («Uebereck angeordnete Kabinentueren sind zulaessig, wenn
+  das Kabinenmass mindestens 1,40 m x 1,40 m betraegt»). Praxisfolge: eine nicht wendbare Kabine,
+  nach dem Bau nicht korrigierbar. **Toilettenanlagen:** `planungsgrundlagen` sicherte zu, die
+  Ausgaben 2012 und 2020 seien «inhaltlich deckungsgleich» — sie sind es nicht (Stadien 150 → 100,
+  Personalschwelle 5 → 10, Betreuungsstaetten-Tabellen 2020 entfallen, Gastro-Methodik komplett
+  umgestellt).
+- **Fuehrungs-Praezisierung (Verifikator):** Beleg ist die ueber § 34 BBV I verbindliche **Norm**,
+  nicht das kommunale UGZ-Merkblatt; dieses ist Vollzugshilfe. Der Uebersehpunkt ist strukturell:
+  Tabelle 4 (Ziff. 3.7.3) fuehrt die Masse, die Bedingung steht in 3.7.4.
+- **Aktion:** Aufzugs-Zeile umgeschrieben und auf SIA 500 belegt (+ Fassungsvorbehalt
+  **SN 521500/C4:2019**, unausgewertet, P1); Falschzusicherung gestrichen, Fassungsvorbehalt beim
+  Publikums-/Gastro-Absatz. **Status: Aufzug bereinigt; Toiletten offen bis Ausgabe 2022 im Haus.**
+- **Neu erkannt:** es existiert eine **Ausgabe September 2022** des UGZ-Merkblatts, die im Hub
+  fehlt. Ihre Zahlen wurden **bewusst nicht eingetragen** (nur Web-Beleg, kein Original im Haus).
+
+### normen (SIA 500 Anhang E) → drei KBs — K42-4a geschlossen 2026-08-03 (Run 24)
+- **Der hoechstprioritaere offene Leseauftrag aus Run 23 ist erledigt**, am Original-PDF durch den
+  Chef selbst: SIA 500:2009, **Anhang E, Figuren E.1 (S. 49) und E.2 (S. 51)** bemassen die
+  Klosett-Sitzhoehe mit «**+ 0.46 (OK Brille)**»; Positionslegende M «Klappsitz 0,46 m ueber Boden».
+  **46 cm ist normbelegt**, die 50 cm der KL_Hochbau-Katalogblaetter sind ein undatierter Wert ohne
+  Normbezug.
+- **Zweitbeleg aus derselben Nacht:** `procap-mb105-2009-rollstuhlgerechte-toiletten` (am Vorabend
+  destilliert) fuehrt «OK Brille +0.46 m» — die erste ausdruecklich SIA-500-bezogene Quelle im
+  Bestand. Der abnehmende `planungsgrundlagen`-Artikel hatte den richtigen Wert die ganze Zeit im
+  eigenen §4 stehen und traute ihm nicht.
+- **Aktion:** an vier Stellen nachgezogen (QUESTIONS, `sia-500-2009` gelesen-Feld,
+  `kl-hochbau-sanitaer-katalogblaetter`, `recht-norm-sanitaerraeume-planungsgrundlagen`).
+  **Status: geschlossen.** Rest-Auftrag K42-4b (Anhang E im Uebrigen) ohne Wartende.
+
+### normen ↔ baurecht (Wasserrecht ZH) — geprueft 2026-08-03 (Run 24)
+- **Befund:** verifiziert und **bestaetigt** am amtlichen Volltext. Das am Vorabend um 465 Zeilen
+  ausgebaute Destillat `gvz-awel-leitfaden-hochwassergefahrenkarten-2003` stuetzt seine gesamte
+  Verbindlichkeitsaussage auf **§ 22 WWG**. Das **WWG vom 2. Juni 1991 ist aufgehoben**; das
+  **Wassergesetz (WsG, LS 724.1)** gilt seit **1. Juni 2026** (§ 126 lit. b; Volltext im Hub
+  `baurecht/raw/260803_amtlich_zh_wsg.md`).
+- **Wirktiefe (Verifikator, ueber den Melder hinaus):** ein blosser «Nachfolge § 26 WsG»-Vermerk
+  haette die geaenderte **Zustaendigkeit** verdeckt. Neu ordnet die **Gemeinde** die
+  Objektschutzmassnahmen mit der Baubewilligung selbst an (§ 34 Abs. 1 WsG, § 44 Abs. 2 WsV), die
+  Direktion nur bei Sonderobjekten; der Begriff «behoerdenverbindlich» entfaellt, neu ist ein
+  Feststellungsanspruch der Grundeigentuemer (§ 26 Abs. 3 WsG). Der im Destillat beschriebene
+  Ablauf ueber eine «Genehmigung der Auflagen durch die Baudirektion» ist ueberholt.
+- **Aktion:** Rechtsstand-Vorbehalt mit vollstaendiger Nachfolgekette gesetzt; fachlich-technische
+  Aussagen (Gefahrenstufen, Objektschutz) unberuehrt. **Status: bereinigt.** Fuehrend fuer den
+  Erlasswortlaut bleibt `baurecht`.
+- **[WIDERLEGT im selben Feld]** Der Befund, das AWEL-Merkblatt Versickerung fuehre fuer
+  Lagerflaechen im Bereich Au ein falsches Vorzeichen, **traegt nicht** — «je nach Belag» steht so
+  im Original (mit `pdftotext -layout` gegengelesen). Uebrig blieb eine belegte Praezisierung der
+  Loesungsspalte, gesetzt.
+
+### energie (AHB-Gebaeudetechnik) ↔ planungsgrundlagen ↔ baurecht/normen — geprueft 2026-08-03 (Run 24)
+- **Befund:** 2 verifiziert, **2 bestaetigt**. **Tote Verweise wandern weiter:** `energie` Lauf 122
+  meldete vier tote Normverweise in den AHB-Richtlinien; zwei davon stehen **auch in
+  `planungsgrundlagen`** als geltendes Recht. **Art. 20 und 20a LRV aufgehoben** seit 01.01.2022
+  (AS 2021 632, Fedlex SR 814.318.142.1; Zweitbeleg `baurecht/raw/260713_amtlich_ch_lrv.md`) — die
+  Konformitaetsnachweis-Pflicht ist **entfallen**, nicht «aelter geworden». **SIA 380/4:2006**
+  archiviert seit 31.07.2019; heutiger Weg SIA 387/4 / SIA 2056, Vollzug EVEN Formular EN-111.
+- **Fuehrungs-Korrektur (Verifikator):** der Melder wollte `energie` zur Belegautoritaet fuer den
+  **Erlassstand** machen. Fuehrend ist `baurecht` (LRV) bzw. `normen` (SIA/EN) — sonst haette die
+  Korrektur die im selben Bericht gemeldete Doppelspur zementiert.
+- **Zweiter Befund — eine Luecke, die keine war:** `energie/wiki/gebaeudetechnik-pflichtenheft.md`
+  erklaerte die EN-12464-1-Uebersichtstabelle fuer «nicht im Bestand». Sie liegt seit 19.01.2007
+  im AHB-Ordner und ist in `planungsgrundlagen` §14.2 destilliert. **Aber** sie gibt den Stand
+  EN 12464-1 **vor 2011** und SIA 2024:2006 wieder — die offene Frage E-122-6 durfte deshalb
+  **nicht** mit ihr geschlossen werden (der Verifikator hat genau das verhindert).
+- **Aktion:** drei Fundstellen mit Wirktiefe-Vermerk in `planungsgrundlagen`; Fundort-Korrektur in
+  `energie`, E-122-6 ausdruecklich **offen gelassen**. **Status: bereinigt, E-122-6 offen.**
+
+> **NEU Run 24 — drittes Struktur-Muster «Transkriptionsfehler tarnt sich als Fassungsdivergenz»:**
+> Weichen zwei KBs in einem Normwert voneinander ab, ist die naheliegende Erklaerung eine
+> unterschiedliche Ausgabe — und sie war in diesem Lauf **zweimal falsch**. Beim SIA-358-Fall
+> haette die Fassungserklaerung eine Normhistorie erfunden, die es nie gab, und den KB-eigenen
+> Lesefehler dem Standardwerk zugeschoben. **Regel daraus: bevor eine Abweichung als
+> Fassungsfrage erklaert wird, die EIGENE Quelle des abweichenden Destillats oeffnen**
+> (Buchseite, Screenshot, Original-PDF). Im Hub ist der Transkriptionsfehler der haeufigere der
+> beiden Faelle. Gilt fuer alle Buch-, Merkblatt- und Screenshot-Destillate.
+
 ### normen ↔ planungsgrundlagen (hindernisfreies Bauen, Sanitaerraeume, RWA) — geprueft 2026-08-03 (Run 23)
 - **Befund:** 4 verifiziert, **4 bestaetigt**. **W1 (hoch, hoechster Praxisschaden des Laufs):** die
   KL_Hochbau-Raumbreiten fuer rollstuhlgerechte WC (140 cm minimal, 160 cm «Normalausfuehrung»)

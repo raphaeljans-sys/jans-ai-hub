@@ -2,6 +2,32 @@
 
 Neueste zuoberst.
 
+## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — eine Luecke, die keine war; E-122-6 bleibt bewusst offen
+
+- **`wiki/gebaeudetechnik-pflichtenheft.md` berichtigt.** Der Artikel (aus Lauf 122, wenige Minuten
+  zuvor angelegt) erklaerte: «Die in RL8 erwaehnte EN-12464-1-Uebersichtstabelle mit den Lux-Werten
+  **fehlt im Bestand**.» Sie fehlt nicht — sie liegt seit **19.01.2007** im AHB-Ordner
+  (`PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/…/14.3-Richtlinien/`) und ist in
+  `../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §14.2 mit
+  Zahlenwerten destilliert. Die Aussage schickte den Nutzer an einer vorhandenen Datei vorbei auf
+  einen kostenpflichtigen Umweg.
+- **E-122-6 wurde ausdruecklich NICHT geschlossen** — und das ist der wichtigere Teil. Die
+  naheliegende Reaktion waere gewesen, die offene Frage «aktuelle Lux-Bemessungsgrundlage fehlt»
+  mit dieser Tabelle zu schliessen. Sie gibt den Stand **EN 12464-1 vor 2011** und **SIA 2024:2006**
+  wieder; die geltenden Ausgaben (SN EN 12464-1:2021, SIA 2024:2015) liegen im Bestand nicht vor.
+  Eine korrekte Luecke waere durch eine 19 Jahre alte Tabelle ersetzt worden. Der Fundort ist jetzt
+  vermerkt, die Luecke bleibt.
+- **Bestaetigt, mit Reichweite ueber diese KB hinaus:** die in Lauf 122 gemeldeten toten
+  Normverweise halten am Original. **Art. 20 und 20a LRV** sind aufgehoben seit **01.01.2022**
+  (AS 2021 632, Fedlex SR 814.318.142.1) — die Konformitaetsnachweis-Pflicht ist **entfallen**;
+  **SIA 380/4:2006** ist seit 31.07.2019 archiviert. Beide stehen **auch in `planungsgrundlagen`**
+  als geltendes Recht und wurden dort mit Wirktiefe-Vermerk versehen.
+- **Fuehrungs-Klarstellung:** fuer den **Erlassstand** (LRV) ist `baurecht` fuehrend, fuer den
+  **Normfassungsstand** (SIA/EN) `normen`. Die neun AHB-Destillate dieser KB sind Anlass und
+  Zweitbeleg, nicht die Belegautoritaet — sonst entstuende genau die Doppelspur, die der Lauf 122
+  im selben Bericht selbst als Befund gemeldet hat.
+- Bericht: `../koordination/outputs/2026-08-03_wissens-chef-run24.md`.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B8 · C1 · D0 · E0 · F3 · G4
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befunde: 1 echter ss-Verstoss (`destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` Z. 181, eigener Fliesstext), 7 ueber Zeilenumbruch zerrissene Backlinks in `wiki/BAUHERREN-FAQ.md`/`wiki/QUESTIONS.md`, 1 totes Ziel `[[sia-2024-nutzungsdaten-gesundheitsbau]]`. **Audit F korrigiert gegenueber 2026-08-01:** die 497 Warnmarker sind durch `CLAUDE.md` Z. 32 vorgeschrieben und damit kein Deko-Verstoss. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

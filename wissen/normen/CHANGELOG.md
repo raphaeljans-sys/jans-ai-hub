@@ -1,3 +1,35 @@
+## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — K42-4a geschlossen, zwei Fassungs-/Rechtsstandvorbehalte
+
+- **K42-4a BEANTWORTET am Original-PDF** — der hoechstprioritaere Leseauftrag aus Run 23, an dem
+  drei KBs hingen. **SIA 500:2009, Anhang E**, Schnitt zu **Figur E.1 (S. 49)** und **Figur E.2
+  (S. 51)**: «**+ 0.46 (OK Brille)**»; Positionslegende M «Klappsitz 0,46 m ueber Boden».
+  **Die Sitzhoehe des Klosetts betraegt 46 cm**; die 50 cm der KL_Hochbau-Katalogblaetter sind
+  ein undatierter Wert ohne Normbezug und damit widerlegt. Unabhaengig gegenbelegt durch
+  `procap-mb105-2009-rollstuhlgerechte-toiletten` (am Vorabend destilliert, erste ausdruecklich
+  SIA-500-bezogene Quelle im Bestand).
+- **`destillate/sia-500-2009.md`:** `gelesen`-Feld nachgefuehrt — Anhang E ist jetzt fuer die
+  Figuren E.1/E.2 und die Positionslegenden ausgewertet, im Uebrigen (E.3 Dusche, E.4/E.5) nicht.
+- **`destillate/kl-hochbau-sanitaer-katalogblaetter.md`:** Sitzhoehen-Vorbehalt aufgeloest, die
+  50 cm als normwidrig markiert (die Raumbreiten waren bereits in Run 23 berichtigt).
+- **`wiki/QUESTIONS.md`:** K42-4a mit Belegkette beantwortet; neuer, kleinerer Auftrag **K42-4b**
+  (Anhang E im Uebrigen — ohne Wartende, deshalb geringe Prioritaet).
+- **`destillate/gvz-awel-leitfaden-hochwassergefahrenkarten-2003.md` — Rechtsstand-Vorbehalt.**
+  Die tragende kantonale Grundlage **§ 22 WWG** ist aufgehoben; das **Wassergesetz (WsG, LS 724.1)**
+  gilt seit **01.06.2026** (§ 126 lit. b, amtlicher Volltext `../baurecht/raw/260803_amtlich_zh_wsg.md`).
+  Vollstaendige Nachfolgekette gesetzt (§ 26 WsG / § 31 WsV Karten · § 36 WsV Planung · §§ 33/34
+  WsG + § 44 WsV Bauverfahren). **Materiell geaendert:** die Gemeinde ordnet die
+  Objektschutzmassnahmen mit der Baubewilligung selbst an, die Direktion nur bei Sonderobjekten —
+  der im Destillat beschriebene Weg ueber eine «Genehmigung durch die Baudirektion» ist ueberholt.
+  Fachlich-technische Aussagen (Gefahrenstufen, Objektschutz) unberuehrt.
+- **`destillate/ugz-toilettenanlagen-personal-publikum-2020.md` — Ausgaben-Vorbehalt.** Dezember
+  2020 ist **nicht** die juengste Ausgabe; die Stadt Zuerich fuehrt eine Fassung **September 2022**,
+  die im Hub fehlt. Deren Zahlen wurden **bewusst nicht uebernommen** (nur Web-Beleg). Offener
+  Auftrag: Ausgabe 2022 beschaffen, als eigenes Destillat anlegen, im REGISTER die Kette
+  **2012 → 2020 → 2022** fuehren.
+- **Bestaetigt statt beanstandet:** die Estrich-/Absturz-Destillate dieser KB (`sia-358-2010`,
+  `bfu-gelaender-und-bruestungen`) hatten gegen `baurecht` durchgehend recht — dort lag der Fehler.
+- Bericht: `../koordination/outputs/2026-08-03_wissens-chef-run24.md`.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B13 · C5 · D0 · E0 · F2 · G3
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befunde: 6 tote Backlink-Ziele in `wiki/QUESTIONS.md` (`[[sia-102-2003]]`, `[[sia-180]]`, `[[sia-2024]]`, `[[sia-2032]]`, `[[din-1961-2012]]`, `[[links]]`), `REGISTER.md` ohne jedes Frontmatter, 2 Destillate nicht im INDEX (`synthese-sia-vkf-fachskills`, `vkf-beherbergungskategorien`). Die 68 Warnmarker sind funktionale Fassungsvorbehalte — Empfehlung, sie in `CLAUDE.md` ausdruecklich zuzulassen. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
