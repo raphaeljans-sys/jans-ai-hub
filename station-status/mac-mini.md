@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 04.08.2026 01:42:55
+Stand: 04.08.2026 01:53:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 04.08.2026 01:42:55
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- afcc1b68 normen: letzte offene PL-02-Position destilliert (BKZ-Kontaktseite, kein normativer Inhalt), PL-02-Kerninventar 69/69
+- d0e7406a Normen Run 43: 5 Refuter-Pruefungen (alle BEANSTANDET, 38 Kernbefunde), SWKI-Anhaenge D/E/F, SIA 500 Anhang E, BKP-271.10-Korrektur in Referenz+Rule

@@ -1067,6 +1067,8 @@ Diese Liste dient als verbindliche Referenz für alle BKP-Nummerierungen in JANS
 - **991** Architekt (Ausstattung)
 
 ### Devis-Konvention (Skill `ausschreibung`)
-- LV-Titel beginnt mit dem BKP-Code: `BKP 271.10 Innenputze — Kinderspital`
+- LV-Titel beginnt mit dem BKP-Code: `BKP 271.0 Innenputze — Kinderspital`
+  (⚠ korrigiert 04.08.2026 — dieses Formatbeispiel führte «271.10» und war damit die Vorlage,
+  über die der nicht existierende Code in die LV-Titel gelangte)
 - Bei Subpositionen wird die volle BKP-Hierarchie ausgeschrieben (z.B. `BKP 225.4 Brandschutzbekleidungen`)
 - Bei Spezialplaner-Honoraren: BKP-Spezialisten-Code aus der entsprechenden Hauptgruppe (Brandschutzingenieur in Phase Gebäude = **298.5**)
