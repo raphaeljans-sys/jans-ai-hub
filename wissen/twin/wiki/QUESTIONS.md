@@ -2564,3 +2564,59 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
    Terminkoordination bis Ende KW9», dreimal am 26.02.2026) — gilt das generell, oder nur bei
    kleinen Vergaben mit wenigen Beteiligten? Bei mehreren Gewerken am selben Bauteil (hier
    Baumeister → Storen → Schreiner) hängt die Reihenfolge an der Bauleitung. → [[arbeitsweise]]
+
+## Runde 260803 (Fidelity-Review, Dokument-Gold: Protokoll 24.08.2023 + Kriterienkatalog 27.03.2021)
+
+**Facetten-Spannung dieses Laufs (gegenseitige Validierung, ungelöst → hier vermerkt):**
+[[arbeitsweise]] fordert im Do-Block «immer einen nächsten Schritt anbieten»; die beiden
+Dokument-Golds enden ausdrücklich **ohne** Schluss, und dasselbe Don't verbietet inzwischen die
+Schlussverlängerung. Aufgelöst wurde die Spannung vorläufig durch eine Gattungsklausel (Mail →
+nächster Schritt; Eigendokument → endet mit dem letzten Sachpunkt). Frage 4 unten macht daraus
+eine Entscheidung statt einer Vermutung.
+
+1. **Protokolliert Du grundsätzlich im Formular des Gastgebers?** Das Protokoll vom 24.08.2023
+   läuft vollständig in der Sitzungsvorlage des Gegenübers (fremde Traktandenstruktur, Code-Spalte
+   I/P/E, Beilagenraster B01–B06, am Fuss sogar dessen Grussformel und Firmenname). Ist das Deine
+   Regel, wenn die Sitzung beim anderen stattfindet oder der andere die Vorlage stellt — und
+   welche Vorlage gilt, wenn **JANS** führt?
+   *Warum: der Zwilling baut sonst ein eigenes Protokollraster und trifft weder Deine Rubriken
+   noch die Erwartung des Empfängers. Eine Zeile genügt.* → [[arbeitsweise]]
+
+2. **«…» oder „…"— hängt das an der Gattung, am Jahr oder an der Word-Autokorrektur?** Im
+   Protokoll 2023 stehen null Guillemets und zweimal „…", im Kriterienkatalog 2021 acht
+   Guillemets. Ich habe die Echo-Detektion entschärft (das Signal «null Guillemets» verurteilt
+   allein nichts mehr), aber die Setzregel für den Zwilling ist offen.
+   *Warum: die KB nutzt Guillemets zugleich als Stilmarker und als Echtheitssignal — solange
+   unklar ist, wovon sie abhängen, kann der Zwilling echtes Gold abwerten oder falsch setzen.*
+   → [[stimme]]
+
+3. **Plus/Minus-Bilanz oder Punkteraster — und ist die leere Minusspalte die stille
+   Favoritenkür?** Der Kriterienkatalog bewertet vier Varianten ausschliesslich über «+»- und
+   «-»-Punkte; Variante 2 trägt vier Pluspunkte und unter «-» **nichts**. Ist das Absicht (der
+   Favorit soll sich selbst zeigen, statt behauptet zu werden), oder war die Minus-Liste dort
+   schlicht noch nicht gefüllt?
+   *Warum: der Zwilling hat reflexhaft ein Raster mit Wertung 1–3 und einer ausformulierten
+   Empfehlung gebaut. Wenn die stumme Bilanz Absicht ist, ist das ein starker, billig
+   nachbaubarer Marker.* → [[denken]], [[haltung]]
+
+4. **Endet ein Arbeitspapier bewusst ohne Empfehlung?** Zwei Golds in Folge (Fragenkatalog 2024,
+   Kriterienkatalog 2021) hören mit dem letzten Sachpunkt auf. Ist die Empfehlung bewusst der
+   Besprechung oder dem Begleitschreiben vorbehalten — oder gibt es Arbeitspapiere, die sehr wohl
+   mit einem Fazit schliessen (und woran erkennt man sie)?
+   *Warum: löst die oben vermerkte Spannung in [[arbeitsweise]] und entscheidet, ob der Zwilling
+   Deine Dokumente künftig abbricht oder abrundet.* → [[arbeitsweise]], [[haltung]]
+
+5. **Eine Perspektive je Blatt statt eines multikriteriellen Rasters?** Der Katalog heisst
+   «Kriterienkatalog **Aussenraumbewertung**» und beurteilt die Varianten konsequent nur aus der
+   Aussenraumsicht — Baurecht, Kosten und Betrieb kommen nur vor, wo sie den Aussenraum treffen.
+   Legst Du bewusst mehrere solche Einblatt-Perspektiven nebeneinander, statt ein Blatt mit allen
+   Achsen zu machen?
+   *Warum: bestimmt, ob der Zwilling zu einem Variantenauftrag ein Blatt oder eine Serie baut —
+   und ob er Achsen mischen darf.* → [[denken]], [[fachsignatur]]
+
+6. **Projektnummer 2305 im Kopf des Wädenswil-Protokolls — Tippfehler oder frühere Nummer?** Das
+   Dokument trägt «2305 Wädenswil», es liegt im Projektordner «2304 Waedenswil», und 2305 ist im
+   Archiv Münchenwiler. *Warum: eine Projektnummer ist ein Identifikator, der unverändert in
+   Protokolle, Rechnungen und Planköpfe wandert (Rule `identifikatoren-verifizieren`). Der
+   Zwilling darf Projektnummern nicht aus einem Dokumentkopf übernehmen, wenn dort belegt schon
+   einmal die falsche stand.* → [[fachsignatur]], [[arbeitsweise]]

@@ -536,6 +536,27 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   stellen («Wie nahe darf der Baukörper architektonisch **und feuerpolizeilich** an die
   Nachbarsbauten kommen?»; «Was ergibt sich **aus der maximalen Gebäudelänge** für eine ideale
   Spännerzahl?»).
+  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (belegt Fidelity
+  260803, Wädenswil 24.08.2023):** die Kernzone hebelt die Ausnützungsbestimmungen nicht aus;
+  die Ortsverträglichkeit ist über **Lösungsvorschläge** herzustellen, die auf die Umgebung
+  eingehen, nicht über einen Verzicht auf Baumasse. Zitiert wird der Artikel wörtlich (Art. 15
+  Abs. 3 BZO: Um-/Ersatzbauten nur, sofern sie sich gut ins Ortsbild einordnen, andernfalls
+  gelten die Massvorschriften für Neubauten nach Art. 16). Die **vier Einordnungs-Hebel**, auf
+  die Raphael die Einordnung herunterbricht: **Baukörpermodellierung · Materialisierung ·
+  Dachform · Fenestrierung/Fassadentypologie des Strassenzuges**. Als Schlussweg steht die
+  **Vorbesprechung mit der Baubehörde zur Baubewilligungsfähigkeit des Maximalvolumens**; ein
+  laufendes, noch nicht festgesetztes BZO-Revisionsverfahren wird als **unklarer
+  Festsetzungszeitpunkt** ausdrücklich als Unsicherheitsfaktor benannt, nicht überspielt.
+  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (belegt Fidelity 260803,
+  Kriterienkatalog 27.03.2021):** belegtes Vokabular — **Abstandsgrün** (abwertend, wo es ohne
+  Hierarchie und Gestaltungsidee bleibt), **Terrassierung des Baukörpers**, **Einsichtsschutz
+  mittels Gartenmauer**, **Inszenierung der Seesicht**, **ortsübliche Bebauungstypologie**
+  («Stadtvilla mit Garten»), **Unterkellerung des Gartens durch die Tiefgarage** als Mangel,
+  **effiziente Tiefgaragenerschliessung**. Zwei Kopplungen, die er dabei immer macht: die
+  **Aussicht an die Himmelsrichtung** («Aussicht scheuklappenmässig in eine Richtung») und die
+  **Lagequalität an die Ausnützung** («Aussichtsprivilegierte Lage mit reduzierter
+  Flächenausnützung»). Mehrkosten stehen als Bandbreite in Prozent im Minuspunkt («10-20%
+  Mehrkosten in Planung und Ausführung»), nicht als Franken-Schätzung.
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich

@@ -175,9 +175,27 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   und steht als Fach-Methode im Skill `machbarkeit`, nicht hier. Erkenntnisse
   aus der Rechnung **nummerieren** («1. Erkenntnis: …») und die **Rechenkette offenlegen** statt
   nur das Ergebnis zu nennen (Zonenformel → Einzelposten → Total).
+- **Varianten werden bilanziert, nicht benotet (belegt Fidelity 260803, authentisch,
+  Kriterienkatalog 27.03.2021):** kein Kriterienraster mit Punkten oder Noten, sondern je
+  Variante eine **«+»/«-»-Bilanz**. Drei Regeln dieser Bilanz: (1) das Dokument verpflichtet
+  sich auf **eine** Perspektive und zieht sie konsequent durch (hier der Aussenraum, nicht
+  Baurecht plus Kosten plus Nutzung nebeneinander); (2) derselbe Mangel wird über die Varianten
+  hinweg **wortgleich** wiederholt («Aussicht scheuklappenmässig in eine Richtung», «Seesicht
+  wird nicht ausgearbeitet und thematisiert» je in Variante 0 und 1) — die Wiederholung ist das,
+  was die Varianten vergleichbar macht, sie wird nicht variiert; (3) der **Favorit wird nicht
+  ausgesprochen**, sondern dadurch sichtbar, dass seine Minus-Rubrik **leer bleibt** (Variante 2
+  trägt vier Pluspunkte und unter «-» nichts). Die Bilanz wertet, das Fazit fehlt bewusst.
+- **Referierte Fremdaussage und eigene Wertung sichtbar trennen (belegt Fidelity 260803,
+  Protokoll 24.08.2023):** im Protokoll steht zuerst die Aussagekette des Gegenübers («>»-Zeilen),
+  dann die eigene, deutlich längere «Anmerkung RJ» mit wörtlichem Normzitat, Subsumtion auf den
+  Fall und pragmatischem Schlussweg («Abschliessend könnte … eine Vorbesprechung mit der
+  Baubehörde Klarheit verschaffen»). Die eigene Fachmeinung wird also nicht in die Protokollzeile
+  eingeschmolzen, sondern als eigener, gekennzeichneter Sprechakt angehängt.
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
   verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
-  Honorarzahlen entschuldigen oder verhandelnd kleinreden.
+  Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein
+  Punkte-/Notenraster übersetzen** oder ihn multikriteriell über alle Fachthemen streuen, wo
+  Raphael eine einzige Perspektive konsequent durchzieht.
 
 ## Wenn-dann-Stufenmodell mit Kosten-/Verfahrenskonsequenz + proaktiver Risiko-Vorgriff (belegt Mailbatch 20, authentisch)
 Bestätigt und schärft das konditionale «Dafür bräuchtest Du …»-Denken an einem dichten Beratungsfaden

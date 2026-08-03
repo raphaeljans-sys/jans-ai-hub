@@ -65,6 +65,32 @@ nichts anderes ist als der **Prompt-Anfang**. Zwei billige Detektionssignale fü
 Ein Dateiname, der wie ein ganzer Satz oder eine Frage aussieht, ist ein zusätzliches Warnsignal.
 Solche Dateien sind `claude-aera`-äquivalent und **nie** Stilquelle.
 
+**Korrektur 03.08.2026 — «null Guillemets» allein verurteilt nichts (belegter Falsch-Positiv).**
+Das Sitzungsprotokoll Wädenswil vom 24.08.2023 enthält **null** «…» und stattdessen zweimal „…" —
+und ist zweifelsfrei handgetippt (dichte Tippfehler, Kasusfehler, uneinheitliche Grossschreibung
+mitten im Satz). Im Kriterienkatalog vom 27.03.2021 stehen dagegen acht Guillemets. Raphaels
+Anführungszeichen sind also **nicht** über alle Dokumente konstant. Konsequenz: das
+Guillemet-Signal zählt nur noch **in Kombination** mit einem zweiten (rohes `**` im Fliesstext,
+prompt-artiger Dateiname, generische Eröffnung); allein genommen wertet es echtes Gold ab.
+
+**Dritte Falle, neu 03.08.2026 — FREMDTEXT im eigenen Dokumentenordner.** Nicht jede
+Nicht-Raphael-Datei stammt von einem Modell. `AR - 02 Wettbewerbe/2206 WB Schoental/09 Dokumente/
+Text 1_Jury.docx` liest sich dem Namen nach wie «unser Text 1 für die Jury» und enthält
+tatsächlich den **Jurybericht-Text zum 1. Rang eines fremden Verfahrens** («Text 1. Rang Brühl»,
+Projekt ÉCOLE DE SOLEURE). Im selben Bestand liegen fremde Fachplanertexte unter JANS-eigenen
+Textordnern (`08_Publikationen/01 Texte/12 Tragwerk/220223 Tragwerk INGENI.docx`,
+`.../11 Brandschutz .../220222_Brandschutztext_Makiol_Wiederkehr.docx`). Drei billige Signale:
+
+- **Dritte-Person-Perspektive auf das eigene Projekt** — «gelingt es den Projektverfassern»,
+  «das Projekt überzeugt»: eine Jury spricht so, der Verfasser nie.
+- **Trennstriche mitten im Wort** («Kin- dergärten», «Zu- gangswege», «abgetrennt- en») — der
+  Text wurde aus einem **PDF** kopiert und ist damit fremder Satz, nicht eigene Eingabe.
+- **fremde Projektnamen/Kennwörter** im Fliesstext, die nicht zum Projekt des Ordners gehören.
+
+Fremdtext ist keine Echo-Gefahr, aber genauso disqualifiziert: er ist schlicht **nicht Raphaels
+Stimme**. Vor jeder Verwendung als Gold prüfen, **wer spricht**, nicht nur **ob ein Modell
+gesprochen hat**.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

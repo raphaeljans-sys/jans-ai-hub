@@ -4,6 +4,130 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-03 22:15 — GEMELDET (Mail an rj@ gesendet)
+
+Der reguläre 07:15-Slot dieses Laufs wurde am 03.08. um 07:15 selbst vom Wochenlimit
+abgewiesen (Session `0c43e8d3`, Limit-Ereignis 05:15:56 UTC) und erst um 22:07 fortgesetzt.
+Die Messung ist deshalb ein Ganztages-Stand, kein Morgen-Stand.
+
+Verbrauch teuer/total je Station (Mio), Duplikate über (message.id, requestId)
+ausgeschlossen, 175 Dateien MacBook Pro / 58 Mac Mini:
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 28.07. | 6.50 | 167.55 | 0.80 | 23.36 | **7.30** |
+| 29.07. | 9.37 | 333.30 | 2.05 | 59.73 | **11.42** |
+| 30.07. | 12.15 | 430.38 | 3.93 | 73.22 | **16.08** |
+| 31.07. | 4.79 | 127.57 | 1.32 | 45.51 | **6.11** |
+| 01.08. | 4.70 | 128.90 | 0.59 | 20.20 | **5.29** |
+| 02.08. | 0.00 | 0.00 | 0.00 | 0.00 | **0.00** |
+| 03.08. (bis 22:07) | 1.56 | 7.90 | 2.53 | 51.19 | **4.09** |
+
+Kriterium (b) **nicht erfüllt**: kein Tag über 35 Mio, keine zwei Folgetage über je 18 Mio.
+Der 02.08. steht auf exakt 0.00 auf beiden Stationen — nicht aus Sparsamkeit, sondern weil
+das Kontingent leer war.
+
+**Blockade-Status: HART — Wochenlimit 45.5 Stunden erschöpft.** Strukturelle Prüfung
+(isApiErrorMessage / type=error / message.type=error / apiErrorStatus 429, jeweils in
+Verbindung mit einem Limit-Textmuster): erster Beleg im Lauf-Journal **01.08. 14:28**, letzter
+**03.08. 05:30**, Reset laut Fehlertext **03.08. 12:00 Europe/Zurich**. Meldung durchgehend
+«You've hit your weekly limit», also **Wochen-Limit, nicht 5-Stunden-Limit**. Kriterium (c)
+**erfüllt** (Erschöpfung innerhalb der letzten 24 h). Der Vorfall ist länger als der
+35-h-Ausfall vom 26./27.07.
+
+**Interaktive Sessions:** 0 menschlich getippte Sitzungen mit Limit-Ereignis. Alle 15
+betroffenen Sessions auf dem MacBook Pro tragen einen `<scheduled-task`-Opener, die vier auf
+dem Mac Mini einen Nachtschicht-Dispatch-Prompt (im Journal als `loop: dispatch-versuch1`,
+`cost_usd: 0`). Kriterium (a) **nicht erfüllt** — Raphaels eigene Arbeit war nicht blockiert.
+
+**Operative Briefings: AUSGEFALLEN (Kriterium (d) erfüllt).**
+- **02.08.:** `logbuch-radar`, `hub-chef-taeglich` und `zahlungsabgleich-check` brachen je nach
+  12 Zeilen und **0 Tool-Calls** ab — kein Briefing, kein Deliverable. `mahnwesen-verzugscheck`
+  hatte am Sonntag planmässig keinen Lauf (Cron Mo–Fr), das ist kein Ausfall.
+- **03.08.:** alle vier Briefings wurden zu ihrer Startzeit abgewiesen (`logbuch-radar` 06:55,
+  `mahnwesen` 08:06, `zahlungsabgleich` 08:23, `hub-chef` 08:40 CEST) und laufen erst seit
+  **22:10 CEST** in einem Sammel-Wiederanlauf nach — rund 15 Stunden zu spät. Der Reset um
+  12:00 hat sie **nicht** von selbst nachgeholt.
+- Letzte belegte Briefing-Lieferung davor: `logbuch-radar` 01.08. 06:55–07:12 (183 Zeilen,
+  47 Tool-Calls) und `hub-chef-taeglich` 01.08. 08:39–08:59 (212 Zeilen, 59 Tool-Calls).
+
+**Radar-Herzschlag: AUSGEFALLEN (Kriterium (e) erfüllt).** Beide Signale lagen weit über der
+12-h-Schwelle:
+- Sessions: bis **31.07. 22:58 UTC** lief `vollgas-chef-radar` lückenlos im 4-h-Takt (27 Läufe
+  in vier Tagen), danach nur noch **01.08. 12:12 UTC**, dann nichts bis **03.08. 20:07 UTC**.
+  Lücke **55.9 Stunden**, rund 13 ausgefallene Läufe.
+- `RADAR.md` trägt den Dateistand **01.08. 14:15** (55.9 h alt).
+- Ursache ist diesmal belegt das Wochenlimit (der letzte Radar-Lauf endete 16 Minuten vor der
+  ersten Limit-Abweisung), nicht ein toter Takt wie am 25.–27.07. Er lebt seit 22:07 wieder.
+
+**Liefer-Delta der Lern-Loops.** Lauf-Journal: **02.08. 0 von 5** Läufen erfolgreich,
+**03.08. 1 von 3** (30.07. noch 7/10, 31.07. 6/8, 01.08. 5/9). Die sechs abgewiesenen
+Nachtschicht-Slots (02.08. 02:30/05:30/13:30/22:30/23:30, 03.08. 02:30/05:30) stehen alle mit
+`rc: 1`, `cost_usd: 0`, `num_turns: 1` — **kein Tokenverbrauch ohne Ertrag, sondern gar kein
+Lauf**. Muster (a) und (b) aus Schritt 5 liegen damit nicht vor. Nach dem Reset lieferte der
+13:41-Lauf sauber (rc 0, 55 Turns, $4.43, `projekt-lessons` RE-00087, Commit `301a9fc5`),
+dazu `energie` Run 121 (9 Destillate, FAQ F197–F201, Themenartikel) und die
+Umlaut-Bereinigung in `planungsgrundlagen`.
+
+**Gegenprüfung eines Fremdbefunds (Rule 260729b).** Der `methoden-radar` hat heute 21:00
+vermerkt, `wissens-chef` laufe «taeglich ohne Liefer-Beleg seit Run 22 vom 31.07.». Am
+Original nachgemessen: Run 22 liegt als `outputs/2026-07-31_wissens-chef-run22.md` vor
+(31.07. 23:48, Commit 31.07. 23:51), die Läufe vom 01.08. und 02.08. erzeugten keinen Report.
+**Der Befund stimmt, seine Schlussfolgerung nicht:** beide Läufe fielen ins Wochenlimit
+(02.08. 23:12 CEST Limit-Ereignis belegt), der 01.08.-Lauf lag 8¾ h nach dessen Beginn.
+`wissens-chef` ist **nicht** defekt und **kein** Abschaltkandidat — der nächste ungestörte Lauf
+ist der Prüfstein. Für den Radar: ein Liefer-Delta von Null während einer Kontingentsperre darf
+nicht als Leerlauf gewertet werden, sonst schaltet der Leerlauf-Wächter gesunde Loops ab.
+
+**Destillat-Aufsicht (siebte Erhebung) — der Loop stand still, weil er nicht laufen durfte:**
+- (a) Fortschritt: Sektionen **37/37**, 214 Dateien inventarisiert, **31 offene Dateien**
+  (01.08.: 32) — die Front hat sich seit der letzten Erhebung um **eine** Datei bewegt, und das
+  am 01.08.; seit **01.08. 13:34** steht sie still (52 h).
+- (b) Ertrag: **9 inhaltliche Artikel** (01.08.: 8), alle `emerging`, **0 `established`**.
+  Jüngster Artikel `cheminee-aufbau-hafnerarbeiten.md`, **01.08. 13:33**. Seither kein Zuwachs.
+- (c) Delta-Null-Serie: **0**. Die Serie ist nicht gewachsen, weil in den letzten 48 h kein
+  Destillat-Lauf stattgefunden hat. Messweg weiterhin über CHANGELOG + `logbuch/laeufe/*.jsonl`;
+  unter `outputs/` liegt seit dem 28.07. kein Lauf-Report mehr (bereits am 01.08. vermerkt).
+- (d) Stückkosten: **02.08. nicht berechenbar** (0 Verbrauch, 0 Artikel), **03.08. für
+  `bauprodukte` nicht berechenbar** (kein Lauf). Der Mini-Verbrauch des 03.08. (2.53 Mio teuer)
+  ging an `energie` und `projekt-lessons`. Reihe bisher: 31.07. 0.66 · 01.08. 0.41 · 02.08. — ·
+  03.08. —.
+- Spec: `specs/bauprodukte-spec.md` liegt vor (28.07.), Spec-Gate hängt nicht. Korpus 1
+  `bauprodukte` weiterhin «in Arbeit», keine Komplettmeldung. Kriterien (f) und (g) **nicht
+  erfüllt** — (f) ausdrücklich nicht, weil der Aufwand fehlte, nicht nur der Ertrag.
+- **Mittags-Slot 13:30 (Versuch seit 29.07., Woche jetzt voll):** hat **geliefert** — 01.08.
+  Artikel `cheminee-aufbau-hafnerarbeiten` (CHANGELOG weist den Slot ausdrücklich aus) und
+  03.08. `projekt-lessons` RE-00087. Am 02.08. vom Wochenlimit abgewiesen, nicht vom Gate.
+  Das **Lauf-Gate hat ihn nie abgewiesen**: `gate-Macmini.log` zeigt seit dem 29.07. **0
+  Abweisungen**, am 03.08. 13:30 zwei Freigaben (`weiche-nachtschicht`, `nachtschicht`, 6135 MB
+  frei, Druck 2). **Empfehlung an Raphael: Slot behalten.**
+
+**Verbrauchsverteilung der Limit-Woche** (letzte 7 Tage, teuer, Mio): MacBook Pro **68.75**
+gesamt, davon `vollgas-chef-radar` **9.59** · `normen-training-nacht` 5.28 · `wissens-chef`
+3.80 · `hub-chef-taeglich` 2.31 · `twin-fidelity-review` 1.98 · `twin-mail-training` 1.78 ·
+`vollgas-fruehwarnung` 1.67 · `logbuch-radar` 1.65 · `konversations-log` 1.52 ·
+`zahlungsabgleich-check` 1.15 · übrige Tasks je unter 1.0. Mac Mini **14.97** gesamt, davon
+`energie-training` 3.27 · `claude-abo-auslastung` 0.73 · `planungsgrundlagen-training` 0.64.
+**Nicht zuordenbar: 31.03 (MacBook) + 9.92 (Mini) = 40.95 Mio**, also fast die Hälfte — darin
+stecken Raphaels eigene Sitzungen, Subagenten-Sessions ohne Task-Opener und die
+Nachtschicht-Dispatch-Läufe. Diese Zahl ist **keine** Aussage über interaktive Arbeit und darf
+nicht so gelesen werden; sie sauber aufzuschlüsseln ist offen.
+
+**Speicher MacBook Pro** zum Messzeitpunkt: 3531 MB verfügbar (vm_stat free+inactive+purgeable),
+`kern.memorystatus_vm_pressure_level: 2` — erhöhter Druck, aber kein Meldegrund dieser Warnung.
+
+**Meldeentscheid: GEMELDET.** Drei Kriterien erfüllt (c Wochenkontingent, d Briefing-Ausfall,
+e Radar-Herzschlag). Kein Wiederholungsfall der Mail vom 28.07. 06:58 — das war der Vorfall
+26./27.07.; dies ist eine **neue** Erschöpfung, und der damalige Eintrag hat genau dafür die
+nächste Mail vorgesehen. Empfohlen wurde **eine** Rücktaktung: `vollgas-chef-radar` von 4 h auf
+8 h (`50 */8 * * *`), belegt als grösster getaggter Einzelverbraucher mit 9.59 Mio bei rund
+42 Läufen. **Kein Drossel-Vollzug** — die Taktung entscheidet Raphael. Ausdrücklich **nicht**
+empfohlen: `wissens-chef` abzuschalten (siehe Gegenprüfung oben).
+
+**Nächste Mail:** nicht für denselben Befund. Erst wieder bei neuer Erschöpfung, bei blockierter
+interaktiver Sitzung, bei erneutem Briefing-Ausfall oder wenn der Radar nach dem Wiederanlauf
+erneut stillfällt.
+
 ## 2026-08-01 07:15 — STILL (keine Mail)
 
 Verbrauch teuer/total je Station (Mio), Messung 07:12–07:20, Duplikate über

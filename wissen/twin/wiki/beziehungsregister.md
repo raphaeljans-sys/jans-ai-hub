@@ -433,6 +433,13 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Du-Kontakt geführt wird — die Anrede-Stufe der Mail wandert **nicht** in die Drittnennung
   eines internen Dokuments. (Einzelbeleg 2024; der Du-Status zu diesem Zeitpunkt ist nicht
   gesichert → [[QUESTIONS]] 260801 #1.)
+  **Zweiter, unabhängiger Beleg in einer anderen Gattung (Fidelity 260803, Protokoll
+  24.08.2023):** das Sitzungsprotokoll kennt keine Anrede und keinen Gruss; die anwesende
+  Person steht in der Teilnehmer-Rubrik als **«Vorname Nachname · Kürzel · Firmenkürzel»**
+  («Lukas Hüsser LH WP», «Raphael Jans RJ JANS»), im Text erscheint sie mit vollem Namen in der
+  Drittform («Das Projekt wurde Lukas Hüsser … vorgestellt»), und die eigene Stimme kommt nur
+  als Kürzel vor («Anmerkung RJ»). Die Regel gilt damit nicht nur fürs Skript, sondern für das
+  Eigendokument überhaupt; offen bleibt allein die Sie-/Du-Teilfrage aus 260801 #1.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»

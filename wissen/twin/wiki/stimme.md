@@ -2888,3 +2888,31 @@ belegt durch die Tippfehlerdichte **innerhalb** der strukturierten Devis-Liste (
 Leistung», «Einbruchsicherungs-Dürckknopf», «Schliesszilinder») sowie «Freigage», «Das Beste
 Versuchen» — die Echo-Prüfung dieses Batches bleibt damit negativ, obwohl das Fenster in der
 Claude-Ära liegt.
+
+## Drei Eigendokument-Notationen nebeneinander (belegt Fidelity 260803, authentisch)
+
+Der Modalitätswechsel vom 01.08. hatte **eine** Eigendokument-Notation belegt (Präsentationsskript
+Regensdorf). Zwei weitere Golds zeigen: die Notationszeichen wandern nur teilweise mit, der Zweck
+des Dokuments entscheidet. Nebeneinandergestellt:
+
+| Element | Präsentationsskript (260801) | Sitzungsprotokoll (24.08.2023) | Bewertungsdokument (27.03.2021) |
+|---|---|---|---|
+| Kopf | `01 AUSGANGSLAGE` VERSALIEN + Tab + `: Kurzbeschrieb` | Firmenzeile · Projektnr. + Ort · «Protokoll <Zweck>» · Datum/Ort/Teilnehmer tabuliert | blosser Titel «Kriterienkatalog Aussenraumbewertung» |
+| Gliederung | nummerierte Kapitel | nummerierte **Traktandenliste mit Seitenzahlen** + Code-Spalte I/P/E | Varianten, **ab 0** nummeriert |
+| «_ » | Aufzählung | **Teilthema** | kommt nicht vor |
+| «>» | Herkunft/Grundlage | **Aussagekette des Gesprächs** (13×) | kommt nicht vor |
+| «>>>» | offene Frage | **kommt nicht vor** | kommt nicht vor |
+| Varianten/Szenarien | VERSAL-Einwort «UMBAU»/«ENSEMBLE» | — | **beschreibende Doppelformel** in Guillemets, Baukörper + Aussenraum gekoppelt |
+| Wertung | «1. Erkenntnis: …» | «**Anmerkung RJ:**» in Anführungszeichen | **«+»/«-»-Bilanz** je Variante |
+| Anführungszeichen | Guillemets «…» (gemischt mit „…") | **null Guillemets**, nur „…" | Guillemets «…», 8× |
+| Schluss | Traktandum «07 INPUT» | letzter Traktandumseintrag, danach fremdes Template | **letzter Minuspunkt** — kein Fazit, keine Empfehlung |
+
+**Echo-Prüfung beider Golds: negativ.** Protokoll — «Bewertungsverfahrren», «Einordung» (2×),
+«wiedersprechen», «Baukörpermodelierung», «Antwortete»/«Grundsätzliche» gross mitten im Satz,
+Kasusfehler «gegen die eigene BZO-Regelungen anzutreten». Kriterienkatalog — «Poolu.s.w»,
+«pregnanter», «Aussichtspriviligierte», «10-20%» ohne Leerschlag. Rohes `**` in beiden: null.
+Handgetippt, beide.
+
+**Der Gedankenstrich in der Variantenformel** ist kein Widerspruch zur Vorgabe «kein Gedankenstrich
+als Stilmittel» (10.06.2026, späte Präferenz): er verbindet dort zwei Begriffe **innerhalb eines
+Namens** («Quader im Westen – grosser Garten im Osten»), er ersetzt keine Satzkonstruktion.

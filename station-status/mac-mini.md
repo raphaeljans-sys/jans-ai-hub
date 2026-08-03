@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 03.08.2026 22:11:27
+Stand: 03.08.2026 22:21:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 21:46)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -14,4 +14,4 @@ Stand: 03.08.2026 22:11:27
 - 1 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 02456697 methoden-radar: kein Delta, Rotation Methode SPW geprueft — Befund wissens-chef ohne Liefer-Beleg seit 31.07.
+- b5537fc7 Korrektur Ultra-Code-Review Rest: Befunde A-E immobilienbewertung/normen
