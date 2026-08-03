@@ -64,6 +64,20 @@ Widerlegungs-Pruefung (Verifier-Prinzip der Spec-Methode, automatisiert):
   Stufe laeuft auf dem Hauptmodell.
 - **Protokoll:** Verdikte (bestanden/beanstandet je Artikel/Destillat) gehoeren in den
   Lauf-Report unter `outputs/` und ins CHANGELOG.
+- **Die zu widerlegende Aussage WOERTLICH aus der Datei zitieren, nie zusammenfassen**
+  (Lehre Run 121, 03.08.2026). Zwei von drei Refuter-Panels lieferten Beanstandungen, die sich
+  gegen die Paraphrase im Pruefauftrag richteten und nicht gegen den Dateiinhalt — das Destillat
+  war an beiden Stellen bereits korrekt. Wer zusammenfasst, laesst den Refuter die
+  Zusammenfassung pruefen und erzeugt Scheinbefunde.
+- **Jede Beanstandung vor dem Datei-Eingriff selbst am Original gegenpruefen** (Rule
+  `auto-verbesserungen` 260729b). Ein Agentenbefund ist ein Verdacht, kein Vollzug — das gilt
+  besonders fuer Befunde, die einen Rename oder eine Statussenkung ueber viele Dateien nach sich
+  zoegen.
+- **Zwei Verifikationstypen auseinanderhalten.** Web-/Neuquellen-Destillate brauchen das
+  Refuter-Panel (stimmt die Aussage an der Quelle?). Destillate aus dem **Alterskorpus PL-02**
+  (Quellen 2001-2019) brauchen stattdessen eine **Aktualitaetspruefung** gegen die geltende
+  Fassung — ein Refuter-Panel auf den Altstand bestaetigt nur, dass der Altstand korrekt
+  wiedergegeben ist, und rechtfertigt keine Hebung auf `established`.
 
 ## Intensivphase (ab 12.07.2026, bis auf Widerruf)
 
