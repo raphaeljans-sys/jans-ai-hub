@@ -18,7 +18,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]          # .../jans-ai-hub
 WIKI = ROOT / "wissen" / "twin" / "wiki"
-DNA = ROOT / "rules" / "jans-dna.md"
+# Ziel seit 03.08.2026 (Grundkontext-Diaet Runde 2): der Facetten-Block wird NICHT mehr
+# nach rules/jans-dna.md geschrieben (das ist der @-importierte Kern, 3.9 kB, immer aktiv),
+# sondern in die nicht importierte rules/jans-dna-facetten.md, die von den
+# text-erzeugenden Skills/Agenten lazily geladen wird.
+DNA = ROOT / "rules" / "jans-dna-facetten.md"
 
 # Reihenfolge = Reihenfolge im Gehirn
 FACETTEN = [

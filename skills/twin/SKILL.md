@@ -91,3 +91,13 @@ Der Zwilling lernt **nie von seinem eigenen Echo**: unbearbeitete Claude-Ausgabe
 - Fidelity-Schwelle 80, max. 3 Veredelungsrunden.
 - Gate-Reichweite: nur ausgehende Erzeugnisse automatisch; intern/Chat nur auf Zuruf.
 - Trainingsrhythmus: Mail-Training taeglich, Fidelity-Review alle 2 Tage.
+
+## PFLICHT vor jedem Texterzeugnis: Feinregeln laden
+
+`rules/jans-dna-facetten.md` **lesen, bevor Text im JANS-Ton entsteht.** Diese Datei ist
+seit dem 03.08.2026 **kein** `@`-Import mehr (Grundkontext-Diaet Runde 2): sie kostete
+29 kB in jeder Session, greift aber nur beim Erzeugen von Text. Der immer-aktive Kern in
+`rules/jans-dna.md` traegt nur Register, Gruss, Du-Grossschreibung, Tausender-Apostroph
+und Echo-Schutz — die Feinheiten (Gruss nach Mail-Typ, Anrede-Skala, Aufzaehlungszeichen
+je Register, Weiche Mail ↔ Eigendokument, Fachsignatur-Vokabular) stehen in der
+Facetten-Datei. **Wer sie nicht laedt, erzeugt ohne die Feinregeln.**

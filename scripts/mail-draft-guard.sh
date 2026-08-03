@@ -58,4 +58,14 @@ if [ -n "$hits" ]; then
   exit 0
 fi
 
+# --- Facetten-Erinnerung (03.08.2026, Grundkontext-Diaet Runde 2) ------------------
+# Seit der Auslagerung ist `rules/jans-dna-facetten.md` KEIN @-Import mehr. Der Mail-
+# Entwurf ist der volumenstaerkste JANS-Textausgang und zugleich der einzige Punkt, an
+# dem ein Hook das Erzeugnis am Entstehungspunkt sieht. Deshalb hier ein NICHT
+# blockierender Hinweis: er kostet nichts, wenn die Datei schon gelesen wurde, und
+# schliesst die Luecke, wenn nicht. Blockieren waere falsch — der Hook kann nicht
+# wissen, ob die Datei gelesen wurde, und wuerde sonst jeden Entwurf verhindern.
+jq -nc --arg r "Feinregeln pruefen: rules/jans-dna-facetten.md ist seit 03.08.2026 kein @-Import mehr und traegt Gruss nach Mail-Typ, Anrede-Skala, Aufzaehlungszeichen je Register und die Weiche Mail/Eigendokument. Vor dem Entwurf gelesen? Sonst jetzt lesen und den Body danach pruefen." \
+  '{hookSpecificOutput:{hookEventName:"PreToolUse",additionalContext:$r}}'
+
 exit 0

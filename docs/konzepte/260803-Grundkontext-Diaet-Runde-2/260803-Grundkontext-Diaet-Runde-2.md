@@ -48,14 +48,44 @@ gegengeprüft: **alle in der Chronik, keine Regel verloren.**
 über die Woche»**. Der Radar legt die Frage nicht erneut als P1 vor. Ein
 Tagesdeckel-Mechanismus ist bewusst noch nicht gebaut.
 
+### 4. DNA aufgeteilt: Kern bleibt aktiv, Feinregeln werden lazily geladen
+
+**Freigabe Raphael, 03.08.2026** (nach Vorlage des Befunds unten). Statt zu kürzen wurde
+verschoben:
+
+- `rules/jans-dna.md` — **3.9 kB, weiterhin `@`-importiert.** Enthält den
+  handgeschriebenen Kern-Fingerabdruck (Register nach Beziehung, Gruss, Du gross,
+  Tausender-Apostroph, kein Gedankenstrich als Stilmittel), das Verhältnis zu
+  `korrektur`/Twin-Gate, den eisernen Echo-Schutz, «Wann NICHT» — plus einen Zeiger.
+- `rules/jans-dna-facetten.md` — **30.7 kB, NICHT importiert.** Der kompilierte
+  Facetten-Block mit dem vollen Do/Don't-Regelsatz. `build_dna.py` schreibt jetzt hierhin.
+
+**Verdrahtung der Konsumenten** (ohne sie wäre die Auslagerung ein Stilverlust, keine
+Einsparung): `skills/twin/SKILL.md`, `skills/korrektur/SKILL.md`, `agents/email.md`,
+`agents/dokument.md` tragen je einen Pflicht-Abschnitt «Feinregeln laden».
+
+**Zusätzliches Sicherheitsnetz am Entstehungspunkt.** Die Prüfung ergab: einen harten
+Korrektur-Gate gibt es **nicht** — der Stop-Hook (`umlaut-guard.sh`) bewacht nur
+Chat-Antworten auf Umlaute. Der einzige Hook, der ein Erzeugnis am Entstehungspunkt
+sieht, ist `mail-draft-guard.sh` (PreToolUse). Er erhielt einen **nicht blockierenden**
+Hinweis auf die Facetten-Datei, der bei **jedem** Mail-Entwurf feuert. Blockieren wäre
+falsch: der Hook kann nicht wissen, ob die Datei gelesen wurde. Drei Pfade nachgemessen —
+sauberer Entwurf → Hinweis, ASCII-Umlaute → weiterhin `deny`, Nicht-Mail → still.
+
 ## Ergebnis
 
-| | vorher | nachher |
-|---|---|---|
-| Grundkontext | 117'238 B ≈ 29'309 Tokens | **114'459 B ≈ 28'614 Tokens** |
-| Einsparung je Session | | **2'779 B ≈ 694 Tokens** |
+| | vorher | nach Schritt 1–3 | nach Schritt 4 |
+|---|---|---|---|
+| Grundkontext | 117'238 B ≈ 29'309 Tokens | 114'459 B | **85'901 B ≈ 21'475 Tokens** |
+| Einsparung je Session | | 2'779 B | **31'337 B ≈ 7'834 Tokens (−26 %)** |
 
-Bei ~111 Sessions am Tag entspricht das rund **77'000 teuren Tokens pro Tag**.
+Bei ~111 Sessions am Tag entspricht das rund **0.87 Mio teuren Tokens pro Tag** — in der
+Grössenordnung eines Fünftels des 03.08.-Tagesverbrauchs (4.09 Mio).
+
+**Offen und bewusst nicht gemacht:** die Facetten-Datei ist mit 30.7 kB weiterhin gross;
+sie kostet jetzt aber nur noch dort, wo Text entsteht. Ob sie inhaltlich verdichtet
+werden soll, ist eine eigene, editorische Frage an den Twin-Harness — der Wachstums-
+Riegel hält sie bis dahin bei 30 kB fest.
 
 ## Der Befund, der den Plan korrigiert hat
 

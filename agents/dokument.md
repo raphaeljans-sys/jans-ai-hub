@@ -64,3 +64,13 @@ Jedes Erzeugnis traegt den Stil-Fingerabdruck von Raphael Jans (Quelle: `rules/j
 - Bei unverbindlichen Einschaetzungen **kein vereinnahmendes «wir»** (suggeriert Mandat).
 - Keine Boilerplate-Floskeln, keine Effekthascherei; maximale Zurueckhaltung, maximale
   Lesbarkeit.
+
+## PFLICHT vor jedem Texterzeugnis: Feinregeln laden
+
+`rules/jans-dna-facetten.md` **lesen, bevor Text im JANS-Ton entsteht.** Diese Datei ist
+seit dem 03.08.2026 **kein** `@`-Import mehr (Grundkontext-Diaet Runde 2): sie kostete
+29 kB in jeder Session, greift aber nur beim Erzeugen von Text. Der immer-aktive Kern in
+`rules/jans-dna.md` traegt nur Register, Gruss, Du-Grossschreibung, Tausender-Apostroph
+und Echo-Schutz — die Feinheiten (Gruss nach Mail-Typ, Anrede-Skala, Aufzaehlungszeichen
+je Register, Weiche Mail ↔ Eigendokument, Fachsignatur-Vokabular) stehen in der
+Facetten-Datei. **Wer sie nicht laedt, erzeugt ohne die Feinregeln.**

@@ -19,7 +19,8 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 
 ## Aktive Rules
 
-- `jans-dna.md` — das immer-aktive Gehirn des Twin-Harness (Stil-Fingerabdruck von Raphael Jans), steht ganz oben im @-Import, rahmt jede Erzeugung vor jedem Fach-Skill; Auto-Block kompiliert aus `wissen/twin/wiki/` via `skills/twin/tools/build_dna.py`
+- `jans-dna.md` — das immer-aktive Gehirn des Twin-Harness (Stil-Fingerabdruck von Raphael Jans), steht ganz oben im @-Import, rahmt jede Erzeugung vor jedem Fach-Skill. **Seit 03.08.2026 nur noch der Kern (3.9 kB):** Register, Gruss, Du-Grossschreibung, Tausender-Apostroph, eiserner Echo-Schutz
+- `jans-dna-facetten.md` — **NICHT importiert** (Grundkontext-Diaet Runde 2, 03.08.2026). Der kompilierte Facetten-Block (29 kB: Stimme · Denken · Haltung · Beziehungsregister · Fachsignatur · Arbeitsweise). **Pflicht-Lektuere vor jedem ausgehenden Texterzeugnis**; geladen von den Skills `twin`/`korrektur` und den Agenten `email`/`dokument`, zusaetzlich erinnert der PreToolUse-Hook `mail-draft-guard.sh` bei jedem Mail-Entwurf. Auto-Block kompiliert aus `wissen/twin/wiki/` via `skills/twin/tools/build_dna.py` (mit Wachstums-Riegel: Abbruch ab 30 kB)
 - `anrede-kontakte.md` — Anredeform (Du/Sie) je Kontakt, Default Sie
 - `antwort-formatierung.md` — Copy-Paste-Tauglichkeit (kein Markdown in Antworten mit Listen/Kontaktdaten)
 - `auftrags-dekomposition.md` — bei Mehrfach-Auftraegen zuerst eine explizite Deliverable-Checkliste via TaskCreate, dann abarbeiten (verhindert verlorene Teilpunkte aus Buendelsaetzen)
