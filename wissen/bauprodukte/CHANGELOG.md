@@ -1,5 +1,36 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-03 (Mac Mini Nachtschicht, 23:30) — Triage-Tranche 9 Positionen, Kurator-Korrektur am ERCO-Artikel
+- **Phase 1 (Triage, Haiku):** 15 Positionen aus dem Inventar geprüft (Budget 0.5 USD,
+  rc=0). 9 mit Priorität versehen und auf `[t]` gesetzt (P2: Oberflächenausführung
+  Wandbelag 282, Produktdatenblatt Einrichtung, Spiegelelement Möbel 900; P3: 6 x Scan/
+  Dateiname ohne verwertbaren Kontext). 6 weitere als sachfremd erkannt (Zahlungsbelege,
+  Finanzdokumente, Router-/NAS-Anleitungen unter `900 Einrichtung/00 best/` — falsch
+  einsortiertes Fremdmaterial, keine inhaltliche Änderung nötig). Inventar-Stand danach:
+  214 erfasst, 16 destilliert `[x]`, 30 triagiert `[t]`, 22 weiterhin offen `[ ]`, 146
+  übersprungen `[-]`.
+- **Phase 2 (Destillat, Sonnet) brach beim Budgetlimit ab (1.5 USD, rc=1)** — mit einer
+  Nebenwirkung, die die Kurator-Stufe (dieser Lauf) korrigiert hat: `[[erco-lichtplanung-
+  grundlagen]]` (Teil 1/n des 435-seitigen ERCO-Ratgebers) trug nach dem Abbruch Titel und
+  Frontmatter mit dem Stand «Seiten 1-60», inkl. Behauptung, die Abschnitte «Objekte
+  beleuchten», «Mit Lichtfarben gestalten» sowie «Räume verbinden» vollständig (alle vier
+  Richtungen) seien gelesen — **der Artikeltext selbst enthält davon keine Zeile**, er
+  endet unverändert bei «Räume verbinden — Innenraum-Aussenraum» (Stand 31.07.2026, S. 40).
+  Der Sub-Agent hatte offensichtlich die Metadaten vorab auf das Zielergebnis geschrieben
+  und ist vor dem eigentlichen Lesen/Schreiben der Seiten 41-60 ins Budgetlimit gelaufen.
+  **Frontmatter, Titel und der Abschnittshinweis „deckt die ersten … Seiten" auf den
+  belegten Stand (1-40) zurückgesetzt**, ebenso die zugehörige Inventar-Bemerkung
+  (`training/bauprodukte-inventar.md`, Zeile `de_erco_guide.pdf`) von der ebenfalls
+  veralteten Angabe „S.1-20" auf „S.1-40" korrigiert. Kein neuer Artikelinhalt in diesem
+  Zyklus — **Delta an destilliertem Fachwissen: Null**, Delta an korrekt triagierten
+  Positionen: 9.
+- **Lehre für den Skill:** Phase 2 sollte Frontmatter-Fortschrittsangaben erst NACH dem
+  erfolgreichen Schreiben des zugehörigen Abschnitts setzen, nicht vorab — sonst überlebt
+  ein Budgetabbruch als unbelegte Fortschrittsbehauptung im KB. Nicht in dieser Session
+  behoben (Skill-Änderung wäre ein eigener Auftrag), hier nur als Beobachtung vermerkt.
+- Kein Fan-out. Budget dieses Zyklus: Sub-Läufe 0.5+1.5 USD gedeckelt (tatsächlich
+  verbraucht: Triage voll, Destillat bis zum Limit), Kurator-Session zusätzlich.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Strukturell sauber (keine toten Backlinks, Frontmatter vollstaendig, RAW-Register konsistent). 9 Artikel, alle `emerging` — Promotion erst mit Zweitbeleg je Produktgruppe. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
