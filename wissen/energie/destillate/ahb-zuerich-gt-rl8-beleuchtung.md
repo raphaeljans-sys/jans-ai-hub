@@ -82,7 +82,18 @@ Falls durch Auflagen oder spezielle Anforderungen Notbeleuchtungsanlagen für Fl
 **Einordnung Raphael Jans / eigene Markierung:**
 
 - Dieses Dokument ist eine **bauherreneigene Richtlinie der Stadt Zürich für ihre eigenen Bauten** (AHB-Immobilienportfolio) — kein allgemeingültiges Recht. Für private JANS-Projekte (Healthcare, Wohnbau) ist es **nicht direkt anwendbar**, aber als **Referenz-Pflichtenheft** brauchbar: die Struktur (Ziel → Projektierungsvorgaben → Steuerungskonzept nach Raumtyp → Notbeleuchtung) eignet sich als Vorlage für ein eigenes Beleuchtungs-Pflichtenheft in einem Bauherrenmandat, insbesondere für institutionelle/öffentliche Auftraggeber, die ein AHB-nahes Anspruchsniveau erwarten.
-- **Übertragbar auf private Projekte:** die zitierten Normen selbst sind allgemeingültig und für jedes Schweizer Projekt relevant — SIA 380/4 (Energienachweis Beleuchtung, Pflicht bei Nichtwohnbauten in vielen Kantonen inkl. ZH), EN 12464-1 (Beleuchtungsstärken/Blendung, europäische Norm, unabhängig vom Bauherrn), NIN/SN EN 1838/SN EN 50171 für Notbeleuchtung. Diese muss ein Planer ohnehin einhalten, unabhängig davon, ob die Stadt Zürich Bauherrin ist.
+- **Übertragbar auf private Projekte:** die zitierten Normen selbst sind allgemeingültig — EN 12464-1 (Beleuchtungsstärken/Blendung, europäische Norm, unabhängig vom Bauherrn), NIN/SN EN 1838/SN EN 50171 für Notbeleuchtung. Diese muss ein Planer ohnehin einhalten, unabhängig davon, ob die Stadt Zürich Bauherrin ist.
+
+  ⚠ **KORRIGIERT (Aktualitätsprüfung Run 122, 03.08.2026, am Original gegengeprüft):** Hier stand
+  ursprünglich, **SIA 380/4** sei «für jedes Schweizer Projekt relevant» und «Pflicht bei
+  Nichtwohnbauten in vielen Kantonen inkl. ZH». **Das ist heute falsch.** SIA 380/4:2006 ist
+  **archiviert, gültig gewesen bis 31.07.2019** (im Hauptmodell an der SIA-Shop-Produktseite
+  selbst verifiziert: «gültig ab 01.10.2006 gültig bis 31.07.2019, archivierter Titel!»). Sie
+  wurde nicht durch eine neue Ausgabe ersetzt, sondern **aufgeteilt**: Beleuchtung →
+  **SIA 387/4** (2017, heute **SIA 387/4:2023, gültig ab 01.08.2023**), Restbedarf →
+  **SIA 2056:2019**, Klimakälte → SIA 382/2. Der Nachweis Beleuchtung läuft im Kt. Zürich heute
+  über das Formular **EN-111** auf der Plattform **EVEN** (seit 01.01.2026 verbindlich); das im
+  Dokument genannte Tool **www.energycodes.ch ist nicht mehr erreichbar**.
 - **Stadteigene Sonderregel, NICHT übertragbar:** die konkrete Genehmigungspflicht durch "die Projektleitung AHB" (für Sonderleuchten, Lichtregelung/Szenensteuerung, Notbeleuchtungskonzept ohne Pflichtenheft) ist eine interne AHB-Governance-Regel und hat in privaten Mandaten kein Äquivalent — dort entscheidet die Bauherrschaft selbst bzw. gilt die freie Wahl im Rahmen der Normen.
 - **Für die Bauherren-FAQ direkt brauchbar:** die Halbautomatik-vs.-Automatik-Unterscheidung nach Raumtyp (Büro/Sitzungszimmer = Präsenz+Tageslicht mit manuellem Einschalten; Korridor/Toilette/Garage = voll automatisch inkl. Einschalten) ist eine gute, praxisnahe Grundregel für die Beantwortung der Frage "welche Lichtsteuerung brauche ich wo?" — unabhängig vom Bauherrn. Ebenso der Hinweis Betriebswirkungsgrad 70-90 % und EU-Effizienzklasse A als Auswahlkriterium für Leuchten, sowie die 60-Minuten-Funktionserhalt-Pflicht bei Notbeleuchtungsverkabelung.
 - Kostenrelevanz für eine Bauherrschaft: Pflicht zum SIA-380/4-Nachweis bedeutet Planungsaufwand (Lichtplaner-Leistung), bei grösseren Vorhaben (Analogieschwelle 5 Mio. Franken bei der Stadt Zürich — private Schwelle kann tiefer liegen) sogar ein dreistufiger Nachweis über den ganzen Projektverlauf. Die Steuerungspflicht (Präsenz-/Tageslichtsensoren) ist ein Mehrkosten- und zugleich Betriebskosten-Sparposten; genaue Zahlen liefert das Dokument nicht.

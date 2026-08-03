@@ -3,7 +3,7 @@ quelle: "Richtlinie GT Heizungsanlagen — Richtlinien Gebäudetechnik des Hochb
 herausgeber: "Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, in Zusammenarbeit mit der Immobilien-Bewirtschaftung und der Liegenschaftsverwaltung"
 ausgabe: "Version 2.1, Juli 2008 (freigegeben durch die Geschäftsleitung AHB am 18.06.2008; die Richtlinien Gebäudetechnik wurden durch die Geschäftsleitung AHB am 4.05.2004 in Kraft gesetzt und werden periodisch überarbeitet)"
 gelesen: "Seiten 1-4 (vollständiges Dokument), 2026-08-03"
-datenstand: "2008 ⚠ Alterskorpus, Zahlenwerte vor Verwendung gegen geltende Fassung pruefen"
+datenstand: "2008 ⚠⚠ Alterskorpus mit ZWEI belegten Totverweisen (Aktualitaetspruefung Run 122, 03.08.2026): (1) **Art. 20 und Art. 20a LRV sind aufgehoben** durch Ziff. I der V vom 20.10.2021, mit Wirkung seit 01.01.2022 (AS 2021 632) — am Fedlex-Volltext SR 814.318.142.1, Konsolidierung 01.01.2026, im Hauptmodell selbst verifiziert; die 350-kW-Konformitaetsschwelle existiert nicht mehr. (2) **DIN V 4279-7 ist zurueckgezogen**; fuer Erdwaermesonden gilt in der Schweiz **SIA 384/6:2021** (in Kraft seit 01.05.2021). Uebrige Zahlenwerte vor Verwendung gegen die geltende Fassung pruefen"
 status: emerging
 last_updated: "2026-08-03 (Run 122)"
 ---
@@ -35,6 +35,18 @@ Das Dokument ist ein 4-seitiges Kapitel (1 Wärmeerzeugung, 2 Wärmeverteilung, 
 - Für neue Brenner/Kessel bzw. Brenner-Kessel-Einheiten **bis 350 kW**: die Projektleitung AHB muss den **Nachweis der Konformität gemäss Art. 20a Luftreinhalteverordnung (LRV)** abgeben.
 - Für Systeme **über 350 kW**: eine **Abnahmemessung** ist durchzuführen.
 
+  ⚠⚠ **TOTVERWEIS, nicht mehr anwenden (Run 122, am Fedlex-Volltext selbst verifiziert):**
+  **Art. 20 und Art. 20a LRV sind aufgehoben** — «Aufgehoben durch Ziff. I der V vom
+  20. Okt. 2021, mit Wirkung seit 1. Jan. 2022 (AS 2021 632)». Mit dieser Revision wurden die
+  Bestimmungen zum **Inverkehrbringen** von Feuerungsanlagen aus der LRV entfernt; die
+  **Emissionsbegrenzungen und die Feuerungskontrolle bestehen unverändert weiter**. Eine
+  «Konformitätsnachweispflicht nach Art. 20a LRV» gibt es also nicht mehr. Die Zeichenfolge
+  «350 kW» kommt im geltenden LRV-Text zwar noch dreimal vor, aber ausschliesslich in
+  **anderem Zusammenhang** (Verbot der Abfallverbrennung in Kleinanlagen, Anhang 5 Ziff. 13
+  flüssige Brennstoffe) — nicht als Konformitäts- oder Abnahmemessungsschwelle. In welches
+  Regelwerk die Inverkehrbringens-Anforderungen gewandert sind, ist **nicht verifiziert**
+  (QUESTIONS E-122-3).
+
 ### 1.3 Wärmepumpensysteme
 
 - Geplante Werte für **Leistungszahl (COP)** und **Jahresarbeitszahl (JAZ)** sind in der Projektdokumentation Energie- und Gebäudetechnik zu dokumentieren. Die JAZ muss für das **Gesamtsystem inkl. Förderenergie für das Wärmequellenmedium** beziffert werden; die entsprechende Systemgrenze ist aufzuzeigen.
@@ -43,6 +55,13 @@ Das Dokument ist ein 4-seitiges Kapitel (1 Wärmeerzeugung, 2 Wärmeverteilung, 
 - Der **Kältemittelinhalt** im System soll so klein wie möglich sein (Plattentauscher statt Rohrbündeltauscher); **Druckverlust < 20 kPa**.
 - Im unteren Leistungsbereich sollen ausschliesslich geprüfte Wärmepumpen mit **D-A-CH-Gütesiegel** (www.fws.ch/fws_061) eingesetzt werden.
 - Bei Erdsonden: **Durchflusstest und Druckprüfung nach DIN V 4279-7** durchzuführen.
+  ⚠ **Überholt (Run 122):** DIN V 4279-7 war eine deutsche Vornorm zur Druckprüfung von
+  PE-Rohrleitungen (Ausgabe 1994-12), die in der Praxis auf Erdwärmesonden übertragen wurde;
+  sie ist **zurückgezogen**. Für die Schweiz gilt heute die eigene Fachnorm
+  **SIA 384/6 «Erdwärmesonden»**, revidierte Fassung **SIA 384/6:2021 in Kraft seit 01.05.2021**
+  — sie regelt Druck-, Dichtheits- und Durchflussprüfung normativ, verlangt deren elektronische
+  Aufzeichnung und behandelt zusätzlich Thermal Response Tests. 2008 existierte diese Norm noch
+  nicht, was den damaligen Verweis auf die deutsche Vornorm erklärt.
 
 ### 2. Wärmeverteilung
 
