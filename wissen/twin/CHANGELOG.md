@@ -4,6 +4,18 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — Erst-Verlinkung zur Kontext-Budget-KB, Takt berichtigt
+
+- **[erst-verlinkung] `CLAUDE.md`.** Diese KB kannte `wissen/claude-code` in keiner Datei
+  (`grep` ueber CLAUDE.md + alle sechs Facetten: null Treffer) — obwohl sie ueber
+  `skills/twin/tools/build_dna.py` die **groesste Datei des Grundkontexts** erzeugt
+  (`rules/jans-dna.md`, am 03.08.2026 32'428 B = 28.1 % des Grundkontexts) und `claude-code`
+  genau dieses Budget fuehrt. Abschnitt «Kontext-Kosten dieser KB» ergaenzt, mit Pfadverweis auf
+  `wissen/claude-code/wiki/kontext-architektur.md` und der Anweisung, vor einer groesseren
+  Facetten-Erweiterung dort den Stand nachzusehen. Gegenverweis dort gesetzt.
+- **[veraltetes] `CLAUDE.md` Abschnitt «Loops».** `twin-fidelity-review` war mit «alle 2 Tage»
+  gefuehrt; die Registry taktet ihn **taeglich** (cron `40 5 * * *`, Stand 03.08.2026).
+
 ## 03.08.2026 — twin-mail-training Batch 85: Luecken-Sweep `rj@` 15.–28.02.2026
 
 Fenster vollstaendig gelistet (56 Sent Items), Tagesabgleich in beiden Datumsformaten vor der

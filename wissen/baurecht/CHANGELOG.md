@@ -3,6 +3,23 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — § 259 PBG: Fassungs-Weiche nachgetragen
+
+- **[veraltetes, ausnutzungsrelevant] `wiki/nutzungsziffern.md`.** Der Abschnitt zur Bezugsgroesse
+  aller Nutzungsziffern fuehrte die **Anhang-Fassung** (Wald, Gewaesser und Waldabstandsstreifen
+  >15 m «ausser Ansatz») als geltendes Recht — ohne die Fassungs-Weiche, die derselbe Artikel an
+  vier anderen Stellen bereits fuehrt. **Geltend ist der harmonisierte Hauptteil** (§ 259 PBG,
+  amtlicher Volltext `raw/260607_amtlich_zh_pbg.md` Z. 2724-2727, Nachtrag 133): anrechenbar sind
+  die in der Bauzone liegenden Grundstuecksflaechen; Hauszufahrten **werden** angerechnet, Grund-,
+  Grob- und Feinerschliessung nicht. **Waldabstandsflaechen und offene Gewaesser in der Bauzone sind
+  damit anrechenbar.** Die Anhang-Fassung gilt nur noch in Gemeinden mit noch nicht an die Aenderung
+  vom 14.09.2015 angepasster BZO (Uebergangsbestimmungen ebd. Z. 3907-3913).
+  Abschnitt umbenannt in «Anrechenbare Grundstuecksflaeche», beide Fassungen belegt, Handlungs-
+  anweisung ergaenzt: **bei harmonisierter BZO am Waldrand oder mit offenem Gewaesser die Ziffern
+  nachrechnen — die Ausnuetzung kann hoeher liegen als bisher angenommen.**
+  Gegenstelle `wissen/planungsgrundlagen/wiki/recht-norm-ivhb-baubegriffe.md` (Ziff. 8.1) fuehrte
+  bereits die geltende Fassung und bleibt unveraendert.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B2 · C1 · D0 · E0 · F455 · G22
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. 455 ae/oe-Verstoesse in 12 Artikeln — der hoechste Absolutwert nach `immobilienbewertung`, und er waechst weiter. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

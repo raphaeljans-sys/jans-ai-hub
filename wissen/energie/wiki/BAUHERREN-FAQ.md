@@ -6622,3 +6622,139 @@ Status **established**.
 > Prozent-Bandbreite folgt daraus nicht — die Einzelfälle streuen deutlich, die espazium/
 > TEC21-Fallstudie Badenerstrasse 380 (Zürich) liegt bei rund −13 %. Für ein konkretes Projekt
 > heisst das: 20-25 % als Erwartungswert, kein Automatismus.
+
+## F202 — «Wir sanieren das Warmwasser im Pflegeheim und wollen eine Wärmepumpe. Geht das mit dem Legionellenschutz zusammen?»
+
+**Kurzantwort:** Ja, aber nur mit einer baulichen Vorkehrung, die man **jetzt** treffen muss.
+Alters- und Pflegeheime gehören zur **Risikogruppe 2**. Dort ist bei einer Erneuerung die
+**thermische Desinfektion mit 75 °C einzuplanen** — und wenn die Wärme aus einer Wärmepumpe
+kommt, ausdrücklich **ein Anschluss für eine mobile Heizzentrale vorzusehen**. Chemische oder
+elektrophysikalische Vorbeugesysteme sind kein zulässiger Ersatz.
+
+**Fachliche Begründung:** Hier stehen zwei Ziele gegeneinander. Eine Wärmepumpe wird umso
+effizienter, je tiefer die geforderte Vorlauftemperatur liegt; der Legionellenschutz verlangt
+periodisch 75 °C. Legt man die Wärmepumpe auf diese Spitzentemperatur aus, bezahlt man die
+Effizienz das ganze Jahr über für einen Betriebsfall, der selten eintritt. Der in der Quelle
+vorgesehene Weg löst das anders: Die Wärmepumpe wird für den Normalbetrieb ausgelegt, und für
+die Desinfektion wird die Möglichkeit geschaffen, temporär eine mobile Heizzentrale anzuhängen.
+Diese Anschlussmöglichkeit kostet in der Planung fast nichts, lässt sich später aber kaum
+nachrüsten. Ergänzend gilt die Leitungsregel: temporär ungenutzte Stränge maximal 0,2 m, sonst
+entleeren oder demontieren — Stagnationsstrecken sind der eigentliche Nährboden.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik,
+«Richtlinie GT Sanitärinstallationen», Version 2.1, Juli 2008, Kapitel 3, Seite 3, vollständig
+gelesen. ⚠ Datenstand 18 Jahre; die Quelle ist zudem eine **bauherreneigene Richtlinie der Stadt
+Zürich, kein Recht** — die 75-°C-Vorhaltung ist als bewährte Bestellerpraxis zu lesen, nicht als
+Vorschrift. Massgebend für die Ausführung sind die geltenden SVGW-/SIA-Vorgaben und die
+kantonalen Hygienevorschriften. Datenstand 2026-08-03 (Run 122) →
+`[[ahb-zuerich-gt-rl6-sanitaerinstallationen]]`, vertieft in
+`[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`. Status **emerging**.
+
+## F203 — «Können wir das Gebäude nicht einfach kühlen? Das kostet doch nicht viel.»
+
+**Kurzantwort:** Aktive Kühlung ist bei professionellen Bauherrschaften die **begründete
+Ausnahme, nicht die Grundausstattung**. Zuerst wird baulich gearbeitet (Speichermasse,
+Sonnenschutz), und erst wenn ein Bedarfsnachweis zeigt, dass das nicht reicht, wird gekühlt.
+Wird gekühlt, ändert sich die Auslegungslogik grundlegend.
+
+**Fachliche Begründung:** Die Quelle verlangt vor jeder aktiven Kühlung einen **Bedarfsnachweis
+nach SIA 382/1, Ziffer 4.4.4** mit Zustimmung der Fachstelle — und deklariert diesen Nachweis
+als separat zu vergütende Zusatzleistung. Der eigentliche Kern ist aber die Auslegungsregel:
+Gekühlt wird **auf die Tagesenergie (kWh/d), nicht auf die Spitzenleistung (kW)**. Das setzt
+zweierlei voraus: genügend thermisch aktive Speichermasse und eine zulässige Tagesschwankung der
+Raumtemperatur von 3-4 K. Wer stattdessen auf die Spitzenlast auslegt, kauft eine deutlich
+grössere Maschine, die die meiste Zeit in ungünstigen Teillastpunkten läuft. Weiter gilt:
+wasserführende Systeme sind der Luftkühlung vorzuziehen, und wo möglich ist ein kombiniertes
+Abgabesystem (TABS) anzustreben — dieselbe Fläche heizt im Winter und kühlt im Sommer. Ab 5 kW
+Kälteleistung verlangt die Quelle einen eigenen Strom- und Impulszähler, damit der Verbrauch
+überhaupt sichtbar wird.
+
+**Quelle:** Stadt Zürich AHB, «Richtlinie GT Raumkühlung», Version 2.1, Juli 2008, Abschnitte
+1.1, 1.2, 2, 3.2 und 5, Seiten 2-4, vollständig gelesen. ⚠ Datenstand 18 Jahre: die zitierte
+Fassung **SIA 382/1:2007** ist nicht mehr die aktuelle, und die Kältemittelaussage (natürliche
+Arbeitsstoffe vor H-FKW wie R134a/R410A/R407C) ist durch die seitherige Verschärfung der
+ChemRRV überholt — die Rangfolge natürlich vor synthetisch gilt heute erst recht. Datenstand
+2026-08-03 (Run 122) → `[[ahb-zuerich-gt-rl4-raumkuehlung]]`, ergänzend
+`[[sommerlicher-waermeschutz]]`. Status **emerging**.
+
+## F204 — «Sie schlagen drei Heizsysteme vor. Woran soll ich das festmachen?»
+
+**Kurzantwort:** An einem Variantenvergleich mit sieben festen Rubriken: Systembeschrieb,
+Investitionskosten, Wirtschaftlichkeitsrechnung, ökologische Beurteilung, Platzbedarf, Risiken
+und Verfügbarkeit. Vorgelagert gilt eine Reihenfolge: **zuerst den Bedarf senken, dann Abwärme
+und erneuerbare Energien nutzen, und erst die Restdeckung möglichst umweltschonend abdecken.**
+
+**Fachliche Begründung:** Bevor überhaupt Varianten gerechnet werden, sind vier Punkte
+abzuklären, die man von aussen nicht sieht und die im Nachhinein teuer werden: die verfügbare
+Anschlussleistung (Fernwärme oder Gas), **Abwärmequellen in der Umgebung** — Abwasser, Abluft,
+gewerbliche Kälteanlagen, EDV- und Serverräume, USV-Anlagen, Industrieanlagen —,
+**Kapazitätsreserven auf Nachbargrundstücken**, und ob in der Nachbarschaft koordinierbare Bau-
+oder Sanierungsvorhaben laufen. Gerade der dritte und vierte Punkt entscheiden darüber, ob sich
+ein gemeinsamer Wärmeverbund rechnet, und beide sind nur in einem engen Zeitfenster verfügbar.
+In der ökologischen Beurteilung verlangt die Quelle ausdrücklich auch die **graue Energie**, nicht
+nur den Betrieb. Zu beachten ist, dass ein solcher Variantenvergleich in der Quelle als
+**separat zu vergütende Zusatzleistung** geführt wird — er gehört also in die Honorarofferte und
+nicht in die Grundleistung.
+
+**Quelle:** Stadt Zürich AHB, «Richtlinie GT Systemwahl», Version 2.1, Juli 2008, Ziffern 1, 2,
+3.1.1 und 4, Seiten 3-5, vollständig gelesen. ⚠ Datenstand 18 Jahre; die Struktur des
+Variantenvergleichs ist zeitlos, die energiepolitischen Präferenzen der Quelle (etwa Vorrang der
+thermischen Solarnutzung vor PV bei regelmässigem Warmwasserbedarf, Rücksprachepflicht bei
+Holzfeuerungen über 150 kW) sind vor dem heutigen Preis- und Rechtsstand zu prüfen. Datenstand
+2026-08-03 (Run 122) → `[[ahb-zuerich-gt-rl2-systemwahl]]`, ergänzend
+`[[gebaeudetechnik-pflichtenheft]]`. Status **emerging**.
+
+## F205 — «Die Anlage ist abgenommen und läuft. Sind wir jetzt fertig?»
+
+**Kurzantwort:** Nein. Eine professionelle Bauherrschaft plant nach der Inbetriebsetzung
+**1 bis 2 Jahre fachliche Nachbetreuung** ein — die Betriebsoptimierung. Und sie lässt sich die
+versprochenen Kennzahlen **messtechnisch nachweisen**, statt sie aus dem Datenblatt zu glauben.
+
+**Fachliche Begründung:** Eine haustechnische Anlage erreicht ihre Auslegungswerte praktisch nie
+am Abnahmetag. Regelparameter, Zeitprogramme, Volumenströme und Heizkurven werden erst im realen
+Betrieb über einen vollen Jahreszyklus eingeregelt. Genau dafür ist die Nachbetreuung da, und sie
+findet nur statt, wenn sie im Vertrag steht. Parallel dazu verlangt die Quelle harte
+Leistungsnachweise: **Kesselwirkungsgrad-Messung ab 350 kW**, **COP beziehungsweise JAZ bei
+Wärmepumpen und Kältemaschinen** — und zwar für das **Gesamtsystem inklusive Förderenergie**,
+mit ausgewiesener Systemgrenze — sowie Luftdichtheitsmessungen bei Lüftungsanlagen. Die
+Systemgrenze ist dabei der entscheidende Punkt: eine JAZ ohne Angabe, ob Umwälzpumpen,
+Sole-Pumpe und allfällige Elektro-Nachheizung enthalten sind, ist keine belastbare Zahl. Bei der
+Lüftung ist zusätzlich der **WRG-Temperaturänderungsgrad je Anlage nachzumessen** und die
+**Kanaldichtheit vor dem Isolieren** zu prüfen — danach ist sie nicht mehr zugänglich.
+
+**Quelle:** Stadt Zürich AHB, «Richtlinie GT Planungsgrundlagen», Version 2.1, Juli 2008,
+Seite 5, sowie «Richtlinie GT Lüftungsanlagen», Ziffern 1.4 und 2.3, und «Richtlinie GT
+Heizungsanlagen», Abschnitt 1.3, alle vollständig gelesen. ⚠ Datenstand 18 Jahre; die
+350-kW-Schwelle stammt aus der damaligen LRV-Fassung und ist vor Berufung darauf gegen die
+geltende Luftreinhalte-Verordnung zu prüfen. Datenstand 2026-08-03 (Run 122) →
+`[[ahb-zuerich-gt-rl1-planungsgrundlagen]]`, `[[ahb-zuerich-gt-rl3-heizungsanlagen]]`,
+`[[ahb-zuerich-gt-rl5-lueftungsanlagen]]`. Status **emerging**.
+
+## F206 — «Beim Automationssystem ist ein Anbieter deutlich günstiger. Spricht etwas dagegen?»
+
+**Kurzantwort:** Ja, wenn er dafür geschlossene Schnittstellen mitbringt. Die drei Vorgaben, die
+über die Lebensdauer zählen, sind **Herstellerunabhängigkeit aller Schnittstellen**, **30 %
+Ausbaureserve auf allen Systemgrenzen** und **Autarkie der dezentralen Einheiten**. Der
+Anfangsrabatt wird bei der ersten Erweiterung zurückgeholt.
+
+**Fachliche Begründung:** Ein Gebäude wird über seine Nutzungsdauer mehrfach umgebaut und
+umgenutzt; das Automationssystem muss jedes Mal mitwachsen. Wer sich auf ein proprietäres System
+einlässt, hat bei jeder Erweiterung genau einen möglichen Anbieter — ohne Vergleichsofferte, auf
+unbestimmte Zeit. Die Quelle verlangt die Herstellerunabhängigkeit deshalb ausdrücklich **über
+die ganze Lebensdauer** und lässt Ausnahmen nur mit Genehmigung der Fachstelle zu. Die 30-%-Reserve
+ist breiter zu verstehen, als sie meist umgesetzt wird: sie gilt nicht nur für freie Klemmen,
+sondern für **Ein- und Ausgänge, Adressraum, Speicherplatz, CPU- und Busbelastung und
+Leitungslängen**. Die Autarkieforderung schliesslich verlangt, dass dezentrale Funktionseinheiten
+bei einem Ausfall der Datenkommunikation oder des Leitsystems **selbständig weiterlaufen** und
+bei Spannungsausfall keine Daten verlieren — sonst legt eine Störung im Leitrechner das ganze
+Haus still. Ergänzend sinnvoll: getrennte Bedienrechte für Benutzende, Betreibende und
+Servicepersonal, und eine Alarmpriorisierung in der Reihenfolge Personenschäden, Gebäudeschäden,
+Störungen, Wartungsfälligkeit.
+
+**Quelle:** Stadt Zürich AHB, «Richtlinie GT Gebäudeautomation», Version 2.1, Juli 2008,
+Ziffern 2.2, 2.3, 4.1, 4.2 und 4.3, Seiten 2-7, vollständig gelesen. ⚠ Datenstand 18 Jahre; die
+konkreten Produkt- und Netzbezeichnungen der Quelle (IMMO-Box ab 1'000 m² EBF, Züri-Netz) sind
+**stadteigene Infrastruktur und nicht übertragbar** — insbesondere ist die 1'000-m²-Schwelle
+nicht mit der MuKEn-2025-Monitoringpflicht ab 2'000 m² EBF zu verwechseln. Für die normative
+Seite (BACS-Klassen A-D, SIA 386.111:2022) gilt `[[sia-386-bacs-gebaeudeautomation]]`. Datenstand
+2026-08-03 (Run 122) → `[[ahb-zuerich-gt-rl9-gebaeudeautomation]]`. Status **emerging**.

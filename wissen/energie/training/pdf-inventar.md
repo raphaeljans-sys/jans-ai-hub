@@ -163,3 +163,42 @@ Vor dem Lesen einmal `head -c 200000 <datei> > /dev/null` erzwingt die Materiali
 Dateinamen (z.B. `1.13.C Zielvereinbarungen SIA112_1.pdf` / `1.13.C Zielvereinbarungen-SIA112_1.pdf`
 / `1.13Zielvereinbarungen_SIA112_1.pdf`). Vor dem Destillieren Dubletten pruefen, sonst wird
 dieselbe Quelle mehrfach gezaehlt.
+
+## Nachtrag 2026-08-03 (Run 122): GT_RL1-RL9 vollstaendig destilliert
+
+**Korrektur an Run 121:** Das Kuerzel **«V21» im Dateinamen bedeutet Version 2.1 (Juli 2008),
+NICHT 2021.** Run 121 hat es als Jahreszahl gelesen und den Block dadurch rund 13 Jahre zu jung
+eingestuft. Am Titelblatt selbst verifiziert (Hauptmodell, nicht nur Agentenbefund): «Version 2.1
+/ Juli 2008»; die Richtlinien Gebaeudetechnik wurden am **04.05.2004** durch die Geschaeftsleitung
+AHB in Kraft gesetzt, die vorliegende Fassung am **18.06.2008** freigegeben. Sieben der neun
+Destillier-Agenten haben das unabhaengig voneinander gemeldet.
+
+**Folge:** alle neun Destillate sind `emerging` mit ⚠-Alterskorpus-Vermerk. Die
+**Prozess- und Bauherrenlogik** (Kaskade, Nachweisketten, Bedarfsnachweis-Pflichten,
+Betriebsoptimierung) traegt weiterhin; die **Zahlen- und Normverweise** sind 18 Jahre alt und
+vor jeder Verwendung gegen die geltende Fassung zu pruefen (Aktualitaetspruefung Run 122, siehe
+`outputs/2026-08-03_energie-run122.md`).
+
+⚠ **Merkregel fuer den Korpus:** Versionskuerzel im Dateinamen (`_V21`, `_V13`, `_1.3`) NIE als
+Jahreszahl lesen. Das Ausgabedatum steht am Titelblatt und wird dort gelesen, nicht geraten.
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/) | KB-Datenstand |
+|---|---|---|
+| [x] `GT_RL1_Planungsgrundlagen_V21.pdf` | 2026-08-03 (vollst. S. 1-6 → `ahb-zuerich-gt-rl1-planungsgrundlagen`) |
+| [x] `GT_RL2_Systemwahl_V21.pdf` | 2026-08-03 (vollst. S. 1-5 → `ahb-zuerich-gt-rl2-systemwahl`) |
+| [x] `GT_RL3_Heizungsanlagen_V21.pdf` | 2026-08-03 (vollst. S. 1-4 → `ahb-zuerich-gt-rl3-heizungsanlagen`) |
+| [x] `GT_RL4_Raumkuehlung_V21.pdf` | 2026-08-03 (vollst. S. 1-4 → `ahb-zuerich-gt-rl4-raumkuehlung`) |
+| [x] `GT_RL5_Lueftungsanlagen_V21.pdf` | 2026-08-03 (vollst. S. 1-5 → `ahb-zuerich-gt-rl5-lueftungsanlagen`) |
+| [x] `GT_RL6_Sanitaerinstallationen_V21.pdf` | 2026-08-03 (vollst. S. 1-4 → `ahb-zuerich-gt-rl6-sanitaerinstallationen`) |
+| [x] `GT_RL7_Elektroanlagen_V21.pdf` | 2026-08-03 (vollst. S. 1-4 → `ahb-zuerich-gt-rl7-elektroanlagen`) |
+| [x] `GT_RL8_Beleuchtung_V21.pdf` | 2026-08-03 (vollst. S. 1-4 → `ahb-zuerich-gt-rl8-beleuchtung`) |
+| [x] `GT_RL9_Gebaeudeautomation_V21.pdf` | 2026-08-03 (vollst. S. 1-7 → `ahb-zuerich-gt-rl9-gebaeudeautomation`) |
+
+**Stand PL-02:** 19 von 182 energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122),
+**163 offen**. Naechster geschlossener Block: `Bauteilkatalog_Energie+Oekologie.pdf` (AHB),
+danach die eco-bau-Reihe «Merkblaetter nach BKP» (⚠ Dublettenwarnung unten beachten).
+
+**Messhinweis Run 122:** Subagenten auf OneDrive-Pfaden sind als Stall-Risiko bekannt (Memory
+`feedback_background_agent_onedrive_stall`). Run 122 hat die neun PDF deshalb vorher lokal ins
+Scratchpad kopiert und den Agenten den lokalen Pfad gegeben — neun von neun Agenten liefen
+fehlerfrei. Fuer kuenftige PL-02-Blocks als Standardvorgehen empfohlen.

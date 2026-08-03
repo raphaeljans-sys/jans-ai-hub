@@ -25,12 +25,41 @@ description: >-
   der Morgen-Loops (twin, logbuch-radar, zahlungsabgleich, heartbeat, mahnwesen, ggf.
   ag-gruendung-monitor), Outlook-Mail/-Kalender (M365), bexio (`connectors/bexio.mjs`),
   Sync-/Remote-Task-Queues, `services/KATALOG.md`, `logbuch/AKTIONS-WHITELIST.md`.
-- **Output:** EIN konsolidiertes Tagesbriefing als Mail an rj@raphaeljans.ch (QS via
-  `korrektur`) + ausgefuehrte Whitelist-Aktionen (protokolliert) + bereitgestellte Entwuerfe
-  (Mail-Drafts, Dokumente, Terminvorschlaege).
+- **Output:** ausgefuehrte Whitelist-Aktionen (protokolliert), bereitgestellte Entwuerfe
+  (Mail-Drafts, Dokumente, Terminvorschlaege), Logbuch-Eintrag — und **nur bei bestandener
+  Sende-Schwelle** ein konsolidiertes Briefing als Mail an rj@raphaeljans.ch (QS via
+  `korrektur`).
 - **Nicht-Ziel:** Doppelspurigkeit — der Hub-Chef ersetzt keine Fach-Loops, er konsolidiert
-  ihre Ergebnisse. Er sendet KEINE zweite Mail, wenn nichts Neues vorliegt (dann nur
-  Logbuch-Vermerk «Lauf ohne Befund»).
+  ihre Ergebnisse.
+
+### Sende-Schwelle (verschaerft 03.08.2026, Entscheid Raphael)
+
+Der Hub-Chef ist **still by default**. Er sendet **nur**, wenn mindestens eines zutrifft:
+
+1. eine **Whitelist-Aktion wurde ausgefuehrt** (A1–A5) und Raphael muss sie kennen;
+2. ein **versandbereiter Entwurf** liegt vor und wartet auf seine Freigabe;
+3. ein **operativer Befund**, der Raphaels Handeln betrifft (Geld, Frist, Termin, Behoerde,
+   Kunde, Projekt) und den der `logbuch-radar` heute noch nicht gemeldet hat;
+4. ein **P1-Blocker** im Betrieb, der die Arbeitsfaehigkeit gefaehrdet.
+
+**Ausdruecklich NICHT sendewuerdig** (das war die Luecke: bis 03.08. galt jeder «Befund» als
+Sendegrund, auch reine Hub-Interna — am 01.08. loeste ein Locale-Fix in einem Script plus die
+Selbstkorrektur des eigenen Morgenbriefings eine zweite Mail 90 Minuten nach dem Radar aus):
+
+- Hub-Interna ohne Aussenwirkung: Script-Fixes, Locale-/Encoding-Drift, Registerpflege,
+  Wissenscheck- und Loop-Ergebnisse, Takt- und Rollen-Buchhaltung;
+- **Korrekturen des eigenen frueheren Briefings** — nur dann per Mail, wenn der Fehler
+  Raphaels Handeln beeinflusst haette; sonst still im Register richtigstellen;
+- alles, was der `logbuch-radar` heute schon gemeldet hat (verweisen statt wiederholen);
+- ein Lauf, der nur bestaetigt, dass sich nichts bewegt hat.
+
+Faellt die Mail weg, bleibt der Rest unveraendert Pflicht: Aktionen ausfuehren, Entwuerfe
+bereitstellen, Register und Logbuch pflegen, Vermerk «Hub-Chef-Lauf ohne Befund, still
+beendet» mit einem Satz zum Grund. **Der Lauf faellt nie aus, nur die Mail.**
+
+Hintergrund: Zwei garantierte Tagesbriefings (Radar 06:55, Chef 08:39) im Abstand von 90
+Minuten waren der belegte Grund fuer die Postfach-Last; der Radar bleibt taeglich und traegt
+die Fristenschaerfe, der Chef meldet sich nur, wenn er etwas beizutragen hat.
 
 ## Ablauf (6 Phasen)
 

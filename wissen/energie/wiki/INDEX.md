@@ -437,3 +437,35 @@ verworfen statt umgesetzt — Details im Lauf-Report.
 
 Destillate-Stand: **221** (neun neue). FAQ-Stand: **201** (F197-F201 neu). Wiki-Themenartikel:
 **31** (ein neuer).
+
+## Run 122 (03.08.2026) — Gebaeudetechnik-Richtlinien Stadt Zuerich, geschlossener Block
+
+**Neun neue Destillate aus neun PDF** (neun parallele Destillier-Agenten, je eine eigene
+Zieldatei): `[[ahb-zuerich-gt-rl1-planungsgrundlagen]]` (FAQ F205) ·
+`[[ahb-zuerich-gt-rl2-systemwahl]]` (FAQ F204) · `[[ahb-zuerich-gt-rl3-heizungsanlagen]]` ·
+`[[ahb-zuerich-gt-rl4-raumkuehlung]]` (FAQ F203) · `[[ahb-zuerich-gt-rl5-lueftungsanlagen]]` ·
+`[[ahb-zuerich-gt-rl6-sanitaerinstallationen]]` (FAQ F202) ·
+`[[ahb-zuerich-gt-rl7-elektroanlagen]]` · `[[ahb-zuerich-gt-rl8-beleuchtung]]` ·
+`[[ahb-zuerich-gt-rl9-gebaeudeautomation]]` (FAQ F206). Alle neun vollstaendig gelesen
+(4-7 Seiten je Dokument), alle `emerging`.
+
+**Datums-Korrektur an Run 121:** «V21» im Dateinamen ist eine **Versions-, keine Jahresangabe** —
+Version 2.1, Juli 2008 (am Titelblatt im Hauptmodell selbst verifiziert, nicht nur Agentenbefund).
+Der Block ist damit 18 Jahre alt statt 5. Merkregel im `pdf-inventar.md` hinterlegt.
+
+**Neuer Themenartikel** `[[gebaeudetechnik-pflichtenheft]]` — die erste Antwort der KB auf die
+Frage, was eine Bauherrschaft **zusaetzlich zum gesetzlichen Nachweis** vorgeben sollte, damit
+eine Anlage ueber 30 Jahre betreibbar bleibt: Instrumentenkette PHB / Pflichtenheft /
+Projektdokumentation, Entscheidungskaskade der Systemwahl, Mess- und Nachweispflichten,
+Betriebsoptimierung, Lichtsteuerung nach Raumtyp, die drei Automations-Grundsaetze — mit
+ausdruecklichem Abschnitt, was **nicht** uebertragbar ist (AHB-Governance, Politikziele 2008,
+ewz-Tarif, IMMO-Box).
+
+**Erster Beleuchtungs-Primaerquellenbeleg der KB** (`[[ahb-zuerich-gt-rl8-beleuchtung]]`) — ein
+eigener Wiki-Themenartikel Beleuchtung fehlt weiterhin, weil die Quelle keine Lux- und
+W/m²-Werte enthaelt (die erwaehnte EN-12464-1-Uebersichtstabelle ist nicht Teil des Dokuments).
+
+**Ehrliche Negativbefunde der Agenten** (gewuenschtes Verhalten, nicht kaschiert): RL7
+Elektroanlagen liefert **keinen** Zugewinn zu PV, Submetering und Ladeinfrastruktur — diese
+Themen kommen im Dokument von 2008 gar nicht vor. RL9 verweist fuer BACS-Klassen und
+MuKEn-Monitoringpflicht bewusst auf `[[sia-386-bacs-gebaeudeautomation]]`, statt zu doppeln.

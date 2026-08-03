@@ -2,6 +2,41 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — Sanitaer-Normvorbehalt, Kuechen-Sachfehler, Gewaesser-Merksatz
+
+- **[widerspruch, hoechster Schaden] `wiki/recht-norm-sanitaerraeume-planungsgrundlagen.md`.** Der
+  Artikel gab die Grundrissmasse rollstuhlgerechter Sanitaerraeume aus KL_Hochbau BKB 256 als
+  Planungsgrundlage aus. **Die Raumbreiten 140 cm und 160 cm unterschreiten SIA 500:2009
+  Ziff. 7.2.3.2 (WC-Raum min. 1,65 × 1,80 m).** Normvorbehalt vorangestellt, beide Werte einzeln
+  markiert (Raumtiefe 220 cm erfuellt die Norm). **Sitzhoehe:** die 50 cm sind ein undatierter
+  Lehrbuchwert und stehen gegen den eigenen §4-Wert «+460 mm»; bis SIA 500 Anhang E gelesen ist
+  (Leseauftrag K42-4a in `wissen/normen/wiki/QUESTIONS.md`) wandert **kein** Sitzhoehenmass aus
+  diesem Artikel in Grundriss, Sanitaerplan oder LV. Der Freispruch in §5.3 («beide widersprechen
+  sich nicht») auf die Bewegungsflaechen eingeschraenkt und fuer Raumbreite/Sitzhoehe zurueckgenommen;
+  die Empfehlung «direkt als Planungsgrundlage fuer Pflegezimmer-Nasszellen» entsprechend entschaerft.
+- **[sachfehler] `wiki/recht-norm-hindernisfreies-bauen-zh.md` Kuechen-Zeile.** Die Werte
+  «Arbeitsflaeche 72-76 cm, Unterfahrbarkeit 70 hoch × 60 tief × 80 breit» sind ZHB-Kap. 7
+  «Arbeitsflaechen und Tische», nicht Kap. 6 «Kuechen». Richtig fuer Kuechen: **Arbeitsflaeche
+  max. 82-83 cm, unterfahrbare Zone min. 80 breit / 50 tief / 70 hoch**, Nutzhoehe bis ca. 140 cm,
+  Bewegungsflaeche min. 170 × 140 cm (Beleg `wissen/normen/destillate/zhb-2005-…md` Z. 94-99).
+  Zeile korrigiert und die Tisch-Werte als eigene Zeile mit richtiger Kapitelangabe gefuehrt.
+- **[unbelegt] dieselbe Datei:** die Behauptung, die BKZ sei «seit 2005 Rechtsnachfolgerin der
+  Schweizerischen Fachstelle fuer behindertengerechtes Bauen», ist durch die eigene Quelle
+  (Merkblatt 13/05, S. 4) widerlegt — dort koordiniert die Fachstelle weiterhin selbst. Gestrichen.
+- **[rueckfall] `wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md` Merksatz.** «See > 0.5 ha
+  ≥ 15 m ab Ufer» knuepfte die 15 m wieder an die Flaechenschwelle und fiel damit hinter eine bereits
+  gefahrene Korrektur zurueck — der Widerspruch lag **innerhalb derselben Datei**. Richtig: fuer
+  stehende Gewaesser min. **15 m ab Uferlinie (Art. 41b Abs. 1 GSchV), flaechenunabhaengig**; die
+  **0,5-ha-Schwelle ist ein Verzichtsgrund** (Abs. 4), keine Bemessungsschwelle.
+- **[fehlender Kernsatz] `wiki/energie-pv-brandschutz.md`.** Blitzschutz-Normnummer um die Ausgabe
+  ergaenzt (**SN 414022:2024**, ersetzt SNR 464022:2015) und der bisher nirgends gefuehrte Kernsatz
+  eingesetzt: **eine Solaranlage begruendet fuer sich keine Blitzschutzpflicht** — massgebend bleibt
+  VKF-BSR 22-15 (01.01.2017); ist ein System vorhanden, ist die Anlage zu integrieren
+  (VKF-Merkblatt 2001-15de, 01.01.2022, Kap. 3.1 Abs. 3).
+- **[nachtrag] Protokollpflicht.** Die Umlaut-Sanierung vom 03.08.2026 (Commit `d9f9e02f`, 18 von
+  36 geprueften Wiki-Dateien, ae/oe/ue → ä/ö/ü im Fliesstext) war **nicht im CHANGELOG erfasst**
+  (Rule `wissens-bibliothekar` Ziff. 2). Hiermit nachgetragen; rein orthografisch, kein Inhalt.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D1 · E0 · F125 · G11
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Groesste KB im Bestand (49 Artikel) und strukturell tadellos: kein toter Backlink, kein fehlender INDEX-Eintrag, kein Frontmatter-Mangel. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

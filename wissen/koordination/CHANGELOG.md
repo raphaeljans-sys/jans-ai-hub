@@ -3,6 +3,37 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03 — Wissens-Chef Run 23 (Cross-KB, 30 Agenten)
+
+- **Bericht:** `outputs/2026-08-03_wissens-chef-run23.md`. Sechs Felder, 46 gemeldete Befunde,
+  **24 verifiziert (22 bestaetigt, 2 widerlegt)**, 14 Dateien in 6 KBs korrigiert.
+- **Teuerster Fund:** normwidrige Raumbreiten fuer rollstuhlgerechte WC in
+  `planungsgrundlagen` (140/160 cm gegen SIA 500 Ziff. 7.2.3.2 min. 1,65 m) — mit ausdruecklicher
+  Empfehlung «direkt als Planungsgrundlage fuer Pflegezimmer-Nasszellen». Vorbehalt gesetzt.
+- **Zweiter Fund:** `baurecht` fuehrte § 259 PBG in der aufgehobenen Anhang-Fassung als geltendes
+  Recht (Wald/Gewaesser «ausser Ansatz») — rechnet die Ausnuetzung zu tief. Fassungs-Weiche gesetzt.
+- **Umkehrung des gewohnten Musters:** im Estrich-Feld lagen **alle vier** bestaetigten Befunde im
+  **fuehrenden** Bestand (`normen`), die Sekundaerquellen zitierten richtig — der Fugenplan steht in
+  SIA 251:2008 unter Ziff. 2.4.9, nicht 2.4.7 (am Norm-PDF und am normeigenen Innenverweis belegt).
+- **Ein widerlegter Befund mit Richtungsumkehr:** die Blitzschutz-Meldung haette die geltende Norm
+  (SN 414022:2024) durch die zurueckgezogene (SNR 464022:2015) ersetzt.
+- **Verfahren:** der Priming-Satz aus Run 22 ist gestrichen; die Quote «Aufloesung traegt nicht»
+  bleibt bei 24/24. Sie misst nicht die Melder, sondern die Tiefe des zweiten Blicks — in sechs
+  Faellen wurde die Verifikator-Fassung statt der Melder-Fassung umgesetzt.
+- **Methodenlehre:** `find -newermt` ist kein Zuwachsmass. 30 der 37 «geaenderten»
+  `planungsgrundlagen`-Dateien waren eine reine Umlaut-Sanierung (Commit `d9f9e02f`). Kuenftig
+  `git log --stat` mit Diff-Blick als Vorfilter.
+- **Selbstaufsicht:** der Befund von `claude-code`, `wissens-chef` liefere seit dem 31.07. nichts,
+  haelt in der Sache — Ursache ist das erschoepfte Wochen-Kontingent (Reset 03.08. 12:00), im
+  Lauf-Journal fuer jeden Loop beider Stationen belegt. Ein Beweisstueck der Meldung war ein
+  Nicht-Signal (dieser Task schreibt nie ins Lauf-Journal). Zwei Pflichtpruefungen dort ergaenzt.
+- **Register:** `QUERBEZUEGE.md` um 6 Paar-Eintraege ergaenzt; `spec ↔ claude-code ↔ twin`
+  ausgetragen (Erst-Pruefung als Dreieck), zwei neue Paare aufgenommen.
+- **Zwei Entscheide fuer Raphael** (Abschnitt 10 des Berichts): der Grundkontext liegt gemessen
+  wieder **ueber** dem Vor-Diaet-Wert (115'482 gegen 105'573 B), fast allein durch
+  `rules/jans-dna.md` (+17'072 B in fuenf Tagen, 28.1 % des Grundkontexts, groesster Posten) —
+  und die aus Run 22 offene Verifikationstiefe der `energie`-Nachtlaeufe.
+
 ## 2026-08-01 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F0 · G28
 
 - Health-Check-Report abgelegt: `outputs/2026-08-01_health-check.md`. Diese KB hat kein `wiki/`, kein `raw/`, kein `QUESTIONS. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

@@ -2073,3 +2073,20 @@ Zuerich (Planungsgrundlagen, Systemwahl, Heizung, Raumkuehlung, Lueftung, Sanita
 Beleuchtung, Gebaeudeautomation) — groesster geschlossener Fachblock, hohe Uebertragbarkeit auf
 JANS-Healthcare-Projekte. Danach `Bauteilkatalog_Energie+Oekologie.pdf` und die eco-bau-Reihe
 «Merkblaetter nach BKP» (direkt an die BKP-Systematik anschlussfaehig).
+
+## D93 — 2026-08-03 (Run 122): Gebaeudetechnik-Richtlinien AHB Stadt Zuerich, Block abgeschlossen
+
+Alle neun GT-Richtlinien (RL1-RL9) vollstaendig destilliert, je Dokument 4-7 Seiten, neun
+parallele Agenten ohne Ausfall. **Korrektur an Run 121:** «V21» ist Version 2.1 (Juli 2008),
+keine Jahreszahl — der Block ist 18 Jahre alt. Neuer Themenartikel
+`wiki/gebaeudetechnik-pflichtenheft.md`; FAQ F202-F206 neu.
+
+Der Zugewinn dieses Blocks liegt nicht bei Kennwerten (die sind alt), sondern bei der
+**Bestellerlogik einer professionellen Bauherrschaft**: was gehoert ins Pflichtenheft, was ist
+nachzumessen statt zu glauben, was wird nach der Abnahme noch betreut. Das war in der KB, die
+bisher stark auf Nachweise ausgerichtet war, eine echte Luecke.
+
+**Naechste Etappe im Korpus:** `Bauteilkatalog_Energie+Oekologie.pdf` (AHB, verbindet Energie mit
+Bauoekologie), danach die eco-bau-Reihe «Merkblaetter nach BKP» (an die BKP-Systematik
+anschlussfaehig, ⚠ Dublettenwarnung im `pdf-inventar.md` beachten). PL-02: 19 von 182
+destilliert, 163 offen.

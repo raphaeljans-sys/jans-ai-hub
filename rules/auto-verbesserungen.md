@@ -14,6 +14,49 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260803 — Aufsichts-Loops sind still by default; Interna gehoeren ins Logbuch, nicht ins Postfach
+- **Regel:** Genau EIN Loop darf Raphael taeglich ungefragt schreiben — der `logbuch-radar`
+  (06:55), weil er die Fristenschaerfe traegt. **Jeder weitere Aufsichts-Loop ist still by
+  default** und sendet nur bei einem der vier Sendegruende: ausgefuehrte Whitelist-Aktion,
+  versandbereiter Entwurf, **operativer** Befund (Geld, Frist, Termin, Behoerde, Kunde,
+  Projekt), den der Radar heute nicht schon gemeldet hat, oder P1-Blocker. **Nicht
+  sendewuerdig sind Hub-Interna ohne Aussenwirkung** (Script-Fixes, Locale-/Encoding-Drift,
+  Registerpflege, Wissenscheck- und Loop-Ergebnisse, Takt- und Rollen-Buchhaltung) sowie
+  **Selbstkorrekturen eines eigenen frueheren Briefings** — die nur dann per Mail, wenn der
+  Fehler Raphaels Handeln beeinflusst haette, sonst still im Register richtigstellen. **Der
+  LAUF faellt nie aus, nur die Mail:** Aktionen, Entwuerfe, Register- und Logbuchpflege bleiben
+  in jedem Fall Pflicht, samt Vermerk «ohne Befund, still beendet» mit einem Satz zum Grund.
+  Und: eine Sende-Schwelle ist erst scharf, wenn sie **benennt, was NICHT zaehlt** — «sende nur
+  bei Befund» ist wirkungslos, solange jeder Fund als Befund gilt.
+- **Gilt fuer:** alle Aufsichts- und Meta-Loops (hub-chef, vollgas-chef-radar,
+  vollgas-fruehwarnung, wissens-chef, methoden-radar, wissenscheck, Monitore). Umgesetzt am
+  hub-chef an allen drei Orten (Registry, Task-SKILL.md, NAS-Skill). Anlass: zwei garantierte
+  Tagesbriefings im Abstand von 90 Minuten; am 01.08.2026 sendete der hub-chef eine zweite Mail
+  mit zwei rein internen Befunden und schrieb darin selbst, operativ habe sich seit dem
+  Radar-Briefing nichts bewegt.
+
+## 260803 — Ein-Mail-Prinzip: nur der Hub-Chef mailt, die Melde-Loops schreiben ins Logbuch
+- **Regel:** Genau EIN regulaerer Meldekanal an Raphael, und das ist das Tagesbriefing des
+  `hub-chef` (08:39). Die uebrigen Melde-Loops erzeugen ihr Ergebnis in unveraenderter
+  Qualitaet, schreiben es aber als eigenen Abschnitt in den heutigen Datumsblock von
+  `logbuch/LOGBUCH.md` («Radar-Briefing <Datum>», «AG-Gruendung <Datum>»); der Chef liest
+  sie als Pflichtlektuere und traegt ihre operativen Punkte weiter. Der Chef sendet, sobald
+  der Tag etwas Operatives enthaelt (Aktion, Entwurf, Geld/Frist/Termin/Behoerde/Kunde/
+  Projekt, P1-Blocker), und schweigt nur am wirklich leeren Tag; reine Hub-Interna
+  (Script-Fixes, Locale-Drift, Registerpflege, Loop-Buchhaltung) sind kein Sendegrund.
+  **Drei benannte Ausnahmen, die weiterhin selbst mailen duerfen:** (1) die
+  Kontingent-Aufsicht (`vollgas-fruehwarnung`, `vollgas-chef-radar`) — sie beaufsichtigt
+  genau das Kontingent, aus dem der Chef trinkt, und ist der einzige Kanal, wenn er
+  ausfaellt; (2) der `logbuch-radar`, wenn der Chef-Lauf des Vortages ausgefallen ist oder
+  ein Punkt Handeln vor 08:39 verlangt; (3) der `ag-gruendung-monitor` bei Schritten, die
+  am selben Tag Handeln erzwingen (Kapitalbescheinigung, Beurkundungstermin, 24-h-Frist).
+  **Wer den Chef stillstellt, muss zuerst pruefen, wer sonst noch stillsteht:** am
+  03.08.2026 war der Chef mittags auf «still by default» gesetzt worden und abends die
+  Loops entmailt — zusammen haette das bedeutet, dass niemand mehr meldet.
+- **Gilt fuer:** alle Melde-Loops und jede kuenftige Aenderung an einem Melde-Kanal.
+  Ausloeser: am 03.08.2026 gingen fuenf Loop-Mails in 17 Minuten an rj@ (22:12 bis 22:29).
+  Belege und Umsetzung: `logbuch/LOGBUCH.md`, Eintrag Hub-Chef 03.08.
+
 ## 260730b — Heutiges Datum messen, nie ableiten; NAS-Dateien vor dem Edit auf Frische pruefen
 - **Regel:** (1) Das Arbeitsdatum kommt aus `date "+%Y-%m-%d %H:%M %Z"`, nie aus einem
   Dateiinhalt (gleiche Familie: `toISOString()`-UTC-Falle, siehe `dateinamen-konvention.md`).

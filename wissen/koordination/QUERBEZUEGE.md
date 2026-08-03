@@ -67,6 +67,93 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen ↔ planungsgrundlagen (hindernisfreies Bauen, Sanitaerraeume, RWA) — geprueft 2026-08-03 (Run 23)
+- **Befund:** 4 verifiziert, **4 bestaetigt**. **W1 (hoch, hoechster Praxisschaden des Laufs):** die
+  KL_Hochbau-Raumbreiten fuer rollstuhlgerechte WC (140 cm minimal, 160 cm «Normalausfuehrung»)
+  **unterschreiten SIA 500:2009 Ziff. 7.2.3.2** (min. 1,65 × 1,80 m) — der Artikel gab sie als
+  Planungsgrundlage fuer Pflegezimmer-Nasszellen aus. **W2:** Sitzhoehe Klosett 50 cm gegen 46 cm
+  (zwei nicht-normative Quellen + DIN-Analogie) — **nicht entscheidbar**, SIA 500 Anhang E ungelesen.
+  **W3 (RWA):** das GVZ-Merkblatt 2011 stuetzt sich auf die VKF-Ausgabe 2003; Divergenzband
+  gesprinklert unter Terrain 1'201-3'600 m² (Merkblatt N2/N3, BSR 21-15 keine RWA). **D1:** SWKI
+  VA103-01:2017 doppelt destilliert; die Melder-Begruendung «fuehrende KB hat die unvollstaendigere
+  Fassung» wurde **widerlegt** (das `gelesen`-Feld des normen-Destillats beschreibt sich selbst
+  falsch, der Koerper fuehrt die Kapitel).
+- **Aktion:** Normvorbehalt + Sitzhoehen-Vorbehalt in `planungsgrundlagen`; Fassungs-/
+  Kollisionsvorbehalt + Planungsregel + BKP 245 in `normen`; **K42-4 beantwortet** (aus dem 90 Min
+  zuvor gelaufenen normen-Run 42, der dieselbe Quelle destillierte und den Zweifel selbst notierte),
+  neuer Leseauftrag **K42-4a SIA 500 Anhang E**. **Status: Raumbreite bereinigt; Sitzhoehe offen
+  (haengt an K42-4a); SWKI-Doppelspur offen.**
+
+### normen (PAV-Estrich-Cluster) ↔ grobkosten ↔ bauprodukte — geprueft 2026-08-03 (Run 23)
+- **Befund:** 4 verifiziert, **4 bestaetigt** — alle vier im **fuehrenden** Bestand, nicht bei den
+  Abnehmern. **W1:** `sia-251-2008` zitiert den Fugenplan als Ziff. 2.4.7; am Original-PDF ist es
+  **2.4.9** (die Norm verweist in Ziff. 2.4.1 selbst darauf) — die beiden Sekundaerquellen zitierten
+  richtig. **W2:** PAV-E 01 ordnet die Fussbodenheizung BKP 244 zu, richtig ist **242**. **V1:**
+  `sia-252-2002` ohne `ersetzt_durch`, obwohl das neue PAV-E 12 durchgehend **SIA 252:2012** zitiert.
+  **L1:** der Cheminee-Artikel in `bauprodukte` fuehrt VKF nur generisch, ohne Pfad nach `normen`.
+- **Aktion:** Ziffer 2.4.9 und BKP 242 korrigiert, `ersetzt_durch` ergaenzt (Ausgabe 2012 liegt nicht
+  vor = Bring-Schuld), Ziff. 2.6.3/2.6.5 als **prueffbeduerftig markiert statt still umgeschrieben**.
+  **Status: bereinigt; 1 Bring-Schuld (SIA 252:2012), 1 Pruefvermerk offen.**
+
+### energie ↔ planungsgrundlagen (Energie-Achse nach Lauf 121) — geprueft 2026-08-03 (Run 23)
+- **Befund:** 4 verifiziert, **3 bestaetigt, 1 widerlegt**. **Widerlegt mit Richtungsumkehr (W1):**
+  gemeldet war «planungsgrundlagen fuehrt die falsche Blitzschutznummer SN 414022». Tatsaechlich ist
+  **SN 414022:2024 die geltende Nummer** und **SNR 464022:2015 die zurueckgezogene** — die als
+  «primaerverifiziert» bezeichnete Seite fuehrte die veraltete. Waere die Meldung umgesetzt worden,
+  haette sie die geltende Norm durch die zurueckgezogene ersetzt. **W2 (hoch):** Grenzwertpaar
+  186/112 MJ/m²·a — `planungsgrundlagen` ordnet es den **Schulen** zu, `energie` den
+  **Industriebauten**; beide destillieren denselben Reader. **W3:** PV-Faustwert 900 gegen
+  1'000 kWh/kWp aus denselben drei Reports. **D1:** `planungsgrundlagen` destilliert PL-04-Quellen
+  ein zweites Mal — der Verifikator fand, dass **alle** Quellen jenes Artikels bereits
+  energie-gefuehrt sind, nicht nur die vier gemeldeten.
+- **Aktion:** Blitzschutz in **beiden** KBs auf den belegten Stand gezogen (energie auf
+  SN 414022:2024 mit Vorbehalt, planungsgrundlagen um die Ausgabe ergaenzt) + fehlender Kernsatz
+  «PV begruendet keine Blitzschutzpflicht» eingesetzt. **W2/W3/D1 NICHT autonom entschieden** —
+  siehe Bericht, sie brauchen die Doppelseite des Original-Readers bzw. eine Umstrukturierung.
+  **Status: Blitzschutz bereinigt; 3 offene Punkte.**
+
+### energie ↔ normen (Minergie-/Waermebrueckenwelle Lauf 121) — geprueft 2026-08-03 (Run 23)
+- **Befund:** 4 verifiziert, **4 bestaetigt**, alle in `energie`. **W1 (hoch):** Klimareferenz
+  8,5 °C / 8 % pro K der Ausgabe **2016** zugeschrieben — es ist die Ausgabe **2009**; 2016 fuehrt
+  9,4 °C / 6 % pro K. **W2:** «Eine SIA-Norm SIA 180/4 ist nicht bekannt» — sie existiert
+  (1982, zurueckgezogen, Nachfolgenorm SIA 416/1:2007) und steht im normen-REGISTER. **W3:**
+  «max. 100 Ueberhitzungsstunden gemaess SIA 180 Fig. 4» — die Zuschreibung ist falsch (haelt nur
+  schmal). **W4:** zwei widersprechende Uf-Fallback-Werte, der Wiki-Artikel fuehrt die aeltere
+  Fassung als «geschlossen».
+- **Aktion:** W1 und W2 korrigiert (beide in `gebaeudehuellziffer-ebf-flaechendefinition`).
+  W3/W4 an `energie` uebergeben. **Muster bestaetigt sich zum siebten Mal in Folge:** eine KB baut
+  eine Aussage ueber eine Norm, deren Volldestillat im Haus liegt. **Status: 2 bereinigt, 2 offen.**
+
+### baurecht ↔ planungsgrundlagen (Rechts-Achse) — geprueft 2026-08-03 (Run 23)
+- **Befund:** 4 verifiziert, **3 bestaetigt, 1 widerlegt**. **V1 (hoch, ausnutzungsrelevant):**
+  `baurecht` fuehrte § 259 PBG in der **aufgehobenen Anhang-Fassung** (Wald/Gewaesser «ausser
+  Ansatz») als geltendes Recht — ohne die Fassungs-Weiche, die derselbe Artikel viermal fuehrt.
+  **W1 (Rueckfall):** der Gewaesser-Merksatz in `planungsgrundlagen` knuepft die 15 m fuer stehende
+  Gewaesser wieder an die 0,5-ha-Schwelle (die ein **Verzichtsgrund** ist), im Widerspruch zur
+  eigenen Datei. **V2:** das «Drei-Spuren-Modell» aus dem Ratgeber 2016 gegen die vier
+  Verfahrenstypen des geltenden Rechts; das **Meldeverfahren (§§ 2a-2e BVV) fehlt**.
+  **Widerlegt:** die angebliche Genehmigungsfiktion im Anzeigeverfahren — `baurecht` schweigt dazu,
+  es gibt keinen Widerspruch, und die Aussage ist belegt.
+- **Aktion:** § 259 in die Fassungs-Weiche ueberfuehrt (beide Fassungen belegt, Handlungsanweisung
+  «nachrechnen — die Ausnuetzung kann hoeher liegen»); Gewaesser-Merksatz berichtigt.
+  V2 als groesserer Umbau an `planungsgrundlagen` uebergeben. **Status: 2 bereinigt, 1 offen.**
+
+### spec ↔ claude-code ↔ twin (Methodik-Dreieck) — ERST-PRUEFUNG 2026-08-03 (Run 23, Rotationsliste)
+- **Befund:** 4 verifiziert, **4 bestaetigt**. Der Ertrag liegt nicht im Fachwissen, sondern in der
+  **Selbstaufsicht**. **V1:** die Registerzeile «Methode SPW» meldete `wissens-chef` als
+  lieferlosen Loop; die Ursache ist gemessen **das erschoepfte Wochen-Kontingent** (Reset 03.08.
+  12:00, im Lauf-Journal fuer jeden Loop beider Stationen im selben Fenster belegt). **W1:** das
+  dritte Beweisstueck jener Meldung war ein **Nicht-Signal** — `wissens-chef` laeuft als
+  App-Scheduled-Task nicht ueber `claude-run.sh` und hat nie eine Journalzeile geschrieben.
+  **V2 (gemessen):** `kontext-architektur` fuehrte `jans-dna.md` mit 15'356 B / 14 %; real
+  **32'428 B / 28.1 %**, groesster Posten, Grundkontext gesamt **115'482 B statt 96'946 B** — damit
+  **ueber** dem Vor-Diaet-Wert. **L1:** `twin` kannte `claude-code` in keiner Datei, obwohl es die
+  groesste Grundkontext-Datei erzeugt.
+- **Aktion:** Befund geklaert und zwei Pflichtpruefungen in die Rotationsanleitung aufgenommen;
+  Messreihe statt Momentaufnahme; Erst-Verlinkung in beide Richtungen; twin-Takt berichtigt.
+  **Status: bereinigt; der Kontext-Rebound ist ein Entscheid fuer Raphael (siehe Bericht).**
+
+
 ### bauprodukte ↔ projekt-lessons — ERST-PRUEFUNG 2026-07-31 (Run 22, Rotationsliste)
 - **Befund:** Die Abgrenzung war **nicht** ungeklaert, wie die Rotationsliste seit Run 21 vermutete —
   sie ist dreifach gesetzt (Matrix-Zeilen «Produkt-/Systemwissen nach BKP» und «Projekt-Lessons»,
@@ -1815,9 +1902,18 @@ haengende kunde-bopp-Paar sind geprueft. Die Rotation laeuft ab jetzt wieder ueb
 - **Neu aufgenommen Run 21, weiterhin offen:** `normen ↔ baurecht` fuer die uebrigen bfu-Destillate
   (Treppen, Glas, Tueren/Tore, rechtliche Aspekte) · `wettbewerbs-dna ↔ entwurfs-referenzen ↔
   architekten-synobsis`, sobald die am 30.07. reaktivierte Etappe 4 «Vertiefung» geliefert hat.
-- **Neu aufgenommen Run 22:** `immobilienbewertung ↔ entwurfs-referenzen ↔ wettbewerbs-dna`, sobald
-  die fuenf Ingest-Reports vom 31.07. ins Wiki eingearbeitet sind (vorher ist der Bestand nicht
-  vergleichbar) · `spec ↔ claude-code ↔ twin` (Methodik-Dreieck, seit Run 20 nur paarweise beruehrt).
+- **Neu aufgenommen Run 22, weiterhin offen:** `immobilienbewertung ↔ entwurfs-referenzen ↔
+  wettbewerbs-dna`, sobald die fuenf Ingest-Reports vom 31.07. ins Wiki eingearbeitet sind (vorher
+  ist der Bestand nicht vergleichbar).
+- **Neu aufgenommen Run 23:** `normen ↔ planungsgrundlagen` fuer die **uebrigen** Estrich-
+  PAV-Merkblaetter (E 02, E 05, E 11, E 16, E 17 und PAV-A 01/A 03 — Run 23 hat nur die Spitze des
+  Clusters geprueft) · `projekt-lessons ↔ mahnwesen/bexio-Strecke`, sobald der neue Artikel
+  `kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087` (03.08.) einen zweiten Fall hat.
+
+*Ausgetragen 03.08.2026 (Run 23):* `spec ↔ claude-code ↔ twin` (→ Run 23, Erst-Pruefung als Dreieck:
+4 bestaetigt, Ertrag in der Selbstaufsicht statt im Fachwissen — der lieferlose `wissens-chef` war
+das Wochen-Kontingent, ein Beweisstueck der Meldung war ein Nicht-Signal, und der Grundkontext liegt
+gemessen wieder ueber dem Vor-Diaet-Wert; Erst-Verlinkung twin ↔ claude-code gesetzt).
 
 *Ausgetragen 31.07.2026 (Run 22):* `bauprodukte ↔ projekt-lessons` (→ Run 22, Erst-Pruefung: beide
 Doppelspur-Befunde widerlegt, die Abgrenzung war laengst dreifach gesetzt; der echte Mangel war die

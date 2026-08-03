@@ -2,6 +2,31 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — SPW-Befund geklaert, Kontext-Budget nachgemessen
+
+- **[geklaert] `wiki/methoden-register.md` Zeile «Methode SPW» + `wiki/QUESTIONS.md` Punkt 0.** Der
+  am selben Tag gemeldete Befund «`wissens-chef` laeuft ohne Liefer-Beleg» hielt in der Sache, aber
+  seine Ursache ist gemessen und extern: **das Wochen-Kontingent war erschoepft** (Reset 03.08.
+  12:00). Im Lauf-Journal fuer genau dieses Fenster bei **jedem** getakteten Lauf beider Stationen
+  belegt: `260801-laeufe.jsonl` ab 14:28, durchgehend `260802-laeufe.jsonl`, `260803-laeufe.jsonl`
+  bis 05:30; erster erfolgreicher Lauf 03.08. 13:41. Die `wissens-chef`-Slots vom 01./02.08. um
+  23:12 fielen mitten hinein — der Task ist gefeuert (`lastRunAt` gesetzt) und hatte kein Kontingent.
+- **[fehlschluss] Das dritte Beweisstueck war ein Nicht-Signal.** `wissens-chef` ist ein
+  App-Scheduled-Task und laeuft nicht ueber `scripts/claude-run.sh`, das die Journalzeilen schreibt —
+  er hat dort **nie** eine Zeile hinterlassen. Fuer diese Klasse sind nur Run-Bericht und CHANGELOG
+  gueltige Belege. Zwei **Pflichtpruefungen** vor jedem «liefert nicht»-Befund in die
+  Rotationsanleitung aufgenommen: schreibt der Loop ueberhaupt in das geprueften Belegsystem, und
+  lag im Fenster ein Kontingent-Abbruch vor (`grep -l "weekly limit" logbuch/laeufe/*.jsonl`).
+- **[veraltetes, gemessen] `wiki/kontext-architektur.md`.** Der Artikel fuehrte `rules/jans-dna.md`
+  mit 15'356 B als «zweitgroessten Posten (14 %)». Nachgemessen am 03.08.2026 22:30 (`stat -f %z`,
+  gleiche Messweise): **32'428 B, 28.1 %, groesster Posten** — in fuenf Tagen mehr als verdoppelt.
+  Grundkontext gesamt **115'482 B / 21 Importe** statt 96'946 B / 20. Damit liegt der Stand **ueber**
+  dem Vor-Diaet-Wert von 105'573 B: **die Kontext-Diaet 2.0 ist rechnerisch aufgezehrt.** Messreihe
+  statt Momentaufnahme angelegt. Ursache benannt: keine Stufe der Kette twin-Facetten →
+  `build_dna.py` → Rule misst oder meldet die resultierende Dateigroesse.
+- **[erst-verlinkung] Gegenverweis auf `wissen/twin/` gesetzt** (Erzeuger der groessten
+  Grundkontext-Datei ↔ KB, die das Budget fuehrt).
+
 ## 2026-08-03 (methoden-radar, Wochenlauf 21:02) — kein neues Material, Rotationsbefund `wissens-chef`
 
 - **[kein Delta] Vorfilter Exit 0**, 8 Ordner unveraendert im Quellordner «00 Prompteingaben» —

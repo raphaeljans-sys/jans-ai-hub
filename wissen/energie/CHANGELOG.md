@@ -2,6 +2,25 @@
 
 Neueste zuoberst.
 
+## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — drei Korrekturen an Destillaten aus Lauf 121
+
+- **[korrektur] `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` — Klimareferenz
+  umgedreht zugeordnet.** Der Warnsatz schrieb 8,5 °C / 8 % pro K der Ausgabe **2016** zu; das sind
+  die Werte der Vorgaengerausgabe **2009**. SIA 380/1:2016 fuehrt **9,4 °C / 6 % pro K** — belegt im
+  Volldestillat `wissen/normen/destillate/sia-380-1-2016.md` (Z. 122, 227). Der Satz war zudem
+  grammatikalisch defekt («entspricht SIA 380/1:2016 widerspricht die KB bereits mit …»).
+- **[korrektur] dieselbe Datei — Existenzverneinung SIA 180/4 widerlegt.** Der Abschnitt erklaerte
+  «Eine SIA-Norm mit dieser Nummer ist nicht bekannt; naheliegend waere ein Schreibfehler fuer
+  SIA 380/4». **SIA 180/4:1982 existiert**, ist zurueckgezogen, Nachfolgenorm **SIA 416/1:2007** —
+  `wissen/normen/wiki/REGISTER.md` Z. 140/335 und `sia-d0165-2000-…md` Z. 165. Quellentreue bleibt;
+  beim Zitat nach aussen ist die Nachfolgenorm zu nennen.
+- **[veraltetes] `destillate/pv-blitzschutz-gebaeudeversicherung-ch.md` — zurueckgezogene Ausgabe als
+  Normgrundlage.** «SNR 464022:2015» ist seit **20.02.2024 durch SN 414022:2024 ersetzt** (SNV-Connect
+  «Withdrawn»), belegt im eigenen Destillat `snr-464022-blitzschutz-ausfuehrung.md`. Umgestellt, mit
+  dem ehrlichen Vorbehalt, dass die inhaltlichen Kernaussagen aus der Ausgabe 2015 stammen und fuer
+  2024 nicht geprueft sind. **Richtungsumkehr gegenueber der Meldung:** gemeldet war der umgekehrte
+  Fall (planungsgrundlagen fuehre die falsche Nummer) — dort steht die **richtige**, nur ohne Ausgabe.
+
 ## 2026-08-03 (Run 121) — zweiter PDF-Korpus PL-02 produktiv erschlossen; Verifikations-Rueckstand eingeloest
 
 - **Die Aussage «PDF-Inventar erschoepft» galt nur fuer PL-04.** `PL - 02_Recht_Norm` enthaelt

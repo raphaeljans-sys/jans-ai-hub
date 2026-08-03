@@ -1,3 +1,30 @@
+## 2026-08-03 (Wissens-Chef Run 23, Cross-KB) — RWA-Fassungskollision, Estrich-Ziffern und -BKP, K42-4 beantwortet
+
+- **[korrektur] `destillate/gvz-rwa-parkhaus-einstellraum.md` — Fassungs-/Kollisionsvorbehalt gesetzt.**
+  Das Merkblatt (28.02.2011) stuetzt sich nach eigener Ziff. 1.3 auf die VKF-BSR-RWA **Ausgabe 2003**;
+  geltend ist **BSR 21-15** (01.01.2015). Divergenzband benannt: **gesprinklerte Einstellhalle unter
+  Terrain, 1'201-3'600 m²** — Merkblatt-Matrix 6.1/6.2 verlangt dort N2/N3, BSR 21-15 verlangt keine RWA.
+  Planungsregel statt Vorwegnahme: im Band die strengere Schwelle als Annahme fuehren, aber **vor**
+  Konzept- und Kostenfestlegung mit der Kantonalen Feuerpolizei/GVZ klaeren.
+  Zusaetzlich **BKP 246/244 → 245** (Rauch- und Waermeabzugsanlagen, Quelle `references/bkp-2017/`).
+- **[korrektur] `destillate/sia-251-2008.md` — Fugenplan-Ziffer 2.4.7 → 2.4.9.** Am Original-PDF
+  gegengelesen: Ziff. 2.4.7 regelt Schwind- statt Bewegungsfugen; die Norm verweist auf S. 16 in
+  Ziff. 2.4.1 selbst auf «einen Fugenplan nach Ziffer 2.4.9». Die fuehrende Quelle trug den Fehler,
+  die beiden Sekundaerquellen (PAV-E 01, planungsgrundlagen) zitierten richtig. Ergaenzt:
+  Schwelle «Temperaturdifferenz > 5 °C». Ziff. 2.6.4 → 2.6.3 (S. 18) und Ziff. 2.6.5 als
+  **prueffbeduerftig markiert**, nicht still umgeschrieben — Sachwert 26 °C unbestritten, nur die
+  Fundstelle wandert; beim naechsten Lauf am Original bestaetigen.
+- **[korrektur] `destillate/pav-e-01-2008-…heizestriche.md` — BKP 244 → 242.** Eine Fussbodenheizung
+  ist eine Heizungsanlage (242), keine lufttechnische Anlage (244); Estrich auf 281.0 praezisiert.
+- **[veraltetes] `destillate/sia-252-2002.md` — Pflichtfeld `ersetzt_durch: SIA 252:2012` ergaenzt.**
+  Belegt ueber PAV-E 12:2013, das durchgehend auf die Ausgabe 2012 Bezug nimmt. Die Ausgabe 2012 liegt
+  im Hub nicht vor — **Bring-Schuld**. `status` praezisiert statt zurueckgestuft.
+- **[beantwortet] `wiki/QUESTIONS.md` K42-4** (aus dem 90 Minuten zuvor gelaufenen Run 42): die
+  Behindertenanlagen-Masse S56 stimmen **nicht** mit SIA 500:2009 ueberein — Raumbreiten 140/160 cm
+  unterschreiten Ziff. 7.2.3.2 (min. 1,65 m). Sitzhoehe 50 cm gegen 46 cm bleibt **offen**; neuer
+  Leseauftrag **K42-4a: SIA 500 Anhang E** (S. 42-60, PDF vorhanden, ungelesen) — drei KBs warten
+  darauf. Fassungsvorbehalt in `destillate/kl-hochbau-sanitaer-katalogblaetter.md` gesetzt.
+
 ## 2026-08-03 (Run 42) — KL Hochbau Sanitäre Anlagen destilliert, Deckungsprüfung Einzelblätter
 
 Neues Destillat [`destillate/kl-hochbau-sanitaer-katalogblaetter.md`](destillate/kl-hochbau-sanitaer-katalogblaetter.md)
