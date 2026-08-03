@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-03 (Run 71)
+last_updated: 2026-08-04 (Run 72)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -112,6 +112,20 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   mit zweistelligem Absatz ist ein **Warnsignal** — im ZH-Recht meist eine verlesene **Anhangsziffer**
   («Anhang Ziff. 1.2» → «§ 3 Abs. 12»); Absatzzahl immer gegen die tatsaechliche Absatzzahl des
   Paragraphen halten.
+- **VISUELLE Rechtsinformation ueberlebt die Textextraktion nicht (Pruefregel, seit Run 72):**
+  In Revisionssynopsen, Rotdrucken und Auflagedokumenten traegt die **Grafikebene** einen Teil der
+  Rechtsaussage — graue Hinterlegung («diese Bestimmung wirkt vor»), Rotdruck («geaendert»),
+  Durchstreichung («aufgehoben»). `pdftotext`, Copy-Paste und jede LLM-Textextraktion liefern
+  markierte und unmarkierte Bestimmungen **ununterscheidbar**; der extrahierte Text ist dann nicht
+  die Quelle, sondern eine stillschweigend beschaedigte Fassung. Belegt an der Thalwiler
+  Vorwirkungs-Synopse (Run 72): die Markierung ist ein Fuellrechteck (`sc 0.8509804` = #D9D9D9) im
+  Content-Stream, kein Zeichen. Vorgehen: Fuellfarben aus dem Content-Stream lesen (pypdf
+  `ContentStream`, CTM ueber q/Q/cm mitfuehren), gegen eine **unmarkierte Vergleichsfassung** als
+  Grundrauschen abgleichen (dort war nur das Tabellen-Kopfband grau) und am **gerenderten Pixel**
+  (`pdftoppm` + PIL) gegenpruefen, bevor eine Aussage in die KB geht. Zusatz: bei mehrspaltigen
+  Synopsen die Spaltenzuordnung **wortweise** ueber die x-Position machen — `pdftotext` verschmilzt
+  Tabellenzeilen ueber alle Spalten zu **einer** Zeile, und eine zeilenweise Zuordnung schreibt dann
+  Werte der alten Fassung der neuen zu.
 - **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
   5-6 Fundorten (Wiki, Destillat, `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`,
   `training/drills.md`). Eine Korrektur nur im Fliesstext laesst **Tabellen und Register
@@ -157,10 +171,21 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    **CONFIRMED** Run 71 am amtlichen BZO-Volltext `raw/260607_amtlich_zh_bzo-thalwil.md`),
    Verhältnis zu § 273 PBG. **Revisionsvorbehalt (nachgetragen 31.07.2026, Wissens-Chef Run 22):**
    die Synopse vom 16.04.2025 überführt Art. 24 in Art. 45 revBZO «Klein- und Anbauten» und hebt
-   die 7-%-Quote auf; Nachfolgeregel und deren Normierungsort sind **offen** (Batch T1). Beleg:
+   die 7-%-Quote auf; Nachfolgeregel und deren Normierungsort sind ~~**offen** (Batch T1)~~
+   **GEKLÄRT (Run 72, 03.08.2026)**. Beleg:
    `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`. Es gilt Arbeitsregel 2 der
    Korpus-Queue — beide Fassungen nebeneinander führen, jeweils die strengere. Der Wert bleibt
    also nachweispflichtig; hier wird verwiesen, nicht kopiert.
+   **Auflösung Run 72** (am Wortlaut der September-Synopse, S. 40): Art. 24 Abs. 1 BZO (7 %)
+   wird ersatzlos aufgehoben; die Bemerkungsspalte nennt als Grund «*Aufheben, da Grösse der
+   Kleinbauten neu auf 50 m2 beschränkt ist und GFZ eingeführt wird*». Die «50 m²» sind **keine
+   neue kommunale Regel**, sondern die **kantonale** Legaldefinition in **§ 2a Abs. 1/2 ABV**
+   (Kleinbauten und Anbauten: Grundfläche höchstens 50 m², Gesamthöhe 4,0 m, bei Schrägdächern
+   5,0 m) — verifiziert an `raw/260607_amtlich_zh_abv.md` Z. 50-63. Die Steuerung wandert damit
+   von der kommunalen Flächenquote auf die kantonale Begriffsgrenze plus die neue kommunale
+   **Grünflächenziffer** (Art. 31/Art. 50 revBZO). **Für die Praxis entscheidend: Art. 45 revBZO
+   ist NICHT grau markiert** und wirkt also nicht vor — bis zum Inkrafttreten gilt Art. 24 BZO
+   samt 7-%-Quote unverändert weiter.
 8. **Näherbaurecht** — § 218 Abs. 2 / § 270 Abs. 3 PBG (beide **CONFIRMED** Run 71), plus die
    praktische Seite: Grundbuch, SBB als Nachbar, Aktualisierung bei Projektänderung. Batch T6.
 9. **Strassenrecht Einfriedungen/Sichtbereiche** — massgeblich ist seit 01.06.2020 die
@@ -256,6 +281,44 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
+  - **Run 72 (2026-08-03/04, Festigungsmodus, Priorität (d) Korpus-Queue Batch T1, kein
+    Agent-Fan-out):** Erster Batch der Thalwiler Reglemente-Queue abgearbeitet — **BZO-Revision
+    2025**. Beide Synopse-PDFs vom Mac-Mini-OneDrive gelesen; **die zwei Fassungen sind nicht
+    identisch** (April 16.4.2025 «öffentliche Auflage/Anhörung/Vorprüfung» vs. September 5.9.2025
+    «Fassung zur Negativen Vorwirkung», mit inhaltlichen Abweichungen) — massgebend ist die
+    September-Fassung, angelegt als `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`
+    (51 S., dreispaltig). **Neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]]**:
+    § 234 PBG als Anknüpfung (nicht eine BZO-Übergangsbestimmung), nur negative/nie positive
+    Vorwirkung (VB.2008.00044) → Strenge-Regel, Suspensivbedingung unzulässig/Sistierung zulässig,
+    Verhältnismässigkeit (VB.2014.00627), Dauer § 235 PBG (Frist ab **Geltendmachung**, nicht ab
+    Auflage). §§ 234/235 PBG wortgetreu gegen `raw/260607_amtlich_zh_pbg.md` Z. 2362-2372.
+    **Fassungsstand-Befund (Priorität (b), kommunal):** die revBZO wurde am **14.06.2026** an der
+    Urne mit **78.81 %** festgesetzt, ist aber **weder genehmigt noch in Kraft** — die
+    Gesetzessammlung Thalwil führt weiterhin SR 700.1 BZO vom 11.12.2019 (in Kraft seit
+    31.08.2024). Massgebend bleibt die alte BZO plus Vorwirkung; die Festsetzung hat die Vorwirkung
+    nur auf den **zweiten Satzteil von § 235 PBG** gestellt. Auflage 16.05.–15.07.2025 bestätigt.
+    **Methodischer Kern:** die Grau-Markierung («diese Bestimmung wirkt vor») ist eine reine
+    Grafikinformation und überlebt keine Textextraktion; sie wurde aus dem PDF-Content-Stream
+    ausgelesen (`sc 0.8509804` = #D9D9D9), gegen die April-Fassung als Grundrauschen abgeglichen
+    (dort nur das Tabellen-Kopfband grau) und am gerenderten Pixel verifiziert. Ergebnis:
+    **23 von 55 revBZO-Artikeln markiert**, Markierung **absatz-, teils zellengenau**. Zwei
+    Befunde, die man ohne diese Auswertung falsch machen würde: aus **Art. 31** wirken nur
+    Grünflächenziffer, Gebäudelänge **W2b** 25 m (statt 30 m) und die Streichung des
+    Arealüberbauungs-Zuschlags vor (Höhenmasse steigen = milder = keine Vorwirkung), und
+    **Art. 45 (Klein-/Anbauten) wirkt gar nicht vor**, während **Art. 50 (Umgebungsgestaltung)
+    fast vollständig** vorwirkt (Vorgarten, Fällbewilligung ab Stammumfang 100 cm, ein Baum je
+    500 m² aGF). **Offener PROGRAMM-Punkt 7 geschlossen:** die «50 m²», mit denen die Synopse die
+    Aufhebung der 7-%-Quote begründet, sind die **kantonale** Legaldefinition **§ 2a Abs. 1/2 ABV**
+    (verifiziert an `raw/260607_amtlich_zh_abv.md` Z. 50-63), keine neue kommunale Regel.
+    **Neue Leitplanke:** visuelle Rechtsinformation überlebt die Textextraktion nicht (+ bei
+    Synopsen Spaltenzuordnung **wortweise**, nie zeilenweise). 3 neue Drill-Karten, zwei davon am
+    realen Fall Bohlweg 3. **Neu offen:** Genehmigung/Inkrafttreten (T-01), spätere Synopse-Fassung
+    (T-02), Zitat-Flag «RB 1980 vs. 1998 Nr. 113» im Destillat [[12-baureife]] (T-03).
+    **0 Halluzinationen.** Report `outputs/2026-08-03_buch-run72.md`. **«Rückstand abgebaut»
+    NICHT ausgerufen** — die Korpus-Queue steht bei 1 von 8 Batches. **Nächster Schritt:**
+    Batch **T2** (Umgebungsgestaltung/Gartenmauern/Vorgarten/Grünanteil) — er schliesst direkt an
+    Art. 50 revBZO an und trifft die im PROGRAMM als grösste Lücke bezeichnete Nr. 4
+    (Einfriedungen, kein eigener Wiki-Artikel).
   - **Run 71 (2026-08-03, Festigungsmodus, Priorität (c) Erst-Verifikation + Priorität (a) zwei
     beschaffbare Lücken, kein Agent-Fan-out):** [[grundlagen-planungs-baurecht]] gewählt — der
     **letzte** nie durch den Modell-D-Loop gelaufene Artikel (kein `verifiziert`-Feld, `emerging`

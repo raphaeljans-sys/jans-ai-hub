@@ -3,6 +3,48 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-03/04 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil erschlossen; die Vorwirkungs-Markierung aus der Grafikebene gelesen
+
+- **NEU `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`** — Synopse «Fassung zur Negativen
+  Vorwirkung» vom 05.09.2025 (51 S., dreispaltig, `pdftotext -layout`). Quelle: Projektordner
+  2414 Thalwil, `06 Reglemente/02 BZO Thalwil/_BZO-Revision 2025/`. Die **April-Fassung** vom
+  16.04.2025 ist inhaltlich abweichend und **nicht** massgebend; sie dient nur als Vergleichsbasis.
+- **NEU `wiki/negative-vorwirkung-und-bzo-revision.md`** (*emerging*) — § 234 PBG als Anknüpfung
+  der negativen Vorwirkung (nicht eine BZO-Übergangsbestimmung); nur negativ, nie positiv
+  (VB.2008.00044) → in der Übergangsphase gilt **die jeweils strengere** Bestimmung; Dauer nach
+  § 235 PBG (Frist ab **Geltendmachung**, nicht ab Auflage); Verfahrensstand Thalwil;
+  artikelweise Vorwirkungs-Karte. §§ 234/235 PBG wortgetreu gegen `raw/260607_amtlich_zh_pbg.md`
+  Z. 2362-2372 gegengelesen.
+- **Fassungsstand (kommunal, Priorität (b)):** revBZO Thalwil am **14.06.2026** an der Urne
+  festgesetzt (78.81 %, 4'546 : 1'222), aber **weder genehmigt noch in Kraft** — die
+  Gesetzessammlung Thalwil führt weiterhin **SR 700.1 BZO vom 11.12.2019, in Kraft seit
+  31.08.2024**. Massgebend bleibt die alte BZO, überlagert von der Vorwirkung.
+- **Methodik:** die Grau-Markierung der Synopse ist **reine Grafikinformation** und geht bei jeder
+  Textextraktion verloren. Aus dem PDF-Content-Stream ausgelesen (Füllfarbe `sc 0.8509804` =
+  #D9D9D9), gegen die April-Fassung als Grundrauschen abgeglichen (dort ist nur das
+  Tabellen-Kopfband grau: 303 gegenüber 1'864 Flächen) und am gerenderten Pixel verifiziert.
+  Ergebnis: **23 von 55 revBZO-Artikeln** markiert, **absatz-, teils zellengenau**.
+- **Zwei praktisch entscheidende Befunde:** aus **Art. 31 revBZO** wirken nur die
+  Min. Grünflächenziffer, die max. Gebäudelänge **25.00 m in der W2b** (bisher 30.00 m) und die
+  Streichung des Arealüberbauungs-Zuschlags vor — die Fassadenhöhen steigen, sind also milder;
+  **Art. 45 revBZO (Klein-/Anbauten) wirkt gar nicht vor**, **Art. 50 (Umgebungsgestaltung) fast
+  vollständig** (Vorgarten Abs. 1 lit. b, Fällbewilligung ab Stammumfang 100 cm lit. c, ein Baum
+  je 500 m² aGF lit. d).
+- **Register-Sweep:** `wiki/INDEX.md` (neuer Eintrag unter «Planung & Gestaltung») ·
+  `wiki/QUELLEN.md` (neuer Abschnitt: der ÖREB-Bestand zeigt nur die in Kraft stehende Fassung,
+  Revisionsvorlagen gehören als zweite Quelle daneben) · Backlinks in
+  `wiki/baureife-und-erschliessung.md`, `wiki/raumplanung-und-gestaltung.md`,
+  `wiki/grundlagen-planungs-baurecht.md` · `wiki/QUESTIONS.md` (T-01/T-02/T-03) ·
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (T1 erledigt) · `training/PROGRAMM.md`
+  (Punkt 5 erledigt, Punkt 7 aufgelöst, neue Leitplanke, Tracker) · `training/drills.md` (3 Karten).
+- **PROGRAMM-Punkt 7 aufgelöst:** die «50 m²», mit denen die Synopse die Aufhebung der 7-%-Quote
+  (Art. 24 BZO) begründet, sind die **kantonale** Legaldefinition **§ 2a Abs. 1/2 ABV**
+  (verifiziert an `raw/260607_amtlich_zh_abv.md` Z. 50-63) — keine neue kommunale Regel.
+- **Neue Leitplanke:** visuelle Rechtsinformation (Grau, Rotdruck, Durchstreichung) überlebt die
+  Textextraktion nicht; zusätzlich bei Synopsen die Spaltenzuordnung **wortweise** vornehmen, weil
+  `pdftotext` Tabellenzeilen über alle Spalten zu einer Zeile verschmilzt.
+- Report: `outputs/2026-08-03_buch-run72.md`.
+
 ## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — drei falsche Gelaenderwerte korrigiert, Frage 2 geschlossen
 
 - **`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`:** drei Werte im Fliesstext
