@@ -382,3 +382,28 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   Schritte sind Bring-Schulden Raphaels und durch den Monitor nicht aufloesbar.
   **Status-Mail an rj@ gesendet** (echte Phasenaenderung); `fristen.md` in beiden AG-Zeilen
   nachgefuehrt.
+
+- **04.08.2026 (Monitor-Lauf, Dienstag, 07:46): kein Eingang, keine Phasenaenderung — beide
+  offenen Schritte sind Bring-Schulden Raphaels und heute faellig.** Sweep ueber alle Konten
+  (Apple Mail `mail@raphaeljans.ch` als Primaerkanal, `rj@` Exchange, `raphaeljans@outlook.com`,
+  iCloud; alle Mailboxen inkl. Entwuerfe/Geloescht/Junk; 3-Tage-Vollsweep plus 12-Tage-Zielsuche
+  auf UBS/Jeckelmann/key4/IBAN/Kapital/REGIX/Notariat/Beurkundung/Handelsregister/Mathies).
+
+  **Befund 1 (UBS): keine IBAN.** Juengste UBS-Belege unveraendert Jeckelmann 29.07. 16:55
+  (Exchange) und der UBS-Bestaetigungscode 29.07. 12:50 (mail@). Die Zusage von drei
+  Arbeitstagen ab Einreichung Wiedikon (29.07.) ist seit gestern ueberschritten. Die
+  **Nachfass-Schwelle 05.08.** wird morgen erreicht: dann bei B. Jeckelmann anrufen
+  (044 236 48 48).
+
+  **Befund 2 (Notariat): die gestern beschlossene Nachreichung ans Sammelpostfach ist bis
+  07:46 nicht erfolgt.** Am Beleg geprueft: in `Gesendete Elemente` liegt seit 03.08. 22:58
+  nichts Neues, insbesondere keine Weiterleitung an `wiedikon-zuerich@notariate-zh.ch`; vom
+  Notariat ist ausser der Abwesenheitsantwort vom 03.08. 14:56:17 nichts eingegangen. Mathies
+  ist bis Fr 07.08. abwesend, die Unterlage liegt ungelesen.
+
+  **Phasenlage unveraendert:** Kapitaleinzahlungskonto beantragt und freigegeben → **IBAN
+  ausstehend** → Einzahlung CHF 100'000 → Kapitalbescheinigung (2 AT, Einschreiben) →
+  Beurkundung → HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com`.
+  **Keine Status-Mail gesendet** (Ein-Mail-Prinzip 03.08.2026: kein neuer Eingang, keine
+  Phasenaenderung, und beide Aktionen standen bereits im Briefing vom 03.08. 22:12 — der
+  Hub-Chef traegt sie um 08:39 weiter). `fristen.md` in beiden AG-Zeilen nachgefuehrt.
