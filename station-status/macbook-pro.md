@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 01:10:29
+Stand: 05.08.2026 01:20:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:03)
@@ -12,4 +12,4 @@ Stand: 05.08.2026 01:10:29
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 43afe589 vollgas-radar 05.08. 00:57: Fenster FREI (Probe haengt 4. Mal), Budget 25.2% bei 22.0% Woche — Vorsprung +4.4 -> +3.2 = gewollte Konvergenz auf den flachen Schnitt; starke Nacht (energie Run 123, Wissens-Chef Run 25 mit BKP-Phantomcode-Bereinigung), kein Delta-Null-Loop; energie-Taktgeber korrigiert aber noch unbewiesen
+- 6dbceef2 nas-selfcommit: 4 Datei(en) 2026-08-05 01:15
