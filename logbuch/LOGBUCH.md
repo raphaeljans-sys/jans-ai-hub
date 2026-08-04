@@ -5,6 +5,43 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-05 — Normen-Training 01:28 (still, keine Mail — aber ein Punkt fuer den Chef, der eine Hand am Terminal braucht)
+
+Der Lauf ist am `lauf-gate.sh` abgewiesen worden (rc=1, «bereits 2 Laeufe aktiv, Grenze 2») und
+nach Rule 260728 still zurueckgetreten. **Kein Destillat, keine Verifikation, keine
+Inventar-Position** — der fachliche Auftrag der Normen-KB steht unveraendert offen.
+
+**Der Abweisungsgrund ist ein Defekt, kein Engpass.** Die beiden Lauf-Plaetze der Station sind von
+zwei **verwaisten Fensterproben des vollgas-Radars** belegt: `claude -p "Antworte nur mit: OK"
+--model haiku`, PID 54048 seit 04.08. 16:58 (8 h 30, RSS 0) und PID 87945 seit 05.08. 00:58, beide
+PPID 1, beide State SN. Die Startzeiten decken sich mit den Radar-Slots 16:50 und 00:50. Der
+Gate-Zaehler `pgrep -f "claude (-p|--print)"` matcht diese Proben und zaehlt sie als aktive
+Laeufe. Speicher waere vorhanden gewesen: 3427 MB gegen einen Mindestwert von 3000, Druckstufe 2.
+
+**Zwei tote Proben = Gate dauerhaft dicht.** Die Sperre loest sich nicht von selbst. Im Gate-Log
+stehen bisher genau zwei Abweisungen dieser Art, beide von diesem Lauf (01:28:13, 01:28:25) — die
+Blockade besteht erst seit 00:58, dieser Lauf ist der erste Betroffene. Kein Ausfall in der
+Breite also, aber der naechste Radar-Slot 08:50 trifft auf eine bereits gesperrte Station und kann
+eine dritte Leiche hinterlassen.
+
+**Was Raphael tun muesste (Claude durfte nicht):** der Versuch, die beiden PIDs zu beenden, wurde
+vom Berechtigungs-Classifier abgewiesen und **nicht umgangen**. Ein `kill 54048 87945` gibt die
+Station frei. Dauerhaft gehoert der Proben-Kill im Radar so gebaut, dass er nicht verwaisen kann,
+und der Gate-Zaehler gegen tote Proben immunisiert (vor der Umstellung messen — der Gate-Header
+dokumentiert zwei Faelle, in denen eine plausible Schwellenaenderung ohne Vormessung ein Dauerveto
+erzeugt haette).
+
+**Einordnung.** Rule `rollen-taxonomie`: «Wer sie mitzaehlt, misst Betriebsstoerungen und nennt sie
+Auslastung.» Der Radar fuehrt den Proben-Defekt seit 04.08. viermal als reines Messproblem
+(«Defekt der Messmethode, nicht des Kontingents») und hat dabei nur die eigene Aussagekraft
+geprueft; dass seine Leichen einen anderen Waechter sperren, steht bisher nirgends.
+
+Nachrichtlich, als Fremdbefund aus Run 43 und in diesem Lauf **nicht** nachgeprueft: der
+Vorrang-Auftrag im Task-Text (achte Lignatec-Runde) ist seit Run 38 erledigt und wurde seither
+fuenfmal neu festgestellt. Der Block sollte aus dem Task-Text heraus, er kostet in jedem Lauf
+Kontext. Report: `wissen/normen/outputs/2026-08-05_normen-nacht-run44.md`. Kein Versand, keine
+Buchung, kein Fan-out.
+
 ## 2026-08-04 — Mac Mini Nachtschicht, 13:30-Versuchsslot (KB bauprodukte, ERCO-Destillat)
 
 Prioritäten 1-3 ohne offenen Punkt (0 Sync-/Remote-Tasks für mac-mini, ein Task wartet weiter

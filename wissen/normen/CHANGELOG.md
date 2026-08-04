@@ -1,3 +1,19 @@
+## 2026-08-05 (Normen-Training Run 44) — kein Destillat: Rücktritt am Lauf-Gate, Betriebsbefund statt Fachertrag
+
+Der Lauf wurde um 01:28 vom `lauf-gate.sh` abgewiesen (rc=1, «bereits 2 Laeufe aktiv») und ist
+nach Rule 260728 still zurückgetreten. **An der Wissensbasis wurde nichts geändert** — kein
+Destillat, keine Verifikation, keine Inventar-Position, kein Register-Eintrag. Der fachliche
+Auftrag geht unverändert an den nächsten Lauf.
+
+Angelegt wurde allein der Lauf-Report `outputs/2026-08-05_normen-nacht-run44.md`. Er hält den
+Grund der Abweisung fest, und der ist kein Ressourcenengpass: die beiden Lauf-Plätze der Station
+waren von **zwei verwaisten Fensterproben des vollgas-Radars** belegt (PID 54048 seit 04.08.
+16:58, PID 87945 seit 05.08. 00:58, beide PPID 1), die der Gate-Zähler `pgrep -f "claude
+(-p|--print)"` als aktive Läufe mitzählt. Speicher wäre vorhanden gewesen (3427 MB gegen
+Mindestwert 3000). Die Bereinigung per `kill` wurde vom Berechtigungs-Classifier abgewiesen und
+nicht umgangen; die Sperre besteht damit fort. Empfehlungen und die Abgrenzung des Ungeprüften
+stehen im Report.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — SIA 493 archiviert, SIA 430:2023 nachgeführt, drei Übergaben aus energie angekommen, drei BKP-Phantomcodes korrigiert
 
 Alle Fassungsangaben unten sind am **Herausgeber** (shop.sia.ch) verifiziert, nicht aus einer
