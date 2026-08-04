@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-04 (Nachtschicht Mac Mini) — Fokus-Bereich «Bauen im Betrieb»: erweiterter Nullbefund
+
+- Kein neuer Fall. Nach dem Logbuch-Nullbefund vom 03.08. diesmal direkt den KISPI-
+  Projektordner (OneDrive) und Mail durchsucht (Etappierung/Provisorium/Nachtarbeit/Laerm) —
+  nur technische Dokumentation ohne Entscheid-Story gefunden (Etappierungszonen-Sprinkler-
+  plaene, Bauprovisorium-Baustromprotokolle). Naeheste Sachnaehe ist der generische,
+  bereits bestehende Artikel `auflagebereinigung/wiki/gvz-einreichung-bma-sprinkler.md`
+  (Ausserbetriebsetzungs-Pflicht Brandmelde-/Sprinkleranlagen) — kein eigenstaendiger
+  KISPI-Lesson-Kandidat, daher nicht uebernommen. Befund + Empfehlung (Truninger-DS3 als
+  naechste Quelle) in `wiki/QUESTIONS.md` dokumentiert, damit kuenftige Laeufe den bereits
+  durchsuchten Dateibaum nicht wiederholen.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Ein B-Befund: toter Backlink `[[[sbb-naeherbaurecht-thalwil-2414-vordach]]` (Klammer-Tippfehler) in `wiki/kispi-behoerden-zustaendigkeitswechsel-1171-26.md` — derselbe Fehlertyp wie in auflagebereinigung. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

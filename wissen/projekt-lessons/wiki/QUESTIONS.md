@@ -4,6 +4,23 @@ Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel.
 
 ## Offene Wissenslücken (Coverage-Gaps)
+- **Fokus-Bereich «Bauen im Betrieb» weiterhin ohne Kandidat (04.08.2026, Nachtschicht Mac
+  Mini) — Suchraum diesmal erweitert, wieder Nullbefund.** Nach dem reinen Logbuch-Nullbefund
+  vom 03.08. (Eintrag unten) diesmal direkt im KISPI-Projektordner gesucht (`JANS -
+  2619-KISPI - Dokumente`, OneDrive) nach Etappierung/Provisorium/Nachtarbeit/Laerm/
+  Patiententransport: Treffer sind ausschliesslich technische Dokumentation ohne Entscheid-
+  oder Fehler-Story — Etappierungszonen-Plaene der Sprinkleranlage (Los 51.11, reine
+  Planwerk-PDFs), Bauprovisorium-Protokolle Baustrom/SINA-Pruefungen (Los 231.01, Zaehler-
+  Nummern und periodische Kontrollen, kein narrativer Vorfall). Kein Sitzungsprotokoll-/
+  Baubesprechungs-Ordner im Projektbaum auffindbar. `mdfind` auf Mail (`etappierung kispi`,
+  `bauprovisorium`) lieferte 0 Treffer. Naeheste inhaltliche Naehe: der established-Artikel
+  [[gvz-einreichung-bma-sprinkler]] in `wissen/auflagebereinigung` beschreibt die Ausser-
+  betriebsetzungs-Pflicht (>24 h, 3-Tage-Vorlauf an GVZ/Feuerwehr) fuer Brandmelde-/
+  Sprinkleranlagen — ein generischer Normablauf, aber **keine KISPI-spezifische
+  Entscheidsituation** und damit kein eigenstaendiger Lesson-Kandidat (waere Dopplung ohne
+  Mehrwert). Empfehlung fuer den naechsten Lauf: Truninger-DS3 (dritte, noch ungeprüfte
+  Quelle aus PROGRAMM.md) nach Bauprogramm-/Etappenplan-Korrespondenz durchsuchen, oder auf
+  einen frischen Logbuch-Fund warten statt erneut denselben Dateibaum zu durchsuchen.
 - **Bootstrap-Pendenz WEITER fortgeschritten (31.07.2026, Nachtschicht Mac Mini):** fuenfter
   Fall kompiliert — [[kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087]] (KISPI RE-00087,
   Quelle: Logbuch-Journal 16.06.-31.07.2026, `logbuch/LOGBUCH.md` + `logbuch/fristen.md`),
