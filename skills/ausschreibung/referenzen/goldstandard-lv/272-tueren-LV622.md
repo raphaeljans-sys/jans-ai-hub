@@ -10,6 +10,21 @@ reifegrad: R2
 hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage
 ---
 
+> ⚠ **Fassungs-Warnung 04.08.2026 (Wissens-Chef Run 25) — die drei mit ⚠ markierten
+> NPK-Positionen 081110, 081210 und 081310 verlangen eine Deklaration nach SIA 493.**
+> **SIA 493 «Deklaration ökologischer Merkmale von Bauprodukten» ist seit dem 30.06.2022
+> archiviert** (shop.sia.ch, Produktseite SN 550493: «Gültig bis: 30.06.2022, archivierter
+> Titel!», am Herausgeber verifiziert 04.08.2026). Die Deklarationsform wird nicht mehr
+> publiziert; wer diese Positionen unverändert ins Devis übernimmt, verlangt vom Unternehmer
+> einen Nachweis, den es nicht mehr gibt, und macht die Position im Streitfall wertlos.
+> **Ein 1:1-Nachfolger ist nicht belegt** — der SIA-Shop weist keinen aus. In der Praxis
+> treten EPD nach SN EN 15804+A2 und die KBOB-Ökobilanzdaten an diese Stelle; das ist
+> sekundärquellengestützt und **hier ausdrücklich nicht als Ersatz gesetzt**. Vor der
+> Verwendung die aktuelle NPK-Fassung prüfen und die Anforderung neu formulieren.
+> Führend für den Fassungsstand ist die KB `wissen/normen` (Rule `normen-referenz`);
+> Belegkette in `wissen/normen/destillate/sia-493-1997.md`.
+
+
 # LV-Vorlage — Tueren
 
 > Objekt: Neubau MFH Palm-Fischbacher · Referenz-Unternehmer: Messerli AG
@@ -197,10 +212,10 @@ hinweis: Mengen/Preise projektspezifisch — hier Strukturvorlage
 - **063130** — d.Futter befestigen
 - **063140** — Verdeckt befestigen
 - **063150** — Hohlräume ausfüllen
-- **081110** — Empfehlung SIA 493
-- **081210** — Produktedeklaration n.SIA 493
+- **081110** — Empfehlung SIA 493 ⚠
+- **081210** — Produktedeklaration n.SIA 493 ⚠
 - **081220** — Produktedeklaration n.VSLF
-- **081310** — Produktedeklaration n.SIA 493
+- **081310** — Produktedeklaration n.SIA 493 ⚠
 - **081320** — Produktedeklaration n.VSLF
 - **082100** — Holz m.FSC-,PEFC-Label
 - **082200** — Holz m.HSH,FSC-,PEFC-Label

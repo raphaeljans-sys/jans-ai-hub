@@ -42,6 +42,8 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Aufzug: **Energie- und Leistungsbedarf** (SIA 2056:2019 Ziff. 6.23 — Gl. 107, vier Nutzungsintensitaetsstufen nach Gebaeudetyp Tab. 78, Rekuperations-/Hydraulikfaktoren) | **normen** (`sia-592-056`, S. 1-130 gelesen, established) | energie fuehrt die **Geraete-/Marktseite** (VDI-4707-Effizienzklassen A-G, Standby-Anteile, Herstellerkennzahlen) und verweist fuer die Normrechnung dorthin. SIA 2056 uebernimmt die VDI-Kategorien **nicht** — NEU Run 22, nachdem energie genau das aus Sekundaerquellen behauptet hatte |
 | **Primaertabellen/exakte Quantile** aus dem OneDrive-Marktdatenbestand (Wuest, BFS, werk-material) | **immobilienbewertung** (Ingest-Reports in `outputs/`) liefert sie; **fuehrend fuer die Verwendung** bleiben `skills/kostenschaetzung/referenzen` (Wuest-Benchmark) bzw. **grobkosten** (CHF/m3 GV) | Regel aus Run 22: sobald eine exakte Primaertabelle im Hub liegt, ersetzt sie die Diagramm-Ablesung im fuehrenden Blatt — Zahlen und Provenienz immer gemeinsam bewegen |
 | Projekt-Lessons: Beweiskette eines konkreten Einzelfalls (Herkunft einer Vorgabe, Fallwerte aus Unternehmerdoku) | **projekt-lessons** | normen (generische Norm-/VKF-Kennwerte), auflagebereinigung (Auflagen-Ziffer/Amt/Frist), grobkosten/immobilienbewertung (Kennwerte) — **projekt-lessons fuehrt KEINE generischen Kennwerte oder Normfundstellen**, nur den belegten Fall — NEU Run 16 (Erst-Pruefung) |
+| Oekologische Materialvorgaben in der BESCHAFFUNG (eco-bau/ecoBKP-Merkblaetter nach BKP, bauoekologische Submissionsbedingungen, Devis-/Baustellenkontrolle, Zielvereinbarungen SIA 112/1) | **energie** (Beschaffungs- und Vollzugslogik) | bauprodukte fuehrt weiterhin das Produkt-/Systemwissen nach BKP und zieht die eco-Aussagen als **datierten Stand 2008** heran, nie als heutige Produktvorgabe; normen fuehrt jede Norm-Fundstelle darin — NEU Run 25 (Erst-Pruefung der eco-BKP-Achse) |
+| Gueltigkeits-/Fassungsstand einer Norm (gilt · archiviert · ersetzt durch, mit Herausgeber-Beleg und Abrufdatum) | **normen** — und zwar getrennt vom Inhaltsstatus des Destillats (`gueltigkeit` neben `status`) | JEDE andere KB verweist dorthin und schreibt keinen eigenen Gueltigkeitsvermerk fort; meldet sie eine Archivierung, ist sie in normen NACHZUZIEHEN (sonst verpufft die Uebergabe) — NEU Run 25, Anlass SIA 493 und SIA 430 |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -65,7 +67,155 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > nachtraeglich durchgesetzt. Analoges Muster bei `energie` (Run 6: SIA-180-Fundstellen aus
 > Vollzugshilfen rekonstruiert, obwohl das Norm-Destillat 3 Tage aelter war).
 
+> **NEU Run 25 — viertes Struktur-Muster «Stichtags-Register mit heutigem Wissen ueberschrieben»:**
+> `normen/wiki/REGISTER.md` fuehrt Bloecke mit ausdruecklichem Stichtag («A) SIA — Gueltigkeit je
+> Norm, Stand 25.02.2013»). Zwei Melder wollten dort SIA 493 bzw. SIA 430 auf «archiviert» bzw.
+> «ersetzt» umstellen; **zwei Verifikatoren haben das unabhaengig voneinander abgelehnt** — per
+> Stichtag waren beide Aussagen richtig, eine Umstellung haette eine Rueckdatierung erzeugt und
+> die tragende Quelle des Registers unnachvollziehbar gemacht. **Regel daraus: ein datiertes
+> Stichtags-Register wird ERGAENZT (Querverweis, Bemerkungsspalte), nie ueberschrieben.** Der
+> Nach-Stichtag-Sachverhalt gehoert in die undatierte Bemerkungs-/Bestand-Spalte.
+>
+> **NEU Run 25 — «`status: established` bezeugt die Destillier-Treue, nicht die Gueltigkeit»:**
+> Beide archivierten Normen dieses Laufs trugen `established`. Das Feld sagt aus, dass das
+> Destillat gegen das Original geprueft wurde — ueber den Rueckzug der Norm sagt es nichts, und
+> ein Haus-PDF kann seinen eigenen spaeteren Rueckzug strukturell nicht ausweisen. **Regel:
+> Inhaltsstatus (`status`) und Gueltigkeitsstatus (`gueltigkeit`) sind zwei Frontmatter-Felder.**
+> In `normen` fuer SIA 493 und SIA 430 umgesetzt; fuer den uebrigen Destillat-Bestand offen.
+>
+> **NEU Run 25 — «einen Phantomcode nie mechanisch ersetzen»:** Der widerlegte BKP-Code 271.10
+> war in der Rule als Fehlschreibung fuer 271.0 Innenputze festgestellt. Im Skill `brandschutz`
+> bezeichneten aber alle vier Fundstellen das **Trockenbau**-LV (richtig: 271.1). Die mechanische
+> Ersetzung haette einen Innenputz-Code an den Kopf eines EI30-Trockenbau-LV gesetzt — ein
+> Fehler, der verifizierbar aussieht und beim naechsten Audit nicht mehr auffaellt. **Regel:
+> zuerst den Sachbezug der Stelle lesen, dann den Code setzen.**
+
 ## Gepruefte Paare
+
+### energie (eco-BKP-Beschaffungskorpus Run 123) ↔ bauprodukte — ERST-PRUEFUNG 2026-08-04 (Run 25)
+- **Ausgangsmessung:** grep «bauprodukte» ueber `wissen/energie/` = 0 Treffer, grep «energie»
+  ueber `wissen/bauprodukte/` = 0 Treffer. Zwei KBs, die beide nach BKP gliedern, kannten
+  einander in keiner Richtung — waehrend `bauprodukte` genau die BKP-Positionen als GEBLOCKT
+  fuehrte (Punkt 9: BKP 214/271, Ordner leer), die der neue eco-Bestand jetzt abdeckt.
+- **Aktion:** Erst-Verlinkung auf der bauprodukte-Seite gesetzt (Teil-Antworten zu Punkt 3
+  Dachbegruenung, Punkt 8 Terrazzo/Bodenbelaege, Punkt 9 Holzbau/Trockenbau), je mit
+  **Datierungsvorbehalt Ausgabe 2008** und dem ausdruecklichen Vermerk, dass die Blockade
+  dadurch **nicht aufgehoben, sondern nur teilweise umgangen** ist. Zu BKP 225.4
+  Brandschutzbekleidungen traegt der eco-Bestand nichts bei.
+- **Fuehrung neu gesetzt:** siehe Matrix-Zeile «Oekologische Materialvorgaben in der
+  Beschaffung». **Status: verbunden, Erst-Pruefung abgeschlossen.**
+
+### normen ↔ energie (SIA 493 archiviert) — geprueft 2026-08-04 (Run 25)
+- **Befund (bestaetigt, hoch, in ZWEI Feldern unabhaengig gefunden):** `normen` fuehrte SIA 493
+  «Deklaration oekologischer Merkmale von Bauprodukten» im REGISTER als «gilt» und das Destillat
+  als `status: established`. **Die Norm ist seit dem 30.06.2022 archiviert** (shop.sia.ch,
+  Produktseite SN 550493: «Gueltig ab: 01.03.1998», «Gueltig bis: 30.06.2022, archivierter
+  Titel!», am Herausgeber abgerufen und verifiziert 04.08.2026). **Kein 1:1-Nachfolger belegt.**
+- **Praxisfolge, die den Befund teuer macht:** das JANS-Goldstandard-LV Tueren
+  (`skills/ausschreibung/referenzen/goldstandard-lv/272-tueren-LV622.md`) fuehrt drei
+  NPK-Positionen (081110, 081210, 081310), die eine Produktedeklaration nach SIA 493 verlangen —
+  ein Nachweis, den es nicht mehr gibt. Dazu drei Devis-Klauseln im neuen eco-Bestand.
+- **Aktion:** in `normen` an drei Orten ausgewiesen (Destillat-Frontmatter mit neuem Feld
+  `gueltigkeit` + Warnblock, INDEX, REGISTER Run-5-Zeile); vier Warnvermerke in `energie`;
+  Fassungswarnung im Goldstandard-LV. **Nicht angefasst:** die Stichtags-Zeile (Stand
+  25.02.2013), dort nur Querverweis. **Status: bereinigt**, Nachfolgefrage offen.
+
+### normen ↔ energie ↔ baurecht (SIA 430:2023 Bauabfaelle, VVEA-Rechtsstand) — geprueft 2026-08-04 (Run 25)
+- **Befund 1 (bestaetigt, hoch):** SIA 430 Ausgabe 1993 galt bis 31.07.2023; seit 01.08.2023 gilt
+  **SIA 430:2023 «Vermeidung und Entsorgung von Bauabfaellen»**, der Organisationsteil neu in
+  **SIA 118/430:2023** (shop.sia.ch, verifiziert 04.08.2026). Ausgabe 2023 **nicht im Haus**.
+  Aktion: REGISTER-Bemerkungsspalte, `ersetzt_durch` im Destillat, Bring-Schuld in QUESTIONS mit
+  ausdruecklichem Vermerk, dass die Existenz bereits verifiziert ist (kein zweites Bezahlen
+  desselben Schritts).
+- **Befund 2 (bestaetigt, aber vom Verifikator GEDAEMPFT):** der VVEA-Rechtsstand in `energie`.
+  Der Melder sah ein falsches Entsorgungskonzept; der Verifikator wies nach, dass **keine
+  Hub-Datei Art. 20 VVEA inhaltlich wiedergibt** und die einzige materielle Aussage sich auf
+  **Art. 16** stuetzt, der unveraendert gilt. Es ist **Belegpflege, keine Fehlerkorrektur**.
+  Umgekehrt war das Revisionsbild des Melders unvollstaendig: vier Revisionen, darunter
+  **AS 2026 357, in Kraft seit 01.08.2026**. Aktion: artikelgenauer, datierter Rechtsbasis-Zeiger.
+  **Fuehrung:** Erlasswortlaut bleibt bei `baurecht`, Anwendung bei `energie`. **Status: bereinigt.**
+
+### energie ↔ normen (SIA 118 Vertragshierarchie, Attributionsfehler der Quelle) — geprueft 2026-08-04 (Run 25)
+- **Befund (bestaetigt, hoch — Ursache anders als gemeldet):** der neue Wiki-Artikel gab eine
+  Stadt-Zuercher Dreierliste als Vertragshierarchie «gemaess SIA 118» aus. Der Melder vermutete
+  einen Abstraktionsfehler des Wiki; der Verifikator fand die Ursache in der **Primaerquelle
+  selbst** (HBD, OEKO 3.14.C vom 29.08.2006: «Gemaess SIA 118 gilt folgende Reihenfolge»).
+  Materiell **unterschlaegt die Dreierliste die drei Raenge oberhalb des LV** (SIA 118:1991
+  Art. 7/21).
+- **Regel daraus:** ein Attributionsfehler der Quelle muss **als solcher benannt** werden — eine
+  blosse Kennzeichnung «AHB-spezifisch» laesst ihn beim naechsten Destillieren erneut ableiten.
+- **Aktion:** korrigiert an **drei Propagationsstellen** (Wiki-Artikel, Destillat
+  `eco-bau-devis-und-baustellenkontrolle`, `destillate/INDEX.md`). **Status: bereinigt.**
+
+### energie ↔ normen ↔ bauprodukte (Dachbegruenung SIA 312:2013) — geprueft 2026-08-04 (Run 25)
+- **Befund (bestaetigt, hoch):** der neue eco-Bestand schrieb die LV-Vorgabe von 2008 fort
+  («Gruendachrichtlinie und SFG-Label als verbindlicher Qualitaetsstandard ins LV»), obwohl
+  SIA 312:2013 seit dem 13.07.2026 destilliert im Haus liegt und ihrerseits bereits auf
+  `bauprodukte` zeigt. grep «312» ueber die beiden eco-Destillate: 0 Treffer.
+- **Sachstand (am Norm-Destillat belegt):** massgebend seit 01.11.2013 SIA 312:2013 (SN 564312),
+  ABB in SIA 118/312 (Ziff. 0.2), ergaenzt SIA 271/318 (Ziff. 0.1.2). Die Gruendachrichtlinie ist
+  dort **kein Qualitaetsstandard, sondern Pruefverfahren** (Ziff. 2.5.5 «oder gleichwertige
+  Pruefmethoden», Ziff. 4.3.2) und steht nur im informativen Anhang C.
+- **Aktion:** typisierte Fussnote an der Stelle + eigene Zeile in der Aktualitaetspruefung;
+  Selbstwiderspruch der Schlusszeile aufgeloest. **Bewusst NICHT** in den Methodik-Wiki-Artikel
+  (0 Treffer Dachbegruenung — dort waere es ein Fremdkoerper). **Status: bereinigt**, heutiger
+  Bestand von SFG/Label offen (E-R25-1).
+
+### baurecht ↔ planungsgrundlagen ↔ projekt-lessons (revBZO Thalwil, negative Vorwirkung) — geprueft 2026-08-04 (Run 25)
+- **Befund 1 (bestaetigt, hoch — Aufloesung des Melders verworfen):** zwei baurecht-Erzeugnisse
+  gaben fuer Klein-/Anbauten gegensaetzliche Arbeitsanweisungen. Der Melder wollte den
+  Doppelnachweis «auf die markierten Bestimmungen begrenzen»; der Verifikator wies das als
+  irrefuehrend zurueck: **die 50-m²-Pruefung faellt nicht weg, sie hat eine andere
+  Rechtsgrundlage** — § 2a Abs. 1 ABV (kantonal, in Kraft) als **Begriffsgrenze**, nicht als
+  revBZO-Nachweisgrenze. Richtige Anweisung: Art. 24 Abs. 1 BZO + § 2a ABV + Art. 31/50 revBZO
+  (Gruenflaechenziffer/Umgebungsgestaltung).
+- **Befund 2 (vom Verifikator ZUSAETZLICH gefunden, nicht gemeldet):** «GFZ» in der
+  Bemerkungsspalte meint die **Gruenflaechenziffer**, nicht die Geschossflaechenziffer
+  (Nachzaehlung am raw-Volltext: `Geschossflaechenziffer` 0 Treffer, `GFZ` genau 1 Treffer).
+- **Befund 3 (bestaetigt, aber GEDAEMPFT):** der Vorwirkungs-Abschnitt in `planungsgrundlagen`
+  ist **nicht mangelhaft, sondern quellenbegrenzt** und **muss bleiben** — er erklaert, warum das
+  Connector-Flag `revision_laeuft` rechtliche Bedeutung hat. Gesetzt wurde nur der Zeiger in
+  beide Richtungen. Die absatz-/zellengenaue Grau-Markierung ist **Thalwiler
+  Publikationspraxis**, kein ZH-weiter Regelfall — so gekennzeichnet.
+- **Aktion:** Korrekturvermerk am Output (nicht umgeschrieben), Arbeitsregel 2 der Korpus-Queue
+  praezisiert, Zeiger in allen drei KBs, K68 in planungsgrundlagen, 50-m²-Frage in baurecht mit
+  Erlassbeleg **geschlossen**. **Status: bereinigt.**
+- **⚠ Offen und terminkritisch:** Ziff. 4.5 des versandbereiten Begleitbeschriebs (2414 Thalwil,
+  Termin 06.08.2026) traegt weiterhin den falschen Satz zu Art. 45 revBZO. Ausgehendes
+  Erzeugnis, Freigabe Raphael.
+
+### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung-Ref (Neuwert-Richtwerte, Teuerungsanker) — geprueft 2026-08-04 (Run 25)
+- **Befund (bestaetigt, hoch):** dieselbe Fremdtabelle (Schaetzungsanleitung Kap. 5) wird in
+  beiden KBs materiell gefuehrt — `grobkosten` nur mit der Band**unter**grenze,
+  `immobilienbewertung` mit dem ganzen Band. Dazu **zwei verschiedene Teuerungsanker**:
+  1.334 (01.04.2004 = 907.6) gegen 1.346 (01.04.2003 = 899.2), rund 1 % Abweichung.
+- **Aktion:** gegenseitiger Zeiger + Vorbehalt in beiden KBs; **kein Stand ueberschrieben**.
+  Zusaetzlich ein falsifizierter Cross-Check-Schluss in `grobkosten` ausgewiesen (echte
+  MFH-Spanne 471-1'010 statt der behaupteten Unterschreitung des Seed-Bands).
+- **⚠ ZWEI OFFENE ENTSCHEIDE fuer Raphael** (Bericht Abschnitt 10): welcher Anker hub-weit gilt
+  (Empfehlung 1.346, weil die Tabelle im Kopf «Stand 2003» traegt) und ob die Doppelfuehrung
+  durch einen reinen Verweis ersetzt wird. **Merkposten:** die Fehlerwurzel liegt in
+  `grobkosten/raw/`; ohne Freigabe dort leitet ein Folgelauf denselben Fehler erneut ab.
+- **Status: teilbereinigt** (Vorbehalt gesetzt, Zahlenentscheid offen).
+
+### Skills ↔ normen ↔ Rule bkp-2017-referenz (Phantomcodes BKP 271.10 und 271.13) — geprueft 2026-08-04 (Run 25)
+- **Ausgangslage:** Ticket N43-1 aus dem Normen-Run 43 (04.08.2026) — der Code 271.10 existiert
+  im BKP 2017 nicht, 13 Dateien offen. Dieser Lauf hat den Durchgriff gefahren.
+- **Befund 1 (bestaetigt):** `skills/ausschreibung/SKILL.md` fuehrte den Code im **Formatbeispiel
+  der LV-Titel-Konvention**. Die **Ursache** liegt daneben: wenige Zeilen darunter definiert
+  derselbe Skill Gewerk-Ordnernamen nach dem **Stadt-Zuercher Katalog 2008** («251.00»), der
+  zweistellige Nachkommastellen kennt. Zwei Kataloge, gleiche Schreibweise, keine Kennzeichnung.
+- **Befund 2 (bestaetigt, Zielcode vom Verifikator KORRIGIERT):** `skills/brandschutz/SKILL.md`,
+  vier Stellen — richtig ist **271.1 Trockenbauarbeiten**, nicht 271.0 Innenputze (siehe
+  Struktur-Muster oben). Dieselbe Zeile erfand zusaetzlich **271.13**.
+- **Befund 3 (neu, zweite Fehlerfamilie):** «271.13» ist eine reale **buerointerne Los-Nummer**
+  (KISPI `LOS_271.13`). Das Skill-Template `build-factsheet-ertuechtigung.template.js` schrieb an
+  fuenf Stellen «BKP 271.13» in den **Dokumenttext** — also in ein Erzeugnis an Bauleitung,
+  Bauherrschaft und Unternehmer. Umgestellt auf `LOS 271.13 (… BKP 271.1)`.
+- **Aktion:** ausschreibung + Katalog-Warnblock, brandschutz (4 Stellen), 3 normen-Destillate
+  (Sachbezug je Stelle geprueft; einmal bewusst **281.0 Estriche** statt geraten), Template
+  (5 Stellen), Rule `bkp-2017-referenz.md` um Sachbezugs-Regel und Los-Nummer-Klasse ergaenzt.
+  **Status: bereinigt fuer Skills, Rule und normen.** Offen: Altdokumente und Projektordner.
 
 ### baurecht (Buch-Destillat) ↔ normen (SIA 358) — geprueft 2026-08-03 (Run 24)
 - **Befund:** 2 verifiziert, **2 bestaetigt** — beide im **abnehmenden** Bestand (`baurecht`), und

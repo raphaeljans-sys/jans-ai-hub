@@ -3,6 +3,60 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-04 — Wissens-Chef Run 25 (Cross-KB, 6 Felder, 23 Agenten)
+
+- **Bericht:** `outputs/2026-08-04_wissens-chef-run25.md`. Sechs Felder, 32 gemeldete Befunde,
+  **12 verifiziert — 12 bestaetigt, 0 widerlegt**; ueber 30 Dateien in 8 KBs, 4 Skills, 1 Rule
+  und 1 Skill-Template korrigiert. Lauf 04.08. 23:11 bis 05.08. 00:00 CEST (Datumsgrenze
+  ueberschritten; Korrekturvermerke tragen einheitlich das Datum des Laufbeginns).
+- **Dimensionierung gemessen, nicht geschaetzt:** Zuwachs seit Run 24 per `git log --stat` ueber
+  `wissen/` (energie Run 123 mit dem eco-bau-/AHB-Korpus, 15 Minuten vor Laufbeginn beendet;
+  normen Run 43; baurecht Buch-Run 72; bauprodukte, twin, grobkosten). Kontingent bei Start
+  25.8 Mio teuer (MacBook Pro) bei 21 % verstrichener Woche — das traegt sechs Felder statt vier.
+- **Teuerster Fund: zwei archivierte Normen, die der Hub als geltend fuehrte.** **SIA 493**
+  archiviert seit 30.06.2022, **SIA 430:1993** abgeloest durch SIA 430:2023 (beide am Herausgeber
+  verifiziert). Praxisfolge, die den Befund teuer macht: das **JANS-Goldstandard-LV Tueren**
+  fuehrt drei NPK-Positionen, die eine Produktedeklaration nach SIA 493 verlangen — ein Nachweis,
+  den es seit vier Jahren nicht mehr gibt. Fassungswarnung gesetzt.
+- **Struktur-Lehre 1 (neu im Register):** ein **Stichtags-Register wird ergaenzt, nie
+  ueberschrieben**. Beide Melder wollten die 2013er-Registerzeilen umstellen; beide Verifikatoren
+  lehnten unabhaengig ab — per Stichtag waren die Aussagen richtig, eine Umstellung haette eine
+  Rueckdatierung erzeugt.
+- **Struktur-Lehre 2 (neu):** `status: established` bezeugt die **Destillier-Treue**, nie die
+  **Gueltigkeit**; ein Haus-PDF kann seinen eigenen spaeteren Rueckzug nicht ausweisen. Neues
+  Frontmatter-Feld `gueltigkeit` in `normen` eingefuehrt.
+- **Struktur-Lehre 3 (neu):** einen **Phantomcode nie mechanisch ersetzen**. 271.10 → 271.0 waere
+  im Skill `brandschutz` falsch gewesen — alle vier Stellen bezeichnen das **Trockenbau**-LV
+  (richtig 271.1). Der mechanische Fix haette einen Fehler erzeugt, der verifizierbar aussieht.
+- **Zweite Phantomcode-Familie gefunden (vorher unbekannt):** «BKP 271.13» im
+  Brandschutz-Template ist in Wahrheit eine **buerointerne Los-Nummer** (KISPI `LOS_271.13`) und
+  stand an fuenf Stellen im **Dokumenttext** ausgehender Erzeugnisse. Umgestellt; die Regel
+  «Los-Nummern sind keine BKP-Codes» ist neu in `rules/bkp-2017-referenz.md` verankert.
+- **Ein Attributionsfehler, der aus der Quelle kam:** die Vertragshierarchie «gemaess SIA 118» im
+  neuen energie-Artikel stammt woertlich aus der Primaerquelle (HBD OEKO 3.14.C, 29.08.2006) —
+  nicht aus einem Abstraktionsfehler des Wiki. An drei Propagationsstellen als Attributionsfehler
+  benannt, weil eine blosse «AHB-spezifisch»-Kennzeichnung ihn erneut ableitbar liesse.
+- **Erst-Pruefung der eco-BKP-Achse:** `energie` und `bauprodukte` gliedern beide nach BKP und
+  kannten einander in **keiner** Richtung (je 0 grep-Treffer), waehrend bauprodukte genau die
+  BKP-Positionen als GEBLOCKT fuehrte, die der neue eco-Bestand abdeckt. Verlinkt, mit
+  Datierungsvorbehalt Ausgabe 2008; zwei neue Matrix-Zeilen.
+- **Verfahren:** die Quote «Aufloesung traegt nicht» bleibt hoch — **11 von 12** Aufloesungen
+  mussten korrigiert werden, obwohl **12 von 12** Befunden hielten. Zweimal hat die Verifikation
+  den Befund **gedaempft** statt verschaerft (VVEA = Belegpflege statt Fehlerkorrektur;
+  planungsgrundlagen-Abschnitt quellenbegrenzt statt mangelhaft) und damit einen Fehleingriff
+  verhindert. **Konvergenz zweier unabhaengiger Felder** (SIA 493 in F1+F2, SIA 430 in F2+F3) hat
+  sich als staerkstes Vorsortier-Signal erwiesen.
+- **Register:** `QUERBEZUEGE.md` um **8 Paar-Eintraege**, **2 Matrix-Zeilen** und die drei neuen
+  Struktur-Muster ergaenzt.
+- **Keine eigene Mail** (Rule 260803 / Ein-Mail-Prinzip). Fuer das Tagesbriefing markiert:
+  **⚠ terminkritisch** — Ziff. 4.5 des versandbereiten Begleitbeschriebs 2414 Thalwil
+  (Termin **06.08.2026**) traegt weiterhin einen falschen Satz zu Art. 45 revBZO; fertige
+  Zwei-Saetze-Ersetzung liegt vor, braucht Raphaels Freigabe.
+- **Zwei offene Entscheide fuer Raphael** (Bericht Abschnitt 10): der hub-weite Teuerungsanker
+  fuer die Neuwert-Richtwerte (1.334 gegen 1.346, rund 1 % auf Realwert-Ergebnisse; Empfehlung
+  1.346) und die Frage, ob die Doppelfuehrung derselben Fremdtabelle durch einen reinen Verweis
+  ersetzt wird. Beide Entscheide aus Run 23/24 sind damit abgeloest bzw. erledigt.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B3 · C0 · D0 · E0 · F2 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Die drei B-Befunde sind Schema-Abweichungen (kein `wiki/`, kein `INDEX.md`, kein `raw/_INGESTED.md`) — als Register-KB nachvollziehbar, aber nirgends festgehalten. Empfehlung: in `CLAUDE.md` ausdruecklich festschreiben, sonst wird es monatlich neu als Fehlbestand gemeldet. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
