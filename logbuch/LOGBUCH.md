@@ -5,6 +5,26 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — bexio-Hygiene / Zahlungsabgleich 08:26 (ohne Befund, still beendet)
+
+Read-only Lauf des Skills `zahlungsabgleich`. **Kein neuer Befund:** keine neue
+Phantom-Zahlung, kein neuer Verzugsfall, kein neues Duplikat, keine neu gesetzte Mahnstufe,
+kein Mahnversand. Alle Zähler stehen exakt wie am 03.08.: 50 echte Bankeingänge, 55
+unreconciled CREDIT, 84 Duplikat-Kandidaten, 19 Phantom-Kandidaten (CHF 81'364.70), ein nicht
+zugeordneter Eingang von 2021, fünf Verzugsfälle über CHF 51'400.00. Verändert hat sich allein
+das Alter der Posten. Deshalb keine Mail an Raphael (Sende-Schwelle Rule 260803).
+
+Zwei Punkte aus dem Lauf, die im Bericht stehen und beim nächsten Griff in bexio helfen:
+RE-00028 (WINTEC, CHF 10'770.00) hat mit CREDIT-Tx 854 einen Eingang gleichen Betrags und
+Datums im Feed, der Rechnung nur nicht zugeordnet — der einfachste der 19 Phantom-Kandidaten.
+Und `--rechnung 101` meldet Mahnstufe 0, `--mahnstufe 101` meldet 1; massgeblich ist die
+zweite Abfrage, weil sie die tatsächlich angelegten Mahn-Datensätze liest.
+
+Bericht: `30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260804_bexio-Hygiene.md`. Nichts gebucht,
+gelöscht, reconciled oder ignoriert.
+
+---
+
 ## 2026-08-04 — Verzugscheck 08:05 (still, keine Mail, ein Punkt für das Tagesbriefing)
 
 *Für den Hub-Chef 08:39: RE-00087 gehört ins Briefing, der Rest ist Beobachtung.*
