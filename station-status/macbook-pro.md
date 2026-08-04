@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 01:30:44
+Stand: 05.08.2026 01:40:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:03)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 01:30:44
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 4428b949 nas-selfcommit: 2 Datei(en) 2026-08-05 01:30
+- 97c0abca normen-training run44 05.08.: KEIN Destillat — Ruecktritt am Lauf-Gate (rc=1). Befund: zwei verwaiste vollgas-Radar-Fensterproben (PID 54048/87945, PPID 1) belegen beide Gate-Plaetze, pgrep zaehlt sie als aktive Laeufe; Speicher waere frei (3427 MB). Sperre monoton, kill vom Classifier abgewiesen. Report + CHANGELOG + Logbuch.
