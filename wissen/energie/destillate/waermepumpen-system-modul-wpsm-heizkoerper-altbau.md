@@ -307,5 +307,4 @@ hat die Behauptung direkt an der Quelle geprüft und kann sie nicht bestätigen:
 **Backlinks:** `[[waermepumpe-systemvergleich]]` · `[[wpz-buchs-feldmessung-jaz-2016-2019]]` ·
 `[[cop-scop-jaz-waermepumpe-gruenenwald]]` · `[[sia-384-3-wpesti-jaz-methode]]` ·
 `[[foerderprogramm-energie-zh-2026]]` · `[[foerderprogramm-energie-sz-2026]]` ·
-`[[stromtarife-waermepumpen-sperrzeiten-ch]]` · `[[heizsysteme-vollkostenvergleich-
-energieschweiz]]`
+`[[stromtarife-waermepumpen-sperrzeiten-ch]]` · `[[heizsysteme-vollkostenvergleich-energieschweiz]]`

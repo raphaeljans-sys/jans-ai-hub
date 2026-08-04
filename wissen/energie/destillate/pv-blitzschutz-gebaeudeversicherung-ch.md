@@ -138,8 +138,7 @@ Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse
 
 ## Offene Punkte
 - ~~VKF-Brandschutzrichtlinie 22-15 «Blitzschutzsysteme» selbst noch nicht am Original
-  eingesehen~~ — **geschlossen in Run 92**: eigenes Destillat `[[vkf-richtlinie-22-15-
-  blitzschutzsysteme]]` (VKF 22-15de, curl+pdftotext, established) mit der vollständigen
+  eingesehen~~ — **geschlossen in Run 92**: eigenes Destillat `[[vkf-richtlinie-22-15-blitzschutzsysteme]]` (VKF 22-15de, curl+pdftotext, established) mit der vollständigen
   Kriterienliste a–g, wer grundsätzlich blitzschutzpflichtig ist (u.a. JANS-Healthcare-Doppel-
   kriterium Spitäler/Pflegeheime ab 20 hilfsbedürftigen Personen). Ein am 2026-07-25 unabhängig
   parallel gelaufener Nebenlauf kam ohne Kenntnis dieses bereits bestehenden Destillats zum

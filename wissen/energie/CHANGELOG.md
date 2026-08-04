@@ -2,6 +2,67 @@
 
 Neueste zuoberst.
 
+## 2026-08-04 — Run 123: eco-bau-/AHB-Beschaffungskorpus, 9 Destillate, 2 Agentenbefunde widerlegt
+
+**Transfer (10 PDF gelesen, 9 Destillate, alle `emerging`):** `eco-bau-merkblaetter-bkp-2008-huelle`
+(S. 1-29) und `-technik-ausbau` (S. 30-55) — das Werk «Oekologisch Bauen — Merkblaetter nach BKP»,
+Ausgabe 2008, damit vollstaendig gelesen; `bauoekologische-submissionsbedingungen` (Sept. 2006);
+`eco-bau-devis-und-baustellenkontrolle` (2006, zwei Checklisten gebuendelt);
+`eco-bau-checkliste-planung-projektierung` (Stand 2001); `eco-bau-zielvereinbarungen-sia112-1`
+(Copyright 2004); `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006);
+`haushaltgeraete-effizienz-beschaffung-topten` (Januar 2008); `eco-bau-checkliste-solarstromanlagen`.
+
+**Zwei PDF geprueft, bewusst nicht destilliert:** `Bauteilkatalog_Energie+Oekologie.pdf` — der in
+Run 122 als naechster Block angekuendigte Titel ist **1 Seite, 12 kB, Inhalt «www.bauteilkatalog.ch»**,
+eine Verweisseite ohne Fachinhalt; und die **Vorgaengerausgabe September 2006** der Merkblaetter.
+
+**Hauptbefund (Aktualitaetspruefung):** Die Merkblaetter sind kein eingestelltes Werk — sie leben
+als **ecoBKP** weiter, werden jaehrlich fortgeschrieben und liegen aktuell in der **Ausgabe 2026**
+vor. Saemtliche Materialempfehlungen wurden auf die Methodik «Baumaterialien ecobau 2025»
+umgestellt, in der Ausgabe 2026 kamen Rueckbaubarkeits-Empfehlungen neu hinzu. **Die Systematik
+traegt, die Materialurteile nicht.** Als E-123-1 die vorderste offene Frage der KB.
+
+**Zwei Agentenbefunde im Hauptmodell geprueft und WIDERLEGT** (beide haetten die KB
+verschlechtert): (1) Der gemeldete «Datierungswiderspruch 2008 vs. 09/2006» ist keiner —
+«Ausgabe 2008» steht auf 54 von 55 Seiten, «09/2006» auf genau der Impressum-Seite, die zugleich
+eine Mitgliederliste «Stand Oktober 2007» traegt: ein stehengebliebener Produktionsrest.
+(2) Die VVEA ersetzte per 01.01.2016 nicht die VeVA, sondern die **TVA**; die **VeVA (SR 814.610)
+ist unveraendert in Kraft**, der Entsorgungsverweis der Quelle also weiterhin zutreffend.
+Weitere Normverdikte: SIA 380/4 zurueckgezogen (→ SIA 387/4 + SIA 2056:2019), SIA 430 → 2023,
+SIA 493 archiviert seit 30.06.2022 (Nachfolgeweg **nicht** belegt), SIA 112/1 → 2017,
+SN EN 206-1 → SN EN 206 2. Aufl., SIA 162/4 archiviert, Energieetikette neu skaliert ab
+01.03.2021 (EnEV SR 730.02).
+
+**Verdichtung:** FAQ **F208-F211** neu (ecoBKP-Ausgabe nennen · Zwei-Stufen-Vollzugskontrolle ·
+Geraetebeschaffung nach 15-Jahre-Gesamtkosten · ueberbindbare oekologische Auflagen). Neuer
+Themenartikel **`oekologische-materialvorgaben-beschaffung`** — schliesst die Beschaffungsluecke
+analog zu `gebaeudetechnik-pflichtenheft` aus Run 122. Gewachsen: **`gebaeudeschadstoffe`** um die
+gewerkspezifischen Fundstellen (Asbest in Elektrospeicherheizgeraeten bis 1977/1984, CV-Belaege
+und PVC-Flex 1970-1982), bewusst als Artikel-Ergaenzung statt als FAQ-Dublette zu F23.
+
+**KB-Defekt behoben:** Die FAQ-Eintraege **F111-F154** (44 Stueck) standen als `###` statt `##`
+und fehlten dadurch in der Gliederung. Normalisiert; F1-F211 nun lueckenlos, keine Duplikate,
+Diff enthaelt ausschliesslich Ueberschriftenzeilen. Nebenbefund: die in Run 122 gemeldete Zahl
+«207 Kernfragen» war die hoechste Nummer, nicht die Anzahl Eintraege (163).
+
+**Zweiter KB-Defekt behoben:** 19 nicht aufloesbare Doppelklammer-Verweise in der bestehenden KB
+gefunden, **12 repariert** (10 Zeilenumbruch-Defekte, 1 ueberfluessige `.md`-Endung, 1 nicht
+nachgezogener Rename `clt-bauteilkatalog` → `clt-bauteilkatalog-stora-enso`). Die verbleibenden
+**7 Ziele existieren wirklich nicht** und sind in `wiki/QUESTIONS.md` protokolliert statt
+erfunden. Ein KB-weiter Backlink-Check gehoert in den Skill `wissenscheck`.
+
+**Dublettenlage im eco-Ordner geklaert:** flache Dateien in `eco/` sind byte-identische Kopien
+der Dateien unter `eco/Nachhaltiges Bauen/**` (Vergleich per `stat -f %z`, nicht per Name); drei
+Faelle sind echte Varianten und duerfen nicht wegdedupliziert werden.
+
+**Stand:** Destillate **239** · FAQ **211 (F1-F211)** · Themenartikel **33** · PL-02 **28 von 182
+destilliert, 154 offen**. Register nachgefuehrt: `destillate/INDEX.md`, `training/pdf-inventar.md`,
+`wiki/BAUHERREN-FAQ.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md` (E-123-1 bis E-123-6 + methodische
+Lehre), `training/curriculum.md` (D94), `raw/_INGESTED.md`. Report:
+`outputs/2026-08-04_energie-run123.md`. 9 von 9 Destillier-Agenten fehlerfrei (lokale
+Arbeitskopie-Methode zum zweiten Mal bestaetigt).
+
+
 ## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — eine Luecke, die keine war; E-122-6 bleibt bewusst offen
 
 - **`wiki/gebaeudetechnik-pflichtenheft.md` berichtigt.** Der Artikel (aus Lauf 122, wenige Minuten

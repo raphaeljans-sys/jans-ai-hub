@@ -34,7 +34,7 @@ typischen Zielkonflikt **Maximalbelegung ↔ Verschattung** sowie den Detailpunk
   unter diese Schwelle (vgl. `[[pv-ertrag-eigenverbrauch-praxis]]`, `[[foerderprogramm-energie-zh-2026]]`).
 - **«Dach voll belegen» ist nicht automatisch optimal:** Module zu nah an Aufbauten kosten ueber
   Verschattung mehr Ertrag/kWp, als die Mehrflaeche bringt — Auslegung schlaegt Maximierung.
-  Deckt sich mit der Tool-Warnung in `[[sonnendach-solarpotenzial-bfe.md]]` (ganze Dachflaeche ≠ real nutzbar).
+  Deckt sich mit der Tool-Warnung in `[[sonnendach-solarpotenzial-bfe]]` (ganze Dachflaeche ≠ real nutzbar).
 - **PV + Gruendach kombinierbar**, aber im Detail planen (Entwaesserung, Substrathoehe unter
   Aufstaenderung, Verschattung durch Aufwuchs).
 - **Kosten/kWp nie aus alten Zahlen zitieren:** CHF 1'600–2'460/kWp ist Stand 2019 — heute

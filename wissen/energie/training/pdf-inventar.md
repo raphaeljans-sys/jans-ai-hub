@@ -202,3 +202,47 @@ danach die eco-bau-Reihe «Merkblaetter nach BKP» (⚠ Dublettenwarnung unten b
 `feedback_background_agent_onedrive_stall`). Run 122 hat die neun PDF deshalb vorher lokal ins
 Scratchpad kopiert und den Agenten den lokalen Pfad gegeben — neun von neun Agenten liefen
 fehlerfrei. Fuer kuenftige PL-02-Blocks als Standardvorgehen empfohlen.
+
+## Nachtrag 2026-08-04 (Run 123): eco-bau-/AHB-Beschaffungskorpus
+
+**Korrektur an der Run-122-Prioritaet:** Der dort als naechster Block angekuendigte
+`Bauteilkatalog_Energie+Oekologie.pdf` ist **kein Fachdokument**. Die Datei hat **1 Seite und
+12 kB**, ihr gesamter Textinhalt lautet «www.bauteilkatalog.ch» — eine Verweisseite auf eine
+Web-Ressource. Sie ist als `[-]` erfasst. **Lehre fuer die Korpusplanung:** vor dem Setzen einer
+Prioritaet Seitenzahl und Dateigroesse pruefen (`pdfinfo`), nicht nur den Dateinamen lesen. Das
+ist die Groessen-Variante derselben Falle, die Run 122 beim Datum getroffen hat.
+
+⚠ **Dublettenlage im eco-Ordner geklaert (Run 123).** Die Warnung aus Run 121 ist praezisiert:
+Die flachen Dateien direkt in `04_Merkblätter/eco/` sind **byte-identische Kopien** der Dateien
+unter `eco/Nachhaltiges Bauen/**` (per `stat -f %z` verglichen). Von 53 PDF im Ordner sind nur
+**rund 30 inhaltlich verschieden**. Drei Faelle sind **echte Varianten**, keine Dubletten, und
+duerfen nicht wegdedupliziert werden: `1.13.C Zielvereinbarungen SIA112_1.pdf` (99'127 B) vs.
+`1.13.C Zielvereinbarungen-SIA112_1.pdf` (57'018 B), `2.33.C Haushaltgeraete_2008.pdf`
+(3'633'285 B) vs. `2.33.C Haushaltgeraete_Professionelle_Beschaffung.pdf` (1'206'301 B), sowie
+`3.12.R MerkblÑtter nach BKP_2008_.pdf` (Ausgabe 2008) vs.
+`3.12.R Oekologisch-Bauen-Merkblaetter nach BKP.pdf` (Ausgabe **September 2006**, Vorgaengerfassung).
+**Methode:** Groessenvergleich statt Namensvergleich — die Dateinamen sind hier unzuverlaessig.
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/eco/...) | KB-Datenstand |
+|---|---|---|
+| [x] `3.12MerkblaetternachBKP_1_2008_ganzer_Inhalt.pdf` (S. 1-29 von 55) | 2026-08-04 (Ausgabe 2008 am Titelblatt verifiziert → `eco-bau-merkblaetter-bkp-2008-huelle`) |
+| [x] `3.12MerkblaetternachBKP_1_2008_ganzer_Inhalt.pdf` (S. 30-55 von 55) | 2026-08-04 (→ `eco-bau-merkblaetter-bkp-2008-technik-ausbau`; Werk damit **vollstaendig** gelesen) |
+| [x] `Nachhaltiges Bauen/01 verbindliche Richtlinien/3.11.R Allg bauoekol Submissionsbed.pdf` | 2026-08-04 (September 2006, vollst. S. 1-3 → `bauoekologische-submissionsbedingungen`) |
+| [x] `3.14Deviskontrolle.pdf` + `3.15Baustellenkontrolle.pdf` (Buendel) | 2026-08-04 (2006, beide vollst. → `eco-bau-devis-und-baustellenkontrolle`) |
+| [x] `1.14OekologischBauen_PlanungProjektierung.pdf` | 2026-08-04 (Stand 2001, vollst. S. 1-6 → `eco-bau-checkliste-planung-projektierung`) |
+| [x] `1.13Zielvereinbarungen_SIA112_1.pdf` | 2026-08-04 (Copyright 2004, vollst. S. 1 → `eco-bau-zielvereinbarungen-sia112-1`) |
+| [x] `1.11Meilenschritte_05_2006.pdf` | 2026-08-04 (**echter Titel «Massstaebe fuer Umwelt- und energiegerechtes Bauen», Mai 2006** → `ahb-zuerich-massstaebe-nachhaltiges-bauen`) |
+| [x] `2.33Haushaltgeraete.pdf` | 2026-08-04 (Januar 2008, 2. rev. Auflage, vollst. S. 1-2 → `haushaltgeraete-effizienz-beschaffung-topten`) |
+| [x] `2.43Solarstromanlagen.pdf` | 2026-08-04 (kein Datum im Dokument, Kontext vor 2009, vollst. S. 1-4 → `eco-bau-checkliste-solarstromanlagen`) |
+| [-] `…/Projektadmin AHB/18-Nachhaltiges Bauen/18.3 …/Bauteilkatalog_Energie+Oekologie.pdf` | 2026-08-04 (geprueft: **1 Seite, 12 kB, nur «www.bauteilkatalog.ch»** — Verweisseite ohne Fachinhalt, nicht destillierbar) |
+| [-] `Nachhaltiges Bauen/01 verbindliche Richtlinien/3.12.R Oekologisch-Bauen-Merkblaetter nach BKP.pdf` | 2026-08-04 (geprueft: **Ausgabe September 2006**, Vorgaengerfassung der destillierten Ausgabe 2008 — bewusst nicht destilliert, um keine ueberholte Fassung doppelt zu fuehren) |
+
+⚠⚠ **Der wichtigste Befund dieses Laufs steht nicht in dieser Tabelle:** Das destillierte Werk
+ist die Ausgabe **2008** eines Instruments, das als **ecoBKP** jaehrlich fortgeschrieben wird und
+heute in der **Ausgabe 2026** vorliegt (Archiv auf ecobau.ch zurueck bis 2014). Die
+Materialempfehlungen wurden auf die Methodik «Baumaterialien ecobau 2025» umgestellt. **Die
+Systematik traegt, die Materialurteile nicht.** Naechste Etappe ist deshalb keine PL-02-Datei,
+sondern das oeffentlich abrufbare ecoBKP 2026 (QUESTIONS E-123-1).
+
+**Stand PL-02:** **28 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122,
+9 in Run 123), **154 offen**.

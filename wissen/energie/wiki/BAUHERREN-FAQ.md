@@ -4196,7 +4196,7 @@ abgestützt; CHF-Kosten bleiben offen, «Grabenkollektor»-Frage endgültig gekl
 
 ---
 
-### F111 — Kann mich die Gemeinde zwingen, mein Gebäude an ein Fernwärme-/Wärmeverbundnetz
+## F111 — Kann mich die Gemeinde zwingen, mein Gebäude an ein Fernwärme-/Wärmeverbundnetz
 anzuschliessen?
 
 Ja, das ist rechtlich möglich, aber an Bedingungen geknüpft. Nach **§ 295 Abs. 2 PBG** (Planungs- und
@@ -4211,7 +4211,7 @@ stammt» — das AWEL konkretisiert dies in der Vollzugspraxis auf **mindestens 
 sondern Vollzugshilfe). Bei den meisten grossen städtischen Fernwärmenetzen ist diese Schwelle erfüllt.
 → `[[anergienetz-kalte-fernwaerme-ch]]`. Datenstand 2026-07-24 (Run 87, amtliche Erlasstexte).
 
-### F112 — Wie viel Fläche brauche ich für einen Erdwärme-Flächenkollektor statt einer Sonde?
+## F112 — Wie viel Fläche brauche ich für einen Erdwärme-Flächenkollektor statt einer Sonde?
 
 Als Richtwert gilt gemäss dem Schweizer Fachmerkblatt T2 der Arbeitsgemeinschaft Wärmepumpen (AWP,
 2007, in der BAFU/FWS-Vollzugshilfe 2009 als Referenz zitiert) im Normalfall (feuchter, sandiger Boden,
@@ -4224,7 +4224,7 @@ Erdsonden); das AWP-Merkblatt bleibt die von der Behörde referenzierte Fachquel
 deutsche VDI 4640. → `[[oberflaechennahe-erdwaerme-flaechenkollektor-erdwaermekorb-zh-sz]]`. Datenstand
 2026-07-24 (Run 87).
 
-### F113 — Warum liest man für Denkmalpflegebeiträge im Kanton Schwyz mal 25 %, mal 30/35/40 % — und
+## F113 — Warum liest man für Denkmalpflegebeiträge im Kanton Schwyz mal 25 %, mal 30/35/40 % — und
 gibt es einen Extra-Zustupf für energetische Sanierungen?
 
 Kein Widerspruch: 25 % ist der Grundbeitrag, den seit 1.10.2024 jedes im Kantonalen Schutzinventar
@@ -4241,7 +4241,7 @@ sonst geltenden energetischen Anforderungen über die Energiefachstelle des Hoch
 Bestätigung der Denkmalpflege. → `[[denkmalschutz-energiesanierung-zh-sz]]`. Datenstand 2026-07-24
 (Run 87, RRB Nr. 70/2024 im Volltext).
 
-### F114 — Darf ich mein Gebäude energetisch sanieren, wenn es im Ortsbildschutz-Perimeter liegt oder
+## F114 — Darf ich mein Gebäude energetisch sanieren, wenn es im Ortsbildschutz-Perimeter liegt oder
 unter Heimatschutz steht (Kt. ZH)?
 
 Grundsätzlich ja: Nach **§ 238 Abs. 4 PBG** (Kt. ZH, Stand 1.7.2026) werden «genügend angepasste
@@ -4256,7 +4256,7 @@ Teilrevision (RRB Nr. 678/2026 vom 2.7.2026, noch nicht in Kraft) soll die Abwä
 zusätzlich präzisieren. → `[[denkmalschutz-energiesanierung-zh-sz]]`. Datenstand 2026-07-24 (Run 87,
 amtlicher Erlasstext).
 
-### F115 — Was kostet ein Blower-Door-Test, und wann ist er Pflicht?
+## F115 — Was kostet ein Blower-Door-Test, und wann ist er Pflicht?
 
 Ein Blower-Door-Test misst mit einem Ventilator in der Haustür die Luftdichtheit der Gebäudehülle
 (Kennwert n50, Luftwechsel/h bei 50 Pa) nach SIA 180. Für ein EFH rechnen Sie mit einem Testpreis **ab
@@ -4268,7 +4268,7 @@ konzept. Richtwerte ohne Label: n50 ≤ 3,0 h⁻¹ bei Fensterlüftung, ≤ 1,5 
 Empfehlung: Test vor dem Schliessen der Beplankung/Innenverkleidung durchführen, damit Leckstellen noch
 günstig nachgebessert werden können. → `[[blower-door-test-kosten-ch]]`. Datenstand 2026-07-24 (Run 87).
 
-### F116 — Ist die Solarpflicht für Dächer über 300 m² im Kanton Zürich schon beschlossen?
+## F116 — Ist die Solarpflicht für Dächer über 300 m² im Kanton Zürich schon beschlossen?
 
 Nein. Der Regierungsrat hat der KEVU (Kommission für Energie, Verkehr und Umwelt) des Kantonsrats am
 26.11.2025 seinen Antrag zur Änderung des Energiegesetzes vorgelegt (**KRNr 6062** Solarpflicht +
@@ -4289,7 +4289,7 @@ Querbezug KB planungsgrundlagen (Formular/Verfahren fuehrend, Wissens-Chef Run 1
 Formulars **EN-104-ZH** «Eigenstromerzeugung» (Nachweisfuehrung, max. 30 kW-Grenze, EVEN) in
 `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`.
 
-### F117 — Gilt eine Solarpflicht auch ausserhalb von Zürich/Schwyz?
+## F117 — Gilt eine Solarpflicht auch ausserhalb von Zürich/Schwyz?
 
 Ja, in den meisten Kantonen — und oft deutlich strenger als das Bundesminimum (Art. 45a EnG: erst
 ab 300 m² Gebäudefläche). Sechs Kantone verlangen unabhängig von der Gebäudegrösse eine
@@ -4315,7 +4315,7 @@ nie vom Bundesminimum ausgehen, sondern immer zuerst die kantonale (und ggf. kom
 am Standort prüfen. → `[[solarpflicht-schweiz-kantone]]`,
 `[[solarpflicht-national-mantelerlass-kantone]]`. Datenstand 2026-07-25 (Run 61).
 
-### F118 — Braucht meine PV-Anlage einen Blitzschutz, und muss ich sie bei der Gebäudeversicherung
+## F118 — Braucht meine PV-Anlage einen Blitzschutz, und muss ich sie bei der Gebäudeversicherung
 melden?
 
 **Kurz für den Bauherrn:** Nein, eine PV-Anlage macht ein Gebäude **nicht automatisch
@@ -4347,7 +4347,7 @@ Brandabschnittsschwellen jetzt ziffern-genau am VKF-Original verifiziert; GVZ-Pr
 VKF-Richtlinie 22-15 selbst — welche Gebäude grundsätzlich blitzschutzpflichtig sind — bleiben offen,
 vor verbindlicher Bauherren-Zusage direkt bei GVZ/VKF verifizieren).
 
-### F119 — Ab wann ist ein Spital oder Pflegeheim grundsätzlich blitzschutzpflichtig (unabhängig
+## F119 — Ab wann ist ein Spital oder Pflegeheim grundsätzlich blitzschutzpflichtig (unabhängig
 von einer PV-Anlage)?
 
 **Kurz für den Bauherrn:** Massgebend ist die VKF-Brandschutzrichtlinie 22-15de «Blitzschutzsysteme»
@@ -4376,7 +4376,7 @@ gelesen, Tabelle wortgetreu zitiert und gegen zwei kantonale Vollzugsdokumente Z
 offen bleibt eine eigene SZ-Vollzugsweisung sowie ob zwischenzeitlich eine neuere Ausgabe als
 01.01.2017 erschienen ist).
 
-### F120 — Erhöht eine PV-Anlage die Gebäudeversicherungsprämie in Kt. Zürich?
+## F120 — Erhöht eine PV-Anlage die Gebäudeversicherungsprämie in Kt. Zürich?
 
 **Kurz für den Bauherrn:** Ja, aber nur **indirekt** — die GVZ kennt **keinen PV- oder
 Batteriespeicher-spezifischen Prämienzuschlag**. Wörtlich von gvz.ch: «Die GVZ setzt auf eine
@@ -4401,7 +4401,7 @@ Mechanik ziffern-genau am Original verifiziert; PV-/Speicher-spezifischer Zuschl
 verifizierter Negativbefund — existiert bei der GVZ nicht; Kt. Schwyz bleibt ebenfalls
 Negativbefund, keine öffentliche Formel auffindbar).
 
-### F121 — Welchen g-Wert soll ich für meine Fenster wählen?
+## F121 — Welchen g-Wert soll ich für meine Fenster wählen?
 
 **Kurz für den Bauherrn:** Es gibt keinen pauschal «richtigen» g-Wert — ein Fenster kann nicht
 gleichzeitig maximal viel Sonnenwärme im Winter hereinlassen (hoher g-Wert nützt der Heizbilanz)
@@ -4428,7 +4428,7 @@ primärquellenbelegt aus bereits established geführten KB-Destillaten; die Glas
 je Himmelsrichtung ohne Storen stützen sich teilweise auf DE-Sekundärquellen, da keine CH-amtliche
 Tabelle dafür gefunden wurde).
 
-### F122 — Wie viel graue Energie (CO2) steckt in einer typischen Holzbau-Aussenwand, und wie
+## F122 — Wie viel graue Energie (CO2) steckt in einer typischen Holzbau-Aussenwand, und wie
 schneidet Holzbau gegenüber Massivbau ab?
 
 **Kurz für den Bauherrn:** Ein reales, KBOB-basiertes Holzbau-Aussenwandelement (Ständerbauweise,
@@ -4456,7 +4456,7 @@ vollem Schichtplan — bauteilkatalog.ch führt die GWP-Spalte nur hinter einem 
 PRO-Abonnement, und die treeze-Studie liefert nur relative Prozentwerte im Text, die absoluten kg-
 Werte stecken in einem nicht textextrahierbaren Balkendiagramm).
 
-### F123 — Muss ich meine PV-Anlage bei der Feuerwehr melden?
+## F123 — Muss ich meine PV-Anlage bei der Feuerwehr melden?
 
 **Kurz für den Bauherrn:** Ja. Unabhängig von der versicherungstechnischen Meldung bei der
 Gebäudeversicherung gilt eine eigenständige **Informationspflicht gegenüber dem lokalen
@@ -4478,7 +4478,7 @@ Datenstand 2026-07-25 (Run 93). Status **established** (VKF-Primärdokument + GV
 ziffern-/wortgenau ausgelesen; offen bleibt, wie das GVZ-Formular formal mit der
 Versicherungsprämie/Wertvermehrungsmeldung verknüpft ist).
 
-### F124 — Regelt die VKF-Richtlinie «Gefährliche Stoffe» Mengenschwellen für Batteriespeicher?
+## F124 — Regelt die VKF-Richtlinie «Gefährliche Stoffe» Mengenschwellen für Batteriespeicher?
 
 **Kurz für den Bauherrn:** Nein. Ein kursierendes Sekundärzitat behauptet, Ziffer 3.5.3 der
 VKF-Richtlinie «Gefährliche Stoffe» (Dok.-Nr. 26-15de) lege Mengenschwellen für
@@ -4498,7 +4498,7 @@ markiert werden, nicht mit einem Verweis auf «Gefährliche Stoffe 3.5.3» begr�
 Datenstand 2026-07-25 (Run 93). Status **established** (Ziffer-3.5.3-Wortlaut primärquellen-
 verifiziert; die Batteriespeicher-Fundstelle selbst bleibt offen).
 
-### F125 — Gibt es eine Schweizer Tabelle für den Glas-g-Wert je Himmelsrichtung?
+## F125 — Gibt es eine Schweizer Tabelle für den Glas-g-Wert je Himmelsrichtung?
 
 **Kurz für den Bauherrn:** Nein — und das ist keine Recherchelücke, sondern methodische Absicht.
 Die Minergie-Anwendungshilfe Gebäudestandards 2025-2 (Kap. 6.3.8, amtsnahe CH-Nachweismethodik)
@@ -4518,7 +4518,7 @@ Datenstand 2026-07-25 (Run 93). Status **established** (zwei Minergie-Primärque
 vollständig gelesen; EN 410 als Messnorm-Bezug bleibt Fachliteratur-Konvention, nicht direkt in
 den gelesenen Minergie-Dokumenten zitiert).
 
-### F126 — Wie viel graue Energie (CO2) verursacht eine Massivbauwand im Vergleich zu Holzbau — mit realen Zahlen statt nur Prozentwerten?
+## F126 — Wie viel graue Energie (CO2) verursacht eine Massivbauwand im Vergleich zu Holzbau — mit realen Zahlen statt nur Prozentwerten?
 
 **Kurz für den Bauherrn:** Eine Backstein-Vollwand (SwissModul, 17,5–25 cm, nur Ziegelmaterial ohne
 Mörtel/Putz/Dämmung) verursacht nach der Schweizer Ziegelindustrie-EPD (Oktober 2017) hochgerechnet
@@ -4541,7 +4541,7 @@ treeze/Stadt-Zürich-Ökobilanz — vollständig via curl+pdftotext gelesen; EPD
 Oktober 2023 abgelaufen, kein Nachfolgedokument gefunden, Grössenordnung/Methodik bleiben
 übertragbar).
 
-### F127 — Regelt die VKF-Richtlinie 22-15 «Blitzschutzsysteme» Mengenschwellen für Batteriespeicher (Heimspeicher, PV-Speicher, Lithium-Ionen-Akkus)?
+## F127 — Regelt die VKF-Richtlinie 22-15 «Blitzschutzsysteme» Mengenschwellen für Batteriespeicher (Heimspeicher, PV-Speicher, Lithium-Ionen-Akkus)?
 
 **Kurz für den Bauherrn:** Nein. Die VKF-Richtlinie 22-15de wurde im Volltext gezielt nach
 «Batterie», «Speicher», «Lithium» und «Akku» durchsucht (8 Seiten, Primärdokument) — **kein
@@ -4569,7 +4569,7 @@ Datenstand 2026-07-25 (Run 94). Status **established** (Negativbefund; alle drei
 Blitzschutz-Dokumente — VKF-Primärquelle + zwei kantonale Vollzugsdokumente — vollständig per
 curl+pdftotext durchsucht, keines enthält eine Batteriespeicher-Bestimmung).
 
-### F128 — Wo stehen die tatsächlichen VKF-Mengenschwellen für Batteriespeicher (Heimspeicher zur PV-Anlage), und was gilt konkret für einen 5–15-kWh-Speicher?
+## F128 — Wo stehen die tatsächlichen VKF-Mengenschwellen für Batteriespeicher (Heimspeicher zur PV-Anlage), und was gilt konkret für einen 5–15-kWh-Speicher?
 
 **Kurz für den Bauherrn:** Gefunden — im **VKF-Brandschutzmerkblatt 2005-15 «Lithium-Ionen-
 Batterien»** (gültig ab 01.06.2021), Kapitel 4.4–4.6, ergänzt durch die neuere **FAQ 2005-01**
@@ -4602,7 +4602,7 @@ Datenstand 2026-07-25 (Run 94). Status **established** (beide VKF-Primärquellen
 merkblatt 2005-15de + FAQ 2005-01 — vollständig via curl+pdftotext gelesen und wörtlich zitiert;
 löst den in Run 93/94 offen geführten Rechercheauftrag ab).
 
-### F129 — Kann ich die Norm SNR 464022 (Blitzschutz-Ausführungsdetails) selbst nachlesen, um zu prüfen, ob mein Blitzschutzsystem normkonform geplant wurde?
+## F129 — Kann ich die Norm SNR 464022 (Blitzschutz-Ausführungsdetails) selbst nachlesen, um zu prüfen, ob mein Blitzschutzsystem normkonform geplant wurde?
 
 **Kurz für den Bauherrn:** Teilweise, aber nur in kleinen Ausschnitten — und die Norm, die frei
 einsehbar war, ist inzwischen ohnehin nicht mehr die aktuelle. SNR 464022 «Blitzschutzsysteme»
@@ -4630,7 +4630,7 @@ Datenstand 2026-07-25 (Run 94). Status **established** für die fünf gelesenen 
 414022:2024 bleiben als offener Punkt (kostenpflichtig, kein freier Auszug gefunden) —
 schliesst den seit Run 91/93 offen geführten Punkt teilweise.
 
-### F130 — Wie nahe an die Grundstücksgrenze darf ich das Aussengerät meiner Wärmepumpe stellen (Baurecht, nicht Lärmschutz)?
+## F130 — Wie nahe an die Grundstücksgrenze darf ich das Aussengerät meiner Wärmepumpe stellen (Baurecht, nicht Lärmschutz)?
 
 **Kurz für den Bauherrn:** Das ist eine andere Frage als der Lärmabstand (dazu bereits
 `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`) — hier geht es um den **baurechtlichen
@@ -4669,15 +4669,16 @@ Rechtsgleichheitsgründen (Art. 8 BV) trotzdem Anspruch auf das Grenzabstandspri
 Kleinbauten — eine übertragbarere Argumentationsfigur als die bisherige «WP = Gebäude»-Analogie.
 Bundesgericht 1C_204/2015 (18.1.2016, Volltext) ergänzt: eine Verkabelung zum Hauptgebäude macht
 die Kleinbaute nicht zu dessen «Bestandteil».
-→ `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`, `[[bvv-zh-meldeverfahren-klimaanlagen-
-waermepumpen]]`, `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`. Datenstand 2026-07-25
+→ `[[waermepumpe-aussengeraet-grenzabstand-zh-sz]]`,
+`[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]`,
+`[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]`. Datenstand 2026-07-25
 (Run 95). Status **emerging** bleibt (ZH-§260-Abs.4-Wortlaut und SZ-§61-Wortlaut amtlich
 verifiziert; die Subsumtion «WP-Aussengerät = Gebäude im PBG-Sinn» selbst ist für ZH/SZ weiterhin
 nicht gerichtlich entschieden — der ZH-Negativbefund ist jetzt durch eigene Volltextsuche bestätigt
 statt nur vermutet, die AG/Bundesgerichts-Stützlinie ist zwei Instanzen tief
 primärquellenverifiziert).
 
-### F131 — Ersetzt die Feuerwehr-Dokumentation meiner PV-Anlage die Meldung an die Gebäudeversicherung (GVZ)?
+## F131 — Ersetzt die Feuerwehr-Dokumentation meiner PV-Anlage die Meldung an die Gebäudeversicherung (GVZ)?
 
 Nein, das sind zwei getrennte Schritte. Die **Versicherungs-Wertvermehrung** melden Sie der GVZ über
 die Formulare «Anmeldung kleine Wertvermehrung» bzw. «Bauzeitversicherung»/«Schätzungsgesuch»
@@ -4695,7 +4696,7 @@ und wäre nur per Direktanfrage (versicherung@gvz.ch) abschliessend zu klären.
 `[[gvz-photovoltaik-melde-versicherungspflicht]]`. Datenstand 25.07.2026 (Run 95). Status
 **established** (Negativbefund, acht unabhängige gvz.ch-Primärquellen konsistent).
 
-### F132 — Gibt es einen Zinsvorteil, wenn ich energieeffizient baue oder saniere («grüne Hypothek»)?
+## F132 — Gibt es einen Zinsvorteil, wenn ich energieeffizient baue oder saniere («grüne Hypothek»)?
 
 Ja, aber freiwillig. Seit 1.1.2023 müssen Banken gemäss der SBVg-Selbstregulierung «Richtlinien für
 Anbieter von Hypotheken zur Förderung der Energieeffizienz» (Juni 2022) bei der Finanzierung
@@ -4725,7 +4726,7 @@ da sich Sätze/Deckel laufend ändern können.
 (SBVg-Rahmenregel, IFZ-2023-Studie im Original und elf Bank-Beispiele lückenlos primärquellenbelegt
 — alle Bank-Websites direkt abgerufen, keines mehr nur sekundärquellig).
 
-### F133 — Lohnt sich eine Wärmerückgewinnung aus dem Duschwasser (Duschrinnen-WRG)?
+## F133 — Lohnt sich eine Wärmerückgewinnung aus dem Duschwasser (Duschrinnen-WRG)?
 
 Ja, für praktisch jede ohnehin neu geplante Dusche. Eine Duschrinne mit integriertem
 Wärmetauscher (Schweizer Marktführer: Joulia, Biel/Bienne) gewinnt **13–46 %** der
@@ -4756,7 +4757,7 @@ Existenz jetzt primärquellig belegt; Kosten-/Amortisationsangabe stammt aber we
 Hersteller selbst und ist nicht unabhängig geprüft, und der genaue SIA-385/2-Rechenweg bleibt
 hinter der kostenpflichtigen Norm verschlossen).
 
-### F134 — Was kostet eine Massivbau-Kompaktfassade (Kalksandstein/Backstein mit Aussendämmung) pro m²?
+## F134 — Was kostet eine Massivbau-Kompaktfassade (Kalksandstein/Backstein mit Aussendämmung) pro m²?
 
 Ein belastbarer amtlicher CHF/m²-Kennwert ist für diesen Wandtyp weiterhin nicht frei verfügbar —
 zwei Schweizer Herstellerdokumente (KSV für Kalksandstein, swisspor für Backstein) liefern zwar
@@ -4779,7 +4780,7 @@ Kostenschätzung oder ein Angebot übernommen werden.
 nur über eine Beratungsfirma mit vermischten Sekundärquellen, kein isolierter Primärbeleg — zwei
 unabhängige Recherchen in Folge ohne Ablösung).
 
-### F135 — Braucht meine Fassadendämmung (EPS/WDVS) einen Brandriegel?
+## F135 — Braucht meine Fassadendämmung (EPS/WDVS) einen Brandriegel?
 
 Kommt auf die Gebäudehöhe an. Bei **Gebäuden geringer Höhe** (bis 11 m Gesamthöhe, typisch
 Einfamilien-/Reihenhaus) verlangt die VKF-Brandschutzrichtlinie 14-15 keinen Brandriegel. Ab
@@ -4812,7 +4813,7 @@ veröffentlicht — bis dahin gilt die oben beschriebene Regelung unverändert.
 VKF-Brandschutzrichtlinie 14-15; BSV-2026-Totalrevision jetzt mit Zieldatum Frühling 2027,
 Inhalt weiterhin offen; CHF-Mehrkosten bestätigter Negativbefund für Schweizer Primärquellen).
 
-### F136 — Gilt für die Lüftung von OP-Sälen und Isolierzimmern im Spital dieselbe Energienachweis-Logik wie für den Rest des Gebäudes?
+## F136 — Gilt für die Lüftung von OP-Sälen und Isolierzimmern im Spital dieselbe Energienachweis-Logik wie für den Rest des Gebäudes?
 
 Nein. Massgebend ist für diese Räume nicht SIA 380/1 allein, sondern die spitalspezifische
 Richtlinie **SWKI VA105-01:2015** «Raumlufttechnische Anlagen in medizinisch genutzten Räumen»
@@ -4859,7 +4860,7 @@ Leseprobe primärquellenbelegt; die konkreten Zahlentabellen für Luftwechsel/Fi
 Druckwerte inkl. Pa-Wert der Überdruckkaskade sind kostenpflichtig und weiterhin nicht
 verifizierbar — zitierte deutsche DIN-1946-4-Werte sind ausdrücklich nur als Analogie markiert).
 
-### F137 — Widerspricht der vorgeschriebene Legionellenschutz beim Warmwasser meiner Wärmepumpe ihrem Effizienzziel?
+## F137 — Widerspricht der vorgeschriebene Legionellenschutz beim Warmwasser meiner Wärmepumpe ihrem Effizienzziel?
 
 Teilweise ja, und die Schweizer Regelwerke lösen das in zwei Stufen, nicht mit einer einzigen
 neuen Pauschalzahl. Die **Grundordnung** (BAG/BLV-Empfehlungen, unverändert seit 2018, sowie die
@@ -4891,7 +4892,7 @@ Kommissionspräsentation der Norm-Autoren mit direkt reproduzierten Normtabellen
 genannte Zahl «60 °C während 6 Stunden monatlich» wurde dabei widerlegt und durch die belegte
 «über 70 °C monatlich, in seltenen Fällen» ersetzt).
 
-### F138 — Lohnt sich Betonkernaktivierung (TABS) für unser Gebäude?
+## F138 — Lohnt sich Betonkernaktivierung (TABS) für unser Gebäude?
 
 Betonkernaktivierung heizt und kühlt über Rohrregister, die in die Rohbaudecke einbetoniert
 werden, bei sehr tiefer Systemtemperatur (Heizen rund 22–32 °C Vorlauf, Kühlen rund 16–20 °C) —
@@ -4914,7 +4915,7 @@ WP-Kopplungslogik über mehrere unabhängige Quellen konvergent belegt; die mass
 für OP-Säle stützt sich auf deutsche Sekundärquellen statt auf eine Schweizer Primärquelle mit
 Spitalbezug).
 
-### F139 — Muss ich alles auf einmal sanieren, oder kann ich etappieren, ohne später Fehlinvestitionen zu machen?
+## F139 — Muss ich alles auf einmal sanieren, oder kann ich etappieren, ohne später Fehlinvestitionen zu machen?
 
 Etappieren ist erlaubt und in der Praxis meist sogar der Regelfall, weil Bauteile nicht
 gleichzeitig das Lebensdauerende erreichen. Entscheidend ist nicht **ob**, sondern **dass** die
@@ -4939,7 +4940,7 @@ Datenstand 25.07.2026 (Run 100 geschärft). Status **established** (die Verbands
 bestätigt die 3-Etappen-Folge (1 Hülle/Dämmung, 2 Heizung/Solarthermie, 3 PV/Speicher/Smart Home)
 im Volltext; kleine Nuance bei der genauen PV-Einordnung bleibt offen).
 
-### F140 — Was bringt eine Dachbegrünung oder ein Baum wirklich gegen die sommerliche Überhitzung — lohnt sich das neben der Klimaanlage?
+## F140 — Was bringt eine Dachbegrünung oder ein Baum wirklich gegen die sommerliche Überhitzung — lohnt sich das neben der Klimaanlage?
 
 Ja, und meist zuerst statt einer Klimaanlage. Am belastbarsten primärquellen-bestätigt (BAFU/ARE-
 Grundlagenbericht «Hitze in Städten», UW-1812-D, 2018, im Volltext ausgewertet) ist der
@@ -4971,7 +4972,7 @@ präzisiert, Kt.-SZ-Lage recherchiert, Tropennächte-Zahl amtlich bei MeteoSchwe
 Kanton-ZH-Werte — Dachbegrünung, Rasenfläche — bleiben ohne eigene Primärstudie hinter der
 Kanton-Website, siehe Destillat).
 
-### F141 — Warum verbraucht mein Neubau mehr Energie als im Energienachweis berechnet — und was kann ich dagegen tun?
+## F141 — Warum verbraucht mein Neubau mehr Energie als im Energienachweis berechnet — und was kann ich dagegen tun?
 
 Der im Energienachweis (SIA 380/1) ausgewiesene Wert ist eine **Vergleichsgrösse fürs
 Baubewilligungsverfahren**, keine verlässliche Prognose des künftigen Betriebskostenverbrauchs.
@@ -4999,7 +5000,7 @@ Schlussbericht 19.11.2019, 145 S. — wurde in Run 102 gefunden und die vier Min
 Kernclaim primärquellenbestätigt; Healthcare-/Pflegebau-spezifische Zahlen sind jetzt separat unter
 F143 behandelt — kein Negativpunkt mehr für diese Frage).
 
-### F142 — Brauche ich für unseren geplanten ZEV/vZEV überall schon Smart Meter, oder müssen wir bis 2027 warten?
+## F142 — Brauche ich für unseren geplanten ZEV/vZEV überall schon Smart Meter, oder müssen wir bis 2027 warten?
 
 Nein, warten müsst Ihr nicht. Der gesetzliche Rollout (StromVV Art. 31e) verpflichtet die
 Netzbetreiber, bis Ende 2027/1.1.2028 landesweit 80 % aller Zähler auf intelligente Messsysteme
@@ -5020,7 +5021,7 @@ Datenstand 25.07.2026 (Run 102, neu). Status **established** (StromVV-Artikel im
 Rollout-Zahlen amtlich BFE-Monitoringbericht 2025; offen bleibt die VNB-Neubau-Default-Praxis, nicht
 amtlich verifizierbar, und das BVGer-Urteil vom 20.06.2025 nur über Sekundärquellen erschlossen).
 
-### F143 — Gibt es Zahlen dazu, wie viel mehr Energie ein Spital oder Pflegeheim im Betrieb tatsächlich verbraucht, als der Energienachweis in der Planung prognostiziert?
+## F143 — Gibt es Zahlen dazu, wie viel mehr Energie ein Spital oder Pflegeheim im Betrieb tatsächlich verbraucht, als der Energienachweis in der Planung prognostiziert?
 
 Nein — anders als bei Wohnbauten (dort belegt: 10 bis 44 % Mehrverbrauch gegenüber dem
 SIA-380/1-Standardbedarf, siehe F141) existiert für Spital/Pflegeheim weder in der Schweiz noch im
@@ -5043,7 +5044,7 @@ Datenstand 25.07.2026 (Run 102, neu). Status **speculative** (sauberer, mehrfach
 belegter Negativbefund zur Kernfrage; die Näherungswerte stammen aus deutschen, nicht Schweizer
 Bestandsbauten und sind nicht auf CH-Klimazone/-Bauvorschriften validiert).
 
-### F144 — Unsere Wärmepumpe steht knapp an der Nachbargrenze — wer prüft das eigentlich, und was passiert, wenn sich der Nachbar trotzdem beschwert?
+## F144 — Unsere Wärmepumpe steht knapp an der Nachbargrenze — wer prüft das eigentlich, und was passiert, wenn sich der Nachbar trotzdem beschwert?
 
 Die Berechnung selbst (Formel, Planungswerte, Fallbeispiel) ist bereits in F65 beantwortet — hier
 geht es um das Verfahren danach. Im Kanton Zürich prüft **keine Behörde** den Lärmschutznachweis
@@ -5077,7 +5078,7 @@ Datenstand 25.07.2026 (neu). Status **emerging** (ZH-Verfahrensangaben primärqu
 zh.ch-Direktfetch; SZ-Zuständigkeit und Einsprache-/Reklamationsablauf teils nur sekundärquellig,
 Kostenfolge einer Nachmessung amtlich nicht verifiziert).
 
-### F145 — Wir bauen mit grossen Fensterflächen (gute Dämmung, viel Glas) — schützt uns das im Sommer nicht eher vor Überhitzung als davor?
+## F145 — Wir bauen mit grossen Fensterflächen (gute Dämmung, viel Glas) — schützt uns das im Sommer nicht eher vor Überhitzung als davor?
 
 **Kurz:** Nein — eine gut gedämmte Gebäudehülle mit grossen, ungeschützten Glasflächen ist im
 Sommer eher **anfälliger** für Überhitzung, nicht weniger: Sie hält die solaren Wärmegewinne durch
@@ -5117,7 +5118,7 @@ Datenstand 25.07.2026 (neu). Status **established** für den Kt.-ZH-Nachweisweg 
 primärquellenbelegt, deckungsgleich mit F88); **emerging** für den MuKEn-2025-Ausblick (Empfehlung,
 noch nicht geltendes Recht) und den Kt.-SZ-Teil (Negativbefund, nicht positiv verifiziert).
 
-### F146 — Braucht meine Wärmepumpe im Kanton Schwyz eine Baubewilligung oder reicht eine Meldung?
+## F146 — Braucht meine Wärmepumpe im Kanton Schwyz eine Baubewilligung oder reicht eine Meldung?
 
 **Kurz:** Das hängt von zwei Faktoren ab: Innen- oder Aussenaufstellung, und Lage innerhalb oder
 ausserhalb der Bauzone. Innerhalb der Bauzone läuft eine innen aufgestellte Wärmepumpe im einfachen
@@ -5148,7 +5149,7 @@ Datenstand 25.07.2026 (neu). Status **established** für die SZ-Verfahrensmatrix
 datierte AfU-Wegleitung mit Ablaufdiagramm); der ZH-Teil des Destillats bleibt **emerging**
 (teils journalistische Sekundärquelle).
 
-### F147 — Warum verweist die neue MuKEn 2025 auf eine andere Norm als die bisherige Stadt-Zürich-Praxis, wenn es um die Frage geht, ob mein Gebäude gekühlt werden muss?
+## F147 — Warum verweist die neue MuKEn 2025 auf eine andere Norm als die bisherige Stadt-Zürich-Praxis, wenn es um die Frage geht, ob mein Gebäude gekühlt werden muss?
 
 **Kurz:** Das ist kein Fehler, sondern ein echter Normenwechsel. Der SIA hat 2022/2025 die
 Zuständigkeiten neu verteilt: Die Frage «ist Kühlung notwendig oder erwünscht» steht neu in der
@@ -5183,7 +5184,7 @@ exakter Zifferninhalt SIA 380/2 Ziff. 3.2 kostenpflichtig, nicht eingesehen). �
 SIA 382/1:2025 ersetzt — Korrektur dort ausserhalb des Scopes dieses Energie-Laufs, dem
 normen-Loop zur Nachführung zu übergeben.
 
-### F148 — Gibt es Vergleichskennwerte, wieviel Energie ein Spital überhaupt braucht?
+## F148 — Gibt es Vergleichskennwerte, wieviel Energie ein Spital überhaupt braucht?
 
 **Kurz:** Es gibt keine Schweizer Kennwerte-Datenbank für Spitäler, aber eine deutsche VDI-
 Richtlinie (VDI 3807 Blatt 2) liefert nach Bettenzahl gestaffelte Vergleichswerte: grob 20'000 bis
@@ -5211,7 +5212,7 @@ coaching-klimaschutz.de, Abschnitt 3.11 (Sekundärquelle, gegenbestätigend). Re
 Datenstand 25.07.2026 (neu). Status **emerging** (zwei sich bestätigende deutsche Sekundärquellen,
 VDI-Primärtext kostenpflichtig, nicht beschafft; DE-Herkunft, nicht 1:1 auf CH übertragbar).
 
-### F149 — Kann ich den Einbau eines Smart Meters in meiner Liegenschaft ablehnen?
+## F149 — Kann ich den Einbau eines Smart Meters in meiner Liegenschaft ablehnen?
 
 **Kurz:** Nein. Das Bundesverwaltungsgericht hat mit Urteil A-484/2024 vom 20.06.2025 explizit
 bestätigt, dass Endverbraucher den Einbau und Betrieb eines intelligenten Messsystems dulden
@@ -5242,7 +5243,7 @@ gelesen 25.07.2026, PDF-Spiegel bvger.weblaw.ch). Ergänzend StromVV Art. 8a dec
 Datenstand 25.07.2026 (neu). Status **established** (amtlicher, vollständig gelesener
 Gerichtsentscheid der Fachinstanz).
 
-### F150 — Wer bezahlt eine Lärm-Nachmessung, wenn ein Nachbar sich nach Inbetriebnahme meiner Wärmepumpe beschwert?
+## F150 — Wer bezahlt eine Lärm-Nachmessung, wenn ein Nachbar sich nach Inbetriebnahme meiner Wärmepumpe beschwert?
 
 **Kurz:** Eine explizite amtliche Kostenregel gibt es weder für Zürich noch für Schwyz. Bundesrechtlich
 gilt das Verursacherprinzip (Art. 2 USG) und die Gebührenermächtigung für Kontrollen (Art. 48 USG),
@@ -5269,7 +5270,7 @@ Kt. Schwyz vom 7.3.2023 (in Kraft 1.7.2023); FWS-FAQ (fws.ch). Gelesen 25.07.202
 Status **emerging** (Bundesnormen und SZ-Tarifposten primärquellenbelegt, Kostenverteilungsregel
 selbst eine markierte eigene Ableitung).
 
-### F151 — Muss ich für mein Bauprojekt eine bestimmte Gebäudeautomations-Klasse (BACS) nachweisen?
+## F151 — Muss ich für mein Bauprojekt eine bestimmte Gebäudeautomations-Klasse (BACS) nachweisen?
 
 **Kurz:** Nach heutigem Kenntnisstand nein — eine explizite BACS-Klasse (A/B/C/D nach SIA 386.110
 bzw. der internationalen Nachfolgenorm SN EN ISO 52120-1) wird in der Schweiz nicht generell
@@ -5297,7 +5298,7 @@ Status **emerging** (EU/DE-Fachliteratur zu den vier Klassen gut belegt, zentral
 Aussagen — genauer MuKEn-Wortlaut, aktuelle SIA-386.110-Normfaktoren, Minergie-Bonus — nicht am
 Original verifiziert).
 
-### F152 — Braucht eine grössere Erdsondenanlage im Mehrfamilienhaus eine «Regeneration»?
+## F152 — Braucht eine grössere Erdsondenanlage im Mehrfamilienhaus eine «Regeneration»?
 
 **Kurz:** Bei mehr als 4 Sonden ja — dann braucht es ohnehin eine Simulationsrechnung nach SIA 384/6,
 und Freecooling (passive Regeneration über die sommerliche Gebäudekühlung) ist meist die günstigste
@@ -5332,7 +5333,7 @@ Ersteinschätzung KEIN Bild-PDF — beide jetzt im Volltext gelesen; geothermisc
 nur sekundärzitiert, durchgerechnetes MFH-Beispiel [2×300 m Sonden, 40 % Regeneration → 6 °C statt
 −1,25 °C nach 50 Jahren] neu).
 
-### F153 — Muss ich bei Gebäudeautomation (Smart Building) eine bestimmte Effizienzklasse einhalten?
+## F153 — Muss ich bei Gebäudeautomation (Smart Building) eine bestimmte Effizienzklasse einhalten?
 
 **Kurz:** Es gibt keine generelle Schweizer Pflicht zu einer bestimmten BACS-Effizienzklasse (A-D).
 Für grössere Nichtwohn-Neubauten (ab 2'000 m² Energiebezugsfläche) gilt aber eine **Monitoring-Pflicht**
@@ -5366,7 +5367,7 @@ Datenstand 25.07.2026 (Run 106).
 MuKEn-Monitoringpflicht, kein Minergie-Bonus — über amtliche/primärnahe Quellen konvergent belegt;
 Nichtwohngebäude-Effizienzfaktoren und CH-Investitionskosten bleiben offen).
 
-### F154 — Reichen meine alten Heizkörper für eine Wärmepumpe, oder muss ich auf Fussbodenheizung umbauen?
+## F154 — Reichen meine alten Heizkörper für eine Wärmepumpe, oder muss ich auf Fussbodenheizung umbauen?
 
 **Kurz:** In den meisten Altbauten ja — WPSM-zertifizierte Wärmepumpen sind laut Reglement
 ausdrücklich auf Vorlauftemperaturen bis 55–60 °C ausgelegt, also für den Radiatoren-Altbaufall

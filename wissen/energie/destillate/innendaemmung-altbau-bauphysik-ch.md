@@ -611,8 +611,7 @@ ab CHF 10'000) · [[naturdaemmstoffe-kennwerte-sommerhitzeschutz]] (Speichermass
   `[[denkmalschutz-energiesanierung-zh-sz]]` (dort primärquellen-verifiziert).
 - **BFE-Wärmebrückenkatalog** (Bundesamt für Energie, ausgearbeitet durch Infomind GmbH Zürich,
   Copyright 2002, Bestellnummer 805.159 d, Grundlage SIA 380/1:2001), Gruppe 2.1 «Geschossdecke»,
-  S. 40-41, Details 2.1-I1/2.1-I2 — primärquellenverifiziert über `[[waermebrueckenkatalog-bfe-
-  geschossdecke-kellerdecke]]` (2026-07-13, Bildextraktion PDF); am 2026-07-18 zusätzlich über den
+  S. 40-41, Details 2.1-I1/2.1-I2 — primärquellenverifiziert über `[[waermebrueckenkatalog-bfe-geschossdecke-kellerdecke]]` (2026-07-13, Bildextraktion PDF); am 2026-07-18 zusätzlich über den
   Mirror **Energie Zentralschweiz** (energie-zentralschweiz.ch/media/124/download, per curl+
   pdftotext im Volltext gelesen) zahlengleich gegengeprüft.
 - ⚠ **DEUTSCHLAND, nur als Analogie gekennzeichnet:** dena/Gebäudeforum Klimaneutrale Gebäude,

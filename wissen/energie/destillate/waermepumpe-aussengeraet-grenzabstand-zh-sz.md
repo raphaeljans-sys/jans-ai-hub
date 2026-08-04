@@ -253,8 +253,7 @@ waere anwendbar) - ein Risiko, das die bisherige Praxisempfehlung im Destillat n
    (§ 2a BVV ZH, Volumen ≤ 2 m³) muss den materiellen Grenzabstand einhalten - beide Pruefungen
    getrennt durchfuehren.
 4. **Cercle-Bruit-Laermabstand und baurechtlicher Grenzabstand sind zwei verschiedene Massstaebe:**
-   der bereits bestehende Laermschutz-Mindestabstand aus `[[cerclebruit-vollzugshilfe-waermepumpen-
-   laermschutz]]` betrifft die Schallimmission gegenueber laermempfindlichen Raeumen (Fenster von
+   der bereits bestehende Laermschutz-Mindestabstand aus `[[cerclebruit-vollzugshilfe-waermepumpen-laermschutz]]` betrifft die Schallimmission gegenueber laermempfindlichen Raeumen (Fenster von
    Wohn-/Schlafzimmern), nicht die Grundstuecksgrenze - beide Anforderungen koennen gleichzeitig
    gelten und schliessen sich nicht gegenseitig aus, sind aber rechtlich unabhaengig zu pruefen.
 5. **Bei grenznaher Platzierung grosser/mehrteiliger Aussengeraete (MFH, Kaskadenanlagen):**

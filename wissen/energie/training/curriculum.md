@@ -2090,3 +2090,28 @@ bisher stark auf Nachweise ausgerichtet war, eine echte Luecke.
 Bauoekologie), danach die eco-bau-Reihe «Merkblaetter nach BKP» (an die BKP-Systematik
 anschlussfaehig, ⚠ Dublettenwarnung im `pdf-inventar.md` beachten). PL-02: 19 von 182
 destilliert, 163 offen.
+
+## D94 — Beschaffungs- und Vollzugsstrang (Run 123, 04.08.2026)
+
+Der eco-bau-/AHB-Block ist erschlossen: neun Destillate aus zehn PDF, dazu zwei geprueft und
+bewusst **nicht** destilliert (Bauteilkatalog = reine Link-Seite; Merkblaetter-Ausgabe 2006 =
+Vorgaengerfassung der destillierten Ausgabe 2008).
+
+**Korrektur an der in Run 122 gesetzten Prioritaet:** Der dort als naechster Block angekuendigte
+`Bauteilkatalog_Energie+Oekologie.pdf` ist **kein Dokument**, sondern eine einseitige Verweisseite
+auf www.bauteilkatalog.ch (12 kB). Die Prioritaet ist deshalb direkt auf die eco-bau-Reihe
+uebergegangen. Lehre fuer die Korpusplanung: **vor der Prioritaetensetzung Seitenzahl und
+Dateigroesse pruefen** — ein Titel im Ordner ist noch kein Inhalt.
+
+**Naechste Etappe, in dieser Reihenfolge:**
+1. **ecoBKP 2026 von ecobau.ch ziehen und destillieren** (E-123-1). Das ist kein PL-02-Eintrag,
+   sondern eine oeffentliche Web-Quelle — und der einzige Weg, die 18 Jahre alte Materialbasis
+   dieses Laufs auf den geltenden Stand zu heben. Hoechster Bauherren-Nutzen pro Aufwand.
+2. Restlicher **Minergie-Teilkorpus** `06_Richtlinien/Minergie/` (Prioritaet 1, 79 PDF, davon 10
+   in Run 121 destilliert).
+3. **eco-bau-Reihe Restbestand** (Innenraumklima, Schadstoffe in Bauten, Gebaeudescreening,
+   Recyclingbeton KBOB, Wassersparen, Pflanzen am Bau) — ⚠ Dublettenwarnung beachten, die flachen
+   Dateien in `eco/` sind byte-identisch mit denen unter `eco/Nachhaltiges Bauen/`.
+
+PL-02: **28 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122, 9 in
+Run 123), **154 offen**.

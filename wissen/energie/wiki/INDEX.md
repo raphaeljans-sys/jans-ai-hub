@@ -469,3 +469,26 @@ W/m²-Werte enthaelt (die erwaehnte EN-12464-1-Uebersichtstabelle ist nicht Teil
 Elektroanlagen liefert **keinen** Zugewinn zu PV, Submetering und Ladeinfrastruktur — diese
 Themen kommen im Dokument von 2008 gar nicht vor. RL9 verweist fuer BACS-Klassen und
 MuKEn-Monitoringpflicht bewusst auf `[[sia-386-bacs-gebaeudeautomation]]`, statt zu doppeln.
+
+## Run 123 (04.08.2026) — der Beschaffungs- und Vollzugsstrang
+
+Neun Destillate aus dem **eco-bau-/AHB-Korpus (PL-02)**, Quellen 2001-2008. Neuer Themenartikel
+`[[oekologische-materialvorgaben-beschaffung]]` — er schliesst dieselbe Art Luecke wie
+`[[gebaeudetechnik-pflichtenheft]]` in Run 122: Die KB war **nachweisorientiert** (U-Werte,
+Heizwaermebedarf, Minergie, EVEN) und konnte nicht beantworten, **wie eine oekologische Absicht
+in den Vertrag und von dort ins gebaute Objekt kommt**. Die Antwort sind vier Stationen
+(Zielvereinbarung → ecoBKP → LV-Position → Devis-/Baustellenkontrolle) mit einer klar
+identifizierten Bruchstelle: der Uebersetzung ins Leistungsverzeichnis.
+
+Neue FAQ: **F208** (worauf stuetzen sich Materialvorgaben — und welche Ausgabe gilt),
+**F209** (wie wird aus einer Vorgabe eine gebaute Leistung), **F210** (Geraetebeschaffung nach
+15-Jahre-Gesamtkosten), **F211** (welche oekologischen Auflagen sind ueberbindbar).
+Gewachsen: `[[gebaeudeschadstoffe]]` um die **gewerkspezifischen Fundstellen** (Asbest in
+Elektrospeicherheizgeraeten bis 1977/1984, CV-Belaege/PVC-Flex 1970-1982) — mit ausdruecklicher
+Rangfolge, dass fuer das ZH-Verfahren weiterhin der AWEL-Stand 2023 gilt.
+
+**Der wichtigste Befund ist ein Aktualitaetsbefund:** Die destillierte Quelle ist die Ausgabe
+**2008** eines Werks, das als **ecoBKP** jaehrlich fortgeschrieben wird und heute in der
+**Ausgabe 2026** vorliegt. Die **Systematik** traegt, die **Materialurteile** nicht — sie wurden
+auf die Methodik «Baumaterialien ecobau 2025» umgestellt. Entsprechend ist der Anschluss an die
+aktuelle Ausgabe als **E-123-1** die vorderste offene Frage der KB.

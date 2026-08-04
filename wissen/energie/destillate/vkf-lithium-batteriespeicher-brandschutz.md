@@ -78,8 +78,7 @@ Brandabschnitt können bereits HL II auslösen.
 
 ### 4. FAQ 2005-01 — die aktuellere, LFP-spezifische Lockerung (Beschluss ABSV 09.09.2025)
 Auslöser der FAQ: Das BSM 2005-15 gilt formal nur für «Lithium-Ionen-Batterien», während der
-Markt laut derselben FAQ und laut dem bestehenden Destillat `[[batteriespeicher-heimspeicher-pv-
-ch]]` (Swissolar: **~80 % der CH-Installationen**) inzwischen von **Lithium-Eisenphosphat (LFP,
+Markt laut derselben FAQ und laut dem bestehenden Destillat `[[batteriespeicher-heimspeicher-pv-ch]]` (Swissolar: **~80 % der CH-Installationen**) inzwischen von **Lithium-Eisenphosphat (LFP,
 LiFePO4)** dominiert wird — einer sichereren, kobaltfreien Chemie. Die FAQ liefert dafür einen
 eigenen, **vereinfachten und zweistufigen** Lösungsansatz «in Analogie zum BSM 2005-15»:
 

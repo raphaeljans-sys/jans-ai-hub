@@ -1592,15 +1592,13 @@ Nachfolgenorm SN 414022:2024 (Kaufentscheid bei Raphael); B1-Konsolidierung + SI
   Bonus (0,300 %) exakt bestätigt; zwei neue Produkte gefunden — Urner KB Minergiehypothek (0,5 %
   einmalig, Deckel CHF 200k EFH/500k MFH, 7 J.) + Energie-Sanierungshypothek (0,5 %, ohne GEAK/
   Minergie-Schwelle, an UKB-Objektfinanzierung gebunden), Thurgauer KB Energie-Hypothek (0,50 Pp.,
-  Minergie/GEAK A/A/A bzw. GEAK Plus A/B/C, Deckel CHF 200k/400k) → `[[gruene-hypotheken-
-  klimahypotheken-ch]]` bleibt established, jetzt elf statt acht Bankprodukte lückenlos
+  Minergie/GEAK A/A/A bzw. GEAK Plus A/B/C, Deckel CHF 200k/400k) → `[[gruene-hypotheken-klimahypotheken-ch]]` bleibt established, jetzt elf statt acht Bankprodukte lückenlos
   primärquellenbelegt, FAQ F132 geschärft. IFZ-2024/2025-Original weiterhin nur per hub.hslu.ch-
   Formular zugänglich, keine 2025er-Ausgabe gefunden (bestätigte Bestandsgrenze, kein Rückschritt).
 - [x] **Massivbau-CHF/m²-Kennwert: Näherung gefunden, kein voller Primärbeleg** ✓ 2026-07-25:
   AKTIVA AG (Immobilien-Bewertung/CREM-Beratung) nennt auf ihrer Benchmark-Seite CHF 280.-/m² für
   eine Kompaktfassade (BKP 22), Quelle laut Seite «Schätzerhandbuch + Wüest Partner + eigene
-  Erhebungen» — Einzelquellen nicht getrennt, kein Ausgabejahr → `[[massivbau-bauteildatenblatt-
-  ksv-swisspor]]` erhält den Kennwert als NEUEN emerging-Baustein (Schichtaufbau/U-Wert bleibt
+  Erhebungen» — Einzelquellen nicht getrennt, kein Ausgabejahr → `[[massivbau-bauteildatenblatt-ksv-swisspor]]` erhält den Kennwert als NEUEN emerging-Baustein (Schichtaufbau/U-Wert bleibt
   established), FAQ **F134** neu. bauteilkatalog.ch PRO-Zugang weiterhin nicht manuell verifiziert
   (kein echter Login verfügbar) — bleibt offen.
 - [x] **Duschwasser-WRG: SIA 385/2:2025 + GEAK-Mechanik primärquellig verifiziert** ✓ 2026-07-25:
@@ -1614,8 +1612,7 @@ Nachfolgenorm SN 414022:2024 (Kaufentscheid bei Raphael); B1-Konsolidierung + SI
 - [x] **Neues Thema freie Wahl: WDVS-Brandriegel (VKF-Brandschutz Fassadendämmung)** ✓ 2026-07-25:
   EPS-Verband-Schweiz-Fachdokument, von der TKB-VKF geprüft und anerkannt, liefert die komplette
   Brandriegel-Kernanforderung (RF1, Schmelzpunkt ≥1'000 °C, ≥0.2 m Höhe, je Geschoss, ab 11 m
-  Gesamthöhe) direkt aus der rechtsverbindlichen VKF-Richtlinie 14-15 → `[[wdvs-brandriegel-
-  fassadendaemmung-vkf]]` (neu, established), FAQ **F135** neu, neues Themenfeld.
+  Gesamthöhe) direkt aus der rechtsverbindlichen VKF-Richtlinie 14-15 → `[[wdvs-brandriegel-fassadendaemmung-vkf]]` (neu, established), FAQ **F135** neu, neues Themenfeld.
 
 **Register nachgeführt:** `destillate/INDEX.md` (vier Zeilen neu/ergänzt), `wiki/INDEX.md` (drei
 Zeilen geschärft, eine neu, FAQ-Zählerzeile auf F135 aktualisiert), `wiki/BAUHERREN-FAQ.md`
@@ -1701,8 +1698,7 @@ Zeilen geschärft, eine neu, FAQ-Zählerzeile auf F136 aktualisiert), `wiki/BAUH
   angezweifelt, 330'146 Hüft-/134'368 Knieprothesen) — beide Destillate bidirektional verlinkt,
   formaler Merge als spätere bewusste Bereinigung zurückgestellt (Rule `wissens-bibliothekar`:
   Merge = Rückfrage). FAQ **F136 geschärft**, erster eigenständiger Wiki-Artikel
-  `wiki/reinraum-op-klimatisierung.md`. **Sterilisationsenergie** (`[[sterilisationsenergie-
-  medizintechnik-prozessenergie-ch]]`) war dagegen eine echte, bestätigte Lücke: USZ-Klima-
+  `wiki/reinraum-op-klimatisierung.md`. **Sterilisationsenergie** (`[[sterilisationsenergie-medizintechnik-prozessenergie-ch]]`) war dagegen eine echte, bestätigte Lücke: USZ-Klima-
   klassifikation ZSVA (Raumtyp 73, Produktionsräume Klasse 3/Sterillager Klasse 4) und
   SGSV/Swissmedic-Prozessparameter (134 °C/≥18 Min./800-l-Kammerschwelle) primärquellenbelegt,
   aber ehrlicher Negativbefund zur Energiequantifizierung (kein kWh/Zyklus-Wert, kein
@@ -1751,8 +1747,7 @@ Beobachtung umgestellt. Alle drei Agenten bearbeiten Punkt 5 (neue Themen, Web-P
   statt klassischer Raumtemperaturregelung; Entscheidung fällt im Rohbau (einbetoniert, nicht
   korrigierbar); geeignet für grosse Gebäude mit stabiler Nutzung (Büro/Schule/Pflegebereich),
   ungeeignet für lastvariable Räume wie OP-Säle (nur deutsche Sekundärquellen für die
-  Nicht-Eignungsaussage, keine CH-Primärquelle mit Spitalbezug) → `[[betonkernaktivierung-tabs-
-  energieeffizienz]]` (neu, emerging), Backlinks in `[[waermepumpe-systemvergleich]]`,
+  Nicht-Eignungsaussage, keine CH-Primärquelle mit Spitalbezug) → `[[betonkernaktivierung-tabs-energieeffizienz]]` (neu, emerging), Backlinks in `[[waermepumpe-systemvergleich]]`,
   `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]`,
   `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` ergänzt, FAQ **F138** neu. Offen:
   SIA-384.354:2021-Volltext, TABS-Control-Primärforschung (Tödtli et al. 2009, Wiley-Paywall),
@@ -1804,8 +1799,7 @@ geschrieben haben (Lehre aus Run 97).
   differenziert nach OP-Saal vs. Bettenstation beurteilt; neue CH-Primärquelle zur allgemeinen
   TABS-Regelungsproblematik ergänzt (Gwerder/Tödtli/Lehmann/Dorer, Applied Energy 86, 2009, Volltext
   gelesen); unverifizierter SWKI-VA105-01-Hinweis (RLT-Präzisionsklimatisierung OP) ausdrücklich als
-  nicht bestätigt markiert (Rule `identifikatoren-verifizieren`) → `[[betonkernaktivierung-tabs-
-  energieeffizienz]]` bleibt emerging, FAQ F138 geschärft.
+  nicht bestätigt markiert (Rule `identifikatoren-verifizieren`) → `[[betonkernaktivierung-tabs-energieeffizienz]]` bleibt emerging, FAQ F138 geschärft.
 - [x] **Punkt 5 (Sanierungsfahrplan-Primärquelle)** ✓ 2026-07-25: Positivbefund — Broschüre
   «Königsweg e+» (Verband Gebäudehülle Schweiz, TK Solar/Energie, V1.2 April 2020, 16 S. vollständig
   gelesen) bestätigt die 3-Etappen-Folge wörtlich; bisherige Migrol-Blog-Paraphrase damit
@@ -2873,3 +2867,70 @@ aus der Datei zitieren, nicht zusammenfassen** — sonst prüft der Refuter die 
 einen 18 Jahre alten Korpus als fünf Jahre alt ein. Das Ausgabedatum steht am Titelblatt und
 wird dort gelesen. Der Fehler war folgenreich, weil er über die Alterseinstufung entscheidet und
 damit darüber, ob ein Destillat eine Aktualitätsprüfung braucht.
+
+## Run 123 (04.08.2026) — eco-bau-/AHB-Beschaffungskorpus
+
+- **E-123-1 — Inhalt der geltenden ecoBKP-Ausgabe 2026 ist unbekannt.** Die KB kennt das
+  Instrument nur in der Ausgabe **2008**; aktuell ist **2026**, und die Materialempfehlungen
+  wurden zwischenzeitlich auf die Methodik «Baumaterialien ecobau 2025» umgestellt (Ausgabe 2026
+  zusaetzlich mit Rueckbaubarkeits-Empfehlungen in ecoBKP 213, 214, 215, 216, 228, 230, 240, 244,
+  250, 258, 273). **Das ist die groesste offene Luecke dieses Laufs** und zugleich die am
+  leichtesten schliessbare: das PDF ist auf ecobau.ch oeffentlich abrufbar. Bis dahin sind alle
+  Materialurteile der KB in diesem Feld historisch → `[[oekologische-materialvorgaben-beschaffung]]`.
+- **E-123-2 — Nachfolgeweg fuer SIA 493 ungeklaert.** Die Norm «Deklaration oekologischer
+  Merkmale von Bauprodukten» ist seit **30.06.2022 archiviert** (an shop.sia.ch verifiziert). Ein
+  1:1-Nachfolger ist **nicht belegt**; der naheliegende Weg ueber EPD nach EN 15804+A2 bzw. die
+  KBOB-Oekobilanzdaten ist nur sekundaerquellengestuetzt und wurde bewusst **nicht** als Tatsache
+  gesetzt. Betrifft jede Devis-Klausel «Deklaration nach SIA 493». Uebergabe an Skill `normen`.
+- **E-123-3 — Ablösung von SIA 162/4 (Recyclingbeton) nur sekundaerquellengestuetzt.** Die
+  Archivierung per **31.12.2009** ist an der SIA-Shop-Statusanzeige belegt; dass das SIA-Merkblatt
+  **MB 2030** an ihre Stelle tritt, ist es nicht. Formulierung in den Destillaten bewusst
+  vorsichtig («faktisch abgeloest durch»). Uebergabe an Skill `normen`.
+- **E-123-4 — ecoBKP ↔ ecoDevis nicht destilliert.** Das Verhaeltnis der beiden
+  eco-bau-Instrumente (ecoBKP folgt der BKP-Systematik, ecoDevis der NPK-Systematik) ist nur
+  benannt. Fuer den Skill `ausschreibung` waere ecoDevis das direkt einschlaegige Werkzeug.
+- **E-123-5 — BKP-Nummern des Altkorpus nicht gegen BKP 2017 abgeglichen.** Die Destillate
+  verwenden die BKP-Gliederung Stand 2008. Rule `bkp-2017-referenz.md` verlangt den Abgleich vor
+  jeder Verwendung in einem aktuellen Devis. Betrifft beide BKP-Destillate.
+- **E-123-6 — Ausgabestand von SIA 118 in den Kontroll-Checklisten offen.** Die Quelle zitiert
+  SIA 118 fuer die Vertragshierarchie ohne Ausgabejahr. Uebergabe an Skill `normen`.
+
+**Methodische Lehre Run 123 — ein Agentenbefund ist ein Verdacht, kein Vollzug (bestaetigt).**
+Zwei der neun Destillier-Agenten meldeten uebereinstimmend einen «Datierungswiderspruch»
+(«Ausgabe 2008» vs. «Ausgabe 09/2006»), einer meldete die VeVA als «per 2016 durch die VVEA
+abgeloest». **Beide Befunde hielten der Gegenpruefung am Original nicht stand:** Die Zeichenfolge
+«Ausgabe 2008» steht auf 54 von 55 Seiten, «09/2006» auf genau einer — der Impressum-Seite, die
+zugleich eine Mitgliederliste «Stand Oktober 2007» traegt, also ein stehengebliebener
+Produktionsrest der Vorgaengerausgabe. Und die VVEA ersetzte per 01.01.2016 nicht die VeVA,
+sondern die **TVA**; die VeVA (SR 814.610) ist unveraendert in Kraft. **Beide Male haette der
+ungeprueft uebernommene Agentenbefund die KB verschlechtert** — einmal durch eine erfundene
+Unsicherheit, einmal durch eine falsche Rechtsauskunft. Dass mehrere Agenten dasselbe melden,
+erhoeht die Wahrscheinlichkeit nicht: sie lesen dieselbe Stelle mit derselben Erwartung.
+Zusatzbeobachtung: aehnlich klingende Abkuerzungen (VeVA/VVEA/TVA) sind ein Angriffspunkt fuer
+genau diesen Fehler.
+
+## Backlink-Hygiene (Befund Run 123, 04.08.2026)
+
+Beim Pruefen der neuen Backlinks fiel ein **bestehender** Defekt auf: 19 nicht aufloesbare
+Doppelklammer-Verweise in der KB. **12 davon sind repariert** — 10 waren reine **Zeilenumbruch-Defekte**
+(der Linkname war ueber zwei Zeilen gebrochen, das Ziel existierte), dazu ein Link mit
+ueberfluessiger `.md`-Endung und ein nicht nachgezogener Rename
+(`clt-bauteilkatalog` → `clt-bauteilkatalog-stora-enso`).
+
+**Sieben Ziele existieren wirklich nicht.** Sie werden hier protokolliert und **nicht erfunden**:
+
+| Fehlendes Ziel | Referenziert in | Vermutliche Natur |
+|---|---|---|
+| `behoerden-vorabklaerung` | `urbane-hitzeinseln-kuehlstrategien-aussenraum` | **Skill**, kein KB-Artikel — Verweisform falsch, gehoert als Skill-Nennung formuliert |
+| `abstaende-und-hoehen` | `waermepumpe-aussengeraet-grenzabstand-zh-sz` | vermutlich Artikel der KB **baurecht**, nicht `energie` — Cross-KB-Link ohne KB-Praefix |
+| `healthcare-energie` | `foerderprogramm-energie-zh-2026` | geplanter, nie angelegter Themenartikel |
+| `energie-baueingabe-zusatzformulare` | `seewasser-waermenutzung-aquathermie-zh-sz` | geplanter, nie angelegter Themenartikel |
+| `sia-2024-nutzungsdaten-gesundheitsbau` | `QUESTIONS.md` | geplantes Destillat |
+| `recht-norm-regenwasser-gewaesserraum-zh` | `regenwasserbewirtschaftung-versickerung-zh` | geplantes Destillat |
+| `u-wert-berechnung-bauteilekatalog-neubauten` | `massivbau-bauteildatenblatt-ksv-swisspor` | Zielname weicht vom tatsaechlichen Destillat ab, richtiger Name noch zu bestimmen |
+
+**Lehre:** Die haeufigste Ursache ist mechanisch, nicht inhaltlich — ein Doppelklammer-Verweis
+darf **nie ueber einen Zeilenumbruch** laufen, sonst zerfaellt der Link stillschweigend. Beim Umbrechen langer
+Belegzeilen ist der Link als Ganzes auf die naechste Zeile zu nehmen. Ein KB-weiter
+Backlink-Check gehoert in den Skill `wissenscheck`; er ist in wenigen Sekunden maschinell
+durchfuehrbar.

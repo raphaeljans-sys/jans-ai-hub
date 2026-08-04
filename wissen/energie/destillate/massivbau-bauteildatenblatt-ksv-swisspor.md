@@ -276,4 +276,4 @@ nicht gefunden — der kostenpflichtige CRB-OAK bzw. das Schweizerische Schätze
   (kostenpflichtig) oder ein physisches Exemplar des Schweizerischen Schätzerhandbuchs
   (SVKG/SEK/SVIT), um den AKTIVA-AG-Wert zu isolieren/bestätigen.
 
-**Backlinks:** [[u-wert-berechnung-bauteilekatalog-neubauten]] · [[clt-bauteilkatalog]]
+**Backlinks:** [[u-wert-berechnung-bauteilekatalog-neubauten]] · [[clt-bauteilkatalog-stora-enso]]

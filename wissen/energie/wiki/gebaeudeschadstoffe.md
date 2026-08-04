@@ -64,3 +64,36 @@ im Bestand → `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`.
 
 ## Bezug
 - Bauherren-Antwort: `[[BAUHERREN-FAQ]]` F23. Quelle/Details: `[[gebaeudeschadstoffe-checkliste-zh]]`.
+
+## Gewerkspezifische Fundstellen und Verbotsdaten (Ergänzung Run 123, 04.08.2026)
+
+Die obige Tabelle beantwortet die Frage «**ab welchem Baujahr** muss ich abklären?». Die
+eco-bau-Merkblätter nach BKP (Ausgabe 2008) ergänzen dazu die Frage «**wo genau** schaue ich
+nach?» — sie ordnen die Schadstoffe den einzelnen Gewerken zu. Das ist für die Begehung
+brauchbar, weil es aus einem Baujahr eine Suchliste macht.
+
+| Schadstoff | Einsatzzeitraum / Verbot laut Quelle | Gewerkspezifische Fundstelle |
+|---|---|---|
+| **Asbest in Elektrospeicherheizgeräten** | Baujahr **bis 1977**, einzelne Fabrikate **bis 1984** | BKP 230 Elektroanlagen — Meldepflicht bei Ersatz/Rückbau |
+| **Asbest in Bodenbelägen** | schwergewichtig **1970-1982** produziert | BKP 281 — **CV-(Cushioned-Vinyl-)Beläge «Novilon»** und **PVC-Flex-Platten** |
+| **PCB in Fugendichtungsmassen** | Einsatz **1955 bis zirka 1975**; Gehalt **> 50 ppm = Sonderabfall** | BKP 226/227 Fassade, Fugen |
+| **PCP / Karbolineum** (imprägnierte Hölzer) | Einsatz schwergewichtig **1950-1975**, **verboten seit 1989** | Holzbauteile — Entsorgung KVA oder Zementwerk |
+| **FCKW / HFCKW** | Produkte **seit dem Jahr 2000 verboten** | Kühlschränke, Wärmepumpen, Kältemaschinen — Rücknahmepflicht Fachhandel (VREG) |
+| **PAK / Teer** | kein Datum in der Quelle | teerhaltige Parkettkleber, Asphaltplatten, Teerkork, Eisenbahnschwellen |
+
+**Gegenprobe zur AWEL-Tabelle oben:** Die beiden Quellen widersprechen sich nicht, sie bestätigen
+sich gegenseitig. Der AWEL-Stichjahr «PCB in Fugen/Anstrichen **vor 1976**» und der von eco-bau
+genannte Einsatzzeitraum «**1955 bis zirka 1975**» beschreiben denselben Sachverhalt aus zwei
+Richtungen — die Verwaltungsschwelle und die Produktionsrealität. Das erhöht das Vertrauen in
+beide Angaben.
+
+⚠ **Rangfolge bei Abweichung:** Für das **Verfahren im Kanton Zürich** (wer muss was wann
+abklären) gilt ausschliesslich der **AWEL-Stand 2023** aus dem oberen Teil dieses Artikels. Die
+Angaben hier stammen aus einer Quelle von **2008** und dienen der **Suche vor Ort**, nicht der
+Verfahrensbestimmung. Die zitierten Rechtsgrundlagen der Altquelle (ChemRRV, LRV Anhang 5.3.2 b,
+VREG) sind **nicht** auf ihren heutigen Stand geprüft.
+
+**Quelle:** Verein eco-bau c/o KBOB, «Ökologisch Bauen — Merkblätter nach BKP», Ausgabe 2008,
+BKP 112 (Abbrüche/Rückbau/Entsorgung), BKP 230 und BKP 281 →
+`[[eco-bau-merkblaetter-bkp-2008-huelle]]`, `[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`.
+Beschaffungs-/Kontrollkette → `[[oekologische-materialvorgaben-beschaffung]]`.
