@@ -619,3 +619,39 @@ stichprobenartige Zone vor dem sequenziell dichten Bereich; danach `rj@` **28.02
 (Restluecke der Batches 32/33). Der Dokument-Strang laeuft davon unabhaengig weiter (Empfehlung des
 Fidelity-Laufs 03.08.). **Beim Abgleich zwingend die neue Reihenfolge einhalten: Batch-Register
 zuerst, Tages-Grep erst danach.**
+
+## Gold-Verbrauch Fidelity 04.08.2026 — dritter Dokument-Lauf + Mail-Retrieval-Test
+
+| Dokument / Mail | Gattung | verbraucht durch |
+|---|---|---|
+| `AR - 02 Wettbewerbe/2102 WB Muttenz/00_Abgabe/05 MEMORY STICK/PATIO IM PIANO NOBILE.pdf` | **Wettbewerbs-Erlaeuterungsbericht** auf dem Abgabeplan, Februar 2022 (2. Rang) | Fidelity 260804 (Gold B) |
+| `rj@` Sent Item 01.12.2025 09:09, «Bauentscheid Wartstrasse 8 – Naechste Schritte bis zur Baufreigabe» | Verfahrens-/Auflagen-Statusmail, Sie | **KEIN Neuverbrauch** — bereits dreifach destilliert (Mailbatch 21, Fidelity 260704, Fidelity 260718) |
+
+**Gold B, Echo- und Autorschaftspruefung: teils Gold, teils fremd — im selben Dokument.**
+Raphaels Bloecke (LEKTUERE DES GEVIERTS · STAEDTEBAU · FREIRAUM · FASSADE) tragen dichte
+Tippfehler («grossmaesstaebliche», «Stappelung», «niedriegen», «hetrogene», «erfuehr»,
+«stuffenpyramide», «bewust», «proakiv», «perlekettige», «umfangreihe», «Strauchplfanzung»,
+«geometischen», «Nieveauversatz», «zeitemaesse», «Betula pentula» statt *pendula*), rohes `**`
+null, Anfuehrungszeichen durchgehend „…". **Ausgeschlossen als fremde Autorschaft:** die vier
+Fachplanerspalten der Seite 4 (STATIK & KONSTRUKTION · BRANDSCHUTZ · ENERGIE & NACHHALTIGKEIT ·
+RAUMAKUSTIK & SCHALLSCHUTZ) und der Schulhaus-/Turnhalle-Block auf Seite 3 — fehlerfrei, fremde
+Satzmelodie, im Projekt als eigene DOCX von INGENI (Tragwerk) und Makiol Wiederkehr (Brandschutz)
+vorhanden. Diese vierte Falle ist neu in `wissen/twin/CLAUDE.md` verankert.
+
+**Zum Auswahlfehler bei Gold A (Methodik, nicht Bestand):** die Reihenfolge aus Batch 86
+(Batch-Register zuerst, Tages-Grep danach) wurde eingehalten und hat trotzdem versagt, weil das
+Pruefskript den zweiten Suchbegriff leer liess und damit das ISO-Format nie abfragte — die Mail
+steht im Wiki als `2025-12-01`. **Neue Zusatzregel: jeder Abdeckungs-Grep braucht neben der
+Kontrollbegriff-Gegenprobe (Nonsens-Term muss 0 liefern) einen POSITIVTEST (ein garantiert
+vorhandener Term muss > 0 liefern).** Liefert der 0, ist das Werkzeug defekt, nicht der Bestand.
+Zweite Lehre: die dritte Stufe (Marker-Kandidaten einzeln greppen) nur mit Begriffen fahren, die
+den Inhalt der Mail ausmachen — ein Grep nach «Kaempfer» oder «GSZ Baumerhalt» haette die
+Dreifach-Destillation sofort gezeigt.
+
+**Naechstes Dokument-Fenster:** die Publikationstexte `2102 WB Muttenz/08_Publikationen/01 Texte/`
+(KAPLA · GRUEZE · WALDRAP WIDEN, je als PDF vorhanden) — Projektbeschriebe fuer Fachzeitschriften,
+eigene Gattung, im Wiki unbelegt. Danach `2205 WB Guggerbach/05_Texte/Guggerbach.docx`, aber
+**mit Autorschaftsvorbehalt**: der Ordner fuehrt Unterordner «GT» und «RJ», das Projekt lief als
+ARGE. **Bekannt fremd, nicht anfassen:** `2102 WB Muttenz/08_Publikationen/01 Texte/Jury-Text/`,
+`.../12 Tragwerk/`, `.../11 Brandschutz …/`, `2206 WB Schoental/09 Dokumente/Text 1_Jury.docx`,
+`2408 WB BIWAK/08 Publikationen/01_Texte/250123 Chat GPT.docx`.

@@ -418,28 +418,21 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   unbekanntes/generisches Postfach: triviale Service-/Koordinations-/Technik-Bitte→namenloses
   «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
   Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. Die
-  triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die höfliche Kurzbitte
-  «Bitte veranlassen Sie …» + FG+Block, OHNE Begründung/Dank-im-Voraus/Service-Satz (die
-  «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Behörden-Bitte, nicht dem
-  technischen Ein-Zeiler). Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
+  triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die Kurzbitte «Bitte
+  veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz (die
+  «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Bitte, nicht dem Ein-Zeiler).
+  Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
   Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; «Darf ich … bitten» stets
-  mit Begründung. **Im Eigendokument über eine Person in der Drittform «Herr <Nachname>»
-  (belegt Fidelity 260801, authentisch):** das Präsentationsskript führt den Auftraggeber als
-  «Sitzung vom 7.2.2024 mit Herrn Bopp», obwohl derselbe Kontakt in der Korrespondenz als
-  Du-Kontakt geführt wird — die Anrede-Stufe der Mail wandert **nicht** in die Drittnennung
-  eines internen Dokuments. (Einzelbeleg 2024; der Du-Status zu diesem Zeitpunkt ist nicht
-  gesichert → [[QUESTIONS]] 260801 #1.)
-  **Zweiter, unabhängiger Beleg in einer anderen Gattung (Fidelity 260803, Protokoll
-  24.08.2023):** das Sitzungsprotokoll kennt keine Anrede und keinen Gruss; die anwesende
-  Person steht in der Teilnehmer-Rubrik als **«Vorname Nachname · Kürzel · Firmenkürzel»**
-  («Lukas Hüsser LH WP», «Raphael Jans RJ JANS»), im Text erscheint sie mit vollem Namen in der
-  Drittform («Das Projekt wurde Lukas Hüsser … vorgestellt»), und die eigene Stimme kommt nur
-  als Kürzel vor («Anmerkung RJ»). Die Regel gilt damit nicht nur fürs Skript, sondern für das
-  Eigendokument überhaupt; offen bleibt allein die Sie-/Du-Teilfrage aus 260801 #1.
+  mit Begründung. **Im Eigendokument steht die Person in der Drittform, nie in der Mail-Anrede
+  (belegt Fidelity 260801 Skript + 260803 Protokoll, zwei Gattungen):** die Anrede-Stufe der Mail
+  wandert **nicht** in die Drittnennung eines eigenen Dokuments — dort «Herr <Nachname>» bzw.
+  voller Name, in der Teilnehmer-Rubrik «Vorname Nachname · Kürzel · Firmenkürzel», die eigene
+  Stimme nur als Kürzel («Anmerkung RJ»). Offen bleibt die Sie-/Du-Teilfrage ([[QUESTIONS]]
+  260801 #1).
 - **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» — auch in der gewichtigen
   Verfahrensmail (belegte Drift Fidelity 260804):** das Gewicht des Anliegens hebt die Stufe bei
   **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht** bei der Privatkundin im warmen

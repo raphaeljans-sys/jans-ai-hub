@@ -4,6 +4,54 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 04.08.2026 — twin-fidelity-review: Retrieval-Test (Mail) + erstes Wettbewerbs-Gold
+
+**Fidelity 48** (Stimme 49 · Denken 46 · Haltung 58 · Beziehung 48 · Fachsignatur 37 ·
+Arbeitsweise 51), tiefster Wert der Serie — misst aber anderes als die Vorlaeufe. Report:
+`outputs/2026-08-04_fidelity.md`.
+
+**Gold A war eine Fehlwahl mit Erkenntniswert.** Die Bauentscheid-Statusmail an die Bauherrin
+(01.12.2025) ist bereits dreifach destilliert (Mailbatch 21, Fidelity 260704, Fidelity 260718).
+Die Auswahl scheiterte nicht an der Methodik-Regel aus Batch 86, sondern an ihrer Ausfuehrung:
+mein Pruefskript liess den zweiten Suchbegriff leer und fragte das ISO-Format nie ab, worauf der
+Tages-Grep fuer den 01.12.2025 null meldete — im Wiki steht die Mail als `2025-12-01`. Damit
+wurde der Lauf zum **reinen Retrieval-Test**, und der faellt schlecht aus: jeder verfehlte Marker
+stand im Wiki, die meisten woertlich im kompilierten Do-Block (Anrede «Guten Tag Frau Hofer»,
+nummerierte Liste vs. «–»-Liste, kein Service-Satz, die namentliche Amtskette). Dritter
+unabhaengiger Beleg fuer QUESTIONS 260729 #3.
+
+**Gold B ist echtes Neuland:** Wettbewerbsabgabe «PATIO IM PIANO NOBILE» (Erweiterung
+Sekundarschule Hinterzweien, Muttenz, Februar 2022, 2. Rang) — Erlaeuterungsbericht auf dem
+Abgabeplan, im Wiki mit **null** Belegen vertreten (Kontrollbegriff-Gegenprobe 0). Erfuellt
+Empfehlung 3 des Vorlaufs. Neue Marker: `stimme` Untergattung (c) Erlaeuterungsbericht
+(VERSAL-Kapitelzeile, thesenhafter Projekttitel der im Text eingeloest wird, ausformulierte Prosa
+statt Geruest, kein Schlusskapitel); `denken` die entwerferische Ableitungskette Ortslektuere →
+nummerierte Zielliste → Konsequenz mit den beiden woertlichen Scharnieren; `fachsignatur`
+Wettbewerbs-Vokabular mit Massen (HBV-Decke, Baubuche, Raster 4.75 m, Lisenen/Pilaster,
+Schmetterlingsanordnung) + neues Don't gegen erfundene Materialien; `arbeitsweise` Fachplanertexte
+als eigene VERSAL-Spalten + Nummerierung als **Sach**regel statt Gattungsregel;
+`beziehungsregister` Warnung vor dem Hochschrauben bei der Privatbauherrin. Guillemet-Klausel auf
+**drei** Belege gehoben (2021 «…», 2022 und 2023 „…").
+
+**Vierte Autorschaftsfalle in `CLAUDE.md` verankert:** zwei Haende in EINEM Dokument, die fremde
+erkennbar an der **Fehlerfreiheit im Umfeld eigener Rohheit**. Raphaels Bloecke tragen mehrere
+Tippfehler pro Absatz, die Fachplanerspalten daneben sind fehlerfrei und tragen fremde
+Satzmelodie — ohne rohes `**`, ohne Trennstrich, ohne Dritte-Person-Sicht. Konsequenz:
+Fehlerdichte **je Block** vergleichen, nicht je Dokument. Ohne diesen Schritt waeren vier
+Fachplanertexte als Raphaels Fachsignatur ins Wiki gewandert.
+
+**Wachstums-Riegel zum ersten Mal ausgeloest.** `build_dna.py` brach ab (Auto-Block waere
+36'835 B, Grenze 30'000 B). Entschieden wurde **verdichten, nicht anheben** — die Grenze
+anzuheben behaelt der Riegel Raphael vor. 6'866 B ausgelagert, **ohne Regelverlust**: Beleg-Prosa
+in den Artikel-Fliesstext, zwei neue Abschnitte («Wettbewerbs-Fachsignatur» in `fachsignatur`,
+«Ortslektuere als Entwurfsgrundlage» in `denken`). Ergebnis 29'969 B mit **31 B Reserve** — der
+naechste Lauf bricht wieder ab. Entscheid-Vorlage als Empfehlung 5 im Report. Nebenbefund: die
+Riegel-Meldung ist textlich veraltet (sie spricht von Fixkosten jeder Session, obwohl das Script
+seit dem 03.08. korrekt in die **nicht** importierte `jans-dna-facetten.md` schreibt).
+
+`wiki/QUESTIONS.md` um Runde 260804 (5 Fragen) ergaenzt; `rules/jans-dna-facetten.md` neu
+kompiliert; `raw/_INGESTED.md` um den Gold-Verbrauch ergaenzt.
+
 ## 04.08.2026 — twin-mail-training Batch 86: Luecken-Sweep `rj@` 06.–13.03.2026
 
 **Zwei Methodik-Korrekturen vor der Lektuere.** (1) Die Empfehlung aus Batch 85 («ab 13.03. ist der

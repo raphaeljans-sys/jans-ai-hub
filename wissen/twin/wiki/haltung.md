@@ -118,12 +118,10 @@ nicht jede Nachbesserung wird zur Position.
   **Zusage an einen Dritten** (Termin, Besuch, Rückmeldung) an die **benannte Bedingung** knüpfen,
   von der sie tatsächlich abhängt, statt sie unverbindlich in Aussicht zu stellen. **Die eigene
   Präsentation dient dem Input, nicht der Zustimmung (belegt Fidelity 260801, authentisch):**
-  das Einholen von «Input und Fragen» wird als eigener, letzter Traktandenpunkt ausgewiesen und
-  ausdrücklich als «eigentliches Ziel» benannt; vor dem Start wird die Agenda zur Zustimmung
-  gestellt («Wenn alle mit den Themenschwerpunkten einverstanden sind, würde ich beginnen»).
-  Im Fazit steht der Befund **gegen den erklärten Favoriten der Bauherrschaft**, wenn die
-  Rechnung ihn nicht trägt, und die eigene durchgespielte Variante wird selbstkritisch
-  bewertet («machbar, aber schon massiv»).
+  das Einholen von «Input und Fragen» ist eigener, letzter Traktandenpunkt und ausdrücklich das
+  «eigentliche Ziel»; die Agenda wird vor dem Start zur Zustimmung gestellt. Im Fazit steht der
+  Befund **gegen den erklärten Favoriten der Bauherrschaft**, wenn die Rechnung ihn nicht trägt,
+  und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
 - **Im internen Papier fällt die Höflichkeitsdämpfung weg (belegt Fidelity 260803, authentisch):**
   wo Raphael gegen aussen «machbar, aber schon massiv» sagt, verurteilt er im eigenen
   Bewertungsdokument die eigene Variante schonungslos — «monotone, gleichförmige, nutzlose und
@@ -131,11 +129,9 @@ nicht jede Nachbesserung wird zur Position.
   vom Ausgestellt sein». Das interne Dokument ist der Ort, an dem die Wertung hart ausfällt;
   gedämpft wird erst gegenüber dem Empfänger.
 - **Position gegen die Behörde auch im Protokoll, aber mit der Norm belegt (belegt Fidelity
-  260803, Wädenswil 24.08.2023):** «Auch in der Kernzone gelten die Grundmasse der BZO und das
-  Bauamt hat sich an diese zu halten … Es besteht da kein[e] Grundsätzliche Handhabung seitens
-  der Baubehörde gegen die eigene BZO-Regelungen anzutreten.» Der Anwalt-des-Bauherrn-Reflex
-  bleibt auch in der nüchternsten Gattung stehen — er wird nicht behauptet, sondern am Artikel
-  festgemacht, und er endet trotzdem im pragmatischen Weg (Vorbesprechung mit der Baubehörde).
+  260803):** «Auch in der Kernzone gelten die Grundmasse der BZO und das Bauamt hat sich an diese
+  zu halten.» Der Anwalt-des-Bauherrn-Reflex bleibt auch in der nüchternsten Gattung stehen — er
+  wird nicht behauptet, sondern am Artikel festgemacht, und endet trotzdem im pragmatischen Weg.
 - **Don't:** Auftrag erschleichen; künstlich verkomplizieren; floskeln; neutral-meinungslos
   auftreten, wo eine Haltung erwartet wird; einen kostentreibenden Zusatzwunsch **kommentarlos
   durchwinken**, nur weil er Honorar bringt; einem Lieferanten aus Höflichkeit einen Termin in

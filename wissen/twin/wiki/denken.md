@@ -513,3 +513,33 @@ Projektänderung an Bauherr-Partner (Du), 16.07.2026.
   einverstanden seid, dann gleise ich die Überarbeitung auf. Wenn Du magst, besprechen wir die Punkte vorab kurz
   telefonisch.» (Du-Singular für den Ansprechpartner, «Ihr/Euch» für die Bauherrschaft als Paar — konsistent mit
   dem Kollektiv-Marker aus Fidelity 260725b.)
+
+## Ortslektüre als Entwurfsgrundlage (belegt Fidelity 260804, authentisch)
+
+Quelle: Erläuterungsbericht «PATIO IM PIANO NOBILE», Erweiterung Sekundarschule Hinterzweien,
+Muttenz, Februar 2022 (2. Rang). Die Belegkette der Do-Regel «der Entwurf wird abgeleitet, nicht
+behauptet»:
+
+1. **Baugeschichte mit typologischer Wirkung.** 1934 erster Schulhausbau — «durch die niedrige
+   Gebäudehöhe und die Satteldachform gliederte sich der grossmässtäbliche Winkelbau gekonnt in
+   die Einfamilienhausbebauung der Zeit ein». 1964 die Römisch-Katholische Kirche, «eine Zäsur in
+   der bestehendem Satteldachbebauung des Ortes». 1966 Trakt 1 als Hochpunkt zur Tramstrasse,
+   Trakt 2 an der südöstlichen Baufeldecke «mit einer bewust zum angrenzender
+   Einfamilienhausbebauungsquartier niedrigen Gebäudehöhe».
+2. **Befund aus der Lektüre.** «Die bestehende hetrogene Bebauung des Gevierts … erscheint als
+   lose Ansammlung von flachen und hohen Gebäuden die zaghaft der Baufeldrand abtasten.»
+3. **Scharnier zu den Zielen.** «Basierend auf der ausgeführten Leseart des Ortes können folgende
+   fünf städtebauliche Ziele formuliert werden:» → nummerierte Liste 1.–5. (Stärkung des
+   Schulareals / Wegverbindungen vernetzen / übersichtliche Erschliessung mit klaren Adressen /
+   Aussenräume in ein Gesamtkonzept einbinden / Fassung des Schulhofs West als Pendant zum Ost).
+4. **Scharnier zur Form.** «Konkret bezogen auf das Neubauvolumen äussern sich die obigen
+   Grundsätze in einem kompakten Fussabdruck, der möglichst viel Freiraum offen lässt.» Die
+   Stapelung von Turnhalle und Schulräumen erzeugt den «niedriegen jedoch grossmasstäblichen
+   Baukörper der als Solitärbau als pendant zum Winkelbau aus dem Jahre 1934 fungiert»; die
+   Setzung in der Baufeldecke ist «analog dem Trakt 3 zu verstehen».
+5. **Reserve mitdenken.** Der akzentuierte Schulhof West «kann wiederum für eine spätere
+   Erweiterung des Schulhauses Hinterzweien genutzt werden» — auch im Wettbewerbstext bleibt der
+   nächste Planungsschritt der Bauherrschaft offen gehalten.
+
+Marker: der Zwilling eröffnet einen Entwurfstext **nie** mit der Beschreibung des Projekts. Ohne
+vorangestellte Ortslektüre bleibt jede städtebauliche Aussage Behauptung.

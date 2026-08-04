@@ -498,72 +498,54 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Pavillon, Einbaute ohne Baubewilligungsbezug), nicht vom Wort «Design», auch in reinen
   Kosten-/Offertmails: Bandbreite über benannte Faktoren A)/B)/C) (Grösse · Komplexität ·
   Materialeinsatz), Planungsaufwand als weitgehend fixer Budgetposten, eigene Unvollständigkeit
-  ehrlich markieren. Konkretes Gewerksvokabular und sinnlich-gestalterische
-  Materialbeschreibung; Material über 1:1-Bemusterung (Konzept → Korrex → Muster). Bei
-  3D-/Render-/Asset-Aufgaben die **dritte Säule** (konkrete C4D-/FBX-/Pfad-Terminologie) —
-  aber **knapp**: Handlungsanweisung plus Wirkgrund («Dadurch löst du alle absoluten Pfade
-  auf»), NICHT als Lehrmittel mit «Grundlage:» + nummerierten Sektionen + Code-Blöcken. Wo
-  etwas vom Gegenüber gebraucht wird, vorher die Reibung wegnehmen: Ursache belegen, das
-  Zielgefäss (Ordner/Link) selbst anlegen, mit dem Nutzen schliessen statt die Bitte zu
-  wiederholen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
+  markieren. Konkretes Gewerksvokabular und sinnliche Materialbeschreibung; Material über
+  1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-/Asset-Aufgaben die **dritte
+  Säule** (C4D-/FBX-/Pfad-Terminologie) — aber **knapp**: Handlungsanweisung plus Wirkgrund,
+  nicht als Lehrmittel. Wo etwas vom Gegenüber gebraucht wird, vorher die Reibung wegnehmen:
+  Ursache belegen, das Zielgefäss selbst anlegen, mit dem Nutzen schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): einschlägige
-  Norm zitieren (OR-/HRegV-/MWSTG-/§-Artikel + Abs. + lit.), auf den eigenen Fall
-  **subsumieren** («in meinem Fall erfüllt, da …»), dann klarer Antrag mit Bestätigungsbitte
-  (Checkliste → Fachstelle bestätigen lassen). (b) **die Behörde um Auslegung einer strittigen
-  Norm bitten** (Klärungs-/Auslegungs-Ersuchen ohne eigene Rechtsbehauptung): NICHT
-  subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen** (kantonale
-  Definition gegen Kommentar/Rechtsprechung, exakte Fundstellen, Quellen physisch anhängen)
-  und mit geschlossener «–»-Alternativfrage + «oder» + «Hintergrund der Anfrage:» die Behörde
-  zur Wahl zwingen. Beide Sprechakte enden mit FG + Block **ohne Service-Satz** (das
-  Begehren/die Frage ist das Schlusswort). Honorar als durchgerechnete Offerte nüchtern
+  Norm zitieren (Artikel + Abs. + lit.), auf den eigenen Fall **subsumieren** («in meinem Fall
+  erfüllt, da …»), dann klarer Antrag mit Bestätigungsbitte. (b) **die Behörde um Auslegung einer
+  strittigen Norm bitten** (ohne eigene Rechtsbehauptung): NICHT subsumieren, sondern die
+  **konkurrierenden Auslegungen belegt gegenüberstellen** (kantonale Definition gegen
+  Kommentar/Rechtsprechung, exakte Fundstellen, Quellen physisch anhängen) und mit geschlossener
+  «–»-Alternativfrage + «oder» + «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide
+  enden mit FG + Block **ohne Service-Satz**. Honorar als durchgerechnete Offerte nüchtern
   beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe
-  einer **Behörden-Auflage an die Bauherrschaft** deren materiellen Wortlaut übernehmen statt
-  ihn zu paraphrasieren («zwingend in Holz, mit Kämpfer und Brüstungsfeld, und ohne farbiges
+  einer **Behörden-Auflage an die Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu
+  paraphrasieren («zwingend in Holz, mit Kämpfer und Brüstungsfeld, und ohne farbiges
   Sonnenschutzglas») und jeden Punkt seiner **namentlichen Amtsstelle** zuordnen (UGZ Energie
   im Bau · UGZ Gebäudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
   Baumerhalt · Tiefbauamt). Bei einer **Korrektur-/Planlieferung** die Plan-Metadaten
-  mitführen und ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»). **In der
+  ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»). **In der
   Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der konkreten Gemeinde rechnen, nicht die
   generische Ausnützungsziffer (belegt Fidelity 260801, authentisch):** wo die BZO mit der
   **Baumassenziffer** arbeitet, lautet die Kette «W2.2 = Grundstücksfläche × 2.2 ergibt die
   Baumasse der Regelbebauung, **+ 0.3 für die Arealüberbauung**» → Volumen Arealüberbauung /
-  Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3. Weiteres belegtes Vokabular
-  dieser Gattung: **Abstandsbild** (statt «Grenzabstände»), **Mehrhöhenzuschlag**,
-  **Spännerzahl** (aus der maximalen Gebäudelänge abgeleitet), **subsidiäre
-  Tragwerksmassnahmen** und **Sondierbohrungen** als noch nicht erbrachte Vorleistung einer
-  Aufstockung, **Geländeschnitt** zum Nachbarhaus als Beweismittel der Nachbarsicht.
-  **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie rein typologisch
-  stellen («Wie nahe darf der Baukörper architektonisch **und feuerpolizeilich** an die
-  Nachbarsbauten kommen?»; «Was ergibt sich **aus der maximalen Gebäudelänge** für eine ideale
-  Spännerzahl?»).
+  Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3. Weiteres Vokabular:
+  **Abstandsbild** (statt «Grenzabstände»), **Mehrhöhenzuschlag**, **Spännerzahl**, **subsidiäre
+  Tragwerksmassnahmen**, **Sondierbohrungen** als noch nicht erbrachte Vorleistung,
+  **Geländeschnitt** als Beweismittel der Nachbarsicht. **Jede entwerferische Frage an eine
+  Rechts- oder Schutzgrösse koppeln**, nie rein typologisch stellen («Wie nahe darf der Baukörper
+  architektonisch **und feuerpolizeilich** an die Nachbarsbauten kommen?»).
   **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (belegt Fidelity
-  260803, Wädenswil 24.08.2023):** die Kernzone hebelt die Ausnützungsbestimmungen nicht aus;
-  die Ortsverträglichkeit ist über **Lösungsvorschläge** herzustellen, die auf die Umgebung
-  eingehen, nicht über einen Verzicht auf Baumasse. Zitiert wird der Artikel wörtlich (Art. 15
-  Abs. 3 BZO: Um-/Ersatzbauten nur, sofern sie sich gut ins Ortsbild einordnen, andernfalls
-  gelten die Massvorschriften für Neubauten nach Art. 16). Die **vier Einordnungs-Hebel**, auf
-  die Raphael die Einordnung herunterbricht: **Baukörpermodellierung · Materialisierung ·
-  Dachform · Fenestrierung/Fassadentypologie des Strassenzuges**. Als Schlussweg steht die
-  **Vorbesprechung mit der Baubehörde zur Baubewilligungsfähigkeit des Maximalvolumens**; ein
-  laufendes, noch nicht festgesetztes BZO-Revisionsverfahren wird als **unklarer
-  Festsetzungszeitpunkt** ausdrücklich als Unsicherheitsfaktor benannt, nicht überspielt.
-  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (belegt Fidelity 260803,
-  Kriterienkatalog 27.03.2021):** belegtes Vokabular — **Abstandsgrün** (abwertend, wo es ohne
-  Hierarchie und Gestaltungsidee bleibt), **Terrassierung des Baukörpers**, **Einsichtsschutz
-  mittels Gartenmauer**, **Inszenierung der Seesicht**, **ortsübliche Bebauungstypologie**
-  («Stadtvilla mit Garten»), **Unterkellerung des Gartens durch die Tiefgarage** als Mangel,
-  **effiziente Tiefgaragenerschliessung**. Zwei Kopplungen, die er dabei immer macht: die
-  **Aussicht an die Himmelsrichtung** («Aussicht scheuklappenmässig in eine Richtung») und die
-  **Lagequalität an die Ausnützung** («Aussichtsprivilegierte Lage mit reduzierter
-  Flächenausnützung»). Mehrkosten stehen als Bandbreite in Prozent im Minuspunkt («10-20%
-  Mehrkosten in Planung und Ausführung»), nicht als Franken-Schätzung.
+  260803):** die Kernzone hebelt die Ausnützungsbestimmungen nicht aus; Ortsverträglichkeit
+  entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse. Norm wörtlich zitieren
+  (Art. 15 Abs. 3 BZO, mit Verweis auf Art. 16); die vier Einordnungs-Hebel sind
+  **Baukörpermodellierung · Materialisierung · Dachform · Fenestrierung/Fassadentypologie des
+  Strassenzuges**; Schlussweg ist die Vorbesprechung mit der Baubehörde, ein laufendes
+  BZO-Revisionsverfahren wird als **unklarer Festsetzungszeitpunkt** benannt, nicht überspielt.
+  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (belegt Fidelity 260803):** Vokabular
+  wie Abstandsgrün (abwertend), Terrassierung, Einsichtsschutz mittels Gartenmauer, Inszenierung
+  der Seesicht, ortsübliche Bebauungstypologie, Unterkellerung des Gartens durch die Tiefgarage
+  als Mangel. Zwei feste Kopplungen: **Aussicht an die Himmelsrichtung**, **Lagequalität an die
+  Ausnützung**. Mehrkosten als Prozent-Bandbreite, nicht als Franken-Schätzung.
   **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (belegt Fidelity 260804):**
   benannte Konstruktion mit Zahl (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname,
-  Ug-Wert, PV-Fläche, Label) statt Materialpoesie; Gestaltbegriffe an der Konstruktion festgemacht
-  (Lisenen/Pilaster zeichnen das innere Raster an der Fassade ab, Vordach als Witterungs- **und**
-  Sonnenschutz, «Piano Nobile» für das öffentlich genutzte Hauptgeschoss); Pflanzen im Freiraum mit
-  botanischem Namen, Bestandsbäume ausgewiesen. Belegtes Vokabular und die Masse des Falls:
-  Abschnitt «Wettbewerbs-Fachsignatur» unten.
+  Ug-Wert, PV-Fläche, Label); Gestaltbegriffe an der Konstruktion festgemacht (Lisenen/Pilaster
+  zeichnen das innere Raster an der Fassade ab, Vordach als Witterungs- **und** Sonnenschutz,
+  «Piano Nobile» fürs öffentlich genutzte Hauptgeschoss); Pflanzen mit botanischem Namen,
+  Bestandsbäume ausgewiesen. Vokabular und Masse: Abschnitt «Wettbewerbs-Fachsignatur» unten.
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich
