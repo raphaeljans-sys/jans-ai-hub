@@ -96,3 +96,15 @@ Eine einseitige Checkliste des Amts für Hochbauten Stadt Zürich, die das Ziels
 - ⚠ Kein Hinweis im Dokument, in welcher Projektphase, mit wem und in welcher Form («Zielvereinbarung») diese Kriterien tatsächlich vereinbart werden — die Checkliste liefert nur den Kriterienkatalog, keinen Prozess.
 - Offen, ob die aktuelle SIA 112/1 dieselbe Bereichs-/Kriterien-Gliederung (3 Bereiche, 12 Themen, 27 Kriterien) noch führt oder ob sie zwischenzeitlich revidiert wurde — nicht Gegenstand dieser Quelle, in `wissen/normen/` zu klären, falls für ein Projekt relevant.
 - Eintrag in `wissen/normen/wiki/QUESTIONS.md`: aktuelle Fassung von SIA 112/1 «Nachhaltiges Bauen – Hochbau» beschaffen und mit diesem Alt-Kriterienkatalog abgleichen.
+
+## Aktualitaetspruefung Run 123 (04.08.2026) — verifiziert im Hauptmodell
+
+**SIA 112/1 besteht fort, aber in neuerer Ausgabe.** Gueltig ist heute **SIA 112/1:2017**
+(seit 01.09.2017); die Vorgaengerfassung 2005 ist per 31.08.2017 archiviert (Beleg: shop.sia.ch).
+Die Checkliste dieses Destillats traegt das Copyright-Jahr **2004** und bildet damit einen Stand
+**vor** der Fassung 2005 und zwei Ausgaben vor der geltenden ab.
+
+**Konsequenz:** Die Drei-Bereiche-Gliederung (Gesellschaft · Wirtschaft · Umwelt) ist als
+Denkraster weiterhin brauchbar; die **konkrete Kriterienliste (12 Themenfelder, 27 Kriterien)
+darf nicht als Abbild der geltenden Norm ausgegeben werden**. Wer eine Zielvereinbarung nach
+SIA 112/1 aufsetzt, arbeitet mit der Ausgabe 2017.

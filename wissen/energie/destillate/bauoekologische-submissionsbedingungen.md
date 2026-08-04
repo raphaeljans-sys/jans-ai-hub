@@ -185,3 +185,31 @@ rechtssicher aktuell in ein Dokument übernommen werden.
   (heute ggf. andere Referenzgrösse als VDI 4300) klären.
 - Unklar, ob die 18-kW-Partikelfilterpflicht (Ziff. 3.1) mit der heutigen kantonalen
   Baustellen-Luftreinhalte-Verordnung ZH übereinstimmt oder verschärft wurde.
+
+## Aktualitaetspruefung Run 123 (04.08.2026) — verifiziert im Hauptmodell
+
+Fuer dieses Destillat besonders wichtig, weil es als **Devis-Vorlage** dienen soll: die drei
+tragenden Verweise sind heute unterschiedlich zu behandeln.
+
+- **VeVA — gilt weiterhin.** SR 814.610 (V vom 22.06.2005 ueber den Verkehr mit Abfaellen,
+  ELI `cc/2005/551`) ist in Kraft. Die Umbenennung 2016 betraf die **TVA → VVEA** (SR 814.600),
+  eine andere Verordnung. Der Entsorgungsverweis der Quelle ist also uebernehmbar.
+- **SIA 430 — ersetzt.** Seit **01.08.2023** gilt **SIA 430:2023 «Vermeidung und Entsorgung von
+  Bauabfaellen»**; der Organisationsteil steht neu in **SIA 118/430**. Wer die Klausel der Quelle
+  woertlich uebernimmt, zitiert eine 30-jaehrige Fassung und verfehlt die neue Ausrichtung auf
+  Kreislaufwirtschaft und Wiederverwendung.
+- **SIA 493 — archiviert seit 30.06.2022.** Eine Devis-Klausel «Deklaration nach SIA 493» geht
+  heute ins Leere. ⚠ Ein 1:1-Nachfolger ist **nicht belegt** (der Weg ueber EPD nach
+  EN 15804+A2 / KBOB-Oekobilanzdaten ist nur sekundaerquellengestuetzt und hier bewusst **nicht**
+  als Tatsache gesetzt) — vor einer Ersatzformulierung ist der geltende Deklarationsweg
+  abzuklaeren.
+- **ecoBKP statt Merkblaetter 2008.** Das Regelwerk, auf das diese Submissionsbedingungen
+  aufsetzen, heisst heute **ecoBKP** und liegt in der **Ausgabe 2026** vor; die Materialvorgaben
+  wurden auf die Methodik «Baumaterialien ecobau 2025» umgestellt. Die Materialauflagen dieser
+  Quelle (RC-Beton-Quote, Holzwerkstoff-Klassen, Daemmstoff-Ausschluesse) sind daher als
+  **Strukturvorlage** brauchbar, als **Zahlenvorgabe nicht**.
+
+**Bleibt gueltig unabhaengig vom Alter:** die *Mechanik* — Submissionsbedingungen als
+integrierender Vertragsbestandteil, Deklarationspflicht des Unternehmers, Stichprobenkontrolle
+mit Kostenfolge, Abschlussmessung der Raumluft als Erfolgskontrolle. Das ist der uebertragbare
+Teil fuer ein JANS-Devis (Skill `ausschreibung`), unter Rechtspruefungsvorbehalt.

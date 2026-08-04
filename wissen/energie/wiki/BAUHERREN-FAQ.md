@@ -6807,3 +6807,173 @@ der Quelle (Leuchtstoffröhren T8/T5) **vor-LED**. Die **Steuerungslogik nach Ra
 es in dieser Antwort geht, ist davon unberührt. Konkrete Lux-Werte enthält die Quelle nicht —
 diese sind der geltenden **EN 12464-1** zu entnehmen. Datenstand 2026-08-03 (Run 122) →
 `[[ahb-zuerich-gt-rl8-beleuchtung]]`, `[[gebaeudetechnik-pflichtenheft]]`. Status **emerging**.
+
+## F208 — «Wir wollen ökologisch bauen — worauf stütze ich meine Materialvorgaben, und woher weiss ich, ob die Grundlage noch aktuell ist?»
+
+**Kurzantwort:** Auf die **ecoBKP-Merkblätter von ecobau**, und zwar immer auf die **aktuelle
+Ausgabe** — heute **ecoBKP 2026**. Das ist das schweizerische Standardinstrument, das je
+BKP-Position sagt, welches Material ökologisch erste Wahl ist, was als Rückfalloption gilt und
+was nicht empfohlen wird. Entscheidend ist die Ausgabe: Das Werk wird **jährlich fortgeschrieben**,
+und wer eine alte Ausgabe zitiert, gibt überholte Materialurteile als geltende Empfehlung aus.
+
+**Fachliche Begründung:** Das Instrument heisst seit den Anfängen «Ökologisch Bauen — Merkblätter
+nach Baukostenplan BKP», herausgegeben vom **Verein eco-bau c/o KBOB** — getragen von Bund,
+Kantonen und Städten, also kein Verbandspapier, sondern die konsolidierte Beschaffungspraxis der
+öffentlichen Bauherrschaften. Die Systematik ist über die Jahrzehnte stabil geblieben und genau
+das macht sie brauchbar: je BKP-Position eine **1. Priorität** (der Normalfall), eine **2.
+Priorität** (die begründete Rückfalloption) und ausdrücklich **nicht empfohlene** Varianten. Diese
+Dreiteilung ist auch der Grund, warum sich das Instrument direkt in ein Leistungsverzeichnis
+übersetzen lässt: Die 1. Priorität wird zur Hauptposition, die 2. Priorität zur Eventualposition.
+
+Was sich sehr wohl geändert hat, sind die **Inhalte**. Die Materialempfehlungen wurden auf die
+neue Methodik **«Baumaterialien ecobau 2025»** umgestellt; in der Ausgabe 2026 kamen ausserdem
+Empfehlungen zu **Rückbaubarkeit und Reversibilität** neu hinzu (in den ecoBKP 213, 214, 215,
+216, 228, 230, 240, 244, 250, 258 und 273) — ein Thema, das in den frühen Ausgaben schlicht nicht
+vorkam. Wer heute mit einer Ausgabe von 2008 arbeitet, hat also nicht nur veraltete Zahlen,
+sondern ein sachlich engeres Konzept von «ökologisch»: damals Herstellungsenergie und
+Schadstofffreiheit, heute zusätzlich Kreislauffähigkeit.
+
+**Für die Bauherrschaft heisst das:** Verlangen Sie von der Planung, dass die ökologischen
+Materialvorgaben unter Angabe der **ecoBKP-Ausgabe** hergeleitet werden. «Nach eco-bau» ohne
+Jahreszahl ist keine überprüfbare Vorgabe. Für die Ausschreibung ist das Schwesterinstrument
+**ecoDevis** (NPK-basiert) einschlägig, während ecoBKP der BKP-Systematik folgt.
+
+**Quelle:** ecobau.ch, Instrumente/ecoBKP — Ausgabe **2026** als aktuell bezeichnet, Archiv
+zurück bis 2014 (2014, 2015, 2016, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025); Methodik
+«Baumaterialien ecobau 2025». Historischer Referenzpunkt in der KB: Verein eco-bau c/o KBOB,
+«Ökologisch Bauen — Merkblätter nach Baukostenplan BKP», **Ausgabe 2008**, 55 Seiten vollständig
+gelesen → `[[eco-bau-merkblaetter-bkp-2008-huelle]]`, `[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`,
+Themenartikel `[[oekologische-materialvorgaben-beschaffung]]`. **Datenstand der Aktualitätsaussage
+2026-08-04 (Run 123, an ecobau.ch verifiziert).** Die Destillate selbst bilden den Stand 2008 ab
+und sind ausdrücklich **keine** aktuelle Materialempfehlung. Status **established** für die
+Aussage «aktuelle Ausgabe ist 2026 und die Ausgabe ist zu nennen»; **emerging** für alles
+Inhaltliche aus der Ausgabe 2008.
+
+## F209 — «Wie stelle ich sicher, dass die ökologischen Vorgaben nicht nur im Konzept stehen, sondern auch wirklich gebaut werden?»
+
+**Kurzantwort:** Über **zwei Kontrollen an zwei verschiedenen Zeitpunkten** — die eine **vor**
+Vertragsabschluss, die andere **während** der Ausführung. Erstens die **Deviskontrolle**: Ist die
+ökologische Anforderung überhaupt als überprüfbare Position im Leistungsverzeichnis gelandet?
+Zweitens die **Baustellenkontrolle**: Wurde auf der Baustelle auch das verbaut, was bestellt
+wurde? Fehlt eine der beiden, ist die Vorgabe faktisch unverbindlich.
+
+**Fachliche Begründung:** Der häufigste Fehler ist nicht ein schlechtes Nachhaltigkeitskonzept,
+sondern ein gutes Konzept, das den Sprung ins Vertragswerk nie schafft. Deshalb setzt die
+Kontrolle genau an dieser Bruchstelle an:
+
+| Stufe | Zeitpunkt | Wer | Prüft was |
+|---|---|---|---|
+| **Deviskontrolle** | vor Vertragsabschluss | Projektleitung | Sind die ökologischen Anforderungen als **überprüfbare LV-Positionen** formuliert? |
+| **Baustellenkontrolle** | während der Ausführung | Projektleitung + Bauleitung | Stimmt die vor Ort erhobene **Materialliste** mit der Bestellung überein? |
+
+Zwei Details dieser Konstruktion sind wichtiger, als sie aussehen. **Erstens:** Die internen
+Merkblätter der Bauherrschaft werden der Submission **nicht beigelegt** — vertragswirksam sind
+ausschliesslich die daraus abgeleiteten LV-Positionen. Wer dem Unternehmer stattdessen ein
+Merkblatt anhängt, hat eine Absichtserklärung im Dossier, aber keine geschuldete Leistung.
+**Zweitens:** Die Baustellenkontrolle hat einen festen Ablauf, der bei Abweichung nicht abbricht,
+sondern eskaliert: Termin vereinbaren → Materialliste vor Ort erheben → mit der Bestellung
+vergleichen → Abweichung dokumentieren → **schriftliche Stellungnahme verlangen** →
+Massnahmen einleiten. Die schriftliche Stellungnahme ist der Punkt, an dem aus einer Beobachtung
+ein durchsetzbarer Mangel wird.
+
+Ergänzend lässt sich das Ergebnis **messen** statt nur behaupten: Bei GU-/TU-Verträgen wird die
+Raumluftqualität als eigene, messbare Anforderung mit Erfolgskontrolle vereinbart — die
+Referenzquelle nennt dafür eine Abschlussmessung mit Grenzwerten für Formaldehyd und TVOC.
+
+**Für die Bauherrschaft heisst das:** Fragen Sie bei der Vergabe zwei Dinge — «Zeigen Sie mir die
+LV-Position, in der diese Anforderung steht» und «Wann und wie wird auf der Baustelle geprüft,
+dass sie eingehalten wird?» Beide Fragen kosten nichts und entscheiden darüber, ob das
+Nachhaltigkeitskonzept Wirkung hat.
+
+**Quelle:** eco-bau / Stadt Zürich AHB, Checklisten «Öko 3.14.C Deviskontrolle» und «Öko 3.15.C
+Baustellenkontrolle» (Dokumentstand 2006, Fusszeilen 29.08.2006 bzw. 11.08.2006), beide
+vollständig gelesen → `[[eco-bau-devis-und-baustellenkontrolle]]`; Vertrags-/Auflagenseite →
+`[[bauoekologische-submissionsbedingungen]]`; Themenartikel
+`[[oekologische-materialvorgaben-beschaffung]]`. ⚠ **Alterskorpus:** Die in den Checklisten
+zitierten Regelwerke sind überholt (**SIA 493 archiviert seit 30.06.2022**; die geprüften
+Merkblätter heissen heute **ecoBKP**, Ausgabe 2026; **SIA 118** ohne Ausgabejahr zitiert). Die
+**Kontroll-Mechanik**, um die es in dieser Antwort geht, ist davon unberührt — sie ist
+verfahrensbezogen, nicht normbezogen. Datenstand 2026-08-04 (Run 123). Status **emerging**.
+
+## F210 — «Wir beschaffen Haushaltgeräte für eine Liegenschaft — worauf soll ich achten?»
+
+**Kurzantwort:** Nicht auf den Anschaffungspreis, sondern auf die **Gesamtkosten über die
+Nutzungsdauer**: Kaufpreis **plus Energiekosten über 15 Jahre**. Und nicht auf eine auswendig
+gelernte Effizienzklasse, sondern auf eine **laufend gepflegte Bestenliste** (topten.ch) und die
+**heute gültige Energieetikette**. Bei Waschmaschinen und Geschirrspülern lohnt sich zusätzlich
+die Frage nach dem **Warmwasseranschluss**.
+
+**Fachliche Begründung:** Die Logik hinter der Beschaffungsempfehlung ist robuster als jede
+Klassenangabe, und genau darin liegt ihr Wert. Sie besteht aus vier Elementen: **(1)** Offerten
+mit rabattierten Endpreisen verlangen, weil bei Liegenschaftsbeschaffungen der Listenpreis nie
+der Preis ist; **(2)** Anschaffung und Energiekosten über **15 Jahre** zusammen vergleichen;
+**(3)** eine erste Priorität setzen (hocheffiziente Geräte gemäss laufend aktualisierter
+Bestenliste) und eine zweite Priorität nur zulassen, wenn technische oder wirtschaftliche Gründe
+dagegen sprechen; **(4)** bei Geräten mit hohem Warmwasserbedarf den Warmwasseranschluss prüfen,
+damit die Wärme nicht elektrisch im Gerät erzeugt wird.
+
+Wie stark das Gesamtkostenargument trägt, zeigt das Rechenbeispiel der Quelle für den
+**Wärmepumpen-Tumbler**: rund **900 Franken höherer Kaufpreis**, dem über 15 Jahre eine
+Energiekosten-Ersparnis von rund **3'900 Franken** gegenübersteht. Der Mehrpreis ist also nicht
+die Frage — die Frage ist, wer ihn zahlt und wer die Stromrechnung erhält. Bei Mietliegenschaften
+fällt beides auseinander, und genau deshalb gehört der Entscheid zur Bauherrschaft und nicht zur
+Bewirtschaftung.
+
+⚠ **Was Sie NICHT aus alten Unterlagen übernehmen dürfen, sind die Klassenbezeichnungen.** Die
+Energieetikette wurde **neu skaliert**: seit **01.03.2021** gilt die Skala **A bis G ohne
+Pluszeichen** für Geschirrspüler, Waschmaschinen und Waschtrockner sowie Kühl- und Gefriergeräte
+(Beleuchtung ab 01.09.2021). Rechtsgrundlage in der Schweiz ist die **Energieeffizienzverordnung
+(EnEV), SR 730.02**. Die Neuskalierung ist **kein Umbenennen**: Ein Gerät, das unter dem alten
+Schema Spitze war, kann heute im Mittelfeld liegen. Eine Umrechnungsregel alt→neu wird hier
+bewusst **nicht** angegeben, weil sie in keiner geprüften Quelle steht — verlangen Sie die
+aktuelle Etikette, nicht eine Übersetzung.
+
+**Quelle:** Stadt Zürich AHB / eco-bau, «Professionelle Beschaffung: Haushaltgeräte», Zürich
+**Januar 2008 (2., revidierte Auflage)**, 2 Seiten vollständig gelesen →
+`[[haushaltgeraete-effizienz-beschaffung-topten]]`. Neuskalierung und Rechtsgrundlage EnEV
+SR 730.02 an Fedlex bzw. amtsnaher Quelle verifiziert (Run 123, 04.08.2026). ⚠ Alle **CHF-Werte**
+der Quelle (Kaufpreise, Strompreis 20 bzw. 14.5 Rp./kWh, ewz-Förderbeiträge) sind Stand 2008 und
+nur als **Grössenordnung des Effekts** zu lesen, nicht als heutige Zahlen. Die **Methodik**
+(15-Jahre-Gesamtkosten, Prioritätenraster, externe Bestenliste) ist übertragbar. Status
+**emerging**.
+
+## F211 — «Welche ökologischen Auflagen kann ich einem Unternehmer überhaupt verbindlich überbinden?»
+
+**Kurzantwort:** Deutlich mehr, als üblicherweise vereinbart wird — aber nur, wenn die Auflagen
+**integrierender Vertragsbestandteil** werden und mit einer **Kontroll- und Kostenfolge**
+verbunden sind. Die öffentliche Hand macht das seit Jahrzehnten über «Allgemeine bauökologische
+Submissionsbedingungen»; für ein privates Projekt ist das eine brauchbare Strukturvorlage.
+
+**Fachliche Begründung:** Die Referenzquelle zeigt vier Kategorien von Auflagen, die sich sauber
+überbinden lassen:
+
+| Kategorie | Beispiele aus der Quelle |
+|---|---|
+| **Materialauflagen** | Recyclingbeton als Hauptposition, formaldehydarme Holzwerkstoffe, Herkunftsnachweis bei Tropenholz, Ausschluss bestimmter Dämmstoff-Treibmittel und Montageschäume, lösemittelfreie Kleb-, Dicht- und Anstrichstoffe |
+| **Baustellenbetrieb** | Partikelfilterpflicht für Dieselmaschinen ab einer Leistungsschwelle, Alkylatbenzin bei Benzingeräten, Rücknahmepflicht für Sonderabfälle |
+| **Melde- und Sorgfaltspflichten** | Meldepflicht bei Verdacht auf Asbest oder PCB im Rückbau, mit **Kostenfolge zulasten des Verursachers** bei nicht fachgerechter Arbeit |
+| **Erfolgskontrolle** | Stichprobenkontrolle mit Kostenfolge, Raumluft-Abschlussmessung (Formaldehyd, TVOC) als messbare Abnahmebedingung |
+
+Der entscheidende Konstruktionspunkt steht gleich in Ziffer 1.1 der Quelle: Die Bedingungen sind
+**integrierender Vertragsbestandteil aller Werkverträge**, Vorbehalte gelten nur bei
+schriftlicher Abmahnung. Ohne diese Klausel bleiben die schönsten Auflagen ein Beiblatt. Der
+zweite Punkt ist die **Sanktion**: Zuwiderhandlung kann bis zum Ausschluss von Folgeaufträgen
+führen. Bei einem privaten Bauherrn fehlt dieser Hebel, dafür steht ihm der Werkvertrag offen
+(Skill `werkvertrag`, SIA 118).
+
+⚠ **Nicht eins zu eins abschreiben.** Es handelt sich um ein **Vergabeinstrument der öffentlichen
+Hand** (Stadt Zürich HBD), nicht um allgemein geltendes Recht, und die zitierten Grundlagen sind
+teils überholt: **SIA 430 gilt heute in der Fassung 2023** («Vermeidung und Entsorgung von
+Bauabfällen», seit 01.08.2023, mit ausgelagertem Organisationsteil SIA 118/430), **SIA 493 ist
+seit 30.06.2022 archiviert**, und die Materialvorgaben stammen aus der Zeit vor der Methodik
+«Baumaterialien ecobau 2025». **Weiterhin gültig** ist dagegen der Entsorgungsverweis auf die
+**VeVA** (SR 814.610, in Kraft) — nicht zu verwechseln mit der Umbenennung der TVA in die VVEA
+per 01.01.2016. Übernommen wird also die **Struktur** (Auflage + Nachweis + Kontrolle +
+Kostenfolge), nicht der Wortlaut; die Formulierung gehört unter Rechtsprüfungsvorbehalt.
+
+**Quelle:** Stadt Zürich HBD, «Allgemeine bauökologische Submissionsbedingungen», **September
+2006**, 3 Seiten vollständig gelesen → `[[bauoekologische-submissionsbedingungen]]`;
+Kontrollseite → `[[eco-bau-devis-und-baustellenkontrolle]]`; Themenartikel
+`[[oekologische-materialvorgaben-beschaffung]]`. Normstände an shop.sia.ch, VeVA-Status an
+Fedlex/BAFU verifiziert (Run 123, 04.08.2026). Anschluss: Skills `ausschreibung` und
+`werkvertrag`. Status **emerging**.

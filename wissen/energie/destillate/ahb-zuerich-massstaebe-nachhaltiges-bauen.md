@@ -149,3 +149,17 @@ zu übernehmen.
   fortgeschrieben wurde — kein Anschlussdokument in dieser Quelle ersichtlich.
 - Ob und in welcher Fassung «StRB 46/1998» (Wirtschaftlichkeits-Richtlinie Stadtrat Zürich)
   heute noch gilt, ist aus diesem Blatt nicht ersichtlich und offen.
+
+## Aktualitaetspruefung Run 123 (04.08.2026) — verifiziert im Hauptmodell
+
+- **SIA 380/4 «Elektrische Energie im Hochbau» ist zurueckgezogen** (gueltig bis 31.07.2019,
+  Beleg shop.sia.ch) und wurde aufgeteilt auf **SIA 387/4** (Beleuchtung) und **SIA 2056:2019**
+  (Energie- und Leistungsbedarf). Der Verweis dieser Quelle darf nicht als geltende Norm
+  wiedergegeben werden. Dieselbe Feststellung wurde bereits in Run 122 am AHB-Korpus getroffen.
+- **SIA 112/1** gilt fort in der Ausgabe **2017** (seit 01.09.2017).
+- **Das eco-bau-Instrument lebt weiter als ecoBKP**, aktuelle Ausgabe **2026**; die
+  Materialempfehlungen wurden auf die Methodik «Baumaterialien ecobau 2025» umgestellt. Alle
+  Material- und Kennwertaussagen dieser Quelle sind historisch.
+
+**Uebertragbar bleibt die Prozesslogik** (wann im Projektablauf welcher oekologische Entscheid
+faellt und ab wann er nicht mehr korrigierbar ist) — nicht der Zahlen- und Normstand.

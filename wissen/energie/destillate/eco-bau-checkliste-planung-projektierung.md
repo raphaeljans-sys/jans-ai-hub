@@ -152,3 +152,17 @@ Referenziert je Checklisten-Zeile, nicht einzeln inhaltlich ausgewertet. Auswahl
 - Die Checkliste enthält keine einzige messbare Kennzahl (kein U-Wert, kein Grenzwert, keine Flächenzahl) — sie ist rein qualitativ/prozessual. Für eine heutige Bauherren-Antwort mit Zahlen ist sie nicht die Quelle; dafür sind die aktuellen Destillate der KB `wissen/energie` zu verwenden.
 - Unklar, ob «Ökologisch Bauen. Merkblätter nach Baukostenplan (BKP) für Ausschreibungen» (Referenz 10, 2001) im Hub-Archiv ebenfalls vorliegt — falls ja, wäre das die naheliegende Ergänzung, weil es die BKP-Gliederung mit ökologischen Ausschreibungskriterien verknüpft.
 - Herausgeberkreis (14 Institutionen) deutet auf eine damals koordinierte gesamtschweizerische Vereinheitlichung hin; nicht geprüft, ob diese Institutionen die Checkliste seither aktualisiert oder ersetzt haben.
+
+## Aktualitaetspruefung Run 123 (04.08.2026) — verifiziert im Hauptmodell
+
+- **SIA 380/4 «Elektrische Energie im Hochbau» ist zurueckgezogen** (gueltig bis 31.07.2019,
+  Beleg shop.sia.ch) und wurde aufgeteilt auf **SIA 387/4** (Beleuchtung) und **SIA 2056:2019**
+  (Energie- und Leistungsbedarf). Der Verweis dieser Quelle darf nicht als geltende Norm
+  wiedergegeben werden. Dieselbe Feststellung wurde bereits in Run 122 am AHB-Korpus getroffen.
+- **SIA 112/1** gilt fort in der Ausgabe **2017** (seit 01.09.2017).
+- **Das eco-bau-Instrument lebt weiter als ecoBKP**, aktuelle Ausgabe **2026**; die
+  Materialempfehlungen wurden auf die Methodik «Baumaterialien ecobau 2025» umgestellt. Alle
+  Material- und Kennwertaussagen dieser Quelle sind historisch.
+
+**Uebertragbar bleibt die Prozesslogik** (wann im Projektablauf welcher oekologische Entscheid
+faellt und ab wann er nicht mehr korrigierbar ist) — nicht der Zahlen- und Normstand.
