@@ -51,6 +51,103 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-04 09:10 — [FREI] Der Vorsprung schrumpft zum ersten Mal (+10.3 → +8.6 Punkte), die Tagesrate liegt unter dem Nachhaltigkeitswert. Neuer Befund: die vorgeschriebene Fensterprobe haengt und liefert nichts
+
+**Selbstkontrolle:** letzter Eintrag 04.08. 00:57, Abstand 8 h 13 bei 8-h-Takt. **Kein
+Aufsichtsausfall**, der Slot 08:50 ist eingehalten.
+
+**Fenster FREI — aber nicht durch die vorgeschriebene Probe belegt.** Die Probe nach
+Schritt 2 (`claude -p "Antworte nur mit: OK" --model haiku`, eigener Watchdog) **haengt**:
+erster Versuch ueber 11 Minuten ohne eine einzige Ausgabe, zweiter Versuch mit
+`--strict-mcp-config --mcp-config '{"mcpServers":{}}'` aus `/tmp` (also ohne jeden
+MCP-Server und ohne Projekt-Hooks) ueber 5 Minuten ebenfalls ohne Ausgabe. Kein
+Fehlertext, kein Limit-Hinweis, kein «Not logged in» — die beiden schnellen, eindeutigen
+Ausgaenge also gerade nicht. Beide Prozesse wurden beendet.
+Das ist ein **Defekt der Messmethode, nicht des Kontingents**: die Lage ist ueber echte
+Laeufe belegt, und zwar in der letzten Stunde dreifach — `zahlungsabgleich-check` 08:26
+(bexio-Hygiene, ohne Befund), `mahnwesen-verzugscheck` 08:07, und `hub-chef-taeglich`
+08:39 mit **64 neuen LOGBUCH-Zeilen** im 09:00-Commit. Drei abgeschlossene Modelllaeufe
+schlagen als Nachweis eine Probe, die keine Antwort gibt. Der Befund gehoert trotzdem
+festgehalten: solange die Probe haengt, kann dieser Radar [FREI], [LOGIN] und [WOCHE LEER]
+nicht mehr auf dem vorgesehenen Weg auseinanderhalten, sondern nur ueber Umwegbelege.
+
+**Speicher:** 3.49 GB frei+inactive+purgeable, Druckstufe **2** (warning). Um 00:57 waren
+es 4.24 GB bei Stufe 1. Leichte Verschlechterung, kein Handlungsbedarf.
+
+**Wochenbudget — der eigentliche Befund dieses Laufs, und er ist gut.**
+`kontingent-budget.sh --json`, gemessen ohne Modellaufruf:
+
+| Groesse | Wert | Vergleich 00:57 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **35.25 Mio** von 167 = **21.1 %** | 30.03 Mio = 18.0 % |
+| Woche verstrichen | 12.5 % (21 h seit Reset Mo 12:00) | 7.7 % |
+| **Vorsprung** | **+8.6 Punkte** | +10.3 Punkte |
+| MacBook Pro / Mac Mini | 25.41 / 9.84 Mio (beide frisch) | 20.51 / 9.51 |
+
+**Der Vorsprung ist zum ersten Mal geschrumpft, um 1.7 Punkte.** Die Rate seit dem letzten
+Eintrag betraegt **0.65 Mio/h** (5.22 Mio in 8 h 13) gegen **2.32 Mio/h** in der Nacht.
+Nachhaltig waeren bis zum Reset am Montag **0.90 Mio/h** (131.75 Mio Restbudget auf 147 h).
+Die Tagesrate liegt also **unter** dem Nachhaltigkeitswert — der Tag holt zurueck, was die
+Nacht vorgezogen hat. Das bestaetigt die Lesart vom 00:57-Eintrag, die Nachthochrechnung
+sei eine Obergrenze und keine Prognose. Auf dem Schnitt seit Reset (1.67 Mio/h) reichte
+das Kontingent bis Freitag Mittag; auf der aktuellen Rate bis weit ueber Montag hinaus.
+Eine Drossel nach Schritt 2c ist **nicht** ausgeloest und wurde **nicht** gesetzt.
+
+**Liefer-Delta je Loop: durchweg positiv, kein Stilllegungskandidat.** 48 Commits in
+9 Stunden. Substanz in den letzten 8 h: `wissen/twin` 26 Dateien (Fidelity-Review 06:28),
+`wissen/normen` 21 Dateien (Run 43 mit fuenf Refuter-Pruefungen, PL-02-Kern auf 69/69
+geschlossen), `wissen/bauprodukte` 3, `wissen/grobkosten` 2, dazu die letzte prescriptive
+BKP-«271.10»-Fundstelle in der Referenz auf **271.0** korrigiert. Operative Loops alle mit
+Deliverable: `logbuch-radar` 07:08, `vollgas-fruehwarnung` 07:24, `ag-gruendung-monitor`
+07:49, `mahnwesen` 08:07, `zahlungsabgleich` 08:26, `hub-chef` 09:00. Beide
+Nachtschicht-Slots im Journal mit rc=0 (02:35 2.37 USD, 05:35 2.85 USD).
+
+**Feuermechanismen — alle drei Orte geprueft, keine Abweichung.**
+- Endlos-Runner weiter **ausgebaut**: `ch.jans.vollgas-supervisor` (beide Stationen) und
+  `ch.jans.vollgas-monitor` (MacBook) tragen `.disabled-260729`, in `launchctl list`
+  **nicht** geladen. Nichts angefasst.
+- Mac-Mini-Nachtschicht `ch.jans.nachtschicht` geladen, alle vier Slots intakt
+  (23:30 / 02:30 / 05:30 / 13:30).
+- Registry: alle Lern-Tasks **enabled=true**; auf `false` nur abgeschlossene One-Time-Tasks
+  und die zwei bewusst auf Ereignis-Trigger umgestellten Loops.
+
+**P1 — keiner.** Keine Mail (Regimefrage entschieden, Kontingent nicht erschoepft, der
+Proben-Defekt ist kein Blocker, den nur Raphael loesen kann).
+
+**P2 (hochgestuft von P3) — `energie-training` hat KEINEN aktiven Taktgeber mehr.** Der
+Punkt war gestern als Zuordnungsfrage vermerkt; die Pruefung heute zeigt, dass es keine
+Zuordnung gibt:
+- **Registry:** der Task existiert dort nicht.
+- **Mac-Mini-launchd** `ch.jans.training-energie`: `.disabled-260803`, nicht geladen. Die
+  Umbenennung datiert per ctime auf **03.08. 12:22:43** — also **zehn Stunden VOR** dem
+  Commit von Run 122 (03.08. 22:58). Der Job kann ihn nicht gefeuert haben.
+- **`ch.jans.wissens-trigger`** (MacBook 06:30): das Log weist am 03.08. UND am 04.08. auf
+  **beiden** Stationen «energie: unveraendert — kein Lauf» aus. Er hat nicht gefeuert.
+- **Lauf-Journal:** zu Run 122 gibt es keine Zeile; der einzige MacBook-Lauf jenes Abends
+  ist `dispatch-versuch1` 22:20 (77 Turns, 4.56 USD) mit bauprodukte-Ergebnis.
+
+Dazu der Fehler, der den Loop dauerhaft stilllegt: **`scripts/nachtschicht-run.sh`
+schliesst energie als Ziel aus mit der Begruendung «launchd `ch.jans.training-energie`,
+taeglich 22:30»** — ein Job, den es seit dem 03.08. 12:22 nicht mehr gibt. Der einzige
+verbliebene Lern-Taktgeber des Hub meidet damit eine KB wegen eines Mechanismus, der
+abgeschaltet ist. Run 122 war ein Einzelfall aus unbekannter Quelle; ohne Eingriff faellt
+`energie` still aus. Genau die Falle, die am 30.07. schon `planungsgrundlagen` 64 Laeufe
+unzurechenbar gemacht hat, diesmal mit Ausfall statt nur Fehlzurechnung.
+**Empfehlung:** entweder energie in `nachtschicht-run.sh` aus der Ausschlussliste nehmen
+(dann traegt die Nachtschicht den Takt) oder einen Scheduled Task `energie-training`
+anlegen — nicht beides, sonst feuern zwei Mechanismen denselben Loop.
+
+**P3 — der fehlende Tagesdeckel bleibt offen**, aber er draengt heute weniger: der
+Entscheid «gleichmaessig ueber die Woche» vom 03.08. wird gerade von selbst eingehalten
+(Tagesrate unter dem Nachhaltigkeitswert). Die Mechanik fehlt weiterhin und bleibt ein
+eigener Auftrag; sie wird erst wieder dringend, wenn eine zweite Nacht wie die vom
+03./04.08. ohne Tagesausgleich folgt.
+
+*Lauf schlank gehalten. Mehraufwand allein durch die zweifach haengende Fensterprobe und
+die Aufklaerung des energie-Taktgebers, die vom P3-Vermerk des Vorlaufs verlangt war.*
+
+---
 ## 2026-08-04 00:57 — [FREI] Erste volle Nacht nach dem Reset: 86 Commits in 13 Stunden, aber der Verbrauch laeuft der Woche um 10.3 Punkte voraus. Genau das Muster, das der Entscheid vom Vortag beenden soll
 
 **Selbstkontrolle:** letzter Eintrag 03.08. 22:07, Abstand 2 h 50. Der Takt steht seit 03.08.
