@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.08.2026 07:46:39
+Stand: 04.08.2026 07:56:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:24)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.08.2026 07:46:39
 - 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- de9e9de7 nas-selfcommit: 3 Datei(en) 2026-08-04 07:45
+- 93adc983 ag-gruendung-monitor 04.08.: kein Eingang (UBS-IBAN + Notariat), Nachfass-Schwelle 05.08.
