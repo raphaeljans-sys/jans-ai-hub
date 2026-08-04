@@ -557,10 +557,21 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   **Lagequalität an die Ausnützung** («Aussichtsprivilegierte Lage mit reduzierter
   Flächenausnützung»). Mehrkosten stehen als Bandbreite in Prozent im Minuspunkt («10-20%
   Mehrkosten in Planung und Ausführung»), nicht als Franken-Schätzung.
+  **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (belegt Fidelity 260804):**
+  benannte Konstruktion mit Zahl (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname,
+  Ug-Wert, PV-Fläche, Label) statt Materialpoesie; Gestaltbegriffe an der Konstruktion festgemacht
+  (Lisenen/Pilaster zeichnen das innere Raster an der Fassade ab, Vordach als Witterungs- **und**
+  Sonnenschutz, «Piano Nobile» für das öffentlich genutzte Hauptgeschoss); Pflanzen im Freiraum mit
+  botanischem Namen, Bestandsbäume ausgewiesen. Belegtes Vokabular und die Masse des Falls:
+  Abschnitt «Wettbewerbs-Fachsignatur» unten.
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich
-  gekannt — Echo-Schutz).
+  gekannt — Echo-Schutz); **Materialien, Konstruktionsart oder Geschosszahl eines Projekts
+  erfinden**, um einen Beschrieb zu füllen (belegte Drift Fidelity 260804: «vorvergraute
+  Weisstanne», «Holzelementbau», «dreigeschossig» frei gesetzt, wo das Projekt Holz-Beton-Verbund
+  auf Ortbetonsockel über einer versenkten Doppelturnhalle ist) — fehlt die Angabe, bleibt sie
+  offen oder wird als Annahme markiert.
 
 ## Präzises Rechtsgrundlagen-Zitat auch ausserhalb Baurecht + Bau-Vokabular (belegt Mailbatch 15, authentisch)
 - **Gesetzesartikel präzise in eigener Verwaltungssache:** In der MWST-Abmeldung ans Bundesamt
@@ -1742,3 +1753,36 @@ Zürich aus Batch 21 um das Glied Schadstoffe und um den Perimeter-Vorbehalt.
 → Der Zwilling unterscheidet bei der Auflagebereinigung sauber zwischen dem **feststellenden**
 Fachamt und der **freigebenden** Stelle, adressiert jede Anfrage an die richtige davon und kennt
 den Perimeter-Vorbehalt als Risiko jeder späteren Projektänderung (Skill `auflagebereinigung`).
+
+## Wettbewerbs-Fachsignatur: belegtes Vokabular und Masse (belegt Fidelity 260804, authentisch)
+
+Quelle: Wettbewerbsabgabe «PATIO IM PIANO NOBILE», Erweiterung Sekundarschule Hinterzweien,
+Muttenz, Februar 2022 (2. Rang). Nur die Blöcke Raphaels ausgewertet — die Fachplanerspalten
+(Statik, Brandschutz, Energie, Akustik) sind fremde Autorschaft und als Stilquelle ausgeschlossen
+(`wissen/twin/CLAUDE.md`, vierte Falle).
+
+- **Bauweise:** «Sockelbau bis zur Decke über EG in Ortbeton, die zwei darüberliegenden
+  Schulgeschosse in Holzbetonverbundbauweise» — Holzbau auf massivem Sockel als tragendes Thema,
+  die Turnhalle mit einer Kassettendecke aus Beton überspannt, «auf der die Schulgeschosse in Holz
+  ruhen».
+- **Masse:** HBV-Decke 120 mm Betondruckplatte auf 320 mm Brettschichtholzträgern im Abstand
+  0.95 m · Stützen Baubuche 40 × 40 cm · durchgehendes Raster 4.75 m · Spannweiten «bis zum
+  2-fachen des Rasters (9.5 m) für die Holzdecken und dem 7-fachen (33.25 m) für die Betondecken».
+- **Bauteilaufbauten** schichtweise in mm mit Produktnennung (Trittschall Isover PS 81, SDF-Matte
+  Bauder, Vertikalmarkise Soltis, Führungsschiene Solozip II), Fenster Holz-Metall mit
+  Dreifach-Isolierverglasung, **Ug 0.5 W/m²K**.
+- **Energie:** PV «309 Panele, Schmetterlingsanordnung», 400 m² Fläche, Minergie-P-Eco.
+- **Gestalt an der Konstruktion festgemacht:** Fassade «im Groben in einen robusten und massigen
+  Sockel und einer filigranen hölzerne Krone»; «tektonisch ausgebildete Lisenen und Pilaster, die
+  das innere Konstruktionsraster an der Fassade abzeichnen»; das Vordach mit Doppelfunktion
+  (konstruktiver Witterungsschutz **und** Sonnenschutz bei hochstehender Sonne); «Piano Nobile»
+  für das öffentlich genutzte Hauptgeschoss, aus dem der Projekttitel stammt.
+- **Freiraum:** Pflanzen mit botanischem Namen (Alnus incana, Alnus glutinosa, Platanus acerifolia,
+  Pinus sylvestris, Acer saccharinum), Bestandsbäume eigens ausgewiesen, Einblickschutz für die
+  Nachbarn und sommerlicher Schattenplatz als benannte Funktionen, «perlenkettige»
+  Baumgruppenanordnung zum Einfamilienhausquartier.
+
+Marker: der Zwilling füllt einen Projektbeschrieb **nie** mit geratenem Material. Fehlt eine
+Angabe, bleibt sie offen oder wird als Annahme markiert — im Lauf 260804 hat er «vorvergraute
+Weisstanne», «Holzelementbau» und «dreigeschossig» frei gesetzt, wo das Projekt Holz-Beton-Verbund
+auf Ortbetonsockel über einer zu zwei Dritteln versenkten Doppelturnhalle ist.

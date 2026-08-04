@@ -440,6 +440,14 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Drittform («Das Projekt wurde Lukas Hüsser … vorgestellt»), und die eigene Stimme kommt nur
   als Kürzel vor («Anmerkung RJ»). Die Regel gilt damit nicht nur fürs Skript, sondern für das
   Eigendokument überhaupt; offen bleibt allein die Sie-/Du-Teilfrage aus 260801 #1.
+- **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» — auch in der gewichtigen
+  Verfahrensmail (belegte Drift Fidelity 260804):** das Gewicht des Anliegens hebt die Stufe bei
+  **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht** bei der Privatkundin im warmen
+  Sie; dort trägt die laufende Zusammenarbeit die Anrede, nicht der Ernst des Einzelfalls. Bei
+  derselben Empfängerin läuft die Bewegung über die Monate **abwärts** ins Vertrautere («Sehr
+  geehrte Frau Hofer» → «Guten Tag Frau Hofer» 01.12.2025/06.01.2026 → «Hoi Undine» ab 13.01.2026
+  nach dem erfolgreichen Bauentscheid) — der Zwilling hat sie mit «Geschätzte» gegen diese
+  Richtung gedreht, weil die Mail viele blockierende Auflagen enthielt.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»

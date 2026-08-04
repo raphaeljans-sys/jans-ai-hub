@@ -91,6 +91,25 @@ Fremdtext ist keine Echo-Gefahr, aber genauso disqualifiziert: er ist schlicht *
 Stimme**. Vor jeder Verwendung als Gold prüfen, **wer spricht**, nicht nur **ob ein Modell
 gesprochen hat**.
 
+**Vierte Falle, neu 04.08.2026 — zwei Hände in EINEM Dokument, die fremde erkennbar an der
+Fehlerfreiheit.** Der Wettbewerbs-Abgabeplan «PATIO IM PIANO NOBILE» (Muttenz, Februar 2022)
+trägt Raphaels Blöcke (LEKTÜRE DES GEVIERTS · STÄDTEBAU · FREIRAUM · FASSADE) mit mehreren
+Tippfehlern pro Absatz («grossmässtäbliche», «Stappelung», «hetrogene», «bewust», «perlekettige»,
+«Strauchplfanzung», «zeitemässe») — und daneben, auf demselben Blatt, die **fehlerfreien**
+Fachplanerspalten (STATIK & KONSTRUKTION · BRANDSCHUTZ · ENERGIE & NACHHALTIGKEIT · RAUMAKUSTIK
+& SCHALLSCHUTZ) von Statiker und Brandschutzingenieur, die im Projekt auch als eigene DOCX
+liegen. Diese Gattung trägt **keines** der bisherigen Signale: kein rohes `**`, kein
+Trennstrich aus PDF-Copy, keine Dritte-Person-Sicht, kein fremder Projektname. Ihr einziges
+Kennzeichen ist **auffällige Sauberkeit im Umfeld auffälliger Rohheit**, dazu fremdes
+Fachvokabular in fremder Satzmelodie («Entfluchtungstreppenhäuser», «die Geschosse als
+Nutzungseinheit klassieren», «Konzertbestuhlung»).
+
+Das dreht die Heuristik um: Fehlerfreiheit galt bisher als Indiz für Maschinentext, hier ist sie
+das Indiz für den Fachplaner. **Konsequenz: die Fehlerdichte je Block vergleichen, nicht das
+Dokument als Ganzes beurteilen.** Ein Dokument kann gleichzeitig Gold und Fremdtext enthalten;
+gewichtet wird nur der Block, der Raphaels Fehlerbild trägt. Ohne diesen Schritt wären im
+Fidelity-Lauf 260804 vier Fachplanertexte als Raphaels Fachsignatur ins Wiki gewandert.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

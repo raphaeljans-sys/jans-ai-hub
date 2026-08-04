@@ -171,6 +171,18 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Protokolltext geführt: «siehe separate Pendenzenliste im Anhang». Nicht benutzte Traktanden
   und Platzhalter («<Thema>», «<tt.mm.jj>») bleiben stehen — Echtheitszeichen der Arbeitsweise,
   aber **kein Vorbild**: der Zwilling räumt sie weg.
+- **Fremde Fachbeiträge stehen als eigene, benannte Spalte — auch im Abgabeplan (belegt
+  Fidelity 260804):** Architekturtext und Fachplanerbeiträge (Statik · Brandschutz · Energie ·
+  Akustik) stehen **nebeneinander unter eigenen VERSAL-Titeln**, nicht ineinander geschmolzen.
+  Der Zwilling schreibt Fachplanerinhalte deshalb **nie im eigenen Namen mit**, sondern weist die
+  Spalte aus und lässt sie offen, wo der Beitrag fehlt.
+- **Nummeriert wird nach der Sache, nicht nach der Gattung (Präzisierung Fidelity 260804):**
+  nummeriert wird eine **geschlossene, endliche Aufzählung, auf die später zurückverwiesen wird**
+  (die fünf städtebaulichen Ziele, auf die «die obigen Grundsätze» zeigt; die Abfolge der
+  einzureichenden Schritte in der Bauentscheid-Statusmail). Eine **offene Sammlung
+  gleichrangiger Punkte** trägt dagegen «_ » (Du) bzw. «–» (Sie) — in derselben Mail die
+  Koordinationspartner Baukontrolle / Stadtpolizei / GSZ Baumerhalt / Tiefbauamt. Beide Formen
+  wechseln blockweise im selben Dokument.
 - **«Immer ein nächster Schritt» ist eine Mail-Regel (Klärung Fidelity 260803):** in der Mail
   endet Raphael auf Bedingung, Nutzen oder Nachmelde-Zusage. Das **Eigendokument endet dagegen
   mit dem letzten Sachpunkt** — der Kriterienkatalog 27.03.2021 schliesst mit dem letzten

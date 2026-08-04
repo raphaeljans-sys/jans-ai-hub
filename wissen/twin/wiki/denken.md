@@ -185,6 +185,15 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   was die Varianten vergleichbar macht, sie wird nicht variiert; (3) der **Favorit wird nicht
   ausgesprochen**, sondern dadurch sichtbar, dass seine Minus-Rubrik **leer bleibt** (Variante 2
   trägt vier Pluspunkte und unter «-» nichts). Die Bilanz wertet, das Fazit fehlt bewusst.
+- **Der Entwurf wird abgeleitet, nicht behauptet (belegt Fidelity 260804):** ein
+  Erläuterungsbericht beginnt mit der **Baugeschichte des Orts** (Bauetappen mit Jahr und
+  typologischer Wirkung, belegt an Schwarzplan/Luftbild), zieht daraus einen Befund und erst
+  dann über ein sichtbares Scharnier die Ziele: «Basierend auf der ausgeführten Leseart des Ortes
+  können folgende fünf städtebauliche Ziele formuliert werden:» + **nummerierte Liste**. Ein
+  zweites Scharnier bindet Ziele an Form: «Konkret bezogen auf das Neubauvolumen äussern sich die
+  obigen Grundsätze in …». Jeder Formentscheid hängt an einem benannten Kontextbeleg («analog dem
+  Trakt 3 zu verstehen»), nie an einer Absichtserklärung — dieselbe Bewegung wie das Rechnen in
+  der Mail, nur entwerferisch. Belege: Abschnitt «Ortslektüre als Entwurfsgrundlage» unten.
 - **Referierte Fremdaussage und eigene Wertung sichtbar trennen (belegt Fidelity 260803,
   Protokoll 24.08.2023):** im Protokoll steht zuerst die Aussagekette des Gegenübers («>»-Zeilen),
   dann die eigene, deutlich längere «Anmerkung RJ» mit wörtlichem Normzitat, Subsumtion auf den
@@ -195,7 +204,9 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
   Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein
   Punkte-/Notenraster übersetzen** oder ihn multikriteriell über alle Fachthemen streuen, wo
-  Raphael eine einzige Perspektive konsequent durchzieht.
+  Raphael eine einzige Perspektive konsequent durchzieht; **einen Entwurf mit seiner
+  Beschreibung eröffnen** — ohne vorangestellte Ortslektüre bleibt jede städtebauliche Aussage
+  Behauptung (belegte Drift Fidelity 260804).
 
 ## Wenn-dann-Stufenmodell mit Kosten-/Verfahrenskonsequenz + proaktiver Risiko-Vorgriff (belegt Mailbatch 20, authentisch)
 Bestätigt und schärft das konditionale «Dafür bräuchtest Du …»-Denken an einem dichten Beratungsfaden

@@ -38,6 +38,49 @@ Format: Frage · warum sie den Zwilling annähert · Facette · Status (offen/be
 > Vollständige Belegkette und Korrekturliste im Eintrag ganz unten in dieser Datei
 > («2026-07-29 — GESCHLOSSEN: Felix Stählin gehört zu Elektro Stählin AG»).
 
+## Offen — Runde 260804 (twin-fragesteller, aus Fidelity-Review 2026-08-04)
+
+Quelle: Drift-Report `outputs/2026-08-04_fidelity.md`. Besonderheit dieses Laufs: erstes
+**Wettbewerbs-Gold** (Erläuterungsbericht «PATIO IM PIANO NOBILE», Muttenz 2022) und ein
+Mail-Gold, das bereits dreifach destilliert war und deshalb reines Retrieval gemessen hat.
+Fidelity 48, tiefster Wert der Serie. Je in 1–2 Sätzen beantwortbar.
+
+1. **Schreibst Du den Erläuterungsbericht selbst, und schreibst Du ihn zuletzt?** Der
+   Muttenz-Text leitet den Entwurf aus der Baugeschichte des Gevierts ab (1934 / 1964 / 1966 →
+   fünf Ziele → Volumen). Entsteht diese Lektüre **am Anfang** des Wettbewerbs als eigentliche
+   Entwurfsgrundlage, oder schreibst Du sie am Schluss als Begründung des fertigen Projekts?
+   *Facette: Denken + Arbeitsweise. Warum: entscheidet, ob der Zwilling Dir künftig zuerst eine
+   Ortslektüre baut oder erst den Entwurf und dann die Begründung — zwei völlig verschiedene
+   Aufträge.*
+
+2. **Warum ist der Erläuterungsbericht Prosa, das Präsentationsskript aber Stichwort-Gerüst?**
+   Die belegte Regel sagt fürs Eigendokument «Gerüst statt ausformulierter Sätze»; der
+   Abgabetext besteht aus vollen Absätzen. Meine Annahme: der eine geht anonym an eine fremde
+   Jury, der andere nur an Dich als Sprecher. Stimmt diese Grenze — **fremde Lektüre = Prosa,
+   eigener Gebrauch = Gerüst**? *Facette: Stimme. Warum: ohne diese Grenze rät der Zwilling bei
+   jedem neuen Dokumenttyp neu; mit ihr entscheidet eine einzige Frage.*
+
+3. **Ist «PATIO IM PIANO NOBILE» nach dem Entwurf entstanden oder vor ihm?** Der Projektname
+   trägt schon die These und wird im Fassadenkapitel eingelöst. Suchst Du den Titel bewusst als
+   **Verdichtung des Hauptarguments**, oder ist er ein Etikett, das am Schluss dazukommt?
+   *Facette: Stimme + Denken. Warum: schliesst an die noch offene Frage 260801 #5 (benannte
+   Szenarien statt Variante 1/2/3) an — beide Male benennst Du statt zu nummerieren, und der
+   Zwilling weiss nicht, ob der Name Werkzeug oder Verpackung ist.*
+
+4. **Die Fachplanerspalten: gibst Du eine Textvorgabe mit?** Statik, Brandschutz, Energie und
+   Akustik stehen im Muttenz-Plan als eigene, fehlerfreie Spalten der jeweiligen Büros.
+   Bekommen die Fachplaner von Dir Länge, Titel und Stossrichtung vorgegeben, oder liefern sie
+   frei und Du setzt nur? *Facette: Arbeitsweise. Warum: bestimmt, ob der Zwilling für Dich
+   künftig eine Fachtext-Bestellung formuliert oder nur eine leere Spalte ausweist.*
+
+5. **Wo hätte der Zwilling nachschlagen müssen — und tut er es je?** Bei der Bauentscheid-Mail
+   stand jeder verfehlte Marker im Wiki, teils wörtlich (Amtskette, Anrede, Listenlogik). Der
+   Zwilling hat sie nicht abgerufen, sondern aus dem Grundklang geschrieben. Erwartest Du, dass
+   er vor jedem Erzeugnis die einschlägige Facette **gezielt aufschlägt** (langsamer, teurer,
+   treffsicherer), oder soll er weiter aus der kompilierten DNA schreiben und nur bei Zweifel
+   nachsehen? *Facette: alle sechs. Warum: das ist die Grundsatzfrage hinter drei Läufen mit
+   demselben Befund — und sie entscheidet, ob die Artikel überhaupt weiter wachsen sollen.*
+
 ## Offen — Runde 260801 (twin-fragesteller, aus Fidelity-Review 2026-08-01)
 
 Quelle: Drift-Report `outputs/2026-08-01_fidelity-modalitaetswechsel.md`. Besonderheit dieses
