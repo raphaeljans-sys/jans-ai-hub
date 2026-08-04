@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.08.2026 23:08:46
+Stand: 04.08.2026 23:29:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:28)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.08.2026 23:08:46
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 89ec249e KB Energie Run 123: eco-bau/AHB-Beschaffungskorpus — 9 Destillate, FAQ F208-F211, Themenartikel oekologische-materialvorgaben-beschaffung; Aktualitaetsbefund ecoBKP 2026; zwei Agentenbefunde widerlegt (VeVA gilt, Datierung kein Widerspruch); 44 FAQ-Ueberschriften + 12 Backlinks repariert
+- d37b6775 nas-selfcommit: 1 Datei(en) 2026-08-04 23:15
