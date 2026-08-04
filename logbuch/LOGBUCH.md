@@ -5,6 +5,156 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — Radar-Briefing 04.08.2026
+
+*Erster Lauf nach dem Ein-Mail-Prinzip vom 03.08.: dieser Abschnitt ersetzt die Radar-Mail und
+ist Pflichtlektüre des Hub-Chefs um 08:39. Keine eigene Mail versandt — der Chef-Lauf des
+Vortages ist um 22:29 sauber durchgelaufen, und kein Punkt verlangt Handeln vor 08:39.
+Fenster 03.08. 22:30 bis 04.08. 06:55. Der Mailverkehr war in diesem Fenster still; der ganze
+neue Stoff stammt aus Deinen Gesprächen der Nacht und aus zwei eigenen Nachmessungen.*
+
+**Erledigt seit gestern**
+
+- **Thalwil Bohlweg 3: die Eingabefassung des Begleitbeschriebs ist erstellt und abgelegt**
+  (03.08. 22:28, MD/DOCX/PDF plus Mailtext, an beiden Orten heute verifiziert). Damit ist die
+  seit dem 31.07. offene Zeile «korrigierte Fassung 260731 liegt fertig, Eingabe steht aus»
+  abgelöst.
+- **Der BKP-Code «271.10» ist als nicht existent nachgewiesen und in beiden normativen Quellen
+  korrigiert** (Rule `bkp-2017-referenz`, Referenzliste). Unter 271 gibt es ausschliesslich
+  271.0 Innenputze, 271.1 Trockenbau, 271.2 Gerüste.
+- **Der Briefing-Betrieb ist auf einen Kanal umgestellt.** Ab heute schreiben Radar und
+  AG-Gründungs-Monitor ins Logbuch, der Chef mailt das eine Tagesbriefing. Du solltest heute
+  statt fünf Loop-Mails genau eine bekommen.
+
+**Aus unseren Gesprächen**
+
+- **Thalwil, die Eingabe am 06.08.** Die Mail an Aline Steiger (Bausekretariat) ist inhaltlich
+  fertig, Sie-Register, Beilage ist das Begleitbeschrieb-PDF. **Zwei Dinge sind vor dem Versand
+  zu klären, und beide hängen nicht am Text:** Der Begleitbeschrieb nennt das Planset S-60 bis
+  S-69 mit Stand 30.07.2026 — geht am 06.08. ein neueres Zeichnungsdatum raus, sind zwei Stellen
+  nachzuziehen. Und **eine ausdrückliche Freigabe der Plangrundlagen hat Stefan Tschopp bis
+  heute nicht erteilt**; soll er vor der Eingabe freigeben, geht die Mail erst nach seinem OK.
+- **Nachgemessen, weil «Entwurf» zweideutig ist:** Die Thalwiler Mail liegt **als Textdatei**,
+  nicht als Entwurf im Postfach. Der Entwurfsordner von `raphaeljans@outlook.com` enthält genau
+  einen Eintrag, und das ist eine AW vom 30.07.2025. Am 06.08. ist die Mail also von Hand
+  anzulegen; ein Klick auf «Senden» genügt nicht.
+- **Der Fassungsstand der revBZO Thalwil, gemessen statt gelesen.** Die Revision wurde am
+  14.06.2026 an der Urne mit 78,81 % festgesetzt, ist aber **weder genehmigt noch in Kraft** —
+  massgebend bleibt die BZO vom 11.12.2019, überlagert von der negativen Vorwirkung. Von 55
+  Artikeln wirken 23 vor, Art. 45 gar nicht, Art. 50 Umgebungsgestaltung fast vollständig. Genau
+  darauf stützt sich die Eingabe, und die Nachweise sind auf die jeweils strengere Bestimmung
+  geführt.
+- **Der falsche BKP-Code steckt noch in 13 weiteren Hub-Dateien**, darunter die Skills
+  `ausschreibung` und `brandschutz`. Altdokumente mit «BKP 271.10» im LV-Titel tragen einen
+  Code, den weder Unternehmer noch Bauherrschaft verifizieren können.
+
+**Überfällig**
+
+- **RE-00100, Swiss Central City, CHF 13'120.00: heute 5 Tage Verzug, Mahnstufe 0.** Das ist die
+  Schwelle, ab der eine Zahlungserinnerung überhaupt qualifiziert. Die Zustellung ist belegt (Du
+  hast am 03.08. 12:46 erneut zugestellt). Ungeklärt bleibt der Widerspruch aus dem Juli: die
+  Kreditorenstelle hatte die Rechnung am 28.07. retourniert und gelöscht, weshalb der Fall im
+  Register als Neuausstellung und nicht als Verzug geführt wird. **Das ist vor jeder Mahnaktion
+  aufzulösen.**
+- **RE-00087, KISPI, CHF 15'000.00: 110 Tage** — der Ball liegt unverändert bei Cornelia
+  Schäfer (Duplikatsklärung BC304304495). Kein neuer Stand seit gestern.
+- **Verzugssumme unverändert CHF 51'400.00** über fünf Rechnungen.
+
+**In den nächsten 7 Tagen**
+
+- **Heute, 04.08.:** Durchgang des Bemerkungs-PDF der Feuerpolizei mit Jens Ziegel. Vier Punkte
+  gehören hinein, nicht drei — **33.22 «EI 30?» am Anschluss der Schiebetüre an die bestehende
+  Fluchtwegwand** ist der einzige mit Bestandesbezug, und 33.27 verlangt die **schriftliche**
+  Bestätigung des Systemherstellers.
+- **Heute, 04.08., 17:00:** Die Frist des Nachfass-Entwurfs an Benjamin Kübler läuft ab. Er liegt
+  unverändert im Entwurfsordner (nachgemessen, Eintrag vom 31.07. 00:35). Einer seiner drei
+  Punkte ist überholt, ein zweiter hat den Adressaten gewechselt. Entscheid: anpassen und
+  senden, oder verwerfen.
+- **05.08.:** Estermann kommt zur Ausmessung, die Mail nennt **keine Uhrzeit**. Ferner die
+  Nachfass-Schwelle bei B. Jeckelmann (UBS, 044 236 48 48) zur Kapitalbescheinigung. Privat:
+  Arioli 17:30.
+- **06.08.:** Eingabe Projektänderung Thalwil versenden. Am selben Tag **13:00 bis 14:00
+  Koordinationssitzung Gruner/Jans/KISPI** (Teams, M365-Kalender bestätigt) — es ist genau der
+  Termin, vor dem der Kübler-Entwurf zugestellt sein sollte.
+- **07.08.:** Marc Mathies ist ab diesem Tag aus den Ferien zurück; vorher liest niemand die
+  Notariats-Mail vom 03.08. Privat: Wandern 17:00.
+- **08.08.:** Der SharePoint-Zugriff auf die Projektsite «JANS - 2619-KISPI» läuft für **sieben
+  Personen** ab. Ferner wird ab diesem Tag die Stellungnahme von F. Würsch zu Los 231.10
+  erwartet.
+- **Knapp danach, zur Einordnung:** 12.08. Mahnfrist RE-00098/99, 13.08. Entscheid Baubeschrieb
+  Albertstrasse 7, 15.08. gebündelte KISPI-Stellungnahme, 16.08. Frist RE-00101.
+
+**In Beobachtung**
+
+- UGZ-Lüftungsbefund Hansen (fünf Punkte, SWKI VA-102-01, fetthaltige Abluft) — Ball bei
+  Gruner/Wintec, von Dir wird die Terminvorgabe an Cekdar Duran erwartet.
+- Vorabzug Heizungs-/Kälteplan Kübler vom 03.08. 19:34 — Prüfung durch Dich ausstehend, hängt
+  sachlich am Lüftungsbefund.
+- Zwei Empfänger halten weiterhin die überholte Begleitbeschrieb-Fassung 260730 (Tschopp
+  30.07., Weisser 01.08.); der neue Entwurf erreicht sie mit leerem Cc nicht.
+- In bexio steht RE-00087 auf Mahnstufe 2, obwohl eine Mahnung 3 erzeugt und mitgeschickt wurde.
+- Im Entwurfsordner liegen zwei unausgefüllte Platzhalter-Vorlagen vom 30.07. ([GEWERK],
+  [DATUM]) und der durch die 15.08.-Vereinbarung gegenstandslose Türbuch-Entwurf vom 27.07.
+- M365-Tenant bei 85,8 %; der Versions-Trim JANS.PROJEKTE bleibt der grosse Hebel.
+- Rückfrage aus der bexio-Hygiene: acht Duplikat-Transaktionen sind aus dem Bankfeed
+  verschwunden — von Dir oder von der Treuhand ausgelöst?
+
+**Vorschlag Kalendereinträge** (nicht eingetragen)
+
+- 04.08., 17:00 — Entscheid Kübler-Entwurf: anpassen und senden oder verwerfen.
+- 05.08. — Ausmessung Estermann; Uhrzeit beim Unternehmer erfragen, dann eintragen.
+- 06.08., vormittags — Eingabe Projektänderung Thalwil versenden (vor der Sitzung um 13:00).
+
+**Token-Tempo** (Vortag 03.08.): MacBook Pro 469,4 Mio Token entsprechend rund 380 USD
+API-Äquivalent, Mac Mini 180,1 Mio entsprechend rund 126 USD; zusammen 649,5 Mio Token, rund
+506 USD.
+
+---
+
+## 2026-08-04 — Logbuch-Radar 06:55 (erster stiller Lauf, Briefing ins Logbuch statt per Mail)
+
+**Kanalwechsel vollzogen.** Erster Lauf nach dem Ein-Mail-Prinzip (Entscheid Raphael
+03.08.2026): das vollständige Briefing steht als Abschnitt «Radar-Briefing 04.08.2026» oben,
+**keine eigene Mail versandt**. Die Ausnahmebedingungen wurden geprüft und greifen beide nicht:
+der Chef-Lauf des Vortages ist am 03.08. um 22:29:35 mit versandtem Briefing durchgelaufen
+(Lauf-Journal und Sent-Bestand), und kein Punkt des Fensters verlangt Handeln vor 08:39 — die
+früheste Frist ist heute 17:00.
+
+**Fenster und Quellen:** 03.08. 22:30 bis 04.08. 06:55. Register und Journal, das
+Konversations-Destillat 260804 (43 Sessions), `mail-vorfilter.sh 12` über alle sechs Konten, bexio `--verzug`,
+M365-Kalender 8 Tage, lokaler Kalender, Entwurfsordner aller Konten, Lauf-Journal, `ccusage`
+beide Stationen. **Der Mailverkehr war im Fenster still** — ausser den fünf eigenen Loop-Mails
+und dem bereits erfassten HK-Plan-Vorabzug Küblers (19:34) lief nichts Geschäftliches ein. Der
+neue Stoff stammt vollständig aus den Gesprächen der Nacht (22:21 bis 01:54).
+
+**Zwei eigene Nachmessungen, beide handlungsrelevant:**
+
+1. **«Entwurf» hiess zweierlei, und die Unterscheidung zählt für den 06.08.** Das
+   Konversations-Destillat meldet den Thalwiler Mail-Entwurf als abgelegt. Am Bestand geprüft:
+   der Entwurfsordner von `raphaeljans@outlook.com` enthält **genau einen** Eintrag, eine AW vom
+   30.07.2025. Die Thalwiler Mail existiert ausschliesslich als Textdatei (4'479 Byte) an beiden
+   Ablageorten. Sachlich ist alles vorhanden und geprüft, aber am 06.08. ist die Mail von Hand
+   anzulegen. Ohne diese Messung hätte das Briefing einen klickfertigen Postfach-Entwurf
+   suggeriert. Lehre in derselben Familie wie 260730b: eine Zustandsbehauptung wird gemessen,
+   auch wenn die Quelle das eigene Destillat ist.
+2. **Der Kübler-Entwurf liegt unverändert** (Eintrag 31.07. 00:35:14, im Exchange-Entwurfsordner
+   nachgezählt), die Frist läuft heute 17:00 ab. Beim selben Scan fielen drei weitere Altlasten
+   auf: zwei unausgefüllte Platzhalter-Vorlagen vom 30.07. und der gegenstandslose
+   Türbuch-Entwurf vom 27.07.
+
+**Register nachgeführt (drei Zeilen ergänzt, keine neue angelegt, keine Duplikate):** die
+Thalwil-Zeile 06.08. um den Datei-statt-Postfach-Befund und die beiden Abhängigkeiten
+(Planstand 30.07., fehlende Freigabe Tschopp); die Kübler-Zeile um den Verifikationsvermerk und
+den Bezug zur Sitzung am 06.08.; die RE-00100-Zeile um das Erreichen der 5-Tage-Schwelle bei
+belegter Zustellung und den weiterhin ungelösten Widerspruch Verzug gegen Neuausstellung.
+
+**Bewusst unterlassen:** keine Mail an Dritte, keine Mahnaktion (RE-00100 qualifiziert
+schwellenseitig, ist aber wegen der Retournierung vom 28.07. sachlich ungeklärt — der Radar
+entscheidet das nicht), kein Kalendereintrag (Estermann ohne Uhrzeit, Vorschlag statt Eintrag),
+kein `git` über SMB.
+
+---
+
 ## 2026-08-04 — Mac Mini Nachtschicht 05:30 (Prioritaet 4, KB bauprodukte, ein Posten geschlossen)
 
 Prioritaeten 1–3 erneut ohne offenen Punkt (keine neuen remote-/sync-Tasks, Synobsis
