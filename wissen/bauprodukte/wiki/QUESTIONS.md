@@ -30,14 +30,19 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    nur eine 2002er-Momentaufnahme (3 CH-Anbieter, unverifiziert). Für Ausschreibungen
    BKP 224 braucht es eine eigene, aktuelle Recherche — nicht Teil eines
    unbeaufsichtigten Nachtlaufs (Web-Recherche über mehrere Quellen).
-4. **ERCO Ratgeber nur zu 40/435 Seiten destilliert (Fortschritt Mac Mini Nachtschicht,
-   31.07.2026: 20 → 40):** [[erco-lichtplanung-grundlagen]] deckt jetzt das Kapitel
-   «Grundlagen» vollständig (Geschichte, Sehen/Wahrnehmen inkl. Konstanz/
-   Gestaltwahrnehmung) sowie den Beginn von «Gestalten mit Licht» (Architekturbeleuchtung
-   Innenräume, Räume verbinden bis Innenraum-Aussenraum). Die praxisrelevanteren
-   Kapitel «Lichttechnik» (Kennwerte lm/W, Ra, Farbtemperatur), «Aussenraumbeleuchtung»,
-   «Lichtsteuerung», «Simulation und Berechnung» sowie das Glossar sind weiterhin offen —
-   mehrere Folgeläufe nötig (Lesefortschritt im Frontmatter `gelesen:` des Artikels).
+4. **ERCO Ratgeber nur zu 53/435 Seiten destilliert (Fortschritt Mac Mini Nachtschicht,
+   31.07.2026: 20 → 40; 04.08.2026 13:30-Slot: 40 → 53):** [[erco-lichtplanung-grundlagen]]
+   deckt jetzt zusätzlich «Räume verbinden» vollständig (auch Aussenraum-Fälle), das
+   komplette Unterkapitel «Objekte beleuchten» (Lichtrichtung 5°-45°/Optimum 30°,
+   Lichtverteilung Skulpturen-/Floodlinse, Objekt betonen Kontrastskala 1:2/1:5/1:10/1:100)
+   sowie den Beginn von «Mit Lichtfarben gestalten» (Farbe, Farbsysteme CIE/Munsell,
+   Lichtfarbe Weiss/Farbig, Farbmischung). Die praxisrelevanteren Kapitel «Lichttechnik»
+   (Kennwerte lm/W, Ra, Farbtemperatur), «Aussenraumbeleuchtung», «Lichtsteuerung»,
+   «Simulation und Berechnung» sowie das Glossar sind weiterhin offen — mehrere
+   Folgeläufe nötig (Lesefortschritt im Frontmatter `gelesen:` des Artikels). Nächster
+   Anschlusspunkt: S. 54, Rest «Mit Lichtfarben gestalten» (Farbwiedergabe/Farbwirkung/
+   Farbkontraste/Raumfarben/Farbig akzentuieren), danach neues Kapitel «Planungspraxis»
+   (Leuchtenauswahl/Leuchtenanordnung, ab dort auch Edition 01.03.2010 im Quellbeleg).
 5. **AS-Aufzüge-Dokumente ohne Datum im Dokument selbst:** [[bkp-261-aufzuege]] stützt
    die Datierung von `100426_AS_Aufzuege.pdf` und `21005312.pdf` nur auf den
    Dateinamen (JANS-Konvention YYMMDD). Vor Verwendung in einer aktuellen

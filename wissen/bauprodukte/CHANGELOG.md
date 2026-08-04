@@ -1,5 +1,32 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-04 (Mac Mini, 13:30-Versuchsslot) — ERCO-Destillat fortgeschrieben: Seiten 40 → 53
+- Prioritäten 1-3 ohne offenen Punkt (0 Sync-/Remote-Tasks; Synobsis Stufe 2 abgeschlossen,
+  Batch-Task bewusst deaktiviert seit 25.07., kein neues Material; Fristen-/Pendenzen-Radar
+  bereits um 08:39 als Hub-Chef-Briefing gelaufen). `grobkosten` wurde im 02:31-Lauf dieser
+  Nacht bereits erschöpfend geprüft und bleibt extern blockiert (Rückfrage Raphael oder neues
+  Rohmaterial nötig); `bauprodukte` trägt weiterhin die höchste Priorität unter den freien KBs
+  und der ERCO-Titel selbst ist als P1 im Inventar geführt — daher hier weitergearbeitet.
+- **Kontinuierliche Extraktion (Stufe 1, `pdftotext -layout`), kein Fan-out, kein Subagent.**
+  `de_erco_guide.pdf` (BKP 233) Seiten 41-53 gelesen und in
+  [[erco-lichtplanung-grundlagen]] eingearbeitet: «Räume verbinden» vollständig abgeschlossen
+  (Aussenraum-Innenraum-Spiegeleffekt, Aussenraum-Aussenraum), neues Unterkapitel «Objekte
+  beleuchten» komplett (Lichtrichtung 5°-45°/Optimum 30°, Lichtverteilung Skulpturen-/
+  Floodlinse, Objekt-Kontrastskala 1:2/1:5/1:10/1:100), neues Hauptkapitel «Mit Lichtfarben
+  gestalten» begonnen (Farbe, Farbsysteme CIE/Munsell, Lichtfarbe Weiss/Farbig, Farbmischung).
+  Frontmatter `gelesen:`/`sources:`/Titel aktualisiert, `wiki/INDEX.md` und
+  `wiki/QUESTIONS.md` Punkt 4 sowie die Inventar-Zeile in
+  `skills/wissens-destillat/training/bauprodukte-inventar.md` nachgeführt.
+- **Verifikation:** BKP 233 gegen `references/bkp-2017/BKP-2017-Liste.md` bereits im
+  Ursprungsartikel verifiziert, unverändert gültig. Alle neuen Kennwerte (Winkel, Kontraststufen,
+  Farbbegriffe) tragen die Quelle (Seitenzahl im Dokument) inline, keine Herstellerangaben in
+  diesem Auszug. Editionsdatum der Seiten 41-53 durchgehend 26.06.2006 (keine neue Edition
+  gegenüber dem Vorlauf) — im Artikel als Beobachtung vermerkt, dass ab S. 55/56 erstmals
+  Edition 01.03.2010 auftaucht (offen für den nächsten Lauf).
+- **Nächster Anschlusspunkt (S. 54):** Rest «Mit Lichtfarben gestalten» (Farbwiedergabe,
+  Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren), danach neues Kapitel
+  «Planungspraxis» (Leuchtenauswahl/Leuchtenanordnung).
+
 ## 2026-08-04 (Mac Mini Nachtschicht 05:30) — Ein triagierter Positionsposten gegen die Altersregel geprüft, kein Artikel
 - Prioritaeten 1–3 der Nachtschicht ohne offenen Punkt (keine neuen remote-/sync-Tasks,
   Synobsis Stufe 2 weiterhin abgeschlossen, Fristen-Radar zuletzt 22:30 gelaufen). Unter

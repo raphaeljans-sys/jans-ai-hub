@@ -5,6 +5,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — Mac Mini Nachtschicht, 13:30-Versuchsslot (KB bauprodukte, ERCO-Destillat)
+
+Prioritäten 1-3 ohne offenen Punkt (0 Sync-/Remote-Tasks für mac-mini, ein Task wartet weiter
+auf Freigabe in `sync-tasks/freigabe/`; Synobsis Stufe 2 seit 02.07. abgeschlossen, Batch
+bewusst deaktiviert; Fristen-/Pendenzen-Radar bereits um 08:39 als Hub-Chef-Briefing gelaufen).
+`grobkosten` war im 02:31-Lauf dieser Nacht bereits erschöpfend geprüft und bleibt extern
+blockiert (Rückfrage Raphael oder neues Rohmaterial nötig) — daher `bauprodukte`
+weitergearbeitet (höchste Priorität unter den freien KBs, ERCO-Ratgeber als P1 im Inventar).
+
+Destillat fortgeschrieben: `de_erco_guide.pdf` (BKP 233) Seiten 41-53 gelesen und in
+`wissen/bauprodukte/wiki/erco-lichtplanung-grundlagen.md` eingearbeitet (Räume verbinden
+komplett, neues Kapitel Objekte beleuchten komplett, Mit Lichtfarben gestalten begonnen).
+QUESTIONS.md, INDEX.md, Inventar-Zeile und CHANGELOG.md nachgeführt. Kein Fan-out, kein
+Subagent, keine weiteren Kosten. Nächster Anschlusspunkt für den nächsten Lauf: S. 54.
+
+---
+
 ## 2026-08-04 — Hub-Chef 08:39 bis 08:58 (Briefing versandt, erster Lauf als einziger Meldekanal)
 
 **Erster Chef-Lauf nach dem Ein-Mail-Prinzip.** Radar (06:55) und die übrigen Loops haben heute

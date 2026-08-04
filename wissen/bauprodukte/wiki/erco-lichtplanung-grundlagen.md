@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht (Teil 1/n, Seiten 1-40)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht (Teil 1/n, Seiten 1-53)"
 status: emerging
-last_updated: 2026-07-31
-gelesen: "Seiten 1-40 von ca. 435 (Kapitel «Grundlagen» vollständig: Geschichte, Sehen und Wahrnehmen inkl. Konstanz/Gestaltwahrnehmung/Gegenstände der Wahrnehmung; Kapitel «Gestalten mit Licht» begonnen: Architekturbeleuchtung > Innenräume beleuchten vollständig, Räume verbinden bis «Innenraum–Aussenraum», S. 40). Offen: «Räume verbinden» Rest, «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik», «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht, Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-40 Edition 26.06.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-04
+gelesen: "Seiten 1-53 von ca. 435 (Kapitel «Grundlagen» vollständig: Geschichte, Sehen und Wahrnehmen inkl. Konstanz/Gestaltwahrnehmung/Gegenstände der Wahrnehmung; Kapitel «Gestalten mit Licht» weiter: Architekturbeleuchtung > Innenräume beleuchten vollständig, Räume verbinden vollständig (Innenraum-Innenraum, Innenraum-Aussenraum, Aussenraum-Aussenraum), Objekte beleuchten vollständig (Lichtrichtung, Lichtverteilung variieren, Objekt betonen), Mit Lichtfarben gestalten begonnen: Farbe, Farbsysteme, Lichtfarbe Weiss/Farbig, Farbmischung, S. 53). Offen: «Mit Lichtfarben gestalten» Rest (Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren), «Planungspraxis» (Leuchtenauswahl, Leuchtenanordnung), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik», «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht, Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-53 Edition 26.06.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[REGISTER]]
 ---
 
@@ -15,7 +15,7 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten beiden Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 40 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 53 Seiten.
 
 ## Herstellerneutralität
 
@@ -164,6 +164,94 @@ International Forum) — nur als Bild-/Beispielreferenz, nicht als ERCO-Produkta
   bei Nachtsituationen: Direktblendung von Aussenleuchten in den Innenraum
   vermeiden.
 
+## Räume verbinden — Aussenraum-Innenraum und Aussenraum-Aussenraum (S. 41-42)
+
+Ergänzt den Innenraum-Abschnitt (S. 40) um die beiden Aussenraum-Fälle:
+
+- **Aussenraum-Innenraum:** hohes Tageslicht-Beleuchtungsniveau erzeugt einen starken
+  Spiegeleffekt auf der Glasfläche (Innenraum-Objekte werden unsichtbar); mit
+  abnehmendem Aussenraumniveau (Abend/Nacht) sinkt der Spiegeleffekt und
+  Innenraum-Objekte werden sichtbar. Folgerung: der Spiegeleffekt ist umso geringer,
+  je geringer die Leuchtdichte **vor** und je höher die Leuchtdichte **hinter** dem
+  Glas ist; gut abgeblendete, in die Architektur integrierte Leuchten vor der
+  Glasfläche reduzieren die Leuchten-Spiegelung. Praxisfolge: Schaufenster/
+  Vitrinenbeleuchtung braucht am Tag eine deutlich höhere Beleuchtungsstärke als am
+  Abend, um gegen das Aussenraumniveau sichtbar zu bleiben — Empfehlung, die
+  Innenraumbeleuchtung dem Tageslichtverlauf anzupassen (höher am Tag, niedriger am
+  Abend), um den Kontrast zu reduzieren.
+- **Aussenraum-Aussenraum:** analog zum Innenraum-Fall (S. 40) verstärkt eine helle
+  Rückwand/beleuchtete Hintergrundobjekte die Raumtiefe; Verlagerung des
+  Beleuchtungsschwerpunkts von hinten nach vorne verschiebt den Aufmerksamkeitsfokus.
+  Bei Nacht sind wegen des niedrigeren Referenzniveaus deutlich geringere
+  Beleuchtungsstärken nötig als im Innenraum.
+
+## Objekte beleuchten (S. 43-46)
+
+Neues Unterkapitel unter «Architekturbeleuchtung», drei Stellhebel für die
+Objektakzentuierung:
+
+- **Lichtrichtung (S. 43-44):** gerichtetes Licht von vorne erzeugt starke
+  Modellierung; Oberlicht erzeugt starken Eigenschatten; Licht von hinten zeichnet nur
+  die Silhouette nach. Je steiler der Lichteinfall, desto stärker die
+  Schattenwirkung. Fällt Vorderlicht zusätzlich leicht seitlich ein, entsteht
+  stärkere Plastizität; reines Vorderlicht erzeugt kaum Schatten und wirkt flach.
+  **Konkrete Winkelangabe:** Objektbeleuchtung mit Lichtrichtung **5°-45° zur
+  Senkrechten**, **Optimum bei 30°** — vermeidet starke Reflexe und unerwünschte
+  Körperschatten (bei Personen im Raum). Einsatzfeld laut Quelle: Museen,
+  Ausstellungen, Verkaufsräume; bevorzugte Leuchtengruppen Strahler/Fluter.
+- **Lichtverteilung variieren (S. 45):** enge Lichtkegel (Strahler) akzentuieren und
+  heben das Objekt von der Umgebung ab; eine **Skulpturenlinse** verformt den
+  Lichtkegel zu einem Oval (geeignet für Objekte über die ganze Höhe, z.B.
+  Skulpturen); eine **Floodlinse** spreizt den Kegel auf, erzeugt einen weichen
+  Helligkeitsgradienten und stellt das Objekt stärker im räumlichen Zusammenhang dar.
+- **Objekt betonen — Helligkeitskontrast (S. 46):** Grundbeleuchtung der Wand/Objekte
+  über Wandfluter, gezielte Betonung einzelner Objekte über Strahler-Lichtkegel.
+  **Kontrast-Stufen laut Quelle:** 1:2 kaum wahrnehmbar; **1:5** = Mindestkontrast
+  zwischen primären/sekundären Blickpunkten; **1:10** bildet den Unterschied sehr gut
+  heraus; **1:100** löst das Objekt sehr stark von der Umgebung ab, Risiko einer
+  ungewollten Zergliederung der Wand. Diese Kontraststufen (1:2/1:5/1:10/1:100) sind
+  eine brauchbare, herstellerneutrale Faustregel-Skala für Vitrinen-/Exponat-
+  Beleuchtungskonzepte.
+
+## Mit Lichtfarben gestalten — Farbe, Farbsysteme, Lichtfarbe, Farbmischung (S. 47-53)
+
+Neues Hauptkapitel unter «Architekturbeleuchtung», hier die ersten vier von neun
+Unterpunkten laut Übersichtsgrafik S. 47 (Farbe, Farbsysteme, Lichtfarbe,
+Farbmischung, Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig
+akzentuieren — die letzten fünf sind noch offen, siehe unten):
+
+- **Farbe (S. 48):** Unterscheidung **Lichtfarbe** (von der Lichtquelle abgestrahlte
+  Farbe, definiert über Farbton/Sättigung/Helligkeit des Spektrums; Farbfilter
+  erzeugen farbiges Licht; additive Mischung mehrerer Lichtfarben) und
+  **Körperfarbe** (entsteht aus auffallendem Licht + Absorptionseigenschaften des
+  Körpers, daher nur in Verbindung mit der beleuchtenden Lichtart bestimmbar,
+  zusätzlich über den Reflexionsgrad definiert; Wechselwirkung Licht-/Körperfarbe
+  folgt der subtraktiven Farbmischung).
+- **Farbsysteme (S. 49):** **CIE-System** (Normvalenzsystem, zweidimensionales
+  Diagramm für Farbton+Sättigung, Helligkeit bleibt unberücksichtigt;
+  Komplementärfarben liegen sich gegenüber und ergänzen sich zu Weiss) und
+  **Munsell-System** (dreidimensionale Matrix Helligkeit/Farbton/Sättigung für
+  Körperfarben, da der Reflexionsgrad eine dritte Dimension braucht, die Lichtfarben
+  nicht benötigen).
+- **Lichtfarbe: Weisses Licht (S. 50):** höherer Rotanteil (warmweiss) lässt Räume
+  wärmer wirken, höherer Blauanteil (tageslichtweiss) kühler. Warme Lichtfarben
+  werden bei geringeren Beleuchtungsstärken/gerichtetem Licht bevorzugt, kalte bei
+  hohen Beleuchtungsstärken/diffusem Licht akzeptiert. Beschreibungsgrössen: Farb-
+  **temperatur** (drei Hauptgruppen Warmweiss/Neutralweiss/Tageslichtweiss),
+  Farb**wiedergabe** (gute Wiedergabe = geringe Farbabweichung), Farb**ort** (Position
+  im CIE-Diagramm), Spektrum. Praxishinweis: tageslichtweiss häufig zur
+  Tageslicht-Ergänzung in Büroräumen.
+- **Lichtfarbe: Farbiges Licht (S. 51):** Gelb/Rot wirken warm, Blau kühl; Amber/
+  Magenta wirken gegenüber den Grundfarben Gelb/Blau/Rot schwächer im Ausdruck. Als
+  «natürlich» empfundene Assoziationen laut Quelle: **Magenta** = Sonnenuntergang,
+  **Amber** = Sonnenaufgang, **Nightblue** = klarer Nachthimmel, **Skyblue** =
+  Himmelslicht bei Tag. Einsatzfeld: Ausstellungen, Messestände, Verkaufsräume,
+  Eventbeleuchtung.
+- **Farbmischung: Lichtfarben (S. 52-53):** additive Mischung — je zwei der drei
+  Grundfarben Rot/Grün/Blau ergeben Magenta/Cyan/Gelb; alle drei gleichmässig gemischt
+  ergeben Weiss. Bei Objektbeleuchtung mit mehreren verschiedenfarbigen Lichtquellen
+  entstehen durch räumliche Überlagerung Mischeffekte, u.a. **farbige Schatten**.
+
 ## Praxisrelevanz für JANS
 
 - Kellys Funktions-Dreiklang (Sehen/Hinsehen/Ansehen) ist ein brauchbares
@@ -182,14 +270,29 @@ International Forum) — nur als Bild-/Beispielreferenz, nicht als ERCO-Produkta
   Streiflicht auf einer strukturierten (z.B. Sichtbeton-/Holz-)Wand anders geplant
   werden muss als auf einer glatten Wand — direkt relevant für Fassaden- und
   Foyer-Beleuchtungskonzepte.
+- Die Winkelangabe **30° (Bandbreite 5°-45°)** für Objektbeleuchtung ist ein
+  konkreter, herstellerneutraler Planungswert, den ein Lichtplaner-LV oder ein
+  Beleuchtungskonzept direkt zitieren kann, ohne auf eine bestimmte Leuchte
+  festgelegt zu sein.
+- Die Kontrast-Skala **1:2/1:5/1:10/1:100** (Objekt zu Umgebung) ist eine schnelle
+  Verständigungsgrösse mit der Bauherrschaft beim Abstimmen von Vitrinen- oder
+  Ausstellungslicht («wollen wir das Exponat leicht abheben oder stark isolieren»).
+- Die Lichtfarben-Assoziationen (Amber/Magenta/Nightblue/Skyblue als «natürliche»
+  Tageszeit-Farben) sind ein Vokabular für Farbkonzepte bei Fassaden-/
+  Eventbeleuchtung, das sich gegenüber der Bauherrschaft ohne Herstellerbezug
+  begründen lässt.
 
 ## Offene Punkte
 
-- 40 von ca. 435 Seiten gelesen. Offen: Rest «Räume verbinden» (Aussenraum-
-  Aussenraum), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit
-  vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur),
-  «Simulation und Berechnung» sowie das Glossar — für künftige Destillat-Läufe
-  offen, im Frontmatter-Feld `gelesen:` nachgeführt.
-- Uneinheitliches Editionsdatum je Seite (2006/2007, seitenweise nachgeführt)
+- 53 von ca. 435 Seiten gelesen. Offen: «Mit Lichtfarben gestalten» Rest
+  (Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren),
+  «Planungspraxis» (Leuchtenauswahl, Leuchtenanordnung — laut Seitenmarken ab S. 68
+  ff.), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den
+  praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur), «Simulation und
+  Berechnung» sowie das Glossar — für künftige Destillat-Läufe offen, im
+  Frontmatter-Feld `gelesen:` nachgeführt.
+- Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise nachgeführt)
   deutet auf eine lebende Online-Publikation (www.erco.com/guide laut S.1) — für
-  eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil dieses Laufs.
+  eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil dieses Laufs. Ab
+  S. 55/56 taucht erstmals die Edition 01.03.2010 auf (innerhalb des noch offenen
+  Kapitels «Planungspraxis») — im nächsten Lauf im Quellen-Frontmatter mitführen.
