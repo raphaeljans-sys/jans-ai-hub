@@ -3,7 +3,7 @@ title: "Thalwil 2414: Ein 12.76 m² grosses Vordach braucht eine eigene Näherba
 status: established
 last_updated: 2026-07-28
 sources: [Logbuch-Journal 03.07./09.07./10.07./20.07.2026 (Abschnitte Thalwil 2414 Näherbaurecht), Konversations-Destillat 260717 (Bohlweg 3 Thalwil)]
-links: []
+links: [[negative-vorwirkung-und-bzo-revision]] (KB baurecht, führend für das Thalwiler Baurecht)
 gewerk: "Bauherrenberatung / Behördenkoordination"
 bkp: "n/a (Dienstbarkeits-/Vereinbarungsfrage, kein Bau-Gewerk)"
 sia_phase: "5 Ausführung (SIA 112) — Auflagebereinigung während laufender Projektänderung"
@@ -60,3 +60,12 @@ Plangrundlagen der Projektänderung) von sich aus eine erweiternde
 Näherbaurechtsvereinbarung bei der SBB einholen — nicht erst reaktiv, wenn die
 Behörde die fehlende Vereinbarung als Auflage moniert. Grösse allein
 (hier 12.76 m²) ist kein Freibrief; massgebend ist die Lage im Perimeter.
+
+## Querbezug (Zeiger, kein Rechtsinhalt)
+
+Der Fall läuft in einer Gemeinde mit **hängiger BZO-Revision**. Für alles Baurechtliche an
+Thalwiler Eingaben ist die KB `baurecht` führend; die Arbeitsanweisung dazu steht in
+`wissen/baurecht/wiki/negative-vorwirkung-und-bzo-revision.md`, Ziff. 6
+([[negative-vorwirkung-und-bzo-revision]]). Diese KB gibt den Stand **nicht** wieder — er ändert
+sich mit Genehmigung und Inkrafttreten; dort nachschlagen, nicht hier
+(Zeiger gesetzt Wissens-Chef Run 25, 04.08.2026).

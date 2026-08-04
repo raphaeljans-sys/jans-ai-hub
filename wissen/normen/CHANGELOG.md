@@ -1,3 +1,52 @@
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — SIA 493 archiviert, SIA 430:2023 nachgeführt, drei Übergaben aus energie angekommen, drei BKP-Phantomcodes korrigiert
+
+Alle Fassungsangaben unten sind am **Herausgeber** (shop.sia.ch) verifiziert, nicht aus einer
+anderen KB übernommen (Rule 260729b). Massgeblich war die adversariale Verifikator-Auflösung
+des Laufs, nicht die ursprüngliche Fundmeldung.
+
+- **SIA 493:1997 ist ARCHIVIERT seit 30.06.2022 — die KB führte sie als geltend.** Beleg:
+  shop.sia.ch, Produktseite SIA 493 (SN 550493), «Gültig ab: 01.03.1998», «Gültig bis:
+  30.06.2022, archivierter Titel!»; **kein Nachfolger ausgewiesen**. Nachgeführt an drei Orten:
+  `wiki/REGISTER.md` (Run-5-Zeile SIA 493: «gilt» → Archivvermerk mit Datum und Quelle),
+  `destillate/sia-493-1997.md` (neues Frontmatter-Feld `gueltigkeit` + Warnblock unter der H1;
+  `status: established` bewusst **belassen**, es bezeugt die Destillier-Treue gegen das PDF, nicht
+  die Gültigkeit) und `destillate/INDEX.md`. Die Zeile im 2013-Registerblock (Abschnitt A) wurde
+  **nicht** umgestellt — «Bestand 1997 = gültig 2013 ✓» ist als datierter Registerstand korrekt;
+  sie trägt nur einen Querverweis. EPD nach EN 15804+A2 und die KBOB-Ökobilanzdaten sind
+  ausdrücklich als **nicht 1:1**-Entsprechung und sekundärquellengestützt gekennzeichnet.
+  Praxisfolge im Destillat vermerkt: eine LV-/Werkvertragsklausel «Deklaration nach SIA 493» geht
+  seit vier Jahren ins Leere; der früher empfohlene LV-Satz ist dort zurückgezogen.
+- **SIA 430: die Ausgabe 1993 galt bis 31.07.2023, seit 01.08.2023 gilt SIA 430:2023.**
+  «Vermeidung und Entsorgung von Bauabfällen»; der Organisationsteil ist in das eigene Dokument
+  **SIA 118/430:2023** ausgelagert (ebenfalls ab 01.08.2023). Beleg shop.sia.ch, beide
+  Produktseiten. Nachgeführt: `destillate/sia-430-1993.md` (neue Felder `gueltigkeit` und
+  `ersetzt_durch`, Warnblock unter der H1, widersprechender Bullet unter «Offene Punkte» mit
+  datiertem Korrekturvermerk aufgelöst — er verwies auf `sia-register-2013.md`, eine Quelle mit
+  Stand 25.02.2013, die eine Revision von 2023 prinzipiell nicht ausweisen kann) und
+  `destillate/INDEX.md`. Die Zeile SIA 430 in `wiki/REGISTER.md` behält in der Spalte
+  «Gültig 2013» das Jahr 1993 (Stichtag 25.02.2013, dort richtig); der Nach-2013-Sachverhalt
+  steht in der Bemerkungsspalte. **Der Inhalt der Ausgabe 2023 liegt nicht im Haus** — verifiziert
+  sind Existenz, Titel und Daten, nicht der Norminhalt; die Aussage «Neuausrichtung auf
+  Kreislaufwirtschaft» bleibt sekundärquellengestützt und wurde nicht als Norminhalt gesetzt.
+- **`wiki/QUESTIONS.md`: neuer Cross-KB-Block zuoberst.** Bring-Schulden SIA 430:2023 (Inhalt) und
+  SIA 118/430:2023 (fehlt in der KB vollständig, primär für Skill `werkvertrag`), dazu die drei
+  Übergaben aus dem energie-Run 123 — **E-123-2** (Nachfolgeweg SIA 493), **E-123-3** (Ablösung
+  SIA 162/4 durch MB 2030 nur sekundärquellengestützt) und **E-123-6** (Ausgabestand SIA 118 in
+  den Kontroll-Checklisten). Sie standen bisher **nur** in `energie`; grep «E-123» über die KB
+  `normen` lieferte 0 Treffer. Dazu die methodische Lehre: das Bestands-Korrektiv des REGISTER
+  fängt Revisionen ab, aber **keine ersatzlosen Archivierungen** (SIA 493) und **keine
+  Revisionen, bei denen der Hausbestand genau die 2013-gültige Ausgabe ist** (SIA 430).
+- **Drei BKP-Phantomcodes «271.10» in eigenen Destillaten korrigiert** (Anschluss an Ticket
+  N43-1). Quelle `references/bkp-2017/BKP-2017-Liste.md` / Rule `bkp-2017-referenz.md`:
+  `vkf-aenderungen-brandschutzrichtlinien-2017.md` und `vkf-ah-1002-03-parkhaeuser.md` → **271.1
+  Trockenbauarbeiten** (Sachbezug Trockenbau); `sia-273-1998.md` → **281.0 Estriche
+  (Unterlagsböden)**, weil es dort um Gussasphalt-Unterlagsböden geht und keine 271er-Position
+  einschlägig ist — welche ursprünglich gemeint war, ist dem Text nicht zu entnehmen und wurde
+  **nicht** geraten. Jede Stelle trägt den datierten Korrekturvermerk. Die Inhaltsangabe zu
+  `crb-merkblatt-16d-06-spachtelungen-weissputze.md` in `destillate/INDEX.md` wurde von
+  «271.1/271.10» auf «271.1/271.0» korrigiert; die Stellen, die über den **Fehler** sprechen
+  (CHANGELOG Run 43, `outputs/`, Ticket N43-1), blieben unverändert.
+
 ## 2026-08-04 (Normen-Training Run 43, MacBook Pro) — 5 Widerlegungs-Pruefungen, SWKI- und SIA-500-Anhaenge, BKP-Fehler in der Hub-Referenz
 
 - **Fuenf Erstdestillate des Run 42 unabhaengig refuter-geprueft — alle fuenf BEANSTANDET**

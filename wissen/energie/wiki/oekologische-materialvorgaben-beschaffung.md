@@ -1,7 +1,7 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-04 (Run 123, neu angelegt)"
+last_updated: "2026-08-04 (Run 123 neu angelegt; Wissens-Chef Run 25: Vertragshierarchie SIA 118 korrigiert)"
 sources:
   - "[[eco-bau-merkblaetter-bkp-2008-huelle]] und [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] — Verein eco-bau c/o KBOB, «Ökologisch Bauen — Merkblätter nach Baukostenplan BKP», Ausgabe 2008, 55 S. vollständig gelesen"
   - "[[bauoekologische-submissionsbedingungen]] — Stadt Zürich HBD, «Allgemeine bauökologische Submissionsbedingungen», September 2006"
@@ -97,8 +97,33 @@ Zwei Regeln sind dabei nicht verhandelbar:
 Flankierend werden die Anforderungen über **bauökologische Submissionsbedingungen** als
 **integrierender Vertragsbestandteil** überbunden — Materialauflagen, Baustellenbetrieb,
 Melde- und Sorgfaltspflichten, Erfolgskontrolle (`[[bauoekologische-submissionsbedingungen]]`).
-Die Vertragshierarchie lautet dabei: **LV vor Submissionsbedingungen vor Allgemeinen
-Bedingungen**.
+
+⚠ **Korrektur 04.08.2026 (Wissens-Chef Run 25) — die verbreitete Dreierliste «LV vor
+Submissionsbedingungen vor Allgemeinen Bedingungen» ist keine Rangordnung nach SIA 118.**
+Dieser Artikel gab sie bis zum 04.08.2026 als «die Vertragshierarchie» aus. Sie stammt wörtlich
+aus dem AHB-Blatt **ÖKO 3.14.C** (Checkliste Deviskontrolle, 29.08.2006), das sie selbst mit
+«Gemäss SIA 118 gilt folgende Reihenfolge der Vertragsbestandteile» einleitet. **Diese
+Zuschreibung ist ein Attributionsfehler der Quelle** und wird hier ausdrücklich als solcher
+festgehalten — sonst bleibt er als quellenbelegte Norm-Aussage stehen und wird beim nächsten
+Destillieren erneut abgeleitet.
+
+Zutreffend ist zweierlei:
+
+- **Vertraglich vereinbart, nicht normativ.** Dass die bauökologischen Submissionsbedingungen dem
+  LV nachgehen, folgt nicht aus SIA 118, sondern aus ihrer eigenen **Selbst-Nachrangigkeitsklausel**:
+  Sie gelten «nur, sofern in den Leistungsverzeichnissen keine abweichenden Anforderungen
+  festgelegt sind» (ÖKO 3.14.C; Richtlinie 3.11.R Ziff. 1.1). Das ist eine AHB-Vertragsregelung,
+  keine Normwirkung — und sie trägt nur, solange dieselbe Klausel im eigenen Vertrag steht.
+- **Die Rangordnung nach SIA 118 ist länger, und das LV steht darin nicht zuoberst.** Nach
+  **SIA 118:1991, Art. 21 Abs. 1** gehen die unterzeichnete Vertragsurkunde und das Angebot des
+  Unternehmers samt Beilagen den Ausschreibungsunterlagen vor; innerhalb der
+  Ausschreibungsunterlagen gilt nach **Art. 7 Abs. 2 und 3** die Reihenfolge 1. Text der
+  Vertragsurkunde, 2. objektbedingte besondere Bestimmungen, 3. Leistungsverzeichnis bzw.
+  Baubeschreibung, 4. Pläne, 5. nicht objektbedingte allgemeine Bestimmungen (darunter
+  a) Norm SIA 118, b) übrige SIA-Normen, c) weitere Fachverbandsnormen). Die Dreierliste
+  unterschlägt damit die drei Ränge **oberhalb** des LV. Führend ist die KB `normen`
+  (`wissen/normen/destillate/sia-118-1991.md`, Rule `normen-referenz`); offen bleibt dort der
+  Stand der Ausgabe **SIA 118:2013**, die im Hub nicht vorliegt.
 
 ### 4. Die Kontrolle — zweimal, zu zwei Zeitpunkten
 

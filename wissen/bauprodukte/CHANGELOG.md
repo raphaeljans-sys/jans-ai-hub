@@ -1,5 +1,37 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Erst-Verlinkung zur KB `energie` über die eco-BKP-Achse
+
+Befund F1-ecoBKP, Meldung 3. Messung dahinter: `grep bauprodukte` über `wissen/energie/` = 0
+Treffer, `grep energie` über `wissen/bauprodukte/` = 0 Treffer — zwei KBs, die beide nach BKP
+gliedern, kannten einander in keiner Richtung. Gesetzt wurde in diesem Lauf **nur die
+bauprodukte-Seite** (die energie-Seite bearbeitet eine andere Gruppe).
+
+- **`wiki/QUESTIONS.md` Punkt 9 (Holzbau und Bekleidungen, GEBLOCKT mangels Quellmaterial):**
+  Teil-Antwort mit Zeigern auf die eco-Destillate der KB `energie` —
+  `energie/destillate/eco-bau-merkblaetter-bkp-2008-huelle.md` Abschnitte «BKP 214» und
+  «BKP 215» sowie «BKP 225», und
+  `energie/destillate/eco-bau-merkblaetter-bkp-2008-technik-ausbau.md` Abschnitt «BKP 271»
+  (Trockenbau). Ausdrücklich festgehalten: zu **BKP 225.4 Brandschutzbekleidungen** trägt der
+  eco-Bestand nichts bei; die **Blockade ist nicht aufgehoben, sondern nur teilweise umgangen**
+  — für einen Artikel mit Bauprodukte-Mehrwert fehlt weiterhin produktseitiges Material.
+- **Punkt 3 (Dachbegrünung):** Zeiger auf `…-huelle.md`, Abschnitt «BKP 224 —
+  Bedachungsarbeiten», Unterabschnitt «Dachbegrünung». Der Punkt bleibt offen; massgebende
+  Fachnorm bleibt SIA 312:2013 (führend `wissen/normen`).
+- **Punkt 8 (Terrazzo/Kunststein):** Zeiger auf `…-technik-ausbau.md`, Abschnitt «BKP 281 —
+  Bodenbeläge». Ausdrücklich festgehalten: zu den beiden dort offenen Punkten
+  (Gleitfestigkeitsklasse, Reinigungs-/Pflegeverhalten) sagt die eco-Quelle **nichts**.
+- **Datierungsvorbehalt an jedem der drei Zeiger:** Quelle ist die Ausgabe **2008** der
+  «Merkblätter nach BKP». Die Reihe lebt als ecoBKP weiter (aktuell Ausgabe 2026 bei
+  ecobau.ch; Materialempfehlungen auf die Methodik «Baumaterialien ecobau 2025» umgestellt, in
+  ecoBKP 214/215 kamen 2026 Empfehlungen zu Rückbaubarkeit/Reversibilität hinzu). Das Destillat
+  kennzeichnet seine Materialprioritäten selbst als «historischer Stand von 2008 und nicht als
+  heutige Empfehlung verwendbar» (Aktualitätsprüfung Run 123, 04.08.2026). Übertragbar ist die
+  Systematik, nicht der Materialentscheid — vor jeder LV-Verwendung ist die geltende
+  ecoBKP-Ausgabe von ecobau.ch zu ziehen.
+- Punktnummern vor dem Eingriff am aktuellen Text verifiziert (3, 8, 9 unverändert zutreffend).
+  Keine Zahl, kein Bestandssatz und kein Abschnitt entfernt; nur Nachträge.
+
 ## 2026-08-04 (Mac Mini, 13:30-Versuchsslot) — ERCO-Destillat fortgeschrieben: Seiten 40 → 53
 - Prioritäten 1-3 ohne offenen Punkt (0 Sync-/Remote-Tasks; Synobsis Stufe 2 abgeschlossen,
   Batch-Task bewusst deaktiviert seit 25.07., kein neues Material; Fristen-/Pendenzen-Radar

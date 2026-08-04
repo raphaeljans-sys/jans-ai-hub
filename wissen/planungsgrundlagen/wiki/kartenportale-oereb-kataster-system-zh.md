@@ -3,7 +3,7 @@ title: ÖREB-Kataster-System Kt. ZH — Rechtsgrundlagen, Themen-Register, Vorwi
 status: established
 last_updated: 2026-07-14
 sources: [Kt. ZH ARE Abt. Geoinformation, "Weisung ÖREB-Kataster Betrieb und Nachführung der Daten", Version 3, 01.12.2022 (73 S.), vollständig ausgewertet Run 44+46]
-links: [[kartenportale-oereb-egrid-bezug]], [[kartenportale-geoportale-uebersicht]], [[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-naturgefahren-objektschutz]], [[kartenportale-denkmalschutz-isos]], [[recht-norm-quellenlandkarte]]
+links: [[kartenportale-oereb-egrid-bezug]], [[kartenportale-geoportale-uebersicht]], [[kartenportale-zonenplan-zh]], [[kartenportale-baulinien-abstandslinien-zh]], [[kartenportale-naturgefahren-objektschutz]], [[kartenportale-denkmalschutz-isos]], [[recht-norm-quellenlandkarte]], [[negative-vorwirkung-und-bzo-revision]] (KB baurecht, führend für die Vorwirkung)
 ---
 
 # ÖREB-Kataster-System Kt. ZH — Rechtsgrundlagen, Themen-Register, Vorwirkung
@@ -137,6 +137,24 @@ Auszugs).
   hinzuweisen: konkret bei planungsrechtlichen Festlegungen gemäss §§ 234/150/264/346 PBG.
   Nähere Auskunft zur rechtlichen Wirkung im Einzelfall: bei kommunalen Themen die zuständige
   Gemeinde, bei kantonalen Themen die zuständige kantonale Fachstelle.
+
+> **Querbezug KB `baurecht` (Recht führend, Zeiger gesetzt Wissens-Chef Run 25, 04.08.2026).**
+> Dieser Abschnitt gibt Ziff. 2.5.2 der ÖREB-Weisung wieder und bleibt hier richtig aufgehoben —
+> er erklärt, warum das Connector-Flag `revision_laeuft` rechtliche Wirkung hat. Die Weisung ist
+> aber eine **Kataster-Betriebsweisung**, keine baurechtliche Darstellung; sie sagt nichts darüber,
+> **wie weit** die Vorwirkung im Einzelfall reicht. Das führt die KB `baurecht`:
+> `wissen/baurecht/wiki/negative-vorwirkung-und-bzo-revision.md`
+> ([[negative-vorwirkung-und-bzo-revision]]). Dort steht die Anknüpfung an **§ 234 PBG**
+> (planungsrechtliche Baureife, nicht eine BZO-Übergangsbestimmung), die Dauer nach **§ 235 PBG**
+> und die Faustregel, dass in der Übergangsphase **je Einzelbestimmung die strengere Fassung**
+> gilt. Für die Auslegung des Geodatums heisst das: der proj-Layer meldet **dass** und in welcher
+> **Phase** revidiert wird, nicht **welche Einzelbestimmung** vorwirkt — dafür ist das unter
+> `dokument` verlinkte Auflagedossier der Gemeinde zu öffnen (technischer Grund:
+> [[kartenportale-zonenplan-zh]] §A6, Lese-Hinweis — bei `revisionsart = Aenderung_Bauordnung`
+> bleiben die proj-Attribute leer, die neuen Werte stehen nur im verlinkten Dokument).
+> ⚠ **Nicht verallgemeinern:** In welcher Form eine Gemeinde den Umfang der Vorwirkung publiziert,
+> ist **kommunale Praxis** und nicht vorgeschrieben. Thalwil hat dafür eine Synopse mit grau
+> hinterlegten Bestimmungen aufgelegt — das ist ein **Beispiel**, keine Regel für den Kanton ZH.
 
 **JANS-Anwendung:** Meldet der Connector bei einer Machbarkeitsstudie (Skill `machbarkeit`,
 Studientyp A) eine laufende Zonen-/Baulinien-Revision, ist das keine reine Vorschau-Info,

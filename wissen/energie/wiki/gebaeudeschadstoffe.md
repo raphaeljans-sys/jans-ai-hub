@@ -1,16 +1,31 @@
 ---
 title: Gebäudeschadstoffe beim Umbau (Kt. ZH)
 status: established
-last_updated: 2026-07-25
+last_updated: "2026-08-04 (Run 123 Gewerksfundstellen; Wissens-Chef Run 25 VVEA-Rechtsbasis präzisiert)"
 sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]]
 ---
 
 # Gebäudeschadstoffe beim Umbau (Kt. ZH)
 
-> ⚠ **Datenstand 2023** (AWEL-Checkliste, Rechtsbasis Art. 16–20 VVEA). Schwellen sind
-> Kt.-ZH-spezifisch; andere Kantone (z. B. SZ) abweichend — vor Anwendung am aktuellen
-> AWEL-Stand bzw. `polludoc.ch` prüfen.
+> ⚠ **Datenstand 2023** (AWEL-Checkliste). Schwellen sind Kt.-ZH-spezifisch; andere Kantone
+> (z. B. SZ) abweichend — vor Anwendung am aktuellen AWEL-Stand bzw. `polludoc.ch` prüfen.
+>
+> **Rechtsbasis, präzisiert 04.08.2026 (Wissens-Chef Run 25):** Einschlägig für das hier
+> beschriebene Vier-Fälle-Raster ist **Art. 16 VVEA** (Verordnung über die Vermeidung und die
+> Entsorgung von Abfällen, SR 814.600) — Angaben zu Abfällen vor Baubeginn. Er wurde am
+> konsolidierten Fedlex-Volltext (Stand 01.08.2026) gegen die Fassung vom 01.01.2025 geprüft
+> und ist **materiell unverändert**, einschliesslich der 200-m³-Schwelle und der Aufzählung
+> PCB/PAK/Blei/Asbest. Der bisherige Zeiger «Art. 16–20 VVEA» war zu weit gefasst: Art. 17–20
+> regeln Verwertungspflichten und tragen dieses Raster nicht. Das ist **Belegpflege, keine
+> Fehlerkorrektur** — keine Aussage dieses Artikels ändert sich dadurch.
+>
+> Separat, und **beim Entsorgungskonzept statt bei der Schadstoffabklärung** zu beachten:
+> **Art. 20 VVEA** (mineralische Abfälle aus dem Rückbau) ist seit **01.08.2025** revidiert
+> (AS 2025 453) — Titel neu «Rückbau von Bauwerken», Betonabbruch und Gleisaushub neu in
+> Abs. 1, Abs. 3 aufgehoben. Die VVEA trägt zudem Änderungen per 01.12.2025 (AS 2025 745),
+> 01.01.2026 (AS 2025 799) und 01.08.2026 (AS 2026 357). **Führend für den Erlasswortlaut ist
+> die KB `baurecht`.**
 
 ## Das Wichtigste
 Wer ein Gebäude mit **Baujahr vor 1990 umbaut**, muss vor dem Bau eine **Schadstoffabklärung**

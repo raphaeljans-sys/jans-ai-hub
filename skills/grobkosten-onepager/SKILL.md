@@ -97,7 +97,19 @@ Health-Check: Skill `wissenscheck` auditiert `wissen/grobkosten` (unbelegte Clai
 
 - **`kostenschaetzung`** (Schwester): detailliert, m2-NF nach SIA 416, BKP-Struktur, Wuest-Partner-Daten — fuer belastbarere Phasen.
 - **`grobkosten-onepager`** (dieser Skill): eine Seite, Volumen x Kennwert, Praesentation in der Studienphase.
-- Bei Healthcare-Nutzung die Kennwerte aus `kostenschaetzung` (Wuest Partner) bevorzugen.
+- **Healthcare** (Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis): die m3-Werte der KB
+  `wissen/grobkosten` sind dafuer ausdruecklich gesperrt. Fuehrende Quelle fuer **CHF/m3 GV**
+  und **CHF je Pflegezimmer** ist `wissen/immobilienbewertung/wiki/realwert-sachwert.md`,
+  Abschnitt «Healthcare-Kennwerte-Basis erweitert» — dort im Original nachschlagen. Achtung
+  Bezugsbasis: jene Baender sind auf **BKP 2 (Gebaeude)** bezogen und deshalb nicht direkt mit
+  den **BKP-1-5**-Werten dieses Onepagers vergleichbar; BKP 1, 3-5 explizit aufbauen. Der Skill
+  `kostenschaetzung` fuehrt **CHF/m2 NF** (Wüest Partner) — eine andere Bezugsgroesse als das
+  hier gerechnete Volumen, also nur fuer eine m2-NF-Gegenrechnung heranziehen, nicht als
+  Volumen-Kennwert. (Route korrigiert 04.08.2026, Wissens-Chef Run 25 — die Zeile routete
+  Healthcare bisher pauschal an `kostenschaetzung` und damit auf die falsche Bezugsgroesse;
+  Beleg `wissen/grobkosten/wiki/kennwerte.md`, Abschnitt «Healthcare / Spezialnutzung», und
+  Fuehrungsmatrix `wissen/koordination/QUERBEZUEGE.md`.)
+- Fuer die Wirtschaftlichkeitsrechnung Healthcare: Skill `healthcare-wirtschaftlichkeit`.
 
 ## Referenzen
 

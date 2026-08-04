@@ -35,9 +35,24 @@ widersprach sich also selbst, und zwar ausgerechnet dort, wo beim Devisieren nac
 
 Der falsche Code hatte sich zum Zeitpunkt der Korrektur in **15 Hub-Dateien** ausgebreitet,
 darunter `skills/ausschreibung/SKILL.md` und `skills/brandschutz/SKILL.md`. Korrigiert sind
-diese Rule und die Referenzliste (die beiden normativen Quellen). **Die übrigen Fundstellen
-sind nachzuziehen** — Altdokumente mit «BKP 271.10» im LV-Titel tragen einen Code, den kein
-Unternehmer und keine Bauherrschaft verifizieren kann.
+diese Rule und die Referenzliste (die beiden normativen Quellen).
+
+**Nachgezogen am 04.08.2026 (Wissens-Chef Run 25):** `skills/ausschreibung/SKILL.md`
+(Formatbeispiel auf 271.0, dazu die Katalog-Kennzeichnung), `skills/brandschutz/SKILL.md`
+(vier Fundstellen) sowie drei Destillate der KB `normen`. Wichtig ist dabei die
+**Sachbezugs-Regel**: im Brandschutz-Skill bezeichneten alle vier Stellen das
+**Trockenbau**-LV, richtig ist dort also **271.1**, nicht 271.0 — wer einen Phantomcode
+mechanisch durch den erstbesten existierenden ersetzt, erzeugt einen Fehler, der
+verifizierbar aussieht und beim nächsten Audit nicht mehr auffällt.
+
+**Zweite Fehlerklasse, gleiche Wurzel: bürointerne Los-Nummern sind keine BKP-Codes.**
+Der Stadt-Zürcher Katalog 2008 und die JANS-Los-Nummerierung kennen zweistellige
+Nachkommastellen (z.B. das reale KISPI-Los `271.13 Trockenbau/Gipserarbeiten OG Süd`), das
+BKP 2017 nicht. Schreibt man einer solchen Nummer «BKP» davor, entsteht genau der Code, den
+niemand verifizieren kann. Deshalb: Los-Nummern nie mit dem Präfix «BKP» schreiben, sondern
+als `LOS <Nr.> (bürointerne Los-Nummer, kein BKP-Code)`, und den zugehörigen echten Code
+danebenstellen. Offen geblieben (Ticket N43-1, Rest): Altdokumente und Projektordner mit
+«BKP 271.10» oder «BKP 271.13» im LV-Titel tragen weiterhin einen unverifizierbaren Code.
 
 Lehre für diese Rule: Ein Schnellreferenz-Block ist eine Abschrift und damit genauso
 prüfbedürftig wie jede andere Sekundärquelle. Bei Zweifel gilt der systematische Teil der

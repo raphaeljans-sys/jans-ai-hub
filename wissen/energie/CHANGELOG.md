@@ -2,6 +2,81 @@
 
 Neueste zuoberst.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Dachbegruenung SIA 312:2013, SIA-118-Attributionsfehler, SIA-493-Warnvermerke, VVEA-Rechtsbasis
+
+Nachlauf zum eco-bau-/AHB-Korpus aus Run 123. Alle Korrekturen sind am **Original** verifiziert
+(SIA 312:2013 im Volltext gelesen, SIA 118:1991 Art. 7/21 am PDF, AHB-Blatt OEKO 3.14.C am
+PDF, VVEA am konsolidierten Fedlex-Volltext Stand 01.08.2026, SIA 493 an shop.sia.ch);
+massgeblich war jeweils die Verifikator-Aufloesung, nicht die Erstmeldung. **Nichts geloescht** —
+korrigiert bzw. mit datiertem Vermerk versehen.
+
+**1. Dachbegruenung — Fassungsvorbehalt eigener Art** in
+`destillate/eco-bau-merkblaetter-bkp-2008-huelle`. Die SFG-Zeile (BKP 224, extensive
+Dachbegruenung) trug einen Vorbehalt vom **falschen Typ**: er schickte den Leser auf die Suche
+nach einer neueren **Label**-Fassung, waehrend seit **01.11.2013 SIA 312:2013 «Begruenung von
+Daechern» (SN 564312)** samt ABB **SIA 118/312** (Ziff. 0.2) das Feld besetzt und SIA 271/318
+ergaenzt (Ziff. 0.1.2). In der Norm ist die Gruendachrichtlinie **kein Qualitaetsstandard,
+sondern Pruefverfahren** (Ziff. 2.5.5 Deckungsgrad, ausdruecklich «oder gleichwertige
+Pruefmethoden»; Ziff. 4.3.2 Substrat-Wasserkapazitaet) und steht nur im **informativen Anhang C
+[14]**, zitiert ausschliesslich als **Teil 1** (1999); **Teil 2 «Labelvergabe und Oekobilanz»**
+und das SFG-Label kommen in der ganzen Norm nicht vor. Gesetzt wurden eine **typisierte Fussnote
+an der SFG-Zeile** und eine **eigene Zeile in der Aktualitaetspruefungs-Tabelle**, mit Verweis
+auf die fuehrende KB `normen` (`sia-312-2013`) und auf `bauprodukte/wiki/dachbegruenung-systeme`.
+Ausdruecklich **nicht** behauptet: dass das SFG-Label ueberholt sei — Schweigen der Norm ist
+keine Aufhebung; es bleibt eine freiwillige Zusatzanforderung. **Selbstwiderspruch aufgeloest:**
+«SFG» ist aus der Schlusszeile «Nicht geprueft und weiterhin offen» herausgenommen (mit
+Korrekturvermerk an Ort), weil es nun eine eigene, gepruefte Zeile hat.
+
+**2. SIA-118-Vertragshierarchie — Attributionsfehler der Quelle benannt.** Der Wiki-Artikel
+`wiki/oekologische-materialvorgaben-beschaffung` gab die Dreierliste «LV vor
+Submissionsbedingungen vor Allgemeinen Bedingungen» als «die Vertragshierarchie» aus. Die
+Primaerquelle **OEKO 3.14.C (AHB Stadt Zuerich, 29.08.2006)** leitet sie selbst mit «Gemaess
+SIA 118 gilt folgende Reihenfolge» ein — **diese Norm-Attribution ist falsch** und ist jetzt
+ausdruecklich als **Attributionsfehler der Quelle** festgehalten, damit sie beim naechsten
+Destillieren nicht erneut abgeleitet wird. Der eigentliche Mangel: die Dreierliste unterschlaegt
+die Raenge **oberhalb** des LV. Uebernommen mit Fundstelle: **SIA 118:1991 Art. 21 Abs. 1**
+(Vertragsurkunde und Angebot ueber den Ausschreibungsunterlagen) und **Art. 7 Abs. 2/3**
+(Vertragsurkunde-Text → objektbedingte besondere Bestimmungen → LV/Baubeschreibung → Plaene →
+allgemeine Bestimmungen, darunter SIA 118). Was in der Quelle wirklich traegt, ist die
+**Selbst-Nachrangigkeitsklausel** der Submissionsbedingungen, nicht die Norm. Derselbe Vermerk
+im Destillat `destillate/eco-bau-devis-und-baustellenkontrolle`; dort zusaetzlich der
+**Selbstwiderspruch** aufgeloest, weil der Bauherren-Transfer die beiden hinteren Raenge
+gegenueber dem eigenen Kernteil umkehrte.
+
+**3. SIA 493 — gleichlautende Warnvermerke an den LV-/Devis-Stellen.** Die KB energie hat die
+Archivierung per **30.06.2022** selbst belegt und ist hier **nicht** die Fehlerquelle; die
+Vermerke schuetzen die Stellen, die eine Deklaration «nach SIA 493» als Anforderung wiedergeben:
+`eco-bau-merkblaetter-bkp-2008-huelle` (PVC-Bahnen/R-Saetze; Raster 493.07),
+`bauoekologische-submissionsbedingungen` (Ziff. 1.3 Warendeklarationspflicht und
+Aktualitaetspruefung) und `eco-bau-devis-und-baustellenkontrolle`. Kern: die Deklarationsform
+wird nicht mehr publiziert, eine solche Klausel verlangt vom Unternehmer einen Nachweis, den es
+nicht mehr gibt; **kein Nachfolger behauptet**; fuehrend fuer den Fassungsstand ist die KB
+`normen`.
+
+**4. VVEA — Belegpflege, keine Fehlerkorrektur.** In `wiki/gebaeudeschadstoffe` ist der zu weit
+gefasste Zeiger «Rechtsbasis Art. 16–20 VVEA» durch einen datierten, artikelgenauen ersetzt:
+einschlaegig ist **Art. 16 VVEA (SR 814.600)**, am konsolidierten Fedlex-Volltext Stand
+01.08.2026 gegen die Fassung 01.01.2025 geprueft und **materiell unveraendert** (inkl.
+200-m³-Schwelle und Aufzaehlung PCB/PAK/Blei/Asbest). Art. 17–20 regeln Verwertungspflichten und
+tragen das Vier-Faelle-Raster nicht. Als eigener Hinweis, **beim Entsorgungskonzept statt bei der
+Schadstoffabklaerung**: Art. 20 VVEA ist seit **01.08.2025** revidiert (AS 2025 453, Titel neu
+«Rueckbau von Bauwerken», Betonabbruch und Gleisaushub neu in Abs. 1, Abs. 3 aufgehoben),
+weitere Aenderungen AS 2025 745 / AS 2025 799 / AS 2026 357. Fuehrend fuer den Erlasswortlaut:
+KB `baurecht`. Der Warnvermerk «Datenstand 2023» zur AWEL-Checkliste bleibt unveraendert stehen —
+er betrifft das kantonale Formular, nicht das Bundesrecht.
+
+**5. QUESTIONS.md** um drei Eintraege ergaenzt: **E-R25-1** heutiger Bestand von SFG /
+Gruendachrichtlinie / Label nicht verifiziert (sfg-gruen.ch nicht abgerufen); **E-R25-2**
+Asbest-Meldepflicht bei Abbruch — **bewusst nicht materiell eingebaut**, weil nicht verifiziert,
+Fundstelle in der fuehrenden KB `baurecht` zu holen (Hinweis: das dort gefuehrte Siglum «Art. 3a
+ABV» duerfte unzutreffend sein, einschlaegig eher § 3a Abs. 2 AbfV ZH, LS 712.11); **E-R25-3**
+VVEA-Anhaenge 3/5 und Folge-Revisionen nicht geprueft.
+
+**Bewusst NICHT ausgefuehrt:** kein Eingriff in `wiki/oekologische-materialvorgaben-beschaffung`
+zum Thema Dachbegruenung — der Artikel behandelt Dachbegruenung mit keinem Wort, der
+SIA-312-Vorbehalt waere dort ein Fremdkoerper. Und kein vierter generischer Fassungsvorbehalt im
+huelle-Destillat: drei bestehen bereits, ein weiterer haette nicht geschaerft.
+
 ## 2026-08-04 — Run 123: eco-bau-/AHB-Beschaffungskorpus, 9 Destillate, 2 Agentenbefunde widerlegt
 
 **Transfer (10 PDF gelesen, 9 Destillate, alle `emerging`):** `eco-bau-merkblaetter-bkp-2008-huelle`

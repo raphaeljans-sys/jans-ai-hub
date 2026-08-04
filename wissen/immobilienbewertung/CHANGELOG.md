@@ -2,6 +2,34 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Doppelfuehrung Tab. 2 benannt, HNF/GF-Zeiger gesetzt, Preisstand-Vermerk WALD-Anker
+
+- **`wiki/realwert-sachwert.md`, Neuwert-Richtwerte CHF/m3 (Befund F6-kennwerte-V1, verifiziert
+  am Original-PDF `schaetzungsanleitung_kap5.pdf`, `pdftotext -layout`, 04.08.2026):**
+  Vorbehalts-Block unter die aufindexierte Tabelle gesetzt. Er benennt die Doppelfuehrung
+  derselben Fremdtabelle in dieser KB und in `wissen/grobkosten/wiki/kennwerte.md`
+  (Abschnitt «Run 12»), die dortige Beschraenkung auf die BandUNTERgrenze — die hier gefuehrte
+  **Bandlesart ist am Original bestaetigt** (je Bauklasse zwei Zahlen unter EFH wie unter MFH)
+  — und die Abweichung der Teuerungsfaktoren 1.346 (Anker 01.04.2003 = 899.2) gegen 1.334
+  (Anker 01.04.2004 = 907.6) von rund 1 %. **Keine Zahl geaendert.**
+- **`wiki/wissensluecken.md`:** neue Zeile **D12** (Entscheid Raphael: welcher Teuerungsanker
+  gilt hub-weit, und wird die Doppelfuehrung durch einen reinen Verweis ersetzt). Empfehlung
+  des Verifikators 1.346 / 01.04.2003 wegen der Fusszeile «Stand 2003» im Tabellenkopf; die
+  Alternative bleibt als benannte Unsicherheit von rund 1 % stehen. Spiegel-Eintrag in
+  `wissen/grobkosten/wiki/QUESTIONS.md`.
+- **HNF/GF-Regelgeschoss (Befund F6-kennwerte, Meldung 4):** In der `needs-decision`-Box von
+  `wiki/realwert-sachwert.md` nachgetragen, dass der kanonische Entscheid vom 12.07.2026 und
+  das Flag vom 25.07.2026 die fuehrende Wuest-Benchmark-Referenz
+  `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md:32` nie
+  erreicht haben — dort steht 0.70 unkommentiert. Zeile `T-Regelgeschoss` in
+  `wiki/wissensluecken.md` entsprechend erweitert. **In der Skill-Referenz selbst wurde nicht
+  geschrieben** (fremder Zustaendigkeitsbereich in diesem Lauf); die Gegenrichtung bleibt offen.
+- **Preisstand-Vermerk:** Der beilaeufig zitierte WALD-Studienanker «~4'000 CHF/m2 GF» aus
+  `skills/healthcare-wirtschaftlichkeit` traegt weder Basisjahr noch Index und ist im
+  Healthcare-Abschnitt als **«Preisstand unbelegt»** markiert. Ausdruecklich mit vermerkt: der
+  Wert ist inhaltlich **nicht** ueberholt (Neubauten ab 2019 roh 3'561-4'250, teuerungsbereinigt
+  3'820-4'485 — der Anker liegt mittig); es fehlt die Datierung, nicht die Groessenordnung.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B6 · C1 · D0 · E0 · F2 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Fuenf der sechs B-Befunde entfallen auf `wiki/wissensluecken.md` (kein Frontmatter, totes Ziel `[[outputs/…]]`). Fehlende `wiki/QUESTIONS.md` ist bewusste Schema-Abweichung — gehoert in `CLAUDE.md` dokumentiert. **Audit F korrigiert gegenueber 2026-08-01:** die 91 Warnmarker sind durch `CLAUDE.md` Z. 52 vorgeschrieben, kein Deko-Verstoss. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

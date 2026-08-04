@@ -3,6 +3,53 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Thalwil Klein-/Anbauten: der 31.07.-Output trug drei Sachfehler; Korrekturvermerk gesetzt, Arbeitsregel präzisiert, Rückkante zu `planungsgrundlagen` gelegt
+
+- **`outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md` — datierter Korrekturvermerk
+  am Kopf** (Bericht selbst unverändert, historisches Dokument). Der Bericht gab für Klein- und
+  Anbauten in Thalwil eine Arbeitsanweisung, die dem seit Buch-Run 72 belegten Stand widerspricht.
+  Vier korrigierte Punkte: **(1)** Art. 45 revBZO ist in der Synopse «Fassung zur Negativen
+  Vorwirkung» vom 05.09.2025 **nicht grau markiert** und wirkt nicht vor (Content-Stream
+  `sc 0.8509804` = #D9D9D9, am Pixel nachgemessen, Buch-Run 72; Synopse S. 40 =
+  `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md` Z. 1706-1712). **(2)** Die 50 m² sind
+  **kantonales** Recht — **§ 2a Abs. 1 ABV** (`raw/260607_amtlich_zh_abv.md` Z. 50-52), eine
+  Begriffs-/Qualifikationsgrenze, keine revBZO-Nachweisgrenze; die revBZO kennt für Klein- und
+  Anbauten keine Flächenquote, «50 m2» steht dort nur in der Bemerkungsspalte des Planungsbüros
+  (laut raw-Frontmatter **kein Rechtstext**). **(3) Nicht gemeldeter Zusatzfehler:** «GFZ» in der
+  Bemerkungsspalte heisst **Grünflächenziffer**, nicht Geschossflächenziffer — am Synopsen-Volltext
+  nachgezählt: eine Geschossflächenziffer existiert nirgends, die Ausnützungsziffer bleibt, neu
+  ist allein die Min. Grünflächenziffer (Z. 937 Grundmasstabelle, Z. 1710 einziger GFZ-Treffer,
+  Z. 1934-1942 Art. 50 lit. a). Die Deutung «plus Geschossflächenziffer» war damit falsch.
+  **(4)** Die Vorwirkung endet mit dem **Inkrafttreten**, nicht mit der Festsetzung
+  (§ 234 PBG als Anknüpfung, § 235 PBG Satz 2; `raw/260607_amtlich_zh_pbg.md` Z. 2362-2372) —
+  die Formel «bis zur Festsetzung» hätte die Vorwirkung seit dem 14.06.2026 erlöschen lassen.
+  Im Vermerk steht die richtige Arbeitsanweisung: **Art. 24 Abs. 1 BZO (7 %, markiert, gilt) +
+  § 2a Abs. 1 ABV (50 m², kantonal in Kraft) + Grünflächenziffer/Umgebungsgestaltung nach
+  Art. 31 und Art. 50 revBZO (beide markiert, wirken vor)**. Zusätzlich vermerkt: der Bericht
+  zitiert die **April-Fassung (16.04.2025)**, massgebend ist die September-Fassung; die drei
+  Zahlenwerte sind in beiden gleich.
+- **Der Hub wusste es bereits.** Die Auflösung stand seit Buch-Run 72 in `training/PROGRAMM.md`
+  Ziff. 7 — sie ist nie in den Output und nie ins Deliverable gewandert. Der Fall ist damit kein
+  Wissens-, sondern ein **Ablage-/Propagationsfehler**.
+- **`training/KORPUS-QUEUE-thalwil-reglemente.md`, Arbeitsregel 2 präzisiert.** «Alt- und revBZO
+  nebeneinander führen» steuerte künftige Läufe auf einen **pauschalen Doppelnachweis**. Neu
+  klargestellt: vor wirkt nur, was grau markiert ist, und die Markierung ist **absatz-, teils
+  zellengenau, nicht artikelweise** (23 von 55 Artikeln); je Einzelbestimmung entscheiden; eine
+  nicht markierte revBZO-Bestimmung als Massstab ist unzulässige positive Vorwirkung
+  (VB.2008.00044). Ergänzt um die Gegenrichtung: fällt eine kommunale Bestimmung weg, prüfen, ob
+  **kantonales** Recht die Steuerung übernimmt (Musterfall § 2a ABV).
+- **`wiki/negative-vorwirkung-und-bzo-revision.md` — Rückkante zu `planungsgrundlagen` gesetzt**
+  (Frontmatter `links:` + Kasten nach Ziff. 6). Arbeitsanweisung Nr. 5 verlangte «vor jeder
+  Eingabe den Verfahrensstand neu erheben», nannte aber keinen Weg; den führt `planungsgrundlagen`
+  (proj-Layer `ogd-0156_…_proj_f` mit `rechtsstatus`/`auflagedatum`/`dokument`, Connector
+  `geo-zh.mjs --produkt zonenplan`, `wiki/kartenportale-zonenplan-zh.md` §A6). Mit der **Grenze**
+  ausgewiesen: der Layer meldet **dass** und in welcher Phase revidiert wird, nie **welche
+  Einzelbestimmung** vorwirkt — er ersetzt die Erhebung bei der Gemeinde nicht, er datiert sie.
+- **Nicht ausgeführt (bewusst):** der Bericht selbst wurde **nicht** umgeschrieben und nichts
+  gelöscht; der QUESTIONS-Eintrag vom 31.07.2026 («Wo ist die 50-m²-Grenze normiert?») ist durch
+  § 2a ABV faktisch beantwortet, bleibt aber offen stehen — Schliessen war diesem Lauf nicht
+  zugewiesen.
+
 ## 2026-08-03/04 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil erschlossen; die Vorwirkungs-Markierung aus der Grafikebene gelesen
 
 - **NEU `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`** — Synopse «Fassung zur Negativen

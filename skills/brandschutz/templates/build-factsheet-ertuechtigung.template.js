@@ -150,7 +150,7 @@ const mRow = (pos, m, ref, bold = false) => new TableRow({
 
 const dokumentInhalt = [
   h1("Factsheet Ertuechtigung Leichtbauwaende"),
-  para("Bestand Gipsstaenderwaende, BKP 271.13 — Therapiestation 1.OG, KISPI Zuerich", { after: 280 }),
+  para("Bestand Gipsstaenderwaende, LOS 271.13 (Trockenbau/Gipserarbeiten, BKP 271.1) — Therapiestation 1.OG, KISPI Zuerich", { after: 280 }),
 
   stamm("Projekt", "2619 KISPI — Umnutzung Etage B (1.OG) zur Therapiestation"),
   stamm("Bauherrschaft", "Universitaets-Kinderspital Zuerich — Eleonorenstiftung"),
@@ -163,7 +163,7 @@ const dokumentInhalt = [
 
   // ---------------------------------------------------------------------------
   h2("1  Zweck dieses Factsheets"),
-  para("Dieses Factsheet dient als Beilage zur Ausschreibung BKP 271.13 (Trockenbau / Gipserarbeiten OG Sued) und definiert verbindlich, wie bestehende Leichtbauwaende (Gipsstaenderwaende des urspruenglichen Buerolayouts) im Perimeter der neuen Therapiestation zu ertuechtigen sind, damit die Brandschutzanforderung EI30-RF1 gemaess Stellungnahme Brandschutz Gruner AG vom 09.04.2026 erfuellt ist."),
+  para("Dieses Factsheet dient als Beilage zur Ausschreibung LOS 271.13 (Trockenbau / Gipserarbeiten OG Sued; BKP 271.1 Trockenbauarbeiten) und definiert verbindlich, wie bestehende Leichtbauwaende (Gipsstaenderwaende des urspruenglichen Buerolayouts) im Perimeter der neuen Therapiestation zu ertuechtigen sind, damit die Brandschutzanforderung EI30-RF1 gemaess Stellungnahme Brandschutz Gruner AG vom 09.04.2026 erfuellt ist."),
   para("Es richtet sich an die Bauleitung, die Bauherrschaft und den ausfuehrenden Unternehmer und ist im Leistungsverzeichnis als verbindliche Grundlage zu zitieren."),
 
   // ---------------------------------------------------------------------------
@@ -278,7 +278,7 @@ const dokumentInhalt = [
   itemBold("QS-Verantwortlicher Brandschutz (QSV-BS). ", "Sammelt Konformitaetserklaerungen, bestaetigt gegenueber Bauleitung und Feuerpolizei vor Inbetriebnahme."),
 
   // ---------------------------------------------------------------------------
-  h2("9  Empfehlung fuer die Ausschreibung BKP 271.13"),
+  h2("9  Empfehlung fuer die Ausschreibung LOS 271.13 (BKP 271.1)"),
   para("Folgende Klauseln und Positionen sind in das Leistungsverzeichnis aufzunehmen:"),
   itemBold("Klausel A — Bezug. ", "Verbindliche Geltung dieses Factsheets sowie der Stellungnahme Brandschutz Gruner vom 09.04.2026 und des Brandschutzplans 1.OG vom 09.04.2026 (Plan-Nr. E2501526.004 / 001 / A)."),
   itemBold("Klausel B — Material. ", "Aeussere Plattenlage zwingend GKF in allen mit EI30 / EI60 klassifizierten Waenden. Bei Lieferung von GKB statt GKF: Beanstandung und Ersatz ohne Mehrkosten."),
@@ -291,7 +291,7 @@ const dokumentInhalt = [
 
   // ---------------------------------------------------------------------------
   h2("10  Naechste Schritte"),
-  itemNum("Bauleitung: Aufnahme dieses Factsheets als Beilage in die Ausschreibung BKP 271.13."),
+  itemNum("Bauleitung: Aufnahme dieses Factsheets als Beilage in die Ausschreibung LOS 271.13 (BKP 271.1 Trockenbauarbeiten)."),
   itemNum("Architekt: Wandbezeichnungen in den Architekturplaenen pruefen und auf 'W340-00 EI30 ...' bzw. 'W320-00 EI30 ...' anpassen, wo die Brandschutz-Anforderung EI30 verlangt."),
   itemNum("Brandschutz-Fachplaner: Visa des Factsheets durch Gruner einholen (Bestaetigung der Kohaerenz mit Stellungnahme vom 09.04.2026)."),
   itemNum("Bauherrschaft: Freigabe Massnahmen-Katalog und Vorgabe der LV-Klauseln A bis E."),
@@ -316,7 +316,7 @@ const dokumentInhalt = [
 const doc = new Document({
   creator: "Raphael Jans Architekten ETH",
   title: "Factsheet Ertuechtigung Leichtbauwaende KISPI Therapiestation",
-  description: "Beilage Ausschreibung BKP 271.13 — Brandschutz-Ertuechtigung Bestand-Gipsstaenderwaende",
+  description: "Beilage Ausschreibung LOS 271.13 (BKP 271.1) — Brandschutz-Ertuechtigung Bestand-Gipsstaenderwaende",
   styles: {
     default: { document: { run: { font: "Cambria", size: 22 } } },
   },

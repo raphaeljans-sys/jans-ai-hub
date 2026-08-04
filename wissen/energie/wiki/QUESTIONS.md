@@ -2,6 +2,39 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Dachbegrünung, Asbest-Meldepflicht, VVEA-Nachlauf
+
+- [ ] **E-R25-1 (P2): Heutiger Bestand von SFG, Gründachrichtlinie und SFG-Label nicht
+  verifiziert.** Das Destillat `[[eco-bau-merkblaetter-bkp-2008-huelle]]` (BKP 224,
+  Dachbegrünung) trägt seit 04.08.2026 den belegten Vermerk, dass seit **01.11.2013 SIA
+  312:2013 «Begrünung von Dächern» (SN 564312)** mit ABB **SIA 118/312** das Feld besetzt und
+  die Gründachrichtlinie dort nur **Prüfverfahren** ist (Ziff. 2.5.5, 4.3.2), zitiert
+  ausschliesslich als **Teil 1** im informativen Anhang C [14]; **Teil 2 «Labelvergabe und
+  Ökobilanz»** und das SFG-Label kommen in der Norm nicht vor. **Nicht geprüft und deshalb
+  nicht behauptet:** ob die Schweizerische Fachvereinigung Gebäudebegrünung SFG, ihre
+  Gründachrichtlinie und das Label heute überhaupt noch bestehen (sfg-gruen.ch wurde nicht
+  abgerufen). Das ist zu klären, bevor «SFG-Label» in einem JANS-LV als freiwillige
+  Zusatzanforderung genannt wird. Führend für den Normstand ist die KB `normen`
+  (`sia-312-2013`), für Systeme und Schichtaufbau die KB `bauprodukte`
+  (`dachbegruenung-systeme`).
+- [ ] **E-R25-2 (P2): Asbest-Meldepflicht bei Abbruch fehlt in diesem Artikel.** Der
+  Bauherren-Artikel `[[gebaeudeschadstoffe]]` beschreibt die **Abklärungspflicht** vor dem
+  Umbau, nennt aber keine **Meldepflicht** gegenüber der Behörde bzw. der Suva bei
+  Abbruch-/Rückbauarbeiten mit Asbestverdacht. Der Punkt ist hier **bewusst nicht materiell
+  eingebaut**, weil er im Wissens-Chef-Lauf Run 25 **nicht verifiziert** wurde. Die Fundstelle
+  ist in der führenden KB `baurecht` zu holen (dort geführt unter
+  `wiki/bauausfuehrung-und-baukontrolle` sowie als offene Bring-Schuld in deren `QUESTIONS.md`);
+  Achtung, das dort verwendete Siglum «Art. 3a ABV» ist nach dem Run-25-Befund unzutreffend —
+  einschlägig dürfte **§ 3a Abs. 2 AbfV ZH (LS 712.11)** sein. Erst nach belegter Fundstelle in
+  diesen Artikel übernehmen.
+- [ ] **E-R25-3 (P3): VVEA-Nachlauf — Anhänge und Folgeartikel nicht geprüft.** Für
+  `[[gebaeudeschadstoffe]]` wurde am 04.08.2026 die Rechtsbasis auf **Art. 16 VVEA
+  (SR 814.600)** verengt und am konsolidierten Fedlex-Volltext, Stand 01.08.2026, als materiell
+  unverändert bestätigt. **Nicht geprüft:** Anhang 3 und Anhang 5 VVEA sowie die Auswirkungen
+  der Revisionen AS 2025 745 (01.12.2025), AS 2025 799 (01.01.2026) und AS 2026 357
+  (01.08.2026) auf Artikel, die diese KB nicht zitiert. Führend für den Erlasswortlaut ist die
+  KB `baurecht`; dort ist die VVEA bisher **nicht** als `raw`-Volltext abgelegt.
+
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — fehlender Wiki-Themenartikel zur kommunalen Wärmeplanung
 
 - [ ] **E-R21-1 (P2): Wiki-Themenartikel «Kommunale Wärmeplanung ZH/SZ» fehlt.** Der Slug

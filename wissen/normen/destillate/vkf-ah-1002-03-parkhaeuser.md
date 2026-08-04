@@ -228,8 +228,13 @@ ein Auszug der wichtigsten Normalfall-Anforderungen.
   Brandabschnittsgrösse (max. m² je Geschoss) und Sprinkler-Bedarf früh als
   Layoutrestriktion für Rampen-/Erschliessungskonzept berücksichtigen.
 - **Skill `ausschreibung`**: LV-Positionen für Trockenbau/Brandschutzabschlüsse
-  in Einstellraum-Projekten (BKP 225.4 Brandschutzbekleidungen, 271.10) mit den
-  hier genannten EI-Werten spezifizieren.
+  in Einstellraum-Projekten (BKP 225.4 Brandschutzbekleidungen, 271.1
+  Trockenbauarbeiten) mit den hier genannten EI-Werten spezifizieren.
+  ⚠ **Code korrigiert 04.08.2026 (Wissens-Chef Run 25):** hier stand «271.10» — diesen
+  Code kennt das BKP 2017 nicht; unter 271 Gipserarbeiten führt es ausschliesslich
+  271.0 Innenputze, **271.1 Trockenbauarbeiten**, 271.2 Gerüste
+  (`references/bkp-2017/BKP-2017-Liste.md`, Rule `bkp-2017-referenz.md`). Sachbezug hier
+  ist der Trockenbau, also 271.1.
 - **Skill `werkvertrag`/`unternehmerkontrolle`**: bei Sprinkler- oder RWA-Pflicht
   (Ziff. 8.2/8.3) die entsprechenden Fachplaner-Leistungen und Abnahmekriterien
   referenzieren.

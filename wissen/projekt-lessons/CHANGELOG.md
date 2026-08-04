@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Thalwil 2414: Zeiger ins Baurecht gesetzt
+
+- **`wiki/sbb-naeherbaurecht-thalwil-2414-vordach.md`** — der Artikel zum laufenden Fall 2414
+  Thalwil trug keinen Link ins Baurecht; die dortige Arbeitsanweisung fuer Thalwiler Eingaben
+  erreichte ihn nicht. Neu: Frontmatter `links:` (war leer) und ein kurzer Abschnitt «Querbezug»
+  auf `wissen/baurecht/wiki/negative-vorwirkung-und-bzo-revision.md` Ziff. 6 — der Fall laeuft in
+  einer Gemeinde mit haengiger BZO-Revision.
+- ⚠ **Bewusst nur ein Zeiger, kein Rechtsinhalt.** Diese KB fuehrt keine generischen Kennwerte und
+  keine Rechtsaussagen; der Stand der Vorwirkung aendert sich mit Genehmigung und Inkrafttreten
+  und wird deshalb ausdruecklich **nicht** hier wiedergegeben, sondern nur verlinkt. Fuehrend ist
+  `baurecht`.
+
 ## 2026-08-04 (Nachtschicht Mac Mini) — Fokus-Bereich «Bauen im Betrieb»: erweiterter Nullbefund
 
 - Kein neuer Fall. Nach dem Logbuch-Nullbefund vom 03.08. diesmal direkt den KISPI-

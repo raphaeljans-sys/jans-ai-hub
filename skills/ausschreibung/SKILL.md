@@ -88,7 +88,17 @@ Jedes LV/Devis traegt im Titel und in der Positionsstruktur BKP-2017-Codes (CRB)
 - Liste (durchsuchbar): `/Volumes/daten/jans-ai-hub/references/bkp-2017/BKP-2017-Liste.md`
 - Original-PDF: `/Volumes/daten/jans-ai-hub/references/bkp-2017/BKP-2017-CRB.pdf`
 
-Konvention im LV-Titel: `BKP <Code> — <Bezeichnung>` (z.B. `BKP 271.10 — Innenputze`). Bei Spezialplaner-Honoraren den Spezialisten-Code der entsprechenden Hauptgruppe nutzen (z.B. Brandschutzingenieur in Phase Gebaeude = 298.5). Niemals BKP-Nummern erfinden — bei Unsicherheit nachschlagen oder rueckfragen. Siehe Rule `bkp-2017-referenz.md`.
+Konvention im LV-Titel: `BKP <Code> — <Bezeichnung>`, Codes **immer aus dem Katalog BKP 2017 (CRB)** (z.B. `BKP 271.0 — Innenputze`). Bei Spezialplaner-Honoraren den Spezialisten-Code der entsprechenden Hauptgruppe nutzen (z.B. Brandschutzingenieur in Phase Gebaeude = 298.5). Niemals BKP-Nummern erfinden — bei Unsicherheit nachschlagen oder rueckfragen. Siehe Rule `bkp-2017-referenz.md`.
+
+⚠ **Zwei Kataloge im Umlauf, nie vermischen** (korrigiert 04.08.2026, Wissens-Chef Run 25):
+LV-Titel und Positionsstruktur folgen **BKP 2017 (CRB)** — dort gibt es ausschliesslich
+**einstellige** Nachkommastellen (271.0 Innenputze, 271.1 Trockenbauarbeiten, 271.2 Gerueste;
+im ganzen Katalog kein einziger Code mit zweistelliger Nachkommastelle, am Original-PDF
+nachgezaehlt). Die **Gewerk-Ordnernamen** dagegen folgen dem **Stadt-Zuercher Katalog 2008**
+(Abschnitt unten), der zweistellige Nachkommastellen kennt. Dieses Formatbeispiel fuehrte bis
+zum 04.08.2026 «BKP 271.10 — Innenputze» — ein Code, den weder BKP 2017 noch der ZH-Katalog
+2008 kennt. Buerointerne LV-/Los-Nummern mit zweistelliger Nachkommastelle sind **keine**
+BKP-Codes und duerfen nicht als solche in ein LV wandern.
 
 ### Gewerk-Ordnernamen — Stadt-Zürich-BKP 2008 (VERBINDLICH)
 

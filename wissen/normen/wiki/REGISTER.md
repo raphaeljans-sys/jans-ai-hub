@@ -263,7 +263,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 421 | 2006 | 2006✓ · 2004✗ | Bestand 2006 = gueltig 2013 ✓ |
 | SIA 422 | 2009 | 2009✓ |  |
 | SIA 423 | 2006 | 2006✓ | Bestand 2006 = gueltig 2013 ✓ |
-| SIA 430 | 1993 | 1993✓ | Bestand 1993 = gueltig 2013 ✓ |
+| SIA 430 | 1993 | 1993✓ | Bestand 1993 = gueltig 2013 ✓ — ⚠ **nach 2013 revidiert:** SIA 430:2023 «Vermeidung und Entsorgung von Bauabfällen» gültig ab 01.08.2023, die Ausgabe 1993 «Entsorgung von Bauabfällen» galt bis 31.07.2023; Organisationsteil neu in SIA 118/430:2023 (shop.sia.ch, verifiziert 04.08.2026, Wissens-Chef Run 25). **Ausgabe 2023 nicht im Haus** — die gefüllte Bestand-Spalte ist hier KEIN Aktualitätsnachweis, weil der Bestand genau die 2013-gültige Ausgabe ist |
 | SIA 431 | 1997 | 1997✓ | Bestand 1997 = gueltig 2013 ✓ |
 | SIA 450 | 1993 | 1993✓ | Bestand 1993 = gueltig 2013 ✓ |
 | SIA 451 | 1992 | 1992✓ | Bestand 1992 = gueltig 2013 ✓ |
@@ -273,7 +273,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 465 | 1998 | 1998✓ | Bestand 1998 = gueltig 2013 ✓ |
 | SIA 469 | 1997 | 1997✓ | Bestand 1997 = gueltig 2013 ✓ |
 | SIA 480 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ |
-| SIA 493 | 1997 | 1997✓ | Bestand 1997 = gueltig 2013 ✓ |
+| SIA 493 | 1997 | 1997✓ | Bestand 1997 = gueltig 2013 ✓ (Aussage per Stichtag 25.02.2013, bleibt richtig) — → **nach 2013 archiviert**, siehe Run-5-Zeile SIA 493 weiter unten |
 | SIA 500 | 2009 | 2009✓ | Bestand 2009 = gueltig 2013 ✓ |
 | SIA 721 | 2001 | 2001✓ | Bestand 2001 = gueltig 2013 ✓ |
 | SIA 723 | 2001 | 2001✓ | Bestand 2001 = gueltig 2013 ✓ |
@@ -554,7 +554,7 @@ oder begruendet uebersprungen). Neu registriert bzw. praezisiert:
 | SIA 431 | 1997 (in Kraft 1.12.1997) | — | gilt; Entwässerung von Baustellen (SIA/VSA) |
 | SIA 450 | 1993 (Druck 4/1994) | — | gilt (Bestand); Informatik Kosteninformationen im Bauwesen |
 | SIA 480 | 2004 | — | gilt; Wirtschaftlichkeitsrechnung Investitionen Hochbau |
-| SIA 493 | 1997 (in Kraft 1.3.1998) | — | gilt; Deklaration ökologischer Merkmale von Bauprodukten |
+| SIA 493 | 1997 (in Kraft 1.3.1998) | — | ⚠ **ARCHIVIERT seit 30.06.2022** — nicht mehr gültig. Deklaration ökologischer Merkmale von Bauprodukten. Quelle: shop.sia.ch, Produktseite SIA 493 (SN 550493): «Gültig ab: 01.03.1998», «Gültig bis: 30.06.2022, archivierter Titel!»; am Herausgeber abgerufen und verifiziert 04.08.2026 (Wissens-Chef Run 25). **Kein belegter 1:1-Nachfolger** (Feld «ersetzt durch» fehlt). Eine LV-/Werkvertragsklausel «Deklaration nach SIA 493» geht ins Leere. Das frühere «gilt» war ein Rückschluss aus dem Haus-PDF, das seinen eigenen späteren Rückzug nicht ausweisen kann |
 | SIA 2014 | **2017** (gültig ab 1.9.2017) | SIA 2014:1996 | gilt; CAD-Layerstruktur — **neuer als 2013-Register** |
 | SIA 2040 | **2017** (gültig ab 1.5.2017) | SIA 2040:2011 | gilt; SIA-Effizienzpfad Energie (2000-Watt) — **neuer als 2013-Register** |
 | SIA 2051 | **2017** (gültig ab 1.12.2017) | — (Erstausgabe) | gilt; BIM-Grundlagen — Datei `sia-2051-2018.md`. **Run 37 (260729) am Original bestätigt:** SNR 592051:2017 de, genehmigt 12.09.2017, gültig ab 2017-12-01, 52 Buchseiten (27 PDF-Seiten, Doppelseiten-Scan), Dokumentart **Merkblatt**. ⚠ **Die Bestandsdatei heisst `2051_2018.pdf` — der Dateiname ist falsch**, 2018 ist das Einscan-Datum (PDF-CreationDate 2018-02-07, Konica-Minolta). Das Register stimmt, die Datei ist die Fehlerquelle. Bewusst nicht umbenannt (Entscheid Raphael 29.07.2026, um Verweise nicht zu brechen) |

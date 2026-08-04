@@ -87,6 +87,19 @@ Klassen sauber trennen:
    dass für laufende Verfahren **beide** Fassungen relevant sind — jeweils die strengere.
    Artikel-Nummern unterscheiden sich zwischen den Fassungen; Zitate immer mit «BZO» oder
    «revBZO» kennzeichnen.
+   **Präzisierung 04.08.2026 (Wissens-Chef Run 25, verifiziert).** «Nebeneinander führen» heisst
+   **nicht** pauschaler Doppelnachweis über alle Artikel. Vor wirkt nur, was in der Synopse
+   «Fassung zur Negativen Vorwirkung» vom 05.09.2025 **grau markiert** ist, und die Markierung ist
+   **absatz-, teils zellengenau, nicht artikelweise** (Buch-Run 72: 23 von 55 revBZO-Artikeln,
+   Auswertung in [[negative-vorwirkung-und-bzo-revision]] Ziff. 5). Je Einzelbestimmung
+   entscheiden, nicht je Artikel. Eine nicht markierte revBZO-Bestimmung als Massstab heranzuziehen
+   ist unzulässige positive Vorwirkung (VB.2008.00044). **Und umgekehrt:** fällt eine kommunale
+   Bestimmung weg, ist zu prüfen, ob **kantonales** Recht die Steuerung übernimmt, das ohnehin
+   schon gilt. Musterfall Klein- und Anbauten: Art. 45 revBZO ist **nicht** markiert, es gilt
+   Art. 24 Abs. 1 BZO (7 %) weiter, und die 50-m²-Grenze folgt aus **§ 2a Abs. 1 ABV**
+   (kantonal in Kraft), nicht aus der revBZO. Belege und volle Auflösung:
+   `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md` (Korrekturvermerk
+   04.08.2026) und `training/PROGRAMM.md` Ziff. 7.
 3. **Screenshots sind Belege**, keine Volltexte: Fundstelle (Artikel, Seite) notieren, den
    Wortlaut aber am amtlichen Text verifizieren, wo einer beschaffbar ist.
 4. **Gemeinde-Merkblätter sind Verwaltungsverordnungen** — sie binden die Behörde im Interesse

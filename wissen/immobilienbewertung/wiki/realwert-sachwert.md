@@ -65,6 +65,25 @@ Damit lassen sich die Tab.-2-Richtwerte direkt hochrechnen:
 | V ueberdurchschnittlich, komfortabler Ausbau | 909-1'077 | 740-909 |
 | VI vornehm, beste Qualitaet, hoher Komfort | 1'010-1'279 | 841-1'010 |
 
+> **⚠ Doppelfuehrung derselben Fremdtabelle — Wissens-Chef Run 25, verifiziert 04.08.2026.**
+> Tab. 2 der Schaetzungsanleitung Kap. 5 wird **derzeit in zwei KBs materiell gefuehrt**: hier
+> und in `wissen/grobkosten/wiki/kennwerte.md` (Abschnitt «Run 12 — historischer Cross-Check
+> aus Schaetzungsanleitung Kap. 5»). Die beiden Staende weichen zweifach voneinander ab:
+> 1. **Bandbreite.** Dieser Artikel fuehrt das **ganze Band**, `grobkosten` nur die
+>    **BandUNTERgrenze** (Bauklasse V EFH dort 900 statt 909-1'077 hier). Am Original-PDF
+>    nachgeprueft (layouttreu extrahiert mit `pdftotext -layout`, 04.08.2026): unter EFH wie
+>    unter MFH stehen je Bauklasse **zwei** Zahlen — die hier gefuehrte Bandlesart ist am
+>    Original bestaetigt, die Artefakt-Deutung von `grobkosten` widerlegt.
+> 2. **Teuerungsfaktor.** Hier 1.346 (Stuetzpunkt 01.04.2003 = 899.2), dort 1.334 (Stuetzpunkt
+>    01.04.2004 = 907.6) — rund **1 % Abweichung**. Beide Ankerwerte stehen in Tab. 4 desselben
+>    Kapitels und sind am Original verifiziert.
+>
+> **Kein Stand wird ohne Entscheid ueberschrieben.** Die Werte oben bleiben unveraendert; der
+> Entscheid ueber den gemeinsamen Anker (1.346 vs. 1.334) und darueber, ob `grobkosten` die
+> Tabelle kuenftig nur noch per Verweis auf diesen Artikel fuehrt, liegt bei Raphael und ist
+> als offener Punkt in `wiki/QUESTIONS.md` eingetragen. Bis dahin ist bei jeder Verwendung
+> anzugeben, mit welchem Anker gerechnet wurde.
+
 ⚠ Der Faktor 1.346 basiert auf der 1939er-Ankerreihe der amtlichen ZIW-Publikation (nicht mit
 dem BFS-Baupreisindex zu verwechseln, der eine andere Basis/Methodik hat). Für eine Bewertung
 nach 2025 den naechsten publizierten ZIW-Wert nachziehen (naechste Publikation ~04-06/2026,
@@ -196,11 +215,27 @@ fuer MFH die WP-Tabelle oben verwenden.
 > quellenlosen Faustwert festgeschrieben. **Fachentscheid Raphael**, nicht autonom aenderbar;
 > gekoppelt an den 4.7-Punkt in `grobkosten/wiki/kennwerte`. Bis zum Entscheid gilt 0.70 weiter.
 > Vorlage: `koordination/outputs/2026-07-25_wissens-chef-run15.md`.
+>
+> **Nachtrag Wissens-Chef Run 25 (04.08.2026) — der Entscheid hat einen Abnehmer nie erreicht.**
+> Die fuehrende Wuest-Benchmark-Referenz
+> `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` (Z. 32)
+> fuehrt den Regelgeschoss-Faktor **0.70 unkommentiert** — ohne den kanonischen Entscheid vom
+> 12.07.2026, ohne das `needs-decision`-Flag vom 25.07.2026 und ohne den Hinweis auf die
+> belegten 0.75 aus [[flaechendefinitionen-sia]]`:84`. Wer dort nachschlaegt, sieht einen
+> scheinbar unstrittigen Wert. Der Zeiger ist hier gesetzt; die Gegenrichtung (Vermerk in der
+> Skill-Referenz selbst) ist **noch offen** und in `wiki/wissensluecken.md`, Zeile
+> `T-Regelgeschoss`, als Folge-Task festgehalten. Solange der Fachentscheid Raphaels aussteht,
+> darf keine der beiden Stellen still auf den jeweils anderen Wert umgestellt werden.
 
 ### Healthcare-Neubau — Erstellungskosten-Benchmark (realer CH-Fall, belegt 2021)
 
 Fuer die Sachwert-/Neuwert-Rechnung eines **Pflegeheims** fehlten der KB bisher belegte
-CH-Kennwerte (nur der WALD-Studienanker ~4'000 CHF/m2 GF, Skill `healthcare-wirtschaftlichkeit`).
+CH-Kennwerte (nur der WALD-Studienanker ~4'000 CHF/m2 GF, Skill `healthcare-wirtschaftlichkeit`
+— ⚠ **Preisstand unbelegt**: der Skill nennt dort weder Basisjahr noch Index, nur «aelterer
+Stand → teuern»; angemerkt Wissens-Chef Run 25, 04.08.2026. Inhaltlich ist der Anker **nicht**
+ueberholt — die Neubauten ab 2019 des 8-Objekt-Blatts liegen roh bei 3'561-4'250 und
+teuerungsbereinigt bei 3'820-4'485, der Anker liegt mittig; es fehlt die Datierung, nicht die
+Groessenordnung).
 Der oeffentliche **Baukredit-Bericht Neubau Pflegeheim Herosé, Aarau** (Stadtrat Aarau,
 Botschaft an den Einwohnerrat GV 2018-2021/285, 13.12.2021; Generalplaner Meyer Gadient
 Architekten AG) liefert nun einen datierten, nachvollziehbaren Realbenchmark (T17):

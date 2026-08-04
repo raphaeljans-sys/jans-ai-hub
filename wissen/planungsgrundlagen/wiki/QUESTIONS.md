@@ -17,6 +17,28 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > erkauft (E18).
 
 ## A — Kartenportale
+- [ ] **K68 (Wissens-Chef Run 25, 2026-08-04) — Genehmigung und Inkrafttreten der revBZO Thalwil:
+  die Pendenz liegt in `baurecht`, den maschinellen Prüfweg führt diese KB.** Die KB `baurecht`
+  führt als **T-01** eine Überwachungs-Pendenz (`wissen/baurecht/wiki/QUESTIONS.md`, Kopfeintrag
+  2026-08-03): die Revision der BZO Thalwil wurde am **14.06.2026** an der Urne festgesetzt
+  (78.81 %), ist aber zum Stand 04.08.2026 **weder genehmigt noch in Kraft** — die
+  Gesetzessammlung Thalwil führt weiterhin SR 700.1 BZO vom 11.12.2019. Solange gilt die alte BZO,
+  überlagert von der negativen Vorwirkung; **ab Inkrafttreten kippt die Lage vollständig** und
+  die Abschnitte 4-6 von `wissen/baurecht/wiki/negative-vorwirkung-und-bzo-revision.md` sind
+  überholt. Der dort genannte Prüfweg ist manuell (thalwil.ch/bzorevision, Gesetzessammlung
+  SR 700.1). **Diese KB hält den maschinellen Weg**, weiss aber bisher nichts von der Pendenz:
+  `ms:ogd-0156_arv_basis_np_gn_zonenflaeche_proj_f` trägt `rechtsstatus`
+  (`laufendeAenderung.Festsetzung` → `.Genehmigung`), `festsetzung` / `genehmigung` /
+  `inkraftsetzung` und `dokument`; abrufbar mit
+  `node skills/planungsgrundlagen/connectors/geo-zh.mjs --produkt zonenplan` an einer Thalwiler
+  Parzelle (Referenzfall 2414 Bohlweg 3, Parz. 6289) → [[kartenportale-zonenplan-zh]] §A6.
+  **Zu klären (offen, nicht geraten):** (a) ob der proj-Layer für Thalwil überhaupt bestückt ist
+  — die Revision ist eine `Aenderung_Bauordnung`, und bei dieser Revisionsart können die
+  proj-Attribute leer bleiben; (b) ob der Statuswechsel auf `.Genehmigung` bzw. `In Kraft` im
+  Layer **vor** oder **nach** der kommunalen Publikation erscheint, also ob er als Frühwarnung
+  taugt oder nur als Bestätigung. Erst wenn (a) und (b) gemessen sind, darf der Weg als
+  Überwachung angeboten werden. **Führend für das Recht bleibt `baurecht`**; diese KB liefert nur
+  das Geodatum. → [[kartenportale-oereb-kataster-system-zh]] §3.
 - [x] **K64 — Link-Frischecheck PL-01: drei tote Adressen ersetzt, eine Abschaltung belegt
   (Wartungslauf 01, 2026-07-30)** 228 in `wiki/` zitierte Adressen maschinell extrahiert und per
   HTTP-Statuscode gemessen; Verdachtsfälle in vier Varianten (`https`/`http`, mit/ohne `www.`)

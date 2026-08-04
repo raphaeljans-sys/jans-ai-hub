@@ -1,5 +1,70 @@
 # Offene Fragen — KB Normen
 
+## 2026-08-04 (Cross-KB energie → normen, Wissens-Chef Run 25) — SIA 430:2023 + SIA 118/430:2023 beschaffen, drei nie angekommene Übergaben aus energie-Run 123
+
+Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8). Anlass:
+die Übergaben **E-123-2, E-123-3 und E-123-6** aus dem energie-Run 123 (04.08.2026) standen
+ausschliesslich in `wissen/energie/wiki/QUESTIONS.md`; in `normen` war davon nichts angekommen
+(grep «E-123» über die ganze KB: 0 Treffer). Für **SIA 430** war überhaupt keine Übergabe
+ausgestellt worden. Die Formulierungen unten folgen dem adversarialen Verifikationsurteil,
+nicht der ursprünglichen Fundmeldung.
+
+1. **SIA 430:2023 beschaffen und destillieren (P1) — Existenz ist geklärt, der Inhalt fehlt.**
+   Ausgabe 2023 **existiert**, Datum am Herausgeber verifiziert 04.08.2026: SIA 430:2023
+   «Vermeidung und Entsorgung von Bauabfällen», gültig ab **01.08.2023**; die Ausgabe 1993
+   «Entsorgung von Bauabfällen» galt bis **31.07.2023** (shop.sia.ch, Produktseite). **INHALT
+   nicht im Haus — Beschaffung + Destillat offen.** Das ist ausdrücklich **keine** ungeprüfte
+   Meldung mehr: der Verifikationsschritt «gibt es die Ausgabe überhaupt» ist bezahlt und darf
+   nicht ein zweites Mal aufgemacht werden. Nachgeführt sind bereits `wiki/REGISTER.md`
+   (Zeile SIA 430, Bemerkungsspalte), `destillate/sia-430-1993.md` (Feld `ersetzt_durch` +
+   Warnblock) und `destillate/INDEX.md`. Nur sekundärquellengestützt und **nicht** als
+   Norminhalt gesetzt: die verbreitete Aussage einer «inhaltlichen Neuausrichtung auf
+   Kreislaufwirtschaft» (espazium.ch).
+2. **SIA 118/430:2023 fehlt in `normen` vollständig (P1 für `werkvertrag`).** «Allgemeine
+   Bedingungen für die Vermeidung und Entsorgung von Bauabfällen», Ausgabe 2023, gültig ab
+   **01.08.2023** (shop.sia.ch, verifiziert 04.08.2026). Es ist ein **eigenes, neues
+   SIA-Dokument**, in das der Organisationsteil der alten SIA 430:1993 ausgelagert wurde, und
+   es hat im `REGISTER` bis heute keine Zeile. Primär einschlägig für den Skill `werkvertrag`
+   (SIA-118-Familie), nicht nur für `normen`. Zu beschaffen, zu destillieren und ins REGISTER
+   aufzunehmen.
+3. **E-123-2 — Nachfolgeweg für SIA 493 ungeklärt (Übergabe aus `energie`, P2).** Der
+   *Gültigkeitsstatus* ist mit diesem Lauf geklärt und in `normen` nachgeführt: SIA 493:1997
+   ist seit **30.06.2022 archiviert** (shop.sia.ch, Produktseite SIA 493, selbst abgerufen
+   04.08.2026) — nachgetragen in `wiki/REGISTER.md` (Run-5-Zeile), `destillate/sia-493-1997.md`
+   (Feld `gueltigkeit` + Warnblock) und `destillate/INDEX.md`. **Offen bleibt der Nachfolgeweg:**
+   ein 1:1-Nachfolger ist **nicht belegt**, der Shop weist kein «ersetzt durch» aus. Der
+   naheliegende Weg über EPD nach **EN 15804+A2** bzw. die **KBOB-Ökobilanzdaten** ist nur
+   sekundärquellengestützt und darf nicht als Nachfolgeregelung gesetzt werden. Für LV-Text ist
+   bis auf Weiteres neutral zu formulieren («produktbezogene Ökodeklaration bzw. Eintrag in den
+   KBOB-Ökobilanzdaten»). Ebenfalls offen: der Status der **Korrigenda SIA 493-C1/1997**
+   (existiert im Shop, nicht geprüft). Betroffen ist jede Devis-Klausel «Deklaration nach
+   SIA 493».
+4. **E-123-3 — Ablösung von SIA 162/4 (Recyclingbeton) nur sekundärquellengestützt (Übergabe
+   aus `energie`, P2).** Die **Archivierung per 31.12.2009** ist an der SIA-Shop-Statusanzeige
+   belegt; dass das **SIA-Merkblatt MB 2030** an ihre Stelle tritt, ist es **nicht**. Die
+   `energie`-Destillate formulieren deshalb bewusst vorsichtig («faktisch abgelöst durch»).
+   Aufgabe für `normen`: den Nachfolgestatus am Herausgeber verifizieren und erst dann eine
+   Fundstelle setzen; bis dahin keine Nachfolge-Behauptung.
+5. **E-123-6 — Ausgabestand von SIA 118 in den Kontroll-Checklisten offen (Übergabe aus
+   `energie`, P2).** Die eco-bau-/AHB-Quelle zitiert **SIA 118 ohne Ausgabejahr** für die
+   Vertragshierarchie. `normen` führt bisher nur `destillate/sia-118-1991.md`; ob und mit
+   welchem Stand eine jüngere Ausgabe gilt, ist zu klären und im REGISTER auszuweisen —
+   ohne Ausgabejahr ist eine Vertragshierarchie-Aussage nach Rule `normen-referenz` nicht
+   zitierfähig.
+
+**Methodische Lehre (gehört ins `training/PROGRAMM.md`).** Das Bestands-Korrektiv des REGISTER
+fängt **Revisionen** ab (eine jüngere Datei im Haus fällt auf), aber prinzipiell **keine
+ersatzlosen Archivierungen** (SIA 493) und **keine Revisionen, bei denen der Hausbestand genau
+die 2013-gültige Ausgabe ist** (SIA 430). Beide Klassen liegen ausserhalb der «Verbindlichen
+Regel» des REGISTER-Kopfs, die nur bei **leerer** Bestand-Spalte greift — dort erzeugt die
+gefüllte Bestand-Spalte falsche Sicherheit. Sinngemässe Ergänzung der Regel: «Bestand ==
+2013-gültige Ausgabe ist KEIN Aktualitätsnachweis; nur ein Bestand JÜNGER als 2013 wirkt als
+Korrektiv.» Ohne diese Ergänzung wiederholt sich derselbe Fehler auf den übrigen 74
+Bestand-Zeilen. Praktischer Hebel: der SIA-Shop ist ohne Login abfragbar — belastbar ist aber
+**nur** die `ProduktDetail.aspx`-URL mit `Produkt_ID`; die generische URL
+`shop.sia.ch/normenwerk/architekt/<nr>/d/D/Product` lieferte in der Verifikation zweimal fremde
+Produkte, der Treffer ist deshalb immer am Titel gegenzulesen.
+
 ## Run 43 (04.08.2026) — zwei Rückstände geschlossen, sechs neu offen
 
 ### GESCHLOSSEN

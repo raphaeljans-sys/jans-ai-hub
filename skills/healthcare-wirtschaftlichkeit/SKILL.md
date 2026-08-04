@@ -39,7 +39,28 @@ Volumen + Erstellungskosten       Pflegeplatzkosten + Rendite        Bau ja/nein
 
 Erstellungskosten Healthcare: Skill `kostenschaetzung` + `machbarkeit/wissensbasis/02_kennwerte-kosten.md`.
 Zuschlaege: Alterswohnen +10 %, **Pflege +20–25 %** auf den Wohn-Basiskennwert; WALD rechnete
-**~CHF 4'000/m2 GF** (Pflegeheim, älterer Stand → teuern).
+**~CHF 4'000/m2 GF** (**Stand WALD 2024, Bezugsbasis BKP 2 Gebaeude** — Erstellungskosten-Stand
+immer auf den Rechnungszeitpunkt teuern).
+
+**Fuehrende Quelle fuer Healthcare-Erstellungskennwerte** (Zeiger, keine Zahlenkopie —
+gesetzt 04.08.2026, Wissens-Chef Run 25): `wissen/immobilienbewertung/wiki/realwert-sachwert.md`,
+Abschnitt «Healthcare-Kennwerte-Basis erweitert — JANS 8-Objekt-Referenzvergleich» (acht reale
+CH-Alters-/Pflegeheime 2011-2025; Primaerblatt «Kennwerte Altersheime Gesundheitszentren.pdf»,
+WALD-2410-Arbeitsgrundlagen). Dort stehen die belegten Baender CHF/m2 GF, CHF/m3 GV und
+CHF je Pflegezimmer mit Baujahr und Teuerungsnormierung. **Baender immer dort lesen, nie hier
+fuehren** — jede Zweitkopie driftet. Der WALD-Anker oben bleibt gueltig: er wurde am
+25.07.2026 gegen diese Basis geprueft und bestaetigt (nicht ueberholt).
+
+Drei Vorbehalte, die beim Uebernehmen mitzutragen sind:
+- **CHF/Pflegezimmer ist auf ein 24-m2-Standardzimmer normiert** (Zeilenlabel des Blatts «Kosten
+  BKP 2 Pflegezimmer 24 m2»), also **nicht** BKP 2 ÷ effektive Zimmerzahl und **nicht** die
+  Investition je Pflegeplatz nach Rechenweg-Schritt 7 (die waere BKP 1-5 inkl. Land). Ein
+  belegter CHF/Pflegeplatz-Wert in diesem Sinn fehlt im Hub weiterhin — offene Wissensluecke,
+  nicht durch Umwidmung der Zimmerwerte schliessen.
+- **Reine Heime und Zentren nicht in ein Band werfen:** die Basis weist Zentren mit hohem
+  Gemein-/Therapieflaechenanteil (St. Anna) ausdruecklich als Ausreisser aus.
+- **Zustaendigkeiten:** CHF/m2 NF fuehrt weiterhin der Skill `kostenschaetzung` (Wüest Partner);
+  die KB `grobkosten` ist fuer Healthcare ausdruecklich **nicht** zustaendig.
 
 Finanzierungs-/Rendite-Parameter:
 - **Abschreibung 33 Jahre linear** (CURAVIVA-Referenz fuer Pflegebauten).

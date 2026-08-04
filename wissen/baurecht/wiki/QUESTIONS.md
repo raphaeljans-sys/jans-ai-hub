@@ -1777,9 +1777,18 @@ im Leit-Artikel nicht** — wer ueber `abstaende-und-hoehen` einsteigt (der vorg
 die ungebrochene Fassung. Das ist der ausbreitungsfaehige Teil: im gepruueften Fall hat genau diese
 Stelle einen Lese-Agenten zu einer falschen Zitierempfehlung verleitet.
 
-## 2026-07-31 — revBZO Thalwil: Wo ist die 50-m²-Grenze für Kleinbauten normiert?
+## 2026-07-31 — revBZO Thalwil: Wo ist die 50-m²-Grenze für Kleinbauten normiert? — ✅ BEANTWORTET 04.08.2026
 Die Synopse (16.04.2025, S. 40, Bemerkungsspalte zu Art. 24 alt/Art. 45 rev) begründet die
 Aufhebung der 7 %-Quote damit, dass «die Grösse der Kleinbauten neu auf 50 m2 beschränkt ist».
-Der normierende Artikel (Begriffsteil der revBZO oder Verweis auf kantonale
-IVHB-Ausführungsbestimmungen) ist am Synopsen-Volltext noch zu verifizieren.
+
+**Antwort (Wissens-Chef Run 25, am Erlasstext gegengelesen):** Die 50 m² sind **kein neues
+kommunales Mass**, sondern **geltendes kantonales Recht** — § 2a Abs. 1 ABV: «Kleinbauten sind
+freistehende Gebäude mit einer Grundfläche von höchstens 50 m2, deren Gesamthöhe 4,0 m, bei
+Schrägdächern 5,0 m, nicht überschreitet und die nur Nebennutzflächen enthalten»
+(`raw/260607_amtlich_zh_abv.md`, Z. 50-52, selbst gelesen). Die Schwelle wirkt damit als
+**Qualifikationsgrenze des Begriffs** (darüber ist es keine Kleinbaute mehr), nicht als
+revBZO-Nachweisgrenze. Praxisfolge für Thalwil: die 50-m²-Prüfung fällt nicht weg, sie hat nur
+eine andere Rechtsgrundlage; die Bemerkungsspalte der Synopse erklärt lediglich, warum die
+7 %-Quote entbehrlich wird. Vollständige Arbeitsanweisung im Korrekturvermerk von
+`outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`.
 Quelle: outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md

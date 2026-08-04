@@ -5,7 +5,7 @@ ausgabe: "September 2006 (lt. Fusszeile jeder Seite: «September 2006/SVO_Allgem
 gelesen: "Seiten 1-3 (vollständig), 2026-08-04"
 datenstand: "2006 ⚠ Alterskorpus PL-02 — Rechts-, Norm- und Schadstoffverweise vor Verwendung gegen die geltende Fassung prüfen"
 status: emerging
-last_updated: "2026-08-04 (Run 123)"
+last_updated: "2026-08-04 (Run 123; Wissens-Chef Run 25: SIA-493-Archivierungsvermerk an Ziff. 1.3)"
 ---
 
 # Destillat — Allgemeine bauökologische Submissionsbedingungen, Stadt Zürich (September 2006)
@@ -35,6 +35,13 @@ und eine Vergabesperre bei Zuwiderhandlung ab (Ziff. 4.1–4.2).
   Warendeklaration nach der Empfehlung ⚠ **SIA 493** «Deklaration ökologischer Merkmale
   von Bauprodukten» oder einer gleichwertigen, branchenspezifischen Regelung
   (z. B. VSLF-Produktedeklaration für Lacke, Farben).
+  - ⚠ **SIA 493 ist seit 30.06.2022 archiviert** (verifiziert 04.08.2026, Wissens-Chef Run 25).
+    Die Deklarationsform wird nicht mehr publiziert; eine LV- oder Devis-Klausel «Deklaration
+    nach SIA 493» verlangt vom Unternehmer einen Nachweis, den es nicht mehr gibt. Ein
+    Nachfolger ist **nicht** belegt und wird hier **nicht** behauptet. Führend für den
+    Fassungsstand ist die KB `normen`. Übernehmbar bleibt allein die **Mechanik** einer
+    Deklarationspflicht — der zu nennende Deklarationsweg ist vor jeder Übernahme neu zu
+    bestimmen.
 
 ### 2. Auflagen für Konstruktionen und Baumaterialien (Ziff. 2.1–2.13)
 
@@ -202,7 +209,10 @@ tragenden Verweise sind heute unterschiedlich zu behandeln.
   heute ins Leere. ⚠ Ein 1:1-Nachfolger ist **nicht belegt** (der Weg ueber EPD nach
   EN 15804+A2 / KBOB-Oekobilanzdaten ist nur sekundaerquellengestuetzt und hier bewusst **nicht**
   als Tatsache gesetzt) — vor einer Ersatzformulierung ist der geltende Deklarationsweg
-  abzuklaeren.
+  abzuklaeren. Praezisiert 04.08.2026 (Wissens-Chef Run 25): Die Deklarationsform wird nicht
+  mehr publiziert; die Klausel verlangt vom Unternehmer einen Nachweis, den es nicht mehr gibt
+  — das ist der Grund, warum Ziff. 1.3 dieser Quelle nicht woertlich uebernommen werden darf.
+  **Fuehrend fuer den Fassungsstand ist die KB `normen`**, nicht dieses Destillat.
 - **ecoBKP statt Merkblaetter 2008.** Das Regelwerk, auf das diese Submissionsbedingungen
   aufsetzen, heisst heute **ecoBKP** und liegt in der **Ausgabe 2026** vor; die Materialvorgaben
   wurden auf die Methodik «Baumaterialien ecobau 2025» umgestellt. Die Materialauflagen dieser

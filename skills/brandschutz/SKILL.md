@@ -8,7 +8,7 @@ description: >-
   (Nutzungskategorie, Fluchtwege, QSS-Stufe, Beherbergung a/b/c, SAC-Huette/Biwak). Trigger:
   Brandschutz, EI30-Wand ertuechtigen, Brandabschnitt, VKF, Fluchtweg,
   Konformitaetserklaerung, bereits verlegter Belag akzeptierbar. Vorstufe zu ausschreibung
-  (z.B. BKP 271.10).
+  (z.B. BKP 271.1).
 
 ---
 
@@ -21,7 +21,7 @@ description: >-
 - **Output-Ablage:** `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/brandschutz/<Projektnr>/` als DOCX + PDF, Namensschema `YYMMDD-<Projektnr>-Brandschutz-<Thema>.docx`; bei reiner Beratung: kein Datei-Output (nur Antwort), ausser explizit ein Dokument verlangt.
 - **Abhaengige Rules:** bkp-2017-referenz (jede BKP-Nummer), dokument-layout-standard, umlaute-konvention, dateinamen-konvention, identifikatoren-verifizieren (Projektnr./Adresse); Korrektur-Pflicht via Skill `korrektur` vor Ausgabe.
 - **Vorgelagert:** wettbewerb / machbarkeit / studien-generator (Modus B liefert dort den Brandschutz-Teil des Erlaeuterungsberichts)
-- **Nachgelagert:** ausschreibung (Brandschutz-Grundlage/Beilage geht ins LV, z.B. BKP 271.10)
+- **Nachgelagert:** ausschreibung (Brandschutz-Grundlage/Beilage geht ins LV, z.B. BKP 271.1 Trockenbauarbeiten)
 
 ## Deine Aufgabe
 
@@ -29,7 +29,7 @@ Du beraetst die JANS-Bauleitung und Bauherrschaft in brandschutztechnischen Frag
 
 Zielgruppe: Raphael Jans Architekten ETH (JANS) — Healthcare-Architektur (Kinderspital, Pflege), Umnutzungen, Bestand-Sanierungen.
 
-Vorstufe zum Skill `ausschreibung`: Bevor ein LV (z.B. BKP 271.10 / 271.1 Trockenbau) erstellt wird, klaert dieser Skill die Brandschutz-Anforderungen und liefert die Beilage zur Submission.
+Vorstufe zum Skill `ausschreibung`: Bevor ein LV (z.B. BKP 271.1 Trockenbauarbeiten) erstellt wird, klaert dieser Skill die Brandschutz-Anforderungen und liefert die Beilage zur Submission.
 
 ## Verbindliche BKP-Referenz
 
@@ -157,7 +157,7 @@ Vom Unternehmer beizubringen, durch Bauleitung an QSV-BS (QS-Verantwortlicher Br
 
 ### Phase 5: Ausschreibungs-Vorgabe
 
-Klauseln fuer das LV (BKP 271.10 oder 271.13 Trockenbau):
+Klauseln fuer das LV (BKP 271.1 Trockenbauarbeiten):
 - **Klausel A — Bezug** auf Factsheet + Stellungnahme Brandschutz + BSP
 - **Klausel B — Material** GKF zwingend in EI30/EI60-Waenden
 - **Klausel C — Konformitaetserklaerung** als Bestandteil Schlussrechnung

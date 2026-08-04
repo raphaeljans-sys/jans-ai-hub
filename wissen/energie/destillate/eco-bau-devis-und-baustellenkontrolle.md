@@ -5,7 +5,7 @@ ausgabe: "Deviskontrolle (ÖKO 3.14.C): Dokumenteigner-Feld „POM, 11.08.06“;
 gelesen: "Deviskontrolle S. 1 (vollständig) und Baustellenkontrolle S. 1-2 (vollständig), 2026-08-04"
 datenstand: "2006-2008 ⚠ Alterskorpus PL-02 — Verweise auf Merkblätter, Normen und Recht vor Verwendung gegen die geltende Fassung prüfen"
 status: emerging
-last_updated: "2026-08-04 (Run 123)"
+last_updated: "2026-08-04 (Run 123; Wissens-Chef Run 25: Attributionsfehler SIA 118 benannt, Selbstwiderspruch im Bauherren-Transfer aufgelöst)"
 ---
 
 # Destillat — Ökologische Devis- und Baustellenkontrolle (eco-bau), ÖKO 3.14.C (2006) und ÖKO 3.15.C (2006/2008)
@@ -24,6 +24,24 @@ Die Deviskontrolle sichert das SOLL: die Projektleitung Bauherrschaft prüft vor
 1. Leistungsverzeichnis
 2. Allgemeine bauökologische Submissionsbedingungen
 3. Allgemeine Bedingungen
+
+⚠ **Attributionsfehler der Quelle (verifiziert 04.08.2026, Wissens-Chef Run 25).** Die Quelle
+leitet diese Dreierliste wörtlich mit «Gemäss SIA 118 gilt folgende Reihenfolge der
+Vertragsbestandteile» ein (ÖKO 3.14.C, 29.08.2006). **Diese Zuschreibung trifft nicht zu**, und
+zwar unabhängig von der Ausgabenfrage: Nach **SIA 118:1991, Art. 21 Abs. 1** gehen die
+unterzeichnete Vertragsurkunde und das Angebot des Unternehmers samt Beilagen den
+Ausschreibungsunterlagen vor; innerhalb der Ausschreibungsunterlagen gilt nach **Art. 7 Abs. 2
+und 3** die Reihenfolge 1. Text der Vertragsurkunde, 2. objektbedingte besondere Bestimmungen,
+3. Leistungsverzeichnis bzw. Baubeschreibung, 4. Pläne, 5. nicht objektbedingte allgemeine
+Bestimmungen (darunter a) Norm SIA 118, b) übrige SIA-Normen, c) weitere Fachverbandsnormen).
+Die Dreierliste unterschlägt also die drei Ränge **oberhalb** des LV; nach SIA 118 ist das
+Leistungsverzeichnis nicht der oberste Vertragsbestandteil. Was in der Quelle wirklich trägt,
+ist keine Normwirkung, sondern die **Selbst-Nachrangigkeitsklausel** der Submissionsbedingungen
+selbst: Sie gelten «nur, sofern in den Leistungsverzeichnissen keine abweichenden Anforderungen
+festgelegt sind» (ÖKO 3.14.C; Richtlinie 3.11.R Ziff. 1.1) — eine vertraglich vereinbarte
+AHB-Regelung. Der Fehler ist hier ausdrücklich benannt, damit er beim nächsten Destillieren
+nicht erneut als quellenbelegte Norm-Aussage abgeleitet wird. Führend ist die KB `normen`
+(`wissen/normen/destillate/sia-118-1991.md`, Rule `normen-referenz`).
 
 **Kontroll-Mechanik (wer prüft was, gegen welches Dokument):**
 
@@ -81,7 +99,7 @@ Bei der Submissionskontrolle bieten die eco-devis laut Quelle folgende Unterstü
 Die übertragbare Kontroll-Logik dieser beiden Checklisten, unabhängig vom Alter der zitierten Merkblätter und Klassifikationen:
 
 - **Zwei-Stufen-Prinzip Soll/Ist:** Ökologische Anforderungen wirken nur, wenn sie erstens als überprüfbare LV-Positionen formuliert sind (nicht als allgemeine Absichtserklärung) und zweitens vor Ort tatsächlich nachkontrolliert werden. Eine Stufe ohne die andere bleibt wirkungslos — das Devis ohne Baustellenkontrolle ist Papier, die Baustellenkontrolle ohne klare LV-Vorgabe hat keinen Massstab.
-- **Vertragshierarchie zuerst klären:** Bevor ökologische Anforderungen in ein LV geschrieben werden, ist zu klären, welches Dokument im Streitfall vorgeht (LV vor allgemeinen Bedingungen vor allgemeinen bauökologischen Submissionsbedingungen, gemäss dieser Quelle). Diese Reihenfolge bestimmt, wo eine Anforderung tatsächlich verbindlich verankert werden muss.
+- **Vertragshierarchie zuerst klären:** Bevor ökologische Anforderungen in ein LV geschrieben werden, ist zu klären, welches Dokument im Streitfall vorgeht. ⚠ **Korrektur 04.08.2026 (Wissens-Chef Run 25):** Dieser Punkt gab die Reihenfolge bis dahin als «LV vor allgemeinen Bedingungen vor allgemeinen bauökologischen Submissionsbedingungen» wieder und **kehrte damit die beiden hinteren Ränge gegenüber dem eigenen Kernteil um** (dort richtig: LV → bauökologische Submissionsbedingungen → Allgemeine Bedingungen). Massgebend innerhalb dieses Destillats ist der Kernteil. Und beide Fassungen sind nur die AHB-Vertragsregelung, **nicht** die Rangordnung nach SIA 118 — siehe den Attributionsvermerk im Kernteil (SIA 118:1991 Art. 21 Abs. 1 und Art. 7 Abs. 2/3: über dem LV stehen Vertragsurkunde, Angebot und objektbedingte besondere Bestimmungen). Die Reihenfolge bestimmt, wo eine Anforderung tatsächlich verbindlich verankert werden muss — deshalb ist sie im eigenen Werkvertrag ausdrücklich zu vereinbaren, statt sie aus der Norm zu unterstellen.
 - **Checklisten/Merkblätter dienen der Erstellung, nicht der Weitergabe:** Interne Prüfhilfen (Merkblätter nach BKP) sind für die Bauherrschaft bzw. Projektleitung bestimmt und werden den Unternehmern nicht als Vertragsbestandteil beigelegt — nur die daraus abgeleiteten, konkreten LV-Positionen sind vertragswirksam.
 - **Vor-Ort-Vergleich statt Vertrauen:** Die Baustellenkontrolle prüft nicht die Lieferpapiere, sondern das tatsächlich verbaute Material gegen das bestellte Produkt — mit Pflicht zur schriftlichen Stellungnahme bei Abweichung. Das macht die Kontrolle beweisbar und schafft die Grundlage für Massnahmen (Rückbau, Ersatz, Vertragsstrafe).
 - **Terminierte, angekündigte Kontrolle:** Die Quelle sieht eine vereinbarte Vor-Ort-Kontrolle vor (nicht überraschend), was für die Zusammenarbeit mit Bauleitung/Unternehmern spricht, aber auch bedeutet, dass die Kontrolle punktuell und stichprobenartig bleibt — kein lückenloses Monitoring.
@@ -100,7 +118,10 @@ Die übertragbare Kontroll-Logik dieser beiden Checklisten, unabhängig vom Alte
 
 - **SIA 493 ist archiviert** (seit 30.06.2022). Eine Deviskontrolle, die «Deklaration nach
   SIA 493» abhakt, prueft heute gegen eine zurueckgezogene Norm. ⚠ Ein 1:1-Nachfolger ist
-  **nicht belegt**.
+  **nicht belegt**. Ergaenzt 04.08.2026 (Wissens-Chef Run 25): Die Deklarationsform wird nicht
+  mehr publiziert; eine LV- oder Devis-Klausel «Deklaration nach SIA 493» verlangt vom
+  Unternehmer einen Nachweis, den es nicht mehr gibt. Ein Nachfolger wird hier **nicht**
+  behauptet. Fuehrend fuer den Fassungsstand ist die KB `normen`.
 - **Die Merkblaetter 3.11.R/3.12.R, gegen die hier geprueft wird, heissen heute ecoBKP** und
   liegen in der **Ausgabe 2026** vor (Archiv zurueck bis 2014). Die Kontrolle laeuft also gegen
   ein Soll-Dokument, das seit dieser Quelle jaehrlich fortgeschrieben wurde.

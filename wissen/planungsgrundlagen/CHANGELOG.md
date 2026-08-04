@@ -2,6 +2,37 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Vorwirkung: Bruecke zum fuehrenden baurecht-Artikel gelegt; Thalwiler Ueberwachungs-Pendenz als K68 uebernommen
+
+- **`wiki/kartenportale-oereb-kataster-system-zh.md` § 3 — Zeiger auf die fuehrende KB gesetzt,
+  nichts entfernt.** Der Abschnitt referiert Ziff. 2.5.2 der OEREB-Weisung quellentreu und ist
+  **nicht mangelhaft, sondern quellenbegrenzt**: die Weisung ist eine Kataster-Betriebsweisung und
+  sagt nichts darueber, wie weit die Vorwirkung im Einzelfall reicht. Der Abschnitt **bleibt hier**
+  — er erklaert, warum das Connector-Flag `revision_laeuft` rechtliche Wirkung hat, und das ist
+  Auslegung des Geodatums, also Kernaufgabe dieser KB; er darf beim naechsten Sweep **nicht**
+  gekuerzt oder nach `baurecht` verschoben werden. Neu ergaenzt: Querbezug-Kasten auf
+  `wissen/baurecht/wiki/negative-vorwirkung-und-bzo-revision.md` (§ 234 PBG als Anknuepfung,
+  § 235 PBG fuer die Dauer, je Einzelbestimmung die strengere Fassung) plus die Lesegrenze — der
+  proj-Layer meldet **dass** und in welcher **Phase** revidiert wird, nie **welche
+  Einzelbestimmung** vorwirkt; bei `revisionsart = Aenderung_Bauordnung` bleiben die
+  proj-Attribute sogar leer (Anschluss [[kartenportale-zonenplan-zh]] §A6). Frontmatter `links:`
+  um den baurecht-Artikel erweitert.
+- ⚠ **Bewusst NICHT verallgemeinert:** die absatz- bzw. zellengenaue Grau-Markierung, mit der
+  Thalwil den Umfang der Vorwirkung publiziert, ist **kommunale Praxis** und keine Vorgabe der
+  Weisung. Sie steht im Kasten ausdruecklich als **Beispiel**, nicht als Regel fuer den Kanton ZH
+  — nicht jede Gemeinde legt eine solche Synopse auf.
+- **NEU `wiki/QUESTIONS.md` K68 (offen) — Thalwiler Ueberwachungs-Pendenz uebernommen.** Die
+  Pendenz **T-01** (Genehmigung und Inkrafttreten der revBZO Thalwil, festgesetzt 14.06.2026,
+  Stand 04.08.2026 weder genehmigt noch in Kraft) liegt in `wissen/baurecht/wiki/QUESTIONS.md`
+  und wird dort **manuell** geprueft (thalwil.ch, Gesetzessammlung SR 700.1). Den maschinellen
+  Pruefweg haelt diese KB (proj-Layer `rechtsstatus`/`festsetzung`/`genehmigung`/`inkraftsetzung`,
+  `geo-zh.mjs --produkt zonenplan`), wusste aber nichts von der Pendenz. Zwei Punkte sind
+  **offen und nicht geraten**: ob der proj-Layer fuer Thalwil ueberhaupt bestueckt ist
+  (`Aenderung_Bauordnung` kann leere proj-Attribute haben) und ob der Statuswechsel vor oder nach
+  der kommunalen Publikation erscheint — also ob der Weg Fruehwarnung ist oder nur Bestaetigung.
+  Erst nach dieser Messung darf er als Ueberwachung angeboten werden. Fuehrend fuer das Recht
+  bleibt `baurecht`.
+
 ## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — 4 Artikel berichtigt: Aufzug, Sitzhoehe, tote Erlasse, Toilettenschluessel
 
 - **`wiki/recht-norm-hindernisfreies-bauen-zh.md` — aus einer Pflicht war eine Komfortstufe

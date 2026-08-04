@@ -2,6 +2,44 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Welcher Teuerungsanker gilt für Tab. 2, und bleibt die Doppelführung?
+
+**Entscheid Raphael, nicht autonom lösbar — betrifft Realwert-Ergebnisse direkt.** Die
+Neuwert-Richtwerttabelle (Schätzungsanleitung Kap. 5, Tab. 2, Stand 2003) wird derzeit in
+**zwei** KBs materiell geführt: hier in `wiki/kennwerte.md` (Abschnitt «Run 12») und in
+`wissen/immobilienbewertung/wiki/realwert-sachwert.md`. Die Stände weichen zweifach ab, und
+beide bleiben bis zum Entscheid unverändert stehen (gegenseitige Vorbehalte gesetzt, kein Stand
+wurde still überschrieben):
+
+1. **Bandbreite — am Original geklärt.** Diese KB gibt je Bauklasse nur die
+   **BandUNTERgrenze** wieder, `immobilienbewertung` das **ganze Band**. Verifiziert am
+   Original-PDF (`IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf`, layouttreu
+   extrahiert mit `pdftotext -layout`, 04.08.2026): unter EFH wie unter MFH stehen je Bauklasse
+   **zwei** Zahlen. Die Deutung im Roh-Beleg
+   (`raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md`, «PDF-Layout-Artefakt,
+   zwei Unterspalten je Bauklasse, nicht vier Werte») ist damit widerlegt. Gegenprobe aus
+   derselben Tabelle: der Block «Grossgewerbe und Industrie» schreibt seine Bänder einzeilig
+   als «100 - 200», «150 - 250», «200 - 325», «275 - 375».
+2. **Teuerungsanker — offen.** Hier 1.334 (Stützpunkt 01.04.2004 = 907.6), dort 1.346
+   (Stützpunkt 01.04.2003 = 899.2). Rund **1 % Abweichung** in jedem hochgerechneten Wert;
+   beide Ankerwerte stehen in Tab. 4 desselben Kapitels und sind am Original verifiziert.
+
+**Zwei Fragen an Raphael:** (a) Welcher Anker gilt hub-weit? Empfehlung des Verifikators
+**1.346 / 01.04.2003**, weil die Tabelle im Kopf die Fusszeile «Stand 2003» trägt; die
+Alternative 1.334 («näher am Berichtsdruck») bleibt als benannte Unsicherheit von rund 1 %
+stehen. (b) Wird die Doppelführung durch einen **reinen Verweis** dieser KB auf
+`immobilienbewertung` ersetzt (Empfehlung des Verifikators, weil genau die Doppelführung den
+Widerspruch erzeugt hat), oder bleibt sie? Spiegel-Eintrag: `wissen/immobilienbewertung/wiki/
+wissensluecken.md`, Zeile **D12**.
+
+**Nicht ausgeführt und bewusst offen gelassen:** die Fehlerwurzel in
+`raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md` (halbierte Tabelle + widerlegte
+Artefakt-Begründung). Eingriffe in `raw/` sind nach Rule `wissens-bibliothekar` rückfragepflichtig
+— ohne Korrektur dort leitet ein Folgelauf denselben Fehler erneut ab. Ebenfalls offen: der
+CHANGELOG-Eintrag «2026-08-01 (Run 12)» trägt dieselbe falsifizierte Schlussfolgerung
+(«MFH 467–834 liegt unterhalb des Seed-Bands 850–1'050») und ist als historisches Protokoll
+nur mit Korrekturvermerk zu heilen, nicht umzuschreiben.
+
 ## 2026-08-04 (Mac Mini Nachtschicht) — Bring-Schuld Estrich/Brandschutzbekleidung (31.07.) weiterhin ungedeckt; Stufe-1-Exploration bleibt erschöpft
 
 **Kein neuer Fund, gezielt gegengeprüft statt neu durchsucht.** Zwei offene Punkte erneut

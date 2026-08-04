@@ -1,5 +1,33 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Neuwert-Richtwerte Tab. 2: Vorbehalt und gegenseitiger Zeiger gesetzt, Anker-Entscheid vorgelegt
+
+Befund F6-kennwerte-V1, adversarial verifiziert am Original-PDF
+(`IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf`, layouttreu extrahiert mit
+`pdftotext -layout`, 04.08.2026).
+
+- **`wiki/kennwerte.md`, Abschnitt «Run 12»:** Vorbehalts-Block direkt unter die Tabelle
+  gesetzt. Er benennt (a) die Doppelführung derselben Fremdtabelle in dieser KB und in
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md`, (b) dass die Werte hier nur die
+  **BandUNTERgrenze** sind (am Original stehen je Bauklasse zwei Zahlen unter EFH wie unter
+  MFH; Gegenprobe: der Block «Grossgewerbe und Industrie» schreibt seine Bänder einzeilig als
+  «100 - 200» usw.) und die Artefakt-Deutung des Roh-Belegs damit widerlegt ist, (c) die
+  Abweichung der Teuerungsfaktoren 1.334 (Anker 01.04.2004 = 907.6) gegen 1.346 (Anker
+  01.04.2003 = 899.2) von rund 1 %. **Keine Zahl geändert, kein Stand überschrieben** — beide
+  Stände sind benannt, der Entscheid liegt bei Raphael.
+- Im selben Block als Korrekturvermerk festgehalten, dass der Cross-Check-Schluss darunter
+  («MFH IV/V liegt unterhalb des MFH-gehoben-Seed-Bands 850–1'050») **falsifiziert** ist: mit
+  den echten Bändern reicht MFH von 471 bis 1'010 und überlappt das Seed-Band. Die offene
+  Frage zum BKP-Scope selbst bleibt gültig — es fällt ein Argument dafür, nicht die Frage.
+- **`wiki/QUESTIONS.md`:** neuer Eintrag zuoberst mit den zwei Entscheidungsfragen an Raphael
+  (Anker 1.334 vs. 1.346; Doppelführung vs. reiner Verweis auf `immobilienbewertung`).
+  Spiegel-Eintrag dort als Lücke **D12**.
+- **Bewusst nicht ausgeführt:** (1) Korrektur der Fehlerwurzel in
+  `raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md` — Eingriffe in `raw/` sind
+  nach Rule `wissens-bibliothekar` rückfragepflichtig; ohne sie leitet ein Folgelauf denselben
+  Fehler erneut ab. (2) Änderung des CHANGELOG-Eintrags «2026-08-01 (Run 12)», der dieselbe
+  falsifizierte Schlussfolgerung trägt — historisches Protokoll, hier nur vermerkt.
+
 ## 2026-08-04 (Mac Mini Nachtschicht) — Bring-Schuld-Gegenprüfung statt neuer Quellensuche
 
 Kein neuer Rohbeleg, kein neuer Kennwert. Vor einem neuen Explorationslauf gezielt geprüft, ob

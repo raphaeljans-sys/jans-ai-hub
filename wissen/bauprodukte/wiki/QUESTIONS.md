@@ -30,6 +30,21 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    nur eine 2002er-Momentaufnahme (3 CH-Anbieter, unverifiziert). Für Ausschreibungen
    BKP 224 braucht es eine eigene, aktuelle Recherche — nicht Teil eines
    unbeaufsichtigten Nachtlaufs (Web-Recherche über mehrere Quellen).
+
+   **Zeiger in die KB `energie` (nachgetragen 04.08.2026, Wissens-Chef Run 25):** Der
+   eco-bau-Bestand führt die Dachbegrünung in
+   `wissen/energie/destillate/eco-bau-merkblaetter-bkp-2008-huelle.md`, Abschnitt
+   «BKP 224 — Bedachungsarbeiten», Unterabschnitt «Dachbegrünung» (konstruktiver statt
+   chemischer Wurzelschutz, TPO-/EPDM-Bahnen biozidfrei wurzelfest, kalkarme
+   Substratmischung ohne Mergelanteile, Unkrautbekämpfung 1- bis 2-mal jährlich von Hand,
+   Gründachrichtlinie und SFG-Label als LV-Vorgabe). **Datierter Stand, keine heutige
+   Produktvorgabe:** Quelle ist die Ausgabe 2008 der «Merkblätter nach BKP»; die Reihe lebt
+   als ecoBKP weiter und ist bei ecobau.ch in der Ausgabe 2026 aktuell, weshalb das Destillat
+   seine Materialprioritäten selbst als «historischer Stand von 2008 und nicht als heutige
+   Empfehlung verwendbar» kennzeichnet (Aktualitätsprüfung Run 123, 04.08.2026). Die hier
+   verlangte aktuelle Marktübersicht ist damit **nicht** ersetzt, der Punkt bleibt offen.
+   Massgebende Fachnorm bleibt SIA 312:2013 (siehe [[dachbegruenung-systeme]], führend ist
+   `wissen/normen`).
 4. **ERCO Ratgeber nur zu 53/435 Seiten destilliert (Fortschritt Mac Mini Nachtschicht,
    31.07.2026: 20 → 40; 04.08.2026 13:30-Slot: 40 → 53):** [[erco-lichtplanung-grundlagen]]
    deckt jetzt zusätzlich «Räume verbinden» vollständig (auch Aussenraum-Fälle), das
@@ -69,6 +84,19 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    geschliffenen Terrazzo/Kunststein und (ii) das Reinigungs-/Pflegeverhalten — 2.027
    Kap. VI (Materialeigenschaften) und Kap. IX (Reinigung) sind bisher nur über das
    Inhaltsverzeichnis erfasst.
+
+   **Zeiger in die KB `energie` (nachgetragen 04.08.2026, Wissens-Chef Run 25):**
+   `wissen/energie/destillate/eco-bau-merkblaetter-bkp-2008-technik-ausbau.md`, Abschnitt
+   «BKP 281 — Bodenbeläge», deckt die ökologische Seite derselben Belagsfamilie ab:
+   zementgebundene Platten (Kunststein) unter den Plattenbelägen, Hartbeton/Hartsteinholz/
+   Magnesiabelag unter den fugenlosen Bodenbelägen, dazu Untergrundvorbehandlung und
+   Verlegewerkstoffe (Emicode EC1), Unterlagsböden und Entsorgung. **Datierter Stand, keine
+   heutige Produktvorgabe:** Ausgabe 2008 der «Merkblätter nach BKP»; die Reihe läuft als
+   ecoBKP weiter (aktuell Ausgabe 2026 bei ecobau.ch), und das Destillat kennzeichnet seine
+   Materialprioritäten selbst als «historischer Stand von 2008 und nicht als heutige
+   Empfehlung verwendbar» (Aktualitätsprüfung Run 123, 04.08.2026). **Zu den beiden hier
+   offenen Punkten sagt die eco-Quelle nichts** — weder zur erreichten
+   Gleitfestigkeitsklasse noch zum Reinigungs-/Pflegeverhalten. Beide bleiben offen.
 9. **Kein Artikel zu Holzbau und Bekleidungen — Prämisse korrigiert, GEBLOCKT mangels
    Quellmaterial (geprüft Mac Mini Nachtschicht, 31.07.2026):** Die Behauptung «das
    Quellarchiv führt die Sektionen 214, 225 und 271» ist nur zur Hälfte richtig: die
@@ -100,6 +128,40 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    225.4 (Brandschutzbekleidungen) trägt der Fall nichts bei — diese Teilfragen bleiben offen.
    Die Bezeichnungen 271.10/271.13 im Lesson-Artikel sind Projektnomenklatur, **kein**
    BKP-2017-Code.
+
+   **Teil-Antwort über die KB `energie` (nachgetragen 04.08.2026, Wissens-Chef Run 25):**
+   Produktseitige Vorgaben zu diesen BKP-Positionen liegen im eco-bau-Bestand der KB
+   `energie` und sind beim Anlegen des Artikels mitzulesen:
+   - **BKP 214 Montagebau in Holz / Zimmerarbeiten** —
+     `wissen/energie/destillate/eco-bau-merkblaetter-bkp-2008-huelle.md`, Abschnitt «BKP 214»:
+     vorbeugender chemischer Holzschutz nur bei ungenügendem baulichem Witterungs-/
+     Feuchteschutz und nicht in beheizten Innenräumen, Holz mit FSC-/PEFC-Label,
+     Formaldehyd-Regel (UF/MUF nur allseitig beschichtet, sonst PF/PMDI/PVAc),
+     Prioritätenraster für äussere Bekleidungen, Verlegeunterlagen, Wärmedämmschichten,
+     Wind-/Dampfbremsen sowie lösbare, rein mechanische Verbindungen. Ergänzend derselbe
+     Abschnitt «BKP 215 — Montagebau als Leichtkonstruktionen» (Fassadenbekleidungen,
+     Unterkonstruktion Holz statt Alu, Dämmplatten-Rohdichten).
+   - **BKP 271 Trockenbau** —
+     `wissen/energie/destillate/eco-bau-merkblaetter-bkp-2008-technik-ausbau.md`, Abschnitt
+     «BKP 271 — Gipserarbeiten»: Ständerwände und Wandbekleidungen mit Prioritäten
+     Gipsfaser-/Gipskartonplatte gegenüber Vollgipsplatte, Dämm- und Dampfbremsschichten,
+     Gipsentsorgung/Recyclingfähigkeit.
+   - **BKP 225** — `…-huelle.md`, Abschnitt «BKP 225 — Spezielle Dichtungen und Dämmungen»:
+     Fugendichtungs- und Vergussmassen, PCB-Altlast 1955 bis zirka 1975, VeVA-Entsorgung.
+     Zu den **Brandschutzbekleidungen BKP 225.4** selbst trägt der eco-Bestand nichts bei.
+
+   **Einordnung, damit der Zeiger nicht überlesen wird:** Quelle ist die Ausgabe 2008 der
+   «Merkblätter nach BKP» und damit ein datierter Stand. Die Reihe lebt als ecoBKP weiter
+   (aktuell Ausgabe 2026 bei ecobau.ch; die Materialempfehlungen wurden auf die Methodik
+   «Baumaterialien ecobau 2025» umgestellt, in ecoBKP 214 und 215 kamen 2026 Empfehlungen zu
+   Rückbaubarkeit/Reversibilität hinzu), und das Destillat kennzeichnet seine
+   Materialprioritäten selbst als «historischer Stand von 2008 und nicht als heutige
+   Empfehlung verwendbar» (Aktualitätsprüfung Run 123, 04.08.2026). Übertragbar ist die
+   Systematik, nicht der Materialentscheid. Die **Blockade ist damit nicht aufgehoben,
+   sondern nur teilweise umgangen**: für einen Artikel mit echtem Bauprodukte-Mehrwert fehlt
+   weiterhin das produktseitige Material (Korpus 2 `buero-projekte` oder Entscheid Raphaels,
+   das Gewerk zu überspringen). Vor jeder Verwendung in einem LV ist die geltende
+   ecoBKP-Ausgabe von ecobau.ch zu ziehen.
 10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz geprüft — GESCHLOSSEN
     (Mac Mini Nachtschicht, 31.07.2026).** Ergebnis: **materiell betroffen.** Ziff. 3.6
     Abs. 2 (neu 2017): Aufzugsschachttüren dürfen bei einer Anlage, die nur EIN

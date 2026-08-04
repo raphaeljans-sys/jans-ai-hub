@@ -5,7 +5,7 @@ ausgabe: "2008 (Titelblatt: «Ausgabe 2008»; Impressum-Fusszeile auf Seite 2 ab
 gelesen: "Seiten 1-29 von 55, 2026-08-04"
 datenstand: "2008 ⚠ Alterskorpus PL-02 — Normverweise, Kennwerte und Rechtsbezuege vor Verwendung gegen die geltende Fassung pruefen"
 status: emerging
-last_updated: "2026-08-04 (Run 123)"
+last_updated: "2026-08-04 (Run 123; Korrekturen Wissens-Chef Run 25: SIA-312-Fassungsvorbehalt Dachbegrünung, SIA-493-Archivierungsvermerke)"
 ---
 
 # Destillat — Ökologisch Bauen, Merkblätter nach BKP, Ausgabe 2008 (Teil 1: Vorbereitung, Rohbau, Gebäudehülle)
@@ -162,11 +162,13 @@ Fünf Phasen mit je zugeordneten eco-bau-Werkzeugen/Quellen:
 - Wärmedämmungen begehbar: lose verlegte Platten aus Steinwolle (bis ca. 160 kg/m³), EPS (ca. 20 kg/m³) oder Kork (2-lagig geklebt); mit Bitumen geklebte Schaumglasplatten 1-lagig (Verbunddächer). XPS- und PUR-Platten nur verwenden, wenn FKW/HFKW-frei geschäumt (Zellinhalt Luft); Verbunddächer nur, wenn sehr hohe Druckfestigkeit gefordert wird oder die Nutzung nicht geregelt ist.
 - Verbund mit der Unterlage: Heissbitumen, lösemittelfreier Kunststoffkleber, Dämmstoffhalter.
 - Abdichtungen: 1. Priorität lose verlegte Polyolefin-Folie (TPO) 1-lagig; 2. Priorität geklebte Polyolefin-Folie (TPO) 1-lagig, PVC-Folie (ohne Bestandteile mit den R-Sätzen 33, 39,40, 45, 46, 48, 49, 60 bis 64 und 68) ⚠; falls kein Wurzelschutz nötig: 1- oder 2-lagige Abdichtungen aus Polymerbitumenbahnen geschweisst oder selbstklebend, ohne Wurzelschutz. Bei PVC-Bahnen Kontrolle der R-Sätze anhand der SIA-Deklaration 493 ⚠.
+  - ⚠ **SIA 493 ist seit 30.06.2022 archiviert** (verifiziert 04.08.2026, Wissens-Chef Run 25). Die Deklarationsform wird nicht mehr publiziert; eine LV- oder Devis-Klausel «Deklaration nach SIA 493» verlangt vom Unternehmer einen Nachweis, den es nicht mehr gibt. Ein Nachfolger ist **nicht** belegt und wird hier **nicht** behauptet. Führend für den Fassungsstand ist die KB `normen`.
 - Schutzlagen, Schutzbahnen: PE- oder PP-Vlies, TPO-Bahnen.
 - Unterlagen zu Gehbelägen: Splitt, Kies; Stelzlager aus Faserzement.
 
 **Dachbegrünung**
 - Extensive Dachbegrünung: bei der Ausschreibung sind die Gründachrichtlinie und das **SFG-Label** ⚠ als verbindlicher Qualitätsstandard ins LV aufzunehmen (Liste der ausgezeichneten Systeme bei der Schweiz. Fachvereinigung Gebäudebegrünung SFG erhältlich).
+  - ⚠ **Fassungsvorbehalt eigener Art (verifiziert 04.08.2026, Wissens-Chef Run 25).** Hier hilft **nicht** die Suche nach einer neueren Label-Fassung, sondern der Blick in die Norm: Massgebend für Projektierung und Ausführung ist seit **01.11.2013 SIA 312:2013 «Begrünung von Dächern» (SN 564312)**; die Allgemeinen Bedingungen Bau dazu stehen in **SIA 118/312** (Ziff. 0.2), ergänzt werden SIA 271 und SIA 318 (Ziff. 0.1.2). In dieser Norm ist die Gründachrichtlinie **kein Qualitätsstandard, sondern ein Prüfverfahren**: für den Deckungsgrad (Ziff. 2.5.5, ausdrücklich «oder gleichwertige Prüfmethoden») und für die Wasserkapazität des Substrats (Ziff. 4.3.2, Fussnote). Sie steht **nicht** unter den normativen Verweisungen (Ziff. 0.3), sondern nur im **informativen Anhang C [14]**, und zwar ausschliesslich **Teil 1 «Wasserhaushalt und Vegetation» (1999)**. **Teil 2 «Labelvergabe und Ökobilanz»**, die Grundlage des SFG-Labels, wird in SIA 312 nirgends zitiert; das SFG-Label kommt in der ganzen Norm nicht vor. Daraus folgt **nicht**, dass das Label überholt wäre — Schweigen der Norm ist keine Aufhebung. Verbindlich-technisch ist SIA 312:2013; das SFG-Label bleibt eine **freiwillige, ökologisch motivierte Zusatzanforderung**, die eine Bauherrschaft weiterhin ins LV nehmen kann. Falsch ist allein das Wort «verbindlicher Qualitätsstandard» der Quelle von 2008. Führend für den Fassungsstand ist die KB `normen` (Destillat `wissen/normen/destillate/sia-312-2013.md`, Rule `normen-referenz`); Systeme, Schichtaufbau und BKP-Zuordnung siehe `wissen/bauprodukte/wiki/dachbegruenung-systeme.md`. Ob SFG, Gründachrichtlinie und Label heute überhaupt noch bestehen, ist **nicht** verifiziert (sfg-gruen.ch nicht geprüft) → `wiki/QUESTIONS.md`, E-R25-1.
 - Wurzelschutz: konstruktive Massnahmen beim Schichtenaufbau treffen. Chemischer Wurzelschutz (Biozide) kann ausgewaschen werden und gefährdet die Umwelt; TPO- und EPDM-Bahnen sind ohne Zusatz von Bioziden wurzelfest.
 - Substratmischung: kalkarme Komponenten ohne Mergelanteile (kalkreiche Tone); Substrataufbau muss der Pflanzenauswahl entsprechen.
 - Unkrautbekämpfung auf Dächern und Terrassen: Unkräuter (Gehölzsämlinge etc.) 1- bis 2-mal jährlich von Hand entfernen.
@@ -189,6 +191,7 @@ Fünf Phasen mit je zugeordneten eco-bau-Werkzeugen/Quellen:
 
 - Vorbereitungsarbeiten: 1. Priorität bei sauberen, staub- und fettfreien Untergründen keine Vorbehandlung mit Reinigern oder Primern (glatte Flächen zur Verbesserung der Haftung evtl. aufrauen); 2. Priorität falls Reiniger/Primer unerlässlich, wässrige oder lösemittelfreie Produkte (Reaktionsharze) einsetzen.
 - Abdichten mit Fugendichtungsmasse: generelle Anforderung ohne Lösemittel und unschädlich verbrennbar. Trockenbereich: Polyacrylate, 1K-Polyurethan, 2K-Polysulfide (alle Produkte ohne Fungizide); Nassbereich: fungizid ausgerüstete Produkte (z.B. Sanitärsilikone). Zu prüfen anhand SIA-Deklarationsraster 493.07, Ziff. 222 und 421 ⚠.
+  - ⚠ **SIA 493 ist seit 30.06.2022 archiviert** (verifiziert 04.08.2026, Wissens-Chef Run 25). Die Deklarationsform — und damit auch das Raster 493.07 — wird nicht mehr publiziert; eine LV- oder Devis-Klausel «Deklaration nach SIA 493» verlangt vom Unternehmer einen Nachweis, den es nicht mehr gibt. Ein Nachfolger ist **nicht** belegt und wird hier **nicht** behauptet. Führend für den Fassungsstand ist die KB `normen`.
 - Fugenfüllungen mit Fugenvergussmasse: generelle Anforderung ohne Lösemittel und unschädlich verbrennbar. Heissvergussmasse (ohne Teer) auf Bitumen- oder Bitumen-Kautschukbasis; Fugenvergussmasse auf Basis von Epoxidharz, Polyurethanharz, Polysulfid oder Butylkautschuk.
 - Verwertung/Entsorgung: PCB-haltige Fugendichtungen — in der Schweiz wurden von **1955 bis zirka 1975** PCB-haltige Dichtungsmassen eingesetzt ⚠; Abklärungen, Massnahmen und Arbeitsschritte gemäss BUWAL-Richtlinie; Kittmassen mit PCB-Gehalt über **50 ppm** gelten als Sonderabfall und sind nach VeVA zu entsorgen ⚠. Reste von Fugen-/Kittmassen (nicht PCB-haltig): nicht ausgehärtet Sonderabfall nach VeVA, ausgehärtet Verbrennung KVA. Reste von Voranstrichen/Haftreinigern: Sonderabfall nach VeVA.
 
@@ -268,8 +271,16 @@ Ausschlusskriterien, Entsorgungslogik) — nicht der Materialentscheid.
 | **SIA 112/1** «Nachhaltiges Bauen — Hochbau» | **GILT**, aktuelle Ausgabe **2017** (seit 01.09.2017); Fassung 2005 archiviert per 31.08.2017 | shop.sia.ch |
 | **SN EN 206-1** (Beton) | **ERSETZT** durch **SN EN 206, 2. Auflage**, gueltig seit 01.01.2016 | espazium.ch: «Sie ersetzt nicht nur die 1. Auflage, sondern auch die seit dem Januar 2003 gueltige SN EN 206-1:2000» |
 | **SIA 162/4** (Recyclingbeton) | **ARCHIVIERT** seit 31.12.2009. ⚠ Die Ablösung durch SIA-Merkblatt MB 2030 ist nur sekundaerquellengestuetzt → **schwach verifiziert** | shop.sia.ch: «gueltig bis 31.12.2009, archivierter Titel!» |
+| **Gründachrichtlinie + SFG-Label** (Dachbegrünung, BKP 224) | **Das Feld ist normativ neu besetzt.** Seit **01.11.2013** gilt **SIA 312:2013 «Begrünung von Dächern» (SN 564312)**, ABB in **SIA 118/312** (Ziff. 0.2), ergänzend SIA 271 und SIA 318 (Ziff. 0.1.2). Die Gründachrichtlinie ist dort **kein Qualitätsstandard, sondern Prüfverfahren** — Deckungsgrad (Ziff. 2.5.5, «oder gleichwertige Prüfmethoden») und Substrat-Wasserkapazität (Ziff. 4.3.2) — und steht nur im **informativen Anhang C [14]**, zitiert wird ausschliesslich **Teil 1** (1999). **Teil 2 «Labelvergabe und Ökobilanz»** und das **SFG-Label** kommen in der Norm nicht vor. Das Label ist damit **weder aufgehoben noch normativ verbindlich**: freiwillige Zusatzanforderung. Heutiger Bestand von SFG/Richtlinie/Label **nicht** verifiziert | SIA 312:2013 im Original gelesen (Titelblatt, Ziff. 0.1.2/0.2/0.3, 2.5.5, 4.3.2, Anhang C); führend KB `normen`, Destillat `sia-312-2013` — verifiziert 04.08.2026, Wissens-Chef Run 25 |
 | **Energieetikette A++/A+** | **NEU SKALIERT**: seit **01.03.2021** Skala **A-G ohne Pluszeichen** fuer Geschirrspueler, Waschmaschinen/Waschtrockner, Kuehl-/Gefriergeraete und Displays; Beleuchtung ab 01.09.2021. CH-Rechtsgrundlage: **Energieeffizienzverordnung EnEV, SR 730.02** | EnEV Art. 6 Abs. 1 (Fedlex) |
 
 **Nicht geprueft und weiterhin offen:** SIA 431, SIA 380/1, SIA 382/1, SWKI VA104-01, EKAS 6503,
-die SUVA-Merkblattnummern, ChemRRV, VREG, saemtliche Label (FSC/PEFC, RAL-UZ, VERT, SFG, FSHBZ),
+die SUVA-Merkblattnummern, ChemRRV, VREG, die Label FSC/PEFC, RAL-UZ, VERT und FSHBZ,
 der PCB-Grenzwert 50 ppm und die BKP-Nummern gegen BKP 2017 (Rule `bkp-2017-referenz.md`).
+
+⚠ **Korrektur 04.08.2026 (Wissens-Chef Run 25):** Das **SFG-Label** stand bis dahin in dieser
+Aufzaehlung und war damit als «nicht geprueft» gefuehrt, obwohl es zugleich eine eigene, gepruefte
+Zeile in der Tabelle oben hat. Der Selbstwiderspruch ist aufgeloest: SFG ist aus dieser Zeile
+herausgenommen; massgeblich ist die Tabellenzeile «Gruendachrichtlinie + SFG-Label». Was dort
+offen bleibt, ist ausschliesslich der **heutige Bestand** von SFG, Richtlinie und Label
+(sfg-gruen.ch nicht geprueft) → `wiki/QUESTIONS.md`, E-R25-1.

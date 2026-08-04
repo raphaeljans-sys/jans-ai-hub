@@ -400,6 +400,39 @@ Vorbehalt Preisstand-Interpretation siehe Roh-Beleg):
 | V | Überdurchschnittliche Qualität, komfortabler Ausbau | 900 | 734 |
 | VI | Vornehm, beste Qualität, hoher Komfort | 1'000 | 834 |
 
+> **⚠ Vorbehalt und Doppelführung — Wissens-Chef Run 25, verifiziert 04.08.2026.**
+> Dieselbe Fremdtabelle (Schätzungsanleitung Kap. 5, Tab. 2 «Richtwerte für die Bestimmung des
+> Neuwertes», Stand 2003) wird **derzeit in zwei KBs materiell geführt**: hier und in
+> `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (Abschnitt «Neuwert-Richtwerte CHF/m3,
+> Stand 2003 aufindexiert auf 2025»). Die beiden Stände weichen zweifach voneinander ab, und
+> **keiner der beiden wird ohne Entscheid Raphaels überschrieben**:
+> 1. **Bandbreite.** Die Tabelle oben gibt je Bauklasse **nur die Banduntergrenze** wieder,
+>    `immobilienbewertung` das **ganze Band** (Bauklasse V EFH dort 909-1'077 statt 900 hier).
+>    Am Original-PDF nachgeprüft (`schaetzungsanleitung_kap5.pdf`, layouttreu extrahiert mit
+>    `pdftotext -layout`, 04.08.2026): unter EFH wie unter MFH stehen je Bauklasse **zwei**
+>    Zahlen, also Bandunter- und Bandobergrenze. Die im Roh-Beleg
+>    (`raw/schaetzungsanleitung-kap5-neuwert-richtwerte-bauklassen.md`) festgehaltene Deutung
+>    «PDF-Layout-Artefakt, zwei Unterspalten je Bauklasse, nicht vier Werte» ist damit am
+>    Original widerlegt. Gegenprobe aus derselben Tabelle: der Block «Grossgewerbe und
+>    Industrie» schreibt seine Bänder einzeilig als «100 - 200», «150 - 250», «200 - 325»,
+>    «275 - 375».
+> 2. **Teuerungsfaktor.** Hier 1.334 (Stützpunkt 01.04.2004 = 907.6), dort 1.346 (Stützpunkt
+>    01.04.2003 = 899.2) — rund **1 % Abweichung**. Beide Ankerwerte stehen in Tab. 4 desselben
+>    Kapitels und sind am Original verifiziert.
+>
+> **Lesart bis zum Entscheid:** Die Werte oben bleiben unverändert stehen, sind aber als
+> **Banduntergrenzen, hochgerechnet mit Faktor 1.334** zu lesen, nicht als Punktwerte. Der
+> Entscheid über den Anker (1.334 vs. 1.346) und darüber, ob die Doppelführung durch einen
+> reinen Verweis ersetzt wird, liegt bei Raphael und ist als offener Punkt in
+> `wiki/QUESTIONS.md` eingetragen.
+>
+> **Folge für den Cross-Check-Schluss im nächsten Absatz:** Mit den echten Bändern reicht MFH
+> von 471 bis 1'010 CHF/m3 (Bauklasse V 740-909, VI 841-1'010, Faktor 1.346) und **überlappt**
+> das MFH-gehoben-Seed-Band 850-1'050. Die Aussage «liegt unterhalb» ist damit falsifiziert und
+> die daraus gezogene Konsistenz-Aussage unbelegt. Die offene Frage zum BKP-Scope selbst bleibt
+> **gültig** — die Primärquelle nennt tatsächlich nur «Baukosten je m3 umbauter Raum
+> (SIA-Norm 116)» ohne BKP-Angabe; es fällt ein Argument dafür, nicht die Frage.
+
 **Nicht promoviert zu einem führenden Kennwert, bewusst als Cross-Check geführt:** die
 Primärquelle bezeichnet die Werte nur als «Baukosten je m³ umbauter Raum (SIA-Norm 116)» ohne
 expliziten BKP-Scope. Die unmittelbar auf derselben Quellseite stehende Tabelle 3 (Prozentanteile,
