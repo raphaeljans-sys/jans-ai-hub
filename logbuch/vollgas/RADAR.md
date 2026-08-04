@@ -51,6 +51,107 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-05 00:57 — [FREI] Der Vorsprung faellt auf +3.2 und naehert sich der Null — das ist die gewollte Konvergenz, nicht ein Problem. Starke Nacht-Lieferung (energie Run 123, Wissens-Chef Run 25), aber der neue energie-Taktgeber ist noch unbewiesen
+
+**Selbstkontrolle:** letzter Eintrag 04.08. 17:05, Abstand 7 h 52 bei 8-h-Takt (00:50 /
+08:50 / 16:50). **Kein Aufsichtsausfall**, der Slot 00:50 ist eingehalten.
+
+**Fenster FREI — die vorgeschriebene Probe haengt zum vierten Mal.** `claude -p "Antworte
+nur mit: OK" --model haiku` aus `/tmp`, mit eigenem 100-Sekunden-Watchdog: die Ausgabedatei
+bleibt **vollstaendig leer** — kein «OK», kein Limit-Hinweis, kein «Not logged in», nicht
+einmal ein rc-Vermerk. Der Defekt ist damit an vier aufeinanderfolgenden Laeufen belegt
+(04.08. 09:10 zweimal, 17:05, jetzt). Die Lage selbst ist eindeutig: **dieser Radar-Lauf
+ist ein Modelllauf auf dem MacBook Pro** — laeuft er, ist Kapazitaet da; dazu der
+Nachtschicht-Slot 23:30 mit rc=0 und 2.40 USD im Lauf-Journal. Umwegbeleg, wie an den
+letzten beiden Laeufen.
+
+**Speicher:** 3.16 GB frei+inactive+purgeable, Druckstufe **2** (warning). Um 17:05 waren
+es 3.05 GB bei derselben Stufe. Stabil, kein Handlungsbedarf.
+
+**Wochenbudget.** `kontingent-budget.sh --json`, gemessen ohne Modellaufruf:
+
+| Groesse | Wert | Vergleich 17:05 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **42.15 Mio** von 167 = **25.2 %** | 36.22 Mio = 21.7 % |
+| Woche verstrichen | 22.0 % (37 h seit Reset Mo 12:00) | 17.3 % |
+| **Vorsprung** | **+3.2 Punkte** | +4.4 Punkte |
+| MacBook Pro / Mac Mini | 29.95 / 12.20 Mio (beide frisch) | 25.76 / 10.46 |
+
+**Der Vorsprung schrumpft zum dritten Mal in Folge (+8.6 → +4.4 → +3.2), und das ist
+genau das gewollte Verhalten.** Die Rate seit 17:05 betraegt **0.75 Mio/h** (5.93 Mio in
+7 h 52) gegen 0.12 Mio/h am Nachmittag und 2.32 Mio/h in der Nacht zuvor. Der flache
+Wochenschnitt liegt bei **0.99 Mio/h** (167 Mio auf 168 h) — solange der Verbrauch
+darunter liegt, faellt der Vorsprung zwangslaeufig gegen Null, also gegen den
+gleichmaessigen Verlauf, den Raphaels Entscheid vom 03.08. verlangt. Ein schrumpfender
+Vorsprung ist hier **kein Warnsignal, sondern die Zielgroesse**; erst ein NEGATIVER
+Vorsprung waere einer. Fortgeschrieben auf 0.75 Mio/h endete die Woche bei rund 141 von
+167 Mio, also mit etwa 26 Mio ungenutzt — die Nacht hat aber gerade erst begonnen und hebt
+die Rate erfahrungsgemaess wieder an. Eine Drossel nach Schritt 2c ist **nicht** ausgeloest
+und wurde **nicht** gesetzt.
+
+**Liefer-Delta: 39 Commits in 9 Stunden, davon drei mit Substanz — die beste
+Nacht-Ausbeute seit dem Reset.**
+- `wissen/energie` **40 Dateiaenderungen**, Run 123: eco-bau-/AHB-Beschaffungskorpus,
+  9 Destillate, FAQ F208–F211, neuer Themenartikel oekologische Materialvorgaben,
+  Aktualitaetsbefund ecoBKP 2026, zwei Agentenbefunde widerlegt, 44 FAQ-Ueberschriften und
+  12 Backlinks repariert.
+- Wissens-Chef Run 25 (Cross-KB, 23 Agenten): SIA 493 als seit 30.06.2022 archiviert
+  erkannt und SIA 430:2023 nachgefuehrt, die BKP-Phantomcodes **271.10 und 271.13** in
+  Skills, normen-Destillaten, Rule und Brandschutz-Template bereinigt — mit der richtigen
+  Sachbezugs-Entscheidung (Brandschutz = **271.1** Trockenbau, nicht 271.0), dazu
+  `wissen/normen` 9, `wissen/baurecht` 5, `koordination`/`immobilienbewertung`/
+  `grobkosten`/`planungsgrundlagen` je 3 bzw. 2.
+- Nachtschicht 23:30: `projekt-lessons` Bauen-im-Betrieb, erweiterter **Nullbefund** nach
+  Durchsuchung von KISPI-Ordner und Mail, im Logbuch nachgefuehrt. Ein belegter Nullbefund
+  ist ein Ergebnis, kein Leerlauf.
+- Lauf-Journal 04.08.: vier Zeilen, **alle rc=0** (02:35 2.37 USD, 05:35 2.85, 13:42 4.23,
+  23:35 2.40). Die restlichen 36 Commits sind `nas-selfcommit` mit
+  `station-status/*` (70 Aenderungen) und `logbuch/kontingent/*` (38) — Statusrauschen,
+  das nach Schritt 5 nicht als Arbeit zaehlt.
+- **Kein Loop mit drei oder mehr Laeufen ohne Delta.** Kein Rueck-Takt-, kein
+  Stilllegungskandidat.
+
+**Feuermechanismen — alle drei Orte geprueft, keine Abweichung.**
+- Endlos-Runner unveraendert **ausgebaut**: `ch.jans.vollgas-supervisor` (beide Stationen)
+  und `ch.jans.vollgas-monitor` (MacBook) tragen `.disabled-260729` und sind in
+  `launchctl list` nicht geladen. Nichts angefasst.
+- Mac-Mini-Nachtschicht `ch.jans.nachtschicht` geladen, Slots intakt.
+- Registry: alle Lern-Tasks **enabled=true**; auf `false` nur abgeschlossene One-Time-Tasks
+  und die bewusst auf Ereignis-Trigger umgestellten Loops (`immobewertung-training`,
+  `spec-training`). `normen-training-nacht` steht auf 05.08. 01:27 scharf.
+
+**Nachtrag zum P2 des Vorlaufs — der energie-Taktgeber ist korrigiert, aber noch nicht
+bewiesen.** Die Korrektur in `scripts/nachtschicht-run.sh` steht unveraendert (Zeile 126,
+Freiliste enthaelt energie, Begruendung samt Datum im Prompt). Die grosse
+energie-Lieferung dieser Nacht kam allerdings **nicht** von ihr: Run 123 wurde um 23:08
+committet, der Nachtschicht-Slot 23:30 lief danach und waehlte `projekt-lessons`
+(regelkonform — seine Heuristik nimmt die am laengsten nicht trainierte KB, und energie war
+soeben angefasst worden). `ch.jans.wissens-trigger` meldet energie am 04.08. auf beiden
+Stationen weiterhin als «unveraendert — kein Lauf». Run 123 stammt also aus einer
+Session ausserhalb der Taktgeber. Ergebnis: die KB ist **nicht** ausgefallen, aber der
+Beweis, dass die Nachtschicht sie kuenftig selbst zieht, steht noch aus und faellt
+fruehestens im naechsten Slot an, in dem energie die aelteste Baustelle ist. Kein
+Eingriff — ein zweiter Mechanismus bliebe falsch.
+
+**P1 — keiner.** Keine Mail (kein Blocker, den nur Raphael loesen kann; Kontingent nicht
+erschoepft; der Proben-Defekt bleibt ein Messproblem).
+
+**P2 — die haengende Fensterprobe, unveraendert der groesste offene Hebel.** Viermal ohne
+jede Ausgabe. Sie ist die einzige Messung, die [LOGIN] und [WOCHE LEER] sauber trennt;
+faellt sie aus, erkennt der Radar eine Wochensperre erst daran, dass andere Laeufe
+scheitern — also spaeter als noetig, und genau diese Verspaetung hat den 47-h-Ausfall vom
+01.–03.08. mitverursacht. Gebraucht wird ein Probe-Weg, der nicht ueber das interaktive
+CLI laeuft.
+
+**P3 — der fehlende Tagesdeckel bleibt offen, weiter ohne Druck.** Der Verbrauch
+konvergiert von selbst auf den flachen Wochenschnitt. Dringend wird der Deckel erst, wenn
+eine Nacht wieder ueber 2 Mio/h liefert und der Tag das nicht ausgleicht.
+
+*Regellauf schlank gehalten. Einziger Mehraufwand: die Herkunftspruefung der
+energie-Lieferung, die der P2-Vermerk des Vorlaufs verlangt hat.*
+
+---
 ## 2026-08-04 17:05 — [FREI] Der Vorsprung halbiert sich erneut (+8.6 → +4.4), die Tagesrate liegt bei einem Achtel des Nachhaltigkeitswerts. Der energie-Loop hat wieder einen Taktgeber — Ausschlussliste der Nachtschicht korrigiert
 
 **Selbstkontrolle:** letzter Eintrag 04.08. 09:10, Abstand 7 h 55 bei 8-h-Takt (00:50 /
