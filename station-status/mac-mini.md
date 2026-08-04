@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 04.08.2026 07:15:05
+Stand: 04.08.2026 07:25:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 04.08.2026 07:15:05
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 56563f05 nas-selfcommit: 1 Datei(en) 2026-08-04 07:15
+- 1b0a8641 vollgas-fruehwarnung 04.08.2026: erste rekursive Messung (Subagenten mitgezaehlt, Faktor 2-3), still beendet, Befund ins Logbuch fuer den Chef
