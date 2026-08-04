@@ -37,10 +37,13 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 30.07.2026 (Nachtschicht 13:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
-· 15 destilliert `[x]` · 21 triagiert `[t]` · 32 offen `[ ]` · 146 bewusst uebersprungen `[-]`
-· 10 Wiki-Artikel (unveraendert, Ergaenzung eines bestehenden Artikels). Letzte Einheit:
-BKP 261 Aufzuege, `Lift/AS/100426_AS_Aufzuege_Masskizze.pdf` (Scan, per pdftoppm gerendert
+**Stand 04.08.2026 (Nachtschicht 05:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+· 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
+· 9 Wiki-Artikel. Letzte Einheit: `paustian_mirror_mirror_product_sheet.pdf` (900
+Einrichtung) gegen die Altersregel geprueft und ohne Artikel als `[-]` geschlossen (>10
+Jahre altes Produkt-Datenblatt ohne Prinzip) — Details `wiki/QUESTIONS.md` Punkt 13 und
+`CHANGELOG.md` 04.08. Zuvor, 30.07.2026: BKP 261 Aufzuege,
+`Lift/AS/100426_AS_Aufzuege_Masskizze.pdf` (Scan, per pdftoppm gerendert
 und gelesen) → [[bkp-261-aufzuege]] ergaenzt um Schachtbemassung (1500×1500mm, Schachtkopf
 3400/2900mm, Schachtgrube 1060-1230mm) des Produkts «Swisslift» (2.1.0053.01.8) und den
 offenen Foerderhoehen-Widerspruch (27m Winner-Blatt vs. 30m Masskizze).

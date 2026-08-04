@@ -5,6 +5,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — Mac Mini Nachtschicht 05:30 (Prioritaet 4, KB bauprodukte, ein Posten geschlossen)
+
+Prioritaeten 1–3 erneut ohne offenen Punkt (keine neuen remote-/sync-Tasks, Synobsis
+Stufe 2 unveraendert abgeschlossen, Fristen-Radar zuletzt 22:30). `grobkosten` wurde im
+02:31-Lauf dieser Nacht bereits erschoepfend geprueft und ist extern blockiert; daher
+`bauprodukte` (Status "AKTIV, hoechste Prioritaet" in `training/PROGRAMM.md`) bearbeitet.
+Von den 29 offenen `[t]`-Positionen eine geprueft: `paustian_mirror_mirror_product_sheet.pdf`
+(900 Einrichtung) ist ein reines Hersteller-Datenblatt von 2015 (>10 Jahre) zu einem
+konkreten Serienprodukt ohne Konstruktionsprinzip — nach der Altersregel (31.07.2026) kein
+Artikel zulaessig. Position korrekt als `[-]` geschlossen statt im Rueckstand liegen zu
+lassen (Inventar 214: 16 `[x]` / 29 `[t]` / 22 `[ ]` / 147 `[-]`). Nebenbefund in
+`wiki/QUESTIONS.md` (Punkt 13) vermerkt: der Rest der Sektion 900 ist ueberwiegend
+Konsumgueter-Moebelkatalog ohne Baustoffbezug, Entscheid ueber Pauschal-Ueberspringen bei
+Raphael. Details: `wissen/bauprodukte/CHANGELOG.md`.
+
 ## 2026-08-04 — Mac Mini Nachtschicht 02:31 (Prioritaet 4, KB grobkosten, kein neuer Kennwert)
 
 Prioritaeten 1–3 abgeprueft: keine offenen remote-/sync-tasks (ausser dem seit 31.07.

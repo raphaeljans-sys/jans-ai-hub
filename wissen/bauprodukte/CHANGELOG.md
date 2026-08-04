@@ -1,5 +1,37 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-04 (Mac Mini Nachtschicht 05:30) — Ein triagierter Positionsposten gegen die Altersregel geprüft, kein Artikel
+- Prioritaeten 1–3 der Nachtschicht ohne offenen Punkt (keine neuen remote-/sync-Tasks,
+  Synobsis Stufe 2 weiterhin abgeschlossen, Fristen-Radar zuletzt 22:30 gelaufen). Unter
+  den freien KBs (`bauprodukte`, `grobkosten`, `projekt-lessons`) traegt `bauprodukte` seit
+  30.07.2026 den Status "AKTIV, hoechste Prioritaet" (`training/PROGRAMM.md`); der letzte
+  inhaltliche Wiki-Zuwachs war der ERCO-Artikel vom Vorlauf 23:30 (Kurator-Korrektur, kein
+  neuer Inhalt) — `grobkosten` wurde bereits im 02:31-Lauf dieser Nacht erschoepfend
+  geprueft und ist extern blockiert (kein neues Rohmaterial), daher hier weitergearbeitet
+  statt derselbe Block sofort erneut angefasst.
+- **Eine Einheit statt Neuinventur:** aus den verbleibenden 29 triagierten `[t]`-Positionen
+  war `paustian_mirror_mirror_product_sheet.pdf` (900 Einrichtung, P2 "Spiegelelement
+  Moebel-Datenblatt") die einzige mit P1/P2-Prioritaet ausserhalb des laufenden
+  ERCO-Grosswerks. Gegen die Altersregel (Entscheid Raphael 31.07.2026, `CLAUDE.md`)
+  geprueft: PDF-Stand 08.09.2015 (Adobe-Metadaten, >10 Jahre alt), reines
+  Hersteller-Datenblatt eines konkreten Serienprodukts (Paustian "Mirror Mirror",
+  Design Maria Bruun, Winkelspiegel in 3 Groessen, Eiche/Chromstahl) ohne
+  Konstruktionsprinzip oder System — die Regel erlaubt aus >10 Jahre alten Dokumenten
+  nur einen Prinzip-Artikel, keinen Produkt-Eintrag, und hier gibt es kein
+  destillierbares Prinzip. **Kein neuer Wiki-Artikel** — die Position korrekt als
+  `[-]` (bewusst uebersprungen) geschlossen statt sie im `[t]`-Rueckstand liegen zu
+  lassen. Inventar-Zeile (`skills/wissens-destillat/training/bauprodukte-inventar.md`)
+  aktualisiert mit Begruendung.
+- **Inventar-Stand danach:** 214 erfasst, 16 destilliert `[x]`, 29 triagiert `[t]`,
+  22 offen `[ ]`, 147 uebersprungen `[-]` (Vorlauf 03.08.: 16/30/22/146 — ein Posten
+  von `[t]` nach `[-]` verschoben, sonst unveraendert; Summe konsistent 214).
+- Kein Fan-out, kein Subagent, keine neuen Kosten ausser dieser Session. Beleg fuer die
+  breitere Beobachtung (nicht in dieser Session verfolgt): der Rest-Bestand `[t]`/`[ ]`
+  unter "900 Einrichtung" besteht ueberwiegend aus Konsumgueter-Moebelkatalogen (IKEA-
+  Matratzen, Buerostuhl-Kataloge, Klappmoebel) ohne erkennbaren Baustoff-/Systembezug —
+  moeglicher Kandidat fuer eine pauschale Sektions-Entscheidung statt Einzelpruefung,
+  siehe `wiki/QUESTIONS.md`.
+
 ## 2026-08-03 (Mac Mini Nachtschicht, 23:30) — Triage-Tranche 9 Positionen, Kurator-Korrektur am ERCO-Artikel
 - **Phase 1 (Triage, Haiku):** 15 Positionen aus dem Inventar geprüft (Budget 0.5 USD,
   rc=0). 9 mit Priorität versehen und auf `[t]` gesetzt (P2: Oberflächenausführung

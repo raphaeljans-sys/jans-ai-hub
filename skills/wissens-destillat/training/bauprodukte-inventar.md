@@ -202,7 +202,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [ ] | 900 Einrichtung | 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf | bauprodukte | |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | - · Finanzdokument |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/mo table.pdf | bauprodukte | P3 · Dateiname kryptisch |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf | bauprodukte | P2 · Spiegelelement Möbel-Datenblatt |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf | bauprodukte | Geprüft 04.08.2026: reines Hersteller-Datenblatt (Paustian, Design Maria Bruun, PDF-Stand 08.09.2015, >10 Jahre) zu einem konkreten Serienprodukt (Winkelspiegel, 3 Grössen, Eiche/Chromstahl) ohne Konstruktionsprinzip oder System dahinter — nach der Altersregel (Rule/CLAUDE.md 31.07.2026) aus einem >10 Jahre alten Dokument nur ein Prinzip-Artikel zulässig, kein Produkt-Eintrag; hier gibt es kein destillierbares Prinzip. Kein Artikel. |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/teilnahmeerklaerung-sepa-basislastschrift-zahlungspflichtige-de.pdf | bauprodukte | - · Finanzdokument |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/wbw-002_1967_54__797_d.pdf | bauprodukte | P3 · Historisches Dokument |
 | [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf | bauprodukte | |

@@ -119,3 +119,15 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
     VKF-Zulassung», nennt aber keine Zulassungsnummer. Für eine konkrete Ausführung
     beim gewählten Kaminhersteller nachfragen; ereignisgetrieben, kein eigener
     Nachtlauf nötig.
+13. **Sektion 900 Einrichtung ueberwiegend Konsumgueter-Moebelkataloge, kein
+    Baustoff-/Systembezug (aufgenommen Mac Mini Nachtschicht, 04.08.2026):** Beim Prüfen
+    von `paustian_mirror_mirror_product_sheet.pdf` gegen die Altersregel (kein Artikel,
+    reines >10 Jahre altes Hersteller-Datenblatt ohne Prinzip) fiel auf, dass der
+    verbleibende Rückstand unter „900 Einrichtung" grösstenteils aus Konsumgüter-
+    Möbelkatalogen besteht (IKEA-Matratzen, Kevi-Bürostuhl-Kataloge, Klappmöbel,
+    Vorhang-Pendenzenlisten) — Einrichtungsgegenstände ohne erkennbaren Bezug zu Bauteilen,
+    Systemen oder BKP-Ausschreibungspositionen. Offen: soll die restliche Sektion
+    einzeln weitertriagiert werden (aktueller Modus) oder pauschal als „ausserhalb des
+    Fokus Bauprodukte" auf `[-]` gesetzt werden? Betrifft ca. 15 der 22 offenen `[ ]`-
+    und `[t]`-Positionen in dieser Sektion. Entscheid bei Raphael, kein eigener
+    Nachtlauf-Alleingang.
