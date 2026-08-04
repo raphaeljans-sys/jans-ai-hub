@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.08.2026 08:17:02
+Stand: 04.08.2026 08:27:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:50)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:27)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 04.08.2026 08:17:02
 - 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- d065dca7 nas-selfcommit: 1 Datei(en) 2026-08-04 08:15
+- afae4140 logbuch: bexio-Hygiene 04.08. (ohne Befund, still beendet)
