@@ -5,29 +5,29 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
-## 2026-08-04 — Verzugscheck 08:05 (still, keine Mail — ein Punkt fuer das Tagesbriefing)
+## 2026-08-04 — Verzugscheck 08:05 (still, keine Mail, ein Punkt für das Tagesbriefing)
 
-*Fuer den Hub-Chef 08:39: RE-00087 gehoert ins Briefing, der Rest ist Beobachtung.*
+*Für den Hub-Chef 08:39: RE-00087 gehört ins Briefing, der Rest ist Beobachtung.*
 
-**Stand unveraendert gegenueber dem 03.08.:** fuenf Rechnungen im echten Zahlungsverzug,
+**Stand unverändert gegenüber dem 03.08.:** fünf Rechnungen im echten Zahlungsverzug,
 CHF 51'400.00 offen. Kein Zahlungseingang, keine neu gesetzte Mahnstufe, alle Posten sind
 schlicht um einen Tag gealtert. Quelle bexio Live-Stand, nicht die Mahnungs-PDF.
 
-**Der einzige Handlungspunkt bleibt RE-00087** (Kinderspital, CHF 15'000.00, faellig seit
-16.04., 110 Tage): die Frist der Mahnung 2 ist am 15.07. abgelaufen, seit 20 Tagen. Naechste
-und letzte Stufe waere Mahnung 3 / Betreibung. Empfehlung unveraendert: nicht isoliert
+**Der einzige Handlungspunkt bleibt RE-00087** (Kinderspital, CHF 15'000.00, fällig seit
+16.04., 110 Tage): die Frist der Mahnung 2 ist am 15.07. abgelaufen, seit 20 Tagen. Nächste
+und letzte Stufe wäre Mahnung 3 / Betreibung. Empfehlung unverändert: nicht isoliert
 betreiben, sondern alle drei Kinderspital-Rechnungen zusammen behandeln, sobald am 12.08. auch
-die Fristen auf RE-00098 (13'600.00) und RE-00099 (3'680.00) ablaufen; vorher die persoenliche
+die Fristen auf RE-00098 (13'600.00) und RE-00099 (3'680.00) ablaufen; vorher die persönliche
 Kontaktnahme. Das Zuwarten braucht ab jetzt einen aktiven Entscheid Raphaels, nicht bloss das
 Verstreichen weiterer Tage.
 
-**Terminlich naeher liegt RE-00100** (SCCREF, CHF 13'120.00, faellig seit 30.07.): die am
-31.07. gesetzte Beobachtungsfrist endet am 05./06.08., danach waere die Zahlungserinnerung
-richtig. **Vorher zu klaeren und seit vier Tagen offen:** ob die Rechnung nach dem Wechsel aus
-dem Entwurfsstatus tatsaechlich versandt wurde. Eine nie zugestellte Rechnung begruendet keinen
-Verzug — dieser Punkt blockiert den Schritt und sollte vor dem 06.08. erledigt sein.
+**Terminlich näher liegt RE-00100** (SCCREF, CHF 13'120.00, fällig seit 30.07.): die am
+31.07. gesetzte Beobachtungsfrist endet am 05./06.08., danach wäre die Zahlungserinnerung
+richtig. **Vorher zu klären und seit vier Tagen offen:** ob die Rechnung nach dem Wechsel aus
+dem Entwurfsstatus tatsächlich versandt wurde. Eine nie zugestellte Rechnung begründet keinen
+Verzug. Dieser Punkt blockiert den Schritt und sollte vor dem 06.08. erledigt sein.
 
-Weiter beobachtet, keine Aktion: RE-00101 (Tschopp, CHF 6'000.00, Zahlungserinnerung laeuft bis
+Weiter beobachtet, keine Aktion: RE-00101 (Tschopp, CHF 6'000.00, Zahlungserinnerung läuft bis
 16.08.; per Du, Telefonat vor jeder formellen Stufe, Kreditoren-Mail fehlt in bexio weiterhin).
 
 Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260804_Verzugscheck.md`. Der Lauf hat rein
