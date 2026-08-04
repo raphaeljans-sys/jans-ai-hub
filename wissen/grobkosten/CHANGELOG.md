@@ -1,5 +1,17 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-04 (Mac Mini Nachtschicht) — Bring-Schuld-Gegenprüfung statt neuer Quellensuche
+
+Kein neuer Rohbeleg, kein neuer Kennwert. Vor einem neuen Explorationslauf gezielt geprüft, ob
+sich an den zwei bekannten Blockern etwas geändert hat: (1) Bring-Schuld aus `normen`
+(Estrich-/Brandschutzbekleidungs-Einheitspreis, offen seit 31.07.) — `wissen/bauprodukte/raw/`
+noch ohne BKP-214/271-Material, `skills/ausschreibung/referenzen/goldstandard-lv/
+281-unterlagsboden-LV661.md` nur Positionskatalog ohne CHF-Preise, weiterhin ungedeckt.
+(2) Frage 1/2 aus Run 10/11 weiterhin ungelöst. Bestätigt damit den in Run 11 (27.07.)
+gemeldeten Sättigungszustand der autonomen Stufe-1-Exploration erneut, ohne selbst eine
+Drosselentscheidung zu treffen (Rule `rollen-taxonomie`). Details und Empfehlung:
+`wiki/QUESTIONS.md`, Eintrag 2026-08-04.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Strukturell sauber. Unveraendert schaerfstes Ruecklauf-Missverhaeltnis im Wissens-Layer: 38 Outputs gegen 3 Wiki-Artikel, `wiki/QUESTIONS.md` mit 123 Zeilen groesser als der Wissensbestand. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

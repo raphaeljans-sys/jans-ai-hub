@@ -2,6 +2,34 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-04 (Mac Mini Nachtschicht) — Bring-Schuld Estrich/Brandschutzbekleidung (31.07.) weiterhin ungedeckt; Stufe-1-Exploration bleibt erschöpft
+
+**Kein neuer Fund, gezielt gegengeprüft statt neu durchsucht.** Zwei offene Punkte erneut
+verifiziert, bevor ein neuer Lauf gestartet würde:
+
+1. **Bring-Schuld aus `normen`** (Eintrag 2026-07-31 unten): CHF-Einheitspreis für
+   Zementestrich (CHF/m²/cm) und K30-RF1/K60-RF1-Brandschutzbekleidung (CHF/m²) fehlt weiterhin.
+   Heute gezielt geprüft, ob der Fund inzwischen woanders aufgetaucht ist: `wissen/bauprodukte/raw/`
+   enthält noch keinen Unterordner zu BKP 214/271 (Gipser-/Estricharbeiten) — die KORPUS-QUEUE
+   ist dort noch nicht so weit fortgeschritten. `skills/ausschreibung/referenzen/goldstandard-lv/
+   281-unterlagsboden-LV661.md` enthält zwar Estrich-Positionen (022100/031120/741801/741802),
+   aber als **Leistungsverzeichnis-Vorlage ohne CHF-Einheitspreise** (Positionskatalog für
+   Ausschreibungen, keine ausgefüllte/verglichene Offerte) — kein verwertbarer Kennwert. Weiterhin
+   offen: ein reales Devis/eine Unternehmerofferte mit gefüllter Preis-Spalte für diese Positionen.
+2. **Frage 1 (BKP-1-9-vs-1-5-Scope) und Frage 2 (Standard-Klassifikation)** bleiben ungelöst;
+   beide sind seit Run 10/11 als Blocker für eine Median-Bildung der MFH-Fälle identifiziert und
+   brauchen entweder eine Rückfrage an Raphael oder einen neuen, eindeutig dokumentierten Fall.
+
+**Empfehlung (keine eigene Drosselentscheidung, nur Befund):** Die autonome Stufe-1-Exploration
+der bekannten SharePoint-/NAS-Bibliotheken ist seit Run 11 (27.07.) nachweislich erschöpft
+(alle bekannten `AR -`/`IMMO -` Bereiche gesichtet). Ein weiterer ergebnisloser Lauf ohne neuen
+Auslöser (neues Kostenmaterial aus einem laufenden Mandat, neue BKP-214/271-Preise aus
+`bauprodukte`, oder Raphaels Antwort zu Frage 1/2) bringt voraussichtlich wieder kein neues
+Ergebnis — passend zur Endbedingung in `training/PROGRAMM.md`. Diese KB bleibt bewusst als
+`enabled`/Prioritaet-4-Ziel bestehen (keine Statuskopf-Änderung, das ist Raphaels Entscheid,
+nicht der Nachtschicht ihre), aber ein künftiger Lauf sollte zuerst hier nachsehen, ob sich einer
+der drei Auslöser inzwischen ergeben hat, bevor er erneut die bekannten leeren Pfade durchsucht.
+
 ## 2026-08-01 (Mac Mini Nachtschicht, Run 12) — Welchen BKP-Scope meint die Neuwert-Richtwerttabelle der Schätzungsanleitung Kap. 5?
 
 **Offen, blockiert die Promotion eines historischen Cross-Checks zu einem führenden Kennwert.**

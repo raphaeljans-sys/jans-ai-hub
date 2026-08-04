@@ -5,6 +5,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — Mac Mini Nachtschicht 02:31 (Prioritaet 4, KB grobkosten, kein neuer Kennwert)
+
+Prioritaeten 1–3 abgeprueft: keine offenen remote-/sync-tasks (ausser dem seit 31.07.
+zurueckgestellten Freigabe-Task Cockpit-Server), Synobsis Stufe 2 abgeschlossen/inaktiv
+(853/853, `vectors.npz` aktuell), Fristen-Radar erst vor rund vier Stunden (22:30) gelaufen.
+Prioritaet 4: unter den freien KBs (bauprodukte, grobkosten, projekt-lessons) war `grobkosten`
+mit letztem inhaltlichem Wiki-Stand 01.08. (Run 12) am laengsten unberuehrt. Statt eines neuen
+Explorationslaufs (Runs 10–12 hatten die autonome SharePoint-/NAS-Suche bereits als erschoepft
+gemeldet) gezielt die zwei bekannten offenen Blocker gegengeprueft: Bring-Schuld
+Estrich-/Brandschutzbekleidungs-Einheitspreis (offen seit 31.07., `bauprodukte/raw` traegt noch
+kein BKP-214/271-Material, `ausschreibung`-Goldstandard-LV nur Positionskatalog ohne Preise) und
+Frage 1/2 (BKP-Scope, Standard-Klassifikation) bleiben ungedeckt. Kein neuer Kennwert, keine
+eigene Drosselentscheidung getroffen (bleibt bei Raphael). Details: `wissen/grobkosten/
+wiki/QUESTIONS.md` (Eintrag 04.08.), `wissen/grobkosten/CHANGELOG.md`.
+
 ## 2026-08-03 — Hub-Chef 22:07 bis 22:30 (Nachlauf statt 08:35, Delta-Briefing versandt)
 
 **Ausgangslage:** Der planmässige Lauf 08:35 fiel am Wochenlimit aus (letztes Chef-Briefing
