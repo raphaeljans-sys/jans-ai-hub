@@ -5,6 +5,70 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — Hub-Chef 08:39 bis 08:58 (Briefing versandt, erster Lauf als einziger Meldekanal)
+
+**Erster Chef-Lauf nach dem Ein-Mail-Prinzip.** Radar (06:55) und die übrigen Loops haben heute
+nicht gemailt; damit war dieser Lauf der einzige Kanal zu Raphael. Gesendet um **08:58:32**,
+5'960 Zeichen im Gesendet-Bestand nachgemessen (Gegenprobe zum Leer-Draft-Fehler bestanden).
+
+**Der Befund, der den Tag trägt und den vor 08:39 niemand hatte:** J. Ziegel hat um **08:32**
+geantwortet und das Bemerkungs-PDF der Feuerpolizei **kommentiert zurückgeschickt**. Raphael hat
+zwei Minuten später (08:34) selbst die Teams-Einladung gesetzt: **05.08., 08:00 bis 08:30**. Die
+vier FreeText-Kommentare Ziegels (Kürzel «Jezi», 08:21:30 bis 08:25:38) wurden aus dem PDF
+extrahiert und gegen die vier bekannten Punkte gestellt:
+
+- **Blatt 33.22** — auf Gantenbeins «EI 30?» am Anschluss der Schiebetüre an die bestehende
+  Fluchtwegwand: **«JA, Bestehende Wandkonstruktion angeben»**. Damit ist genau der Punkt, den
+  der Chef-Lauf vom 03.08. als «steht in keiner Liste» identifiziert hatte, bejaht — und aus der
+  Frage wird eine **Bringschuld der Architektur** (Feuerwiderstand des BESTANDES).
+- **Blatt 33.4** — neue Wandkonstruktion spezifiziert: RIGIPS SIGMA CW50/100, Glaswolle RIS
+  45 mm/30 kg/m³, beidseitig DURALINE VARIO 2 x 12.5 mm, D = 100 mm, **EI 90-RF1**,
+  Hgepr = 3000 mm. Deckt die verlangte EI 30 mit Reserve.
+- **Blätter 33.7 und 33.14** — Unterlagsboden: **der Adressat der Bestätigung wechselt**. Nicht
+  der Systemhersteller des Bodens, sondern der **Zulassungsinhaber der Trockenbauwand** (Rigips)
+  hat den Anschluss auf den 80-mm-Estrich zu bestätigen. Das ist der Punkt, an dem sonst wochenlang
+  die falsche Stelle angeschrieben wird.
+- **Blatt 33.13, Bodendeckbelag RF3** — als **einzigem** der vier Punkte hat Ziegel nichts
+  geschrieben. Ob er das Factsheet vom 03.08. mitträgt oder es nur nicht bearbeitet hat, ist offen.
+
+**Das Zeitfenster ist der eigentliche Druck:** Ziegel ist ab **06.08. bis 18.08. abwesend** und
+fehlt damit an der Koordinationssitzung Gruner/Jans/KISPI vom 06.08., 13:00, auf deren Einladung
+er steht (M365-Kalender verifiziert). Die 30 Minuten morgen früh sind das ganze Brandschutz-Fenster
+für zwei Wochen.
+
+**Ausgeführt (Whitelist):**
+- **A3/Erzeugnis** — Traktandenliste für den Termin erstellt, sechs Positionen mit Zitat, Stand und
+  offenem Punkt je Position: `30 JANS AI HUB OUTPUT/auflagebereinigung/2619-KISPI/260805-Traktanden-Auflagenbereinigung-18-19-2619-KISPI/`
+  (MD + DOCX + PDF, zwei Seiten). Sichtkontrolle am gerenderten PDF: kein Zitatblock über den
+  Seitenumbruch gerissen, keine verwaiste Überschrift.
+- **A4** — Registerzeile «Durchgang Bemerkungs-PDF mit Ziegel» von Frist 04.08. auf **05.08. 08:00**
+  nachgeführt und um Ziegels vier Kommentare, die Abwesenheit ab 06.08. und den Ablageort ergänzt.
+
+**Bewusst NICHT ausgeführt — A1 (Zahlungserinnerung RE-00100):** Der Verzug erreicht heute fünf
+Tage und damit die Schwelle, der Guard «im Tages-Zahlungsabgleich als echt-offen verifiziert» ist
+aber **nicht erfüllt**: die Kreditorenstelle hat die Rechnung am 28.07. retourniert und gelöscht,
+Raphael hat sie am 03.08. neu zugestellt. Solange offen ist, ob der Verzug ab 30.07. oder ab der
+Neuzustellung läuft, würde eine Mahnaktion die Position schwächen statt stärken. Im Briefing als
+Entscheidungsvorlage gemeldet, nicht selbst entschieden.
+
+**Vermerk zum AG-Gründungs-Abschnitt:** Er fehlt heute im Logbuch, obwohl der Monitor um 07:46
+gelaufen ist (rc=0, Commit 93adc983). Der Lauf hat bewusst nicht geschrieben, weil kein neuer
+Eingang und keine Phasenänderung vorlag, und auf den Chef verwiesen. Seine zwei heute fälligen
+Bring-Schulden wurden aus dem Lauf-Transkript übernommen und ins Briefing getragen:
+Notariats-Mail ans Sammelpostfach nachreichen (Mathies liest bis 07.08. nicht) und UBS-Nachfass
+bei B. Jeckelmann ab morgen, da die IBAN weiter fehlt. **Konsequenz für das Ein-Mail-Prinzip:**
+ein Loop, der still bleibt, muss seinen Stand trotzdem im Logbuch hinterlassen — sonst hängt die
+Weitergabe daran, dass der Chef das Transkript findet.
+
+**QS:** Traktandenliste und Mail-Body je durch `rechtschreibung` + `layout` (Skill `korrektur`),
+alle Befunde übernommen. Das `twin`-Fidelity-Gate wurde beim reinen Selbst-Briefing an rj@ nicht
+gefahren (kein Text an Dritte, Kontingentlage angespannt) — beim nächsten ausgehenden Erzeugnis
+an einen Dritten ist es Pflicht. Der Umlaut-Guard blockierte den ersten Sendeversuch an einem
+**ASCII-Ordnernamen im zitierten Pfad** («AD - 01 Geschaeftsfuerung»), also an einem korrekt
+benannten Ordner, nicht an einem Textfehler; der Pfad wurde umformuliert.
+
+---
+
 ## 2026-08-04 — bexio-Hygiene / Zahlungsabgleich 08:26 (ohne Befund, still beendet)
 
 Read-only Lauf des Skills `zahlungsabgleich`. **Kein neuer Befund:** keine neue
