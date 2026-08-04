@@ -5,6 +5,48 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-04 — Vollgas-Fruehwarnung 07:15 (still, keine Mail — aber ein gewichtiger Messbefund fuer den Chef)
+
+*Fuer den Hub-Chef 08:39: der Punkt unten gehoert ins Tagesbriefing, wenn Raphael ueber
+Taktung und Kontingent entscheiden soll. Kein Handlungsdruck vor 08:39, deshalb still.*
+
+**Die Frühwarnung hat bisher zwei Drittel des Verbrauchs nicht gezählt.** Sie las nur
+`~/.claude/projects/*/*.jsonl`, also ausschliesslich die Hauptsessions. Die
+Subagenten-Transcripts liegen eine Ebene tiefer unter `<session>/subagents/agent-*.jsonl`
+und blieben unsichtbar — heute erstmals rekursiv gemessen: **2'353 Dateien auf dem MacBook
+Pro statt 175**, davon 512 Subagenten-Dateien. Subagenten verbrauchen echtes Kontingent.
+
+Was das ändert: der reale Verbrauch liegt um den Faktor 2 bis 3 über allem, was bisher
+gemeldet wurde. Kombiniert teuer (Mio Token): 27.07. **63.06** · 28.07. 29.64 · 29.07. 21.34 ·
+30.07. **32.30** · 31.07. 15.64 · 01.08. 6.50 · 02.08. 0.00 (Sperre) · 03.08. **32.03** ·
+04.08. bis 07:15 1.85. Die alte Messung wies für dieselben Tage rund die Hälfte aus.
+
+**Damit ist erklärbar, was bisher unerklärt war:** dass das Wochenkontingent binnen zehn Tagen
+zweimal vollständig gerissen ist (26./27.07. 35 Stunden, 01.–03.08. 45.5 Stunden), obwohl die
+Tageswerte angeblich im Band lagen. Sie lagen nie im Band. Die Meldeschwelle der Frühwarnung
+(35 Mio an einem Tag, 18 Mio an zwei Folgetagen) stammt aus der zu tiefen Messung und ist
+jetzt zu locker kalibriert — sie schlägt seltener an, obwohl mehr gemessen wird. **Die
+Neubestimmung der Bänder ist ein Entscheid Raphaels**, nicht der Aufsicht.
+
+**Lage im Übrigen ruhig:** keine neue Blockade (jüngstes Limit-Ereignis 03.08. 09:41, vor dem
+Reset um 12:00; alle Ereignisse gehören zum bereits gemeldeten Vorfall), keine interaktive
+Sitzung betroffen, Radar-Herzschlag vorhanden (RADAR.md 04.08. 00:57), `logbuch-radar` heute
+vollständig durchgelaufen, kein Lern-Loop ohne Liefer-Delta, 72 Commits seit gestern 22:00.
+Das Destillat bewegt sich wieder: offene Dateien **31 → 22**, neuer Artikel
+`erco-lichtplanung-grundlagen` (03.08. 23:45). Der Mittags-Slot 13:30 hat geliefert und wurde
+vom Lauf-Gate nie abgewiesen — er kann aus Sicht der Aufsicht bleiben.
+
+**Offene Nachzieh-Arbeit (nicht Kontingent):** der Normen-Lauf hat den nicht existenten
+BKP-Code «271.10» auf **271.0** korrigiert, in Referenzliste und Rule vollzogen. Die Rule
+vermerkt selbst, dass der falsche Code noch in weiteren Hub-Dateien steht, darunter
+`skills/ausschreibung/SKILL.md` und `skills/brandschutz/SKILL.md`. Altdokumente mit
+«BKP 271.10» im LV-Titel tragen einen Code, den kein Unternehmer verifizieren kann.
+
+Volle Erhebung mit allen sieben Kriterien: `logbuch/vollgas/FRUEHWARNUNG.md`, Eintrag
+04.08. 07:15.
+
+---
+
 ## 2026-08-04 — Radar-Briefing 04.08.2026
 
 *Erster Lauf nach dem Ein-Mail-Prinzip vom 03.08.: dieser Abschnitt ersetzt die Radar-Mail und

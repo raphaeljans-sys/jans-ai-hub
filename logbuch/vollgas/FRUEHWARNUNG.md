@@ -4,6 +4,126 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-04 07:15 — ROHMESSUNG (Bewertung folgt weiter unten im selben Block)
+
+**Methodik-Bruch: erster Lauf mit REKURSIVEM Glob.** Bis und mit dem Eintrag vom 03.08. las
+diese Frühwarnung nur `~/.claude/projects/*/*.jsonl`, also ausschliesslich die Hauptsessions
+(03.08.: 175 Dateien MacBook Pro / 58 Mac Mini). Heute erstmals rekursiv inklusive der
+Subagenten-Transcripts unter `<projekt>/<session>/subagents/agent-*.jsonl`: **2'353 Dateien
+MacBook Pro, davon 512 Subagenten-Dateien**, und **3'426 Dateien Mac Mini, davon 77
+Subagenten-Dateien** (mtime-Fenster 9 Tage, Zeilenfilter je `timestamp[:10]`, Duplikate über
+(message.id, requestId) ausgeschlossen). Die Werte springen dadurch um den Faktor 2 bis 3
+nach oben, **ohne dass mehr verbraucht worden wäre** — es wird nur erstmals vollständig
+gezählt. Alle Zahlen früherer Einträge sind systematisch zu tief und dürfen nicht gegen
+diese Reihe gehalten werden. Die alten Referenzbänder («Drosselphase MacBook Pro
+3–15 Mio/Tag teuer») sind damit hinfällig und neu zu bestimmen.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 27.07. | 52.38 | 1058.81 | 10.68 | 236.63 | **63.06** |
+| 28.07. | 26.53 | 298.62 | 3.11 | 73.09 | **29.64** |
+| 29.07. | 18.23 | 434.51 | 3.11 | 76.94 | **21.34** |
+| 30.07. | 27.98 | 666.04 | 4.32 | 80.45 | **32.30** |
+| 31.07. | 13.20 | 247.91 | 2.44 | 64.83 | **15.64** |
+| 01.08. | 5.68 | 143.98 | 0.82 | 21.38 | **6.50** |
+| 02.08. | 0.00 | 0.00 | 0.00 | 0.00 | **0.00** |
+| 03.08. | 22.52 | 514.43 | 9.51 | 179.80 | **32.03** |
+| 04.08. (bis 07:15) | 1.52 | 59.07 | 0.33 | 9.95 | **1.85** |
+
+Messzeitpunkt 04.08.2026 07:15 CEST, NAS gemountet. Der 02.08. steht auf exakt 0.00 auf
+beiden Stationen — das ist der Wochenlimit-Ausfall, nicht Sparsamkeit.
+
+**Was der Bruch inhaltlich bedeutet (der eigentliche Befund dieses Laufs).** Der reale
+Verbrauch liegt rund um den Faktor 2 bis 3 über allem, was diese Frühwarnung bisher gemeldet
+hat. Am 27.07. wurden kombiniert **63.06 Mio** teure Token verbraucht, am 30.07. **32.30**,
+am 03.08. **32.03** — die Meldeschwelle (b) steht bei 35 Mio und wurde in dieser Reihe fast
+erreicht, während die alte Messung für dieselben Tage Werte um 16 Mio auswies. Damit ist
+erklärbar, was bisher unerklärt war: dass das Wochenkontingent binnen zehn Tagen **zweimal**
+vollständig gerissen ist (26./27.07. 35 h, 01.–03.08. 45.5 h), obwohl die Tageswerte angeblich
+im Band lagen. Sie lagen nie im Band — es wurden nur zwei Drittel gezählt. **Konsequenz:** die
+Schwellen (b) 35 Mio/Tag beziehungsweise 18 Mio an zwei Folgetagen stammen aus der alten
+Messung und sind gegen die neue Reihe zu tief kalibriert; sie schlagen jetzt seltener an, obwohl
+mehr gemessen wird. Neubestimmung der Bänder ist Sache Raphaels, nicht dieses Laufs.
+
+**Blockade-Status: keine neue Blockade.** Strukturelle Prüfung (isApiErrorMessage /
+type=error / message.type=error / apiErrorStatus 429, jeweils zusammen mit einem
+Limit-Textmuster) über 72 h: **28 Sessions MacBook Pro, 12 Mac Mini** mit echtem
+Limit-Ereignis, alle mit dem Text «You've hit your weekly limit · resets 12pm
+(Europe/Zurich)». **Jüngstes Ereignis 03.08. 09:41 CEST**, also vor dem Reset um 12:00 — seither
+kein einziges mehr. Alle Ereignisse gehören zum bereits am 03.08. gemeldeten 45.5-h-Vorfall.
+- Kriterium (a) **nicht erfüllt**: die zwei interaktiven Sessions mit Limit-Ereignis datieren
+  vom **01.08. 14:28 CEST**, also ausserhalb der 24-h-Frist.
+- Kriterium (c) **formal erfüllt** (das Kontingent war bis 03.08. 12:00 erschöpft, das liegt
+  21½ h zurück), aber es ist **derselbe Befund wie am 03.08. 22:15** — nach Schritt 7 keine
+  Wiederholungsmail.
+- Kriterium (b) **nicht erfüllt**: kein Tag über 35 Mio, keine zwei Folgetage über je 18 Mio
+  (03.08. 32.03 steht neben 02.08. 0.00).
+
+**Operative Briefings (Schritt 3): alle in Ordnung.** `logbuch-radar` lief heute 04.08.
+06:55–07:08 vollständig durch (179 Ereignisse, 52 Werkzeugaufrufe) und hat sein Deliverable
+erreicht — Commit `3a80ebaa` «Briefing ins Logbuch (erster stiller Lauf), Register um drei
+Verifikationsbefunde ergaenzt». Das ist der erste Lauf unter der neuen Entmailungs-Regel, und
+er hat funktioniert. `hub-chef-taeglich` (08:39), `ag-gruendung-monitor` (07:46),
+`mahnwesen-verzugscheck` (08:05) und `zahlungsabgleich-check` (08:22) waren zum Messzeitpunkt
+**noch nicht fällig** — kein Ausfall, nur ein Lauf, der früher misst als die Slots feuern.
+
+**Radar-Herzschlag (Schritt 4): vorhanden, beide Signale grün.** Jüngster RADAR.md-Eintrag
+**04.08. 00:57**, zugehörige Session belegt (03.08. 22:57 UTC). Abstand zum Messzeitpunkt
+6 h 18 min, deutlich unter der 12-h-Schwelle. Der Radar läuft seit 03.08. im 8-h-Takt, nächster
+Lauf 08:57.
+
+**Liefer-Delta der Lern-Loops (Schritt 5): kein Leerläufer.** 72 Commits im NAS-Repo seit
+03.08. 22:00. Belegte Lieferungen: `normen` Run 43 (5 Refuter-Prüfungen, SWKI-Anhänge D/E/F,
+PL-02-Kerninventar auf 69/69 geschlossen), `baurecht-buch-training` (03.08. 22:04),
+`twin-fidelity-review` (04.08. 06:28), `twin-mail-training` (04.08. 01:52), `logbuch-radar`
+(07:08). Kein Loop mit Tokenverbrauch ohne Delta.
+
+**Nebenbefund aus dem Normen-Lauf:** die Korrektur des nicht existenten BKP-Codes «271.10» auf
+**271.0** ist in Referenzliste und Rule vollzogen (Commits 01:35 und 01:53). Die Rule vermerkt
+selbst, dass der falsche Code noch in weiteren Hub-Dateien steht — das ist eine offene
+Nachzieh-Arbeit für den Hub-Chef, kein Kontingent-Thema.
+
+**Destillat-Aufsicht (achte Erhebung) — Front und Ertrag bewegen sich beide wieder:**
+- (a) **Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, 22 offene Dateien** (03.08.:
+  **31**). Die Front hat sich um **neun Dateien** bewegt — die stärkste Tagesbewegung seit
+  Aufnahme dieser Erhebung. Der 52-h-Stillstand vom 03.08. war die Kontingentsperre, nicht ein
+  defekter Loop; das bestätigt die Gegenprüfungs-Pflicht aus Rule 260729b.
+- (b) **Ertrag: 9 inhaltliche Artikel**, alle `emerging`, **0 `established`**. Jüngster
+  `erco-lichtplanung-grundlagen.md`, **03.08. 23:45** (Lauf 23:30). Heute Nacht kam kein neuer
+  Artikel dazu, wohl aber Abschlussarbeit: der 05:35-Lauf hat
+  `paustian_mirror_mirror_product_sheet.pdf` regelkonform als «kein Artikel» geschlossen
+  (Datenblatt über 10 Jahre alt, kein Konstruktionsprinzip) und QUESTIONS.md um Punkt 13
+  ergänzt. Eine korrekt verworfene Position ist Fortschritt, nicht Leerlauf.
+- (c) **Delta-Null-Serie: 0.** Beide Nachtläufe (02:35 rc=0, 5.22 USD zusammen mit 05:35)
+  haben Inventar, CHANGELOG und QUESTIONS bewegt. Weder Rücktaktung noch Stilllegung fällig.
+- (d) **Stückkosten:** 03.08. **9.51 Mio teuer je neuem Artikel** (Mac Mini gesamt, ein neuer
+  Artikel) — der Wert ist nach oben verzerrt, weil derselbe Mini-Verbrauch auch `energie`
+  (1.44 Mio), `planungsgrundlagen` und `projekt-lessons` bediente. 04.08. bis 07:15 nicht
+  berechenbar (0.33 Mio, kein neuer Artikel). **Die bisherige Reihe (31.07. 0.66 · 01.08. 0.41)
+  ist mit der alten, zu tiefen Messung gebildet und wird hier abgebrochen; die neue Reihe
+  beginnt mit dem 03.08.**
+- **Spec-Gate:** `specs/bauprodukte-spec.md` liegt vor (28.07.), Gate hängt nicht. Korpus 1
+  `bauprodukte` weiter «in Arbeit», **keine** Komplettmeldung — Kriterium (g) nicht erfüllt.
+- Kriterium (f) **nicht erfüllt**: Aufwand ja, aber Front (31→22) und Ertrag (+1 Artikel seit
+  der letzten Erhebung) haben sich beide bewegt.
+- **Mittags-Slot 13:30 (Versuch seit 29.07.):** hat am 03.08. um 13:41 geliefert (rc=0,
+  4.43 USD, `projekt-lessons` RE-00087 um einen konkreteren Blocker ergänzt). Das **Lauf-Gate
+  hat ihn nie abgewiesen** — `gate-Macmini.log` weist über die ganze Laufzeit **eine einzige**
+  Abweisung aus, und die betraf den künstlichen Testlauf `radar-negativ-mini` (Mindestwert
+  999'999 MB). Empfehlung an Raphael: der Slot kann bleiben. Nebenbeobachtung: die drei
+  Nachtslots 23:30/02:30/05:30 erscheinen im Gate-Log nicht, nur der 13:30-Slot
+  («weiche-nachtschicht») — das Gate greift dort offenbar nicht, was für die Nacht kein
+  Problem ist, aber erklärt, warum es nie eine Nachtabweisung gab.
+
+**Meldeentscheid: KEINE Mail.** Von den sieben Kriterien ist nur (c) formal erfüllt, und zwar
+durch denselben Vorfall, der am 03.08. 22:15 bereits gemeldet wurde. Der Methodik-Bruch ist
+gewichtig, aber ein Hub-Internum ohne Handlungsdruck vor 08:39 — er gehört nach Rule 260803
+(Ein-Mail-Prinzip) ins Logbuch, wo der Hub-Chef ihn liest und in sein Tagesbriefing trägt.
+Entsprechender Abschnitt ist heute ins `LOGBUCH.md` geschrieben. Letzte Mail dieses Loops:
+**03.08.2026 22:15**.
+
 ## 2026-08-03 22:15 — GEMELDET (Mail an rj@ gesendet)
 
 Der reguläre 07:15-Slot dieses Laufs wurde am 03.08. um 07:15 selbst vom Wochenlimit
