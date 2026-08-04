@@ -107,6 +107,15 @@ gesprochen hat**.
   260731 ergab `grep -F "14.12.2025" wiki/` null Treffer, obwohl fünf Markerzeilen zu genau
   dieser Mail als `2025-12-14` im Wiki standen; die Blindfassung wurde deshalb ohne die
   vorhandenen Marker geschrieben. Ein Retrieval-Fehler, kein Wissenslücken-Befund.
+- **Ein Datums-Grep allein beweist keine Lücke (neu 04.08.2026, Batch 86).** Viele Marker zitieren
+  ihre Quelle **nur über die Batchnummer** («belegt Mailbatch 36») und tragen gar kein Datum — für
+  einen Tages-Grep sind sie unsichtbar, in **beiden** Formaten. Belegter Schaden: der in Batch 84/85
+  eingeführte Tagesabgleich meldete den 20.03.2026 mit null Belegen, dort liegt aber das vollständig
+  destillierte Korrektur-Delta der Sandro-Mauchle-Mail (`stimme` 1555–1566, `haltung` 480–487,
+  `arbeitsweise` 1104–1107). **Reihenfolge bei jedem Lücken-Sweep: (1) Batch-Register
+  `raw/_INGESTED.md` nach Datumsbereichen auswerten, (2) Tages-Grep nur innerhalb eines dort als
+  dünn erkannten Fensters, (3) Marker-Kandidaten einzeln greppen.** Wer bei (2) beginnt,
+  destilliert Vorhandenes ein zweites Mal und lässt einen Einzelbeleg wie zwei aussehen.
 - Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß (`umlaute-konvention.md`).
 
 ## Quellen

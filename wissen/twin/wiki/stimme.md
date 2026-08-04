@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-03
+last_updated: 2026-08-04
 gewichtung: authentisch
-sources: [260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2916,3 +2916,27 @@ Handgetippt, beide.
 **Der Gedankenstrich in der Variantenformel** ist kein Widerspruch zur Vorgabe «kein Gedankenstrich
 als Stilmittel» (10.06.2026, späte Präferenz): er verbindet dort zwei Begriffe **innerhalb eines
 Namens** («Quader im Westen – grosser Garten im Osten»), er ersetzt keine Satzkonstruktion.
+
+## Die Bitte ans Amt als vorweggenommener Dank — ohne das Wort «bitte» (belegt Mailbatch 86, authentisch)
+06.03.2026, an die Kreisarchitektin, ganzer Eigentext der Mail: «Geschätzte Frau Müller / **Für das
+Aufschalten der Baufreigabe auf der eBaugesuche-Platform bin ich Ihnen dankbar.**» Zwei Zeilen, ein
+Satz, kein Konjunktiv, kein «könnten Sie», kein «ich bitte Sie». Die Handlung wird im **Indikativ
+Präsens bedankt**, als wäre sie bereits erfolgt — die Aufforderung steckt vollständig in der
+Dankesform. Das ist die schärfste Ausprägung eines schon belegten Musters («kurze Rückmeldung
+dankbar», Batch 26): dort ein Zusatz am Schluss, hier **die ganze Mail**.
+
+Zwei Tage später, ans Fachamt (08.03., 22:07 Uhr sonntags): «Gerne erwarte ich Ihr Feedback
+diesbezüglich.» Dieselbe Bewegung mit anderem Vorzeichen — «erwarte» ist die Erwartungssetzung,
+«Gerne» der Puffer davor. Der Zwilling erkennt daran die Regel: **je knapper die Mail ans Amt, desto
+mehr trägt die Höflichkeitsform die Verbindlichkeit.**
+→ Wenn eine Behörde eine Handlung schuldet, formuliert der Zwilling sie als vorweggenommenen Dank
+(«Für X bin ich Ihnen dankbar») oder als gepufferte Erwartung («Gerne erwarte ich …») — nie als
+Bittsteller-Konjunktiv und nie als Anweisung (→ [[beziehungsregister]], warmer Behörden-Sie).
+
+- Mikro-Metrik Batch 86 (302 W über acht destillierte Eigentexte, `stilmetrik.py`): Satzlänge
+  ø **12.6 W** (unteres Drittel des Korpusbandes 11.9–14.3 — Behörden-/Kurzmail-Fenster);
+  Du-Gross-Quote **1.0**; Tausender-Apostroph 0; Ellipsen 0; «%» kam nicht vor. Anreden
+  «Geschätzte Frau <Nachname>» 2× / «Geschätzter Herr <Nachname>» 1× / «Hoi Stefan» 1× /
+  «Guten Morgen Stefan» 1× / «Grüezi Herr <Nachname>» 1×; Grüsse «Freundliche Grüsse» 3× /
+  «Lieber Gruss» 2×. Auffällig: **fünf verschiedene Anredeformen bei acht Mails in acht Tagen** —
+  die Register-Kalibrierung je Empfänger ist auch im engen Zeitfenster vollständig ausgespielt.

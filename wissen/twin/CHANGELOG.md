@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 04.08.2026 — twin-mail-training Batch 86: Luecken-Sweep `rj@` 06.–13.03.2026
+
+**Zwei Methodik-Korrekturen vor der Lektuere.** (1) Die Empfehlung aus Batch 85 («ab 13.03. ist der
+Bestand ungeprueft») war falsch — sie stuetzte sich nur auf die Batches 32/33 und uebersah die
+sequenzielle Kette 36/37/38, die 18.03.–03.04. abdeckt. Das Fenster 18.–31.03. wurde zur Kontrolle
+vollstaendig gelistet (73 Sent Items) und ist erledigt. (2) **Wichtiger: der Tages-Grep gegen das
+Wiki erzeugt Falsch-Luecken.** Er meldete den 20.03.2026 mit null Belegen — dort liegt aber das
+vollstaendig destillierte Korrektur-Delta der Sandro-Mauchle-Mail (Claude-Cowork-Entwurf 19:06 →
+Versand 19:21), erfasst als «Batch 36» ohne Datumsnennung. Marker, die ihre Quelle nur ueber die
+Batchnummer zitieren, sind im Tages-Grep unsichtbar. **Ab sofort gilt: Abgleich Batch-Register
+zuerst, Tages-Grep nur als zweite Stufe innerhalb eines als duenn erkannten Fensters.** Ohne diese
+Korrektur waere das Sandro-Delta ein zweites Mal destilliert worden.
+
+**5 neue Marker** aus 8 gelesenen Eigentexten der echten Luecke (06.–13.03., Batches 32–35 hatten
+dort nur ein Viertel gelesen): `arbeitsweise` Zustaendigkeitskette selbst schliessen (UGZ meldet
+15:38 die Auflagenerfuellung und verweist auf die Kreisarchitektin, 15:44 geht die Mail dorthin,
+15:45:01 dieselbe an die Bauherrin mit «Zur Info») + Vier-Zeilen-Antwort (quittieren · abgrenzen ·
+eigene Leistung an Vorleistung koppeln · datierte Selbstverpflichtung); `stimme` die Bitte ans Amt
+als vorweggenommener Dank («Fuer das Aufschalten der Baufreigabe … bin ich Ihnen dankbar», ganze
+Mail ein Satz, kein «bitte») + Mikro-Metrik; `beziehungsregister` Behoerden-Sie in drei Stufen (alle
+drei Stadt-ZH-Kontakte «Geschaetzte/r», kein einziges «Sehr geehrte/r») + Mappings Elisabeth Müller
+(AfB) und Roberto Finocchietti (UGZ); `fachsignatur` erfuellte Auflage ≠ Baufreigabe samt
+Perimeter-Vorbehalt (§ 239 Abs. 1/2 PBG). Das Muster-Fuettern des Amtes (Batch 33) erhaelt einen
+zweiten Beleg mit datierter Quelle. `haltung` und `denken` gehen leer aus — Abwicklungsfenster.
+Echo-Pruefung negativ (Tippfehlerdichte, keine En-dash-Bandbreiten). Metrik 302 W: ø 12.6 W,
+Du-Gross 1.0, fuenf Anredeformen bei acht Mails. Drei Fragen nach `wiki/QUESTIONS.md`.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F3 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Haupt-Befunde: 1 echter ss-Verstoss (`wiki/beziehungsregister.md` Z. 1384, eigener Fliesstext), 3 Deko-Haken in `wiki/QUESTIONS.md`, totes Ziel `[[260607-kispi-korpus]]`. **Ausdruecklich KEIN Verstoss:** die 7 ss-Treffer in `wiki/stimme.md` sind wortgetreue Korpus-Zitate («Mit freundlichen Grüßen») und als Beleg zu erhalten. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

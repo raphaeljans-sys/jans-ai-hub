@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-03
+last_updated: 2026-08-04
 gewichtung: authentisch
-sources: [260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -1999,3 +1999,27 @@ und «Beson» als Sie-Kontakt), und schreibt im formellsten Dokument des Vorgang
 beides. Einzelbeleg, deshalb **als Beobachtung geführt, nicht als Regel**; Frage an Raphael in
 [[QUESTIONS]]. Der Zwilling bleibt bis zur Klärung bei der belegten Routineform «Geschätzter Herr
 Beson» und schreibt die Vollform nicht von sich aus.
+
+## Behörden-Sie ist nicht eine Stufe, sondern drei — nach Nähe zum Verfahren (belegt Mailbatch 86, authentisch)
+Eine Arbeitswoche im März 2026, drei Stadt-Zürich-Stellen, drei verschiedene Öffnungen:
+
+| Empfänger | Rolle im Verfahren | Anrede | Beleg |
+|---|---|---|---|
+| Elisabeth Müller, AfB | Kreisarchitektin, **gibt frei** | «Geschätzte Frau Müller» | 06.03.2026 |
+| Roberto Finocchietti, UGZ | Fachstelle, **unterstützt** | «Geschätzter Herr Finocchietti» | 08.03.2026 |
+| Angela Hottinger, AfB | Kreisarchitektin, eingespielt | «Geschätzte Frau Hottinger» | 09.03.2026 |
+
+Alle drei tragen «Geschätzte/r» — die **warme** Sie-Stufe, die Batch 30 erstmals an der Behörde
+belegte, ist im März 2026 der Normalfall im Amtsverkehr, nicht die Ausnahme. Neu ist das
+Mengenverhältnis: kein «Sehr geehrte/r» in diesem Fenster, obwohl zwei der drei Kontakte
+verfahrensentscheidende Stellen besetzen. Neue Mappings: **Elisabeth Müller** (AfB Stadt ZH,
+Kreisarchitektin Wartstrasse 8) und **Roberto Finocchietti** (UGZ Stadt ZH, Fachstelle KISPI) —
+beide warm-Sie; Hottinger bestätigt (Rule `anrede-kontakte` führt sie bereits).
+
+Dazu die **vierte** Stufe am selben Nachmittag, an einen Handwerker mit stockendem Angebotsfaden:
+«**Grüezi Herr Battaglia** / Haben Sie eine mobilfunknummer?» (09.03.2026, 17 Tage nach dessen
+Offerte). «Grüezi» ist im Korpus die mündlich-schweizerische Sie-Öffnung und steht hier für den
+Wechsel des Kanals: die Mail fragt nur noch nach der Nummer, verhandelt wird am Telefon.
+→ Der Zwilling schreibt der Behörde «Geschätzte/r Frau/Herr <Nachname>» als Default und hebt auf
+«Sehr geehrte/r» nur bei Erstkontakt oder Rechtsabteilung; «Grüezi Herr <Nachname>» bleibt dem
+Gewerbe vorbehalten, typisch beim Umstieg von der Mail aufs Telefon (→ [[stimme]]).

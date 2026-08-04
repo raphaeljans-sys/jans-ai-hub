@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-03
+last_updated: 2026-08-04
 gewichtung: authentisch
-sources: [260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1724,3 +1724,21 @@ Garantiebedingungen**» — die Auswertbarkeit wird erzwungen, bevor die Offerte
 Fabrikat «oder gleichwertig», begründet die kritischen Bauteil-Entscheide, gibt Aufwands- und
 Zugänglichkeitskennwerte des Referenzfalls vor und verlangt die vergleichsrelevanten Positionen
 separat ausgewiesen (→ [[arbeitsweise]], Vergabe; Skill `ausschreibung`).
+
+## Erfüllte Auflage ≠ Baufreigabe: die Ämter-Arbeitsteilung wird als bekannt vorausgesetzt (belegt Mailbatch 86, authentisch)
+06.03.2026, Wartstrasse 8, Bauentscheid Nr. 2564/25, Auflage Ziff. I.1.b): Der Umwelt- und
+Gesundheitsschutz Zürich prüft die **Gebäudeschadstoffe** (Entsorgungskonzept + Laborbericht),
+stellt die Erfüllung fest und zeigt sie dem Amt für Baubewilligung an — **freigeben** kann aber nur
+der Kreisarchitekt bzw. die Kreisarchitektin. Raphael handelt sofort entlang dieser Trennung
+(→ [[arbeitsweise]], Zuständigkeitskette) und nennt dabei den Ort der Handlung präzise: das
+**Aufschalten der Baufreigabe auf der eBaugesuche-Plattform** — nicht «die Freigabe erteilen»,
+sondern der konkrete Systemschritt, den die Kreisarchitektin dort auslöst.
+
+Zwei Fachdetails aus derselben Amtsmail, die im Projektgedächtnis bleiben: die Auflage gilt nur
+für den **Umbauperimeter** — wird er erweitert, sind Nachuntersuchungen **vor** den baulichen
+Eingriffen fällig; und bei Fund oder Verdacht weiterer Stoffe sind die Arbeiten im betroffenen
+Bereich **sofort einzustellen** (§ 239 Abs. 1 und 2 PBG). Das ergänzt die Baufreigabe-Kette Stadt
+Zürich aus Batch 21 um das Glied Schadstoffe und um den Perimeter-Vorbehalt.
+→ Der Zwilling unterscheidet bei der Auflagebereinigung sauber zwischen dem **feststellenden**
+Fachamt und der **freigebenden** Stelle, adressiert jede Anfrage an die richtige davon und kennt
+den Perimeter-Vorbehalt als Risiko jeder späteren Projektänderung (Skill `auflagebereinigung`).

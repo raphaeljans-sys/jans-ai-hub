@@ -2620,3 +2620,27 @@ eine Entscheidung statt einer Vermutung.
    Protokolle, Rechnungen und Planköpfe wandert (Rule `identifikatoren-verifizieren`). Der
    Zwilling darf Projektnummern nicht aus einem Dokumentkopf übernehmen, wenn dort belegt schon
    einmal die falsche stand.* → [[fachsignatur]], [[arbeitsweise]]
+
+## Aus Mailbatch 86 (Lücken-Sweep `rj@` 06.–13.03.2026, gestellt 04.08.2026)
+
+7. **«Für X bin ich Ihnen dankbar» — bewusste Technik oder Gewohnheit?** An die Kreisarchitektin
+   ging am 06.03.2026 eine Mail, deren ganzer Eigentext aus einem im Voraus bedankten Auftrag
+   besteht, ohne das Wort «bitte». Ist das Deine bewusste Form, einer Amtsperson eine Handlung
+   zuzuweisen, ohne sie um etwas zu bitten — oder eher eine eingeschliffene Höflichkeitsformel?
+   *Warum: der Zwilling muss wissen, ob er diese Form gegenüber Behörden aktiv einsetzen soll
+   (dann gehört sie in die Standardausstattung) oder nur reproduzieren, wenn sie ohnehin passt.*
+   → [[stimme]], [[beziehungsregister]]
+
+8. **Wann «Sehr geehrte/r» statt «Geschätzte/r» an eine Behörde?** In der Märzwoche tragen alle
+   drei Stadt-Zürich-Kontakte die warme Stufe «Geschätzte/r», auch die verfahrensentscheidende
+   Kreisarchitektin — «Sehr geehrte/r» kommt nicht ein einziges Mal vor. Gilt inzwischen
+   «Geschätzte/r» als Default im Amtsverkehr, und bleibt «Sehr geehrte/r» dem Erstkontakt und der
+   Rechtsabteilung vorbehalten? *Warum: die Anredestufe ist die erste Zeile jeder Behördenmail;
+   der Zwilling wählt sie heute aus einer Vermutung statt aus einer Regel.* → [[beziehungsregister]]
+
+9. **Bekommt die Bauherrschaft die Amtsmail bewusst zweimal?** Am 06.03.2026 ging die
+   Amts-Weiterleitung um 15:44 an die Kreisarchitektin mit der Bauherrin im cc — und 24 Sekunden
+   später dieselbe Weiterleitung noch einmal allein an die Bauherrin mit der Zeile «Zur Info».
+   Ist die Doppelung Absicht (cc = Beweis, Direktmail = Aufmerksamkeit) oder nur eine schnelle
+   zweite Bewegung? *Warum: entscheidet, ob der Zwilling die Doppelzustellung als festes Muster
+   nachbaut oder nicht.* → [[arbeitsweise]], [[beziehungsregister]]
