@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 04.08.2026 07:26:26
+Stand: 04.08.2026 07:36:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:06)
@@ -12,4 +12,4 @@ Stand: 04.08.2026 07:26:26
 - 6 Datei(en): AR - 01 Projekte / 2414 THALWIL
 
 ## Hub-Git-Stand (NAS)
-- 1b0a8641 vollgas-fruehwarnung 04.08.2026: erste rekursive Messung (Subagenten mitgezaehlt, Faktor 2-3), still beendet, Befund ins Logbuch fuer den Chef
+- 3d00ff4f nas-selfcommit: 3 Datei(en) 2026-08-04 07:30
