@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 09:16:32
+Stand: 05.08.2026 09:26:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:47)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 09:16:32
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 46d23bf9 nas-selfcommit: 6 Datei(en) 2026-08-05 09:15
+- 43e960bf hub-chef 05.08.: Estermann-Plangrundlage (Entwurf A5), Ziegels Innenwand-Kommentare, Gate-Blocker aufgeloest
