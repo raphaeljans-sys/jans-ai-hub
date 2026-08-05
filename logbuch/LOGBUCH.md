@@ -5,6 +5,33 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Debitoren-Verzugscheck 05.08.2026 (08:05, read-only)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. Live-Stand bexio, fünf Rechnungen im echten
+Zahlungsverzug, CHF 51'400.00. Kein Zahlungseingang und keine neue Mahnstufe gegenüber dem
+04.08. — der Bestand ist Posten für Posten identisch und um einen Tag gealtert.
+
+**Neu ist allein der Fristenlauf: RE-00100 (Swiss Central City Real Estate Fund, CHF
+13'120.00, Albertstrasse 7) hat heute das Ende der am 31.07. gesetzten Beobachtungsfrist
+erreicht.** Damit ist die **Zahlungserinnerung (Stufe 1)** der fachlich richtige Schritt.
+Vorbehalt, der den Schritt seit fünf Tagen blockiert: es ist weiterhin ungeklärt, ob die
+Rechnung nach dem Wechsel aus dem Entwurfsstatus tatsächlich versandt wurde. Eine nie
+zugestellte Rechnung begründet keinen Verzug, die Prüfung gehört vor die Erinnerung.
+
+**Unverändert der zweite Handlungsposten: RE-00087 (Kinderspital, CHF 15'000.00)** liegt
+jetzt 21 Tage über der Frist der Mahnung 2, vorgeschlagen bleibt **Mahnung 3 / Betreibung
+(Stufe 4)**. Empfehlung wie an den Vortagen: nicht isoliert betreiben, sondern die drei
+Kinderspital-Rechnungen ab dem 12.08. gemeinsam behandeln (dann laufen die Fristen auf
+RE-00098 und RE-00099 ab) und vorher persönlich Kontakt suchen.
+
+Beobachtet, keine Aktion: RE-00098/RE-00099 (Frist 12.08.), RE-00101 Tschopp (Frist 16.08.,
+per Du, Telefonat vor jeder formellen Stufe; Kreditoren-Mail fehlt in bexio weiterhin).
+
+Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260805_Verzugscheck.md`. Nichts erzeugt,
+nichts versendet, nichts gebucht — Phase 2 bleibt interaktiv.
+
+---
+
 ## AG-Gründung 05.08.2026 (Monitor 07:46, still — keine Mail)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. Kein neuer Eingang, aber zwei Punkte, die
