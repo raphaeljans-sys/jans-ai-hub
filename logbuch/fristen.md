@@ -3,6 +3,72 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 05.08.2026 (Gespräch Mac Mini 04.08.2026 13:34–13:52, Konversations-Destillat —
+**neue Pendenz, unversendeter Entwurf, Freigabe Raphael nötig**): **KISPI 2619 LOS_273.35
+Küchenbau — die Mail an die Röthlisberger AG zum Installationsplan Elektro/Sanitär
+Therapieküche liegt als Entwurf in Apple Mail und ist NICHT versendet.** Raphael hat den
+Rohtext selbst vorgelegt («kannst du mir das bauprozessual korrekt formulieren»), die
+korrigierte Fassung freigegeben und die Ablage als Entwurf angeordnet («kannst du mir das
+mail als entwurf abspeichern»). Empfänger Stephan Lanz (stl@schreinermanufaktur.ch) und
+Tobias Inniger (ti@schreinermanufaktur.ch), beide Röthlisberger AG, aus dem laufenden
+Mailverkehr verifiziert; Absender rj@raphaeljans.ch; Betreff «PPTS KISPI - LOS_273.35
+Küchenbau: Installationsplan Elektro/Sanitär Therapieküche». Inhaltliche Zusage der Mail:
+sobald der Installationsplan vorliegt, stellt JANS der Gebäudetechnik-Fachplanung (GT-FP)
+die definitiven Anschlusspositionen zu und koordiniert die Rohbauinstallationen,
+namentlich Kernbohrungen und Schlitzungen, mit dem Unternehmer der Leichtbauwände. Daraus
+der Termindruck: ohne Installationsplan keine definitiven GT-FP-Positionen, ohne diese
+kein termingerechter Start der Rohbauarbeiten. **Zweiter offener Punkt:** die im Gespräch
+gestellte Rückfrage, ob der Entwurf stattdessen als Antwort im bestehenden Thread
+«LOS_273.35 Küchenbau RÖTHLISBERGER» eingebaut werden soll, ist unbeantwortet — solange
+das offen ist, hängt der Entwurf ohne Threadbezug. Berührt den bereits geführten
+KISPI-Komplex (Auflagebereinigung 1171/26, Fachplanungs-Koordination Gruner), das Los
+273.35 ist im Register neu. Status: **offen, Versand-Freigabe Raphael.**
+
+Eintrag 05.08.2026 (Lauf-Abbruch MacBook Pro 05.08.2026 01:28, Konversations-Destillat —
+**P1-Blocker, Aktion nur durch Raphael möglich**): **Der Nachtbetrieb des MacBook Pro ist
+gesperrt: zwei verwaiste Fensterproben des vollgas-Radars belegen beide Gate-Plätze.** Das
+Lauf-Gate wies den Normen-Destillierlauf um 01:28 mit rc=1 ab; der Grund ist ein Defekt,
+kein Ressourcenengpass. Blockierend sind `claude -p "Antworte nur mit: OK" --model haiku`
+mit **PID 54048** (seit 04.08. 16:58, 8,5 h, RSS 0) und **PID 87945** (seit 05.08. 00:58),
+beide mit PPID 1; die Startzeiten decken sich mit den Radar-Slots 16:50 und 00:50. Der
+Gate-Zähler `pgrep -f "claude (-p|--print)"` zählt sie als aktive Läufe. Speicher wäre
+vorhanden gewesen (3427 MB gegen Mindestwert 3000). Der Kill-Versuch wurde vom
+Berechtigungs-Classifier abgewiesen und **nicht umgangen**, die Sperre besteht fort. Passt
+zum Befund des vollgas-Chef-Radars vom 05.08. 00:57, wonach die vorgeschriebene
+Fensterprobe zum vierten Mal in Folge ohne Ausgabe hängt. Freigabe durch einen Befehl:
+`kill 54048 87945`. Nebenpunkt aus demselben Lauf: der Vorrang-Auftrag im Task-Text der
+Normen-KB ist seit Run 38 erledigt und wird seit sechs Läufen neu festgestellt, der
+Task-Text gehört bereinigt. Status: **offen, jeder weitere Nachtslot fällt bis dahin aus.**
+
+Eintrag 05.08.2026 (Wissens-Chef Run 25, MacBook Pro 04.08.2026 23:11 bis 05.08. 00:00,
+Konversations-Destillat — **wirkt in ein wiederverwendetes ausgehendes Erzeugnis**):
+**SIA 493 ist seit dem 30.06.2022 archiviert, das JANS-Goldstandard-LV Türen fordert
+trotzdem drei NPK-Positionen mit Produktedeklaration nach SIA 493.** Wer das LV als
+Vorlage nimmt, verlangt vom Unternehmer einen Nachweis, den es seit vier Jahren nicht mehr
+gibt. Der Befund wurde von zwei Agenten in getrennten Feldern gefunden und von zwei
+Verifikatoren unabhängig am Herausgeber bestätigt; die führende KB `normen` schrieb
+«gilt». Gleiches Muster bei **SIA 430**, gültige Ausgabe 2023 seit 01.08.2023, nicht im
+Haus. Strukturell dahinter: ein Haus-PDF kann seinen eigenen späteren Rückzug nicht
+ausweisen, und `status: established` bezeugt die Destillier-Treue, nie die Gültigkeit.
+Bericht `wissen/koordination/outputs/2026-08-04_wissens-chef-run25.md`, Commits `54e010eb`
+und `77997c10`. Dieselbe Fehlerklasse wie der bestehende Register-Punkt «BKP-Code 271.10
+existiert nicht»: eine Hausquelle behauptet Gültigkeit, die extern nicht mehr besteht.
+Status: **offen — Goldstandard-LV Türen bereinigen, bevor es das nächste Mal als Vorlage
+dient; SIA 430:2023 beschaffen.**
+
+Eintrag 05.08.2026 (vollgas-Frühwarnung MacBook Pro 04.08.2026 07:24, Konversations-
+Destillat — **Entscheid Raphael offen**): **Die Kontingent-Messung war um Faktor 2 bis 3 zu
+tief; die Meldeschwelle von 35 Mio/Tag ist damit zu locker kalibriert.** Erstmals rekursiv
+gemessen, also inklusive der Subagenten-Transcripts unter
+`<session>/subagents/agent-*.jsonl`: **2'353 Dateien auf dem MacBook Pro statt 175**.
+Subagenten verbrauchen echtes Kontingent und wurden bisher nicht gezählt. Kombiniert teuer
+(Mio Token): 27.07. 63.06 · 30.07. 32.30 · 03.08. 32.03 · 02.08. 0.00 (Sperre) · 04.08. bis
+07:15 1.85. Damit ist erklärbar, warum das Wochenkontingent binnen zehn Tagen zweimal
+gerissen ist, obwohl die Tageswerte scheinbar im Band lagen — sie lagen nie im Band. Die
+Neubestimmung der Bänder wurde bewusst nicht selbst vorgenommen (Lehre 25.07.: kein
+eigenmächtiges Drosseln). Status: **offen, Entscheid Raphael**, mit direkter Wirkung auf
+die Drosselmechanik und die Verfügbarkeit aller Loops.
+
 Nachtrag Logbuch-Radar 03.08.2026 (22:30, **erster Lauf seit dem 01.08. — die Briefings vom
 02.08. und 03.08. früh sind wegen des gerissenen Wochenlimits ersatzlos ausgefallen**, Fenster
 daher auf 72 h geöffnet). Der 03.08. war ein voller Arbeitstag von Raphael; das Fenster ist das
