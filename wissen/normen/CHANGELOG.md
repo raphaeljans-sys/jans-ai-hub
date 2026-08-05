@@ -1,3 +1,55 @@
+## 2026-08-06 (Run 45) — der gesamte Verifikations-Rueckstand abgearbeitet: 9 Destillate geprueft, 1 neues Destillat, 4 Rueckstaende aus QUESTIONS geschlossen
+
+**Der Lauf hat den vom Run-43-Report ausgewiesenen Rueckstand vollstaendig abgearbeitet.** Alle
+neun Positionen mit Marker `[~]` (destilliert, Verifikation offen) haben je eine unabhaengige
+Widerlegungs-Pruefung durchlaufen; alle Befunde sind INLINE eingearbeitet (Methodik-Pflicht 9),
+das Inventar ist auf `[x] 260806` gehoben. Der Status der Destillate bleibt durchgehend
+`speculative` — `[x]` bedeutet «Verifikationsrunde gefahren und Befunde eingearbeitet», nicht
+«fehlerfrei».
+
+**Verdikte:** 8 x BEANSTANDET, 1 x BESTANDEN. Das Bestandene ist bemerkenswert: die Matrizen
+6.1/6.2 des GVZ-Merkblatts 30.17.3 sind jetzt zweifach unabhaengig zellengenau bestaetigt (siehe
+Eintrag unten). Es ist der erste sauber bestandene Kern in einer langen Reihe.
+
+**Die vier folgenreichsten Befunde:**
+1. **VKF 2001-15:2022, Tab. 1 Fussnote [2] (LV-Wirkung).** Das Destillat verknuepfte die
+   Brandlastgrenze von 200 MJ/Laufmeter mit Kabeln kritischen Verhaltens (cr). Genau falsch
+   herum: cr-Kabel sind in horizontalen Fluchtwegen **unabhaengig von jeder Brandlast verboten**,
+   die 200 MJ gelten fuer die dort zulaessigen Kabel. Vom Hauptprozess am eigenen 200-dpi-Rendering
+   der Seite 8 woertlich bestaetigt. In der bisherigen Fassung haette die Stelle ein cr-Kabel bis
+   200 MJ als zulaessig spezifiziert.
+2. **SWKI VA103-01: im Frontmatter dokumentierte Korrekturen waren nie im Fliesstext angekommen** —
+   und mechanische Bemessungsregeln standen weiterhin unter der Ueberschrift «Natuerliche
+   Lueftung», waehrend die eigene Oeffnungsabstandsregel der natuerlichen Lueftung (S. 31) ganz
+   fehlte. Das ist Methodik-Pflicht 9 im Realfall: der Anhang dokumentiert, der Fliesstext luegt weiter.
+3. **AFS-Leitfaden Dachlandschaften (Vollfassung): 17 Solar-Grundsaetze und 4 Lift-Grundsaetze
+   fehlten ganz**, und saemtliche Grundsatz-Seitenzitate waren systematisch um eine Seite zu tief.
+   Der Versatz (gedruckte Seite = PDF-Blatt minus 1) ist vom Hauptprozess an zwei Stellen am
+   eigenen Rendering nachgemessen.
+4. **Boulevardgastronomie: die Kontaktadresse war aus Strassen- und Postfachadresse falsch
+   verschmolzen** (richtig Foerrlibuckstrasse 61, 8005 Zuerich bzw. Postfach 1612, 8021 Zuerich).
+   Genau die Fehlerklasse der Rule `identifikatoren-verifizieren` — der Wert waere unveraendert in
+   ein Anschreiben gewandert.
+
+**Neues Destillat:** `vkf-merkblatt-2001-15-solaranlagen-2022.md` (Vollrevision 01.01.2022,
+15 S.). Damit ist der als P1 gefuehrte Rueckstand vom 05.08. geschlossen. Alle vier Fingerabdruecke
+des Bezugswegs unabhaengig nachgemessen und exakt getroffen; das PDF bleibt bewusst ausserhalb des
+Repos (Urheberrecht VKF). Drei bekannte Deltas bestaetigt, fuenf weitere selbst gefunden.
+
+**Register nachgefuehrt, drei Statusfragen am Herausgeber belegt (alle vom Hauptprozess selbst
+abgerufen, nicht vom Agenten uebernommen):** SIA 2030 Zeile korrigiert — die KB fuehrte «2010
+gueltig», tatsaechlich ist 2030:2010 archiviert und geltend ist **SIA 2030:2021 «Beton mit
+rezyklierten Gesteinskoernungen»** (ab 01.11.2021); die Nachfolge SIA 162/4 → SIA 2030 ist damit
+**herausgeberseitig** belegt statt nur sekundaerquellengestuetzt (schliesst E-123-3). SIA 118:2013
+um Korrigenda C1 und Revisionsstand 01.12.2025 ergaenzt (schliesst E-123-6). Korrigenda SIA
+493-C1:1997 existiert und ist kostenlos; das Fehlen eines Nachfolgers ist jetzt strukturell belegt.
+
+**Selbstkorrektur, die ins Gedaechtnis gehoert:** Der SIA-118-Befund sah zunaechst nach einem
+Fehler mit Hub-Reichweite aus (die KB fuehrt nur `sia-118-1991`). Die Gegenpruefung zeigte, dass
+Register Zeile 84 und das Destillat selbst die Abloesung laengst fuehrten. Methodik-Pflicht 7 gilt
+also nicht nur fuer Agentenbefunde innerhalb eines Destillats, sondern auch fuer externe
+Statusrecherchen gegen den eigenen Bestand.
+
 ## 2026-08-06 (Run 45, zweite unabhaengige Refuter-Runde) — GVZ-RWA-Parkhaus: Matrizen BESTANDEN, zwei Kernbefunde ausserhalb der Matrizen eingearbeitet
 
 `destillate/gvz-rwa-parkhaus-einstellraum.md` inline korrigiert. Wichtigstes Ergebnis: die

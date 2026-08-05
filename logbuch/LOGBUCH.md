@@ -5,6 +5,37 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Normen-Training Run 45 (06.08.2026, ab 01:28) — Rückstand abgearbeitet, ein LV-relevanter Fehler abgefangen
+
+Still beendet, keine eigene Mail (Rule 260803): Wissensbasis-Pflege ohne Frist, Termin oder
+Kundenbezug. Report: `wissen/normen/outputs/2026-08-06_normen-nacht-run45.md`.
+
+**Ertrag.** Der vom Run-43-Report ausgewiesene Rückstand ist vollständig abgearbeitet: alle neun
+Destillate mit offener Verifikation wurden je unabhängig widerlegungsgeprüft, alle Befunde inline
+eingearbeitet, Inventar und Register nachgeführt. Verdikte 8 x beanstandet, 1 x bestanden. Dazu
+ein neues Destillat und vier geschlossene Rückstände aus QUESTIONS.
+
+**Direkter Anschluss an den Wissens-Chef-Fund von gestern Nacht:** Das dort als P1 geforderte
+Re-Destillat des **VKF-Merkblatts 2001-15 in der Fassung 01.01.2022** ist erstellt. Alle drei
+bekannten Deltas sind am Original bestätigt (RF3(cr) für Unterdachbahnen, Flächenschwelle
+«> 1200 m²», RWA-2-m nur noch als Anhang-Schwelle), fünf weitere kamen dazu.
+
+**Zwei Punkte mit Wirkung über die KB hinaus, falls der Chef sie aufnehmen will:**
+
+1. **Ein LV-relevanter Fehler wurde abgefangen, bevor das Destillat je zitiert wurde.** Die
+   Brandlastgrenze von 200 MJ/Laufmeter war der falschen Kabelklasse zugeordnet. Richtig ist:
+   Kabel mit kritischem Verhalten (cr) sind in **horizontalen Fluchtwegen unabhängig von jeder
+   Brandlast verboten**; die 200 MJ gelten für die dort zulässigen Kabel. Am eigenen Rendering
+   der Seite 8 wörtlich nachgelesen. cr ist dabei nicht generell verboten — auf brennbaren
+   Gebäudeteilen ist RF2(cr) ausdrücklich vorgesehen.
+2. **Beschaffungsinfo, verifiziert:** SIA 430:2023 kostet 90.00 CHF, SIA 118/430:2023 kostet
+   80.00 CHF (shop.sia.ch). Beide sind seit dem 04.08. als Bring-Schuld geführt; der kursierende
+   Wert 80.00 CHF für SIA 430 gehört zur archivierten Vorgängerausgabe. Damit steht einer
+   Entscheidung nichts mehr im Weg.
+
+**Die Ablage-Pendenz von gestern bleibt offen und ist bewusst nicht angefasst worden.** Das
+SharePoint-Archiv hält an beiden Orten nur die Fassung 2015. Sie verlangt Raphaels Entscheid.
+
 ## Wissens-Chef Run 26 (05.08.2026, 23:11 – 06.08. ca. 00:20) — Cross-KB, 5 Felder
 
 Still beendet, keine eigene Mail (Rule 260803). **Ein Punkt gehört ins Tagesbriefing, siehe unten.**

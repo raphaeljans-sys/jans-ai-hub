@@ -48,9 +48,30 @@ Rechtliche Grundlagen von Eigentum, Haftung, Unterhalt und Betriebskosten bei Ku
 
 Relevant nur für Projekte mit Kunst-am-Bau-Verpflichtung oder einer Kunstintervention im öffentlichen Aussenraum (z. B. Wettbewerbsauflage, Gestaltungsplan-Auflage). In diesem Fall: zuerst klären, ob das Vorhaben temporär (≤ 3 Monate, Stadtpolizei) oder dauerhaft/grossflächig ist (Amt für Baubewilligung/Tiefbauamt), und die AG-KiöR-Geschäftsführung beim AHB als Anlaufstelle einbeziehen — sie ist gemäss Leitfaden «Anlaufstelle für alle Fragen betreffend Kunst im öffentlichen Raum» (S. 23, Kontakt Bettina Burkhardt, AHB). Kontaktliste (S. 23 f.) enthält Ansprechpersonen bei AHB, Tiefbauamt, Präsidialdepartement, AfS und Grün Stadt Zürich — bei Bedarf dort direkt nachfragen, da die Personendaten von 2009 heute nicht mehr aktuell sein dürften (siehe offene Punkte).
 
+## Nebenbefund (Verifikation Run 45)
+
+Das Organigramm auf S. 12 bezeichnet das Amt für Baubewilligung im Kasten als «AfE», während der Fliesstext «Amt für Baubewilligung» schreibt und die URL auf «afb» lautet — eine Inkonsistenz im Quelldokument selbst, nicht im Destillat.
+
+## Verifikation Run 45 (06.08.2026)
+
+**Verdikt: BEANSTANDET.** Zwei Kernbefunde korrigiert (Häufigkeit der AfS-Erwähnungen; nicht gedruckte Seitenzahlen bei den Bewilligungsinstanzen- und GIS-Stellen), ein Nebenbefund vermerkt (Kürzel-Inkonsistenz AfE/AfB im Organigramm des Quelldokuments).
+
+**Methode:** alle 28 Seiten bei 300 dpi gerendert; Titelblatt, Impressum und alle Seiten mit Fusszeilen visuell abgelesen, inklusive Zoom auf die Kopfzeilen der Folgeseiten, um die tatsächliche Zählkonvention zu prüfen.
+
+**Lesehinweis Seitenzählung (für folgende Runden verbindlich):** Das Dokument druckt eine Foliozahl («SEITE NN») nur auf der ersten Seite jedes Buchstaben-Abschnitts; Folgeseiten innerhalb eines Abschnitts sind ungezählt (verifiziert an den physischen Seiten 15, 16 und 23). Seitenangaben zu ungezählten Folgeseiten sind deshalb durchgehend als «Abschnitt X, S. NN ff.» bzw. «S. NN f.» zu zitieren — nie als erfundene Einzelseite.
+
+**Befunde (korrigiert):**
+- Häufigkeit AfS im Dokument: mindestens sieben Mal statt zwei Mal (siehe oben, Abschnitt «Was AFS im Dateinamen bedeutet»).
+- Seitenzahl «S. 13» für die Bewilligungsinstanzen-Passage steht nirgends gedruckt; korrekt: «Abschnitt D, S. 12 ff.» (an allen Fundstellen korrigiert).
+- Seitenzahl «S. 21» für die Tiefbauamt-/GIS-Zuständigkeit steht nirgends gedruckt; korrekt: «S. 20 f.».
+
+**Bestätigungen:** Die Umklassierungs-These (Herausgeberin «Stadt Zürich, Kunst im öffentlichen Raum», Auflagen Juni 2008/November 2009, AG KiöR im Volltext ausgeschrieben, «Kleinkunst» kommt kein einziges Mal vor) ist vollständig belegt. Die Relevanz-Einordnung «keine Rechtsnorm, aber bewilligungsrelevanter Wegweiser» samt dem wörtlich bestätigten Satz «Die AG KiöR ist kein Bewilligungsorgan» ist zutreffend.
+
+**Offen belassen:** die Aktualität der 2009er-Kontaktdaten; die Seiten 3, 5 bis 7, 9, 11, 13, 18 f. und 26 bis 28 wurden nur per Volltextsuche, nicht einzeln bildlich geprüft.
+
 ## Offene Punkte
 
-- Die konkrete **Grössenschwelle**, ab der ein Kunstprojekt beim Amt für Baubewilligung baubewilligungspflichtig wird, ist im Leitfaden nicht beziffert («Kunstprojekte, die eine bestimmte Grösse überschreiten» — S. 13) — im Einzelfall beim AfB zu erfragen, nicht aus diesem Dokument ableitbar.
+- Die konkrete **Grössenschwelle**, ab der ein Kunstprojekt beim Amt für Baubewilligung baubewilligungspflichtig wird, ist im Leitfaden nicht beziffert («Kunstprojekte, die eine bestimmte Grösse überschreiten» — Abschnitt D, S. 12 ff.) — im Einzelfall beim AfB zu erfragen, nicht aus diesem Dokument ableitbar.
 - Namen, E-Mail-Adressen und Telefonnummern im Kontaktkapitel (S. 23 f.) sind Stand 2009 und mit hoher Wahrscheinlichkeit veraltet (16 Jahre seit Ausgabe); vor Verwendung zwingend gegen die aktuelle Stadt-Zürich-Website prüfen.
 - Ob die Zuständigkeits-Zuordnung (Bestandeswerke beim Tiefbauamt, GIS-Inventar) seit 2009 unverändert fortbesteht, wurde in diesem Lauf nicht verifiziert.
 - Die im Dokument angekündigte Klärung von «Finanzierung und rechtliche Fragen» (Eigentum, Haftung, Unterhalt) war zum Ausgabezeitpunkt ausdrücklich noch offen — ob dazu inzwischen eine verbindliche Regelung besteht, ist mit diesem Dokument nicht zu beantworten.

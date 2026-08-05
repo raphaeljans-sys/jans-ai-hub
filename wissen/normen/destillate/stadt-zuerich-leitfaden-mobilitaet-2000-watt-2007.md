@@ -4,8 +4,8 @@ herausgeber: "Stadt Zürich, Tiefbauamt (Dienstabteilung des Tiefbau- und Entsor
 ausgabe: "«Leitfaden Mobilität in der 2000-Watt-Gesellschaft — Verkehrliche Anforderungen an 2000-Watt-kompatible Bauprojekte, Leitfaden für Bauherren, Investoren und Betreiber», Ausgabe Juni 2007, Auflage 500, 29 Seiten. Der Dateiname «Tiefbauamt_Leitfaden.pdf» nennt weder Titel noch Thema — beides wurde am Dokument selbst verifiziert (Titelseite S. 1 und Impressum S. 2)"
 gelesen: "Run 42 (030826): pdftotext -layout Volltext aller 29 Seiten gelesen; die Massnahmenkatalog-Matrix (S. 15–16 gedruckt, PDF-Seiten 18–19, Spalten Relevanz/Energieeinsparungspotenzial/Umsetzbarkeit mit Kreuz-Markierungen je Zeile) zusätzlich mit pdftoppm bei 200 dpi gerendert und zeilenweise visuell abgelesen, da eine Tabelle mit vielen dünnen Spalten und x-Markierungen fehleranfällig für reine Textextraktion ist"
 datenstand: "Juni 2007 (Datengrundlagen Mikrozensus Verkehr 2005, SIA Effizienzpfad Energie Dokumentation D 0216 von 2006-05, Fallbeispiele James/KraftWerk1/XL Insurance mit Stand 2005-2007)"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
-last_updated: 2026-08-03
+status: "speculative (Erstdestillat Run 42, 03.08.2026; Verifikation Run 45 06.08.2026, Verdikt BEANSTANDET, 3 Kernbefunde eingearbeitet)"
+last_updated: 2026-08-06
 links: [[REGISTER]]
 ---
 # Stadt Zürich Tiefbauamt — Leitfaden Mobilität in der 2000-Watt-Gesellschaft (2007)
@@ -58,7 +58,7 @@ Zielwerte A des SIA Effizienzpfad Energie für die induzierte Mobilität (S. 17)
   Bonus rechtlich zu konkretisieren (keine Fundstelle für ein Bonusmodell im Dokument).
 - Einzige indirekt bewilligungsrelevante Grösse, die im Fragebogen zum Wohn-Rating
   auftaucht, ist die städtische **Parkplatzverordnung (PPV)** als Bemessungsgrösse für den
-  «zulässigen Maximalbedarf» an Privatparkplätzen (Anhang A2, S. 23) — die PPV selbst ist
+  «zulässigen Maximalbedarf» an Privatparkplätzen (Anhang A2, S. 20) — die PPV selbst ist
   aber nicht Gegenstand dieses Leitfadens, sondern wird nur als Vergleichsgrösse im
   Rating-Fragebogen herangezogen.
 - Fazit Verbindlichkeit: **Empfehlung/Planungshilfe ohne bauordnungsrechtliche
@@ -72,8 +72,10 @@ Je Realisierungsschritt werden Einflussmöglichkeiten benannt und ob Investor/Ba
 Behörde beteiligt ist:
 - Strategische Planung: energetische Zielsetzungen Mobilität (Bauherr ja / Behörde teilw.);
   mobilitätsbewusste Standort-/Nutzungswahl (Bauherr ja / Behörde nein).
-- Vorstudien: verdichtetes Bauen, Parkplatzangebot reduzieren, Mobilitätsberatung,
-  Planungs-/Architekturwettbewerb (jeweils Bauherr ja, Behörde teilw. bis nein).
+- Vorstudien: verdichtetes Bauen, Parkplatzangebot reduzieren, Mobilitätsberatung
+  beanspruchen (jeweils Bauherr ja, Behörde ja — volle Beteiligung); Planungs-/
+  Architekturwettbewerb (Bauherr ja, Behörde teilweise). Ein «nein» kommt in dieser Gruppe
+  nicht vor.
 - Projektierung: attraktive Fuss-/Veloinfrastruktur, Lage auf öV-Angebot ausrichten,
   CarSharing-Angebote.
 - Ausschreibung: Definition der Anforderungen (nur Bauherr, nicht Behörde).
@@ -85,7 +87,9 @@ Behörde beteiligt ist:
 ### Betriebliche Einflussfaktoren (Tabelle S. 6)
 Mobilitätsberatung, Parkraumbewirtschaftung, Förderung öV/Fuss-Velo/CarSharing,
 Fahrzeugtechnologie, Logistik Güterverkehr, Sensibilisierungskampagnen, Erfolgskontrolle —
-jeweils primär Sache von Betreiber/Nutzer, Investor/Bauherr nur teilweise involviert.
+jeweils primär Sache von Betreiber/Nutzer. Investor/Bauherr ist bei 6 von 9 Zeilen
+teilweise involviert; bei dreien (Fahrzeugtechnologie, Logistik Güterverkehr,
+Erfolgskontrolle) laut Tabelle **nicht** (Bauherr nein).
 
 ### Massnahmenkatalog (S. 15 f., PDF-S. 18/19 — GERENDERT und zeilenweise visuell gelesen, Matrix mit 8 schmalen Spalten und x-Markierungen)
 
@@ -95,7 +99,7 @@ Umsetzbarkeit (einfach/mittel/schwierig). Auswahl der Massnahmen mit «grossem»
 Energieeinsparungspotenzial (visuell verifiziert):
 
 - **Strategische Planung** — Gute Erschliessung durch den öffentlichen Verkehr: Relevanz
-  Wohnen+Andere, Einsparungspotenzial **gross**, Umsetzbarkeit **schwierig**.
+  Wohnen+Andere, Einsparungspotenzial **gross**, Umsetzbarkeit **mittel**.
 - **Betrieb/Nutzung** — Parkplätze für Mitarbeiter und Kunden bewirtschaften: Relevanz
   Andere, Einsparungspotenzial **gross**, Umsetzbarkeit **schwierig**.
 - **Betrieb/Nutzung** — Geschäftsfahrzeugflotte mit energieeffizienten Fahrzeugen
@@ -113,8 +117,9 @@ Massnahmen mit **mittlerem** Einsparungspotenzial, Umsetzbarkeit unterschiedlich
   Wohnen, Umsetzbarkeit **mittel**.
 - CarSharing/Mobility-Standort bei grösseren Wohnüberbauungen einrichten: Relevanz Wohnen,
   Umsetzbarkeit **mittel**.
-- Mobilitätsberatung in Verkauf/Vermietung integrieren; Abonnemente öV in Verkaufs-/
-  Mietpreis einschliessen: Relevanz Wohnen/Andere, Umsetzbarkeit **mittel bzw. einfach**.
+- Mobilitätsberatung in Verkauf/Vermietung integrieren: Umsetzbarkeit **einfach**;
+  Abonnemente öV in Verkaufs-/Mietpreis einschliessen: Umsetzbarkeit **mittel** (Relevanz
+  beider Massnahmen Wohnen/Andere).
 - Abonnemente öV verbilligen; CarSharing/Business-CarSharing in Verkaufs-/Mietpreis
   einschliessen bzw. anbieten; Infrastruktur für Fussgänger/Velofahrer im Betrieb (Bänke,
   Beleuchtung, gedeckte Abstellplätze): Relevanz je nach Zeile Wohnen und/oder Andere,
@@ -160,7 +165,9 @@ Bezogen auf Energiebezugsfläche (EBF) bzw. Anzahl Bewohner/Mitarbeiter/Schüler
   ohne anderes Zielgebäude (Freizeit, Dienstfahrten) zählen Hin- und Rückweg.
 - Benötigte Kenngrössen: EBF (ggf. nach Nutzung aufgeteilt), Anzahl Parkfelder, bestehende/
   geplante finanzielle Anreize (P-Gebühren, öV-Beiträge etc.), induzierter Güterverkehr.
-- Ausführliche Rechenmodelle für Wohnen/Büro in Anhang A3 (S. 26) und A4 (S. 27).
+- Ausführliche Rechenmodelle für Wohnen/Büro in Anhang A3 (S. 23) und A4 (S. 24).
+- Anhang A5 (Adressen und Links, S. 25) und A6 (Grundlagen und Literatur, S. 26) werden in
+  diesem Destillat nicht behandelt.
 
 ### MobilityRating — qualitative Erstbeurteilung (Kapitel 3, S. 7 f.)
 - Wohnnutzung: ca. 30 Fragen über vier Bereiche (Standort-Angebot, Mobilitätsstrategie,
@@ -174,6 +181,20 @@ Bezogen auf Energiebezugsfläche (EBF) bzw. Anzahl Bewohner/Mitarbeiter/Schüler
   Standort-Angebot 76 %, Mobilitätsstrategie 33 %, Verkehrsmittelwahl 73 %, Anreize 32 %,
   S. 7) und Bürostandort XL Insurance (Gesamtpunktzahl 69 %, Standort-Angebot 91 %,
   Umweltstrategie 42 %, Verkehrsmittelwahl 91 %, Anreize 50 %, S. 8).
+
+### Quantitative Fallstudien KraftWerk1 und XL Insurance (gedruckte S. 10 f. / 11 f., in Run 42 nicht ausgewertet)
+
+Zwei Vergleichsrechnungen des induzierten Primärenergieverbrauchs, effektiv gegen den
+SIA-Zielwert A gestellt:
+- **KraftWerk1** (Wohnnutzung): 191 MJ/m² EBF effektiv gegen 353 MJ/m² EBF Zielwert;
+  6'350 MJ pro Bewohner und Jahr effektiv gegen 11'790 MJ Zielwert.
+- **XL Insurance** (Bürostandort): 346 MJ/m² EBF effektiv gegen 353 MJ/m² EBF Zielwert;
+  10'241 MJ pro Mitarbeiter und Jahr effektiv gegen 10'724 MJ Zielwert.
+
+Beide Fallstudien liegen deutlich unter bzw. knapp unter dem SIA-Zielwert A und sind als
+belegte Referenzgrössen für JANS-Energiekonzepte mit 2000-Watt-/Leuchtturm-Anspruch
+verwendbar. Rund fünf gedruckte Seiten mit diesen Benchmark-Zahlen waren im Erstdestillat
+nicht abgebildet (nur Namensnennung im Frontmatter).
 
 ### Checkliste 2000-Watt-kompatible Mobilität (Anhang A1, S. 18, Ja/Nein-Fragen, Textextraktion ausreichend)
 Rahmenbedingungen (Zielwerte festgelegt? Mobilitätskonzept erarbeitet?), Standort-Angebote
@@ -195,6 +216,39 @@ beantwortet werden, weisen auf Optimierungspotenzial hin (kein Ausschlusskriteri
 - Skills `energie` (Ergänzung zu SIA-380/1-Kennwerten um die Mobilitätsdimension),
   `machbarkeit`/`wettbewerb` (Standortbewertung, falls ÖV-Erschliessung ein
   Beurteilungskriterium ist).
+
+## Verifikation Run 45 (06.08.2026)
+
+**Verdikt: BEANSTANDET.** Drei Kernbefunde korrigiert (Umsetzbarkeit «gute Erschliessung öV»;
+Behörden-Beteiligung in den Vorstudien; Anhang-Seitenzahlen PDF statt gedruckt), drei
+Nebenbefunde präzisiert (betriebliche Einflussfaktoren; vertauschte Umsetzbarkeit
+Mobilitätsberatung/Abonnemente; PDF-Metadaten-Diskrepanz) und ein Abdeckungsbefund
+nachgetragen (Fallstudien KraftWerk1/XL Insurance).
+
+**Methode:** Volltext aller 29 Seiten gelesen; die Massnahmenkatalog-Matrix (gedruckte
+S. 15 f.) bei 300 dpi gerendert und zeilenweise visuell abgelesen.
+
+**Lesehinweis Anhang-Seitenzählung (für folgende Runden verbindlich):** In diesem Dokument
+gilt PDF-Seite gleich gedruckte Seite plus 3. Anhang-Zitate im Erstdestillat («Anhang A2,
+S. 23», «Anhang A3 (S. 26) und A4 (S. 27)») waren PDF-Seitenzahlen; auf gedruckter S. 26
+steht tatsächlich «A6 Grundlagen und Literatur». Korrigiert auf die gedruckten Seitenzahlen
+S. 20 (A2), S. 23 (A3), S. 24 (A4).
+
+**Nebenbefund PDF-Metadaten:** CreationDate und ModDate des PDF sind 04.06.2008, Producer
+GPL Ghostscript 8.15 — ein Jahr nach der gedruckten Ausgabe Juni 2007, vermutlich eine
+spätere technische Neuerstellung des Dokuments. Das Destillat verwendet zu Recht das
+gedruckte Ausgabedatum Juni 2007 als datenstand.
+
+**Bestätigungen:** Die Umklassierungs-These hält vollständig stand. Eine Volltextsuche über
+alle 29 Seiten nach Bewilligung, Gesetz, Verordnung, PBG, BZO, Artikel, verbindlich, Auflage,
+Pflicht und müssen ergab keinen einzigen Beleg für eine gesetzliche Verknüpfung mit einem
+Baubewilligungsverfahren. Titelblatt, Impressum und «Ausgabe Juni 2007, Auflage 500» sind
+wortgleich bestätigt.
+
+**Offen belassen:** nicht jede der rund 30 Katalogzeilen wurde einzeln gegengezählt
+(Stichprobe umfasste alle drei «gross»-Zeilen, die «gering»-Zeilen und einen Teil der
+«mittel»-Zeilen); die Rechenmodell-Formulare in Anhang A3/A4 wurden nicht zeilenweise
+abgeglichen; ob ein Nachfolgedokument existiert, wurde nicht recherchiert.
 
 ## Offene Punkte
 

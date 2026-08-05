@@ -269,6 +269,30 @@ Code führte, den das BKP 2017 **nicht kennt** (271.10 statt 271.0), und ihn in 
 verteilte. Ein Schnellreferenz-Block ist eine **Abschrift** und damit genauso prüfbedürftig wie
 jede Sekundärquelle; im Streitfall gilt der systematische Teil, und darüber das Original-PDF.
 
+### Methodik-Pflicht 10 — eine externe Statusrecherche wird gegen den eigenen Bestand geprüft, bevor sie als Befund gilt
+
+Aus Run 45 (06.08.2026). Methodik-Pflicht 7 verlangt, einen Agentenbefund gegen den **ganzen**
+Bestand zu prüfen statt nur gegen die Stelle. Diese Pflicht zieht dieselbe Regel für Befunde,
+die von **aussen** kommen:
+
+> Bevor eine am Herausgeber recherchierte Statusaussage (Ausgabestand, Nachfolger,
+> Archivierung) als Lücke oder Fehler der KB verbucht wird, ist zu prüfen, ob REGISTER,
+> INDEX oder das Destillat selbst sie bereits führen.
+
+**Der Beleg.** Die Shop-Recherche ergab, SIA 118:2013 sei die geltende Ausgabe, während die KB
+nur `sia-118-1991` führt. Das sah nach einem Fehler mit Hub-Reichweite aus, in derselben Klasse
+wie der BKP-271.10-Fall aus Run 43 — die Rule `normen-referenz` zieht für Werkvertrag und LV
+genau dieses Destillat. Die Gegenprüfung zeigte: `wiki/REGISTER.md` Zeile 84 führte «SIA 118 |
+2013 | Bestand 1991 → veraltet», und das Destillat trug den Hinweis im Frontmatter. Es gab
+nichts zu melden.
+
+**Warum das eine eigene Pflicht verdient.** Ein Fehlalarm dieser Art ist teurer als er aussieht:
+er erzeugt Korrektur-Aufträge an Dateien, die richtig sind, und er verbraucht die Glaubwürdigkeit,
+die ein echter Hub-Befund braucht. Der Ertrag der Recherche war trotzdem real, nur kleiner —
+die Korrigenda C1 und der Revisionsstand 01.12.2025 fehlten wirklich. **Die richtige
+Formulierung eines solchen Ergebnisses lautet deshalb nicht «die KB hatte es falsch», sondern
+«die KB hatte X, neu ist Y».**
+
 ### Methodik-Pflicht 6 — Abdeckung messen, nicht nur Behauptungen prüfen
 
 Aus Run 38, gilt für jede Retro-Verifikation: Eine Runde, die nur prüft, ob stimmt, **was das
