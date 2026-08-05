@@ -246,3 +246,38 @@ sondern das oeffentlich abrufbare ecoBKP 2026 (QUESTIONS E-123-1).
 
 **Stand PL-02:** **28 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122,
 9 in Run 123), **154 offen**.
+
+## Nachtrag 2026-08-05 (Run 124): Minergie-Teilkorpus PL-02 + ecoBKP 2026 fortgesetzt
+
+Gemessen vor der Prioritaetensetzung (Lehre Run 123: erst Groesse und Seitenzahl pruefen, dann
+priorisieren). Der Minergie-Ordner `06_Richtlinien/Minergie/` enthaelt 79 PDF; die 24 Einzelseiten
+unter `Infobrochuren/01_planer_d/einzel/` sind Seitenauszuege eines bereits destillierten Werks
+und werden nicht einzeln gefuehrt.
+
+| Status | Quelle (PL - 02_Recht_Norm/06_Richtlinien/Minergie/...) | KB-Datenstand |
+|---|---|---|
+| [x] `Nuetzliche Unterlagen/Checkliste WB.pdf` | 2026-08-05 (EnFK, **Januar 2010, Eigen-Gueltigkeit bis 31.12.2010**, vollst. S. 1-13 → `minergie-checkliste-waermebruecken`; kein Duplikat zum BFE-Katalog, anderer Zweck) |
+| [x] `Nuetzliche Unterlagen/Vorgehen Bauteilekatalog.pdf` | 2026-08-05 (AWEL/Baudirektion ZH, **kein Datum auffindbar**, vollst. S. 1-22 → `vorgehen-bauteilekatalog-u-wert`) |
+| [x] `Nuetzliche Unterlagen/Gebaeudehuellziffer/Dokumentation_System.pdf` | 2026-08-05 (**Baudirektion Kt. ZH, Juni 2009 — trotz Minergie-Ordner kein Minergie-Dokument**, S. 1-75 von 94 → `systemnachweis-kurs-zh-2009`) |
+| [x] `Nuetzliche Unterlagen/Infobrochuren/2610-02.2020 EnergieSchweiz-Leistungsgarantie-A4 805.250 D web.pdf` | 2026-08-05 (EnergieSchweiz/BFE, Inhalt **01.2019**, vollst. S. 1-58 → `leistungsgarantie-gebaeudetechnik-energieschweiz`) |
+| [x] `Nuetzliche Unterlagen/Hinweise Feuersch+Lüftung.pdf` | 2026-08-05 (Minergie-Kursunterlage, **kein Datum**, vollst. S. 1-15 → `brandschutz-lueftung-schnittstelle`) |
+| [x] `Nuetzliche Unterlagen/PP-GrenzwerteStandard_Anforderungen_HT.pdf` | 2026-08-05 (**kein Impressum, kein Datum, keine Normfassung**, vollst. S. 1-26 → `grenzwerte-standardanforderungen-ht`, eingeschraenkt verwertbar) |
+| [x] `Nuetzliche Unterlagen/Infobrochuren/210414_Einführung MOP_Antragstellung_V2021_1.pdf` | 2026-08-05 (Minergie Schweiz, **14.04.2021**, vollst. S. 1-36 → `minergie-online-plattform-antragstellung`) |
+| [x] `Nuetzliche Unterlagen/Gebaeudehuellziffer/208_ein_ganzheitlicher_ansatz__holzbau_mehrgschossig.pdf` | 2026-08-05 (Buchauszug «Holzbau – mehrgeschossig», Faktor Verlag **2012**, 15 von 152 S. → `holzbau-mehrgeschossig-ganzheitlicher-ansatz`; «208» ist eine Projekt-, keine Jahresnummer) |
+| [ ] `Nuetzliche Unterlagen/Infobrochuren/MFH.pdf` | **nicht bearbeitet** — fuer Run 124 als Arbeitskopie bereitgestellt, aus Kapazitaetsgruenden keinem Agenten zugeteilt. Bleibt offen. |
+| [-] `Vergleich/Unterschied ME 2010-MUKEN.pdf` | 2026-08-05 (geprueft: **1 Seite**, Vergleichsblatt Minergie 2010 gegen MuKEn 2008 — durch die aktuellen Destillate inhaltlich ueberholt, bewusst nicht destilliert) |
+
+**Web-Quelle (nicht im PL-02-Inventar):** ecoBKP 2026, bedruckte S. 13-86 in drei Bloecken
+destilliert (Tragwerk/Rohbau, Gebaeudehuelle, Gebaeudetechnik); S. 1-20 waren bereits im
+Nachtlauf desselben Tages erfasst. **Offen: S. 87-133** (Ausbau 271-287, Umgebung 421,
+Erschliessung 450) → QUESTIONS E-124-1. Ebenfalls neu als Web-Quelle: **Produktreglement
+Gebaeudestandards MINERGIE/-P/-A V 2026.1** (52 S., Kap. 14-17 + Anhaenge A/B1/B2/E/F gelesen).
+
+⚠ **Messfalle dieses Laufs, fuer kuenftige Bloecke notiert:** Ein Vergleich der Dateigroessen
+allein reicht nicht — `Checkliste WB.pdf` ist mit 6,6 MB die groesste Datei des Ordners, aber nur
+13 Seiten (bildlastige Detailskizzen), waehrend `Dokumentation_System.pdf` mit halber Groesse
+94 Seiten traegt. Massgeblich ist die **Seitenzahl**, ermittelt aus dem PDF selbst.
+
+**Stand PL-02:** **36 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122,
+9 in Run 123, **8 in Run 124**), **146 offen** — zuzueglich zweier Web-Quellen ausserhalb des
+Inventars (ecoBKP 2026, Minergie-Produktreglement 2026.1).

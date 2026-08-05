@@ -2,6 +2,55 @@
 
 Neueste zuoberst.
 
+## 2026-08-05 (Run 124) — Minergie-Teilkorpus PL-02 + ecoBKP 2026 fortgesetzt; erstes established-Destillat des Blocks; Prozessdefekt der Loop-Kette aufgedeckt
+
+**12 neue Destillate** (13 erstellt, 1 als Duplikat entfernt), **1 umbenannt**, **4 neue FAQ**
+(F212 Monitoring, F213 Leistungsgarantie, F214 Wiederverwendung, F215 Holz/Beton), **2 geschärfte
+FAQ** (F5 mit der MuKEn-2025-Vergleichstabelle, F38 mit der Batteriespeicher-Obergrenze),
+**3 gewachsene Themenartikel** (`minergie-standards`, `batteriespeicher`, `daemmstoffe-lambda`).
+**E-123-1 geschlossen.**
+
+**Neu als Primärquellen (aktueller Datenstand):** Produktreglement Gebäudestandards
+MINERGIE/-P/-A **V 2026.1** (52 S., gültig ab 01.01.2026) — im Hauptmodell direkt am amtlichen PDF
+gelesen und von zwei unabhängigen Refutern geprüft; **einziges Destillat dieses Korpusblocks mit
+Status `established`**, neu mit Frontmatter-Feld `geltungsbereich`, das den Status auf die
+gelesenen Kapitel/Anhänge beschränkt. Sein Anhang A stellt Minergie den **MuKEn 2025** Zeile für
+Zeile gegenüber und beantwortet damit die Standardfrage «was bringt Minergie über das Gesetz
+hinaus» erstmals tabellarisch. Dazu **ecoBKP 2026** in drei weiteren Kapitelblöcken (Tragwerk/
+Rohbau, Gebäudehülle, Gebäudetechnik, bedruckte S. 13-86).
+
+**Aus PL-02 destilliert (8 PDF, alle `emerging`):** Leistungsgarantie Haustechnik (erster KB-Beleg
+zur vertraglichen Bestellerlogik), Einführungskurs Systemnachweis Kt. ZH 2009, Wärmebrücken-
+Checkliste EnFK 2010, Vorgehen Bauteilekatalog AWEL, Schnittstelle Brandschutz/Lüftung (erster
+KB-Beleg), Minergie-Online-Plattform 2021, Kursfolien Grenzwerte (eingeschränkt verwertbar),
+Holzbau mehrgeschossig 2012.
+
+**Korrektur an Run 123:** Die dort und in E-123-1 geführte Liste der ecoBKP-Positionen mit neuen
+Kreislaufwirtschafts-Vorgaben war **falsch** (213, 214, 215, 216, 228, 230, 240, 244, 250, 258,
+273). Am Original nachgezählt sind es **18 Positionen: 214, 215, 222, 224, 226, 228, 230, 240,
+244, 258, 271, 272, 273, 276, 281, 282, 283, 421**. Ursache: Die Angabe stammte aus einer
+Web-Suchzusammenfassung, nicht aus dem Dokument.
+
+**Prozessdefekt aufgedeckt:** Der Nachtlauf desselben Tages (05:38, Mac Mini) hatte die ecoBKP
+2026 bereits begonnen, sich aber **nur in CHANGELOG und destillate/INDEX** vermerkt — ohne
+Lauf-Report, ohne curriculum-Eintrag, ohne QUESTIONS-Nachführung. Der in `PROGRAMM.md` Schritt 1
+vorgeschriebene Stand-Lesevorgang konnte ihn deshalb nicht sehen; ein Agent hat die Seiten 1-17
+doppelt destilliert. Duplikat erkannt, gegen den Bestand verglichen (Bestand war vollständiger),
+entfernt, alle Backlinks umgehängt, 0 nicht auflösbare Verweise. **Vorschlag an Raphael:
+`CHANGELOG.md` und `destillate/INDEX.md` in den Stand-Lesevorgang aufnehmen.**
+
+**Verifikation:** Refuter 1 (Zahlen) 40 geprüft / 36 bestätigt, kein Zahlendreher. Refuter 2
+(Aussagen) 10 Beanstandungen, alle am Original nachgeprüft, alle berechtigt, alle korrigiert —
+darunter zwei sachlich tragende (die Behauptung, das rechnerische Soll werde nicht mit den
+Messdaten verglichen, wird durch Anhang F widerlegt; der Vergleich «60 % Dachfläche gegen
+20 W/m² EBF» ist ohne Geschosszahl unzulässig). Beide stammten aus Anhängen, die zunächst
+ungelesen waren und für die Korrektur nachgelesen wurden. Die beiden Refuter fanden **disjunkte**
+Fehlermengen — empirischer Beleg für die perspektiven-diverse Verifikation.
+
+**Stand:** 252 Destillate · FAQ 215 Einträge, F1-F215 lückenlos (maschinell geprüft) ·
+33 Themenartikel · PL-02 36 von 182 destilliert, 146 offen.
+Report: `outputs/2026-08-05_energie-run124.md`.
+
 ## 2026-08-05 (Mac Mini Nachtschicht) — ecoBKP 2026 Erstzugriff (Methodik + 3 Merkblätter)
 
 Neue Web-Quelle (nicht im PDF-Inventar, PL-04 ist erschöpft): **ecoBKP 2026** von ecobau.ch

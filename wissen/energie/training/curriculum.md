@@ -2115,3 +2115,40 @@ Dateigroesse pruefen** — ein Titel im Ordner ist noch kein Inhalt.
 
 PL-02: **28 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122, 9 in
 Run 123), **154 offen**.
+
+## D95 — Minergie-Teilkorpus PL-02 + ecoBKP 2026 fortgesetzt (Run 124, 05.08.2026)
+
+Zwoelf neue Destillate aus neun PL-02-Minergie-PDF und drei weiteren Kapitelbloecken der
+oeffentlichen ecoBKP-Ausgabe 2026, dazu ein selbst gelesenes Primaerquellen-Destillat des
+geltenden **Minergie-Produktreglements V 2026.1**. **E-123-1 ist geschlossen.**
+
+**Der wichtigste Befund dieses Laufs ist ein Prozessbefund, kein Fachbefund.** Ein
+Nachtlauf desselben Tages (05.08., 05:38, Mac Mini) hatte die ecoBKP 2026 bereits angefangen zu
+destillieren und das **nur in `CHANGELOG.md` und `destillate/INDEX.md`** vermerkt — ohne
+Lauf-Report unter `outputs/`, ohne Eintrag in `curriculum.md` und ohne Nachfuehrung von
+`QUESTIONS.md` (E-123-1 stand dort weiterhin offen). Der in `PROGRAMM.md` Schritt 1
+vorgeschriebene Stand-Lesevorgang (pdf-inventar, curriculum, QUESTIONS, letzter outputs-Report)
+konnte diesen Lauf deshalb **nicht sehen**, und ein Destillier-Agent hat die Seiten 1-17 ein
+zweites Mal destilliert. Das Duplikat wurde erkannt, gegen den Bestand verglichen (der
+Bestandsartikel war der vollstaendigere), entfernt und alle Backlinks umgehaengt. **Konsequenz
+fuer kuenftige Laeufe: `CHANGELOG.md` und `destillate/INDEX.md` gehoeren in den Stand-Lesevorgang**
+— sie sind die einzigen Register, die ein abgebrochener oder verkuerzter Lauf zuverlaessig
+hinterlaesst.
+
+**Fachlich am wertvollsten:** das Produktreglement-Destillat. Es ist das erste Destillat dieses
+Korpusblocks mit Status **established** und aktuellem Datenstand (Januar 2026) statt
+Alterskorpus-`emerging`, und es beantwortet mit Anhang A die Standardfrage «was bringt Minergie
+ueber das Gesetz hinaus» erstmals tabellarisch gegen die **MuKEn 2025**.
+
+**Naechste Etappe, in dieser Reihenfolge:**
+1. **ecoBKP 2026 fertig lesen** (E-124-1): Ausbau 271-287 sowie 421/450, bedruckte S. 87-133.
+   Zehn der achtzehn Positionen mit neuen Wiederverwendungs-Vorgaben liegen in diesem Rest.
+2. **Anhang J und G des Produktreglements 2026.1** (E-124-2) — Anforderungsuebersicht je
+   Gebaeudekategorie und THGE-Grenzwerte, beides direkt FAQ-tauglich.
+3. **Minergie-Restbestand PL-02**: Nachweisformulare-Set (1_Eingabe bis 6_Erstellung),
+   ME-Antrag/Wegleitung, Vergleichsblaetter, Infobroschuere MFH.
+
+PL-02: **36 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122, 9 in
+Run 123, **8 in Run 124**), **146 offen**. Die vier uebrigen Destillate des Laufs stammen aus
+zwei **Web-Quellen ausserhalb des PL-02-Inventars** (ecoBKP 2026, Minergie-Produktreglement
+2026.1) und werden dort bewusst nicht mitgezaehlt.

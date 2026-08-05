@@ -365,7 +365,7 @@ und der referenzierten SIA-/Minergie-ECO-/VKF-Dokumente im Original.**
   im gelesenen Bereich nicht aufgetaucht. Der Auftrag und bestehende KB-Referenzen sprechen von
   «ecoBKP 244-245»; ob das eine aeltere Doppelnummerierung ist, die 2026 zusammengelegt wurde,
   oder ob 245 an anderer Stelle des Gesamtdokuments separat gefuehrt wird, ist ungeklaert und
-  sollte im Leitfaden-Destillat (`ecobkp-2026-leitfaden-und-neuerungen`) geklaert werden.
+  sollte im Leitfaden-Destillat (`ecobkp-2026-methodik-und-uebersicht`) geklaert werden.
 - **Minergie-ECO-Ziffern** (z.B. 110.05, 120.09, 220.03, 230.04, 230.08) sind durchgehend als
   Quellenverweis genannt, das Minergie-ECO-Produktreglement selbst wurde in diesem Lauf nicht
   gelesen — der exakte Wortlaut der referenzierten Ausschlussvorgaben ist nicht verifiziert.
@@ -384,5 +384,5 @@ und der referenzierten SIA-/Minergie-ECO-/VKF-Dokumente im Original.**
   gelesen (das ist Aufgabe eines anderen Agenten desselben Laufs) — ein direkter 2008↔2026-
   Vergleich fuer diese Positionen steht noch aus.
 
-[[ecobkp-2026-leitfaden-und-neuerungen]] · [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] ·
+[[ecobkp-2026-methodik-und-uebersicht]] · [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] ·
 [[batteriespeicher]] · [[pv-solar-technologien]] · [[komfortlueftung]]

@@ -2903,13 +2903,24 @@ damit darüber, ob ein Destillat eine Aktualitätsprüfung braucht.
 
 ## Run 123 (04.08.2026) — eco-bau-/AHB-Beschaffungskorpus
 
-- **E-123-1 — Inhalt der geltenden ecoBKP-Ausgabe 2026 ist unbekannt.** Die KB kennt das
-  Instrument nur in der Ausgabe **2008**; aktuell ist **2026**, und die Materialempfehlungen
-  wurden zwischenzeitlich auf die Methodik «Baumaterialien ecobau 2025» umgestellt (Ausgabe 2026
-  zusaetzlich mit Rueckbaubarkeits-Empfehlungen in ecoBKP 213, 214, 215, 216, 228, 230, 240, 244,
-  250, 258, 273). **Das ist die groesste offene Luecke dieses Laufs** und zugleich die am
-  leichtesten schliessbare: das PDF ist auf ecobau.ch oeffentlich abrufbar. Bis dahin sind alle
-  Materialurteile der KB in diesem Feld historisch → `[[oekologische-materialvorgaben-beschaffung]]`.
+- **E-123-1 — ✅ GESCHLOSSEN am 05.08.2026 (Run 124), mit Korrektur.** Die geltende Ausgabe
+  **ecoBKP 2026** (Stand Januar 2026, V 1.0, 138 S.) ist beschafft und destilliert:
+  Methodik/Leitfaden und ecoBKP 112/130/201 im Nachtlauf desselben Tages
+  (`[[ecobkp-2026-methodik-und-uebersicht]]`), dazu in Run 124 Tragwerk/Rohbau, Gebaeudehuelle und
+  Gebaeudetechnik (`[[ecobkp-2026-tragwerk-und-rohbau]]`, `[[ecobkp-2026-gebaeudehuelle]]`,
+  `[[ecobkp-2026-gebaeudetechnik]]`).
+  **Korrektur der urspruenglichen Fassung dieses Eintrags:** Die hier zuvor genannte
+  Positionsliste (213, 214, 215, 216, 228, 230, 240, 244, 250, 258, 273) war **falsch** — sie
+  stammte aus einer Web-Suchzusammenfassung, nicht aus dem Dokument. Am Original nachgezaehlt
+  (S. III, «Neuerungen auf einen Blick») lautet die Liste der Merkblaetter mit neuen Vorgaben zur
+  **Wiederverwendung von Bauteilen**: **214, 215, 222, 224, 226, 228, 230, 240, 244, 258, 271,
+  272, 273, 276, 281, 282, 283, 421** — **18 Positionen**. Die alte Liste enthielt mit 213, 216
+  und 250 drei Nummern, die nicht dazugehoeren, und liess zehn weitere aus. Auch der Begriff war
+  ungenau: die Quelle spricht von «Wiederverwendung von Bauteilen», nicht von «Rueckbaubarkeit
+  und Reversibilitaet».
+  **Offen bleibt der Rest des Werks:** ecoBKP 271-287 (Ausbau) und 421/450 (Umgebung/
+  Erschliessung), bedruckte S. 87-133 → siehe E-124-1.
+  → `[[oekologische-materialvorgaben-beschaffung]]`, Bauherren-FAQ F214/F215.
 - **E-123-2 — Nachfolgeweg fuer SIA 493 ungeklaert.** Die Norm «Deklaration oekologischer
   Merkmale von Bauprodukten» ist seit **30.06.2022 archiviert** (an shop.sia.ch verifiziert). Ein
   1:1-Nachfolger ist **nicht belegt**; der naheliegende Weg ueber EPD nach EN 15804+A2 bzw. die
@@ -2967,3 +2978,41 @@ darf **nie ueber einen Zeilenumbruch** laufen, sonst zerfaellt der Link stillsch
 Belegzeilen ist der Link als Ganzes auf die naechste Zeile zu nehmen. Ein KB-weiter
 Backlink-Check gehoert in den Skill `wissenscheck`; er ist in wenigen Sekunden maschinell
 durchfuehrbar.
+
+
+## Run 124 (05.08.2026) — Minergie-Teilkorpus PL-02 + ecoBKP 2026 (Fortsetzung)
+
+- **E-124-1 — ecoBKP 2026, Ausbau und Umgebung noch nicht destilliert.** Gelesen sind Methodik +
+  ecoBKP 112/130/201 (Nachtlauf) sowie 21/211/213/214/215, 221-228 und 230/240/244/250/258
+  (Run 124). **Offen: ecoBKP 271, 272, 273, 276, 281, 282, 283, 285, 287 (Ausbau 1+2), 421
+  (Gartenarbeiten) und 450 (Erschliessung durch Leitungen)** — bedruckte S. 87-133. Zehn der
+  achtzehn Positionen mit neuen Wiederverwendungs-Vorgaben liegen in diesem Rest. Hoechste
+  Prioritaet fuer den naechsten Lauf, weil das Werk dann vollstaendig ist.
+- **E-124-2 — Anhang J des Minergie-Produktreglements 2026.1 ist nicht gelesen** (S. 51 f.,
+  «Uebersicht der Anforderungen»). Er fasst die Anforderungen je Gebaeudekategorie fuer Neubau und
+  Erneuerung zusammen und ist **im Inhaltsverzeichnis des Reglements nicht aufgefuehrt** — er wurde
+  erst durch die Refuter-Pruefung entdeckt. Ebenfalls offen: Anhang B3 (Nutzungsgrade und
+  Gewichtungsfaktoren), C (sommerlicher Komfort), D (Lueftung mit natuerlicher Nachstroemung),
+  G (THGE-Grenzwerte je Gebaeudekategorie), H (Systemerneuerung).
+- **E-124-3 — «Vorgehen Bauteilekatalog» (AWEL) ohne Ausgabedatum.** Weder Titelblatt noch
+  Fusszeile tragen ein Datum oder eine Versionsnummer; damit ist offen, auf welche SIA-380/1-
+  Ausgabe sich die wiedergegebenen Ψ-Grenzwerte beziehen. Die Grenzwerttabelle deckt sich mit dem
+  EnFK-Stand SIA 380/1:2009, ist aber nicht als solche ausgewiesen → `[[vorgehen-bauteilekatalog-u-wert]]`.
+- **E-124-4 — Kursfoliensatz «Grenzwerte/Standard/Anforderungen» ohne jede Provenienz.** Kein
+  Impressum, kein Datum, **keine Angabe der zugrundeliegenden Normfassung**. Der darin verwendete
+  MFH-Grenzwert **60,0 kWh/(m²a)** weicht von den KB-Werten ab (55 kWh/m²a Stand 2019,
+  51 kWh/m²a Stand 2023). Nicht aufgeloest — kann an Ausgabejahr, EBF oder Huellzahl liegen.
+  Die Nutzungsgrade, JAZ-Beispielwerte und Faustregeln des Foliensatzes wurden bewusst **nicht**
+  als Kennwerte uebernommen → `[[grenzwerte-standardanforderungen-ht]]`.
+- **E-124-5 — Waermebruecken-Checkliste EnFK mit abgelaufener Eigen-Gueltigkeit und unklarem
+  Geltungsgebiet.** Das Formular traegt «Version Januar 2010, gueltig bis 31.12.2010»; ein
+  Nachfolger ist in den gelesenen Seiten nicht erkennbar. Zudem widersprechen sich Titelblatt
+  (EnFK) und Copyright-Vermerk (EnFK **OCH**, Ostschweizer Kantone) — offen, ob das Formular in
+  ZH/SZ ueberhaupt je galt → `[[minergie-checkliste-waermebruecken]]`.
+- **E-124-6 — HFO-Kaeltemittel und PFAS-Rechtslage nicht gegengeprueft.** ecoBKP 2026 fuehrt HFO
+  als 2. Prioritaet mit PFAS-Warnhinweis. Der schweizerische Regulierungsstand zu PFAS in
+  Kaeltemitteln wurde in diesem Lauf **nicht** verifiziert. Beruehrt auch die geplante
+  EU-Regulierung. Uebergabe an Skill `normen` bzw. naechsten Energie-Lauf.
+- **E-124-7 — Zaehlweise «ecoBKP 244» oder «244-245»?** Das Inhaltsverzeichnis der Ausgabe 2026
+  fuehrt «Lueftungs- und Klimaanlagen — **ecoBKP 244-245**», die Merkblatt-Kopfzeile im
+  gelesenen Text nur «ecoBKP 244». Rein formal, aber fuer eine exakte Zitierung zu klaeren.

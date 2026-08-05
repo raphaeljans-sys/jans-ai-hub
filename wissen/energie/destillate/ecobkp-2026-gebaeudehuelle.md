@@ -215,7 +215,7 @@ Eigene Einordnung, nicht Teil der Quelle:
 - **Aktueller Bestand des SFG-Labels/der Gründachrichtlinie**: bereits im 2008-Destillat als offen geführt (`wiki/QUESTIONS.md`, E-R25-1); der 2026-Text bestätigt nur, dass SIA 312 die massgebliche Norm ist, klärt aber den heutigen Bestand des SFG-Labels selbst nicht.
 - **BKP-2017-Abgleich**: die in diesem Destillat verwendeten ecoBKP-Nummern (221, 222, 224, 225, 226, 227, 228) sind eco-bau-eigene Merkblattnummern, keine BKP-2017-Codes nach `references/bkp-2017/BKP-2017-Liste.md` — bei Übernahme in ein Devis ist der zugehörige BKP-2017-Code separat zu verifizieren (Rule `bkp-2017-referenz.md`).
 
-[[ecobkp-2026-leitfaden-und-neuerungen]]
+[[ecobkp-2026-methodik-und-uebersicht]]
 [[eco-bau-merkblaetter-bkp-2008-huelle]]
 [[daemmstoffe-lambda]]
 [[naturdaemmstoffe]]

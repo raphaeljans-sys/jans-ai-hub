@@ -203,8 +203,9 @@ MuKEn-Einzelanforderungen für eine Zertifizierung **nicht aus** — Minergie is
 Zweitens gehen übergeordnete Vorschriften des Standortes (etwa aus einem Quartier- oder
 Gestaltungsplan) den freiwilligen Standards **immer vor**, und Minergie prüft die kantonalen
 Vorschriften ausdrücklich **nicht**. Drittens, und strategisch am wichtigsten: Der Verein Minergie
-rechnet selbst damit, dass die MuKEn 2025 in den Kantonen erst **in den nächsten 3 bis 7 Jahren**
-eingeführt werden. Wer heute nach Minergie 2026.1 baut, nimmt die nächste Gesetzesstufe vorweg.
+schreibt selbst, die Einführung der MuKEn 2025 sei «für die nächsten **3-7 Jahre** zu erwarten» —
+die nächste Gesetzesstufe steht also an, ist aber noch nicht in Kraft. Wer heute nach Minergie
+2026.1 baut, nimmt sie vorweg.
 
 **Quelle:** Verein Minergie «Besser planen, besser bauen», Überarbeitung September 2023 →
 `[[minergie-besser-planen-bauen]]`; Anforderungen/MKZ/THGE im Detail →
@@ -7067,8 +7068,8 @@ zentrale Nutzenergie-Messstellen ist eine **hydraulische und elektrische Planung
 Zubehör. Sie gehört ins Pflichtenheft der Gebäudetechnik, nicht in die Ausführungsphase —
 nachträglich eingebaut wird sie teuer und oft nur noch halb richtig.
 
-**Wenn eine echte Zusage gewünscht ist**, ist das Monitoring das falsche Instrument; dafür gibt es
-die Leistungsgarantie (→ F213).
+**Wenn eine echte, durchsetzbare Zusage gewünscht ist**, ist das Monitoring das falsche Instrument;
+dafür gibt es die Leistungsgarantie (→ F213).
 
 **Quelle:** Produktreglement Gebäudestandards MINERGIE/-P/-A **Version 2026.1**, Kapitel 14 (S. 22)
 und Anhang F (S. 41), Primärquelle im Volltext gelesen 05.08.2026 →
@@ -7150,7 +7151,7 @@ weil die Merkblätter **jährlich** fortgeschrieben werden (→ F208).
 **Quelle:** Verein ecobau, «**ecoBKP — Empfehlungen für ökologisches, kreislauffähiges und gesundes
 Bauen nach Baukostenplan (BKP)**», **Stand Januar 2026, V 1.0**, 138 Seiten, öffentlich unter
 ecobau.ch/Instrumente; Abschnitt «Neuerungen auf einen Blick» (S. III) im Original gegengezählt
-05.08.2026 → `[[ecobkp-2026-leitfaden-und-neuerungen]]`, `[[ecobkp-2026-tragwerk-und-rohbau]]`,
+05.08.2026 → `[[ecobkp-2026-methodik-und-uebersicht]]`, `[[ecobkp-2026-tragwerk-und-rohbau]]`,
 `[[ecobkp-2026-gebaeudetechnik]]`, `[[ecobkp-2026-gebaeudehuelle]]`. Themenartikel →
 `[[oekologische-materialvorgaben-beschaffung]]`, `[[graue-energie]]`.
 

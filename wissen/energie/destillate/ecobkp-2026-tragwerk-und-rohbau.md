@@ -8,7 +8,7 @@ datenstand: ecoBKP wird jährlich fortgeschrieben — Ausgabejahr immer mitzitie
 status: emerging
 last_updated: 2026-08-05
 sources: [W-ecobkp2026.pdf]
-links: [[ecobkp-2026-leitfaden-und-neuerungen]], [[graue-energie]], [[holzbau-bauphysik-clt]]
+links: [[ecobkp-2026-methodik-und-uebersicht]], [[graue-energie]], [[holzbau-bauphysik-clt]]
 ---
 
 # Destillat — ecoBKP 2026: Tragwerk und Rohbau (ecoBKP 21, 211, 213, 214, 215)
@@ -475,6 +475,6 @@ Die folgenden Punkte sind eine Einordnung von JANS, keine wörtliche Wiedergabe 
   könnte — dieses Destillat übernimmt die Einordnung «2026 ganz neues Kapitel» aus dem Auftrag,
   ohne das selbst am Text zu verifizieren.
 
-[[ecobkp-2026-leitfaden-und-neuerungen]]
+[[ecobkp-2026-methodik-und-uebersicht]]
 [[graue-energie]]
 [[holzbau-bauphysik-clt]]
