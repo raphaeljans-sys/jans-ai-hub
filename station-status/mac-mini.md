@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 05.08.2026 07:41:42
+Stand: 05.08.2026 07:51:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 07:41:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9849fedf vollgas-fruehwarnung 05.08.: still (kein Kriterium erfuellt); Gate-Blocker auf einen betroffenen Loop eingegrenzt, kill weiterhin vom Classifier abgewiesen; Mittags-Slot-Wochenbilanz = bleibt
+- 6c6adec9 ag-gruendung-monitor 05.08.: kein UBS-/Notariats-Eingang; IBAN-Nachfass-Schwelle heute erreicht, Notariats-Nachreichung ueberfaellig
