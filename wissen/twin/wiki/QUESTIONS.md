@@ -2687,3 +2687,28 @@ eine Entscheidung statt einer Vermutung.
    Ist die Doppelung Absicht (cc = Beweis, Direktmail = Aufmerksamkeit) oder nur eine schnelle
    zweite Bewegung? *Warum: entscheidet, ob der Zwilling die Doppelzustellung als festes Muster
    nachbaut oder nicht.* → [[arbeitsweise]], [[beziehungsregister]]
+
+## Offen — Runde 260805 (twin-mail-training Batch 87, Luecken-Sweep Dez 2025 / Jan 2026)
+
+Quelle: `raw/260805-mailbatch-87.md`. Vier Eigentexte gelesen, drei echte Luecken destilliert;
+das Fenster war ungewoehnlich stark vorbelegt (Fidelity 260723 und 260727d hatten die Golds
+met-all/Grillmotor, Claudia-Ultra-Ping, CNCEST-Reklamation und Peter-Weisser-Neujahr bereits
+verbraucht). Je in 1–2 Saetzen beantwortbar.
+
+1. **Der Signaturblock als Satzende — bewusstes Mittel oder Tippfluss?** «Jetzt warte ich auf
+   Ihren Anruf**:**» endet mit Doppelpunkt, und die Telefonnummer steht im Block darunter. Ist der
+   Doppelpunkt gesetzt, weil der Block den Satz vollendet (dann ist es ein Format, das der Zwilling
+   nachbauen darf), oder ist er nur stehengeblieben? *Warum: entscheidet, ob der Zwilling die
+   Nummer im Fliesstext wiederholt oder auf den Block zeigen darf.* → [[stimme]]
+2. **Trennlinie nackter Gruss ↔ FG+Block: wirklich der Name des Gegenuebers?** Batch 87 leitet aus
+   dem Kontrast CNCEST («Guten Tag Anna» → «Gruss / Raphael Jans») zu Microsoft-Support (anonymes
+   Ticket-Postfach → FG+Block auch bei einem Satz) ab, dass **nicht** Fadentiefe oder Mailkuerze
+   entscheiden, sondern ob am anderen Ende ein Name steht. Stimmt das, oder war es Tagesform bzw.
+   die Frage, ob die Mail vom Handy kam? *Warum: die bisher offene Frage 260727d #3 wuerde damit
+   geschlossen statt um einen weiteren Einzelfall erweitert.* → [[beziehungsregister]], [[stimme]]
+3. **Konzession mit Begruendung — auch gegenueber dem Unternehmer in der Vergabe?** Gegenueber dem
+   Vermieter benennst Du den Vorteil Deines Entgegenkommens ausdruecklich («So koennten Sie das
+   Geraet an diesem Tag weiervermieten»). Machst Du das in der **Vergabe** genauso, wenn Du einem
+   Unternehmer entgegenkommst, oder bleibt die Konzession dort bewusst unbenannt, um sie in der
+   Nachverhandlung nicht als Argument zu verlieren? *Warum: klaert, ob der Marker rollenunabhaengig
+   gilt oder nur, wo Du der zahlende Kunde bist.* → [[haltung]]

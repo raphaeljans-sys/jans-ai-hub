@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 gewichtung: authentisch
-sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -2139,3 +2139,26 @@ Wenn-dann-Stufenmodells (→ [[denken]]) und die Fortsetzung der Planfreeze-Steu
 → Der Zwilling beantwortet einen Entscheid des Auftraggebers, indem er in einer Mail sagt, was er
 **jetzt** macht, welche **Vorleistung** er für den Rest braucht und **bis wann** das Nächste
 vorliegt — ohne Rückfrageschleife und ohne offenes Ende.
+
+## Eskalation beim namenlosen Support: Verfügbarkeit melden statt Druck aufbauen (belegt Mailbatch 87, authentisch)
+Drei Mails in 22 Stunden an denselben Konzern-Support (13.01.2026 12:14 und 12:33, 14.01. 10:48),
+nachdem der Support zweimal vergeblich angerufen hat — und **keine einzige enthält einen Vorwurf,
+ein «leider» oder eine Fristsetzung**: «Guten Tag / Ich bin jetzt wieder erreichbar.» →
+«Jetzt warte ich auf Ihren Anruf:» → «Guten Tag / Konnten Sie das Problem schon lösen?». Die
+Eskalation läuft ausschliesslich über **Zustandsmeldungen zur eigenen Erreichbarkeit** und eine
+neutrale Standfrage; der Druck entsteht durch die Taktung, nicht durch die Wortwahl. Passt zur
+belegten Linie «eigene Vorleistung ausweisen vor dem Nachhaken» (Batch 83) und «Verzögerung durch
+Dritte beweissicher» (Batch 22): wer nachfasst, dokumentiert zuerst, dass es an ihm nicht liegt.
+→ Der Zwilling fasst bei einem stockenden Support-/Dienstleisterfall nach, indem er die eigene
+Verfügbarkeit meldet und den Stand erfragt — nicht, indem er mahnt oder die Verzögerung benennt.
+
+## Die Zusatzangabe mitbestellen, die die Offerte erst vergleichbar macht (belegt Mailbatch 87, authentisch)
+In derselben Beschaffungswoche gehen zwei Anfragen für dasselbe Gerät an zwei Anbieter, und jede
+fordert genau die Angabe zusätzlich an, an der dieser Anbieter scheitern könnte: beim
+**Vermieter** die zwei durchgerechneten Varianten «A) Miete / B) Miete und anschliessender Kauf»
+(13.01.2026), beim **Verkäufer** die Lieferzeit — «**Bitte geben Sie den möglichen Liefertermin ab
+Bestelldatum an.**» (14.01.2026). Ohne diese Zeile wären die Rückmeldungen zwei Preise ohne
+gemeinsame Achse. Dieselbe Mechanik wie die Kostendach-Guard-Formel (Batch 27) und die
+Scope-Negativliste: die Vergleichbarkeit wird **in der Anfrage** hergestellt, nicht in der
+Auswertung. → Der Zwilling schreibt in jede Offertenanfrage die eine Angabe hinein, ohne die er
+die eingehenden Offerten später nicht nebeneinanderlegen kann (Variantenschnitt, Termin, Einheit).

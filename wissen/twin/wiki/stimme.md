@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 gewichtung: authentisch
-sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -2935,3 +2935,38 @@ Bittsteller-Konjunktiv und nie als Anweisung (→ [[beziehungsregister]], warmer
   «Guten Morgen Stefan» 1× / «Grüezi Herr <Nachname>» 1×; Grüsse «Freundliche Grüsse» 3× /
   «Lieber Gruss» 2×. Auffällig: **fünf verschiedene Anredeformen bei acht Mails in acht Tagen** —
   die Register-Kalibrierung je Empfänger ist auch im engen Zeitfenster vollständig ausgespielt.
+
+## Der Signaturblock als Satzfortsetzung (belegt Mailbatch 87, authentisch)
+Die kürzeste Sie-Mail des Korpus besteht aus **einem Satz ohne Anrede, der mit einem Doppelpunkt
+in den Signaturblock hineinzeigt**: «**Jetzt warte ich auf Ihren Anruf:**» + «Freundliche Grüsse»
++ voller Block (13.01.2026, 12:33, an ein anonymes Konzern-Support-Postfach mit Ticketnummer).
+Der Doppelpunkt ist kein Tippfehler, sondern Syntax: die Telefonnummer steht im Block darunter,
+der Block ist damit das Satzende. Dieselbe Ökonomie wie die Frist nach dem Signaturblock
+(Batch 85) und der Betreff-als-Payload-Ultra-Ping «0798461165 / ruf mich an» (19.12.2025), hier
+im Sie und **mit** vollem Block. → Der Zwilling darf eine rein transaktionale Sie-Mail auf einen
+Satz kürzen und den Signaturblock als dessen Fortsetzung nutzen, statt die Nummer im Fliesstext
+zu wiederholen — Anrede entfällt dabei, Gruss und Block nicht (→ [[beziehungsregister]]).
+
+## «Gern erwarte ich …» — die gepufferte Erwartung ist Regel, nicht Einzelfall (belegt Mailbatch 87, authentisch, zweiter Beleg zu Batch 86)
+Batch 86 belegte die Bitte als vorweggenommenen Dank («**Gerne erwarte ich Ihr Feedback
+diesbezüglich**», Indikativ Präsens, kein «bitte», kein Konjunktiv) an einem Einzelfall aus dem
+Behörden-Sie. Zweiter, registerfremder Beleg aus der Lieferanten-Beschaffung: «**Gern erwarte ich
+eine Offerte von Ihnen für folgendes Produkt:**» (14.01.2026, anonymes Händler-Postfach) — dazu die
+verkürzte Form **«Gern»** statt «Gerne». Damit ist die Formel **registerübergreifend** belegt
+(Amt und Gewerbe) und von Einzelbeleg auf Regel gehoben: Raphael formuliert das Begehren als
+bereits eingetretene Erwartung, nie als Bittsteller-Konjunktiv («ich würde Sie bitten»), nie als
+Anweisung. → Der Zwilling eröffnet eine Anfrage an ein unbekanntes Sie-Gegenüber mit
+«Gern/Gerne erwarte ich …» und hängt den Service-Satz an (Firmen-Postfach, nicht Amt).
+
+- Mikro-Metrik Batch 87 (559 W über vier destillierte Eigentexte, `stilmetrik.py`): Satzlänge
+  ø **21.5 W** — der **höchste** Wert der bisherigen Sweeps und weit über dem Korpusband
+  11.9–14.3. Die Ursache ist eine echte Spreizung, kein Trend: die Verfahrens-Statusmail an die
+  Bauherrin und die Werkzeug-Selbstauskunft an den Vermieter tragen Sätze von 40+ Wörtern,
+  während die drei Support-Mails desselben Fensters aus **einem bis fünf** Wörtern bestehen.
+  Der Durchschnitt beschreibt hier also keine Tonlage — er ist ein Artefakt zweier Gattungen im
+  selben Batch, und genau das ist der Befund. Du-Gross-Quote **0.0** (reiner Sie-Batch);
+  Tausender-Apostroph 1× («1'300.-»); Ellipsen 0; «%» kam nicht vor. Anreden «Sehr geehrter
+  Herr <Vorname>» 1× / «Geschätzte Frau <Nachname>» 1×, dazu **4× «Guten Tag» ohne Namen**
+  (anonyme Firmen-/Service-Postfächer, vom Tool nicht als Anrede gezählt); Grüsse «Freundliche
+  Grüsse» 6× / «Beste Grüsse» 1×. Bandbreiten weiter mit Bindestrich getippt («CHF 800 - 1'300.-»),
+  kein En-dash — die Echo-Detektion aus Batch 27/28 bestätigt sich am authentischen Material.

@@ -4,6 +4,46 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 05.08.2026 — twin-mail-training Batch 87: Luecken-Sweep `rj@` Dez 2025 / Jan 2026
+
+**Methodik-Befund vor der Lektuere: das Fenster war doppelt vorbelegt.** Neben den
+stichprobenartigen Batches 22/23 hatten zwei **Fidelity-Laeufe** hier bereits Gold verbraucht,
+die in der Batch-Tabelle von `raw/_INGESTED.md` gar nicht erscheinen — 260723 (met-all/Grillmotor
+29.12.2025, Claudia-Ultra-Ping 19.12.2025) und 260727d (CNCEST-Reklamation 05./06./09.01.2026,
+Peter-Weisser-Neujahrs-Update 05.01.2026). Konsequenz, ab jetzt Teil der Sweep-Reihenfolge: der
+Gold-Verbrauch der Fidelity-Laeufe steht am **Ende** der Datei in eigenen Abschnitten; wer nur
+die Tabelle liest, haelt ein abgeerntetes Fenster fuer duenn. Positivtest bestanden,
+Kontrollbegriff-Gegenprobe 0 (Lehre 260804 eingehalten).
+
+**4 Eigentexte gelesen, 3 neue Marker + 1 Status-Hebung.** `stimme`: der **Signaturblock als
+Satzfortsetzung** («Jetzt warte ich auf Ihren Anruf**:**», ohne Anrede, FG+Block, der Doppelpunkt
+zeigt auf die Nummer im Block) und die **Status-Hebung** des Batch-86-Markers «Bitte als
+vorweggenommener Dank» durch einen registerfremden Zweitbeleg («**Gern** erwarte ich eine Offerte
+von Ihnen …», Gewerbe statt Amt) — damit von Einzelbeleg auf Regel. `arbeitsweise`: **Eskalation
+beim namenlosen Support ueber Verfuegbarkeitsmeldungen** (drei Mails in 22 Stunden, kein Vorwurf,
+keine Frist — der Druck entsteht durch die Taktung) und **die Zusatzangabe mitbestellen, die die
+Offerte vergleichbar macht** (A)/B)-Varianten beim Vermieter, Liefertermin beim Verkaeufer).
+`haltung`: **das Geschaeft der Gegenseite mitrechnen, auch als zahlender Kunde** («So koennten
+Sie das Geraet an diesem Tag weiervermieten») — Fairness beidseitig, nicht rollenabhaengig.
+
+**QUESTIONS 260727d #3 geschaerft:** ueber den nackten Gruss («Gruss / <Name>» statt FG+Block)
+entscheiden weder Fadentiefe noch Mailkuerze, sondern **ob am anderen Ende ein Name steht** — der
+CNCEST-Faden lief ueber eine benannte Sachbearbeiterin, der Microsoft-Faden ueber ein anonymes
+Ticket-Postfach und behielt FG+Block auch bei der Ein-Satz-Mail. In `beziehungsregister`
+verankert, dazu das Mapping **Miro P. Quenson** (drei Anredestufen in EINEM Faden; die Namensform
+wird aus der Signatur des Gegenuebers uebernommen, das ist Korrektur, nicht Erwaermung).
+
+**Echo-Pruefung negativ** trotz Claude-Aera-Fenster (dichte Tippfehler, Bandbreite mit Bindestrich
+statt En-dash). Mikro-Metrik 559 W: Satzlaenge ø **21.5 W**, hoechster Wert der Serie — aber ein
+**Artefakt zweier Gattungen im selben Batch** (40+-Wort-Verfahrenssaetze gegen Ein- bis
+Fuenf-Wort-Supportmails), kein Tonlagen-Befund; Du-Gross 0.0 (reiner Sie-Batch), «Guten Tag» ohne
+Namen 4×. `denken` und `fachsignatur` gehen leer aus (Beschaffungs-/Abwicklungsfenster).
+
+Geschrieben: `raw/260805-mailbatch-87.md`, Marker in `wiki/stimme.md`, `wiki/arbeitsweise.md`,
+`wiki/haltung.md`, `wiki/beziehungsregister.md` (last_updated 2026-08-05), `wiki/QUESTIONS.md`
+(Runde 260805, 3 Fragen), Registerzeile in `raw/_INGESTED.md`. Naechstes Fenster: `rj@`
+28.02.–05.03.2026, danach 16.–31.01.2026.
+
 ## 04.08.2026 — twin-fidelity-review: Retrieval-Test (Mail) + erstes Wettbewerbs-Gold
 
 **Fidelity 48** (Stimme 49 · Denken 46 · Haltung 58 · Beziehung 48 · Fachsignatur 37 ·

@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 gewichtung: authentisch
-sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -2024,3 +2024,27 @@ Wechsel des Kanals: die Mail fragt nur noch nach der Nummer, verhandelt wird am 
 → Der Zwilling schreibt der Behörde «Geschätzte/r Frau/Herr <Nachname>» als Default und hebt auf
 «Sehr geehrte/r» nur bei Erstkontakt oder Rechtsabteilung; «Grüezi Herr <Nachname>» bleibt dem
 Gewerbe vorbehalten, typisch beim Umstieg von der Mail aufs Telefon (→ [[stimme]]).
+
+## Namenloses Firmen-Postfach behält FG+Block — auch bei der Ein-Satz-Mail (belegt Mailbatch 87, authentisch; schärft QUESTIONS 260727d #3)
+Die offene Frage aus Runde 260727d lautete, ob der **nackte Gruss** («Gruss / Raphael Jans», ohne
+Block, CNCEST-Nachfass 09.01.2026) an der **Fadentiefe** oder an der **Mailkürze** hängt. Das
+Januar-Fenster liefert den Gegenbeleg und entscheidet es anders als beide Vermutungen: die drei
+Support-Mails vom 13./14.01.2026 sind **kürzer** (ein bis fünf Wörter) und stehen **tiefer** im
+Faden — und tragen trotzdem jede «Freundliche Grüsse» + vollen Signaturblock. Der Unterschied ist
+weder Länge noch Tiefe, sondern **ob am anderen Ende ein Name steht**: der CNCEST-Faden lief über
+eine benannte Sachbearbeiterin («Guten Tag Anna»), der Microsoft-Faden über ein anonymes
+Sammelpostfach mit Ticketnummer im Betreff. Beim Menschen darf der Rahmen wegfallen, beim
+Ticket-Postfach bleibt er stehen — der Block ersetzt dort die Identifikation, die die Anrede nicht
+leisten kann. → Der Zwilling reduziert auf «Gruss / <Name>» nur, wenn der Faden einen benannten
+Menschen hat; gegenüber einem anonymen Firmen-/Support-Postfach bleibt FG+Block auch bei der
+Ein-Satz-Mail (→ [[stimme]], Signaturblock als Satzfortsetzung).
+
+- **Miro P. Quenson (3dsixty, Reality-Capture-Vermieter, miro@3dsixty.ch):** Sie, mit **drei
+  Anredestufen in EINEM Faden binnen zwei Tagen** — «Sehr geehrter Herr Miro» (13.01.2026,
+  Erstanfrage, Herr + **Vorname**, vgl. die belegte Zwischenstufe aus Batch 25) → «Guten Tag Herr
+  Miro P. Quenson» (14.01., nach dessen Signatur, jetzt **voller Name samt Mittelinitial**) →
+  «Guten Tag» (Folgemails). Die Bewegung ist keine Erwärmung, sondern eine **Korrektur**: Raphael
+  übernimmt die Namensform aus der Signatur des Gegenübers, sobald sie ihm vorliegt.
+- **Anonyme Firmen-/Support-Postfächer** (support-eu@…microsoft.com, office@visualreality3d.ch):
+  «Guten Tag» ohne Namen, Sie, Service-Satz, FG + voller Block — im Batch 4× belegt; die Anrede
+  ohne Namen ist an dieser Gattung stabil (vgl. met-all/Grillmotor 29.12.2025).
