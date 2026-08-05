@@ -3,6 +3,37 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — Waermepumpen-Aussengeraete: Querbezug zur KB `energie` gesetzt, mit Reichweiten-Warnung statt blossem Link
+
+- **`wiki/abstaende-und-hoehen.md`:** Der Artikel nennt Waermepumpen-Aussengeraete ausdruecklich
+  als Anwendungsfall der 1,5-m/2-m²-Bagatellschwelle, fuehrte aber keinen Weg zur viel
+  ausfuehrlicheren Analyse in `energie/destillate/waermepumpe-aussengeraet-grenzabstand-zh-sz`
+  (Gegenrichtung war gesetzt, diese nicht). Querbezug-Block ergaenzt.
+- **Drei Dinge bewusst anders als vorgeschlagen:** (1) **Kein blanker Wikilink** — in
+  `baurecht/wiki` existiert keine gleichnamige Datei, das waere ein toter Link gewesen, den der
+  naechste `wissenscheck` als neuen Mangel meldet. Gesetzt ist die **Backtick-Pfadform**, die
+  dieser Artikel in Z. 44 und `baubewilligungsverfahren.md` bereits selbst fuehren. (2) **Substanz
+  statt Link:** die zwei entscheidenden Warnungen stehen an der Fundstelle selbst — der Absatz
+  gilt nur fuer den **Kanton Zuerich**, der **Kanton Schwyz kennt keine Bagatellschwelle**
+  (§ 61 PBG SZ, 2,50 m fuer Nebenbauten, Reduktion bis null nur mit schriftlicher
+  Nachbarzustimmung), und die Subsumtion «WP-Aussengeraet = Gebaeude im Sinn des PBG» ist fuer
+  ZH/SZ **nicht amtlich entschieden**. (3) **Zahlenkollision vermieden:** im selben KB fuehrt
+  `baubewilligungsverfahren.md` bereits ein «2,5 m» fuer **Erdwaermesonden im Kt. ZH** — die
+  SZ-Zahl traegt deshalb Kanton, Anlagenart und Norm im selben Satz.
+- **Nicht angefasst:** die Frontmatter-Felder `links:` (KB-intern, nicht die Cross-KB-Konvention)
+  und `verifiziert:` (protokolliert Wortlaut-Verifikationen am raw-Volltext; ein Querverweis ist
+  keine solche). Der bestehende Satz ist **nicht falsch** — es fehlte die Reichweiten-Kennzeichnung.
+- **Fuehrung unveraendert geteilt:** `baurecht` fuehrt den PBG-ZH-Wortlaut, `energie` die
+  WP-Anwendung samt SZ-Recht und Rechtsprechungslage. Im Verweistext ausgesprochen, damit der
+  naechste Lauf die Arbeitsteilung nicht erneut als Doppelspurigkeit meldet.
+
+**Nicht Teil dieses CHANGELOG-Eintrags, aber terminkritisch und in `logbuch/fristen.md`
+eingetragen:** Ziffer 4.5 des Begleitbeschriebs 2414 Thalwil (Eingabe 06.08.2026) zitiert
+weiterhin Art. 45 revBZO als Pruefmassstab. Die KB-Feststellung vom 04.08. steht; neu ist, dass
+der in Run 25 vorbereitete Ersatztext selbst fehlerhaft war (§ 2a **Abs. 1** ABV gilt nur fuer
+freistehende Kleinbauten, der Veloraum ist angebaut → **Abs. 2**). Details im Laufbericht,
+Abschnitt 6. Das Deliverable wurde nicht geaendert (ausgehendes Erzeugnis, Freigabe Raphael).
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Thalwil Klein-/Anbauten: der 31.07.-Output trug drei Sachfehler; Korrekturvermerk gesetzt, Arbeitsregel präzisiert, Rückkante zu `planungsgrundlagen` gelegt
 
 - **`outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md` — datierter Korrekturvermerk

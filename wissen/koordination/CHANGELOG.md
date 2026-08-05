@@ -3,6 +3,60 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-05 — Wissens-Chef Run 26 (Cross-KB, 5 Felder, 15 Agenten)
+
+- **Bericht:** `outputs/2026-08-05_wissens-chef-run26.md`. Fuenf Felder, 11 gemeldete Befunde,
+  **10 verifiziert — 8 bestaetigt, 2 gedaempft, 0 widerlegt**; rund 20 Dateien in 7 KBs plus eine
+  Skill-Referenz korrigiert. Lauf 05.08. 23:11 bis 06.08. ca. 00:20 CEST (Datumsgrenze
+  ueberschritten; Korrekturvermerke tragen einheitlich das Datum des Laufbeginns).
+- **Dimensionierung gemessen:** Zuwachs seit Run 25 per `git log --stat` — energie 28 Dateien
+  (Run 124 endete drei Minuten vor Laufbeginn), twin 23, normen 8, projekt-lessons 5, bauprodukte 4,
+  grobkosten 3. Die Felder folgten dem Zuwachs, nicht dem Turnus: drei von fuenf zielten auf
+  Material, das juenger als 24 Stunden war.
+- **Teuerster Fund — das eigene Archiv ist die Fehlerquelle.** Zwei unabhaengige Felder konvergierten
+  auf das **VKF-Merkblatt 2001-15 «Solaranlagen»**: beide normen-Destillate fuehrten «Unterdachbahnen
+  duerfen aus **RF4 (cr)**» — geltend ist «muessen mindestens aus **RF3 (cr)**». Aus einer Erlaubnis
+  wurde eine Pflicht, und RF4(cr) ist die guenstige Standardbahn. **Der Delta stammt aus der Ausgabe
+  01.01.2017, nicht 2022** (Zwischenfassung selbst gezogen): der Hausbestand ist neun Jahre ueberholt,
+  nicht vier. Zweiter Fall gleicher Wurzel: **BRL 22-15**, Zeile c (Hochhaeuser > 30 m), Spalte B
+  2015 = III, geltend II — Anforderung an den inneren Blitzschutz ERHOEHT.
+- **Die Ursache ist wichtiger als die zwei Faelle:** Das SharePoint-Archiv haelt fuer beide
+  Publikationen an **beiden** Ablageorten byte-identisch nur die Fassung 2015 — beim Blitzschutz im
+  Ordner «Brandschutzrichtlinien 2015-17-22». Jeder kuenftige Lauf, der brav «Primaerquelle
+  SharePoint» liest, reproduziert den Fehler. Neue Matrix-Zeile: **der Hausbestand ist kein
+  Gueltigkeitsbeleg**, der Abgleich gegen den VKG-Endpunkt ist Pflichtschritt vor `established`.
+- **Struktur-Lehre 1 (neu):** **Fuehrung heisst Zustaendigkeit, nicht Vorrang der Datenlage.**
+  Zweimal in diesem Lauf haette die mechanische Anwendung der Matrix den besseren Stand durch den
+  schlechteren ersetzt — beim Blitzschutz waere der einzige Ort im Hub mit dem richtigen
+  Hochhaus-Wert entmaterialisiert worden.
+- **Struktur-Lehre 2 (neu):** **«Korrektur verpufft im Register»** — Variante des bekannten
+  Verpuff-Musters. Run 24 hatte E-122-6 im Artikel richtiggestellt, aber nie im Register; der
+  Eintrag schickte den Leser sechs Wochen lang an einer vorhandenen Datei vorbei.
+- **Struktur-Lehre 3 (neu):** dasselbe Muster **innerhalb** einer KB. `normen` fuehrte den
+  Blitzschutz-Delta seit dem 13.07.2026 in `vkf-brl-aenderungen-2017.md` — die beiden Destillate
+  waren nur nie verlinkt. Intra-KB-Blindheit, die kein einzelner Loop sieht.
+- **Struktur-Lehre 4 (neu, Verfahren):** **Ein Laufbericht ist kein Meldekanal.** Der
+  terminkritische Thalwil-Punkt aus Run 25 war korrekt gefunden, verifiziert und prominent markiert
+  — und ist im Tagesbriefing vom 05.08. **nicht angekommen**. Wer eine Frist meldet, schreibt sie ins
+  Fristen-Register. Dieser Lauf hat das nachgeholt.
+- **Verfahren:** Die Quote bleibt — die Befunde halten, die Aufloesungen nicht. **Fuenf von zehn**
+  Melder-Aufloesungen haetten bei mechanischer Ausfuehrung Schaden angerichtet (falsche
+  Entmaterialisierungsrichtung, Kopieren einer luechenhaften Fassung in die fuehrende KB, ein falsch
+  zitierter Praezedenzfall, ein toter Link, ein Zeiger auf eine nicht destillierte BKP-Position).
+  Zweimal hat das **GEDAEMPFT**-Urteil einen Fehleingriff verhindert (Wuest-Faktor, Beleuchtung).
+  Auch die Ausfuehrenden haben zweimal gegen die Vorlage gemessen und recht behalten (ERCO-Seitenstand
+  95 statt 73; kein toter `-2022`-Backlink).
+- **Register:** `QUERBEZUEGE.md` um **6 Paar-Eintraege** und **2 Matrix-Zeilen** ergaenzt.
+- **Keine eigene Mail** (Rule 260803). Fuer das Tagesbriefing markiert: **⚠ terminkritisch** —
+  Ziffer 4.5 des Begleitbeschriebs 2414 Thalwil, Eingabe **06.08.2026**, fertige Ersetzung liegt im
+  Bericht, Freigabe Raphael ausstehend. **Neu gegenueber Run 25:** der damals vorbereitete Ersatztext
+  war selbst fehlerhaft (§ 2a **Abs. 1** ABV gilt nur fuer freistehende Kleinbauten, der Veloraum ist
+  angebaut → **Abs. 2**) — er haette ein falsches Zitat gegen ein zweites getauscht.
+- **Ein offener Entscheid fuer Raphael** (Bericht Abschnitt 7): Ticket T-Regelgeschoss, jetzt mit
+  zweiter Facette (Faktor und Bezugsgroesse in der JANS-Richtwert-Tabelle). Dazu zwei
+  Beschaffungs-Pendenzen (VKF-Fassungen 2017/2022 in den SharePoint-Bestand) und die weiterhin
+  parkierte Duplikat-Frage der beiden Solaranlagen-Destillate.
+
 ## 2026-08-04 — Wissens-Chef Run 25 (Cross-KB, 6 Felder, 23 Agenten)
 
 - **Bericht:** `outputs/2026-08-04_wissens-chef-run25.md`. Sechs Felder, 32 gemeldete Befunde,

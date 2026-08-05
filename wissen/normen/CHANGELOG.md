@@ -1,3 +1,56 @@
+## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — zwei VKF-Publikationen als ueberholt ausgewiesen; der Hausbestand war die Fehlerquelle
+
+Zwei unabhaengige Felder des Cross-KB-Laufs sind auf dieselbe Publikation konvergiert; die
+adversariale Verifikation hat den Befund danach verschaerft und beide Original-PDFs selbst geladen.
+
+- **VKF-BSM 2001-15 «Solaranlagen» — falscher Bauteilwert im Umlauf.** Beide Destillate fuehrten
+  «Unterdachbahnen duerfen aus Baustoffen der RF4 (cr) bestehen». Geltend ist «**muessen mindestens
+  aus Baustoffen der RF3 (cr)** bestehen» (Ziff. 3.2.3 Abs. 3). Aus einer Erlaubnis ist eine Pflicht
+  geworden, und RF4(cr) ist die guenstige Standardbahn — der Wert wandert direkt ins LV.
+  **Entscheidend: der Delta stammt aus der Ausgabe 01.01.2017, nicht erst 2022.** Die Zwischenfassung
+  (12 S., «Fassung gemaess Beschluss Technische Kommission VKF vom 02.12.2016») wurde gezogen und
+  enthaelt den Satz bereits woertlich. Der Hausbestand ist damit **neun Jahre** ueberholt, nicht vier.
+  Zwei weitere, bisher unbemerkte Deltas: Flaechenschwelle «> 1200 m²» statt «≥ 1200 m²», und der
+  **RWA-Mindestabstand 2 m ist kein Loesungsansatz-Wert mehr** (Anhang S. 14, Lichtraumprofil-Alternative).
+  Beide Destillate tragen jetzt Fassungswarnung, Delta-Block und **zweiwertige Vermerke** an jeder
+  betroffenen Fundstelle; der JANS-Praxis-Transfer nennt die geltenden Werte. Die 2015er-Werte wurden
+  **nicht ueberschrieben** — sie sind fuer ihre Fassung korrekt und koennen in Altprojekten die
+  vereinbarte Fassung sein. Der Stichtags-Abschnitt «Fassungs-Klaerung 25.07.2026» blieb wortgleich
+  und bekam einen datierten Nachtrag.
+- **VKF-BRL 22-15 «Blitzschutzsysteme» — dieselbe Wurzel.** Volltext-Diff beider Original-PDFs: die
+  Ausgabe 2017 aendert **genau fuenf Dinge**, darunter **genau eine Zahl in der gesamten Tabelle a-j**
+  — Anhang zu Ziff. 2, **Zeile c (besonders hohe Bauwerke, Hochhaeuser ueber 30 m), Spalte B von III
+  auf II**. Da Klasse I die hoechste Schutzstufe ist, wurde die Anforderung **erhoeht**; wer die
+  Hausfassung heranzieht, unterspezifiziert den inneren Blitzschutz um eine Klasse. Zeile c ist jetzt
+  zweiwertig gefuehrt, `verifiziert: 260714` blieb wortgleich, der neue Pruefstand kam als eigene Zeile.
+- **Zusatzbefund des Ausfuehrenden, den keine Meldung kannte:** `destillate/vkf-brl-aenderungen-2017.md`
+  fuehrt **seit dem 13.07.2026** exakt denselben Blitzschutz-Delta. Die KB kannte die Verschaerfung
+  also intern bereits — die beiden Destillate waren nur nie verlinkt, und wer allein
+  `vkf-brl-22-15-blitzschutzsysteme.md` las, sah sie nicht. Backlink und Bestaetigungsabsatz gesetzt.
+- **Die gemeinsame Ursache, neu als Matrix-Zeile:** Das SharePoint-Archiv haelt fuer beide
+  Publikationen an **beiden** Ablageorten byte-identisch nur die Fassung 2015 — beim Blitzschutz sogar
+  in einem Ordner namens «Brandschutzrichtlinien 2015-17-22». Jeder kuenftige Lauf, der brav
+  «Primaerquelle SharePoint» liest, reproduziert den Fehler. Der Hausbestand ist **kein
+  Gueltigkeitsbeleg**, sondern ein Bestandsnachweis; der Abgleich gegen den VKG-Publikationsendpunkt
+  ist Pflichtschritt, bevor ein VKF-Destillat `established` wird.
+- **VKF-FAQ 2005-01 «Lithium-Eisenphosphat» — Vorbehalt aufgeloest, aber nicht durch Kopieren.** Die
+  KB fuehrte die FAQ als «im Original nicht verifiziert», waehrend `energie` sie drei Tage zuvor
+  vollstaendig gelesen hatte. Die energie-Fassung durfte **nicht** uebernommen werden: das Gegenlesen
+  am Original fand dort zwei Luecken — das komplette **Lueftungs-Bullet** (feuerwiderstandsfaehige
+  Trennung, Brandschutzklappen mit Kanalrauchmelder, die kostenrelevanteste Einzelanforderung) und
+  eine Verkuerzung, die die **groessere** der beiden Lockerungen unsichtbar machte. Neuer FAQ-Abschnitt
+  aus dem Original, ⚠-Block als erledigt ausgewiesen statt geloescht, `gelesen`/`verifiziert`
+  angehaengt. **Mit Verbindlichkeitsvorbehalt:** die FAQ nennt sich selbst «einen moeglichen
+  Loesungsansatz» — «EI 30 genuegt» gehoert nicht als geltende Vorgabe ins LV.
+- **SIA 2023:** beide Destillate der Ausgabe 2004 tragen jetzt `ausgabe_ueberholt` (Rueckzug per
+  1.5.2021, ersetzt durch SIA 382/5:2021). Die Stichtags-Zeile REGISTER.md:301 blieb unberuehrt.
+- **Bring-Schuld** fuer die Re-Destillate 2017/2022 in `wiki/QUESTIONS.md`, mit URLs, Seitenzahlen
+  und MD5 sowie dem ausdruecklichen Vermerk, dass die Existenz bereits verifiziert ist (kein zweites
+  Bezahlen desselben Schritts). Kein neues 2022er-Destillat angelegt — das ist ein eigener
+  Lesevorgang.
+
+Bericht: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`.
+
 ## 2026-08-05 (Normen-Training Run 44) — kein Destillat: Rücktritt am Lauf-Gate, Betriebsbefund statt Fachertrag
 
 Der Lauf wurde um 01:28 vom `lauf-gate.sh` abgewiesen (rc=1, «bereits 2 Laeufe aktiv») und ist

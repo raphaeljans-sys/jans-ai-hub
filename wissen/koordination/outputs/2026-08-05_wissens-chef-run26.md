@@ -230,6 +230,46 @@ falsche Fassung raus, obwohl das Deliverable korrigiert ist. Der überholte Zwis
    bleibt parkiert wie bisher — ein Merge ist destruktiv und braucht die Einzelfreigabe. Beide
    sind in diesem Lauf gleichlautend markiert worden.
 
+## 7b · Ausgeführte Aktionen
+
+Vier Ausführungs-Agenten mit strikt disjunkten Dateimengen, danach eigene Nachkontrolle.
+
+| KB / Ort | Was gesetzt wurde |
+|---|---|
+| `normen` | Fassungswarnung, Delta-Block und **zweiwertige Vermerke** in beiden Solaranlagen-Destillaten und in der BRL 22-15; FAQ-2005-01-Abschnitt aus dem Original samt Verbindlichkeitsvorbehalt; `ausgabe_ueberholt` in beiden SIA-2023-Destillaten; INDEX, REGISTER, QUESTIONS (Bring-Schuld mit URL, Seitenzahl, MD5), norm-inventar |
+| `energie` | erfundener SIA-2023-Titel korrigiert und Rückzug per 1.5.2021 nachgeführt; zwei inhaltliche Lücken im Lithium-Destillat geschlossen; Verbindlichkeitsvorbehalt in Destillat und Bauherren-FAQ; Belegpflege am Blitzschutz-PV-Destillat; Archiv-Falle dokumentiert; E-122-6 qualifiziert; neuer Eintrag E-R26-1; zwei ecoBKP-Anschlusspunkte; INDEX |
+| `bauprodukte` | vier additive Nachträge in QUESTIONS (BKP 224 Zeiger, BKP 281 negativ, BKP 214/215/225 aufgeteilt, ERCO-Abgrenzung), Lesefortschritt am Artikel gemessen nachgezogen |
+| `baurecht` | Querbezug-Block zu den Wärmepumpen-Aussengeräten in Backtick-Pfadform, mit ZH-Reichweite, SZ-Regel und Subsumtionsvorbehalt |
+| `planungsgrundlagen` | Kopfnotiz auf den geklärten Stand gehoben — die eigene Meldung ist am VKF-Original bestätigt und gilt bereits seit 2017 |
+| `immobilienbewertung` + Skill-Referenz | Run-25-Wertung richtiggestellt (beide Register ergänzt, nichts überschrieben), Belegvermerk zum Quellen-Faktor 0.70, Vorbehaltsblock an der JANS-Richtwert-Zeile |
+| `koordination` | 6 Paar-Einträge, 2 Matrix-Zeilen, CHANGELOG |
+| `logbuch/fristen.md` | datierter Nachtrag an der Begleitbeschrieb-Zeile 2414 Thalwil |
+
+**Bewusst nicht ausgeführt:** kein neues 2022er-Destillat der VKF 2001-15 (das ist ein eigener
+Lesevorgang am Original, als Bring-Schuld angemeldet); kein Merge der beiden Solaranlagen-Destillate
+(destruktiv, Einzelfreigabe); keine Änderung am Thalwiler Deliverable (ausgehendes Erzeugnis);
+keine Änderung an `energie/wiki/oekologische-materialvorgaben-beschaffung.md` (KB-interner Defekt,
+als E-R26-1 registriert und dem nächsten energie-Lauf überlassen).
+
+**Der Skill-Layer ist nicht betroffen:** `grep` über `skills/` nach RF4(cr) im Unterdach-Kontext
+liefert null Treffer — die Korrektur bleibt auf die Wissensbasen begrenzt.
+
+## 7c · Zwei Befunde, die erst beim Umsetzen auftauchten
+
+Beide stammen von den Ausführenden, nicht von den Meldern — und beide sind Belege dafür, dass ein
+Ausführender messen und nicht bloss abschreiben muss.
+
+- **`normen` kannte den Blitzschutz-Delta seit dem 13.07.2026.** Das Destillat
+  `vkf-brl-aenderungen-2017.md` führt Zeile c (III → II) und die Umbenennung SEV-Leitsätze 4022 →
+  SNR 464022 seit drei Wochen. Die beiden Destillate waren nur nie verlinkt — wer allein
+  `vkf-brl-22-15-blitzschutzsysteme.md` las, sah die Verschärfung nicht. Das ist das
+  Verpuff-Muster **innerhalb** einer KB, eine Blindheit, die kein einzelner Loop sieht. Backlink
+  gesetzt.
+- **Der ERCO-Lesestand war auch in der Vorlage falsch.** Die Verifikation hatte 73 Seiten gemessen,
+  das Register führte 53. Beim Ausführen stand der Artikel bereits bei **95** (die Nachtschicht war
+  dazwischengelaufen). Der Ausführende hat am Frontmatter gemessen statt die Vorlage zu übernehmen —
+  mit dem Vorlagenwert hätte der nächste Lauf S. 74–95 doppelt gelesen.
+
 ## 8 · Was dieser Lauf über das Verfahren gelernt hat
 
 - **Ein Laufbericht ist kein Meldekanal.** Der terminkritische Punkt aus Run 25 war korrekt
@@ -243,6 +283,13 @@ falsche Fassung raus, obwohl das Deliverable korrigiert ist. Der überholte Zwis
   mechanische Anwendung der Matrix den besseren Stand durch den schlechteren ersetzt.
 - **Eine Korrektur, die nur in den Artikel geschrieben wird, verpufft im Register.** Neue Variante
   eines bereits bekannten Musters — und diesmal war es die eigene Korrektur aus Run 24.
+- **Dasselbe Muster gibt es innerhalb einer KB.** `normen` besass den Blitzschutz-Delta seit drei
+  Wochen in einem zweiten Destillat und wusste es nicht. Bisher hat der Cross-KB-Lauf nur zwischen
+  KBs gesucht; hier lag der Fund im Inneren einer einzigen.
+- **Ein Ausführender muss messen, nicht abschreiben.** Zwei der Vorlagen dieses Laufs waren beim
+  Ausführen bereits überholt (ERCO-Seitenstand, ein Backlink auf eine Datei, die bewusst nicht
+  angelegt wurde). Beide Male hat die Gegenmessung den Fehler abgefangen — hätte der Ausführende
+  die Anweisung wörtlich genommen, wäre je ein neuer Mangel entstanden.
 
 ## 9 · Meldung
 

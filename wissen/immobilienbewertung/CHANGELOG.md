@@ -2,6 +2,34 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — Run-25-Wertung zum Wuest-Faktor 0.70 richtiggestellt, echter Abnehmer gefunden
+
+Der Befund wurde adversarial verifiziert und dabei **gedaempft**: Run 25 hatte die Wuest-Referenz
+`:32` als «Regelgeschoss-Faktor 0.70 unkommentiert» eingeordnet und daraus geschlossen, der
+kanonische Entscheid vom 12.07.2026 habe «einen Abnehmer nie erreicht». Beides traegt nicht.
+
+- **Primaerquelle gelesen** (Wueest-Academy-Folie S. 34): Das 0.70 dort ist die
+  **Effizienzannahme der Quelle selbst** innerhalb ihrer eigenen Herleitung («2'800 / 0.70 HNF
+  Effizienz = CHF 4'000 /m2 HNF»), kein angewandter JANS-Faktor. Und die Stelle rechnet einen
+  **Ganzgebaeude**-Benchmark um, kein Regelgeschoss — sie ist gar kein Abnehmer dieses Entscheids.
+  Aendern haette das Zitat verfaelscht und die Konvergenz der drei Herleitungen der Quelle auf
+  rund 4'800 (Folien S. 33/34/35) zerstoert. Auch die Richtung stimmte nicht: der «korrigierte»
+  Wert waere 4'301 bis 4'590 gewesen, also **hoeher** statt tiefer.
+- **`wiki/wissensluecken.md` (T-Regelgeschoss)** und **`wiki/realwert-sachwert.md`** (Blockzitat
+  des Run-25-Nachtrags): Richtigstellung je **angehaengt**, kein Wort des datierten Bestands
+  ueberschrieben. Dazu in `realwert-sachwert.md` der Zusatz «(Annahme der Quelle)» an der
+  0.70-Stelle; Zahl unveraendert.
+- **Der echte Abnehmer lag eine Tabelle weiter:** **Zeile 96** derselben Referenz fuehrt
+  «Umrechnung | HNF ≈ 0.70 × GF» ausdruecklich als **JANS-Richtwert** und **ohne Bezugsgroesse**,
+  in einer Tabelle mit Ganzgebaeude-Richtwerten — dort waere nach dem kanonischen Entscheid
+  0.60-0.61 einschlaegig, nach dem eigenen Datensatz 0.65. **Zahl nicht geaendert** (haengt am
+  Fachentscheid), gesetzt ist ein Vorbehaltsblock in der Referenz und ein Nachtrag im Ticket.
+- **Der Fachentscheid 0.70 gegen 0.75 bleibt unveraendert offen** und ist durch diesen Lauf weder
+  gestuetzt noch erledigt — er gewinnt aber eine zweite, kostenwirksame Facette (welcher Faktor
+  steht in der Richtwert-Tabelle, und mit welcher Bezugsgroesse).
+
+Bericht: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Doppelfuehrung Tab. 2 benannt, HNF/GF-Zeiger gesetzt, Preisstand-Vermerk WALD-Anker
 
 - **`wiki/realwert-sachwert.md`, Neuwert-Richtwerte CHF/m3 (Befund F6-kennwerte-V1, verifiziert

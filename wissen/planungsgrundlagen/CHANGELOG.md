@@ -2,6 +2,21 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — die eigene Meldung ist bestaetigt, und zwar am VKF-Original
+
+- **`wiki/energie-pv-brandschutz.md`:** Die Kopfnotiz «2022er-Re-Destillat in normen offen» ist durch
+  den geklaerten Stand ersetzt. Der von dieser KB gemeldete Delta (Unterdachbahnen RF3(cr) statt
+  RF4(cr)) ist **bestaetigt — und zwar aus dem VKF-Text selbst**, nicht nur aus dem Swissolar-STP:
+  Ziff. 3.2.3 Abs. 3 «Unterdachbahnen muessen mindestens aus Baustoffen der RF3 (cr) bestehen».
+- **Praezisierung gegenueber der eigenen Meldung:** Der Delta gilt bereits **seit der Ausgabe
+  01.01.2017**, nicht erst seit 2022 — die Zwischenfassung kannte keine der drei beteiligten KBs.
+- Loesung A2 auf Primaerquellen-Beleg gehoben; der datierte Block «Rev.-2022-Delta bestaetigt
+  (Run 37)» bleibt stehen und bekam einen Nachtrag.
+- **Merkposten:** Die beiden normen-Destillate, auf die diese Seite als «fuehrendes Destillat»
+  verlinkt, fuehren die **historische** Fassung 2015 und sind entsprechend gekennzeichnet.
+
+Bericht: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Vorwirkung: Bruecke zum fuehrenden baurecht-Artikel gelegt; Thalwiler Ueberwachungs-Pendenz als K68 uebernommen
 
 - **`wiki/kartenportale-oereb-kataster-system-zh.md` § 3 — Zeiger auf die fuehrende KB gesetzt,

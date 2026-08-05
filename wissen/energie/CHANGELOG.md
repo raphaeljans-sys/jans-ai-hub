@@ -2,6 +2,57 @@
 
 Neueste zuoberst.
 
+## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — ein erfundener Beleg, eine zurueckgezogene Norm und zwei geschlossene Luecken
+
+- **`destillate/brandschutz-lueftung-schnittstelle.md` — erfundener Beleg korrigiert.** Das Destillat
+  schrieb SIA 2023 den Titel «Lueftungs- und Klimaanlagen — Allgemeine Grundlagen und Anforderungen»
+  zu; der gehoert zu SIA 382/1. Der Verifikator hat den Foliensatz selbst extrahiert: **er nennt fuer
+  SIA 2023 gar keinen Titel.** Der Titel wurde beim Destillieren hinzugefuegt, nicht aus der Quelle
+  geerbt — die schwerere Variante. Die eigene Zuordnung ist jetzt ausdruecklich als eigene
+  gekennzeichnet.
+  **Praktisch wichtiger:** Das Merkblatt SIA 2023 «Lueftung in Wohnbauten» ist **seit 1.5.2021
+  zurueckgezogen**, ersetzt durch SIA 382/5:2021 — belegt in dieser KB, zwei Destillate weiter. Die
+  bisherige Weisung «aktuelle SIA-Norm 2023 vor Verwendung pruefen» schickte den Leser eine Norm
+  suchen, die es nicht mehr gibt.
+  **Bewusst NICHT korrigiert:** die Folien-Zuschreibung «Anhang F» ist am Bestand nicht belegbar (dort
+  steht die Publikationsliste), stammt aber aus der Quelle — als Attributionsfehler markiert und offen
+  gelassen, statt auf eine plausibel aussehende Ziffer umgeschrieben zu werden. Anhang E dagegen ist
+  am Original 2004 bestaetigt und bleibt.
+- **`destillate/vkf-lithium-batteriespeicher-brandschutz.md` — zwei inhaltliche Luecken geschlossen.**
+  Das Gegenlesen am FAQ-Original fand: das komplette **Lueftungs-Bullet** (feuerwiderstandsfaehige
+  Trennung der Lueftungsanlagen, Brandschutzklappen mit Kanalrauchmelder oder Kanaele direkt ins
+  Freie) fehlte ganz, und die 100-kWh-Stufe war so verkuerzt, dass die **groessere** der beiden
+  Lockerungen unsichtbar blieb. Beides nachgetragen. Dazu der **Verbindlichkeitsvorbehalt**: die FAQ
+  bezeichnet sich selbst als «moeglichen Loesungsansatz» mit der Fusszeile «Erlaeuterung /
+  Interpretation» — die frueherer Formulierung «rechtlich nicht zwingend» lud dazu ein, «EI 30
+  genuegt» als Anspruch zu lesen, und ist entschaerft. Fuehrungsvermerk auf `normen` gesetzt.
+- **`wiki/BAUHERREN-FAQ.md`, F128:** derselbe Vorbehalt und die Lueftungs-Trennung ergaenzt — das ist
+  die Stelle mit Aussenwirkung, weil sie in die Bauherren-Auskunft geht.
+- **`destillate/pv-blitzschutz-gebaeudeversicherung-ch.md` — Belegpflege** (der zitierte Wortlaut war
+  zeichengenau richtig): Fundstelle S. 5 → **S. 6 von 15**, Genehmigungsgremium «Fachkommission» →
+  **Technische Kommission Brandschutz VKF (TKB)**, Tippfehler «20001-15de». Dazu der sachliche
+  Hinweis, dass der hier gefuehrte Vergleich 2022 gegen 2015 **eine Revision ueberspringt** (01.01.2017)
+  und dieser Lauf nur Ziff. 3.1 geprueft hat.
+- **`destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md`:** Tabelle und Zitate **vollstaendig
+  erhalten** (die urspruenglich vorgeschlagene Entmaterialisierung haette den einzigen Ort im Hub mit
+  dem richtigen Hochhaus-Wert durch den falschen ersetzt). Ergaenzt ist die **Fassungs-Falle im
+  JANS-Archiv**: die im Buero abgelegten PDFs sind an beiden Orten die ueberholte Ausgabe 2015, dort
+  steht fuer Hochhaeuser ueber 30 m in Zeile c Spalte B III statt geltend II.
+- **`wiki/QUESTIONS.md`:** **E-122-6 qualifiziert, aber nicht geschlossen.** Run 24 hatte am 03.08.
+  festgestellt, dass die EN-12464-1-Uebersichtstabelle im Bestand liegt und mit Zahlenwerten
+  destilliert ist — und das in den Artikel geschrieben, **aber nie ins Register**. Der Eintrag
+  schickte den Leser an einer vorhandenen Datei vorbei. Er bleibt trotzdem offen: der Auszug gibt den
+  Stand vor EN 12464-1:2011 / SIA 2024:2006 wieder. Was offen ist, ist enger als bisher formuliert —
+  nicht «Zahlen ueberhaupt», sondern die geltende Ausgabe; die Bring-Schuld liegt bei `normen`.
+  Neuer Eintrag **E-R26-1** zum KB-internen Defekt in `wiki/oekologische-materialvorgaben-beschaffung.md`
+  (behauptet weiterhin «ecoBKP 2026 noch nicht destilliert» und fuehrt die von Run 124 selbst als
+  falsch korrigierte 11er-Positionsliste; am Original sind es 18 Positionen).
+- **`destillate/ecobkp-2026-gebaeudehuelle.md` / `-tragwerk-und-rohbau.md`:** je ein Anschlusspunkt zur
+  KB `bauprodukte` unter «Offene Punkte» — ecoBKP 224 ist der aktuelle Gegenpart zur dortigen
+  Dachbegruenung, ecoBKP 225 loest die SIA-493-Luecke ueber Emicode EC1/EC1plus.
+
+Bericht: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`.
+
 ## 2026-08-05 (Run 124) — Minergie-Teilkorpus PL-02 + ecoBKP 2026 fortgesetzt; erstes established-Destillat des Blocks; Prozessdefekt der Loop-Kette aufgedeckt
 
 **12 neue Destillate** (13 erstellt, 1 als Duplikat entfernt), **1 umbenannt**, **4 neue FAQ**

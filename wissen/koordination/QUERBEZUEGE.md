@@ -94,6 +94,118 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen ↔ energie ↔ planungsgrundlagen (VKF 2001-15 Solaranlagen + BRL 22-15 Blitzschutz) — geprueft 2026-08-05 (Run 26)
+- **In ZWEI unabhaengigen Feldern konvergiert** (F1 und F3) — dasselbe Vorsortier-Signal wie in
+  Run 25. Der Verifikator des zweiten Felds hat den Befund danach verschaerft und beide
+  Original-PDFs selbst geladen.
+- **Befund 1 (bestaetigt, hoechste Praxisfolge des Laufs):** Beide normen-Destillate zum
+  BSM 2001-15 fuehrten «Unterdachbahnen duerfen aus RF4 (cr) bestehen». Geltend: «muessen
+  mindestens aus **RF3 (cr)** bestehen». Aus einer Erlaubnis wurde eine Pflicht, und RF4(cr) ist
+  die guenstige Standardbahn — ein falscher Bauteilwert, der ins LV wandert.
+  **Der Delta stammt aus der Ausgabe 01.01.2017, nicht 2022** (Zwischenfassung gezogen, Satz dort
+  woertlich). Hausbestand neun Jahre ueberholt. Zwei weitere Deltas bisher unbemerkt: Schwelle
+  «> 1200 m²» statt «≥ 1200 m²», RWA-2-m kein Loesungsansatz-Wert mehr.
+- **Befund 2 (bestaetigt):** BRL 22-15, Anhang Ziff. 2, **Zeile c (Hochhaeuser > 30 m), Spalte B
+  2015 = III, geltend II** — einzige geaenderte Zahl der Tabelle a-j, Anforderung ERHOEHT.
+- **Verifikator-Korrektur, wichtiger als der Befund:** Der Melder wollte die Tabelle im
+  energie-Destillat streichen und auf normen verweisen lassen, weil normen laut Matrix fuehrt.
+  Das energie-Destillat trug aber die AKTUELLE Fassung mit dem richtigen Wert II. Der Fix haette
+  den einzigen Ort im Hub mit dem richtigen Hochhaus-Wert durch den falschen ersetzt.
+  **Fuehrung heisst Zustaendigkeit, nicht Vorrang der Datenlage** — formell bleibt normen fuehrend,
+  inhaltlich musste normen auf den Stand von energie gehoben werden.
+- **Gemeinsame Ursache, neu als Matrix-Zeile:** Das SharePoint-Archiv haelt fuer beide
+  Publikationen an beiden Ablageorten byte-identisch nur die Fassung 2015 — beim Blitzschutz sogar
+  im Ordner «Brandschutzrichtlinien 2015-17-22». Jeder Lauf, der «Primaerquelle SharePoint» liest,
+  reproduziert den Fehler.
+- **Zusatzbefund (intra-KB-Blindheit):** `normen/destillate/vkf-brl-aenderungen-2017.md` fuehrt den
+  Blitzschutz-Delta **seit dem 13.07.2026**. Die KB kannte ihn intern bereits; die beiden
+  Destillate waren nur nie verlinkt. Neue Variante des Verpuff-Musters — diesmal **innerhalb**
+  einer KB. Backlink gesetzt.
+- **Aktion:** Fassungswarnungen, Delta-Bloecke und zweiwertige Vermerke in drei normen-Destillaten,
+  INDEX, REGISTER, QUESTIONS (Bring-Schuld mit URL/MD5), norm-inventar; energie-Belegpflege und
+  Archiv-Falle; planungsgrundlagen-Kopfnotiz geklaert. **2015er-Werte nicht ueberschrieben**
+  (fuer ihre Fassung korrekt, Altprojekte). **Status: bereinigt**, Re-Destillat 2017/2022 offen.
+
+### normen ↔ energie (VKF-FAQ 2005-01 Lithium/LFP) — geprueft 2026-08-05 (Run 26)
+- **Befund (bestaetigt):** Beide KBs fuehrten BSM 2005-15 materiell und ohne Querverweis (grep
+  beidseitig 0). Die laut Matrix fuehrende KB `normen` trug einen ⚠-Vorbehalt, die FAQ sei «im
+  Original nicht verifiziert» — waehrend `energie` sie drei Tage zuvor vollstaendig gelesen hatte.
+  Uebergabe-Versagen, nicht Abstraktionsfehler.
+- **Verifikator-Korrektur:** Die energie-Fassung durfte NICHT kopiert werden. Am Original fanden
+  sich dort zwei Luecken — das komplette Lueftungs-Bullet (feuerwiderstandsfaehige Trennung,
+  Brandschutzklappen mit Kanalrauchmelder) und eine Verkuerzung, die die groessere Lockerung
+  (LFP ab 100 kWh im Gebaeude zulaessig statt Freiaufstellung) unsichtbar machte. Der mechanische
+  Fix haette beide Luecken in die fuehrende KB eingefroren.
+- **Zweite Korrektur:** Die FAQ ist «ein moeglicher Loesungsansatz» mit Fusszeile «Erlaeuterung /
+  Interpretation» — keine verbindliche Vorgabe. «EI 30 genuegt» gehoert nicht ins LV. Vorbehalt in
+  normen, energie und BAUHERREN-FAQ F128 gesetzt.
+- **Dritte Korrektur:** Der Melder zitierte den SIA-493-Praezedenzfall als Beleg fuer
+  «wechselseitig verlinken». Der etablierte das Gegenteil — die fuehrende KB zieht nach, die
+  anderen verweisen. Symmetrische Verlinkung waere ein Matrix-Verstoss.
+- **Stichtagsdisziplin:** `verifiziert: 260728` und `gelesen:` angehaengt, nicht ueberschrieben;
+  der ⚠-Block als erledigt ausgewiesen statt geloescht. **Status: bereinigt, Paar aus der Rotation.**
+
+### energie ↔ bauprodukte (eco-BKP, zweite Pruefung: Ausgabe 2026) — geprueft 2026-08-05 (Run 26)
+- **Befund (bestaetigt, aber im Umfang enger als gemeldet):** Die in Run 25 gesetzten Zeiger auf den
+  eco-bau-Stand **2008** waren einen Tag spaeter durch die destillierte Ausgabe **2026** ueberholt.
+  Nullmessung bestaetigt (grep «ecobkp-2026» ueber bauprodukte = 0, «bauprodukte» ueber die
+  2026er-Destillate = 0).
+- **Zwei Melder-Teilbehauptungen widerlegt:** «keine Richtung kennt die andere» (energie nennt
+  `bauprodukte/wiki/dachbegruenung-systeme` sehr wohl — blind ist nur die Destillat-Ebene) und
+  «genau dieselben BKP-Positionen» (**ecoBKP 271 und 281 sind NICHT destilliert**).
+- **Staerkster Treffer vom Melder uebersehen:** BKP 224 Dachbegruenung — der einzige Fall, in dem ein
+  bestehender bauprodukte-Artikel einen vollstaendigen 2026er-Gegenpart hat.
+- **Aufloesung positionsweise statt pauschal:** 214/215 und 225 (inkl. Emicode EC1/EC1plus als
+  Nachfolger des archivierten SIA-493-Rasters) bekommen den 2026er-Zeiger; **281 bekommt einen
+  ausdruecklich negativen Nachtrag** (ein Zeiger auf die Gebaeudehuelle waere ein Sachbezugsfehler);
+  **271 bleibt beim Stand 2008**. Der Satz zu **BKP 225.4** bleibt wortgleich — am Original gilt er
+  fuer 2026 unveraendert. Der ecobau.ch-Schlusssatz bleibt (271/281 nur dort, Destillate `emerging`,
+  ecoBKP wird jaehrlich fortgeschrieben). **Status: bereinigt.**
+
+### baurecht ↔ energie (Waermepumpen-Aussengeraet, Grenzabstand) — geprueft 2026-08-05 (Run 26)
+- **Befund (bestaetigt):** Einseitige Verlinkung — `energie` verwies auf `baurecht`, nicht umgekehrt,
+  obwohl der baurecht-Artikel WP-Aussengeraete ausdruecklich als Anwendungsfall der
+  1,5-m/2-m²-Bagatellschwelle nennt.
+- **Form korrigiert:** Ein blanker Wikilink waere in `baurecht/wiki` ein **toter Link** gewesen
+  (keine gleichnamige Datei), den der naechste `wissenscheck` als neuen Mangel meldet. Gesetzt ist
+  die Backtick-Pfadform, die derselbe Artikel 14 Zeilen weiter oben bereits fuehrt.
+- **Substanz statt Link:** Die zwei Warnungen stehen an der Fundstelle selbst — Reichweite nur
+  Kt. ZH, im Kt. SZ keine Bagatellschwelle (§ 61 PBG SZ, 2,50 m Nebenbauten), und die Subsumtion
+  «WP-Aussengeraet = Gebaeude» ist fuer ZH/SZ nicht amtlich entschieden.
+- **Zahlenkollision vermieden:** im selben KB steht bereits ein «2,5 m» fuer Erdwaermesonden (ZH) —
+  die SZ-Zahl traegt Kanton, Anlagenart und Norm im selben Satz.
+- **Fuehrung geteilt und ausgesprochen:** baurecht der PBG-ZH-Wortlaut, energie die WP-Anwendung
+  samt SZ-Recht und Rechtsprechungslage. **Status: beidseitig verlinkt.**
+
+### bauprodukte ↔ normen ↔ energie (Beleuchtung / EN 12464-1) — geprueft 2026-08-05 (Run 26), GEDAEMPFT
+- **Gemeldete Gleichsetzung widerlegt:** Die beiden Luecken sind nicht dieselbe. `energie` braucht
+  raumbezogene Bemessungswerte (E_m, UGR, W/m²), `bauprodukte` Lampen-/Leuchtenkennwerte (lm/W, Ra,
+  Farbtemperatur, BKP 233). Ein Herstellerratgeber (ERCO) ist fuer EN-Normwerte ohnehin keine
+  zulaessige Quelle. Keine gemeinsame Bring-Schuld — hoechstens klopfen beide bei `normen` an.
+- **Der schwerere Defekt am selben Ort, vom Melder nicht gesehen:** **E-122-6 war seit 03.08.2026
+  ueberholt.** Run 24 hatte festgestellt, dass die EN-12464-1-Uebersichtstabelle im Bestand liegt
+  und mit Zahlenwerten destilliert ist — und das in den Artikel geschrieben, **aber nie ins
+  Register**. Neue Variante des Verpuff-Musters: **«Korrektur verpufft im Register»**.
+- **Eintrag bleibt OFFEN**, nur qualifiziert: der Auszug gibt den Stand vor EN 12464-1:2011 /
+  SIA 2024:2006 wieder. Offen ist die geltende Ausgabe, nicht «Zahlen ueberhaupt». `normen` fuehrt
+  bis heute **kein** EN-12464-1-Destillat (nachgemessen) — echte Registerluecke, neue Matrix-Zeile.
+- **Registerdrift nebenbei korrigiert:** der ERCO-Lesefortschritt war im Register bei 53 Seiten
+  stehen geblieben, der Artikel steht bei 95 — **am Frontmatter gemessen, nicht aus der Vorlage
+  uebernommen** (die nannte 73). Sonst haette der naechste Lauf S. 74-95 doppelt gelesen.
+
+### grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung (HNF/GF-Faktor) — geprueft 2026-08-05 (Run 26), GEDAEMPFT
+- **Run-25-Wertung richtiggestellt:** Zeile 32 der Wuest-Referenz ist **kein Abnehmer** des
+  Regelgeschoss-Entscheids. Die Stelle rechnet einen **Ganzgebaeude**-Benchmark um, und das 0.70 ist
+  die **Effizienzannahme der Quelle selbst** (Wuest-Academy-Folie S. 34, Primaerquelle gelesen).
+  Aendern haette das Zitat verfaelscht; auch die Richtung stimmte nicht (korrigiert waere 4'301 bis
+  4'590, also HOEHER statt tiefer).
+- **Der echte Abnehmer lag eine Tabelle weiter:** Zeile 96 derselben Referenz fuehrt
+  «HNF ≈ 0.70 × GF» als **JANS-Richtwert ohne Bezugsgroesse**, in einer Tabelle mit
+  Ganzgebaeude-Richtwerten. Zahl nicht geaendert (haengt am Fachentscheid), Vorbehaltsblock gesetzt.
+- **Ticket T-Regelgeschoss bleibt offen** und gewinnt eine zweite, kostenwirksame Facette. Beide
+  Register ergaenzt, nichts ueberschrieben.
+
+
 ### energie (eco-BKP-Beschaffungskorpus Run 123) ↔ bauprodukte — ERST-PRUEFUNG 2026-08-04 (Run 25)
 - **Ausgangsmessung:** grep «bauprodukte» ueber `wissen/energie/` = 0 Treffer, grep «energie»
   ueber `wissen/bauprodukte/` = 0 Treffer. Zwei KBs, die beide nach BKP gliedern, kannten

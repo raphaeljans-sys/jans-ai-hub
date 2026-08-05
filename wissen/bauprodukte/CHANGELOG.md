@@ -1,5 +1,35 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — ecoBKP-Zeiger positionsweise auf 2026 nachgezogen, ERCO gegen EN 12464-1 abgegrenzt
+
+Run 25 hatte am 04.08. Zeiger auf den eco-bau-Stand **2008** gesetzt. Einen Tag spaeter lag die
+Ausgabe **ecoBKP 2026** in der KB `energie` destilliert. Alle Nachtraege sind additiv, die
+04.08.-Bloecke bleiben wortgleich stehen (Stichtags-Disziplin).
+
+- **`wiki/QUESTIONS.md` Punkt 3 (BKP 224 Dachbegruenung):** Zeiger auf
+  `energie/destillate/ecobkp-2026-gebaeudehuelle.md` gesetzt — der staerkste Treffer des Felds,
+  vom Melder selbst uebersehen. Mit `emerging`-/Teillesungs-Vorbehalt; der hier verlangte
+  **Marktueberblick bleibt offen**, das Destillat ersetzt ihn nicht.
+- **Punkt 8 (BKP 281 Terrazzo/Bodenbelaege):** ausdruecklich **negativer** Nachtrag. ecoBKP 281
+  ist nicht destilliert; ein Zeiger auf das Gebaeudehuellen-Destillat (deckt 221-228) waere ein
+  Sachbezugsfehler. Damit kein kuenftiger Lauf dort erneut sucht.
+- **Punkt 9 (Holzbau/Bekleidungen) aufgeteilt statt pauschal gehoben:** BKP 214/215 →
+  `ecobkp-2026-tragwerk-und-rohbau`; BKP 225 inkl. **Emicode EC1/EC1plus** als Nachfolger des seit
+  30.06.2022 archivierten SIA-493-Deklarationsrasters → `ecobkp-2026-gebaeudehuelle`;
+  **BKP 271 Trockenbau bleibt beim Stand 2008** (ecoBKP 271 nicht destilliert). Der Satz zu
+  **BKP 225.4** («traegt der eco-Bestand nichts bei») bleibt wortgleich — am Original nachgeprueft
+  gilt er fuer 2026 unveraendert. Der ecobau.ch-Schlusssatz bleibt ebenfalls stehen.
+- **Punkt 4 (ERCO):** Lesefortschritt mit dem Artikel gleichgezogen und dabei **am Frontmatter
+  gemessen statt aus der Anweisung uebernommen** — der Artikel steht bei **95/435** Seiten
+  (naechster Anschlusspunkt S. 96, Rest «Montage»), die Vorlage nannte noch 73. Mit dem
+  Vorlagenwert haette der naechste Lauf S. 74-95 doppelt gelesen.
+  Dazu ein **Abgrenzungsblock**: das Kapitel «Lichttechnik» ist Quelle fuer Lampen-/
+  Leuchtenkennwerte (lm/W, Ra, Farbtemperatur, BKP 233), **nicht** fuer Beleuchtungsstaerken nach
+  EN 12464-1 — dafuer fuehrt `normen`, und ein Herstellerratgeber waere ohnehin keine zulaessige
+  Quelle. Zeiger auf den einzigen Zahlenbestand im Hub (datierter AHB-Auszug 19.01.2007).
+
+Bericht: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`.
+
 ## 2026-08-05 (Mac Mini Nachtschicht, 23:30) — ERCO-Ratgeber auf S. 95 fortgeschrieben, Kapitel «Leuchtenauswahl» + «Leuchtenanordnung» abgeschlossen
 
 Eine Einheit, budgetdisziplinierter Lauf (kein Fan-out, ein Read mit 22 Seiten via

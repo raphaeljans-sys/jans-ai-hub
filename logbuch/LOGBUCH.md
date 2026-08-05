@@ -5,6 +5,51 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Wissens-Chef Run 26 (05.08.2026, 23:11 – 06.08. ca. 00:20) — Cross-KB, 5 Felder
+
+Still beendet, keine eigene Mail (Rule 260803). **Ein Punkt gehört ins Tagesbriefing, siehe unten.**
+
+**Ertrag:** 11 gemeldete Befunde, 10 verifiziert (8 bestätigt, 2 gedämpft, 0 widerlegt), rund
+20 Dateien in 7 KBs plus eine Skill-Referenz korrigiert. Bericht:
+`wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`.
+
+**Der teuerste Fund ist operativ, nicht bloss KB-intern.** Zwei unabhängige Felder konvergierten auf
+das VKF-Merkblatt 2001-15 «Solaranlagen»: der Hub führte «Unterdachbahnen dürfen aus **RF4 (cr)**»,
+geltend ist «müssen mindestens aus **RF3 (cr)**». RF4(cr) ist die günstige Standardbahn — der Wert
+wandert direkt ins LV. Der Delta gilt bereits seit der **Ausgabe 01.01.2017**, nicht erst seit 2022.
+Zweiter Fall gleicher Wurzel: VKF-BRL 22-15, Blitzschutzklasse für **Hochhäuser über 30 m** von III
+auf **II** verschärft — wer die Hausfassung nimmt, unterspezifiziert den inneren Blitzschutz um eine
+Klasse. **Gemeinsame Ursache:** Das SharePoint-Archiv hält für beide Publikationen an beiden
+Ablageorten nur die Fassung 2015 — beim Blitzschutz ausgerechnet im Ordner
+«Brandschutzrichtlinien 2015-17-22». Solange das so bleibt, erzeugt jeder künftige Destillat-Lauf
+denselben Fehler neu. Der Skill-Layer ist nicht betroffen (grep über `skills/`: null Treffer).
+
+**⚠ FÜR DAS TAGESBRIEFING 06.08. — terminkritisch, Eingabe heute.** Ziffer 4.5 des versandbereiten
+Begleitbeschriebs 2414 Thalwil zitiert weiterhin Art. 45 revBZO als Prüfmassstab. Der Artikel wirkt
+nicht vor (in der Synopse vom 05.09.2025 nicht grau hinterlegt), und die 50-m²-Grenze steht nicht in
+der revBZO, sondern in § 2a ABV. Der Satz steht in **vier** Dateien, einschliesslich der
+Versandkopie im Korrespondenzordner. **Neu und wichtig:** der in Run 25 vorbereitete Ersatztext war
+selbst fehlerhaft — er zitiert § 2a **Abs. 1** ABV (freistehende Kleinbauten), der Veloraum ist nach
+Zeile 37 desselben Dokuments jedoch angebaut und fällt unter **Abs. 2**. Eine korrigierte,
+fertige Formulierung liegt im Laufbericht, Abschnitt 6. Die Flächenwerte sind richtig und bleiben.
+Claude hat das Dokument **nicht** geändert (ausgehendes Erzeugnis an eine Behörde).
+
+**Prozessbefund, der hier festgehalten gehört:** Derselbe Punkt war bereits am 04.08. im
+Run-25-Bericht als terminkritisch markiert und ist im Tagesbriefing vom 05.08. **nicht angekommen**.
+Ein Laufbericht ist kein Meldekanal. Der Punkt steht deshalb jetzt als datierter Nachtrag in
+`logbuch/fristen.md`, wo ihn der Radar um 06:55 liest.
+
+**Offener Entscheid für Raphael:** Ticket T-Regelgeschoss (HNF/GF-Faktor) gewinnt eine zweite,
+kostenwirksame Facette — die JANS-Richtwert-Tabelle der Wüest-Referenz führt «HNF ≈ 0.70 × GF» ohne
+Bezugsgrösse in einer Ganzgebäude-Tabelle, wo nach dem eigenen kanonischen Entscheid 0.60–0.61
+einschlägig wäre. Zahl nicht geändert, Vorbehalt gesetzt. Dazu zwei Beschaffungs-Pendenzen (VKF
+2001-15 Fassung 2022 und BRL 22-15 Fassung 2017 in den SharePoint-Bestand legen, beide öffentlich
+und kostenlos).
+
+Kein Versand, keine Publikation, keine Buchung.
+
+---
+
 ## Hub-Chef-Tagesbriefing 05.08.2026 (08:39, versendet)
 
 **Zwei neue Eingänge seit dem Radar-Briefing von 07:06, beide KISPI, beide operativ.**
