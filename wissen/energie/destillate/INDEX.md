@@ -5,6 +5,7 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 
 | Destillat | Quelle (PL-04) | Status | Datenstand |
 |---|---|---|---|
+| [[ecobkp-2026-methodik-und-uebersicht]] | Web (ecobau.ch) ecoBKP 2026 | emerging (S. 1-20/138: Methodik, ecoBKP 112/130/201 vollst., 21 Beginn) | Januar 2026 |
 | [[enfk-en-102-waermeschutz-2018]] | U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez | established (S. 1-16, vollst.; **Tab. 5 + Datenstand korrigiert Run 76/77, am Original gegengeprüft**) | Dez 2018 / **SIA 380/1:2016** (vorher irrtümlich 2009) |
 | [[enfk-en-02-waermeschutz-2013]] | U Wert berechnung/VoHi_EN02_de | established (S. 1-12, vollst.) | ⚠ Feb 2013 / SIA 380/1:2009 |
 | [[enfk-en-104-eigenstromerzeugung]] | Solaranlage/EN104/26_EN-104 | established | ⚠ Formular bis 31.12.2024 |

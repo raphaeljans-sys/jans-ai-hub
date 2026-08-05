@@ -2,6 +2,25 @@
 
 Neueste zuoberst.
 
+## 2026-08-05 (Mac Mini Nachtschicht) — ecoBKP 2026 Erstzugriff (Methodik + 3 Merkblätter)
+
+Neue Web-Quelle (nicht im PDF-Inventar, PL-04 ist erschöpft): **ecoBKP 2026** von ecobau.ch
+(https://www.ecobau.ch/resources/uploads/eco-bkp/ecoBKP_2026/ecoBKP_2026.pdf, 138 S., Stand
+Januar 2026), per WebSearch gefunden und direkt geladen. Gelesen S. 1-20/138: Methodik/Leitfaden
+(Prioritäten-Logik, "nicht empfohlen" = Minergie-ECO-Ausschlussvorgabe), Neuerungen 2026
+(Kreislaufwirtschaft in 18 Merkblättern ausgeweitet, neues Kapitel ecoBKP 21 Rohbau-
+Bauteilvarianten nach SIA 390/1 Anhang D), sowie die drei vollständigen Merkblätter **ecoBKP 112**
+(Abbrüche/Rückbau/Entsorgung — VVEA-Schadstoffvoruntersuchung vor 1990, Potenzialanalyse ab
+100 m³), **ecoBKP 130** (Baustelleneinrichtung — Baumschutzradius, Bodenschutzkonzept) und
+**ecoBKP 201** (Baugrubenaushub — Transportdistanz <20 km, geböschte vor vertikaler
+Baugrubensicherung). Destillat `destillate/ecobkp-2026-methodik-und-uebersicht.md` (emerging,
+kein Adversarial-Verify — Budget-bewusst reduziert, wie in Run 111-120 dokumentiert). Direkter
+Anschluss an Rule `bkp-2017-referenz`: ecoBKP nummeriert identisch zu BKP 2017, nur 30 von ~50
+Hauptcodes hinterlegt. **Offen (nächster Lauf):** Rest ecoBKP 21 + 27 weitere Merkblätter
+(211-450, S. 20-138). Kein neuer FAQ-Eintrag (reine Struktur-/Übersichtsquelle, FAQ-Wert erst
+nach Vollständigkeit der Kernkapitel Rohbau/Ausbau). Keine Verifikations-Panel-Runde aus
+Budgetgründen (~4 USD Zyklus-Obergrenze, restliches Budget für Register+Commit reserviert).
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Dachbegruenung SIA 312:2013, SIA-118-Attributionsfehler, SIA-493-Warnvermerke, VVEA-Rechtsbasis
 
 Nachlauf zum eco-bau-/AHB-Korpus aus Run 123. Alle Korrekturen sind am **Original** verifiziert
