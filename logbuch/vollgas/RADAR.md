@@ -51,26 +51,26 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
-## 2026-08-05 16:57 — [FREI] Der Proben-Fix ist bestaetigt. Vorsprung kippt planmaessig ins Minus (−3.0); `projekt-lessons` erreicht nach drei Nullbefunden die Leerlauf-Schwelle und ist als Nachtschicht-Ziel ausgesetzt
+## 2026-08-05 16:57 — [FREI] Der Proben-Fix ist bestätigt. Vorsprung kippt planmässig ins Minus (−3.0); `projekt-lessons` erreicht nach drei Nullbefunden die Leerlauf-Schwelle und ist als Nachtschicht-Ziel ausgesetzt
 
 **Selbstkontrolle:** letzter Eintrag 05.08. 08:58, Abstand 7 h 59 bei 8-h-Takt (00:50 /
 08:50 / 16:50). **Kein Aufsichtsausfall**, der Slot 16:50 ist eingehalten.
 
-**P2 des Vorlaufs erledigt — die Fensterprobe ist repariert und der Fix haelt.**
+**P2 des Vorlaufs erledigt — die Fensterprobe ist repariert und der Fix hält.**
 `claude -p "Antworte nur mit: OK" --model haiku < /dev/null` liefert **«OK», rc=0**, in
-Sekunden, ohne Watchdog. Damit ist der Befund vom 08:58 an einem zweiten, unabhaengigen
-Lauf bestaetigt: die vier Haenger vom 04./05.08. waren ein fehlendes `< /dev/null` im
+Sekunden, ohne Watchdog. Damit ist der Befund vom 08:58 an einem zweiten, unabhängigen
+Lauf bestätigt: die vier Hänger vom 04./05.08. waren ein fehlendes `< /dev/null` im
 eigenen Rezept, kein Login- und kein Kontingentproblem. Die Unterscheidung [FREI] /
-[LOGIN] / [WOCHE LEER] ist wieder direkt messbar statt ueber Umwegbelege. **Keine Waisen:**
-`ps -eo pid,ppid,command | grep "claude -p"` leer, `pgrep`-Zaehlung des Lauf-Gate **0** —
+[LOGIN] / [WOCHE LEER] ist wieder direkt messbar statt über Umwegbelege. **Keine Waisen:**
+`ps -eo pid,ppid,command | grep "claude -p"` leer, `pgrep`-Zählung des Lauf-Gates **0** —
 das Gate ist frei, `normen-training` kann heute 23:27 ungehindert starten.
 
 **Speicher:** 3.74 GB frei+inactive+purgeable, Druckstufe **1** (normal). Praktisch
-unveraendert gegenueber 08:58 (4.01 GB, Stufe 1).
+unverändert gegenüber 08:58 (4.01 GB, Stufe 1).
 
 **Wochenbudget.** `kontingent-budget.sh --json`, ohne Modellaufruf gemessen:
 
-| Groesse | Wert | Vergleich 08:58 |
+| Grösse | Wert | Vergleich 08:58 |
 |---|---|---|
 | Ampel | **FREI** | FREI |
 | Verbraucht | **47.57 Mio** von 167 = **28.5 %** | 46.23 Mio = 27.7 % |
@@ -78,50 +78,50 @@ unveraendert gegenueber 08:58 (4.01 GB, Stufe 1).
 | **Vorsprung** | **−3.0 Punkte** | +0.9 Punkte |
 | MacBook Pro / Mac Mini | 34.22 / 13.35 Mio (beide frisch) | 33.30 / 12.93 |
 
-**Der Vorsprung ist ins Minus gekippt, genau wie im Vorlauf angekuendigt — und die Zahl
+**Der Vorsprung ist ins Minus gekippt, genau wie im Vorlauf angekündigt — und die Zahl
 ist harmloser, als sie aussieht.** Der Verlauf +8.6 → +4.4 → +3.2 → +0.9 → **−3.0** ist
 kein Einbruch, sondern der Tagesgang: seit 08:58 sind nur **1.34 Mio in 8 h** geflossen
 (**0.17 Mio/h**), weil das MacBook Pro seit dem 28.07. reine Arbeitsstation ist und
-tagsueber niemand lernt. Massgeblich ist der **Wochenschnitt: 0.90 Mio/h** (47.57 Mio auf
-53 h). Nachhaltig bis zum Reset am Montag 12:00 waeren **1.04 Mio/h** (119.43 Mio Rest auf
-115 h). Haelt der Schnitt, endet die Woche bei rund **151 Mio = 90 % des Kontingents** und
-einem Vorsprung um −9.5. Das ist Ausschoepfung, kein Leerlauf — und meilenweit weg vom
-dunklen Wochenende 01.–03.08. Eine Drossel nach Schritt 2c ist **nicht** ausgeloest und
+tagsüber niemand lernt. Massgeblich ist der **Wochenschnitt: 0.90 Mio/h** (47.57 Mio auf
+53 h). Nachhaltig bis zum Reset am Montag 12:00 wären **1.04 Mio/h** (119.43 Mio Rest auf
+115 h). Hält der Schnitt, endet die Woche bei rund **151 Mio = 90 % des Kontingents** und
+einem Vorsprung um −9.5. Das ist Ausschöpfung, kein Leerlauf — und meilenweit weg vom
+dunklen Wochenende 01.–03.08. Eine Drossel nach Schritt 2c ist **nicht** ausgelöst und
 wurde **nicht** gesetzt. Der im Vorlauf gesetzte Beobachtungspunkt («unter −5 Punkte wird
-aus Konvergenz Unterauslastung») bleibt stehen, ist aber zu praezisieren: **−5 allein ist
-kein Alarm, solange die Naechte liefern.** Alarm ist erst, wenn eine Nacht ohne Lieferung
-bleibt und der Schnitt unter etwa 0.75 Mio/h faellt.
+aus Konvergenz Unterauslastung») bleibt stehen, ist aber zu präzisieren: **−5 allein ist
+kein Alarm, solange die Nächte liefern.** Alarm ist erst, wenn eine Nacht ohne Lieferung
+bleibt und der Schnitt unter etwa 0.75 Mio/h fällt.
 
 **Liefer-Delta: 39 Commits in 9 Stunden, davon genau einer mit Substanz.**
 - `projekt-lessons` 13:37 (Nachtschicht-Versuchsslot): Truninger-DS3 als dritte Quelle
-  geprueft — **Nullbefund**, kein Fall, kein Artikel. Sauber dokumentiert in QUESTIONS.md
+  geprüft — **Nullbefund**, kein Fall, kein Artikel. Sauber dokumentiert in QUESTIONS.md
   und CHANGELOG.
 - `hub-chef` 09:0x: Estermann-Plangrundlage (Entwurf A5), Ziegels Innenwand-Kommentare,
-  Gate-Blocker aufgeloest. Operative Briefings alle durch (logbuch-radar 06:55,
+  Gate-Blocker aufgelöst. Operative Briefings alle durch (logbuch-radar 06:55,
   vollgas-fruehwarnung 07:15 still, ag-gruendung-monitor 07:46, heartbeat 07:40).
 - Lauf-Journal 05.08.: drei Zeilen, **alle rc=0** (02:37 4.11 USD / 37 Turns, 05:39
-  4.28 / 43, 13:38 3.37 / 47). Kein Abbruch, kein Gate-Ruecktritt.
-- Die uebrigen 36 Commits sind `nas-selfcommit` mit `station-status/*` und
-  `logbuch/kontingent/*` — Statusrauschen, das nach Schritt 5 nicht als Arbeit zaehlt.
+  4.28 / 43, 13:38 3.37 / 47). Kein Abbruch, kein Gate-Rücktritt.
+- Die übrigen 36 Commits sind `nas-selfcommit` mit `station-status/*` und
+  `logbuch/kontingent/*` — Statusrauschen, das nach Schritt 5 nicht als Arbeit zählt.
 
 **Massnahme: `projekt-lessons` ist als freies Nachtschicht-Ziel ausgesetzt (Schritt 4,
-Schwelle «3 Laeufe ohne Liefer-Delta»).** Drei Laeufe in Folge ohne neuen Fall und ohne
+Schwelle «3 Läufe ohne Liefer-Delta»).** Drei Läufe in Folge ohne neuen Fall und ohne
 neuen Artikel: 03.08. Logbuch, 04.08. KISPI-Projektordner + Mail, 05.08. Truninger-DS3.
-Die Unterscheidung ist hier eindeutig und wurde am Lauf-Journal geprueft: **Delta Null
-durch erschoepftes Material**, nicht Null-Ertrag durch Abbruch — alle drei endeten mit
+Die Unterscheidung ist hier eindeutig und wurde am Lauf-Journal geprüft: **Delta Null
+durch erschöpftes Material**, nicht Null-Ertrag durch Abbruch — alle drei endeten mit
 rc=0 und haben ihren Nullbefund belegt statt ihn zu verschweigen. Die KB benennt selbst
 den einzigen verbleibenden ergiebigen Fundort (`01.01.24 Baujournale Bauleitung`,
-Nord/Sued, Jahresordner 2018–2024 auf DS3) **und** den Grund, warum er dort nicht
-hingehoert: zu gross fuer das geteilte 5-USD-Zyklusbudget. Ein vierter Breitensuch-Lauf
-haette denselben Nullbefund ein viertes Mal erzeugt. Umgesetzt in
+Nord/Süd, Jahresordner 2018–2024 auf DS3) **und** den Grund, warum er dort nicht
+hingehört: zu gross für das geteilte 5-USD-Zyklusbudget. Ein vierter Breitensuch-Lauf
+hätte denselben Nullbefund ein viertes Mal erzeugt. Umgesetzt in
 `scripts/nachtschicht-run.sh` Zeile 126 (Freiliste jetzt: bauprodukte, energie,
 grobkosten), mit Reaktivierungsbedingung im Klartext: wieder aufnehmen, sobald der
 dedizierte Baujournal-Lauf stattgefunden hat oder neues Rohmaterial in `raw/` liegt.
-`bash -n` gegengeprueft. **Kein Rueck-Takt fuer andere Loops** — kein weiterer Loop steht
-bei drei oder mehr Laeufen ohne Delta.
+`bash -n` gegengeprüft. **Kein Rück-Takt für andere Loops** — kein weiterer Loop steht
+bei drei oder mehr Läufen ohne Delta.
 
-**Feuermechanismen — alle drei Orte geprueft, keine Abweichung.**
-- Endlos-Runner unveraendert **ausgebaut**: `ch.jans.vollgas-supervisor` (beide Stationen)
+**Feuermechanismen — alle drei Orte geprüft, keine Abweichung.**
+- Endlos-Runner unverändert **ausgebaut**: `ch.jans.vollgas-supervisor` (beide Stationen)
   und `ch.jans.vollgas-monitor` (MacBook) tragen `.disabled-260729`, in `launchctl list`
   ist keiner geladen. Nichts angefasst.
 - Mac-Mini-Nachtschicht `ch.jans.nachtschicht` geladen; alle drei bisherigen Slots des
@@ -130,29 +130,29 @@ bei drei oder mehr Laeufen ohne Delta.
   und die bewusst auf Ereignis-Trigger umgestellten Loops (`immobewertung-training`,
   `spec-training`).
 
-**P1 — keiner. Keine Mail.** Weder Login-Blocker noch erschoepftes Wochenkontingent; der
+**P1 — keiner. Keine Mail.** Weder Login-Blocker noch erschöpftes Wochenkontingent; der
 Proben-Defekt war ein Fehler dieses Radars und ist behoben, also auch kein meldepflichtiger
-geloester P1.
+gelöster P1.
 
-**P2 — der dedizierte Baujournal-Lauf fuer `projekt-lessons` ist der groesste konkrete
+**P2 — der dedizierte Baujournal-Lauf für `projekt-lessons` ist der grösste konkrete
 Hebel und braucht einen Entscheid, den ich nicht selbst treffe.** Die Arbeit ist definiert
-(jahrweise 2018–2024, gezielt nach Nachtarbeit/Laerm/Etappenwechsel), der Fundort steht,
-und sie faellt genau in die Kapazitaet, die diese Woche ungenutzt bleibt. Offen ist nur
-**wo und wann**: das MacBook Pro ist seit dem 28.07. reine Arbeitsstation mit Lern-Laeufen
+(jahrweise 2018–2024, gezielt nach Nachtarbeit/Lärm/Etappenwechsel), der Fundort steht,
+und sie fällt genau in die Kapazität, die diese Woche ungenutzt bleibt. Offen ist nur
+**wo und wann**: das MacBook Pro ist seit dem 28.07. reine Arbeitsstation mit Lern-Läufen
 nur im Nachtfenster, und die Mini-Slots sind auf 5 USD gedeckelt — genau daran ist der
 Lauf schon dreimal vorbeigegangen. Vorschlag: **ein einmaliger, vollbudgetierter Lauf am
 Wochenende im Nachtfenster**, was zugleich Raphaels Entscheid vom 03.08. dient, den
-Verbrauch nicht auf Montag bis Mittwoch zu buendeln. Ich habe die Task **nicht** angelegt,
-weil sie die Stations-Rollentrennung beruehrt.
+Verbrauch nicht auf Montag bis Mittwoch zu bündeln. Ich habe die Task **nicht** angelegt,
+weil sie die Stations-Rollentrennung berührt.
 
-**P3 — die naechstgroesseren offenen Inventare stehen bereit, falls Kapazitaet frei
-bleibt:** `energie` mit 27 offenen ecoBKP-Merkblaettern (S. 20–138 des 2026er-Leitfadens)
+**P3 — die nächstgrösseren offenen Inventare stehen bereit, falls Kapazität frei
+bleibt:** `energie` mit 27 offenen ecoBKP-Merkblättern (S. 20–138 des 2026er-Leitfadens)
 und `bauprodukte` mit dem ERCO-Ratgeber ab S. 73. Beide haben einen funktionierenden
 Taktgeber und brauchen keinen Eingriff — sie sind schlicht die Senken, in die der
-freigewordene `projekt-lessons`-Slot ab heute Nacht laeuft.
+freigewordene `projekt-lessons`-Slot ab heute Nacht läuft.
 
-*Regellauf schlank gehalten: Messung, drei Pruefungen, eine Massnahme, Eintrag. Keine
-Tiefen-Recherche noetig — der einzige Befund (drei Nullbefunde) war aus CHANGELOG und
+*Regellauf schlank gehalten: Messung, drei Prüfungen, eine Massnahme, Eintrag. Keine
+Tiefen-Recherche nötig — der einzige Befund (drei Nullbefunde) war aus CHANGELOG und
 Lauf-Journal direkt belegbar.*
 
 ---
