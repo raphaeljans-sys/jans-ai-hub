@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 05.08.2026 07:11:31
+Stand: 05.08.2026 07:21:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 07:11:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- dc7f3a98 logbuch-radar 05.08.2026: Briefing-Abschnitt, SVA-Mahnung + Gate-Blocker neu, Roethlisberger-Versand belegt
+- 6ebea6c4 nas-selfcommit: 2 Datei(en) 2026-08-05 07:15

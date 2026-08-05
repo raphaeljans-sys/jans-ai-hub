@@ -4,6 +4,135 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-05 07:15 — ROHMESSUNG (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 05.08.2026 07:15 CEST, NAS gemountet. Zweiter Lauf mit rekursivem Glob
+(inklusive Subagenten-Transcripts), Zeilenfilter je `timestamp[:10]` über ein Fenster von
+neun Kalendertagen, Duplikate über (message.id, requestId) ausgeschlossen. Erfasst:
+**1'348 Dateien MacBook Pro / 750 Dateien Mac Mini** im mtime-Fenster.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 28.07. | 26.53 | 298.62 | 3.11 | 73.09 | **29.64** |
+| 29.07. | 18.23 | 434.51 | 3.11 | 76.94 | **21.34** |
+| 30.07. | 27.98 | 666.04 | 4.32 | 80.45 | **32.30** |
+| 31.07. | 13.20 | 247.91 | 2.44 | 64.83 | **15.64** |
+| 01.08. | 5.68 | 143.98 | 0.82 | 21.38 | **6.50** |
+| 02.08. | 0.00 | 0.00 | 0.00 | 0.00 | **0.00** |
+| 03.08. | 22.52 | 514.43 | 9.51 | 179.80 | **32.03** |
+| 04.08. | 7.63 | 180.70 | 2.69 | 45.96 | **10.32** |
+| 05.08. (bis 07:15) | 1.42 | 47.06 | 0.73 | 12.43 | **2.15** |
+
+Die Überlappungstage 28.07. bis 03.08. stimmen auf zwei Nachkommastellen mit der Messung
+vom 04.08. überein — die rekursive Methodik reproduziert sich. Der 04.08. schliesst mit
+**10.32 Mio kombiniert**, dem tiefsten Wert eines vollen Arbeitstages seit dem 01.08.
+(6.50) und deutlich unter dem 03.08. (32.03).
+
+**Blockade-Status: KEINE.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429, jeweils zusammen mit einem Limit-Textmuster)
+über 36 h: **null** echte Limit-Fehlerereignisse auf beiden Stationen. Das jüngste
+bekannte Ereignis bleibt der 03.08. 09:41 CEST vor dem Reset um 12:00; seit nunmehr
+**45½ Stunden** ist kein einziges mehr aufgetreten. Das Wochenkontingent trägt wieder.
+
+**Hauptbefund: das Lauf-Gate des MacBook Pro ist zu, und zwar durch zwei Leichen der eigenen
+Aufsicht.** Der `vollgas-chef-radar` startet in jedem 8-h-Slot eine Fensterprobe
+`claude -p "Antworte nur mit: OK" --model haiku`. Zwei dieser Proben hängen verwaist:
+**PID 54048** (Start 04.08. 16:58, zum Messzeitpunkt **14 h 20 min** alt) und **PID 87945**
+(Start 05.08. 00:58, **6 h 20 min**), beide PPID 1, beide um Minuten versetzt zu den
+Radar-Slots 16:50 und 00:50. Das Lauf-Gate zählt aktive Läufe mit
+`pgrep -f "claude (-p|--print)"`, dieses Muster matcht die Probe, und die Grenze der Station
+ist 2. **Zwei hängende Proben = Gate dauerhaft dicht, und die Sperre löst sich nicht von
+selbst.** Selbst nachgemessen (`ps -o pid,ppid,etime,stat`), nicht aus dem Vorbefund
+übernommen; der Speicher wäre mit 3427 MB frei gewesen.
+
+Die Wirkung ist eng zu ziehen, sonst wird ein Defekt zum Fehlalarm: **genau ein Task
+konsultiert das Gate** (`normen-training-nacht`, als einziger von 31 registrierten Tasks). Der
+Schaden ist damit **ein ausgefallener Lauf** — Run 44 um 01:28, rc=1, kein Destillat, keine
+Verifikation. Alle operativen Briefings fragen das Gate nicht und sind unberührt. Der Mac Mini
+hat sein eigenes Gate und ist unberührt. Der Punkt ist nicht die Breite, sondern die
+**Monotonie**: heute Nacht um 01:28 stirbt Run 45 auf dieselbe Weise, und der Radar-Slot 08:50
+kann eine dritte Leiche hinterlassen.
+
+**Die Bereinigung ist mir verwehrt.** `kill -TERM 54048 87945` wurde vom
+Berechtigungs-Classifier abgewiesen — genau wie schon beim Normen-Lauf um 01:28. Der Weg wurde
+nicht umgangen. Es braucht Raphaels Hand oder eine Bash-Freigabe. Der Befund steht mit dem
+konkreten Befehl bereits im Radar-Briefing 05.08. im `LOGBUCH.md`, das der Hub-Chef um 08:39
+als Pflichtlektüre liest — der Meldeweg ist intakt und trägt schneller als eine eigene Mail.
+
+**Operative Briefings (Schritt 3): alle in Ordnung.** `logbuch-radar` lief heute 06:55 und hat
+sein Deliverable erreicht (Commit `dc7f3a98`, 07:06, Briefing-Abschnitt im LOGBUCH samt
+SVA-Mahnung, Gate-Blocker und belegtem Röthlisberger-Versand). Der letzte abgeschlossene
+`hub-chef-taeglich` lief am 04.08. 08:39–08:58 und hat das Briefing versandt — der erste volle
+Tag unter der Regel «der Chef ist der einzige reguläre Meldekanal» hat funktioniert.
+`ag-gruendung-monitor` (07:46), `mahnwesen-verzugscheck` (08:05), `zahlungsabgleich-check`
+(08:22) und `hub-chef` (08:39) waren zum Messzeitpunkt **noch nicht fällig**.
+
+**Radar-Herzschlag (Schritt 4): beide Signale grün.** Jüngster RADAR.md-Eintrag **05.08. 00:57**,
+Registry `lastRunAt` 04.08. 22:57 UTC — dasselbe Ereignis, also belegt. Abstand zum
+Messzeitpunkt **6 h 18 min**, deutlich unter der 12-h-Schwelle. Nächster Slot 08:57. Bittere
+Pointe des Tages: die Aufsicht schlägt, aber sie hinterlässt bei jedem Schlag eine Leiche.
+
+**Liefer-Delta der Lern-Loops (Schritt 5): ein Leerläufer, und der ist fremdverschuldet.**
+- Geliefert: `twin-mail-training` (03:49, Batch 87 Lücken-Sweep rj@ Dez 25/Jan 26),
+  `twin-fidelity-review` (06:08), `wissens-chef` Run 25 (00:05, Cross-KB über 6 Felder und
+  23 Agenten: SIA 493 als seit 30.06.2022 archiviert erkannt, BKP-Phantomcodes 271.10/271.13
+  in Skills, Destillaten, Rule und Brandschutz-Template bereinigt), `energie` Run 123 (23:08,
+  9 Destillate ecoBKP/eco-bau), Nachtschicht 23:30 und 02:31, `energie` ecoBKP 05:39,
+  `logbuch-radar` 07:06.
+- Muster (a) **erfüllt bei `normen-training-nacht`**: Lauf gestartet, Tokens verbraucht, kein
+  Liefer-Delta. Ursache ist aber nicht ein defekter Loop, sondern der Gate-Blocker oben — nach
+  Rule 260729b vor jeder Stilllegungsempfehlung gegengeprüft: der Loop **durfte nicht laufen**.
+  Kein Abschaltkandidat. Der Loop hat vorbildlich gehandelt: still zurückgetreten und den
+  Grund als 140-zeiligen Report belegt.
+- Muster (b) Delta-Null-Serie: **kein** Loop mit mehreren ergebnislosen Läufen in Folge.
+
+**Destillat-Aufsicht (neunte Erhebung):**
+- (a) **Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, 22 offene Dateien** — exakt
+  wie am 04.08. **Die Front steht still, und das ist hier kein Leerlauf:** beide Läufe
+  arbeiteten innerhalb *einer* Datei weiter, dem ERCO-Ratgeber (BKP 233), 04.08. 13:42 von
+  Seite 40 auf 53, 05.08. 02:31 von Seite 53 auf 73. Ein Zähler, der Dateien zählt, kann
+  40 Seiten Arbeit nicht sehen. Vermerk für künftige Läufe: bei grossen Einzelquellen ist der
+  Datei-Zähler das falsche Mass, die Seitenmarke im CHANGELOG das richtige.
+- (b) **Ertrag: 9 inhaltliche Artikel, alle `emerging`, 0 `established`** — unverändert in der
+  Zahl, aber `erco-lichtplanung-grundlagen.md` wurde heute Nacht **erweitert** (mtime 05.08.).
+  Ertrag bewegt sich also, nur nicht in der Artikelzahl.
+- (c) **Delta-Null-Serie: 0.** Alle vier Nachtschicht-Slots des 04.08. liefen mit rc=0
+  (02:35 `grobkosten` Gegenprüfung zweier bekannter Blocker, 05:35 `bauprodukte`
+  Altersregel-Ausschluss, 13:42 ERCO, 23:35 `projekt-lessons` erweiterter Nullbefund «Bauen im
+  Betrieb»). Zwei davon sind Nullbefunde — dokumentierte Nullbefunde sind Ertrag, nicht Leerlauf.
+  Weder Rücktaktung noch Stilllegung fällig.
+- (d) **Stückkosten 04.08.: 0.69 Mio teuer je bewegtem Wiki-Artikel** (10.32 Mio kombiniert /
+  15 geänderte Artikel ohne INDEX und QUESTIONS). Zweiter Wert der neuen Reihe nach 03.08.
+  Ehrlichkeitsvorbehalt: 6 der 15 sind die Twin-Facetten, die der Fidelity-Review täglich
+  anfasst; rechnet man sie heraus, sind es **1.15 Mio je Artikel**. Beide Werte künftig führen.
+- **Spec-Gate:** `specs/bauprodukte-spec.md` liegt vor, Gate hängt nicht. Korpus 1 weiter
+  «in Arbeit», **keine** Komplettmeldung — Kriterium (g) nicht erfüllt.
+- Kriterium (f) **nicht erfüllt**: Front steht, Ertrag bewegt sich (ERCO erweitert). Nicht
+  beides still.
+
+**Mittags-Slot 13:30 — Wochenbilanz des Versuchs (seit 29.07., heute eine Woche).** Der Slot
+ist an **sechs von sechs** Tagen gefeuert: 30.07. 13:36 · 31.07. 13:36 · 01.08. 13:35 ·
+02.08. 13:30 · 03.08. 13:41 · 04.08. 13:42. Inhaltlich geliefert, wo das Kontingent es zuliess
+(02.08. fiel in die Wochensperre): 03.08. `projekt-lessons` RE-00087 präzisiert, 04.08. ERCO
+Seite 40→53 für 4.23 USD. **Das Lauf-Gate hat ihn nie abgewiesen** — `gate-Macmini.log` weist
+über die ganze Laufzeit **eine einzige** Abweisung aus, und die betraf den künstlichen Testlauf.
+**Empfehlung an Raphael: der Slot bleibt.** Nebenbeobachtung: seit dem 04.08. schreibt der Slot
+keine Gate-Zeile mehr (letzter Eintrag 03.08. 13:30), obwohl er nachweislich lief — die
+Protokollierung greift dort nicht mehr, der Lauf schon. Kein Handlungsdruck, aber der Gate-Log
+ist für den Mini damit als Nachweis unbrauchbar geworden.
+
+**Meldeentscheid: KEINE Mail.** Von den sieben Kriterien ist **keines** erfüllt: kein
+interaktives Limit-Ereignis (a), kein Tag über 35 Mio und keine zwei Folgetage über je 18 Mio
+(b, höchster Wert 03.08. mit 32.03), kein erschöpftes Wochenkontingent in 24 h (c), kein
+verfehltes Briefing-Deliverable (d), Radar-Herzschlag vorhanden (e), Destillat-Ertrag bewegt
+sich (f), keine Komplettmeldung der Queue (g). Der Gate-Blocker ist ein P1-tauglicher Defekt,
+aber ein **Hub-Internum ohne Aussenwirkung**: kein Geld, keine Frist, kein Kunde, ein einziger
+betroffener Loop. Nach Rule 260803 gehört er ins Logbuch, wo er bereits steht — mit dem
+fertigen Befehl, den Raphael ausführen muss. Der Hub-Chef trägt ihn um 08:39 ins Tagesbriefing.
+Letzte Mail dieses Loops: **03.08.2026 22:15**.
+
 ## 2026-08-04 07:15 — ROHMESSUNG (Bewertung folgt weiter unten im selben Block)
 
 **Methodik-Bruch: erster Lauf mit REKURSIVEM Glob.** Bis und mit dem Eintrag vom 03.08. las

@@ -5,6 +5,42 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Vollgas-Frühwarnung 05.08.2026 (07:15, still — keine Mail)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. Keines der sieben Meldekriterien ist erfüllt,
+deshalb keine eigene Mail.
+
+**Kontingent: entspannt.** Kombinierter teurer Verbrauch 04.08. **10.32 Mio Token** (MacBook
+Pro 7.63, Mac Mini 2.69) — der tiefste Wert eines vollen Arbeitstages seit dem 01.08. und
+knapp ein Drittel des 03.08. (32.03). Seit dem Reset am 03.08. 12:00 kein einziges echtes
+Limit-Ereignis mehr, also seit 45½ Stunden. Die Sperre vom 01.–03.08. wirkt nicht nach.
+
+**Zum Gate-Blocker, den der Radar oben meldet — die Schadensgrenze, damit der Punkt richtig
+gewichtet wird.** Die beiden verwaisten Radar-Proben (PID 54048 seit 04.08. 16:58, PID 87945
+seit 05.08. 00:58) laufen um 07:15 nachgemessen weiter. **Betroffen ist genau ein Loop:**
+`normen-training-nacht` ist der einzige der 31 registrierten Tasks, der das Lauf-Gate
+überhaupt fragt. Alle operativen Briefings fragen es nicht, der Mac Mini hat sein eigenes
+Gate. Der Schaden bis jetzt ist damit **ein** ausgefallener Lauf (Run 44, 01:28). Der Grund
+zu handeln ist nicht die Breite, sondern dass die Sperre nicht von selbst aufgeht: heute Nacht
+um 01:28 fällt Run 45 auf dieselbe Weise aus, und der Radar-Slot 08:50 kann eine dritte Leiche
+hinterlassen. Der Befehl `kill 54048 87945` gibt die Station frei.
+
+**Warum ich es nicht selbst behoben habe:** der Berechtigungs-Classifier hat `kill` abgewiesen
+— zum zweiten Mal, nach dem Normen-Lauf um 01:28. Der Weg wurde nicht umgangen. Es braucht
+Raphaels Hand oder eine dauerhafte Bash-Freigabe für `kill` auf eigene `claude -p`-Prozesse;
+solange die fehlt, wird derselbe Defekt jede Nacht neu gemeldet und nie behoben.
+
+**Sonst alles grün.** `logbuch-radar` hat sein Deliverable erreicht (07:06), der letzte
+Hub-Chef-Lauf 04.08. hat versandt, der Radar-Herzschlag ist 6 h 18 min alt. Kein Loop mit
+Delta-Null-Serie. Der Destillat-Loop arbeitet seit zwei Läufen innerhalb einer einzigen grossen
+Quelle (ERCO-Ratgeber, Seite 40 → 53 → 73), weshalb der Datei-Zähler stillsteht, obwohl 40
+Seiten destilliert wurden — kein Leerlauf, sondern ein zu grobes Mass.
+
+**Eine Empfehlung, die einen Entscheid braucht (nicht dringlich):** Der Mittags-Slot 13:30 der
+Mac-Mini-Nachtschicht war ein befristeter Versuch seit dem 29.07. Nach einer Woche ist die
+Bilanz eindeutig: an sechs von sechs Tagen gefeuert, inhaltlich geliefert wo das Kontingent es
+zuliess, vom Lauf-Gate nie abgewiesen. **Vorschlag: der Slot bleibt dauerhaft.**
+
 ## Radar-Briefing 05.08.2026
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. Der Radar sendet heute selbst keine Mail: Der
