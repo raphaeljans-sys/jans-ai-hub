@@ -51,6 +51,150 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-06 00:57 — [FREI] Der Radar hat vier Wochen lang nur eine von ZWEI Task-Registries geprüft: der Mac Mini führt acht eigene Scheduled Tasks, und `energie-training` liefert dort täglich, obwohl seine Datei `enabled: false` trägt. Starke Nacht (Energie Run 124 + Wissens-Chef Run 26), Vorsprung stabil bei −3.0
+
+**Selbstkontrolle:** letzter Eintrag 05.08. 16:57, Abstand **8 h 00** bei 8-h-Takt (00:50 /
+08:50 / 16:50). **Kein Aufsichtsausfall**, der Slot 00:50 ist eingehalten.
+
+**Fenster FREI, drittes Mal in Folge sauber gemessen.** `claude -p "Antworte nur mit: OK"
+--model haiku < /dev/null` liefert **«OK», rc=0** in Sekunden, ohne Watchdog. Damit ist der
+Proben-Fix vom 05.08. an einem dritten unabhängigen Lauf bestätigt und die Unterscheidung
+[FREI] / [LOGIN] / [WOCHE LEER] verlässlich direkt messbar. **Keine Waisen:**
+`ps -eo pid,ppid,command | grep "claude -p"` leer, Gate-Zählung `pgrep` **0** — das Gate ist
+frei, `normen-training-nacht` kann um 01:27 ungehindert starten (noch nicht fällig, also
+kein verpasster Lauf).
+
+**Speicher:** 5.61 GB frei+inactive+purgeable, Druckstufe **1** (normal), deutlich
+entspannter als um 16:57 (3.74 GB).
+
+**Wochenbudget.** `kontingent-budget.sh --json`, ohne Modellaufruf gemessen:
+
+| Grösse | Wert | Vergleich 16:57 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **55.53 Mio** von 167 = **33.3 %** | 47.57 Mio = 28.5 % |
+| Woche verstrichen | 36.3 % (61 h seit Reset Mo 12:00) | 31.5 % |
+| **Vorsprung** | **−3.0 Punkte** | −3.0 Punkte |
+| MacBook Pro / Mac Mini | 38.20 / 17.33 Mio (beide frisch) | 34.22 / 13.35 |
+
+**Der Vorsprung ist bei −3.0 stehen geblieben, und das ist die gesuchte Bestätigung.** In den
+acht Stunden seit 16:57 sind **7.96 Mio geflossen (1.00 Mio/h)** — also fast genau die
+nachhaltige Rate. Der im Vorlauf formulierte Alarmpunkt ist damit klar verneint: die Nacht
+liefert, der Schnitt fällt nicht unter 0.75 Mio/h. Wochenschnitt **0.91 Mio/h** (55.53 auf
+61 h), nachhaltig bis zum Reset am Montag 12:00 wären **1.04 Mio/h** (111.47 Mio Rest auf
+107 h). Hält der Verlauf, endet die Woche bei rund 150 Mio = **90 % Ausschöpfung**. Eine
+Drossel nach Schritt 2c ist **nicht** ausgelöst und wurde **nicht** gesetzt.
+
+**Liefer-Delta: 41 Commits in 9 Stunden, und diesmal sind vier davon Substanz.**
+- **Energie Run 124** (22:37–23:07, Mac Mini): 12 neue Destillate, 4 neue FAQ-Antworten,
+  3 gewachsene Themenartikel, E-123-1 geschlossen. Minergie-Produktreglement 2026.1,
+  ecoBKP 2026 Tragwerk/Hülle/Gebäudetechnik.
+- **Wissens-Chef Run 26** (23:11, Cross-KB, 15 Agenten): zwei VKF-Publikationen als überholt
+  ausgewiesen (BSM 2001-15 Unterdachbahnen RF4(cr)→**RF3(cr) Pflicht seit 01.01.2017**;
+  BRL 22-15 Hochhaus-Blitzschutzklasse III→II), erfundener SIA-2023-Titel korrigiert,
+  Thalwil Ziff. 4.5 terminkritisch ins Fristen-Register. Daraus die **neue Rule 260805**
+  (Fristen gehören ins Register, nicht nur in den Laufbericht).
+- **`bauprodukte`** (Nachtschicht 23:37): ERCO-Lichtplanungs-Ratgeber S. 73 → 95,
+  Leuchtenauswahl und -anordnung vollständig destilliert.
+- Lauf-Journal 05.08.: vier Zeilen, **alle rc=0** (02:37 / 05:39 / 13:38 / 23:37). Kein
+  Abbruch, kein Gate-Rücktritt. Die übrigen 37 Commits sind `nas-selfcommit` mit
+  `station-status/*` und `logbuch/kontingent/*` — Statusrauschen, nach Schritt 5 keine Arbeit.
+
+### Hauptbefund: Schritt 3 hat vier Wochen lang nur die halbe Registry gesehen
+
+Der Anlass war eine Zuordnungslücke: der Commit «Energie Run 124» um 23:15 passte zu **keinem**
+dokumentierten Taktgeber. Nicht zur Nachtschicht (Slots 23:30 / 02:30 / 05:30 / 13:30, am
+Original-plist nachgezählt), nicht zum `wissens-trigger` (06:30, Log meldet für den 05.08.
+«energie: unveraendert — kein Lauf»), nicht zu einem Cron (beide Stationen: `no crontab`), und
+in der Registry, die `list_scheduled_tasks` mir liefert, existiert **kein** `energie-training`.
+Auflösung über das Session-Transcript auf dem Mini (`8ba8a32d`, 20:37:40Z): der Lauf trägt den
+regulären `<scheduled-task name="energie-training">`-Wrapper.
+
+**Ursache: jede Station hat ihre EIGENE Task-Registry, und `list_scheduled_tasks` zeigt immer
+nur die der laufenden Station.** Die Anweisung dieses Radars nennt in Schritt 3 drei Orte, die
+übereinstimmen müssen, und verlangt die launchd-Prüfung ausdrücklich «auf BEIDEN Stationen
+(per ssh mini)» — bei der Registry fehlt derselbe Zusatz. Folge: die acht Mini-Tasks sind in
+keinem Radar-Eintrag je vorgekommen.
+
+**Inventar Mac Mini (`~/.claude/scheduled-tasks/`), erstmals erhoben:**
+
+| Task | Frontmatter-Stand | tatsächlich gefeuert |
+|---|---|---|
+| `energie-training` | `enabled: false`, `cron_target: 0 10,16,23 * * *` | **täglich ~22:37**, zuletzt 05.08. |
+| `planungsgrundlagen-training` | DEAKTIVIERT 03.08. (→ `-wartung`, monatlich) | zuletzt **01.08. 22:34**, also vor der Deaktivierung |
+| `claude-abo-auslastung` | wöchentlicher Abo-Check | 02.08. 16:07 |
+| `arbeits-weiche-review` | One-Time 06.08. | noch nicht |
+| `baurecht-buch-training` | DEAKTIVIERT (Stations-Split, läuft auf MacBook) | nein |
+| `normen-training-mini` | STILLGELEGT 17.07. (DIN/VSS/RAL komplett) | nein |
+| `synobsis-batch-nacht` | DEAKTIVIERT 28.07. (KB saturiert 853/853) | nein |
+| `grobkosten-training` | `cron_target: 0 9,21 * * *` | nein |
+
+**Zwei Klarstellungen, damit dieser Befund nicht als Skandal weitergetragen wird:**
+
+1. **`planungsgrundlagen-training` ist NICHT durchgelaufen.** Die einzige Feuerung liegt am
+   01.08., die Deaktivierung datiert vom 03.08. Das ist widerspruchsfrei. Ich halte das
+   ausdrücklich fest, weil die Zeile in einer Tabelle mit `energie-training` steht und sonst
+   beim nächsten Lauf als zweiter Verstoss gelesen würde. Kein Eingriff nötig.
+2. **`energie-training` ist kein Leerlauf-Fall, sondern der produktivste Loop dieser Nacht.**
+   Der Widerspruch liegt nicht im Betrieb, sondern in der **Datei**: `enabled: false` und
+   `cron_target 10/16/23` beschreiben einen Zustand, den der Loop seit mindestens dem 25.07.
+   nicht hat (belegte Feuerungen 25.07., 26.07., 03.08. zweimal, 04.08., 05.08., alle ~22:37;
+   der Doppellauf am 03.08. ist die bekannte Re-Arm-Falle nach einer Cron-Änderung). Die
+   Frontmatter-Felder sind offenkundig **Dokumentation, nicht Live-Zustand**.
+
+**Ich habe die Datei NICHT angefasst — bewusst.** Ob die App `enabled:` aus der Frontmatter
+liest, ist unverifiziert, und ich kann die Live-Registry des Mini von hier aus nicht abfragen.
+Ein Edit an genau diesem Feld könnte einen Loop stoppen, der gerade 12 Destillate pro Nacht
+liefert. Das ist dieselbe Klasse Fehler wie eine Drossel, die niemand zurückdreht, und die
+Messdisziplin dieses Auftrags verlangt, eine Kennzahl, die eine Schutzmechanik in Frage
+stellt, zuerst mit deren eigener Funktion gegenzumessen. Melden statt eingreifen.
+
+**Ausgeführte Massnahme:** die Beschreibung des eigenen Tasks `vollgas-chef-radar` ist
+ergänzt, sodass Schritt 3 künftig **beide** Registries verlangt und das Mini-Inventar als
+Sollstand mitführt. Das ist der Ort, der den Fehler verursacht hat, und der einzige, den ich
+gefahrlos korrigieren kann.
+
+**P1 — keiner. Keine Mail.** Kein Login-Blocker, kein erschöpftes Wochenkontingent. Der
+Registry-Befund ist gewichtig, aber er blockiert nichts und kostet nichts: der betroffene
+Loop arbeitet, die falsch dokumentierten Loops schweigen korrekt.
+
+**P2 (a) — der Frontmatter-Widerspruch bei `energie-training` braucht Raphaels Hand oder eine
+Session auf dem Mini.** Solange `enabled: false` in der Datei steht, wird jeder künftige Lauf
+diese Zeile entweder für den Live-Zustand halten (und den Ertrag einem Phantom-Taktgeber
+zuschreiben) oder sie «reparieren» und dabei den Loop abschalten. Sauber ist: auf dem Mini
+`list_scheduled_tasks` aufrufen, den echten Cron ablesen und Frontmatter samt
+`wissen/energie/training/PROGRAMM.md` Zeile 5 darauf ausrichten. Dieselbe Datei nennt
+übrigens weiterhin den One-Time-Task `token-drosselung-100810` als Rücktaktungs-Mechanismus —
+den es laut Registry-Prüfung vom 30.07. nicht gibt. Die Intensivphase läuft nominell bis
+10.08., also lohnt der Abgleich jetzt.
+
+**P2 (b) — Run 124 hat einen Prozessdefekt aufgedeckt, der jede KB betrifft, nicht nur
+`energie`.** Der Nachtschicht-Lauf vom 05.08. 05:38 hatte die ecoBKP 2026 bereits bis S. 20
+destilliert und das **nur** in `CHANGELOG.md` und `destillate/INDEX.md` vermerkt: kein
+`outputs/`-Report, kein `curriculum.md`-Eintrag, `QUESTIONS.md` führte E-123-1 weiter als
+offen. Der in `PROGRAMM.md` vorgeschriebene Stand-Lesevorgang prüft genau diese vier Quellen
+— der Nachtlauf war in keiner sichtbar, und ein Agent hat die Seiten 1–17 **ein zweites Mal**
+destilliert (Duplikat erkannt, der Bestandsartikel war der vollständigere, Backlinks
+umgehängt, 0 offene Verweise). Run 124 hat die Lehre in `energie/curriculum.md` verankert;
+generisch gilt sie für **jede** von der Nachtschicht bediente KB (aktuell bauprodukte,
+energie, grobkosten). Der Hebel ist klein und mechanisch: `scripts/nachtschicht-run.sh` soll
+seinen Lauf-Report auch bei verkürztem Zyklus schreiben.
+
+**P2 (c) — unverändert offen: der dedizierte Baujournal-Lauf für `projekt-lessons`** (jahrweise
+2018–2024 auf DS3, gezielt Nachtarbeit/Lärm/Etappenwechsel). Vorschlag vom 16:57 steht: ein
+einmaliger, vollbudgetierter Lauf am Wochenende im Nachtfenster. Nicht angelegt, weil er die
+Stations-Rollentrennung berührt.
+
+**P3 — Senken für freie Kapazität:** `energie` mit den restlichen ecoBKP-Merkblättern
+(S. 20–138 des 2026er-Leitfadens, nach Run 124 deutlich abgearbeitet) und `bauprodukte` mit
+dem ERCO-Ratgeber ab S. 95. Beide haben einen funktionierenden Taktgeber.
+
+*Kein Regellauf: die Mechanismus-Suche war durch einen konkreten Befund ausgelöst (ein
+Commit ohne zuordenbaren Taktgeber) und blieb auf diesen einen Befund beschränkt —
+Nachtschicht-plist, wissens-trigger-Log, Crontabs, ein Session-Transcript, das
+Mini-Inventar. Das rechtfertigt die Turns über dem Regelmass.*
+
+---
 ## 2026-08-05 16:57 — [FREI] Der Proben-Fix ist bestätigt. Vorsprung kippt planmässig ins Minus (−3.0); `projekt-lessons` erreicht nach drei Nullbefunden die Leerlauf-Schwelle und ist als Nachtschicht-Ziel ausgesetzt
 
 **Selbstkontrolle:** letzter Eintrag 05.08. 08:58, Abstand 7 h 59 bei 8-h-Takt (00:50 /
