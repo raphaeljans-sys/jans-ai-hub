@@ -100,5 +100,36 @@ Reglement/Kennzahlen werden von Minergie erfahrungsgemäss jährlich überarbeit
 Projektzusage aktuellen Stand auf minergie.ch neu prüfen. MuKEn 2025 (EnDK 08/2025) kantonal noch
 nicht umgesetzt (ZH, 06/2026).
 
+### Update 05.08.2026 — Anhang A des Produktreglements 2026.1 gelesen
+
+Das Produktreglement **Version 2026.1** (Ausgabe 08.01.2026, gültig ab 01.01.2026, vom Vorstand im
+November 2025 genehmigt) enthält in **Anhang A** eine Gegenüberstellung der Minergie-Anforderungen
+zu den **MuKEn 2025**. Drei Dinge sind daran für diesen Artikel wesentlich:
+
+1. **Der Bezugswert ist QH,li der MuKEn 2025.** Minergie und Minergie-A liegen bei **90 %**,
+   Minergie-P bei **70 %**; in der Erneuerung ist Minergie über die Minergie-Kennzahl geregelt
+   (Minergie-P 90 %), während die MuKEn 2025 dort 150 % QH,li zulassen. Gegenüber dem oben
+   festgehaltenen Stand 2023, der sich auf **MuKEn 2014** bezog, ist das ein Wechsel der
+   Bezugsbasis — das Reglement weist ihn selbst nicht als Änderung aus, der Vergleich stammt aus
+   dieser Wissensbasis.
+2. **Die Monitoring-Schwelle liegt bei 1'000 m² EBF** (Minergie-A in jeder Grösse) und ist damit
+   tiefer als die MuKEn-2025-Vorgabe von 2'000 m² für die Kategorien III bis XII; im Bestand machen
+   die MuKEn **keine** Vorgabe, Minergie verlangt ab 1'000 m² bei wesentlichen Eingriffen in die
+   Gebäudetechnik. Die in älteren KB-Quellen (2019/2021) überlieferten 2'000 m² sind überholt.
+3. **Der Zeithorizont steht jetzt in einer Primärquelle:** «Die Einführung der MuKEn 2025
+   (Basismodul und evtl. weitere Module) ist für die nächsten **3-7 Jahre** zu erwarten.» Das ist
+   die Einschätzung des Vereins Minergie, nicht der EnDK — bestätigt aber der Grössenordnung nach
+   den in `[[muken-2025-verabschiedet]]` festgehaltenen Umsetzungshorizont.
+
+Weitere belegte Abstände zum Gesetz (Neubau): Eigenstrom **60 % der Dachfläche belegt** gegen
+20 W/m² EBF; **kontrollierter Luftwechsel** statt zulässiger Fensterlüftung; sommerlicher
+Wärmeschutz nach SIA 180 **mit Zukunftsdaten**; fossile Spitzenlast erst ab **>80 kW** statt
+>100 kW; graue Energie mit strengeren Grenzwerten als MuKEn 25.
+
+**Übergangsregel:** Nachweise nach Version 2025.1 sind noch bis **31.12.2026** zur provisorischen
+Zertifizierung einreichbar. Volle Tabelle und Anhang F (Monitoring-Messgrössen) →
+`[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+
 Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-nachweiskurs-2023-mkz-thge]]` (Verifikations-
-Update mit Verdikt-Tabelle), Bauherren-FAQ F5 + F10.
+Update mit Verdikt-Tabelle), `[[minergie-produktreglement-2026-1-muken-vergleich]]`,
+Bauherren-FAQ F5 + F10 + F212.

@@ -35,6 +35,33 @@ Er ist damit primär ein **Autarkie-/Komfort-Entscheid**, kein Renditeobjekt. An
 | Lebensdauer | **10–20 J** (Li-Ionen); Garantie meist 7–10 J + garantierte Zyklen |
 | Technologie | ~**80 % LFP** (Lithium-Eisenphosphat), kobaltfrei, sicher |
 
+### Die normative Obergrenze (ecoBKP 2026 — neu, und sie ändert die Lesart der Faustregeln)
+
+Die geltende Ausgabe **ecoBKP 2026** (Merkblatt ecoBKP 230, Stand Januar 2026) formuliert erstmals
+eine ökologische **Höchstgrenze** statt einer Dimensionierungsempfehlung. Wörtlich:
+
+> «Die nutzbare Speicherkapazität eines Batteriespeichers ist so zu wählen, dass sie **maximal
+> 1,5 kWh pro 1 MWh Jahresstromverbrauch** beträgt. Gleichzeitig sollte sie **nicht mehr als das
+> 1,5-fache der installierten PV-Leistung in kWp** ausmachen.»
+
+Begründung der Quelle: «Die Herstellung von Batteriespeichern verursacht eine sehr hohe
+Umweltbelastung, weshalb die Dimensionierung möglichst knapp erfolgen sollte.»
+
+**Was daraus folgt, ist mehr als eine dritte Faustregel.** Es sind zwei **unabhängige Decken**, und
+massgebend ist die tiefere. Und beide liegen praktisch **genau dort, wo die verbreiteten
+Swissolar-Faustregeln landen**: 6'000 kWh Jahresverbrauch ergeben nach ecoBKP höchstens 9,0 kWh,
+nach Swissolar-Faustregel 2 rund 8,2 kWh; der Faktor 1,5 auf die kWp ist in beiden Quellen
+derselbe — nur ist er bei Swissolar ein **Zielwert** und bei ecobau eine **Obergrenze**.
+
+Für die Beratung heisst das: Wer «nach Faustregel» dimensioniert, baut bereits das ökologisch
+gerade noch Vertretbare aus. Der ökologisch bessere Entscheid liegt **darunter**, nicht darauf.
+Formuliere die Empfehlung deshalb als Spanne mit der ecoBKP-Grenze als Deckel, nicht als Zielgrösse.
+
+Quelle: `[[ecobkp-2026-gebaeudetechnik]]` (ecoBKP 230, im Original gegengelesen 05.08.2026).
+Beachte auch die Vorgaben desselben Merkblatts zu elektromagnetischen Feldern: PV-DC-Leitungen kurz
+und geerdet abgeschirmt ausserhalb von Aufenthaltsräumen führen, Wechselrichter-Abstand empfohlen
+> 3 m.
+
 ## Grenzen, die man am Bautisch nennen muss
 - **Winter:** Tagesspeicher, kein Saisonspeicher — **senkt den Winter-Netzbezug nicht wesentlich.**
 - **Ökobilanz:** schlechter als der thermische (Gebäude-/Warmwasser-)Speicher.

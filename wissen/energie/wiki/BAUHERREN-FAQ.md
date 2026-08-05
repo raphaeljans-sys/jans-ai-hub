@@ -176,10 +176,44 @@ Spitäler 17 kg CO₂-eq/m²·a) · Hitzeschutz mit **Klima 2035, max. 100 h** �
 ab > 1'000 m²** · **60 % der Parkplätze elektrifiziert** · Wärmeerzeugung Spitzenlast ab 80 kW max.
 10 % fossil.
 
+**Update 05.08.2026 — die Antwort steht jetzt amtlich, Zeile für Zeile.** Das geltende
+**Produktreglement Version 2026.1** (gültig ab 01.01.2026) stellt in seinem **Anhang A** die
+Minergie-Anforderungen den **MuKEn 2025** direkt gegenüber. Damit ändert sich zweierlei: Der
+Bezugswert des Heizwärmebedarfs ist dort durchgehend **QH,li der MuKEn 2025** — gegenüber dem in
+der Tabelle oben festgehaltenen Stand 2023 (MuKEn 2014) also ein Wechsel der Bezugsbasis, den das
+Reglement selbst allerdings nicht als Änderung ausweist —, und der Abstand zum Gesetz lässt sich
+erstmals belegt beziffern:
+
+| Thema | Gesetz (MuKEn 2025), Neubau | Minergie 2026.1, Neubau |
+|---|---|---|
+| Wärmeschutz | 100 % QH,li | Minergie/-A **90 %**, Minergie-P **70 %** |
+| Lüftung | Fensterlüftung zulässig | **kontrollierter Luftwechsel** |
+| Eigenstrom | **20 W/m² EBF** | **60 % der Dachfläche belegt** |
+| Wärmeerzeuger | erneuerbar, fossile Spitzenlast 10 % ab **>100 kW** | erneuerbar, Spitzenlast 10 % ab **>80 kW** |
+| Monitoring | Kat. III-XII ab **2'000 m²** | ab **1'000 m²**, Minergie-A immer |
+| Graue Energie | Grenzwerte auf Basis Minergie(ECO)-Methodik | **strenger als MuKEn 25** |
+| Sommerlicher Wärmeschutz | Grenzwert SIA 180 | SIA 180 **mit Zukunftsdaten** |
+
+In der **Erneuerung** ist der Abstand teils grösser: Die MuKEn 2025 lassen dort 150 % QH,li zu und
+machen **keine Monitoring-Vorgaben**, während Minergie ab 1'000 m² bei wesentlichen Eingriffen in
+die Gebäudetechnik ein Monitoring verlangt.
+
+Drei Sätze für das Gespräch mit der Bauherrschaft: Erstens reicht die Einhaltung der
+MuKEn-Einzelanforderungen für eine Zertifizierung **nicht aus** — Minergie ist eine Gesamtbilanz.
+Zweitens gehen übergeordnete Vorschriften des Standortes (etwa aus einem Quartier- oder
+Gestaltungsplan) den freiwilligen Standards **immer vor**, und Minergie prüft die kantonalen
+Vorschriften ausdrücklich **nicht**. Drittens, und strategisch am wichtigsten: Der Verein Minergie
+rechnet selbst damit, dass die MuKEn 2025 in den Kantonen erst **in den nächsten 3 bis 7 Jahren**
+eingeführt werden. Wer heute nach Minergie 2026.1 baut, nimmt die nächste Gesetzesstufe vorweg.
+
 **Quelle:** Verein Minergie «Besser planen, besser bauen», Überarbeitung September 2023 →
 `[[minergie-besser-planen-bauen]]`; Anforderungen/MKZ/THGE im Detail →
-`[[minergie-nachweiskurs-2023-mkz-thge]]`; Themenartikel → `[[minergie-standards]]`. ⚠ **Datenstand
-2026-06-17:** Reglement/Kennzahlen periodisch revidiert — konkrete Limiten auf minergie.ch prüfen.
+`[[minergie-nachweiskurs-2023-mkz-thge]]`; **Vergleichstabelle und Zeithorizont: Produktreglement
+Gebäudestandards MINERGIE/-P/-A Version 2026.1, Anhang A (S. 26 f.), Primärquelle im Volltext
+gelesen 05.08.2026** → `[[minergie-produktreglement-2026-1-muken-vergleich]]`; Themenartikel →
+`[[minergie-standards]]`. ⚠ Reglement/Kennzahlen werden jährlich revidiert — konkrete Limiten vor
+der Projektzusage auf minergie.ch prüfen. Übergang: Nachweise nach Version 2025.1 sind noch bis
+**31.12.2026** zur provisorischen Zertifizierung einreichbar.
 
 ---
 
@@ -1593,6 +1627,17 @@ nicht der erste.
   Jahresverbrauch (kWh) **/ 730** = kWh. Beispiel: 6 kWp bzw. 6'000 kWh/Jahr → **~8–9 kWh** Speicher.
   *So klein wie sinnvoll* — Überdimensionieren bringt kaum Mehrnutzen, verschlechtert Wirtschaftlichkeit
   und Ökobilanz.
+- **Neu belegt (ecoBKP 2026, ecoBKP 230, Stand Januar 2026):** Es gibt jetzt eine **normative
+  Obergrenze** statt nur einer Faustregel. Wörtlich: «Die nutzbare Speicherkapazität eines
+  Batteriespeichers ist so zu wählen, dass sie **maximal 1,5 kWh pro 1 MWh Jahresstromverbrauch**
+  beträgt. Gleichzeitig sollte sie **nicht mehr als das 1,5-fache der installierten PV-Leistung in
+  kWp** ausmachen.» Begründung der Quelle: die Herstellung von Batteriespeichern verursacht eine
+  sehr hohe Umweltbelastung, weshalb «die Dimensionierung möglichst knapp erfolgen sollte».
+  **Der entscheidende Unterschied zur Faustregel:** Die 1,5 sind eine **Decke, kein Zielwert** —
+  und die verbreitete Swissolar-Faustregel liegt damit praktisch genau **auf** dieser Decke
+  (6'000 kWh Jahresverbrauch ergeben nach ecoBKP höchstens 9 kWh, nach Swissolar rund 8,2 kWh).
+  Wer «nach Faustregel» dimensioniert, baut also bereits das ökologisch gerade noch Vertretbare,
+  nicht das Empfohlene. Massgebend ist immer die **tiefere** der beiden Grenzen.
 - **Winter-Realität:** Die Batterie ist ein **Tagesspeicher** (Sonne → Abend). Den **Netzbezug im
   Winter** senkt sie **nicht wesentlich** — dann fehlt der Solarüberschuss ganz. Der grösste
   «Gratis-Speicher» bleibt das **Gebäude selbst + der Warmwasserspeicher** (via WP/EMS).
@@ -6978,3 +7023,169 @@ Kontrollseite → `[[eco-bau-devis-und-baustellenkontrolle]]`; Themenartikel
 `[[oekologische-materialvorgaben-beschaffung]]`. Normstände an shop.sia.ch, VeVA-Status an
 Fedlex/BAFU verifiziert (Run 123, 04.08.2026). Anschluss: Skills `ausschreibung` und
 `werkvertrag`. Status **emerging**.
+
+---
+
+## F212 — «Ab wann brauche ich ein Energie-Monitoring, was misst es, und garantiert es meinen Verbrauch?»
+
+**Kurz:** Bei Minergie ab **1'000 m² Energiebezugsfläche** (und bei **Minergie-A in jeder Grösse**),
+im Bestand ab derselben Schwelle, sobald wesentlich in die Gebäudetechnik eingegriffen wird.
+Gemessen werden Wärme, Strom und Eigenproduktion getrennt nach Systemen und Nutzungen. Und der
+wichtigste Satz zuerst, weil er fast immer falsch erwartet wird: **Das Monitoring ist keine
+Verbrauchsgarantie.** Es ist ausdrücklich **kein Nachweisinstrument der Zertifizierung** — aus einer
+Abweichung folgt keine Zertifikatsfolge. Verglichen **wird** aber sehr wohl: Minergie führt seit
+2020 ein Auswertungsangebot, das die Plandaten des Nachweises den tatsächlichen Messdaten
+gegenüberstellt und daraus Benchmark-Werte liefert. Der Soll-Ist-Vergleich existiert also — als
+Betriebs- und Benchmark-Instrument, nicht als Sanktionsstufe.
+
+**Fachlich:** Nach Kapitel 14 des Produktreglements 2026.1 verfügen «Minergie-Bauten mit mehr als
+1'000 m² Energiebezugsfläche (Neubauten sowie Minergie-Erneuerungen mit wesentlichen Eingriffen in
+die Gebäudetechnik) sowie Minergie-A-Bauten jeder Grösse» über ein Energie-Monitoring. Zweck sind
+laut Reglement zwei Dinge: dass die Eigentümerschaft die wesentlichen Energieflüsse nachvollziehen
+kann, und dass Grundlagen für die **Betriebsoptimierung** und für den späteren **Ersatz der
+gebäudetechnischen Installationen** entstehen.
+
+Anhang F verlangt als Minimum fünf getrennte Messungen:
+
+1. Endenergieverbrauch für Raumheizung und Wassererwärmung **pro Heizsystem**
+2. Summe Elektrizität ohne Wärmeerzeugung **nach Nutzungskategorie** (Allgemeinstrom, Wohnbereich,
+   gewerbliche Nutzungen); bei Zweckbauten zusätzlich Kühlung/Klimatisierung
+3. Gebäudeeigene Energieproduktion (PV, Solarthermie, WKK)
+4. Falls vorhanden: Elektroheizstab für die Warmwasseraufbereitung
+5. **Zusätzlich ab 1'000 m² EBF** je eine zentrale Messstelle für die **Nutzenergie Heizwärme** und
+   die **Nutzenergie Warmwasser**
+
+Prozessenergie und Mobilität dürfen **nicht** enthalten sein. Verlangt sind ausserdem der Vergleich
+zu Vorjahres- und Mehrjahreswerten sowie eine verständliche grafische Darstellung als Monats- und
+Jahresdaten. **Erleichterungen:** Energieholz muss nicht automatisch erfasst werden; bei
+Erneuerungen **ohne** wesentlichen Eingriff in die Gebäudetechnik genügt eine Energiebuchhaltung aus
+Lieferungen und Ablesungen; bei dezentralen einzelnen Wassererwärmern entfällt die kalorische
+Messung.
+
+**Für die Planung entscheidend:** Messung pro Heizsystem und nach Nutzungskategorie plus zwei
+zentrale Nutzenergie-Messstellen ist eine **hydraulische und elektrische Planungsvorgabe**, kein
+Zubehör. Sie gehört ins Pflichtenheft der Gebäudetechnik, nicht in die Ausführungsphase —
+nachträglich eingebaut wird sie teuer und oft nur noch halb richtig.
+
+**Wenn eine echte Zusage gewünscht ist**, ist das Monitoring das falsche Instrument; dafür gibt es
+die Leistungsgarantie (→ F213).
+
+**Quelle:** Produktreglement Gebäudestandards MINERGIE/-P/-A **Version 2026.1**, Kapitel 14 (S. 22)
+und Anhang F (S. 41), Primärquelle im Volltext gelesen 05.08.2026 →
+`[[minergie-produktreglement-2026-1-muken-vergleich]]`. Ältere KB-Quellen nennen 2'000 m² — das ist
+der Stand 2019/2021 und **überholt**; Pflichtschwelle und Messtiefe liegen heute beide bei
+1'000 m². Themenartikel → `[[minergie-standards]]`, `[[gebaeudetechnik-pflichtenheft]]`.
+
+---
+
+## F213 — «Wer garantiert mir, dass die Haustechnik die versprochene Leistung auch bringt?»
+
+**Kurz:** Niemand — es sei denn, Du vereinbarst es **vor** der Ausführung schriftlich. Das dafür
+gedachte Standardinstrument heisst **Leistungsgarantie Haustechnik** (EnergieSchweiz mit suissetec
+und Minergie): Anlage dimensionieren, Formular mit dem Unternehmer unterschreiben, nach
+Fertigstellung Abnahmeprotokoll übergeben. Wichtig zu wissen: Das Formular ist eine
+**Arbeitsgrundlage, kein Vertragsersatz** — eine Konventionalstrafe bei Nichterreichen ist darin
+nicht vorgesehen.
+
+**Fachlich:** Der Ablauf hat drei Schritte, und der mittlere ist der, der in der Praxis vergessen
+geht: die Vereinbarung wird **vor** der Ausführung getroffen, nicht bei der Abnahme. Die Formulare
+sind Ja/Nein-Checklisten je Anlagetyp (Komfortlüftung, Wärmepumpe, Holz-, Gas-/Ölheizung,
+Sonnenkollektoren), unterschrieben von Bauherrschaft/Nutzer, Bauherrenvertretung beziehungsweise
+Architekt/Planer und Unternehmer.
+
+Die entscheidende Einschränkung: Ein echtes **Soll/Ist-Abnahmeprotokoll mit Messwerten**
+(Luftvolumenströme, Schalldruckpegel, Mängelliste mit Frist) enthält das Dokument nur für die
+**Komfortlüftung**. Für die übrigen Technologien wird ergänzend auf das externe Abnahmeprotokoll
+**SWKI 96-5** verwiesen. Bei Nichterreichen sieht das Dokument lediglich eine Mängelliste mit
+Erledigungsvermerk vor.
+
+Zwei Alternativen sind erwähnenswert: die **Validierte Leistungsgarantie (VLG)** bei Solaranlagen,
+die laut Quelle «fast alle Kantone» für Förderbeiträge anstelle des einfachen Formulars verlangen,
+und das **Wärmepumpen-System-Modul (WPSM)** der FWS als zertifizierte Alternative bei Wärmepumpen.
+
+**Empfehlung JANS:** Die Leistungsgarantie ist der richtige Einstieg, aber sie ersetzt den
+Werkvertrag nicht. Wer eine durchsetzbare Zusage will, koppelt die Messgrössen und die Rechtsfolge
+im Werkvertrag (Skills `werkvertrag`, SIA 118, und `unternehmerkontrolle`). Umgekehrt gilt: Ohne
+irgendein solches Instrument gibt es bei einer Wärmepumpe, die zu laut läuft oder deren
+Jahresarbeitszahl enttäuscht, keine vereinbarte Messgrösse — und damit fast keine Handhabe.
+
+**Quelle:** EnergieSchweiz (BFE) mit suissetec und Verein Minergie, «**Leistungsgarantie
+Haustechnik**», Artikelnummer 805.250.D, Inhaltsstand **01.2019**, Vertriebsvermerk 02.2020,
+58 Seiten vollständig gelesen → `[[leistungsgarantie-gebaeudetechnik-energieschweiz]]`.
+⚠ **Datenstand 2019/2020** — Normverweise und die kantonale Förderpraxis zur VLG vor dem
+Projekteinsatz auf www.leistungsgarantie.ch prüfen. Abgrenzung zum Monitoring → F212. Status
+**emerging**.
+
+---
+
+## F214 — «Wiederverwendung von Bauteilen — ist das nur eine Idee, oder gibt es dafür konkrete Vorgaben?»
+
+**Kurz:** Es gibt sie, und zwar seit **Januar 2026** flächendeckend. Die geltende Ausgabe **ecoBKP
+2026** hat **18 Merkblätter** um ausdrückliche Vorgaben zur Wiederverwendung von Bauteilen ergänzt
+und ein **ganz neues Kapitel ecoBKP 21** zu Tragwerk und Rohbau eingeführt. Damit ist
+Kreislaufwirtschaft von einer Absichtserklärung zu einer ausschreibbaren Vorgabe geworden.
+
+**Fachlich:** Die 18 Positionen mit neuen Wiederverwendungs-Vorgaben sind: **214, 215, 222, 224,
+226, 228, 230, 240, 244, 258, 271, 272, 273, 276, 281, 282, 283 und 421** — also quer durch
+Rohbau, Gebäudehülle, Gebäudetechnik, Ausbau und Umgebung. Weiter neu in der Ausgabe 2026:
+Rodungen (ecoBKP 112), Schutz von Biotopen, Grünflächen und Habitaten sowie Vermeidung von
+Bodenerosion (130), Einsatz elektrischer Baumaschinen und Nutzung lokaler Ressourcen (201),
+Schiebe-, Falt- und Sektionaltore (221), ein neuer Abschnitt zu **PV-Anlagen, Batteriespeichern
+und elektromagnetischen Feldern** (230) und Baumschutz (421).
+
+Ein Beispiel, wie konkret die Vorgaben sind: Bei Beton gilt die Wiederverwendung **ganzer Bauteile**
+(Treppen, Stützen, Wand- und Deckenelemente) vor der Verwertung als Recyclingbeton, bei Stahl
+entsprechend für Träger und Stützen nach EN 10365 — jeweils mit **Asbest-Prüfpflicht bei
+Beschichtungen vor 1990**.
+
+**Was das praktisch verlangt:** Wiederverwendung entscheidet sich **früh** — im Rückbaukonzept des
+abzubrechenden Bestandes und in der Systemwahl des Neubaus, nicht im Leistungsverzeichnis. Wer sie
+erst beim Devis erwägt, findet weder die Bauteile noch die Zeit für Prüfung und Aufbereitung. Und
+sie verlangt eine Entscheidung zur Haftung: Ein wiederverwendetes Bauteil hat keine
+Herstellergarantie im üblichen Sinn.
+
+⚠ **Immer mit Ausgabejahr zitieren.** «Nach ecoBKP» ohne Jahreszahl ist keine überprüfbare Vorgabe,
+weil die Merkblätter **jährlich** fortgeschrieben werden (→ F208).
+
+**Quelle:** Verein ecobau, «**ecoBKP — Empfehlungen für ökologisches, kreislauffähiges und gesundes
+Bauen nach Baukostenplan (BKP)**», **Stand Januar 2026, V 1.0**, 138 Seiten, öffentlich unter
+ecobau.ch/Instrumente; Abschnitt «Neuerungen auf einen Blick» (S. III) im Original gegengezählt
+05.08.2026 → `[[ecobkp-2026-leitfaden-und-neuerungen]]`, `[[ecobkp-2026-tragwerk-und-rohbau]]`,
+`[[ecobkp-2026-gebaeudetechnik]]`, `[[ecobkp-2026-gebaeudehuelle]]`. Themenartikel →
+`[[oekologische-materialvorgaben-beschaffung]]`, `[[graue-energie]]`.
+
+---
+
+## F215 — «Holz oder Beton — was ist ökologisch richtig, und wo genau?»
+
+**Kurz:** Die geltende ecoBKP-Ausgabe 2026 gibt darauf erstmals eine bauteilbezogene Antwort statt
+einer Grundsatzdebatte: **über Terrain durchgehend Holz, unter Terrain durchgehend Beton** als
+Referenzkonstruktion. Das trifft genau dort, wo am meisten zu holen ist — die Tragstruktur macht
+den grössten Einzelposten der grauen Energie eines Gebäudes aus.
+
+**Fachlich:** Das 2026 neu eingeführte Kapitel **ecoBKP 21** ordnet die Vorgaben nach Bauteilen:
+Fundament und Bodenplatte (gedämmt/ungedämmt), Aussenwand unter und über Terrain, Dachkonstruktion,
+Innenwand tragend und nicht tragend, Deckenkonstruktion. Der übergeordnete Grundsatz der Systemwahl
+ist die **gesamtheitlich beste Ökobilanz über den Lebenszyklus**, nicht der beste Einzelwert.
+
+Wo Beton gesetzt ist, greifen abgestufte Prioritäten: **Recyclingbeton RC-C50 oder RC-M40 als
+1. Priorität**, und Primärbeton gilt ausdrücklich als **nicht empfohlen**, wenn innerhalb von
+**25 km** RC-Beton verfügbar ist. Bei der Zementwahl sind **CEM III/A und CEM III/B** 1. Priorität.
+Bei Stahl lautet die Vorgabe, Träger und Stützen «wenn immer möglich durch Holz zu ersetzen» und
+Stahl nur bei hohen statischen Anforderungen einzusetzen. Für Holzwerkstoffe gilt eine
+Formaldehyd-Grenze von **≤ 0,02 ppm**; über **0,03 ppm** ist nicht empfohlen.
+
+Quer durch die Rohbau-Merkblätter zieht sich derselbe **Design-for-Disassembly-Katalog**: Bauteile
+so fügen, dass sie sich zerstörungsfrei wieder trennen lassen. Das ist der eigentliche
+Paradigmenwechsel — nicht nur, woraus gebaut wird, sondern **wie es gefügt** wird.
+
+**Bauherren-Transfer:** Diese Entscheide fallen im **Vorprojekt**, nicht in der Ausschreibung. Der
+25-km-Radius für RC-Beton und die Zementwahl sind zwei Vorgaben, die sich ohne Mehrkosten
+ausschreiben lassen, sofern sie früh gesetzt werden — und die im Devis kaum noch durchsetzbar sind,
+wenn die Statik bereits auf Primärbeton gerechnet ist.
+
+**Quelle:** Verein ecobau, «ecoBKP», **Stand Januar 2026, V 1.0**, Merkblätter ecoBKP 21, 211, 213,
+214, 215 (bedruckte S. 13-34), gelesen 05.08.2026 → `[[ecobkp-2026-tragwerk-und-rohbau]]`.
+Anteil der Tragstruktur an der grauen Energie → `[[graue-energie]]`; Holzbau-Bauphysik →
+`[[holzbau-bauphysik-clt]]`. BKP-Codes nach BKP 2017 nicht mit ecoBKP-Merkblattnummern verwechseln
+(Rule `bkp-2017-referenz`). Status **emerging**.

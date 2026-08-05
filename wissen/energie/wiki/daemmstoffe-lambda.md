@@ -61,9 +61,45 @@ brennbar … 6 nicht brennbar, 6q quasi nicht brennbar; Qualmgrad 1–3) → Ski
 - Ökologisch/diffusionsoffen → Holzfaser/Zellulose.
 - Extrem schlank (Terrasse, Innendämmung, Brüstung) → **VIP** (λ 0,009), aber wärmebrückenfrei.
 
+## Ökologische Rangfolge nach ecoBKP 2026 (Stand Januar 2026)
+
+Die Materialwahl oben ordnet nach **Bauphysik und Preis**. Die geltende Ausgabe ecoBKP 2026
+(Merkblatt **ecoBKP 225**, Spezielle Dichtungen und Dämmungen, sowie die Dach- und
+Fassaden-Merkblätter) ordnet dieselben Materialien nach **Ökologie und Gesundheit** — und die beiden
+Rangfolgen decken sich nicht überall. Das ist der Konflikt, den man am Bautisch benennen muss.
+
+| Einbauort | 1. Priorität nach ecoBKP 2026 |
+|---|---|
+| Steildach-Wärmedämmung | Steinwolle / Glaswolle (ohne Druckfestigkeits-Anforderung), **Zellulosedämmstoff boratfrei**, Naturfaserplatten |
+| Flachdach ohne Nutzschicht | EPS, EPS grau, Steinwolle, Glaswolle, Mineralschaumplatten — **gleichrangig** |
+| Fassaden-Wärmedämmputz | **1. Perlit**, 2. EPS |
+
+**Drei belegte Verschiebungen gegenüber der Ausgabe 2008**, die für die Materialwahl praktisch
+relevant sind: Zellulose und Naturfaserplatten sind im Steildach von der 2. in die **1. Priorität**
+aufgestiegen; EPS ist im Flachdach von der 2. in die 1. Priorität aufgerückt und
+**Mineralschaumplatten** sind neu dazugekommen; beim Wärmedämmputz haben Perlit und EPS die Ränge
+**getauscht** (Perlit heute vorn). Dampfbremsen werden neu nach **sd-Wert** klassifiziert statt nach
+Materialtyp, und ein **PFAS-Ausschluss** ist neu hinzugekommen. Bei Fugendichtungsmassen tritt
+**Emicode EC1/EC1plus** an die Stelle des Deklarationsrasters der archivierten SIA 493.
+
+**Bauherren-Take:** Die tiefsten λ-Werte (PUR/PIR, Phenolharz) tauchen in den ersten Prioritäten der
+ökologischen Rangfolge **nicht** auf. Wo der Platz es zulässt, ist der ökologisch bessere Weg
+deshalb fast immer **mehr Dicke mit Mineralwolle, Zellulose oder Naturfaser** statt weniger Dicke
+mit Hochleistungsschaum. Wo der Platz es nicht zulässt (Innendämmung, Brüstung, Terrasse), bleibt
+der bauphysikalische Entscheid richtig — er ist dann aber ein **begründeter Abweichungsentscheid**
+und gehört als solcher dokumentiert.
+
+⚠ Immer mit Ausgabejahr zitieren: Die ecoBKP werden **jährlich** fortgeschrieben.
+
+Quelle: `[[ecobkp-2026-gebaeudehuelle]]` (ecoBKP 221-228, gelesen 05.08.2026); Vorgängerstand →
+`[[eco-bau-merkblaetter-bkp-2008-huelle]]`. Siehe auch `[[naturdaemmstoffe]]`, Bauherren-FAQ F214.
+
 ## Offen
 - Bemessungswerte-Zuschlag (λ_D → λ_Bemessung) je Materialklasse aus aktueller SIA 279.
 - Umstellung SIA 2001 auf SN-EN-Bemessungswerte / aktuelle Produktdeklarationen.
+- Die ecoBKP-Prioritäten nennen **keine λ-Werte** — die ökologische und die bauphysikalische
+  Rangfolge müssen deshalb weiterhin von Hand zusammengeführt werden.
 
 ## Quelle
-SIA Merkblatt 2001 (Ausgabe 2005) → `[[sia-2001-waermedaemmstoffe-lambda]]`.
+SIA Merkblatt 2001 (Ausgabe 2005) → `[[sia-2001-waermedaemmstoffe-lambda]]`;
+ökologische Rangfolge → `[[ecobkp-2026-gebaeudehuelle]]`.
