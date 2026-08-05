@@ -1,5 +1,58 @@
 # Offene Fragen — KB Normen
 
+## Run 45 (06.08.2026) — vier Rückstände geschlossen, drei Statusfragen am Herausgeber belegt
+
+### GESCHLOSSEN
+
+- **VKF-Merkblatt 2001-15 «Solaranlagen», Ausgabe 01.01.2022 — Re-Destillat erstellt (der P1 vom 05.08.).**
+  `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`. Alle vier Fingerabdrücke des
+  Bezugswegs unabhängig nachgemessen und exakt getroffen (15 S., 524'403 Bytes, MD5
+  `a17958fdf95c720434ffa90117964b23`, Titelblatt «01.01.2022 / 2001-15de»). Das PDF liegt
+  bewusst nur in `/tmp`, nicht im Repo (Urheberrecht VKF). Alle drei bekannten Deltas am
+  Original bestätigt; fünf weitere selbst gefunden (Tabelle 1 neu gefasst, Kap. 3.3
+  Naturgefahren neu, Anhang S. 13/14 neu, Batterieanlagen als eigene Gefahrenquelle,
+  Ziff. 5 Gültigkeit neu). Refuter-Runde im selben Lauf: **BEANSTANDET**, 2 Kernbefunde
+  eingearbeitet. Status bleibt `speculative`.
+- **E-123-6 (Ausgabestand SIA 118 für die Vertragshierarchie) — geschlossen.** Geltend ist
+  **SIA 118:2013**, gültig ab 01.01.2013; die 1991er ist seit 31.12.2012 archiviert. Das
+  Register führte das bereits korrekt (Zeile 84) — die Frage war also nur in `energie`
+  offen, nicht in `normen`. **Neu belegt und nachgetragen:** eine **Korrigenda C1** als
+  Download-Anhang der Produktseite sowie das Feld «Revision 1 / Revisions-Datum 01.12.2025».
+- **E-123-3 (Nachfolge von SIA 162/4) — geschlossen, und die verbreitete Fassung war unpräzise.**
+  Der Herausgeber weist die Nachfolge selbst aus (Rubrik «Nachfolger» auf der Produktseite
+  von SIA 162/4). Damit ist sie **nicht mehr nur sekundärquellengestützt**. Zwei
+  Präzisierungen: es heisst **SIA 2030**, nicht «MB 2030» (so ist es im Shop nirgends
+  beschriftet), und die Kette geht weiter — SIA 2030:2010 ist selbst archiviert (bis
+  31.10.2021), geltend ist **SIA 2030:2021 «Beton mit rezyklierten Gesteinskörnungen»**
+  (ab 01.11.2021, Revision 1 vom 01.11.2025, Korrigenda C1). Register Zeile 308 entsprechend
+  korrigiert; sie führte bis heute «2010 gültig».
+- **E-123-2, Teil Korrigenda SIA 493-C1 — geschlossen.** Sie existiert (SN 550493-C1, 13 S.,
+  gültig ab 01.03.1998, archiviert per 30.06.2022) und ist **kostenlos** beziehbar (0.00 CHF).
+  Das Fehlen eines Nachfolgers für SIA 493 ist jetzt **strukturell** belegt: die Produktseite
+  hat gar keine «Nachfolger»-Rubrik, während dieselbe Rubrik bei SIA 162/4 vorhanden und
+  befüllt ist. Der EPD-/KBOB-Weg bleibt Sekundärquelle.
+
+### OFFEN, mit verifizierter Beschaffungsinfo (Bring-Schuld Raphael, Claude kauft nicht)
+
+- **SIA 430:2023** «Vermeidung und Entsorgung von Bauabfällen», gültig ab 01.08.2023:
+  **90.00 CHF**, Papier oder Download SRD, shop.sia.ch. Achtung Verwechslungsgefahr: der
+  kursierende Wert 80.00 CHF gehört zur **archivierten Vorgängerausgabe**.
+- **SIA 118/430:2023** «Allgemeine Bedingungen für die Vermeidung und Entsorgung von
+  Bauabfällen», gültig ab 01.08.2023: **80.00 CHF**. Primär einschlägig für den Skill
+  `werkvertrag`; hat im REGISTER weiterhin keine Zeile, weil der Inhalt fehlt.
+- Weiterhin nicht belegbar ohne Kauf: Inhalt und Umfang der Korrigenda C1 zu SIA 118:2013
+  und was das Revisionsdatum 01.12.2025 materiell ändert.
+
+### METHODISCHE LEHRE AUS DIESEM LAUF (gehört ins PROGRAMM.md)
+
+Eine Statusrecherche am Herausgeber muss **vor** dem Melden gegen den eigenen Bestand
+geprüft werden. Der SIA-118-Befund sah nach einem Fehler mit Hub-Reichweite aus (die KB
+führt nur `sia-118-1991`), war aber keiner: Register Zeile 84 und das Destillat selbst
+führten die Ablösung längst. Das ist Methodik-Pflicht 7 in ihrer allgemeinen Form —
+**bevor ein Befund als Fehler verbucht wird, ist zu prüfen, ob die KB die Aussage an
+anderer Stelle bereits führt.** Der Ertrag war trotzdem echt, nur kleiner: die Korrigenda
+und der Revisionsstand fehlten wirklich.
+
 ## 2026-08-05 (Cross-KB Lauf 26) — VKF-Merkblatt 2001-15 «Solaranlagen»: Fassung entschieden, Re-Destillat offen
 
 **Der Delta ist entschieden, die Beschaffungsfrage ist bezahlt — offen ist nur noch der
@@ -7,7 +60,12 @@ Lesevorgang.** Am 05.08.2026 wurden beide Nachfolge-Ausgaben vom adversarialen V
 selbst heruntergeladen und gelesen. Die Existenz und Erreichbarkeit ist damit **verifiziert und
 darf nicht ein zweites Mal aufgemacht werden** (gleiche Regel wie bei SIA 430:2023 oben).
 
-1. **Destillat der Ausgabe 01.01.2022 anlegen (P1, eigener Lesevorgang am Original).** Die
+1. ~~**Destillat der Ausgabe 01.01.2022 anlegen (P1, eigener Lesevorgang am Original).**~~
+   ✔ **ERLEDIGT in Run 45 (06.08.2026)** → `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`,
+   alle 15 Seiten gelesen, Fingerabdrücke geprüft, Refuter-Runde gefahren (BEANSTANDET, 2
+   Kernbefunde eingearbeitet). Die Zwischenausgabe 01.01.2017 hat weiterhin kein eigenes
+   Destillat; Punkt 3 (Ablage-Pendenz SharePoint) bleibt unverändert offen und ist bewusst
+   nicht angefasst worden, weil er Raphaels Entscheid verlangt. Ursprünglicher Wortlaut: Die
    Ausgabe ist eine **Vollrevision** (15 statt 11 Seiten), ein Inline-Patch der 2015er-Destillate
    genügt nicht. Bezugsweg, öffentlich und kostenlos, am 05.08.2026 selbst geladen:
    `https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-197.pdf/content`

@@ -201,20 +201,20 @@ geprüft; Gegenprobe der Masszahlen gegen [[sia-500-2009]] (Anhang E, Ziff. 6.1)
 
 **Befunde mit Fundstelle:**
 - Kernbefund 1 (S. 42-47 gegen [[sia-500-2009]] Anhang E): siehe Abschnitt «Abgleich mit
-  SIA 500:2009» — sechs von sieben Massen identisch, eine Abweichung (Wandhaken), ein Wert ohne
+  SIA 500:2009», sechs von sieben Massen identisch, eine Abweichung (Wandhaken), ein Wert ohne
   Normdeckung (Waschtisch-Unterkante).
 - Kernbefund 2 (S. 42/43, Montageplatte B und Betätigungsplatte I): horizontale Doppelpfeile ohne
-  Dreieck-Marker, keine Montagehöhen — in der Tabelle oben korrigiert.
+  Dreieck-Marker, keine Montagehöhen, in der Tabelle oben korrigiert.
 - Kernbefund 3 (S. 46): Buchstabe F bezeichnet dort den Türtyp «Drehfalttür» (Produkttabelle
   F/F1/F2), nicht ein Ablage-Element; die 450-mm-Messung verläuft zwischen zwei unbeschrifteten
-  Ablage-Elementen am Duschzugang — korrigiert.
+  Ablage-Elementen am Duschzugang, korrigiert.
 - Abdeckungsbefund (S. 44/45): zwei separate «max. +1000 mm»-Markierungen, eine im Hauptbild auf
   G (Wandhaken), eine zweite im rechten Foto-Insert auf E «Haltegriff mit Handtuchhalter»; H
-  (Hochschrank) trägt keine Höhenmarkierung. Dasselbe Muster auf S. 45 (E2/H1) — korrigiert.
-- Nebenbefund a (S. 41): isometrische 3D-Darstellung, kein Grundriss/keine Draufsicht —
+  (Hochschrank) trägt keine Höhenmarkierung. Dasselbe Muster auf S. 45 (E2/H1), korrigiert.
+- Nebenbefund a (S. 41): isometrische 3D-Darstellung, kein Grundriss und keine Draufsicht,
   Bezeichnung präzisiert, Masse 2000 x 2900 mm bleiben richtig.
-- Nebenbefund b (S. 46/47): Duschklappsitz-Ausladung 380 x 462 mm erfüllt die SIA-500-Mindest­
-  ausladung von 0,45 m knapp — ergänzt.
+- Nebenbefund b (S. 46/47): Duschklappsitz-Ausladung 380 x 462 mm erfüllt die SIA-500-Mindestausladung
+  von 0,45 m knapp, ergänzt.
 
 **Bestätigungen:** siehe Abschnitt «Bestätigungen, als solche zu protokollieren» oben.
 
@@ -231,5 +231,5 @@ geprüft; Gegenprobe der Masszahlen gegen [[sia-500-2009]] (Anhang E, Ziff. 6.1)
   NOSAG/LAUFEN/DUSCHOLUX/poresta systems — bei Verwendung in einem laufenden Projekt vor
   Übernahme gegenprüfen (Rule `identifikatoren-verifizieren`).
 - Verhältnis dieses Dokuments zu SIA 500:2009 ist für die Montagehöhen jetzt geklärt (siehe
-  Abschnitt «Abgleich mit SIA 500:2009»). Offen bleibt der Abgleich gegen **SN 521 500** — vgl.
+  Abschnitt «Abgleich mit SIA 500:2009»). Offen bleibt der Abgleich gegen **SN 521 500**, vgl.
   dieselbe offene Frage im Destillat [[bkz-2005-checkliste-hindernisfrei-hochbau]].
