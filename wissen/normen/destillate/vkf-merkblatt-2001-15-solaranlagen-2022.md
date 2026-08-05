@@ -7,6 +7,7 @@ gelesen: "vollständig, S. 1-15 (Titelblatt, Ziff. 1-5, Anhang S. 12-14, Legende
 datenstand: "2022"
 status: speculative
 last_updated: 2026-08-06
+verifikation: "Erstdestillat und unabhängige Refuter-Runde beide in Run 45 (06.08.2026); Verdikt BEANSTANDET, 2 Kernbefunde eingearbeitet, Kernbefund 1 vom Hauptprozess am eigenen 200-dpi-Rendering der Seite 8 bestätigt"
 links: [[REGISTER]], [[vkf-merkblatt-2001-15-solaranlagen]], [[vkf-brm-2001-15-solaranlagen]]
 ---
 
@@ -95,16 +96,28 @@ Solaranlagen stellen kein erhöhtes versicherungstechnisches Risiko dar).
   ausserhalb feuer-/explosionsgefährdeter Bereiche und ausserhalb von Aufzugsschächten;
   Anforderungen an die DC-Verlegung gemäss Tabelle 1 (S. 7)
 - **Tabelle 1 (S. 8, «Verlegeart der DC-Leitungen und Montageort»)** — neu gefasst
-  gegenüber 2015: unterscheidet DC-Modulverkabelung (ohne Rohr in feuer-/
-  explosionsgefährdeten Räumen sowie horizontalen/vertikalen Fluchtwegen durchwegs nicht
-  zulässig) von DC-Hauptleitung/Array-/Stringleitung, dort differenziert nach
-  Montageort mit steigender Schutzanforderung (auf/in brennbaren Gebäudeteilen bis
-  explosionsgefährdete Räume); neu eine eigene Spalte «in horizontalen Fluchtwegen» mit
-  einer Brandlastgrenze von 200 MJ/Laufmeter für Kabel mit kritischem Verhalten (cr) nach
-  der Zuordnungstabelle der VKF-Brandschutzrichtlinie 13-15 «Baustoffe und Bauteile»; für
-  vertikale Fluchtwege bleibt eine Anordnung nur über eine räumliche Abtrennung mit
-  mindestens 30 Minuten Feuerwiderstand aus Baustoffen der RF1 möglich (sinngemäss, exakte
-  Zellwerte siehe Original)
+  gegenüber 2015, vier Montageorte (auf/in brennbaren Gebäudeteilen; in
+  feuergefährdeten Räumen und Zonen; in horizontalen Fluchtwegen; in vertikalen
+  Fluchtwegen; in explosionsgefährdeten Räumen und Zonen). Die Zeile **DC-
+  Modulverkabelung, ohne Rohr, ist in allen vier Montageorten nicht zulässig.** Für die
+  DC-Hauptleitung bzw. Array-/Stringleitung gilt: auf oder in brennbaren
+  Gebäudeteilen Rohr RF2 (cr) oder konzentrischer PE-Leiter; in feuergefährdeten
+  Räumen und Zonen Rohr RF1 mit Nagetierschutz gemäss Fussnote [1]; in horizontalen
+  Fluchtwegen Rohr RF1 mit Fussnoten [1] und [2] oder konzentrischer PE-Leiter mit
+  Fussnote [2]; in vertikalen Fluchtwegen nicht zulässig ausser bei räumlicher
+  Abtrennung gemäss Fussnote [3]; in explosionsgefährdeten Räumen und Zonen nicht
+  zulässig. **Korrigiert 06.08.2026 (Run 45):** Fussnote [2] verbietet Kabel mit
+  kritischem Verhalten (cr gemäss Zuordnungstabelle der VKF-Brandschutzrichtlinie
+  13-15 «Baustoffe und Bauteile») in horizontalen Fluchtwegen **unabhängig von jeder
+  Brandlast**; die Brandlastgrenze von 200 MJ pro Laufmeter Fluchtweg gilt für die
+  dort überhaupt zulässigen (nicht-cr-)Kabel, nicht für cr-Kabel selbst. cr ist damit
+  nicht generell verboten, sondern nur in horizontalen Fluchtwegen: auf/in brennbaren
+  Gebäudeteilen ist RF2 (cr) ausdrücklich vorgesehen. Fussnote [3] verlangt eine
+  Abtrennung durch ein Bauteil mit dem Feuerwiderstand der nutzungsbezogenen
+  Brandabschnittsbildung, mindestens aber 30 Minuten aus Baustoffen der RF1 (z.B.
+  Installationsschacht oder Kabelkanal). Ergänzend gilt generell: alle DC-Leitungen
+  sind mit doppelter Isolation ohne PVC auszuführen (sinngemäss, exakte Zellwerte
+  siehe Original)
 - **Ziff. 3.2 Abs. 3** — Gebäudeaufgesetzte Solaranlagen mit nicht brennbarer äusserster
   Schicht dürfen auf vorschriftskonformen Flach-/Steildächern ohne weitere
   Brandschutzanforderungen montiert werden (S. 8)
@@ -186,13 +199,20 @@ Beispiel.
 
 **Anhang zu Ziff. 3.2.3 «Anforderung an die Verlegeunterlage» (S. 13, neu gegenüber
 2015):** Ein Entscheidbaum leitet für dachintegrierte Solaranlagen, gegliedert nach «Raum
-darunter feuergefährdet Ja/Nein» und «Verlegeunterlage vorhanden Ja/Nein» sowie
-«Verlegeunterlage grösser 1200 m² Ja/Nein», zu sechs möglichen Ausführungsvarianten
-(1 bis 6). Die Varianten unterscheiden brennbare Verlegeunterlage ohne Auflage (Variante
-1), brennbare Verlegeunterlage mit 0.5-m-RF1-Unterteilung in Felder bis 1200 m²
-(Variante 2), RF1-Verlegeunterlage (Variante 3), sowie bei feuergefährdetem Raum
-darunter zusätzlich die vollflächige, staubdichte, trittsichere Abtrennung aus
-mindestens RF3-Holzwerkstoffplatten (Variante 4, mit derselben 1200-m²-RF1-Unterteilung
+darunter feuergefährdet Ja/Nein», «Verlegeunterlage vorhanden Ja/Nein» sowie
+«Verlegeunterlage grösser 1200 m² Ja/Nein», zu **sieben Ausgängen**: sechs nummerierten
+Ausführungsvarianten (1 bis 6) sowie einem siebten, unbedingt zulässigen Ausgang ohne
+jede Auflage (**nachgetragen 06.08.2026, Run 45; im Erstdestillat fehlte dieser
+Ausgang**). Ist der Raum darunter **nicht feuergefährdet** und **keine
+Verlegeunterlage vorhanden**, ist die Ausführung **zulässig, ohne Flächenbegrenzung**
+(siebter Ausgang). An den übrigen Astenden stehen **Oder-Kombinationen**, nicht eine
+starre Einzelzuordnung je Flächengrösse: ist eine brennbare Verlegeunterlage
+vorhanden, gilt ohne Auflage bis 1200 m² (Variante 1), darüber mit einer
+0.5-m-RF1-Unterteilung in Felder bis 1200 m² (Variante 2) — alternativ bleibt bei
+jeder Flächengrösse eine durchgehende RF1-Verlegeunterlage (Variante 3) eine gültige
+Option. Ist der Raum darunter **feuergefährdet**, ist zusätzlich eine vollflächige,
+staubdichte, trittsichere Abtrennung erforderlich, aus mindestens
+RF3-Holzwerkstoffplatten (Variante 4, mit derselben 1200-m²-RF1-Unterteilung
 kombinierbar als Variante 5) oder aus RF1-Profilblechen/Bauplatten (Variante 6). Fehlt
 bei feuergefährdetem Raum darunter eine Verlegeunterlage, ist die Ausführung nicht
 zulässig.
@@ -267,9 +287,11 @@ Zusätzlich am Original sichtbare, bisher nicht destillierte Deltas (jetzt nachg
    (BKZ) bzw. RF-Klassen ohne cr-Bezug in dieser Differenzierung; 2022 klassifiziert
    durchgehend nach RF-Klasse plus cr-Kennzeichnung («In Rohr RF2 (cr)», «In Rohr RF1»),
    führt eine eigene Spalte für horizontale Fluchtwege mit einer Brandlastgrenze von
-   200 MJ/Laufmeter ein (unter Verweis auf die Zuordnungstabelle der VKF-
-   Brandschutzrichtlinie 13-15 «Baustoffe und Bauteile») und lässt für vertikale
-   Fluchtwege nur noch die räumliche Abtrennung mit mindestens 30 Minuten
+   200 MJ/Laufmeter für die dort zulässigen (nicht-cr-)Kabel ein (unter Verweis auf die
+   Zuordnungstabelle der VKF-Brandschutzrichtlinie 13-15 «Baustoffe und Bauteile»; cr-
+   Kabel sind in horizontalen Fluchtwegen gemäss Fussnote [2] unabhängig von jeder
+   Brandlast verboten, siehe Korrektur 06.08.2026 oben bei Tabelle 1) und lässt für
+   vertikale Fluchtwege nur noch die räumliche Abtrennung mit mindestens 30 Minuten
    Feuerwiderstand zu.
 5. **Neues Kapitel 3.3 «Naturgefahren».** In der Ausgabe 2015 nicht als eigenes Kapitel
    vorhanden (Naturgefahren wurden dort unter «Elementargefahren» innerhalb der
@@ -294,9 +316,12 @@ Zusätzlich am Original sichtbare, bisher nicht destillierte Deltas (jetzt nachg
   Harter Prüfpunkt bei grösseren Dachflächen bleibt die 1200-m²-Schwelle (jetzt «> 1200
   m²»); der RWA-Abstand ist als Lichtraumprofil zu prüfen, nicht mehr als starre 2-m-Regel.
 - Skill `brandschutz` / `ausschreibung`: Tabelle 1 (S. 8) ist die verbindliche Grundlage
-  für die DC-Leitungsführung im LV-Text (Rohrmaterial-RF-Klasse je Montageort, 200
-  MJ/Laufmeter-Grenze in horizontalen Fluchtwegen); Unterdachbahnen sind mit RF3(cr) zu
-  spezifizieren, nicht mit RF4(cr).
+  für die DC-Leitungsführung im LV-Text (Rohrmaterial-RF-Klasse je Montageort). **Achtung
+  bei der Spezifikation**: in horizontalen Fluchtwegen sind Kabel mit kritischem
+  Verhalten (cr) unabhängig von jeder Brandlast verboten (Fussnote [2]); die
+  200-MJ/Laufmeter-Grenze gilt nur für die dort zulässigen (nicht-cr-)Kabel — ein
+  cr-Kabel darf dort nie spezifiziert werden, auch nicht unterhalb von 200 MJ/Laufmeter.
+  Unterdachbahnen sind mit RF3(cr) zu spezifizieren, nicht mit RF4(cr).
 - Skill `machbarkeit` / `ankaufspruefung`: bei Solaranlagen mit Batteriespeicher ist
   Ziff. 3.1.2 (Speichersysteme als eigene Gefahrenquelle) neu ein eigener Prüfpunkt, der
   in der Ausgabe 2015 fehlte.
@@ -305,16 +330,63 @@ Zusätzlich am Original sichtbare, bisher nicht destillierte Deltas (jetzt nachg
   Naturgefahren-Bauteillisten (Hagelregister, Schneeschutz-Bauteilliste) bei der
   Produktwahl.
 
+## Verifikation Run 45 (06.08.2026)
+
+**Verdikt: BEANSTANDET.** Erstdestillat und unabhängige Refuter-Runde liefen beide in
+Run 45; die Refuter-Runde deckte zwei Kernbefunde auf, die in dieser Fassung inline
+korrigiert sind. Methode je Seite: S. 8, 9, 13 und 14 wurden vom Hauptprozess bei
+200 dpi selbst gerendert und gegengelesen (Tabelle 1, Ziff. 3.2.3, Entscheidbaum,
+RWA-Lichtraumprofil); die übrigen Seiten wurden über den Textlayer geprüft.
+
+**Kernbefund 1 (behoben):** Die 200-MJ/Laufmeter-Brandlastgrenze in Tabelle 1 (S. 8) war
+im Erstdestillat fälschlich den Kabeln mit kritischem Verhalten (cr) zugeordnet.
+Fussnote [2] verbietet cr-Kabel in horizontalen Fluchtwegen unabhängig von jeder
+Brandlast; die 200-MJ-Grenze gilt für die dort zulässigen (nicht-cr-)Kabel. Am eigenen
+200-dpi-Rendering von S. 8 bestätigt und in Tabelle 1, im Delta-Abschnitt sowie im
+JANS-Praxis-Transfer korrigiert.
+
+**Kernbefund 2 (behoben):** Im Entscheidbaum (Anhang S. 13) fehlte der siebte Ausgang
+(Raum darunter nicht feuergefährdet UND keine Verlegeunterlage vorhanden ergibt
+Ausführung zulässig, keine Flächenbegrenzung). Nachgetragen im Abschnitt «Zentrale
+Anhang-Inhalte», inklusive der Klarstellung, dass an den Astenden Oder-Kombinationen
+gelten (Variante 3 bleibt bei jeder Flächengrösse eine gültige Alternative).
+
+**Bestätigungen (keine Korrektur nötig):**
+- Alle vier Fingerabdrücke unabhängig nachgemessen und deckungsgleich: 15 Seiten,
+  524'403 Bytes, MD5 a17958fdf95c720434ffa90117964b23, Titelblatt «01.01.2022 /
+  2001-15de».
+- Delta 1 (Unterdachbahnen RF3(cr)-Pflicht, Ziff. 3.2.3 Abs. 3, S. 9): bestätigt, die
+  Pflicht gilt uneingeschränkt, ohne Bedingung an Montageart, Fläche oder Dachtyp.
+- Delta 2 (Flächenschwelle «> 1200 m²» als Hauptschwelle, «≤ 1200 m²» für die
+  Unterteilungs-Feldgrösse, Ziff. 3.2.3 Abs. 1, S. 9): bestätigt, zwei verschiedene
+  Vergleichszeichen im selben Absatz, beim Zitieren nicht zu verwechseln.
+- Delta 3 (RWA-Abstand ohne Meterwert im Haupttext, 2.0 m als massnahmenfreie Schwelle im
+  Anhang S. 14 mit vierteiligem Lichtraumprofil): bestätigt.
+- Methodischer Vermerk: An dieser Quelle liegt an den geprüften Stellen **keine**
+  Textlayer-Verfälschung der Vergleichszeichen vor (die in dieser KB dokumentierte
+  Fehlerquelle ≤/≥ wird zu </> trat hier nicht auf). Die generelle Vorsichtsregel bleibt
+  für andere VKF-Dateien gültig, für diese Quelle ist der Textlayer an den geprüften
+  Stellen zuverlässig.
+- Ziff. 1, 2 (alle elf Begriffe inkl. Trennung Unterdach/Verlegeunterlage), 3.1
+  (Speichersysteme/Batterieanlagen als neue Gefahrenquelle), 3.2 Abs. 3-5
+  (Glas/Glas-Ausnahme, Brandmauern-Verweis), 3.3 Naturgefahren (SIA 261/261-1,
+  Dachlawinen) sowie 4 und 5 (Kennzeichnungspflicht, Genehmigungsdatum 08.12.2021) decken
+  sich mit dem Destillat.
+
 ## Offene Punkte
 
 - Exakte Zellwerte der Tabelle 1 (S. 8) bewusst nicht wörtlich übernommen (Urheberrecht);
   bei Bedarf im Original nachschlagen. Ebenso die Detailbemassung der Anhang-Zeichnungen
   S. 12-14 (diese sind laut S. 15 zusätzlich ausdrücklich urheberrechtlich geschützt,
   Nachdruck/Vervielfältigung nur mit Quellenangabe erlaubt).
+- Anhang S. 12 (Elektroschema) wurde in Run 45 nicht gerendert, nur über die
+  Kapitelstruktur plausibilisiert.
 - Kein expliziter Aufhebungsvermerk zur Ausgabe 2015 im Text selbst gefunden (Ziff. 5
   nennt nur das eigene Inkrafttretensdatum); die Ablösung ergibt sich aus dem VKF-
   Publikationsportal (nur die 2022er-Fassung wird dort als aktuell geführt), nicht aus
   einer Formulierung im Merkblatt.
+- Der Vergleich zur Ausgabe 2015 stützt sich auf das separat verifizierte
+  2015er-Destillat und wurde in Run 45 nicht eigenständig nachgeprüft.
 - Die Zwischenausgabe 01.01.2017 (12 S., `BSPUB-1394520214-3729.pdf`) ist weiterhin nicht
   als eigenes Destillat angelegt; sie wäre nur relevant für die exakte Datierung der
   RF3(cr)-Verschärfung bei Altprojekten zwischen 2017 und 2022.

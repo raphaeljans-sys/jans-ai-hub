@@ -279,22 +279,65 @@ Seiten ebenfalls **nicht enthalten** ist. Das Original verweist zudem auf ein dr
 den vorliegenden 11 Seiten ebenfalls **nicht enthaltenes** Element (Ergaenzung Run 45,
 06.08.2026): «Bild 32» (Funktionsgeraeusch der Spuelung).
 
+## Verifikation Run 45 (06.08.2026)
+
+**Verdikt: BEANSTANDET.** Vier Kernbefunde (hohe Schwere), zwei Nebenbefunde und drei
+Abdeckungsluecken wurden gefunden und im Fliesstext oben inline korrigiert bzw. ergaenzt.
+
+**Methode:** Alle 11 Seiten wurden bei 300 dpi gerendert und visuell abgelesen — kein
+`pdftotext`, weil der massgebliche Text in Zeichnungen/Rasterbildern liegt, nicht als
+Textlayer vorliegt. Seite 8 gegen Seite 9 wurde zusaetzlich per Pixel-Diff geprueft.
+
+**Befunde mit Fundstelle:**
+1. Datierung SGVSB-Blaetter dreifach falsch (S. 4/5, Fusszeilen-Box): richtig ist auf
+   **beiden** Blaettern «gueltig ab 11-1999» (lesbar) und «ersetzt Ausgabe 11-1997» —
+   keine Differenz zwischen «000-1» und «000-2».
+2. Tabelle 33, Zeile «5–7 Pers.», erhoehter Ausbaustandard (S. 10): SP und GWA vertauscht,
+   richtig SP 2, GWA 1 (nicht SP 1, GWA 2).
+3. Grundriss «205 (90+115)» (S. 6, Sketch 3): Mass 90×55 gehoert zum Waschbecken, nicht zur
+   Eckdusche; die Eckdusche traegt im Scan keine eigene Massangabe.
+4. Produktname (S. 6, Sketch 6): «Closomat», nicht «Clasomat» (Transkriptionsfehler).
+5. Nebenbefund: Wannenbreite «50» (S. 6, Sketch 5) im Scan zwischen 5/6/8 kaum
+   unterscheidbar — als unsicher gekennzeichnet, nicht als Faktum.
+6. Nebenbefund: PDF-Metadaten (Scanner KONICA MINOLTA bizhub C280, Scan-Erstellungsdatum
+   13.07.2012) bisher nicht erwaehnt, ins Frontmatter aufgenommen — als Scan-Datum, nicht
+   als Ausgabedatum gekennzeichnet.
+7. Abdeckungsluecke: «Empfohlene Grundrissmassnahmen» (S. 11) — fuenfte Massnahme
+   (Trennwaende ohne Installationen mit genuegendem Luftschalldaemmwert) fehlte.
+8. Abdeckungsluecke: erste von zwei Alternativen zur unguenstigen Anordnung (S. 11) —
+   gegenueberliegende Anordnung von Baedern unterschiedlicher Wohnungen fehlte.
+9. Abdeckungsluecke: Verweis auf «Bild 32» (S. 11, Funktionsgeraeusch der Spuelung) fehlte
+   neben den bereits markierten «Abb. 34» und «Tabelle 29».
+
+**Bestaetigungen:** Die Herkunfts-Zuschreibung des Erstdestillats haelt vollstaendig stand
+und ist jetzt blattweise belegt: S. 1–3 GEBERIT (Seitencodes 1.9, 1.10, 1.11), S. 4–5 SGVSB
+(Codes 000-1 und 000-2, «Copyright by SGVSB» auf S. 5 lesbar), S. 6 Sanitas Troesch (Logo
+«SANITAS TROESCH SUISSE», Fusszeilencode 01.03), S. 7–11 GEBERIT (Codes 54, 52, 52, 46, 33).
+Die Duplikat-Behauptung S. 8 = S. 9 ist per Pixel-Diff bestaetigt: nur Scan-Rauschen,
+Zahlen, Tabelle und Seitencode sind deckungsgleich. Der Sachinhalt der Tabellen
+1.9/1.10/1.11/37 sowie die Schachtbelegungen und die Bedarfszahlen der Tabelle 33 sind zu
+ueber 95 Prozent korrekt transkribiert (einzige Ausnahme: Kernbefund 2 oben).
+
 ## Offene Punkte
 
-- Kuerzel «SGVSB» (Seiten 4–5) nicht aufgeloest — welcher Verband/welche Publikation dahinter
-  steht, ist aus dem Scan nicht ersichtlich.
+- Kuerzel «SGVSB» (Seiten 4–5) weiterhin nicht aufgeloest — welcher Verband/welche
+  Publikation dahinter steht, ist aus dem Scan nicht ersichtlich (auch nach Run 45
+  unbelegt).
 - Kein Titel/keine Publikationsbezeichnung fuer die beiden GEBERIT-Nummernkreise («1.9–1.11»
   gegen «33/46/52/54») ermittelbar — vermutlich zwei unterschiedliche GEBERIT-Planungshefte
   oder -Kapitel, nicht verifiziert.
 - Genaues Ausgabedatum der Sanitas-Troesch-Seite («01.03») nicht gesichert (vermutlich
   Januar 2003, reine Vermutung anhand des Formats, nicht belegt).
-- Die auf S. 11 referenzierten «Abb. 34» (Schallschutzset-Skizze) und «Tabelle 29»
-  (Verbesserungswerte Koerperschalldaemmung WC) sind im 11-seitigen Auszug nicht enthalten —
-  fuer eine belastbare Aussage zur Schallschutzset-Wirkung muesste die vollstaendige
-  Originalquelle beschafft werden.
+- Die auf S. 11 referenzierten «Abb. 34» (Schallschutzset-Skizze), «Tabelle 29»
+  (Verbesserungswerte Koerperschalldaemmung WC) und «Bild 32» (Funktionsgeraeusch der
+  Spuelung) sind im 11-seitigen Auszug nicht enthalten — fuer eine belastbare Aussage zur
+  Schallschutzset-Wirkung muesste die vollstaendige Originalquelle beschafft werden.
 - Handschriftliche Notizen auf Seite 1 (eingekreist «PR») und Seite 2 (eingekreiste Zahl,
   zwei «m²»-Randnotizen) sind nicht zuverlaessig entzifferbar und daher nicht als Sachinhalt
   uebernommen; Herkunft/Zweck der Notizen unbekannt.
+- Die Massketten der SGVSB-Grundrisse auf S. 4 und S. 5 wurden in Run 45 nur stichprobenartig
+  gelesen, nicht Ziffer fuer Ziffer geprueft — fuer eine vollstaendige Verifikation muessten
+  alle Einzelmasse gegengelesen werden.
 - Da die Datei ein Sammelscan ohne einheitlichen Herausgeber ist, sollte bei kuenftiger
   Verwendung in einem JANS-Erzeugnis pro zitiertem Wert die jeweilige Teilquelle (GEBERIT
   bzw. SGVSB bzw. Sanitas Troesch, samt Seite) genannt werden, nicht «die Arbeitshilfe» als

@@ -23,8 +23,11 @@ status: "speculative (Run 41, 01.08.2026: ZWEITE unabhaengige Refuter-Runde, VER
   Leseschluessel. (5) Die Unterzeichnungspflicht des Entrauchungskonzepts fehlte. (6) Die
   Frontmatter-Methodenangabe 'kein Rendering noetig' war unhaltbar: der Textlayer verfaelscht
   '<=' zu '<' und '>=' zu '>' und bildet die Zellteilung gar nicht ab. Alle sechs korrigiert.
-  Vorherige Runde: Run 40, 31.07.2026: unabhaengiger Refuter, ~45 Einzelaussagen, VERDIKT BEANSTANDET mit 6 zusammenhaengenden KERNBEFUNDEN. Die diagonal zweigeteilten Matrixzellen (oben blau = mit Sprinkleranlage, unten weiss = ohne) waren im Bereich 601-1200 m2 durchgehend falsch aufgeloest; Folge waere ein unnoetiger Nachweis N2/N3 gewesen, wo das Merkblatt GAR KEINEN RWA-Nachweis verlangt. Beide Matrizes 6.1 und 6.2 vom Hauptprozess am eigenen 220-dpi-Rendering der S. 6 zellenweise nachgeprueft und als Tabelle neu gefasst. Status bewusst NICHT gehoben: die Neufassung ist noch nicht durch eine unabhaengige zweite Runde gegangen.)"
-last_updated: 2026-07-31
+  Vorherige Runde: Run 40, 31.07.2026: unabhaengiger Refuter, ~45 Einzelaussagen, VERDIKT BEANSTANDET mit 6 zusammenhaengenden KERNBEFUNDEN. Die diagonal zweigeteilten Matrixzellen (oben blau = mit Sprinkleranlage, unten weiss = ohne) waren im Bereich 601-1200 m2 durchgehend falsch aufgeloest; Folge waere ein unnoetiger Nachweis N2/N3 gewesen, wo das Merkblatt GAR KEINEN RWA-Nachweis verlangt. Beide Matrizes 6.1 und 6.2 vom Hauptprozess am eigenen 220-dpi-Rendering der S. 6 zellenweise nachgeprueft und als Tabelle neu gefasst. Status bewusst NICHT gehoben: die Neufassung ist noch nicht durch eine unabhaengige zweite Runde gegangen.)
+  Zweite unabhaengige Refuter-Runde Run 45 (06.08.2026): Matrizen 6.1/6.2 BESTANDEN und damit
+  zweifach unabhaengig zellengenau bestaetigt; 2 Kernbefunde ausserhalb der Matrizen
+  (Anhang-Legende S. 10, Verallgemeinerung der Farbwarnung) eingearbeitet."
+last_updated: 2026-08-06
 links: [[REGISTER]]
 ---
 # GVZ-Merkblatt 30.17.3 — Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen
@@ -278,12 +281,16 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
 
 *Erst in Run 41 erschlossen. Diese drei Seiten hätten den Erstfehler verhindert.*
 
-- **S. 10 «Legende zu den Beispielen»** — fünf Symbole: Strömungsrichtung Zuluft ·
-  Strömungsrichtung Abluft · Brandlüfter · Fluchtwege · zu entrauchender Raum · NA Notausgang.
+- **S. 10 «Legende zu den Beispielen»** — fünf Symbole: ein gelbes Pfeilsymbol
+  «Strömungsrichtung Zu-/Abluft» (ein einziges Symbol für beide Richtungen, keine zwei
+  getrennten Symbole) · Brandlüfter · Fluchtwege · zu entrauchender Raum · NA Notausgang.
+  **Korrigiert Run 45 (06.08.2026):** die Vorfassung listete sechs Bullets bei behaupteten
+  fünf Symbolen und führte Zu- und Abluft fälschlich als zwei getrennte Symbole.
 - **S. 11 Beispiel 1:** «RWA mit BL (N2), Brandabschnittsfläche > 1200 m², geschossweise
   abgetrennt, **mit oder ohne Sprinkleranlage**, im 1. UG liegend — Vier Entrauchungsöffnungen
-  notwendig, davon sind zwei Notausgänge anrechenbar.» Die Beispielmarkierung umfasst die
-  **ganze** Zelle (beide Teilzellen) — konsistent mit «mit oder ohne».
+  notwendig, davon sind zwei Notausgänge anrechenbar, die direkt ins Freie führen.» Die
+  Beispielmarkierung umfasst die **ganze** Zelle (beide Teilzellen) — konsistent mit
+  «mit oder ohne».
 - **S. 12 Beispiel 2:** «RWA mit BL (N2), Brandabschnittsfläche < 1200 m², geschossweise
   abgetrennt, **ohne Sprinkleranlage**, im 1. UG liegend — Vier Entrauchungsöffnungen notwendig
   (bedingt durch die Raumgeometrie).» Die Beispielmarkierung umfasst **nur die untere, weisse**
@@ -293,14 +300,65 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
 Sprinkleranlage. Das ist die zweite, vom Farbmessen unabhängige Bestätigung (die erste ist
 Ziff. 1.1 mit den Schwellen 600 m² bzw. 1200 m² mit Sprinkleranlage).
 
-**Achtung Legendenfarben:** die Publikation kennt genau zwei Füllungen und eine Schraffur —
-hellblaue **Vollfläche** = «mit Sprinkleranlage», rote **Schraffur mit Rahmen** = «Beispiel»
-(nur in den Anhangbeispielen), weiss = ohne. Die Sprinklerkennzeichnung ist keine Schraffur.
+**Achtung Legendenfarben (eingeschränkt auf die Matrix- und Beispielklassierung, Run 45,
+06.08.2026):** für die Matrix- und Beispielklassierung kennt die Publikation genau zwei
+Füllungen und eine Schraffur — hellblaue **Vollfläche** (gemessen RGB 178/224/246, in beiden
+Matrizen identisch) = «mit Sprinkleranlage», karminrot-pinke **Schraffur mit Rahmen** (gemessen
+RGB 227/0/74, also eher karminrot/pink-rot als reines Rot) = «Beispiel» (nur in den
+Anhangbeispielen), weiss (gemessen RGB 255/255/255) = ohne. Die Sprinklerkennzeichnung ist keine
+Schraffur. **Diese Aussage gilt nur für die Matrix-/Beispielklassierung, nicht für die gesamte
+Publikation:** auf denselben Anhangseiten 10-12 trägt die Planlegende zusätzlich eine grüne
+Schraffur («Fluchtwege») und ein rosa gepunktetes Linienmuster («zu entrauchender Raum»), beide
+in den Grundrissen von Beispiel 1 und 2 tatsächlich verwendet. Die Vorfassung verallgemeinerte
+die Zwei-Füllungen-und-eine-Schraffur-Aussage fälschlich auf «die Publikation» insgesamt.
 
 ## Rechtsgrundlage (Titelseite)
 
 Das Merkblatt stützt sich auf **§ 14 Abs. 2 des Gesetzes über die Feuerpolizei und das
 Feuerwehrwesen (FFG) vom 24. September 1978**.
+
+## Verifikation Runde 2 (Run 45, 06.08.2026)
+
+**Verdikt: BESTANDEN.** Die zweite unabhängige Refuter-Runde hat die Matrizen 6.1 und 6.2
+zellengenau nachgemessen; sie decken sich vollständig mit der Destillat-Fassung aus Run 41. Die
+Matrixwerte sind damit zweifach unabhängig bestätigt (Run 41 und Run 45).
+
+**Methode:** alle 12 Seiten des Merkblatts bei 300 dpi gerendert; rechnerische Zellaufnahme über
+Farberkennung (Blaumaske gegen die je Tabelle einzeln gemessene Legendenfarbe) und
+Connected-Component-Analyse; Halbzellen (rund 70 px) gegen Vollzellen (rund 141 px bei 300 dpi)
+unterschieden.
+
+**Gemessene Legendenfarben:** «mit Sprinkleranlage» ist in beiden Matrizen identisch RGB
+178/224/246, weiss ist exakt RGB 255/255/255 — keine Legenden-Divergenz zwischen den Tabellen.
+Die Beispielmarkierungen stimmen: Beispiel 1 (S. 11, «mit oder ohne Sprinkleranlage») markiert
+die ganze Zelle 1201–2400 in der Zeile RWA mit Brandlüftern, beide Hälften schraffiert;
+Beispiel 2 (S. 12, «ohne Sprinkleranlage») markiert nur die untere, weisse Hälfte der Zelle
+601–1200 derselben Zeile.
+
+**Zwei Kernbefunde ausserhalb der Matrizen, eingearbeitet:**
+1. Der Leseschlüssel der Anhang-Legende (S. 10) war falsch transkribiert — fünf Symbole, nicht
+   sechs Bullets; das erste ist ein einziges gelbes Pfeilsymbol «Strömungsrichtung Zu-/Abluft»,
+   keine zwei getrennten Symbole. Korrigiert im Abschnitt «Anhang S. 10-12».
+2. Die Farbwarnung verallgemeinerte zu weit: «die Publikation kennt genau zwei Füllungen und
+   eine Schraffur» gilt nur für die Matrix- und Beispielklassierung. Auf denselben Anhangseiten
+   trägt die Planlegende zusätzlich eine grüne Schraffur («Fluchtwege») und ein rosa gepunktetes
+   Linienmuster («zu entrauchender Raum»), tatsächlich verwendet in den Grundrissen von
+   Beispiel 1 und 2. Auf die Matrix-/Beispielklassierung eingeschränkt; der Kernpunkt der
+   Warnung (Sprinklerkennzeichnung ist Fläche, keine Schraffur) bleibt richtig.
+
+**Nebenbefunde, eingearbeitet:** bei Beispiel 1 fehlte der Original-Halbsatz «die direkt ins
+Freie führen» (Bedingung für die anrechenbaren Notausgänge), ergänzt. Die Schraffurfarbe
+«Beispiel» ist gemessen RGB 227/0/74, also eher karminrot/pink-rot als reines Rot, präzisiert.
+
+**Bestätigungen, protokolliert:** alle Fliesstext-Ziffern 1–9 wurden Wort für Wort geprüft und
+stimmen (Geltungsbereich, Begriffe, Zweck und Ziele, Anforderungen, Luftwechselraten-Tabelle,
+Schächte und Kanäle, Entrauchungsnachweise N1–N3, Dokumentation, Inkrafttreten, Rechtsgrundlage
+§ 14 Abs. 2 FFG, Anhang-Kennwerte samt Durchflussbeiwerte-Tabelle aus DIN 18232-2,
+Volumenströme der Brandlüfter, Unterzeichnungspflicht des Entrauchungskonzepts). Die BKP-Codes
+244 (Lufttechnische Anlagen) und 245 (Rauch- und Wärmeabzugsanlagen) sind gegen die kanonische
+BKP-2017-Liste geprüft und korrekt. Die referenzierten Schwesterdestillate
+`din-18232-2-2007.md` und `vkf-brl-21-15-rauch-waermeabzugsanlagen.md` existieren, keine toten
+Links.
 
 ## Offene Punkte
 
@@ -322,3 +380,6 @@ Feuerwehrwesen (FFG) vom 24. September 1978**.
 - Kein Absatz definiert einen Zahlenwert für «komplexe Raumgeometrien», bei denen RWA mit BL
   laut Ziff. 4.2.2.1 Abs. 1 nicht geeignet ist — Einzelfallbeurteilung mit der Kantonalen
   Feuerpolizei bleibt offen.
+- Der Fassungsvorbehalt zur VKF-BSR 21-15 (Divergenzband 1'201–3'600 m² gesprinklert, siehe
+  Abschnitt «Geltungsbereich») wurde in Run 45 nur auf Dateiexistenz des referenzierten
+  Destillats geprüft, nicht inhaltlich gegengeprüft.

@@ -1,3 +1,22 @@
+## 2026-08-06 (Run 45, zweite unabhaengige Refuter-Runde) — GVZ-RWA-Parkhaus: Matrizen BESTANDEN, zwei Kernbefunde ausserhalb der Matrizen eingearbeitet
+
+`destillate/gvz-rwa-parkhaus-einstellraum.md` inline korrigiert. Wichtigstes Ergebnis: die
+Matrizen 6.1/6.2 wurden zellengenau nachgemessen (Farberkennung + Connected-Component-Analyse,
+300 dpi) und decken sich vollstaendig mit der Run-41-Fassung — die Werte sind damit zweifach
+unabhaengig bestaetigt (Run 41 und Run 45). Zwei Kernbefunde ausserhalb der Matrizen behoben:
+(1) der Leseschluessel der Anhang-Legende (S. 10) fuehrte sechs Bullets bei behaupteten fuenf
+Symbolen — Zu- und Abluft sind EIN gelbes Pfeilsymbol, keine zwei getrennten; (2) die
+Farbwarnung («die Publikation kennt genau zwei Fuellungen und eine Schraffur») verallgemeinerte
+zu weit — sie gilt nur fuer die Matrix-/Beispielklassierung, die Planlegende derselben
+Anhangseiten fuehrt zusaetzlich gruene Schraffur («Fluchtwege») und rosa Punktlinie («zu
+entrauchender Raum»). Nebenbefunde: fehlender Halbsatz «die direkt ins Freie fuehren» bei
+Beispiel 1 ergaenzt, Schraffurfarbe auf gemessen RGB 227/0/74 (karminrot/pink-rot) praezisiert.
+Status bleibt bewusst `speculative` (Hebung auf `established` ist Sache des Hauptprozesses im
+naechsten Lauf). Neuer Abschnitt «Verifikation Runde 2 (Run 45)» dokumentiert Methode, gemessene
+Legendenfarben und die Bestaetigung aller Fliesstext-Ziffern 1-9 sowie der BKP-Codes 244/245.
+Offener Punkt neu ergaenzt: Fassungsvorbehalt VKF-BSR 21-15 wurde nur auf Dateiexistenz, nicht
+inhaltlich gegengeprueft.
+
 ## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — zwei VKF-Publikationen als ueberholt ausgewiesen; der Hausbestand war die Fehlerquelle
 
 Zwei unabhaengige Felder des Cross-KB-Laufs sind auf dieselbe Publikation konvergiert; die

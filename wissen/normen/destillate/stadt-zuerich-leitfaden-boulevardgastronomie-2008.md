@@ -1,12 +1,10 @@
 ---
 quelle: "04_Merkblätter/120206_Leitfaden_Boulevardgastronomie.pdf"
-herausgeber: "Stadt Zürich, Tiefbau- und Entsorgungsdepartement, Tiefbauamt (unter Beteiligung von Stadtentwicklung Zürich, Liegenschaftenverwaltung, Stadtpolizei Bewilligungen, Dienstabteilung Verkehr, Umwelt- und Gesundheitsschutz Zürich UGZ [Fussnote: Original S. 2 schreibt hier „Gesundheitschutz", ein Tippfehler im Quelldokument; hier stillschweigend zu „Gesundheitsschutz" korrigiert], ERZ, Grün Stadt Zürich, Amt für Städtebau, Amt für Baubewilligungen sowie den Gastro-Verbänden Gastro Zürich City, Zürcher Cafetier Verband, Zürcher Hoteliers, Leaders Club Suisse)"
+herausgeber: "Stadt Zürich, Tiefbau- und Entsorgungsdepartement, Tiefbauamt (unter Beteiligung von Stadtentwicklung Zürich, Liegenschaftenverwaltung, Stadtpolizei Bewilligungen, Dienstabteilung Verkehr, Umwelt- und Gesundheitsschutz Zürich UGZ [Fussnote: Original S. 2 schreibt hier «Gesundheitschutz», ein Tippfehler im Quelldokument; hier stillschweigend zu «Gesundheitsschutz» korrigiert], ERZ, Grün Stadt Zürich, Amt für Städtebau, Amt für Baubewilligungen sowie den Gastro-Verbänden Gastro Zürich City, Zürcher Cafetier Verband, Zürcher Hoteliers, Leaders Club Suisse)"
 ausgabe: "«Boulevardgastronomie — Leitfaden für Planung, Bewilligung und Betrieb von Boulevardcafés, Boulevardrestaurants und Boulevardlounges auf öffentlichem Grund», Vierte, überarbeitete Auflage, März 2008 (18 Seiten als kombiniertes PDF); im Original-Datei-Impressum als Dateiname-Datum «120206» erscheinende Ziffernfolge ist NICHT das Ausgabedatum des Leitfadens, sondern das technische Erstellungsdatum der kombinierten PDF-Datei (Adobe Acrobat 8.1 Combine Files, 06.02.2012, laut PDF-Metadaten) — die kombinierte Datei fasst den Hauptleitfaden (März 2008) mit zwei Einlageblättern zusammen: «Einlageblatt Witterungsschutz für Rauchende» (Ergänzung vom 31. Oktober 2011) und «Einlageblatt Baubewilligungen» (zum Leitfaden Boulevardgastronomie, ohne eigenes Datum im Dokument)"
 gelesen: "Run 42 (030826): pdftotext -layout Volltext aller 18 Seiten gelesen; Seite 7 (2.2 Öffentliche Durchgänge, Illustrationen mit Mass-Beschriftung) und Seite 13 (4.3 Gebühren-Tarifordnung) zusätzlich mit pdftoppm bei 150 dpi gerendert und visuell abgelesen, da Mass-/Preisangaben planungsrelevant sind"
 datenstand: "März 2008 (Hauptleitfaden, 4. Auflage), Einlageblatt Witterungsschutz für Rauchende Stand 31.10.2011, Gebühren-Tarifordnung mit Rechtsstand 21.10.1998"
-status: "speculative (Erstdestillat Run 42, 03.08.2026; Verifikation Runde 2 Run 45,
-  06.08.2026, gefahren, Verdikt BEANSTANDET, 3 Kernbefunde und 5 Abdeckungsbefunde
-  eingearbeitet)"
+status: "speculative (Erstdestillat Run 42, 03.08.2026; Verifikation Runde 2 Run 45, 06.08.2026, gefahren, Verdikt BEANSTANDET, 3 Kernbefunde und 5 Abdeckungsbefunde eingearbeitet)"
 last_updated: 2026-08-06
 links: [[REGISTER]]
 ---
@@ -252,6 +250,52 @@ Gebühren in CHF pro m²/Monat (Sommersaison / Wintersaison), Rechtsstand 21.10.
   `behoerden-vorabklaerung` (Frage an Amt für Baubewilligungen zur aktuellen
   Bewilligungspraxis nach VGer-Urteil).
 
+## Verifikation Runde 2 (Run 45, 06.08.2026)
+
+**Verdikt: BEANSTANDET.** Das Erstdestillat (Run 42) enthielt einen inhaltlich
+schwerwiegenden Fehler (verschmolzene Adresse) sowie zwei falsch verortete Fundstellen und
+liess fünf Abdeckungslücken offen.
+
+**Methode:** Volltext aller 18 Seiten der PDF erneut mit `pdftotext -layout` gelesen;
+zusätzlich gezieltes Rendering der Seiten 1, 7, 8, 9, 13, 15, 16, 17, 18 bei 200 bis
+300 dpi zur visuellen Gegenprüfung der Mass-, Adress- und Ziffernangaben.
+
+**Kernbefunde (korrigiert, siehe inline oben):**
+- Kontaktadresse (Ziff. 3.2, S. 10; wortgleich Einlageblatt Baubewilligungen, S. 18): das
+  Erstdestillat verschmolz Strassen- und Postadresse zu einer falschen Kombination
+  «Förrlibuckstrasse 61 / Postfach 1612, 8021 Zürich». Richtig: Förrlibuckstrasse 61,
+  8005 Zürich (Strassenadresse) und Postfach 1612, 8021 Zürich (Postadresse), getrennt.
+- Der Satz zu erhöhten Durchgangsbreiten bei hoher Passantenfrequenz steht unter
+  Ziff. 3.3.2 auf **S. 11**, nicht S. 10 wie im Erstdestillat zitiert.
+- Die Grossschirm-Schwelle (Fläche > 9 m² bzw. Kantenlänge/Durchmesser > 3 m) wurde im
+  Erstdestillat an ihrer ersten Nennung fälschlich Ziff. 2.3/S. 8 zugeordnet; dort steht
+  nur die Pflicht zur zusätzlichen Baubewilligung, die Schwelle selbst steht in
+  Ziff. 2.5.1, S. 9.
+
+**Abdeckungsbefunde (nachgetragen, siehe inline oben):**
+- Ziff. 2.1.2 Sauberkeit und Ziff. 2.1.3 Sorgfaltspflicht (S. 6): persönliche Haftung der
+  Betreiberin.
+- Ziff. 4.1.2 (S. 12): Untervermietungsverbot.
+- Rechtsgrundlagen Aussenbuffetanlagen (Einlageblatt Baubewilligungen Ziff. 2.4, S. 18):
+  ArGV 3, LMG, LGV, Hygieneverordnung EDI.
+- Der achtstufige Baubewilligungs-/Konzessionsprozess (Einlageblatt Ziff. 3, S. 18):
+  Zwischenschritte Vorprüfung, Entscheid über die Vorprüfung, getrennte Gesuchseingabe,
+  Machbarkeitsnachweis.
+- Ziff. 4.2.3 Betriebliche Anforderungen (S. 12): Durchgangsbreiten/Vermassungen jederzeit
+  einzuhalten, Arbeitssicherheit/Gesundheitsschutz.
+
+**Bestätigt (kein Korrekturbedarf):** Die Datierungs-These des Erstdestillats ist
+vollständig bestätigt: PDF-Metadaten CreationDate 06.02.2012 mit «Adobe Acrobat 8.1
+Combine Files», das Titelblatt trägt kein Datum, das Impressum auf S. 2 nennt «Vierte,
+überarbeitete Auflage, März 2008» — die Dateinamen-Ziffer 120206 ist also tatsächlich das
+PDF-Erstellungsdatum, nicht das Ausgabedatum. Das Einlageblatt Witterungsschutz trägt ein
+eigenes jüngeres Datum «Ergänzung vom 31. Oktober 2011», das Einlageblatt Baubewilligungen
+trägt kein eigenes Datum. Ebenfalls bestätigt: alle Zahlenwerte (Durchgangsbreiten S. 7
+inklusive der echten Bild/Text-Diskrepanz 2,0 m gegen 2,5 m, Mobiliar-Vermassungen S. 8
+und 9, Betriebszeiten 5 bis 24 Uhr und Saisondaten S. 12, alle fünf Gebührenzonen S. 13)
+sowie die Ordnungsnummer VBöGS AS 551.210, die auf S. 4 und S. 13 tatsächlich vorkommt und
+korrekt zitiert ist.
+
 ## Offene Punkte
 
 - **Diskrepanz Bild/Text bei der ersten Durchgangs-Illustration (S. 7):** die
@@ -266,11 +310,14 @@ Gebühren in CHF pro m²/Monat (Sommersaison / Wintersaison), Rechtsstand 21.10.
   aktuellen Rechtsstand 2026 direkt bei der Stadt Zürich/BGE-Datenbank verifizieren.
 - **«Einlageblatt Boulevardcafé-Bewilligungen» (Ergänzung Dezember 2009)** wird im
   Hauptleitfaden und im Einlageblatt Witterungsschutz mehrfach referenziert, ist aber in
-  dieser kombinierten PDF-Datei (18 S.) nicht enthalten — separat beim Tiefbauamt/der
-  Stadtpolizei zu beschaffen, falls für ein Mandat benötigt.
+  dieser kombinierten PDF-Datei (18 S.) nicht enthalten — in Verifikation Runde 2 (Run 45,
+  06.08.2026) über alle 18 Seiten nachgeprüft und bestätigt: das separate Einlageblatt liegt
+  in dieser PDF nachweislich nicht vor und wäre extern beim Tiefbauamt/der Stadtpolizei zu
+  beschaffen, falls für ein Mandat benötigt.
 - **Gebühren-Tarifordnung mit Rechtsstand 21.10.1998** ist mit hoher Wahrscheinlichkeit seit
   1998 (28 Jahre) mindestens einmal angepasst worden; im vorliegenden Dokument findet sich
-  keine neuere Fassung — vor Verwendung in einer Kostenschätzung unbedingt aktuellen Stand
-  bei der Stadtpolizei Zürich erfragen.
+  keine neuere Fassung. Der Tarif hat also nur Rechtsstand 1998 und ist bis zur Verifikation
+  bei der Stadtpolizei Zürich nur als historische Grössenordnung zu verwenden, nicht als
+  aktueller Ansatz für eine Kostenschätzung.
 - Nicht sicher am Original ablesbar: ob nach der vierten Auflage (März 2008) eine fünfte,
   vollständig überarbeitete Auflage erschienen ist, die diese Version ganz ablösen würde.
