@@ -14,6 +14,21 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260805 — Fristen und terminkritische Funde gehoeren ins Register, nicht nur in den eigenen Bericht
+- **Regel:** Wer in einem Lauf eine **Frist, einen Termin oder einen terminkritischen Mangel an
+  einem ausgehenden Erzeugnis** findet, traegt ihn im selben Lauf in `logbuch/fristen.md` ein
+  (bei bestehendem Vorgang als datierter Nachtrag an der vorhandenen Zeile, nie ueberschreibend).
+  **Ein Laufbericht ist kein Meldekanal.** Ihn prominent zu markieren und darauf zu vertrauen,
+  dass ein anderer Loop ihn aufnimmt, genuegt nicht. Das Register ist der Ort, den der
+  `logbuch-radar` (06:55) und der `hub-chef` (08:39) verlaesslich lesen.
+- **Gilt fuer:** alle Loops und Sessions, die Befunde erzeugen — insbesondere `wissens-chef`,
+  `wissenscheck`, `synergie-orchestrator`, die Lern-Loops und jede Projektarbeit.
+  **Anlass:** Der Wissens-Chef hat am 04.08.2026 (Run 25) einen falschen Rechtssatz in einem
+  versandbereiten Begleitbeschrieb (Termin 06.08.) gefunden, korrekt verifiziert und im Bericht
+  als terminkritisch markiert. Das Tagesbriefing vom 05.08. fuehrte ihn **nicht**; am 05.08.
+  abends stand der Satz unveraendert in vier Dateien. Run 26 hat ihn ins Fristen-Register
+  nachgetragen. Beleg: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`, Abschnitt 6.
+
 ## 260803 — Aufsichts-Loops sind still by default; Interna gehoeren ins Logbuch, nicht ins Postfach
 - **Regel:** Genau EIN Loop darf Raphael taeglich ungefragt schreiben — der `logbuch-radar`
   (06:55), weil er die Fristenschaerfe traegt. **Jeder weitere Aufsichts-Loop ist still by
