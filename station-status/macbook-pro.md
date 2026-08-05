@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 03:52:38
+Stand: 05.08.2026 04:12:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 03:50)
@@ -12,4 +12,4 @@ Stand: 05.08.2026 03:52:38
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2f31702f twin-mail-training Batch 87: Luecken-Sweep rj@ Dez 2025 / Jan 2026
+- 9579cdeb nas-selfcommit: 2 Datei(en) 2026-08-05 04:00
