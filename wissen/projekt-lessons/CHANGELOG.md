@@ -3,6 +3,21 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-05 (Nachtschicht Mac Mini) — Truninger-DS3 als dritte Quelle geprüft: Fokus «Bauen im Betrieb» weiterhin ohne Kandidat
+
+- Kein neuer Fall, kein neuer Wiki-Artikel. Gemäss Empfehlung vom 04.08. den Projektraum auf
+  ds3.data-share.ch nach Etappierung/Baulogistik-Material durchsucht (`connectors/
+  truninger-ds3.mjs`, read-only): Volltextsuche «Etappierung» liefert genau einen Treffer
+  (Etappierungszonen-Planwerk, keine Story), `01.01.14 Baulogistik` und `01.01.04
+  Sondersitzungen` ohne Betriebs-/Etappenthema. Nicht geöffnet aus Budgetgründen: `01.01.24
+  Baujournale Bauleitung` (Nord/Süd, Jahresordner 2018-2024) — voraussichtlich der ergiebigste
+  verbleibende Ort, aber zu gross für diesen geteilten Nachtschicht-Zyklus.
+- Damit sind alle drei in `training/PROGRAMM.md` benannten Quellen (Projektordner, Mail, DS3)
+  für die naheliegenden Pfade ohne Treffer. Empfehlung in `wiki/QUESTIONS.md` präzisiert: ein
+  künftiger Lauf sollte die Baujournale als dedizierten, vollbudgetierten Einzellauf angehen
+  (jahrweise, gezielt nach Nachtarbeit/Lärm/Etappenwechsel), statt weiter in die Breite zu
+  suchen. Kein Versand/Publikation/Buchung. Budget dieses Blocks ca. 1.3 USD.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Thalwil 2414: Zeiger ins Baurecht gesetzt
 
 - **`wiki/sbb-naeherbaurecht-thalwil-2414-vordach.md`** — der Artikel zum laufenden Fall 2414

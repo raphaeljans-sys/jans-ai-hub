@@ -4,8 +4,30 @@ Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel.
 
 ## Offene Wissenslücken (Coverage-Gaps)
-- **Fokus-Bereich «Bauen im Betrieb» weiterhin ohne Kandidat (04.08.2026, Nachtschicht Mac
-  Mini) — Suchraum diesmal erweitert, wieder Nullbefund.** Nach dem reinen Logbuch-Nullbefund
+- **Fokus-Bereich «Bauen im Betrieb» weiterhin ohne Kandidat (05.08.2026, Nachtschicht Mac
+  Mini) — dritte Quelle (Truninger-DS3) gemäss Empfehlung geprüft, wieder Nullbefund.**
+  Projektraum-Baum systematisch nach den plausibelsten Fundorten durchsucht: Volltextsuche
+  «Etappierung» über den gesamten DS3-Baum liefert genau einen Treffer, `51 Ausfuehrungsplaene
+  Rueckmeldung/Sued_Etappierungszonen/S-ARC_ASK_0020-0023_Etappierungszonen.pdf` — dieselbe
+  Fehlertyp-Wiederholung wie am 04.08. im OneDrive-Projektordner: reines Planwerk (Etappierungs-
+  zonen-Grafik), keine Entscheid- oder Fehler-Story. Zusätzlich geprüft: `01.01 Protokolle/
+  01.01.14 Baulogistik` (ein einziges Dokument, Terminplan 2016, kein Sitzungsprotokoll),
+  `01.01 Protokolle/01.01.04 Sondersitzungen` (nur "Fassade/Rohbau - Planung und Ausführung",
+  kein Betriebs-/Etappenthema), `01.01 Protokolle/01.01.24 Baujournale Bauleitung/Nord+Sued`
+  (nach Jahr gegliedert 2018-2024, nicht geöffnet — zu gross für das Nachtschicht-Budget dieses
+  Laufs, siehe unten). Damit sind alle drei in `training/PROGRAMM.md` benannten Quellen
+  (Projektordner, Mail, DS3) für die naheliegenden Pfade ohne Treffer; ein Erfolg ist am
+  ehesten noch in den Baujournalen zu erwarten, die aber Jahr für Jahr einzeln durchgesehen
+  werden müssten. **Empfehlung für den nächsten Lauf:** entweder gezielt EIN Baujournal-Jahr
+  (am ehesten 2023 oder 2024, aktuellste Bauphase) stichprobenartig nach Nachtarbeit-/
+  Lärm-/Etappenwechsel-Einträgen durchsehen — als eigener, dedizierter Lauf mit vollem Budget,
+  nicht im Rest eines geteilten Nachtschicht-Zyklus — oder auf einen frischen Logbuch-/
+  Mail-Fund warten statt weiter in die Breite zu suchen.
+
+  <!-- Vorheriger Eintrag (04.08.2026) unten stehen gelassen, da er den OneDrive-Sweep
+  dokumentiert, den dieser DS3-Sweep ergänzt, nicht ersetzt. -->
+- Fokus-Bereich «Bauen im Betrieb», Vorlauf 04.08.2026 (Nachtschicht Mac Mini) — Suchraum
+  damals erweitert, ebenfalls Nullbefund. Nach dem reinen Logbuch-Nullbefund
   vom 03.08. (Eintrag unten) diesmal direkt im KISPI-Projektordner gesucht (`JANS -
   2619-KISPI - Dokumente`, OneDrive) nach Etappierung/Provisorium/Nachtarbeit/Laerm/
   Patiententransport: Treffer sind ausschliesslich technische Dokumentation ohne Entscheid-
