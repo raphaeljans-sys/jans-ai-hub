@@ -1,14 +1,16 @@
 ---
 quelle: "04_Merkblätter/120206_Leitfaden_Boulevardgastronomie.pdf"
-herausgeber: "Stadt Zürich, Tiefbau- und Entsorgungsdepartement, Tiefbauamt (unter Beteiligung von Stadtentwicklung Zürich, Liegenschaftenverwaltung, Stadtpolizei Bewilligungen, Dienstabteilung Verkehr, Umwelt- und Gesundheitsschutz Zürich UGZ, ERZ, Grün Stadt Zürich, Amt für Städtebau, Amt für Baubewilligungen sowie den Gastro-Verbänden Gastro Zürich City, Zürcher Cafetier Verband, Zürcher Hoteliers, Leaders Club Suisse)"
+herausgeber: "Stadt Zürich, Tiefbau- und Entsorgungsdepartement, Tiefbauamt (unter Beteiligung von Stadtentwicklung Zürich, Liegenschaftenverwaltung, Stadtpolizei Bewilligungen, Dienstabteilung Verkehr, Umwelt- und Gesundheitsschutz Zürich UGZ [Fussnote: Original S. 2 schreibt hier „Gesundheitschutz", ein Tippfehler im Quelldokument; hier stillschweigend zu „Gesundheitsschutz" korrigiert], ERZ, Grün Stadt Zürich, Amt für Städtebau, Amt für Baubewilligungen sowie den Gastro-Verbänden Gastro Zürich City, Zürcher Cafetier Verband, Zürcher Hoteliers, Leaders Club Suisse)"
 ausgabe: "«Boulevardgastronomie — Leitfaden für Planung, Bewilligung und Betrieb von Boulevardcafés, Boulevardrestaurants und Boulevardlounges auf öffentlichem Grund», Vierte, überarbeitete Auflage, März 2008 (18 Seiten als kombiniertes PDF); im Original-Datei-Impressum als Dateiname-Datum «120206» erscheinende Ziffernfolge ist NICHT das Ausgabedatum des Leitfadens, sondern das technische Erstellungsdatum der kombinierten PDF-Datei (Adobe Acrobat 8.1 Combine Files, 06.02.2012, laut PDF-Metadaten) — die kombinierte Datei fasst den Hauptleitfaden (März 2008) mit zwei Einlageblättern zusammen: «Einlageblatt Witterungsschutz für Rauchende» (Ergänzung vom 31. Oktober 2011) und «Einlageblatt Baubewilligungen» (zum Leitfaden Boulevardgastronomie, ohne eigenes Datum im Dokument)"
 gelesen: "Run 42 (030826): pdftotext -layout Volltext aller 18 Seiten gelesen; Seite 7 (2.2 Öffentliche Durchgänge, Illustrationen mit Mass-Beschriftung) und Seite 13 (4.3 Gebühren-Tarifordnung) zusätzlich mit pdftoppm bei 150 dpi gerendert und visuell abgelesen, da Mass-/Preisangaben planungsrelevant sind"
 datenstand: "März 2008 (Hauptleitfaden, 4. Auflage), Einlageblatt Witterungsschutz für Rauchende Stand 31.10.2011, Gebühren-Tarifordnung mit Rechtsstand 21.10.1998"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
-last_updated: 2026-08-03
+status: "speculative (Erstdestillat Run 42, 03.08.2026; Verifikation Runde 2 Run 45,
+  06.08.2026, gefahren, Verdikt BEANSTANDET, 3 Kernbefunde und 5 Abdeckungsbefunde
+  eingearbeitet)"
+last_updated: 2026-08-06
 links: [[REGISTER]]
 ---
-# Stadt Zürich — Leitfaden Boulevardgastronomie (2008, kombiniertes PDF mit Einlageblättern 2011)
+# Stadt Zürich: Leitfaden Boulevardgastronomie (2008, kombiniertes PDF mit Einlageblättern 2011)
 
 ## Das Wichtigste in 3 Sätzen
 
@@ -68,6 +70,12 @@ Aussenquartiere) gestaffelt und unterscheiden Sommer-/Wintersaison (Ziff. 4.3, S
   bezeichneten Fläche statt; eine nicht bewilligte Ausdehnung wird geahndet (Ziff. 2.1.1,
   S. 6). Keine Drittwerbung auf Mobiliar/Einrichtungen/Installationen, ausser fürs eigene
   Lokal (Ziff. 2.1.4, S. 6).
+- Sauberkeit (Ziff. 2.1.2, S. 6): die Betreiberin hält die bewilligte Fläche und ihre
+  unmittelbare Umgebung unabhängig von der Witterung sauber und in ordnungsgemässem
+  Zustand.
+- Sorgfaltspflicht (Ziff. 2.1.3, S. 6): die Betreiberin haftet persönlich, nach Zivil- und
+  Strafrecht, für Schäden an der Fläche selbst sowie durch Mobiliar, Einrichtungen und
+  Installationen verursachte Schäden. Haftungsrelevant für jede Übernahme eines Mandats.
 
 ### Öffentliche Durchgänge — Mindestmasse (Ziff. 2.2, S. 7, am Original gerendert)
 Die folgenden Werte sind aus den Illustrationen auf S. 7 abgelesen (fettgedruckte
@@ -86,11 +94,13 @@ perspektivischer Ansicht teils grössere Beispielmasse — siehe Anmerkung unten
   Gegebenheiten» (die zugehörige Illustration zeigt beispielhaft dieselben Grössenordnungen
   2,0–2,5 m wie die übrigen Situationen, aber ausdrücklich nicht als Minimalvorschrift).
 - Grundsatz: wo es die örtlichen Passantenfrequenzen erfordern, müssen die minimalen
-  Durchgangsbreiten erhöht werden (Ziff. 3.3.2, S. 10).
+  Durchgangsbreiten erhöht werden (Ziff. 3.3.2, S. 11).
 
 ### Mobiliar (frei bewilligungsfähig innerhalb der Fläche, Ziff. 2.3, S. 8)
-- Schirme: max. Durchmesser 3 m, Höhe 2,2–3,0 m; ab Fläche > 9 m² bzw. Kantenlänge > 3 m
-  gelten sie als «Grossschirm» = zusätzliche Baubewilligung nötig.
+- Schirme: max. Durchmesser 3 m, Höhe 2,2–3,0 m; überschreitet ein Schirm die Masse gemäss
+  Ziff. 2.5.1 (S. 9, siehe unten), gilt er als «Grossschirm» und braucht eine zusätzliche
+  Baubewilligung (Ziff. 2.3, S. 8 nennt nur die Bewilligungspflicht, nicht die Schwellenwerte
+  selbst — korrigiert in Verifikation Runde 2, siehe unten).
 - Menütafeln: Höhe/Breite/Tiefe je max. 1 m.
 - Kleine Abfallbehälter: max. 1 pro gemieteter Fläche, ausserhalb der Betriebszeiten im
   Gebäudeinnern zu lagern.
@@ -99,7 +109,7 @@ perspektivischer Ansicht teils grössere Beispielmasse — siehe Anmerkung unten
 - Zwischen einzelnen Einrichtungen: Durchgangsbreite ca. 1 m offenhalten; zwischen
   Pflanzentöpfen je zwei Durchgangsbreiten von ca. 2 m.
 - Loungemobiliar: 1 × 2 × 1 m (H×B×T), bei rücklings zusammengestellten Elementen 2 m Tiefe.
-- Strandkörbe: 2 × 2 × 1 m, nur unmittelbar entlang Hausfassaden.
+- Strandkörbe: 2 × 2 × 1 m, nur entlang von Hausfassaden möglich.
 - Serviceablagen: 1 × 2 × 1 m, ohne Kühleinheiten/Kaffeemaschinen/Ausschankanlagen (sonst
   → Installation/Ausstattung, s. u.).
 - Pflanzen inkl. Töpfe: 1 × 0,5 × 0,5 m; hohe Pflanzen inkl. Töpfe: 2 × 0,5 × 0,5 m (nur
@@ -113,15 +123,28 @@ perspektivischer Ansicht teils grössere Beispielmasse — siehe Anmerkung unten
 - Grossschirme (Einlageblatt Baubewilligungen Ziff. 1, S. 17): Fläche 9–20 m² oder
   Durchmesser > 3 m oder Kantenlänge > 3 m; nur mit Bodenhülsen (keine Sockel), Bodenhülsen
   bedürfen einer Konzession des Tiefbauamts und bleiben öffentlicher Grund; frei von
-  Drittwerbung/Seitenwänden/Volants/Heizungen/Zusatzkleinschirmen.
+  Drittwerbung/Seitenwänden/Volants/Heizungen/Zusatzkleinschirmen. Achtung Doppelspurigkeit
+  im Original selbst: die allgemeine Definition oben (Ziff. 2.5.1, S. 9) ist nach oben
+  offen formuliert («über 9 m²»), während das Einlageblatt Baubewilligungen (S. 17) die
+  Fläche auf **9 bis 20 m²** begrenzt. Beide Stellen sind wortgetreu wiedergegeben; bei
+  einem Mandat mit grossem Schirm (Fläche über 20 m²) ist diese Diskrepanz vorab mit dem
+  Amt für Baubewilligungen zu klären.
 - Aussenbuffetanlagen (Einlageblatt Baubewilligungen Ziff. 2, S. 17 f.): nur in
   Ausnahmefällen, nur unmittelbar an Gebäudefassaden mit direktem Stromanschluss;
   vorgängige Konsultationspflicht bei UGZ (Energietechnik/Bauhygiene UND
   Gesundheitsschutz) vor Baugesucheingabe; Prüfung auf Lebensmittelhygiene,
   Arbeitssicherheit, Energieverbrauch, Emissionen, hindernisfreies Bauen.
+- Rechtsgrundlagen der Aussenbuffetanlagen (Einlageblatt Baubewilligungen Ziff. 2.4, S. 18):
+  Verordnung 3 zum Arbeitsgesetz (ArGV 3, SR 822.113) Art. 2, Lebensmittelgesetz (SR 817.0)
+  Art. 15, Lebensmittel- und Gebrauchsgegenständeverordnung (LGV, SR 817.02) Art. 47,
+  Hygieneverordnung des EDI (SR 817.024.1) Art. 12.
 - Gesamtdauer des Baubewilligungsprozesses für Installationen/Ausstattungen:
   **mindestens 6 Monate**; Beizug eines Planungs-/Architekturbüros wird empfohlen
-  (Einlageblatt Baubewilligungen Ziff. 3.8, S. 18).
+  (Einlageblatt Baubewilligungen Ziff. 3.8, S. 18). Der Prozess selbst umfasst mehrere
+  Zwischenschritte (Einlageblatt Baubewilligungen Ziff. 3, S. 18), nicht nur Anfang und
+  Ende: Vorprüfung, Entscheid über die Vorprüfung, danach getrennte Eingabe von
+  Baugesuch und Konzessionsgesuch (zwei separate Gesuche, nicht eines), sowie bei
+  Werkleitungen/Statik bzw. beim Stromanschluss der vorgängige Nachweis der Machbarkeit.
 
 ### Nicht gestattete Elemente (Ziff. 2.6, S. 9)
 Einfriedungen (Hecken/Zäune/Absperrungen), Podeste/Podien/Stufen/Bühnen, Bodenbeläge wie
@@ -135,8 +158,14 @@ Art inkl. Wärmestrahler/Heizgebläse («Heizpilze»), grosse Entsorgungsbehält
 ## Verfahren und Fristen (Ziff. 3, S. 10 f.)
 
 - Kontaktstelle: Stadt Zürich, Stadtpolizei, Abteilung Bewilligungen, Kommissariat
-  Gewerbedelikte, Fachgruppe Gastro, Förrlibuckstrasse 61 / Postfach 1612, 8021 Zürich,
-  Tel. 044 411 72 40/41/43, bewilligungen@stp.stzh.ch (Ziff. 3.2, S. 10).
+  Gewerbedelikte, Fachgruppe Gastro. Strassenadresse: Förrlibuckstrasse 61, 8005 Zürich.
+  Postadresse: Postfach 1612, 8021 Zürich. Tel. 044 411 72 40/41/43,
+  bewilligungen@stp.stzh.ch (Ziff. 3.2, S. 10; die Angabe steht wortgleich zweimal im
+  Dokument, auch im Einlageblatt Baubewilligungen, S. 18). Achtung: Strassen- und
+  Postadresse haben unterschiedliche PLZ (8005 bzw. 8021) und dürfen für ein Anschreiben
+  nicht zu einer Adresse verschmolzen werden (Rule `identifikatoren-verifizieren`) —
+  korrigiert in Verifikation Runde 2, siehe unten; das Erstdestillat führte hier
+  fälschlich die kombinierte Form «Förrlibuckstrasse 61 / Postfach 1612, 8021 Zürich».
 - Unentgeltliche Vorabberatung durch Tiefbauamt, Fachbereich Gestaltung Stadträume,
   Beauftragter Boulevardgastronomie (Ziff. 3.1.2, S. 10).
 - Grundrissplan im Massstab 1:100, mit vermassten Flächen, öffentlichen Durchgängen,
@@ -153,6 +182,13 @@ Art inkl. Wärmestrahler/Heizgebläse («Heizpilze»), grosse Entsorgungsbehält
   persönlich für den ordnungsgemässen Betrieb; Boulevardgastronomie muss einem Innenbetrieb
   mit Küche, Buffetanlagen, Gästetoiletten sowie Personaltoiletten/-garderoben angegliedert
   sein (Ziff. 4.1.1, S. 12).
+- Untervermietungsverbot (Ziff. 4.1.2, S. 12): die Untervermietung der bewilligten Fläche
+  an Dritte ist nicht gestattet, die Fläche darf ausschliesslich für den eigenen
+  Boulevardbetrieb der Patentinhaberin genutzt werden.
+- Betriebliche Anforderungen (Ziff. 4.2.3, S. 12): die Durchgangsbreiten und die
+  Vermassungen/Abstände von Mobiliar und Einrichtungen sind jederzeit einzuhalten, auch im
+  laufenden Betrieb; zudem gelten die allgemeinen Vorgaben zu Arbeitssicherheit und
+  Gesundheitsschutz der Arbeitnehmenden.
 - Betriebszeiten: max. **5–24 Uhr**, Einschränkungen möglich (Wohngebiete, Altstadt,
   Innenhöfe) (Ziff. 4.2.1, S. 12).
 - Sommersaison: **1. März bis 31. Oktober**; Wintersaison: **1. November bis Ende

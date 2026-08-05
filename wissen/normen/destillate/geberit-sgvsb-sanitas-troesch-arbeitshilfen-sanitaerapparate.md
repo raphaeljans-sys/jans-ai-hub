@@ -2,11 +2,11 @@
 titel: "Sammelscan Planungshilfen Sanitärapparate (GEBERIT / SGVSB / Sanitas Troesch)"
 quelle: "PL - 02_Recht_Norm/09_Sanitaereinrichtung/Arbeitshilfen Sanitärapparate.pdf"
 herausgeber: "KEIN Einzelherausgeber — Sammelscan aus mindestens drei Quellen: GEBERIT (Planungsunterlagen, zwei verschiedene Nummernkreise «Tabelle 1.9–1.11» und Seiten 33/46/52/54), ein mit «SGVSB» gekennzeichnetes Blattwerk (Seiten «000-1»/«000-2», Kürzel nicht aufgelöst), Sanitas Troesch AG (Seite «5», Fusszeile «01.03»)"
-ausgabe: "Kein einheitlicher Titel/Ausgabestand für die ganze Datei (11 gescannte Seiten, davon Seite 8 und Seite 9 identisches Duplikat derselben Tabelle). Einzelne Datierungen nur fragmentarisch lesbar: SGVSB-Blatt «000-1» nennt «ersetzt Ausgabe: 11-1997», SGVSB-Blatt «000-2» nennt «ersetzt Ausgabe: 11-1999» (das Feld «gültig ab» selbst ist auf beiden Blättern nicht lesbar/nicht ausgefüllt); Sanitas-Troesch-Seite trägt den Fusszeilen-Code «01.03» (vermutlich Januar 2003, nicht sicher). Die GEBERIT-Seiten tragen kein sichtbares Ausgabedatum."
-gelesen: "Run 42 (030826): alle 11 Seiten vollstaendig und visuell (Read-Tool, Parameter pages, Scan ohne Textlayer)"
-datenstand: "uneinheitlich — kein Datum fuer die Gesamtdatei belastbar; aelteste erkennbare Referenz 11-1997 (SGVSB), juengste erkennbare Referenz 01.03 (Sanitas Troesch, ungesichert)"
-status: "speculative (Erstdestillat Run 42, 03.08.2026, noch keine unabhaengige Verifikation)"
-last_updated: 2026-08-03
+ausgabe: "Kein einheitlicher Titel/Ausgabestand für die ganze Datei (11 gescannte Seiten, davon Seite 8 und Seite 9 identisches Duplikat derselben Tabelle). Datierung der SGVSB-Blätter korrigiert in Run 45 (06.08.2026): beide Blätter «000-1» und «000-2» sind identisch datiert — «gültig ab / valable dès: 11-1999» (klar lesbar) und «ersetzt Ausgabe / Edition remplacée: 11-1997». Die beiden Blätter unterscheiden sich in der Datierung nicht. Sanitas-Troesch-Seite trägt den Fusszeilen-Code «01.03» (vermutlich Januar 2003, nicht sicher). Die GEBERIT-Seiten tragen kein sichtbares Ausgabedatum; PDF-Metadaten nennen als Scanner «KONICA MINOLTA bizhub C280» und als Erstellungsdatum des Scans 13.07.2012 — das ist kein Publikationsdatum, aber ein objektiver Anhaltspunkt, dass der Scan spätestens ab Juli 2012 existierte."
+gelesen: "Run 42 (030826): alle 11 Seiten vollstaendig und visuell (Read-Tool, Parameter pages, Scan ohne Textlayer). Run 45 (060826): Verifikation, alle 11 Seiten bei 300 dpi neu gerendert und abgelesen, S. 8 gegen S. 9 zusaetzlich per Pixel-Diff."
+datenstand: "uneinheitlich — kein Datum fuer die Gesamtdatei belastbar; aelteste erkennbare Referenz 11-1997 (SGVSB, beide Blätter), gültig-ab-Referenz 11-1999 (SGVSB, beide Blätter), juengste erkennbare Referenz 01.03 (Sanitas Troesch, ungesichert); Scan-Datum 13.07.2012 (PDF-Metadaten, kein Ausgabedatum)"
+status: "speculative (Erstdestillat Run 42, 03.08.2026. Verifikation Run 45 (06.08.2026), Verdikt BEANSTANDET, 4 Kernbefunde, 2 Nebenbefunde und 3 Abdeckungsluecken eingearbeitet)"
+last_updated: 2026-08-06
 links: [[REGISTER]]
 ---
 
@@ -156,11 +156,18 @@ Sechs Grundriss-Skizzen ohne benannte Raumtypen (nur Gesamtbreite/-höhe und App
 
 1. Breite 235 (40+75+120), WC + Waschbecken 60×50 + Badewanne 170×75.
 2. Breite 100 (60+40), WC + kleines Becken, Höhe 170 (Teilhöhe 105).
-3. Breite 205 (90+115), Eckdusche 90×55, Höhe 165 (Teilhöhen 90/35/40).
+3. Breite 205 (90+115), Waschbecken 90×55 (Korrigiert Run 45, 06.08.2026: das bemasste Feld
+   sitzt eindeutig beim rechteckigen Waschbecken mit Wasserhahn-Symbol rechts im Grundriss,
+   nicht bei der Eckdusche; die fünfeckige Eckdusche links trägt im Scan keine eigene
+   Massangabe), Höhe 165 (Teilhöhen 90/35/40).
 4. Breite 245 (40+70+45+90), WC + Becken + Eckdusche, Höhe 160.
-5. Breite 320 (40+75+75+130), WC + Bidet + Becken 65×53 + Wanne (Breitenangabe 50, Länge 170),
+5. Breite 320 (40+75+75+130), WC + Bidet + Becken 65×53 + Wanne (Breitenangabe 50, Länge 170;
+   die erste Ziffer ist im Scan zwischen 5, 6 und 8 kaum unterscheidbar, «60» mindestens
+   ebenso plausibel — Wert als **unsicher** gekennzeichnet, Run 45),
    Höhe 170.
-6. Breite 160 (45+70+45), Becken 62×49 + WC-Modell «Clasomat», Höhe 160.
+6. Breite 160 (45+70+45), Becken 62×49 + WC-Modell «Closomat» (Korrigiert Run 45, 06.08.2026:
+   Transkriptionsfehler, richtig «Closomat» — reale Wand-WC-Marke Clos-o-Mat, nicht
+   «Clasomat»), Höhe 160.
 
 Fusszeile (rechtlicher Hinweis, sinngemaess wiedergegeben, kein Wortlaut-Zitat): Haftung fuer
 Folgen fehlerhafter oder unvollstaendiger Massangaben gemaess Art. 100 OR ausgeschlossen.
@@ -221,7 +228,8 @@ GWA 1, WM 1, TU 1.
 
 Erhöhter Ausbaustandard (Eigentumswohnungen/Eigenheim) — 1–2 Pers.: WC 1, WT 1, BW 1, DU 1,
 UR 1, SP 1, GWA 1, WM 1, TU 1. — 3–4 Pers.: WC 2, WT 2, BW 1, DU 1, UR 1, SP 1, GWA 1, WM 1,
-TU 1. — 5–7 Pers.: WC 3, WT 3, BW 1, DU 2, UR 1, SP 1, GWA 2, WM 1, TU 1.
+TU 1. — 5–7 Pers.: WC 3, WT 3, BW 1, DU 2, UR 1, SP 2, GWA 1, WM 1, TU 1. (Korrigiert Run 45,
+06.08.2026: SP und GWA waren vertauscht, richtig SP 2 und GWA 1, nicht SP 1 und GWA 2.)
 
 Der Fliesstext (S. 10) haelt fest: Anzahl/Groesse von Sanitärräumen haengen von der
 Personenzahl ab, die Gebäudeart ist zu beruecksichtigen. Bei mehreren Personen in einer Wohnung
@@ -237,13 +245,18 @@ Verantwortlicher erfordert: Grundrissplanung, Planung/Ausfuehrung des Baukoerper
 Ausfuehrung der haustechnischen Anlagen, Planung/Ausfuehrung besonderer
 Schallschutzmassnahmen, Auswahl/Anordnung der geraeuscherzeugenden Einrichtungen.
 
-Empfohlene Grundrissmassnahmen: konzentriertes Anordnen der Nasszellen, uebereinander
-Anordnen der Nasszellen, zentrale Anordnung der Installationsschaechte im Bereich der
-Nasszellen, Vermeiden von Verbindungen zu laermempfindlichen Raeumen (insbesondere
-flankierende Massivwandschalen > 200 kg/m²). Aufenthaltsraeume sind Wohn-, Schlaf- und
-Arbeitsraeume. Liegen Sanitärapparate/Armaturen/Leitungen an Waenden, die nicht an einen
-Aufenthaltsraum grenzen, gilt dies als bauakustisch guenstig; alternativ das Zwischenschalten
-eines nicht schutzbeduerftigen Raums (Beispiel im Dokument: Abstellraum) zwischen Bad und
+Empfohlene Grundrissmassnahmen (fuenf, nicht vier — Ergaenzung Run 45, 06.08.2026):
+konzentriertes Anordnen der Nasszellen, uebereinander Anordnen der Nasszellen, zentrale
+Anordnung der Installationsschaechte im Bereich der Nasszellen, Vermeiden von Verbindungen zu
+laermempfindlichen Raeumen (insbesondere flankierende Massivwandschalen > 200 kg/m²), sowie
+als fuenfte Massnahme: laermempfindliche Raeume sind durch Trennwaende ohne Installationen,
+die einen genuegenden Luftschalldaemmwert aufweisen, von den Nasszellen zu trennen.
+Aufenthaltsraeume sind Wohn-, Schlaf- und Arbeitsraeume. Liegen Sanitärapparate/Armaturen/
+Leitungen an Waenden, die nicht an einen Aufenthaltsraum grenzen, gilt dies als bauakustisch
+guenstig; das Original nennt dazu zwei Alternativen zur unguenstigen Anordnung (Ergaenzung
+Run 45, 06.08.2026, die erste fehlte bisher): erstens die gegenueberliegende Anordnung von
+Baedern unterschiedlicher Wohnungen, zweitens das Zwischenschalten eines nicht
+schutzbeduerftigen Raums (Beispiel im Dokument: Abstellraum) zwischen Bad und
 schutzbeduerftigem Raum.
 
 Bild 33 zeigt einen Beispielgrundriss: guenstig, wenn die Installationswand zwischen Bad und
@@ -262,7 +275,9 @@ Schallschutzmatte trennt die schallharte WC-Schuessel von der Wand, im Bereich d
 Befestigungsschrauben uebernehmen mitgelieferte Schallschutzhuelsen die Trennung. Im
 angrenzenden sowie im diagonal darueber/darunter liegenden Raum werden dadurch laut Text
 grosse Verbesserungen erzielt — mit Verweis auf eine «Tabelle 29», die in den vorliegenden
-Seiten ebenfalls **nicht enthalten** ist.
+Seiten ebenfalls **nicht enthalten** ist. Das Original verweist zudem auf ein drittes, in
+den vorliegenden 11 Seiten ebenfalls **nicht enthaltenes** Element (Ergaenzung Run 45,
+06.08.2026): «Bild 32» (Funktionsgeraeusch der Spuelung).
 
 ## Offene Punkte
 
