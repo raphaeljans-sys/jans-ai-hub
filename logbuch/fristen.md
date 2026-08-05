@@ -3,6 +3,23 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 05.08.2026 (Hub-Chef 08:39, Mail Stadelmann 07:49 — **Unternehmer wartet heute,
+Entwurf liegt bereit, Freigabe Raphael**): **KISPI 2619 Leichtbauwände: Estermann kann
+ohne aktuelle Plangrundlage nicht einmessen.** Othmar Stadelmann (Bauführer, Estermann
+Gipserunternehmen AG) meldet, die am 03.08. gelieferte Grundlage stamme aus dem Jahr 2000
+und sei überholt; ohne die letzte Version «wird es heute oder morgen mit einmessen nichts».
+Am Beleg geprüft: aktueller Ausführungsstand ist der Satz vom **21.07.2026** unter
+`33.01_JANS/02 Plangrundlagen Ausführung` (2619-4.1 Umbauplan, 4.2 Abbruchplan,
+4.3 Neubauplan, 4.4 Endzustand, je 1:100, DWG des Endzustands vorhanden). Entwurf mit den
+vier Plänen angelegt (Cc Spörri, Ziegel). **Zweiter, gekoppelter Punkt in derselben Mail:**
+aus Ziegels heute 08:31 gelieferten Innenwand-Kommentaren sind zwei Bringschulden des
+Systemhalters offen, nämlich die schriftliche Bestätigung des Wandanschlusses auf den
+Estrich von 80 mm durch den Zulassungsinhaber und der Abgleich, ob der Hohlraum gegenüber
+der VKF-Anerkennung 22636 als Abweichung gilt; betroffen ist die Metallständerwand Rigips
+Sigma CW50/100 (EI 90-RF1, D = 100 mm). Ziegel ist ab 06.08. bis **18.08.2026** abwesend,
+die Antworten sollten bei seiner Rückkehr vorliegen. Status: **offen, Versand-Freigabe
+Raphael; Rücklauf der zwei Bestätigungen bis spätestens 18.08.2026.**
+
 Eintrag 05.08.2026 (Gespräch Mac Mini 04.08.2026 13:34–13:52, Konversations-Destillat —
 **neue Pendenz, unversendeter Entwurf, Freigabe Raphael nötig**): **KISPI 2619 LOS_273.35
 Küchenbau — die Mail an die Röthlisberger AG zum Installationsplan Elektro/Sanitär
@@ -22,7 +39,11 @@ gestellte Rückfrage, ob der Entwurf stattdessen als Antwort im bestehenden Thre
 «LOS_273.35 Küchenbau RÖTHLISBERGER» eingebaut werden soll, ist unbeantwortet — solange
 das offen ist, hängt der Entwurf ohne Threadbezug. Berührt den bereits geführten
 KISPI-Komplex (Auflagebereinigung 1171/26, Fachplanungs-Koordination Gruner), das Los
-273.35 ist im Register neu. Status: **offen, Versand-Freigabe Raphael.**
+273.35 ist im Register neu. Status: **ERLEDIGT 04.08.2026** — am Beleg in «Gesendete Elemente» geprueft: versendet am
+04.08. um 13:58 an Lanz und Inniger, Cc Spoerri, ein Anhang. Damit ist auch die Thread-Frage
+beantwortet, versendet wurde die eigenstaendige Fassung. Der Punkt stand nur deshalb noch
+offen, weil das Konversations-Destillat Session-Transkripte liest und eine Handlung nach
+Sessionende nicht sehen kann.
 
 Eintrag 05.08.2026 (Lauf-Abbruch MacBook Pro 05.08.2026 01:28, Konversations-Destillat —
 **P1-Blocker, Aktion nur durch Raphael möglich**): **Der Nachtbetrieb des MacBook Pro ist
@@ -38,7 +59,11 @@ zum Befund des vollgas-Chef-Radars vom 05.08. 00:57, wonach die vorgeschriebene
 Fensterprobe zum vierten Mal in Folge ohne Ausgabe hängt. Freigabe durch einen Befehl:
 `kill 54048 87945`. Nebenpunkt aus demselben Lauf: der Vorrang-Auftrag im Task-Text der
 Normen-KB ist seit Run 38 erledigt und wird seit sechs Läufen neu festgestellt, der
-Task-Text gehört bereinigt. Status: **offen, jeder weitere Nachtslot fällt bis dahin aus.**
+Task-Text gehört bereinigt. Status: **ENTSPANNT 05.08.2026 08:39** — nachgemessen: beide PIDs laufen nicht mehr, `ps` auf
+54048/87945 liefert nichts und `pgrep -f "claude (-p|--print)"` ist leer. Das Gate ist frei,
+`kill` ist nicht mehr noetig. **Ursache unveraendert offen:** das Verwaisen der Radar-Probe ist
+nicht behoben, der Defekt kann sich in jedem Radar-Slot wiederholen. Ebenfalls offen der
+Nebenpunkt, den Vorrang-Auftrag aus dem Task-Text der Normen-KB zu entfernen.
 
 Eintrag 05.08.2026 (Wissens-Chef Run 25, MacBook Pro 04.08.2026 23:11 bis 05.08. 00:00,
 Konversations-Destillat — **wirkt in ein wiederverwendetes ausgehendes Erzeugnis**):

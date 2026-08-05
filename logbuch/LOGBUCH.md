@@ -5,6 +5,78 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef-Tagesbriefing 05.08.2026 (08:39, versendet)
+
+**Zwei neue Eingänge seit dem Radar-Briefing von 07:06, beide KISPI, beide operativ.**
+
+**1. Estermann wartet heute auf die Plangrundlage.** Othmar Stadelmann (Bauführer,
+Estermann Gipserunternehmen AG) am 05.08. 07:49: die am 03.08. gelieferte Grundlage sei
+«leider nicht mehr ganz gültig aus dem Jahr 2000», er brauche die letzte Version, um die
+Masse aufzunehmen, «sonst wird es heute oder morgen mit einmessen nichts». Am Beleg
+geprüft: der aktuelle Ausführungsstand liegt unter `33.01_JANS/02 Plangrundlagen
+Ausführung` und datiert vom **21.07.2026** (2619-4.1 Umbauplan, 4.2 Abbruchplan,
+4.3 Neubauplan, 4.4 Endzustand, je 1:100, dazu die DWG des Endzustands).
+**Aktion A5 ausgeführt:** Entwurf an Stadelmann angelegt, Cc Spörri (KISPI) und Ziegel
+(Gruner), Betreff «2619 KISPI PPTS Leichtbauwände: Plangrundlage 21.07.2026 und zwei
+Bestätigungen Systemhalter», die vier Pläne als Anhang, Body 1'770 Zeichen. Versand bleibt
+bei Raphael. QS: `korrektur` beide Ampeln gelb mit übernommenen Korrekturen (Kasus,
+geschützte Leerzeichen bei Masszahlen und Brandschutzklasse, «ab morgen» durch das Datum
+ersetzt, Deko-Trennlinie entfernt), danach `twin`-Gate.
+
+**Zum twin-Gate, weil zwei seiner Punkte nicht übernommen wurden.** Der Agent bewertete die
+Erstfassung mit Fidelity 71 und lieferte eine Veredelung. Übernommen sind die belegten
+Verbesserungen: «Systemhalter» statt «Systemhersteller» (Raphaels eigenes Wort),
+«VKF-Anerkennung Nr.» statt «VKF-Zulassung» (CH-Systematik), der nackte Imperativ statt der
+Bitte-Form (eigene Zuständigkeit über einen Dritten), Ziegel ins Cc, der schärfere
+Entschuldigungssatz und die Folgezeile. **Nicht übernommen: drei erfundene Zusagen** («die
+DWG sende ich Dir gleich nach», «ich bin heute durchgehend erreichbar», Frist «bis Freitag,
+14.08.2026») — keine davon ist von Raphael gedeckt, und die Erreichbarkeitszusage
+kollidiert mit dem Termin um 17:30. **Ebenfalls nicht übernommen: die Rückstufung auf Sie.**
+Der Agent stützte sich auf einen Korpus-Sweep, der am 27.07.2026 endet, und übersah damit
+den jüngeren Beleg: Raphaels eigene Mail vom 03.08.2026 15:23 an Stadelmann und Spörri
+öffnet mit «Geschätzter Othmar, werter Michael» und führt «Ich bin Euch dankbar wenn Ihre
+Euch … koordiniert». Du ist belegt und bleibt. Für `rules/anrede-kontakte.md` ist Stadelmann
+damit ein Kandidat für eine eigene Zeile (Du, operativ, Vorname).
+
+**2. Ziegel hat um 08:31 die kommentierten Innenwände geliefert** — das Ergebnis der
+Teams-Sitzung von 08:00. Anhang `Bemerkungen …` (5.1 MB), Plansatz 33.20 bis 33.34,
+Architektenplan datiert 23.07.26. Aus den Annotationen ausgelesen, neu gegenüber dem Stand
+vom 03.08.: der Wandtyp ist als **Rigips Metallständerwand Sigma CW50/100** beschrieben
+(Glaswolle RIS 45 mm, beidseitig 2 x 12.5 mm Duraline Vario, D = 100 mm, Anwendung
+**EI 90-RF1**, Hgepr = 3000 mm); der **Anschluss auf das feuerwiderstandsfähige Bauteil,
+hier der Estrich von 80 mm, ist beim Zulassungsinhaber schriftlich bestätigen zu lassen**
+(zweifach vermerkt, S7 und Folgeseite); **abzugleichen ist, ob der Hohlraum gegenüber der
+VKF-Anerkennung 22636 als Abweichung gilt**; bei den Schiebetüren «nur ein System angeben»;
+und quittiert «Ja gem. BSK übergeordnet und SN Umbau 1.OG i.O.». Die beiden erstgenannten
+Punkte sind eine Bringschuld des Systemhalters, nicht der Planung, und gehen deshalb im
+Entwurf an Estermann. Ziegel ist ab 06.08. bis 18.08.2026 abwesend.
+
+**Nebenbefund zu den Entwürfen:** im Entwurfsordner liegen bereits **zwei eigene,
+unversendete Entwürfe an Stadelmann** — eine Weiterleitung von Ziegels Innenwand-PDF
+(«WG: 260805_Kispi Bettenstation 1.OG …», Cc Ziegel und Spörri, 7.2 MB) und eine begonnene
+Antwort «AW: KISPI PPTS: Koordination Ausführung LBW». Mit dem heute angelegten Entwurf
+sind es drei an denselben Empfänger. Im Briefing als Entscheid vorgelegt, nichts davon
+angefasst.
+
+**Korrektur des Betriebsstands von 07:15, gemessen statt fortgeschrieben:** die beiden
+verwaisten Fensterproben (PID 54048 und 87945), die seit 00:58 das Lauf-Gate des MacBook Pro
+sperrten, **laufen nicht mehr**; `ps` auf beide PIDs liefert nichts, `pgrep -f "claude
+(-p|--print)"` ist leer. Das Gate ist frei, `kill` ist nicht mehr nötig. Die Ursache, das
+Verwaisen der Radar-Probe, ist unverändert offen, der Defekt kann sich also wiederholen.
+
+**Was der Chef heute nicht angefasst hat.** Keine Mahnaktion: RE-00100 hat zwar heute das
+Ende der Beobachtungsfrist erreicht, der Guard aus der Whitelist ist aber weiterhin nicht
+erfüllt, solange der Versandnachweis der neu zugestellten Rechnung fehlt. Keine Buchung,
+keine Zahlung, kein autonomer Versand.
+
+**Hub-intern, nicht im Briefing:** der Projektordner führt das Gipser-Los als
+`LOS_271.10 Gipserarbeiten ESTERMANN`. «271.10» ist kein BKP-2017-Code (Rule
+`bkp-2017-referenz`, Korrektur 04.08.2026); gemeint ist eine bürointerne Los-Nummer, der
+sachlich richtige Code für Trockenbauarbeiten ist 271.1. Damit ist der offene Ticketpunkt
+N43-1 an einem weiteren realen Ordner belegt.
+
+---
+
 ## Debitoren-Verzugscheck 05.08.2026 (08:05, read-only)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. Live-Stand bexio, fünf Rechnungen im echten

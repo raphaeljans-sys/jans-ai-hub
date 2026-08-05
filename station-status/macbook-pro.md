@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 08:56:20
+Stand: 05.08.2026 09:06:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:47)
@@ -12,4 +12,4 @@ Stand: 05.08.2026 08:56:20
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 272f7082 nas-selfcommit: 4 Datei(en) 2026-08-05 08:45
+- ea620ec9 vollgas-radar 05.08. 08:58: Fensterprobe geloest (fehlendes < /dev/null) — die eigenen Waisen-Prozesse blockierten das Lauf-Gate und erzwangen den Ruecktritt von normen-training run44; Rezept in der Task-SKILL.md korrigiert, Waisen abgeraeumt. Budget 27.7% bei 26.8% Woche, Vorsprung +0.9 = Konvergenz erreicht. energie-Taktgeber bewiesen (Nachtschicht 05:30, ecoBKP 2026)
