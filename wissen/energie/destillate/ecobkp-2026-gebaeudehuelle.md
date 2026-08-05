@@ -214,6 +214,13 @@ Eigene Einordnung, nicht Teil der Quelle:
 - **Abkürzungen «EP4»/«EP5»** (Polymerbitumenbahn-Codes, ecoBKP 224): im gelesenen Bereich nicht mit Volltitel/Norm hinterlegt; vermutlich Bahnentyp-Kennzeichnung nach SIA 281, nicht verifiziert.
 - **Aktueller Bestand des SFG-Labels/der Gründachrichtlinie**: bereits im 2008-Destillat als offen geführt (`wiki/QUESTIONS.md`, E-R25-1); der 2026-Text bestätigt nur, dass SIA 312 die massgebliche Norm ist, klärt aber den heutigen Bestand des SFG-Labels selbst nicht.
 - **BKP-2017-Abgleich**: die in diesem Destillat verwendeten ecoBKP-Nummern (221, 222, 224, 225, 226, 227, 228) sind eco-bau-eigene Merkblattnummern, keine BKP-2017-Codes nach `references/bkp-2017/BKP-2017-Liste.md` — bei Übernahme in ein Devis ist der zugehörige BKP-2017-Code separat zu verifizieren (Rule `bkp-2017-referenz.md`).
+- **Anschluss an die KB `bauprodukte` (gesetzt 05.08.2026, Cross-KB-Lauf):** Der Abschnitt
+  ecoBKP 224 / Dachbegrünung ist der aktuelle Gegenpart zu `bauprodukte/wiki/dachbegruenung-systeme`
+  (Stand 2002) und zum offenen Punkt 3 in `bauprodukte/wiki/QUESTIONS.md`; ecoBKP 225 löst die
+  dortige SIA-493-Lücke (Punkt 9). **Nicht abgedeckt:** BKP 225.4 Brandschutzbekleidungen
+  (in ecoBKP 225 nicht enthalten) sowie ecoBKP 271/281, die `bauprodukte` ebenfalls braucht.
+  Zum Artikel `bauprodukte/wiki/pu-beschichtung-fassade` (dort unter BKP 225 geführt) ist der
+  sachliche Gegenpart 2026 **ecoBKP 227 Äussere Oberflächenbehandlungen**, nicht ecoBKP 225.
 
 [[ecobkp-2026-methodik-und-uebersicht]]
 [[eco-bau-merkblaetter-bkp-2008-huelle]]

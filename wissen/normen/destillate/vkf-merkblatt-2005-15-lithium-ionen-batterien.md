@@ -1,14 +1,14 @@
 ---
-quelle: "https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-3688.pdf/content (VKF/VKG, öffentlich zugänglich; nicht im Hausbestand PL-03)"
+quelle: "https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-3688.pdf/content (VKF/VKG, öffentlich zugänglich; nicht im Hausbestand PL-03) + ergänzend VKF-FAQ 2005-01 «Lithium-Eisenphosphat-Batterien», https://services2.vkf.ch/rest/public/georg/bs/publikation/documents/BSPUB-0000003901-3176.pdf/content (2 Seiten, öffentlich publiziert)"
 herausgeber: "VKF/AEAI/AICAA (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "VKF-Brandschutzmerkblatt 2005-15de, Stand 01.06.2021"
 ersetzt: "unbekannt (Vorgänger-Ausgabe nicht geprüft; Nummernkreis 2005-15 seit 2015)"
-gelesen: "Titelblatt, Inhaltsverzeichnis, Ziff. 1 Geltungsbereich, Ziff. 3.2 Hazard Level, Ziff. 4.4-4.6 stationäre Speichersysteme (Volltext)"
-datenstand: "2021"
+gelesen: "260728 Merkblatt: Titelblatt, Inhaltsverzeichnis, Ziff. 1 Geltungsbereich, Ziff. 3.2 Hazard Level, Ziff. 4.4-4.6 stationäre Speichersysteme (Volltext). 260805 zusätzlich FAQ 2005-01 vollständig (2 Seiten, curl+pdftotext -layout)"
+datenstand: "Merkblatt 2021; FAQ 2005-01 Beschluss ABSV 09.09.2025"
 status: established
-last_updated: 2026-07-28
-verifiziert: "260728 — Original-PDF von der VKG-Publikationsplattform bezogen und volltext extrahiert; alle Kennwerte direkt aus dem Normtext, keine Sekundärquelle"
-links: [[REGISTER]], [[vkf-beherbergungskategorien]]
+last_updated: 2026-08-05
+verifiziert: "260728 — Original-PDF von der VKG-Publikationsplattform bezogen und volltext extrahiert; alle Kennwerte direkt aus dem Normtext, keine Sekundärquelle. 260805 — zusätzlich VKF-FAQ 2005-01 am Original bezogen (HTTP 200, 2 Seiten) und volltext extrahiert; löst den bis dahin hier geführten Vorbehalt zu Ziff. 1.2 auf"
+links: [[REGISTER]], [[vkf-beherbergungskategorien]], [[vkf-lithium-batteriespeicher-brandschutz]]
 ---
 
 # VKF-Brandschutzmerkblatt 2005-15de — Lithium-Ionen-Batterien (01.06.2021)
@@ -30,10 +30,11 @@ abschliessende Vorschrift — massgebend bleibt die Beurteilung durch Brandschut
   Brandverläufe mit sehr schneller Brandausbreitung.
 - **Ziff. 1.2** — Das Merkblatt beschränkt sich auf **Lithium-Ionen-Batterien inkl.
   Lithium-Polymer-Batterien**, weil die zugrunde liegenden Brandversuche mit diesen durchgeführt
-  wurden. Andere Batterietypen sind sinngemäss zu beurteilen. ⚠ **Offen:** Sekundärquellen nennen
-  eine ergänzende **VKF-FAQ 2005-01** für Lithium-Eisenphosphat (LiFePO₄/LFP), die sich im
-  stationären Gebäudebereich durchgesetzt hat — im Original **nicht verifiziert**, deshalb hier
-  nicht als Fundstelle geführt.
+  wurden. Andere Batterietypen sind sinngemäss zu beurteilen. → Genau zu dieser Ziffer existiert
+  die **VKF-FAQ 2005-01 «Lithium-Eisenphosphat-Batterien»** (Beschluss ABSV 09.09.2025). Der bis
+  05.08.2026 hier geführte Vorbehalt («Sekundärquellen nennen … im Original nicht verifiziert»)
+  ist **erledigt**: die FAQ wurde am 05.08.2026 am Original gelesen — siehe Abschnitt
+  «Ergänzung zu Ziff. 1.2: FAQ 2005-01 (LFP)» weiter unten.
 
 ## Ziff. 3.2 — Einstufung in Hazard Level (die Kerntabelle)
 
@@ -83,6 +84,50 @@ Beispiele: Hausspeicher, USV.
   **Druckentlastungsöffnungen**; **Ausräumöffnung direkt ins Freie** oder Ausräumkonzept mit
   Transport in gefülltem Wasserbehälter plus **Sprinkler und brandfallgesteuerte RWA**;
   **Feuerwehrpläne**.
+
+## Ergänzung zu Ziff. 1.2: VKF-FAQ 2005-01 «Lithium-Eisenphosphat-Batterien» (Beschluss ABSV 09.09.2025)
+
+Eigenständiges Dokument, nicht Teil des Merkblatts: FAQ-Nummer 2005-01, Bezug «Vorschrift
+2005-15, Ziffer/Absatz 1.2», Fussvermerk «Erläuterung / Interpretation — FAQ öffentlich
+publiziert». Die Antwort der ABSV bezeichnet sich selbst als **«ein möglicher Lösungsansatz …
+in Anlehnung an das VKF-Brandschutzmerkblatt 2005-15»** — sie steht damit auf derselben weichen
+Stufe wie das Merkblatt (siehe Abschnitt «Verbindlichkeit») und ist **keine** Richtlinie.
+
+**Allgemein (alle vier Bullets des Originals):**
+- Herstellervorgaben zur Aufstellung sind **unabhängig** von allen folgenden Erleichterungen
+  einzuhalten.
+- **Nicht erlaubt** ist das Aufstellen von LFP-Batteriespeichern in horizontalen oder vertikalen
+  **Fluchtwegen** sowie in **feuer- oder explosionsgefährdeten Räumen und Zonen**.
+- **Lüftungsanlagen** zur Belüftung von Brandabschnitten mit LFP-Speichern müssen gegenüber
+  angrenzenden Nutzungen **feuerwiderstandsfähig getrennt** werden — mit brandfallgesteuerten
+  **Brandschutzklappen (Kanalrauchmelder)** oder mit feuerwiderstandsfähigen Lüftungskanälen
+  direkt ins Freie.
+- In **Einfamilienhäusern und Gebäuden mit geringen Abmessungen** dürfen LFP-Batteriespeicher
+  **unabhängig der Speicherkapazität in allen Räumen** aufgestellt werden, ausser in feuer- oder
+  explosionsgefährdeten Räumen und Zonen (das Fluchtweg-Verbot des zweiten Bullets bleibt).
+
+**Aufstellung in Gebäuden:**
+- **Klein/mittel, max. 100 kWh/Brandabschnitt:** Brandabschnitt mit dem gleichen Feuerwiderstand
+  wie die nutzungsbezogene Brandabschnittsbildung, **mindestens aber EI 30**.
+- **Gross, ab 100 kWh/Brandabschnitt:** Brandabschnitt mit dem gleichen Feuerwiderstand wie die
+  nutzungsbezogene Brandabschnittsbildung, **mindestens aber EI 60**.
+
+**Aufstellung ausserhalb von Gebäuden:** LFP-Systeme beliebiger Kapazität im Freien, in
+ISO-Containern (20-/40-Fuss) oder in RF1-Nebenbauten; Schutzabstände nach **VKF-BSR 15-15
+Ziff. 2.3.1** gelten auch für ISO-Container. Zusätzlich dieselben drei Regelwerke wie in
+Ziff. 4.4 lit. d (SN 411000, SNR 460712, SIA 2061).
+
+**Delta zum Merkblatt — zwei Lockerungen, nicht eine:**
+1. Für 15-100 kWh senkt die FAQ die Anforderung von **EI 60** (Ziff. 4.5) auf **EI 30**.
+2. Für **über 100 kWh** ist das Delta grösser: Ziff. 4.6 verlangt Aufstellung im Freien/in einer
+   RF1-Nebenbaute bzw. heisse Bemessung samt Blitzschutz, Druckentlastungsöffnungen,
+   Ausräumöffnung, Sprinkler und RWA — die FAQ lässt für LFP einen **EI-60-Brandabschnitt im
+   Gebäude** genügen.
+
+**Zitierhinweis für Devis und Ausschreibung:** Weil die FAQ ausdrücklich ein Lösungsansatz ist,
+darf «EI 30 genügt» **nicht als geltende Vorgabe** ins LV. Zu schreiben ist der nutzungsbezogene
+Feuerwiderstand mit dem Mindestwert und dem Vorbehalt der Beurteilung durch Brandschutzplaner
+und Behörde; die Batteriechemie (LFP vs. NMC) ist abzufragen, weil sie den Massstab bestimmt.
 
 ## Verbindlichkeit
 Ziff. 4 (Einleitung): Die Gefährdungsbetrachtungen und Lösungsansätze sind **allgemeine

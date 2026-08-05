@@ -129,14 +129,14 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `vkf-brl-19-15-sprinkleranlagen.md` | VKF-BRL 19-15 Sprinkleranlagen | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-20-15-brandmeldeanlagen.md` | VKF-BRL 20-15 Brandmeldeanlagen | 2015 | established |
 | `vkf-brl-21-15-rauch-waermeabzugsanlagen.md` | VKF-BRL 21-15 Rauch- und Wärmeabzugsanlagen | 2015 | established (verifiziert) 260714 |
-| `vkf-brl-22-15-blitzschutzsysteme.md` | VKF-BRL 22-15 Blitzschutzsysteme | 2015 | established (verifiziert) 260714 |
+| `vkf-brl-22-15-blitzschutzsysteme.md` | VKF-BRL 22-15 Blitzschutzsysteme | 2015 (Ausgabe 2017 ist die geltende) | established (verifiziert für 2015) 260714; Fassungsstand-Delta 2017 ergänzt 260805 — Zeile c Spalte B neu II; geltende Fassung in `wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` |
 | `vkf-brl-23-15-befoerderungsanlagen.md` | VKF-BRL 23-15 Beförderungsanlagen | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-24-15-waermetechnische-anlagen.md` | VKF-BRL 24-15 Wärmetechnische Anlagen | 2015 | established |
 | `vkf-brl-25-15-lufttechnische-anlagen.md` | VKF-BRL 25-15 Lufttechnische Anlagen | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-26-15-gefaehrliche-stoffe.md` | VKF-BRL 26-15 Gefährliche Stoffe | 2015 | established (verifiziert) 260714 |
 | `vkf-brl-28-15-anerkennungsverfahren.md` | VKF-BRL 28-15 Anerkennungsverfahren | 2015 | established (verifiziert 260714, Volltextabgleich; vollstaendiger als Duplikat `vkf-brl-anerkennungsverfahren.md`, dessen Loeschung noch mit Rueckfrage aussteht) |
 | `vkf-brl-aenderungen-2017.md` | Teilrevision VKF-Brandschutzvorschriften 2017 (Gegenüberstellung 2015 vs. 2017) | 2017 | established (verifiziert 260713; Duplikat `vkf-aenderungen-brandschutzrichtlinien-2017.md`, Merge offen) |
-| `vkf-brm-2001-15-solaranlagen.md` | VKF-Brandschutzmerkblatt 2001-15 Solaranlagen | 2015 | established (Duplikat `vkf-merkblatt-2001-15-solaranlagen.md`, Merge offen) |
+| `vkf-brm-2001-15-solaranlagen.md` | VKF-Brandschutzmerkblatt 2001-15 Solaranlagen | 2015 (Bestandsfassung, historisch) | superseded seit 01.01.2017, Vollrevision 01.01.2022 — Delta-Block ergänzt 260805 (Unterdachbahnen RF3(cr) Pflicht statt RF4(cr), Schwelle «> 1200 m²», RWA-2-m nur noch im Anhang); Re-Destillat der Ausgabe 2022 offen (QUESTIONS 260805); Duplikat `vkf-merkblatt-2001-15-solaranlagen.md`, Merge weiterhin offen |
 | `vkf-bsv2015-bericht-aenderungen.md` | VKF Erläuternder Bericht Gesamtrevision BSV 2015 | Vernehmlassung 01.11.2013 | established |
 | `vkf-bsv2015-vernehmlassungsbericht.md` | VKF Erläuternder Bericht für die Vernehmlassung BSV 2015 (gleiche Quelle wie oben, Fokus prüfen) | Vernehmlassung 01.11.2013 | established (verifiziert 260713) |
 | `vkf-brandschutznorm-1-15de-bspub57.md` | VKF-Brandschutznorm 1-15 (BSPUB-Fassung) | 2015 | established |

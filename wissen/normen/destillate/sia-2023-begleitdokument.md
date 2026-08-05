@@ -4,8 +4,9 @@ herausgeber: "Schweizerischer Ingenieur- und Architektenverein (SIA), Selnaustra
 ausgabe: "SIA 2023, 1. Auflage 2004-06 (Copyright © 2004 by SIA Zurich)"
 gelesen: "S. 1-34 von 38 (Deckblatt, Inhalt, Vorwort, Kap. 0-7 vollständig, Anhänge A-D); nicht gelesen: S. 35-38 (Anhang E Checkliste hygienischer Betrieb, Anhang F Publikationen)"
 datenstand: "2004"
+ausgabe_ueberholt: "Merkblatt SIA 2023 zurueckgezogen per 1.5.2021, ersetzt durch Norm SIA 382/5:2021 «Mechanische Lüftung in Wohngebäuden» (SIA 382/1 bleibt uebergeordnet mitgeltend); REGISTER fuehrt zudem eine Zwischenausgabe 2008 (nicht im Haus). Dieses Destillat beschreibt die Ausgabe 2004 und ist historischer Stand."
 status: established
-last_updated: 2026-07-19
+last_updated: 2026-08-05
 links: [[REGISTER]]
 ---
 

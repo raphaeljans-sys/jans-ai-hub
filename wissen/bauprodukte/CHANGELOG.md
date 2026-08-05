@@ -1,5 +1,37 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-05 (Mac Mini Nachtschicht, 23:30) — ERCO-Ratgeber auf S. 95 fortgeschrieben, Kapitel «Leuchtenauswahl» + «Leuchtenanordnung» abgeschlossen
+
+Eine Einheit, budgetdisziplinierter Lauf (kein Fan-out, ein Read mit 22 Seiten via
+`pdftotext -layout`). Vor dem Lauf `grobkosten` (mehrfach bestaetigt gesaettigt, letzter
+Bring-Schuld-Check 04.08. ohne neuen Ausloeser) und `energie` (bereits zwei eigene Laeufe
+heute, Run 124 + 05:38-Nachtschicht, ecoBKP bis S. 86) geprueft und aus Kollisions-/
+Sättigungsgruenden zurueckgestellt — `bauprodukte` bleibt mit dem einzigen P1-Titel
+(`de_erco_guide.pdf`) der klare naechste Kandidat, letzte eigene Einheit 02:31 heute.
+
+- **[[erco-lichtplanung-grundlagen]]** (BKP 233 Leuchten und Lampen) von Seite 73 auf
+  Seite 95 fortgeschrieben (`de_erco_guide.pdf`, S. 74-95 gelesen). Kapitel
+  «Leuchtenauswahl» vollstaendig abgeschlossen: Lichtverteilung (direkt/indirekt,
+  breit/eng, symmetrisch/asymmetrisch, horizontal/vertikal), Sonderanfertigung vs.
+  Serienleuchte, Lichtfarbe, Montagearten (integriert/additiv, fest/flexibel),
+  Blendung/UGR, Beleuchtungsstaerke (Saettigung ab ~1'000 Lux), Sicherheitsanforderung
+  (IP-Schutzart, Schutzklasse). Kapitel «Leuchtenanordnung» vollstaendig: Boden/Wand/
+  Decke/Objekt-Montageabstaende (Museumswinkel 30°), Punktraster vs. lineare Elemente.
+  Kapitel «Montage» begonnen (Decke: abgehaengte Decken, Paneeldecken, Deckenkanal).
+  Frontmatter (`gelesen`, `sources`, Titel) nachgefuehrt; vier neue
+  Praxisrelevanz-Punkte ergaenzt (UGR/IP als LV-taugliche Kennwerte,
+  Montageabstands-Faustregeln als Vorprojekt-Check, Museumswinkel). Weiterhin
+  herstellerneutral — keine ERCO-Produktangaben in den gelesenen Abschnitten.
+- Editionsdaten-Beobachtung bestaetigt sich weiter: S. 74-95 durchgehend Edition
+  26.06.2006 — nach dem Wechsel auf S. 69-73 (2010/2006 im Wechsel) wieder ein
+  laengerer einheitlicher Block.
+- Register nachgefuehrt: `skills/wissens-destillat/training/bauprodukte-inventar.md`
+  (Zeile `de_erco_guide.pdf` auf S.1-95), `training/PROGRAMM.md` (Stand-Absatz),
+  `wiki/INDEX.md` (Eintrag BKP 233 auf S.1-95 mit erweiterter Themenliste).
+- **Bewusst nicht ausgefuehrt:** Web-Pruefung der aktuellen erco.com/guide-Fassung
+  (nicht Teil des Laufs, weiterhin in den Offenen Punkten vermerkt).
+- Kein Git ueber SMB, kein Fan-out. Zyklus-Budget siehe Logbuch-Journalzeile.
+
 ## 2026-08-05 (Mac Mini Nachtschicht, 02:31) — ERCO-Ratgeber auf S. 73 fortgeschrieben, Kapitel «Gestalten mit Licht» abgeschlossen
 
 Eine Einheit, budgetdisziplinierter Lauf (kein Fan-out, ein Read mit 20 Seiten). Vor dem

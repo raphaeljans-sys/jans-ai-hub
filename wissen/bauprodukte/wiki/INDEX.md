@@ -14,11 +14,14 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
-- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-53 von ca. 435):
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-95 von ca. 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
   (Lichtrichtung/-verteilung/Kontrastskala), Mit Lichtfarben gestalten (Farbe,
-  Farbsysteme, Lichtfarbe, Farbmischung). Weitere Kapitel offen (Lichttechnik,
+  Farbsysteme, Lichtfarbe, Farbmischung, Farbwiedergabe/-wirkung, Itten-Kontraste),
+  Planungspraxis (Projektanalyse, Lampen-/Leuchtenauswahl vollständig inkl.
+  Lichtverteilung/Montagearten/UGR/Beleuchtungsstärke/IP-Schutzart, Leuchtenanordnung
+  vollständig, Montage begonnen). Weitere Kapitel offen (Montage Rest, Lichttechnik,
   Aussenraumbeleuchtung, Lichtsteuerung, Simulation, Glossar)
 
 ### BKP 261 — Aufzüge

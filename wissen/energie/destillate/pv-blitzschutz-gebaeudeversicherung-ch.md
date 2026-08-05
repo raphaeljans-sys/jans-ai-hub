@@ -5,7 +5,7 @@ ausgabe: diverse Web-Ratgeber/Amtsseiten, Abruf 2026-07-25; VKF-Brandschutzmerkb
 gelesen: Web-Recherche 2026-07-25 (Sonnet-Rechercheagent, WebSearch/WebFetch); Run 91 (2026-07-25): drei VKF-Primärdokumente vollständig per curl+pdftotext gelesen
 datenstand: 2026-07-25
 status: established (Blitzschutz-Kernaussage und Batteriespeicher-Brandabschnittsschwellen jetzt ziffern-genau am VKF-Original verifiziert; GVZ-Prämienmechanik und VKF-Richtlinie 22-15 selbst bleiben offen)
-last_updated: 2026-07-25
+last_updated: 2026-08-05
 ---
 
 # Destillat — Blitzschutz-Pflicht und Gebäudeversicherung bei PV-Anlagen (+ Batteriespeicher) CH
@@ -41,15 +41,20 @@ private Feuerversicherung, kein Monopol) grundsätzlich unterschiedliche Versich
   (Schutzziele Brandschutznorm 1-15), konkretisiert im «VKF Brandschutzmerkblatt Solaranlagen» bzw.
   im Swissolar-STP (Update 14.02.2023) → `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
 - **Ziffern-genau am VKF-Original verifiziert (Run 91, 2026-07-25):** VKF-Brandschutzmerkblatt
-  «Solaranlagen», Dok.-Nr. 2001-15de, Ausgabe 01.01.2022 (genehmigt VKF-Fachkommission Brandschutz
-  08.12.2021), Kap. 3.1 «Elektrische Gefahren» Abs. 3, S. 5 von 15 — wörtlich: *«Solaranlagen führen
+  «Solaranlagen», Dok.-Nr. 2001-15de, Ausgabe 01.01.2022 (genehmigt durch die Technische Kommission
+  Brandschutz VKF (TKB), Ziff. 5, S. 11, am
+  08.12.2021), Kap. 3.1 «Elektrische Gefahren» Abs. 3, S. 6 von 15 — wörtlich: *«Solaranlagen führen
   zu keiner Blitzschutzpflicht sofern dies gemäss der VKF-Brandschutzrichtlinie 22-15 „Blitzschutz-
   systeme" für dieses Gebäude nicht gefordert wird. Sind Blitzschutzsysteme vorhanden, ist die
   Solaranlage in das Blitzschutzsystem zu integrieren. PV-Anlagen sind zusätzlich in das
   Überspannungsschutzsystem einzubeziehen.»* Über zwei unabhängige, textidentische Spiegel verifiziert
   (VKG-REST-API `services.vkg.ch`, GVL Luzern `gvl.ch`) sowie gegen die Vorgängerfassung (Dok.-Nr.
-  20001-15de, Ausgabe 06.03.2015, via assekuranz.ch) inhaltlich stabil bestätigt (2015er-Fassung nennt
-  zusätzlich SNR 464022/NIN 7.12.4.4 im selben Absatz). **Damit gilt:** massgebend dafür, OB ein
+  2001-15de, Ausgabe 06.03.2015, via assekuranz.ch) inhaltlich stabil bestätigt (2015er-Fassung nennt
+  zusätzlich SNR 464022/NIN 7.12.4.4 im selben Absatz) — unmittelbare Vorgängerfassung ist allerdings
+  die Ausgabe 01.01.2017 (12 S.), die in Ziff. 3.2.3 bereits die RF3(cr)-Pflicht enthält; der
+  Vergleich 2022↔2015 überspringt eine Revision. Dieser Lauf hat nur Ziff. 3.1 (Blitzschutz)
+  geprüft, während Ziff. 3.2.3 drei Verschärfungen enthält (Fassungsstand dort über die KB `normen`
+  prüfen). **Damit gilt:** massgebend dafür, OB ein
   Gebäude überhaupt blitzschutzpflichtig ist, bleibt einzig die separate VKF-Brandschutzrichtlinie
   22-15 «Blitzschutzsysteme» — nicht die Solaranlage selbst; deren eigene Kriterien (Gebäudetyp/-höhe/
   -nutzung) konnten in diesem Lauf nicht eingesehen werden (Downloadversuch traf ein anderes, älteres
@@ -161,4 +166,5 @@ Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse
   recherchiert (ausserhalb amtlicher Quellenlage, projektspezifisch beim jeweiligen Versicherer klären).
 
 Querbezug: `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` (PV-Brandschutz allgemein),
-`[[batteriespeicher-heimspeicher-pv-ch]]` (Batteriespeicher wirtschaftlich/technisch), `[[pv-solar-technologien]]`.
+`[[batteriespeicher-heimspeicher-pv-ch]]` (Batteriespeicher wirtschaftlich/technisch), `[[pv-solar-technologien]]`,
+`wissen/normen/destillate/vkf-brm-2001-15-solaranlagen.md` (KB `normen`, führend für Fundstelle und Fassungsstand des Merkblatts 2001-15 — dort ist der Bestand die **historische** Ausgabe 2015 mit dokumentiertem Delta; ein Destillat der geltenden Ausgabe 01.01.2022 ist als Bring-Schuld angemeldet, aber noch nicht erstellt).

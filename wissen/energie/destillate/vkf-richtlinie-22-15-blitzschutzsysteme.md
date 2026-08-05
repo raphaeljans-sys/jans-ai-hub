@@ -80,6 +80,18 @@ Zusatz zu e/f: «Betreffend der Absätze e und f siehe auch die Brandschutzricht
 der GVZ-Weisung 20.06 aus der separaten VKF-Brandschutzrichtlinie «Gefährliche Stoffe»
 Ziffer 3.5.3 zitiert — Dokumente sauber auseinanderhalten.
 
+**Fassungs-Falle im JANS-Archiv (verifiziert 05.08.2026):** Die im Büro abgelegten PDFs sind die
+**überholte Ausgabe 01.01.2015** — an beiden Orten byte-identisch
+(`PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Blitzschutzsysteme.pdf` und
+`PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/Blitzschutzsysteme.pdf`, je
+349'273 Bytes). Volltext-Diff gegen die hier destillierte Ausgabe 2017: **einzige geänderte Zahl
+der gesamten Tabelle a-j ist Zeile c (besonders hohe Bauwerke / Hochhäuser > 30 m), Spalte B:
+2015 = III, 2017 = II** — die Anforderung wurde erhöht. Dazu Spaltenkopf «SEV-Leitsätze 4022» →
+«SNR 464022» und Jahresangaben bei SN EN 62305-1:2011/-2:2012. Wer bei einem Hochhausprojekt das
+abgelegte Büro-PDF verwendet, unterspezifiziert den inneren Blitzschutz um eine Klasse.
+Parallel-Destillat der Fassung 2015 (mit dokumentiertem Delta):
+`wissen/normen/destillate/vkf-brl-22-15-blitzschutzsysteme.md`.
+
 ### JANS-Healthcare-Doppelkriterium (wichtigste Erkenntnis für Spital-/Pflegeheimprojekte)
 Spitäler und Alters-/Pflegeheime werden **von zwei unabhängigen Kriterien** erfasst:
 1. **b[a] Beherbergungsbetriebe:** ab **20 oder mehr** dauernd oder vorübergehend auf fremde
@@ -215,4 +227,6 @@ weiterhin **nicht gefunden/beschafft** und bleibt offen (siehe `wiki/QUESTIONS.m
 Querbezug: `[[pv-blitzschutz-gebaeudeversicherung-ch]]` (PV löst keine eigene Blitzschutzpflicht
 aus, verweist auf diese Richtlinie), `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`,
 `[[vkf-richtlinie-gefaehrliche-stoffe]]` (dort ebenfalls Negativbefund zu Batteriespeicher),
-`[[batteriespeicher-heimspeicher-pv-ch]]`.
+`[[batteriespeicher-heimspeicher-pv-ch]]`, `wissen/normen/destillate/vkf-brl-22-15-blitzschutzsysteme.md`
+(Parallel-Destillat der überholten Ausgabe 2015, Führung für Norm-Fundstellen liegt formell bei
+KB `normen`), `[[snr-464022-blitzschutz-ausfuehrung]]`.

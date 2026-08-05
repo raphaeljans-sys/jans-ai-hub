@@ -4634,9 +4634,14 @@ LFP-Systeme in EFH/kleinen Gebäuden **unabhängig von der Kapazität in allen R
 
 **Ab 15 kWh im selben Brandabschnitt (HL II):** Das allgemeine Merkblatt 2005-15 verlangt dann
 **EI 60**; die FAQ 2005-01 senkt das für **LFP-Systeme bis 100 kWh auf EI 30** — bei der
-marktführenden Chemie ist also der gelockerte Massstab praktisch der massgebende. Ab 100 kWh
+marktführenden Chemie ist also der gelockerte Massstab praktisch der massgebende. Wichtig für die
+Devisierung: die FAQ 2005-01 bezeichnet sich selbst als «möglichen Lösungsansatz» und trägt den
+Vermerk «Erläuterung / Interpretation» — die tieferen Werte sind kein Anspruch, sondern vor der
+Ausschreibung mit der Brandschutzbehörde abzustimmen. Ab 100 kWh
 (HL III) braucht es in beiden Regelwerken mindestens EI 60 bzw. eine Aufstellung im Freien/in
-einer RF1-Nebenbaute.
+einer RF1-Nebenbaute. Ebenfalls zu berücksichtigen: Lüftungsanlagen, die einen Brandabschnitt mit
+LFP-Speicher belüften, sind feuerwiderstandsfähig zu trennen (Brandschutzklappen mit
+Kanalrauchmelder oder Kanäle direkt ins Freie).
 
 **Praxis-Konsequenz für die Ausschreibung:** Die Batteriechemie (LFP vs. andere Lithium-Ionen-
 Typen wie NMC) gehört explizit abgefragt — sie entscheidet, welcher der beiden Massstäbe (EI 30
@@ -4646,7 +4651,8 @@ Hausspeicher gelten laut Merkblatt als eigenständig erhöhtes Brandrisiko.
 `[[pv-blitzschutz-gebaeudeversicherung-ch]]`, `[[vkf-richtlinie-22-15-blitzschutzsysteme]]`.
 Datenstand 2026-07-25 (Run 94). Status **established** (beide VKF-Primärquellen — Brandschutz-
 merkblatt 2005-15de + FAQ 2005-01 — vollständig via curl+pdftotext gelesen und wörtlich zitiert;
-löst den in Run 93/94 offen geführten Rechercheauftrag ab).
+löst den in Run 93/94 offen geführten Rechercheauftrag ab). Führende Fundstelle: `normen`,
+Destillat `vkf-merkblatt-2005-15-lithium-ionen-batterien`. Ergänzt/präzisiert 05.08.2026.
 
 ## F129 — Kann ich die Norm SNR 464022 (Blitzschutz-Ausführungsdetails) selbst nachlesen, um zu prüfen, ob mein Blitzschutzsystem normkonform geplant wurde?
 

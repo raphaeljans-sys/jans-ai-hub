@@ -45,19 +45,58 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    verlangte aktuelle Marktübersicht ist damit **nicht** ersetzt, der Punkt bleibt offen.
    Massgebende Fachnorm bleibt SIA 312:2013 (siehe [[dachbegruenung-systeme]], führend ist
    `wissen/normen`).
-4. **ERCO Ratgeber nur zu 53/435 Seiten destilliert (Fortschritt Mac Mini Nachtschicht,
-   31.07.2026: 20 → 40; 04.08.2026 13:30-Slot: 40 → 53):** [[erco-lichtplanung-grundlagen]]
+
+   **Nachtrag 05.08.2026 (Cross-KB-Lauf) — der 2026er-Stand liegt seit dem Vortag im Hub:**
+   `wissen/energie/destillate/ecobkp-2026-gebaeudehuelle.md`, Abschnitt «ecoBKP 224 —
+   Bedachungsarbeiten (S. 43-50)», Unterabschnitt «Dachbegrünung», ist am Original gelesen
+   (ecoBKP 2026 / V1.0, ecobau.ch, abgerufen 05.08.2026) und führt: Prioritätenstufen
+   gegenüber dem SIA-312-Mindeststandard (1. Priorität im Mittel 3 cm grössere Schichtdicke,
+   mehrere Substrattypen, Kleinstrukturen, einheimische Ansaat; 2. Priorität Mindeststandard
+   8 bis 11 cm Substrat), kalkarme Substratmischung ohne Blähton mit 10 bis 15 % organischer
+   Substanz ohne Torf, Substrathügel bis 20 cm auf über 10 % der Gründachfläche, Schutz-
+   und Filtermatten aus Recycling-Faservlies, Abstimmung Substrat/PV-Anlage (organischer
+   Anteil unter den Panels unter 5 %) sowie Problempflanzenbekämpfung von Hand
+   (Pflanzenschutzmittel auf Dächern nach ChemRRV verboten). **Status beachten:** das
+   Destillat ist `emerging` und deckt nur S. 40-65 von 138 ab; die Herausgeberangabe ist im
+   Destillat selbst als nicht verifiziert markiert. **Die hier verlangte aktuelle
+   Marktübersicht (Anbieter, Systeme, Preise) ersetzt es nicht** — der Punkt bleibt offen.
+   Massgebende Fachnorm bleibt SIA 312:2013 (führend `wissen/normen`).
+4. **ERCO Ratgeber nur zu 95/435 Seiten destilliert (Fortschritt Mac Mini Nachtschicht,
+   31.07.2026: 20 → 40; 04.08.2026 13:30-Slot: 40 → 53; 05.08.2026: 53 → 95):**
+   [[erco-lichtplanung-grundlagen]]
    deckt jetzt zusätzlich «Räume verbinden» vollständig (auch Aussenraum-Fälle), das
    komplette Unterkapitel «Objekte beleuchten» (Lichtrichtung 5°-45°/Optimum 30°,
    Lichtverteilung Skulpturen-/Floodlinse, Objekt betonen Kontrastskala 1:2/1:5/1:10/1:100)
-   sowie den Beginn von «Mit Lichtfarben gestalten» (Farbe, Farbsysteme CIE/Munsell,
-   Lichtfarbe Weiss/Farbig, Farbmischung). Die praxisrelevanteren Kapitel «Lichttechnik»
+   sowie «Mit Lichtfarben gestalten» **vollständig** (Farbe, Farbsysteme CIE/Munsell,
+   Lichtfarbe, Farbmischung, Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig
+   akzentuieren) und das Kapitel «Planungspraxis» weit fortgeschritten (Planungsprozess/
+   Projektanalyse/Lichtkonzept-Übersicht S. 63-68, Lampenauswahl S. 69-71, Leuchtenauswahl
+   S. 72-84 und Leuchtenanordnung S. 85-93 je vollständig, «Montage» begonnen S. 94-95 mit
+   dem Deckenteil). Die praxisrelevanteren Kapitel «Lichttechnik»
    (Kennwerte lm/W, Ra, Farbtemperatur), «Aussenraumbeleuchtung», «Lichtsteuerung»,
    «Simulation und Berechnung» sowie das Glossar sind weiterhin offen — mehrere
    Folgeläufe nötig (Lesefortschritt im Frontmatter `gelesen:` des Artikels). Nächster
-   Anschlusspunkt: S. 54, Rest «Mit Lichtfarben gestalten» (Farbwiedergabe/Farbwirkung/
-   Farbkontraste/Raumfarben/Farbig akzentuieren), danach neues Kapitel «Planungspraxis»
-   (Leuchtenauswahl/Leuchtenanordnung, ab dort auch Edition 01.03.2010 im Quellbeleg).
+   Anschlusspunkt: **S. 96**, Rest «Montage» (Wand, Boden). Der Editionsstand ist
+   uneinheitlich und im Quellbeleg seitenweise vermerkt (u.a. S. 55-56 und S. 69-71
+   Edition 01.03.2010).
+
+   **Lesefortschritt korrigiert 05.08.2026 (Cross-KB-Lauf), gemessen am Frontmatter
+   `gelesen:` des Artikels:** Das Register führte bis hierhin «53/435 Seiten» und «Nächster
+   Anschlusspunkt: S. 54» und lag damit hinter dem Artikelstand zurück; ohne diese Korrektur
+   hätte der nächste Lauf S. 54-95 doppelt gelesen.
+
+   **Abgrenzung zur KB `energie` (gesetzt 05.08.2026, Cross-KB-Lauf):** Das Kapitel
+   «Lichttechnik» ist hier als Quelle für **Lampen- und Leuchtenkennwerte** (lm/W, Ra,
+   Farbtemperatur je Lampentyp, BKP 233) angelegt — **nicht** für Beleuchtungsstärken. Die
+   raumbezogenen E_m-/UGR-Werte nach EN 12464-1 gehören nicht in ein bauprodukte-Destillat
+   (Führungsmatrix: Norm-Fundstellen führt `normen`), und ein Herstellerratgeber wäre dafür
+   nach Schreibregel 4/5 ohnehin keine zulässige Quelle. Wer sie braucht: der einzige
+   Zahlenbestand im Hub ist der **datierte** AHB-Auszug vom 19.01.2007, destilliert in
+   `../../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §14.2
+   (Healthcare-/Schulraumtypen mit E_m und UGR). Er gibt den Stand **EN 12464-1 vor 2011 /
+   SIA 2024:2006** wieder und ist **keine heutige Bemessungsgrundlage**; `normen` führt bis
+   heute kein EN-12464-1-Destillat, die Beschaffung der SN EN 12464-1:2021 ist dort offen
+   (energie-seitig registriert als E-122-6 in `../../energie/wiki/QUESTIONS.md`).
 5. **AS-Aufzüge-Dokumente ohne Datum im Dokument selbst:** [[bkp-261-aufzuege]] stützt
    die Datierung von `100426_AS_Aufzuege.pdf` und `21005312.pdf` nur auf den
    Dateinamen (JANS-Konvention YYMMDD). Vor Verwendung in einer aktuellen
@@ -97,6 +136,13 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    Empfehlung verwendbar» (Aktualitätsprüfung Run 123, 04.08.2026). **Zu den beiden hier
    offenen Punkten sagt die eco-Quelle nichts** — weder zur erreichten
    Gleitfestigkeitsklasse noch zum Reinigungs-/Pflegeverhalten. Beide bleiben offen.
+   **Nachtrag 05.08.2026: kein 2026er-Stand für diese Position.** Die vier
+   ecoBKP-2026-Destillate der KB `energie` decken ecoBKP 21/211/213/214/215, 221-228 und
+   230/240/244/250/258 ab; **ecoBKP 281 Bodenbeläge ist nicht destilliert** (der Merkblatt-
+   Bereich liegt ausserhalb der bisher gelesenen Seiten). Für diesen Punkt bleibt die Ausgabe
+   2008 die einzige Hub-interne Quelle; ein Zeiger auf `ecobkp-2026-gebaeudehuelle.md`
+   (221-228) wäre sachfremd. Kein weiterer Lauf soll dort danach suchen, solange der
+   Lesestand der KB `energie` unverändert ist.
 9. **Kein Artikel zu Holzbau und Bekleidungen — Prämisse korrigiert, GEBLOCKT mangels
    Quellmaterial (geprüft Mac Mini Nachtschicht, 31.07.2026):** Die Behauptung «das
    Quellarchiv führt die Sektionen 214, 225 und 271» ist nur zur Hälfte richtig: die
@@ -162,6 +208,37 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    weiterhin das produktseitige Material (Korpus 2 `buero-projekte` oder Entscheid Raphaels,
    das Gewerk zu überspringen). Vor jeder Verwendung in einem LV ist die geltende
    ecoBKP-Ausgabe von ecobau.ch zu ziehen.
+
+   **Nachtrag 05.08.2026 (Cross-KB-Lauf) — für zwei der drei Positionen liegt der Stand 2026
+   jetzt in-house, für die dritte nicht.** Die Zeiger oben bleiben als Stand 04.08.2026
+   gültig; zusätzlich gilt:
+   - **BKP 214 und 215** — `wissen/energie/destillate/ecobkp-2026-tragwerk-und-rohbau.md`,
+     Abschnitte «ecoBKP 214 — Montagebau in Holz / Zimmerarbeiten (S. 26-30)» und «ecoBKP 215
+     — Montagebau als Leichtkonstruktion (S. 31-34)». Neu gegenüber 2008 sind unter anderem
+     die quantifizierte Formaldehyd-Schwelle (Ausgleichskonzentration höchstens 0,02 ppm,
+     nicht empfohlen über 0,03 ppm) mit der Zuordnung der Leimsysteme (formaldehydfrei
+     PMDI/PU/PVAc, formaldehydhaltig UF/MUF/PF), die Prioritätenraster für Tragwerke,
+     Unterdächer, Beplankungen, Fassadenbekleidungen und Dämmungen, das ausdrückliche «nicht
+     empfohlen» für Montage- und Füllschäume sowie die 2026 neuen Vorgaben zu Rückbaubarkeit
+     und Wiederverwendung von Holzbauteilen.
+   - **BKP 225** — `wissen/energie/destillate/ecobkp-2026-gebaeudehuelle.md`, Abschnitt
+     «ecoBKP 225 — Spezielle Dichtungen und Dämmungen (S. 51)». Wichtigste Änderung: wo 2008
+     die Prüfung «anhand SIA-Deklarationsraster 493.07» stand (SIA 493 ist seit 30.06.2022
+     archiviert), verlangt die Ausgabe 2026 an derselben Stelle **Emicode EC1 bzw. EC1plus**
+     (belegt ebenda, Abschnitt «Was sich gegenüber der Ausgabe 2008 geändert hat»).
+     **Unverändert gilt:** zu den Brandschutzbekleidungen BKP 225.4 trägt auch die Ausgabe
+     2026 nichts bei — ecoBKP 225 umfasst dort nur Fugendichtungs- und Vergussmassen sowie
+     Klebstoffe.
+   - **BKP 271 Trockenbau** — **kein 2026er-Destillat.** ecoBKP 271 Gipserarbeiten liegt
+     ausserhalb der bisher gelesenen Seiten; hier bleibt allein der Stand 2008 (Zeiger oben)
+     die Hub-interne Quelle. Nicht pauschal auf «Stand 2026» heben.
+
+   **Status- und Verwendungsvorbehalt:** beide 2026er-Destillate sind `emerging` und
+   Teillesungen (S. 18-39 bzw. S. 40-65 von 138). Der Satz oben, vor jeder LV-Verwendung die
+   geltende ecoBKP-Ausgabe von ecobau.ch zu ziehen, bleibt in Kraft — ecoBKP wird jährlich
+   fortgeschrieben, und für 271 fehlt die Hub-Fassung ganz. **Die Blockade dieses Punktes ist
+   dadurch nicht aufgehoben:** es fehlt weiterhin produktseitiges Material (Korpus 2
+   `buero-projekte` oder Entscheid Raphaels, das Gewerk zu überspringen).
 10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz geprüft — GESCHLOSSEN
     (Mac Mini Nachtschicht, 31.07.2026).** Ergebnis: **materiell betroffen.** Ziff. 3.6
     Abs. 2 (neu 2017): Aufzugsschachttüren dürfen bei einer Anlage, die nur EIN

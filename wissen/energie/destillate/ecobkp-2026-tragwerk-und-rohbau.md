@@ -474,6 +474,11 @@ Die folgenden Punkte sind eine Einordnung von JANS, keine wörtliche Wiedergabe 
   die Vorgänger-Fassung, gegen die «komplett neu» in der Aufgabenstellung abgeglichen werden
   könnte — dieses Destillat übernimmt die Einordnung «2026 ganz neues Kapitel» aus dem Auftrag,
   ohne das selbst am Text zu verifizieren.
+- **Anschluss an die KB `bauprodukte` (gesetzt 05.08.2026, Cross-KB-Lauf):** ecoBKP 214/215
+  beantworten die produktseitige Hälfte des dort seit 31.07.2026 geblockten Punktes 9
+  (`bauprodukte/wiki/QUESTIONS.md`, «Holzbau und Bekleidungen»). Die Blockade bleibt bestehen:
+  für einen Artikel mit Bauprodukte-Mehrwert fehlt weiterhin eigenes Projektmaterial, und
+  ecoBKP 271 (Trockenbau) ist nicht destilliert.
 
 [[ecobkp-2026-methodik-und-uebersicht]]
 [[graue-energie]]

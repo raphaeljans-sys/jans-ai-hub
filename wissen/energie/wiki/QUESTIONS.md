@@ -2,6 +2,30 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-05 (Cross-KB-Lauf Run 26) — KB-interner Defekt zwischen Wiki und eigenem Destillat
+
+- [ ] **E-R26-1 (P2): `wiki/oekologische-materialvorgaben-beschaffung.md` ist gegenüber den
+  eigenen ecoBKP-2026-Destillaten überholt und trägt eine bereits korrigierte Positionsliste.**
+  Zwei Stellen im Artikel, aufzuräumen vom energie-Loop (der Cross-KB-Lauf hat den Artikel
+  bewusst nicht angefasst):
+  - **Z. 205-207, Abschnitt «Offene Punkte»:** «Der konkrete Inhalt der ecoBKP-Ausgabe 2026 ist
+    noch nicht destilliert — die KB kennt bislang nur die Ausgabe 2008.» Das ist seit dem
+    05.08.2026 überholt: die KB führt vier am Original gelesene Destillate `ecobkp-2026-*.md`
+    (Methodik/Übersicht, Tragwerk und Rohbau, Gebäudehülle, Gebäudetechnik).
+  - **Z. 168-169:** die 11er-Positionsliste «ecoBKP 213, 214, 215, 216, 228, 230, 240, 244, 250,
+    258, 273» zu Rückbaubarkeit/Reversibilität. Der eigene `CHANGELOG.md` (Run 124, 05.08.2026)
+    und der Eintrag E-123-1 weiter unten in dieser Datei korrigieren sie ausdrücklich als
+    falsch: am Original (S. III, «Neuerungen auf einen Blick») sind es **18 Positionen** — 214,
+    215, 222, 224, 226, 228, 230, 240, 244, 258, 271, 272, 273, 276, 281, 282, 283, 421 — und
+    der Quellbegriff lautet «Wiederverwendung von Bauteilen», nicht «Rückbaubarkeit/
+    Reversibilität». 213, 216 und 250 gehören nicht dazu, zehn weitere fehlen.
+  **Warum das zählt:** Der Defekt liegt KB-intern zwischen Wiki und eigenem Destillat, also
+  genau dort, wo ein Leser ihn nicht vermutet — der Artikel schickt zu einer Beschaffung, die
+  bereits erledigt ist, und führt eine Liste, die der eigene Lauf schon widerlegt hat. Nach
+  `bauprodukte` vererbt hat sich der Fehler **nicht**: Wissens-Chef Run 25 übernahm dort nur
+  den zutreffenden Teil (214/215). Aufgenommen im Cross-KB-Lauf Run 26, Nebenbefund zu
+  F1-ecobkp2026-zeiger-veraltet.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Dachbegrünung, Asbest-Meldepflicht, VVEA-Nachlauf
 
 - [ ] **E-R25-1 (P2): Heutiger Bestand von SFG, Gründachrichtlinie und SFG-Label nicht
@@ -2894,6 +2918,29 @@ aus der Datei zitieren, nicht zusammenfassen** — sonst prüft der Refuter die 
   nennt selbst keine Lux- oder W/m²-Werte. Damit fehlt der KB weiterhin die Zahlenbasis für
   einen eigenen Wiki-Themenartikel Beleuchtung; die Steuerungslogik ist belegt, die Bemessung
   nicht → `[[ahb-zuerich-gt-rl8-beleuchtung]]`.
+
+  **Nachtrag 05.08.2026 (Cross-KB-Lauf) — Eintrag bleibt OFFEN, aber präzisiert; der Stand
+  Run 122 oben ist per Stichtag richtig und wird nicht überschrieben.** Bereits am 03.08.2026
+  (Wissens-Chef Run 24) wurde festgestellt und in `gebaeudetechnik-pflichtenheft.md` berichtigt,
+  dass die Übersichtstabelle zwar nicht Teil der vier RL8-Seiten, aber **als eigene Datei im
+  Bestand vorhanden** ist: `PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und
+  Gebäudetechnik/14.3-Richtlinien/Uebersichtstabelle_Beleuchtung_EN12464-1.pdf` (AHB,
+  19.01.2007). Sie ist mit Zahlenwerten destilliert in
+  `../../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §14.2
+  (Bettenzimmer 100 lx/UGR 19, Lesebereich 300 · Behandlungsräume 500/19 · Verkehrsfläche
+  Spitäler 200/28 · Schulzimmer 500/19 · Hörsaal 500/19, Demonstrationszone 750). Diese Zeile
+  fehlte hier und schickte den Leser an einer vorhandenen Datei vorbei auf eine
+  kostenpflichtige Norm. **Was wirklich offen bleibt, ist enger als oben formuliert:** nicht
+  «Zahlen überhaupt», sondern die **geltende Ausgabe** — der Auszug gibt den Stand
+  EN 12464-1 **vor 2011** und **SIA 2024:2006** wieder; SN EN 12464-1:2021 und SIA 2024:2015
+  liegen im Bestand nicht vor. Führend für Fundstelle und Fassungsstand ist `normen`, das
+  bislang **kein** EN-12464-1-Destillat führt (geprüft 05.08.2026: `grep -rn "12464"
+  wissen/normen/` liefert nur DIN-5034-3-Tageslichtformeln in
+  `synthese-din-vss-ral-fachskills.md:348`). **Kein Bezug zu `bauprodukte`:** die KB
+  `bauprodukte` destilliert den ERCO-Ratgeber und erwartet aus dessen Kapitel «Lichttechnik»
+  Lampen-/Leuchtenkennwerte (lm/W, Ra, Farbtemperatur je Lampentyp, BKP 233) — **nicht**
+  EN-12464-1-Beleuchtungsstärken; ein Herstellerratgeber wäre dafür nach dortiger
+  Schreibregel 4/5 auch keine zulässige Quelle. Diese Bring-Schuld gehört allein an `normen`.
 
 **Methodische Lehre Run 122 (zur Aufnahme ins PROGRAMM.md bereits vollzogen):** Ein
 **Versionskürzel im Dateinamen ist keine Jahreszahl.** Run 121 las «V21» als 2021 und stufte

@@ -32,6 +32,8 @@ Reserven/Finanzierung (BKP 6–9).
 Median MFH 2'800/m² GF → auf HNF (HNF ≈ 0.70 × GF) ≈ 4'000/m² HNF; +20 % Teuerung ≈ 4'800/m² HNF.
 BfS Schweizer Mittel MFH: 3'000–4'000 CHF/m² (BKP 1–5).
 
+*Zum Faktor 0.70 in Abschnitt 2 (Belegvermerk 05.08.2026): Das ist die **Effizienzannahme der Quelle selbst**, kein JANS-Flächenfaktor. Die Wüest-Academy-Folie rechnet wörtlich «2'800 / 0.70 HNF Effizienz = CHF 4'000 /m2 HNF» und daraus «plus ca. 20 % Kostensteigerung = CHF 4'800 /m2 HNF» (an der Folie verifiziert: `IMMO - 04 Marktpreise/wuest partner/Kostenbenchmarks/2_Immo_02_P23D_Praesentation_Nextcloud-Seite34.pdf`). Der Wert ist deshalb **nicht zu ändern** — sonst bricht das Zitat und die Konvergenz der drei Herleitungen der Quelle auf ~4'800 (S. 33/34/35). **Nicht verwechseln mit den JANS-Flächenfaktoren:** für das **ganze Gebäude** gilt HNF/GF ≈ 0.60–0.61 (Entscheid 12.07.2026, `wissen/immobilienbewertung/wiki/realwert-sachwert`), für das **Regelgeschoss** 0.70 bzw. belegt 0.75 (`wissen/immobilienbewertung/wiki/flaechendefinitionen-sia:84`, Fachentscheid Raphael offen, Ticket T-Regelgeschoss). Der eigene Datensatz in Abschnitt 1 impliziert fürs ganze Gebäude HNF/GF = 2'840/4'360 = **0.65** (BKP 1–5) bzw. 2'330/3'580 = 0.65 (BKP 2). Wer die Zeile für eine eigene Rechnung nutzt, wählt den Faktor nach Bezugsgrösse — nicht diesen hier.*
+
 ## 3. Bauweise Massivbau vs. Holzbau (CHF/m² HNF, BKP 1–5, exakte Quantile, Preisstand April 2023)
 
 **Quelle:** Wüest Partner / Lignum Holzwirtschaft Schweiz / BAFU, «Holzbaukennzahlen für
@@ -91,7 +93,21 @@ Warum dieselbe Stichprobe je nach Bezugsgrösse so weit auseinanderläuft, ist a
 | Wohnen MFH Neubau, Massivbau | ≈ 4'800 CHF/m² HNF | BKP 1–5; Band 3'500–6'000 |
 | Wohnen MFH Neubau, Holzbau | ≈ 5'400 CHF/m² HNF | Massivbau + 10–15 % |
 | Bezug Geschossflaeche | ≈ 3'100 CHF/m² GF | BKP 1–5; Median + Teuerung |
-| Umrechnung | HNF ≈ 0.70 × GF | HNF-Effizienz Wohnbau |
+| Umrechnung | HNF ≈ 0.70 × GF | HNF-Effizienz Wohnbau — ⚠ **Bezugsgrösse fehlt, vor Gebrauch prüfen** (Vermerk 05.08.2026) |
+
+> **⚠ Zur Zeile «Umrechnung HNF ≈ 0.70 × GF» (Wissens-Chef Run 26, 05.08.2026).** Anders als der
+> Faktor in Abschnitt 2 — der ein Zitat der Wüest-Quelle ist — steht dieser hier als **JANS-Richtwert**,
+> und ihm fehlt die **Bezugsgrösse**. Das ist entscheidend, weil die Hub-Faktoren je nach Bezug
+> auseinanderliegen: für das **ganze Gebäude** gilt nach dem kanonischen Entscheid vom 12.07.2026
+> HNF/GF ≈ **0.60–0.61** (`wissen/immobilienbewertung/wiki/realwert-sachwert`), der eigene Datensatz
+> in Abschnitt 1 impliziert **0.65**, und die **0.70 bzw. belegt 0.75** gelten ausdrücklich nur fürs
+> **Regelgeschoss** (`wissen/immobilienbewertung/wiki/flaechendefinitionen-sia`). Da die Zeile in einer
+> Tabelle mit Ganzgebäude-Richtwerten steht (BKP 1–5 je m² HNF bzw. m² GF), ist 0.70 hier
+> voraussichtlich zu hoch angesetzt. **Die Zahl wurde nicht geändert** — sie hängt am offenen
+> Fachentscheid Raphaels (Ticket **T-Regelgeschoss**, `wissen/immobilienbewertung/wiki/wissensluecken`,
+> Spiegel in `wissen/grobkosten/wiki/QUESTIONS`), und eine stille Umstellung wäre genau der
+> mechanische Fix, der verifizierbar aussieht. **Bis zum Entscheid: den Faktor nach Bezugsgrösse
+> selbst wählen und im Erzeugnis benennen, nicht diese Zeile ungeprüft übernehmen.**
 
 ## 5. Teuerung — Pflichthinweis beim Uebernehmen aelterer Benchmarks
 

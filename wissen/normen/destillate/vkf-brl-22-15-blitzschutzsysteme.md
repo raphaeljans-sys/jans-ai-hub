@@ -1,15 +1,47 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Blitzschutzsysteme.pdf"
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
-ausgabe: "VKF-Brandschutzrichtlinie 22-15de, 01.01.2015"
+ausgabe: "VKF-Brandschutzrichtlinie 22-15de, 01.01.2015 (UEBERHOLT)"
+nachfolge_ausgabe: "22-15de, 01.01.2017 — aendert den Anhang zu Ziff. 2, Tabelle S. 7/8; destilliert in wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md"
 gelesen: "S. 1-8 (komplett: Ziff. 1-7 + Anhang zu Ziff. 2)"
-datenstand: "2015, in Kraft 01.01.2015"
-status: established (verifiziert)
-last_updated: 2026-07-14
-links: [[REGISTER]]
+datenstand: "2015, in Kraft 01.01.2015 — nicht mehr aktueller Stand; aktuell ist Ausgabe 01.01.2017 (am 05.08.2026 am VKF-Endpunkt verifiziert)"
+status: established (verifiziert fuer Ausgabe 2015) — Fassungsstand ueberholt, Delta zu 2017 siehe eigener Abschnitt
+last_updated: 2026-08-05
+links: [[REGISTER]], [[vkf-brl-aenderungen-2017]]
 ---
 
 # VKF-BRL 22-15de:2015 — Blitzschutzsysteme
+
+> **Fassungsstand-Warnung (05.08.2026):** Dieses Destillat bildet die Ausgabe **01.01.2015** ab
+> und ist gegen diese korrekt und vollständig verifiziert. Seit **01.01.2017** gilt eine neuere
+> Ausgabe derselben Dok.-Nr. 22-15de. Für eine verbindliche Aussage im Einzelfall gilt die
+> Fassung 2017 (Delta unten). Das JANS-SharePoint-Archiv hält an beiden Ablageorten
+> (`PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/` und
+> `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/`) byte-identisch nur die Fassung
+> 2015. Die Fassung 2017 ist destilliert in
+> `wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` (inkl. kantonaler
+> Vollzug GVZ/GVB).
+>
+> **Delta 2015 → 2017 (Volltext-Diff beider Original-PDFs, 05.08.2026):** Die Ausgabe 2017
+> trägt auf S. 1 den Vermerk «Änderungen im Anhang: - zu Ziffer 2, Tabelle (Seiten 7 und 8)»
+> und ändert gegenüber 2015 genau fünf Dinge:
+> 1. Kopfdatum 01.01.2015 → 01.01.2017.
+> 2. **Anhang zu Ziff. 2, Zeile c (besonders hohe Bauwerke / Hochhäuser >30 m): Spalte B ändert
+>    von III auf II** — die einzige geänderte Zahl der gesamten Tabelle a-j. Da Klasse I die
+>    höchste Schutzstufe ist, wurde die Anforderung an den inneren Blitzschutz von Hochhäusern
+>    damit ERHÖHT. Bei Hochhausprojekten ist zwingend der Wert **II** zu verwenden.
+> 3. Spaltenkopf B: «SEV-Leitsätze 4022» → «SNR 464022».
+> 4. Begriff «Blitzschutzklasse»: Ausführungsanforderungen neu «in der Schweizer Regel
+>    SNR 464022 festgelegt» statt «in den SEV-Leitsätzen 4022».
+> 5. Risikoanalyse-Verweis neu mit Jahresangabe: SN EN 62305-1:2011 und SN EN 62305-2:2012.
+>
+> Alle übrigen Werte der Tabelle a-j sowie Ziff. 1-7 sind in beiden Ausgaben wortgleich.
+>
+> **Unabhängig bestätigt in der eigenen KB:** Das Destillat `[[vkf-brl-aenderungen-2017]]`
+> (AFC-Basel-Gegenüberstellung 2015↔2017, S. 28) führt seit dem 13.07.2026 exakt denselben
+> Befund — Spalte B für Hochhäuser «2015 III → 2017 II», Referenznorm «SEV-Leitsätze 4022» →
+> «SNR 464022». Die beiden Destillate waren bis zum 05.08.2026 nicht verlinkt; wer nur dieses
+> hier las, sah die Verschärfung nicht.
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie legt fest, welche brandschutztechnischen Anforderungen Blitzschutzsysteme erfüllen müssen und wo/wann Bauten und Anlagen damit auszurüsten sind (Ziff. 1 Abs. 1, S. 4). Nicht Gegenstand sind der Schutz vor Ausfall/Funktionsstörung innerer Systeme durch LEMP (elektromagnetischer Blitzimpuls) sowie technische Detailanforderungen an Planung, Erstellung, Betrieb, Wartung und Prüfung, die sich nach dem VKF-anerkannten Stand der Technik richten (Ziff. 1 Abs. 2, Ziff. 3.3 Abs. 1, S. 4-5). Die Notwendigkeitsprüfung erfolgt über einen Kriterienkatalog im Anhang (Nutzungs-/Bautypen a-j) mit Zuordnung zu Blitzschutzklassen gemäss VKF-Brandschutzrichtlinie (Spalte A, äusserer Blitzschutz) und SEV-Leitsätzen 4022 (Spalte B, innerer Blitzschutz plus LEMP-Schutz).
@@ -39,7 +71,7 @@ Anhang zu Ziffer 2 «Notwendigkeit» (S. 7-8): Tabelle ordnet den Objekttypen a-
 Zuordnung je Objekttyp (sinngemäss, S. 7-8):
 - a) Räume mit grosser Personenbelegung (>300 Personen, insb. Mehrzweck-/Sport-/Ausstellungshallen, Säle, Theater, Kinos, Restaurants, Versammlungsstätten, Verkaufsräume bis 1'200 m²; Verkaufsgeschäfte über 1'200 m² Gesamtverkaufsfläche gelten immer als >300 Personen): Klasse A=III, B=II.
 - b) Beherbergungsbetriebe: [a] Krankenhäuser, Alters-/Pflegeheime (≥20 Personen, auf fremde Hilfe angewiesen): A=III, B=II. [b] Hotels, Pensionen, Ferienheime (≥20 Personen, nicht auf fremde Hilfe angewiesen): A=III, B=III. [c] abgelegene, nicht vollständig erschlossene Beherbergungsbetriebe, ausschliesslich berggängige Personen (≥20): A=III, B=III.
-- c) besonders hohe Bauwerke (Hochhäuser als Gebäude mit Gesamthöhe >30 m, Hochkamine, Türme) inkl. zugehörige anstossende Gebäude normaler Bauhöhe: A=III, B=III.
+- c) besonders hohe Bauwerke (Hochhäuser als Gebäude mit Gesamthöhe >30 m, Hochkamine, Türme) inkl. zugehörige anstossende Gebäude normaler Bauhöhe: A=III, B=III **(Ausgabe 2015; in der geltenden Ausgabe 2017 lautet Spalte B neu II — für Projekte diesen Wert verwenden, siehe Fassungsstand-Warnung oben)**.
 - d) grössere (>3'000 m³) landwirtschaftliche Ökonomie-/Betriebsbauten inkl. anstossende/benachbarte Silos, Wohnbauten, Holzbearbeitungsbetriebe, Textil-/Kunststoffwerke: A=III, B=III; Fermenter von Biogasanlagen: A=II, B=II.
 - e) Industrie-/Gewerbebauten mit gefährdeten Bereichen (feuer-/explosionsgefährliche Stoffe), Mühlen, chemische Fabriken, Sprengstoff-/Munitionslager, Rohrleitungsanlagen, Tankstellen: A=II, B=II-I; explosionsgefährdete Bereiche unter dem Dach: A=I, B=I.
 - f) Behälter für feuer-/explosionsgefährliche Stoffe, Lager für flüssige Treib-/Brennstoffe samt zugehörigen Bauten/Anlagen (z.B. Maschinenhaus, Gaswerk, Lagerbauten mit Abfüllvorrichtungen): A=I, B=I.
@@ -65,6 +97,7 @@ Anmerkung im Anhang (S. 8): Je nach Art des Gebäudes, der Zone oder der Nutzung
 - Healthcare-Fokus (Skill `healthcare-wirtschaftlichkeit`/`kostenschaetzung`): Kategorie b[a] (Krankenhäuser, Alters-/Pflegeheime) und i (lebenserhaltende technische Anlagen, Spitäler/Altersheime) sind explizit gelistet — Blitzschutzklasse A=III/B=II bzw. B=II mit Betreiber-Verantwortung für Überspannungsschutzkonzept.
 
 ## Offene Punkte
-- Detailanforderungen an Planung/Ausführung/Instandhaltung (VKF-anerkannter Stand der Technik, Ziff. 3.3 Abs. 1) und die konkreten Ausführungsvorgaben je Blitzschutzklasse I-III sind NICHT in dieser Richtlinie enthalten, sondern in den SEV-Leitsätzen 4022 sowie SN EN 62305-1 bis -4 — diese sind eigenständig zu beschaffen/destillieren, falls im Hub noch nicht vorhanden (aktuell nicht im Inventar SharePoint-Ordner VKF_Norm ersichtlich).
+- Detailanforderungen an Planung/Ausführung/Instandhaltung (VKF-anerkannter Stand der Technik, Ziff. 3.3 Abs. 1) und die konkreten Ausführungsvorgaben je Blitzschutzklasse I-III sind NICHT in dieser Richtlinie enthalten, sondern in den SEV-Leitsätzen 4022 (in der Ausgabe 2017 umbenannt in SNR 464022) sowie SN EN 62305-1 bis -4. **Erledigt seit 25.07.2026:** destilliert in `wissen/energie/destillate/snr-464022-blitzschutz-ausfuehrung.md` — dort auch der Statusbefund, dass SNR 464022:2015+COR:2016 per 20.02.2024 durch **SN 414022:2024** ersetzt wurde (Ausführungsdetails je Klasse bleiben kostenpflichtig und offen).
 - Kein Bezug zur Brandschutzrichtlinie «Gefährliche Stoffe» geprüft (im Text als Querverweis zu Abs. e/f genannt) — separates Destillat vorhanden/zu prüfen.
 - verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro — komplette Gegenprüfung aller 8 Seiten (Ziff. 1-7 + Anhang-Tabelle a-j) gegen das Original-PDF, keine Abweichung gefunden, Destillat bestätigt korrekt und vollständig.
+- fassungsstand-geprueft: 260805, Cross-KB-Lauf — Original-PDFs 2015 (SharePoint) und 2017 (services2.vkf.ch, live abgerufen) vollständig diffed; Destillat inhaltlich für 2015 bestätigt, Delta zu 2017 oben dokumentiert.

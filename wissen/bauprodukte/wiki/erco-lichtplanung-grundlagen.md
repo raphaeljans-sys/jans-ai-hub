@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis (Teil 1/n, Seiten 1-73)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis (Teil 1/n, Seiten 1-95)"
 status: emerging
 last_updated: 2026-08-05
-gelesen: "Seiten 1-73 von ca. 435 (Kapitel «Grundlagen» vollständig; Kapitel «Gestalten mit Licht» vollständig abgeschlossen inkl. «Mit Lichtfarben gestalten» komplett: Farbe, Farbsysteme, Lichtfarbe, Farbmischung, Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren, S. 47-62; neues Hauptkapitel «Planungspraxis» begonnen: Planungsprozess S. 63, Projektanalyse S. 64-65, Lichtkonzept/Entwurf/Montage/Wartung-Übersicht S. 66-68, Lampenauswahl begonnen S. 69-71, Leuchtenauswahl begonnen S. 72-73). Offen: «Planungspraxis» Rest (Leuchtenauswahl Fortsetzung, Leuchtenanordnung), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis (begonnen), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-73 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+gelesen: "Seiten 1-95 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» weit fortgeschritten: Planungsprozess/Projektanalyse/Lichtkonzept-Übersicht S. 63-68, Lampenauswahl S. 69-71, Leuchtenauswahl S. 72-84 VOLLSTÄNDIG (Lichtverteilung direkt-indirekt/breit-eng/symmetrisch-asymmetrisch/horizontal-vertikal, Sonderanfertigung, Lichtfarbe, Montagearten integriert-additiv/fest-flexibel, Leuchtdichte/Blendung/UGR, Beleuchtungsstärke, Sicherheitsanforderung Schutzart/Schutzklasse), Leuchtenanordnung S. 85-93 VOLLSTÄNDIG (Boden/Wand/Decke/Objekt/horizontale+vertikale Flächen/Punktraster/Lineare Elemente), Montage begonnen S. 94-95 (Decke: abgehängte Decken, Paneeldecken, Deckenkanal)). Offen: «Montage» Rest (Wand, Boden), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis (weit fortgeschritten), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-95 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[REGISTER]]
 ---
 
@@ -15,7 +15,7 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten drei Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 73 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 95 Seiten.
 
 ## Herstellerneutralität
 
@@ -381,6 +381,97 @@ Licht»), eng verknüpft mit dem Entwurfsablauf in der Architektur:
   Allgemeinbeleuchtungsanteil kombiniert, da schon das Streulicht akzentuierter
   Bereiche oft für ausreichende Umgebungsbeleuchtung reicht.
 
+## Leuchtenauswahl (Fortsetzung ab S. 74): Lichtverteilung, Lichtfarbe, Montagearten, Blendung, Sicherheit
+
+Vier Entscheidungsachsen für die Lichtverteilung einer Leuchte, als Begriffspaare:
+
+- **Direkt/indirekt**: direktes Licht erlaubt eine differenzierte Verteilung mit hoher
+  Plastizität durch Kontraste; indirektes Licht erzeugt gleichmässiges, weiches Licht,
+  vermeidet Direkt- und Reflexblendung, kann aber bei ausschliesslicher Anwendung flach
+  und monoton wirken.
+- **Breit/eng**: Ausstrahlungswinkel unter 20° gilt als Spot, darüber als Flood. Breite
+  Verteilung erzeugt einen höheren Anteil vertikaler Beleuchtungsstärke.
+- **Symmetrisch/asymmetrisch**: symmetrisch für gleichmässige Beleuchtung (breit bei
+  Downlights, eng bei Strahlern); asymmetrisch für uniforme Beleuchtung seitlicher
+  Flächen, typisch bei Wand- und Deckenflutern.
+- **Horizontal/vertikal**: horizontale Schwerpunktsetzung ist funktional/nutzungsorientiert
+  (Arbeitsplatzbeleuchtung); vertikale Schwerpunktsetzung zielt meist auf Gestaltung der
+  visuellen Umgebung (Fassaden-, Regal-, Bild-Beleuchtung).
+
+**Sonderanfertigung vs. Serienleuchte**: der Ratgeber empfiehlt Serienleuchten wegen
+kurzer Lieferzeit, klar definierter Leistungsmerkmale und Sicherheitsprüfung; Sonder-
+anfertigungen nur bei aufwendigen, repräsentativen Grossprojekten, mit dem expliziten
+Vorbehalt zusätzlicher Entwicklungskosten und Lieferverzögerung.
+
+**Lichtfarbe**: hängt vom Leuchtmittel ab (Warmweiss/Neutralweiss/Tageslichtweiss bei
+weissem Licht); farbiges Licht über Farbfilter (verlustbehaftet durch geringe
+Transmission) oder direkt farbige Lichtquellen (LED, Leuchtstofflampe); RGB-Technik
+erlaubt dynamische Farbmischung aus den drei Grundfarben.
+
+**Montagearten**: zwei Grundkonzepte, **integriert** (Leuchte tritt hinter der
+Architektur zurück, nur Wand-/Deckenöffnungen sichtbar, statische Lösung, typisch
+Einbauleuchten) und **additiv** (Leuchte als eigenständiges Element, mehr gestalterische
+Freiheit, Risiko visueller Unruhe bei Mischung verschiedener Leuchtentypen, typisch
+Strahler/Lichtstrukturen/Pendelleuchten). Quer dazu die Achse **fest** (Anordnung muss in
+der Entwurfsplanung gründlich geprüft werden, spätere Änderung bei Einbauleuchten nur mit
+grossem Aufwand) vs. **flexibel** (bewegliche Strahler an Stromschienen, für wechselnde
+Ausstellungen/Präsentationen).
+
+**Blendung und UGR**: drei Blendungsarten (Direktblendung durch Leuchten, Reflexblendung
+an horizontalen Sehaufgaben, Reflexblendung an vertikalen Sehaufgaben z. B. Bildschirmen).
+Für Bildschirmarbeitsplätze wird ein **Mindestabschirmwinkel von 30°** empfohlen; Standard
+haben sich Lampenabschirmwinkel von **30° und 40°** durchgesetzt. Das **UGR-Verfahren**
+(Unified Glare Rating, üblicher Wertebereich 10-30, je kleiner desto weniger Blendung)
+bewertet die psychologische Direktblendung anhand Leuchtdichte der Lichtquelle,
+Raumwinkel, Positionsindex und Hintergrundleuchtdichte.
+
+**Beleuchtungsstärke**: die Sehleistung steigt bis rund **1'000 Lux** steil an, danach nur
+noch langsam, bei sehr hohen Werten sinkt sie durch Blendung wieder. Ausdrücklicher
+methodischer Vorbehalt der Quelle: eine pauschale Beleuchtungsstärke-Vorgabe sagt wenig
+über die tatsächliche Wahrnehmung aus, massgebend ist das Leuchtdichtemuster (emittiertes/
+transmittiertes/reflektiertes Licht), nicht der auf eine Fläche fallende Lichtstrom.
+
+**Sicherheitsanforderung**: Schutzart (**IP-Kennzeichnung**, zweistellig: erste Ziffer
+Fremdkörperschutz, zweite Wasserschutz) und Schutzklasse (elektrische Sicherheit gegen
+Schlag) sind zu unterscheiden; für Leuchten auf oder an entflammbaren Materialien (Möbel)
+gelten separate Brandsicherheitsanforderungen.
+
+## Leuchtenanordnung (S. 85-93)
+
+Grundsatz: die Anordnung von Leuchten ist kein rein technischer Vorgang; zwischen
+Leuchtenanordnung und Lichtwirkung besteht kein zwingender direkter Zusammenhang, ein
+geplantes Muster von Lichtwirkungen lässt sich mit unterschiedlichen Anordnungen
+erzielen. Der Ratgeber gliedert nach Bezugsfläche/-element:
+
+- **Boden**: Wandabstand = halber Leuchtenabstand; Leuchtenabstand zwischen zwei
+  benachbarten Leuchten = Höhe über Boden/Arbeitsfläche. Abblendwinkel-Kompromiss bei
+  **40°** zwischen horizontaler (Boden) und vertikaler Beleuchtungsstärke; 30°-Downlights
+  betonen die seitliche Abstrahlung, 50°-Downlights maximieren den Sehkomfort in hohen
+  Räumen.
+- **Wand**: Wandabstand für Wandfluter mindestens ein Drittel der Raumhöhe (alternativ
+  20°-Linie vom Wandfusspunkt zur Decke); Wandfluter benötigen **mindestens drei Leuchten**
+  für optimale Gleichmässigkeit; Eckposition auf der 45°-Linie.
+- **Decke**: Deckenfluter über Augenhöhe montieren (Direktblendung vermeiden),
+  Deckenabstand im Regelfall **0.8 m**.
+- **Objekt**: Lichtrichtung 30°-45° zur Senkrechten, je steiler desto höhere Plastizität;
+  unter 30° («Museumswinkel») maximale vertikale Beleuchtung bei vermiedener
+  Reflexblendung des Betrachters, relevant bei reflektierenden Flächen wie Ölgemälden.
+- **Punktraster vs. lineare Elemente**: einfaches Punktraster (regelmässig/versetzt) wirkt
+  schnell monoton und schliesst differenzierte Beleuchtung praktisch aus; lineare
+  Elemente (Lichtstrukturen, Stromschienen) treten in engere Beziehung zur Architektur des
+  Raums und erlauben komplexere, verzerrungsfreie Anordnungen, weil die Linienführung real
+  vorhanden statt nur durch Gestaltwahrnehmung angedeutet ist.
+
+## Montage (begonnen, S. 94-95: Decke)
+
+Drei Montagevarianten für Downlights: Einbau, Aufbau, Pendel. Für die Decke bereits
+gelesen: **abgehängte Decken** (z. B. Gipskarton, freie Platzierung unabhängig vom
+Deckenraster, Gewicht ggf. über eigene Abhänger an oder bei der Leuchte abfangen,
+Einputzringe bei verputzter Decke), **Paneeldecken/Wabenrasterdecken** (Einbaukassetten
+auf das Rastermass abgestimmt) und **Deckenkanal** (Montage an einer im Kanal geführten
+Stromschiene für nicht sichtbar integrierte Lichtquellen). Wand- und Bodenmontage sind
+in der Quelle ab S. 96 noch nicht gelesen.
+
 ## Praxisrelevanz für JANS
 
 - Kellys Funktions-Dreiklang (Sehen/Hinsehen/Ansehen) ist ein brauchbares
@@ -423,18 +514,30 @@ Licht»), eng verknüpft mit dem Entwurfsablauf in der Architektur:
   lm/W, Lebensdauer h, Anschaffungskosten) sind der herstellerneutrale
   Kennwert-Rahmen, um in einem Beleuchtungs-LV Betriebskosten-Annahmen zu
   begründen, ohne bereits auf ein konkretes Fabrikat festgelegt zu sein.
+- Der **UGR-Wert** (S. 82) ist ein prüfbarer, normüblicher Kennwert für eine
+  Leuchtenausschreibung (Bürolicht typischerweise UGR ≤ 19); die IP-Schutzart
+  (S. 84) ist die richtige, herstellerneutrale Formulierung für Feucht-/
+  Aussenraum-Positionen in einem LV, statt eine bestimmte Leuchte vorzuschreiben.
+- Die Montageabstands-Faustregeln (S. 85-87: Wandabstand = halber
+  Leuchtenabstand am Boden, mindestens Raumhöhe/3 bei Wandflutern,
+  Deckenabstand 0.8 m) taugen als schnelle Vorprüfung im Vorprojekt, ob ein
+  vorgeschlagenes Deckenraster überhaupt plausibel ist, bevor eine
+  Fachplaner-Offerte eingeholt wird.
+- Der **Museumswinkel 30°** (S. 88) für Objektbeleuchtung ist ein konkreter,
+  zitierfähiger Planungswert speziell für Ausstellungs-/Galerie-Nutzungen
+  (reflexblendungsfrei, maximale Plastizität) — ergänzt die bereits vermerkte
+  30°-45°-Bandbreite um die Reflexblendungs-Begründung bei glänzenden Objekten.
 
 ## Offene Punkte
 
-- 73 von ca. 435 Seiten gelesen. Offen: «Planungspraxis» Rest (Leuchtenauswahl
-  Fortsetzung ab S. 74, Leuchtenanordnung), «Aussenraumbeleuchtung»,
-  «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten
-  Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und
-  Berechnung» sowie das Glossar — für künftige Destillat-Läufe offen, im
-  Frontmatter-Feld `gelesen:` nachgeführt.
+- 95 von ca. 435 Seiten gelesen. Offen: «Montage» Rest (Wand, Boden),
+  «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den
+  praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp),
+  «Simulation und Berechnung» sowie das Glossar — für künftige Destillat-Läufe
+  offen, im Frontmatter-Feld `gelesen:` nachgeführt.
 - Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise nachgeführt)
   deutet auf eine lebende Online-Publikation (www.erco.com/guide laut S.1) — für
   eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil dieses Laufs.
-  Ab S. 69-71 erneut Edition 01.03.2010 (Lampenauswahl), S. 72-73 wieder
-  26.06.2006 — Bestätigung, dass das Dokument seitenweise, nicht kapitelweise
-  nachgeführt wurde; im nächsten Lauf im Quellen-Frontmatter weiter mitführen.
+  S. 74-95 durchgehend wieder Edition 26.06.2006 — Bestätigung, dass das Dokument
+  seitenweise, nicht kapitelweise nachgeführt wurde; im nächsten Lauf im
+  Quellen-Frontmatter weiter mitführen.

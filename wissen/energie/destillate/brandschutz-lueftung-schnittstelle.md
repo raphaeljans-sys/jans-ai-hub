@@ -3,7 +3,7 @@ quelle: "PL - 02_Recht_Norm/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Hinwei
 herausgeber: "Kein Titelblatt vorhanden. Auf jeder der 15 Folien im Fuss: Logo MINERGIE® / energieschweiz (Partner), Referent/Autor „Reimann Fredy, Planungsbüro für Energie- und Gebäudetechnik“, www.minergie.ch. Damit erkennbar eine Kurs-/Schulungsunterlage zur Komfortlüftung im Umfeld Minergie/EnergieSchweiz, Referent Fredy Reimann — nicht als eigenständige amtliche Publikation, sondern als Foliensatz-Auszug."
 ausgabe: "Kein Ausgabedatum auf den Folien ersichtlich. Die Folien sind mit Kapitel-/Ziffer- und Seitenverweisen auf ein grösseres Referenzdokument versehen (z.B. „2.6, S. 18“, „Kap. 9, S. 75“), das selbst nicht Teil dieses Auszugs ist — vermutlich ein Planungshandbuch/eine Wegleitung Komfortlüftung, dessen Titel aus dem vorliegenden Auszug nicht zweifelsfrei bestimmbar ist. Nicht geraten, sondern offen gelassen."
 gelesen: "Seiten 1-15 (vollständig, alle 15 Folien des Auszugs)"
-datenstand: "⚠ Kein Ausgabejahr feststellbar (weder für den Foliensatz noch für das referenzierte Grundlagendokument). Die beiden im Dokument zitierten Regelwerke sind selbst nur ohne Ausgabejahr genannt: VKF-Richtlinie 26-03d „Lufttechnische Anlagen“ (Seite 1 f.) und SIA 2023 „Lüftungs- und Klimaanlagen — Allgemeine Grundlagen und Anforderungen“, Anhang E und Anhang F (Seiten 12 f.). Brandschutzvorschriften der VKF sind Bundesrecht-nahes, periodisch revidiertes Recht (aktuell in Kraft: VKF-Brandschutzvorschriften 2015, seither revidiert) — jede brandschutztechnische Aussage in diesem Destillat ist Stand einer nicht näher bestimmbaren, mutmasslich älteren Ausgabe und vor Verwendung in einem laufenden Projekt zwingend gegen die GELTENDEN VKF-Brandschutzvorschriften zu prüfen (BSVonline http://bsvonline.vkf.ch, oder den JANS-Skill `brandschutz`). Dasselbe gilt für die zitierte SIA 2023 (Ausgabejahr im Foliensatz nicht genannt, aktuelle SIA-Norm 2023 vor Verwendung prüfen)."
+datenstand: "⚠ Kein Ausgabejahr feststellbar (weder für den Foliensatz noch für das referenzierte Grundlagendokument). Die beiden im Dokument zitierten Regelwerke sind selbst nur ohne Ausgabejahr genannt: VKF-Richtlinie 26-03d „Lufttechnische Anlagen“ (Seite 1 f.) und SIA 2023, Anhang E und Anhang F (Seiten 12 f.). Für SIA 2023 nennt der Foliensatz KEINEN Titel, nur „gem. SIA 2023, Anhang E“ bzw. „gemäss SIA 2023, Anhang F“; gemeint ist das SIA-Merkblatt 2023 „Lüftung in Wohnbauten“ (eigene Zuordnung, nicht Quellenwortlaut). Bis 05.08.2026 stand hier fälschlich der Titel „Lüftungs- und Klimaanlagen — Allgemeine Grundlagen und Anforderungen“ — der gehört zu SIA 382/1 (belegt: wissen/normen/destillate/sia-382-1-2014.md) und war beim Destillieren hinzugefügt worden, nicht der Quelle entnommen; am Quell-PDF verifiziert und korrigiert. Brandschutzvorschriften der VKF sind Bundesrecht-nahes, periodisch revidiertes Recht (aktuell in Kraft: VKF-Brandschutzvorschriften 2015, seither revidiert) — jede brandschutztechnische Aussage in diesem Destillat ist Stand einer nicht näher bestimmbaren, mutmasslich älteren Ausgabe und vor Verwendung in einem laufenden Projekt zwingend gegen die GELTENDEN VKF-Brandschutzvorschriften zu prüfen (BSVonline http://bsvonline.vkf.ch, oder den JANS-Skill `brandschutz`). Für SIA 2023 gilt es schärfer: Das Merkblatt SIA 2023 „Lüftung in Wohnbauten“ ist seit 1.5.2021 zurückgezogen und durch die Norm SIA 382/5:2021 „Mechanische Lüftung in Wohngebäuden“ ersetzt (SIA 382/1 bleibt übergeordnet mitgeltend); belegt in dieser KB: destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md und destillate/komfortlueftung-wrg-sia382-luftwechsel.md. Eine „aktuelle SIA-Norm 2023“ gibt es also nicht mehr — jede auf SIA 2023 gestützte Anforderung dieses Foliensatzes ist vor Verwendung gegen SIA 382/5:2021 zu prüfen."
 status: emerging
 last_updated: 2026-08-05
 ---
@@ -16,8 +16,9 @@ Der Foliensatz zeigt die zentralen Schnittstellen zwischen Komfortlüftung und B
 (Brandschutzklappen-Verzicht bei kleinen zusammengefassten Wohn-Brandabschnitten, Unterdruck-
 Grenzwerte bei raumluftabhängigen Feuerungen) sowie die Hygiene-, Schall- und
 Instandhaltungsanforderungen an Komfortlüftungsanlagen gemäss VKF-Richtlinie 26-03d und
-SIA 2023 — beides ohne im Dokument genanntes Ausgabejahr und daher vor jeder Verwendung
-gegen die aktuell geltenden Fassungen zu prüfen.
+SIA 2023 (Merkblatt „Lüftung in Wohnbauten“, seit 1.5.2021 zurückgezogen, ersetzt durch
+SIA 382/5:2021) — beides ohne im Dokument genanntes Ausgabejahr und daher vor jeder
+Verwendung gegen die aktuell geltenden Fassungen zu prüfen.
 
 ## Brandschutzklappen: Verzicht bei kleinen zusammengefassten Brandabschnitten (S. 1 f., „2.6, S. 18“)
 
@@ -122,9 +123,14 @@ Verhalten bei Störungen.
 - Instruktion des Hausdienstes nur durch qualifiziertes Fachpersonal (mindestens
   Hygieneschulung Typ B).
 
-**Checkliste für Instandhaltung** (gemäss SIA 2023, Anhang E, Beispiel „jedes Jahr im
-Winter“, Pos. 1.11/1.12): Zuluftfilter 1. Stufe wechseln und entsorgen, auf Nässe prüfen und
-gegebenenfalls Ursache ermitteln; Abluftfilter wechseln und entsorgen.
+**Checkliste für Instandhaltung** (Zuschreibung der Folie: „gem. SIA 2023, Anhang E“,
+Beispiel „jedes Jahr im Winter“, Pos. 1.11/1.12): Zuluftfilter 1. Stufe wechseln und
+entsorgen, auf Nässe prüfen und gegebenenfalls Ursache ermitteln; Abluftfilter wechseln und
+entsorgen. Die Zuschreibung ist thematisch bestätigt — Anhang E des Merkblatts trägt den
+Titel „Checkliste für den hygienischen Betrieb und die Instandhaltung von Wohnungslüftungen
+am Beispiel einer einfachen Lüftungsanlage“ (Ausgabe 2004, S. 35 ff.). Die Positionsnummern
+1.11/1.12 der Folie kommen dort allerdings nicht vor (Gliederung 1.1, 2.1, 2.2, 3.1 … 9); die
+Folie kennzeichnet die Tabelle selbst als „Beispiel“.
 
 - Jährlich: Filterwechsel und Kontrolle der zugänglichen Teile.
 - Inspektion durch Fachperson mit Hygieneschulung mindestens Typ B: bei Mietwohnungen alle
@@ -132,7 +138,14 @@ gegebenenfalls Ursache ermitteln; Abluftfilter wechseln und entsorgen.
   (gegebenenfalls mit Rohrkamera), Einregulierung der Luftvolumenströme, Einstellung von
   Steuerung/Regelung.
 
-## Elementare Anforderungen und zu vermeidende Fehler (S. 13-15, „2.8, S. 19“, gemäss SIA 2023, Anhang F)
+## Elementare Anforderungen und zu vermeidende Fehler (S. 13-15, „2.8, S. 19“, Zuschreibung der Folie: „gemäss SIA 2023, Anhang F“)
+
+⚠ Die Anhang-F-Zuschreibung stammt aus dem Foliensatz und ist am Bestand NICHT belegbar: In der
+im Haus liegenden Ausgabe SIA 2023:2004 ist Anhang F die Publikationsliste (S. 37), die zwölf
+Punkte stehen dort nicht (Volltext geprüft). Ob die Ausgabe 2008 (gemäss
+`wissen/normen/wiki/REGISTER.md` die 2013 gültige, nicht im Haus vorhanden) einen Anhang F
+dieses Inhalts führt, ist offen. Die zwölf Punkte deshalb NUR als Inhalt des Foliensatzes
+zitieren, nicht als Fundstelle „SIA 2023, Anhang F“ in ein ausgehendes Dokument übernehmen.
 
 Zwölf Punkte, wörtlich/sinngemäss aus dem Foliensatz:
 
@@ -184,8 +197,16 @@ Eigene Einordnung, nicht Teil der Quelle:
   vollständige Quelldokument (falls im selben SharePoint-Ordner `PL - 02_Recht_Norm/
   06_Richtlinien/Minergie/Nuetzliche Unterlagen/` vorhanden) beschafft und nachdestilliert
   werden.
-- Ausgabejahr der zitierten VKF-Richtlinie 26-03d „Lufttechnische Anlagen“ und der zitierten
-  SIA 2023 (Anhang E, Anhang F) sind im Foliensatz nicht genannt und vor jeder Verwendung
-  gegen die aktuell geltende Fassung zu prüfen (Skill `brandschutz`, BSVonline, sia.ch).
+- Ausgabejahr der zitierten VKF-Richtlinie 26-03d „Lufttechnische Anlagen“ ist im Foliensatz
+  nicht genannt und vor jeder Verwendung gegen die aktuell geltende Fassung zu prüfen
+  (Skill `brandschutz`, BSVonline).
+- SIA 2023 ist zurückgezogen: Das Merkblatt „Lüftung in Wohnbauten“ gilt seit 1.5.2021 nicht
+  mehr, an seine Stelle tritt die Norm SIA 382/5:2021 „Mechanische Lüftung in Wohngebäuden“
+  (SIA 382/1 bleibt übergeordnet mitgeltend) → `[[komfortlueftung-wrg-sia382-luftwechsel]]`.
+  Die auf SIA 2023 gestützten Punkte dieses Destillats sind damit historischer Stand.
+- Offen (Bring-Schuld): Die Folien-Zuschreibung „SIA 2023, Anhang F“ für die zwölf elementaren
+  Anforderungen lässt sich am Bestand nicht verifizieren — Ausgabe 2004 hat dort die
+  Publikationsliste, Ausgabe 2008 liegt nicht im Haus. Zu klären wäre das nur noch historisch;
+  für die Praxis ist ohnehin SIA 382/5:2021 massgebend.
 - Das Verhältnis „Leistungsgarantie Komfortlüftung“ (www.leistungsgarantie.ch) zu Minergie
   bzw. EnergieSchweiz ist im Auszug nicht erläutert.

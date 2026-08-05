@@ -37,15 +37,17 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 05.08.2026 (Nachtschicht 02:31):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+**Stand 05.08.2026 (Nachtschicht 23:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
 · 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
 · 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und Lampen, P1) von
-Seite 53 auf Seite 73 fortgeschrieben — Kapitel «Mit Lichtfarben gestalten» vollstaendig
-abgeschlossen, Hauptkapitel «Planungspraxis» begonnen (Planungsprozess, Projektanalyse,
-Lichtkonzept/Entwurf/Montage/Wartung, Lampen-/Leuchtenauswahl begonnen) →
-[[erco-lichtplanung-grundlagen]]. Rest (Leuchtenauswahl ab S. 74, Leuchtenanordnung,
-Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik, Simulation, Glossar) offen fuer
-weitere Folgelaeufe. Zuvor, 04.08.2026 (Nachtschicht 05:30):
+Seite 73 auf Seite 95 fortgeschrieben — Kapitel «Leuchtenauswahl» (Lichtverteilung,
+Lichtfarbe, Montagearten, Blendung/UGR, Beleuchtungsstaerke, Sicherheitsanforderung) und
+«Leuchtenanordnung» (Boden/Wand/Decke/Objekt/Punktraster/Lineare Elemente) vollstaendig
+abgeschlossen, Kapitel «Montage» begonnen (Decke) → [[erco-lichtplanung-grundlagen]]. Rest
+(Montage Wand/Boden, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik, Simulation,
+Glossar) offen fuer weitere Folgelaeufe. Zuvor, 05.08.2026 (Nachtschicht 02:31): Seite 53
+auf Seite 73 fortgeschrieben (Kapitel «Mit Lichtfarben gestalten» abgeschlossen,
+«Planungspraxis» begonnen). Zuvor, 04.08.2026 (Nachtschicht 05:30):
 `paustian_mirror_mirror_product_sheet.pdf` (900 Einrichtung) gegen die Altersregel geprueft
 und ohne Artikel als `[-]` geschlossen (>10 Jahre altes Produkt-Datenblatt ohne Prinzip) —
 Details `wiki/QUESTIONS.md` Punkt 13. Zuvor, 30.07.2026: BKP 261 Aufzuege,

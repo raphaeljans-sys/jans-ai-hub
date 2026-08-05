@@ -136,7 +136,7 @@ Quervergleiche/Herleitung (alle Werte Datenstand 2021-2023, ⚠ Teuerung seither
   fuer die Wuest-Median-/Quantilswerte (Rollen-Matrix Wissens-Chef):
   `skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md`.
 - SIA-Kurs «Baukosten- und Terminschaetzung» (Stand 2020): MFH Median BKP 2 = 2'800 CHF/m2
-  GF → /0.70 HNF-Effizienz = 4'000 CHF/m2 HNF → +20 % Teuerung = 4'800 (S. 34).
+  GF → /0.70 HNF-Effizienz (Annahme der Quelle) = 4'000 CHF/m2 HNF → +20 % Teuerung = 4'800 (S. 34).
 - Studie Kostenklarheit Stadt Zuerich (2012, grosse kostenguenstige Ueberbauungen):
   Median 4'004 CHF/m2 HNF → +20 % = 4'800 (S. 35).
 - Selektive WP-Analyse 2021, kleinere MFH mit ueberdurchschnittlichem Standard (Bausummen
@@ -226,6 +226,15 @@ fuer MFH die WP-Tabelle oben verwenden.
 > Skill-Referenz selbst) ist **noch offen** und in `wiki/wissensluecken.md`, Zeile
 > `T-Regelgeschoss`, als Folge-Task festgehalten. Solange der Fachentscheid Raphaels aussteht,
 > darf keine der beiden Stellen still auf den jeweils anderen Wert umgestellt werden.
+>
+> **Richtiggestellt 05.08.2026 (Cross-KB-Lauf, adversarial verifiziert):** Der vorstehende Nachtrag
+> ordnet die Wuest-Referenz `:32` falsch ein. Die Stelle ist kein Regelgeschoss-Fall, sondern die
+> Umrechnung eines **Ganzgebäude**-Benchmarks (SIA-2020-Tabelle CHF/m² GF, Objektart MFH) — dafür
+> wäre nach diesem Entscheid ohnehin 0.60–0.61 einschlägig, nicht 0.70 und erst recht nicht 0.75.
+> Zudem ist das 0.70 dort **die Annahme der Quelle selbst**: die Wüest-Academy-Folie S. 34 rechnet
+> wörtlich «2'800 / 0.70 HNF Effizienz = CHF 4'000 /m2 HNF» (Primärquelle gelesen). Die Zahl bleibt
+> deshalb stehen; ergänzt wurde nur ein Attributions- und Abgrenzungsvermerk in der Referenz selbst.
+> Der Fachentscheid 0.70 vs. 0.75 fürs Regelgeschoss bleibt davon unberührt offen.
 
 ### Healthcare-Neubau — Erstellungskosten-Benchmark (realer CH-Fall, belegt 2021)
 

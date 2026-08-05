@@ -1,5 +1,45 @@
 # Offene Fragen — KB Normen
 
+## 2026-08-05 (Cross-KB Lauf 26) — VKF-Merkblatt 2001-15 «Solaranlagen»: Fassung entschieden, Re-Destillat offen
+
+**Der Delta ist entschieden, die Beschaffungsfrage ist bezahlt — offen ist nur noch der
+Lesevorgang.** Am 05.08.2026 wurden beide Nachfolge-Ausgaben vom adversarialen Verifikator
+selbst heruntergeladen und gelesen. Die Existenz und Erreichbarkeit ist damit **verifiziert und
+darf nicht ein zweites Mal aufgemacht werden** (gleiche Regel wie bei SIA 430:2023 oben).
+
+1. **Destillat der Ausgabe 01.01.2022 anlegen (P1, eigener Lesevorgang am Original).** Die
+   Ausgabe ist eine **Vollrevision** (15 statt 11 Seiten), ein Inline-Patch der 2015er-Destillate
+   genügt nicht. Bezugsweg, öffentlich und kostenlos, am 05.08.2026 selbst geladen:
+   `https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-197.pdf/content`
+   — 15 Seiten, 524'403 Bytes, MD5 `a17958fdf95c720434ffa90117964b23`, Titelblatt
+   «01.01.2022 / 2001-15de». Zwischenfassung **01.01.2017** (12 S., Portal-Label «gültig bis
+   31.12.2021»):
+   `https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-3729.pdf/content`.
+   Beim Destillieren zwingend mit abzudecken: Tabelle 1 (DC-Verlegung, 2022 neu gefasst),
+   Kap. 3.3 «Naturgefahren» (SIA 261/261-1 statt VKF-Wegleitung), Anhang S. 13 (Entscheidbaum)
+   und S. 14 (RWA-Lichtraumprofil), Ziff. 5 «Gültigkeit». Das PDF selbst **nicht** ins Repo
+   committen (Urheberrecht VKF) — nur URL, Seitenzahl und MD5 als Fingerabdruck festhalten.
+2. **Bereits erledigt und nicht zu wiederholen:** Die drei praxisrelevanten Deltas sind am
+   Original verifiziert und in beiden 2015er-Destillaten als Delta-Block und zweiwertige
+   Fundstellen-Vermerke hinterlegt (`vkf-brm-2001-15-solaranlagen.md`,
+   `vkf-merkblatt-2001-15-solaranlagen.md`): Unterdachbahnen **RF3(cr) Pflicht seit 01.01.2017**
+   (nicht erst 2022, Beschluss Technische Kommission VKF vom 02.12.2016), Flächenschwelle
+   **«> 1200 m²»** statt «≥ 1200 m²», und der **RWA-Mindestabstand 2 m ist kein
+   Lösungsansatz-Wert mehr** (Anhang S. 14, massnahmenfreie Schwelle mit Lichtraumprofil).
+3. **Ursache, die den Fehler sonst reproduziert (P1, Ablage-Pendenz an Raphael, kein
+   Claude-Alleingang):** Das JANS-SharePoint-Archiv hält an **beiden** Ablageorten
+   (`PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/` und
+   `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/`) byte-identisch nur die Fassung
+   **2015** (MD5 `56fb4bab06eaa4efec181d7f6fb44e87`, 11 S.) — trotz des Ordnernamens
+   «2015-17-22». Solange das so bleibt, erzeugt **jeder** künftige Destillat-Lauf, der brav
+   «Primärquelle SharePoint» liest, denselben veralteten RF4(cr)-Wert erneut. Die Ausgabe 2022
+   ist in beide Ordner zu legen und die 2015er als «überholt» zu kennzeichnen, **nicht** zu
+   löschen (Nachweiswert für Altprojekte).
+4. **Lehre für die Fassungsprüfung:** Bei einer VKF-/VKG-Fassungsfrage ist der Hausbestand nie
+   die letzte Instanz. Vor jedem «Bring-Schuld»-Vermerk sind `services.vkg.ch` bzw.
+   `services2.vkf.ch` abzufragen — dasselbe Portal, das diese KB drei Tage nach dem
+   Bring-Schuld-Eintrag vom 25.07.2026 für das Merkblatt 2005-15 selbst benutzt hat.
+
 ## 2026-08-04 (Cross-KB energie → normen, Wissens-Chef Run 25) — SIA 430:2023 + SIA 118/430:2023 beschaffen, drei nie angekommene Übergaben aus energie-Run 123
 
 Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel aus Run 8). Anlass:
@@ -1245,6 +1285,13 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   **RF4 (cr)**, Modalität «dürfen» (Ziff. 3.2.3, S. 8). Der von `planungsgrundlagen` gemeldete Delta
   (RF3(cr)) ist damit **unentschieden** — weder bestätigt noch widerlegt. Für die PV-Beratung gilt bis zur
   Beschaffung verbindlich der 2015-Stand RF4(cr) mit ausdrücklichem Fassungs-Vorbehalt.
+  - **Korrektur 05.08.2026:** Der Zusatz «soweit möglich» war die falsche Schlussfolgerung, und die
+    Anweisung «bis zur Beschaffung gilt RF4(cr)» ist damit widerrufen. Die geltende Fassung war
+    öffentlich und kostenlos über dasselbe VKG-Publikationsportal abrufbar, das dieselbe KB drei Tage
+    später für das Merkblatt 2005-15 selbst benutzte. Delta entschieden: **RF3(cr)-Pflicht seit
+    Ausgabe 01.01.2017**, nicht erst seit 2022 (Beschluss Technische Kommission VKF vom 02.12.2016).
+    Der Hausbestand war also nicht vier, sondern neun Jahre alt. Siehe Abschnitt 2026-08-05 am Kopf
+    dieser Datei.
 - [x] **STALE-BEFUND: «SIA 118:1991 noch nicht destilliert» war seit Langem überholt** —
   `destillate/sia-118-1991.md` existiert und ist `established` (Volltext, Kennzahlen Modell-D-verifiziert
   260712). Eintrag unten korrigiert.
@@ -1451,6 +1498,10 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   RF3(cr) bleibt damit **unentschieden**; für die PV-Beratung gilt bis zur Beschaffung der 2015-Stand
   mit Fassungs-Vorbehalt. Beschaffung via praever.ch/bsvonline.ch (Bring-Schuld, kein Loop-Fall).
   Befund im Destillat `vkf-brm-2001-15-solaranlagen.md`, Abschnitt «Fassungs-Klaerung 25.07.2026».
+  - **Nachtrag 05.08.2026:** Der Bestandsbefund bleibt richtig, die Handlungsanweisung nicht. Die
+    Ausgaben 01.01.2017 und 01.01.2022 sind über `services.vkg.ch` beschafft und gelesen; der Delta
+    ist **bestätigt**: RF3(cr)-Pflicht seit 01.01.2017. Der Satz «für die PV-Beratung gilt bis zur
+    Beschaffung der 2015-Stand» ist damit hinfällig. Siehe Abschnitt 2026-08-05 am Kopf dieser Datei.
 - [x] **P1-SIA-Kern (ohne 102/118) + VKF-Kern destilliert — 12.07.2026 (Run 2):** SIA
   103/105/111/112/416/451 + VKF 1-15/16-15/14-15/27-15, alle am Original adversarial verifiziert
   (`established`). Befund: **SIA 105:2020 hat kein Art.-7-Baukostenmodell** (nur Kategorie-/

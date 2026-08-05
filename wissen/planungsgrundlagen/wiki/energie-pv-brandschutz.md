@@ -1,7 +1,7 @@
 ---
 title: PV/Solar — Brandschutz & Naturgefahren (Schnittstelle Architekt/Bauleitung)
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-08-05
 sources: [PL - 04 Energie/Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf (Swissolar Stand-der-Technik-Papier V4.00, 12/2022, red. 11/2023), VKF-Brandschutzmerkblatt 2001-15 «Solaranlagen» (Rev. 01.01.2022, Delta-Bestätigung Run 37 2026-07-14 direkt aus STP S. 3), VKF-Brandschutzvorschriften BSV 2015, NIN SN 411000 Kap. 7.12 (NIN 2020), SIA 261/261-1:2020]
 links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]]
 ---
@@ -12,9 +12,20 @@ links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]]
 > **VKF-Brandschutzmerkblatt 2001-15** (Brandmauer-Übergang, RWA-Abstand 2 m, 1200-m²-RF1-Grenze,
 > Kennzeichnung) — liegt als führendes Destillat in
 > `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen`. Dieser Artikel behält die
-> **Solar-Schnittstellen-/Praxisableitung** (Swissolar-STP V4.00, Merkposten). ⚠ Ausgaben-Stand:
-> das normen-Destillat führt die Ausgabe **2015**, hier ist die **Rev. 01.01.2022** belegt
-> (Folge z.B. Unterdachbahnen RF3(cr) statt 2015er RF4(cr)) — 2022er-Re-Destillat in normen offen.
+> **Solar-Schnittstellen-/Praxisableitung** (Swissolar-STP V4.00, Merkposten).
+>
+> ✅ **Ausgaben-Stand geklärt (05.08.2026):** Der hier gemeldete Fassungs-Widerspruch ist
+> entschieden, und zwar zugunsten dieses Artikels. Der Delta ist **am VKF-Original selbst
+> bestätigt**, nicht nur über das Swissolar-STP: Ziff. 3.2.3 Abs. 3 «Unterdachbahnen müssen
+> mindestens aus Baustoffen der RF3 (cr) bestehen» (2015: «dürfen aus RF4 (cr) bestehen»).
+> Präzisierung: Der RF3(cr)-Wert stammt bereits aus der Ausgabe **01.01.2017** (Beschluss
+> Technische Kommission VKF vom 02.12.2016), nicht erst aus der Revision 2022 — der
+> Hausbestand war also neun Jahre alt, nicht vier. Die Destillate
+> `wissen/normen/destillate/vkf-brm-2001-15-solaranlagen` und
+> `…/vkf-merkblatt-2001-15-solaranlagen` sind als historische Bestandsfassung 2015 markiert und
+> tragen einen Delta-Block mit den geltenden Werten. Offen bleibt allein das vollständige
+> Re-Destillat der Ausgabe 2022 (eigener Lesevorgang, Auftrag in
+> `wissen/normen/wiki/QUESTIONS.md`, Abschnitt 2026-08-05).
 
 Beantwortet **E6/C1** (curriculum/QUESTIONS): die brandschutz- und naturgefahren-relevanten
 **Planungs-Schnittstellen** einer Solaranlage zum Gebäude — nicht die Bauteil-Klassifizierung
@@ -66,7 +77,10 @@ VKF-Merkblatts in konkrete Lösungen übersetzt.
 - **Integriert, grosse Flächen (Lösung A2, Anhang 7.3.6):** ab **> 1200 m²** Flächenausdehnung
   Verlegeunterlage aus **RF1**; grössere Flächen mit **≥ 0.5 m** breiten RF1-Unterteilungen in
   Felder **≤ 1200 m²** auftrennen. Lattung/Montagerahmen aus **RF3** (z.B. Holz) zulässig,
-  Unterdachbahnen min. **RF3(cr)**. Gegen feuergefährdete Räume vollflächige, staub-/trittsichere
+  Unterdachbahnen min. **RF3(cr)** — seit 05.08.2026 **primärquellenbelegt** am VKF-Original
+  (VKF-BSM 2001-15de, Ausgabe 01.01.2022, Ziff. 3.2.3 Abs. 3, S. 9), nicht mehr nur über das
+  Swissolar-STP; die Pflicht gilt bereits seit der Ausgabe 01.01.2017. Die Ausgabe 2015 sagte
+  hier «≥ 1200 m²» und liess Unterdachbahnen aus RF4(cr) zu — beides überholt. Gegen feuergefährdete Räume vollflächige, staub-/trittsichere
   Verlegeunterlage (Holzwerkstoff RF3 bzw. Profilblech/Bauplatten RF1).
 
 ### 2 — Brandmauer-Übergang (STP S. 21, VKF-BSE 100-15) — **architektenrelevant**
@@ -158,3 +172,17 @@ destilliert in `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen.md` 
 die eigenständige 2022er-VKF-Merkblatt-PDF liegt NICHT separat im SharePoint-Inventar vor, nur
 die daraus zitierten Änderungen über die Swissolar-STP. Re-Destillat der 2022er-Merkblattfassung
 bleibt offen, bis das Original-PDF beschafft ist.
+
+**Nachtrag 05.08.2026 — Original beschafft, Vorbehalt entfällt:** Die Ausgabe 01.01.2022
+(15 S., MD5 `a17958fdf95c720434ffa90117964b23`) und die bis dahin niemandem bekannte
+Zwischenausgabe 01.01.2017 (12 S.) wurden über das öffentliche VKG-Publikationsportal
+(`services.vkg.ch`) geladen und gelesen. Der Delta ist damit am VKF-Text selbst belegt.
+Präzisierung: Der **RF3(cr)-Wert kam mit der Ausgabe 01.01.2017**; die Ausgabe 2022 änderte
+demgegenüber Tabelle 1 (DC-Verlegung, neu «In Rohr RF2 (cr)»/«In Rohr RF1» statt BKZ 6.3/5.2),
+die RWA-Regel (2.0 m nur noch als Anhangs-Schwelle S. 14, bei Unterschreitung Lichtraumprofil),
+die Flächenschwelle auf «> 1200 m²» und Kap. 3.3 (neu «Naturgefahren», SIA 261/261-1 statt
+VKF-Wegleitung und Hagelbeschluss). Beide normen-Destillate tragen jetzt einen Delta-Block; das
+vollständige Re-Destillat der Ausgabe 2022 bleibt als eigener Lesevorgang offen
+(`wissen/normen/wiki/QUESTIONS.md`, Abschnitt 2026-08-05). Der Bestand im SharePoint ist
+unverändert die Fassung 2015 — solange das so bleibt, reproduziert jeder Lauf, der brav
+«Primärquelle SharePoint» liest, denselben Fehler.

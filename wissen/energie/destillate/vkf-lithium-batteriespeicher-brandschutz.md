@@ -1,6 +1,7 @@
 ---
 quelle: VKF-Brandschutzmerkblatt «Lithium-Ionen-Batterien» (2005-15de) + VKF-FAQ 2005-01 «Lithium-
-  Eisenphosphat-Batterien» (Auslegungshilfe der ABSV zu Ziffer 4.4/4.5/4.6 des BSM 2005-15)
+  Eisenphosphat-Batterien» (Auslegung der ABSV formal zu Ziff. 1.2 des BSM 2005-15, sachlich in
+  Analogie zu Ziff. 4.4/4.5/4.6)
 herausgeber: Vereinigung Kantonaler Feuerversicherungen VKF (AEAI/AICAA)
 ausgabe: BSM 2005-15de, gültig ab 01.06.2021 (genehmigt durch die Technische Kommission Brandschutz
   VKF am 03.03.2021); FAQ 2005-01 zu Ziffer 1.2 (Thema Lithium-Eisenphosphat-Batterien),
@@ -15,10 +16,16 @@ datenstand: Brandschutzmerkblatt 2005-15de vom 01.06.2021 (Technologie-Grundlage
 status: established (beide VKF-Primärquellen vollständig im Volltext gelesen, wörtlich zitiert;
   löst den in Run 93/94 offen geführten Punkt «VKF-Infoblatt Lithium-Ionen-Batteriespeicher +
   FAQ 2005-01 im Volltext beschaffen»)
-last_updated: 2026-07-25
+last_updated: 2026-08-05
 ---
 
 # VKF-Brandschutzmerkblatt «Lithium-Ionen-Batterien» (2005-15) + FAQ 2005-01 (LFP) — Mengenschwellen für stationäre Batteriespeicher
+
+> **Führung:** Fundstelle, Ausgabe, Wortlaut und Verbindlichkeitsgrad dieser beiden VKF-Dokumente
+> führt die KB `normen` (Fundstellen-Matrix `wissen/koordination/QUERBEZUEGE.md`, Zeile
+> «Norm-Fundstellen SIA/VKF/VSS») — Destillat
+> `normen/destillate/vkf-merkblatt-2005-15-lithium-ionen-batterien.md`. Dieses Blatt hier führt
+> die **angewandte Bauherren-Sicht** und schreibt den Normwortlaut nicht eigenständig fort.
 
 ## Das Wichtigste in 1 Satz
 Die tatsächliche VKF-Fundstelle für Mengenschwellen bei Batteriespeichern ist **nicht** eine der
@@ -77,6 +84,13 @@ Brandabschnitt können bereits HL II auslösen.
   Feuerwehr sind explizit als Gefahr benannt.
 
 ### 4. FAQ 2005-01 — die aktuellere, LFP-spezifische Lockerung (Beschluss ABSV 09.09.2025)
+
+**Verbindlichkeitsgrad zuerst:** Die FAQ bezeichnet ihre Ausführungen selbst als **«einen
+möglichen Lösungsansatz … in Anlehnung an das BSM 2005-15»** und trägt die Fusszeile
+«Erläuterung / Interpretation». Sie steht damit auf derselben weichen Stufe wie das Merkblatt
+(«Hilfestellung», nicht Richtlinie). Die tieferen Werte sind **kein Anspruch**, sondern ein
+Ansatz, den die Brandschutzbehörde im Einzelfall akzeptieren kann.
+
 Auslöser der FAQ: Das BSM 2005-15 gilt formal nur für «Lithium-Ionen-Batterien», während der
 Markt laut derselben FAQ und laut dem bestehenden Destillat `[[batteriespeicher-heimspeicher-pv-ch]]` (Swissolar: **~80 % der CH-Installationen**) inzwischen von **Lithium-Eisenphosphat (LFP,
 LiFePO4)** dominiert wird — einer sichereren, kobaltfreien Chemie. Die FAQ liefert dafür einen
@@ -86,6 +100,10 @@ eigenen, **vereinfachten und zweistufigen** Lösungsansatz «in Analogie zum BSM
   Erleichterungen.
 - **Verboten** bleibt die Aufstellung von LFP-Batteriespeichern in horizontalen/vertikalen
   Fluchtwegen sowie in feuer-/explosionsgefährdeten Räumen und Zonen.
+- **Lüftungsanlagen**, die einen Brandabschnitt mit LFP-Speicher belüften, sind gegenüber
+  angrenzenden Nutzungen **feuerwiderstandsfähig zu trennen** — brandfallgesteuerte
+  **Brandschutzklappen (Kanalrauchmelder)** oder feuerwiderstandsfähige Kanäle direkt ins Freie.
+  (Nachgetragen 05.08.2026; im Erstlauf übersehen, kostenrelevant.)
 - **Neu und wichtig:** In **Einfamilienhäusern und Gebäuden mit geringen Abmessungen** dürfen
   LFP-Batteriespeicher **unabhängig von der Speicherkapazität in allen Räumen** aufgestellt werden
   (ausser den zwei oben genannten Verbotszonen) — die «Empfehlung» eines eigenen Brandabschnitts
@@ -93,7 +111,11 @@ eigenen, **vereinfachten und zweistufigen** Lösungsansatz «in Analogie zum BSM
 - **Kleine/mittlere LFP-Systeme, max. 100 kWh/Brandabschnitt:** Aufstellung in einem Brandabschnitt
   mit dem nutzungsbezogenen Feuerwiderstand, **mindestens aber EI 30** (nicht EI 60 wie im
   allgemeinen BSM 2005-15 für die 15–100-kWh-Stufe).
-- **Grosse LFP-Systeme, ab 100 kWh/Brandabschnitt:** mindestens **EI 60**.
+- **Grosse LFP-Systeme, ab 100 kWh/Brandabschnitt:** Brandabschnitt mit dem nutzungsbezogenen
+  Feuerwiderstand, **mindestens aber EI 60** — und damit **im Gebäude zulässig**, während
+  BSM 2005-15 Ziff. 4.6 für dieselbe Grösse Freiaufstellung/RF1-Nebenbaute bzw. heisse Bemessung
+  samt Druckentlastung, Ausräumöffnung, Sprinkler und RWA verlangt. Das ist die grössere der
+  beiden Lockerungen (präzisiert 05.08.2026).
 - **Ausserhalb von Gebäuden:** LFP-Speicher beliebiger Kapazität im Freien, in ISO-Containern
   (20-/40-Fuss) oder in RF1-Nebenbauten; Schutzabstände nach VKF-BSR 15-15 Ziff. 2.3.1 gelten auch
   für ISO-Container.
@@ -108,8 +130,10 @@ Massstab praktisch massgebend.
 ## Bauherren-Transfer
 1. **Für einen typischen PV-Heimspeicher (5–15 kWh, meist LFP):** Ein eigener EI-30-Raum
    (Elektroraum/Keller/Garage) ist die solide, empfohlene Lösung — bei einem klassischen
-   Einfamilienhaus ist sie dank der FAQ-2005-01-Lockerung **rechtlich nicht zwingend**, solange der
-   Speicher nicht im Fluchtweg oder in einem feuer-/explosionsgefährdeten Raum steht. In der Praxis
+   Einfamilienhaus entfällt die Empfehlung eines eigenen Brandabschnitts nach dem Lösungsansatz der
+   FAQ 2005-01, solange der Speicher nicht im Fluchtweg oder in einem feuer-/explosionsgefährdeten
+   Raum steht — verlassen kann man sich darauf erst nach Abstimmung mit der Brandschutzbehörde,
+   weil die FAQ eine Interpretation und keine Vorschrift ist. In der Praxis
    bauseits trotzdem empfehlenswert (Versicherungs-/Werterhaltungsgründe, siehe unten).
 2. **Mindestabstand 2,5 m zu brennbaren Materialien** ist die konkrete, in jedem Fall zu erfüllende
    Zahl aus dem BSM 2005-15 — unabhängig von LFP-Lockerung oder EFH-Status gilt sie auch für kleine
