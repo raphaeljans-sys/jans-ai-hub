@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 05.08.2026 09:22:17
+Stand: 05.08.2026 09:42:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 09:22:17
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 43e960bf hub-chef 05.08.: Estermann-Plangrundlage (Entwurf A5), Ziegels Innenwand-Kommentare, Gate-Blocker aufgeloest
+- 3186c554 nas-selfcommit: 2 Datei(en) 2026-08-05 09:30
