@@ -441,6 +441,11 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   geehrte Frau Hofer» → «Guten Tag Frau Hofer» 01.12.2025/06.01.2026 → «Hoi Undine» ab 13.01.2026
   nach dem erfolgreichen Bauentscheid) — der Zwilling hat sie mit «Geschätzte» gegen diese
   Richtung gedreht, weil die Mail viele blockierende Auflagen enthielt.
+- **Vor mitlesenden Dritten wechselt die NAMENSFORM, nicht die Wärmestufe (belegt 260805,
+  kontrolliertes Paar, dieselbe Bauherrin, 8 Tage):** bilateral «**Geschätzte <Vorname>**», mit
+  dem offerierenden Unternehmer im Cc «**Geschätzte Frau <Nachname>**». Wer mitliest, entscheidet
+  über Vorname ↔ Nachname; die Wärmestufe bleibt. Die Bewegung ins Vertrautere ist damit **nicht
+  monoton** und der Rücksprung kein Abkühlen. Belege unten.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»

@@ -531,29 +531,27 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (belegt Fidelity
   260803):** die Kernzone hebelt die Ausnützungsbestimmungen nicht aus; Ortsverträglichkeit
   entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse. Norm wörtlich zitieren
-  (Art. 15 Abs. 3 BZO, mit Verweis auf Art. 16); die vier Einordnungs-Hebel sind
-  **Baukörpermodellierung · Materialisierung · Dachform · Fenestrierung/Fassadentypologie des
-  Strassenzuges**; Schlussweg ist die Vorbesprechung mit der Baubehörde, ein laufendes
-  BZO-Revisionsverfahren wird als **unklarer Festsetzungszeitpunkt** benannt, nicht überspielt.
-  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (belegt Fidelity 260803):** Vokabular
-  wie Abstandsgrün (abwertend), Terrassierung, Einsichtsschutz mittels Gartenmauer, Inszenierung
-  der Seesicht, ortsübliche Bebauungstypologie, Unterkellerung des Gartens durch die Tiefgarage
-  als Mangel. Zwei feste Kopplungen: **Aussicht an die Himmelsrichtung**, **Lagequalität an die
-  Ausnützung**. Mehrkosten als Prozent-Bandbreite, nicht als Franken-Schätzung.
+  (Art. 15 Abs. 3 BZO); die vier Einordnungs-Hebel sind **Baukörpermodellierung · Materialisierung ·
+  Dachform · Fenestrierung/Fassadentypologie des Strassenzuges**; Schlussweg ist die Vorbesprechung
+  mit der Baubehörde, ein laufendes BZO-Revisionsverfahren wird als **unklarer
+  Festsetzungszeitpunkt** benannt, nicht überspielt.
+  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (260803):** Abstandsgrün (abwertend),
+  Terrassierung, Einsichtsschutz mittels Gartenmauer, Inszenierung der Seesicht, ortsübliche
+  Bebauungstypologie, Unterkellerung des Gartens als Mangel. Zwei feste Kopplungen: **Aussicht an
+  die Himmelsrichtung**, **Lagequalität an die Ausnützung**. Mehrkosten als Prozent-Bandbreite.
   **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (belegt Fidelity 260804):**
   benannte Konstruktion mit Zahl (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname,
-  Ug-Wert, PV-Fläche, Label); Gestaltbegriffe an der Konstruktion festgemacht (Lisenen/Pilaster
-  zeichnen das innere Raster an der Fassade ab, Vordach als Witterungs- **und** Sonnenschutz,
-  «Piano Nobile» fürs öffentlich genutzte Hauptgeschoss); Pflanzen mit botanischem Namen,
-  Bestandsbäume ausgewiesen. Vokabular und Masse: Abschnitt «Wettbewerbs-Fachsignatur» unten.
+  Ug-Wert, PV-Fläche, Label); Gestaltbegriffe an der Konstruktion festgemacht; Pflanzen mit
+  botanischem Namen, Bestandsbäume ausgewiesen. Belege: Abschnitt «Wettbewerbs-Fachsignatur» unten.
+  **Die administrative Fachsprache des Gegenübers übernehmen** (Vokabular und Belege: Abschnitt
+  «Administrative Fachsprache» unten, 260805).
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich
-  gekannt — Echo-Schutz); **Materialien, Konstruktionsart oder Geschosszahl eines Projekts
-  erfinden**, um einen Beschrieb zu füllen (belegte Drift Fidelity 260804: «vorvergraute
-  Weisstanne», «Holzelementbau», «dreigeschossig» frei gesetzt, wo das Projekt Holz-Beton-Verbund
-  auf Ortbetonsockel über einer versenkten Doppelturnhalle ist) — fehlt die Angabe, bleibt sie
-  offen oder wird als Annahme markiert.
+  gekannt — Echo-Schutz); **Material, Konstruktionsart, Geschosszahl, Rechnungsinhalte, Beträge
+  oder Stückzahlen eines Projekts erfinden**, um einen Beschrieb oder eine Mail zu füllen (belegte
+  Drift 260804 und 260805, Belege unten) — fehlt die Angabe, bleibt sie offen, wird als Annahme
+  markiert oder es wird nur die **Belegnummer** genannt, nie ein erfundener Inhalt dazu.
 
 ## Präzises Rechtsgrundlagen-Zitat auch ausserhalb Baurecht + Bau-Vokabular (belegt Mailbatch 15, authentisch)
 - **Gesetzesartikel präzise in eigener Verwaltungssache:** In der MWST-Abmeldung ans Bundesamt

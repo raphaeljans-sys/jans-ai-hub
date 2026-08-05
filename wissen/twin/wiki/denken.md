@@ -169,10 +169,9 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Rechenergebnis **direkt und vollständig** beziffern, warm gerahmt (nie weichspülen/
   kleinrechnen). **Dieselbe Frage aus den beteiligten Interessenlagen durchspielen**, statt nur
   aus der eigenen — inklusive der Gegenseite, deren Argumente man sich selbst beschafft, und der
-  Behörde, deren Ablehnung man vorwegnimmt (Rückfallebene bereithalten). Belegt über vier Jahre
-  und drei Projekte (Haus Deuber 20.10.2020 + 08.02.2021, Wädenswil 22.08.2023, Regensdorf
-  19.04.2024, WALD 23.10.2024); das ausformulierte Vier-Achsen-Raster ist dagegen Einzelbeleg
-  und steht als Fach-Methode im Skill `machbarkeit`, nicht hier. Erkenntnisse
+  Behörde, deren Ablehnung man vorwegnimmt (Rückfallebene bereithalten). Über vier Jahre und drei
+  Projekte belegt (Abschnitt unten); das Vier-Achsen-Raster ist Einzelbeleg und steht als
+  Fach-Methode im Skill `machbarkeit`, nicht hier. Erkenntnisse
   aus der Rechnung **nummerieren** («1. Erkenntnis: …») und die **Rechenkette offenlegen** statt
   nur das Ergebnis zu nennen (Zonenformel → Einzelposten → Total).
 - **Varianten werden bilanziert, nicht benotet (belegt Fidelity 260803, authentisch,
@@ -180,8 +179,7 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Variante eine **«+»/«-»-Bilanz**. Drei Regeln dieser Bilanz: (1) das Dokument verpflichtet
   sich auf **eine** Perspektive und zieht sie konsequent durch (hier der Aussenraum, nicht
   Baurecht plus Kosten plus Nutzung nebeneinander); (2) derselbe Mangel wird über die Varianten
-  hinweg **wortgleich** wiederholt («Aussicht scheuklappenmässig in eine Richtung», «Seesicht
-  wird nicht ausgearbeitet und thematisiert» je in Variante 0 und 1) — die Wiederholung ist das,
+  hinweg **wortgleich** wiederholt (Belege unten) — die Wiederholung ist das,
   was die Varianten vergleichbar macht, sie wird nicht variiert; (3) der **Favorit wird nicht
   ausgesprochen**, sondern dadurch sichtbar, dass seine Minus-Rubrik **leer bleibt** (Variante 2
   trägt vier Pluspunkte und unter «-» nichts). Die Bilanz wertet, das Fazit fehlt bewusst.
