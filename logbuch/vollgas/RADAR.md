@@ -51,6 +51,112 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-05 08:58 — [FREI] Die haengende Fensterprobe ist geloest, und sie war teurer als gedacht: die eigenen Waisen-Prozesse des Radars haben das Lauf-Gate blockiert und `normen-training` run44 zum Ruecktritt gezwungen. Vorsprung auf +0.9, Konvergenz erreicht
+
+**Selbstkontrolle:** letzter Eintrag 05.08. 00:57, Abstand 8 h 01 bei 8-h-Takt (00:50 /
+08:50 / 16:50). **Kein Aufsichtsausfall**, der Slot 08:50 ist eingehalten.
+
+**Fenster FREI — die Probe antwortet wieder, und der Defekt war hausgemacht.**
+`claude -p "Antworte nur mit: OK" --model haiku` liefert **«OK», rc=0**, in Sekunden. Der
+Unterschied zu den vier Fehlversuchen vom 04./05.08. ist ein einziges Zeichen:
+**`< /dev/null`**. Ohne umgeleitetes stdin wartet das CLI auf eine interaktive Eingabe,
+gibt nie etwas aus und laeuft unbegrenzt weiter — das erklaert das exakte Symptom
+(vollstaendig leere Ausgabedatei, kein Fehlertext, kein rc). Es war also **nie** ein
+Login- oder Kontingentproblem, sondern ein Fehler im Rezept dieses Radars. Der Befund ist
+einmal verifiziert; der naechste Lauf bestaetigt ihn oder widerlegt ihn.
+
+**Der eigentliche Schaden lag woanders — die Aufsicht hat den Loop blockiert, den sie
+beaufsichtigt.** `normen-training` run44 meldet um 01:34 **rc=1, kein Destillat,
+Ruecktritt am Lauf-Gate**: zwei verwaiste Prozesse mit PPID 1 (PID 54048/87945) belegten
+beide Gate-Plaetze, obwohl 3427 MB Speicher frei waren. Am Gate-Script gegengeprueft
+(`scripts/lauf-gate.sh`, Zeile 61): es zaehlt ueber `pgrep -f "claude (-p|--print)"` —
+**genau das Muster der Radar-Fensterprobe**. Die Kausalkette ist damit geschlossen: die
+Probe haengt, der Watchdog killt den Wrapper, der claude-Kindprozess wird an init
+reparentiert und lebt weiter, das Gate zaehlt ihn als aktiven Lauf. Vier haengende Proben,
+zwei ueberlebende Waisen, ein blockierter Lern-Loop.
+
+**Beides behoben.** Die Waisen sind weg (`ps` auf beide PIDs leer, `pgrep`-Zaehlung des
+Gate leer, kein `claude -p` mehr auf der Station). Das Rezept in Schritt 2 der eigenen
+Task-SKILL.md ist korrigiert: `< /dev/null` als Pflicht, Watchdog muss die ganze
+Prozessgruppe abraeumen statt nur den Wrapper, und nach jedem Watchdog-Eingriff ist per
+`ps` gegenzupruefen, dass keine Waise zurueckbleibt. **Kein Rueck-Takt fuer
+`normen-training`:** das ist ein Abbruch, kein Delta-Null — der Loop war hungrig und wurde
+unterbrochen, nicht material-erschoepft. Er steht heute 23:27 wieder scharf, das Gate ist
+frei.
+
+**Speicher:** 4.01 GB frei+inactive+purgeable, Druckstufe **1** (normal). Um 00:57 waren
+es 3.16 GB bei Stufe 2. Deutlich entspannt, teils durch das Abraeumen der Waisen.
+
+**Wochenbudget.** `kontingent-budget.sh --json`, gemessen ohne Modellaufruf:
+
+| Groesse | Wert | Vergleich 00:57 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **46.23 Mio** von 167 = **27.7 %** | 42.15 Mio = 25.2 % |
+| Woche verstrichen | 26.8 % (45 h seit Reset Mo 12:00) | 22.0 % |
+| **Vorsprung** | **+0.9 Punkte** | +3.2 Punkte |
+| MacBook Pro / Mac Mini | 33.30 / 12.93 Mio (beide frisch) | 29.95 / 12.20 |
+
+**Die Konvergenz ist erreicht: +8.6 → +4.4 → +3.2 → +0.9.** Verbrauch und Zeitverlauf
+liegen jetzt praktisch gleichauf, also genau dort, wo Raphaels Entscheid vom 03.08.
+(«gleichmaessig ueber die Woche») sie haben will. Die Rate seit 00:57 betraegt
+**0.51 Mio/h** (4.08 Mio in 8 h 01), nachhaltig waeren bis zum Reset am Montag
+**0.98 Mio/h** (120.77 Mio Rest auf 123 h). Der Vorsprung wird in den naechsten Stunden
+ins Minus laufen — das ist bei dieser Rate rechnerisch zwingend und noch kein Warnsignal,
+solange die Naechte liefern. Beobachtungspunkt fuer die naechsten Laeufe: **faellt der
+Vorsprung unter etwa minus 5 Punkte, wird aus der Konvergenz Unterauslastung** — dann ist
+nicht zu drosseln, sondern Arbeit nachzulegen. Eine Drossel nach Schritt 2c ist **nicht**
+ausgeloest und wurde **nicht** gesetzt.
+
+**Liefer-Delta: 45 Commits in 9 Stunden, davon vier mit Substanz.**
+- `wissen/energie` 05:39: **ecoBKP 2026 Erstzugriff** (ecobau.ch, 138 Seiten), Methodik/
+  Leitfaden plus die drei vollstaendigen Merkblaetter ecoBKP 112, 130 und 201 destilliert,
+  Beginn ecoBKP 21. Offen: die restlichen 27 Merkblaetter (S. 20–138).
+- `wissen/bauprodukte` 02:36: ERCO-Ratgeber von Seite 53 auf **73** fortgeschrieben.
+- `twin-mail-training` Batch 87 (03:49): Luecken-Sweep rj@ Dez 2025 / Jan 2026.
+- `twin-fidelity-review` (06:08): Bitte-Form, mitlesende Dritte, Geraetebefund.
+- Lauf-Journal 05.08.: zwei Zeilen, **beide rc=0** (02:37 4.11 USD / 37 Turns, 05:39
+  4.28 USD / 43 Turns). Operative Briefings alle durch: logbuch-radar 07:06,
+  vollgas-fruehwarnung 07:25 (still), ag-gruendung-monitor 07:50. Die restlichen Commits
+  sind `nas-selfcommit` mit `station-status/*` und `logbuch/kontingent/*` — Statusrauschen,
+  das nach Schritt 5 nicht als Arbeit zaehlt.
+- **Kein Loop mit drei oder mehr Laeufen ohne Delta.** Kein Rueck-Takt-, kein
+  Stilllegungskandidat.
+
+**P2 des Vorlaufs erledigt — der energie-Taktgeber ist bewiesen.** Der Nachtschicht-Slot
+05:30 hat `energie` diesmal selbst gezogen und geliefert; das Lauf-Journal haelt
+ausdruecklich fest, dass die KB seit dem 28.07. ohne eigenen Taktgeber war und **die
+Nachtschicht sie ab jetzt traegt**. Die Korrektur der Freiliste in
+`scripts/nachtschicht-run.sh` (Zeile 126) wirkt also. Kein zweiter Mechanismus noetig.
+
+**Feuermechanismen — alle drei Orte geprueft, keine Abweichung.**
+- Endlos-Runner unveraendert **ausgebaut**: `ch.jans.vollgas-supervisor` (beide Stationen)
+  und `ch.jans.vollgas-monitor` (MacBook) tragen `.disabled-260729`, in `launchctl list`
+  ist keiner geladen. Nichts angefasst.
+- Mac-Mini-Nachtschicht `ch.jans.nachtschicht` geladen, Slots intakt (02:37 und 05:39
+  beide gelaufen).
+- Registry: alle Lern-Tasks **enabled=true**; auf `false` nur abgeschlossene One-Time-Tasks
+  und die bewusst auf Ereignis-Trigger umgestellten Loops (`immobewertung-training`,
+  `spec-training`).
+
+**P1 — keiner.** Keine Mail: der Proben-Defekt war kein Blocker, den nur Raphael loesen
+kann, sondern ein Fehler dieses Radars, und er ist behoben.
+
+**P2 — den Fix der Fensterprobe im naechsten Lauf bestaetigen.** Ein einziger gelungener
+Aufruf ist noch kein Beweis. Bestaetigt der 16:50-Lauf das «OK», ist der seit vier Laeufen
+groesste offene Hebel geschlossen und die Unterscheidung [FREI] / [LOGIN] / [WOCHE LEER]
+wieder direkt messbar statt ueber Umwegbelege.
+
+**P3 — der fehlende Tagesdeckel ist mit dieser Messung praktisch entwertet.** Der
+Verbrauch hat den flachen Wochenschnitt von selbst erreicht. Ein Deckel wuerde derzeit
+nichts begrenzen, was nicht ohnehin unter der Linie laeuft; wieder aufzunehmen erst, wenn
+eine Nacht ueber 2 Mio/h liefert und der Tag das nicht ausgleicht.
+
+*Regellauf schlank gehalten. Einziger Mehraufwand: die Ursachenverfolgung der haengenden
+Probe — gerechtfertigt, weil der Befund aus dem `normen-training`-Report einen konkreten,
+durch die Aufsicht selbst verursachten Lern-Ausfall belegt hat.*
+
+---
 ## 2026-08-05 00:57 — [FREI] Der Vorsprung faellt auf +3.2 und naehert sich der Null — das ist die gewollte Konvergenz, nicht ein Problem. Starke Nacht-Lieferung (energie Run 123, Wissens-Chef Run 25), aber der neue energie-Taktgeber ist noch unbewiesen
 
 **Selbstkontrolle:** letzter Eintrag 04.08. 17:05, Abstand 7 h 52 bei 8-h-Takt (00:50 /
