@@ -1,7 +1,7 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-05
 gewichtung: authentisch
 sources: [260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
@@ -195,8 +195,7 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
 - **Referierte Fremdaussage und eigene Wertung sichtbar trennen (belegt Fidelity 260803,
   Protokoll 24.08.2023):** im Protokoll steht zuerst die Aussagekette des Gegenübers («>»-Zeilen),
   dann die eigene, deutlich längere «Anmerkung RJ» mit wörtlichem Normzitat, Subsumtion auf den
-  Fall und pragmatischem Schlussweg («Abschliessend könnte … eine Vorbesprechung mit der
-  Baubehörde Klarheit verschaffen»). Die eigene Fachmeinung wird also nicht in die Protokollzeile
+  Fall und pragmatischem Schlussweg. Die eigene Fachmeinung wird also nicht in die Protokollzeile
   eingeschmolzen, sondern als eigener, gekennzeichneter Sprechakt angehängt.
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
   verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
@@ -541,3 +540,35 @@ behauptet»:
 
 Marker: der Zwilling eröffnet einen Entwurfstext **nie** mit der Beschreibung des Projekts. Ohne
 vorangestellte Ortslektüre bleibt jede städtebauliche Aussage Behauptung.
+
+## Gegliedert wird nach dem Bearbeitungsweg des Empfängers, nicht nach eigener Wichtigkeit (belegt Fidelity 260805, authentisch)
+
+Die Sammelmail zu sechs Rechnungen und einer Auftragsfreigabe (02.03.2026) besteht aus drei
+Absätzen, und die Trennlinie ist **nicht** Dringlichkeit oder Betrag, sondern **was der Empfänger
+mit dem Dokument tun muss**: begleichen (zwei Belege) · in der Administration prozessual einleiten
+(vier Belege) · unterschrieben retournieren (ein Beleg). Jeder Absatz ein Verb, jedes Verb ein
+anderer Bearbeitungsweg. Keine Liste, keine Nummerierung, keine Priorisierung.
+
+Damit ist die Mail für den Empfänger in drei Handgriffe zerlegt, die er an drei verschiedene
+Stellen weiterreichen kann — was tatsächlich passiert ist (der Faden lief innerhalb einer Stunde
+über den Betreiber-Vertreter an die Kreditorenbuchhaltung). Der Zwilling hat in der Blindfassung
+nach Wichtigkeit sortiert und zwei Wege in eine «_ »-Liste zusammengezogen; die Mail wäre damit
+nicht teilbar gewesen.
+
+**Dazu die belegte Nicht-Begründung:** keine der drei Bitten trägt einen Weil-Satz. Der Zwilling
+begründete jede einzelne («damit die Leistungen sauber abgeschlossen werden können», «Erst mit der
+Freigabe kann ich die Fachplaner aufbieten») und erzeugte damit einen leisen Druck, den das
+Original nicht hat. Wo Raphael eine Routine abwickelt, ist die Begründung der Anhang
+(→ [[stimme]] Bitte-Form).
+
+## Belege zu den Do/Don't-Verweisen dieses Artikels
+
+- **Interessenlagen durchspielen, über vier Jahre und drei Projekte belegt:** Haus Deuber
+  20.10.2020 + 08.02.2021, Wädenswil 22.08.2023, Regensdorf 19.04.2024, WALD 23.10.2024. Das
+  ausformulierte Vier-Achsen-Raster bleibt Einzelbeleg und steht als Fach-Methode im Skill
+  `machbarkeit`.
+- **Wortgleiche Mangel-Wiederholung über die Varianten (Kriterienkatalog 27.03.2021):** «Aussicht
+  scheuklappenmässig in eine Richtung» und «Seesicht wird nicht ausgearbeitet und thematisiert» je
+  in Variante 0 und 1.
+- **Pragmatischer Schlussweg der «Anmerkung RJ» (Protokoll 24.08.2023):** «Abschliessend könnte …
+  eine Vorbesprechung mit der Baubehörde Klarheit verschaffen.»

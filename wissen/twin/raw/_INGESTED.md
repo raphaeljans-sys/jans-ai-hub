@@ -667,3 +667,41 @@ Dezember 2025 / Januar 2026 bis zum 15.01. **abgeschlossen**.
 zweite Prioritaet benannt), danach **16.–31.01.2026** (Batch 23/24 lasen auch dort nur
 stichprobenartig). **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle
 UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Gold-Verbrauch Fidelity 05.08.2026 — Rueckkehr zum Mail-Strang, Fenster 02.–06.03.2026
+
+| Mail | Gattung | verbraucht durch |
+|---|---|---|
+| `rj@` 02.03.2026 13:09 «Offene Rechnungen und Auftragsfreigabe AN-00037» + Folgemail 13:50 (Stammdaten-Block) | Sammel-Zahlungsbitte + Kreditoren-Stammdaten, Du im Grossmandat | Fidelity 260805 (Gold A) |
+| `rj@` 03.03.2026 16:02 «PPTS Plangrundlagen angepasst, Freigabe Phase Vorprojekt Bauprojekt Baueingabe» | Liefer-/Freigabe-Antragsmail nach GL-Entscheid, Du | Fidelity 260805 (Gold B) |
+| `rj@` 06.03.2026 10:48 «WG: [OFF] 260041 Balkontuere EG» | reines Transmittal, Sie an die Bauherrin, Unternehmerin im Cc | Fidelity 260805 (Gold C) |
+| `rj@` 26.02.2026 «Denkmalpflege» + 20.02.2026 «Fwd: Wartstrasse 8 / Zuerich» | **Gegenprobe**, nicht als Gold destilliert (Anrede-Reihe bzw. Geraetefassung) | Fidelity 260805 |
+
+**Die Batch-Zeile taeuscht — das Fenster war NICHT abgeerntet.** Die Batches 31/32/33 lasen je
+«20 gesichtet, 5 destilliert»; die uebrigen fuenfzehn Mails je Batch blieben ungelesen. Die
+ersten vier Kandidaten dieses Laufs (Nasszellen-Planstand, Terminplan-Reframing Tschopp,
+Baurechts-Sachmail Esther, Planliste Baueingabe Hottinger) waren tatsaechlich verbraucht und
+wurden **vor** der Lektuere erkannt — Batch-Register zuerst, dann Grep mit Positivtest
+(«Root-Cause» 3, «Katasterplan» 12, «Werte Steffi» 8, «Hottinger» 38; Kontrollbegriffe 0).
+Danach lieferten «AN-00037», «Selbstaendigkeitsnachweis», «Rechtsnatur», «Firmennummer»,
+«Offertstellung», «Balkontuere EG», «Vorprojekt Bauprojekt» und «Bettenkapazitaet» **null**
+Treffer — echte Luecken, kein Werkzeugfehler.
+
+**Echo-Pruefung negativ:** dichte Tippfehler in allen drei Rahmen («danke ich Dir **fuer** die
+Retournierung» nach «**Fuer** die Auftragsfreigabe», «findest **du**» klein, «muss das Amt sehen
+**das** die Person welche mir die Vollmacht gibt», «an Unternehmer» ohne Artikel, «die masse»
+klein in der Gegenprobe). Handgetippt, klar authentisch.
+
+**Neuer Methodik-Baustein: die Anrede-Reihe je Empfaengerin als eigene Gegenprobe.** Der beste
+Befund des Laufs (Namensform kippt vor mitlesenden Dritten) entstand nicht am Gold, sondern aus
+einem Connector-Aufruf ueber ALLE Mails an dieselbe Person im Zeitraum. Das liefert kontrollierte
+Paare statt Einzelbelege und gehoert kuenftig vor jeden Register-Befund.
+
+**Zweiter Methodik-Baustein: die Fassung vor dem Stil pruefen.** Mails mit
+`internetMessageId` auf `@raphaeljans.ch` (statt `…OUTLOOK.COM`), ohne HTML-Signaturblock und mit
+dem Zitatkopf «Anfang der weitergeleiteten Nachricht» stammen aus **Apple Mail auf dem Geraet**.
+Dort ist «Mit freundlichen Gruessen» (mit ss-fremdem ß) die Geraete-Standardsignatur und **kein
+Stilmarker** — ebenso wenig der fehlende Block und die Binnen-Kleinschreibung.
+
+**Naechstes Fenster:** `rj@` **16.–31.01.2026** (Batch 23/24 lasen dort nur stichprobenartig),
+danach die Restluecke **07.–11.03.2026** zwischen Batch 33 und 34.

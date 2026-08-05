@@ -2712,3 +2712,42 @@ verbraucht). Je in 1–2 Saetzen beantwortbar.
    Unternehmer entgegenkommst, oder bleibt die Konzession dort bewusst unbenannt, um sie in der
    Nachverhandlung nicht als Argument zu verlieren? *Warum: klaert, ob der Marker rollenunabhaengig
    gilt oder nur, wo Du der zahlende Kunde bist.* → [[haltung]]
+
+## Selbstfragen aus dem Fidelity-Lauf 05.08.2026 (twin-fragesteller)
+
+Quelle: `outputs/2026-08-05_fidelity.md`. Drei Golds aus dem Fenster 02.–06.03.2026 (Sammelmail
+Rechnungen/Auftragsfreigabe an den Betreiber-Vertreter · Plangrundlagen-/Freigabemail · Offert-
+Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen beantwortbar.
+
+1. **Hebt der mitlesende Dritte wirklich die Namensform — oder war es der Vergabe-Anlass?**
+   Belegt ist ein kontrolliertes Paar an dieselbe Bauherrin: bilateral «Geschätzte Undine»
+   (26.02.), mit der offerierenden Unternehmerin im Cc «Geschätzte Frau Hofer» (06.03.). Schreibst
+   Du einer Du-Bauherrin auch dann mit Nachnamen, wenn der Dritte im Cc **nichts** mit Geld oder
+   Vergabe zu tun hat (z.B. ein Fachplaner in einer reinen Terminmail)? *Warum: entscheidet, ob der
+   Zwilling auf «wer liest mit» oder auf «worum geht es» schaltet — die beiden fallen hier
+   zusammen.* → [[beziehungsregister]]
+2. **Was genau zieht den Service-Satz — die Gattung oder die Rückfrage-Wahrscheinlichkeit?**
+   Am 02.03. trägt die Rechnungsmail «Bei Fragen oder Unklarheiten stehe ich Dir jederzeit gerne
+   zur Verfügung», am 03.03. trägt die Plangrundlagen-/Freigabemail an denselben Empfänger keinen
+   Schlusssatz. Beide verlangen eine Handlung. Ist der Unterschied, dass bei Belegen mit Rückfragen
+   zu rechnen ist, oder schlicht, dass die zweite Mail ohnehin mit einer Frage endet? *Warum: der
+   Zwilling hängt den Service-Satz derzeit zu oft an.* → [[stimme]]
+3. **Die Bullets der referierten GL-Vorgabe: Zeichen mit Bedeutung oder Outlook-Default?**
+   In der Mail vom 03.03. steht die fremde Vorgabe unter «Änderung Bettenkapazität gemäss GL:» in
+   schlichten Listenpunkten, nicht in Deinen «_ »-Zeilen. Setzt Du für **referierte** Fremdvorgaben
+   bewusst ein anderes Zeichen als für eigene Aufzählungen, oder hat dort einfach die
+   Listenfunktion des Mailprogramms gegriffen? *Warum: nach Deiner Freigabe vom 01.08.2026 werden
+   Zeichen abgeschaut, nicht semantisiert — hier steht ein möglicher echter Bedeutungsträger.*
+   → [[arbeitsweise]], [[stimme]]
+4. **Imperativ oder Höflichkeitsform — trennt wirklich der Gegenstand?** Belegt: «Darf ich Dich
+   bitten, die Rechnungen … zu begleichen» (Geld, 02.03.) gegen «Bitte prüfe die Unterlagen und
+   stelle … den Antrag» (Projektaufgabe, 03.03.), gleicher Empfänger, gleiches Register. Gilt das
+   auch nach oben, also gegenüber einer Bauherrschaft, oder wird dort auch die Projektaufgabe zur
+   «Darf ich Sie bitten»-Form? *Warum: der Zwilling wählt die Bitte-Form bisher nach Register und
+   klingt dadurch im Mandat zu devot.* → [[stimme]]
+5. **Nimmst Du Dich bei jeder Vergabe als Zwischenstation heraus?** Die Offerte der Schreinerei
+   ging an die Bauherrin «mit der Bitte um Entscheid direkt an Unternehmer», ohne Empfehlung und
+   ohne Einordnung des Betrags. Ist das die Regel bei überschaubaren Einzelvergaben, oder gab es
+   hier eine Vorbesprechung, in der die Empfehlung mündlich schon stand? *Warum: der Zwilling hat
+   in der Blindfassung eine Vergabeempfehlung erfunden — er braucht die Grenze, ab der Du wieder
+   selbst wertest.* → [[haltung]], [[arbeitsweise]]

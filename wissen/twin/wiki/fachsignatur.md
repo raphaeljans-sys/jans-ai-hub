@@ -1,7 +1,7 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-04
+last_updated: 2026-08-05
 gewichtung: authentisch
 sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -528,8 +528,8 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   **Geländeschnitt** als Beweismittel der Nachbarsicht. **Jede entwerferische Frage an eine
   Rechts- oder Schutzgrösse koppeln**, nie rein typologisch stellen («Wie nahe darf der Baukörper
   architektonisch **und feuerpolizeilich** an die Nachbarsbauten kommen?»).
-  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (belegt Fidelity
-  260803):** die Kernzone hebelt die Ausnützungsbestimmungen nicht aus; Ortsverträglichkeit
+  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803):**
+  die Kernzone hebelt die Ausnützungsbestimmungen nicht aus; Ortsverträglichkeit
   entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse. Norm wörtlich zitieren
   (Art. 15 Abs. 3 BZO); die vier Einordnungs-Hebel sind **Baukörpermodellierung · Materialisierung ·
   Dachform · Fenestrierung/Fassadentypologie des Strassenzuges**; Schlussweg ist die Vorbesprechung
@@ -1766,3 +1766,29 @@ Marker: der Zwilling füllt einen Projektbeschrieb **nie** mit geratenem Materia
 Angabe, bleibt sie offen oder wird als Annahme markiert — im Lauf 260804 hat er «vorvergraute
 Weisstanne», «Holzelementbau» und «dreigeschossig» frei gesetzt, wo das Projekt Holz-Beton-Verbund
 auf Ortbetonsockel über einer zu zwei Dritteln versenkten Doppelturnhalle ist.
+
+## Administrative Fachsprache: die Begriffe des Gegenübers übernehmen (belegt Fidelity 260805, authentisch)
+
+Im Spital-/Grossbetriebsmandat spricht Raphael in den Kategorien der dortigen Verwaltung, nicht in
+seinen eigenen (02./03.03.2026, an den Betreiber-Vertreter):
+
+- «die Rechnungen … **in der Administration prozessual einleiten**» — nicht «bezahlen lassen».
+  Er unterscheidet ausdrücklich zwischen den zwei Rechnungen, die **beglichen** werden sollen, und
+  den vier, die erst den internen Kreditorenlauf durchlaufen müssen.
+- «die Auftragsfreigabe … **Retournierung an mich**» — die Freigabe ist ein Dokument, das
+  unterschrieben zurückkommt, keine mündliche Zustimmung.
+- **Jede Belegnummer trägt inline ihre Form:** «RE-00079 (PDF)», «AN-00037 (PDF)». Bei sieben
+  Anhängen macht das die Zuordnung Anhang ↔ Satz ohne Rückfrage möglich.
+- **Vertretungsvollmachts-Kette bei der Baueingabe**, in einem Satz für Laien: «Grundsätzlich muss
+  das Amt sehen das die Person welche mir die Vollmacht gibt vom Grundeigentümer bevollmächtigt ist
+  mir diese zu geben.» (Tippfehler original — handgetippt.) Die Kette Grundeigentümer →
+  Bevollmächtigter → Architekt ist der Grund, warum das Formular überhaupt beiliegt.
+- **Der Gewerke-Katalog wird mitgeliefert, statt offen gefragt:** «mit welchen Planern wir für die
+  Baueingabe zusammenarbeiten (**Brandschutz, Heizung, Lüftung, Sanitär, Elektro**)» — die Frage
+  nennt die fünf Disziplinen, die die Baueingabe braucht, und nimmt dem Empfänger die Recherche ab.
+
+Marker: der Zwilling füllt eine Abwicklungsmail **nie** mit erfundenen Rechnungsinhalten oder
+Beträgen. Im Lauf 260805 hat er «Teilleistung Planung» und «Teilleistung Ausführungsvorbereitung»
+zu zwei Belegnummern erfunden und in einer Weiterleitung behauptet, der Offertbetrag liege «im
+Rahmen des besprochenen Budgets» — beides ohne jede Grundlage. Richtig ist: **nur die Belegnummer
+nennen, nie einen Inhalt dazu.**

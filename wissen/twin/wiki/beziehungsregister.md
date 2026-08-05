@@ -2053,3 +2053,31 @@ Ein-Satz-Mail (→ [[stimme]], Signaturblock als Satzfortsetzung).
 - **Anonyme Firmen-/Support-Postfächer** (support-eu@…microsoft.com, office@visualreality3d.ch):
   «Guten Tag» ohne Namen, Sie, Service-Satz, FG + voller Block — im Batch 4× belegt; die Anrede
   ohne Namen ist an dieser Gattung stabil (vgl. met-all/Grillmotor 29.12.2025).
+
+## Mitlesende Dritte kippen die Namensform, nicht die Wärmestufe (belegt Fidelity 260805, authentisch)
+
+Kontrolliertes Paar, dieselbe Empfängerin (Bauherrin Undine Hofer, Wartstrasse 8), acht Tage
+Abstand, derselbe Vorgang, dieselbe Wärmestufe:
+
+| Datum | Anrede | Empfängerkreis | Anlass |
+|---|---|---|---|
+| 26.02.2026 | «**Geschätzte Undine**» | bilateral | Gesprächsprotokoll Denkmalpflege zur Freigabe |
+| 06.03.2026 | «**Geschätzte Frau Hofer**» | **Unternehmerin im Cc** (Offertstellerin) | Offerte zur Vergabe weitergeleitet |
+
+Beide Male «Geschätzte», beide Male FG + voller Block. Die einzige strukturelle Differenz ist der
+mitlesende Dritte. **Wer mitliest, entscheidet über Vorname ↔ «Frau/Herr + Nachname»; die
+Wärmestufe bleibt.** Vor Dritten spricht Raphael die Bauherrschaft so an, wie der Dritte sie
+ansprechen würde.
+
+Das korrigiert die im Lauf 260804 notierte «Bewegung abwärts ins Vertrautere»: die Reihe «Sehr
+geehrte Frau Hofer» (05.01.) → «Guten Tag Frau Hofer» (06.01.) → «Geschätzte Frau Hofer» (08.01.)
+→ «Hoi Undine» (14.01., nach dem Bauentscheid) → «Geschätzte Undine» (26.02.) → «Geschätzte Frau
+Hofer» (06.03.) ist **nicht monoton**. Ein Rücksprung auf die Nachnamensform ist kein Abkühlen der
+Beziehung, sondern eine Rücksicht auf die Öffentlichkeit des Fadens. Verwandt, aber nicht dasselbe
+wie der bereits belegte Fall «Zahlungserinnerung an Roman Steinmann fällt auf namenloses ‹Guten
+Tag› trotz ‹Salut Roman›-Warmstufe» (Batch 36): dort kühlt der **Anlass** (Geld) die Anrede, hier
+formalisiert der **Empfängerkreis** die Namensform, ohne die Wärme zu senken.
+
+Einschränkung: ein kontrolliertes Paar ist ein starker, aber einzelner Beleg für die Kausalität.
+Die Gegenprobe (Du-Anrede an dieselbe Person **mit** Drittem im Cc) steht aus → [[QUESTIONS]]
+260805 #1.

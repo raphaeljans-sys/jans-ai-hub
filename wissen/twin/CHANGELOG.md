@@ -4,6 +4,53 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 05.08.2026 — twin-fidelity-review: Bitte-Form, mitlesende Dritte, Gerätebefund
+
+**Gesamt-Fidelity 46** (Stimme 49 · Denken 33 · Haltung 50 · Beziehungsregister 73 ·
+Fachsignatur 28 · Arbeitsweise 44), drei unverbrauchte Golds aus dem Fenster 02.–06.03.2026:
+Sammel-Zahlungsbitte + Kreditoren-Stammdaten an den Betreiber-Vertreter (Du), Plangrundlagen-/
+Freigabemail nach GL-Entscheid (Du), Offert-Weiterleitung an die Bauherrin mit der Unternehmerin
+im Cc (Sie). Report: `outputs/2026-08-05_fidelity.md`.
+
+**Abdeckungsprüfung hat diesmal VOR der Lektüre gegriffen:** die ersten vier Kandidaten waren
+bereits in Batch 31/32/33 destilliert, erkannt über Batch-Register + Positivtest (Root-Cause 3,
+Katasterplan 12, Werte Steffi 8, Hottinger 38; Kontrollbegriffe 0). Kein Doppelverbrauch.
+
+**Neu ins Wiki (Do-Block, textwirksam):**
+- [[stimme]] — **Bitte-Form folgt dem Gegenstand, nicht dem Register**: fremde Ressource/
+  Amtshandlung → «Darf ich Dich/Sie bitten», Projektaufgabe des Empfängers → nackter Imperativ
+  «Bitte prüfe … und stelle …» (kontrolliertes Paar, derselbe Empfänger, ein Tag Abstand). Dazu
+  die **zweite Einschränkung der Begründungspflicht** (Routine-Abwicklung trägt keine Begründung,
+  der Anhang ist die Begründung), Belegnummern inline mit Form «RE-00079 (PDF)», Service-Satz-
+  Präzisierung und der **verblose Nominalsatz** im reinen Transmittal.
+- [[beziehungsregister]] — **vor mitlesenden Dritten wechselt die Namensform, nicht die
+  Wärmestufe** (Gegenprobe über alle Mails an dieselbe Bauherrin: «Geschätzte Undine» bilateral
+  26.02. gegen «Geschätzte Frau Hofer» mit Unternehmerin im Cc 06.03.). Korrigiert die im Lauf
+  260804 notierte monotone «Bewegung abwärts ins Vertrautere».
+- [[haltung]] — sich als Zwischenstation herausnehmen, wo die Bauherrschaft selbst entscheiden
+  kann («Bitte um Entscheid direkt an Unternehmer», ohne Empfehlung, ohne Bewertung).
+- [[arbeitsweise]] — Prosa-Rückfrage als selbstgebautes «_ »-Feldraster beantworten; Änderung
+  zuerst legitimieren, dann beschreiben («Gemäss Entscheid der GL …»).
+- [[fachsignatur]] — Erfindungsverbot auf **Rechnungsinhalte, Beträge und Stückzahlen**
+  ausgeweitet (Drift in 3 von 3 Golds); administrative Fachsprache als Artikelabschnitt.
+- [[denken]] — nach dem **Bearbeitungsweg des Empfängers** gliedern, nicht nach eigener Wichtigkeit.
+
+**Korrektur am Bestand:** «Mit freundlichen Grüßen» (ß) ist ein **Gerätebefund**, kein Stilbefund.
+Früherer Zweitbeleg 20.02.2026 (der Artikel führte den 06.05.2026 als «erster Beleg im gesamten
+Korpus») und eine technisch prüfbare Erkennungsregel: `internetMessageId` auf `@raphaeljans.ch`
+statt `…OUTLOOK.COM`, kein HTML-Signaturblock, Gruss inline, Zitatkopf «Anfang der
+weitergeleiteten Nachricht». Dieselbe Fassung erklärt auch Binnen-Kleinschreibung und fehlenden
+Block — erst die Fassung prüfen, dann den Stil werten.
+
+**[[QUESTIONS]]:** 5 neue Selbstfragen (Mitleser vs. Anlass · Service-Satz-Trennlinie · Bullets
+der referierten Fremdvorgabe · Imperativ nach oben · Grenze der Vergabe-Zurückhaltung).
+
+**Gehirn neu kompiliert:** `rules/jans-dna-facetten.md`, **29'991 B — 9 B Reserve**. Um die drei
+neuen Regeln unterzubringen, wurde an elf Stellen verdichtet; drei bereits geschriebene
+Regelzusätze mussten wieder in den Artikel-Fliesstext zurück. Der Riegel ist damit praktisch
+geschlossen — der Entscheid über die Grenze (Aufteilung nach Gattung, empfohlen, mit massvollem
+Anheben als Zwischenschritt) liegt bei Raphael und ist jetzt fällig.
+
 ## 05.08.2026 — twin-mail-training Batch 87: Luecken-Sweep `rj@` Dez 2025 / Jan 2026
 
 **Methodik-Befund vor der Lektuere: das Fenster war doppelt vorbelegt.** Neben den

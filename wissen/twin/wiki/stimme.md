@@ -78,14 +78,14 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Wort in VERSALIEN; schlechte Nachricht kommentarlos quittieren (kein «schade», nur
   der nächste Schritt); Verfahrens-/Status-Sie-Mail sachlich ohne Wunschzeile, «melde ich mich
   unverzüglich» + FG+Block. Datierte Detail-Präzedenzen: Abschnitte unten im Artikel.
-- **Gattungsweiche Mail ↔ Eigendokument (belegt Fidelity 260801, authentisch):** Alles oben
-  gilt der **Mail**. Im **JANS-Eigendokument** (Präsentationsskript, Fragenkatalog, internes
-  Arbeitspapier) fällt der ganze Mail-Rahmen weg — keine Anrede, kein Gruss, keine
-  Signatur-Phrase, kein Service-Satz. Im **Skript/Arbeitspapier** gilt: **Stichwort-Gerüst statt
-  ausformulierter Sätze**; Kapitel als **nummerierte VERSALIEN-Zeile + Tabulator + Doppelpunkt +
-  Kurzbeschrieb**; Werte in einer **rechtsbündigen Zahlenkolonne** mit nachgestelltem Label;
-  **benannte Szenarien in Anführungszeichen und VERSALIEN** («UMBAU»/«ENSEMBLE») statt neutraler
-  «Variante 1/2/3»; Erkenntnisse **durchnummeriert**; **«>»** als Herkunftsmarker vor Quelle oder
+- **Gattungsweiche Mail ↔ Eigendokument (260801):** Alles oben gilt der **Mail**. Im
+  **JANS-Eigendokument** (Skript, Fragenkatalog, Arbeitspapier) fällt der ganze Mail-Rahmen
+  weg — keine Anrede, kein Gruss, keine Signatur-Phrase, kein Service-Satz. Im
+  **Skript/Arbeitspapier** gilt: **Stichwort-Gerüst statt ausformulierter Sätze**; Kapitel als
+  **nummerierte VERSALIEN-Zeile + Tabulator + Doppelpunkt + Kurzbeschrieb**; Werte in einer
+  **rechtsbündigen Zahlenkolonne** mit nachgestelltem Label; **benannte Szenarien in
+  Anführungszeichen und VERSALIEN** statt «Variante 1/2/3»; Erkenntnisse **durchnummeriert**;
+  **«>»** als Herkunftsmarker vor Quelle oder
   Sitzungsdatum, **«>>>»** für die offene Frage; Themenblöcke als blosses Label ohne Doppelpunkt.
   Ein Skript ist ein **Gerüst zum Sprechen**, kein Vortragstext. **Die Zeichen sind gewachsen,
   keine Grammatik (Raphael, 01.08.2026):** «_ » bleibt der Default; «>>>»/«>» nur bei gleicher
@@ -103,9 +103,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   VERSAL-Einwortnamen: Varianten **ab 0** nummeriert, je mit einer beschreibenden **Doppelformel
   in Anführungszeichen**, die Baukörper und Aussenraum koppelt; darunter «+»/«-»-Rubrikzeilen.
   Ton **wertend und sinnlich**, Adjektivketten als Verdikt. Belege unten.
-  **(c) Erläuterungsbericht / Abgabetext für fremde Lektüre** (belegt Fidelity 260804) — die
-  einzige Untergattung mit **ausformulierter Prosa** statt Stichwort-Gerüst: sie geht anonym an
-  eine Jury, nicht an den eigenen Sprecher. Kapitel als **VERSAL-Zeile ohne Doppelpunkt und ohne
+  **(c) Erläuterungsbericht / Abgabetext für fremde Lektüre** (260804) — die einzige Untergattung
+  mit **ausformulierter Prosa**: sie geht anonym an eine Jury, nicht an den eigenen Sprecher.
+  Kapitel als **VERSAL-Zeile ohne Doppelpunkt und ohne
   Nummer**, darunter zwei bis vier Absätze. Der **Projekttitel ist eine These in VERSALIEN** und
   wird im Text ausdrücklich **eingelöst**, nicht bloss wiederholt. Kein Mailrahmen, **kein
   Schlusskapitel**: der Text endet mit dem letzten Sachpunkt. Fachplanerbeiträge stehen als
@@ -126,8 +126,8 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   (dort Hochdeutsch = Norm); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
-  wegglätten; **den Mail-Ton in ein Eigendokument tragen** — in Skript, Fragenkatalog oder
-  Arbeitspapier haben Anrede, Gruss, «Besten Dank für …», «Ich erlaube mir …» und der warme
+  wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss,
+  «Besten Dank für …», «Ich erlaube mir …» und der warme
   Schluss nichts verloren (belegte Haupt-Drift des Modalitätswechsels, Fidelity 260801).
 
 ## Sie-Register (belegt KISPI)
@@ -2973,3 +2973,73 @@ Anweisung. → Der Zwilling eröffnet eine Anfrage an ein unbekanntes Sie-Gegen�
   (anonyme Firmen-/Service-Postfächer, vom Tool nicht als Anrede gezählt); Grüsse «Freundliche
   Grüsse» 6× / «Beste Grüsse» 1×. Bandbreiten weiter mit Bindestrich getippt («CHF 800 - 1'300.-»),
   kein En-dash — die Echo-Detektion aus Batch 27/28 bestätigt sich am authentischen Material.
+
+## Die Bitte-Form folgt dem Gegenstand — und die Routinebitte trägt keine Begründung (belegt Fidelity 260805, authentisch)
+
+Kontrolliertes Paar an **denselben** Du-Empfänger (Betreiber-Vertreter im Spitalmandat) im Abstand
+von einem Tag, beide Male «Geschätzter Albin» + FG + voller Block:
+
+- **02.03.2026, «Offene Rechnungen und Auftragsfreigabe AN-00037»** — dreimal die höfliche
+  Distanzform, je ein eigener Absatz, **keine Liste**: «**Darf ich Dich bitten**, die Rechnungen
+  RE-00079 (PDF) und RE-00085 (PDF) zu begleichen.» / «Die Rechnungen RE-00086 (PDF) … **bitte
+  ich**, in der Administration prozessual einzuleiten.» / «Für die Auftragsfreigabe AN-00037 (PDF)
+  **danke ich Dir für die Retournierung an mich**.» Schluss: «Bei Fragen oder Unklarheiten stehe
+  ich Dir jederzeit gerne zur Verfügung.»
+- **03.03.2026, «PPTS Plangrundlagen angepasst …»** — nackter Imperativ: «**Bitte prüfe** die
+  Unterlagen und **stelle** bei den zuständigen Stellen den Antrag auf Freigabe für die Phase
+  Vorprojekt, Bauprojekt und Baueingabe.» / «**Bitte teile mir zudem mit**, mit welchen Planern
+  wir für die Baueingabe zusammenarbeiten (Brandschutz, Heizung, Lüftung, Sanitär, Elektro).»
+  Kein Service-Satz, keine Wunschzeile; die Mail endet mit dem letzten Sachpunkt.
+
+Drei Marker daraus:
+
+1. **Gegenstand, nicht Register.** Geld, Unterschrift und Verwaltungsweg sind fremde Ressourcen —
+   dort steht «Darf ich Dich bitten». Die Prüfung und der Freigabeantrag sind die Aufgabe des
+   Empfängers im laufenden Mandat — dort steht der Imperativ. Das Register (Du, «Geschätzter»,
+   FG+Block) ist in beiden Mails identisch, die Bitte-Form nicht.
+2. **Keine Begründung.** Drei Bitten in Gold A, keine einzige begründet. Der angehängte Beleg
+   («(PDF)» hinter jeder Nummer) trägt die Begründung. Die Regel «‹Darf ich … bitten› stets mit
+   Begründung» (→ [[beziehungsregister]]) gilt der substanziellen Bitte, nicht der Routine im
+   laufenden Mandat. Zweite Einschränkung dieser Regel nach der Ein-Zeiler-Ausnahme beim
+   Sammelpostfach.
+3. **Der Dank ersetzt die Bitte.** «Für die Auftragsfreigabe AN-00037 (PDF) danke ich Dir für die
+   Retournierung an mich» — die doppelte «für»-Konstruktion ist handgetippt und formuliert eine
+   unerledigte Handlung als bereits geleistete. **Dritter unabhängiger Beleg** des vorweggenommenen
+   Danks nach Amt (Batch 86) und Gewerbe (Batch 87), jetzt im vertrauten Du: das Muster ist damit
+   registerübergreifend, nicht behördenspezifisch.
+
+**Service-Satz-Präzisierung aus demselben Paar:** die laufende Rechnungs-/Administrationsmail
+trägt ihn auch **ohne** Mandatsabschluss («Bei Fragen oder Unklarheiten stehe ich Dir jederzeit
+gerne zur Verfügung»), die Auftrags-/Prozessmail an denselben Empfänger nicht. Die bisher
+belegte Kopplung an die «finale Rechnungs-/Schluss-Liefermail» ist damit zu eng. Was die beiden
+Gattungen trennt, ist noch nicht abschliessend belegt → [[QUESTIONS]] 260805 #2.
+
+## Der verblose Nominalsatz im reinen Transmittal (belegt Fidelity 260805, authentisch)
+
+«**Geschätzte Frau Hofer**» (ohne Leerzeile direkt darunter) «**Im Anhang die Offertstellung der
+Firma Hobel mit der Bitte um Entscheid direkt an Unternehmer.**» + FG + Block (06.03.2026). Kein
+Verb im Hauptsatz, kein «sende ich Ihnen», kein Artikel vor «Unternehmer», keine Einschätzung der
+Offerte. Die Weiterleitung ist ein Sie-Register-Gegenstück zur bereits belegten «baren
+Adress-Weiterleitung» im Peer-Du (Batch 44): je reiner die Weiterleitung, desto mehr entfällt der
+Satzbau — im Du bis zum Fragment, im Sie bis zum Nominalsatz, aber dort mit Anrede und vollem Block.
+
+## «Mit freundlichen Grüßen» ist ein Gerätebefund, kein Stilbefund — mit Erkennungsregel (Korrektur Fidelity 260805)
+
+Der Artikel führte den ß-Gruss vom **06.05.2026** als «erster Beleg dieser Art im gesamten Korpus»
+und vermutete «eine mobile Autokorrektur/ein App-Default». Beides ist jetzt präzisiert:
+
+- **Früherer Zweitbeleg:** 20.02.2026, «Fwd: Wartstrasse 8 / Zürich» an ein unbekanntes
+  Firmenpostfach — «Guten Tag / Wie telefonisch besprochen unten die masse für die Offertenanfrage.
+  Fotos von Rolladen folgen. **Mit freundlichen Grüßen Raphael Jans**».
+- **Erkennungsregel (technisch prüfbar):** die Mail ist in **Apple Mail auf dem Gerät** verfasst,
+  nicht in Outlook/Exchange. Drei zusammenfallende Signale: `internetMessageId` endet auf
+  `@raphaeljans.ch` statt auf `…OUTLOOK.COM`; der Body trägt **keinen** HTML-Signaturblock, sondern
+  den Gruss **inline im letzten Fliesstext-Satz** mit blossem «Raphael Jans»; der Zitatkopf lautet
+  «Anfang der weitergeleiteten Nachricht» statt «Von:/Datum:/An:».
+
+Konsequenz für die Destillation: **erst die Gerätefassung prüfen, dann den Gruss werten.** Wo diese
+drei Signale zusammenfallen, ist «Mit freundlichen Grüßen» die Standardsignatur des Geräts und
+gehört nicht als Stilmarker ins Wiki — die DNA-Regel «kein ‹Mit freundlichen Grüssen›, kein ß»
+bleibt unangetastet. Dieselbe Fassung erklärt zwanglos auch die Binnen-Kleinschreibung («die
+masse») und das Fehlen des Signaturblocks, die bisher als eigenständige Flüchtigkeitsmarker
+gewertet wurden.
