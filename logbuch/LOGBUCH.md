@@ -5,6 +5,47 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## AG-Gründung 05.08.2026 (Monitor 07:46, still — keine Mail)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. Kein neuer Eingang, aber zwei Punkte, die
+heute Handeln verlangen — und sie hängen zusammen.
+
+**Die UBS-IBAN ist nicht eingetroffen, die Nachfass-Schwelle ist heute erreicht.** Sweep
+über alle Konten (Apple Mail `mail@` als Primärkanal, `rj@` Exchange, `outlook.com`,
+iCloud, alle Mailboxen inkl. Entwürfe/Gelöscht/Junk; 4-Tage-Vollsweep plus 14-Tage-Zielsuche
+auf UBS/Jeckelmann/key4/IBAN/Kapital/Notariat/Beurkundung/REGIX/Handelsregister/Wiedikon/
+Mathies): **kein neuer UBS-Eingang**. Jüngste UBS-Belege unverändert Jeckelmann 29.07. 16:55
+(Exchange) und der Bestätigungscode 29.07. 12:50 (mail@). Gerechnet ab Einreichung Wiedikon
+29.07. (Mi) ist heute der **fünfte Arbeitstag**, zugesagt waren drei (30.07./31.07./03.08.) —
+die Zusage ist damit um zwei Arbeitstage überschritten. **AKTION Raphael heute: B. Jeckelmann
+anrufen, 044 236 48 48.** Dahinter hängt die ganze Kette: Einzahlung CHF 100'000
+(Vollliberierung, zwingend per Überweisung) → Kapitalbescheinigung innert zwei Arbeitstagen
+per Einschreiben → Beurkundung → HR-Eintrag.
+
+**Die Notariats-Nachreichung ans Sammelpostfach ist seit gestern überfällig.** Am Beleg
+geprüft: in `Gesendete Elemente` (rj@ Exchange) liegt seit dem 04.08. 14:27 nichts Neues,
+insbesondere keine Weiterleitung an `wiedikon-zuerich@notariate-zh.ch`; die 14-Tage-Zielsuche
+findet zu «wiedikon» ausser der Mail an Mathies persönlich (03.08. 14:56) keinen einzigen
+ausgehenden Treffer. M. Mathies ist noch bis **Fr 07.08.** abwesend und liest laut Autoreply
+in dieser Zeit nichts — die Unterlage liegt weiterhin ungelesen, und er ist ohnehin
+Notariatslernender, nicht der beurkundende Notar. **AKTION Raphael heute: Weiterleitung mit
+beiden Anhängen ans Sammelpostfach oder Anruf 044 298 55 00.**
+
+**Was die beiden Punkte zusammen bedeuten: der Beurkundungstermin «ab rund 10.08.» ist nicht
+mehr zu halten.** Er setzt voraus, dass Kapitalbescheinigung und notarieller Vorlauf diese
+Woche vorliegen. Beides ist nicht in Sicht: die Bescheinigung kann frühestens Ende Woche
+kommen (Anruf heute, dann Einzahlung, dann zwei Arbeitstage Postweg als Einschreiben), und
+der Notar sieht die Unterlage frühestens am 07.08. Realistisch verschiebt sich die
+Beurkundung in die Woche vom 17.08. Das ist keine neue Blockade, sondern die Folge der
+zwei ausstehenden Anrufe — beide sind heute mit wenigen Minuten Aufwand zu erledigen.
+
+**Keine eigene Mail** (Ein-Mail-Prinzip 03.08.2026): kein neuer Eingang, keine
+Kapitalbescheinigung, kein vergebener oder verfallender Termin. Ein Anruf bei UBS oder
+Notariat ist vor 08:39 ohnehin nicht möglich, der Chef trägt beide Aktionen rechtzeitig ins
+Tagesbriefing. `fristen.md` in beiden AG-Zeilen nachgeführt.
+
+---
+
 ## Vollgas-Frühwarnung 05.08.2026 (07:15, still — keine Mail)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. Keines der sieben Meldekriterien ist erfüllt,

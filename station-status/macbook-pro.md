@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 07:35:20
+Stand: 05.08.2026 07:45:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:26)
@@ -12,4 +12,4 @@ Stand: 05.08.2026 07:35:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9849fedf vollgas-fruehwarnung 05.08.: still (kein Kriterium erfuellt); Gate-Blocker auf einen betroffenen Loop eingegrenzt, kill weiterhin vom Classifier abgewiesen; Mittags-Slot-Wochenbilanz = bleibt
+- e94e2e30 nas-selfcommit: 4 Datei(en) 2026-08-05 07:45

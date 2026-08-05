@@ -407,3 +407,37 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   **Keine Status-Mail gesendet** (Ein-Mail-Prinzip 03.08.2026: kein neuer Eingang, keine
   Phasenaenderung, und beide Aktionen standen bereits im Briefing vom 03.08. 22:12 — der
   Hub-Chef traegt sie um 08:39 weiter). `fristen.md` in beiden AG-Zeilen nachgefuehrt.
+
+- 05.08.2026 (ag-gruendung-monitor, 07:46): **Kein neuer Eingang — aber beide Schwellen sind
+  heute scharf.** Sweep ueber alle Konten (Apple Mail `mail@` als Primaerkanal, `rj@`
+  Exchange, `outlook.com`, iCloud; alle Mailboxen inkl. Entwuerfe/Geloescht/Junk;
+  4-Tage-Vollsweep plus 14-Tage-Zielsuche auf UBS/Jeckelmann/key4/IBAN/Kapital/Notariat/
+  Beurkundung/REGIX/Handelsregister/Wiedikon/Mathies): kein UBS-, Notariats- oder
+  REGIX-Eingang. Juengste UBS-Belege unveraendert Jeckelmann 29.07. 16:55 (Exchange) und
+  Bestaetigungscode 29.07. 12:50 (mail@); vom Notariat bleibt die Abwesenheitsantwort vom
+  03.08. 14:56:17 der letzte Eingang.
+
+  **(1) UBS-IBAN: Nachfass-Schwelle heute erreicht.** Heute ist der fuenfte Arbeitstag seit
+  Einreichung Wiedikon 29.07., zugesagt waren drei (30.07./31.07./03.08.) — die Zusage ist um
+  zwei Arbeitstage ueberschritten. AKTION Raphael: B. Jeckelmann anrufen (044 236 48 48).
+
+  **(2) Notariat: Nachreichung ans Sammelpostfach seit gestern ueberfaellig.** In
+  `Gesendete Elemente` seit 04.08. 14:27 nichts Neues; die Zielsuche findet zu «wiedikon»
+  ausser der Mail an Mathies persoenlich (03.08. 14:56) keinen ausgehenden Treffer. Mathies
+  ist bis Fr 07.08. abwesend. AKTION Raphael: Weiterleitung mit beiden Anhaengen an
+  `wiedikon-zuerich@notariate-zh.ch` oder Anruf 044 298 55 00.
+
+  **Folge fuer den Terminplan (neu):** der erbetene Beurkundungstermin «ab rund 10.08.» ist
+  nicht mehr zu halten. Er setzt Kapitalbescheinigung und notariellen Vorlauf in dieser Woche
+  voraus; die Bescheinigung kann nach Anruf, Einzahlung und zwei Arbeitstagen Einschreiben
+  fruehestens Ende Woche vorliegen, und der Notar sieht die Unterlage fruehestens am 07.08.
+  Realistisch verschiebt sich die Beurkundung in die Woche vom 17.08.
+
+  **Phasenlage unveraendert:** Kapitaleinzahlungskonto beantragt und freigegeben → **IBAN
+  ausstehend** → Einzahlung CHF 100'000 → Kapitalbescheinigung (2 AT, Einschreiben) →
+  Beurkundung → HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com`.
+  **Keine Status-Mail gesendet** (Ein-Mail-Prinzip: kein neuer Eingang, keine
+  Kapitalbescheinigung, kein vergebener oder verfallender Termin; ein Anruf bei UBS oder
+  Notariat ist vor 08:39 ohnehin nicht moeglich). Statt dessen Abschnitt «AG-Gruendung
+  05.08.2026» im heutigen Datumsblock von `logbuch/LOGBUCH.md`; `fristen.md` in beiden
+  AG-Zeilen nachgefuehrt.
