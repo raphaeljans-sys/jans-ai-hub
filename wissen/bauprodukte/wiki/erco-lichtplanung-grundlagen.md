@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht (Teil 1/n, Seiten 1-53)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis (Teil 1/n, Seiten 1-73)"
 status: emerging
-last_updated: 2026-08-04
-gelesen: "Seiten 1-53 von ca. 435 (Kapitel «Grundlagen» vollständig: Geschichte, Sehen und Wahrnehmen inkl. Konstanz/Gestaltwahrnehmung/Gegenstände der Wahrnehmung; Kapitel «Gestalten mit Licht» weiter: Architekturbeleuchtung > Innenräume beleuchten vollständig, Räume verbinden vollständig (Innenraum-Innenraum, Innenraum-Aussenraum, Aussenraum-Aussenraum), Objekte beleuchten vollständig (Lichtrichtung, Lichtverteilung variieren, Objekt betonen), Mit Lichtfarben gestalten begonnen: Farbe, Farbsysteme, Lichtfarbe Weiss/Farbig, Farbmischung, S. 53). Offen: «Mit Lichtfarben gestalten» Rest (Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren), «Planungspraxis» (Leuchtenauswahl, Leuchtenanordnung), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik», «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht, Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-53 Edition 26.06.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-05
+gelesen: "Seiten 1-73 von ca. 435 (Kapitel «Grundlagen» vollständig; Kapitel «Gestalten mit Licht» vollständig abgeschlossen inkl. «Mit Lichtfarben gestalten» komplett: Farbe, Farbsysteme, Lichtfarbe, Farbmischung, Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren, S. 47-62; neues Hauptkapitel «Planungspraxis» begonnen: Planungsprozess S. 63, Projektanalyse S. 64-65, Lichtkonzept/Entwurf/Montage/Wartung-Übersicht S. 66-68, Lampenauswahl begonnen S. 69-71, Leuchtenauswahl begonnen S. 72-73). Offen: «Planungspraxis» Rest (Leuchtenauswahl Fortsetzung, Leuchtenanordnung), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis (begonnen), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-73 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[REGISTER]]
 ---
 
@@ -12,10 +12,10 @@ links: [[REGISTER]]
 BKP-Einordnung: **BKP 233 Leuchten und Lampen** (verifiziert gegen
 `references/bkp-2017/BKP-2017-Liste.md`, Subpositionen 233.0 Lieferung / 233.1
 Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
-**Planungsgrundlagenwissen** aus den ersten beiden Kapiteln des ERCO-Ratgebers — einer
+**Planungsgrundlagenwissen** aus den ersten drei Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 53 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 73 Seiten.
 
 ## Herstellerneutralität
 
@@ -215,10 +215,10 @@ Objektakzentuierung:
 
 ## Mit Lichtfarben gestalten — Farbe, Farbsysteme, Lichtfarbe, Farbmischung (S. 47-53)
 
-Neues Hauptkapitel unter «Architekturbeleuchtung», hier die ersten vier von neun
-Unterpunkten laut Übersichtsgrafik S. 47 (Farbe, Farbsysteme, Lichtfarbe,
-Farbmischung, Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig
-akzentuieren — die letzten fünf sind noch offen, siehe unten):
+Hauptkapitel unter «Architekturbeleuchtung» mit neun Unterpunkten laut
+Übersichtsgrafik S. 47 (Farbe, Farbsysteme, Lichtfarbe, Farbmischung, Farbwiedergabe,
+Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren) — hier die ersten vier;
+die restlichen fünf folgen im nächsten Abschnitt:
 
 - **Farbe (S. 48):** Unterscheidung **Lichtfarbe** (von der Lichtquelle abgestrahlte
   Farbe, definiert über Farbton/Sättigung/Helligkeit des Spektrums; Farbfilter
@@ -252,6 +252,135 @@ akzentuieren — die letzten fünf sind noch offen, siehe unten):
   ergeben Weiss. Bei Objektbeleuchtung mit mehreren verschiedenfarbigen Lichtquellen
   entstehen durch räumliche Überlagerung Mischeffekte, u.a. **farbige Schatten**.
 
+## Mit Lichtfarben gestalten — Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren (S. 54-62)
+
+Abschluss des Kapitels «Mit Lichtfarben gestalten»:
+
+- **Farbmischung: Licht- und Körperfarbe (S. 54):** subtraktive Mischung entsteht
+  beim Beleuchten farbiger Flächen mit farbigem Licht (zwei der drei subtraktiven
+  Grundfarben Magenta/Cyan/Gelb ergeben Rot/Grün/Blau). Warme Lichtfarbe betont
+  warme Körperfarben; kalte Körperfarben erscheinen unter kalten, insbesondere
+  tageslichtweissen Lichtfarben heller/gesättigter. Empfehlung: bei farbigen
+  Flächen Probebeleuchtungen oder Berechnungen durchführen.
+- **Farbwiedergabe (S. 55-56):** die Qualität der Farbwiedergabe wird über den
+  **Farbwiedergabeindex Ra** beschrieben (Ra 100 = Referenz, Glühlampen/
+  Tageslicht). **Linienspektren** (z.B. einzelne Entladungslampen) geben nur
+  einzelne Farben gut wieder; **Mehrlinienspektren** (Leuchtstofflampen) verbessern
+  die Wiedergabe über mehrere Spektralbereiche; **kontinuierliche Spektren**
+  (Glühlampen, Tageslicht) liefern die gleichmässigste Wiedergabe. Praxisfolge:
+  sehr gute Farbwiedergabe wichtig bei Ausstellungen, Messeständen,
+  Verkaufsräumen, Büros, Arbeitsplätzen.
+- **Farbwirkung (S. 57):** psychologisch/physiologisch begründete Grundbedeutungen
+  — Rot (Kraft/Wärme/Energie, dominant), Gelb (hellste Farbe, tritt in den
+  Vordergrund), Blau (kalt, Tiefe), Grün (Vitalität, beruhigend bis erfrischend),
+  Weiss (Reinheit, Gegenpol zu Schwarz), Schwarz (Dunkelheit, negativ), Grau
+  (indifferent). Relevant für Ausstellungen, Messestände, Verkaufsräume,
+  Restaurants.
+- **Farbkontraste nach Johannes Itten (S. 58-60):** sieben Kontrastarten, nicht
+  physikalisch sondern wirkungsbasiert begründet — **Farbe an sich** (Primärfarben
+  Gelb/Rot/Blau ergeben den stärksten Kontrast, schwächer bei Sekundär-/
+  Tertiärfarben oder abnehmender Sättigung), **Hell-Dunkel** (auch bei Buntfarben
+  wirksam, helle Farbe neben dunkler wirkt stärker als neben gleich heller),
+  **Kalt-Warm** (Rot-/Gelbanteile warm, Blauanteile kalt, Grün/Magenta neutrale
+  Übergänge), **Simultankontrast** (Nachbildeffekt: nach langem Betrachten einer
+  Farbe erscheint eine danach gesehene neutralgraue Fläche im Komplementärton),
+  **Komplementärkontrast** (im Farbkreis gegenüberliegende Paare; Gelb-Violett =
+  grösster Hell-Dunkel-Kontrast, Orange-Blau = grösster Kalt-Warm-Kontrast),
+  **Qualitätskontrast** (reine vs. getrübte/graustichige Farben) und
+  **Quantitätskontrast** (Grössenverhältnis der Farbflächen zueinander — eine
+  kleine Kontrastfläche steigert die Wirkung der grossen Hauptfläche).
+- **Raumfarben (S. 61):** weisses Licht auf einer farbigen Fläche übernimmt deren
+  Farbe als vorherrschende Raum-Lichtfarbe; farbiges Licht auf einer farbigen
+  Fläche kann die Wirkung verstärken, verfremden oder umkehren. Starke
+  Farbkontraste erscheinen bei gleicher Beleuchtungsstärke heller als schwache;
+  Empfehlung: Probebeleuchtungen/Berechnungen vor Ausführung.
+- **Farbig akzentuieren (S. 62), Kapitelabschluss:** farbiges Akzentlicht plus
+  farbige Hintergrundbeleuchtung verändern die Objektwirkung — Objektsättigung
+  nimmt mit abnehmender Hintergrundhelligkeit zu; kalte Farben (Blau) treten in
+  den Hintergrund zurück, Magenta tritt nach vorne. «Natürliche»
+  Gesamtwirkungen entstehen aus warmen Lichtfarben + Filterfarben wie Skintone/
+  Magenta/Amber oder kalten Lichtfarben wie Sky-blue/Night-blue.
+
+## Planungspraxis — Planungsprozess und Projektanalyse (S. 63-65)
+
+Neues, drittes Hauptkapitel des Ratgebers (nach «Grundlagen» und «Gestalten mit
+Licht»), eng verknüpft mit dem Entwurfsablauf in der Architektur:
+
+- **Planungsprozess (S. 63):** gibt den Gesamtablauf vor — Erkenntnisse aus der
+  Projektanalyse fliessen in die Konzeptplanung, werden im Entwurf konkretisiert;
+  Wartungspläne sichern die Lichtqualität im Betrieb.
+- **Projektanalyse — Einführung (S. 64):** Grundlage jeder Lichtplanung ist die
+  Analyse der Aufgabe, ihrer Bedingungen und Besonderheiten. Eine **quantitative**
+  Planung kann sich an der für die Aufgabe gültigen Norm orientieren
+  (Beleuchtungsstärke, Blendungsbegrenzung); eine **qualitative** Planung braucht
+  zusätzlich Informationen über Umgebung, Nutzung, Nutzer und Architektur.
+- **Raumnutzung (S. 64):** zentrale Analysefrage ist die Nutzung der zu
+  beleuchtenden Räume — Tätigkeiten, Häufigkeit, Bedeutung, Merkmale der
+  Sehaufgaben (Grösse/Kontrast der zu erfassenden Details, Farbe/
+  Oberflächenstruktur relevant, Bewegung/räumliche Anordnung, Reflexblendungs-
+  Risiko, Blickrichtung der Betrachter).
+- **Psychologische Anforderungen (S. 65):** Ausblick in die Umgebung, Information
+  über Tageszeit/Wetter, räumliche Orientierung; bei umfangreichen Gebäuden mit
+  wechselnden Nutzern wird ein optisches Leitsystem zur vorrangigen Frage.
+  Differenzierte Beleuchtung kann Bereiche unterschiedlicher Funktion räumlich
+  trennen; für Gesprächszonen in grossen Räumen kann Beleuchtung private
+  Teilbereiche schaffen.
+- **Architektur und Atmosphäre (S. 65):** Ziel ist nicht Beleuchtung im
+  technischen Sinn, sondern die Einbeziehung der ästhetischen Wirkung des
+  beleuchteten Raums — Formensprache, Module, Rhythmen des Gebäudes sollen durch
+  Licht aufgenommen und fortgeführt werden. Informationsbedarf: Gesamtkonzept,
+  Innen-/Aussenwirkung Tag/Nacht, Tageslichtnutzung, zulässiger Energieverbrauch,
+  Materialien, Reflexionsgrade, Farbgebung.
+
+## Planungspraxis — Lichtkonzept, Entwurf, Montage, Wartung, Lampen-/Leuchtenauswahl (S. 66-73)
+
+- **Lichtkonzept (S. 66):** führt die geforderten Beleuchtungseigenschaften ohne
+  bereits konkrete Lampen-/Leuchtenauswahl auf; leitet aus der Projektanalyse ein
+  Raster von Lichtqualitäten ab (Quantität + Qualitätsmerkmale, Grad räumlicher/
+  zeitlicher Differenzierung) und muss mit anderen Gewerken, Normvorgaben,
+  Investitions- und Betriebskosten abgestimmt sein.
+- **Entwurf (S. 66):** Entscheidungen über Lampen/Leuchten, Anordnung/Installation,
+  Betriebs-/Steuergeräte; Lichtplanung ist ein **zyklisches Verfahren**, keine
+  starre Reihenfolge — entwickelte Lösungen werden immer wieder gegen die
+  Anforderungen abgeglichen.
+- **Montage (S. 67):** Leuchtentypen wie Strahler/Lichtstrukturen sind meist nur
+  additiv montierbar (Stromschienen, Abhängung, feste Montage); Downlights/
+  Rasterleuchten erlauben Aufbau oder Einbau je nach Bauweise.
+- **Wartung (S. 67):** primär Lampenwechsel und Reinigung, ggf. Nachjustieren
+  beweglicher Leuchten. Ziel: Begrenzung des unvermeidlichen
+  Lichtstromrückgangs (Lampenausfälle, Lichtstromverlust, Verschmutzung/
+  Verschmutzung der Reflektoren). Aufgabe des Lichtplaners: individuellen,
+  auf das Projekt abgestimmten Wartungsplan erstellen.
+- **Übersicht Planungspraxis (S. 68):** die Phase der Umsetzung (nach Projektanalyse
+  + Beleuchtungskonzept) umfasst Lampenauswahl, Leuchtenauswahl,
+  Leuchtenanordnung, Montage, Wartung.
+- **Lampenauswahl (S. 69-71), begonnen:** hängt von der Beleuchtungsanforderung ab,
+  über sechs Kriterien mit Vergleichsdiagrammen je Lampentyp (LED, A/Glühlampe, QT
+  12V, QT/QPAR Netzspannung, TC Kompaktleuchtstoff, T Leuchtstoffröhre, HIT/HST
+  Halogen-Metalldampf/Natriumdampf): **Modellierung/Brillanz** (setzt kompakte
+  Lichtquellen wie Niedervolt-Halogen oder Halogen-Metalldampf voraus, zentral bei
+  Skulpturen/Warenpräsentation/strukturierten Flächen), **Farbwiedergabe**
+  (kontinuierliches Spektrum = optimale Wiedergabe, beste Werte bei Glühlampen
+  inkl. Halogen), **Lichtfarbe** (Kategorisierung warmweiss/neutralweiss/
+  tageslichtweiss nach Farbtemperatur Tf in Kelvin), **Lichtstrom** (kleine
+  Lichtströme v.a. bei LED/Niedervolt-Halogen, höchste Werte bei
+  Halogen-Metalldampf), **Wirtschaftlichkeit** (abhängig von Lichtausbeute η
+  [lm/W], Lampenlebensdauer t [h] und -kosten; geringste Lichtausbeute bei
+  Glühlampen, deutlich höhere bei Leuchtstoff-/Quecksilberdampf-/
+  Halogen-Metalldampflampen; kürzeste Lebensdauer bei Glüh-/Halogenglühlampen)
+  und **Strahlungsbelastung** (UV-/IR-Anteile relevant für Ausstellungsgüter;
+  Formel φ_UV = UV-Anteil × Lichtstrom / 1000, Beispiel A60-Lampe 100 W/1380 lm →
+  UV-Strahlungsleistung 0,069-0,138 W; Filter reduzieren UV-/IR-Anteile).
+- **Leuchtenauswahl (S. 72-73), begonnen:** Auswahlkriterien Lichtverteilung,
+  Lichtfarbe, Montagearten, Leuchtdichte, Beleuchtungsstärke,
+  Sicherheitsanforderungen. **Lichtverteilung allgemein-differenziert (S. 73):**
+  gleichförmige Allgemeinbeleuchtung (breitstrahlende Downlights/
+  Lichtstrukturen oder indirekte Beleuchtung) als gebräuchliche Grundkonzeption;
+  reine Akzentbeleuchtung (eng gebündeltes Licht von Strahlern/
+  Downlight-Richtstrahlern) als Ausnahmefall, meist mit
+  Allgemeinbeleuchtungsanteil kombiniert, da schon das Streulicht akzentuierter
+  Bereiche oft für ausreichende Umgebungsbeleuchtung reicht.
+
 ## Praxisrelevanz für JANS
 
 - Kellys Funktions-Dreiklang (Sehen/Hinsehen/Ansehen) ist ein brauchbares
@@ -281,18 +410,31 @@ akzentuieren — die letzten fünf sind noch offen, siehe unten):
   Tageszeit-Farben) sind ein Vokabular für Farbkonzepte bei Fassaden-/
   Eventbeleuchtung, das sich gegenüber der Bauherrschaft ohne Herstellerbezug
   begründen lässt.
+- Die sieben Itten-Farbkontraste (S. 58-60) sind eine herstellerneutrale
+  Fachsprache, um ein Farblichtkonzept gegenüber der Bauherrschaft zu begründen
+  («Komplementärkontrast Orange-Blau» statt «das wirkt halt bunt») und um
+  Materialfarben/Lichtfarben im selben Vokabular zu diskutieren wie ein
+  Farbkonzept für Fassade oder Innenausbau.
+- Die Projektanalyse-Fragenkatalog-Logik (S. 64-65: Raumnutzung,
+  psychologische Anforderungen, Architektur/Atmosphäre) lässt sich direkt als
+  Gliederung für ein Vorprojekt-Beleuchtungsgespräch mit der Bauherrschaft
+  verwenden — unabhängig vom später gewählten Leuchtenhersteller.
+- Die Wirtschaftlichkeits-Kriterien der Lampenauswahl (S. 71: Lichtausbeute
+  lm/W, Lebensdauer h, Anschaffungskosten) sind der herstellerneutrale
+  Kennwert-Rahmen, um in einem Beleuchtungs-LV Betriebskosten-Annahmen zu
+  begründen, ohne bereits auf ein konkretes Fabrikat festgelegt zu sein.
 
 ## Offene Punkte
 
-- 53 von ca. 435 Seiten gelesen. Offen: «Mit Lichtfarben gestalten» Rest
-  (Farbwiedergabe, Farbwirkung, Farbkontraste, Raumfarben, Farbig akzentuieren),
-  «Planungspraxis» (Leuchtenauswahl, Leuchtenanordnung — laut Seitenmarken ab S. 68
-  ff.), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den
-  praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur), «Simulation und
+- 73 von ca. 435 Seiten gelesen. Offen: «Planungspraxis» Rest (Leuchtenauswahl
+  Fortsetzung ab S. 74, Leuchtenanordnung), «Aussenraumbeleuchtung»,
+  «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten
+  Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und
   Berechnung» sowie das Glossar — für künftige Destillat-Läufe offen, im
   Frontmatter-Feld `gelesen:` nachgeführt.
 - Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise nachgeführt)
   deutet auf eine lebende Online-Publikation (www.erco.com/guide laut S.1) — für
-  eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil dieses Laufs. Ab
-  S. 55/56 taucht erstmals die Edition 01.03.2010 auf (innerhalb des noch offenen
-  Kapitels «Planungspraxis») — im nächsten Lauf im Quellen-Frontmatter mitführen.
+  eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil dieses Laufs.
+  Ab S. 69-71 erneut Edition 01.03.2010 (Lampenauswahl), S. 72-73 wieder
+  26.06.2006 — Bestätigung, dass das Dokument seitenweise, nicht kapitelweise
+  nachgeführt wurde; im nächsten Lauf im Quellen-Frontmatter weiter mitführen.

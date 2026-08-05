@@ -37,12 +37,18 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 04.08.2026 (Nachtschicht 05:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+**Stand 05.08.2026 (Nachtschicht 02:31):** 37 Sektionen inventarisiert · 214 Dateien erfasst
 · 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
-· 9 Wiki-Artikel. Letzte Einheit: `paustian_mirror_mirror_product_sheet.pdf` (900
-Einrichtung) gegen die Altersregel geprueft und ohne Artikel als `[-]` geschlossen (>10
-Jahre altes Produkt-Datenblatt ohne Prinzip) — Details `wiki/QUESTIONS.md` Punkt 13 und
-`CHANGELOG.md` 04.08. Zuvor, 30.07.2026: BKP 261 Aufzuege,
+· 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und Lampen, P1) von
+Seite 53 auf Seite 73 fortgeschrieben — Kapitel «Mit Lichtfarben gestalten» vollstaendig
+abgeschlossen, Hauptkapitel «Planungspraxis» begonnen (Planungsprozess, Projektanalyse,
+Lichtkonzept/Entwurf/Montage/Wartung, Lampen-/Leuchtenauswahl begonnen) →
+[[erco-lichtplanung-grundlagen]]. Rest (Leuchtenauswahl ab S. 74, Leuchtenanordnung,
+Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik, Simulation, Glossar) offen fuer
+weitere Folgelaeufe. Zuvor, 04.08.2026 (Nachtschicht 05:30):
+`paustian_mirror_mirror_product_sheet.pdf` (900 Einrichtung) gegen die Altersregel geprueft
+und ohne Artikel als `[-]` geschlossen (>10 Jahre altes Produkt-Datenblatt ohne Prinzip) —
+Details `wiki/QUESTIONS.md` Punkt 13. Zuvor, 30.07.2026: BKP 261 Aufzuege,
 `Lift/AS/100426_AS_Aufzuege_Masskizze.pdf` (Scan, per pdftoppm gerendert
 und gelesen) → [[bkp-261-aufzuege]] ergaenzt um Schachtbemassung (1500×1500mm, Schachtkopf
 3400/2900mm, Schachtgrube 1060-1230mm) des Produkts «Swisslift» (2.1.0053.01.8) und den

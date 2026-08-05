@@ -1,5 +1,38 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-05 (Mac Mini Nachtschicht, 02:31) — ERCO-Ratgeber auf S. 73 fortgeschrieben, Kapitel «Gestalten mit Licht» abgeschlossen
+
+Eine Einheit, budgetdisziplinierter Lauf (kein Fan-out, ein Read mit 20 Seiten). Vor dem
+Lauf `wiki/`-Mtimes und `training/PROGRAMM.md` gegen die aktive Trainings-KB-Auswahl
+(bauprodukte/energie/grobkosten/projekt-lessons, alle vier heute vom Wissens-Chef Run 25
+per Cross-KB-Zeiger angefasst) geprüft: `energie` hatte bereits einen substanziellen
+eigenen Trainingslauf heute (Run 123, 9 Destillate), `grobkosten` ist mehrfach bestätigt
+gesättigt, `projekt-lessons` wurde in den beiden vorherigen Nachtschicht-Slots (13:30 und
+23:30 am 03./04.08.) bereits bearbeitet — `bauprodukte` bleibt mit 55 offenen Positionen
+und dem einzigen P1-Titel im Inventar (`de_erco_guide.pdf`) der klare nächste Kandidat.
+
+- **[[erco-lichtplanung-grundlagen]]** (BKP 233 Leuchten und Lampen) von Seite 53 auf
+  Seite 73 fortgeschrieben (`de_erco_guide.pdf`, S. 54-73 gelesen). Kapitel «Mit
+  Lichtfarben gestalten» vollständig abgeschlossen (Farbwiedergabe, Farbwirkung, die
+  sieben Itten-Farbkontraste, Raumfarben, Farbig akzentuieren). Neues, drittes
+  Hauptkapitel «Planungspraxis» begonnen: Planungsprozess, Projektanalyse
+  (Raumnutzung/psychologische Anforderungen/Architektur und Atmosphäre), Lichtkonzept/
+  Entwurf/Montage/Wartung im Überblick, Lampenauswahl (sechs Kriterien: Modellierung,
+  Farbwiedergabe, Lichtfarbe, Lichtstrom, Wirtschaftlichkeit, Strahlungsbelastung) und
+  Leuchtenauswahl begonnen. Frontmatter (`gelesen`, `sources`, Titel) auf den neuen
+  Stand nachgeführt; vier neue Praxisrelevanz-Punkte ergänzt (Itten-Kontraste als
+  Bauherren-Vokabular, Projektanalyse-Gliederung fürs Vorprojektgespräch,
+  Wirtschaftlichkeits-Kennwertrahmen Lampenauswahl). Weiterhin herstellerneutral —
+  keine ERCO-Produktangaben in den gelesenen Abschnitten.
+- Editionsdaten-Beobachtung bestätigt sich weiter: S. 69-71 (Lampenauswahl) tragen
+  erneut Edition 01.03.2010, S. 72-73 (Leuchtenauswahl-Beginn) wieder 26.06.2006 — das
+  Dokument wird seitenweise, nicht kapitelweise nachgeführt.
+- Register nachgeführt: `skills/wissens-destillat/training/bauprodukte-inventar.md`
+  (Zeile `de_erco_guide.pdf` auf S.1-73), `training/PROGRAMM.md` (Stand-Absatz).
+- **Bewusst nicht ausgeführt:** Web-Prüfung der aktuellen erco.com/guide-Fassung (nicht
+  Teil des Laufs, in den Offenen Punkten vermerkt).
+- Kein Git über SMB, kein Fan-out. Zyklus-Budget siehe Logbuch-Journalzeile.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Erst-Verlinkung zur KB `energie` über die eco-BKP-Achse
 
 Befund F1-ecoBKP, Meldung 3. Messung dahinter: `grep bauprodukte` über `wissen/energie/` = 0
