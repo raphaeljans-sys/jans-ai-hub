@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 05.08.2026 02:29:51
+Stand: 05.08.2026 02:39:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 02:29:51
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- c4719131 nas-selfcommit: 4 Datei(en) 2026-08-05 02:15
+- 0ebc3856 bauprodukte: ERCO-Ratgeber S.53->73, Nachtschicht 05.08. 02:31
