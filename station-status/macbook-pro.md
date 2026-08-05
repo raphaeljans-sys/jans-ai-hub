@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 05.08.2026 05:33:54
+Stand: 05.08.2026 05:44:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 05:33:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cd8742ec nas-selfcommit: 2 Datei(en) 2026-08-05 05:30
+- 4c6bf835 energie: ecoBKP 2026 Erstzugriff (Methodik + 3 Merkblaetter destilliert)

@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 05.08.2026 05:31:01
+Stand: 05.08.2026 05:41:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:30)
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 05.08.2026 05:31:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cd8742ec nas-selfcommit: 2 Datei(en) 2026-08-05 05:30
+- 4c6bf835 energie: ecoBKP 2026 Erstzugriff (Methodik + 3 Merkblaetter destilliert)
