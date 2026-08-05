@@ -5,6 +5,115 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 05.08.2026
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. Der Radar sendet heute selbst keine Mail: Der
+Chef-Lauf vom 04.08. ist um 08:58 durchgelaufen, und kein Punkt verlangt Handeln vor 08:39,
+das nicht schon gestern gemeldet war.
+
+**Erledigt seit gestern**
+
+- KISPI Los 273.35 Küchenbau: die Nachfrage nach dem Installationsplan Elektro und Sanitär
+  für die Therapieküche ist raus. Versendet am 04.08. um 13:58 an Stephan Lanz und Tobias
+  Inniger (Röthlisberger AG), Cc Michael Spörri (KISPI), ein Anhang, am Beleg in
+  «Gesendete Elemente» geprüft. Damit hat sich auch die offene Frage erledigt, ob der Text
+  als Antwort im bestehenden Thread laufen soll: Versendet wurde die eigenständige Fassung.
+  Zwei Karteileichen bleiben im Entwurfsordner («AW: AW: LOS_273.35 Küchenbau RÖTHLISBERGER»
+  und ein leerer Entwurf, beide 04.08. 13:29/13:30), sie können gelöscht werden.
+
+**Aus unseren Gesprächen**
+
+- Die Röthlisberger-Mail (oben unter Erledigt) war der operative Kern des gestrigen Tages.
+  Der Text hält die Abhängigkeitskette fest, die den Termindruck erzeugt: ohne
+  Installationsplan keine definitiven Anschlusspositionen an die Gebäudetechnik-Fachplanung,
+  ohne diese keine Freigabe der Kernbohrungen und Schlitzungen, und damit kein
+  termingerechter Start der Rohbauinstallationen beim Unternehmer der Leichtbauwände.
+- Zwei Fachauskünfte ohne Frist, aber mit einem Vorbehalt, der vor einer Weiterverwendung
+  aufzulösen ist: Das **ULK** im Pflegegeschoss ist ein Umluftkühlgerät, es kühlt die
+  Raumluft im Umluftbetrieb und bringt keine Frischluft; die Deutung stützt sich auf die
+  Plandarstellung, die **Legende des Fachplaners bleibt massgeblich**. Und beim
+  **ArchiCAD-Raumstempel** sind NF, SF, U und LiRH aufgelöst, **FF 6.2 ist nicht belegt**
+  (als Fensterfläche eingeordnet, ohne Stempel-Legende eine Annahme). Nebenbefund, im
+  Gespräch nicht bewertet: NF 17.28 m² gegen SF 14.00 m² sind 3.28 m² über Raumprogramm in
+  diesem Raum.
+- Der Wissens-Chef hat einen Fehler in einem wiederverwendeten ausgehenden Erzeugnis
+  gefunden: **SIA 493 ist seit dem 30.06.2022 archiviert**, die Hub-Wissensbasis führte die
+  Norm als geltend, und das **JANS-Goldstandard-LV Türen** verlangt in drei NPK-Positionen
+  eine Produktedeklaration nach dieser Norm. Wer das LV als Vorlage nimmt, fordert vom
+  Unternehmer einen Nachweis, den es seit vier Jahren nicht mehr gibt. Das LV ist zu
+  bereinigen, bevor es das nächste Mal als Vorlage dient. Dieselbe Fehlerklasse wie beim
+  bereits geführten Punkt «BKP-Code 271.10 existiert nicht».
+- Die Kontingent-Messung war um **Faktor 2 bis 3 zu tief**, weil die Subagenten-Transkripte
+  nie mitgezählt wurden. Die eigene Meldeschwelle von 35 Mio. Token pro Tag stammt aus dieser
+  zu tiefen Messung. Die Neubestimmung der Bänder ist bewusst nicht selbst vorgenommen
+  worden, sie liegt seit dem 04.08. als Entscheid bei Dir.
+
+**Überfällig**
+
+- **Neu heute:** Die SVA Zürich hat eine Mahnung wegen ausstehender Zahlung ausgestellt. Die
+  Meldung kam um 06:26 über AHVeasy für «Jans», Abrechnungsnummer 10.186.825. Die Systemmail
+  nennt weder Betrag noch Zahlfrist noch die Abrechnungsperiode, das Dokument liegt hinter
+  dem Portal-Login und kommt in den nächsten Tagen per Post. Ohne Einsicht ist nicht
+  beurteilbar, ob es ein echter Rückstand oder eine Überschneidung mit einer bereits
+  getätigten Zahlung ist. Nächster Schritt: in AHVeasy einloggen und das Dokument öffnen.
+- **Kübler-Nachfass, Frist gestern 17:00 verstrichen:** Der Entwurf wurde nicht angefasst. Er
+  trägt unverändert das Datum vom 31.07., 00:35 Uhr, in den gesendeten Mails steht nichts.
+  Damit ist er nicht mehr bloss inhaltlich überholt, sondern verlangt eine Zustellung zu
+  einem Termin, der vorbei ist. Zwei Wege bleiben: den einzig verbliebenen offenen Punkt
+  (Bodenablauf gegen Bodenheizung, Bauzeit-Fotos) mit neuer Frist an den heute richtigen
+  Adressaten richten, oder verwerfen und die Sache morgen in der Koordinationssitzung
+  mündlich führen.
+- Debitoren unverändert: fünf Rechnungen, CHF 51'400.00. RE-00100 (Swiss Central City,
+  CHF 13'120.00) steht bei sechs Tagen Verzug, der Widerspruch aus dem Juli ist weiter
+  offen, deshalb wurde keine Zahlungserinnerung ausgelöst.
+
+**In den nächsten sieben Tagen**
+
+- **Heute 08:00**, Teams: Durchgang des Bemerkungs-PDFs der Feuerpolizei mit Jens Ziegel. Er
+  hat am 04.08. um 08:50 zugesagt, die Traktandenliste mit sechs Positionen liegt am
+  Ablageort bereit. Danach ist Ziegel bis zum **18.08.** abwesend. Was heute nicht geklärt
+  wird, wartet knapp zwei Wochen.
+- Heute 17:30: «Arioli» (privat).
+- **06.08.:** Die Eingabefassung des Begleitbeschriebs Thalwil Bohlweg 3 ist versandbereit,
+  die Mail liegt als Entwurf und ist nicht versendet.
+- **06.08. 13:00 bis 14:00**, Teams: Koordinationssitzung Gruner, Jans und KISPI. Letzte
+  Gelegenheit vor dem 08.08., den ablaufenden SharePoint-Zugriff zu verlängern.
+- **06.08.:** Der zugesagte Wochen-Review der Arbeits-Weiche ist fällig.
+- **07.08.:** Marc Mathies (Notariat) ist wieder im Haus, die Terminbitte zur AG-Gründung
+  liegt bis dahin ungelesen.
+- 07.08. 17:00: Wandern mit Dani und Rafi (privat).
+- **08.08.:** Der SharePoint-Zugriff auf die Projektsite «JANS - 2619-KISPI» läuft für sieben
+  Personen ab (Kübler, Cetin, Duran, Ziegel, Würsch, Spörri, Schwander).
+- **12.08.:** Mahnfrist RE-00098 und RE-00099.
+
+**In Beobachtung**
+
+- UBS-IBAN für das Kapitaleinzahlungskonto fehlt weiter, die zugesagten drei Arbeitstage sind
+  abgelaufen.
+- RE-00087 (CHF 15'000.00, 111 Tage) liegt bei Cornelia Schäfer; KISPI prüft den
+  Duplikat-Verdacht.
+- UGZ-Befund Hansen zur Lüftung: Die Terminvorgabe an Cekdar Duran wird von Dir erwartet.
+- Küblers Vorabzug des Heizungs- und Kälteplans vom 03.08. wartet auf Deine Prüfung.
+- Tschopp und Weisser halten weiterhin die überholte Begleitbeschrieb-Fassung vom 30.07.
+- Zwei verwaiste Probeprozesse des vollgas-Radars (PID 54048 und 87945) sperren das Lauf-Gate
+  des MacBook Pro. Heute früh erneut nachgemessen, beide laufen weiter; `kill 54048 87945`
+  gibt die Station frei. Das Normen-Training ist deswegen heute Nacht ausgefallen.
+
+**Token-Tempo (04.08.)**
+
+MacBook Pro 219.6 Mio. Token / USD 194.50, Mac Mini 46.0 Mio. Token / USD 35.27, zusammen
+265.6 Mio. Token / USD 229.77.
+
+**Methodennotiz, nicht fürs Briefing.** Das Konversations-Destillat vom 05.08. führt die
+Röthlisberger-Mail als «unversendet im Entwürfe-Ordner», mit einer offenen Rückfrage zum
+Thread. Beides war beim Lesen bereits überholt: Raphael hatte um 13:58 selbst versendet, also
+sechs Minuten nach dem letzten Satz der Session. Das Destillat liest Session-Transkripte, nicht
+das Postfach, und kann eine Handlung nach Sessionende grundsätzlich nicht sehen. Lehre für
+künftige Läufe: Ein im Gespräch angelegter Entwurf ist nie am Destillat zu beurteilen, sondern
+immer am Postfach gegenzuprüfen (Entwürfe-Ordner und «Gesendete Elemente»), bevor er als
+offener Punkt ins Briefing kommt. Sonst meldet der Radar Raphael eine Bringschuld zurück, die
+er längst erledigt hat.
+
 ## 2026-08-05 — Normen-Training 01:28 (still, keine Mail — aber ein Punkt fuer den Chef, der eine Hand am Terminal braucht)
 
 Der Lauf ist am `lauf-gate.sh` abgewiesen worden (rc=1, «bereits 2 Laeufe aktiv, Grenze 2») und
