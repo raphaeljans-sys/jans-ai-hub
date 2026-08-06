@@ -5,6 +5,39 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Debitoren-Verzugscheck 06.08.2026 (08:05, read-only, still — keine Mail)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. Live-Stand bexio, fünf Rechnungen offen,
+CHF 51'400.00. Kein Zahlungseingang und keine neue Mahnstufe gegenüber dem 05.08. — der
+Bestand ist Posten für Posten identisch und um einen Tag gealtert.
+
+**Die einzige inhaltliche Veränderung betrifft RE-00100, und sie kehrt die gestrige Empfehlung
+um.** Der Logbuch-Radar hat heute um 06:55 den Sendebeleg gegenverifiziert: die Rechnung
+(Swiss Central City Real Estate Fund, CHF 13'120.00, Albertstrasse 7) wurde am **03.08.2026 um
+12:46** zugestellt. Der seit dem 31.07. genannte Sperrgrund «ungeklärt, ob überhaupt versandt»
+ist damit erledigt. An seine Stelle tritt der präzisere: **die Fälligkeit steht in bexio auf
+dem 30.07.2026, also vier Tage vor der Zustellung.** Eine Zahlungserinnerung stützte sich auf
+ein Fälligkeitsdatum, das vor dem Versand liegt — bei dieser Rechnung wäre das die zweite
+Rückweisung durch die Kreditorenstelle (die erste am 28./29.07.). **Vorschlag heute daher:
+keine Stufe 1, sondern Aktion Raphael — Fälligkeit in bexio auf den Zustelltermin nachziehen.**
+Danach ist die Stufe sauber begründbar. Sachlich besteht bis dahin kein durchsetzbarer Verzug.
+Nebenbefund für den späteren Versand: bexio führt `invoice@sccref.ch`, die Rechnung ging aber
+an `260kredi@huwiler.ch` und `lena.domenig@privera.ch`.
+
+**Unverändert der einzige echte Handlungsposten: RE-00087 (Kinderspital, CHF 15'000.00)** liegt
+jetzt 22 Tage über der Frist der Mahnung 2, vorgeschlagen bleibt **Mahnung 3 / Betreibung
+(Stufe 4)**. Empfehlung wie an den Vortagen: nicht isoliert betreiben, sondern die drei
+Kinderspital-Rechnungen ab dem 12.08. gemeinsam behandeln (dann laufen die Fristen auf
+RE-00098 und RE-00099 ab) und vorher persönlich Kontakt suchen.
+
+Beobachtet, keine Aktion: RE-00098/RE-00099 (Frist 12.08.), RE-00101 Tschopp (Frist 16.08.,
+per Du, Telefonat vor jeder formellen Stufe; Kreditoren-Mail fehlt in bexio weiterhin).
+
+Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260806_Verzugscheck.md`. Nichts erzeugt,
+nichts versendet, nichts gebucht — Phase 2 bleibt interaktiv.
+
+---
+
 ## AG-Gründung 06.08.2026 (Monitor 07:46, still — keine Mail)
 
 **Kein neuer Eingang. Neu ist eine Entlastung, nicht eine Blockade: der Notar kehrt morgen
