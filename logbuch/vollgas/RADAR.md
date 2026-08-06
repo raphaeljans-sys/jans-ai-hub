@@ -200,6 +200,41 @@ Commit ohne zuordenbaren Taktgeber) und blieb auf diesen einen Befund beschränk
 Nachtschicht-plist, wissens-trigger-Log, Crontabs, ein Session-Transcript, das
 Mini-Inventar. Das rechtfertigt die Turns über dem Regelmass.*
 
+### Nachtrag 05:10 — der Lauf selbst dauerte über vier Stunden, und beide Nacht-Loops haben geliefert
+
+Beim Schlusscheck war die Uhr **05:07**, nicht 00:57: dieser Radar-Lauf hat rund **4 h 10
+Wall-Clock** gebraucht. Gegengemessen, weil eine Zeitdifferenz dieser Grösse zuerst nach
+Uhr-Drift aussieht: MacBook und NAS zeigen sekundengleich 05:06 CEST, `uptime` meldet 5 Tage
+17:53 ohne Unterbruch, `pmset -g log` keine Schlafphase (caffeinate hält sie ab). **Kein
+Clock-Jump — der Lauf war wirklich so lang.** Der Slot selbst war korrekt: Feuerung 00:57
+gemäss Registry, Kopfzeile und Selbstkontrolle beziehen sich wie immer auf den Laufbeginn.
+Der nächste Slot 08:50 ist nicht gefährdet.
+
+**Zwei Dinge, die dadurch prüfbar wurden statt Prognose zu bleiben:**
+- **`normen-training-nacht` Run 45 ist gelaufen und hat stark geliefert** — 9 Destillate
+  geprüft, 1 neues Destillat, **4 Rückstände aus `QUESTIONS.md` geschlossen**, der vom
+  Run-43-Report ausgewiesene Verifikations-Rückstand vollständig abgearbeitet. Die Aussage
+  «Gate frei, kann um 01:27 ungehindert starten» ist damit positiv bestätigt, nicht nur
+  plausibel. Nach dem Gate-Rücktritt von Run 44 am 05.08. ist das die Entwarnung.
+- **Nachtschicht-Slot 02:39** ebenfalls durch, rc=0, 4.82 USD, 52 Turns: `bauprodukte`
+  ERCO-Ratgeber S. 95 → 120. Damit ist die P3-Senke schon in Bewegung.
+
+**Gate und Waisen bei Laufende erneut gemessen: `claude -p`-Prozesse keine, `pgrep`-Zählung
+0.** Der lange Radar-Lauf hat **keinen** Gate-Platz belegt — er ist keine `claude -p`-Session
+und fällt nicht unter das Zählmuster von `lauf-gate.sh`. Das war die Sorge nach dem Vorfall
+vom 05.08., und sie ist ausgeräumt.
+
+**Budget um 05:10 nachgemessen** (der Wert oben ist der Stand von 00:57): **60.55 Mio =
+36.3 %** bei **38.8 %** verstrichener Woche, Vorsprung **−2.5** — von −3.0 leicht
+**aufgeholt**, weil die Nacht mit rund 1.2 Mio/h über der nachhaltigen Rate lief. Ampel
+weiter FREI, keine Drossel. Speicher 5.19 GB, Druckstufe 1.
+
+**Konsequenz für den nächsten Lauf:** einen Regellauf, der vier Stunden belegt, will die
+Sparsamkeitsklausel nicht. Die Ursache lag hier in der Mechanismus-Suche über ssh (mehrere
+Rundreisen zum Mini, zwei Korrektur-Subagenten). Wer erneut eine Zuordnungslücke verfolgt:
+das Mini-Inventar steht jetzt in der Task-Beschreibung, die teure Sucharbeit fällt damit
+nicht wieder an.
+
 ---
 ## 2026-08-05 16:57 — [FREI] Der Proben-Fix ist bestätigt. Vorsprung kippt planmässig ins Minus (−3.0); `projekt-lessons` erreicht nach drei Nullbefunden die Leerlauf-Schwelle und ist als Nachtschicht-Ziel ausgesetzt
 

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.08.2026 04:57:27
+Stand: 06.08.2026 05:07:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 06.08.2026 04:57:27
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3d356537 nas-selfcommit: 3 Datei(en) 2026-08-06 04:45
+- a7284489 vollgas-radar 06.08. 00:57: Hauptbefund — Schritt 3 prueft nur eine von zwei Task-Registries; Mac Mini fuehrt 8 eigene Tasks, energie-training feuert taeglich 22:37 und liefert trotz enabled:false in der Datei (Frontmatter ist Doku, nicht Live-Zustand). planungsgrundlagen-training als Fehlalarm ausgeschlossen. Radar-Task-Beschreibung auf beide Registries erweitert; Legende [WOCHE LEER] ergaenzt. Budget 33.3% bei 36.3% Woche, Vorsprung stabil -3.0, 1.00 Mio/h in der Nacht
