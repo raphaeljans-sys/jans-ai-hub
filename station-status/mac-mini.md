@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.08.2026 01:48:32
+Stand: 06.08.2026 01:58:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 06.08.2026 01:48:32
 - 4 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 53dee625 nas-selfcommit: 8 Datei(en) 2026-08-06 01:45
+- aa3002bd normen Run 45: Verifikations-Rueckstand abgearbeitet (9 Destillate), VKF 2001-15:2022 destilliert, REGISTER/QUESTIONS/PROGRAMM nachgefuehrt
