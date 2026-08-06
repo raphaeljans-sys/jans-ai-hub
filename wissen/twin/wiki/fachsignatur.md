@@ -513,38 +513,39 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   enden mit FG + Block **ohne Service-Satz**. Honorar als durchgerechnete Offerte nüchtern
   beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe
   einer **Behörden-Auflage an die Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu
-  paraphrasieren («zwingend in Holz, mit Kämpfer und Brüstungsfeld, und ohne farbiges
-  Sonnenschutzglas») und jeden Punkt seiner **namentlichen Amtsstelle** zuordnen (UGZ Energie
-  im Bau · UGZ Gebäudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
-  Baumerhalt · Tiefbauamt). Bei einer **Korrektur-/Planlieferung** die Plan-Metadaten
+  paraphrasieren («zwingend in Holz, mit Kämpfer und Brüstungsfeld») und jeden Punkt seiner
+  **namentlichen Amtsstelle** zuordnen (UGZ Energie im Bau · UGZ Gebäudeschadstoffe ·
+  Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ Baumerhalt · Tiefbauamt).
+  Bei einer **Korrektur-/Planlieferung** die Plan-Metadaten
   ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»). **In der
   Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der konkreten Gemeinde rechnen, nicht die
-  generische Ausnützungsziffer (belegt Fidelity 260801, authentisch):** wo die BZO mit der
-  **Baumassenziffer** arbeitet, lautet die Kette «W2.2 = Grundstücksfläche × 2.2 ergibt die
-  Baumasse der Regelbebauung, **+ 0.3 für die Arealüberbauung**» → Volumen Arealüberbauung /
-  Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3. Weiteres Vokabular:
-  **Abstandsbild** (statt «Grenzabstände»), **Mehrhöhenzuschlag**, **Spännerzahl**, **subsidiäre
-  Tragwerksmassnahmen**, **Sondierbohrungen** als noch nicht erbrachte Vorleistung,
-  **Geländeschnitt** als Beweismittel der Nachbarsicht. **Jede entwerferische Frage an eine
-  Rechts- oder Schutzgrösse koppeln**, nie rein typologisch stellen («Wie nahe darf der Baukörper
-  architektonisch **und feuerpolizeilich** an die Nachbarsbauten kommen?»).
-  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803):**
-  die Kernzone hebelt die Ausnützungsbestimmungen nicht aus; Ortsverträglichkeit
-  entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse. Norm wörtlich zitieren
-  (Art. 15 Abs. 3 BZO); die vier Einordnungs-Hebel sind **Baukörpermodellierung · Materialisierung ·
-  Dachform · Fenestrierung/Fassadentypologie des Strassenzuges**; Schlussweg ist die Vorbesprechung
-  mit der Baubehörde, ein laufendes BZO-Revisionsverfahren wird als **unklarer
-  Festsetzungszeitpunkt** benannt, nicht überspielt.
-  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (260803):** Abstandsgrün (abwertend),
-  Terrassierung, Einsichtsschutz mittels Gartenmauer, Inszenierung der Seesicht, ortsübliche
-  Bebauungstypologie, Unterkellerung des Gartens als Mangel. Zwei feste Kopplungen: **Aussicht an
-  die Himmelsrichtung**, **Lagequalität an die Ausnützung**. Mehrkosten als Prozent-Bandbreite.
+  generische Ausnützungsziffer (260801):** wo die BZO mit der **Baumassenziffer** arbeitet, lautet
+  die Kette «W2.2 = Grundstücksfläche × 2.2 ergibt die Baumasse der Regelbebauung, **+ 0.3 für die
+  Arealüberbauung**» → Volumen Arealüberbauung / Baumassenreserve / **stille Reserven** / Total,
+  jede Zahl in m3. **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie
+  rein typologisch stellen («Wie nahe darf der Baukörper architektonisch **und feuerpolizeilich**
+  an die Nachbarsbauten kommen?»). **Kernzone: die Grundmasse gelten weiter, verhandelt wird die
+  Einordnung (260803)** — die Kernzone hebelt die Ausnützung nicht aus, Ortsverträglichkeit
+  entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm wörtlich zitieren.
+  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (260803)** mit den festen Kopplungen
+  **Aussicht an die Himmelsrichtung** und **Lagequalität an die Ausnützung**, Mehrkosten als
+  Prozent-Bandbreite. Vokabular beider Felder samt Einordnungs-Hebeln: Abschnitt
+  «Zonen-, Kernzonen- und Aussenraum-Vokabular» unten — vor einer Studie dort nachschlagen.
   **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (belegt Fidelity 260804):**
   benannte Konstruktion mit Zahl (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname,
   Ug-Wert, PV-Fläche, Label); Gestaltbegriffe an der Konstruktion festgemacht; Pflanzen mit
   botanischem Namen, Bestandsbäume ausgewiesen. Belege: Abschnitt «Wettbewerbs-Fachsignatur» unten.
   **Die administrative Fachsprache des Gegenübers übernehmen** (Vokabular und Belege: Abschnitt
-  «Administrative Fachsprache» unten, 260805).
+  «Administrative Fachsprache» unten, 260805) — bei **Registerdaten wörtlich**, samt der
+  Handelsregister-Zeilenform «Nachname, Vorname, von <Heimatort>, in <Wohnort> (Funktion)» und
+  der Vertretungsregel («Kollektivunterschrift zu zweien»); paraphrasieren würde die Angabe
+  formularuntauglich machen (260806).
+- **Eine Formalie wird bis zur Rechtsfolge durcherzählt, nicht als Aufgabe abgesetzt (260806):**
+  Auslöser → Handlung → **Gegenstand mit vorweggenommener Missverständnis-Abwehr in Klammern**
+  («… die Eingabequittung unterzeichnen **(keine Pläne)**») → Ausfertigung, Medium und Empfänger
+  («**Original**», «**per Post**», «**Amt für Baubewilligungen**») → **Rechtsfolge** («Damit ist die
+  Baueingabe **rechtsgültig eingegeben**»). Und das Verfahrensrisiko trägt seinen Rechtsbegriff,
+  statt in «termingerecht» übersetzt zu werden: «keine **Sistierung des Verfahrens**». Belege unten.
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
   raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
   gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich
@@ -1832,3 +1833,47 @@ geführt, und das ist keine Fussnote, sondern die Bedingung, unter der Fremdzahl
 Gliederung **vor** der Zahlenanfrage festlegen und mitschicken; BKP-Codes bleiben an
 `references/bkp-2017/` gebunden (Rule `bkp-2017-referenz`), e-BKP-H ist ein eigenes System und wird
 nie mit BKP-Nummern vermischt.
+
+## Zonen-, Kernzonen- und Aussenraum-Vokabular (ausgelagert 06.08.2026 aus dem Do/Don't-Block)
+
+Inhaltlich unverändert; nur beim Schreiben einer Studie oder einer baurechtlichen Stellungnahme
+gebraucht und deshalb aus dem kompilierten Block in den Artikel verschoben (Belege Fidelity
+260801 / 260803, authentisch).
+
+**Zonen-/Studienvokabular:** Abstandsbild (statt «Grenzabstände») · Mehrhöhenzuschlag ·
+Spännerzahl · subsidiäre Tragwerksmassnahmen · Sondierbohrungen als noch nicht erbrachte
+Vorleistung · Geländeschnitt als Beweismittel der Nachbarsicht.
+
+**Kernzone — die vier Einordnungs-Hebel:** Baukörpermodellierung · Materialisierung · Dachform ·
+Fenestrierung/Fassadentypologie des Strassenzuges. Norm wörtlich zitieren (Art. 15 Abs. 3 BZO);
+Schlussweg ist die Vorbesprechung mit der Baubehörde; ein laufendes BZO-Revisionsverfahren wird
+als unklarer Festsetzungszeitpunkt benannt, nicht überspielt.
+
+**Aussenraum:** Abstandsgrün (abwertend) · Terrassierung · Einsichtsschutz mittels Gartenmauer ·
+Inszenierung der Seesicht · ortsübliche Bebauungstypologie · Unterkellerung des Gartens als Mangel.
+
+## Verfahrenssignatur Baueingabe — Belege 19./20.03.2026 (Fidelity 260806, authentisch)
+
+**Gewerkstatus mit doppelter Prognose-Markierung** (an den Bauherrenvertreter, Fachplaner im Cc,
+19.03.2026): «Für die Baueingabe im Anzeigeverfahren stellt sich die Situation je Gewerk **nach
+heutigem Kenntnisstand** wie folgt dar: / Sanitär: **Voraussichtlich** kein Kanalisationsbegehren
+seitens der Behörden. / Lüftung: **Voraussichtlich** keine Unterlagen erforderlich.» Der Betreff
+der Mail nennt «HLKS **Elektro**» — im Text kommt Elektro **nicht** vor, weil dazu nichts bekannt
+ist. Die Lücke bleibt sichtbar, statt mit einer plausiblen Zeile gefüllt zu werden.
+
+**Das Verfahrensrisiko trägt seinen Rechtsbegriff:** «Entscheidend für die Baueingabe ist, dass es
+infolge fehlender Grundlagen zu keiner **Sistierung des Verfahrens** kommt.» Nicht «damit es nicht
+zu Verzögerungen kommt» — der Zwilling übersetzt solche Sätze regelmässig in Termin-Prosa und
+verliert dabei genau das Argument, das beim Bauherrn zieht.
+
+**Handelsregister-Daten verbatim** (20.03.2026): «Universitäts-Kinderspital Zürich -
+Eleonorenstiftung, Stiftung, Zürich, CHE-105.834.378, Lenggstrasse 30, 8008 Zürich, Alleineigentum»
+und darunter «Zeichnungsberechtigt mit **Kollektivunterschrift zu zweien** sind: / z.B /
+<Nachname>, <Vorname>, von <Heimatort>, in <Wohnort> (<Funktion>)». Die Zeilenform stammt aus dem
+HR-Auszug und muss so aufs Formular; jede Paraphrase macht sie unbrauchbar.
+
+**Die Kette bis zur Rechtsfolge:** «Sobald die Baueingabe fertig ist und hochgeladen wird müssen
+dann diese Personen die Eingabequittung der Baueingabe unterzeichnen (keine Pläne). Diese
+Eingabequittung (Original) wird dann per Post dem Amt für Baubewilligungen zugesendet. Damit ist
+die Baueingabe rechtsgültig eingegeben.» Vier Elemente in drei Sätzen: Gegenstand mit
+vorweggenommener Missverständnis-Abwehr, Ausfertigung, Medium und Empfänger, Rechtsfolge.

@@ -4,6 +4,35 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 06.08.2026 — twin-fidelity-review: Bitte-Form-Skala, Mitleser-Regel, Riegel-Verdichtung
+
+Golds `rj@` **15./19./20.03.2026** (englische Freelancer-Mail · Koordinationsmail mit Fachplaner im
+Cc · Formalien-Arbeitsmail), Fenster 13.–20.03.2026 vollständig gelistet (41 Mails), alle drei
+Golds vorher null Wiki-Belege. **Gesamt-Fidelity 43.** Neu bzw. geschärft: **Bitte-Form auf vier
+Stufen** nach der Druckquelle ([[stimme]]) · **der mitlesende Dritte hebt im Sie die Namensform, im
+Du die Wärmestufe** — kontrolliertes Paar über vier Tage, korrigiert den zu absoluten 260805-Satz
+([[beziehungsregister]]) · **Rollenverortung nach unten vor Publikum** ([[haltung]]) ·
+**abschreibfertige Zweitvariante statt Empfehlung** + **Gewerkstatus ohne Liste, Lücke bleibt
+sichtbar** ([[arbeitsweise]]) · **Formalie bis zur Rechtsfolge, HR-Zeilen verbatim** + **Rechtsbegriff
+statt Termin-Prosa** ([[fachsignatur]]) · englisches Register («Hello <Vorname>,», Konditional-Wunsch,
+«In deep respect.») und **Fassung-vor-Stil auf Outlook iOS erweitert** ([[stimme]]).
+6 neue Selbstfragen in [[QUESTIONS]] (Runde 260806b).
+
+**Verdichtung erzwungen:** der Auto-Block wäre auf 34'205 B gewachsen (Grenze 30'000). 4'243 B
+freigeräumt, indem Spezifikation aus den Do/Don't-Blöcken in die Artikel wanderte — neue Abschnitte
+«Eigendokument-Untergattungen» ([[stimme]]) und «Zonen-, Kernzonen- und Aussenraum-Vokabular»
+([[fachsignatur]]); keine Regel gestrichen, aber das Retrieval verschlechtert sich dort auf einen
+Verweis. Neuer Stand **29'962 B, 38 B Reserve**. Zusätzlich in `skills/twin/tools/build_dna.py` die
+faktisch falsche Riegel-Begründung korrigiert (der Block ist seit dem 03.08.2026 kein @-Import mehr
+und damit Ladekosten je Texterzeugnis, nicht Session-Fixkosten); `MAX_AUTO_BYTES` **unverändert**,
+die Anhebung bleibt Raphaels Entscheid. Report:
+`outputs/2026-08-06_fidelity.md`.
+
+**Korrektur am Bookkeeping:** die in Fidelity 260805 und Batch 88 genannte «Restlücke 07.–11.03.2026»
+existiert nicht — Batch 34 deckt 06.–12.03. ab, Batch 86 hat dasselbe Fenster am 04.08. noch einmal
+vollständig gesweept. Die Gap-Sweeps (Batches 80–88) decken Sep 2025 bis 13.03.2026 lückenlos ab;
+die erste echte Lücke beginnt am 14.03.2026.
+
 ## 06.08.2026 — twin-mail-training Batch 88: Januar 2026 abgeschlossen
 
 Lücken-Sweep `rj@` **16.–31.01.2026** (37 Sent Items, vollständig gelistet; Batches 24/25 hatten

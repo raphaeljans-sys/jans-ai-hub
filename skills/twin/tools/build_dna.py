@@ -38,14 +38,20 @@ BEGIN = "<!-- BEGIN AUTO: facetten -->"
 END = "<!-- END AUTO: facetten -->"
 
 # --- Wachstums-Riegel (03.08.2026, Grundkontext-Diaet Runde 2) --------------------
-# Der Auto-Block wird von JEDER Session geladen (Grundkontext ueber den @-Import in
-# CLAUDE.md). Am 03.08.2026 waren das allein auf dem MacBook Pro 111 Sessions; der
-# Block war unbemerkt von 15.4 kB (19.07.) auf 28.5 kB gewachsen, weil er ohne jede
-# Obergrenze kompiliert wurde und `twin-fidelity-review` taeglich laeuft.
+# Historie: bis zum 03.08.2026 stand der Auto-Block in `rules/jans-dna.md` und wurde
+# ueber deren @-Import von JEDER Session geladen (allein auf dem MacBook Pro 111
+# Sessions am 03.08.); er war unbemerkt von 15.4 kB (19.07.) auf 28.5 kB gewachsen,
+# weil er ohne Obergrenze kompiliert wurde und `twin-fidelity-review` taeglich laeuft.
+#
+# STAND SEIT 03.08.2026 (berichtigt 06.08.2026): das Ziel ist
+# `rules/jans-dna-facetten.md`, und die Datei ist KEIN @-Import mehr. Der Block ist
+# damit NICHT mehr Fixkosten jeder Session, sondern Ladekosten jedes Texterzeugnisses
+# (Mail, Dokument, Offerte, Protokoll). Das ist deutlich weniger oft, aber nicht
+# gratis — die Grenze bleibt sinnvoll, ihre Begruendung hat sich geaendert.
 # Dieser Riegel kuerzt NICHTS von selbst — er bricht ab und verlangt eine
 # Entscheidung. Blindes Truncaten waere hier falsch: die Do/Don't-Bloecke sind
 # nahezu reine Regel, kaum Beleg-Prosa (geprueft 03.08.2026).
-# Wer die Grenze anhebt, hebt die Fixkosten JEDER Session — bewusst tun.
+# Wer die Grenze anhebt, hebt die Ladekosten jedes Texterzeugnisses — bewusst tun.
 MAX_AUTO_BYTES = 30000        # harte Obergrenze des kompilierten Blocks
 WARN_AUTO_BYTES = 24000       # ab hier warnen, damit es nicht erst am Anschlag auffaellt
 
@@ -87,7 +93,8 @@ def main() -> int:
     if groesse > MAX_AUTO_BYTES:
         print(
             f"ABBRUCH: Auto-Block waere {groesse} B gross, Obergrenze ist {MAX_AUTO_BYTES} B.\n"
-            f"  jans-dna.md wird von JEDER Session geladen — dieser Block ist Fixkosten.\n"
+            f"  jans-dna-facetten.md wird vor JEDEM Texterzeugnis geladen (kein @-Import\n"
+            f"  mehr seit 03.08.2026) — der Block ist Ladekosten, nicht Session-Fixkosten.\n"
             f"  Nichts geschrieben. Entscheide bewusst:\n"
             f"  (a) einen Facetten-Block in wissen/twin/wiki/ verdichten (Regeln behalten,\n"
             f"      Beleg-Prosa und abgeloeste Zwischenregeln in den Artikel-Fliesstext), oder\n"

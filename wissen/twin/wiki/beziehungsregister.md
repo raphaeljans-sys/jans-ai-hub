@@ -426,26 +426,29 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
-  Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; «Darf ich … bitten» stets
-  mit Begründung. **Im Eigendokument steht die Person in der Drittform, nie in der Mail-Anrede
-  (belegt Fidelity 260801 Skript + 260803 Protokoll, zwei Gattungen):** die Anrede-Stufe der Mail
-  wandert **nicht** in die Drittnennung eines eigenen Dokuments — dort «Herr <Nachname>» bzw.
-  voller Name, in der Teilnehmer-Rubrik «Vorname Nachname · Kürzel · Firmenkürzel», die eigene
-  Stimme nur als Kürzel («Anmerkung RJ»). Offen bleibt die Sie-/Du-Teilfrage ([[QUESTIONS]]
-  260801 #1).
+  Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; Bitte-Form nach der
+  Vier-Stufen-Skala in [[stimme]] (wer den Druck erzeugt), nicht nach dem Register.
+  **Im Eigendokument steht die Person in der Drittform, nie in der Mail-Anrede (260801 Skript +
+  260803 Protokoll):** die Anrede-Stufe der Mail wandert **nicht** in die Drittnennung — dort
+  «Herr <Nachname>» bzw. voller Name, in der Teilnehmer-Rubrik «Vorname Nachname · Kürzel ·
+  Firmenkürzel», die eigene Stimme nur als Kürzel («Anmerkung RJ»). Sie-/Du-Teilfrage offen
+  ([[QUESTIONS]] 260801 #1).
 - **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» — auch in der gewichtigen
-  Verfahrensmail (belegte Drift Fidelity 260804):** das Gewicht des Anliegens hebt die Stufe bei
-  **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht** bei der Privatkundin im warmen
-  Sie; dort trägt die laufende Zusammenarbeit die Anrede, nicht der Ernst des Einzelfalls. Bei
-  derselben Empfängerin läuft die Bewegung über die Monate **abwärts** ins Vertrautere («Sehr
-  geehrte Frau Hofer» → «Guten Tag Frau Hofer» 01.12.2025/06.01.2026 → «Hoi Undine» ab 13.01.2026
-  nach dem erfolgreichen Bauentscheid) — der Zwilling hat sie mit «Geschätzte» gegen diese
-  Richtung gedreht, weil die Mail viele blockierende Auflagen enthielt.
-- **Vor mitlesenden Dritten wechselt die NAMENSFORM, nicht die Wärmestufe (belegt 260805,
-  kontrolliertes Paar, dieselbe Bauherrin, 8 Tage):** bilateral «**Geschätzte <Vorname>**», mit
-  dem offerierenden Unternehmer im Cc «**Geschätzte Frau <Nachname>**». Wer mitliest, entscheidet
-  über Vorname ↔ Nachname; die Wärmestufe bleibt. Die Bewegung ins Vertrautere ist damit **nicht
-  monoton** und der Rücksprung kein Abkühlen. Belege unten.
+  Verfahrensmail (Drift 260804):** das Gewicht des Anliegens hebt die Stufe bei **Du-Kontakten und
+  Behörden** (Rule `anrede-kontakte`), **nicht** bei der Privatkundin im warmen Sie; dort trägt die
+  laufende Zusammenarbeit die Anrede, nicht der Ernst des Einzelfalls. Bei derselben Empfängerin
+  läuft die Bewegung über die Monate **abwärts** ins Vertrautere («Sehr geehrte Frau Hofer» →
+  «Guten Tag Frau Hofer» → «Hoi <Vorname>» nach dem erfolgreichen Bauentscheid). Belege unten.
+- **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
+  (260805 + 260806, zwei kontrollierte Paare):** im **Sie** kippt die **Namensform** (bilateral
+  «Geschätzte <Vorname>», mit dem offerierenden Unternehmer im Cc «Geschätzte Frau <Nachname>»,
+  Wärmestufe unverändert); im **Du** kippt die **Wärmestufe** bei bleibendem Vornamen (derselbe
+  Bauherrenvertreter in vier Tagen bilateral «Salut Albin» / «Hoi Albin,» / «Guten Abend Albin,»,
+  mit dem Fachplaner im Cc «**Geschätzter Albin**»). Beide Bewegungen zeigen in dieselbe Richtung
+  — formeller, sobald jemand mitliest —, nur die Achse wechselt, weil im Du keine Nachnamenform
+  zur Verfügung steht. Die Bewegung ins Vertrautere ist damit **nicht monoton**; ein Rücksprung
+  ist kein Abkühlen, sondern fast immer ein Cc. **Vor dem Anrede-Entscheid also erst die
+  Empfängerliste lesen, dann den Anlass.** Belege unten.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»

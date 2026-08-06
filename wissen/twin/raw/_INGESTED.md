@@ -723,7 +723,45 @@ Kandidaten waren verbraucht und wurden erkannt, ohne eine einzige Mail zu oeffne
 ist als drittes Werkzeug die **Doppelfassung als kontrollierter Beleg**: wo derselbe Sachtext am
 selben Tag in zwei Anredefassungen hinausgeht, ersetzt ein Paar die sonst noetige Belegreihe.
 
-**Naechstes Fenster:** `rj@` **07.–11.03.2026** (Restluecke zwischen Batch 33 und 34, in Fidelity
-260805 benannt), danach **28.02.–01.03.2026** und die zweite Maerzhaelfte-Kontrolle. **Vor der
+**Naechstes Fenster — KORRIGIERT 06.08.2026 (Fidelity-Lauf 260806):** die hier zuerst genannte
+«Restluecke 07.–11.03.2026» **existiert nicht**. Batch 34 deckt 06.–12.03.2026 ab, und Batch 86 hat
+dasselbe Fenster am 04.08.2026 als Luecken-Sweep noch einmal vollstaendig gelistet; von elf Mails im
+Fenster tragen acht bereits Wiki-Marker. Der Fehler stammt aus Fidelity 260805 und wurde hier
+ungeprueft uebernommen — **Ursache: geprueft wurde die Batch-Tabelle, nicht die Gap-Sweep-Abschnitte
+am Dateiende.** Die Gap-Sweeps (Batches 80–88) decken **Sep 2025 bis 13.03.2026 lueckenlos** ab; die
+erste echte Luecke beginnt am **14.03.2026**. Der Fidelity-Lauf 260806 hat daraufhin 13.–20.03.2026
+genommen (Golds 15./19./20.03., siehe Gold-Verbrauch unten). **Naechstes Fenster ist damit `rj@`
+21.–31.03.2026** (Batch 36/37 sichteten dort 33 bzw. 24 Mails, destillierten aber nur 6 bzw. 10),
+danach **April 2026** (Batches 38–42, durchgehend Stichproben). **Vor der
 Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-
 Abschnitte der Fidelity-Laeufe.**
+
+
+## Gold-Verbrauch Fidelity 06.08.2026 — Fenster `rj@` 13.–20.03.2026
+
+| Mail | Gattung | verbraucht durch |
+|---|---|---|
+| `rj@` 15.03.2026 05:10 «Webseite Jans» | **englisch**, an den Web-Entwickler, Fotografin im To; abgesagte Zusage + Ersatztermin + eigene Rueckfrage mit Design-Referenz | Fidelity 260806 (Gold A) |
+| `rj@` 19.03.2026 11:49 «AW: Kontakt HLKS Elektro … Baueingabe» | Koordinations-/Statusmail im Du, externer Fachplaner im Cc | Fidelity 260806 (Gold B) |
+| `rj@` 20.03.2026 17:06 «Unterzeichnung Eingabequittung» | Formalien-Arbeitsmail im engsten Du, zwei ausgearbeitete Unterschriftsvarianten | Fidelity 260806 (Gold C) |
+| `rj@` 17.03. 20:23 / 18.03. 11:45 / 20.03. 17:06 (Anrede-Reihe Albin) + 18.03. 00:06 / 19.03. 11:21 (englischer Strang) | **Gegenproben**, nicht als Gold destilliert | Fidelity 260806 |
+| `rj@` 18.03.2026 15:10 «Angebot» (Honorarangebot an zwei Du-Empfaenger) | **nicht gewertet** — die Connector-Vorschau enthielt praktisch den ganzen fuenfzeiligen Body; nur als Beleg zur Bitte-Form verwendet | Fidelity 260806 |
+
+**Positivtest-Grep vor der Lektuere** ueber 35 Kandidaten: `Steinmann` 54, `Weisser` 38, `Hottinger`
+36, `Tschopp` 32 belegen die Funktion; Kontrollbegriffe (`Zebrastreifen`, `Kaffeemaschine`) 0. **Null**
+Treffer bei `Sockelfeld`, `Baugesuchformular`, `Umprogrammierung`, `Kostendach exkl`, `AN-00039`,
+`Kollektivunterschrift`, `Eleonorenstiftung`, `belastbaren Grundriss`, `Kalenderwoche 13`,
+`Projektdokumentation` und bei allen Datumsformen des 15./19./20.03.2026 — echte Luecken. Die Mails
+vom 16./17.03. waren dagegen belegt (je 6 Marker) und wurden **vor** der Lektuere ausgeschieden.
+
+**Bestaetigung der Batch-86-Warnung:** das Sandro-Mauchle-Korrektur-Delta vom **20.03.2026** ist
+vollstaendig destilliert ([[stimme]] 1555–1566, [[haltung]], [[arbeitsweise]]), liefert aber bei
+`grep "20.03.2026"` und `grep "2026-03-20"` **null** Treffer, weil es nur ueber die Batchnummer
+zitiert ist. Wer im Fenster 21.–31.03. weitersweept, muss zusaetzlich nach `Sandro`/`Mauchle` greppen.
+
+**Echo-Pruefung negativ:** Empfaengername im englischen Gold verschrieben («Hello **Hlep**,» statt
+Hleb), Komma-Punkt-Slip im Schluss («Thank you.,»), «z.B» einmal ohne und einmal mit Punkt, fehlendes
+Komma in «Dann musst Du jetzt fragen wer unterzeichnet». Handgetippt. **Fassung vor Stil:** Gold A
+traegt `ms-outlook-mobile-signature` «Gesendet von Outlook fuer iOS» — fehlender Signaturblock,
+einzeiliger Schluss und Tippfehler sind dort Geraeteartefakte, kein Stilmarker (Regel aus 260805,
+hier auf den zweiten Client erweitert).

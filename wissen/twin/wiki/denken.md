@@ -174,29 +174,23 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Fach-Methode im Skill `machbarkeit`, nicht hier. Erkenntnisse
   aus der Rechnung **nummerieren** («1. Erkenntnis: …») und die **Rechenkette offenlegen** statt
   nur das Ergebnis zu nennen (Zonenformel → Einzelposten → Total).
-- **Varianten werden bilanziert, nicht benotet (belegt Fidelity 260803, authentisch,
-  Kriterienkatalog 27.03.2021):** kein Kriterienraster mit Punkten oder Noten, sondern je
-  Variante eine **«+»/«-»-Bilanz**. Drei Regeln dieser Bilanz: (1) das Dokument verpflichtet
-  sich auf **eine** Perspektive und zieht sie konsequent durch (hier der Aussenraum, nicht
-  Baurecht plus Kosten plus Nutzung nebeneinander); (2) derselbe Mangel wird über die Varianten
-  hinweg **wortgleich** wiederholt (Belege unten) — die Wiederholung ist das,
-  was die Varianten vergleichbar macht, sie wird nicht variiert; (3) der **Favorit wird nicht
-  ausgesprochen**, sondern dadurch sichtbar, dass seine Minus-Rubrik **leer bleibt** (Variante 2
-  trägt vier Pluspunkte und unter «-» nichts). Die Bilanz wertet, das Fazit fehlt bewusst.
-- **Der Entwurf wird abgeleitet, nicht behauptet (belegt Fidelity 260804):** ein
-  Erläuterungsbericht beginnt mit der **Baugeschichte des Orts** (Bauetappen mit Jahr und
-  typologischer Wirkung, belegt an Schwarzplan/Luftbild), zieht daraus einen Befund und erst
-  dann über ein sichtbares Scharnier die Ziele: «Basierend auf der ausgeführten Leseart des Ortes
-  können folgende fünf städtebauliche Ziele formuliert werden:» + **nummerierte Liste**. Ein
-  zweites Scharnier bindet Ziele an Form: «Konkret bezogen auf das Neubauvolumen äussern sich die
-  obigen Grundsätze in …». Jeder Formentscheid hängt an einem benannten Kontextbeleg («analog dem
-  Trakt 3 zu verstehen»), nie an einer Absichtserklärung — dieselbe Bewegung wie das Rechnen in
-  der Mail, nur entwerferisch. Belege: Abschnitt «Ortslektüre als Entwurfsgrundlage» unten.
-- **Referierte Fremdaussage und eigene Wertung sichtbar trennen (belegt Fidelity 260803,
-  Protokoll 24.08.2023):** im Protokoll steht zuerst die Aussagekette des Gegenübers («>»-Zeilen),
-  dann die eigene, deutlich längere «Anmerkung RJ» mit wörtlichem Normzitat, Subsumtion auf den
-  Fall und pragmatischem Schlussweg. Die eigene Fachmeinung wird also nicht in die Protokollzeile
-  eingeschmolzen, sondern als eigener, gekennzeichneter Sprechakt angehängt.
+- **Varianten werden bilanziert, nicht benotet (260803):** kein Punkte-/Notenraster, sondern je
+  Variante eine **«+»/«-»-Bilanz** nach drei Regeln: (1) das Dokument verpflichtet sich auf **eine**
+  Perspektive und zieht sie konsequent durch; (2) derselbe Mangel wird über die Varianten hinweg
+  **wortgleich** wiederholt — die Wiederholung macht sie vergleichbar; (3) der **Favorit wird nicht
+  ausgesprochen**, sondern dadurch sichtbar, dass seine Minus-Rubrik **leer bleibt**. Die Bilanz
+  wertet, das Fazit fehlt bewusst. Belege unten.
+- **Der Entwurf wird abgeleitet, nicht behauptet (260804):** ein Erläuterungsbericht beginnt mit
+  der **Baugeschichte des Orts** (Bauetappen mit Jahr und typologischer Wirkung, belegt an
+  Schwarzplan/Luftbild), zieht daraus einen Befund und erst dann über ein sichtbares Scharnier die
+  Ziele («Basierend auf der ausgeführten Leseart des Ortes können folgende fünf städtebauliche
+  Ziele formuliert werden:» + nummerierte Liste); ein zweites Scharnier bindet Ziele an Form. Jeder
+  Formentscheid hängt an einem benannten Kontextbeleg, nie an einer Absichtserklärung — dieselbe
+  Bewegung wie das Rechnen in der Mail, nur entwerferisch. Belege: «Ortslektüre» unten.
+- **Referierte Fremdaussage und eigene Wertung sichtbar trennen (260803):** im Protokoll steht
+  zuerst die Aussagekette des Gegenübers («>»-Zeilen), dann die eigene, deutlich längere «Anmerkung
+  RJ» mit wörtlichem Normzitat, Subsumtion und pragmatischem Schlussweg — nicht in die
+  Protokollzeile eingeschmolzen, sondern als eigener, gekennzeichneter Sprechakt.
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
   verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
   Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein

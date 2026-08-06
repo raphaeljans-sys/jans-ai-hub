@@ -2781,3 +2781,48 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    dort, wo er das Gebiet selbst gut genug überblickt, um den Raster zu setzen? Im zweiten Fall
    bräuchte der Zwilling ein Kriterium, wann er den Raster besser dem Fachplaner überlässt.
    → [[arbeitsweise]]
+
+## Runde 260806b (Fidelity-Review, `rj@` 13.–20.03.2026)
+
+1. **Formalisiert der Mitleser die Anrede auch dann, wenn er zum engeren Team gehört?** — Belegt
+   ist der Sprung «Salut/Hoi Albin» → «Geschätzter Albin», sobald der externe Fachplaner im Cc
+   steht (19.03.2026 gegen 18./20.03.). Offen ist, ob der Auslöser jeder Dritte ist oder nur der
+   **projektfremde/externe** Dritte: schreibst Du auch dann «Geschätzter», wenn der Cc jemand aus
+   demselben Haus ist (z.B. eine zweite Person des Bauherrn), oder bleibt es dort beim Hoi?
+   *Warum: der Zwilling liest heute nur den Anlass; er braucht die Regel, ob er die Empfängerliste
+   nach «irgendwer mehr» oder nach «jemand von aussen» prüfen muss.* → [[beziehungsregister]]
+
+2. **Wer ist «we» in den englischen Mails?** — Die Mail vom 15.03.2026 an den Web-Entwickler steht
+   durchgehend im «we/our» und enthält **kein einziges «I»**, während die Regel im Deutschen «wir
+   für die Büro-/Projekthandlung, ich für die persönliche Bitte» satzweise trennt. Meint das «we»
+   hier buchstäblich Dich und die mitsendende Fotografin, oder ist es im Englischen generell die
+   Standardform für das Büro? *Warum: davon hängt ab, ob der Zwilling im Englischen die deutsche
+   Ich/Wir-Trennung nachbaut oder sie bewusst fallen lässt.* → [[haltung]], [[stimme]]
+
+3. **Ist «In deep respect.» eine feste englische Schlussformel oder eine Einzellaune?** — Sie steht
+   am 19.03.2026 unter einer Höflichkeitskette («Please let me know … / Please do not hesitate …»)
+   und hat im Deutschen keine Entsprechung. Setzt Du sie regelmässig, und wenn ja: gegenüber wem?
+   *Warum: der Zwilling schreibt englische Schlüsse heute nach deutschem Muster; eine eigene Formel
+   wäre ein sofort hörbarer Echtheitsmarker.* → [[stimme]]
+
+4. **Gilt die Verortung «die Fachplaner haben oberste Priorität» generell oder nur im Fremdbetrieb?**
+   — Am 19.03.2026 erklärst Du Dich vor dem Bauherrenvertreter und dem Fachplaner ausdrücklich zum
+   Zulieferer der Fachplaner und ordnest Dich «innerhalb der bestehenden Struktur» des Kunden ein.
+   Ist das Deine Rollenauffassung in jeder Ausführungsphase, oder gilt sie dort, wo der Kunde eine
+   eigene Bau-/Technikorganisation hat und Du in dieser mitläufst? *Warum: der Zwilling stellt den
+   Architekten reflexhaft an die Spitze der Koordination und trifft damit genau den falschen Ton.*
+   → [[haltung]]
+
+5. **Wie viel Vorarbeit ist bei einer Formalie der Standard?** — Am 20.03.2026 lieferst Du zwei
+   komplett abschreibfertige Unterschriftsvarianten samt Handelsregister-Zeilen, statt eine zu
+   empfehlen, und hängst die Wertung als «Ist vielleicht am einfachsten so.» an. Machst Du das
+   immer, wenn eine Formalie mehrere Wege hat, oder war es hier die Terminlage? *Warum: das
+   unterscheidet sich diametral von der Beratungsmail, wo Du klar empfiehlst — der Zwilling braucht
+   das Kriterium, wann er Arbeit statt Meinung liefert.* → [[arbeitsweise]]
+
+6. **Bleibt eine Gewerkszeile weg oder wird sie als offen ausgewiesen?** — Die Statusmail vom
+   19.03.2026 führt Sanitär und Lüftung und lässt **Elektro** ganz aus, obwohl der Betreff es nennt.
+   Ist das Absicht (nichts zu sagen = keine Zeile), oder schreibst Du in anderen Fällen «Elektro:
+   noch offen»? *Warum: der Zwilling füllt solche Lücken heute mit einer plausiblen Zeile; er
+   braucht die belegte Alternative — weglassen oder als offen markieren.* → [[arbeitsweise]],
+   [[fachsignatur]]
