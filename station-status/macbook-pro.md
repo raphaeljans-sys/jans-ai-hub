@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 00:58:58
+Stand: 07.08.2026 01:09:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 07.08.2026 00:58:58
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 22c63d69 nas-selfcommit: 2 Datei(en) 2026-08-07 00:45
+- 390e3e20 vollgas-radar 07.08. 00:57: Nachtrate 0.59 Mio/h, Vorsprung -8.7; Kalibrierung Fan-out ~4.5 Mio vs Nachtschicht-Slot ~0.2 Mio, P2(a) ersetzt
