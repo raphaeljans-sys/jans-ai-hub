@@ -1,3 +1,48 @@
+## 2026-08-07 (Normen-Nacht Run 46, MacBook Pro) — die geplante Statushebung ist am Fliesstext gescheitert, und die letzte bemessungsrelevante Abdeckungsluecke ist geschlossen
+
+1. **`destillate/gvz-rwa-parkhaus-einstellraum.md`** — vierte unabhaengige Refuter-Runde,
+   Verdikt **BEANSTANDET** (5 Kernbefunde, 8 Nebenbefunde), alle **inline** eingearbeitet.
+   Die Runde war als Hebung auf `established` geplant, weil Run 45 das Destillat als erstes
+   der Reihe BESTANDEN hatte. Sie ist gescheitert, und zwar aufschlussreich: die Matrizen der
+   Ziff. 6 halten zum **dritten** Mal zellengenau (alle 27 Wertzellen, Legenden je Matrix
+   einzeln gemessen), saemtliche Befunde liegen im **Fliesstext der S. 2-9** — dem Bereich,
+   den der Verifikationsabschnitt «Runde 2» als «Wort fuer Wort geprueft und stimmen» fuehrte.
+   Nachgetragen: Funktionserhalt 400/200 Grad C fuer die **Entrauchungsoeffnungen** des
+   Brandluefter-Konzepts (nicht nur fuer die Heissgasventilatoren der MRWA), die Bedien- und
+   Verschlussanforderungen (einzeln, von sicherem Standort oeffen- und wieder schliessbar,
+   betriebsbereit bei Stromausfall, markiert), die Schliessbarkeit dauernd offener
+   Belueftungsoeffnungen, die Qualifikation «**geometrisch freie** Flaeche» beim 1-%-Kriterium
+   (Verwechslung mit der aerodynamisch wirksamen Flaeche kostet bis den Faktor 3), die
+   anrechenbaren Notausgaenge bei Anhang-Beispiel 2 sowie acht Nebenbefunde (Zuordnung des
+   3-4-m-Aufstellabstands zu **jedem** Brandluefter samt Luftkegel-Begruendung, Drucklutte,
+   Druckverlust-Relativierung, Feuerwehrzugang, Rauchgas-Gefaehrdung, Teilflaechen-Ausnahme,
+   Ecken/Nischen, Bemessungsbezug der Brandlueftergesamtleistung). Kernbefunde 1-4 vom
+   Hauptprozess am eigenen 300-dpi-Rendering der S. 3, 4 und 9 woertlich nachgelesen; das
+   Fehlen im Destillat per Volltextsuche ueber die ganze Datei gegengeprueft
+   (Methodik-Pflicht 7, keine Scheinbefunde). Status bleibt `speculative`.
+
+2. **`destillate/swki-va103-01-2017.md`** — **fuenf der acht Abdeckungsluecken aus Run 45
+   geschlossen**, darunter die dort als **einzige bemessungsrelevante** gefuehrte: Kap. 2.3
+   «Quellen» (S. 20-26) ist vollstaendig destilliert — Kernformel E_CO = E_CO,0 + e_CO x s,
+   Tab. 2 (Faktor f_IDA ueber 11 Temperaturstufen samt gedruckter Regressionsgleichung),
+   Tab. 3 (exponiert +5 K / geschuetzt +10 K, offene Wendelrampe macht alle angeschlossenen
+   Geschosse exponiert), Tab. 4, die Faustformel V_punkt ~= 8 x E_punkt_CO, Tab. 5 und die
+   Aufschluesselung des 50-%-Grundzuschlags in 40 % Inhomogenitaet plus 10 %
+   Aussenluft-Vorbelastung. Dazu Kap. 2.1, 2.6.7, 3.2 (inkl. Tab. 11 Inhomogenitaetsfaktor,
+   die im Destillat ganz fehlte) und Kap. 3.3. **Die Zahlenkette Tab. 4 → Tab. 5 ist
+   rechnerisch geschlossen**, S. 26 und S. 54 vom Hauptprozess am eigenen Rendering
+   nachgelesen. **Titelkorrektur:** Kap. 3.3 heisst «Zonenaufteilung», nicht «Spezialfaelle» —
+   die Lueckenliste hatte einen Unterpunkt zum Kapiteltitel gemacht und dadurch den
+   eigentlichen Kapitelinhalt gar nie als fehlend erkannt. **Eine Agentenangabe korrigiert:**
+   «WB» ist die **Wagenbewegung** (frz. MV), nicht eine Warte-/Zeiteinheit.
+
+3. **`wiki/QUESTIONS.md`** — drei Eintraege (N46-1 gezielte GVZ-Runde auf Ziff. 4.2.2.3/4.2.2.4
+   und Anhang S. 8/9 · N46-2 Richtigstellung eines seit Run 41 erledigten, aber sechs Reports
+   lang fortgeschriebenen Rueckstands · N46-3 die drei SWKI-Begriffskapitel).
+
+4. **`training/norm-inventar.md`** und **`destillate/INDEX.md`** — beide Zeilen mit Verdikt und
+   Kernbefund nachgefuehrt.
+
 ## 2026-08-06 (Cross-KB-Lauf Run 27, Wissens-Chef) — Vorwaertsverweise auf die geltende Fassung 2022 gesetzt, Blitzschutz-Normkette ins Register genommen, eine ueberdehnte Frontmatter-Aussage zurueckgenommen
 
 Rein additiver Lauf, keine Loeschung, kein datierter Stichtags-Vermerk ueberschrieben. Geaendert:

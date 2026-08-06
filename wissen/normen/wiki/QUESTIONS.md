@@ -1,5 +1,37 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 46 (07.08.2026) — ein neuer Auftrag, ein Rückstand richtiggestellt
+
+- **N46-1 — GVZ-Merkblatt 30.17.3: gezielte Runde auf Ziff. 4.2.2.3/4.2.2.4 und den
+  Fliesstext-Anhang S. 8/9.** Vier Refuter-Runden haben die Aufmerksamkeit auf die Matrizen
+  der Ziff. 6 und den Beispiel-Anhang ab S. 10 gelenkt. Run 46 hat gezeigt, dass genau dort
+  nichts mehr zu holen ist (Matrizen zum dritten Mal zellengenau bestätigt), während der
+  Fliesstext zu den **Entrauchungsöffnungen** fünf Kernbefunde trug — im angeblich seit je
+  vollständig erschlossenen Bereich. **Auftrag:** eine Runde, die ausschliesslich diesen
+  Bereich aufnimmt, Absatz für Absatz, in beiden Fragerichtungen. Erst danach ist die Hebung
+  auf `established` redlich zu stellen. Vorher nicht.
+
+- **N46-2 — Richtigstellung eines fortgeschriebenen Rückstands (kein neuer Auftrag).** Die
+  Reports der Runs 40 bis 45 führten durchgehend als offen: «Lignatec — der Fliesstext der
+  Kapitel 1 bis 4 ist nie gegen das Destillat gediffed, und eine Seiten-Inventur existiert
+  nicht.» Beides ist **seit Run 41 (01.08.2026) erledigt**: der Fliesstext-Diff der Kap. 1-4
+  ist gefahren (6 Kernbefunde, im Destillat-Frontmatter dokumentiert), und
+  `training/lignatec-seiteninventur.md` existiert (351 Zeilen, Seitenzahlen am Rand
+  abgelesen). Der Punkt ist aus der Rückstandsliste zu nehmen. **Er ist hier vermerkt, weil er
+  eine Fehlerklasse belegt, nicht weil noch etwas zu tun wäre:** ein Rückstandspunkt, der von
+  Report zu Report kopiert wird, ohne am Bestand geprüft zu werden, überlebt seine eigene
+  Erledigung. Das ist Methodik-Pflicht 10 (externe Statusaussage gegen den eigenen Bestand
+  prüfen), angewandt auf die **eigenen** Reports.
+
+- **N46-3 — SWKI VA103-01: die drei Begriffs- und Abkürzungskapitel.** Nach Run 46 sind von
+  acht Abdeckungslücken noch Kap. 1.1.1-1.1.3 (bautechnische, lüftungstechnische und
+  MSR-Begriffe, S. 10-14) und Kap. 1.2 (Abkürzungen, S. 15-16) offen. Nicht bemessungsrelevant,
+  aber das Destillat verwendet durchgehend Kürzel (WB/h, PP, PC, RJT/FOL) ohne eigene Referenz
+  — und Run 46 hat gezeigt, wohin das führt: der Destillier-Agent deutete «WB» spontan als
+  «Warte-/Bewegungseinheit» statt als **Wagenbewegung**, was die Einheit m³/WB unbrauchbar
+  gemacht hätte. Der Hauptprozess hat es am Bestand korrigiert. Ein destilliertes
+  Abkürzungsverzeichnis schliesst diese Fehlerquelle.
+
 ## Cross-KB-Lauf Run 27 (06.08.2026) — zwei neue Bring-Schulden
 
 - **N27-1 — VKF-Publikationsindex für 22-15de abfragen (Fassungsstand Blitzschutz).**

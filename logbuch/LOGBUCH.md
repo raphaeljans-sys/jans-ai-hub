@@ -5,6 +5,49 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Normen-Training 07.08.2026, 01:28 bis 03:0x (Run 46, still — keine Mail)
+
+Zwei Ergebnisse, beide Wissensbasis-Pflege ohne Aussenwirkung; nach Rule 260803 kein Sendegrund
+(keine Frist, kein Termin, kein Kunde, kein Geld). Bericht:
+`wissen/normen/outputs/2026-08-07_normen-nacht-run46.md`.
+
+**1. Die geplante Statushebung des GVZ-Merkblatts 30.17.3 ist gescheitert — und das war der
+Ertrag.** Run 45 hatte das Destillat als erstes der Reihe BESTANDEN; die Hebung auf
+`established` war für heute vorgesehen. Die vierte Refuter-Runde brachte **5 Kernbefunde und 8
+Nebenbefunde**, alle inline eingearbeitet. Die Matrizen der Ziff. 6, an denen sich vier Runden
+abgearbeitet haben, halten zum dritten Mal zellengenau; sämtliche Befunde liegen im **Fliesstext
+der Seiten 2 bis 9**, den ein früherer Verifikationsabschnitt als «Wort für Wort geprüft und
+stimmen» führte. Vierter belegter Fall des Musters «eine als geprüft geführte Stelle war der
+Fehler».
+
+Der Punkt mit Reichweite über die KB hinaus: **die Anforderungen an Entrauchungsöffnungen nach
+Ziff. 4.2.2.4 fehlten vollständig** — Funktionserhalt 400 °C (mit Sprinkler 200 °C) für eine
+Stunde, einzeln und von sicherem Standort öffen- **und wieder** schliessbar, betriebsbereit auch
+bei Stromausfall, dauernd offene Belüftungsöffnungen im Brandfall schliessbar. Das trifft jede
+künftige Tiefgaragen-Ausschreibung mit Brandlüfterkonzept. Dazu die fehlende Qualifikation
+«**geometrisch freie** Fläche» beim 1-%-Kriterium, deren Verwechslung mit der aerodynamisch
+wirksamen Fläche bis den Faktor 3 kostet. Kein laufendes JANS-Erzeugnis ist betroffen (Register
+und Fristenliste geprüft), deshalb kein Fristen-Eintrag.
+
+**2. Die letzte bemessungsrelevante Abdeckungslücke der KB ist geschlossen.** SWKI VA103-01
+Kap. 2.3 «Quellen» (S. 20-26) ist destilliert — Kernformel, Temperaturfaktoren, die Regel
+exponiert/geschützt (eine offene Wendelrampe macht alle angeschlossenen Geschosse exponiert),
+Tab. 4/5 und die Aufschlüsselung des 50-%-Zuschlags. Die Zahlenkette ist rechnerisch
+geschlossen. Dazu vier weitere Lücken (Kap. 2.1, 2.6.7, 3.2 mit Tab. 11, 3.3); offen bleiben
+nur die drei Begriffskapitel.
+
+**Nebenbefund zur eigenen Arbeitsweise, vermerkt weil er sich wiederholen kann.** Die Reports
+der Runs 40 bis 45 führten durchgehend als offen, beim Lignatec sei der Fliesstext-Diff der
+Kap. 1-4 nie gefahren und eine Seiten-Inventur existiere nicht. Beides ist **seit Run 41
+erledigt** (Inventur 351 Zeilen, Diff mit 6 Kernbefunden, beides im Bestand nachgewiesen). Ein
+Rückstandspunkt, der von Report zu Report kopiert wird, ohne am Bestand geprüft zu werden,
+überlebt seine eigene Erledigung — Methodik-Pflicht 10, angewandt auf die eigenen Reports.
+
+**Achte Wiederholung:** die Auftragszeile des Scheduled Task verlangt weiterhin die achte
+Lignatec-Runde, die in Run 38 gefahren wurde. Der Ersatzvorschlag aus Run 45 (Auftragszeile auf
+«arbeite den im jüngsten Report ausgewiesenen Rückstand ab» umstellen) bleibt gültig; die
+Umstellung nimmt Claude nicht selbst vor.
+
 ## Hub-Chef 06.08.2026 (08:39 bis 08:58, **MIT Befund, Briefing versendet**)
 
 Signale gegenverifiziert: Register und Logbuch im 7-Tage-Horizont samt der drei heutigen

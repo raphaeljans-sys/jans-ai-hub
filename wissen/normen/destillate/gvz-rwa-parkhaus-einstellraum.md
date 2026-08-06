@@ -2,9 +2,10 @@
 quelle: "/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 02_Recht_Norm/06_Richtlinien/GVZ/M30-17-3_RWA-Parkhaus.pdf"
 herausgeber: "Kantonale Feuerpolizei / GVZ Gebäudeversicherung Kanton Zürich, Postfach, 8050 Zürich, Tel. 044 308 22 04"
 ausgabe: "Merkblatt Nr. 30.17.3 «Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen für Motorfahrzeuge», Merkblatt vom 28. Februar 2011, in Kraft seit 11. April 2011; Auflagevermerk April 11/5000, 12 Seiten (7 Textseiten + 5-seitiger Anhang mit Formeln/Beispielen)"
-gelesen: "S. 1-9 destilliert; S. 10-12 (Anhang: Legende zu den Beispielen, Beispiel 1, Beispiel 2) erst in Run 41 erschlossen. ACHTUNG ZUR METHODE: die frühere Angabe «echter Textlayer, kein Rendering nötig» war falsch und hat den Erstfehler mitverursacht. Der Textlayer dieses Merkblatts verfälscht die Vergleichszeichen (gedruckt «≤ 600 m²» / «≥ 60°», extrahiert «<» / «>») und bildet die Ober-/Unterteilung der Matrixzellen überhaupt nicht ab. Bebilderte Merkblätter dieser Art sind zu RENDERN, nicht zu extrahieren."
+gelesen: "S. 1-9 destilliert; S. 10-12 (Anhang: Legende zu den Beispielen, Beispiel 1, Beispiel 2) erst in Run 41 erschlossen. ACHTUNG ZUR METHODE: die frühere Angabe «echter Textlayer, kein Rendering nötig» war falsch und hat den Erstfehler mitverursacht. Der Textlayer dieses Merkblatts verfälscht die Vergleichszeichen (gedruckt «≤ 600 m²» / «≥ 60°», extrahiert «<» / «>») und bildet die Ober-/Unterteilung der Matrixzellen überhaupt nicht ab. Bebilderte Merkblätter dieser Art sind zu RENDERN, nicht zu extrahieren. KORREKTUR Run 46 (07.08.2026): die Angabe «S. 1-9 destilliert» war zu optimistisch. Fünf Kernbefunde und acht Nebenbefunde dieser Runde sitzen sämtlich auf den gedruckten S. 2, 3, 4, 8 und 9, also im angeblich vollständig erschlossenen Bereich — namentlich Ziff. 4.2.2.4 (Entrauchungsöffnungen) und der Fliesstext des Anhangs S. 8/9, die alle Vorrunden zugunsten der Matrix auf S. 6 vernachlässigt haben. Nach der Einarbeitung gilt S. 1-12 als destilliert; die gezielte Nachprüfung genau dieses Bereichs steht aus."
 datenstand: "28. Februar 2011 (in Kraft 11. April 2011)"
-status: "speculative (Run 41, 01.08.2026: ZWEITE unabhaengige Refuter-Runde, VERDIKT BEANSTANDET
+status: "speculative — VIERTE Refuter-Runde Run 46 (07.08.2026), Verdikt BEANSTANDET mit 5 Kernbefunden und 8 Nebenbefunden; alle inline eingearbeitet. HEBUNG AUF established ERNEUT NICHT ZULAESSIG. Die Runde galt der geplanten Hebung: Run 45 hatte das Destillat als erstes der Reihe BESTANDEN und die Matrizen zweifach bestaetigt. Genau das war die Falle — der Streit um Ziff. 6 ist entschieden (Matrizen jetzt DRITTMALS zellenweise unabhaengig bestaetigt, alle 27 Wertzellen, Legenden je Matrix einzeln gemessen, RGB 178/224/246 gegen 255/255/255), die Luecke lag geschlossen woanders: im Fliesstext zu den ENTRAUCHUNGSOEFFNUNGEN (Ziff. 4.2.2.4 und deren Anhang S. 8/9), also im angeblich seit je vollstaendig erschlossenen Bereich S. 1-9. Kernbefunde: (1) der Funktionserhalt 400 Grad C / 200 Grad C mit Sprinkler waehrend min. 1 Stunde gilt AUCH fuer die Entrauchungsoeffnungen des Brandluefter-Konzepts, nicht nur fuer die Heissgasventilatoren der MRWA — im praxishaeufigsten Fall (Einstellhalle 1. UG mit BL) fehlte damit die einzige harte Bauteilanforderung; (2) die Bedien- und Verschlussanforderungen fehlten ganz (einzeln, von sicherem Standort oeffen- UND wieder schliessbar, betriebsbereit auch bei Stromausfall, bei kleineren Hallen manuell von aussen, markiert, mit funktionierender Schliessung); (3) dauernd offene Belueftungsoeffnungen muessen im Brandfall schliessbar sein (nicht brennbarer Deckel); (4) beim 1-%-Kriterium der NRWA fehlte die Qualifikation «geometrisch freie Flaeche» — verwechselt man sie mit der aerodynamisch wirksamen Flaeche A_aerodyn = A x c, dimensioniert man um den Faktor 1/c bis rund das Dreifache falsch; (5) Anhang-Beispiel 2 war unvollstaendig zitiert, die zwei anrechenbaren Notausgaenge fehlten (bei Beispiel 1 in Run 45 ergaenzt, bei Beispiel 2 nicht). Kernbefunde 1-4 hat der Hauptprozess am eigenen 300-dpi-Rendering der S. 3, 4 und 9 woertlich nachgelesen und bestaetigt, Kernbefund 5 an der Grundriss-Beschriftung der S. 12; das Fehlen im Destillat wurde per Volltextsuche ueber die GANZE Datei gegengeprueft (Methodik-Pflicht 7). LEHRE: die Vorrunden haben die Aufmerksamkeit auf die Matrix und den Anhang ab S. 10 gelenkt; der Verifikationsabschnitt «Runde 2» behauptete «alle Fliesstext-Ziffern 1-9 Wort fuer Wort geprueft und stimmen» — diese Behauptung ist durch die Kernbefunde 1-4 widerlegt und ist damit selbst ein Fall des Musters «eine ausdruecklich als geprueft gefuehrte Stelle war der Fehler». Naechste faellige Methode: gezielte Runde NUR auf Ziff. 4.2.2.3/4.2.2.4 und den Fliesstext-Anhang S. 8/9.
+  Vorherige Runde (Run 41, 01.08.2026: ZWEITE unabhaengige Refuter-Runde, VERDIKT BEANSTANDET
   mit 6 Kernbefunden und 15 Nebenbefunden — Status bleibt bewusst speculative.
   ERTRAG POSITIV: alle 27 Wertzellen beider Matrizes wurden zellenweise nachgemessen (Median-RGB
   je Teilzelle gegen die je Matrix EINZELN gemessene Legende) und stimmen mit der Run-40-Neufassung
@@ -27,7 +28,7 @@ status: "speculative (Run 41, 01.08.2026: ZWEITE unabhaengige Refuter-Runde, VER
   Zweite unabhaengige Refuter-Runde Run 45 (06.08.2026): Matrizen 6.1/6.2 BESTANDEN und damit
   zweifach unabhaengig zellengenau bestaetigt; 2 Kernbefunde ausserhalb der Matrizen
   (Anhang-Legende S. 10, Verallgemeinerung der Farbwarnung) eingearbeitet."
-last_updated: 2026-08-06
+last_updated: 2026-08-07
 links: [[REGISTER]]
 ---
 # GVZ-Merkblatt 30.17.3 — Rauch- und Wärmeabzugsanlagen (RWA) in Parkhäusern und Einstellräumen
@@ -107,7 +108,10 @@ Bestimmungen der VKF-Brandschutzrichtlinie «Rauch- und Wärmeabzugsanlagen» (A
 jederzeit betriebsbereit sein; von einem im Brandfall sicheren Standort von Hand in Betrieb
 setzbar, mit erkennbarem Betriebszustand an der Bedienungsstelle; die Wirksamkeit
 natürlicher RWA kann durch Witterung, Brandszenario und Verrauchungsgrad negativ beeinflusst
-werden; Hersteller-/Erstellervorgaben inkl. Wartung sind einzuhalten (Verantwortliche
+werden; **durch ausströmende Rauchgase darf keine Gefahr für Personen und Gebäude entstehen**
+(Ziff. 4.1 Abs. 2 Schlusssatz, S. 2 — nachgetragen Run 46; das ist die Grundlage für die Lage
+der Ausblasöffnungen gegenüber Nachbarbauten und Fenstern);
+Hersteller-/Erstellervorgaben inkl. Wartung sind einzuhalten (Verantwortliche
 bestimmen); RWA sind in die Brandschutzpläne einzutragen, mit Ablaufschema für Ansteuerung/
 Auslösung/Wirkungsweise, und mittels integraler Tests auf Funktionstüchtigkeit zu prüfen.
 
@@ -162,8 +166,9 @@ Auslösung/Wirkungsweise, und mittels integraler Tests auf Funktionstüchtigkeit
    im Einvernehmen mit der Kantonalen Feuerpolizei möglich, wenn keine hohen
    Rauchgastemperaturen zu erwarten sind, z. B. mit Sprinkleranlage; Erhöhung im Einvernehmen
    bei rechnerisch nachgewiesenen höheren Temperaturen). Nachströmöffnungen in Bodennähe,
-   Geschwindigkeit max. 5 m/s; Absaugstellen unter der Decke, auf die Nachströmöffnungen
-   abgestimmt für gerichtete Strömung. MRWA müssen manuell in Betrieb gesetzt werden können,
+   Geschwindigkeit max. 5 m/s, **im Bereich des Feuerwehrzuganges vorzusehen** (Ziff. 4.2.3.2,
+   S. 4 — nachgetragen Run 46) und auf die Lage der Absaugstellen abgestimmt; Absaugstellen
+   unter der Decke, auf die Nachströmöffnungen abgestimmt für gerichtete Strömung. MRWA müssen manuell in Betrieb gesetzt werden können,
    bei vorhandener Sprinkleranlage zusätzlich automatisch durch diese angesteuert werden. An
    unabhängige Stromquellen angeschlossen, Funktionserhalt min. 1 Std. Betriebszeit.
 
@@ -264,10 +269,21 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
   (Ziff. 4.2.2.4 Abs. 1).
 - **Volumenströme von Brandlüftern** (produkteabhängig, ohne Druckverlust auf freiem Feld
   gemessen, zu Ziff. 4.2.2.3): Standardbrandlüfter Ø 80 cm 38'000 m³/h (≈ 10.6 m³/s);
-  Ø 100 cm 50'000 m³/h (≈ 13.9 m³/s); Grosslüfter 200'000 m³/h (≈ 55.6 m³/s). Für den Einsatz
-  von Grosslüftern sind Einblasöffnungen von mindestens 2.4 m × 2.4 m erforderlich; der
-  Aufstellungsort muss so dimensioniert sein, dass der Brandlüfter 3–4 m vor der
-  Einblasöffnung entfernt aufgestellt werden kann.
+  Ø 100 cm 50'000 m³/h (≈ 13.9 m³/s); Grosslüfter 200'000 m³/h (≈ 55.6 m³/s).
+- **Aufstellungsabstand 3–4 m** vor der Einblasöffnung — gilt **allgemein für jeden**
+  Brandlüfter (Anhang zu Ziff. 4.2.2.3 Abs. 1, S. 8), nicht nur für Grosslüfter. Bemessbar
+  wird das Mass erst über die mitgelieferte Begründung: der **Luftkegel** des Brandlüfters
+  muss die ganze Fläche der Einblasöffnung abdecken können. *(Zuordnung und Begründung
+  korrigiert Run 46 — die Vorfassung koppelte den Abstand an die Grosslüfter.)*
+- Nur für **Grosslüfter**: Einblasöffnungen von mindestens **2.4 m × 2.4 m** (Anhang zu
+  Ziff. 4.2.2.3 Abs. 6, S. 9).
+- Ist direktes Einblasen nicht möglich, kann der Luftstrom über Einsatzmittel der Feuerwehr
+  (**Drucklutte**) in den Brandraum geführt werden (Anhang zu Ziff. 4.2.2.3 Abs. 3, S. 8).
+- **Relativierung der Volumenstromzahlen** (Anhang zu Ziff. 4.2.2.3 Abs. 5, S. 8/9): je höher
+  der Druckverlust, desto geringer die Verdrängungswirkung. Sie hängt ab von Raumgeometrie,
+  Türöffnungen, Länge des Korridors, Entrauchungsöffnungen und von den Witterungsverhältnissen
+  (z.B. Winddruck auf Entrauchungsöffnungen). Die oben genannten Werte sind Messwerte auf
+  freiem Feld ohne Druckverlust, keine Auslegungswerte für den Einbaufall.
 
 ## Begriffe
 
@@ -421,3 +437,37 @@ Links.
 - Der Fassungsvorbehalt zur VKF-BSR 21-15 (Divergenzband 1'201–3'600 m² gesprinklert, siehe
   Abschnitt «Geltungsbereich») wurde in Run 45 nur auf Dateiexistenz des referenzierten
   Destillats geprüft, nicht inhaltlich gegengeprüft.
+
+
+## Verifikation Run 46 (07.08.2026) — vierte Refuter-Runde, geplante Hebung gescheitert
+
+**Anlass.** Run 45 hatte dieses Destillat als erstes der Reihe **BESTANDEN** und die Matrizen
+zweifach unabhängig bestätigt; die Hebung auf `established` war für diese Runde vorgesehen.
+Sie ist **nicht erfolgt**.
+
+**Verdikt: BEANSTANDET** — 5 Kernbefunde, 8 Nebenbefunde, alle inline im Fliesstext
+eingearbeitet (Methodik-Pflicht 9), nicht bloss hier angehängt. Fundstellen und Wirkung stehen
+im Frontmatter-Feld `status`.
+
+**Was die Runde methodisch zeigt.** Der Refuter hat beide Fragerichtungen gefahren
+(Pflicht 6). Die Richtung «stimmt, was das Destillat behauptet» ergab **nichts** — die
+Matrizen halten zum dritten Mal, alle 27 Wertzellen, Legenden je Matrix einzeln gemessen
+(RGB 178/224/246 gegen 255/255/255), Zeilenhöhe 143 bzw. 144 px mit waagrechter Teilung auf
+halber Höhe, Diagonale nur in der Spalte ≤ 600 m². Sämtliche Kernbefunde stammen aus der
+anderen Richtung: **was fehlt**. Und sie liegen nicht im Anhang, sondern im Fliesstext der
+S. 2 bis 9, den der Verifikationsabschnitt «Runde 2» ausdrücklich als «Wort für Wort geprüft
+und stimmen» führte. Diese Behauptung ist damit widerlegt — es ist der vierte belegte Fall in
+dieser KB, in dem eine als geprüft geführte Stelle selbst der Fehler war.
+
+**Nachprüfung durch den Hauptprozess.** Kernbefunde 1 bis 4 wurden am eigenen
+300-dpi-Rendering der gedruckten S. 3, 4 und 9 wörtlich nachgelesen und bestätigt
+(Präfix `/tmp/gvz-hp46/`, PDF-Seite = gedruckte Seite, kein Versatz); Kernbefund 5 an der
+Grundriss-Beschriftung «als Entrauchungsöffnung anrechenbar» der S. 12. Zusätzlich wurde nach
+Methodik-Pflicht 7 per Volltextsuche über die **ganze** Datei geprüft, ob die Aussagen
+anderswo bereits stehen: «Rauchmanagement» 0 Treffer, «Stromausfall» 0, «wieder schliessbar»
+0, «geometrisch frei» 0, «nicht brennbaren Deckel» 0, «Feuerwehrzugang» 0, «Teilflächen» 0,
+«anrechenbar» nur bei Beispiel 1. Keine Scheinbefunde.
+
+**Nächste fällige Methode.** Eine gezielte Runde **nur** auf Ziff. 4.2.2.3/4.2.2.4 und den
+Fliesstext-Anhang S. 8/9 — also auf den Bereich, den alle vier bisherigen Runden zugunsten
+der Matrix vernachlässigt haben. Erst danach ist die Hebungsfrage redlich zu stellen.
