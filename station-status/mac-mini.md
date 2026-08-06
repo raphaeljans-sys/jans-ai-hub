@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.08.2026 16:52:05
+Stand: 06.08.2026 17:12:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 06.08.2026 16:52:05
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3c649c63 nas-selfcommit: 2 Datei(en) 2026-08-06 16:45
+- 57ffe30c vollgas-radar 06.08. 16:57: erstes reines Tagfenster gemessen — 0.20 Mio/h statt 1.00, Vorsprung -3.0 auf -6.8. Ursache MacBook-Tagfenster (Rollentrennung 28.07.), kein defekter Loop. Haltepunkt-Rechnung dokumentiert: 0.99 Mio/h haelt den Vorsprung, Rueckstand ist nicht rueckholbar. Projektion 85 Prozent statt 90. Delta: energie ecoBKP vollstaendig, arbeits-weiche-review geliefert. Keine Drossel, keine Ruecktaktung, keine Mail.
