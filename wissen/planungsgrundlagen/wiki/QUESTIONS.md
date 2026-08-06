@@ -1465,6 +1465,23 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (am Langnau-Benchmark nicht ausgelöst, kein Regress). → [[kartenportale-bund-geodaten]].
 
 ## F — Meta/Querschnitt
+- [ ] **F-UEBERGABE (Wissens-Chef Run 27, 2026-08-06) — die Empfänger-KB erfährt nichts von
+  ihrem eigenen Fund: das Verpuff-Muster, diesmal an der Ausgabe 2022 des VKF-BSM 2001-15.**
+  Diese KB hat den Fassungs-Widerspruch am VKF-Merkblatt 2001-15 gemeldet und in
+  `[[energie-pv-brandschutz]]` als offenen Punkt geführt («vollständiges Re-Destillat der
+  Ausgabe 2022 offen»). Der Punkt wurde in **normen Run 45 (06.08.2026, 01:48)** erledigt —
+  `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`. **Nachgemessen:** ein
+  `grep -ic planungsgrundlagen` über den Laufbericht
+  `wissen/normen/outputs/2026-08-06_normen-nacht-run45.md` liefert **0 Treffer** — der Lauf hat
+  die Übergabe an die Empfänger-KB nirgends notiert. Die Folge: `[[energie-pv-brandschutz]]`
+  zeigte an **zwei** Stellen (Kopfnotiz und Schlussabsatz) noch auf die inzwischen `superseded`
+  markierte Bestandsfassung 2015 und führte den Vorbehalt als offen, obwohl er es seit derselben
+  Nacht nicht mehr war. Nachgezogen im selben Lauf (Run 27); der **Mechanismus** bleibt offen.
+  **Die Frage an den Hub:** Wer trägt die Bringschuld, wenn eine KB einen Fund einer anderen KB
+  erledigt — der erledigende Lauf, oder ein Aufsichtslauf, der die Zeiger nachzieht? Solange das
+  ungeklärt ist, wiederholt sich das Muster bei jedem Cross-KB-Fund. Verwandt: Rule
+  `auto-verbesserungen` 260805 (Befund gehört ins Register, nicht nur in den eigenen Bericht) —
+  dieselbe Wurzel, andere Richtung: dort verpufft die Meldung nach oben, hier zur Seite.
 - [x] **F-QUELLBESTAND — 30. Erschöpfungsbestätigung (Wartungslauf 02, 2026-08-01)** Alle vier
   PL-Ordner gegen den Referenzstand von Run 92 (2026-07-28 00:35) geprüft: **0 neue oder
   geänderte Inhaltsdateien**. Zahlen exakt wie im Wartungslauf 01: `PL - 01 Kartenportale`

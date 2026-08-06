@@ -107,5 +107,9 @@ ueber der Nenntemperatur ~4 % Minderertrag → Hinterlueftung der Fassadenmodule
   Massgebend ist die **finale Broschuere (−20 %)**; die Divergenz ist dort geflaggt.
 
 **Cross-KB:** `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl` §6/§6b (GreenPV-
-Schlussstand, derzeit fuehrend fuer die Zahlen) · `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen`
-(VKF-Wortlaut Solaranlagen, fuehrend)
+Schlussstand, derzeit fuehrend fuer die Zahlen) ·
+`wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022`
+(VKF-Wortlaut Solaranlagen, Ausgabe 01.01.2022, **fuehrend** — Zeiger umgehaengt am 06.08.2026,
+Cross-KB-Lauf Run 27; Status dort `speculative`, unabhaengige Zweitverifikation offen) ·
+`wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen` (Ausgabe 2015, `superseded`,
+nur noch historischer Bestand)

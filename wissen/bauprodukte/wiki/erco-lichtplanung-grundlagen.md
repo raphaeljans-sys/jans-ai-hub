@@ -76,8 +76,13 @@ Beleuchtungskonzepten bis heute relevant sind:
 
 Bevorzugte Innenraum-Leuchtdichten laut Quelle: 50–500 cd/m². Diese Werte sind
 allgemeine physikalische Referenzgrössen aus dem ERCO-Dokument, keine
-normativen SIA-Vorgaben — für verbindliche Normwerte (z.B. SIA 380/4 oder
-Arbeitsplatz-Normen) ist `wissen/normen/` massgebend (Rule `normen-referenz`).
+normativen SIA-Vorgaben — für verbindliche Normwerte (z.B. EN 12464-1 mit den
+raumbezogenen Werten für E_m und UGR oder weitere Arbeitsplatz-Normen) ist
+`wissen/normen/` massgebend (Rule `normen-referenz`). Registerstand:
+`../../normen/wiki/REGISTER.md`; ein EN-12464-1-Destillat führt `normen` bis heute
+nicht, die Beschaffung der SN EN 12464-1:2021 ist dort offen (Beispiel korrigiert
+06.08.2026, Cross-KB-Lauf Run 27 — hier stand zuvor SIA 380/4, die weder
+Beleuchtungsstärken noch Leuchtdichten bemisst und seit 31.07.2019 archiviert ist).
 
 ## Wahrnehmungskonstanz (S. 22-25)
 
@@ -706,14 +711,30 @@ Referenzprojekte:
   Kennwert-Rahmen, um in einem Beleuchtungs-LV Betriebskosten-Annahmen zu
   begründen, ohne bereits auf ein konkretes Fabrikat festgelegt zu sein.
 - Der **UGR-Wert** (S. 82) ist ein prüfbarer, normüblicher Kennwert für eine
-  Leuchtenausschreibung (Bürolicht typischerweise UGR ≤ 19); die IP-Schutzart
+  Leuchtenausschreibung; die IP-Schutzart
   (S. 84) ist die richtige, herstellerneutrale Formulierung für Feucht-/
   Aussenraum-Positionen in einem LV, statt eine bestimmte Leuchte vorzuschreiben.
+  **Kein nutzungsbezogener Grenzwert aus dieser Quelle:** S. 82 nennt allein die
+  Spanne «in der Regel zwischen 10 und 30», den Mindestabschirmwinkel 30° für
+  Bildschirmarbeitsplätze und die durchgesetzten Standard-Abschirmwinkel 30° und
+  40° — weder eine Zahl 19 noch das Wort Büro (am Original nachgelesen 06.08.2026,
+  Cross-KB-Lauf Run 27). **UGR-Grenzwerte je Raumnutzung führt `wissen/normen/`**
+  (EN 12464-1, Rule `normen-referenz`), nicht ein Herstellerratgeber. Dort liegt
+  bis heute **kein EN-12464-1-Destillat**; die Beschaffung der SN EN 12464-1:2021
+  ist als Bring-Schuld offen (energie-seitig registriert als E-122-6). Einziger
+  Zahlenbestand im Hub ist der **datierte** AHB-Auszug vom 19.01.2007 in
+  `../../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+  §14.2 — Stand vor EN 12464-1:2011 und **keine heutige Bemessungsgrundlage**;
+  eine Bürozeile enthält seine Tabelle ohnehin nicht.
 - Die Montageabstands-Faustregeln (S. 85-87: Wandabstand = halber
   Leuchtenabstand am Boden, mindestens Raumhöhe/3 bei Wandflutern,
   Deckenabstand 0.8 m) taugen als schnelle Vorprüfung im Vorprojekt, ob ein
   vorgeschlagenes Deckenraster überhaupt plausibel ist, bevor eine
   Fachplaner-Offerte eingeholt wird.
+  **Seitenkorrektur 06.08.2026 (Cross-KB-Lauf Run 27, am Original nachgelesen):**
+  Wandabstand = halber Leuchtenabstand steht auf **S. 86**, die Drittel-Raumhöhe
+  für Wandfluter auf **S. 87** — der Deckenabstand 0,8 m steht dagegen auf
+  **S. 88** (Deckenfluter), nicht im Bereich S. 85-87.
 - Der **Museumswinkel 30°** (S. 88) für Objektbeleuchtung ist ein konkreter,
   zitierfähiger Planungswert speziell für Ausstellungs-/Galerie-Nutzungen
   (reflexblendungsfrei, maximale Plastizität) — ergänzt die bereits vermerkte
@@ -724,9 +745,13 @@ Referenzprojekte:
   Ausführungsplanungs-Koordination, sobald Einbauleuchten in tragenden
   Betondecken vorgesehen sind.
 - Der **Mindest-Deckenabstand 0,8 m für Indirektbeleuchtung** (S. 117) ist ein
-  zweiter, unabhängig belegter Fund desselben Werts wie bereits auf S. 87 notiert
+  zweiter, unabhängig belegter Fund desselben Werts wie bereits weiter oben notiert
   (dort als allgemeine Montageabstands-Faustregel) — festigt ihn als tragfähigen,
   wiederholt zitierten Planungswert für Lichtdecken-/Lichtvouten-Details.
+  **Seitenkorrektur 06.08.2026 (Cross-KB-Lauf Run 27):** der erste Fund steht auf
+  **S. 88**, nicht auf S. 87. Beide Stellen am Original nachgelesen — S. 88 «sollte
+  in der Regel 0,8 m betragen» (Deckenfluter), S. 117 «sollte mindestens 0,8 m
+  betragen» (indirekte Beleuchtung); der Wert selbst ist damit unverändert belegt.
 - Die vier Grundarten allgemeiner Beleuchtung (direkt gerichtet/direkt diffus/
   indirekt/direkt+indirekt, S. 112-119) mit ihren Referenzprojekten sind ein
   direkt nutzbares Vokabular, um einer Bauherrschaft in der Konzeptphase
@@ -734,7 +759,17 @@ Referenzprojekte:
   passt, bevor eine Fachplaner-Offerte eingeholt wird — insbesondere der
   Zielkonflikt «indirekt = offener Raumeindruck, aber deutlich höherer
   Energiebedarf» ist ein Argument, das JANS gegenüber Energieeffizienz-Vorgaben
-  (SIA 380/4) selbst führen kann, ohne den Fachplaner dafür zu brauchen.
+  selbst führen kann, ohne den Fachplaner dafür zu brauchen. Massgebend ist dabei
+  heute **SIA 387/4 (Beleuchtung)**, im Vorprojekt vereinfacht über **SIA 2056:2019
+  (SNR 592056)**, im Kanton Zürich vollzogen über EVEN mit **Formular EN-111**.
+  **SIA 380/4:2006 ist seit 31.07.2019 archiviert** und nicht mehr zu zitieren
+  (belegt in
+  `../../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+  §14.2); der Beleuchtungsteil wurde aus SIA 380/4 nach SIA 387/4 ausgelagert, der
+  Rest ging in SIA 2056 über (`../../normen/destillate/sia-592-056.md`, Vorwort,
+  Status `established`). Ein eigenes SIA-387/4-Destillat führt `normen` bis heute
+  nicht — Registerstand `../../normen/wiki/REGISTER.md`. (Norm nachgeführt
+  06.08.2026, Cross-KB-Lauf Run 27.)
 - Die Visualisierungs-Palette (Skizze/Storyboard/Moodboard/Technische Zeichnung/
   Diagramm/Simulation/Modell/Mock-up, S. 99-109) liefert ein abgestuftes
   Vokabular, um gegenüber der Bauherrschaft den passenden (und passend

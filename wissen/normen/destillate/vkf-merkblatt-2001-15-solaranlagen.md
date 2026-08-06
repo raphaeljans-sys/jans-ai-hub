@@ -7,7 +7,7 @@ datenstand: "2015"
 status: superseded (Bestandsfassung 06.03.2015; geltende Fassung 01.01.2022, Delta-Block unten)
 fassung: "historisch — überholt seit 01.01.2017 (RF3(cr)-Pflicht) und 01.01.2022 (Vollrevision)"
 last_updated: 2026-08-05
-links: [[REGISTER]], [[vkf-brm-2001-15-solaranlagen]]
+links: [[REGISTER]], [[vkf-brm-2001-15-solaranlagen]], [[vkf-merkblatt-2001-15-solaranlagen-2022]]
 ---
 
 # VKF-Brandschutzmerkblatt 2001-15de — Solaranlagen
@@ -20,6 +20,13 @@ links: [[REGISTER]], [[vkf-brm-2001-15-solaranlagen]]
 > Ausschreibung und keine PV-Beratung mehr einfliessen. Die geltenden Werte stehen im
 > Delta-Block unten. Duplikat-Partner: `[[vkf-brm-2001-15-solaranlagen]]` (Merge weiterhin
 > offen, destruktiv, braucht Rücksprache Raphael).
+>
+> **Geltende Fassung als eigenes Destillat (Nachtrag 06.08.2026, Cross-KB-Lauf Run 27):**
+> `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Ausgabe 01.01.2022, vollständig
+> gelesen S. 1-15, angelegt in Run 45 vom 06.08.2026). **Status dort `speculative` — die
+> Hebung auf `established` steht aus, eine unabhängige Zweitverifikation ist noch nicht
+> gefahren.** Für jede Projektaussage ist dort nachzuschlagen, nicht im Delta-Block dieser
+> Datei; der Delta-Block bleibt nur die Änderungsübersicht 2015 → 2017/2022.
 
 ## Delta 2015 → geltende Fassungen 2017 / 2022 (am VKF-Original verifiziert, 05.08.2026)
 
@@ -44,8 +51,21 @@ gelesen: Ausgabe **01.01.2022** (`BSPUB-1394520214-197.pdf`, 15 S., MD5
   («In Rohr RF2 (cr)» / «In Rohr RF1» statt BKZ 6.3/5.2, neue Spalte horizontale Fluchtwege,
   200 MJ/Laufmeter, Verweis BRL 13-15); Kap. 3.3 neu «Naturgefahren» mit SIA 261/261-1;
   neuer Anhang S. 13 (Entscheidbaum, sechs Ausführungsvarianten); neue Ziff. 5 «Gültigkeit».
+  - **Präzisierung 06.08.2026 (Cross-KB-Lauf Run 27, LV-Wirkung):** Die Kurzform «neue Spalte
+    horizontale Fluchtwege, 200 MJ/Laufmeter» führt in die Irre. Nach Tab. 1 Fussnote [2],
+    S. 8 der Ausgabe 2022 sind Kabel mit kritischem Verhalten (cr) in horizontalen
+    Fluchtwegen **unabhängig von jeder Brandlast verboten**; die Brandlastgrenze von 200 MJ
+    pro Laufmeter Fluchtweg gilt für die dort überhaupt zulässigen (nicht-cr-)Kabel, nicht
+    für cr-Kabel selbst. cr ist damit nicht generell verboten, sondern nur in horizontalen
+    Fluchtwegen: auf/in brennbaren Gebäudeteilen ist RF2 (cr) ausdrücklich vorgesehen. Ein
+    cr-Kabel darf im horizontalen Fluchtweg nie spezifiziert werden, auch nicht unterhalb
+    von 200 MJ/Laufmeter. Beleg und Wortlaut in
+    `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Status `speculative`).
 - **Offen (Bring-Schuld):** vollständiges Destillat der Ausgabe 2022 — Auftrag und Bezugsweg
   in `wissen/normen/wiki/QUESTIONS.md`.
+  - **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** Bring-Schuld eingelöst, das Volldestillat
+    der Ausgabe 2022 liegt vor unter
+    `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Status `speculative`).
 
 ## Das Wichtigste in 3 Sätzen
 Das Merkblatt bündelt die bei Photovoltaik- und Solarwärmeanlagen zu beachtenden Schutzziele in vier Gefahrenbereichen: elektrische Gefahren, Brandgefahren, Elementargefahren (Wind/Schnee/Hagel) und Feuerwehreinsätze (Ziff. 3-4). Es ist kein eigenständiges Vorschriftenwerk, sondern verweist auf geltende Normen (NIN SN 411000, Brandschutznorm Art. 8) und weitere Brandschutzrichtlinien/-erläuterungen (BRL 22-15de Blitzschutzsysteme, BRL 14-15 Verwendung von Baustoffen, BSE 100-15 Brandmauern) und macht daraus konkrete, unverbindlich formulierte Lösungsansätze (Ziff. 1.2 Abs. 2: "nicht abschliessend"). Zentral sind die Abtrennung feuergefährdeter Bereiche, der Schutz der DC-Leitungsführung, der Erhalt der Wirkung von Brandmauern/RWA-Anlagen und die Kennzeichnungspflicht für die Feuerwehr.
@@ -112,3 +132,7 @@ Anhang Ziff. 5 (S. 11): Prinzipskizze der PV-Anlagenkette von Solargenerator üb
     Schwelle «> 1200 m²» und Wegfall des normativen RWA-2-m-Werts. Siehe Delta-Block am Kopf.
     Das vollständige Re-Destillat der Ausgabe 2022 bleibt als eigener Lesevorgang offen
     (`wissen/normen/wiki/QUESTIONS.md`).
+  - **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** Bring-Schuld eingelöst, das Volldestillat
+    der Ausgabe 2022 liegt vor unter
+    `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Status `speculative`, alle 15
+    Seiten gelesen, Run 45 vom 06.08.2026). Für Projektaussagen dort nachschlagen.

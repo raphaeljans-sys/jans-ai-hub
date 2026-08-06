@@ -21,7 +21,21 @@ Quelle der Wahrheit für den Skill `grobkosten-onepager` und den Agenten `grobko
 > **Abgrenzung, die nicht verwischt werden darf:** Für **Healthcare** ist diese KB ausdrücklich
 > **nicht** führend — dort gilt `wissen/immobilienbewertung/wiki/realwert-sachwert.md`
 > (826–1'420 CHF/m³ GV, Median ~1'100; das oft zitierte Teilband 1'053–1'420 betrifft nur die sechs
-> Neubauten ab 2019). Für **CHF/m² HNF** führt ebenfalls `immobilienbewertung` (Wüest-Ausbaustandard-
+> Neubauten ab 2019).
+>
+> **Zwei Qualifizierungen, die beim Zitieren zwingend mitgehen** (nachgetragen Cross-KB-Lauf Run 27,
+> 06.08.2026 — der Healthcare-Abschnitt weiter unten auf dieser Seite führte sie bereits, der
+> Kopfblock nicht; damit widersprach sich die Seite an der Stelle, an der zitiert wird):
+> 1. **Scope.** Die dortigen Bänder sind auf **BKP 2 (Gebäude)** bezogen und **nicht direkt mit den
+>    BKP-1–5-Werten dieser Seite vergleichbar** (die BKP-1–5-Deklaration steht unmittelbar darunter).
+> 2. **Oberer Endpunkt.** Der Wert **1'420** (Averecura) ist quellenintern **nicht reproduzierbar**
+>    (recompute 1'285), ebenso die Vella-Zeile (1'021 statt 845); die übrigen sechs Zeilen
+>    reproduzieren exakt. Der **reproduzierbare Rohband** liegt bei **826–1'285 CHF/m³ GV** — als
+>    reproduzierbarer ROHBAND zu lesen, **nicht** als neuer geltender Band. Der Entscheid hängt an
+>    der Bereinigung des JANS-Original-Blatts und liegt bei Raphael (Verifikationsnotiz Run 18 im
+>    führenden Artikel, `wissen/immobilienbewertung/wiki/wissensluecken.md` D10).
+>
+> Für **CHF/m² HNF** führt ebenfalls `immobilienbewertung` (Wüest-Ausbaustandard-
 > Tabelle), für den **Wüest-Benchmark** (Median/Quantile) `skills/kostenschaetzung/referenzen/`.
 Bezug: **Gebäudevolumen GV nach SIA 416** (inkl. Untergeschoss), **BKP 1–5** (Gebäude, Umgebung,
 Baunebenkosten inkl. Planerhonorare), **exkl. Land (BKP 0) und Reserven/Finanzierung (BKP 6–9)**.
@@ -453,6 +467,17 @@ Belegen (KB-Regel). Offene Frage dazu in `wiki/QUESTIONS.md`.
 > m³-Preis des Gebäudes, dann das Werkzeug zur Hochrechnung». Details und Einordnung als
 > Plausibilitätsargument statt Beleg: `wiki/QUESTIONS.md`, Eintrag 06.08.2026. Frage 1 bleibt
 > formal offen.
+>
+> **Rückmeldung des Abnehmers (Cross-KB-Lauf Run 27, 06.08.2026).** Dieselbe Fremdtabelle wird in
+> `wissen/immobilienbewertung/wiki/realwert-sachwert.md` geführt und trug dort bisher **keinen**
+> Scope-Vorbehalt; er ist jetzt unmittelbar unter der Tabellen-Überschrift gesetzt, und die Frage
+> ist auf der Abnehmerseite als eigene Lücke **D13** registriert (jene KB hat keine `QUESTIONS.md`,
+> ihr Register ist `wiki/wissensluecken.md`). Am Bestand nachgeprüft: die Werte werden dort
+> **nicht als führender Gebäude-Neuwert** verwendet, sondern ausdrücklich zur
+> **Sachwert-Plausibilisierung** und zur Einordnung der Bauqualität (Bauklasse I–VI); führender
+> Neuwert-Pfad sind dort die **CHF/m²-HNF-Benchmarks**. Zusatzbefund von dort, der auch diese
+> Frage berührt: die Realwert-Formel jenes Artikels addiert Aussenanlagen und Baunebenkosten
+> bereits separat — unter der Lesart BKP 1–9 drohte dort Doppelzählung.
 
 **Als Cross-Check trotzdem aufschlussreich:** MFH Bauklasse IV/V (667–734 CHF/m³, 2025) liegt
 unterhalb des in dieser KB geführten MFH-gehoben-Seed-Bands (850–1'050 CHF/m³) — konsistent mit

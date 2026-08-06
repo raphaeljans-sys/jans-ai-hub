@@ -8,7 +8,7 @@ datenstand: "2015-03-06"
 status: superseded (Bestandsfassung 06.03.2015, gegen diese korrekt verifiziert; geltende Fassung 01.01.2022, Delta-Block unten)
 fassung: "historisch — überholt seit 01.01.2017 (RF3(cr)-Pflicht) und 01.01.2022 (Vollrevision); gilt weiter für Altprojekte mit vereinbarter Fassung 2015"
 last_updated: 2026-08-05
-links: [[vkf-brandschutznorm-2015]], [[vkf-brl-verwendung-baustoffe]], [[REGISTER]]
+links: [[vkf-brandschutznorm-2015]], [[vkf-brl-verwendung-baustoffe]], [[REGISTER]], [[vkf-merkblatt-2001-15-solaranlagen-2022]]
 ---
 
 # VKF-Brandschutzmerkblatt 2001-15de — Solaranlagen
@@ -24,6 +24,13 @@ links: [[vkf-brandschutznorm-2015]], [[vkf-brl-verwendung-baustoffe]], [[REGISTE
 > `PL - 03 Brandschutz/02 Brandschutzrichtlinien 2015-17-22/`) byte-identisch nur die Fassung
 > 2015. Duplikat-Partner: `[[vkf-merkblatt-2001-15-solaranlagen]]` (Merge weiterhin offen,
 > destruktiv, braucht Rücksprache Raphael).
+>
+> **Geltende Fassung als eigenes Destillat (Nachtrag 06.08.2026, Cross-KB-Lauf Run 27):**
+> `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Ausgabe 01.01.2022, vollständig
+> gelesen S. 1-15, angelegt in Run 45 vom 06.08.2026). **Status dort `speculative` — die
+> Hebung auf `established` steht aus, eine unabhängige Zweitverifikation ist noch nicht
+> gefahren.** Für jede Projektaussage ist dort nachzuschlagen, nicht im Delta-Block dieser
+> Datei; der Delta-Block bleibt nur die Änderungsübersicht 2015 → 2017/2022.
 
 ## Delta 2015 → geltende Fassungen 2017 / 2022 (am VKF-Original verifiziert, 05.08.2026)
 
@@ -52,7 +59,15 @@ gelesen: Ausgabe **01.01.2022** (`BSPUB-1394520214-197.pdf`, 15 S., MD5
 - **Weitere Deltas der Ausgabe 2022 (Vollrevision, 15 statt 11 Seiten), noch nicht destilliert:**
   Tabelle 1 (DC-Verlegung) neu gefasst mit «In Rohr RF2 (cr)» / «In Rohr RF1» statt der
   BKZ-Angaben 6.3/5.2, neue Spalte «in horizontalen Fluchtwegen» mit Brandlastgrenze
-  200 MJ/Laufmeter und Verweis auf BRL 13-15; Kap. 3.3 neu «Naturgefahren» mit SIA 261/261-1
+  200 MJ/Laufmeter und Verweis auf BRL 13-15 (⚠ **Präzisierung 06.08.2026, Cross-KB-Lauf
+  Run 27, LV-Wirkung:** diese Kurzform führt in die Irre. Nach Tab. 1 Fussnote [2], S. 8 der
+  Ausgabe 2022 sind Kabel mit kritischem Verhalten (cr) in horizontalen Fluchtwegen
+  **unabhängig von jeder Brandlast verboten**; die 200 MJ pro Laufmeter Fluchtweg gelten für
+  die dort überhaupt zulässigen (nicht-cr-)Kabel, nicht für cr-Kabel selbst. cr ist nicht
+  generell verboten, sondern nur in horizontalen Fluchtwegen: auf/in brennbaren Gebäudeteilen
+  ist RF2 (cr) ausdrücklich vorgesehen. Beleg in
+  `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`, Status `speculative`); Kap. 3.3
+  neu «Naturgefahren» mit SIA 261/261-1
   statt VKF-Wegleitung und VKF-Hagelbeschluss (Nachweise über hagelregister.ch und
   schutz-vor-naturgefahren.ch); neue Begriffe Ziff. 2.2/2.3/2.8/2.9; neuer Anhang S. 13 mit
   Entscheidbaum und sechs Ausführungsvarianten; neue Ziff. 5 «Gültigkeit» (S. 11): gilt ab
@@ -60,6 +75,12 @@ gelesen: Ausgabe **01.01.2022** (`BSPUB-1394520214-197.pdf`, 15 S., MD5
 - **Offen (Bring-Schuld, eigener Lesevorgang):** Ein vollständiges Destillat der Ausgabe 2022
   fehlt weiterhin — Auftrag und Bezugsweg stehen in `wissen/normen/wiki/QUESTIONS.md`. Bis
   dahin ist dieser Delta-Block die einzige belegte Brücke zur geltenden Fassung.
+  - **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** Bring-Schuld eingelöst, das Volldestillat
+    der Ausgabe 2022 liegt vor unter
+    `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Status `speculative`, alle 15
+    Seiten gelesen, Run 45 vom 06.08.2026). Damit ist dieser Delta-Block **nicht mehr** die
+    einzige Brücke zur geltenden Fassung; für Projektaussagen ist das Volldestillat massgebend,
+    der Delta-Block bleibt Änderungsübersicht.
 
 ## Fassungs-Klaerung 25.07.2026
 Anlass: `planungsgrundlagen` meldete einen Fassungs-Widerspruch — dort sei eine Revision per 01.01.2022 belegt, mit einem inhaltlichen Delta bei Unterdachbahnen (RF3(cr) statt RF4(cr)). Prüfung gegen den physischen Bestand:
@@ -127,7 +148,7 @@ Ziff. 1.1 (S. 4): Gilt für Photovoltaik- und Solarthermische Anlagen an Gebäud
 Skizze mit nummerierten Anlagenkomponenten einer typischen PV-Installation (Solargenerator, optionaler PV-Array-Anschlusskasten, DC-Leitung, DC-Trennstelle, Wechselrichter, AC-Trennstelle, NS-Verteilung, Netzzuleitung/Anschlusssicherung, Hausinstallation, Kennzeichnung gemäss NIN SN41 1000) — dient als Referenzschema für die Anordnung von Trennstellen und Kennzeichnungen gemäss Ziff. 3.1 (S. 11). Zeichnung ist gemäss Vermerk im Original unter Quellenangabe zur Vervielfältigung freigegeben (S. 11) — dennoch im Destillat nicht reproduziert, nur referenziert.
 
 ## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
-- **Tabelle 1 (S. 7)**: DC-Leitungsanforderungen je Montageort/Bereich — siehe Ziff. 3.1.3 oben (Rohrklassen RF1/RF2, BKZ 6.3/5.2, Zulässigkeit je Bereich). ⚠ Wert 2015; die Ausgabe 2022 fasst Tabelle 1 neu («In Rohr RF2 (cr)» / «In Rohr RF1» statt BKZ 6.3/5.2, neue Spalte horizontale Fluchtwege mit 200 MJ/Laufmeter)
+- **Tabelle 1 (S. 7)**: DC-Leitungsanforderungen je Montageort/Bereich — siehe Ziff. 3.1.3 oben (Rohrklassen RF1/RF2, BKZ 6.3/5.2, Zulässigkeit je Bereich). ⚠ Wert 2015; die Ausgabe 2022 fasst Tabelle 1 neu («In Rohr RF2 (cr)» / «In Rohr RF1» statt BKZ 6.3/5.2, neue Spalte horizontale Fluchtwege mit 200 MJ/Laufmeter). ⚠ **Präzisierung 06.08.2026 (Cross-KB-Lauf Run 27, LV-Wirkung):** Kabel mit kritischem Verhalten (cr) sind in horizontalen Fluchtwegen nach der Ausgabe 2022 **unabhängig von jeder Brandlast verboten** (Tab. 1 Fussnote [2], S. 8); die 200 MJ pro Laufmeter Fluchtweg gelten für die dort überhaupt zulässigen (nicht-cr-)Kabel, nicht für cr-Kabel selbst. cr ist nicht generell verboten — auf/in brennbaren Gebäudeteilen ist RF2 (cr) ausdrücklich vorgesehen. Beleg in `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Status `speculative`)
 - **Unterdachbahnen**: RF4(cr) zulässig (Ziff. 3.2.3, S. 8) — ⚠ Wert 2015; **geltend seit 01.01.2017: mindestens RF3 (cr) (Pflicht)**. In LV und Ausschreibung ausschliesslich RF3(cr) verwenden
 - **Flächenschwelle Unterdach-Pflicht**: 1200 m² gebäudeintegrierte Solaranlage (Ziff. 3.2.3) — ⚠ Wert 2015 «≥ 1200 m²»; geltend 2022 «> 1200 m²»
 - **Mindestabstand RWA-Öffnungen**: in der Regel 2 m (Ziff. 3.2.3) — ⚠ Wert 2015; in der Ausgabe 2022 **kein Lösungsansatz-Wert mehr**, nur noch «genügend grosser Abstand»; 2.0 m stehen im Anhang S. 14 als massnahmenfreie Schwelle, darunter Lichtraumprofil
@@ -155,6 +176,7 @@ Skizze mit nummerierten Anlagenkomponenten einer typischen PV-Installation (Sola
 ## Offene Punkte
 - Ausgabejahr/-nummer der referenzierten Vorgänger-Version nicht eruierbar — im PDF selbst kein Hinweis auf eine Vorgänger-Ausgabe oder «ersetzt durch»-Vermerk; Registrar prüft Norm-Inventar/Register auf aktuellere Fassung — **Nachfolge-Ausgaben geklärt (05.08.2026): 01.01.2017 und 01.01.2022, siehe Delta-Block und Nachtrag oben**
 - **Offen:** Vollständiges Destillat der Ausgabe 01.01.2022 (eigener Lesevorgang am Original, 15 S.) — Auftrag und Bezugsweg in `wissen/normen/wiki/QUESTIONS.md`
+  - **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** Bring-Schuld eingelöst, das Volldestillat der Ausgabe 2022 liegt vor unter `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (Status `speculative`, alle 15 Seiten gelesen, Run 45 vom 06.08.2026)
 - Die grau hinterlegten Passagen im Original (= wörtliche Zitate aus Brandschutznorm/-richtlinien, S. 2) wurden hier bewusst NICHT als Wortlaut übernommen, sondern in eigenen Worten sinngemäss wiedergegeben (Urheberrecht)
 - Anhang-Skizze (Ziff. 5, S. 11) nur beschrieben, nicht als Bild reproduziert
 - Verweis auf BRL 14-15 Ziff. 3.1.1 Abs. 2 (Anforderungen Aussenwände) im Detail nicht nachgeprüft — bei Bedarf im dortigen Destillat verifizieren

@@ -1,5 +1,35 @@
 # Offene Fragen — KB Normen
 
+## Cross-KB-Lauf Run 27 (06.08.2026) — zwei neue Bring-Schulden
+
+- **N27-1 — VKF-Publikationsindex für 22-15de abfragen (Fassungsstand Blitzschutz).**
+  Das Destillat `destillate/vkf-brl-22-15-blitzschutzsysteme.md` behauptete im Frontmatter,
+  die Ausgabe 01.01.2017 sei «aktuell … am VKF-Endpunkt verifiziert». Belegt ist aber nur der
+  **Live-Abruf des 2017er-PDF** am 05.08.2026 und der vollständige Diff gegen 2015 — **nicht**
+  die Aussage, dass danach keine neuere Ausgabe erschienen ist. Ein Abgleich des
+  Publikationsindex hat nie stattgefunden. Dieselbe Evidenzlage besteht in `energie` seit dem
+  25.07.2026 über dieselbe URL. **Auftrag:** den VKF-Publikationsindex für die Dok.-Nr.
+  `22-15de` abfragen, das Ergebnis (jüngste ausgewiesene Ausgabe) **mit Abrufdatum und
+  Fingerabdruck belegen** und Frontmatter, Kopfwarnung sowie die neue Registerzeile in
+  `wiki/REGISTER.md` Abschnitt D entsprechend nachziehen. Bis dahin gilt: die Ausgabe 2017
+  existiert und geht der 2015er vor, mehr ist nicht belegt. Frontmatter am 06.08.2026 auf das
+  Gemessene zurückgenommen (Cross-KB-Lauf Run 27).
+
+- **N27-2 — SIA 380/4: Archivierungsvermerk fehlt in dieser KB, Herausgeber-Beleg noch nicht
+  erbracht.** Die KB `bauprodukte` verweist auf **SIA 380/4** als massgebende Norm; die KB
+  `planungsgrundlagen` führt seit dem 03.08.2026 belegt, dass **SIA 380/4:2006 seit dem
+  31.07.2019 archiviert** ist. In `normen` fehlt ein Archivierungsvermerk zu SIA 380/4
+  vollständig, obwohl diese KB nach `wiki/QUERBEZUEGE.md` (Zeile 46) für Gültigkeits- und
+  Fassungsstand führt. **Bewusst NICHT gesetzt** im Cross-KB-Lauf Run 27: es liegt kein
+  eigener Herausgeber-Beleg vor. **Auftrag:** die Produktseite auf `shop.sia.ch` zu SIA 380/4
+  abrufen (Muster: die Belegführung zu SIA 493 in `wiki/REGISTER.md`, Abschnitt «Run-5» —
+  Felder «Gültig ab», «Gültig bis / archivierter Titel», Rubrik «Nachfolger»), mit Abrufdatum
+  festhalten und erst dann eine Gültigkeitsaussage ins Register setzen. Achtung Nachfolgefrage:
+  `SIA 2056 (SNR 592056):2019` ist im Register bereits als «ersetzt SIA 380/4:2006» geführt —
+  ob der Herausgeber das als förmliche Nachfolge ausweist, ist Teil des Auftrags.
+  **Unberührt bleibt** der Stichtags-Block «A) SIA — Gültigkeit je Norm, Stand 25.02.2013»:
+  per Stichtag 2013 war «SIA 380/4:2006 gültig» richtig.
+
 ## Run 45 (06.08.2026) — vier Rückstände geschlossen, drei Statusfragen am Herausgeber belegt
 
 ### GESCHLOSSEN

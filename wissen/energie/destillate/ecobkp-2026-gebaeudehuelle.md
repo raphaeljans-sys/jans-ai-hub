@@ -221,6 +221,11 @@ Eigene Einordnung, nicht Teil der Quelle:
   (in ecoBKP 225 nicht enthalten) sowie ecoBKP 271/281, die `bauprodukte` ebenfalls braucht.
   Zum Artikel `bauprodukte/wiki/pu-beschichtung-fassade` (dort unter BKP 225 geführt) ist der
   sachliche Gegenpart 2026 **ecoBKP 227 Äussere Oberflächenbehandlungen**, nicht ecoBKP 225.
+  - **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** Der oben gemeldete Bedarf **ecoBKP 271/281**
+    ist seit dem 06.08.2026 gedeckt — beide Merkblätter sind in
+    `[[ecobkp-2026-ausbau]]` destilliert (ecoBKP 271 Gipserarbeiten S. 87-89, ecoBKP 281
+    Bodenbeläge S. 100-107; Status dort `emerging`, Teillesung). Der oben stehende Befund zu
+    **BKP 225.4 Brandschutzbekleidungen** bleibt davon unberührt und gilt unverändert.
 
 [[ecobkp-2026-methodik-und-uebersicht]]
 [[eco-bau-merkblaetter-bkp-2008-huelle]]

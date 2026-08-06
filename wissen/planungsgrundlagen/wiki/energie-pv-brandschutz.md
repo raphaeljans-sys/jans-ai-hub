@@ -1,18 +1,26 @@
 ---
 title: PV/Solar — Brandschutz & Naturgefahren (Schnittstelle Architekt/Bauleitung)
 status: established
-last_updated: 2026-08-05
-sources: [PL - 04 Energie/Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf (Swissolar Stand-der-Technik-Papier V4.00, 12/2022, red. 11/2023), VKF-Brandschutzmerkblatt 2001-15 «Solaranlagen» (Rev. 01.01.2022, Delta-Bestätigung Run 37 2026-07-14 direkt aus STP S. 3), VKF-Brandschutzvorschriften BSV 2015, NIN SN 411000 Kap. 7.12 (NIN 2020), SIA 261/261-1:2020]
+last_updated: 2026-08-06
+sources: [wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md (VKF-BSM 2001-15de Ausgabe 01.01.2022, Volldestillat normen Run 45, status speculative), PL - 04 Energie/Solaranlage/_Brandschutz/stp_solaranlagen_swissolar_v_4.0.pdf (Swissolar Stand-der-Technik-Papier V4.00, 12/2022, red. 11/2023), VKF-Brandschutzmerkblatt 2001-15 «Solaranlagen» (Rev. 01.01.2022, Delta-Bestätigung Run 37 2026-07-14 direkt aus STP S. 3), VKF-Brandschutzvorschriften BSV 2015, NIN SN 411000 Kap. 7.12 (NIN 2020), SIA 261/261-1:2020]
 links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]]
 ---
 
 # PV/Solar — Brandschutz & Naturgefahren (Schnittstelle Architekt/Bauleitung)
 
 > **Querbezug KB normen (VKF-Wortlaut):** Der amtliche VKF-Quelltext zu Solaranlagen —
-> **VKF-Brandschutzmerkblatt 2001-15** (Brandmauer-Übergang, RWA-Abstand 2 m, 1200-m²-RF1-Grenze,
-> Kennzeichnung) — liegt als führendes Destillat in
-> `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen`. Dieser Artikel behält die
-> **Solar-Schnittstellen-/Praxisableitung** (Swissolar-STP V4.00, Merkposten).
+> **VKF-Brandschutzmerkblatt 2001-15** (Brandmauer-Übergang, RWA-Abstand [2.0 m nur noch als
+> massnahmenfreie Anhangs-Schwelle, sonst Lichtraumprofil], RF1-Grenze **> 1200 m²**,
+> Kennzeichnung) — liegt für die **geltende Ausgabe 01.01.2022** in
+> `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022` (angelegt 06.08.2026,
+> normen Run 45). **Statusvorbehalt:** dieses Destillat trägt selbst `status: speculative` —
+> Erstdestillat und Refuter-Runde liefen beide im selben Lauf, die unabhängige
+> Zweitverifikation steht aus. Vor einer verbindlichen Aussage gegenüber Behörde oder
+> Bauherrschaft am Original-PDF gegenprüfen. Die Bestandsfassung
+> `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen` (Ausgabe 06.03.2015) bleibt
+> als **historische Fassung für Altprojekte** erhalten und ist dort `superseded` markiert.
+> Dieser Artikel behält die **Solar-Schnittstellen-/Praxisableitung** (Swissolar-STP V4.00,
+> Merkposten).
 >
 > ✅ **Ausgaben-Stand geklärt (05.08.2026):** Der hier gemeldete Fassungs-Widerspruch ist
 > entschieden, und zwar zugunsten dieses Artikels. Der Delta ist **am VKF-Original selbst
@@ -23,9 +31,14 @@ links: [[energie-pv-eignung-typenwahl]], [[energie-uebersicht]]
 > Hausbestand war also neun Jahre alt, nicht vier. Die Destillate
 > `wissen/normen/destillate/vkf-brm-2001-15-solaranlagen` und
 > `…/vkf-merkblatt-2001-15-solaranlagen` sind als historische Bestandsfassung 2015 markiert und
-> tragen einen Delta-Block mit den geltenden Werten. Offen bleibt allein das vollständige
-> Re-Destillat der Ausgabe 2022 (eigener Lesevorgang, Auftrag in
-> `wissen/normen/wiki/QUESTIONS.md`, Abschnitt 2026-08-05).
+> tragen einen Delta-Block mit den geltenden Werten.
+>
+> **Nachtrag 06.08.2026 (Wissens-Chef Run 27):** Das vollständige Re-Destillat der Ausgabe 2022
+> ist **erledigt** — angelegt in normen Run 45 (06.08.2026, 01:48) als
+> `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022`. Offen bleiben nur noch
+> drei Punkte: die **Zwischenausgabe 01.01.2017** hat kein eigenes Destillat, die **unabhängige
+> Zweitverifikation** des 2022er-Destillats steht aus (dort `status: speculative`), und der
+> **SharePoint-Bestand ist unverändert die Fassung 2015**.
 
 Beantwortet **E6/C1** (curriculum/QUESTIONS): die brandschutz- und naturgefahren-relevanten
 **Planungs-Schnittstellen** einer Solaranlage zum Gebäude — nicht die Bauteil-Klassifizierung
@@ -181,8 +194,16 @@ Präzisierung: Der **RF3(cr)-Wert kam mit der Ausgabe 01.01.2017**; die Ausgabe 
 demgegenüber Tabelle 1 (DC-Verlegung, neu «In Rohr RF2 (cr)»/«In Rohr RF1» statt BKZ 6.3/5.2),
 die RWA-Regel (2.0 m nur noch als Anhangs-Schwelle S. 14, bei Unterschreitung Lichtraumprofil),
 die Flächenschwelle auf «> 1200 m²» und Kap. 3.3 (neu «Naturgefahren», SIA 261/261-1 statt
-VKF-Wegleitung und Hagelbeschluss). Beide normen-Destillate tragen jetzt einen Delta-Block; das
-vollständige Re-Destillat der Ausgabe 2022 bleibt als eigener Lesevorgang offen
-(`wissen/normen/wiki/QUESTIONS.md`, Abschnitt 2026-08-05). Der Bestand im SharePoint ist
-unverändert die Fassung 2015 — solange das so bleibt, reproduziert jeder Lauf, der brav
-«Primärquelle SharePoint» liest, denselben Fehler.
+VKF-Wegleitung und Hagelbeschluss). Beide normen-Destillate tragen jetzt einen Delta-Block.
+Der Bestand im SharePoint ist unverändert die Fassung 2015 — solange das so bleibt,
+reproduziert jeder Lauf, der brav «Primärquelle SharePoint» liest, denselben Fehler.
+
+**Nachtrag 06.08.2026 (Wissens-Chef Run 27) — Vorbehalt erledigt:** Das an dieser Stelle noch
+als offen geführte vollständige Re-Destillat der Ausgabe 2022 ist in **normen Run 45
+(06.08.2026, 01:48)** erstellt worden:
+`wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (15 S. vollständig
+gelesen, MD5 `a17958fdf95c720434ffa90117964b23`). Offen bleiben davon nur noch drei Punkte:
+(1) die **Zwischenausgabe 01.01.2017** hat kein eigenes Destillat, (2) die **unabhängige
+Zweitverifikation** des 2022er-Destillats steht aus — es trägt `status: speculative`, weil
+Erstdestillat und Refuter-Runde beide in Run 45 liefen, (3) der **SharePoint-Bestand bleibt
+die Fassung 2015**.

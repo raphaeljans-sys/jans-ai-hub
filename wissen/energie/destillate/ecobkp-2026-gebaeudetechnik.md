@@ -245,6 +245,38 @@ verifiziert — offener Punkt.
   von hoechstens 25 °C erreicht wird. Trinkwasserverteilsystem so planen/ausfuehren/betreiben,
   dass Teile mit stagnierendem Wasser (**> 3 Tage**) vermieden werden. Quelle: SIA-Norm 385/1,
   BAG Legionellen.
+
+  > **Einordnung (ergaenzt 06.08.2026, Cross-KB-Lauf Run 27) — vor jeder Verwendung lesen.**
+  > Das Merkblatt nennt die Norm undatiert («SIA-Norm 385/1»). Gemeint sein kann nur die geltende
+  > Ausgabe **SIA 385/1:2020** (in Kraft seit 01.11.2020). Die oben zitierten Werte sind deren
+  > **Auslegungsvorgaben**: Variante mit warmgehaltener Verteilung Vorlauf und Zirkulations-
+  > ruecklauf je 55 °C, Variante ohne warmgehaltene Verteilung Speicheraustritt 55 °C (mit
+  > Speicher) bzw. 52 °C (reiner Waermeuebertrager ohne Speicher, mit haeufiger Trinkwasser-
+  > erneuerung), Entnahmestelle in jedem Fall mindestens 50 °C, Kaltwasser hoechstens 25 °C.
+  > Sie sind **nicht** die 3-K-Erleichterung der Norm — diese senkt im laufenden Betrieb die
+  > warmgehaltenen Leitungen nochmals auf mindestens 52 °C ab und gilt nur bei nachgewiesen
+  > hygienisch optimalen Planungs- UND Betriebsvoraussetzungen.
+  >
+  > **Wichtig fuer Devis und Betriebsanweisung:** Die weiterhin geltende **Grundordnung** von
+  > BAG/BLV (Empfehlungen «Legionellen und Legionellose», Modul 11, Ausgabe 22.08.2018, seither
+  > unveraendert) und SVGW W3/E3:2020 liegt **hoeher** und lautet 60 °C am Austritt des Speichers
+  > bzw. Waermeuebertragers, 55 °C in warmgehaltenen Leitungen (Zirkulation, Warmhaltebaender),
+  > mindestens 50 °C an der Entnahmestelle. Fuer identifizierte **Vorwaerm-Risikozonen**
+  > (Vorwaermung durch Waermepumpe, Solar, Abwaerme oder Fernwaerme mit relevanter
+  > Legionellenvermehrungsgefahr) verlangt Modul 11 Ziff. 2.1.14 zusaetzlich eine **woechentliche
+  > einstuendige Aufheizung auf 60 °C**. Die ecoBKP-Werte unterschreiten diese Grundordnung am
+  > Speicheraustritt also um 5 K — wer sie ungeprueft in ein HLK-Devis oder eine
+  > Betriebsanweisung uebernimmt, spezifiziert unterhalb der amtlichen Empfehlung.
+  >
+  > Vor jeder Verwendung in Devis, Betriebsanweisung oder Bauherren-Antwort das
+  > `established`-Destillat `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`
+  > beiziehen (dort BAG/BLV Modul 11 und die SIA-Kommissions-Praesentation je im Volltext
+  > gelesen, Temperaturtabellen unabhaengig korroboriert). Fuer Fundstelle und Fassungsstand
+  > der Norm selbst fuehrt die KB `normen`.
+  >
+  > Nicht mitkorroboriert: die Stagnationsregel **> 3 Tage** steht so nur hier im ecoBKP-Merkblatt;
+  > das `established`-Destillat fuehrt sie nicht mit dieser Zahl — vor Verwendung eigenstaendig
+  > an SIA 385/1:2020 verifizieren.
 - **Blei**: **nicht empfohlen**: Einsatz bleihaltiger Schwerfolien (Ausschlussvorgabe
   Minergie-ECO 230.04); bleifreie Alternativen existieren (z.B. Cuphin, Ecobrass).
 - **Wassersparkonzept** (S. 77): Sanitaerapparate und Auslaufarmaturen mit effizientem

@@ -167,4 +167,13 @@ Feuerpolizei bzw. GVZ-Fachstelle verifizieren, da dort keine pauschale EI-Klasse
 
 Querbezug: `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` (PV-Brandschutz allgemein),
 `[[batteriespeicher-heimspeicher-pv-ch]]` (Batteriespeicher wirtschaftlich/technisch), `[[pv-solar-technologien]]`,
-`wissen/normen/destillate/vkf-brm-2001-15-solaranlagen.md` (KB `normen`, führend für Fundstelle und Fassungsstand des Merkblatts 2001-15 — dort ist der Bestand die **historische** Ausgabe 2015 mit dokumentiertem Delta; ein Destillat der geltenden Ausgabe 01.01.2022 ist als Bring-Schuld angemeldet, aber noch nicht erstellt).
+`wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (KB `normen` führt Fundstelle und
+Fassungsstand des Merkblatts 2001-15; **Nachtrag 06.08.2026, Cross-KB-Lauf Run 27:** das Destillat der
+**geltenden Ausgabe 01.01.2022** existiert seit Run 45 vom 06.08.2026 und ist die Arbeitsgrundlage —
+Ausgabe 01.01.2022, Original vollständig gelesen S. 1-15, Status `speculative`, weil Erstdestillat und
+Refuter-Runde beide im selben Run 45 liefen und die unabhängige Zweitverifikation noch aussteht; die
+frühere Bring-Schuld-Notiz an dieser Stelle ist damit erledigt).
+Historischer Bestand für Altprojekte mit vereinbarter Fassung:
+`wissen/normen/destillate/vkf-brm-2001-15-solaranlagen.md` bzw.
+`wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen.md` (Ausgabe 2015 mit dokumentiertem Delta,
+dort als `superseded` markiert) — nicht mehr führend.

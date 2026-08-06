@@ -4,7 +4,7 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 22-15de, 01.01.2015 (UEBERHOLT)"
 nachfolge_ausgabe: "22-15de, 01.01.2017 — aendert den Anhang zu Ziff. 2, Tabelle S. 7/8; destilliert in wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md"
 gelesen: "S. 1-8 (komplett: Ziff. 1-7 + Anhang zu Ziff. 2)"
-datenstand: "2015, in Kraft 01.01.2015 — nicht mehr aktueller Stand; aktuell ist Ausgabe 01.01.2017 (am 05.08.2026 am VKF-Endpunkt verifiziert)"
+datenstand: "2015, in Kraft 01.01.2015 — nicht mehr aktueller Stand; die Ausgabe 01.01.2017 wurde am 05.08.2026 als Original-PDF live am VKF-Endpunkt abgerufen und gegen 2015 gediffed. Ein Abgleich des VKF-Publikationsindex auf eine Ausgabe NACH 2017 steht aus (praezisiert 06.08.2026, Cross-KB-Lauf Run 27: die fruehere Formulierung «aktuell ist Ausgabe 01.01.2017 (verifiziert)» ueberdehnte den Beleg — belegt ist der Abruf, nicht die Abwesenheit einer neueren Ausgabe)"
 status: established (verifiziert fuer Ausgabe 2015) — Fassungsstand ueberholt, Delta zu 2017 siehe eigener Abschnitt
 last_updated: 2026-08-05
 links: [[REGISTER]], [[vkf-brl-aenderungen-2017]]

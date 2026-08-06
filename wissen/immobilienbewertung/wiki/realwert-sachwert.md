@@ -35,6 +35,20 @@ Belegte volumenbasierte Richtwerte nach **Bauklasse** (SIA-Ordnung 102/116), **S
 (Quelle: Zuercher Index der Wohnbaukosten). Werte = Baukosten je m3 umbauter Raum (SIA 116);
 zwei Zeilen je Klasse = EFH / MFH.
 
+> ⚠ **BKP-Scope dieser Fremdtabelle ist nicht belegt (Vorbehalt gesetzt Cross-KB-Lauf Run 27,
+> 06.08.2026).** Die Primaerquelle bezeichnet die Werte ausschliesslich als «Baukosten je m3
+> umbauter Raum (SIA 116)» und nennt **keinen BKP-Scope**; ob **BKP 2 allein** oder **BKP 1-9**
+> gemeint ist, ist nicht belegt. Die Differenz ist materiell: nach der Auswertung von Tab. 3
+> desselben Kapitels in `wissen/grobkosten/wiki/kennwerte.md` macht BKP 2 rund **906.3 Promille
+> (90.63 %)** der Gesamtkosten aus, die beiden Lesarten liegen also **rund 10 % auseinander**.
+> **Bis zum Entscheid im Erzeugnis neben dem Teuerungsanker auch den unterstellten Scope
+> angeben.** ⚠ Und beachten: die **Realwert-Formel dieses Artikels addiert Aussenanlagen und
+> Baunebenkosten bereits separat** — unter der Lesart BKP 1-9 drohte dort eine Doppelzaehlung.
+> Dieselbe Frage fuehrt `wissen/grobkosten/wiki/kennwerte.md` (Abschnitt «Run 12 — historischer
+> Cross-Check»), dort am 06.08.2026 um ein **Plausibilitaetsargument** fuer «BKP 2 allein»
+> fortgeschrieben (ausdruecklich kein Beleg) und in dessen `wiki/QUESTIONS.md` registriert.
+> Auf dieser Seite registriert als [[wissensluecken]] D13.
+
 | Bauklasse (Wohnbauten) | EFH CHF/m3 | MFH CHF/m3 |
 |---|---|---|
 | I einfachste laendliche Bauweise | 425-500 | 350-425 |
@@ -359,7 +373,21 @@ Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (R
 > Teilband **1'053-1'420** gilt nur fuer die sechs Neubauten ab 2019 — das Gesamtband der acht Objekte
 > ist **826-1'420**, und der Median ~1'100 gehoert zum Gesamtband.
 > Die KB `grobkosten` ist fuer Healthcare ausdruecklich **nicht** zustaendig (sie untersagt ihre
-> m3-Wohnbauwerte dafuer); fuer CHF/m2 NF fuehrt der Skill `kostenschaetzung` (Wueest Partner).
+> m3-Wohnbauwerte dafuer); fuer CHF/m2 NF fuehrt der Skill `kostenschaetzung` (Wueest Partner) —
+> diese Fuehrung bezieht sich auf die **Wuest-Benchmarks**, nicht auf JANS-Eigenbaender wie das
+> Umbau-Kostenband «Spektrumskosten» weiter unten (praezisiert Cross-KB-Lauf Run 27, 06.08.2026).
+>
+> **Achtung beim Weiterreichen des oberen Endpunkts (Nachtrag Cross-KB-Lauf Run 27, 06.08.2026):**
+> der obere Endpunkt **1'420** (Averecura) und die **Vella-Zeile** sind quellenintern **nicht
+> reproduzierbar** (recompute 1'285 bzw. 1'021 CHF/m3 GV); die uebrigen sechs Zeilen reproduzieren
+> exakt. Der **reproduzierbare Rohband** liegt damit bei **826-1'285 CHF/m3 GV**. Das ist
+> ausdruecklich der reproduzierbare ROHBAND, **nicht** ein neuer geltender Band; der Entscheid
+> darueber liegt bei Raphael und haengt an der Bereinigung des Original-Blatts. Bis dahin das Band
+> nur **mit diesem Vorbehalt** weitergeben, vgl. Verifikationsnotiz Run 18 weiter unten und
+> [[wissensluecken]] D10. Der Vorbehalt wird seit dem 06.08.2026 an drei Stellen mitgefuehrt: hier,
+> im Parameter-Set `wissen/entwurfs-referenzen/wiki/parameter-sets/healthcare-neubau-zh.json`
+> (Block `kosten_referenz`, die tatsaechlich gelesene Kopie) und im Kopfblock von
+> `wissen/grobkosten/wiki/kennwerte.md`.
 
 ⚠ **Verifikationsnotiz (Run 18, 2026-07-12 — gegen das Original-Referenzblatt geprueft):** Die
 Tabelle oben ist eine **getreue Abschrift** des JANS-Blatts. Zwei Lesehinweise, weil einzelne
@@ -401,6 +429,18 @@ fuehrt JANS ein eigenes, nach Stationstyp gestuftes **Umbau-Kostenband je m2 NF*
 Belegt aus drei JANS-Arbeitsdokumenten `IMMO-06 Kennwerte/Healthcare` (Run 16): dem
 Kunden-Memo **`Spektrumskosten.docx`** («Memorandum of approximate cost») und zwei realen
 Einordnungs-Faellen (`Umbaukosten 500K.docx`, `Umbaukosten_CHF_2500K.docx`).
+
+> **Abnehmer: Skill `kostenschaetzung`, Abschnitt «Reduktionsfaktoren Umbau/Sanierung»
+> (gesetzt Cross-KB-Lauf Run 27, 06.08.2026). Wird das Band hier geaendert, dort nachziehen.**
+> Bis zu diesem Lauf kannte der Skill das Band nicht und rechnete Healthcare-Umbauten
+> ausschliesslich als Neubau-Median mal Reduktionsfaktor. Die beiden Wege widersprechen einander
+> nicht, sie sind deckungsgleich kalibriert (Buero → Praxis ≈ «gering», somatische Normalpflege
+> ≈ «mittel», Intensiv-/Spezialstation ≈ «gross/Umnutzung»); dieses Band ist die feiner
+> aufgeloeste Fassung und deshalb vorzuziehen, sobald ein Stationstyp benannt ist. **Keine
+> Fuehrungsuebertragung:** die Rollen-Matrix (`wissen/koordination/QUERBEZUEGE.md`) begrenzt die
+> Fuehrung des Skills `kostenschaetzung` auf den **Wuest-Benchmark**; dieses Band ist
+> JANS-Eigenmaterial und wird hier gefuehrt. Ob es ganz in den Skill wandert, ist Entscheid
+> Raphaels (JANS-Kundenunterlagen).
 
 **Richtbandbreite Spitalumbau CH (CHF/m2 NF, «Spektrumskosten», JANS-Arbeitsband):**
 

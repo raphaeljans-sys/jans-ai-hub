@@ -205,6 +205,18 @@ aber die Ausgangslage fuer die meisten Anlagen (ohne den formellen Optimalbetrie
 ist und bleibt die hoehere 60/55/50-°C-Grundordnung samt woechentlicher Massnahme in
 Risikozonen.
 
+**Rueckverweis (ergaenzt 06.08.2026, Cross-KB-Lauf Run 27):** Dieselben Temperaturen erscheinen
+in derselben KB im Beschaffungskontext — `[[ecobkp-2026-gebaeudetechnik]]`, Abschnitt
+«ecoBKP 250 — Sanitaeranlagen», Legionellen (Merkblatt-Seite 78) — dort aber undatiert als
+«SIA-Norm 385/1, BAG Legionellen» und ohne Einordnung. Die dort genannten Werte (55 °C
+warmgehaltene Leitungen, 55 °C Speicheraustritt bzw. 52 °C Waermeuebertrager ohne Speicher,
+50 °C Entnahmestellen, Kaltwasser max. 25 °C) sind die **Auslegungsvorgaben der SIA 385/1:2020**,
+nicht deren 3-K-Erleichterung, und liegen am Speicheraustritt 5 K unter der hier belegten
+BAG/BLV-Grundordnung. Die Einordnung ist im ecoBKP-Destillat als Block nachgetragen und
+verweist hierher; dieses Destillat bleibt die fuehrende Fassung fuer die Temperaturfrage.
+Nicht abgedeckt ist die dortige Stagnationsregel «> 3 Tage» — sie steht in diesem Destillat
+nicht und ist bei Bedarf eigenstaendig an SIA 385/1:2020 zu verifizieren.
+
 **Wo die Waermepumpe dennoch an eine harte Grenze stoesst:** Reine Waermepumpen-Warmwasser-
 bereiter erreichen ohne Zusatzheizung oft nicht zuverlaessig 55–60 °C Speicheraustritt (COP
 bricht bei hohen Zieltemperaturen stark ein, manche Geraete/Kaeltemittel stossen an technische

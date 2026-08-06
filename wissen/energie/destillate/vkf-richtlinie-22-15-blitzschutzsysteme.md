@@ -19,7 +19,11 @@ datenstand: 2026-07-25
 status: established (VKF-Primärdokument 22-15de vollständig gelesen und ziffern-genau zitiert;
   keine neuere Ausgabe als 01.01.2017 gefunden — Aktualität zum Abrufzeitpunkt nicht
   hundertprozentig ausschliessbar, siehe Offene Punkte)
-last_updated: 2026-07-25 (Run 94: gezielte Batteriespeicher-Prüfung ergänzt, Negativbefund)
+last_updated: 2026-08-05 (Cross-KB-Lauf Run 26: Block «Fassungs-Falle im JANS-Archiv» ergänzt —
+  die im Büro abgelegten PDFs sind die überholte Ausgabe 01.01.2015, Delta in Tabellenzeile c
+  dokumentiert; der Fassungsvorbehalt zur Ausgabe 2017 bleibt unverändert offen, siehe Offene
+  Punkte. Datumsdrift Kopf/Textkörper nachgeführt am 06.08.2026 im Cross-KB-Lauf Run 27.
+  Vorstand: 2026-07-25, Run 94: gezielte Batteriespeicher-Prüfung ergänzt, Negativbefund)
 ---
 
 # Destillat — VKF-Brandschutzrichtlinie 22-15 «Blitzschutzsysteme»: wer ist grundsätzlich blitzschutzpflichtig
@@ -90,7 +94,10 @@ der gesamten Tabelle a-j ist Zeile c (besonders hohe Bauwerke / Hochhäuser > 30
 «SNR 464022» und Jahresangaben bei SN EN 62305-1:2011/-2:2012. Wer bei einem Hochhausprojekt das
 abgelegte Büro-PDF verwendet, unterspezifiziert den inneren Blitzschutz um eine Klasse.
 Parallel-Destillat der Fassung 2015 (mit dokumentiertem Delta):
-`wissen/normen/destillate/vkf-brl-22-15-blitzschutzsysteme.md`.
+`wissen/normen/destillate/vkf-brl-22-15-blitzschutzsysteme.md` — für den **Fassungsstand** dieser
+VKF-Publikation führt formell die KB `normen`, und zwar gegen den VKG-/VKF-Publikationsendpunkt
+statt gegen den SharePoint-Hausbestand (`wissen/koordination/QUERBEZUEGE.md` Zeilen 46 und 48);
+dieses Destillat verweist dorthin und schreibt keinen eigenen Gültigkeitsvermerk fort.
 
 ### JANS-Healthcare-Doppelkriterium (wichtigste Erkenntnis für Spital-/Pflegeheimprojekte)
 Spitäler und Alters-/Pflegeheime werden **von zwei unabhängigen Kriterien** erfasst:

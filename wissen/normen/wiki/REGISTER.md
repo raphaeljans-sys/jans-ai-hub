@@ -359,6 +359,34 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
 
 - **VKF:** Bestand = **Brandschutzvorschriften 2015** (Norm 1-15 + Richtlinien/Erläuterungen 2015,
   inkl. Änderungen 2016/2017). Aktuellere BSV (Revision) nur auf Zuruf beschaffen — offene Frage.
+
+  **VKF-BRL 22-15de «Blitzschutzsysteme» — Fassungsstand (Zeile nachgetragen im Cross-KB-Lauf
+  Run 27, 06.08.2026; das Register führte bis dahin gar keine Zeile zu 22-15, obwohl das
+  Destillat `vkf-brl-22-15-blitzschutzsysteme.md` im Frontmatter auf `[[REGISTER]]` verweist —
+  ein toter Verweis):** Ausgabe **01.01.2015 überholt**, geltend ist die Ausgabe **01.01.2017**
+  derselben Dok.-Nr. Belegt am Original: beide PDFs (2015 aus dem SharePoint-Bestand, 2017 live
+  über den VKF-Endpunkt) wurden am **05.08.2026** vollständig gediffed; die Ausgabe 2017 trägt
+  auf S. 1 den Vermerk «Änderungen im Anhang: - zu Ziffer 2, Tabelle (Seiten 7 und 8)», einzige
+  geänderte Zahl ist Zeile c (besonders hohe Bauwerke/Hochhäuser) Spalte B: III → **II**.
+  ⚠ **Kein Abgleich des VKF-Publikationsindex** auf eine Ausgabe NACH 2017 — dass 2017 die
+  jüngste Ausgabe ist, ist damit **nicht belegt**, sondern nur, dass sie existiert und
+  gegenüber 2015 gilt (Bring-Schuld in `wiki/QUESTIONS.md`). Destillat 2015:
+  `destillate/vkf-brl-22-15-blitzschutzsysteme.md`; Fassung 2017 destilliert in
+  `wissen/energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md`.
+
+- **Electrosuisse / CES (Blitzschutz-Ausführungsregel) — volle Kette mit Lese-Vorbehalt**
+  (Zeile nachgetragen im Cross-KB-Lauf Run 27, 06.08.2026; belegt in `energie` seit Run 23 vom
+  03.08.2026, `normen` war damals nicht beteiligt, führt aber nach `wiki/QUERBEZUEGE.md` den
+  Gültigkeits-/Fassungsstand): **SEV 4022:2008 → SNR 464022:2015+COR:2016 (zurückgezogen,
+  SNV-Connect Statusfeld «Withdrawn») → SN 414022:2024 «Blitzschutzsysteme», ersetzt per
+  20.02.2024.** Beleg Electrosuisse-Shop, Artikel-Nr. **DV-48384/1** («Ersetzte Normnummer:
+  SNR 464022:2015»), primär destilliert in
+  `wissen/energie/destillate/snr-464022-blitzschutz-ausfuehrung.md`.
+  ⚠ Der **Volltext der Ausgabe 2024 ist NICHT gelesen** (CHF 169.–, kein freier Auszug) — aus
+  ihr darf **keine Inhaltsaussage** abgeleitet werden; belegt ist ausschliesslich der Status.
+  ⚠ Die geltende **VKF-BRL 22-15:01.01.2017 nennt im Spaltenkopf B weiterhin SNR 464022** — ein
+  VKF-Zitat mit dieser Nummer bleibt damit korrekt, es braucht nur den Währungshinweis, dass die
+  Electrosuisse-Regel selbst heute SN 414022:2024 heisst. In einem LV beide Bezeichner führen.
 - **DIN / VSS / RAL:** deutsche/schweiz. Regelwerke ohne SIA-Rückzugsregister; Gültigkeit je
   Dokument beim Destillieren aus dem Deckblatt erfassen. DIN-PDFs ggf. FileOpen-DRM (dann «DRM, manuell»).
 - **SWKI (Schweizerischer Verein von Gebäudetechnik-Ingenieuren):** im Haus liegt genau **ein**
