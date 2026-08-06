@@ -3,6 +3,37 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 06.08.2026 (Logbuch-Radar 06:55, Gegen-Verifikation am Sendebeleg — **löst den seit
+fünf Tagen genannten Sperrgrund bei RE-00100 auf**): **Der Versandnachweis für RE-00100
+existiert und liegt in «Gesendete Elemente».** Der Debitoren-Verzugscheck führt die
+Zahlungserinnerung für RE-00100 (Swiss Central City Real Estate Fund, CHF 13'120.00) seit dem
+31.07. mit der Begründung zurück, es sei «ungeklärt, ob die Rechnung nach dem Wechsel aus dem
+Entwurfsstatus tatsächlich versandt wurde». Am Beleg nachgemessen: Raphael hat sie am
+**03.08.2026 um 12:46:08** versandt, an `260kredi@huwiler.ch` und `lena.domenig@privera.ch`,
+Betreff «re-00100.pdf», Anhang `re-00100.pdf`, Body «Im Anhang die Rechnung re-00100.pdf mit
+der Bitte um Kontrolle und Überweisung». Die Zustellung ist damit belegt; **offen bleibt
+allein die Fälligkeit**, die in bexio unverändert auf **30.07.2026** steht, also vier Tage vor
+dem Versand. Solange sie dort nicht nachgezogen ist, stützt sich eine Zahlungserinnerung auf
+ein Fälligkeitsdatum, das vor der Zustellung liegt — das ist der sachlich richtige Sperrgrund,
+nicht der bisher genannte. **AKTION Raphael: Fälligkeit in bexio auf den Zustelltermin
+nachziehen**, danach ist die Stufe 1 sauber begründbar. Kein Mahnschritt ausgelöst.
+Status: **offen, Aktion Raphael (bexio-Fälligkeit).**
+
+Eintrag 06.08.2026 (Logbuch-Radar 06:55, aus dem Versandbeleg abgeleitet — **zwei Zusagen
+Raphaels für heute**): **KISPI 2619 Leichtbauwände — Raphael hat Stadelmann in der Mail vom
+05.08. 17:04 zwei Dinge für den 06.08. zugesagt.** Wörtlich: «Ich werde morgen den Planstand
+mit der Fachplanung Rücksprechen und gebe dir allenfalls diesbezüglich ein Update» sowie «So
+oder so werde ich versuchen Dich morgen kurz telefonisch zu erreichen um das Verständnis der
+LBW-Vermassung mit Dir zu klären». Die Rücksprache mit der Fachplanung fällt sachlich mit der
+Koordinationssitzung Gruner/Jans/KISPI von **heute 13:00–14:00** zusammen (M365-Kalender,
+Organisatorin M. Valentin, Teams). Der Anruf bei Stadelmann ist davon unabhängig und hat den
+engeren Grund: der Unternehmer misst die Leichtbauwände vor Ort ein und Raphael hat selbst
+die Grundsatzfrage gestellt, ob die bestehende Vermassung dafür reicht. Zusätzlich in
+derselben Mail an Stadelmann delegiert, aber ohne Termin: Koordination der Leitungsdurchbrüche
+Lüftung/Sanitär/Elektro und der Brandabschottung in den EI30-Unterzügen direkt mit M. Spörri.
+Ausdrücklich vermerkt hat Raphael, dass **die Angaben zur Elektroinstallation im Plan fehlen**.
+Status: **offen, beides heute — Aktion Raphael.**
+
 Eintrag 05.08.2026 (Hub-Chef 08:39, Mail Stadelmann 07:49 — **Unternehmer wartet heute,
 Entwurf liegt bereit, Freigabe Raphael**): **KISPI 2619 Leichtbauwände: Estermann kann
 ohne aktuelle Plangrundlage nicht einmessen.** Othmar Stadelmann (Bauführer, Estermann
@@ -17,8 +48,23 @@ Systemhalters offen, nämlich die schriftliche Bestätigung des Wandanschlusses 
 Estrich von 80 mm durch den Zulassungsinhaber und der Abgleich, ob der Hohlraum gegenüber
 der VKF-Anerkennung 22636 als Abweichung gilt; betroffen ist die Metallständerwand Rigips
 Sigma CW50/100 (EI 90-RF1, D = 100 mm). Ziegel ist ab 06.08. bis **18.08.2026** abwesend,
-die Antworten sollten bei seiner Rückkehr vorliegen. Status: **offen, Versand-Freigabe
-Raphael; Rücklauf der zwei Bestätigungen bis spätestens 18.08.2026.**
+die Antworten sollten bei seiner Rückkehr vorliegen. Status: ~~offen, Versand-Freigabe
+Raphael~~ → **ERLEDIGT 05.08.2026, Rücklauf-Teil bleibt in Beobachtung.** Am Beleg in
+«Gesendete Elemente» geprüft: Raphael hat **am 05.08. um 17:04:43** selbst versendet, an
+`othmar.stadelmann@estermann.ch`, Cc Ziegel, Spörri, Kübler, Cetin, Duran und Eren, Betreff
+«WG: 260805_Kispi Bettenstation 1.OG_Auflagenbereinigung Brandschutz_Innenwände», neun
+Anhänge. Versendet wurde **nicht** der Hub-Entwurf, sondern Raphaels eigene Fassung: sie
+enthält die kommentierten Detailpläne für die Nachweise BIK/LBW, den Vorabplan Fach Architekt
+Grundriss 1.OG 1:50 mit der Vermassung der neuen Leichtbauwände und die Detailpläne Jegen der
+Innenverglasungen. Die zwei Systemhalter-Punkte sind darin in eigener Formulierung gestellt
+(«Nachweis LBW auf UB - Anschluss LBW auf UB EI30 Konform» und «GK-Doppelständerwand ab
+20.5cm; CW75 offene Fragen bez. VKF. Nr. klären»). Damit ist die Plangrundlage beim
+Unternehmer und der Entwurf im Ordner (05.08. 09:11, Betreff «2619 KISPI PPTS Leichtbauwände:
+Plangrundlage 21.07.2026 und zwei Bestätigungen Systemhalter») ist eine Karteileiche, ebenso
+die begonnene Antwort «AW: KISPI PPTS: Koordination Ausführung LBW» vom 05.08. 08:45 — beide
+können gelöscht werden. **Weiterhin offen bleibt allein der Rücklauf**: die zwei Bestätigungen
+des Systemhalters bis spätestens **18.08.2026**, damit Ziegel sie bei seiner Rückkehr in einem
+Zug abhaken kann.
 
 Eintrag 05.08.2026 (Gespräch Mac Mini 04.08.2026 13:34–13:52, Konversations-Destillat —
 **neue Pendenz, unversendeter Entwurf, Freigabe Raphael nötig**): **KISPI 2619 LOS_273.35

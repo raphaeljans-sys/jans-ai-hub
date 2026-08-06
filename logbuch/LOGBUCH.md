@@ -5,6 +5,99 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 06.08.2026
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. Der Radar sendet heute selbst keine Mail: Der
+Chef-Lauf vom 05.08. ist um 08:39 durchgelaufen und hat sein Briefing versandt, und kein Punkt
+verlangt Handeln vor 08:39.
+
+**Erledigt seit gestern**
+
+- KISPI 2619 Leichtbauwände: Die Plangrundlage ist beim Unternehmer. Du hast die Unterlagen
+  gestern um 17:04 selbst an Othmar Stadelmann versandt, Cc Ziegel, Spörri, Kübler, Cetin,
+  Duran und Eren, neun Anhänge: die kommentierten Detailpläne für die Nachweise BIK und LBW,
+  den Vorabplan Grundriss 1. OG, M 1:50 mit der Vermassung der neuen Leichtbauwände und die
+  Detailpläne Jegen der Innenverglasungen. Die zwei Punkte des Systemhalters sind darin in
+  Deiner eigenen Formulierung aufgeworfen. Der Hub-Entwurf von 09:11 ist damit gegenstandslos
+  und kann zusammen mit der begonnenen Antwort von 08:45 gelöscht werden.
+
+**Aus unseren Gesprächen**
+
+- KISPI 2619, Türen: Der Türstempel im Ausführungsplan von Herzog & de Meuron und der
+  zugehörige Werkplan widersprechen sich bei derselben automatischen Schiebetüre. Der
+  Stempel führt die Türe 17264, Typ IT782 «Cristallo Glisse», als **E30**, der Werkplan als
+  **EI30**. Das sind zwei verschiedene Bauteile mit unterschiedlichem Preis. Die Anforderung
+  gehört gegen das Brandschutzkonzept aufgelöst, bevor die Türe bestellt oder in ein
+  Leistungsverzeichnis übernommen wird. Neu im Register.
+
+**Überfällig**
+
+- Debitoren unverändert: fünf Rechnungen, CHF 51'400.00, kein Zahlungseingang und keine neue
+  Mahnstufe gegenüber gestern. RE-00087 (Kinderspital, CHF 15'000.00) liegt bei 112 Tagen.
+- **Neu zu RE-00100 (Swiss Central City, CHF 13'120.00, 7 Tage):** Der seit fünf Tagen
+  genannte Sperrgrund ist erledigt. Der Versandnachweis liegt vor, Du hast die Rechnung am
+  03.08. um 12:46 an die Kreditorenstelle Huwiler und an Privera gesandt. Offen bleibt allein,
+  dass die Fälligkeit in bexio auf dem 30.07. steht, also vier Tage vor der Zustellung. Wird
+  sie auf den Zustelltermin nachgezogen, ist die Zahlungserinnerung sauber begründbar.
+- SVA Zürich: Die Mahnung von gestern liegt unverändert hinter dem AHVeasy-Login, Betrag und
+  Zahlfrist sind ohne Einsicht nicht beurteilbar.
+- Kübler-Nachfass: Der Entwurf ist weiterhin unangetastet, seine Frist ist am 04.08. um 17:00
+  verstrichen. Heute um 13:00 ist die Koordinationssitzung, in der die Sache mündlich geführt
+  werden kann.
+
+**In den nächsten sieben Tagen**
+
+- **Heute 13:00 bis 14:00**, Teams: Koordinationssitzung Gruner, Jans und KISPI. Du hast
+  Stadelmann gestern zugesagt, heute zum Planstand mit der Fachplanung Rücksprache zu nehmen;
+  das ist der Termin dafür. Letzte Gelegenheit vor dem 08.08., den ablaufenden
+  SharePoint-Zugriff zu verlängern.
+- **Heute, unabhängig davon:** Du hast Stadelmann einen Anruf zugesagt, um das Verständnis der
+  LBW-Vermassung zu klären. Er misst vor Ort ein, und die Grundsatzfrage, ob die bestehende
+  Vermassung dafür reicht, ist von Dir selbst gestellt worden.
+- **Heute:** Die Eingabefassung des Begleitbeschriebs Thalwil Bohlweg 3 ist versandbereit, die
+  Mail liegt als Entwurf und ist nicht versendet.
+- **Heute:** Der zugesagte Wochen-Review der Arbeits-Weiche ist fällig.
+- **07.08.:** Marc Mathies (Notariat) ist wieder im Haus. Die Nachreichung ans Sammelpostfach
+  ist bis heute früh nicht erfolgt, in den gesendeten Mails steht dazu seit dem 03.08. nichts.
+- 07.08. 17:00: Wandern mit Dani und Rafi (privat).
+- **08.08.:** Der SharePoint-Zugriff auf die Projektsite «JANS - 2619-KISPI» läuft für sieben
+  Personen ab (Kübler, Cetin, Duran, Ziegel, Würsch, Spörri, Schwander).
+- **12.08.:** Mahnfrist RE-00098 und RE-00099.
+- 13.08. 09:30 bis 11:00, Feldeggstrasse 26: Besprechung Kostenvoranschlag und Finalisierung
+  Baubeschrieb Direktvermietung Albertstrasse 7 mit Roman Steinmann.
+
+**In Beobachtung**
+
+- UBS-IBAN für das Kapitaleinzahlungskonto fehlt weiter, kein neuer Eingang auf irgendeinem
+  Konto. Der Beurkundungstermin ab rund dem 10.08. ist damit nicht mehr zu halten.
+- Die zwei Bestätigungen des Systemhalters (Wandanschluss auf den Estrich von 80 mm,
+  Hohlraum gegen die VKF-Anerkennung 22636) sollten bis zu Ziegels Rückkehr am 18.08.
+  vorliegen.
+- RE-00087 liegt bei Cornelia Schäfer; das Kinderspital prüft den Duplikat-Verdacht.
+- UGZ-Befund Hansen zur Lüftung: Die Terminvorgabe an Cekdar Duran wird von Dir erwartet.
+- Küblers Vorabzug des Heizungs- und Kälteplans vom 03.08. wartet auf Deine Prüfung.
+- Tschopp und Weisser halten weiterhin die überholte Begleitbeschrieb-Fassung vom 30.07.
+- Das Goldstandard-LV Türen fordert in drei Positionen eine Produktedeklaration nach SIA 493,
+  einer seit dem 30.06.2022 archivierten Norm.
+
+**Token-Tempo (05.08.)**
+
+MacBook Pro 173.0 Mio. Token / USD 153.63, Mac Mini 67.6 Mio. Token / USD 52.05, zusammen
+240.6 Mio. Token / USD 205.68.
+
+**Methodennotiz (intern, nicht ins Tagesbriefing)**
+
+Die Lehre vom 05.08. hat heute unmittelbar getragen: Das Konversations-Destillat führt den
+Estermann-Punkt weiterhin als «Entwurf liegt bereit, Freigabe Raphael ausstehend», weil es
+Session-Transkripte liest. Am Postfach gegengeprüft war der Punkt zum Zeitpunkt des Laufs
+bereits erledigt, und zwar mit einer eigenen Fassung Raphaels statt mit dem Hub-Entwurf. Das
+ist der zweite Fall derselben Art in zwei Tagen. Die Gegenprüfung am Entwurfsordner und an
+«Gesendete Elemente» gehört fest vor jede Meldung eines im Gespräch angelegten Entwurfs.
+Ebenfalls am Beleg statt aus dem Vortagsstand: der RE-00100-Sperrgrund, der seit fünf Tagen
+unverändert weitergereicht wurde, ohne dass die gesendeten Mails dazu geprüft worden wären.
+
+---
+
 ## Normen-Training Run 45 (06.08.2026, ab 01:28) — Rückstand abgearbeitet, ein LV-relevanter Fehler abgefangen
 
 Still beendet, keine eigene Mail (Rule 260803): Wissensbasis-Pflege ohne Frist, Termin oder
