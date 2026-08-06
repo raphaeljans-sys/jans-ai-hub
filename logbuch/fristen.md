@@ -3,6 +3,22 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 06.08.2026 (Session Protokoll 8. Besprechung KISPI, 15:20 — **drei neue Fristen aus
+der heutigen Fachplaner-Besprechung**): An der 8. Besprechung Fachplanung Umbau PPTS KISPI
+(2619, Teilnehmer Spörri/Duran/Cetin/Eren/Jans) wurden drei Termine vereinbart, Quelle
+Protokoll `260806_8_Besprechung_KISPI_Protokoll.pdf` (abgelegt im Besprechungsordner
+`…/4_Gruners GT Planer/_Protokolle/260806 8 Besprechung/` und im Hub-Output
+`2629 KISPI AI/02_Sitzungsprotokolle/`): (1) **Sa 08.08.2026** — Röthlisberger (Inniger/Lanz)
+liefert den Installationsplan Küche als PDF+DWG an RJ (Ansichten und Grundriss 1:20 mit allen
+Sanitär- und Elektroanschlüssen); danach Integration in den Ausführungsplan GR 1:50 AR durch
+RJ. (2) **Mo 10.08.2026** — definitiver Stand Sanitärinstallationen wird auf SharePoint
+hochgeladen (Raumpläne 1:20 Sanitär + Ausführungsplan GR 1:50 AR); Pendenz RJ. (3) **Anfang
+KW 33 (ab 10.08.2026)** — B. Kübler meldet den Stand der UGZ-Freigabe Lüftung/Küchenentlüftung;
+danach erstellt RJ den neuen Terminplan in Absprache mit dem KISPI und lädt ihn auf die
+Plattform; erst dann wird die nächste Fachplaner-Sitzung terminiert. Der Protokoll-Versand
+liegt als unversendeter Entwurf im Apple-Mail-Postfach (rj@, an Kübler/Ziegel/Duran/Cetin/
+Eren/Spahic/Spörri), Versand nach Freigabe Raphael. Status: **offen (3 Fristen), beobachten.**
+
 Eintrag 06.08.2026 (Hub-Chef 08:39, am M365-Kalender nachgemessen — **Terminzeit 13.08.
 vereinheitlicht**): Der Hub führte die Besprechung Kostenvoranschlag und Finalisierung
 Baubeschrieb Direktvermietung Albertstrasse 7 mit R. Steinmann an zwei Stellen mit
