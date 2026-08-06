@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 01:14:53
+Stand: 07.08.2026 01:24:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 07.08.2026 01:14:53
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 390e3e20 vollgas-radar 07.08. 00:57: Nachtrate 0.59 Mio/h, Vorsprung -8.7; Kalibrierung Fan-out ~4.5 Mio vs Nachtschicht-Slot ~0.2 Mio, P2(a) ersetzt
+- 6f135b6b nas-selfcommit: 2 Datei(en) 2026-08-07 01:15
