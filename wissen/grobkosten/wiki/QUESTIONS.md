@@ -2,6 +2,46 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-06 (Mac Mini Nachtschicht) — Frage 1 (BKP-Scope Tab. 2): «anderes Kapitel prüfen» ist ein Sackgassen-Weg, ein Sackgassen-Argument dazugekommen
+
+**Kein Trigger für eine neue Stufe-1-Exploration seit dem 04.08.2026 (Bring-Schuld `normen`
+weiterhin ungedeckt, Frage 1/2 weiterhin offen) — stattdessen den in der Run-12-Notiz
+(01.08.2026, unten) selbst vorgeschlagenen «möglichen nächsten Schritt» geprüft, statt die
+bekannten leeren Pfade erneut zu durchsuchen** (PROGRAMM.md, «Kein Leerlauf-Zwang»).
+
+**Geprüft und mit Negativbefund geschlossen:** Die Primärquelle-Vermutung, ein anderes Kapitel
+derselben «Schätzungsanleitung» könne den BKP-Scope von Tab. 2 explizit definieren, lässt sich
+mit dem vorhandenen Bestand **nicht** verfolgen. Das im Ordner `IMMO - 03 KNOW-HOW/06
+Schaetzungen/` liegende PDF `schaetzungsanleitung_kap5.pdf` ist laut eigenem Deckblatt
+ausschliesslich **«Anhang Schätzungsanleitung, Teil III schätzungstechnische Grundlagen,
+Kapitel 5: Tabellen»** — ein reiner Tabellenanhang, 41 Seiten, beginnend bei Tabelle 1
+(Abbruchkosten). Die Kapitel 1–4 von Teil III (dort stünde eine allfällige Begriffsdefinition
+von «Baukosten»/«Gebäudekosten») sind **nicht im Hub-Bestand** vorhanden; eine Suche im ganzen
+Ordner `IMMO - 03 KNOW-HOW` (alle PDFs, `find -iname "*.pdf"`) findet nur dieses eine
+Kapitel-5-Dokument. Der Schritt ist damit **nicht offen, sondern archivseitig unmöglich** —
+sollte künftig ein weiteres Kapitel derselben Schätzungsanleitung ins Archiv gelangen, dort
+zuerst nach der Begriffsdefinition suchen.
+
+**Ein zweites, unabhängiges strukturelles Argument für die bestehende Annahme (BKP 2 allein)
+gefunden, layouttreu am Original nachgelesen (`pdftotext -layout`):** Tab. 2 («Richtwerte für
+die Bestimmung des Neuwertes») und Tab. 3 («Prozentanteile an den Gebäudekosten BKP 2») stehen
+**unmittelbar aufeinanderfolgend auf derselben Doppelseite**, ohne dass ein anderes Thema
+dazwischentritt. Tab. 3 liefert exakt den Umrechnungsfaktor BKP 2 → Gesamtkosten (906.3 ‰ =
+90.63 %) und bricht ihn weiter auf BKP 20–29 herunter. Diese Anordnung ist die klassische
+Dramaturgie eines Schätzungshandbuchs: **erst der m³-Preis des Gebäudes (Tab. 2), gleich
+danach das Werkzeug, um von diesem Gebäudewert auf die Gesamtkosten hochzurechnen (Tab. 3).**
+Bräuchte Tab. 2 selbst schon BKP 1–9, wäre eine unmittelbar folgende Tabelle zur
+BKP-2-Ausschöpfung redundant. Das ist ein **Plausibilitätsargument, kein Beleg** — die Quelle
+selbst schreibt weiterhin nur «Baukosten je m³ umbauter Raum (SIA-Norm 116)» ohne BKP-Angabe,
+Frage 1 bleibt formal offen und wird hier **nicht** auf `belegt` gehoben. Ergänzt in
+`wiki/kennwerte.md`, Abschnitt «Run 12», als zweiter Beleg neben dem bereits geführten
+Bandbreiten-Argument aus Run 25.
+
+**Kennwerte.md und CHANGELOG bewusst nicht sonst verändert** — kein neuer Kennwert, kein
+promovierter Fall. Diese Frage bleibt der Blocker für eine Median-Bildung, bis Raphael
+entscheidet oder ein neuer, eindeutig dokumentierter Fall auftaucht (unverändert gegenüber
+04.08.2026).
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Welcher Teuerungsanker gilt für Tab. 2, und bleibt die Doppelführung?
 
 **Entscheid Raphael, nicht autonom lösbar — betrifft Realwert-Ergebnisse direkt.** Die

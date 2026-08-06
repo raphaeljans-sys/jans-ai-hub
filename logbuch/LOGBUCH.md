@@ -4031,3 +4031,28 @@ Laeufe heute — daher `bauprodukte` gewaehlt. ERCO-Ratgeber (BKP 233) von S. 73
 fortgeschrieben: Kapitel Leuchtenauswahl + Leuchtenanordnung vollstaendig, Montage
 begonnen. Register (INDEX, PROGRAMM, Inventar, CHANGELOG) nachgefuehrt. Kein Versand,
 keine Buchung, kein Fan-out. Report: `wissen/bauprodukte/CHANGELOG.md`, Eintrag 23:30.
+
+## 2026-08-06 — Mac Mini Nachtschicht 05:37 (KB grobkosten, Frage-1-Sackgasse geprueft + zweites Plausibilitaetsargument)
+
+Prioritaeten 1-3 leer/bereits abgedeckt (keine Sync-/Remote-Tasks ausser dem seit 31.07.
+zurueckgehaltenen Freigabe-Task Cockpit-Server; Synobsis Stufe 2 bei 853/853 gesaettigt und
+deaktiviert; Fristen-Register laufend durch Hub-Chef 08:39 und Radar 06:55 gepflegt, kein
+unbearbeitetes Ueberfaelliges gefunden). Prioritaet 4: `grobkosten` war unter den drei freien
+Ziel-KBs (bauprodukte 06.08. 02:38, energie 05.08. 23:39, grobkosten 04.08. 23:50) am
+laengsten inhaltlich unberuehrt. Die KB selbst hatte im letzten Delta-Null-Lauf (04.08.)
+ausdruecklich empfohlen, vor einer erneuten Blind-Exploration erst die drei bekannten
+Ausloeser zu pruefen (Bring-Schuld `normen`, `bauprodukte`-KORPUS-QUEUE bei BKP 214/271, Frage
+1/2 durch Raphael) — keiner davon ist eingetreten. Statt eines dritten ergebnislosen
+Explorationslaufs den in der eigenen Run-12-Notiz vorgeschlagenen naechsten Schritt zu Frage 1
+(BKP-Scope der Neuwert-Richtwerttabelle) geprueft: das Original-PDF
+(`IMMO - 03 KNOW-HOW/06 Schaetzungen/schaetzungsanleitung_kap5.pdf`) layouttreu mit
+`pdftotext -layout` vollstaendig gelesen. Ergebnis: die vermutete Klaerung in einem "anderen
+Kapitel" ist archivseitig eine Sackgasse (das PDF ist laut Deckblatt nur "Kapitel 5:
+Tabellen", Kapitel 1-4 der Schaetzungsanleitung liegen nicht im Hub-Bestand, per `find`
+bestaetigt). Dabei ein zweites, unabhaengiges Plausibilitaetsargument (kein Beleg) fuer die
+bestehende Annahme "BKP 2 allein" gefunden: Tab. 2 und Tab. 3 ("Prozentanteile an den
+Gebaeudekosten BKP 2") stehen unmittelbar aufeinanderfolgend ohne Zwischenthema, Tab. 3
+liefert exakt den Umrechnungsfaktor BKP 2 zu Gesamtkosten. Frage 1 bleibt formal offen, kein
+Kennwert veraendert oder promoviert. `wiki/kennwerte.md`, `wiki/QUESTIONS.md` und CHANGELOG
+nachgefuehrt. Kein Versand/Publikation/Buchung, kein Fan-out. Zyklus schlank beendet
+(~3.4 von 5 USD).

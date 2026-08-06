@@ -441,6 +441,19 @@ siehe Roh-Beleg) zeigt, dass BKP 2 allein nur 90.63 ‰ resp. 100 % einer eigene
 Gleichsetzung mit den oben geführten BKP-1–5-Einzelfällen ohne diese Klärung wäre Raten, nicht
 Belegen (KB-Regel). Offene Frage dazu in `wiki/QUESTIONS.md`.
 
+> **Nachtrag 06.08.2026 (Mac Mini Nachtschicht).** Der in der Run-12-Notiz vorgeschlagene
+> nächste Schritt («ein anderes Kapitel derselben Schätzungsanleitung könnte den Scope
+> definieren») ist geprüft und **archivseitig eine Sackgasse**: das vorliegende PDF ist laut
+> eigenem Deckblatt nur «Kapitel 5: Tabellen» von «Teil III» der Schätzungsanleitung; die
+> Kapitel 1–4 (dort läge eine Begriffsdefinition) liegen nicht im Hub-Bestand. Dazu ein
+> zweites, unabhängiges Plausibilitätsargument (kein Beleg) für die bestehende Annahme «BKP 2
+> allein»: Tab. 2 und Tab. 3 («Prozentanteile an den Gebäudekosten BKP 2») stehen unmittelbar
+> aufeinanderfolgend auf derselben Doppelseite ohne Zwischenthema — Tab. 3 liefert exakt den
+> Umrechnungsfaktor BKP 2 → Gesamtkosten (906.3 ‰), die naheliegende Dramaturgie ist «erst der
+> m³-Preis des Gebäudes, dann das Werkzeug zur Hochrechnung». Details und Einordnung als
+> Plausibilitätsargument statt Beleg: `wiki/QUESTIONS.md`, Eintrag 06.08.2026. Frage 1 bleibt
+> formal offen.
+
 **Als Cross-Check trotzdem aufschlussreich:** MFH Bauklasse IV/V (667–734 CHF/m³, 2025) liegt
 unterhalb des in dieser KB geführten MFH-gehoben-Seed-Bands (850–1'050 CHF/m³) — konsistent mit
 der Annahme, dass die Neuwert-Richtwerte BKP 2 allein abbilden (ein BKP-1–5-Wert läge über einem

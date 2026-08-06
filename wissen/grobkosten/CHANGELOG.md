@@ -1,5 +1,22 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-06 (Mac Mini Nachtschicht) — Frage 1 (BKP-Scope): vorgeschlagener nächster Schritt geprüft (Sackgasse), zweites Plausibilitätsargument ergänzt
+
+Kein Trigger für eine neue Stufe-1-Exploration (Bring-Schuld `normen` weiterhin ungedeckt,
+`bauprodukte`-KORPUS-QUEUE noch nicht bei BKP 214/271, Frage 1/2 unentschieden) — statt die
+bekannten leeren SharePoint-/NAS-Pfade ein drittes Mal zu durchsuchen, den in Run 12
+(01.08.2026) selbst vorgeschlagenen nächsten Schritt geprüft: ob ein anderes Kapitel der
+Primärquelle («Schätzungsanleitung Teil III») den BKP-Scope der Neuwert-Richtwerttabelle
+explizit definiert. Ergebnis: **Sackgasse, archivseitig** — das vorliegende PDF ist laut
+Deckblatt nur «Kapitel 5: Tabellen», die Kapitel 1–4 liegen nicht im Hub-Bestand
+(`find` über den ganzen Ordner `IMMO - 03 KNOW-HOW` bestätigt: kein weiteres Kapitel
+vorhanden). Layouttreu am Original (`pdftotext -layout`) ein zweites, unabhängiges
+Plausibilitätsargument (kein Beleg) für die bestehende Annahme «BKP 2 allein» gefunden: Tab. 2
+und Tab. 3 («Prozentanteile an den Gebäudekosten BKP 2») stehen unmittelbar aufeinanderfolgend
+ohne Zwischenthema, Tab. 3 liefert exakt den Umrechnungsfaktor BKP 2 → Gesamtkosten. Frage 1
+bleibt formal offen, kein Kennwert verändert oder promoviert. `wiki/kennwerte.md` (Run-12-
+Abschnitt) und `wiki/QUESTIONS.md` (neuer Eintrag 06.08.2026) ergänzt.
+
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Neuwert-Richtwerte Tab. 2: Vorbehalt und gegenseitiger Zeiger gesetzt, Anker-Entscheid vorgelegt
 
 Befund F6-kennwerte-V1, adversarial verifiziert am Original-PDF
