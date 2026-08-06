@@ -441,3 +441,40 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   Notariat ist vor 08:39 ohnehin nicht moeglich). Statt dessen Abschnitt «AG-Gruendung
   05.08.2026» im heutigen Datumsblock von `logbuch/LOGBUCH.md`; `fristen.md` in beiden
   AG-Zeilen nachgefuehrt.
+
+- 06.08.2026 (ag-gruendung-monitor, 07:46): **Kein neuer Eingang. Neu ist eine Entlastung,
+  nicht eine Blockade — mit der Rückkehr des Notars ist die UBS-IBAN der einzige kritische
+  Pfad.** Zwei unabhängige Durchgänge über alle Konten in Apple Mail (`mail@` als
+  Primärkanal, `rj@` Exchange, `outlook.com`, iCloud, beide Gmail-Konten):
+  `scripts/mail-vorfilter.sh 30` über Posteingänge und Gesendete, dazu eine 10-Tage-Zielsuche
+  über **alle** Mailboxen jedes Kontos inklusive Entwürfe, Gelöschte und Junk (UBS,
+  Jeckelmann, key4, Notariat, Wiedikon, Mathies, REGIX, Handelsregister, Kapital,
+  Beurkundung). Übereinstimmend kein UBS-, Notariats- oder REGIX-Eingang; jüngste UBS-Belege
+  unverändert Jeckelmann 29.07. 16:55 (Exchange) und Bestätigungscode 29.07. 12:50 (mail@),
+  vom Notariat bleibt die Abwesenheitsantwort vom 03.08. 14:56:17 der letzte Eingang.
+
+  **(1) UBS-IBAN: Zusage um drei Arbeitstage überschritten.** Heute ist der sechste
+  Arbeitstag seit Einreichung Wiedikon 29.07. (30.07., 31.07., 03.08., 04.08., 05.08.,
+  06.08.), zugesagt waren drei. Ob der gestern empfohlene Anruf erfolgt ist, lässt sich am
+  Beleg nicht feststellen — ein Telefonat hinterlässt keine Mailspur; belegbar ist nur, dass
+  die IBAN in keinem Konto liegt. AKTION Raphael: B. Jeckelmann anrufen (044 236 48 48).
+
+  **(2) Notariat: Nachreichung ans Sammelpostfach zurückgestuft.** Sie ist weiterhin nicht
+  erfolgt (10-Tage-Suche über `Gesendete Elemente`: **kein einziger** ausgehender Treffer auf
+  `wiedikon-zuerich@notariate-zh.ch`; einziger ausgehender Notariatskontakt bleibt die Mail
+  an Mathies persönlich vom 03.08. 14:56). Neu ist die Bewertung: Mathies kehrt morgen 07.08.
+  zurück und liest die Mail vom 03.08. dann selbst. Die Weiterleitung lohnt nur noch bei
+  zwingendem Antwortbedarf heute, den es nicht gibt, solange die Kapitalbescheinigung fehlt.
+  Status von «überfällig» auf «beobachten bis 07.08.», Prio hoch auf mittel.
+
+  **Terminplan bestätigt:** Beurkundung «ab rund 10.08.» nicht zu halten; selbst bei IBAN
+  heute folgen Einzahlung, zwei Arbeitstage Kapitalbescheinigung per Einschreiben und der
+  notarielle Vorlauf. Realistisch die Woche vom 17.08.
+
+  **Phasenlage unverändert:** Kapitaleinzahlungskonto beantragt und freigegeben → **IBAN
+  ausstehend** → Einzahlung CHF 100'000 → Kapitalbescheinigung (2 AT, Einschreiben) →
+  Beurkundung → HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com`.
+  **Keine Mail gesendet** (Ein-Mail-Prinzip): keine Kapitalbescheinigung, kein vergebener
+  oder verfallender Termin, keine 24-Stunden-Frist; der UBS-Anruf stand bereits im
+  Chef-Briefing vom 05.08. Statt dessen Abschnitt «AG-Gründung 06.08.2026» im heutigen
+  Datumsblock von `logbuch/LOGBUCH.md`; `fristen.md` in beiden AG-Zeilen nachgeführt.
