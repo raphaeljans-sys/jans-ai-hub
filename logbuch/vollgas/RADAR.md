@@ -48,6 +48,7 @@ Neueste Eintraege zuoberst.
 
 Legende: P1 = Blocker/groesster Hebel, P2 = starker Hebel, P3 = Feinschliff.
 Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt (Ziel im VOLLGAS-Regime) ·
+[WOCHE LEER] Wochenkontingent erschoepft (Vorfall, nicht Erfolg — Lern-Loops stilllegen bis Reset) ·
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
@@ -90,8 +91,8 @@ Drossel nach Schritt 2c ist **nicht** ausgelöst und wurde **nicht** gesetzt.
   3 gewachsene Themenartikel, E-123-1 geschlossen. Minergie-Produktreglement 2026.1,
   ecoBKP 2026 Tragwerk/Hülle/Gebäudetechnik.
 - **Wissens-Chef Run 26** (23:11, Cross-KB, 15 Agenten): zwei VKF-Publikationen als überholt
-  ausgewiesen (BSM 2001-15 Unterdachbahnen RF4(cr)→**RF3(cr) Pflicht seit 01.01.2017**;
-  BRL 22-15 Hochhaus-Blitzschutzklasse III→II), erfundener SIA-2023-Titel korrigiert,
+  ausgewiesen (BSM 2001-15 Unterdachbahnen RF4(cr) → **RF3(cr) Pflicht seit 01.01.2017**;
+  BRL 22-15 Hochhaus-Blitzschutzklasse III → II), erfundener SIA-2023-Titel korrigiert,
   Thalwil Ziff. 4.5 terminkritisch ins Fristen-Register. Daraus die **neue Rule 260805**
   (Fristen gehören ins Register, nicht nur in den Laufbericht).
 - **`bauprodukte`** (Nachtschicht 23:37): ERCO-Lichtplanungs-Ratgeber S. 73 → 95,
@@ -118,7 +119,7 @@ keinem Radar-Eintrag je vorgekommen.
 
 **Inventar Mac Mini (`~/.claude/scheduled-tasks/`), erstmals erhoben:**
 
-| Task | Frontmatter-Stand | tatsächlich gefeuert |
+| Task | Frontmatter-Stand | Tatsächlich gefeuert |
 |---|---|---|
 | `energie-training` | `enabled: false`, `cron_target: 0 10,16,23 * * *` | **täglich ~22:37**, zuletzt 05.08. |
 | `planungsgrundlagen-training` | DEAKTIVIERT 03.08. (→ `-wartung`, monatlich) | zuletzt **01.08. 22:34**, also vor der Deaktivierung |
@@ -128,6 +129,11 @@ keinem Radar-Eintrag je vorgekommen.
 | `normen-training-mini` | STILLGELEGT 17.07. (DIN/VSS/RAL komplett) | nein |
 | `synobsis-batch-nacht` | DEAKTIVIERT 28.07. (KB saturiert 853/853) | nein |
 | `grobkosten-training` | `cron_target: 0 9,21 * * *` | nein |
+
+**Nicht verwechseln:** `normen-training-mini` (Mini, DIN/VSS/RAL, stillgelegt) und
+`normen-training-nacht` (MacBook, SIA+VKF, täglich 01:28) sind **zwei verschiedene Tasks** mit
+getrenntem Umfang, nicht zwei Namen für denselben Loop. Am `description`-Feld beider Dateien
+gegengeprüft. Der Stations-Split der Normen-Arbeit ist genau so gewollt (Stand 29.07.).
 
 **Zwei Klarstellungen, damit dieser Befund nicht als Skandal weitergetragen wird:**
 
