@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.08.2026 07:59:02
+Stand: 06.08.2026 08:09:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:54)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 06.08.2026 07:59:02
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9df6910e nas-selfcommit: 3 Datei(en) 2026-08-06 07:45
+- a1bc3359 logbuch: Debitoren-Verzugscheck 06.08. (still) — RE-00100 Sperrgrund gewechselt (Versand belegt 03.08., Faelligkeit 30.07. liegt davor), einziger Handlungsposten bleibt RE-00087
