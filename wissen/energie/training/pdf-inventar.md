@@ -281,3 +281,10 @@ allein reicht nicht — `Checkliste WB.pdf` ist mit 6,6 MB die groesste Datei de
 **Stand PL-02:** **36 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122,
 9 in Run 123, **8 in Run 124**), **146 offen** — zuzueglich zweier Web-Quellen ausserhalb des
 Inventars (ecoBKP 2026, Minergie-Produktreglement 2026.1).
+
+## Nachtrag 2026-08-06 (Mac Mini Nachtschicht 13:30): ecoBKP 2026 vollstaendig gelesen
+
+**Web-Quelle** ecoBKP 2026, bedruckte S. 87-133 (Rest des Werks) destilliert in
+`ecobkp-2026-ausbau` (271, 273, 276, 281, 282, 283, 285) und
+`ecobkp-2026-baureinigung-umgebung-erschliessung` (287, 421, 450). Zusammen mit den drei
+Run-124-Destillaten ist das Werk (138 S.) damit **vollstaendig** in der KB erfasst.

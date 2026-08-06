@@ -7196,3 +7196,30 @@ wenn die Statik bereits auf Primärbeton gerechnet ist.
 Anteil der Tragstruktur an der grauen Energie → `[[graue-energie]]`; Holzbau-Bauphysik →
 `[[holzbau-bauphysik-clt]]`. BKP-Codes nach BKP 2017 nicht mit ecoBKP-Merkblattnummern verwechseln
 (Rule `bkp-2017-referenz`). Status **emerging**.
+
+---
+
+## F216 — «Gilt der Formaldehyd-Grenzwert nur beim Rohbau, oder auch im Innenausbau?»
+
+**Kurz:** Der Grenzwert (Ausgleichskonzentration ≤ 0,02 ppm, über 0,03 ppm nicht empfohlen) zieht
+sich durch **alle** Ausbau-Merkblätter des ecoBKP 2026, die Holzwerkstoffe mit Verleimung
+betreffen — Gipserarbeiten (Akustikputz-Trägerplatten), Schreinerarbeiten, Innere Abschlüsse,
+Bodenbeläge, Wandbeläge und Deckenbekleidungen. Er ist keine Rohbau-Einzelvorgabe, sondern die
+am häufigsten wiederholte Klausel im ganzen Werk.
+
+**Fachlich:** Bei einer Formaldehyd-Ausgleichskonzentration von ≤ 0,02 ppm ist ein Produkt ohne
+Einschränkung einsetzbar. Bei ≤ 0,03 ppm gilt eine Ausnahme: Einsatz auf **maximal 3 von 6
+Raumoberflächen bzw. 50 % der Raumoberflächen**, sonst diffusionsdicht beschichten (z.B.
+Melaminharzfolie, CPL/HPL-Platten, deckende Beschichtung oder Furnier mit transparenter
+Beschichtung). Über 0,03 ppm ist ein Produkt generell nicht empfohlen. Formaldehydfreie
+Leimsysteme sind PMDI, PU/PUR und PVAc; formaldehydhaltige sind UF, MUF und PF.
+
+**Bauherren-Transfer:** Für ein Devis mit mehreren Ausbau-Gewerken (Schreiner, Trockenbau,
+Bodenbeläge, Wandbeläge) heisst das: **eine einzige Formaldehyd-Klausel** im Vorspann des
+Leistungsverzeichnisses deckt alle Gewerke ab, statt sie in jedem Einzel-LV neu zu formulieren —
+und sie ist überprüfbar über die Produktdatenblätter der Anbieter (Emissionsprüfung nach der
+ecobau-Methodik Baumaterialien oder Eintrag in der ecoProdukteliste).
+
+**Quelle:** Verein ecobau, «ecoBKP», Stand Januar 2026, V 1.0, Merkblätter ecoBKP 271, 273, 276,
+281, 282, 283 (bedruckte S. 87-118), gelesen 06.08.2026 → `[[ecobkp-2026-ausbau]]`. Status
+**emerging**.

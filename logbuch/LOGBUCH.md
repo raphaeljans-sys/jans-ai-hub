@@ -4287,3 +4287,8 @@ liefert exakt den Umrechnungsfaktor BKP 2 zu Gesamtkosten. Frage 1 bleibt formal
 Kennwert veraendert oder promoviert. `wiki/kennwerte.md`, `wiki/QUESTIONS.md` und CHANGELOG
 nachgefuehrt. Kein Versand/Publikation/Buchung, kein Fan-out. Zyklus schlank beendet
 (~3.4 von 5 USD).
+
+## Energie-Training 06.08.2026 (Mac Mini Nachtschicht 13:30, Versuchs-Slot)
+ecoBKP 2026 vollstaendig gelesen (Rest S. 87-133): zwei neue Destillate (`ecobkp-2026-ausbau`,
+`ecobkp-2026-baureinigung-umgebung-erschliessung`), FAQ F216 neu. Details:
+`wissen/energie/CHANGELOG.md` 06.08.2026. Kein Fan-out, Budgetdisziplin eingehalten.

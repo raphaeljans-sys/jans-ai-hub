@@ -1,4 +1,23 @@
-# CHANGELOG — KB Energie
+# CHANGELOG
+
+## 2026-08-06 (Mac Mini Nachtschicht 13:30, Versuchs-Slot) — ecoBKP 2026 vollstaendig gelesen (Rest S. 87-133), F216 neu
+
+Fortsetzung von Run 124 (Prioritaet 1 des Run-124-Ausblicks): die restlichen bedruckten Seiten
+87-133 des ecoBKP 2026 (ecoBKP 271, 273, 276, 281, 282, 283, 285, 287, 421, 450) gelesen und in
+zwei neue Destillate ueberfuehrt — `ecobkp-2026-ausbau` (Ausbau-Gewerke 271-285) und
+`ecobkp-2026-baureinigung-umgebung-erschliessung` (287, 421, 450). Damit ist das Werk (138 S.)
+vollstaendig destilliert. Eine neue Bauherren-Antwort **F216** («Formaldehyd-Grenzwert nur
+Rohbau oder auch Innenausbau?») fasst die durchgaengige Formaldehyd-Klausel ueber alle
+Ausbau-Merkblaetter zusammen. Kein Fan-out, kein Refuter-Panel (beide Destillate bleiben
+`emerging`, keine established-Kandidaten). Einzelagenten-Lauf ohne Subagenten (Budgetdisziplin
+Nachtschicht, 5-USD-Zyklus). Register nachgefuehrt: `destillate/INDEX.md` (2 Zeilen),
+`training/pdf-inventar.md` (Nachtrag), `wiki/BAUHERREN-FAQ.md` (F216).
+
+**Offen fuer naechsten Lauf:** ecoBKP 272, 274, 275, 277-280, 284, 286 im gelesenen Bereich nicht
+angetroffen (vermutlich nicht separat gefuehrt oder unter Nachbarpositionen) — bei Bedarf am
+Original pruefen; Anhang J und G des Minergie-Produktreglements 2026.1 (unveraendert aus Run 124
+offen); Minergie-PL-02-Restbestand (146 von 182 offen).
+ — KB Energie
 
 Neueste zuoberst.
 
