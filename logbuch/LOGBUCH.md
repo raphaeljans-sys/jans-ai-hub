@@ -4292,3 +4292,18 @@ nachgefuehrt. Kein Versand/Publikation/Buchung, kein Fan-out. Zyklus schlank bee
 ecoBKP 2026 vollstaendig gelesen (Rest S. 87-133): zwei neue Destillate (`ecobkp-2026-ausbau`,
 `ecobkp-2026-baureinigung-umgebung-erschliessung`), FAQ F216 neu. Details:
 `wissen/energie/CHANGELOG.md` 06.08.2026. Kein Fan-out, Budgetdisziplin eingehalten.
+
+## 2026-08-06 — Mac Mini Nachtschicht 23:31 (KB bauprodukte, ERCO-Ratgeber S.120→145)
+
+Prioritaeten 1-3 leer/bereits abgedeckt (keine Sync-/Remote-Tasks ausser dem seit 31.07.
+zurueckgehaltenen Freigabe-Task Cockpit-Server; Synobsis Stufe 2 bei 853/853 gesaettigt und
+deaktiviert, venv+vectors.npz aktuell; Fristen-Register laufend durch Hub-Chef 08:39 und
+Radar 06:55 gepflegt, alle Eintraege bereits mit Status/Entwurf versorgt, kein
+unbearbeitetes Ueberfaelliges gefunden). Prioritaet 4: `bauprodukte` war unter den drei
+freien Ziel-KBs am laengsten unberuehrt (letzter Stand heute 02:39, gegenueber `grobkosten`
+05:37 und `energie` 13:30 desselben Tages). ERCO-Ratgeber von S. 120 auf S. 145
+fortgeschrieben: Unterkapitel "Arten des Beleuchtens" abgeschlossen (Fluten/Akzentuieren/
+Projektion/Orientierung), neues Unterkapitel "Leuchtengruppen" begonnen (Stromschiene bis
+Arbeitsplatzleuchten vollstaendig, Wandleuchten begonnen). Register (INDEX, PROGRAMM,
+Inventar, CHANGELOG) nachgefuehrt. Kein Versand, keine Buchung, kein Fan-out. Report:
+`wissen/bauprodukte/CHANGELOG.md`, Eintrag 23:31.

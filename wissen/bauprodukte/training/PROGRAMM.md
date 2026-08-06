@@ -37,16 +37,19 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 06.08.2026 (Nachtschicht):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+**Stand 06.08.2026 (Nachtschicht 23:31):** 37 Sektionen inventarisiert · 214 Dateien erfasst
 · 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
 · 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und Lampen, P1) von
-Seite 95 auf Seite 120 fortgeschrieben — Kapitel «Planungspraxis» vollstaendig
-abgeschlossen (Montage Wand/Boden, Wartung), Kapitel «Licht visualisieren» vollstaendig
-(Zeichnung, Simulation, Modell/Mock-up), Kapitel «Innenraumbeleuchtung» begonnen (Arten
-des Beleuchtens Allgemein vollstaendig, Fluten begonnen) → [[erco-lichtplanung-grundlagen]].
-Rest (Innenraumbeleuchtung Rest, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik,
+Seite 120 auf Seite 145 fortgeschrieben — Unterkapitel «Arten des Beleuchtens»
+(Innenraumbeleuchtung) vollstaendig abgeschlossen (Fluten symmetrisch/asymmetrisch,
+Akzentuieren, Projektion, Orientierung), Unterkapitel «Leuchtengruppen» begonnen
+(Stromschiene/Strahler/Fluter/Wandfluter/Lichtstrukturen/Downlights/Arbeitsplatzleuchten
+vollstaendig, Wandleuchten begonnen) → [[erco-lichtplanung-grundlagen]].
+Rest (Leuchtengruppen-Rest, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik,
 Simulation und Berechnung, Glossar) offen fuer weitere Folgelaeufe.
-Zuvor, 05.08.2026 (Nachtschicht 23:30): Seite 73 auf Seite 95 fortgeschrieben. Zuvor,
+Zuvor, 06.08.2026 (Nachtschicht 02:39): Seite 95 auf Seite 120 fortgeschrieben (Kapitel
+«Planungspraxis» und «Licht visualisieren» abgeschlossen). Zuvor,
+05.08.2026 (Nachtschicht 23:30): Seite 73 auf Seite 95 fortgeschrieben. Zuvor,
 05.08.2026 (Nachtschicht 02:31): Seite 53
 auf Seite 73 fortgeschrieben (Kapitel «Mit Lichtfarben gestalten» abgeschlossen,
 «Planungspraxis» begonnen). Zuvor, 04.08.2026 (Nachtschicht 05:30):

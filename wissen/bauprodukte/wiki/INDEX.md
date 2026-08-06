@@ -14,7 +14,7 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
-- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-120 von ca. 435):
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-145 von ca. 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
   (Lichtrichtung/-verteilung/Kontrastskala), Mit Lichtfarben gestalten (Farbe,
@@ -22,9 +22,11 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   Planungspraxis vollständig (Projektanalyse, Lampen-/Leuchtenauswahl inkl.
   Lichtverteilung/Montagearten/UGR/Beleuchtungsstärke/IP-Schutzart, Leuchtenanordnung,
   Montage Decke/Wand/Boden, Wartung), Licht visualisieren vollständig (Zeichnung,
-  Simulation, Modell/Mock-up), Innenraumbeleuchtung begonnen (Arten des Beleuchtens
-  Allgemein vollständig: direkt/direkt diffus/indirekt/kombiniert, Fluten begonnen).
-  Weitere Kapitel offen (Innenraumbeleuchtung Rest, Aussenraumbeleuchtung,
+  Simulation, Modell/Mock-up), Innenraumbeleuchtung: Arten des Beleuchtens vollständig
+  (Allgemein direkt/direkt diffus/indirekt/kombiniert, Fluten, Akzentuieren, Projektion,
+  Orientierung), Leuchtengruppen begonnen (Stromschiene/Strahler/Fluter/Wandfluter/
+  Lichtstrukturen/Downlights/Arbeitsplatzleuchten vollständig, Wandleuchten begonnen).
+  Weitere Kapitel offen (Leuchtengruppen-Rest, Aussenraumbeleuchtung,
   Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar)
 
 ### BKP 261 — Aufzüge

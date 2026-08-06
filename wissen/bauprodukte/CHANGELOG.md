@@ -1,5 +1,38 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-06 (Mac Mini Nachtschicht 23:31) — ERCO-Ratgeber auf S. 145 fortgeschrieben, «Arten des Beleuchtens» abgeschlossen, «Leuchtengruppen» begonnen
+
+Budgetdisziplinierter Einzellauf (kein Fan-out, ein `pdftotext -layout` Read S. 121-145).
+Prioritaeten 1-3 leer/bereits abgedeckt (keine Sync-/Remote-Tasks ausser dem seit 31.07.
+zurueckgehaltenen Freigabe-Task Cockpit-Server; Synobsis Stufe 2 bei 853/853 gesaettigt
+und deaktiviert; Fristen-Register laufend durch Hub-Chef 08:39 und Radar 06:55 gepflegt,
+alle Eintraege in `fristen.md` bereits mit Status/Entwurf versorgt, kein unbearbeitetes
+Ueberfaelliges gefunden). Trainings-Prioritaet 4: `bauprodukte` war unter den drei freien
+Ziel-KBs am laengsten unberuehrt (letzter inhaltlicher Stand heute 02:39, gegenueber
+`grobkosten` 05:37 und `energie` 13:30 desselben Tages).
+
+- **[[erco-lichtplanung-grundlagen]]** (BKP 233 Leuchten und Lampen) von Seite 120 auf
+  Seite 145 fortgeschrieben. Unterkapitel «Arten des Beleuchtens» (Innenraumbeleuchtung)
+  vollstaendig abgeschlossen: Fluten symmetrisch/asymmetrisch (S. 120-124), Akzentuieren
+  (S. 125-126), Projektion (S. 127), Orientierung (S. 128-129, mit Fluchtweg-/
+  Brandschutzbezug — Anschlusspunkt zu [[normen]]/Skill `brandschutz` vermerkt). Neues
+  Unterkapitel «Leuchtengruppen» begonnen (S. 130-145): Stromschiene, Strahler
+  (30°-Anordnung deckt sich mit dem bereits notierten Museumswinkel), Fluter, Wandfluter
+  (Anordnungsregel mit 20°-Mindestwinkel praezisiert die bisherige Faustregel),
+  Lichtstrukturen (dritter unabhaengiger Beleg des 0,8-m-Deckenabstands), Downlights
+  (inkl. Mindestzahl-drei-Leuchten-Regel fuer Wandfluter), Arbeitsplatzleuchten — alle
+  sechs vollstaendig; Wandleuchten begonnen (Deckenfluter/Bodenfluter angerissen).
+  Frontmatter (`gelesen`, `sources`, Titel) nachgefuehrt; vier neue Praxisrelevanz-Punkte
+  ergaenzt (Brandschutzbezug Orientierungsbeleuchtung, Drei-Leuchten-Mindestzahl als
+  Kostenargument, 20°-Mindestwinkel als Vorpruef-Faustregel). Weiterhin herstellerneutral.
+- Editionsdaten-Nachtrag: S. 110-129 durchgehend 25.07.2006, S. 130-145 durchgehend
+  05.09.2006 — der Wechsel faellt wieder mit einer Kapitelgrenze zusammen (Arten des
+  Beleuchtens → Leuchtengruppen), bestaetigt das bereits am 06.08. 02:39 beobachtete Muster.
+- Register nachgefuehrt: `skills/wissens-destillat/training/bauprodukte-inventar.md`
+  (Zeile `de_erco_guide.pdf` auf S.1-145), `training/PROGRAMM.md` (Stand-Absatz),
+  `wiki/INDEX.md` (Eintrag BKP 233 auf S.1-145 mit erweiterter Themenliste).
+- Kein Versand/Publikation/Buchung, kein Fan-out. Zyklus schlank beendet (~3.7 von 5 USD).
+
 ## 2026-08-06 (Mac Mini Nachtschicht) — ERCO-Ratgeber auf S. 120 fortgeschrieben, Planungspraxis + Licht visualisieren abgeschlossen, Innenraumbeleuchtung begonnen
 
 Budgetdisziplinierter Einzellauf (kein Fan-out, ein `pdftotext -layout` Read S. 96-120).
