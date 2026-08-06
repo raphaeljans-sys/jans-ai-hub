@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.08.2026 07:20:35
+Stand: 06.08.2026 07:40:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 06.08.2026 07:20:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 3e92fbf4 logbuch-radar 06.08.2026: Radar-Briefing ins Logbuch (still, keine Mail); Register: Estermann-Plangrundlage erledigt (Versand RJ 05.08. 17:04), zwei RJ-Zusagen fuer heute, RE-00100-Versandnachweis belegt
+- da61310c nas-selfcommit: 1 Datei(en) 2026-08-06 07:30
