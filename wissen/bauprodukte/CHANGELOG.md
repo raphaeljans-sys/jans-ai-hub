@@ -1,5 +1,36 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-06 (Mac Mini Nachtschicht) — ERCO-Ratgeber auf S. 120 fortgeschrieben, Planungspraxis + Licht visualisieren abgeschlossen, Innenraumbeleuchtung begonnen
+
+Budgetdisziplinierter Einzellauf (kein Fan-out, ein `pdftotext -layout` Read S. 96-120).
+`grobkosten` (Stufe-1-Exploration dreifach bestaetigt gesaettigt, letzter Bring-Schuld-Check
+04.08. ohne neuen Ausloeser) und `energie`/`bauprodukte` selbst bereits gestern Nacht bearbeitet
+gegeneinander abgewogen; `bauprodukte` bleibt als einziges P1-Ziel der Korpus-Queue der klare
+naechste Kandidat.
+
+- **[[erco-lichtplanung-grundlagen]]** (BKP 233 Leuchten und Lampen) von Seite 95 auf
+  Seite 120 fortgeschrieben. Kapitel «Planungspraxis» vollstaendig abgeschlossen: Montage
+  Wand (Auf-/Einbau, Beton-/Hohlwand, Wandausleger/Kragarm) und Boden (Einbau-/
+  Aufbauleuchten, Poller-/Mastleuchten), dazu Pendelleuchten und Betondecken-Einbau
+  (Statik-/Armierungs-Abstimmung); Wartung (Verminderungsfaktor, Wartungsplan). Kapitel
+  «Licht visualisieren» vollstaendig: Zeichnung (Skizze/Storyboard/Moodboard/Technische
+  Zeichnung/Diagramm), Simulation (Qualitativ/Quantitativ/Animation), Modell (Modellbau/
+  Mock-up/Tageslichtsimulation). Kapitel «Innenraumbeleuchtung» begonnen: Arten des
+  Beleuchtens Allgemein vollstaendig (direkt gerichtet/direkt diffus/indirekt/kombiniert,
+  je mit Beobachtung/Folgerung/Anwendung/Referenzprojekten aus dem Dokument), Fluten
+  begonnen (symmetrisch/asymmetrisch). Frontmatter (`gelesen`, `sources`, Titel)
+  nachgefuehrt; sechs neue Praxisrelevanz-Punkte ergaenzt (Statik-Koordination
+  Betondecken, zweiter Beleg fuer den 0,8-m-Deckenabstand, Vokabular der vier
+  Beleuchtungsarten fuer die Konzeptphase, abgestufte Visualisierungs-Palette).
+  Weiterhin herstellerneutral.
+- Beobachtung: der Editionsdaten-Wechsel (S. 74-98 durchgehend 26.06.2006, S. 99-109
+  wieder 19.07.2007, S. 110-120 wieder 25.07.2006) faellt diesmal mit Kapitelgrenzen
+  zusammen, anders als der reine Seitenwechsel im vorherigen Abschnitt — im naechsten
+  Lauf weiter mitfuehren, kein Handlungsbedarf.
+- Register nachgefuehrt: `skills/wissens-destillat/training/bauprodukte-inventar.md`
+  (Zeile `de_erco_guide.pdf` auf S.1-120), `training/PROGRAMM.md` (Stand-Absatz),
+  `wiki/INDEX.md` (Eintrag BKP 233 auf S.1-120 mit erweiterter Themenliste).
+
 ## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — ecoBKP-Zeiger positionsweise auf 2026 nachgezogen, ERCO gegen EN 12464-1 abgegrenzt
 
 Run 25 hatte am 04.08. Zeiger auf den eco-bau-Stand **2008** gesetzt. Einen Tag spaeter lag die

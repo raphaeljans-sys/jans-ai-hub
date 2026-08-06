@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis (Teil 1/n, Seiten 1-95)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung (Teil 1/n, Seiten 1-120)"
 status: emerging
-last_updated: 2026-08-05
-gelesen: "Seiten 1-95 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» weit fortgeschritten: Planungsprozess/Projektanalyse/Lichtkonzept-Übersicht S. 63-68, Lampenauswahl S. 69-71, Leuchtenauswahl S. 72-84 VOLLSTÄNDIG (Lichtverteilung direkt-indirekt/breit-eng/symmetrisch-asymmetrisch/horizontal-vertikal, Sonderanfertigung, Lichtfarbe, Montagearten integriert-additiv/fest-flexibel, Leuchtdichte/Blendung/UGR, Beleuchtungsstärke, Sicherheitsanforderung Schutzart/Schutzklasse), Leuchtenanordnung S. 85-93 VOLLSTÄNDIG (Boden/Wand/Decke/Objekt/horizontale+vertikale Flächen/Punktraster/Lineare Elemente), Montage begonnen S. 94-95 (Decke: abgehängte Decken, Paneeldecken, Deckenkanal)). Offen: «Montage» Rest (Wand, Boden), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis (weit fortgeschritten), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-95 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-06
+gelesen: "Seiten 1-120 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG inkl. Montage S. 94-98 (Decke/Wand/Boden) und Wartung S. 98 (Verminderungsfaktor, Wartungsplan); Kapitel «Licht visualisieren» VOLLSTÄNDIG S. 99-109 (Zeichnung: Skizze/Storyboard/Moodboard/Technische Zeichnung/Diagramm; Simulation: Qualitativ/Quantitativ/Animation; Modell: Modellbau/Mock-up/Tageslichtsimulation); Kapitel «Innenraumbeleuchtung» begonnen S. 110-120 (Arten des Beleuchtens — Allgemein VOLLSTÄNDIG: direkt gerichtet/direkt diffus/indirekt/direkt und indirekt je mit Beobachtung/Folgerung/Anwendung/Referenzprojekten; Fluten begonnen S. 120: symmetrisch/asymmetrisch)). Offen: «Innenraumbeleuchtung» Rest (Fluten fertig, Akzentuieren, Projektion, Orientierung, Leuchtengruppen, Lichtanwendungen), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung» (separates Kapitel laut Keywords, ungeklärt ob deckungsgleich mit dem bereits gelesenen «Licht visualisieren»-Simulation-Abschnitt), «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung (begonnen), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-120 Edition 25.07.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[REGISTER]]
 ---
 
@@ -12,10 +12,10 @@ links: [[REGISTER]]
 BKP-Einordnung: **BKP 233 Leuchten und Lampen** (verifiziert gegen
 `references/bkp-2017/BKP-2017-Liste.md`, Subpositionen 233.0 Lieferung / 233.1
 Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
-**Planungsgrundlagenwissen** aus den ersten drei Kapiteln des ERCO-Ratgebers — einer
+**Planungsgrundlagenwissen** aus den ersten Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 95 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 120 Seiten.
 
 ## Herstellerneutralität
 
@@ -462,15 +462,102 @@ erzielen. Der Ratgeber gliedert nach Bezugsfläche/-element:
   Raums und erlauben komplexere, verzerrungsfreie Anordnungen, weil die Linienführung real
   vorhanden statt nur durch Gestaltwahrnehmung angedeutet ist.
 
-## Montage (begonnen, S. 94-95: Decke)
+## Montage (S. 94-98: Decke, Wand, Boden)
 
-Drei Montagevarianten für Downlights: Einbau, Aufbau, Pendel. Für die Decke bereits
-gelesen: **abgehängte Decken** (z. B. Gipskarton, freie Platzierung unabhängig vom
-Deckenraster, Gewicht ggf. über eigene Abhänger an oder bei der Leuchte abfangen,
-Einputzringe bei verputzter Decke), **Paneeldecken/Wabenrasterdecken** (Einbaukassetten
-auf das Rastermass abgestimmt) und **Deckenkanal** (Montage an einer im Kanal geführten
-Stromschiene für nicht sichtbar integrierte Lichtquellen). Wand- und Bodenmontage sind
-in der Quelle ab S. 96 noch nicht gelesen.
+Drei Montagevarianten für Downlights: Einbau, Aufbau, Pendel. **Decke:** abgehängte
+Decken (z. B. Gipskarton, freie Platzierung unabhängig vom Deckenraster, Gewicht ggf.
+über eigene Abhänger an oder bei der Leuchte abfangen, Einputzringe bei verputzter
+Decke), Paneeldecken/Wabenrasterdecken (Einbaukassetten auf das Rastermass
+abgestimmt), Deckenkanal (Montage an einer im Kanal geführten Stromschiene für
+nicht sichtbar integrierte Lichtquellen), Pendelleuchten (leichte Leuchten an der
+Anschlussleitung, schwerere über separate Drahtseil- oder starre
+Pendelrohr-Abhängung), Betondecken (Leuchtenöffnungen werden beim Giessen
+ausgespart oder fertige Einbaugehäuse auf der Schalung befestigt; **Statik- und
+Armierungs-Abstimmung mit dem Bauingenieur ist Pflicht**, verdeckte Unterzüge
+können Montageorte ausschliessen). **Wand:** Auf- oder Einbau, Einbau sowohl in
+Beton- als auch in Hohlwänden möglich; Wandausleger-/Kragarmmontage im
+Innenraum für Stellwände, im Aussenraum für Fassaden. **Boden:** Einbau- und
+Aufbauleuchten; beim Bodeneinbau trittsichere, feuchtigkeitsdichte Abdeckung
+nötig; im Aussenbereich zusätzlich Poller- und Mastleuchten.
+
+## Wartung (S. 98)
+
+Der **Verminderungsfaktor** (Lichtplanungsgrösse) steuert die Wartungsabstände:
+ein kleiner Faktor erzeugt ein höheres Anfangsbeleuchtungsniveau und verlängert
+den Zeitraum bis zum Unterschreiten des kritischen Lichtstromwerts. Der
+Wartungsfaktor kann zudem Lampenwechsel und Leuchtenreinigung zeitlich
+zusammenlegen. Bei Präsentationsbeleuchtung gehört auch die Nachjustierung der
+Leuchten (nach jeder Umgestaltung) zur qualitativen Wartung; ein Wartungsplan
+soll den Betreiber befähigen, termingerecht und anforderungsgerecht zu warten.
+
+## Licht visualisieren (S. 99-109)
+
+Darstellungsformen für Beleuchtungskonzepte, vom technischen Deckenplan bis zum
+3D-Modell — Vokabular für die Kommunikation mit Bauherrschaft und Fachplanern.
+
+**Zeichnung:** Skizze (einfache Lichtkegel-Andeutung, auf dunklem Untergrund mit
+hellen Buntstiften/Kreide besonders geeignet für nächtliche Aussenraumbeleuchtung;
+eine bewusst vereinfachte Skizze kann eine Lichtwirkung griffiger darstellen als
+eine künstlich gestaffelte "realitätsgetreue" Abstufung), Storyboard (skizzenhafte
+Darstellung des räumlichen/zeitlichen Ablaufs einer Lichtinszenierung, geeignet
+für szenografische Lichtplanung entlang der Raumsequenz oder des Tagesablaufs),
+Moodboard (Sammlung von Bildern/Materialien/Farben/Begriffen zur
+Emotionsbeschreibung, paralleles Collagieren mehrerer Stimmungen möglich),
+Technische Zeichnung (exakte Leuchtenart/-anordnung im Deckenplan und Schnitt,
+bei Strahlern inkl. Ausrichtung; Tabelle mit Leuchtensymbolen/Eigenschaften;
+Elektroplanung braucht zusätzlich Stromkreise/Schalter/Taster/Schutzarten),
+Diagramm (Isoluxdiagramm = Linien gleicher Beleuchtungsstärke, Isocandeladiagramm
+= Linien gleicher Leuchtdichte).
+
+**Simulation:** Qualitative Simulation (Fokus Raumatmosphäre, bis zur
+fotorealistischen Abbildung), Quantitative Simulation (physikalisch korrekte
+Zahlenwerte für definierte Sehaufgaben, prüft normseitige Anforderungen wie
+Gleichmässigkeit der Beleuchtungsstärkeverteilung; Falschfarbendarstellung mit
+Farbskala zur Veranschaulichung von Wertbereichen), Animation (Einzelbilder aus
+Simulation zu Film; konstante Kamera + wechselnde Beleuchtung oder umgekehrt ist
+vergleichsweise einfach, beides gleichzeitig deutlich aufwendiger).
+
+**Modell:** Modellbau (Massstab 1:100/1:200 für Tageslichtwirkung ganzer Gebäude,
+1:20 bis 1:10 für differenzierte Beleuchtungseffekte einzelner Bereiche;
+kritischstes Detail bei kleinem Massstab sind die Leuchtenmodelle selbst, oft via
+Lichtleitertechnik von einer externen Quelle gespeist), Mock-up (Nachbildung
+einer Raumsituation 1:1, v.a. für eigens angefertigte oder architekturintegrierte
+Leuchten die optimale Entscheidungsgrundlage), Tageslichtsimulation (im Freien
+mit sonnenuhrähnlichem Anzeigeinstrument oder im Sonnensimulator mit beweglicher
+künstlicher Sonne; künstlicher Himmel simuliert bedeckten Himmel und ermöglicht
+Messung des Tageslichtquotienten).
+
+## Innenraumbeleuchtung — Arten des Beleuchtens (S. 110-120, Allgemein vollständig)
+
+Vier Grundarten der **allgemeinen** (gleichmässigen, auf die horizontale Nutzebene
+bezogenen) Beleuchtung, je mit Beobachtung/Folgerung/Anwendung/Referenzprojekten
+aus dem Dokument:
+
+- **Direkt gerichtet:** gute Modellierung und Brillanz, gute Wahrnehmung von Formen/
+  Oberflächenstrukturen, Sehkomfort steigt mit dem Abblendwinkel, energieeffizient;
+  bei Arbeitsplätzen Reflexblendung beachten. Referenzprojekte im Dokument: Dubai
+  International Airport, Centre Pompidou Paris, Kongress Palast Valencia.
+- **Direkt diffus:** weiche Beleuchtung mit wenig Schatten/Reflexen, schwache
+  Modellierung, energieeffizient (Leuchtstofflampen); geeignet für Arbeitsbereiche,
+  multifunktionale Räume, Museen, Ausstellungen, Verkehrszonen. Bevorzugte
+  Leuchtengruppen: Lichtstrukturen, Downlights, Wandleuchten, Lichtdecken.
+  Referenzprojekte: Prada Mailand, Deutsches Architekturmuseum Frankfurt,
+  Fondation Beyeler Basel.
+- **Indirekt:** Decke/Wand als Sekundärreflektor, offener Raumeindruck, aber
+  wesentlich höherer Lichtstrom nötig als bei Direktbeleuchtung für dieselbe
+  Beleuchtungsstärke; Sekundärreflektor braucht hohen Reflexionsgrad; **Montage
+  über Augenhöhe, Deckenabstand mindestens 0,8 m**; Direkt-/Reflexblendung
+  weitgehend vermieden. Referenzprojekte: British Museum London, Eremitage
+  St. Petersburg.
+- **Direkt und indirekt kombiniert:** Uniformität auf der Nutzebene steigt mit
+  Raumhöhe, Uniformität auf der Decke steigt mit Leuchtenabstand zur Decke;
+  Referenzprojekte: Reichstag Berlin, Palacio de la Aljafería Zaragoza.
+
+**Fluten (begonnen, S. 120):** architektur-/objektorientierte Beleuchtung zum
+Sichtbarmachen von Raumproportion und -begrenzung; symmetrische Fluter für
+horizontale Flächen/Präsentationsgrundbeleuchtung, asymmetrische Fluter für
+uniforme Lichtverteilung auf Flächen. Rest (Akzentuieren, Projektion,
+Orientierung) ab S. 121 noch nicht gelesen.
 
 ## Praxisrelevanz für JANS
 
@@ -527,17 +614,46 @@ in der Quelle ab S. 96 noch nicht gelesen.
   zitierfähiger Planungswert speziell für Ausstellungs-/Galerie-Nutzungen
   (reflexblendungsfrei, maximale Plastizität) — ergänzt die bereits vermerkte
   30°-45°-Bandbreite um die Reflexblendungs-Begründung bei glänzenden Objekten.
+- Die **Statik-/Armierungs-Abstimmung bei Betondecken-Einbauleuchten** (S. 96)
+  ist ein konkreter, oft übersehener Koordinationspunkt zwischen Elektro-/
+  Lichtplanung und Bauingenieur — gehört als Prüfpunkt in die
+  Ausführungsplanungs-Koordination, sobald Einbauleuchten in tragenden
+  Betondecken vorgesehen sind.
+- Der **Mindest-Deckenabstand 0,8 m für Indirektbeleuchtung** (S. 117) ist ein
+  zweiter, unabhängig belegter Fund desselben Werts wie bereits auf S. 87 notiert
+  (dort als allgemeine Montageabstands-Faustregel) — festigt ihn als tragfähigen,
+  wiederholt zitierten Planungswert für Lichtdecken-/Lichtvouten-Details.
+- Die vier Grundarten allgemeiner Beleuchtung (direkt gerichtet/direkt diffus/
+  indirekt/direkt+indirekt, S. 112-119) mit ihren Referenzprojekten sind ein
+  direkt nutzbares Vokabular, um einer Bauherrschaft in der Konzeptphase
+  vorzuschlagen, welche Grundart zu Raumnutzung und gewünschtem Raumeindruck
+  passt, bevor eine Fachplaner-Offerte eingeholt wird — insbesondere der
+  Zielkonflikt «indirekt = offener Raumeindruck, aber deutlich höherer
+  Energiebedarf» ist ein Argument, das JANS gegenüber Energieeffizienz-Vorgaben
+  (SIA 380/4) selbst führen kann, ohne den Fachplaner dafür zu brauchen.
+- Die Visualisierungs-Palette (Skizze/Storyboard/Moodboard/Technische Zeichnung/
+  Diagramm/Simulation/Modell/Mock-up, S. 99-109) liefert ein abgestuftes
+  Vokabular, um gegenüber der Bauherrschaft den passenden (und passend
+  aufwendigen) Detaillierungsgrad einer Lichtvisualisierung zu begründen — vom
+  günstigen Storyboard fürs Vorprojekt bis zum 1:1-Mock-up bei
+  architekturintegrierten Sonderleuchten.
 
 ## Offene Punkte
 
-- 95 von ca. 435 Seiten gelesen. Offen: «Montage» Rest (Wand, Boden),
-  «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den
-  praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp),
-  «Simulation und Berechnung» sowie das Glossar — für künftige Destillat-Läufe
-  offen, im Frontmatter-Feld `gelesen:` nachgeführt.
-- Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise nachgeführt)
-  deutet auf eine lebende Online-Publikation (www.erco.com/guide laut S.1) — für
-  eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil dieses Laufs.
-  S. 74-95 durchgehend wieder Edition 26.06.2006 — Bestätigung, dass das Dokument
-  seitenweise, nicht kapitelweise nachgeführt wurde; im nächsten Lauf im
-  Quellen-Frontmatter weiter mitführen.
+- 120 von ca. 435 Seiten gelesen. Offen: «Innenraumbeleuchtung» Rest (Fluten
+  fertig ab S. 121, Akzentuieren, Projektion, Orientierung, Leuchtengruppen,
+  Lichtanwendungen), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik»
+  mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je
+  Lampentyp), «Simulation und Berechnung» (eigenes Kapitel laut PDF-Keywords —
+  Abgrenzung zum bereits gelesenen «Licht visualisieren»-Abschnitt «Simulation»
+  noch ungeklärt, evtl. Dublette oder vertiefendes Berechnungskapitel) sowie das
+  Glossar — für künftige Destillat-Läufe offen, im Frontmatter-Feld `gelesen:`
+  nachgeführt.
+- Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise
+  nachgeführt) deutet auf eine lebende Online-Publikation (www.erco.com/guide
+  laut S.1) — für eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil
+  dieses Laufs. S. 74-98 durchgehend Edition 26.06.2006, S. 99-109 wieder
+  19.07.2007, S. 110-120 wieder 25.07.2006 — der Wechsel fällt mit den
+  Kapitelgrenzen zusammen (Planungspraxis Ende → Licht visualisieren → Innenraum-
+  beleuchtung), anders als der reine Seitenwechsel im vorherigen Abschnitt
+  (S. 74-95 durchgehend gleiche Edition); im nächsten Lauf weiter mitführen.
