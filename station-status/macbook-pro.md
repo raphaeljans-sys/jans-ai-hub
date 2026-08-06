@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.08.2026 13:32:19
+Stand: 06.08.2026 13:42:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 06.08.2026 13:32:19
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 49660d98 nas-selfcommit: 5 Datei(en) 2026-08-06 13:30
+- b6bad5dd energie: ecoBKP 2026 vollstaendig gelesen (S. 87-133), 2 neue Destillate, F216
