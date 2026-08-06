@@ -2,6 +2,18 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-06 (Wissens-Ruecklauf aus dem Wochen-Review Arbeits-Weiche)
+
+- Neuer Report `outputs/2026-08-06_nachgeruestete-sperre-ohne-durchgereichten-grund.md`.
+  Belegt an der Arbeits-Weiche: der am 03.08.2026 ins `lauf-gate.sh` nachgeruestete
+  Wochenkontingent-Block wirkt ueber `gate_ok` auch in der vorgelagerten Weiche, aber deren
+  Journal ueberschreibt den Abweisungsgrund mit einer reinen Speicheraussage
+  («mini 12.0 GB Druck 1»), weil `gate_ok` die Gate-Ausgabe nach `/dev/null` wirft.
+  Verallgemeinerte Regel plus zwei Prueffragen beim Nachruesten einer Sperre: ein Exit-Code
+  transportiert die Wirkung, nicht die Begruendung. Nebenbefund derselben Familie: Entscheid
+  und Lauf tragen verschiedene Namen (`nachtschicht` gegen `dispatch-versuch1`), die
+  Wirkungsmessung war nur ueber Zeitstempel von Hand moeglich.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Strukturell sauber. **Audit D auf 0 korrigiert:** die 29 vermeintlich unzitierten raw-Dateien sind die 32 Slide-Fotos der Anthropic-Lecture, in `raw/_INGESTED.md` Z. 5 als destilliert registriert. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
