@@ -19,8 +19,10 @@
   erbracht.** Die KB `bauprodukte` verweist auf **SIA 380/4** als massgebende Norm; die KB
   `planungsgrundlagen` führt seit dem 03.08.2026 belegt, dass **SIA 380/4:2006 seit dem
   31.07.2019 archiviert** ist. In `normen` fehlt ein Archivierungsvermerk zu SIA 380/4
-  vollständig, obwohl diese KB nach `wiki/QUERBEZUEGE.md` (Zeile 46) für Gültigkeits- und
-  Fassungsstand führt. **Bewusst NICHT gesetzt** im Cross-KB-Lauf Run 27: es liegt kein
+  vollständig, obwohl diese KB nach `wissen/koordination/QUERBEZUEGE.md` (Zeile 46, selbst
+  nachgeprüft 06.08.2026: «Gültigkeits-/Fassungsstand einer Norm … → **normen**, jede andere KB
+  verweist dorthin; meldet sie eine Archivierung, ist sie in normen NACHZUZIEHEN») für
+  Gültigkeits- und Fassungsstand führt. **Bewusst NICHT gesetzt** im Cross-KB-Lauf Run 27: es liegt kein
   eigener Herausgeber-Beleg vor. **Auftrag:** die Produktseite auf `shop.sia.ch` zu SIA 380/4
   abrufen (Muster: die Belegführung zu SIA 493 in `wiki/REGISTER.md`, Abschnitt «Run-5» —
   Felder «Gültig ab», «Gültig bis / archivierter Titel», Rubrik «Nachfolger»), mit Abrufdatum

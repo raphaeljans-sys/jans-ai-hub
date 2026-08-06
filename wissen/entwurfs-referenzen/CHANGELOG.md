@@ -1,5 +1,22 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-06 (Cross-KB-Lauf Run 27) — `healthcare-neubau-zh.json`: Vorbehalt zum oberen Kosten-Endpunkt nachgetragen
+
+- **`wiki/parameter-sets/healthcare-neubau-zh.json`, Block `kosten_referenz`, Feld `hinweis`:**
+  rein additiv ergaenzt. Das Set fuehrte den Kennwertband 826-1'420 CHF/m3 GV (BKP 2) aus
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md` **unqualifiziert** — obwohl der obere
+  Endpunkt **1'420** (Averecura) und die Vella-Zeile in der Quelle als **quellenintern nicht
+  reproduzierbar** ausgewiesen sind (recompute 1'285 bzw. 1'021; die uebrigen sechs Zeilen
+  reproduzieren exakt). Der reproduzierbare **Rohband 826-1'285** ist jetzt genannt, ausdruecklich
+  als Rohband und **nicht** als neuer geltender Band (Entscheid Raphael, haengt an der Bereinigung
+  des JANS-Original-Blatts; `wissen/immobilienbewertung/wiki/wissensluecken.md` D10). Ebenfalls
+  ergaenzt: der Hinweis, dass die Baender auf **BKP 2 (Gebaeude)** bezogen sind.
+- Begruendung fuer den Eingriff in dieses Set: es ist die Kopie, die `machbarkeit` und
+  `healthcare-wirtschaftlichkeit` tatsaechlich lesen. Die beiden Wiki-Seiten zu qualifizieren und
+  das Set auszulassen haette ausgerechnet die meistkonsumierte Fassung unqualifiziert gelassen.
+- Kein anderes Feld beruehrt, keine Version hochgezaehlt (v2.0 unveraendert), JSON nach dem Edit
+  mit `python3 -m json.tool` validiert.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Ein B-Befund: `[[architekten-synobsis]]` im `wiki/INDEX.md` ist ein KB-Name, kein Artikel — als Pfadangabe schreiben. Sonst sauber. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

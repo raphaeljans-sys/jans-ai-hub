@@ -2,6 +2,37 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-06 (Wissens-Chef Run 27, Cross-KB) — Grundkontext neu gemessen, Riegel-Datierung berichtigt
+
+- **`wiki/kontext-architektur.md` fortgeschrieben, nichts ueberschrieben.** Eigene Messung
+  06.08.2026 23:41 CEST nach dem im Artikel festgeschriebenen Messweg (`stat -f%z` ueber
+  `CLAUDE.md` + `~/.claude/CLAUDE.md` + alle 21 `@/Volumes`-Importe): **89'746 B / 21 Importe /
+  ~22'436 Token**. Der Wert deckt sich exakt mit der unabhaengigen Verifikator-Messung vom
+  03.08. 23:25 — der Grundkontext hat sich seither nicht bewegt.
+- **Der Stichtag 03.08. 22:30 (115'482 B) bleibt unveraendert stehen**, ist aber jetzt als
+  «46 Minuten spaeter ueberholt» gekennzeichnet: mit Commit `b2f29162` (03.08.2026 23:11,
+  Freigabe Raphael) wurde `rules/jans-dna.md` aufgeteilt, der Facetten-Block nach
+  `rules/jans-dna-facetten.md` ausgelagert (kein @-Import). Wirkung **-25'736 B**; der
+  Grundkontext liegt damit 15 % **unter** dem Vor-Diaet-Wert von 105'573 B, nicht darueber.
+- **Ueberschrift «Groesster Einzelposten: `rules/jans-dna.md`» war sachlich falsch geworden**
+  und ist ersetzt. Heute fuehren `CLAUDE.md` (17'938 B, 20.0 %) und
+  `rules/auto-verbesserungen.md` (17'469 B, 19.5 %); `jans-dna.md` ist auf 3'870 B / 4.3 %
+  zurueckgefallen. Neue Tabelle der fuenf groessten Posten.
+- **Pflicht-Zusatz zur Verschiebung:** `rules/jans-dna-facetten.md` ist kein @-Import, aber laut
+  `rules/jans-dna.md` vor JEDEM ausgehenden Texterzeugnis zu lesen. Die rund 30 kB sind damit
+  **verschoben, nicht verschwunden** — lazily statt automatisch. Ohne diesen Satz liest die
+  naechste Facetten-Erweiterung die Differenz als freie Luft.
+- **Riegel-Datierung berichtigt.** Der Satz «keine Stufe dieser Kette misst oder meldet die
+  resultierende Dateigroesse» stimmt nur bis zum 03.08.2026: `git log -S MAX_AUTO_BYTES --
+  skills/twin/tools/build_dna.py` liefert genau einen Commit, `47141939` (03.08.2026 22:55:28).
+  Der Artikelstand stammt aus `3a16dc6e` (03.08. 22:46:20) — der Satz war neun Minuten wahr.
+  Neu ausgewiesen: `MAX_AUTO_BYTES = 30'000` (harter Abbruch mit Groessenausweis je Facette),
+  `WARN_AUTO_BYTES = 24'000`; ausgeloest erstmals 04.08. (36'835 B) und erneut 06.08.
+  (34'205 B), am 05.08. ebenfalls verdichtet. **Selbst gemessener Auto-Block heute: 29'962 B,
+  38 B Reserve.** `MAX_AUTO_BYTES` nicht angetastet — die Anhebung ist per Riegel-Konstruktion
+  Raphaels Entscheid.
+- Frontmatter `last_updated` 2026-08-06, `sources` um `messung-260806-grundkontext-wissens-chef-run27`.
+
 ## 2026-08-06 (Wissens-Ruecklauf aus dem Wochen-Review Arbeits-Weiche)
 
 - Neuer Report `outputs/2026-08-06_nachgeruestete-sperre-ohne-durchgereichten-grund.md`.

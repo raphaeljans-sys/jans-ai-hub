@@ -1,5 +1,80 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-06 (Cross-KB-Lauf Run 27, 23:46) — ERFUNDENER BELEG im ERCO-Artikel gestrichen, zwei Verweise auf eine archivierte Norm nachgeführt, Lesefortschritt und zwei Sperrklauseln im Register nachgezogen
+
+Ausführungslauf des Wissens-Chefs, Befunde adversarial vorverifiziert. Nur die KB
+`bauprodukte` berührt (`wiki/erco-lichtplanung-grundlagen.md`, `wiki/QUESTIONS.md`,
+diese Datei); `raw/` unangetastet.
+
+- **ERFUNDENER BELEG gestrichen** (nicht bloss eine Quellenlücke, sondern dieselbe
+  Fehlerklasse wie der SIA-2023-Titel in Run 26): [[erco-lichtplanung-grundlagen]]
+  schrieb im Abschnitt «Praxisrelevanz für JANS» «(Bürolicht typischerweise
+  UGR ≤ 19)» und schrieb die Zahl der Seite 82 des ERCO-Ratgebers zu. Die
+  Primärquelle wurde selbst geöffnet (`de_erco_guide.pdf` S. 82, Edition
+  26.06.2006): die Seite nennt nur die Spanne «in der Regel zwischen 10 und 30»,
+  den Mindestabschirmwinkel 30° und die Standard-Abschirmwinkel 30°/40° — **weder
+  die Zahl 19 noch das Wort Büro**. Klammer ersatzlos gestrichen, der Rest des
+  Satzes (S. 82 trägt UGR-Verfahren und Abschirmwinkel wirklich) bleibt. An ihre
+  Stelle tritt der Zeiger: UGR-Grenzwerte je Raumnutzung führt `normen`
+  (EN 12464-1, dort kein Destillat, SN EN 12464-1:2021 als Bring-Schuld offen,
+  energie-seitig E-122-6); einziger Zahlenbestand im Hub ist der datierte
+  AHB-Auszug vom 19.01.2007. **Bewusst nicht getan:** den Wert 19 ersatzweise mit
+  dem AHB-Auszug belegen — dessen Tabelle hat keine Bürozeile, das wäre eine
+  erfundene Herleitung gewesen.
+- **Stichprobe auf denselben Fehlermodus** über die am 05./06.08. ergänzten
+  Praxisrelevanz-Punkte, je am Original nachgelesen: Museumswinkel 30° (S. 88),
+  Wandabstand = halber Leuchtenabstand (S. 86) und Drittel-Raumhöhe für Wandfluter
+  (S. 87) **belegt**. Der Deckenabstand 0,8 m ist **belegt, stand aber auf S. 88
+  statt S. 87** — Seitenkorrektur an beiden Fundstellen additiv vermerkt, zweiter
+  Fund S. 117 bestätigt. Offen gelassen und nicht geändert: die Museumswinkel-
+  Begründung «maximale Plastizität» steht in der Quelle als «maximale vertikale
+  Beleuchtung».
+- **Zwei Verweise auf SIA 380/4 nachgeführt — mit getrennten Sachbezügen**, nicht
+  mechanisch mit demselben Code ersetzt (Lehre aus Run 25). Die Norm ist seit
+  31.07.2019 archiviert. (a) Energieeffizienz-Argument im Praxisteil: heute
+  **SIA 387/4 (Beleuchtung)**, im Vorprojekt vereinfacht über **SIA 2056:2019
+  (SNR 592056)**, im Kanton Zürich vollzogen über EVEN mit **Formular EN-111**;
+  belegt an `normen/destillate/sia-592-056.md` (Vorwort: Beleuchtung nach 387/4
+  ausgelagert, `established`) und `planungsgrundlagen/…-projektstandards.md` §14.2.
+  (b) Normwert-Hinweis bei den Beleuchtungsstärken/Leuchtdichten: dort ist weder
+  2056 noch 387/4 richtig (beide regeln Energie- und Leistungsbedarf, nicht
+  Bemessungswerte) — Beispiel auf **EN 12464-1** getauscht, operativer Kern
+  («für verbindliche Normwerte ist `wissen/normen/` massgebend») wortgleich
+  belassen. Pfade vor dem Schreiben selbst geprüft (`destillate/`, nicht `wiki/`).
+  Der Archivierungsvermerk zu SIA 380/4 gehört nach `normen` und ist hier **nicht**
+  gesetzt worden.
+- **Lesefortschritt im Register nachgezogen** (dieselbe Registerdrift wie am
+  Vortag, einen Lauf später erneut): QUESTIONS Punkt 4 führte «95/435» und
+  «Anschlusspunkt S. 96». Am Frontmatter `gelesen:` gemessen steht der Artikel auf
+  **145/435**; Kette ergänzt um «06.08.2026: 95 → 120 → 145», neuer Anschlusspunkt
+  **S. 146** (Rest «Leuchtengruppen»: Wandleuchten-Rest, Perimeterleuchten,
+  Bodeneinbauleuchten, Orientierungsleuchten, Hinweisleuchten), Sachtext um
+  Planungspraxis-Rest, «Licht visualisieren» und «Arten des Beleuchtens» ergänzt.
+- **Zwei Sperrklauseln durch ihre eigene Bedingung aufgelöst**, je als datierter
+  Nachtrag (Blöcke vom 04./05.08. bleiben als Stand stehen), Destillat selbst
+  gelesen: `energie/destillate/ecobkp-2026-ausbau.md` führt **ecoBKP 281
+  Bodenbeläge (S. 100-107)** und **ecoBKP 271 Gipserarbeiten (S. 87-89)**.
+  Punkt 8: Nachtrag vom 05.08. überholt, **die beiden Teilfragen bleiben offen**
+  (keine Gleitfestigkeitsklasse für geschliffenen Terrazzo/Kunststein; «Reinigung
+  nach Belagsart» behandelt Holzparkett und Naturstein, nicht Terrazzo/Kunststein).
+  Punkt 9: Spiegelstrich «BKP 271 — kein 2026er-Destillat» überholt, aber
+  **(a) die Blockade bleibt** (produktseitiges Material fehlt weiter) und **(b) die
+  Sperre gegen erneutes Durchsuchen von `/Volumes/daten/03 Bauprodukte_BKP` bleibt**
+  — Ordner 214 und 271 heute nachgemessen, weiterhin 0 Dateien. Zu BKP 225.4 trägt
+  auch die Ausgabe 2026 nichts bei. Status beider Destillate `emerging`,
+  Teillesung; Führung unverändert (`energie` beschafft, `bauprodukte` zieht).
+- **Register nachgeführt:** `wiki/QUESTIONS.md` (Punkte 4, 8, 9, neuer Punkt 14) —
+  `wiki/INDEX.md` nicht berührt (kein neuer/umbenannter Artikel), `training/
+  PROGRAMM.md` nicht berührt (kein Lesefortschritt erzeugt, dessen Abschluss-
+  Checkliste nennt QUESTIONS bereits), `skills/wissens-destillat/training/
+  bauprodukte-inventar.md` nicht berührt (keine neue Quelle ingestiert). **Ab
+  sofort zählt diese Zeile alle vier Register auf** (Inventar, PROGRAMM, INDEX,
+  QUESTIONS) — je mit Vermerk «nachgeführt» oder «nicht berührt, weil …», damit ein
+  vergessenes Register im Lauf-Report sichtbar wird statt unsichtbar zu bleiben.
+  Genau das war am Eintrag vom 06.08. (23:31) das Problem: er listet Inventar,
+  PROGRAMM und INDEX und verschweigt dadurch, dass QUESTIONS fehlte.
+- Kein Versand, keine Publikation, keine Buchung, kein git. `raw/` unverändert.
+
 ## 2026-08-06 (Mac Mini Nachtschicht 23:31) — ERCO-Ratgeber auf S. 145 fortgeschrieben, «Arten des Beleuchtens» abgeschlossen, «Leuchtengruppen» begonnen
 
 Budgetdisziplinierter Einzellauf (kein Fan-out, ein `pdftotext -layout` Read S. 121-145).

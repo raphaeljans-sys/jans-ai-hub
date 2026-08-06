@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.08.2026 23:38:10
+Stand: 06.08.2026 23:48:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:47)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 06.08.2026 23:38:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 887045cd wissen/bauprodukte: ERCO-Ratgeber S.120->145 fortgeschrieben (Nachtschicht 06.08. 23:31)
+- c4837a8f nas-selfcommit: 23 Datei(en) 2026-08-06 23:45

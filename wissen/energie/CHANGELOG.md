@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## 2026-08-06 (Cross-KB-Lauf Run 27, Ausfuehrungs-Agent) — Zeigerpflege VKF, Legionellen-Einordnung, ecoBKP-Anschluesse
+
+Rein additiver Lauf, kein Wert geloescht oder geaendert. Neun Dateien beruehrt, alle in
+`destillate/`:
+
+- **`pv-blitzschutz-gebaeudeversicherung-ch.md`** — der Cross-KB-Zeiger am Dateiende sagte, ein
+  Destillat der geltenden VKF-Merkblatt-Ausgabe 01.01.2022 sei «als Bring-Schuld angemeldet, aber
+  noch nicht erstellt». Das wirkte als Sperre. Ersetzt durch den Verweis auf
+  `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md` (existiert seit Run 45 vom
+  06.08.2026) mit Statusvermerk: `speculative`, weil Erstdestillat und Refuter-Runde beide in
+  Run 45 liefen und die unabhaengige Zweitverifikation aussteht. Die 2015er-Faassungen bleiben als
+  historischer Bestand fuer Altprojekte stehen, aber nicht mehr als «fuehrend».
+- **`greenpv-fassade-pv-begruenung-hslu.md`** — Cross-KB-Zeiger «(fuehrend)» von der 2015er- auf die
+  2022er-Datei umgehaengt; 2015er als `superseded` daneben stehen gelassen. Reine Zeigerpflege.
+- **`vkf-richtlinie-22-15-blitzschutzsysteme.md`** — Datumsdrift zwischen Kopf und Textkoerper
+  behoben: `last_updated` von 2026-07-25 auf 2026-08-05 gehoben, mit ausgeschriebenem Grund
+  (Cross-KB-Lauf Run 26 hatte den Block «Fassungs-Falle im JANS-Archiv» ergaenzt). **Der
+  Fassungsvorbehalt zur Ausgabe 01.01.2017 bleibt ausdruecklich unveraendert offen**, ebenso der
+  `status` — der Live-Abruf vom 05.08. war derselbe 2017-PDF-Abruf wie am 25.07.2026; der
+  VKF-Publikationsindex wurde nie auf eine juengere Ausgabe befragt. Dazu ein Halbsatz an der
+  bestehenden Verlinkung: fuer den Fassungsstand fuehrt formell `normen`
+  (`wissen/koordination/QUERBEZUEGE.md`, Zeilen 46 und 48, beide am Bestand nachgeprueft).
+- **`ecobkp-2026-gebaeudetechnik.md`** — Einordnungsblock nach den Legionellen-/Trinkwasserwerten
+  (ecoBKP 250, Merkblatt-S. 78), die dort nur mit «SIA-Norm 385/1, BAG Legionellen» ohne Ausgabe
+  belegt sind. Ergaenzt: Zuordnung zur geltenden SIA 385/1:2020, Abgrenzung zur hoeheren
+  BAG/BLV-Grundordnung (Modul 11, Ausgabe 22.08.2018) und SVGW W3/E3:2020 samt woechentlicher
+  60-°C-Aufheizung in Vorwaerm-Risikozonen, plus Pflichtverweis auf das established-Destillat
+  `trinkwassererwaermung-legionellenschutz-energieeffizienz`. Zusaetzlich ein Anschlussblock zur
+  KB `bauprodukte` (Aufzuege BKP 261 ueber ecoBKP 230; Beleuchtung nur qualifiziert; kein
+  Anschluss fuer ecoBKP 240/244/250/258). Kein Wert geloescht, keine Zahl geaendert.
+- **`trinkwassererwaermung-legionellenschutz-energieeffizienz.md`** — Rueckverweis auf die
+  ecoBKP-Fundstelle, mit der Praezisierung, welche Ebene der Norm dort zitiert ist.
+- **`ecobkp-2026-ausbau.md`** (neu vom 06.08.2026) — bisher nirgends angeschlossen; neuer Abschnitt
+  «Anschluss an die KB `bauprodukte`», positionsweise statt pauschal: BKP 273 als staerkster
+  Anschluss (Loesbarkeit als fehlendes Kriterium der beiden Schreinerei-Artikel, Argument aus
+  ecoBKP 276 Fuellschaeume plus D4D-Katalog aus 273), BKP 281 nur qualifiziert (Terrazzo/Kunststein
+  in ecoBKP 281 nicht namentlich gefuehrt, die beiden offenen Teilfragen bleiben offen), BKP 271
+  mit Zeiger, aber ausdruecklichem Hinweis, dass der `bauprodukte`-Korpus dort leer ist und die
+  Blockade bestehen bleibt. Alle drei Zeiger mit Statusvorbehalt (`emerging`, Teillesung).
+- **`ecobkp-2026-gebaeudehuelle.md`** und **`ecobkp-2026-tragwerk-und-rohbau.md`** — je ein
+  **datierter Nachtrag** (nicht ueberschrieben) im bestehenden Anschlussblock: der dort gemeldete
+  Bedarf ecoBKP 271/281 ist seit 06.08.2026 gedeckt. Der Satz zu BKP 225.4 Brandschutzbekleidungen
+  bleibt unangetastet; die Blockade des Punktes 9 in `bauprodukte` bleibt ausdruecklich bestehen,
+  weil sie am fehlenden Projektmaterial haengt, nicht am fehlenden ecoBKP-Destillat.
+- **`ecobkp-2026-baureinigung-umgebung-erschliessung.md`** — neuer Anschlussblock: ein
+  qualifizierter Anschluss (ecoBKP 421 zur Vegetationshaelfte BKP 288 der Dachbegruenung), zwei
+  Negativbefunde (ecoBKP 287 und 450 ohne `bauprodukte`-Gegenpart, als offen gemeldet).
+
 ## 2026-08-06 (Mac Mini Nachtschicht 13:30, Versuchs-Slot) — ecoBKP 2026 vollstaendig gelesen (Rest S. 87-133), F216 neu
 
 Fortsetzung von Run 124 (Prioritaet 1 des Run-124-Ausblicks): die restlichen bedruckten Seiten

@@ -415,6 +415,36 @@ und der referenzierten SIA-/Minergie-ECO-/VKF-Dokumente im Original.**
   (Boden-/Wand-/Decken-/Oberflaechenbehandlung) der Ausgabe 2026 wurden in diesem Lauf nicht
   gelesen (das ist Aufgabe eines anderen Agenten desselben Laufs) — ein direkter 2008↔2026-
   Vergleich fuer diese Positionen steht noch aus.
+  **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** beide Bereiche liegen inzwischen destilliert
+  vor — ecoBKP 273 und 281-285 in `[[ecobkp-2026-ausbau]]` (S. 87-118, Status `emerging`).
+
+## Anschluss an die KB `bauprodukte` (gesetzt 06.08.2026, Cross-KB-Lauf Run 27)
+
+Dieses Destillat trug bisher keinen Anschlussblock, im Unterschied zu
+`[[ecobkp-2026-gebaeudehuelle]]` und `[[ecobkp-2026-tragwerk-und-rohbau]]`. Positionsweise
+geprueft ergeben sich zwei Anschluesse und ein Negativbefund:
+
+- **ecoBKP 230 → Aufzugsanlagen.** Der Abschnitt ecoBKP 230 enthaelt eine eigene Vorgabe zu
+  Aufzugsanlagen (Standard-Personenaufzuege Energieeffizienzklasse A nach EN ISO 25745; ab
+  8 Geschossen mit mehreren Anlagen intelligente Zielwahlsteuerung). Sachlicher Gegenpart ist
+  `bauprodukte/wiki/bkp-261-aufzuege.md`, der dort ebenfalls BKP 230 und BKP 260/261 fuehrt —
+  `energie` liefert die **oekologische Beschaffungsvorgabe**, `bauprodukte` das Produkt-/
+  Systemwissen. Ein eigenes ecoBKP-Merkblatt 260/261 gibt es in der Ausgabe 2026 nicht; die
+  Aufzugsvorgabe steht unter 230.
+- **ecoBKP 230 → Beleuchtung, nur qualifiziert.** ecoBKP 230 verweist fuer die
+  Beleuchtungsoptimierung auf **SIA 387/4** (loest die per 31.07.2019 zurueckgezogene SIA 380/4
+  ab). Beruehrungspunkt ist `bauprodukte/wiki/erco-lichtplanung-grundlagen.md` (BKP 233), aber
+  **nur fuer die Planungs-/Produktseite**: der Erco-Ratgeber ist ein Herstellerdokument und
+  laut `wissen/koordination/QUERBEZUEGE.md` ausdruecklich **keine zulaessige Quelle fuer
+  Normwerte**; Beleuchtungsstaerken und Nachweisverfahren fuehren `normen` bzw.
+  `planungsgrundlagen`, nicht dieses Destillat und nicht `bauprodukte`.
+- **Kein Anschluss fuer ecoBKP 240, 244, 250, 258:** in `bauprodukte/wiki/` existiert zu
+  Heizung, Lueftung/Klima, Sanitaer und Kuecheneinrichtungen **kein** Artikel (Bestand am
+  06.08.2026 geprueft) — offen, kein Zeiger gesetzt.
+
+**Statusvorbehalt:** dieses Destillat ist eine Teillesung des ecoBKP 2026; vor jeder
+LV-Verwendung die dann geltende Ausgabe direkt von ecobau.ch ziehen. Die ecoBKP-Nummern sind
+eco-bau-eigene Merkblattnummern, keine BKP-2017-Codes (Rule `bkp-2017-referenz`).
 
 [[ecobkp-2026-methodik-und-uebersicht]] · [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] ·
 [[batteriespeicher]] · [[pv-solar-technologien]] · [[komfortlueftung]]

@@ -97,6 +97,46 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    SIA 2024:2006** wieder und ist **keine heutige Bemessungsgrundlage**; `normen` führt bis
    heute kein EN-12464-1-Destillat, die Beschaffung der SN EN 12464-1:2021 ist dort offen
    (energie-seitig registriert als E-122-6 in `../../energie/wiki/QUESTIONS.md`).
+
+   **Lesefortschritt nachgezogen 06.08.2026 (Cross-KB-Lauf Run 27), gemessen am
+   Frontmatter `gelesen:` des Artikels** — der Nachtlauf vom 06.08. hatte Artikel,
+   INDEX, CHANGELOG, PROGRAMM und Inventar nachgeführt, QUESTIONS nicht. Damit
+   dieselbe Registerdrift wie am Vortag, einen Lauf später erneut aufgetreten.
+
+   Fortschrittskette neu: 31.07.2026: 20 → 40; 04.08.2026 13:30-Slot: 40 → 53;
+   05.08.2026: 53 → 95; **06.08.2026: 95 → 120 (Nachtlauf 02:39) → 145
+   (Nachtlauf 23:31)**. Stand also **145 von ca. 435 Seiten**, nicht 95.
+
+   **Abweichung zum Auftrag festgehalten:** der Auftrag dieses Laufs ging vom Stand
+   120 und dem Anschlusspunkt S. 121 aus. Am Frontmatter gemessen liegt der Artikel
+   bereits auf **145** — der zweite Nachtlauf vom 06.08. (23:31) war zum Zeitpunkt
+   der Befundaufnahme noch nicht berücksichtigt. Übernommen ist der gemessene Stand.
+
+   Neu abgedeckt gegenüber dem Registerstand 95:
+   - Kapitel «Planungspraxis» **vollständig** — Montage Wand und Boden (S. 96-98,
+     inkl. Betondecken-Einbau mit Statik-/Armierungs-Abstimmung) sowie Wartung
+     (S. 98, Verminderungsfaktor und Wartungsplan).
+   - Kapitel «Licht visualisieren» **vollständig** (S. 99-109): Zeichnung
+     (Skizze/Storyboard/Moodboard/Technische Zeichnung/Diagramm), Simulation
+     (qualitativ/quantitativ/Animation), Modell (Modellbau/Mock-up/
+     Tageslichtsimulation).
+   - Kapitel «Innenraumbeleuchtung» begonnen: Unterkapitel «Arten des Beleuchtens»
+     (S. 110-129) **vollständig** (direkt gerichtet/direkt diffus/indirekt/direkt
+     und indirekt; Fluten symmetrisch/asymmetrisch; Akzentuieren; Projektion;
+     Orientierung mit Fluchtweg-/Brandschutzbezug); Unterkapitel «Leuchtengruppen»
+     (S. 130-145) begonnen — Stromschiene, Strahler, Fluter, Wandfluter,
+     Lichtstrukturen, Downlights, Arbeitsplatzleuchten vollständig, Wandleuchten
+     begonnen.
+
+   **Nächster Anschlusspunkt: S. 146**, Rest des Unterkapitels «Leuchtengruppen»
+   (Wandleuchten-Rest, Perimeterleuchten, Bodeneinbauleuchten,
+   Orientierungsleuchten, Hinweisleuchten). Weiterhin offen als ganze Kapitel:
+   «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» (mit vermutlich den
+   praxisrelevantesten Kennwerten lm/W, Ra, Farbtemperatur je Lampentyp),
+   «Simulation und Berechnung» (eigenes Kapitel laut PDF-Keywords, Abgrenzung zum
+   bereits gelesenen «Licht visualisieren»-Abschnitt «Simulation» ungeklärt) sowie
+   das Glossar. Der Anschlusspunkt «S. 96, Rest ‹Montage› (Wand, Boden)» aus dem
+   Registerstand 95 ist damit erledigt.
 5. **AS-Aufzüge-Dokumente ohne Datum im Dokument selbst:** [[bkp-261-aufzuege]] stützt
    die Datierung von `100426_AS_Aufzuege.pdf` und `21005312.pdf` nur auf den
    Dateinamen (JANS-Konvention YYMMDD). Vor Verwendung in einer aktuellen
@@ -143,6 +183,37 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    2008 die einzige Hub-interne Quelle; ein Zeiger auf `ecobkp-2026-gebaeudehuelle.md`
    (221-228) wäre sachfremd. Kein weiterer Lauf soll dort danach suchen, solange der
    Lesestand der KB `energie` unverändert ist.
+
+   **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27) — die Sperrklausel ist durch ihre
+   eigene Bedingung aufgelöst.** Der Lesestand der KB `energie` hat sich geändert:
+   `wissen/energie/destillate/ecobkp-2026-ausbau.md` (gelesen, ecoBKP 2026 / V 1.0,
+   Lesestand vom 06.08.2026) führt **«ecoBKP 281 — Bodenbeläge (S. 100-107)»**. Der
+   Nachtrag vom 05.08. («ecoBKP 281 Bodenbeläge ist nicht destilliert») ist damit
+   überholt; ein 2026er-Stand liegt für diese Position jetzt in-house, und die
+   Ausgabe 2008 ist nicht mehr die einzige Hub-interne Quelle.
+
+   Inhalt des Abschnitts, soweit für diesen Punkt einschlägig: RC-Prioritäten für
+   Unterlagsböden (1. Priorität mindestens 80 % Betongranulat C / Mischgranulat M),
+   Wärmedämmung Unterlagsboden (1. Priorität Steinwolle bis 100 kg/m3 und
+   Glaswolle), Holzbeläge mit Formaldehyd-Detailregel (bei bis zu 0,03 ppm Einsatz
+   auf höchstens 3 von 6 Raumoberflächen bzw. 50 %), Rücknahmepflicht für PVC-/
+   Kunststoffbeläge, asbesthaltige CV-/PVC-Flex-Beläge der Jahre 1970 bis 1982
+   (Ausbau nach SUVA-Merkblatt 66070, meldepflichtig) sowie Trittschall/Estriche
+   (Gussasphalt- und Calciumsulfat-Fliessestrich vor Zementestrich).
+
+   **Die beiden offenen Teilfragen bleiben offen** — am Destillat selbst geprüft:
+   (i) zur produktbezogen **erreichten Gleitfestigkeitsklasse für geschliffenen
+   Terrazzo/Kunststein** sagt auch die Ausgabe 2026 nichts (der Abschnitt enthält
+   keine Gleitfestigkeits-, Rutschfestigkeits-, Terrazzo- oder Kunststein-Angabe);
+   (ii) der Abschnitt **«Reinigung nach Belagsart»** behandelt Holzparkett
+   (versiegelt und geölt) und polierten Naturstein, **nicht** Terrazzo/Kunststein.
+   Führend für die normative Seite bleibt `wissen/normen/` (SIA 244:2006 Ziff. 6.7,
+   bfu-Skalen), wie oben.
+
+   **Statusvorbehalt:** das Destillat ist `emerging` und eine Teillesung
+   (bedruckte S. 87-118). Vor jeder LV-Verwendung ist die geltende ecoBKP-Ausgabe
+   von ecobau.ch zu ziehen. Führung unverändert: `energie` führt die ökologischen
+   Materialvorgaben in der Beschaffung, `bauprodukte` zieht sie als datierten Stand.
 9. **Kein Artikel zu Holzbau und Bekleidungen — Prämisse korrigiert, GEBLOCKT mangels
    Quellmaterial (geprüft Mac Mini Nachtschicht, 31.07.2026):** Die Behauptung «das
    Quellarchiv führt die Sektionen 214, 225 und 271» ist nur zur Hälfte richtig: die
@@ -239,6 +310,42 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
    fortgeschrieben, und für 271 fehlt die Hub-Fassung ganz. **Die Blockade dieses Punktes ist
    dadurch nicht aufgehoben:** es fehlt weiterhin produktseitiges Material (Korpus 2
    `buero-projekte` oder Entscheid Raphaels, das Gewerk zu überspringen).
+
+   **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27) — der Spiegelstrich «BKP 271
+   Trockenbau — kein 2026er-Destillat» ist überholt.**
+   `wissen/energie/destillate/ecobkp-2026-ausbau.md` (gelesen, ecoBKP 2026 / V 1.0,
+   Lesestand vom 06.08.2026) führt **«ecoBKP 271 — Gipserarbeiten (S. 87-89)»**:
+   Innenputz/Stukkatur mit 1. Priorität Gips-Kalk-, Kalk-Zement-, Zement-, Lehm-,
+   Gips-/Weissputz und Wärmedämmputz 1. Priorität Perlit vor EPS; Trockenbau-Wände
+   mit Ständerwerk plus Mineralwolle und Gipsplatten-Beplankung als 1. Priorität;
+   die Formaldehyd-Grenze des Rohbau-/Gebäudehülle-Blocks (höchstens 0,02 ppm,
+   über 0,03 ppm nicht empfohlen), hier erstmals ausdrücklich auch für Akustikputze;
+   Wiederverwendung bestehender Gips-/Putzflächen bei struktureller Unversehrtheit
+   sowie getrennte Erfassung der Gipsbestandteile im Abbruchgut mit möglicher
+   Rückgabe an die Gipsindustrie (höchstens 5 Gew.-% organische Bestandteile). Der
+   Satz «Nicht pauschal auf ‹Stand 2026› heben» gilt für die Ausgabe-2008-Zeiger
+   oben unverändert weiter; für BKP 271 selbst liegt jetzt ein 2026er-Stand vor.
+
+   **Zwei Dinge ändern sich dadurch ausdrücklich NICHT:**
+   - **(a) Die Blockade dieses Punktes bleibt.** Es fehlt weiterhin produktseitiges
+     Material für einen `bauprodukte`-Artikel mit echtem Mehrwert; ein
+     ecoBKP-Merkblatt ist eine ökologische Materialvorgabe, kein Produktbestand.
+     Der Weg nach vorne bleibt Korpus 2 `buero-projekte` oder Raphaels Entscheid,
+     das Gewerk zu überspringen.
+   - **(b) Die Sperre gegen ein erneutes Durchsuchen des Quellarchivs bleibt in
+     Kraft.** Am 06.08.2026 nachgemessen: `/Volumes/daten/03 Bauprodukte_BKP/214
+     Montagebau in Holz` und `/271 Gipserarbeiten` enthalten weiterhin **0 Dateien**.
+     Kein weiterer Nachtlauf soll dort danach suchen.
+
+   **Zu BKP 225.4 Brandschutzbekleidungen trägt auch die Ausgabe 2026 nichts bei** —
+   das Ausbau-Destillat deckt ecoBKP 271, 273, 276, 281, 282, 283 und 285 ab, eine
+   Position 225 kommt darin nicht vor. Die bereits am 05.08. für ecoBKP 225
+   festgehaltene Feststellung gilt unverändert.
+
+   **Statusvorbehalt:** das Destillat ist `emerging` und eine Teillesung (bedruckte
+   S. 87-118 von 138). Vor jeder LV-Verwendung ist die geltende ecoBKP-Ausgabe von
+   ecobau.ch zu ziehen. Führung unverändert: `energie` führt die ökologischen
+   Materialvorgaben in der Beschaffung, `bauprodukte` zieht sie als datierten Stand.
 10. **Teilrevision 2017 der VKF-BRL 23-15 auf Aufzugsrelevanz geprüft — GESCHLOSSEN
     (Mac Mini Nachtschicht, 31.07.2026).** Ergebnis: **materiell betroffen.** Ziff. 3.6
     Abs. 2 (neu 2017): Aufzugsschachttüren dürfen bei einer Anlage, die nur EIN
@@ -275,3 +382,40 @@ grundsätzlich nicht schliessen — er hält sie als Prüfauftrag für den Proje
     Fokus Bauprodukte" auf `[-]` gesetzt werden? Betrifft ca. 15 der 22 offenen `[ ]`-
     und `[t]`-Positionen in dieser Sektion. Entscheid bei Raphael, kein eigener
     Nachtlauf-Alleingang.
+14. **ERFUNDENER BELEG im Praxisteil des ERCO-Artikels — korrigiert 06.08.2026
+    (Cross-KB-Lauf Run 27), als Fehlerklasse festgehalten.**
+    [[erco-lichtplanung-grundlagen]] behauptete im Abschnitt «Praxisrelevanz für
+    JANS»: «Der UGR-Wert (S. 82) ist ein prüfbarer, normüblicher Kennwert für eine
+    Leuchtenausschreibung **(Bürolicht typischerweise UGR ≤ 19)**». Die Primärquelle
+    wurde geöffnet (`/Volumes/daten/03 Bauprodukte_BKP/233 Leuchten und Lampen/
+    0 Administration/de_erco_guide.pdf`, S. 82, Edition 26.06.2006): die Seite nennt
+    ausschliesslich die Spanne «in der Regel zwischen 10 und 30», den
+    Mindestabschirmwinkel 30° für Bildschirmarbeitsplätze und die durchgesetzten
+    Standard-Abschirmwinkel 30° und 40°. **Weder die Zahl 19 noch das Wort Büro
+    kommen auf S. 82 vor.**
+    **Das ist kein Quellenloch, sondern ein erfundener Beleg** — eine Zahl, die
+    einer konkreten Seite zugeschrieben war, die sie nie enthielt. Dieselbe
+    Fehlerklasse wie der SIA-2023-Titel in Run 26. Die Klammer ist ersatzlos
+    gestrichen; an ihre Stelle tritt der Zeiger nach `wissen/normen/` (EN 12464-1),
+    wie in Punkt 4 bereits formuliert. **Ausdrücklich NICHT getan:** den Wert 19
+    ersatzweise mit dem AHB-Auszug vom 19.01.2007 belegen — dessen Tabelle in
+    `../../planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+    §14.2 führt Bettenzimmer, Stationszimmer, Behandlungsräume sowie Schul- und
+    Sporthallen, aber **keine Bürozeile**; das wäre eine erfundene Herleitung an
+    Stelle eines erfundenen Belegs gewesen.
+    **Stichprobe im selben Zug** über die im Lauf vom 05./06.08. ergänzten
+    Praxisrelevanz-Punkte, je am Original nachgelesen: Museumswinkel 30° (S. 88)
+    **belegt**; Wandabstand = halber Leuchtenabstand (S. 86) **belegt**;
+    Wandfluter-Wandabstand mindestens ein Drittel der Raumhöhe (S. 87) **belegt**;
+    Deckenabstand 0,8 m **belegt, aber auf S. 88 statt S. 87** — die Seitenangabe
+    war um eine Seite verschoben, an beiden Fundstellen im Artikel als
+    Seitenkorrektur vermerkt (zweiter Fund S. 117 bestätigt, dort «mindestens
+    0,8 m»). Eine Nuance ist offen geblieben und **nicht** geändert: der Artikel
+    begründet den Museumswinkel mit «maximale Plastizität», die Quelle sagt an
+    dieser Stelle wörtlich «maximale vertikale Beleuchtung» (die Plastizitäts-Aussage
+    steht im Satz davor, allgemein zur Steilheit des Lichts). Kein erfundener Beleg,
+    aber eine Paraphrase, die beim nächsten Lauf am Original zu schärfen ist.
+    **Lehre für künftige Läufe:** ein Praxisrelevanz-Satz ist keine Interpretation
+    mit Freiheitsgraden, sondern trägt über die Seitenzahl denselben Belegsanspruch
+    wie das Destillat selbst. Wo eine Zahl im Praxisteil auftaucht, die im
+    Sachabschnitt des Artikels nicht steht, ist sie belegpflichtig oder zu streichen.

@@ -46,6 +46,8 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Gueltigkeits-/Fassungsstand einer Norm (gilt · archiviert · ersetzt durch, mit Herausgeber-Beleg und Abrufdatum) | **normen** — und zwar getrennt vom Inhaltsstatus des Destillats (`gueltigkeit` neben `status`) | JEDE andere KB verweist dorthin und schreibt keinen eigenen Gueltigkeitsvermerk fort; meldet sie eine Archivierung, ist sie in normen NACHZUZIEHEN (sonst verpufft die Uebergabe) — NEU Run 25, Anlass SIA 493 und SIA 430 |
 | Beleuchtung: **Beleuchtungsstaerken E_m / UGR nach EN 12464-1** und spezifische Anschlussleistung | **normen** fuer Fundstelle und Ausgabe — fuehrt bis 05.08.2026 **kein** EN-12464-1-Destillat (echte Registerluecke, nachgemessen); Nachweisverfahren SIA 387/4 bzw. SIA 2056 und ZH-Vollzug EVEN/EN-111 bei **planungsgrundlagen** | energie verweist (Luecke E-122-6 bleibt offen; einziger Zahlenbestand im Hub ist der **datierte** AHB-Auszug vom 19.01.2007, destilliert in `planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards` §14.2 — Stand vor EN 12464-1:2011 / SIA 2024:2006, **nicht** als heutige Bemessung verwendbar) · bauprodukte fuehrt ausschliesslich **Lampen-/Leuchtenkennwerte** BKP 233 (lm/W, Ra, Farbtemperatur) und schreibt keine Normwerte fort; ein Herstellerratgeber (ERCO) ist fuer EN-Normwerte keine zulaessige Quelle — NEU Run 26. Fuehrt keine neue Fuehrung ein, sondern schreibt die bestehenden Zeilen «Norm-Fundstellen IN bauprodukte-Artikeln» und «Produkt-/Systemwissen nach BKP» fuer diesen Fall aus |
 | **Fassungsstand einer VKF-Publikation, wenn das Haus-Archiv veraltet ist** (SharePoint PL-02/PL-03 gegen den VKG-Publikationsendpunkt) | **normen** — und zwar gegen `services.vkg.ch` / `services2.vkf.ch`, nicht gegen den SharePoint-Bestand | Der Hausbestand ist **kein Gueltigkeitsbeleg**, sondern nur ein Bestandsnachweis. Belegt in Run 26 an zwei Publikationen zugleich (BSM 2001-15: Haus 2015, geltend 2022, dazwischen die nie bemerkte Ausgabe 2017; BRL 22-15: Haus 2015, geltend 2017). Jeder Destillat-Lauf, der brav «Primaerquelle SharePoint» liest, reproduziert den Fehler — deshalb ist der Endpunkt-Abgleich Pflichtschritt, bevor ein VKF-Destillat `established` wird — NEU Run 26 |
+| **Bezeichner-Kette einer zurueckgezogenen Ausfuehrungsnorm** (SEV 4022 → SNR 464022 → SN 414022) | **normen** (`wiki/REGISTER.md`, Abschnitt D — seit Run 27 mit Electrosuisse-/CES-Zeile) | energie fuehrt den Primaerbeleg (`snr-464022-blitzschutz-ausfuehrung.md`, Electrosuisse-Shop DV-48384/1) und bleibt dessen Traeger; normen verweist darauf, statt zu kopieren. **Zwei Vorbehalte gehoeren an die Registerzeile:** der Volltext der Ausgabe 2024 ist nicht gelesen (kostenpflichtig, keine Inhaltsaussage ableiten), und die geltende VKF-BRL 22-15:2017 nennt weiterhin SNR 464022 — ein VKF-Zitat bleibt korrekt, es braucht nur den Waehrungshinweis; in einem LV beide Bezeichner fuehren — NEU Run 27 |
+| **Healthcare-UMBAU-Kostenband CHF/m² NF je Stationstyp** (JANS «Spektrumskosten», sechs Stufen, JANS-Eigenmaterial 2025) | **immobilienbewertung** (`realwert-sachwert`) | `skills/kostenschaetzung` verweist seit Run 27 darauf und fuehrt weiterhin den Wuest-Neubau-Benchmark und den Reduktionsfaktor-Weg. Die beiden Wege widersprechen einander nicht, sie sind deckungsgleich kalibriert; das Band ist die feiner aufgeloeste Fassung und geht vor, **sobald ein Stationstyp benannt ist**. Bezugsflaechen-Vorbehalt wandert zwingend mit (Band = CHF/m² NF, Realfall 1'100 = CHF/m² HNF, NF und GF nicht vergleichbar) — NEU Run 27, die Zustaendigkeit war bis dahin ueberhaupt nicht geregelt |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -92,7 +94,194 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > Fehler, der verifizierbar aussieht und beim naechsten Audit nicht mehr auffaellt. **Regel:
 > zuerst den Sachbezug der Stelle lesen, dann den Code setzen.**
 
+> **NEU Run 27 — fuenftes Struktur-Muster «erfundener Beleg» als eigene Fehlerklasse:** Im
+> ERCO-Artikel stand «Buerolicht typischerweise UGR ≤ 19», zugeschrieben auf S. 82 des
+> Herstellerratgebers. Der Verifikator hat das **Original-PDF geoeffnet**: die Seite sagt «in der
+> Regel zwischen 10 und 30» und nennt weder die 19 noch das Wort Buero. Das ist keine Quellenluecke
+> (Aussage richtig, Beleg fehlt), sondern eine Zahl, die entstanden ist, wo keine Quelle sie je
+> enthielt — dieselbe Klasse wie der SIA-2023-Titel aus Run 26. **Regel: solche Faelle im CHANGELOG
+> als erfundenen Beleg benennen, nicht als fehlende Quelle.** Sonst faellt beim naechsten Audit
+> nicht auf, dass hier nichts nachzutragen, sondern etwas zu entfernen war. Ein Herstellerratgeber
+> ist nie eine zulaessige Normquelle — und der Fehlermodus sass nicht im Destillat, sondern im
+> Abschnitt «Praxisrelevanz fuer JANS»: das Destillat war sauber, die Anwendungsempfehlung hat
+> erfunden.
+>
+> **NEU Run 27 — sechstes Struktur-Muster «Sperrklausel mit Bedingung heilt nicht von selbst»:**
+> `bauprodukte/wiki/QUESTIONS.md` verfuegte an zwei Punkten «Kein weiterer Lauf soll dort danach
+> suchen, solange der Lesestand der KB `energie` unveraendert ist». Die Bedingung trat am 06.08.
+> ein, aber niemand las die Klausel erneut — sie wirkt auf kuenftige Laeufe, der Fehler heilt also
+> nicht von selbst, sondern haelt sich aktiv. **Regel: eine bedingte Stopp-Anweisung braucht einen
+> benannten Waechter, sonst ist sie eine dauerhafte Sperre mit hoeflicher Formulierung.**
+>
+> **NEU Run 27 — siebtes Muster «der Nachtlauf ueberholt den Cross-KB-Lauf, waehrend er laeuft»:**
+> Der Melder mass den ERCO-Lesestand bei 120 Seiten, der Ausfuehrende zwei Stunden spaeter bei 145
+> (Nachtlauf 23:31 dazwischen); die Restpunkte-Liste des Auftrags war da schon ueberholt, ein
+> darin genanntes Kapitel «Lichtanwendungen» existiert gar nicht. Ebenso war
+> `ecobkp-2026-ausbau.md` juenger als die Anschlussbloecke, die seine Abwesenheit beklagten.
+> **Regel (Bestaetigung von Run 26): der Ausfuehrende misst am Bestand und uebernimmt die Vorlage
+> nie ungeprueft** — in diesem Lauf hat das vier von fuenf Ausfuehrenden je mindestens einen
+> Vorlagenfehler finden lassen.
+
 ## Gepruefte Paare
+
+### normen ↔ energie ↔ planungsgrundlagen (VKF 2001-15, drei Destillate nach normen Run 45) — geprueft 2026-08-06 (Run 27)
+- **Lage:** Run 45 hat in der Nacht das Volldestillat der geltenden Ausgabe 01.01.2022 angelegt
+  (`vkf-merkblatt-2001-15-solaranlagen-2022.md`, Status `speculative`). Damit lagen **drei**
+  Destillate derselben Publikation nebeneinander.
+- **Befund 1 (gedaempft, aber mit aktiver Sperrwirkung):** `energie` sagte an zwei Stellen, ein
+  Destillat der Ausgabe 2022 sei «angemeldet, aber noch nicht erstellt» — seit einem Tag falsch und
+  als Gegenwartsaussage formuliert. Wer dort nachschlaegt, arbeitet mit dem 2015er-Bestand weiter.
+- **Befund 2 (gedaempft):** `planungsgrundlagen` nannte die als `superseded` markierte 2015er-Datei
+  «fuehrendes Destillat» und fuehrte den 2-m-RWA-Abstand als Merkmal. Verifikator-Korrektur: der
+  2-m-Wert ist 2022 **nicht verschwunden**, sondern in den Anhang gewandert und gilt dort weiter als
+  massnahmenfreie Schwelle — der Melder haette ihn faelschlich als weggefallen ausgewiesen.
+- **Befund 3 (bestaetigt):** Die beiden 2015er-Destillate verwiesen nicht vorwaerts auf die
+  Nachfolgedatei (grep = 0), obwohl alle Einstiege aus anderen KBs auf sie zeigen. Verpuff-Muster
+  **innerhalb** von `normen`, entstanden in Run 45 selbst. Run 45 hat die Uebergabe an die
+  Empfaenger-KB ausserdem nirgends notiert (grep «planungsgrundlagen» im Laufbericht = 0).
+- **Verifikator-Korrektur, die den Lauf traegt:** Alle drei Auflösungen wollten den Zeiger blank auf
+  die 2022er-Datei setzen. Die traegt selbst `status: speculative` — Erstdestillat und Refuter-Runde
+  liefen beide in Run 45, die unabhaengige Zweitverifikation steht aus. **Ein Zeiger ohne diesen
+  Vermerk macht aus einem unverifizierten Destillat stillschweigend die Autoritaet.** Alle gesetzten
+  Zeiger tragen den Statusvorbehalt.
+- **Aktion:** Vorwaertsverweise und Kopfwarnungen in beiden 2015er-Destillaten, vier (nicht drei)
+  «noch offen»-Saetze als datierte Nachtraege richtiggestellt, INDEX-Zeile ergaenzt,
+  cr-Kabel-Praezisierung mit LV-Wirkung gesetzt (cr in horizontalen Fluchtwegen unabhaengig von
+  jeder Brandlast verboten; die 200 MJ/Laufmeter betreffen nur die dort zulaessigen Nicht-cr-Kabel);
+  zwei energie-Zeiger umgehaengt; planungsgrundlagen-Querbezug an **beiden** Stellen erledigt
+  vermerkt. **Status: bereinigt.** Offen: Zwischenausgabe 01.01.2017 ohne eigenes Destillat,
+  Zweitverifikation des 2022er-Destillats, SharePoint-Bestand unveraendert 2015, Merge-Frage der
+  beiden 2015er (Entscheid Raphaels seit Run 26).
+
+### normen ↔ energie (VKF-BRL 22-15 Blitzschutz, Doppelspurigkeit) — geprueft 2026-08-06 (Run 27)
+- **Doppelspurigkeit ausdruecklich NICHT beanstandet:** Beide KBs fuehren ein Volldestillat der
+  22-15. Der Melder hat die Klassen-Tabelle Zeile fuer Zeile verglichen — alle Paare A/B
+  deckungsgleich, inklusive der 2017er-Verschaerfung Zeile c Spalte B = II. Die Entmaterialisierung
+  war in Run 26 bereits abgelehnt worden; der anwendende Teil von `energie` (Healthcare-Kriterium,
+  GVZ-Kontrollintervalle) ist ohnehin energie-Domaene.
+- **Befund 1 (gedaempft):** `normen` kennt den Rueckzug der Ausfuehrungsnorm nicht — SNR 464022:2015
+  ist seit 20.02.2024 durch SN 414022:2024 ersetzt, belegt in `energie` seit Run 23. Das
+  normen-Register fuehrte weder eine Electrosuisse-Zeile noch **ueberhaupt eine Zeile zur BRL 22-15**,
+  obwohl deren Destillat `links: [[REGISTER]]` setzt — ein toter Verweis. Die Verwendungsstelle
+  weist den Skill `brandschutz` woertlich auf die zurueckgezogene Nummer an.
+- **Befund 2 (gedaempft, Auflösung umgekehrt):** Der Melder wollte den Fassungsvorbehalt in `energie`
+  als «am 05.08. in normen aufgeloest» schliessen. Der Verifikator hat nachgemessen: was normen
+  belegt hat, ist der **Live-Abruf des 2017-PDF** — genau derselbe Abruf, den `energie` am 25.07.
+  ueber dieselbe URL schon gemacht hatte. Ein Publikationsindex-Abgleich hat **nie** stattgefunden.
+  Beide KBs stehen auf derselben Evidenz. Der Vorbehalt blieb deshalb stehen; stattdessen wurde die
+  **normen-Frontmatterzeile zurueckgenommen**, die mehr behauptete als sie mass.
+- **Aktion:** Electrosuisse-/CES-Zeile und BRL-22-15-Zeile im Register, Bezeichner an der
+  Verwendungsstelle angehaengt, Datumsdrift in energie geheilt (last_updated 25.07. → 05.08.),
+  Bring-Schuld N27-1 (VKF-Publikationsindex) registriert. **Wortlaut-Schutz:** alle VKF-Zitate mit
+  «SNR 464022» bleiben unveraendert — wer dort ersetzt, verfaelscht das Zitat einer fremden Quelle.
+
+### energie ↔ bauprodukte ↔ normen (ecoBKP 2026, Ausbau) — geprueft 2026-08-06 (Run 27)
+- **Befund 1 (gedaempft, mit der groessten Reichweite in die Zukunft):** `bauprodukte` erklaerte
+  ecoBKP 271 und 281 als «nicht destilliert» und verfuegte eine Sperrklausel gegen weitere Suche.
+  Die Bedingung der Klausel war am 06.08. eingetreten. Verloren gingen genau die LV-tauglichen
+  Vorgaben: Formaldehyd-Grenze mit 50-%-Regel, RC-Beton-Prioritaeten im Unterlagsboden,
+  PVC-Ruecknahmepflicht, Asbest-Meldepflicht CV-/PVC-Flex 1970-1982 nach SUVA 66070.
+- **Befund 2 (gedaempft, Auflösung ersetzt):** `energie` fuehrt SIA-385/1-Legionellenwerte ohne
+  Ausgabe und ohne Verweis. Der Melder hielt sie fuer unverifiziert; der Verifikator hat die
+  Praemisse **widerlegt** — dieselbe KB fuehrt ein `established`-Destillat mit reproduzierten
+  Norm-Temperaturtabellen und dem im Volltext gelesenen BAG/BLV-Modul 11, die Werte sind KB-intern
+  korroboriert. Der Verweis auf das abgeloetste normen-Destillat 385/1:2011 waere falsch gewesen.
+- **Dritte Korrekturstufe (neu in diesem Lauf):** Der **Ausfuehrende** hat die Verifikator-Formel
+  nochmals korrigiert. Die ecoBKP-Werte entsprechen den **Auslegungsvorgaben** der SIA 385/1, nicht
+  der bedingten 3-K-Erleichterung; das 52-°C-Vorkommen ist der Waermeuebertrager-ohne-Speicher-Fall.
+  Und die Stagnationsregel «> 3 Tage» ist im established-Destillat gar nicht belegt — sie wurde
+  ausdruecklich als nicht mitkorroboriert gekennzeichnet statt stillschweigend mitgetragen.
+- **Befund 3 (gedaempft):** Das Ausbau-Destillat trug keinen bauprodukte-Anschlussblock. Daempfer:
+  «als einziges» war falsch, es waren **drei** Schwestern ohne Block; und die Datei war juenger als
+  die Bloecke, die ihre Abwesenheit beklagten — der Vorwurf einer unterlassenen Uebergabe fiel weg.
+- **Aktion:** Zwei Sperrklauseln als datierte Nachtraege aufgehoben (offene Teilfragen ausdruecklich
+  offen gelassen: Gleitfestigkeitsklasse Terrazzo, Pflegeverhalten — dazu sagt auch 2026 nichts);
+  Einordnungsblock zu den Legionellenwerten; positionsweise Anschlussbloecke fuer BKP 271/273/281
+  (BKP 271 mit dem Hinweis, dass die dortige Blockade mangels Produktmaterial bestehen bleibt);
+  Positionspruefung der drei blockfreien Schwestern ergab einen echten Anschluss je Datei und zwei
+  Negativbefunde. `ecobkp-2026-methodik-und-uebersicht.md` bleibt offen.
+
+### bauprodukte ↔ normen ↔ planungsgrundlagen (Beleuchtung, ERCO-Ratgeber) — geprueft 2026-08-06 (Run 27)
+- **Befund 1 (bestaetigt, verschaerft):** «Buerolicht typischerweise UGR ≤ 19» im Abschnitt
+  «Praxisrelevanz fuer JANS», ausdruecklich als Wert fuer eine Leuchtenausschreibung empfohlen —
+  erfundener Beleg, siehe Struktur-Muster oben. Gestrichen, durch den Zeiger auf `normen` ersetzt.
+  Der Wert wurde **nicht** ersatzweise ueber den AHB-Auszug hergeleitet (dessen Tabelle hat gar
+  keine Buerozeile — das waere eine erfundene Herleitung an der Stelle einer erfundenen Zahl).
+- **Befund 2 (gedaempft, zwei verschiedene Sachbezuege):** Zwei Verweise auf SIA 380/4, seit
+  31.07.2019 archiviert, einer davon in der Nacht auf den 06.08. **neu** geschrieben — die Uebergabe
+  aus `planungsgrundlagen` (dort seit 03.08. belegt) war nie angekommen. Verifikator-Korrektur:
+  die beiden Stellen duerfen **nicht mit demselben Code** ersetzt werden. Die Energieeffizienz-Stelle
+  gehoert auf SIA 387/4 bzw. SIA 2056:2019 mit ZH-Vollzug EVEN/EN-111; die Bemessungswert-Stelle
+  gehoert auf EN 12464-1 — dort waeren 2056 und 387/4 beide falsch, weil sie Energie- und
+  Leistungsbedarf regeln, nicht Bemessungswerte. Dieselbe Fehlerklasse wie das mechanische
+  BKP-Ersetzen aus Run 25.
+- **Befund 3 (gedaempft):** Registerdrift des Lesefortschritts, zum zweiten Mal in zwei Tagen —
+  der Nachtlauf pflegt Artikel, INDEX, CHANGELOG, PROGRAMM und Inventar, aber nicht QUESTIONS.
+  1 stale Register gegen 4 korrekte. Nachgezogen auf den **gemessenen** Stand (145, nicht 120).
+- **Zusatzfund des Ausfuehrenden:** Der Deckenabstand 0,8 m war zweimal S. 87 zugeschrieben, steht
+  aber auf S. 88. Der Wert bleibt belegt, nur der Zeiger war um eine Seite verschoben — additiv
+  korrigiert. Eine Paraphrase-Drift beim Museumswinkel (30° «maximale Plastizitaet» statt «maximale
+  vertikale Beleuchtung») wurde gemeldet, nicht auf Verdacht entfernt.
+- **Aktion:** dazu die strukturelle Aenderung, dass die CHANGELOG-Zeile «Register nachgefuehrt:»
+  kuenftig **alle vier** Register aufzaehlt — je mit «nachgefuehrt» oder «nicht beruehrt, weil …».
+  Der Eintrag vom 06.08. listete drei und machte die Luecke damit unsichtbar statt sichtbar.
+
+### grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung (Kennwerte) — geprueft 2026-08-06 (Run 27)
+- **Befund 1 (gedaempft, groesster Frankenbetrag des Laufs):** Der obere Healthcare-Bandendpunkt
+  1'420 CHF/m³ GV ist seit dem 12.07.2026 als quellenintern nicht reproduzierbar ausgewiesen
+  (recompute 1'285) — der Vorbehalt steht aber 12 bis 14 Zeilen UNTER dem Uebergabe-Block und reist
+  deshalb nicht mit. Drei Abnehmer geben ihn unqualifiziert weiter. Bei einem Pflegeheim-Neubau von
+  10'000 m³ sind das rund CHF 1.35 Mio zu viel. In `grobkosten` fehlt zusaetzlich der Scope: der
+  zitierte Band ist BKP 2, steht aber eine Zeile ueber der BKP-1-5-Deklaration derselben Seite.
+- **Zwei unabhaengige Nachrechnungen** (Verifikator und Ausfuehrender, je alle acht Zeilen): sechs
+  reproduzieren exakt, nur Averecura (1'285 statt 1'420) und **Vella** (1'021 statt 845) weichen ab.
+  Der reproduzierbare Rohband lautet **826-1'285** — ausdruecklich als Rohband ausgewiesen, nicht als
+  neuer geltender Band; das bleibt Entscheid Raphaels (D10).
+- **Befund 2 (gedaempft, Auflösung dreifach korrigiert):** Das hauseigene Umbau-Kostenband
+  «Spektrumskosten» liegt nur in `immobilienbewertung`; der Skill, den die Frage triggert, kennt es
+  nicht (Nullmessung beidseitig). Verifikator: (a) die Matrix war falsch zitiert — sie regelt CHF/m²
+  NF gar nicht, die Zustaendigkeit war **ueberhaupt nicht geregelt**; (b) keine Vorrangregel
+  formulieren, die Wege sind deckungsgleich kalibriert; (c) der Bezugsflaechen-Vorbehalt muss
+  zwingend mitwandern (NF gegen HNF gegen GF).
+- **Befund 3 (gedaempft):** Die offene BKP-Scope-Frage zu den Neuwert-Richtwerten Tab. 2 kennt nur
+  `grobkosten`. Verifikator: **nicht** in den Doppelfuehrungs-Block aufnehmen — der behandelt
+  Divergenzen zwischen KB-Staenden, der Scope ist eine Eigenschaft der Fremdquelle, die beide
+  gleichermassen trifft; als «3.» waere er falsch etikettiert. Richtig ist ein eigener Vorbehalt
+  unter der Tabellen-Ueberschrift, samt Warnung vor Doppelzaehlung (die Realwert-Formel addiert
+  Aussenanlagen und Baunebenkosten bereits separat).
+- **Aktion:** Vorbehalt in den Uebergabe-Block gehoben, Kopfblock `grobkosten` auf den Stand des
+  eigenen Healthcare-Abschnitts, **Parameter-Set `healthcare-neubau-zh.json` mitqualifiziert** (die
+  am meisten konsumierte Kopie, im Erstvorschlag vergessen), neue Wissensluecke D13, Verweisblock im
+  Skill `kostenschaetzung` mit Provenienz und Bezugsflaechen-Vorbehalt.
+
+### twin ↔ spec ↔ claude-code (Methoden- und Selbstbeschreibungs-Achse) — geprueft 2026-08-06 (Run 27)
+- **Befund 1 (WIDERLEGT — der einzige des Laufs):** Gemeldet war, die Mitleser-Regel des
+  twin-Fidelity-Reviews habe das kompilierte Gehirn nie erreicht und stehe gegen die in jeder
+  Session aktive Rule `anrede-kontakte`. Der Verifikator hat gemessen: der Block steht seit
+  06.08. 06:07 in `rules/jans-dna-facetten.md`, samt Merkregel «ein Ruecksprung ist kein Abkuehlen,
+  sondern fast immer ein Cc». Der behauptete Schaden ist gegenstandslos. **Und die vorgeschlagene
+  Aktion waere unzulaessig gewesen:** die Klausel in `anrede-kontakte.md` ist von Raphael am
+  29.07.2026 ausdruecklich freigegeben — der Wissens-Chef relativiert eine Freigabe nicht selbst.
+  Der Restpunkt (Cc-Pruefung der vier Januar-Mails) gehoert in den naechsten regulaeren twin-Lauf.
+- **Befund 2 (bestaetigt):** Die budgetfuehrende KB `claude-code` stand an drei Stellen auf einem
+  Stand, den die Facetten-Auslagerung **46 Minuten spaeter** ueberholt hatte — inklusive des
+  Schlusssatzes «die Kontext-Diaet 2.0 ist rechnerisch rueckgaengig gemacht» und der Ueberschrift
+  «Groesster Einzelposten: rules/jans-dna.md». Gemessen: 89'746 B / 21 Importe / ~22'436 Token,
+  von zwei Agenten unabhaengig auf das Byte bestaetigt.
+- **Pflicht-Zusatz, den beide Melder unterschlugen:** Die Kosten sind **verschoben, nicht
+  verschwunden.** `rules/jans-dna-facetten.md` ist kein @-Import, aber vor jedem ausgehenden
+  Texterzeugnis zu lesen — jede textproduzierende Session zahlt sie weiterhin, nur lazily.
+  Ohne diesen Satz liest die naechste Facetten-Erweiterung «26 kB Luft».
+- **Befund 3 (gedaempft):** Derselbe Artikel bestreitet den Wachstums-Riegel in `build_dna.py`.
+  Verifikator: der Riegel kam am 03.08. 22:55, der Artikelstand vom 03.08. 22:46 — der Satz war
+  **neun Minuten** wahr. Der Ausfuehrende hat drei weitere Vorlagenfehler gemessen: Auslagerung
+  23:11 statt 23:08; **drei** Riegel-Ausloesungen statt zwei; und die Reserve gilt fuer den Block
+  zwischen den Sentinels (29'962 B, 38 B Rest), nicht fuer die Datei (31'190 B) — die Dateigroesse
+  als «Reserve» auszuweisen waere schlicht falsch gewesen.
+- **Aktion:** Artikel fortgeschrieben ohne den Stichtag zu ueberschreiben, Netto- und
+  Isolationswirkung getrennt ausgewiesen (-25'736 B netto ueber drei Tage; die Auslagerung allein
+  -28'558 B, im selben Zeitraum +2'822 B Wachstum der uebrigen Rules), `MAX_AUTO_BYTES` unangetastet
+  und als Entscheid Raphaels ins Fristen-Register eingetragen.
 
 ### normen ↔ energie ↔ planungsgrundlagen (VKF 2001-15 Solaranlagen + BRL 22-15 Blitzschutz) — geprueft 2026-08-05 (Run 26)
 - **In ZWEI unabhaengigen Feldern konvergiert** (F1 und F3) — dasselbe Vorsortier-Signal wie in

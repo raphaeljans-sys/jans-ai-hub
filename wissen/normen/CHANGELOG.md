@@ -1,3 +1,69 @@
+## 2026-08-06 (Cross-KB-Lauf Run 27, Wissens-Chef) — Vorwaertsverweise auf die geltende Fassung 2022 gesetzt, Blitzschutz-Normkette ins Register genommen, eine ueberdehnte Frontmatter-Aussage zurueckgenommen
+
+Rein additiver Lauf, keine Loeschung, kein datierter Stichtags-Vermerk ueberschrieben. Geaendert:
+
+1. **Vorwaertsverweise auf `destillate/vkf-merkblatt-2001-15-solaranlagen-2022.md`** (angelegt in
+   Run 45 vom 06.08.2026) in beiden 2015er-Destillaten gesetzt — `grep "solaranlagen-2022"` ueber
+   beide lieferte vorher **0** Treffer, obwohl alle Einstiege aus anderen KBs auf die 2015er
+   zeigen. In `destillate/vkf-merkblatt-2001-15-solaranlagen.md` und
+   `destillate/vkf-brm-2001-15-solaranlagen.md` je die `links:`-Zeile ergaenzt und in die
+   Kopfwarnung einen Zeiger aufgenommen — **mit Statusqualifikation**: das 2022er-Destillat
+   traegt selbst `status: speculative` (am Destillat nachgeprueft), die Hebung auf `established`
+   steht aus. Ein Zeiger ohne diesen Vermerk haette aus einem unverifizierten Destillat
+   stillschweigend die Autoritaet gemacht.
+2. **Vier jetzt falsche «noch offen»-Saetze** als datierte Nachtraege richtiggestellt (nie
+   ueberschrieben): je zwei in beiden Dateien, darunter der Satz «Bis dahin ist dieser
+   Delta-Block die einzige belegte Bruecke zur geltenden Fassung», der seit dem 06.08. sachlich
+   gegenstandslos ist. Der Auftrag nannte drei Stellen; die vierte
+   (`vkf-brm-…`, Abschnitt «Offene Punkte») ist am Bestand gefunden und gleich behandelt worden.
+3. **Delta-Block-Praezisierung mit LV-Wirkung** an drei Stellen: cr-Kabel sind in horizontalen
+   Fluchtwegen nach der Ausgabe 2022 **unabhaengig von jeder Brandlast verboten**; die
+   200 MJ/Laufmeter betreffen nur die dort zulaessigen Nicht-cr-Kabel (Tab. 1 Fussnote [2],
+   S. 8). cr ist nicht generell verboten — auf/in brennbaren Gebaeudeteilen ist RF2 (cr)
+   ausdruecklich vorgesehen. Formulierung aus dem 2022er-Destillat uebernommen, dort selbst
+   nachgelesen. Die bisherige Kurzform «neue Spalte horizontale Fluchtwege, 200 MJ/Laufmeter»
+   haette ein cr-Kabel bis 200 MJ als zulaessig lesbar gemacht.
+4. **`destillate/INDEX.md`:** `vkf-merkblatt-2001-15-solaranlagen.md` hatte **keine eigene
+   Zeile**; nachgetragen analog zur Zeile des Duplikat-Partners, samt Vorwaertszeiger und
+   Statusvermerk.
+5. **`wiki/REGISTER.md`, Abschnitt D — zwei Luecken geschlossen:**
+   (a) neue **Electrosuisse/CES-Zeile** mit der vollen Kette SEV 4022:2008 → SNR
+   464022:2015+COR:2016 (zurueckgezogen, SNV-Connect «Withdrawn») → **SN 414022:2024**, ersetzt
+   per 20.02.2024 (Beleg Electrosuisse-Shop DV-48384/1, primaer destilliert in
+   `wissen/energie/destillate/snr-464022-blitzschutz-ausfuehrung.md`), mit zwei Vorbehalten: der
+   Volltext 2024 ist **nicht gelesen** (CHF 169.–, kein freier Auszug), und die geltende
+   VKF-BRL 22-15:2017 nennt weiterhin SNR 464022 — ein VKF-Zitat bleibt korrekt, es braucht nur
+   den Waehrungshinweis. `energie` fuehrt das seit Run 23 (03.08.2026), `normen` war nicht
+   beteiligt, fuehrt aber den Fassungsstand (`wissen/koordination/QUERBEZUEGE.md` Z. 46).
+   (b) **erstmals eine Zeile zur VKF-BRL 22-15** — `grep "22-15"` ueber REGISTER.md lieferte
+   vorher **0** Treffer, obwohl das Destillat im Frontmatter `links: [[REGISTER]]` setzt (toter
+   Verweis). Beide greps selbst nachgemessen.
+6. **`destillate/vkf-brl-aenderungen-2017.md`** (JANS-Praxis-Transfer): der heutige Bezeichner
+   SN 414022:2024 **angehaengt**, der bestehende Satz unveraendert gelassen. **Wortlaut-Schutz
+   eingehalten:** alle Stellen, die den VKF-Wortlaut zitieren
+   (`vkf-brl-22-15-blitzschutzsysteme.md` Z. 33/35, `vkf-brl-aenderungen-2017.md` Z. 89, beide
+   Solaranlagen-Destillate), sind **unangetastet** — eine Nummernersetzung dort verfaelschte das
+   Zitat einer fremden Quelle (Fehlerklasse des mechanischen BKP-Ersetzens aus Run 25).
+7. **Ueberdehnter Beleg zurueckgenommen:** `destillate/vkf-brl-22-15-blitzschutzsysteme.md`,
+   Frontmatter `datenstand` sagte «aktuell ist Ausgabe 01.01.2017 (am 05.08.2026 am
+   VKF-Endpunkt verifiziert)». Belegt ist nur der **Live-Abruf des 2017er-PDF** und der Diff
+   gegen 2015, **nicht** die Abwesenheit einer neueren Ausgabe; ein Publikationsindex-Abgleich
+   hat nie stattgefunden. Auf das Gemessene zurueckgenommen, kein Statuswechsel, kein Wert
+   angetastet.
+8. **`wiki/QUESTIONS.md`:** zwei Bring-Schulden neu — **N27-1** (VKF-Publikationsindex fuer
+   `22-15de` abfragen und mit Abrufdatum belegen) und **N27-2** (SIA 380/4: Archivierungsvermerk
+   fehlt in dieser KB; `planungsgrundlagen` fuehrt seit 03.08.2026 belegt «SIA 380/4:2006 seit
+   31.07.2019 archiviert», `bauprodukte` verweist weiter auf die Norm). **N27-2 bewusst NICHT
+   als Registeraussage gesetzt** — der eigene Herausgeber-Beleg (shop.sia.ch, Muster SIA 493)
+   liegt nicht vor. Der Stichtags-Block «A) SIA — Gueltigkeit je Norm, Stand 25.02.2013» bleibt
+   unveraendert: per Stichtag 2013 war «SIA 380/4:2006 gueltig» richtig.
+
+**Abweichung vom Auftrag, am Bestand gemessen:** Der Auftrag verwies zweimal auf
+«QUERBEZUEGE.md:46» als Datei dieser KB. Eine solche Datei existiert in `wissen/normen/wiki/`
+**nicht**; die Zuteilungsmatrix liegt unter `wissen/koordination/QUERBEZUEGE.md`, und Zeile 46
+ist dort tatsaechlich die Fuehrungszeile «Gueltigkeits-/Fassungsstand einer Norm → normen»
+(selbst nachgelesen). Alle Verweise sind auf den echten Pfad gesetzt.
+
 ## 2026-08-06 (Run 45) — der gesamte Verifikations-Rueckstand abgearbeitet: 9 Destillate geprueft, 1 neues Destillat, 4 Rueckstaende aus QUESTIONS geschlossen
 
 **Der Lauf hat den vom Run-43-Report ausgewiesenen Rueckstand vollstaendig abgearbeitet.** Alle

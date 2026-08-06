@@ -111,3 +111,51 @@ verlangt Entscheide, die vor der Ausschreibung fallen (Verbindungsart, Materialv
 - ecoBKP 272, 274, 275, 277-280, 284, 286 (im Inhaltsverzeichnis der Merkblattreihe, aber im
   gelesenen Seitenbereich nicht angetroffen — vermutlich in dieser Ausgabe nicht separat
   geführt oder unter Nachbarpositionen zusammengefasst) — bei Bedarf am Original prüfen.
+
+## Anschluss an die KB `bauprodukte` (gesetzt 06.08.2026, Cross-KB-Lauf Run 27)
+
+Die Schwester-Destillate `[[ecobkp-2026-gebaeudehuelle]]` und `[[ecobkp-2026-tragwerk-und-rohbau]]`
+meldeten seit dem 05.08.2026 ecoBKP 271/281 als von `bauprodukte` gebraucht, aber nicht destilliert.
+Dieses Destillat deckt den Bedarf ab dem 06.08.2026 — allerdings **positionsweise unterschiedlich
+stark**, und nicht überall auflösend:
+
+**Statusvorbehalt für alle drei Zeiger:** dieses Destillat ist `emerging` und beruht auf einer
+**Teillesung** (Seiten 87-118). Vor jeder Verwendung in einem LV ist die dann geltende
+ecoBKP-Ausgabe direkt von ecobau.ch zu ziehen; die ecoBKP-Nummern sind eco-bau-eigene
+Merkblattnummern, nicht BKP-2017-Codes (Rule `bkp-2017-referenz`).
+
+- **ecoBKP 273 Schreinerarbeiten — sachlich stärkster Anschluss.** Gegenpart sind
+  `bauprodukte/wiki/arbeitsplatten-verbinder-schreinerei.md` (drei Verbindersysteme, OPO-Net-
+  Katalogausdrucke 07.02.2011) und `bauprodukte/wiki/z-winkel-beschlag-schreinerei.md` (Stahlwinkel,
+  gleicher Tagesausdruck). Beide Artikel vergleichen bisher **Handhabung/Montage und Preis**; ein
+  Kriterium **Lösbarkeit/Demontierbarkeit** kommt in keinem der beiden vor (nachgeprüft 06.08.2026,
+  Volltextsuche über beide Artikel: null Treffer für demontier-/lösbar-/Rückbau-Begriffe). Genau
+  das liefert dieses Destillat von zwei Seiten: der **Design-for-Disassembly-Katalog** aus
+  ecoBKP 273 (zugängliche, demontierbare, lösbare Verbindungen; Reduktion der Komponentenvielfalt)
+  und — inhaltlich noch schärfer — die Vorgabe aus **ecoBKP 276**, wonach mechanische Befestigung
+  gilt und **Montage-/Füllschäume nicht empfohlen** sind, weil sie die spätere Demontage
+  erschweren. Damit wird die Verbindungsart zum ökologischen Auswahlkriterium neben Handhabung
+  und Preis.
+
+- **ecoBKP 281 Bodenbeläge — nur qualifiziert.** Gegenpart wäre
+  `bauprodukte/wiki/terrazzo-kunststein-bodenbelaege.md` (BKP 281.5 Kunststein / 281.1 vor Ort
+  gegossener Terrazzo). **Achtung:** ecoBKP 281 führt **Terrazzo und Kunststein im hier gelesenen
+  Umfang nicht namentlich** (behandelt werden Unterlagsböden/RC-Beton, Dämmung, Holzbeläge, PVC/
+  Kunststoff, Asbest-Altbeläge, Estriche, Reinigung). Die **beiden offenen Teilfragen** des
+  Terrazzo-Artikels — Gleitfestigkeitsklasse und Reinigungs-/Pflegeverhalten
+  (`bauprodukte/wiki/QUESTIONS.md` Punkt 8) — werden dadurch **nicht** beantwortet; für die
+  Gleitfestigkeit führt ohnehin `normen` (SIA 244:2006, bfu-Anforderungsliste 2.032), nicht eco-bau.
+  Einschlägig ist allein die **belagsartbezogene Reinigungsregel** aus ecoBKP 281 (je Belag ein
+  eigenes Verfahren, z.B. Naturstein poliert: Wischpflege ohne Schichtaufbau), und die gehört laut
+  diesem Destillat ins **Übergabeprotokoll**, nicht ins LV.
+
+- **ecoBKP 271 Gipserarbeiten — Zeiger gesetzt, Blockade bleibt.** Der `bauprodukte`-Korpus ist für
+  dieses Gewerk **leer**: die Quellordner zu 271 Gipserarbeiten enthalten 0 Dateien
+  (`bauprodukte/wiki/QUESTIONS.md`, Punkte um «BKP 271 Trockenbau»). Dieses Destillat liefert die
+  **beschaffungsseitige** Hälfte (Innenputz-/Wärmedämmputz-Prioritäten, Ständerwand-Aufbau,
+  Formaldehyd-Grenze für Akustikputze, Gips-Rücknahme an die Industrie) — die dortige Blockade
+  wird dadurch **nicht** aufgehoben, weil weiterhin produktseitiges Material fehlt.
+
+**Führungsfrage:** `energie` führt die Beschaffungs- und Vollzugslogik der eco-bau-Merkblätter,
+`bauprodukte` das Produkt-/Systemwissen nach BKP, `normen` jede Norm-Fundstelle darin
+(`wissen/koordination/QUERBEZUEGE.md`).

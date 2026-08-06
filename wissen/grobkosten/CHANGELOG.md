@@ -1,5 +1,29 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-06 (Cross-KB-Lauf Run 27) — Kopfblock auf den Stand des eigenen Healthcare-Abschnitts gehoben, Rückmeldung des Abnehmers eingetragen
+
+Rein additiv, kein Kennwert verändert.
+
+- **`wiki/kennwerte.md`, Kopfblock «Abgrenzung, die nicht verwischt werden darf»:** Die Seite
+  widersprach sich an der Stelle, an der zitiert wird — der Healthcare-Abschnitt weiter unten
+  führte zwei Qualifizierungen zum fremden Band, der Kopfblock nannte es unqualifiziert. Beide
+  sind jetzt auch im Kopfblock genannt, in der Reihenfolge nach Gewicht: **(1) Scope** — die Bänder
+  aus `wissen/immobilienbewertung/wiki/realwert-sachwert.md` sind auf **BKP 2** bezogen und nicht
+  direkt mit den BKP-1–5-Werten dieser Seite vergleichbar (deren Deklaration steht unmittelbar
+  darunter); **(2) oberer Endpunkt** — 1'420 (Averecura) ist quellenintern nicht reproduzierbar
+  (recompute 1'285), ebenso die Vella-Zeile (1'021 statt 845), reproduzierbarer **Rohband
+  826–1'285 CHF/m³ GV**, ausdrücklich als Rohband und nicht als neuer geltender Band (Entscheid
+  Raphael, D10 jener KB).
+- **`wiki/kennwerte.md`, Run-12-Abschnitt (historischer Cross-Check), unter dem Nachtrag vom
+  06.08.2026:** Rückmeldung des Abnehmers ergänzt. Die Scope-Frage (Frage 1) ist jetzt auch auf
+  der Abnehmerseite registriert — dort als **D13** in `wiki/wissensluecken.md`, weil jene KB keine
+  `QUESTIONS.md` hat — und `realwert-sachwert.md` trägt den Vorbehalt neu unter der Tabellen-
+  Überschrift. Am Bestand nachgeprüft und präzise formuliert: die Werte werden dort **nicht** als
+  führender Gebäude-Neuwert verwendet, sondern zur **Sachwert-Plausibilisierung** und zur
+  Einordnung der Bauqualität; führender Neuwert-Pfad sind die CHF/m²-HNF-Benchmarks. Zusatzbefund
+  von dort: jene Realwert-Formel addiert Aussenanlagen und Baunebenkosten separat, unter der
+  Lesart BKP 1–9 drohte Doppelzählung.
+
 ## 2026-08-06 (Mac Mini Nachtschicht) — Frage 1 (BKP-Scope): vorgeschlagener nächster Schritt geprüft (Sackgasse), zweites Plausibilitätsargument ergänzt
 
 Kein Trigger für eine neue Stufe-1-Exploration (Bring-Schuld `normen` weiterhin ungedeckt,

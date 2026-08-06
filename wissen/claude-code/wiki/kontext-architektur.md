@@ -46,8 +46,9 @@ Schluessel 4 B/Token.
 | Rebound bis dahin seit der Diaet-Messung | +9'548 | 53 % der Ersparnis |
 | **Stand 03.08.2026 22:30, 21 @-Importe** | **115'482** | **~28'900** |
 | Rebound gesamt seit der Diaet | **+28'084** | **die Ersparnis ist vollstaendig aufgezehrt** |
-| Wirkung der Facetten-Auslagerung (03.08.2026 23:11, Commit `b2f29162`) | **-25'736** | die Aufteilung von `jans-dna.md` allein |
+| davon `rules/jans-dna.md` nach der Auslagerung (03.08.2026 23:11, Commit `b2f29162`) | **-28'558** | die Aufteilung allein, gemessen an dieser einen Datei |
 | **Stand 06.08.2026 23:41, 21 @-Importe** | **89'746** | **~22'436** |
+| Netto-Veraenderung 03.08. 22:30 → 06.08. 23:41 | -25'736 | Auslagerung -28'558, uebrige Rules +2'822 |
 | Stand gegenueber dem Vor-Diaet-Wert 105'573 B | -15'827 | 15 % unter dem Ausgangswert |
 
 *(Zeile 06.08. nachgemessen Wissens-Chef Run 27, Messweg unveraendert. Der Wert deckt sich mit

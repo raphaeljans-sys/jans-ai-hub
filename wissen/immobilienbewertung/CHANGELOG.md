@@ -2,6 +2,37 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-06 (Cross-KB-Lauf Run 27) — Vorbehalte an die Stelle gesetzt, an der abgeholt wird; BKP-Scope neu als D13
+
+Rein additiv, kein Wert geändert, keine Tabelle angefasst (das JANS-Original-Blatt zu bereinigen
+bleibt D10 bei Raphael).
+
+- **`wiki/realwert-sachwert.md`, Abnehmer-/Übergabeblock der Healthcare-Bänder:** Der Vorbehalt zu
+  den nicht reproduzierbaren Rohwerten stand 12 bis 14 Zeilen unter dem Block und reiste beim
+  Weiterreichen nicht mit. Neu steht **im Block selbst**, dass der obere Endpunkt 1'420 (Averecura)
+  und die Vella-Zeile quellenintern nicht reproduzierbar sind (recompute 1'285 bzw. 1'021; die
+  übrigen sechs Zeilen reproduzieren exakt) und der reproduzierbare **Rohband 826-1'285 CHF/m3 GV**
+  lautet — ausdrücklich als Rohband, **nicht** als neuer geltender Band (Entscheid Raphael).
+  Derselbe Vorbehalt ist im Lauf an den zwei anderen Zitierstellen nachgetragen worden:
+  `wissen/entwurfs-referenzen/.../healthcare-neubau-zh.json` (die tatsächlich gelesene Kopie) und
+  der Kopfblock von `wissen/grobkosten/wiki/kennwerte.md`. Vermerkt in **D10**.
+- **`wiki/realwert-sachwert.md`, Tab. 2 (Neuwert-Richtwerte):** Vorbehalt zum **BKP-Scope** der
+  Fremdtabelle unmittelbar unter die Tabellen-Überschrift gesetzt (Quelle nennt nur «Baukosten je
+  m3 umbauter Raum (SIA 116)» ohne BKP-Angabe; Differenz rund 10 %, BKP 2 = 906.3 Promille der
+  Gesamtkosten nach Tab. 3). Mit dem für diesen Artikel spezifischen Zusatz: die Realwert-Formel
+  addiert Aussenanlagen und Baunebenkosten bereits separat, unter der Lesart BKP 1-9 drohte
+  Doppelzählung. **Bewusst NICHT** als Punkt 3 in den Doppelführungs-Block (D12) aufgenommen — das
+  ist keine Divergenz der zwei KB-Stände, sondern eine Eigenschaft der Fremdquelle.
+- **`wiki/wissensluecken.md`:** neue Lücke **D13** (BKP-Scope Tab. 2 ungeklärt, Priorität mittel,
+  Abgrenzung zu D12 benannt) — die Frage war bisher nur in `wissen/grobkosten` registriert, diese
+  KB als zweite führende Stelle kannte sie nicht. D10 um den Mitführungs-Vermerk ergänzt.
+- **`wiki/realwert-sachwert.md`, Healthcare-Umbau-Kostenband:** Abnehmer-Vermerk gesetzt (Skill
+  `kostenschaetzung`, Abschnitt «Reduktionsfaktoren Umbau/Sanierung») — der Skill kannte das Band
+  bis heute nicht. **Keine Führungsübertragung:** die Rollen-Matrix begrenzt die Führung von
+  `kostenschaetzung` auf den Wüest-Benchmark, dieses Band ist JANS-Eigenmaterial und bleibt hier
+  geführt; im selben Zug ist der Satz «für CHF/m2 NF führt der Skill kostenschaetzung» um genau
+  diese Abgrenzung präzisiert.
+
 ## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — Run-25-Wertung zum Wuest-Faktor 0.70 richtiggestellt, echter Abnehmer gefunden
 
 Der Befund wurde adversarial verifiziert und dabei **gedaempft**: Run 25 hatte die Wuest-Referenz

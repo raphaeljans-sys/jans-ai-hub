@@ -78,6 +78,30 @@ und befestigte Flächen oft schon verloren. Zweitens ist die Vogelschutz-Doppelv
 UND Umgebungsgestaltung) ein Punkt, den weder der Fassadenplaner noch der Landschaftsarchitekt
 allein verantwortet — er gehört in die Schnittstellenkoordination.
 
+## Anschluss an die KB `bauprodukte` (gesetzt 06.08.2026, Cross-KB-Lauf Run 27)
+
+Dieses Destillat trug bisher keinen Anschlussblock. Positionsweise geprüft ergibt sich **ein**
+qualifizierter Anschluss und zwei Negativbefunde:
+
+- **ecoBKP 421 Gartenarbeiten → Vegetationshälfte der Dachbegrünung (BKP 288), qualifiziert.**
+  `bauprodukte/wiki/dachbegruenung-systeme.md` (Stand 2002) trennt ausdrücklich **BKP 224
+  Schichtaufbau** von **BKP 288 Vegetation/Bepflanzung**. Die Schichtaufbau-Hälfte hat
+  `[[ecobkp-2026-gebaeudehuelle]]` am 05.08.2026 über ecoBKP 224 angeschlossen; die
+  **Vegetationshälfte** ist hier verortet: ecoBKP 421 verlangt einheimische, standortgerechte,
+  klimaresistente Arten, führt invasive Neophyten als «nicht empfohlen» (mit Meldepflicht nach
+  eidg. Freisetzungsverordnung) und nennt **begrünte Dächer** ausdrücklich als
+  Retentionsmassnahme im Regenwassermanagement. **Vorbehalt:** ecoBKP 421 behandelt die
+  Dachbegrünung nicht als eigenes Merkblatt-Kapitel, sondern nur in dieser Retentions- und
+  Artenwahl-Logik — es ersetzt keine Aufbau- oder Systemangabe.
+- **Kein Anschluss für ecoBKP 287 Baureinigung:** in `bauprodukte/wiki/` existiert kein Artikel
+  zu Baureinigung (Bestand 06.08.2026 geprüft) — offen, kein Zeiger gesetzt.
+- **Kein Anschluss für ecoBKP 450 Erschliessung durch Leitungen:** ebenfalls kein
+  `bauprodukte`-Artikel vorhanden — offen, kein Zeiger gesetzt.
+
+**Statusvorbehalt:** vor jeder LV-Verwendung die dann geltende ecoBKP-Ausgabe direkt von
+ecobau.ch ziehen; die ecoBKP-Nummern sind eco-bau-eigene Merkblattnummern, keine BKP-2017-Codes
+(Rule `bkp-2017-referenz`).
+
 ## Werk vollständig erfasst
 
 Mit diesem Destillat sind alle 138 Seiten des ecoBKP 2026 (V 1.0) in der KB destilliert:

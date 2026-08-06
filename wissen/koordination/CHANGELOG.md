@@ -3,6 +3,55 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-06 — Wissens-Chef Run 27 (Cross-KB, 6 Felder, 28 Agenten)
+
+- **Bericht:** `outputs/2026-08-06_wissens-chef-run27.md`. Sechs Felder, 17 gemeldete Befunde, **alle
+  17 verifiziert — 3 bestaetigt, 13 gedaempft, 1 widerlegt**; danach fuenf Ausfuehrende mit disjunkten
+  Dateimengen, rund 30 Dateien in 8 KBs plus zwei Dateien im Skill-/Logbuch-Layer.
+- **Dimensionierung gemessen:** Zuwachs seit Run 26 per `git log --name-only` — energie 44 Dateien,
+  normen 34, twin 18, bauprodukte 10, immobilienbewertung und grobkosten je 3. Die Felder folgten dem
+  Zuwachs; vier von sechs zielten auf Material, das juenger als 24 Stunden war.
+- **Der teuerste Fund — eine Zahl, die keine Quelle je enthielt.** `bauprodukte` empfahl im Abschnitt
+  «Praxisrelevanz fuer JANS» ausdruecklich fuer eine **Leuchtenausschreibung**: «Buerolicht
+  typischerweise UGR ≤ 19», zugeschrieben auf S. 82 des ERCO-Ratgebers. Der Verifikator hat das
+  Original-PDF geoeffnet: die Seite sagt «in der Regel zwischen 10 und 30» und nennt weder die 19
+  noch das Wort Buero. Neue Fehlerklasse im Register: **erfundener Beleg**, abzugrenzen von der
+  Quellenluecke — dort ist etwas nachzutragen, hier war etwas zu entfernen. Bemerkenswert ist der
+  Ort: das Destillat war sauber, erfunden hat die Anwendungsempfehlung.
+- **Groesster Frankenbetrag:** Der Healthcare-Bandendpunkt 1'420 CHF/m³ GV ist seit dem 12.07. als
+  quellenintern nicht reproduzierbar ausgewiesen (recompute 1'285), der Vorbehalt steht aber
+  unterhalb des Uebergabe-Blocks und reist nicht mit. Bei 10'000 m³ rund CHF 1.35 Mio zu viel.
+  Zwei unabhaengige Nachrechnungen aller acht Zeilen: sechs reproduzieren exakt, Averecura und
+  **Vella** weichen ab; reproduzierbarer Rohband 826-1'285.
+- **Struktur-Lehre 1 (neu):** **«Sperrklausel mit Bedingung heilt nicht von selbst.»** `bauprodukte`
+  verfuegte «Kein weiterer Lauf soll dort danach suchen, solange der Lesestand der KB `energie`
+  unveraendert ist». Die Bedingung trat ein, aber niemand las die Klausel erneut — sie wirkt auf
+  kuenftige Laeufe und haelt sich aktiv. Eine bedingte Stopp-Anweisung braucht einen benannten
+  Waechter, sonst ist sie eine Dauersperre mit hoeflicher Formulierung.
+- **Struktur-Lehre 2 (neu):** **Der Nachtlauf ueberholt den Cross-KB-Lauf, waehrend er laeuft.**
+  Der Melder mass den ERCO-Lesestand bei 120 Seiten, der Ausfuehrende zwei Stunden spaeter bei 145;
+  ein in der Vorlage genanntes Kapitel existiert gar nicht. Ebenso war `ecobkp-2026-ausbau.md`
+  juenger als die Bloecke, die seine Abwesenheit beklagten.
+- **Verfahren — die dritte Korrekturstufe hat erstmals gegriffen.** Die Quote haelt: die Befunde
+  tragen, die Aufloesungen nicht. **Neun von siebzehn** Melder-Aufloesungen wurden von der
+  Verifikation korrigiert, zweimal in die Gegenrichtung (der SIA-385/1-Verweis waere auf eine
+  abgeloeste Ausgabe gegangen; der Fassungsvorbehalt zur BRL 22-15 waere faelschlich geschlossen
+  worden). Und danach haben **vier von fuenf Ausfuehrenden** die verifizierte Vorlage nochmals am
+  Bestand korrigiert — darunter ein Sachfehler in der Legionellen-Einordnung (Auslegungsvorgaben
+  statt bedingter 3-K-Erleichterung), ein nicht korroborierter Wert («> 3 Tage»), drei falsche
+  Datierungen am Wachstums-Riegel und die Reserve, die fuer den Block und nicht fuer die Datei gilt.
+- **Der einzige widerlegte Befund** ist zugleich der einzige, dessen Ausfuehrung unzulaessig gewesen
+  waere: er wollte eine von Raphael am 29.07.2026 ausdruecklich freigegebene Anrede-Klausel
+  relativieren. Der Wissens-Chef relativiert keine Freigabe selbst.
+- **Register:** `QUERBEZUEGE.md` um **6 Paar-Eintraege**, **2 Matrix-Zeilen** und **3 Struktur-Muster**
+  ergaenzt (fuenftes bis siebtes).
+- **Keine eigene Mail** (Rule 260803). Fuer das Tagesbriefing: **kein terminkritischer Punkt.** Der
+  Thalwiler Punkt aus Run 25/26 ist heute um 08:39 vom `hub-chef` aufgenommen und als
+  Korrekturvorschlag gebaut worden — die Meldekette hat im zweiten Anlauf funktioniert.
+- **Offene Entscheide fuer Raphael** (Bericht Abschnitt 7): Ticket T-Regelgeschoss unveraendert,
+  D10-Bereinigung des Original-Blatts, Verbleib des Spektrumskosten-Bands, `MAX_AUTO_BYTES`
+  (Reserve 38 B), dazu vier Beschaffungs-/Bring-Schulden.
+
 ## 2026-08-05 — Wissens-Chef Run 26 (Cross-KB, 5 Felder, 15 Agenten)
 
 - **Bericht:** `outputs/2026-08-05_wissens-chef-run26.md`. Fuenf Felder, 11 gemeldete Befunde,

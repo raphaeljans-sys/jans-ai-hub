@@ -58,6 +58,35 @@ Quelle: `referenzen/20260302-Kostenkennwerte-Healthcare-Neubau-Umbauten.pdf`
 | Gross (weitgehende Erneuerung Technik + bauliche Eingriffe) | 60-100% |
 | Umnutzung (funktionale Neupositionierung) | 80->100% |
 
+#### JANS-Umbau-Kostenband «Spektrumskosten» (feinere Auflösung, sobald ein Stationstyp benannt ist)
+
+JANS führt zusätzlich ein eigenes, nach **Stationstyp** gestuftes Healthcare-Umbau-Kostenband
+in **CHF/m² NF** (sechs Stufen von «leichter Umbau Büro → Praxis/Therapie» bis «neue
+Spezialstation mit hohem Anteil Operationssäle»). Geführt wird es in
+`wissen/immobilienbewertung/wiki/realwert-sachwert.md`, Abschnitt «Healthcare-Umbau-Kostenband
+(JANS Spektrumskosten, CHF/m2 NF)» — **dort im Original nachschlagen**, die Werte nicht hierhin
+kopieren.
+
+- **Kein Widerspruch zu den Reduktionsfaktoren oben, sondern deren feinere Auflösung.** Die beiden
+  Wege sind deckungsgleich kalibriert: Büro → Praxis ≈ «gering», somatische Normalpflegestation
+  ≈ «mittel», Intensiv-/Spezialstation ≈ «gross/Umnutzung».
+- **Vorzuziehen, sobald der Stationstyp benannt ist** — der Faktorweg kann eine Kinder-/Jugend-
+  station Akut nicht von einer somatischen Normalpflegestation unterscheiden, das Band schon.
+- **Der Faktorweg bleibt zuständig** für Nutzungen ohne eigene Stationstyp-Zeile.
+- ⚠ **Bezugsfläche beachten (Pflichtangabe im Erzeugnis):** das Band ist **CHF/m² NF**, nicht GF.
+  Der reale JANS-Einordnungsfall **1'100** ist **CHF/m² HNF** und gilt nur bei weitgehendem
+  Bestandserhalt der Struktur (reiner Teilumbau); **realistischer Zielkorridor bei Präzisierung
+  1'800–2'500 CHF/m² HNF**. Sobald Nasszellen/Tragwerk/Medizintechnik dazukommen, gilt das volle
+  Stationsband. **Umbau-NF und Neubau-GF sind nicht direkt vergleichbar** (andere Bezugsfläche,
+  andere Leistungstiefe).
+- **Provenienz:** JANS-Kundenmemo `Spektrumskosten.docx` («Memorandum of approximate cost») plus
+  zwei reale Einordnungsfälle `Umbaukosten 500K.docx` / `Umbaukosten_CHF_2500K.docx`
+  (R. Jans, 2025, `IMMO-06 Kennwerte/Healthcare`) — **JANS-Eigenmaterial, keine Wüest-Daten.** Die
+  Wüest-Führung dieses Skills betrifft die Wüest-Benchmarks, nicht dieses Band.
+
+*(Verweis gesetzt im Cross-KB-Lauf Run 27, 06.08.2026 — zuvor kannte dieser Skill das Band nicht
+und rechnete Healthcare-Umbauten ausschliesslich als Neubau-Median mal Reduktionsfaktor.)*
+
 #### Wesentliche Kostentreiber
 - Eingriffstiefe der Sanierung
 - Technischer Ausruestungsgrad / medizinische Infrastruktur

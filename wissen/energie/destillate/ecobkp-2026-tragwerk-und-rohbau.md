@@ -479,6 +479,12 @@ Die folgenden Punkte sind eine Einordnung von JANS, keine wörtliche Wiedergabe 
   (`bauprodukte/wiki/QUESTIONS.md`, «Holzbau und Bekleidungen»). Die Blockade bleibt bestehen:
   für einen Artikel mit Bauprodukte-Mehrwert fehlt weiterhin eigenes Projektmaterial, und
   ecoBKP 271 (Trockenbau) ist nicht destilliert.
+  - **Nachtrag 06.08.2026 (Cross-KB-Lauf Run 27):** Der Teilsatz «ecoBKP 271 ist nicht
+    destilliert» ist seit dem 06.08.2026 überholt — ecoBKP 271 Gipserarbeiten (S. 87-89,
+    inkl. Trockenbau-Ständerwände) liegt jetzt in `[[ecobkp-2026-ausbau]]`, ebenso
+    ecoBKP 281 Bodenbeläge (S. 100-107); Status dort `emerging`, Teillesung. **Die Blockade
+    des Punktes 9 bleibt trotzdem bestehen:** sie hängt am fehlenden eigenen Projektmaterial
+    für den produktseitigen Mehrwert, nicht am fehlenden ecoBKP-Destillat.
 
 [[ecobkp-2026-methodik-und-uebersicht]]
 [[graue-energie]]

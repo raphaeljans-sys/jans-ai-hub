@@ -3,6 +3,26 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 06.08.2026 (Wissens-Chef Run 27, 23:45, am Bestand nachgemessen — **seit dem 05.08.
+fälliger Entscheid über die Obergrenze `MAX_AUTO_BYTES` ist bisher nirgends im Register**): Der
+Wachstums-Riegel in `skills/twin/tools/build_dna.py` (`MAX_AUTO_BYTES = 30'000`, Warnstufe
+24'000) begrenzt den kompilierten Facetten-Block, den `twin` in `rules/jans-dna-facetten.md`
+schreibt. Er hat **dreimal in drei Tagen** eingegriffen: erstmals am 04.08.2026 (Block wäre
+36'835 B geworden), erneut am 05.08. und am 06.08. (34'205 B). Jedes Mal wurde **verdichtet
+statt angehoben** — die Anhebung behält der Riegel per Konstruktion Raphael vor. **Heute um
+23:41 selbst nachgemessen: der Auto-Block steht bei 29'962 B, die Reserve beträgt 38 B.** Der
+nächste `twin`-Lauf bricht damit erneut ab, und die Verdichtung geht inzwischen an die Substanz:
+der Lauf vom 05.08. musste drei bereits geschriebene Regelzusätze in den Artikel-Fliesstext
+zurücknehmen, der Lauf vom 06.08. hat Spezifikation aus den Do/Don't-Blöcken ausgelagert und
+vermerkt selbst, dass sich das Retrieval dort auf einen Verweis verschlechtert. Belege:
+`wissen/twin/CHANGELOG.md`, Einträge vom 04./05./06.08.2026 (der Eintrag vom 05.08. hält
+ausdrücklich fest, der Entscheid sei «jetzt fällig»). Die Messgrundlage zum Kontextbudget liegt
+in `wissen/claude-code/wiki/kontext-architektur.md` (heute fortgeschrieben); dort steht auch der
+Punkt, der bei der Abwägung leicht untergeht: die Datei ist **kein @-Import** mehr, die rund
+30 kB sind also Ladekosten je Texterzeugnis, nicht Fixkosten jeder Session. **Nur registriert,
+nicht entschieden** — die Optionen (verdichten, Grenze massvoll anheben, Aufteilung nach
+Gattung) liegen bei Raphael. Status: **offen, Entscheid Raphael (fällig seit 05.08.2026).**
+
 Eintrag 06.08.2026 (Session Protokoll 8. Besprechung KISPI, 15:20 — **drei neue Fristen aus
 der heutigen Fachplaner-Besprechung**): An der 8. Besprechung Fachplanung Umbau PPTS KISPI
 (2619, Teilnehmer Spörri/Duran/Cetin/Eren/Jans) wurden drei Termine vereinbart, Quelle

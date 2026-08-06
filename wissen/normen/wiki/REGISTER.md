@@ -376,8 +376,8 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
 
 - **Electrosuisse / CES (Blitzschutz-Ausführungsregel) — volle Kette mit Lese-Vorbehalt**
   (Zeile nachgetragen im Cross-KB-Lauf Run 27, 06.08.2026; belegt in `energie` seit Run 23 vom
-  03.08.2026, `normen` war damals nicht beteiligt, führt aber nach `wiki/QUERBEZUEGE.md` den
-  Gültigkeits-/Fassungsstand): **SEV 4022:2008 → SNR 464022:2015+COR:2016 (zurückgezogen,
+  03.08.2026, `normen` war damals nicht beteiligt, führt aber nach
+  `wissen/koordination/QUERBEZUEGE.md` Zeile 46 den Gültigkeits-/Fassungsstand): **SEV 4022:2008 → SNR 464022:2015+COR:2016 (zurückgezogen,
   SNV-Connect Statusfeld «Withdrawn») → SN 414022:2024 «Blitzschutzsysteme», ersetzt per
   20.02.2024.** Beleg Electrosuisse-Shop, Artikel-Nr. **DV-48384/1** («Ersetzte Normnummer:
   SNR 464022:2015»), primär destilliert in

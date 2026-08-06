@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-06 (Wissens-Chef Run 27, Cross-KB) — Zeiger auf die geltende Ausgabe 2022 umgestellt
+
+- **`wiki/energie-pv-brandschutz.md`:** Der Querbezug-Block zeigte auf
+  `wissen/normen/destillate/vkf-merkblatt-2001-15-solaranlagen` — diese Datei traegt seit dem
+  05.08. `status: superseded`. Umgestellt auf das Volldestillat der geltenden Ausgabe
+  `…/vkf-merkblatt-2001-15-solaranlagen-2022` (angelegt normen Run 45, 06.08.2026 01:48),
+  **mit Statusvorbehalt**: das 2022er-Destillat traegt selbst `status: speculative`, weil
+  Erstdestillat und Refuter-Runde beide im selben Lauf liefen und die unabhaengige
+  Zweitverifikation aussteht (am Destillat nachgeprueft). Die Bestandsfassung 06.03.2015 bleibt
+  als historische Fassung fuer Altprojekte benannt.
+- **Merkmalsklammer praezisiert**, beides am 2022er-Destillat belegt: «RWA-Abstand 2 m» →
+  «2.0 m nur noch als massnahmenfreie Anhangs-Schwelle, sonst Lichtraumprofil» (Delta 3, Anhang
+  S. 14); «1200-m²-RF1-Grenze» → «**> 1200 m²**» (Ziff. 3.2.3 Abs. 1, S. 9). Der 2-m-Wert ist
+  2022 nicht verschwunden, sondern aus dem Haupttext in den Anhang gewandert und gilt dort weiter.
+- **Erledigt-Vermerk an beiden Stellen** nachgezogen, an denen derselbe Vorbehalt stand
+  (Kopfnotiz und Schlussabsatz «Datenstand / offen») — die Datei war in sich widerspruechlich.
+  Offen bleiben nur noch: Zwischenausgabe 01.01.2017 ohne eigenes Destillat, ausstehende
+  Zweitverifikation des 2022er-Destillats, unveraenderter SharePoint-Bestand 2015.
+- **`wiki/QUESTIONS.md`:** neuer Punkt **F-UEBERGABE** — der normen-Laufbericht Run 45 nennt
+  `planungsgrundlagen` mit 0 Treffern, die Uebergabe an die Empfaenger-KB wurde also nicht
+  notiert. Das bekannte Verpuff-Muster, hier in der Querrichtung zwischen zwei KBs.
+- Frontmatter `last_updated` auf 2026-08-06, `sources` um das 2022er-Destillat ergaenzt.
+
 ## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — die eigene Meldung ist bestaetigt, und zwar am VKF-Original
 
 - **`wiki/energie-pv-brandschutz.md`:** Die Kopfnotiz «2022er-Re-Destillat in normen offen» ist durch
