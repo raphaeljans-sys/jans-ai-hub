@@ -5,6 +5,60 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 06.08.2026 (08:39 bis 08:58, **MIT Befund, Briefing versendet**)
+
+Signale gegenverifiziert: Register und Logbuch im 7-Tage-Horizont samt der drei heutigen
+Loop-Abschnitte (Radar 06:55, AG-Gründung 07:46, Verzugscheck 08:05), Konversations-Destillat
+06.08. mit neun Blöcken, `mail-vorfilter.sh 26` über alle Konten, bexio `--verzug` und
+`--abgleich`, M365-Kalender acht Tage, Sync- und Remote-Queues, Lauf-Journal.
+
+**Der Befund des Tages ist ein Meldeweg-Ausfall an derselben Sache zum zweiten Mal.** Ziffer
+4.5 des heute einzureichenden Begleitbeschriebs Bohlweg 3 trägt weiterhin den falschen
+Rechtssatz zu Art. 45 revBZO. Am Dateibestand um 08:42 nachgemessen: alle vier Dateien
+(md/docx/pdf im Deliverable-Ordner 260806 und die Versandkopie im Korrespondenzordner) stehen
+unverändert auf dem Stand 03.08. 22:28/22:29. Der Wissens-Chef hatte den Punkt am 04.08. im
+Laufbericht und am 05.08. im Register; das Chef-Briefing vom 05.08. führte ihn nicht, und das
+Radar-Briefing von heute früh führt ihn ebenfalls nicht (seine Zeile lautet nur
+«versandbereit»). Regel 260805 greift damit genau hier.
+
+**Ausgeführte Aktionen.** **A3/A5:** die korrigierte Fassung gebaut und als Vorschlag im
+Unterordner `_Korrekturvorschlag-Ziffer-4.5/` des Deliverable-Ordners abgelegt (md, docx, pdf
+plus `LIESMICH.md` mit Begründung, Quelle und den drei Restschritten). Ersetzt ist genau ein
+Absatz im Wortlaut des Run-26-Berichts (§ 2a ABV Abs. 1 Kleinbauten / Abs. 2 Anbauten, Art. 45
+revBZO ausdrücklich als nicht vorwirkend ausgewiesen); Zahlen unverändert (45.8 m² zulässig,
+34.0 m² = 5.2 %), Umfang unverändert fünf Seiten, im gerenderten PDF sichtkontrolliert.
+**Nichts überschrieben, nichts versendet** — es ist ein Behördendokument, die Freigabe bleibt
+bei Raphael. **A4:** zwei Registerzeilen (Ziffer-4.5-Zeile und die Terminzeit 13.08.) und
+dieser Eintrag.
+
+**Nicht qualifiziert und bewusst unterlassen.** **A1:** RE-00100 bleibt gesperrt, weil die
+Fälligkeit in bexio auf dem 30.07. steht und damit vier Tage vor der belegten Zustellung vom
+03.08. 12:46; das Nachziehen der Fälligkeit ist eine bexio-Buchung und damit Aktion Raphael.
+RE-00087 steht auf Mahnstufe 2 und wäre nach Whitelist immer nur Entwurf; RE-00098/99 laufen
+bis 12.08., RE-00101 bis 16.08. **A2:** kein neuer, in einer Mail bestätigter Termin. Keine
+Zahlung, keine Buchung, keine Löschung, kein Versand ausser dem Briefing. Kein `git` über SMB.
+
+**QS.** `korrektur` mit beiden Agenten: Rechtschreibung grün ohne Korrektur, Layout gelb mit
+drei Befunden (Signaturblock unvollständig, «Fassung 260730» als Datum mehrdeutig, kein
+Umbruch-Schutz). Signaturblock und Datumsangabe nachgezogen, der Umbruch-Schutz für eine
+interne Mail bewusst nicht gesetzt. `twin`-Gate: Fidelity 87, gelb wegen der Terminzeit am
+13.08.; vier Schärfungen übernommen, die Terminzeit am M365-Kalender entschieden statt
+gestrichen.
+
+**Ein Hinweis zum Guard.** Der Mail-Draft-Guard hat den Versand zunächst blockiert, weil der
+Body die ASCII-Dateinamen `…Projektaenderung…` enthielt. Das ist derselbe Fehlalarm wie am
+05.08. bei «Ausfuehrungsplaene»: der Guard blendet Mailadressen und Domains aus, nicht aber
+Datei- und Ordnernamen, die nach `dateinamen-konvention.md` zwingend ASCII sind. Der Guard
+wurde **nicht** umgangen und **nicht** geändert (Config-Änderung ist nicht Whitelist); statt
+dessen nennt das Briefing die Ablageorte ohne die wörtlichen Dateinamen, die vollständigen
+Pfade stehen im Register und in der LIESMICH-Datei. Kandidat für eine Guard-Ergänzung, die nur
+Raphael freigeben kann: Datei- und Ordnernamen wie Mailadressen ausblenden.
+
+**Briefing versendet** 06.08. 08:57:46 an rj@raphaeljans.ch über Apple Mail, Absender rj@,
+Aptos 12 pt. Gegenprobe am Beleg in «Gesendete Elemente»: **7'678 Zeichen**, kein Leer-Body.
+
+---
+
 ## Debitoren-Verzugscheck 06.08.2026 (08:05, read-only, still — keine Mail)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. Live-Stand bexio, fünf Rechnungen offen,

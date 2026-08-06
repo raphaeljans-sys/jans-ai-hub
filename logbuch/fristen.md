@@ -3,6 +3,40 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 06.08.2026 (Hub-Chef 08:39, am M365-Kalender nachgemessen — **Terminzeit 13.08.
+vereinheitlicht**): Der Hub führte die Besprechung Kostenvoranschlag und Finalisierung
+Baubeschrieb Direktvermietung Albertstrasse 7 mit R. Steinmann an zwei Stellen mit
+verschiedenen Zeiten: das Logbuch mit **09:30 bis 11:00**, dieses Register an der
+Steinmann-Zeile mit **10:00 bis 11:30** (aus dessen Mail vom 29.07. 16:04). Heute um 08:41 am
+Kalender selbst gemessen, also an der aktuell gültigen Einladung: **13.08.2026, 09:30 bis
+11:00**, Organisator roman.steinmann@novaproperty.ch, Ort Feldeggstrasse 26, mit
+Teams-Zuschaltung. Massgebend ist der Kalender; die aus der Mail übernommene Zeit ist
+überholt, nicht falsch abgeschrieben. Aufgefallen ist der Widerspruch dem `twin`-Gate bei der
+Prüfung des heutigen Briefings. Status: **erledigt, Kalender ist die Quelle.**
+
+Eintrag 06.08.2026 (Hub-Chef 08:39, am Dateibestand nachgemessen — **Ziffer 4.5 des heute
+einzureichenden Begleitbeschriebs Bohlweg 3 steht unverändert falsch; ein Korrekturvorschlag
+liegt jetzt gebaut daneben**): Der terminkritische Nachtrag des Wissens-Chefs Run 26
+(05.08.) ist **nicht abgearbeitet**. Um 08:42 an allen vier Dateien nachgeprüft: md, docx und
+pdf im Deliverable-Ordner 260806 sowie die Versandkopie im Korrespondenzordner tragen alle
+noch den Stand vom **03.08. 22:28/22:29**, Ziffer 4.5 stützt die 50-m²-Grenze weiterhin auf
+**Art. 45 revBZO**. Heute ist der von Raphael selbst gesetzte Eingabetag. **Der Radar hat den
+Punkt heute früh nicht mitgeführt** (seine Zeile lautet nur «versandbereit»), deshalb trägt
+ihn der Chef weiter — das ist der zweite Meldeweg-Ausfall an derselben Sache, nach dem
+Briefing vom 05.08. **Ausgeführt (A3/A5, nichts überschrieben, nichts versendet):** die
+korrigierte Fassung ist gebaut und liegt als Vorschlag im Unterordner
+`…/260806-Begleitbeschrieb-Projektaenderung-Bohlweg-3/_Korrekturvorschlag-Ziffer-4.5/`
+(md+docx+pdf, dazu LIESMICH.md mit Begründung und den drei Restschritten). Ersetzt ist genau
+ein Absatz, Wortlaut wörtlich aus dem Run-26-Bericht (§ 2a ABV **Abs. 1** Kleinbauten /
+**Abs. 2** Anbauten, Art. 45 revBZO ausdrücklich als nicht vorwirkend ausgewiesen); Zahlen
+unverändert (45.8 m² zulässig, 34.0 m² = 5.2 %), Umfang unverändert 5 Seiten, im gerenderten
+PDF sichtkontrolliert. **AKTION Raphael vor dem Versand:** Vorschlag prüfen, die drei Dateien
+eine Ebene höher überschreiben **und die Versandkopie im Korrespondenzordner mit
+überschreiben**. Zweiter, davon unabhängiger Punkt aus dem Register-Nachtrag vom 04.08., der
+heute schlagend wird: **die Mail ist kein Postfach-Entwurf**, sondern die Textdatei
+`260806-Mail-Eingabe-Projektaenderung-Bohlweg-3.txt` — sie ist in `raphaeljans@outlook.com`
+von Hand anzulegen. Status: **offen, Aktion Raphael heute.**
+
 Eintrag 06.08.2026 (Logbuch-Radar 06:55, Gegen-Verifikation am Sendebeleg — **löst den seit
 fünf Tagen genannten Sperrgrund bei RE-00100 auf**): **Der Versandnachweis für RE-00100
 existiert und liegt in «Gesendete Elemente».** Der Debitoren-Verzugscheck führt die
