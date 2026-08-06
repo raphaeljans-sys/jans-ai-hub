@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.08.2026 06:28:12
+Stand: 06.08.2026 06:38:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:08)
@@ -18,4 +18,4 @@ Stand: 06.08.2026 06:28:12
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f6d6a41d konversations-log 06.08.2026: Destillat 26h-Fenster (2 echte Gespraeche Mac Mini), Register um Tuerstempel-Abweichung E30/EI30 KISPI 17264 ergaenzt, Fensterproben-Blocker als erledigt nachgetragen
+- d77569bd nas-selfcommit: 1 Datei(en) 2026-08-06 06:30
