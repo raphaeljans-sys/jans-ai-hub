@@ -114,8 +114,12 @@ Auslösung/Wirkungsweise, und mittels integraler Tests auf Funktionstüchtigkeit
 **RWA-Konzepte** (Ziff. 4.2, drei gleichrangige Varianten):
 
 1. **Natürliche RWA (NRWA)** (Ziff. 4.2.1): unter Terrain liegende Brandabschnitte können
-   damit **nicht** wirksam entraucht werden. Entrauchungs- und Nachströmöffnungen je min. 1 %
-   der Brandabschnittsfläche, Entrauchungsöffnungen an der höchsten Stelle (Dachfläche bzw.
+   damit **nicht** wirksam entraucht werden. Entrauchungs- und Nachströmöffnungen weisen je
+   eine **geometrisch freie** Fläche von min. 1 % der Brandabschnittsfläche auf (Ziff. 4.2.1
+   Abs. 2, S. 3 — die Qualifikation «geometrisch frei» ist wesentlich und war bis Run 46
+   nicht destilliert: sie ist **nicht** mit der aerodynamisch wirksamen Fläche A_aerodyn = A·c
+   des Anhangs zu verwechseln, sonst wird um den Faktor 1/c, also bis rund das Dreifache,
+   falsch dimensioniert). Entrauchungsöffnungen an der höchsten Stelle (Dachfläche bzw.
    Decken-/Dachbereich an den Fassaden), Nachströmöffnungen in Bodennähe; müssen jederzeit,
    auch witterungsunabhängig, funktionieren (Verweis SN EN 12101-2:2003-08). Wenn nicht in der
    Dachfläche einbaubar: gleichmässig verteilt in zwei möglichst gegenüberliegenden Fassaden,
@@ -123,8 +127,36 @@ Auslösung/Wirkungsweise, und mittels integraler Tests auf Funktionstüchtigkeit
 2. **Entrauchung mit Brandlüfter der Feuerwehr (RWA mit BL)** (Ziff. 4.2.2): unter Terrain nur
    in der Geschosslage 1. UG zulässig, in tieferen Geschossen **nicht** zulässig; für komplexe
    Raumgeometrien nicht geeignet; setzt ein Einsatzkonzept der zuständigen Feuerwehr voraus,
-   die über die nötigen Brandlüfter verfügen muss; gleichzeitiger Mehrfach-Einsatz braucht ein
-   Konzept gegen «Kurzschlusswirkung» der Luftströme.
+   die über die nötigen Brandlüfter verfügen muss — **Anzahl und Gesamtleistung ergeben sich
+   aus den Luftwechselraten nach Ziff. 4.2.2.2** (Abs. 3, S. 3); gleichzeitiger
+   Mehrfach-Einsatz braucht ein Konzept gegen «Kurzschlusswirkung» der Luftströme.
+
+   ⚠ **Anforderungen an die Entrauchungsöffnungen — nachgetragen Run 46 (07.08.2026), zuvor
+   vollständig fehlend.** Sie gehören zu Ziff. 4.2.2.4 und deren Anhang, also zum
+   Brandlüfter-Konzept, und sind die einzigen harten Bauteilanforderungen dieses Konzepts:
+   - **Funktionserhalt 400 °C, mit Sprinkleranlage 200 °C, während mindestens einer Stunde**
+     (Anhang zu Ziff. 4.2.2.4 Abs. 1, S. 9). Das ist eine **eigene** Anforderung neben dem
+     gleichlautenden Wert für die Heissgasventilatoren der MRWA (Ziff. 4.2.3.1) — sie trifft
+     Klappen, Jalousien, Antriebe und Verschlüsse im praxishäufigsten Fall, der Einstellhalle
+     im 1. UG mit Brandlüfterkonzept.
+   - Entrauchungsöffnungen müssen **einzeln** und von einem im Brandfall **sicheren Standort**
+     aus **öffen- und wieder schliessbar** sein; die Betriebsbereitschaft muss **auch bei
+     Stromausfall** gewährleistet sein (Ziff. 4.2.2.4 Abs. 4, S. 4). Damit sind eine nur
+     öffnende oder eine gemeinsam angesteuerte Gruppe ausgeschlossen, und je Antrieb ist
+     Federrücklauf oder Notstrom nachzuweisen.
+   - Bei kleineren Einstellhallen genügt **manuelle Bedienung von aussen**; die Öffnungen
+     müssen **markiert** und mit einer funktionierenden Schliessung (z.B. Deckel) ausgerüstet
+     sein (Anhang zu Ziff. 4.2.2.4 Abs. 2, S. 9).
+   - **Dauernd offene Öffnungen** für die Belüftung des Einstellraumes, die direkt ins Freie
+     führen, müssen im Brandfall schliessbar sein, z.B. mit einem **nicht brennbaren Deckel**
+     (Ziff. 4.2.2.4 Abs. 5, S. 4). Betrifft praktisch jede Tiefgarage mit permanenten
+     Lüftungsgittern oder Schachtöffnungen.
+   - Der Richtwert von ca. 1.30 m² aerodynamisch wirksamer Fläche je Entrauchungsöffnung gilt
+     mit einer Ausnahme: Öffnungen, die **nicht zugleich Einblasöffnungen** sind, dürfen in
+     äquivalente aerodynamisch wirksame **Teilflächen unterteilt** werden (Ziff. 4.2.2.4
+     Abs. 1 Satz 2, S. 3).
+   - **In Ecken, grösseren Nischen usw.** sind zusätzliche Entrauchungsöffnungen anzuordnen,
+     damit keine nicht entrauchbaren Zonen entstehen (Ziff. 4.2.2.4 Abs. 2, S. 3/4).
 3. **Maschinelle RWA (MRWA)** (Ziff. 4.2.3): nur von einer anerkannten Prüfstelle geprüfte
    Heissgasventilatoren zulässig, Funktionserhalt min. 1 Std. bei 400 °C (Reduktion auf 200 °C
    im Einvernehmen mit der Kantonalen Feuerpolizei möglich, wenn keine hohen
@@ -293,8 +325,14 @@ resultatsrelevante Bilder/Diagramme darstellen (Ziff. 7.2).
   «mit oder ohne».
 - **S. 12 Beispiel 2:** «RWA mit BL (N2), Brandabschnittsfläche < 1200 m², geschossweise
   abgetrennt, **ohne Sprinkleranlage**, im 1. UG liegend — Vier Entrauchungsöffnungen notwendig
-  (bedingt durch die Raumgeometrie).» Die Beispielmarkierung umfasst **nur die untere, weisse**
+  (bedingt durch die Raumgeometrie), **davon sind zwei Notausgänge anrechenbar, die direkt ins
+  Freie führen.**» Die Beispielmarkierung umfasst **nur die untere, weisse**
   Teilzelle — konsistent mit «ohne Sprinkleranlage».
+  ⚠ **Korrigiert Run 46 (07.08.2026):** Der Halbsatz zu den anrechenbaren Notausgängen fehlte
+  hier, obwohl er bei Beispiel 1 in Run 45 ergänzt worden war. Ohne ihn liest sich der Fall
+  «< 1200 m², ohne Sprinkler» so, als seien vier eigens zu erstellende Entrauchungsöffnungen
+  nötig; tatsächlich sind es zwei. Am eigenen 300-dpi-Rendering der S. 12 nachgeprüft: der
+  Grundriss trägt am NA die Beschriftung «als Entrauchungsöffnung anrechenbar».
 
 **Damit beweist das Merkblatt seine eigene Lesart:** untere weisse Teilzelle = ohne
 Sprinkleranlage. Das ist die zweite, vom Farbmessen unabhängige Bestätigung (die erste ist
