@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 06.08.2026 05:57:58
+Stand: 06.08.2026 06:08:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 06.08.2026 05:57:58
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ef89e4f3 nas-selfcommit: Rebase-Stau 05:30 bereinigt, ausstehende Edits nachgezogen
+- b86b0a36 twin-fidelity-review 06.08.2026: Bitte-Form-Skala (4 Stufen), Mitleser-Regel Du/Sie, Rollenverortung; Riegel-Verdichtung 4243 B, Begruendung korrigiert; Bookkeeping-Fehler 07.-11.03. berichtigt

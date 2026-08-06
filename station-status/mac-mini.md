@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 06.08.2026 06:00:11
+Stand: 06.08.2026 06:10:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:41)
@@ -12,4 +12,4 @@ Stand: 06.08.2026 06:00:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ef89e4f3 nas-selfcommit: Rebase-Stau 05:30 bereinigt, ausstehende Edits nachgezogen
+- b86b0a36 twin-fidelity-review 06.08.2026: Bitte-Form-Skala (4 Stufen), Mitleser-Regel Du/Sie, Rollenverortung; Riegel-Verdichtung 4243 B, Begruendung korrigiert; Bookkeeping-Fehler 07.-11.03. berichtigt
