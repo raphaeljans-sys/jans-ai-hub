@@ -52,6 +52,109 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-06 08:57 — [FREI] Der Frontmatter-Widerspruch bei `energie-training` ist aufgelöst: die Felder beschreiben den am 03.08. ausgebauten **launchd**-Job, nicht die App-Task. Verbrauchsrate zum zweiten Mal in Folge exakt 1.00 Mio/h, Vorsprung unverändert −3.0
+
+**Selbstkontrolle:** letzter Eintrag 06.08. 00:57 (plus Nachtrag 05:10), Abstand **8 h 00**
+bei 8-h-Takt (00:50 / 08:50 / 16:50). **Kein Aufsichtsausfall.**
+
+**Fenster FREI, vierter sauberer Lauf in Folge.** `claude -p "Antworte nur mit: OK" --model
+haiku < /dev/null` liefert **«OK», rc=0** in Sekunden, ohne Watchdog. **Keine Waisen:**
+`ps -eo pid,ppid,command | grep "claude -p"` leer, Gate-Zählung `pgrep` **0**.
+**Speicher:** 3.09 GB frei+inactive+purgeable, Druckstufe **1** (normal).
+
+**Wochenbudget** (`kontingent-budget.sh --json`, ohne Modellaufruf):
+
+| Grösse | Wert | Vergleich 00:57 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **63.54 Mio** von 167 = **38.0 %** | 55.53 Mio = 33.3 % |
+| Woche verstrichen | 41.1 % (69 h seit Reset Mo 12:00) | 36.3 % |
+| **Vorsprung** | **−3.0 Punkte** | −3.0 Punkte |
+| MacBook Pro / Mac Mini | 45.71 / 17.83 Mio (beide frisch) | 38.20 / 17.33 |
+
+In den acht Stunden seit 00:57 sind **8.01 Mio geflossen = 1.00 Mio/h**, auf zwei Stellen
+dieselbe Rate wie im Fenster davor. Wochenschnitt **0.92 Mio/h**, nachhaltig bis zum Reset
+am Montag 12:00 wären **1.05 Mio/h** (103.46 Mio Rest auf 99 h). Der Verlauf ist damit
+ungewöhnlich gleichmässig und trifft den stehenden Entscheid vom 03.08. («gleichmässig über
+die Woche») ohne jeden Eingriff. Eine Drossel nach Schritt 2c ist **nicht** ausgelöst und
+wurde **nicht** gesetzt.
+
+**Liefer-Delta seit dem Nachtrag 05:10** (Normen Run 45 und Nachtschicht 02:39 sind dort
+bereits gewürdigt und werden nicht doppelt gezählt):
+
+- **Nachtschicht 05:41** (Mini, rc=0, 4.95 USD, 54 Turns): `grobkosten` — die von der KB
+  selbst empfohlene offene Frage am Original-PDF geprüft, statt blind eine vierte
+  Exploration zu fahren; Ergebnis ist eine belegte Sackgasse (Kapitel 1–4 der Quelle nicht
+  im Bestand) plus ein zweites Plausibilitätsargument für die BKP-2-Scope-Annahme. Dabei
+  einen seit 05:30 hängenden **Rebase-Stau im `nas-selfcommit`** entdeckt, der jeden
+  weiteren automatischen Commit blockierte, und über den nativen SSH-Pfad bereinigt
+  (`ef89e4f3`). Delta ja, und der Nebenbefund war mehr wert als der Hauptauftrag.
+- **twin-fidelity-review 05:45:** alle sechs Facetten-Wikis, `rules/jans-dna-facetten.md`
+  und `skills/twin/tools/build_dna.py` nachgeführt — Bitte-Form-Skala in vier Stufen,
+  Mitleser-Regel Du/Sie, Rollenverortung; Bookkeeping-Fehler 07.–11.03. berichtigt.
+  Delta ja, stark.
+- **twin-mail-training 03:40:** Batch 88 (rj@ 16.–31.01.2026), 12 Marker, ein
+  QUESTIONS-Entscheid geschlossen. Delta ja.
+- **Operative Loops (ausgenommen, nur Vollzug):** konversations-log 06:13, logbuch-radar
+  06:55, vollgas-fruehwarnung 07:15, ag-gruendung-monitor 07:46, mahnwesen 08:05 — alle mit
+  Registerspur in `LOGBUCH.md` / `fristen.md`.
+- **Noch im Lauf, kein Befund:** zahlungsabgleich (08:23) und hub-chef (08:39) hatten zum
+  Messzeitpunkt naturgemäss noch keine Spur. Kein Leerlauf-Verdacht, der nächste Lauf prüft nach.
+
+**Kein Loop mit Delta-Null-Serie. Keine Rücktaktung, keine Stilllegung, keine Drossel.**
+Lauf-Journal 06.08.: zwei Zeilen, beide **rc=0** (02:39 / 05:41).
+
+### Befund: der Frontmatter-Widerspruch bei `energie-training` hat eine harmlose Ursache
+
+Der 00:57-Eintrag hat den Widerspruch gemeldet (`enabled: false` und `cron_target
+"0 10,16,23 * * *"` bei einem Loop, der täglich ~22:37 feuert und liefert) und ihn bewusst
+nicht angefasst. Eine einzige Messung löst ihn auf: die stillgelegte launchd-Datei
+`ch.jans.training-energie.plist.disabled-260803` auf dem Mini trägt
+`StartCalendarInterval = Hour 22 / Minute 30`.
+
+Damit ist die Lage klar. Es gab **zwei** Mechanismen: den launchd-Job (22:30, am 03.08.
+umbenannt und entladen — `launchctl list` auf dem Mini zeigt ihn nicht) und die App-Task
+gleichen Namens, die ihn im praktisch selben Slot beerbt hat (beobachtet ~22:37, an vier
+Tagen nach der Deaktivierung: 03.08. zweimal, 04.08., 05.08.). Die Frontmatter-Felder
+beschreiben **weder** den einen **noch** den anderen, sondern ein noch älteres 3x-tägliches
+Regime — sie sind doppelt veraltet. Das ist die Bestätigung der Regel, die aus dem
+00:57-Befund in die Task-Beschreibung ging: **`enabled:` und `cron_target:` sind
+Dokumentation, nie Live-Zustand.** Der Loop ist gesund; nur seine Datei erzählt eine
+Geschichte von vor drei Regimewechseln. Ich habe wieder **nicht** editiert — der
+korrigierte Sollwert ist ohne die Live-Registry des Mini nicht bekannt, und ein Edit auf
+`enabled:` bleibt der Fehlertyp «Drossel, die niemand zurückdreht».
+
+**Feuermechanismen, alle drei Orte geprüft.** Registry MacBook (`list_scheduled_tasks`):
+unauffällig, mein eigener Takt `50 */8 * * *` bestätigt. Registry Mini (`ssh mini`):
+dieselben acht Tasks wie im 00:57-Inventar, keine hinzugekommen, keine entfernt. launchd
+beide Stationen: `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` unverändert
+`*.disabled-260729` und **nicht geladen**, `STOP-Macbookpro`/`STOP-Macmini` unverändert vom
+29.07. 02:51, `ch.jans.nachtschicht` auf dem Mini geladen. **Kein Mechanismus feuert
+doppelt, keiner ist wiederauferstanden.**
+
+**P1 — keiner. Keine Mail.** Kein Login-Blocker, kein erschöpftes Wochenkontingent.
+
+**P2 (a) — unverändert, aber entschärft: der Abgleich der `energie-training`-Frontmatter
+braucht eine Session auf dem Mini.** Der Befund oben nimmt der Sache die Dringlichkeit (es
+ist ein Doku-Rückstand, kein Betriebsfehler), erledigt sie aber nicht: `list_scheduled_tasks`
+auf dem Mini aufrufen, echten Cron ablesen, Frontmatter und `wissen/energie/training/PROGRAMM.md`
+Zeile 5 darauf ausrichten. Dieselbe Datei nennt weiterhin den One-Time-Task
+`token-drosselung-100810`, den es nicht gibt.
+
+**P2 (b) — unverändert offen: `scripts/nachtschicht-run.sh` soll seinen Lauf-Report auch bei
+verkürztem Zyklus schreiben.** Der Doppel-Destillat-Vorfall vom 05.08. (ecoBKP S. 1–17 zweimal)
+hatte genau hier seine Wurzel; der Hebel ist klein und mechanisch, betrifft aber jede von der
+Nachtschicht bediente KB.
+
+**P2 (c) — unverändert offen: der dedizierte Baujournal-Lauf für `projekt-lessons`**
+(jahrweise 2018–2024 auf DS3, gezielt Nachtarbeit/Lärm/Etappenwechsel), voll budgetiert als
+eigener Lauf. Steht seit 05.08. 16:57.
+
+**P3 — der One-Time-Task `arbeits-weiche-review` auf dem Mini ist heute fällig** und im
+Fristen-Register als Raphaels Zusage geführt. Kein Eingriff meinerseits, nur vermerkt, damit
+der nächste Lauf sein Ausbleiben bemerken würde.
+
+---
 ## 2026-08-06 00:57 — [FREI] Der Radar hat vier Wochen lang nur eine von ZWEI Task-Registries geprüft: der Mac Mini führt acht eigene Scheduled Tasks, und `energie-training` liefert dort täglich, obwohl seine Datei `enabled: false` trägt. Starke Nacht (Energie Run 124 + Wissens-Chef Run 26), Vorsprung stabil bei −3.0
 
 **Selbstkontrolle:** letzter Eintrag 05.08. 16:57, Abstand **8 h 00** bei 8-h-Takt (00:50 /
