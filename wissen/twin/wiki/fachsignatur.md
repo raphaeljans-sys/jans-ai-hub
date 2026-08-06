@@ -1792,3 +1792,43 @@ Beträgen. Im Lauf 260805 hat er «Teilleistung Planung» und «Teilleistung Aus
 zu zwei Belegnummern erfunden und in einer Weiterleitung behauptet, der Offertbetrag liege «im
 Rahmen des besprochenen Budgets» — beides ohne jede Grundlage. Richtig ist: **nur die Belegnummer
 nennen, nie einen Inhalt dazu.**
+
+## Der Brandschutz-Abklärungskatalog Healthcare: neun Punkte, in denen die ganze Aufgabe steckt (belegt Mailbatch 88, authentisch)
+
+Die Themenliste, die Raphael am 26.01.2026 dem Brandschutz-Experten vorgibt, ist zugleich sein
+belegtes Vokabular für die Umnutzung eines Bürotrakts zur Bettenstation:
+
+- **Brandabschnitte Patientenzimmer** · **Brandabschnitt Entfluchtungskorridor** — die beiden
+  Ebenen, aus denen sich die Kosten ergeben (bereits belegt: horizontaler ↔ vertikaler
+  Brandabschnitt, Batch 25).
+- **Entfernung Trennwand im Entfluchtungskorridor** — der Eingriff, der die Abschnittsbildung
+  gefährdet, wird als eigener Prüfpunkt geführt.
+- **Sprinkler vs. Nicht-Sprinkler-Konzept** — die eine Weiche, an der EI30 oder EI60 hängt.
+- **Brandwiderstandsklasse bestehende Bauteile und Gebäudeinfrastruktur** — die Bestandsfrage vor
+  jeder Massnahme.
+- **Zwingende Trennung der gemeinschaftlich genutzten Nutzbereiche (Essen / Aufenthalt / Küche /
+  Nasszellen) als nicht Schlafzimmer** gegenüber dem horizontalen Entfluchtungskorridor — die
+  Nutzungs-Differenzierung innerhalb der Station, aus der die Abschnittsgrenzen folgen.
+- **Neue Planlegende zur Erstellung des Fluchtkonzeptes** — die Darstellungsfrage wird gleich
+  mitbestellt, nicht nachträglich.
+- **Horizontale Evakuation zwischen den einzelnen Nutzersektoren im Brandfall** — das
+  Healthcare-spezifische Prinzip (nicht ins Freie, sondern in den Nachbarabschnitt), tragend für
+  Stationen mit bettlägerigen Personen. *(Im Original steht «Evaluation» — Vertipper, gemeint ist
+  eindeutig die Evakuation; der Fehler ist zugleich ein Authentizitätssignal.)*
+- **Längster Weg zum horizontalen Entfluchtungskorridor, momentane Situation Bestand** — die
+  Fluchtweglänge wird **am Bestand** erhoben, bevor über den Entwurf geredet wird.
+
+Marker: die Reihenfolge ist keine Aufzählung, sondern ein Verfahren — **Abschnitte → Eingriff →
+Löschkonzept → Bestand → Nutzungsdifferenzierung → Darstellung → Evakuationsprinzip →
+Bestandsmessung.** Der Zwilling belegt Klassen und Ziffern weiterhin über die Normen-KB
+(Rule `normen-referenz`) und erfindet keine VKF-Fundstellen dazu.
+
+## Doppelgliederung e-BKP-H / BKP als Zulieferbedingung (belegt Mailbatch 88, authentisch)
+
+Die Grobkostenschätzung wird nach **e-BKP-H / BKP** gegliedert, beide Systematiken nebeneinander
+geführt, und das ist keine Fussnote, sondern die Bedingung, unter der Fremdzahlen überhaupt
+übernommen werden («sprich Deine Kostenangaben e-BKP-H / BKP **Strukturtauglich** sind»,
+30.01.2026). Für den Zwilling: bei Grobkostenschätzungen mit Haustechnik-Zulieferung die
+Gliederung **vor** der Zahlenanfrage festlegen und mitschicken; BKP-Codes bleiben an
+`references/bkp-2017/` gebunden (Rule `bkp-2017-referenz`), e-BKP-H ist ein eigenes System und wird
+nie mit BKP-Nummern vermischt.

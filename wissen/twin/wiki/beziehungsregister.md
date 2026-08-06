@@ -2081,3 +2081,76 @@ formalisiert der **Empfängerkreis** die Namensform, ohne die Wärme zu senken.
 Einschränkung: ein kontrolliertes Paar ist ein starker, aber einzelner Beleg für die Kausalität.
 Die Gegenprobe (Du-Anrede an dieselbe Person **mit** Drittem im Cc) steht aus → [[QUESTIONS]]
 260805 #1.
+
+## Namensform-Unsicherheit statt Anlassgewicht — QUESTIONS 260803 #1 entschieden (belegt Mailbatch 88, authentisch)
+
+Der in Batch 85 als Widerspruch markierte Befund «Geschätzter Herr <Vorname> <Nachname>» (oben,
+Zeile 1994) bekommt seinen entscheidenden Zweitbeleg — und er kippt die Deutung.
+
+29.01.2026, laufender Sachtext an den Betreiber-Vertreter (Du), ohne jeden verbindlichen Moment:
+«Ich konnte heute **Herr Simmen Jonas** von <Ingenieurbüro> bez. Brandschutz erreichen.» Der
+Brandschutzexperte heisst Jonas Simmen. Die Reihenfolge ist umgedreht, und **fünf Zeilen weiter
+unten** in derselben Mail wird aus dem Nachnamen der Vorname: «Sobald ich das Feedback von
+**Simon** bezüglich Brandschutzmassnahmen habe …».
+
+Damit ist die Alternativlesart belegt und die Anlassgewicht-Lesart entkräftet:
+
+- Die Vollform/Umstellung tritt **auch ohne** Freigabe, Pauschale oder Verbindlichkeit auf — hier in
+  einem beiläufigen Statussatz.
+- Der Fehler pflanzt sich **innerhalb einer Mail** fort (Nachname → falscher Vorname), was eine
+  bewusste Registerwahl ausschliesst.
+- Beide Fälle betreffen **fremde, wenig vertraute Namen**, die Raphael über Dritte erhalten hat
+  (der Baumeister über die Firma, der Brandschutzexperte über eine Weiterleitung des Betreibers).
+
+**Marker für den Zwilling:** Vollform und Umstellung sind **kein Register-Signal**, sondern die
+Signatur eines unsicheren Namens. Der Zwilling ahmt sie deshalb **nicht** nach — er verifiziert die
+Namensform an der Signatur des Kontakts (Rule `identifikatoren-verifizieren`) und schreibt
+«Geschätzter Herr <Nachname>». Wo die Reihenfolge im Quellmaterial unklar ist, ist das ein Anlass
+zur Rückfrage, nicht zur Nachahmung.
+
+*(QUESTIONS 260803 #1 damit beantwortet: Unsicherheit über die Namensform, nicht Anhebung nach
+Anlassgewicht. Die Rule `anrede-kontakte` bleibt unberührt — die dortige Klausel vom 29.07.2026
+betrifft die Anrede-Stufe, nicht die Namensvollständigkeit.)*
+
+## Die Anrede-Reihe an EINEN vertrauten Kontakt schwankt in sieben Tagen über vier Stufen (belegt Mailbatch 88, Widerspruch markiert)
+
+Kontrollierte Reihe an denselben Empfänger (Betreiber-Vertreter, langjähriges Du, Grossmandat
+Healthcare) innerhalb einer Woche:
+
+| Datum | Anrede | Gruss | Anlass |
+|---|---|---|---|
+| 23.01. | «Geschätzter Albin» | Freundliche Grüsse | Bestellung von drei Grundlagendokumenten |
+| 26.01. | «**Geschätzter Herr Albin**» | Lieber Gruss | reine Fachfrage Brandschutz-Klassifizierung |
+| 27.01. | «**Hoi Albin**» | Lieber Gruss | Dreiwort-Zusage «Klar mache ich.» |
+| 29.01. | «Geschätzter Albin» | Beste Grüsse | Statusmail **mit Rechnung und Angebot im Anhang** |
+
+Die Stufe folgt hier **nicht** dem Anlassgewicht: die kälteste Form («Herr + Vorname»,
+Zwischenstufe belegt Batch 25) steht auf der harmlosen Fachfrage, die wärmste auf der
+Dreiwort-Quittung, und die gewichtigste Mail der Woche — Rechnung plus eigenes Folgeangebot —
+trägt die mittlere Routineform.
+
+**Nicht geglättet.** Das steht quer zur Klausel «Gewicht des Anliegens schlägt den Routine-Default»
+(Rule `anrede-kontakte`, 29.07.2026), die für andere Kontakte gut belegt ist. Zwei Lesarten, beide
+offen: (a) die Klausel gilt für die **Sie**-Achse und für Kontakte mit klarer Rollen-Distanz,
+während im etablierten Du die Stufe frei flottiert; (b) die Streuung ist schlicht Tagesform und
+Endgerät. Auffällig ist, dass die Grussformel **mit** dem Gewicht steigt («Beste Grüsse» auf der
+Rechnungsmail), während die Anrede es nicht tut — Anrede und Gruss wären dann zwei unabhängige
+Regler. Frage an Raphael in [[QUESTIONS]] 260806 #1.
+
+Für den Zwilling bis zur Klärung: **im etablierten Du die Routineform des Kontakts halten** und
+nicht versuchen, die Stufe je Mail nachzurechnen.
+
+## Neue Mappings (belegt Mailbatch 88)
+
+| Kontakt | Rolle | Register | Beleg |
+|---|---|---|---|
+| Brandschutz-Planer eines kleinen Fachbüros | direkt beauftragter Brandschutz-Experte, persönlich bekannt | **Du**, «Hoi <Vorname>,» mit Komma, FG-Block | 26.01.2026 |
+| Brandschutz-Projektleiter eines grossen Ingenieurbüros | vom Bauherrn **über Dritte** zugewiesen, nie persönlich getroffen | **Sie**, «Geschätzter Herr <Nachname>», Vorstellung über den Vermittler («<Name> hat mich freundlicherweise an Sie verwiesen») | 28.01.2026 |
+| Fachfrau eines Immobilien-Beratungshauses | Datenlieferantin für Kennwerte | **Sie**, «Geschätzte Frau <Nachname>» — parallel «Guten Tag» ans Firmenpostfach derselben Niederlassung | 30.01.2026 |
+
+Der Kontrast der ersten beiden Zeilen ist der eigentliche Befund: **zwei Brandschutz-Experten am
+selben Projekt, in derselben Woche, in zwei Registern.** Nicht das Fachgebiet und nicht die
+Firmengrösse entscheiden, sondern **wie der Kontakt zustande kam** — selbst gewählt und persönlich
+bekannt (Du) gegen zugewiesen und über eine Weiterleitung vermittelt (Sie, mit Nennung des
+Vermittlers als Türöffner). Das schärft die schon belegte Regel «Fachplaner ist nicht automatisch
+Sie» (Batch 12) um ihr Kriterium.

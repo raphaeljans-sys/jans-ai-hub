@@ -3043,3 +3043,64 @@ gehört nicht als Stilmarker ins Wiki — die DNA-Regel «kein ‹Mit freundlich
 bleibt unangetastet. Dieselbe Fassung erklärt zwanglos auch die Binnen-Kleinschreibung («die
 masse») und das Fehlen des Signaturblocks, die bisher als eigenständige Flüchtigkeitsmarker
 gewertet wurden.
+
+## Was Hintergrund ist, steht hinter dem Signaturblock — der Haupttext bleibt die Bestellung (belegt Mailbatch 88, authentisch)
+
+Die Brandschutz-Mail vom 26.01.2026 an den Experten (Du) besteht oben aus zwei Zeilen und neun
+Spiegelstrichen, dann kommt der Signaturblock — und **darunter**, ohne Zitatkopf und ohne
+Überleitung, der vollständige eigene Fachtext zur EI30/EI60-Abstufung, den Raphael 40 Minuten
+vorher an den Betreiber geschickt hatte.
+
+Damit ist der in Batch 85 an der Terminfrist beobachtete Einzelfall («Eingabetermin Angebot: heute
+17:00 Uhr» als letzte Zeile unter dem Block) zur **Regel** gehoben, und zwar in beide Richtungen:
+
+- **Was der Empfänger tun soll, steht über dem Block** — knapp, listenförmig, ohne Vorrede.
+- **Was er dafür wissen muss, steht darunter** — der Sachhintergrund, notfalls in voller Länge.
+- Der Signaturblock wirkt dabei nicht als Schluss, sondern als **Trennlinie zwischen Auftrag und
+  Aktenmaterial**. Er beendet die Mail nicht, er sortiert sie.
+
+Für den Zwilling: eine Mail mit Bestellung **und** Hintergrund nie zu einem Fliesstext verweben und
+den Hintergrund nie voranstellen. Bestellung oben, Block, Hintergrund unten.
+
+## «Hoi,» — die nackte Gruppenanrede ohne jede Adressierung (belegt Mailbatch 88, authentisch)
+
+Sonntagnacht, 25.01.2026 um 23:54, an zwei Empfänger zugleich (Familie und Geschäftspartner in
+einer Zeile): «**Hoi,** / Die letzten zwei Seiten sind noch nicht aktuell (ist vom letzten
+Projekt). / Bitte kontrollieren und Korrektur mir skizzenhaft senden. / **Lgr**». Betreff: ein
+kleingeschriebener Ortsname als Projektkürzel.
+
+Damit hat die Du-Gruppenanrede eine Sprosse **unter** «Hoi Zaeme» (Batch 84): kein Name, keine
+Sammelform, nur der Gruss und ein Komma. Die belegte Skala von oben nach unten:
+
+«Geschätztes Projektteam, / Werter <Name>, <Name> und <Name>» → «Geschätzter <Name> & <Name>» →
+«Hoi <Name> & <Name>» → «Hoi Zaeme» → «**Hoi,**»
+
+Auslösend ist nicht die Vertrautheit allein — die unterste Stufe fällt hier mit **gemischtem
+Verteiler** (unterschiedliche Nähe zu den beiden Empfängern) und **Nachtstunde** zusammen. Die
+namenlose Form löst damit zugleich das Problem, für zwei verschieden nahe Empfänger eine gemeinsame
+Stufe zu finden: sie adressiert niemanden und ist deshalb für beide richtig.
+
+## «Besten Dank und bis Morgen.» — der Zeitbezug ersetzt die Grussformel (belegt Mailbatch 88, authentisch)
+
+Im Sie an den Lieferanten (22.01.2026) endet der Fliesstext nicht mit einer Bitte oder einem Gruss,
+sondern mit Dank plus nächstem Kontaktzeitpunkt: «Besten Dank und bis Morgen.» Der FG-Block folgt
+darunter unverändert. Verwandt mit dem bereits belegten Inline-Signoff «Bis am Freitag, Lieber
+Gruss» (Batch 84, Du) — hier die Sie-Fassung, und statt einer Frist steht der **Termin, der bereits
+feststeht**. Marker: wenn ein nächster Kontakt terminiert ist, wird er zur Schlussformel.
+
+## Mikro-Metrik Batch 88 (rj@, 16.–31.01.2026, 8 Eigentexte, 457 W)
+
+| Kennzahl | Wert | Einordnung |
+|---|---|---|
+| Satzlänge ø | **16.3 W** | über dem Korpusband (11.9–14.3) — **Gattungsartefakt**, siehe unten |
+| Du-Gross-Quote | **1.0** | lückenlos, wie in den meisten Fenstern |
+| Tausender-Apostroph | 0 | im Fenster keine Beträge im Fliesstext |
+| Ellipsen «…» | 0 | |
+| «%» | kommt nicht vor | |
+| Anreden | «Geschätzter <Vorname>» 2× · «Hoi <Kurzname>» 2× · «Sehr geehrter Herr <Nachname>» 1× · «Hoi,» 1× · «Guten Tag» 1× | sechs Formen bei acht Mails |
+| Grüsse | «Freundliche Grüsse» 4× · «Lieber Gruss» 1× · «Beste Grüsse» 1× · «Lgr» 1× | |
+
+**Der Ausreisser ist erklärbar und kein Tonlagen-Befund.** Zwei Gattungen treiben ihn: der
+neun-Punkte-Brandschutzkatalog, dessen längster Spiegelstrich allein 24 Wörter zählt (Fachbegriffe
+statt Sätze), und der auffällig glatte Beschaffungstext an das Beratungshaus (siehe Echo-Prüfung im
+Batch-Register). Die vier handgetippten Kurzmails des Fensters liegen einzeln im Band.

@@ -2594,10 +2594,16 @@ belegt, aber je an einer Kante, die Raphael in einem Satz härten könnte.
 
 ## Offen — Mailbatch 85 (03.08.2026)
 
-1. **Vollform «Geschätzter Herr Beson Bilali» in der Auftragsfreigabe (26.02.2026)** — bewusste
+1. ~~**Vollform «Geschätzter Herr Beson Bilali» in der Auftragsfreigabe (26.02.2026)** — bewusste
    Anhebung auf den vollen Namen im verbindlichsten Moment (Pauschalfreigabe CHF 11K), oder
    schlicht Unsicherheit, welcher Teil Vor- und welcher Nachname ist? Der Zwilling führt bis zur
-   Antwort die Routineform «Geschätzter Herr Beson». → [[beziehungsregister]]
+   Antwort die Routineform «Geschätzter Herr Beson».~~ → **BEANTWORTET am 06.08.2026 (Mailbatch 88),
+   ohne Rückfrage an Raphael:** es ist die Namensform-Unsicherheit. Zweitbeleg 29.01.2026, ein
+   beiläufiger Statussatz ganz ohne verbindlichen Moment führt «Herr Simmen Jonas» in umgedrehter
+   Reihenfolge und macht fünf Zeilen später aus dem Nachnamen den Vornamen («Feedback von Simon»).
+   Beide Fälle betreffen fremde, über Dritte erhaltene Namen. Der Zwilling ahmt die Vollform
+   deshalb **nicht** nach, sondern verifiziert die Namensform an der Signatur des Kontakts.
+   → [[beziehungsregister]]
 2. **Referenz-Anker in der Offertenanfrage (24.02.2026)** — ist «Montageansatz gemäss Referenz:
    2 Monteure, ca. 2 Stunden» eine bewusste Methode (dem Anbieter den Aufwandskennwert des
    ausgeführten Vergleichsfalls vorgeben, damit er ihn nicht frei setzt), oder war es hier nur die
@@ -2751,3 +2757,27 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    hier eine Vorbesprechung, in der die Empfehlung mündlich schon stand? *Warum: der Zwilling hat
    in der Blindfassung eine Vergabeempfehlung erfunden — er braucht die Grenze, ab der Du wieder
    selbst wertest.* → [[haltung]], [[arbeitsweise]]
+
+## Runde 260806 (Mailbatch 88, `rj@` 16.–31.01.2026)
+
+1. **Anrede und Gruss als zwei unabhängige Regler im etablierten Du?** — An denselben vertrauten
+   Kontakt gehen in sieben Tagen vier Anredestufen («Geschätzter <Vorname>» → «Geschätzter Herr
+   <Vorname>» → «Hoi <Vorname>» → «Geschätzter <Vorname>»), und zwar **entgegen** dem Anlassgewicht:
+   die kälteste Form steht auf der harmlosen Fachfrage, die wärmste auf einer Dreiwort-Quittung.
+   Die Grussformel dagegen steigt mit dem Gewicht («Beste Grüsse» auf der Rechnungsmail). Gilt die
+   Klausel «Gewicht schlägt Routine» (Rule `anrede-kontakte`) nur auf der Sie-Achse, während im
+   etablierten Du die Anrede frei flottiert und allein der Gruss das Gewicht trägt? Der Zwilling
+   hält bis zur Antwort die Routineform des Kontakts. → [[beziehungsregister]]
+
+2. **Ist «Hoi,» ohne Namen eine Verteiler-Lösung oder eine Nachtform?** — Der einzige Beleg
+   (25.01.2026, 23:54) fällt mit **beidem** zusammen: gemischter Verteiler (Familie plus
+   Geschäftspartner, verschieden nah) und später Sonntagabend. Welcher der beiden Auslöser trägt?
+   Davon hängt ab, ob der Zwilling die Form bei jedem gemischt-nahen Verteiler einsetzen darf oder
+   nur in der Eilspur. → [[stimme]]
+
+3. **Wird der Themenraster vor der Fachanfrage immer selbst gesetzt?** — Beim Brandschutz bestellt
+   Raphael nicht die Antwort, sondern die **Abklärungspunkte**, und gibt dafür neun Themen vor.
+   Ist das die Regel für jede Fachplaner-Zuschaltung (Statik, HLKS, Akustik), oder greift sie nur
+   dort, wo er das Gebiet selbst gut genug überblickt, um den Raster zu setzen? Im zweiten Fall
+   bräuchte der Zwilling ein Kriterium, wann er den Raster besser dem Fachplaner überlässt.
+   → [[arbeitsweise]]

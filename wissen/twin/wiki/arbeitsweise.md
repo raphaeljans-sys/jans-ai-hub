@@ -2208,3 +2208,73 @@ kein vierter Formalismus, sondern passt zur Freigabe Raphaels vom 01.08.2026 («
 gewachsen, keine Grammatik»): die referierte Fremdvorgabe trägt ein neutrales Zeichen und den
 Herkunfts-Header, der sie als fremd markiert — dieselbe Trennlogik wie «Anmerkung RJ» im Protokoll
 (→ [[denken]]). Ob das Zeichen selbst bedeutungstragend ist, ist offen → [[QUESTIONS]] 260805 #3.
+
+## Die Bitte trägt ihre eigene Bezugsquelle mit (belegt Mailbatch 88, authentisch)
+
+Bestellt Raphael Unterlagen, die der Empfänger selbst nicht hat, liefert er im selben Atemzug die
+Stelle mit, bei der sie zu holen sind — mit Namen, Direktwahl und Mailadresse. Belegt am
+23.01.2026 an den Betreiber-Vertreter (Du): nach der Dreier-Bestellung «_ Umgebungsplanes 1:100 /
+_ Katasterplan 1:500 / _ Betriebskonzept» folgt unmittelbar «Herr <Fachstelle Betreiber> **oder
+dann die Kontaktperson**: <Kreisarchitektin>, D +41 44 … , <Mailadresse> sollten vom Amt für
+Baueingabe können diesbezüglich genauere Infos haben.» (Satzbau original — handgetippt.)
+
+Marker: **wer bittet, nimmt dem Gebetenen die Suche ab.** Die Bitte enthält eine Primär- und eine
+Sekundärquelle, in dieser Reihenfolge, und markiert mit «sollten … haben» ehrlich, dass es eine
+Vermutung ist und keine Zusage.
+
+Das ist die Gegenrichtung zur «Zuständigkeitskette selbst schliessen» (Batch 86): dort schliesst
+Raphael die Kette selbst, hier stattet er den Empfänger so aus, dass der sie schliessen kann.
+Gemeinsamer Kern beider Marker: **eine Bitte, die den Empfänger recherchieren lässt, ist eine halbe
+Bitte.**
+
+## Nicht die Antwort bestellen, sondern den Fragenkatalog (belegt Mailbatch 88, authentisch)
+
+Am 26.01.2026 geht an den Brandschutz-Experten (Du) keine Fachfrage, sondern: «Im Anhang das
+Planbooklet. / **Bitte um Zusendung Brandschutz-Abklärungspunkte** für <Healthcare-Umnutzung
+1. OG>:» — gefolgt von neun Spiegelstrichen, die die Themen benennen, zu denen der Experte die
+Punkte liefern soll (Brandabschnitte, Entfluchtungskorridor, Sprinkler-/Nicht-Sprinkler-Konzept,
+Brandwiderstand Bestand, Planlegende Fluchtkonzept, längster Fluchtweg).
+
+Marker: **beim Spezialisten wird die Fragestellung bestellt, nicht das Ergebnis.** Raphael gibt den
+Themenraster vor (damit nichts fehlt, was er als Generalist überblickt) und lässt sich die
+Prüfpunkte darin vom Fachmann formulieren (weil der weiss, woran es scheitert). Das ist eine eigene
+Stufe von «Grundlage vor Urteil»: nicht die Antwort delegieren, sondern die richtige Frage.
+
+Anwendbar überall dort, wo ein Fachplaner zugeschaltet wird: erst der eigene Themenraster, dann die
+Bitte um dessen Abklärungspunkte, erst danach die inhaltliche Frage.
+
+## Die eigene Gliederung vorab senden, damit die Fremdzahlen ohne Nacharbeit passen (belegt Mailbatch 88, authentisch)
+
+Bevor der Haustechnik-Fachplaner rechnet, bekommt er die Zielstruktur: «Im Anhang sende ich Dir
+meine **e-BKP-H / BKP -Vorlagestruktur** nach der ich die Grobkostenschätzung gliedern werde. / Gut
+wäre wenn ich **Deine Werte in die Gesamtliste übertragen** kann, sprich Deine Kostenangaben e-BKP-H
+/ BKP **Strukturtauglich** sind.» (30.01.2026, Du.)
+
+Drei operationalisierbare Teile: (1) die Interoperabilität wird **vorher** hergestellt, nicht
+nachher umsortiert; (2) die Begründung wird mitgeliefert («damit ich übertragen kann») statt als
+Formvorschrift gesetzt; (3) die Bitte ist weich formuliert («Gut wäre wenn …»), die Sache dahinter
+aber hart — ohne passende Gliederung ist die Zulieferung unbrauchbar.
+
+**Muster-Füttern, dritter Beleg — und der erste nach innen.** Beigelegt ist nicht die Vorlage als
+Leerformular, sondern ein **fertiges Kostenblatt aus einem alten Projekt von 2017**
+(`171113 Kosten_Modul3_…`). Damit ist das schon belegte Muster (Batch 33: Formularraster ans Amt;
+Batch 86: amtliche Fremd-Checkliste von 2022 ans Amt) auch **gegenüber dem eigenen Zulieferer**
+belegt: Raphael erklärt ein Format nie, er zeigt ein ausgefülltes Exemplar — und greift dafür
+ohne Zögern neun Jahre zurück.
+
+## Dieselbe Anfrage an die benannte Person UND ans Firmenpostfach, zwei Minuten Abstand (belegt Mailbatch 88, authentisch)
+
+Am 30.01.2026 geht die Kennwert-Anfrage an das Beratungshaus zweimal hinaus: 15:28 an die
+persönlich bekannte Fachfrau («Geschätzte Frau <Nachname>»), 15:30 an das allgemeine
+Firmenpostfach der Niederlassung («Guten Tag»). **Der Sachtext ist identisch, getauscht wird nur
+die Anrede.**
+
+Marker: **Redundanz statt Nachfassen.** Wo eine Antwort von einer Organisation gebraucht wird und
+nicht von einer Person, deckt Raphael beide Wege gleich beim ersten Versuch ab, statt später zu
+mahnen. Das ist die Beschaffungsvariante der Verfügbarkeits-Eskalation (Batch 87) mit umgekehrtem
+Vorzeichen: dort Druck über die Taktung, hier Ausfallsicherheit über die Streuung.
+
+Nebenbefund zum Gruss: beide Fassungen tragen den vollen Signaturblock — die Anrede sinkt auf
+«Guten Tag», die Verabschiedung nicht. Deckt sich mit dem Befund «namenloses Firmen-Postfach behält
+FG+Block» (Batch 87) und stützt ihn erstmals über ein **kontrolliertes Paar** (gleicher Text,
+gleicher Tag, gleiches Haus).

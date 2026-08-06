@@ -4,6 +4,43 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 06.08.2026 — twin-mail-training Batch 88: Januar 2026 abgeschlossen
+
+Lücken-Sweep `rj@` **16.–31.01.2026** (37 Sent Items, vollständig gelistet; Batches 24/25 hatten
+hier nur stichprobenartig gelesen). 8 Eigentexte gelesen, **12 neue Marker in 5 Facetten**, eine
+seit Batch 85 offene Frage entschieden. Register: `raw/_INGESTED.md`, Abschnitt Batch 88.
+
+- [[arbeitsweise]] — Bitte trägt ihre eigene Bezugsquelle · beim Spezialisten den **Fragenkatalog**
+  bestellen statt der Antwort · eigene Gliederung vorab senden (Muster-Füttern, 3. Beleg und erster
+  nach innen: ausgefülltes Kostenblatt von 2017) · Doppelversand an benannte Person **und**
+  Firmenpostfach im Abstand von zwei Minuten.
+- [[stimme]] — Hintergrund gehört **hinter** den Signaturblock, der Haupttext bleibt Bestellung
+  (hebt den Batch-85-Einzelfall zur Regel) · «Hoi,» als unterste Sprosse der Gruppenanrede ·
+  «Besten Dank und bis Morgen.» · Mikro-Metrik (457 W, ø 16.3 W — Gattungsartefakt, erklärt).
+- [[beziehungsregister]] — **QUESTIONS 260803 #1 beantwortet**: die Vollform «Geschätzter Herr
+  <Vorname> <Nachname>» ist Namensform-Unsicherheit, nicht Anhebung nach Anlassgewicht (Zweitbeleg
+  «Herr Simmen Jonas» → fünf Zeilen später «Simon», in einem beiläufigen Statussatz). Der Zwilling
+  ahmt sie nicht nach. Dazu drei Mappings und ein **markierter Widerspruch**: die Anrede-Reihe an
+  einen vertrauten Kontakt schwankt in sieben Tagen über vier Stufen entgegen dem Anlassgewicht,
+  während die Grussformel mit dem Gewicht steigt → Frage 260806 #1, Rule `anrede-kontakte`
+  unverändert.
+- [[haltung]] — die eigene Rechnung formbar machen, damit sie durch die fremde Freigabe kommt ·
+  Folgemandat an die Sachleistung hängen und den Nutzen beidseitig benennen · eigene Schwachstelle
+  selbst markieren samt Ursache und vorgegebener Antwortform.
+- [[fachsignatur]] — Brandschutz-Abklärungskatalog Healthcare als Verfahren in neun Schritten ·
+  e-BKP-H/BKP-Doppelgliederung als Zulieferbedingung.
+- [[QUESTIONS]] — Runde 260806 mit drei Fragen (Anrede/Gruss als unabhängige Regler · «Hoi,»
+  Verteiler- oder Nachtform · Themenraster immer selbst setzen?).
+
+**Echo-Prüfung mit offenem Ausgang (Rule 260729b):** die Kennwert-Anfrage vom 30.01. ist auffällig
+glatt und liegt unmittelbar vor dem in Batch 26 datierten Beginn der Claude-Ära; Gegenindizien
+(kein En-dash, keine Bullet-Struktur, doppelter Gruss als Copy-Paste-Artefakt) erhärten den
+Verdacht nicht, räumen ihn aber auch nicht aus. Konsequenz: **nur die Versand-Choreografie
+destilliert, die Formulierungen NICHT als Stimm-Marker übernommen.** Die übrigen sieben Texte sind
+klar handgetippt.
+
+**Januar 2026 ist damit vollständig abgeschlossen.** Nächstes Fenster: `rj@` 07.–11.03.2026.
+
 ## 05.08.2026 — twin-fidelity-review: Bitte-Form, mitlesende Dritte, Gerätebefund
 
 **Gesamt-Fidelity 46** (Stimme 49 · Denken 33 · Haltung 50 · Beziehungsregister 73 ·
