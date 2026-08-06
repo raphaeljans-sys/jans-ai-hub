@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 06.08.2026 09:21:14
+Stand: 06.08.2026 09:41:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:30)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.08.2026 09:21:14
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5416c191 wissen/claude-code: Ruecklauf aus dem Weichen-Review — nachgeruestete Sperre ohne durchgereichten Grund
+- 7c8b98c5 nas-selfcommit: 3 Datei(en) 2026-08-06 09:30
