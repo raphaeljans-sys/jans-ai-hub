@@ -12,8 +12,10 @@ Quellen: `logbuch/arbeits-weiche/*.jsonl` (8 Journale, 42 Zeilen),
 ## Fazit in einem Satz
 
 **Teilweise gelungen.** Die Weiche arbeitet technisch fehlerfrei, hat aber in einer
-ganzen Woche keinen einzigen abweichenden Entscheid getroffen, und sie war blind
-gegenüber der einzigen Ressource, die in dieser Woche tatsächlich knapp wurde.
+ganzen Woche keinen einzigen abweichenden Entscheid getroffen. Gegenüber der einzigen
+Ressource, die tatsächlich knapp wurde, war sie bis zum 03.08. blind; geschlossen hat
+diese Lücke nicht sie selbst, sondern das Lauf-Gate, dessen Prüfung sie seither erbt.
+Was von ihr eigenständig übrig bleibt, ist der MacBook-Zweig, und der ist nie gelaufen.
 
 ## 1. Zahlen
 
@@ -122,24 +124,39 @@ Komplexität der Weiche existiert (LAN-Erreichbarkeit, Netzteil, Idle-Zeit,
 Arbeitszeitfenster), ist in einer Woche kein einziges Mal eingetreten und wird
 bei diesem Speicherprofil auch künftig kaum eintreten.
 
-### 3.2 Sie misst die falsche knappe Ressource
+### 3.2 Sie mass die falsche knappe Ressource, und ihr Journal sagt es bis heute nicht
 
-Das ist der wichtigste Befund dieses Reviews. Knapp war in dieser Woche nicht der
-Speicher, sondern das Wochenkontingent, und zwar 30 Stunden lang. Die Weiche kennt
-diese Dimension nicht. Sie meldete sieben Mal Bereitschaft in einen Zustand hinein,
-in dem kein Lauf möglich war.
+Knapp war in dieser Woche nicht der Speicher, sondern das Wochenkontingent, und zwar
+30 Stunden lang. In der Zeit vom 01.08. bis 03.08. kannte die Weiche diese Dimension
+nicht und meldete sieben Mal Bereitschaft in einen Zustand hinein, in dem kein Lauf
+möglich war.
 
-Ehrlich einzuordnen: Während der Kontingentsperre hätte **auch eine bessere Weiche
-keine Arbeit retten können**, weil beide Stationen am selben Konto hängen. Der
-Gewinn liegt nicht in geretteter Arbeit, sondern in der Diagnose. Das Nachtschicht-Log
-schrieb sieben Mal `Zyklus gestartet` und verschwieg den wahren Grund des Ausfalls;
-er stand nur im `result_tail` des Lauf-Journals. Eine Weiche, die das Kontingent
-kennt, hätte sieben Mal `keine, Kontingent erschöpft bis 03.08. 12:00` protokolliert.
-Das ist der Unterschied zwischen einem stillen und einem erklärten Ausfall.
+**Diese Lücke ist inzwischen geschlossen, und zwar nicht in der Weiche.** Am
+03.08.2026 erhielt `scripts/lauf-gate.sh` einen Wochenkontingent-Block, ausdrücklich
+als Reaktion auf denselben Vorfall (Kommentar Zeilen 182 bis 202: «47 Stunden leeres
+Kontingent, elf blockierte Läufe»). Die Weiche fragt in `mini_bereit` über `gate_ok`
+genau dieses Gate, und der Auftragsname `weiche-nachtschicht` steht nicht auf der
+Ausnahmeliste des Blocks. **Die Weiche erbt die Kontingent-Prüfung damit seit dem
+03.08.2026, ohne dass an ihr etwas geändert wurde.**
 
-Das Datum liegt bereit: `connectors/claude-usage.mjs` existiert seit 20.07.2026,
-und die Kontingent-Aufsicht (`vollgas-fruehwarnung`, `vollgas-chef-radar`) wertet
-es bereits aus. Die Weiche fragt es nur nicht.
+Ehrlich einzuordnen: Seit dem Gate-Fix ist kein Kontingent-Abbruch mehr aufgetreten.
+Beweiskraft hat das noch nicht, weil das Kontingent am 03.08. um 12:00 ohnehin
+zurücklief. Der Fix ist plausibel wirksam, aber nicht unabhängig belegt.
+
+**Was offen bleibt, ist die Begründung.** Weist `gate_ok` wegen des Kontingents ab,
+läuft die Weiche in ihren Sammelzweig und schreibt als Grund
+`beide Stationen nicht bereit (mini 12.0 GB Druck 1 · macbook 3.4 Druck 2)`.
+Das ist eine reine Speicheraussage, die eine kerngesunde Station beschreibt, und sie
+verschweigt den wahren Grund. Wer dieses Journal später auswertet, sieht eine
+Abweisung, für die die Messwerte keinen Anlass geben, und sucht am falschen Ort.
+Dieselbe Schwäche trug das Nachtschicht-Log während der Sperre: sieben Mal
+`Zyklus gestartet` ohne Angabe des Grundes, der nur im `result_tail` des
+Lauf-Journals stand.
+
+Ein zweiter Punkt aus demselben Gate-Kommentar betrifft die Weiche mittelbar: Die
+Kontingent-Messung kostet rund 4 Sekunden und läuft im Gate bewusst zuletzt. Die
+Weiche ruft `gate_ok` jedoch als **letzte** Bedingung in `mini_bereit`, also erst
+nach den Speicherprüfungen. Diese Reihenfolge ist richtig und braucht keine Änderung.
 
 ### 3.3 52 nutzlose SSH-Runden
 
@@ -181,18 +198,21 @@ fünf solche Läufe im Zeitraum (31.07. 22:53 mit 23.22 USD, 01.08. 14:28, 01.08
 
 Nach Nutzen geordnet.
 
-### V1 (hoch): Kontingent als zweite Dimension aufnehmen
+### V1 (hoch): den Abweisungsgrund durchreichen statt ihn zu überschreiben
 
-Vor dem Entscheid `mini-frei` zusätzlich das Wochenkontingent über
-`connectors/claude-usage.mjs` prüfen. Ist es erschöpft, lautet das Ziel im
-Takt-Modus `keine` mit dem Grund `Kontingent erschöpft bis <Rücksetzzeit>`;
-im Ausführungsmodus **keine Queue-Parkung** (die Aufträge würden sich während
-einer 30-Stunden-Sperre stapeln), sondern derselbe erklärte Ausfall.
+Nicht mehr nötig ist der Einbau der Kontingent-Prüfung selbst; die kam am 03.08.
+ins Lauf-Gate und wirkt über `gate_ok` bereits in der Weiche (siehe 3.2).
 
-Damit wird die Weiche zu dem, was sie sein sollte: die Instanz, die weiss, ob ein
-Auftrag überhaupt laufen kann. Sieben von 26 Entscheiden dieser Woche hätten
-davon profitiert, gegenüber null Entscheiden, die von der Speicherdimension
-profitiert haben.
+Nötig ist, dass die Weiche den **Grund** der Gate-Abweisung übernimmt, statt ihn
+durch eine Speicheraussage zu ersetzen. Konkret: `gate_ok` gibt heute nur einen
+Exit-Code zurück; die Ausgabe des Gates verschwindet in `/dev/null` (Zeilen 102 und
+104). Diese Ausgabe einfangen und in `GRUND` führen, damit im Journal
+`abgewiesen durch Lauf-Gate: Wochenkontingent zu 97 % aufgebraucht` steht statt
+`mini 12.0 GB Druck 1`.
+
+Das ist die billigste Verbesserung im ganzen Bericht und die einzige, die einen
+belegten Fehlerfall dieser Woche für die Zukunft lesbar macht. Solange sie fehlt,
+ist jede künftige Auswertung dieses Journals bei einer Kontingentsperre irreführend.
 
 ### V2 (mittel): MacBook erst messen, wenn es gebraucht wird
 
@@ -214,22 +234,28 @@ mit stehengelassener Altzeile im Rollen-Register gemäss Rule `rollen-taxonomie`
 
 Die Weiche ist als `prototyper` gebaut. Nach einer Woche steht fest, dass ihre
 Kernfunktion, die Lastverteilung über zwei Stationen, **keinen Anwendungsfall
-gefunden hat**. Drei Wege stehen offen:
+gefunden hat**. Der Befund von 3.2 verschärft die Frage: Die Schutzwirkung, die in
+dieser Woche wirklich gefehlt hat, wurde am 03.08. ins **Lauf-Gate** gebaut, nicht
+in die Weiche. Was die Weiche über einen blossen Gate-Aufruf hinaus eigenständig
+beiträgt, ist damit genau der MacBook-Zweig, und der ist in 26 Entscheiden nie
+gelaufen. Drei Wege stehen offen:
 
-- **A, empfohlen: umwidmen statt ausbauen.** V1 und V2 umsetzen. Die Weiche wird
-  damit vom Lastverteiler zum Startbarkeits-Wächter, also zu der Instanz, die vor
-  jedem teuren Lauf prüft, ob Speicher, Lauf-Gate **und** Kontingent ihn zulassen.
-  Das ist die Funktion, die diese Woche gefehlt hat. Die MacBook-Aushilfe bleibt als
-  ruhender Zweig erhalten, kostet nach V2 aber nichts mehr.
+- **A, empfohlen: schlank halten und ehrlich beschriften.** V1, V2 und V3 umsetzen,
+  sonst nichts. Die Weiche bleibt das, was sie faktisch ist: ein dünner Vorbau vor
+  dem Lauf-Gate mit einem ruhenden Aushilfszweig. Nach V2 kostet dieser Zweig im
+  Normalfall nichts mehr, nach V1 lügt das Journal nicht mehr über den Grund. Der
+  Aufwand liegt bei wenigen Zeilen, der Nutzen ist eine belastbare Auswertbarkeit.
 - **B: weitere Aufrufer einhängen** (`dispatch-run.sh`, `multi-claude.sh`,
-  `vollgas-runner.sh`). Davon rate ich **vorerst ab**: Es würde einen Entscheid,
-  der immer `mini` lautet, vervierfachen und SSH-Latenz in weitere heisse Pfade
-  tragen. Sinnvoll wird B **nach** V1, weil die Weiche dann tatsächlich etwas
-  schützt, das ohne sie ungeschützt ist.
-- **C: Rückbau.** Vertretbar, wenn V1 nicht gewollt ist. Dann leistet die Weiche
-  nichts, was das lokale Lauf-Gate nicht schon leistet, und `nachtschicht-run.sh`
-  könnte auf den Gate-Aufruf zurücklaufen, den es ohnehin zusätzlich macht.
-  Der Speicherprofil-Befund dieser Woche würde als Begründung im Logbuch bleiben.
+  `vollgas-runner.sh`). Davon rate ich **ab**. Diese drei fragen bereits das
+  Lauf-Gate und damit seit dem 03.08. auch das Kontingent. Die Weiche würde ihnen
+  nur den MacBook-Zweig hinzufügen, der nie greift, dafür aber SSH-Latenz in drei
+  weitere Pfade tragen.
+- **C: Rückbau.** Ernsthaft zu erwägen, wenn Du den MacBook-Zweig aufgibst. Dann
+  leistet die Weiche nichts, was der Gate-Aufruf nicht schon leistet, den
+  `nachtschicht-run.sh` ohnehin zusätzlich macht (Zeilen 108 bis 115). Was
+  verlorenginge, ist das Entscheid-Journal, und das ist der einzige Grund, der
+  gegen den Rückbau spricht: es hat genau diese Auswertung möglich gemacht.
+  Empfehlung bei Rückbau: das Journal in das Lauf-Gate mitnehmen.
 
 ### V5 (klein): Schwellen belassen, MacBook-Schwelle vermerken
 
@@ -267,6 +293,16 @@ rc=1 nach 6 bis 9 s und 0.00 USD, alle sieben im Fenster 01.08. 23:30 bis 03.08.
 05:30 mit dem Grund `weekly limit`. Nur 3 `weiche-*`-Läufe im Lauf-Journal, alle
 aus den Bau-Tests vom 30.07.; der Ausführungs- und der Queue-Pfad sind produktiv
 nie gelaufen. Ein einziger Aufrufer (`nachtschicht-run.sh`, Takt-Modus, 4 Slots
-täglich), drei weitere claude-run-Aufrufer umgehen die Weiche. Fazit teilweise
-gelungen; sechs Verbesserungsvorschläge, davon V1 (Kontingent als zweite
-Dimension) und V4 (Rollenentscheid) zur Freigabe durch Raphael.
+täglich), drei weitere claude-run-Aufrufer umgehen die Weiche.
+
+Gegengeprüft und korrigiert im selben Lauf: Der zunächst als Hauptbefund notierte
+Vorschlag, eine Kontingent-Prüfung in die Weiche einzubauen, war bereits umgesetzt.
+`scripts/lauf-gate.sh` trägt seit 03.08.2026 einen Wochenkontingent-Block (Zeilen 182
+bis 219), den die Weiche über `gate_ok` erbt, weil `weiche-nachtschicht` nicht auf
+dessen Ausnahmeliste steht. Der Vorschlag ist daraufhin auf das reduziert worden, was
+tatsächlich fehlt: das Durchreichen des Gate-Abweisungsgrundes ins Weichen-Journal,
+das heute bei einer Kontingentsperre eine irreführende Speicheraussage protokolliert.
+
+Fazit teilweise gelungen; sechs Verbesserungsvorschläge, davon V1 (Abweisungsgrund
+durchreichen) und V4 (Rollenentscheid, mit Rückbau als ernsthafter Option) zur
+Freigabe durch Raphael.

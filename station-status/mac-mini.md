@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 06.08.2026 09:01:06
+Stand: 06.08.2026 09:11:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 09:01)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 06.08.2026 09:01:06
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 9b9883bb hub-chef 06.08.: Ziffer 4.5 Begleitbeschrieb Bohlweg 3 am Eingabetag noch falsch — Korrekturfassung als Vorschlag gebaut, Register+Logbuch nachgefuehrt, Briefing versendet (7678 Zeichen)
+- f38c44d9 logbuch: Wochen-Review Arbeits-Weiche 06.08. — 26 echte Entscheide, 100 Prozent mini, Kontingent-Blindheit als Hauptbefund
