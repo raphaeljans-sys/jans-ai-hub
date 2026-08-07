@@ -14,15 +14,29 @@ nur destillieren. Alle Titelblaetter sind verifiziert, Pfade stimmen.
   inline eingearbeitet). Materiell: genau EINE Aenderung, Art. 179 Abs. 2 (Ruegefrist
   verdeckte Maengel «innert 60 Tagen» statt «sofort», OR-Revision Baumaengel per 01.01.2026).
   QUESTIONS-Frage geschlossen.
-- [ ] SIA 261/1:2003 dt (`alle/261_1_2003_d.pdf`) — Bring-Schuld «nur franzoesisch» geschlossen,
-  jetzt destillierbar
-- [ ] SIA 262/1:2003 dt (`alle/262_1_2003_d.pdf`)
-- [ ] SIA 264/1:2003 dt (`alle/264_1_2003_d.pdf`)
-- [ ] SIA 267/1:2003 dt (`alle/267_1_2003_d.pdf`)
-- [ ] SIA 410/1+410/2:1981 (`alle/410_1_2_1981_d.pdf`, Scan ohne Textlayer → Seiten rendern) —
-  komplettiert das established-Destillat `sia-410-1986` (Farbcode aus Ziff. 2.5 Pos. 7)
-- [ ] SIA 118/266-1:2017 (`alle/118_266-1_2017.pdf`, Scan) + SIA 118/266-2:2017
-  (`alle/118_266-2_2017.pdf`, Scan; ersetzt SIA 226:1976)
+- [x] 260807 SIA 261/1:2003 dt — Destillat `sia-261-1-2003.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde, 26 Stichproben; 5 Nebenbefunde eingearbeitet). Mehrere echte
+  Druckanomalien der Norm dokumentiert (u.a. Formel 3 ohne Klammer, ueberlappende
+  Tabelle-9-Bereiche).
+- [x] 260807 SIA 262/1:2003 dt — Destillat `sia-262-1-2003.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde, 30+ Stichproben; 2 Nebenbefunde eingearbeitet). Vorliegende
+  Datei ist die 2. Auflage 2004-05.
+- [x] 260807 SIA 264/1:2003 dt — Destillat `sia-264-1-2003.md`, **established** (Refuter
+  BEANSTANDET: 1 Kernbefund u_1-Richtung, vom Hauptprozess am Original bestaetigt und
+  inline korrigiert; 24 Tabellenzellen alle korrekt; 4 Nebenbefunde eingearbeitet).
+- [x] 260807 SIA 267/1:2003 dt — Destillat `sia-267-1-2003.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde, 30+ Stichproben; 4 Nebenbefunde eingearbeitet, u.a.
+  Zaehlkorrektur zehn Zuordnungstabellen).
+- [x] 260807 SIA 410/1+410/2:1981 — Destillat `sia-410-1-2-1981.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde, alle Farbtabellen zellengenau; 2 Nebenbefunde eingearbeitet).
+  Farbcode-Luecke des established-Destillats `sia-410-1986` (Ziff. 2.5 Pos. 7) geschlossen,
+  dort an 5 Stellen inline nachgefuehrt. Quellenbefund: Kurzzeichen-Divergenz Kaelte KR
+  (410/1) vs. K (410/2).
+- [x] 260807 SIA 118/266-1:2017 — Destillat `sia-118-266-1-2017.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde; 5 Nebenbefunde eingearbeitet, u.a. Begriffsvertauschung
+  Sichtmauerwerk/sichtbar bleibendes Mauerwerk korrigiert).
+- [x] 260807 SIA 118/266-2:2017 — Destillat `sia-118-266-2-2017.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde, 28 Stichproben; 5 Nebenbefunde eingearbeitet).
 - [ ] SIA 387/4:2017 (`alle/387_4_2017.pdf`) — dabei pruefen, WELCHE Teile von SIA 380/4:2006
   ersetzt werden (Vorwort/Geltungsbereich) → Beitrag zur offenen Nachfolgefrage N27-2
 - [ ] SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan) — dabei die Jahres-Diskrepanz klaeren
