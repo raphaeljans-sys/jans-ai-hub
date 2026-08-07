@@ -286,7 +286,7 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     2025**. Beide Synopse-PDFs vom Mac-Mini-OneDrive gelesen; **die zwei Fassungen sind nicht
     identisch** (April 16.4.2025 «öffentliche Auflage/Anhörung/Vorprüfung» vs. September 5.9.2025
     «Fassung zur Negativen Vorwirkung», mit inhaltlichen Abweichungen) — massgebend ist die
-    September-Fassung, angelegt als `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`
+    September-Fassung, angelegt als `raw/260807_amtlich_zh_bzo-thalwil-revision-synopse.md`
     (51 S., dreispaltig). **Neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]]**:
     § 234 PBG als Anknüpfung (nicht eine BZO-Übergangsbestimmung), nur negative/nie positive
     Vorwirkung (VB.2008.00044) → Strenge-Regel, Suspensivbedingung unzulässig/Sistierung zulässig,
@@ -314,7 +314,7 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     Synopsen Spaltenzuordnung **wortweise**, nie zeilenweise). 3 neue Drill-Karten, zwei davon am
     realen Fall Bohlweg 3. **Neu offen:** Genehmigung/Inkrafttreten (T-01), spätere Synopse-Fassung
     (T-02), Zitat-Flag «RB 1980 vs. 1998 Nr. 113» im Destillat [[12-baureife]] (T-03).
-    **0 Halluzinationen.** Report `outputs/2026-08-03_buch-run72.md`. **«Rückstand abgebaut»
+    **0 Halluzinationen.** Report `outputs/2026-08-07_buch-run72.md`. **«Rückstand abgebaut»
     NICHT ausgerufen** — die Korpus-Queue steht bei 1 von 8 Batches. **Nächster Schritt:**
     Batch **T2** (Umgebungsgestaltung/Gartenmauern/Vorgarten/Grünanteil) — er schliesst direkt an
     Art. 50 revBZO an und trifft die im PROGRAMM als grösste Lücke bezeichnete Nr. 4

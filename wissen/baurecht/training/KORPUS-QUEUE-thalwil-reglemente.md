@@ -63,7 +63,7 @@ Klassen sauber trennen:
 
 ### T1 — BZO-Revision 2025 (Run 72, 03.08.2026)
 
-- `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md` angelegt (Synopse «Fassung zur
+- `raw/260807_amtlich_zh_bzo-thalwil-revision-synopse.md` angelegt (Synopse «Fassung zur
   Negativen Vorwirkung» vom 05.09.2025, 51 Seiten, dreispaltig).
 - Wiki [[negative-vorwirkung-und-bzo-revision]] neu (§ 234/§ 235 PBG, Strenge-Regel,
   Verfahrensstand Thalwil, artikelweise Vorwirkungs-Karte).

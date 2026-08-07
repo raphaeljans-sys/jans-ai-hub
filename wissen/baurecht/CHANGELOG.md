@@ -42,7 +42,7 @@ Abschnitt 6. Das Deliverable wurde nicht geaendert (ausgehendes Erzeugnis, Freig
   Vier korrigierte Punkte: **(1)** Art. 45 revBZO ist in der Synopse «Fassung zur Negativen
   Vorwirkung» vom 05.09.2025 **nicht grau markiert** und wirkt nicht vor (Content-Stream
   `sc 0.8509804` = #D9D9D9, am Pixel nachgemessen, Buch-Run 72; Synopse S. 40 =
-  `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md` Z. 1706-1712). **(2)** Die 50 m² sind
+  `raw/260807_amtlich_zh_bzo-thalwil-revision-synopse.md` Z. 1706-1712). **(2)** Die 50 m² sind
   **kantonales** Recht — **§ 2a Abs. 1 ABV** (`raw/260607_amtlich_zh_abv.md` Z. 50-52), eine
   Begriffs-/Qualifikationsgrenze, keine revBZO-Nachweisgrenze; die revBZO kennt für Klein- und
   Anbauten keine Flächenquote, «50 m2» steht dort nur in der Bemerkungsspalte des Planungsbüros
@@ -83,7 +83,7 @@ Abschnitt 6. Das Deliverable wurde nicht geaendert (ausgehendes Erzeugnis, Freig
 
 ## 2026-08-03/04 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil erschlossen; die Vorwirkungs-Markierung aus der Grafikebene gelesen
 
-- **NEU `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`** — Synopse «Fassung zur Negativen
+- **NEU `raw/260807_amtlich_zh_bzo-thalwil-revision-synopse.md`** — Synopse «Fassung zur Negativen
   Vorwirkung» vom 05.09.2025 (51 S., dreispaltig, `pdftotext -layout`). Quelle: Projektordner
   2414 Thalwil, `06 Reglemente/02 BZO Thalwil/_BZO-Revision 2025/`. Die **April-Fassung** vom
   16.04.2025 ist inhaltlich abweichend und **nicht** massgebend; sie dient nur als Vergleichsbasis.
@@ -121,7 +121,7 @@ Abschnitt 6. Das Deliverable wurde nicht geaendert (ausgehendes Erzeugnis, Freig
 - **Neue Leitplanke:** visuelle Rechtsinformation (Grau, Rotdruck, Durchstreichung) überlebt die
   Textextraktion nicht; zusätzlich bei Synopsen die Spaltenzuordnung **wortweise** vornehmen, weil
   `pdftotext` Tabellenzeilen über alle Spalten zu einer Zeile verschmilzt.
-- Report: `outputs/2026-08-03_buch-run72.md`.
+- Report: `outputs/2026-08-07_buch-run72.md`.
 
 ## 2026-08-03 (Wissens-Chef Run 24, Cross-KB) — drei falsche Gelaenderwerte korrigiert, Frage 2 geschlossen
 

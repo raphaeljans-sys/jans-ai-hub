@@ -808,3 +808,21 @@ Muster, vor dem der Radar warnt.
 Task-Beschreibung mit 8.27 Mio teuren Token pro Woche der groesste getaggte Einzelverbraucher.
 Er beaufsichtigt das Kontingent, aus dem er selbst trinkt. Eine Rueckenahme auf 12 h waere der
 groesste Einzelhebel, ist aber eine Aufsichts-Entscheidung und gehoert Raphael.
+
+### 260807 (abends) — vollgas-chef-radar von 8 h auf 12 h zurueckgenommen
+
+Freigabe Raphael 07.08.2026, im Zuge der Verbrauchs-Analyse. Gemessen: **18 Laeufe in sieben
+Tagen**; laut eigener Task-Beschreibung mit 8.27 Mio teuren Token pro Woche der groesste
+getaggte Einzelverbraucher. Die Aufsicht beaufsichtigt das Kontingent, aus dem sie selbst
+trinkt.
+
+- Cron `50 */8 * * *` → `50 */12 * * *` (drei Laeufe pro Tag → zwei).
+- Umgestellt ueber `update_scheduled_task` (Live-Registry), Beschreibung in der SKILL.md
+  nachgezogen, damit Doku und Live-Zustand nicht auseinanderlaufen.
+- **Erwartete Nebenwirkung:** eine Cron-Aenderung re-armt die Task; ein zusaetzlicher Lauf
+  kurz nach der Umstellung ist normal und kein Defekt (gleiches Muster wie am 01.08. beim
+  wissenscheck-monatlich).
+- Vorgeschichte: 30.07. von 3 h auf 4 h, 03.08. von 4 h auf 8 h.
+
+Die uebrigen Aufsichts-Takte bleiben unveraendert; `vollgas-fruehwarnung` (taeglich 06:25)
+ist weiterhin der Kanal, wenn das Kontingent kippt.
