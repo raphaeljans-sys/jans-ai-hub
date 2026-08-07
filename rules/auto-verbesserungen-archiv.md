@@ -620,3 +620,54 @@ Vorfaelle und die vollstaendigen Inventare.
 Ausloeser-Zitate und abgeloeste Eintraege gehoeren ins Archiv, nicht hierhin. Widerspricht
 eine neue Verbesserung einem Eintrag: Eintrag korrigieren statt doppeln. Waechst ein Thema:
 eigene Rule-Datei (README registrieren, @-Import ergaenzen), hier nur Verweis.
+
+---
+
+# Snapshot vor Konsolidierung 07.08.2026 (Grundkontext-Diaet Runde 3)
+
+Anlass: `auto-verbesserungen.md` war auf 17.5 kB gewachsen und damit die groesste importierte
+Rule — sie fiel in jede Session aller rund 40 Scheduled Tasks beider Stationen. Konsolidiert
+wurde ausschliesslich **Beleg- und Anlass-Prosa**; kein imperativer Kern wurde entfernt. Die
+Datei schreibt das selbst vor: «Ausloeser-Zitate und abgeloeste Eintraege gehoeren ins Archiv».
+
+Unten die Langfassungen der fuenf gekuerzten Eintraege im Wortlaut vor der Kuerzung.
+
+## 260805 — Anlass (Langfassung)
+
+Der Wissens-Chef hat am 04.08.2026 (Run 25) einen falschen Rechtssatz in einem versandbereiten
+Begleitbeschrieb (Termin 06.08.) gefunden, korrekt verifiziert und im Bericht als terminkritisch
+markiert. Das Tagesbriefing vom 05.08. fuehrte ihn **nicht**; am 05.08. abends stand der Satz
+unveraendert in vier Dateien. Run 26 hat ihn ins Fristen-Register nachgetragen. Beleg:
+`wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`, Abschnitt 6.
+
+## 260803 (Aufsichts-Loops) — Anlass und Zusatzbegruendung (Langfassung)
+
+Nicht sendewuerdig sind Hub-Interna ohne Aussenwirkung (Script-Fixes, Locale-/Encoding-Drift,
+Registerpflege, Wissenscheck- und Loop-Ergebnisse, Takt- und Rollen-Buchhaltung) sowie
+Selbstkorrekturen eines eigenen frueheren Briefings — die nur dann per Mail, wenn der Fehler
+Raphaels Handeln beeinflusst haette, sonst still im Register richtigstellen. Und: eine
+Sende-Schwelle ist erst scharf, wenn sie benennt, was NICHT zaehlt — «sende nur bei Befund» ist
+wirkungslos, solange jeder Fund als Befund gilt.
+
+Umgesetzt am hub-chef an allen drei Orten (Registry, Task-SKILL.md, NAS-Skill). Anlass: zwei
+garantierte Tagesbriefings im Abstand von 90 Minuten; am 01.08.2026 sendete der hub-chef eine
+zweite Mail mit zwei rein internen Befunden und schrieb darin selbst, operativ habe sich seit
+dem Radar-Briefing nichts bewegt.
+
+## 260803 (Ein-Mail-Prinzip) — Anlass (Langfassung)
+
+Wer den Chef stillstellt, muss zuerst pruefen, wer sonst noch stillsteht: am 03.08.2026 war der
+Chef mittags auf «still by default» gesetzt worden und abends die Loops entmailt — zusammen
+haette das bedeutet, dass niemand mehr meldet. Ausloeser: am 03.08.2026 gingen fuenf Loop-Mails
+in 17 Minuten an rj@ (22:12 bis 22:29). Belege und Umsetzung: `logbuch/LOGBUCH.md`, Eintrag
+Hub-Chef 03.08.
+
+## 260729b — Fall-Dokumentation (Langfassung)
+
+Fall-Dokumentation: `wissen/normen/outputs/2026-07-29_normen-nacht-run37.md`; Langfassung als
+Methodik-Pflicht 5 in `wissen/normen/training/PROGRAMM.md` (nicht importiert).
+
+## 260729 — Konzept-Verweise (Langfassung)
+
+Konzept + Messwerte: `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`, Wissen:
+`wissen/claude-code/`.

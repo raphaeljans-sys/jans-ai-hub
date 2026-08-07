@@ -22,12 +22,8 @@ zuerst.
   dass ein anderer Loop ihn aufnimmt, genuegt nicht. Das Register ist der Ort, den der
   `logbuch-radar` (06:55) und der `hub-chef` (08:39) verlaesslich lesen.
 - **Gilt fuer:** alle Loops und Sessions, die Befunde erzeugen — insbesondere `wissens-chef`,
-  `wissenscheck`, `synergie-orchestrator`, die Lern-Loops und jede Projektarbeit.
-  **Anlass:** Der Wissens-Chef hat am 04.08.2026 (Run 25) einen falschen Rechtssatz in einem
-  versandbereiten Begleitbeschrieb (Termin 06.08.) gefunden, korrekt verifiziert und im Bericht
-  als terminkritisch markiert. Das Tagesbriefing vom 05.08. fuehrte ihn **nicht**; am 05.08.
-  abends stand der Satz unveraendert in vier Dateien. Run 26 hat ihn ins Fristen-Register
-  nachgetragen. Beleg: `wissen/koordination/outputs/2026-08-05_wissens-chef-run26.md`, Abschnitt 6.
+  `wissenscheck`, `synergie-orchestrator`, die Lern-Loops und jede Projektarbeit. Anlass und
+  Beleg: Archiv, Snapshot 260807.
 
 ## 260803 — Aufsichts-Loops sind still by default; Interna gehoeren ins Logbuch, nicht ins Postfach
 - **Regel:** Genau EIN Loop darf Raphael taeglich ungefragt schreiben — der `logbuch-radar`
@@ -35,20 +31,15 @@ zuerst.
   default** und sendet nur bei einem der vier Sendegruende: ausgefuehrte Whitelist-Aktion,
   versandbereiter Entwurf, **operativer** Befund (Geld, Frist, Termin, Behoerde, Kunde,
   Projekt), den der Radar heute nicht schon gemeldet hat, oder P1-Blocker. **Nicht
-  sendewuerdig sind Hub-Interna ohne Aussenwirkung** (Script-Fixes, Locale-/Encoding-Drift,
-  Registerpflege, Wissenscheck- und Loop-Ergebnisse, Takt- und Rollen-Buchhaltung) sowie
-  **Selbstkorrekturen eines eigenen frueheren Briefings** — die nur dann per Mail, wenn der
-  Fehler Raphaels Handeln beeinflusst haette, sonst still im Register richtigstellen. **Der
-  LAUF faellt nie aus, nur die Mail:** Aktionen, Entwuerfe, Register- und Logbuchpflege bleiben
-  in jedem Fall Pflicht, samt Vermerk «ohne Befund, still beendet» mit einem Satz zum Grund.
-  Und: eine Sende-Schwelle ist erst scharf, wenn sie **benennt, was NICHT zaehlt** — «sende nur
-  bei Befund» ist wirkungslos, solange jeder Fund als Befund gilt.
+  sendewuerdig sind Hub-Interna ohne Aussenwirkung** (Script-Fixes, Drift, Registerpflege,
+  Loop-Ergebnisse, Takt-/Rollen-Buchhaltung) und Selbstkorrekturen eines eigenen frueheren
+  Briefings, sofern der Fehler Raphaels Handeln nicht beeinflusst haette. **Der LAUF faellt
+  nie aus, nur die Mail:** Aktionen, Entwuerfe, Register- und Logbuchpflege bleiben Pflicht,
+  samt Vermerk «ohne Befund, still beendet». Eine Sende-Schwelle ist erst scharf, wenn sie
+  **benennt, was NICHT zaehlt**.
 - **Gilt fuer:** alle Aufsichts- und Meta-Loops (hub-chef, vollgas-chef-radar,
-  vollgas-fruehwarnung, wissens-chef, methoden-radar, wissenscheck, Monitore). Umgesetzt am
-  hub-chef an allen drei Orten (Registry, Task-SKILL.md, NAS-Skill). Anlass: zwei garantierte
-  Tagesbriefings im Abstand von 90 Minuten; am 01.08.2026 sendete der hub-chef eine zweite Mail
-  mit zwei rein internen Befunden und schrieb darin selbst, operativ habe sich seit dem
-  Radar-Briefing nichts bewegt.
+  vollgas-fruehwarnung, wissens-chef, methoden-radar, wissenscheck, Monitore). Anlass und
+  Umsetzung: Archiv, Snapshot 260807.
 
 ## 260803 — Ein-Mail-Prinzip: nur der Hub-Chef mailt, die Melde-Loops schreiben ins Logbuch
 - **Regel:** Genau EIN regulaerer Meldekanal an Raphael, und das ist das Tagesbriefing des
@@ -65,12 +56,10 @@ zuerst.
   ausfaellt; (2) der `logbuch-radar`, wenn der Chef-Lauf des Vortages ausgefallen ist oder
   ein Punkt Handeln vor 08:39 verlangt; (3) der `ag-gruendung-monitor` bei Schritten, die
   am selben Tag Handeln erzwingen (Kapitalbescheinigung, Beurkundungstermin, 24-h-Frist).
-  **Wer den Chef stillstellt, muss zuerst pruefen, wer sonst noch stillsteht:** am
-  03.08.2026 war der Chef mittags auf «still by default» gesetzt worden und abends die
-  Loops entmailt — zusammen haette das bedeutet, dass niemand mehr meldet.
+  **Wer den Chef stillstellt, muss zuerst pruefen, wer sonst noch stillsteht** — sonst
+  meldet am Ende niemand mehr.
 - **Gilt fuer:** alle Melde-Loops und jede kuenftige Aenderung an einem Melde-Kanal.
-  Ausloeser: am 03.08.2026 gingen fuenf Loop-Mails in 17 Minuten an rj@ (22:12 bis 22:29).
-  Belege und Umsetzung: `logbuch/LOGBUCH.md`, Eintrag Hub-Chef 03.08.
+  Ausloeser und Belege: Archiv, Snapshot 260807.
 
 ## 260730b — Heutiges Datum messen, nie ableiten; NAS-Dateien vor dem Edit auf Frische pruefen
 - **Regel:** (1) Das Arbeitsdatum kommt aus `date "+%Y-%m-%d %H:%M %Z"`, nie aus einem
@@ -113,8 +102,7 @@ zuerst.
   (3) Beim Rendern immer ein eindeutiges, aufgabenspezifisches Datei-Praefix
   (`/tmp/<norm>-<runde>-`), nie generische Namen — parallele Agenten teilen das Scratchpad.
 - **Gilt fuer:** alle Sessions mit Subagenten und alle Entscheidungsvorlagen an Raphael.
-  Fall-Dokumentation: `wissen/normen/outputs/2026-07-29_normen-nacht-run37.md`; Langfassung
-  als Methodik-Pflicht 5 in `wissen/normen/training/PROGRAMM.md` (nicht importiert).
+  Fall-Dokumentation: Archiv, Snapshot 260807.
 
 ## 260729 — Werkzeuge und Kontext-Schichten bewusst waehlen (Anthropic-Lecture)
 - **Regel:** (1) **Werkzeug-Index zuerst.** Bevor eine externe Quelle von Hand abgefragt

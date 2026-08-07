@@ -28,24 +28,49 @@ Routinen-Läufe (Scheduled Tasks, automatische Messungen, Checks) verbrauchen he
 
 ## Implementierung
 
-### In Scheduled Task SKILL.md
+### ⚠ Korrektur 07.08.2026 — das Frontmatter-Feld `model:` wirkt NICHT
 
-Füge in die erste Zeile (nach `<scheduled-task>`) ein:
+Diese Rule schrieb bis zum 07.08.2026 vor, `model: haiku-4-5` ins SKILL.md-Frontmatter zu
+setzen. **Das steuert das Modell des Hauptlaufs nicht.** Gemessen am 07.08.2026 über alle
+Scheduled-Task-Transkripte der letzten sieben Tage (`"model":`-Feld je Assistant-Message):
 
-```
-model: haiku-4-5
-```
+- **Jeder** Hauptlauf aller Tasks fuhr `claude-opus-5` — ausnahmslos.
+- `ag-gruendung-monitor` trägt das Feld seit dem 03.08.2026 und lief am 05.08. und 06.08.
+  trotzdem auf `claude-opus-5`. Das Feld ist damit widerlegt, nicht nur unbelegt.
+- `list_scheduled_tasks` und `update_scheduled_task` kennen überhaupt kein Modell-Feld.
 
-Beispiel:
+Das reiht sich in den bekannten Befund ein, dass `enabled:` und `cron_target:` im Frontmatter
+Dokumentation sind und nicht Live-Zustand (Radar-Befund 06.08.2026). **Ein Frontmatter-Feld
+zu setzen, um den Verbrauch zu senken, ist Theater** — es ändert die Kosten um null und
+erzeugt den Glauben, das Problem sei gelöst.
+
+### Was nachweislich wirkt: Delegation an Subagenten
+
+Der Hauptlauf bleibt Opus, delegiert aber die eigentliche Arbeit. Belegt in denselben
+Transkripten: `heartbeat-daily` fährt Haiku-Subagenten, `konversations-log`,
+`normen-training-nacht` und `tenant-hygiene-weekly` fahren Sonnet-Subagenten — jeweils
+ausgelöst durch einen Prosa-Block im Prompt, nicht durch Frontmatter.
+
+Deshalb gehört in jede Routine-Task dieser Block ans Ende des Prompts:
+
 ```markdown
----
-name: vollgas-chef-radar
-description: Chef-Radar TAKTGEBER…
-model: haiku-4-5
-enabled: true
-cron_expression: "50 */8 * * *"
----
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren (bei textlastiger Destillation model: sonnet); der Hauptkontext orchestriert nur
+und prueft das Ergebnis. Gleiches Ergebnis-Format wie bisher.
 ```
+
+**Wichtig — der Subagent kostet seinerseits:** er lädt den Grundkontext neu. Ein Heartbeat-
+Subagent kam am 07.08.2026 auf 78'000 Token für einen einzigen Bash-Aufruf. Delegation lohnt
+sich für Läufe mit echtem Arbeitsvolumen; für einen Zweizeiler ist sie teurer als die direkte
+Ausführung. Im Zweifel: nicht delegieren, sondern den Lauf schlank halten.
+
+### Der grössere Hebel liegt im Grundkontext
+
+Rund 89 kB (CLAUDE.md plus 21 importierte Rules, Stand 07.08.2026) fallen in **jede** Session
+aller ~40 Tasks beider Stationen, bevor irgendetwas passiert. Das ist der Dauerverbraucher,
+den keine Modellwahl heilt. Siehe Rule `auto-verbesserungen`, Eintrag 260719 (Kontext-Diät).
 
 ### Für CLI/oneshot Läufe
 
@@ -73,7 +98,19 @@ Alle Scheduled Tasks, alle Stationen. Gilt ab sofort für Neueinstellungen; best
 
 ## Kosteneffekt
 
-Measured am 07.08.2026:
+### ⚠ Nachtrag 07.08.2026 (abends) — die Schätzung unten gilt so nicht
+
+Die Zahlen darunter wurden am 07.08.2026 beim Anlegen der Rule geschätzt, unter der Annahme,
+das Frontmatter-Feld schalte den Hauptlauf auf Haiku. Diese Annahme ist am selben Abend
+widerlegt worden (siehe Korrektur im Abschnitt Implementierung). Die Einsparung tritt **nicht
+automatisch** ein, sondern nur so weit, wie ein Lauf seine Arbeit tatsächlich an einen
+Subagenten abgibt — und abzüglich des Grundkontexts, den dieser Subagent neu lädt.
+
+Die Schätzung bleibt als Grössenordnung stehen, ist aber **nicht gemessen** und darf nicht
+als Beleg zitiert werden. Eine echte Messung braucht einen Vorher/Nachher-Vergleich derselben
+Task über mehrere Läufe.
+
+### Ursprüngliche Schätzung (07.08.2026, unverifiziert):
 - **Sechs Routine-Läufe** (Radar, Heartbeat, Konversations-Log, Radar-Vorlauf, Frühwarnung, AG-Gründung) zusammen ca. **2.9 Mio Token** («teuer») bei Opus
 - Haiku kostet rund **30–40 % davon**, je Lauf
 - **Einsparung pro Tag bei 6 Routinen: ~1.8–2.3 Mio Token** («teuer»), rund **6 % des heutigen Wochenbudgets**
