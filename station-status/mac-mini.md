@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 08:58:47
+Stand: 07.08.2026 09:08:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,7 +9,8 @@ Stand: 07.08.2026 08:58:47
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- keine
+- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
+- 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 642cc6c0 nas-selfcommit: 2 Datei(en) 2026-08-07 08:45
+- 4f570b2b vollgas-radar 07.08. 08:57: echte Umlaute im Eintrag nachgezogen (Umlaute-Konvention)
