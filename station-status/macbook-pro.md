@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 07:12:28
+Stand: 07.08.2026 07:22:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:10)
@@ -12,4 +12,4 @@ Stand: 07.08.2026 07:12:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e166e5e4 logbuch-radar 07.08.2026: Bohlweg-3-Eingabetermin verstrichen (nicht eingereicht), Protokoll-Versand KISPI belegt, 4 neue Registerpunkte
+- 28a36388 vollgas-fruehwarnung 07.08.2026 07:15 (still, keine Mail): 06.08. 11.12 Mio kombiniert, null Limit-Ereignisse, alle vier Briefings geliefert; Gate-Log auf beiden Stationen tot, Nachweis wechselt aufs Lauf-Journal

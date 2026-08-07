@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 07:17:29
+Stand: 07.08.2026 07:27:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 07:17:29
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c7c428a9 nas-selfcommit: 1 Datei(en) 2026-08-07 07:15
+- 28a36388 vollgas-fruehwarnung 07.08.2026 07:15 (still, keine Mail): 06.08. 11.12 Mio kombiniert, null Limit-Ereignisse, alle vier Briefings geliefert; Gate-Log auf beiden Stationen tot, Nachweis wechselt aufs Lauf-Journal
