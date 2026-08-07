@@ -4,6 +4,137 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-07 07:15 — ROHMESSUNG (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 07.08.2026 07:15 CEST, NAS gemountet. Vierter Lauf mit rekursivem Glob
+(inklusive Subagenten-Transcripts), Zeilenfilter je `timestamp[:10]` über ein Fenster von
+acht Kalendertagen bei neun Tagen mtime-Vorfilter, Duplikate über (message.id, requestId)
+ausgeschlossen. Erfasst: **688 Dateien MacBook Pro** / **163 Dateien Mac Mini** im
+mtime-Fenster.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 31.07. | 13.20 | 247.91 | 2.44 | 64.83 | **15.64** |
+| 01.08. | 5.68 | 143.98 | 0.82 | 21.38 | **6.50** |
+| 02.08. | 0.00 | 0.00 | 0.00 | 0.00 | **0.00** |
+| 03.08. | 22.52 | 514.43 | 9.51 | 179.80 | **32.03** |
+| 04.08. | 7.63 | 180.70 | 2.69 | 45.96 | **10.32** |
+| 05.08. | 12.13 | 252.53 | 5.13 | 67.30 | **17.26** |
+| 06.08. | 9.19 | 181.56 | 1.93 | 49.81 | **11.12** |
+| 07.08. (bis 07:15) | 1.76 | 38.11 | 0.46 | 16.26 | **2.22** |
+
+Alle sechs Überlappungstage (31.07. bis 05.08.) stimmen auf zwei Nachkommastellen mit der
+Messung vom 06.08. überein — die rekursive Methodik reproduziert sich zum vierten Mal in
+Folge. Der 06.08. schliesst mit **11.12 Mio kombiniert**, ein Drittel unter dem 05.08.
+(17.26) und deutlich unter dem Wochenhoch vom 03.08. (32.03). Der Anteil der Subagenten am
+teuren Verbrauch bleibt auf dem MacBook Pro dominant (5.40 von 9.19 Mio, 59 %), fällt auf
+dem Mac Mini aber auf 0.14 von 1.93 Mio (7 %) — dort hat in der Nacht auf den 06.08. kein
+fan-out-lastiger Loop gearbeitet.
+
+**Blockade-Status: KEINE.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429, jeweils zusammen mit einem Limit-Textmuster) über
+24 h: **null** echte Limit-Fehlerereignisse auf beiden Stationen. Das jüngste bekannte
+Ereignis bleibt der 03.08. 09:41 CEST vor dem Reset um 12:00 — seit **rund 94 Stunden** ist
+keines mehr aufgetreten. Das Wochenkontingent trägt.
+
+**Operative Briefings (Schritt 3): alle vier haben ihr Deliverable erreicht.** `logbuch-radar`
+lief heute 06:55–07:09 und hat abgeliefert (Commit `e166e5e4`, Abschnitt «Radar-Briefing
+07.08.2026» im LOGBUCH, vier neue Registerpunkte), still und ohne Mail nach Rule 260803. Der
+letzte `hub-chef-taeglich` lief am 06.08. 08:39–08:58 und hat **versandt** — 08:57:46 an rj@,
+am Beleg in «Gesendete Elemente» mit 7'678 Zeichen gegengeprüft, also kein Leer-Body.
+`mahnwesen-verzugscheck` (06.08. 08:05) steht mit eigenem Abschnitt im LOGBUCH.
+`zahlungsabgleich-check` schreibt sein Deliverable nicht ins LOGBUCH, sondern als Report:
+`…/30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260806_bexio-Hygiene.md`, 14'434 Bytes,
+geschrieben 06.08. 08:28:51. `ag-gruendung-monitor` (07:46), `mahnwesen` (08:05),
+`zahlungsabgleich` (08:23) und `hub-chef` (08:39) sind zum Messzeitpunkt **noch nicht fällig**.
+
+**Radar-Herzschlag (Schritt 4): beide Signale grün.** Jüngster RADAR.md-Eintrag **07.08.
+00:57** (Commit `390e3e20` um 01:00), dazu eine belegte Session `vollgas-chef-radar` mit
+lastRunAt 00:57. Abstand zum Messzeitpunkt **6 h 18 min**, deutlich unter der 12-h-Schwelle.
+Der Radar arbeitet inhaltlich weiter an der Verbrauchsrate: er hat in der Nacht seine eigene
+Prognose falsifiziert (Nachtrate 0.59 statt 1.00 Mio/h) und einen Fan-out-Lauf mit rund
+4.5 Mio gegen einen Nachtschicht-Slot mit rund 0.2 Mio kalibriert.
+
+**Liefer-Delta der Lern-Loops (Schritt 5): kein Leerläufer, kein Muster (a), kein Muster (b).**
+Jeder Loop mit Tokenverbrauch in den letzten 24 h hat einen belegten Commit:
+- `normen-training-nacht` Run 46 (01:28, `ee8dc9a6`) — vierte Refuter-Runde GVZ 30.17.3
+  **beanstandet**, fehlende Entrauchungsöffnungen Ziff. 4.2.2.4, dazu fünf geschlossene Lücken.
+- `wissens-chef` Run 27 (23:11–23:54, `36bcba74`) — ein **erfundener Beleg** im ERCO-Praxisteil
+  («Bürolicht UGR ≤ 19») am Original-PDF widerlegt und gestrichen, als neue Fehlerklasse im
+  Register geführt und ausdrücklich von der blossen Quellenlücke abgegrenzt. Der Chef prüft
+  damit genau das Destillat gegen, das der Destillat-Loop in derselben Nacht schreibt.
+- `twin-mail-training` Batch 89 (03:50, `922a1fc3`, rj@ 21.–31.03.2026, 18 Marker),
+  `twin-fidelity-review` (06:01, `02241098`), `konversations-log` (06:28, 21'572 Bytes),
+  `energie` Nachtschicht Mini 02:37 (`c9d6b082`, Minergie-Produktreglement 2026.1),
+  Mini-Nachtschicht 23:31 und 05:35 (ERCO, siehe unten).
+- Muster (a) Tokens ohne Liefer-Delta: **keiner**. Muster (b) Delta-Null-Serie: **keiner** —
+  `projekt-lessons` bleibt als Nachtschicht-Ziel ausgesetzt (Radar-Entscheid 05.08.).
+
+**Destillat-Aufsicht (elfte Erhebung):**
+- (a) **Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, 22 offene Dateien** — Zahl für
+  Zahl wie am 04., 05. und 06.08. Der Datei-Zähler steht damit den **vierten** Tag still, und
+  wieder ist es kein Leerlauf: beide Nachtläufe arbeiteten im ERCO-Ratgeber (BKP 233) weiter,
+  06.08. 23:31 von Seite 120 auf **145** (Leuchtengruppen abgeschlossen), 07.08. 05:35 von 145
+  auf **175** (Hauptkapitel «Lichtanwendungen» begonnen, sauberer Stopp vor «Objekt» am
+  Original per `pdftotext -f 176` verifiziert). Bei grossen Einzelquellen bleibt die Seitenmarke
+  im CHANGELOG das richtige Mass, der Datei-Zähler das falsche.
+- (b) **Ertrag: 9 inhaltliche Artikel, alle `emerging`, 0 `established`** — Artikelzahl
+  unverändert, aber `erco-lichtplanung-grundlagen.md` ist von 45'039 auf **66'203 Bytes**
+  gewachsen (+47 % an einem Tag). Der Ertrag bewegt sich weiter in der Tiefe, nicht in der
+  Breite. Die Deckenabstand-0,8-m-Regel steht jetzt an fünf unabhängigen Stellen belegt.
+- (c) **Delta-Null-Serie: 0.** Alle vier Nachtschicht-Slots des 06.08. liefen mit rc=0 (02:39 ·
+  05:41 · 13:36 · 23:36, zusammen 18.60 USD), die beiden bisherigen des 07.08. ebenfalls (02:38
+  und 05:36, 8.06 USD). Weder Rücktaktung noch Stilllegung fällig. **Methodischer Vermerk:** der
+  Loop schreibt seit dem 03.08. keine Reports mehr nach `wissen/bauprodukte/outputs/`, sondern
+  dokumentiert je Lauf im CHANGELOG und im LOGBUCH. Kriterium (c) ist deshalb am CHANGELOG zu
+  messen; wer nur das `outputs/`-Verzeichnis ansieht, liest seit vier Tagen fälschlich «nichts
+  geliefert».
+- (d) **Stückkosten 06.08.: 0.79 Mio teuer je bewegtem Wiki-Artikel** (11.12 Mio kombiniert /
+  14 Artikel ohne INDEX und QUESTIONS); ohne die sechs Twin-Facetten, die der Fidelity-Review
+  täglich anfasst: **1.39 Mio**. Reihe bisher: 04.08. 0.69 / 1.15 · 05.08. 0.78 / 1.08 ·
+  06.08. 0.79 / 1.39. Die git-Methodik der gestrigen Korrektur reproduziert die beiden
+  Vortageswerte **exakt** (04.08. 15 Artikel, 05.08. 22) — sie ist damit bestätigt.
+  **Beobachtungspunkt ohne Handlungsbedarf:** der Wert ohne Twin-Facetten springt von 1.08 auf
+  1.39, weil die Zahl der bewegten Artikel sich halbiert hat (16 auf 8), während der Verbrauch
+  nur um ein Drittel fiel. Eine Nacht mit einer einzigen tiefen Quelle bewegt wenige Dateien —
+  ein Effekt der ERCO-Phase, kein Effizienzverlust. Erst wenn die Reihe drei Tage in dieser
+  Richtung läuft, ist sie ein Befund.
+- **Spec-Gate:** `specs/bauprodukte-spec.md` liegt vor, das Gate hängt nicht. Korpus 1 weiter
+  «in Arbeit» (22 Dateien offen), Korpora 2 bis 4 «wartet» — **keine** Komplettmeldung,
+  Kriterium (g) nicht erfüllt.
+- Kriterium (f) **nicht erfüllt**: die Front steht, aber der Ertrag bewegt sich belegt
+  (ERCO 120→175, Artikel +21'164 Bytes). Nicht beides still.
+
+**Mittags-Slot 13:30 — dritte Wochenmeldung, mit geänderter Beweisführung.** Der Slot ist am
+06.08. um **13:36** gefeuert, rc=0, 4.71 USD. Damit an acht von acht Tagen seit dem 30.07.
+gefeuert und geliefert, wo das Kontingent es zuliess. **Der bisherige Nachweis «der
+`gate-Macmini.log` weist keine Abweisung aus» ist nicht mehr gültig**, und zwar nicht, weil es
+Abweisungen gäbe, sondern weil der Log tot ist: er endet unverändert am **03.08. 13:30**
+(mtime nachgemessen), inzwischen also seit vier Tagen. Dieselbe Protokolllücke war am 05.08.
+für den Mini und am 06.08. für das MacBook festgestellt worden — sie ist auf beiden Stationen
+stabil. Der Nachweis stützt sich ab sofort auf das Lauf-Journal (`rc=0`, `cost_usd`), also auf
+die Wirkung statt auf das Protokoll. Empfehlung an Raphael unverändert: **der Slot bleibt.**
+
+**Zum operativen Tag, ausserhalb meines Auftrags, nur zur Einordnung.** Der Radar hat heute früh
+den verstrichenen Eingabetermin Bohlweg 3 (06.08., nicht eingereicht) festgestellt und ihn
+regelkonform ins Fristen-Register geschrieben — er steht dort zuoberst. Der Punkt ist damit im
+richtigen Kanal und beim Hub-Chef um 08:39; für diese Frühwarnung ist er kein Meldegrund,
+sondern der Beleg, dass Rule 260805 an genau dieser Sache jetzt greift.
+
+**Meldeentscheid: KEINE Mail.** Von den sieben Kriterien ist **keines** erfüllt: kein
+interaktives Limit-Ereignis (a — null Fehlerereignisse in 24 h auf beiden Stationen), kein Tag
+über 35 Mio kombiniert und keine zwei Folgetage über je 18 Mio (b — der letzte volle Tag 06.08.
+liegt mit 11.12 klar darunter, der höchste Wert im Fenster bleibt der 03.08. mit 32.03), kein
+erschöpftes Wochenkontingent in 24 h (c), kein verfehltes Briefing-Deliverable (d — alle vier
+belegt), Radar-Herzschlag 6 h 18 min alt (e), Destillat-Ertrag bewegt sich belegt (f), keine
+Komplettmeldung der Queue (g). Speicher zum Messzeitpunkt 3'937 MB verfügbar bei Druck 1, kein
+hängender `claude -p`-Prozess. Die einzige neue Feststellung — der Gate-Log ist auf beiden
+Stationen seit vier Tagen tot und taugt nicht mehr als Nachweis — ist ein Hub-Internum ohne
+Aussenwirkung: kein Geld, keine Frist, kein Kunde, kein ausgefallener Lauf. Nach Rule 260803
+gehört sie hierhin und nicht ins Postfach. Letzte Mail dieses Loops: **03.08.2026 22:15**.
+
 ## 2026-08-06 07:15 — ROHMESSUNG (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 06.08.2026 07:15 CEST, NAS gemountet. Dritter Lauf mit rekursivem Glob

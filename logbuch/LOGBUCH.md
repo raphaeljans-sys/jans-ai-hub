@@ -5,6 +5,31 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Vollgas-Frühwarnung 07.08.2026 (07:15, still — keine Mail)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. **Keines der sieben Meldekriterien ist erfüllt,
+nichts davon verlangt eine Entscheidung von Raphael.** Verbrauch 06.08. kombiniert 11.12 Mio
+teuer (MacBook Pro 9.19, Mac Mini 1.93), ein Drittel unter dem 05.08. und weit unter beiden
+Schwellen. Null echte Limit-Fehlerereignisse in 24 h auf beiden Stationen; das letzte bleibt
+der 03.08. 09:41, also rund 94 Stunden her. Alle vier operativen Briefings haben ihr
+Deliverable erreicht, der Hub-Chef-Lauf vom 06.08. hat um 08:57:46 mit 7'678 Zeichen versandt.
+Radar-Herzschlag 6 h 18 min alt. Kein Lern-Loop ohne Liefer-Delta, keine Delta-Null-Serie.
+
+**Zwei Punkte zur Kenntnis, beide ohne Aussenwirkung.** Erstens: der Destillat-Loop bewegt seit
+vier Tagen keine neue Datei, arbeitet aber belegt in der Tiefe weiter — ERCO-Ratgeber in zwei
+Nachtläufen von Seite 120 auf 175, der Artikel wächst von 45'039 auf 66'203 Bytes. Der
+Datei-Zähler ist bei einer grossen Einzelquelle das falsche Mass; gemessen wird an der
+Seitenmarke im CHANGELOG. Zweitens: der `gate-Macmini.log` endet seit dem 03.08. 13:30, der
+`gate-Macbookpro.log` seit dem 05.08. — das Lauf-Gate arbeitet, protokolliert seine Freigaben
+aber auf **keiner** Station mehr. Wer künftig über das Gate urteilt, muss die Wirkung am Lauf
+messen (rc, cost_usd im Lauf-Journal), nicht am Log. Kein Handlungsdruck, aber ein verlorener
+Nachweisweg.
+
+Volle Messung, Methodik und Destillat-Aufsicht: `logbuch/vollgas/FRUEHWARNUNG.md`,
+Block 07.08.2026 07:15.
+
+---
+
 ## Radar-Briefing 07.08.2026
 
 *(Für das Tagesbriefing des Hub-Chefs um 08:39. Keine eigene Mail: Der Chef-Lauf vom 06.08. ist
