@@ -9,6 +9,12 @@
    mit U+F022 als «/»-Ersatz — naiver Namensabgleich uebersieht genau die Neuzugaenge.
    REGISTER-/QUESTIONS-Nachtraege als Folgearbeit empfohlen, noch nicht ausgefuehrt.
 
+2. **Nachtrag gleicher Tag (Tiefenrecherche):** sprachbewusster Neuabgleich nach Underscore-
+   Umbenennung. Korrektur: 416/1:2007 doch im Bestand; upi-Hefte nur ital. Fassungen der
+   vorhandenen bfu-Dokus. 13 zusaetzliche Deutsch-Erstfassungen identifiziert (118/198, 118/257,
+   118/262–267, 197/1+2, 162.051/152-Anhaenge). Alle 33 Kandidaten am Titelblatt verifiziert
+   (3 Namens-Befunde). Uebernahmeliste mit Aktuell/Archiv-Split im Nachtrag des Reports.
+
 ## 2026-08-07 (Normen-Nacht Run 46, MacBook Pro) — die geplante Statushebung ist am Fliesstext gescheitert, und die letzte bemessungsrelevante Abdeckungsluecke ist geschlossen
 
 1. **`destillate/gvz-rwa-parkhaus-einstellraum.md`** — vierte unabhaengige Refuter-Runde,

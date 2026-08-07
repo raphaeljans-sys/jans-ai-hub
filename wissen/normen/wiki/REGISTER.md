@@ -77,29 +77,31 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 111/2 | —(alle zurueckgezogen) | 1992✗ |  |
 | SIA 111/3 | —(alle zurueckgezogen) | 1991✗ |  |
 | SIA 112 | 2001 | 2001✓ | Bestand 2014 → **neuer als Register 2013** (2013 gueltig: 2001); Bestand vermutlich aktuell |
-| SIA 112/1 | 2005 | 2005✓ |  |
+| SIA 112/1 | 2005 | 2005✓ | Bestand **2017** (dt., Übernahme 260807 aus Downloads-Sammlung, `alle/112_1_2017.pdf`) → **neuer als Register 2013**. Am Titelblatt verifiziert: «Nachhaltiges Bauen — Hochbau, Verständigungsnorm zu SIA 112», SN 530112/1:2017 de, gültig ab 2017-09-01, 52 S., «Ersetzt SIA 112/1:2004» (Register führt 2005 als gültig — Jahres-Diskrepanz 2004/2005 nicht aufgelöst, am Shop klärbar) |
 | SIA 113 | 2010 | 2010✓ |  |
 | SIA 116 | —(alle zurueckgezogen) | 1952✗ |  |
 | SIA 117 | —(alle zurueckgezogen) | 1972✗ |  |
-| SIA 118 | 2013 | 2013✓ · 1977✗ | Bestand 1991 → **veraltet** (2013 gueltig: 2013). **Am Herausgeber verifiziert 06.08.2026 (Run 45, Produktseite `118_2013_d`):** SIA 118:2013 gueltig ab 01.01.2013, 72 S., SN 507118; Vorgaenger SIA 118:1977 (Neudruck 1991) archiviert, gueltig bis 31.12.2012. Neu belegt: **Korrigenda C1** als eigener Download-Anhang auf der Produktseite und Feld «Revision 1 / Revisions-Datum 01.12.2025». Inhalt der Korrigenda nicht eingesehen (kostenpflichtige Norm). Schliesst Uebergabe **E-123-6** (Ausgabestand fuer die Vertragshierarchie) |
-| SIA 118/198 | 2007 | 2007✓ · 2004✗ |  |
+| SIA 118 | 2013 | 2013✓ · 1977✗ | Bestand 1991 → **veraltet** (2013 gueltig: 2013). **Am Herausgeber verifiziert 06.08.2026 (Run 45, Produktseite `118_2013_d`):** SIA 118:2013 gueltig ab 01.01.2013, 72 S., SN 507118; Vorgaenger SIA 118:1977 (Neudruck 1991) archiviert, gueltig bis 31.12.2012. Neu belegt: **Korrigenda C1** als eigener Download-Anhang auf der Produktseite und Feld «Revision 1 / Revisions-Datum 01.12.2025». Inhalt der Korrigenda nicht eingesehen (kostenpflichtige Norm). Schliesst Uebergabe **E-123-6** (Ausgabestand fuer die Vertragshierarchie). **Nachtrag 260807:** Korrigenda **C1 jetzt im Bestand** — `alle/118-C1_2026_d.pdf`, Titelblatt: «SIA 118-C1:2026 Bauwesen 507118-C1, Allgemeine Bedingungen für Bauarbeiten — Korrigenda (Ergänzung) C1 zur Norm SIA 118:2013» (Übernahme 260807 aus Downloads-Sammlung); Inhalts-Destillat offen. Die Hauptnorm 118:2013 selbst bleibt NICHT im Haus |
+| SIA 118/198 | 2007 | 2007✓ · 2004✗ | Bestand 2004 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) → **Altausgabe** (2013 gueltig: 2007); Titelblatt: «Allgemeine Bedingungen für Untertagbau» (AVB zur SIA 198) |
 | SIA 118/222 | 2012 | 2012✓ |  |
 | SIA 118/232 | 2011 | 2011✓ |  |
 | SIA 118/240 | 2012 | 2012✓ |  |
 | SIA 118/242 | 2012 | 2012✓ |  |
 | SIA 118/243 | 2008 | 2008✓ |  |
-| SIA 118/244 | 2006 | 2006✓ |  |
-| SIA 118/246 | 2006 | 2006✓ |  |
-| SIA 118/248 | 2006 | 2006✓ |  |
+| SIA 118/244 | 2006 | 2006✓ | Bestand 2006 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Kunststeinarbeiten», Vertragsbedingungen zur SIA 244:2006) |
+| SIA 118/246 | 2006 | 2006✓ | Bestand 2006 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Natursteinarbeiten», Vertragsbedingungen zur SIA 246:2006) |
+| SIA 118/248 | 2006 | 2006✓ | Bestand 2006 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Plattenarbeiten», Vertragsbedingungen zur SIA 248:2006) |
 | SIA 118/251 | 2008 | 2008✓ |  |
 | SIA 118/252 | 2012 | 2012✓ |  |
 | SIA 118/253 | 2012 | 2012✓ |  |
-| SIA 118/257 | 2005 | 2005✓ |  |
-| SIA 118/262 | 2004 | 2004✓ |  |
-| SIA 118/263 | 2004 | 2004✓ |  |
-| SIA 118/265 | 2004 | 2004✓ |  |
-| SIA 118/266 | 2004 | 2004✓ |  |
-| SIA 118/267 | 2004 | 2004✓ |  |
+| SIA 118/257 | 2005 | 2005✓ | Bestand 2005 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Maler-, Holzbeiz- und Tapeziererarbeiten») |
+| SIA 118/262 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Betonbau», AVB zu SIA 262 und SIA 264) |
+| SIA 118/263 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Stahlbau», AVB zu SIA 263 und SIA 264) |
+| SIA 118/265 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Holzbau», AVB zur SIA 265) |
+| SIA 118/266 | 2004 | 2004✓ | Bestand 2004 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) — per Stichtag 2013 gueltig, aber **nach 2013 ersetzt durch SIA 118/266-1:2017** (Titelblatt-Vermerk der 2017er, eigene Zeile unten); Ausgabe 2004 nur noch für Altverträge |
+| SIA 118/266-1 | **2017** (nicht im 2013-Register) | 2017✓ | **Neuzugang 260807, am Titelblatt verifiziert:** «Allgemeine Bedingungen für Mauerwerk», SN 507266-1:2017 de, gültig ab 2017-09-01, 20 S., «Ersetzt SIA 118/266:2004». Bestand: `alle/118_266-1_2017.pdf` (Übernahme 260807 aus Downloads-Sammlung) |
+| SIA 118/266-2 | **2017** (nicht im 2013-Register) | 2017✓ | **Neuzugang 260807, am Titelblatt verifiziert:** «Allgemeine Bedingungen für Natursteinmauerwerk», SN 507266-2:2017 de, gültig ab 2017-09-01, 20 S., «**Ersetzt SIA 226:1976**» (siehe Zeile SIA 226). Bestand: `alle/118_266-2_2017.pdf` (Übernahme 260807 aus Downloads-Sammlung) |
+| SIA 118/267 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für geotechnische Arbeiten», AVB zur SIA 267) |
 | SIA 118/318 | 2009 | 2009✓ |  |
 | SIA 118/329 | 2008 | 2008✓ |  |
 | SIA 118/331 | 2008 | 2008✓ |  |
@@ -129,7 +131,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 162/3 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 162/4 | —(alle zurueckgezogen) | 1994✗ | **Nachfolgekette am Herausgeber verifiziert 06.08.2026 (Run 45, Produktseite `162-4_1994_d`):** SIA 162/4:1994 «Recyclingbeton», gueltig ab 01.12.1994, **archiviert per 31.12.2009**; die Produktseite fuehrt eine eigene Rubrik **«Nachfolger»** mit Verweis auf SIA 2030:2010. Damit ist die Nachfolge **herausgeberseitig belegt**, nicht mehr nur sekundaerquellengestuetzt. Achtung: die verbreitete Kurzform «MB 2030» ist auf der Shop-Seite nirgends so beschriftet — korrekt ist **SIA 2030**. Kette weiterverfolgen bis 2030:2021, siehe Zeile SIA 2030. Schliesst Uebergabe **E-123-3** |
 | SIA 162/5 | —(alle zurueckgezogen) | 1997✗ |  |
-| SIA 162/6 | 1999 | 1999✓ |  |
+| SIA 162/6 | 1999 | 1999✓ | Bestand 1999 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung); Dokumentart **Empfehlung** «Stahlfaserbeton» (Titelblatt) |
 | SIA 164 | —(alle zurueckgezogen) | 1992✗ |  |
 | SIA 164/1 | —(alle zurueckgezogen) | 1986✗ |  |
 | SIA 166 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ |
@@ -148,8 +150,8 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 195 | 1999 | 1999✓ | Bestand 1999 = gueltig 2013 ✓ |
 | SIA 196 | 1998 | 1998✓ | Bestand 1998 = gueltig 2013 ✓ |
 | SIA 197 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ |
-| SIA 197/1 | 2004 | 2004✓ |  |
-| SIA 197/2 | 2004 | 2004✓ |  |
+| SIA 197/1 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Projektierung Tunnel — Bahntunnel»). ⚠ Titelblatt-Widerspruch: Normkopf «SIA 197/1:2003», Copyright-Zeile 2004 — Zitierjahr am Shop klärbar |
+| SIA 197/2 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Projektierung Tunnel — Strassentunnel») |
 | SIA 198 | 2004 | 2004✓ · 1993✗ | Bestand 2004 = gueltig 2013 ✓ |
 | SIA 199 | 1998 | 1998✓ | Bestand 1998 = gueltig 2013 ✓ |
 | SIA 203 | 1997 | 1997✓ | Bestand 1997 = gueltig 2013 ✓ |
@@ -159,7 +161,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 221 | —(alle zurueckgezogen) | 1992✗ |  |
 | SIA 222 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 225 | —(alle zurueckgezogen) | 1988✗ |  |
-| SIA 226 | 1976 | 1976✓ | Bestand 1976 = gueltig 2013 ✓ |
+| SIA 226 | 1976 | 1976✓ | Bestand 1976 = gueltig 2013 ✓. ⚠ **Nach 2013 ersetzt:** das Titelblatt von SIA 118/266-2:2017 trägt «Ersetzt SIA 226:1976» (Norm im Bestand seit 260807, eigene Zeile) — 226:1976 nur noch für Altverträge |
 | SIA 229 | —(alle zurueckgezogen) | 1993✗ |  |
 | SIA 230 | —(alle zurueckgezogen) | 1979✗ |  |
 | SIA 231 | —(alle zurueckgezogen) | 1989✗ |  |
@@ -186,20 +188,20 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 259 | —(alle zurueckgezogen) | 1977✗ |  |
 | SIA 260 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
 | SIA 261 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
-| SIA 261/1 | 2003 | 2003✓ |  |
+| SIA 261/1 | 2003 | 2003✓ | Bestand 2003 **deutsch** ✓ (Übernahme 260807 aus Downloads-Sammlung, `alle/261_1_2003_d.pdf`; «Einwirkungen auf Tragwerke — Ergänzende Festlegungen») — schliesst die Bring-Schuld «nur französische /1-Fassungen» (QUESTIONS, Run-22-Eintrag) |
 | SIA 262 | 2013 | 2013✓ · 2003✗ | Bestand 2003 → **veraltet** (2013 gueltig: 2013) |
-| SIA 262/1 | 2003 | 2003✓ |  |
+| SIA 262/1 | 2003 | 2003✓ | Bestand 2003 **deutsch** ✓ (Übernahme 260807 aus Downloads-Sammlung, `alle/262_1_2003_d.pdf`; «Betonbau — Ergänzende Festlegungen») — schliesst die Bring-Schuld «nur französisch» |
 | SIA 263 | 2013 | 2013✓ · 2003✗ | Bestand 2003 → **veraltet** (2013 gueltig: 2013) |
-| SIA 263/1 | 2013 | 2013✓ · 2003✗ |  |
+| SIA 263/1 | 2013 | 2013✓ · 2003✗ | Bestand 2003 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) → **veraltet** (2013 gueltig: 2013); deutsche Ausgabe 2013 bleibt Bring-Schuld |
 | SIA 264 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
-| SIA 264/1 | 2003 | 2003✓ |  |
+| SIA 264/1 | 2003 | 2003✓ | Bestand 2003 **deutsch** ✓ (Übernahme 260807 aus Downloads-Sammlung, `alle/264_1_2003_d.pdf`; «Stahl-Beton-Verbundbau — Ergänzende Festlegungen») — schliesst die Bring-Schuld «nur französisch» |
 | SIA 265 | 2012 | 2012✓ · 2003✗ | Bestand 2003 → **veraltet** (2013 gueltig: 2012) |
-| SIA 265/1 | 2009 | 2009✓ · 2003✗ |  |
+| SIA 265/1 | 2009 | 2009✓ · 2003✗ | Bestand 2003 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) → **veraltet** (2013 gueltig: 2009); deutsche Ausgabe 2009 bleibt Bring-Schuld |
 | SIA 266 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
 | SIA 266/1 | 2003 | 2003✓ | Destillat `sia-266-1-2003.md` (Run 22, 260725; Run 23 zweite adversariale Runde — 1 Fehler Figur-1 h/l vertauscht korrigiert; Run 24 dritte Runde — 0 Befunde ausserhalb Figur-1, 1 neuer Fehler exakt dort [Fy/Querdruck verwechselt] korrigiert; Run 25 vierte Runde — Figur-1 jetzt sauber, 2 kleinere Stilbefunde ausserhalb korrigiert; fuenfte Runde 0 Befunde). **Status established (260725).** Prüf-/Deklarationsnorm zu SIA 266 (WIE, nicht WAS): zwei SIA-eigene Prüfverfahren (Ziff. 2.2 Mauerwerksdruckfestigkeit, Ziff. 2.3 Steinquerzugfestigkeit) + Ergänzung zum EN-772-11-Verfahren (Ziff. 2.4). Bestandsfalle: liegt deutsch als `alle/i/266_1_d.pdf` im italienischen Sprachordner. ⚠ Offen: ob eine neuere Ausgabe (vermutlich 2015, parallel zur SIA-266-Revision) existiert (Bestandsfrage, nicht Textgenauigkeit) |
 | SIA 266/2 | 2012 | 2012✓ |  |
 | SIA 267 | 2003 | 2003✓ | Bestand 2003 = gueltig 2013 ✓ |
-| SIA 267/1 | 2003 | 2003✓ |  |
+| SIA 267/1 | 2003 | 2003✓ | Bestand 2003 **deutsch** ✓ (Übernahme 260807 aus Downloads-Sammlung, `alle/267_1_2003_d.pdf`; «Geotechnik — Ergänzende Festlegungen») — schliesst die Bring-Schuld «nur französisch» |
 | SIA 269 | 2011 | 2011✓ |  |
 | SIA 269/1 | 2011 | 2011✓ |  |
 | SIA 269/2 | 2011 | 2011✓ |  |
@@ -217,8 +219,8 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 280 | —(alle zurueckgezogen) | 2009✗ |  |
 | SIA 281 | 2013 | 2013✓ · 2007✗ · 1992✗ | Bestand 2017 → **neuer als Register 2013** (2013 gueltig: 2013); Bestand vermutlich aktuell |
 | SIA 281/1 | —(alle zurueckgezogen) | 1996✗ |  |
-| SIA 281/2 | 2011 | 2011✓ · 1999✗ |  |
-| SIA 281/3 | 2002 | 2002✓ |  |
+| SIA 281/2 | 2011 | 2011✓ · 1999✗ | Bestand 1999 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) → **veraltet** (2013 gueltig: 2011); Dokumentart Empfehlung «Polymerbitumen-Dichtungsbahnen, Schälzugprüfungen» |
+| SIA 281/3 | 2002 | 2002✓ | Bestand **2018** + 2002 (dt., Übernahme 260807 aus Downloads-Sammlung; 2002 in `alle/xalt/`) → 2018 **neuer als Register 2013**. Am Titelblatt verifiziert (Scan, visuell): SN 564281/3:2018, gültig ab 2018-09-01, «Dichtungsbahnen und flüssig aufgebrachte Abdichtungen — Haftzugprüfung», «Ersetzt SIA 281/3:2002»; die 2002er ist eine Vornorm |
 | SIA 282 | 2011 | 2011✓ |  |
 | SIA 283 | 2009 | 2009✓ |  |
 | SIA 284 | 2011 | 2011✓ |  |
@@ -233,30 +235,31 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 370/10 | —(alle zurueckgezogen) | 1979✗ |  |
 | SIA 370/11 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 370/20 | —(alle zurueckgezogen) | 1990✗ |  |
-| SIA 370/21 | 1987 | 1987✓ |  |
-| SIA 370/24 | 1979 | 1979✓ |  |
+| SIA 370/21 | 1987 | 1987✓ | Bestand 1987 dt. (Übernahme 260807 aus Downloads-Sammlung; «Aufzüge für die Förderung von Gütern mit mechanischem Beladen und Entladen», 2. Auflage 7/1991). ⚠ 14er-Hochrisikoliste der 2013-Blindzone: nur mit Vermerk «zuletzt bestätigt 25.02.2013, jüngere Revision nicht geprüft» zitieren |
+| SIA 370/24 | 1979 | 1979✓ | Bestand 1979 dt. (Übernahme 260807 aus Downloads-Sammlung; «Hubvorrichtungen für Güter», Druck 10/1993). ⚠ Gleicher Blindzone-Vorbehalt wie 370/21 |
 | SIA 370/101 | —(alle zurueckgezogen) | 1985✗ |  |
 | SIA 380/1 | 2009 | 2009✓ · 2007✗ · 2001✗ · 1988✗ |  |
-| SIA 380/3 | 1990 | 1990✓ |  |
-| SIA 380/4 | 2006 | 2006✓ · 1995✗ |  |
+| SIA 380/3 | 1990 | 1990✓ | Bestand «1990» dt. (Übernahme 260807 aus Downloads-Sammlung; «Wärmedämmung von Leitungen, Kanälen und Behältern in Gebäuden»). ⚠ Titelblatt trägt KEIN Ausgabejahr — belegbar nur Copyright 1991 / Druck 8/1991; dazu Blindzone-Vorbehalt (14er-Liste) |
+| SIA 380/4 | 2006 | 2006✓ · 1995✗ | Bestand 2006 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) — per Stichtag 2013 gueltig, aber nach 2013 abgelöst: **SIA 387/4:2017 trägt «Ersetzt Teile von SIA 380/4:2006»** (Titelblatt, Norm im Bestand — Beitrag zur Nachfolgefrage N27-2) und SIA 2056:2019 (Run-27-Zeile unten); nur noch Altverträge |
 | SIA 380/7 | —(alle zurueckgezogen) | 1985✗ |  |
 | SIA 381/1 | —(alle zurueckgezogen) | 1980✗ |  |
 | SIA 381/2 | —(alle zurueckgezogen) | 1988✗ |  |
 | SIA 381/3 | 1982 | 1982✓ |  |
 | SIA 382/1 | 2007 | 2007✓ |  |
-| SIA 382/2 | 2011 | 2011✓ |  |
+| SIA 382/2 | 2011 | 2011✓ | Bestand 2011 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; SN 546382/2:2011 de, «Klimatisierte Gebäude — Leistungs- und Energiebedarf», ersetzt Empfehlung SIA V 382/2:1992; Scan mit schwachem OCR-Layer) |
 | SIA 384/1 | 2009 | 2009✓ · 1991✗ |  |
 | SIA 384/2 | —(alle zurueckgezogen) | 1982✗ |  |
 | SIA 384/4 | —(alle zurueckgezogen) | 1987✗ |  |
 | SIA 384/6 | 2010 | 2010✓ |  |
-| SIA 385/1 | 2011 | 2011✓ · 2000✗ | ⚠ **NUMMERN-WIEDERVERWENDUNG — Falle, geprüft Run 22 (260725):** Die Nummer 385/1 bezeichnet zwei sachlich UNVERWANDTE Normen. 385/1:2011 = «Anlagen für Trinkwarmwasser in Gebäuden» (Bestand: nur 6-seitige Vorschau, Bring-Schuld). 385/1:2000 = «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern» (ersetzte 385/1:1982 + Empf. 385/11:1990 + 385/12:1994; ging 2011 in **385/9** auf). Die Datei `alle/f/385_1_f.pdf` (60 S., französisch) ist die **Schwimmbad-Ausgabe 2000** und damit **KEIN** Ersatz für den fehlenden Trinkwarmwasser-Volltext — ihre Legionellen-Angaben betreffen Beckenwasser/Duschen, nicht Speicher-/Zirkulationstemperaturen im Hochbau. Die in QUESTIONS vorgeschlagene «billigste Lückenschluss»-Prüfung dieser Datei ist damit erledigt und negativ; Abschnitt B dieses Registers dokumentierte die Umnummerierung bereits |
-| SIA 385/3 | —(alle zurueckgezogen) | 1991✗ |  |
+| SIA 385/1 | 2011 | 2011✓ · 2000✗ | ⚠ **NUMMERN-WIEDERVERWENDUNG — Falle, geprüft Run 22 (260725):** Die Nummer 385/1 bezeichnet zwei sachlich UNVERWANDTE Normen. 385/1:2011 = «Anlagen für Trinkwarmwasser in Gebäuden» (Bestand: nur 6-seitige Vorschau, Bring-Schuld). 385/1:2000 = «Wasser und Wasseraufbereitungsanlagen in öffentlichen Schwimmbädern» (ersetzte 385/1:1982 + Empf. 385/11:1990 + 385/12:1994; ging 2011 in **385/9** auf). Die Datei `alle/f/385_1_f.pdf` (60 S., französisch) ist die **Schwimmbad-Ausgabe 2000** und damit **KEIN** Ersatz für den fehlenden Trinkwarmwasser-Volltext — ihre Legionellen-Angaben betreffen Beckenwasser/Duschen, nicht Speicher-/Zirkulationstemperaturen im Hochbau. Die in QUESTIONS vorgeschlagene «billigste Lückenschluss»-Prüfung dieser Datei ist damit erledigt und negativ; Abschnitt B dieses Registers dokumentierte die Umnummerierung bereits. **Nachtrag 260807:** die **deutsche** Schwimmbad-Ausgabe 385/1:2000 liegt neu in `alle/xalt/385_1_2000_d.pdf` (Übernahme 260807 aus Downloads-Sammlung; Titelblatt: «Wasser und Wasseraufbereitungsanlagen in Gemeinschaftsbädern», ersetzt 385/1:1982 + Empf. 385/11:1990 + 385/12:1994). Der Trinkwarmwasser-Volltext 385/1:2011 bleibt Bring-Schuld |
+| SIA 385/3 | —(alle zurueckgezogen) | 1991✗ | Bestand 1991 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung; «Warmwasserversorgungen für Trinkwasser in Gebäuden», ersetzt SIA 385:1979) — sachlicher Vorläufer der fehlenden 385/1:2011, kein Ersatz |
 | SIA 385/9 | 2011 (Stand 25.02.2013) | 2011✓ | **Quellentreu belegt (Run 37, 260729):** `ersetzte_normen.pdf` führt «x SIA 385/9:2011 d — 01.05.2011», ersetzt **SIA 385/1:2000** (Schwimmbad-Materie, siehe Abschnitt B). Das «x» heisst: per 25.02.2013 aktuell. ⚠ **Nicht mit Ausgabejahr zitieren.** Der SIA-Shop weist eine **Ausgabe 385/9:2023** aus (ersetzt 385/9:2011) — bisher nur über die Shop-Produktseite gemeldet, **nicht am Normtext verifiziert**; die Norm liegt weder in PL-02 noch in PL-03 (Run 37 in beiden Ablagen gesucht). Bis zur Beschaffung gilt: «zuletzt bestätigt 25.02.2013, jüngere Revision nicht geprüft». Klassenfall der 2013-Blindzone; Bring-Schuld in `QUESTIONS.md` |
 | SIA 385/11 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 385/12 | —(alle zurueckgezogen) | 1994✗ |  |
+| SIA 387/4 | **2017** (nicht im 2013-Register) | 2017✓ | **Neuzugang 260807, am Titelblatt verifiziert:** «Elektrizität in Gebäuden — Beleuchtung: Berechnung und Anforderungen», SN 565387/4:2017 de, gültig ab 2017-05-01, 44 S., «**Ersetzt Teile von SIA 380/4:2006**» — direkter Beitrag zur 380/4-Nachfolgefrage (N27-2). Bestand: `alle/387_4_2017.pdf` (Übernahme 260807 aus Downloads-Sammlung) |
 | SIA 400 | 2000 | 2000✓ · 1985✗ | Bestand 2000 = gueltig 2013 ✓ |
 | SIA 405 | 2012 | 2012✓ · 1998✗ | Bestand 1998 → **veraltet** (2013 gueltig: 2012) |
-| SIA 410 | 1978, Teilrevision 1986 (in Kraft 01.06.1986); Kap. 6 MSR separat genehmigt 28.04.1993 | 1986✓ (dreisprachig d/f/i) | Erfasst Run 22 (260725), adversarial geprüft Run 23 (260725, BEANSTANDET — Zitierfehler Positionsnummern korrigiert, established). «Kennzeichnung von Installationen in Gebaeuden — Sinnbilder fuer die Haustechnik», **Empfehlung** (nicht Norm), Kennzeichnung empfehlend (Ziff. 0.1/0.2). Destillat `sia-410-1986.md` (established). Bestandsfalle: liegt als `alle/f/410_d_f_i.pdf` im franzoesischen Sprachordner. ⚠ Aktualitaet nach 1993 NICHT verifiziert (Hauptteil ~40 J. alt) — vor projektbezogener Verwendung am SIA-Normenverzeichnis pruefen. SIA 410/1 (Farbcode, in Ziff. 2.5 Pos. 7 referenziert) nicht im Bestand |
+| SIA 410 | 1978, Teilrevision 1986 (in Kraft 01.06.1986); Kap. 6 MSR separat genehmigt 28.04.1993 | 1986✓ (dreisprachig d/f/i) | Erfasst Run 22 (260725), adversarial geprüft Run 23 (260725, BEANSTANDET — Zitierfehler Positionsnummern korrigiert, established). «Kennzeichnung von Installationen in Gebaeuden — Sinnbilder fuer die Haustechnik», **Empfehlung** (nicht Norm), Kennzeichnung empfehlend (Ziff. 0.1/0.2). Destillat `sia-410-1986.md` (established). Bestandsfalle: liegt als `alle/f/410_d_f_i.pdf` im franzoesischen Sprachordner. ⚠ Aktualitaet nach 1993 NICHT verifiziert (Hauptteil ~40 J. alt) — vor projektbezogener Verwendung am SIA-Normenverzeichnis pruefen. SIA 410/1 (Farbcode, in Ziff. 2.5 Pos. 7 referenziert): **seit 260807 im Bestand** — `alle/410_1_2_1981_d.pdf`, deutsch, Doppelheft SN 502 410/1 + 502 410/2 «Kennzeichnung von Installationen in Gebäuden», Empfehlung Ausgabe 1981 (Druckvermerk 10/1987; Übernahme 260807 aus Downloads-Sammlung). Aktualität der 1981er unverifiziert (gleicher Vorbehalt wie Hauptteil); Destillat offen |
 | SIA 414 | 1980 | 1980✓ | Bestand 1980 = gueltig 2013 ✓ |
 | SIA 416 | 2003 | 2003✓ | gilt (Ersatz für SIA 416:1993 + SIA 116:1952, siehe Abschnitt B); Bestand-Abgleich siehe Run-2-Präzisierungen unten ("SIA 416 \| 2003 \| SIA 416:1993 + SIA 116:1952 \| gilt") |
 | SIA 416/1 | 2007 | 2007✓ |  |
@@ -594,7 +597,7 @@ oder begruendet uebersprungen). Neu registriert bzw. praezisiert:
 | SIA 384/201 (SN EN 12831-1) | **CH-Ausgabe 2018** · EN-Basis 2017 | SN EN 12831:2003 (ersetzt, Titelblatt-Vermerk) | gilt; Norm-Heizlast-Berechnung — **neuer als 2013-Register**; Teil-Destillat. **Run 37 (260729) präzisiert:** die Spalte nannte bisher «2017», das ist das Jahr der **europäischen Basisnorm** (EN 12831-1:2017 bzw. SN EN 12831-1:2017 de). Das **Schweizer Ausgabejahr ist 2018** (Titelblatt: «1. Auflage 2018-12», gültig ab 2018-12-01, Copyright 2018). 111 S. (12 national + 99 EN). Das Destillat `sia-384-201-2017.md` führt die Trennung bereits korrekt |
 | SIA 193.111 (SN EN 12063) | 1999 (gültig ab 1.8.1999) | — | gilt (Bestand); Spundwandkonstruktionen Spezialtiefbau |
 | SN EN 13200-1 | **2019** (gültig ab 1.9.2019) | SN EN 13200-1:2012 | gilt; Zuschaueranlagen Teil 1 — **neuer als 2013-Register**; Datei `sia-en-13200-1-2019.md` |
-| SIA 162.051 (SN EN 206-1) | 2000 (gültig ab 1.1.2003) | SIA V162.051:1994 / ENV 206:1990 | gilt (Bestand); Beton Teil 1 — spätere Ausgabe SN EN 206:2013 nicht im Bestand (Bring-Schuld) |
+| SIA 162.051 (SN EN 206-1) | 2000 (gültig ab 1.1.2003) | SIA V162.051:1994 / ENV 206:1990 | gilt (Bestand); Beton Teil 1 — spätere Ausgabe SN EN 206:2013 nicht im Bestand (Bring-Schuld). **Nachtrag 260807:** Änderungen deutsch im Bestand (Übernahme 260807 aus Downloads-Sammlung): **A1** = SN EN 206-1:2000/A1:2004, gültig ab 01.02.2005 (`alle/162.051_A1_2004_d.pdf`; Dateiname bei der Übernahme von «2000» auf das Titelblatt-Jahr 2004 korrigiert) und **A2** = …/A2:2005, gültig ab 01.01.2006 (`alle/162.051_A2_2005_d.pdf`). Ebenso **SIA 162.152** (SN EN 934-2:2001, Betonzusatzmittel): A1:2004 (gültig ab 01.05.2005) + A2:2005 (gültig ab 01.04.2006) in `alle/162.152_A1_2004_d.pdf` / `_A2_2005_d.pdf` |
 | VKF-BRL 107-15 | 2015 (genehmigt 23.9.2014) | — | gilt; Flüssiggasanlagen (Erläuterung zur Brandschutzrichtlinie) |
 
 Zusätzlich am Original **retro-verifiziert** (established, Stand 260713): SIA 244:2006, 246:2006,

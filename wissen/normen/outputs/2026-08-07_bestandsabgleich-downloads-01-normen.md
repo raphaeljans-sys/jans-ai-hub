@@ -69,3 +69,50 @@ SIA 266/1 neuere Ausgabe (118/266-1:2017 ist eine ANDERE Norm — AVB, nicht Pr�
    (Bestand 1981 vorhanden).
 3. QUESTIONS: Bring-Schuld SIA 410/1 auf «Ausgabe 1981 im Haus, Aktualität offen» umstellen;
    Bring-Schuld 118-C1 schliessen, Destillat einplanen.
+
+
+---
+
+## NACHTRAG gleicher Tag (Tiefenrecherche, nach Underscore-Umbenennung der Dateinamen)
+
+Raphael hat die U+F022-Zeichen durch «_» ersetzt; kompletter Neuabgleich mit sprachbewusster
+Auswertung (deutsch vs. f/i) plus zwei parallele Pruef-Agenten (Titelblatt-Verifikation aller
+33 Kandidaten; REGISTER/QUESTIONS-Gegenpruefung). Korrekturen und Ergaenzungen zum Hauptteil:
+
+**Korrekturen am Hauptteil:**
+- SIA 416/1:2007 ist DOCH im Bestand (`SIA_Norm/SIA_Normen/alle/xalt/neu/SIA 416_1_2007.pdf`) — kein Neuzugang.
+- Die upi-Hefte (Scale, Ringhiere e parapetti) sind nur die ITALIENISCHEN Fassungen der im Haus
+  vorhandenen bfu-Dokumentationen (`PL-02/06_Richtlinien/BfU/bfu_Treppen.pdf`,
+  `bfu_Gelaender und Bruestungen_2019.pdf`) — Uebernahme optional.
+
+**Zusaetzliche Deutsch-Erstfassungen, die der Hauptteil uebersehen hatte** (Bibliothek haelt nur f/i):
+118/198:2004 · 118/257:2005 · 118/262:2004 · 118/263:2004 · 118/265:2004 · 118/266:2004 ·
+118/267:2004 · 197/1:2004 · 197/2:2004 · 162.051 A1 (SN EN 206-1/A1:2004; Dateiname nennt
+faelschlich 2000) · 162.051 A2:2005 · 162.152 A1:2004 · 162.152 A2:2005.
+
+**Titelblatt-Verifikation:** alle 33 Kandidaten sind deutsche Fassungen mit korrekter Nummer.
+Drei Namens-Befunde: `162.051_A1_2000_d.pdf` ist die Aenderung A1:2004 (2000 = Basisnorm);
+`380_3_1990_d.pdf` traegt kein Ausgabejahr auf dem Titelblatt (nur Copyright/Druck 1991);
+`197_1_2004_d.pdf` hat den Titelblatt-Widerspruch Normkopf «:2003» vs. Copyright 2004.
+
+**REGISTER-Gegenpruefung (Kernpunkte):** Als AKTUELL zu uebernehmen u.a. 118/244/246/248,
+118/257, 118/262/263/265/267, 261/1, 262/1, 264/1, 267/1 (deutsche Fassungen = explizite
+Bring-Schuld QUESTIONS Z. 1687–1693), 281/3:2018, 112/1:2017, 118/266-1/-2:2017, 387/4:2017,
+410/1+2:1981, 382/2:2011, 162/6:1999, 197/1+2:2004. Als ARCHIV-Altausgaben: 118/198:2004
+(ersetzt durch 2007), 118/266:2004 (durch 118/266-1/-2:2017), 263/1:2003 (durch 2013),
+265/1:2003 (durch 2009), 281/2:1999 (durch 2011), 281/3:2002 (durch 2018), 380/4:2006
+(durch SIA 2056:2019), 385/1:2000 (in 385/9 aufgegangen), 385/3:1991 (umnummeriert zu 385/1:2011).
+370/21, 370/24, 380/3 nur mit Blindzone-Vermerk verwenden (14er-Hochrisikoliste).
+
+**Destillat-Prioritaeten laut KB-Pruefung:** (1) 261/1+262/1+264/1+267/1 deutsch,
+(2) 118-C1:2026, (3) 410/1, (4) Register-Nachfuehrungen 281/3:2018, 112/1:2017,
+118/266-1/-2:2017, 387/4:2017. Bei jeder Uebernahme die Bestand-Spalte im REGISTER fuellen
+(einziger Mechanismus gegen die 2013-Blindzone).
+
+**AUSGEFUEHRT (gleicher Tag, Freigabe Raphael):** Die Uebernahme ist vollzogen — 30 aktuelle
+Ausgaben nach `SIA_Norm/SIA_Normen/alle/` (inkl. Umbenennung `162.051_A1_2000_d.pdf` →
+`162.051_A1_2004_d.pdf` gemaess Titelblatt-Befund) und 9 ersetzte Ausgaben nach `alle/xalt/`.
+Alle 39 Zieldateien auf Existenz und Groesse geprueft (Stichprobe byte-identisch). Damit sind
+die Bring-Schulden «deutsche Fassungen 261/1, 262/1, 264/1, 267/1» und «SIA 410/1 nicht im
+Bestand» bestandsseitig geschlossen; 118-C1:2026 liegt zur Destillation bereit.
+REGISTER-Nachfuehrung (Bestand-Spalten + neue Zeilen) bleibt der naechste Schritt.

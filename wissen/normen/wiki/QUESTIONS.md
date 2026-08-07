@@ -104,8 +104,10 @@
 - **SIA 118/430:2023** «Allgemeine Bedingungen für die Vermeidung und Entsorgung von
   Bauabfällen», gültig ab 01.08.2023: **80.00 CHF**. Primär einschlägig für den Skill
   `werkvertrag`; hat im REGISTER weiterhin keine Zeile, weil der Inhalt fehlt.
-- Weiterhin nicht belegbar ohne Kauf: Inhalt und Umfang der Korrigenda C1 zu SIA 118:2013
-  und was das Revisionsdatum 01.12.2025 materiell ändert.
+- **Teilweise ERLEDIGT 07.08.2026:** Die Korrigenda liegt jetzt als **SIA 118-C1:2026** im
+  Bestand (`alle/118-C1_2026_d.pdf`, Übernahme aus Downloads-Sammlung, Titelblatt verifiziert)
+  — der Kauf ist damit hinfällig. Offen bleibt das **Inhalts-Destillat** (was C1 bzw. das
+  Revisionsdatum 01.12.2025 materiell ändert) sowie die Hauptnorm SIA 118:2013 selbst.
 
 ### METHODISCHE LEHRE AUS DIESEM LAUF (gehört ins PROGRAMM.md)
 
@@ -1479,7 +1481,8 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [ ] **SIA 410: Aktualität und SIA 410/1.** Der Hauptteil ist von 1978/1986, Kap. 6 von 1993 — eine
   zwischenzeitliche Revision oder Ablösung ist plausibel, aber unbelegt; vor projektbezogener Verwendung
   am SIA-Normenverzeichnis prüfen. **SIA 410/1** (der eigentliche Farbcode, in Ziff. 2.5.7 S. 17
-  referenziert) ist nicht im Bestand. Ebenfalls ausserhalb des Geltungsbereichs und nicht recherchiert:
+  referenziert) ist **seit 07.08.2026 im Bestand** (410/1+410/2:1981 deutsch,
+  `alle/410_1_2_1981_d.pdf`; Destillat offen, Aktualität der 1981er-Ausgabe ungeprüft). Ebenfalls ausserhalb des Geltungsbereichs und nicht recherchiert:
   die SEV-Sinnbilder für Elektro.
 - [x] **ENTSCHIEDEN 26.07.2026 (Raphael): PL-03 wird ins Inventar aufgenommen.** Umgesetzt am
   26.07.2026: `training/norm-inventar.md` fuehrt PL-03 als gleichrangige Quelle (Erst-Scan, 116
@@ -1691,6 +1694,11 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   keine deutschen. Damit bleibt für 260/1 bis 265/1 und 267/1 offen: entweder deutsche Ausgaben beschaffen
   (Bring-Schuld) oder bei tragwerksstatischen Detailfragen bewusst die französische Fassung nachlesen und
   die Sprachquelle im Zitat kennzeichnen. Für 260/1 wurde überhaupt keine Bestandsdatei gefunden.
+  **Nachtrag 07.08.2026:** deutsche Ausgaben **261/1, 262/1, 264/1, 267/1 (je 2003) übernommen**
+  (Downloads-Sammlung, Titelblätter verifiziert, `alle/…_d.pdf`) — Bring-Schuld für diese vier
+  GESCHLOSSEN. 263/1:2003 und 265/1:2003 ebenfalls dt. übernommen, aber als Altausgaben
+  (`alle/xalt/`; gültig sind 263/1:2013 bzw. 265/1:2009 — deren deutsche Fassungen bleiben
+  Bring-Schuld). 260/1 weiterhin ohne Bestandsdatei.
 - [ ] **SIA 240:1988 (Metallbauarbeiten)** ist eine sehr alte Ausgabe (ersetzt Norm
   130:1959); aktuellere Ausgabe (falls vorhanden) am SIA-Shop verifizieren — Bring-Schuld
   Raphael (kein Auto-Web, kein Kauf durch Claude).
