@@ -5,6 +5,41 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Debitoren-Verzugscheck 07.08.2026 (08:07, still — keine Mail, Ein-Mail-Prinzip)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. **Bestand unverändert gegenüber dem 06.08.:
+fünf offene Rechnungen, alle in bexio als überfällig geführt, zusammen CHF 51'400.00. Kein
+Zahlungseingang, keine neue Mahnstufe, keine Stammdatenkorrektur.**
+
+Quelle ist der bexio-Live-Stand (`connectors/bexio.mjs --verzug --json`), nicht die
+archivierten Mahnungs-PDF (Kernregel Skill `mahnwesen`). Bericht abgelegt unter
+`30 JANS AI HUB OUTPUT/mahnwesen/2026/260807_Verzugscheck.md`.
+
+**Ein Posten mit Handlungsbedarf, unverändert derselbe: RE-00087 (Kinderspital,
+CHF 15'000.00), 113 Tage überfällig, auf Mahnung 2, deren Frist seit dem 15.07. und damit
+seit 23 Tagen abgelaufen ist. Vorschlag nächste Stufe: Mahnung 3 / Betreibung (Stufe 4).**
+Die Empfehlung der Vortage gilt weiter: vorher die persönliche Kontaktnahme suchen und alle
+drei KISPI-Rechnungen zusammen behandeln, sinnvollerweise ab dem 12.08., wenn die Fristen auf
+RE-00098 (CHF 13'600.00) und RE-00099 (CHF 3'680.00) ablaufen. Beide stehen auf Mahnung 1 mit
+laufender Frist bis 12.08., ab 13.08. wäre je Rechnung Mahnung 2 fällig.
+
+**RE-00101 Tschopp (CHF 6'000.00)**, 7 Tage überfällig, Zahlungserinnerung mit laufender
+Frist bis 16.08., ab 17.08. Mahnung 1. In bexio fehlt weiterhin eine Kreditoren-Mailadresse;
+der Kontakt ist per Du, vor jeder formellen Stufe ist ein Telefonat der richtige Weg.
+
+**RE-00100 Swiss Central City (CHF 13'120.00): der blockierende Punkt steht seit dem 31.07.
+unverändert offen.** Die Rechnung trägt in bexio weiterhin die Fälligkeit 30.07.2026, obwohl
+die Zustellung am 03.08.2026 12:46 belegt ist. Solange das Fälligkeitsdatum vor dem
+Zustelltermin liegt, ist keine Mahnstufe begründbar; gegenüber der Kreditorenstelle wäre es
+die zweite Rückweisung derselben Rechnung. **Aktion Raphael: Fälligkeit in bexio auf den
+Zustelltermin nachziehen.** Zusätzlich zu klären: in bexio steht invoice@sccref.ch, versandt
+wurde an 260kredi@huwiler.ch und lena.domenig@privera.ch.
+
+Keine Frist ist neu; alle vier Termine (12.08., 16.08., 17.08. sowie der terminlose
+Blocker RE-00100) stehen bereits im Fristen-Register. Phase 1 ist read-only gelaufen: keine
+Mahnung erzeugt, nichts gebucht, nichts versendet. Das Erzeugen bleibt Phase 2, interaktiv:
+`node connectors/bexio.mjs --mahnen 87 --ja`.
+
 ## AG-Gründung 07.08.2026 (07:46, still — keine Mail)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. **Kein neuer Eingang. Neu ist eine Korrektur
