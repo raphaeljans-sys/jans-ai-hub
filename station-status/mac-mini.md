@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 20:45:29
+Stand: 07.08.2026 20:55:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 07.08.2026 20:45:29
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 01a214c3 nas-selfcommit: 1 Datei(en) 2026-08-07 20:45
+- f147dac4 normen: REGISTER.md Frontmatter + 6 Artikel-Stubs fuer tote Backlinks angelegt + ins INDEX aufgenommen (Health-Check Rueparatur 260807)
