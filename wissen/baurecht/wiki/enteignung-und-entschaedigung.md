@@ -1,11 +1,11 @@
 ---
-name: enteignung-und-entschaedigung
-titel: Enteignung & Entschaedigung (formell / materiell)
 status: established
-letzte_quelle: "Buch Band 1, Kap. 5, S. 311-334 (Run 21, 2026-07-04)"
+title: Enteignung & Entschaedigung (formell / materiell)
 last_updated: 2026-07-27
 verifiziert: "2026-07-27 (Buch-Run 68, erster Modell-D-Wortlautabgleich seit Erstellung 2026-07-04): vollstaendiger Abgleich aller PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/202/212/214/235/346) gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133) — alle CONFIRMED, 0 Korrekturen. AbtrG (LS 781) UND EG ZGB (LS 230) live von zhlex.zh.ch geladen (beide erstmals in dieser KB direkt am aktuellen Volltext statt nur am Buchzitat geprueft): AbtrG-Fassungsstand Nachtrag 099 (aktuell), EG ZGB Nachtrag 133 (kein Drift). 2 echte Zitierfehler gefunden und korrigiert: guetliche Einigung steht in § 29 AbtrG (nicht § 28), die vier Schaetzungskommissionen/-kreise in §§ 33/34 AbtrG (nicht §§ 40/41); Zinsenlauf-Satz in § 183bis Abs. 3 EG ZGB (§ 183 EG ZGB selbst seit 2011 aufgehoben). §§ 39/46/54/56 AbtrG sowie § 183ter/§ 183quater EG ZGB CONFIRMED. Register-Sweep: Fehler war auch in buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md (eigene Paragraphenliste) propagiert, dort mitkorrigiert."
 backlinks: ["[[05-planung-und-entschaedigung]]", "[[raumplanung-und-gestaltung]]", "[[baulinien-und-abstandslinien]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[03-quartierplan-landumlegung-teil2]]", "[[09-rechtsschutz-teil2-ablauf-kosten-revision]]"]
+letzte_quelle: "Buch Band 1, Kap. 5, S. 311-334 (Run 21, 2026-07-04)"
+titel: Enteignung & Entschaedigung (formell / materiell)
 ---
 
 # Enteignung & Entschaedigung (formell / materiell)

@@ -1,6 +1,6 @@
 ---
-name: wohnhygiene-und-raumanforderungen
 beschreibung: Wohnhygienische Mindestanforderungen an Aufenthaltsraeume (ZH) — Belichtung/Belueftung (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie; § 302 PBG), Mindestflaeche ≥ 10 m² (§ 303), lichte Raumhoehe 2,4 m / Kernzone 2,3 m (§ 304), innere Erschliessung und Aufzugspflicht (§ 305 PBG / § 40 BBV I). Zusaetzlich Haustechnik-/Energie-Anschluss (§§ 21-46a BBV I, § 19a BBV II, EnerG) volltextverifiziert (Modell D, Buch-Run 32). Entscheidet die Wohn-/Arbeitsraum-Nutzbarkeit, gerade bei Umnutzung von UG-/Dach-/Sockelraeumen.
+title: Wohnhygiene und Raumanforderungen (ZH)
 status: established
 last_updated: 2026-07-27
 verifiziert: 2026-07-13 (Modell-D BBV II §§ 7/10/11 volltext + LRV/Kaminempfehlungen, Buch-Run 33; BBV I §§ 36/40 + Haustechnik-Run 32; PBG-Kern §§ 299-306 amtlich volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md, § 32/§ 4 ABV amtlich volltextverifiziert gegen raw/260607_amtlich_zh_abv.md — alle Kernaussagen CONFIRMED, siehe Abschnitt "Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV"); 2026-07-27 (Buch-Run 60, Festigungsmodus Prioritaet c, Stichproben-Re-Verifikation — aeltestes verifiziert-Datum: §§ 299-306 PBG erneut Wort fuer Wort gegen raw/260607_amtlich_zh_pbg.md Z. 3060-3124 gegengeprueft [Fassungsstand Nachtrag 133 bestaetigt], § 40 BBV I + § 32/§ 4 ABV ebenfalls Wort fuer Wort erneut geprueft [ABV Nachtrag 127, BBV I Nachtrag 133, beide ohne Drift] — CONFIRMED, 0 Korrekturen)

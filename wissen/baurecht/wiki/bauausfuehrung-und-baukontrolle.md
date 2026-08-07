@@ -1,11 +1,11 @@
 ---
-name: bauausfuehrung-und-baukontrolle
 beschreibung: Die Bauausfuehrungsphase im ZH-Baurecht — Baufreigabe (§ 326 PBG), Meldepflichten + baupolizeiliche Kontrollen (§ 327 PBG), Bezugsbewilligung/Schlusskontrolle, Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG), Sicherheit der Baustelle (§ 239 PBG).
+title: Bauausfuehrung und Baukontrolle (Kt. ZH)
 status: established
 last_updated: 2026-07-12
-quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bbis USG; §§ 2/15/19 KVAV
 verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestaetigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprueft, wortidentisch, 0 Aenderung; Details [[rechtsschutz-und-rechtsmittelverfahren]])
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bbis USG; §§ 2/15/19 KVAV
+quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
 ---
 
 # Bauausfuehrung und Baukontrolle (Kt. ZH)
