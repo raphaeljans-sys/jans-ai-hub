@@ -2,12 +2,12 @@
 quelle: "Produktreglement Gebäudestandards MINERGIE® / MINERGIE-P® / MINERGIE-A®, Version 2026.1 — https://www.minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf (52 Seiten, öffentlich abgerufen 05.08.2026, PDF-Erstellung 08.01.2026)"
 herausgeber: Verein Minergie, Bäumleingasse 22, 4051 Basel
 ausgabe: "Version 2026.1, Ausgabe vom 08. Januar 2026, gültig ab 01. Januar 2026; vom Vorstand des Vereins Minergie im November 2025 genehmigt. Ersetzt alle früheren Reglemente in seinem Anwendungsbereich. Neuerungen gegenüber Version 2025.1 sind im Original blau eingefärbt."
-gelesen: "GELESEN: Kapitel 14 (Monitoring), 15 (THGE in der Erstellung), 16 (Systemerneuerung), 17 (Schlussbestimmungen); Anhang A (Minergie im Kontext der MuKEn 2025, vollständig), Anhang B1 (MKZ Definition/Projektwert), Anhang B2 (MKZ-Anforderungen, Standardertrag Eigenproduktion und nutzbare Dachfläche), Anhang E (Anforderung an die Eigenstromproduktion, vollständig), Anhang F (Monitoring, vollständig). NICHT GELESEN: Kapitel 1-13; Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren, S. 35), Anhang C (Thermischer Komfort im Sommer, S. 37), Anhang D (Lüftung mit natürlicher Nachströmung, S. 38), Anhang G (THGE-Grenzwerte je Gebäudekategorie, S. 43), Anhang H (Systemerneuerung, S. 45), Anhang J (Übersicht der Anforderungen, S. 51 f. — im Inhaltsverzeichnis nicht aufgeführt). Von 52 Seiten."
+gelesen: "GELESEN: Kapitel 14 (Monitoring), 15 (THGE in der Erstellung), 16 (Systemerneuerung), 17 (Schlussbestimmungen); Anhang A (Minergie im Kontext der MuKEn 2025, vollständig), Anhang B1 (MKZ Definition/Projektwert), Anhang B2 (MKZ-Anforderungen, Standardertrag Eigenproduktion und nutzbare Dachfläche), Anhang E (Anforderung an die Eigenstromproduktion, vollständig), Anhang F (Monitoring, vollständig), Anhang G (THGE-Grenzwerte je Gebäudekategorie, vollständig, 07.08.2026), Anhang H (Anforderungen Systemerneuerung, vollständig, 07.08.2026), Anhang J (Übersicht der Anforderungen für Neubau und Erneuerung, vollständig, 07.08.2026). NICHT GELESEN: Kapitel 1-13; Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren, S. 35), Anhang C (Thermischer Komfort im Sommer, S. 37), Anhang D (Lüftung mit natürlicher Nachströmung, S. 38). Von 52 Seiten."
 datenstand: "Januar 2026 — der aktuell geltende Stand. Übergangsregel beachten: Nachweise nach dem alten Produktreglement 2025.1 können noch bis 31.12.2026 zur provisorischen Zertifizierung eingereicht werden (Kap. 17.1). Minergie revidiert das Produktreglement jährlich; vor einer Projektzusage die dann geltende Version auf minergie.ch prüfen."
 status: established
-geltungsbereich: "Der Status `established` gilt AUSSCHLIESSLICH für die oben unter GELESEN aufgeführten Kapitel und Anhänge. Aussagen zu Grenzwerten, sommerlichem Komfort, Nutzungsgraden/Gewichtungsfaktoren und zur Systemerneuerung sind aus diesem Destillat NICHT belegbar."
-verifikation: "Modell D (Volltextabgleich an der Originalquelle) am 05.08.2026 im Hauptmodell, plus zweistufiges Refuter-Panel (Zahlen-Refuter und Aussagen-Refuter, je mit Widerlegungsauftrag). Zahlen-Refuter: 40 Aussagen geprüft, 36 bestätigt, kein einziger Zahlendreher und keine vertauschte Spalte. Aussagen-Refuter: 10 Beanstandungen, sämtlich an der Grenze Quelle/Deutung — alle am Original nachgeprüft, alle berechtigt, alle korrigiert. Die beiden folgenschwersten Korrekturen: (1) die Aussage, das rechnerische Soll werde nicht mit den Messdaten verglichen, war zu weit gefasst und wird durch Anhang F widerlegt; (2) der Vergleich der 60-%-Dachbelegung mit 20 W/m² EBF war eine Rechenbehauptung ohne Rechnung und ist ohne die Geschosszahl nicht zulässig. Beide Beanstandungen stammten aus Anhängen (B2, E), die in der ersten Fassung ungelesen waren und für diese Korrektur nachgelesen wurden."
-last_updated: 2026-08-05
+geltungsbereich: "Der Status `established` gilt AUSSCHLIESSLICH für die oben unter GELESEN aufgeführten Kapitel und Anhänge. Aussagen zu sommerlichem Komfort (Anhang C), Lüftung mit natürlicher Nachströmung (Anhang D) und zu Nutzungsgraden/Gewichtungsfaktoren (Anhang B3) sind aus diesem Destillat NICHT belegbar. **Ausnahme Anhang G/H/J (Nachtrag 07.08.2026):** nur einfach gelesen, Zahlen gegen den bestehenden Wiki-Stand `[[minergie-standards]]` abgeglichen (deckungsgleich, keine Abweichung gefunden), aber KEIN eigenes Refuter-Panel gefahren (Budgetdisziplin Nachtschicht-Einzelagent) — Einzelaussagen aus diesen drei Anhängen vor einer verbindlichen Verwendung am Original oder mit einer zweiten Prüfung gegenlesen."
+verifikation: "Modell D (Volltextabgleich an der Originalquelle) am 05.08.2026 im Hauptmodell, plus zweistufiges Refuter-Panel (Zahlen-Refuter und Aussagen-Refuter, je mit Widerlegungsauftrag) — gilt fuer die am 05.08.2026 gelesenen Kapitel/Anhaenge. Zahlen-Refuter: 40 Aussagen geprüft, 36 bestätigt, kein einziger Zahlendreher und keine vertauschte Spalte. Aussagen-Refuter: 10 Beanstandungen, sämtlich an der Grenze Quelle/Deutung — alle am Original nachgeprüft, alle berechtigt, alle korrigiert. Die beiden folgenschwersten Korrekturen: (1) die Aussage, das rechnerische Soll werde nicht mit den Messdaten verglichen, war zu weit gefasst und wird durch Anhang F widerlegt; (2) der Vergleich der 60-%-Dachbelegung mit 20 W/m² EBF war eine Rechenbehauptung ohne Rechnung und ist ohne die Geschosszahl nicht zulässig. Beide Beanstandungen stammten aus Anhängen (B2, E), die in der ersten Fassung ungelesen waren und für diese Korrektur nachgelesen wurden. **Nachtrag 07.08.2026 (Anhang G/H/J):** Einzelagenten-Lauf ohne Refuter-Panel; die THGE-Basiswerte aus Anhang G wurden gegen `[[minergie-standards]]` (dort am 21.07.2026 unabhängig verifiziert) gegengelesen und stimmen zahlenmässig ueberein — das ist eine Plausibilisierung, kein vollstaendiger Neu-Verifikationslauf fuer Anhang H/J."
+last_updated: 2026-08-07
 ---
 
 # Destillat — Produktreglement Gebäudestandards MINERGIE/-P/-A, Version 2026.1
@@ -191,6 +191,106 @@ Einfamilienhäusern, ±110° bei den übrigen Gebäudekategorien). Ungeeignete F
 Netz eingespeiste Elektrizität nur zu **40 %**. Für die Berechnung stellt Minergie das Programm
 **PVopti** bereit; alternative Tools sind laut Anwendungshilfe zugelassen.
 
+## Anhang G — THGE-Grenzwerte je Gebäudekategorie (bestätigt 07.08.2026)
+
+Mit THGE in der Erstellung wird die kumulierte Menge der Treibhausgase (CO₂, Methan, Stickoxid
+und weitere klimawirksame Gase) bezeichnet, ausgedrückt als äquivalente CO₂-Emissionsmenge. Die
+Berechnungsmethodik ist mit derjenigen des Zusatzes ECO identisch (in Kooperation mit dem
+Verein ecobau entwickelt).
+
+**Formel:** GW_Objekt = [(GW_EBF · EBF) + (GW_GF-EBF · (GF − EBF))] + (Z_Erdsonde · EBF) +
+(Z_PV · Panelfläche) + (Z_Thermie · Kollektorfläche), das Ganze geteilt durch EBF.
+
+| Grösse | Bedeutung |
+|---|---|
+| GW_Objekt | Objektspezifischer Grenzwert |
+| GW_EBF | Grenzwert für die Energiebezugsfläche |
+| GW_GF-EBF | Grenzwert für die unbeheizten Flächen (Geschossfläche − EBF) |
+| Z_Erdsonde | Zuschlag Erdsonden |
+| Z_PV | Zuschlag PV-Anlagen (100 % des Eigenverbrauchs, 40 % der Netzeinspeisung angerechnet) |
+| Z_Thermie | Zuschlag thermische Kollektoren |
+
+**Basisgrenzwerte GW_EBF je Gebäudekategorie** [kg CO₂-eq/(m²_EBF·a)]: Wohnen MFH **11,5** ·
+Wohnen EFH/Verwaltung **12,5** · Schule **12** · Verkauf **18,5** · Restaurant **15** ·
+Versammlungslokal **16** · Spital **18,5** · Industrie/Lager/Sportbaute/Hallenbad **16**.
+GW_GF-EBF ist für alle Kategorien einheitlich **5,5**. Zuschläge: Erdsonde **+0,3** (für alle
+Standards und auch für Grundwasser), PV **+7,1** je m² Panelfläche, thermische Kollektoren
+**+5,6** je m² Solarkollektorfläche.
+
+Diese Werte decken sich zahlenmässig vollständig mit dem am 21.07.2026 unabhängig verifizierten
+Stand in `[[minergie-standards]]` — keine Abweichung gefunden.
+
+## Anhang H — Anforderungen Systemerneuerung (neu gelesen 07.08.2026)
+
+Die Minergie-Systemerneuerung ist anwendbar, wenn (1) es sich beim Bauvorhaben um eine
+Erneuerung handelt und (2) das Gebäude grundsätzlich zu **80 %** der Gebäudekategorie «Wohnen»
+angehört. Statt eines gerechneten Nachweises wird eines von **fünf Systemen** vollständig
+erfüllt:
+
+| | System 1 | System 2 | System 3 | System 4 | System 5* |
+|---|---|---|---|---|---|
+| Gebäudehülle GEAK | B | C | C | C | C |
+| U-Wert Dach [W/m²K] | ≤0,17 | ≤0,30 | ≤0,25 | ≤0,17 | ≤0,17 |
+| U-Wert Aussenwand | ≤0,25 | ≤0,40 | ≤0,50 | ≤0,70 | ≤1,10 |
+| U-Wert Fenster | ≤1,0 | ≤1,0 | ≤1,0 | ≤1,0 | ≤1,0 |
+| U-Wert Boden | ≤0,25 | ≤0,25 | ≤0,25 | ≤0,25 | ≤0,25 |
+| Lufterneuerung | Grundlüftung zulässig | Grundlüftung zulässig | Grundlüftung zulässig | WRG Pflicht | Grundlüftung zulässig |
+| PV & Elektrizität | GEAK Klasse B oder 5 Wp/m² EBF oder min. 50 % effiziente Geräte | dito | dito | GEAK Klasse A oder 10 Wp/m² EBF oder 5 Wp/m² EBF + min. 50 % effiziente Geräte | dito |
+
+*System 5 zusätzlich: Gebäude schliesst entweder an zwei Seiten direkt an Nachbarbauten an,
+oder weist eine max. Gebäudehüllziffer (A/EBF) von 1 auf; bei nur einer Anschlussseite (Kopfbau)
+muss eine weitere Fassade U ≤ 0,25 erfüllen.
+
+Sommerlicher Wärmeschutz (Anhang C, Wetterdaten 2035), Wärmeerzeugung (erneuerbar: Sole-/
+Wasser-WP bis VL 50 °C, Luft-Wasser-WP bis VL 40 °C mit Ausnahmen, Fernwärme <50 % fossil,
+Holz) und Elektromobilität (wie bei allen Minergie-Erneuerungen) gelten für alle fünf Systeme
+gleich. Monitoring bei wesentlichen Eingriffen in die Gebäudetechnik ist empfohlen, nicht
+Pflicht. Nach einer Systemerneuerung erreichen rechnerisch alle Systeme die GEAK-Effizienzklasse
+**B** (GEAK-Normierung 2.0) — für eine kantonale Förderung über die GEAK-Klassen sind zusätzlich
+die vom Kanton geforderten Unterlagen einzureichen.
+
+**Bauherren-Transfer:** Die Systemerneuerung ist der Weg **ohne** Rechennachweis für
+Bestandes-Wohnbauten — spart eine SIA-380/1-Berechnung, verlangt dafür die vollständige
+Erfüllung eines der fünf festen Pakete. System 1 (strengste Hülle, GEAK B) erlaubt die
+laxeste PV-Vorgabe (5 Wp/m² oder Effizienz-Substitution); System 4/5 (schwächere Hülle bei
+System 5) verlangen dafür die verschärfte PV-Vorgabe. Für eine Vorabklärung reicht ein Abgleich
+der bestehenden U-Werte gegen die Tabelle, bevor die aufwendigere gerechnete Erneuerung
+überhaupt geprüft wird.
+
+## Anhang J — Übersicht der Anforderungen (neu gelesen 07.08.2026)
+
+Zusammenfassende Tabelle über alle Gebäudekategorien, getrennt nach Neubau und Erneuerung. Das
+Reglement macht die Bezugsgrössen der Beispielwerte ausdrücklich: Dachfläche **100 m²**,
+Wohnungsgrösse **125 m²**, Zweckbauten mit **Standard-Beleuchtung**, Standort **ohne
+Klimazuschlag** — «bei der Anwendung eines realen Projektes ist zu beachten, dass die
+Anforderung an die MKZ auch deutlich von den hier dargestellten Werten abweichen kann.» Diese
+Werte sind damit **Beispielwerte**, keine projektunabhängigen Grenzwerte (deckt sich mit der
+bereits im Wiki vermerkten Einschränkung zu 51/46/29).
+
+**MKZ Neubau, Beispielwerte** [kWh/(m²EBF·a)], Standard M / P / A, je Gebäudekategorie
+(Wohnen MFH · Wohnen EFH · Verwaltung · Schule · Verkauf · Restaurant · Versammlungslokal ·
+Spital · Industrie · Lager · Sportbaute; Hallenbad ohne MKZ-Vorgabe):
+M: 51 / 38 / 70 / 36 / 71 / 62 / 53 / 93 / 41 / 30 / 36 — P: 45 / 36 / 67 / 31 / 64 / 55 / 46 /
+86 / 34 / 23 / 29 — A: 29 / 26 / 32 / 19 / 32 / 34 / 21 / 47 / 25 / 20 / 23.
+
+**MKZ Erneuerung, Beispielwerte**, gleiche Kategorienreihenfolge:
+M: 82 / 77 / 103 / 68 / 95 / 91 / 82 / 112 / 73 / 48 / 57 — P: 77 / 72 / 94 / 58 / 85 / 81 / 72 /
+102 / 63 / 38 / 47 — A: 29 / 26 / 32 / 19 / 32 / 34 / 21 / 25 / 25 / 20 / 23.
+
+**Weitere Anforderungen im Überblick (Neubau, dann Erneuerung soweit abweichend):**
+
+| Anforderung | Neubau | Erneuerung |
+|---|---|---|
+| Heizwärmebedarf Q_H,li | 90 % MuKEn 25 (Minergie/-A), 70 % (Minergie-P); Hallenbad 100 %/90 % | Keine Anforderung Minergie/-A, 90 % Minergie-P; Hallenbad gleich |
+| Luftdichtheit | Messung Pflicht nur Minergie-P/-A | gleich |
+| Sommerlicher Wärmeschutz | Wetterdaten 2035, max. 100 h Überhitzung (Wohnbauten) | gleich |
+| Lufterneuerung | ja/empfohlen je Kategorie (Industrie/Lager empfohlen, Rest Pflicht) | Minergie-Grundlüftung zulässig, sonst analog Neubau |
+| Eigenstrom | volles Dach in MKZ hinterlegt; Minergie-A: Eigenproduktion deckt Jahresbedarf | mit PV belegtes Dach in MKZ hinterlegt |
+| Beleuchtungsnachweis | ab EBF >1'000 m², Zielwert SIA 387/4 | Neubau-Kategorien ja/Nein wie links, sonst analog |
+| Elektromobilität | C1 oder A je Gebäudekategorie | gleich |
+| Monitoring | >1'000 m² EBF, bei Minergie-A auch <1'000 m² (nur Strom) | analog Neubau; bei Systemerneuerung ab 1'000 m² empfohlen |
+| THGE Erstellung | Basisgrenzwerte wie Anhang G (GW_EBF 11,5-18,5, GW_GF-EBF 5,5) | keine Anforderung |
+
 ## Kapitel 16 und 17 — Systemerneuerung und Übergang
 
 - **Minergie Systemerneuerung** ist ein vereinfachtes Nachweisverfahren für die Erneuerung
@@ -243,14 +343,12 @@ Netz eingespeiste Elektrizität nur zu **40 %**. Für die Berechnung stellt Mine
 
 ## Offene Punkte
 
-- **Anhang G (THGE-Grenzwerte je Gebäudekategorie) wurde in diesem Lauf nicht gelesen.** Die Werte
-  in [[minergie-standards]] stammen aus der Prüfung vom 21.07.2026 und gelten unverändert; ein
-  erneuter Abgleich war nicht Gegenstand dieses Destillats.
-- **Anhang H (Systemlösungen der Systemerneuerung) ist nicht destilliert.** Für die Beratung von
-  Wohnbau-Erneuerungen wäre das der nächste lohnende Schritt, weil es der Weg ohne Rechennachweis ist.
-- **Anhang J «Übersicht der Anforderungen» (S. 51 f.) ist nicht gelesen** und im Inhaltsverzeichnis
-  des Reglements auch nicht aufgeführt. Er enthält die zusammenfassenden Anforderungstabellen je
-  Gebäudekategorie für Neubau und Erneuerung und wäre die natürliche Ergänzung zu diesem Destillat.
+- **Anhang G/H/J sind gelesen, aber nur einfach (kein Refuter-Panel, Nachtrag 07.08.2026).** Die
+  THGE-Basiswerte (Anhang G) sind gegen `[[minergie-standards]]` (dort 21.07.2026 unabhängig
+  verifiziert) gegengelesen und stimmen überein; Anhang H (Systemerneuerung) und Anhang J
+  (Übersichtstabellen) haben noch KEINE zweite, unabhängige Prüfung durchlaufen.
+- **Anhang J führt keine eigene THGE-Zeile für Erneuerungen** («Keine Anforderungen») — das ist
+  konsistent mit Kap. 15, wurde aber nicht gegen eine dritte Quelle geprüft.
 - **Die Kapitel 1-13 sind nicht gelesen** — insbesondere die Kapitel zu den Minergie-Kennzahl-
   Grenzwerten im Detail, zum Verbot fossiler Heizungen (Kap. 5 und 8 werden in Kap. 15 referenziert)
   und zum Zertifizierungsablauf. Ebenso nicht gelesen: Anhang B3 (Nutzungsgrade und

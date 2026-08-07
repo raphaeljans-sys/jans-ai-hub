@@ -7223,3 +7223,36 @@ ecobau-Methodik Baumaterialien oder Eintrag in der ecoProdukteliste).
 **Quelle:** Verein ecobau, «ecoBKP», Stand Januar 2026, V 1.0, Merkblätter ecoBKP 271, 273, 276,
 281, 282, 283 (bedruckte S. 87-118), gelesen 06.08.2026 → `[[ecobkp-2026-ausbau]]`. Status
 **emerging**.
+
+---
+
+## F217 — «Wir sanieren ein bestehendes Mehrfamilienhaus — muss ich den Heizwärmebedarf immer neu durchrechnen, um Minergie zu erreichen?»
+
+**Kurz:** Nein. Wenn das Gebäude zu mindestens 80 % der Kategorie «Wohnen» angehört, bietet
+Minergie mit der **Systemerneuerung** einen Weg ohne SIA-380/1-Berechnung an: Es reicht, eines
+von **fünf festgelegten Paketen** (System 1-5) vollständig zu erfüllen — Gebäudehülle entweder
+über eine GEAK-Klasse oder über feste U-Werte, dazu feste Vorgaben zu Wärmeerzeugung, Lüftung,
+PV/Elektrizität und Elektromobilität.
+
+**Fachlich:** Die fünf Systeme unterscheiden sich vor allem in der Hüllenqualität und tauschen
+das gegen die PV-Vorgabe: System 1 verlangt die strengste Hülle (GEAK B bzw. U-Dach ≤ 0,17,
+U-Wand ≤ 0,25) und begnügt sich dafür mit der laxesten Eigenstromvorgabe (5 Wp/m² EBF oder
+min. 50 % effiziente Geräte als Ersatz). System 4 und 5 lassen eine schwächere Hülle zu
+(U-Wand bis 0,70 bzw. 1,10), verlangen dafür GEAK-Klasse A oder 10 Wp/m² EBF. System 5 gilt
+nur für Gebäude mit beidseitigem Nachbarbau-Anschluss oder einer Gebäudehüllziffer A/EBF von 1.
+Wärmeerzeugung ist bei allen fünf Systemen gleich geregelt (erneuerbar: Sole-/Wasser-Wärmepumpe,
+Luft-Wasser-Wärmepumpe mit Vorlauftemperatur-Grenzen, Fernwärme mit <50 % fossilem Anteil,
+Holz), ebenso der sommerliche Wärmeschutz (Wetterdaten 2035) und die Elektromobilität. Nach der
+Systemerneuerung erreicht das Gebäude rechnerisch immer GEAK-Effizienzklasse B.
+
+**Bauherren-Transfer:** Für eine erste Machbarkeitseinschätzung genügt ein Abgleich der
+bestehenden oder geplanten U-Werte gegen die Systemtabelle — ohne dass vorher eine
+Energiebedarfsrechnung beauftragt werden muss. Das eignet sich besonders für die frühe
+Kostenschätzung, wenn noch unklar ist, ob sich der Aufwand einer vollständigen SIA-380/1-
+Berechnung überhaupt lohnt. Wichtig: Für eine kantonale Förderung über die GEAK-Klassen
+hinaus sind zusätzlich die vom Kanton verlangten Unterlagen einzureichen — die
+Systemerneuerung ersetzt nur den Minergie-Nachweis, nicht das kantonale Förderdossier.
+
+**Quelle:** Verein Minergie, Produktreglement Gebäudestandards MINERGIE/-P/-A, Version 2026.1
+(gültig ab 01.01.2026), Anhang H, gelesen 07.08.2026 → `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+Einzeln gelesen, kein Refuter-Panel (Budgetdisziplin Nachtschicht). Status **emerging**.

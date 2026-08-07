@@ -3035,12 +3035,15 @@ durchfuehrbar.
   (Gartenarbeiten) und 450 (Erschliessung durch Leitungen)** — bedruckte S. 87-133. Zehn der
   achtzehn Positionen mit neuen Wiederverwendungs-Vorgaben liegen in diesem Rest. Hoechste
   Prioritaet fuer den naechsten Lauf, weil das Werk dann vollstaendig ist.
-- **E-124-2 — Anhang J des Minergie-Produktreglements 2026.1 ist nicht gelesen** (S. 51 f.,
-  «Uebersicht der Anforderungen»). Er fasst die Anforderungen je Gebaeudekategorie fuer Neubau und
-  Erneuerung zusammen und ist **im Inhaltsverzeichnis des Reglements nicht aufgefuehrt** — er wurde
-  erst durch die Refuter-Pruefung entdeckt. Ebenfalls offen: Anhang B3 (Nutzungsgrade und
-  Gewichtungsfaktoren), C (sommerlicher Komfort), D (Lueftung mit natuerlicher Nachstroemung),
-  G (THGE-Grenzwerte je Gebaeudekategorie), H (Systemerneuerung).
+- **E-124-2 — ✅ GESCHLOSSEN am 07.08.2026 (Mac Mini Nachtschicht).** Anhang J («Uebersicht der
+  Anforderungen», Neubau + Erneuerung je Gebaeudekategorie), Anhang G (THGE-Grenzwerte) und
+  Anhang H (Systemerneuerung, 5 Systeme) sind gelesen und in
+  `[[minergie-produktreglement-2026-1-muken-vergleich]]` sowie FAQ F217 eingearbeitet. Anhang G
+  deckt sich zahlenmaessig mit dem am 21.07.2026 unabhaengig verifizierten Stand in
+  `[[minergie-standards]]`. **Aber:** Anhang H/J haben noch KEIN Refuter-Panel durchlaufen
+  (Einzelagenten-Lauf, Budgetdisziplin Nachtschicht) — vor einer established-Hebung braucht es die
+  zweite Pruefstufe. Weiterhin offen: Anhang B3 (Nutzungsgrade und Gewichtungsfaktoren), C
+  (sommerlicher Komfort), D (Lueftung mit natuerlicher Nachstroemung), Kapitel 1-13.
 - **E-124-3 — «Vorgehen Bauteilekatalog» (AWEL) ohne Ausgabedatum.** Weder Titelblatt noch
   Fusszeile tragen ein Datum oder eine Versionsnummer; damit ist offen, auf welche SIA-380/1-
   Ausgabe sich die wiedergegebenen Ψ-Grenzwerte beziehen. Die Grenzwerttabelle deckt sich mit dem

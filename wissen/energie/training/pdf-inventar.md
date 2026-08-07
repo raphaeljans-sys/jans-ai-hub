@@ -288,3 +288,15 @@ Inventars (ecoBKP 2026, Minergie-Produktreglement 2026.1).
 `ecobkp-2026-ausbau` (271, 273, 276, 281, 282, 283, 285) und
 `ecobkp-2026-baureinigung-umgebung-erschliessung` (287, 421, 450). Zusammen mit den drei
 Run-124-Destillaten ist das Werk (138 S.) damit **vollstaendig** in der KB erfasst.
+
+## Nachtrag 2026-08-07 (Mac Mini Nachtschicht 02:30): Minergie-Produktreglement 2026.1 — Anhang G/H/J gelesen
+
+**Web-Quelle** Produktreglement Gebaeudestandards MINERGIE/-P/-A V 2026.1 (minergie.ch), restliche
+Anhaenge G (THGE-Grenzwerte, bestaetigt gegen `[[minergie-standards]]`), H (Systemerneuerung,
+neu) und J (Anforderungsuebersicht Neubau/Erneuerung, neu) gelesen — S. 43, 45-46, 51-52 des
+52-seitigen Werks. Damit sind von den ehemals offenen Anhaengen nur noch B3, C und D sowie
+Kapitel 1-13 ungelesen. Destillat `minergie-produktreglement-2026-1-muken-vergleich` erweitert,
+neue FAQ F217. Einzelagenten-Lauf, kein Refuter-Panel fuer G/H/J (Budgetdisziplin).
+
+**Stand PL-02 unveraendert:** 36 von 182 destilliert, 146 offen (dieser Lauf betraf nur die
+Web-Quelle, kein PL-02-PDF).

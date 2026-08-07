@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-08-07 (Mac Mini Nachtschicht 02:30) — Minergie-Produktreglement 2026.1: Anhang G/H/J gelesen, E-124-2 geschlossen
+
+Fortsetzung des Run-124-Ausblicks (letzter offener Punkt "Anhang J und G des Produktreglements
+2026.1"). PDF lokal geladen (minergie.ch, 52 S.), drei restliche Anhaenge gelesen: **Anhang G**
+(THGE-Grenzwerte je Gebaeudekategorie — deckt sich zahlenmaessig vollstaendig mit dem am
+21.07.2026 unabhaengig verifizierten Stand in `[[minergie-standards]]`, keine Abweichung),
+**Anhang H** (Systemerneuerung, 5 feste Sanierungspakete ohne SIA-380/1-Rechennachweis fuer
+Wohnbauten) und **Anhang J** (zusammenfassende Anforderungsuebersicht Neubau/Erneuerung je
+Gebaeudekategorie, inkl. MKZ-Beispielwerte mit ausdruecklichem Objektbezug-Vorbehalt der
+Quelle). Destillat `minergie-produktreglement-2026-1-muken-vergleich.md` um drei Abschnitte
+erweitert, `geltungsbereich` und `gelesen` im Frontmatter nachgefuehrt (G/H/J ausdruecklich als
+**nur einfach gelesen, kein Refuter-Panel** markiert — Budgetdisziplin Einzelagenten-Lauf).
+Neue Bauherren-Antwort **F217** («Muss ich bei einer Sanierung immer den Heizwaermebedarf
+durchrechnen, um Minergie zu erreichen?») aus Anhang H. E-124-2 in QUESTIONS.md geschlossen.
+Register nachgefuehrt: `destillate/INDEX.md`, `training/pdf-inventar.md`. Kein Fan-out, kein
+Subagent (5-USD-Nachtschicht-Zyklus).
+
+**Offen fuer naechsten Lauf:** Anhang B3 (Nutzungsgrade/Gewichtungsfaktoren), C (sommerlicher
+Komfort), D (Lueftung natuerliche Nachstroemung), Kapitel 1-13 des Reglements; Refuter-Panel
+fuer Anhang H/J nachholen vor established-Hebung; Minergie-PL-02-Restbestand (146 von 182 offen,
+u.a. `MFH.pdf`, Nachweisformulare-Set, ME-Antrag/Wegleitung).
+
 ## 2026-08-06 (Cross-KB-Lauf Run 27, Ausfuehrungs-Agent) — Zeigerpflege VKF, Legionellen-Einordnung, ecoBKP-Anschluesse
 
 Rein additiver Lauf, kein Wert geloescht oder geaendert. Neun Dateien beruehrt, alle in

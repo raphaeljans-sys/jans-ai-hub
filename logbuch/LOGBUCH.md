@@ -5,6 +5,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Energie-Training 07.08.2026, Mac Mini Nachtschicht 02:30 (still — keine Mail)
+
+Prioritaeten 1-3 leer/bereits abgedeckt: keine offenen Sync-/Remote-Tasks (nur der seit
+31.07. zurueckgehaltene Freigabe-Task Cockpit-Server); Synobsis Stufe 1+2 bei 853/853
+gesaettigt, Vektorindex per Testquery selbst nachgemessen funktionsfaehig; Fristen-Register
+heute bereits mehrfach durch logbuch-radar/hub-chef gepflegt (Eintraege bis 23:45),
+kein Mehrwert durch einen weiteren Duplikat-Pass. Prioritaet 4: unter den drei freien
+Ziel-KBs (bauprodukte, energie, grobkosten) war `energie` mit letztem Inhaltsstand
+06.08. 13:35 am laengsten unberuehrt (bauprodukte/grobkosten je 23:44-23:46 vom
+Cross-KB-Lauf Run 27 desselben Abends bedient). Fortsetzung des Run-124-Ausblicks: die
+letzten drei offenen Anhaenge des Minergie-Produktreglements 2026.1 gelesen (Anhang G
+THGE-Grenzwerte, deckt sich mit dem am 21.07. unabhaengig verifizierten Wiki-Stand; Anhang H
+Systemerneuerung, 5 feste Sanierungspakete ohne Rechennachweis; Anhang J
+Anforderungsuebersicht Neubau/Erneuerung). Destillat erweitert, neue Bauherren-Antwort F217,
+Frage E-124-2 geschlossen. Details: `wissen/energie/CHANGELOG.md` 07.08.2026. Kein Fan-out,
+kein Subagent, Budgetdisziplin eingehalten (5-USD-Zyklus).
+
 ## Normen-Training 07.08.2026, 01:28 bis 03:0x (Run 46, still — keine Mail)
 
 Zwei Ergebnisse, beide Wissensbasis-Pflege ohne Aussenwirkung; nach Rule 260803 kein Sendegrund
