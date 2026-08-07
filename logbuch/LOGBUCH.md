@@ -5,6 +5,61 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## AG-Gründung 07.08.2026 (07:46, still — keine Mail)
+
+Für das Tagesbriefing des Hub-Chefs um 08:39. **Kein neuer Eingang. Neu ist eine Korrektur
+am eigenen Befund von gestern: Mathies ist heute noch abwesend, nicht zurück.**
+
+**Belegstand.** Zwei unabhängige Durchgänge über alle Konten in Apple Mail (`mail@` als
+Primärkanal, `rj@` Exchange, `outlook.com`, iCloud, beide Gmail-Konten): eine 10-Tage-
+Zielsuche über **alle** Mailboxen inklusive Entwürfe, Gelöschte und Junk (UBS, Jeckelmann,
+key4, IBAN, Kapital, Notariat, Wiedikon, Mathies, REGIX, Handelsregister, Beurkundung) und
+ein filterloser 36-Stunden-Vollsweep über sämtliche Mailboxen. Übereinstimmend kein UBS-,
+Notariats- oder REGIX-Eingang; jüngste UBS-Belege unverändert Jeckelmann 29.07. 16:55
+(Exchange) und Bestätigungscode 29.07. 12:50 (mail@). Zusätzlich eine Empfängersuche über
+die Gesendet-Ordner aller Konten: ausgehend an `notariate-zh.ch` steht in zehn Tagen nur die
+Mail an Mathies persönlich vom 03.08. 14:56, an `ubs.com` nur die beiden Jeckelmann-Mails
+vom 29.07. Die Nachreichung ans Sammelpostfach ist also weiterhin nicht erfolgt.
+
+**(1) UBS-IBAN: siebter Arbeitstag, Zusage um vier Arbeitstage überschritten — unverändert
+der einzige kritische Pfad.** Gerechnet ab Einreichung Wiedikon 29.07. (Mi) sind 30.07.,
+31.07., 03.08., 04.08., 05.08., 06.08. und heute 07.08. sieben Arbeitstage; zugesagt waren
+drei. Ob der seit dem 05.08. empfohlene Anruf erfolgt ist, lässt sich am Beleg nicht
+feststellen, weil ein Telefonat keine Mailspur hinterlässt; belegbar ist allein, dass die
+IBAN in keinem Konto liegt. Heute ist Freitag, danach liegt ein Wochenende dazwischen.
+**AKTION Raphael heute: B. Jeckelmann anrufen (044 236 48 48).**
+
+**(2) Notariat: Korrektur des gestrigen Befundes — Mathies kehrt erst am Montag 10.08.
+zurück.** Der Eintrag vom 06.08. hielt fest, Mathies kehre «morgen 07.08.» zurück und lese
+die Mail vom 03.08. dann selbst. Am Beleg nachgelesen (Abwesenheitsantwort 03.08. 14:56:17,
+Wortlaut) stimmt das nicht: «Ich bin in der Zeit vom 27. Juli 2026 **bis 7. August 2026**
+abwesend» — der 07.08. ist eingeschlossen, heute wird die Mail also noch nicht gelesen.
+Hinzu kommt ein bisher nicht ausgewerteter Punkt derselben Signatur: **«Erreichbarkeit:
+Mo/Di/Mi»** — Mathies arbeitet nur zu Wochenbeginn. Realistisch liest er die Unterlage am
+**Montag 10.08.** Die Beobachtungsschwelle im Register wandert entsprechend vom 07.08. auf
+den 10.08. Für heute ändert das nichts an der Handlung: die Weiterleitung ans Sammelpostfach
+`wiedikon-zuerich@notariate-zh.ch` bleibt entbehrlich, solange die Kapitalbescheinigung
+ohnehin fehlt, und ein zwingender Antwortbedarf besteht heute nicht. Bleibt am Montag eine
+Reaktion aus, ist der Anruf an die Zentrale 044 298 55 00 der nächste Schritt. Nebenbefund
+unverändert gültig: Mathies zeichnet als Notariatslernender, ist also nicht der beurkundende
+Notar.
+
+**Terminplan bestätigt:** Beurkundung «ab rund 10.08.» ist nicht zu halten. Selbst bei IBAN
+heute folgen Einzahlung, zwei Arbeitstage Kapitalbescheinigung per Einschreiben und der
+notarielle Vorlauf, der nun frühestens am 10.08. beginnt. Realistisch bleibt die Woche vom
+17.08.
+
+**Phasenlage unverändert:** Kapitaleinzahlungskonto beantragt und freigegeben → **IBAN
+ausstehend** → Einzahlung CHF 100'000 → Kapitalbescheinigung (2 AT, Einschreiben) →
+Beurkundung → HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com`.
+
+**Keine Mail gesendet** (Ein-Mail-Prinzip): keine Kapitalbescheinigung, kein vergebener oder
+verfallender Beurkundungstermin, keine binnen 24 Stunden ablaufende Frist. Die Korrektur zum
+Notariat ist eine Entlastung und hätte Raphaels Handeln heute nicht verändert, der UBS-Anruf
+steht seit dem 05.08. im Chef-Briefing. `fristen.md` in beiden AG-Zeilen nachgeführt.
+
+---
+
 ## Vollgas-Frühwarnung 07.08.2026 (07:15, still — keine Mail)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. **Keines der sieben Meldekriterien ist erfüllt,

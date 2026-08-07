@@ -478,3 +478,47 @@ Der vorbereitete Post-Brief (Ordner 05) ist damit hinfaellig (Online-Weg gewaehl
   oder verfallender Termin, keine 24-Stunden-Frist; der UBS-Anruf stand bereits im
   Chef-Briefing vom 05.08. Statt dessen Abschnitt «AG-Gründung 06.08.2026» im heutigen
   Datumsblock von `logbuch/LOGBUCH.md`; `fristen.md` in beiden AG-Zeilen nachgeführt.
+
+- 07.08.2026 (ag-gruendung-monitor, 07:46): **Kein neuer Eingang. Neu ist eine Korrektur am
+  eigenen Befund von gestern: der Notar ist heute noch abwesend, nicht zurück.** Zwei
+  unabhängige Durchgänge über alle Konten in Apple Mail (`mail@` als Primärkanal, `rj@`
+  Exchange, `outlook.com`, iCloud, beide Gmail-Konten): 10-Tage-Zielsuche über **alle**
+  Mailboxen inklusive Entwürfe, Gelöschte und Junk (UBS, Jeckelmann, key4, IBAN, Kapital,
+  Notariat, Wiedikon, Mathies, REGIX, Handelsregister, Beurkundung) plus ein filterloser
+  36-Stunden-Vollsweep. Übereinstimmend kein UBS-, Notariats- oder REGIX-Eingang; jüngste
+  UBS-Belege unverändert Jeckelmann 29.07. 16:55 (Exchange) und Bestätigungscode 29.07.
+  12:50 (mail@). Ergänzend eine Empfängersuche über die Gesendet-Ordner aller Konten:
+  ausgehend an `notariate-zh.ch` steht in zehn Tagen nur die Mail an Mathies persönlich vom
+  03.08. 14:56, an `ubs.com` nur die beiden Jeckelmann-Mails vom 29.07.
+
+  **(1) UBS-IBAN: siebter Arbeitstag, Zusage um vier Arbeitstage überschritten.** Gerechnet
+  ab Einreichung Wiedikon 29.07. (Mi) sind 30.07., 31.07., 03.08., 04.08., 05.08., 06.08.
+  und heute 07.08. sieben Arbeitstage; zugesagt waren drei. Ob der seit dem 05.08.
+  empfohlene Anruf erfolgt ist, bleibt am Beleg nicht feststellbar (ein Telefonat
+  hinterlässt keine Mailspur); belegbar ist allein, dass die IBAN in keinem Konto liegt.
+  Heute ist Freitag, danach liegt ein Wochenende dazwischen. AKTION Raphael: B. Jeckelmann
+  anrufen (044 236 48 48).
+
+  **(2) Notariat — KORREKTUR: Mathies kehrt erst am Montag 10.08. zurück.** Der Eintrag vom
+  06.08. las die Abwesenheit als «kehrt morgen 07.08. zurück». Am Beleg im Wortlaut
+  nachgelesen (Abwesenheitsantwort 03.08. 14:56:17) steht: «Ich bin in der Zeit vom 27. Juli
+  2026 **bis 7. August 2026** abwesend» — der 07.08. ist eingeschlossen. Hinzu kommt ein
+  bisher nicht ausgewerteter Punkt derselben Signatur: **«Erreichbarkeit: Mo/Di/Mi»** —
+  Mathies arbeitet nur zu Wochenbeginn. Realistisch liest er die Unterlage am **Montag
+  10.08.**; die Beobachtungsschwelle wandert vom 07.08. auf den 10.08. Für die Handlung
+  ändert das nichts: die Weiterleitung ans Sammelpostfach bleibt entbehrlich, solange die
+  Kapitalbescheinigung fehlt. Bleibt am 10.08. eine Reaktion aus, folgt der Anruf an die
+  Zentrale 044 298 55 00. Damit ruht der Notariatsstrang über das Wochenende, und die
+  UBS-IBAN ist unverändert der einzige kritische Pfad.
+
+  **Terminplan bestätigt:** Beurkundung «ab rund 10.08.» nicht zu halten; der notarielle
+  Vorlauf beginnt frühestens am 10.08. Realistisch die Woche vom 17.08.
+
+  **Phasenlage unverändert:** Kapitaleinzahlungskonto beantragt und freigegeben → **IBAN
+  ausstehend** → Einzahlung CHF 100'000 → Kapitalbescheinigung (2 AT, Einschreiben) →
+  Beurkundung → HR-Eintrag (5–30 AT) → Meldung an `sh-cic-onboarding-newclients@ubs.com`.
+  **Keine Mail gesendet** (Ein-Mail-Prinzip): keine Kapitalbescheinigung, kein vergebener
+  oder verfallender Termin, keine 24-Stunden-Frist; die Notariats-Korrektur ist eine
+  Entlastung und hätte Raphaels Handeln heute nicht verändert. Statt dessen Abschnitt
+  «AG-Gründung 07.08.2026» im heutigen Datumsblock von `logbuch/LOGBUCH.md`; `fristen.md` in
+  beiden AG-Zeilen nachgeführt.
