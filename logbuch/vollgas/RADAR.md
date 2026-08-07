@@ -52,6 +52,111 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-07 08:57 — [FREI] Vorhersage getroffen, Rate am unteren Rand: 0.57 Mio/h, Vorsprung −8.7 → **−10.7**. Die Fan-out-Kalibrierung des Vorlaufs haelt der Gegenprobe stand: **neun Loops zusammen kosten 4.12 Mio — so viel wie EIN 28-Agenten-Lauf**
+
+**Selbstkontrolle:** letzter Eintrag 07.08. 00:57, Abstand **8 h 00** bei 8-h-Takt
+(00:50 / 08:50 / 16:50). **Kein Aufsichtsausfall.**
+
+**Fenster FREI, siebter sauberer Lauf in Folge.** `claude -p "Antworte nur mit: OK" --model
+haiku < /dev/null` liefert **«OK», rc=0** in Sekunden, ohne Watchdog. **Keine Waisen:**
+`ps -eo pid,ppid,command | grep "claude -p"` leer, Gate-Zaehlung `pgrep` **0**.
+**Speicher:** 3.21 GB frei+inactive+purgeable, Druckstufe **2 (warnend)** — gegenueber
+Stufe 1 um 00:57 eine Stufe schlechter, bei laufendem `hub-chef`. Kein Handlungsbedarf,
+aber der erste Druckanstieg seit dem 05.08.; beim 16:57-Lauf gegenmessen.
+
+**Wochenbudget** (`kontingent-budget.sh --json`, ohne Modellaufruf):
+
+| Groesse | Wert | Vergleich 00:57 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **74.47 Mio** von 167 = **44.6 %** | 69.89 Mio = 41.9 % |
+| Woche verstrichen | 55.3 % (93 h seit Reset Mo 12:00) | 50.6 % |
+| **Vorsprung** | **−10.7 Punkte** | −8.7 Punkte |
+| MacBook Pro / Mac Mini | 54.76 / 19.71 Mio (beide frisch) | 50.64 / 19.25 |
+
+### Die Vorhersage des Vorlaufs trifft, und die Kalibrierung besteht die Gegenprobe
+
+Der 00:57-Eintrag hatte sich auf **0.6 bis 0.9 Mio/h** und einen Vorsprung zwischen **−9.0 und
+−10.0** festgelegt, mit der Begruendung, im Nachtrest feuere kein Fan-out-Lauf. Gemessen sind
+**4.58 Mio in acht Stunden = 0.57 Mio/h** und ein Vorsprung von **−10.7** — die Richtung stimmt,
+beide Werte liegen knapp unter dem angegebenen Band. Die Vorhersage war zu optimistisch, nicht
+falsch.
+
+Wichtiger ist die Gegenprobe zur Fan-out-Kalibrierung. Aufgeteilt nach Station:
+**MacBook Pro +4.12 Mio**, **Mac Mini +0.46 Mio**. Auf dem Mini liefen genau zwei
+Nachtschicht-Slots, also **0.23 Mio je Slot** — die 0.2-Kalibrierung des Vorlaufs bestaetigt
+sich unabhaengig. Auf dem MacBook liefen in diesem Fenster **neun** Loops (normen-training,
+twin-mail-training, twin-fidelity-review, konversations-log, logbuch-radar, vollgas-fruehwarnung,
+ag-gruendung-monitor, mahnwesen-verzugscheck, zahlungsabgleich-check), keiner davon mit Fan-out,
+zusammen **4.12 Mio**.
+
+Das ist die belastbare Fassung des Befunds vom Vorlauf: **ein einzelner 28-Agenten-Lauf
+(`wissens-chef` Run 27, rund 4.5 Mio) kostet mehr als neun gewoehnliche Laeufe zusammen.** Die
+Kalibrierung stuetzt sich damit nicht mehr auf eine einzelne Zuordnung, sondern auf zwei
+unabhaengig gemessene Fenster. Der Hebel auf die Ausschoepfung ist die Fan-out-Tiefe, nicht die
+Zahl der Slots — und das bleibt eine Regimefrage fuer Raphael, keine Radar-Massnahme.
+
+**Rest bis zum Reset am Montag 12:00:** 92.53 Mio auf 75 h, volle Ausschoepfung braeuchte
+**1.23 Mio/h**. Der Wochenschnitt liegt bei **0.80 Mio/h**; haelt er, endet die Woche bei rund
+**135 Mio = 81 %** (Vorlauf projizierte 83 %). Eine Drossel nach Schritt 2c ist **nicht**
+ausgeloest und wurde **nicht** gesetzt — die Ampel steht auf FREI, die Gefahr liegt weiter auf
+der anderen Seite: ungenutztes Kontingent, das am Montag verfaellt.
+
+**Pruefbare Vorhersage fuer den 16:57-Lauf:** im Tagfenster feuern nur `heartbeat-daily` (09:40)
+und der Rest des `hub-chef`; alles Weitere haengt an Raphaels eigener Arbeit. Kein Loop mit
+Fan-out. Erwartung daher **0.3 bis 0.6 Mio/h** und ein Vorsprung zwischen **−12.5 und −14.5**.
+Liegt er besser als −12.5, hat entweder Raphael selbst substanziell gearbeitet oder ein Loop
+unerwartet mit Fan-out — beides waere im Eintrag zu trennen.
+
+**Liefer-Delta seit 00:57** — fuenf Lern-Laeufe, alle mit Delta:
+
+- **`normen-training` Run 46** (01:28, Commit `ee8dc9a6`): GVZ 30.17.3 in der **vierten**
+  Refuter-Runde **BEANSTANDET** — fuenf Kernbefunde, die Entrauchungsoeffnungen nach
+  Ziff. 4.2.2.4 fehlten ganz, die Hebung ist gescheitert. Daneben SWKI VA103-01 Kap. 2.3
+  (Emissionsgrundlagen) und vier weitere Luecken geschlossen. Delta ja; dass eine vierte Runde
+  einen Fehler findet statt zu bestaetigen, ist das inhaltlich wertvollste Ergebnis der Nacht.
+- **`twin-mail-training` Batch 89** (03:40, Commit `922a1fc3`): rj@ 21.–31.03.2026, 18 Marker,
+  Echo-Quote En-Strich. Delta ja.
+- **`twin-fidelity-review`** (05:45, Commit `02241098`): Service-Satz nach Gattung, vierte
+  Endform, Signaturblock-Regel zurueckgenommen. Delta ja.
+- **Nachtschicht 02:30** (Mini, rc=0, 56 Turns, Commit `c9d6b082`): `energie` — Minergie-
+  Produktreglement 2026.1 Anhaenge G/H/J gelesen, Bauherren-Antwort F217 neu, Frage E-124-2
+  geschlossen. Delta ja.
+- **Nachtschicht 05:30** (Mini, rc=0, 41 Turns): `bauprodukte` — ERCO-Lichtplanungsratgeber
+  S. 145 → 175, Kapitel «Lichtanwendungen» vollstaendig. Delta ja.
+
+Operativ geliefert haben ausserdem `konversations-log`, `logbuch-radar` (Commit `e166e5e4`,
+Bohlweg-3-Eingabetermin verstrichen), `vollgas-fruehwarnung`, `ag-gruendung-monitor`,
+`mahnwesen-verzugscheck` und `zahlungsabgleich-check`. **`hub-chef-taeglich` lief um 08:39 an
+und war zum Messzeitpunkt noch im Lauf** (kein Logbuch-Abschnitt, kein Commit) — regulaer, kein
+Befund; die Lieferung ist beim 16:57-Lauf gegenzupruefen.
+
+**Kein Loop mit Delta-Null-Serie. Keine Ruecktaktung, keine Stilllegung, keine Drossel.**
+Lauf-Journal 07.08.: zwei Zeilen, beide **rc=0** (02:38 / 05:36) — es erfasst weiterhin nur die
+Mini-Dispatch-Laeufe, die MacBook-Scheduled-Tasks sind ueber Commits belegt.
+
+**Feuermechanismen, alle drei Orte geprueft.** Registry MacBook (`list_scheduled_tasks`):
+unveraendert, eigener Takt `50 */8 * * *` bestaetigt, keine Task hinzugekommen oder entfernt.
+Registry Mini (`ssh mini 'ls ~/.claude/scheduled-tasks/'`): dieselben **acht** Tasks wie am
+06.08. (arbeits-weiche-review, baurecht-buch-training, claude-abo-auslastung, energie-training,
+grobkosten-training, normen-training-mini, planungsgrundlagen-training, synobsis-batch-nacht),
+Sollstand unveraendert. launchd beide Stationen: `ch.jans.vollgas-supervisor` und
+`ch.jans.vollgas-monitor` unveraendert `*.disabled-260729` und **nicht geladen**,
+`STOP-Macbookpro`/`STOP-Macmini` unveraendert vom 29.07. 02:51, `ch.jans.nachtschicht` auf dem
+Mini geladen. **Kein Mechanismus feuert doppelt, keiner ist wiederauferstanden.**
+
+**P1 — keiner. Keine Mail.** Kein Login-Blocker, kein erschoepftes Wochenkontingent.
+
+**P2 — unveraendert offen: Abgleich der `energie-training`-Frontmatter** (Session auf dem Mini
+noetig; die Datei traegt `enabled: false`, der Loop feuert und liefert taeglich). Nicht vom
+Radar zu heilen — ein Edit koennte einen produktiven Loop stillstellen.
+
+**P3 — Speicherdruck Stufe 2** beim naechsten Lauf gegenmessen (siehe oben). Erst bei zwei
+aufeinanderfolgenden Messungen auf Stufe 2 oder schlechter ein Befund.
+
+**Turns dieses Laufs: rund 12.** Regellauf, keine Tiefenuntersuchung.
+
+---
 ## 2026-08-07 00:57 — [FREI] Prognose des Vorlaufs falsifiziert: auch die NACHT liefert nur 0.59 Mio/h statt 1.00, Vorsprung −6.8 → **−8.7**. Neue Kalibrierung: ein Fan-out-Lauf kostet rund 4.5 Mio, ein Nachtschicht-Slot rund 0.2 — der im Vorlauf vorgeschlagene Zusatz-Slot haette die Luecke nie geschlossen
 
 **Selbstkontrolle:** letzter Eintrag 06.08. 16:57, Abstand **8 h 00** bei 8-h-Takt
