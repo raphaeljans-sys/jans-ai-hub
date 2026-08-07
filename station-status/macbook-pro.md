@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 23:46:12
+Stand: 07.08.2026 23:56:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:45)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:55)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 23:46:12
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 86ce9710 normen: Datenverlust aus f147dac4 zurueckgenommen — sia-180-2014, din-1961-2010, sia-mb-2024-2006 aus dem Vorstand wiederhergestellt (137/299/55 Zeilen), 3 Falsch-Zeilen im INDEX entfernt (Wissens-Chef Run 28)
+- 598be5e8 wissens-chef Run 28: Cross-KB-Lauf ueber 6 Felder — 20 Befunde verifiziert (4 bestaetigt, 16 gedaempft), Korrekturen in normen/baurecht/planungsgrundlagen/bauprodukte/immobilienbewertung + 2 Skills, Register/CHANGELOG/Bericht, Reparaturlauf-Risiko in fristen.md registriert
