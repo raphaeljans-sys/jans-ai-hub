@@ -3,7 +3,7 @@ title: "Chromstahltreppe — Oberflächenvarianten und Ausführungsrisiken (Mate
 status: emerging
 last_updated: 2026-07-28
 sources: ["020320 Chromstahltreppe.doc" (BKP 272 Metallbauarbeiten, Materialrecherche Architekturbüro Christian Kerez Zürich, Projekt MFH Forsterstrasse, Bearbeiter «WR», Informationsquelle Fa. Isoglas Otelfingen Herr Schärer, datiert 20.03.2002)]
-links: [[REGISTER]]
+links: [[INDEX]]
 ---
 
 # Chromstahltreppe — Oberflächenvarianten und Ausführungsrisiken

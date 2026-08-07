@@ -3,7 +3,7 @@ title: "Arbeitsplatten-Verbinder — drei Systeme im Vergleich (Stand 2011, unve
 status: emerging
 last_updated: 2026-07-28
 sources: ["110207_Arbeitsplatten_Verbinder_35mm.pdf", "110207_Arbeitsplatten_Verbinder_HETTICH_AVB_5.pdf", "110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf" (BKP 273 Schreinerarbeiten, alle drei OPO-Net-Katalogausdrucke OPO Oeschger AG, Kloten, datiert 07.02.2011)]
-links: [[REGISTER]], [[z-winkel-beschlag-schreinerei]]
+links: [[INDEX]], [[z-winkel-beschlag-schreinerei]]
 ---
 
 # Arbeitsplatten-Verbinder — drei Systeme im Vergleich (Stand 2011)

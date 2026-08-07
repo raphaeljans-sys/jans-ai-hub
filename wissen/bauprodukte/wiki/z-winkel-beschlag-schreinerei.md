@@ -3,7 +3,7 @@ title: "Z-Winkel — Stahlwinkel-Beschlag für Möbel-/Korpusverbindungen (Stand
 status: emerging
 last_updated: 2026-07-29
 sources: ["110207_Z_Winkel.pdf" (BKP 273 Schreinerarbeiten, Ordner "Z_Winkel", OPO-Net-Katalogausdruck OPO Oeschger AG, Kloten, datiert 07.02.2011)]
-links: [[arbeitsplatten-verbinder-schreinerei]], [[REGISTER]]
+links: [[arbeitsplatten-verbinder-schreinerei]], [[INDEX]]
 ---
 
 # Z-Winkel — Stahlwinkel-Beschlag für Möbel-/Korpusverbindungen (Stand 2011)

@@ -3,7 +3,7 @@ title: "PU-Fassadenbeschichtung — Aufbau, Verarbeitung, Grenzen (Materialreche
 status: emerging
 last_updated: 2026-07-28
 sources: ["021230 Beschichtung PU.doc" (BKP 225 Spezielle Dichtungen und Dämmungen, Materialrecherche Architekturbüro Christian Kerez Zürich, «abgeklärt bei Schulhaus Eschenbach», Bearbeiterin Silvia, Recherchestand Frühling 2002, Datei gespeichert 30.12.2002)]
-links: [[REGISTER]], [[dachbegruenung-systeme]]
+links: [[INDEX]], [[dachbegruenung-systeme]]
 ---
 
 # PU-Fassadenbeschichtung — Aufbau, Verarbeitung, Grenzen

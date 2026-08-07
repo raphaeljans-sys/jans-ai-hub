@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-04 (Run 72)
+last_updated: 2026-08-07 (Run 72)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -172,7 +172,7 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    Verhältnis zu § 273 PBG. **Revisionsvorbehalt (nachgetragen 31.07.2026, Wissens-Chef Run 22):**
    die Synopse vom 16.04.2025 überführt Art. 24 in Art. 45 revBZO «Klein- und Anbauten» und hebt
    die 7-%-Quote auf; Nachfolgeregel und deren Normierungsort sind ~~**offen** (Batch T1)~~
-   **GEKLÄRT (Run 72, 03.08.2026)**. Beleg:
+   **GEKLÄRT (Run 72, 07.08.2026)**. Beleg:
    `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`. Es gilt Arbeitsregel 2 der
    Korpus-Queue — beide Fassungen nebeneinander führen, jeweils die strengere. Der Wert bleibt
    also nachweispflichtig; hier wird verwiesen, nicht kopiert.
@@ -281,7 +281,7 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
-  - **Run 72 (2026-08-03/04, Festigungsmodus, Priorität (d) Korpus-Queue Batch T1, kein
+  - **Run 72 (2026-08-07, Festigungsmodus, Priorität (d) Korpus-Queue Batch T1, kein
     Agent-Fan-out):** Erster Batch der Thalwiler Reglemente-Queue abgearbeitet — **BZO-Revision
     2025**. Beide Synopse-PDFs vom Mac-Mini-OneDrive gelesen; **die zwei Fassungen sind nicht
     identisch** (April 16.4.2025 «öffentliche Auflage/Anhörung/Vorprüfung» vs. September 5.9.2025

@@ -81,7 +81,7 @@ Abschnitt 6. Das Deliverable wurde nicht geaendert (ausgehendes Erzeugnis, Freig
   § 2a ABV faktisch beantwortet, bleibt aber offen stehen — Schliessen war diesem Lauf nicht
   zugewiesen.
 
-## 2026-08-03/04 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil erschlossen; die Vorwirkungs-Markierung aus der Grafikebene gelesen
+## 2026-08-07 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil erschlossen; die Vorwirkungs-Markierung aus der Grafikebene gelesen
 
 - **NEU `raw/260807_amtlich_zh_bzo-thalwil-revision-synopse.md`** — Synopse «Fassung zur Negativen
   Vorwirkung» vom 05.09.2025 (51 S., dreispaltig, `pdftotext -layout`). Quelle: Projektordner

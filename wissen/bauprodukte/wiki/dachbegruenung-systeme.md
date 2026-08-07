@@ -3,7 +3,7 @@ title: "Dachbegrünung — Systemtypen und Schweizer Anbieter (Stand 2002, unver
 status: emerging
 last_updated: 2026-07-28
 sources: ["020426 Dachbegruenung.doc" (BKP 224 Bedachungsarbeiten, Materialrecherche Architekturbüro Christian Kerez Zürich, abgeklärt am Projekt Eschenbach, Dezember 2001/Januar 2002, zuletzt gespeichert 14.10.2003)]
-links: [[REGISTER]], [[../../normen/destillate/sia-312-2013]]
+links: [[INDEX]], [[../../normen/destillate/sia-312-2013]]
 ---
 
 # Dachbegrünung — Systemtypen und Schweizer Anbieter (Stand 2002)

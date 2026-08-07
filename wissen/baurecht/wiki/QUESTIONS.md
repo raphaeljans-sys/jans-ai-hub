@@ -1,6 +1,6 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## 2026-08-03 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil: Verfahrensstand und ein Zitat-Flag
+## 2026-08-07 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil: Verfahrensstand und ein Zitat-Flag
 
 **T-01 · Genehmigung und Inkrafttreten der revBZO Thalwil — offen, zu überwachen.**
 Die Revision wurde am **14.06.2026** an der Urne mit 78.81 % festgesetzt. Zum Stand
@@ -16,7 +16,7 @@ setzen — das Inkrafttreten hängt an Rekursen, deren Zahl nicht publiziert ist
 Die ausgewertete Fassung datiert vom **05.09.2025**, also aus der Zeit **vor** der
 Festsetzung. Zwischen Auflage und Festsetzung können Bestimmungen aufgrund der
 Einwendungen geändert worden sein; dann stimmt die Grau-Markierung nicht mehr. Der
-Projektordner enthält keine spätere Fassung (Stand 03.08.2026). Bei der nächsten
+Projektordner enthält keine spätere Fassung (Stand 07.08.2026). Bei der nächsten
 Thalwiler Eingabe bei der Gemeinde nachfragen.
 
 **T-03 · Zitat-Flag im Destillat [[12-baureife]]: «RB 1980 Nr. 113» vs. «RB 1998 Nr. 113».**

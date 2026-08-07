@@ -3,7 +3,7 @@ title: "BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit (Herste
 status: emerging
 last_updated: 2026-07-30
 sources: ["100426_AS_Aufzuege.pdf" (AS Aufzüge, Typ Winner, Referenz 2.1.0053.12.9, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "100426_AS_Aufzuege_Masskizze.pdf" (AS Aufzüge/AS Ascenseurs, Masskizze «Swisslift» 7 Personen/535 kg, Referenz 2.1.0053.01.8, zweisprachig DE/FR, kein Datum im Dokument — Stand gemäss Dateiname 26.04.2010), "21005312.pdf" (AS Aufzüge, Handskizze «Rollstuhlgängig?», gleiches Firmenlogo wie Winner-Datenblatt, undatiert), "Graventa_lift_Technische_Daten_VANGOGH.pdf" (GARAVENTA LIFTECH AG, Küssnacht am Rigi, Sitzlift VAN GOGH, undatiert), "sch_pdf_sch3100_de.pdf" (Schindler Aufzüge AG Ebikon, Personenaufzug Schindler 3100, Druckvermerk SCH.3100.DE.12.07 = Stand Dezember 2007), "aufzug_rollstuhlgerecht.pdf" (Schmitt+Sohn Aufzüge, Kapitel 2.2 Seilpersonenaufzüge mit Maschinenraum SP, Druckdatum 27.11.2006)]
-links: [[REGISTER]], [[sia-500-2009]], [[vkf-brl-23-15-befoerderungsanlagen]], [[sia-370-028-2003]]
+links: [[INDEX]], [[sia-500-2009]], [[vkf-brl-23-15-befoerderungsanlagen]], [[sia-370-028-2003]]
 ---
 
 # BKP 261 Aufzüge — Systemtypen, Kennwerte und Barrierefreiheit

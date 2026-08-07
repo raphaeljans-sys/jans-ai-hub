@@ -3,7 +3,7 @@ title: "Terrazzo und Kunststein-Plattenboden — Aufbauvarianten, Kosten, Ausfü
 status: emerging
 last_updated: 2026-07-30
 sources: ["020226 Terrazzo 1.doc" (BKP 281 Bodenbeläge, Materialrecherche Architekturbüro Christian Kerez Zürich, Projekt Schule Eschenbach, Bearbeiter «WR», Sitzung Fa. Studer Frick mit Herrn Wigmann/Wigeth, datiert 26.02.2002), "020226 Terrazzo 2.doc" (dieselbe Sitzung, Projekt MFH Forsterstrasse, datiert 26.02.2002)]
-links: [[REGISTER]], [[../../normen/destillate/sia-244-2006]], [[../../normen/destillate/bfu-bodenbelaege]]
+links: [[INDEX]], [[../../normen/destillate/sia-244-2006]], [[../../normen/destillate/bfu-bodenbelaege]]
 ---
 
 # Terrazzo und Kunststein-Plattenboden — Aufbauvarianten, Kosten, Ausführungsrisiken

@@ -2480,7 +2480,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   gestellt (die rechtzeitig erlassene Festlegung kann wegen Rechtsmitteln noch nicht in Kraft
   gesetzt werden). Lehre: bei kommunalen Erlassen sind **Festsetzung ≠ Genehmigung ≠
   Inkrafttreten** — ein Abstimmungsresultat in der Zeitung ist kein Fassungsstand.
-  _[2026-08-03]_
+  _[2026-08-07]_
 
 - **F (Modell D / Anwendung, Fall Bohlweg 3):** Welche Bestimmungen der revBZO Thalwil muss eine
   Baueingabe heute einhalten — und welche gerade nicht? — **A:** **Nur die in der Synopse grau
@@ -2496,7 +2496,7 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   dem Vorbehalt «Abweichungen möglich, wenn die ordentliche Grundstücksnutzung übermässig
   erschwert wird». Lehre: **es gilt die jeweils strengere Bestimmung** — deshalb wirkt nur vor, was
   verschärft; eine Behördenauflage auf eine *nicht* markierte revBZO-Stelle ist angreifbar, weil
-  § 234 PBG **keine positive Vorwirkung** kennt (VB.2008.00044). _[2026-08-03]_
+  § 234 PBG **keine positive Vorwirkung** kennt (VB.2008.00044). _[2026-08-07]_
 
 - **F (Modell A / Methodik):** Ein Planungsbüro liefert die Revisionssynopse als PDF, die
   massgebenden Bestimmungen seien «grau hinterlegt». Man extrahiert den Text und arbeitet damit.
@@ -2509,4 +2509,4 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   abgleichen (in der April-Fassung ist nur das Tabellen-Kopfband grau) und am **gerenderten Pixel**
   gegenprüfen. Lehre allgemein: **visuelle Rechtsinformation ist Information** — Markierung,
   Durchstreichung, Farbe im Rotdruck. Geht sie bei der Extraktion verloren, ist der extrahierte
-  Text nicht die Quelle, sondern eine stillschweigend beschädigte Fassung. _[2026-08-03]_
+  Text nicht die Quelle, sondern eine stillschweigend beschädigte Fassung. _[2026-08-07]_
