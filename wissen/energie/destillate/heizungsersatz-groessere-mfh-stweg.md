@@ -80,7 +80,7 @@ Heizkosten** sparen (S. 5, ohne weitere Herleitung im Text).
   Erstellung teurer (Bohrung), brauchen aber **bis zu einem Drittel weniger Strom** als
   Luft-Wasser-Waermepumpen; GeoCooling (sanfte Kuehlung) ueber die Erdsonde moeglich. Betrieb mit
   Fussbodenheizung idR effizienter als mit Radiatoren, moderne Inverter-Waermepumpen erreichen aber
-  auch mit Radiatoren gute Effizienzwerte.
+  auch mit Radiatoren gute Effizienzwerte. ⚠ Stand 10.2021, vor jeder Verwendung pruefen.
 - **Holz**: Stueckholzheizungen ideal fuer Einfamilienhaeuser, Pelletheizungen fuer Einfamilienhaeuser
   sowie kleinere Mehrfamilienhaeuser, Holzschnitzelheizungen fuer mittlere bis groessere Gebaeude.
 - **Solarthermie**: deckt idR nur einen Teil des Waermebedarfs, braucht in Schlechtwetterperioden und
@@ -156,11 +156,25 @@ leistungsgarantie.ch · makeheatsimple.ch (Heizungsfernbedienung Ferienwohnungen
 
 ## Bauherren-Transfer (MFH/STWEG-spezifisch)
 
+- **⚠ «Ab 2030» ist fuer ZH und SZ ueberholt — die Pflicht gilt heute.** Im Kanton Zuerich muessen
+  beim Ersatz eines Waermeerzeugers in bestehenden Bauten ausschliesslich erneuerbare Energien
+  eingesetzt werden, wenn dies technisch moeglich ist und die Lebenszykluskosten um hoechstens
+  5 % erhoeht (§ 11 Abs. 2 EnerG, LS 730.1); fuer Neubauten wirkt § 11 Abs. 1 als Fossilverbot. Im
+  Kanton Schwyz gilt beim Waermeerzeugerersatz das 90-%-Modell (§ 8d kEnG, § 24f und Anhang 6
+  KEnV). Ein 1:1-Ersatz einer Oel- oder Gasheizung ist damit in beiden Kantonen **bereits heute
+  nicht mehr zulaessig** — unabhaengig von der noch nicht in Kraft gesetzten MuKEn 2025.
+  Massgebend: [[oelheizung-gasheizung-ersatzpflicht-zh-sz]]. Schritt 5 der Broschuere («Behoerden
+  informieren») ist entsprechend zu erweitern: nicht nur Baubewilligung und Konzession, sondern
+  zuerst der Nachweis der Substitutionspflicht.
 - **Kosten:** Der grosse Unterschied zum EFH ist die Impulsberatung selbst — fuer MFH ab sechs
   Wohneinheiten/STWEG ist sie mit CHF 1'500-2'000 inkl. MWSt eigens ausgewiesen und deutlich
-  aufwendiger (12 h Fachaufwand laut Kasten) als beim einfachen EFH-Heizkostenrechner. Bei einer
-  Bauherrschaft mit mehreren Liegenschaften lohnt es sich, diese Beratung projektuebergreifend
-  einzuplanen statt objektweise ad hoc.
+  aufwendiger (12 h Fachaufwand laut Kasten) als beim einfachen EFH-Heizkostenrechner. **⚠ Stand
+  10.2021, vor jeder Verwendung pruefen** — es handelt sich um eine Empfehlung des BFE von 2021,
+  nicht um einen Marktpreis. Der KB-Bestand fuehrt fuer kleinere Objekte eine **kostenlose**
+  Impulsberatung ([[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]); ab welcher
+  Objektgroesse sie kostenpflichtig wird, ist in der KB nicht geklaert. Bei einer Bauherrschaft
+  mit mehreren Liegenschaften lohnt es sich, diese Beratung projektuebergreifend einzuplanen
+  statt objektweise ad hoc.
 - **Mieterschaft:** Punkt 5 der Finanzargumente (Ueberwaelzung wertvermehrender Investitionen auf den
   Mietzins) ist fuer JANS-Mandate mit Renditeliegenschaften der entscheidende Hebel — die Broschuere
   belegt ihn nur dem Grundsatz nach («im Einzelfall zu pruefen»), ohne CHF- oder Prozentangabe. Eine
@@ -177,9 +191,14 @@ leistungsgarantie.ch · makeheatsimple.ch (Heizungsfernbedienung Ferienwohnungen
   ein STWEG-Mandat lohnt sich der fruehe Beizug des Skills `stockwerkeigentum` (Beschlussfaehigkeit,
   Reglement) parallel zur technischen Impulsberatung.
 - **Einordnung durch mich (nicht in der Broschuere selbst so benannt):** Die 25-%-Eigenmittel- und
-  10-Jahres-Amortisationsregel (S. 11) ist die allgemeine Belehnungsregel fuer Renditeobjekte
-  (FINMA-Richtlinie/Selbstregulierung der Banken), keine heizungsspezifische Sonderregel — sie greift
-  bei JEDER Aufstockung der Hypothek fuer eine wertvermehrende Maßnahme, nicht nur beim Heizungsersatz.
+  10-Jahres-Amortisationsregel (S. 11) stammt aus den «Richtlinien betreffend Mindestanforderungen
+  bei Hypothekarfinanzierungen» der SBVg und ist die allgemeine Belehnungsregel fuer Renditeobjekte
+  (Selbstregulierung der Banken), keine heizungsspezifische Sonderregel — sie greift bei JEDER
+  Aufstockung der Hypothek fuer eine wertvermehrende Massnahme, nicht nur beim Heizungsersatz. Sie
+  ist **nicht** identisch mit der per 1.1.2023 in Kraft gesetzten Nachhaltigkeits-Richtlinie der
+  SBVg ([[gruene-hypotheken-klimahypotheken-ch]]) — beide sind auseinanderzuhalten. Ob die hier
+  wiedergegebene Fassung der Belehnungsregel (25 %/10 Jahre) noch die heute geltende ist, wurde in
+  diesem Destillat nicht verifiziert.
 
 ## Offene Punkte
 - Keine einzige kWh/m²-, JAZ- oder MKZ-Kennzahl im Dokument — es ist eine Prozess- und
@@ -200,6 +219,16 @@ leistungsgarantie.ch · makeheatsimple.ch (Heizungsfernbedienung Ferienwohnungen
 Der einzige Datumsbeleg im Dokument ist der Vertriebsvermerk auf der letzten Seite («10.2021»,
 Artikelnummer 805.203.D) — kein Ausgabe-Label, keine Revisionsangabe. Das Dokument ist damit
 **rund fuenf Jahre alt** (Stand dieses Laufs: 2026-08-07). Mutmasslich ueberholt bzw. unverifiziert:
+- **⚠ «Ab 2030» ist fuer ZH und SZ ueberholt — die Pflicht gilt heute.** Im Kanton Zuerich muessen
+  beim Ersatz eines Waermeerzeugers in bestehenden Bauten ausschliesslich erneuerbare Energien
+  eingesetzt werden, wenn dies technisch moeglich ist und die Lebenszykluskosten um hoechstens
+  5 % erhoeht (§ 11 Abs. 2 EnerG, LS 730.1); fuer Neubauten wirkt § 11 Abs. 1 als Fossilverbot. Im
+  Kanton Schwyz gilt beim Waermeerzeugerersatz das 90-%-Modell (§ 8d kEnG, § 24f und Anhang 6
+  KEnV). Ein 1:1-Ersatz einer Oel- oder Gasheizung ist damit in beiden Kantonen **bereits heute
+  nicht mehr zulaessig** — unabhaengig von der noch nicht in Kraft gesetzten MuKEn 2025.
+  Massgebend: [[oelheizung-gasheizung-ersatzpflicht-zh-sz]]. Schritt 5 der Broschuere («Behoerden
+  informieren») ist entsprechend zu erweitern: nicht nur Baubewilligung und Konzession, sondern
+  zuerst der Nachweis der Substitutionspflicht.
 - **Foerderprogramme** (dasgebaeudeprogramm.ch, energiefranken.ch) und die Klimapraemie sind seit 2021
   mehrfach angepasst worden; aktueller Stand: `[[klimapraemie-heizungsersatz-klik]]`,
   `[[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]`.
@@ -223,3 +252,12 @@ Vollkostenrechner) · `[[klimapraemie-heizungsersatz-klik]]` und
 dieses Destillats) · `[[geak-kosten-efh-mfh]]` (GEAK-Kosten, in dieser Broschuere nur verlinkt, nicht
 beziffert) · `[[wp-pv-eigenverbrauch-lastmanagement]]` (JAZ/PV-Eigenverbrauch, vertieft S. 6-8) ·
 `[[muken-2025-verabschiedet]]` (Rechtsstand zur «ab 2030 keine fossilen Heizungen»-Aussage).
+
+## Aktualitaetspruefung Run 125 (07.08.2026)
+Der Bauherren-Transfer relativierte die Broschueren-Aussage «ab 2030 keine fossilen Heizungen»
+bisher nur gegen die noch nicht in Kraft gesetzte MuKEn 2025 — fuer ZH und SZ ist die
+Substitutionspflicht aber bereits geltendes kantonales Recht (belegt ueber
+[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]). Korrektur an zwei Stellen (Bauherren-Transfer und
+Aktualitaetsvorbehalt) eingesetzt; zusaetzlich die Impulsberatungskosten und die WP-Kennwerte mit
+dem Stand 10.2021 markiert und die SBVg-Belehnungsregel von der Nachhaltigkeits-Richtlinie 2023
+abgegrenzt.

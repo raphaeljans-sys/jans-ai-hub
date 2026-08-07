@@ -42,7 +42,7 @@ die Norm seither mindestens einmal revidiert worden. Für einen aktuellen Nachwe
 zwingend die aktuell gültige SIA-380/1-Ausgabe zu konsultieren (Route: Skill `normen`) —
 diese Zahlen dienen nur der historischen/didaktischen Einordnung des Rechenprinzips.
 
-### 2. Wärmebrücken-Grenzwert 0,30 W/mK nach SIA 380/1 (Folie 8, mit Normfassung)
+### 2. Wärmebrücken-Grenzwert 0,30 W/mK (Folie 8, mit Normfassung; ⚠ Fundstellenzuschreibung der Folie falsch, siehe Bauherren-Transfer)
 
 Wörtliches Zitat aus der abgebildeten Checkliste „1.1 Balkonplatte": „Grenzwert nach
 SIA 380/1 0.30 W/mK". Die Checkliste (Herkunft im Foliensatz nicht benannt) listet für die
@@ -103,14 +103,20 @@ Nachschlagewerk für Psi-Werte nach Bauteiltyp.
 
 ## Bauherren-Transfer (eigene Einordnung, nicht aus der Quelle)
 
-- Die Kernlogik der Folien 6 und 8 ist methodisch weiterhin gültig: Der Heizwärmebedarf wird
-  über ein Grenzwertverfahren mit gebäudekategorieabhängigem Grundwert und einem
-  Hüllflächen-Zuschlagsterm (Verhältnis thermische Hüllfläche zu Energiebezugsfläche) geprüft,
-  und Wärmebrücken werden zusätzlich über einen eigenen Psi-Wert-Grenzwert nach SIA 380/1
-  begrenzt. Für ein aktuelles Bauvorhaben 2026 sind die konkreten Zahlen (55/65 bzw.
-  65/65 MJ/m², 0,30 W/mK) aber NICHT ungeprüft übernehmbar, weil die zitierte Ausgabe
-  SIA 380/1:2009 laut Normen-KB seither durch SIA 380/1:2016 abgelöst wurde. Vor jeder
-  Verwendung: aktuelle SIA-380/1-Fassung über den Skill `normen` konsultieren.
+- Die Kernlogik der Folien 6 und 8 ist methodisch weiterhin gültig. Von den Folienzahlen ist aber
+  **nur die Grenzwerttabelle überholt**, nicht der Wärmebrückenwert:
+  – **Heizwärmebedarf:** Aktuell gilt SIA 380/1:2016 (siehe [[sia-380-1-aktualitaets-check-2026]]).
+    Die Grenzwerte werden heute in **kWh/m²** geführt, nicht in MJ/m² (belegt über
+    [[enfk-en-102-waermeschutz-2018]] und [[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]). Die
+    Folienwerte 55/65 bzw. 65/65 MJ/m² entsprechen 15,3/18,1 bzw. 18,1/18,1 kWh/m² — die Folie ist
+    nicht nur alt, sie ist milder.
+  – **Wärmebrücken:** Der Wert **0,30 W/(m·K) gilt unverändert**, als Vollzugswert für
+    **Typ 1 (Auskragungen als Platten/Riegel)** nach EnFK EN-102 Tabelle 3 bzw. MuKEn-Anhang 1 —
+    **nicht** als Wert aus SIA 380/1. Die Fundstellenangabe der Folie («Grenzwert nach SIA 380/1»)
+    ist insoweit falsch und darf nicht zitiert werden.
+  – **Route:** Für die belegten Grenz- und U-Werte ist innerhalb des Hub die Vollzugsebene
+    führend; das `normen`-Destillat zu SIA 380/1:2016 ist nur eine Vorschau (6/60 Seiten,
+    `speculative`) und trägt diese Zahlen nicht.
 - Der Wärmebrückenkatalog EnergieSchweiz (Folie 7) bleibt als Fundstellen-Hinweis nützlich:
   Wer die Wirkung einer Balkonplatten- oder Fassadenausbildung auf den Psi-Wert nachvollziehen
   will, findet im Original-Katalog (nicht in dieser Folie) nach Bauteiltyp gegliederte
@@ -148,3 +154,10 @@ Nachschlagewerk für Psi-Werte nach Bauteiltyp.
   Wärmeerzeugung/Endenergienachweis am Beispiel eines konkreten MFH, hier Gebäudehülle/
   Wärmebrücken mit zwei tatsächlichen Normzitaten) und ergänzen sich, ohne sich zu
   widersprechen.
+
+## Aktualitaetspruefung Run 125 (07.08.2026)
+Der Bauherren-Transfer entwertete beide Folienzahlen pauschal als ueberholt. Verifiziert: der
+Waermebrueckengrenzwert 0,30 W/(m·K) gilt unveraendert, allerdings als Vollzugswert fuer Typ 1
+(Auskragungen) nach EnFK EN-102 bzw. MuKEn-Anhang 1, nicht als Wert aus SIA 380/1 — die
+Fundstellenzuschreibung der Folie war falsch. Korrektur am ersten Spiegelstrich des
+Bauherren-Transfers sowie an der Ueberschrift von Abschnitt 2 eingesetzt.

@@ -1542,6 +1542,15 @@ GEAK-Gesamtenergieeffizienz**. Ein GEAK mit Klasse D erspart damit die technisch
 Befreit von dieser ganzen Anforderung sind gemischt genutzte Bauten, deren Wohnanteil 150 m²
 Energiebezugsfläche nicht überschreitet (AfU-SZ-FAQ, Stand 28.08.2025, Volltext gelesen 15.07.2026).
 
+**Nachtrag 07.08.2026 (Run 125):** Zwei Ergänzungen aus Primärquellen. Erstens zur Frage, wie die
+Klasse überhaupt zustande kommt — Strom zählt in der Gesamtenergie-Bilanz doppelt, PV wird nur mit
+dem Eigenverbrauch plus 40 % der Einspeisung angerechnet, und die Erzeugungsverluste stecken
+vollständig in der frei eingegebenen JAZ: ausführlich in **F218** und
+`[[geak-normierung-berechnungsmethodik]]`. Zweitens nennt die GEAK-Basisbroschüre (Ausgabe 02/2023,
+`[[geak-basisbroschuere-2023]]`) neben der Förderberechtigung **vergünstigte Hypothekenkonditionen
+und steuerliche Vorteile** als Mehrwert des GEAK Plus, allerdings unbeziffert und ohne Nennung eines
+Instituts — als Argument brauchbar, als Zusage nicht.
+
 **Quelle:** Verein GEAK / EnDK — geak.ch (Was ist der GEAK / Produkt GEAK / FAQ / Weg zum GEAK), Stand
 2026; Reglemente 01.01.2026 → `[[geak-gebaeudeenergieausweis-kantone]]`. Förderbeiträge ZH/SZ →
 `[[foerderprogramm-energie-zh-2026]]`, `[[foerderprogramm-energie-sz-2026]]`; GEAK-Plus-Pflicht ab 10k →
@@ -7256,3 +7265,149 @@ Systemerneuerung ersetzt nur den Minergie-Nachweis, nicht das kantonale Förderd
 **Quelle:** Verein Minergie, Produktreglement Gebäudestandards MINERGIE/-P/-A, Version 2026.1
 (gültig ab 01.01.2026), Anhang H, gelesen 07.08.2026 → `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
 Einzeln gelesen, kein Refuter-Panel (Budgetdisziplin Nachtschicht). Status **emerging**.
+
+---
+
+## F218 — «Zwei praktisch gleiche Häuser, zwei verschiedene GEAK-Klassen — wie kommt das?»
+
+**Kurz:** Weil die GEAK-Etikette nicht den gemessenen Verbrauch abbildet, sondern eine gerechnete
+Bilanz mit politisch gesetzten Gewichtungen. Der grösste Hebel ist der Systementscheid: In der
+Skala «Gesamtenergie» zählt Strom mit dem Faktor 2, Heizöl und Erdgas mit 1 und Holz mit 0,5.
+Zwei bauidentische Häuser können damit allein wegen der Heizung verschiedene Klassen tragen.
+
+**Fachlich:** Die Etikette trägt drei Skalen mit drei verschiedenen Bezugsgrössen. Die
+**Effizienz Gebäudehülle** vergleicht allein den effektiven Heizwärmebedarf mit dem
+SIA-380/1-Neubau-Grenzwert; dort wirkt ausschliesslich die Bausubstanz, kein Energieträger. Die
+**Effizienz Gesamtenergie** vergleicht zwei vollständig durchgerechnete Jahresenergiebilanzen,
+das Projektgebäude gegen ein fiktives Referenzgebäude, und hier greifen die nationalen
+Gewichtungsfaktoren (Tab. 35: Strom 2,0 im Bedarf wie in der Produktion, Öl/Gas/Kohle 1,0,
+Holz 0,5, Solarwärme 0, Fernwärme 0,4 bis 1,0 je Fossilanteil). Die **direkten CO2-Emissionen**
+werden ohne Referenzgebäude direkt gegen Grenzwerte klassiert, deren Bereiche standortabhängig
+temperaturkorrigiert werden. Beide Effizienz-Skalen sind relativ, es gibt keine festen
+kWh/m²-Grenzwerte je Klasse. Zwei weitere Stellschrauben, die Bauherrschaften regelmässig
+überraschen: Eine PV-Anlage wird nicht mit ihrem vollen Ertrag angerechnet, sondern nur mit dem
+Eigenverbrauch plus 40 % des eingespeisten Rests; und die Verluste der Wärmeerzeugung haben gar
+keinen eigenen Rechengang, sie stecken vollständig im eingegebenen Nutzungsgrad beziehungsweise
+in der Jahresarbeitszahl — eine freie Eingabe der Fachperson und damit die empfindlichste Grösse
+der ganzen Bilanz.
+
+**Bauherren-Transfer:** Wer die Klasse verbessern will, sollte zuerst fragen, an welcher der drei
+Skalen es hakt. Ist die Hüllen-Skala schlecht, hilft nur Bausubstanz, kein Heizungswechsel. Ist
+die Gesamtenergie-Skala schlecht, wirkt der Systementscheid stark und oft günstiger als
+zusätzliche Dämmung. Vor der Vergabe lohnt sich die Frage nach der angesetzten JAZ und der
+Überdimensionierung des Wärmeerzeugers: Beides verschiebt das Ergebnis, ohne dass am Gebäude
+etwas anders wäre. Und ein GEAK aus zwei verschiedenen Werkzeugen ist nicht direkt vergleichbar
+— der GEAK rechnet bewusst mit einem Einzonenmodell, sodass gegenüber externen
+SIA-380/1-Programmen laut Norm «unterschiedliche Resultate für Projektwerte zu erwarten» sind.
+
+**Quelle:** «Normierung des GEAK», Version 2.1.0, EnDK / Verein GEAK-CECB-CECE, verabschiedet
+30.03.2023, gelesen 07.08.2026 → `[[geak-normierung-berechnungsmethodik]]` (Status **emerging**,
+Refuter-Panel Run 125, tragende Punkte korrigiert) und `[[geak-klassengrenzen-relative-klassierung]]`
+(established).
+
+---
+
+## F219 — «Unsere Stockwerkeigentümerschaft muss die Heizung ersetzen — wie gehen wir vor, und was kostet die Beratung?»
+
+**Kurz:** Zuerst die Rechtslage klären, dann erst Systeme vergleichen. Im Kanton Zürich und im
+Kanton Schwyz ist der reine Ersatz einer Öl- oder Gasheizung durch eine neue fossile Heizung
+bereits heute nicht mehr zulässig. Danach folgt der Ablauf über eine Impulsberatung, den
+Vollkostenvergleich, Offerten, Bewilligung und Fördergelder. Für ein grösseres Mehrfamilienhaus
+oder eine Stockwerkeigentümerschaft empfahl der Bund 2021 rund CHF 1'500 bis 2'000 für die
+Impulsberatung.
+
+**Fachlich:** Im Kanton Zürich verlangt § 11 Abs. 2 EnerG beim Ersatz eines Wärmeerzeugers in
+bestehenden Bauten ausschliesslich erneuerbare Energien, sofern das technisch möglich ist und die
+Lebenszykluskosten um höchstens 5 % steigen; im Kanton Schwyz gilt beim Wärmeerzeugerersatz das
+90-%-Modell nach § 8d kEnG. Das ist geltendes kantonales Recht und hängt nicht an der MuKEn 2025,
+die verabschiedet, aber noch nicht überall in Kraft ist. Der Ablauf selbst umfasst sieben
+Schritte: früh planen, Impulsberatung, Vollkosten statt Investitionskosten rechnen, Offerten
+einholen, Behörden einbeziehen, Fördergelder sichern, umbauen. Bei Stockwerkeigentum kommt die
+Finanzierungsfrage dazu: Erneuerungsfonds, Darlehen an die Gemeinschaft oder aufgestockte
+Einzelhypotheken. Wertvermehrende Massnahmen können grundsätzlich auf die Mietzinse überwälzt
+werden, die Höhe ist im Einzelfall zu prüfen.
+
+**Bauherren-Transfer:** Der teuerste Fehler in der Stockwerkeigentümerschaft ist ein Beschluss
+über ein System, das nachher nicht bewilligungsfähig ist. Ein einmal gefasster Beschluss muss
+dann neu traktandiert und neu beschlossen werden, was schnell Monate kostet. Deshalb gehört der
+Nachweis der Substitutionspflicht an den Anfang, vor die Systemdiskussion, und im Kanton Zürich
+vorgelagert die Lebenszykluskosten-Berechnung. Die genannten CHF 1'500 bis 2'000 sind eine
+Empfehlung des Bundes aus dem Jahr 2021 und kein Marktpreis; vor einer Kostenaussage im Mandat
+ist der aktuelle Stand abzufragen. Für kleinere Objekte führt der Bund zudem eine kostenlose
+Impulsberatung, ab welcher Objektgrösse sie kostenpflichtig wird, ist nicht belegt.
+
+**Quelle:** EnergieSchweiz/BFE, «Heizungsersatz in grösseren Mehrfamilienhäusern und bei
+Stockwerkeigentum», Artikelnummer 805.203.D, Ausgabe 10.2021, gelesen 07.08.2026 →
+`[[heizungsersatz-groessere-mfh-stweg]]`. Rechtslage ZH/SZ aus amtlichem Primärtext:
+`[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` (established). Status der Kostenangabe
+**emerging**, Stand 10.2021.
+
+---
+
+## F220 — «Wir wollen ein gesundes Raumklima. Wie wird daraus etwas, das ich auch einfordern kann?»
+
+**Kurz:** Indem es in drei Schritten schriftlich wird: als Zielvorgabe im Pflichtenheft der
+Vorstudien, als Zielvereinbarung im Planervertrag und als Emissionsanforderung mit Prüfverfahren
+in der Ausschreibung. Ohne diese Kette bleibt gutes Raumklima ein Wunsch ohne Anspruchsgrundlage.
+Nicht alles daran ist allerdings freiwillig: die Schadstoffabklärung bei Umbauten ist Pflicht.
+
+**Fachlich:** Der Leistungsbeschrieb ordnet die Verantwortlichkeiten den SIA-Phasen zu. In der
+Phase Vorstudien setzt die Bauherrschaft die Zielvorgabe, in der Projektierung wird daraus die
+Zielvereinbarung im Planervertrag, in der Ausschreibung werden Materialbeschriebe mit
+Schadstoffgehalt, Emissionsgrenzwerten und Prüfverfahren verlangt, und bei der Inbetriebnahme
+stehen Messungen zu Schadstoffen, Keimen, Feinstaub, Luftwechsel und thermischer Behaglichkeit
+sowie eine Überprüfung bei Ablauf der zweijährigen Garantiefrist. Die Terminplanung muss
+Austrocknungs- und Auslüftungszeiten ausdrücklich enthalten. Ein Vorbehalt zur Werkzeugebene: Die
+in der Quelle genannten SIA-493-Deklarationsblätter sind per 30.06.2022 archiviert und haben
+keinen vom Herausgeber ausgewiesenen Nachfolger. Eine Klausel «Deklaration nach SIA 493» im
+Leistungsverzeichnis oder Werkvertrag geht heute ins Leere; Materialanforderungen sind über
+ecoBKP beziehungsweise über EPD nach EN 15804+A2 zu fassen.
+
+**Bauherren-Transfer:** Die Bestellung kostet wenig und wirkt spät: Wer die Zielvereinbarung im
+Planervertrag hat, kann bei der Abnahme messen lassen und Mängel geltend machen. Wer sie nicht
+hat, diskutiert nach Bezug über Geruch und Kopfweh ohne Massstab. Zwei Punkte gehören dabei
+auseinandergehalten. Die Zielvereinbarung Innenraumklima ist freiwillig und muss bestellt werden.
+Die Schadstoffabklärung dagegen ist bei Umbau und Rückbau im Kanton Zürich Pflicht: Baujahr vor
+1990 löst sie aus, ab CHF 200'000 Bausumme mit Fachperson Gebäudeschadstoffe und privater
+Kontrolle, das Entsorgungskonzept ist Baugesuchsbeilage vor der Baufreigabe.
+
+**Quelle:** Übersichtsblätter «Leistungsbeschrieb Innenraumklima» aus Reto Coutalides (Hrsg.),
+«Innenraumklima — Wege zu gesunden Bauten», Werd Verlag (kein Datum im Dokument, PDF-Metadaten
+2009), gelesen 07.08.2026 → `[[innenraumklima-leistungsbeschrieb]]` (Status **emerging**).
+Normstatus SIA 493 verifiziert am Herausgeber 04.08.2026 über `wissen/normen`. Schadstoffpflicht:
+`[[gebaeudeschadstoffe-checkliste-zh]]` (established).
+
+---
+
+## F221 — «Wir kaufen ein Haus mit Minergie-Zertifikat von 2012 — was heisst das heute?»
+
+**Kurz:** Weniger, als der Begriff heute suggeriert. Ein Zertifikat aus den Jahren um 2010 belegt
+den damaligen Standard, und der kannte weder eine PV-Pflicht noch ein Monitoring noch eine
+Anforderung an die graue Energie. Das Label sagt also etwas über die Gebäudehülle und die
+Haustechnik von damals aus, nicht über den heutigen Minergie-Standard.
+
+**Fachlich:** Zwischen dem Reglement von 2010 und dem geltenden Produktreglement 2026.1 haben
+sich vier Dinge strukturell verschoben. Erstens die Referenznorm: SIA 380/1 in der Fassung
+2007/2009 gegenüber der Fassung 2016, weshalb Prozentwerte aus beiden Fassungen nicht direkt
+vergleichbar sind. Zweitens die Bezugsgrösse der Primäranforderung, damals der eigene
+SIA-380/1-Neubau-Grenzwert, heute der MuKEn-2025-Grenzwert. Drittens die Kennzahl-Systematik, die
+heute auch Beleuchtung, Geräte und einen PV-Abzug enthält. Viertens der Eigenstrom, der von einer
+freiwilligen Gutschrift zu einer Pflicht mit vorgegebener Dachbelegung geworden ist. Dazu kommen
+zwei Anforderungen, die es 2010 überhaupt nicht gab: das Monitoring ab einer bestimmten Grösse
+und die Treibhausgasemissionen der Erstellung.
+
+**Bauherren-Transfer:** Für den Kaufentscheid heisst das erstens, das Zertifikat als Beleg für
+den Bauzustand zu lesen und nicht als Qualitätsversprechen nach heutigem Massstab. Zweitens
+lohnt sich der Blick auf die Haustechnik: Ein 2012 zertifiziertes Haus hat mit hoher
+Wahrscheinlichkeit keine PV-Anlage, und der Wärmeerzeuger nähert sich nach 14 Jahren dem
+Ersatzzeitpunkt, womit die kantonale Substitutionspflicht ins Spiel kommt. Drittens ist Vorsicht
+geboten bei Aussagen zur Gültigkeit: Das Reglement 2010 nennt eine Fünfjahresfrist im
+Zusammenhang mit der Mehrfachanwendung der Marke. Ob damit auch das objektbezogene Zertifikat
+verfällt, ist aus dieser Quelle nicht zu entscheiden. Vor einer Aussage gegenüber Käuferschaft
+oder Bank ist der Zertifikatsstatus bei der Zertifizierungsstelle abzufragen, statt ihn
+herzuleiten.
+
+**Quelle:** Verein MINERGIE, «Reglement zur Nutzung der Qualitätsmarke MINERGIE», Stand Januar
+2010, und «Wegleitung Nachweis-Formular MINERGIE», Version 11 vom 03.02.2010, gelesen 07.08.2026
+→ `[[minergie-reglement-wegleitung-2010-historisch]]` (Status **superseded**, historische
+Fassung). Geltender Stand: `[[minergie-produktreglement-2026-1-muken-vergleich]]`.

@@ -165,11 +165,16 @@ Was von diesem 24 Jahre alten Forschungsstand heute noch praktisch trägt:
   arbeitet, sind eine andere Systematik als hier vorgeschlagen (siehe
   Aktualitätsvorbehalt unten). Für ein aktuelles Projekt ist ausschliesslich das laufende
   MINERGIE-Produktreglement massgebend, nicht dieser Forschungsvorschlag.
-- **Holzheizung ökologisch vorn, aber Datenbasis von 2002:** Die qualitative Aussage
-  «Holzheizung schneidet ökologisch am besten ab, der MINERGIE-Korrekturfaktor 0.6 ist
-  plausibel» bleibt eine brauchbare Faustregel für die Systemwahl in der frühen Beratung — die
-  zugrundeliegenden Primärenergiefaktoren und der damalige Strommix sind aber veraltet (siehe
-  unten) und dürfen nicht für eine aktuelle Energienachweis-Berechnung verwendet werden.
+- **⚠ Holzheizung: Aussage NICHT als Faustregel übernehmen.** Der 2002 bestätigte
+  MINERGIE-Korrekturfaktor 0,6 für Holz existiert nicht mehr; Minergie gewichtet Biomasse heute
+  mit **0,5** (siehe [[minergie-p-a-anwendungshilfe-2019]]). Auch die ökologische Rangfolge von
+  2002 (Ökoinventare 96, Strommix 2002) trägt eine Systemwahl heute nicht: massgebend sind
+  KBOB-Ökobilanzdaten 2009/1:2022 und SIA 2032:2020. Für ZH kommt hinzu, dass der Kanton den
+  Ersatz einer fossilen Heizung durch eine Pelletheizung von der kantonalen Förderung
+  ausschliesst und Holzfeuerungen alle zwei Jahre kontrolliert werden (LRV Anhang 3 Ziff. 52) —
+  siehe [[holzfeuerung-heizungsersatz-lrv-foerderung-zh-sz]]. Die Systemwahl in der frühen
+  Beratung führt über [[heizsysteme-vollkostenvergleich-energieschweiz]] und die kantonale
+  Förderlage, nicht über diesen Bericht.
 
 ## Offene Punkte
 
@@ -208,7 +213,9 @@ Was von diesem 24 Jahre alten Forschungsstand heute noch praktisch trägt:
   aktuellen KBOB-Ökobilanzdaten/SIA-2032-Faktoren weichen deutlich davon ab.
 - Die SIA 384/2 (1982), im Bericht selbst als für MINERGIE-Zwecke ungeeignet bezeichnet und als
   «in Kürze» zu ersetzen angekündigt (S. 35), ist inzwischen durch eine aktuelle Norm zur
-  Heizleistungsberechnung abgelöst.
+  Heizleistungsberechnung abgelöst: die Heizlast wird heute nach SN EN 12831 / SIA 384.201
+  ermittelt, die erforderliche Wärmepumpenleistung nach SIA 384/1 (siehe
+  [[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]).
 - Die SIA 380/1:2001, auf der der gesamte Bericht rechnerisch aufbaut, ist selbst durch spätere
   Ausgaben ersetzt (Klimareferenz und Korrekturfaktoren geändert) — siehe
   [[gebaeudehuellziffer-ebf-flaechendefinition]] für die aktuelle Basis.
@@ -224,3 +231,10 @@ Was von diesem 24 Jahre alten Forschungsstand heute noch praktisch trägt:
   `minergie-produktreglement-2026-1-muken-vergleich.md`, `minergie-besser-planen-bauen.md`.
 - Aktuelle SIA-380/1-Klimareferenz und Gebäudehüllzahl-Formel: `muken-2025-anhang-1-3-uwert-heizwaermebedarf.md`
   und `gebaeudehuellziffer-ebf-flaechendefinition.md`.
+
+## Aktualitaetspruefung Run 125 (07.08.2026)
+Der Bauherren-Transfer erklaerte die Holzheizungs-Aussage von 2002 samt Korrekturfaktor 0,6 zur
+«brauchbaren Faustregel fuer die Systemwahl» — dieser Satz war der gefaehrlichste der Datei, weil
+der Faktor heute 0,5 betraegt und die kantonale Foerderlage (ZH) Pelletheizungen als Oelheizungsersatz
+ausschliesst. Ersetzt durch einen expliziten Warnhinweis; zusaetzlich den Nachfolger der SIA 384/2
+(SN EN 12831 / SIA 384.201, SIA 384/1) im Aktualitaetsvorbehalt ergaenzt.

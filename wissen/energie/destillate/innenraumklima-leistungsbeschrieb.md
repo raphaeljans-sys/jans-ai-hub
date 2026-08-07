@@ -24,7 +24,7 @@ Die Tabellen sind nach vier Spalten aufgebaut: Leistungsbereich/Modul, erwartete
 | 2 Vorstudien, 22 Auswahlverfahren | Auftraggeber genehmigt Programm und Zuschlagskriterien | Planer erstellen das Programm inkl. Zielvorgabe und Immissionsplan als Beilage, führen die Vorprüfung durch, formulieren bei GU-/Gesamtleistungswettbewerben eine präzise Zielvereinbarung Innenraumklima samt Anforderungskatalog und Beschrieb der Planungsleistungen inkl. Kontrollplan | Auswahlverfahren mit Bedingungen, die das Innenraumklima betreffen; Jurybericht mit Bewertung innenraumklimarelevanter Faktoren |
 | 3 Projektierung, 31 Vorprojekt | Auftraggeber bestellt die Baustoffanalyse (bei Umbau/Sanierung), genehmigt Bewertungskriterien und Termine, entscheidet über die weiterzuverfolgende Projektvariante | Planerteam mit definierter Planungsleistung Innenraumklima über die ganze Planungs-/Ausführungsphase (Referenz KBOB/IPB Empfehlung 2004/1); bei Umbau/Sanierung Analyse der Bausubstanz auf raumluftrelevante Schadstoffe; Variantenstudium mit Bewertung; Berücksichtigung der Auslüftungszeit im Terminplan | Planervertrag mit definierter Planungsleistung Innenraumklima; Anforderungskatalog für die Betriebsnutzung |
 | 3 Projektierung, 32 Bauprojekt | Auftraggeber genehmigt die fachübergreifende Zielvereinbarung und das überarbeitete Bauprojekt, bestellt den Anforderungskatalog für Betrieb/Unterhalt | Planer erarbeiten die Zielvereinbarung im Team, prüfen raumluftrelevante Konstruktionen/Materialien auf Schadstoffe und Emittenten, optimieren Gebäudekonzeption/Haustechnik, erstellen den Unterhaltskatalog (z.B. Filterwechsel bei Lüftungsanlagen) | Zielvereinbarung Innenraumklima; überarbeitete Konzepte; Unterhaltskatalog Haustechnik |
-| 4 Ausschreibung, 41 Ausschreibung/Offertvergleich/Vergabeantrag | Auftraggeber legt Verfahren und Organisation fest, genehmigt Ausschreibungsunterlagen und Zuschlagskriterien, genehmigt die Vergabeanträge | Planer erstellen Ausschreibungsunterlagen mit speziellen Bedingungen entsprechend der Zielvereinbarung, Hinweisen auf Abnahmen/Nachweise, präzisen Materialbeschrieben inkl. Schadstoffgehalt und Emissionsgrenzwerten/Prüfverfahren (Referenz SIA 493 Deklarationsblätter); analysieren die Angebote entsprechend Zielvereinbarung, fordern bei kritischen Stoffen zusätzliche Deklarationen/Prüfprotokolle | Ausschreibungsunterlagen mit präzisen Innenraumklima-Anforderungen; Offertvergleich mit qualitativer Analyse; Vergabeanträge |
+| 4 Ausschreibung, 41 Ausschreibung/Offertvergleich/Vergabeantrag | Auftraggeber legt Verfahren und Organisation fest, genehmigt Ausschreibungsunterlagen und Zuschlagskriterien, genehmigt die Vergabeanträge | Planer erstellen Ausschreibungsunterlagen mit speziellen Bedingungen entsprechend der Zielvereinbarung, Hinweisen auf Abnahmen/Nachweise, präzisen Materialbeschrieben inkl. Schadstoffgehalt und Emissionsgrenzwerten/Prüfverfahren (Referenz SIA 493 Deklarationsblätter, ⚠ seit 30.06.2022 archiviert ohne Nachfolger, siehe Aktualitätsvorbehalt); analysieren die Angebote entsprechend Zielvereinbarung, fordern bei kritischen Stoffen zusätzliche Deklarationen/Prüfprotokolle | Ausschreibungsunterlagen mit präzisen Innenraumklima-Anforderungen; Offertvergleich mit qualitativer Analyse; Vergabeanträge |
 | 5 Realisierung, 51 Ausführungsprojekt (Planung) | Auftraggeber genehmigt detaillierten Baubeschrieb, Ausführungs-/Detailpläne, Dokumentation, Einrichtungskonzept und Termine | Planer erstellen detaillierten Baubeschrieb und Ausführungs-/Detailpläne mit Material-/Anlageanforderungen, Massnahmenpläne zu Bauwerksbetrieb/-unterhalt (Filterwechsel, Gebäudereinigung), beraten bei Einrichtung/Möblierung, erstellen Terminplan unter Berücksichtigung der Austrocknungs- und Auslüftungszeit | Aktualisierter Baubeschrieb; Ausführungs-/Detailpläne; Terminplan mit Auslüftungszeit |
 | 5 Realisierung, 52 Ausführung | Auftraggeber genehmigt Ablauf des Änderungswesens und das Bauschlussreinigungskonzept, fordert bei Bedarf eine externe Baustellenkontrolle an | Planer/Bauleitung informieren und instruieren Unternehmer/Lieferanten über die Zielvereinbarung, kontrollieren Werkstatt und Baustelle (Materialien, Ausführung, allfällige Materialprüfungen), überprüfen Gebäudekonzeption/Bauwerksbetrieb/-unterhalt, leiten Massnahmen zur Bauwerkstrocknung ein, stimmen die Bauschlussreinigung auf die Unterhaltsreinigung ab | Protokolle der Werkstatt-/Baustellenkontrollen; Bauschlussreinigung; Protokoll externer Baustellenkontrolle |
 | 5 Realisierung, 53 Inbetriebnahme, Abschluss | Auftraggeber nimmt das Bauwerk entsprechend der Zielvereinbarung ab, bestellt Unterlagen für Bauwerksbewirtschaftung, bestellt die Überprüfung der Zielvereinbarung im Rahmen der Garantieabnahme (Referenz s-cert.ch) | Planer prüfen Material/Konstruktion, Haustechnik-/Gebäudekonzept (Winter-/Sommerhalbjahr, Schnittstellen der Anlagesysteme, integrierte Tests), Einhaltung der Austrocknungs-/Auslüftungsfrist; lassen Messungen durch Spezialisten in ausgewählten Bereichen durchführen (Schadstoffe, Keime, Feinstaub, Luftwechsel, thermische Behaglichkeit); erstellen Bauwerksdokumentation mit Deklarationen/Messwerten und Merkblätter für Betrieb/Nutzer | Abnahmeprotokolle; Bauwerksdokumentation inkl. Ergebnisse der Abnahmemessungen; Garantieabnahme bei Ablauf der zweijährigen Garantiefrist |
@@ -34,12 +34,20 @@ Die Tabellen sind nach vier Spalten aufgebaut: Leistungsbereich/Modul, erwartete
 Die acht gelesenen Seiten selbst nennen **keinen einzigen Zahlenwert** (kein Formaldehyd-, TVOC-, CO2- oder sonstiger Grenzwert). Sie benennen nur, in welchen Phasen gemessen/geprüft wird und wonach:
 
 - Abnahmemessungen (Phase 53) erfolgen «durch Spezialisten in ausgewählten Bereichen» zu Schadstoffen, Keimen, Feinstaub, Luftwechsel, thermischer Behaglichkeit — «entsprechend Zielvereinbarung Innenraumklima und Anforderungen Gebäudelabel».
-- Materialanforderungen in der Ausschreibung (Phase 41) verweisen auf «Emissionsgrenzwerte und Prüfverfahren» und auf die SIA 493 Deklarationsblätter — die konkreten Werte selbst stehen nicht auf diesen Übersichtsblättern, sondern in den verwiesenen Hilfsmitteln.
+- Materialanforderungen in der Ausschreibung (Phase 41) verweisen auf «Emissionsgrenzwerte und Prüfverfahren» und auf die SIA 493 Deklarationsblätter (⚠ seit 30.06.2022 archiviert ohne Nachfolger, siehe Aktualitätsvorbehalt) — die konkreten Werte selbst stehen nicht auf diesen Übersichtsblättern, sondern in den verwiesenen Hilfsmitteln.
 - Die zweijährige Garantiefrist (Phase 53) wird explizit genannt als Zeitpunkt der Überprüfung der Zielvereinbarung Innenraumklima.
 
 Die eigentlichen Zahlenwerte (Formaldehyd, TVOC, CO2) stammen aus der KBOB/IPB-Empfehlung 2004/1, bereits destilliert in [[minergie-innenraumklima]] — siehe Abschnitt Dublettenprüfung unten.
 
 ## Bauherren-Transfer
+
+- **⚠ Nicht alles daran ist freiwillig.** Der Leistungsbeschrieb stellt die Baustoff-/
+  Schadstoffanalyse als Bestellung des Auftraggebers dar. Bei Umbau und Rückbau ist sie im Kanton
+  Zürich **Pflicht**, nicht Option: Baujahr vor 1990 löst die Schadstoffabklärung aus
+  (Art. 16-20 VVEA), ab CHF 200'000 Bausumme mit Fachperson Gebäudeschadstoffe und privater
+  Kontrolle, Entsorgungskonzept als Baugesuchsbeilage vor Baufreigabe, siehe
+  [[gebaeudeschadstoffe-checkliste-zh]]. Der Satz «ohne diese Schritte kein Anspruch» weiter unten
+  gilt für die **Zielvereinbarung Innenraumklima**, nicht für den gesetzlichen Schadstoff-Teil.
 
 Für die Bauherrschaft ist der Kernpunkt dieses Leistungsbeschriebs: Ein gutes Innenraumklima ist keine Selbstverständlichkeit der Planerleistung, sondern eine **eigens zu bestellende und zu bezahlende Zusatzleistung über den ganzen Planungsverlauf**. Damit die Raumluftqualität am Ende vertraglich geschuldet ist, muss der Bauherr:
 
@@ -64,7 +72,17 @@ Ohne diese Schritte ist Innenraumklima ein unverbindliches Anliegen ohne Anspruc
 Mutmasslich stark überholt, falls das Erscheinungsjahr 2009 (nur PDF-Metadaten, nicht im Dokument belegt) zutrifft:
 
 - Die als Hilfsmittel verwiesene **KBOB/IPB Empfehlung 2004/1** ist die Ausgabe von 2004; ob sie seither revidiert wurde, ist in [[minergie-innenraumklima]] als offener Punkt vermerkt und hier nicht zusätzlich geprüft.
-- Die verwiesenen **SIA 493 Deklarationsblätter** und das **Qualitätssicherungs-Paket Komfortlüftungen** von minergie.ch dürften seit rund 15+ Jahren mehrfach aktualisiert worden sein; die auf diesen Übersichtsblättern verwendeten Seitenangaben und Downloadverweise (eco-bau.ch, bbl.admin.ch/kbob, s-cert.ch) sind mit hoher Wahrscheinlichkeit nicht mehr die aktuellen URLs/Fassungen.
+- **⚠ SIA 493 ist tot, nicht revidiert.** Die Norm SIA 493 «Deklaration ökologischer Merkmale von
+  Bauprodukten» ist per **30.06.2022 archiviert** und hat **keinen vom Herausgeber ausgewiesenen
+  Nachfolger** (shop.sia.ch, verifiziert 04.08.2026, `wissen/normen/wiki/REGISTER.md`). Eine
+  Ausschreibungs- oder Werkvertragsklausel «Deklaration nach SIA 493» geht ins Leere.
+  Materialanforderungen in Phase 41 sind heute über eco-devis/ecoBKP und über EPD nach
+  EN 15804+A2 bzw. die KBOB-Ökobilanzdaten zu fassen — Letzteres ausdrücklich als Sekundärweg,
+  nicht als Nachfolgeregelung des SIA (siehe [[bauoekologische-submissionsbedingungen]]). Das
+  **Qualitätssicherungs-Paket Komfortlüftungen** von minergie.ch dürfte seit rund 15+ Jahren
+  mehrfach aktualisiert worden sein; die auf diesen Übersichtsblättern verwendeten Seitenangaben
+  und Downloadverweise (eco-bau.ch, bbl.admin.ch/kbob, s-cert.ch) sind mit hoher Wahrscheinlichkeit
+  nicht mehr die aktuellen URLs/Fassungen.
 - Das SIA-Phasenmodell mit den Modul-Nummern 21/22/31/32/41/51/52/53 entspricht der älteren SIA-112-Systematik; ob die heute gültige Fassung dieselbe Nummerierung verwendet, wurde hier nicht geprüft.
 - Diese Einschätzung beruht auf der allgemeinen Erwartung, dass über 15 Jahre alte Fachliteratur-Verweise veralten, nicht auf einer Prüfung der aktuell geltenden Fassungen — diese Prüfung ist für eine verbindliche JANS-Aussage nachzuholen.
 
@@ -75,3 +93,10 @@ Mutmasslich stark überholt, falls das Erscheinungsjahr 2009 (nur PDF-Metadaten,
 ## Verwandte Themen
 
 [[minergie-innenraumklima]] · [[behaglichkeit-raumklima-kbob-ipb]] · [[raumluftfeuchte-komfortbereich-sia180]] · [[minergie-eco-gebaeudelabel]] · [[komfortlueftung-wohnungslueftung-ch]]
+
+## Aktualitaetspruefung Run 125 (07.08.2026)
+Der Bauherren-Transfer empfahl die SIA-493-Deklarationsblaetter als Ausschreibungsreferenz, waehrend
+der Vorbehalt sie nur als «vermutlich aktualisiert» einordnete. Verifiziert: SIA 493 ist per
+30.06.2022 archiviert, ohne Nachfolger. Korrektur an beiden Fundstellen im Fliesstext (Phase 41) und
+im Aktualitaetsvorbehalt eingesetzt, dazu ein neuer erster Spiegelstrich im Bauherren-Transfer zur
+Pflicht-Schadstoffanalyse bei Umbau/Rueckbau im Kanton Zuerich.

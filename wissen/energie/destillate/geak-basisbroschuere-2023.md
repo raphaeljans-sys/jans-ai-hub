@@ -1,10 +1,10 @@
 ---
 quelle: "GEAK-Basisbroschüre «Der Gebäudeenergieausweis der Kantone (GEAK) — Ihre Entscheidungshilfe für die Gebäudesanierung»"
-herausgeber: "Verein GEAK, mit Unterstützung von EnergieSchweiz (Bundesamt für Energie BFE) und EnDK (Konferenz Kantonaler Energiedirektoren)"
+herausgeber: "Verein GEAK, mit Unterstützung von EnergieSchweiz (Bundesamt für Energie BFE, Fussleiste S. 7: «Mit Unterstützung von»); das EnDK-Logo (Konferenz Kantonaler Energiedirektoren) steht auf S. 7 daneben, ohne eigene Rollenangabe"
 ausgabe: "Auflage 02/2023, 2500 Exemplare — Impressum letzte Seite unten rechts, wörtlich: «02/2023, 2500»"
 gelesen: "2026-08-07, vollständig Seiten 1-7 (alle 7 Seiten der Broschüre, lokale Arbeitskopie)"
-datenstand: "2023 (Ausgabe 02/2023); laut Broschüre gelten die Skalen Gebäudehülle/Gesamtenergie unveraendert seit 2009, die CO2-Skala kam 2023 dazu"
-status: established
+datenstand: "2023 (Ausgabe 02/2023); die Skalen Gebäudehülle/Gesamtenergie bestehen laut Broschüre seit 2009, die CO2-Skala kam 2023 hinzu — die Broschüre sagt nichts darüber, ob die Skalen seither methodisch verändert wurden"
+status: "established (Refuter-Panel Run 125: 65 Aussagen geprüft, 56 bestätigt, 9 Zitattreue-/Formalbeanstandungen korrigiert)"
 last_updated: "2026-08-07"
 ---
 
@@ -31,9 +31,10 @@ bringt diese Broschüre fünf genuin neue Punkte:
    Abgrenzung GEAK (Bestand) versus EN-ZH/EVEN (Neubau-Pflichtnachweis ZH).
 4. **Konkrete Anwendungsbereiche** (S. 2): Wohngebäude, Verwaltungs- und Schulbauten, Hotels,
    Verkaufsflächen, Restaurants sowie Mischnutzungen dieser Kategorien.
-5. **Historische Einordnung der drei Skalen** (S. 4): Gebäudehülle/Gesamtenergie gelten laut
-   Broschüre unverändert seit 2009, die CO2-Skala kam 2023 hinzu — sowie die Vereins-Stammdaten
-   (Adresse, Telefon, Mail) für den Kontaktfall.
+5. **Historische Einordnung der drei Skalen** (S. 4): Gebäudehülle/Gesamtenergie bestehen laut
+   Broschüre seit 2009, die CO2-Skala kam 2023 hinzu — die Broschüre sagt nichts darüber, ob die
+   Skalen seither methodisch verändert wurden — sowie die Vereins-Stammdaten (Adresse, Telefon,
+   Mail) für den Kontaktfall (S. 7).
 
 ## Kernaussagen
 
@@ -54,10 +55,10 @@ bringt diese Broschüre fünf genuin neue Punkte:
 
 | Klasse | Effizienz Gebäudehülle | Effizienz Gesamtenergie | Direkte CO2-Emissionen |
 |---|---|---|---|
-| A | Hervorragende Wärmedämmung (Dach, Fassade, Keller), Fenster mit Dreifach-Wärmeschutzverglasungen (z.B. Minergie-P). | Hocheffiziente Gebäudetechnik für Heizung und Warmwasser, effiziente Beleuchtung und Geräte, Einsatz erneuerbarer Energien und Eigenstromerzeugung (z.B. Minergie-A). | Das Gebäude emittiert keine direkten CO2-Emissionen. |
+| A | Hervorragende Wärmedämmung (Dach, Fassade, Keller), Fenster mit Dreifach-Wärmeschutzverglasungen z.B. Minergie-P) [sic]. | Hocheffiziente Gebäudetechnik für Heizung und Warmwasser, effiziente Beleuchtung und Geräte, Einsatz erneuerbarer Energien und Eigenstromerzeugung (z.B. Minergie-A). | Das Gebäude emittiert keine direkten CO2-Emissionen. |
 | B | Gebäude mit einer thermischen Gebäudehülle, die den gesetzlichen Anforderungen entspricht. | Gebäudehülle und Gebäudetechnik im Neubaustandard, Einsatz erneuerbarer Energien (Beispiel Minergie Systemerneuerung). | Das Gebäude emittiert nur sehr geringe CO2-Emissionen, beispielsweise für die Spitzenlastabdeckung. |
-| C | Altbauten mit umfassend erneuerter Gebäudehülle (Beispiel Minergie Systemerneuerung). | Umfassende Altbausanierung Wärmedämmung und Gebäudetechnik, meist kombiniert mit erneuerbaren Energien. | Das Gebäude emittiert geringe CO2-Emissionen, möglicherweise durch Kombination einer sehr guten Gebäudehülle mit fossiler Heizung oder fossiler Spitzenlastabdeckung. |
-| D | Nachträglich gut und umfassend gedämmter Altbau, jedoch mit verbleibenden Wärmebrücken. | Weitgehende Altsanierung, jedoch mit deutlichen Lücken oder ohne den Einsatz von erneuerbaren Energien. | Das Gebäude emittiert erhebliche CO2-Emissionen. Eine Reduktion kann mit dem Einsatz von erneuerbarer Energie und der Verbesserung der Gebäudehülle erzielt werden. |
+| C | Altbauten mit umfassend erneuerter Gebäudehülle (Beispiel Minergie Systemerneuerung). | Umfassende Altbausanierung Wärmedämmung und Gebäudetechnik) [sic], meist kombiniert mit erneuerbaren Energien. | Das Gebäude emittiert geringe CO2-Emissionen, möglicherweise durch Kombination einer sehr guten Gebäudehülle mit fossiler Heizung oder fossile [sic] Spitzenlastabdeckung. |
+| D | Nachträglich gut und umfassend gedämmter Altbau, jedoch mit verbleibenden Wärmebrücken. | Weitgehende Altbausanierung, jedoch mit deutlichen Lücken oder ohne den Einsatz von erneuerbaren Energien. | Das Gebäude emittiert erhebliche CO2-Emissionen. Eine Reduktion kann mit dem Einsatz von erneuerbarer Energie und der Verbesserung der Gebäudehülle erzielt werden. |
 | E | Altbauten mit Verbesserung der Wärmedämmung, inkl. neuer Wärmeschutzverglasung. | Teilsanierte Altbauten, z.B. neue Wärmeerzeugung und evtl. neue Geräte und Beleuchtung. | Das Gebäude emittiert viele CO2-Emissionen, beispielsweise wegen einer rein fossilen Heizung (Öl oder Gas) oder einer ungenügenden Gebäudehülle. |
 | F | Gebäude, die teilweise gedämmt sind. | Bauten mit einzelnen neuen Komponenten (Gebäudehülle, Gebäudetechnik, Beleuchtung etc.). | Das Gebäude emittiert zu viele CO2-Emissionen und weist erhebliches Potenzial auf für einen Umstieg auf erneuerbare Energien und eine Sanierung der Gebäudehülle. |
 | G | Altbauten ohne oder mit mangelhafter nachträglicher Dämmung und grossem Sanierungspotenzial. | Altbauten mit veralteter Gebäudetechnik und ohne Einsatz erneuerbarer Energien, die ein grosses Verbesserungspotenzial aufweisen. | Das Gebäude wird fossil beheizt und emittiert sehr viele CO2-Emissionen. Der Einsatz von erneuerbaren Energien und Verbesserungen der Gebäudehülle sind unbedingt empfohlen. |
@@ -70,7 +71,8 @@ kWh/m²-Grenzwert. Das ist mit der established-Aussage in `[[geak-klassengrenzen
 ### Angebote des Vereins GEAK (S. 4)
 - **GEAK** (Basisprodukt): «Das Basisprodukt GEAK ist die offizielle Energieetikette der Kantone
   und zeigt im vierseitigen GEAK-Dokument die Energieklasse der Gebäudehülle, die
-  Gesamtenergiebilanz sowie die Klassierung der direkten CO2-Emissionen in sieben Klassen (A bis G).»
+  Gesamtenergiebilanz sowie die Klassierung der direkten CO2-Emissionen in sieben Klassen (A bis G)
+  an.»
 - **GEAK Plus**: «beinhaltet neben der Energieetikette Varianten für eine energetische Sanierung.»
 - **GEAK Neubau**: «Der GEAK kann in einzelnen Kantonen auch auf Neubauten und Ersatzneubauten
   angewendet werden.» — welche Kantone genau, nennt die Broschüre nicht (offener Punkt unten).
@@ -86,7 +88,7 @@ kWh/m²-Grenzwert. Das ist mit der established-Aussage in `[[geak-klassengrenzen
 ### Der Weg zum GEAK — neun Schritte (S. 5, verdichtet)
 1. Handlungsbedarf erkennen.
 2. GEAK Expertin/Experten wählen (Suche über geak.ch).
-3. Offerte anfordern. Wörtlich: «Die Ausstellung des GEAK und GEAK Plus kosten je nach Gebäude,
+3. Offerte anfordern. Wörtlich: «Die Ausstellung des GEAK und GEAK Plus kostet je nach Gebäude,
    Region und Experte unterschiedlich viel. Wir empfehlen Ihnen, mehrere Offerten mit einem
    genauen Leistungsbeschrieb einzuholen.» (kein Richtpreis, deckungsgleich mit Bestand).
 4. Fördermöglichkeiten abklären. Wörtlich: «Die meisten Kantone und einzelne Gemeinden
@@ -120,6 +122,10 @@ Weiterführende Links laut Broschüre: endk.ch/de (Förderprogramme/Energiepolit
 energieschweiz.ch (Programm des BFE), minergie.ch, hev-schweiz.ch.
 
 ## Bauherren-Transfer
+
+*(Eigene Einordnung, nicht so in der Broschüre formuliert; Zahlen aus verlinkten KB-Artikeln,
+nicht aus dieser Quelle.)*
+
 - Für ein erstes Bauherren-Gespräch liefert diese Broschüre den **roten Faden**: neun Schritte,
   von «Handlungsbedarf erkennen» bis «Bauleitung und Sanierungsumsetzung» — nützlich als
   Gesprächsgerüst, wenn eine Eigentümerschaft zum ersten Mal einen GEAK/GEAK Plus erwägt.
@@ -131,9 +137,10 @@ energieschweiz.ch (Programm des BFE), minergie.ch, hev-schweiz.ch.
   (Urheberrecht, Rule `normen-referenz.md`).
 - **Finanzierungsargument für die Bauherrschaft:** Der Hinweis auf vergünstigte
   Hypothekenkonditionen und steuerliche Vorteile durch den GEAK Plus ist ein zusätzliches
-  Verkaufsargument neben der reinen Förderberechtigung ab CHF 10'000 — aber unbelegt in Bank/
-  Kanton-Konkretheit; im Einzelfall bei der finanzierenden Bank bzw. Steuerbehörde verifizieren,
-  nicht pauschal versprechen.
+  Verkaufsargument neben der reinen Förderberechtigung (Schwelle je Kanton, siehe
+  [[geak-gebaeudeenergieausweis-kantone]]; die Broschüre nennt keinen Betrag) — aber unbelegt in
+  Bank/Kanton-Konkretheit; im Einzelfall bei der finanzierenden Bank bzw. Steuerbehörde
+  verifizieren, nicht pauschal versprechen.
 - **GEAK Neubau als mögliche Option ausserhalb ZH/SZ**: Plant eine Bauherrschaft in einem anderen
   Kanton einen Neubau/Ersatzneubau, lohnt die Nachfrage, ob dort GEAK Neubau als Weg angeboten
   wird — im Kt. ZH bleibt für Baueingaben weiterhin EN-ZH/EVEN massgebend
@@ -164,3 +171,15 @@ energieschweiz.ch (Programm des BFE), minergie.ch, hev-schweiz.ch.
   im Einzelfall bei der Bank bzw. Steuerverwaltung nachfragen.
 
 **Backlinks:** [[geak-gebaeudeenergieausweis-kantone]] · [[geak-klassengrenzen-relative-klassierung]] · [[geak-kosten-efh-mfh]] · Themenartikel [[geak-gebaeudeenergieausweis]].
+
+## Verifikation Run 125 (07.08.2026)
+
+Refuter-Panel prüfte 65 Aussagen dieses Destillats gegen die Primärquelle (Broschüre, Auflage
+02/2023): 56 bestätigt, keine tragende Falschaussage und kein Widerspruch zum KB-Bestand gefunden.
+9 Zitattreue- und Formalbeanstandungen korrigiert: eine unbelegte Zutat («unverändert seit 2009»),
+zwei Zitatabweichungen («kosten» statt «kostet», fehlendes Satzende «an»), zwei stillschweigend
+geglättete Klammerfehler der Quelle (Zeile A, Zeile C) und eine unmarkierte Grammatikabweichung
+(Zeile C, CO2-Spalte), eine falsche Seitenangabe (Vereins-Stammdaten S. 7 statt S. 4), eine
+unbelegte Herausgeber-Rollenzuschreibung an die EnDK sowie eine fehlende Eigenständigkeits-
+Kennzeichnung des Bauherren-Transfers. Statusentscheid: `established` (Primärquelle vollständig
+gelesen, Zitate jetzt wortgetreu, kein Widerspruch zum Bestand).

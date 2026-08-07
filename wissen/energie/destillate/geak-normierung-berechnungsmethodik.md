@@ -4,20 +4,21 @@ herausgeber: EnDK / Verein GEAK-CECB-CECE
 ausgabe: Version 2.1.0, 30.3.2023
 gelesen: 2026-08-07 (vollständig, Seiten 1-79, in Blöcken 1-6 / 7-26 / 27-46 / 47-66 / 67-79)
 datenstand: 2023 (aktuell gültige Methodik-Fassung, Stand Juli/August 2026)
-status: emerging
+status: emerging (Refuter-Panel Run 125: 10 bzw. 19 Beanstandungen, tragende Punkte korrigiert; established erst nach erneuter Prüfung)
 last_updated: 2026-08-07
-geltungsbereich: Kap. 2 Heizwärmebedarf (S.8-9) · Kap. 3 Heizung und Warmwasser komplett (Wärmeerzeuger, Speichertypen, Verteil-/Speicherverluste, Hilfsenergie, Endenergie, S.10-33) · Kap. 4 Lüftung (S.34-41) · Kap. 5 PV/WKK-Anrechnung (S.42) · Kap. 6 Elektrizität Wohnen/Zweckbauten (S.43-59) · Kap. 7.1/7.2 Etikette, Projektwerte und Referenzwerte inkl. CO2/THGE (S.60-65) · Kap. 8 Beurteilung Gebäudehülle und Gebäudetechnik (S.68-71). Kap. 7.3 Kennwerte und Klassierung (Tab. 40/41, S.66-67) ist bereits im Bestandsdestillat [[geak-klassengrenzen-relative-klassierung]] erfasst und wird hier nur verlinkt, nicht wiederholt. Kap. 9 Literaturverzeichnis und Kap. 10 Symbolverzeichnis wurden gelesen, aber nicht inhaltlich destilliert (reine Nachschlagelisten).
+geltungsbereich: Kap. 2 Heizwärmebedarf (S.8-9) · Kap. 3 Heizung und Warmwasser (Wärmeerzeuger, Speichertypen, Verteil-/Speicherverluste, Hilfsenergie, Endenergie, S.10-33; ohne Kap. 3.6 Zuordnung der Speicherverluste auf Wärmeerzeuger, S.20-22, Gl. 9-12) · Kap. 4 Lüftung (S.34-41) · Kap. 5 PV/WKK-Anrechnung (S.42) · Kap. 6 Elektrizität Wohnen/Zweckbauten (S.43-59; ohne Kap. 6.2.5 Weitere Verbraucher WVA, S.49) · Kap. 7.1/7.2 Etikette, Projektwerte und Referenzwerte inkl. CO2/THGE (S.60-65) · Kap. 8 Beurteilung Gebäudehülle und Gebäudetechnik (S.68-71). Kap. 7.3 Kennwerte und Klassierung (Tab. 40/41, S.66-67) ist bereits im Bestandsdestillat [[geak-klassengrenzen-relative-klassierung]] erfasst und wird hier nur verlinkt, nicht wiederholt. Kap. 9 Literaturverzeichnis und Kap. 10 Symbolverzeichnis wurden gelesen, aber nicht inhaltlich destilliert (reine Nachschlagelisten).
 ---
 
 # GEAK-Normierung — die Rechenlogik hinter der Etikette (Bilanzierung Heizung, Warmwasser, Lüftung, Elektrizität)
 
-**Das Wichtigste in 1 Satz:** Die GEAK-Etikette entsteht aus einem Vergleich von zwei
-vollständig durchgerechneten Jahresenergiebilanzen (Projektgebäude gegen ein fiktives
-Referenzgebäude), wobei Wärmeerzeugung, -verteilung und -speicherung mit eigenen
-Verlustmechanismen bilanziert werden und Strom in dieser Bilanz **doppelt** so stark
-gewichtet wird wie fossile Brennstoffe (nationaler Gewichtungsfaktor f_CH,el = 2, Tab. 35,
-S. 61) — ein Systementscheid, der die Klasse eines Gebäudes mindestens so stark prägt wie
-der bauliche Zustand.
+**Das Wichtigste in 1 Satz:** Die GEAK-Etikette trägt drei Skalen mit drei verschiedenen
+Bezugsgrössen — die Effizienz Gebäudehülle vergleicht allein den effektiven Heizwärmebedarf
+mit dem SIA-380/1-Neubau-Grenzwert (Gl. 55), die Effizienz Gesamtenergie vergleicht zwei
+vollständig durchgerechnete Jahresenergiebilanzen (Projektgebäude gegen ein fiktives
+Referenzgebäude, Gl. 56), und die direkten CO2-Emissionen werden ohne Referenzgebäude direkt
+gegen temperaturkorrigierte Grenzwerte klassiert (Tab. 41) — wobei in der Gesamtenergie-Bilanz
+Strom im Bedarf wie in der Produktion mit dem nationalen Gewichtungsfaktor f_CH,el = 2 doppelt so
+stark zählt wie Heizöl oder Erdgas (Tab. 35, S. 61).
 
 ## Abgrenzung zum Bestandsdestillat
 
@@ -40,9 +41,9 @@ Die Standardnutzungsdaten (Raumtemperatur, Präsenzzeit, Elektrizitätsbedarf,
 Aussenluftvolumenstrom etc.) werden bei Mischnutzung **flächengemittelt** über die
 Energiebezugsflächen der einzelnen Nutzungen (Gl. 1, S. 9). Ausdrücklicher Hinweis im
 Original (S. 8): «Dieses vereinfachte Verfahren entspricht nicht dem gängiger SIA 380/1
-Programme, die ein sogenanntes Mehrzonenmodell berechnen» — **GEAK-Werte und
-Werte aus externen SIA-380/1-Programmen für dasselbe Gebäude weichen deshalb systematisch
-voneinander ab**, auch wenn beide korrekt rechnen. Das gilt auch für den Referenzgrenzwert
+Programme, die ein sogenanntes Mehrzonenmodell berechnen» — **für GEAK-Werte und
+Werte aus externen SIA-380/1-Programmen für dasselbe Gebäude sind deshalb «unterschiedliche
+Resultate für Projektwerte … zu erwarten» (S. 8)**. Das gilt auch für den Referenzgrenzwert
 (Kap. 7.2).
 
 ### 2. Wärmeerzeugung: bis zu fünf Erzeuger, klar getrennte Versorgungsbereiche (Kap. 3.1-3.4, S. 10-12)
@@ -53,21 +54,29 @@ jeder Bereich muss zu 100 % gedeckt sein (Beispieltabelle Tab. 1, S. 10). Sonder
 «Holzofen als Zusatzheizung» (S. 11): maximal 10 % Deckungsgrad des **gesamten**
 Heizwärmebedarfs, nur in einem wassergeführten Bereich möglich, verlangt zwingend einen
 zusätzlichen Hauptwärmeerzeuger, hat keine Hilfsenergie und keine Verteilverluste. Speicher
-(Heizungs-, Warmwasser- oder Kombispeicher) werden Wärmeerzeugern flächenscharf zugeordnet
-(max. drei Erzeuger je Speicher, max. zwei Speicher je Erzeuger, Tab. 2, S. 12).
+(Heizungs-, Warmwasser- oder Kombispeicher) werden den Wärmeerzeugern erzeugerscharf und
+binär zugeordnet (Gl. 9): mindestens einem, maximal drei Wärmeerzeugern je Speicher, maximal
+zwei Speicher je Erzeuger (Fliesstext S. 11; die Beispieltabelle Tab. 2, S. 12, zeigt nur
+einen Anwendungsfall). Die Wärmeerzeugung selbst hat keinen eigenen Verlustmechanismus: laut
+Kap. 3.5.1, S. 13, müssen die Erzeugungsverluste «in den eingegebenen Nutzungsgraden bzw.
+Jahresarbeitszahlen der Wärmeerzeuger enthalten sein» — eine freie Eingabe und damit die
+empfindlichste Stellschraube der Bilanz.
 
-### 3. Verteilverluste: nur ausserhalb der thermischen Hülle und nur bei zentraler Versorgung (Kap. 3.5.2, S. 13-16)
+### 3. Verteilverluste: bei Heizung nur ausserhalb der Hülle, bei Warmwasser immer (Kap. 3.5.2, S. 13-16)
 
-Kernregel (Flussdiagramme Abb. 3/4, S. 15-16): Verteilleitungsverluste werden **nur dann
-überhaupt berechnet**, wenn (a) die Wärmeversorgung «zentral» (wassergeführte
-Haupt-/Etagenheizung) ist **und** (b) die horizontale Verteilleitung **ausserhalb** der
-thermischen Gebäudehülle liegt. In allen anderen Fällen — dezentrale Versorgung, oder
-Leitung innerhalb der Hülle — gelten die Verluste als vollständig heizwirksam
-rückgewinnbar und werden mit 0 kWh/a angesetzt. Vertikale Heizungsleitungen sind laut
-Norm grundsätzlich komplett rückgewinnbar und werden nie berechnet. Die eigentliche
-Verlustberechnung (Gl. 3/4, S. 13-14) ist ein Rohrwärmeverlust-Modell (Wärmeübergang innen/
-aussen, Dämmzustand, mittlere Leitungslänge nach Gebäudetyp aus Tab. 8, Temperaturdifferenz
-zur Umgebungsluft: 13 °C ausserhalb, 20 °C innerhalb der Hülle).
+Zwei verschiedene Regeln, die nicht verwechselt werden dürfen. **Heizung** (Flussdiagramm Abb. 3,
+S. 15): Verteilleitungsverluste werden nur dann überhaupt berechnet, wenn (a) die Art der
+Beheizung «zentral» ist und (b) die horizontale Verteilleitung ausserhalb der thermischen
+Gebäudehülle liegt; in allen anderen Fällen gelten sie als komplett rückgewinnbar und werden
+mit 0 kWh/a angesetzt, ebenso die vertikalen Heizungsleitungen ausnahmslos. **Warmwasser**
+(Gl. 5, S. 16): hier entfällt die Lage-Abfrage — sobald die Versorgung nicht dezentral ist,
+werden horizontale und vertikale Verteilverluste beide nach Gl. 3 gerechnet. Die Lage entscheidet
+beim Warmwasser nicht über das Ob der Berechnung, sondern nur darüber, ob die Verluste als
+rückgewinnbar gutgeschrieben werden (Faktor f_WW,dis,hor,ls = 1 innerhalb, = 0 ausserhalb der
+Hülle, S. 24). Die eigentliche Verlustberechnung (Gl. 3/4, S. 13-14) ist ein
+Rohrwärmeverlust-Modell (Wärmeübergang innen/aussen, Dämmzustand, mittlere Leitungslänge nach
+Gebäudetyp aus Tab. 8, Umgebungslufttemperatur θ_U: 13 °C ausserhalb, 20 °C innerhalb der
+Hülle; massgebend ist die Temperaturdifferenz Δθ = θ_HK − θ_U bzw. θ_WW − θ_U mit θ_WW = 60 °C).
 
 ### 4. Speicherverluste: Schwellenwerte nach Volumen, Lage entscheidet über Anrechnung (Kap. 3.5.3, S. 17-19)
 
@@ -82,22 +91,24 @@ Stutzen zzgl. 2 je zugeordnetem Wärmeerzeuger, ausser bei Elektrospeicher/-dire
 385/2 eigentlich nur für Speicher > 2000 l gilt und im GEAK mangels Alternative auch für
 kleinere Speicher verwendet wird.
 
-### 5. Rückgewonnene Verluste: 2/3 der Warmwasser-Verluste heizen das Haus mit (Kap. 3.7, S. 23-25)
+### 5. Rückgewonnene Verluste: Warmwasser-Verluste innerhalb der Hülle heizen anteilig mit (Kap. 3.7, S. 23-25)
 
-Ein methodisch wichtiger Mechanismus: Verteil- und Speicherverluste des **Warmwassers**
-werden zu einem Teil als «heizwirksam» dem Heizwärmebedarf gutgeschrieben (Formel
-Q_Heizband, Faktor 2/3, Gl. 14, S. 23) und mindern so über den Faktor 0,8 · η_g den
-anzurechnenden Endenergiebedarf für Heizung (Gl. 16, S. 25). Ein schlecht gedämmtes
-Warmwassersystem «heizt» also im Winter anteilig mit — das reduziert seinen eigenen
-Fehlbetrag beim Heizwärmebedarf, verschlechtert die Warmwasser-Bilanz aber unverändert.
+Ein methodisch wichtiger Mechanismus: die Verteil- und Speicherverluste des Warmwassers
+**innerhalb der thermischen Gebäudehülle** werden als teilweise heizwirksam dem
+Heizwärmebedarf gutgeschrieben (Summe Gl. 13, S. 23). Die Lage steuert das über zwei Schalter:
+horizontale Verteilleitung und Speicher gehen nur innerhalb der Hülle mit Faktor 1 ein,
+ausserhalb mit 0 (S. 24); vertikale Verteilverluste zählen immer. Der oft zitierte Faktor 2/3
+(Gl. 14) betrifft **nur** die Warmhaltung per Heizband und ist ohne Heizband null (f_HB = 0).
+Angerechnet wird die Summe schliesslich mit dem Faktor 0,8 · η_g (Gl. 16, S. 25).
 
 ### 6. Endenergie je Wärmeerzeuger, inkl. Überdimensionierungs-Malus (Kap. 3.8, S. 25-26)
 
 Die Endenergie wird für jeden Wärmeerzeuger separat aus Nutzenergiebedarf plus
-Verteil-/Speicherverlusten, dividiert durch (η_HE,WEi − 0,09 · (Dim_WEi − 1)), gebildet
-(Gl. 17/18). Ein überdimensionierter Wärmeerzeuger (Dim > 1, aus Auswahlliste) senkt also
-rechnerisch den effektiven Jahresnutzungsgrad — Überdimensionierung wird explizit
-bestraft, nicht nur implizit über höhere Taktverluste.
+Verteil-/Speicherverlusten gebildet. Der Überdimensionierungs-Malus wirkt dabei **nur auf der
+Heizungsseite**: Gl. 17 dividiert durch (η_HE,WEi − 0,09 · (Dim_WEi − 1)), während Gl. 18 für
+Warmwasser allein durch η_WW,WEi teilt. Ein überdimensionierter Wärmeerzeuger senkt also
+rechnerisch den effektiven Jahresnutzungsgrad der Heizung; die Warmwasser-Bilanz bleibt davon
+unberührt.
 
 ### 7. Hilfsenergie: empirische, nicht-lineare Formeln je nach Erzeugertyp (Kap. 3.9, S. 27-29, Tab. 11 S. 33)
 
@@ -113,18 +124,20 @@ durchweg Faktor 1, automatische Holzfeuerungen sogar Faktor 3 beim Hilfsaggregat
 ### 8. Lüftung: vereinfachtes Verfahren bis zu einer Grössengrenze (Kap. 4, S. 34-41)
 
 Bei EFH/MFH bis 2'000 m² und Verwaltung/Schulen bis 1'000 m² Energiebezugsfläche darf mit
-Standardwerten («Kleinanlagen», Tab. 12-17) gerechnet werden; darüber ist eine externe
-Berechnung des effektiven Aussenluftvolumenstroms und Stromverbrauchs Pflicht (S. 34). Die
+Standardwerten («Kleinanlagen», Tab. 12-17) gerechnet werden; für «alle übrigen Fälle» (S. 34)
+ist eine externe Berechnung des Jahresstrombedarfs und des Aussenluftvolumenstroms Pflicht —
+das betrifft nicht nur grössere Flächen, sondern auch die Nutzungen Verkauf, Restaurant und
+Hotel, für die Tab. 12-14 gar keine Standardwerte führen. Die
 Methodik folgt dem Minergie-Nachweisformular [10]. Bei Mischnutzung kann jede Nutzung ihren
 eigenen Lüftungstyp haben; die thermisch wirksamen Aussenluftvolumenströme werden analog
 zur Heizwärme flächengemittelt.
 
 ### 9. PV/WKK-Ertrag: nur Eigenverbrauch plus 40 % der Netzeinspeisung zählen (Kap. 5, S. 42)
 
-E_el,anr = (E_PV + E_WKK) · (EVR + f_Netz · (1 − EVR)), mit f_Netz = 0,4 fix und der
-Eigenverbrauchsrate EVR entweder aus einem PVopti-Nachweis oder als Standardwert 0,2 (analog
-Minergie [11]). Eine PV-Anlage verbessert die Etikette also nie um ihren vollen Ertrag,
-sondern nur um den Eigenverbrauchsanteil plus 40 % des Rests.
+E_el,anr = (E_PV + E_WKK) · (EVR + f_Netz · (1 − EVR)), mit f_Netz = 0,4 fix (analog Minergie
+[11]) und der Eigenverbrauchsrate EVR entweder aus einem PVopti-Nachweis oder als Standardwert
+0,2. Ausser bei vollständigem Eigenverbrauch wird eine PV-Anlage nie mit ihrem vollen Ertrag
+angerechnet, sondern nur mit dem Eigenverbrauchsanteil plus 40 % des eingespeisten Rests.
 
 ### 10. Elektrizität Wohnen: Mindestausstattung und Belegungsfaktor (Kap. 6.2, S. 44-52)
 
@@ -140,11 +153,13 @@ Geräteklasse).
 
 ### 11. Zweckbauten-Elektrizität: Raumnutzung statt Gerätewahl (Kap. 6.4-6.5, S. 53-59)
 
-Bei Zweckbauten (Verwaltung, Schule, Verkauf, Restaurant, Hotel) wird nicht gerätescharf,
-sondern raumnutzungsscharf gerechnet: je Raumnutzung ein Basisbedarf für
+Bei Zweckbauten (Verwaltung, Schule, Verkauf, Restaurant, Hotel) wird überwiegend
+raumnutzungsscharf statt gerätescharf gerechnet: je Raumnutzung ein Basisbedarf für
 Betriebseinrichtungen/Geräte und Beleuchtung (Tab. 25/27/29/31/33), skaliert mit einem
 Qualitätsfaktor topmodern/modern/standard/veraltet (Tab. 26/28/30/32/34, durchgehend
-0,4/0,7/1/1,3).
+0,4/0,7/1/1,3). Gerätescharf ist allein die Kategorie «Geräte und Installationen»; auch beim
+Wohnen laufen Kleingeräte/Elektronik (Tab. 22) und Beleuchtung (Tab. 23/24) bereits
+raumnutzungsscharf.
 
 ### 12. Die Etikette: Projektwert gegen Referenzwert, Strom zählt doppelt (Kap. 7.1-7.2, S. 60-65)
 
@@ -157,7 +172,9 @@ Heizöl, Erdgas, Kohle, Briketts: 1,0 · Holz (Stückholz/Schnitzel/Pellets): 0,
 0 · Fernwärme: 0,4 bis 1,0 je nach deklariertem Fossilanteil (≤ 25 % / ≤ 50 % / ≤ 75 % /
 > 75 %) · **Elektrizität, sowohl Bedarf als auch Produktion: 2,0**.
 
-Der Referenzwert E_P,ref (Gl. 54, S. 64) ist eine feste Rezeptur, kein realer Gebäudetyp:
+Der Referenzwert E_P,ref (Gl. 54, S. 64; die Quelle selbst schreibt an zwei Stellen fälschlich
+«Gl. 53» — ein Tippfehler des Originals, da Gl. 53 die THGE bezeichnet, hier stillschweigend
+korrigiert) ist eine feste Rezeptur, kein realer Gebäudetyp:
 80 % des SIA-380/1-Neubau-Grenzwerts Heizwärme (Verteilwirkungsgrad 95 %) plus 80 % des
 Standard-Warmwasserbedarfs aus Tab. 39 (Verteilwirkungsgrad 70 %), beides mit einer
 Ölfeuerung (Nutzungsgrad 90 %) gedeckt, keine Kühlung/Lüftungsaufbereitung, dazu der
@@ -165,27 +182,31 @@ Standard-Elektrizitätsbedarf E_el,ref aus Tab. 39 (MFH 28, EFH 22, Verwaltung 3
 Verkauf 52, Restaurant 45, Hotel 31 kWh/(m²a) — deckt sich mit dem im Bestandsdestillat
 zitierten Wert). Bei Mischnutzung wird je Nutzung gerechnet und flächengemittelt.
 
-### 13. CO2 und Treibhausgase: zwei getrennte, nicht klassenwirksame Zusatzgrössen (Kap. 7.1.3-7.1.4, S. 61-63)
+### 13. CO2 und Treibhausgase: eine dritte Etikettenskala plus eine informative Kennzahl (Kap. 7.1.3-7.1.4, S. 61-63)
 
-Zusätzlich zur A-G-Etikette weist der GEAK zwei informative Kennzahlen aus: die
-**direkten CO2-Emissionen** (nur die vor Ort verbrannten fossilen Energieträger, BAFU-Faktoren
-Tab. 36: Heizöl 0,265, Erdgas 0,203 kg/kWh) und die **Treibhausgasemissionen THGE**
-(inklusive vorgelagerter Kette, KBOB-Faktoren Tab. 37: Heizöl 0,324, Erdgas 0,230, Holz
-Stückholz 0,023/Schnitzel 0,011/Pellets 0,028, Strom 0,125 kg/kWh — «Der Wert ist informativ»,
-S. 62, ohne Einfluss auf die A-G-Klassierung). Für Fernwärme wird ein angenommener
+Neben den beiden A-G-Skalen Gebäudehülle und Gesamteffizienz weist der GEAK zwei weitere
+Grössen aus, die klar zu trennen sind: die **direkten CO2-Emissionen** (nur die vor Ort
+verbrannten fossilen Energieträger, Gl. 52, BAFU-Faktoren Tab. 36: Heizöl 0,265, Erdgas inkl.
+Biogas 0,203 kg/kWh) tragen eine **eigene A-G-Klassierung** nach Tab. 41, mit standortabhängiger
+Temperaturkorrektur der Klassengrenzen (f_cor, Gl. 57, Kap. 7.3.4, S. 67; Klassenlogik im
+Bestandsdestillat [[geak-klassengrenzen-relative-klassierung]]). Die **Treibhausgasemissionen
+THGE** (inklusive vorgelagerter Kette, Gl. 53, KBOB-Faktoren Tab. 37) sind dagegen ohne
+Klassenwirkung: «Der Wert ist informativ» (S. 62). Für Fernwärme wird ein angenommener
 Wärmeerzeugermix (Öl/Gas/Holz/Grundwasserwärmepumpe/Kehrrichtverbrennung, gestaffelt nach
-deklariertem Fossilanteil, Tab. 38, S. 63) unterstellt, aus dem der CO2-Faktor der Fernwärme
-hergeleitet wird — die Kehrrichtverbrennung enthält dabei laut Text «immer einen fossilen
-Anteil».
+deklariertem Fossilanteil, Tab. 38, S. 63) unterstellt, aus dem die
+**Treibhausgasemissionsfaktoren** der Fernwärme in Tab. 37 hergeleitet werden
+(0,05 / 0,12 / 0,19 / 0,29 kg/kWh); in die direkten CO2-Emissionen nach Gl. 52 geht Fernwärme
+dagegen nicht ein, Tab. 36 führt nur Heizöl und Erdgas.
 
 ### 14. Beurteilung Gebäudehülle: eigene, strengere Skala für Neubauten (Kap. 8.1, S. 68-69)
 
-Unabhängig von der A-G-Etikette gibt es eine zweite, vierstufige Beurteilung
-(sehr gut/gut/mittelmässig/schlecht) je Bauteilkategorie (Dach, Fenster, Aussenwand,
-Boden gegen aussen, Bauteile gegen unbeheizt), anhand flächengemittelter U-Werte. Für
-Bestandsgebäude gilt Tab. 42, für Neubauten (Baujahr aktuelles Jahr bis minus drei Jahre)
-gilt die spürbar strengere Tab. 43 — dieselbe Wand mit demselben U-Wert kann also je nach
-Baujahrs-Fenster unterschiedlich beurteilt werden.
+Unabhängig von der A-G-Etikette gibt es eine zweite Beurteilung anhand flächengemittelter
+U-Werte über sieben Bauteilkategorien (Wand, Dach, Boden je gegen aussen und gegen unbeheizt,
+dazu Fenster; S. 68), in Tab. 42/43 auf fünf Spalten verdichtet. Für Bestandsgebäude gilt
+Tab. 42 mit vier Stufen (sehr gut / gut / mittelmässig / schlecht), für Neubauten (Baujahr
+aktuelles Jahr bis minus drei Jahre) die strengere Tab. 43, die nur drei Stufen bis
+«mittelmässig» führt — dieselbe Wand mit demselben U-Wert kann also je nach Baujahrs-Fenster
+unterschiedlich beurteilt werden.
 
 ### 15. Beurteilung Gebäudetechnik: Verhältnis gewichteter Endenergie zu Nutzwärme (Kap. 8.2, S. 70-71)
 
@@ -203,20 +224,29 @@ hängt nicht nur vom U-Wert der Fassade ab, sondern von einem ganzen Bündel Sys
 die im Referenzvergleich unterschiedlich stark wiegen: dem gewählten Wärmeerzeuger (der
 nationale Gewichtungsfaktor macht 1 kWh Strom rechnerisch doppelt so «teuer» wie 1 kWh
 Heizöl — eine Elektroheizung verschlechtert die Etikette stärker als der reine
-Energiebedarf vermuten lässt, eine Wärmepumpe profitiert doppelt, weil sie wenig
-Endenergie UND keine zusätzliche Hilfsenergie braucht, Tab. 11), der Lage der
+Energiebedarf vermuten lässt, eine Wärmepumpe profitiert vor allem über die geringe
+Endenergie; der Faktor 0 in Tab. 11 ist dagegen kein zusätzlicher Bonus, sondern verhindert
+eine Doppelzählung, weil der Strom für Umwälzpumpe und Hilfsaggregate bereits in der
+eingegebenen JAZ steckt (Fussnote Tab. 11, S. 33) — eine schlecht angesetzte JAZ verschiebt
+diesen Anteil also lautlos), der Lage der
 Verteilleitungen (innerhalb der Hülle sind Verluste gratis, ausserhalb zählen sie voll),
 der Speichergrösse und -lage, dem hydraulischen Abgleich (Tab. 3 vs. Tab. 4 unterscheiden
-die mittlere Heizkreistemperatur um bis zu 12 °C), der Anzahl Zimmer (Belegungsfaktor f_b),
+die mittlere Heizkreistemperatur je nach Auslegung und Überdimensionierung um 0 bis 16 K —
+bei 90/70 und Dim 2 sind es 56 gegen 40 °C, bei der Auslegung 50/38 dagegen null), der Anzahl
+Zimmer (Belegungsfaktor f_b),
 der Geräteausstattung und -qualität sowie einer allfälligen PV-Anlage samt
 Eigenverbrauchsrate. **Was die Klasse aussagt:** eine relative Einordnung zum eigenen,
-individuell berechneten Referenzgebäude (siehe Bestandsdestillat) plus einer Systemwahl-
-Gewichtung, die Strom bewusst benachteiligt, um den Umstieg auf CO2-arme, aber
-elektrizitätsintensive Systeme nicht automatisch als «Verschlechterung» erscheinen zu
-lassen, ohne den realen Strombedarf zu ignorieren. **Was sie nicht aussagt:** den absoluten
-Energieverbrauch in kWh, den CO2-Fussabdruck (dafür gibt es die separate,
-nicht-klassenwirksame THGE-Kennzahl) oder die Behaglichkeit/den baulichen Zustand im Detail
-(dafür die separate Vier-Felder-Beurteilung nach Kap. 8).
+individuell berechneten Referenzgebäude (siehe Bestandsdestillat) plus einer Systemwahl-Gewichtung nach Tab. 35, in
+der Strom sowohl im Bedarf als auch in der Produktion mit dem Faktor 2 eingeht, während
+Heizöl, Erdgas, Kohle und Briketts mit 1 und Holz mit 0,5 gewichtet werden. Die Normierung
+nennt diese Faktoren ohne eigene Begründung und verweist auf die nationalen
+Gewichtungsfaktoren der EnDK [18]; welches energiepolitische Ziel dahintersteht, ist der Norm
+selbst nicht zu entnehmen und wird hier bewusst nicht interpretiert. **Was sie nicht aussagt:**
+den absoluten Energieverbrauch in kWh oder den vollständigen CO2-Fussabdruck über die
+vorgelagerte Kette (dafür die separate, nicht klassierte THGE-Kennzahl; die vor Ort
+emittierten direkten CO2-Emissionen tragen dagegen eine eigene A-G-Skala) oder die
+Behaglichkeit/den baulichen Zustand im Detail (dafür die separate Beurteilung von
+Gebäudehülle und Gebäudetechnik nach Kap. 8).
 
 **Was der Bauherr dem GEAK-Experten liefern muss**, damit die Berechnung nicht auf
 Annahmen beruht: U-Werte bzw. Bauteilaufbauten aller Aussenbauteile (oder deren
@@ -231,8 +261,11 @@ Anlage eher schlechter darstellt als sie ist).
 
 ## Offene Punkte
 
-Keine — der Quellentext (79 Seiten) wurde vollständig gelesen. Nicht in diesem Destillat
-vertieft, weil reine Nachschlagelisten ohne eigenständige Methodik-Aussage: Kap. 9
+Nicht destilliert, obwohl gelesen: Kap. 3.6 (Zuordnung der Speicherverluste auf
+Wärmeerzeuger, S. 20-22, Gl. 9-12), Kap. 6.2.5 (Weitere Verbraucher WVA, S. 49, mit der
+Abgrenzung gebäudezugehörig / nicht gebäudezugehörig) und die Biogas-Sonderregelung in
+Tab. 35/36. Ebenfalls nicht vertieft, weil reine Nachschlagelisten ohne eigenständige
+Methodik-Aussage: Kap. 9
 Literaturverzeichnis (S. 72-73, verweist u.a. auf SIA 380/1:2016, SIA 384/3:2013,
 SIA 385/2:2015, SIA 380/4:2006, das GEAK-Anwenderhandbuch V5.1/Korrex 5.1.2 [8] und die
 KBOB-Ökobilanzdaten 2009/1:2022 [17]) und Kap. 10 Symbol-/Einheitenverzeichnis (S. 74-79).
@@ -243,3 +276,17 @@ Stellhebel wieder, ist aber keine vollständige, direkt programmierbare Formelsa
 
 **Backlinks:** [[geak-klassengrenzen-relative-klassierung]] · [[geak-gebaeudeenergieausweis-kantone]] ·
 [[geak-kosten-efh-mfh]] · Themenartikel [[geak-gebaeudeenergieausweis]].
+
+## Verifikation Run 125 (07.08.2026)
+
+Zwei unabhängige Refuter haben dieses Destillat gegen das Original geprüft, mit
+unterschiedlichem Schwerpunkt: der erste auf Zahlen und Fundstellen (10 Beanstandungen), der
+zweite auf Aussagen und Zitattreue (19 Beanstandungen). Der Hauptlauf hat die tragenden Punkte
+selbst am Original nachgeprüft (`pdftotext -layout`) und oben korrigiert — insbesondere die
+fälschliche Einordnung der direkten CO2-Emissionen als «nicht klassenwirksam» (Punkt 13), die
+Vermischung der Verteilverlust-Regeln von Heizung und Warmwasser (Punkt 3), die Zuschreibung
+des Faktors 2/3 an die gesamte Warmwasser-Rückgewinnung statt an das Heizband (Punkt 5), den
+auf beide Energieträger angewendeten Überdimensionierungs-Malus (Punkt 6), die Deutung des
+Hilfsenergie-Faktors 0 als Wärmepumpen-Bonus (Bauherren-Transfer) und die erfundene
+Motivzuschreibung zur Strom-Gewichtung (Bauherren-Transfer). Der Status bleibt `emerging`:
+established ist erst nach einer erneuten Prüfung der korrigierten Fassung vertretbar.

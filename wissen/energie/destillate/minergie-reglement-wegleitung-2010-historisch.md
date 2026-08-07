@@ -223,11 +223,12 @@ gelesen hat, ist das unten als offen markiert statt geraten.*
   Systemnachweis oder mit einer der fünf Standardlösungen erstellt worden sein — das steht auf
   dem Zertifikat/Antragsformular. Ohne diese Angabe ist keine belegte Aussage über die
   tatsächlich eingehaltenen U-Werte oder den Grenzwert möglich.
-- **Die 5-Jahres-Gültigkeit prüfen, nicht annehmen.** Das definitive Zertifikat war 5 Jahre ab
-  Erstzertifizierung gültig. Ein 2010 oder 2011 zertifiziertes Gebäude trägt heute (2026) ein
-  Label, dessen formale Gültigkeitsfrist seit Jahren abgelaufen ist — das mindert die
-  bauphysikalische Substanz nicht, ändert aber die Aussagekraft «gültiges MINERGIE-Zertifikat»
-  gegenüber einer Käuferschaft, die das wörtlich nimmt.
+- **Die 5-Jahres-Frist einordnen, nicht als Ablauf des Gebäudelabels behaupten.** Das Reglement
+  2010 nennt die fünf Jahre im Zusammenhang mit der **Mehrfachanwendung** der Marke; ob damit auch
+  das objektbezogene definitive Zertifikat verfällt, ist aus dieser Quelle nicht entscheidbar und
+  im heute belegten Verfahren ([[minergie-zertifizierung-workflow]]) nicht abgebildet. Vor jeder
+  Aussage gegenüber Käuferschaft, Bank oder Bewertung den Zertifikatsstatus bei der
+  Zertifizierungsstelle abfragen, statt aus diesem Destillat einen Ablauf abzuleiten.
 - **Die Erlöschensklausel ist der wichtigste Einzelsatz für die Sanierungsplanung.** «Bei
   energetisch relevanten Änderungen am Objekt erlischt die Gültigkeit des Zertifikats mit der
   Umsetzung der Änderung» (Ziff. 2.2). Eine Fenstersanierung, ein Wärmeerzeugertausch oder eine
@@ -277,3 +278,9 @@ gelesen hat, ist das unten als offen markiert statt geraten.*
 [[minergie-zertifizierung-workflow]] · [[minergie-online-plattform-antragstellung]] ·
 [[minergie-p-a-anwendungshilfe-2019]] · [[rilumi-minergie-luftdichtheit-n50]] ·
 [[waermebrueckenkatalog-minergie-pl02]]
+
+## Aktualitaetspruefung Run 125 (07.08.2026)
+Der Bauherren-Transfer stellte die 5-Jahres-Frist als Ablauf des Gebaeudelabels dar, waehrend sie im
+Reglement selbst an die Mehrfachanwendung der Marke gekoppelt ist. Bullet entsprechend praezisiert:
+Zertifikatsstatus ist bei der Zertifizierungsstelle abzufragen, nicht aus diesem Destillat
+abzuleiten.

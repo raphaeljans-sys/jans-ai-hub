@@ -1,8 +1,8 @@
 ---
 quelle: "PL - 02_Recht_Norm/06_Richtlinien/Minergie/Nachweisformulare/{1_Eingabe,2_Minergie,3_Nachweis,4_Sommer,5_Uebersicht,6_Erstellung}.pdf (6 Einzelseiten, ein zusammengehoeriger Formularsatz)"
 herausgeber: Verein Minergie Schweiz (MINERGIE®)
-ausgabe: "Kopf-/Fusszeile auf den Blaettern Eingabe/EN-101b (2 Seiten), Zusatzangaben Minergie-Nachweis und Sommer: «MINERGIE-Nachweisformular 2022.4, zu verwenden bis 31. Dezember 2023». Fusszeile Blatt Sommer zusaetzlich mit Dateiname: «230115_nachweisformular_minergie_v2022.4_de.xlsx / Sommer / 26.05.23, 10:13». Die Blaetter Übersicht und Zusatzangaben zur Erstellung von Neubauten tragen KEINE sichtbare Versions-/Datumszeile (siehe Offene Punkte)."
-gelesen: "2026-08-07, alle 6 Seiten vollstaendig (Blatt Eingabe/EN-101b S. 1+2, Zusatzangaben Minergie-Nachweis, Sommerlicher Waermeschutz, Übersicht Minergie-Nachweis, Zusatzangaben zur Erstellung von Neubauten)"
+ausgabe: "Kopf-/Fusszeile auf den Blaettern Eingabe/EN-101b (2 Seiten), Zusatzangaben Minergie-Nachweis, Sommer und Übersicht: «MINERGIE-Nachweisformular 2022.4, zu verwenden bis 31. Dezember 2023» (Blatt Übersicht zusaetzlich Kopfzeile «2022.4», Fusszeile «26.05.23 10:07»). Fusszeile Blatt Sommer zusaetzlich mit Dateiname: «230115_nachweisformular_minergie_v2022.4_de.xlsx / Sommer / 26.05.23, 10:13». Nur das Blatt Zusatzangaben zur Erstellung von Neubauten traegt KEINE sichtbare Versions-/Datumszeile."
+gelesen: "2026-08-07, alle 6 Seiten (sichtbarer Druckbereich und PDF-Textebene; Blatt Eingabe/EN-101b S. 1+2, Zusatzangaben Minergie-Nachweis, Sommerlicher Waermeschutz, Übersicht Minergie-Nachweis, Zusatzangaben zur Erstellung von Neubauten). Nur in der PDF-Textebene, nicht im sichtbaren Druckbereich: N35 «Qww Waermebedarf Warmwasser SIA 380/1 kWh/m2», N60 «Warmwasser mit mindestens 20% erneuerbarer Energie erzeugt (fuer Restaurants / Sportbauten / Hallenbaeder) — Ja», Beilagenblock N63/N64 sowie U46/U47 «Treibhausgasemissionen … / Gespeicherter Kohlenstoff … — Keine Anforderungen»."
 datenstand: "⚠ Formular selbst befristet «zu verwenden bis 31. Dezember 2023» — heute (2026-08-07) drei Jahre abgelaufen. Als STRUKTUR-Beleg (welche Angaben braucht ein Minergie-Nachweis, wie haengen die Blaetter zusammen) weiterhin brauchbar; Zahlen-/Grenzwertfelder sind im vorliegenden Exemplar leer (Blanko-Formular ohne Projektdaten) und duerfen nicht als aktuelle Kennwerte uebernommen werden."
 status: emerging
 last_updated: 2026-08-07
@@ -24,10 +24,10 @@ Die sechs gelesenen PDF-Seiten sind **kein eigenstaendiges Dokument je Seite**, 
 der Excel-Arbeitsmappe «230115_nachweisformular_minergie_v2022.4_de.xlsx» (Dateiname wortwoertlich
 aus der Fusszeile des Blatts «Sommer», siehe Frontmatter). Das Blatt **«Eingabe» (Formularkennung
 EN-101b)** ist so lang, dass es auf **zwei Druckseiten** faellt (gelesene Seiten nwf-1 und nwf-3) —
-zusammen mit den vier weiteren Blaettern ergibt das **genau fuenf Excel-Blaetter**. Das bestaetigt
-strukturell die in `[[minergie-online-plattform-antragstellung]]` bereits belegte Aussage, das
-hochzuladende Nachweisformular muesse «.xls/.xlsx mit genau 5 Blaettern» sein — dort nur als
-Formatregel bekannt, hier erstmals mit dem tatsaechlichen Blattinhalt hinterlegt.
+zusammen mit den vier weiteren Blaettern ergibt das **genau fuenf Excel-Blaetter**. Das ist **vereinbar**
+mit der in `[[minergie-online-plattform-antragstellung]]` belegten Formatregel «.xls/.xlsx mit
+genau 5 Blaettern» und benennt erstmals, welche Blaetter gemeint sein duerften. Ein Beleg fuer die
+Gesamtzahl ist es nicht.
 
 Abhaengigkeit/Reihenfolge, wie sie sich aus dem Formular selbst ergibt:
 
@@ -54,7 +54,7 @@ Abhaengigkeit/Reihenfolge, wie sie sich aus dem Formular selbst ergibt:
 
 ## Blatt 1/2 — Eingabe (EN-101b), Seite «Energienachweis Energiebedarf»
 
-- Projektidentifikation: Projektname, Parz.-Nr., MOP-Nr., Gebaeudeadresse.
+- Projektidentifikation: Projektname, Parz.-Nr., MOP-Nr., Gebaeudeadresse, EGID (Feld E8).
 - Gebaeudedaten: Gebaeudestandort, m.ü.M., Kanton, **Art des Nachweises: «Minergie mit SIA
   380/1:2016»** (fest hinterlegt im gelesenen Exemplar), Klimastation; je Zone 1-4 + Summe:
   Gebaeudekategorie, «Mit Warmwasser?», Energiebezugsflaeche EBF (A_E, m²), Neubau, Gebaeudehuellzahl
@@ -71,11 +71,16 @@ Abhaengigkeit/Reihenfolge, wie sie sich aus dem Formular selbst ergibt:
 - Eigenstromerzeugung: installierte Leistung ohne WKK (kWp), spezifische installierte Leistung
   (W/m² EBF), **spezifischer Jahresertrag mit Formular-Standardwert 800 kWh/kWp**,
   **Eigenverbrauchsrate mit Formular-Standardwert 20,0 %**, Minimale Groesse der
-  Eigenstromerzeugung (kWp), «Anforderung erfuellt?». Die beiden Standardwerte (800 kWh/kWp,
-  20 %) sind im Blanko-Formular selbst vorbelegt — sie stehen damit als Formular-Fixwerte fest,
-  nicht als Ergebnis einer Berechnung im gelesenen Exemplar.
+  Eigenstromerzeugung (kWp), «Anforderung erfuellt?», Groesse Batterie [kWh] (Feld E52),
+  Minergie -A (Feld E55), Bedarf / Produktion PV [kWh] (Feld E56). Die beiden Standardwerte
+  (800 kWh/kWp, 20 %) sind im Blanko-Formular selbst vorbelegt — sie stehen damit als
+  Formular-Fixwerte fest, nicht als Ergebnis einer Berechnung im gelesenen Exemplar.
 
-## Blatt 1/2 — Eingabe (EN-101b), Seite «Waermeerzeugung / Erfuellung»
+## Blatt 1/2 — Eingabe (EN-101b), Seite 2
+
+Beide Druckseiten tragen denselben Formularkopf «EN-101b — Energienachweis / Energiebedarf»; der
+frueher hier verwendete Seitentitel «Waermeerzeugung / Erfuellung» ist keine Formularbezeichnung,
+sondern war eine erfundene, eigene Kapitel-Ueberschrift dieses Destillats.
 
 - Bis zu vier Waermeerzeugungen A-D, je mit Nutzungsgrad/JAZ (Eingabe/Rechenwert) und
   Deckungsgrad in % fuer Heizung und Warmwasser, plus «Uebertrag weitere Waermeerzeugungen»,
@@ -106,27 +111,34 @@ Abhaengigkeit/Reihenfolge, wie sie sich aus dem Formular selbst ergibt:
   Geraete fuer Gebaeudebetrieb.
 - Uebrige Nutzungen, Angaben zur Beleuchtung: umfassende Sanierung ja/nein, Leuchten
   Minergie-Modul/Lichtausbeute > 100 lm/W, Lichtsteuerung Praesenz-/Tageslichtsensor,
-  Beleuchtung Mittelwert SIA 387/4 (ungewichtet) E_SIA387/4,be (kWh/m²), Beleuchtung Projektwert
-  SIA 387/4 (ungewichtet) E_SIA387/4,Bel (kWh/m²), «Anforderung Beleuchtung eingehalten?»
-  (Rechenwert).
+  Beleuchtung Mittelwert SIA 387/4 (ungewichtet) E_SIA387/4,ta (Feld M48; kWh/m²), Beleuchtung
+  Projektwert SIA 387/4 (ungewichtet) E_SIA387/4,Bel (kWh/m²), «Anforderung Beleuchtung
+  eingehalten?» (Rechenwert).
 - Weitere Anforderungen: Tabellenkopf «Selbstdeklaration/Bestaetigung» / «Anforderung erfuellt?»
-  mit zehn leeren Zeilen (M63-M72) — im gelesenen Exemplar ohne Text, offenbar projektspezifisch
-  zu ergaenzende Zusatzkriterien.
+  mit acht Zeilen (M63, M65, M67-M72; M64 und M66 ausgeblendet) — im gelesenen Exemplar ohne Text,
+  offenbar projektspezifisch zu ergaenzende Zusatzkriterien.
 
 ## Blatt — Sommerlicher Waermeschutz im Minergie-Standard
 
 Drei alternative Nachweisvarianten, je Zone 1-4 anzukreuzen:
 
 - **Variante 1, Globalbeurteilung** fuer die Nutzungen Wohnen, Einzelbuero, Gruppenbuero,
-  Sitzungszimmer und Lager (ohne Kuehlung). Gilt nur, wenn in der Zone ALLE folgenden
-  Bedingungen erfuellt sind (woertlich aus dem Formular): keine Oblichter; aussenliegender
-  beweglicher Sonnenschutz mit Rollladen/Raffstoren (g-Wert-total max. 0,1); Nachkuehlung mit
-  Fensterlueftung moeglich (mit dem Formular-Hinweis: «Der Einbruchschutz wird im Rahmen der
-  Minergie-Zertifizierung generell nicht geprueft»); interne Waermelasten nicht hoeher als die
-  Standardwerte im Merkblatt SIA 2024; Windfestigkeit des Sonnenschutzes mindestens
-  Windwiderstandsklasse 5. Je Zone werden fuenf Raumtypen mit ihren jeweiligen Kriterien
-  (Fassadenzahl, Deckenart/-belag, Orientierung, Verschattung, Glasanteil-Obergrenze bzw.
-  automatische Sonnenschutzsteuerung) und einer «Maximalen Glasflaechenzahl» abgefragt; die
+  Sitzungszimmer und Lager (ohne Kuehlung). Woertlich aus dem Formular: «Die Globalbeurteilung
+  gilt fuer Zonen in denen in allen Raeumen folgende Bedingungen eingehalten sind: Keine
+  Oblichter · Aussen liegender beweglicher Sonnenschutz mit Rollaeden oder Rafflamellenstoren
+  (g-Wert-total max 0.1) · Eine Nachauskuehlung mit Fensterlueftung ist moeglich (Hinweis: Der
+  Einbruchschutz wird im Rahmen der Minergie-Zertifizierung generell nicht geprueft.) · interne
+  Waermelasten nicht hoeher als die Standardwerte im Merkblatt SIA 2024 · Windfestigkeit des
+  aussenliegenden beweglichen Sonnenschutzes mindestens Windwiderstandsklasse 5.» Wichtig: das
+  Kriterium gilt **in allen Raeumen** der Zone, nicht nur pauschal «in der Zone» — eine
+  Formulierung, die das Kriterium aufweichen wuerde. Je Zone werden fuenf Raumtypen im
+  Originalwortlaut abgefragt: S21 «Wohnen (EFH, MFH), Raeume mit bis zu 2 Fassaden, Betondecke
+  (>80% frei)»; S23 «… Holzdecke und Zementunterlagsboden mit min. 6 cm oder Anhydrit min. 5 cm
+  Staerke»; S25 «… Raeume mit 1 Fassade, Betondecke (>80% frei) SSE-SSW-Orientierung und
+  Verschattung durch Balkon mit 1 Meter Tiefe»; S27 «Einzelbuero, Gruppenbuero, Raeume mit bis zu
+  2 Fassaden, Betondecke (> 40% frei) und automat. Steuerung des Sonnenschutzes. G-Wert Glas
+  ≤ 30%»; S29 «Lager mit geringen internen Waermelasten». Die Zeile «- Maximale
+  Glasflaechenzahl:» folgt nur auf die ersten vier Raumtypen, nicht auf «Lager» (S29); die
   Zahlenwerte der Glasflaechenzahl selbst sind im Formular als leeres Eingabefeld angelegt, nicht
   als Grenzwert vorgedruckt. Legende im Formular: «n.a.» = Raumtyp nicht vorhanden; «ja» =
   vorhanden und alle Kriterien erfuellt; «nein» = vorhanden, aber Kriterien nicht erfuellt (z. B.
@@ -135,11 +147,13 @@ Drei alternative Nachweisvarianten, je Zone 1-4 anzukreuzen:
   in Beilagen beschrieben/dokumentiert; Formular fragt nur ab, ob bauliche Grundanforderungen und
   Komfortkriterien erfuellt sind, plus ein Bemerkungsfeld («Art, Beilage, z. B. Hilfskriterien
   gemaess Anwendungshilfe»).
-- **Variante 3, externer Nachweis gemaess SIA 180 und SIA 382/1 (mit Kuehlung):** Formulartext
-  woertlich: «Nachweis der baulichen Grundanforderungen muss eingehalten sein. Die sommerlichen
-  Raumlufttemperaturen wurden gemaess SIA 382/1, Ziffer 4.5 berechnet. Die Grenzwert-Kurve gemaess
-  SIA 180, Figur 4 wird ohne Kuehlung weniger als 100 h ueberschritten. Die Zone ist gekuehlt und
-  der Energiebedarf wurde berechnet. Es treten keine hohen sommerlichen Raumlufttemperaturen auf.»
+- **Variante 3, externer Nachweis gemaess SIA 180 und SIA 382/1 (mit Kuehlung):** zwei getrennte
+  Ankreuzzeilen (S47 und S48), nicht ein Fliesstext. **S47** woertlich: «Nachweis der baulichen
+  Grundanforderungen muss eingehalten sein. Die sommerlichen Raumlufttemperaturen wurden gemaess
+  SIA 382/1, Ziffer 4.5 berechnet. Die Grenzwert-Kurve gemaess SIA 180, Figur 4 wird ohne
+  Kuehlung an weniger als 100h ueberschritten.» **S48** woertlich: «Die Zone ist gekuehlt und der
+  Energiebedarf wurde berechnet. Es treten keinen [sic] hohen sommerlichen Raumlufttemperaturen
+  auf.»
 - Schlusszeile «Gemaess Deklaration sind Anforderungen an den sommerlichen Waermeschutz erfuellt.»
   zeigt im gelesenen (leeren) Formular «Nein» (rot) — das ist der Default-Zustand eines
   unausgefuellten Formulars, **kein reales Pruefergebnis**.
@@ -155,7 +169,7 @@ Drei alternative Nachweisvarianten, je Zone 1-4 anzukreuzen:
   fossiler Energie (%).
 - «Weitere Kennzahlen»: Treibhausgasemissionen im Betrieb in CO2 kg/m² (Scope 1) — im Formular
   vermerkt «Keine Anforderungen».
-- Balkendiagramm «Visualisierung Minergie-Kennzahl (MKZ)» mit den Kategorien E_HWLK,ii +
+- Balkendiagramm «Visualisierung Minergie-Kennzahl (MKZ)» mit den Kategorien E_HWLK,li +
   Standardbedarf Elektrizitaet, Objektwert, Produktion PV, und der Legende Warmwasser,
   Lueftung + Klima, Wohnstrom, Heizung, Beleuchtung, Geraete, Allgemeine Gebaeudetechnik, PV
   nicht anrechenbar, PV Anteil Einspeisung, PV Eigenverbrauch, MKZ Anforderung, MKZ berechneter
@@ -170,7 +184,8 @@ Drei alternative Nachweisvarianten, je Zone 1-4 anzukreuzen:
   Tragstruktur, Fensteranteil (%), Deckenstaerke, Einsatz von CO2-angereichertem Beton.
 - Erfuellung der Anforderungen: Treibhausgasemissionen (Richtwert THGE Erstellung / Berechneter
   Wert, je kg/m²), Graue Energie (Richtwert/Berechneter Wert, kWh/m²), Gespeicherter Kohlenstoff
-  (Richtwert «-» / Berechneter Wert, kg C/m²) — im gelesenen Exemplar durchgehend 0,0.
+  (Richtwert «-» / Berechneter Wert, Feld T36 **kg/m²** — die Diagrammachse darunter beschriftet
+  dieselbe Groesse abweichend als «kg C/m2») — im gelesenen Exemplar durchgehend 0,0.
 - Zwei Diagramme: «Visualisierung Treibhausgase in der Erstellung» (kg CO2-e/m², Skala 0-20 mit
   Richtwertlinie) und «Gespeicherter Kohlenstoff» (kg C/m², Skala 0-20).
 - Dieses Blatt konkretisiert erstmals als tatsaechliche Formularstruktur, was
@@ -208,7 +223,8 @@ f_A = 0,9).
   Antrag + Nachweisformular + weitere vermerkte Unterlagen **schriftlich** an die zustaendige
   Zertifizierungsstelle einreichen. Zu Fristen/Kosten der MOP-Bearbeitung (ca. 4-6 Wochen,
   Projektabbruch nach Einreichung kostenpflichtig) siehe die bereits belegten Angaben in
-  `[[minergie-online-plattform-antragstellung]]` — hier nicht dupliziert.
+  `[[minergie-online-plattform-antragstellung]]` — hier nicht dupliziert. Am Fuss der Erfuellungs-
+  Seite (Blatt Eingabe/EN-101b, Seite 2) stehen zudem die Unterschriftsbloecke.
 - **Der sommerliche Waermeschutz ist ein eigener, ernstzunehmender Teilnachweis:** Wird Variante 1
   (Globalbeurteilung) wegen zu grossem Glasanteil oder fehlendem aussenliegendem Sonnenschutz
   nicht erfuellt, braucht es einen externen Nachweis (Variante 2/3) mit zusaetzlichem
@@ -216,8 +232,11 @@ f_A = 0,9).
   Verglasungsplanung fruehzeitig mitgedacht werden sollte.
 - **Dieses konkrete Formularexemplar (Version 2022.4, gueltig bis 31.12.2023) ist fuer aktuelle
   Projekte nicht mehr das massgebliche Formular** — vor jedem laufenden Mandat auf der aktuellen
-  Minergie-Website pruefen, ob eine neuere Formularversion vorgeschrieben ist. Die inhaltliche
-  Struktur (welche Angaben gebraucht werden) duerfte sich nur in Details geaendert haben.
+  Minergie-Website pruefen, ob eine neuere Formularversion vorgeschrieben ist. Ob und wie stark
+  sich die Feldstruktur in der Nachfolgeversion geaendert hat, ist hier nicht geprueft — seit
+  2022.4 liegt mindestens ein Reglementswechsel vor (siehe
+  [[minergie-produktreglement-2026-1-muken-vergleich]]). Dieses Destillat belegt ausschliesslich
+  den Stand 2022.4.
 
 ## Was NEU ist gegenueber dem Bestand der KB
 
@@ -226,9 +245,9 @@ f_A = 0,9).
   (`[[minergie-zertifizierung-workflow]]`, `[[minergie-online-plattform-antragstellung]]`) und
   Methodik/Kennzahlen (`[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-produktreglement-2026-1-muken-vergleich]]`),
   nicht das Formular selbst.
-- Erstmals eine **belegte Bestaetigung**, dass «5 Blaetter» in `[[minergie-online-plattform-antragstellung]]`
-  tatsaechlich Übersicht + Eingabe + Zusatzangaben Minergie + Sommer + (bedingt) Zusatzangaben
-  Erstellung meint.
+- Erstmals eine **plausible Zuordnung** — nicht ein Beleg —, welche fuenf Blaetter gemeint sein
+  duerften: Übersicht + Eingabe + Zusatzangaben Minergie + Sommer + (bedingt) Zusatzangaben
+  Erstellung.
 - Erstmals der **vollstaendige Wortlaut der drei Nachweisvarianten** fuer den sommerlichen
   Waermeschutz sowie der Geraeteklassen-Selbstdeklaration.
 - **Kein Zugewinn** bei den MKZ-Formeln und den THGE-Grenzwerten selbst — dort bleibt
@@ -238,14 +257,14 @@ f_A = 0,9).
 
 ## Offene Punkte
 
-- **Versions-/Datumsluecke auf zwei Blaettern:** Die Blaetter «Übersicht» und «Zusatzangaben zur
-  Erstellung von Neubauten» zeigen in den gelesenen Seiten keine Kopf-/Fusszeile mit
-  Versionsnummer oder Dateiname (anders als die drei uebrigen Blaetter). Ob sie zur selben
-  Arbeitsmappe «230115_nachweisformular_minergie_v2022.4_de.xlsx» gehoeren oder aus einer anderen
-  Version/einem anderen Ausdruck stammen, ist anhand der gelesenen Seiten allein NICHT
-  abschliessend zu belegen — bei Bedarf am Original in
-  `PL - 02_Recht_Norm/06_Richtlinien/Minergie/Nachweisformulare/` gegenpruefen (z. B.
-  Excel-Metadaten der Originaldatei statt der PDF-Ausdrucke).
+- **Nur ein Blatt ohne Versionszeile, nicht zwei — richtiggestellt gegenueber einer frueheren
+  Fassung dieses Destillats:** Das Blatt «Übersicht» traegt sehr wohl eine Versionszeile
+  (Kopfzeile «2022.4» und «MINERGIE-Nachweisformular 2022.4, zu verwenden bis 31. Dezember 2023»,
+  Fusszeile «26.05.23 10:07») und gehoert damit zweifelsfrei zur selben Arbeitsmappe
+  «230115_nachweisformular_minergie_v2022.4_de.xlsx» wie die uebrigen vier Blaetter. Einzig das
+  Blatt «Zusatzangaben zur Erstellung von Neubauten» traegt weder Kopf- noch Fusszeile — das
+  faellt nicht ins Gewicht, weil es das bedingte, bei «Neubau: Nein» weitgehend leere letzte
+  Blatt der Arbeitsmappe ist. Kein Provenienzzweifel.
 - Keine Angabe im Formular, welchem Minergie-Produktreglement (2022.x/2023.x) die «Art des
   Nachweises: Minergie mit SIA 380/1:2016» entspricht — das Formular selbst nennt nur die
   SIA-Norm, nicht die Reglementsversion.
@@ -262,3 +281,17 @@ f_A = 0,9).
 Verwandt: `[[minergie-produktreglement-2026-1-muken-vergleich]]`, `[[minergie-online-plattform-antragstellung]]`,
 `[[minergie-nachweiskurs-2023-mkz-thge]]`, `[[minergie-zertifizierung-workflow]]`,
 `[[minergie-p-a-anwendungshilfe-2019]]`, `[[enerhaus-minergie-nachweis-efh-umbau]]`.
+
+## Verifikation Run 125 (07.08.2026)
+
+Refuter-Panel prüfte dieses Destillat gegen die sechs gelesenen PDF-Seiten der Formular-Arbeitsmappe
+2022.4. Zwei tragende Fehler korrigiert: der frei erfundene «offene Punkt», dem Blatt «Übersicht»
+fehle eine Versionszeile (sie ist vorhanden, nur das bedingte Blatt «Zusatzangaben zur Erstellung
+von Neubauten» hat keine), und die als «belegte Bestätigung» deklarierte, tatsächlich nur
+plausible Zuordnung der 5-Blätter-Formatregel. Dazu sechs Zitattreue- und Detailkorrekturen
+(Variante 1 und 3 des sommerlichen Wärmeschutzes im Originalwortlaut inkl. der fünf Raumtypen,
+Formelzeichen M48 und MKZ-Diagramm, Zeilenzahl M63-M72, Einheitendiskrepanz Feld T36, unbelegte
+Beruhigungsformel zur Nachfolgeversion, fehlende Felder EGID/Batterie/Minergie-A/PV/
+Unterschriftsblöcke ergänzt). Kein Zugewinn bei den MKZ-Formeln und THGE-Grenzwerten selbst.
+Statusentscheid: `emerging` bleibt bestehen — Formular ist strukturell gut belegt, aber seit
+31.12.2023 abgelaufen und die Nachfolgeversion nicht verifiziert.
