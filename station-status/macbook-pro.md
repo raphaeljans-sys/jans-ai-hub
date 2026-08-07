@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 02:29:51
+Stand: 07.08.2026 02:39:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 07.08.2026 02:29:51
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 8b4b294c nas-selfcommit: 2 Datei(en) 2026-08-07 02:15
+- c9d6b082 energie: Minergie-Produktreglement 2026.1 Anhang G/H/J gelesen, F217 neu, E-124-2 geschlossen (Nachtschicht 07.08.)
