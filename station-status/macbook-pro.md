@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 13:56:33
+Stand: 07.08.2026 14:06:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 14:06)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 07.08.2026 13:56:33
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- f4f18d07 nas-selfcommit: 4 Datei(en) 2026-08-07 13:45
+- 0255abfb nas-selfcommit: 4 Datei(en) 2026-08-07 14:00

@@ -37,11 +37,17 @@ nur destillieren. Alle Titelblaetter sind verifiziert, Pfade stimmen.
   Sichtmauerwerk/sichtbar bleibendes Mauerwerk korrigiert).
 - [x] 260807 SIA 118/266-2:2017 — Destillat `sia-118-266-2-2017.md`, **established** (Refuter
   BESTANDEN, 0 Kernbefunde, 28 Stichproben; 5 Nebenbefunde eingearbeitet).
-- [ ] SIA 387/4:2017 (`alle/387_4_2017.pdf`) — dabei pruefen, WELCHE Teile von SIA 380/4:2006
-  ersetzt werden (Vorwort/Geltungsbereich) → Beitrag zur offenen Nachfolgefrage N27-2
+- [x] 260807 SIA 387/4:2017 — Destillat `sia-387-4-2017.md`, **established** (Refuter
+  BEANSTANDET geringfuegig: 1 Kernbefund 43 statt 40 Raumnutzungen korrigiert; 30+ Stichproben
+  inkl. Tabellen 4/13 zellenweise bestaetigt; Leitsatz an Ziff. 4.1.1.1 angeglichen).
+  **N27-2-Beitrag geliefert:** ersetzt gemaess Genehmigungsblock S. 44 den Teil Beleuchtung
+  (Ziff. 3.3 und 4.3) der SIA 380/4:2006; Lueftung/Klima → SIA 382/1+382/2, uebrige
+  Verbraucher → Merkblatt SIA 2056 (Vorwort S. 4).
 - [ ] SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan) — dabei die Jahres-Diskrepanz klaeren
   (Titelblatt «Ersetzt SIA 112/1:2004» vs. Register-Kette 2005)
-- [ ] SIA 281/3:2018 (`alle/281_3_2018_d.pdf`, Scan)
+- [x] 260807 SIA 281/3:2018 — Destillat `sia-281-3-2018.md`, **established** (Refuter
+  BESTANDEN, 0 Kernbefunde, 22 Stichproben; 2 Nebenbefunde eingearbeitet; Formelzeichen
+  Ziff. 2.4.1 «CJ» doppelt belegt, offener Punkt am besseren Original).
 
 **P2 (danach, normale Grundarbeit):** die uebrigen Deutsch-Erstfassungen der Uebernahme:
 118/244, 118/246, 118/248 (2006), 118/257 (2005), 118/262, 118/263, 118/265, 118/267 (2004),

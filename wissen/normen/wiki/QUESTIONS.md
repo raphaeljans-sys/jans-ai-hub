@@ -63,6 +63,15 @@
   ob der Herausgeber das als förmliche Nachfolge ausweist, ist Teil des Auftrags.
   **Unberührt bleibt** der Stichtags-Block «A) SIA — Gültigkeit je Norm, Stand 25.02.2013»:
   per Stichtag 2013 war «SIA 380/4:2006 gültig» richtig.
+  **Beitrag 07.08.2026 (Run 47, Destillat `sia-387-4-2017.md`, established, Refuter-verifiziert):**
+  Der Zerfall der SIA 380/4 ist jetzt hausintern am Normtext belegt, nicht nur sekundär —
+  SIA 387/4:2017 «ersetzt den Teil Beleuchtung (Ziffern 3.3 und 4.3) der Norm SIA 380/4 …,
+  Ausgabe 2006» (Genehmigungsblock S. 44, wörtlich vom Refuter bestätigt); Lüftung/Klima
+  liegen gemäss Vorwort S. 4 in SIA 382/1 und 382/2, die übrigen Elektrizitätsverbraucher im
+  Merkblatt SIA 2056. Damit ist die Nachfolge-Landkarte komplett: Beleuchtung → 387/4,
+  Lüftung/Klima → 382/1+382/2, Rest → 2056. Offen bleibt allein der förmliche
+  Herausgeber-Beleg der Archivierung (shop.sia.ch-Abruf mit Datum) — der bestehende Auftrag
+  oben gilt unverändert.
 
 ## Run 45 (06.08.2026) — vier Rückstände geschlossen, drei Statusfragen am Herausgeber belegt
 
