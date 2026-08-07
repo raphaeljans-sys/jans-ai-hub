@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 08:08:01
+Stand: 07.08.2026 08:18:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 08:08:01
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 77022571 logbuch: Debitoren-Verzugscheck 07.08.2026 (still, Bestand unveraendert CHF 51'400)
+- 7b30f058 nas-selfcommit: 2 Datei(en) 2026-08-07 08:15
