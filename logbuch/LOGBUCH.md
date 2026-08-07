@@ -4684,3 +4684,18 @@ Projektion/Orientierung), neues Unterkapitel "Leuchtengruppen" begonnen (Stromsc
 Arbeitsplatzleuchten vollstaendig, Wandleuchten begonnen). Register (INDEX, PROGRAMM,
 Inventar, CHANGELOG) nachgefuehrt. Kein Versand, keine Buchung, kein Fan-out. Report:
 `wissen/bauprodukte/CHANGELOG.md`, Eintrag 23:31.
+
+## 2026-08-07 — Mac Mini Nachtschicht (KB grobkosten, Run-6-Kandidat 2304 Wädenswil geprüft)
+
+Prioritaeten 1-2 leer/nicht viabel (keine Sync-/Remote-Tasks; Synobsis Stufe 2 seit 30.07.
+gesaettigt, 17+ ergebnislose Wiederholungslaeufe dokumentiert, kein weiterer Lauf sinnvoll).
+Prioritaet 4: unter den freien Ziel-KBs (bauprodukte, energie, grobkosten) war `grobkosten`
+mit letztem inhaltlichem Stand 06.08. 23:44 am laengsten unberuehrt (bauprodukte 07.08.
+21:24, energie 07.08. 23:29 desselben Tages). Letzten offenen Run-6-Kandidaten «2304
+Wädenswil Residualwert-Tool» (CHF/m³ 1'566 bekannt, GV/BKP-1-5 fehlen) bearbeitet: Quelle
+lokalisiert, aber jeder Leseversuch auf 5 Dateien im Projektordner `AR - 03 Studien/2304
+Waedenswil/` scheitert reproduzierbar mit `Resource deadlock avoided` — eine Kontrolldatei
+aus dem Nachbarordner liest im selben Moment fehlerfrei, der Befund ist also lokal auf
+diesen einen Projektordner eingegrenzt, nicht stationsweit. Kein Kennwert promoviert, Befund
+und Vorschlag dokumentiert in `wissen/grobkosten/wiki/QUESTIONS.md` und
+`training/quellen-inventar.md` (Run 13). Kein Versand, keine Buchung, kein Fan-out.

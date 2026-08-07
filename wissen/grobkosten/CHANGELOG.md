@@ -1,5 +1,13 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-07 (Mac Mini Nachtschicht, Run 13) — Run-6-Kandidat «2304 Wädenswil» weiterhin offen: Quelle geortet, Zugriff durch OneDrive-Dateisperre blockiert
+
+Kein neuer Kennwert, kein promovierter Fall. Quelle des letzten offenen Run-6-Kandidaten
+(«2304 Wädenswil Residualwert-Tool») lokalisiert, aber Leseversuche auf 5 Dateien im
+Projektordner scheitern reproduzierbar mit `Resource deadlock avoided` (Kontrolldatei aus
+Nachbarordner liest fehlerfrei — Befund also lokal auf `2304 Waedenswil`, nicht stationsweit).
+Details/Vorschlag: `training/quellen-inventar.md` Run 13, `wiki/QUESTIONS.md`.
+
 ## 2026-08-06 (Cross-KB-Lauf Run 27) — Kopfblock auf den Stand des eigenen Healthcare-Abschnitts gehoben, Rückmeldung des Abnehmers eingetragen
 
 Rein additiv, kein Kennwert verändert.

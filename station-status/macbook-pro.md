@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 23:25:49
+Stand: 07.08.2026 23:35:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:23)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:33)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 23:25:49
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- e3ed1fd0 nas-selfcommit: 13 Datei(en) 2026-08-07 23:15
+- 1be49309 wissen/energie: Energie-Training Run 125 — Minergie-Restbestand PL-02 (15 PDF, 9 Destillate), GEAK-Methodik erschlossen, zwei Ordner-Ablage-Fallen und ein heute falscher Rechtsstand (ZH/SZ-Substitutionspflicht) korrigiert; FAQ F218-F221, Register + Lauf-Report

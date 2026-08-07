@@ -1,3 +1,14 @@
+## Run 13 (07.08.2026) — letzter Run-6-Kandidat «2304 Wädenswil Residualwert-Tool» weiterhin `[ ]` offen: Quelle geortet, aber durch OneDrive-Dateisperre blockiert
+
+Quelle lokalisiert (`AR - 03 Studien/2304 Waedenswil/09_Dokumente/03_Residualwertberechnung/`,
+zwei Varianten Zwei-Treppenhäuser/Atrium, je PDF+XLSX, plus Parallelkopien in `04_KTV/01_Kosten/
+00_Residualwertberechnung/` und `02_Korrespondenz/02_Nova/230918_AU_Waedenswil/`). Jeder
+Leseversuch (`cat`/`cp`/`ditto`/Read-Tool) auf jede getestete Datei in diesem Ordner (5 Pfade)
+endet mit `Resource deadlock avoided` — Kontrolldatei aus `2305 Muenchenwiler` derselben
+Bibliothek liest im selben Moment sauber, Fehler ist also auf `2304 Waedenswil` eingegrenzt,
+nicht stationsweit. Nicht selbst behoben (kein sinnvoller Eingriff in OneDrive-Sync-Interna vom
+Nachtschicht-Lauf aus). Kandidat bleibt `[ ]` offen, Details/Vorschlag `wiki/QUESTIONS.md`.
+
 ## Run 12 (01.08.2026) — letzter offener Run-6-Kandidat aus `IMMO - 03 KNOW-HOW` extrahiert
 
 Der in Run 6 zurückgestellte Kandidat «Schätzungsanleitung Kap. 5, generische Referenztabelle

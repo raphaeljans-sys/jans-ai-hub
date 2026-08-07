@@ -2,6 +2,33 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-07 (Mac Mini Nachtschicht) — Run-6-Kandidat «2304 Wädenswil Residualwert-Tool» weiterhin offen: ganzer Projektordner aktuell durch OneDrive-Dateisperre blockiert
+
+**Versucht:** den in Run 6 (27.07.2026) zurückgestellten Kandidaten «2304 Wädenswil
+Residualwert-Tool» (CHF/m³-Kennwert 1'566 bereits bekannt, GV und BKP-1-5-Aufschlüsselung
+fehlen, «offen für einen künftigen Lauf mit Excel-Einsicht») abzuschliessen. Quelle lokalisiert:
+`AR - 03 Studien/2304 Waedenswil/09_Dokumente/03_Residualwertberechnung/` (zwei Varianten,
+Zwei Treppenhäuser und Atrium, je PDF+XLSX) sowie Parallelkopien in `04_KTV/01_Kosten/
+00_Residualwertberechnung/` und `02_Korrespondenz/02_Nova/230918_AU_Waedenswil/`.
+
+**Befund:** Jeder Leseversuch (`cat`, `cp`, `ditto`, Read-Tool) auf **jede** Datei in diesem
+Projektordner (PDF wie XLSX, an fünf verschiedenen Pfaden innerhalb `2304 Waedenswil`
+getestet) endet mit `Resource deadlock avoided` (EDEADLK) — es entstehen nur leere/Kurz-
+Dateien mit der Fehlermeldung als Inhalt statt echtem PDF/XLSX. **Nicht stationsweit**: eine
+Kontrolldatei aus dem Nachbarordner `2305 Muenchenwiler` derselben Bibliothek liest im
+selben Moment sauber (726 KB, gültiges PDF). Der Fehler ist damit auf den Ordner
+`2304 Waedenswil` eingegrenzt, nicht auf OneDrive/SharePoint allgemein.
+
+**Nicht selbst behoben** (kein Schreibzugriff auf OneDrive-Sync-Interna vom Nachtschicht-Lauf
+aus sinnvoll; keine Zerstoerende Aktion ohne Freigabe). Mögliche Ursachen: Datei anderswo
+geöffnet (Excel/Finder-Quick-Look auf einer anderen Station), unvollständiger
+Cloud-Only-Platzhalter, oder ein Sync-Konflikt speziell dieses Ordners.
+
+**Vorschlag für den nächsten Lauf/für Raphael:** Falls auf einer Station gerade eine Datei
+aus `2304 Waedenswil` geöffnet ist, schliessen; sonst OneDrive-Sync für diesen Ordner einmal
+antriggern (z. B. Finder-Öffnen + kurz warten) und den Lesetest wiederholen. Bis dahin bleibt
+der Kennwert 1'566 CHF/m³ **Einzelposition ohne GV-Beleg**, nicht promotionsfähig.
+
 ## 2026-08-06 (Mac Mini Nachtschicht) — Frage 1 (BKP-Scope Tab. 2): «anderes Kapitel prüfen» ist ein Sackgassen-Weg, ein Sackgassen-Argument dazugekommen
 
 **Kein Trigger für eine neue Stufe-1-Exploration seit dem 04.08.2026 (Bring-Schuld `normen`
