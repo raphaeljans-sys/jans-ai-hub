@@ -75,15 +75,15 @@ zuerst.
 ## 260730b — Heutiges Datum messen UND gegenpruefen; NAS-Dateien vor dem Edit auf Frische pruefen
 - **Regel:** (1) Das Arbeitsdatum kommt aus `date "+%Y-%m-%d %H:%M %Z"`, nie aus einem
   Dateiinhalt (gleiche Familie: `toISOString()`-UTC-Falle, siehe `dateinamen-konvention.md`).
-  **(1b) ⚠ Verschaerft 07.08.2026 (Buch-Run 72): die Messung selbst kann falsch sein.** `date`
+  **(1b) ⚠ Verschärft 07.08.2026 (Buch-Run 72): die Messung selbst kann falsch sein.** `date`
   misst die **lokale Uhr**, nicht das Datum. Am 07.08.2026 lieferte das MacBook Pro
   «2026-08-03 23:44» und sprang mitten im Lauf um vier Tage vor (NTP-Korrektur) — der ganze
-  Lauf war zunaechst auf den 03./04.08. datiert (Dateinamen, Frontmatter, CHANGELOG, Register,
-  Drill-Stempel), und der Commit trug rueckdatiert 2026-08-04 00:03. Vor dem ERSTEN datierten
-  Dateinamen darum eine **zweite, stationsunabhaengige Quelle** gegenlesen: der Zeitstempel des
-  juengsten nativen NAS-Commits (`git log -1 --format='%ci'` im SSD-Klon) entsteht auf der
-  Synology und haengt nicht an der Stationsuhr. Weichen die beiden um mehr als ein paar Minuten
-  ab, gilt die Synology; die Abweichung gehoert in den Laufbericht. **Ein einzelner Messwert ist
+  Lauf war zunächst auf den 03./04.08. datiert (Dateinamen, Frontmatter, CHANGELOG, Register,
+  Drill-Stempel), und der Commit trug rückdatiert 2026-08-04 00:03. Vor dem ERSTEN datierten
+  Dateinamen darum eine **zweite, stationsunabhängige Quelle** gegenlesen: der Zeitstempel des
+  jüngsten nativen NAS-Commits (`git log -1 --format='%ci'` im SSD-Klon) entsteht auf der
+  Synology und hängt nicht an der Stationsuhr. Weichen die beiden um mehr als ein paar Minuten
+  ab, gilt die Synology; die Abweichung gehört in den Laufbericht. **Ein einzelner Messwert ist
   keine Verifikation** — dieselbe Logik wie bei Konfigurationsfeldern (Eintrag 260807).
   (2) Ein Lesevorgang ueber den SMB-Mount kann einen VERALTETEN Dateistand liefern: vor dem
   Edit einer geteilten NAS-Datei den Frischestand pruefen (`git log -1 --format=%ci --
