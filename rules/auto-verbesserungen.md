@@ -7,12 +7,23 @@ Stationen aktiv. Erfassung: Hook `scripts/verbesserung-capture.sh` + Claudes Bew
 **Archiv:** Vollstaendige Original-Wortlaute und Beleg-Prosa aller Eintraege liegen in
 `rules/auto-verbesserungen-archiv.md` (nicht importiert), inkl. Snapshot der Fassung vor
 jeder Konsolidierung. Hier steht nur der aktive, imperative Kern. Konsolidiert 19.07. /
-29.07. / 30.07.2026 (Kontext-Diaet, `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
+29.07. / 30.07. / 07.08.2026 (Kontext-Diaet, `docs/konzepte/260719-Kontext-Diaet-Token-Reduktion/`).
 
 **Betriebs-Chronik:** Belege, Messwerte und Vorfallsanalysen zu Infrastruktur, Speicher,
 launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht importiert**).
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
+
+## 260807 — Konfigurationsfelder erst messen, dann glauben; Verbrauch nie per Frontmatter «senken»
+- **Regel:** Bevor ein Konfigurationsfeld als wirksam angenommen wird, wird seine Wirkung
+  **gemessen** (Transkript, Log, Lauf-Journal), nicht aus seiner Existenz geschlossen. Belegt
+  am 07.08.2026: `model:` in der SKILL.md-Frontmatter einer Scheduled Task steuert den
+  Hauptlauf NICHT — alle Laeufe fuhren `claude-opus-5`, auch die Task mit dem Feld. Gleiche
+  Familie wie `enabled:`/`cron_target:` (Radar-Befund 06.08.). **Eine Sparmassnahme, die nur
+  ein Doku-Feld setzt, ist keine Sparmassnahme**, sondern erzeugt den Glauben, das Problem sei
+  geloest. Was wirkt: Arbeit an Subagenten delegieren und den Grundkontext schlank halten.
+- **Gilt fuer:** alle Scheduled Tasks, alle Stationen, jede Aussage ueber Verbrauch oder
+  Betriebszustand. Volle Messung und Muster: Rule `modellwahl-routine.md`.
 
 ## 260805 — Fristen und terminkritische Funde gehoeren ins Register, nicht nur in den eigenen Bericht
 - **Regel:** Wer in einem Lauf eine **Frist, einen Termin oder einen terminkritischen Mangel an
@@ -77,11 +88,9 @@ zuerst.
 - **Regel:** Bei jeder Frage zum Hub-Setup (Stationen, IPs, SSH-Wege, Mail-Konten, Pfade,
   Git-Regeln) und bei jeder Verbindungsstoerung ZUERST
   `node /Volumes/daten/jans-ai-hub/connectors/hub-setup.mjs` befragen (`--alles` Fakten,
-  `--check` Live-Verbindungscheck) — nie aus dem Gedaechtnis, nie improvisiert. Kanonische
-  Datenquelle: `connectors/hub-setup-daten.json` (nur dort pflegen). Merksaetze:
-  `connection refused` auf eine 100.x-IP heisst fast immer Tailscale-Client pausiert, nicht
-  sshd defekt; Standard-Kanal Mini→MacBook ist die NAS-Task-Queue
-  (`scripts/sync-task-create.sh macbook-pro …`), direkte SSH nur opportunistisch.
+  `--check` Live-Check) — nie aus dem Gedaechtnis. Kanonische Datenquelle:
+  `connectors/hub-setup-daten.json` (nur dort pflegen). Merksaetze und Stoerungsmuster:
+  Betriebs-Chronik.
 - **Gilt fuer:** alle Stationen, alle Sessions, heartbeat (Check 9).
 
 ## 260730 — Erkannte Verbesserungen selbst umsetzen, nicht auf einen Extra-Auftrag vertagen
@@ -105,18 +114,16 @@ zuerst.
   Fall-Dokumentation: Archiv, Snapshot 260807.
 
 ## 260729 — Werkzeuge und Kontext-Schichten bewusst waehlen (Anthropic-Lecture)
-- **Regel:** (1) **Werkzeug-Index zuerst.** Bevor eine externe Quelle von Hand abgefragt
-  oder ein Weg improvisiert wird, in `connectors/README.md` nachschlagen und den Connector
-  per `--hilfe` selbst befragen; neue Connectoren dort eintragen. (2) **Kontext-Schicht
-  bewusst waehlen:** neue geteilte Regeln in den Projekt-Layer (NAS, eingecheckt),
-  stationsuebergreifende Grundregeln in `templates/user-level/CLAUDE.md` (verteilen mit
-  `scripts/user-claude-sync.sh --alle`), Rollen-/Belegwissen in eine nicht importierte
-  Datei. (3) **Automatische Laeufe ueber `scripts/claude-run.sh`** statt direktem
-  `claude -p` (JSON-Kennzahlen ins Lauf-Journal). (4) **Konfiguration ist Teamgut:**
-  `.mcp.json`, `.claude/settings.json`, CLAUDE.md und Commands versioniert; nur echte
-  Geheimnisse (`.env`, `*.pem`) lokal.
-- **Gilt fuer:** alle Stationen, alle Sessions. Konzept + Messwerte:
-  `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`, Wissen: `wissen/claude-code/`.
+- **Regel:** (1) **Werkzeug-Index zuerst:** vor jeder improvisierten Abfrage in
+  `connectors/README.md` nachschlagen und den Connector per `--hilfe` befragen; neue dort
+  eintragen. (2) **Kontext-Schicht bewusst waehlen:** geteilte Regeln in den Projekt-Layer
+  (NAS), stationsuebergreifende Grundregeln in `templates/user-level/CLAUDE.md` (verteilen mit
+  `scripts/user-claude-sync.sh --alle`), Rollen-/Belegwissen in eine **nicht importierte**
+  Datei. (3) **Automatische Laeufe ueber `scripts/claude-run.sh`** statt direktem `claude -p`
+  (Kennzahlen ins Lauf-Journal). (4) **Konfiguration ist Teamgut:** `.mcp.json`,
+  `.claude/settings.json`, CLAUDE.md, Commands versioniert; nur Geheimnisse lokal.
+- **Gilt fuer:** alle Stationen, alle Sessions. Konzept und Messwerte:
+  `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
 ## Betrieb — die Kurzregeln stehen in `rules/betrieb-chronik.md` (NICHT importiert)
 
@@ -138,12 +145,9 @@ Runde 2; die Regeln selbst sind unveraendert in Kraft.)
 - **Gilt fuer:** alle Stationen, alle Loops, jede Session.
 
 ## 260721 — Bundesrecht-Volltexte: Fedlex ueber die Filestore-URL lesen (nicht das JS-Portal)
-- **Regel:** Das Fedlex-Portal liefert ohne JavaScript keinen Text; amtliche Volltexte IMMER
-  ueber das Filestore-Muster beziehen:
-  `https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/<ELI>/<JJJJMMTT>/de/html/fedlex-data-admin-ch-eli-cc-<ELI-mit-Bindestrichen>-<JJJJMMTT>-de-html.html`
-  (Konsolidierungsdatum meist 01.01. des laufenden Jahres; per curl-Statuscode testen).
-  Beispiel OR (SR 220): ELI `27/317_321_377`, Artikel per `<article id="art_NNN">`
-  extrahierbar (Buchstaben-Artikel mit Unterstrich: `art_777_c`).
+- **Regel:** Das Fedlex-Portal liefert ohne JavaScript keinen Text; amtliche Volltexte immer
+  ueber das Filestore-Muster beziehen. URL-Schema, Beispiel und Artikel-Extraktion:
+  `docs/referenz/fedlex-volltexte.md` (ausgelagert 07.08.2026, nicht importiert).
 - **Gilt fuer:** alle KBs/Loops, die Bundesrecht zitieren (firmengruendung, normen,
   baurecht fuer Bundesnormen, energie).
 
@@ -160,14 +164,12 @@ Runde 2; die Regeln selbst sind unveraendert in Kraft.)
 
 ## 260709 — Mails UND Anhaenge wirklich lesen; Status aus dem BELEG
 - **Regel:** (1) Anhaenge sind Pflichtlektuere: bei jedem belegabhaengigen Punkt (Rechnung,
-  Zahlung, Verfuegung, Vertrag, Offerte) das PDF oeffnen und die Fakten (Betrag, Valuta,
-  Absender/Empfaenger, Referenz) dem Beleg entnehmen; fehlende Anhaenge via
-  Spotlight/`mdfind`/Outlook-Cache lokalisieren. (2) Status NIE aus Absichtserklaerungen,
-  nur aus Belegen; Zusage ohne Beleg = weiter beobachten. (3) Kein Punkt bleibt tagelang
-  «offen», ohne den neuesten Thread inkl. Anhang geprueft zu haben; Fremd-Rechnungen sind
-  keine JANS-Aktion, sobald der Beleg die Zahlung zeigt. (4) Relevante Mails ganz lesen.
-  (5) Eingehend ↔ ausgehend paaren: hat eine spaetere ausgehende Mail das Anliegen geloest,
-  ist der Punkt ERLEDIGT (mit Beleg schliessen).
+  Zahlung, Verfuegung, Vertrag, Offerte) das PDF oeffnen, Fakten dem Beleg entnehmen; fehlende
+  Anhaenge via `mdfind`/Outlook-Cache suchen. (2) Status nie aus Absichtserklaerungen, nur aus
+  Belegen. (3) Kein Punkt bleibt tagelang «offen», ohne den neuesten Thread samt Anhang
+  geprueft zu haben; Fremd-Rechnungen sind erledigt, sobald der Beleg die Zahlung zeigt.
+  (4) Relevante Mails ganz lesen. (5) Eingehend ↔ ausgehend paaren: loest eine spaetere
+  ausgehende Mail das Anliegen, ist der Punkt ERLEDIGT (mit Beleg schliessen).
 - **Gilt fuer:** JEDE Arbeit mit Mails/Belegen (Radar, hub-chef, /morgen, mahnwesen,
   zahlungsabgleich, kostenkontrolle, Offert-/Rechnungspruefung), alle Stationen.
 
@@ -188,9 +190,9 @@ Runde 2; die Regeln selbst sind unveraendert in Kraft.)
   nur bei >~10 Min oder Parallelarbeit — dann explizit ankuendigen.
 
 ## 260610 — Inhaber-Auftraege als Lernsignal
-- **Regel:** Nach substanziellen Auftraegen verallgemeinerbare Erkenntnisse in die passende
-  KB zurueckschreiben, Auftragsmuster als Skill-/Rule-Verbesserung vorschlagen, Audits unter
-  docs/ versionieren. Nicht jede Kleinanfrage.
+- **Regel:** Aufgegangen in Rule `wissens-ruecklauf.md` (importiert), die das Wie praeziser
+  fasst. Zusaetzlich hier: Auftragsmuster als Skill-/Rule-Verbesserung vorschlagen, Audits
+  unter `docs/` versionieren. Nicht jede Kleinanfrage.
 
 ## 260609 — Tool-Berechtigungen immer erlauben
 - **Regel:** Eingerichtete Werkzeuge/Connectoren ohne Rueckfrage nutzen; fehlt ein neuer
@@ -211,11 +213,9 @@ Runde 2; die Regeln selbst sind unveraendert in Kraft.)
   `ausschreibung`.
 - Radar-Briefing-Pflicht + Konversations-Gedaechtnis/outlook.com (260710/260716) → Skill
   `logbuch` (Verweis in `hub-chef`).
-- Ablage: MD+DOCX+PDF im Datums-Ordner (260603/04) → Rule `dateinamen-konvention.md` ·
-  Plattform-Downloads doppelt + Konzept-Dokumente aufs NAS (260612/260611) → Rule
-  `projekt-ablage-stand.md` · XLSX im JANS-Layout, keine Deko-Symbole (260601) → Rule
-  `dokument-layout-standard.md` · vollstaendige Pfade ausweisen (260619) → User-Level
-  CLAUDE.md (jede Station).
+- Ablage, Layout und Pfadangaben (260601/03/04/11/12/19) → die importierten Rules
+  `dateinamen-konvention`, `projekt-ablage-stand`, `dokument-layout-standard` sowie die
+  User-Level-CLAUDE.md. Sie gelten ohnehin in jeder Session; hier kein Zweiteintrag noetig.
 
 ## Eintrags-Format (neueste zuoberst)
 

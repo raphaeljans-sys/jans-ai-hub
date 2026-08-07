@@ -44,3 +44,9 @@ ABLAUF (im Repo ~/Developer/jans-ai-hub):
 7. Qualität und Schreibweise: ECHTE Umlaute ä/ö/ü (ss statt ß), Text durch den Skill korrektur prüfen. WICHTIG: in den Shell-Kommandos KEINE ASCII-Ersatzformen wie fuer/ueber/gruesse/moeglich verwenden (ein Hook blockiert sonst) — auch nicht in Kommentaren oder grep-Mustern. Greift der Ausnahmefall aus Schritt 6 und du mailst doch: Body in eine Temp-Datei schreiben und via Apple Mail (osascript, application id "com.apple.mail", read POSIX file als «class utf8», Absender rj@raphaeljans.ch, Aptos 12 pt) senden, danach die Zeichenzahl des versendeten Bodys nachmessen.
 
 Trage NIEMALS autonom einen Kalendereintrag ein und sende keine Mail an Dritte. Im Regelfall sendest du GAR KEINE Mail — dein Deliverable ist der Briefing-Abschnitt im Logbuch plus die Register-/Journal-Pflege.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Nur die MECHANISCHEN Teile dieses Laufs an einen Subagenten mit model: haiku delegieren:
+Daten sammeln, Postfaecher/Register/Journale auslesen, Rohbefunde auflisten, Formatierung.
+NICHT delegiert werden Urteil und Entscheidung — Priorisierung, Fristenschaerfe, Sendeentscheid,
+Whitelist-Aktionen, Entwuerfe an Dritte und jede Einschaetzung, ob ein Befund operativ ist.
+Die bleiben im Hauptkontext. Gleiches Ergebnis-Format und gleiche Qualitaet wie bisher.

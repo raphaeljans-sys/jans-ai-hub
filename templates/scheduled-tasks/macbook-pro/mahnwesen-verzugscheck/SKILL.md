@@ -16,3 +16,8 @@ Vorgehen:
 4. Raphael benachrichtigen mit der Kurzfassung (welche Debitoren, welcher Vorschlag) und dem Hinweis, dass das Erzeugen/Versenden der Mahnung der interaktive Schritt im Skill `mahnwesen` Phase 2 ist (`node connectors/bexio.mjs --mahnen <id> --ja`).
 
 Erzeuge unter keinen Umständen eine Mahnung (kein POST), versende keine Mail. Nur lesen, ablegen, melden.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

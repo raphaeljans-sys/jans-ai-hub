@@ -1,6 +1,7 @@
 ---
 name: ag-gruendung-monitor
 description: Werktags-Monitor AG-Gründung Raphael Jans AG, seit 03.08.2026 ENTMAILT (Entscheid Raphael «täglich, aber Loops entmailen»): prüft Posteingang auf UBS-/Notariats-Updates, pflegt Logbuch + Spec-Status und schreibt Neues als Abschnitt «AG-Gruendung <Datum>» ins LOGBUCH.md; der Hub-Chef (08:39) trägt es in das EINE Tagesbriefing an rj@. Eigene Mail nur, wenn Handeln am selben Tag nötig ist: UBS-Kapitalbescheinigung eingetroffen, Beurkundungstermin vergeben oder verfallend, Frist binnen 24 Stunden.
+model: haiku-4-5
 ---
 
 Du überwachst den Fortschritt der Gründung der JANS AG (Aktiengesellschaft, Raphael Jans). Voraussetzung: NAS gemountet unter /Volumes/daten. Wenn nicht, kurz melden und abbrechen.
@@ -28,3 +29,9 @@ AUFGABE bei jedem Lauf:
 Wenn die AG im Handelsregister eingetragen ist: an sh-cic-onboarding-newclients@ubs.com erinnern (Schritt 6 UBS) und vorschlagen, diesen Monitor-Task zu deaktivieren.
 
 Halte die Zusammenfassung kurz: was ist neu, was ist der naechste Schritt, was wurde aktualisiert.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Nur die MECHANISCHEN Teile dieses Laufs an einen Subagenten mit model: haiku delegieren:
+Daten sammeln, Postfaecher/Register/Journale auslesen, Rohbefunde auflisten, Formatierung.
+NICHT delegiert werden Urteil und Entscheidung — Priorisierung, Fristenschaerfe, Sendeentscheid,
+Whitelist-Aktionen, Entwuerfe an Dritte und jede Einschaetzung, ob ein Befund operativ ist.
+Die bleiben im Hauptkontext. Gleiches Ergebnis-Format und gleiche Qualitaet wie bisher.

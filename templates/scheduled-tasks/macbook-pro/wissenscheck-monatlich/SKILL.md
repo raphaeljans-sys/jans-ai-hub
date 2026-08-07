@@ -15,3 +15,8 @@ Vorgehen:
 5. Gib eine kompakte Gesamt-Kurzfassung aus: je KB die Audit-Zahlen (A-G) und die wichtigsten Findings, plus die Pfade zu den Reports.
 
 Halte dich an die Skill-Definition skills/wissenscheck/SKILL.md und die Rule wissens-bibliothekar.md. Aktuelle KBs (Stand 02.06.2026): baurecht, projekt-lessons.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

@@ -21,3 +21,9 @@ Ablauf gemaess SKILL.md, Kurzfassung:
    Wenn gesendet wird: EINE Mail an rj@raphaeljans.ch via Apple Mail (osascript, application id "com.apple.mail", Absender rj@raphaeljans.ch, Aptos 12pt gemaess mail-formatierung, echte Umlaute, sechsstellige Daten). Struktur: Erledigt (autonom) / Entwuerfe bereit / Faellig-Droht 7 Tage / Service-Chancen / Beobachten. Nach dem Versand die Zeichenzahl des Bodys nachmessen (Gegenprobe zum Leer-Draft-Fehler).
 
 Abschluss: Lauf im LOGBUCH.md vermerken (Abschnitt des heutigen Datums, neueste zuoberst).
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Nur die MECHANISCHEN Teile dieses Laufs an einen Subagenten mit model: haiku delegieren:
+Daten sammeln, Postfaecher/Register/Journale auslesen, Rohbefunde auflisten, Formatierung.
+NICHT delegiert werden Urteil und Entscheidung — Priorisierung, Fristenschaerfe, Sendeentscheid,
+Whitelist-Aktionen, Entwuerfe an Dritte und jede Einschaetzung, ob ein Befund operativ ist.
+Die bleiben im Hauptkontext. Gleiches Ergebnis-Format und gleiche Qualitaet wie bisher.

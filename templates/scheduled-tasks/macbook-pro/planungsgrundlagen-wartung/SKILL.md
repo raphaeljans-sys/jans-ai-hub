@@ -24,3 +24,8 @@ OUTPUT: Report nach wissen/planungsgrundlagen/outputs/JJJJ-MM-TT_wartung-NN.md (
 SICHERN: NIEMALS git commit/push/pull gegen /Volumes/daten/jans-ai-hub ueber den SMB-Mount ausfuehren (haengt uninterruptibel, blockiert die index.lock fuer alle, Rule 260726). Ausschliesslich: bash /Volumes/daten/jans-ai-hub/scripts/nas-commit-now.sh "planungsgrundlagen-wartung NN: <kurz>". Lesende git-Befehle sind erlaubt.
 
 GRENZEN: keine Mails, keine Buchungen, keine Veroeffentlichungen, nichts loeschen. Dateien in raw/ werden nie editiert. Artikel umbenennen/mergen/loeschen nur nach Rueckfrage (Rule wissens-bibliothekar). Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß, keine erfundenen Zahlen. Datums-Prefix im Dateinamen immer aus LOKALER Zeit bilden (date "+%y%m%d" bzw. toLocaleDateString("sv-SE")), nie aus toISOString() — das datiert im Nachtfenster einen Tag zurueck.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

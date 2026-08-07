@@ -27,3 +27,8 @@ Ablauf:
 5. ABSCHLUSS: CHANGELOG-Zeile in wissen/claude-code/CHANGELOG.md (immer, eine Zeile mit Datum + Ergebnis). Kein Mail-Versand — Befunde erreichen Raphael ueber das hub-chef-Tagesbriefing. Danach NAS-Commit ausloesen: `bash /Volumes/daten/jans-ai-hub/scripts/nas-commit-now.sh "methoden-radar: <Kurzergebnis>"` (NIE git direkt ueber den SMB-Mount).
 
 Sprache: Schweizer Hochdeutsch, echte Umlaute, ss statt ß. Quellen belegen, nie raten (Rule identifikatoren-verifizieren).
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

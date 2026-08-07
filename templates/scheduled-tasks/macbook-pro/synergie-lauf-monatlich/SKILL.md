@@ -15,3 +15,8 @@ Vorgehen (gemaess /Volumes/daten/jans-ai-hub/skills/synergie-orchestrator/SKILL.
 7. KEINE eigene Mail versenden — die Befunde stehen im Register/Laufbericht; hub-chef-taeglich nimmt Wesentliches ins Tagesbriefing auf.
 
 Schweizer Hochdeutsch, echte Umlaute in Klartext-Erzeugnissen; NAS ist kanonische Quelle (nur dort editieren, Selfcommit sichert nach GitHub).
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Die mechanischen Stufen dieses Laufs (Material sichten, Rohtext destillieren, Artikel
+kompilieren, Register nachfuehren) an einen Subagenten mit model: sonnet delegieren; der
+Hauptkontext orchestriert, faellt das Urteil und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher.

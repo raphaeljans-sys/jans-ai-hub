@@ -48,3 +48,8 @@ Vorbedingung: test -d /Volumes/daten/jans-ai-hub — sonst kurzer Remount-Versuc
 7. BEI MELDUNG: genau EINE kurze Mail an rj@raphaeljans.ch (Apple Mail/osascript, application id "com.apple.mail", Absender rj@raphaeljans.ch, Aptos 12 pt, echte Umlaute ä/ö/ü, ss statt ß). Betreff "Vollgas-Frühwarnung: <Kernbefund>". Inhalt kompakt: Tageswerte beider Stationen (teuer und total, als Fliesstextzeilen, KEINE Leerschlag-Kolonnen — Aptos ist eine Proportionalschrift), ob und wie die Arbeit betroffen war, klare Empfehlung. Bei Drossel-Empfehlung konkret den betroffenen Task und enabled=false nennen, nie eine STOP-Datei. Vor Versand Skill korrektur anwenden. Keine Wiederholungsmail für denselben Befund an Folgetagen (im Log vermerken, wann zuletzt gemailt wurde).
 
 Strikt: Schweizer Hochdeutsch, echte Umlaute; Zahlen nie schätzen, wo messbar; Schätzungen klar markieren. Speicher immer über vm_stat (free+inactive+purgeable) plus sysctl kern.memorystatus_vm_pressure_level messen, nie top-"unused" und nie ps-RSS. NIE: Buchungen, Mails an Dritte, Wissen löschen, operative Briefings antasten, Quelldateien im Archiv verändern. Diese Warnung meldet und empfiehlt — die Taktung entscheidet Raphael, das Abschalten belegter Leerläufe besorgt der Radar.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

@@ -16,3 +16,8 @@ Vorgehen im Repo ~/Developer/jans-ai-hub (Token in ~/.bexio.env):
 6. Raphael NUR benachrichtigen, wenn es Befunde gibt (neue Phantom-Zahlung, neue Verzugsfälle, neue Duplikate). Sonst still mit kurzer Logzeile beenden.
 
 Korrekturen (Phantom-Zahlung löschen, Duplikat ignorieren) bleiben der interaktiven Bestätigung vorbehalten — nie autonom, weil die Zuordnung Raphaels E-Banking-Gegenprüfung braucht.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

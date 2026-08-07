@@ -30,3 +30,8 @@ OUTPUT: Report nach `outputs/JJJJ-MM-TT_etappe4-vertiefung-NN.md` (welcher Baust
 SICHERN: NIEMALS git commit/push/pull gegen /Volumes/daten/jans-ai-hub ueber den SMB-Mount (haengt uninterruptibel, blockiert die index.lock, Rule 260726). Ausschliesslich: bash /Volumes/daten/jans-ai-hub/scripts/nas-commit-now.sh "wettbewerbs-dna Etappe 4 NN: <kurz>". Lesende git-Befehle sind erlaubt.
 
 GRENZEN: keine Mails, keine Veroeffentlichungen, nichts loeschen. `raw/` wird nie editiert. Artikel umbenennen/mergen/loeschen nur nach Rueckfrage (Rule wissens-bibliothekar). Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß, keine erfundenen Zahlen, keine erfundenen Kennwoerter oder Buerobezeichnungen. Datums-Prefix im Dateinamen aus LOKALER Zeit (date "+%y%m%d"), nie aus toISOString().
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Die mechanischen Stufen dieses Laufs (Material sichten, Rohtext destillieren, Artikel
+kompilieren, Register nachfuehren) an einen Subagenten mit model: sonnet delegieren; der
+Hauptkontext orchestriert, faellt das Urteil und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher.

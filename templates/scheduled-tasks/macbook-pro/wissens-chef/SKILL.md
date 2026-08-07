@@ -17,3 +17,8 @@ EIN LAUF (immer gleich):
 7. NAS-Repo committen und pushen (Rules git-auto-push, sync-kanonische-quelle).
 
 LEITPLANKEN: Nichts erfinden, jede Korrektur mit Quelle; raw/ nie editieren; KB-eigene Wikis nur fuer Verlinkung/Korrektur anfassen, nicht umstrukturieren; Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, ss statt ß; Loeschungen NIE ohne Rueckfrage.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Die mechanischen Stufen dieses Laufs (Material sichten, Rohtext destillieren, Artikel
+kompilieren, Register nachfuehren) an einen Subagenten mit model: sonnet delegieren; der
+Hauptkontext orchestriert, faellt das Urteil und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher.

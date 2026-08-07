@@ -74,3 +74,8 @@ Pruefe den Flag-Bestand jedes Mal gegen den aktuellen raw-Bestand, nie gegen den
 
 Strikt: Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, kein ß, Quellenpflicht mit Band/Seite/§ bzw.
 amtlicher Fundstelle, nichts erfinden. Genau EIN Lauf pro Aufruf.
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Die mechanischen Stufen dieses Laufs (Material sichten, Rohtext destillieren, Artikel
+kompilieren, Register nachfuehren) an einen Subagenten mit model: sonnet delegieren; der
+Hauptkontext orchestriert, faellt das Urteil und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher.
