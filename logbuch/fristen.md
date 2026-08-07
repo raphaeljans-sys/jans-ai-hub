@@ -3,6 +3,36 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 07.08.2026 (Hub-Chef 08:39, an allen Konten nachgemessen — **neue Zeile: unbeantwortete
+Lehrstellen- und Schnupperlehr-Anfragen sind ein Muster, nicht ein Einzelfall**): Der Radar
+führte heute die Anfrage von Marc Grupp (`grupp@bluemail.ch`, 06.08.2026 14:37, Lehrstelle
+Zeichner EFZ 2027) als offen. Eine Suche über **alle** Konten und Mailboxen nach den Betreffs
+«Lehrstelle», «Lehre» und «Ausbildung» zeigt den grösseren Befund: **seit Juli 2025 sind
+mindestens zehn solche Anfragen eingegangen** (Lehrstelle und Schnupperlehre gemischt:
+Grupp 06.08.2026, Moskaliuk 25.02.2026, Hesiat 18.02.2026, Premananth 07.02.2026, Indorf
+15.12.2025, Germani 04.12.2025, Salim 29.11.2025, Shevchuk 25.11.2025, Cevik 09.06.2026 in den
+gelöschten Elementen), und **zu keiner einzigen findet sich eine gesendete Antwort**. Dazu
+kommt die Anfrage des Laufbahnzentrums der Stadt Zürich vom 19.09.2025, ob es für JANS eine
+Lehrstelle im LENA ausschreiben darf, ebenfalls unbeantwortet. Es schreiben durchwegs
+Jugendliche. **Ausgeführt (A5):** Antwortentwurf an Grupp im Postfach `rj@` unter Entwürfe
+angelegt (Absage plus Hinweis auf berufsberatung.ch/lena, QS Rechtschreibung und Layout grün,
+Twin-Gate 91). **Zwei Vorbehalte im Entwurf, beide Entscheid Raphael:** der Satz «Wir bilden
+zurzeit nicht aus» ist eine unverifizierte Aussage über das Büro, und ob JANS 2027 ausbilden
+will, ist nicht entschieden; bei Ja wird der Entwurf umgedreht. Status: **Entwurf bereit,
+Freigabe Raphael; Grundsatzentscheid Ausbildung offen.**
+
+Eintrag 07.08.2026 (Hub-Chef 08:45, am Dateibestand selbst nachgemessen — **Bestätigung des
+Radar-Befundes zu Thalwil, unverändert überfällig**): Die drei Deliverable-Dateien im Ordner
+`…/2414 THALWIL/09 Dokumente/CLAUDE/01_Projektaenderung-Umgebung/260806-Begleitbeschrieb-Projektaenderung-Bohlweg-3/`
+tragen um 08:45 unverändert den Stand **03.08.2026 22:28**, der Korrekturvorschlag im
+Unterordner `_Korrekturvorschlag-Ziffer-4.5/` unverändert **06.08.2026 08:44/08:45**. Ziffer 4.5
+stützt die 50-m²-Grenze also weiterhin auf Art. 45 revBZO. **Bewusst unterlassen:** Die
+Eingabemail wurde **nicht** als Entwurf angelegt, obwohl A5 das decken würde — ein Entwurf
+hinge das PDF mit dem falschen Rechtssatz an und lüde damit zum Versand der fehlerhaften
+Fassung ein. Erst korrigieren, dann Entwurf. Das Überschreiben der Deliverables bleibt Raphael
+vorbehalten (A3-Guard «nie überschreiben», ausgehendes Behördendokument). Status: **überfällig
+seit 06.08.2026, Aktion Raphael, Reihenfolge unverändert.**
+
 Eintrag 07.08.2026 (Zahlungsabgleich-Check 08:23, an den Mahn-Datensätzen nachgemessen —
 **schliesst den Prüfpunkt vom 03.08. zur Mahnstufe RE-00087**): Der Registereintrag vom 03.08.
 hielt fest, dass Raphael eine `mahnung-3-re-00087.pdf` erzeugt und versandt hatte, während bexio

@@ -5,6 +5,52 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 07.08.2026 (08:39 bis 08:59, MIT Befund — Briefing versendet)
+
+**Signale.** Fristen-Register und Logbuch über 7 Tage; die vier Briefing-Abschnitte der
+entmailten Loops im heutigen Datumsblock (Radar-Briefing 06:55, AG-Gründung 07:46,
+Vollgas-Frühwarnung 07:15, Debitoren-Verzugscheck 08:07 — alle vier vorhanden, keiner fehlt);
+Konversations-Destillat `260807-konversationen.md` (8 Blöcke, echte Gespräche nur am Mac Mini,
+alle drei zu KISPI 2619); `mail-vorfilter.sh 26` über alle Konten; bexio `--verzug`; lokaler
+Kalender über 8 Tage; Sync- und Remote-Queues; Lauf-Journal.
+
+**Zwei eigene Messungen statt Übernahme.** (1) Der Thalwil-Dateibestand um 08:45 selbst
+nachgemessen, nicht aus dem Radar von 06:55 übernommen: Deliverables unverändert 03.08. 22:28,
+Korrekturvorschlag unverändert 06.08. 08:44/08:45, Befund bestätigt. (2) Die Lehrstellenanfrage
+Grupp über die Betreff-Suche zum Muster ausgeweitet: mindestens **zehn** Anfragen seit Juli 2025,
+**null** gesendete Antworten, dazu die unbeantwortete LENA-Anfrage vom 19.09.2025. Das ist der
+einzige Befund dieses Laufs, den vor ihm kein Loop hatte.
+
+**Ausgeführt (Whitelist).** **A5** — Antwortentwurf an Marc Grupp (Absage plus Hinweis auf
+berufsberatung.ch/lena) im Postfach `rj@` unter Entwürfe, 554 Zeichen, Aptos 12 pt.
+Guards: Reply auf eine eingegangene Anfrage (keine Akquise), Versand **nicht** ausgelöst,
+QS `rechtschreibung` und `layout` beide grün, `twin`-Gate 91 (Entwurf 84, eine Veredelungsrunde
+Fachsignatur und Stimme; das Gate hat die Berufsbezeichnung «Zeichner/-in (Architektur) EFZ»
+und die URL live verifiziert und dabei eine eigene falsche Präzisierung korrigiert).
+**A4** — zwei Registerzeilen und dieser Eintrag.
+
+**Bewusst unterlassen.** **A1 nicht qualifiziert:** keine der fünf offenen Rechnungen (CHF
+51'400.00) trägt Mahnstufe 0 mit sauberer Grundlage — RE-00100 bleibt gesperrt, solange die
+Fälligkeit in bexio auf 30.07. vor der belegten Zustellung vom 03.08. steht; RE-00087 steht auf
+Stufe 2 beziehungsweise im Mahndatensatz auf 3 (per Whitelist immer nur Entwurf); RE-00098,
+RE-00099 und RE-00101 haben laufende Fristen. **A2 nicht qualifiziert:** die zwei
+Kalendervorschläge des Radars (SharePoint-Verlängerung, UBS-Anruf) sind eigene Erinnerungen,
+keine in einer Mail bestätigten Termine. **A5 im Fall Thalwil bewusst nicht genutzt:** ein
+Eingabe-Entwurf hinge das PDF mit dem falschen Rechtssatz an; erst korrigieren, dann Entwurf.
+**A3 nicht genutzt:** das Überschreiben der Thalwil-Deliverables verstiesse gegen den Guard
+«nie überschreiben» und betrifft ein ausgehendes Behördendokument.
+
+**Briefing versendet** an rj@raphaeljans.ch, 07.08.2026 **08:59:16**, Betreff «Hub-Chef
+07.08.26: Thalwil ist gestern verstrichen, SharePoint-Zugriff laeuft morgen ab», **6'251
+Zeichen** (Gegenprobe zum Leer-Draft-Fehler bestanden), Versand in «Gesendete Elemente»
+verifiziert. Sendegrund nach Rule 260803 mehrfach erfüllt: überfälliger Behördentermin,
+morgen ablaufender SharePoint-Zugriff, ausgeführte A5-Aktion, Geldstand.
+
+Keine Zahlung, keine Buchung, keine Löschung, kein Versand ausser dem Briefing. Kein `git`
+über SMB (nativer Committer).
+
+---
+
 ## Debitoren-Verzugscheck 07.08.2026 (08:07, still — keine Mail, Ein-Mail-Prinzip)
 
 Für das Tagesbriefing des Hub-Chefs um 08:39. **Bestand unverändert gegenüber dem 06.08.:
