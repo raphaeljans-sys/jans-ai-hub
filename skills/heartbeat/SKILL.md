@@ -155,6 +155,23 @@ bash /Volumes/daten/jans-ai-hub/scripts/grundkontext-messung.sh
   (Vorgehen wie 30.07.2026, siehe `rules/betrieb-chronik.md` 260731). Nach jedem
   /doctor-Lauf den Stempel aktualisieren: `date "+%Y-%m-%d" > logbuch/doctor-letzter-lauf.txt`
 
+### 11. Scheduled-Tasks-Spiegel (Backup der Wecker beider Stationen)
+
+Die Task-Registries (~/.claude/scheduled-tasks/, «Routinen» in der App) liegen auf
+User-Ebene ausserhalb des Git-Backups. Der Spiegel-Lauf sichert sie nach
+`templates/scheduled-tasks/<station>/` (Commit uebernimmt der NAS-Committer):
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/scheduled-tasks-mirror.sh
+```
+
+- ✅ Lokale Registry gespiegelt; vom MacBook Pro aus auch die des Mac Mini (via ssh)
+- ⚠️ Mini nicht erreichbar → kein Fehler, letzter Spiegel-Stand bleibt stehen (melden,
+  wenn das mehrere Werktage in Folge auftritt)
+- ❌ NAS nicht gemountet oder rsync-Fehler → im Report ausweisen
+- Details/Restore: `templates/scheduled-tasks/README.md`. Der Spiegel ist Doku,
+  nie Live-Zustand (Frontmatter `enabled:` kann dem Betrieb widersprechen).
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
@@ -170,6 +187,7 @@ Sync-Tasks:     ✅ Keine offenen Tasks
 Symlinks:       ✅ skills / agents / commands OK
 Sync-Health:    ✅ Wissens-Kette fliesst (0 Commit-Anfragen offen, NAS↔SSD gleichauf)
 Grundkontext:   ✅ 95'536 Zeichen (~23'900 est. Tokens, Schwelle 100'000); Doctor vor 1 Tag
+Task-Spiegel:   ✅ macbook-pro 31 + mac-mini 8 Tasks gespiegelt
 
 STATUS: ✅ Alles OK
 ```

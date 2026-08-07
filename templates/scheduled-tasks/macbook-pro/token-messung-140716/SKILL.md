@@ -1,0 +1,14 @@
+---
+name: token-messung-140716
+description: One-Time 14.07. 16:00: 48h-Token-Messung nach Vollgas-Start — Verbrauch beider Stationen erheben, Limit-Pausen prüfen, Kurzbericht per Mail an rj@
+---
+
+48-Stunden-Kontrollmessung nach dem Token-Vollgas-Start vom 12.07.2026 (Rule auto-verbesserungen.md Eintrag 260712b). Auftrag: messen, einordnen, EINE kurze Bericht-Mail an rj@raphaeljans.ch senden.
+
+1. MESSUNG MacBook Pro: Summiere den Token-Verbrauch pro Tag aus den lokalen Transkripten mit diesem Ansatz (python3): alle ~/.claude/projects/*/*.jsonl der letzten 10 Tage lesen, je Zeile message.usage auswerten (input_tokens, cache_creation_input_tokens, cache_read_input_tokens, output_tokens), Duplikate über (message.id, requestId) ausschliessen, nach Datum (timestamp[:10]) gruppieren. Referenzwerte vor Vollgas (07-05 bis 07-12): Schnitt ~36 Mio. total/Tag, davon ~2.5-3.5 Mio. «teuer» (Input+CacheWrite+Output), API-Gegenwert grob 100-120 USD/Tag.
+2. MESSUNG Mac Mini (best effort): via ssh raphaeljans@100.120.219.12 dasselbe Skript remote ausführen (python3 über ssh, Transkripte unter ~/.claude/projects/ dort). Scheitert SSH, das vermerken und stattdessen eine Prompt-Pendenz via bash /Volumes/daten/jans-ai-hub/scripts/sync-task-create.sh mac-mini "Token-Messung" "<Messanweisung>" prompt hinterlegen.
+3. LIMIT-CHECK: Prüfe auf Rate-Limit-/Kontingent-Ereignisse: (a) list_scheduled_tasks — hat jeder Vollgas-Loop (normen-training-nacht 4x/Tag, baurecht-buch-training 2x/Tag, twin-mail-training 3x/Tag, wissens-chef täglich) seine erwarteten Läufe gemacht (lastRunAt vs. Soll)? (b) In den outputs/-Reports der KBs (wissen/normen, wissen/baurecht, wissen/twin, wissen/koordination) nach abgebrochenen/pausierten Läufen suchen. (c) In den Transkript-JSONL nach Fehlermeldungen mit "rate" / "limit" / "overloaded" greppen.
+4. EINORDNUNG: Verbrauchsanstieg vs. Referenz (Faktor), Anteil «teurer» Tokens, ob Limiten erreicht wurden. Empfehlung: weiter hochdrehen (welche Loops), halten, oder punktuell drosseln.
+5. BERICHT: EINE kurze Mail an rj@raphaeljans.ch via Apple Mail/osascript (Rules jans-absenderadresse, mail-formatierung, osascript-apple-apps — application id "com.apple.mail"; Absender rj@raphaeljans.ch), Betreff "Token-Messung 48h nach Vollgas-Start". Inhalt kompakt: Tages-Tabelle beider Stationen, Faktor vs. vorher, Limit-Ereignisse ja/nein, Empfehlung. Vor Versand Skill korrektur anwenden. Zusätzlich den Bericht nach /Volumes/daten/jans-ai-hub/wissen/koordination/outputs/2026-07-14_token-messung-48h.md ablegen (vor Commit git pull, dann committen/pushen).
+
+Strikt: Schweizer Hochdeutsch, echte Umlaute ä/ö/ü; Zahlen nie schätzen, wo gemessen werden kann; Schätzungen klar als Schätzung markieren.
