@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 21:54:34
+Stand: 07.08.2026 22:14:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 21:47)
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 22:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 07.08.2026 21:54:34
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0eb76ef4 baurecht-run72: Fehl-Datierung zurueckgenommen — Run 72 lief WIRKLICH am 03./04.08.2026 (Beleg: nativer Synology-Log selfcommit-202608.log, lueckenlos, eigenes date der Synology; beide Stationsuhren NTP-sauber). Der Nachtrag 222a1241 hatte einen Datumssprung in der fortgesetzten Sitzung faelschlich als defekte Uhr gedeutet. Zurueckgebaut: 2 Dateinamen, 9 Dateien mit Datumsangaben, 3 Drill-Stempel (Run-71-Karten unberuehrt). Rule 260730b (1b) korrigiert: erfundener Uhren-Vorfall raus, dafuer belegte Lehre (Datumssprung = verstrichene Zeit; bestehende Datierung nie ohne Beleg umdatieren; grep schweigt auf nicht-UTF-8-Log, awk verwenden). Chronik-Eintrag 260807c + ehrlicher Report-Nachtrag; Commit-Botschaft von 222a1241 bleibt falsch stehen, Historie wird nicht umgeschrieben
+- b3615226 nas-selfcommit: 4 Datei(en) 2026-08-07 22:00
