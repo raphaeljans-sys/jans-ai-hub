@@ -1,3 +1,105 @@
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 281/3:2018 neu destilliert
+
+1. **`destillate/sia-281-3-2018.md`** — Erstdestillat der SIA 281/3:2018 Dichtungsbahnen
+   und flüssig aufgebrachte Abdichtungen – Haftzugprüfung (SN 564281/3:2018, gültig ab
+   01.09.2018, ersetzt die Vornorm SIA 281/3 «Bitumenbahnen – Haftzugprüfung» 2002;
+   12 S., reiner Scan OHNE Textlayer — alle 12 Seiten als 150-dpi-Rendering visuell
+   gelesen, Prefix sia281-3-, Formelstelle zusätzlich als 300-dpi-Ausschnitt geprüft).
+   Inhaltlicher Befund: reine Prüfnorm OHNE Anforderungswerte (Vorwort S. 4) — sie
+   vereinheitlicht das Haftzugprüfverfahren am eingebauten Werk für Bitumenbahnen,
+   Kunststoff-Dichtungsbahnen und flüssig aufgebrachte Abdichtungen (Ziff. 0.1);
+   Anforderungswerte und Prüfstellenzahl liegen in den Systemnormen SIA 271/272/273
+   bzw. SN 640450/640451/640452 (Ziff. 2.3.1, 2.3.7). Kernparameter: Kraftsteigerung
+   (300 ± 15) N/s, Zugkörper rund d = (50 ± 1) mm oder quadratisch s = (45 ± 1) mm,
+   h = (45 ± 5) mm, 3 Einzelprüfungen je Prüfstelle innerhalb 1,0 m x 1,0 m, Untergrund
+   5-30 °C, Vorlast (150 ± 50) N, Start innert 10 s; Bruchbild-Klassifikation A/B/C/Y
+   (kohäsiv) und A/B, B/C, Y/C (adhäsiv), kohäsive Brüche in den untersten 0,5 mm
+   adhäsiv zu werten, Wiederholungspflicht bei > 20 Flächen-% Klebstoffbruch und
+   verfehltem Systemnorm-Wert; Ergebnis = arithmetisches Mittel dreier Einzelprüfungen,
+   F/A in N/mm² auf 2 Kommastellen OHNE Hohlstellen-Abzug (Ziff. 2.4). Offen: das
+   Formelzeichen der Haftzugfestigkeit (Ziff. 2.4.1) ist am Scan nur als kursives «CJ»
+   lesbar. Status speculative, Refuter-Runde ausstehend. Destillat-INDEX-Zeile ergänzt.
+
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 387/4:2017 neu destilliert, N27-2 beantwortet
+
+1. **`destillate/sia-387-4-2017.md`** — Erstdestillat der SIA 387/4:2017 Elektrizität in
+   Gebäuden — Beleuchtung: Berechnung und Anforderungen (SN 565387/4:2017 de, gültig ab
+   01.05.2017, 44 S., Textlayer vorhanden; alle 44 Seiten gelesen, sechs Tabellenseiten
+   S. 18-19/23/31/32-33 als 150-dpi-Rendering zellenweise gegengelesen, Prefix sia387-4-).
+   Inhaltlicher Befund: Kennzahlensystem E_L = p_L · t_L (spezifische Leistung W/m² mal
+   Volllaststunden) mit zwei Berechnungsmethoden (Faktoren/Volllaststunden bzw.
+   Stundenschritt gekoppelt an SIA 2044); Anforderungen als Grenz-/Zielwerte, wahlweise
+   Einzelanforderung an die Leuchten-Lichtausbeute (EEI 0,17/0,11 bei Ra 80; Gebäude bis
+   max. 1000 m²) oder Systemanforderung via Vergleichsprojekt; Energienachweis Teil
+   Beleuchtung durch den Fachplaner spätestens in Teilphase 33 (Ziff. 2.1.4). Tabelle 13
+   liefert Grenz-/Zielwerte je SIA-2024-Nutzung (Büro 17,5/2,8, Schulzimmer 14,4/3,2,
+   Verkauf 59,8/38,8, Bettenzimmer 10,5/3,5, Stationszimmer 70,8/35,7 kWh/m².a);
+   Healthcare-Vorbehalt Ziff. 0.1.3 (Alterszentren: Tabellenwerte reichen NICHT,
+   objektbezogen erhöhen, z.B. SLG 104). Gilt nicht für Notbeleuchtung und Wohnungen.
+   Status speculative, Refuter-Runde ausstehend.
+2. **N27-2 beantwortet (Nachfolgefrage der KB):** Der Genehmigungsblock S. 44 begrenzt
+   den Ersatz ziffernscharf: SIA 387/4 «ersetzt den Teil Beleuchtung (Ziffern 3.3 und
+   4.3) der Norm SIA 380/4 Elektrische Energie im Hochbau, Ausgabe 2006». Das Vorwort
+   S. 4 nennt den Verbleib der übrigen Teile: Lüftung/Klima → Normen SIA 382/1 und
+   382/2; «für die übrigen Elektrizitätsverbraucher steht neu das Merkblatt SIA 2056
+   Elektrizität in Gebäuden - Energie- und Leistungsermittlung zur Verfügung». Offen
+   bleibt nur, ob SIA 380/4:2006 damit formell vollständig zurückgezogen wurde (im
+   Dokument nicht ausgesagt). Verlinkt: [[sia-382-1-2014]], [[sia-592-056]].
+3. **`destillate/INDEX.md`** — Zeile für `sia-387-4-2017.md` ergänzt (Status speculative).
+
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 118/266-1:2017 neu destilliert
+
+1. **`destillate/sia-118-266-1-2017.md`** — Erstdestillat der SIA 118/266-1:2017
+   Allgemeine Bedingungen für Mauerwerk (SN 507266-1:2017 de, gültig ab 01.09.2017,
+   ersetzt SIA 118/266:2004; 20 S., reiner Scan OHNE Textlayer — alle 20 Seiten als
+   150-dpi-Rendering visuell gelesen, Prefix sia118-266-1-, durchgehend gut leserlich).
+   Inhaltlicher Befund: Vertragsnorm der ABB-Reihe für Mauerwerk aus künstlichen Steinen
+   nach SIA 266/266-1; ergänzt die SIA 118 ohne Änderungen (Ziff. 0.1), rechtsverbindlich
+   nur bei Bezeichnung als Vertragsbestandteil zusammen mit SIA 118, bei Widerspruch geht
+   SIA 118 vor (Ziff. 0.2, Rangfolge nach SIA 118 Art. 7/21). Substanz liegt in drei
+   Blöcken: (1) Ausschreibungs-/LV-Checklisten Ziff. 1.1 (NPK-Basis, Bezeichnung nach
+   SIA 266, Standard- vs. deklariertes Mauerwerk, Höhen ab Gerüstabstellbasis,
+   Positionskataloge 1.1.3.11-13; Toleranzen gemäss SIA 266, Abweichungen als gesonderte
+   LV-Position); (2) Vergütungsregeln Ziff. 2 (inbegriffen u.a. Arbeitsgerüste bis 3,0 m
+   und Witterungsschutz mit ordentlichem Vermauerungs-Temperaturband +5 °C bis +30 °C;
+   gesondert vergütet: Schutz vor Dritten, Schutz nach Rohbauvollendung — Zeitpunkt im
+   Werkvertrag speziell zu vereinbaren —, Sturmsicherung freistehender Mauern);
+   (3) Ausmassregeln Ziff. 5 mit Anhang-A-Figuren (m² effektiv, 1,0-m²-Abzugsgrenze,
+   lichte Geschosshöhe bei durchlaufenden Schlitzen, Pfeilerregel L:B < 5:1 in Laufmetern,
+   Wandhöhen UK Decke/Geschosshöhe/OK eingemauerte Konstruktion, Vollstürze ohne Abzug,
+   Leibungen/Mauerköpfe/-ecken gesondert in Laufmetern, Gerüste nach der bei
+   Vertragsabschluss gültigen SIA 118/222). Bewusste Leerstellen: Ziff. 3, 4, 5.3, 6, 7
+   je «Keine Ergänzungen zur Norm SIA 118» — Abnahme/Mängelrechte laufen vollständig
+   über die SIA 118. 14 Begriffe (Ziff. 0.4) inkl. Absacken/Schlämmen, dreisprachig in
+   Anhang C. Keine Übergangsbestimmungen zur Ausgabe 2004 im Normtext. Status
+   speculative, Refuter-Runde ausstehend. Destillat-INDEX-Zeile ergänzt.
+
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 118/266-2:2017 neu destilliert
+
+1. **`destillate/sia-118-266-2-2017.md`** — Erstdestillat der SIA 118/266-2:2017
+   «Allgemeine Bedingungen für Natursteinmauerwerk» (SN 507 266-2:2017 de, gültig ab
+   01.09.2017, 20 S., ersetzt SIA 226:1976 «Naturstein-Mauerwerk – Leistung und
+   Lieferung»). Quelle ist ein reiner Scan ohne Textlayer; alle 20 Seiten als
+   150-dpi-Rendering visuell gelesen (durchgehend gut leserlich, keine Nachrenderung
+   nötig). Inhaltlicher Befund: Vertragsnorm der ABB-Reihe zur SIA 118, ausdrücklich
+   ohne Änderungen an dieser; bei Widerspruch geht SIA 118 vor (Ziff. 0.2.2). Nur drei
+   normative Verweisungen (SIA 118, SIA 118/222 Gerüstbau, SIA 266/2). Gilt NICHT für
+   Erhaltungsarbeiten nach SIA 269/6-1 (Ziff. 0.1.2). Kern: Ausschreibungs- und
+   LV-Checklisten (Ziff. 1.1.3.1 mit Gestein Name/Art/Herkunft, Expositionsklasse nach
+   SIA 266/2:2012 Tab. 1, Herstellung nach deren Ziff. 6.4/Tab. 7), Pflichtenkataloge
+   Bauherr/Unternehmer (Ziff. 1.3, u.a. Bewegungsfugenplan und QS beim Bauherrn),
+   Vergütungsgrenze Ziff. 2.2/2.3 (inbegriffen: Handmuster bis 0,2x0,3 m, einfache
+   Gerüste bis 3 m ab Gerüstabstellbasis; nicht inbegriffen u.a. Witterungsschutz
+   ausserhalb +5/+30 °C, Werkstücke, gebogene Mauern Radius < 10 m) und eigene
+   Ausmassregeln (Ziff. 5: einschliesslich Fugen, zweihäuptig zwei Flächen,
+   Aussparungen < 1 m² ohne Abzug, Werkstücke separat und nicht als Mauerwerksfläche,
+   Mauerhöhen 5.2.2, Skizzen Anhang A). Zu Bestellungsänderung, Bauausführung,
+   Zahlungsmodalitäten, Abnahme/Mängelhaftung und vorzeitiger Beendigung je «Keine
+   Ergänzungen zur Norm SIA 118». Elf Begriffe (Ziff. 0.4, dreisprachig Anhang C),
+   darunter Absacken, Schlämmen, Bossierung, einhäuptiges Mauerwerk. Keine eigenen
+   Toleranzwerte (laufen über SIA 266/2). Status speculative, Refuter-Runde ausstehend.
+   Destillat-INDEX-Zeile ergänzt (nach der Schwesternorm 118/266-1).
+
 ## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 267/1:2003 neu destilliert
 
 1. **`destillate/sia-267-1-2003.md`** — Erstdestillat der SIA 267/1:2003 Geotechnik,
