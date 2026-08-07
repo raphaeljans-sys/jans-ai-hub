@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 12:25:40
+Stand: 07.08.2026 12:35:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/normen/destillat/p1/a19385  (letzte Aktivitaet 12:20)
@@ -13,4 +13,4 @@ Stand: 07.08.2026 12:25:40
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- c449b4a7 nas-selfcommit: 11 Datei(en) 2026-08-07 12:15
+- 4f324000 nas-selfcommit: 11 Datei(en) 2026-08-07 12:30
