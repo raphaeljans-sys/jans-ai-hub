@@ -5,6 +5,141 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 07.08.2026
+
+*(Für das Tagesbriefing des Hub-Chefs um 08:39. Keine eigene Mail: Der Chef-Lauf vom 06.08. ist
+durchgelaufen und hat um 08:57 das Briefing gesendet, und kein Punkt verlangt Handeln vor
+08:39.)*
+
+**Erledigt seit gestern**
+
+Das Protokoll der 8. Besprechung Fachplanung KISPI ist versendet, am 06.08. um 15:44 an Kübler,
+Ziegel, Duran, Cetin, Eren, Spahic und Spörri; die beiden Abwesenheitsantworten von Kübler und
+Ziegel um 15:45 belegen die Zustellung.
+
+Deine Zusage an Othmar Stadelmann, zum Planstand mit der Fachplanung Rücksprache zu nehmen, ist
+eingelöst: Sie fiel mit der 8. Besprechung vom 06.08. zusammen, deren Protokoll die Lüftungs-,
+Elektro-, Sanitär- und Küchenpunkte führt.
+
+Michael Spörris Frage zur Seitenwand im Behandlungsraum (06.08. 15:52, mit Fotos) hast Du noch
+am selben Nachmittag dreimal beantwortet, um 16:23 mit fünf Anhängen und einem
+Printscreen-Vorschlag, dann um 16:25 und 16:39.
+
+**Aus unseren Gesprächen**
+
+Protokoll-Session am Mac Mini (06.08. 15:20 bis 15:50). Ziffer 8 des Protokolls trägt elf
+weitere offene Pendenzen aus dem Fristen-Register als Traktanden für die nächste Sitzung,
+darunter die Auflagebereinigung 1171/26, die Türbuch-Stellungnahme bis zum 15.08. und der
+zurückgewiesene Lüftungs-Installationsplan. Die nächste Fachplaner-Sitzung ist voraussichtlich
+auf den 20.08. angesetzt, definitiv terminiert wird sie erst nach Küblers Rückmeldung zur
+UGZ-Freigabe Anfang KW 33. Als Traktandum neu mitgeführt: der Ausführungstermin der
+Sprinklerköpfe der Firma JOSMOS.
+
+Nebenbefund zur Ablage, ohne Terminwirkung: Der Hub-Output-Ordner heisst «2629 KISPI AI», die
+Projektnummer ist 2619. Die Ziffernvertauschung besteht schon länger und sollte bei Gelegenheit
+bereinigt werden, damit die Zweitablage projektnummerntreu bleibt.
+
+Plannummern-Auskunft KISPI: Das S in `51_S-ARCH_1341_…` steht für den Perimeter Areal Süd. Der
+praktisch wichtige Teil ist die Folge daraus, nämlich dass Süd- und Nordpläne unterschiedliche
+Höhenreferenzen (±0.00 = 469.50 gegenüber 468.00 m ü. M.) und unterschiedliche Drehungen zum
+Vermesserplan haben. Wer eine Kote aus einem Südplan in einen Nordplan überträgt, verschiebt sie
+um 1.50 m.
+
+Aus dem Hub: Der Entscheid über den Wachstums-Riegel `MAX_AUTO_BYTES` im Twin-Harness ist seit
+dem 05.08. fällig und liegt bei Dir. Nach dem Lauf von heute früh beträgt die Reserve noch
+62 Bytes, die Verdichtung geht inzwischen an die Substanz.
+
+**Überfällig**
+
+Thalwil Bohlweg 3, der wichtigste Punkt heute: Der Eingabetermin vom 06.08. ist verstrichen,
+ohne dass eingereicht wurde. Dreifach nachgemessen. Die drei Deliverable-Dateien
+tragen unverändert den Stand vom 03.08. 22:28, Ziffer 4.5 stützt die 50-m²-Grenze also weiterhin
+auf Art. 45 revBZO. Der Korrekturvorschlag, den der Hub-Chef am 06.08. um 08:44 daneben gelegt
+hat, ist unangetastet geblieben. Und die Eingabemail existiert in keinem Konto, weder versendet
+noch als Entwurf; im Konto raphaeljans@outlook.com ist der einzige Entwurf jener vom 30.07.25.
+Reihenfolge unverändert: Die drei Dateien aus dem Vorschlagsordner übernehmen und die
+Versandkopie im Korrespondenzordner damit überschreiben, danach die Mail von Hand anlegen und
+senden.
+
+RE-00087, Kinderspital, CHF 15'000.00: heute 113 Tage überfällig, Mahnung 2, deren Frist seit
+dem 15.07. abgelaufen ist. Die Empfehlung bleibt, ab dem 12.08. die drei Kinderspital-Rechnungen
+gemeinsam zu behandeln und vorher persönlich Kontakt zu suchen.
+
+RE-00100, Swiss Central City, CHF 13'120.00: Die Fälligkeit steht in bexio den zweiten Tag
+unverändert auf dem 30.07., also vier Tage vor der belegten Zustellung vom 03.08. Solange sie
+nicht nachgezogen ist, bleibt eine Zahlungserinnerung angreifbar.
+
+AG-Gründung: Die UBS-IBAN ist auch heute in keinem Konto eingegangen, der jüngste UBS-Eingang
+überhaupt ist ein Bestätigungscode vom 29.07. Eine Nachricht des Notariats liegt ebenfalls nicht
+vor. Marc Mathies ist ab heute zurück. Der kritische Pfad besteht aus einem einzigen Schritt und
+heisst Kapitaleinzahlungsbescheinigung; ein Beurkundungsfenster ab dem 10.08. ist nicht mehr zu
+halten.
+
+**In den nächsten 7 Tagen**
+
+Morgen, 08.08., läuft der SharePoint-Zugriff auf die Projektsite 2619-KISPI für sieben Personen
+ab, für Kübler, Cetin, Duran, Ziegel, Würsch, Spörri und Schwander. Morgen ist Samstag, heute ist
+damit der letzte Werktag davor.
+
+Ebenfalls am 08.08. liefert Röthlisberger (Inniger/Lanz) den Installationsplan Küche als PDF und
+DWG, Ansichten und Grundriss 1:20 mit allen Sanitär- und Elektroanschlüssen; danach folgt die
+Integration in den Ausführungsplan GR 1:50.
+
+Am 10.08. ist der definitive Stand der Sanitärinstallationen auf SharePoint hochzuladen,
+Raumpläne 1:20 Sanitär und Ausführungsplan GR 1:50; das ist Deine Pendenz.
+
+Anfang KW 33, ab dem 10.08., meldet B. Kübler den Stand der UGZ-Freigabe für Lüftung und
+Küchenentlüftung; danach erstellst Du den neuen Terminplan und lädst ihn auf die Plattform.
+
+Am 12.08. laufen die Mahnfristen von RE-00098 und RE-00099 ab, zusammen CHF 17'280.00.
+
+Am 13.08. von 09:30 bis 11:00 findet die Besprechung Kostenvoranschlag und Finalisierung
+Baubeschrieb Direktvermietung Albertstrasse 7 bei Roman Steinmann an der Feldeggstrasse 26
+statt, mit Teams-Zuschaltung. Zeit und Ort heute am Kalender selbst verifiziert.
+
+Am 15.08. soll die gebündelte Stellungnahme aller internen KISPI-Stellen zu Türbuch und
+Sicherheitskonzept vorliegen.
+
+**In Beobachtung**
+
+Der Anruf bei Stadelmann zur Vermassung der Leichtbauwände ist nicht belegbar, ein Telefonat
+hinterlässt keine Spur im Postfach.
+
+Spörris Antwort auf Deinen Vorschlag zum Ausguss im Hauswirtschaftsraum und den drei
+Hochschränken.
+
+Die zwei Bestätigungen des Systemhalters bis zum 18.08., wenn Ziegel zurück ist.
+
+Eine unbeantwortete Lehrstellen-Anfrage: Marc Grupp fragt am 06.08. um 14:37 nach einer
+Lehrstelle als Zeichner EFZ für 2027.
+
+Die von Dir erwartete Terminvorgabe an Cekdar Duran zum UGZ-Befund Hansen und die ausstehende
+Freigabe der Plangrundlagen durch Stefan Tschopp.
+
+Der Sync-Task Cockpit-Server liegt seit dem 31.07. unverändert in der Freigabe-Schwelle.
+
+Zum Kalender: Im 7-Tage-Fenster steht genau ein Geschäftstermin, jener vom 13.08. Der private
+Eintrag von heute 17:00, den das gestrige Briefing nannte, steht heute weder im M365- noch im
+lokalen Kalender.
+
+**Vorschlag Kalendereinträge**
+
+Ein kurzer Block heute für die Verlängerung der sieben SharePoint-Zugriffe, weil sie morgen
+ablaufen und morgen Samstag ist. Und ein Anruf bei der UBS unter +41 44 236 48 48 wegen der
+Kapitaleinzahlungsbescheinigung. Nur vorgeschlagen, nichts eingetragen.
+
+**Token-Tempo**
+
+Vortag 06.08.: MacBook Pro 245.6 Mio. Token für USD 199.63, Mac Mini 49.8 Mio. für USD 35.41,
+zusammen 295.4 Mio. Token bzw. USD 235.04 API-Kostenäquivalent.
+
+**Abschluss**
+
+Register und Journal nachgeführt. Kein Kalendereintrag, keine Buchung, kein Mahnschritt, keine
+Mail an Dritte.
+
+---
+
 ## 2026-08-07 — Mac Mini Nachtschicht 05:35 (KB bauprodukte, ERCO-Ratgeber S.145→175)
 
 Prioritaeten 1-3 leer/bereits abgedeckt: keine offenen Sync-/Remote-Tasks (nur der seit
