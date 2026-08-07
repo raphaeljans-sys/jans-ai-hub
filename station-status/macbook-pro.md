@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 07:22:36
+Stand: 07.08.2026 07:42:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 07:22:36
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 28a36388 vollgas-fruehwarnung 07.08.2026 07:15 (still, keine Mail): 06.08. 11.12 Mio kombiniert, null Limit-Ereignisse, alle vier Briefings geliefert; Gate-Log auf beiden Stationen tot, Nachweis wechselt aufs Lauf-Journal
+- 85524317 nas-selfcommit: 4 Datei(en) 2026-08-07 07:30
