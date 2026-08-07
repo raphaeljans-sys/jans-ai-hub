@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 23:56:56
+Stand: 08.08.2026 00:06:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
@@ -19,4 +19,4 @@ Stand: 07.08.2026 23:56:56
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 598be5e8 wissens-chef Run 28: Cross-KB-Lauf ueber 6 Felder — 20 Befunde verifiziert (4 bestaetigt, 16 gedaempft), Korrekturen in normen/baurecht/planungsgrundlagen/bauprodukte/immobilienbewertung + 2 Skills, Register/CHANGELOG/Bericht, Reparaturlauf-Risiko in fristen.md registriert
+- 0ab4471c nas-selfcommit: 3 Datei(en) 2026-08-08 00:00

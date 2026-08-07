@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 23:56:22
+Stand: 08.08.2026 00:06:30
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 23:56:22
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 598be5e8 wissens-chef Run 28: Cross-KB-Lauf ueber 6 Felder — 20 Befunde verifiziert (4 bestaetigt, 16 gedaempft), Korrekturen in normen/baurecht/planungsgrundlagen/bauprodukte/immobilienbewertung + 2 Skills, Register/CHANGELOG/Bericht, Reparaturlauf-Risiko in fristen.md registriert
+- 0ab4471c nas-selfcommit: 3 Datei(en) 2026-08-08 00:00
