@@ -281,6 +281,7 @@ Historie der Auto-Verbesserungen: `rules/auto-verbesserungen-archiv.md` (nicht i
 @/Volumes/daten/jans-ai-hub/rules/identifikatoren-verifizieren.md
 @/Volumes/daten/jans-ai-hub/rules/jans-absenderadresse.md
 @/Volumes/daten/jans-ai-hub/rules/mail-formatierung.md
+@/Volumes/daten/jans-ai-hub/rules/modellwahl-routine.md
 @/Volumes/daten/jans-ai-hub/rules/normen-referenz.md
 @/Volumes/daten/jans-ai-hub/rules/osascript-apple-apps.md
 @/Volumes/daten/jans-ai-hub/rules/projekt-ablage-stand.md
