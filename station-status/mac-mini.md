@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 08:18:22
+Stand: 07.08.2026 08:28:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 08:18:22
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7b30f058 nas-selfcommit: 2 Datei(en) 2026-08-07 08:15
+- 12b30166 logbuch: Umlaute im Zahlungsabgleich-Eintrag 07.08.2026 korrigiert
