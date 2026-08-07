@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 00:57:16
+Stand: 08.08.2026 01:07:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 00:57:16
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 374f653a nas-selfcommit: 3 Datei(en) 2026-08-08 00:45
+- 5f152db2 vollgas-radar 08.08. 00:58: [FREI], Ampel erstmals WARNUNG (72.5% bei 64.9% Woche, +7.7), kein Aufsichtsausfall im neuen 12h-Takt; eigener Defekt behoben (Selbstkontroll-Toleranz 11h stand gegen 12h-Takt, auf 15h gesetzt)
