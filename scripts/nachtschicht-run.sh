@@ -133,7 +133,9 @@ Budget-Disziplin (Lehre aus den Laeufen 00:30/01:30 am 21.07.): Dein Lauf hat ei
 
 Jeder Zyklus endet mit: Ergebnis in wiki/ bzw. outputs/ auf dem NAS, CHANGELOG-Eintrag, eine Journalzeile im Logbuch (der NAS committet sich selbst, kein Git ueber SMB).
 
-Harte Grenzen: nur Aktionen gemaess logbuch/AKTIONS-WHITELIST.md. Nie E-Mails versenden, nichts publizieren, nichts buchen, nichts loeschen, keine Einkaeufe. Wenn keine sinnvolle Aufgabe ansteht: in einem Satz begruenden und sauber beenden statt Beschaeftigung zu erfinden.'
+Harte Grenzen: nur Aktionen gemaess logbuch/AKTIONS-WHITELIST.md. Nie E-Mails versenden, nichts publizieren, nichts buchen, nichts loeschen, keine Einkaeufe. Wenn keine sinnvolle Aufgabe ansteht: in einem Satz begruenden und sauber beenden statt Beschaeftigung zu erfinden.
+
+Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, ergaenzt 07.08.2026): Dein Zyklus haengt an einem harten 5-USD-Deckel, und der weitaus haeufigste Grund fuer einen Ausfall ist nicht ein Fehler, sondern erschoepftes Kontingent (gemessen 07.08.2026 ueber alle dispatch-Protokolle: 42 von 53 Fehllaeufen sind Wochen- oder Sessionlimit, nur 6 der 5-USD-Deckel und 2 ein API-Fehler). Jede eingesparte Token-Menge ist darum unmittelbar ein zusaetzlicher Lernzyklus. Delegiere die mechanische Arbeit an Subagenten: Quelldateien lesen und exzerpieren, Scans, Inventare und Zaehlungen, Rohentwuerfe und Formatierung an einen Subagenten mit model: haiku, textlastige Destillation an model: sonnet. Im Hauptkontext bleiben Orchestrierung und Urteil: die Wahl der Aufgabe, die Beleg- und Widerspruchspruefung, Status-Promotion von emerging auf established, Register-, Fristen- und Sendeentscheide sowie jeder Entwurf an Dritte. Nicht delegieren, wo es sich nicht lohnt: ein Subagent laedt den Grundkontext neu, fuer einen Zweizeiler ist der Direktweg guenstiger.'
 
 # --- Aushilfe-Pfad MacBook Pro (Arbeits-Weiche, 31.07.2026) ----------------------
 # Der Mini ist ausgelastet, das MacBook bereit (LAN, Netzteil, frei, idle/Nacht).
