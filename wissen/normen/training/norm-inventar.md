@@ -43,8 +43,13 @@ nur destillieren. Alle Titelblaetter sind verifiziert, Pfade stimmen.
   **N27-2-Beitrag geliefert:** ersetzt gemaess Genehmigungsblock S. 44 den Teil Beleuchtung
   (Ziff. 3.3 und 4.3) der SIA 380/4:2006; Lueftung/Klima → SIA 382/1+382/2, uebrige
   Verbraucher → Merkblatt SIA 2056 (Vorwort S. 4).
-- [ ] SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan) — dabei die Jahres-Diskrepanz klaeren
-  (Titelblatt «Ersetzt SIA 112/1:2004» vs. Register-Kette 2005)
+- [ ] SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan, 52 S.) — dabei die Jahres-Diskrepanz klaeren
+  (Titelblatt «Ersetzt SIA 112/1:2004» vs. Register-Kette 2005). **Stand 260807 (Run 47):
+  einzige offene P1-Position.** Zwei Destillat-Anlaeufe am Session-Limit abgebrochen
+  (Reset 19:00); KEIN Teil-Destillat vorhanden, von vorn beginnen (alle 52 Seiten rendern,
+  Scan ohne Textlayer, Praefix sia112-1-). Titelblatt-Befund aus Anlauf 1 bestaetigt:
+  «Ersetzt SIA 112/1:2004» (S. 1). Danach unabhaengige Refuter-Runde wie bei den uebrigen
+  P1-Positionen dieses Laufs.
 - [x] 260807 SIA 281/3:2018 — Destillat `sia-281-3-2018.md`, **established** (Refuter
   BESTANDEN, 0 Kernbefunde, 22 Stichproben; 2 Nebenbefunde eingearbeitet; Formelzeichen
   Ziff. 2.4.1 «CJ» doppelt belegt, offener Punkt am besseren Original).

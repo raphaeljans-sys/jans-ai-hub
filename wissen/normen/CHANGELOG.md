@@ -1,3 +1,29 @@
+## 2026-08-07 (Vorrang-Lauf Raphael, Run 47) — Abschluss: 9 von 10 P1-Positionen established, Refuter-Runden komplett
+
+1. **Refuter-Runden und Statushebungen fuer alle Erstdestillate dieser Session:**
+   `sia-118-c1-2026.md` (BESTANDEN, 0 Kern/4 Neben), `sia-261-1-2003.md` (BESTANDEN, 0/5),
+   `sia-262-1-2003.md` (BESTANDEN, 0/2), `sia-264-1-2003.md` (BEANSTANDET, 1 Kernbefund
+   u_1-Richtung — vom Hauptprozess am Original bestaetigt und inline korrigiert; 24
+   Tabellenzellen alle korrekt), `sia-267-1-2003.md` (BESTANDEN, 0/4),
+   `sia-410-1-2-1981.md` (BESTANDEN, 0/2, alle fuenf Farbtabellen zellengenau),
+   `sia-118-266-1-2017.md` (BESTANDEN, 0/5, Begriffsvertauschung Sichtmauerwerk korrigiert),
+   `sia-118-266-2-2017.md` (BESTANDEN, 0/5), `sia-387-4-2017.md` (BEANSTANDET geringfuegig,
+   1 Kernbefund 43 statt 40 Raumnutzungen; Leitsatz an Ziff. 4.1.1.1 angeglichen:
+   Grenzwerte auch bei Umbauten einzuhalten), `sia-281-3-2018.md` (BESTANDEN, 0/2).
+   Alle Nebenbefunde INLINE eingearbeitet (Methodik-Pflicht 9), alle 10 Destillate auf
+   **established**; INDEX-Zeilen entsprechend nachgezogen, neue INDEX-Zeilen fuer
+   `sia-118-c1-2026.md` und `sia-410-1-2-1981.md` ergaenzt.
+2. **QUESTIONS:** 118-C1-Inhaltsfrage GESCHLOSSEN (einzige materielle Aenderung Art. 179
+   Abs. 2, Ruegefrist verdeckte Maengel 60 Tage, OR-Revision Baumaengel 01.01.2026);
+   N27-2 um den hausinternen Normtext-Beleg ergaenzt (387/4 ersetzt Ziff. 3.3/4.3 der
+   380/4:2006; Lueftung/Klima 382/1+382/2, Rest SIA 2056).
+3. **REGISTER:** Zeilen SIA 118 (C1-Destillat erledigt) und SIA 410 (410/1-Destillat
+   erledigt, Farbcode-Luecke geschlossen, KR/K-Divergenz) nachgefuehrt; `sia-410-1986.md`
+   an fuenf Stellen inline aktualisiert.
+4. **Offen:** SIA 112/1:2017 — zwei Destillat-Anlaeufe am Session-Limit abgebrochen
+   (Reset 19:00), Wiederaufnahme-Vermerk im Vorrang-Block; uebernimmt der Nacht-Loop.
+   Lauf-Report: `outputs/2026-08-07_normen-vorrang-run47.md`.
+
 ## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 281/3:2018 neu destilliert
 
 1. **`destillate/sia-281-3-2018.md`** — Erstdestillat der SIA 281/3:2018 Dichtungsbahnen
