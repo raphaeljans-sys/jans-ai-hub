@@ -21,6 +21,43 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260807 — Treiber-Scripts nie vom NAS-Pfad starten: bash liest inkrementell nach
+
+**Befund.** Ein laufendes bash-Script wird vom Interpreter **inkrementell nachgelesen**, nicht
+einmal komplett in den Speicher geladen. Liegt das Script auf `/Volumes/daten/...` und blippt
+der SMB-Mount waehrend der Ausfuehrung, stirbt der Interpreter an genau der Stelle, an der er
+gerade liest — ohne Fehlermeldung, ohne rc-Zeile, ohne Trap.
+
+**Beleg (28.07.2026, wissens-destillat).** Zwei Laeufe des Treibers
+`skills/wissens-destillat/tools/destillat-lauf.sh`, gestartet um 01:44 und 01:51 vom NAS-Pfad,
+starben **beide reproduzierbar am identischen Punkt**: unmittelbar nach der Logzeile «PHASE 1
+… Triage», ohne die folgende `rc=`-Zeile. Das Batch-Protokoll auf dem NAS endet an derselben
+Stelle. Die Keepalive-Logzeilen weisen Remounts um 02:04 und 02:12 aus. Nach dem Kopieren des
+Treibers in den SSD-Klon lief derselbe Lauf um 02:14 mit rc=0 durch Phase 1 (356 s) und Phase 2
+(882 s). Der 28.07. war mit **17 Stalls** der zweitschlechteste Tag der Messreihe (Normalwert
+nach der Haertung vom 25.07.: 1–3 pro Tag), das Fenster war also ungewoehnlich gross — die
+Fehlerart bleibt aber bei jedem einzelnen Stall moeglich.
+
+**Regel.** Lang laufende Treiber-Scripts aus dem **SSD-Klon** starten
+(`$HOME/Developer/jans-ai-hub/...`), nicht vom NAS-Pfad. Der Klon ist inhaltsgleich (git,
+byteweise verifiziert); die Datenpfade **im** Script zeigen weiterhin aufs NAS, nur der
+Interpreter liest lokal. Kanonisch editiert wird unveraendert nur auf dem NAS
+(Rule `sync-kanonische-quelle`) — Ausfuehren aus dem Lese-Spiegel widerspricht dem nicht.
+
+**Reichweite (gemessen 07.08.2026).** 15 Scheduled Tasks starten Scripts vom NAS-Pfad. Das
+Risiko skaliert mit der Laufzeit: Sekundenlaeufer (`nas-commit-now.sh`, `lauf-gate.sh`,
+`sync-task-create.sh`) werden praktisch nie mitten im Nachlesen getroffen, mehrminuetige
+Scripts schon. Umgestellt ist bisher nur `wissens-destillat` (der belegte Fall). Kandidaten
+mit relevanter Laufzeit, noch offen: `heartbeat.sh` (heartbeat-daily), `methoden-scan.sh`
+(methoden-radar), `mail-vorfilter.sh` (logbuch-radar, hub-chef-taeglich),
+`konversations-extract.sh` (konversations-log, logbuch-radar). **Entscheid Raphael noetig**,
+ob pauschal umgestellt wird — die Scheduled-Task-Dateien sind stationslokal, der Mac Mini
+braucht denselben Schnitt separat.
+
+**Abgrenzung.** Nicht zu verwechseln mit dem Schwesterproblem «Kindprozess stirbt beim
+Sessionende» (Hintergrundstart statt Vordergrund, ebenfalls 28.07. belegt, steht in der
+Task-eigenen SKILL.md) und mit dem Verbot von `git` ueber SMB (Rule 260726).
+
 ## 260803 — Doppeltakt des Energie-Loops behoben: zwei Taktgeber fuer denselben Loop
 
 **Befund.** Der Energie-Loop hatte **zwei** Taktgeber: den Scheduled Task `energie-training` UND
