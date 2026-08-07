@@ -223,6 +223,7 @@ Hand abgefragt oder ein Weg improvisiert wird. **Konvention:** einen Connector z
 | `/website` | Website-Content hochladen/pruefen |
 | `/korrektur` | Korrektur-Harness auf ein Erzeugnis |
 | `/rollen` | Rollen-Haushalt: Bilanz, Nutzungs-Radar, Schutzmechanik-Selbsttest |
+| `/tiefenrecherche` | Vertiefte Recherche: parallele recherche-Agenten je Suchwinkel, belegter Bericht |
 
 ## Baurecht-Wissensbasis (Schnellreferenz)
 `docs/baurecht/`: begriffe.md, pbg_zh.md, bzo_zh.md, verfahren.md, praxisfaelle.md.

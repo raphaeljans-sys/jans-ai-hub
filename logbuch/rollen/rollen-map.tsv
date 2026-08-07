@@ -134,3 +134,4 @@ rollen-bilanz	script	maintainer	Misst Bestand und Ertrag je Rolle; meldet die Ak
 nutzungs-radar	script	grower	Misst, welche Skills wirklich aufgerufen werden; liefert Kaltliste und Konsolidierungs-Kandidaten	aktiv	scripts/nutzungs-radar.sh
 schutzmechanik-selbsttest	script	maintainer	Prueft lauf-gate und speicher-waechter auf Freigabe- UND Abweisungspfad; haengt als Check im heartbeat	aktiv	scripts/schutzmechanik-selbsttest.sh
 vorgaenge-bilanz	script	grower	Misst Durchlaufzeit und Wartezeit aus logbuch/fristen.md (Leitgroesse ab 31.07.2026); erzeugt logbuch/vorgaenge/vorgaenge.tsv	aktiv	logbuch/vorgaenge
+tiefenrecherche	command	builder	Orchestriert parallele recherche-Agenten zu einem belegten Recherchebericht	anlassgebunden	commands/tiefenrecherche.md
