@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung (Teil 1/n, Seiten 1-145)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Lichtanwendungen (Teil 1/n, Seiten 1-175)"
 status: emerging
-last_updated: 2026-08-06
-gelesen: "Seiten 1-145 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG inkl. Montage S. 94-98 (Decke/Wand/Boden) und Wartung S. 98 (Verminderungsfaktor, Wartungsplan); Kapitel «Licht visualisieren» VOLLSTÄNDIG S. 99-109 (Zeichnung: Skizze/Storyboard/Moodboard/Technische Zeichnung/Diagramm; Simulation: Qualitativ/Quantitativ/Animation; Modell: Modellbau/Mock-up/Tageslichtsimulation); Kapitel «Innenraumbeleuchtung» — Unterkapitel «Arten des Beleuchtens» S. 110-129 VOLLSTÄNDIG (Allgemein: direkt gerichtet/direkt diffus/indirekt/direkt und indirekt; Fluten symmetrisch/asymmetrisch; Akzentuieren; Projektion; Orientierung), Unterkapitel «Leuchtengruppen» S. 130-145 begonnen (Stromschiene/Strahler/Fluter/Wandfluter/Lichtstrukturen/Downlights/Arbeitsplatzleuchten VOLLSTÄNDIG, Wandleuchten begonnen)). Offen: «Leuchtengruppen» Rest ab S. 146 (Wandleuchten-Rest, Perimeterleuchten, Bodeneinbauleuchten, Orientierungsleuchten, Hinweisleuchten), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung» (separates Kapitel laut Keywords, ungeklärt ob deckungsgleich mit dem bereits gelesenen «Licht visualisieren»-Simulation-Abschnitt), «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung (begonnen), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-145 Edition 05.09.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-07
+gelesen: "Seiten 1-175 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG inkl. Montage S. 94-98 (Decke/Wand/Boden) und Wartung S. 98 (Verminderungsfaktor, Wartungsplan); Kapitel «Licht visualisieren» VOLLSTÄNDIG S. 99-109; Kapitel «Innenraumbeleuchtung» — Unterkapitel «Arten des Beleuchtens» S. 110-129 VOLLSTÄNDIG, Unterkapitel «Leuchtengruppen» S. 130-151 VOLLSTÄNDIG (Stromschiene/Strahler/Fluter/Wandfluter/Lichtstrukturen/Downlights/Arbeitsplatzleuchten/Wandleuchten/Perimeterleuchten/Bodeneinbauleuchten/Orientierungsleuchten/Not- und Hinweisleuchten); neues Hauptkapitel «Lichtanwendungen» S. 152-175 begonnen (Nutzfläche: Arbeitsplatz/Fläche klein/Fläche groß VOLLSTÄNDIG; Wand: 3m/5m/mit Struktur VOLLSTÄNDIG; Decke: plan/Tragstruktur VOLLSTÄNDIG; Boden VOLLSTÄNDIG)). Offen: «Lichtanwendungen» Rest ab S. 176 (Objekt: im Raum/an der Wand, Orientierungsbeleuchtung, Hinweisbeleuchtung — laut Übersichtsgrafik S. 152 die verbleibenden drei Unterkapitel), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung» (separates Kapitel laut Keywords), «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Lichtanwendungen (begonnen), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-175 Edition 07.07.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[REGISTER]]
 ---
 
@@ -15,7 +15,7 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 145 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 175 Seiten.
 
 ## Herstellerneutralität
 
@@ -596,7 +596,7 @@ Orientierungsleuchten.
 Damit ist das Unterkapitel «Arten des Beleuchtens» (S. 110-129) vollständig
 gelesen.
 
-## Innenraumbeleuchtung — Leuchtengruppen (S. 130-145, begonnen)
+## Innenraumbeleuchtung — Leuchtengruppen (S. 130-151, vollständig)
 
 Systematik der Leuchtengruppen nach Montageart/Funktion statt nach
 Lichtverteilung (ergänzt die «Arten des Beleuchtens» oben): Stromschienen,
@@ -660,13 +660,130 @@ Referenzprojekte:
 - **Arbeitsplatzleuchten (S. 144):** Licht nach unten auf die Arbeitsfläche,
   eng- oder breitstrahlend; Kriterien Lampenauswahl, weicher Gradient,
   Blendfreiheit, Dreh-/Schwenkbarkeit. Für individuelle Arbeitsplatzbeleuchtung.
-- **Wandleuchten (S. 145, begonnen):** primär über die Montageart definiert,
-  nicht über die Lichtcharakteristik — eng-/breitstrahlend,
-  symmetrisch/asymmetrisch je nach Richtung möglich. Deckenfluter (asymmetrisch
-  nach oben, teils mit stufenlos einstellbarem Lichtbegrenzer) und Bodenfluter
-  (asymmetrisch nach unten) angerissen; Rest von Wandleuchten sowie
-  Perimeterleuchten, Bodeneinbauleuchten, Orientierungsleuchten, Hinweisleuchten
-  ab S. 146 noch nicht gelesen.
+- **Wandleuchten (S. 145-146, vollständig):** primär über die Montageart
+  definiert, nicht über die Lichtcharakteristik — eng-/breitstrahlend,
+  symmetrisch/asymmetrisch je nach Richtung möglich. **Deckenfluter**
+  (asymmetrisch nach oben, Montage über Augenhöhe, Deckenabstand mindestens
+  0,8 m — vierter, unabhängiger Beleg desselben Werts nach S. 88/117/138) und
+  **Bodenfluter** (asymmetrisch nach unten, Montagehöhe bei Sitzplatznähe unter
+  Augenhöhe 1,2 m, üblich 0,8 m über Boden). Anwendung: Kirchen, Theater,
+  Museen, Verkehrszonen; Wandeinbauleuchten unauffällige Architekturdetails,
+  Aufbauleuchten setzen Akzente und sollen mit der Architektur korrespondieren.
+- **Perimeterleuchten (S. 147):** lineare, breitstrahlende Leuchten zur
+  gleichmässigen Beleuchtung vertikaler Flächen — Leuchtstofflampen direkt in
+  einer Fuge zur Wand eingelassen, mit oder ohne Reflektor. Perimeterleuchten
+  mit Reflektor: asymmetrische Lichtverteilung, gleichmässige Wandausleuchtung
+  (höhere Qualität als ohne Reflektor, aber geringere Brillanz durch niedrige
+  Leuchtdichte/Linearität). **Lineares Streiflicht:** direkt an der Wand
+  angeordnet, Beleuchtungsstärke nimmt mit Entfernung von der Lampe stark ab.
+  Anwendung: Museen, Ausstellungen, repräsentative Bereiche; Perimeterleuchten
+  aus Vouten betonen Architekturelemente, sind durch Deckeneinbau unauffällige
+  Architekturdetails.
+- **Bodeneinbauleuchten (S. 148-149):** nach oben gerichtete Lichtabstrahlung,
+  eng-/breitstrahlend, symmetrisch/asymmetrisch. Varianten: **Uplights**
+  (symmetrisch, engstrahlig rotationssymmetrisch, akzentuierend), **Richtstrahler**
+  (mittelbreit bis eng, schwenkbarer Lichtkegel, akzentuierend), **Uplight
+  diffus** (diffuse Abstrahlung zur Wegmarkierung/Betonung architektonischer
+  Linien). Kriterien: Lampenauswahl (Lichtfarbe/Lebensdauer/Effizienz/
+  Lichtstärke), Uniformität (optimierter Reflektor), Schwenkbereich bei
+  Richtstrahlern mit hoher Abblendung, Leuchtenwirkungsgrad. Anwendung:
+  Akzent-/Flutbeleuchtung für Theater, repräsentative Bereiche, Verkaufsräume,
+  Empfangs-/Eingangsbereiche, Architekturelemente; unauffällige Architekturdetails,
+  sollen mit der Architektur korrespondieren.
+- **Orientierungsleuchten (S. 150):** primär über die Orientierungsfunktion
+  definiert (beleuchtend oder als Signal wirkend). Kriterium: Leuchtdichte
+  (Auffälligkeit in der Umgebung). Varianten: **Orientierungsleuchten** mit
+  punktförmigem Lichtaustritt (örtliches Orientierungslicht), **Bodenfluter**
+  (Lichtpunkte an der Wand, Orientierungslicht auf die Bodenfläche). Anwendung:
+  Kennzeichnung von Architekturlinien, Treppenstufen/Sperrbereichen, Eingängen,
+  Wegeführungen, **Fluchtwegen**.
+- **Not- und Hinweisleuchten (S. 151):** Hinweisleuchten vermitteln über
+  Piktogramme/Texte Information/Weghinweise; Notbeleuchtung zeigt den
+  Rettungsweg zur Orientierung in Notfallsituationen. Kriterien: Leuchtdichte,
+  Form/Farbe (Entsprechung von Normen), Leuchtenanordnung (korrekte Beschreibung
+  des Rettungswegs), Notstromversorgung, Wirksamkeit (Nachleuchtung bei
+  Stromausfall). **Drei Gruppen laut Quelle:** Hinweisbeleuchtung (Piktogramme/
+  Texte), Sicherheitsbeleuchtung (Rettungswege, Antipanikbeleuchtung,
+  Sicherheitsbeleuchtung für Arbeitsplätze mit besonderer Gefährdung),
+  Ersatzbeleuchtung (übernimmt künstliche Beleuchtung zur Aufrechterhaltung des
+  Betriebs über begrenzten Zeitraum). Anwendung: Kennzeichnung von Ausgängen,
+  Notausgängen, Flucht-/Rettungswegen; Leuchten mit Farbwechsel erlauben
+  dynamische Wegeführung; **Rettungszeichenleuchten sind auf die regionalen
+  Richtlinien abzustimmen** (Quelle nennt selbst keine — Schnittstelle zu
+  Skill `brandschutz`/VKF, hier bewusst nicht ausformuliert).
+
+Damit ist das Unterkapitel «Leuchtengruppen» (S. 130-151) vollständig gelesen.
+
+## Lichtanwendungen (S. 152-175, begonnen)
+
+Neues, viertes Hauptkapitel des Ratgebers (nach «Grundlagen», «Gestalten mit
+Licht», «Planungspraxis», Unterkapitel von «Innenraumbeleuchtung»). Gliedert
+nicht mehr nach Leuchtenart, sondern nach **Bezugsfläche** — laut
+Übersichtsgrafik S. 152: Nutzfläche, Wand, Decke, Boden, Objekt,
+Orientierungsbeleuchtung, Hinweisbeleuchtung. Jedes Unterkapitel folgt wieder
+dem Muster Beobachtung → Folgerung → Anordnung → Anwendung mit Referenzprojekten.
+
+**Nutzfläche — Arbeitsplatz (S. 154-155, vollständig):** anspruchsvolle
+Sehaufgaben brauchen neben der Grundbeleuchtung eine zusätzliche
+Arbeitsplatzbeleuchtung (Arbeitsplatzleuchten: gezielt auf die Aufgabe;
+Lichtstrukturen: diffuses Licht; Richtstrahler: akzentuierend; Uplights:
+indirekt). Die Grundbeleuchtung darf im Vergleich zur Arbeitsflächenbeleuchtung
+geringer sein (Energieeffizienz); kombinierte direkte+indirekte Beleuchtung
+sichert Sehkomfort. **Anordnung:** Leuchten nicht in Reflexblendungs-kritischen
+Bereichen platzieren, Indirektbeleuchtung reduziert Reflexblendung,
+Schattenbildung auf der Arbeitsfläche vermeiden. Beleuchtungskriterien:
+Beleuchtungsniveau nach Tätigkeit, Leuchtdichteverteilung (Direkt-/
+Reflexblendung), Abblendwinkel/Position, Lampenauswahl (Lichtfarbe/
+Farbwiedergabe). Energieeinsparung über Reduktion der Allgemeinbeleuchtung
+zugunsten lokaler Arbeitsbeleuchtung plus tageslichtabhängige Steuerung.
+
+**Nutzfläche — Fläche klein (S. 156-157) und Fläche groß (S. 158-159):**
+kleine Nutzflächen (Büroarbeitsplätze, Besprechungsräume, Werkstätten, Empfang)
+kombinieren Downlights/Pendeldownlights (direkt) mit Lichtstrukturen (diffus)
+und Uplights (indirekt) — direktes Licht modelliert besser als reines
+Indirektlicht. Grosse Nutzflächen (Werkstätten, Museen, Ausstellungen,
+Verkaufs-/repräsentative Bereiche) setzen energetisch vor allem auf
+**festmontierte Downlights** als ortsfeste Allgemeinbeleuchtung; Strahler bleiben
+flexibel einsetzbar (Ausstellungsbereich) und liefern durch engstrahlende
+Verteilung höhere Abblendung und gute Modellierung. Direktbeleuchtung ist bei
+grossen Flächen deutlich wirtschaftlicher als Indirektbeleuchtung.
+
+**Wand — 3 m, 5 m, mit Struktur (S. 160-168, vollständig):** punktuelle
+Lichtquellen (Strahler-Wandfluter, Downlight-Wandfluter, Linsenwandfluter)
+verleihen Plastizität, lineare Lichtquellen (Wandfluter mit Leuchtstofflampen,
+Lichtstrukturen, Perimeterleuchten/Softeclinse/Voute) erzeugen höhere
+Uniformität. **Anordnungsregeln (S. 3 m):** Wandabstand mindestens ein Drittel
+der Raumhöhe (alternativ 20°-Linie vom Wandfusspunkt zur Decke), optimaler
+Leuchtenabstand = Wandabstand, **Mindestzahl drei Leuchten** für optimale
+Gleichmässigkeit, Eckposition auf der 45°-Linie — deckungsgleich mit den bereits
+in Teil 1 notierten Werten (S. 85-87/136), hier am Original für den
+5-m-Wandfall zusätzlich präzisiert: bei hohen Räumen muss der Leuchtenabstand
+gegenüber dem Wandabstand **reduziert** werden, um die mit der Raumhöhe
+abfallende Beleuchtungsstärke zu kompensieren (höhere Lampenleistung oder mehr
+Leuchten als Alternative). **Wand mit Struktur:** punktförmige Wandfluter machen
+Oberflächenstrukturen sichtbar, lineare Lichtquellen wirken gleichmässiger und
+betonen die Struktur weniger, Perimeterleuchten direkt an der Wand erzeugen
+keine Gleichmässigkeit, aber stärkere Plastizität — je kleiner der Wandabstand,
+desto deutlicher tritt die Struktur hervor.
+
+**Decke — plan, Tragstruktur (S. 169-173, vollständig):** Deckenbeleuchtung
+beleuchtet entweder die Decke selbst (Informationswert durch Gemälde/
+Architekturstrukturen) oder nutzt sie als Reflektor zur indirekten
+Allgemeinbeleuchtung (braucht hohen Reflexionsgrad; Decke wird dabei zur
+hellsten, damit betonten Raumfläche). Lichtstrukturen als lineare, eigenständige
+Architekturelemente vs. Deckenfluter, die sich unterordnen (brauchen wegen
+asymmetrischer Verteilung grösseren Deckenabstand). **Anordnung:** ausreichende
+Raumhöhe nötig, Deckenfluter über Augenhöhe, Deckenabstand mindestens 0,8 m
+(fünfter unabhängiger Beleg desselben Werts). Bei der Tragstruktur-Variante
+können Leuchten an der Struktur selbst, abgependelt oder wandmontiert sein;
+Strahler können direkt an Tragwerksbauteilen montiert werden.
+
+**Boden (S. 174-175, vollständig):** entweder wird ausschliesslich die
+Bodenfläche geflutet (Bodenfluter, akzentuiert Grundfläche/Materialität durch
+asymmetrische Streiflichtverteilung, niedrige Montagehöhe = hoher Sehkomfort)
+oder der Raum als Ganzes über Downlights beleuchtet (Blendfreiheit über
+Abblendwinkel, höhere Gleichmässigkeit als Bodenfluter). Anwendung: Verkehrszonen
+in Hotels/Theatern/Kinos/Konzertsälen, Flure, Treppen.
 
 ## Praxisrelevanz für JANS
 
@@ -789,24 +906,56 @@ Referenzprojekte:
   prüfbare Faustregel für die Vorprüfung eines vorgeschlagenen
   Deckenraster-/Möblierungsplans, bevor ein Fachplaner beigezogen wird —
   ergänzt die bereits notierte Drittel-Raumhöhe-Regel um den Winkelbezug.
+- Die **Fluchtwegs-/Notbeleuchtungs-Abgrenzung** (S. 150-151: Orientierungs-
+  vs. Not-/Hinweisleuchten, drei Gruppen Hinweis-/Sicherheits-/
+  Ersatzbeleuchtung) ist der zweite direkte Brandschutz-Anschlusspunkt in
+  diesem Teil des Ratgebers (neben S. 128-129) — der Text selbst verweist
+  ausdrücklich auf **regionale Richtlinien**, die er nicht nennt; für JANS
+  gilt hier `wissen/normen`/Skill `brandschutz` (VKF-Richtlinien
+  Sicherheitsbeleuchtung), nicht der Herstellertext.
+- Die **Deckenabstand-0,8-m-Regel** ist inzwischen an **fünf unabhängigen
+  Stellen** desselben Dokuments belegt (S. 88 Deckenfluter, S. 117 indirekte
+  Beleuchtung, S. 138 Lichtstrukturen, S. 146 Wandleuchten-Deckenfluter, S. 170
+  Deckenbeleuchtung) — ein durchgehend stabiler, zitierfähiger Planungswert,
+  keine Einzelfundstelle mit Ausreisser-Risiko.
+- Das Gliederungsprinzip des neuen Kapitels **«Lichtanwendungen» nach
+  Bezugsfläche** (Nutzfläche/Wand/Decke/Boden/Objekt/Orientierung/Hinweis)
+  ergänzt das bereits gelesene Gliederungsprinzip **«Leuchtengruppen» nach
+  Leuchtenart** (S. 130-151) um die Gegenperspektive — für ein
+  Beleuchtungskonzept in der Bauherren-Kommunikation eignet sich «welche Fläche
+  will ich wie wirken lassen» (Lichtanwendungen) oft besser als «welchen
+  Leuchtentyp setze ich ein» (Leuchtengruppen), die technische Umsetzung
+  braucht am Ende aber beide Register gemeinsam.
+- Die **Wandabstand-Kompensationsregel bei hohen Räumen** (S. 165: Leuchtenabstand
+  bei 5-m-Wänden gegenüber der Grundregel reduzieren, um die mit der Raumhöhe
+  abfallende Beleuchtungsstärke auszugleichen) ist ein konkreter, oft
+  übersehener Punkt für Foyers/Treppenhäuser mit grosser Raumhöhe — ein reines
+  Übertragen der 3-m-Faustregel auf hohe Räume unterschätzt den nötigen
+  Leuchtenaufwand.
+- Direktbeleuchtung mit Downlights ist bei **grossen Nutzflächen** (S. 158-159)
+  laut Quelle «wesentlich wirtschaftlicher» als Indirektbeleuchtung — ein
+  belegbares Gegenargument, wenn in der Vorprojektphase eine rein indirekte
+  Beleuchtung für grosse Verkaufs-/Ausstellungs-/Werkstattflächen aus reinen
+  Gestaltungsgründen gewünscht wird, ohne die Energiekonsequenz zu benennen.
 
 ## Offene Punkte
 
-- 145 von ca. 435 Seiten gelesen. «Arten des Beleuchtens» (S. 110-129) jetzt
-  vollständig. Offen: «Leuchtengruppen» Rest ab S. 146 (Wandleuchten-Rest,
-  Perimeterleuchten, Bodeneinbauleuchten, Orientierungsleuchten,
-  Hinweisleuchten), «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik»
-  mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je
-  Lampentyp), «Simulation und Berechnung» (eigenes Kapitel laut PDF-Keywords —
-  Abgrenzung zum bereits gelesenen «Licht visualisieren»-Abschnitt «Simulation»
-  noch ungeklärt, evtl. Dublette oder vertiefendes Berechnungskapitel) sowie das
+- 175 von ca. 435 Seiten gelesen. «Leuchtengruppen» (S. 130-151) jetzt
+  vollständig, neues Kapitel «Lichtanwendungen» (S. 152-175: Nutzfläche/Wand/
+  Decke/Boden) begonnen. Offen: «Lichtanwendungen» Rest ab S. 176 (Objekt: im
+  Raum/an der Wand, Orientierungsbeleuchtung, Hinweisbeleuchtung — laut
+  Übersichtsgrafik S. 152 die verbleibenden drei Unterkapitel dieses Kapitels),
+  «Aussenraumbeleuchtung», «Lichtsteuerung», «Lichttechnik» mit vermutlich den
+  praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp),
+  «Simulation und Berechnung» (eigenes Kapitel laut PDF-Keywords — Abgrenzung
+  zum bereits gelesenen «Licht visualisieren»-Abschnitt «Simulation» noch
+  ungeklärt, evtl. Dublette oder vertiefendes Berechnungskapitel) sowie das
   Glossar — für künftige Destillat-Läufe offen, im Frontmatter-Feld `gelesen:`
   nachgeführt.
 - Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise
   nachgeführt) deutet auf eine lebende Online-Publikation (www.erco.com/guide
   laut S.1) — für eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil
-  dieses Laufs. S. 74-98 durchgehend Edition 26.06.2006, S. 99-109 wieder
-  19.07.2007, S. 110-145 durchgehend wieder 05.09.2006 (ab S. 130 einheitlich,
-  S. 110-120 noch 25.07.2006) — der Wechsel fällt mit den Kapitelgrenzen
-  zusammen (Planungspraxis Ende → Licht visualisieren → Innenraumbeleuchtung
-  Arten des Beleuchtens → Leuchtengruppen); im nächsten Lauf weiter mitführen.
+  dieses Laufs. S. 130-151 durchgehend Edition 05.09.2006, S. 152-175 wieder
+  Edition 07.07.2006 — der Wechsel fällt erneut mit einer Kapitelgrenze
+  zusammen (Leuchtengruppen Ende → Lichtanwendungen Beginn); im nächsten Lauf
+  weiter mitführen.

@@ -37,16 +37,20 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 06.08.2026 (Nachtschicht 23:31):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+**Stand 07.08.2026 (Nachtschicht 05:35):** 37 Sektionen inventarisiert · 214 Dateien erfasst
 · 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
 · 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und Lampen, P1) von
-Seite 120 auf Seite 145 fortgeschrieben — Unterkapitel «Arten des Beleuchtens»
-(Innenraumbeleuchtung) vollstaendig abgeschlossen (Fluten symmetrisch/asymmetrisch,
-Akzentuieren, Projektion, Orientierung), Unterkapitel «Leuchtengruppen» begonnen
-(Stromschiene/Strahler/Fluter/Wandfluter/Lichtstrukturen/Downlights/Arbeitsplatzleuchten
-vollstaendig, Wandleuchten begonnen) → [[erco-lichtplanung-grundlagen]].
-Rest (Leuchtengruppen-Rest, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik,
-Simulation und Berechnung, Glossar) offen fuer weitere Folgelaeufe.
+Seite 145 auf Seite 175 fortgeschrieben — Unterkapitel «Leuchtengruppen»
+(Innenraumbeleuchtung) vollstaendig abgeschlossen (Wandleuchten-Rest, Perimeterleuchten,
+Bodeneinbauleuchten, Orientierungsleuchten, Not- und Hinweisleuchten), neues Hauptkapitel
+«Lichtanwendungen» begonnen und bis zur Kapitelgrenze S. 175 vollstaendig gelesen
+(Nutzflaeche: Arbeitsplatz/Flaeche klein/Flaeche gross; Wand: 3m/5m/mit Struktur; Decke:
+plan/Tragstruktur; Boden) → [[erco-lichtplanung-grundlagen]]. Sauberer Stopp vor Kapitel
+«Objekt» (beginnt S. 176, am Original verifiziert). Rest (Lichtanwendungen-Rest: Objekt/
+Orientierungsbeleuchtung/Hinweisbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung,
+Lichttechnik, Simulation und Berechnung, Glossar) offen fuer weitere Folgelaeufe.
+Zuvor, 06.08.2026 (Nachtschicht 23:31): Seite 120 auf Seite 145 fortgeschrieben (Unterkapitel
+«Arten des Beleuchtens» abgeschlossen, «Leuchtengruppen» begonnen).
 Zuvor, 06.08.2026 (Nachtschicht 02:39): Seite 95 auf Seite 120 fortgeschrieben (Kapitel
 «Planungspraxis» und «Licht visualisieren» abgeschlossen). Zuvor,
 05.08.2026 (Nachtschicht 23:30): Seite 73 auf Seite 95 fortgeschrieben. Zuvor,

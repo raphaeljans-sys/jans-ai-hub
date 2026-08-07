@@ -14,7 +14,7 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
-- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-145 von ca. 435):
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-175 von ca. 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
   (Lichtrichtung/-verteilung/Kontrastskala), Mit Lichtfarben gestalten (Farbe,
@@ -24,10 +24,14 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   Montage Decke/Wand/Boden, Wartung), Licht visualisieren vollständig (Zeichnung,
   Simulation, Modell/Mock-up), Innenraumbeleuchtung: Arten des Beleuchtens vollständig
   (Allgemein direkt/direkt diffus/indirekt/kombiniert, Fluten, Akzentuieren, Projektion,
-  Orientierung), Leuchtengruppen begonnen (Stromschiene/Strahler/Fluter/Wandfluter/
-  Lichtstrukturen/Downlights/Arbeitsplatzleuchten vollständig, Wandleuchten begonnen).
-  Weitere Kapitel offen (Leuchtengruppen-Rest, Aussenraumbeleuchtung,
-  Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar)
+  Orientierung), Leuchtengruppen vollständig (Stromschiene/Strahler/Fluter/Wandfluter/
+  Lichtstrukturen/Downlights/Arbeitsplatzleuchten/Wandleuchten/Perimeterleuchten/
+  Bodeneinbauleuchten/Orientierungsleuchten/Not- und Hinweisleuchten); Lichtanwendungen
+  begonnen (Nutzfläche: Arbeitsplatz/Fläche klein/Fläche groß vollständig, Wand: 3m/5m/
+  mit Struktur vollständig, Decke: plan/Tragstruktur vollständig, Boden vollständig).
+  Weitere Kapitel offen (Lichtanwendungen-Rest: Objekt/Orientierungsbeleuchtung/
+  Hinweisbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik, Simulation
+  und Berechnung, Glossar)
 
 ### BKP 261 — Aufzüge
 - [[bkp-261-aufzuege]] — Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit

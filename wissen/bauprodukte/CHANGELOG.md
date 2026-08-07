@@ -1,5 +1,33 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-07 (Mac Mini Nachtschicht 05:35) — ERCO-Ratgeber Seite 145 auf Seite 175 fortgeschrieben, Leuchtengruppen abgeschlossen, Lichtanwendungen begonnen
+
+Fortsetzung des Vorlaufs vom 06.08. 23:31. `de_erco_guide.pdf` (BKP 233, P1, 435 S.)
+von Seite 145 bis Seite 175 gelesen (`pdftotext -layout`, Textqualitaet gut).
+[[erco-lichtplanung-grundlagen]] erweitert:
+
+- **Unterkapitel «Leuchtengruppen» (S. 130-151) fertiggestellt:** Wandleuchten-Rest
+  (Deckenfluter/Bodenfluter), Perimeterleuchten, Bodeneinbauleuchten (Uplights/
+  Richtstrahler/Uplight diffus), Orientierungsleuchten, Not- und Hinweisleuchten
+  (drei Gruppen Hinweis-/Sicherheits-/Ersatzbeleuchtung, Fluchtweg-Bezug).
+- **Neues Hauptkapitel «Lichtanwendungen» (S. 152-175) begonnen**, gegliedert nach
+  Bezugsflaeche statt Leuchtenart: Nutzflaeche (Arbeitsplatz/Flaeche klein/Flaeche
+  gross), Wand (3m/5m/mit Struktur, inkl. Kompensationsregel bei hohen Raeumen),
+  Decke (plan/Tragstruktur), Boden — alle vier Unterkapitel bis zur Kapitelgrenze
+  vollstaendig gelesen. Sauberer Stopp vor «Objekt» (Kapitelbeginn S. 176, am
+  Original verifiziert per `pdftotext -f 176`).
+- Deckenabstand-0,8-m-Regel jetzt an **fuenf** unabhaengigen Stellen belegt (S. 88,
+  117, 138, 146, 170) — im Praxisrelevanz-Abschnitt als stabiler Wert vermerkt.
+  Zweiter Brandschutz-Anschlusspunkt (Not-/Hinweisleuchten, S. 150-151) notiert,
+  Verweis auf `wissen/normen`/Skill `brandschutz`, keine Norm selbst zitiert (die
+  Quelle nennt nur "regionale Richtlinien" ohne Fundstelle).
+- Register nachgefuehrt: `wiki/INDEX.md`, `skills/wissens-destillat/training/
+  bauprodukte-inventar.md`, `wissen/bauprodukte/training/PROGRAMM.md`.
+  Frontmatter (`gelesen`, `sources`, `last_updated`) aktualisiert.
+
+Kein Fan-out, kein Subagent (5-USD-Nachtschicht-Zyklus, Prioritaet 4 — aktiver
+Destillat-Korpus, aktuellster inhaltlicher Stand vor `energie`/`grobkosten`).
+
 ## 2026-08-06 (Cross-KB-Lauf Run 27, 23:46) — ERFUNDENER BELEG im ERCO-Artikel gestrichen, zwei Verweise auf eine archivierte Norm nachgeführt, Lesefortschritt und zwei Sperrklauseln im Register nachgezogen
 
 Ausführungslauf des Wissens-Chefs, Befunde adversarial vorverifiziert. Nur die KB

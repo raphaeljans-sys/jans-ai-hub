@@ -5,6 +5,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-07 — Mac Mini Nachtschicht 05:35 (KB bauprodukte, ERCO-Ratgeber S.145→175)
+
+Prioritaeten 1-3 leer/bereits abgedeckt: keine offenen Sync-/Remote-Tasks (nur der seit
+31.07. zurueckgehaltene Freigabe-Task Cockpit-Server, launchd-Persistenz, nicht selbst
+freigegeben); Synobsis Stufe 1+2 bei 853/853 gesaettigt, vectors.npz (853×768) und venv
+verifiziert; Fristen-Register laufend durch Radar/Hub-Chef gepflegt, kein unbearbeitetes
+Ueberfaelliges gefunden, kein Mehrwert durch einen weiteren Duplikat-Pass. Prioritaet 4:
+unter den drei freien Ziel-KBs war `bauprodukte` am laengsten unberuehrt (letzter Stand
+06.08. 23:31/23:46, gegenueber `energie` 07.08. 02:36 aus dem eigenen Vorlauf-Zyklus;
+`grobkosten` zeitgleich mit `bauprodukte` durch denselben Cross-KB-Lauf beruehrt, aber
+mit weniger offenen Positionen laut PROGRAMM.md). ERCO-Ratgeber (BKP 233, P1) von S. 145
+auf S. 175 fortgeschrieben: Unterkapitel "Leuchtengruppen" (S. 130-151) fertiggestellt
+(Wandleuchten-Rest, Perimeterleuchten, Bodeneinbauleuchten, Orientierungsleuchten,
+Not-/Hinweisleuchten), neues Hauptkapitel "Lichtanwendungen" begonnen und bis zur
+Kapitelgrenze S. 175 vollstaendig gelesen (Nutzflaeche, Wand, Decke, Boden). Sauberer
+Stopp vor Kapitel "Objekt" (Beginn S. 176, am Original mit `pdftotext -f 176` verifiziert).
+Register (INDEX, PROGRAMM, Inventar, CHANGELOG) nachgefuehrt. Kein Versand, keine Buchung,
+kein Fan-out. Report: `wissen/bauprodukte/CHANGELOG.md`, Eintrag 07.08.2026 05:35.
+
+---
+
 ## Energie-Training 07.08.2026, Mac Mini Nachtschicht 02:30 (still — keine Mail)
 
 Prioritaeten 1-3 leer/bereits abgedeckt: keine offenen Sync-/Remote-Tasks (nur der seit
