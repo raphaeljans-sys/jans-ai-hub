@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 06:11:52
+Stand: 07.08.2026 06:21:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:21)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 06:11:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 02241098 twin-fidelity-review 2026-08-07: Service-Satz nach Gattung, vierte Endform, Signaturblock-Regel zurueckgenommen
+- 4f52c4d3 nas-selfcommit: 2 Datei(en) 2026-08-07 06:15
