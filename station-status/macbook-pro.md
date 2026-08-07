@@ -1,11 +1,11 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 20:43:34
+Stand: 07.08.2026 20:53:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/normen/destillat/p1/a19385  (letzte Aktivitaet 20:32)
+- Developer/jans/ai/hub//claude/worktrees/normen/destillat/p1/a19385  (letzte Aktivitaet 20:47)
 - Developer/jans/ai/hub//claude/worktrees/sidebar/sessions/understanding/877012  (letzte Aktivitaet 20:36)
-- Developer/jans/ai/hub  (letzte Aktivitaet 20:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:48)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 07.08.2026 20:43:34
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- dfa1744f templates/scheduled-tasks: redundanten Einzelspiegel claude-abo-auslastung entfernt (identisch in mac-mini/ enthalten)
+- f13d3edd Rule modellwahl-routine: Haiku fuer Routine-Messlaeufe (Radar, Heartbeat, Destillat), Opus fuer Operatives; README.md aktualisiert

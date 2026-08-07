@@ -1,3 +1,11 @@
+---
+title: REGISTER — Gültigkeit der Normen (KB Normen)
+status: established
+last_updated: 2026-08-07
+sources: [SIA_Norm/SIA_Normen/Gesamtverzeichnis/ersetzte_normen.pdf, https://shop.sia.ch, training/norm-inventar.md]
+links: [[sia-register-2013]]
+---
+
 # REGISTER — Gültigkeit der Normen (KB Normen)
 
 > **Zweck:** Immer ZUERST hier nachschauen — welche Ausgabe einer Norm ist gültig, welche
