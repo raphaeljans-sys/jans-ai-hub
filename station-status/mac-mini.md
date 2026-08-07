@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 20:05:04
+Stand: 07.08.2026 20:25:17
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -19,4 +19,4 @@ Stand: 07.08.2026 20:05:04
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2745f497 normen Run 47 Abschluss: 9/10 P1 established (Refuter komplett), Report + CHANGELOG; 112/1 an Nacht-Loop uebergeben
+- cba845ca nas-selfcommit: 1 Datei(en) 2026-08-07 20:15
