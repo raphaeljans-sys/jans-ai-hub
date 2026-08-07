@@ -32,6 +32,7 @@ Im Unterschied zu Skills (die bei Bedarf getriggert werden) und Agents (die als 
 - `identifikatoren-verifizieren.md` — Projektnr./Bauherrschaft/Adressen/Termine/Firmennamen/BKP, die in ein Dokument wandern, immer aus kanonischer Quelle verifizieren, nie raten
 - `jans-absenderadresse.md` — verbindliche JANS-Firmenadresse/Briefkopf/Signatur, aktuelle vs. veraltete Adresse
 - `mail-formatierung.md` — Aptos 12 pt als Standardschrift für alle E-Mails (Apple Mail, M365)
+- `modellwahl-routine.md` — Haiku 4.5 für Routine-Läufe (Messungen, Checks, strukturierte Berichte), Opus nur für operative Aufträge und Entscheidungsfindung; spart ~6% des Wochenbudgets
 - `normen-referenz.md` — Baunorm-Aussagen (SIA/VKF/DIN/VSS/RAL) immer aus der Normen-KB/Original belegen, nie aus dem Gedaechtnis zitieren
 - `osascript-apple-apps.md` — Apple-Apps (Mail, Calendar) immer über Bundle-ID ansprechen (Tahoe-Workaround)
 - `projekt-ablage-stand.md` — Projektgebundenes in den SharePoint-Projektordner (eine Projekt-Wahrheit), Claude-Erzeugnisse unter `09_Dokumente/CLAUDE/`, Pflicht-Gedaechtnis `PROJEKT-STAND.md` (zuerst lesen, immer nachfuehren)
