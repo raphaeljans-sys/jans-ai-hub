@@ -64,6 +64,10 @@ Ich handle als **active librarian** (siehe `rules/wissens-bibliothekar.md`):
   Reinkippen, nicht ordnen. Grosse Quell-PDFs bleiben in den `IMMO`-SharePoint-Ordnern;
   `raw/_INGESTED.md` registriert, welche Quelle wie weit eingearbeitet ist.
 - `wiki/` — kompilierte Artikel + `INDEX.md` + `wissensluecken.md`. Meine Domaene.
+  **Schema-Abweichung:** Dieses KB nutzt `wissensluecken.md` statt `QUESTIONS.md` (Standard),
+  weil die ungeklärten Punkte hier explizit als Material-Lücken geführt werden (fehlende Marktdaten,
+  Projekt-Auswertungen, Nachrecherche). Der Audit-Sktip überspringt die Standard-Prüfung auf
+  `QUESTIONS.md` für dieses KB.
 - `outputs/` — erzeugte Bewertungen/Briefings/Health-Checks (JJJJ-MM-TT_titel.md).
 - `training/` — `PROGRAMM.md` (Lern-Loop) + `curriculum.md` (Lektionsplan aus dem Kurs).
 
