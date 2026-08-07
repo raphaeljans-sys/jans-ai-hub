@@ -3,18 +3,18 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
-Eintrag 07.08.2026 (Zahlungsabgleich-Check 08:23, an den Mahn-Datensaetzen nachgemessen —
-**schliesst den Pruefpunkt vom 03.08. zur Mahnstufe RE-00087**): Der Registereintrag vom 03.08.
-hielt fest, dass Raphael eine `mahnung-3-re-00087.pdf` erzeugt und versandt hatte, waehrend bexio
-die Stufe weiterhin auf 2 fuehrte, und dass die Nachfuehrung in bexio nicht belegt sei. Die
+Eintrag 07.08.2026 (Zahlungsabgleich-Check 08:23, an den Mahn-Datensätzen nachgemessen —
+**schliesst den Prüfpunkt vom 03.08. zur Mahnstufe RE-00087**): Der Registereintrag vom 03.08.
+hielt fest, dass Raphael eine `mahnung-3-re-00087.pdf` erzeugt und versandt hatte, während bexio
+die Stufe weiterhin auf 2 führte, und dass die Nachführung in bexio nicht belegt sei. Die
 Abfrage `--mahnstufe 87` war am 06.08. vom Berechtigungs-Klassifikator blockiert und lief heute
-wieder durch: **bexio fuehrt RE-00087 auf Mahnstufe 3**, uebereinstimmend mit der
-Verzugsauswertung. Die Nachfuehrung ist damit erfolgt. **Nicht geschlossen ist die abweichende
-Anzeige**: `--rechnung 87` liefert unveraendert «Mahnstufe 0 (1. Mahnung waere die naechste)».
-Wer in bexio nur die Rechnungsansicht oeffnet, sieht bei RE-00087 also eine Rechnung ohne jede
-Mahnstufe; massgeblich ist der Mahn-Datensatz. Uebrige Stufen heute gemessen: RE-00098 und
-RE-00099 je 2, RE-00101 1, RE-00100 0. Am Debitorenstand selbst hat sich nichts bewegt (fuenf
-Faelle, CHF 51'400.00, wie im Radar-Eintrag von 06:55). Status: **Nachfuehrung erledigt;
+wieder durch: **bexio führt RE-00087 auf Mahnstufe 3**, übereinstimmend mit der
+Verzugsauswertung. Die Nachführung ist damit erfolgt. **Nicht geschlossen ist die abweichende
+Anzeige**: `--rechnung 87` liefert unverändert «Mahnstufe 0 (1. Mahnung waere die naechste)».
+Wer in bexio nur die Rechnungsansicht öffnet, sieht bei RE-00087 also eine Rechnung ohne jede
+Mahnstufe; massgeblich ist der Mahn-Datensatz. Übrige Stufen heute gemessen: RE-00098 und
+RE-00099 je 2, RE-00101 1, RE-00100 0. Am Debitorenstand selbst hat sich nichts bewegt (fünf
+Fälle, CHF 51'400.00, wie im Radar-Eintrag von 06:55). Status: **Nachführung erledigt;
 Anzeige-Widerspruch im Rechnungsfeld beobachten.**
 
 Eintrag 07.08.2026 (Logbuch-Radar 06:55, am Dateibestand und an allen Mailkonten nachgemessen —
