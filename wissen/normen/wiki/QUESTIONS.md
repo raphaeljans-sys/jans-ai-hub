@@ -106,8 +106,15 @@
   `werkvertrag`; hat im REGISTER weiterhin keine Zeile, weil der Inhalt fehlt.
 - **Teilweise ERLEDIGT 07.08.2026:** Die Korrigenda liegt jetzt als **SIA 118-C1:2026** im
   Bestand (`alle/118-C1_2026_d.pdf`, Übernahme aus Downloads-Sammlung, Titelblatt verifiziert)
-  — der Kauf ist damit hinfällig. Offen bleibt das **Inhalts-Destillat** (was C1 bzw. das
-  Revisionsdatum 01.12.2025 materiell ändert) sowie die Hauptnorm SIA 118:2013 selbst.
+  — der Kauf ist damit hinfällig. **Inhalts-Destillat ERLEDIGT 07.08.2026 (Run 47, Vorrang-Lauf):**
+  `destillate/sia-118-c1-2026.md`, established nach unabhängiger Refuter-Runde (BESTANDEN,
+  0 Kernbefunde). Materieller Gehalt: genau EINE Änderung — Art. 179 Abs. 2 SIA 118:2013,
+  Rügefrist für verdeckte Mängel neu «innert 60 Tagen nach der Entdeckung» statt «sofort»
+  (Anlass: OR-Revision Baumängel per 01.01.2026, AS 2025 270; zwingendes Recht, geht der
+  Norm vor; C1 gilt vertraglich nur, wenn zusätzlich zur SIA 118 vereinbart). Das
+  Revisions-Datum 01.12.2025 der Produktseite deckt sich nach Lage der Daten mit dieser C1
+  (Genehmigung ZO 11.11.2025, gültig ab 01.01.2026); am Dokument selbst kommt das Datum
+  nicht vor. Offen bleibt allein die **Hauptnorm SIA 118:2013** (Bring-Schuld Raphael).
 
 ### METHODISCHE LEHRE AUS DIESEM LAUF (gehört ins PROGRAMM.md)
 

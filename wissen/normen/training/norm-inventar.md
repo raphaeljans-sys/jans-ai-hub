@@ -9,9 +9,11 @@ sind bereits vollstaendig nachgefuehrt (Session Mac Mini 07.08., Report
 nur destillieren. Alle Titelblaetter sind verifiziert, Pfade stimmen.
 
 **P1 (in dieser Reihenfolge, je mit unabhaengiger Refuter-Runde):**
-- [ ] SIA 118-C1:2026 (`alle/118-C1_2026_d.pdf`, ~Korrigenda zur 118:2013) — klaert die offene
-  QUESTIONS-Frage, was C1/Revision 01.12.2025 materiell aendert; direkt relevant fuer Skill
-  `werkvertrag`. Kleines Dokument, zuerst.
+- [x] 260807 SIA 118-C1:2026 (`alle/118-C1_2026_d.pdf`) — Destillat `sia-118-c1-2026.md`,
+  **established** nach unabhaengiger Refuter-Runde (BESTANDEN, 0 Kernbefunde, 4 Nebenbefunde
+  inline eingearbeitet). Materiell: genau EINE Aenderung, Art. 179 Abs. 2 (Ruegefrist
+  verdeckte Maengel «innert 60 Tagen» statt «sofort», OR-Revision Baumaengel per 01.01.2026).
+  QUESTIONS-Frage geschlossen.
 - [ ] SIA 261/1:2003 dt (`alle/261_1_2003_d.pdf`) — Bring-Schuld «nur franzoesisch» geschlossen,
   jetzt destillierbar
 - [ ] SIA 262/1:2003 dt (`alle/262_1_2003_d.pdf`)

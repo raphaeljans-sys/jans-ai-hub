@@ -1,3 +1,73 @@
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 267/1:2003 neu destilliert
+
+1. **`destillate/sia-267-1-2003.md`** — Erstdestillat der SIA 267/1:2003 Geotechnik,
+   Ergänzende Festlegungen (44 S., deutsch, Textlayer). Alle 44 Seiten gesichtet; 10 Seiten
+   mit Figuren, Ablaufschemata und Subskript-Listen (S. 18, 19, 24, 27, 28, 30, 31, 36,
+   37, 42) als 150-dpi-Bild gegengelesen. Inhaltlicher Befund: zweischichtige Norm —
+   Verweisungsdrehscheibe (Tabellen 1-10: VSS-Bände 5/9/12/13, SN-EN-Spezialtiefbaureihe
+   1536-12716 mit SIA-19x-Entsprechungen, SIA 118/267 Anhänge A1-A8, ASTRA-Leitfaden
+   23.4.1998) plus eigene schweizerische Prüfverfahren für drei Spezialtiefbau-Gebiete:
+   Pfähle (statisch/dynamisch, Ultraschall- und Reflexions-Integritätsprüfung),
+   vorgespannte Anker (Ankerversuch, ausführliche/einfache Spannprobe, Korrosionsschutz-
+   und Wasserdichtigkeitsprüfung q < 5 l/(min·bar)) und Nägel (Ausziehversuche,
+   Scherversuche, Zugproben). Durchgängiges Kriechmass-Regime (Referenzgerade k = 1 mm,
+   k krit = 2 mm) und identische Messgenauigkeiten (±0,20 mm/±2 % bzw. ±0,05 mm/±0,5 %,
+   Ablesung 0,01 mm/1 kN) über alle drei Verfahrensfamilien. Kernwerte: P0 ≤ 0,6 Ra,
+   Spannproben-Band 1,25 P0max ≤ Pp ≤ 0,75 Ppk, Festsetz-Bedingungen 6.2.3.5,
+   Pfahl-Abbruch bei k ≥ 2 mm oder s ≥ 0,1 D. Merkregel Ziff. 0.2.2 (Entwürfe gelten
+   erst ab Inkrafttreten) betrifft viele Tabellenpositionen (prEN/ENV/Draft). Beobachtung
+   dokumentiert: Figur 15 beschriftet die Kraftachse «F [tN]» (mutmasslicher Druckfehler,
+   nicht übernommen); Übergangsbestimmungen nennen das ersetzte Merkblatt SIA 2009 nicht.
+   Ersetzt zusammen mit SIA 267 die Empf. SIA V191:1995 und V192:1996, Vornorm
+   SIA 191/1:2001 und Merkblatt SIA 2009:1996. Status speculative, Refuter-Runde
+   ausstehend. Destillat-INDEX-Zeile ergänzt, REGISTER-Zeile SIA 267/1 nachgeführt.
+
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 262/1:2003 neu destilliert
+
+1. **`destillate/sia-262-1-2003.md`** — Erstdestillat der SIA 262/1:2003 Betonbau,
+   Ergänzende Festlegungen (40 S., deutsch, Textlayer; vorliegend 2. Auflage 2004-05 mit
+   redaktionellen Korrekturen). Alle 40 Seiten gesichtet; 11 Seiten mit Tabellen, Figuren
+   und Bruch-/Wurzelformeln (S. 6, 7, 17, 19, 20, 21, 23, 24, 28, 30, 37) als
+   150-dpi-Bild gegengelesen. Inhaltlicher Befund: dreischichtige Norm — mitgeltende
+   Verweisungs-Zuordnung (Tabelle 1, 21 Zeilen), informatives Dokumentenverzeichnis
+   (Tabellen 2-5) und acht eigene Prüfverfahren-Anhänge A-H (Wasserleitfähigkeit,
+   Chloridwiderstand, Frost-Tausalz, Sulfat, Luftpermeabilität am Bauwerk,
+   Schwinden/Kriechen, E-Modul, Frischbeton-Wassergehalt); für A-E ausdrücklich keine
+   anerkannten Beurteilungsregeln, nur Anhaltspunkte (Tabelle 6: qw ≤ 10 g/(m²h),
+   Frost hoch m ≤ 200 g/m², Sulfat ∆l ≤ 0,5 ‰). Extraktionsfalle dokumentiert: der
+   Wurzelterm 1,5462·√(z·xd) in Formel B.8.2 fehlt in der reinen Textextraktion.
+   Original-Druckfehler notiert («Kommission SIA 160» auf S. 39 statt 162). Chloridgehalt/
+   Karbonatisierung sind KEINE Anhänge, sondern Verweise auf SIA 162/2 und 162/3.
+   Ersetzt zusammen mit SIA 262 die SIA 162 (1993) und SIA 162/1 (1989). Status
+   speculative, Refuter-Runde ausstehend. INDEX-Zeile ergänzt.
+
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 261/1:2003 neu destilliert
+
+1. **`destillate/sia-261-1-2003.md`** — Erstdestillat der SIA 261/1:2003 Einwirkungen auf
+   Tragwerke, Ergänzende Festlegungen (32 S., deutsch, Textlayer). Alle 32 Seiten gesichtet;
+   10 Seiten mit Formeln, Figuren und verbundenen Tabellen (S. 12, 13, 15, 16, 18, 19, 21,
+   22, 23, 28) als 150-dpi-Bild gegengelesen, Formel 3 zusätzlich als 400-dpi-Zoom.
+   Inhaltlicher Befund: anders als die Prüfnorm SIA 266/1 eine echte Lastannahmen-Norm mit
+   13 Kapiteln (Schalungsdruck, gravitative Naturgefahren mit Gefahrenkarten-System,
+   Wind-Dynamik/SIA D0188, Ortstemperatur, Ausnahmetransporte, Kranbetrieb inkl. Ermüdung
+   und Anhang A, Lagerkräfte, Silos). Mehrere Druckfehler der Norm dokumentiert (doppelte
+   Ziffernnummern 8.1.1/11.2.1.1/11.4.1.4, überlappende h/b-Bereiche Tabelle 9, Formel 3
+   ohne Klammern «Qk,T = 1 + λ Qk,max» — mutmasslich λ·Qk,max). Ersetzt zusammen mit
+   SIA 261 die Ziffer 4 der SIA 160 (1989). Status speculative, Refuter-Runde ausstehend.
+   INDEX-Zeile ergänzt.
+
+## 2026-08-07 (Vorrang-Lauf Raphael, Destillat-Session) — SIA 264/1:2003 neu destilliert
+
+1. **`destillate/sia-264-1-2003.md`** — Erstdestillat der SIA 264/1:2003 Stahl-Beton-Verbundbau,
+   Ergänzende Festlegungen (16 S., deutsch, Textlayer). Alle 16 Seiten gesichtet; die
+   Brandbemessungstabellen 3-9 (S. 8-13) wurden an gerenderten Seitenbildern (150 dpi)
+   zellenweise gegengelesen, Figuren-Masse visuell geprüft. Inhaltlicher Befund: anders als
+   die Schwesternorm SIA 266/1 ist SIA 264/1 KEINE Prüfnorm (keine Verbundmittel-/
+   Kopfbolzenduebel-Prüfverfahren), sondern Dokumentenverzeichnis (3 SN-EN-Verweisungen +
+   3 Eurocode-4-Teile, S. 7) plus tabellarische Brandbemessung R 30-R 180 für Verbundträger
+   und -stützen als Funktion von µ_fi,t. Ersetzt zusammen mit SIA 264 die Ziffern 4.7-4.9
+   der SIA 161 (1990). Status speculative, Refuter-Runde ausstehend. INDEX-Zeile ergänzt.
+
 ## 2026-08-07 (Session Mac Mini) — Bestandsabgleich ~/Downloads/01 Normen gegen PL-02
 
 1. **`outputs/2026-08-07_bestandsabgleich-downloads-01-normen.md`** — Abgleich der von Raphael
