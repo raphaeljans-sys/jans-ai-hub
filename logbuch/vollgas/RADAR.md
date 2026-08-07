@@ -52,6 +52,151 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-07 20:01 — [FREI, zwischenzeitlich VOLL 5h] Der 16:58-Lauf ist gestartet und hat nichts geliefert: **erster Aufsichtsausfall seit dem 05.08.**, Ursache ist ein ausgereiztes 5h-Fenster. Rate **3.01 Mio/h** statt vorhergesagter 0.3–0.6, Vorsprung −10.7 → **+2.6** — und der Verursacher ist zum ersten Mal messbar **Raphaels eigener Vorrang-Auftrag**, nicht ein Loop
+
+**Selbstkontrolle: AUFSICHTSAUSFALL, und zwar ein anderer Typ als bisher.** Letzter Eintrag
+07.08. 08:57, dieser Lauf 20:01, Abstand **11 h 04** bei 8-h-Takt (00:50 / 08:50 / 16:50). Die
+Registry zeigt `vollgas-chef-radar` `lastRunAt` **2026-08-07T14:58:12Z = 16:58 CEST** — der Lauf
+ist also **gefeuert** und hat **keinen Eintrag hinterlassen**. Das ist kein übersprungener Cron,
+sondern ein abgebrochener Lauf, und die Ursache ist belegt: das 5h-Fenster von rund 14:00 bis
+19:00 war ausgereizt (siehe unten). Der vorliegende Eintrag ist der Nachhol-Lauf. **Lehre für
+die Selbstkontrolle:** ein fehlender Eintrag allein sagt nicht, ob der Radar nicht gefeuert hat
+oder gefeuert und versagt hat — die beiden Fälle sind nur über `lastRunAt` zu trennen, und sie
+haben völlig verschiedene Ursachen. Ab sofort bei jedem Ausfall zuerst `lastRunAt` gegen den
+letzten Eintrag stellen.
+
+**Fenster JETZT FREI.** `claude -p "Antworte nur mit: OK" --model haiku < /dev/null` liefert
+**«OK», rc=0** in Sekunden, ohne Watchdog. **Keine Waisen:** `ps -eo pid,ppid,command | grep
+"claude -p"` leer, Gate-Zählung `pgrep` **0**.
+**Speicher:** **2.38 GB** frei+inactive+purgeable, Druckstufe **2 (warnend)** — siehe P2.
+
+**Zwei echte 5h-Limit-Treffer heute, beide dokumentiert, keiner ein Wochenlimit:**
+
+- **13:30** — Lauf-Journal `260807-laeufe.jsonl`, Mini-Dispatch, `rc=1`, `cost_usd=0`,
+  `"You've hit your session limit · resets 1:50pm"`. Erster Limit-Treffer seit dem 03.08. 09:41;
+  die Frühwarnung von 07:15 («seit rund 94 Stunden keines») war zum Messzeitpunkt korrekt.
+- **Fenster mit Reset 19:00** — `normen` Run 47 meldet **zwei** Abbrüche am Session-Limit beim
+  52-Seiten-Scan SIA 112/1:2017 («resets 19:00»). In genau dieses Fenster fiel der 16:58-Radar.
+
+Beides ist **[VOLL 5h]**, also im Sinne des Auftrags Erfolg und kein Vorfall. Ein Wochenlimit
+gab es nicht.
+
+**Wochenbudget** (`kontingent-budget.sh --json`, ohne Modellaufruf):
+
+| Grösse | Wert | Vergleich 08:57 |
+|---|---|---|
+| Ampel | **FREI** | FREI |
+| Verbraucht | **107.78 Mio** von 167 = **64.5 %** | 74.47 Mio = 44.6 % |
+| Woche verstrichen | 61.9 % (104 h seit Reset Mo 12:00) | 55.3 % |
+| **Vorsprung** | **+2.6 Punkte** | −10.7 Punkte |
+| MacBook Pro / Mac Mini | 83.78 / 24.00 Mio (beide frisch) | 54.76 / 19.71 |
+
+### Die Vorhersage ist um Faktor fünf bis zehn falsifiziert — und der Vorlauf hatte den Grund bereits benannt
+
+Der 08:57-Eintrag hatte **0.3 bis 0.6 Mio/h** und einen Vorsprung zwischen **−12.5 und −14.5**
+vorhergesagt, mit der Begründung, im Tagfenster feuere kein Loop mit Fan-out. Gemessen sind
+**33.31 Mio in 11 h 04 = 3.01 Mio/h** und ein Vorsprung von **+2.6**. Das ist die grösste
+Fehlprognose der Messreihe.
+
+Der Vorlauf hatte den Ausweg aber selbst formuliert: «Liegt er besser als −12.5, hat entweder
+Raphael selbst substanziell gearbeitet oder ein Loop unerwartet mit Fan-out — beides wäre im
+Eintrag zu trennen.» Die Trennung ist eindeutig und fällt auf die **erste** Möglichkeit.
+
+Aufgeteilt nach Station: **MacBook Pro +29.02 Mio**, **Mac Mini +4.29 Mio**. Auf dem MacBook
+lief `normen` Run 47, ein **manueller Vorrang-Lauf auf Auftrag Raphaels** (Block zuoberst in
+`training/norm-inventar.md`), von rund 09:00 bis 20:02 — drei Zwischen-Commits (`6d32b02e` 12:09,
+`ca487f39` 14:11, `2745f497` 20:02). Kein regulärer Loop, kein Fan-out-Nachtlauf, sondern
+Auftragsarbeit.
+
+**Damit steht eine dritte Kalibrierungsgrösse neben den beiden bisherigen:**
+
+| Arbeitstyp | Kosten (teuer) | Beleg |
+|---|---|---|
+| Ein Nachtschicht-Slot (Mini) | rund **0.2 Mio** | zwei unabhängige Fenster, 06.–07.08. |
+| Neun gewöhnliche Loops zusammen | rund **4.1 Mio** | Nachtfenster 07.08. 00:57–08:57 |
+| Ein 28-Agenten-Fan-out-Lauf | rund **4.5 Mio** | `wissens-chef` Run 27 |
+| **Ein Tag Vorrang-Auftrag** | **rund 29 Mio** | `normen` Run 47, 07.08. |
+
+Ein einziger Auftragstag kostet also so viel wie **rund sechs Fan-out-Läufe** oder **145
+Nachtschicht-Slots**. Das ordnet die Regimefrage des Vorlaufs neu: die Fan-out-Tiefe der Loops
+ist nicht der grösste Hebel auf die Ausschöpfung, sondern der zweitgrösste. Der grösste ist,
+ob Raphael an einem Tag selbst einen Vorrang-Auftrag fährt. Das ist **kein** Anlass für eine
+Radar-Massnahme — Auftragsarbeit ist der Zweck des Kontingents, nicht sein Verbraucher. Es ist
+ein Grund, die Prognosemethodik zu ändern: eine Rate lässt sich nur für **loopgetriebene**
+Fenster vorhersagen, und jede künftige Vorhersage sagt das ausdrücklich dazu.
+
+### Zum ersten Mal in dieser Messreihe liegt der Verbrauch nicht mehr hinter der Zeit
+
+Der Vorsprung war seit dem 04.08. durchgehend negativ und hatte sich auf −10.7 vertieft; die
+wiederkehrende Warnung dieses Radars lautete «die Gefahr liegt auf der anderen Seite:
+ungenutztes Kontingent, das am Montag verfällt». Mit **+2.6** ist der Verbrauch nun praktisch
+deckungsgleich mit dem Zeitverlauf — die beste Lage seit Beginn der Budgetmessung am 03.08.
+und genau das, was der **stehende Entscheid Raphaels vom 03.08.** («Verbrauch gleichmässig über
+die Woche») verlangt.
+
+**Rest bis zum Reset am Montag 12:00:** 59.22 Mio auf 64 h, volle Ausschöpfung bräuchte **0.93
+Mio/h**. Das Wochenende ist damit erstmals nicht mehr strukturell unterversorgt. Eine Drossel
+nach Schritt 2c ist **nicht** ausgelöst und wurde **nicht** gesetzt; die Ampel steht auf FREI,
+und bei +2.6 Punkten wäre eine Drossel auch sachlich falsch.
+
+**Liefer-Delta seit 08:57 — alle Loops mit Delta, ein Ausfall (der Radar selbst):**
+
+- **`normen` Run 47** (Vorrang, Commits `6d32b02e` / `ca487f39` / `2745f497`): **9 von 10
+  P1-Positionen** der Downloads-Übernahme erledigt — je Erstdestillat plus unabhängige
+  Refuter-Runde, alle neun danach auf **established**. Zwei davon **BEANSTANDET** und korrigiert
+  (SIA 264/1:2003 mit einem Kernbefund, SIA 387/4:2017 geringfügig). Position 9 (SIA 112/1:2017)
+  zweimal am Session-Limit gescheitert und mit Wiederaufnahme-Vermerk an den Nacht-Loop
+  übergeben. Delta ja, das mit Abstand grösste des Tages.
+- **`hub-chef-taeglich`** (Commit `c522ad3a` 09:01, Logbuch-Abschnitt «Hub-Chef 07.08.2026 08:39
+  bis 08:59»): Briefing an rj@ versendet, A5-Entwurf an Marc Grupp im Postfach, Muster
+  unbeantworteter Lehrstellenanfragen erfasst (zehn Anfragen seit Juli 2025, null Antworten).
+  **Die offene Gegenprobe des Vorlaufs ist damit erledigt** — der Lauf war um 08:57 nur noch
+  nicht fertig, nicht ausgefallen.
+- **`heartbeat-daily`** (09:40, `lastRunAt` bestätigt): gelaufen, kein Befund im Logbuch.
+- **Neuer Command `/tiefenrecherche`** (Commit `26a057cf` 10:42): parallele Recherche-Agenten,
+  CLAUDE.md und Rollen-Register nachgezogen. Raphaels eigene Arbeit, kein Loop.
+- **`vollgas-chef-radar` 16:58: KEIN Delta** — gefeuert, kein Eintrag, siehe Selbstkontrolle.
+
+**Kein Loop mit Delta-Null-Serie. Keine Rücktaktung, keine Stilllegung, keine Drossel.** Der
+einzige Null-Lauf ist der eigene, und er fiel nachweislich in eine Kontingentsperre — nach dem
+Befund der Frühwarnung vom 03.08. ist das ausdrücklich **kein** Leerlauf.
+
+**Feuermechanismen, alle drei Orte geprüft.** Registry MacBook (`list_scheduled_tasks`):
+unverändert, eigener Takt `50 */8 * * *` bestätigt, keine Task hinzugekommen oder entfernt.
+Registry Mini (`ssh mini 'ls ~/.claude/scheduled-tasks/'`): dieselben **acht** Tasks,
+Sollstand unverändert. launchd beide Stationen: `ch.jans.vollgas-supervisor` und
+`ch.jans.vollgas-monitor` unverändert `*.disabled-260729` und **nicht geladen**,
+`STOP-Macbookpro`/`STOP-Macmini` unverändert vom 29.07. 02:51, `ch.jans.nachtschicht` auf dem
+Mini geladen. **Kein Mechanismus feuert doppelt, keiner ist wiederauferstanden.**
+
+**P1 — keiner. Keine Mail.** Kein Login-Blocker, kein erschöpftes Wochenkontingent; die beiden
+5h-Treffer sind Ausschöpfung, kein Meldeanlass.
+
+**P2 — Speicherdruck: der Befund ist jetzt fällig.** Zweite Messung in Folge auf Stufe **2**,
+dazu ein Rückgang von 3.21 auf **2.38 GB** frei+inactive+purgeable. Damit ist die im 08:57-Lauf
+gesetzte Schwelle («erst bei zwei aufeinanderfolgenden Messungen auf Stufe 2 oder schlechter»)
+erreicht. Kein Eingriff in diesem Lauf: der 11-Stunden-Vorrang-Lauf ist die naheliegende und
+vorübergehende Erklärung, und er ist um 20:02 beendet. **Beim 00:57-Lauf entscheidet die dritte
+Messung:** liegt sie nach dem Ende des Vorrang-Laufs wieder auf Stufe 1, war es Last; bleibt sie
+auf 2 oder steigt, ist es ein Leck und gehört untersucht. Messdisziplin dabei: `vm_stat` plus
+`sysctl`, nie `top`-«unused», nie `ps`-RSS.
+
+**P3 — unverändert offen: Abgleich der `energie-training`-Frontmatter** (Session auf dem Mini
+nötig; die Datei trägt `enabled: false`, der Loop feuert und liefert täglich). Nicht vom Radar
+zu heilen — ein Edit könnte einen produktiven Loop stillstellen.
+
+**Prüfbare Vorhersage für den 00:57-Lauf** (ausdrücklich nur für ein **loopgetriebenes**
+Fenster; ein weiterer Vorrang-Auftrag würde sie erneut sprengen, und das wäre kein Fehler der
+Prognose): im Nachtfenster feuern `wissens-chef` (23:11), `normen-training-nacht` (01:28) mit
+der übergebenen SIA 112/1 sowie zwei Nachtschicht-Slots auf dem Mini. Erwartung daher **0.6 bis
+1.0 Mio/h** und ein Vorsprung zwischen **+0.5 und +2.5** — also weiterhin nahe null. Fällt er
+unter −1.0, hat die Nacht weniger geliefert als geplant; steigt er über +4.0, lief erneut etwas
+Grosses ausserhalb des Loop-Takts.
+
+**Turns dieses Laufs: rund 14.** Regellauf mit einer gezielten Ursachenklärung zum eigenen
+Ausfall von 16:58 — keine Tiefenuntersuchung.
+
+---
 ## 2026-08-07 08:57 — [FREI] Vorhersage getroffen, Rate am unteren Rand: 0.57 Mio/h, Vorsprung −8.7 → **−10.7**. Die Fan-out-Kalibrierung des Vorlaufs hält der Gegenprobe stand: **neun Loops zusammen kosten 4.12 Mio — so viel wie EIN 28-Agenten-Lauf**
 
 **Selbstkontrolle:** letzter Eintrag 07.08. 00:57, Abstand **8 h 00** bei 8-h-Takt
