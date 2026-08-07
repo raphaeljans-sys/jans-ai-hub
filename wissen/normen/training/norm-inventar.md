@@ -1,5 +1,38 @@
 # Norm-Inventar — Arbeitsliste des Nacht-Loops `normen-training-nacht`
 
+## ⚑ VORRANG-AUFTRAG Raphael (07.08.2026) — Neuzugaenge aus der Downloads-Uebernahme destillieren
+
+**Kontext:** Am 07.08.2026 wurden 39 deutsche Norm-PDFs in die Bibliothek uebernommen (30 nach
+`SIA_Norm/SIA_Normen/alle/`, 9 ersetzte nach `alle/xalt/`). REGISTER, QUESTIONS und CHANGELOG
+sind bereits vollstaendig nachgefuehrt (Session Mac Mini 07.08., Report
+`outputs/2026-08-07_bestandsabgleich-downloads-01-normen.md`) — **Registerpflege NICHT wiederholen**,
+nur destillieren. Alle Titelblaetter sind verifiziert, Pfade stimmen.
+
+**P1 (in dieser Reihenfolge, je mit unabhaengiger Refuter-Runde):**
+- [ ] SIA 118-C1:2026 (`alle/118-C1_2026_d.pdf`, ~Korrigenda zur 118:2013) — klaert die offene
+  QUESTIONS-Frage, was C1/Revision 01.12.2025 materiell aendert; direkt relevant fuer Skill
+  `werkvertrag`. Kleines Dokument, zuerst.
+- [ ] SIA 261/1:2003 dt (`alle/261_1_2003_d.pdf`) — Bring-Schuld «nur franzoesisch» geschlossen,
+  jetzt destillierbar
+- [ ] SIA 262/1:2003 dt (`alle/262_1_2003_d.pdf`)
+- [ ] SIA 264/1:2003 dt (`alle/264_1_2003_d.pdf`)
+- [ ] SIA 267/1:2003 dt (`alle/267_1_2003_d.pdf`)
+- [ ] SIA 410/1+410/2:1981 (`alle/410_1_2_1981_d.pdf`, Scan ohne Textlayer → Seiten rendern) —
+  komplettiert das established-Destillat `sia-410-1986` (Farbcode aus Ziff. 2.5 Pos. 7)
+- [ ] SIA 118/266-1:2017 (`alle/118_266-1_2017.pdf`, Scan) + SIA 118/266-2:2017
+  (`alle/118_266-2_2017.pdf`, Scan; ersetzt SIA 226:1976)
+- [ ] SIA 387/4:2017 (`alle/387_4_2017.pdf`) — dabei pruefen, WELCHE Teile von SIA 380/4:2006
+  ersetzt werden (Vorwort/Geltungsbereich) → Beitrag zur offenen Nachfolgefrage N27-2
+- [ ] SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan) — dabei die Jahres-Diskrepanz klaeren
+  (Titelblatt «Ersetzt SIA 112/1:2004» vs. Register-Kette 2005)
+- [ ] SIA 281/3:2018 (`alle/281_3_2018_d.pdf`, Scan)
+
+**P2 (danach, normale Grundarbeit):** die uebrigen Deutsch-Erstfassungen der Uebernahme:
+118/244, 118/246, 118/248 (2006), 118/257 (2005), 118/262, 118/263, 118/265, 118/267 (2004),
+162/6:1999, 197/1:2004, 197/2:2004, 370/21:1987, 370/24:1979, 380/3:«1990», 382/2:2011,
+162.051_A1_2004 + A2_2005, 162.152_A1_2004 + A2_2005. Die 9 xalt-Altausgaben werden gemaess
+Programm NICHT destilliert.
+
 - **Run 39 (MacBook Pro, 260730) — Abdeckung von `lignum-4-1` GEMESSEN statt geschaetzt
   (Freigabe Raphael). Vollstaendige Seiten-Inventur aller 40 A3-Blaetter, 5 parallele
   Aufnahme-Agenten.** Kein neues Grunddestillat.
