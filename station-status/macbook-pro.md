@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 10:44:43
+Stand: 07.08.2026 10:54:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -13,4 +13,4 @@ Stand: 07.08.2026 10:44:43
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 26a057cf Neuer Command /tiefenrecherche: parallele Recherche-Agenten, CLAUDE.md + Rollen-Register nachgezogen
+- fa929231 nas-selfcommit: 1 Datei(en) 2026-08-07 10:45

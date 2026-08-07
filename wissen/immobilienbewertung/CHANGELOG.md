@@ -2,6 +2,15 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-07 — Quellenvergleich IAZI Location Report vs. UBS RE LFS vs. WP Standortinformation
+
+Neuer Report `outputs/2026-08-07_iazi-location-report-vs-ubs-lfs-wp-standortinfo.md`
+(Anlass: Prüfung IAZI-Landwertbericht 6340 Baar 1Q26). Kernbefunde: UBS-LFS-Preisdaten
+stammen von Wüest Partner (LFS = WP-Derivat, kein unabhängiger Gegencheck); IAZI ist das
+einzige transaktionsbasierte zweite Datenuniversum; IAZI-exklusiv sind Landwert-Matrix
+(Ausnützung × 5 Lageklassen, EFH+MFH), Mikrolage-Quantile und Leerstand je Zimmerzahl.
+Nova-Fonds (SCCREF/Novavest) werden durch WP bewertet (Diskontsätze 2.55 %/2.85 % FY2025).
+
 ## 2026-08-06 (Cross-KB-Lauf Run 27) — Vorbehalte an die Stelle gesetzt, an der abgeholt wird; BKP-Scope neu als D13
 
 Rein additiv, kein Wert geändert, keine Tabelle angefasst (das JANS-Original-Blatt zu bereinigen

@@ -1,3 +1,14 @@
+## 2026-08-07 (Session Mac Mini) — Bestandsabgleich ~/Downloads/01 Normen gegen PL-02
+
+1. **`outputs/2026-08-07_bestandsabgleich-downloads-01-normen.md`** — Abgleich der von Raphael
+   vorgelegten Sammlung (544 Dateien) gegen die PL-02-Normenbibliothek. Echte Neuzugaenge:
+   **SIA 118-C1:2026** (Korrigenda zur 118:2013 — schliesst die Run-45-Luecke), 118/266-1:2017,
+   **118/266-2:2017 (ersetzt SIA 226:1976!)**, 112/1:2017, 387/4:2017, 281/3:2018,
+   118/244/246/248:2006 sowie 17 Deutsch-Erstfassungen (bisher nur f im Haus), darunter
+   **SIA 410/1+2:1981** (QUESTIONS-Bring-Schuld Farbcode). Methodik-Warnung: 40 Dateinamen
+   mit U+F022 als «/»-Ersatz — naiver Namensabgleich uebersieht genau die Neuzugaenge.
+   REGISTER-/QUESTIONS-Nachtraege als Folgearbeit empfohlen, noch nicht ausgefuehrt.
+
 ## 2026-08-07 (Normen-Nacht Run 46, MacBook Pro) — die geplante Statushebung ist am Fliesstext gescheitert, und die letzte bemessungsrelevante Abdeckungsluecke ist geschlossen
 
 1. **`destillate/gvz-rwa-parkhaus-einstellraum.md`** — vierte unabhaengige Refuter-Runde,
