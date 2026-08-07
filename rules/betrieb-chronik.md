@@ -21,6 +21,41 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260807b — Korrektur-Lauf hat den Rollout eines anderen Laufs still zurueckgenommen
+
+**Befund.** Um 21:28 rollte ein Sync-Task die Modell-Politik auf die Mini-Tasks aus
+(`69ddb5ff`, +6 Zeilen in `templates/scheduled-tasks/mac-mini/claude-abo-auslastung/SKILL.md`).
+Um 21:32, vier Minuten spaeter, loeschte ein Korrektur-Lauf (`12ae0d52`) exakt diese sechs
+Zeilen wieder — **eine reine Loeschung, sechs Minuszeilen, keine einzige Pluszeile** —, waehrend
+seine Commit-Meldung das Gegenteil behauptet («Korrektur-Harness ueber Modell-Politik … echte
+Umlaute gesetzt»). Bei den beiden anderen Dateien desselben Commits (`baurecht-buch-training`,
+`wissens-destillat`) hat er tatsaechlich editiert (22 bzw. 3 geaenderte Zeilen). Nur diese eine
+Datei fiel byte-identisch auf den Stand vor dem Rollout zurueck.
+
+**Wahrscheinliche Ursache.** Der Korrektur-Lauf hat die Datei ueber SMB gelesen und dabei den
+**Stand vor `69ddb5ff`** erhalten, ihn bearbeitet und zurueckgeschrieben — und damit den Rollout
+ueberschrieben. Genau die Falle aus Rule 260730b. Ein Beleg fuer die Verzoegerung aus derselben
+Nacht: um 21:45 lieferte der SMB-Blick **beider** Stationen noch `811bc89e…` (alter Stand),
+waehrend git den neuen trug.
+
+**Warum das schwer auffaellt.** Beide Laeufe meldeten Erfolg. Der Sync-Task berichtete
+«ergaenzt, im NAS-Template committet und verifiziert» — das stimmte im Moment der Pruefung sogar.
+Der Korrektur-Lauf berichtete eine Umlaut-Korrektur. Kein rc, kein Log und kein Bericht zeigt
+den Verlust; sichtbar wird er erst, wenn jemand den Dateiinhalt gegen `git show <commit>:<pfad>`
+haelt. Aufgefallen ist es nur, weil eine spaetere Session den Block in der Zieldatei suchte und
+nicht fand.
+
+**Behoben 07.08.2026 (diese Session).** Block im NAS-Template aus `69ddb5ff` wiederhergestellt
+(md5 `50cc2e60…`) und die lokale Mini-Fassung `~/.claude/scheduled-tasks/claude-abo-auslastung/`
+direkt aus dem git-Blob geschrieben statt ueber den SMB-Pfad zu kopieren (der erste Versuch per
+`cp` vom NAS war ein No-op, weil Quelle und Ziel beide den alten Stand trugen).
+
+**Regel.** Wer eine geteilte NAS-Datei bearbeitet, die ein anderer Lauf **heute** angefasst hat,
+liest sie nicht ueber SMB, sondern gegen `git show HEAD:<pfad>` im SSD-Klon — und verifiziert
+nach dem Schreiben den Zielinhalt, nicht den rc (Rule 260730b, hier um den Fall «anderer Lauf
+hat vor Minuten committet» erweitert). Ein Korrektur-/QS-Lauf, der eine Datei ohne eigene
+Pluszeilen verlaesst, hat sie nicht korrigiert, sondern zurueckgesetzt.
+
 ## 260807 — Treiber-Scripts nie vom NAS-Pfad starten: bash liest inkrementell nach
 
 **Befund.** Ein laufendes bash-Script wird vom Interpreter **inkrementell nachgelesen**, nicht
