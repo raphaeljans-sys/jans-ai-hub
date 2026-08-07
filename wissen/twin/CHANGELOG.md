@@ -4,6 +4,31 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 07.08.2026 — twin-fidelity-review: Service-Satz nach Gattung, vierte Endform, eine Regel zurueckgenommen
+
+Fidelity **41** (Vorlauf 43) · Stimme 42 · Denken 33 · Haltung 42 · Beziehung 58 · Fachsignatur 35 ·
+Arbeitsweise 37. Fenster `rj@` **06.-17.04.2026** (55 Sent Items gelistet), echte Luecke war der
+**15.04.2026**; Golds A/B = kontrolliertes Behoerden-Paar desselben Tages (Amt fuer Baubewilligungen
+09:51 / Fachstelle Laermschutz 14:50), Gold C = englische Druckmail an den beauftragten
+Web-Entwickler 06:06. Report `outputs/2026-08-07_fidelity.md`.
+
+Geaendert: **[[stimme]]** Do/Don't — Service-Satz haengt an der GATTUNG (bitten ↔ liefern), nicht am
+Empfaenger (korrigiert «Verfahrens-/Statusmail traegt weder Service-Satz noch Wunschzeile»);
+Englisch-Konditional auf «solange es ein Entgegenkommen ist» zurueckgeschnitten, im bezahlten Auftrag
+gilt auch englisch der Imperativ (Vier-Stufen-Skala ist sprachunabhaengig); Anrede-Skala nach
+[[beziehungsregister]] verschoben, Guillemet-Echo-Klausel nach `CLAUDE.md`; neuer Belegabschnitt
+Behoerden-Schluss + englischer Imperativ; **Regel 260806 «fehlender Signaturblock = Geraeteartefakt»
+zurueckgenommen** (Golds A/B tragen denselben Outlook-Mobile-Header MIT vollem Block).
+**[[arbeitsweise]]** — **vierte Endform** der Mail: die Praemissen hinlegen und den Schluss nicht
+ziehen; abschreibfertige Variante auf die Behoerden-Frageform erweitert; Beleg-Prosa verdichtet.
+**[[beziehungsregister]]** — Kalt-Sie ueberlebt das Telefonat bei amtlichen Fachstellen; gestapelte
+Anrede Person + Sammelpostfach; Anrede-Skala uebernommen. **`CLAUDE.md`** — fuenfte Echo-Falle
+(Kontrollgruppen-Kontrast im Englischen am selben Tag; das zweisprachige Paar 15.04. 09:40 als
+KI-assistiert ausgeschieden) samt **verworfenem** Signal «du/dich klein» mit Gegenbeleg.
+**[[QUESTIONS]]** — 5 neue Fragen (260807b). DNA neu kompiliert: **29'938 B, 62 B Reserve** (Grenze
+30'000 unveraendert, Anhebung bleibt Raphaels Entscheid — fuenf Marker dieses Laufs stehen deshalb
+nur in den Artikeln, nicht im Gehirn).
+
 ## 07.08.2026 — twin-mail-training Batch 89: Traktandenliste als Antwort, Em-Strich-Quote
 
 Lücken-Sweep `rj@` **21.–31.03.2026** (54 Sent Items vollständig gelistet; Batches 36/37/38 hatten

@@ -784,3 +784,27 @@ nichts, weil die Eigentexte fuer die Mikro-Metrik ohnehin zusammengestellt werde
 **Naechstes Fenster:** `rj@` **April 2026** (Batches 38–42 sichteten durchgehend nur stichprobenartig),
 zu beginnen mit **06.–17.04.2026**. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
 Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Gold-Verbrauch Fidelity 07.08.2026 — Fenster `rj@` 06.–17.04.2026
+
+| Mail | Gattung | verbraucht durch |
+|---|---|---|
+| `rj@` 15.04.2026 09:51 «Bestaetigung Eingabequittung Baueingabe» | Behoerden-Sie, fuenf Empfaenger (Kreisarchitektin + Team-2-Sammelpostfach), Nachfrage nach ausstehender Quittung | Fidelity 260807 (Gold A) |
+| `rj@` 15.04.2026 14:50 «Laermschutznachweis» | amtliche Fachstelle, kaltes Sie trotz Telefonat, Nachlieferung per Link, Bauherr im Cc | Fidelity 260807 (Gold B) |
+| `rj@` 15.04.2026 06:06 «Fwd: Your backup is ready to be downloaded» | **englisch**, Weiterleitung + Imperativ-Druck auf den bezahlten Dienstleister | Fidelity 260807 (Gold C) |
+| `rj@` 15.04.2026 09:40:41 (EN) + 09:40:58 (DE) «Project Page A – Spacing» | **KI-assistiert, NICHT als Stilquelle verwendet** — Kontrollgruppen-Kontrast gegen Gold C (3,5 h Abstand, derselbe Empfaenger) | Fidelity 260807, Echo-Beleg |
+| `rj@` 16.04.2026 12:36 «Blacklist» · 09.04.2026 09:23 (Schoch-Erstmail) | **Gegenproben**, nicht als Gold destilliert (Blacklist widerlegt das Du-Gross-Signal, Schoch-Erstmail belegt das stehende Kalt-Sie) | Fidelity 260807 |
+
+**Vor der Lektuere als verbraucht erkannt und nicht erneut destilliert:** englische Rueckfragemail
+07.04. ([[stimme]] 1620/1624/1739), Akonto-Erinnerung 07.04. ([[arbeitsweise]] 1172), Mahnmail
+14.04. ([[haltung]] 494 + [[stimme]] 1642 + [[beziehungsregister]] 1093), sowie **alle** Mails vom
+16./17.04. (Bodenlast BKP 274.01, Sprinkler-Zustaendigkeit, Spaeth-Absage, Wuersch-Kaltakquise,
+Kuebler-Erstansprache, «Geschaetzte Herren»). **Echte Luecke war der 15.04.2026** — null Treffer in
+beiden Datumsformaten und bei `Laermschutznachweis`, `Blacklist`, `Warnsystem`, `MSRL`, `Cristallo`,
+`Auth-ID`, `Spacing`. Positivtest: `Kuebler` 46 / `Hottinger` 36 / `Hleb` 36 / `Tschopp` 32 /
+`Jegen` 27 / `Spahic` 26; Kontrollbegriffe (`Zebrastreifen`, `Kaffeemaschine`, `Nilpferd`) 0.
+
+**Naechstes Fenster:** `rj@` **20.04.–01.05.2026** (Batches 41/42 lasen dort nur 7 von 33 bzw. 7 von
+15 Volltexten), danach **Mai 2026 ab 06.05.** (zwischen Batch 43 und 44 klafft 06.–11.05.). **Vor
+der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
+Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
