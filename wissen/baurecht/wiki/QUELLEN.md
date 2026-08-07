@@ -61,9 +61,9 @@ sichtbar, wirkt über § 234 PBG aber bereits (→ [[negative-vorwirkung-und-bzo
 Bei jeder Gemeinde mit laufender Revision gehört deshalb die **Revisionsvorlage** als
 zweite Quelle daneben. Erster Fall im Bestand:
 
-| Gemeinde | Revisionsquelle in `raw/` | Verfahrensstand (07.08.2026) |
+| Gemeinde | Revisionsquelle in `raw/` | Verfahrensstand (03.08.2026) |
 |---|---|---|
-| Thalwil | `260807_amtlich_zh_bzo-thalwil-revision-synopse.md` (Synopse «Fassung zur Negativen Vorwirkung», 05.09.2025) | Auflage 16.05.–15.07.2025 · Festsetzung Urne 14.06.2026 (78.81 %) · Genehmigung + Inkrafttreten **offen**; geltend bleibt `260607_amtlich_zh_bzo-thalwil.md` |
+| Thalwil | `260803_amtlich_zh_bzo-thalwil-revision-synopse.md` (Synopse «Fassung zur Negativen Vorwirkung», 05.09.2025) | Auflage 16.05.–15.07.2025 · Festsetzung Urne 14.06.2026 (78.81 %) · Genehmigung + Inkrafttreten **offen**; geltend bleibt `260607_amtlich_zh_bzo-thalwil.md` |
 
 Solche Revisionsvorlagen sind **keine** ÖREB-Dokumente, sondern kommunale
 Verfahrensakten (Publikationsorgan der Gemeinde). Fassungsstand vor jeder Verwendung

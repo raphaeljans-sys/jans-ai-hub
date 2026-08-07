@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-07 (Run 72)
+last_updated: 2026-08-04 (Run 72)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -172,7 +172,7 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    Verhältnis zu § 273 PBG. **Revisionsvorbehalt (nachgetragen 31.07.2026, Wissens-Chef Run 22):**
    die Synopse vom 16.04.2025 überführt Art. 24 in Art. 45 revBZO «Klein- und Anbauten» und hebt
    die 7-%-Quote auf; Nachfolgeregel und deren Normierungsort sind ~~**offen** (Batch T1)~~
-   **GEKLÄRT (Run 72, 07.08.2026)**. Beleg:
+   **GEKLÄRT (Run 72, 03.08.2026)**. Beleg:
    `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`. Es gilt Arbeitsregel 2 der
    Korpus-Queue — beide Fassungen nebeneinander führen, jeweils die strengere. Der Wert bleibt
    also nachweispflichtig; hier wird verwiesen, nicht kopiert.
@@ -281,12 +281,12 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
-  - **Run 72 (2026-08-07, Festigungsmodus, Priorität (d) Korpus-Queue Batch T1, kein
+  - **Run 72 (2026-08-03/04, Festigungsmodus, Priorität (d) Korpus-Queue Batch T1, kein
     Agent-Fan-out):** Erster Batch der Thalwiler Reglemente-Queue abgearbeitet — **BZO-Revision
     2025**. Beide Synopse-PDFs vom Mac-Mini-OneDrive gelesen; **die zwei Fassungen sind nicht
     identisch** (April 16.4.2025 «öffentliche Auflage/Anhörung/Vorprüfung» vs. September 5.9.2025
     «Fassung zur Negativen Vorwirkung», mit inhaltlichen Abweichungen) — massgebend ist die
-    September-Fassung, angelegt als `raw/260807_amtlich_zh_bzo-thalwil-revision-synopse.md`
+    September-Fassung, angelegt als `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`
     (51 S., dreispaltig). **Neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]]**:
     § 234 PBG als Anknüpfung (nicht eine BZO-Übergangsbestimmung), nur negative/nie positive
     Vorwirkung (VB.2008.00044) → Strenge-Regel, Suspensivbedingung unzulässig/Sistierung zulässig,
@@ -314,7 +314,7 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     Synopsen Spaltenzuordnung **wortweise**, nie zeilenweise). 3 neue Drill-Karten, zwei davon am
     realen Fall Bohlweg 3. **Neu offen:** Genehmigung/Inkrafttreten (T-01), spätere Synopse-Fassung
     (T-02), Zitat-Flag «RB 1980 vs. 1998 Nr. 113» im Destillat [[12-baureife]] (T-03).
-    **0 Halluzinationen.** Report `outputs/2026-08-07_buch-run72.md`. **«Rückstand abgebaut»
+    **0 Halluzinationen.** Report `outputs/2026-08-03_buch-run72.md`. **«Rückstand abgebaut»
     NICHT ausgerufen** — die Korpus-Queue steht bei 1 von 8 Batches. **Nächster Schritt:**
     Batch **T2** (Umgebungsgestaltung/Gartenmauern/Vorgarten/Grünanteil) — er schliesst direkt an
     Art. 50 revBZO an und trifft die im PROGRAMM als grösste Lücke bezeichnete Nr. 4
