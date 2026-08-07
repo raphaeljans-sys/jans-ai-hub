@@ -72,27 +72,25 @@ zuerst.
 - **Gilt fuer:** alle Melde-Loops und jede kuenftige Aenderung an einem Melde-Kanal.
   Ausloeser und Belege: Archiv, Snapshot 260807.
 
-## 260730b — Heutiges Datum messen UND gegenpruefen; NAS-Dateien vor dem Edit auf Frische pruefen
+## 260730b — Heutiges Datum messen; bestehende Datierungen nie ohne Beleg umdatieren
 - **Regel:** (1) Das Arbeitsdatum kommt aus `date "+%Y-%m-%d %H:%M %Z"`, nie aus einem
   Dateiinhalt (gleiche Familie: `toISOString()`-UTC-Falle, siehe `dateinamen-konvention.md`).
-  **(1b) ⚠ Verschärft 07.08.2026 (Buch-Run 72): die Messung selbst kann falsch sein.** `date`
-  misst die **lokale Uhr**, nicht das Datum. Am 07.08.2026 lieferte das MacBook Pro
-  `2026-08-03 23:44` und sprang mitten im Lauf um vier Tage vor (NTP-Korrektur) — der ganze
-  Lauf war zunächst auf den 03./04.08. datiert (Dateinamen, Frontmatter, CHANGELOG, Register,
-  Drill-Stempel), und der Commit trug rückdatiert `2026-08-04 00:03`. Vor dem ERSTEN datierten
-  Dateinamen darum eine **zweite, stationsunabhängige Quelle** gegenlesen: der Zeitstempel des
-  jüngsten nativen NAS-Commits (`git log -1 --format='%ci'` im SSD-Klon) entsteht auf der
-  Synology und hängt nicht an der Stationsuhr. Weichen die beiden um mehr als ein paar Minuten
-  ab, gilt die Synology; die Abweichung gehört in den Laufbericht. **Ein einzelner Messwert ist
-  keine Verifikation** — dieselbe Logik wie bei Konfigurationsfeldern (Eintrag 260807).
-  **Und der bittere Teil des Falls:** die richtige Antwort lag von Sekunde null an **zweifach**
-  vor — der Sitzungskontext nannte «Today's date is 2026-08-07», und der `gitStatus`-Auszug
-  zeigte als jüngsten Commit `6ab1333a` vom 07.08.2026. Beide wurden mit `date` **überstimmt**,
-  weil der bisherige Regelwortlaut «messen, nie ableiten» genau das nahelegte. Deshalb neu:
-  `date` ist die **Arbeitsquelle**, aber Sitzungskontext und Commit-Historie sind **Kontroll**quellen
-  — widersprechen sie einander, wird die Abweichung geklärt, bevor der erste Dateiname entsteht.
-  Claude hat **keine eigene Zeitwahrnehmung**; jedes Datum ist Fremdauskunft, und Fremdauskunft
-  wird gekreuzt.
+  **(1b) ⚠ Ergaenzt 07.08.2026 (Buch-Run 72, teuer bezahlt): ein Datumssprung im Verlauf einer
+  Sitzung ist zuerst VERSTRICHENE ZEIT, nicht eine defekte Uhr.** Wird eine Sitzung Tage spaeter
+  fortgesetzt, nennt der Kontext das Datum von **heute**, nicht das der frueheren Arbeit. Am
+  07.08.2026 wurde daraus faelschlich «die Stationsuhr ging vier Tage nach» geschlossen und ein
+  komplett korrekt datierter Lauf (Dateinamen, Frontmatter, Register, Drill-Stempel) um vier Tage
+  vorverschoben — die Ruecknahme kostete mehr als der Lauf selbst.
+  **Darum: eine BESTEHENDE Datierung nie umdatieren, ohne vorher zu belegen, wann die Datei
+  wirklich entstand.** Der Beleg ist der native Synology-Log
+  `sync-tasks/log/selfcommit-JJJJMM.log` — er wird von `nas-selfcommit.sh` mit dem eigenen `date`
+  der Synology geschrieben, laeuft lueckenlos und haengt an keiner Stationsuhr. Umdatieren ist ein
+  Eingriff in belegte Fakten und braucht einen Beleg, keine Hypothese.
+  **⚠ Werkzeug-Falle in genau dieser Datei:** der Log ist **nicht UTF-8**. `grep` behandelt ihn
+  als binaer, liefert **still nichts** und gibt selbst mit `-c` keine Null aus — ein leeres
+  Ergebnis, das wie ein Sachbefund aussieht. Mit `awk 'substr($0,1,10)=="JJJJ-MM-TT"'` arbeiten.
+  Allgemein: **ein leeres Suchergebnis ist zuerst eine Aussage ueber das Werkzeug**, nicht ueber
+  die Quelle (gleiche Familie wie Eintrag 260807, Konfigurationsfelder).
   (2) Ein Lesevorgang ueber den SMB-Mount kann einen VERALTETEN Dateistand liefern: vor dem
   Edit einer geteilten NAS-Datei den Frischestand pruefen (`git log -1 --format=%ci --
   <datei>` im SSD-Klon bzw. erneutes Lesen unmittelbar vor dem Edit); nach `nas-commit-now.sh`

@@ -21,6 +21,57 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260807c — Ein korrekt datierter Lauf wurde «korrigiert» und dabei um vier Tage verschoben
+
+**Befund.** Die Sitzung des Buch-Laufs 72 begann am **03.08.2026 23:44** und wurde am
+**07.08.2026** fortgesetzt. Beim Weiterarbeiten wurde `date` erneut gemessen (07.08. 21:17),
+der Sprung als **falsch gehende Stationsuhr** gedeutet und daraufhin die gesamte Datierung des
+Laufs um vier Tage vorverschoben: zwei Dateien umbenannt (`260803_` → `260807_`,
+`2026-08-03_buch-run72.md` → `2026-08-07_…`), Datumsangaben in neun Dateien umgeschrieben, dazu
+ein erfundener Uhren-Vorfall in Rule 260730b (Commits `222a1241`, `12ae0d52`).
+
+**Widerlegung.** `nas-selfcommit.sh` schreibt `sync-tasks/log/selfcommit-JJJJMM.log` mit dem
+**eigenen `date` der Synology** (Z. 28 und 63) und haengt an keiner Stationsuhr. Der Log laeuft
+lueckenlos und monoton durch alle Tage:
+
+```
+2026-08-03T23:47:07 push OK (2fa8720f logbuch: Journalzeile Nachtschicht 23:30 …)
+2026-08-04T00:00:02 commit: 14 Datei(en) — nas-selfcommit: 14 Datei(en) 2026-08-04 00:00
+2026-08-04T00:03:50 commit:  5 Datei(en) — baurecht-run72: Korpus-Batch T1 …
+2026-08-05T00:00:01 commit: 43 Datei(en) — …
+2026-08-07T21:26:05 commit: 22 Datei(en) — baurecht-run72 Nachtrag: Datumskorrektur …
+```
+
+Zeilen je Tag: 08-01 218 · 08-02 192 · 08-03 256 · 08-04 220 · 08-05 226 · 08-06 232 · 08-07 238.
+Ein normaler Kalenderverlauf, kein Sprung. Beide Stationsuhren sind zudem NTP-sauber (MacBook
++0.016 s, Mac Mini −0.0004 s gegen `time.apple.com`). **Run 72 lief wirklich am 03./04.08.2026.**
+
+**Ruecknahme (07.08.2026).** Dateinamen, Frontmatter, `verifiziert`-Feld, CHANGELOG, QUESTIONS,
+INDEX, QUELLEN, PROGRAMM-Tracker, KORPUS-QUEUE und die drei Drill-Stempel sind wieder auf
+03./04.08. gesetzt; die vier Drill-Karten aus Run 71 blieben unberuehrt. **Die Commit-Botschaft
+von `222a1241` bleibt sachlich falsch in der Historie stehen** — die Historie wird dafuer nicht
+umgeschrieben. Wer dort auf «MacBook-Uhr ging 4 Tage nach» stoesst: das stimmt nicht, dieser
+Eintrag ist die Korrektur.
+
+**Zwei uebertragbare Lehren.**
+1. **Ein Datumssprung im Verlauf einer Sitzung ist zuerst verstrichene Zeit.** In einer
+   fortgesetzten Sitzung nennt der Kontext das Datum von heute, nicht das der frueheren Arbeit.
+   Eine **bestehende** Datierung umzudatieren ist ein Eingriff in belegte Fakten und braucht einen
+   Beleg, keine Hypothese — der Beleg lag im Synology-Log, wurde aber erst **nach** dem Umbenennen
+   gesucht. Als Kurzregel in `auto-verbesserungen.md`, Eintrag 260730b (1b).
+2. **`grep` ist auf diesem Log unbrauchbar und schweigt dabei.** Die Datei ist nicht UTF-8
+   («Non-ISO extended-ASCII text»); `grep` behandelt sie als binaer, liefert **still nichts** und
+   gibt selbst mit `-c` keine Null aus. Drei aufeinanderfolgende leere Ergebnisse sahen wie ein
+   Sachbefund aus und stuetzten den Irrtum. Mit `awk 'substr($0,1,10)=="JJJJ-MM-TT"'` arbeiten.
+   Allgemein: **ein leeres Suchergebnis ist zuerst eine Aussage ueber das Werkzeug.**
+
+**Einordnung.** Derselbe Lauf hatte kurz zuvor die Leitplanke «visuelle Rechtsinformation
+ueberlebt die Textextraktion nicht» und den Merksatz «ein plausibles Zwischenergebnis ersetzt
+keine Gegenmessung» formuliert — und ist dann exakt daran gescheitert. Beleg und Chronologie:
+`wissen/baurecht/outputs/2026-08-03_buch-run72.md`, Nachtrag 07.08.2026.
+
+---
+
 ## 260807b — Korrektur-Lauf hat den Rollout eines anderen Laufs still zurueckgenommen
 
 **Befund.** Um 21:28 rollte ein Sync-Task die Modell-Politik auf die Mini-Tasks aus

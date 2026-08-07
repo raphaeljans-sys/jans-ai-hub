@@ -81,6 +81,28 @@ Abschnitt 6. Das Deliverable wurde nicht geaendert (ausgehendes Erzeugnis, Freig
   § 2a ABV faktisch beantwortet, bleibt aber offen stehen — Schliessen war diesem Lauf nicht
   zugewiesen.
 
+## 2026-08-07 (Nachtrag zu Buch-Run 72) — Fehl-Datierung zurueckgenommen
+
+- Am 07.08.2026 wurde die Sitzung von Buch-Run 72 fortgesetzt und der Datumssprung
+  03.08. → 07.08. faelschlich als **defekte Stationsuhr** gedeutet. Daraufhin waren zwei
+  Dateien umbenannt (`260803_` → `260807_`, `2026-08-03_buch-run72.md` → `2026-08-07_…`)
+  und die Datierungen in neun Dateien um vier Tage vorverschoben worden (`222a1241`).
+- **Widerlegt und vollstaendig zurueckgebaut.** Der native Synology-Log
+  `sync-tasks/log/selfcommit-202608.log` belegt den Lauf auf die Minute
+  (`2026-08-04T00:03:50 commit: 5 Datei(en) — baurecht-run72: Korpus-Batch T1 …`) und laeuft
+  lueckenlos durch alle Tage; beide Stationsuhren sind NTP-sauber. **Run 72 lief am
+  03./04.08.2026** — die urspruengliche Datierung war korrekt.
+- Wiederhergestellt: beide Dateinamen, `last_updated`/`verifiziert` im Wiki-Artikel, die drei
+  «Stand»-Angaben zum Thalwiler Verfahrensstand, Abschnittstitel in CHANGELOG und QUESTIONS,
+  INDEX, QUELLEN, PROGRAMM-Tracker, KORPUS-QUEUE, drei Drill-Stempel. Die vier Drill-Karten
+  aus Run 71 blieben unberuehrt.
+- Die Commit-Botschaft von `222a1241` bleibt sachlich falsch in der Historie; sie wird nicht
+  umgeschrieben. Volle Beweiskette: `rules/betrieb-chronik.md`, Eintrag 260807c. Ehrlicher
+  Nachtrag im Lauf-Report `outputs/2026-08-03_buch-run72.md`.
+- Rule 260730b (1b) entsprechend korrigiert: der erfundene Uhren-Vorfall ist raus, dafuer die
+  belegte Lehre (Datumssprung = verstrichene Zeit; bestehende Datierungen nie ohne Beleg
+  umdatieren; `grep` schweigt auf dem nicht-UTF-8-Log, `awk` verwenden).
+
 ## 2026-08-03/04 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil erschlossen; die Vorwirkungs-Markierung aus der Grafikebene gelesen
 
 - **NEU `raw/260803_amtlich_zh_bzo-thalwil-revision-synopse.md`** — Synopse «Fassung zur Negativen
