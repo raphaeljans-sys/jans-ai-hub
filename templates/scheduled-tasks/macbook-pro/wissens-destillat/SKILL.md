@@ -16,8 +16,9 @@ Kurzform des Laufs:
 2. SPEC-GATE (Karpathy, PROMPTS -> SPECS): Fehlt specs/<korpus>-spec.md, dann schreibst DU sie in diesem Lauf — das ist die Opus-Arbeit und der ganze Lauf. Inhalt gemäss SKILL.md, Abschnitt «Die Spec-Stufe»: Ziel in einem Satz, Abgrenzung, Artikelschnitt, Bewertungskriterien vorab, Goldstandard-Artikel als Formatvorlage, Verifier. Vorlage: wissen/spec/templates/spec-vorlage.md. Spec zusätzlich als Kopie nach wissen/spec/outputs/JJJJ-MM-TT_destillat-<korpus>_spec.md. Danach Lauf beenden — KEIN Destillat ohne Spec.
 
 3. PIPELINE (Phasen 0-2, billige Modelle im Treiber-Script):
-   bash /Volumes/daten/jans-ai-hub/skills/wissens-destillat/tools/destillat-lauf.sh <korpus-id>
+   bash $HOME/Developer/jans-ai-hub/skills/wissens-destillat/tools/destillat-lauf.sh <korpus-id>
    Das Script macht Phase 0 (Inventar, bash, 0 Tokens), Phase 1 (Triage, Haiku 4.5) und Phase 2 (Destillat, Sonnet 5) und gibt am Ende den Pfad des Batch-Protokolls aus. Läuft es auf Fehler (rc != 0), den Fehler im Report benennen statt ihn zu übergehen.
+   ZWINGEND aus dem SSD-Klon starten, NICHT vom NAS-Pfad /Volumes/daten/... — bash liest ein Script inkrementell nach, und ein SMB-Stall mitten im Lauf killt den Interpreter an genau der Stelle, an der er gerade liest. Belegt 28.07.2026: zwei Läufe (01:44 und 01:51) starben beide reproduzierbar beim Eintritt in Phase 1, ohne rc-Zeile; derselbe Treiber aus dem SSD-Klon lief danach mit rc=0 durch. Der Klon ist inhaltsgleich (git), die Datenpfade im Script zeigen weiterhin aufs NAS — nur der Interpreter liest lokal.
    ZWINGEND im Vordergrund laufen lassen — nie im Hintergrund starten und auf eine Benachrichtigung warten. Der Kindprozess stirbt beim Sessionende, die Benachrichtigung kommt nie, der Lauf endet ohne Ergebnis (belegt 28.07.2026: Nachtschicht-Zyklen 02:30 und 03:30 waren aus genau diesem Grund Totalausfälle).
 
 4. PHASE 3 — KURATOR (das bist DU, das teure Modell; die eigentliche Wertschöpfung dieses Laufs). Öffne das Batch-Protokoll und JEDEN in diesem Lauf geschriebenen Artikel und prüfe:

@@ -75,33 +75,33 @@ Pruefe den Flag-Bestand jedes Mal gegen den aktuellen raw-Bestand, nie gegen den
 Strikt: Schweizer Hochdeutsch, echte Umlaute ä/ö/ü, kein ß, Quellenpflicht mit Band/Seite/§ bzw.
 amtlicher Fundstelle, nichts erfinden. Genau EIN Lauf pro Aufruf.
 
-## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine; geschaerft 07.08.2026 nach Buch-Run 72)
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026 — geschärft nach Buch-Run 72)
 
-DELEGIERBAR an einen Subagenten mit `model: haiku`, aber nur als EIN zusammenhaengender Block,
-nie als viele kleine Auftraege (der Subagent laedt den Grundkontext neu, gemessen ~78'000 Token —
-bei einem Zweizeiler ist die direkte Ausfuehrung guenstiger):
+DELEGIERBAR an einen Subagenten mit `model: haiku`, aber nur als EIN zusammenhängender Block,
+nie als viele kleine Aufträge (der Subagent lädt den Grundkontext neu, gemessen ~78'000 Token —
+bei einem Zweizeiler ist die direkte Ausführung günstiger):
 - Material beschaffen und aufbereiten: Dateien kopieren, `pdftotext`/`pdftoppm`, Seiten rendern
-- BESTEHENDE Auswertungsscripts ausfuehren und das Ergebnis strukturiert zurueckgeben
+- BESTEHENDE Auswertungsscripts ausführen und das Ergebnis strukturiert zurückgeben
 - mechanischer Wortlaut-Abgleich einer VORGEGEBENEN Fundstellenliste gegen einen `raw/`-Volltext
-- Register-Sweeps (`grep -rn` ueber die 5-6 Fundorte) als reine Trefferliste
+- Register-Sweeps (`grep -rn` über die 5-6 Fundorte) als reine Trefferliste
 
 `model: sonnet` nur, wenn die Methode bereits steht und lediglich Text zu verdichten ist —
 typischer Fall Batch T5 (Einzelthemen artikelweise gegen bestehende Wiki-Artikel lesen).
 
 NICHT DELEGIERT, bleibt im Hauptkontext:
 - **Fassungsstand.** Gilt der Erlass noch, in welcher Fassung, und ist die Vorlage inzwischen
-  ueberholt? Run 72: die Synopse war elf Monate alt und die Revision zwischenzeitlich an der Urne
+  überholt? Run 72: die Synopse war elf Monate alt und die Revision zwischenzeitlich an der Urne
   festgesetzt — der wertvollste Befund des Laufs stand in keinem Auftrag.
 - **Verdikte und Artikeltext.** Ob ein Befund in die KB darf, Statushebungen, Flag-Bewertung und
-  das Schreiben/Schaerfen der Wiki-Artikel. Der Artikel IST das Urteil, nicht seine Formatierung.
+  das Schreiben/Schärfen der Wiki-Artikel. Der Artikel IST das Urteil, nicht seine Formatierung.
   (Die erste Fassung dieses Blocks delegierte «Artikel kompilieren» — das war falsch.)
 - **Die Reaktion auf ein Null- oder Negativergebnis.** «Nichts gefunden» ist zuerst eine Aussage
-  ueber das eigene Werkzeug, nicht ueber die Quelle. Run 72: das erste Extraktions-Script fand
+  über das eigene Werkzeug, nicht über die Quelle. Run 72: das erste Extraktions-Script fand
   null Markierungen, weil es den falschen PDF-Operator suchte; das Ergebnis war sauber und falsch.
 - **Erstmalige Methodenentwicklung.** Wo der Auswertungsweg erst gebaut wird, gibt es nichts zu
   delegieren; erst der zweite Lauf mit derselben Methode ist Haiku-Arbeit.
-- **Jede Plausibilitaetspruefung eines eigenen Zwischenergebnisses.** Run 72 lieferte zweimal ein
+- **Jede Plausibilitätsprüfung eines eigenen Zwischenergebnisses.** Run 72 lieferte zweimal ein
   plausibles, falsches Zwischenergebnis (Spaltenverwechslung bei der Synopse; eine visuell falsch
   gelesene Seite). Beide Male hat erst die Gegenmessung entschieden, nicht das Hinsehen.
 
-Gleiches Ergebnis-Format und gleiche Qualitaet wie bisher.
+Gleiches Ergebnis-Format und gleiche Qualität wie bisher.

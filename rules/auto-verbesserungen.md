@@ -77,14 +77,22 @@ zuerst.
   Dateiinhalt (gleiche Familie: `toISOString()`-UTC-Falle, siehe `dateinamen-konvention.md`).
   **(1b) ⚠ Verschärft 07.08.2026 (Buch-Run 72): die Messung selbst kann falsch sein.** `date`
   misst die **lokale Uhr**, nicht das Datum. Am 07.08.2026 lieferte das MacBook Pro
-  «2026-08-03 23:44» und sprang mitten im Lauf um vier Tage vor (NTP-Korrektur) — der ganze
+  `2026-08-03 23:44` und sprang mitten im Lauf um vier Tage vor (NTP-Korrektur) — der ganze
   Lauf war zunächst auf den 03./04.08. datiert (Dateinamen, Frontmatter, CHANGELOG, Register,
-  Drill-Stempel), und der Commit trug rückdatiert 2026-08-04 00:03. Vor dem ERSTEN datierten
+  Drill-Stempel), und der Commit trug rückdatiert `2026-08-04 00:03`. Vor dem ERSTEN datierten
   Dateinamen darum eine **zweite, stationsunabhängige Quelle** gegenlesen: der Zeitstempel des
   jüngsten nativen NAS-Commits (`git log -1 --format='%ci'` im SSD-Klon) entsteht auf der
   Synology und hängt nicht an der Stationsuhr. Weichen die beiden um mehr als ein paar Minuten
   ab, gilt die Synology; die Abweichung gehört in den Laufbericht. **Ein einzelner Messwert ist
   keine Verifikation** — dieselbe Logik wie bei Konfigurationsfeldern (Eintrag 260807).
+  **Und der bittere Teil des Falls:** die richtige Antwort lag von Sekunde null an **zweifach**
+  vor — der Sitzungskontext nannte «Today's date is 2026-08-07», und der `gitStatus`-Auszug
+  zeigte als jüngsten Commit `6ab1333a` vom 07.08.2026. Beide wurden mit `date` **überstimmt**,
+  weil der bisherige Regelwortlaut «messen, nie ableiten» genau das nahelegte. Deshalb neu:
+  `date` ist die **Arbeitsquelle**, aber Sitzungskontext und Commit-Historie sind **Kontroll**quellen
+  — widersprechen sie einander, wird die Abweichung geklärt, bevor der erste Dateiname entsteht.
+  Claude hat **keine eigene Zeitwahrnehmung**; jedes Datum ist Fremdauskunft, und Fremdauskunft
+  wird gekreuzt.
   (2) Ein Lesevorgang ueber den SMB-Mount kann einen VERALTETEN Dateistand liefern: vor dem
   Edit einer geteilten NAS-Datei den Frischestand pruefen (`git log -1 --format=%ci --
   <datei>` im SSD-Klon bzw. erneutes Lesen unmittelbar vor dem Edit); nach `nas-commit-now.sh`
