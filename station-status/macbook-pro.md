@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 07:02:22
+Stand: 07.08.2026 07:12:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:01)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:10)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 07:02:22
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6a4d4ae3 nas-selfcommit: 4 Datei(en) 2026-08-07 07:00
+- e166e5e4 logbuch-radar 07.08.2026: Bohlweg-3-Eingabetermin verstrichen (nicht eingereicht), Protokoll-Versand KISPI belegt, 4 neue Registerpunkte
