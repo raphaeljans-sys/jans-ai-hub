@@ -426,7 +426,8 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
   Behörden-/Submissions-Erstmail. Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»);
   Gruppenmails je Empfänger mischen, in kurzen Team-/Pendenz-Mails Aufträge per «@Name» im
-  Fliesstext. Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; Bitte-Form nach der
+  Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
+  warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; Bitte-Form nach der
   Vier-Stufen-Skala in [[stimme]] (wer den Druck erzeugt), nicht nach dem Register.
   **Im Eigendokument steht die Person in der Drittform, nie in der Mail-Anrede (260801 Skript +
   260803 Protokoll):** die Anrede-Stufe der Mail wandert **nicht** in die Drittnennung — dort
@@ -440,11 +441,10 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   läuft die Bewegung über die Monate **abwärts** ins Vertrautere («Sehr geehrte Frau Hofer» →
   «Guten Tag Frau Hofer» → «Hoi <Vorname>» nach dem erfolgreichen Bauentscheid). Belege unten.
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
-  (260805 + 260806, zwei kontrollierte Paare):** im **Sie** kippt die **Namensform** (bilateral
-  «Geschätzte <Vorname>», mit dem offerierenden Unternehmer im Cc «Geschätzte Frau <Nachname>»,
-  Wärmestufe unverändert); im **Du** kippt die **Wärmestufe** bei bleibendem Vornamen (derselbe
-  Bauherrenvertreter in vier Tagen bilateral «Salut Albin» / «Hoi Albin,» / «Guten Abend Albin,»,
-  mit dem Fachplaner im Cc «**Geschätzter Albin**»). Beide Bewegungen zeigen in dieselbe Richtung
+  (260805 + 260806, zwei kontrollierte Paare):** im **Sie** kippt die **Namensform** («Geschätzte
+  <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
+  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»).
+  Beide Bewegungen zeigen in dieselbe Richtung
   — formeller, sobald jemand mitliest —, nur die Achse wechselt, weil im Du keine Nachnamenform
   zur Verfügung steht. Die Bewegung ins Vertrautere ist damit **nicht monoton**; ein Rücksprung
   ist kein Abkühlen, sondern fast immer ein Cc. **Vor dem Anrede-Entscheid also erst die
@@ -2197,3 +2197,21 @@ Text, nur ein Betreff aus zwei Wörtern** — und der Versand parallel an die pr
 geschäftliche Adresse, damit er ihn sicher sieht. Die Familie steht damit nicht auf einer eigenen
 Wärmestufe, sondern **unterhalb jeder Form**. Einzelbeleg, kein Volltext vorhanden;
 → [[QUESTIONS]] 260807 #2 vor der Verallgemeinerung.
+
+## Kalt-Sie überlebt das Telefonat, wenn die Stelle amtlich ist (belegt Fidelity 260807, authentisch)
+
+An die städtische Fachstelle Lärmschutz schreibt Raphael am 15.04.2026 «**Sehr geehrter Herr
+Schoch**» — obwohl die Mail mit «**Wie besprochen** sende ich Ihnen wie gewünscht …» ausdrücklich
+auf ein vorangegangenes Telefonat Bezug nimmt, und obwohl es die zweite Mail an dieselbe Person
+innerhalb von sechs Tagen ist (09.04.2026: ebenfalls «Sehr geehrter Herr Schoch»). Bei
+**Unternehmern und Lieferanten** kippt das Register nach einem Telefonat regelmässig ins Wärmere
+(«Geschätze Firma Jegen», Gastro-Online Sie→Du); bei der **amtlichen Fachstelle** bleibt es stehen.
+
+Ergänzt die belegte Behördenskala (bekannt → «Geschätzte/r», hier: die Kreisarchitektin trägt am
+selben Tag «Geschätzte Frau Hottinger»): nicht die Zahl der Kontakte hebt die Stufe, sondern die
+**etablierte Arbeitsbeziehung**. Ein Telefonat zur Sache ist noch keine.
+
+**Gestapelte Anrede über Person + Sammelpostfach** (15.04.2026 09:51, fünf Empfänger im An):
+«**Geschätzte Frau Hottinger, guten Tag Team 2**» — die bekannte Person zuerst mit ihrer Stufe,
+das Funktionspostfach danach mit der neutralen. Bestätigt die Stapel-Regel an einem neuen Typ
+(Person + Gruppenpostfach statt Person + Person).

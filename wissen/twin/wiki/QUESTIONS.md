@@ -2857,3 +2857,47 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    wiederkam. *Warum: kein Stilbefund und nichts, was der Zwilling lernen soll — aber der Vorgang
    sollte Dir bekannt sein, und falls es kein Versehen war, fehlt dem Beziehungsregister eine
    Rolle.* → kein Facetten-Marker
+
+## 260807b (Fidelity-Review, Fenster `rj@` 06.–17.04.2026)
+
+1. **Hältst Du der Behörde den Kanal offen, weil Du etwas willst — oder weil sie das Amt ist?** —
+   Am 15.04.2026 endet Deine Nachfrage ans Amt für Baubewilligungen mit «Bei Fragen oder
+   Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung», fünf Stunden später Deine
+   Nachlieferung an die Fachstelle Lärmschutz ohne jede Schlussformel. Ich lese daraus: **Bitte für
+   mich → Service-Satz, Lieferung → Schluss nach dem Sachsatz.** Stimmt diese Trennung, oder hängt
+   der Satz eher daran, wie gut Du die Stelle kennst? *Warum: der Zwilling hat bisher eine
+   Pauschalregel («Behörde: kein Service-Satz») und lag damit in einer von zwei Mails falsch.*
+   → [[stimme]] Behörden-Schluss
+
+2. **Die zwei nackten Sätze am Schluss der Lärmschutz-Mail («Im 2.OG befinden sich die
+   Patientenzimmer. / Das Umbauprojekt beinhaltet das 1.OG.») — bewusste Technik oder zufällig?** —
+   Für mich ist das Deine stärkste Stelle in diesem Fenster: Du legst die zwei Fakten hin, die den
+   Fall entscheiden, und ziehst den Schluss nicht. Machst Du das gegenüber Ämtern absichtlich (weil
+   ein selbst gezogener Schluss angreifbar wäre), und machst Du es auch gegenüber **Bauherrschaft
+   oder Fachplanern**, oder bekommen die die Folgerung ausformuliert? *Warum: davon hängt ab, ob
+   der Zwilling diese Endform nur im Behörden-Sie oder überall einsetzen darf.*
+   → [[arbeitsweise]] vierte Endform
+
+3. **Bleibt eine amtliche Fachstelle nach einem Telefonat beim «Sehr geehrter Herr X»?** — Bei
+   Unternehmern kippst Du nach dem Telefonat regelmässig ins Wärmere (Jegen, Gastro-Online), bei
+   Herrn Schoch von der Fachstelle Lärmschutz bleibt es über zwei Mails und ein Telefonat kalt,
+   während die Kreisarchitektin am selben Tag «Geschätzte Frau Hottinger» trägt. Ist die Regel
+   «erst die etablierte Arbeitsbeziehung hebt, nicht der Kontakt»? *Warum: der Zwilling erwärmt
+   heute nach jedem belegten Gespräch und würde bei Ämtern zu früh duzen im Ton.*
+   → [[beziehungsregister]]
+
+4. **Warum hast Du am 15.04.2026 um 09:40 dieselbe Mail an Hleb erst auf Englisch und 17 Sekunden
+   später auf Deutsch geschickt?** — Beide mit demselben Anhang, beide fehlerfrei. Ich habe sie als
+   KI-assistiert eingestuft und **nicht** als Stilquelle verwendet. Zwei mögliche Lesarten: Du
+   lässt Dir längere Fremdsprachen-Mails erzeugen und schickst sicherheitshalber beide Fassungen —
+   oder Du hast Dich in letzter Sekunde umentschieden. *Warum: wenn Du regelmässig so arbeitest,
+   muss der Zwilling bei Deinem englischen Register **strenger** filtern als bisher, sonst lernt er
+   Maschinenenglisch statt Deines.* → Echo-Schutz, `wissen/twin/CLAUDE.md`
+
+5. **Wie viel Druck darf eine Mail an einen Dienstleister machen, den Du bereits bezahlt hast?** —
+   Am 08.04. fragst Du Hleb von Dir aus nach den Bankdaten, am 15.04. steht «so please confirm you
+   working on it now» — Imperativ, aber ohne Frist, mit einem Zugeständnis am Schluss («if possible
+   sooner … i would be happy»). Ist das Deine Obergrenze gegenüber einem Freelancer, oder gibt es
+   eine nächste Stufe, die im Korpus nur noch nicht vorkommt? *Warum: der Zwilling verpackt hier
+   reflexhaft in «Darf ich Dich bitten» und klingt damit devot gegenüber jemandem, der liefern
+   muss.* → [[stimme]] Bitte-Skala, [[haltung]]

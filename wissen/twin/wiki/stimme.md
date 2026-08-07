@@ -53,14 +53,13 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Bitte/Auskunft (in der Sie-Behördenmail vor FG+Block nur die Form «Danke und Gruss»);
   dokumentierend, auch im Du → «Freundliche Grüsse» + voller Block. Dokumentierend sind
   Beleg-/Abwicklungsmails und der Mandatsabschluss-Dank; operativ bleiben verhandelbares Angebot,
-  Plan-/Feedback-Korrektur und das reine Zwischen-Transmittal. Finale Rechnungs-/Schluss-
-  Liefermail: Service-Satz + Auftrags-Dank vor FG+Block; Freigabe-Rückfrage an den durchleitenden
-  Partner und reines Transmittal: schlank, OHNE beides; die beratende Du-Mail behält den
-  Service-Satz; die Gesuchs-/Antragsmail ans Amt endet mit dem Antrag, die Verfahrens-/Statusmail
-  trägt weder Service-Satz noch Wunschzeile. Anrede-Skala:
-  «Hallo <Vorname>» neutral-freundliches Du · Tageszeit-Anreden «Guten Morgen/Abend <Vorname>» ·
-  gestapelt «Hoi lieber <Name>» + CH-Koseform nur im vertraut-sozialen Peer-Du · «Ich ersuche
-  um» als förmliche Behörden-Eröffnung · «Beste(r) Grüsse/Gruss» als warm-neutrale Mittelstufe.
+  Plan-/Feedback-Korrektur und das reine Zwischen-Transmittal. **Der Service-Satz hängt an der
+  GATTUNG, nicht am Empfänger (kontrolliertes Behörden-Paar 260807):** wer für sich selbst etwas
+  erbittet, hält den Kanal offen — finale Rechnungs-/Schluss-Liefermail (+ Auftrags-Dank),
+  beratende Du-Mail, **Auskunfts-/Nachfragemail ans Amt**; wer liefert oder meldet, hört nach dem
+  letzten Sachsatz auf — reines Transmittal, Freigabe-Rückfrage an den durchleitenden Partner,
+  Gesuch/Antrag (endet mit dem Antrag), Verfahrens-/Statusmail und die **Nachlieferung an eine
+  Fachstelle**. Anrede-Skala → [[beziehungsregister]] (dort die vollständige Zuordnung).
   Emoji 😊/«:)» nur warm-sozial privat, sparsam; Mundart nur rein privat-sozial, wenn das
   Gegenüber spiegelt. Formelle Alternativfrage als «–»-Bullets + «oder»; offene Aufzählung
   «_ » (Du-Zeichen), Sub-Detail «➢» darunter; in der formell-dokumentierenden Sie-Mail «–», und die
@@ -91,9 +90,8 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   wertend und sinnlich); **(c) Erläuterungsbericht/Abgabetext** — die **einzige** Untergattung mit
   ausformulierter Prosa (VERSAL-Kapitel ohne Nummer, Projekttitel als eingelöste These, kein
   Schlusskapitel, Fachplanerbeiträge als eigene Spalten → [[arbeitsweise]]).
-- **Anführungszeichen sind nicht durchgängig Guillemets (dreifach belegt 260803/260804):** der
-  Zwilling setzt «…» als Default, darf ein Dokument mit „…" aber **nie** deswegen für fremd oder
-  maschinell halten (Belege unten; Echo-Detektion in `wissen/twin/CLAUDE.md`).
+- **Anführungszeichen:** «…» als Default; die Echo-Detektionsklausel dazu steht in
+  `wissen/twin/CLAUDE.md`, nicht hier (sie regelt Quellenprüfung, nicht das Schreiben).
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806):**
   ich selbst, fremde Ressource/Amtshandlung (Geld, Unterschrift, Verwaltungsweg) → «**Darf ich
   Dich/Sie bitten, …**»; das laufende Mandat, Aufgabe im Zuständigkeitsbereich des Empfängers →
@@ -110,7 +108,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   einer Zusage öffnet ohne Entschuldigungswort und ohne Trostfloskel, direkt mit Ursache
   («Unfortunately we were not able to …, due to …»), gefolgt vom Ersatz-Commitment **mit Uhrzeit**.
   Der Wunsch an das Gegenüber steht im Konditional («It would be helpful if you could …», «It would
-  be useful to meet …»), nie im Imperativ. Schluss knapp und einzeilig, kein Block.
+  be useful to meet …») — **nur solange er ein Entgegenkommen ist**; liegt die Sache im bezahlten
+  Auftrag des Empfängers, steht auch im Englischen der **Imperativ** (260807). Die Vier-Stufen-Skala
+  ist sprachunabhängig. Schluss knapp und einzeilig, kein Block.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji in
   Geschäft/Sie/Dokument/Folien/operativer Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail
   (dort Hochdeutsch = Norm); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
@@ -3149,6 +3149,16 @@ Fehlender Block, einzeiliger Schluss und Tippfehler sind dort Geräteartefakte u
 Stilmarker**. Die Regel gilt damit für zwei Clients: Apple Mail (`internetMessageId` auf
 `@raphaeljans.ch`, Zitatkopf «Anfang der weitergeleiteten Nachricht») und Outlook für iOS.
 
+> **Zurückgenommen am 07.08.2026 (Fidelity 260807), soweit sie den Signaturblock betrifft.** Die
+> beiden Behördenmails vom 15.04.2026 tragen **ebenfalls** `ms-outlook-mobile-signature` — und
+> **beide den vollen JANS-Block**. Derselbe Client, gegenteiliges Ergebnis: der fehlende Block am
+> 15.03. war also **kein Geräteartefakt, sondern eine Entscheidung** (englische Dienstleistermail
+> gegen deutsche Behördenmail). Was der mobile Client tatsächlich erklärt, ist die **Absatzdichte**
+> (Sätze ohne Leerzeile, kompakte `<div>`-Kette) und die Flüchtigkeit der Interpunktion — nicht,
+> ob signiert wird. Lehre, gleiche Familie wie der Guillemet-Falsch-Positiv vom 03.08.: **ein
+> Client-Header erklärt nur, was er technisch erzwingt.** Wer daraus einen Stil-Freibrief macht,
+> entwertet einen echten Marker.
+
 **Offen:** in dieser Mail steht durchgehend «we/our» und **kein einziges «I»** — anders als die
 Regel «wir für Büro-/Projekthandlung, ich für die persönliche Bitte» (→ [[haltung]]). Hier meint
 «wir» buchstäblich zwei Personen, weil Claudia mitsendet. → [[QUESTIONS]] 260806 #2.
@@ -3215,3 +3225,60 @@ Notwendigkeit»), Meta-Satz zur eigenen Offenheit («Ich sage das offen, weil �
 **Keine Formulierung dieses Textes ist in die Facetten übernommen worden** — auch nicht das darin
 geprägte Wort «Planfreeze». Wie derselbe Konflikt in Raphaels eigener Hand aussieht, steht in
 [[arbeitsweise]] (Traktandenliste A–E) und [[haltung]].
+
+## Behörden-Schluss: kontrolliertes Paar an EINEM Tag (belegt Fidelity 260807, authentisch)
+
+Der bisher schärfste Beleg dafür, dass der Service-Satz an der **Gattung** hängt und nicht am
+Empfänger — zwei Mails an dieselbe Stadtverwaltung, im selben Sie-Register, fünf Stunden
+auseinander, beide vom mobilen Client mit vollem Signaturblock:
+
+| | 15.04.2026 09:51, Amt für Baubewilligungen | 15.04.2026 14:50, Fachstelle Lärmschutz |
+|---|---|---|
+| Anliegen | **Auskunft für sich selbst** (ausstehende Eingabequittung) | **Nachlieferung** (Gutachten per Link) + Rückfrage |
+| Schluss | «Bei Fragen oder Unklarheiten **stehe ich Ihnen jederzeit gerne zur Verfügung**.» | zwei nackte Sachsätze → FG + Block, **kein** Service-Satz |
+
+Damit ist die frühere Fassung («die Verfahrens-/Statusmail trägt weder Service-Satz noch
+Wunschzeile», «beide enden mit FG + Block ohne Service-Satz») zu absolut gewesen und im Do/Don't
+korrigiert. Ebenso ist «Für Ihre Unterstützung bedanke ich mich bereits im Voraus» **eine** belegte
+Behördenform, nicht die Regel — in beiden Mails dieses Tages kommt sie nicht vor.
+
+**Weitere Marker derselben Behördenmail (09:51):**
+- **Die Vorwurfsfrage verliert das Fragezeichen, die Sachfrage behält es.** «Könnten Sie mir kurz
+  erklären, warum ich noch keine Bestätigung erhalten habe**.**» — zwei Zeilen später dann «Muss
+  ich da direkt vor Ort abholen kommen**?** Könnten Sie mir ein scann zukommen lassen**?**» Der
+  Höflichkeits-Konjunktiv trägt die Frage, die Interpunktion nimmt ihr die Spitze.
+- **Beanstandet wird über die eigene Erwartung, nicht über das Amt:** «**Eigentlich habe ich
+  gedacht, dass** mir eine Nachricht auf dem eBaugesuch zugestellt wird mit der Bestätigung des
+  Erhalts der Unterlagen.» Der Vorwurf wird als eigener Irrtum gerahmt — Deeskalation über die
+  Ich-Perspektive, ohne den Anspruch aufzugeben.
+- **Der Grund einer Bitte ist der echte, nicht der grösste.** Als Begründung steht nicht das
+  Verfahrensrisiko, sondern das kleine, wahre Motiv: «**Ich würde gerne das Dokument mit dem
+  Eingabedatum bei mir abspeichern.**»
+- **Zweistelliges Fliessdatum mit umgangssprachlicher Ankopplung:** «letzten Donnerstag, den
+  **09.04.26**» (bestätigt «27.03.26» aus Mailbatch 89).
+- Flüchtigkeit als Echtheitszeichen: «das KISPI-Umbau» (Genus), «ein scann» (Numerus + Kleinschreibung).
+
+**Die Nachlieferung (14:50)** trägt den Link als reinen **Dateinamen-Anker ohne Bullet und ohne
+erklärenden Satz** («260415_02.03_Lärmschutznachweis»); die Bitte steht als Dank-im-Voraus-Formel
+mitten in der Mail und trägt die ganze **Fachpräzision in sich** («Überschreitung des
+Lärmemissioinsgrenzwertes Strassenlärm sowie allfälliger Industrie- und Gewerbelärm entlang der
+Nord-West-Hausecke») — es gibt keinen separaten Erläuterungsblock. Zum Schluss → [[arbeitsweise]],
+vierte Endform.
+
+## Englisch: der Imperativ ist erlaubt, wenn die Sache im Auftrag liegt (belegt Fidelity 260807)
+
+Korrigiert die 260806-Regel «der Wunsch steht im Konditional, **nie** im Imperativ». Beleg
+(15.04.2026 06:06, an den beauftragten und am 08.04. zur Zahlung aufgeforderten Web-Entwickler):
+
+> «Hello Hlep / Hostpoint is also making backup's just in case. / See e-mail below. / I would like
+> to finish as soon as possible the webside **so please confirm you working on it now** and we try
+> to finish the webside till to the end of next week, if possible sooner If it is possible to edit
+> the website earlier i would be happy. **Kind regards raphael**»
+
+Nicht die Sprache entscheidet die Form, sondern die **Druckquelle** (Vier-Stufen-Skala oben): am
+15.03. bat Raphael um ein Entgegenkommen → Konditional; hier ist die Fertigstellung die bezahlte
+Aufgabe des Empfängers → Imperativ. Nebenmarker: **Gruss und Vorname in EINER Zeile, Vorname klein**
+(«Kind regards raphael»); der Empfängername ist zum dritten Mal als «Hlep» verschrieben (habituell,
+kein Einzelslip); ein einziger Lauf-Satz ohne Satzende vor «If»; «webside» zweimal; «till to the
+end of next week». Die Härte wird am Schluss zurückgenommen, aber **ohne Frist** («if possible
+sooner … i would be happy») — Druck ja, Ultimatum nein.

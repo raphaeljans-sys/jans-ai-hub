@@ -110,6 +110,34 @@ Dokument als Ganzes beurteilen.** Ein Dokument kann gleichzeitig Gold und Fremdt
 gewichtet wird nur der Block, der Raphaels Fehlerbild trägt. Ohne diesen Schritt wären im
 Fidelity-Lauf 260804 vier Fachplanertexte als Raphaels Fachsignatur ins Wiki gewandert.
 
+**Fuenfte Falle, neu 07.08.2026 — der Kontrollgruppen-Kontrast im ENGLISCHEN, und ein geprueftes,
+verworfenes Signal.** Batch 89 hat die Kontrollgruppen-Quote als Echo-Detektion eingefuehrt (En-Strich
+0/598 eigener Hand gegen 3/179 im Verdachtstext). Der Fidelity-Lauf 260807 liefert den bislang engsten
+Fall: **derselbe Tag, derselbe Empfaenger, dasselbe Projekt, 3,5 Stunden Abstand.**
+
+- 15.04.2026 **06:06**, eigene Hand: «I would like to finish as soon as possible the **webside** so
+  please confirm you working on it now … **till to the end** of next week, if possible sooner If it is
+  possible … **i** would be happy. Kind regards raphael» — ein Lauf-Satz, fehlendes Satzende, zwei
+  Fehlschreibungen desselben Worts, Empfaengername verschrieben.
+- 15.04.2026 **09:40:41**, an dieselbe Adresse: «Please find attached the spacing PDF for Project Page
+  Type A. I have adopted Claudia's spacing for this layout and will now use this template to lay out the
+  5 projects.» — null Fehler, idiomatisch, Betreff mit En-Strich «Project Page A – Spacing».
+- 15.04.2026 **09:40:58** (17 Sekunden spaeter, gleicher Anhang), die deutsche Zwillingsfassung: ebenso
+  fehlerfrei, «Anbei das Spacing-PDF fuer den Projektseitentyp A …».
+
+Das Paar ist **KI-assistiert** und wurde nicht als Stilquelle verwendet. Die belastbaren Signale sind
+hier **Fehlerdichte gegen die gleichzeitige eigene Hand** + En-Strich + idiomatische Fehlerfreiheit im
+Englischen. Wo ein Verdachtstext in einem dicht belegten Tagesfenster liegt, ist der Vergleich mit den
+Eigentexten **desselben Tages** schaerfer als jeder Vergleich mit dem Korpusmittel.
+
+**Verworfen: «du/dich klein geschrieben» taugt NICHT als Detektor.** Die deutsche Fassung des Paars
+schreibt «dich/deiner/dir» dreimal klein, was zunaechst wie ein billiges Signal aussieht (Du-Gross-Quote
+im Korpus 0.81–1.0). Gegenprobe aus derselben Woche, unstrittig handgetippt (16.04.2026 12:36, Zweizeiler
+an den Bauherrenvertreter): «kannst **Du** mir die Unternehmer welche fuer **dich** nicht mehr in Frage
+kommen streichen» — gross und klein **im selben Satz**. Das Signal ist damit erledigt; es zaehlt allenfalls
+in Kombination und nie fuer sich. Gleiche Lehre wie beim Guillemet-Falsch-Positiv vom 03.08.2026: **ein
+Signal, das echtes Gold abwerten kann, muss vor der Aufnahme gegen die eigene Hand gegengeprueft werden.**
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),
