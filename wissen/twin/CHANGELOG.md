@@ -4,6 +4,30 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 07.08.2026 — twin-mail-training Batch 89: Traktandenliste als Antwort, Em-Strich-Quote
+
+Lücken-Sweep `rj@` **21.–31.03.2026** (54 Sent Items vollständig gelistet; Batches 36/37/38 hatten
+das Fenster nur stichprobenartig gelesen). Methodik Batch 86/88 angewandt: Batch-Register zuerst,
+dann Positivtest-Grep über 33 Kandidaten (Funktionsbelege `Steinmann` 57 / `Kübler` 49 / `Duran` 36;
+Kontrollbegriffe 0; echte Nullen bei 22.03. / 25.03. / 31.03., «Sternen Grill», «Terminplan
+Baueingabe», «Doppelseit»). **15 Eigentexte gelesen, 18 neue Marker in 5 Facetten, 3 Fragen.**
+
+Kernbefunde: **die Traktandenliste IST die Antwort** — fünf Vorwürfe der Bauherrschaft werden zu
+«A Bauprojekt / B Vordach / C Pacemaker / D Kommunikation / E Fachplaner» in einer Teams-Einladung
+ohne Anrede und Gruss ([[arbeitsweise]]) · **der Betreff trägt die ganze Nachricht, der Body ist
+leer** (4 Belege, [[stimme]]) · **Anrede und Gruss erodieren im schnellen Tagesthread**, Gegenrichtung
+zur belegten Register-Erwärmung über Tage ([[beziehungsregister]]) · **Eskalationsdosis wird mit dem
+Bauherrn verabredet**, nicht einsam gewählt ([[arbeitsweise]]) · **Fehler des Gegenübers abräumen
+statt aufrechnen** («easy, danke dir schöns tägli», [[haltung]]) · Katasterplan-Beschaffung und
+Revisionsplan-Bestand nach Fremdplaner benannt ([[fachsignatur]]).
+
+**Echo-Befund mit neuer Messform:** die Prosa-Antwort vom 24.03. ist KI-assistiert und ausgeschlossen.
+Der belegte En-/Em-Strich-Tell ist erstmals als **Quote gegen eine gleichzeitige Kontrollgruppe**
+gemessen — **3 Striche in 179 W Maschinentext gegen 0 in 598 W eigener Hand desselben Fensters**,
+bei 0 Tippfehlern dort und dichten Tippfehlern hier. Keine Formulierung des Textes übernommen, auch
+nicht sein Grundsatz zum «Planfreeze» (als Frage 260807 #1 geführt). Mikro-Metrik: Du-Gross 0.812,
+Satzlänge ø 13.6 W (im Korpusband), Apostroph 0, Ellipsen 3.34/1000 W.
+
 ## 06.08.2026 — twin-fidelity-review: Bitte-Form-Skala, Mitleser-Regel, Riegel-Verdichtung
 
 Golds `rj@` **15./19./20.03.2026** (englische Freelancer-Mail · Koordinationsmail mit Fachplaner im

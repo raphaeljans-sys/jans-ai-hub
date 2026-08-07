@@ -1877,3 +1877,31 @@ dann diese Personen die Eingabequittung der Baueingabe unterzeichnen (keine Plä
 Eingabequittung (Original) wird dann per Post dem Amt für Baubewilligungen zugesendet. Damit ist
 die Baueingabe rechtsgültig eingegeben.» Vier Elemente in drei Sätzen: Gegenstand mit
 vorweggenommener Missverständnis-Abwehr, Ausfertigung, Medium und Empfänger, Rechtsfolge.
+
+## Batch 89 (2026-03-21 bis 2026-03-31)
+
+**Katasterplan-Beschaffung als Baugesuchsbeilage, Stadt Zürich (24.03.2026).** Raphael bestellt den
+Katasterplan direkt bei Geomatik + Vermessung der Stadt Zürich über deren Bestellformular und füllt
+dabei die Felder aus, die später die Zuordnung tragen: **Zweck** «Baugesuch (1 Katasterplan)»,
+**Ausschnitt** als Plannummer der eigenen Dokumentenstruktur («33.1_Kataster.pdf»),
+**Projekt integrieren** «nein», **Lieferform** digital als PDF — mit dem amtlichen Vermerk, dass die
+digitale Lieferung **für Kanalisationsgesuche nicht zulässig** ist. Rechnungsadresse ist die
+Bauherrschaft, der Rechnungsvermerk trägt Projektnummer und Projekttitel; die Bestellung läuft unter
+einer **Lieferschein-Nr.** Marker: die amtliche Beilage wird nicht «besorgt», sondern mit den Feldern
+bestellt, die sie später prüfbar machen — und der Ausschluss für Kanalisationsgesuche gehört zum
+Wissen, nicht zur Überraschung. Ergänzt die Geodaten-Beschaffungslinie (→ Skill `planungsgrundlagen`).
+Quelle: rj@ Sent Items, 24.03.2026, authentisch.
+
+**Bestandsaufnahme über die Revisionspläne der Vorgänger-Fachplaner (26.03.2026, KISPI-Umbau).** Der
+Bestand wird nicht als «Pläne» übergeben, sondern nach **Fachdisziplin und ausführendem Büro**
+benannt und nummeriert: `_ 53.05_Gruner_AG_Brandschutz`, `_53.06_Amstein_Walthert_AG_Elektroplanung`,
+`_53.08_Gruner_Gruneko_AG_HLKK`, `_53.11_Ing.Buero_Riesen_Sanitaerplanung`. Die 53er-Nummerierung
+stammt aus der Bauwerksdokumentation des Betreibers und wird unverändert übernommen. Marker: **wer
+die Revisionspläne geliefert hat, steht im Ordnernamen** — bei Rückfragen zum Bestand ist die
+Urheberschaft damit ohne Rückfrage beim Bauherrn greifbar.
+
+Dazu die Machbarkeitsfrage an den Gebäudetechnikplaner, die **an Raumnummern statt an Themen**
+gestellt wird: «generelle Machbarkeit der Gebäudetechnikinstallationen für das neue Raumlayout,
+insbesondere die neuen Schlafzimmer (1.1/1.2) und Nasszellenposition (2.5/2.6) und die neue Küche
+4.1». Der Fachplaner kann so Punkt für Punkt antworten, ohne den Plan interpretieren zu müssen
+(→ [[arbeitsweise]]).

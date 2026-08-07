@@ -2826,3 +2826,34 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    noch offen»? *Warum: der Zwilling füllt solche Lücken heute mit einer plausiblen Zeile; er
    braucht die belegte Alternative — weglassen oder als offen markieren.* → [[arbeitsweise]],
    [[fachsignatur]]
+
+## 260807 (Batch 89, Fenster 21.–31.03.2026)
+
+1. **Gilt der Grundsatz «nach dem Planfreeze liegt die gestalterische Verantwortung beim
+   Architekten» als Deine Position — oder ist das die Formulierung eines Maschinentextes?** — Er
+   steht im KI-assistierten Antwortentwurf vom 24.03.2026 an eine Bauherrschaft, und zwei Tage
+   später fragst Du eine andere Bauherrin in genau dieser Phase «Findest du dies in Bezug auf die
+   Profilierung schön?». Der Entwurf zielt auf **Drittplaner**, Dein eigenes Handeln betrifft die
+   **Bauherrschaft** — die beiden widersprechen sich also nicht zwingend. Trotzdem: würdest Du den
+   Satz so unterschreiben, und wo genau verläuft für Dich die Grenze zwischen «Bauherrschaft
+   entscheidet mit» und «Drittplaner entscheidet mit»? *Warum: der Satz ist rhetorisch stark und
+   der Zwilling würde ihn sofort nachbauen — aber er ist bisher nur durch einen Text belegt, den Du
+   nicht selbst getippt hast.* → [[haltung]], [[stimme]] Echo-Befund Batch 89
+
+2. **Wie schreibst Du Deiner Familie?** — Der einzige direkte Beleg ist die Mail «Josef Essen» vom
+   23.03.2026 an Deinen Bruder: nur ein Betreff aus zwei Wörtern, Body leer, parallel an seine
+   private und seine geschäftliche Adresse. Ist das der Normalfall (Familie = unterhalb jeder Form,
+   Mail nur als Terminanstoss), oder war das hier die Kürze der Sache? *Warum: das
+   Beziehungsregister kennt sieben berufliche Wärmestufen und keine einzige familiäre; der Zwilling
+   würde eine Familienmail heute im Sozial-Peer-Ton schreiben, und das ist vermutlich zu viel Form.*
+   → [[beziehungsregister]]
+
+3. **Ist der Doppelversand an einen unbeteiligten Dritten am 22./24.03.2026 ein Fehlversand?** — Die
+   eingehende Rückfragen-Mail der Bauherrschaft (22.03., «WG: Angebot») und vier Minuten nach der
+   Antwort an die Bauherrschaft auch der **vollständige Antworttext** (24.03. 09:00, ohne Betreff)
+   gingen an die Mailadresse einer projektfremden Person. Der Inhalt betrifft einen
+   Honorar-/Vertrauenskonflikt mit der Bauherrschaft. Wahrscheinlichste Erklärung ist eine
+   Autovervollständigung im An-Feld, die beim zweiten Mal aus der Zuletzt-verwendet-Liste
+   wiederkam. *Warum: kein Stilbefund und nichts, was der Zwilling lernen soll — aber der Vorgang
+   sollte Dir bekannt sein, und falls es kein Versehen war, fehlt dem Beziehungsregister eine
+   Rolle.* → kein Facetten-Marker

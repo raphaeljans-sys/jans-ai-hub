@@ -3152,3 +3152,66 @@ Stilmarker**. Die Regel gilt damit für zwei Clients: Apple Mail (`internetMessa
 **Offen:** in dieser Mail steht durchgehend «we/our» und **kein einziges «I»** — anders als die
 Regel «wir für Büro-/Projekthandlung, ich für die persönliche Bitte» (→ [[haltung]]). Hier meint
 «wir» buchstäblich zwei Personen, weil Claudia mitsendet. → [[QUESTIONS]] 260806 #2.
+
+## Batch 89 (2026-03-21 bis 2026-03-31)
+
+- **Der Betreff trägt die ganze Nachricht, der Body ist leer oder wiederholt ihn wortgleich.** Vier
+  Belege in zehn Tagen: «**PDF im Anhang sieht wirklich besser aus doppelseitig gelayoutet**»
+  (23.03., Body = derselbe Satz + «lgr»), «**Josef Essen**» (23.03., an den Bruder auf zwei
+  Adressen, Body **vollständig leer**), «**Zur Weiterleitung: Bereinigtes Angebot**» (25.03., Body
+  leer, der Anhang trägt alles), «**Terminplan Baueingabe Ende KW 15**» (27.03.). Marker: bei einer
+  rein transportierenden Mail wandert der Sachsatz in die **Betreffzeile** und wird dort zum
+  vollständigen Satz — nicht zum Stichwort. Der Zwilling darf für Anhang-/Weiterleitungsmails einen
+  ausformulierten Aussagesatz als Betreff setzen und den Body leer lassen oder auf eine Zeile
+  kürzen. Quelle: rj@ Sent Items, 23.–27.03.2026, authentisch.
+- **«easy, danke dir schöns tägli» — Mundart-Deeskalation in der untersten Kürze-Stufe.** Auf die
+  Meldung der Gegenüberin, sie habe die schlechtere Layoutfassung bereits weitergeleitet («Hupsi,
+  habe es bereits weitergeleitet»), antwortet Raphael durchgehend klein, ohne Anrede, ohne Gruss,
+  ohne Namen: «easy, danke dir schöns tägli». Kombiniert Anglizismus als Entwarnung («easy»),
+  Dank und **Mundart-Wunschformel** («schöns tägli») in fünf Wörtern. Erweitert die belegte
+  Mundart-Wunschzeile («Es guet's Nöis», Batch 22) vom Sie-Schluss auf das warme Du und macht sie
+  zum Deeskalations-Mittel. Quelle: 23.03.2026, authentisch (→ [[haltung]]).
+- **«Bester Gruss und ein schöner Arbeitstag» — Gruss und Tageswunsch in einer Zeile verschmolzen.**
+  Dritte Bauform neben «Danke und schönes Wochenende» (Batch 28) und der getrennten Wunschzeile:
+  hier trägt die Grussformel selbst den Wunsch. Quelle: 24.03.2026, Du-Bauherr, authentisch.
+- **«lgr» auch klein geschrieben.** Die belegte Kurzform erscheint neben «Lgr» (2×) einmal als
+  «**lgr**» in einer Fünf-Wort-Mail. Keine neue Norm, aber die Kleinschreibung ist zulässige
+  Variante in der ganz kurzen Du-Mail. Quelle: 23.03.2026, authentisch.
+- **«so sind sie Briefmarkengross» — das Alltagsobjekt als Qualitätsurteil.** Statt einer
+  Auflösungsangabe benennt Raphael die Folge im Bild («wenn in bester Qualität möglich dann super,
+  so sind sie Briefmarkengross»). Reiht sich in das belegte Materialgespür-/Alltagsvergleich-Muster
+  ein, hier auf Bilddaten angewandt. Quelle: 30.03.2026, authentisch.
+- **Übergeneralisierte Du-Grossschreibung: «Ruf mich Doch morgen Freitag, den 27.03.26 an.»** Das
+  «Doch» wird mitgrossgeschrieben, weil in derselben Mail «Du/Deine» gross stehen — ein
+  authentischer Tippfehler-Typ, kein Stilmittel. Ebenso das **zweistellige Jahr im Fliessdatum**
+  («27.03.26» statt 27.03.2026), zweimal in vier Zeilen wiederholt. Der Zwilling ahmt beides
+  **nicht** nach, nutzt sie aber als Echtheitssignal bei der Gold-Prüfung.
+  Quelle: 26.03.2026, Bauherrin-Du, authentisch.
+- Mikro-Metrik Batch 89 (598 W über `stilmetrik.py`, 15 handgetippte Eigentexte, gemischter
+  Sie/Du-Operativmix): Du-Gross-Quote **0.812**; Tausender-Apostroph 0; Ellipsen **3.34/1000 W**;
+  «%» kam nicht vor; Satzlänge ø **13.6 W** (im Korpusband 11.9–14.3); Grüsse «Freundliche Grüsse»
+  4× / «Lieber Gruss» 3× / «Lgr»/«lgr» 2× / «Bester Gruss» 1×; Anreden «Sehr geehrter Herr» 3× /
+  «Hoi <Vorname>» 5× / «Geschätzte Esther;» 1× (Semikolon-Ausreisser, bestätigt Batch 38).
+
+### Echo-Befund Batch 89 — der Em-Strich erstmals als Quote gegen eine Kontrollgruppe gemessen
+
+Die Antwort auf den fünfteiligen Rückfragenbrief der Bauherrschaft (24.03.2026 08:56, «Geschätzter
+Stefan») ist **KI-assistiert und als Stilquelle ausgeschlossen**. Die Detektion stützt sich nicht
+auf ein einzelnes Signal, sondern auf einen messbaren Kontrast im **selben Zeitfenster**:
+
+| Signal | KI-Text (179 W) | Eigentexte desselben Fensters (598 W) |
+|---|---|---|
+| Em-/En-Strich «—» / «–» | **3** | **0** |
+| Tippfehler | **0** | dicht («Baueingabre», «Gere würde ich», «ein optimalen Projektstart», «Anscheinen ist etwas», «ca.7GB») |
+| Signaturblock | fehlt | 11 von 15 Mails |
+| Satzlänge ø | 14.9 W | 13.6 W |
+
+Der bereits belegte **En-Strich-Tell** (Batch 27/28: Raphael tippt selbst «-») ist damit erstmals
+nicht nur an einer Textstelle, sondern als **Quote gegen eine gleichzeitige Kontrollgruppe** belegt:
+null Vorkommen in 598 Wörtern eigener Hand, drei in 179 Wörtern Maschinentext. Dazu die
+Rhetorik-Signatur, die Raphaels Kurzmails nie tragen: Dank-Konzession, Doppelpunkt-Ankündigung
+(«Das heisst konkret:»), antithetische Balance («Das ist kein Affront, sondern eine fachliche
+Notwendigkeit»), Meta-Satz zur eigenen Offenheit («Ich sage das offen, weil …»), Schluss-Frage.
+**Keine Formulierung dieses Textes ist in die Facetten übernommen worden** — auch nicht das darin
+geprägte Wort «Planfreeze». Wie derselbe Konflikt in Raphaels eigener Hand aussieht, steht in
+[[arbeitsweise]] (Traktandenliste A–E) und [[haltung]].

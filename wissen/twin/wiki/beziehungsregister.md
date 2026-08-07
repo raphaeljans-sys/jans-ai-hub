@@ -2157,3 +2157,43 @@ Firmengrösse entscheiden, sondern **wie der Kontakt zustande kam** — selbst g
 bekannt (Du) gegen zugewiesen und über eine Weiterleitung vermittelt (Sie, mit Nennung des
 Vermittlers als Türöffner). Das schärft die schon belegte Regel «Fachplaner ist nicht automatisch
 Sie» (Batch 12) um ihr Kriterium.
+
+## Batch 89 (2026-03-21 bis 2026-03-31)
+
+### Anrede und Gruss erodieren im schnellen Tagesthread
+
+Ein Vormittag mit derselben Kontaktperson (Innenarchitektin, Du), vier Mails in fünfeinhalb Stunden:
+
+| Zeit | Anrede | Gruss |
+|---|---|---|
+| 08:12 | «Geschätzte Esther;» | «Besten Dank. / Freundliche Grüsse» + voller Signaturblock |
+| 12:49 | — | — |
+| 13:41 | — | — |
+| (Antwort auf «Ha ha ha Sorry») | — | «Super Perfekt.» (belegt Batch 38) |
+
+Marker: **innerhalb eines laufenden Tagesthreads fallen Anrede, Gruss und Signaturblock nach der
+ersten Mail weg und kommen nicht zurück.** Der Registerabbau ist eine Funktion der **Schlagzahl**,
+nicht der Beziehungsstufe — die Beziehung bleibt gleich, nur die Zeremonie entfällt. Das ist die
+Gegenrichtung zur belegten **Register-Erwärmung über Tage** (Batch 25, Albin: Sehr geehrte → Guten
+Tag → Geschätzte): dort steigt die Wärme über eine längere Strecke, hier fällt die Form innerhalb
+weniger Stunden. Der Zwilling soll in einer laufenden Antwortkette die Anrede **nicht**
+wiederherstellen, sobald sie einmal entfallen ist. Quelle: 30.03.2026, authentisch.
+
+### Neue und bestätigte Mappings (belegt Mailbatch 89)
+
+| Kontakt | Rolle | Register | Beleg |
+|---|---|---|---|
+| Benjamin Kübler, Gruner AG | Abteilungsleiter Gebäudetechnik, neu ins Projekt eingetreten | **Sie**, «Sehr geehrter Herr Kübler» (ohne Komma), FG + voller Block; sechs Fachplaner und der Bauherr nur im Cc | 26.03.2026 |
+| Jonas Simmen, Gruner AG | Brandschutz-Projektleiter, über Dritte zugewiesen | **Sie**, «Sehr geehrter Herr Simmen,» — bestätigt Batch 37/88 | 27.03.2026 |
+| Seraina Montanari | Referral-Geberin / Empfehlungskontakt | **Du**, warm; hier auf der untersten Kürze-Stufe ganz ohne Anrede und Gruss («easy, danke dir schöns tägli») | 23.03.2026 |
+| Josef Jans | **Bruder** | Betreff-only-Mail «Josef Essen» an zwei Adressen (privat + geschäftlich) gleichzeitig, Body leer | 23.03.2026 |
+| Undine Hofer | Bauherrin Wartstrasse 8 | **Du** bestätigt, «Hoi Undine,» / «Lieber Gruss Raphael» — die 260703 belegte Sie→Du-Kippung hält | 26.03.2026 |
+| Guido Giacometti, Steinmann AG | Fensterbauer | warm-**Sie** bestätigt; hier zusätzlich als **Verbündeter gegenüber der Bauherrin zitiert** («Herr Giacometti hat mir versichert das er Deine Wünsche berücksichtigen wird») | 26.03.2026 |
+
+Befund zur Bruder-Zeile: der einzige bisherige Beleg zu Josef Jans war seine Erwähnung als
+**Türöffner** in einer Sie-Mail an Dritte («Mein Bruder, Josef Jans, hat mir Ihre Kontaktdaten
+weitergegeben»). Der erste direkte Kontakt zeigt das entgegengesetzte Extrem: **keine Anrede, kein
+Text, nur ein Betreff aus zwei Wörtern** — und der Versand parallel an die private und die
+geschäftliche Adresse, damit er ihn sicher sieht. Die Familie steht damit nicht auf einer eigenen
+Wärmestufe, sondern **unterhalb jeder Form**. Einzelbeleg, kein Volltext vorhanden;
+→ [[QUESTIONS]] 260807 #2 vor der Verallgemeinerung.

@@ -2279,3 +2279,108 @@ Nebenbefund zum Gruss: beide Fassungen tragen den vollen Signaturblock — die A
 «Guten Tag», die Verabschiedung nicht. Deckt sich mit dem Befund «namenloses Firmen-Postfach behält
 FG+Block» (Batch 87) und stützt ihn erstmals über ein **kontrolliertes Paar** (gleicher Text,
 gleicher Tag, gleiches Haus).
+
+## Batch 89 (2026-03-21 bis 2026-03-31)
+
+### Die Traktandenliste IST die Antwort — fünf Vorwürfe werden zu fünf Buchstaben
+
+Der Bauherr-Partner stellt am 22.03.2026 in einer langen Mail fünf kritische Rückfragen zum
+Honorarangebot: (1) warum ein neues Bauprojekt nötig sei, (2) wann der Vordach-Vorschlag komme,
+(3) der fehlende «Pacemaker» im Projekt, (4) warum Raphael die direkte Kommunikation mit
+Handwerkern abgeben wolle, (5) warum die Bauherrschaft Gebäudetechnik- und Elektroplaner beiziehen
+solle. Vier Tage später besteht Raphaels Antwort aus einer Teams-Einladung, deren **ganzer Body**
+lautet:
+
+```
+A Bauprojekt
+B Vordach
+C Pacemaker
+D Kommunikation
+E Fachplaner
+```
+
+Keine Anrede, kein Gruss, kein Satz. Die fünf Punkte sind **1:1 die fünf Rückfragen**, in ihrer
+Reihenfolge, auf je ein Wort verdichtet — inklusive des vom Gegenüber geprägten Fremdworts
+(«Pacemaker»), das unübersetzt stehen bleibt.
+
+Marker: **Auf einen mehrteiligen Vorwurfsbrief antwortet Raphael nicht mit Prosa, sondern mit der
+Traktandenliste des Gesprächs, in dem er beantwortet wird.** Die Liste quittiert vollständigen
+Empfang (kein Punkt fällt unter den Tisch), vergibt Buchstaben statt Zahlen (keine implizite
+Rangfolge), übernimmt die Wortwahl des Gegenübers (kein Deutungsstreit vorab) und verlegt die
+inhaltliche Auseinandersetzung ans Telefon. Dritter Datenpunkt zur belegten
+**Telefonat-Traktanden**-Linie (Batch 18, Batch 27) und ihr bisher reinster: hier ist die Liste
+nicht Beilage der Mail, sondern die Mail.
+
+Der Zwilling soll bei mehrteiliger Kritik **nicht** in Absätzen replizieren, sondern die Punkte als
+Traktanden spiegeln und einen Termin setzen. Wie die Gegenprobe aussieht — eine ausformulierte,
+rhetorisch geschlossene Prosa-Antwort auf denselben Brief — steht als **Negativbeleg** in
+[[stimme]], Echo-Befund Batch 89. Quelle: 26.03.2026, authentisch (Teams-Einladung «THALWIL:
+Besprechung»).
+
+### Weiterleiten und anrufen lassen — die fremde Mail ist der Traktandenpunkt
+
+Dasselbe Prinzip in der kleinsten Form: die Mail einer Dritten (Innenarchitektin, sie will erst neu
+zeichnen, wenn genauere Masse vorliegen) geht am nächsten Morgen um **05:41** an den Bauherrn
+weiter, mit dem einzigen eigenen Satz «**Ruf mich doch kurz an wenn Du Zeit hast, ich würde gerne
+die Mail unten besprechen.**» Raphael referiert den Inhalt nicht und wertet ihn nicht — die
+weitergeleitete Mail **ist** der Traktandenpunkt, das Gespräch ist die Antwort. Zusammen mit «Ruf
+mich Doch morgen Freitag, den 27.03.26 an» (Bauherrin, 26.03.) und dem belegten «0798461165 / ruf
+mich an» (Fidelity 260723): **das Telefon ist die Eskalationsstufe für alles Heikle und alles
+Mehrdeutige; die Mail liefert nur den Anlass.** Quelle: 31.03.2026, authentisch.
+
+### Dieselbe Mail zweimal, weil der Kanal nicht trägt — Anhang wird Link
+
+Am 27.03.2026 geht die Terminplan-Mail an den Brandschutzplaner zweimal hinaus: **15:33** mit
+Bildanhang und dem Bauherrn im Cc, **15:39** ohne Anhang, dafür mit einem Link, und **ohne Cc**.
+Der Sachsatz bleibt wortgleich («Der Terminplan Baueingabe wäre Eingabe Ende KW 15»), getauscht
+wird nur der Transportweg: «Im Anhang die Bilder …» → «Folgend der Link bezüglich Bilder …».
+
+Marker: **bei Zweifeln an der Zustellbarkeit wird die Mail komplett neu gesendet statt nachgefasst.**
+Das ergänzt die in Batch 88 belegte Doppelversand-Choreografie (dort: benannte Person **und**
+Firmenpostfach, um eine Organisation sicher zu erreichen) um einen zweiten Grund — hier nicht
+Redundanz gegen Nichtantwort, sondern **Kanalwechsel gegen Anhangsgrösse**. Nebenbefund und
+Warnung für den Zwilling: beim zweiten Versand fällt der **Cc an die Bauherrschaft still weg**; die
+Zweitfassung ist also nicht deckungsgleich, obwohl der Text es ist. Wer eine Mail wiederholt, muss
+den Empfängerkreis bewusst wiederherstellen. Quelle: 27.03.2026, authentisch.
+
+### Die Sitzung bestellen, die ein anderer leiten soll — samt Besetzung
+
+Bei der Übergabe der Bestandsgrundlagen an den neuen Gebäudetechnik-Abteilungsleiter (26.03.2026,
+Sie, sechs Fachplaner und der Bauherr im Cc) macht Raphael drei Dinge in einer Mail:
+
+- **Grundlagen als begehbare Struktur statt als Anhang:** «Sie finden unter JANS - 2619-KISPI -
+  Dokumente folgende Ordnerstruktur: / 1 Projektmanagement / 2 Plangrundlagen Bestand / 3
+  Umbauprojekt Neu / **(ca.7GB)**» — die Ordnernamen werden ausgeschrieben, die vier
+  Revisionsplan-Ordner einzeln in der belegten «_ »-Listensignatur benannt, jeweils **mit dem
+  Namen des Fremdplaners im Ordnernamen** (Brandschutz / Elektroplanung / HLKK / Sanitärplanung).
+  Neu: **die Datenmenge wird mitgenannt** — der Empfänger soll vor dem Klick wissen, worauf er sich
+  einlässt.
+- **Die Frage wird an konkreten Raumnummern festgemacht,** nicht allgemein gestellt: «generelle
+  Machbarkeit der Gebäudetechnikinstallationen für das neue Raumlayout, insbesondere die neuen
+  Schlafzimmer (**1.1/1.2**) und Nasszellenposition (**2.5/2.6**) und die neue Küche **4.1**».
+- **Die Sitzung wird bestellt, die Leitung abgegeben, die Besetzung behalten:** «Gut wäre eine
+  Kickoff-Online Sitzung mit der Bauherrschaft sowie allen beteiligten Fachplaner **unter Leitung
+  von Ihnen, Herr Kübler**, um ein optimalen Projektstart zu bekommen. / Ich schlage folgende
+  Teilnehmer vor:» — darunter acht Zeilen «Name, Funktion, Firma», ausgeschrieben bis zur
+  Bereichsbezeichnung («Leiter Business Unit Gebäudetechnik Nordwestschweiz»).
+
+Marker: **Raphael gibt die Sitzungsleitung an den Fachplaner ab und bestimmt dennoch, wer am Tisch
+sitzt.** Die Rolle des Generalisten bleibt die Zusammensetzung, nicht die Moderation. Das schärft
+die belegte Linie «Fachplaner haben oberste Priorität, meine Aufgabe ist die Koordination»
+(Batch 37, 24.03.2026) um ihre konkrete Handlungsform. Quelle: 26.03.2026, authentisch.
+
+### Die Eskalationsdosis mit dem Bauherrn verabreden, bevor eskaliert wird
+
+An den Bauherrn (24.03.2026, Du): «Ich werde diese Woche noch **etwas Druck machen**, um das Ziel
+Mitte April die Baueingabe fix hochladen zu können. / Am besten **Telefonieren wir bezüglich push
+von den Fachplaner**. Ich denke wir sollten es nun mal **sanft angehen** und schauen bis Ende
+Woche, ob Team/Terminplanung/Planliste sowie Inhaltliche Themen für die Baueingabe Fachplaner fix
+steht.»
+
+Marker: **Druck auf Dritte ist eine gemeinsam beschlossene Dosis, keine einsame Entscheidung des
+Architekten.** Raphael kündigt die Eskalation an, schlägt die schwächste Stufe vor («sanft
+angehen»), setzt ihr eine Frist («bis Ende Woche») und nennt die Kriterien, an denen sich zeigt, ob
+sie genügt hat (Team, Terminplanung, Planliste, Inhalte). Der Zwilling soll Eskalationsstufen
+gegenüber der Bauherrschaft benennen und terminieren, statt sie stillschweigend zu wählen.
+Anglizismus «push» im deutschen Du-Fliesstext bestätigt die belegte Anglizismen-Linie
+(→ [[stimme]]). Quelle: 24.03.2026, authentisch.
