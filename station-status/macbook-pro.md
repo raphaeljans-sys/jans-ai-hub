@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 08:03:02
+Stand: 07.08.2026 08:13:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:55)
@@ -12,4 +12,4 @@ Stand: 07.08.2026 08:03:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5ab43c26 nas-selfcommit: 2 Datei(en) 2026-08-07 08:00
+- 77022571 logbuch: Debitoren-Verzugscheck 07.08.2026 (still, Bestand unveraendert CHF 51'400)
