@@ -94,9 +94,9 @@ Mutmasslich stark überholt, falls das Erscheinungsjahr 2009 (nur PDF-Metadaten,
 
 [[minergie-innenraumklima]] · [[behaglichkeit-raumklima-kbob-ipb]] · [[raumluftfeuchte-komfortbereich-sia180]] · [[minergie-eco-gebaeudelabel]] · [[komfortlueftung-wohnungslueftung-ch]]
 
-## Aktualitaetspruefung Run 125 (07.08.2026)
-Der Bauherren-Transfer empfahl die SIA-493-Deklarationsblaetter als Ausschreibungsreferenz, waehrend
+## Aktualitätsprüfung Run 125 (07.08.2026)
+Der Bauherren-Transfer empfahl die SIA-493-Deklarationsblätter als Ausschreibungsreferenz, während
 der Vorbehalt sie nur als «vermutlich aktualisiert» einordnete. Verifiziert: SIA 493 ist per
 30.06.2022 archiviert, ohne Nachfolger. Korrektur an beiden Fundstellen im Fliesstext (Phase 41) und
-im Aktualitaetsvorbehalt eingesetzt, dazu ein neuer erster Spiegelstrich im Bauherren-Transfer zur
-Pflicht-Schadstoffanalyse bei Umbau/Rueckbau im Kanton Zuerich.
+im Aktualitätsvorbehalt eingesetzt, dazu ein neuer erster Spiegelstrich im Bauherren-Transfer zur
+Pflicht-Schadstoffanalyse bei Umbau/Rückbau im Kanton Zürich.

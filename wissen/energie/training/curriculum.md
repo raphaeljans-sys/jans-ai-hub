@@ -2152,3 +2152,28 @@ PL-02: **36 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run
 Run 123, **8 in Run 124**), **146 offen**. Die vier uebrigen Destillate des Laufs stammen aus
 zwei **Web-Quellen ausserhalb des PL-02-Inventars** (ecoBKP 2026, Minergie-Produktreglement
 2026.1) und werden dort bewusst nicht mitgezaehlt.
+
+## D96 — Run 125 (07.08.2026): Minergie-Restbestand PL-02 + GEAK-Methodik
+
+15 PDF aus dem PL-02-Minergie-Ordner destilliert (9 neue Destillate), davon zwei
+**Ordner-Ablage-Fallen** (MFH.pdf = BFE-Heizungsersatzbroschüre; «Gebäudehüllziffer»-
+Schlussbericht = BFE-Vergleich MINERGIE/Passivhaus 2002). Verifikations-Stufe: zwei Refuter mit
+getrennten Schwerpunkten auf das GEAK-Normierungsdestillat, ein Refuter auf Basisbroschüre +
+Nachweisformular, eine Aktualitätsprüfung über fünf Alterskorpus-Destillate. Vier neue
+Bauherren-Antworten F218-F221, F36 geschärft, Themenartikel `geak-gebaeudeenergieausweis`
+gewachsen.
+
+**Nächste Etappe, in dieser Reihenfolge:**
+1. **Produktreglement 2026.1 fertig lesen** — offen sind Anhang B3 (Nutzungsgrade/
+   Gewichtungsfaktoren), C (sommerlicher Komfort), D (Lüftung natürliche Nachströmung) und
+   die Kapitel 1-13. Dazu das in der Nachtschicht vom 07.08. ausgelassene Refuter-Panel für
+   Anhang H/J nachholen, bevor dort etwas auf `established` gehoben wird.
+2. **`geak-normierung-berechnungsmethodik` auf established heben** — die tragenden Beanstandungen
+   sind korrigiert, es fehlt die zweite, unabhängige Prüfrunde. Lohnend, weil das Destillat die
+   Rechenlogik hinter einer Zahl trägt, die in jeder Sanierungsberatung vorkommt.
+3. **PL-02 weiter**: der Minergie-Ordner ist abgeräumt, als nächster geschlossener Block bleibt
+   die eco-bau-Reihe unter `04_Merkblätter/eco/` (⚠ Dublettenwarnung Run 121/123 beachten:
+   Grössenvergleich statt Namensvergleich).
+
+PL-02: **51 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122, 9 in
+Run 123, 8 in Run 124, **15 in Run 125**), **131 offen**.

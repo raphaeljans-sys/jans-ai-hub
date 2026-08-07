@@ -3066,3 +3066,44 @@ durchfuehrbar.
 - **E-124-7 — Zaehlweise «ecoBKP 244» oder «244-245»?** Das Inhaltsverzeichnis der Ausgabe 2026
   fuehrt «Lueftungs- und Klimaanlagen — **ecoBKP 244-245**», die Merkblatt-Kopfzeile im
   gelesenen Text nur «ecoBKP 244». Rein formal, aber fuer eine exakte Zitierung zu klaeren.
+
+## Run 125 (07.08.2026) — Minergie-Restbestand PL-02, GEAK-Methodik, Aktualitätsprüfung
+
+- **E-125-1 — `geak-normierung-berechnungsmethodik` wartet auf die zweite Prüfrunde.** Zwei
+  Refuter mit getrennten Schwerpunkten haben 10 bzw. 19 Beanstandungen gemeldet; die tragenden
+  wurden vom Hauptlauf am Original nachgeprüft und korrigiert (u.a.: direkte CO2-Emissionen sind
+  **klassenwirksam**, nicht informativ; die Zwei-Bedingungs-Regel der Verteilverluste gilt nur für
+  Heizung, nicht für Warmwasser; der Faktor 2/3 ist der Heizband-Faktor; der
+  Überdimensionierungs-Malus steht nur in Gl. 17). **Der Status bleibt bis zur unabhängigen
+  Nachprüfung `emerging`.** Lohnend, weil die Datei die Rechenlogik hinter einer Zahl trägt, die
+  in jeder Sanierungsberatung vorkommt.
+- **E-125-2 — Ungelesene Kapitel der GEAK-Normierung v2.1.0:** Kap. 3.6 (Zuordnung der
+  Speicherverluste auf Wärmeerzeuger, S. 20-22), Kap. 6.2.5 (weitere Verbraucher WVA, S. 49, mit
+  der Abgrenzung gebäudezugehörig / nicht gebäudezugehörig) und Biogas in Tab. 35/36.
+- **E-125-3 — Hypotheken- und Steuervorteil des GEAK Plus unbeziffert.** Die Basisbroschüre
+  02/2023 nennt «vergünstigte Konditionen bei Hypotheken» und «steuerliche Vorteile», ohne Betrag,
+  ohne Institut, ohne Kanton. Als Argument im Gespräch brauchbar, als Zusage nicht. Zu belegen an
+  einer Bank- oder Steuerquelle; berührt `[[gruene-hypotheken-klimahypotheken-ch]]`.
+- **E-125-4 — Impulsberatung: kostenpflichtig oder kostenlos?** Die KB widerspricht sich. Die
+  BFE-Broschüre 10.2021 weist für MFH/STWEG ab sechs Wohneinheiten CHF 1'500-2'000 aus, während
+  `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` die Impulsberatung zweimal als
+  **kostenlos** führt. Ab welcher Objektgrösse sie kostenpflichtig wird und wie der heutige Stand
+  lautet, ist offen (erneuerbarheizen.ch).
+- **E-125-5 — Aktuelle Fassung des Minergie-Nachweisformulars fehlt.** Destilliert ist die Version
+  2022.4 mit eigener Befristung bis 31.12.2023. Welche Fassung heute gilt und wie stark sich die
+  Feldstruktur geändert hat, ist ungeprüft.
+- **E-125-6 — Verfällt ein Minergie-Zertifikat?** Das Reglement 2010 nennt eine Fünfjahresfrist im
+  Zusammenhang mit der **Mehrfachanwendung der Marke**. Ob damit auch das objektbezogene definitive
+  Zertifikat verfällt, ist aus der Quelle nicht entscheidbar, und das heute belegte Verfahren
+  (`[[minergie-zertifizierung-workflow]]`) kennt keine Ablauffrist. Wertrelevant beim Verkauf —
+  bei der Zertifizierungsstelle abzufragen, nicht herzuleiten.
+- **E-125-7 — Offene Fragen des JANS-Arbeitspapiers von 2023 sind bis heute unbeantwortet.** Reicht
+  für eine Minergie-Erneuerung der blosse Ersatz von Fenstern und Wärmeerzeugung, oder werden
+  automatisch auch Dach/Aussenwand/Boden anforderungspflichtig? Und wird der Fenster-Grenzwert über
+  das ganze Element oder nur über das Glas gerechnet (Fall Vakuumglas)? Beides gehört an die
+  Zertifizierungsstelle; die Antwort wäre unmittelbar FAQ-tauglich.
+- **E-125-8 — SIA 493 ohne Nachfolger: was gehört stattdessen in die Ausschreibung?** Die Norm ist
+  seit 30.06.2022 archiviert, ein Nachfolger fehlt strukturell (verifiziert über `wissen/normen`).
+  Die KB verweist ersatzweise auf ecoBKP und EPD nach EN 15804+A2 — beides **Sekundärweg**. Welche
+  Klausel heute im LV die Deklarationspflicht trägt, ist nicht abschliessend geklärt. Berührt
+  Skill `ausschreibung`.

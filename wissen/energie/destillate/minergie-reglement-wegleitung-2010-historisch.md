@@ -52,7 +52,7 @@ eigenständige Norm, sondern die **Bedienungsanleitung zum Excel-Nachweis-Tool**
 MINERGIE-Nachweis gemäss Anhang C3 gerechnet wurde (ursprünglich verfasst von A. Huber,
 Februar 2003, seither jährlich bis mehrjährlich durch die MINERGIE Agentur Bau revidiert,
 letzte hier vorliegende Revision Januar 2010 / Fassung vom 3.2.2010). Erläutert Blatt für
-Blatt («Antrag», «Eingaben», «Sommer», «Lueftung», «Produktion», «Nachweis») jede Eingabezeile
+Blatt («Antrag», «Eingaben», «Sommer», «Lüftung», «Produktion», «Nachweis») jede Eingabezeile
 des Excel-Formulars, inklusive der damaligen Standardwerte für Nutzungsgrade,
 Gewichtungsfaktoren und Lüftungssysteme.
 
@@ -279,8 +279,8 @@ gelesen hat, ist das unten als offen markiert statt geraten.*
 [[minergie-p-a-anwendungshilfe-2019]] · [[rilumi-minergie-luftdichtheit-n50]] ·
 [[waermebrueckenkatalog-minergie-pl02]]
 
-## Aktualitaetspruefung Run 125 (07.08.2026)
-Der Bauherren-Transfer stellte die 5-Jahres-Frist als Ablauf des Gebaeudelabels dar, waehrend sie im
-Reglement selbst an die Mehrfachanwendung der Marke gekoppelt ist. Bullet entsprechend praezisiert:
+## Aktualitätsprüfung Run 125 (07.08.2026)
+Der Bauherren-Transfer stellte die 5-Jahres-Frist als Ablauf des Gebäudelabels dar, während sie im
+Reglement selbst an die Mehrfachanwendung der Marke gekoppelt ist. Bullet entsprechend präzisiert:
 Zertifikatsstatus ist bei der Zertifizierungsstelle abzufragen, nicht aus diesem Destillat
 abzuleiten.

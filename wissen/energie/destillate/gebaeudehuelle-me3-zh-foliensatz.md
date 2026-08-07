@@ -155,9 +155,9 @@ Nachschlagewerk für Psi-Werte nach Bauteiltyp.
   Wärmebrücken mit zwei tatsächlichen Normzitaten) und ergänzen sich, ohne sich zu
   widersprechen.
 
-## Aktualitaetspruefung Run 125 (07.08.2026)
-Der Bauherren-Transfer entwertete beide Folienzahlen pauschal als ueberholt. Verifiziert: der
-Waermebrueckengrenzwert 0,30 W/(m·K) gilt unveraendert, allerdings als Vollzugswert fuer Typ 1
+## Aktualitätsprüfung Run 125 (07.08.2026)
+Der Bauherren-Transfer entwertete beide Folienzahlen pauschal als überholt. Verifiziert: der
+Wärmebrückengrenzwert 0,30 W/(m·K) gilt unverändert, allerdings als Vollzugswert für Typ 1
 (Auskragungen) nach EnFK EN-102 bzw. MuKEn-Anhang 1, nicht als Wert aus SIA 380/1 — die
 Fundstellenzuschreibung der Folie war falsch. Korrektur am ersten Spiegelstrich des
-Bauherren-Transfers sowie an der Ueberschrift von Abschnitt 2 eingesetzt.
+Bauherren-Transfers sowie an der Überschrift von Abschnitt 2 eingesetzt.

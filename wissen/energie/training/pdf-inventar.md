@@ -300,3 +300,47 @@ neue FAQ F217. Einzelagenten-Lauf, kein Refuter-Panel fuer G/H/J (Budgetdiszipli
 
 **Stand PL-02 unveraendert:** 36 von 182 destilliert, 146 offen (dieser Lauf betraf nur die
 Web-Quelle, kein PL-02-PDF).
+
+## Nachtrag 2026-08-07 (Run 125): Minergie-Restbestand PL-02 abgeräumt
+
+Gemessen vor der Prioritätensetzung (Lehren Run 123/124: Seitenzahl UND Grösse prüfen, nicht
+den Dateinamen lesen). Die drei Ordner `Nachweisformulare/`, `Nuetzliche Unterlagen/Infobrochuren/`
+und `Innenraumklima/` sind damit weitgehend erschöpft.
+
+⚠⚠ **Zwei Ordner-Ablage-Fallen in einem Lauf** — beide am Titelblatt verifiziert, beide führten
+zu einem anderen Slug als geplant:
+- `Infobrochuren/MFH.pdf` ist **kein** Minergie-Dokument, sondern die EnergieSchweiz/BFE-Broschüre
+  «Heizungsersatz in grösseren Mehrfamilienhäusern und bei Stockwerkeigentum» (Art.-Nr. 805.203.D).
+- `Gebaeudehuellziffer/000000220024_Schlussbericht.pdf` ist **kein** Gebäudehüllziffer-Dokument,
+  sondern der BFE-Schlussbericht «MINERGIE und Passivhaus: Zwei Gebäudestandards im Vergleich»
+  (März 2002), also das Gründungsdokument für MINERGIE-P. Die führende Zahlenfolge im Dateinamen
+  ist eine Projektnummer, keine Jahresangabe.
+
+**Die Merkregel wächst damit um eine Stufe:** Weder Dateiname noch **Ablageort** sagen etwas
+darüber, was ein Dokument ist. Run 122 lernte es am Versionskürzel, Run 124 am Ordner
+(`Dokumentation_System.pdf` → Systemnachweis-Kurs ZH), Run 125 gleich zweimal am Ordner.
+
+| Status | Quelle (PL - 02_Recht_Norm/06_Richtlinien/Minergie/...) | KB-Datenstand |
+|---|---|---|
+| [x] `Nachweisformulare/{1_Eingabe,2_Minergie,3_Nachweis,4_Sommer,5_Uebersicht,6_Erstellung}.pdf` | 2026-08-07 (6 Druckseiten = 5 Blätter, «MINERGIE-Nachweisformular 2022.4, zu verwenden bis 31. Dezember 2023» → `minergie-nachweisformular-2022-set`; ⚠ Formular heute abgelaufen) |
+| [x] `Nuetzliche Unterlagen/Infobrochuren/MFH.pdf` | 2026-08-07 (EnergieSchweiz/BFE, Vertriebsvermerk **10.2021**, vollst. S. 1-12 → `heizungsersatz-groessere-mfh-stweg`; Ablage-Falle, kein Minergie-Dokument. Schliesst den in Run 124 offen gebliebenen Eintrag) |
+| [x] `Nuetzliche Unterlagen/Infobrochuren/rz_gea_204_basisbroschuere_2023_de_web.pdf` | 2026-08-07 (Verein GEAK, Impressum **02/2023**, vollst. S. 1-7 → `geak-basisbroschuere-2023`; **established** nach Refuter-Panel) |
+| [x] `Nuetzliche Unterlagen/Infobrochuren/rnorm_normierung_230330_geak.pdf` | 2026-08-07 («Normierung des GEAK» V 2.1.0, EnDK, verabschiedet **30.03.2023**, S. 1-79 vollst. → `geak-normierung-berechnungsmethodik`; dasselbe Dokument wie das Bestandsdestillat zur Klassierung, deshalb bewusst nur die noch nicht erfassten Kapitel) |
+| [x] `Nuetzliche Unterlagen/Innenraumklima/IR_leistungsbeschrieb.pdf` | 2026-08-07 (Coutalides/Werd Verlag, **kein Datum im Dokument**, vollst. S. 1-8 → `innenraumklima-leistungsbeschrieb`; kein Duplikat zu `minergie-innenraumklima`, anderer Zweck) |
+| [x] `Nuetzliche Unterlagen/Gebaeudehuellziffer/000000220024_Schlussbericht.pdf` | 2026-08-07 (BFE/ZEN, **März 2002**, S. 1-50 von 50; Anhänge A-I in der Datei nicht enthalten → `minergie-p-genese-passivhaus-vergleich-2002`; Ablage-Falle) |
+| [x] `Nachweisformulare/ME-Antrag/Reglement2010_dt.pdf` | 2026-08-07 (vollst. S. 1-30; «Reglement zur Nutzung der Qualitätsmarke MINERGIE», Stand **Januar 2010** → `minergie-reglement-wegleitung-2010-historisch`, Status `superseded`) |
+| [x] `Nachweisformulare/ME-Antrag/WegleitungVers11.pdf` | 2026-08-07 (vollst. S. 1-45; «Wegleitung Nachweis-Formular MINERGIE», Version 11 vom **03.02.2010** → dito. «Vers11» ist eine Versions-, keine Jahresangabe) |
+| [x] `Nachweisformulare/Weg_zum_Minergiezertifikat/230611_Weg_zum_Minergiezertifikat.pdf` | 2026-08-07 (vollst. S. 1-5; **bürointernes JANS-Arbeitspapier vom 12.06.2023**, keine Minergie-Publikation → `weg-zum-minergiezertifikat-ablauf`) |
+| [x] `Nuetzliche Unterlagen/PPZusammenfassungGebäudehülle ME 3 ZH-a.pdf` | 2026-08-07 (Kursfoliensatz «EDITION MINERGIE», Referent Reimann, **kein Ausgabedatum**, vollst. S. 1-10 → `gebaeudehuelle-me3-zh-foliensatz`, eingeschränkt verwertbar) |
+
+**Stand PL-02:** **51 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122,
+9 in Run 123, 8 in Run 124, **15 in Run 125**), **131 offen**.
+
+**Noch offen im Minergie-Ordner** (bewusst nicht bearbeitet): `ME-Antrag/ME-Antrag mit
+Kommentare.pdf` (2 S., Antragsformular 2010, durch das Reglement-Destillat abgedeckt),
+`Energiegesetz/730.1_19.6.83_72.pdf` (alte EnerG-ZH-Fassung → gehört zum Abgleich mit Skill
+`baurecht`, nicht in die Energie-KB), `Presse/*.pdf` (zwei Zeitungsartikel 2010),
+`SIA380_1_Energie_im_Hochbau/EN-1b Berechnet.pdf` (1 S. ausgefülltes Musterformular 2008),
+`Vergleich/{ME-ME-P-Haus,Qh+Qww-Haus-Abbildung}.pdf` (je 1 S. Abbildungen),
+`Merkblaetter/{EnFK_Fensterblatt_endgueltig-Juni2009mit PW,VoHi_EN-02_de}.pdf` (Dubletten
+bereits destillierter Quellen).

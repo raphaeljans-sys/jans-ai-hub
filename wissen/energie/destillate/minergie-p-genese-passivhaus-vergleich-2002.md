@@ -232,9 +232,9 @@ Was von diesem 24 Jahre alten Forschungsstand heute noch praktisch trägt:
 - Aktuelle SIA-380/1-Klimareferenz und Gebäudehüllzahl-Formel: `muken-2025-anhang-1-3-uwert-heizwaermebedarf.md`
   und `gebaeudehuellziffer-ebf-flaechendefinition.md`.
 
-## Aktualitaetspruefung Run 125 (07.08.2026)
-Der Bauherren-Transfer erklaerte die Holzheizungs-Aussage von 2002 samt Korrekturfaktor 0,6 zur
-«brauchbaren Faustregel fuer die Systemwahl» — dieser Satz war der gefaehrlichste der Datei, weil
-der Faktor heute 0,5 betraegt und die kantonale Foerderlage (ZH) Pelletheizungen als Oelheizungsersatz
-ausschliesst. Ersetzt durch einen expliziten Warnhinweis; zusaetzlich den Nachfolger der SIA 384/2
-(SN EN 12831 / SIA 384.201, SIA 384/1) im Aktualitaetsvorbehalt ergaenzt.
+## Aktualitätsprüfung Run 125 (07.08.2026)
+Der Bauherren-Transfer erklärte die Holzheizungs-Aussage von 2002 samt Korrekturfaktor 0,6 zur
+«brauchbaren Faustregel für die Systemwahl» — dieser Satz war der gefährlichste der Datei, weil
+der Faktor heute 0,5 beträgt und die kantonale Förderlage (ZH) Pelletheizungen als Ölheizungsersatz
+ausschliesst. Ersetzt durch einen expliziten Warnhinweis; zusätzlich den Nachfolger der SIA 384/2
+(SN EN 12831 / SIA 384.201, SIA 384/1) im Aktualitätsvorbehalt ergänzt.

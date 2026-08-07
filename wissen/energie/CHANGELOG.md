@@ -1,5 +1,71 @@
 # CHANGELOG
 
+## 2026-08-07 (Run 125) — Minergie-Restbestand PL-02 abgeräumt, GEAK-Methodik erschlossen, zwei Ordner-Ablage-Fallen und ein heute falscher Rechtsstand korrigiert
+
+15 PDF aus dem PL-02-Minergie-Ordner gelesen, **9 neue Destillate**. Neun Destillier-Agenten
+(Sonnet, lokale Arbeitskopien), vier Prüf-Agenten im Hauptmodell, drei Korrektur-Agenten;
+Urteile, Gegenprüfung am Original und Registerpflege im Hauptmodell.
+
+**Neu:** `geak-normierung-berechnungsmethodik` (EnDK «Normierung des GEAK» V 2.1.0, 30.03.2023,
+79 S. vollst. — die Rechenlogik hinter der Etikette: drei Skalen mit drei Bezugsgrössen,
+Gewichtungsfaktor Strom 2,0 in Bedarf UND Produktion, PV nur Eigenverbrauch + 40 % der
+Einspeisung, Erzeugungsverluste ohne eigenen Rechengang) · `geak-basisbroschuere-2023`
+(**established**) · `minergie-nachweisformular-2022-set` (⚠ Formular befristet bis 31.12.2023,
+heute abgelaufen) · `heizungsersatz-groessere-mfh-stweg` (erster KB-Beleg zum Heizungsersatz in
+der Stockwerkeigentümerschaft) · `innenraumklima-leistungsbeschrieb` (erster KB-Beleg, wie
+Innenraumklima vertraglich geschuldet wird) · `minergie-p-genese-passivhaus-vergleich-2002` ·
+`minergie-reglement-wegleitung-2010-historisch` (`superseded`, macht Altzertifikate 2010-2016
+lesbar) · `weg-zum-minergiezertifikat-ablauf` (bürointernes JANS-Papier, ausdrücklich keine
+amtliche Quelle) · `gebaeudehuelle-me3-zh-foliensatz`.
+
+**Zwei Ordner-Ablage-Fallen, beide am Titelblatt verifiziert:** `Infobrochuren/MFH.pdf` ist die
+BFE-Broschüre «Heizungsersatz in grösseren Mehrfamilienhäusern und bei Stockwerkeigentum»
+(10.2021), kein Minergie-Dokument; `Gebaeudehuellziffer/000000220024_Schlussbericht.pdf` ist der
+BFE-Vergleich «MINERGIE und Passivhaus» (März 2002), das Gründungsdokument für MINERGIE-P.
+**Merkregel erweitert:** weder Dateiname noch Ablageort sagen, was ein Dokument ist.
+
+**Verifikation.** Zwei Refuter mit getrennten Schwerpunkten auf das GEAK-Normierungsdestillat
+(63 bzw. 71 Aussagen geprüft, 10 bzw. 19 beanstandet). Vier tragende Befunde vom Hauptlauf selbst
+am Original nachgemessen und bestätigt: **direkte CO2-Emissionen sind klassenwirksam** (Kap. 1.1
+S. 6, Kap. 7.3.4 S. 67 — die bisherige Fassung widersprach dem established-Bestandsdestillat) ·
+die Zwei-Bedingungs-Regel der Verteilverluste gilt **nur für Heizung** (Gl. 5, S. 16) · der
+Faktor 2/3 ist der **Heizband**-Faktor (f_HB, S. 24) · der Überdimensionierungs-Malus steht nur
+in Gl. 17. Status bleibt `emerging` (E-125-1). Dritter Refuter: Basisbroschüre 56/65 bestätigt,
+neun Zitattreue-Beanstandungen korrigiert → **established**; Nachweisformular mit zwei tragenden
+Fehlern, darunter ein **erfundener offener Punkt** (das Blatt Übersicht trägt sehr wohl eine
+Versionszeile) → bleibt `emerging`.
+
+**Aktualitätsprüfung über fünf Alterskorpus-Destillate, gefährlichster Befund:**
+`heizungsersatz-groessere-mfh-stweg` relativierte die Aussage «ab 2030 keine fossilen Heizungen»
+nur gegen die noch nicht in Kraft gesetzte MuKEn 2025. Für ZH und SZ ist das falsch — die
+Substitutionspflicht gilt heute (§ 11 Abs. 2 EnerG ZH, § 8d kEnG SZ, belegt über das
+established-Destillat `oelheizung-gasheizung-ersatzpflicht-zh-sz`, das die Datei an keiner Stelle
+verlinkte). Korrigiert an beiden Orten. Ebenso korrigiert: **SIA 493 ist seit 30.06.2022
+archiviert, ohne Nachfolger** (eine LV-Klausel «Deklaration nach SIA 493» geht ins Leere), die
+Schadstoffabklärung ist bei Umbauten in ZH Pflicht und keine Bestelloption, und der
+Holz-Korrekturfaktor 0,6 von 2002 ist überholt (heute 0,5). Gegenprobe zur Über-Warnung: der
+Wärmebrückenwert **0,30 W/(m·K) gilt unverändert**, aber als Vollzugswert Typ 1 nach EnFK
+EN-102 / MuKEn-Anhang 1, nicht aus SIA 380/1.
+
+**Verdichtung:** vier neue Bauherren-Antworten **F218** (warum zwei gleiche Häuser verschiedene
+GEAK-Klassen tragen), **F219** (Heizungsersatz in der Stockwerkeigentümerschaft, Rechtslage vor
+Systemdiskussion), **F220** (Innenraumklima vertraglich verankern), **F221** (Minergie-Zertifikat
+von 2012 beim Kauf). **F36** geschärft. Themenartikel `geak-gebaeudeenergieausweis` um zwei
+Abschnitte gewachsen.
+
+**Register:** `destillate/INDEX.md`, `training/pdf-inventar.md` (Nachtrag Run 125),
+`training/curriculum.md` (D96), `raw/_INGESTED.md`, `wiki/QUESTIONS.md` (E-125-1 bis E-125-8),
+`wiki/INDEX.md`. Zählstand maschinell geprüft: **221 FAQ (F1-F221 lückenlos), 263 Destillate,
+33 Themenartikel, 0 nicht auflösbare Backlinks**. PL-02: **51 von 182** destilliert, 131 offen.
+
+**Eigener Fehler, festgehalten:** Die Korrekturspezifikation des Hauptlaufs war in
+ASCII-Umschrift geschrieben; die Korrektur-Agenten haben sie weisungsgemäss wörtlich übernommen
+und damit ae/oe/ue in die KB getragen. In einem eigenen Lauf nachgezogen. Merkregel: Was einem
+Agenten als wörtlich einzusetzender Text vorgegeben wird, muss die Zielkonvention bereits
+erfüllen — der Agent prüft sie nicht.
+
+Lauf-Report: `outputs/2026-08-07_energie-run125.md`.
+
 ## 2026-08-07 (Mac Mini Nachtschicht 02:30) — Minergie-Produktreglement 2026.1: Anhang G/H/J gelesen, E-124-2 geschlossen
 
 Fortsetzung des Run-124-Ausblicks (letzter offener Punkt "Anhang J und G des Produktreglements
