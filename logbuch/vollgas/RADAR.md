@@ -52,6 +52,115 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-08 00:58 — [FREI] Erster Lauf im neuen 12-h-Takt, **kein** Aufsichtsausfall. Ampel springt erstmals auf **WARNUNG** (72.5 % bei 64.9 % verstrichener Woche, Vorsprung **+7.7**) — das ist ein Schwellenwert-Effekt einer guten Woche, keine Warnung im Wortsinn. **Eigener Defekt gefunden und behoben:** die Selbstkontrolle stand mit 11 h Toleranz gegen einen 12-h-Takt und haette ab sofort bei JEDEM Regellauf einen Ausfall gemeldet
+
+**Selbstkontrolle: sauber.** Letzter Eintrag 07.08. 20:01, dieser Lauf 08.08. 00:58, Abstand
+**4 h 57**. Der Takt ist seit 07.08. 21:21 **12-stuendlich** (`50 */12 * * *`, von 8 h
+zurueckgenommen auf Freigabe Raphaels, Commit `74a12e25`); `lastRunAt` = 2026-08-07T22:58Z =
+genau dieser Lauf, `nextRunAt` 12:57 CEST. Kein verpasster Lauf. Der 20:01-Eintrag war der
+Nachhol-Lauf des am 5h-Limit gescheiterten 16:58-Laufs, danach die erste regulaere Feuerung
+im neuen Takt.
+
+**Fenster FREI.** `claude -p "Antworte nur mit: OK" --model haiku < /dev/null` liefert **«OK»,
+rc=0** in Sekunden, ohne Watchdog. **Keine Waisen:** `ps -eo pid,ppid,command | grep "claude -p"`
+leer, `pgrep`-Gate-Zaehlung **0**.
+**Speicher:** **3.0 GB** frei+inactive+purgeable, Druckstufe **2 (warnend)** — unveraendert
+gegenueber 20:01 (2.38 GB), leicht entspannt, kein Handlungsbedarf.
+
+### Der eigene Defekt: Takt geaendert, Toleranz nicht mitgezogen
+
+Die Ruecknahme auf 12 h am 07.08. 21:21 hat die **Selbstkontroll-Toleranz in dieser Task nicht
+mitgezogen**: sie stand weiter auf **11 Stunden**, kalibriert auf den abgeloesten 8-h-Takt. Eine
+Toleranz unter dem Takt ist nicht bloss ungenau, sie ist **invertiert** — ab dem naechsten
+Regellauf (Abstand planmaessig 12 h) haette der Radar bei **jedem einzelnen Lauf** einen
+Aufsichtsausfall gemeldet, und die Meldung «Aufsicht ausgefallen» waere damit wertlos geworden,
+weil sie immer erschienen waere. Genau die Blindheit, gegen die die Selbstkontrolle gebaut wurde.
+
+**Behoben in diesem Lauf:** Toleranz auf **15 h** gesetzt, mit der Faustregel **Toleranz = Takt
++ 3 h** und der ausdruecklichen Pflicht, sie bei jeder kuenftigen Taktaenderung mitzuziehen
+(`~/.claude/scheduled-tasks/vollgas-chef-radar/SKILL.md`, Abschnitt SELBSTKONTROLLE). Das ist
+derselbe Fehlertyp, den dieser Radar bei anderen registriert: **eine Aenderung ist erst
+vollzogen, wenn alle Orte stimmen, an denen sie steht** (Schritt 3, drei Feuerorte). Hier war
+die Aufsicht selbst der Nachzuegler.
+
+### Wochenbudget: erstmals WARNUNG, und das ist die gute Nachricht
+
+`kontingent-budget.sh --json`, ohne Modellaufruf:
+
+| Groesse | Wert | Vergleich 07.08. 20:01 |
+|---|---|---|
+| Ampel | **WARNUNG** (Schwelle 70 %) | FREI |
+| Verbraucht | **121.12 Mio** von 167 = **72.5 %** | 107.78 Mio = 64.5 % |
+| Woche verstrichen | 64.9 % (109 h seit Reset Mo 12:00) | 61.9 % |
+| **Vorsprung** | **+7.7 Punkte** | +2.6 Punkte |
+| MacBook Pro / Mac Mini | 92.01 / 29.11 Mio (beide frisch) | 83.78 / 24.00 |
+
+Die Ampel steht zum ersten Mal seit Beginn der Budgetmessung am 03.08. nicht auf FREI. **Das ist
+kein Vorfall.** Die Schwellen sind **70 % WARNUNG / 85 % DROSSEL**; bei 72.5 % ist die
+Warnschwelle knapp ueberschritten, die Drosselschwelle liegt **12.5 Punkte** entfernt. Ein
+Verbrauch, der der Zeit um 7.7 Punkte vorauslaeuft, ist genau das, was der **stehende Entscheid
+Raphaels vom 03.08.** («gleichmaessig ueber die Woche») verlangt — nach einer Messreihe, in der
+der Vorsprung tagelang zwischen −10 und −14 Punkten lag und die wiederkehrende Sorge dem
+**ungenutzten** Kontingent galt. Eine Drossel nach Schritt 2c ist **nicht** ausgeloest und wurde
+**nicht** gesetzt.
+
+**Rate seit 20:01: 13.34 Mio in 4 h 57 = 2.69 Mio/h.** Die Treiber sind benannt und alle
+abgeschlossen: der Auslauf des `normen`-Vorrang-Laufs Run 47 (Schluss-Commit `2745f497` 20:02),
+`wissens-chef` Run 28 als Cross-KB-Fan-out (23:10–23:55, 20 Befunde, Commit `598be5e8`) und zwei
+Mini-Dispatch-Slots (21:29 / 23:37, zusammen 6.65 USD). **Diese Rate ist nicht fortschreibbar** —
+sie enthaelt zwei Einmalposten, und der Vorrang-Auftrag ist beendet.
+
+**Prognose fuer das Wochenende, ausdruecklich nur fuer den loopgetriebenen Fall** (Lehre aus der
+Fehlprognose vom 07.08., die um Faktor fuenf danebenlag, weil ein Auftragstag Raphaels nicht
+vorhersagbar ist): Rest **45.88 Mio auf 59 h** bis zum Reset Montag 12:00, volle Ausschoepfung
+braeuchte **0.78 Mio/h**. Die Nacht kostet nach Kalibrierung rund **4 bis 5 Mio** (neun
+gewoehnliche Loops ≈ 4.1 Mio), ein Samstag ohne Auftragsarbeit liegt deutlich unter 0.78 Mio/h.
+**Die wahrscheinlichere Abweichung bleibt Unter-, nicht Ueberausschoepfung** — DROSSEL wird ohne
+einen weiteren Vorrang-Auftrag nicht erreicht. Traefe einer ein, waere das der erwuenschte Fall
+und kein Anlass zu drosseln.
+
+### Liefer-Delta: alle Loops liefern, kein Stilllegungskandidat
+
+Kein Loop mit Delta Null. Geaenderte Wiki-/Output-Dateien in den letzten 16 h, nach KB:
+`baurecht` 12 · `energie` 11 · `normen` 8 · `immobilienbewertung` 4 · `grobkosten` 2 ·
+`koordination` 2 · `bauprodukte` 1 · `planungsgrundlagen` 1. Drei neue datierte Reports
+(`energie-run125`, `normen-run47`, IAZI-vs-UBS-Vergleich in der Immobilienbewertung).
+NAS-Selfcommit taktet unauffaellig alle 15 Min, zuletzt 01:00.
+
+Lauf-Journal 07.08.: **fuenf** Mini-Dispatch-Slots, davon vier mit rc=0 (14.71 USD zusammen) und
+**einer** mit rc=1 um 13:30 am Session-Limit («resets 1:50pm») — nach Schritt 2 ein **[VOLL 5h]**,
+also Erfolg im Sinne des Auftrags und **kein** Leerlauf. Fuer den 08.08. existiert noch kein
+Journal; die Nacht hat noch nicht gefeuert.
+
+### Feuermechanismen: unauffaellig
+
+Der ausgebaute Endlos-Runner bleibt ausgebaut: `ch.jans.vollgas-supervisor.plist.disabled-260729`
+und `ch.jans.vollgas-monitor.plist.disabled-260729` auf dem MacBook Pro, auf dem Mac Mini
+ebenfalls keine geladene Vollgas-Instanz. `ch.jans.nachtschicht` auf dem Mini ist geladen und
+zwischen den Slots ohne PID — das ist der **Normalzustand** eines Kalender-Jobs und keine
+Stoerung. Kein doppelt gefeuerter Loop erkennbar.
+
+**Nachtrag zur Modell-Politik:** Der Rollout auf die Mini-Tasks und in den Nachtschicht-Zyklus
+ist am 07.08. abends erfolgt (`69ddb5ff`, `be8d66a7`). Die dort mitgelieferte Messung ist fuer
+diese Aufsicht relevant: **42 von 53 Fehllaeufen der Nachtschicht sind Kontingent-Abbrueche, nur
+6 der 5-USD-Deckel.** Das stuetzt die stehende Regel, dass ein Delta von Null waehrend einer
+Sperre nie als Leerlauf gewertet wird — bei der Nachtschicht ist das der mit Abstand haeufigste
+Fehlerfall.
+
+**P1 — keiner.** Kein Blocker, der Raphael braucht. Keine Mail (Fenster frei, kein Wochenlimit,
+kein Login-Block).
+**P2 — Speicherdruckstufe 2** haelt sich seit dem 07.08. 20:01 auf beiden Messungen. Bei 3.0 GB
+frei ist das tragbar; wird die Stufe 3 erreicht oder faellt der Wert unter rund 1.5 GB, gehoert
+es in den naechsten Eintrag als eigener Befund.
+**P3 — Prognosemethodik.** Die im 20:01-Eintrag beschlossene Regel ist hier zum ersten Mal
+angewandt: jede Rate-Vorhersage sagt ausdruecklich dazu, dass sie nur fuer **loopgetriebene**
+Fenster gilt. Beibehalten.
+
+*Regellauf, schlank gefahren: Fensterprobe, Budget, Feuermechanismen, Liefer-Delta, Speicher,
+Eintrag. Die mechanische Datenerhebung lief nach Rule `modellwahl-routine` in einem
+haiku-Subagenten; Urteil, Budgetbewertung und dieser Eintrag im Hauptkontext.*
+
+---
 ## 2026-08-07 20:01 — [FREI, zwischenzeitlich VOLL 5h] Der 16:58-Lauf ist gestartet und hat nichts geliefert: **erster Aufsichtsausfall seit dem 05.08.**, Ursache ist ein ausgereiztes 5h-Fenster. Rate **3.01 Mio/h** statt vorhergesagter 0.3–0.6, Vorsprung −10.7 → **+2.6** — und der Verursacher ist zum ersten Mal messbar **Raphaels eigener Vorrang-Auftrag**, nicht ein Loop
 
 **Selbstkontrolle: AUFSICHTSAUSFALL, und zwar ein anderer Typ als bisher.** Letzter Eintrag
