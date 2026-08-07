@@ -1,0 +1,26 @@
+{
+  "zweck": "Banktransaktionen, die NICHT als Duplikat ignoriert werden duerfen, solange die genannte Klaerung laeuft. Gepflegt von Hand bzw. im Hauptkontext des Laufs, nie automatisch. Der Vorfilter zeigt sie in jedem Lauf und schlaegt Alarm, wenn eine davon aus der Duplikat-Liste verschwindet.",
+  "vorbehalte": [
+    {
+      "tx": 3470,
+      "datum": "2026-06-18",
+      "betrag": 15000,
+      "grund": "moegliche Zahlung auf RE-00087 (KISPI), UBS-Nachforschung Referenz BC304304495 laeuft seit 03.08.2026",
+      "gesetzt": "2026-08-07"
+    },
+    {
+      "tx": 3445,
+      "datum": "2026-06-02",
+      "betrag": 15000,
+      "grund": "moegliche Zahlung auf RE-00087 (KISPI), UBS-Nachforschung Referenz BC304304495 laeuft seit 03.08.2026",
+      "gesetzt": "2026-08-07"
+    },
+    {
+      "tx": 854,
+      "datum": "2023-03-09",
+      "betrag": 10770,
+      "grund": "deckt betrags- und datumsgleich RE-00028 (WINTEC Engineering AG) aus der Phantom-Liste, Zuordnung noch nicht verifiziert",
+      "gesetzt": "2026-08-07"
+    }
+  ]
+}

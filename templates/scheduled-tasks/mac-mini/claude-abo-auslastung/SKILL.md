@@ -123,3 +123,9 @@ Nur lesen und rapportieren. **Keine** Abo- oder Kontoänderungen, keine Änderun
 STOP-Flags oder Runner-Zuständen — eine Drosselung ist immer Raphaels Entscheid (Rule 260725);
 der Check empfiehlt, er handelt nicht. Ausgaben auf Schweizer Hochdeutsch mit echten Umlauten
 ä/ö/ü und ss statt ß. Zahlen mit Tausender-Apostroph.
+
+## Modell-Politik (Minimum Viable Model, Rule modellwahl-routine, 07.08.2026)
+Dieser Lauf ist mechanisch/script-getrieben: die eigentliche Arbeit (Daten sammeln, Scripts
+ausfuehren, Outputs zusammenfassen, Report formatieren) an einen Subagenten mit model: haiku
+delegieren; der Hauptkontext orchestriert nur und prueft das Ergebnis. Gleiches Ergebnis-Format
+wie bisher. Lohnt sich nur bei echtem Arbeitsvolumen — fuer einen Zweizeiler nicht delegieren.

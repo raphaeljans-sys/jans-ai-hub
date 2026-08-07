@@ -21,11 +21,31 @@ gegenuebersteht.
 ## Contract
 
 - **Trigger:** taeglich (Scheduled Task `zahlungsabgleich-check`) und auf Zuruf, vor jedem Mahnlauf.
-- **Connector:** `connectors/bexio.mjs --abgleich [--json]` (Bank-Feed `/3.0/banking/transactions`,
-  Rechnungen `/2.0/kb_invoice`, Zahlungen `/2.0/kb_invoice/{id}/payment`).
+- **Einstieg (seit 07.08.2026):** `scripts/bexio-vorfilter.mjs --voll` — EIN Aufruf statt drei.
+  Setzt `--abgleich`, `--duplikate` und `--verzug` selbst ab, trennt Einzel-Duplikate von
+  Pruefgruppen, vergleicht mit dem Snapshot des Vortages und gibt nur das Delta plus die
+  Fristenlage aus. Exit 0 = keine Aenderung · 10 = Delta · 2 = Fehler.
+- **Connector (Detailabfragen):** `connectors/bexio.mjs` (Bank-Feed `/3.0/banking/transactions`,
+  Rechnungen `/2.0/kb_invoice`, Zahlungen `/2.0/kb_invoice/{id}/payment`); `--rechnung <ID>` und
+  `--mahnstufe <ID>` gezielt bei Delta oder offenem Registerpunkt.
+- **Zustand:** `skills/zahlungsabgleich/state/zustand-letzter-lauf.json` (Snapshot, vom Script
+  fortgeschrieben) und `state/vorbehalte.json` (Tx, die NICHT als Duplikat ignoriert werden
+  duerfen — von Hand gepflegt, nie automatisch).
 - **Output:** Diskrepanz-Report nach `30 JANS AI HUB OUTPUT/zahlungsabgleich/<jahr>/`; bei
   Befund Benachrichtigung an Raphael. Verifizierter Status speist `mahnwesen`.
 - **Verwandt/Nachgelagert:** `mahnwesen` (mahnt auf dem verifizierten Stand).
+
+## Der Vorfilter (Kontext-Diaet, 07.08.2026)
+
+Bis zum 06.08.2026 las der taegliche Lauf rund 18 kB Roh-JSON und den 14 kB grossen Vorbericht
+und diffte von Hand. Der Vorfilter macht das Sammeln, Gruppieren und Diffen deterministisch;
+gemessen am 07.08.2026: **1.3 kB am ruhigen Tag** (nur Kennzahlen, «keine Aenderung», Fristen,
+Vorbehalte) statt rund 32 kB, **8.8 kB mit `--voll`**, wenn der Bericht die vollen
+Arbeitslisten neu aufbaut.
+
+Was das Script NICHT tut: es urteilt nicht. Ob ein Delta operativ ist, ob gemahnt oder gemeldet
+wird und was mit einer verschwundenen Vorbehalts-Tx geschieht, entscheidet der Hauptkontext.
+Die Trennung ist Absicht — sie folgt Rule `modellwahl-routine`, Punkt 2.
 
 ## HARTE REGEL — niemals blind abgleichen (Lektion 13.06.2026)
 

@@ -33,6 +33,19 @@ Fassung ein. Erst korrigieren, dann Entwurf. Das Überschreiben der Deliverables
 vorbehalten (A3-Guard «nie überschreiben», ausgehendes Behördendokument). Status: **überfällig
 seit 06.08.2026, Aktion Raphael, Reihenfolge unverändert.**
 
+Eintrag 07.08.2026 (Zahlungsabgleich, Nachmessung 21:34 — **RE-00100 steht neu auf
+Zahlungserinnerung, die Fälligkeit ist weiterhin nicht korrigiert**): Der Registereintrag von
+06:55 und der Morgenlauf um 08:23 führten RE-00100 (Swiss Central City Real Estate Fund,
+CHF 13'120.00) auf Level 0 ohne Mahnstufe. Am Abend mit `--mahnstufe 100` und `--verzug`
+übereinstimmend nachgemessen: **Stufe 1, Zahlungserinnerung, neue Frist 20.08.2026.** Wer sie
+gesetzt hat, gibt die API nicht her; der Hub war es nicht, der Lauf ist read-only. **Der offene
+Punkt bleibt und wird dadurch schärfer:** die Fälligkeit steht in bexio unverändert auf dem
+30.07.2026, also vier Tage vor der am 03.08. um 12:46 belegten Zustellung. Die Zahlungserinnerung
+stützt sich damit auf ein Fälligkeitsdatum, das vor der Zustellung liegt. Das Nachziehen ist
+nicht mehr Voraussetzung für die Stufe, sondern deren nachträgliche Begründung. Übrige vier
+Verzugsfälle unverändert. Status: **Fälligkeit korrigieren, Aktion Raphael; neue Frist 20.08.
+im Register.**
+
 Eintrag 07.08.2026 (Zahlungsabgleich-Check 08:23, an den Mahn-Datensätzen nachgemessen —
 **schliesst den Prüfpunkt vom 03.08. zur Mahnstufe RE-00087**): Der Registereintrag vom 03.08.
 hielt fest, dass Raphael eine `mahnung-3-re-00087.pdf` erzeugt und versandt hatte, während bexio

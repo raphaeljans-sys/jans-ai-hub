@@ -1,0 +1,623 @@
+{
+  "stand": "2026-08-07",
+  "kennzahlen": {
+    "echteEingaenge": 50,
+    "unreconciledCredit": 55,
+    "duplikatKandidaten": 84,
+    "duplikatEinzel": 24,
+    "duplikatGruppen": 15,
+    "phantome": 19,
+    "phantomSumme": 81364.7,
+    "verzugFaelle": 5,
+    "verzugSumme": 51400,
+    "eingangOhneBuchung": 1
+  },
+  "verzug": [
+    {
+      "nr": "RE-00087",
+      "kunde": "Universitäts-Kinderspital Zürich – Eleonorenstiftung",
+      "offen": 15000,
+      "faellig": "2026-04-16",
+      "letzteFrist": "2026-07-15",
+      "level": 3,
+      "stufe": "Mahnung 2"
+    },
+    {
+      "nr": "RE-00098",
+      "kunde": "Universitäts-Kinderspital Zürich – Eleonorenstiftung",
+      "offen": 13600,
+      "faellig": "2026-07-20",
+      "letzteFrist": "2026-08-12",
+      "level": 2,
+      "stufe": "Mahnung 1"
+    },
+    {
+      "nr": "RE-00099",
+      "kunde": "Universitäts-Kinderspital Zürich – Eleonorenstiftung",
+      "offen": 3680,
+      "faellig": "2026-07-20",
+      "letzteFrist": "2026-08-12",
+      "level": 2,
+      "stufe": "Mahnung 1"
+    },
+    {
+      "nr": "RE-00100",
+      "kunde": "Swiss Central City Real Estate Fund",
+      "offen": 13120,
+      "faellig": "2026-07-30",
+      "letzteFrist": "2026-08-20",
+      "level": 1,
+      "stufe": "Zahlungserinnerung"
+    },
+    {
+      "nr": "RE-00101",
+      "kunde": "Tschopp Gertrud & Stefan",
+      "offen": 6000,
+      "faellig": "2026-07-31",
+      "letzteFrist": "2026-08-16",
+      "level": 1,
+      "stufe": "Zahlungserinnerung"
+    }
+  ],
+  "phantome": [
+    {
+      "nr": "RE-00001",
+      "betrag": 300,
+      "datum": "2022-08-05",
+      "kunde": "Steinkogler Walter"
+    },
+    {
+      "nr": "RE-00027",
+      "betrag": 4480.3,
+      "datum": "2023-09-04",
+      "kunde": "Swiss Central City Real Estate Fund"
+    },
+    {
+      "nr": "RE-00028",
+      "betrag": 10770,
+      "datum": "2023-03-09",
+      "kunde": "WINTEC Engineering AG"
+    },
+    {
+      "nr": "RE-00029",
+      "betrag": 225,
+      "datum": "2023-09-04",
+      "kunde": "Pararaum"
+    },
+    {
+      "nr": "RE-00031",
+      "betrag": 8000,
+      "datum": "2023-09-04",
+      "kunde": "WINTEC Engineering AG"
+    },
+    {
+      "nr": "RE-00033",
+      "betrag": 2180,
+      "datum": "2023-09-04",
+      "kunde": "Rolf Schaffner dipl. Architekt ETH SIA"
+    },
+    {
+      "nr": "RE-00034",
+      "betrag": 9000,
+      "datum": "2023-09-04",
+      "kunde": "Benno Wild"
+    },
+    {
+      "nr": "RE-00035",
+      "betrag": 4780,
+      "datum": "2023-09-04",
+      "kunde": "Rolf Schaffner dipl. Architekt ETH SIA"
+    },
+    {
+      "nr": "RE-00037",
+      "betrag": 9000,
+      "datum": "2023-09-04",
+      "kunde": "Benno Wild"
+    },
+    {
+      "nr": "RE-00039",
+      "betrag": 1920,
+      "datum": "2023-09-25",
+      "kunde": "1291 Die Schweizer Anlagestiftung Immobilien Schweiz"
+    },
+    {
+      "nr": "RE-00040",
+      "betrag": 836,
+      "datum": "2023-09-25",
+      "kunde": "Rolf Schaffner dipl. Architekt ETH SIA"
+    },
+    {
+      "nr": "RE-00043",
+      "betrag": 9000,
+      "datum": "2023-10-05",
+      "kunde": "Benno Wild"
+    },
+    {
+      "nr": "RE-00045",
+      "betrag": 9000,
+      "datum": "2023-10-23",
+      "kunde": "Benno Wild"
+    },
+    {
+      "nr": "RE-00051",
+      "betrag": 5545.55,
+      "datum": "2024-03-21",
+      "kunde": "Benno Wild"
+    },
+    {
+      "nr": "RE-00055",
+      "betrag": 264.75,
+      "datum": "2024-05-10",
+      "kunde": "1291 Die Schweizer Anlagestiftung Immobilien Schweiz"
+    },
+    {
+      "nr": "RE-00058",
+      "betrag": 1621.5,
+      "datum": "2024-11-08",
+      "kunde": "Fabio Don Architekt"
+    },
+    {
+      "nr": "RE-00059",
+      "betrag": 100,
+      "datum": "2024-11-25",
+      "kunde": "BUREAU LAUPER GmbH"
+    },
+    {
+      "nr": "RE-00065",
+      "betrag": 450,
+      "datum": "2025-09-25",
+      "kunde": "U5 GmbH"
+    },
+    {
+      "nr": "RE-00075",
+      "betrag": 3891.6,
+      "datum": "2025-11-28",
+      "kunde": "Wohnbau-Genossenschaft Maur WOMA"
+    }
+  ],
+  "duplikatIds": [
+    854,
+    1431,
+    1477,
+    1556,
+    1591,
+    1714,
+    1718,
+    1722,
+    1726,
+    1732,
+    1737,
+    2065,
+    2089,
+    2108,
+    2130,
+    2149,
+    2166,
+    2485,
+    2493,
+    2507,
+    2515,
+    2522,
+    2529,
+    2536,
+    2543,
+    2550,
+    2557,
+    2561,
+    2570,
+    2581,
+    3385,
+    3387,
+    3422,
+    3425,
+    3427,
+    3430,
+    3433,
+    3436,
+    3437,
+    3445,
+    3458,
+    3470,
+    3471,
+    3472,
+    3473,
+    3474,
+    3475,
+    3476,
+    3477,
+    3478,
+    3483,
+    3484,
+    3485,
+    3486,
+    3487,
+    3492,
+    3493,
+    3494,
+    3498,
+    3500,
+    3501,
+    3502,
+    3503,
+    3504,
+    3505,
+    3506,
+    3507,
+    3508,
+    3509,
+    3510,
+    3511,
+    3512,
+    3522,
+    3523,
+    3526,
+    3527,
+    3528,
+    3529,
+    3531,
+    3532,
+    3535,
+    3536,
+    3538,
+    3539
+  ],
+  "einzel": [
+    {
+      "id": 854,
+      "datum": "2023-03-09",
+      "typ": "CREDIT",
+      "betrag": 10770,
+      "titel": "Credit Transfer With Agreed Commercial Information"
+    },
+    {
+      "id": 1431,
+      "datum": "2024-05-31",
+      "typ": "CREDIT",
+      "betrag": 6567.1,
+      "titel": "Credit Transfer With Agreed Commercial Information"
+    },
+    {
+      "id": 1477,
+      "datum": "2024-08-07",
+      "typ": "CREDIT",
+      "betrag": 729.7,
+      "titel": "Credit Transfer With Agreed Commercial Information"
+    },
+    {
+      "id": 1556,
+      "datum": "2024-11-29",
+      "typ": "CREDIT",
+      "betrag": 27027.15,
+      "titel": "Credit Transfer With Agreed Commercial Information"
+    },
+    {
+      "id": 1591,
+      "datum": "2024-12-05",
+      "typ": "CREDIT",
+      "betrag": 14009.75,
+      "titel": "Automatic Transfer"
+    },
+    {
+      "id": 2581,
+      "datum": "2025-07-22",
+      "typ": "CREDIT",
+      "betrag": 2154,
+      "titel": "Credit Creditor Reference"
+    },
+    {
+      "id": 3385,
+      "datum": "2026-04-30",
+      "typ": "DEBIT",
+      "betrag": 82.35,
+      "titel": "PayNet Order // E-BILL"
+    },
+    {
+      "id": 3387,
+      "datum": "2026-04-30",
+      "typ": "DEBIT",
+      "betrag": 500,
+      "titel": "Standing order"
+    },
+    {
+      "id": 3433,
+      "datum": "2026-05-26",
+      "typ": "DEBIT",
+      "betrag": 67.5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Globus Zürich City"
+    },
+    {
+      "id": 3436,
+      "datum": "2026-05-27",
+      "typ": "DEBIT",
+      "betrag": 9.1,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // SBB Bahnhof Wiedikon ZH"
+    },
+    {
+      "id": 3437,
+      "datum": "2026-05-26",
+      "typ": "DEBIT",
+      "betrag": 45.4,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // APPLE STORE R159"
+    },
+    {
+      "id": 3445,
+      "datum": "2026-06-02",
+      "typ": "CREDIT",
+      "betrag": 15000,
+      "titel": "Credit Creditor Reference"
+    },
+    {
+      "id": 3458,
+      "datum": "2026-06-15",
+      "typ": "CREDIT",
+      "betrag": 6000,
+      "titel": "Payment"
+    },
+    {
+      "id": 3470,
+      "datum": "2026-06-18",
+      "typ": "CREDIT",
+      "betrag": 15000,
+      "titel": "Credit Creditor Reference"
+    },
+    {
+      "id": 3471,
+      "datum": "2026-06-17",
+      "typ": "DEBIT",
+      "betrag": 3.7,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG"
+    },
+    {
+      "id": 3472,
+      "datum": "2026-06-17",
+      "typ": "DEBIT",
+      "betrag": 5,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3498,
+      "datum": "2026-06-23",
+      "typ": "DEBIT",
+      "betrag": 1.85,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich"
+    },
+    {
+      "id": 3500,
+      "datum": "2026-06-23",
+      "typ": "DEBIT",
+      "betrag": 13.09,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Lidl Zuerich"
+    },
+    {
+      "id": 3526,
+      "datum": "2026-06-30",
+      "typ": "CREDIT",
+      "betrag": 500,
+      "titel": "Credit Creditor Reference"
+    },
+    {
+      "id": 3527,
+      "datum": "2026-06-29",
+      "typ": "DEBIT",
+      "betrag": 1.2,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Post CH AG"
+    },
+    {
+      "id": 3528,
+      "datum": "2026-06-29",
+      "typ": "DEBIT",
+      "betrag": 2.95,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3529,
+      "datum": "2026-06-29",
+      "typ": "DEBIT",
+      "betrag": 3.05,
+      "titel": "Debit card payment // 4397XXXXXXXX3294 10/27 // Coop-1979 ZH Wiedikon"
+    },
+    {
+      "id": 3531,
+      "datum": "2026-06-30",
+      "typ": "DEBIT",
+      "betrag": 32.4,
+      "titel": "PayNet Order // E-BILL"
+    },
+    {
+      "id": 3532,
+      "datum": "2026-06-30",
+      "typ": "DEBIT",
+      "betrag": 119.8,
+      "titel": "PayNet Order // E-BILL"
+    }
+  ],
+  "gruppen": [
+    {
+      "datum": "2025-05-15",
+      "typ": "CREDIT",
+      "betrag": 14082.75,
+      "anzahl": 6,
+      "ids": [
+        2065,
+        2089,
+        2108,
+        2130,
+        2149,
+        2166
+      ]
+    },
+    {
+      "datum": "2025-07-08",
+      "typ": "CREDIT",
+      "betrag": 3429.45,
+      "anzahl": 6,
+      "ids": [
+        2485,
+        2493,
+        2507,
+        2529,
+        2543,
+        2557
+      ]
+    },
+    {
+      "datum": "2025-07-10",
+      "typ": "CREDIT",
+      "betrag": 1297.2,
+      "anzahl": 6,
+      "ids": [
+        2515,
+        2522,
+        2536,
+        2550,
+        2561,
+        2570
+      ]
+    },
+    {
+      "datum": "2026-06-19",
+      "typ": "DEBIT",
+      "betrag": 430,
+      "anzahl": 4,
+      "ids": [
+        3474,
+        3476,
+        3478,
+        3484
+      ]
+    },
+    {
+      "datum": "2026-05-23",
+      "typ": "DEBIT",
+      "betrag": 190,
+      "anzahl": 2,
+      "ids": [
+        3425,
+        3430
+      ]
+    },
+    {
+      "datum": "2025-03-05",
+      "typ": "DEBIT",
+      "betrag": 135,
+      "anzahl": 6,
+      "ids": [
+        1714,
+        1718,
+        1722,
+        1726,
+        1732,
+        1737
+      ]
+    },
+    {
+      "datum": "2026-06-19",
+      "typ": "DEBIT",
+      "betrag": 78.85,
+      "anzahl": 2,
+      "ids": [
+        3487,
+        3494
+      ]
+    },
+    {
+      "datum": "2026-05-23",
+      "typ": "DEBIT",
+      "betrag": 9.1,
+      "anzahl": 2,
+      "ids": [
+        3422,
+        3427
+      ]
+    },
+    {
+      "datum": "2026-06-18",
+      "typ": "DEBIT",
+      "betrag": 7.85,
+      "anzahl": 4,
+      "ids": [
+        3473,
+        3475,
+        3477,
+        3483
+      ]
+    },
+    {
+      "datum": "2026-06-24",
+      "typ": "DEBIT",
+      "betrag": 7.64,
+      "anzahl": 7,
+      "ids": [
+        3502,
+        3504,
+        3506,
+        3508,
+        3510,
+        3512,
+        3523
+      ]
+    },
+    {
+      "datum": "2026-06-19",
+      "typ": "DEBIT",
+      "betrag": 5.5,
+      "anzahl": 2,
+      "ids": [
+        3486,
+        3493
+      ]
+    },
+    {
+      "datum": "2026-06-30",
+      "typ": "DEBIT",
+      "betrag": 4.25,
+      "anzahl": 2,
+      "ids": [
+        3536,
+        3539
+      ]
+    },
+    {
+      "datum": "2026-06-30",
+      "typ": "DEBIT",
+      "betrag": 3.6,
+      "anzahl": 2,
+      "ids": [
+        3535,
+        3538
+      ]
+    },
+    {
+      "datum": "2026-06-24",
+      "typ": "DEBIT",
+      "betrag": 3.43,
+      "anzahl": 7,
+      "ids": [
+        3501,
+        3503,
+        3505,
+        3507,
+        3509,
+        3511,
+        3522
+      ]
+    },
+    {
+      "datum": "2026-06-19",
+      "typ": "DEBIT",
+      "betrag": 2.5,
+      "anzahl": 2,
+      "ids": [
+        3485,
+        3492
+      ]
+    }
+  ],
+  "eingaenge": [
+    {
+      "id": 1,
+      "date": "2021-10-01",
+      "amount": 2000
+    }
+  ]
+}
