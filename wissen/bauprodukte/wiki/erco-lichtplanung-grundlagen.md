@@ -639,7 +639,10 @@ Referenzprojekte:
   bewegliche Leuchten; Varianten direkt/indirekt/direkt-indirekt/Wandflutung.
   **Anordnung: Wandabstand = halber Leuchtenabstand; Leuchtenabstand = Höhe
   über Boden/Arbeitsfläche; Deckenabstand bei Indirektbeleuchtung ≥ 0,8 m**
-  (dritter, unabhängiger Beleg desselben 0,8-m-Werts nach S. 87 und S. 117).
+  (dritter, unabhängiger Beleg desselben 0,8-m-Werts nach S. 88 und S. 117;
+  **Seitenkorrektur Wissens-Chef Run 28, 07.08.2026**, vorher «S. 87 und S. 117» —
+  der erste Fund steht auf S. 88, konsistent zur Seitenkorrektur Run 27 weiter
+  unten; S. 87 trägt keinen 0,8-m-Wert).
   Anwendung: Allgemeinbeleuchtung Büros/Praxen, Verkehrsbereiche, zusätzliche
   Akzentuierung/Flutung.
 - **Downlights (S. 140-143):** rotationssymmetrischer, senkrecht nach unten
@@ -664,7 +667,9 @@ Referenzprojekte:
   definiert, nicht über die Lichtcharakteristik — eng-/breitstrahlend,
   symmetrisch/asymmetrisch je nach Richtung möglich. **Deckenfluter**
   (asymmetrisch nach oben, Montage über Augenhöhe, Deckenabstand mindestens
-  0,8 m — vierter, unabhängiger Beleg desselben Werts nach S. 88/117/138) und
+  0,8 m — vierter, unabhängiger Beleg desselben Werts nach S. 88/117/139;
+  **Seitenkorrektur Wissens-Chef Run 28, 07.08.2026**, vorher «S. 88/117/138»: der
+  Lichtstrukturen-Beleg steht auf S. 139, nicht auf S. 138) und
   **Bodenfluter** (asymmetrisch nach unten, Montagehöhe bei Sitzplatznähe unter
   Augenhöhe 1,2 m, üblich 0,8 m über Boden). Anwendung: Kirchen, Theater,
   Museen, Verkehrszonen; Wandeinbauleuchten unauffällige Architekturdetails,
@@ -756,7 +761,11 @@ Uniformität. **Anordnungsregeln (S. 3 m):** Wandabstand mindestens ein Drittel
 der Raumhöhe (alternativ 20°-Linie vom Wandfusspunkt zur Decke), optimaler
 Leuchtenabstand = Wandabstand, **Mindestzahl drei Leuchten** für optimale
 Gleichmässigkeit, Eckposition auf der 45°-Linie — deckungsgleich mit den bereits
-in Teil 1 notierten Werten (S. 85-87/136), hier am Original für den
+in Teil 1 notierten Werten (S. 87/137/142; **Seitenkorrektur Wissens-Chef Run 28,
+07.08.2026**, vorher «S. 85-87/136»: 1/3-Regel, 20°-Linie und Leuchtenabstand =
+Wandabstand stehen auf S. 87 und S. 137, Mindestzahl drei Leuchten und
+45°-Eckposition auf S. 87 und S. 142; S. 85/86 tragen keinen dieser Werte), hier
+am Original für den
 5-m-Wandfall zusätzlich präzisiert: bei hohen Räumen muss der Leuchtenabstand
 gegenüber dem Wandabstand **reduziert** werden, um die mit der Raumhöhe
 abfallende Beleuchtungsstärke zu kompensieren (höhere Lampenleistung oder mehr
@@ -902,10 +911,15 @@ in Hotels/Theatern/Kinos/Konzertsälen, Flure, Treppen.
   (S. 142) ist ein konkretes Gegenargument, wenn eine Bauherrschaft aus
   Kostengründen eine Wandflutung mit nur ein oder zwei Leuchten wünscht — direkt
   mit dem Herstellertext begründbar, ohne selbst zu behaupten.
-- Der **20°-Mindestwinkel für den Wandfluter-Wandabstand** (S. 136) ist eine
+- Der **20°-Mindestwinkel für den Wandfluter-Wandabstand** (S. 137) ist eine
   prüfbare Faustregel für die Vorprüfung eines vorgeschlagenen
   Deckenraster-/Möblierungsplans, bevor ein Fachplaner beigezogen wird —
   ergänzt die bereits notierte Drittel-Raumhöhe-Regel um den Winkelbezug.
+  **Seitenkorrektur 07.08.2026 (Cross-KB-Lauf Run 28, am Original nachgelesen):**
+  der 20°-Mindestwinkel steht auf **S. 137** (Abschnitt «Anordnung»: «Dies
+  entspricht einem Winkel von mindestens 20°»), nicht auf S. 136 — S. 136 enthält
+  nur Produktbeschreibungen (Duofokal-/Linsen-/Wandfluter, Perimeterleuchten) ohne
+  Winkelangabe. Derselbe Wert ist zusätzlich auf S. 87 und S. 142 belegt.
 - Die **Fluchtwegs-/Notbeleuchtungs-Abgrenzung** (S. 150-151: Orientierungs-
   vs. Not-/Hinweisleuchten, drei Gruppen Hinweis-/Sicherheits-/
   Ersatzbeleuchtung) ist der zweite direkte Brandschutz-Anschlusspunkt in
@@ -915,9 +929,16 @@ in Hotels/Theatern/Kinos/Konzertsälen, Flure, Treppen.
   Sicherheitsbeleuchtung), nicht der Herstellertext.
 - Die **Deckenabstand-0,8-m-Regel** ist inzwischen an **fünf unabhängigen
   Stellen** desselben Dokuments belegt (S. 88 Deckenfluter, S. 117 indirekte
-  Beleuchtung, S. 138 Lichtstrukturen, S. 146 Wandleuchten-Deckenfluter, S. 170
+  Beleuchtung, S. 139 Lichtstrukturen, S. 146 Wandleuchten-Deckenfluter, S. 170
   Deckenbeleuchtung) — ein durchgehend stabiler, zitierfähiger Planungswert,
   keine Einzelfundstelle mit Ausreisser-Risiko.
+  **Seitenkorrektur 07.08.2026 (Cross-KB-Lauf Run 28, am Original nachgelesen):**
+  der Lichtstrukturen-Beleg steht auf **S. 139** («Der Abstand zur Decke sollte bei
+  Indirektbeleuchtung mindestens 0,8 m betragen»), nicht auf S. 138 — S. 138 trägt
+  nur den Abschnitt «Lichtstrukturen | Licht/Leuchten» ohne 0,8-m-Wert. Die
+  Kapitelspanne «Lichtstrukturen (S. 138-139)» weiter oben bleibt richtig, ebenso
+  die vier übrigen Fundstellen (S. 88/117/146/170, alle gegengeprüft). Der Sachwert
+  0,8 m ist unverändert.
 - Das Gliederungsprinzip des neuen Kapitels **«Lichtanwendungen» nach
   Bezugsfläche** (Nutzfläche/Wand/Decke/Boden/Objekt/Orientierung/Hinweis)
   ergänzt das bereits gelesene Gliederungsprinzip **«Leuchtengruppen» nach

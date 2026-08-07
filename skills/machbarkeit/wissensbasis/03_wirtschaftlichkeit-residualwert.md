@@ -20,6 +20,13 @@ Steinhof ROI, WALD Rentabilität.
 nach Abzügen **CHF 2'967'000 = CHF 3'610/m² GSF**; Brutto-/Nettorendite nach Fertigstellung
 **2.9 % / 2.5 %**; Wert Liegenschaft mit STWE CHF 4'688'000.
 Gegenkontrolle immer über UBS-Fact-Sheet (Baulandpreis/m²) + Makleranalyse.
+**Vorbehalt (Wissens-Chef Run 28, 07.08.2026):** Die Preis- und Baulandwerte des UBS-Fact-Sheets
+stammen laut dessen Quellenverzeichnis von Wüest Partner (belegt am Exemplar Wangen SZ 12/2025,
+S. 13), sind also **keine von WP unabhängige Zweitquelle**; der ausgewiesene Baulandpreis ist
+zudem selbst residualmethodisch modelliert. Das Fact-Sheet bleibt als Marktabgleich brauchbar,
+ersetzt aber keine unabhängige Zweitmeinung: die liefern nur IAZI/CIFI oder die kantonale
+Handänderungsstatistik. Die Makleranalyse ist hier die unabhängige Komponente. Herkunft und
+Belege: KB `wissen/immobilienbewertung/wiki/vergleichswert-hedonisch.md`.
 
 ## Marge-/Controlling-Methode (Ankaufsprüfung, Beleg Niederhasli)
 **Controlling Fact Sheet** (Kernprodukt Typ B): Grundstück/Zone · Kaufpreis · baurechtliche

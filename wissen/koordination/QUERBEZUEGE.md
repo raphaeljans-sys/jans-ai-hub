@@ -39,15 +39,17 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Aufzuege/Befoerderungsanlagen: **Brandschutz- und Barrierefreiheits-Anforderungen** (VKF-BRL 23-15, SIA 500 Ziff. 3.7.3, SN EN 81-28/-70/-80) | **normen** | bauprodukte (Produkt-/Systemwissen BKP 261; verweist und schreibt die **bedingt formulierten** Anforderungen nicht fort) — NEU Run 21 |
 | **SWKI-Richtlinien: Fundstelle, Ausgabe, Fassungsstand** (VA103-1, VA105-01, VA106, 2004-1) | **normen** (Registerzeile; Bestandseintraege ohne ungedeckte Gueltigkeitsaussage) | energie fuehrt die **angewandte Fachaussage** (Lueftung/HLK-Physik) und verweist fuer Ausgabe und Fassungsstand dorthin — **Entscheid Raphael 31.07.2026**, gesetzt Run 21. Es ist keine Scope-Ausweitung, sondern der fuer SIA/VKF/VSS geltende Zuschnitt auf einen weiteren Herausgeber; Praezedenz ist bfu (normen fuehrt seit Run 38 alle neun bfu-Publikationen) |
 | Zahlen eines konkreten Projekts (Volumen, Flaechen, Kennwerte, Stand) | **die Projekt-Wahrheit**: `PROJEKT-STAND.md` im Projektordner + das Deliverable (Rule `projekt-ablage-stand`) | kunde-bopp und die Skills zitieren, fuehren aber nicht; fuehrend fuer die **Methode** ist der jeweilige Skill (z.B. `massgebendes-terrain`) — NEU Run 21 |
-| Aufzug: **Energie- und Leistungsbedarf** (SIA 2056:2019 Ziff. 6.23 — Gl. 107, vier Nutzungsintensitaetsstufen nach Gebaeudetyp Tab. 78, Rekuperations-/Hydraulikfaktoren) | **normen** (`sia-592-056`, S. 1-130 gelesen, established) | energie fuehrt die **Geraete-/Marktseite** (VDI-4707-Effizienzklassen A-G, Standby-Anteile, Herstellerkennzahlen) und verweist fuer die Normrechnung dorthin. SIA 2056 uebernimmt die VDI-Kategorien **nicht** — NEU Run 22, nachdem energie genau das aus Sekundaerquellen behauptet hatte |
+| Aufzug: **Energie- und Leistungsbedarf** (SIA 2056:2019 Ziff. 6.23 — Gl. 107, vier Nutzungsintensitaetsstufen nach Gebaeudetyp Tab. 78, Rekuperations-/Hydraulikfaktoren) | **normen** (`sia-592-056`, S. 1-130 gelesen, established) | energie fuehrt die **Geraete-/Marktseite** (VDI-4707-Effizienzklassen A-G, Standby-Anteile, Herstellerkennzahlen) und verweist fuer die Normrechnung dorthin. SIA 2056 uebernimmt die VDI-Kategorien **nicht** — NEU Run 22, nachdem energie genau das aus Sekundaerquellen behauptet hatte · **ergaenzt Run 28 (07.08.2026):** `bauprodukte` fuehrt fuer BKP 261 das Produkt-/Systemwissen und **verweist nur** — der Verweis auf `wissen/normen/destillate/sia-592-056.md` ist am 07.08.2026 an der Elektro-Schnittstelle gesetzt, samt Vorbehalt, dass SIA 2056 Ziff. 0.1.1 eine **Vorprojekt-Abschaetzung** liefert und die projektspezifische Anschlussleistung Lieferantenangabe bleibt |
 | **Primaertabellen/exakte Quantile** aus dem OneDrive-Marktdatenbestand (Wuest, BFS, werk-material) | **immobilienbewertung** (Ingest-Reports in `outputs/`) liefert sie; **fuehrend fuer die Verwendung** bleiben `skills/kostenschaetzung/referenzen` (Wuest-Benchmark) bzw. **grobkosten** (CHF/m3 GV) | Regel aus Run 22: sobald eine exakte Primaertabelle im Hub liegt, ersetzt sie die Diagramm-Ablesung im fuehrenden Blatt — Zahlen und Provenienz immer gemeinsam bewegen |
 | Projekt-Lessons: Beweiskette eines konkreten Einzelfalls (Herkunft einer Vorgabe, Fallwerte aus Unternehmerdoku) | **projekt-lessons** | normen (generische Norm-/VKF-Kennwerte), auflagebereinigung (Auflagen-Ziffer/Amt/Frist), grobkosten/immobilienbewertung (Kennwerte) — **projekt-lessons fuehrt KEINE generischen Kennwerte oder Normfundstellen**, nur den belegten Fall — NEU Run 16 (Erst-Pruefung) |
 | Oekologische Materialvorgaben in der BESCHAFFUNG (eco-bau/ecoBKP-Merkblaetter nach BKP, bauoekologische Submissionsbedingungen, Devis-/Baustellenkontrolle, Zielvereinbarungen SIA 112/1) | **energie** (Beschaffungs- und Vollzugslogik) | bauprodukte fuehrt weiterhin das Produkt-/Systemwissen nach BKP und zieht die eco-Aussagen als **datierten Stand 2008** heran, nie als heutige Produktvorgabe; normen fuehrt jede Norm-Fundstelle darin — NEU Run 25 (Erst-Pruefung der eco-BKP-Achse) |
 | Gueltigkeits-/Fassungsstand einer Norm (gilt · archiviert · ersetzt durch, mit Herausgeber-Beleg und Abrufdatum) | **normen** — und zwar getrennt vom Inhaltsstatus des Destillats (`gueltigkeit` neben `status`) | JEDE andere KB verweist dorthin und schreibt keinen eigenen Gueltigkeitsvermerk fort; meldet sie eine Archivierung, ist sie in normen NACHZUZIEHEN (sonst verpufft die Uebergabe) — NEU Run 25, Anlass SIA 493 und SIA 430 |
-| Beleuchtung: **Beleuchtungsstaerken E_m / UGR nach EN 12464-1** und spezifische Anschlussleistung | **normen** fuer Fundstelle und Ausgabe — fuehrt bis 05.08.2026 **kein** EN-12464-1-Destillat (echte Registerluecke, nachgemessen); Nachweisverfahren SIA 387/4 bzw. SIA 2056 und ZH-Vollzug EVEN/EN-111 bei **planungsgrundlagen** | energie verweist (Luecke E-122-6 bleibt offen; einziger Zahlenbestand im Hub ist der **datierte** AHB-Auszug vom 19.01.2007, destilliert in `planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards` §14.2 — Stand vor EN 12464-1:2011 / SIA 2024:2006, **nicht** als heutige Bemessung verwendbar) · bauprodukte fuehrt ausschliesslich **Lampen-/Leuchtenkennwerte** BKP 233 (lm/W, Ra, Farbtemperatur) und schreibt keine Normwerte fort; ein Herstellerratgeber (ERCO) ist fuer EN-Normwerte keine zulaessige Quelle — NEU Run 26. Fuehrt keine neue Fuehrung ein, sondern schreibt die bestehenden Zeilen «Norm-Fundstellen IN bauprodukte-Artikeln» und «Produkt-/Systemwissen nach BKP» fuer diesen Fall aus |
+| Beleuchtung: **Beleuchtungsstaerken E_m / UGR nach EN 12464-1** und spezifische Anschlussleistung | **normen** fuer Fundstelle und Ausgabe — fuehrt bis 05.08.2026 **kein** EN-12464-1-Destillat (echte Registerluecke, nachgemessen); Nachweisverfahren SIA 387/4 bzw. SIA 2056 und ZH-Vollzug EVEN/EN-111 bei **planungsgrundlagen** | energie verweist (Luecke E-122-6 bleibt offen; einziger Zahlenbestand im Hub ist der **datierte** AHB-Auszug vom 19.01.2007, destilliert in `planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards` §14.2 — Stand vor EN 12464-1:2011 / SIA 2024:2006, **nicht** als heutige Bemessung verwendbar) · bauprodukte fuehrt ausschliesslich **Lampen-/Leuchtenkennwerte** BKP 233 (lm/W, Ra, Farbtemperatur) und schreibt keine Normwerte fort; ein Herstellerratgeber (ERCO) ist fuer EN-Normwerte keine zulaessige Quelle — NEU Run 26. Fuehrt keine neue Fuehrung ein, sondern schreibt die bestehenden Zeilen «Norm-Fundstellen IN bauprodukte-Artikeln» und «Produkt-/Systemwissen nach BKP» fuer diesen Fall aus — **Nachtrag 07.08.2026 (Run 28):** Die Klausel «einziger Zahlenbestand im Hub» ist ueberholt. `normen` fuehrt E_vm-Werte je Raumnutzung bereits seit dem SIA-2056-Destillat vom 24.07.2026 (`wissen/normen/destillate/sia-592-056.md`, Tab. 42, S. 38-39, ohne UGR); seit 07.08.2026 fuehrt `wissen/normen/destillate/sia-387-4-2017.md` (established, Refuter-verifiziert) zusaetzlich E_vm/k_0/E_0 UND UGR fuer die 43 SIA-2024-Standardnutzungen (Tabelle 4, S. 18-19, bild-verifiziert) sowie p_L/t_L/E_L (Tabelle 13, S. 32-33). Damit ist der Zahlenbedarf fuer die SIA-2024-Standardnutzungen aus `normen` deckbar; die Luecke **E-122-6 bleibt OFFEN**, weil SIA 387/4 selbst auf SN EN 12464-1 als massgebend verweist (Ziff. 2.2.3, Ziff. 4.2.1) und weder Nutzungen ausserhalb der 43 Standardnutzungen noch Wohnen/Notbeleuchtung (Ziff. 0.1.5-0.1.6) abdeckt. Beim Vergleich mit dem AHB-Auszug 2007 gilt ein **Bezugsgroessen-Vorbehalt**: SIA 2056 Tab. 42 fuehrt Bettenzimmer mit 300 lx, SIA 387/4 Tab. 4 mit E_vm 100 lx (E_0 = 300 ueber k_0 = 3) — vor jeder Uebernahme klaeren, ob E_vm oder E_0 gemeint ist |
 | **Fassungsstand einer VKF-Publikation, wenn das Haus-Archiv veraltet ist** (SharePoint PL-02/PL-03 gegen den VKG-Publikationsendpunkt) | **normen** — und zwar gegen `services.vkg.ch` / `services2.vkf.ch`, nicht gegen den SharePoint-Bestand | Der Hausbestand ist **kein Gueltigkeitsbeleg**, sondern nur ein Bestandsnachweis. Belegt in Run 26 an zwei Publikationen zugleich (BSM 2001-15: Haus 2015, geltend 2022, dazwischen die nie bemerkte Ausgabe 2017; BRL 22-15: Haus 2015, geltend 2017). Jeder Destillat-Lauf, der brav «Primaerquelle SharePoint» liest, reproduziert den Fehler — deshalb ist der Endpunkt-Abgleich Pflichtschritt, bevor ein VKF-Destillat `established` wird — NEU Run 26 |
 | **Bezeichner-Kette einer zurueckgezogenen Ausfuehrungsnorm** (SEV 4022 → SNR 464022 → SN 414022) | **normen** (`wiki/REGISTER.md`, Abschnitt D — seit Run 27 mit Electrosuisse-/CES-Zeile) | energie fuehrt den Primaerbeleg (`snr-464022-blitzschutz-ausfuehrung.md`, Electrosuisse-Shop DV-48384/1) und bleibt dessen Traeger; normen verweist darauf, statt zu kopieren. **Zwei Vorbehalte gehoeren an die Registerzeile:** der Volltext der Ausgabe 2024 ist nicht gelesen (kostenpflichtig, keine Inhaltsaussage ableiten), und die geltende VKF-BRL 22-15:2017 nennt weiterhin SNR 464022 — ein VKF-Zitat bleibt korrekt, es braucht nur den Waehrungshinweis; in einem LV beide Bezeichner fuehren — NEU Run 27 |
 | **Healthcare-UMBAU-Kostenband CHF/m² NF je Stationstyp** (JANS «Spektrumskosten», sechs Stufen, JANS-Eigenmaterial 2025) | **immobilienbewertung** (`realwert-sachwert`) | `skills/kostenschaetzung` verweist seit Run 27 darauf und fuehrt weiterhin den Wuest-Neubau-Benchmark und den Reduktionsfaktor-Weg. Die beiden Wege widersprechen einander nicht, sie sind deckungsgleich kalibriert; das Band ist die feiner aufgeloeste Fassung und geht vor, **sobald ein Stationstyp benannt ist**. Bezugsflaechen-Vorbehalt wandert zwingend mit (Band = CHF/m² NF, Realfall 1'100 = CHF/m² HNF, NF und GF nicht vergleichbar) — NEU Run 27, die Zustaendigkeit war bis dahin ueberhaupt nicht geregelt |
+| **Anlegen und Ueberschreiben einer Destillat-/Artikeldatei** | **der destillierende Lauf** — nur er hat die Quelle gelesen | Struktur-, Health-Check- und Reparaturlaeufe duerfen ausschliesslich **anlegen, wo nichts ist**, und **nie ueberschreiben**; ein Stub-Titel wird aus der gelesenen Datei oder der Quelle genommen, **nie aus der Normnummer geraten**. Ein Reparaturlauf, der Inhalt erzeugt, braucht dieselbe Verifikationsstufe wie ein Destillier-Lauf — NEU Run 28, Anlass Commit `f147dac4` (477 Zeilen established-Bestand ueberschrieben, zwei Gegenstaende falsch geraten) |
+| **Unabhaengigkeit einer Marktdaten-Zweitquelle** (wer darf als «Gegenkontrolle» gelten) | **immobilienbewertung** (`datenquellen-registry`, `vergleichswert-hedonisch`) — dort ist am Original belegt, welcher Anbieter von welchem abhaengt | Alle Skills (`machbarkeit`, `kostenschaetzung`, `grobkosten-onepager`) verweisen dorthin und behaupten keine Unabhaengigkeit selbst. **Belegt Run 28:** UBS RE LFS bezieht seine Preisdaten von Wuest Partner (Quellenverzeichnis LFS S. 13) und ist damit **kein** von WP unabhaengiger Gegencheck; unabhaengig sind IAZI/CIFI und die kantonale Handaenderungsstatistik — NEU Run 28 |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -122,7 +124,115 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > nie ungeprueft** — in diesem Lauf hat das vier von fuenf Ausfuehrenden je mindestens einen
 > Vorlagenfehler finden lassen.
 
+> **NEU Run 28 — achtes Muster «der Reparatur-Lauf ist selbst die Fehlerquelle»:** Commit
+> `f147dac4` (07.08.2026 20:54, «normen: … 6 Artikel-Stubs fuer tote Backlinks angelegt +
+> ins INDEX aufgenommen (Health-Check Rueparatur 260807)») hat **drei** der sechs Stubs auf
+> Dateinamen geschrieben, die bereits mit established-Volltext existierten: `sia-180-2014.md`
+> (137 Zeilen, «destilliert VOLLSTAENDIG», Anhaenge A-H), `din-1961-2010.md` (299 Zeilen,
+> refuter-verifiziert Mini-Run 14 und 25), `sia-mb-2024-2006.md` (55 Zeilen, established).
+> **477 Zeilen geloescht, 3,5 Stunden lang unbemerkt** — gefunden erst durch diesen Lauf, und
+> zwar von zwei unabhaengigen Feldern zugleich (B und F, fuenf konvergente Befunde).
+> **Regel daraus: ein Generator, der Dateien anlegt, prueft auf Existenz und ueberschreibt nie.
+> Und ein «Reparatur»-Lauf braucht dieselbe Verifikationsstufe wie ein Destillier-Lauf** — er
+> hatte hier gar keine. Zurueckgenommen aus `f147dac4^` am 07.08.2026, INDEX bereinigt.
+>
+> **NEU Run 28 — «der erfundene Beleg auf der Ebene des Dateititels»:** Derselbe Lauf hat die
+> Stub-Titel aus der blossen Normnummer geraten, ohne die vorhandene Datei zu lesen: DIN 1961
+> wurde zu «Elektrische Leitungen — Bemessung und Ausfuehrung» (tatsaechlich **VOB Teil B**,
+> Allgemeine Vertragsbedingungen fuer die Ausfuehrung von Bauleistungen), SIA MB 2024 zu «Beton
+> mit Recycling-Gesteinskoernungen» (tatsaechlich **Standard-Nutzungsbedingungen fuer die
+> Energie- und Gebaeudetechnik**; der Betontitel gehoert zu SIA 2030). Beide falschen Titel
+> standen danach als saubere Tabellenzeile im INDEX. Das ist die Fehlerklasse aus Run 27 eine
+> Ebene hoeher: **nicht die Zahl im Artikel ist erfunden, sondern der Gegenstand des Artikels** —
+> und in einer Registerzeile sieht das vollstaendig verifizierbar aus.
+>
+> **NEU Run 28 — «der Backlink-Pruefer, der Feldnamen fuer Feldwerte haelt»:** Derselbe Lauf hat
+> aus dem Frontmatter-Feld `links:` einen toten Backlink «links» abgeleitet und dafuer den Artikel
+> `destillate/links.md` angelegt. Der Stub beschreibt sich selbst als «Redirect» und haelt fest,
+> er «sollte normalerweise nicht vorhanden sein» — er traegt trotzdem `status: established`.
+> **Regel: ein Struktur-Pruefer, der Feldnamen nicht von Feldwerten unterscheidet, erzeugt
+> Phantom-Artikel** und meldet sie anschliessend als Bestand. Verbleib des Stubs: offener Entscheid
+> fuer Raphael (Loeschung braucht Einzelfreigabe).
+
 ## Gepruefte Paare
+
+### normen (intern, Folgen fuer alle Abnehmer) — Datenverlust durch den eigenen Health-Check-Reparaturlauf — geprueft 2026-08-07 (Run 28)
+- **Befund (bestaetigt, hoch, vom Hauptprozess selbst am Original nachgemessen):** siehe achtes
+  Struktur-Muster oben. Drei established-Destillate mit 15-Zeilen-Stubs ueberschrieben, dazu drei
+  Falsch-Zeilen im `destillate/INDEX.md`, die dieselben Dateien ein zweites Mal als `speculative`
+  fuehrten — der INDEX widersprach sich also selbst und wies zugleich den falschen Gegenstand aus.
+- **Konvergenz als Qualitaetssignal:** Feld B (baurecht ↔ normen) und Feld F (energie ↔ normen)
+  sind voellig unabhaengig auf denselben Commit gestossen, weil beide Felder Zahlen aus genau diesen
+  Destillaten gegenlesen wollten und statt der Zahlen einen Stub vorfanden. Ein Lauf, der nur einem
+  Feld folgt, haette das mit einiger Wahrscheinlichkeit nicht gesehen.
+- **Aktion:** zurueckgenommen aus `f147dac4^`, INDEX bereinigt, in `normen/CHANGELOG.md` protokolliert.
+  Die drei echt neuen Stubs (`sia-102-2003.md`, `sia-2032.md`, `links.md`) bleiben stehen.
+- **Status:** erledigt, mit einem offenen Entscheid (Verbleib von `links.md`) und einer offenen
+  Betriebsfrage (wer den Health-Check-Reparaturlauf so absichert, dass er nicht ueberschreibt).
+
+### normen ↔ energie (Beleuchtung: SIA 387/4, SIA 2056, EN 12464-1) — geprueft 2026-08-07 (Run 28)
+- **Befund (gedaempft, mittel):** Die Beleuchtungs-Zeile dieses Registers (Stand Run 26, 05.08.2026)
+  war in einem Teil ueberholt. Sie sagt zweierlei; **Teil (a) haelt** — `normen` fuehrt weiterhin
+  **kein** EN-12464-1-Primaerdestillat (nachgemessen, nur Sekundaernennungen) —, **Teil (b) ist
+  ueberholt**: «einziger Zahlenbestand im Hub ist der AHB-Auszug 2007» stimmte schon am 05.08. nicht,
+  weil SIA 2056 (Destillat vom 24.07.2026) E_vm-Werte je Raumnutzung fuehrt. Der Melder hat den
+  Umschlag auf den 07.08. datiert und damit einen zweiten, feineren Registerfehler reproduziert;
+  die Verifikation hat das korrigiert.
+- **Aktion:** Nachtrag an der Zeile, **ergaenzend, nicht ueberschreibend** (viertes Struktur-Muster).
+  Die Luecke **E-122-6 bleibt offen**, weil SIA 387/4 selbst auf SN EN 12464-1 verweist und weder
+  Nutzungen ausserhalb der 43 SIA-2024-Standardnutzungen noch Wohnen/Notbeleuchtung abdeckt.
+- **Abgespalten als KB-intern:** die Bezugsgroessen-Divergenz E_vm (SIA 2056 Bettenzimmer 300 lx
+  gegen SIA 387/4 E_vm 100 lx bei E_0 = 300) ist in `normen/wiki/QUESTIONS.md` angemeldet, nicht hier
+  — sie liegt vollstaendig innerhalb einer KB und ist damit kein Cross-KB-Bezug.
+- **Zweite Achse (gedaempft, mittel):** `energie` hat am 03.08.2026 am SIA-Shop einen Nachfolger
+  «SIA 387/4:2023» abgerufen, `normen` fuehrt die 2017er-Ausgabe `established`. Gesetzt ist ein
+  **Vorbehalt plus Querverweis**, keine Fassungs- oder Statusaenderung: ob es eine neue Ausgabe oder
+  eine Aktualisierung der 2017er ist, ist am Normtext nicht verifiziert.
+
+### baurecht ↔ planungsgrundlagen ↔ Skill behoerden-vorabklaerung (Nebenbestimmungen, Revers, Vorentscheid) — geprueft 2026-08-07 (Run 28)
+- **Befund 1 (gedaempft, mittel):** § 321 Abs. 2 PBG wurde in `planungsgrundlagen` nur mit dem
+  Kann-Halbsatz gefuehrt, in `baurecht` nur mit dem Pflicht-Halbsatz. Kein Widerspruch der KBs
+  untereinander, sondern **zwei halbe Zitate derselben Norm** — beide Halbsaetze sind jetzt an
+  beiden Orten gefuehrt, mit Fassungsvorbehalt (die planungsgrundlagen-Quelle referiert die
+  1991er-Fassung).
+- **Befund 2 (gedaempft, hoch — der praktisch teuerste dieses Laufs):** Der Skill
+  `behoerden-vorabklaerung` kannte den **foermlichen baurechtlichen Vorentscheid** nicht; er sprach
+  vom «verbindlichen Vorbescheid», einem nicht-gesetzlichen Begriff. Nur der foermliche Vorentscheid
+  bindet (Kt. ZH §§ 323/324 PBG, SZ § 84 PBG). Der Skill erzeugt Behoerdenfragen fuer reale Projekte;
+  wer dort die Verbindlichkeitsstufe falsch etikettiert, verlaesst sich spaeter auf eine Auskunft,
+  die nicht bindet. Praezisiert, mit zwingender Kantonsangabe.
+- **Befund 3 (auf QUERVERLINKUNG heruntergestuft):** Die Revers-Typologie steht in beiden KBs. Kein
+  Merge — `baurecht` fuehrt sie `established` und buchverifiziert, `planungsgrundlagen` `emerging`
+  aus einer Quelle von 1993. Beidseitiger Verweis gesetzt, Statusetiketten mitgefuehrt.
+
+### bauprodukte ↔ normen (BKP 261 Aufzuege, ERCO-Seitenzuschreibungen) — geprueft 2026-08-07 (Run 28)
+- **Befund 1 (gedaempft, tief):** Verweis von der Elektro-Schnittstelle in `bkp-261-aufzuege.md` auf
+  SIA 2056 Ziff. 6.23 gesetzt, mit Vorprojekt-Vorbehalt. Die Matrix-Zeile «Aufzug: Energie- und
+  Leistungsbedarf» ist entsprechend ergaenzt.
+- **Befund 2 und 3 (gedaempft, tief, aber lehrreich):** Zwei weitere Seitenzuschreibungen im
+  ERCO-Artikel sind um genau eine Seite falsch (20°-Wandfluter-Winkel S. 136 statt 137;
+  Deckenabstand-Beleg S. 138 statt 139), eine dritte hat Run 27 uebersehen (S. 87 statt 88).
+  **Die Sachwerte stimmen alle.** Das ist der Unterschied zum Run-27-Fund: dort war die Zahl
+  erfunden, hier ist nur die Fundstelle um eine Seite verrutscht. Beides sieht im Artikel
+  identisch aus — deshalb wurde am Original-PDF nachgelesen statt geschaetzt. Korrigiert mit
+  datiertem Vermerk, nie als stiller Zahlentausch.
+
+### immobilienbewertung ↔ grobkosten ↔ Skill machbarkeit (Kennwerte und Datenquellen) — geprueft 2026-08-07 (Run 28)
+- **Befund 1 (gedaempft, hoch — der teuerste Sachbefund dieses Laufs):** Der Skill `machbarkeit`
+  schreibt fuer den Residualwert: «Gegenkontrolle immer ueber UBS-Fact-Sheet (Baulandpreis/m²) +
+  Makleranalyse.» Der neue Quellenvergleich vom 07.08.2026 belegt am Original-PDF (UBS RE LFS
+  Wangen SZ, S. 13, Quellenverzeichnis): **die UBS-LFS-Preisdaten stammen von Wuest Partner.** Die
+  vermeintliche unabhaengige Zweitmeinung ist ein Derivat der ersten Quelle. Eine echte Zweitquelle
+  liefern nur IAZI/CIFI oder die kantonale Handaenderungsstatistik. Vorbehalt gesetzt, Satz und
+  Werte unveraendert.
+- **Befund 2 (auf QUERVERLINKUNG heruntergestuft, KB-intern):** Der nicht reproduzierbare
+  Healthcare-Endpunkt **1'420 CHF/m³ GV** wurde im selben Wiki an einer zweiten Stelle ohne den seit
+  06.08. mitgefuehrten Vorbehalt zitiert. Kein Widerspruch zwischen KBs, sondern derselbe
+  Weiterreich-Verlust wie in Run 27, eine Ebene tiefer. Vorbehalt an der Abholstelle ergaenzt; die
+  Zahlen 1'420 und 4'250 bleiben als getreue Abschrift stehen (Bereinigung = Entscheid D10).
+- **Befund 3 (gedaempft, mittel):** Der Quellenvergleich war ausserhalb des CHANGELOG nirgends
+  verlinkt. Verweise gesetzt — und zwar auf den **Wiki-Artikel**, nicht auf den tagesdatierten
+  outputs/-Report: ein Skill darf nicht an einem Lauf-Artefakt haengen.
 
 ### normen ↔ energie ↔ planungsgrundlagen (VKF 2001-15, drei Destillate nach normen Run 45) — geprueft 2026-08-06 (Run 27)
 - **Lage:** Run 45 hat in der Nacht das Volldestillat der geltenden Ausgabe 01.01.2022 angelegt

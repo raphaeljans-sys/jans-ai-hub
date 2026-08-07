@@ -84,6 +84,20 @@ für die Praxis: **UBS-FS** = schnelle Gemeinde-Faktenbasis (eine Seite je Nutzu
 Standortreport** = tiefere Zeitreihen + Bauland-Residualpreise + Objektgranularität nach
 Zimmerzahl.
 
+⚠ **Kein unabhängiger Zweitbeleg (Wissens-Chef Run 28, 07.08.2026).** Nicht nur das
+Standort-Rating stammt von Wüest Partner: laut Quellenverzeichnis des UBS Real Estate Local
+Fact Sheet (belegt am Exemplar Wangen SZ 12/2025, S. 13) stammen auch **Immobilienpreise,
+Baulandpreise, Angebotsmenge und -ziffer, Marktabsorptionspotenzial und Insertionsdauer** von
+Wüest Partner. UBS-FS und WP-Standortreport sind für Preisspektren also **dasselbe
+Datenuniversum**; wer «UBS gegen WP» prüft, prüft WP gegen WP. Eine echte Zweitmeinung liefern
+nur **IAZI/CIFI** oder die kantonale Handänderungsstatistik. **Wichtige Unterscheidung, damit
+kein Scheinwiderspruch entsteht:** die LFS-Preisspektren sind **Nettoangebotspreise**
+(Glossar LFS S. 13), während der Abschnitt «Hedonik-Modellfamilie in der Schweiz (T7)» weiter
+unten das **transaktionsbasierte Bewertungsmodell** beschreibt (> 20'000 Freihandtransaktionen
+pro Jahr). Preisstatistik und hedonisches Modell sind zwei verschiedene Ebenen desselben
+Anbieters. Die Faustregel oben bleibt gültig. Quellenvergleich im Detail:
+`wissen/immobilienbewertung/outputs/2026-08-07_iazi-location-report-vs-ubs-lfs-wp-standortinfo.md`.
+
 ## Hedonik-Modellfamilie in der Schweiz (T7)
 
 Die hedonischen Standardanbieter in der Schweiz und ihre Gemeinsamkeiten (Web-Recherche

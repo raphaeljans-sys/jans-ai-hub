@@ -8,8 +8,9 @@ ersetzt_durch: ""
 gelesen: "S. 1-32 von 32 (vollständig)"
 datenstand: 2026-07-13
 status: established (verifiziert 260714, Volltextabgleich Mini-Run 18 + Q&A-Selbstbefragung Run 20)
-last_updated: 2026-07-14
-links: [[vss-640291a-2005-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]], [[fahrzeugabstellplaetze-und-parkierung]]
+last_updated: 2026-08-07
+links: [[vss-640291a-2005-parkieren-anordnung-geometrie]], [[vss-640060-1994]], [[REGISTER]]
+querbezug_kb_baurecht: "Anzahl der Pflicht-Abstellplätze und rechtliche Erfüllungspflicht führt die KB baurecht: `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md`. Dieses Destillat führt ausschliesslich Anordnung und Geometrie. (Wissens-Chef Run 28, 07.08.2026: der Eintrag stand vorher als blanker `[[fahrzeugabstellplaetze-und-parkierung]]` im KB-internen Feld `links:` und war dort ein toter Link, weil das Ziel nur in `wissen/baurecht/wiki/` existiert.)"
 ---
 
 # VSS 40 291:2021-12 — Parkieren, Anordnung und Geometrie der Parkierungsanlagen für Personenwagen und Motorräder
@@ -201,7 +202,11 @@ reduziert) — beide Normen zusammen prüfen, wenn ein Bauvorhaben behindertenge
 ausweisen muss. Bei kantonalen Vorgaben (z.B. PBG/kantonale Parkplatzverordnung ZH/SZ) sind die
 kantonalen Mindestmasse zusätzlich zu prüfen — diese Norm liefert die geometrische
 Bemessungsgrundlage, nicht die Anzahl-Vorgabe (dafür VSS 40 281 «Angebot an Parkfeldern für
-Personenwagen», hier nicht destilliert). Für die Rampenplanung (max. 15 %/18 % Neigung, Ausrundung
+Personenwagen», hier nicht destilliert). Die Anzahl der Pflicht-Abstellplätze und die rechtliche
+Erfüllungspflicht (Kt. ZH, §§ 242-248 PBG, kommunale Parkplatzverordnungen) führt der
+baurecht-Artikel `wissen/baurecht/wiki/fahrzeugabstellplaetze-und-parkierung`; dieses Destillat
+führt ausschliesslich Anordnung und Geometrie (Verweis spiegelbildlich zur Gegenrichtung gesetzt,
+Wissens-Chef Run 28, 07.08.2026). Für die Rampenplanung (max. 15 %/18 % Neigung, Ausrundung
 Kuppe/Wanne) direkt anwendbar auf Einstellhallen-Zufahrten. Wichtiger Unterschied zur
 Vorgängerausgabe [[vss-640291a-2005-parkieren-anordnung-geometrie]]: die Komfortstufen A/B/C
 sind entfallen — bei älteren Plänen/Projekten, die noch nach Komfortstufe B oder C bemessen

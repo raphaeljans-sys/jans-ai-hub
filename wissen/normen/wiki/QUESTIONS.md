@@ -72,6 +72,22 @@
   Lüftung/Klima → 382/1+382/2, Rest → 2056. Offen bleibt allein der förmliche
   Herausgeber-Beleg der Archivierung (shop.sia.ch-Abruf mit Datum) — der bestehende Auftrag
   oben gilt unverändert.
+  **Erweiterung des Auftrags, Cross-KB Wissens-Chef Run 28 (07.08.2026):** Der Abruf umfasst
+  neu auch die Produktseite der **SIA 387/4** selbst (Felder «Gültig ab», «Gültig bis /
+  archivierter Titel», Rubrik «Nachfolger», mit Abrufdatum). Anlass: die KB `energie` hat am
+  03.08.2026 über die Nachfolger-Rubrik der **380/4** einen Eintrag «SIA 387/4:2023, gültig ab
+  01.08.2023» abgerufen (`wissen/energie/outputs/2026-08-03_energie-run122.md`, Zeile 80). Der
+  Beleg stammt damit von der falschen Produktseite, und die Lesart ist hausintern strittig
+  (`wissen/energie/destillate/aufzug-energieeffizienz-vdi4707.md`, Zeile 4: «Ausgabe 2017,
+  aktualisiert 01.08.2023»). **Erst der eigene, datierte Abruf der 387/4-Produktseite darf eine
+  Fassungsaussage ins Register setzen** — bis dahin bleiben Destillat `sia-387-4-2017.md` und
+  die Registerzeile SIA 387/4 unverändert bei der Ausgabe 2017 (Vorbehalt dort je nachgetragen).
+  Zu beachten: die BBV I ZH, Anhang Ziff. 2.3382, erklärt für den kantonalen Vollzug weiterhin
+  die «Ausgabe 2017» verbindlich (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`, Zeile 1036) —
+  ein pauschaler «abgelöst»-Vermerk wäre für den Nachweis EN-111 irreführend.
+  Offen bleibt zusätzlich die Divergenz innerhalb der KB `energie` («2023er Ausgabe» vs. «2017
+  aktualisiert 2023») — dort als eigener Punkt zu vermerken (Run 28 hat nur in `normen`
+  geschrieben, die Rückrichtung in `energie` ist nicht ausgeführt).
 
 ## Run 45 (06.08.2026) — vier Rückstände geschlossen, drei Statusfragen am Herausgeber belegt
 
@@ -1740,6 +1756,20 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Quelldatei; vor dem Merge kurz gegenlesen). Je Paar den besseren/vollständigeren Stand behalten,
   den anderen löschen und aus `destillate/INDEX.md` entfernen — NICHT automatisch, da Löschen
   destruktiv ist (Rule `wissens-bibliothekar`).
+  - **Nachtrag Wissens-Chef Run 28, 07.08.2026 (nur Paar 2001-15 Solaranlagen):** weiterhin offen,
+    keine Statusänderung, kein Merge. Die inhaltliche Divergenz der beiden Destillate ist in diesem
+    Lauf geschlossen worden: `vkf-merkblatt-2001-15-solaranlagen.md` führte Tabelle 1 fälschlich auf
+    «S. 6», korrigiert auf «S. 7» (am Original verifiziert, MD5 `56fb4bab06eaa4efec181d7f6fb44e87`);
+    `vkf-brm-2001-15-solaranlagen.md` war unverändert korrekt und wurde nicht angefasst.
+    **Vormerkung für den Tag der Merge-Freigabe durch Raphael:** `vkf-brm-2001-15-solaranlagen.md`
+    bleibt führend, unter drei Bedingungen — (a) der Run-3-Block aus
+    `vkf-merkblatt-2001-15-solaranlagen.md` (Provenienz Rev. 01.01.2022 / RF3(cr), Abschnitt «Offene
+    Punkte») wird nach `vkf-brm-…` übernommen; (b) die drei Fremdzeiger aus anderen KBs werden im
+    selben Zug umgehängt (`wissen/planungsgrundlagen/wiki/energie-pv-brandschutz.md`,
+    `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md`,
+    `wissen/energie/destillate/pv-blitzschutz-gebaeudeversicherung-ch.md`); (c)
+    `vkf-merkblatt-2001-15-solaranlagen.md` bleibt als Zeiger-Datei bestehen und wird nicht gelöscht,
+    da die geltende Fassung den Namensstamm `vkf-merkblatt-2001-15-solaranlagen-2022.md` trägt.
 - [ ] **Dateiname/Inhalt-Mismatch:** `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
   Quelle `Brandschutz-Praevention.pdf`, der Dateiname passt aber nicht zum Inhalt (Klassifikation
   von Bauteilen statt Prävention). Prüfen, ob der Inhalt wirklich zur Quelle passt, ggf. umbenennen
@@ -2450,3 +2480,9 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Frage: Enthaelt die NIN (SN 411000, aktuelle Ausgabe NIN 2025/2020) eine Bestimmung, die fuer Geschirrspueler eine eigene, separat abgesicherte Steckdose/Endstromkreis verlangt, oder ist das Teilen einer Gruppe (z.B. mit Kuehlschrank) zulaessig?
 - Stand: NIN liegt nicht in PL-02/02_Normen (dort nur SIA/VKF/DIN/VSS/RAL/Lignum). Web-Recherche 31.07.2026: keine explizite NIN-Fundstelle gefunden; deutsche DIN 18015-2 verlangt eigene Stromkreise fuer Geraete >2 kW (in CH nicht direkt verbindlich). Praxis-Hebel: Montageanleitung des Herstellers (verbindlich) + Bemessung des Endstromkreises.
 - Naechster Schritt: NIN-Zugang (ninonline.electrosuisse.ch) oder Rueckfrage Elektroplaner; bei Antwort Destillat-Artikel anlegen.
+
+## 260807 — Bezugsgroessen-Divergenz E_vm: SIA 2056 Tab. 42 gegen SIA 387/4 Tab. 4 (KB-intern)
+- Frage: Beide Destillate fuehren eine Groesse unter dem Namen **E_vm**, aber mit unterschiedlichem Bezug. `destillate/sia-592-056.md:84` (SIA 2056, Tab. 42) nennt Bettenzimmer **300 lx**; `destillate/sia-387-4-2017.md:61` (SIA 387/4, Tab. 4) nennt fuer dieselbe Nutzung **E_vm 100 lx** bei E_0 = 300 (ueber k_0 = 3). Welche Groesse traegt in `normen` kuenftig den Namen E_vm, und wie wird die jeweils andere gekennzeichnet?
+- Warum das zaehlt: Wer die Zahl ohne Klaerung uebernimmt, rechnet um den Faktor 3 falsch. Betroffen sind alle Abnehmer, die Beleuchtungsstaerken aus `normen` ziehen (Skill `energie`, `planungsgrundlagen`, Healthcare-Raumprogramme).
+- Herkunft: Cross-KB-Lauf Wissens-Chef Run 28, 07.08.2026, Feld F. Die Divergenz ist **KB-intern in `normen`** und ausdruecklich kein Cross-KB-Befund; sie ist deshalb hier und nicht im Koordinations-Register angemeldet.
+- Naechster Schritt: an den Originalen (SIA 2056 Tab. 42, S. 38-39; SIA 387/4 Tab. 4, S. 18-19) die Definitionszeile beider Tabellen lesen und im INDEX/REGISTER eine eindeutige Bezeichnerregel festhalten. Bis dahin gilt der Bezugsgroessen-Vorbehalt, der am 07.08.2026 in der Beleuchtungs-Zeile des Koordinations-Registers gesetzt wurde.

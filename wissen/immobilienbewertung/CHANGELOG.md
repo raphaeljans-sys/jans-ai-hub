@@ -2,6 +2,45 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-07 (Wissens-Chef Run 28, Feld E-kennwerte) — UBS-FS als WP-Derivat kenntlich gemacht; Kennwert-Vorbehalt an die Abholstelle gesetzt
+
+Rein additiv, kein Wert geändert, keine Tabelle und kein Artikel umgeschrieben. Die
+Bereinigung des JANS-Original-Blatts bleibt **D10** bei Raphael.
+
+- **`wiki/projektstruktur-deliverables.md`, Referenzobjekte des Rasters (WALD/Averecura):** Die
+  Zeile zitierte **1'420 CHF/m3 GV / 4'250 CHF/m2 GF** ohne den seit 06.08.2026 mitgeführten
+  Nichtreproduzierbarkeits-Vorbehalt; wer nur diesen Absatz liest, nahm die Werte als belegte
+  Referenzgrösse mit. Neu steht der Vorbehalt unmittelbar an der Zitatstelle, samt Nachrechnung
+  aus denselben Rohgrössen (12.34 Mio / 9'600 m3 = **1'285**, / 3'100 m2 = **3'981**), Verweis auf
+  [[realwert-sachwert]] (Rohband 826-1'285, ausdrücklich kein neuer geltender Band) und
+  [[wissensluecken]] D10 sowie dem Hinweis, dass der geltende Healthcare-Ansatz des Artikels
+  ~1'100 CHF/m3 GV bzw. ~3'850-4'000 CHF/m2 GF ist. **Die Zahlen 1'420 und 4'250 bleiben als
+  getreue Abschrift unverändert stehen.** (Befund war als WIDERSPRUCH gemeldet, ist verifiziert
+  ein reiner Vorbehalts-/Querverlinkungsbefund, KB-intern, Schwere niedrig.)
+- **`wiki/vergleichswert-hedonisch.md`, Abschnitt «UBS-FS vs. WP-Standortreport»:** ergänzt (nicht
+  umgeschrieben) um den Befund, dass laut Quellenverzeichnis des UBS RE LFS (Exemplar Wangen SZ
+  12/2025, S. 13) auch Immobilien- und Baulandpreise, Angebotsmenge/-ziffer,
+  Marktabsorptionspotenzial und Insertionsdauer von **Wüest Partner** stammen. UBS-FS und
+  WP-Standortreport sind für Preisspektren dasselbe Datenuniversum, kein unabhängiger
+  Zweitbeleg; echte Zweitmeinung nur IAZI/CIFI oder kantonale Handänderungsstatistik. Mit
+  ausdrücklicher Trennung **Nettoangebotspreise (LFS-Preisstatistik) ↔ transaktionsbasiertes
+  hedonisches Modell (Abschnitt T7)**, damit der Verweis keinen Scheinwiderspruch zum
+  Hedonik-Absatz erzeugt. Faustregel unverändert gültig. Pfadverweis auf
+  `outputs/2026-08-07_iazi-location-report-vs-ubs-lfs-wp-standortinfo.md` gesetzt (der Report war
+  bis dahin im ganzen Hub nur im CHANGELOG erwähnt).
+- **`wiki/datenquellen-registry.md`, Zeile «UBS Real Estate Fact Sheets»:** Bemerkungsspalte um
+  denselben WP-Herkunftsvermerk plus Pfadverweis auf den Report und [[vergleichswert-hedonisch]]
+  ergänzt. Die Herkunftsaussage wird materiell in dieser KB geführt.
+- **Ausserhalb `wissen/`: `skills/machbarkeit/wissensbasis/03_wirtschaftlichkeit-residualwert.md`,
+  Z. 22:** Der Satz «Gegenkontrolle immer über UBS-Fact-Sheet (Baulandpreis/m²) + Makleranalyse.»
+  bleibt **wörtlich unverändert** (inkl. «immer»); angehängt ist nur der Vorbehalt, dass das
+  Fact-Sheet keine von WP unabhängige Zweitquelle ist, der Baulandpreis selbst
+  residualmethodisch modelliert ist und die Makleranalyse die unabhängige Komponente bleibt.
+  Verweis bewusst auf den Wiki-Artikel `wissen/immobilienbewertung/wiki/vergleichswert-hedonisch.md`
+  statt auf den tagesdatierten Report (Konvention `02_kennwerte-kosten.md:32/39`). Die ROI-Zeile
+  (Marktwert über UBS-FS) wurde **nicht** angefasst: dort wird eine Datenquelle benannt, kein
+  Unabhängigkeitsanspruch erhoben.
+
 ## 2026-08-07 — Quellenvergleich IAZI Location Report vs. UBS RE LFS vs. WP Standortinformation
 
 Neuer Report `outputs/2026-08-07_iazi-location-report-vs-ubs-lfs-wp-standortinfo.md`

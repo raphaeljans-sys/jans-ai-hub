@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 23:36:44
+Stand: 07.08.2026 23:46:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:36)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 07.08.2026 23:36:44
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1be49309 wissen/energie: Energie-Training Run 125 — Minergie-Restbestand PL-02 (15 PDF, 9 Destillate), GEAK-Methodik erschlossen, zwei Ordner-Ablage-Fallen und ein heute falscher Rechtsstand (ZH/SZ-Substitutionspflicht) korrigiert; FAQ F218-F221, Register + Lauf-Report
+- 86ce9710 normen: Datenverlust aus f147dac4 zurueckgenommen — sia-180-2014, din-1961-2010, sia-mb-2024-2006 aus dem Vorstand wiederhergestellt (137/299/55 Zeilen), 3 Falsch-Zeilen im INDEX entfernt (Wissens-Chef Run 28)

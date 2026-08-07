@@ -404,7 +404,15 @@ belegt am oeffentlichen Realfall Pflegeheim Herosé Aarau (2021, Run 12):
 
   **Referenzobjekte des Rasters (belegt):** «Wald Tertianum» = **WALD/Averecura** (WA-ZH, Studie 2025):
   Richtprojekt-Kleinvariante **28 PZ, GF 3'100 m2, GV 9'600 m3, HNF 1'880 m2, BKP 2 = 12.34 Mio
-  (1'420 CHF/m3 GV, 4'250 CHF/m2 GF), Hotellerietaxe 150 CHF/Tag**. Die «Szenarios» sind die
+  (1'420 CHF/m3 GV, 4'250 CHF/m2 GF), Hotellerietaxe 150 CHF/Tag**. ⚠ Die beiden CHF-Kennwerte
+  sind Roh-Kennwerte des JANS-Original-Blatts und quellenintern **nicht reproduzierbar**
+  (Nachrechnung aus denselben Rohgroessen: 12.34 Mio / 9'600 m3 = **1'285 CHF/m3 GV**,
+  12.34 Mio / 3'100 m2 = **3'981 CHF/m2 GF**). Sie bleiben hier als getreue Abschrift stehen;
+  Vorbehalt und Entscheidstand siehe [[realwert-sachwert]] (reproduzierbarer Rohband
+  826-1'285 CHF/m3 GV, ausdruecklich kein neuer geltender Band) und [[wissensluecken]] D10
+  (Bereinigung des Original-Blatts = offener Entscheid Raphael). Der geltende Healthcare-Ansatz
+  dieses Artikels ist nicht 1'420, sondern ~1'100 CHF/m3 GV bzw. ~3'850-4'000 CHF/m2 GF (BKP 2),
+  siehe oben. *(Wissens-Chef Run 28, 07.08.2026)* Die «Szenarios» sind die
   WALD-Baumassenvarianten V1-V7 auf dem Gruenegg-Grundstueck (3'507 m2): Heim-Baumasse von
   **2'700 m3 (Bestand) bis 13'620 m3 (Gestaltungsplan L)**, mit JANS-Approximationsfaktoren
   **GF ≈ 0.33 × Baumasse, NF ≈ 0.20 × Baumasse** (Baumassenberechnung Richtprojekt). «Emilienheim»

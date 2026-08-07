@@ -60,7 +60,8 @@ Goldstandard-Vorlage: `2306 WOMA Maur/06_Reglemente/231018_QA_Baurecht.docx`
    Datum · Status (offen/beantwortet).
 4. **Antworten schriftlich bestaetigen lassen** (Mail/Aktennotiz) — Beweissicherung; Telefonate
    mit Datum/Person protokollieren.
-5. **Rueckfluss:** beantwortete Punkte als gesicherte Fakten in die auslösende Studie
+5. **Rueckfluss:** beantwortete Punkte als gesicherte Fakten **mit Vermerk der
+   Verbindlichkeitsstufe** in die auslösende Studie
    (machbarkeit/nutzungsstrategie/ankaufspruefung) einspeisen.
 
 ## Output
@@ -73,6 +74,11 @@ Goldstandard-Vorlage: `2306 WOMA Maur/06_Reglemente/231018_QA_Baurecht.docx`
 
 ## Hinweise
 - **Nichts als bestaetigt darstellen, was nicht schriftlich vorliegt** (Rule `identifikatoren-verifizieren`).
-- Behördenauskuenfte sind teils unverbindlich — Status (muendlich/schriftlich/verbindlicher
-  Vorbescheid) immer kennzeichnen.
+- Behördenauskuenfte sind teils unverbindlich — Status (muendlich / schriftlich / foermlicher
+  **Vorentscheid**) immer kennzeichnen; nur der foermliche Vorentscheid bindet (Kt. ZH
+  §§ 323/324 PBG; andere Kantone eigene Fundstelle, z.B. SZ § 84 PBG — die Kantonsangabe ist
+  zwingend, ein blankes «§§ 323/324 PBG» waere ausserhalb ZH falsch). Grundlagen:
+  `wissen/baurecht/wiki/baurechtlicher-vorentscheid-und-voranfrage.md`.
+  *(Terminologie praezisiert Wissens-Chef Run 28, 07.08.2026: «Vorbescheid» ist im Kt. ZH nicht
+  der gesetzliche Begriff.)*
 - Korrekte Behördenanrede (Rule `anrede-kontakte`).

@@ -3,6 +3,37 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-07 (Wissens-Chef Run 28, Cross-KB) — § 321 Abs. 2 PBG hat zwei Haelften; Querverweis zu `planungsgrundlagen` und Terminologie im Skill `behoerden-vorabklaerung`
+
+- **`wiki/nebenbestimmungen-und-reverse.md`, Abschnitt «Grundbuch-Anmerkung: nur deklaratorisch»:**
+  Der Artikel fuehrte bisher nur die **Pflicht-Haelfte** von § 321 Abs. 2 PBG («sind …
+  anzumerken»). Der **zweite Halbsatz** ist am amtlichen Wortlaut belegt
+  (`raw/260607_amtlich_zh_pbg.md` Z. 3306-3309) und ergaenzt: wo ein Beduerfnis besteht, **kann**
+  die Anmerkung auch bei Eigentumsbeschraenkungen angeordnet werden, deren Umfang und Tragweite
+  sich unmittelbar aus den Bauvorschriften ergibt. Damit traegt die fuehrende KB den ganzen
+  Absatz, statt nur die Haelfte, die in der Gegen-KB falsch modalisiert war.
+- **Querverweis A→B gesetzt** (er fehlte in dieser Richtung ganz): ein Satz im selben Abschnitt
+  zeigt auf `wissen/planungsgrundlagen/wiki/recht-norm-mehrwertrevers-grundbucheintragungen.md`
+  fuer die Grundbuch-Mechanik aus Erwerbersicht (Anmerkung vs. Dienstbarkeit, statische vs.
+  dynamische Reverse, Loeschung, Parzellierung) — Themen, die dieser Artikel gar nicht behandelt.
+  **Mit obligatorischem Status-Etikett** (`emerging`, Quelle Bösch ZBl 1993, §-Ziffern dort nicht
+  gegen die geltende PBG-Fassung geprueft, Erlasswortlaut bleibt hier gefuehrt) — ein
+  `established`/Buch-Run-67-verifizierter Artikel darf unverifizierten Stand nicht ohne
+  Kennzeichnung adeln.
+- **Klasse korrigiert:** nicht DOPPELSPURIGKEIT, sondern QUERVERLINKUNG mit einer einzigen
+  materiellen Doppelspur (deklaratorische Wirkung), die widerspruchsfrei ist. **Kein Merge**,
+  keine Umstrukturierung, `links:`-Frontmatter beider Artikel unveraendert (KB-intern aufgeloest),
+  `status` und `verifiziert` unveraendert; nur `last_updated` nachgezogen.
+- **Ausserhalb `wissen/`, hier protokolliert:** `skills/behoerden-vorabklaerung/SKILL.md`. Der
+  Skill kannte das Instrument nur unter dem im Kt. ZH **nicht gesetzlichen** Namen «verbindlicher
+  Vorbescheid» und ohne Fundstelle. Der bestehende Hinweis ist auf «foermlicher **Vorentscheid**»
+  praezisiert, mit **Kantonsangabe** (ZH §§ 323/324 PBG, SZ § 84 PBG) — ein blankes «§§ 323/324
+  PBG» waere ausserhalb ZH falsch gewesen — und mit Backtick-Pfad auf
+  `wiki/baurechtlicher-vorentscheid-und-voranfrage.md`. Beim Rueckfluss-Punkt genuegt der Zusatz
+  «mit Vermerk der Verbindlichkeitsstufe». **Nicht** aufgenommen: die urspruenglich vorgeschlagene
+  neue Rechtsaussage, formlose Auskuenfte binden nicht — sie steht als Kennzeichnungspflicht
+  bereits im Skill und waere eine Dublette.
+
 ## 2026-08-05 (Wissens-Chef Run 26, Cross-KB) — Waermepumpen-Aussengeraete: Querbezug zur KB `energie` gesetzt, mit Reichweiten-Warnung statt blossem Link
 
 - **`wiki/abstaende-und-hoehen.md`:** Der Artikel nennt Waermepumpen-Aussengeraete ausdruecklich

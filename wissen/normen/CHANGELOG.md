@@ -1,3 +1,49 @@
+## 2026-08-07 (Wissens-Chef Run 28, Cross-KB) — VKF 2001-15 Seitenzahl korrigiert, Registerzeile nachgetragen, Cross-KB-Link entgiftet; Ruecknahme dreier Stub-Ueberschreibungen protokolliert
+
+0. **Ruecknahme durch den Hauptprozess (vor diesem Lauf, hier nur protokolliert):** Commit
+   `f147dac4` («Health-Check Rueparatur 260807») hatte die drei Destillate `sia-180-2014.md`,
+   `din-1961-2010.md` und `sia-mb-2024-2006.md` mit 15-Zeilen-Stubs **ueberschrieben**; die
+   Stub-Titel waren zusaetzlich sachlich falsch geraten (DIN 1961 ist **VOB Teil B**, nicht
+   «Elektrische Leitungen»; SIA MB 2024 sind die **Standard-Nutzungsbedingungen**, nicht «Beton
+   mit Recycling-Gesteinskoernungen»). Alle drei Dateien wurden aus dem Git-Vorstand
+   wiederhergestellt, die drei zugehoerigen Falsch-Zeilen aus `destillate/INDEX.md` entfernt.
+   Lehre: eine «Reparatur», die einen vollstaendigen Bestand durch einen geratenen Stub ersetzt,
+   ist ein Datenverlust — Titel nie aus dem Normkuerzel erraten.
+1. **`destillate/vkf-merkblatt-2001-15-solaranlagen.md`:** Fundstelle von Tabelle 1
+   («DC-Leitungen und Bereiche») an drei Stellen von «S. 6» auf **«S. 7»** korrigiert
+   (Kernziffern, Abschnitt Tabellen/Kennwerte, Offene Punkte), je mit datiertem Vermerk. Am
+   Original verifiziert (MD5 `56fb4bab06eaa4efec181d7f6fb44e87`, 11 S.): auf S. 6 steht in
+   Ziff. 3.1.3 nur der Querverweis, die Tabelle selbst vollstaendig auf S. 7. Das
+   Partner-Destillat `vkf-brm-2001-15-solaranlagen.md` fuehrte «S. 7» korrekt und wurde
+   **bewusst nicht angefasst** (kein Angleichen des besseren an den schlechteren Stand).
+2. **`wiki/QUESTIONS.md`:** datierter Nachtrag an der bestehenden Duplikat-Zeile (Paar
+   2001-15) — Merge bleibt **parkiert** (destruktiv, braucht Raphaels Einzelfreigabe), kein
+   neuer Registereintrag, keine Statusaenderung. Vormerkung fuer den Freigabetag ergaenzt:
+   `vkf-brm-…` fuehrend, aber nur mit Uebernahme des Run-3-Provenienzblocks, Umhaengen der
+   drei Fremdzeiger aus `planungsgrundlagen`/`energie` und Erhalt der Zeiger-Datei.
+3. **`wiki/REGISTER.md`:** erstmals eine Zeile **VKF-Merkblatt 2001-15de Solaranlagen** in der
+   Fassungsstands-Tabelle (Muster der 2005-15-Zeile) — Hausbestand 06.03.2015 ueberholt,
+   Zwischenfassung 01.01.2017, geltend 01.01.2022; einziger harter Delta RF3 (cr) fuer
+   Unterdachbahnen seit 01.01.2017. Mit beiden Vorbehalten: **kein Abgleich des
+   VKF-Publikationsindex** (N27-1) und **`status: speculative`** des 2022er-Destillats. Die
+   beiden weichen Deltas bleiben bewusst im Destillat (Flaechenschwelle = nur Vergleichszeichen;
+   RWA 2.0 m in den Anhang gewandert, nicht weggefallen).
+4. **`destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`:** der KB-fremde Eintrag
+   `[[fahrzeugabstellplaetze-und-parkierung]]` aus dem KB-internen Feld `links:` entfernt (war
+   ein toter Link, Ziel existiert nur in `wissen/baurecht/wiki/`); statt dessen ein Feld
+   `querbezug_kb_baurecht:` nach dem Hausmuster und ein Satz im JANS-Praxis-Transfer, beide in
+   Backtick-Pfadform, spiegelbildlich zur bereits korrekten Gegenrichtung. `last_updated` auf
+   2026-08-07. Fuehrungsaufteilung unveraendert: `normen` = Geometrie, `baurecht` = Anzahl.
+5. **SIA 387/4 — nur Vorbehalt und Querverweis, keine Fassungs- oder Statusaenderung:** in
+   `destillate/sia-387-4-2017.md` (offener Punkt ergaenzt) und `wiki/REGISTER.md` Zeile SIA
+   387/4 (Nachtrag nach dem Hausmuster SIA 385/9) vermerkt, dass die KB `energie` am
+   03.08.2026 ueber die **Nachfolger-Rubrik der 380/4** einen Eintrag «387/4:2023, gueltig ab
+   01.08.2023» abgerufen hat — nicht am Normtext verifiziert, nicht an der 387/4-Produktseite
+   selbst, hausintern strittig («Ausgabe 2017, aktualisiert 2023»), und die BBV I ZH Anhang
+   Ziff. 2.3382 erklaert weiterhin die Ausgabe 2017 verbindlich (Nachweis EN-111). Der
+   Melder-Vorschlag «abgeloest durch 387/4:2023» wurde **nicht** gesetzt. Bring-Schuld N27-2 in
+   `wiki/QUESTIONS.md` um die 387/4-Produktseite erweitert; Stichtagsspalten unberuehrt.
+
 ## 2026-08-07 (Vorrang-Lauf Raphael, Run 47) — Abschluss: 9 von 10 P1-Positionen established, Refuter-Runden komplett
 
 1. **Refuter-Runden und Statushebungen fuer alle Erstdestillate dieser Session:**

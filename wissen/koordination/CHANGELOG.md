@@ -3,6 +3,59 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-07 — Wissens-Chef Run 28 (Cross-KB, 6 Felder, 30 Agenten)
+
+- **Bericht:** `outputs/2026-08-07_wissens-chef-run28.md`. Sechs Felder, 20 gemeldete Befunde,
+  **alle 20 verifiziert — 4 bestaetigt, 16 gedaempft, 0 widerlegt**; danach vier Ausfuehrende mit
+  disjunkten Dateimengen, rund 20 Dateien in 6 KBs plus zwei Dateien im Skill-Layer. 0 Agentenfehler.
+- **Dimensionierung gemessen:** Zuwachs seit Run 27 per `git log --name-only` — normen 72 Dateien,
+  baurecht 43, energie 26, bauprodukte 20, twin 16, immobilienbewertung 6. Fuenf von sechs Feldern
+  zielten auf Material, das juenger als 24 Stunden war.
+- **Der teuerste Fund — der Reparatur-Lauf hat Wissen geloescht.** Commit `f147dac4` (07.08.2026
+  20:54, «Health-Check Rueparatur 260807») legte sechs Stubs fuer tote Backlinks an; **drei davon
+  landeten auf Dateinamen, die bereits mit established-Volltext existierten** und ueberschrieben
+  ihn: `sia-180-2014.md` (137 Zeilen, Anhaenge A-H), `din-1961-2010.md` (299 Zeilen,
+  refuter-verifiziert Mini-Run 14 und 25), `sia-mb-2024-2006.md` (55 Zeilen). **477 Zeilen,
+  dreieinhalb Stunden lang unbemerkt.** Vom Hauptprozess selbst am Original nachgemessen, aus
+  `f147dac4^` zurueckgeholt, INDEX von drei Falsch-Zeilen bereinigt, eigener Commit.
+- **Schwerer als der Datenverlust: der Gegenstand wurde aus der Nummer geraten.** DIN 1961 wurde
+  zu «Elektrische Leitungen» (ist **VOB Teil B**), SIA MB 2024 zu «Beton mit
+  Recycling-Gesteinskoernungen» (sind die **Standard-Nutzungsbedingungen**; der Betontitel gehoert
+  zu SIA 2030). Beide falschen Gegenstaende standen danach als saubere INDEX-Zeile da. Fehlerklasse
+  «erfundener Beleg» aus Run 27, eine Ebene hoeher: nicht die Zahl im Artikel, **der Artikel
+  selbst**. Dazu ein Phantom-Artikel `destillate/links.md`, weil der Pruefer das Frontmatter-FELD
+  `links:` fuer einen toten Backlink hielt.
+- **Konvergenz als Qualitaetssignal:** gefunden von **zwei unabhaengigen Feldern zugleich** (B und
+  F, fuenf konvergente Befunde) — beide wollten etwas ganz anderes pruefen und stolperten ueber
+  dieselbe Luecke. Ergebnis davon, die Felder am gemessenen Zuwachs auszurichten statt an einem Turnus.
+- **Teuerster Sachbefund — eine Gegenkontrolle, die keine ist.** Der Skill `machbarkeit` verlangt
+  fuer den Residualwert «Gegenkontrolle **immer** ueber UBS-Fact-Sheet». Der Verifikator hat am
+  Original-PDF (UBS RE LFS Wangen SZ, S. 13, Quellenverzeichnis) belegt: **die UBS-LFS-Preisdaten
+  stammen von Wuest Partner** — die vermeintlich unabhaengige Zweitmeinung ist ein Derivat der
+  ersten Quelle. Vorbehalt gesetzt, Werte unveraendert; neue Matrix-Zeile zur Unabhaengigkeit von
+  Marktdaten-Zweitquellen.
+- **Folgenreichster Praxisbefund:** der Skill `behoerden-vorabklaerung` kannte den **foermlichen
+  baurechtlichen Vorentscheid** nicht und sprach vom «verbindlichen Vorbescheid» — einem Begriff,
+  den das Gesetz nicht kennt. Nur der foermliche Vorentscheid bindet (ZH §§ 323/324 PBG, SZ § 84
+  PBG). Praezisiert, mit zwingender Kantonsangabe.
+- **Verfahren — die Quote haelt:** die Befunde tragen, die Aufloesungen nicht. **16 von 20**
+  Melder-Aufloesungen von der Verifikation korrigiert, darunter zwei Klassenherabstufungen und eine
+  verhinderte vorzeitige Schliessung der Wissensluecke E-122-6. Danach haben **drei von vier
+  Ausfuehrenden** die verifizierte Vorlage nochmals am Bestand korrigiert (Einfuegestelle in einem
+  mehrzeiligen Bullet, Fett-Span, und ein Verweisziel, das einen Skill an ein tagesdatiertes
+  Lauf-Artefakt gebunden haette).
+- **Register:** `QUERBEZUEGE.md` um **5 Paar-Eintraege**, **2 Matrix-Zeilen** und **3
+  Struktur-Muster** (achtes bis zehntes) ergaenzt, dazu datierte Nachtraege an der Beleuchtungs- und
+  der Aufzug-Zeile. Die Bezugsgroessen-Divergenz E_vm ist als **KB-interner** Pruefpunkt in
+  `normen/wiki/QUESTIONS.md` angemeldet, nicht hier.
+- **Keine eigene Mail** (Rule 260803). Ins `logbuch/fristen.md` eingetragen (Rule 260805): der
+  **Health-Check-Reparaturlauf laeuft unveraendert weiter** — der Datenverlust ist zurueckgenommen,
+  die Ursache nicht. Einziger Punkt dieses Laufs mit Wiederholungsrisiko, Entscheid Raphael.
+- **Offene Entscheide fuer Raphael** (Bericht Abschnitt 7): Absicherung oder Stilllegung des
+  Reparaturlaufs; Verbleib von `destillate/links.md`; unveraendert T-Regelgeschoss, D10,
+  Spektrumskosten-Band, `MAX_AUTO_BYTES` und die Beschaffungs-/Bring-Schulden (N27-2 neu um die
+  SIA-387/4-Produktseite erweitert).
+
 ## 2026-08-06 — Wissens-Chef Run 27 (Cross-KB, 6 Felder, 28 Agenten)
 
 - **Bericht:** `outputs/2026-08-06_wissens-chef-run27.md`. Sechs Felder, 17 gemeldete Befunde, **alle

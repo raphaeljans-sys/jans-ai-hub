@@ -3,6 +3,21 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 07.08.2026 (Wissens-Chef Run 28, 23:20 — **operativer Befund mit Wiederholungsrisiko,
+kein Termin**): Der Health-Check-Reparaturlauf der KB `normen` hat am 07.08.2026 um 20:54 mit
+Commit `f147dac4` («6 Artikel-Stubs fuer tote Backlinks angelegt») **drei bestehende
+established-Destillate ueberschrieben** — `sia-180-2014.md` (137 Zeilen), `din-1961-2010.md`
+(299 Zeilen, refuter-verifiziert), `sia-mb-2024-2006.md` (55 Zeilen); zusammen 477 Zeilen. Zwei
+der Stub-Titel waren zusaetzlich aus der blossen Normnummer geraten und sachlich falsch (DIN 1961
+ist VOB Teil B, nicht «Elektrische Leitungen»; SIA MB 2024 sind die Standard-Nutzungsbedingungen,
+nicht «Beton mit Recycling-Gesteinskoernungen»). **Der Datenverlust ist zurueckgenommen** (aus
+`f147dac4^` wiederhergestellt, INDEX bereinigt, committet) — **die Ursache nicht.** Der Lauf
+kann in der naechsten Nacht dasselbe wieder tun. Zu entscheiden: absichern (kein Ueberschreiben
+vorhandener Dateien, Titel nie aus der Nummer raten, Feldnamen von Feldwerten unterscheiden — aus
+`links:` wurde ein Phantom-Artikel `destillate/links.md`) oder stillegen, bis das gebaut ist.
+Beleg und Fallchronik: `wissen/koordination/outputs/2026-08-07_wissens-chef-run28.md`, Abschnitt 2.
+Status: **offen**, Entscheid Raphael.
+
 Eintrag 07.08.2026 (Hub-Chef 08:39, an allen Konten nachgemessen — **neue Zeile: unbeantwortete
 Lehrstellen- und Schnupperlehr-Anfragen sind ein Muster, nicht ein Einzelfall**): Der Radar
 führte heute die Anfrage von Marc Grupp (`grupp@bluemail.ch`, 06.08.2026 14:37, Lehrstelle

@@ -2,6 +2,33 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-07 (Wissens-Chef Run 28, Cross-KB) — § 321 Abs. 2 PBG: Kann-Modalverb zog faelschlich ueber beide Halbsaetze
+
+- **`wiki/recht-norm-mehrwertrevers-grundbucheintragungen.md`, Abschnitt 1:** Der Satz
+  «Nebenbestimmungen mit laengerer zeitlicher Wirkung vor Baubeginn und andere
+  Eigentumsbeschraenkungen **koennen** im Grundbuch angemerkt werden» machte aus der
+  **Pflicht-Haelfte** der Norm eine Kann-Vorschrift. Am amtlichen Wortlaut geprueft
+  (`wissen/baurecht/raw/260607_amtlich_zh_pbg.md` Z. 3306-3309): § 321 Abs. 2 PBG hat **zwei
+  Haelften** — Pflicht («sind vor Baubeginn … anzumerken») fuer Nebenbestimmungen mit laengerer
+  zeitlicher Wirkung, Kann («wo ein Beduerfnis besteht, kann die Anmerkung … angeordnet werden»)
+  fuer die uebrigen Eigentumsbeschraenkungen. Beide Haelften stehen jetzt da.
+- **Bewusst NICHT getan:** den Satz pauschal auf «Pflicht» umgeschrieben. Das haette die
+  Kann-Haelfte ersatzlos geloescht — dieser Artikel ist die einzige Stelle im Hub, die sie trug
+  (die fuehrende `baurecht`-Seite behandelte sie bis heute gar nicht). Ein richtiger Inhalt
+  waere durch einen unvollstaendigen ersetzt worden.
+- **Fassungsvermerk umformuliert statt getilgt:** ob die 1991er-Fassung wirklich anders lautete
+  oder Bösch 1993 nur verkuerzt referiert, ist aus dem Bestand **nicht** klaerbar. Die Zuschreibung
+  bleibt deshalb als **Fassungsvorbehalt** stehen; massgebend ist der amtliche Wortlaut der
+  geltenden Fassung, gefuehrt in `wissen/baurecht/wiki/nebenbestimmungen-und-reverse.md`.
+- **Querverweis B→A vervollstaendigt:** der bestehende ⚠-Datenstand-Block nannte bisher nur den
+  Skill `baurecht`; ergaenzt ist der **Artikel-Pfad** samt Statusangabe (`established`, Buch-Run 67
+  verifiziert). Kein neuer Abschnitt, keine Kennzeichnung als «ergaenzend» — der Artikel ordnet
+  sich mit `emerging` + ⚠-Block bereits selbst unter. `status` bleibt `emerging`, die
+  Einschraenkung bleibt vollstaendig stehen, `links:`-Frontmatter unveraendert (KB-intern
+  aufgeloest, Cross-KB laeuft ueber Backtick-Pfade). `last_updated` auf 2026-08-07.
+- Gegenrichtung (Verweis von `baurecht` hierher, mit Status-Etikett) im selben Lauf gesetzt,
+  protokolliert in `wissen/baurecht/CHANGELOG.md`.
+
 ## 2026-08-06 (Wissens-Chef Run 27, Cross-KB) — Zeiger auf die geltende Ausgabe 2022 umgestellt
 
 - **`wiki/energie-pv-brandschutz.md`:** Der Querbezug-Block zeigte auf

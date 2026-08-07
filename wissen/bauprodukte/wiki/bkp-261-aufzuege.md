@@ -148,6 +148,12 @@ zwischen den Herstellern:
   Schachtvergrösserung teuer ist.
 - **Elektro (BKP 230er):** Anschlussleistung, Sprechverbindung/Notruf (24h laut
   Schindler-Datenblatt), bei Sitzliften Steckdosenanschluss 230 V am Antrieb.
+  **Verweis nachgetragen (Wissens-Chef Run 28, 07.08.2026):** Führend für den
+  elektrischen Energie- und Leistungsbedarf von Aufzügen ist die KB `normen` —
+  `wissen/normen/destillate/sia-592-056.md`, SIA 2056:2019 Ziff. 6.23. Dort stehen
+  Rechenweg und Standardwerte für die **Vorprojekt-Abschätzung** (Ziff. 0.1.1); die
+  projektspezifische Anschlussleistung bleibt Angabe des Lieferanten und wird hier
+  nicht fortgeschrieben (Rule `normen-referenz`).
 - **Brandschutz:** automatische Evakuierungsfunktion bei Stromausfall (Schindler 3100
   Standard) und Brandfallsteuerung (als Option bei Schindler 3100 gelistet) sind
   gegen den Skill `brandschutz` zu prüfen, wenn sie Teil des Brandschutzkonzepts sind

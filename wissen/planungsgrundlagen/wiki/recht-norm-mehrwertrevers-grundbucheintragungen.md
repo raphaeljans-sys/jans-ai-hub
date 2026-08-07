@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Mehrwertrevers, Beseitigungsrevers & Grundbucheintragungen im Baubewilligungsverfahren (ZH)
 status: emerging
-last_updated: 2026-07-15
+last_updated: 2026-08-07
 sources: [
   "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Planung/Mehrwertrevers Beseitigungsrevers/zbl.txt (Peter Bösch, Rechtsanwalt Zürich, 'Grundbuch und Baubewilligungsverfahren', erschienen im Zentralblatt für Staats- und Gemeindeverwaltung [ZBl] 1993, S. 481 ff., erweiterte/überarbeitete Fassung eines Referats vom 21.11.1990, berücksichtigt PBG-Revision per 1.2.1992; vollständig gelesen S. 1-15)"
 ]
@@ -28,7 +28,9 @@ Abs. 3 PBG Grenzabstands-Unterschreitung mit Nachbarzustimmung, § 357 PBG Besta
 72-73, 96 ff., 99 ff., 123, 150, 233-234, 237, 254, 256-259, 287-291, 309-329) sind **NICHT
 gegen die aktuelle PBG-Fassung geprüft** — dieser Artikel bleibt deshalb `emerging`. Vor
 verbindlicher Anwendung in einem Dossier die zitierten §§ gegen die aktuelle PBG-Fassung (Skill
-`baurecht`) verifizieren. Der **Rechts-MECHANISMUS** (Anmerkung vs. Dienstbarkeit, Revers-Typen,
+`baurecht`, führender Artikel `wissen/baurecht/wiki/nebenbestimmungen-und-reverse.md` — § 321
+PBG, `established`, Buch-Run 67 verifiziert; Querverweis gesetzt Wissens-Chef Run 28,
+07.08.2026) verifizieren. Der **Rechts-MECHANISMUS** (Anmerkung vs. Dienstbarkeit, Revers-Typen,
 Wirksamkeit/Auslegung) ist strukturell auch nach heutigem PBG unverändert gültig — nur die
 konkreten §-Ziffern können verschoben sein.
 
@@ -41,9 +43,17 @@ Grundlast) — mit Ausnahme der Vormerkung, die im Baubewilligungskontext keine 
 - **Anmerkung** = Eintragung, die ein öffentlich-rechtliches Rechtsverhältnis **zum Ausdruck
   bringt**, das grundsätzlich auch OHNE die Eintragung besteht. Wird eine
   Eigentumsbeschränkung angemerkt, spricht man in der Praxis von einem **Revers**.
-- Rechtsgrundlage in ZH: § 321 Abs. 2 PBG (Wortlaut der 1991er-Fassung) — Nebenbestimmungen
-  mit **längerer zeitlicher Wirkung vor Baubeginn** und andere Eigentumsbeschränkungen können
-  im Grundbuch angemerkt werden.
+- Rechtsgrundlage in ZH: § 321 Abs. 2 PBG — die Norm hat **zwei Hälften**: Nebenbestimmungen
+  mit **längerer zeitlicher Wirkung** sind vor Baubeginn im Grundbuch **anzumerken**
+  (**Pflicht**); bei den übrigen Eigentumsbeschränkungen, deren Umfang und Tragweite sich
+  unmittelbar aus den Bauvorschriften ergibt, **kann** die Anmerkung angeordnet werden, wo ein
+  Bedürfnis besteht (**Kann**). Massgebend ist der amtliche Wortlaut der geltenden Fassung; die
+  hier verwendete Quelle (Bösch 1993) referiert die 1991er-Fassung verkürzt (Fassungsvorbehalt,
+  nicht gegen die geltende Fassung geprüft). Führung des Erlasswortlauts:
+  `wissen/baurecht/wiki/nebenbestimmungen-und-reverse.md` (Abschnitt «Grundbuch-Anmerkung: nur
+  deklaratorisch»), Beleg `wissen/baurecht/raw/260607_amtlich_zh_pbg.md` Z. 3306-3309.
+  *(Korrektur Wissens-Chef Run 28, 07.08.2026: der frühere Wortlaut zog das Kann-Modalverb über
+  beide Halbsätze und machte damit aus der Pflicht-Hälfte eine blosse Kann-Vorschrift.)*
 - **In ZH unzulässig:** die Sicherung öffentlich-rechtlicher Eigentumsbeschränkungen mittels
   **Personaldienstbarkeit** zugunsten Gemeinde/Kanton (anders z.B. Basel-Stadt, wo dies
   ausdrücklich vorgesehen ist) — es fehlt die gesetzliche Grundlage. Kommt es dennoch vor

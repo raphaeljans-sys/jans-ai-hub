@@ -1,5 +1,46 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-07 (Wissens-Chef Run 28) — Norm-Verweis bei der Aufzugs-Elektroschnittstelle nachgetragen, drei Seitenzuschreibungen im ERCO-Artikel am Original richtiggestellt
+
+Ausführungslauf des Wissens-Chefs, Befunde adversarial vorverifiziert. Berührt nur
+`wiki/bkp-261-aufzuege.md`, `wiki/erco-lichtplanung-grundlagen.md` und diese Datei;
+`raw/` unangetastet. Kein Sachwert geändert, keine Aussage zurückgenommen.
+
+- **[[bkp-261-aufzuege]], Schnittstelle «Elektro (BKP 230er)»:** Verweis auf die
+  führende KB `normen` nachgetragen (`wissen/normen/destillate/sia-592-056.md`,
+  SIA 2056:2019 Ziff. 6.23 — Energie- und Leistungsbedarf von Aufzügen). Mit
+  Vorbehalt versehen, dass das Merkblatt Werte für die **Vorprojekt-Abschätzung**
+  (Ziff. 0.1.1) liefert und die projektspezifische Anschlussleistung Angabe des
+  Lieferanten bleibt; kein Normwortlaut und keine Zahl übernommen
+  (Rule `normen-referenz`). Backtick-Pfad statt Wikilink über die KB-Grenze.
+- **[[erco-lichtplanung-grundlagen]], 20°-Mindestwinkel Wandfluter:** Zuschreibung
+  «S. 136» auf **S. 137** korrigiert (am Original `de_erco_guide.pdf` nachgelesen;
+  S. 136 enthält nur Produktbeschreibungen ohne Winkelangabe). Zweiter Fundort im
+  Kapitel «Lichtanwendungen» von «S. 85-87/136» auf **S. 87/137/142** präzisiert,
+  weil die vier dort aufgezählten Werte auf drei Seiten verteilt sind (1/3-Regel,
+  20°-Linie und Leuchtenabstand = Wandabstand auf S. 87/137; Mindestzahl drei
+  Leuchten und 45°-Eckposition auf S. 87/142). Der 20°-Wert selbst ist dreifach
+  belegt und bleibt unverändert.
+- **[[erco-lichtplanung-grundlagen]], Deckenabstand 0,8 m:** die dritte der fünf
+  Fundstellen von «S. 138 Lichtstrukturen» auf **S. 139** korrigiert (S. 139
+  «Der Abstand zur Decke sollte bei Indirektbeleuchtung mindestens 0,8 m
+  betragen»; S. 138 trägt nur «Lichtstrukturen | Licht/Leuchten»). Derselbe Fehler
+  im Leuchtengruppen-Abschnitt («nach S. 88/117/138») mitkorrigiert, ebenso ein von
+  Run 27 dort übersehenes «nach S. 87 und S. 117» → «S. 88 und S. 117», konsistent
+  zur bereits im Artikel stehenden Run-27-Seitenkorrektur. Die Kapitelspanne
+  «Lichtstrukturen (S. 138-139)» bleibt unverändert richtig, die übrigen vier
+  Fundstellen (S. 88/117/146/170) sind gegengeprüft. Sachwert 0,8 m unverändert.
+- Alle Korrekturen als datierter Vermerk im Text geführt (Form der Run-27-
+  Seitenkorrekturen), nicht als stiller Zahlentausch — die Prüfspur bleibt erhalten.
+- **Nicht ausgeführt (ausserhalb der Dateimenge dieses Ausführenden):** die im
+  Auftrag als optional bezeichnete Ergänzung der Führungsmatrix
+  `wissen/koordination/QUERBEZUEGE.md` (Zeile 42, dritte Spalte um «bauprodukte
+  (BKP 261, verweist nur)» ergänzen).
+
+Hinweis zum Eintrag der Nachtschicht unten: dessen Aufzählung «S. 88, 117, 138,
+146, 170» gibt den damaligen Stand wieder und wird als Historie nicht rückwirkend
+geändert; massgeblich ist die hier korrigierte Seite 139.
+
 ## 2026-08-07 (Mac Mini Nachtschicht 05:35) — ERCO-Ratgeber Seite 145 auf Seite 175 fortgeschrieben, Leuchtengruppen abgeschlossen, Lichtanwendungen begonnen
 
 Fortsetzung des Vorlaufs vom 06.08. 23:31. `de_erco_guide.pdf` (BKP 233, P1, 435 S.)

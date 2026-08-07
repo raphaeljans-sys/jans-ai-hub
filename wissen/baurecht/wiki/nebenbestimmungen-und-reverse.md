@@ -2,7 +2,7 @@
 beschreibung: Die Nebenbestimmungen der Baubewilligung im Kt. ZH (§ 321 PBG) — Auflage, Bedingung, Befristung und der baurechtliche Revers. Kernunterscheidung: Mängel «ohne besondere Schwierigkeiten» werden via Nebenbestimmung geheilt, sonst Bauverweigerung; Auflage (Verfügung bleibt gültig, Zwangsmittel §§ 30/31 VRG) vs. Bedingung (Wirksamkeit hängt am künftigen Ereignis); Revers = gemischte Nebenbestimmung; Grundbuch-Anmerkung ist nur deklaratorisch. Liefert die rechtliche Einordnung jeder Auflage aus dem Bauentscheid und ist damit die Faktenbasis für den Skill auflagebereinigung.
 title: Nebenbestimmungen der Baubewilligung und Reverse — ZH
 status: established
-last_updated: 2026-07-27
+last_updated: 2026-08-07
 sources: [raw/260607_amtlich_zh_pbg.md, "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-443)"]
 verifiziert: "2026-07-27 (Buch-Run 67, Modell-D-Wortlautabgleich vollstaendig, PBG Nachtrag 133, VRG-Begruendungspflicht seit 1.1.2026 § 10b statt § 10a)"
 quelle_destillat: "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-443)"
@@ -67,8 +67,13 @@ Bewilligung (Häfelin/Müller/Uhlmann Rz. 921 ff.).
 - Nebenbestimmungen mit **längerer zeitlicher Wirkung** sind im Grundbuch **anzumerken**
   (§ 321 Abs. 2 PBG; Art. 962 Abs. 1 ZGB: «Das Gemeinwesen … muss eine für ein bestimmtes
   Grundstück verfügte Eigentumsbeschränkung des öffentlichen Rechts … im Grundbuch anmerken
-  lassen»). Die **Übergangsbestimmung Art. 164 GBV** nimmt davon ausdrücklich **Alt-Bestand**
-  aus: öffentlich-rechtliche Eigentumsbeschränkungen, die **vor dem 1. Januar 2012**
+  lassen»). Der **zweite Halbsatz** von § 321 Abs. 2 PBG ist demgegenüber eine
+  **Kann-Vorschrift**: wo ein Bedürfnis besteht, **kann** die Anmerkung auch bei
+  Eigentumsbeschränkungen angeordnet werden, deren Umfang und Tragweite sich unmittelbar aus
+  den Bauvorschriften ergibt (ergänzt Wissens-Chef Run 28, 07.08.2026; Beleg
+  `raw/260607_amtlich_zh_pbg.md` Z. 3306-3309). Die **Übergangsbestimmung Art. 164 GBV** nimmt
+  davon ausdrücklich **Alt-Bestand** aus: öffentlich-rechtliche Eigentumsbeschränkungen, die
+  **vor dem 1. Januar 2012**
   rechtskräftig angeordnet wurden, **müssen nicht** (nachträglich) im Grundbuch angemerkt
   werden — die Anmerkungspflicht nach Art. 962 ZGB gilt seither nur für neu angeordnete
   Beschränkungen.
@@ -76,6 +81,12 @@ Bewilligung (Häfelin/Müller/Uhlmann Rz. 921 ff.).
   öffentlich-rechtlichen Eigentumsbeschränkung hängt allein an der **Rechtsbeständigkeit
   der Baubewilligung**, nicht an der Anmerkung. Eine fehlende Anmerkung schützt den
   gutgläubigen Erwerber grundsätzlich **nicht** (BGE 111 Ia 183).
+- Die Grundbuch-/Anmerkungs-Mechanik aus **Erwerbersicht** (Anmerkung vs. Dienstbarkeit,
+  statische vs. dynamische Reverse, Löschung obsolet gewordener Anmerkungen, Parzellierung)
+  führt `wissen/planungsgrundlagen/wiki/recht-norm-mehrwertrevers-grundbucheintragungen.md` —
+  Status `emerging`, Quelle Bösch ZBl 1993, die §-Ziffern dort **nicht** gegen die aktuelle
+  PBG-Fassung geprüft; für Erlasswortlaut und §§ gilt dieser Artikel (Querverweis gesetzt
+  Wissens-Chef Run 28, 07.08.2026).
 - Deshalb ist die in Bewilligungen häufige «Bedingung», wonach **vor Baubeginn** ein Revers
   im Grundbuch einzutragen sei, **keine Bedingung im Rechtssinn, sondern eine Auflage** —
   ihre Nichterfüllung berührt die Gültigkeit der Baubewilligung nicht (BEZ 2004 Nr. 67).
