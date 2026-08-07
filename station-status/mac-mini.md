@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 07.08.2026 05:56:57
+Stand: 07.08.2026 06:07:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:36)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 07.08.2026 05:56:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d94f3266 nas-selfcommit: 10 Datei(en) 2026-08-07 05:45
+- 02241098 twin-fidelity-review 2026-08-07: Service-Satz nach Gattung, vierte Endform, Signaturblock-Regel zurueckgenommen
