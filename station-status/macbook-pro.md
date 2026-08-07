@@ -1,10 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 07.08.2026 20:33:26
+Stand: 07.08.2026 20:43:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/normen/destillat/p1/a19385  (letzte Aktivitaet 20:32)
-- Developer/jans/ai/hub//claude/worktrees/sidebar/sessions/understanding/877012  (letzte Aktivitaet 20:33)
+- Developer/jans/ai/hub//claude/worktrees/sidebar/sessions/understanding/877012  (letzte Aktivitaet 20:36)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:32)
 
 ## Laufende Arbeits-Prozesse
@@ -15,4 +15,4 @@ Stand: 07.08.2026 20:33:26
 - 1 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 
 ## Hub-Git-Stand (NAS)
-- 046b43ed nas-selfcommit: 4 Datei(en) 2026-08-07 20:30
+- dfa1744f templates/scheduled-tasks: redundanten Einzelspiegel claude-abo-auslastung entfernt (identisch in mac-mini/ enthalten)
