@@ -4949,3 +4949,20 @@ veraltetes Recht. Drei Artikel korrigiert: `kosten-und-zeit.md`, `rechtsform-ver
 Flag auf die weiterhin marktbasierten (nicht amtlich tarifierten) Beratungs-/Notarkosten
 eingeschraenkt. Via `nas-commit-now.sh` committet+verifiziert (`93f43f38`). Kein
 Versand/Publikation/Buchung, kein Fan-out. Zyklus beendet (~2.9 von 5 USD).
+
+## 2026-08-08 — Mac Mini 16:05 (Stale-Fire `planungsgrundlagen-training`, kein Lauf ausgefuehrt)
+
+Scheduled Task `planungsgrundlagen-training` hat trotz Deaktivierung vom 03.08.2026 gefeuert
+(Session gestartet mit deren SKILL.md als Prompt). Vor der Ausfuehrung geprueft: keine neuen
+Dateien in den vier PL-Ordnern seit 30.07.2026 (nur OneDrive-Sync-Metadatenrauschen auf
+Bestandsdateien) — die in der Task-Beschreibung genannte Reaktivierungsbedingung («neues
+Quellmaterial») ist nicht erfuellt. Trainingslauf deshalb NICHT ausgefuehrt.
+
+Ursache: `~/.claude/scheduled-tasks/planungsgrundlagen-training/SKILL.md` traegt kein
+`enabled:`/Cron-Feld (nur `name`/`description`); das Deaktivieren am 03.08. hat offenbar nur den
+Beschreibungstext gesetzt, nicht den echten App-internen Scheduler-Eintrag (kein Tool-Zugriff von
+hier aus, weder in settings.json noch in der SKILL.md abgelegt). Gleiche Fehlerfamilie wie Rule
+`auto-verbesserungen` 260807 (Konfigurationsfeld ohne gemessene Live-Wirkung), hier umgekehrt:
+Doku sagt deaktiviert, Scheduler feuert weiter. **Offener Punkt fuer Raphael:** die Task in der
+Claude-Code-App (Scheduled Tasks) muss dort selbst deaktiviert/geloescht werden — von der Session
+aus nicht moeglich. Kein Geld/Frist/Kunde betroffen, reine Hub-Interna.
