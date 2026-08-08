@@ -4699,3 +4699,23 @@ aus dem Nachbarordner liest im selben Moment fehlerfrei, der Befund ist also lok
 diesen einen Projektordner eingegrenzt, nicht stationsweit. Kein Kennwert promoviert, Befund
 und Vorschlag dokumentiert in `wissen/grobkosten/wiki/QUESTIONS.md` und
 `training/quellen-inventar.md` (Run 13). Kein Versand, keine Buchung, kein Fan-out.
+
+## 2026-08-08 — Mac Mini Nachtschicht (KB grobkosten, Run 14: Blocker unveraendert, Gegenpruefung Niederhasli)
+
+Prioritaeten 1-3 leer/nicht viabel (keine Sync-/Remote-Tasks; Synobsis weiterhin gesaettigt,
+kein neues Quellmaterial seit Maerz; Fristen-Register enthaelt nur bereits als "offen"
+verfolgte Punkte, kein neu zu kompilierender Entwurf). Prioritaet 4: `grobkosten` erneut
+laengster unberuehrter freier Ziel-KB (Stand 06.08. 23:44, bauprodukte/energie beide 07.08.
+abends aktualisiert). Blocker aus Run 13 (2304 Waedenswil, `Resource deadlock avoided`)
+erneut getestet: unveraendert blockiert, keine weitere Vollpruefung (Budget-Disziplin, nicht
+denselben Task direkt wiederholen). Stattdessen gemaess PROGRAMM.md ("kein Leerlauf-Zwang,
+sonst Kennwert gegenpruefen") den staerksten bestehenden Einzelfallbeleg (8155 Niederhasli,
+Kennwert 1'032 CHF/m³) direkt am Original-PDF unabhaengig nachgemessen: GV, alle BKP-1-5-
+Einzelpositionen, Summe und Kennwert exakt bestaetigt. Dabei eine bisher als "nicht
+aufgeloeste Rundungsdifferenz" gefuehrte Abweichung tatsaechlich geklaert: das
+Drittsoftware-Tool "hva" beschriftet ein Kopffeld als "BKP 1-5 CHF/m² BGF", es enthaelt aber
+rechnerisch nachweisbar BKP 9 mit (ebenso "BKP 0-5" reicht faktisch bis BKP 0-9) — eine
+Werkzeug-Fehlbeschriftung, kein Fehler dieser KB. Als Betriebshinweis fuer kuenftige Laeufe
+mit demselben Tool in `wiki/QUESTIONS.md` festgehalten. Details: `raw/8155-niederhasli-
+seestrasse64.md` (Nachtrag), `CHANGELOG.md`, `training/quellen-inventar.md` (Run 14). Kein
+Versand, keine Buchung, kein Fan-out.

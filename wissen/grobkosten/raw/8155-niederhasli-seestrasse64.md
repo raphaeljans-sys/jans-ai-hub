@@ -34,8 +34,24 @@ Grundstück 1'049 m², BGF oberirdisch 640 m², HNF 513.95 m².
 | **Summe BKP 1–5** | | **3'966'406** |
 | 9 | Ausstattung (separat, NICHT in Summe oben) | 88'935 |
 
-Kennwert-Feld im Dokument selbst: 6'336 CHF/m² BGF (leichte Rundungsdifferenz zur eigenen
-Summenrechnung oben, nicht aufgelöst — Differenz < 1 %, unkritisch).
+Kennwert-Feld im Dokument selbst: 6'336 CHF/m² BGF.
+
+**Nachtrag 08.08.2026 (Mac Mini Nachtschicht, unabhängige Gegenprüfung am Original-PDF):**
+Alle Werte dieser Tabelle sowie GV, Summe BKP 1–5 und der abgeleitete Kennwert 1'032 CHF/m³
+wurden direkt am Primärdokument (`pdftotext -layout`) nachgemessen und stimmen exakt. Die
+oben als "leichte Rundungsdifferenz, nicht aufgelöst" vermerkte Abweichung des dokument-
+eigenen Feldes 6'336 CHF/m² BGF zur eigenen Summenrechnung (3'966'406 ÷ 640 = 6'197.51) ist
+**kein Rundungsfehler, sondern eine Fehlbeschriftung im Drittsoftware-Tool**: 6'336 ergibt
+sich rechnerisch exakt aus (BKP 1–5 + BKP 9) ÷ BGF = (3'966'406 + 88'935) ÷ 640 = 6'336.47 ≈
+6'336. Das Tool-Feld, das im Dokumentkopf als "BKP 1-5 CHF/m2 BGF" beschriftet ist, enthält
+also faktisch BKP 9 (Ausstattung/Reserve) mit. Gleiches Muster beim Feld "BKP 0-5 CHF/m2 BGF
+8'765": das entspricht exakt dem Anlagekosten-Gesamttotal (BKP 0-9 = 5'609'411 CHF) ÷ 640 =
+8'764.70 ≈ 8'765 — also ebenfalls BKP 0-9 statt der beschrifteten Spanne BKP 0-5. Für die
+Kennwerte-KB folgenlos, da der hier geführte Kennwert (1'032 CHF/m³) ausschliesslich aus der
+eigenen BKP-1–5-Summe berechnet ist und nicht auf die Tool-Kopffelder zurückgreift — die
+Beobachtung ist als Warnung für künftige Läufe mit demselben Tool "hva" festgehalten: dessen
+Kopffelder «BKP x-y CHF/m²» sind nicht wörtlich zu nehmen, sondern vor Übernahme rechnerisch
+zu prüfen.
 
 ## Abgeleiteter Kennwert
 

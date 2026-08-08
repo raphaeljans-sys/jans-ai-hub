@@ -2,6 +2,18 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-08 (Mac Mini Nachtschicht) — Werkzeug-Hinweis (kein offener Punkt): Kopffelder des Tools "hva" nicht wörtlich übernehmen
+
+Bei der unabhängigen Gegenprüfung des Niederhasli-Belegs (`raw/8155-niederhasli-
+seestrasse64.md`) am Original-PDF geklärt: Die im Dokumentkopf beschrifteten Felder
+"BKP 1-5 CHF/m² BGF" und "BKP 0-5 CHF/m² BGF" des Drittsoftware-Tools "hva" (Ersteller Loris
+Viola) enthalten rechnerisch nachweisbar zusätzlich BKP 9 (Ausstattung/Reserve) bzw. reichen
+faktisch bis BKP 0-9 (Anlagekosten-Gesamttotal) — trotz enger Beschriftung. Kein Fehler dieser
+KB (der geführte Kennwert 1'032 CHF/m³ stammt aus der eigenen BKP-1-5-Summenrechnung, nicht
+aus dem Tool-Kopffeld), aber **Merkpunkt für künftige Läufe**: taucht dasselbe Tool "hva"
+wieder auf (z.B. bei weiteren IMMO-Projekten), Kopffelder rechnerisch prüfen statt direkt
+übernehmen. Kein offener Punkt, nur Betriebshinweis.
+
 ## 2026-08-07 (Mac Mini Nachtschicht) — Run-6-Kandidat «2304 Wädenswil Residualwert-Tool» weiterhin offen: ganzer Projektordner aktuell durch OneDrive-Dateisperre blockiert
 
 **Versucht:** den in Run 6 (27.07.2026) zurückgestellten Kandidaten «2304 Wädenswil

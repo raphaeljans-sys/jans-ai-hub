@@ -1,3 +1,15 @@
+## Run 14 (08.08.2026) — Run-13-Blocker unverändert, kein neuer Projektordner: stattdessen Gegenprüfung Niederhasli (`[x]`, bereits extrahiert, jetzt unabhängig verifiziert)
+
+`2304 Wädenswil` (Run 13) erneut getestet (`cp` auf dieselbe Datei): weiterhin `Resource
+deadlock avoided`, unverändert seit 07.08.2026 — keine weitere Vollprüfung, bleibt `[ ]`
+offen. Autonome SharePoint-Struktur-Exploration bleibt gemäss Run 11 erschöpft; PROGRAMM.md
+sieht bei fehlendem neuem Material die Gegenprüfung eines bestehenden Kennwerts vor statt
+Leerlauf. Stärksten Beleg (8155 Niederhasli, Run 6) am Original-PDF nachgemessen: GV, alle
+BKP-Einzelpositionen, Summe und Kennwert (1'032 CHF/m³) exakt bestätigt; die dort offen
+vermerkte "Rundungsdifferenz" des Tool-Kopffeldes geklärt (Fehlbeschriftung im Tool "hva",
+enthält BKP 9 mit). Details `raw/8155-niederhasli-seestrasse64.md` (Nachtrag), Werkzeug-
+Hinweis `wiki/QUESTIONS.md`.
+
 ## Run 13 (07.08.2026) — letzter Run-6-Kandidat «2304 Wädenswil Residualwert-Tool» weiterhin `[ ]` offen: Quelle geortet, aber durch OneDrive-Dateisperre blockiert
 
 Quelle lokalisiert (`AR - 03 Studien/2304 Waedenswil/09_Dokumente/03_Residualwertberechnung/`,

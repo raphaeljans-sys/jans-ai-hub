@@ -1,5 +1,25 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-08 (Mac Mini Nachtschicht, Run 14) — Run-13-Blocker unverändert; stattdessen unabhängige Gegenprüfung des stärksten Einzelfalls (Niederhasli) am Original-PDF
+
+Kein neuer Kennwert, keine Promotion. `2304 Wädenswil` (Run 13) erneut geprüft: derselbe
+`Resource deadlock avoided` beim Lesezugriff (`cp`) auf den Ordner besteht unverändert fort —
+keine weitere Aktion, keine erneute Vollprüfung (Rule Budget-Disziplin). Die vollständige
+SharePoint-Struktur-Exploration bleibt gemäss Run 11 erschöpft; PROGRAMM.md sieht für diesen
+Fall die Gegenprüfung eines bestehenden Kennwerts statt Füllwerten vor.
+
+Stattdessen den bisher stärksten Einzelfall-Beleg (8155 Niederhasli, `raw/8155-niederhasli-
+seestrasse64.md`, Kennwert 1'032 CHF/m³) direkt am Original-PDF (`pdftotext -layout`)
+unabhängig nachgemessen: GV (3'843.8 m³), alle fünf BKP-Einzelpositionen und deren Summe
+(3'966'406 CHF) sowie der daraus abgeleitete Kennwert (1'032 CHF/m³) stimmen exakt. Zusätzlich
+die bisher "nicht aufgelöste" Rundungsdifferenz des dokument-eigenen Kopffeldes (6'336 CHF/m²
+BGF) geklärt: kein Rundungsfehler, sondern eine Fehlbeschriftung im verwendeten Drittsoftware-
+Tool "hva" — das als "BKP 1-5 CHF/m² BGF" beschriftete Feld enthält rechnerisch nachweisbar
+BKP 9 (Ausstattung/Reserve) mit, ebenso das Feld "BKP 0-5" (enthält tatsächlich BKP 0-9).
+Für den geführten Kennwert folgenlos (eigene Summenrechnung, nicht Tool-Kopffeld), aber als
+Warnung für künftige Läufe mit demselben Tool festgehalten (`wiki/QUESTIONS.md`). Details:
+`raw/8155-niederhasli-seestrasse64.md` (Nachtrag 08.08.2026).
+
 ## 2026-08-07 (Mac Mini Nachtschicht, Run 13) — Run-6-Kandidat «2304 Wädenswil» weiterhin offen: Quelle geortet, Zugriff durch OneDrive-Dateisperre blockiert
 
 Kein neuer Kennwert, kein promovierter Fall. Quelle des letzten offenen Run-6-Kandidaten
