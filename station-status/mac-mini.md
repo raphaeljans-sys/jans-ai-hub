@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 16:02:49
+Stand: 08.08.2026 16:12:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 16:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 16:02:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f6104bde nas-selfcommit: 2 Datei(en) 2026-08-08 16:00
+- 5ffe63de Logbuch: Stale-Fire planungsgrundlagen-training dokumentiert (kein Lauf, App-Scheduler-Deaktivierung noch offen)

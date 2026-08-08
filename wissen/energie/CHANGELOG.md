@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 2026-08-08 (Nachtschicht Mac Mini, kleiner Block) — E-125-4 geklärt: Impulsberatung seit 1.4.2022 kostenlos
+
+PL-02 (OneDrive) war für den geplanten eco-bau-Block gesperrt (`Resource deadlock avoided`,
+gleiches Muster wie grobkosten Run 13) — stattdessen die offene Widerspruchsfrage E-125-4 per
+Web-Recherche aufgelöst: die Impulsberatung «erneuerbar heizen» ist seit 1.4.2022 schweizweit für
+alle Gebäudekategorien kostenlos (admin.ch Meldung 87815, 31.3.2022; bestätigt am aktuellen
+Programmauftritt). Die CHF-1'500-2'000-Angabe der Broschüre 10.2021 in
+`[[heizungsersatz-groessere-mfh-stweg]]` war vor dieser Umstellung gültig und ist jetzt als
+überholt markiert; kein Widerspruch zu `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]`
+mehr. `wiki/QUESTIONS.md` E-125-4 geschlossen.
+
 ## 2026-08-07 (Run 125) — Minergie-Restbestand PL-02 abgeräumt, GEAK-Methodik erschlossen, zwei Ordner-Ablage-Fallen und ein heute falscher Rechtsstand korrigiert
 
 15 PDF aus dem PL-02-Minergie-Ordner gelesen, **9 neue Destillate**. Neun Destillier-Agenten

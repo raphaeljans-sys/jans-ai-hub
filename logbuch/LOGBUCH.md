@@ -4966,3 +4966,5 @@ hier aus, weder in settings.json noch in der SKILL.md abgelegt). Gleiche Fehlerf
 Doku sagt deaktiviert, Scheduler feuert weiter. **Offener Punkt fuer Raphael:** die Task in der
 Claude-Code-App (Scheduled Tasks) muss dort selbst deaktiviert/geloescht werden — von der Session
 aus nicht moeglich. Kein Geld/Frist/Kunde betroffen, reine Hub-Interna.
+
+08.08.2026 16:xx (Nachtschicht Mac Mini, ausserplanmaessig 16:04) — energie-KB: PL-02/eco-bau-Block durch OneDrive-Sperre blockiert (Resource deadlock avoided), stattdessen E-125-4 (Impulsberatung kostenpflichtig/kostenlos-Widerspruch) per Web-Recherche geklaert: seit 1.4.2022 schweizweit kostenlos. Destillat heizungsersatz-groessere-mfh-stweg.md + QUESTIONS.md + CHANGELOG nachgefuehrt. Budget 5 USD ausgeschoepft, sauber beendet.

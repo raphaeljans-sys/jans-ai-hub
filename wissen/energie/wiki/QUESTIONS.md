@@ -3084,11 +3084,16 @@ durchfuehrbar.
   02/2023 nennt «vergünstigte Konditionen bei Hypotheken» und «steuerliche Vorteile», ohne Betrag,
   ohne Institut, ohne Kanton. Als Argument im Gespräch brauchbar, als Zusage nicht. Zu belegen an
   einer Bank- oder Steuerquelle; berührt `[[gruene-hypotheken-klimahypotheken-ch]]`.
-- **E-125-4 — Impulsberatung: kostenpflichtig oder kostenlos?** Die KB widerspricht sich. Die
-  BFE-Broschüre 10.2021 weist für MFH/STWEG ab sechs Wohneinheiten CHF 1'500-2'000 aus, während
-  `[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]` die Impulsberatung zweimal als
-  **kostenlos** führt. Ab welcher Objektgrösse sie kostenpflichtig wird und wie der heutige Stand
-  lautet, ist offen (erneuerbarheizen.ch).
+- **E-125-4 — GEKLÄRT 08.08.2026 (Nachtschicht, Web-Recherche).** Impulsberatung «erneuerbar
+  heizen» ist seit **1.4.2022 schweizweit für alle Gebäudekategorien kostenlos** (Medienmitteilung
+  UVEK/BFE 31.3.2022, admin.ch Meldungs-ID 87815; bestätigt am aktuellen
+  Programmauftritt energieschweiz.ch/programme/erneuerbarheizen/gratis-impulsberatung/, Stand
+  08.08.2026). Die CHF-1'500-2'000-Empfehlung des BFE in der Broschüre 10.2021 galt **vor** der
+  Umstellung und ist keine heutige Kostenaussage mehr; der einzige Unterschied nach Objektgrösse
+  ist der Zeitaufwand (~1,5 h EFH/MFH bis 6 WE gegen ~5 h MFH >6 WE/STWEG), nicht der Preis. Beide
+  KB-Quellen waren für ihren jeweiligen Stand korrekt. Destillat
+  `[[heizungsersatz-groessere-mfh-stweg]]` nachgeführt (Frontmatter, Kasten-Zitat, Bauherren-Transfer,
+  offener Punkt).
 - **E-125-5 — Aktuelle Fassung des Minergie-Nachweisformulars fehlt.** Destilliert ist die Version
   2022.4 mit eigener Befristung bis 31.12.2023. Welche Fassung heute gilt und wie stark sich die
   Feldstruktur geändert hat, ist ungeprüft.

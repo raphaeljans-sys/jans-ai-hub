@@ -3,9 +3,9 @@ quelle: EnergieSchweiz/BFE, Broschüre «Heizungsersatz in grösseren Mehrfamili
 herausgeber: EnergieSchweiz / Bundesamt für Energie BFE, Pulverstrasse 13, CH-3063 Ittigen
 ausgabe: 10.2021 (Vertriebsvermerk Rückseite, Artikelnummer 805.203.D; kein explizites «Ausgabe»-Label im Dokument, dies ist der einzige Datumsbeleg)
 gelesen: 2026-08-07 (S. 1-12, vollständig)
-datenstand: "⚠ Oktober 2021 (Vertriebsvermerk) — fast 5 Jahre alt, keine Aktualisierung im Dokument erkennbar"
+datenstand: "Oktober 2021 (Vertriebsvermerk); Impulsberatungs-Kostenangabe durch Web-Recherche 08.08.2026 auf Stand 1.4.2022 (kostenlos) aktualisiert, übrige Broschüreninhalte unverändert Stand 10.2021"
 status: emerging
-last_updated: 2026-08-07
+last_updated: 2026-08-08
 ---
 
 # Destillat — Heizungsersatz in grösseren Mehrfamilienhäusern und bei Stockwerkeigentum (EnergieSchweiz)
@@ -68,7 +68,23 @@ Für **grössere MFH ab sechs Wohneinheiten und Stockwerkeigentum** umfasst die 
 Schritte (geschätzter Stundenaufwand):
 Kontakt Kunde, Sichten Unterlagen, Vorbereitung Begehung 3 h · Aufnahme Objekt inkl. Hin- und
 Rückfahrt 3 h · Variantenstudium, Beratungsbericht 3 h · Beratungsgespräch inkl. Vorbereitung 2 h ·
-Beantwortung von Nachfragen 1 h · **Kosten ca. CHF 1'500.- bis 2'000.- inkl. MWSt (Empfehlung des BFE)**.
+Beantwortung von Nachfragen 1 h · **Kosten laut Broschüre (10.2021) ca. CHF 1'500.- bis 2'000.-
+inkl. MWSt (Empfehlung des BFE) — dieser Betrag ist überholt, siehe Aktualisierung unten.**
+
+**⚠ Aktualisierung 08.08.2026 (Web-Recherche, KB-Widerspruch E-125-4 aufgelöst):** Seit dem
+**1.4.2022** ist die Impulsberatung «erneuerbar heizen» **schweizweit für ALLE Gebäudekategorien
+kostenlos**, finanziert durch EnergieSchweiz (Medienmitteilung UVEK/BFE 31.3.2022, admin.ch
+Meldungs-ID 87815, «Impulsberatung ‹erneuerbar heizen› ab sofort kostenlos»; bestätigt am
+aktuellen Programm-Auftritt energieschweiz.ch/programme/erneuerbarheizen/gratis-impulsberatung/,
+Stand 08.08.2026: «ist für Sie in der ganzen Schweiz kostenlos», auch für Unternehmen/öffentliche
+Verwaltung). Die CHF-1'500-2'000-Empfehlung des BFE aus dieser Broschüre (Vertriebsvermerk
+10.2021) stammt damit von **vor** der Kostenlos-Umstellung und ist keine heute geltende
+Kostenaussage mehr. Der einzige verbleibende Unterschied nach Objektgrösse ist der
+**Zeitaufwand vor Ort**, nicht die Kosten: rund 1,5 h bei EFH/MFH bis 6 Wohneinheiten gegenüber
+rund 5 h bei MFH über 6 Wohneinheiten/STWEG (jeweils inkl. Vor-/Nachbereitung insgesamt ca. 3 h
+bzw. 12 h). Damit ist auch der scheinbare Widerspruch zu
+[[waermepumpen-system-modul-wpsm-heizkoerper-altbau]] (dort korrekt als kostenlos geführt) geklärt:
+beide Quellen sind richtig für ihren jeweiligen Stand, nur diese Broschüre ist die ältere.
 Mit besserer Wärmedämmung und dichteren Fenstern lassen sich laut Broschüre bis zu **50 Prozent
 Heizkosten** sparen (S. 5, ohne weitere Herleitung im Text).
 
@@ -166,15 +182,13 @@ leistungsgarantie.ch · makeheatsimple.ch (Heizungsfernbedienung Ferienwohnungen
   Massgebend: [[oelheizung-gasheizung-ersatzpflicht-zh-sz]]. Schritt 5 der Broschüre («Behörden
   informieren») ist entsprechend zu erweitern: nicht nur Baubewilligung und Konzession, sondern
   zuerst der Nachweis der Substitutionspflicht.
-- **Kosten:** Der grosse Unterschied zum EFH ist die Impulsberatung selbst — für MFH ab sechs
-  Wohneinheiten/STWEG ist sie mit CHF 1'500-2'000 inkl. MWSt eigens ausgewiesen und deutlich
-  aufwendiger (12 h Fachaufwand laut Kasten) als beim einfachen EFH-Heizkostenrechner. **⚠ Stand
-  10.2021, vor jeder Verwendung prüfen** — es handelt sich um eine Empfehlung des BFE von 2021,
-  nicht um einen Marktpreis. Der KB-Bestand führt für kleinere Objekte eine **kostenlose**
-  Impulsberatung ([[waermepumpen-system-modul-wpsm-heizkoerper-altbau]]); ab welcher
-  Objektgrösse sie kostenpflichtig wird, ist in der KB nicht geklärt. Bei einer Bauherrschaft
-  mit mehreren Liegenschaften lohnt es sich, diese Beratung projektübergreifend einzuplanen
-  statt objektweise ad hoc.
+- **Kosten:** Der Unterschied zum EFH ist nicht mehr der Preis, sondern der Zeitaufwand — die
+  Impulsberatung ist seit 1.4.2022 für **alle** Objektgrössen kostenlos (siehe Aktualisierung
+  oben), für MFH ab sechs Wohneinheiten/STWEG aber mit rund 12 h Fachaufwand deutlich
+  umfangreicher als beim einfachen EFH-Heizkostenrechner (rund 3 h). Die in der Broschüre
+  genannten CHF 1'500-2'000 waren die **BFE-Empfehlung vor** der Kostenlos-Umstellung und gelten
+  nicht mehr. Bei einer Bauherrschaft mit mehreren Liegenschaften lohnt es sich, diese Beratung
+  projektübergreifend einzuplanen statt objektweise ad hoc.
 - **Mieterschaft:** Punkt 5 der Finanzargumente (Überwälzung wertvermehrender Investitionen auf den
   Mietzins) ist für JANS-Mandate mit Renditeliegenschaften der entscheidende Hebel — die Broschüre
   belegt ihn nur dem Grundsatz nach («im Einzelfall zu prüfen»), ohne CHF- oder Prozentangabe. Eine
@@ -209,9 +223,9 @@ leistungsgarantie.ch · makeheatsimple.ch (Heizungsfernbedienung Ferienwohnungen
   Rechtsgrundlage; ob und wie das im MuKEn-2025-Fahrplan verankert ist, klärt
   `[[muken-2025-verabschiedet]]` differenzierter (Stand: noch kein Kanton hat per 20.07.2026
   umgesetzt).
-- Die CHF-Bandbreite der Impulsberatung (1'500-2'000) ist explizit als «Empfehlung des BFE»
-  gekennzeichnet, nicht als verbindlicher Marktpreis — vor einer Kostenaussage im Mandat aktuell bei
-  erneuerbarheizen.ch prüfen.
+- Die CHF-Bandbreite der Impulsberatung (1'500-2'000) ist überholt: **geklärt 08.08.2026** — seit
+  1.4.2022 ist die Beratung kostenlos (siehe Aktualisierung oben), im Mandat keine Kostenaussage
+  mehr dazu machen.
 - Überwälzungshöhe auf den Mietzins (Argument 5) bleibt unbeziffert; QUESTIONS-Eintrag sinnvoll,
   falls ein Mandat das konkret braucht.
 
