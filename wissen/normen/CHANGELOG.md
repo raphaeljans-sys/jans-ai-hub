@@ -1,3 +1,186 @@
+## 2026-08-08 (Run 48) — Neue Destillate SIA 370/21:1987 + SIA 370/24:1979 (Güteraufzüge/Hubvorrichtungen)
+
+Zwei Destillate der 370er-Aufzugsfamilie neu erstellt, beide mit vollständigem Textlayer via
+`pdftotext -layout`; keine Tabelle mit verbundenen Zellen, Farbcodierung oder gedrehten
+Kopfzeilen identifiziert (nur textbasierte Typ-1/Typ-2-Gegenüberstellungen bzw. Prinzipskizzen
+mit nummerierter Legende), daher kein PNG-Rendering nötig.
+
+`destillate/sia-370-21-1987.md` (76 Seiten): SIA 370/21 «Aufzüge für die Förderung von Gütern
+mit mechanischem Beladen und Entladen», genehmigt 07.11.1986, in Kraft 15.08.1987, vorliegend
+2. Auflage 7/1991. Regelt Projektierung/Ausführung/Betrieb/Wartung elektromechanisch
+angetriebener Güteraufzüge mit mechanischer Belade-/Entladevorrichtung, unterschieden nach
+Typ 1 (unbegrenzte Schachtabmessungen) und Typ 2 (Schachtquerschnitt ≤2,25 m², längere Seite
+≤2,25 m). Kernwerte für die Bauplanung: Schachtkopf-Sicherheitsabstände geschwindigkeits-
+abhängig (0,1/0,4/0,7 m + 0,035·v² bei Treibscheibenantrieb), Schachtgrube-Schutzraum-Prisma
+0,5×0,6×0,8 m, Wartungsöffnungen max. 0,6×2,0 m, Maschinenraum-Zugang min. 0,65×1,9 m,
+Schachttürenspalt max. 10 mm, Bremse für 125 % Nenntragfähigkeit, periodische Prüfung
+empfohlen alle 5 Jahre. Kein Bezug zu SIA 500 (reiner Gütertransport).
+
+`destillate/sia-370-24-1979.md` (16 Seiten): SIA 370/24 «Hubvorrichtungen für Güter», Ausgabe
+1979, in Kraft 01.01.1979, vorliegend Druck 10/1993. Regelt eine kleinere Geräteklasse
+UNTERHALB des Aufzugsbegriffs (fünf kumulative Abgrenzungskriterien Ziff. 1: Hubhöhe >1,0 m,
+zu wartende Teile ≤5,0 m über Boden, kein Handbeladen, überblickbar, Lastaufnahmemittel nicht
+begehbar) — ausdrücklich NICHT anwendbar auf Aufzüge, Beschickeraufzüge, Regalbediengeräte,
+Hebebühnen. Kernwerte: sicherer Wartungsstandort 0,65×0,65 m/1,8 m frei, Schutzraum bei
+tiefer Absenkung 0,5 m, erschwerter Zugang min. 0,5 m Abstand/1,0 m Länge/1,6-2,0 m Höhe,
+Tragmittel-Sicherheitsfaktoren 1/5 (Seile) bzw. 1/3 (Ketten) der Bruchlast.
+
+Beide Ausgaben SEHR ALT (1987/1979); Ablösungsstatus im jeweiligen Dokument nicht erkennbar
+und daher im Frontmatter/Fliesstext prominent als offen markiert, nicht als geltend oder
+aufgehoben behauptet — Bring-Schuld: Register-Abgleich. SIA 370/10 (Personen-/Güteraufzüge,
+gleichzeitig eingeführt) ist in der KB noch nicht destilliert. `destillate/INDEX.md` ergänzt
+(direkt vor `sia-370-080-2003.md`).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 162/6:1999 (Stahlfaserbeton, Empfehlung)
+
+Destillat `destillate/sia-162-6-1999.md` neu erstellt (20 Seiten, vollständiger Textlayer via
+`pdftotext -layout`; zusätzlich Tabelle 1 (S. 12, Prüfungen/Kontrollen über 5 Bauphasen mit
+Verantwortlichkeitsmatrix) und Tabelle 2 (S. 18, Formeln zur Ermittlung von fctf/Gf aus den drei
+Belastungsversuchen Biegezug/Quadratplatte/Kreisplatte, inkl. Grundriss-/Aufriss-Prüfkörperskizzen)
+als 300-dpi-PNG gerendert und visuell gegen den Textlayer geprüft — keine Abweichung gefunden.
+Dokumentart ist eine **Empfehlung** (nicht Norm), sachlich Teil der Betonbau-Familie SIA 162:
+ergänzt die damalige Grundnorm SIA 162:1993 (mitgeltende Bestimmungen Ziff. 02) um Verständigung,
+Grundsätze, Berechnung/Bemessung (inkl. Duktilitätsbedingung 2F1w1≥W1 und Richtwert Gf≥4000N/m,
+Ziff. 3 13/3 14), Baustoffe, Ausführung, Arbeitssicherheit sowie Leistung und Ausmass; Anhang mit
+den drei genormten Belastungsversuchen zur Ermittlung der Rechenwerte fctf (wirksame
+Biegezugfestigkeit) und Gf (Bruchenergie). **Nachfolge-Status offen:** Das Dokument selbst nennt
+keine Nachfolgepublikation; die Grundnorm SIA 162:1993, auf die 162/6 verweist, wurde 2003 durch
+SIA 262 abgelöst (`wiki/REGISTER.md`, Zeile SIA 262), während 162/6 selbst im KB-Register zum
+Stichtag 25.02.2013 noch als gültig geführt wird — ob sie danach zurückgezogen oder in die
+260er-Reihe überführt wurde, ist am Original nicht verifizierbar und als offener Punkt im
+Destillat vermerkt. INDEX.md ergänzt.
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 197/2:2004 (Projektierung Tunnel – Strassentunnel)
+
+Destillat `destillate/sia-197-2-2004.md` neu erstellt (48 Seiten, vollständiger Textlayer via
+`pdftotext -layout`; zusätzlich Tabelle 1 (S. 33, Nutzungsdauer Bauteile), Tabelle 2 (S. 34,
+Nutzungsdauer Anlageteile/Komponenten), Tabelle 4 (S. 38, diagonal geteilte Kopfzelle «Tunnel/
+Fahrzeug», Wahl Bemessungskurve/Einwirkungsdauer) und die Wirkmatrix Anhang D (S. 45, gedrehte
+Matrix-Kopfzeilen, Querformat) als 300-dpi-PNG gerendert und visuell gegen den Textlayer
+geprüft — keine Abweichung gefunden. Strassenspezifische Teilnorm zur Grundnorm
+`sia-197-2004.md` (Projektierung Tunnel – Grundlagen), identische Gliederung bis 3. Ebene; die
+meisten Kapitel verweisen nur zurück auf SIA 197 (Kap. 2/3/5/6, 4.1-4.3/4.4.2-4.4.6,
+7.1-7.3/7.4.3-7.4.4/7.5.1-7.5.3/7.6, 8.1/8.3.1/8.3.3/8.6) — dort nicht dupliziert, sondern
+verlinkt. Eigener Text vor allem in Kap. 8 (Bauliche Anlagen: Linienführung, Tunnelquerschnitt,
+Ausbau, Fahrbahn/Bankette/Kabeltrassen, Entwässerung, Fluchtwege/Querverbindungen, Portale,
+Nebenanlagen) und komplett eigenständig in Kap. 9 (Betriebs- und Sicherheitsausrüstung — SIA 197
+selbst verweist dort nur auf 197/1/197/2), zusätzlich Ziff. 7.4.2 (Explosion, in der Grundnorm
+nicht enthalten) und Ziff. 7.5.4 f. (Zwischendecke/Innenausbau). Kernwerte: Explosionslast
+Benzindampf 0→100 kN/m² binnen 1 ms, max. Längsneigung 5 %, Quergefälle 2,5-5 %,
+Sicherheitsbauteile-Raster 150 m ab Tunnellänge 300 m, Ausstellbuchten alle 600-900 m
+(einröhrig), Querverbindungen max. 300 m (zweiröhrig, ab 1,2 km mind. eine befahrbar),
+begehbare Querverbindung ≥ 2,0 x 2,50 m / befahrbare ≥ 4,20 x 4,50 m, Löschwasserreservoir
+≥ 250 m³, USV-Autonomie 1 Stunde, Verkehrsfernsehen/Funkanlage ab Tunnellänge 600 m. Vier
+Anhänge: A (Nutzungsdauer, Tab. 1/2), B (Brandlast, Tab. 3/4 inkl. EUREKA-Versuchswerte
+Personenwagen bis Tanklastwagen 200-1'400 °C), C (informative Normalprofil-Zeichnungen, nicht
+textlich extrahierbar) und D (Wirkmatrix-Beispiel, nur strukturell beschrieben, nicht im
+Wortlaut wiedergegeben). JANS-Relevanz ehrlich als sehr gering eingestuft (Healthcare-/
+Hochbau-Büro, Strassentunnelbau reines Randgebiet) — dient der Vollständigkeit der
+SIA-197-Normenfamilie, kein Arbeitsmittel. Status speculative, Refuter-Runde aussteht.
+`destillate/INDEX.md` Zeile ergänzt (direkt nach `sia-197-1-2004.md`).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 197/1:2004 (Projektierung Tunnel – Bahntunnel)
+
+Destillat `destillate/sia-197-1-2004.md` neu erstellt (44 Seiten, vollständiger Textlayer via
+`pdftotext -layout`; zusätzlich S. 29 (Tabelle 1 Nutzungsdauer), S. 38 (Tabelle 2 Richtwerte
+Höhe h der Lichtraumbegrenzung, Matrix nach Geschwindigkeit v × Entfernung vom Unterwerk u)
+und S. 40 (Tabelle 3 Projektierungsablauf, gedrehte Kopfzeile/Querformat, fünf Parallelspalten)
+als 200-dpi-PNG gerendert und visuell gegen den Textlayer geprüft — keine Abweichung gefunden).
+Bahnspezifische Teilnorm zur Grundnorm `sia-197-2004.md` (Projektierung Tunnel – Grundlagen),
+identische Gliederung bis 3. Ebene; wo kein bahnspezifischer Zusatz nötig ist, verweist die Norm
+nur zurück auf SIA 197 (u.a. Kap. 2/3/5, 4.1-4.3, 6, 7.1-7.3/7.5-7.6) — dort nicht dupliziert,
+sondern verlinkt. Eigener Text vor allem in Kap. 8 (Bauliche Anlagen: Tunnelquerschnitt,
+Fahrbahn/Bankette, Dichtigkeitsklassen 1-3 für Bahntunnel-Bauteile, Fluchtwege/Notausgänge) und
+Kap. 9 (Betriebs- und Sicherheitsausrüstung — hier steht der einzige eigenständige Volltext,
+SIA 197 selbst verweist in Ziff. 9 nur auf 197/1/197/2). Kernwerte: Brand-Grenzbelastung
+450 °C/30 Min für geschützte Personen (Anhang B), Randweg ≥ 1,20 m breit/≥ 2,20 m lichte Höhe,
+Notausgänge ins Freie alle ≤ 1000 m bzw. Querverbindungen alle ≤ 500 m, Löschwasser-Entnahme
+≥ 20 l/s je Stelle/80 l/s Richtwert LRZ-Auffüllung, Nothaltestellen-Prüfpflicht i.d.R. ab 20 km
+(Normalspur). JANS-Relevanz ehrlich als sehr gering eingestuft (Healthcare-/Hochbau-Büro,
+Bahntunnelbau reines Randgebiet) — dient der Vollständigkeit der SIA-197-Normenfamilie, kein
+Arbeitsmittel. Status speculative, Refuter-Runde aussteht. `destillate/INDEX.md` Zeile ergänzt
+(direkt nach `sia-197-2004.md`).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/263:2004 (Allgemeine Bedingungen für Stahlbau)
+
+Destillat `destillate/sia-118-263-2004.md` neu erstellt (24 Seiten, vollständiger Textlayer via
+`pdftotext -layout`; zusätzlich S. 16/17/19/20 als 200-300-dpi-PNG gerendert und visuell
+gegengeprüft — insbesondere die Teilzahlungs-Tabelle Ziff. 8.4.2.2, keine Abweichung zum
+Textlayer gefunden, keine verbundenen Zellen/Farbkodierung). Vertragsnorm der ABB-Reihe/
+Swissconditions-Projekt zu den Fachnormen SIA 263 (`sia-263-2003.md`) und SIA 264
+(`sia-264-2003.md`), Schwesternorm zu `sia-118-265-2004.md` (Holzbau), `sia-118-266-1-2017.md`/
+`sia-118-266-2-2017.md` (Mauerwerk) und `sia-118-262-2004.md` (Betonbau). Kernpunkte: älteste
+ABB-Generation im Bestand (2004, 1. Auflage) mit klassischer Zweiteilung Allgemeiner Teil
+(Ziff. 0/1/2/5, Ziff. 3/4/6/7 leer) + Besonderer Teil Ziff. 8 Stahlbau. **Wichtigster Befund:**
+im Unterschied zu den jüngeren, rein ergänzenden Schwesternormen 118/266-1/-2 enthält diese
+Norm DREI echte Änderungen der SIA 118 (Ziff. 0.2, S. 8) — Ziff. 8.4.2.2 ersetzt Art. 144 Abs. 1
+(Teilzahlungen), Ziff. 8.4.3 ersetzt Art. 66 Abs. 4 Satz 1 (Teuerung/Gleitpreisverfahren statt
+Mengennachweis), Ziff. 8.6.4 ersetzt Art. 86 Abs. 1/2 (Mengenabweichungen ± 10 %) — wirksam nur
+mit der wörtlich zu übernehmenden Vorrangklausel im Vertrag. Ausschreibungs-Checkliste Ziff. 8.1.2
+(Übersichtspläne/Materiallisten mit Stahlsorte/Gütegruppe, Qualitätsnachweise nach SIA 263/1);
+inbegriffene/nicht inbegriffene Leistungen Ziff. 8.2.3-8.2.4 sauber getrennt nach Herstellung
+mit/ohne Montage; Ausmass auf Basis theoretischer Masse nach SZS-Stahlbau-Tabellen C5 (Dichte
+7,85 t/m³ Profile/Flachstahl/Stahlguss, 8,00 t/m³ Breitflachstahl/Bleche), Abzugsgrenzen 1 m²
+(Belagsbleche/Gitterroste) bzw. 2 m² (Profilbleche); fixer Teilzahlungsplan mit Schwelle
+Fr. 50'000.– (zweistufig vs. dreistufig). Status speculative, Refuter-Runde aussteht.
+`destillate/INDEX.md` Zeile ergänzt (direkt nach `sia-118-265-2004.md`).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/265:2004 (Allgemeine Bedingungen für Holzbau)
+
+Destillat `destillate/sia-118-265-2004.md` neu erstellt (36 Seiten, vollständiger Textlayer via
+`pdftotext -layout` für S. 1-28/33-36; Anhang C S. 29-32 (Erläuterungen zu den
+Ausmassbestimmungen mit Skizzen/Formeln, Symbol-Font ohne Embedding) zusätzlich als 300-dpi-PNG
+gerendert und visuell verifiziert — dabei bestätigt: das von pdftotext als «/» ausgegebene
+Zeichen in den Rundholz-/Kreisformeln ist tatsächlich π, z. B. V=((d1+d2)/4)²·π·l und
+1,50·π/2 bzw. π/4 bei runden/gebogenen Anschlüssen). Vertragsnorm der ABB-Reihe/Swissconditions-
+Projekt zur Fachnorm SIA 265 (`sia-265-2003.md`), Schwesternorm zu `sia-118-266-1-2017.md`
+(Mauerwerk), `sia-118-262-2004.md` (Betonbau), `sia-118-257-2005.md` (Maler) und
+`sia-118-244-2006.md` (Kunststein). Kernpunkte: älteste ABB-Generation im Bestand (2004,
+Ausgabe-1) mit klassischer Zweiteilung Allgemeiner Teil (Ziff. 0/1/2/5, Ziff. 3/4/6/7 komplett
+leer) + Besonderer Teil Ziff. 8 Holzbau — anders als die spätere, flachere Struktur von
+SIA 118/266-1:2017; LV-Pflichtcheckliste Ziff. 8.1.2.2.1 (Holzart, Feuchtebereich, Längen über
+8,00 m, Verbindungsmittel usw.); Vergütungsgrenzen Hilfsgerüst bis 3,00 m ab Gerüstfuss,
+Schiften bis 10 mm, Schrauben/Dübel ≤ 8 mm (Ziff. 8.2.1/8.2.2); granulare Ausmassregeln Ziff. 8.5
+mit Umschlagpunkten Rundholz 0,16 m und Vollholz 100 cm² (Meter↔Kubikmeter), Abzugsgrenzen
+1,00 m² (Blockbau/Bekleidungen) bzw. 0,50 m² (Böden gerade Kanten), Brettschichtholz-Abzug ab
+0,06 m³, Sonderregel «bei Riegelwänden keine gesonderte Vergütung von Zapfen/Überblattung/
+Gehrung/Schrägschnitt»; Anhang B.1.7 verweist explizit auf VKF-Brandschutznormen, Anhang B.4 auf
+SIA 358 Geländer/Brüstungen. **Wichtigster Befund:** diese Ausgabe 2004 ist seit 01.04.2018 durch
+SIA 118/265:2018 abgelöst (Web-Verifikation SIA-Shop shop.sia.ch/normenwerk/ingenieur/
+118-265_2018_d, 08.08.2026); die Ausgabe 2018 liegt im Bestand nicht vor und ist NICHT
+destilliert — im Destillat als prominenter Warnhinweis direkt nach dem Titel platziert, nicht
+nur in den Frontmatter-Feldern. Zweiter offener Befund: Ziff. 8.2.2.2 verweist auf «Verbindungs-
+mittel gemäss Ziffer 8.1.3.2», eine solche Ziffer existiert im vorliegenden Normtext nirgends
+(vollständig geprüft S. 16-19) — vermutlich Redaktionsfehler der Norm oder gemeinter Bezug auf
+Ziff. 8.2.1.2, nicht auflösbar ohne Vergleich mit der Ausgabe 2018. Status speculative, Refuter-
+Runde aussteht. `destillate/INDEX.md` Zeile ergänzt (direkt nach der Fachnorm-Zeile
+`sia-265-2003.md`).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/262:2004 (Allgemeine Bedingungen für Betonbau)
+
+Destillat `destillate/sia-118-262-2004.md` neu erstellt (32 Seiten, vollständiger Textlayer via
+`pdftotext -layout`; acht Seiten mit Positionsgliederungs-Tabellen und Anhängen zusätzlich als
+300-dpi-PNG gerendert und visuell verifiziert — S. 21/22 Ziff. 8.4.3.6/8.4.6.5 Gliederung
+Schalungs-/Betonpositionen nach Abmessungen, S. 25-30 Anhang A-E inkl. Figur 3 Schalungsarten
+(Vektorgrafik, vom Textlayer nicht erfassbar) und Anhang E Tabellen 1-4 Betonsorten mit
+gedrehten Kopfspalten «Exposition»/«Anwendung»; keine Abweichung zur Textextraktion gefunden).
+Vertragsnorm der ABB-Reihe zu den Fachnormen SIA 262 (`sia-262-2003.md`) und SIA 264
+(`sia-264-2003.md`), Schwesternorm zu `sia-118-266-1-2017.md` (Mauerwerk), `sia-118-244-2006.md`
+(Kunststein) und `sia-118-257-2005.md` (Maler). Kernpunkte: einzige ABB im Bestand mit
+vollständigem allgemeinen UND besonderen Teil (Ziff. 0-2/5 allgemein, Ziff. 8 Betonbau
+besonders); Ausschreibungs-Checkliste Ziff. 8.1.1 in sieben Themenblöcken (Baustelle, Gerüst,
+Schalung, Bewehrung, Spannsystem, Beton, Betonfertigteile); QM-Anforderungsstufen I-III
+(Ziff. 1.4.1) als eigene Ausschreibungsposition; zentraler Unterschied zur Mauerwerk-ABB —
+Arbeitsgerüste für Betonarbeiten sind grundsätzlich NICHT inbegriffen (Ziff. 8.4.2.2), anders
+als die 3,0-m-Inklusivgrenze bei SIA 118/266-1; Ausmass-Kernwerte 2,0 m²/3,0 m
+Schalungsöffnungs-/Schlitzgrenze (Ziff. 8.5.2.2), 0,10 m³ Betonaussparungsgrenze
+(Ziff. 8.5.5.3), 7850 kg/m³ Betonstahlgewicht (Ziff. 8.5.3.1), Temperaturband +5/+30 °C
+(Ziff. 8.4.6.3); Ziffern 3/4/6/7 fehlen im Inhaltsverzeichnis ersatzlos (Nummerierungslücken-
+Fussnote S. 2) statt wie bei anderen ABB explizit als «keine Ergänzungen» ausgewiesen — für
+diese Themen gilt durchgehend die SIA 118 ohne Bestätigung an Ort und Stelle. Status
+speculative, Refuter-Runde aussteht. `destillate/INDEX.md` Zeile ergänzt (direkt nach
+`sia-118-1991.md`).
+
 ## 2026-08-08 (Run 48) — Neues Destillat SIA 118/257:2005 (Allgemeine Bedingungen für Maler-, Holzbeiz- und Tapeziererarbeiten)
 
 Destillat `destillate/sia-118-257-2005.md` neu erstellt (16 Seiten, vollständiger Textlayer
@@ -14,6 +197,24 @@ Mängelhaftung (Ziff. 6) — Haftungsausschluss des Unternehmers, wenn der Bauhe
 übergebene Instandhaltungsanleitung nicht befolgt hat. Status speculative, Refuter-Runde
 aussteht. `destillate/INDEX.md` Zeile ergänzt (direkt nach der Fachnorm-Zeile
 `sia-257-2005.md`).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/248:2006 (Allgemeine Bedingungen für Plattenarbeiten)
+
+Destillat `destillate/sia-118-248-2006.md` neu erstellt (16 Seiten, vollständiger Textlayer,
+zusätzlich S. 5 Glossar und S. 15 Anhang A/Organisationen gegen 300-dpi-Rendering visuell
+verifiziert — reiner Fliesstext, keine Tabelle mit verbundenen Zellen). Vertragsnorm der
+ABB-Reihe zur Fachnorm SIA 248 (`sia-248-2006.md`), Schwesternorm zu `sia-118-266-1-2017.md`
+(Mauerwerk) und `sia-118-244-2006.md` (Kunststeinarbeiten, identisches Muster). Kernpunkte:
+Ausschreibungs-/LV-Checkliste (Ziff. 1.1.3.1), inbegriffene/nicht inbegriffene Leistungen mit
+Gerüst-Vergütungsgrenze bei 2,5 m Belagshöhe und Handmuster-Grenze 0,2 m² (Ziff. 2.2/2.3),
+Ausmassregeln mit 0,5-m²-Abzugsgrenze für Aussparungen (Ziff. 5.1.3, enger als die 1,0-m²-Grenze
+bei Mauerwerk) und normativem Anhang A (Ausmasszuschläge 20-50 % bei unvollständigem LV), sowie
+sieben eigenständige Sonderregeln zu Abnahme/Mängelhaftung (Ziff. 6.1-6.7) — dort macht die Norm,
+anders als bei Bestellungsänderung/Bauausführung/Zahlung/vorzeitiger Beendigung, KEINE reine
+Verweisung auf SIA 118, sondern schliesst mehrere Sachverhalte ausdrücklich von Mängelrüge bzw.
+Gewährleistung aus (Risse durch Untergrundverformung, lokale Hohlstellen bei intakten Fugen,
+Farbabweichungen starrer Fugen, verformbare Dichtfugen). Status speculative, Refuter-Runde
+aussteht. `destillate/INDEX.md` Zeile ergänzt (direkt nach der Fachnorm-Zeile `sia-248-2006.md`).
 
 ## 2026-08-08 (Run 48) — Neues Destillat SIA 118/244:2006 (Allgemeine Bedingungen für Kunststeinarbeiten)
 

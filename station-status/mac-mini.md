@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 01:57:36
+Stand: 08.08.2026 02:07:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 01:57:36
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 710498fc nas-selfcommit: 4 Datei(en) 2026-08-08 01:45
+- 0ec61815 Neues Destillat SIA 118/257:2005 (ABB Maler-/Holzbeiz-/Tapeziererarbeiten), Run 48
