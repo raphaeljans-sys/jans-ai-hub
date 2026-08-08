@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-05
+last_updated: 2026-08-08
 gewichtung: authentisch
-sources: [260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -2215,3 +2215,48 @@ selben Tag «Geschätzte Frau Hottinger»): nicht die Zahl der Kontakte hebt die
 «**Geschätzte Frau Hottinger, guten Tag Team 2**» — die bekannte Person zuerst mit ihrer Stufe,
 das Funktionspostfach danach mit der neutralen. Bestätigt die Stapel-Regel an einem neuen Typ
 (Person + Gruppenpostfach statt Person + Person).
+
+## Mailbatch 90 — Lücken-Sweep `rj@` 20.04.–01.05.2026 (08.08.2026)
+
+- **Die Erwärmungsgeschwindigkeit setzt die Gegenseite, nicht die Zeit.** Der Küchenbauer
+  Marco Schwander durchläuft an **einem einzigen Tag** drei Stufen: 16:10 «Sehr geehrter Herr
+  Schwander» (Erstansprache mit Plangrundlagen) → 19:09 «Geschätzter Herr Schwander»
+  (unmittelbar nach seiner freundlichen Antwort «Vielen Dank für die Zustellung … freue mich
+  auf Ihre Terminbestätigung») → wenige Tage später «Geschätzter Marco» und «Hoi Marco».
+  Das **korrigiert die Lesart** des Kübler-Belegs (Batch 43: «Sehr geehrter» → «Geschätzter»
+  über zwei Wochen): nicht die verstrichene Zeit hebt das Register, sondern **die erste warme
+  Erwiderung**. Der Zwilling hebt erst, wenn die Gegenseite geliefert hat — dann aber sofort,
+  nicht nach Kalenderfrist. Quelle: 20.04.2026, authentisch.
+- **Register-Skala an EINEM Tag zur Betreiber-Kontaktperson, gespiegelt.** Stefanie «Steffi»
+  Sonderegger (Pflegeexpertin APN, Leiterin Wohnbereich und Pflege, KISPI) wird 15:08 mit
+  «Geschätzte Steffi,» + «Lieber Gruss und bis bald,» angeschrieben; sie antwortet «Lieber
+  Raphael / Danke dir für dein Mail»; um 19:05 heisst es «Guete Abig Steffi,». Gegenrichtung
+  zur belegten Register-**Erosion** im schnellen Tagesthread (Batch 89): dort fielen Anrede und
+  Gruss weg, hier steigt die Wärme. Unterschied: dort eigener Themenstapel unter Zeitdruck,
+  hier eine erwiderte persönliche Zuwendung.
+- **Dienst- UND Privatadresse derselben Person zugleich adressiert.** Die Terminanfrage geht an
+  `Stefanie.Sonderegger@kispi.uzh.ch` (An) mit ihrer privaten `@gmx.ch` im Cc — Erreichbarkeit
+  vor Kanaltreue, nachdem drei Diensttelefonnummern ins Leere liefen («Ich habe Dich versucht
+  auf folgenden Nummer zu erreichen leider ohne Erfolg … Sind diese Nummern aktuell?»).
+  Für den Zwilling **nicht** verallgemeinerbar ohne Freigabe → [[QUESTIONS]] 260808 #3.
+- **«Geschätztes Projektteam» — die Sammelanrede für die gemischte Fachplanerrunde.** Acht
+  Empfänger aus vier Häusern (Bauherr, drei Gruner-Fachplaner, Zulieferer, Betreiberin im Cc),
+  Du- und Sie-Kontakte gemischt; der Body duzt durchgehend («Bitte ich Euch», «nebst Euren
+  Fragen»). Reiht sich zu «Geschätzte Herren» (Batch 41) und der Gremien-Anrede der
+  Stockwerkeigentümerschaft (Batch 26): **bei gemischter Gruppe adressiert Raphael die
+  Funktion, nicht die Personen** — und wählt dann die wärmere der vertretenen Stufen.
+  Quelle: 29.04.2026, authentisch.
+- **Neue/bestätigte Mappings (KISPI-Umbau):**
+  - **Stefanie «Steffi» Sonderegger** — KISPI, Pflegeexpertin APN Psychosomatik, Leiterin
+    Wohnbereich und Pflege; **Betreiberin/Nutzerinnen-Seite**. **Du**; «Geschätzte Steffi» /
+    «Guete Abig Steffi», Gruss «Lieber Gruss und bis bald».
+  - **Yasarcan Cetin** — Gruner AG, Elektroplanung. **Sie**, «Sehr geehrter Herr Cetin».
+  - **Fabian Würsch** — KISPI, Teamleiter Elektro (spricht selbst «Hallo Herr Jans» /
+    «Beste Grüsse»); im Cc der Elektro-Fäden.
+  - **Marco Schwander** — Gastro-Online AG, Küchenbau. Sie→Du gekippt (s.o.); nennt Raphael
+    seinerseits «Raphi».
+  - **Undine Hofer** — Bauherrin Wartstrasse 8. **Du** bestätigt, hier mit Tageszeitanrede
+    «Guten Morgen Undine» + «Lieber Gruss Raphael» **an einer reinen Rechnungsweiterleitung** —
+    das widerlegt für den vertrauten Du-Kontakt den älteren Befund «Geld kehrt das Register ins
+    Sie» (Batch 14) und bestätigt die Batch-27-Beobachtung, dass Nähe den Geld-FG-Default
+    schlägt. Quelle: 01.05.2026, authentisch.

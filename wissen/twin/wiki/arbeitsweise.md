@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-05
+last_updated: 2026-08-08
 gewichtung: authentisch
-sources: [260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -2410,3 +2410,67 @@ davon aus, dass …») oder er lässt die Fakten ganz weg und fragt generisch. D
 Fachstelle den Entscheid, das zweite die Grundlage.
 
 Offen: ob die Form auf das Behörden-/Fachstellen-Sie beschränkt ist → [[QUESTIONS]] 260807 #2.
+
+## Mailbatch 90 — Lücken-Sweep `rj@` 20.04.–01.05.2026 (08.08.2026)
+
+- **Der Ausfall eines Teilnehmers ändert die Methode, nicht den Termin.** Die Köchin fällt für
+  die erste Küchenplanungs-Sitzung aus. Statt zu verschieben, dreht Raphael den Auftrag an den
+  Anbieter um: «Vielleicht wäre es daher gut, dass Sie **entgegen Ihrem Vorschlag mit einem
+  weissen Blatt an die Sitzung zu kommen** bereits ein erster konzeptioneller Vorschlag
+  mitbringen der wiederum **als Plan auf Papier** Frau Sonderegger zur Abklärung mit Ihrer
+  Köchin mitgegeben werden kann. So könnten wir den Planungsprozess, obwohl das die Köchin
+  fehlt an der 1. Sitzung, **forcieren**.» Drei Züge in einem Absatz: Sitzung findet statt,
+  der Anbieter liefert vor statt in der Sitzung, und das Papier wird zum Trägermedium für die
+  fehlende Person. Der Zwilling verschiebt einen Termin erst, wenn kein Artefakt die fehlende
+  Rolle überbrücken kann. Quelle: 20.04.2026, authentisch.
+- **Terminfindung als Rollenkette, eine Mail je Rolle.** Vier Mails in knapp sechs Stunden,
+  jede an genau eine Adresse: (1) Planer-Verfügbarkeit an den Bauherrenvertreter mit drei
+  Slots und der Bitte um **Anweisung** — «Ich würde **auf Deine Anweisung** ein gemeinsamer
+  Termin organisieren»; (2) Terminanfrage an die Betreiberin; (3) Grundlagen + Terminabsicht
+  an den Anbieter; (4) Einladung, sobald bestätigt — vorher explizit angekündigt: «Sobald ich
+  die Bestätigung von Frau Sonderegger … habe sende ich eine Termineinladung mit der Bitte um
+  Annahme.» Marker: **die Organisationsvollmacht wird beim Bauherrn abgeholt, bevor
+  koordiniert wird**, und jede Rolle erfährt nur ihren Schritt.
+- **Dieselbe Sachfrage zweimal, je nach Register neu zugeschnitten — nicht wortgleich.** Am
+  22.04. geht die fehlende DWG-Grundlage intern im Du an den Bauherrenvertreter («Hast Du diese
+  DWG's …? **Soll ich in Deinem Auftrag bei A+W anfragen?**» — Angebot, die Arbeit zu
+  übernehmen, aber nur mit Mandat) und 93 Minuten später extern im Sie an den Fachplaner
+  («**A) DWG's Revisionspläne** — Wir arbeiten an der Beschaffung … Sobald wir diese haben
+  sende ich Ihnen diese zu»). **Präzisiert** den Batch-41-Marker «eigene Fachaussage
+  intern→Behörde wortgleich weitergereicht»: wortgleich wandert eine *Feststellung*, ein
+  *Statusbericht* wird umgeschrieben — intern die offene Frage samt Mandatsangebot, extern die
+  belastbare Zusage ohne Innensicht. Quelle: 22.04.2026, authentisch.
+- **Themen-Index über der Anrede, Ausführung darunter.** Die Fachplaner-Sammelantwort beginnt
+  mit einer nackten nummerierten Liste der drei Themen (`A) DWG's Revisionspläne / B) Last
+  Endgeräte Gastroküche / C) Verteilung Elektro: Boden oder Decke`), **dann** folgt «Sehr
+  geehrter Herr Cetin,» und darunter dieselben drei als ausformulierte Blöcke; der Betreff
+  trägt alle drei mit «/» getrennt. Dreifache Redundanz derselben Gliederung (Betreff · Index ·
+  Blöcke). Steht zwischen der Themen-Block-Statusmail (Batch 26) und der Agenda-Nullform
+  (Batch 42): hier trägt die Struktur die Mail **zusätzlich** zum Fliesstext, nicht statt seiner.
+- **Die Sitzungseinladung verteilt Vorbereitungsaufträge, nicht Traktanden — mit Zielen statt
+  Aufgaben.** «Für die Sitzung von Morgen Bitte ich Euch **nebst Euren Fragen und
+  Besprechungspunkte** folgende Themen **vorzubereiten**», dann Dezimalgliederung 01 / 01.01 /
+  01.02 … 04. Zwei Eigenheiten: (a) unter dem Lüftungspunkt stehen **«Ziel 1: Optimaler
+  Betrieb; keine beschlagene Fensterfront …» / «Ziel 2: Keine Geruchsbildung für angrenzende
+  Behandlungsräume …»** — der Architekt gibt dem Fachplaner das Ergebnis vor, nicht die
+  Massnahme; (b) die **vollständigen Kontaktdaten des Zulieferers stehen inline im
+  Traktandum** («… mit Marco Schwander, Gastro-Online AG, Weiherstrasse 2, 6275 Ballwil,
+  Mobile …, und Cekdar Duran, HLK, T …, E … **koordinieren**»), damit zwei Beteiligte ohne
+  Rückfrage direkt zueinander finden. Ergänzt die Besetzungsliste der bestellten Sitzung
+  (Batch 89) um den **Koordinationsauftrag zwischen zwei Genannten**.
+  Nebenbefund ohne Stilwert: die Gliederung springt (zwei Positionen «03.04», zweimal «04»);
+  die Struktur ist Werkzeug, nicht Formalie. Quelle: 29.04.2026, authentisch.
+- **Direktkanal öffnen und sich selbst auf Mitlesen zurücknehmen.** Fremdrechnung an die
+  Bauherrin weitergeleitet: «Im Anhang die Rechnung für die Balkontüre. **Bei Fragen Bitte
+  direkt an Guido Giacometti; ich ins cc.**» — Zuständigkeit ausdrücklich an den Lieferanten,
+  eigene Rolle auf Sichtbarkeit reduziert, Lieferant im Cc der Mail selbst (der Kanal wird also
+  gleich mit eröffnet). Schwesterform zu «Durchlaufkosten laufen nie über das eigene Buch»
+  (Batch 89): dort die Rechnungsadresse, hier die Kommunikationsadresse. Quelle: 01.05.2026,
+  authentisch.
+- **Dem Anbieter mitgeben, was gegen den eigenen Auftragsumfang spricht.** Mit den
+  Revisionsunterlagen des Bestands gehen drei Prüfpunkte an den Küchenbauer, die alle sein
+  Volumen schmälern können: «vtl. bestehende Serviceverträge auf Gastroküche im Keller» /
+  «die Waschgeräte … sind von Meiko, bitte kurz anschauen und **Haltung diesbezüglich klären**»
+  / «vtl. **Geräte-Mitnahme** (Kühlschränke und Geschirrspüler von Dolderstrasse 29)».
+  Marker: die Grundlagenlieferung enthält die Sparfragen, bevor der Anbieter offeriert
+  (→ [[haltung]]). Quelle: 01.05.2026, authentisch.

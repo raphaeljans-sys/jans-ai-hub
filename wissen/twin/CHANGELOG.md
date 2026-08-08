@@ -4,6 +4,30 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 08.08.2026 — twin-mail-training Batch 90: `rj@` 20.04.–01.05.2026, erste Rueckwaerts-Herabstufung
+
+Luecken-Sweep im von Fidelity 260807 benannten Fenster (34 Mails gelistet, **12 Eigentexte**
+destilliert; Batch 41/42 hatten dort nur 14 von 48 Volltexten gelesen). **23 neue Marker in
+6 Facetten, 3 Fragen.** Zugriff via M365-MCP, ohne Apple-Mail-Fallback.
+Schwerpunkt des Fensters ist ein vollstaendiger Koordinationszyklus (Terminfindung →
+Grundlagenlieferung → Sitzungsvorbereitung → Nachbereitung) ueber vier Rollen; entsprechend
+beschreiben die Marker ueberwiegend **Rollenfuehrung**, nicht Satzklang.
+Kern: Erwaermung folgt der **Erwiderung, nicht der Zeit** (drei Anredestufen an einem Tag,
+korrigiert die Lesart des Kuebler-Belegs Batch 43) · **Methode aendern statt Termin verschieben**
+· Terminfindung als Rollenkette mit vorab abgeholter Organisationsvollmacht · dieselbe Sachfrage
+**registerspezifisch neu zugeschnitten** (praezisiert Batch 41) · Sitzungseinladung mit
+**Zielen als Schadensbildern** und Zulieferer-Kontaktdaten inline · Kostenehrlichkeit erstmals
+belegt **gegen den Zulieferer** statt gegen das eigene Honorar.
+**Erstfall Echo-Schutz:** die Kontrollgruppen-Quote (Batch 89) wirkte **rueckwaerts** — der
+Mittelteil der Kaltakquise vom 17.04.2026 ist KI-assistiert (en-Strich 1/162 W gegen 0/910 W
+eigener Hand, null Tippfehler, **fremdes CSS mit eigener Hintergrundfarbe**, doppelt
+geschriebener Schlusssatz als sichtbare Naht). Der darauf ruhende Fachsignatur-Marker
+«Rechtlich-vs-funktional-Trennung» (Batch 42) wurde auf `unsicher` gesetzt und ist keine
+Stilquelle mehr — **nicht geloescht**, da rueckfragepflichtig; der Beziehungsregister-Marker
+derselben Mail bleibt gueltig (stuetzt sich auf den handgetippten Rahmen).
+Metrik (910 W): Du-Gross **0.952**, Satzlaenge ø **16.5 W** — **ueber** dem Korpusband
+11.9–14.3, als Widerspruch vermerkt statt geglaettet. Quelle `raw/260808-mailbatch-90.md`.
+
 ## 07.08.2026 — twin-fidelity-review: Service-Satz nach Gattung, vierte Endform, eine Regel zurueckgenommen
 
 Fidelity **41** (Vorlauf 43) · Stimme 42 · Denken 33 · Haltung 42 · Beziehung 58 · Fachsignatur 35 ·

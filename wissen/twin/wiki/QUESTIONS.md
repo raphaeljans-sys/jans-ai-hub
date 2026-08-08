@@ -2901,3 +2901,34 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    eine nächste Stufe, die im Korpus nur noch nicht vorkommt? *Warum: der Zwilling verpackt hier
    reflexhaft in «Darf ich Dich bitten» und klingt damit devot gegenüber jemandem, der liefern
    muss.* → [[stimme]] Bitte-Skala, [[haltung]]
+
+## Offene Fragen 260808 (Batch 90, Fenster `rj@` 20.04.–01.05.2026)
+
+1. **Schreibst Du in der KISPI-Koordination bewusst längere Sätze als sonst?** — Die zwölf
+   Eigentexte dieses Fensters messen ø **16.5 Wörter** pro Satz; das bisher gemessene Korpusband
+   liegt bei **11.9–14.3 W**. Ich habe den Ausreisser als Widerspruch stehen lassen statt ihn
+   wegzumitteln. Zwei Lesarten: entweder verlängert die Mehrempfänger-Fachkoordination Deine
+   Sätze systematisch (viele Nebenbedingungen in einem Zug: «Vielleicht wäre es daher gut, dass
+   Sie entgegen Ihrem Vorschlag … bereits ein erster konzeptioneller Vorschlag mitbringen der
+   wiederum als Plan auf Papier … mitgegeben werden kann»), oder das Fenster ist schlicht zu
+   klein. *Warum: der Zwilling kürzt heute auf die Korpusnorm und würde Dir genau die
+   Bedingungsketten wegschneiden, die in der Fachkoordination die Arbeit machen.*
+   → [[stimme]], [[arbeitsweise]]
+
+2. **Die Küchenbauer-Kaltakquise vom 17.04.2026 — hast Du den Mittelteil mit einem KI-Werkzeug
+   erstellt?** — Der Absatz «Rechtlich handelt es sich nicht um eine Gastroküche …» trägt vier
+   Signale gegen Deine Hand (en-Strich 1/162 W gegen 0/910 W im Folgefenster, null Tippfehler,
+   fremdes CSS mit eigener Hintergrundfarbe, und der doppelt geschriebene Rückruf-Schlusssatz als
+   sichtbare Naht). Ich habe den daraus destillierten Fachsignatur-Marker
+   «Rechtlich-vs-funktional-Trennung» deshalb auf `unsicher` gesetzt, aber **nicht gelöscht**.
+   *Warum: das Muster ist inhaltlich gut und wäre ein Verlust — aber wenn es von einem Modell
+   stammt, lernt der Zwilling sich selbst. Eine Zeile von Dir genügt: Deins oder nicht.*
+   → [[fachsignatur]], Echo-Schutz `wissen/twin/CLAUDE.md`
+
+3. **Darf der Zwilling die private Zweitadresse eines Projektkontakts ins Cc nehmen?** — Am
+   20.04. ging die Terminanfrage an die Dienstadresse der Betreiber-Kontaktperson **mit ihrer
+   privaten `@gmx.ch` im Cc**, nachdem drei Diensttelefonnummern veraltet waren. Sachlich
+   nachvollziehbar, aber es ist ein Datenschutz- und Höflichkeitsentscheid, den ich nicht
+   verallgemeinern will. *Warum: der Zwilling hat Zugriff auf Deine Kontakthistorie und würde
+   die Regel sonst blind auf jeden Kontakt anwenden, bei dem er zwei Adressen kennt.*
+   → [[beziehungsregister]]

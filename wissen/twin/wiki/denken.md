@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-05
+last_updated: 2026-08-08
 gewichtung: authentisch
-sources: [260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -566,3 +566,28 @@ Original nicht hat. Wo Raphael eine Routine abwickelt, ist die Begründung der A
   in Variante 0 und 1.
 - **Pragmatischer Schlussweg der «Anmerkung RJ» (Protokoll 24.08.2023):** «Abschliessend könnte …
   eine Vorbesprechung mit der Baubehörde Klarheit verschaffen.»
+
+## Lösungsraster mit benannten Endpunkten + offener dritter Position (Mailbatch 90, authentisch)
+
+Zur Lüftungsfrage der Gastroküche — von ihm selbst als «**Killerkriterium**» benannt — stellt
+Raphael dem Zulieferer nicht eine Empfehlung, sondern ein Raster mit **getauften** Endpunkten
+und einer offenen Restposition:
+
+- «Abluft nach Aussen über Dach führen mit Aussenzuluftgerät welches an Heizung angeschlossen
+  werden muss **(Maximal-Lösung)**»
+- «Anschluss an best. Innenlüftung mit vorgeschaltetem Kohlenfiltersystem **(Kohlenfilterlösung)**»
+- «Alternative Lösungen»
+
+Drei Züge: (1) der teure und der billige Pfad werden **zuerst** benannt und damit der
+Verhandlungsraum aufgespannt, wie in der belegten Varianten-Rechnung; (2) jeder Pfad bekommt
+einen **Klammer-Kurznamen**, der ab sofort als gemeinsames Verhandlungsvokabular dient (dieselbe
+Technik wie die A/B/C-Massnahmenoptionen aus Batch 41, hier mit sprechenden statt zählenden
+Etiketten); (3) die dritte Zeile bleibt bewusst leer — sie lädt die Fachexpertise ein, statt
+sie auf die zwei eigenen Ideen festzulegen: «Wir brauchen noch keine fertigen Pläne. Würden
+aber gerne Deine Expertise mit den Fachplanern zusammen bringen wollen.»
+
+Vorangestellt ist die Begründung, warum überhaupt jetzt: «Ich denke nur wenn wir **die richtigen
+Fragen frühzeitig platziert** und gestellt werden können wir dieses Killerkriterium **seriös**
+aufarbeiten.» — das belegte Muster «proaktiver Risiko-Vorgriff» (Batch 20), hier mit dem
+Zusatzargument, dass die Qualität der Aufarbeitung am Zeitpunkt der Frage hängt.
+Quelle: 30.04.2026, authentisch (→ [[fachsignatur]], [[haltung]]).

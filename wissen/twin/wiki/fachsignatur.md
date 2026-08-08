@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-05
+last_updated: 2026-08-08
 gewichtung: authentisch
-sources: [260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1071,6 +1071,27 @@ Behördenprüfung von einer falschen rechtlichen Einstufung ausgehen. Ergänzt d
 Vorschrift NICHT auszulösen**, ohne den funktionalen Massstab zu senken. Quelle: 17.04.2026, authentisch
 (→ [[beziehungsregister]] Familien-Referral-Kaltakquise).
 
+> **⚠ Gewichtung herabgestuft auf `unsicher` — Batch 90, 08.08.2026.** Der zitierte Absatz stammt
+> mit hoher Wahrscheinlichkeit **nicht aus Raphaels eigener Hand**. Vier Signale, gemessen statt
+> geschätzt: (1) **Kontrollgruppen-Quote** — en-Strich **1 in 162 W** dieses Textes gegen **0 in
+> 910 W** eigener Hand im unmittelbar folgenden Fenster 20.04.–01.05.; (2) **Fehlerdichte null**
+> gegen dicht in derselben Woche («E-Mailadesse», «Installatiosführung», «die genau Last»,
+> «währende der Sitzung»); (3) **fremdes CSS im Fliesstext** — der Block trägt `class="text-body"`
+> mit eigener Hintergrundfarbe `rgb(253,253,252)`, während der handgetippte Rahmen derselben Mail
+> in schlichten Aptos-Divs steht (dieselbe Gattung wie die Times-New-Roman-Belege Batch 09/22,
+> nur subtiler: **die eingefügte Passage bringt die Formatierung ihrer Quelle mit**);
+> (4) **die Naht ist sichtbar** — der polierte Schlusssatz «Ich würde mich über einen Rückruf zur
+> Klärung der Machbarkeit und zur Offertstellung freuen» wird unmittelbar danach in eigener Hand
+> **wiederholt**: «Ich würde mich über einen Rückruf freuen.» Niemand schreibt denselben Satz
+> zweimal; die Dublette markiert, wo der eingefügte Text endet und Raphael weitertippt.
+> **Der Marker wird nicht gelöscht** (Löschen/Mergen ist der Bibliothekars-Rule zufolge
+> rückfragepflichtig), aber bis zur Klärung **nicht als Stilquelle verwendet**. Der Inhalt bleibt
+> fachlich richtig — nur ist er kein Beleg für Raphaels Argumentationsmuster.
+> Offen → [[QUESTIONS]] 260808 #2. Der auf **derselben Mail** ruhende Beziehungsregister-Marker
+> «Familien-Referral-Kaltakquise bleibt Sie» ist **nicht** betroffen: er stützt sich auf den
+> handgetippten Rahmen («Sehr geehrter Herr Würsch / Mein Bruder, Josef Jans, hat mir Ihre
+> Kontaktdaten weitergegeben»), nicht auf den eingefügten Mittelteil.
+
 ## Healthcare-Sanitär-Effizienz + Brandschutz Sprühnebel vs. Sprinkler (belegt Mailbatch 43, authentisch)
 
 - **Nutzungsanforderung und Installationseffizienz «übereinandergebracht».** Der Kern-Fachsatz
@@ -1905,3 +1926,45 @@ gestellt wird: «generelle Machbarkeit der Gebäudetechnikinstallationen für da
 insbesondere die neuen Schlafzimmer (1.1/1.2) und Nasszellenposition (2.5/2.6) und die neue Küche
 4.1». Der Fachplaner kann so Punkt für Punkt antworten, ohne den Plan interpretieren zu müssen
 (→ [[arbeitsweise]]).
+
+## Mailbatch 90 — Lücken-Sweep `rj@` 20.04.–01.05.2026 (08.08.2026)
+
+- **Lüftungsanforderungen als Schadensbilder statt als Kennwerte.** Dem HLK-Fachplaner gibt
+  Raphael für die Gastroküche keine Luftwechselrate, sondern zwei benannte Zielzustände:
+  «**Ziel 1:** Optimaler Betrieb; **keine beschlagene Fensterfront zum Innenhof** aufgrund zu
+  hoher Luftfeuchtigkeit» und «**Ziel 2:** **Keine Geruchsbildung** für angrenzende
+  Behandlungsräume / Büroräume / Schlafzimmer». Der Architekt beschreibt das Versagensbild,
+  das er nicht sehen will, und überlässt die Dimensionierung dem Fach. Überträgt das belegte
+  «gestalterische Warnbild statt Floskel» (Batch 15/17/41) vom Entwurfs- ins **haustechnische**
+  Register — und schlägt in der Healthcare-Nachbarschaft die Brücke zur Nutzung: die
+  aufgezählten Nachbarräume sind Behandlung, Büro und Schlafzimmer einer psychosomatischen
+  Therapiestation, der Geruchsschutz ist damit ein Betriebs-, kein Komfortargument.
+  Quelle: 29.04.2026, authentisch.
+- **Die Bestandslösung entscheidet die Installationsfrage.** Auf «Verteilung Elektro: Boden
+  oder Decke?» antwortet er nicht mit einem Entscheid, sondern mit einem Bestandsdetail:
+  «Im Anhang sende ich Ihnen bez. Installatiosführung Elektro ein Hinweis Detail
+  G-ARC_5640_B338-H.pdf. Dort sehen Sie, das ELE-Kanal in Ausgleichsdämmschicht … geführt
+  wird.» Marker: im Umbau wird die Systemfrage aus dem **gebauten Bestand** beantwortet, nicht
+  aus der Lehre — dieselbe Bewegung wie das Produkt-Reverse-Engineering aus Referenzobjekten
+  (Batch 20) und der Revisionsunterlagen-Katalog (Batch 26), hier auf Detailebene.
+  Vokabular: Ausgleichsdämmschicht, ELE-Kanal, Installationsführung.
+  Quelle: 22.04.2026, authentisch.
+- **«Belagsänderungsplan Bo/Wa/De» als eigenes Brandschutz-Deliverable.** Der Brandschutzblock
+  der Sitzungsvorbereitung besteht aus drei identisch gebauten Fragen — «Wo müssen die
+  **Bodenbeläge** ausgewechselt werden? / Wo müssen die **Wandbeläge** angepasst werden? / Wo
+  müssen die **Deckenbeläge** angepasst werden?» — und mündet in ein einziges benanntes
+  Artefakt: den Belagsänderungsplan Bo/Wa/De. Die drei Bauteilebenen werden konsequent parallel
+  geführt (auswechseln beim Boden, anpassen bei Wand und Decke) und in **einem** Plan
+  zusammengezogen. Reiht sich zur belegten Brandschutz-Fachsignatur (Bfl-s1/RF-Klassen,
+  Batch 25/27); neu ist die **Verdichtung dreier Prüffragen zu einem Planprodukt**.
+  Quelle: 29.04.2026, authentisch.
+- **Gastroküchen-Lüftung als benanntes «Killerkriterium» mit zwei getauften Lösungspfaden.**
+  Maximal-Lösung (Abluft über Dach + Aussenzuluftgerät, das an die Heizung angeschlossen werden
+  muss) gegen Kohlenfilterlösung (Anschluss an die bestehende Innenlüftung mit vorgeschaltetem
+  Kohlenfiltersystem). Fachlicher Kern: im Umbau entscheidet nicht die Haube, sondern **ob eine
+  neue Aussenluftfassung samt Heizungsanschluss nötig wird** — dort liegt der Kostensprung.
+  Ausführlich zur Denkform → [[denken]]. Quelle: 30.04.2026, authentisch.
+- **Rechtlich-vs-funktional: das Muster selbst bleibt unbelegt.** Der bisher einzige Beleg
+  (17.04.2026) ist in diesem Lauf als KI-assistiert erkannt worden; siehe den Vorbehaltskasten
+  weiter oben. Das Muster ist damit **nicht widerlegt, aber unbelegt** — der Zwilling wendet es
+  erst wieder an, wenn ein handgetippter Beleg auftaucht.
