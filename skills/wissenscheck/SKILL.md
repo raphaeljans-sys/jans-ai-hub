@@ -51,6 +51,34 @@ am Ende von Phase 1.
 9. **Freigegebene Aktionen ausfuehren.** Pro angetickter Kategorie die Aktion umsetzen
    (Backlink fixen, Artikel zusammenfuehren nach Rueckfrage, Lueckenartikel anlegen,
    Schreibregeln via Skill `korrektur` korrigieren, …).
+
+   > ⚠ **Schreib-Riegel fuer Lueckenartikel und Stubs (verbindlich, 08.08.2026).** Anlass:
+   > Commit `f147dac4` vom 07.08.2026 20:54 («Health-Check Reparatur 260807») hat drei
+   > `established`-Destillate mit 15-Zeilen-Stubs ueberschrieben — **477 Zeilen verifizierter
+   > Bestand geloescht**, dreieinhalb Stunden unbemerkt, gefunden nur zufaellig durch den
+   > Cross-KB-Lauf derselben Nacht (Wissens-Chef Run 28). Vor jedem Anlegen gilt darum:
+   >
+   > 1. **Existenz pruefen und NIE ueberschreiben.** Erst `test -e <pfad>`. Existiert die Datei,
+   >    wird sie **nicht** angefasst — auch dann nicht, wenn sie kurz, unvollstaendig oder
+   >    `speculative` aussieht. Angelegt wird ausschliesslich, wo nichts ist. Ein Health-Check
+   >    ist ein Pruef-, kein Destillier-Lauf; **fuehrend fuer Inhalt ist allein der Lauf, der
+   >    die Quelle gelesen hat** (Rollen-Matrix `wissen/koordination/QUERBEZUEGE.md`).
+   > 2. **Titel nie aus dem Dateinamen oder der Normnummer raten.** Der Gegenstand kommt aus der
+   >    gelesenen Quelle oder dem verweisenden Artikel. Sonst entsteht ein erfundener Beleg auf
+   >    Titelebene — belegt am selben Commit: DIN 1961 (tatsaechlich VOB Teil B) wurde zu
+   >    «Elektrische Leitungen», SIA MB 2024 (Standard-Nutzungsbedingungen) zu «Beton mit
+   >    Recycling-Gesteinskoernungen». In einer INDEX-Zeile sieht das vollstaendig verifiziert aus.
+   >    Ist der Gegenstand nicht belegbar, wird **kein** Stub angelegt, sondern ein Eintrag in
+   >    `QUESTIONS.md` gesetzt.
+   > 3. **Feldnamen sind keine Feldwerte.** Ein Backlink-Prueflauf darf Frontmatter-Schluessel
+   >    (`links:`, `sources:`, `status:`) nicht als Linkziel lesen. Derselbe Commit hat daraus
+   >    den Phantom-Artikel `destillate/links.md` erzeugt und ihn anschliessend als Bestand
+   >    ausgewiesen.
+   > 4. **Ein neu angelegter Stub ist `speculative` und kommt in den INDEX nur mit diesem Status.**
+   >    Kein Stub traegt je `established`.
+   > 5. **Phase 2 laeuft nur interaktiv** (Schritt 8). Laeuft dieser Skill unbeaufsichtigt, endet
+   >    er nach Phase 1 mit dem Report — auch dann, wenn eine Reparatur trivial erscheint.
+
 10. **Jede Aktion loggen** — eigene Zeile im CHANGELOG unter demselben datierten Eintrag.
 11. **In Chat bestaetigen.** Eine kurze Summary: was getan, was uebersprungen, was noch
     Raphaels Entscheidung braucht.

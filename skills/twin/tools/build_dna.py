@@ -4,8 +4,10 @@
 Liest aus wissen/twin/wiki/<facette>.md jeweils:
   - den Titel (erste H1)
   - den Block "## Do / Don't fuer den Zwilling"
-und schreibt sie in rules/jans-dna.md zwischen den Sentinels
+und schreibt sie in rules/jans-dna-facetten.md zwischen den Sentinels
   <!-- BEGIN AUTO: facetten --> ... <!-- END AUTO: facetten -->
+(Ziel seit 03.08.2026, siehe Kommentarblock bei DNA = ... unten; bis dahin war es die
+@-importierte rules/jans-dna.md.)
 Der handgeschriebene Teil oberhalb/unterhalb der Sentinels bleibt unangetastet.
 
 Idempotent: mehrfaches Ausfuehren erzeugt denselben Auto-Block.
