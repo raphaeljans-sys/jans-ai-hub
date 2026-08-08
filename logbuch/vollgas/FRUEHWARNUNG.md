@@ -4,7 +4,7 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
-## 2026-08-08 07:16 — GEMELDET (Mail an rj@ gesendet 07:44)
+## 2026-08-08 07:16 — GEMELDET (Mail an rj@ gesendet 07:29)
 
 Messzeitpunkt 08.08.2026 07:16 CEST, NAS gemountet. Fünfter Lauf mit rekursivem Glob
 (inklusive Subagenten-Transcripts), Zeilenfilter je `timestamp[:10]` über ein Fenster von
@@ -157,7 +157,7 @@ komplett. Der Befund ist neu und nicht mit der letzten Mail vom 03.08. identisch
 Wochenlimit, heute zwei 5-h-Fenster und eine benennbare Einzelursache.
 Letzte Mail dieses Loops vor heute: **03.08.2026 22:15**.
 
-**Mail versandt 08.08.2026 07:44** an rj@raphaeljans.ch, Apple Mail, Absender rj@, Aptos 12 pt,
+**Mail versandt 08.08.2026 07:29:21** an rj@raphaeljans.ch, Apple Mail, Absender rj@, Aptos 12 pt,
 Betreff «Vollgas-Frühwarnung: 5-Stunden-Limit zweimal erschöpft, Ursache ist ein einzelner
 Subagent». Skill `korrektur` vorher durchlaufen (Rechtschreibung gelb: 15 Umlaute korrigiert;
 Layout grün, dazu Jahreszahl bei der ersten Datumsnennung und Einheit hinter 32.03 ergänzt).
@@ -166,6 +166,12 @@ die getakteten Loops an diesem Tag unbeteiligt sind. Empfohlen ist stattdessen, 
 Normen-Harness die Segmentgrösse je `Destillat-Autor` zu deckeln und eine grosse Norm auf
 mehrere Agenten mit je begrenztem Seitenbereich zu verteilen, statt sie in einem Kontext
 seriell durchzulesen. Die Umsetzung entscheidet Raphael.
+
+**Methodischer Vermerk zur eigenen Arbeit:** die Versandzeit stand hier zunächst mit «07:44»
+geschätzt statt gemessen. Der native Synology-Commit um 07:30:01 enthielt den Eintrag bereits,
+was die Zahl widerlegte; beide Uhren wurden gegengeprüft (Station 07:31:50, NAS 07:31:48, also
+kein Uhrenversatz) und die echte Versandzeit aus «Gesendete Elemente» geholt: **07:29:21**.
+Rule 260730b gilt auch für Uhrzeiten im eigenen Bericht, nicht nur für Dateidatierungen.
 
 **Keine Wiederholungsmail** für diesen Befund an Folgetagen. Erneut gemailt wird erst bei einer
 neuen Erschöpfung, bei einem weiteren interaktiven Limit-Ereignis, bei erschöpftem
