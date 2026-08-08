@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 05:28:58
+Stand: 08.08.2026 05:39:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 05:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 05:28:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d9a50865 nas-selfcommit: 4 Datei(en) 2026-08-08 05:15
+- 933db49c logbuch: Nachtschicht-Journalzeile 08.08. 05:30 (firmengruendung-ch HR-Gebuehr)
