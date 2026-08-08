@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 09:10:13
+Stand: 08.08.2026 09:20:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 09:10:13
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d9570574 wissens-ruecklauf KB projekt-lessons: Kuechenlueftung — Planervorbehalt der Geraeteliste, Nutzungseinstufung SIA 2024, Pflichtinhalt Betriebskonzept Kuechenbetrieb (aus 2619 KISPI PPTS)
+- b896c8ff nas-selfcommit: 3 Datei(en) 2026-08-08 09:15
