@@ -3,6 +3,18 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-08 — Rücklauf aus 2619 KISPI PPTS: Küchenlüftung und Nutzungseinstufung
+
+Neuer Report `outputs/2026-08-08_kuechenlueftung-planervorbehalt-und-nutzungseinstufung.md`
+(Hub-Chef-Lauf, Rule `wissens-ruecklauf`). Vier verallgemeinerbare Lehren, alle am Original belegt:
+die Abluftangabe in der Geräteliste des Gastroplaners trägt einen ausdrücklichen Planervorbehalt
+und ist keine Berechnung; die Nutzungseinstufung (gewerbliche Küche gegen Wohnraum-/Teeküche)
+entscheidet über Volumenstrom und Kostenspanne, wird aber an der Bestückung gemessen; die
+Einstufung steht meist bereits in der Baueingabe und ist dort zu holen statt neu zu behaupten;
+Pflichtinhalt eines Betriebskonzepts Küchenbetrieb, dessen Engpass die beim Nutzer zu erhebenden
+Betriebsdaten sind, nicht die Technik. Kein Wiki-Artikel angelegt (Promotion erst nach dem
+zweiten Fall, KB-Regel).
+
 ## 2026-08-05 (Nachtschicht Mac Mini) — Truninger-DS3 als dritte Quelle geprüft: Fokus «Bauen im Betrieb» weiterhin ohne Kandidat
 
 - Kein neuer Fall, kein neuer Wiki-Artikel. Gemäss Empfehlung vom 04.08. den Projektraum auf
