@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.08.2026 16:45:27
+Stand: 08.08.2026 16:55:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 16:35)
@@ -18,4 +18,4 @@ Stand: 08.08.2026 16:45:27
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3a3a5fe1 nas-selfcommit: 3 Datei(en) 2026-08-08 16:45
+- 44e79e54 Bibliothek IMMO 02 Standort INFO: Wiki-Pfade + CHANGELOG nachgezogen (Umbenennung 02 UBSFS)
