@@ -1,5 +1,60 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 48 (08.08.2026) — nach Abschluss des Downloads-Uebernahme-Blocks
+
+- **N48-1 — 17 Refuter-Runden faellig (der eigentliche Rueckstand dieses Laufs).** Der ganze
+  P2-Block ist destilliert, aber **kein einziges dieser Destillate ist verifiziert**; alle stehen
+  auf `speculative`. Das ist kein Mangel des Laufs, sondern sein bewusster Zuschnitt — festhalten
+  ist es trotzdem, weil eine volle Destillat-Liste im INDEX leicht wie ein abgeschlossener
+  Bestand aussieht. Reihenfolge nach Nutzwert: ABB-Reihe zuerst (speist `ausschreibung`,
+  `werkvertrag`, `unternehmerkontrolle`), dann 382/2 und 380/3, zuletzt Tunnel und Aufzuege.
+
+- **N48-2 — SIA 112/1: woher stammt der Registerstand «2005»?** Die Norm 112/1:2017 nennt an zwei
+  unabhaengigen Stellen (Titelblatt S. 1, Genehmigungsblock S. 52) als ersetzte Ausgabe die
+  **Empfehlung** SIA 112/1, **Ausgabe 2004** — beide Stellen vom Hauptprozess am Original gelesen.
+  Das REGISTER fuehrte 2005. Damit ist die ersetzte Ausgabe geklaert (2004), **nicht** aber die
+  Herkunft der 2005: Druck-/Vertriebsjahr der Empfehlung, Eintrag im Gesamtverzeichnis SIA, oder
+  Registerfehler? Zu klaeren am `Gesamtverzeichnis SIA.pdf` bzw. an `ersetzte_normen.pdf`, die
+  beide im Bestand liegen. Kein Handlungsdruck, aber eine offene Kette.
+
+- **N48-3 — SIA 112/1, Anhang D: die E/L/P-Kreuzfelder der Matrix S. 43-48 sind ungemessen.**
+  Die Matrix ordnet ueber sechs Seiten jeder Leistung Phase, Akteur (E/L/P) und raeumlichen Fokus
+  zu. Zeilentexte, Blocktitel und Kriterien-Rueckverweise sind zuverlaessig aufgenommen; die
+  Kreuzfelder selbst sind bei sehr kleiner Schrift **visuell** gelesen und **nicht** rechnerisch
+  gemessen — beide Refuter haben diese Luecke bestaetigt und ebenfalls nicht geschlossen. Genau
+  diese Methode (Blob-Detektion + Helligkeitsmessung je Zelle) hat bei Tabelle 1 derselben Norm
+  105 von 105 Zellen belegt. **Auftrag:** die Methode auf die Anhang-D-Matrix anwenden. Das ist
+  der lehrbuchmaessige Fall der Methodik-Pflicht 6: eine Methode ist auf einen Teil der Quelle
+  angewandt und auf einen anderen nicht.
+
+- **N48-4 — SIA 118/265:2018 beschaffen (Bring-Schuld Raphael).** Der Bestand fuehrt die Ausgabe
+  **2004**; eine Web-Recherche am SIA-Shop (08.08.2026, durch einen Destillier-Agenten) ergab, dass
+  diese per 31.03.2018 durch **SIA 118/265:2018** abgeloest wurde. **Diese Statusaussage ist NICHT
+  am Original verifiziert** — die Ausgabe 2018 liegt nicht im Haus. Gemaess Methodik-Pflicht 10 ist
+  sie deshalb als «die KB hatte 2004 (Stand ihres Stichtags 2013), neu ist 2018» zu fuehren und
+  nicht als Registerfehler. Fuer laufende Holzbau-Werkvertraege und neue Ausschreibungen ist die
+  2018er Fassung zu beschaffen; bis dahin traegt das Destillat einen Warnhinweis zuoberst.
+
+- **N48-5 — Nachfolge-Status von vier Altnormen am Original nicht erkennbar.** Bei
+  `sia-162-6-1999` (Stahlfaserbeton, Empfehlung), `sia-370-21-1987`, `sia-370-24-1979`
+  (Gueter-Aufzuege) und `sia-380-3-1991` (Waermedaemmung Leitungen) laesst sich am Dokument selbst
+  nicht feststellen, ob und wodurch sie abgeloest sind. Die Destillate behaupten deshalb weder
+  Gueltigkeit noch Ablösung. Zu klaeren am Gesamtverzeichnis SIA bzw. am Shop — mit derselben
+  Vorsicht wie N48-4: eine Shop-Auskunft ist eine Statusaussage von aussen, kein Normtext.
+
+- **N48-6 — zwei echte Quellfehler dokumentiert, nicht aufloesbar.** (a) `sia-118-267-2004`:
+  Titelblatt S. 1 nennt als ersetzte Norm SIA 192 in der «Ausgabe 1996», der Genehmigungsblock
+  S. 98 nennt «1998» — beide Stellen gerendert verifiziert, der Widerspruch steht **im Original**.
+  (b) `sia-118-265-2004` Ziff. 8.2.2.2 verweist auf eine «Ziffer 8.1.3.2», die im ganzen Normtext
+  nicht existiert (vollstaendig geprueft), vermutlich Redaktionsfehler der Norm. Beide sind im
+  jeweiligen Destillat als Quellfehler markiert. Kein Handlungsbedarf, aber beim Zitieren zu kennen.
+
+- **N48-7 — SIA 382/2:2011 verweist normativ auf SIA 382/1:2007, im Bestand liegt 382/1:2014.**
+  Das Berechnungsverfahren der 382/2 ist auf die 2007er Fassung der Anforderungsnorm kalibriert.
+  Ob die 2014er Fassung Groessen geaendert hat, auf die 382/2 rechnerisch zugreift, ist **nicht**
+  geprueft. Relevant fuer `energie` und die KB `wissen/energie`, sobald eine Klimaanlage
+  nachzurechnen ist.
+
 ## Normen-Nacht Run 46 (07.08.2026) — ein neuer Auftrag, ein Rückstand richtiggestellt
 
 - **N46-1 — GVZ-Merkblatt 30.17.3: gezielte Runde auf Ziff. 4.2.2.3/4.2.2.4 und den

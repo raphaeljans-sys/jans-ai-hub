@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.08.2026 02:08:13
+Stand: 08.08.2026 02:18:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 02:05)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:18)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 02:08:13
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0ec61815 Neues Destillat SIA 118/257:2005 (ABB Maler-/Holzbeiz-/Tapeziererarbeiten), Run 48
+- e7dc751e nas-selfcommit: 16 Datei(en) 2026-08-08 02:15

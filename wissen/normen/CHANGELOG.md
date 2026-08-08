@@ -1,3 +1,126 @@
+## 2026-08-08 (Run 48) — SIA 112/1:2017 established, P2-Block komplett destilliert, ABB-Querschnitts-Synthese
+
+**Die letzte offene P1-Position ist erledigt.** `destillate/sia-112-1-2017.md` (Verstaendigungsnorm
+«Nachhaltiges Bauen – Hochbau», 52-Seiten-Scan ohne Textlayer) ist destilliert, doppelt refutiert
+und auf **established** gehoben. Tabelle 1 (Matrix Zielvereinbarung, 21x5 Kreise, nur ueber die
+Strichfarbe unterschieden) wurde rechnerisch aufgenommen und vom Refuter mit einer ANDEREN
+Statistik unabhaengig nachgemessen — 105 von 105 Zellen identisch; die innere Probe gegen die fuenf
+Leitfragen-Listen der Ziff. 3.1.3-3.5.3 ist in allen fuenf Spalten bestanden.
+
+Zwei Refuter-Runden mit getrennten Lenses (Struktur/Recht bzw. Tabellen/Anhaenge), beide
+BEANSTANDET, zusammen **5 Kernbefunde und 23 Nebenbefunde**, alle Kernbefunde vom Hauptprozess am
+eigenen Rendering des Originals nachgeprueft und gemaess Methodik-Pflicht 9 INLINE eingearbeitet.
+Der folgenreichste: **die Norm definiert Flaechen- und Erschliessungseffizienz auf S. 45 und S. 46
+unterschiedlich** (S. 45 HNF/GF und VF/GF, S. 46 vermietbare Flaeche/GF und VF/**HNF**) — wer eine
+dieser Kennzahlen zitiert, muss die Seite mitnennen. Ferner: Ziff. 2.1.6 fehlte ganz (sie gibt die
+Messbarkeit als Pflicht an den Anwender zurueck), «unterschriftsreif/Formular» war
+Eigeninterpretation (die Spalte «zu bearbeiten» ist laut Ziff. 2.1.4 ausdruecklich SYMBOLISCH), die
+Ersatzneubau-Schwelle Ziff. 3.2.2 war um eine Bedingung und das Wort «deutlich» verkuerzt, und die
+Anhang-D-Dokumenttypen sind keine «verbindliche Nomenklatur» (Anhang informativ).
+
+**P2-Block vollstaendig: 17 Erstdestillate in einem Lauf**, alle `speculative` (Refuter-Runden sind
+der ausgewiesene Rueckstand, QUESTIONS N48-1): die ABB-Reihe 118/244, 118/246, 118/248, 118/257,
+118/262, 118/263, 118/265, 118/267 · 162/6 Stahlfaserbeton · 197/1 und 197/2 Tunnel · 370/21 und
+370/24 Aufzuege · 380/3 und 382/2 Energie · die Aenderungsblaetter 162.051/A1+A2 und 162.152/A1+A2
+als Delta-Destillate, deren Rueckwirkung als datierte Inline-Hinweise in die established
+Grundnorm-Destillate nachgetragen wurde (5 bzw. 3 Stellen).
+
+**Neuer Wiki-Artikel `wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`** (speculative): Die
+ABB-Reihe SIA 118/xxx ist NICHT einheitlich kalibriert — Geruest-Inklusivgrenze 2,5 m bei den
+Ausbau-Normen von 2006, 3,0 m bei Maler/Holzbau/Mauerwerk, beim Betonbau gar nicht inbegriffen;
+Abzugsgrenzen 0,5 / 1,0 / 2,0 m² je Gewerk. Nur SIA 118/263 (Stahlbau) aendert die SIA 118 wirklich
+(Art. 66, 86, 144); die umfangreichste Norm der Reihe (118/267, 98 S.) aendert nichts. Ausdruecklich
+als Warnkarte gefuehrt, nicht als Zitierquelle, solange die Destillate nicht refutiert sind.
+
+**Zwei Registerkorrekturen, beide am Original nachgeprueft.** (1) **SIA 380/3 ist von 1991, nicht
+1990** — Genehmigungsblock S. 42: Central-Comité 22.08.1991 in Flims, in Kraft 01.10.1991, und es
+ist eine Empfehlung. Der Dateiname der Quelle ist falsch datiert und hatte den Registerstand
+gepraegt; Destillat auf `sia-380-3-1991.md` umbenannt, REGISTER Zeilen 57 und 250 korrigiert.
+(2) **SIA 118/265: geltend ist die Ausgabe 2018**, im Bestand liegt 2004 — per Web-Recherche eines
+Agenten ermittelt und gemaess Methodik-Pflicht 10 gegen den eigenen Bestand gestellt: das REGISTER
+war mit Stichtag 2013 nicht falsch, sondern auf dem Stand seines Stichtags. Als «die KB hatte 2004,
+neu ist 2018» formuliert, die Statusaussage als NICHT am Original verifiziert gekennzeichnet.
+
+Sieben neue QUESTIONS-Punkte (N48-1 bis N48-7), darunter der Lehrbuchfall der Methodik-Pflicht 6:
+die rechnerische Zellaufnahme ist bei SIA 112/1 auf Tabelle 1 angewandt und hat dort 105 Zellen
+belegt — auf die sechsseitige Anhang-D-Matrix (S. 43-48) ist sie **nicht** angewandt worden.
+
+Lauf-Report: `outputs/2026-08-08_normen-nacht-run48.md`.
+
+## 2026-08-08 (Run 48) — Zwei neue Aenderungs-Destillate SIA 162.051/A1+A2 und SIA 162.152/A1+A2, Inline-Ruecklauf in beide Grundnormen
+
+Zwei neue Destillate zu je vier bisher unerschlossenen Aenderungsblaettern (Amendments) der
+beiden bereits destillierten Beton-Grundnormen erstellt, mit Fokus auf das **Delta** zur
+Grundnorm (Vorher/Nachher-Aenderungstabelle je Ziffer/Tabelle):
+
+- `destillate/sia-162-051-a1-a2.md` — SIA 162.051/A1:2004 (gueltig ab 01.02.2005) + /A2:2005
+  (gueltig ab 01.01.2006) zu SN EN 206-1:2000. A1-Seiten 5-8 (der EN-Aenderungstext) waren per
+  `pdftotext -layout` wegen defektem Zeichensatz-Encoding unleserlich (Font-Substitutions-Kauderwelsch)
+  und wurden als 200-dpi-PNG gerendert und visuell gelesen; A1-Seiten 1-4 (Nationaler Vorwort/
+  Anhang) sowie alle 4 Seiten von A2 waren per Textlayer vollstaendig lesbar. Wichtigste
+  materielle Aenderungen: neue Verdichtungsmassklasse C4 (< 1,04, nur Leichtbeton, Tabelle 5);
+  Konformitaetskriterien Tabelle 14/16 von exakt „15" auf „Mindestens 15" Pruefungen gelockert;
+  Tabelle 18 (Konsistenz-Toleranzen) vollstaendig ersetzt; **Anhang G (Dosiergenauigkeit
+  EN 45501) gestrichen** und durch generische Anforderung ersetzt (Ziff. 9.6.2.2); A2 ergaenzt
+  Klarstellungen zu Expositionsklassen (Ziff. 4.1) und Konsistenzbestimmung (Ziff. 5.4.1).
+- `destillate/sia-162-152-a1-a2.md` — SIA 162.152/A1:2004 (gueltig ab 01.05.2005) + /A2:2005
+  (gueltig ab 01.04.2006) zu SN EN 934-2:2001. Beide Amendments vollstaendig per Textlayer
+  lesbar, keine Rendering-Notwendigkeit. A1 ist rein redaktionell (prEN 12390-3:1999 → EN
+  12390-3 in allen 12 Tabellen, keine Zahlenaenderung). A2 streicht Tabelle-1-Zeile 7 und die
+  Pruefnorm ISO 1158, verschiebt dadurch Tabelle-1-Nr. 8-11 um eine Position (bestaetigt ueber
+  Anhang-ZA.1-Aenderung), ergaenzt drei neue Fussnoten zu Tabelle 13 und **aendert die einzige
+  echte Zahl dieses Amendments**: Mindestpruefhaeufigkeit Kennung «A» von „je 500 t bzw.
+  mindestens 2x/Jahr" auf „je 1'000 t, jedoch hoechstens drei Pruefungen im Jahr".
+
+**Ruecklauf in die Grundnorm-Destillate** (Rule `wissens-bibliothekar`, keine kommentarlose
+Ueberschreibung des alten Werts, sondern datierter Inline-Hinweis mit Backlink):
+`destillate/sia-162-051-2000.md` an fuenf Stellen ergaenzt (Tabelle 5/Verdichtungsmass,
+Tabelle 14/16/Konformitaetskriterien, Tabelle 18/Konsistenz-Konformitaetskontrolle, Anhang G/
+Dosiergenauigkeit, Ziff. 7.5/9.8 Fahrmischer-Begriff); `destillate/sia-162-152-2001.md` an drei
+Stellen ergaenzt (Tabelle 1 Nr. 8-11/Umnummerierung, Tabelle 13/Mindestpruefhaeufigkeit Kennung
+A, EN-12390-3-Referenz). Beide Grundnorm-Frontmatter `links` um Backlink zum jeweiligen neuen
+Aenderungs-Destillat ergaenzt, `last_updated` auf 2026-08-08 gesetzt (Status/Verifikationsvermerk
+der Grundnorm selbst unveraendert belassen). `destillate/INDEX.md` um beide neuen Zeilen ergaenzt
+und die beiden Grundnorm-Zeilen mit Vermerk zu den Inline-Hinweisen versehen. Status beider neuer
+Destillate: speculative, unabhaengige Refuter-Runde aussteht. Offene Punkte: exakter
+Alt-Wortlaut mehrerer geaenderter Fussnoten/Absaetze (Ziff. 5.2.7 Fussnote b, Ziff. 5.4.1
+Anmerkung, Ziff. 4.2 letzter Absatz) war im jeweiligen Grundnorm-Destillat nicht im Wortlaut
+zitiert und laesst sich daher nur aus der Amendment-Beschreibung selbst rekonstruieren; die
+A2:2005-Umnummerierung von Tabelle-1-Zeilen 8-11 ist im Amendment-Text selbst leicht
+widerspruechlich formuliert (vermutlich Redaktions-/OCR-Fehler im Quell-PDF).
+
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/267:2004 (Allgemeine Bedingungen für geotechnische Arbeiten)
+
+`destillate/sia-118-267-2004.md` (98 Seiten, die umfangreichste ABB-Norm im Bestand): SIA 118/267
+ergänzt die SIA 118 im Allgemeinen Teil (Ziff. 0-2/5) und regelt im Besonderen Teil acht
+geotechnische Arbeitsgattungen — Ziff. 8 Pfähle, 9 Düsenstrahlverfahren/Jetting, 10 Anker,
+11 Schlitzwände, 12 Spundwände, 13 Nagelwände, 14 Wasserhaltung, 15 Erdbau — jede mit derselben
+Siebener-Gliederung Ausschreibung/Angebot/Aufgaben der Vertragspartner/Vergütung/Ausmass/
+Bestellungsänderung/Bauausführung. Vollständiger Textlayer aller 98 Seiten via `pdftotext -layout`
+gelesen; Stichproben-Rendering (300 dpi) auf S. 1, 77 und 98 bestätigte exakte Übereinstimmung
+von Text- und Bildextraktion, inkl. der mehrspaltigen Tabelle E.1.17 (Bentonitsuspensions-
+Kennwerte je Verwendungszustand) — keine weitere Nachrenderung nötig.
+
+**Zentraler Prüfauftrag beantwortet:** anders als die Schwesternorm SIA 118/263 (Stahlbau, drei
+echte Änderungen der SIA 118) enthält SIA 118/267 KEINE einzige Änderung der SIA 118 — Ziff. 0.2
+bestätigt nur die normale ABB-Rangfolge nach Art. 7/21 SIA 118, und der gesamte Normtext wurde
+systematisch auf Ersetzungsklauseln durchsucht (Ergebnis: keine gefunden). Damit gilt für Ausschreibung,
+Vergabe, Vergütungsgrundsätze, Bestellungsänderung, Abnahme und Mängelhaftung durchgehend das
+unveränderte Regime der SIA 118.
+
+Praxisrelevante Fundstellen: die acht Ausführungs-Anhänge B-I liefern konkrete Toleranzwerte
+(Pfahl-Lageabweichung Anhang B.5, Anker-Bohrlochabweichung max. 1/30 der Ankerlänge D.5.1,
+Schlitzwand-Vertikalität < 1 % E.4.2, Spundwand-Grundrissabweichung ≤ 75/100 mm F.6.1,
+Baugrubensohlen-Toleranzen ± 30/50/150 mm I.8.1); Spundwand-Abdichtungspflicht erst ab
+1,0 l/min/m² (Ziff. 12.2.3); Reststückregel bei unbrauchbaren Spundbohlen 4 m/6 m (Ziff. 12.5.5);
+Wasserhaltungs-Betriebsstrom explizit NICHT in den Energiekosten inbegriffen (Ziff. 14.2.3).
+Ein Widerspruch im SIA-Original selbst wurde entdeckt und dokumentiert (nicht aufgelöst): das
+Titelblatt nennt die ersetzte SIA 192 mit Ausgabe 1996, die Genehmigungsseite S. 98 mit Ausgabe
+1998 — beide Stellen visuell gegen 300-dpi-Rendering verifiziert, echter Quellwiderspruch.
+
+Status speculative (Erstdestillat, Refuter-Runde ausstehend). `INDEX.md` ergänzt (Zeile nach
+`sia-267-1-2003.md`, thematische Gruppierung bei der Fachnorm-Familie SIA 267).
+
 ## 2026-08-08 (Run 48) — Neue Destillate SIA 370/21:1987 + SIA 370/24:1979 (Güteraufzüge/Hubvorrichtungen)
 
 Zwei Destillate der 370er-Aufzugsfamilie neu erstellt, beide mit vollständigem Textlayer via
@@ -78,6 +201,43 @@ Wortlaut wiedergegeben). JANS-Relevanz ehrlich als sehr gering eingestuft (Healt
 Hochbau-Büro, Strassentunnelbau reines Randgebiet) — dient der Vollständigkeit der
 SIA-197-Normenfamilie, kein Arbeitsmittel. Status speculative, Refuter-Runde aussteht.
 `destillate/INDEX.md` Zeile ergänzt (direkt nach `sia-197-1-2004.md`).
+
+## 2026-08-08 (Run 48) — Neue Destillate SIA 380/3:1991 + SIA 382/2:2011, Ausgabejahr-Korrektur SIA 380/3
+
+Zwei neue Destillate erstellt.
+
+**`destillate/sia-380-3-1991.md`** — Empfehlung «Wärmedämmung von Leitungen, Kanälen und
+Behältern in Gebäuden» (42 Seiten, vollständiger Textlayer via `pdftotext -layout`; zusätzlich
+Tabellen 1-15 und der VSI-Nummern-Index (S. 23-33) als 300-dpi-PNG gerendert und zellengenau
+gegen den Textlayer geprüft — Materialkennwerte mit Brandkennziffern, Richtlinien nach
+Montageort). **Wichtigster Befund:** der Dateiname `380_3_1990_d.pdf` und der bisherige
+REGISTER-Eintrag (Zeile 250) führten das Jahr «1990» — das Titelblatt selbst trägt jedoch KEIN
+Ausgabejahr. Der Genehmigungsblock (S. 42) belegt eindeutig: «vom Central-Comité des SIA am
+22. August 1991 in Flims genehmigt», in Kraft ab 1. Oktober 1991, Druckvermerk Titelblatt
+«8/1991». Die Empfehlung ist damit eine **1991er-Ausgabe**, nicht 1990 — `REGISTER.md` Zeile
+250 korrigiert (Jahr, Beleg, Blindzone-Vorbehalt bleibt zusätzlich bestehen: ob eine neuere
+Ausgabe existiert, ist am Dokument nicht erkennbar). Enthält keine Dämmdicken-Vorgaben (die
+stehen in SIA 380/1), sondern das Berechnungsverfahren für Wärmeverluste (Rohre/Armaturen/
+Behälter/Kanäle, Formeln Ziff. 331-335) und die VSI-codierte Systemwahl nach Montageort.
+
+**`destillate/sia-382-2-2011.md`** — «Klimatisierte Gebäude: Leistungs- und Energiebedarf» (40
+Seiten, vollständiger Textlayer; zusätzlich Tabelle 2 «Standardisierte Eingabeparameter
+Vergleichsprojekt» (S. 26-28) sowie Tabellen 4/5 in Anhang A (Leistungsgrenzen Abgabesysteme,
+Quellen-Senken-Kombinationen, S. 30) als 300-dpi-PNG gerendert und zellengenau geprüft.
+Schwesternorm zu `sia-382-1-2014.md` (dort verlinkt, nicht dupliziert): 382/1 legt die
+technischen Anforderungen an Lüftungs-/Klimaanlagen fest, 382/2 liefert das
+**Berechnungsverfahren** für Leistungs-/Jahresenergiebedarf (Umsetzung SN EN ISO 13790:2008,
+ergänzt durch Merkblatt SIA 2044 + SIA-TEC-Tool) und prüft die Systemanforderung über ein
+**Vergleichsprojekt-Verfahren** (Grenz-/Zielwerte statt fixer Absolutwerte). Kernwerte Tabelle
+2: U-Wert opak Grenzwert 0,20 / Zielwert 0,12 W/(m²·K), U-Wert Fenster 1,3/1,0, spez.
+Ventilatorleistung Zuluft 0,35/0,20 Wh/m³, WRG-Temperaturänderungsgrad 0,75/0,8,
+Wärmepumpen-Jahresnutzungsgrad pauschal 3,0/4,4. Ersetzt Empfehlung SIA V 382/2:1992 sowie
+Teile SIA 380/4:2006 (Ziff. 3.4/3.5.1/3.6/4.4-4.6). Referenziert im Normativverweis noch
+SIA 382/1:2007 (nicht die im Bestand destillierte 2014er-Ausgabe) — als Diskrepanz im
+Destillat vermerkt.
+
+Beide `destillate/INDEX.md` ergänzt (Zeilen bei `sia-382-1-2014.md`). Status beider Destillate
+speculative, unabhängige Refuter-Runde ausstehend.
 
 ## 2026-08-08 (Run 48) — Neues Destillat SIA 197/1:2004 (Projektierung Tunnel – Bahntunnel)
 

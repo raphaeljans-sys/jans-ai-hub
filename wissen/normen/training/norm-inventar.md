@@ -43,22 +43,51 @@ nur destillieren. Alle Titelblaetter sind verifiziert, Pfade stimmen.
   **N27-2-Beitrag geliefert:** ersetzt gemaess Genehmigungsblock S. 44 den Teil Beleuchtung
   (Ziff. 3.3 und 4.3) der SIA 380/4:2006; Lueftung/Klima → SIA 382/1+382/2, uebrige
   Verbraucher → Merkblatt SIA 2056 (Vorwort S. 4).
-- [ ] SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan, 52 S.) — dabei die Jahres-Diskrepanz klaeren
-  (Titelblatt «Ersetzt SIA 112/1:2004» vs. Register-Kette 2005). **Stand 260807 (Run 47):
-  einzige offene P1-Position.** Zwei Destillat-Anlaeufe am Session-Limit abgebrochen
-  (Reset 19:00); KEIN Teil-Destillat vorhanden, von vorn beginnen (alle 52 Seiten rendern,
-  Scan ohne Textlayer, Praefix sia112-1-). Titelblatt-Befund aus Anlauf 1 bestaetigt:
-  «Ersetzt SIA 112/1:2004» (S. 1). Danach unabhaengige Refuter-Runde wie bei den uebrigen
-  P1-Positionen dieses Laufs.
+- [x] 260808 SIA 112/1:2017 (`alle/112_1_2017.pdf`, Scan, 52 S.) — Destillat `sia-112-1-2017.md`,
+  **established** nach ZWEI unabhaengigen Refuter-Runden mit getrennten Lenses (beide BEANSTANDET,
+  zusammen 5 Kernbefunde + 23 Nebenbefunde, alle 5 Kernbefunde vom Hauptprozess am Original
+  nachgeprueft und INLINE eingearbeitet). Tabelle 1 (21x5-Matrix) rechnerisch aufgenommen und vom
+  Refuter mit ANDERER Statistik unabhaengig nachgemessen: 105/105 Zellen identisch; innere Probe
+  gegen die fuenf Leitfragen-Listen in allen fuenf Spalten bestanden.
+  **Jahres-Diskrepanz geklaert:** die Norm nennt zweimal unabhaengig (Titelblatt S. 1 und
+  Genehmigungsblock S. 52) «Ausgabe 2004», und zwar eine **Empfehlung**, nicht eine Norm. Woher
+  der Registerstand 2005 stammt, bleibt offen (QUESTIONS).
+  **Kernbefunde:** Ziff. 2.1.6 fehlte ganz · «unterschriftsreif/Formular» war Eigeninterpretation
+  (die Spalte «zu bearbeiten» ist laut Ziff. 2.1.4 ausdruecklich SYMBOLISCH) · Ersatzneubau-Schwelle
+  Ziff. 3.2.2 war um eine Bedingung und das Wort «deutlich» verkuerzt · Anhang-D-Dokumenttypen sind
+  keine «verbindliche Nomenklatur» (Anhang informativ) · **die Norm definiert Flaechen- und
+  Erschliessungseffizienz auf S. 45 und S. 46 UNTERSCHIEDLICH** (S. 45 HNF/GF und VF/GF, S. 46
+  vermietbare Flaeche/GF und VF/HNF).
+  Offen und ausgewiesen: die E/L/P-Kreuzfelder der Matrix S. 43-48 sind nicht rechnerisch gemessen.
 - [x] 260807 SIA 281/3:2018 — Destillat `sia-281-3-2018.md`, **established** (Refuter
   BESTANDEN, 0 Kernbefunde, 22 Stichproben; 2 Nebenbefunde eingearbeitet; Formelzeichen
   Ziff. 2.4.1 «CJ» doppelt belegt, offener Punkt am besseren Original).
 
-**P2 (danach, normale Grundarbeit):** die uebrigen Deutsch-Erstfassungen der Uebernahme:
-118/244, 118/246, 118/248 (2006), 118/257 (2005), 118/262, 118/263, 118/265, 118/267 (2004),
-162/6:1999, 197/1:2004, 197/2:2004, 370/21:1987, 370/24:1979, 380/3:«1990», 382/2:2011,
-162.051_A1_2004 + A2_2005, 162.152_A1_2004 + A2_2005. Die 9 xalt-Altausgaben werden gemaess
-Programm NICHT destilliert.
+**P2 — [x] 260808 VOLLSTAENDIG DESTILLIERT (Run 48), Refuter-Runden ausstehend.** Alle 17
+Positionen der Uebernahme sind als Erstdestillat angelegt, Status durchwegs `speculative`:
+- [x] 260808 118/244:2006 `sia-118-244-2006.md` · 118/246:2006 `sia-118-246-2006.md` ·
+  118/248:2006 `sia-118-248-2006.md` · 118/257:2005 `sia-118-257-2005.md` (ABB Ausbau)
+- [x] 260808 118/262:2004 `sia-118-262-2004.md` · 118/263:2004 `sia-118-263-2004.md` ·
+  118/265:2004 `sia-118-265-2004.md` · 118/267:2004 `sia-118-267-2004.md` (ABB Rohbau/Geotechnik)
+- [x] 260808 162/6:1999 `sia-162-6-1999.md` (Stahlfaserbeton, Empfehlung)
+- [x] 260808 197/1:2004 `sia-197-1-2004.md` (Bahntunnel) · 197/2:2004 `sia-197-2-2004.md` (Strassentunnel)
+- [x] 260808 370/21:1987 `sia-370-21-1987.md` · 370/24:1979 `sia-370-24-1979.md` (Gueter-Aufzuege/Hubvorrichtungen)
+- [x] 260808 380/3 `sia-380-3-1991.md` — **Jahr korrigiert: 1991, nicht 1990.** Genehmigungsblock
+  S. 42 vom Hauptprozess selbst gelesen: Central-Comité 22.08.1991 in Flims, in Kraft 01.10.1991,
+  Copyright 1991, ersetzt SIA 148:1951. Der Dateiname der QUELLE (`380_3_1990_d.pdf`) ist falsch
+  datiert; REGISTER Zeile 250 und das Destillat sind korrigiert.
+- [x] 260808 382/2:2011 `sia-382-2-2011.md` (Klimatisierte Gebaeude, Berechnungsverfahren)
+- [x] 260808 162.051 A1:2004 + A2:2005 `sia-162-051-a1-a2.md` · 162.152 A1:2004 + A2:2005
+  `sia-162-152-a1-a2.md` (Aenderungsblaetter als Delta-Destillate; Rueckwirkung als datierte
+  Inline-Hinweise in den established Grundnorm-Destillaten nachgefuehrt, 5 bzw. 3 Stellen)
+
+Die 9 xalt-Altausgaben werden gemaess Programm NICHT destilliert.
+
+**Naechster Schritt fuer diesen Block (P3, faellig):** die 17 Refuter-Runden. Reihenfolge nach
+Nutzwert: zuerst die ABB-Reihe (sie speist `ausschreibung`/`werkvertrag`/`unternehmerkontrolle`
+und traegt die Zahlenwerte der Querschnitts-Synthese
+`wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`, die bis dahin ausdruecklich Warnkarte und
+nicht Zitierquelle ist), dann 382/2 und 380/3 (Energie), zuletzt die Tunnel- und Aufzugsnormen.
 
 - **Run 39 (MacBook Pro, 260730) — Abdeckung von `lignum-4-1` GEMESSEN statt geschaetzt
   (Freigabe Raphael). Vollstaendige Seiten-Inventur aller 40 A3-Blaetter, 5 parallele

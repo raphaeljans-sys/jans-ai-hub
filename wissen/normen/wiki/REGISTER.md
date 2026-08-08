@@ -54,7 +54,7 @@ Ausgabe 2023, Register führt 2011) ist kein Einzelfall, sondern ein Vertreter d
 **nicht** als geltend zitiert werden, ohne extern (SIA-Normenverzeichnis/Shop) gegengeprüft
 zu haben. Zulässig ist die Formulierung «zuletzt bestätigt 25.02.2013, jüngere Revision nicht
 geprüft». Das gilt besonders für die 14 Zeilen mit einer 2013-Ausgabe älter als 2003
-(u.a. SIA 215:1978, SIA 370/24:1979, SIA 381/3:1982, SIA 370/21:1987, SIA 380/3:1990,
+(u.a. SIA 215:1978, SIA 370/24:1979, SIA 381/3:1982, SIA 370/21:1987, SIA 380/3:1991 (Dateiname 1990 falsch, s.u.),
 SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wahrscheinlichsten.
 
 ## Lese-Legende
@@ -105,7 +105,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 118/257 | 2005 | 2005✓ | Bestand 2005 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Maler-, Holzbeiz- und Tapeziererarbeiten») |
 | SIA 118/262 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Betonbau», AVB zu SIA 262 und SIA 264) |
 | SIA 118/263 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Stahlbau», AVB zu SIA 263 und SIA 264) |
-| SIA 118/265 | 2004 | 2004✓ | Bestand 2004 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Holzbau», AVB zur SIA 265) |
+| SIA 118/265 | 2004 im Bestand · **2018 die geltende Ausgabe** | 2004✓ (Stichtag 2013) | Bestand 2004 (dt., Übernahme 260807 aus Downloads-Sammlung; «Allgemeine Bedingungen für Holzbau», AVB zur SIA 265) — per Stichtag 2013 gueltig. ⚠ **Nach 2013 ersetzt: SIA 118/265:2018, gueltig ab 01.04.2018** (Web-Recherche am SIA-Shop 08.08.2026, Run 48 — **NICHT am Original verifiziert**, die Ausgabe 2018 liegt im Bestand nicht vor). Formulierung gemaess Methodik-Pflicht 10: die KB hatte 2004 als jüngsten Bestand, neu ist 2018 — das Register war damit nicht falsch, sondern nur auf dem Stand seines Stichtags. Ausgabe 2004 nur noch fuer Altvertraege; Beschaffung der 2018er ist Bring-Schuld (`wiki/QUESTIONS.md`) |
 | SIA 118/266 | 2004 | 2004✓ | Bestand 2004 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) — per Stichtag 2013 gueltig, aber **nach 2013 ersetzt durch SIA 118/266-1:2017** (Titelblatt-Vermerk der 2017er, eigene Zeile unten); Ausgabe 2004 nur noch für Altverträge |
 | SIA 118/266-1 | **2017** (nicht im 2013-Register) | 2017✓ | **Neuzugang 260807, am Titelblatt verifiziert:** «Allgemeine Bedingungen für Mauerwerk», SN 507266-1:2017 de, gültig ab 2017-09-01, 20 S., «Ersetzt SIA 118/266:2004». Bestand: `alle/118_266-1_2017.pdf` (Übernahme 260807 aus Downloads-Sammlung) |
 | SIA 118/266-2 | **2017** (nicht im 2013-Register) | 2017✓ | **Neuzugang 260807, am Titelblatt verifiziert:** «Allgemeine Bedingungen für Natursteinmauerwerk», SN 507266-2:2017 de, gültig ab 2017-09-01, 20 S., «**Ersetzt SIA 226:1976**» (siehe Zeile SIA 226). Bestand: `alle/118_266-2_2017.pdf` (Übernahme 260807 aus Downloads-Sammlung) |
@@ -247,7 +247,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 370/24 | 1979 | 1979✓ | Bestand 1979 dt. (Übernahme 260807 aus Downloads-Sammlung; «Hubvorrichtungen für Güter», Druck 10/1993). ⚠ Gleicher Blindzone-Vorbehalt wie 370/21 |
 | SIA 370/101 | —(alle zurueckgezogen) | 1985✗ |  |
 | SIA 380/1 | 2009 | 2009✓ · 2007✗ · 2001✗ · 1988✗ |  |
-| SIA 380/3 | 1990 | 1990✓ | Bestand «1990» dt. (Übernahme 260807 aus Downloads-Sammlung; «Wärmedämmung von Leitungen, Kanälen und Behältern in Gebäuden»). ⚠ Titelblatt trägt KEIN Ausgabejahr — belegbar nur Copyright 1991 / Druck 8/1991; dazu Blindzone-Vorbehalt (14er-Liste) |
+| SIA 380/3 | **1991** (korrigiert 08.08.2026, Run 48) | 1990✗ · 1991✓ | Bestand dt. («Wärmedämmung von Leitungen, Kanälen und Behältern in Gebäuden»). ⚠ **Der Dateiname `380_3_1990_d.pdf` ist FALSCH datiert** — Titelblatt trägt kein Ausgabejahr, aber der Genehmigungsblock (S. 42) belegt eindeutig: vom Central-Comité des SIA am **22. August 1991 in Flims genehmigt**, in Kraft ab **1. Oktober 1991**; Druckvermerk Titelblatt «8/1991». Verifiziert am Volltext bei Destillation `destillate/sia-380-3-1991.md` (Run 48, 08.08.2026) — das Destillat heisst korrekt `sia-380-3-1991.md` (Umbenennung durch den Hauptprozess, Run 48); nur die QUELLDATEI im Normen-Bestand traegt weiterhin das falsche Jahr im Namen. Ob eine neuere Ausgabe existiert, ist am Dokument nicht erkennbar (offene Bring-Schuld, `wiki/QUESTIONS.md`) |
 | SIA 380/4 | 2006 | 2006✓ · 1995✗ | Bestand 2006 dt. (`alle/xalt/`, Übernahme 260807 aus Downloads-Sammlung) — per Stichtag 2013 gueltig, aber nach 2013 abgelöst: **SIA 387/4:2017 trägt «Ersetzt Teile von SIA 380/4:2006»** (Titelblatt, Norm im Bestand — Beitrag zur Nachfolgefrage N27-2) und SIA 2056:2019 (Run-27-Zeile unten); nur noch Altverträge |
 | SIA 380/7 | —(alle zurueckgezogen) | 1985✗ |  |
 | SIA 381/1 | —(alle zurueckgezogen) | 1980✗ |  |
