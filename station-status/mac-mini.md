@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 07:09:33
+Stand: 08.08.2026 07:29:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 07:09:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 39c33e2d nas-selfcommit: 2 Datei(en) 2026-08-08 07:00
+- 38d05202 wissen/energie: offene Frage E-126-1 (Abgrenzung Produktions- vs. Haushaltskueche, UGZ Stadt ZH) aus Fall KISPI 2619

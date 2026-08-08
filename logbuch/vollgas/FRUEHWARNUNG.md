@@ -4,6 +4,173 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-08 07:16 — GEMELDET (Mail an rj@ gesendet 07:44)
+
+Messzeitpunkt 08.08.2026 07:16 CEST, NAS gemountet. Fünfter Lauf mit rekursivem Glob
+(inklusive Subagenten-Transcripts), Zeilenfilter je `timestamp[:10]` über ein Fenster von
+acht Kalendertagen bei neun Tagen mtime-Vorfilter, Duplikate über (message.id, requestId)
+ausgeschlossen.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 01.08. | 5.70 | 144.47 | 0.82 | 21.38 | **6.52** |
+| 02.08. | 0.00 | 0.00 | 0.00 | 0.00 | **0.00** |
+| 03.08. | 22.52 | 514.43 | 9.51 | 179.80 | **32.03** |
+| 04.08. | 7.63 | 180.70 | 2.69 | 45.96 | **10.32** |
+| 05.08. | 12.13 | 252.53 | 5.13 | 67.30 | **17.26** |
+| 06.08. | 9.19 | 181.56 | 1.93 | 49.81 | **11.12** |
+| 07.08. | 43.25 | 354.36 | 9.86 | 134.71 | **53.11** |
+| 08.08. (bis 07:16) | 3.96 | 109.38 | 0.36 | 11.97 | **4.32** |
+
+Die sechs Überlappungstage (01.08. bis 06.08.) stimmen auf zwei Nachkommastellen mit der
+Messung vom 07.08. überein — die rekursive Methodik reproduziert sich zum fünften Mal.
+
+**Der 07.08. ist mit 53.11 Mio kombiniert der teuerste Tag des Fensters** und liegt um
+Faktor 4.8 über dem Vortag (11.12) sowie um zwei Drittel über dem bisherigen Wochenhoch
+vom 03.08. (32.03). Er überschreitet die Meldeschwelle (b) von ~35 Mio deutlich. Auffällig
+ist das Verhältnis teuer/total: 43.25 von 354.36 auf dem MacBook Pro sind 12.2 % teurer
+Anteil gegenüber 5.1 % am 06.08. — es wurde nicht nur mehr gearbeitet, sondern teurer
+gearbeitet (viel cache_creation statt cache_read, also viele frisch aufgebaute Kontexte).
+
+**Blockade-Status: HART, aber 5-Stunden-Limit, nicht Wochenlimit.** Strukturelle Prüfung
+(isApiErrorMessage / type=error / message.type=error / apiErrorStatus 429 zusammen mit
+Limit-Textmuster) findet in den letzten 24 h **sieben** echte Ereignisse, alle am 07.08.
+auf dem MacBook Pro, alle mit dem Wortlaut «You've hit your session limit» — also das
+5-Stunden-Kontingent, **kein** «weekly limit». Zwei aufeinanderfolgende 5-h-Fenster waren
+erschöpft:
+
+- **12:19:50 · 12:19:53 · 12:20:46 CEST** — Reset angekündigt auf 13:50 (Europe/Zurich)
+- **14:34:34 · 14:34:35 · 15:12:19 · 16:58:27 CEST** — Reset angekündigt auf 19:00 (Europe/Zurich)
+
+(Die Zeitstempel in den JSONL-Transkripten sind UTC; hier durchgehend auf CEST umgerechnet,
+wie in allen früheren Einträgen dieses Logs. Die angekündigten Reset-Zeiten sind bereits
+Europe/Zurich und bleiben unverändert.)
+
+Betroffene Sitzungen: **`2b6b56ca`** (vier Ereignisse) mit der ersten Eingabe «Manueller
+Normen-Destillat-Lauf (Vorrang, Freigabe Raphael) …» — ein von Raphael getippter Prompt,
+nach der Typisierung dieses Auftrags also **INTERAKTIV**; dazu zwei seiner Subagenten
+(`agent-add2243a…`, `agent-a94f9470…`, beide Destillat-Autor SIA 112/1:2017); und
+**`94c458ae`** um 16:58, die Session des `vollgas-chef-radar` — die Aufsicht selbst wurde
+vom Limit getroffen. Kriterium (a) ist damit erfüllt, Kriterium (c) nicht.
+
+**Ursache des 07.08.: EIN einzelner Subagent, nicht die Grundlast.** Aufschlüsselung des
+teuren Verbrauchs nach Session (global dedupliziert über message.id/requestId, also ohne
+die Wiederholungszeilen der Fehlversuche):
+
+| Session | teuer | Anteil MacBook Pro |
+|---|---|---|
+| `agent-a94f9470` Destillat-Autor SIA 112/1:2017 (14:10–14:34) | **17.49 Mio** | 40 % |
+| `agent-add2243a` Destillat-Autor SIA 112/1:2017 (12:10–12:19) | **6.24 Mio** | 14 % |
+| übrige Normen-Rollen (Refuter, Segmentleser, Elternsession, SIA 118/26) | ~5.5 Mio | 13 % |
+| `wissens-chef` Run 28 samt Ausführenden | ~4.1 Mio | 9 % |
+| alle Scheduled Tasks zusammen (baurecht-buch, wissenscheck, wissens-destillat, Radar, normen-nacht, zahlungsabgleich …) | ~3.7 Mio | 9 % |
+
+Der **manuell freigegebene Normen-Destillat-Lauf für SIA 112/1:2017 macht damit rund
+29 Mio von 43.25 Mio aus — 68 % des Stationstages** und 55 % des kombinierten Tages. Die
+getakteten Loops sind an diesem Ausreisser praktisch unbeteiligt; ihre Summe liegt mit
+~3.7 Mio im Rahmen eines normalen Tages.
+
+**Der Mechanismus ist benennbar und wiederholbar.** Der teuerste Subagent
+(`agent-a94f9470`, 17.49 Mio in 24 Minuten) hat **199 `Read`-Aufrufe in EINEM
+Agenten-Kontext** abgesetzt: die Norm wurde per `pdftotext` in Textstücke im Scratchpad
+zerlegt und diese Stücke anschliessend seriell nacheinander in denselben Kontext gelesen.
+Jeder weitere Read vergrössert den Kontext, und jeder folgende Zug baut den Cache neu auf —
+der Verbrauch wächst dabei nicht linear mit der Seitenzahl, sondern quadratisch. Der
+zweite Agent (`agent-add2243a`, 6.24 Mio in 9 Minuten) zeigt dasselbe Muster in kleinerem
+Massstab. Beide endeten im 429. Das erklärt zugleich den auffälligen teuer/total-Anteil
+von 12.2 % statt 5.1 %: es war viel `cache_creation`, wenig `cache_read`.
+
+Zehn `Destillat-Autor`-Subagenten liefen an diesem Tag; **acht davon blieben mit 0.39 bis
+0.61 Mio unauffällig**. Der Ausreisser ist nicht die Rolle, sondern die unbegrenzte
+Segmentgrösse bei einer grossen Norm.
+
+**Operative Briefings (Schritt 3): alle haben ihr Deliverable erreicht.** `logbuch-radar`
+lief heute 06:55–07:14 CEST (191 Zeilen) und hat abgeliefert — Abschnitt «Radar-Briefing
+08.08.2026» im LOGBUCH, Commit `69a7146f`, sechs Registereinträge, still ohne Mail nach
+Rule 260803. `hub-chef-taeglich` lief am 07.08. 08:39–09:01 und meldet im eigenen Schlusstext
+ausdrücklich «Briefing versendet», mit Gegenprobe, dass alle vier entmailten Loop-Abschnitte
+im Datumsblock standen. `mahnwesen-verzugscheck` (08:05–08:09) und `ag-gruendung-monitor`
+(07:46–07:55) sind über den Hub-Chef-Lauf belegt; `zahlungsabgleich-check` (08:23–08:28) hat
+seinen Report `260807_bexio-Hygiene.md` mit 16'051 Bytes abgelegt.
+**Methodischer Vermerk:** drei dieser Sessions weisen eine Lücke von rund 12,7 Stunden auf
+(z.B. mahnwesen 08:09 → 20:51). Das ist **kein** Abbruch: Raphael hat die Sessions am Abend
+selbst interaktiv fortgesetzt (Schlusstexte zu Modellwahl und `bexio-vorfilter.mjs`). Wer nur
+Start- und Endzeit misst, liest hier fälschlich einen Hänger.
+
+**Radar-Herzschlag (Schritt 4): grün.** Jüngster RADAR.md-Eintrag **08.08. 00:58**, Abstand
+zum Messzeitpunkt 6 h 18 min, dazu eine belegte Session. Der Radar hat seinen Takt am 07.08.
+21:21 von 8 auf **12 Stunden** umgestellt (`50 */12 * * *`) und dabei einen eigenen Defekt
+behoben: die Selbstkontrolle stand mit 11 h Toleranz gegen einen 12-h-Takt und hätte ab sofort
+bei jedem Regellauf einen Ausfall gemeldet. Der Radar-Lauf vom 07.08. 16:58 war vom Limit
+getroffen, hat sich aber um 20:01 und 00:58 wieder gefangen — **kein Aufsichtsausfall**.
+
+**Liefer-Delta der Lern-Loops (Schritt 5): kein Muster (a), kein Muster (b).** Der teure
+Normen-Lauf hat trotz seines Preises geliefert (Destillat SIA 112/1:2017, dazu REGISTER-Pflege
+und die Vergütungs-/Ausmassgrenzen-Reihe). Das Lauf-Journal weist für den 07.08. fünf
+Mini-Nachtschicht-Läufe aus, vier mit rc=0 (02:38 · 05:36 · 21:29 · 23:37, zusammen 14.71 USD)
+und **einen mit rc=1**: der **Mittags-Slot 13:30 wurde nach 8 Sekunden mit «Session limit hit»
+abgewiesen** — der erste belegte Ausfall dieses Slots seit seiner Einführung, und zwar als
+Folgeschaden genau des Normen-Laufs, der zur selben Zeit die beiden 5-h-Fenster leerte. Für den
+08.08. bisher zwei Läufe, beide rc=0 (02:35 · 05:36, 6.15 USD).
+
+**Destillat-Aufsicht (zwölfte Erhebung):**
+- (a) **Fortschritt: Sektionen 37/37, 214 Dateien inventarisiert, 22 offene Dateien** — den
+  fünften Tag unverändert, und wieder kein Leerlauf: der Nachtlauf 07.08. 05:36 hat den
+  ERCO-Ratgeber von Seite 145 auf **175** fortgeschrieben. Bei grossen Einzelquellen bleibt die
+  Seitenmarke das richtige Mass, der Datei-Zähler das falsche.
+- (b) **Ertrag: 9 inhaltliche Artikel, alle `emerging`, 0 `established`.** `erco-lichtplanung-
+  grundlagen.md` steht bei **67'756 Bytes** (Vortag 66'203). Der Zuwachs ist mit +1'553 Bytes
+  deutlich kleiner als am Vortag (+21'164) — die Nacht ging in die Gegenprüfung statt in die
+  Breite: drei Seitenzuschreibungen im ERCO-Artikel wurden am Original richtiggestellt (S. 136
+  → 137, S. 138 → 139) und ein Norm-Verweis bei der Aufzugs-Elektroschnittstelle nachgetragen.
+- (c) **Delta-Null-Serie: 0.** Weder Rücktaktung noch Stilllegung fällig. Gemessen am CHANGELOG,
+  nicht am seit dem 03.08. ungenutzten `outputs/`-Verzeichnis.
+- (d) **Stückkosten 07.08.: 1.71 Mio teuer je bewegtem Wiki-Artikel** (53.11 Mio kombiniert /
+  **31** Artikel, git-Methodik, ohne INDEX und QUESTIONS); ohne die fünf an diesem Tag bewegten
+  Twin-Facetten: **2.04 Mio** (26 Artikel). Reihe bisher: 04.08. 0.69 / 1.15 · 05.08. 0.78 / 1.08 ·
+  06.08. 0.79 / 1.39 · **07.08. 1.71 / 2.04**. Der Sprung ist der teuerste der bisherigen Reihe
+  und **vollständig dem einen Normen-Lauf zuzurechnen**: rechnet man dessen ~29 Mio heraus, liegen
+  die Stückkosten bei 0.78 Mio und damit exakt im Band der drei Vortage. Der Loop-Betrieb ist
+  nicht ineffizienter geworden.
+- **Spec-Gate:** `specs/bauprodukte-spec.md` liegt vor, das Gate hängt nicht. Korpus 1 weiter
+  «in Arbeit» (22 Dateien offen), Korpora 2 bis 4 «wartet» — **keine** Komplettmeldung,
+  Kriterium (g) nicht erfüllt.
+- Kriterium (f) **nicht erfüllt**: Front steht, aber der Ertrag bewegt sich belegt.
+
+**Mittags-Slot 13:30 — vierte Wochenmeldung, erstmals mit einem Ausfall.** An acht von neun
+Tagen seit dem 30.07. gefeuert und geliefert; am **07.08. abgewiesen (rc=1, «Session limit
+hit», 8 Sekunden, 0.00 USD)**. Der Ausfall liegt nicht am Slot, sondern am Kontingent, das zur
+selben Stunde von einem einzelnen manuellen Lauf geleert wurde. Empfehlung an Raphael
+unverändert: **der Slot bleibt** — er ist genau die Reserve, die als erste ausfällt, wenn
+tagsüber etwas Grosses läuft, und das ist die richtige Reihenfolge.
+
+**Speicher** zum Messzeitpunkt 3'154 MB verfügbar bei Druck **2** (moderat), kein hängender
+`claude -p`-Prozess.
+
+**Meldeentscheid: MAIL.** Zwei Kriterien erfüllt — (a) eine von Raphael getippte Sitzung hatte
+in den letzten 24 h echte Limit-Fehlerereignisse, und (b) der kombinierte teure Tagesverbrauch
+lag am 07.08. mit **53.11 Mio** um mehr als die Hälfte über der 35-Mio-Schwelle. Nicht erfüllt:
+(c) Wochenlimit, (d) Briefings, (e) Radar-Herzschlag, (f) Destillat-Stillstand, (g) Queue
+komplett. Der Befund ist neu und nicht mit der letzten Mail vom 03.08. identisch: damals ein
+Wochenlimit, heute zwei 5-h-Fenster und eine benennbare Einzelursache.
+Letzte Mail dieses Loops vor heute: **03.08.2026 22:15**.
+
+**Mail versandt 08.08.2026 07:44** an rj@raphaeljans.ch, Apple Mail, Absender rj@, Aptos 12 pt,
+Betreff «Vollgas-Frühwarnung: 5-Stunden-Limit zweimal erschöpft, Ursache ist ein einzelner
+Subagent». Skill `korrektur` vorher durchlaufen (Rechtschreibung gelb: 15 Umlaute korrigiert;
+Layout grün, dazu Jahreszahl bei der ersten Datumsnennung und Einheit hinter 32.03 ergänzt).
+**Empfehlung in der Mail ausdrücklich OHNE Drosselung** — kein Task auf `enabled=false`, weil
+die getakteten Loops an diesem Tag unbeteiligt sind. Empfohlen ist stattdessen, im
+Normen-Harness die Segmentgrösse je `Destillat-Autor` zu deckeln und eine grosse Norm auf
+mehrere Agenten mit je begrenztem Seitenbereich zu verteilen, statt sie in einem Kontext
+seriell durchzulesen. Die Umsetzung entscheidet Raphael.
+
+**Keine Wiederholungsmail** für diesen Befund an Folgetagen. Erneut gemailt wird erst bei einer
+neuen Erschöpfung, bei einem weiteren interaktiven Limit-Ereignis, bei erschöpftem
+Wochenkontingent oder wenn das 199-Reads-Muster trotz Deckelung ein zweites Mal auftritt.
+
 ## 2026-08-07 07:15 — ROHMESSUNG (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 07.08.2026 07:15 CEST, NAS gemountet. Vierter Lauf mit rekursivem Glob
