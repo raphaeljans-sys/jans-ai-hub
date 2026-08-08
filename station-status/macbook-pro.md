@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.08.2026 08:30:35
+Stand: 08.08.2026 08:40:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 08.08.2026 08:30:35
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c85c09b7 nas-selfcommit: 4 Datei(en) 2026-08-08 08:30
+- a46661a8 zahlungsabgleich 08.08.: neuer Zahlungseingang Tx 3630 CHF 6'000 (07.08., unreconciled) gefunden — Kandidat RE-00101 Tschopp, A1 gesperrt bis E-Banking-Gegenpruefung; Werkzeug-Befund: Vorfilter-Delta vergleicht Kennzahlen nicht, eingangOhneBuchung erfasst nur reconciled
