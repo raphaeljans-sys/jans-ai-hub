@@ -3,6 +3,21 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 08.08.2026 (Gespräch Mac Mini 07.08.2026 15:21, Konversations-Destillat — **neue
+Pendenz: fachlicher Auftrag am Sitzungslimit liegengeblieben, kein Termin**): **KISPI 2619 —
+die Recherche zum Konzept der Therapieküchen auf der Truninger-Plattform ist nie gelaufen.**
+Raphael hat den Auftrag wörtlich erteilt: die Truninger-Plattform des KISPI nach einem Konzept
+der Therapieküchen durchsuchen, mit dem Ziel, dass die Therapieküche der Wohngruppe der
+Therapiestation für Psychosomatische Betreuung von Jugendlichen **nicht als Produktionsküche,
+sondern als Haushaltsküche** definiert wird. Die Session brach unmittelbar danach mit «You've
+hit your session limit · resets 7pm (Europe/Zurich)» ab, bevor die Recherche begonnen hatte;
+es liegt kein Zwischenergebnis vor. **Sachlicher Zusammenhang:** die Einstufung entscheidet
+über Geräteumfang und Gastro-Anforderungen und damit über die Kosten des bereits geführten
+**Los 273.35 Küchenbau** (Röthlisberger AG, Rahmenbudget der Bauherrschaft CHF 70'000 exkl.
+MwSt, Zwischentotal der überarbeiteten Offerte A2628001 CHF 71'263.95 exkl. MwSt). Zugang ist
+vorhanden (Connector `connectors/truninger-ds3.mjs`, nur lesend). Status: **offen, neu zu
+starten** — Aktion Raphael oder nächster Lauf mit KISPI-Bezug.
+
 Eintrag 07.08.2026 (Wissens-Chef Run 28, 23:20 — **operativer Befund mit Wiederholungsrisiko,
 kein Termin**): Der Health-Check-Reparaturlauf der KB `normen` hat am 07.08.2026 um 20:54 mit
 Commit `f147dac4` («6 Artikel-Stubs fuer tote Backlinks angelegt») **drei bestehende
