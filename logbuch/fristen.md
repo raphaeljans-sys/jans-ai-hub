@@ -3,6 +3,27 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 09.08.2026 (Session Raphael 01:44, Systemmails und Register nachgemessen — **die
+SharePoint-Frist ist gestern verstrichen, unverlängert**): Der Gastzugriff auf die Projektsite
+«JANS - 2619-KISPI» ist am **08.08.2026 abgelaufen** für die sieben am 19.07. gemeldeten Personen
+(B. Kübler, Y. Cetin, C. Duran, J. Ziegel, F. Würsch, M. Spörri, M. Schwander). Die Warnkette der
+SharePoint-Systemmails ist vollständig belegt (19.07. mit 20 Tagen, 26.07. mit 13 Tagen, 02.08. mit
+6 Tagen Vorlauf, alle im Posteingang `rj@`); eine Verlängerung ist in keiner Quelle dokumentiert.
+**Damit ist der Präzedenzfall «JANS DATENAUSTAUSCH» vom 10.07. ein zweites Mal eingetreten.**
+Die Folge trifft die Lieferung von morgen: der am 07.08. um 16:12 an Kübler versandte SharePoint-Link
+auf «273.35 01 Röthlisberger Projektplaene Umbau PPTS» ist tot, und der für **Mo 10.08.2026**
+vorgesehene Upload des definitiven Standes der Sanitärinstallationen erreicht die Adressaten nicht.
+F. Würsch kehrt heute aus der Abwesenheit zurück, einen Tag nach Ablauf des eigenen Zugriffs.
+**Claude kann die Verlängerung nicht ausführen:** PnP PowerShell kennt kein Cmdlet für den
+Gastablauf, die SPO-Management-Shell läuft nicht auf macOS, die Chrome-Erweiterung ist nicht
+verbunden, und die Zertifikatskonvertierung für den App-only-Zugang wird vom Schutzmechanismus
+geblockt (korrekt, privater Schlüssel). Aktion Raphael, zwei Klicks:
+`https://raphaeljans.sharepoint.com/sites/kispi/_layouts/15/UserExpiration.aspx?uee=1`.
+**Dauerhafte Abstellung offen:** solange die Tenant-Policy greift, wiederholt sich der Ablauf
+während der ganzen Bauzeit. Die Site von der Policy auszunehmen
+(`OverrideTenantExternalUserExpirationPolicy`) geht nur über das SharePoint Admin Center im
+Browser. Status: **überfällig, Aktion Raphael heute.**
+
 Eintrag 08.08.2026 (Hub-Chef 08:39, Truninger-Projektraum und Projektbestand durchsucht, Belege
 im Original gelesen — **der liegengebliebene Auftrag zur Therapiekueche ist ausgefuehrt: das
 Konzept existiert nicht, aber die Beleglage dafuer ist ungewoehnlich gut**): Der am 07.08. um
