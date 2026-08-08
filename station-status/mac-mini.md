@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 08.08.2026 13:11:46
+Stand: 08.08.2026 13:21:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 08.08.2026 13:11:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bf01565c vollgas-radar: 08.08. 12:58 Regellauf, Fenster FREI, Ampel WARNUNG 78% bei 72% Woche, Rate 0.77 Mio/h auf Kurs, kein Delta-Null-Loop
+- e798ff92 nas-selfcommit: 4 Datei(en) 2026-08-08 13:15

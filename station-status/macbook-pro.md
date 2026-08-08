@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 08.08.2026 13:13:14
+Stand: 08.08.2026 13:23:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:02)
@@ -18,4 +18,4 @@ Stand: 08.08.2026 13:13:14
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bf01565c vollgas-radar: 08.08. 12:58 Regellauf, Fenster FREI, Ampel WARNUNG 78% bei 72% Woche, Rate 0.77 Mio/h auf Kurs, kein Delta-Null-Loop
+- e798ff92 nas-selfcommit: 4 Datei(en) 2026-08-08 13:15
