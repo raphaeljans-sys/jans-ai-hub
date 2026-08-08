@@ -3,6 +3,103 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 08.08.2026 (Logbuch-Radar 06:55, Thread und Sendebeleg im Original gelesen — **der
+liegengebliebene Therapieküchen-Auftrag hat seit gestern 16:12 einen harten Termin: Montag,
+10.08.2026**): Die Kette ist geschlossen und sie ist der schärfste Punkt des Tages. **UGZ
+(Sh. Zala, Stadt Zürich, 05.08. 07:45)** verlangt von der Fachplanung drei Dinge:
+Luftmengenberechnung, Küchenplan mit **allen Geräten und der Möblierung** und ein
+«massgeschneidertes» **Betriebskonzept Küchenbetrieb**; danach prüft das UGZ und vereinbart
+einen Termin. **B. Kübler (Gruner, 07.08. 15:07)** leitet das an RJ und M. Spörri weiter und
+begründet den Zweck ausdrücklich: mit dem Betriebskonzept soll «nochmals klar aufgezeigt»
+werden, **dass es sich nicht um eine Produktionsküche handelt**. Kübler fragt zusätzlich nach
+der **aktualisierten Geräteliste** (auf der Gastro-Online-Liste stehen die Kochherde noch mit
+je 500 m³/h Abluft, was nicht mehr dem Stand entspricht) und nach dem aktuellen Grundriss
+inkl. Möblierung. **RJ hat am 07.08. um 16:12 geantwortet und zugesagt:** Röthlisberger stellt
+«morgen» (Sa 08.08.) die aktuellen Werkpläne zu, RJ integriert sie in den Ausführungsplan
+Architektur GR 1.OG 1:50 und stellt diesen **«am Montag, den 10.08.26 mit dem
+Betriebskonzept»** zu; zugleich stellt RJ eine eigene Fachfrage zurück an Kübler (ob zusätzlich
+zum Bodenabzug BORA Professional 3.0 eine Deckenhaube mit Plasmafilter einzuplanen wäre und
+welche Leistung eine Umlufthaube in Absprache mit dem UGZ erbringen müsste, unter Beilage der
+Variantenuntersuchung `260513_Variantenuntersuchung_Gastro_Küche_cedu.pdf`).
+**Das Betriebskonzept existiert nicht.** Es ist inhaltlich genau der Auftrag, der am 07.08. um
+15:21 am Sitzungslimit liegenblieb (Registereintrag unten, Truninger-Recherche zum Konzept der
+Therapieküchen mit dem Ziel Haushaltsküche statt Produktionsküche). Der Auftrag ist damit nicht
+mehr termin-, sondern zusagegebunden. **Sachliche Klammer:** die Einstufung entscheidet über
+Geräteumfang und Gastro-Anforderungen und damit über Los 273.35 Küchenbau (Röthlisberger,
+Rahmenbudget CHF 70'000 exkl. MwSt) **und** über die Lüftungsauflage. Status: **offen, Termin
+Mo 10.08.2026, Aktion Raphael** — Betriebskonzept erstellen, Geräteliste bei Röthlisberger
+aktuell nachziehen (500 m³/h ist überholt), Ausführungsplan integrieren.
+
+Eintrag 08.08.2026 (Logbuch-Radar 06:55, am Register nachgemessen — **die seit dem 19.07.
+bekannte SharePoint-Frist läuft HEUTE ab, und sie trifft genau den Kanal, über den am Montag
+geliefert werden soll**): Der Zugriff auf die Projektsite «JANS - 2619-KISPI» endet am
+**08.08.2026** für **sieben Personen**: B. Kübler, Y. Cetin, C. Duran, J. Ziegel (Gruner) sowie
+F. Würsch, M. Spörri (KISPI) und M. Schwander (Registerzeile vom 19.07., Systemmail SharePoint
+Online mit 20 Tagen Vorwarnung). **Neu ist die Verknüpfung, und sie macht den Punkt dringend:**
+RJ hat Kübler gestern um 16:12 einen **SharePoint-Link** auf die Röthlisberger-Grundlagen
+gesandt («273.35 01 Röthlisberger Projektplaene Umbau PPTS»), und der Montags-Termin sieht vor,
+den **definitiven Stand der Sanitärinstallationen auf SharePoint hochzuladen**. Läuft der
+Zugriff unverlängert ab, ist der gestern versandte Link tot und die Montags-Lieferung erreicht
+die Adressaten nicht. **Verschärfend wie bisher:** F. Würsch ist bis und mit 09.08. abwesend
+und kehrt einen Tag **nach** Ablauf des eigenen Zugriffs zurück. Präzedenzfall: die
+Gastzugriffe «JANS DATENAUSTAUSCH» sind am 10.07. unbemerkt verstrichen. Aktion:
+`https://raphaeljans.sharepoint.com/sites/kispi/_layouts/15/UserExpiration.aspx?uee=1`.
+Status: **heute fällig, Aktion Raphael.**
+
+Eintrag 08.08.2026 (Logbuch-Radar 06:55, Neueingang im Original gelesen — **Korrektur des
+eigenen Eintrags von gestern: der Ball liegt bei RJ, nicht beim Bauherrn**): Der Eintrag vom
+07.08. führte den Vorschlag zum **Ausguss im Hauswirtschaftsraum** als RJ-Vorschlag und wartete
+auf Spörris Antwort. Am Original nachgemessen ist es umgekehrt: **M. Spörri schreibt am 07.08.
+um 14:11** (Betreff «AW: Kispi PPTS Behandlungsraum Lavabo») in eigener Stimme, er habe im
+Anhang «im Hauswirtschaftsraum die Position des Ausgusses analog der Position im
+Besprechungsraum auch an die Wand gedrückt», womit an dieser Wand **neben der Waschmaschine
+noch drei Hochschränke** Platz fänden, und fragt: «Was denkst Du?» Urheber des Vorschlags ist
+damit der Bauherr, und die Antwort steht bei RJ aus. Eine Gegenantwort liegt in keinem Konto
+vor. Sachlich hängt daran die Möblierung des Hauswirtschaftsraums und damit die Sanitärlage,
+die am **10.08.** definitiv hochzuladen ist. Status: **offen, Antwort Raphael** (bisher
+fälschlich «beobachten, Antwort Spörri ausstehend»).
+
+Eintrag 08.08.2026 (Logbuch-Radar 06:55, Anhänge geöffnet — **zwei Eingänge KISPI 2619 ohne
+Frist, einer davon Input für den Montagstermin**): (1) **Sanitär Armaturen und Apparate.**
+M. Spörri leitet am 07.08. um 09:05 die Nachricht von R. Guerini (KISPI, 08:51, Cc
+I. Suljanovic) weiter, mit der **Apparatenliste des KISPI-Neubaus**
+(`ST_303603210-R1-AUF-Kispi_BKP251_Normalinstallation.pdf`) und einer Änderungsliste
+(`260807_Anpassung Apparatenliste.pdf`). Das KISPI will dieselben Armaturen und Apparate im
+PPTS einbauen, mit zwei benannten Abweichungen: **Pos. 9000** Abdeckplatte Geberit Sigma01 →
+**Betätigungsplatte Geberit Sigma20 round, Zweimengenbetätigung**; **Pos. 10100** Wand-Klosett
+→ **Laufen Moderna S Classic silent, 56, rimless**. Weitere Positionen entfallen oder sind
+anzupassen. Das ist unmittelbarer Input für den Sanitärstand vom **10.08.** Status: **offen,
+in die Sanitärplanung einarbeiten.** (2) **Rechnung Wintec Engineering AG, keine
+JANS-Zahlung.** G. Scherbl sendet am 07.08. um 09:58 die Rechnung **RE26-073** vom 07.08.2026
+für die private Kontrolle der Lüftungsanlage: **5.25 Stunden à CHF 157.00 = CHF 824.25, mit
+8.1 % MwSt total CHF 891.00**, zahlbar bis **06.09.2026**. Am Beleg geprüft: Adressat ist das
+**Universitäts-Kinderspital Zürich, Eleonorenstiftung, Lenggstrasse 30** — also eine
+Fremd-Rechnung an die Bauherrschaft, keine JANS-Verbindlichkeit. Sie liegt bereits abgelegt
+unter `…/33.04 BKP/LOS_298.31 HLKS Private Kontrolle 1 WINTEC AG/`. Einzige denkbare
+JANS-Handlung ist die bauleitungsseitige Visierung. Status: **erledigt für JANS (Zahlung
+Bauherr), Visierung nach Bedarf.**
+
+Eintrag 08.08.2026 (Logbuch-Radar 06:55, an bexio, an allen Konten und an den Queues
+nachgemessen — **Geld, AG-Gründung und Hub-Queues unverändert; ein Punkt vom 31.07. ist
+geschlossen**): **Debitoren:** `--verzug` liefert unverändert **fünf Rechnungen, CHF
+51'400.00**, Posten für Posten identisch, kein Zahlungseingang, keine neue Stufe. RE-00087
+(KISPI, CHF 15'000.00) steht heute bei **114 Tagen** auf Mahnung 2 mit seit 15.07. abgelaufener
+Frist; RE-00098 und RE-00099 (zusammen CHF 17'280.00) auf Mahnung 1 mit Frist **12.08.**;
+RE-00100 (Swiss Central City, CHF 13'120.00) auf Zahlungserinnerung mit Frist **20.08.**, die
+**Fälligkeit steht in bexio weiterhin auf dem 30.07.2026** und damit vier Tage vor der belegten
+Zustellung vom 03.08. — die Korrektur ist den dritten Tag offen; RE-00101 (Tschopp, CHF
+6'000.00) auf Zahlungserinnerung mit Frist **16.08.** Kein Mahnschritt ausgelöst, nichts
+gebucht. **AG-Gründung:** die von der UBS erwartete IBAN ist auch heute **in keinem Konto**
+eingegangen, ebenso wenig eine Nachricht des Notariats Wiedikon; M. Mathies arbeitet Montag bis
+Mittwoch und liest RJs Mail vom 03.08. realistisch am Montag. Der kritische Pfad bleibt die
+**UBS-Kapitaleinzahlungsbescheinigung**, das Beurkundungsfenster ab 10.08. ist nicht zu halten,
+realistisch bleibt die Woche vom 17.08. **Hub-Queues:** `sync-tasks/macbook-pro`,
+`sync-tasks/mac-mini` und **beide Freigabe-Ordner sind leer** — damit ist der Registerpunkt vom
+31.07.2026 («Sync-Task Cockpit-Server hängt in der Freigabe-Schwelle») **erledigt**: Raphael
+hat die Einzelfreigabe am 07.08. erteilt, `com.jans.cockpit-server` läuft auf dem Mini
+(`http://127.0.0.1:8737/gesund` antwortet «ok»), der Task ist nach `sync-tasks/done/`
+archiviert. Status: **Geld und AG-Gründung offen (Aktion Raphael), Cockpit-Punkt erledigt.**
+
 Eintrag 08.08.2026 (Gespräch Mac Mini 07.08.2026 15:21, Konversations-Destillat — **neue
 Pendenz: fachlicher Auftrag am Sitzungslimit liegengeblieben, kein Termin**): **KISPI 2619 —
 die Recherche zum Konzept der Therapieküchen auf der Truninger-Plattform ist nie gelaufen.**
@@ -17,6 +114,10 @@ es liegt kein Zwischenergebnis vor. **Sachlicher Zusammenhang:** die Einstufung 
 MwSt, Zwischentotal der überarbeiteten Offerte A2628001 CHF 71'263.95 exkl. MwSt). Zugang ist
 vorhanden (Connector `connectors/truninger-ds3.mjs`, nur lesend). Status: **offen, neu zu
 starten** — Aktion Raphael oder nächster Lauf mit KISPI-Bezug.
+**Nachtrag 08.08.2026 (Logbuch-Radar 06:55):** Der Auftrag ist nicht mehr terminlos. RJ hat am
+07.08. um 16:12 gegenüber B. Kübler zugesagt, den Ausführungsplan **mit dem Betriebskonzept**
+am **Montag, 10.08.2026** zuzustellen; das UGZ verlangt es ausdrücklich «massgeschneidert auf
+den Küchenbetrieb». Siehe den eigenen Eintrag zuoberst.
 
 Eintrag 07.08.2026 (Wissens-Chef Run 28, 23:20 — **operativer Befund mit Wiederholungsrisiko,
 kein Termin**): Der Health-Check-Reparaturlauf der KB `normen` hat am 07.08.2026 um 20:54 mit

@@ -5,6 +5,137 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 08.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
+
+Der Chef-Lauf vom 07.08. ist um 08:59 planmässig gelaufen und hat sein Briefing versandt; die
+Ausnahme aus Schritt 6 greift nicht, der Radar mailt heute nicht selbst. Kein Punkt verlangt
+Handeln vor 08:39. Die beiden scharfen Termine liegen auf heute im Tagesverlauf beziehungsweise
+auf Montag.
+
+**Erledigt seit gestern**
+
+Der Sync-Task Cockpit-Server ist vom Tisch. Du hast am 07.08. die Einzelfreigabe erteilt, der
+launchd-Agent `com.jans.cockpit-server` läuft nun auch auf dem Mac Mini und antwortet unter
+`http://127.0.0.1:8737/gesund` mit «ok»; der Task liegt in `sync-tasks/done/`. Beide
+Freigabe-Ordner und beide Stations-Queues sind heute früh leer. Damit ist der Registerpunkt vom
+31.07.2026 geschlossen.
+
+Die Rechnung der Wintec Engineering AG für die private Kontrolle der Lüftungsanlage ist keine
+Sache von Dir. RE26-073 vom 07.08.2026, 5.25 Stunden à CHF 157.00, mit MwSt total CHF 891.00,
+zahlbar bis 06.09.2026, ist, am Beleg geprüft, an das Universitäts-Kinderspital adressiert und
+liegt bereits im Los 298.31. Bleibt allenfalls die bauleitungsseitige Visierung.
+
+**Aus unseren Gesprächen**
+
+Der Auftrag zur Therapieküche, der am 07.08. um 15:21 am Sitzungslimit liegen blieb, ist über
+Nacht zur Terminsache geworden. Er ist nach wie vor unerledigt, und er ist inhaltlich genau
+das, was Du am selben Nachmittag Kübler zugesagt hast. Mehr dazu gleich unter «In den nächsten
+7 Tagen». Es ist der wichtigste Punkt des Tages.
+
+Aus dem Normen-Abgleich bleibt eine kleine Bringschuld: für SIA 263/1 und 265/1 fehlen die
+gültigen deutschen Ausgaben (2013 respektive 2009). Ohne Termin.
+
+**Überfällig**
+
+Thalwil Bohlweg 3 steht unverändert seit dem 06.08. Die drei Deliverable-Dateien tragen
+weiterhin den Stand 03.08. 22:28, Ziffer 4.5 stützt die 50-m²-Grenze also weiterhin auf
+Art. 45 revBZO, und der Korrekturvorschlag im Unterordner ist unangetastet. Die Eingabemail
+existiert in keinem Konto. Reihenfolge unverändert: zuerst die drei Dateien aus dem
+Vorschlagsordner übernehmen, danach die Mail von Hand anlegen und senden.
+
+Beim Geld hat sich nichts bewegt. Fünf Rechnungen, CHF 51'400.00, Posten für Posten wie
+gestern, kein Eingang, keine neue Stufe. RE-00087 des Kinderspitals über CHF 15'000.00 liegt
+heute 114 Tage über der Fälligkeit auf Mahnung 2, deren Frist seit dem 15.07. abgelaufen ist.
+RE-00100 der Swiss Central City über CHF 13'120.00 trägt in bexio seit dem 06.08. unverändert
+die Fälligkeit 30.07.2026, also vier Tage vor der belegten Zustellung vom 03.08.2026; ziehst Du
+sie nach, ist die Zahlungserinnerung sauber begründet. Die übrigen drei sind RE-00098 und
+RE-00099 des Kinderspitals über zusammen CHF 17'280.00 sowie RE-00101 Tschopp über CHF
+6'000.00, alle drei mit laufender Frist, siehe unten.
+
+Zur AG-Gründung bleibt es beim einen Anruf. Die UBS-IBAN ist auch heute in keinem Konto
+eingegangen, ebenso wenig eine Nachricht des Notariats. Marc Mathies arbeitet Montag bis
+Mittwoch und liest Deine Mail vom 03.08. realistisch am Montag. Das Beurkundungsfenster ab dem
+10.08. ist nicht zu halten, realistisch bleibt die Woche vom 17.08.
+
+**In den nächsten 7 Tagen**
+
+Heute, Sa 08.08.: Der SharePoint-Zugriff auf die Projektsite «JANS - 2619-KISPI» läuft für
+sieben Personen ab, für Kübler, Cetin, Duran und Ziegel von Gruner sowie für Würsch, Spörri und
+Schwander. Das ist seit dem 19.07. bekannt, aber es ist seit gestern dringend geworden: Du hast
+Kübler um 16:12 einen SharePoint-Link auf die Röthlisberger-Grundlagen gesandt, und am Montag
+soll der definitive Sanitärstand ebenfalls über SharePoint gehen. Läuft der Zugriff
+unverlängert ab, ist der Link tot und die Montagslieferung erreicht niemanden. Würsch ist bis
+und mit 09.08. abwesend und kehrt einen Tag nach Ablauf seines eigenen Zugriffs zurück. Die
+Gastzugriffe «JANS DATENAUSTAUSCH» sind am 10.07. schon einmal unbemerkt abgelaufen.
+
+Heute, Sa 08.08.: Röthlisberger (Inniger, Lanz) liefert den Installationsplan Küche als PDF und
+DWG. Zu beachten: Stephan Lanz ist seit gestern und bis und mit 23.08. abwesend; seine
+Abwesenheitsnotiz nennt als Stellvertreter Daniel Reinhard, Telefon 034 497 72 54, und die
+Adresse ut@schreinermanufaktur.ch (so im Original, der Namensbezug ist nicht verifiziert).
+Deine DWG-Anfrage vom 07.08. ging an Inniger und Lanz, Inniger bleibt damit Dein Adressat.
+
+Mo 10.08.: Der Termin des Tages, und er ist Deine eigene Zusage. Du hast Kübler am 07.08. um
+16:12 geschrieben, Du stellst den Ausführungsplan GR 1. OG 1:50 «am Montag, den 10.08.26 mit
+dem Betriebskonzept» zu. Das Betriebskonzept gibt es noch nicht. Das UGZ verlangt über Zala
+drei Dinge: eine Luftmengenberechnung, einen Küchenplan mit allen Geräten und der Möblierung
+sowie ein massgeschneidertes Betriebskonzept für den Küchenbetrieb; Kübler will damit belegen,
+dass es keine Produktionsküche ist. Kübler hat zusätzlich zwei Fragen an Dich offen: erstens,
+ob Röthlisberger eine aktualisierte Geräteliste hat, denn auf der Gastro-Online-Liste stehen
+die Kochherde noch mit je 500 m³/h Abluft; zweitens, wo der aktuelle Grundriss mit Möblierung
+liegt. Genau hier greift der liegen gebliebene Auftrag vom 07.08.: die Truninger-Recherche zum
+Konzept der Therapieküchen mit dem Ziel Haushaltsküche statt Produktionsküche ist die Substanz
+dieses Betriebskonzepts. Daran hängt mehr als die Lüftungsauflage, nämlich auch Los 273.35
+Küchenbau mit dem Rahmenbudget von CHF 70'000.00 exkl. MwSt.
+
+Mo 10.08.: Der definitive Stand der Sanitärinstallationen gehört auf SharePoint, Raumpläne 1:20
+Sanitär und Ausführungsplan GR 1:50. Dafür liegt neuer Input vor: Spörri hat Dir am 07.08. um
+09:05 die Apparatenliste des KISPI-Neubaus samt Änderungsliste weitergeleitet. Das KISPI will
+dieselben Armaturen im PPTS, mit zwei benannten Abweichungen, der Betätigungsplatte Geberit
+Sigma20 round mit Zweimengenbetätigung statt Sigma01 und dem Wand-Klosett Laufen Moderna S
+Classic silent rimless.
+
+Ab Mo 10.08.: Kübler meldet den Stand der UGZ-Freigabe, danach erstellst Du den neuen
+Terminplan.
+
+Mi 12.08.: Die Mahnfristen von RE-00098 und RE-00099 laufen ab, zusammen CHF 17'280.00. Die
+Empfehlung bleibt, die drei Kinderspital-Rechnungen ab diesem Tag gebündelt zu behandeln und
+vorher persönlich Kontakt zu suchen.
+
+Do 13.08., 09:30 bis 11:00: Besprechung Kostenvoranschlag und Finalisierung Baubeschrieb
+Direktvermietung Albertstrasse 7 an der Feldeggstrasse 26 bei Roman Steinmann. Im Kalender
+selbst nachgesehen.
+
+Sa 15.08.: Die gebündelte Stellungnahme zu Türbuch und Sicherheitskonzept soll vorliegen.
+
+**In Beobachtung**
+
+Michael Spörri wartet auf eine Antwort von Dir, nicht umgekehrt. Ich habe meinen Eintrag vom
+07.08. korrigiert: den Vorschlag, den Ausguss im Hauswirtschaftsraum analog zum
+Besprechungsraum an die Wand zu schieben, hat Spörri gemacht, am 07.08. um 14:11, mit der
+Überlegung, dass dort neben der Waschmaschine noch drei Hochschränke Platz fänden, und er
+schliesst mit «Was denkst Du?». Eine Antwort liegt in keinem Mail-Konto. Daran hängen die
+Möblierung und damit die Sanitärlage, die am Montag hochzuladen ist.
+
+Der Anruf bei Othmar Stadelmann zur Vermassung der Leichtbauwände ist weiterhin nicht belegt.
+Der Entscheid über den Wachstumsriegel im Twin-Harness ist seit dem 05.08. fällig. Der
+Entscheid über den Reparaturlauf der Normen-KB steht seit dem 06.08. abends aus, absichern oder
+stilllegen, sonst kann der Lauf in der nächsten Nacht wieder Destillate überschreiben.
+
+**Vorschlag Kalendereinträge**
+
+Heute Vormittag, 20 Minuten: SharePoint-Zugriffe der sieben Personen verlängern, über
+`https://raphaeljans.sharepoint.com/sites/kispi/_layouts/15/UserExpiration.aspx?uee=1`.
+
+Sonntag 09.08. oder Montag 10.08. früh, zwei Stunden: Betriebskonzept Küche PPTS erstellen,
+damit die Zusage gegenüber Kübler für Montag hält.
+
+**Token-Tempo**
+
+Vortag 07.08.: MacBook Pro 345.3 Mio Token für USD 686.65, Mac Mini 135.2 Mio Token für
+USD 146.71, zusammen 480.5 Mio Token und USD 833.36 API-Kostenäquivalent.
+
+---
+
 ## Hub-Chef 07.08.2026 (08:39 bis 08:59, MIT Befund — Briefing versendet)
 
 **Signale.** Fristen-Register und Logbuch über 7 Tage; die vier Briefing-Abschnitte der
