@@ -825,3 +825,40 @@ gefuehrt wird, nicht wie ein Satz klingt.
 **Naechstes Fenster:** `rj@` **06.–11.05.2026** (die von Fidelity 260807 benannte Klaffung
 zwischen Batch 43 und 44), danach **Mai 2026 ab 12.05.** **Vor der Lektuere zwingend BEIDE Teile
 dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Gold-Verbrauch Fidelity 08.08.2026 — Fenster `rj@` 06.–11.05.2026
+
+**Registerkorrektur vorweg:** die von Fidelity 260807 und Batch 90 benannte «Klaffung zwischen
+Batch 43 und 44» existiert nicht als Datumsluecke. Batch 43 las bis **08.05.**, Batch 44 ab
+**11.05.** (Batch 44 hatte das selbst als Multi-Station-Race vermerkt). Was existiert, ist eine
+**Dichteluecke**: 55 Mails im Fenster, **12 Volltexte** gelesen. Kuenftige Sweeps sollten die
+Leserate je Fenster fuehren (gesichtet ↔ Volltext), nicht das Datumsintervall.
+
+| Mail | Gattung | verbraucht durch |
+|---|---|---|
+| `rj@` 08.05.2026 10:19 «Submission Kuecheneinrichtung … Pius Nadler AG» | formelles Sie an Sammelpostfach `info@`, Submissions-Erstversand nach Telefonat | Fidelity 260808 (Gold A) |
+| `rj@` 08.05.2026 14:44 «Re: Submission …» an P. Ramseier/Rametall | Sie an Anbieter, Antwort auf technische Rueckfrage, Bauherr im Cc | Fidelity 260808 (Gold B) |
+| `rj@` 08.05.2026 07:51 «Kosteneinsparung Gastrokueche» | Sammelanrede «Geschaetztes Care-Team-Gastrokueche», Sparauftrag nach harter Budgetabsage, Unternehmer im To | Fidelity 260808 (Gold C) |
+| `rj@` 08.05.2026 10:31 (Rametall-Erstversand) | **Gegenprobe**, nicht als Gold destilliert — belegt den Baukasten (fixer Frist-/Beilagenblock, variabler Kopf) und das stehende Kalt-Sie trotz Telefonat beim Zwillingsversand | Fidelity 260808 |
+| Spahic 06.05.2026 11:02 (eingehend) | **Ausloeser-Kontext** zu Gold C (Budgetabsage CHF 60'000, Honorarangriff CHF 5'000) — kein Eigentext, nicht als Stilquelle verwendet | Fidelity 260808 |
+| `rj@` 11.05.2026 09:48 (Schaefer) | **verworfen** als Blindtest: die Trefferliste zeigte praktisch die ganze Mail | Fidelity 260808 |
+
+**Vor der Lektuere als verbraucht erkannt und nicht erneut destilliert:** A)/B)-Anpassungsmail
+06.05. ([[arbeitsweise]] 1235–1248), Jomos-/Paolozzi-Kaltansprache 06.05. ([[beziehungsregister]]
+1138–1147), Sprinkler-Klaerung an Gruner 06.05., «Lgr»-Kurzform 08.05. ([[stimme]] 1711),
+ss-Gruss 06.05. ([[stimme]] 3017) sowie der **ganze 11.–13.05.** (Batch 44: Bigger, Stevanovic,
+Scherbl, Schreinerkueche, Honorarofferte). Positivtest: `Sonderegger` 19 / `Scherbl` 15 /
+`Spruehnebel` 8 / `Stevanovic` 6 / `Jomos` 4; Kontrollbegriffe (`Zebrastreifen`, `Nilpferd`) 0;
+**null** Treffer bei `Nadler`, `Gerber`, `Kuecheneinrichtung`, `Herdtyp`, `Zmittag`,
+`Einsparpotenzial` — die echte Luecke war der **08.05. nachmittags**.
+
+**Echo-Pruefung negativ** (En-/Em-Strich 0 in 258 W eigener Hand; Tippfehlerdichte hoch:
+«bitte ich sie» klein, «den guenstige moeglichen Herdtyp», «auseinander setzten», «von euer
+Seite», «Usw.»).
+
+**Naechstes Fenster:** `rj@` **06.–13.05.2026 erneut**, nach Leserate statt Datum (12 von 55
+gelesen; der 08.05. und der 11.05. sind abgeerntet). Danach **14.–19.05.2026** — dort liegen
+**zwei konkurrierende Batch-45-Eintraege** (`260722-mailbatch-45.md` fuer 14.–19.05.,
+`260713-mailbatch-45.md` fuer 13.05. 20:16–20.05.) mit ueberlappenden Fenstern; vor der Lektuere
+klaeren, was doppelt destilliert wurde. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
+auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

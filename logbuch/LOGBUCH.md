@@ -4720,6 +4720,27 @@ mit demselben Tool in `wiki/QUESTIONS.md` festgehalten. Details: `raw/8155-niede
 seestrasse64.md` (Nachtrag), `CHANGELOG.md`, `training/quellen-inventar.md` (Run 14). Kein
 Versand, keine Buchung, kein Fan-out.
 
+## 2026-08-08 — twin-fidelity-review (Fidelity 40; Entscheid MAX_AUTO_BYTES zum 5. Mal offen)
+
+Lauf regulaer durch, Golds `rj@` 08.05.2026 (drei Register, Echo-Pruefung negativ), Gesamt-Fidelity
+**40** (Voerlaeufe 41/43/48/46). Eine sachlich zu weit gefasste Regel korrigiert («Wahlfreiheit
+beim Bauherrn lassen» gilt dem WIE, nie dem WOHIN), zwei neue Marker-Cluster destilliert, 5 Fragen
+an QUESTIONS. Details: `wissen/twin/outputs/2026-08-08_fidelity.md`.
+
+**Ein Punkt fuer Raphael, sonst nichts Operatives** (kein Geld, keine Frist, kein Kunde): der
+kompilierte Facetten-Block steht bei **29'998 B von 30'000** — 2 Byte Reserve. Ich habe die
+Grenze wie in den Voerlaeufen NICHT eigenmaechtig angehoben. Der naechste Fidelity-Lauf kann eine
+Korrektur nur noch einbauen, indem er eine bestehende Regel streicht; die Verdichtungsreserve aus
+Zitatlaenge ist mit diesem Lauf aufgebraucht. Entscheid in einem Satz noetig:
+`MAX_AUTO_BYTES` in `skills/twin/tools/build_dna.py` Zeile 60 auf **36'000** — ja oder nein? Bei
+Nein genuegt die Gegenweisung «Korrekturen vor Ergaenzungen», dann streiche ich kuenftig
+Ergaenzungen ohne Rueckfrage. Fuenfte Vorlage in fuenf Laeufen (04./05./06./07./08.08.).
+
+Zweiter, aelterer Dauerpunkt (5. Lauf in Folge belegt): der Zwilling erfindet Begruendungen und
+Bestandsangaben, heute eine nicht existierende «Cafeteria» im Spitalbestand. Die Gegenmassnahme
+kostet kein Kontext-Budget (Pflichtzeile in `agents/twin-chef.md`), aendert aber die Rolle des
+Gate-Agenten — deshalb nicht eigenmaechtig eingebaut, ein Satz Freigabe genuegt.
+
 ## 2026-08-08 — Mac Mini Nachtschicht 05:30 (KB firmengruendung-ch, Handelsregistergebuehr verifiziert)
 
 Prioritaeten 1-4 bereits durch den vorangegangenen Zyklus (02:3x, grobkosten Run 14) fuer

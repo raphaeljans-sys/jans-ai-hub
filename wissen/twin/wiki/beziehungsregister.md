@@ -2260,3 +2260,41 @@ das Funktionspostfach danach mit der neutralen. Bestätigt die Stapel-Regel an e
     das widerlegt für den vertrauten Du-Kontakt den älteren Befund «Geld kehrt das Register ins
     Sie» (Batch 14) und bestätigt die Batch-27-Beobachtung, dass Nähe den Geld-FG-Default
     schlägt. Quelle: 01.05.2026, authentisch.
+
+## Fidelity 260808 — der Betreff trägt entweder die Person oder die Frist, nie beides
+
+Der Do-Block führt «Sammelpostfach: Person im Betreff («z.H. <Name>, <Rolle>»)» — belegt an
+der Betreff-Präfixform aus Batch 90. Gold A widerspricht: die Mail geht an
+`info@piusnadlerag.ch`, der Betreff lautet «Submission … - **Eingabe bis Freitag 15. Mai
+2026**», und «Herr Gerber» steht **nur** in der Anrede.
+
+Aufgelöst über die Konkurrenz um denselben Platz: der Betreff kann eine Sache tragen. Wo eine
+**Verfahrensfrist** existiert, gewinnt sie den Betreff, und die Person wandert in die Anrede;
+wo keine Frist im Spiel ist, trägt der Betreff die Person. Die Regel «Person im Betreff» gilt
+damit der terminfreien Anfrage ans Sammelpostfach, nicht der Submission.
+
+Quelle: 08.05.2026 10:19, authentisch (→ [[stimme]] ASCII-Betreff).
+
+## Fidelity 260808 — «Sehr geehrter» → «Guten Tag» innerhalb von vier Stunden
+
+Dritter unabhängiger Beleg der Batch-90-Regel, dass die **Erwiderung** und nicht die Zeit die
+Erwärmung auslöst, und der bislang schnellste: 10:31 Erstversand an einen kalt angeschriebenen
+Anbieter «Sehr geehrter Herr Ramseier»; 14:36 dessen sachliche Rückfrage; 14:44 Raphaels
+Antwort «**Guten Tag** Herr Ramseier». Vier Stunden, ein einziger Kontakt, eine Stufe.
+
+Bemerkenswert ist die Gegenprobe im selben Fenster: der zweite Submittent desselben Tages
+(Pius Nadler AG, telefonisch vorbereitet) bleibt bei «Sehr geehrter Herr Gerber», obwohl das
+Telefonat der wärmere Kanal war. **Das Telefonat hebt die Stufe nicht, die schriftliche
+Erwiderung schon** — konsistent mit dem Kalt-Sie-Befund nach Telefonat (Fidelity 260807,
+Schoch) und deutlich enger belegt.
+
+Quelle: 08.05.2026, authentisch.
+
+## Neue Mappings Fidelity 260808
+
+- **Herr Gerber** — Pius Nadler AG (Küchenbau, Submittent Gastroküche KISPI). Sie, kalt
+  «Sehr geehrter Herr Gerber», telefonisch vorbereitet. Quelle: 08.05.2026, authentisch.
+- **Peter Ramseier** — RAMETALL, Oberglatt ZH (Küchenbau, Submittent). Sie; kalt «Sehr
+  geehrter», nach erster Erwiderung «Guten Tag Herr Ramseier». Ergänzt das ältere
+  Absage-Mapping («Sehr geehrter Herr», Kühlung bei der Absage) um die Anbahnungsphase.
+  Quelle: 08.05.2026, authentisch.

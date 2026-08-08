@@ -54,12 +54,13 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   dokumentierend, auch im Du → «Freundliche Grüsse» + voller Block. Dokumentierend sind
   Beleg-/Abwicklungsmails und der Mandatsabschluss-Dank; operativ bleiben verhandelbares Angebot,
   Plan-/Feedback-Korrektur und das reine Zwischen-Transmittal. **Der Service-Satz hängt an der
-  GATTUNG, nicht am Empfänger (kontrolliertes Behörden-Paar 260807):** wer für sich selbst etwas
-  erbittet, hält den Kanal offen — finale Rechnungs-/Schluss-Liefermail (+ Auftrags-Dank),
-  beratende Du-Mail, **Auskunfts-/Nachfragemail ans Amt**; wer liefert oder meldet, hört nach dem
-  letzten Sachsatz auf — reines Transmittal, Freigabe-Rückfrage an den durchleitenden Partner,
-  Gesuch/Antrag (endet mit dem Antrag), Verfahrens-/Statusmail und die **Nachlieferung an eine
-  Fachstelle**. Anrede-Skala → [[beziehungsregister]] (dort die vollständige Zuordnung).
+  GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
+  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft ans
+  Amt, **Offerten-/Submissionsanfrage**); wer liefert oder meldet, hört nach dem letzten Sachsatz
+  auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
+  Verfahrens-/Statusmail, Nachlieferung an eine Fachstelle). Im Sammel-/Du-Register steht er
+  ohne «Ihnen» und ohne Schlusspunkt. **Im eigenen Thread trägt das Reply nur «Raphael Jans»**,
+  den vollen Block trägt der Erstversand. Anrede-Skala → [[beziehungsregister]].
   Emoji 😊/«:)» nur warm-sozial privat, sparsam; Mundart nur rein privat-sozial, wenn das
   Gegenüber spiegelt. Formelle Alternativfrage als «–»-Bullets + «oder»; offene Aufzählung
   «_ » (Du-Zeichen), Sub-Detail «➢» darunter; in der formell-dokumentierenden Sie-Mail «–», und die
@@ -3323,3 +3324,40 @@ sooner … i would be happy») — Druck ja, Ultimatum nein.
   übernehmen): «E-Mailadesse», «Installatiosführung», «ein gemeinsamer Termin organisieren»,
   «die genau Last», «währende der Sitzung», «obwohl das die Köchin fehlt», «wäre er flexible»,
   übergeneralisiert grossgeschriebenes «Bitte ich Euch» / «Bei Fragen Bitte direkt».
+
+## Fidelity 260808 — der Betreff ist ASCII, die Kurzsignatur kommt im Reply, der Service-Satz verliert das «Ihnen»
+
+Drei Golds vom **08.05.2026** (Submissions-Tag KISPI-Gastroküche), alle handgetippt
+(«bitte ich sie» klein, «den günstige möglichen Herdtyp», «auseinander setzten», «von euer
+Seite», «Usw.»); En-Strich 0 in rund 260 W eigener Hand.
+
+- **Der Betreff einer Submissions-Mail ist umlautfrei, der Body nicht:** «Submission
+  **Kuecheneinrichtung** Therapiestation KiSpi **Zuerich** - Eingabe bis Freitag 15. Mai 2026»,
+  während derselbe Body «Kücheneinrichtung» und «Zürich» schreibt. Die ASCII-Konvention der
+  Dateinamen (Rule `dateinamen-konvention`) reicht bis in die **Betreffzeile** ausgehender
+  Submissionen, offenkundig weil der Betreff wie ein Aktenzeichen behandelt wird. Zwei Belege
+  am selben Tag (Nadler, Rametall). Quelle: 08.05.2026, authentisch.
+- **Der Betreff trägt die Eingabefrist ausgeschrieben**, nicht die Person: «… - Eingabe bis
+  Freitag 15. Mai 2026», obwohl die Mail an ein Sammelpostfach (`info@…`) geht und die Person
+  nur in der Anrede steht. Präzisiert die Sammelpostfach-Regel → [[beziehungsregister]].
+  Quelle: 08.05.2026, authentisch.
+- **Kurzsignatur «Raphael Jans» im Reply innerhalb des eigenen Threads:** der Erstversand an
+  denselben Anbieter (10:31) trägt den vollen Block, die Antwort auf dessen Rückfrage (14:44)
+  nur den Namen. Bisher war die Kurz-Signatur nur für die Behördenmail belegt; sie gilt auch
+  im **Anbieter-Sie, sobald der Thread steht**. Quelle: 08.05.2026, authentisch.
+- **Der Service-Satz verliert im Sammel-/Du-Register das «Ihnen» und den Punkt:** «Bei Fragen
+  stehe ich jederzeit gerne zur Verfügung» (Team-Mail) gegen «Bei Fragen stehe ich **Ihnen**
+  jederzeit gerne zur Verfügung.» (Anbieter-Sie), am selben Tag. Quelle: 08.05.2026, authentisch.
+- **«%» ohne Leerschlag, sechster Datenpunkt** («Ca. 15% Leistungskürzung»): drei freistehende
+  Prozentzeilen = Listenmodus, exakt die seit Batch 05/06/12/20/66 belegte Ausnahme. Der
+  kompilierte Block kennt nur die Idealform → als Frage vermerkt ([[QUESTIONS]] 260808 #1).
+  Quelle: 08.05.2026, authentisch.
+- **«Das Wunschkonzert ist vorbei. Es besteht ein Preisdruck.»** — zwei Vier-/Fünf-Wort-Sätze
+  als Schlussakkord einer Begründung, umgangssprachlich, im **Sie** gegenüber einem Anbieter.
+  Härteste belegte Formulierung im Lieferanten-Register; die Härte steht am Ende der
+  Begründung, nicht an ihrem Anfang. Quelle: 08.05.2026, authentisch (→ [[haltung]]).
+- **Metrik (3 Eigentexte, 258 W):** Du-Gross n/a (Sie-lastig, «Euch» 2× gross), Satzlänge
+  ø **12.4 W** (unteres Ende des Korpusbands 11.9–14.3, gedrückt durch die Kurzsatz-Kette in
+  Gold B), Tausender-Apostroph 1× («CHF 60’000.-», hier mit typografischem Apostroph ’ statt '),
+  «%» 4× **ohne** Leerschlag, Ellipsen 0; Anreden «Sehr geehrter Herr» 1× / «Guten Tag Herr» 1× /
+  «Geschätztes <Sammelname>» 1×; Grüsse FG+Block 2× / Kurzsignatur 1×.

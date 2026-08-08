@@ -4,6 +4,37 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 08.08.2026 — twin-fidelity-review: Fidelity 40, Wahlfreiheit-Regel korrigiert
+
+Drei Golds vom **08.05.2026** (Submissions-Tag KISPI-Gastrokueche), alle handgetippt, Echo-Pruefung
+negativ. **Gesamt-Fidelity 40** (Voerlaeufe 41/43/48/46); je Facette Beziehung 62 · Stimme 48 ·
+Haltung 34 · Fachsignatur 33 · Arbeitsweise 32 · Denken 31. Die vier haertesten Stellen der drei
+Mails (Zielbudget, Prozent-Zerlegung, Zielvorgabe «guenstigst moeglicher Herdtyp», Frist mit
+Uhrzeit) fehlten in den Blindfassungen alle vier.
+Kernbefunde: (a) **Wahlfreiheit gilt dem WIE, nie dem WOHIN** — die Typenwahl gehoert dem
+Fachmann, das Kostenziel bleibt gesetzt und wird in derselben Mail nachgezogen; korrigiert die zu
+weit gefasste Regel «Wahlfreiheit beim Bauherrn lassen» (Batch 07/260805) im Do/Don't von
+[[haltung]]; (b) **die Deckungsluecke wird auf drei Traeger verteilt** (15 % Leistungskuerzung /
+10 % Abgebot Unternehmer / 15 % Eigenleistung), ohne Ist-Betrag und ohne Differenz — neu in
+[[denken]]; (c) **die eigene Abgebotsabsicht steht im To des Unternehmers**, waehrend der
+Honorarangriff des Bauherrn unbeantwortet bleibt; (d) **die Submissions-Mail ist ein Baukasten**
+mit wortgleichem Frist-/Beilagenblock und variablem Kopf (Vorspann je Kontaktweg, Projektsatz je
+Adressatenleistung); (e) **Healthcare: die Indikation bemisst die Ausstattung, nicht die
+Menuezahl** — die Essstoerung ist der Zweck der Therapiekueche, der Widerspruch «Veranlagung ↔
+Auslastung» wird stehen gelassen statt aufgeloest.
+Weitere Marker: ASCII-Betreff bei Umlaut-Body · Betreff traegt Frist ODER Person, nie beides
+(korrigiert die Batch-90-Sammelpostfach-Regel) · «Sehr geehrter» → «Guten Tag» in vier Stunden
+nach der ersten Erwiderung, waehrend das Telefonat die Stufe nicht hebt · Kurzsignatur im Reply ·
+Service-Satz ohne «Ihnen» im Sammelregister · Beispiel-Liste endet auf «Usw.».
+**Facetten-Validierung:** drei Spannungen, zwei aufgeloest (Wahlfreiheit-Achse,
+Betreff-Konkurrenz), eine bewusst offen (Bullet-Zeichen «_ » ↔ «- » ↔ «–», nur zwei Belege).
+**5. Erfindungs-Drift in Folge** (erfundene «Cafeteria» im Spitalbestand). **Registerkorrektur:**
+die «Klaffung 06.–11.05.» war keine Datums-, sondern eine Dichteluecke (55 Mails, 12 gelesen).
+**Kontext-Budget:** Auto-Block **29'998 B / 30'000** (2 B Reserve) — Grenze NICHT angehoben,
+verdichtet wurde Zitatlaenge statt Regelsubstanz; anders als am 07.08. musste keine richtige
+Regel weichen. Der Entscheid `MAX_AUTO_BYTES` ist zum **5. Mal** offen.
+**5 Fragen** an [[QUESTIONS]] (260808b). Report `outputs/2026-08-08_fidelity.md`.
+
 ## 08.08.2026 — twin-mail-training Batch 90: `rj@` 20.04.–01.05.2026, erste Rueckwaerts-Herabstufung
 
 Luecken-Sweep im von Fidelity 260807 benannten Fenster (34 Mails gelistet, **12 Eigentexte**

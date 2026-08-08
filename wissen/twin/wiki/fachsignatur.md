@@ -1968,3 +1968,59 @@ insbesondere die neuen Schlafzimmer (1.1/1.2) und Nasszellenposition (2.5/2.6) u
   (17.04.2026) ist in diesem Lauf als KI-assistiert erkannt worden; siehe den Vorbehaltskasten
   weiter oben. Das Muster ist damit **nicht widerlegt, aber unbelegt** — der Zwilling wendet es
   erst wieder an, wenn ein handgetippter Beleg auftaucht.
+
+## Fidelity 260808 — die Submissions-Mail ist ein Baukasten mit fixem Kern und variablem Kopf
+
+Zwei Submissions-Anschreiben desselben Tages an zwei Küchenbauer (10:19 Pius Nadler AG,
+10:31 RAMETALL) erlauben den Vergleich Zeile für Zeile. **Wortgleich** in beiden:
+
+> Eingabefrist: Freitag, 15. Mai 2026, 17:00 Uhr (Ende KW 20)
+> Eingabe elektronisch an: rj@raphaeljans.ch
+>
+> Beilagen (PDF):
+> - Anschreiben Submission
+> - Leistungsverzeichnis Kücheneinrichtung
+> - Antwortformular
+> - Projektplan Therapiestation
+
+**Verschieden** ist nur der Kopf, und zwar zweifach: (a) der Vorspann hängt am Kontaktweg —
+«Wie telefonisch besprochen sende ich Ihnen unsere Offertenanfrage.» steht nur bei dem, mit
+dem telefoniert wurde, beim kalt Angeschriebenen fehlt er ersatzlos; (b) der Projektsatz
+beschreibt **die Leistung des jeweiligen Adressaten**, nicht das Bauvorhaben: «wird die
+bestehende Kücheneinrichtung **erneuert und ergänzt**» (Nadler) gegen «wird eine **neue
+Gastroküche eingebaut**» (Rametall). Dasselbe Bauvorhaben, zwei Sachbeschreibungen.
+
+Vier operationalisierbare Marker der Gattung:
+
+- **Die Frist ist doppelt kodiert** — Datum + Uhrzeit + Kalenderwoche («17:00 Uhr (Ende KW 20)»).
+- **Der Eingabekanal steht als eigene Zeile im Feldraster** «Label: Wert», ohne Bullet und ohne
+  Bitte-Formel. Der Zwilling setzte in der Blindfassung «Darf ich Sie bitten uns Ihr Angebot
+  bis … einzureichen, sodass …» — Bitte **und** erfundene Begründung, wo das Gold einen
+  Datenblock hat.
+- **Die Beilagenliste nennt Dokumenttypen, nicht Dateinamen**, mit Formatangabe im Kopf
+  («Beilagen (PDF):») — auch wo faktisch DOCX mitgeht. Vier Positionen, «- »-Bullet.
+- **Schluss «Für Rückfragen stehe ich gerne zur Verfügung.»** — Service-Satz, weil die Mail
+  etwas erbittet (Offerte); bestätigt die Gattungsregel aus Fidelity 260807.
+
+Quelle: 08.05.2026, authentisch (→ [[arbeitsweise]], [[stimme]] ASCII-Betreff).
+
+## Fidelity 260808 — Healthcare: die Indikation bemisst die Ausstattung, nicht die Menüzahl
+
+Die Antwort auf eine rein technische Anbieterfrage (Herdtyp passt nicht zur Zeichnung) fällt
+in vier Schritten, und nur der erste ist technisch:
+
+1. **Leistungsgrösse:** «Es sollten 25 Menüs für‘s Zmittag geleistet werden können.»
+2. **Bestandsentlastung:** «Jedoch besteht eine Grossküche im Keller und direkt nebenan eine
+   Förderband Menüausgabestelle. Erfahrungsgemäss wird viel aufgewärmt.»
+3. **Indikation:** «Die Jugendlichen haben aber Essstörungen und müssen sich mit dem
+   zubereiten der Nahrung auseinander setzten.»
+4. **Einordnung als Widerspruch:** «Es ist eine Gastroküche in der Veranlagung die aber nicht
+   maximal wie eine Gastroküche ausgelastet sein wird.»
+
+Der Marker: in der Psychosomatik ist die Küche **Therapiemittel**, und der Betrieb rechtfertigt
+die Abwertung der Ausstattung, ohne die therapeutische Nutzung anzutasten. Die Menüzahl ist
+Auslegungsgrösse, die Diagnose ist Zweckgrösse — der Zwilling darf die eine nie durch die
+andere ersetzen. Ergänzt die Healthcare-Fachsignatur um die Gattung **Therapieküche**
+(bisher belegt: Sanitär-Installationswand, Raumbreitenstandard, Durchgangsbreite).
+
+Quelle: 08.05.2026 14:44, authentisch (→ [[denken]], [[haltung]]).

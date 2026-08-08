@@ -2932,3 +2932,52 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    verallgemeinern will. *Warum: der Zwilling hat Zugriff auf Deine Kontakthistorie und würde
    die Regel sonst blind auf jeden Kontakt anwenden, bei dem er zwei Adressen kennt.*
    → [[beziehungsregister]]
+
+## Offene Fragen 260808b (Fidelity-Review, Golds `rj@` 08.05.2026)
+
+1. **Soll der Zwilling «15%» ohne Leerschlag schreiben, wenn Prozentzahlen in einer Liste
+   stehen?** — Gold C ist der **sechste** unabhängige Beleg dafür, dass Dir der Leerschlag in
+   Zahlenlisten wegfällt («Ca. 15% Leistungskürzung / Ca. 10% Abgebot / Ca. 15% Eigenleistung»);
+   die Vorläufer stehen in Batch 05, 06, 12, 20 und 66. Das Wiki hält seit Batch 05 fest, der
+   Zwilling schreibe trotzdem die Idealform «15 %» und dokumentiere die Abweichung nur — der
+   kompilierte Block kennt darum ausschliesslich «‹%› mit Leerschlag». *Warum: bei sechs
+   Gegenbelegen ist die Listenausnahme inzwischen besser belegt als die Grundregel, und in einer
+   Kostenzeile ist der Leerschlag der einzige sichtbare Unterschied zwischen Deiner und der
+   Zwillingsfassung. Ein Wort genügt: Idealform beibehalten oder Deine Praxis übernehmen.*
+   → [[stimme]]
+
+2. **Wann setzt Du «_ », wann «- », wann «–» als Aufzählungszeichen?** — Beide Golds mit Liste
+   tragen «- »: die Beilagenliste der formellen Sie-Submission und die Sparposten-Liste der
+   Du-lastigen Teammail. Das Wiki ordnet bisher «_ » dem Du und «–» der formellen Sie-Mail zu;
+   «- » ist belegt, aber ohne Zuordnung. Meine Arbeitshypothese aus diesen zwei Belegen: «- »
+   trägt die **Aufzählung von Posten und Gegenständen** (Beilagen, Sparpositionen, Lieferumfang),
+   «_ » das Themengerüst, «–» die Alternativfrage. *Warum: zwei Belege sind zu wenig, und der
+   Zwilling setzt derzeit im Zweifel «_ » — in einer Beilagenliste sieht das nach Dir aus, ist
+   es aber offenbar nicht.* → [[stimme]], [[arbeitsweise]]
+
+3. **Schreibst Du den Betreff ausgehender Submissionen bewusst umlautfrei?** — Beide
+   Submissions-Mails vom 08.05. tragen «Submission **Kuecheneinrichtung** … KiSpi **Zuerich**»
+   im Betreff, während der Body durchgehend «Kücheneinrichtung» und «Zürich» schreibt. Zwei
+   Lesarten: entweder behandelst Du den Betreff wie ein Aktenzeichen (dann gilt die
+   ASCII-Konvention der Dateinamen auch dort), oder der Betreff ist schlicht aus dem
+   Dateinamen der Beilage kopiert. *Warum: im ersten Fall ist es eine Regel, die der Zwilling
+   bei jeder Submission anwenden muss; im zweiten wäre es ein Kopier-Artefakt, das er nicht
+   nachahmen darf.* → [[stimme]]
+
+4. **Den Angriff auf Deine Planungskosten hast Du in der Antwort weggelassen — Absicht?** — Der
+   Bauherr schrieb am 06.05.: «Zudem sehen wir nicht ein, für Planungsarbeiten CHF 5’000 zu
+   bezahlen.» Deine Mail vom 08.05. beantwortet das Budget, nennt Ziel und Prozent-Zerlegung und
+   geht auf das Honorar **mit keinem Wort** ein — vor einem Verteiler, in dem auch der
+   Unternehmer sitzt. Meine Lesart: den Honorarstreit trägt man nicht vor Publikum aus, er geht
+   in den Zweierkanal. *Warum: der Zwilling beantwortet heute jeden Punkt einer eingehenden Mail
+   und würde Dich genau dort verteidigen, wo Du bewusst schweigst.* → [[haltung]],
+   [[beziehungsregister]]
+
+5. **Beschreibst Du dasselbe Bauvorhaben je Submittent absichtlich verschieden?** — Am selben
+   Vormittag ging an den einen Küchenbauer «wird die bestehende Kücheneinrichtung **erneuert und
+   ergänzt**», an den anderen «wird eine **neue Gastroküche eingebaut**» — Frist-, Eingabe- und
+   Beilagenblock dagegen wortgleich. Meine Lesart: der Projektsatz beschreibt nicht das
+   Bauvorhaben, sondern **die Leistung, die dieser Adressat offerieren soll**. *Warum: wenn das
+   Absicht ist, muss der Zwilling den Satz je Submittent neu zuschneiden; wenn nicht, muss er
+   ihn im Gegenteil über alle Lose konstant halten — die Submissionsregeln verlangen
+   Vergleichbarkeit.* → [[fachsignatur]], Skill `ausschreibung`

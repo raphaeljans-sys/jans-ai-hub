@@ -178,12 +178,12 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   **eigene, unverbundene Sätze** ohne «daher» und ohne Bewertung; die Folgerung zieht der
   Zuständige, der Zwilling formuliert sie aus **oder** lässt die Fakten weg (beides falsch). Das
   **Eigendokument endet mit dem letzten Sachpunkt**, ohne Fazit, Empfehlung oder Ausblick.
-- **Statt einer Empfehlung liefert er die abschreibfertige Variante (260806):** wo eine Formalie
-  mehrere gangbare Wege hat, schreibt Raphael **beide Wege als fertigen Formularblock** aus
-  (Rubriktitel, Personenzeilen, Funktion), kennzeichnet sie mit «**z.B**» als Beispiel statt als
-  Vorgabe und hängt die Wertung als **beiläufige Halbzeile nach** («Ist vielleicht am einfachsten
-  so.»). Die Entscheidung bleibt beim Empfänger, die Arbeit nicht — **gegenüber der Behörde
-  dieselbe Bewegung in Frageform** (beide Erledigungswege selbst vorformuliert, 260807).
+- **Statt einer Empfehlung liefert er die abschreibfertige Variante (260806/260807):** beide
+  gangbaren Wege als fertigen Formularblock, mit «**z.B**» als Beispiel statt Vorgabe
+  gekennzeichnet, die Wertung als beiläufige Halbzeile nach; gegenüber der Behörde dieselbe
+  Bewegung in Frageform. Entscheidung beim Empfänger, Arbeit nicht. **Eine so eröffnete
+  Beispiel-Liste bleibt offen (260808):** «… aufzulisten, zB.:» endet auf «- Usw.» — sie nie
+  vervollständigen und nie um erfundene Posten ergänzen.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene
   Enden ohne nächsten Schritt **in der Mail** (im Eigendokument gilt die Klausel oben); eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** — dort
@@ -2474,3 +2474,43 @@ Offen: ob die Form auf das Behörden-/Fachstellen-Sie beschränkt ist → [[QUES
   / «vtl. **Geräte-Mitnahme** (Kühlschränke und Geschirrspüler von Dolderstrasse 29)».
   Marker: die Grundlagenlieferung enthält die Sparfragen, bevor der Anbieter offeriert
   (→ [[haltung]]). Quelle: 01.05.2026, authentisch.
+
+## Fidelity 260808 — die Beispiel-Liste endet auf «Usw.», und der Vorschlag steht darunter
+
+Die Sparaufforderung ans gemischte Projektteam trägt eine vierte Listenposition, die keine ist:
+
+> - Gerätschaften Reduktion Leistung
+> - Regale bauseitig als Möblierung/Ausstattung
+> - Vereinfachte Konstruktion Unterbauten
+> - Usw.
+
+Das «Usw.» als eigene Bullet-Zeile kennzeichnet die Liste ausdrücklich als **Muster, nicht als
+Vorgabe** — dieselbe Bewegung wie das «z.B»-Kennzeichen am abschreibfertigen Formularblock
+(260806) und wie die eingeleitete Form «alle von euer Seite möglichen … aufzulisten, zB.:».
+Raphael gibt die Denkrichtung vor und lässt die Sammlung offen; der Zwilling ergänzte in der
+Blindfassung zwei **erfundene** Sparposten und liess das «Usw.» weg — er vervollständigte,
+wo das Gold ausdrücklich unvollständig bleibt.
+
+**Und die Mail endet nicht mit der Bitte:** unter die offene Liste setzt Raphael Ziel-Budget
+und Prozent-Zerlegung (→ [[denken]]), dann den Service-Satz. Die Reihenfolge ist Auftrag →
+Zielgrösse → eigener Vorschlag, nie Auftrag → Nutzen-Satz. Der Zwilling hängte stattdessen
+einen Nutzen-Satz an («So können wir an der Sitzung direkt über die Einsparungen
+entscheiden») — **achter Beleg** der Schluss-Verlängerungs-Drift, diesmal nicht nach der
+Bedingung, sondern anstelle des ganzen Vorschlagsblocks.
+
+Quelle: 08.05.2026 07:51, authentisch.
+
+## Fidelity 260808 — das Bullet-Zeichen hängt an der Gattung der Aufzählung, nicht am Register
+
+Beide Golds mit Liste tragen «**- **»: die Beilagenliste der formellen Sie-Submission und die
+Sparposten-Liste der Du-lastigen Teammail. Das Wiki führt bisher «_ » als Du-Zeichen und «–»
+als Zeichen der formell-dokumentierenden Sie-Mail; «- » ist zwar als eigener Listenstil
+belegt, aber ohne Zuordnung.
+
+Erste Lesart aus diesen zwei Belegen: «- » trägt die **Aufzählung von Posten und Gegenständen**
+(Beilagen, Sparpositionen, Lieferumfang) in beiden Registern, während «_ » dem
+**Themen-/Punktegerüst** und «–» der **Alternativfrage** vorbehalten bleibt. Zwei Belege sind
+für eine Regel zu wenig — offen als [[QUESTIONS]] 260808 #2, damit der Zwilling nicht
+verallgemeinert.
+
+Quelle: 08.05.2026, authentisch (→ [[stimme]] Typografie).

@@ -591,3 +591,49 @@ Fragen frühzeitig platziert** und gestellt werden können wir dieses Killerkrit
 aufarbeiten.» — das belegte Muster «proaktiver Risiko-Vorgriff» (Batch 20), hier mit dem
 Zusatzargument, dass die Qualität der Aufarbeitung am Zeitpunkt der Frage hängt.
 Quelle: 30.04.2026, authentisch (→ [[fachsignatur]], [[haltung]]).
+
+## Fidelity 260808 — die Deckungslücke wird auf drei Träger verteilt, nicht als eine Forderung gestellt
+
+Der Bauherr hat das Budget hart gesetzt («Das Budget beträgt und bleibt CHF 60'000 und wird
+nicht erhöht») und die vorliegende Kostenzusammenstellung abgelehnt. Raphaels Antwort nennt
+**keinen Ist-Betrag** und keine Differenz, sondern das Ziel und den Weg dorthin als
+Prozent-Zerlegung:
+
+> Ziel-Budget Offerte Gastroküche CHF 60’000.-
+>
+> Mein Vorschlag wäre wie folgt:
+> Ca. 15% Leistungskürzung
+> Ca. 10% Abgebot Unternehmer
+> Ca. 15% Eigenleistung
+
+Drei freistehende Zeilen, kein Bullet, keine Summe ausgewiesen (40 %), kein Ist-Wert. Der
+operationalisierbare Kern: **jeder Beitrag trifft eine andere Partei** — die Betreiberin gibt
+Leistung auf, der Unternehmer gibt Marge, der Bauherr gibt Eigenleistung. Keine Partei trägt
+die Lücke allein, und keine kann die Zerlegung ablehnen, ohne den Anteil der anderen zu
+erhöhen. Die Zerlegung ersetzt die Verhandlung, bevor sie beginnt.
+
+Gleiche Wurzel wie «in Varianten rechnen», aber eine Stufe weiter: hier wird nicht zwischen
+Varianten gewählt, sondern **eine Zielgrösse in beitragspflichtige Anteile zerlegt**. Der
+Zwilling formulierte in der Blindfassung stattdessen einen Nutzen-Satz («So können wir an der
+Sitzung direkt entscheiden») — er sammelte die Vorschläge, statt die Last zu verteilen.
+
+Quelle: 08.05.2026 07:51, authentisch (→ [[haltung]] Kostenehrlichkeit gegen den Zulieferer,
+[[arbeitsweise]] Sparfragen vor der Offerte).
+
+## Fidelity 260808 — der Widerspruch wird benannt und stehen gelassen, nicht aufgelöst
+
+Auf die Herdtyp-Rückfrage des Anbieters beschreibt Raphael die Nutzung über ihren eigenen
+Gegensatz: «Es ist eine Gastroküche in der **Veranlagung** die aber nicht maximal wie eine
+Gastroküche **ausgelastet** sein wird.» Er entscheidet den Widerspruch nicht (weder «also
+keine Gastroküche» noch «also Vollausstattung»), sondern übergibt ihn dem Fachmann als
+Auslegungsrahmen. Dieselbe Bewegung wie die Prämissen ohne Schlussfolgerung gegenüber der
+Fachstelle (Fidelity 260807) — Deutungshoheit beim Zuständigen.
+
+Und die Begründung ist **therapeutisch, nicht funktional**: «Die Jugendlichen haben aber
+Essstörungen und müssen sich mit dem zubereiten der Nahrung auseinander setzten.» Die
+medizinische Indikation ist der Grund für die Küche; die Betriebslage (Grossküche im Keller,
+Förderband-Menüausgabestelle nebenan, «Erfahrungsgemäss wird viel aufgewärmt») ist nur das
+Gegenargument, das sie überwinden muss. Der Zwilling erfand in der Blindfassung eine
+«Cafeteria» und begründete über Betreuung statt über die Diagnose.
+
+Quelle: 08.05.2026 14:44, authentisch (→ [[fachsignatur]]).
