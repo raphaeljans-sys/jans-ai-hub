@@ -3,6 +3,21 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-08 (Nachtschicht-Zyklus Mac Mini, 05:30) — Handelsregistergebühr AG/GmbH korrigiert: CHF 420 pauschal statt gestaffelt
+- [[kosten-und-zeit]] und [[rechtsform-vergleich]] führten seit dem EasyGov-Dossier 2022
+  eine kantonal gestaffelte Handelsregistergebühr (~CHF 600, + 0,2 ‰ auf Kapital über
+  CHF 200'000). Direkt am Fedlex-Volltext verifiziert (Filestore-Methode, Rule 260721):
+  Anhang Ziff. 1.1-1.3 GebV-HReg (SR 221.411.1, Stand 01.01.2021) sieht bundesweit
+  einheitliche Pauschalen vor — Einzelfirma CHF 80, Kollektiv-/Kommanditgesellschaft
+  CHF 160, Kapitalgesellschaften (AG/GmbH) CHF 420, keine Staffelung nach Kapitalhöhe. Der
+  alte gestaffelte Tarif ist seit 01.01.2021 aufgehoben; das Dossier 2022 zitierte damit
+  bereits bei der Erhebung veraltetes Recht. Drei Artikel korrigiert: [[kosten-und-zeit]]
+  (Grobbudget-Spanne neu CHF 2'200–6'900, needs-verification-Flag auf Beratung/Notar
+  eingeschränkt), [[rechtsform-vergleich]] (Tabelle + Fussnote), [[gmbh-gruendungsablauf]]
+  (Schritt 1). QUESTIONS.md nachgeführt. Recherche: WebSearch (Sekundärquellen als
+  Einstieg, keine übernommen) + Fedlex-Filestore-Volltext (Primärquelle, zwei WebFetch-
+  Abfragen). Kein Fan-out, kein Versand/Publikation/Buchung.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G1
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Sauberste KB des Wissens-Layers: keine B/C/D/E-Befunde, 15/15 Artikel `established`, mit 5 ae/oe/ue-Treffern niedrigster Umlaut-Rueckstand aller KBs. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

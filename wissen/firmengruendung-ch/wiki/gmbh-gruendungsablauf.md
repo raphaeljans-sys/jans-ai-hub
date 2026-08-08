@@ -14,8 +14,10 @@ Punkten wesentlich. Dieser Artikel nennt nur die GmbH-spezifischen Schritte und
 Abweichungen; wo die AG-Regel unverändert gilt, wird auf den AG-Artikel verwiesen.
 
 1. **Gründungskosten budgetieren** — siehe [[kosten-und-zeit]] bzw. [[rechtsform-vergleich]]
-   (Beratung 600–2'000 + Notar 700–2'000 + HR ~600, tiefer als AG wegen kleinerem
-   Beurkundungsaufwand).
+   (Beratung 600–2'000 + Notar 700–2'000 + HR-Gebühr CHF 420 pauschal, primärquellen-
+   verifiziert, identisch zur AG da beide unter Anhang Ziff. 1.3 GebV-HReg fallen — tiefer
+   als AG nur bei Beratung/Notar wegen kleinerem Beurkundungsaufwand, nicht bei der
+   HR-Gebühr).
 2. **Firmenname festlegen & prüfen** — gleiche Distinktivitäts-Regel wie bei der AG
    (EHRA-Weisung Ziff. IV, siehe [[ag-gruendungsablauf]] Schritt 2): gleicher
    Firmenkern mit blossem Rechtsformzusatz («… AG» ↔ «… GmbH») genügt nicht.

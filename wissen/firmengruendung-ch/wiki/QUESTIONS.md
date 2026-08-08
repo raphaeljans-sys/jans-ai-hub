@@ -5,13 +5,27 @@
   (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
 
 ## needs-verification (zentral)
-- Gründungskosten-Richtwerte ([[rechtsform-vergleich]], [[kosten-und-zeit]]) — aktuelle
-  Offerten.
+- Beratungs-/Notarkosten ([[rechtsform-vergleich]], [[kosten-und-zeit]]) bleiben
+  Marktrichtwerte ohne amtlichen Tarif (Notariate ZH sind frei erwerbend) — vor einer
+  realen Gründung aktuelle Offerte einholen. Die Handelsregistergebühr-Hälfte dieser Frage
+  ist geschlossen, siehe Archiv 08.08.2026.
 
 ## Cross-Article-Spannungen (worth resolving)
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **Handelsregistergebühr AG/GmbH: CHF 420 pauschal statt gestaffelt (08.08.2026,
+  Nachtschicht-Zyklus Mac Mini):** [[kosten-und-zeit]] und [[rechtsform-vergleich]] führten
+  seit dem EasyGov-Dossier 2022 eine kantonal gestaffelte Handelsregistergebühr (~CHF 600,
+  bei Kapital > CHF 200'000 zzgl. 0,2 ‰ des übersteigenden Betrags). Direkt am Fedlex-
+  Volltext verifiziert (Filestore-Methode, Rule 260721): Anhang Ziff. 1.1-1.3 GebV-HReg
+  (SR 221.411.1, Stand 01.01.2021) sieht bundesweit einheitliche Pauschalen vor —
+  Einzelfirma CHF 80, Kollektiv-/Kommanditgesellschaft CHF 160, Kapitalgesellschaften
+  (AG/GmbH) CHF 420, ohne Staffelung nach Kapitalhöhe. Der alte gestaffelte Tarif ist mit
+  der Vereinheitlichung per 01.01.2021 aufgehoben; das Dossier von 2022 zitierte damit
+  bereits bei der Erhebung veraltetes Recht. Drei Artikel korrigiert:
+  [[kosten-und-zeit]], [[rechtsform-vergleich]], [[gmbh-gruendungsablauf]]. Beratungs- und
+  Notarkosten bleiben als Marktrichtwerte offen (kein amtlicher Tarif in ZH).
 - **Revidiertes Aktienrecht ab 01.01.2023: Kapitalband, Aktienkapital in Fremdwährung
   (29.07.2026, Nachtschicht-Zyklus Mac Mini):** Neuer Artikel
   [[kapitalband-und-fremdwaehrung]], Art. 621 und 653s–653v OR direkt am Fedlex-Volltext
