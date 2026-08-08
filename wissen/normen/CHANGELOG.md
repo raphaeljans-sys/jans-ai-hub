@@ -1,3 +1,20 @@
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/257:2005 (Allgemeine Bedingungen für Maler-, Holzbeiz- und Tapeziererarbeiten)
+
+Destillat `destillate/sia-118-257-2005.md` neu erstellt (16 Seiten, vollständiger Textlayer
+via `pdftotext -layout`; drei Tabellen zusätzlich als 300-dpi-PNG gerendert und visuell
+verifiziert — S. 10 Tabelle 1 Inbegriffene/nicht inbegriffene Leistungen, S. 13-14 Tabelle 2/3
+Ausschreibungsgruppen mit 90°-gedrehten Spaltenköpfen). Vertragsnorm der ABB-Reihe zur
+Fachnorm SIA 257 (`sia-257-2005.md`), Schwesternorm zu `sia-118-266-1-2017.md` (Mauerwerk)
+und `sia-118-244-2006.md` (Kunststein). Kernpunkte: Ausschreibungs-/LV-Checkliste (Ziff. 1.1)
+inkl. Termin-Pflicht Beginn/Fertigstellung im Werkvertrag (Ziff. 1.1.2.4); Vergütungsgrenzen
+Tabelle 1 mit Gerüst-/Leiternarbeitshöhe bis 3,0 m; Ausmassregeln mit zwei unterschiedlichen
+Öffnungs-Nichtabzugsgrenzen (2,50 m² mit Leibungen vs. 1,0 m² ohne Leibungen, Ziff. 5.2.1) und
+informativem Anhang A (Strukturklassen I-IV); einzige eigenständige Sonderregel bei Abnahme/
+Mängelhaftung (Ziff. 6) — Haftungsausschluss des Unternehmers, wenn der Bauherr eine
+übergebene Instandhaltungsanleitung nicht befolgt hat. Status speculative, Refuter-Runde
+aussteht. `destillate/INDEX.md` Zeile ergänzt (direkt nach der Fachnorm-Zeile
+`sia-257-2005.md`).
+
 ## 2026-08-08 (Run 48) — Neues Destillat SIA 118/244:2006 (Allgemeine Bedingungen für Kunststeinarbeiten)
 
 Destillat `destillate/sia-118-244-2006.md` neu erstellt (16 Seiten, vollständiger Textlayer,
