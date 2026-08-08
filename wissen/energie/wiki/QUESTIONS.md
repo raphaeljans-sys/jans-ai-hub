@@ -3107,3 +3107,16 @@ durchfuehrbar.
   Die KB verweist ersatzweise auf ecoBKP und EPD nach EN 15804+A2 — beides **Sekundärweg**. Welche
   Klausel heute im LV die Deklarationspflicht trägt, ist nicht abschliessend geklärt. Berührt
   Skill `ausschreibung`.
+- **E-126-1 — Nach welchen Kriterien stuft das UGZ der Stadt Zürich eine Küche als
+  Produktionsküche statt als Haushaltsküche ein?** Offene Frage aus dem laufenden Fall KISPI
+  2619 (Umbau PPTS, Therapieküche der Wohngruppe): Das UGZ hat die geplante Küche im
+  Lüftungsverfahren als Produktionsküche eingestuft; die Fachplanung (Gruner, B. Kübler) hat am
+  03.08.2026 widersprochen und auf Betriebskonzept, Nutzungszeiten (11.30 bis 13.30 und 17.00
+  bis 19.00 Uhr), betreutes Kochen mit Patienten und rund 5, maximal 15 gleichzeitige Personen
+  abgestellt. Das UGZ (Sh. Zala) verlangt darauf am 05.08.2026 Luftmengenberechnung, Küchenplan
+  mit allen Geräten und der Möblierung sowie ein «massgeschneidertes» Betriebskonzept und
+  entscheidet erst danach. **Die massgebenden Abgrenzungskriterien sind damit nicht bekannt** —
+  weder aus einer Norm noch aus einer publizierten UGZ-Praxis. Sobald die Rückmeldung des UGZ
+  vorliegt, gehört sie als Destillat in diese KB: sie ist projektübergreifend wertvoll, weil an
+  der Einstufung Abluftmengen, Geräteumfang und Gastro-Anforderungen und damit die Kosten
+  hängen. Berührt die Skills `energie`, `auflagebereinigung` und `ausschreibung`.
