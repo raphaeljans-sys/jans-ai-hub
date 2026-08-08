@@ -4719,3 +4719,27 @@ Werkzeug-Fehlbeschriftung, kein Fehler dieser KB. Als Betriebshinweis fuer kuenf
 mit demselben Tool in `wiki/QUESTIONS.md` festgehalten. Details: `raw/8155-niederhasli-
 seestrasse64.md` (Nachtrag), `CHANGELOG.md`, `training/quellen-inventar.md` (Run 14). Kein
 Versand, keine Buchung, kein Fan-out.
+
+## 2026-08-08 — Mac Mini Nachtschicht 05:30 (KB firmengruendung-ch, Handelsregistergebuehr verifiziert)
+
+Prioritaeten 1-4 bereits durch den vorangegangenen Zyklus (02:3x, grobkosten Run 14) fuer
+heute abgedeckt: remote-tasks/pending und sync-tasks/mac-mini leer; Synobsis Stufe 2
+weiterhin gesaettigt/deaktiviert (853/853 seit 02.07., Task explizit `enabled: false`);
+Fristen-Register enthaelt keinen unbearbeiteten Punkt ohne Entwurf; grobkosten heute schon
+bearbeitet, bauprodukte/energie beide gestern Abend. Stattdessen Prioritaet 5 gezogen:
+QUESTIONS.md ueber alle Nicht-Ausschluss-KBs nach Alter gescannt, `entwurfs-referenzen`
+(seit 25.07. unberuehrt) hatte nur Design-Entscheide fuer Raphael, keine recherchierbare
+Frage. `firmengruendung-ch` (seit 29.07. unberuehrt) fuehrte im zentralen
+needs-verification-Block eine recherchierbare, klar abgegrenzte Luecke: Gruendungskosten-
+Richtwerte aus einem 2022er-EasyGov-Dossier, nie am aktuellen Recht nachgeprueft. Direkt am
+Fedlex-Volltext verifiziert (Filestore-Methode, Rule 260721): Anhang Ziff. 1.1-1.3 GebV-HReg
+(SR 221.411.1, Stand 01.01.2021) legt bundesweit einheitliche Pauschalen fest — Einzelfirma
+CHF 80, Kollektiv-/Kommanditgesellschaft CHF 160, Kapitalgesellschaften (AG/GmbH) CHF 420,
+**keine** Staffelung nach Kapitalhoehe. Die von der KB bisher gefuehrte gestaffelte
+Handelsregistergebuehr (~CHF 600 + 0,2 ‰ auf Kapital ueber CHF 200'000) ist seit 01.01.2021
+bundesrechtlich aufgehoben — das Dossier zitierte damit bereits bei der Erhebung 2022
+veraltetes Recht. Drei Artikel korrigiert: `kosten-und-zeit.md`, `rechtsform-vergleich.md`,
+`gmbh-gruendungsablauf.md`; QUESTIONS.md und CHANGELOG.md nachgefuehrt, needs-verification-
+Flag auf die weiterhin marktbasierten (nicht amtlich tarifierten) Beratungs-/Notarkosten
+eingeschraenkt. Via `nas-commit-now.sh` committet+verifiziert (`93f43f38`). Kein
+Versand/Publikation/Buchung, kein Fan-out. Zyklus beendet (~2.9 von 5 USD).
