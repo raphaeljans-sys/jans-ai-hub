@@ -52,6 +52,91 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-08 12:58 — [FREI] Regellauf, punktgenau im 12-h-Takt. Ampel **WARNUNG** (78.0 % bei 72.0 % verstrichener Woche, Vorsprung **+6.0**, ruecklaeufig). **Die gestrige Prognose trifft zu:** die Rate ist von 2.69 auf **0.77 Mio/h** gefallen — das ist praktisch exakt der Wert (0.78), den volle Ausschoepfung bis Montag braucht. Keine Drossel, kein Delta-Null-Loop, kein Mail-Anlass
+
+**Selbstkontrolle: sauber — und die gestrige Korrektur bewaehrt sich sofort.** Letzter Eintrag
+08.08. 00:58, dieser Lauf 12:58, Abstand **12 h 00** bei 12-h-Takt und **15 h Toleranz**. Genau
+dieser Lauf haette mit der alten 11-h-Toleranz faelschlich einen Aufsichtsausfall gemeldet; die
+Korrektur von gestern (Faustregel Toleranz = Takt + 3 h) greift beim ersten Regellauf nach ihrer
+Einfuehrung.
+
+**Fenster FREI.** `claude -p "Antworte nur mit: OK" --model haiku < /dev/null` liefert **«OK»,
+rc=0** in Sekunden, ohne Watchdog. **Keine Waisen:** `ps`-Gegenprobe leer, `pgrep`-Gate-Zaehlung
+**0**. **Speicher:** **5.35 GB** frei+inactive+purgeable, Druckstufe **1 (normal)** — deutlich
+entspannter als um 00:58 (3.0 GB, Stufe 2). Kein Handlungsbedarf.
+
+### Wochenbudget: WARNUNG haelt, Vorsprung schrumpft, Kurs stimmt
+
+`kontingent-budget.sh --json`, ohne Modellaufruf:
+
+| Groesse | Wert | Vergleich 08.08. 00:58 |
+|---|---|---|
+| Ampel | **WARNUNG** (Schwelle 70 %) | WARNUNG |
+| Verbraucht | **130.33 Mio** von 167 = **78.0 %** | 121.12 Mio = 72.5 % |
+| Woche verstrichen | 72.0 % (121 h seit Reset Mo 12:00) | 64.9 % |
+| **Vorsprung** | **+6.0 Punkte** | +7.7 Punkte |
+| MacBook Pro / Mac Mini | 100.85 / 29.47 Mio (beide frisch) | 92.01 / 29.11 |
+
+Der Vorsprung ist um **1.7 Punkte gesunken**: der Verbrauch naehert sich dem Zeitverlauf an,
+statt ihm davonzulaufen. Die Drosselschwelle (85 %) liegt **7.0 Punkte** entfernt, Schritt 2c ist
+**nicht** ausgeloest und wurde **nicht** gesetzt.
+
+**Rate seit 00:58: 9.21 Mio in 12 h = 0.77 Mio/h.** Das ist der Kern dieses Laufs. Der
+00:58-Eintrag hatte ausdruecklich prognostiziert, die damalige Rate von 2.69 Mio/h sei **nicht
+fortschreibbar**, weil sie zwei Einmalposten enthielt (Auslauf `normen` Run 47, `wissens-chef`
+Run 28 als Cross-KB-Fan-out) und der Vorrang-Auftrag beendet war. Genau so ist es gekommen: der
+Faktor liegt bei 3.5 nach unten. **Nach der Fehlprognose vom 07.08.** (Faktor fuenf daneben, weil
+ein nicht vorhersagbarer Auftragstag Raphaels dazwischenkam) **ist das die erste Prognose dieses
+Radars, die sich bestaetigt** — und zwar die, die sich ausdruecklich auf den *loopgetriebenen*
+Fall beschraenkt hat. Die Einschraenkung war der Grund fuer den Treffer, nicht ein Zusatz.
+
+**Restrechnung:** 36.67 Mio auf **47 h** bis zum Reset Montag 12:00, volle Ausschoepfung braucht
+**0.78 Mio/h**. Gemessen sind 0.77. Der Verbrauch liegt damit auf einem Kurs, der das Kontingent
+bis zum Reset **weder verschwendet noch verhungern laesst** — genau das, was der stehende
+Entscheid Raphaels vom 03.08. («gleichmaessig ueber die Woche») verlangt. Ein Auftragstag oder
+Vorrang-Lauf am Wochenende wuerde die Rate wieder anheben; das waere der erwuenschte Fall und
+kein Anlass zu drosseln.
+
+### Liefer-Delta: alle Loops liefern, kein Stilllegungskandidat
+
+Kein Loop mit Delta Null. **72 Commits** im NAS-Repo in 14 h, davon namentlich zurechenbar:
+`normen` Run 48 (17 Erstdestillate, 7 QUESTIONS), `twin-mail-training` Batch 90 (12 Eigentexte),
+`twin-fidelity-review`, `logbuch-radar`, `hub-chef`, `zahlungsabgleich`, `wissens-ruecklauf`
+(projekt-lessons Kuechenlueftung) und die `vollgas-fruehwarnung`. Geaenderte Wiki-/Output-Dateien
+nach KB: `twin` 8 · `normen` 5 · `energie` 5 · `firmengruendung-ch` 4 · `immobilienbewertung` 3 ·
+`bauprodukte` 2 · je 1 in `projekt-lessons`, `planungsgrundlagen`, `koordination`, `grobkosten`,
+`baurecht`. Fuenf neue datierte Reports, darunter `normen-nacht-run48` und der
+Kuechenlueftungs-Ruecklauf. NAS-Selfcommit taktet unauffaellig alle 15 Min, zuletzt 12:45:06.
+
+Lauf-Journal 08.08.: **zwei** Mini-Dispatch-Slots (02:35 und 05:36), beide **rc=0**, 284 s und
+341 s, zusammen 6.14 USD, 37 + 41 Turns. Kein Fehlversuch, keine Kontingentsperre.
+
+### Feuermechanismen: unauffaellig, alle drei Orte stimmen
+
+Der ausgebaute Endlos-Runner bleibt ausgebaut: `ch.jans.vollgas-supervisor.plist.disabled-260729`
+und `ch.jans.vollgas-monitor.plist.disabled-260729` auf dem MacBook Pro, auf dem Mac Mini
+`ch.jans.vollgas-supervisor.plist.disabled-260729` — keine geladene Vollgas-Instanz auf einer der
+beiden Stationen. `ch.jans.nachtschicht` auf dem Mini ist geladen und zwischen den Slots ohne PID
+(Normalzustand eines Kalender-Jobs). Auf dem MacBook laufen `com.jans.cockpit-server` und
+`ch.jans.claude-alwayson` mit PID, die uebrigen Intervall-Jobs stehen erwartungsgemaess zwischen
+ihren Laeufen. Kein Loop wird von zwei Mechanismen gefeuert.
+
+### Bewertung
+
+- **P1 — keiner.** Kein Login-Blocker, kein Wochenlimit, keine Drossel, kein Delta-Null-Loop.
+  Kein Mail-Anlass nach der Mail-Disziplin (a)/(b)/(c).
+- **P2 — Wochenende beobachten, nicht eingreifen.** Die Rate liegt punktgenau auf dem Kurs zur
+  vollen Ausschoepfung. Die wahrscheinlichere Abweichung bleibt Unter-, nicht Ueberausschoepfung;
+  der naechste Regellauf (Sonntag 00:57) prueft, ob die Nacht die kalibrierten 4 bis 5 Mio kostet.
+- **P3 — Selbstkontrolle jetzt korrekt kalibriert.** Bei der naechsten Taktaenderung ist die
+  Toleranz mitzuziehen (Takt + 3 h). Das ist in der SKILL.md verankert und hier zum ersten Mal
+  praktisch bestaetigt.
+
+**Regellauf, schlank gehalten** (Fensterprobe · Budget · Delta · Speicher · Eintrag), Messung an
+einen Haiku-Subagenten delegiert gemaess Rule `modellwahl-routine`. Keine Tiefenuntersuchung, da
+kein Befund sie verlangte.
+
+---
 ## 2026-08-08 00:58 — [FREI] Erster Lauf im neuen 12-h-Takt, **kein** Aufsichtsausfall. Ampel springt erstmals auf **WARNUNG** (72.5 % bei 64.9 % verstrichener Woche, Vorsprung **+7.7**) — das ist ein Schwellenwert-Effekt einer guten Woche, keine Warnung im Wortsinn. **Eigener Defekt gefunden und behoben:** die Selbstkontrolle stand mit 11 h Toleranz gegen einen 12-h-Takt und haette ab sofort bei JEDEM Regellauf einen Ausfall gemeldet
 
 **Selbstkontrolle: sauber.** Letzter Eintrag 07.08. 20:01, dieser Lauf 08.08. 00:58, Abstand
