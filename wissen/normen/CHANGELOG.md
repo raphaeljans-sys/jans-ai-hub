@@ -1,3 +1,18 @@
+## 2026-08-08 (Run 48) — Neues Destillat SIA 118/244:2006 (Allgemeine Bedingungen für Kunststeinarbeiten)
+
+Destillat `destillate/sia-118-244-2006.md` neu erstellt (16 Seiten, vollständiger Textlayer,
+Anhang A zusätzlich gegen 150-dpi-Rendering visuell verifiziert — reiner Fliesstext, keine
+Tabelle mit verbundenen Zellen). Vertragsnorm der ABB-Reihe zur Fachnorm SIA 244
+(`sia-244-2006.md`), Schwesternorm zu `sia-118-266-1-2017.md` (Mauerwerk). Kernpunkte:
+Ausschreibungs-/LV-Checkliste (Ziff. 1.1), inbegriffene/nicht inbegriffene Leistungen mit
+Gerüst-Vergütungsgrenze bei 2,5 m Belagshöhe (Ziff. 2.2/2.3, abweichend von den 3,0 m bei
+Mauerwerk), Ausmassregeln mit 0,5-m²-Abzugsgrenze (Ziff. 5.1.3, strenger als die 1,0-m²-Grenze
+bei Mauerwerk) und normativem Anhang A (Ausmasszuschläge 20-100 % bei unvollständigem LV),
+sowie acht eigenständige Sonderregeln zu Abnahme/Mängelhaftung (Ziff. 6) — dort macht die Norm,
+anders als sonst durchgehend, KEINE reine Verweisung auf SIA 118. Status speculative, Refuter-
+Runde aussteht. `destillate/INDEX.md` Zeile ergänzt (direkt nach der Fachnorm-Zeile
+`sia-244-2006.md`).
+
 ## 2026-08-07 (Wissens-Chef Run 28, Cross-KB) — VKF 2001-15 Seitenzahl korrigiert, Registerzeile nachgetragen, Cross-KB-Link entgiftet; Ruecknahme dreier Stub-Ueberschreibungen protokolliert
 
 0. **Ruecknahme durch den Hauptprozess (vor diesem Lauf, hier nur protokolliert):** Commit
