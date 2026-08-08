@@ -2,6 +2,16 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-08 (interaktiv, Mac Mini) — SharePoint-Bibliothek «02 UBSFS» heisst neu «02 Standort INFO»; Pfad-Verweise nachgezogen
+
+Die Dokumentbibliothek IMMO/«02 UBSFS» wurde am 07.08.2026 auf SharePoint in **«02 Standort
+INFO»** umbenannt (List-Id und URL `/sites/IMMO/02 UBS FS` unveraendert). Der lokale
+OneDrive-Sync traegt seit 08.08.2026 ebenfalls den neuen Ordnernamen. In den lebenden
+Wiki-Artikeln wurden die Pfad-Verweise aktualisiert (`wiki/marktdaten-gemeinden/README.md`,
+`wiki/vergleichswert-hedonisch.md`): `IMMO - 02 UBSFS` → `IMMO - 02 Standort INFO`.
+Historische Eintraege in CHANGELOG und datierten outputs/-Reports bleiben unveraendert
+(Beleg-Charakter).
+
 ## 2026-08-07 (Wissens-Chef Run 28, Feld E-kennwerte) — UBS-FS als WP-Derivat kenntlich gemacht; Kennwert-Vorbehalt an die Abholstelle gesetzt
 
 Rein additiv, kein Wert geändert, keine Tabelle und kein Artikel umgeschrieben. Die

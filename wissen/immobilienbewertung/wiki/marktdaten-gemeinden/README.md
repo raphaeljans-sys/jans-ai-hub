@@ -10,7 +10,7 @@ links: [[datenquellen-registry]], [[vergleichswert-hedonisch]], [[realwert-sachw
 
 Pro Gemeinde eine kompilierte, maschinenlesbare Fassung des **UBS Real Estate Local
 Fact Sheet** (UBS CIO / Global Wealth Management). Quelle der Rohdaten:
-`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/IMMO - 02 UBSFS/`.
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/IMMO - 02 Standort INFO/`.
 
 Diese Blaetter sind die **Markt- und Vergleichspreis-Faktenbasis** des Skills
 `immobilienbewertung` (insbesondere fuer das Vergleichswert-/hedonische Verfahren und als

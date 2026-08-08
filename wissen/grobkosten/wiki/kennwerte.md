@@ -179,7 +179,7 @@ Details und Begründung in `raw/kennwerte-jans-referenzdokument.md`.
 ## Run 6 (27.07.2026) — zwei neue, stärker belegte Einzelfälle (BKP-Einzelgliederung + explizites GV im selben Dokument)
 
 Vier bisher ungeprüfte SharePoint-Bibliotheken parallel gesichtet (`AR - 03 Studien`,
-`IMMO - 01 Projekte`, `IMMO - 02 UBSFS`/`IMMO - 03 KNOW-HOW`/`IMMO - 05 Bodenpreise`, zweite
+`IMMO - 01 Projekte`, `IMMO - 02 Standort INFO`/`IMMO - 03 KNOW-HOW`/`IMMO - 05 Bodenpreise`, zweite
 Bibliothek `...-RaphaelJans-ArchitektenETH`). Ergebnis: mehrere neue Kandidaten, aber nur zwei
 mit sauber im selben Dokument ausgewiesenem GV UND nachvollziehbarer BKP-1-5-Basis — die übrigen
 scheitern an offenen Scope-/Bezeichnungsfragen (siehe `wiki/QUESTIONS.md`) und werden bewusst

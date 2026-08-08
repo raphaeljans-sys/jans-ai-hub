@@ -15,7 +15,7 @@ ableitet. Geeignet v.a. fuer **Eigentumswohnungen und Einfamilienhaeuser** (Mark
 
 ## Datengrundlage bei JANS
 
-- **UBS Real Estate Local Fact Sheets** (`IMMO - 02 UBSFS`): Gemeinde-Profile mit
+- **UBS Real Estate Local Fact Sheets** (`IMMO - 02 Standort INFO`): Gemeinde-Profile mit
   Preis-/Mietstatistiken, Quantilen und Marktindikatoren. Abgedeckt sind aktuell 8
   Gemeinden (ZH Waedenswil/Thalwil/Maur/Regensdorf/Wald, LU Luzern, SZ Einsiedeln,
   AG Muri) — Staende 2022-2024, teils veraltet. Details + Aktualitaet: [[datenquellen-registry]].

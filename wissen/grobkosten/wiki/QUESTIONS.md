@@ -712,7 +712,7 @@ richtige Aggregationsstufe: erkannt, richtig charakterisiert und trotzdem nie ü
   geraten/umgerechnet.
 - **Vorschlag für Run 6:** Weitere, in diesem Lauf identifizierte, aber ungeprüfte SharePoint-
   Bibliotheken sichten — Kandidaten mit plausibler Kosten-Relevanz: `AR - 03 Studien` (frühe
-  Machbarkeits-/Kostenschätzungen), `IMMO - 01 Projekte`, `IMMO - 02 UBSFS`,
+  Machbarkeits-/Kostenschätzungen), `IMMO - 01 Projekte`, `IMMO - 02 Standort INFO`,
   `IMMO - 03 KNOW-HOW`, `IMMO - 05 Bodenpreise`, sowie die komplett ungesichtete zweite
   SharePoint-Bibliothek `OneDrive-FreigegebeneBibliotheken–RaphaelJans-ArchitektenETH`. Aus
   `IMMO - 04 Marktpreise` ist bereits ein Healthcare-PDF (`crb.ch/Spital_...Kostenkennwerte...`)

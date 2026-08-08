@@ -1,5 +1,11 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-08 (interaktiv, Mac Mini) — Pfad-Verweise auf umbenannte Bibliothek «IMMO - 02 Standort INFO» nachgezogen
+
+Die SharePoint-Bibliothek IMMO/«02 UBSFS» heisst seit 07.08.2026 **«02 Standort INFO»**
+(URL unveraendert). In `wiki/kennwerte.md` und `wiki/QUESTIONS.md` wurden die
+OneDrive-Pfad-Verweise entsprechend aktualisiert. Historische outputs/-Reports unveraendert.
+
 ## 2026-08-08 (Mac Mini Nachtschicht, Run 14) — Run-13-Blocker unverändert; stattdessen unabhängige Gegenprüfung des stärksten Einzelfalls (Niederhasli) am Original-PDF
 
 Kein neuer Kennwert, keine Promotion. `2304 Wädenswil` (Run 13) erneut geprüft: derselbe
