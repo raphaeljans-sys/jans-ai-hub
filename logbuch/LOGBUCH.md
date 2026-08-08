@@ -5,6 +5,60 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 08.08.2026 (08:39 bis 09:03, MIT Befund — Briefing versendet)
+
+**Signale gelesen:** Radar-Briefing 08.08. im Logbuch (06:55, vollstaendig vorhanden, Pflichtlektuere
+erfuellt), Fristen-Register, Konversations-Destillat 260808, Mail-Vorfilter ueber alle Konten (26 h),
+bexio `--verzug` und `--abgleich`, Outlook-Kalender bis 15.08., Sync- und Remote-Queues (alle leer),
+Lauf-Journal 260808. **Vermerk zum Meldekanal:** ein eigener Abschnitt «AG-Gruendung 08.08.2026» fehlt
+heute im Logbuch; der Radar hat den Stand um 06:55 selbst mitgefuehrt (keine UBS-IBAN, keine Nachricht
+des Notariats), die Information ist also nicht verloren. Das Lauf-Journal `laeufe/260808-laeufe.jsonl`
+enthaelt heute nur die zwei Mac-Mini-Dispatch-Laeufe; die MacBook-Loops (Radar, Verzugscheck,
+Zahlungsabgleich, twin-fidelity) haben ihre Ergebnisse ins Logbuch geschrieben, aber keine Journal-Zeile
+erzeugt. Reines Hub-Internum, kein Sendegrund, hier vermerkt.
+
+**Ausgefuehrt (autonom):**
+
+1. **Fachlicher Auftrag nachgeholt (der liegengebliebene Punkt vom 07.08. 15:21).** Truninger-Projektraum
+   und JANS-Projektbestand nach einem Konzept der Therapiekueche durchsucht, Belege im Original gelesen.
+   Befund: **existiert nicht** (Truninger `05 Nutzer / Betriebskonzepte` leer, `05.02 Berichte Beschriebe
+   Konzepte` nur fuenf Altdokumente 2019; lokal keine Treffer). **Aber die Argumentation fuer die
+   Haushaltskueche steht auf drei datierten Belegen:** eingereichtes JANS-Betriebskonzept 07.03.2026
+   Ziff. 2.4 woertlich «Haushaltskueche als Kochkueche» samt Nutzerzahlen und Betriebszeiten; Gruners
+   eigene Variantenuntersuchung 13.05.2026, Variante B, «sinngemaess wie eine Wohnraumkueche
+   beziehungsweise Teekueche», 400-500 m3/h nach SIA 2024; Luftmengenberechnung 09.07.2026, eingereicht
+   27.07.2026. **Herkunft der beanstandeten 500 m3/h geklaert:** Gastro-Online-Installationslegende
+   01.05.2026, Pos. 3.01/3.02, mit ausdruecklichem Vorbehalt «Lueftungsangaben sind approximativ und
+   sind durch den Lueftungsplaner genau zu berechnen» — eine Schaetzung, kein Rechenergebnis. **Das
+   Risiko liegt in der Bestueckung**, nicht in der Argumentation: zwei Doppel-Induktionsanlagen je
+   500 m3/h plus Rational iCombi Pro mit UltraVent-Plus-Haube, Kostenzusammenstellung CHF 72'400.00
+   exkl. MwSt gegen ein Rahmenbudget von CHF 70'000.00. Bericht (A3, Kopie, nichts ueberschrieben):
+   `…/30 JANS AI HUB OUTPUT/2629 KISPI AI/260808-Recherche-Betriebskonzept-Therapiekueche/`.
+2. **A5 Mail-Entwurf** an T. Inniger (Roethlisberger, `ti@schreinermanufaktur.ch`), Betreff «KISPI PPTS:
+   Geraeteliste Therapiekueche mit Abluftwerten», 1'560 Zeichen, im Postfach `rj@` unter Entwuerfe.
+   Guards: kein Versand, bestehender Vertragspartner im laufenden Mandat, Adresse aus dem eigenen
+   Sendebeleg vom 07.08. verifiziert. QS `rechtschreibung` gelb (m3 zu m³, Fragezeichen), `layout` gelb;
+   Signaturblock bewusst byte-gleich zum authentischen Beleg belassen. Twin-Gate **88**; der Chef hat die
+   Kausalrichtung korrigiert (die Geraeteliste ist Grundlage der Einstufung, nicht deren Folge) und zwei
+   unbelegte Behauptungen entfernt. **Nachtrag daraus:** die inverse Formulierung stammte aus
+   `fristen.md` selbst und ist dort bei Gelegenheit nachzuziehen.
+3. **A4 Register/Logbuch** nachgefuehrt (neuer Fristen-Eintrag zur Therapiekueche, dieser Abschnitt).
+
+**Nicht ausgefuehrt, bewusst:** keine A1-Mahnaktion — RE-00101 ist bis zur E-Banking-Gegenpruefung von
+Tx 3630 gesperrt, RE-00098/99 stehen bereits auf Stufe 1 und RE-00087 auf Stufe 3 (Stufe 2+ ist immer nur
+Entwurf), RE-00100 traegt eine Zahlungserinnerung. Keine A2-Kalendereintraege: die beiden Vorschlaege des
+Radars sind Arbeitsbloecke, keine in Mails bestaetigten Termine mit Teilnehmern. Der Recherchebericht ging
+in den Output-Ordner statt in den Projektordner, weil der KISPI-Projektbestand keinen CLAUDE-Unterordner
+fuehrt (A3-Guard «bei Zweifel am Zielordner → Frage im Briefing»); die Frage steht im Briefing.
+
+**Briefing versendet** 09:03:41 an `rj@raphaeljans.ch`, Betreff «Hub-Chef 08.08.26: Das Betriebskonzept
+Kueche hat jetzt eine Beleglage, der SharePoint-Zugriff laeuft heute ab», Body **7'649 Zeichen**
+(Gegenprobe bestanden, kein Leer-Draft). Sendegruende: SharePoint-Ablauf heute, eigene Zusage an Kuebler
+auf Montag, drei Mahnfristen im Fenster, Kalendertermin 13.08., ausgefuehrte Recherche und bereitliegender
+Entwurf. QS des Briefings: `rechtschreibung` + `layout` gelb, Korrekturen uebernommen (Kommasplices,
+Chronologie der Terminliste, Link auf eigene Zeile); kein Twin-Gate, da internes Briefing an Raphael selbst
+und nicht an einen Dritten.
+
 ## Radar-Briefing 08.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
 Der Chef-Lauf vom 07.08. ist um 08:59 planmässig gelaufen und hat sein Briefing versandt; die
