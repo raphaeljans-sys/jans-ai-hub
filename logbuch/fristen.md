@@ -3,6 +3,45 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 08.08.2026 (Hub-Chef 08:39, Truninger-Projektraum und Projektbestand durchsucht, Belege
+im Original gelesen — **der liegengebliebene Auftrag zur Therapiekueche ist ausgefuehrt: das
+Konzept existiert nicht, aber die Beleglage dafuer ist ungewoehnlich gut**): Der am 07.08. um
+15:21 am Sitzungslimit abgebrochene Auftrag (Truninger-Plattform nach einem Konzept der
+Therapiekuechen durchsuchen, Ziel Haushaltskueche statt Produktionskueche) ist heute gelaufen.
+**Ergebnis: ein eigenstaendiges Konzept der Therapiekueche existiert nirgends** — weder im
+Truninger-Projektraum (`05 Nutzer / Betriebskonzepte` leer, `05.02 Berichte Beschriebe Konzepte`
+nur fuenf Altdokumente 2019) noch im JANS-Bestand. Das Betriebskonzept Kuechenbetrieb muss neu
+geschrieben werden. **Die Argumentation dafuer steht aber bereits auf drei datierten Belegen:**
+(1) das **eingereichte** JANS-Betriebskonzept vom **07.03.2026** (`2619-AR Betriebskonzept.pdf`,
+Teil der Baueingabe) definiert Ziff. 2.4 woertlich «Kueche/Reduit: Haushaltskueche als Kochkueche»
+und nennt in Ziff. 2.1-2.3 die Nutzerzahlen (15 stationaer, 3 ambulant, 7-10 Personal, gleichzeitig
+rund 30 Personen) und Betriebszeiten; (2) **Gruner selbst** empfiehlt in der Variantenuntersuchung
+vom **13.05.2026** die Variante B und haelt woertlich fest, die Kueche werde «nicht als gewerbliche
+Kueche, sondern sinngemaess wie eine Wohnraumkueche beziehungsweise Teekueche betrachtet»,
+Grundvolumenstrom nach SIA 2024 rund 300 m3/h, mit Zuschlag 400-500 m3/h; (3) genau diese Luftmenge
+ist am **09.07.2026** gerechnet (`260709_cedu_Luftmengenberechnung_SIA.pdf`, Anlage LS036, Position
+«Kueche + Kor.4 nach SIA 2024», 450/500 m3/h) und am **27.07.2026** eingereicht (Eingabequittung im
+selben Ordner). **Wichtige Herkunftsklaerung zu Kueblers Frage:** die beanstandeten 500 m3/h je
+Kochherd stammen aus der **Gastro-Online-Installationslegende** (Pos. 3.01/3.02, 01.05.2026) und
+tragen dort den ausdruecklichen Vorbehalt «Lueftungsangaben sind approximativ und sind durch den
+Lueftungsplaner genau zu berechnen» — sie sind eine Schaetzung des Kuechenplaners, kein
+Rechenergebnis, und Gruner hat den massgebenden Wert selbst laengst gerechnet. **Das eigentliche
+Risiko liegt nicht in der Argumentation, sondern in der Bestueckung:** zwei Doppel-Induktionsanlagen
+mit je 500 m3/h und ein Rational iCombi Pro mit UltraVent-Plus-Haube widersprechen dem Bild einer
+Haushaltskueche; die Gastro-Online-Kostenzusammenstellung vom 13.05.2026 schliesst mit **CHF 72'400
+exkl. MwSt** gegenueber dem Rahmenbudget von CHF 70'000. Das Betriebskonzept muss die tatsaechlich
+geringe Nutzung belegen und die Geraeteliste im selben Zug abspecken — das schliesst beide Luecken
+zugleich. **Beim Nutzer noch zu erheben:** Mahlzeiten pro Tag/Woche, Kochfrequenz, wer kocht
+(Jugendliche unter Anleitung oder Personal), Anlieferung aus der Zentralkueche, Reinigungsregime,
+Verantwortung Filterwechsel. **Ausgefuehrt (A5):** Entwurf an T. Inniger (Roethlisberger,
+`ti@schreinermanufaktur.ch`) im Postfach `rj@` unter Entwuerfe, Betreff «KISPI PPTS: Geraeteliste
+Therapiekueche mit Abluftwerten», 1'560 Zeichen — bittet um die aktuelle Geraeteliste mit
+Abluftwerten je Geraet und die fuer heute zugesagten Werkplaene, Frist Montagmorgen. QS
+Rechtschreibung und Layout gelb (Einheit m3 und Fragezeichen korrigiert, Signaturblock bewusst
+byte-gleich zum authentischen Beleg vom 07.08. belassen), Twin-Gate 88. Beleg der Recherche:
+`…/30 JANS AI HUB OUTPUT/2629 KISPI AI/260808-Recherche-Betriebskonzept-Therapiekueche/`.
+Status: **Recherche erledigt, Betriebskonzept zu schreiben, Termin Mo 10.08.2026, Aktion Raphael.**
+
 Eintrag 08.08.2026 (Zahlungsabgleich 08:24, am Bankfeed nachgemessen — **erstmals seit dem
 16.06. ein neuer Zahlungseingang, und das tägliche Monitoring hat ihn nicht gemeldet**):
 **Tx 3630, Valuta 07.08.2026, CREDIT CHF 6'000.00, Titel «Payment», Kennung PMNT.RCDT.AUTT,
