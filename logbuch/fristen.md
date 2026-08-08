@@ -3,6 +3,37 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 08.08.2026 (Zahlungsabgleich 08:24, am Bankfeed nachgemessen — **erstmals seit dem
+16.06. ein neuer Zahlungseingang, und das tägliche Monitoring hat ihn nicht gemeldet**):
+**Tx 3630, Valuta 07.08.2026, CREDIT CHF 6'000.00, Titel «Payment», Kennung PMNT.RCDT.AUTT,
+Status `unreconciled`** — der Betrag deckt sich auf den Rappen mit der offenen **RE-00101
+(Tschopp Gertrud & Stefan, «Architekten Honorar Juni & Juli 2026», CHF 6'000.00)**, die seit
+31.07. fällig ist und auf Zahlungserinnerung mit Frist **16.08.** steht. Der Bankfeed nennt
+keinen Auftraggeber, die Zuordnung ist darum **nicht aus der Quelle belegt** und braucht
+Raphaels E-Banking-Gegenprüfung. **Sie ist vor dem 16.08. zu führen: bestätigt sie den
+Eingang, ist RE-00101 bezahlt und darf nicht gemahnt werden** — Stefan Tschopp ist Bauherr-
+Partner und Du-Kontakt. Bis dahin **A1 für RE-00101 gesperrt**. Abgrenzung, am Beleg geprüft:
+Tx 3630 ist **kein** Duplikat des UBS-Doppelimports (am 07.08. existiert keine
+gegenstückgleiche `reconciled` Transaktion); der zweite unzugeordnete CHF-6'000-Eingang
+**Tx 3458 vom 15.06.** ist dagegen ein echter Doppelimport und bleibt Duplikat-Kandidat.
+**Werkzeug-Befund, der die Meldelücke erklärt und über diesen Fall hinausreicht:** der
+Vorfilter `scripts/bexio-vorfilter.mjs` meldete den Lauf als «keine Aenderung» (Exit 0),
+obwohl die Kennzahl `unreconciledCredit` von 55 auf 56 stieg. Zwei Ursachen, beide im Code
+verifiziert: (1) die Delta-Logik vergleicht Verzug, Phantome, Duplikat-IDs und
+`eingangOhneBuchung`, **die Kennzahlen selbst aber nie**; (2) `eingangOhneBuchung` wird in
+`connectors/bexio.mjs:234` ausschliesslich aus `reconciled`/`auto_reconciled` Transaktionen
+gebildet, ein **unreconciled** Eingang kann dort also gar nie erscheinen. Folge: **ein
+Zahlungseingang, den bexio keiner Rechnung zuordnet, ist im täglichen Monitoring unsichtbar** —
+genau der Fall, den der Skill verhindern soll, und dieselbe Familie wie die
+Status-7-Monitoring-Lücke bei RE-00100 vom 31.07. Gefunden wurde er nur, weil die Kennzahl von
+Hand gegen den Vortages-Snapshot aus Git gehalten wurde. Der Fix ist nicht ausgeführt (der
+Lauf ist read-only und die Vorbehalts-Liste wird laut Task-Contract nie automatisch gepflegt).
+**Status: offen, zwei Aktionen Raphael** — (a) E-Banking-Gegenprüfung Tx 3630 vor dem 16.08.,
+(b) Entscheid, ob der Vorfilter um einen Kennzahlen-Diff und eine Liste der neuen unreconciled
+CREDITs ergänzt wird und ob Tx 3630 in `skills/zahlungsabgleich/state/vorbehalte.json`
+aufzunehmen ist, damit sie nicht später als Duplikat ignoriert wird. Beleg:
+`…/30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260808_bexio-Hygiene.md`.
+
 Eintrag 08.08.2026 (Logbuch-Radar 06:55, Thread und Sendebeleg im Original gelesen — **der
 liegengebliebene Therapieküchen-Auftrag hat seit gestern 16:12 einen harten Termin: Montag,
 10.08.2026**): Die Kette ist geschlossen und sie ist der schärfste Punkt des Tages. **UGZ

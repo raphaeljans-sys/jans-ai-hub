@@ -1,8 +1,8 @@
 {
-  "stand": "2026-08-07",
+  "stand": "2026-08-08",
   "kennzahlen": {
     "echteEingaenge": 50,
-    "unreconciledCredit": 55,
+    "unreconciledCredit": 56,
     "duplikatKandidaten": 84,
     "duplikatEinzel": 24,
     "duplikatGruppen": 15,
