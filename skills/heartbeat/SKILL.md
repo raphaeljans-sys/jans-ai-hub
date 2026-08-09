@@ -172,6 +172,26 @@ bash /Volumes/daten/jans-ai-hub/scripts/scheduled-tasks-mirror.sh
 - Details/Restore: `templates/scheduled-tasks/README.md`. Der Spiegel ist Doku,
   nie Live-Zustand (Frontmatter `enabled:` kann dem Betrieb widersprechen).
 
+### 12. Zugangswege (Wege-Radar)
+
+Prueft alle in `connectors/WEGE.md` gefuehrten Zugangswege und repariert die mechanischen
+Defekte selbst. Bewusst hier eingehaengt statt als eigener Taktgeber (Rule
+`betrieb-chronik` 260727: kein zweiter Taktgeber), und weil es ein reines Shell-Script ist,
+das keine eigene Claude-Session braucht:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/wege-radar.sh
+```
+
+- ✅ Exit 0, keine Ausgabe → alle Wege tragen, nichts zu berichten
+- ⚠️ Exit 1 → Ausgabe in den Report uebernehmen; der Radar hat bereits einmal
+  selbst zu reparieren versucht (`wege-doctor.sh`) und meldet nur, was uebrig blieb
+- Am ersten Tag des Monats legt er zusaetzlich den Gaestebestand der Site
+  «JANS - 2619-KISPI» zur Durchsicht vor. Grund: die Site ist seit 09.08.2026 von der
+  60-Tage-Gastablauf-Policy ausgenommen, Gaeste laufen dort also nie mehr automatisch ab
+- Anlass: KISPI-Vorfall 08./09.08.2026, bei dem zwei seit Wochen bestehende
+  Werkzeugdefekte erst auffielen, als sie gebraucht wurden
+
 ## Output-Format
 
 Gib einen kompakten Report aus:

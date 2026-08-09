@@ -3,6 +3,24 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 09.08.2026 (Session Raphael 03:00, beide Aktionen ausgeführt und gegengeprüft —
+**ERLEDIGT, und die Wiederholung ist dauerhaft abgestellt**): Der KISPI-Gastzugriff ist
+wiederhergestellt und die Ursache beseitigt. (1) `kispi-gastzugriff-wiederherstellen.sh` hat
+**sechs von sechs** Personen wieder in die Gruppe «JANS - 2619-KISPI Members» eingesetzt
+(B. Kübler, C. Duran, J. Ziegel, F. Würsch, M. Spörri, M. Schwander); die Gegenprobe listet
+alle sechs. Der am 07.08. an Kübler versandte SharePoint-Link trägt damit wieder, und der
+Montags-Upload der Sanitärinstallationen erreicht die Adressaten. (2)
+`kispi-ablaufpolicy-ausnehmen.sh` hat auf der Site-Collection
+`OverrideTenantExternalUserExpirationPolicy` von **False auf True** gesetzt, Gegenprobe
+bestätigt. Nachmessung über den Connector: **19 Gäste, keiner mehr mit Ablaufdatum** — die
+zuvor terminierten Abläufe von L. Bajrami (07.09.) und L. Hiltmann (22.09.) sind damit
+hinfällig. Der Weg dorthin führte über PnP PowerShell mit einem Token aus dem hub-eigenen
+Graph-Connector (`--token admin`), weil die Windows-only SPO-Management-Shell auf macOS nicht
+läuft und PnP das PEM-Zertifikat nicht annimmt; dokumentiert in `connectors/WEGE.md`, Weg 3.
+**Neue Folgepflicht statt Frist:** ohne Ablauf bleiben Gäste unbegrenzt berechtigt, auch
+ausgeschiedene. Der Wege-Radar legt darum am Monatsersten den Gästebestand zur Durchsicht vor
+(heartbeat, Check 12). Status: **erledigt.**
+
 Eintrag 09.08.2026 (Session Raphael 02:40, am Tenant nachgemessen — **Ursache, Umfang und die
 zwei nächsten Ablauftermine stehen jetzt fest**): Die Ursache des KISPI-Ablaufs ist die
 Tenant-Policy `ExternalUserExpirationRequired = true` mit `ExternalUserExpireInDays = 60`
