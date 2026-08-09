@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.08.2026 01:38:53
+Stand: 09.08.2026 01:58:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.08.2026 01:38:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2069b970 nas-selfcommit: 3 Datei(en) 2026-08-09 01:30
+- 0aea6dcf Fristen-Register: KISPI-SharePoint-Gastzugriff am 08.08. unverlaengert verstrichen, Aktion Raphael
