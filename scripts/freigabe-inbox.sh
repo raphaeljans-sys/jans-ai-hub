@@ -55,6 +55,22 @@ ZEIGEN=0
 mkdir -p "$LOGDIR" 2>/dev/null
 log() { echo "$(date '+%Y-%m-%d %H:%M:%S') $*" >> "$LOGFILE" 2>/dev/null; }
 
+# --- Zuerst pruefen, ob es ueberhaupt etwas zu entscheiden gibt --------------
+# Das Durchsuchen aller Mailboxen ist der teuerste Schritt. Bei einem
+# Fuenf-Minuten-Takt laeuft er sonst den ganzen Tag ins Leere, obwohl gar kein
+# Vorgang offen ist.
+OFFENE_IDS=""
+for datei in "$OFFEN"/*.task; do
+    [ -e "$datei" ] || continue
+    OFFENE_IDS="$OFFENE_IDS $(basename "$datei" .task)"
+done
+
+if [ -z "$OFFENE_IDS" ]; then
+    log "keine offenen Vorgaenge, Postfach nicht gelesen"
+    echo "Keine offenen Vorgaenge."
+    exit 0
+fi
+
 # --- Antworten aus Apple Mail holen ------------------------------------------
 # Bewusst nur Betreff und die ersten Zeilen: der Entscheid steht oben, und der
 # zitierte Originaltext darunter enthaelt dieselbe Kennung und wuerde jeden
@@ -93,19 +109,6 @@ OSA
 if [ -z "$ANTWORTEN" ]; then
     log "keine Antworten von $ABSENDER in den letzten $STUNDEN_ZURUECK Stunden"
     echo "Keine Antworten gefunden."
-    exit 0
-fi
-
-# --- Offene Vorgaenge einsammeln ---------------------------------------------
-OFFENE_IDS=""
-for datei in "$OFFEN"/*.task; do
-    [ -e "$datei" ] || continue
-    OFFENE_IDS="$OFFENE_IDS $(basename "$datei" .task)"
-done
-
-if [ -z "$OFFENE_IDS" ]; then
-    log "keine offenen Vorgaenge, Antworten ignoriert"
-    echo "Keine offenen Vorgaenge."
     exit 0
 fi
 
