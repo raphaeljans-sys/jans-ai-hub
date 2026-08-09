@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.08.2026 03:21:31
+Stand: 09.08.2026 03:41:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 03:15)
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 03:38)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 09.08.2026 03:21:31
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 721b1d9d Freigabe-Rueckkanal freigabe-inbox.sh gebaut und in widerruf-queue eingehaengt; Mail-Texte auf echte Umlaute korrigiert; Whitelist v2 um Rueckkanal ergaenzt
+- d514196e nas-selfcommit: 3 Datei(en) 2026-08-09 03:30

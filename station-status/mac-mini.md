@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.08.2026 03:29:11
+Stand: 09.08.2026 03:39:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.08.2026 03:29:11
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 721b1d9d Freigabe-Rueckkanal freigabe-inbox.sh gebaut und in widerruf-queue eingehaengt; Mail-Texte auf echte Umlaute korrigiert; Whitelist v2 um Rueckkanal ergaenzt
+- d514196e nas-selfcommit: 3 Datei(en) 2026-08-09 03:30
