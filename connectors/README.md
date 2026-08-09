@@ -14,9 +14,14 @@ auch die, die bei einem Skill liegen. Neue Connectoren gehoeren hier eingetragen
 befragt, bevor er benutzt wird. Die Flags unten sind der Einstieg, nicht die Referenz.
 Pfade relativ zu `/Volumes/daten/jans-ai-hub/`.
 
+**Vor «geht nicht» zuerst `connectors/WEGE.md` lesen** — das Wege-Register nennt je Faehigkeit
+mehrere Wege in Rangfolge (voller Pfad, Testbefehl) und die belegten Sackgassen. Werkzeuge
+pruefen und reparieren: `bash scripts/wege-doctor.sh`.
+
 | Connector | Zweck | Einstiegs-Flags | Zugang |
 |---|---|---|---|
 | `connectors/hub-setup.mjs` | Kanonisches Hub-Setup (Stationen, IPs, SSH, Mail, Pfade) + Live-Verbindungscheck + Team-Beweis | `--alles` `--stationen` `--wege` `--check` `--team` | keiner |
+| `connectors/m365-graph.mjs` | M365 zweiter Weg: Graph und SharePoint-REST app-only, unabhaengig von der CLI (Site-/Gaeste-/Gruppenabfragen, Ablaufdaten) | `--selbsttest` `--site` `--gaeste` `--get` `--spo` `--gruppe-mitglieder` | Zertifikat `~/.cli-m365-cert-combined.pem` |
 | `connectors/zefix.mjs` | Handelsregister CH, Firmen-/Namensprüfung | `--firm` `--available` `--search` `--canton` | Basic-Auth `~/.zefix.env` |
 | `connectors/bexio.mjs` | Debitoren, Offene Posten, Mahnwesen, Kontierung | `--offen` `--verzug` `--mahnen` (ohne `--ja` Trockenlauf) `--buchen` | PAT `~/.bexio.env` |
 | `connectors/claude-usage.mjs` | Auslastung des Claude-Abos ohne Browser | `--alles` `--lokal` `--json` | keiner |

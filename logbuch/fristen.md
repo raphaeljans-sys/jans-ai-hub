@@ -3,6 +3,22 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 09.08.2026 (Session Raphael 02:40, am Tenant nachgemessen — **Ursache, Umfang und die
+zwei nächsten Ablauftermine stehen jetzt fest**): Die Ursache des KISPI-Ablaufs ist die
+Tenant-Policy `ExternalUserExpirationRequired = true` mit `ExternalUserExpireInDays = 60`
+(gelesen über die SPO-Admin-API). **Sie wiederholt sich alle 60 Tage über die ganze Bauzeit.**
+Gemessener Umfang: alle sieben Betroffenen sind weiterhin Mitglied der M365-Gruppe kispi@ und
+besitzen gültige Gastkonten, aber **sechs von ihnen sind aus der Site-Nutzerliste entfernt**
+(B. Kübler, C. Duran, J. Ziegel, F. Würsch, M. Spörri, M. Schwander); einzig Y. Cetin steht
+noch drin. **Neu und terminlich relevant: die nächsten beiden Abläufe auf derselben Site sind
+bereits gesetzt — Livdin Bajrami (Jegen) am 07.09.2026 und Levi Hiltmann (Tekosi) am
+22.09.2026.** Wiederherstellung vorbereitet als `scripts/kispi-gastzugriff-wiederherstellen.sh`
+(fügt die sechs der Gruppe «JANS - 2619-KISPI Members» wieder hinzu, entspricht ihrem
+Soll-Zugriff über die M365-Gruppe, umkehrbar, Rückbaubefehl im Script). Die Ausführung ist vom
+Auto-Mode-Klassifikator blockiert und braucht einen Start durch Raphael. **Dauerhafte
+Abstellung:** die Site von der 60-Tage-Policy ausnehmen, das geht nur über das SharePoint
+Admin Center. Status: **überfällig, Ausführung vorbereitet, Aktion Raphael.**
+
 Eintrag 09.08.2026 (Session Raphael 01:44, Systemmails und Register nachgemessen — **die
 SharePoint-Frist ist gestern verstrichen, unverlängert**): Der Gastzugriff auf die Projektsite
 «JANS - 2619-KISPI» ist am **08.08.2026 abgelaufen** für die sieben am 19.07. gemeldeten Personen

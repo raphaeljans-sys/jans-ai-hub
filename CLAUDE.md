@@ -210,6 +210,12 @@ Hand abgefragt oder ein Weg improvisiert wird. **Konvention:** einen Connector z
 `node <pfad> --hilfe` selbst befragen. Fehlt die Allowlist-Freigabe, in
 `.claude/settings.json` ergaenzen (Rule 260609). Neue Connectoren werden im Index eingetragen.
 
+**Bevor eine Aufgabe als unmoeglich gilt: `connectors/WEGE.md`** — das Wege-Register nennt je
+Faehigkeit mehrere Wege in Rangfolge (voller Pfad, Testbefehl) und die belegten Sackgassen.
+Angelegt 09.08.2026, weil der KISPI-Gastzugriff an einem vorhandenen, aber nicht gefundenen
+Weg scheiterte (die M365-CLI liegt nicht im `PATH`). Werkzeuge pruefen und reparieren:
+`bash scripts/wege-doctor.sh`. Regel dazu: `wege-und-vollmachten.md`.
+
 ## Custom Commands (Slash-Commands)
 | Command | Beschreibung |
 |---|---|
@@ -290,4 +296,5 @@ Historie der Auto-Verbesserungen: `rules/auto-verbesserungen-archiv.md` (nicht i
 @/Volumes/daten/jans-ai-hub/rules/sync-kanonische-quelle.md
 @/Volumes/daten/jans-ai-hub/rules/umlaute-konvention.md
 @/Volumes/daten/jans-ai-hub/rules/wissens-bibliothekar.md
+@/Volumes/daten/jans-ai-hub/rules/wege-und-vollmachten.md
 @/Volumes/daten/jans-ai-hub/rules/wissens-ruecklauf.md

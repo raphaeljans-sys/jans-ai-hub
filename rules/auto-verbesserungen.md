@@ -14,6 +14,23 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260809 — Vor «geht nicht» das Wege-Register lesen; umkehrbare Arbeit wird getan, nicht vorgelegt
+- **Regel:** (1) Eine Aufgabe gilt erst dann als blockiert, wenn **jeder** in
+  `connectors/WEGE.md` gelistete Weg nachweislich versagt hat. Ein Weg, der nicht im `PATH`
+  liegt, ist trotzdem ein Weg. Belegt am 09.08.2026: der KISPI-Gastzugriff wurde als «kein
+  Weg vorhanden» zurueckgegeben, waehrend die M365-CLI die ganze Zeit per Zertifikat
+  angemeldet war (`Sites.FullControl.All`, gueltig bis 2028) und nur unter
+  `~/Developer/jans-ai-hub/node_modules/.bin/m365` lag. **Ein vorhandener Weg, den niemand
+  findet, ist so gut wie keiner.** (2) Jede gelaufene Sackgasse wird im Register vermerkt.
+  (3) Vollmacht neu geordnet: `logbuch/AKTIONS-WHITELIST.md` **v2** (A1 bis A9, autorisiert
+  Raphael 09.08.2026) — **umkehrbare Arbeit wird getan, nicht vorgelegt**; was nach aussen
+  wirkt, laeuft ueber ein Widerrufsfenster statt ueber eine Vorab-Freigabe; Zahlungen,
+  Bankauftraege und Vermoegenstransfers bleiben ausgenommen. (4) Der Auto-Mode-Klassifikator
+  und die Sync-Task-Freigabe-Schwelle liegen ueber der Whitelist und werden **nie umgangen**:
+  wer dort haengenbleibt, legt den fertigen Befehl vor.
+- **Gilt fuer:** alle Sessions, alle Loops, alle Stationen. Rule `wege-und-vollmachten.md`
+  (importiert), Register `connectors/WEGE.md`, Werkzeugpruefung `scripts/wege-doctor.sh`.
+
 ## 260807 — Konfigurationsfelder erst messen, dann glauben; Verbrauch nie per Frontmatter «senken»
 - **Regel:** Bevor ein Konfigurationsfeld als wirksam angenommen wird, wird seine Wirkung
   **gemessen** (Transkript, Log, Lauf-Journal), nicht aus seiner Existenz geschlossen. Belegt
