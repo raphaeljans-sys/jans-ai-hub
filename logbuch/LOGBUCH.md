@@ -5017,3 +5017,5 @@ aus nicht moeglich. Kein Geld/Frist/Kunde betroffen, reine Hub-Interna.
 - 2026-08-09 03:12 (Widerrufs-Queue) GESTOPPT 260809-031235-17954 — Veto-Test A
 
 - 2026-08-09 03:12 (Widerrufs-Queue) angemeldet 260809-031236-17986 — Mail-Rueckkanal-Test (faellig 03:57)
+
+- 2026-08-09 15:26 (Widerrufs-Queue) ausgefuehrt 260809-031236-17986 — Mail-Rueckkanal-Test
