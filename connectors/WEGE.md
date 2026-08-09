@@ -107,11 +107,33 @@ Belegte Beispiele, alle am 09.08.2026 gelaufen:
 `connectors/m365-graph.mjs`, holt den Token selbst aus dem Zertifikat. Unabhängig von
 `node_modules` und der CLI. Test: `node connectors/m365-graph.mjs --selbsttest`.
 
-### Weg 3: PnP PowerShell
+### Weg 3: PnP PowerShell mit geliehenem Token
 
-`pwsh` mit `PnP.PowerShell 3.1.0` ist installiert. Deckt einige CSOM-Sachen ab, die Graph
-nicht kann. **Wichtig:** App-only mit dem PEM-Zertifikat geht hier NICHT (siehe Sackgassen),
-PnP braucht ein PFX oder einen interaktiven Login.
+`pwsh` mit `PnP.PowerShell 3.1.0` ist installiert. Deckt die Tenant- und Site-Eigenschaften
+ab, die weder Graph noch die CLI erreichen, etwa die Gastablauf-Policy je Site.
+
+**Die Anmeldung ist der Trick.** PnP nimmt das PEM-Zertifikat nicht an (nur PFX), und
+`openssl pkcs12 -export` ist vom Klassifikator blockiert. Der Ausweg: den Token über Weg 2
+holen und PnP per `-AccessToken` damit anmelden. Am 09.08.2026 verifiziert:
+
+```bash
+TOKEN="$(node connectors/m365-graph.mjs --token admin)"   # oder: spo | graph
+export PNP_TOKEN="$TOKEN"          # nicht als Argument, sonst in `ps` sichtbar
+pwsh -NoProfile -Command '
+  Connect-PnPOnline -Url "https://raphaeljans-admin.sharepoint.com" -AccessToken $env:PNP_TOKEN
+  Get-PnPTenantSite -Identity "https://raphaeljans.sharepoint.com/sites/kispi"
+'
+```
+
+Damit erreichbar, was sonst die Windows-only SPO-Management-Shell bräuchte:
+
+```powershell
+Set-PnPTenantSite -Identity <url> -OverrideTenantExternalUserExpirationPolicy $true
+Set-PnPTenantSite -Identity <url> -ExternalUserExpirationInDays <n>
+```
+
+**Falle:** PowerShell parst das ganze Script vorab. Ein leer eingesetzter Wert (`-eq ()`)
+lässt es scheitern, bevor ein früher `exit` greift. Immer syntaktisch gültige Werte einsetzen.
 
 ### Weg 4: Browser
 
@@ -144,8 +166,8 @@ Wer hier steht, muss nicht nochmals probiert werden.
 | Datum | Was versucht | Warum es nicht geht |
 |---|---|---|
 | 09.08. | `Get-Command PnP.PowerShell` nach einem Cmdlet für den Gastablauf | Es gibt keines. Der Gastablauf ist über PnP nicht erreichbar. |
-| 09.08. | `Connect-PnPOnline -CertificatePath <PEM>` | PnP 3.1 nimmt nur PFX oder Base64-PFX. Die PEM wird mit «certificate does not have a private key» abgewiesen. Es gibt keine `-PEMCertificate`. |
-| 09.08. | SPO-Management-Shell (`Microsoft.Online.SharePoint.PowerShell`) | Windows-only, läuft auf macOS nicht. Damit ist auch `Set-SPOSite -OverrideTenantExternalUserExpirationPolicy` von hier aus nicht erreichbar. |
+| 09.08. | `Connect-PnPOnline -CertificatePath <PEM>` | PnP 3.1 nimmt nur PFX oder Base64-PFX. Die PEM wird mit «certificate does not have a private key» abgewiesen. Es gibt keine `-PEMCertificate`. **Gelöst über `-AccessToken`, siehe Weg 3.** |
+| 09.08. | SPO-Management-Shell (`Microsoft.Online.SharePoint.PowerShell`) | Windows-only, läuft auf macOS nicht. **Kein Verlust: PnP kann dasselbe** und hat dieselben Parameter, siehe Weg 3. |
 | 09.08. | MCP-Outlook `outlook_email_search` | Liefert `MailboxNotEnabledForRESTAPI`. Das verbundene Konto hat keine durchsuchbare Mailbox. Stattdessen Apple Mail per osascript. |
 | 09.08. | `m365 spo externaluser list` ohne `--siteUrl` | Gibt **still eine leere Liste** zurück, Exit 0. Ein leeres Ergebnis ist hier eine Aussage über den Aufruf, nicht über den Tenant. Immer mit `--siteUrl`. |
 | 09.08. | `m365 spo tenant setting list` | Existiert nicht in v11.5.0. Tenant-Einstellungen über `m365 request` gegen die Admin-REST-API. |

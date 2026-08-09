@@ -246,6 +246,25 @@ async function main() {
       return 0;
     }
 
+    case "--token": {
+      // Gibt einen Access-Token auf stdout aus, damit ihn andere Werkzeuge
+      // uebernehmen koennen — namentlich PnP PowerShell via
+      //     Connect-PnPOnline -AccessToken <token>
+      // Das ist der Umweg um die Sackgasse, dass PnP das PEM-Zertifikat nicht
+      // annimmt (nur PFX). Der Token ist kurzlebig und wird NIE in eine Datei
+      // geschrieben; er gehoert in eine Umgebungsvariable, nicht auf die
+      // Kommandozeile (dort waere er in `ps` sichtbar).
+      const ziel = (wert || "graph").toLowerCase();
+      const scope =
+        ziel === "admin"
+          ? `https://${TENANT_HOST.replace(".sharepoint.com", "-admin.sharepoint.com")}/.default`
+          : ziel === "spo"
+            ? `https://${TENANT_HOST}/.default`
+            : `${GRAPH}/.default`;
+      process.stdout.write(await tokenHolen(scope));
+      return 0;
+    }
+
     case "--get":
       console.log(JSON.stringify(await graphAnfrage(wert), null, 2));
       return 0;
