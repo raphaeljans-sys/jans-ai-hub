@@ -73,6 +73,11 @@ existiert. `STOP` kann ausschliesslich verhindern; `JA` verkuerzt nur eine Frist
 ablaufen wuerde, und kann nichts starten, was nicht bereits angemeldet und von dieser
 Whitelist gedeckt war. Zahlungen sind ueber diesen Weg nicht erreichbar.
 
+**Der Takt** (`scripts/install-widerruf-takt.sh`, launchd, alle 5 Minuten) ruft
+`widerruf-queue.sh --pruefen` auf. Ohne ihn bleibt eine angemeldete Aktion liegen, bis
+zufaellig jemand prueft — am 09.08.2026 belegt, als ein Testvorgang fuenf Stunden ueber
+seiner Frist stand. Er ist der EINZIGE Taktgeber der Queue (Rule betrieb-chronik 260727).
+
 Getestet am 09.08.2026: Anmeldung, Meldemail, automatische Ausfuehrung nach Fristablauf und
 Veto ueber die Station laufen; die Zahlungssperre weist ab.
 
