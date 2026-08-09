@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 09.08.2026 02:51:09
+Stand: 09.08.2026 03:11:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 02:49)
+- Developer/jans/ai/hub//claude/worktrees/fc/bayern/plus/enable/7295cc  (letzte Aktivitaet 03:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 09.08.2026 02:51:09
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bb166327 nas-selfcommit: 10 Datei(en) 2026-08-09 02:45
+- 306062bd Logbuch und Fristen-Register: KISPI erledigt, Autonomie-Ausbau protokolliert

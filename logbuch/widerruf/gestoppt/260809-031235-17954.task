@@ -1,0 +1,10 @@
+id=260809-031235-17954
+typ=test
+was=Veto-Test A
+an=
+angemeldet=2026-08-09 03:12
+faellig_ts=1786241555
+faellig=2026-08-09 04:12
+station=Macbookpro
+befehl=echo A-DARF-NICHT-LAUFEN >> /tmp/widerruf-test.log
+gestoppt=2026-08-09 03:12

@@ -5007,3 +5007,13 @@ Claude-Code-App (Scheduled Tasks) muss dort selbst deaktiviert/geloescht werden 
 aus nicht moeglich. Kein Geld/Frist/Kunde betroffen, reine Hub-Interna.
 
 08.08.2026 16:xx (Nachtschicht Mac Mini, ausserplanmaessig 16:04) — energie-KB: PL-02/eco-bau-Block durch OneDrive-Sperre blockiert (Resource deadlock avoided), stattdessen E-125-4 (Impulsberatung kostenpflichtig/kostenlos-Widerspruch) per Web-Recherche geklaert: seit 1.4.2022 schweizweit kostenlos. Destillat heizungsersatz-groessere-mfh-stweg.md + QUESTIONS.md + CHANGELOG nachgefuehrt. Budget 5 USD ausgeschoepft, sauber beendet.
+
+- 2026-08-09 03:06 (Widerrufs-Queue) angemeldet 260809-030636-17318 — Testlauf Widerrufsfenster (schreibt nur eine Logzeile) (faellig 03:08)
+
+- 2026-08-09 03:10 (Widerrufs-Queue) ausgefuehrt 260809-030636-17318 — Testlauf Widerrufsfenster (schreibt nur eine Logzeile)
+
+- 2026-08-09 03:12 (Widerrufs-Queue) angemeldet 260809-031235-17954 — Veto-Test A (faellig 04:12)
+
+- 2026-08-09 03:12 (Widerrufs-Queue) GESTOPPT 260809-031235-17954 — Veto-Test A
+
+- 2026-08-09 03:12 (Widerrufs-Queue) angemeldet 260809-031236-17986 — Mail-Rueckkanal-Test (faellig 03:57)

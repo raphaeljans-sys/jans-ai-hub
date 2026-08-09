@@ -58,6 +58,24 @@ Statt vorher zu fragen, wird nachher ein Fenster offen gelassen:
 Damit laeuft der Normalfall ohne ihn, und er kann trotzdem eingreifen, solange es noch etwas
 zu greifen gibt. Mechanik: `scripts/widerruf-queue.sh`.
 
+**Der Rueckkanal** (`scripts/freigabe-inbox.sh`) liest Raphaels Mailantwort und setzt den
+Entscheid um, damit keine Station noetig ist:
+
+| Antwort | Wirkung |
+|---|---|
+| `STOP <id>` oder `NEIN <id>` | Vorgang wird nicht ausgefuehrt |
+| `JA <id>` | sofort ausfuehren, ohne den Rest der Frist abzuwarten |
+
+Er wird von `--pruefen` **vor** der Fristpruefung aufgerufen, damit ein eingetroffenes Veto
+sicher wirkt, bevor etwas anlaeuft. Ausgewertet werden nur Mails aus dem Postfach `rj@` mit
+Absender `rj@raphaeljans.ch`, und eine Kennung wirkt nur, wenn zu ihr ein offener Vorgang
+existiert. `STOP` kann ausschliesslich verhindern; `JA` verkuerzt nur eine Frist, die ohnehin
+ablaufen wuerde, und kann nichts starten, was nicht bereits angemeldet und von dieser
+Whitelist gedeckt war. Zahlungen sind ueber diesen Weg nicht erreichbar.
+
+Getestet am 09.08.2026: Anmeldung, Meldemail, automatische Ausfuehrung nach Fristablauf und
+Veto ueber die Station laufen; die Zahlungssperre weist ab.
+
 ## Was ausserhalb dieser Whitelist blockiert
 
 Zwei Schichten liegen **ueber** dieser Whitelist und lassen sich hier nicht oeffnen:

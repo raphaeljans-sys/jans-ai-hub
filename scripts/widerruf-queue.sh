@@ -123,6 +123,8 @@ anmelden() {
     } > "$datei"
 
     local faellig_lesbar; faellig_lesbar="$(date -r "$faellig_ts" "+%H:%M")"
+    # Mail-Text mit echten Umlauten (Rule umlaute-konvention; der Stop-Hook
+    # umlaut-guard.sh und der mail-draft-guard pruefen genau das)
     melden "Geht um $faellig_lesbar raus: $was" \
 "$was
 
@@ -131,7 +133,9 @@ Geht automatisch raus um: $faellig_lesbar
 Vorgang: $id
 
 Wenn das nicht rausgehen soll, antworte mit STOP $id
-oder fuehre aus: bash scripts/widerruf-queue.sh --stop $id"
+
+Sofort senden statt warten: antworte mit JA $id
+Auf einer Station: bash scripts/widerruf-queue.sh --stop $id"
 
     echo "angemeldet: $id (faellig $faellig_lesbar)"
     protokoll "angemeldet $id — $was (faellig $faellig_lesbar)"
@@ -139,6 +143,15 @@ oder fuehre aus: bash scripts/widerruf-queue.sh --stop $id"
 
 # --- Pruefen und ausfuehren --------------------------------------------------
 pruefen() {
+    # Zuerst den Mail-Rueckkanal lesen: ein Veto, das eingetroffen ist, muss
+    # wirken BEVOR die Frist geprueft wird. Sonst liefe eine Aktion an, die
+    # Raphael bereits gestoppt hat. Der Aufruf ist bewusst hier verankert und
+    # nicht als eigener Taktgeber (Rule betrieb-chronik 260727).
+    local inbox="$HUB/scripts/freigabe-inbox.sh"
+    if [ -f "$inbox" ] && [ "${WIDERRUF_OHNE_INBOX:-0}" != "1" ]; then
+        WIDERRUF_OHNE_INBOX=1 bash "$inbox" >/dev/null 2>&1
+    fi
+
     local jetzt; jetzt="$(jetzt_ts)"
     local anzahl=0
 
@@ -163,7 +176,7 @@ pruefen() {
             printf 'fehler=%s\n' "$(jetzt_lesbar)" >> "$datei"
             protokoll "FEHLGESCHLAGEN $id — $was"
             melden "Fehlgeschlagen: $was" \
-"Der Vorgang $id konnte nicht ausgefuehrt werden.
+"Der Vorgang $id konnte nicht ausgeführt werden.
 
 $was
 

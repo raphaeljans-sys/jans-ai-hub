@@ -73,14 +73,14 @@ fi
 M365="$SSD/node_modules/.bin/m365"
 if [ -x "$M365" ]; then
     "$M365" status --output json 2>/dev/null | grep -q '"authType"' \
-        || notiere "Weg 1 (M365-CLI) antwortet nicht mehr — Anmeldung pruefen."
+        || notiere "Weg 1 (M365-CLI) antwortet nicht mehr — Anmeldung prüfen."
 else
     notiere "Weg 1 (M365-CLI) nicht gefunden unter $M365"
 fi
 
 if [ -f "$CONNECTOR" ]; then
     node "$CONNECTOR" --selbsttest >/dev/null 2>&1 \
-        || notiere "Weg 2 (m365-graph.mjs) traegt nicht mehr — Zertifikat pruefen."
+        || notiere "Weg 2 (m365-graph.mjs) trägt nicht mehr — Zertifikat prüfen."
 else
     notiere "Weg 2 (m365-graph.mjs) fehlt."
 fi
@@ -90,7 +90,7 @@ fi
 if [ "$(date '+%d')" = "01" ] && [ -f "$CONNECTOR" ]; then
     GAESTE="$(node "$CONNECTOR" --gaeste kispi 2>/dev/null)"
     if [ -n "$GAESTE" ]; then
-        notiere "Monatliche Durchsicht — Gaeste auf JANS - 2619-KISPI:"
+        notiere "Monatliche Durchsicht — Gäste auf JANS - 2619-KISPI:"
         notiere "$GAESTE"
         notiere ""
         notiere "Die Site ist seit 09.08.2026 von der 60-Tage-Ablaufpolicy ausgenommen."

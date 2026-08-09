@@ -1,0 +1,9 @@
+id=260809-030636-17318
+typ=test
+was=Testlauf Widerrufsfenster (schreibt nur eine Logzeile)
+an=rj@raphaeljans.ch
+angemeldet=2026-08-09 03:06
+faellig_ts=1786237716
+faellig=2026-08-09 03:08
+station=Macbookpro
+befehl=echo Testlauf-ausgefuehrt >> /tmp/widerruf-test.log

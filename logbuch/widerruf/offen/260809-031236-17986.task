@@ -1,0 +1,9 @@
+id=260809-031236-17986
+typ=test
+was=Mail-Rueckkanal-Test
+an=
+angemeldet=2026-08-09 03:12
+faellig_ts=1786240656
+faellig=2026-08-09 03:57
+station=Macbookpro
+befehl=echo B-GELAUFEN >> /tmp/widerruf-test.log
