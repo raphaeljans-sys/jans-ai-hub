@@ -5,6 +5,45 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Session Raphael 09.08.2026 (01:40 bis 03:05 — Autonomie-Ausbau, KISPI erledigt)
+
+**Ausloeser:** Auftrag «abgelaufene Berechtigungen auf der KISPI-SharePoint-Seite verlaengern»,
+danach der Grundsatzauftrag, mehrere Wege freizuschalten, damit Routinen ohne Anwesenheit
+durchlaufen. Planmodus, Plan genehmigt.
+
+**Befund, der den Ausbau ausgeloest hat:** Der KISPI-Auftrag wurde zunaechst als «kein Weg
+vorhanden» zurueckgegeben. Das war falsch. Die CLI for Microsoft 365 war durchgehend per
+Zertifikat angemeldet (`Sites.FullControl.All`, gueltig bis 2028) und lag nur nicht im `PATH`.
+Blockiert hat also nicht die Berechtigung, sondern die Auffindbarkeit.
+
+**Ausgefuehrt (A6, umkehrbar, protokolliert):**
+- Dateirechte von `~/.cli-m365-connection.json`, `-all-connections.json` und `-msal.json` von
+  **644 auf 600** gesetzt. Sie enthalten privaten Schluessel und gueltige Live-Tokens im
+  Klartext und lagen lockerer als jede andere Secret-Datei im Hub.
+- `wege-doctor.sh` im Reparaturmodus: PATH-Shim `~/.local/bin/m365` angelegt. Danach «alle
+  Wege tragen».
+
+**Durch Raphael ausgefuehrt (Klassifikator blockte die Ausfuehrung durch Claude):**
+- `kispi-gastzugriff-wiederherstellen.sh` — 6 von 6 wiederhergestellt, Gegenprobe bestaetigt.
+- `kispi-ablaufpolicy-ausnehmen.sh` — `OverrideTenantExternalUserExpirationPolicy` False → True,
+  Gegenprobe bestaetigt. Nachmessung: 19 Gaeste, keiner mehr mit Ablaufdatum.
+- `hub-freigaben-eintragen.sh` — 9 gezielte Bash-Freigaben fuer die Hub-Werkzeuge, mit Sicherung.
+
+**Gebaut:** `connectors/WEGE.md` (Wege-Register mit 10 belegten Sackgassen) ·
+`connectors/m365-graph.mjs` (zweiter, CLI-unabhaengiger Graph-Weg, verifiziert) ·
+`scripts/wege-doctor.sh` · `scripts/wege-radar.sh` (als Check 12 im `heartbeat`, kein zweiter
+Taktgeber) · `scripts/widerruf-queue.sh` (Zahlungssperre getestet und greift) ·
+`logbuch/AKTIONS-WHITELIST.md` **v2** (A6 bis A9, Widerrufsfenster) ·
+Rule `wege-und-vollmachten.md` (importiert) · Eintrag `auto-verbesserungen` 260809.
+
+**Methodisch gelernt:** PnP PowerShell nimmt das PEM-Zertifikat nicht an, laesst sich aber per
+`-AccessToken` mit einem Token aus dem hub-eigenen Connector anmelden. Damit ist alles
+erreichbar, wofuer sonst die Windows-only SPO-Management-Shell noetig waere. Steht als Weg 3
+im Register.
+
+**Offen:** Mail-Rueckkanal fuer Freigaben (JA/NEIN je Vorgang) noch nicht gebaut; die
+Widerrufs-Queue ist bis auf die Zahlungssperre ungetestet.
+
 ## Hub-Chef 08.08.2026 (08:39 bis 09:03, MIT Befund — Briefing versendet)
 
 **Signale gelesen:** Radar-Briefing 08.08. im Logbuch (06:55, vollstaendig vorhanden, Pflichtlektuere
