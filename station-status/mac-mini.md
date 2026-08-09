@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 09.08.2026 08:59:58
+Stand: 09.08.2026 09:09:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 09.08.2026 08:59:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 10a63558 Whitelist v2: Takt der Widerrufs-Queue dokumentiert
+- ba349219 nas-selfcommit: 2 Datei(en) 2026-08-09 09:00
