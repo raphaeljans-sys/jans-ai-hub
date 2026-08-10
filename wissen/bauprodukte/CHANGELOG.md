@@ -1,5 +1,49 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-10 (Mac Mini Nachtschicht 23:30) — ERCO-Ratgeber Seite 175 auf Seite 210 fortgeschrieben, Kapitel «Innenraumbeleuchtung» abgeschlossen, «Aussenraumbeleuchtung» begonnen
+
+Fortsetzung des Vorlaufs vom 07.08. 05:35. `de_erco_guide.pdf` (BKP 233, P1, 435 S.)
+von Seite 176 bis Seite 210 gelesen (`pdftotext -layout`, Textqualitaet gut).
+[[erco-lichtplanung-grundlagen]] erweitert:
+
+- **Kapitel «Innenraumbeleuchtung» (S. 110-183) fertiggestellt:** Rest des
+  Unterkapitels «Lichtanwendungen» — Objekt im Raum (S. 176-178, Anordnung
+  30°-45° zur Senkrechten), Objekt an der Wand (S. 178-180, Konturenstrahler,
+  Reflexionsschutz bei Ölgemälden/verglasten Grafiken), Orientierungsbeleuchtung
+  (S. 181-182) und Hinweisbeleuchtung (S. 183) — letztere beide als inhaltliche
+  Wiederholung bereits gelesener Abschnitte (S. 128-129/151) vermerkt statt
+  vollständig neu ausformuliert.
+- **Neues Hauptkapitel «Aussenraumbeleuchtung» (S. 184-210) begonnen**, beide
+  ersten Unterkapitel vollständig gelesen: «Arten des Beleuchtens» (S. 184-196:
+  Allgemein direkt gerichtet/diffus, Fluten symmetrisch/asymmetrisch,
+  Akzentuieren, Orientierung — spiegelt strukturell das Innenraum-Pendant
+  S. 110-129) und «Leuchtengruppen» (S. 197-210: Scheinwerfer, Fluter,
+  Wandfluter, Freiflächen-/Wegeleuchten, Downlights, Decken-/Wandleuchten,
+  Bodeneinbauleuchten, Orientierungsleuchten — spiegelt S. 130-151). Sauberer
+  Stopp vor Kapitel «Lichtanwendungen» Aussenraum (beginnt S. 211, am Original
+  verifiziert per `pdftotext -f 211`).
+- **Downlight-Abstandsregel (a≤1,5h, optimal a=h)** jetzt auch für den
+  Aussenraum belegt (S. 203-204) — sechster unabhängiger Fund im Dokument,
+  im Praxisrelevanz-Abschnitt als tragfähige Faustregel für Aussenraum-
+  Vorprüfungen vermerkt.
+- **Erster expliziter Lichtverschmutzungs-Hinweis** im Dokument gefunden
+  (S. 201, Freiflächen-/Wegeleuchten: «Abblendwinkel... begrenzt Blendung und
+  Lichtverschmutzung») — als Praxisrelevanz-Punkt mit Verweis auf fehlende
+  normative Grenzwert-Fundstelle in diesem Ratgeber vermerkt.
+- **Struktur-Beobachtung für künftige Läufe:** die Orientierungs-/
+  Fluchtweg-Kernaussage wiederholt sich wortgleich an drei Stellen des
+  Dokuments (S. 128-129, S. 181-182, S. 195-196) über verschiedene
+  Gliederungsachsen (Lichtverteilung/Bezugsfläche/Aussenraum) — als
+  Offener-Punkt-Hinweis festgehalten, damit künftige Destillate bei
+  Wiederholungen knapp verweisen statt neu auszuformulieren.
+- Register nachgeführt: `wiki/INDEX.md` (Titel/Statuszeile), `skills/wissens-
+  destillat/training/bauprodukte-inventar.md`, `wissen/bauprodukte/training/
+  PROGRAMM.md`. Frontmatter (`gelesen`, `sources`, `last_updated`, `title`)
+  aktualisiert.
+
+Kein Fan-out, kein Subagent (5-USD-Nachtschicht-Zyklus, Prioritaet 4 — aktiver
+Destillat-Korpus, aktuellster inhaltlicher Stand vor `energie`/`grobkosten`).
+
 ## 2026-08-07 (Wissens-Chef Run 28) — Norm-Verweis bei der Aufzugs-Elektroschnittstelle nachgetragen, drei Seitenzuschreibungen im ERCO-Artikel am Original richtiggestellt
 
 Ausführungslauf des Wissens-Chefs, Befunde adversarial vorverifiziert. Berührt nur

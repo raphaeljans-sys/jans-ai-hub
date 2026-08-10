@@ -37,18 +37,23 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 07.08.2026 (Nachtschicht 05:35):** 37 Sektionen inventarisiert · 214 Dateien erfasst
+**Stand 10.08.2026 (Nachtschicht 23:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
 · 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
 · 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und Lampen, P1) von
-Seite 145 auf Seite 175 fortgeschrieben — Unterkapitel «Leuchtengruppen»
-(Innenraumbeleuchtung) vollstaendig abgeschlossen (Wandleuchten-Rest, Perimeterleuchten,
-Bodeneinbauleuchten, Orientierungsleuchten, Not- und Hinweisleuchten), neues Hauptkapitel
-«Lichtanwendungen» begonnen und bis zur Kapitelgrenze S. 175 vollstaendig gelesen
-(Nutzflaeche: Arbeitsplatz/Flaeche klein/Flaeche gross; Wand: 3m/5m/mit Struktur; Decke:
-plan/Tragstruktur; Boden) → [[erco-lichtplanung-grundlagen]]. Sauberer Stopp vor Kapitel
-«Objekt» (beginnt S. 176, am Original verifiziert). Rest (Lichtanwendungen-Rest: Objekt/
-Orientierungsbeleuchtung/Hinweisbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung,
-Lichttechnik, Simulation und Berechnung, Glossar) offen fuer weitere Folgelaeufe.
+Seite 176 auf Seite 210 fortgeschrieben — Kapitel «Innenraumbeleuchtung» (S. 110-183)
+vollstaendig abgeschlossen (Lichtanwendungen-Rest: Objekt im Raum/an der Wand,
+Orientierungsbeleuchtung, Hinweisbeleuchtung), neues Hauptkapitel «Aussenraumbeleuchtung»
+begonnen und die beiden Unterkapitel «Arten des Beleuchtens» (S. 184-196: Allgemein direkt
+gerichtet/diffus, Fluten symmetrisch/asymmetrisch, Akzentuieren, Orientierung) sowie
+«Leuchtengruppen» (S. 197-210: Scheinwerfer/Fluter/Wandfluter/Freiflaechen- und
+Wegeleuchten/Downlights/Decken- und Wandleuchten/Bodeneinbauleuchten/
+Orientierungsleuchten) vollstaendig gelesen → [[erco-lichtplanung-grundlagen]]. Sauberer
+Stopp vor Kapitel «Lichtanwendungen» Aussenraum (beginnt S. 211, am Original verifiziert).
+Rest (Aussenraum-Lichtanwendungen, Lichtsteuerung, Lichttechnik, Simulation und
+Berechnung, Glossar) offen fuer weitere Folgelaeufe.
+Zuvor, 07.08.2026 (Nachtschicht 05:35): Seite 145 auf Seite 175 fortgeschrieben (Unterkapitel
+«Leuchtengruppen» Innenraumbeleuchtung abgeschlossen, Kapitel «Lichtanwendungen»
+begonnen).
 Zuvor, 06.08.2026 (Nachtschicht 23:31): Seite 120 auf Seite 145 fortgeschrieben (Unterkapitel
 «Arten des Beleuchtens» abgeschlossen, «Leuchtengruppen» begonnen).
 Zuvor, 06.08.2026 (Nachtschicht 02:39): Seite 95 auf Seite 120 fortgeschrieben (Kapitel

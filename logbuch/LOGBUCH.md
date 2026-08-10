@@ -5,6 +5,40 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Mac Mini Nachtschicht 10.08.2026, 23:30 (KB bauprodukte, ERCO-Ratgeber S. 176-210)
+
+Prioritaeten 1-2 leer (remote-tasks/pending und sync-tasks/mac-mini ohne Auftrag; Synobsis
+853/853 seit 02.07., kein offener Mini-exklusiver Punkt). Prioritaet 3 (Fristen) war bereits
+im 13:30-Slot heute als Zusammenstellung abgedeckt, kein neuer Stand verfuegbar (Mac Mini
+ohne bexio-/Mail-Zugriff) — nicht dupliziert. Prioritaet 4 gezogen: unter den freien
+Trainingszielen (bauprodukte/energie/grobkosten) traegt `bauprodukte` laut eigener
+PROGRAMM.md die hoechste Prioritaet der Destillat-Korpora und war seit 07.08. 23:47 (Wissens-
+Chef-Korrekturlauf) bzw. 07.08. 05:35 (letzter eigener Trainingslauf) nicht mehr fortgesetzt.
+
+`de_erco_guide.pdf` (BKP 233, P1, 435 S.) von Seite 176 auf Seite 210 fortgeschrieben
+(`pdftotext -layout`, am Original gelesen, kein Subagent noetig). Kapitel
+«Innenraumbeleuchtung» (S. 110-183) damit vollstaendig: Rest von «Lichtanwendungen»
+(Objekt im Raum/an der Wand, Orientierungsbeleuchtung, Hinweisbeleuchtung) ergaenzt.
+Neues Hauptkapitel «Aussenraumbeleuchtung» begonnen, beide ersten Unterkapitel
+vollstaendig gelesen: «Arten des Beleuchtens» (S. 184-196, spiegelt strukturell das
+Innenraum-Pendant) und «Leuchtengruppen» (S. 197-210, acht Gruppen). Sauberer Stopp vor
+Kapitel «Lichtanwendungen» Aussenraum (S. 211, am Original verifiziert). [[erco-lichtplanung-
+grundlagen]] entsprechend erweitert (neue Praxisrelevanz-Punkte: Downlight-Abstandsregel
+a≤1,5h/a=h jetzt sechsfach belegt inkl. Aussenraum, erster expliziter
+Lichtverschmutzungs-Hinweis im Dokument S. 201, Reflexionsschutz bei reflektierenden
+Exponaten S. 179-180). Struktur-Beobachtung vermerkt: die Orientierungs-/
+Fluchtweg-Kernaussage wiederholt sich wortgleich an drei Stellen des Dokuments ueber
+verschiedene Gliederungsachsen — fuer kuenftige Laeufe als Verweis statt Neuformulierung
+festgehalten, keine dreifach unabhaengige Sachwert-Bestaetigung.
+
+Register nachgefuehrt: `wiki/INDEX.md`, `wiki/erco-lichtplanung-grundlagen.md` (Frontmatter),
+`skills/wissens-destillat/training/bauprodukte-inventar.md`,
+`wissen/bauprodukte/training/PROGRAMM.md`, `wissen/bauprodukte/CHANGELOG.md`. Kein
+Fan-out, kein Subagent. Kein Versand/Publikation/Buchung. Zyklus beendet (~4.1 von 5 USD,
+inkl. Erkundung der Prioritaeten 1-3 und Registerpflege).
+
+---
+
 ## Mac Mini Nachtschicht 10.08.2026, 13:30 (Versuchs-Slot — Zusammenstellung Fristen, kein Radar-Lauf)
 
 **Befund statt Aufgabe:** Prioritaeten 1 und 2 des Nachtschicht-Programms lieferten nichts zu

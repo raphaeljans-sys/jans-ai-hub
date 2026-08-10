@@ -14,7 +14,7 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
-- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-175 von ca. 435):
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-210 von ca. 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
   (Lichtrichtung/-verteilung/Kontrastskala), Mit Lichtfarben gestalten (Farbe,
@@ -22,16 +22,19 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   Planungspraxis vollständig (Projektanalyse, Lampen-/Leuchtenauswahl inkl.
   Lichtverteilung/Montagearten/UGR/Beleuchtungsstärke/IP-Schutzart, Leuchtenanordnung,
   Montage Decke/Wand/Boden, Wartung), Licht visualisieren vollständig (Zeichnung,
-  Simulation, Modell/Mock-up), Innenraumbeleuchtung: Arten des Beleuchtens vollständig
-  (Allgemein direkt/direkt diffus/indirekt/kombiniert, Fluten, Akzentuieren, Projektion,
-  Orientierung), Leuchtengruppen vollständig (Stromschiene/Strahler/Fluter/Wandfluter/
-  Lichtstrukturen/Downlights/Arbeitsplatzleuchten/Wandleuchten/Perimeterleuchten/
-  Bodeneinbauleuchten/Orientierungsleuchten/Not- und Hinweisleuchten); Lichtanwendungen
-  begonnen (Nutzfläche: Arbeitsplatz/Fläche klein/Fläche groß vollständig, Wand: 3m/5m/
-  mit Struktur vollständig, Decke: plan/Tragstruktur vollständig, Boden vollständig).
-  Weitere Kapitel offen (Lichtanwendungen-Rest: Objekt/Orientierungsbeleuchtung/
-  Hinweisbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik, Simulation
-  und Berechnung, Glossar)
+  Simulation, Modell/Mock-up), Kapitel Innenraumbeleuchtung (S. 110-183) vollständig:
+  Arten des Beleuchtens (Allgemein direkt/direkt diffus/indirekt/kombiniert, Fluten,
+  Akzentuieren, Projektion, Orientierung), Leuchtengruppen (Stromschiene/Strahler/
+  Fluter/Wandfluter/Lichtstrukturen/Downlights/Arbeitsplatzleuchten/Wandleuchten/
+  Perimeterleuchten/Bodeneinbauleuchten/Orientierungsleuchten/Not- und
+  Hinweisleuchten), Lichtanwendungen (Nutzfläche/Wand/Decke/Boden/Objekt im Raum/
+  an der Wand/Orientierungsbeleuchtung/Hinweisbeleuchtung). Kapitel
+  Aussenraumbeleuchtung begonnen: Arten des Beleuchtens vollständig (Allgemein direkt
+  gerichtet/diffus, Fluten symmetrisch/asymmetrisch, Akzentuieren, Orientierung),
+  Leuchtengruppen vollständig (Scheinwerfer/Fluter/Wandfluter/Freiflächen- und
+  Wegeleuchten/Downlights/Decken- und Wandleuchten/Bodeneinbauleuchten/
+  Orientierungsleuchten). Weitere Kapitel offen (Aussenraum-Lichtanwendungen ab
+  S. 211, Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar)
 
 ### BKP 261 — Aufzüge
 - [[bkp-261-aufzuege]] — Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit
