@@ -5,6 +5,41 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Mac Mini Nachtschicht 10.08.2026, 13:30 (Versuchs-Slot — Zusammenstellung Fristen, kein Radar-Lauf)
+
+**Befund statt Aufgabe:** Prioritaeten 1 und 2 des Nachtschicht-Programms lieferten nichts zu
+tun (remote-tasks/pending und sync-tasks/mac-mini leer; KB architekten-synobsis 853/853,
+0 offen, Task `synobsis-batch-nacht` seit 28.07. bewusst deaktiviert). Bei Prioritaet 3 zeigte
+sich: **weder der Radar (06:55) noch der Hub-Chef (08:39) sind heute gelaufen** — das
+Lauf-Journal `logbuch/laeufe/` endet bei `260808-laeufe.jsonl`, fuer 09. und 10.08. existiert
+keine Zeile. Ursache ist bekannt und bereits kommuniziert, kein neuer Befund: das
+Wochenkontingent war laut `logbuch/kontingent/waechter.log` seit 08.08. 23:46 erschoepft
+(«der Hub steht»), Reset laut `verbrauch-Macmini.json` erst heute 10.08. 12:00. Die Zeitfenster
+von Radar und Hub-Chef lagen beide vor dem Reset und sind ausgefallen; dieser 13:30-Slot ist der
+erste Lauf danach.
+
+**Zusammenstellung (Entwurf, NICHT versendet, aus dem Radar-Stand 08.08.2026 fortgeschrieben,
+heute nicht neu gegen Mail/bexio verifiziert — Mac Mini hat kein bexio-Token):**
+
+Fuer heute Montag 10.08. waren im Radar vom 08.08. bereits terminiert: die eigene Zusage an
+Kuebler, den Ausfuehrungsplan GR 1. OG 1:50 «mit dem Betriebskonzept» zuzustellen (Betriebskonzept
+laut Radar vom 08.08. noch nicht erstellt); der definitive Sanitaerstand (Raumplaene 1:20,
+Ausfuehrungsplan 1:50) auf SharePoint; sowie die Frage, ob der SharePoint-Zugriff der sieben
+KISPI-Externen fristgerecht verlaengert wurde (lief am 08.08. ab, laut Logbuch-Eintrag
+«Session Raphael 09.08.2026» unten wurden 6 von 6 Gastzugriffen am 09.08. wiederhergestellt —
+dieser Punkt ist also vermutlich erledigt, siehe dort). Aus dem Geld-Bestand vom 08.08. offen:
+RE-00087 (KISPI, CHF 15'000, Mahnung 2 ueberfaellig), RE-00098/RE-00099 (KISPI, zusammen CHF
+17'280, Mahnfrist faellig Mi 12.08.), RE-00100 (Swiss Central City, CHF 13'120, Faelligkeitsdatum
+in bexio vermutlich falsch datiert) und RE-00101 (Tschopp, CHF 6'000, gesperrt bis
+E-Banking-Gegenpruefung) — Stand unveraendert seit 08.08., heute nicht neu gegen bexio geprueft.
+
+**Empfehlung:** Sobald eine Station mit bexio-Token und vollem Mail-Zugriff laeuft, den
+regulaeren Hub-Chef fuer den 10.08. nachholen (frischer Mail-/bexio-/Kalender-Abgleich) statt
+sich auf diese Zusammenstellung zu verlassen — sie ist bewusst nur eine Fortschreibung, keine
+Neuerhebung. Kein Whitelist-Punkt ausgefuehrt, keine Mail erzeugt oder versendet.
+
+---
+
 ## Session Raphael 09.08.2026 (01:40 bis 03:05 — Autonomie-Ausbau, KISPI erledigt)
 
 **Ausloeser:** Auftrag «abgelaufene Berechtigungen auf der KISPI-SharePoint-Seite verlaengern»,
