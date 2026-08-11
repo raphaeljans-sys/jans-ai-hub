@@ -37,10 +37,14 @@ eine zweite Wahrheit, Rule `sync-kanonische-quelle`).
 | Begruendung der Reihenfolge | `skills/wissens-destillat/KORPUS-QUEUE.md` |
 | Quelle (nur lesen) | `/Volumes/daten/03 Bauprodukte_BKP` |
 
-**Stand 10.08.2026 (Nachtschicht 23:30):** 37 Sektionen inventarisiert · 214 Dateien erfasst
-· 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst uebersprungen `[-]`
-· 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und Lampen, P1) von
-Seite 176 auf Seite 210 fortgeschrieben — Kapitel «Innenraumbeleuchtung» (S. 110-183)
+**Stand 11.08.2026 (Nachtschicht 02:30-Fortsetzung):** 37 Sektionen inventarisiert · 214
+Dateien erfasst · 16 destilliert `[x]` · 29 triagiert `[t]` · 22 offen `[ ]` · 147 bewusst
+uebersprungen `[-]` · 9 Wiki-Artikel. Letzte Einheit: `de_erco_guide.pdf` (233 Leuchten und
+Lampen, P1) von Seite 210 auf Seite 240 fortgeschrieben — Aussenraum-Lichtanwendungen
+Wand/Decke/Boden/Objekt (S. 211-229) vollstaendig, vier von sechs Fassadentypen (S. 230-239)
+vollstaendig, Lochfassade angelesen bis S. 240. Sauberer Stopp vor S. 241 (Lochfassade-Rest).
+→ [[erco-lichtplanung-grundlagen]].
+Zuvor, 10.08.2026 (Nachtschicht 23:30): Seite 176 auf Seite 210 fortgeschrieben — Kapitel «Innenraumbeleuchtung» (S. 110-183)
 vollstaendig abgeschlossen (Lichtanwendungen-Rest: Objekt im Raum/an der Wand,
 Orientierungsbeleuchtung, Hinweisbeleuchtung), neues Hauptkapitel «Aussenraumbeleuchtung»
 begonnen und die beiden Unterkapitel «Arten des Beleuchtens» (S. 184-196: Allgemein direkt

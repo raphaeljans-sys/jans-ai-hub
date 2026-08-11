@@ -1,9 +1,9 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Lichtanwendungen, Aussenraumbeleuchtung (Teil 1/n, Seiten 1-210)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Lichtanwendungen, Aussenraumbeleuchtung (Teil 1/n, Seiten 1-240)"
 status: emerging
-last_updated: 2026-08-10
-gelesen: "Seiten 1-210 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG inkl. Montage S. 94-98 und Wartung S. 98; Kapitel «Licht visualisieren» VOLLSTÄNDIG S. 99-109; Kapitel «Innenraumbeleuchtung» VOLLSTÄNDIG S. 110-183 (Unterkapitel «Arten des Beleuchtens» S. 110-129, «Leuchtengruppen» S. 130-151, «Lichtanwendungen» S. 152-183 inkl. Objekt im Raum/an der Wand, Orientierungsbeleuchtung, Hinweisbeleuchtung); neues Hauptkapitel «Aussenraumbeleuchtung» S. 184-210 begonnen (Unterkapitel «Arten des Beleuchtens» S. 184-196 VOLLSTÄNDIG: Allgemein direkt gerichtet/diffus, Fluten symmetrisch/asymmetrisch, Akzentuieren, Orientierung; Unterkapitel «Leuchtengruppen» S. 197-210 VOLLSTÄNDIG: Scheinwerfer/Fluter/Wandfluter/Freiflächen- und Wegeleuchten/Downlights/Decken- und Wandleuchten/Bodeneinbauleuchten/Orientierungsleuchten)). Offen: Aussenraumbeleuchtung «Lichtanwendungen» ab S. 211 (Wand/Decke/Boden/Objekt/Fassade/Vegetation laut Übersichtsgrafik S. 211), «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung» (separates Kapitel laut Keywords), «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Aussenraumbeleuchtung (begonnen), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-183 Edition 07.07.2006, S.184-194 Edition 29.09.2006, S.195 Edition 01.03.2010, S.196-210 Edition 29.09.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-11
+gelesen: "Seiten 1-240 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG inkl. Montage S. 94-98 und Wartung S. 98; Kapitel «Licht visualisieren» VOLLSTÄNDIG S. 99-109; Kapitel «Innenraumbeleuchtung» VOLLSTÄNDIG S. 110-183; Hauptkapitel «Aussenraumbeleuchtung» S. 184-240 fortgeschrieben: Unterkapitel «Arten des Beleuchtens» S. 184-196 VOLLSTÄNDIG, «Leuchtengruppen» S. 197-210 VOLLSTÄNDIG, «Lichtanwendungen» S. 211-240 TEILWEISE (Wand/Decke/Boden/Objekt S. 211-229 VOLLSTÄNDIG; Fassade-Typen massiv/vertikale Gliederung/horizontale Gliederung/Vorsprung-Rücksprung S. 230-239 VOLLSTÄNDIG, Lochfassade angelesen bis S. 240, Fortsetzung + Fassade transparent + Vegetation offen)). Offen: Lochfassade-Rest ab S. 241, Fassade transparent, Vegetation, danach «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung» (separates Kapitel laut Keywords), «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Aussenraumbeleuchtung (fortgeschrieben bis S. 240), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-183 Edition 07.07.2006, S.184-194 Edition 29.09.2006, S.195 Edition 01.03.2010, S.196-210 Edition 29.09.2006, S.211-240 Edition 24.10.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[INDEX]]
 ---
 
@@ -15,7 +15,7 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 210 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 240 Seiten.
 
 ## Herstellerneutralität
 
@@ -956,6 +956,129 @@ Nächstes Unterkapitel «Lichtanwendungen» (Aussenraum) beginnt S. 211 mit
 Übersichtsgrafik Wand/Decke/Boden/Objekt/Fassade/Vegetation — sauberer Stopp vor
 der Kapitelgrenze, am Original verifiziert (`pdftotext -f 211`).
 
+## Aussenraumbeleuchtung — Lichtanwendungen: Wand, Decke, Boden, Objekt (S. 211-229, vollständig)
+
+Sechstes Unterkapitel des Aussenraum-Hauptkapitels, gegliedert nach
+Bezugsfläche/-objekt (Übersichtsgrafik S. 211: Wand, Decke, Boden, Objekt,
+Fassade, Vegetation) statt nach Beleuchtungsart — spiegelt damit den Aufbau des
+Innenraum-Pendants «Lichtanwendungen» (S. 152-183). Jede Bezugsfläche folgt dem
+festen Schema Beobachtung → Folgerung → Anordnung → Anwendung → Projektbeispiele.
+
+- **Wand 3m (S. 212-214):** Wandfluter erzeugen gleichmässigen
+  Helligkeitsverlauf; vertikale Beleuchtung betont Materialität, erweitert den
+  Raum optisch, verleiht bei punktuellen Quellen hohe Plastizität; nur bei
+  matten Oberflächen gleichmässig. **Anordnungsregel:** Wandabstand mindestens
+  ⅓ der Wandhöhe (alternativ Lichteinfallswinkel 20° zur Senkrechten);
+  optimaler Leuchtenabstand = Wandabstand, max. 1,5-faches Überschreiten;
+  Mindestzahl drei Leuchten für optimale Gleichmässigkeit. Anwendung:
+  Wandbeleuchtung, Fassaden, Eingangsbereiche; Leuchtengruppe Wandfluter.
+- **Wand 5m (S. 215-216):** bei zunehmender Wandhöhe nimmt Helligkeit bei
+  gleicher Beleuchtung ab; Linsenwandfluter mit speziellen
+  Linsen-Reflektorsystemen kompensieren. **Anordnungsregel:** Leuchtenabstand
+  muss bei hohen Wänden reduziert werden (anders als bei Normalhöhe, wo
+  Leuchtenabstand = Wandabstand); Wandabstand über 20°-Linie vom Wandscheitel
+  zum Boden markiert. Kompensation der abfallenden Beleuchtungsstärke über
+  höhere Lampenleistung/mehr Leuchten. Anwendung wie Wand 3m, zusätzlich
+  Linsenwandfluter.
+- **Wand mit Struktur (S. 217-218):** punktuelle Lichtquellen mit geringem
+  Wandabstand erzeugen eigenes Lichtmuster, betonen Struktur, aber keine
+  gleichmässige Flutung; Streiflicht betont Unebenheiten. Je kleiner der
+  Wandabstand, desto deutlicher die Oberflächenstruktur (Gleichmässigkeit sinkt
+  entsprechend). Leuchtengruppen: Downlights engstrahlend, Wandfluter,
+  Bodeneinbauleuchten (Uplight, Linsenwandfluter, Richtstrahler).
+- **Decke plan (S. 219-221):** Leuchten zur Deckenflutung an Wänden oder im
+  Boden montierbar (Uplights, Bodeneinbauleuchten); Deckenfluter brauchen
+  Mindestabstand zur Decke, Bodeneinbaustrahler nicht in Verkehrsflächen
+  (Blendung). **Anordnungsregel:** ausreichende Raumhöhe nötig, Deckenfluter
+  über Augenhöhe montieren, Deckenabstand mind. 0,8 m. Anwendung:
+  Eingangsbereiche, Arkaden, Passagen, Atrien, Kragdach; Leuchtengruppen
+  Deckenfluter, Bodeneinbaustrahler.
+- **Decke Tragstruktur (S. 221-223):** flutende Beleuchtung betont gesamte
+  Deckenfläche, engstrahlige Leuchten akzentuieren gezielt die Tragstruktur;
+  Leuchtenwahl richtet sich nach Massstab/Proportion des Tragwerks, Anordnung
+  orientiert sich an der Struktur selbst. Gleiche Blendungs-Einschränkung wie
+  Decke plan bei Bodeneinbaustrahlern in Verkehrsflächen. Leuchtengruppen:
+  Strahler, Deckenfluter, Bodeneinbauleuchten.
+- **Boden (S. 224-225, ein einziges Unterkapitel ohne weitere Aufteilung):**
+  Downlights oder seitlich angeordnete Fluter; Bodenfluter heben Grundfläche
+  und Materialität hervor, gewährleisten durch asymmetrische Lichtverteilung
+  Streiflicht bei hohem Sehkomfort (niedrige Montagehöhe, Reflektortechnik),
+  weicher Lichtkegel-Gradient reduziert Kontrast zur Umgebung; Blendfreiheit
+  von Downlights über Abblendwinkel gesteuert. Anwendung: Zufahrten, Wege,
+  Plätze; Leuchtengruppen Downlights, Bodenfluter, Pollerleuchten,
+  Mastleuchten.
+- **Objekt freistehend (S. 226-228):** Strahler oder Fluter; frontale
+  Beleuchtung mit einem Strahler = schwache Modellierung, zwei Strahler mit
+  Skulpturenvorsatz aus verschiedenen Richtungen = ausgewogene plastische
+  Wirkung mit gemilderten Kontrasten; Beleuchtung von unten wirkt
+  verfremdend (ungewohnte Lichtrichtung). **Anordnungsregel:**
+  Lichteinfallswinkel 30°-45° zur Senkrechten, je steiler desto stärker die
+  Schattenwirkung. Engstrahlige Strahler = reiner Objektakzent, Fluter zeigen
+  Objekt im Kontext der Umgebung mit geringerer Modellierung. Anwendung:
+  Parkanlagen, Skulpturen; Leuchtengruppen Strahler, Fluter.
+- **Objekt an der Wand (S. 228-230):** analog zu freistehenden Objekten,
+  zusätzlich Fluter oben/unten und Bodeneinbau-Richtstrahler/Linsenwandfluter;
+  Strahler = dekorativer Effekt mit starker Objektbetonung, Fluter zeigen das
+  Objekt weniger betont, aber mit homogenerer Wandausleuchtung.
+  Lichteinfallswinkel 30°-45°, je steiler desto stärker die Plastizität (statt
+  Schattenwirkung bei freistehenden Objekten — Unterschied explizit im
+  Original). Anwendung: Fassaden, Eingangsbereiche, Parkanlagen, Skulpturen;
+  Leuchtengruppen Strahler, Wandfluter, Uplight.
+
+## Aussenraumbeleuchtung — Lichtanwendungen: Fassade, Teil 1 (S. 230-240, Fortsetzung im nächsten Lauf)
+
+Umfangreichstes Unterkapitel von «Lichtanwendungen» Aussenraum (mind. 5
+Fassadentypen, S. 230 nennt zusätzlich noch «Fassade transparent» als sechsten,
+in diesem Lauf noch nicht gelesenen Typ). Übergreifender Grundsatz (S. 230):
+Material, Form, Lichtrichtung und Lichtfarbe bestimmen die Fassadengestalt;
+Streiflicht hebt Details hervor, flutende Beleuchtung lässt die Fassade als
+Ganzes erscheinen; **Abstrahlung ausserhalb der Fassadenfläche (seitlich, nach
+oben) soll grundsätzlich vermieden werden** — Lichtimmissions-relevanter Satz,
+Anknüpfungspunkt zum bereits in Teil 1 vermerkten Lichtverschmutzungs-Hinweis
+bei Freiflächenleuchten (S. 201).
+
+- **Fassade massiv (S. 231-234):** flutende Beleuchtung erzeugt sehr
+  gleichmässige Lichtverteilung, kann Fassade aber flach wirken lassen;
+  Lichtlinie oben markiert Gebäudeabschluss gegen den Nachthimmel mit
+  kontrastarmem Übergang; Uplights verleihen rhythmische Gliederung,
+  Up-Down-Kombination erzeugt graphische Lichtkegel-Muster; Streiflicht hebt
+  Materialstrukturen hervor, unkorrespondierende Lichtkegel wirken störend.
+  **Anordnungsregel:** Wandfluter im Abstand ⅓ bis ½ der Fassadenhöhe
+  vermeiden lange Schlagschatten; dicht angeordnete Leuchten erzeugen starkes
+  Streiflicht; Bodeneinbauleuchten architektonisch unauffällig (aber
+  überwucherungsgefährdet durch Vegetation); Mast- und Kragarmleuchten treten
+  additiv vor der Fassade in Erscheinung. Vier Montagevarianten belegt: Boden,
+  Mast, Kragarm, Gebäude/Fassadenleuchten selbst.
+- **Fassade, vertikale Gliederung (S. 234-236):** Fluter für gleichmässige
+  Gesamtbeleuchtung, punktförmige Lichtquellen machen Struktur sichtbar;
+  Akzentuierung von Stützen löst diese optisch von der Fassade; zweiseitige
+  Uplights betonen Stützenvolumen, Downlights akzentuieren Stütze und
+  Bodenbereich, Kombination unterstützt die vertikale Gliederung. **Regel:**
+  Leuchten im rechten Winkel parallel zur Fassade (vermeidet seitliche
+  Schatten); Leuchtenrhythmus soll mit Fassadengliederung korrespondieren;
+  starke Kontraste über flutende Allgemeinbeleuchtung ausgleichbar.
+- **Fassade, horizontale Gliederung (S. 236-237):** Fluter beleuchten
+  Gesamtfassade und betonen horizontale Gliederung über Schlagschatten;
+  Lichtlinien zeichnen die Struktur auf sonst dunkler Fassadenfläche nach.
+  **Regel:** dicht angeordnete Leuchten = ausgeprägte Plastizität, aber lange
+  Schlagschatten (reduzierbar über grösseren Leuchtenabstand); steilerer
+  Lichteinfallswinkel im oberen Fassadenbereich erzeugt grössere
+  Schlagschatten als im unteren.
+- **Fassade, Vorsprung-Rücksprung (S. 237-239):** breitabstrahlende Fluter mit
+  weitem Gebäudeabstand für gleichmässige Beleuchtung; starke Vor-/Rücksprünge
+  erzeugen ausgeprägte Schattenbildung; unterschiedliche
+  Beleuchtungsstärken/-farben differenzieren die Fassade, Uplights markieren
+  Innenecken mit Streiflicht. **Regel:** grösserer Leuchtenabstand reduziert
+  Schlagschatten; Leuchtenanordnung soll mit Fassadenstruktur korrespondieren;
+  harte Kontraste über flutende Grundbeleuchtung ausgleichbar.
+- **Lochfassade (S. 239-240, angelesen, Fortsetzung folgt):** bei Tageslicht
+  wirken Fensterflächen dunkel, bei Nacht erzeugen beleuchtete Innenräume
+  starken Kontrast zur dunklen Fassade; Fluter für gleichmässige
+  Fassadenlichtverteilung; Fensterleibungs-Beleuchtung hebt den
+  Öffnungsrahmen hervor; engstrahlige Uplights betonen das Fassadenraster.
+  Sauberer Stopp am Original vor Fortsetzung der Beobachtung (S. 241, am
+  PDF verifiziert `pdftotext -f 241`).
+
 ## Praxisrelevanz für JANS
 
 - Kellys Funktions-Dreiklang (Sehen/Hinsehen/Ansehen) ist ein brauchbares
@@ -1147,15 +1270,40 @@ der Kapitelgrenze, am Original verifiziert (`pdftotext -f 211`).
   inhaltlich identischen Wiederholungen über verschiedene Gliederungsachsen
   (Lichtverteilung vs. Bezugsfläche vs. Leuchtengruppe) reicht ein Verweis
   statt vollständiger Neuformulierung, um den Artikel nicht unnötig zu blähen.
+- Der Grundsatz **«Abstrahlung ausserhalb der Fassadenfläche zur Seite und
+  nach oben vermeiden»** (S. 230, zweifach wiederholt bei Fassade massiv
+  S. 233) ist der zweite konkrete Lichtimmissions-relevante Beleg des
+  Ratgebers (neben dem Freiflächenleuchten-Hinweis S. 201) und lässt sich
+  direkt als Planungsregel in ein Fassadenbeleuchtungskonzept übernehmen,
+  wenn eine Gemeinde oder das UGZ Lichtimmissionen thematisiert — wieder ohne
+  eigene normative Grenzwert-Fundstelle, die bleibt Sache von
+  `wissen/normen`/`wissen/baurecht`.
+- Die **Anordnungsregel «Wandfluter-Abstand ⅓ bis ½ der Fassadenhöhe vermeidet
+  lange Schlagschatten»** (Wand 3m S. 213, Fassade massiv S. 233) taucht jetzt
+  ein zweites Mal mit übereinstimmendem Wert auf — tragfähige Faustregel für
+  die Vorprüfung eines Fassadenbeleuchtungskonzepts, bevor die
+  Fachplaner-Offerte eingeholt wird (gleiche Kategorie wie das bereits
+  vermerkte Downlight-Abstandsverhältnis a≤1,5h).
+- Der explizite **Blendungshinweis bei der Lochfassade** («Blendung der
+  Nutzer im Innenraum sollte vermieden werden», S. 241, direkt an den
+  Stopp-Punkt dieses Laufs anschliessend) ist ein Praxispunkt speziell für
+  Fassadenkonzepte mit Fensterleibungs-/Innenraum-Beleuchtung — im nächsten
+  Lauf mit dem vollständigen Lochfassade-Abschnitt aufzunehmen.
 
 ## Offene Punkte
 
-- 210 von ca. 435 Seiten gelesen. Kapitel «Innenraumbeleuchtung» (S. 110-183)
-  jetzt vollständig, neues Kapitel «Aussenraumbeleuchtung» mit den
-  Unterkapiteln «Arten des Beleuchtens» (S. 184-196) und «Leuchtengruppen»
-  (S. 197-210) vollständig gelesen. Offen: Aussenraumbeleuchtung
-  «Lichtanwendungen» ab S. 211 (laut Übersichtsgrafik S. 211: Wand/Decke/
-  Boden/Objekt/Fassade/Vegetation), danach «Lichtsteuerung», «Lichttechnik»
+- 240 von ca. 435 Seiten gelesen. Kapitel «Innenraumbeleuchtung» (S. 110-183)
+  und die Unterkapitel «Arten des Beleuchtens» (S. 184-196) sowie
+  «Leuchtengruppen» (S. 197-210) von «Aussenraumbeleuchtung» sind vollständig;
+  vom Unterkapitel «Lichtanwendungen» (Aussenraum) sind Wand, Decke, Boden,
+  Objekt (S. 211-229) vollständig gelesen sowie von Fassade die Typen massiv,
+  vertikale Gliederung, horizontale Gliederung, Vorsprung-Rücksprung
+  (S. 230-239) vollständig und Lochfassade angelesen bis S. 240 (Beobachtung
+  vollständig, Folgerung/Anordnung/Anwendung ab S. 241 offen). Laut
+  Übersichtsgrafik S. 230 folgt nach Lochfassade noch der sechste Fassadentyp
+  «Fassade transparent», danach das letzte «Lichtanwendungen»-Unterkapitel
+  «Vegetation». Offen: Lochfassade-Rest, Fassade transparent, Vegetation,
+  danach «Lichtsteuerung», «Lichttechnik»
   mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur
   je Lampentyp), «Simulation und Berechnung» (eigenes Kapitel laut
   PDF-Keywords — Abgrenzung zum bereits gelesenen «Licht

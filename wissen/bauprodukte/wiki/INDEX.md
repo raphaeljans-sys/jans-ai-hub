@@ -14,7 +14,7 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
-- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-210 von ca. 435):
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-240 von ca. 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
   (Lichtrichtung/-verteilung/Kontrastskala), Mit Lichtfarben gestalten (Farbe,
@@ -33,8 +33,11 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   gerichtet/diffus, Fluten symmetrisch/asymmetrisch, Akzentuieren, Orientierung),
   Leuchtengruppen vollständig (Scheinwerfer/Fluter/Wandfluter/Freiflächen- und
   Wegeleuchten/Downlights/Decken- und Wandleuchten/Bodeneinbauleuchten/
-  Orientierungsleuchten). Weitere Kapitel offen (Aussenraum-Lichtanwendungen ab
-  S. 211, Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar)
+  Orientierungsleuchten). Lichtanwendungen Aussenraum (S. 211-240) teilweise:
+  Wand/Decke/Boden/Objekt vollständig, Fassade (massiv/vertikale Gliederung/
+  horizontale Gliederung/Vorsprung-Rücksprung) vollständig, Lochfassade
+  angelesen. Weitere Kapitel offen (Lochfassade-Rest, Fassade transparent,
+  Vegetation, Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar)
 
 ### BKP 261 — Aufzüge
 - [[bkp-261-aufzuege]] — Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit

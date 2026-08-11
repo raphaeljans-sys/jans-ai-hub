@@ -1,5 +1,38 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-11 (Mac Mini Nachtschicht 02:30-Fortsetzung) — ERCO-Ratgeber Seite 210 auf Seite 240 fortgeschrieben, Aussenraum-Lichtanwendungen Wand/Decke/Boden/Objekt und vier Fassadentypen
+
+Fortsetzung des Vorlaufs vom 10.08. 23:30 (Prioritaeten 1-3 leer: keine Sync-/
+Remote-Tasks, Synobsis 853/853 gesaettigt, Fristen-Radar bereits im 13:30-Slot
+erledigt; Vorlauf 02:30 endete ohne Ergebnis, wahrscheinlich Kontingentlimit).
+`de_erco_guide.pdf` (BKP 233, P1, 435 S.) von Seite 211 bis Seite 240 gelesen
+(`pdftotext -layout`, Textqualitaet gut, sauberer Stopp am Original vor S. 241
+verifiziert). [[erco-lichtplanung-grundlagen]] erweitert:
+
+- **Unterkapitel «Lichtanwendungen» (Aussenraum) begonnen (S. 211-240):**
+  Wand (3m/5m/mit Struktur, S. 211-218), Decke (plan/Tragstruktur, S. 218-223),
+  Boden (S. 223-225) und Objekt (freistehend/an der Wand, S. 225-230)
+  vollstaendig gelesen — durchgaengig im Schema Beobachtung/Folgerung/
+  Anordnung/Anwendung/Projekte.
+- **Fassade-Unterkapitel begonnen:** vier von sechs Typen vollstaendig
+  (massiv, vertikale Gliederung, horizontale Gliederung, Vorsprung-
+  Ruecksprung, S. 230-239), Lochfassade angelesen bis S. 240 (Beobachtung
+  vollstaendig, Rest ab S. 241 offen); Fassade transparent und Vegetation
+  laut Uebersichtsgrafik S. 230 noch offen.
+- **Zwei Lichtimmissions-relevante Fundstellen ergaenzt:** «Abstrahlung
+  ausserhalb der Fassadenflaeche vermeiden» (S. 230/233) und der
+  Blendungshinweis bei der Lochfassade (S. 241) — beide als
+  herstellerneutrale Planungsregeln in «Praxisrelevanz» aufgenommen, ohne
+  eigene normative Grenzwert-Fundstelle (bleibt bei `wissen/normen`/
+  `wissen/baurecht`).
+- Register nachgefuehrt: Frontmatter (Titel/Stand/gelesen/sources),
+  `wiki/INDEX.md`, `skills/wissens-destillat/training/bauprodukte-inventar.md`,
+  `training/PROGRAMM.md`.
+
+Rest weiterhin offen (Lochfassade-Rest, Fassade transparent, Vegetation,
+Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar) fuer
+Folgelaeufe.
+
 ## 2026-08-10 (Mac Mini Nachtschicht 23:30) — ERCO-Ratgeber Seite 175 auf Seite 210 fortgeschrieben, Kapitel «Innenraumbeleuchtung» abgeschlossen, «Aussenraumbeleuchtung» begonnen
 
 Fortsetzung des Vorlaufs vom 07.08. 05:35. `de_erco_guide.pdf` (BKP 233, P1, 435 S.)

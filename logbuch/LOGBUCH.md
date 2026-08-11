@@ -5088,3 +5088,5 @@ aus nicht moeglich. Kein Geld/Frist/Kunde betroffen, reine Hub-Interna.
 - 2026-08-09 03:12 (Widerrufs-Queue) angemeldet 260809-031236-17986 — Mail-Rueckkanal-Test (faellig 03:57)
 
 - 2026-08-09 15:26 (Widerrufs-Queue) ausgefuehrt 260809-031236-17986 — Mail-Rueckkanal-Test
+
+- 2026-08-11 02:36 (Nachtschicht Mac Mini) bauprodukte: ERCO-Ratgeber Seite 210 auf Seite 240 fortgeschrieben (Aussenraum-Lichtanwendungen Wand/Decke/Boden/Objekt vollstaendig, vier Fassadentypen vollstaendig, Lochfassade angelesen) — [[erco-lichtplanung-grundlagen]], CHANGELOG + Register nachgefuehrt.
