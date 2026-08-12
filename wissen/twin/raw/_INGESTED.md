@@ -870,3 +870,41 @@ Batch-45-Eintraege** (`260722-mailbatch-45.md` fuer 14.–19.05., `260713-mailba
 20:16–20.05.) mit ueberlappenden Fenstern; **vor der Lektuere klaeren, was doppelt destilliert
 wurde.** Die Empfehlung steht seit Fidelity 260808 offen. **Vor der Lektuere zwingend BEIDE Teile
 dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Gold-Verbrauch Fidelity 13.08.2026 — Fenster `rj@` 14.–19.05.2026
+
+**Registerklaerung vorweg (Empfehlung Fidelity 260808 erledigt):** die zwei konkurrierenden
+Batch-45-Eintraege sind **keine** Doppeldestillation. `260722-mailbatch-45.md` (14.–19.05., 20
+gesichtet / 5 Volltexte) und `260713-mailbatch-45.md` (13.05. 20:16–20.05., 32 gesichtet / 5
+Volltexte) ueberlappen im Datum, ihre neun namentlich genannten Volltexte sind aber disjunkt
+(Riesen/Oberholzer · Estermann/Stadelmann · Hayen · Innere Verglasung · Jegen-Fragetermin gegen
+Sprinkler-Freigabe · AfB-Dach · Leichtbau · Albertstrasse-Honorarofferte). Ursache ist das in
+Batch 44 bereits vermerkte Multi-Station-Race. **Leserate im Fenster: 26 Sent Items, 10 gelesen.**
+
+| Mail | Gattung | verbraucht durch |
+|---|---|---|
+| `rj@` 18.05.2026 07:21 «AW: KISPI: Pendenzen: Sanitaerplaene» | Du an Bauherr, Nachhaken bei fremdem Versaeumnis + Beauftragungs-Alternative, Fachplaner im Cc | Fidelity 260813 (Gold A) |
+| `rj@` 19.05.2026 08:56 «WG: Kispi Umnutzung 1.OG Varianten Kuechenlueftung» | Sie an HLK-Fachplaner, zwei Bestaetigungspunkte als Deckblatt auf weitergeleiteter Kette | Fidelity 260813 (Gold B) |
+| `rj@` 19.05.2026 12:23 «Schliessplan & Brandfallmatrix» | Du an Bauherr, gebautes Koordinationspapier mit sieben fetten Sprechakt-Bloecken | Fidelity 260813 (Gold C) |
+| `rj@` 19.05.2026 15:31 «LOS_281.20 Bodenbelaege aus Vinyl» | **VERWORFEN, KI-assistiert** — `font-family:"Anthropic Sans"` + `rgb(253,253,252)` + Em-Strich im HTML. Nie als Stilquelle verwenden | Fidelity 260813 |
+| `rj@` 18.05.2026 08:09 «KISPI: Beschichtung» | **kein Body** (Betreffzeile an den Technischen Dienst, sonst nichts). Ob Betreff-only-Mail oder Abrufartefakt ist offen; NICHT als Marker verbucht | Fidelity 260813 |
+| `rj@` 13.05.2026 10:57 «KISPI: Pendenzen» (Zitat im Gold-A-Thread) | **teilweise KI-assistiert**: die zwei ausformulierten Pendenz-Bloecke tragen `rgb(253,253,252)` + `class="WordSection1"`, der Rahmen ist handgetippt (vierte Echo-Falle innerhalb einer Mail). Nicht destilliert | Fidelity 260813 |
+
+**Vor der Lektuere als verbraucht erkannt und nicht erneut destilliert:** Riesen/Oberholzer
+Revisionsplaene 18.05. 08:04, Estermann/Stadelmann Leichtbau-Ertuechtigung 18.05. 10:07,
+Hottinger AfB-Dach 18.05. 11:51, Timo Hayen 18.05. 12:10, Innere Verglasung Stefi/Albin 18.05.
+14:17, Jegen-Fragetermin Grob/Arter 18.05. 16:47, Albertstrasse-7-Angebot Steinmann 19.05. 12:44
++ 13:12 (Batch 45, dort auch der Grammatik-Slip «ob es du» als Echtheitsbeleg). Positivtest ueber
+die Wiki-Artikel: `Beschichtung` 0 · `Brandfallmatrix` 0 · `Fehlalarm` 0 · `Sanitaerplaene` 0 ·
+`Klingele` 0 · `Pfister`/`inevo`/`Vinyl`/`Baldauf` 0; Kontrollbegriff `Nilpferd` 0.
+
+**Echo-Pruefung der drei verwendeten Golds negativ** (En-/Em-Strich 0 in rund 300 W eigener Hand;
+Tippfehlerdichte hoch: Satzabbruch «nicht beschafft worden und Herr Eren.», «Darf ich Sie Bitten …
+zu Bestaetigen», «Wer Koordiniert», «auf die Neue Situation», «vtl.»).
+
+**Naechstes Fenster:** `rj@` **20.–27.05.2026** (Batch 46: 30 gesichtet, 8 Volltexte). **Vorrangig
+aber ein Fenster AUSSERHALB des KISPI-Projekts**, um die seit zwei Laeufen offene Satzlaengen-Frage
+([[QUESTIONS]] 260813 #1) zu schliessen — im Fenster 14.–19.05. waren die einzigen Nicht-KISPI-Mails
+die zwei Albertstrasse-Mails an den Investor, und beide sind durch Batch 45 verbraucht. **Vor der
+Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
+Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

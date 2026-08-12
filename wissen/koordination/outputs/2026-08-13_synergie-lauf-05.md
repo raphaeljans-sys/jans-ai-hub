@@ -163,3 +163,63 @@ Verallgemeinerbar aus diesem Lauf, bereits an der richtigen Stelle abgelegt:
   dritte Beleg derselben Familie (SYN-10, SYN-20, jetzt SYN-20-Nachmessung). Es ist bereits
   in SYN-20 (b) als Prüfscript-Empfehlung erfasst; ein weiterer Registereintrag würde nur
   doppeln.
+
+---
+
+## Nachtrag 13.08.2026 01:30 — Doppellauf, und was die zweite Instanz beigetragen hat
+
+Der Task `synergie-lauf-taeglich` ist beim Erstlauf **zweimal gefeuert** (beide Instanzen
+01:19, PIDs 25627 und 25677). Beide haben unabhaengig voneinander dieselbe Delta-Basis
+gemessen (13.08. 01:05–01:19, 10 Commits, HEAD `efa7df0a`), denselben Uhr-Check gefahren und
+**dieselben Befunde erhoben** — einschliesslich der Ruecknahme des Allowlist-Fehlbefunds aus
+Lauf 04. Diese Doppelung ist kein Schaden, sondern eine unfreiwillige Gegenprobe: zwei
+getrennte Laeufe kamen am selben Objekt zum selben Ergebnis.
+
+**Die zweite Instanz hat nicht doppelt geschrieben.** Sie hat beim Registerlesen bemerkt, dass
+bereits ein «Lauf 05»-Nachtrag darin stand, den sie nicht verfasst hatte, den laufenden
+Fremdprozess ueber 45 s auf Ruhe geprueft (Register seit 01:24:34 unveraendert) und daraufhin
+auf einen zweiten Registereintrag, einen zweiten Laufbericht und einen zweiten CHANGELOG-Block
+verzichtet. Eine SYN-24 wurde bewusst **nicht** vergeben.
+
+Beigetragen hat sie genau einen Punkt, den die erste Instanz als offen dokumentiert hatte:
+
+**SYN-20 (b) ist umgesetzt — `scripts/contract-check.sh`.** Das Script prueft alle
+`skills/*/SKILL.md` gegen `skills/SKILL-CONTRACT.md` Abschnitt 2 und trennt dabei die zwei
+Groessen, die bisher vermischt wurden:
+
+| | Groesse | Zahl | Skills |
+|---|---|---|---|
+| A | ohne `## Contract`-Block (SYN-14) | 4 | `oereb-schwyz`, `pdf2dwg`, `planungsgrundlagen`, `volumenstudie` |
+| B | Block vorhanden, Pflichtfelder unvollstaendig (SYN-20) | 9 | `hub-chef`, `logbuch`, `mahnwesen`, `massgebendes-terrain`, `normen`, `spec`, `tenant-hygiene`, `versandplanung`, `zahlungsabgleich` |
+
+**Zusammen 13 von 51 Skills.** Damit ist der Contract-Defekt kein Muster aus zwei Faellen,
+sondern ein Viertel des Bestands — darunter drei Fuehrungs-Skills (`hub-chef`, `logbuch`,
+`spec`), deren Graph-Kanten die Orchestrierung tragen. Genau diese Zahl war ohne Messung nicht
+sichtbar: SYN-14 nannte «4 von 49», SYN-20 sprach vom «zweiten Fall in Folge», und beide
+Aussagen stimmten je fuer sich.
+
+Exit-Code 1 bei Fehlstellen, damit der Check in `heartbeat` oder `wissenscheck` einhaengbar
+ist. **Die Einhaengung ist bewusst nicht erfolgt:** `skills/heartbeat/SKILL.md` wurde im selben
+Fenster von einem anderen Lauf bearbeitet (neuer Check 14, Methoden-Eingang), und ein
+paralleler Edit derselben Datei ist genau das Risiko aus Rule `auto-verbesserungen` 260811.
+Die Einhaengung gehoert in einen Lauf, der die Datei allein hat.
+
+Adversariale Gegenpruefung zum Script: `wissenscheck` auditiert den **Wissens-Layer** (KBs),
+nicht die Skill-Contracts — keine Doppelspurigkeit. Kein weiteres Script im Hub prueft
+Contract-Felder (`ls scripts/ | grep -iE 'check|contract|audit'` → `check-launchd-fda.sh`,
+`sync-task-check.sh`, `trust-check.sh`, alle mit anderem Gegenstand).
+
+### Betriebsbefund fuer den neuen Tagestakt
+
+Zwei Beobachtungen, die der Monatstakt nie erzeugt haette:
+
+1. **Der Bestand aendert sich waehrend der Messung.** `skills/mahnwesen/SKILL.md` wurde um
+   **01:23:19** veraendert — zwischen zwei Messungen derselben Instanz an derselben Datei
+   (erst 0 Treffer auf `zahlungsabgleich`, Minuten spaeter 2). Es war die Umsetzung von
+   SYN-23 (a) durch die andere Instanz. Bei einem 14-Minuten-Fenster ist ein Grep-Ergebnis
+   nur so lange gueltig wie die Sekunde, in der es entstand; ein Befund gehoert deshalb
+   unmittelbar vor dem Schreiben nachgemessen, nicht nur zu Laufbeginn.
+2. **Der 15-Minuten-Selfcommit erfasst Fremdarbeit unter fremder Message.** Sowohl der
+   Laufbericht der ersten Instanz als auch `scripts/contract-check.sh` der zweiten liegen im
+   selben Commit `61bd43e5`. Kein Datenverlust, aber die Commit-Message beschreibt nur eine
+   der beiden Arbeiten — bereits als Chronik-Eintrag 260813d erfasst, hier ein weiterer Beleg.

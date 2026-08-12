@@ -21,6 +21,36 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260813f — `synergie-lauf-taeglich` feuerte beim Erstlauf doppelt; beide Instanzen kamen zum selben Ergebnis
+
+Der am 13.08.2026 neu angelegte Task `synergie-lauf-taeglich` (17:00) startete seinen Erstlauf
+**zweimal**, beide um 01:19 CEST (PIDs 25627 und 25677, `ps aux`). Beide Instanzen massen
+unabhaengig voneinander dieselbe Delta-Basis (01:05–01:19, 10 Commits, HEAD `efa7df0a`),
+fuhren denselben Uhr-Check und erhoben **dieselben Befunde** — bis hin zur Ruecknahme
+desselben Allowlist-Fehlbefunds aus Lauf 04. Der Doppellauf war also fachlich eine
+unfreiwillige Gegenprobe und hat nichts beschaedigt.
+
+**Was ihn haette teuer machen koennen, und was ihn entschaerft hat:** Die zweite Instanz
+bemerkte beim Lesen des Registers einen «Lauf 05»-Nachtrag, den sie nicht verfasst hatte, und
+hat daraufhin *nicht* geschrieben, sondern gemessen: 45 s Ruhepruefung am Fremdprozess
+(Register-mtime unveraendert), `git status` auf fremde uncommittete Arbeit, Lesen der bereits
+vergebenen SYN-IDs. Erst danach ein punktgenauer Einzel-Edit (1 Zeile, `count=1`,
+Zeilenzahl vorher/nachher gemessen) plus Append an den bestehenden Bericht. Kein zweiter
+Registereintrag, keine SYN-24, kein zweiter Laufbericht. Waere sie stattdessen ihrem eigenen
+Schreibplan gefolgt, haette es doppelte SYN-IDs und zwei konkurrierende Schreibvorgaenge auf
+dieselbe NAS-Datei gegeben — der Schadensfall aus `auto-verbesserungen` 260811.
+
+**Merksatz:** Ein Registerstand, den man selbst nicht geschrieben hat, ist ein STOP-Signal, kein
+Merge-Auftrag. Zuerst messen, ob der fremde Prozess ruht; dann pruefen, was er bereits vergeben
+hat; erst dann punktgenau ergaenzen.
+
+**Offen, fuer den naechsten Lauf oder Raphael:** ob der Task **jeden** Tag doppelt feuert oder
+ob die Doppelung eine Eigenheit des Erstlaufs direkt nach dem Anlegen war. Die Registry zeigt
+einen sauberen Eintrag (`cron 0 17 * * *`, `nextRunAt` 13.08. 17:09 CEST, `lastRunAt` 01:19) —
+also nichts, was eine stehende Doppelung erklaeren wuerde. Am 13.08. nach 17:00 nachmessen:
+zwei Laufberichte oder zwei `synergie`-Eintraege im Lauf-Journal am selben Tag waeren der
+Beleg. Faellt die Doppelung nur beim Erstlauf an, ist sie folgenlos und braucht keine Massnahme.
+
 ## 260813e — Stationsuhr zehn Tage nach: `git log --since` schnitt still drei Viertel des Deltas weg
 
 **Vorfall.** Der Task `synergie-lauf-monatlich` startete am 12.08. gegen 23:28 unbeaufsichtigt.

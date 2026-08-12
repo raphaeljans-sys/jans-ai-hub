@@ -3,6 +3,27 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Synergie-Lauf 05, Nachtrag der zweiten Instanz (Doppellauf)
+
+- Der Task `synergie-lauf-taeglich` feuerte beim Erstlauf **zweimal** (beide 01:19, PIDs 25627
+  und 25677). Beide Instanzen massen unabhaengig dieselbe Delta-Basis und kamen zu **denselben
+  Befunden**, inklusive der Ruecknahme des Allowlist-Fehlbefunds aus Lauf 04 — eine
+  unfreiwillige Gegenprobe. Die zweite Instanz hat **nicht** doppelt geschrieben: kein zweiter
+  Registereintrag, kein zweiter Bericht, keine SYN-24; stattdessen 45 s Ruhepruefung am
+  Fremdprozess, dann Nachtrag statt Neuschrift.
+- **SYN-20 (b) umgesetzt:** `scripts/contract-check.sh` gebaut (active-with-flagging). Er trennt
+  die zwei bisher vermischten Groessen: **4** Skills ohne `## Contract`-Block (SYN-14-Groesse)
+  und **9** mit Block, aber unvollstaendigen Pflichtfeldern (SYN-20-Groesse) — **13 von 51**,
+  darunter die Fuehrungs-Skills `hub-chef`, `logbuch`, `spec`. Der Defekt ist damit ein Viertel
+  des Bestands, nicht ein Muster aus zwei Faellen. Exit-Code 1 bei Fehlstellen; die Einhaengung
+  in `heartbeat` bewusst **nicht** erfolgt, weil dessen SKILL.md im selben Fenster von einem
+  anderen Lauf bearbeitet wurde (Rule `auto-verbesserungen` 260811).
+- **Zwei Betriebsbefunde des Tagestakts:** (1) der Bestand aendert sich waehrend der Messung —
+  `skills/mahnwesen/SKILL.md` wechselte um 01:23:19 zwischen zwei Messungen derselben Instanz
+  von 0 auf 2 Treffer; (2) der 15-Min-Selfcommit erfasste die Arbeit beider Instanzen im selben
+  Commit `61bd43e5` unter nur einer Message (Beleg zu Chronik 260813d).
+- Register: SYN-20-Zeile punktgenau nachgefuehrt (1 Zeile ersetzt, Zeilenzahl unveraendert 115).
+
 ## 2026-08-13 — Synergie-Lauf 05 (erster Lauf im Tagestakt, Skill `synergie-orchestrator`)
 
 - **Bericht:** `outputs/2026-08-13_synergie-lauf-05.md`. Delta-Basis 13.08. 01:05, Fenster

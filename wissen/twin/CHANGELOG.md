@@ -4,6 +4,47 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 13.08.2026 — twin-fidelity-review: Gruss-Default umgedreht, Echo-Detektor mechanisch, Fidelity 42
+
+Fenster `rj@` **14.–19.05.2026** (26 Sent Items, 10 durch Batch 45 gelesen). Die seit Fidelity
+260808 offene Frage der **zwei konkurrierenden Batch-45-Einträge ist geklärt**: die Fenster
+überlappen, die neun destillierten Volltexte sind disjunkt — Multi-Station-Race, keine
+Doppeldestillation. Vier Goldkandidatinnen gezogen, **eine verworfen**.
+
+**Zwei Regeln im kompilierten Gehirn waren falsch und sind ersetzt:** (a) «operativ → Kurzgruss»
+— alle drei Golds tragen «Freundliche Grüsse» + vollen Block, zwei davon sind Vierzeiler mit
+Bitte; die Metriken der letzten Sweeps (FG 9× gegen Lgr 4×) stützen die Umkehr, sie war nur nie
+als Widerspruch gelesen worden. **FG+Block ist ab jetzt der Default**, der Kurzgruss gehört dem
+Reply ohne eigenen Sachauftrag; der Nebensatz «Reply trägt nur ‹Raphael Jans›» (Einzelbeleg
+260808) ist zur Ausnahme relativiert. (b) «nummerieren (1./2./3.)» — beide Listen-Golds tragen im
+HTML `list-style-type:"A) "`, die Ziffernform war ein **Retrieval-Artefakt der Textvorschau**;
+korrigiert auf «A) B) C)», mit der methodischen Konsequenz, Listenzeichen nie aus der Vorschau zu
+destillieren.
+
+**Echo: `font-family:"Anthropic Sans"` im Mail-HTML ist ab heute ein harter Ausschluss** (sechste
+Falle in `CLAUDE.md`). Die verworfene Goldkandidatin (Vinyl-Brandschutzanfrage 19.05. 15:31) war
+unverändert versendeter Claude-Text und wäre inhaltlich unauffällig durchgegangen; dieselbe Spur
+`rgb(253,253,252)` steckt auch in zwei Pendenz-Blöcken einer sonst handgetippten Mail vom 13.05.
+(vierte Falle, erneut innerhalb einer Mail). Grep läuft auf `body.content`, nicht `bodyPreview`.
+
+**Neue Marker (nur im Artikel, NICHT im Gehirn — Budget):** [[arbeitsweise]] Koordinationsmail als
+Traktandenpapier mit fetten Sprechakt-Blöcken (Titel wiederholen sich pro Gegenstand statt zu
+hierarchisieren; Betroffenen-Liste nennt die nicht beteiligte Nachbarnutzung mit Raumnummer;
+Plangrundlage mit Fett-Label + exaktem Dateinamen), Entscheide als unbeantwortete W-Fragen
+(Zuständigkeits- statt Sachfrage), Weiterleitung als Begründung und Mail als Deckblatt mit
+Quellenzuordnung «(Mail unten <Name>)»; [[denken]] Dringlichkeit über die Kostenfolge-Eskalation
+Planung/Ausschreibung/Ausführung statt über einen Termin, Wartende als «Rolle: Folge»-Zeilen;
+[[haltung]] «bitte mich beauftragen» — die stillschweigende Gratisleistung wird verweigert, wo sie
+angeboten wird; [[stimme]] Komma-Anrede im schnellen Reply, A)/B)/C)-Belegtabelle.
+
+**Fidelity 42** (Vorläufe 40/41/43/48/46): Beziehung 65 · Stimme 43 · Fachsignatur 42 · Haltung 38
+· Denken 33 · Arbeitsweise 32. Je Gold A 46 · B 48 · C 33. Sechster Lauf in Folge mit
+Erfindungs-Drift (frei erfundene Terminbegründung) — deshalb ist der seit 260806 fünfmal
+vorgeschlagene **Erfindungs-Prüfschritt jetzt als Schritt 0 in `agents/twin-chef.md` gebaut**.
+DNA neu kompiliert: **29'973 B, 27 B Reserve** (Riegel hatte bei 30'158 B abgebrochen; verdichtet
+wurde nur Beleg-Prosa, die Grenze NICHT angehoben). 5 Fragen in [[QUESTIONS]] 260813b. Report:
+`outputs/2026-08-13_fidelity.md`.
+
 ## 13.08.2026 — twin-mail-training Batch 91: Fenster 06.–10.05.2026, 15 Marker in 6 Facetten
 
 Fenster nach **Leserate statt Datum** gezogen (Empfehlung Fidelity 260808): 69 Sent Items im Fenster
