@@ -64,6 +64,13 @@ Wohn- und Healthcare-Bauten, Kt. Zuerich / Schwyz / Thurgau.
 Vertiefte/aktuelle Rechtsfragen ueber den Skill `baurecht` (ZGB-Sachenrecht) absichern; fuer die
 verbindliche Gestaltung Notar/Grundbuchamt beiziehen und das im Dokument vermerken.
 
+Energetische Fragen an einem STWEG-Objekt (Waermeerzeugerersatz, Substitutionspflicht ZH/SZ,
+Foerderung, Impulsberatung) ueber den Skill `energie` absichern — der Heizungsersatz ist ein
+typischer Ausloesefall eines Sanierungsbeschlusses, und das Nadeloehr ist dort nicht die Technik,
+sondern die Beschlussfassung (Quorum, Erneuerungsfonds, Gemeinschaftsdarlehen gegen aufgestockte
+Einzelhypotheken). Ergaenzt 13.08.2026 (Wissens-Chef Run 29): die Energie-KB verwies bereits
+hierher, der Rueckweg fehlte.
+
 ## Orchestrierung — zwei Sub-Agenten
 
 | Sub-Agent | Datei | Liefert |

@@ -550,6 +550,16 @@ Instandsetzungskosten decken koennen.
   established.
 - Verknuepfung Sanierungsstau (TDD) → Abschlag formalisieren.
 - Teuerungs-Update der WP-Benchmarks auf Stand 2026 (Werte oben sind 2021-2023).
+- ✓ 2026-08-13 (Marktpuls vorgezogen): **geprueft, keine Aenderung noetig.** Der Marktpuls hat
+  drei Groessen bewegt (UBS SREBI Q2-2026, BFS-IMPI Q2-2026, LIK Juli 2026), von denen **keine
+  in diesen Artikel wirkt**: SREBI und IMPI sind **Preis**-Reihen fuer Wohneigentum und treffen
+  den Vergleichswert ([[vergleichswert-hedonisch]]), nicht die Erstellungskosten; der **LIK ist
+  der Konsumentenpreis-Index und NICHT der Baupreisindex** — die beiden nie verwechseln, sie
+  haben andere Basis und Methodik. Die fuer diesen Artikel massgebenden Bau-Teuerungsanker
+  bleiben unveraendert: **BFS-Baupreisindex April 2026 = 100.6** (+1.0 % YoY, Basis Okt-2025 =
+  100; naechste Publikation **Dez-2026** aus der Oktober-Erhebung) und die **ZIW-Reihe** der
+  Stadt Zuerich (Publikationsstand 01.01.2026). Naechster Anlass zur Nachfuehrung dieses
+  Artikels ist damit der **Baupreisindex Dez-2026**, nicht der naechste Marktpuls.
 - ✓ 2026-07-14 (Run 31): **D11 geschlossen** — amtliche ZIW-Reihe (Stadt Zuerich, Basis 1939=100,
   Publikationsstand 01.01.2026) liefert Index-Faktor 2003→2025 = 1210.4/899.2 = **1.346**; Tab.-2-
   Richtwerte auf 2025 hochgerechnet (siehe Tabelle oben). Naechster ZIW-Publikationstermin

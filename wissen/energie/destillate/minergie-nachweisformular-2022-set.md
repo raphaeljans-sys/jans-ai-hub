@@ -10,6 +10,15 @@ last_updated: 2026-08-07
 
 # Destillat — MINERGIE-Nachweisformular 2022.4 (Formularsatz, 5 Blätter)
 
+> **Querbezug KB `planungsgrundlagen` (gesetzt 13.08.2026, Wissens-Chef Run 29).** Das kantonale
+> Nachweisformular **EN-101b** («Rechnerische Lösung», § 47a BBV I) und der ZH-Vollzugsweg **EVEN**
+> werden in `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` geführt; dort
+> nachschlagen, welches Formular in welchem Verfahren verlangt ist. **Dieses Destillat belegt
+> ausschliesslich die Feldstruktur des Minergie-Nachweisformulars** (Verein Minergie, MOP-Weg) und
+> trifft keine Verfahrens- oder Zuständigkeitsaussage. ⚠ Zwei Vorbehalte gehören an jede
+> Verwendung: das Exemplar ist die Version 2022.4 «zu verwenden bis 31. Dezember 2023» und damit
+> **abgelaufen**, und der ZH-Nachweis läuft seit dem 01.01.2026 zwingend über EVEN.
+
 ## Das Wichtigste in 1 Satz
 
 Der Minergie-Nachweis besteht aus **einer Excel-Arbeitsmappe mit fünf Blättern** (Übersicht,

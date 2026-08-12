@@ -3105,6 +3105,16 @@ durchfuehrbar.
   KB-Quellen waren für ihren jeweiligen Stand korrekt. Destillat
   `[[heizungsersatz-groessere-mfh-stweg]]` nachgeführt (Frontmatter, Kasten-Zitat, Bauherren-Transfer,
   offener Punkt).
+  **Nachtrag 13.08.2026 (Wissens-Chef Run 29) — der eigentliche Prozessbefund:** Die Klärung wurde
+  am 08.08. als GEKLÄRT abgehakt, obwohl nur das **Destillat** nachgeführt war. Der verdichtete
+  Layer hing fünf Tage nach: **FAQ F219** behauptete weiterhin, es sei «nicht belegt, ab welcher
+  Objektgrösse die Impulsberatung kostenpflichtig wird» — eine Wissenslücke, die dieselbe KB
+  bereits geschlossen hatte —, und **`destillate/INDEX.md` Z. 11** führte die überholte
+  CHF-Angabe ohne Aktualitätsvermerk. Beide sind heute nachgezogen. **Regel daraus: ein
+  «GEKLÄRT» gilt erst, wenn die abhängigen Stellen (Wiki-Artikel, FAQ, INDEX, Quellenzeilen)
+  mitgezogen sind — sonst ist die Klärung im Destillat begraben.** Zum Beleg selbst: das
+  Stichdatum **1.4.2022 ist ein Einzelquellen-Beleg** (Medienmitteilung); der Programmauftritt
+  belegt die Kostenlosigkeit, nennt aber kein Startdatum.
 - **E-125-5 — Aktuelle Fassung des Minergie-Nachweisformulars fehlt.** Destilliert ist die Version
   2022.4 mit eigener Befristung bis 31.12.2023. Welche Fassung heute gilt und wie stark sich die
   Feldstruktur geändert hat, ist ungeprüft.

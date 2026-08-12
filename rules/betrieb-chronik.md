@@ -21,6 +21,39 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260813d — `nas-selfcommit` erfasst laufende Fremdarbeit unter der Message des zufaellig fertigen Loops
+
+**Beobachtung, kein Eingriff.** Waehrend Buch-Run 73 (baurecht, Batch T2) zwischen 01:00 und
+01:05 seine Register schrieb, lief der 15-Min-Cron des nativen Committers. Weil
+`nas-selfcommit.sh` mit `git add -A` ueber den ganzen Arbeitsbaum geht, wanderten der neue
+Wiki-Artikel `umgebungsgestaltung-und-einfriedungen.md` und saemtliche Register-Aenderungen des
+laufenden Baurecht-Laufs in den Commit **`cbb5e58a` «twin-mail-training Batch 91»** — einen
+Commit, der inhaltlich nichts damit zu tun hat.
+
+**Kein Datenverlust**, der Inhalt war auf der Synology vollstaendig und korrekt; die
+Diff-Messung nach Rule 260811 war sauber (CHANGELOG `45 0`, append-only eingehalten). Der
+Schaden ist die **irrefuehrende Historie**: wer spaeter fragt, wann der Artikel entstand,
+findet einen Twin-Mail-Commit. `git log -- <datei>` als Datierungsbeleg ist damit fuer alle
+parallel laufenden Loops unzuverlaessig.
+
+**Zwei Folgerungen fuer die Diagnose:**
+
+1. **Ein leerer `git status` heisst nicht «nicht geschrieben», sondern kann «schon von einem
+   fremden Commit eingesammelt» heissen.** Beim Nachmessen zuerst `git ls-files <datei>`
+   pruefen — ist die Datei getrackt, obwohl man sie eben erst angelegt hat, war ein
+   Parallel-Commit schneller. Der Fehlschluss «meine Schreibvorgaenge kommen nicht an» kostet
+   sonst mehrere Messrunden (hier vier).
+2. Der bekannte SMB-Latenz-Verdacht (Rule 260730b) trifft hier **nicht** zu und fuehrt in die
+   Irre: mtime und Inhalt waren auf der Synology sofort korrekt.
+
+**Nicht behoben, bewusst.** Eine Aenderung an `nas-selfcommit.sh` (etwa Commit nur ueber
+Pfade des ausloesenden Laufs) beruehrt den einzigen erlaubten NAS-Committer und damit jeden
+Loop; das gehoert Raphael vorgelegt, nicht nebenbei im Nachtlauf gemacht. Solange es so ist,
+gilt: **fuer die Datierung eigener Arbeit die Report-Datei in `outputs/` heranziehen, nicht den
+Commit.** Beleg: `wissen/baurecht/outputs/2026-08-13_buch-run73.md`.
+
+---
+
 ## 260813c — Task-Prompt `methoden-radar` auf den richtigen Quellordner nachgezogen (auf Auftrag)
 
 Eingriff der Klasse «Persistenz» (Rule `interaktive-eingriffe`), von Raphael selbst beauftragt,

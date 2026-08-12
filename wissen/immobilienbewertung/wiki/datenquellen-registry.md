@@ -1,7 +1,7 @@
 ---
 title: Datenquellen-Registry (Markt-, Boden-, Kennwert-Daten)
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-08-13
 sources: [IMMO-02 UBSFS, IMMO-04 Marktpreise, IMMO-05 Bodenpreise, IMMO-06 Kennwerte (inkl. Healthcare Herosé-Baukredit 2021 + ARTISET KVG 2023, Run 12; JANS-Umbau-Kostenband Spektrumskosten + `_Kennwerte Jans.docx` D8 + `_Kennwerte_Links.docx`, Run 16)]
 links: [[vergleichswert-hedonisch]], [[realwert-sachwert]], [[lageklasse-landwertanteil]], [[bewertungsverfahren-ueberblick]]
 ---
@@ -17,7 +17,7 @@ Juni 2026. **Aktualitaetsregel:** alles >18 Monate → ⚠, in `wiki/wissensluec
 | Quelle | Ordner | Inhalt | Stand | Bewertung |
 |---|---|---|---|---|
 | UBS Real Estate Fact Sheets | `IMMO-02 UBSFS` | Gemeinde-Profile, Preis-/Mietquantile (10 Gemeinden: ZH Waedenswil/Thalwil/Maur/Regensdorf/Wald/**Zollikon**, LU Luzern, SZ Einsiedeln/**Wangen**, AG Muri). **Kompiliert** in `wiki/marktdaten-gemeinden/`: Wangen (SZ) 12/2025, Zollikon (ZH) 12/2025 | 2212-2512 | gut; neueste (Wangen/Zollikon 12/2025) aktuell, aeltere teils ⚠ veraltet. **⚠ WP-Derivat, kein unabhaengiger Gegencheck (Wissens-Chef Run 28, 07.08.2026):** Immobilien- und Baulandpreise, Standortratings, Angebotsmenge/-ziffer, Marktabsorptionspotenzial und Insertionsdauer stammen laut Quellenverzeichnis des LFS (Exemplar Wangen SZ 12/2025, S. 13) von **Wuest Partner**; Preisspektren sind Nettoangebotspreise. Echte Zweitmeinung nur ueber IAZI/CIFI oder die kantonale Handaenderungsstatistik. Belege: `wissen/immobilienbewertung/outputs/2026-08-07_iazi-location-report-vs-ubs-lfs-wp-standortinfo.md`, Einordnung in [[vergleichswert-hedonisch]] |
-| UBS Swiss Real Estate Bubble Index | `IMMO-02 UBSFS/srebi-q2-2024-de.pdf` | nationaler Blasenrisiko-Index, regionale Risikokarte | Q2-2024 | Makro-Kontext; ⚠ >18 Mt. → aktualisieren |
+| UBS Swiss Real Estate Bubble Index (SREBI) | `IMMO-02 UBSFS/srebi-q2-2024-de.pdf` (Ablage) + Web (ubs.com CIO) | nationaler Blasenrisiko-Index, regionale Risikokarte | **Q2-2026 = 0.72 «moderat»** (publ. 06.08.2026; abgelegtes PDF weiterhin Q2-2024) | Makro-Kontext, laufend via Web nachgefuehrt ([[investorenmarkt-makro]]). ⚠ **wird rueckwirkend revidiert** — Q1-2026 zwischen Mai- und August-Publikation von 0.69 auf 0.62 gesenkt; nie ohne Publikationsdatum zitieren, nie Werte aus zwei Quartalsberichten mischen (Marktpuls 13.08.2026). PDF-Primaerquelle nicht frei abrufbar → Werte aus gegengelesener Medienberichterstattung, Status `emerging` |
 | Wuest Partner | `IMMO-04 Marktpreise/wuest partner` | Praesentationen, Kostenbenchmarks, Monitoring | 2023-2025 | ⭐ aktuell, Primaerquelle Indizes |
 | BFS Baupreisindex | `IMMO-04/bfs.admin.ch` | nationale/regionale Indizes | 2024 | ⭐ aktuell, amtlich |
 | **BFS Wohnimmobilienpreisindex (IMPI)** | Web (bfs.admin.ch/immobilienpreise; swissstats-Webviewer) | Preisentwicklung **effektiv gehandelter** Wohnobjekte, quartalsweise, national + EFH/ETW + Gemeindetyp (Q4-2019 = 100) | **Q2-2026** (127.7; +0.7 % QoQ, +3.5 % YoY; publ. 30.07.2026) | ⭐⭐ **amtlich und WP-UNABHAENGIG** — die einzige Reihe der KB, die nicht aus der WP-Datenfamilie stammt (aufgenommen Marktpuls 13.08.2026). Deckt nur die **Entwicklung** ab, keine Preisniveaus je Gemeinde. ⚠ wird rueckwirkend revidiert; Quartalswerte divergieren von WP (EFH Q2-2026: IMPI −0.4 % vs. WP +1.5 % QoQ) → Arbeitsregel in [[vergleichswert-hedonisch]] |
@@ -52,3 +52,13 @@ gemeindescharfe Statistik. → strukturierte Bodenpreis-Quelle aufbauen (Wissens
    Kompilierte Blaetter in `wiki/marktdaten-gemeinden/` zuerst konsultieren.
 3. Jeden uebernommenen Kennwert mit **Quelle + Stand** im Output zitieren.
 4. Veraltete Quelle nie stillschweigend verwenden — Stand ausweisen, ggf. Aktualisierung anstossen.
+5. **Index-Reihen mit Publikationsdatum zitieren, nie nur mit Quartal** (neu 13.08.2026). SREBI,
+   IMPI und die WP-Reihen werden **rueckwirkend revidiert**; ein Quartalswert ist ohne die
+   Angabe, aus welcher Publikation er stammt, nicht reproduzierbar. Werte aus verschiedenen
+   Publikationsstaenden nie in derselben Zeitreihe mischen. Belegter Anlassfall: SREBI Q1-2026
+   0.69 (publ. 07.05.2026) → 0.62 (revidiert in der Publikation vom 06.08.2026).
+6. **Fuer die Preis-ENTWICKLUNG den amtlichen IMPI als Gegencheck zur WP-Familie ziehen** (neu
+   13.08.2026). UBS-FS und WP-Reports sind **dieselbe** Datenquelle (WP-Derivat, Wissens-Chef
+   07.08.2026) — zwei uebereinstimmende WP-Zahlen sind keine Bestaetigung. Divergieren IMPI und
+   WP, ist die **Bandbreite** die ehrliche Aussage; fuer Trends die YoY-Rate nehmen, nicht den
+   Quartalswert ([[vergleichswert-hedonisch]]).
