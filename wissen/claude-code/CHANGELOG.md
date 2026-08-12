@@ -2,6 +2,20 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-13 (Umbau auf Entscheid Raphael) — Methoden-Radar: Scan in den heartbeat, Rotation monatlich
+
+- **[Befund] Die Leerlauf-Bremse des Loops war konstruktiv wirkungslos.** Schritt 3 verlangte in
+  jedem Lauf ohne Delta einen Register-Stempel, Schritt 4 zaehlte den Stempel als Liefer-Delta —
+  jeder Lauf lieferte damit per Definition, die Ruecktaktung konnte nie ausloesen. Dazu: kein
+  Delta ueber vier Laeufe, und von zwei Rotationslaeufen ein Fehlalarm.
+- **[umgebaut] Delta-Scan neu als Check 14 im `heartbeat`** (taeglich, Shell-Script, ohne eigene
+  Session; friert den Scan-Stand bewusst nicht ein). Radar monatlich am 8. um 21:00 plus ad hoc
+  auf das heartbeat-Signal. Neue Leerlauf-Regel: ein Register-Stempel ist kein Liefer-Delta.
+- **[entruempelt] Prompt von 6'297 Bytes auf das Verfahren gekuerzt**, Beschreibung von 1'321
+  Zeichen Korrekturhistorie befreit. Lehren stehen neu im Register (Abschnitt «Betriebsmodus»)
+  und in `rules/betrieb-chronik.md` 260813d, nicht mehr im Prompt.
+- **[nachgefuehrt]** Konzept `docs/konzepte/260729-Methoden-Lern-Loop/` mit Nachtrag Abschnitt 6.
+
 ## 2026-08-13 (methoden-radar, Nachhol-Lauf 00:57 auf Auftrag Raphael) — Prompt-Pfad korrigiert, Rotation Anthropic-Lecture ohne Befund
 
 - **[korrigiert] Der Task-Prompt nannte als Quelle noch «03 Prompteingaben».** Der OneDrive-Ordner
