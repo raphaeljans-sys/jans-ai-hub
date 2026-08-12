@@ -3,7 +3,7 @@ title: GEAK — Gebäudeenergieausweis der Kantone
 status: established
 last_updated: 2026-08-07
 sources: [destillate/geak-gebaeudeenergieausweis-kantone.md, destillate/geak-klassengrenzen-relative-klassierung.md, destillate/geak-kosten-efh-mfh.md, destillate/geak-normierung-berechnungsmethodik.md, destillate/geak-basisbroschuere-2023.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[foerderung-energie-zh]], [[foerderung-energie-sz]], [[gebaeudeprogramm-bund-hfm-2015]], [[fenster-energieetikette-fea-bfe]]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[foerderung-energie-zh]], [[foerderung-energie-sz]], [[gebaeudeprogramm-bund-hfm-2015]], [[fenster-energieetikette-fea-bfe]], [[oelheizung-gasheizung-ersatzpflicht-zh-sz]]
 ---
 
 # GEAK — der Gebäudeenergieausweis der Kantone
@@ -50,7 +50,11 @@ Das **Basisprodukt GEAK** zeigt drei grafisch klassierte Achsen (A = beste … G
   GEAK-Klasse D (Gesamtenergieeffizienz) ein wählbarer Nachweisweg** beim fossilen Wärmeerzeugerersatz
   in Wohnbauten — alternativ MuKEn-Standardlösung oder Minergie-Zertifikat (AfU SZ, FAQ Stand
   28.08.2025). Im Kt. ZH gibt es diesen Weg nicht (§ 11 EnerG: erneuerbar, Ausnahme nur via
-  Lebenszykluskosten-Nachweis) → `[[geak-gebaeudeenergieausweis-kantone]]`.
+  Lebenszykluskosten-Nachweis) → `[[geak-gebaeudeenergieausweis-kantone]]` und, für den
+  Wärmeerzeugerersatz kanonisch und primärverifiziert,
+  `[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` (§ 8d kEnG SZ, Anhang 6 KEnV — dort auch die hier
+  fehlenden Randbedingungen: 90 % von 100 kWh/m²·a, Bagatellgrenze Wohnanteil ≤ 150 m² EBF).
+  Verweis ergänzt 13.08.2026, Wissens-Chef Run 29.
 
 ## Abgrenzung
 - **GEAK ≠ Minergie:** GEAK bewertet den **Ist-Zustand des Bestands** (Etikette), Minergie ist ein

@@ -3,6 +3,39 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Session Raphael, Auftrag «bexio-Vorfilter reparieren» — **Punkt (b) des
+Eintrags vom 08.08. ist erledigt, Punkt (a) bleibt offen**): Die Monitoring-Luecke, durch die
+Tx 3630 (07.08., CHF 6'000) unsichtbar blieb, ist an beiden Ursachen geschlossen.
+**(1) Connector `connectors/bexio.mjs`:** `abgleichCheck()` liefert neu `unrecOhneZwilling` —
+unreconciled CREDITs, zu denen KEINE abgeglichene Transaktion mit gleichem Konto, Typ, Valuta
+und Betrag existiert. Das ist kein Duplikat des UBS-Doppelimports, sondern unzugeordnetes Geld,
+und es konnte per Konstruktion nie in `eingangOhneBuchung` erscheinen, weil das nur auf
+`reconciled`/`auto_reconciled` aufbaut. Der Identitaets-Schluessel der Zwillings-Erkennung
+steht jetzt als `txKey` einmal statt dreimal im File. **(2) Vorfilter
+`scripts/bexio-vorfilter.mjs`:** vergleicht neu auch die **Kennzahlen** selbst und meldet jede
+Bewegung als Delta (Zeile `KENNZAHL`), unabhaengig davon, ob eine Detail-Liste sie erklaert —
+genau das fehlte, als `unreconciledCredit` von 55 auf 56 stieg und der Lauf trotzdem Exit 0
+gab. Dazu die Detail-Diffs `UNREC NEU` / `UNREC WEG` je Transaktion.
+**Verifikation:** der bexio-Token steht weiterhin auf 401, ein Live-Lauf war darum nicht
+moeglich. Geprueft wurde gegen einen Stub-Connector in fuenf Szenarien: der Fall vom 08.08.
+schlaegt jetzt an (Exit 10, Kennzahl und Tx 3630 benannt), die unveraenderte Lage am Folgetag
+bleibt still (Exit 0), ein zweiter unzugeordneter Eingang wird einzeln gemeldet, eine bewegte
+Kennzahl ohne Listenaenderung ergibt Exit 10 mit Hinweis, und ein Connector ohne das neue Feld
+wird als solcher benannt statt «keine Eingaenge» zu behaupten. **Die Connector-Seite selbst ist
+erst gegen echte Daten belegt, sobald der Token erneuert ist** — Gegenprobe dann mit
+`node connectors/bexio.mjs --abgleich --json`, Feld `unrecOhneZwilling` muss Tx 3630 enthalten.
+**Entscheid zu `vorbehalte.json` (zweite Haelfte von Punkt b): Tx 3630 wird NICHT eingetragen.**
+Der Vorbehalts-Mechanismus prueft gegen `duplikatIds`; da Tx 3630 keinen Zwilling hat, steht sie
+dort nicht und der Vorfilter wuerde in jedem Lauf faelschlich «war gesperrt und ist aus der
+Liste verschwunden, sofort klaeren» melden. Die neue `UNREC`-Liste fuehrt sie stattdessen
+dauerhaft und mit Betrag. **Offen bleibt Punkt (a): die E-Banking-Gegenpruefung von Tx 3630
+gegen RE-00101 vor dem 16.08.2026** — bis dahin A1 fuer RE-00101 gesperrt, Stefan Tschopp darf
+nicht gemahnt werden, falls der Eingang seine Zahlung ist. **Nebenbefund zur Ablage:** der
+15-Minuten-Selfcommit hat die Dateien waehrend der Arbeit in drei fremde Loop-Commits gezogen
+(`cbb5e58a`, `fda3fd97`, `0f9286a2`, `cd8e357c`); inhaltlich ist nichts verloren, der
+Arbeitsbaum ist sauber, aber die Commit-Message benennt die Aenderung nicht. Status: **Code
+erledigt und offline verifiziert, Live-Gegenprobe und Punkt (a) offen, Aktion Raphael.**
+
 Eintrag 13.08.2026 (Kontingent-Takt-Dispatch, neue Lage Max 20x + Team-Abo 2 Seats): Die
 Entscheidungsvorlage zur neuen Kontingent-Lage liegt vor unter
 `docs/konzepte/260813-Kontingent-Takt/260813-Kontingent-Takt.md` — Punkt 1 Vorschlagsliste,

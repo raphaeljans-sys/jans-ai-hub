@@ -148,6 +148,17 @@ Studie** (hier die HVA-Machbarkeitsstudie MBS + die Kostenbasis WKB) und stresst
 verletzlichste Annahme. Beleg: `CS Niederhasli, Seestrasse 64` (Kat. 2025, 1'049 m2, Zone WE2,
 Kaufpreis CHF 1.49 Mio), 5-seitiges JANS-Layout.
 
+> ⚠ **Werkzeug-Vorbehalt zur Fremdquelle (gesetzt 13.08.2026, Wissens-Chef Run 29).** Die
+> Kopffelder der mit dem Drittsoftware-Tool **«hva»** erstellten Unterlagen sind mit BKP-Spannen
+> beschriftet, die rechnerisch **nicht zutreffen**: das Feld «BKP 1-5 CHF/m² BGF» enthält
+> nachweisbar **BKP 9** (Ausstattung/Reserve) mit, das Feld «BKP 0-5» enthält faktisch **BKP 0-9**.
+> Wer ein hva-Kopffeld unbesehen in ein CS- oder Controlling-Deliverable übernimmt, vergleicht
+> unterschiedliche BKP-Umfänge miteinander. Vor jeder Übernahme rechnerisch nachprüfen oder die
+> Summe selbst bilden. Beleg: `wissen/grobkosten/raw/8155-niederhasli-seestrasse64.md` (Nachtrag
+> 08.08.2026, am Original-PDF nachgemessen) und `wissen/grobkosten/wiki/QUESTIONS.md`. Die Zahlen
+> dieses Abschnitts sind davon **nicht** betroffen — sie stammen aus eigener Summenrechnung, nicht
+> aus einem Tool-Kopffeld.
+
 **Aufbau (5 Seiten):** Titelblatt → Projekt-Titel → **Controlling-Factsheet** →
 **Sensitivitaetsanalyse** → **Fazit/Empfehlung**.
 

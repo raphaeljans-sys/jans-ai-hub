@@ -52,6 +52,15 @@ Loop; das gehoert Raphael vorgelegt, nicht nebenbei im Nachtlauf gemacht. Solang
 gilt: **fuer die Datierung eigener Arbeit die Report-Datei in `outputs/` heranziehen, nicht den
 Commit.** Beleg: `wissen/baurecht/outputs/2026-08-13_buch-run73.md`.
 
+**Zweiter Beleg, 13.08.2026 kurz nach 01:07 — es trifft auch die interaktive Session.** Der
+Auftrag «bexio-Vorfilter reparieren» (Session Raphael) aenderte drei Dateien; der Cron zog sie
+waehrend der Arbeit in vier fremde Commits (`cbb5e58a`, `fda3fd97`, `0f9286a2`, `cd8e357c`).
+Auch hier kein Datenverlust, Arbeitsbaum sauber. Das erweitert den Befund in einem Punkt: die
+Ausweich-Empfehlung «zur Datierung die `outputs/`-Datei heranziehen» traegt nur bei Loops, die
+einen Report schreiben. **Eine interaktive Code-Aenderung hat keinen `outputs/`-Beleg** — dort
+bleibt als Spur nur der Registereintrag in `logbuch/fristen.md`. Wer eine Code-Aenderung
+nachvollziehbar halten will, schreibt sie also ins Register, nicht bloss in den Commit.
+
 ---
 
 ## 260813c — Task-Prompt `methoden-radar` auf den richtigen Quellordner nachgezogen (auf Auftrag)

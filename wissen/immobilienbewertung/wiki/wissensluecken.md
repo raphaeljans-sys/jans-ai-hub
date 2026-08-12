@@ -21,6 +21,7 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 | ~~D11~~ | ~~**m3-Neuwert-Richtwerte Stand 2003 aufindexieren**~~ | — | ✓ | **erledigt Run 31 (2026-07-14)**: amtliche ZIW-Reihe (Stadt Zuerich, Basis 1939=100, Publikationsstand 01.01.2026, via hev-sz.ch) gefunden — Wert 01.04.2003=899.2, 01.04.2025=1210.4 → **Index-Faktor 2003→2025 = 1.346**. Tab.-2-Richtwerte auf 2025 hochgerechnet in [[realwert-sachwert]]. Naechste ZIW-Publikation ~04-06/2026 nachziehen |
 | D12 | **Teuerungsanker fuer Tab. 2 festlegen + Doppelfuehrung entscheiden** (aufgenommen Wissens-Chef Run 25, 04.08.2026) | D | mittel | **Entscheid Raphael, nicht autonom loesbar.** Tab. 2 der Schaetzungsanleitung Kap. 5 wird derzeit in **zwei** KBs materiell gefuehrt: [[realwert-sachwert]] (ganzes Band, Faktor **1.346**, Anker 01.04.2003 = 899.2) und `wissen/grobkosten/wiki/kennwerte.md`, Abschnitt «Run 12» (nur BandUNTERgrenze, Faktor **1.334**, Anker 01.04.2004 = 907.6) — rund **1 % Abweichung** in jedem hochgerechneten Wert. Die Bandlesart dieses Artikels ist am Original-PDF verifiziert (`pdftotext -layout`, 04.08.2026: je Bauklasse zwei Zahlen unter EFH wie unter MFH; Gegenprobe «Grossgewerbe und Industrie» schreibt seine Baender einzeilig «100 - 200» usw.). **Zwei Fragen:** (a) welcher Anker gilt hub-weit? Empfehlung des Verifikators: **1.346 / 01.04.2003**, weil die Tabelle im Kopf die Fusszeile «Stand 2003» traegt; die Alternative 1.334 bleibt als benannte Unsicherheit von rund 1 % stehen. (b) Fuehrt `grobkosten` die Tabelle kuenftig nur noch als **Verweis** auf diesen Artikel (Empfehlung), oder bleibt die Doppelfuehrung? Bis zum Entscheid bleiben **beide** Staende unveraendert und tragen gegenseitige Vorbehalte; kein Stand wird still ueberschrieben. Betrifft Realwert-Ergebnisse direkt |
 | D13 | **BKP-Scope der Neuwert-Richtwerte Tab. 2 ungeklaert** (aufgenommen Cross-KB-Lauf Run 27, 06.08.2026) | D | mittel | Die Primaerquelle (Schaetzungsanleitung Kap. 5, Tab. 2) bezeichnet ihre Werte nur als «Baukosten je m3 umbauter Raum (SIA 116)» und nennt **keinen BKP-Scope** — ob **BKP 2 allein** oder **BKP 1-9** gemeint ist, ist nicht belegt. Differenz nach Tab. 3 desselben Kapitels rund **10 %** (BKP 2 = 906.3 Promille der Gesamtkosten). Die Frage trifft **beide** KBs, die diese Fremdtabelle fuehren: `wissen/grobkosten/wiki/kennwerte.md` fuehrt sie seit dem 01.08.2026 ausdruecklich als offenen Punkt (am 06.08.2026 um ein Plausibilitaetsargument fuer «BKP 2 allein» fortgeschrieben, **ausdruecklich kein Beleg**; Eintrag in dessen `wiki/QUESTIONS.md`), [[realwert-sachwert]] fuehrte sie bis heute **ohne Vorbehalt** — dort ist der Vorbehalt jetzt unmittelbar unter der Tabellen-Ueberschrift gesetzt. Abgrenzung zu D12: das ist **keine** Divergenz zwischen den beiden KB-Staenden, sondern eine Eigenschaft der Fremdquelle, die beide gleichermassen trifft. Bewertungsrelevant, weil die Realwert-Formel dieses Artikels Aussenanlagen und Baunebenkosten **bereits separat addiert** (Lesart BKP 1-9 → Doppelzaehlung). Bis zum Entscheid im Erzeugnis neben dem Teuerungsanker auch den unterstellten Scope angeben. Aufloesbar nur ueber die Kapitel 1-4 der Schaetzungsanleitung, die **nicht im Hub-Bestand** liegen (archivseitig geprueft 06.08.2026) — also Bring-Schuld oder externe Beschaffung |
+| D14 | **Kein WP-unabhaengiger Gegencheck der Preis-NIVEAUS** (aufgenommen Marktpuls 13.08.2026; Teil-Fortschritt zum Wissens-Chef-Befund Run 28 vom 07.08.2026) | D | mittel | **Die Entwicklungs-Seite ist geschlossen, die Niveau-Seite nicht.** Neu gefuehrt wird der amtliche **BFS-Wohnimmobilienpreisindex IMPI** (Q2-2026 = 127.7, +3.5 % YoY, publ. 30.07.2026) — die erste Reihe der KB, die **nicht** aus der WP-Datenfamilie stammt; sie deckt aber nur die **Preisentwicklung** ab, nicht die Preisniveaus. Fuer die eigentliche Bewertungsarbeit (Quantile je Gemeinde, CHF/m2) bleibt die KB damit **vollstaendig WP-basiert**: UBS-FS sind laut eigenem Quellenverzeichnis ein WP-Derivat, der WP-Standortreport ohnehin. Zwei uebereinstimmende Zahlen aus diesen beiden Quellen sind **keine** Bestaetigung. Ein echter Niveau-Gegencheck braucht **IAZI/CIFI** oder die **kantonale Handaenderungsstatistik ZH/SZ** — beides kostenpflichtig bzw. zugangsgebunden, deshalb Bring-Schuld. Ueberschneidet sich mit **D2** (Bodenpreise): dieselbe Zugangsfrage, derselbe Anbieterkreis — sinnvollerweise zusammen loesen. Arbeitsregel bis dahin in [[vergleichswert-hedonisch]] (Bandbreite nennen, YoY statt QoQ, Publikationsstand mitfuehren) |
 
 ## B. Training-Aufgaben (Claude schliesst sie im Lern-Loop)
 
@@ -48,6 +49,27 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## Erledigt
 
+- ✓ 2026-08-13 **Marktpuls VORGEZOGEN (19 Tage vor dem Stichtag 01.09.2026), erster
+  Nicht-Delta-Null-Lauf seit Run 51.** Der One-Time-Task `immobewertung-marktpuls-260901` ist
+  dabei **nicht verbraucht** — er stand und steht auf `fireAt 01.09.2026` und hat nie gefeuert;
+  dieser Lauf wurde vorgezogen ausgeloest. **Drei neue belegte Werte:** UBS SREBI **Q2-2026 =
+  0.72** (publ. 06.08.2026), BFS-IMPI **Q2-2026 = 127.7** (+3.5 % YoY, publ. 30.07.2026, neu in
+  der KB), LIK Juli 2026 **Jahresteuerung 0.4 %**. **Zwei methodische Befunde:** der SREBI wird
+  **rueckwirkend revidiert** (Q1-2026 0.69 → 0.62) und **IMPI und WP widersprechen sich beim
+  EFH-Quartalswert** (−0.4 % vs. +1.5 % QoQ) — daraus die Arbeitsregel «YoY statt QoQ,
+  Bandbreite nennen, Publikationsstand mitfuehren» in [[vergleichswert-hedonisch]] und
+  [[datenquellen-registry]] (Nutzungsregeln 5 und 6). **Alle drei Verfahrensartikel geprueft:**
+  [[ertragswert-dcf]] (Inflationsanker nachgefuehrt, Langfrist-Annahme ~1.0 % bewusst
+  stehengelassen), [[vergleichswert-hedonisch]] (IMPI-Abschnitt neu), [[realwert-sachwert]]
+  (**geprueft, keine Aenderung** — haengt am Baupreisindex, nicht am LIK; naechster Anlass
+  Dez-2026). **Bewusst NICHT gefuellt, weil zum Laufdatum nicht publiziert:** die
+  BWO-Referenzzinssatz-Publikation vom **01.09.2026** (Durchschnittszinssatz per Stichtag
+  30.06.2026; letzter Stand 1.31 % per 31.03.2026) und die **BFS-Leerwohnungsziffer** zum
+  Stichtag 01.06.2026 (Publikation September; letzter Stand 01.06.2025 = 1.00 %). Genau diese
+  zwei Werte sind der Grund, aus dem der Stichtag 01.09.2026 gewaehlt wurde — der vorgezogene
+  Lauf konnte sie nicht liefern und hat sie nicht geschaetzt. Bring-Schulden D1/D2/D5/D10/D12/D13
+  unveraendert offen, neu **D14** (WP-unabhaengiger Niveau-Gegencheck). Report:
+  `outputs/2026-08-13_immobewertung-marktpuls-vorgezogen.md`.
 - ✓ 2026-07-25 **Delta-Null-Bestaetigungslauf (Run 46)** — vierzehnter in Folge, vierter
   Trigger am selben Tag. Kein neuer Ingest, keine Artikelaenderung. Bewertungsordner
   unveraendert (juengster Fall Wangen 8855), Marktpuls bewusst nicht geprueft (Drossel-Rule

@@ -8,7 +8,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 - [[bewertungsverfahren-ueberblick]] — die vier Verfahren + Marktwert-Synthese · *established*
 - [[residualwertmethode]] — Landwert aus der Projektentwicklung (Wuest-Kern; Excel-Tool-Formel-Logik D4 reverse-engineered: Rechenkette, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %; **Run 19 verifiziert**: DXMA-A4-Blatt nachgerechnet, aGF/GF-Kostenbasis geklaert) · *established*
 - [[ertragswert-dcf]] — Kapitalisierung, Diskontierung (JANS-Faustregel 2.0+0.5 %, Gewerbe-Feinabstufung je Segment), DCF, Mietwert-Korrektur, Gastgewerbe, Healthcare-Ertragsmodell (Kosten-Fall Herosé + Investoren-Fall SenioResidenz ~5.3 % Yield, Pflegeplatzkosten-Struktur; **Run 19 verifiziert**: Herosé-Annuitaetenformel praezisiert) · *established*
-- [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile · *established*
+- [[vergleichswert-hedonisch]] — hedonische Bewertung, UBS-FS/WP-Standortreport, Quantile + **amtlicher BFS-IMPI als erster WP-unabhaengiger Gegencheck der Preisentwicklung** (Q2-2026 = 127.7, +3.5 % YoY) samt Divergenzbefund IMPI/WP und Arbeitsregel «YoY statt QoQ, Bandbreite nennen, Publikationsstand mitfuehren» (Marktpuls 13.08.2026) · *established*
 - [[realwert-sachwert]] — Bodenwert + Gebaeude-Zeitwert (Kennwerte WP/JANS; JANS-Wohn-Erstellungskosten-Kennwert EFH/ZFH indexiert 4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350 D8; Healthcare-Neubau-Band JANS-8-Objekt 2'623-4'250 CHF/m2 GF + Spital CRB; Healthcare-**Umbau**-Band CHF/m2 NF 2'000-10'000+ «Spektrumskosten»; **Run 18 verifiziert**: tragende Kennwerte reproduzierbar, 2 Roh-Zeilen inkonsistent → D10) · *established*
 
 ## Gutachten-Produkt (WP-ueberlegen)
@@ -42,7 +42,7 @@ Inhaltsverzeichnis aller Wiki-Artikel. Status: `established` (mehrfach belegt) �
 ## Markt & Konzept (Wuest-Kurs Module 2-4)
 
 - [[nutzungskonzepte]] — Mehrwert durch Positionierung (Serviced/Co-Living/Alterswohnen) · *established*
-- [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck, SREBI, Healthcare-Nachfrage (Obsan +54'335 Betten bis 2040), Marktpuls 07.2026 · *established*
+- [[investorenmarkt-makro]] — Mieten, Zinsen, Anlagedruck, SREBI, Healthcare-Nachfrage (Obsan +54'335 Betten bis 2040), **Marktpuls 13.08.2026** (SREBI Q2-2026 = 0.72 · IMPI Q2-2026 · LIK 07.2026 Jahresteuerung 0.4 % · SNB 0.00 %/Referenzzins 1.25 % unveraendert · Befund: SREBI wird rueckwirkend revidiert) · *established*
 - [[erfolgsfaktoren-wettbewerb]] — 6 DXMA-Erfolgsfaktoren, Aufwertungsgewinn, A4-Bewertungsblatt · *established*
 
 ## Pflege
