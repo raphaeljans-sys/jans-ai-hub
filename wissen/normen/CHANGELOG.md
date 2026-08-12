@@ -1,3 +1,14 @@
+## 2026-08-12 (Session Raphael) — Output: Duschtasse in nicht-IV-Duschen zulaessig (Fall 2619 KISPI)
+
+Compounding-Loop zur Frage, ob nicht rollstuhlgerechte Duschen/WC im Umbau 2619 KISPI
+(Therapiestation 1. OG, Bauentscheid 1171/26) mit Duschtasse gebaut werden duerfen.
+Report: `outputs/2026-08-12_sia500-duschtasse-nicht-iv-duschen-kispi.md`. Kernbefund:
+Schwellenlos-Gebot der SIA 500:2009 steht nur in Anhang E (designierte IV-Nasszellen);
+Bauentscheid Erwaegung b erklaert die Norm fuer die Therapiestation als nicht hinreichend
+(Spiegel von Ziff. 0.1.5), betriebsspezifische Anforderungen vorrangig. Hierarchie
+BehiG Art. 3 lit. a → PBG ZH § 239a Abs. 1 → BBV I § 34 / Ziff. 2.51 Anhang → Bauentscheid
+→ Betriebskonzept dokumentiert. Kein Eingriff in Destillate; QUESTIONS unveraendert.
+
 ## 2026-08-08 (Run 48) — SIA 112/1:2017 established, P2-Block komplett destilliert, ABB-Querschnitts-Synthese
 
 **Die letzte offene P1-Position ist erledigt.** `destillate/sia-112-1-2017.md` (Verstaendigungsnorm
