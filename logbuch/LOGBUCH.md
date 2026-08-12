@@ -7,13 +7,13 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## Radar-Briefing 13.08.2026 (01:32, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
-**Der Tag hat einen klaren Schwerpunkt: die Baufreigabe KISPI hängt an einer einzigen Mail, die
+**Der Tag hat einen klaren Schwerpunkt: Die Baufreigabe KISPI hängt an einer einzigen Mail, die
 seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 
 **Erledigt seit gestern**
 
 - Die Abänderungseingabe B26-00705.02 ist beim Brandschutz durch. K. Frauenfelder (SRZ
-  Feuerpolizei) stimmt dem überarbeiteten Plan am 12.08. 06:50 zu, L. Furrer (AfB) hat das
+  Feuerpolizei) hat dem überarbeiteten Plan am 12.08. 06:50 zugestimmt, L. Furrer (AfB) hat das
   Dossier am 12.08. 11:06 wieder geöffnet, der Abänderungsplan gilt als genehmigt. Damit ist die
   Rückweisung vom 10.08. innert zwei Tagen bereinigt.
 - Der Nachfass an das Notariat Wiedikon ist raus (13.08. 00:47, «Gründung Raphael Jans AG:
@@ -32,7 +32,7 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
   Die Bauherrschaft erwartet die Baufreigabe bis Montag 17.08. Einziger offener Auflagepunkt ist
   II.1b) Brandschutzplan und Stellungnahme; der Entwurf bittet Stevanovic, beides jetzt zu
   erstellen und bis Freitag 14.08. unterzeichnet zurückzusenden, weil J. Ziegel bis 18.08. in
-  den Ferien ist. Geht die Mail nicht heute hinaus, ist die Frist beim Absenden schon verbraucht
+  den Ferien ist. Geht die Mail nicht heute hinaus, ist die Frist beim Absenden schon verbraucht,
   und der 17.08. fällt.
 - Zweiter unversendeter Entwurf an L. Furrer (AfB) vom 12.08. 16:06: Bitte um den Statusbericht
   der Auflagepunkte des Stammgesuchs B26-00705.01. Er ist die Grundlage für das Nachfassen bei
@@ -53,7 +53,7 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
   (nur wenn die Mail heute rausgeht).
 - Sonntag 16.08.: E-Banking-Gegenprüfung zu Tx 3630 (CHF 6'000, Valuta 07.08., mutmasslich
   RE-00101 Tschopp). A1 für RE-00101 bleibt bis dahin gesperrt.
-- Montag 17.08.: Erwartung der Bauherrschaft auf die Baufreigabe KISPI; gleichentags 09:00 bis
+- Montag 17.08.: Die Bauherrschaft erwartet die Baufreigabe KISPI; gleichentags 09:00 bis
   10:00 Austausch Umbau PPTS mit C. Schäfer.
 - Donnerstag 20.08. 13:00 bis 14:00: Koordinationssitzung Gruner / Jans / KISPI (Zweiwochenrhythmus).
 
@@ -63,9 +63,9 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 - Trennwand 2.039 Speiseraum und 0.300: zwei Fragen von RJ am 12.08. 15:29 gestellt, Antwort offen.
 - Notariat Wiedikon und UBS-Kapitaleinzahlungsbescheinigung: beide ausstehend, Kette hängt daran.
 - Kollision Bodenablauf und Bodenheizung KISPI: Entscheid Kupplungen gegen Rückbau steht aus.
-- bexio-Token: neuer Token ist Aktion Raphael, ohne ihn bleibt die Debitoren-Aufsicht blind.
+- bexio-Token: Neuer Token ist Aktion Raphael, ohne ihn bleibt die Debitoren-Aufsicht blind.
 - Aus den gestrigen Gesprächen offen geblieben: der Verschlankungs-Entwurf für die `CLAUDE.md`
-  (18'655 auf 13'456 Bytes) wartet auf Deine Antwort, ob er direkt geschrieben oder vorher mit
+  (von 18'655 auf 13'456 Bytes) wartet auf Deine Antwort, ob er direkt geschrieben oder vorher mit
   einem Testagenten geprüft wird.
 
 **Vorschlag Kalendereinträge**
@@ -73,7 +73,7 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 - Heute 08:30 bis 09:00, Vorbereitung Nova: Varianten Küche 1A bis 3B, Schliessanlage Portunus
   gegen Feldmann, Hochschränke. Der Termin beginnt um 09:00 und der Entscheid zur Eingriffstiefe
   fällt dort.
-- Freitag 14.08. 16:00, Kontrolle: ist der Brandschutzplan von Gruner eingetroffen? Wenn nicht,
+- Freitag 14.08. 16:00, Kontrolle: Ist der Brandschutzplan von Gruner eingetroffen? Wenn nicht,
   bleibt vor dem 17.08. nur noch der Montagmorgen.
 
 **Token-Tempo**

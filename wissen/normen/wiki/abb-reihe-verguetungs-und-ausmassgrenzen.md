@@ -31,12 +31,23 @@ wurden und **mehrere Destillier-Agenten unabhängig voneinander auf dieselbe Abw
 jeder verglich seine Norm mit der bereits vorhandenen `sia-118-266-1-2017` (Mauerwerk) und meldete
 eine Differenz. Erst nebeneinandergelegt wird daraus ein Muster.
 
-⚠ **Status und Belastbarkeit.** Alle Werte stammen aus den Destillaten dieses Laufs; ausser
-`sia-118-266-1-2017` und `sia-118-266-2-2017` (beide established) sind sie noch **speculative**
-— die unabhängigen Refuter-Runden stehen aus. Diese Tabelle ist deshalb eine **Warnkarte, keine
-Zitierquelle**: sie sagt, wo hinzuschauen ist, nicht welcher Wert im LV stehen darf. Vor der
-Verwendung in einem Leistungsverzeichnis ist der Wert am jeweiligen Destillat und im Zweifel am
-Originaltext der Norm nachzulesen.
+⚠ **Status und Belastbarkeit — nach der Refuter-Runde vom 13.08.2026 (Run 49) verschärft.**
+Die Refuter-Runden sind inzwischen gefahren, und sie haben den Vorbehalt nachdrücklich
+bestätigt: **alle zehn zugrunde liegenden ABB-Destillate wurden BEANSTANDET**, zusammen mit
+32 Kernbefunden allein in dieser Normfamilie. Keines konnte auf `established` gehoben werden;
+ausser `sia-118-266-1-2017` und `sia-118-266-2-2017` (beide aus einem früheren Lauf und
+verifiziert) sind alle weiterhin **speculative** und tragen offene Kernbefund-Marker.
+
+**Ein Fehler dieser Synthese ist dabei aufgeflogen und oben korrigiert** (Betonbau/Arbeitsgerüst,
+Bedeutungsumkehr) — ausgerechnet in dem Satz, den sie selbst als den folgenreichsten hervorhob.
+Die Grenzwerte der beiden Tabellen wurden von den Refutern **nicht** beanstandet, sind also
+vorerst plausibel; das ist aber kein Verifikationsnachweis, denn niemand hat sie gezielt
+nebeneinander geprüft.
+
+Diese Tabelle bleibt damit eine **Warnkarte, keine Zitierquelle**: sie sagt, wo hinzuschauen ist,
+nicht welcher Wert im LV stehen darf. Vor der Verwendung in einem Leistungsverzeichnis ist der
+Wert am **Originaltext der Norm** nachzulesen — nicht am Destillat, solange dieses `speculative`
+ist.
 
 ## Arbeitsgerüste — inbegriffen bis welche Höhe?
 
@@ -49,12 +60,27 @@ Originaltext der Norm nachzulesen.
 | SIA 118/265:2004 | Holzbau | **3,00 m** ab Gerüstfuss (Hilfsgerüst) |
 | SIA 118/266-1:2017 | Mauerwerk | **3,0 m** |
 | SIA 118/266-2:2017 | Natursteinmauerwerk | **3,0 m** |
-| SIA 118/262:2004 | Betonbau | **gar nicht** — Arbeitsgerüste sind grundsätzlich NICHT inbegriffen |
+| SIA 118/262:2004 | Betonbau | **keine Höhengrenze, aber umgekehrte Systematik** — Arbeitsgerüste für die Betonarbeiten werden **nicht vergütet**, ausser das LV führt dafür getrennte Positionen (Ziff. 8.4.2.2, S. 21). Lehr- und Schutzgerüste dagegen werden in getrennten Positionen vergütet (Ziff. 8.4.2.3) |
 
 **Die drei Ausbau-Normen von 2006 liegen bei 2,5 m, die übrigen bei 3,0 m — und der Betonbau
-kennt die Inklusivgrenze überhaupt nicht.** Das ist die praktisch folgenreichste Zeile dieser
-Synthese: wer ein Beton-LV nach dem Muster eines Mauerwerks-LV schreibt und das Gerüst als
-inbegriffen behandelt, verschenkt die Position.
+kennt keine Höhengrenze, weil er die Frage anders stellt.** Die anderen ABB sagen: bis zu dieser
+Höhe im Einheitspreis enthalten, darüber separat vergütet. Der Betonbau sagt: das Arbeitsgerüst
+wird überhaupt nicht vergütet, es sei denn, der Bauherr schafft im LV eine eigene Position dafür.
+Praktische Folge fürs LV: **wer im Beton-LV keine Gerüstposition ausschreibt, bekommt sie auch
+nicht verrechnet — die Leistung steckt dann im Einheitspreis der Betonarbeiten.** Umgekehrt ist
+die Position bewusst zu setzen, wenn das Gerüst getrennt ausgewiesen und vergütet werden soll.
+Lehr- und Schutzgerüste sind davon ausgenommen und immer getrennt zu vergüten.
+
+> ⚠ **Korrektur 13.08.2026 (Run 49), Bedeutungsumkehr.** Diese Zeile stand bis zum 13.08.2026
+> genau verkehrt herum hier: «Arbeitsgerüste sind grundsätzlich NICHT inbegriffen», mit der
+> Warnung, wer sie als inbegriffen behandle, verschenke die Position. Richtig ist das Gegenteil.
+> Der Fehler stammt aus dem Erstdestillat `sia-118-262-2004` (Run 48), wurde von der
+> Refuter-Runde als Kernbefund gemeldet und vom Hauptprozess am Original wörtlich nachgeprüft
+> (Ziff. 8.4.2.2: «werden nicht vergütet, ausgenommen wenn im Leistungsverzeichnis hierfür
+> getrennte Positionen enthalten sind»). **Er stand ausgerechnet in dem Satz, den diese Synthese
+> selbst als «die praktisch folgenreichste Zeile» hervorhob** — der Merksatz war also nicht nur
+> falsch, sondern auch noch betont. Das ist der Beleg dafür, warum eine Synthese aus
+> unverifizierten Destillaten als Warnkarte und nicht als Zitierquelle zu führen ist.
 
 ## Abzugs- und Nichtabzugsgrenzen im Ausmass
 
