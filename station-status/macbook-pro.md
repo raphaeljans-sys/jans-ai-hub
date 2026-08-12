@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 00:34:07
+Stand: 13.08.2026 00:44:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 13.08.2026 00:34:07
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8f962fa4 nas-selfcommit: 1 Datei(en) 2026-08-13 00:30
+- daf0cab8 Rule interaktive-eingriffe aktiviert (@-Import + README) und Guard-Luecke B4 Teil 2 geschlossen: zwei neue Muster (Cloud-Sync/FileProvider, Verschluesselung/System-Defaults) mit Werkzeug- statt Pfad-Token; Probelauf ohne Fehlalarm, Regression ueber 40 Alt-Tasks null zusaetzliche Zurueckhaltungen
