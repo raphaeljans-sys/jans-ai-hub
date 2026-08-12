@@ -96,6 +96,22 @@ Abschnitt «Wartet auf Deine Freigabe» (Phase 6) — auch wenn sie noch nicht s
 ist. Genau diese Zeile haette den 41-h-Stillstand vom 11./12.08.2026 zwoelf Stunden frueher
 sichtbar gemacht, statt erst bei Sendegrund 5.
 
+**Ebenfalls Pflicht (Massnahme A1, Hub-Audit 260812, gegen R2/R3):** lebt die andere Station?
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/stationen-watchdog.sh --briefing
+```
+
+Die Ausgabe ist immer eine Zeile wert, auch die unauffaellige («alle Stationen und Sync-Jobs
+melden sich fristgerecht»). Grund: dieses Briefing ist der einzige regulaere Meldekanal, und
+ein Kanal, der ueber den Zustand der Gegenstation schweigt, laesst deren Ausfall wie einen
+ruhigen Tag aussehen. **Exit 1 ist ein Sendegrund** — ein stehender Mac Mini ist operativ,
+keine Hub-Interna: auf ihm liegt die Nachtschicht, und solange er steht, arbeitet niemand.
+
+Solange `hub-chef-taeglich` selbst noch auf dem MacBook Pro liegt (offener Punkt B1), deckt
+diese Zeile den eigenen blinden Fleck nur halb ab: faellt das MacBook aus, laeuft auch dieses
+Briefing nicht. Der scharfe Watchdog-Lauf auf dem Mac Mini mailt dann unabhaengig davon.
+
 ### Phase 2 — Priorisieren
 Reihenfolge: (1) Geld/Fristen faellig <= 7 Tage, (2) externe Kunden/Behoerden warten auf JANS,
 (3) laufende Projekte (KISPI, Albertstrasse, ...), (4) Service-Chancen (Anfragen, die auf den

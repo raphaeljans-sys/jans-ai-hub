@@ -48,6 +48,14 @@ Guard unbeaufsichtigt zurueckhalten wuerde.**
    Lehre bekommt einen eigenen Abschnitt. Der Zweck ist nicht Buchhaltung, sondern dass die
    naechste Session den Eingriff findet, statt ihn zu wiederholen oder rueckgaengig zu machen.
 
+   **Bleibt etwas offen, zusaetzlich eine Zeile in `logbuch/fristen.md`** — das weggeschobene
+   Material, der ungepruefte Abgleich, der halbe Namensraum. Die Chronik haelt fest, was
+   geschah; das Register haelt fest, was noch zu tun ist, und wird taeglich gelesen. Belegt am
+   OneDrive-Eingriff vom 08.08.2026: 2.8 GB Projektdaten liegen seither in
+   `~/OneDrive-Quarantaene-260808`, ohne Abgleich gegen SharePoint und ohne eine Zeile in
+   irgendeinem Register. Ein Chronik-Eintrag allein haette den Vorgang sichtbar gemacht, aber
+   nicht wiedervorgelegt (Hub-Audit 260812, R4).
+
 5. **Der Klassifikator und die Freigabe-Schwelle bleiben unberuehrt.** Diese Rule erweitert
    keine Vollmacht, sie diszipliniert eine bereits bestehende. Zahlungen, Buchungen, Versand
    und Veroeffentlichungen bleiben ausgenommen (User-CLAUDE.md «Grenzen»).
@@ -83,6 +91,17 @@ Ankuendigungspflicht loest beides: der Eingriff geschieht, aber sichtbar.
   **Lesen ist nie ein Eingriff.**
 - Wenn Raphael den Eingriff selbst beauftragt hat. Dann ist die Ankuendigung erfolgt, er hat
   sie geschrieben. Umkehrbarkeit (Punkt 2) und Chronik-Eintrag (Punkt 4) gelten trotzdem.
+
+## Das maschinelle Gegenstueck
+
+Diese Rule diszipliniert die **interaktive** Session. Das unbeaufsichtigte Gegenstueck ist
+`scripts/sync-task-guard.sh`, und der deckt die Klassen 2 bis 5 bisher **nicht** ab: geprueft
+werden Git-Interna, Zerstoerendes, SSH-Zugang, Rechte, Secrets, Persistenz und Fernausfuehrung,
+aber nicht `CloudStorage`, `FileProvider`, `domainscache`, schreibende `security`-Aufrufe,
+`fdesetup`, `launchctl` und `defaults write /Library`. Solange das so ist, traegt allein diese
+Rule den Schutz, und nur dort, wo Raphael anwesend ist. Offen aus dem Hub-Audit 260812 (B4,
+zweiter Teil); beim Ergaenzen jedes Muster einmal relativ und einmal ueber `ssh` durchdenken
+(Chronik 260811).
 
 ## Verwandt
 

@@ -21,6 +21,42 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260812f — Massnahme A1 (Hub-Audit): Stations-Watchdog, und was der erste Test daran fand
+
+`scripts/stationen-watchdog.sh` liest, was `station-status.sh` seit je schreibt und niemand
+las (Hub-Audit R2), dazu die Herzschlag-Stempel aus A2. Laeuft auf beiden Stationen und prueft
+beide; Schwellen Mac Mini 60 Min, MacBook Pro 24 h, git-auto-sync 30 Min, sync-task-runner
+180 Min. Eingehaengt als `heartbeat` Check 13 und als Pflichtzeile im `hub-chef` (Phase 1,
+Exit 1 = Sendegrund). Die LaunchAgent-Installation ist NICHT erfolgt und liegt Raphael als
+fertiger Befehl vor.
+
+**Zwei Fehler, die erst der Test fand — beide in der ersten Fassung dieses Scripts:**
+
+1. **Eine Schleife ueber vorhandene Dateien kann eine fehlende nie bemerken.** Der Stamp-Check
+   iterierte per Glob; mit geloeschter Stamp-Datei lief er null Mal und meldete «alles frisch»
+   (rc=0). Das ist exakt die Fehlerfamilie, gegen die der Watchdog gebaut ist. Richtig herum:
+   die ERWARTETEN Stationen aus `station-status/*.md` bestimmen und je Station fragen, ob ihr
+   Stamp da ist. Vier Faelle nachgemessen: frisch → rc=0 · 2 h alt → Befund · Datei geloescht →
+   Befund · Gegenstation 2 Tage alt → Befund.
+2. **`tr -d '-_'` liefert auf BSD einen LEEREN String**, weil das fuehrende Minus als Option
+   gelesen wird. Die Namens-Normalisierung (noetig, weil `git-auto-sync-Macmini.stamp` den
+   LocalHostName traegt und `synctask-runner-mac-mini.stamp` den Stationsnamen) verglich damit
+   Leerstring mit Leerstring und akzeptierte JEDEN Stamp fuer JEDE Station. Der Fehler haette
+   Test 1 und 2 stillschweigend bestehen lassen. Jetzt `sed 's/[-_]//g'`.
+
+**Sendeweg mit Verifikation.** Die Lehre aus 260812b (zwei Kontingent-Warnungen lagen
+unversendet in den Entwuerfen, waehrend das Script sie als gesendet verbuchte): das Muster
+`osascript >/dev/null 2>&1` plus `$?` beweist nichts, weil Apple Mail die Nachricht auch ohne
+Konto anlegt und `send` zurueckkehrt. Der Watchdog zaehlt deshalb die Entwuerfe vor und nach
+dem Senden; steigt die Zahl, gilt die Warnung als NICHT zugestellt, es wird keine Tagessperre
+gesetzt (der naechste Lauf versucht es erneut) und der Text landet zusaetzlich in
+`logbuch/heartbeat/UNZUSTELLBAR-<station>.txt`. **Der Sendeweg selbst ist noch nicht bewiesen** —
+`--test-mail` verschickt eine echte Mail und wurde bewusst nicht ohne Freigabe ausgeloest.
+
+**Nebenbefund aus dem ersten scharfen Lauf:** dem MacBook Pro fehlt `synctask-runner-macbook-pro.stamp`,
+waehrend `git-auto-sync-Macbookpro.stamp` frisch ist. Beobachtung laeuft; entweder Timing des
+30-Minuten-Takts oder der Runner feuert dort nicht.
+
 ## 260812e — Massnahme A6 (Hub-Audit): `find` in station-status.sh entschaerft (gegen R10)
 
 `scripts/station-status.sh`: Glob von `OneDrive*/AR*` (traf alle Namensraeume, auch die

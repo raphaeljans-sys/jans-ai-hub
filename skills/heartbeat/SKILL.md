@@ -228,6 +228,28 @@ bash /Volumes/daten/jans-ai-hub/scripts/wege-radar.sh
 - Anlass: KISPI-Vorfall 08./09.08.2026, bei dem zwei seit Wochen bestehende
   Werkzeugdefekte erst auffielen, als sie gebraucht wurden
 
+### 13. Lebt die andere Station? (Stations-Watchdog)
+
+Die Checks 1 bis 12 messen ausschliesslich die Station, auf der sie laufen. Faellt die
+andere aus, sieht dieser Heartbeat weiterhin gruen aus. Genau so blieben 09. bis 12.08.2026
+vier Tage ohne Tagesbriefing und ohne Radar unbemerkt (Chronik 260812b). Dieser Check liest
+die Frische der Gegenstation und der Herzschlag-Stempel aus Massnahme A2:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/stationen-watchdog.sh --pruefen
+```
+
+- ✅ Exit 0 → alle Stationen und Sync-Jobs melden sich innerhalb ihrer Schwelle
+  (Mac Mini 60 Min, MacBook Pro 24 h, git-auto-sync 30 Min, sync-task-runner 180 Min)
+- ⚠️ Exit 1 → Befundzeilen unveraendert in den Report uebernehmen. Ein fehlender Stempel
+  wiegt schwerer als ein alter: «FEHLT ganz» heisst, der Job hat auf jener Station noch nie
+  gelaufen oder die Datei wurde geloescht
+- ❌ Exit 2 → NAS nicht gemountet; dann ist der Watchdog blind und der Mount-Befund (Check 1)
+  hat Vorrang
+- **Nicht verwechseln:** `--pruefen` meldet nur. Der scharfe Lauf ohne Flag mailt bei Befund
+  einmal taeglich an rj@ und verifiziert dabei, dass die Mail wirklich raus ist statt als
+  Entwurf zu haengen. Den Sendeweg einmal beweisen: `--test-mail`
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
