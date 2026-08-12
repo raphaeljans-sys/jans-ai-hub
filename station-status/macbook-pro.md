@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 00:13:33
+Stand: 13.08.2026 00:23:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 13.08.2026 00:13:33
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 899b8b5d nas-selfcommit: 1 Datei(en) 2026-08-13 00:00
+- 42f5fbfe Kontingent-Lage 13.08.: Max20x+Team-Abo dokumentiert, Entscheidungsvorlage Loop-Reaktivierung+Migrationsplan, Kontingent-Aufsicht auf drei Toepfe + Sendeverifikation erweitert
