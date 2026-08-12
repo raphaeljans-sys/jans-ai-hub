@@ -1,0 +1,57 @@
+=== OneDrive-Status Mac Mini 2026-08-12 22:25:43 ===
+
+--- OneDrive-Prozesse (leer = keine):
+2138 /Applications/OneDrive.app/Contents/MacOS/OneDrive
+6309 /Applications/OneDrive.app/Contents/PlugIns/OneDrive File Provider.appex/Contents/MacOS/OneDrive File Provider -LaunchArguments eyJlbmhhbmNlZFNlY3VyaXR5IjpmYWxzZSwic2VydmljZU5hbWUiOiJjb20ubWljcm9zb2Z0Lk9uZURyaXZlLW1hYy5GaWxlUHJvdmlkZXIiLCJ0eXBlIjoxfQ==
+
+--- OneDrive.app installiert?
+/Applications/OneDrive.app
+
+--- CloudStorage (Soll: Dropbox + 4x GoogleDrive, max. 2 alte OneDrive-Geister):
+total 32
+drwxr-xr-x+  12 raphaeljans  staff    384 Aug 12 17:44 .
+drwx------@ 125 raphaeljans  staff   4000 Aug 12 21:35 ..
+-rw-r--r--@   1 raphaeljans  staff  14340 Aug 12 19:00 .DS_Store
+drwx------@  20 raphaeljans  staff    640 Mar 25 15:33 Dropbox
+dr-x------@   9 raphaeljans  staff    288 Nov  8  2024 GoogleDrive-jans.architektur@gmail.com
+dr-x------@   7 raphaeljans  staff    224 Nov 12  2024 GoogleDrive-mail@raphaeljans.ch
+dr-x------@   9 raphaeljans  staff    288 Jul 25  2023 GoogleDrive-raphaeljans@me.com
+dr-x------@   7 raphaeljans  staff    224 Jul 11  2023 GoogleDrive-rphljans@gmail.com
+drwx------@  19 raphaeljans  staff    608 Aug 12 22:07 OneDrive-FreigegebeneBibliotheken–JANS
+drwx------@  25 raphaeljans  staff    800 Aug  8 18:08 OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2 2
+drwx------@  27 raphaeljans  staff    864 Aug  8 18:09 OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2
+drwx------@  12 raphaeljans  staff    384 Aug 12 18:35 OneDrive-JANS
+
+--- FileProvider-Domains (Soll: keine OneDrive-Eintraege):
+total 48
+drwxr-xr-x   22 raphaeljans  staff    704 Aug 12 17:36 .
+drwx------+ 147 raphaeljans  staff   4704 Aug 12 20:26 ..
+drwxr-xr-x@   8 raphaeljans  staff    256 Aug 12 18:35 17271E33-9897-413C-8EFF-58CF0755EF7D
+drwxr-xr-x@   8 raphaeljans  staff    256 Aug 12 18:39 1AFBD8E5-2302-4D47-BA4E-5D660FD5AE6F
+drwxr-xr-x@   7 raphaeljans  staff    224 Sep 28  2023 37D13C9D-31BD-4ABD-BE73-3E8380760FD3
+drwxr-xr-x@   8 raphaeljans  staff    256 Nov  8  2024 A74FAE65-8CF9-4D39-873F-56AC63D6BF74
+-rw-r--r--@   1 raphaeljans  staff  20480 Jun  5  2023 AccessControl.db
+drwxr-xr-x@   8 raphaeljans  staff    256 Nov 12  2024 BC351B07-1C11-43CC-8EE1-A91549DD864C
+drwxr-xr-x@   8 raphaeljans  staff    256 Jun 25  2024 Dropbox
+drwxr-xr-x@   8 raphaeljans  staff    256 Jun 25  2024 GoogleDrive-raphaeljans@me.com
+drwxr-xr-x@   8 raphaeljans  staff    256 Jun 25  2024 GoogleDrive-rphljans@gmail.com
+-rw-r--r--@   1 raphaeljans  staff      0 May  2  2023 LegacyEnabledStateHasBeenMigrated
+drwxr-xr-x    2 raphaeljans  staff     64 May  2  2023 Purgatory
+drwxr-xr-x    3 raphaeljans  staff     96 May  2  2023 com.apple.CloudDocs.MobileDocumentsFileProvider
+drwxr-xr-x    3 raphaeljans  staff     96 May  2  2023 com.apple.CloudDocs.MobileDocumentsFileProviderManaged
+drwxr-xr-x    4 raphaeljans  staff    128 May  2  2023 com.apple.CloudDocs.iCloudDriveFileProvider
+drwxr-xr-x    3 raphaeljans  staff     96 May  2  2023 com.apple.CloudDocs.iCloudDriveFileProviderManaged
+drwxr-xr-x    6 raphaeljans  staff    192 May  2  2023 com.apple.Photos.PhotosFileProvider
+drwxr-xr-x    5 raphaeljans  staff    160 Jul 10  2023 com.getdropbox.dropbox.fileprovider
+drwxr-xr-x    8 raphaeljans  staff    256 Jul 11  2023 com.google.drivefs.fpext
+drwxr-xr-x    6 raphaeljans  staff    192 Aug 12 18:31 com.microsoft.OneDrive-mac.FileProvider
+-rw-r--r--    1 raphaeljans  staff     42 Feb 13 09:38 pausedSyncItems.plist
+
+--- Quarantaene-Ordner (Soll: vorhanden, ~2.8G):
+2.8G	/Users/raphaeljans/OneDrive-Quarantaene-260808
+
+--- Speicher Data-Volume:
+/dev/disk3s5   1.8Ti   730Gi   1.1Ti    40%    3.8M   12G    0%   /System/Volumes/Data
+
+--- mas-CLI verfuegbar (fuer App-Store-Install per Terminal)?
+mas nicht installiert
