@@ -25,9 +25,17 @@ description: >-
 ## Contract
 
 - **Trigger:** Auf Zuruf («Synergien pruefen», «Synergie-Check», «Geschaeftsmodell-
-  Vorschlaege») sowie monatlich via Scheduled Task `synergie-lauf-monatlich`
-  (1. des Monats 04:40, Nachtfenster; freigegeben Raphael 15.07.2026, Erstlauf
-  01.08.2026). Drossel-Regeln (z.B. 260714) vor jedem Lauf pruefen und respektieren.
+  Vorschlaege») sowie **taeglich 17:00 via Scheduled Task `synergie-lauf-taeglich`**
+  (Takt umgestellt am 13.08.2026 auf Anordnung Raphaels; Vorgaenger
+  `synergie-lauf-monatlich` stillgelegt, aber nicht geloescht, damit die Lauf-Historie
+  01–04 zurechenbar bleibt). Freigegeben Raphael 15.07.2026, Erstlauf 15.07.2026.
+  Drossel-Regeln (z.B. 260714) vor jedem Lauf pruefen und respektieren.
+- **Tagestakt heisst kleineres Fenster, nicht flacherer Lauf:** Erster Schritt ist ein
+  Uhr-Check gegen den nativen Synology-Log (`sync-tasks/log/selfcommit-JJJJMM.log`) —
+  am 12./13.08.2026 ging die Stationsuhr zehn Tage nach und liess `git log --since`
+  still 262 statt 1111 Commits liefern (`rules/betrieb-chronik.md` 260813e). Danach
+  Frueh-Ausstieg bei strukturellem Nulldelta (kein neuer/geaenderter Skill, Agent,
+  Rule, Connector, Service, Command, keine neue KB): eine Zeile ins CHANGELOG, fertig.
 - **Inputs:** `CLAUDE.md` (Skill-/Agenten-/Rule-Inventar), `skills/*/SKILL.md`
   (Contract-Bloecke: Vorgelagert/Nachgelagert/Output-Ablage), `agents/*.md`,
   `services/KATALOG.md`, `wissen/*/CLAUDE.md` + `INDEX.md`, `connectors/`,
@@ -57,7 +65,7 @@ description: >-
 | `wissens-chef` (KB `koordination`) | Konsistenz ZWISCHEN Wissens-KBs (Widersprueche, Links) | periodisch |
 | `masterclass/harness-review` | reaktive Korrektur-Cluster → Rules befoerdern | ~2-woechentlich |
 | `wissenscheck` | Gesundheit EINER KB (7 Audits) | monatlich |
-| **`synergie-orchestrator`** | **Struktur des Hub: Prozess-Synergien + Geschaeftsmodell** | monatlich / auf Zuruf |
+| **`synergie-orchestrator`** | **Struktur des Hub: Prozess-Synergien + Geschaeftsmodell** | taeglich 17:00 / auf Zuruf |
 
 ## Ablauf (5 Phasen)
 

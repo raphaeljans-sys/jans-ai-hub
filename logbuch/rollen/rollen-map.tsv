@@ -98,7 +98,8 @@ methoden-radar	task	maintainer	Aufsicht ueber den Methoden-Layer (Register-Verif
 normen-training-nacht	task	prototyper	Erzeugt neues Wissen	aktiv	wissen/normen
 spec-training	task	prototyper	Erzeugt neues Wissen	ereignis	wissen/spec
 syn02-spec-anstoss	task	grower	Geschaeftsmodell-Anstoss	erledigt
-synergie-lauf-monatlich	task	grower	Geschaeftsmodell-Entwicklung	aktiv
+synergie-lauf-monatlich	task	grower	Geschaeftsmodell-Entwicklung; stillgelegt 13.08.2026, abgeloest durch synergie-lauf-taeglich (Zeile bleibt stehen, damit die Laeufe 01-04 dieses Namens in der Bilanz zurechenbar bleiben)	erledigt
+synergie-lauf-taeglich	task	grower	Geschaeftsmodell- und Synergie-Entwicklung, taeglich 17:00 (Takt-Anordnung Raphael 13.08.2026); Nachfolger von synergie-lauf-monatlich	aktiv
 tenant-hygiene-weekly	task	maintainer	Betrieb	aktiv
 token-drosselung-100810	task	maintainer	Betriebssteuerung	vorrat
 token-messung-140716	task	maintainer	Betriebsmessung	erledigt
