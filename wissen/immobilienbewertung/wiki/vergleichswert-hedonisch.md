@@ -1,8 +1,8 @@
 ---
 title: Vergleichswert / hedonische Bewertung
 status: established
-last_updated: 2026-06-18
-sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte (Thalwil 9568 MA 241126: Bauland Mittel/Top → Marktwert-Synthese), Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026), LB Langnau Giebelweg 12 (260603) — Bestand-vs-Abbruch-Entscheidlogik Run 6]
+last_updated: 2026-08-13
+sources: [IMMO-03 Hedonistische_Berechnungsweise (WP Standortinformation Beispiel-Report Langenthal, 21.06.2023), IMMO-02 UBS Real Estate Fact Sheets (Glossar 12/2023), IMMO-01 MA Marktwertanalyse-Projekte (Thalwil 9568 MA 241126: Bauland Mittel/Top → Marktwert-Synthese), Wuest-Kurs "Immobilien entwickeln" 06.2023 (S. 43-48, 63/64), Web-Recherche Hedonik-Modellfamilie CH (UBS/IAZI/bestag/HEV, Stand 06.2026), LB Langnau Giebelweg 12 (260603) — Bestand-vs-Abbruch-Entscheidlogik Run 6, BFS/EDI Wohnimmobilienpreisindex IMPI Q2-2026 (publ. 30.07.2026: 127.7 Punkte, Q4-2019=100, +0.7 % QoQ, +3.5 % YoY, EFH −0.4 % QoQ, ETW +1.6 % QoQ) — erste WP-UNABHAENGIGE amtliche Transaktionsreihe der KB, aufgenommen im Marktpuls 13.08.2026 samt Divergenzbefund IMPI vs. WP beim EFH-Quartalswert]
 links: [[bewertungsverfahren-ueberblick]], [[datenquellen-registry]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]], [[marktdaten-gemeinden/README]]
 ---
 
@@ -183,6 +183,65 @@ Die Lage schlaegt am staerksten durch — formalisiert in der Lageklasse 1-10, d
 den **Landwertanteil** steuert: [[lageklasse-landwertanteil]]. Bei fehlendem UBS-FS fuer
 eine Gemeinde: Web-Recherche (Stand notieren) oder Ableitung aus Nachbargemeinde.
 
+## Der amtliche Gegencheck: BFS-Wohnimmobilienpreisindex (IMPI), neu ab 13.08.2026
+
+Die KB stuetzte sich fuer die Preisentwicklung bisher fast ausschliesslich auf **Wuest
+Partner** — auch dort, wo sie es nicht auf den ersten Blick tut: der Wissens-Chef hat am
+07.08.2026 belegt, dass selbst die **UBS Local Fact Sheets ein WP-Derivat** sind
+(Immobilien-/Baulandpreise, Standortratings und Angebotsziffern stammen laut Quellen-
+verzeichnis von Wuest Partner). Damit war die Vergleichswert-Seite bis jetzt ohne echte
+Zweitmeinung ([[datenquellen-registry]]).
+
+Der **BFS-Wohnimmobilienpreisindex IMPI** schliesst diese Luecke als **amtliche, von WP
+unabhaengige** Reihe. Er misst die Preisentwicklung **effektiv gehandelter** Objekte
+(Handaenderungen), nicht Angebotspreise, und ist quartalsweise verfuegbar.
+
+**Stand Q2-2026** (publ. 30.07.2026, BFS/EDI):
+
+| Groesse | Wert Q2-2026 |
+|---|---|
+| Indexstand (Q4-2019 = 100) | **127.7** |
+| Veraenderung zum Vorquartal | **+0.7 %** |
+| Veraenderung zum Vorjahresquartal | **+3.5 %** |
+| davon Einfamilienhaeuser | **−0.4 % QoQ** |
+| davon Eigentumswohnungen | **+1.6 % QoQ** |
+| staedtische Gemeinden / kleine Agglomerationen | +1.8 % |
+| laendliche Gemeinden | stabil |
+
+### ⚠ Der Befund, der die Nutzung dieser Reihe erst begruendet
+
+Fuer **dasselbe Quartal und dasselbe Segment** widersprechen sich die beiden Quellen:
+
+| Quelle | EFH Q2-2026 QoQ | EFH Q2-2026 YoY |
+|---|---|---|
+| BFS IMPI (amtlich, Transaktionen) | **−0.4 %** | +3.5 % (Total) |
+| WP Immo-Monitoring (publ. 16.07.2026) | **+1.5 %** | +4.3 % |
+| UBS SREBI Q2-2026 (publ. 06.08.2026) | — | +3.6 % (Wohneigentum) |
+
+Das ist **kein Fehler einer der beiden Reihen**, sondern eine Methodendifferenz: das BFS
+misst beurkundete Handaenderungen mit Publikationsverzug und Stichprobenschwankung, WP
+modelliert hedonisch und bezieht Angebotsdaten ein. Beim **YoY** liegen alle drei Reihen mit
++3.5 bis +4.3 % nahe beieinander — die Divergenz steckt praktisch ganz im **Quartalswert**.
+
+**Arbeitsregel fuer JANS-Deliverables (ab 13.08.2026):**
+
+1. **Nie einen einzelnen Quartalswert als Aussage ueber den Markt verwenden.** Quartalswerte
+   der EFH-Reihen sind volatil und quellenabhaengig widerspruechlich. Fuer Trendaussagen die
+   **YoY-Rate** nehmen, dort sind sich die Quellen einig.
+2. **Bei Aussagen zur Preisentwicklung beide Reihen nennen**, wenn sie auseinanderliegen —
+   die Bandbreite ist die ehrliche Antwort, nicht der bequemere Wert.
+3. **Quelle und Publikationsdatum immer mitfuehren.** Beide Reihen werden **rueckwirkend
+   revidiert**: belegt am SREBI, dessen Q1-2026 zwischen der Mai- und der August-Publikation
+   von 0.69 auf 0.62 zurueckgesetzt wurde ([[investorenmarkt-makro]]). Werte aus zwei
+   verschiedenen Publikationsstaenden nie in derselben Zeitreihe mischen.
+4. Der IMPI ersetzt **nicht** die Quantile fuer die Objektbewertung — er liefert keine
+   Preisniveaus je Gemeinde, nur die Entwicklung. Fuer das Niveau bleiben UBS-FS/WP-Report
+   massgebend (mit dem Vorbehalt, dass beide WP-basiert sind).
+
+Quelle: BFS/EDI, «Die Preise fuer Wohneigentum sind im 2. Quartal 2026 um 0,7% gestiegen»,
+publ. 30.07.2026; Wuest Partner Immo-Monitoring Q2-2026 (via cash.ch 16.07.2026); UBS CIO
+SREBI Q2-2026 (publ. 06.08.2026). Alle Web-Check 13.08.2026 (Marktpuls vorgezogen).
+
 ## Offen / zu vertiefen
 
 - ✓ 2026-06-12 (T7 teilweise): WP-Standortreport-Aufbau + UBS-FS-Methodik (Glossar) belegt;
@@ -198,3 +257,12 @@ eine Gemeinde: Web-Recherche (Stand notieren) oder Ableitung aus Nachbargemeinde
   Zustand, Ausbau, Stockwerk/Aussicht).
 - Veraltete UBS-FS aktualisieren (Wald/Wädenswil/Einsiedeln Stand 2023-Q3, Maur 2024-Q1
   > 18 Mt.) → `wiki/wissensluecken.md` D1.
+- ✓ 2026-08-13 (Marktpuls vorgezogen): **BFS-IMPI als erste WP-unabhaengige amtliche
+  Transaktionsreihe aufgenommen** (Q2-2026 = 127.7, +3.5 % YoY) — schliesst die vom
+  Wissens-Chef am 07.08.2026 gemeldete Luecke «kein unabhaengiger Gegencheck zur
+  WP-Datenfamilie» fuer die **Preisentwicklung**. Mitgeliefert: der Divergenzbefund
+  IMPI −0.4 % gegen WP +1.5 % beim EFH-Quartalswert und die daraus abgeleitete Arbeitsregel
+  (YoY statt QoQ, Bandbreite nennen, Publikationsstand mitfuehren). **Nicht geschlossen** ist
+  die Luecke fuer die **Preisniveaus** je Gemeinde (Quantile) — dort bleibt die KB
+  WP-basiert; ein echter Niveau-Gegencheck braucht IAZI/CIFI oder die kantonale
+  Handaenderungsstatistik (Bring-Schuld Raphael, unveraendert offen).

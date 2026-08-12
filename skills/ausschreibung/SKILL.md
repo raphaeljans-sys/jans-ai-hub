@@ -100,6 +100,29 @@ zum 04.08.2026 «BKP 271.10 — Innenputze» — ein Code, den weder BKP 2017 no
 2008 kennt. Buerointerne LV-/Los-Nummern mit zweistelliger Nachkommastelle sind **keine**
 BKP-Codes und duerfen nicht als solche in ein LV wandern.
 
+## Verbindliche Norm-Referenz — die ABB-Reihe SIA 118/xxx ist je Gewerk verschieden kalibriert
+
+Norm-Aussagen im LV folgen der Rule `normen-referenz`: Fundstelle immer mit **Norm, Ausgabe und
+Ziffer**. Die Standardposition 091100 nennt nur pauschal «Norm SIA 118» — das genügt für die
+allgemeinen Bedingungen, **nicht** für Ausmass und Vergütung.
+
+Vor dem Schreiben eines LV prüfen, ob für das Gewerk eine **ABB der Reihe SIA 118/xxx** existiert.
+Ihre Grenzwerte (Gerüsthöhe, Abzugs-/Nichtabzugsgrenzen, Mörtelschicht) sind **je Gewerk
+verschieden** — belegt etwa mit der Inklusivgrenze für Arbeitsgerüste von 2,5 m bei den
+Ausbau-Normen von 2006 gegenüber 3,0 m bei Maler, Holzbau und Mauerwerk, und beim Betonbau gar
+nicht inbegriffen. Wer den Grenzwert des Nachbargewerks verwendet, produziert genau den
+Nachtragsstreit, den das LV vermeiden soll.
+
+- **Wo hinschauen (Warnkarte, keine Zitierquelle):**
+  `/Volumes/daten/jans-ai-hub/wissen/normen/wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`
+  — Status `speculative`, dient nur der Orientierung, WO ein Unterschied liegt.
+- **Woher der Wert kommt (Zitierquelle):** das Destillat
+  `wissen/normen/destillate/sia-118-<nr>-<jahr>.md`, im Zweifel das Original-PDF. Nur diese
+  Fundstelle wandert ins LV.
+
+Ergänzt 13.08.2026 (Wissens-Chef Run 29), nachdem `normen` Run 48 die ABB-Reihe erstmals
+destilliert hatte und im Skill kein Weg in die Normen-KB führte.
+
 ### Gewerk-Ordnernamen — Stadt-Zürich-BKP 2008 (VERBINDLICH)
 
 Die **übergeordneten Gewerk-Ordner** in der JANS-Projektablage (`03 BKP/<Gewerk>/`) werden nach

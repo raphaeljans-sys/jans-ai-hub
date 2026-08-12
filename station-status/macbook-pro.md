@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 00:54:41
+Stand: 13.08.2026 01:05:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:54)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:55)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 13.08.2026 00:54:41
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 50f4553a heartbeat: Sync-Task-Zaehlung auf find *.md umgestellt (Hilfsordner scripts/ war Dauer-Fehlalarm), Freigabe-Queue neu separat ausgewiesen
+- 0f9286a2 modellwahl-routine: Delegations-Schwelle beziffert (90s/87k Token fuer 9 Shell-Befehle) — unter ~10 Werkzeugaufrufen inline, unabhaengige Messungen parallel statt in Kette

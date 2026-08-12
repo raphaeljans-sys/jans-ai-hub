@@ -7314,7 +7314,10 @@ Kanton Schwyz ist der reine Ersatz einer Öl- oder Gasheizung durch eine neue fo
 bereits heute nicht mehr zulässig. Danach folgt der Ablauf über eine Impulsberatung, den
 Vollkostenvergleich, Offerten, Bewilligung und Fördergelder. Für ein grösseres Mehrfamilienhaus
 oder eine Stockwerkeigentümerschaft empfahl der Bund 2021 rund CHF 1'500 bis 2'000 für die
-Impulsberatung.
+Impulsberatung. ⚠ **Diese Zahl ist keine heutige Kostenaussage mehr** (Vorbehalt 13.08.2026):
+die Impulsberatung «erneuerbar heizen» ist seit der Kostenlos-Umstellung für alle
+Gebäudekategorien gratis. Die CHF-Angabe bleibt hier nur als getreue, datierte Abschrift der
+Broschüre 10.2021 stehen.
 
 **Fachlich:** Im Kanton Zürich verlangt § 11 Abs. 2 EnerG beim Ersatz eines Wärmeerzeugers in
 bestehenden Bauten ausschliesslich erneuerbare Energien, sofern das technisch möglich ist und die
@@ -7334,12 +7337,21 @@ Nachweis der Substitutionspflicht an den Anfang, vor die Systemdiskussion, und i
 vorgelagert die Lebenszykluskosten-Berechnung. Die genannten CHF 1'500 bis 2'000 sind eine
 Empfehlung des Bundes aus dem Jahr 2021 und kein Marktpreis; vor einer Kostenaussage im Mandat
 ist der aktuelle Stand abzufragen. Für kleinere Objekte führt der Bund zudem eine kostenlose
-Impulsberatung, ab welcher Objektgrösse sie kostenpflichtig wird, ist nicht belegt.
+Impulsberatung; sie ist **heute für alle Gebäudekategorien kostenlos** — auch für
+Mehrfamilienhäuser über sechs Wohneinheiten und für Stockwerkeigentümerschaften. Eine
+Grössenschwelle, ab der sie kostenpflichtig würde, gibt es nicht. Der Unterschied nach
+Objektgrösse liegt allein im Zeitaufwand vor Ort: rund 1,5 Stunden bei EFH und MFH bis sechs
+Wohneinheiten gegenüber rund 5 Stunden bei grösseren MFH und STWEG. (Belegt am Programmauftritt
+energieschweiz.ch, Stand 08.08.2026; die Umstellung datiert nach der Medienmitteilung UVEK/BFE
+vom 31.3.2022 auf den 1.4.2022 — **Einzelquellen-Beleg**, der Programmauftritt selbst nennt kein
+Startdatum. Korrigiert 13.08.2026, Wissens-Chef Run 29: dieser Satz behauptete bis dahin eine
+Wissenslücke, die die KB am 08.08.2026 selbst geschlossen hatte.)
 
 **Quelle:** EnergieSchweiz/BFE, «Heizungsersatz in grösseren Mehrfamilienhäusern und bei
 Stockwerkeigentum», Artikelnummer 805.203.D, Ausgabe 10.2021, gelesen 07.08.2026 →
 `[[heizungsersatz-groessere-mfh-stweg]]`. Rechtslage ZH/SZ aus amtlichem Primärtext:
-`[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` (established). Status der Kostenangabe
+`[[oelheizung-gasheizung-ersatzpflicht-zh-sz]]` (established); Kostenlos-Stand der Impulsberatung
+nachgeführt am 08.08.2026 im selben Destillat, in diese FAQ übernommen am 13.08.2026. Status der Kostenangabe
 **emerging**, Stand 10.2021.
 
 ---

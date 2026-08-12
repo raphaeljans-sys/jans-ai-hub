@@ -41,9 +41,30 @@ allgemeinen Gesundheits-/Bauphysik-Portalen ohne direkten SIA-Bezug. Die 30 %-Un
 SIA 180 sogar als quantitative Planungsanforderung (90 % der Nutzungszeit) verankert — aktive
 Befeuchtung ist bei normalem Klima **nicht nötig**, siehe auch [[behaglichkeit-raumklima-kbob-ipb]].
 
+## Querbezug KB `normen` — die Fundstellen am Primärdestillat (Nachtrag 13.08.2026, Wissens-Chef Run 29)
+
+Der SIA-180-Volltext liegt im Hub inzwischen als Primärdestillat vor:
+`wissen/normen/destillate/sia-180-2014.md` (Original gelesen, «destilliert VOLLSTAENDIG»).
+Nach der Führungs-Matrix führt `normen` die Norm-Fundstelle, `energie` die angewandte
+Fachaussage — die Kennwerte oben sind gegen das Primärdestillat gegengelesen und **stimmen alle**;
+neu sind hier nur die ziffern-genauen Fundstellen, die die Sekundärquelle nicht mitliefern konnte:
+
+- **30 % während 90 % der Nutzungszeit, ohne aktive Befeuchtung** → SIA 180:2014 Ziff. **3.5.1.3**
+- **15,2 g/m³, max. 10 % Überschreitung, ohne aktive Entfeuchtung** → Ziff. **3.5.1.4**
+- **Band 30–70 %** → die Norm führt es in **zwei** Bezügen, und dieser Artikel meint den richtigen:
+  Ziff. **2.4.1.3** (Gültigkeitsbereich der Figur 6 im Kapitel thermische Behaglichkeit — das ist
+  die hier gemeinte Aussage) und Ziff. **6.4.1–6.4.3** (Tagesmittel zum Schutz organischer
+  Materialien vor Formänderungen — ein anderer Bezug, nicht der hier zitierte).
+
+Die Sekundärquelle enbau-online.ch und der Vermerk «Volltext nicht direkt eingesehen» bleiben als
+getreue Entstehungsangabe stehen; sie ist nicht mehr die einzige Deckung der Zahlen.
+
 ## Offene Punkte
 - SIA-180-Volltext selbst nicht direkt eingesehen (kostenpflichtig); Zahlen stammen aus einer
   Sekundärquelle (enbau-online.ch), die wörtlich zitiert, aber nicht amtlich autorisiert ist.
+  **Nachtrag 13.08.2026:** die drei Kennwerte sind seither gegen das Primärdestillat
+  `wissen/normen/destillate/sia-180-2014.md` verifiziert (siehe Querbezug oben); der Status bleibt
+  bis zu einer eigenen adversarialen Zweitprüfung dennoch `emerging`.
 - Lungenliga-Merkblatt-PDF-Volltext nicht direkt verifizierbar (nur Suchindex-Snippet).
 - Keine adversariale Zweitprüfung durchgeführt (Status bleibt emerging) — bei Bedarf eine dritte
   unabhängige CH-Quelle mit direktem SIA-180-Zitat suchen (z.B. Minergie oder Bauphysik-Fachartikel).

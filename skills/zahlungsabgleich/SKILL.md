@@ -25,6 +25,10 @@ gegenuebersteht.
   Setzt `--abgleich`, `--duplikate` und `--verzug` selbst ab, trennt Einzel-Duplikate von
   Pruefgruppen, vergleicht mit dem Snapshot des Vortages und gibt nur das Delta plus die
   Fristenlage aus. Exit 0 = keine Aenderung · 10 = Delta · 2 = Fehler.
+  **Seit 13.08.2026 zweistufig:** die Detail-Listen nennen die Ursache, der **Kennzahlen-Diff**
+  (Zeile `KENNZAHL`) ist das Rueckfallnetz darunter und macht jede bewegte Kennzahl zum Delta,
+  auch wenn keine Liste sie erklaert. Eine `KENNZAHL`-Zeile ohne dazugehoerige Detailzeile ist
+  ein Befund, kein Rauschen: sie heisst, dass sich etwas bewegt hat, das noch kein Melder kennt.
 - **Connector (Detailabfragen):** `connectors/bexio.mjs` (Bank-Feed `/3.0/banking/transactions`,
   Rechnungen `/2.0/kb_invoice`, Zahlungen `/2.0/kb_invoice/{id}/payment`); `--rechnung <ID>` und
   `--mahnstufe <ID>` gezielt bei Delta oder offenem Registerpunkt.
@@ -57,6 +61,14 @@ zweimal — einmal echt (`reconciled`/`auto_reconciled`) und einmal als `unrecon
 > abgeglichenen Eingangs. Diese «unreconciled» blind abzugleichen wuerde jede Zahlung ein
 > ZWEITES Mal verbuchen und die Buchhaltung zerstoeren.
 
+**Praezisierung 13.08.2026 — «fast immer» ist nicht «immer», und der Rest ist das Interessante:**
+Duplikat ist ein `unreconciled` CREDIT nur dann, wenn er einen **abgeglichenen Zwilling** mit
+gleichem Konto, Typ, Valuta und Betrag hat. Fehlt der Zwilling, ist es echtes, unzugeordnetes
+Geld. Genau dieser Fall trat am 07.08.2026 ein (Tx 3630, CHF 6'000, deckungsgleich mit der
+offenen RE-00101) und blieb im taeglichen Lauf unsichtbar, weil beide Melder ihn strukturell
+nicht sehen konnten. Er wird seither als eigener Befund gefuehrt. **Die harte Regel bleibt
+unveraendert** — sie verbietet das blinde Abgleichen, nicht das Hinschauen.
+
 Darum gilt: Dieser Agent **bucht, reconciled und loescht NICHTS** automatisch. Er liest,
 verifiziert, meldet. Das eigentliche Reconcilen/Deduplizieren ist eine bexio-Oberflaechen-
 bzw. Treuhand-Aufgabe (kann interaktiv begleitet werden, nie als Massen-Schreibautomatik).
@@ -78,6 +90,11 @@ bzw. Treuhand-Aufgabe (kann interaktiv begleitet werden, nie als Massen-Schreiba
      (Phantom-Zahlung). Diese Rechnung ist in Wahrheit OFFEN und gehoert in den Mahnlauf.
    - **«Bankeingang ohne Verbuchung»** — echter Eingang ohne zugeordnete Rechnungs-Zahlung.
    - Anzahl `unreconciled` CREDIT (Duplikat-Verdacht).
+   - **«unreconciled ohne Zwilling»** (`unrecOhneZwilling`, seit 13.08.2026) — CREDIT im Status
+     `unreconciled`, zu dem KEINE abgeglichene Transaktion mit gleichem Konto, Typ, Valuta und
+     Betrag existiert. Das ist kein Duplikat des Doppelimports, sondern unzugeordnetes Geld und
+     der schaerfste der vier Befunde: er kann per Konstruktion nie in «Bankeingang ohne
+     Verbuchung» erscheinen, weil das nur auf reconciled/auto_reconciled aufbaut.
 
 **Wichtige Einschraenkung:** Das Matching laeuft ueber den Betrag (greedy), weil die API die
 Referenz-Verknuepfung nicht liefert. Der Report ist damit ein **Kandidaten-Melder fuer die

@@ -49,6 +49,14 @@ gelten. Das Raster dafür liefert **SIA 112/1 «Nachhaltiges Bauen — Hochbau»
 Bereichen **Gesellschaft, Wirtschaft, Umwelt**; die destillierte Checkliste gliedert sie in
 12 Themenfelder und 27 Einzelkriterien (⚠ Stand der Checkliste 2004 — geltend ist heute die
 Ausgabe **SIA 112/1:2017**, siehe `[[eco-bau-zielvereinbarungen-sia112-1]]`).
+⚠ **Nachtrag 13.08.2026 (Wissens-Chef Run 29):** Der obige Verweis führt zum **Zeitdokument 2004**,
+nicht zur geltenden Fassung. Das Volldestillat der Ausgabe 2017 liegt seit dem 08.08.2026 in der
+führenden KB: `wissen/normen/destillate/sia-112-1-2017.md` (`established`, doppelt
+refuter-verifiziert). Die Gliederung ist dort eine **andere**: **21 Kriterien in drei Bereichen
+A/B/C zu je sieben** (Ziff. 4, Anhänge A–C) statt 12 Themenfelder mit 27 Kriterien. Wer eine
+Zielvereinbarung nach der 2004er Checkliste ausfüllt, arbeitet mit einem Raster, das die Norm
+seit 2017 nicht mehr führt. Die Zahlen 12/27 bleiben hier stehen, weil sie die Checkliste
+getreu wiedergeben.
 
 Wichtig ist weniger die Anzahl Kriterien als die **Verbindlichkeit**: Die Zielvereinbarung wird
 im **Projektpflichtenheft** (Projekthandbuch) festgehalten und in jeder Planungsphase

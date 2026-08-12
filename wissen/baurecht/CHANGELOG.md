@@ -3,6 +3,51 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 (Buch-Run 73, Korpus-Queue Batch T2) — Neuer Artikel Umgebungsgestaltung/Einfriedungen; Konkordanz StrAV → VErV mit zwei materiellen Aenderungen; die Thalwiler «1.40 m» ist kein Rechtssatz
+
+- **[neu] `wiki/umgebungsgestaltung-und-einfriedungen.md`** — schliesst die groesste gemessene
+  Luecke der Prioritaet (d) (Zielthema Nr. 4, bis heute «kein eigener Wiki-Artikel»). Traegt die
+  **Vierebenen-Pruefung** fuer Gartenmauern und Einfriedungen: Zonenrecht (§ 238a PBG + kommunale
+  BZO) · Strassenrecht (**VErV**, Bezugslinie Strassengrenze) · Privatrecht (§§ 169-179 EG ZGB,
+  Bezugslinie Nachbargrenze, **nicht** im Baubewilligungsverfahren durchgesetzt) · Einordnung
+  (§ 238 Abs. 1 PBG). Kumulativ, je die strengere Anforderung. **§ 309 Abs. 1 lit. h PBG** nennt
+  Mauern und Einfriedigungen ausdruecklich und eigenstaendig als bewilligungspflichtig.
+- **[fix/Fassungsstand] Vollstaendige Konkordanz StrAV → VErV**, mit **zwei materiellen**
+  Aenderungen — genau der Fall, den ein Fassungscheck auf blosser Erlassebene verfehlt:
+  **§ 20 VErV** hebt den Lichtraum ueber Trottoirs, Fuss- und Velowegen von **2,5 m auf 2,65 m**
+  (Fahrbahngebiet unveraendert 4,5 m), und **§ 28 VErV** ersetzt die feste 0,80-m-Obergrenze an
+  der **Kurveninnenseite** durch eine blosse **Abstandsbefugnis**. Wortgleich uebernommen wurde
+  nur § 7 StrAV → **§ 26 Abs. 1 VErV**; dessen **Abs. 2** (Abstand bis 0,5 m bei fehlendem
+  Fussgaengerschutz) ist neu. Pflanzen neu § 27 VErV.
+- **[fix] `wiki/QUESTIONS.md`:** die seit Run 25 offene Frage «StrAV-Masszahlen am amtlichen
+  Volltext gegenpruefen» **geschlossen** — sie war **falsch gestellt**, weil die StrAV seit
+  01.06.2020 aufgehoben ist und es keinen geltenden Volltext mehr gibt. Mit Begruendung und
+  Verweis auf die Konkordanz.
+- **[neubefund] Die Thalwiler «max. 1.40 m» fuer Gartenmauern laengs Strassen und Wegen ist
+  kein Rechtssatz.** Die Zahl steht in **keiner** der beiden BZO-Fassungen; sie steht in der
+  **Wegleitung BZO (Nachfuehrung 2020)** unter der Ueberschrift «*Aufgrund fehlender
+  Rechtsgrundlage weggelassene oder geloeschte Absaetze, welche daher als Beurteilungsrichtlinie
+  dienen*» — samt drei weiteren Saetzen desselben Status (Abgrabungen «in der Regel nicht mehr
+  als 1.5 m», Gestaltungs-/Bepflanzungsvorgaben, Stuetzmauern «auf die technisch notwendigen
+  Minimalmasse»). Rechtsfolge: **kein selbstaendiger Ablehnungsgrund**, nur Auslegungshilfe im
+  Rahmen von § 238 Abs. 1 PBG. Gefunden nur, weil der Nullbefund der BZO-Suche nicht als
+  Halluzinationsbeweis genommen wurde (Leitplanke «ein leeres Ergebnis ist zuerst eine Aussage
+  ueber das Werkzeug»).
+- **[warnung] Amtliche Herkunft schuetzt nicht vor Alterung:** das Thalwiler «Merkblatt zu
+  Abstaenden von Pflanzen, Mauern und Einfriedungen» datiert vom **11.12.2013**; sein
+  EG-ZGB-Teil ist unveraendert richtig, sein Strassenrechts-Teil (§§ 7/17 StrAV) seit dem
+  01.06.2020 ueberholt.
+- **[pruefung/T8 vorgezogen] Drei Claude-Erzeugnisse zur Gartenmauer gegengelesen**, alle drei
+  aus demselben Ordner: **8 Fehler**, darunter 3× tote StrAV-Fundstelle, 1× ueberholtes
+  Lichtraummass 2,5 m, 1× falsche BZO-Verortung der 1,40 m (Art. 28 BZO regelt Spiel- und
+  Ruheflaechen), 1× halbe statt ganze Mehrhoehe bei § 178 EG ZGB (2,00 m → **0,25 m**, nicht
+  0,50 m), 1× Kleinbauten-Masse ohne Deckung in § 2a ABV, 1× «Art. 2a ABV» statt «§ 2a ABV».
+  **Kein Befund daraus in die KB uebernommen** (eisernes Echo-Verbot).
+- **[register]** `wiki/INDEX.md` (Eintrag), `wiki/abstaende-und-hoehen.md` (Abgrenzung zur neuen
+  Ebenen-Trennung), `training/drills.md` (2 neue Karten, Bestand 43), `training/KORPUS-QUEUE`
+  (T2 erledigt), `training/PROGRAMM.md` (Tracker Run 73; Zielthemen 4 und 9 auf erledigt).
+  Report: `outputs/2026-08-13_buch-run73.md`. **0 Halluzinationen.**
+
 ## 2026-08-07 (Wissens-Chef Run 28, Cross-KB) — § 321 Abs. 2 PBG hat zwei Haelften; Querverweis zu `planungsgrundlagen` und Terminologie im Skill `behoerden-vorabklaerung`
 
 - **`wiki/nebenbestimmungen-und-reverse.md`, Abschnitt «Grundbuch-Anmerkung: nur deklaratorisch»:**

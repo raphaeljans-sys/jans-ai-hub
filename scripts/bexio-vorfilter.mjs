@@ -7,6 +7,13 @@
 // kompakten Zustand und vergleicht ihn mit dem Snapshot des Vortages. Ausgegeben wird nur,
 // was sich BEWEGT hat, plus die Fristenlage.
 //
+// Der Vergleich laeuft auf ZWEI Ebenen, und das ist Absicht (13.08.2026): die Detail-Listen
+// nennen die Ursache, der Kennzahlen-Diff ist das Rueckfallnetz darunter. Bis dahin gab es nur
+// die Listen — als am 07.08. ein Geldeingang von CHF 6'000 einging, den bexio keiner Rechnung
+// zuordnete (Tx 3630), stieg die Kennzahl unreconciledCredit von 55 auf 56, KEINE Liste
+// bewegte sich, und der Lauf meldete «keine Aenderung» mit Exit 0. Bewegt sich eine Kennzahl,
+// ist das seither ein Delta, auch wenn keine Liste die Ursache zeigt.
+//
 // Das Script urteilt NICHT. Es bucht, loescht und reconciled nichts (rein lesend, der
 // Connector hat auf Banktransaktionen ohnehin keinen Schreibzugriff). Sendeentscheid,
 // Fristenschaerfe und die Bewertung eines Delta bleiben im Hauptkontext (Rule
