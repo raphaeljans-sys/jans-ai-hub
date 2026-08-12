@@ -5,6 +5,37 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Methoden-Radar 13.08.2026, 01:20 — umgebaut auf Entscheid Raphael (Scan in den heartbeat, Rotation monatlich)
+
+**Anlass:** Raphaels Frage, ob der Loop noch taugt. Analyse vorgelegt, Entscheid für die
+weitestgehende Variante.
+
+**Der stärkste Befund war ein Konstruktionsfehler, nicht ein Betriebsfehler.** Schritt 3 des
+Prompts verlangte in jedem Lauf ohne Delta einen Register-Stempel, Schritt 4 zählte genau diesen
+Stempel als Liefer-Delta. Damit lieferte jeder Lauf per Definition, und die vorgesehene
+Rücktaktung nach drei beziehungsweise fünf leeren Läufen konnte nie auslösen. Der Wächter erfüllte
+sein eigenes Erfolgskriterium mit jedem Lauf selbst und mass damit nichts. Dazu kam: kein Delta
+über vier Läufe, und von zwei Rotationsläufen ein Fehlalarm, den der Wissens-Chef Run 23
+widerlegen musste.
+
+**Umgebaut:** Der Delta-Scan hängt neu als **Check 14 im `heartbeat`** (täglich, reines
+Shell-Script, keine eigene Claude-Session; friert den Scan-Stand bewusst nicht ein, sonst
+verschluckt er das Signal für den Radar). Der Radar läuft **monatlich am 8. um 21:00** für die
+Verifikations-Rotation und sonst ad hoc auf das heartbeat-Signal. Neues Material fällt damit am
+Tag seines Erscheinens auf statt frühestens am folgenden Montag.
+
+**Entrümpelt:** Prompt von 6'297 auf 4'055 Bytes, Task-Beschreibung von 1'321 auf 537 Zeichen.
+Die Lehren stehen neu im Register (neuer Abschnitt «Betriebsmodus») und in der Chronik `260813d`.
+Daraus die Lehre über diesen Loop hinaus: Task-Prompt und Task-Beschreibung sind der teuerste
+Ort für eine Lehre, weil sie in jedem Lauf laden, bevor die erste Zeile Arbeit beginnt, und weil
+sie niemand je aufräumt. Der `vollgas-chef-radar` zeigt dieselbe Krankheit in fortgeschrittenem
+Stadium; nicht angefasst, nur vermerkt.
+
+**Gegenprobe:** Scan läuft unverändert (Exit 0, acht Ordner), Cron am 13. geändert, also kein
+Re-Arm-Doppellauf. Konzeptdokument mit Nachtrag versehen. Nichts gelöscht, nichts deaktiviert.
+
+---
+
 ## Methoden-Radar 13.08.2026, 00:57 — Nachhol-Lauf auf Auftrag Raphael (Prompt-Pfad korrigiert, Rotation ohne Befund)
 
 **Auslöser:** Auftrag Raphaels, den Prompt anzupassen und den Loop auszuführen. Der zunächst
