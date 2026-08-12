@@ -14,6 +14,10 @@
 #
 #   Nutzung:  bash scripts/freigabe-status.sh            # Menschenlesbar
 #             bash scripts/freigabe-status.sh --kurz     # Eine Zeile (Briefing)
+#             bash scripts/freigabe-status.sh --briefing # Pflichtzeile(n) fuer den
+#                                                         # hub-chef: jeder Eintrag ab
+#                                                         # 12 h mit Alter und Titel
+#                                                         # (Massnahme A5, Hub-Audit 260812)
 #
 #   Exit 0 = nichts wartet, oder alles juenger als 24 h
 #   Exit 1 = mindestens ein Eintrag ist aelter als 24 h  → melden
@@ -25,11 +29,41 @@ set -uo pipefail
 QUEUE="/Volumes/daten/jans-ai-hub/sync-tasks/freigabe"
 STATIONEN="mac-mini macbook-pro"
 KURZ=0
-[ "${1:-}" = "--kurz" ] && KURZ=1
+BRIEFING=0
+case "${1:-}" in
+    --kurz) KURZ=1 ;;
+    --briefing) BRIEFING=1 ;;
+esac
 
 if [ ! -d "$QUEUE" ]; then
     echo "Freigaben: UNBEKANNT (NAS nicht gemountet — Queue nicht pruefbar)"
     exit 2
+fi
+
+# --- Briefing-Modus (Massnahme A5): eigene, niedrigere Schwelle (12 h statt 24 h) --------
+# Der hub-chef braucht diese Zeile in JEDEM Tagesbriefing, unabhaengig vom Sendegrund-5-
+# Mailschwellwert (24 h). Titel kommt aus dem Frontmatter-Feld "titel:" der Task-MD.
+if [ "$BRIEFING" -eq 1 ]; then
+    NOW_B=$(date +%s)
+    ZEILEN=""
+    for ST in $STATIONEN; do
+        for F in "$QUEUE/$ST"/*; do
+            [ -e "$F" ] || continue
+            case "$(basename "$F")" in .*) continue;; esac
+            MTIME=$(stat -f %m "$F" 2>/dev/null || stat -c %Y "$F" 2>/dev/null || echo "$NOW_B")
+            STD=$(( (NOW_B - MTIME) / 3600 ))
+            [ "$STD" -lt 12 ] && continue
+            TITEL=$(grep -m1 '^titel:' "$F" 2>/dev/null | cut -d: -f2- | xargs)
+            [ -z "$TITEL" ] && TITEL="(ohne Titel-Feld)"
+            ZEILEN="${ZEILEN}- [$ST] ${TITEL} — wartet seit ${STD} h ($(basename "$F"))"$'\n'
+        done
+    done
+    if [ -n "$ZEILEN" ]; then
+        printf '%s' "$ZEILEN"
+    else
+        echo "- keine Eintraege ab 12 h in der Freigabe-Queue"
+    fi
+    exit 0
 fi
 
 NOW=$(date +%s)

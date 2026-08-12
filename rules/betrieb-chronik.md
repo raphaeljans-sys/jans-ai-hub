@@ -21,6 +21,30 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260812d — Massnahme A5 (Hub-Audit): Freigabe-Queue mit 12-h-Pflichtzeile im Tagesbriefing
+
+Umsetzung von Massnahme A5 aus `docs/konzepte/260812-Hub-Audit/260812-Hub-Audit.md` (gegen
+R7 — die Freigabe-Queue hatte keinen verlaesslichen fruehen Leser; der bestehende
+Sendegrund-5-Mechanismus in `hub-chef` greift erst ab 24 h, der 41-h-Stillstand vom
+11./12.08. war 12 Stunden vor der ersten Mail bereits sichtbar gewesen).
+
+**Umsetzung:** `scripts/freigabe-status.sh` um einen Modus `--briefing` erweitert (eigene,
+niedrigere 12-h-Schwelle, Titel-Extraktion aus dem Frontmatter-Feld `titel:`, unabhaengig
+vom bestehenden 24-h-Exit-Code fuer Sendegrund 5 — die alten Modi `--kurz` und der
+Default bleiben unveraendert). `skills/hub-chef/SKILL.md` Phase 1 und Phase 6 um die
+Pflichtzeile ergaenzt: jeder Eintrag ab 12 h erscheint mit Station, Titel, Alter und
+Dateiname im Abschnitt «Wartet auf Deine Freigabe», auch wenn er noch nicht sendewuerdig
+ist. `sync-tasks/README.md` haelt neu fest, wer die Queue liest (hub-chef 12 h, heartbeat
+24 h, `/station-sync` interaktiv) — die Luecke aus dem Audit-Befund («ein Wartezimmer ohne
+Arzt»).
+
+**Gemessen:** synthetischer Testeintrag `sync-tasks/freigabe/mac-mini/99999999-999999_TEST-A5-messung.md`
+mit Titel-Feld angelegt, mtime auf 15 h zurueckdatiert. `freigabe-status.sh --briefing`
+listete ihn korrekt («[mac-mini] TEST A5-Messung … — wartet seit 15 h»); nach dem Loeschen
+zeigt derselbe Aufruf «keine Eintraege ab 12 h». `--kurz` und der Default-Modus liefen
+davon unberuehrt weiter (Regressionstest bestanden). Testdatei sofort wieder entfernt,
+kein Rest in der Queue.
+
 ## 260812c — Massnahme A2 (Hub-Audit): Lebenszeichen statt Stille fuer git-auto-sync und Sync-Task-Runner
 
 Umsetzung von Massnahme A2 aus `docs/konzepte/260812-Hub-Audit/260812-Hub-Audit.md` (gegen

@@ -84,6 +84,18 @@ bash /Volumes/daten/jans-ai-hub/scripts/freigabe-status.sh --kurz
 Exit 1 heisst: mindestens ein Eintrag wartet laenger als 24 h → Sendegrund 5. Exit 2 heisst
 **UNBEKANNT** (NAS nicht gemountet) und wird als solches gemeldet — nie als «0» gelesen.
 
+**Zusaetzlich Pflicht (Massnahme A5, Hub-Audit 260812, gegen R7):** die niedrigere
+12-h-Schwelle fuer die Briefing-Zeile selbst, unabhaengig vom 24-h-Sendegrund:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/freigabe-status.sh --briefing
+```
+
+Jede Zeile der Ausgabe (Station, Titel, Alter, Dateiname) wandert unveraendert in den
+Abschnitt «Wartet auf Deine Freigabe» (Phase 6) — auch wenn sie noch nicht sendewuerdig
+ist. Genau diese Zeile haette den 41-h-Stillstand vom 11./12.08.2026 zwoelf Stunden frueher
+sichtbar gemacht, statt erst bei Sendegrund 5.
+
 ### Phase 2 — Priorisieren
 Reihenfolge: (1) Geld/Fristen faellig <= 7 Tage, (2) externe Kunden/Behoerden warten auf JANS,
 (3) laufende Projekte (KISPI, Albertstrasse, ...), (4) Service-Chancen (Anfragen, die auf den
@@ -117,6 +129,10 @@ als 24 h mit seiner Wartezeit. Eine Null ist hier eine Aussage, kein Grund zum W
 genau die stille Null haette den 41-h-Stillstand vom 11./12.08.2026 sichtbar gemacht. Ist
 der Stand UNBEKANNT (NAS nicht gemountet), steht das da — Schweigen wuerde als «nichts
 offen» gelesen.
+
+**Pflichtzeile ab 12 h (Massnahme A5):** unter derselben Ueberschrift zusaetzlich jeder
+Eintrag aus `freigabe-status.sh --briefing`, mit Titel, Station, Alter und Dateiname — auch
+wenn er die 24-h-Sendeschwelle noch nicht erreicht. Ohne Eintrag: «keine Eintraege ab 12 h».
 
 ## Compounding
 Korrektur-Deltas (was Raphael am Briefing/Entwurf aendert) und neue Whitelist-Kandidaten im
