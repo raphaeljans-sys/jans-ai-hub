@@ -21,6 +21,64 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260812 — Dieselbe Blockade stand 41 Stunden: eine korrekt erkannte Stoerung wartete auf eine Freigabe, die niemand sah
+
+Fortsetzung von 260811. Der dort exakt diagnostizierte Befund war am **12.08.2026, 22:30 immer
+noch offen** — inzwischen **178 Skips**, **44 uncommittete Dateien** aus rund 1,5 Tagen
+Loop-Arbeit (energie, bauprodukte, grobkosten, architekten-synobsis, Rules, Logbuch), NAS
+`1163b452` gegen SSD `170e7631`. Gefunden bei einem regulaeren `/heartbeat`.
+
+**Warum die Stoerung liegen blieb, obwohl sie erkannt war.** Der Reparatur-Task vom 11.08. wurde
+vom frisch verschaerften Guard korrekt zurueckgehalten und liegt seither in
+`sync-tasks/freigabe/macbook-pro/20260811-230347_NAS-Committer-entsperren…md`. Beide Mechanismen
+arbeiteten also fehlerfrei — und trotzdem stand die Kette fast zwei Tage. **Eine Freigabe-Queue,
+die niemand liest, ist ein Wartezimmer ohne Arzt.** Das ist die eigentliche Lehre: der Guard
+verschiebt eine Stoerung, er behebt sie nicht, und niemand hatte die Aufgabe, das Wartezimmer zu
+kontrollieren.
+
+**Reparatur (interaktiv, nativ per ssh, nie git ueber SMB).** `.git/rebase-merge` **weggeschoben
+statt geloescht** (`mv` nach `.git/verwaist-rebase-merge-260812/`) — damit ist der Eingriff
+umkehrbar und das Autostash-Objekt `61582c9d` bleibt ueber seine SHA erreichbar. Vor dem Commit
+`git diff --numstat` geprueft (Rule `auto-verbesserungen` 260811): alle Append-only-Dateien
+sauber auf `-0` (LOGBUCH 111/0, auto-verbesserungen 17/0, betrieb-chronik 68/0, alle CHANGELOGs
+0); Loeschungen ausschliesslich in Zustands- und Wiki-Dateien, wo Zeilenersetzung normal ist.
+Danach `nas-commit-now.sh` → `1878cf16`, dirty 0, HEADs gleichauf. Der **Autostash wurde bewusst
+NICHT angewendet**: der Arbeitsbaum trug die neueren Fassungen (13:30- und 23:30-Zeilen gegen die
+05:30-Zeile des Stash), Anwenden haette Arbeit zurueckgerollt.
+
+**Zwei Haertungen, im selben Lauf gebaut und beide nachgemessen.** Damit ist Lehre 2 aus 260811
+(«Kandidat fuer den heartbeat, bewusst nicht gebaut») eingeloest:
+
+1. **`nas-selfcommit.sh` heilt einen verwaisten Rebase-Rest selbst** — analog zum
+   `index.lock`-Guard, der das seit je tut. Ein **echter** Rebase legt immer `head-name`+`onto`
+   (bzw. `next`+`last`) an; fehlen sie, ist das Verzeichnis ein Rest und wird weggesichert, der
+   Lauf geht weiter. Bleibt eine echte Blockade laenger als 2 h stehen, schreibt der Guard
+   `WARNUNG:` statt still zu skippen. **Beide Faelle real getestet:** nachgestellter Rest →
+   weggeraeumt, Commit+Push liefen durch; nachgestellter echter Rebase (`head-name`+`onto`) →
+   korrekt geschuetzt, Skip.
+2. **`heartbeat` Check 7 misst den Puls neu.** Bisher galt «letzter Log-Eintrag < 1 h» — und
+   genau daran scheiterte die Erkennung: **der Skip schreibt selbst eine Zeile**, der Puls sah
+   41 h lang frisch aus. Jetzt wird der letzte **echte** `commit:`/`push OK`-Eintrag gesucht und
+   die Zahl der Skips seit diesem gezaehlt. `LC_ALL=C` ist dabei Pflicht — der Log ist nicht
+   UTF-8, `awk`/`grep` liefern sonst **still nichts** (dieselbe Werkzeug-Falle wie
+   `auto-verbesserungen` 260730b).
+
+**Verallgemeinerung.** Zu 260807 («zuerst fragen, was ein Zaehler wirklich zaehlt») kommt der
+Zwilling: **zuerst fragen, was ein Lebenszeichen wirklich bezeugt.** Ein Log-Eintrag beweist,
+dass der Prozess lief — nicht, dass er seine Arbeit tat. Ein Herzschlag-Check, der die Existenz
+einer Zeile misst statt ihren Inhalt, meldet einem Stillstand Gesundheit.
+
+**Offen fuer Raphael (nicht selbst erledigt):** Der Freigabe-Task vom 11.08. ist gegenstandslos
+und kann verworfen werden — `sync-tasks/freigabe/` ist Raphaels Domaene, Claude raeumt dort
+nichts weg. Zweitens die ungeloeste Frage hinter dem Vorfall: **wer liest die Freigabe-Queue?**
+Solange das niemandes Aufgabe ist, verlaengert der Guard jede heikle Stoerung um unbestimmte
+Zeit. Ein Kandidat waere eine Zeile im Tagesbriefing des `hub-chef`, sobald dort etwas aelter
+als 24 h liegt. **Transparenz zum Eingriff selbst:** die Reparatur beruehrte Git-Interna des
+kanonischen Repos — genau das Muster, das der Guard seit 11.08. zurueckhaelt. Sie lief
+interaktiv auf Raphaels `/heartbeat` hin und umkehrbar per `mv`, nicht unbeaufsichtigt und nicht
+per `rm -rf`; die Freigabe-Schwelle fuer **Sync-Tasks** wurde nicht angetastet. Ob interaktive
+Sessions diesen Spielraum haben sollen, entscheidet Raphael.
+
 ## 260811 — Zwei Befunde in einem Lauf: der Committer stand 18 Stunden, und der Freigabe-Guard liess ein `rm -rf` durch
 
 Gefunden vom Energie-Loop (Run 126, 11.08.2026, 23:00), beides ausserhalb seines Auftrags.

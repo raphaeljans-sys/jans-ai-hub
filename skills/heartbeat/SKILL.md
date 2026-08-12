@@ -74,9 +74,21 @@ Die Kette, die alle Stationen aktuell haelt: NAS (kanonisch) → **NAS-Selfcommi
 Fallback: Runner auf dem Mac Mini konsumiert commit-*.task. Dieser Check erkennt,
 wenn die Kette stockt:
 
+**⚠ Ein Log-Eintrag ist noch kein Puls.** Der Selfcommit schreibt auch beim Ueberspringen
+eine Zeile. Am 12.08.2026 sah der Puls 41 h lang frisch aus, waehrend die Kette stillstand:
+178 Zeilen «Rebase/Merge aktiv — skip» hintereinander. **Immer den letzten ECHTEN
+commit/push-Eintrag suchen, nicht die letzte Zeile** (gleiche Familie wie Rule
+`auto-verbesserungen` 260807: zuerst fragen, was ein Zaehler wirklich zaehlt).
+`LC_ALL=C` ist Pflicht — der Log ist nicht UTF-8, `grep`/`awk` liefern sonst still nichts.
+
 ```bash
-# a) Selfcommit-Puls: letzter Log-Eintrag sollte < 1 h alt sein
-tail -2 /Volumes/daten/jans-ai-hub/sync-tasks/log/selfcommit-$(date +%Y%m).log 2>/dev/null
+# a) Selfcommit-Puls: letzter ECHTER Commit (Skip-Zeilen zaehlen NICHT als Puls)
+LC_ALL=C awk '/commit:|push OK/{z=$0} END{print (z==""?"KEIN Commit im Monat":z)}' \
+  /Volumes/daten/jans-ai-hub/sync-tasks/log/selfcommit-$(date +%Y%m).log 2>/dev/null | cut -c1-120
+
+# a1) Blockade-Zaehler: Skips seit dem letzten echten Commit (>4 = Kette steht > 1 h)
+LC_ALL=C awk '/commit:|push OK/{n=0} /skip|WARNUNG/{n++} END{print n" Skip(s) seit letztem Commit"}' \
+  /Volumes/daten/jans-ai-hub/sync-tasks/log/selfcommit-$(date +%Y%m).log 2>/dev/null
 
 # a2) Fallback-Queue: aelteste offene commit-*.task (sollte leer sein)
 ls -t /Volumes/daten/jans-ai-hub/sync-tasks/mac-mini/commit-*.task 2>/dev/null | tail -1
@@ -92,10 +104,21 @@ git -C ~/Developer/jans-ai-hub rev-parse --short HEAD
 launchctl list | grep ch.jans.synctask-runner
 ```
 
-- ✅ Keine commit-*.task aelter als 1 h, NAS dirty < 20, HEADs gleich (oder NAS minimal voraus), Runner geladen
+- ✅ Letzter echter Commit < 1 h alt, 0–4 Skips, keine commit-*.task aelter als 1 h,
+  NAS dirty < 20, HEADs gleich (oder NAS minimal voraus), Runner geladen
 - ⚠️ commit-*.task aelter als 24 h ODER NAS dirty > 50 → Mac-Mini-Runner pruefen
   (`tail sync-tasks/log/runner-*.log`), notfalls dort manuell `bash scripts/nas-git-commit.sh "catch-up"`
 - ❌ HEADs weichen um viele Commits ab → `git pull` auf der Station; Runner-Log lesen
+- ❌ **Viele Skips in Folge oder eine `WARNUNG:`-Zeile** → die Kette steht. Ursache nativ
+  ansehen, **nie ueber SMB**:
+  `ssh raphaeljans@diskstation918.tail8265aa.ts.net 'cd /volume2/daten/jans-ai-hub && ls .git/ | grep -iE "rebase|MERGE_HEAD" && git status --short | wc -l'`
+  Seit 12.08.2026 raeumt `nas-selfcommit.sh` einen **verwaisten** Rebase-Rest selbst weg
+  (Verzeichnis ohne `head-name`/`next`) und laeuft weiter; bleibt die Blockade bestehen,
+  ist es ein **echter** Rebase-/Merge-Zustand und braucht Handarbeit auf der Synology.
+  Danach `bash scripts/nas-commit-now.sh "<Message>"`. Regel dabei: vor dem Aufraeumen den
+  Stand pruefen und **nichts aus HEAD wiederherstellen**, ohne fremde unbestaetigte Arbeit
+  auszuschliessen (Rule `auto-verbesserungen` 260811) — ein liegender `autostash` kann
+  ueberholt sein, dann darf er NICHT angewendet werden.
 
 **Wichtig:** Auf dem NAS-Repo NIE git-Befehle ohne `GIT_OPTIONAL_LOCKS=0` und NIE
 schreibende git-Befehle von einer Nicht-Committer-Station (SMB-index.lock-Gefahr).
