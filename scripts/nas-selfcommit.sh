@@ -49,8 +49,32 @@ if [ -f .git/index.lock ]; then
         log "index.lock aktiv (${AGE}s) — skip"; exit 0
     fi
 fi
+# Verwaisten Rebase-Rest selbst bereinigen (analog zum index.lock-Guard oben).
+# Anlass 11.08.2026: ein an "unstaged changes" gescheiterter Rebase brach ab und
+# liess NUR .git/rebase-merge/autostash liegen. Der Guard unten hielt daraufhin
+# 178 Laeufe still an — die Wissens-Kette stand 41 h, ohne dass es jemand sah.
+# Ein ECHTER Rebase legt immer head-name+onto (rebase-merge) bzw. next+last
+# (rebase-apply) an. Fehlen sie, ist das Verzeichnis ein Rest: wegsichern (nie
+# loeschen — das autostash-Objekt bleibt ueber seine SHA erreichbar), weiterlaufen.
+for RD in rebase-merge rebase-apply; do
+    if [ ! -d ".git/$RD" ]; then continue; fi
+    if [ -f ".git/$RD/head-name" ] || [ -f ".git/$RD/next" ]; then continue; fi
+    if mv ".git/$RD" ".git/verwaist-$RD-$(date +%y%m%d-%H%M%S)" 2>/dev/null; then
+        log "verwaisten $RD-Rest weggesichert (kein head-name/next) — Lauf laeuft weiter"
+    fi
+done
+
 if [ -d .git/rebase-merge ] || [ -d .git/rebase-apply ] || [ -f .git/MERGE_HEAD ]; then
-    log "Rebase/Merge aktiv — skip (manuell bereinigen)"; exit 0
+    MARKER=$(ls -d .git/rebase-merge .git/rebase-apply .git/MERGE_HEAD 2>/dev/null | head -1)
+    AGE=$(( $(date +%s) - $(stat -c %Y "$MARKER" 2>/dev/null || echo 0) ))
+    if [ "$AGE" -gt 7200 ]; then
+        # Nach 2 h ist es kein laufender Rebase mehr, sondern ein Stillstand.
+        # "WARNUNG" macht die Zeile fuer den Heartbeat (Check 7) grep-bar.
+        log "WARNUNG: Rebase/Merge blockiert seit $((AGE/3600)) h — Kette steht, manuell bereinigen"
+    else
+        log "Rebase/Merge aktiv — skip (manuell bereinigen)"
+    fi
+    exit 0
 fi
 
 # 1. Lokale Aenderungen committen (.gitignore greift: output/, secrets/, sync-tasks/ bleiben aussen vor)
