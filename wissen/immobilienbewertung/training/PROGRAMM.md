@@ -15,6 +15,21 @@
 > aus B und C gehoeren nach `wiki/wissensluecken.md` (diese KB fuehrt keine QUESTIONS.md). Ohne
 > diesen Anker laegen rund 370 KB destillierten Materials bis zum 01.09.2026 brach — die Reports
 > sind geschrieben, aber im Wiki ist noch nichts davon angekommen.
+>
+> **⚠ AN DEN LAUF VOM 01.09.2026 — ein Marktpuls ist am 13.08.2026 VORGEZOGEN gelaufen.**
+> Der Task `immobewertung-marktpuls-260901` hat dabei **nicht gefeuert** (er stand und steht auf
+> `fireAt 01.09.2026`, ohne `lastRunAt`) — der Lauf wurde 19 Tage vor dem Stichtag ausgeloest.
+> **Nicht als erledigt betrachten und nicht doppelt fahren:** bereits nachgefuehrt sind UBS SREBI
+> **Q2-2026 = 0.72** (publ. 06.08.2026), BFS-IMPI **Q2-2026 = 127.7** (neu in der KB) und LIK
+> Juli 2026 (Jahresteuerung 0.4 %); alle drei Verfahrensartikel sind geprueft. **Offen geblieben
+> und der eigentliche Auftrag des 01.09.:** (1) die **BWO-Referenzzinssatz-Publikation vom
+> 01.09.2026** samt massgebendem Durchschnittszinssatz per Stichtag 30.06.2026 (letzter Stand
+> **1.31 % per 31.03.2026**, Schwellen 1.13/1.37 %) und (2) die **BFS-Leerwohnungsziffer** zum
+> Stichtag 01.06.2026 (Publikation im September; letzter Stand 01.06.2025 = **1.00 %**). Beide
+> waren am 13.08. schlicht noch nicht publiziert und wurden bewusst **nicht** geschaetzt.
+> Zusaetzlich faellig: SMG-Mietindex Juli/August 2026, SNB-Quartalsheft 3/2026 (~09.2026), und
+> die **SNB-Lagebeurteilung 24.09.2026** liegt NACH dem Stichtag. Voller Bericht:
+> `outputs/2026-08-13_immobewertung-marktpuls-vorgezogen.md`, Details im `CHANGELOG.md`.
 
 Selbststudium-Loop, der die KB kompoundierend verbessert: aus dem Rohmaterial (`raw/` +
 die IMMO-SharePoint-Ordner) werden laufend bessere Wiki-Artikel — damit zukuenftige

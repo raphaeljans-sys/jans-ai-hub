@@ -80,6 +80,41 @@ Einordnung: Vorstufe zu `auflagebereinigung` (die erst NACH dem Bauentscheid gre
 Beruehrungspunkte mit `brandschutz` und `planungsgrundlagen`. Umsetzungsvorschlag
 liegt beim hub-chef-Briefing (logbuch), Entscheid ueber Bauzeitpunkt bei Raphael.
 
+## Betriebsmodus (neu 13.08.2026, Entscheid Raphael)
+
+Der Radar lief bis zum 13.08.2026 **woechentlich** (Mo 21:00) und fuehrte in jedem Lauf Scan
+und Rotation zusammen aus. Drei belegte Gruende fuer den Umbau:
+
+1. **Die Leerlauf-Bremse war konstruktiv wirkungslos.** Schritt 3 verlangte in jedem Lauf ohne
+   Delta einen Register-Stempel, Schritt 4 zaehlte genau diesen Stempel als Liefer-Delta. Damit
+   lieferte jeder Lauf per Definition, und die vorgesehene Ruecktaktung nach 3 bzw. 5 leeren
+   Laeufen konnte **nie** ausloesen. Der Loop war so gebaut, dass er den eigenen Leerlauf nicht
+   bemerken konnte. Neu gilt: ein Stempel ist kein Delta.
+2. **Die Quelle waechst nicht.** Die Vollanalyse vom 29.07.2026 hielt bereits fest, dass 8 von
+   9 Ordnern implementiert oder ohne Methodengehalt waren; die Luecke war Buchhaltung, nicht
+   Substanz. Ueber vier Laeufe (29.07., 30.07., 03.08., 13.08.) meldete der Scan **kein
+   einziges Delta**.
+3. **Die Rotation lieferte netto negativ.** Von zwei Rotationslaeufen war einer ein Fehlalarm
+   (03.08., `wissens-chef`), den Wissens-Chef Run 23 widerlegen musste, der andere ein
+   Nullbefund (13.08.). Daraus stammen die zwei Pflichtpruefungen unten.
+
+**Neue Aufhaengung:**
+
+- **Der Delta-Scan haengt im `heartbeat`** (Check 14, taeglich). Er meldet neues Material am Tag
+  seines Erscheinens statt fruehestens am folgenden Montag, kostet Sekunden und braucht keine
+  eigene Claude-Session. Er friert den Scan-Stand **nicht** ein, sonst verschluckt er das Signal.
+- **Der Radar selbst laeuft monatlich** (8. des Monats, 21:00) fuer die Verifikations-Rotation,
+  und ausserdem **ad hoc**, sobald der heartbeat ein Delta meldet. Bei vier «implementiert»-Zeilen
+  ergibt das eine volle Rotationsrunde pro Vierteljahr.
+- **Lehren gehoeren hierher oder in `rules/betrieb-chronik.md`**, nie in den Task-Prompt und nie
+  in die Task-Beschreibung. Beide waren bis zum 13.08.2026 zu Fehlerspeichern angewachsen
+  (Prompt 6'297 Bytes, Beschreibung allein 1'321 Zeichen Korrekturhistorie) und kosteten in
+  jedem Lauf Kontext, bevor die erste Zeile Arbeit begann. Chronik-Beleg: 260813d.
+
+**Quellordner:** seit 30.07.2026 09:49 «00 Prompteingaben» (vorher «03»). Der Prompt nannte bis
+zum 13.08.2026 faelschlich noch «03» und wurde nur vom Vorfilter kompensiert. Massgeblich ist
+immer die Quelle, die `scripts/methoden-scan.sh` auf stderr ausweist.
+
 ## Verifikations-Rotation
 
 Naechste Zeile in der Rotation: **`260725 Archetypen`** (Stand 13.08.2026, aelteste

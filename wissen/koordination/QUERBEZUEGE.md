@@ -158,6 +158,162 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen ↔ energie (Fassungsstand SIA 382/2 — die zweite Bring-Schuld derselben Passage) — geprueft 2026-08-13 (Run 29)
+- **Befund (gedaempft von WIDERSPRUCH auf UEBERGABE-NICHT-NACHGEZOGEN, mittel — der einzige
+  substanzielle Sachbefund dieses Laufs):** Das am 08.08.2026 angelegte Erstdestillat
+  `normen/destillate/sia-382-2-2011.md` fuehrte die Nachfolgefrage als «offene Bring-Schuld»,
+  obwohl `energie` die Abloesung seit dem **25.07.2026** belegt hatte
+  (`sommerlicher-waermeschutz-sia180-nachweisverfahren.md`: SIA 380/2:2022 ersetzt SIA 2044:2019
+  UND SIA 382/2:2011, beide archiviert per 31.10.2022).
+- **Das Lehrreiche liegt im Vergleich:** Dieselbe energie-Passage enthielt ZWEI Bring-Schulden an
+  `normen`. Die eine (SIA 382/1:2014 → 2025) ist am 26.07.2026 sauber angekommen, das Destillat
+  traegt seither `ausgabe_ueberholt`. Die andere ist nie angekommen — und wurde zwoelf Tage
+  spaeter von einem frischen Destillier-Lauf als offene Frage neu formuliert. **Eine Bring-Schuld
+  verpufft nicht nur; sie kann von einem spaeteren Lauf als Wissensluecke wiedergeboren werden.**
+- **Aktion:** Nicht aus dem fremden Destillat abgeschrieben, sondern **am Herausgeber selbst
+  belegt** (shop.sia.ch, Produktseite SIA 380/2 (2022), Vorgaenger-Block «im Archiv» nennt
+  SIA 2044:2019 und SIA 382/2:2011, beide «gueltig bis 31.10.2022» — abgerufen 13.08.2026 vom
+  Hauptprozess). Gesetzt: Frontmatter-Feld `gueltigkeit` (Matrixzeile 46, getrennt vom
+  Inhaltsstatus `status`), aufgeloeste Schlusszeile in «Offene Punkte», ERGAENZUNG in der
+  Bemerkungsspalte von `REGISTER.md` Z. 257 (der Stichtagswert «2011 = gueltig 2013» blieb
+  unangetastet, viertes Struktur-Muster), Nachtrag an QUESTIONS N48-7.
+- **Neue, echte Luecke daraus (N29-1):** SIA 380/2:2022 liegt **nicht im Bestand** und ist
+  ungelesen. Die KB fuehrt fuer klimatisierte Gebaeude nur noch abgeloesten Bestand.
+- **Offen, bewusst nicht miterledigt (N29-2):** `REGISTER.md` Z. 256 fuehrt SIA 382/1 noch mit
+  «2007». Eigener Befund, eigener Herausgeber-Beleg noetig; die Zeile liegt zudem im
+  Stichtags-Block 25.02.2013 und darf nur ergaenzt werden.
+
+### normen ↔ energie (SIA 112/1:2017 — der Verweis fuehrte zur falschen Fassung) — geprueft 2026-08-13 (Run 29)
+- **Befund (gedaempft, tief, aber praktisch relevant):** `energie/wiki/oekologische-materialvorgaben-beschaffung.md`
+  benannte die geltende Ausgabe **richtig** («geltend ist heute SIA 112/1:2017»), verlinkte fuer
+  den Beleg aber auf das eigene Destillat der **Stadt-Zuercher AfB-Checkliste mit Copyright-Stand
+  2004**. Seit dem 08.08.2026 liegt das Volldestillat der Ausgabe 2017 in der fuehrenden KB
+  (`normen/destillate/sia-112-1-2017.md`, established, doppelt refuter-verifiziert) — die
+  Gliederung ist dort eine andere: **21 Kriterien in drei Bereichen A/B/C zu je sieben** statt
+  12 Themenfelder mit 27 Kriterien. Beide Seiten kannten einander nur auf KB-Ebene.
+- **Aktion:** Verweise in beide Richtungen gesetzt (energie → normen-Destillat mit der
+  Struktur-Differenz; normen → konkret `eco-bau-zielvereinbarungen-sia112-1.md` statt pauschal
+  «die KB energie»). Der von der KB selbst gestellte offene Punkt «fuehrt die aktuelle Fassung
+  dieselbe Gliederung?» ist damit **belegt geschlossen**, die versprochene Bring-Schuld an
+  normen/QUESTIONS als gegenstandslos vermerkt (Run 48 war schneller).
+- **Nicht getan:** Zahlen 12/27 stehen unveraendert (getreue Abschrift der Checkliste). Kein
+  `ersetzt_durch`-Vermerk — er waere sachlich schief: abgeloest wurde die SIA-Empfehlung, nicht
+  die staedtische Checkliste. Registerstand «Vorgaengerfassung 2005» nicht angeglichen
+  (normen/QUESTIONS N48-2 fuehrt die Herkunft dieser Jahreszahl ausdruecklich als offen).
+
+### normen ↔ energie (SIA 380/3 Leitungsdaemmung) und normen intern (SIA 180) — geprueft 2026-08-13 (Run 29)
+- **Befund 1 (gedaempft, tief):** SIA 380/3 sagt selbst, dass die Daemmdicken «in den
+  entsprechenden Energie- und Baugesetzen» stehen — genau die fuehrt `energie`. Kein Verweis.
+  **Aktion:** einseitiger Querbezug in Pfadform (keine `[[Wikilinks]]` ueber die KB-Grenze, sie
+  haetten in beiden KBs kein Ziel und liefen im naechsten `wissenscheck` als tote Backlinks auf).
+  Neue Matrix-Zeile. Keine Rueckrichtung: MuKEn arbeitet mit Bauteilanforderungen, nicht mit dem
+  QTOT-Verfahren, ein normativer Bezug ist unbelegt.
+- **Befund 2 (Kern gedaempft, Zusatzbehauptung WIDERLEGT):** `energie` fuehrte SIA-180-Feuchtewerte
+  aus einer Sekundaerquelle, obwohl das Primaerdestillat vorliegt. Die Kennwerte sind alle
+  **richtig**; die vom Melder mitgemeldete «Bezugsgroessen-Falle» (30-70 % sei faelschlich als
+  Komfortband statt als Materialschutz dargestellt) ist **widerlegt** — die Norm fuehrt das Band in
+  ZWEI Bezuegen (Ziff. 2.4.1.3 thermische Behaglichkeit, Ziff. 6.4.1-6.4.3 Materialschutz), und der
+  Artikel meint den richtigen. Die vorgeschlagene «Richtigstellung» haette eine korrekte Aussage in
+  einen Fehler verwandelt. Gesetzt sind nur die ziffern-genauen Fundstellen.
+- **Ertrag in der Gegenrichtung (N29-3, KB-intern in normen, nicht ausgefuehrt):** dem als
+  «destilliert VOLLSTAENDIG» ausgewiesenen `sia-180-2014.md` fehlen Ziff. 2.4.1.3 und 6.4.4.
+  Bewusst NICHT vom Cross-KB-Lauf nachgetragen — Normtext gehoert vom Lauf ergaenzt, der das
+  Original vor sich hat. In normen/QUESTIONS angemeldet.
+
+### normen (ABB-Reihe SIA 118/xxx) ↔ Skill ausschreibung — geprueft 2026-08-13 (Run 29)
+- **Befund (gedaempft auf tief, KB→Skill):** `normen` Run 48 hat acht ABB-Erstdestillate und die
+  Synthese `abb-reihe-verguetungs-und-ausmassgrenzen.md` angelegt, mit dem Kernbefund, dass die
+  Reihe **nicht einheitlich kalibriert** ist (Geruest-Inklusivgrenze 2,5 m bei den Ausbau-Normen
+  2006, 3,0 m bei Maler/Holzbau/Mauerwerk, beim Betonbau gar nicht inbegriffen). Im SKILL.md von
+  `ausschreibung` fuehrte **kein einziger Weg** in die Normen-KB (grep auf «normen-referenz»,
+  «wissen/normen», «Fundstelle»: null Treffer).
+- **Aktion:** eigener Abschnitt «Verbindliche Norm-Referenz» im Skill, mit der Trennung zwischen
+  **Warnkarte** (der Wiki-Artikel, Status `speculative`, sagt nur WO ein Unterschied liegt) und
+  **Zitierquelle** (das gewerkspezifische Destillat bzw. das Original-PDF).
+- **Bewusst NICHT getan** (Verifikation hat den Melder-Vorschlag hier gekippt): keine Ergaenzung in
+  den beiden Goldstandard-LV-Dateien. Sie sind **maschinelle Abschriften echter .crbx** — eine
+  Anreicherung faelscht die Abschrift und wird beim naechsten Parser-Lauf ueberschrieben; Position
+  091100 ist NPK-113-Standardtext und steht identisch in 11 von 12 Dateien; und einen
+  `speculative`-Wert in ein Kopier-Vorbild zu schreiben, ist die schaerfste Form von «als
+  Zitierquelle verwendet». Offener Entscheid: ob ein Satz dazu in `goldstandard-lv/README.md` soll.
+
+### energie ↔ planungsgrundlagen (Minergie-Verfahren, EN-101b) — geprueft 2026-08-13 (Run 29)
+- **Befund (gedaempft, mittel):** Governance-Luecke, kein Sachwiderspruch. Rund 20
+  Minergie-Verfahrensdestillate liegen unwidersprochen in `energie`, waehrend die Matrix das
+  «Energienachweis-Verfahren» pauschal `planungsgrundlagen` zuweist. Ein Lauf, der die Matrix
+  woertlich nimmt, koennte sie faelschlich verschieben wollen.
+- **Aktion:** neue Matrix-Zeile, die Minergie als privaten Standard ohne kantonalen Vollzug
+  ausdruecklich `energie` zuweist und den einzigen Beruehrungspunkt (Blatt EN-101b) trennt:
+  Formular und Verfahren bei planungsgrundlagen, Feldstruktur des Minergie-Exemplars bei energie.
+  Gerichteter Querbezug im Destillat plus einzeiliger Zeiger an der EN-101b-Zeile.
+- **Zwei Ausfuehrungsfehler der Vorlage korrigiert:** (1) Der Melder wollte den Run-11-Querbezug
+  woertlich kopieren — dessen Wortlaut («dort fuehrend, nicht doppelt pflegen») haette die Fuehrung
+  **stillschweigend abgetreten** und einem spaeteren Lauf die Rechtfertigung geliefert, das
+  energie-Destillat zusammenzustreichen. (2) Der Eintrag sollte in `planungsgrundlagen/QUESTIONS.md`
+  — die KB steht seit 30.07.2026 im **Wartungsmodus** und arbeitet dort nichts Neues ab; eine
+  Bestandsmeldung waere liegen geblieben.
+- **Pflicht-Vorbehalt an beiden Zeigern:** das belegte Formular ist Version 2022.4, «zu verwenden
+  bis 31.12.2023», und der ZH-Nachweis laeuft seit 01.01.2026 zwingend ueber EVEN. Ein Zeiger ohne
+  diesen Vorbehalt fuehrte einen Planer auf ein drei Jahre abgelaufenes Exemplar — schaedlicher
+  als die Luecke.
+
+### baurecht ↔ planungsgrundlagen — NACHKONTROLLE Run 28, vollstaendig bestanden — geprueft 2026-08-13 (Run 29)
+- **Null Befunde, und das ist das Ergebnis.** Alle drei Korrekturen aus Run 28 sind unveraendert in
+  Kraft: § 321 Abs. 2 PBG mit **beiden** Halbsaetzen an beiden Orten, wortgleich zum amtlichen
+  Volltext (`baurecht/raw/260607_amtlich_zh_pbg.md` Z. 3304-3309) und mit Fassungsvorbehalt; der
+  beidseitige Revers-Verweis samt mitgefuehrten Statusetiketten (baurecht `established`
+  buchverifiziert ↔ planungsgrundlagen `emerging`, Quelle Boesch ZBl 1993); im Skill
+  `behoerden-vorabklaerung` die Vorentscheid-Terminologie mit **zwingender** Kantonsangabe.
+  Per `git show` geprueft: seit Commit `598be5e8` (07.08.2026 23:55) hat keine spaetere Aenderung
+  etwas davon halbiert.
+- **Freie Pruefung der Rechts-Achse ebenfalls sauber:** die geprueften planungsgrundlagen-Artikel
+  (Wald-/Gewaesserabstand, Dispensrecht, Baueingabe-Verfahren) tragen durchgaengig «Kein
+  Doppel»-Klauseln und benennen baurecht als fuehrende Rechtsquelle. Das wiederkehrende Muster
+  «planungsgrundlagen schreibt Gesetzeswortlaut materiell fort» ist an dieser Achse **nicht mehr
+  auffindbar** — erstmals seit es im Register steht.
+
+### grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung (Kennwerte) — geprueft 2026-08-13 (Run 29)
+- **Ein Befund WIDERLEGT** (der einzige des Laufs): die vorgeschlagene «Korrektur» haette eine
+  woertlich belegte Abschrift aus einem realen JANS-Deliverable aus dem Wiki entfernt und das
+  dokumentierte Deliverable-Muster verfaelscht. Nichts zu tun.
+- **Werkzeug-Vorbehalt gesetzt (tief, praeventiv):** Die Kopffelder des Drittsoftware-Tools «hva»
+  sind mit BKP-Spannen beschriftet, die rechnerisch nicht zutreffen («BKP 1-5 CHF/m² BGF» enthaelt
+  BKP 9 mit, «BKP 0-5» enthaelt BKP 0-9). Die Warnung stand nur in `grobkosten`; gesetzt ist sie
+  jetzt **am Ort der Verwendung** in `immobilienbewertung/wiki/projektstruktur-deliverables.md`.
+  Kein Wert getauscht — die Zahlen dort stammen aus eigener Summenrechnung, nicht aus Kopffeldern.
+- **Offen fuer Raphael (B5-nah, KB-intern):** Die SharePoint-Bibliothek heisst seit 07.08.2026
+  «IMMO - 02 Standort INFO», der **lokale OneDrive-Spiegel auf dem MacBook Pro heisst am
+  13.08.2026 weiterhin «IMMO - 02 UBSFS»**. Die Registry-Verweise zeigen auf den lokalen Basispfad
+  und loesen deshalb heute korrekt auf; ein Namenstausch wuerde sie **kaputt** machen. Zu
+  entscheiden ist zuerst, ob der lokale Spiegel nachgezogen wird — erst danach lohnt ein
+  einmaliger vollstaendiger Sweep ueber ALLE lebenden Stellen (Registry, acht
+  marktdaten-gemeinden-Frontmatter, investorenmarkt-makro, SKILL.md, agents/vergleichswert-analyst),
+  nicht ueber einzelne herausgegriffene. **Der CHANGELOG-Eintrag von grobkosten/immobilienbewertung
+  vom 08.08.2026, der lokalen Sync als nachgezogen meldet, ist messbar unzutreffend.**
+
+### energie ↔ Skill stockwerkeigentum · energie intern (Impulsberatung) · firmengruendung-ch — geprueft 2026-08-13 (Run 29, Rotationsfeld)
+- **Rueckweg gesetzt (tief, KB→Skill):** `energie` empfahl bei STWEG-Heizungsersatz ausdruecklich
+  den Beizug des Skills `stockwerkeigentum`; der Skill enthielt zu Energie/Heizung/Waerme **null
+  Treffer**. Ergaenzt ist ein Satz auf den **Skill-Router `energie`** — bewusst NICHT auf das
+  Destillat: das ist eine `emerging`-Einzelquelle von 10.2021, und ein Skill, der beurkundungsreife
+  Erzeugnisse produziert, wird nicht an ein solches Artefakt gebunden. Keine neue Matrix-Zeile: es
+  gibt keine strittige Fuehrung, und `stockwerkeigentum` ist ein Skill ohne eigene KB — die Spalte
+  «Fuehrende KB» liesse sich nicht sauber fuellen.
+- **KB-intern, aber der lehrreichste Befund des Laufs (mittel):** Die Bauherren-FAQ **F219**
+  behauptete noch am 13.08., es sei «nicht belegt, ab welcher Objektgroesse die Impulsberatung
+  kostenpflichtig wird» — eine Wissensluecke, die **dieselbe KB am 08.08. selbst geschlossen**
+  hatte (Impulsberatung fuer alle Gebaeudekategorien kostenlos, Unterschied nur im Zeitaufwand).
+  Der Kern-Fehler ist damit keine veraltete Zahl, sondern eine **falsch gewordene Aussage ueber den
+  eigenen Belegstand**. Nachgezogen sind F219, `destillate/INDEX.md` Z. 11 und die Quellenzeile;
+  die CHF-1'500-2'000-Angabe bleibt als datierte Abschrift stehen, mit Vorbehalt daneben statt
+  stillem Tausch. Prozessregel in energie/QUESTIONS: **ein «GEKLAERT» gilt erst, wenn die
+  abhaengigen Stellen mitgezogen sind.** Zum Beleg selbst praezisiert: das Stichdatum 1.4.2022 ist
+  ein **Einzelquellen-Beleg**, der Programmauftritt nennt kein Startdatum.
+- **firmengruendung-ch: sauber.** Der hub-weite grep nach der alten, gestaffelten
+  Handelsregistergebuehr (CHF 600, 0,2 Promille) fand **keine lebende Fundstelle** ausserhalb der
+  KB; die Korrektur auf CHF 420 pauschal (GebV-HReg Anhang Ziff. 1.1-1.3) ist innerhalb der KB
+  ueber alle drei Artikel konsistent durchgezogen.
+
 ### normen (intern, Folgen fuer alle Abnehmer) — Datenverlust durch den eigenen Health-Check-Reparaturlauf — geprueft 2026-08-07 (Run 28)
 - **Befund (bestaetigt, hoch, vom Hauptprozess selbst am Original nachgemessen):** siehe achtes
   Struktur-Muster oben. Drei established-Destillate mit 15-Zeilen-Stubs ueberschrieben, dazu drei

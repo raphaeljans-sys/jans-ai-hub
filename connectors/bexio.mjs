@@ -73,6 +73,24 @@ function ladeToken() {
   return token;
 }
 
+/**
+ * Liest die Zeitfelder des Tokens, ohne ihn auszugeben. bexio liefert ein Keycloak-JWT
+ * (iss auth.bexio.com), dessen `exp` NICHTS darueber sagt, ob es noch angenommen wird: die
+ * Session hinter dem `sid` kann laengst beendet sein. Genau diese Verwechslung fuehrte am
+ * 13.08.2026 zur falschen Registeraussage «Token abgelaufen», waehrend er noch 122 Tage
+ * Restlaufzeit hatte und trotzdem abgelehnt wurde. Rueckgabe: null, wenn es kein JWT ist.
+ */
+function tokenBefund(token) {
+  const teile = String(token).split('.');
+  if (teile.length !== 3) return null;
+  try {
+    const p = JSON.parse(Buffer.from(teile[1].replace(/-/g, '+').replace(/_/g, '/'), 'base64').toString('utf8'));
+    if (!p.exp) return null;
+    const restTage = Math.round((p.exp * 1000 - Date.now()) / 86400000);
+    return { abgelaufen: restTage < 0, restTage, exp: new Date(p.exp * 1000).toLocaleDateString('de-CH') };
+  } catch { return null; }
+}
+
 /** Einzige HTTP-Funktion. Schreibende Methoden nur ueber bewusste Aufrufe.
  *  weich=true: wirft bei HTTP-Fehlern eine Exception statt den Prozess zu beenden
  *  (noetig fuer Buchungslaeufe, damit ein Einzelfehler den Lauf + das Protokoll nicht killt). */
@@ -85,7 +103,23 @@ async function api(pfad, { methode = 'GET', body = null, roh = false, weich = fa
   if (body) headers['Content-Type'] = 'application/json';
   const res = await fetch(url, { method: methode, headers, body: body ? JSON.stringify(body) : undefined });
   const melde = weich ? (m => { throw new Error(m); }) : fail;
-  if (res.status === 401) melde('401 — Token ungueltig/abgelaufen oder fehlende Scopes. Token in ~/.bexio.env pruefen.');
+  if (res.status === 401) {
+    // Die Ursache wird gemessen, nicht geraten: ein 401 bei gueltiger Restlaufzeit ist eine
+    // zurueckgezogene Session, kein Ablauf — und braucht darum eine andere Reaktion.
+    const b = tokenBefund(headers.Authorization.slice(7));
+    melde(
+      '401 — bexio lehnt den Token ab. ' +
+      (b === null
+        ? 'Der hinterlegte Wert ist kein JWT; Inhalt von ~/.bexio.env pruefen.'
+        : b.abgelaufen
+          ? `Er ist am ${b.exp} ABGELAUFEN (seit ${-b.restTage} Tagen) — neuen Token hinterlegen.`
+          : `Er laeuft ERST am ${b.exp} ab (noch ${b.restTage} Tage), ist also NICHT abgelaufen: ` +
+            'die Session dahinter wurde beendet oder zurueckgezogen. Ein neuer Token hilft, ' +
+            'ein Warten auf den Ablauf nicht. Gegenprobe am Aussteller: ' +
+            'curl -s -o /dev/null -w "%{http_code}\\n" -H "Authorization: Bearer $BEXIO_API_TOKEN" ' +
+            'https://auth.bexio.com/realms/bexio/protocol/openid-connect/userinfo')
+    );
+  }
   if (res.status === 404) melde(`404 — Endpunkt/Beleg nicht gefunden: ${methode} ${pfad}`);
   if (!res.ok) {
     let txt = '';

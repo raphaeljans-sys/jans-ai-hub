@@ -21,6 +21,43 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260813e — Stationsuhr zehn Tage nach: `git log --since` schnitt still drei Viertel des Deltas weg
+
+**Vorfall.** Der Task `synergie-lauf-monatlich` startete am 12.08. gegen 23:28 unbeaufsichtigt.
+Die Stationsuhr des MacBook Pro meldete `2026-08-03 23:28 CEST` — zehn Tage zurueck. Gegen 00:51
+korrigierte sie sich selbst (belegt an den Scheduler-Zeitstempeln: `heartbeat-daily`,
+`baurecht-buch-training`, `twin-mail-training` tragen `lastRunAt 2026-08-12T22:51Z`, waehrend
+der Synergie-Lauf `2026-08-03T21:28Z` gestempelt bekam). Beweisquelle nach
+`auto-verbesserungen` 260730b: der native Synology-Log `sync-tasks/log/selfcommit-202608.log`
+laeuft lueckenlos durch (226 Zeilen am 05.08., 192 am 10.08., 124 am 12.08., 24 am 13.08.,
+letzter Eintrag `2026-08-13T01:04:27`).
+
+**Der teure Teil ist nicht das Datum, sondern die Messung.** Unter der schiefen Uhr lieferte
+`git log --since=2026-08-01T14:20` **262 Commits**, neuester scheinbar vom «03.08. 23:26». Real
+sind es **1111 Commits** bis zum 13.08. 01:04. Die Traversierung brach an den schief datierten
+Commits ab — ohne Fehler, ohne Warnung, mit einem Ergebnis, das vollstaendig aussah. Der Lauf
+schloss daraus «Delta duenn» und empfahl, den Takt zu strecken; beides war das Gegenteil der
+Lage (vier neue Rules, zwei neue Connectoren, ein neuer Command blieben ungesehen).
+
+**Drei Konsequenzen fuer jede kuenftige Delta-Messung:**
+
+1. **Gefilterte Zahl immer gegen die ungefilterte pruefen.** `git log --oneline | wc -l` neben
+   `git log --since=… | wc -l`. Weichen sie um eine Groessenordnung ab, ist zuerst die Uhr
+   verdaechtig, nicht das Repo. Gleiche Familie wie 260730b (grep auf Nicht-UTF-8) und 260807
+   (Konfigurationsfeld ohne Wirkung): **ein knappes Ergebnis ist zuerst eine Aussage ueber das
+   Werkzeug.**
+2. **Vor jeder datierten Arbeit die Stationsuhr gegen den Synology-Log stellen**, nicht gegen
+   das eigene Gefuehl. Zwei Zeilen genuegen: `date` und der letzte Eintrag im Selfcommit-Log.
+3. **Commit-Daten im Fenster 03.08.–13.08.2026 sind teilweise unbrauchbar.** Vom MacBook
+   waehrend der Schieflage geschriebene Commits tragen ein um zehn Tage zurueckliegendes
+   Datum; `nas-selfcommit`-Commits der Synology sind korrekt. Wer in diesem Fenster etwas
+   belegt: **mit Hash arbeiten, nicht mit Datum.**
+
+**Ursache offen.** Warum die Uhr zehn Tage verlor und wodurch sie zuruecksprang (NTP nach
+Sleep-Wake?), ist nicht geklaert und gehoert geprueft — die Abweichung trifft potenziell jede
+datierte Arbeit, nicht nur Messungen. Als Empfehlung 6 im Laufbericht
+`wissen/koordination/outputs/2026-08-13_synergie-lauf-04.md` gefuehrt.
+
 ## 260813d — `nas-selfcommit` erfasst laufende Fremdarbeit unter der Message des zufaellig fertigen Loops
 
 **Beobachtung, kein Eingriff.** Waehrend Buch-Run 73 (baurecht, Batch T2) zwischen 01:00 und
@@ -60,6 +97,37 @@ Ausweich-Empfehlung «zur Datierung die `outputs/`-Datei heranziehen» traegt nu
 einen Report schreiben. **Eine interaktive Code-Aenderung hat keinen `outputs/`-Beleg** — dort
 bleibt als Spur nur der Registereintrag in `logbuch/fristen.md`. Wer eine Code-Aenderung
 nachvollziehbar halten will, schreibt sie also ins Register, nicht bloss in den Commit.
+
+---
+
+## 260813d — Methoden-Radar umgebaut: Scan in den heartbeat, Rotation monatlich, Prompt entruempelt
+
+Entscheid Raphael 13.08.2026 auf vorgelegte Analyse. Der Loop lief seit dem 29.07. woechentlich
+und buendelte Delta-Scan und Verifikations-Rotation in einem Lauf. Drei belegte Befunde:
+
+1. **Die Leerlauf-Bremse war konstruktiv wirkungslos.** Schritt 3 verlangte in jedem Lauf ohne
+   Delta einen Register-Stempel; Schritt 4 zaehlte genau diesen Stempel als Liefer-Delta. Damit
+   lieferte jeder Lauf per Definition, und die Ruecktaktung nach 3 bzw. 5 leeren Laeufen konnte
+   nie ausloesen. **Ein Waechter, dessen Erfolgskriterium er mit jedem Lauf selbst erfuellt,
+   misst nichts** — gleiche Familie wie Rule `rollen-taxonomie` Punkt 4 (zuerst fragen, was ein
+   Zaehler wirklich zaehlt) und wie 260807 (Konfigurationsfelder messen statt glauben).
+2. **Kein Delta ueber vier Laeufe.** Die Quelle waechst nicht; die Buchhaltungsluecke, fuer die
+   der Loop gebaut wurde, ist seit dem 29.07. geschlossen.
+3. **Die Rotation lieferte netto negativ.** Zwei Rotationslaeufe, davon einer ein Fehlalarm
+   (03.08., `wissens-chef`), den Wissens-Chef Run 23 widerlegen musste.
+
+**Umbau:** Delta-Scan als **Check 14 im `heartbeat`** (taeglich, reines Shell-Script, keine
+eigene Session, friert den Scan-Stand bewusst NICHT ein — sonst verschluckt der heartbeat das
+Signal). Radar neu **monatlich am 8. um 21:00** plus ad hoc auf das heartbeat-Signal. Cron am
+13. geaendert, also kein Re-Arm-Doppellauf. Prompt von 6'297 Bytes auf das Verfahren gekuerzt,
+Beschreibung von 1'321 Zeichen Korrekturhistorie befreit; Lehren stehen im Register.
+
+**Lehre, die ueber diesen Loop hinausgeht:** Task-Prompt und Task-Beschreibung sind der teuerste
+Ort fuer eine Lehre. Sie laden in **jedem** Lauf, bevor die erste Zeile Arbeit beginnt, und
+niemand raeumt sie je auf. Korrekturen gehoeren ins Register der Sache oder in diese Chronik.
+Wer eine «RICHTIGSTELLUNG» in eine Task-Beschreibung schreibt, baut einen Fehlerspeicher, der
+mit jedem Vorfall waechst und den Grundkontext still verteuert. Zweiter Beleg im Hub:
+`vollgas-chef-radar`, dessen Beschreibung dieselbe Krankheit in fortgeschrittenem Stadium zeigt.
 
 ---
 

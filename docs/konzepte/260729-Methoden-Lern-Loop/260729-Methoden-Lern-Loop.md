@@ -1,6 +1,7 @@
 # Methoden-Lern-Loop («methoden-radar»)
 
 Stand 29.07.2026 · Kanonisch auf dem NAS · Umsetzung erfolgt
+**Revision 13.08.2026: Abschnitt 3 ist ueberholt, siehe Nachtrag am Ende.**
 
 ## 1. Anlass
 
@@ -73,3 +74,29 @@ eingetragen in `logbuch/rollen/rollen-map.tsv`.
 - 3 offene Kandidaten fuer Raphael in QUESTIONS.md (Drei-Marken-Strategie,
   Baueingabe-Check/Trace-Matrix, Archivierung Ordner Prompts)
 - Scan-Stand eingefroren (9 Ordner)
+
+## 6. Nachtrag 13.08.2026 — Scan und Rotation getrennt (Entscheid Raphael)
+
+Die Architektur aus Abschnitt 3 buendelte Delta-Scan und Verifikations-Rotation in **einem**
+Wochenlauf. Nach vier Laeufen ist das ueberholt. Was sich zeigte:
+
+- **Die Leerlauf-Bremse konnte nie greifen.** Schritt 3 verlangte in jedem Lauf ohne Delta einen
+  Register-Stempel, Schritt 4 zaehlte den Stempel als Liefer-Delta. Jeder Lauf lieferte damit
+  per Definition. Ein Waechter, dessen Erfolgskriterium er selbst mit jedem Lauf erfuellt, misst
+  nichts. Gleiche Familie wie Rule `rollen-taxonomie` Punkt 4: zuerst fragen, was ein Zaehler
+  wirklich zaehlt.
+- **Die Quelle waechst nicht.** Kein Delta ueber vier Laeufe. Schon die Vollanalyse (Abschnitt 2)
+  hatte festgehalten, dass die Luecke Buchhaltung war, nicht Substanz — die Buchhaltung ist seit
+  dem 29.07. erledigt.
+- **Der Wochenlauf war fuer die Rotation zu schnell und fuer den Eingang zu langsam.** Neues
+  Material haette bis zu sieben Tage gelegen; die vier «implementiert»-Zeilen dagegen waren
+  woechentlich reihum in einem Monat durch.
+
+**Neue Aufhaengung:** Der Delta-Scan haengt als **Check 14 im `heartbeat`** (taeglich, reines
+Shell-Script, keine eigene Session, friert den Scan-Stand nicht ein). Der Radar laeuft
+**monatlich am 8. um 21:00** fuer die Rotation und sonst **ad hoc auf das heartbeat-Signal**.
+Der Prompt schrumpfte dabei von 6'297 Bytes auf das Verfahren; Register und Chronik tragen die
+Lehren. Abschnitt 4 (Abgrenzung zu `wissenscheck` und `wissens-chef`) gilt unveraendert.
+
+Belege: `wissen/claude-code/wiki/methoden-register.md`, Abschnitt «Betriebsmodus» ·
+`rules/betrieb-chronik.md` 260813d.

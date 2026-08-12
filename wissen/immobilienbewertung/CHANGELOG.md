@@ -2,6 +2,81 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-13 (Marktpuls VORGEZOGEN, MacBook Pro) — SREBI Q2-2026, BFS-IMPI neu in der KB, LIK 07.2026; zwei methodische Befunde; die zwei Stichtags-Werte bewusst offen gelassen
+
+**Einordnung zuerst, weil sie das ganze Ergebnis rahmt: dieser Lauf fand 19 Tage VOR seinem
+Stichtag statt.** Der One-Time-Task `immobewertung-marktpuls-260901` traegt `fireAt`
+**01.09.2026**, `nextRunAt` 01.09.2026 und **kein `lastRunAt`** — er hat nie gefeuert und ist
+**nicht verbraucht**; der Lauf wurde vorgezogen ausgeloest. Der Task-Prompt behauptet «Stichtag
+01.09.2026 — das ist heute»; das gemessene Datum ist **2026-08-13 01:00 CEST** (`date`, Rule
+260730b: das Arbeitsdatum kommt nie aus einem Dateiinhalt). Alle Eintraege dieses Laufs sind
+deshalb auf **13.08.2026** datiert, nicht auf den Stichtag, und der Report heisst
+`outputs/2026-08-13_immobewertung-marktpuls-vorgezogen.md` statt `2026-09-01_…`.
+
+**Konsequenz, nicht Formalie:** der Stichtag 01.09.2026 ist genau der Tag, an dem die BWO ihre
+Quartalspublikation veroeffentlicht. Die zwei Werte, fuer die der Termin gewaehlt wurde, waren
+heute nicht abrufbar und wurden **nicht geschaetzt**.
+
+**Neu belegt (drei Werte):**
+
+- **UBS SREBI Q2-2026 = 0.72** «moderat» (publ. 06.08.2026), dritter Anstieg in Folge; Begleit-
+  zahlen Wohneigentum +3.6 % YoY, Angebotsmieten +2.4 %, Bestandesmieten +1.1 %; UBS-Prognose
+  2026 von +3 % auf **+3.5–4.0 %** angehoben. → `wiki/investorenmarkt-makro.md`. Status
+  `emerging` (PDF-Primaerquelle nicht frei abrufbar, Medienberichterstattung gegengelesen).
+- **BFS-Wohnimmobilienpreisindex IMPI Q2-2026 = 127.7** (Q4-2019 = 100; +0.7 % QoQ, **+3.5 %
+  YoY**; EFH −0.4 % QoQ, ETW +1.6 % QoQ; staedtisch +1.8 %, laendlich stabil; publ. 30.07.2026).
+  **Erstmals in der KB gefuehrt** — neuer Abschnitt in `wiki/vergleichswert-hedonisch.md`, neue
+  Zeile in `wiki/datenquellen-registry.md`.
+- **LIK Juli 2026 = 101.1**, −0.1 % MoM, **Jahresteuerung 0.4 %** (Juni 0.5 %, Mai 0.6 %).
+  → `wiki/investorenmarkt-makro.md` und `wiki/ertragswert-dcf.md`.
+
+**Zwei methodische Befunde — der eigentliche Ertrag des Laufs:**
+
+1. **Der SREBI wird rueckwirkend revidiert.** Die Q2-Publikation weist Q1-2026 mit **0.62** aus,
+   waehrend die Mai-Publikation **0.69** meldete («Anstieg um 0.23 auf 0.69», 07.05.2026,
+   mehrfach unabhaengig belegt). Der bisherige KB-Wert war zu seinem Datenstand korrekt und ist
+   **ueberholt, nicht falsch erfasst**. Daraus **Nutzungsregel 5** in
+   `wiki/datenquellen-registry.md`: Index-Reihen nie ohne Publikationsdatum zitieren, nie Werte
+   aus zwei Publikationsstaenden in derselben Zeitreihe mischen.
+2. **IMPI und WP widersprechen sich beim EFH-Quartalswert** Q2-2026: amtlich **−0.4 % QoQ**
+   gegen WP **+1.5 % QoQ**. Kein Fehler einer der Reihen, sondern Methodendifferenz
+   (beurkundete Handaenderungen vs. hedonisches Modell mit Angebotsdaten); beim **YoY** liegen
+   IMPI +3.5 %, WP +4.3 % und UBS +3.6 % nahe beieinander. Daraus die Arbeitsregel: **YoY statt
+   QoQ** fuer Trendaussagen, **Bandbreite nennen** statt den bequemeren Wert, Publikationsstand
+   mitfuehren. → `wiki/vergleichswert-hedonisch.md`, `wiki/datenquellen-registry.md`
+   (Nutzungsregel 6).
+
+**Alle drei Verfahrensartikel geprueft (Auftragspunkt 3):**
+
+- `wiki/ertragswert-dcf.md` — Inflationsanker auf 0.4 % (07.2026) nachgefuehrt. Die
+  **Langfrist-Annahme ~1.0 % bleibt bewusst stehen**: der Rueckgang ist energie-/saisongetrieben,
+  und ein Langfrist-Anker, der jedem Monatsausschlag folgt, ist keiner. Absenkung Richtung
+  0.7–0.8 % erst bei anhaltend tieferem Niveau oder gesenkter SNB-Prognose (Bedingung notiert).
+- `wiki/vergleichswert-hedonisch.md` — neuer IMPI-Abschnitt samt Divergenztabelle und
+  vierteiliger Arbeitsregel.
+- `wiki/realwert-sachwert.md` — **geprueft, keine Aenderung noetig**, und das ausdruecklich
+  vermerkt statt still uebersprungen: SREBI und IMPI sind Preisreihen fuer Wohneigentum und
+  treffen den Vergleichswert, nicht die Erstellungskosten; der **LIK ist nicht der
+  Baupreisindex**. Die massgebenden Anker (BFS-Baupreisindex April 2026 = 100.6, ZIW-Reihe
+  Publikationsstand 01.01.2026) sind unveraendert. Naechster Anlass: Baupreisindex **Dez-2026**.
+
+**Unveraendert bestaetigt:** SNB-Leitzins **0.00 %** (seit 18./19.06.2026 keine Sitzung; naechste
+**24.09.2026**, dann 10.12.2026), BWO-Referenzzinssatz **1.25 %** (seit 02.09.2025, bestaetigt
+02.06.2026), massgebender Durchschnittszinssatz **1.31 % per 31.03.2026**, BFS-Baupreisindex
+April 2026 = 100.6, SMG-Mietindex Juni 2026 = 134.0 (Juli-Wert noch nicht publiziert).
+
+**Bewusst NICHT gefuellt (nicht publiziert zum Laufdatum):** BWO-Referenzzinssatz-Publikation
+**01.09.2026** samt Durchschnittszinssatz per Stichtag 30.06.2026, und **BFS-Leerwohnungsziffer**
+zum Stichtag 01.06.2026 (Publikation September; letzter Stand 01.06.2025 = 1.00 %, 48'455
+Wohnungen, ZH 0.48 %). Die Bring-Schulden Raphaels (UBS-FS-Quantile, Bodenpreise,
+Diskontsatz-Tools, Excel-Tools) wurden **nicht** durch Schaetzwerte ersetzt.
+
+**Register:** `wiki/INDEX.md` (zwei Zeilen nachgefuehrt), `wiki/wissensluecken.md` (neue
+Bring-Schuld **D14** «kein WP-unabhaengiger Gegencheck der Preis-NIVEAUS» — die
+Entwicklungs-Seite ist durch den IMPI geschlossen, die Niveau-Seite bleibt vollstaendig
+WP-basiert; ueberschneidet sich mit D2 und ist sinnvollerweise zusammen zu loesen), Erledigt-
+Eintrag 13.08.2026. Der Task `immobewertung-marktpuls-260901` bleibt **scharf auf 01.09.2026**.
+
 ## 2026-08-08 (interaktiv, Mac Mini) — SharePoint-Bibliothek «02 UBSFS» heisst neu «02 Standort INFO»; Pfad-Verweise nachgezogen
 
 Die Dokumentbibliothek IMMO/«02 UBSFS» wurde am 07.08.2026 auf SharePoint in **«02 Standort

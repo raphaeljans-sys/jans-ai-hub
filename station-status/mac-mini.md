@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 01:01:21
+Stand: 13.08.2026 01:11:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
@@ -16,4 +16,4 @@ Stand: 13.08.2026 01:01:21
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6ed871d8 ag-gruendung-monitor: Strategie-Wechsel — Neueinreichung des Dossiers digital statt UBS-Anruf
+- 72a0e5aa zahlungsabgleich: Monitoring-Luecke geschlossen — Connector liefert unrecOhneZwilling (unreconciled CREDIT ohne abgeglichenen Zwilling = unzugeordnetes Geld, konnte nie in eingangOhneBuchung erscheinen), Vorfilter vergleicht neu auch die Kennzahlen selbst (Exit 10 bei jeder Bewegung, Zeile KENNZAHL) plus UNREC-Detaildiff; txKey einmal statt dreimal; offline in fuenf Szenarien verifiziert (Token 401, Live-Gegenprobe offen), Register und Chronik nachgetragen

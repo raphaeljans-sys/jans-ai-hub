@@ -250,6 +250,26 @@ bash /Volumes/daten/jans-ai-hub/scripts/stationen-watchdog.sh --pruefen
   einmal taeglich an rj@ und verifiziert dabei, dass die Mail wirklich raus ist statt als
   Entwurf zu haengen. Den Sendeweg einmal beweisen: `--test-mail`
 
+### 14. Methoden-Eingang (Delta-Scan «00 Prompteingaben»)
+
+Meldet neues Methoden-Material, das Raphael im OneDrive-Ordner
+`AD - 01 Geschaeftsfuerung/JANS AI/00 Prompteingaben/` ablegt. Gleiche Begruendung wie
+Check 12: reines Shell-Script, keine eigene Claude-Session, kein zweiter Taktgeber:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/methoden-scan.sh
+```
+
+- ✅ Exit 0 → kein Delta, eine Zeile im Report genuegt
+- 🔔 Exit 10 → **neues oder geaendertes Material.** Die Ordnerliste unveraendert in den Report
+  uebernehmen und den Satz «methoden-radar ausfuehren» anhaengen. Der Scan-Stand wird hier
+  **nicht** eingefroren, sonst verschluckt der heartbeat das Signal fuer den Radar
+- ❌ Exit 2/3 → OneDrive oder NAS nicht erreichbar; Mount-Befund (Check 1) hat Vorrang
+- **Nie selbst destillieren.** Dieser Check meldet nur. Das Lesen des Materials, das Register
+  und der CHANGELOG gehoeren dem Skill/Task `methoden-radar`
+- Seit 13.08.2026: Der Radar hat deshalb keinen Wochentakt mehr. Er laeuft monatlich fuer die
+  Verifikations-Rotation und sonst nur auf dieses Signal hin (Chronik 260813d)
+
 ## Output-Format
 
 Gib einen kompakten Report aus:
@@ -267,6 +287,7 @@ Symlinks:       ✅ skills / agents / commands OK
 Sync-Health:    ✅ Wissens-Kette fliesst (0 Commit-Anfragen offen, NAS↔SSD gleichauf)
 Grundkontext:   ✅ 95'536 Zeichen (~23'900 est. Tokens, Schwelle 100'000); Doctor vor 1 Tag
 Task-Spiegel:   ✅ macbook-pro 31 + mac-mini 8 Tasks gespiegelt
+Methoden:       ✅ kein neues Material (oder 🔔 2 Ordner neu → methoden-radar ausfuehren)
 
 STATUS: ✅ Alles OK
 ```

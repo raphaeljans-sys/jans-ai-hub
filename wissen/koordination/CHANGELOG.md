@@ -3,6 +3,66 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Wissens-Chef Run 29 (Cross-KB, 6 Felder, 18 Agenten; erster Versuch am Kontingent gescheitert)
+
+- **Bericht:** `outputs/2026-08-13_wissens-chef-run29.md`. Sechs Felder, 12 gemeldete Befunde, alle
+  verifiziert: **0 bestaetigt, 11 gedaempft, 1 widerlegt.** Nach Verifikation keine Schwere «hoch»
+  mehr — 3 mittel, 9 tief. 13 Dateien in 5 KBs plus 2 Skills geaendert. 0 Agentenfehler im zweiten
+  Anlauf.
+- **Zwei Anlaeufe.** Der erste Lauf (08.08.2026, 23:15) brach ab: 10 von 14 Agenten mit «weekly
+  limit». Der Wiederaufsatz ueber `resumeFromRunId` am 13.08. lieferte die vier fertigen Melder aus
+  dem Cache und fuhr die abgebrochenen neu — **alle Verifikatoren liefen am aktuellen Bestand**,
+  die Staleness der zwei gecachten Melder (A, B) ist dadurch geheilt. Dazwischen lagen fuenf Tage
+  **ohne Cross-KB-Lauf**; nichts ist in dieser Zeit verfallen.
+- **Der einzige substanzielle Sachbefund: dieselbe Passage, zwei Bring-Schulden, eine kam an.**
+  `energie` hatte am 25.07.2026 belegt, dass SIA 380/2:2022 sowohl SIA 382/1:2014 als auch
+  **SIA 382/2:2011** abloest. Die erste Uebergabe ist am 26.07. in `normen` angekommen
+  (`ausgabe_ueberholt` gesetzt). Die zweite nie — und ein frischer Destillier-Lauf hat sie am
+  08.08. als «offene Bring-Schuld» **neu formuliert**. Eine verpuffte Uebergabe verschwindet also
+  nicht nur, sie kann als Wissensluecke wiedergeboren werden.
+  **Am Herausgeber selbst nachgeprueft** statt aus dem fremden Destillat abgeschrieben
+  (shop.sia.ch, Produktseite SIA 380/2 (2022): Vorgaenger-Block nennt SIA 2044:2019 und
+  SIA 382/2:2011, beide «gueltig bis 31.10.2022», abgerufen 13.08.2026). Gesetzt: `gueltigkeit`-Feld,
+  ERGAENZUNG in REGISTER Z. 257 (Stichtagswert unangetastet), QUESTIONS-Nachtraege. Neue Luecke
+  N29-1: **SIA 380/2:2022 liegt nicht im Bestand** — die KB fuehrt fuer klimatisierte Gebaeude nur
+  noch abgeloesten Stand.
+- **Die Nachkontrolle von Run 28 ist vollstaendig bestanden** (Feld E, null Befunde): alle drei
+  Korrekturen unveraendert in Kraft, per `git show` gegen Commit `598be5e8` geprueft. Und das
+  wiederkehrende Muster «planungsgrundlagen schreibt Gesetzeswortlaut materiell fort» ist an der
+  Rechts-Achse **erstmals nicht mehr auffindbar**.
+- **Die Verifikationsstufe hat diesmal vor allem Schaden verhindert, nicht Befunde bestaetigt.**
+  Vier Melder-Vorschlaege waren aktiv schaedlich und wurden gekippt: eine «Richtigstellung», die
+  eine korrekte SIA-180-Aussage in einen Fehler verwandelt haette (die Norm fuehrt 30-70 % in zwei
+  Bezuegen, der Artikel meint den richtigen); eine Anreicherung **maschineller .crbx-Abschriften**
+  im Goldstandard-LV; ein kopierter Querbezug-Block, der die Fuehrung ueber die
+  Minergie-Verfahren stillschweigend abgetreten haette; und ein Eintrag in ein `QUESTIONS.md`,
+  das die KB `immobilienbewertung` gar nicht fuehrt (sie fuehrt `wissensluecken.md`) — er haette
+  genau das Phantom-Register erzeugt, vor dem Run 28 gewarnt hat. **Zwei Verifikatoren
+  widersprachen sich in diesem Punkt; der Hauptprozess hat am Schema-Abschnitt der KB-CLAUDE.md
+  entschieden.**
+- **Der lehrreichste Befund ist KB-intern und wird als solcher gefuehrt:** Bauherren-FAQ **F219**
+  behauptete fuenf Tage lang eine Wissensluecke, die dieselbe KB bereits geschlossen hatte
+  («ab welcher Objektgroesse die Impulsberatung kostenpflichtig wird, ist nicht belegt»). Der
+  Fehler ist keine veraltete Zahl, sondern eine **falsch gewordene Aussage ueber den eigenen
+  Belegstand**: das Destillat wurde nachgefuehrt und «GEKLAERT» abgehakt, der verdichtete Layer
+  nicht. Regel in energie/QUESTIONS: ein «GEKLAERT» gilt erst, wenn FAQ, INDEX und Quellenzeilen
+  mitgezogen sind.
+- **Zwei neue Matrix-Zeilen:** Leitungs-/Kanaldaemmung (gesetzliche Dicken fuehrt `energie`,
+  SIA 380/3 liefert nur das Rechenverfahren und setzt ausdruecklich keine Dicken) und
+  Minergie-Zertifizierungsverfahren (privat, fuehrt `energie`; `planungsgrundlagen` fuehrt
+  ausschliesslich den amtlichen Vollzug — damit kein kuenftiger Lauf die Destillate verschiebt).
+- **Ursache des Run-28-P0 abgesichert** (Hauptprozess, 08.08.2026): `skills/wissenscheck/SKILL.md`
+  Phase 2 traegt jetzt einen **Schreib-Riegel** — Existenzpruefung vor jedem Anlegen, nie
+  ueberschreiben, Titel nie aus der Normnummer raten, Feldnamen sind keine Feldwerte, neue Stubs
+  immer `speculative`, unbeaufsichtigt endet der Skill nach Phase 1. Nachgemessen: die drei am
+  07.08. wiederhergestellten Destillate stehen unveraendert (137/299/55 Zeilen), **kein
+  Wiederholungsfall** — seit dem letzten Lauf gab es in `wissen/` keine einzige Netto-Loeschung
+  ueber 30 Zeilen.
+- **Beifang:** `skills/twin/tools/build_dna.py` nannte im Docstring noch `rules/jans-dna.md` als
+  Schreibziel, obwohl der Code seit 03.08.2026 nach `rules/jans-dna-facetten.md` schreibt (Zeilen
+  22-25 dokumentieren es korrekt). Ein Leser haette das Werkzeug in die falsche Richtung
+  «repariert». Korrigiert.
+
 ## 2026-08-07 — Wissens-Chef Run 28 (Cross-KB, 6 Felder, 30 Agenten)
 
 - **Bericht:** `outputs/2026-08-07_wissens-chef-run28.md`. Sechs Felder, 20 gemeldete Befunde,
@@ -217,11 +277,20 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Die drei B-Befunde sind Schema-Abweichungen (kein `wiki/`, kein `INDEX.md`, kein `raw/_INGESTED.md`) — als Register-KB nachvollziehbar, aber nirgends festgehalten. Empfehlung: in `CLAUDE.md` ausdruecklich festschreiben, sonst wird es monatlich neu als Fehlbestand gemeldet. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
 
-## 2026-08-03 — Synergie-Lauf 04 (Struktur-Aufsicht, Skill `synergie-orchestrator`)
+## 2026-08-13 — Synergie-Lauf 04 (Struktur-Aufsicht, Skill `synergie-orchestrator`)
 
-- **Bericht:** `outputs/2026-08-03_synergie-lauf-04.md`. Delta-Basis 01.08. 14:20 – 03.08. 23:30,
+- **Bericht:** `outputs/2026-08-13_synergie-lauf-04.md`. Delta-Basis 01.08. 14:20 – 13.08. 01:05,
   leichtgewichtiger Inline-Lauf ohne Fan-out. Register: SYN-20 bis SYN-22 neu.
-- **SYN-20 (Typ 1):** der neue Skill `energie` (03.08., loest PL-04 ab) ist einseitig verdrahtet —
+- ⚠ **Messfehler im ersten Durchgang, korrigiert:** die Stationsuhr ging zehn Tage nach (`date`
+  meldete 03.08. 23:28, real war der 12.08. spaetabends; Beleg: nativer Synology-Log
+  `sync-tasks/log/selfcommit-202608.log`, lueckenlos bis `2026-08-13T01:04:27`). Unter der
+  schiefen Uhr lieferte `git log --since` **262 statt 1111 Commits** — die Traversierung brach
+  ohne Fehlermeldung ab. Die daraus gezogenen Schluesse «Delta duenn» und «Takt zu eng,
+  fruehestens 01.09.» sind **zurueckgezogen**. Der Lauf wurde mit dem echten Fenster
+  wiederholt: 4 neue Rules, 2 neue Connectoren, 1 neuer Command zusaetzlich zum neuen Skill.
+  Verdrahtungs-Gegenprobe: alle korrekt registriert, einzige Fehlstelle `m365-graph.mjs` in
+  der Allowlist `.claude/settings.json`.
+- **SYN-20 (Typ 1):** der neue Skill `energie` (loest PL-04 ab) ist einseitig verdrahtet —
   er benennt neun Fach-Skills und den Agenten `energie-berater`, aber **0 von 10** nennen ihn
   zurueck. Einzige gesetzte Rueckkante: `planungsgrundlagen` (Z. 29, 65–70). Zweitens fehlten
   alle drei Contract-Pflichtfelder; **im Lauf nachgetragen** (active-with-flagging, mechanisch).
@@ -231,16 +300,17 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 - **SYN-21 (Typ 1):** Service S6 «Energie-Vorabklaerung» fuehrt in der Pipeline weiterhin den
   Agenten `energie-berater` (PL-04) statt den nun fuehrenden Skill `energie`. Nicht selbst
   geaendert — Katalog ist Produkttext, Freigabe Raphael noetig.
-- **SYN-22 (Typ 1):** Nebenwirkung der Grundkontext-Diaet — der DNA-Feinregelsatz liegt seit dem
-  03.08. in der nicht importierten `rules/jans-dna-facetten.md`. Vier Konsumenten wurden explizit
+- **SYN-22 (Typ 1):** Nebenwirkung der Grundkontext-Diaet — der DNA-Feinregelsatz liegt seit
+  der Diaet-Runde 2 in der nicht importierten `rules/jans-dna-facetten.md`. Vier Konsumenten wurden explizit
   verdrahtet, neun texterzeugende Bausteine (LinkedIn-Strang, `bericht-autor`, `website-content`,
   `marketing`, `protokoll`, `telesales`) haben je 0 Treffer. Keine harte Kappung (die
   Leseanweisung steht im importierten Kern), aber ein Verlaesslichkeitsgefaelle — verschaerft
   SYN-08.
-- **Nachgemessen ohne Delta:** SYN-02 (`volumen_generator.py` unveraendert), SYN-13 (Etappe 4 vom
-  03.08. vertiefte 2408 BIWAK, nicht Healthcare — weiterhin kein `typologien/healthcare.md`).
-- **Takt-Befund:** der als monatlich gefuehrte Task lief 25.07./01.08./03.08.; Empfehlung
-  naechster Lauf fruehestens 01.09.2026.
+- **Nachgemessen ohne Delta:** SYN-02 (`volumen_generator.py` unveraendert), SYN-13 (Etappe 4
+  vertiefte 2408 BIWAK, nicht Healthcare — weiterhin kein `typologien/healthcare.md`).
+- **Takt neu TAEGLICH** (Anordnung Raphael 13.08.2026): Task `synergie-lauf-taeglich`, 17:00,
+  mit Uhr-Check als erstem Schritt und Frueh-Ausstieg bei strukturellem Nulldelta; der monatliche
+  Vorgaenger-Task ist stillgelegt.
 
 ## 2026-08-03 — Wissens-Chef Run 24 (Cross-KB-Delta, 12 Agenten)
 
