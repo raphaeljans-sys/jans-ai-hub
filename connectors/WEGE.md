@@ -51,6 +51,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Baugesuchsstand ZH | `connectors/ebaugesuche-zh.mjs` | | | Portal (Mobile ID) |
 | Geodaten ZH und SZ | `connectors/geo-zh.mjs`, `geo-sz.mjs` | | | Kartenportale |
 | Git auf dem NAS | `scripts/nas-commit-now.sh` | 15-Min-Cron abwarten | | |
+| Mac-App-Store-Updates | `mas outdated` / `mas upgrade` | | | App Store (GUI) |
 
 ---
 
@@ -218,6 +219,15 @@ Wiederkehrende Defekte:
   hilft `npm install` im SSD-Klon.
 - **`~/.zefix.env` und `~/.versand.env` fehlen** auf dieser Station, die zugehörigen
   Connectoren sind hier nicht einsatzbereit.
+
+**Mac-App-Store-Updates ohne Klicken** (eingerichtet 12.08.2026 auf dem Mac Mini, Freigabe
+Raphael): `mas` liegt unter `/opt/homebrew/bin/mas` (Version 7.0.0, via `brew install mas`).
+`mas outdated` listet die anstehenden Updates mit Alt- und Neuversion, `mas upgrade` spielt
+alle ein, `mas upgrade <id>` nur eines. `softwareupdate -l` deckt dagegen nur macOS-System-
+Updates ab, nie App-Store-Apps — die beiden Kanäle nie verwechseln. Auf einer anderen Station
+ist `mas` erst zu installieren. **OneDrive nicht während eines laufenden Syncs aktualisieren**
+(Update startet die App neu); Last am `OneDrive File Provider` messen, Vorgeschichte in
+`rules/betrieb-chronik.md`.
 
 Verwandt: `connectors/README.md` (Werkzeug-Index), Rule `wege-und-vollmachten.md`,
 `logbuch/AKTIONS-WHITELIST.md` (was ohne Rückfrage getan werden darf).

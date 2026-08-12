@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.08.2026 23:22:45
+Stand: 12.08.2026 23:32:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 12.08.2026 23:22:45
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1981d5eb Hub-Audit 260812: Architektur- und Betriebs-Audit (Inventar Stationen/Dienste/Connectoren/Sync, 17 Risiken belegt, 18 Massnahmen mit Umsetzungsort) unter docs/konzepte/260812-Hub-Audit/ als MD+DOCX+PDF
+- 92ee4038 nas-selfcommit: 3 Datei(en) 2026-08-12 23:30
