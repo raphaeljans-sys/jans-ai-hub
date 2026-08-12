@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 01:35:51
+Stand: 13.08.2026 01:46:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 13.08.2026 01:35:51
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- f3706c8a Zahlungsabgleich 13.08. Praezisierung: die Berichtsluecke 09.-12.08. geht nach Aktenlage auf den bekannten Task-Flotten-Stillstand zurueck, nicht auf den Token; wann in diesen fuenf Tagen der bexio-Zugang starb, ist nicht bestimmbar
+- 35a2fd63 nas-selfcommit: 1 Datei(en) 2026-08-13 01:45

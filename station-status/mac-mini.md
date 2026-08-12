@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 01:42:26
+Stand: 13.08.2026 01:52:44
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:16)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -16,4 +16,4 @@ Stand: 13.08.2026 01:42:26
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9aa8e3a7 Fristen-Register: SharePoint-Speicherpool aufgenommen (929.7 GB / 88.2 %, voll Anfang Oktober bei 2.51 GB/Tag) — Versions-Trim JANS.PROJEKTE seit 13.07. offen, stand bisher nur in den Hygiene-Reports (Rule 260805)
+- 35a2fd63 nas-selfcommit: 1 Datei(en) 2026-08-13 01:45

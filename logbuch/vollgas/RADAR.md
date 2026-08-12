@@ -52,6 +52,90 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-13 01:51 — [FREI] **Aufsichtsausfall von 4 Tagen 13 Stunden: die gesamte Task-Flotte stand vom 08.08. bis 12.08. spätabends.** Ausfalltyp belegt: die Tasks haben NICHT gefeuert (nicht: gefeuert und versagt). Seit 00:51 läuft die Flotte wieder, aber als Nachhol-Sturm — rund 20 Tasks in einer einzigen Stunde. Ampel **FREI** (17.4 % bei 36.8 % verstrichener Woche, Vorsprung **-19.5**). Kein Delta-Null-Loop, im Gegenteil: 61 Commits in 30 h. Kein Mail-Anlass
+
+**Selbstkontrolle: schwerer Ausfall, und er ist der Hauptbefund dieses Laufs.** Letzter Eintrag
+08.08. 12:58, dieser Lauf 13.08. 01:51 — Abstand **109 Stunden** bei 12-h-Takt und 15 h Toleranz.
+Das sind rund **neun verpasste Regelläufe**. Die Aufsicht war fünf Tage blind, und sie hat es
+nicht selbst gemeldet, weil ein Radar, der nicht feuert, auch seine eigene Selbstkontrolle nicht
+ausführt. Genau dieser Zirkel ist die Lehre des Eintrags.
+
+**Ausfalltyp sauber getrennt (Pflichtschritt seit 07.08.).** Der Auftrag verlangt, `lastRunAt`
+gegen das Datum des letzten Eintrags zu stellen. Ergebnis: es war **kein** gefeuerter Lauf, der
+in eine Kontingentsperre fiel, sondern ein echter Feuerungsausfall der ganzen App-Task-Flotte.
+Beleg sind zwei Tasks, die im Nachhol-Sturm noch nicht an der Reihe waren und deshalb den alten
+Stand konserviert haben: `konversations-log` steht unverändert auf `lastRunAt` **08.08. 06:13**
+und `vollgas-fruehwarnung` auf **08.08. 07:15**. Wäre zwischendurch gefeuert und abgebrochen
+worden, stünde dort ein späteres Datum. Der Befund deckt sich mit dem, was der Zahlungsabgleich
+heute Nacht unabhängig festhielt (Commit `f3706c8a`): die Berichtslücke 09.–12.08. geht auf den
+Task-Flotten-Stillstand zurück, nicht auf den bexio-Token.
+
+**Der Nachhol-Sturm ist real, aber selbstheilend — keine Massnahme.** Zwischen 00:51 und 01:51
+CEST feuerten rund zwanzig Tasks praktisch gleichzeitig: heartbeat, baurecht-buch-training,
+twin-mail-training, twin-fidelity-review, mahnwesen, zahlungsabgleich, logbuch-radar,
+behoerden-zh-check, ag-gruendung-monitor, tenant-hygiene, hub-chef, normen-training, wissens-chef,
+wettbewerbs-dna, synergie-lauf und dieser Radar. Das verletzt die Takt-Entzerrung (min. 2 h
+Abstand) massiv, ist aber ein einmaliger Aufholeffekt: sämtliche `nextRunAt`-Werte stehen wieder
+auf den regulären Slots (logbuch-radar 06:54, hub-chef 06:38, heartbeat 07:40, dieser Radar
+10:57). Es wird nichts umgetaktet — eine Korrektur an dieser Stelle würde einen bereits
+zurückgekehrten Zustand ein zweites Mal verschieben.
+
+**Kontingent: reichlich Luft, und zwar mehr als je in diesem Register.** 28.98 von 167 Mio
+teuren Token (MacBook 19.93, Mini 9.04), beide Stationen frisch. Verbraucht sind 17.4 % bei
+36.8 % verstrichener Woche, Vorsprung **-19.5 Punkte** — der Verbrauch läuft dem Zeitverlauf
+deutlich HINTERHER. Das ist die direkte Folge des fünftägigen Stillstands und keine Sparleistung.
+Der stehende Entscheid Raphaels vom 03.08. («gleichmässig über die Woche») ist damit von der
+anderen Seite verletzt: nicht zu viel am Wochenanfang, sondern zu wenig in der Wochenmitte.
+Handlungsbedarf besteht trotzdem nicht — die Flotte holt von allein auf, und Kapazität künstlich
+zu verbrauchen wäre genau die Verschwendung, die dieser Radar verhindern soll.
+
+**Liefer-Delta: hervorragend, kein Kandidat für Rücktaktung oder Stilllegung.** 61 Commits in
+30 Stunden, davon nahezu keine Status-Commits. Substanz je Loop: `normen` run49 (17 Refuter-Runden
+als 34-Agenten-Flotte, 70 Kernbefunde), `baurecht` run73 (neuer Wiki-Artikel Umgebungsgestaltung,
+Konkordanz StrAV→VErV mit zwei materiellen Änderungen), `wissens-chef` Run 29 (12 Befunde
+verifiziert), `twin-fidelity-review` (Gruss-Default umgedreht, Echo-Detektor mechanisiert),
+`twin-mail-training` Batch 91, `synergie-lauf` 05 (SYN-23 neu), `tenant-hygiene`, `zahlungsabgleich`
+(Monitoring-Lücke geschlossen), `immobewertung-marktpuls` vorgezogen, `methoden-radar` umgebaut.
+Kein Loop mit Delta Null, keine Rücktaktung, keine Stilllegung.
+
+**Feuermechanismen: alle drei Orte stimmen.** MacBook: `ch.jans.vollgas-supervisor` und
+`ch.jans.vollgas-monitor` liegen als `.disabled-260729` und sind nicht geladen. Mac Mini:
+`vollgas-supervisor` ebenfalls `.disabled-260729`, geladen ist ausschliesslich
+`ch.jans.nachtschicht` — Sollstand. Der Endlos-Runner bleibt ausgebaut (stehender Entscheid
+30.07.), dieser Lauf hat ihn nicht angefasst. Mini-Registry unverändert acht Tasks; Mini-Sessions
+zuletzt 13.08. 01:16, die Station arbeitet. Keine Waisenprozesse (`ps` auf `claude -p` leer).
+Speicherdruck Stufe 2 (Warnung) bei rund 3.2 GB verfügbar — im laufenden Nachhol-Sturm erklärbar,
+kein eigener Befund.
+
+**P1 — Ursache des Flotten-Stillstands ist nicht dokumentiert und damit nicht abgestellt.**
+Fünf Tage Ausfall der gesamten App-Task-Flotte, und in `rules/betrieb-chronik.md` steht dazu
+kein Eintrag; der Zahlungsabgleich nennt ihn «den bekannten» Stillstand, ohne dass irgendwo
+belegt wäre, was ihn ausgelöst und was ihn beendet hat. Solange das offen ist, kann er sich
+jederzeit wiederholen, und keine der acht operativen Aufsichten würde es melden — sie standen
+alle mit still. Dieser Radar geht der Frage bewusst nicht in diesem Lauf nach: der Regellauf ist
+per Auftrag schlank, und die Untersuchung verlangt Transcript-Forensik über fünf Tage auf beiden
+Stationen. Sie gehört als eigener Auftrag vergeben.
+
+**P2 — Das Konversations-Destillat hat eine fünftägige Lücke, und der Logbuch-Radar liest es
+in vier Stunden.** `konversations-log` (06:13) ist seit 08.08. nicht gelaufen und ist die
+Vorstufe des operativen Logbuch-Radars (06:55). Läuft es heute regulär, destilliert es nur die
+letzten 26 Stunden und lässt 09.–12.08. unerfasst. Der Radar arbeitet damit auf einem Destillat
+mit Loch, ohne es zu wissen. Kein Eingriff dieses Laufs, aber der `hub-chef` sollte die Lücke im
+Tagesbriefing kennen.
+
+**P3 — Das Lauf-Journal bildet die Flotte weiterhin nicht ab.** 260813 trägt eine einzige Zeile
+(ein Mini-Dispatch), 260809 fehlt ganz, obwohl in 30 Stunden 61 Commits entstanden. Das ist kein
+neuer Fehler, sondern die bekannte bauliche Grenze (Chronik: die App-Scheduled-Task-Flotte ruft
+das Gate nicht und kann es nicht rufen). Folge für diesen Radar: der Liefer-Delta ist über
+Commits und Wiki-Dateien zu messen, nie über das Journal — im Journal sähe dieselbe hochaktive
+Nacht wie Stillstand aus.
+
+**Keine Mail.** Kein neuer P1-Blocker, den nur Raphael lösen kann: der Stillstand ist beendet,
+die Flotte läuft, das Kontingent ist frei, der Login trägt. Der offene bexio-401 ist ein
+Befund des Zahlungsabgleichs und steht bereits im Fristen-Register; nach dem Ein-Mail-Prinzip
+trägt ihn der `hub-chef` um 08:39. Dieser Eintrag ist der Meldekanal.
+
+---
 ## 2026-08-08 12:58 — [FREI] Regellauf, punktgenau im 12-h-Takt. Ampel **WARNUNG** (78.0 % bei 72.0 % verstrichener Woche, Vorsprung **+6.0**, ruecklaeufig). **Die gestrige Prognose trifft zu:** die Rate ist von 2.69 auf **0.77 Mio/h** gefallen — das ist praktisch exakt der Wert (0.78), den volle Ausschoepfung bis Montag braucht. Keine Drossel, kein Delta-Null-Loop, kein Mail-Anlass
 
 **Selbstkontrolle: sauber — und die gestrige Korrektur bewaehrt sich sofort.** Letzter Eintrag
