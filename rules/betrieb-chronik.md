@@ -21,6 +21,19 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260812e — Massnahme A6 (Hub-Audit): `find` in station-status.sh entschaerft (gegen R10)
+
+`scripts/station-status.sh`: Glob von `OneDrive*/AR*` (traf alle Namensraeume, auch die
+leeren verdoppelten CloudStorage-Wurzeln) auf den einen gueltigen Pfad
+`OneDrive-FreigegebeneBibliotheken–JANS` eingeschraenkt, `-maxdepth 4`, 15-s-Zeitdeckel ohne
+externes `timeout`-Binary (Hintergrund-`find` + Watcher-`sleep`+`kill`), plus `mkdir`-Lock
+gegen Ueberlappung (analog `sync-task-run.sh:74`).
+
+**Gemessen:** `write` zweimal gelaufen — Normallauf lieferte die Projektordner-Aktivitaet
+korrekt beschraenkt auf die drei AR-Ordner (`station-status/mac-mini.md`); Lock-Test mit
+kuenstlich gehaltenem `/tmp/jans-station-status.lock` ergab «Lauf bereits aktiv —
+uebersprungen», kein Ueberschreiben. `bash -n` syntaxrein.
+
 ## 260812d — Massnahme A5 (Hub-Audit): Freigabe-Queue mit 12-h-Pflichtzeile im Tagesbriefing
 
 Umsetzung von Massnahme A5 aus `docs/konzepte/260812-Hub-Audit/260812-Hub-Audit.md` (gegen

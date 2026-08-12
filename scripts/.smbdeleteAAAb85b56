@@ -28,16 +28,6 @@ esac
 mkdir -p "$DIR"
 
 schreiben() {
-  # A6 (Hub-Audit 260812, gegen R10): Lock gegen Ueberlappung, analog sync-task-run.sh:74.
-  # Der Job laeuft alle 600 s; ein einzelner Lauf kann laenger dauern als sein Takt
-  # (gemessen: 6:07 Min an einem haengenden find ueber OneDrive, siehe unten).
-  local lock="/tmp/jans-station-status.lock"
-  if ! mkdir "$lock" 2>/dev/null; then
-    echo "Lauf bereits aktiv — uebersprungen"
-    return 0
-  fi
-  trap 'rmdir "$lock" 2>/dev/null' RETURN
-
   local f="$DIR/$ME.md"
   {
     echo "# Stations-Status: $ME"
@@ -69,29 +59,11 @@ schreiben() {
     echo ""
     echo "## Projektordner-Aktivitaet (OneDrive, letzte 12 h)"
     local od="$HOME/Library/CloudStorage"
-    # A6 (Hub-Audit 260812, gegen R10): der Glob "OneDrive*/AR*" traf ALLE OneDrive-
-    # Namensraeume, auch die leeren, mehrfach verdoppelten CloudStorage-Wurzeln aus dem
-    # OneDrive-Vorfall vom 08.08.2026 (docs/konzepte/260812-OneDrive-Sync-Incident/).
-    # Auf den einen gueltigen Pfad einschraenken statt auf ein Wildcard-Praefix.
-    local onedrive_root="$od/OneDrive-FreigegebeneBibliotheken–JANS"
-    local akt=""
-    if [ -d "$onedrive_root" ]; then
-      # Zeitbegrenzung ohne externes "timeout"-Binary (auf macOS standardmaessig nicht
-      # vorhanden): find im Hintergrund starten, nach FIND_TIMEOUT_S per SIGTERM stoppen.
-      local find_timeout_s=15
-      akt=$(
-        {
-          find "$onedrive_root"/AR* -maxdepth 4 -type f -mmin -720 -not -name ".DS_Store" 2>/dev/null &
-          local fpid=$!
-          ( sleep "$find_timeout_s"; kill -TERM "$fpid" 2>/dev/null ) &
-          local wpid=$!
-          wait "$fpid" 2>/dev/null
-          kill "$wpid" 2>/dev/null
-          wait "$wpid" 2>/dev/null
-        } | sed "s|$od/[^/]*/||" | awk -F/ 'NF>=2 {print $1" / "$2}' | sort | uniq -c \
-          | sort -rn | head -8 | sed 's/^ *\([0-9]*\) /\1 Datei(en): /'
-      )
-    fi
+    local akt
+    # geaenderte Dateien suchen und auf Bereich/Projektordner verdichten
+    akt=$(find "$od"/OneDrive*/AR* -type f -mmin -720 -not -name ".DS_Store" 2>/dev/null \
+          | sed "s|$od/[^/]*/||" | awk -F/ 'NF>=2 {print $1" / "$2}' | sort | uniq -c \
+          | sort -rn | head -8 | sed 's/^ *\([0-9]*\) /\1 Datei(en): /')
     [ -n "$akt" ] && echo "$akt" | sed 's/^/- /' || echo "- keine"
     echo ""
     echo "## Hub-Git-Stand (NAS)"
