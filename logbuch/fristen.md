@@ -3,6 +3,26 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Lauf zahlungsabgleich-check 01:30, **bexio-Zugang tot, Debitoren-Aufsicht
+seit fünf Tagen blind**): Der Vorfilter `bexio-vorfilter.mjs --voll` bricht mit **Exit 2** ab,
+bexio antwortet **HTTP 401**. Der Token ist **nicht abgelaufen** (Ablauf 13.12.2026), die Session
+dahinter wurde serverseitig beendet; Gegenprobe direkt am Aussteller
+(`auth.bexio.com/.../userinfo`) ebenfalls 401, `~/.bexio.env` seit 13.06.2026 unverändert. Nur ein
+**neuer Personal Access Token** hilft. **Der schwerere Teil ist die Dauer:** letzter erfolgreicher
+Lauf **08.08.2026 08:36**, für den 09. bis 12.08. existiert **kein Hygiene-Bericht** — vier Läufe
+sind still ins Leere gelaufen. Terminlich fällt in diese Blindzeit: **RE-00098 (CHF 13'600) und
+RE-00099 (CHF 3'680), KISPI, Mahnung 1, Frist 12.08. gestern abgelaufen** — ob gezahlt wurde, ist
+nicht prüfbar, **vor einer Eskalation auf Mahnung 2 ist der Zahlstatus zu verifizieren**; und die
+am 08.08. angeordnete **E-Banking-Gegenprüfung zu Tx 3630 (CHF 6'000, Valuta 07.08., mutmasslich
+RE-00101 Tschopp) bleibt offen, Frist 16.08.** — **A1 für RE-00101 bleibt bis dahin gesperrt**
+(Du-Kontakt und Bauherr-Partner; eine Mahnung an einen Kunden, der bezahlt hat, ist der teuerste
+Fehler dieses Skills). Die drei Vorbehalts-Transaktionen 3470, 3445 und 854 bleiben gesperrt,
+konnten heute aber nicht nachgemessen werden. Solange der Zugang tot ist, arbeitet auch
+`mahnwesen` ohne Datengrundlage: **bis zum neuen Token wird nicht gemahnt.** AKTION RAPHAEL: neuen
+Token in bexio ausstellen, in `~/.bexio.env` eintragen (nie ins Repo, nie committen), danach
+`node /Volumes/daten/jans-ai-hub/scripts/bexio-vorfilter.mjs --voll --trocken` als Probe. Bericht:
+`30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260813_bexio-Hygiene.md`.
+
 Eintrag 13.08.2026 (Session Raphael 01:20, am Postfach nachgemessen — **die «Frist heute»
 beruht auf einer überholten Annahme, der Entwurf darf NICHT so hinausgehen**): Der als
 Frist 13.08. geführte A5-Entwurf an T. Inniger («KISPI PPTS: Geräteliste Therapieküche mit

@@ -5,6 +5,41 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Zahlungsabgleich 13.08.2026, 01:30 — ⚠ bexio-Zugang tot (HTTP 401), Debitoren-Aufsicht seit fünf Tagen blind
+
+**Befund 1, die Ursache:** `bexio-vorfilter.mjs --voll` bricht mit **Exit 2** ab, bexio antwortet
+**401**. Der Token ist **nicht abgelaufen** (13.12.2026), die Session dahinter wurde serverseitig
+beendet oder zurückgezogen. Gegenprobe direkt am Aussteller
+(`auth.bexio.com/realms/bexio/protocol/openid-connect/userinfo`) ebenfalls **401**, also nicht der
+Connector, nicht das NAS, nicht der Vorfilter. `~/.bexio.env` ist seit dem 13.06.2026 unverändert,
+lokal wurde nichts rotiert. **Nur ein neuer Personal Access Token hilft.**
+
+**Befund 2, der schwerere — die Dauer:** letzter erfolgreicher Lauf **08.08.2026 08:36**
+(Snapshot trägt denselben Stand), für den **09. bis 12.08. existiert kein Hygiene-Bericht**. Vier
+Läufe sind still ins Leere gelaufen, ohne Meldung. **Ein Lauf, der still scheitert, sieht von
+aussen genau aus wie ein Lauf ohne Befund** — dieselbe Familie wie die Fehlbefunde, bei denen ein
+leeres Ergebnis als Sachaussage gelesen wurde.
+
+**Was in die Blindzeit fiel:** **RE-00098 (CHF 13'600) und RE-00099 (CHF 3'680), KISPI, Mahnung 1,
+Frist 12.08. gestern abgelaufen** — Zahlungseingang nicht prüfbar, vor einer Eskalation auf
+Mahnung 2 zwingend zu verifizieren. Die am 08.08. angeordnete **E-Banking-Gegenprüfung zu Tx 3630**
+(CHF 6'000, Valuta 07.08., mutmasslich RE-00101 Tschopp) ist weiterhin **offen, Frist 16.08.**;
+**A1 für RE-00101 bleibt gesperrt.** RE-00100 (Nova, CHF 13'120) läuft bis 20.08. Die drei
+Vorbehalts-Transaktionen 3470, 3445 und 854 bleiben gesperrt, konnten heute nicht nachgemessen
+werden.
+
+**Konsequenz:** Solange der Zugang tot ist, arbeitet auch `mahnwesen` ohne Datengrundlage.
+**Bis zum neuen Token wird nicht gemahnt.** Keine Arbeitsliste heute; eine aus dem 08.08.-Snapshot
+rekonstruierte Liste wäre verifiziert aussehende Unwahrheit.
+
+**Aktion Raphael:** neuen Token in bexio ausstellen, in `~/.bexio.env` eintragen (nie ins Repo,
+nie committen), Probe mit `node scripts/bexio-vorfilter.mjs --voll --trocken`. Registereintrag in
+`logbuch/fristen.md` gesetzt. Bericht:
+`30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260813_bexio-Hygiene.md`. Keine eigene Mail
+(Ein-Mail-Prinzip) — der Hub-Chef trägt es um 08:39 weiter.
+
+---
+
 ## Methoden-Radar 13.08.2026, 01:20 — umgebaut auf Entscheid Raphael (Scan in den heartbeat, Rotation monatlich)
 
 **Anlass:** Raphaels Frage, ob der Loop noch taugt. Analyse vorgelegt, Entscheid für die
