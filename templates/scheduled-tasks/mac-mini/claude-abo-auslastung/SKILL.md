@@ -88,6 +88,16 @@ sondern Blindheit** — und die ist gefährlicher, weil sie unsichtbar bleibt.
      Empfänger, kein Cc — das ist eine Selbst-Meldung ohne Aussenwirkung, gedeckt durch die
      Präzedenz des Vollgas-Frühwarners; jede Mail an Dritte bleibt verboten (AKTIONS-WHITELIST).
      Aptos 12 pt, echte Umlaute, kein Gedankenstrich als Stilmittel.
+  3. **Sendeweg MIT Verifikation, nicht nur `send` + Rückgabewert** (Lehre 260812f/260812b:
+     zwei Kontingent-Warnungen lagen unversendet in den Entwürfen, während `osascript … send`
+     als Erfolg durchging — Apple Mail legt die Nachricht auch ohne sendefähiges Konto an, `$?`
+     beweist nichts). Vor dem Senden die Zahl der Entwürfe zählen
+     (`tell application id "com.apple.mail" to count of messages of drafts mailbox` je Konto
+     `rj@`), danach erneut zählen. Steigt die Zahl, gilt die Mail als **NICHT zugestellt**:
+     Zusätzlich `logbuch/abo-check/UNZUSTELLBAR.md` mit dem Mailtext schreiben, den Zähler
+     `ausfaelleInFolge` NICHT auf 0 zurücksetzen (die Ursache ist ja noch nicht behoben aus
+     Raphaels Sicht) und das im Journal-Eintrag explizit vermerken. Nur bei unveränderter
+     Entwurfszahl gilt der Schritt als erledigt.
 
   Begründung dieser Stufe: Am 20.07.2026 entstand genau so ein Ausfall, wurde korrekt als Pendenz
   ins Register geschrieben — und blieb **zehn Tage** liegen, weil eine Registerzeile in der Fülle
@@ -110,9 +120,29 @@ sondern Blindheit** — und die ist gefährlicher, weil sie unsichtbar bleibt.
 
 ## Kontext
 
-Raphael ist am 11.07.2026 vom Max-20x- auf das **Max-5x-Abo** gewechselt; die Prozentwerte des
-Connectors beziehen sich immer auf das aktuell aktive Abo. Erwartungswert im Normalbetrieb
-~28–30 %. **Extra Usage ist aktiviert**, angefallene Extra-Kosten sind das teuerste Signal.
+**Lage seit 13.08.2026 (drei Kontingent-Töpfe, Chronik `rules/betrieb-chronik.md` 260813):**
+privates Max-Abo bleibt bei **Max 20x**, zusätzlich ein **Team-Abo mit zwei Seats** für die
+Stationen. Die frühere Notiz «vom Max-20x- auf das Max-5x-Abo gewechselt am 11.07.2026» ist
+**überholt** (Memory `projekt_claude_abo_max5x.md`, korrigiert). Erwartungswert im Normalbetrieb
+mit Max 20x deutlich niedriger als die früher hier genannten ~28–30 % (die galten fürs 5x-Limit);
+noch nicht neu gemessen — beim ersten Lauf nach dieser Änderung den neuen Normalwert einmalig im
+Bericht festhalten, nicht den alten übernehmen.
+
+**Welcher Topf wird gemessen?** Der Connector liest genau EIN Keychain-Token — das der Station,
+auf der er läuft. Vor der Migration (Konto-Zuordnung noch offen, siehe
+`docs/konzepte/260813-Kontingent-Takt/`) ist das ausschliesslich das private Max-20x-Konto; die
+beiden Team-Seats sind technisch **noch nicht eingerichtet und nicht separat messbar**. Schreibe
+deshalb in jedem Bericht/`status.json` explizit, WELCHES Konto gemessen wurde (Kontoname aus
+`security find-generic-password -s "Claude Code-credentials"`, Feld `acct`) und für die beiden
+Team-Seats die Zeile «Team-Seat 1/2: noch nicht eingerichtet» statt sie wegzulassen — eine
+fehlende Zeile sähe sonst aus wie eine vergessene Messung statt wie ein noch nicht existierendes
+Konto (gleiche Logik wie Rule `auto-verbesserungen` 260807: ein leeres Ergebnis ist zuerst eine
+Aussage über das Werkzeug/den Zustand, nicht automatisch «kein Befund»). Sobald ein Team-Seat via
+`/login` eingerichtet ist, braucht der Connector eine Konto-Auswahl (z.B. zweiter
+Keychain-Service-Name) — das ist noch nicht gebaut.
+
+**Extra Usage ist aktiviert**, angefallene Extra-Kosten sind das teuerste Signal — gilt je Topf
+einzeln, sobald mehrere gemessen werden können.
 Der Connector schreibt den bei jedem Refresh rotierten Token seit dem 20.07.2026 in die Keychain
 zurück (`persistiereRotation()`); bleibt ein `invalid_grant` trotzdem bestehen, ist es kein
 Connector-Fehler, sondern eine entwertete Credential und braucht den interaktiven `/login`.

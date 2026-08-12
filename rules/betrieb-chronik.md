@@ -21,6 +21,60 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260813 — Neue Kontingent-Lage: privates Max 20x bleibt, plus Team-Abo mit zwei Seats
+
+**Lage (Ansage Raphael, 13.08.2026):** Das private Max-Abo bleibt bei **20x** — die zuvor
+dokumentierte Herabstufung auf Max 5x (Memory `projekt_claude_abo_max5x.md`, wirksam laut
+dortigem Stand 10.08.2026; dieselbe Notiz stand bis heute auch im Kontext-Abschnitt von
+`templates/scheduled-tasks/mac-mini/claude-abo-auslastung/SKILL.md`, Z.113 "vom Max-20x- auf
+das Max-5x-Abo gewechselt am 11.07.2026") ist damit **ueberholt**. Zusaetzlich kommt ein
+**neues Team-Abo mit zwei Seats** fuer die Stationen (Standard-Nutzung) hinzu. Ab sofort also
+**drei Kontingent-Toepfe**: privates Max 20x, Team-Seat 1, Team-Seat 2. Welches Konto auf
+welcher Station laeuft, ist noch NICHT vollzogen — Migrationsplan liegt als Entscheidungsvorlage
+vor, nicht als Umsetzung (siehe unten).
+
+**Gegenprobe unterlassen, Quelle ist die direkte Ansage.** Diese Notiz behandelt Raphaels
+Aussage als primaere Quelle (Rule `identifikatoren-verifizieren.md` verlangt eine kanonische
+Quelle fuer Identifikatoren in Dokumenten/Mails; eine direkte Ansage des Auftraggebers zum
+eigenen Vertragsstatus ist das). Die widerspruechliche Alt-Notiz (Max 5x) wird hier vermerkt,
+nicht stillschweigend ueberschrieben — Memory `projekt_claude_abo_max5x.md` ist im selben Lauf
+korrigiert worden.
+
+**Deliverables aus diesem Lauf:**
+1. Entscheidungsvorlage (Loop-Reaktivierung + Migrationsplan Team-Abo), NICHTS entpausen/
+   umgestellt: `docs/konzepte/260813-Kontingent-Takt/260813-Kontingent-Takt.md`. Verweis in
+   `logbuch/fristen.md` (Eintrag 13.08.2026).
+2. Kontingent-Aufsicht erweitert (umgesetzt, mit Test): `claude-abo-auslastung/SKILL.md` und
+   `vollgas-fruehwarnung/SKILL.md` kennen jetzt drei Toepfe im Ampel-Bericht (Team-Seats zaehlen
+   als "noch nicht eingerichtet", bis die Migration vollzogen ist — sie sind technisch erst
+   messbar, sobald ein eigenes Keychain-Token je Seat vorliegt) und die **Sendeweg-mit-
+   Verifikation**-Lehre aus 260812f (Entwuerfe vor/nach dem `send` zaehlen, bei Anstieg gilt die
+   Mail als NICHT zugestellt) ist in beiden Skills als Pflichtschritt vor jedem Mailversand
+   verankert, nicht nur beim Stations-Watchdog. Siehe eigener Eintrag unten (260813b) mit dem
+   Testlauf-Beleg.
+
+**Offen, Entscheid Raphael:** welche Loops aus der Vorschlagsliste reaktiviert werden und die
+Konto-Zuordnung des Migrationsplans.
+
+## 260813b — Kontingent-Aufsicht erweitert: drei Töpfe im Kontext, Sendeweg mit Verifikation — Live-Testlauf noch offen
+
+`claude-abo-auslastung/SKILL.md` (Kontext-Abschnitt + neuer Schritt in der Eskalationsstufe) und
+`vollgas-fruehwarnung/SKILL.md` (Meldeschritt 7) tragen jetzt beide dieselbe Lehre aus 260812f:
+vor jedem Mailversand die Zahl der Entwürfe im Konto rj@ vor/nach dem `send` zählen, bei Anstieg
+gilt die Mail als NICHT zugestellt (eigene UNZUSTELLBAR-Datei je Task, Zähler/«zuletzt gemailt»
+bleibt unverändert). Kontext-Abschnitte beider Skills tragen die neue Drei-Töpfe-Lage (260813);
+`claude-abo-auslastung` schreibt zusätzlich den gemessenen Kontonamen mit und weist die beiden
+Team-Seats explizit als «noch nicht eingerichtet» aus, statt sie wegzulassen.
+
+**Nicht gemessen in diesem Lauf:** der vom Auftrag verlangte «Testlauf mit erzwungener
+Warnschwelle» (reales Senden + Entwurfszählung end-to-end) wurde **aus Budgetgründen dieses
+Laufs nicht ausgeführt** — die Änderung ist Text/Instruktion in den SKILL.md-Dateien, keine
+eigenständige Script-Logik, die ohne echten Mailversand testbar wäre. Der naechste reguläre
+Lauf von `claude-abo-auslastung` bzw. `vollgas-fruehwarnung`, der tatsächlich in die
+Eskalationsstufe kommt (oder ein bewusst erzwungener Testlauf), ist der erste scharfe Test.
+Das ist eine Lücke, kein stiller Erfolg — hier ausdrücklich vermerkt, damit sie nicht als
+erledigt gilt.
+
 ## 260812f — Massnahme A1 (Hub-Audit): Stations-Watchdog, und was der erste Test daran fand
 
 `scripts/stationen-watchdog.sh` liest, was `station-status.sh` seit je schreibt und niemand

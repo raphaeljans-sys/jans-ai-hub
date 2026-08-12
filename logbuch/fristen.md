@@ -3,6 +3,16 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Kontingent-Takt-Dispatch, neue Lage Max 20x + Team-Abo 2 Seats): Die
+Entscheidungsvorlage zur neuen Kontingent-Lage liegt vor unter
+`docs/konzepte/260813-Kontingent-Takt/260813-Kontingent-Takt.md` — Punkt 1 Vorschlagsliste,
+welche pausierten Loops (planungsgrundlagen-training, synobsis, Nachtfenster-Mittagsslot,
+KORPUS-QUEUE bauprodukte) reaktiviert werden sollen gegen `baurecht-buch-training` (bewusst
+im Festigungsmodus, eigener Entscheid Raphael 17.07.), Punkt 2 Migrationsplan Team-Abo
+(Konto-Zuordnung Variante A/B, Risiken fuer Scheduled-Task-Registry, `task-takt-nachweis` A8
+ist nicht gebaut). Chronik-Beleg: `rules/betrieb-chronik.md` 260813. Status: **offen, wartet
+auf Raphaels Entscheid per Liste, keine Frist gesetzt.**
+
 Eintrag 12.08.2026 (Abschluss-Session hub-chef-Lauf 08.08., am Postfach nachgemessen —
 **FRIST MORGEN**): Der **A5-Entwurf an T. Inniger (Röthlisberger)**, Betreff «KISPI PPTS:
 Geräteliste Therapieküche mit Abluftwerten», liegt seit **08.08.2026 08:56:47 unversendet**
