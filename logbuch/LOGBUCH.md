@@ -5,6 +5,60 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 12.08.2026, 23:15 bis 23:40 — Abschluss des Laufs vom 08.08. und Nachhol-Lauf (Auftrag Raphael, interaktiv)
+
+**Zweck: einen durch die Mac-Mini-Neustarts vom 12.08. getrennten Lauf sauber schliessen, keine
+neuen Aufträge starten.** Kontext des Abrisses: OneDrive-Sync-Incident 08.–12.08.,
+`docs/konzepte/260812-OneDrive-Sync-Incident/README.md`.
+
+**Der Lauf vom 08.08. ist vollständig — alle fünf Belege geprüft, nichts nachzuholen.** Briefing
+**08.08. 09:03:41** an `rj@` (Betreff «Das Betriebskonzept Küche hat jetzt eine Beleglage, der
+SharePoint-Zugriff läuft heute ab», Body 7'649 Zeichen, im Postausgang verifiziert). Bericht
+abgelegt als `260808-Recherche-Betriebskonzept-Therapiekueche.md` (8'229 Bytes, 08.08. 08:58)
+unter `…/30 JANS AI HUB OUTPUT/2629 KISPI AI/`. Fristen-Register und LOGBUCH nachgeführt.
+Synology-Commits `55ce07c1` (08.08. 09:04:37, Briefing + Recherche) und `d9570574` (09:06:11,
+Wissens-Rücklauf KB projekt-lessons, Küchenlüftung) beide vorhanden.
+
+**Kontinuität: vier Tage Lücke, Ursache gefunden.** Kein Tagesbriefing am 09., 10., 11. und
+12.08. — und auch kein stiller Lauf, denn ein solcher hätte laut Task-Definition («Der LAUF
+fällt nie aus, nur die Mail») eine Logbuch-Zeile hinterlassen. `hub-chef-taeglich` und
+`logbuch-radar` liegen ausschliesslich auf dem **MacBook Pro**, dessen letzte Claude-Aktivität
+am **09.08. 19:27** endet, obwohl die Maschine seit 11.08. 15:25 läuft. Die zwei unversendeten
+Warnentwürfe vom Wochenende («Wochenkontingent ist erschöpft, der Hub steht», 08.08. 23:46;
+«Wochenbudget zu 85.2 Prozent aufgebraucht», 09.08. 02:10) benennen den Auslöser und zeigen
+zugleich die zweite Schwäche: die Frühwarnung hat gewarnt, aber nie gesendet. Registriert als
+P1 im Fristen-Register.
+
+**Nachhol-Lauf, die drei geforderten Prüfungen:**
+
+1. **SharePoint-Zugriff der sieben Personen — erledigt, kein Handlungsbedarf.** Am 09.08. hat
+   Raphael sechs von sechs wieder in «JANS - 2619-KISPI Members» eingesetzt und die Site per
+   `OverrideTenantExternalUserExpirationPolicy` dauerhaft von der 60-Tage-Policy ausgenommen
+   (Gegenprobe: 19 Gäste, keiner mit Ablaufdatum). Die Folgepflicht daraus — Gästebestand am
+   Monatsersten durchsehen — hängt im Wege-Radar (heartbeat Check 12).
+2. **Mahnfristen — NICHT PRÜFBAR, und das ist der Befund.** `bexio.mjs --verzug` antwortet auf
+   dem MacBook Pro mit **401 (Token ungültig)**, auf dem Mac Mini fehlt `~/.bexio.env`. Das
+   Debitoren-Monitoring ist damit blind; A1 ist ohne bestandenen `--abgleich` ohnehin gesperrt.
+   Registriert, Aktion Raphael.
+3. **Termin Nova 13.08. — morgen, mit Zeitwiderspruch.** Lokaler Apple-Kalender zeigt
+   **09:00** «Besprechung KV / Finalisierung Baubeschrieb Direktvermietung — Albertstrasse 7»;
+   das Register führt an einer Stelle 09:30–11:00 (Hub-Chef 06.08., am M365-Kalender gemessen)
+   und an der Steinmann-Zeile 10:00–11:30 (aus dessen Mail 29.07.). **Drei Zeiten, zwei
+   Kalenderquellen** — vor dem Termin an der gültigen Einladung zu klären, hier bewusst nicht
+   aufgelöst, weil M365 die massgebliche Quelle ist und nur der lokale Kalender gemessen wurde.
+   Inhaltlich hängt daran die Aufbereitung der Varianten (Küche 1A bis 3B, Schliessanlage
+   Portunus gegen Feldmann, Hochschränke) und danach die KV-Überarbeitung. Zweiter Termin
+   desselben Tages: **11:30 «KISPI PPTS: Vollständigkeit Dokumentengrundlage zur Beurteilung»**.
+
+**Pendenzen gesichert** (damit nichts am Session-Kontext hängt): A5-Entwurf an T. Inniger
+unversendet seit 08.08. 08:56, Frist 13.08. vormittags wegen des 11:30-Termins; Entscheid über
+einen eigenen `CLAUDE`-Unterordner unter `33.01_JANS`. Beide im Fristen-Register.
+
+**Nicht ausgeführt, bewusst:** kein Mailversand (weder Briefing noch Inniger-Entwurf — Raphael
+liest im Chat mit, eine Mail an ihn selbst um 23:40 wäre Selbstzweck), keine A1-Mahnaktion
+(Verzugsstand nicht messbar), keine neuen Aufträge. Kein Twin-Gate nötig, kein Erzeugnis an
+Dritte.
+
 ## Energie-Training Run 126, 11.08.2026, 23:05 — ⚠ P1: NAS-Committer steht seit 05:30, alle NAS-Änderungen des Tages sind uncommittet
 
 **Operativer Befund, der nicht aus diesem Loop stammt und ihn überdauert.** Der Lauf wollte nach

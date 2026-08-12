@@ -3,6 +3,55 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 12.08.2026 (Abschluss-Session hub-chef-Lauf 08.08., am Postfach nachgemessen —
+**FRIST MORGEN**): Der **A5-Entwurf an T. Inniger (Röthlisberger)**, Betreff «KISPI PPTS:
+Geräteliste Therapieküche mit Abluftwerten», liegt seit **08.08.2026 08:56:47 unversendet**
+im Ordner «Entwürfe» des Kontos `rj@`. Er bittet um die aktuelle Geräteliste mit Abluftwerten;
+die am 08.08. recherchierte Beleglage stützt sich mangels Konzept auf drei datierte Belege,
+die 500 m³/h sind eine Gastro-Online-Schätzung mit Planervorbehalt. **Frist 13.08.2026,
+vormittags** — nicht willkürlich gesetzt, sondern durch den Kalendertermin desselben Tages
+begründet: «KISPI PPTS: Vollständigkeit Dokumentengrundlage zur Beurteilung», 11:30. Ohne die
+Geräteliste fehlt dort genau die Grundlage, um die es geht. **Claude sendet nicht selbst**
+(ausgehende Mail, Freigabe Raphael). Status: **offen, Versand-Entscheid Raphael, Frist 13.08.**
+
+Eintrag 12.08.2026 (Abschluss-Session hub-chef-Lauf 08.08., Ablageentscheid aus dem A3-Guard —
+**Entscheidungs-Pendenz**): Der Recherchebericht «260808-Recherche-Betriebskonzept-Therapieküche»
+ging in den Output-Ordner (`…/30 JANS AI HUB OUTPUT/2629 KISPI AI/`) **statt in den
+Projektordner**, weil der KISPI-Projektbestand keinen `CLAUDE`-Unterordner führt. Der A3-Guard
+schreibt bei Zweifel am Zielordner die Frage ins Briefing; sie wurde am 08.08. gestellt und ist
+seither unbeantwortet. **Zu entscheiden:** ob unter `33.01_JANS` im KISPI-Projektordner ein
+eigener `CLAUDE`-Unterordner angelegt wird (dann gilt Rule `projekt-ablage-stand`: projekt-
+gebundenes gehört in den Projektordner, und der Bericht wandert dorthin) oder ob es bei der
+Ablage im Output-Ordner bleibt. Die Frage ist nicht KISPI-spezifisch: sie entscheidet für jedes
+Projekt, wo Claude-Erzeugnisse künftig landen. Status: **offen, Entscheid Raphael.**
+
+Eintrag 12.08.2026 (Abschluss-Session, an beiden Stationen nachgemessen — **P1: der einzige
+Meldekanal steht seit vier Tagen**): `hub-chef-taeglich` und `logbuch-radar` sind **nicht** auf
+dem Mac Mini registriert, sondern ausschliesslich auf dem **MacBook Pro** (31 Tasks gegen 8).
+Belegt: letztes versendetes Tagesbriefing **08.08. 09:03**, danach keines mehr (Postausgang
+aller Konten, 10-Tage-Fenster); kein `## Hub-Chef`-Block im LOGBUCH nach dem 08.08., obwohl die
+Task-Definition festhält «Der LAUF fällt nie aus, nur die Mail» — ein stiller Lauf hätte eine
+Logbuch-Zeile hinterlassen; **letzte Claude-Aktivität auf dem MacBook Pro am 09.08. 19:27**
+(jüngstes Transkript), obwohl die Maschine seit 11.08. 15:25 läuft und per SSH erreichbar ist.
+Die Task-Engine läuft dort also nicht. **Lücken: 09., 10., 11., 12.08.2026 — vier Tage ohne
+Radar und ohne Tagesbriefing.** Zwei unversendete Entwürfe vom Wochenende benennen den
+Auslöser: «Wochenkontingent ist erschöpft, der Hub steht» (08.08. 23:46) und «Wochenbudget zu
+85.2 Prozent aufgebraucht» (09.08. 02:10) — beide **liegen unversendet in den Entwürfen**, die
+Frühwarnung hat also gewarnt, aber nie jemanden erreicht. **Strukturbefund:** der einzige
+reguläre Meldekanal hängt an einer mobilen Station, deren Scheduler laufen muss; fällt sie aus,
+meldet niemand, und der Ausfall meldet sich auch nicht selbst. Status: **offen, Entscheid
+Raphael (Verlagerung der beiden Tasks auf den Always-On-Mac-Mini).**
+
+Eintrag 12.08.2026 (Abschluss-Session, am Connector nachgemessen — **Geld-Monitoring blind**):
+`node connectors/bexio.mjs --verzug` liefert auf dem MacBook Pro **«FEHLER: 401 — Token
+ungueltig/abgelaufen oder fehlende Scopes»**; auf dem Mac Mini fehlt `~/.bexio.env` ganz. Damit
+ist der Debitoren-Verzugsstand seit unbestimmter Zeit **nicht messbar**, und jede Aussage über
+Mahnfristen stützt sich auf den letzten bekannten Registerstand statt auf den Beleg. Betroffen
+sind die Whitelist-Aktion A1 (Guard verlangt bestandenen `--abgleich`) sowie die Skills
+`mahnwesen`, `zahlungsabgleich` und `kostenkontrolle`. **Nicht selbst behebbar** — ein neuer
+Personal Access Token muss auf developer.bexio.com erzeugt werden (Scopes `kb_invoice_show` +
+`kb_invoice_edit`). Status: **offen, Aktion Raphael.**
+
 Eintrag 09.08.2026 (Session Raphael 03:00, beide Aktionen ausgeführt und gegengeprüft —
 **ERLEDIGT, und die Wiederholung ist dauerhaft abgestellt**): Der KISPI-Gastzugriff ist
 wiederhergestellt und die Ursache beseitigt. (1) `kispi-gastzugriff-wiederherstellen.sh` hat

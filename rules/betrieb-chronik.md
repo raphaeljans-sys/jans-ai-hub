@@ -21,6 +21,30 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260812b — hub-chef-Lauf vom 08.08. sauber abgeschlossen; der Meldekanal selbst stand vier Tage still
+
+Einzeiler zum Abschluss: Der hub-chef-Lauf vom **08.08.2026** ist **vollstaendig** (Briefing
+09:03:41 an rj@ mit 7'649 Zeichen, Recherchebericht 08:58 unter `30 JANS AI HUB OUTPUT/2629
+KISPI AI/`, Register und LOGBUCH nachgefuehrt, Commits `55ce07c1` und `d9570574`) — die Session
+riss lediglich durch die drei Mac-Mini-Neustarts vom 12.08. ab (OneDrive-Sync-Incident,
+`docs/konzepte/260812-OneDrive-Sync-Incident/`, Kollateralschaden gesperrter Schluesselbund →
+git-auto-sync stumm, Remote-Control-Verbindung verloren). **Nichts war nachzuholen.**
+
+Der eigentliche Befund liegt daneben: **09.–12.08. kein Tagesbriefing und kein Radar.**
+`hub-chef-taeglich` und `logbuch-radar` liegen ausschliesslich auf dem **MacBook Pro**, dessen
+letzte Claude-Aktivitaet am 09.08. 19:27 endet, obwohl die Maschine seit 11.08. 15:25 laeuft und
+per SSH erreichbar ist — die Task-Engine laeuft dort nicht. Zwei Warnentwuerfe («Wochenkontingent
+ist erschoepft, der Hub steht», 08.08. 23:46; «Wochenbudget zu 85.2 Prozent», 09.08. 02:10)
+**liegen unversendet in den Entwuerfen**.
+
+Das ist dieselbe Fehlerfamilie wie 260812 (Freigabe-Queue) und 260811 (stiller Skip): **eine
+Aufsicht, die ihren eigenen Ausfall nicht melden kann, ist keine Aufsicht.** Der einzige
+regulaere Meldekanal haengt an einer mobilen Station; faellt sie aus, schweigt alles, und das
+Schweigen ist von einem ruhigen Tag nicht unterscheidbar. Verlagerung der beiden Tasks auf den
+Always-On-Mac-Mini ist als Entscheid im Fristen-Register vermerkt, nicht selbst vollzogen.
+Zweitbefund im selben Lauf: `bexio --verzug` antwortet **401**, das Debitoren-Monitoring ist
+blind (Register, Aktion Raphael).
+
 ## 260812 — Dieselbe Blockade stand 41 Stunden: eine korrekt erkannte Stoerung wartete auf eine Freigabe, die niemand sah
 
 Fortsetzung von 260811. Der dort exakt diagnostizierte Befund war am **12.08.2026, 22:30 immer
