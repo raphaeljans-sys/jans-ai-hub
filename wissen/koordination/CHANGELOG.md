@@ -3,6 +3,41 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Synergie-Lauf 04 (Struktur-Aufsicht, Skill `synergie-orchestrator`)
+
+- **Bericht:** `outputs/2026-08-13_synergie-lauf-04.md`. Delta-Basis 01.08. 14:20 – 13.08. 01:05,
+  leichtgewichtiger Inline-Lauf ohne Fan-out. Register: SYN-20 bis SYN-22 neu.
+- ⚠ **Messfehler im ersten Durchgang, korrigiert:** die Stationsuhr ging zehn Tage nach (`date`
+  meldete 03.08. 23:28, real war der 12.08. spaetabends; Beleg: nativer Synology-Log
+  `sync-tasks/log/selfcommit-202608.log`, lueckenlos bis `2026-08-13T01:04:27`). Unter der
+  schiefen Uhr lieferte `git log --since` **262 statt 1111 Commits** — die Traversierung brach
+  ohne Fehlermeldung ab. Die daraus gezogenen Schluesse «Delta duenn» und «Takt zu eng,
+  fruehestens 01.09.» sind **zurueckgezogen**. Der Lauf wurde mit dem echten Fenster
+  wiederholt: 4 neue Rules, 2 neue Connectoren, 1 neuer Command zusaetzlich zum neuen Skill.
+  Verdrahtungs-Gegenprobe: alle korrekt registriert, einzige Fehlstelle `m365-graph.mjs` in
+  der Allowlist `.claude/settings.json`.
+- **SYN-20 (Typ 1):** der neue Skill `energie` (loest PL-04 ab) ist einseitig verdrahtet —
+  er benennt neun Fach-Skills und den Agenten `energie-berater`, aber **0 von 10** nennen ihn
+  zurueck. Einzige gesetzte Rueckkante: `planungsgrundlagen` (Z. 29, 65–70). Zweitens fehlten
+  alle drei Contract-Pflichtfelder; **im Lauf nachgetragen** (active-with-flagging, mechanisch).
+- **Muster statt Einzelfall:** zweiter neuer Skill in Folge ohne Graph-Felder (nach SYN-18,
+  `wissens-destillat`); dazu weiterhin vier Skills ganz ohne Contract-Block (SYN-14, nachgemessen).
+  Empfehlung: mechanische Contract-Pruefung in `heartbeat`/`wissenscheck` einhaengen.
+- **SYN-21 (Typ 1):** Service S6 «Energie-Vorabklaerung» fuehrt in der Pipeline weiterhin den
+  Agenten `energie-berater` (PL-04) statt den nun fuehrenden Skill `energie`. Nicht selbst
+  geaendert — Katalog ist Produkttext, Freigabe Raphael noetig.
+- **SYN-22 (Typ 1):** Nebenwirkung der Grundkontext-Diaet — der DNA-Feinregelsatz liegt seit
+  der Diaet-Runde 2 in der nicht importierten `rules/jans-dna-facetten.md`. Vier Konsumenten wurden explizit
+  verdrahtet, neun texterzeugende Bausteine (LinkedIn-Strang, `bericht-autor`, `website-content`,
+  `marketing`, `protokoll`, `telesales`) haben je 0 Treffer. Keine harte Kappung (die
+  Leseanweisung steht im importierten Kern), aber ein Verlaesslichkeitsgefaelle — verschaerft
+  SYN-08.
+- **Nachgemessen ohne Delta:** SYN-02 (`volumen_generator.py` unveraendert), SYN-13 (Etappe 4
+  vertiefte 2408 BIWAK, nicht Healthcare — weiterhin kein `typologien/healthcare.md`).
+- **Takt neu TAEGLICH** (Anordnung Raphael 13.08.2026): Task `synergie-lauf-taeglich`, 17:00,
+  mit Uhr-Check als erstem Schritt und Frueh-Ausstieg bei strukturellem Nulldelta; der monatliche
+  Vorgaenger-Task ist stillgelegt.
+
 ## 2026-08-13 — Wissens-Chef Run 29 (Cross-KB, 6 Felder, 18 Agenten; erster Versuch am Kontingent gescheitert)
 
 - **Bericht:** `outputs/2026-08-13_wissens-chef-run29.md`. Sechs Felder, 12 gemeldete Befunde, alle
@@ -276,41 +311,6 @@ Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B3 · C0 · D0 · E0 · F2 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Die drei B-Befunde sind Schema-Abweichungen (kein `wiki/`, kein `INDEX.md`, kein `raw/_INGESTED.md`) — als Register-KB nachvollziehbar, aber nirgends festgehalten. Empfehlung: in `CLAUDE.md` ausdruecklich festschreiben, sonst wird es monatlich neu als Fehlbestand gemeldet. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.
-
-## 2026-08-13 — Synergie-Lauf 04 (Struktur-Aufsicht, Skill `synergie-orchestrator`)
-
-- **Bericht:** `outputs/2026-08-13_synergie-lauf-04.md`. Delta-Basis 01.08. 14:20 – 13.08. 01:05,
-  leichtgewichtiger Inline-Lauf ohne Fan-out. Register: SYN-20 bis SYN-22 neu.
-- ⚠ **Messfehler im ersten Durchgang, korrigiert:** die Stationsuhr ging zehn Tage nach (`date`
-  meldete 03.08. 23:28, real war der 12.08. spaetabends; Beleg: nativer Synology-Log
-  `sync-tasks/log/selfcommit-202608.log`, lueckenlos bis `2026-08-13T01:04:27`). Unter der
-  schiefen Uhr lieferte `git log --since` **262 statt 1111 Commits** — die Traversierung brach
-  ohne Fehlermeldung ab. Die daraus gezogenen Schluesse «Delta duenn» und «Takt zu eng,
-  fruehestens 01.09.» sind **zurueckgezogen**. Der Lauf wurde mit dem echten Fenster
-  wiederholt: 4 neue Rules, 2 neue Connectoren, 1 neuer Command zusaetzlich zum neuen Skill.
-  Verdrahtungs-Gegenprobe: alle korrekt registriert, einzige Fehlstelle `m365-graph.mjs` in
-  der Allowlist `.claude/settings.json`.
-- **SYN-20 (Typ 1):** der neue Skill `energie` (loest PL-04 ab) ist einseitig verdrahtet —
-  er benennt neun Fach-Skills und den Agenten `energie-berater`, aber **0 von 10** nennen ihn
-  zurueck. Einzige gesetzte Rueckkante: `planungsgrundlagen` (Z. 29, 65–70). Zweitens fehlten
-  alle drei Contract-Pflichtfelder; **im Lauf nachgetragen** (active-with-flagging, mechanisch).
-- **Muster statt Einzelfall:** zweiter neuer Skill in Folge ohne Graph-Felder (nach SYN-18,
-  `wissens-destillat`); dazu weiterhin vier Skills ganz ohne Contract-Block (SYN-14, nachgemessen).
-  Empfehlung: mechanische Contract-Pruefung in `heartbeat`/`wissenscheck` einhaengen.
-- **SYN-21 (Typ 1):** Service S6 «Energie-Vorabklaerung» fuehrt in der Pipeline weiterhin den
-  Agenten `energie-berater` (PL-04) statt den nun fuehrenden Skill `energie`. Nicht selbst
-  geaendert — Katalog ist Produkttext, Freigabe Raphael noetig.
-- **SYN-22 (Typ 1):** Nebenwirkung der Grundkontext-Diaet — der DNA-Feinregelsatz liegt seit
-  der Diaet-Runde 2 in der nicht importierten `rules/jans-dna-facetten.md`. Vier Konsumenten wurden explizit
-  verdrahtet, neun texterzeugende Bausteine (LinkedIn-Strang, `bericht-autor`, `website-content`,
-  `marketing`, `protokoll`, `telesales`) haben je 0 Treffer. Keine harte Kappung (die
-  Leseanweisung steht im importierten Kern), aber ein Verlaesslichkeitsgefaelle — verschaerft
-  SYN-08.
-- **Nachgemessen ohne Delta:** SYN-02 (`volumen_generator.py` unveraendert), SYN-13 (Etappe 4
-  vertiefte 2408 BIWAK, nicht Healthcare — weiterhin kein `typologien/healthcare.md`).
-- **Takt neu TAEGLICH** (Anordnung Raphael 13.08.2026): Task `synergie-lauf-taeglich`, 17:00,
-  mit Uhr-Check als erstem Schritt und Frueh-Ausstieg bei strukturellem Nulldelta; der monatliche
-  Vorgaenger-Task ist stillgelegt.
 
 ## 2026-08-03 — Wissens-Chef Run 24 (Cross-KB-Delta, 12 Agenten)
 
