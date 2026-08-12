@@ -3179,3 +3179,42 @@ durchfuehrbar.
   den bestehenden Offen-Punkt in `[[graue-energie]]`). Zu klären ist, ob die UBP-Methode seit 2006
   methodisch revidiert wurde (die Quelle nennt eine Aktualisierung 2006 einer 1990 publizierten
   Methode) — das entscheidet, ob alte und neue UBP-Zahlen überhaupt vergleichbar sind.
+
+- **E-128-1 — Gilt das SIA-Merkblatt 2021 «Gebäude mit hohem Glasanteil» noch, und in welcher
+  Fassung?** Die ganze Schwellendefinition der neuen FAQ F227 (Glasanteil > 50 % der Fassade bzw.
+  > 30 % Glasfläche/EBF im Einzelraum) stammt aus einer Quelle von **April 2005**, die SIA 2021 und
+  SIA D0176 zitiert. Ob diese Fassung noch gilt, revidiert wurde oder in eine Norm mit anderer
+  Nummer übergegangen ist, ist **nicht verifiziert**. Das ist die einzige offene Stelle, die den
+  Kern der Antwort betrifft — die Mechanismen (Kaltluftabfall, Kompaktheit, Reinigungszugang,
+  Verantwortungslücke) tragen unabhängig davon. Zu klären über Skill `normen` bzw. die
+  Normen-KB. Bezug: `[[glasbauten-hoher-glasanteil-sia2021]]`, `[[sommerlicher-waermeschutz]]`,
+  FAQ F227.
+- **E-128-2 — Welche Innenraumluft-Richtwerte gelten heute, und wer setzt sie?** Die KB führt jetzt
+  drei Zürcher Quellen aus 2006-2008, die übereinstimmend **Formaldehyd < 60 µg/m³** und
+  **TVOC < 1'000 µg/m³** als Abnahmewert nennen (Raumluftmessungen-Checkliste, Bedingungen für
+  Planungsleistungen, bauökologische Submissionsbedingungen). Alle drei sind **AHB-Eigenwerte ohne
+  Verweis auf eine externe Norm**. Offen ist damit die Anschlussfrage, die für jede Bauherrenberatung
+  entscheidet: Welche Werte gelten heute nach **BAG** (Richtwerte Innenraumluft) bzw. nach einer
+  allfälligen Nachfolge-Checkliste der Stadt Zürich, und wie verhalten sie sich zur
+  **Produktanforderung** des ecoBKP (Ausgleichskonzentration ≤ 0,02 ppm, eigene Umrechnung rund
+  25 µg/m³, FAQ F216)? Solange das offen ist, dürfen die 60/1'000 µg/m³ als **Vertragsvorgabe**
+  gesetzt, aber nicht als Zulässigkeitsaussage verwendet werden. Lohnend, weil daraus unmittelbar
+  eine Devis-Klausel und eine Abnahmeposition wird. Bezug: `[[ahb-checkliste-raumluftmessungen]]`,
+  `[[gebaeudeschadstoffe]]`, FAQ F228, F216, F220.
+- **E-128-3 — Was ist an die Stelle des 2000-Watt-Zielsystems getreten, und was heisst das für ein
+  Zürcher Projekt?** Das neue Destillat hält den Stand **Mai 2008** fest: Ist 6'300 W/Person,
+  Ziel 2'000 W/Person, max. 1 t CO₂/Person·a, Etappenziel 2050 Faktor 2 Energie / Faktor 4
+  Treibhausgas. Seither sind Netto-Null-Ziele von Stadt und Kanton Zürich hinzugekommen und der
+  SIA-Effizienzpfad Energie (D0216:2006) wurde fortgeschrieben. **Ungeprüft ist, ob die
+  2000-Watt-Zielwerte heute noch eine Rolle spielen** (z.B. als Areal-Zertifikat) oder vollständig
+  abgelöst sind — und ob eine private Bauherrschaft in der Stadt Zürich damit überhaupt noch
+  konfrontiert wird. Die **Prozesslogik** der sieben Thesen (QS-Stelle bauherrndirekt,
+  Lebenszykluskosten als Entscheidgrundlage, Vorgaben ins Wettbewerbsprogramm) ist davon unberührt
+  und heute so gültig wie 2008. Bezug: `[[2000-watt-gesellschaft-sieben-thesen-ahb]]`,
+  `[[graue-energie]]`, `[[muken-2025-verabschiedet]]`.
+- **E-128-4 — Der Lauf-Report zu Run 127 fehlt.** Die Nachtschicht vom 12.08.2026 (13:30) hat
+  CHANGELOG, Destillate und `pdf-inventar.md` sauber nachgeführt, aber **keinen Report unter
+  `outputs/`** abgelegt; der jüngste dort ist `2026-08-11_energie-run126.md`. Kein inhaltlicher
+  Schaden — die Substanz steht im CHANGELOG —, aber die Lauf-Historie hat eine Lücke, und der
+  Schritt ist im PROGRAMM als Pflicht (Ablauf Schritt 5) geführt. Zu prüfen, ob die Nachtschicht
+  diesen Schritt generell auslässt oder ob er einmalig abgebrochen ist.

@@ -90,7 +90,34 @@ für Rückkühlwerke selbst ist bisher nur per Analogieschluss zur Klimaanlagen-
 hergeleitet (offen), ebenso ein quantitativer CH-Beleg zum energetischen Vorteil der Nasskühlung.
 → Bauherren-FAQ **F165**, Destillat `[[ruckkuehlwerk-kuehlturm-legionellen-bewilligung-ch]]`.
 
+## Gebäude mit hohem Glasanteil — die Schwelle (Ergänzung Run 128, 2026-08-12)
+
+Wann der sommerliche Wärmeschutz vom Nachweispunkt zum eigenen Planungsthema wird, hat eine
+benennbare Schwelle: Nach **SIA Merkblatt 2021** gilt ein Bau als «Gebäude mit hohem Glasanteil»,
+wenn der durchsichtige Glasanteil der Fassadenfläche **> 50 %** beträgt **oder** in einzelnen Räumen
+das Verhältnis Glasfläche zu EBF **> 30 %** übersteigt. Die Definition knüpft am Glasanteil an, nicht
+an der Konstruktion — auch eine Putz- oder Holzfassade mit sehr grossen Fenstern fällt darunter.
+
+Zwei Mechanismen, die der AHB-Zürich-Katalog für diesen Fall belegt und die neben den fünf
+Stellschrauben oben stehen:
+- **Winter, nicht nur Sommer:** An hohen, glatten Glasflächen ab ca. 3 m Glashöhe entsteht
+  Kaltluftabfall. Wird er statt baulich (Riegelprofil auf ca. 2 m, verstärkte Randheizung, rasch
+  reagierendes Wärmeabgabesystem) über eine höhere Raumlufttemperatur kompensiert, kostet das
+  **ca. 7 % Mehrverbrauch je °C**.
+- **Verantwortungslücke:** Bei Einzelverträgen nach SIA 102/103/108 erfüllt jeder Planer seinen
+  Leistungsbeschrieb, während für das übergreifende Problem «zu warm im Sommer» niemand zuständig
+  ist. Gegenmittel laut Quelle: Pflichtenheft Gebäudetechnik mit messbaren Kriterien plus
+  Gesamtplanervertrag mit Systemgarantie.
+
+⚠ Die Zahlenwerte des Merkblatts (U-Wert Fassade < 0,9 · Glas < 0,7 W/m²K, g-Wert Glas+Sonnenschutz
+< 0,1, τᵥ > 0,5, TQ > 3 %) sind **Stand April 2005** und liegen über heutigen Anforderungen; sie
+ersetzen keine Rechnung gegen SIA 380/1 und den kantonalen Nachweis. Ob die zitierte Fassung des
+SIA-Merkblatts 2021 noch gilt, ist nicht verifiziert (→ Skill `normen`).
+→ Bauherren-FAQ **F227**, Destillat `[[glasbauten-hoher-glasanteil-sia2021]]`.
+
 ## Offen
+- Geltung und aktuelle Fassung des SIA-Merkblatts 2021 (Gebäude mit hohem Glasanteil) nicht
+  verifiziert; g-/U-Wert-Empfehlungen daraus stammen aus 2005.
 - SIA 180:2014 Figur 13 (Dachflächenfenster/Oberlichter, gtot je Orientierung) liegt nur als
   Grafik vor, nicht als Formel/Zahlentabelle extrahiert.
 - Rückkühlwerk-Baubewilligungspflicht selbst amtlich verifizieren (bisher nur Analogieschluss);

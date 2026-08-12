@@ -493,3 +493,27 @@ Rangfolge, dass fuer das ZH-Verfahren weiterhin der AWEL-Stand 2023 gilt.
 **Ausgabe 2026** vorliegt. Die **Systematik** traegt, die **Materialurteile** nicht — sie wurden
 auf die Methodik «Baumaterialien ecobau 2025» umgestellt. Entsprechend ist der Anschluss an die
 aktuelle Ausgabe als **E-123-1** die vorderste offene Frage der KB.
+
+## Run 128 (12.08.2026) — AHB-Korpus Energie/Gebäudetechnik und Nachhaltiges Bauen
+
+Fünf Primärquellen des Amts für Hochbauten der Stadt Zürich destilliert, eine als textidentische
+Dublette abgelegt. Zugang wie in Run 126/127 über die **M365-CLI/Graph**; der OneDrive-Mount wurde
+nicht mehr versucht, weil die PL-Site unter der gemounteten Wurzel gar nicht existiert.
+
+Neue FAQ: **F227** (ab wann viel Glas ein eigenes Planungsthema wird — Schwelle SIA 2021,
+Kaltluftabfall, «Kompaktheit schlägt Glasanteil», Verantwortungslücke bei Einzelverträgen),
+**F228** (Raumluft-Abnahmemessung vor Bezug — Messstrategie, ca. 500 CHF je Messpunkt, dreistufige
+Reaktionslogik), **F229** (Beleuchtungsnachweis: SIA 380/4 ist tot, EN-111 auf EVEN gilt, die
+Einreichliste bleibt).
+
+Gewachsen: `[[sommerlicher-waermeschutz]]` um die **Schwellendefinition «Gebäude mit hohem
+Glasanteil»**, die der KB bisher fehlte, samt Winter-Mechanismus Kaltluftabfall (ca. 7 % Mehrbedarf
+je °C Kompensation) · `[[gebaeudeschadstoffe]]` um die **Abnahmeseite** — der Artikel kannte den
+Schadstoff-Blick bisher nur für den Bestand, jetzt auch für die fertige Raumluft ·
+`[[energienachweis-zh]]` um einen ausdrücklichen **Totverweis-Abschnitt zu EN-111**, damit
+Bürovorlagen mit SIA-380/4-Zeile nicht unbemerkt weiterlaufen.
+
+**Der methodisch wichtigste Befund ist eine neue Dublettenfalle:** Zwei Dateien mit
+**verschiedener Grösse und verschiedenem SHA-256** trugen **zeichengleichen Text**. Nach der
+bisherigen Methode (Grössenvergleich, Run 123) wären sie als zwei Quellen gezählt worden. Ab jetzt
+entscheidet bei ähnlichen Kandidaten ein `pdftotext`-Diff, nicht der Dateiname und nicht die Grösse.

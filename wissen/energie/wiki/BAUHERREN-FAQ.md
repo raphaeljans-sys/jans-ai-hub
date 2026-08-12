@@ -7616,3 +7616,151 @@ Sensibilität (Elektrosensibilität) empfiehlt sich der Beizug einer Elektrobiol
 Messwerte IBES 2001.
 ⚠ Datenstand 2002 — aktuelle NISV-Fassung und heutige LED-/Schaltnetzteil-Technik nicht
 gegengeprüft. Status **emerging**.
+
+---
+
+## F227 — «Wir wollen viel Glas in der Fassade. Ab wann wird daraus ein eigenes Planungsthema, und was kostet mich das?»
+
+**Kurz:** Ab **mehr als 50 % durchsichtigem Glasanteil an der Fassadenfläche** — oder sobald in
+einem einzelnen Raum die **Glasfläche mehr als 30 % der Energiebezugsfläche** ausmacht — gilt das
+Haus nach dem SIA-Merkblatt 2021 als «Gebäude mit hohem Glasanteil». Ab dieser Schwelle ist die
+Fassade kein Architekturentscheid mehr allein, sondern zieht Behaglichkeits-, Energie- und
+Unterhaltsfragen nach sich, die früh und interdisziplinär geklärt werden müssen. Die Mehrkosten der
+Fassade selbst lagen in den Zürcher Referenzbauten bei rund **150 bis 250 Franken pro Quadratmeter
+Fassadenfläche** gegenüber einer konventionellen Fassade — ⚠ Stand 2005, heute neu zu erheben.
+
+**Fachlich:** Die Definition knüpft am Glasanteil an, nicht an der Konstruktionsart: auch eine Putz-
+oder Holzfassade mit sehr grossen Fenstern fällt darunter, nicht nur die Glas-Metallfassade. Vier
+Punkte entscheiden über Erfolg oder Ärger:
+
+- **Kaltluftabfall im Winter.** An hohen, glatten Glasflächen ab rund 3 m Glashöhe fällt kalte Luft
+  ab und erzeugt Zugerscheinungen. Wird das baulich nicht gelöst und stattdessen mit einer höheren
+  Raumlufttemperatur kompensiert, kostet das **rund 7 % Mehrverbrauch je Grad Celsius**. Die Quelle
+  empfiehlt dagegen ein Riegelprofil auf etwa 2 m Höhe, eine verstärkte Randheizung unter grossen
+  Fensterflächen und ein rasch reagierendes Wärmeabgabesystem.
+- **Sommer.** Der Zielkonflikt zwischen Tageslicht und Überhitzung wird über zwei getrennte Werte
+  geführt: Tageslichtdurchlassgrad des Glases über 0,5 und Tageslichtquotient über 3 % in Büro und
+  Klassenzimmer, dagegen ein Gesamtenergiedurchlassgrad von Glas und Sonnenschutz zusammen unter
+  0,1. ⚠ Die U- und g-Werte des Merkblatts sind Stand 2005 und liegen über heutigen Anforderungen;
+  für ein laufendes Projekt wird gegen SIA 380/1 und den kantonalen Nachweis gerechnet, nicht gegen
+  diese Zahlen. Der Mechanismus bleibt gültig, die Werte nicht.
+- **Graue Energie: Kompaktheit schlägt Glasanteil.** Der Vergleich von vier Zürcher Schulhäusern
+  zeigt, dass ein kompakter Bau mit hohem Glasanteil (Leutschenbach, 1'500 MJ/m²) fast gleichauf
+  liegt mit einem aufgelösten Bau mit geringem Glasanteil (Buchwiesen, 1'370 MJ/m²). Die
+  Gebäudehülle macht 40 bis 60 % der gesamten grauen Energie aus. ⚠ Die absoluten Werte sind
+  2005er-Baustoffdaten; die Aussage über das Verhältnis trägt weiter.
+- **Betrieb und Verantwortung.** Aussenreinigung rund 3 Franken pro Quadratmeter und Jahr, ohne
+  Unterschied zwischen Glas und konventioneller Fassade — teuer wird nicht das Glas, sondern die
+  schlechte Zugänglichkeit. Und: bei Einzelverträgen nach SIA 102/103/108 erfüllt jeder Planer
+  seinen Leistungsbeschrieb, während für ein übergreifendes Problem wie zu hohe Raumtemperatur im
+  Sommer am Ende niemand zuständig ist. Dagegen hilft ein Pflichtenheft Gebäudetechnik mit messbaren
+  Kriterien und ein Gesamtplanervertrag mit Systemgarantie.
+
+**Bauherren-Transfer:** Die Schwelle ist der brauchbare Teil dieser Auskunft: Wer unter 50 %
+Glasanteil bleibt, plant eine normale Fassade. Wer darüber geht, rechnet mit drei Zusatzposten, die
+in keinem Fassadenpreis stecken — Simulation der kritischen Räume (Eckräume, hohe Verglasungen) im
+Vorprojekt, automatisierter Sonnenschutz mit manueller Übersteuerung, und die Zugänglichkeit für die
+Reinigung als Teil des architektonischen Konzepts statt als spätere Notlösung. Die Mehrkosten der
+Fassade lassen sich teilweise über kompaktere, tiefere Grundrisse mit weniger Erschliessungsfläche
+zurückholen; das ist die einzige Kompensation, die die Quelle belegt.
+
+**Quelle:** Amt für Hochbauten der Stadt Zürich, «Merkblatt Glasbauten — 10 wichtige Aspekte für die
+Planung von Gebäuden mit hohem Glasanteil», April 2005, vollständig gelesen 12.08.2026 →
+`[[glasbauten-hoher-glasanteil-sia2021]]`. Siehe auch `[[sommerlicher-waermeschutz]]`,
+`[[fenster-verglasung]]`, `[[graue-energie]]`.
+⚠ Datenstand 2005 — alle Kennwerte und Kosten sind vor Verwendung gegen die geltende Normfassung
+und aktuelle Marktpreise zu prüfen; die Geltung des zitierten SIA-Merkblatts 2021 in dieser Fassung
+ist nicht verifiziert. Status **emerging**.
+
+---
+
+## F228 — «Kann ich vor dem Bezug messen lassen, ob die Raumluft im Neubau in Ordnung ist?»
+
+**Kurz:** Ja, und die Stadt Zürich macht es bei den eigenen Bauten seit Jahren systematisch. Gemessen
+werden **Formaldehyd, flüchtige organische Verbindungen (TVOC) und in Schul- und Verwaltungsbauten
+zusätzlich Kohlendioxid**. Ein Messpunkt kostet je Parameter **rund 500 Franken** (⚠ Stand
+vermutlich 2006), und es braucht nicht viele davon: in Schul- und Verwaltungsbauten ein Messpunkt je
+2'500 m² Nutzfläche, in Wohn- und Gesundheitsbauten einer je 40 Einheiten.
+
+**Fachlich:** Gemessen werden gezielt Räume mit **sensibler Nutzung** — intensiv und länger belegt
+(Schulzimmer, Büro, Wohnung) oder mit empfindlichen Nutzenden (Kindergarten, Hort, Krankenzimmer).
+Werkräume, Chemiezimmer, Lager und Küchen werden ausdrücklich **nicht** gemessen. Die Messstrategie
+soll die wichtigsten Materialisierungsvarianten und die emissionskritischen Konstruktionen abdecken,
+also etwa Räume mit sehr viel Holzwerkstoffoberflächen oder 2K-Bodenbelägen.
+
+Die Auswertung ist dreistufig, und genau das ist der Wert des Instruments: **Zielwert erfüllt** heisst
+keine Massnahme; **Vorsorgebereich** heisst organisatorische Massnahmen wie gezieltes Lüften und
+Nachmessung nach ein bis drei Monaten; **über dem Eingreifwert** folgen Zusatzabklärungen zu
+Messbedingungen, Materialien und Systemen und bei Bedarf bauliche Korrekturen — Bauteile ersetzen
+oder nachbehandeln, Lüftung reinigen und justieren — mit erneuter Nachmessung.
+
+⚠ Die Zahlenwerte des Zürcher Rasters (Formaldehyd Zielwert unter 60 µg/m³, Eingreifwert über
+120 µg/m³; TVOC unter 1'000 respektive über 3'000 µg/m³; CO₂ mit Komfortlüftung im Mittel unter
+1'000 ppm) stammen aus rund 2006 und sind AHB-Eigenwerte ohne Verweis auf eine externe Norm. Sie
+sind hier **nicht** gegen die heute geltenden BAG-Richtwerte geprüft und taugen deshalb nicht für
+die Aussage, ein gemessener Wert sei «zulässig».
+
+Zwei Zürcher Dokumente derselben Zeit nennen dieselben zwei Werte — die Vertragsbedingungen für
+Planungsleistungen von 2008 verlangen ebenfalls Formaldehyd unter 60 µg/m³ und TVOC unter
+1'000 µg/m³. Das ist eine Bestätigung innerhalb einer Praxis, kein Beleg für heutige Geltung.
+Nicht verwechseln mit der **Produktanforderung** des ecoBKP (Ausgleichskonzentration ≤ 0,02 ppm,
+eigene Umrechnung rund 25 µg/m³, siehe **F216**): dort geht es um das einzelne Material, hier um die
+fertige Raumluft, in der sich viele Materialien summieren.
+
+**Bauherren-Transfer:** Für eine private Bauherrschaft ist das eine überraschend günstige
+Abnahmeposition. Zwei bis drei Messpunkte in einem Mehrfamilienhaus kosten in der Grössenordnung
+eines Tagessatzes und verwandeln die schwierigste aller Reklamationen — «es riecht komisch» — in
+einen messbaren Sachverhalt mit definierter Reaktionsstufe. Sinnvoll ist, die Abnahmemessung
+**vor** der Schlusszahlung an die Ausbaugewerke zu terminieren und die Formaldehyd- und
+TVOC-Anforderung bereits im Devis zu setzen (siehe F216 und F220), damit der Unternehmer bei einer
+Überschreitung in der Pflicht steht und nicht die Bauherrschaft.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle nachhaltiges Bauen, «Vorgaben —
+Raumluftmessungen (Checkliste)», Dokumentcode POM 11.08.06 (vermutlich August 2006), vollständig
+gelesen 12.08.2026 → `[[ahb-checkliste-raumluftmessungen]]`; Wertebestätigung aus
+`[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]` (Juli 2008). Siehe auch
+`[[gebaeudeschadstoffe]]`, `[[komfortlueftung]]`, `[[behaglichkeit-raumklima-kbob-ipb]]`.
+⚠ Datenstand vermutlich 2006 — Richtwerte und Kosten vor Verwendung gegen den heutigen Stand
+prüfen; aktuelle Fassung bei der Fachstelle nachhaltiges Bauen anfordern. Status **emerging**.
+
+---
+
+## F229 — «In den Unterlagen steht ein Beleuchtungsnachweis nach SIA 380/4. Gilt das noch?»
+
+**Kurz:** Nein, nicht mehr in dieser Form. **SIA 380/4:2006 ist archiviert** (gültig bis
+31.07.2019); für die Beleuchtung gilt heute die Fachnorm **SIA 387/4:2023**. Im Kanton Zürich läuft
+der Nachweis Beleuchtung über das **Formular EN-111**, seit dem 01.01.2026 auf der Plattform EVEN,
+und er wird bei Nichtwohnbauten über 1'000 m² Energiebezugsfläche verlangt. Wer eine ältere
+Checkliste in der Hand hält, kann ihre Struktur weiterverwenden, ihre Normbezüge nicht.
+
+**Fachlich:** Die Zürcher Checkliste von 2009 listet neun Unterlagen, die zum Beleuchtungsnachweis
+einzureichen sind, gegliedert nach den drei Zeitpunkten Bauprojekt, Ausschreibung und Betrieb: das
+Nachweistool selbst, Grundrisspläne 1:100 mit eingetragenen Leuchten, die Beleuchtungsberechnungen
+inklusive Lichtstärkeverteilungskurven, Blendungsbewertung und Söllnerdiagramm, die
+Tageslichtparameter, das Farbkonzept, die Angaben zu Sensorik und Steuerung, den
+Steuerungs-Funktionsbeschrieb, die Leuchtendatenblätter und die Begründungen für Spezialnutzungen.
+Diese Liste ist unverändert brauchbar — sie beschreibt, was ein Lichtplaner liefern muss, und das
+hat sich mit dem Normwechsel nicht geändert.
+
+⚠ Überholt ist alles, was am alten Normkörper hängt: das Nachweistool auf energycodes.ch ist nicht
+mehr erreichbar, und die früher gebräuchliche Minergie-Einordnung «drei Viertel der Distanz zwischen
+Grenzwert und Zielwert SIA 380/4» hat **keine gültige Bezugsgrösse mehr** und ist nicht mehr
+rechenbar. Ebenfalls vor-LED und damit gegenstandslos sind die damaligen Lampenempfehlungen
+(Leuchtstoffröhren T8/T5, «Halogen vermeiden»). Gültig geblieben ist die Steuerungslogik nach
+Raumtyp: Präsenz- und tageslichtabhängige Schaltung, keine automatische Einschaltung ausser in
+Korridoren, WC und Treppenhäusern.
+
+**Bauherren-Transfer:** Praktisch heisst das zweierlei. Erstens ist der Beleuchtungsnachweis eine
+**Planerleistung mit Honorarfolge** — er verlangt eine Lichtplanung mit Berechnung, nicht nur eine
+Leuchtenliste, und gehört deshalb vor der Offerte in den Leistungsbeschrieb. Zweitens ist er ein
+Stolperstein im Baubewilligungsverfahren: fehlt er bei einem bewilligungspflichtigen Nichtwohnbau
+über 1'000 m² EBF, fehlt ein Formular im Nachweisset und die Eingabe ist unvollständig. Wer eine
+Vorlage aus dem eigenen Archiv wiederverwendet, prüft zuerst die Normzeile, nicht den Inhalt.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, «Checkliste
+Nachweis SIA 380/4 Beleuchtung», Version 1.0 vom 07.01.2009, vollständig gelesen 12.08.2026 →
+`[[ahb-checkliste-nachweis-beleuchtung]]`. Normstatus und EN-111/EVEN-Vollzug belegt in
+`[[ahb-zuerich-gt-rl8-beleuchtung]]` (Aktualitätsprüfung Run 122, 03.08.2026) und
+`[[energienachweis-zh]]`.
+⚠ Die Quelle selbst ist Stand 2009; die Aussage über den heute geltenden Nachweisweg stützt sich auf
+die genannten KB-Artikel, nicht auf sie. Status **emerging**.

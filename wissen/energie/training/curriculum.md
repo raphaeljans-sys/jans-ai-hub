@@ -2203,3 +2203,27 @@ vorzuziehen**: sofort materialisierte Dateien, echte Grösse im Listing, direkte
    in `ecobkp-2026-gebaeudetechnik` notierten offenen Punkt.
 4. **E-126-2 an den Skill `baurecht`**: die 1997er Verweise Art. 26/30a BBV I und Art. 9 EnerG ZH
    gegen die geltenden Fassungen nachführen (VHKA-Pflicht besteht sachlich weiter).
+
+## Nächste Prioritäten nach Run 128 (12.08.2026)
+
+Der flache eco-Ordner ist bis auf zwei Fachdokumente und die Verzeichnisse abgeräumt; der Lauf ist
+deshalb in den AHB-Korpus «Projektadmin AHB» gewechselt und hat dort die Ordner 14 (Energie und
+Gebäudetechnik) und 18 (Nachhaltiges Bauen) gemessen und angebrochen.
+
+1. **AHB 14.5-Standards, zuerst `Standards_Gebaeudeautomation_Pflegezentren.pdf`** (452 kB). Der
+   einzige Healthcare-spezifische Titel im ganzen bisher gemessenen PL-02-Korpus und damit direkt
+   an das JANS-Kerngeschäft anschlussfähig. Danach die beiden Raummodule (Büro, Klassenzimmer, je
+   ~579 kB) — sie versprechen belegte Raum-Kennwerte, die die KB bisher nur normseitig hat.
+   ⚠ Wie der ganze Korpus vermutlich Stand 2008; vor der Zuteilung Titelblatt lesen.
+2. **AHB 14.2 `Merkblatt_Kontrollierte_Wohnungslueftung.pdf`** (86 kB) — die KB hat zur
+   Komfortlüftung bereits vier Destillate und drei FAQ (F37, F43, F44, F62). Erwartbarer Zugewinn
+   deshalb **gering**; nur mitnehmen, wenn ein Lauf ohnehin Kapazität hat, und ausdrücklich gegen
+   `[[komfortlueftung-wrg-sia382-luftwechsel]]` differenzieren statt zu doppeln.
+3. **Die 18.x-Kandidaten mit `pdftotext`-Diff abräumen**, nicht einzeln destillieren. Neun Titel in
+   18.1/18.2/18.3 sind mutmasslich Dubletten bereits destillierter eco-Quellen. Nach der Lehre aus
+   Run 128 entscheidet darüber der Textvergleich, nicht der Dateiname und nicht die Grösse. Das ist
+   ein billiger Lauf mit hohem Aufräumwert: er senkt die «offen»-Zahl belegt statt geschätzt.
+4. **E-128-1 auflösen** (Geltung SIA-Merkblatt 2021): betrifft den Kern der neuen FAQ F227 und
+   läuft über Skill `normen` / die Normen-KB, nicht über eine weitere PL-02-Datei.
+5. **E-128-2 auflösen** (heutige Innenraumluft-Richtwerte BAG gegen die Zürcher 60/1'000 µg/m³):
+   Web-Quelle, aus der Antwort wird unmittelbar eine Devis-Klausel und eine Abnahmeposition.

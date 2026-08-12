@@ -1,5 +1,56 @@
 # CHANGELOG
 
+## 2026-08-12 (Run 128) — AHB-Korpus Energie/Gebäudetechnik + Nachhaltiges Bauen, neue Dublettenfalle
+
+Zweiter Lauf des Tages (Run 127 lief in der Nachtschicht 13:30), **Sparbetrieb**, vier
+Destillier-Agenten auf Sonnet, kein Refuter-Panel. Der flache eco-Ordner ist weitgehend abgeräumt;
+der Lauf ist deshalb in den AHB-Korpus `04_Merkblätter/Projektadmin AHB/` gewechselt und hat dort
+die Ordner **14 (Energie und Gebäudetechnik)** und **18 (Nachhaltiges Bauen)** gemessen und
+angebrochen. **6 PDF geprüft, 5 destilliert**, 1 als Dublette abgelegt.
+
+**Die im Task-Prompt genannte Voraussetzung ist strukturell nicht erfüllbar:** der Pfad
+`OneDrive-FreigegebeneBibliotheken–JANS/PL - 04 Energie` **existiert nicht** — unter dieser Wurzel
+liegen nur AD/AR/IMMO, die PL-Site ist über sie gar nicht angebunden. Nach Rule
+`wege-und-vollmachten` wurde nicht abgebrochen, sondern der Graph-Weg aus Run 126 gegangen (M365-CLI
+per Zertifikat). **Dritte Bestätigung in Folge (126/127/128) — der Graph-Weg ist der Regelweg dieses
+Loops, nicht sein Ersatz;** die Voraussetzungszeile der Task-Definition sollte nachgezogen werden.
+
+Neue Destillate (alle `emerging`, alle mit ⚠-Alterskorpus-Vermerk, Ausgabe je am Titelblatt
+gelesen): `glasbauten-hoher-glasanteil-sia2021` (AHB, **April 2005**, 15 S. — liefert die der KB
+bisher fehlende **Schwellendefinition** «Gebäude mit hohem Glasanteil» nach SIA Merkblatt 2021:
+> 50 % Glasanteil der Fassade oder > 30 % Glasfläche je EBF im Einzelraum; dazu Kaltluftabfall mit
+ca. 7 % Mehrverbrauch je °C Kompensation und «Kompaktheit schlägt Glasanteil»),
+`2000-watt-gesellschaft-sieben-thesen-ahb` (AHB, **Mai 2008**, 16 S. — Prozessdokument; Zielsystem
+politisch überholt, Prozesslogik trägt), `ahb-checkliste-nachweis-beleuchtung` (AHB, **07.01.2009**),
+`ahb-bedingungen-planungsleistungen-nachhaltiges-bauen` (KBOB/eco-bau/IPB, **Juli 2008** — das
+Planer-Gegenstück zu `bauoekologische-submissionsbedingungen`, mit Zwei-Jahres-Energievergleich und
+Kostenüberwälzung bei Zielabweichung), `ahb-checkliste-raumluftmessungen` (AHB Fachstelle
+nachhaltiges Bauen, Dokumentcode POM 11.08.06).
+
+VERDICHTUNG: drei neue BAUHERREN-FAQ — **F227** (ab wann viel Glas ein eigenes Planungsthema wird),
+**F228** (Raumluft-Abnahmemessung vor Bezug, ca. 500 CHF je Messpunkt, dreistufige Reaktionslogik),
+**F229** (Beleuchtungsnachweis: SIA 380/4 ist tot, EN-111 auf EVEN gilt, die Einreichliste bleibt).
+Gewachsen: `[[sommerlicher-waermeschutz]]`, `[[gebaeudeschadstoffe]]` (erstmals die **Abnahmeseite**,
+bisher kannte der Artikel nur den Bestand), `[[energienachweis-zh]]` (Totverweis-Abschnitt EN-111).
+
+**Methodischer Befund des Laufs — neue Dublettenfalle:** `14.2/Merkblatt_Elektrosmog.pdf` und das
+gestern destillierte `eco/4.76Elektrosmog.pdf` haben **verschiedene Grösse und verschiedenen
+SHA-256**, tragen aber **zeichengleichen Text**. Nach der bisherigen Methode (Grössenvergleich,
+Run 123) wären sie als zwei Quellen gezählt worden. Ab jetzt entscheidet bei ähnlichen Kandidaten
+ein `pdftotext`-Diff. Die Fallenreihe des Korpus lautet damit: Dateiname (122) → Ablageort (124/125)
+→ Grösse gegen Seitenzahl (124) → Textextrahierbarkeit (126) → **Grösse als Dublettenkriterium (128)**.
+
+Verifikation: Die von den Agenten zitierten KB-Fakten (SIA-380/4-Archivierung, SIA 112/1:2017) im
+Hauptmodell am Original gegengeprüft und **bestätigt**; die Dublette selbst gemessen statt aus der
+Grösse geschlossen. Keine Status-Hebung. Neue offene Fragen **E-128-1** (Geltung SIA-Merkblatt 2021,
+betrifft den Kern von F227), **E-128-2** (heutige BAG-Innenraumluft-Richtwerte gegen die drei
+übereinstimmenden Zürcher Eigenwerte 60/1'000 µg/m³), **E-128-3** (Nachfolge des
+2000-Watt-Zielsystems), **E-128-4** (Betriebsbefund: **der Lauf-Report zu Run 127 fehlt** unter
+`outputs/` — PROGRAMM-Schritt 5 ist Pflicht, zu prüfen ob die Nachtschicht ihn generell auslässt).
+
+**Stand PL-02: 64 von 182 destilliert, 118 offen.** Report:
+`outputs/2026-08-12_energie-run128.md`.
+
 ## 2026-08-12 (Mac Mini Nachtschicht 13:30, Run 127) — eco-bau-Block fortgesetzt, neues Thema Elektrosmog
 
 Weg aus Run 126 (M365-CLI/Graph statt blockiertem OneDrive-Mount) bestätigt, vier kleine PDF aus

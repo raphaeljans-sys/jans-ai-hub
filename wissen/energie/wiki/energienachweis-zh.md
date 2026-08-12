@@ -89,6 +89,19 @@ im Neubau, PV-Pflicht verschärft auf **20 W/m² EBF** (heute ZH 10 W/m², EN-10
 Graue Energie (Teil G)**. Noch **kein geltendes Recht** — Umsetzung im Kt. ZH nicht terminiert
 (Stand 2026-07-12). Details → `[[muken-2025-verabschiedet]]`.
 
+## EN-111 Beleuchtung — was in Altunterlagen tot ist (Ergänzung Run 128, 2026-08-12)
+Bei Nichtwohnbauten > 1'000 m² EBF verlangt der Nachweis das Formular **EN-111**. Ältere
+Projektunterlagen, Checklisten und Bürovorlagen führen dafür noch **SIA 380/4** — dieser Weg ist
+**tot**: SIA 380/4:2006 ist archiviert (gültig bis 31.07.2019), für Beleuchtung gilt
+**SIA 387/4:2023**; das Nachweistool auf energycodes.ch ist nicht mehr erreichbar, und die
+Minergie-Einordnung «drei Viertel zwischen Grenz- und Zielwert SIA 380/4» hat keine gültige
+Bezugsgrösse mehr. **Brauchbar bleibt die Einreichliste** (Nachweistool, Grundrisse 1:100 mit
+Leuchten, Beleuchtungsberechnung inkl. LVK/UGR/Söllnerdiagramm, Tageslichtparameter, Farbkonzept,
+Sensorik-/Steuerungsangaben, Leuchtendatenblätter, Begründung Spezialnutzungen) — sie beschreibt
+die Planerleistung, die sich mit dem Normwechsel nicht geändert hat.
+→ Bauherren-FAQ **F229**, Destillate `[[ahb-checkliste-nachweis-beleuchtung]]`,
+`[[ahb-zuerich-gt-rl8-beleuchtung]]`.
+
 ## Quelle / Abgrenzung
 EN-ZH-005 (Baudirektion ZH/AWEL, Juli 2022) → `[[en-zh-nachweis-uebersicht]]`; EVEN-Stand via
 Web (`zh.ch`, 2026-06-07). U-Wert-Grenzwerte → [[u-werte-grenzwerte-ch]]. Energierecht (EnerG/BBV)

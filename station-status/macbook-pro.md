@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 12.08.2026 22:42:20
+Stand: 12.08.2026 22:52:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 12.08.2026 22:42:20
 - 5 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 256ecce9 nas-selfcommit: 1 Datei(en) 2026-08-12 22:41
+- c7611ea0 Heartbeat-Haertung nach 41h Sync-Stillstand: nas-selfcommit heilt verwaisten Rebase-Rest selbst (echter Rebase bleibt geschuetzt, beides getestet), heartbeat Check 7 misst letzten ECHTEN Commit statt letzter Log-Zeile; Chronik-Eintrag 260812

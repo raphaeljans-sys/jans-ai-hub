@@ -131,3 +131,38 @@ Die AHB-Checkliste «Schadstoffe in Bauten» ergänzt den Prozess für Projektle
 für die Begehung → `[[ahb-checkliste-schadstoffe-in-bauten]]`. Wichtige Nuance aus dieser
 Quelle: **eine Teilsanierung (z. B. Versiegelung) entlässt ein Gebäude nicht aus dem
 Asbest-Kataster** — periodische Kontrollen bleiben Pflicht bis zur Totalsanierung.
+
+## Raumluft-Abnahmemessung als Kontrollinstrument (Ergänzung Run 128, 2026-08-12)
+
+Der Schadstoff-Blick auf den **Bestand** (Kataster, Stichjahre, Screening) hat ein Gegenstück am
+**Neubau und nach dem Umbau**: die Abnahmemessung der fertigen Raumluft. Die Stadt Zürich führt sie
+bei eigenen Bauten systematisch, mit einer Struktur, die sich unverändert auf ein privates Projekt
+übertragen lässt:
+
+- **Gemessen wird gezielt, nicht flächendeckend.** Räume mit sensibler Nutzung (intensiv/länger
+  belegt oder mit empfindlichen Nutzenden: Schulzimmer, Büro, Wohnung, Kindergarten, Hort,
+  Krankenzimmer). Werkräume, Chemiezimmer, Lager und Küchen ausdrücklich **nicht**. Die
+  Messstrategie deckt die wichtigsten Materialisierungsvarianten und emissionskritischen
+  Konstruktionen ab (viel Holzwerkstoffoberfläche, 2K-Bodenbeläge).
+- **Messpunktdichte:** Schul-/Verwaltungsbau 1 Punkt je 2'500 m² Nutzfläche, Wohn-/Gesundheitsbau
+  1 Punkt je 40 Einheiten; CO₂ nur in Schul- und Verwaltungsbauten. Kosten ca. **500 CHF je
+  Messpunkt und Parameter** (⚠ Stand vermutlich 2006).
+- **Dreistufige Reaktionslogik** — Zielwert erfüllt: nichts. Vorsorgebereich: organisatorische
+  Massnahmen (gezieltes Lüften), Nachmessung nach 1-3 Monaten. Über Eingreifwert: Zusatzabklärung
+  zu Messbedingungen/Materialien/Systemen, bei Bedarf Bauteile ersetzen oder nachbehandeln,
+  Lüftung reinigen und justieren, Nachmessung 1-3 Monate nach der Korrektur.
+
+⚠ Die Zürcher Zahlenwerte (Formaldehyd < 60 / 60-120 / > 120 µg/m³ · TVOC < 1'000 / 1'000-3'000 /
+> 3'000 µg/m³ · CO₂ mit Komfortlüftung Ø < 1'000 ppm, ohne Ø < 1'500 ppm) sind **AHB-Eigenwerte von
+rund 2006 ohne Verweis auf eine externe Norm** und hier nicht gegen die heutigen BAG-Richtwerte
+geprüft. Sie taugen als Vertragsvorgabe, nicht als Aussage über Zulässigkeit. Dieselben zwei Werte
+für Formaldehyd und TVOC stehen in den Zürcher Bedingungen für Planungsleistungen von 2008 und in
+den bauökologischen Submissionsbedingungen von 2006 — eine Bestätigung innerhalb einer Praxis, kein
+Beleg heutiger Geltung. Nicht verwechseln mit der **Produktanforderung** des ecoBKP
+(Ausgleichskonzentration ≤ 0,02 ppm, eigene Umrechnung rund 25 µg/m³, → FAQ **F216**): dort das
+einzelne Material, hier die fertige Raumluft, in der sich viele Materialien summieren.
+
+→ Bauherren-FAQ **F228**, Destillate `[[ahb-checkliste-raumluftmessungen]]`,
+`[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]`,
+`[[vorgehen-bei-beschwerden-innenraumklima]]` (Beschwerden im Betrieb, also die dritte Stufe nach
+Abnahme).

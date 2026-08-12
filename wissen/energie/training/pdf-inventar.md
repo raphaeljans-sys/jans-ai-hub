@@ -430,3 +430,53 @@ Wiki-Artikel `[[elektrosmog]]` (Status emerging) angelegt; neue BAUHERREN-FAQ F2
 **Noch offen im flachen eco-Ordner:** `4.27Fugendichtungsmassen.pdf` (724 kB),
 `5.26PflanzenamBau.pdf` (5,2 MB), Verzeichnisse `6.16Eidg.Gesetze_Verordnungen_1-2005.pdf`,
 `6.26Literatur_1-2005.pdf`, `7.17Fachstellen.pdf`, `7.26Fachstellenecobau.pdf` (voraussichtlich `[-]`).
+
+## Nachtrag 2026-08-12 (Run 128): AHB-Korpus «14 Energie und Gebäudetechnik» + «18 Nachhaltiges Bauen»
+
+Zweiter Lauf desselben Tages (Run 127 lief in der Nachtschicht 13:30). Der Graph-Weg aus Run 126
+wurde erneut verwendet und funktionierte auf Anhieb — der OneDrive-Mount wurde gar nicht erst
+versucht. **Befund zur Bibliothek:** Unter der Wurzel `OneDrive-FreigegebeneBibliotheken–JANS`
+existieren nur die Ordner AD/AR/IMMO; die **PL-Site ist über den Mount dieser Wurzel überhaupt
+nicht erreichbar**. Der im Task-Prompt als Voraussetzung genannte Pfad
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 04 Energie` existiert nicht.
+Nach Auftragstext hätte der Lauf hier abbrechen müssen; nach Rule `wege-und-vollmachten` wurde
+stattdessen der belegte Weg 2 gegangen. **Der Graph-Weg ist damit nicht mehr Ersatz, sondern der
+Regelweg dieses Loops** (zweite unabhängige Bestätigung nach Run 126/127).
+
+Vor der Prioritätensetzung gemessen (Lehren Run 123/124/126: Seitenzahl, Grösse **und**
+Textextrahierbarkeit): alle sechs Kandidaten sind textextrahierbar, keine Bild-PDF.
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/...) | KB-Datenstand |
+|---|---|---|
+| [x] `14-Energie-und Gebaeudetechnik/14.2-Merkblaetter/Merkblatt_Glasbauten.pdf` | 2026-08-12 (15 S. vollst.; echter Titel «Merkblatt Glasbauten — 10 wichtige Aspekte für die Planung von Gebäuden mit hohem Glasanteil», AHB Stadt Zürich, **April 2005** → `glasbauten-hoher-glasanteil-sia2021`) |
+| [x] `18-Nachhaltiges Bauen/18.1 Grundsaetze/Bauen_fuer_die_2000-Watt-Gesellschaft_SiebenThesen_(Merkblatt).pdf` | 2026-08-12 (16 S. vollst.; AHB Stadt Zürich, Impressum **Zürich, Mai 2008** → `2000-watt-gesellschaft-sieben-thesen-ahb`) |
+| [x] `14-Energie-und Gebaeudetechnik/14.2-Merkblaetter/Checkliste-Nachweis-Beleuchtung.pdf` | 2026-08-12 (1 S. vollst.; «Checkliste Nachweis SIA 380/4 Beleuchtung», AHB Fachstelle Energie und Gebäudetechnik, Version 1.0 vom **07.01.2009** → `ahb-checkliste-nachweis-beleuchtung`) |
+| [x] `18-Nachhaltiges Bauen/18.1 Grundsaetze/Richtlinie_Bedingungen_fuer_Planungsleistungen_(Vertragsbestandteil).pdf` | 2026-08-12 (2 S. vollst.; Logozeile KBOB/eco-bau/IPB, **Juli 2008** → `ahb-bedingungen-planungsleistungen-nachhaltiges-bauen`) |
+| [x] `18-Nachhaltiges Bauen/18.3 Baustoffe (Bauoekologie & Stofffluesse)/Raumluftmessungen_(Checkliste).pdf` | 2026-08-12 (1 S. vollst.; AHB Fachstelle nachhaltiges Bauen, Dokumentcode **POM 11.08.06** → `ahb-checkliste-raumluftmessungen`; ⚠ Datierung nicht ausgeschrieben) |
+| [-] `14-Energie-und Gebaeudetechnik/14.2-Merkblaetter/Merkblatt_Elektrosmog.pdf` | 2026-08-12 (geprüft: **textidentische Dublette** zu `04_Merkblätter/eco/4.76Elektrosmog.pdf`, gestern in Run 127 als `elektrosmog-informationsblatt-ahb-ewz` destilliert. Nicht byte-identisch — 83'577 gegen 81'531 B —, aber der extrahierte Text ist zeichengleich. Bewusst nicht doppelt geführt) |
+
+⚠ **Messfalle-Ergänzung zu Run 123 (Dublettenerkennung):** Die beiden Elektrosmog-Dateien haben
+**verschiedene Grösse und verschiedenen SHA-256** und wären nach der bisherigen Methode
+(Grössenvergleich, Run 123) als zwei Quellen gezählt worden. Erst der Vergleich des **extrahierten
+Textes** zeigte die Identität. Die Reihe der Fallen wächst damit um eine Stufe: Dateiname (Run 122),
+Ablageort (Run 124/125), Grösse gegen Seitenzahl (Run 124), Textextrahierbarkeit (Run 126) — und
+jetzt **Grösse als Dublettenkriterium**. Bei zwei Kandidaten mit gleicher Seitenzahl und ähnlicher
+Grösse zuerst `diff` auf `pdftotext` fahren, das kostet Sekunden.
+
+**Noch offen im AHB-Korpus** (gemessen, nach Sachbezug zur Energie-KB geordnet):
+`14.2-Merkblaetter/Merkblatt_Kontrollierte_Wohnungslueftung.pdf` (86 kB),
+`14.2-Merkblaetter/Merkblatt_Sicherheitsnachweis Elektroinstallationen.pdf` (189 kB),
+`14.5-Standards/Standards_Raummodul_Buero.pdf` + `Standards_Raummodul_Klassenzimmer.pdf` (je ~579 kB),
+`14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf` (452 kB, **Healthcare-Bezug**),
+`14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf` (424 kB).
+Voraussichtlich `[-]` als Dubletten bereits destillierter eco-Quellen: `18.1/Gebaeudelabel_MINERGIE-ECO_(Flyer).pdf`,
+`18.1/Nachhaltige_Gebaeudeerneuerung_(Checkliste).pdf`, `18.1/Richtlinie_7-Meilenschritte_(Flyer).pdf`,
+`18.1/Zielvereinbarungen_SIA112.1_(Uebersicht).pdf`, `18.2/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf`,
+`18.2/Topten_Haushaltgeraete_(Flyer).pdf`, `18.3/Baustellenkontrolle_+_Deviskontrolle_(Checkliste).pdf`,
+`18.3/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf`, `18.3/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf`
+— **vor dem Abschreiben je ein `pdftotext`-Diff gegen die destillierte Fassung fahren** (siehe
+Messfalle oben), nicht nach Dateinamen entscheiden.
+
+**Stand PL-02:** **64 von 182** energierelevanten PDF destilliert (10 Run 121, 9 Run 122, 9 Run 123,
+8 Run 124, 15 Run 125, 4 Run 126, 4 Run 127, **5 Run 128**), **118 offen**; zusätzlich 1 in Run 128
+als `[-]` geprüft.
