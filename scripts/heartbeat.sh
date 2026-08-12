@@ -139,18 +139,32 @@ if $nas_ok; then
     # Hostname ermitteln um eigene Tasks zu prüfen
     HOSTNAME_LOWER=$(hostname | tr '[:upper:]' '[:lower:]')
 
-    # Beide Queues prüfen
-    TASKS_MBP=$(ls "$NAS_BASE/sync-tasks/macbook-pro/" 2>/dev/null | grep -v "^$" | grep -v "^done$" | wc -l | tr -d ' ')
-    TASKS_MINI=$(ls "$NAS_BASE/sync-tasks/mac-mini/" 2>/dev/null | grep -v "^$" | grep -v "^done$" | wc -l | tr -d ' ')
+    # Beide Queues prüfen. Zählweise identisch zu sync-task-check.sh: nur *.md
+    # direkt in der Queue. Ein `ls` würde Hilfsordner wie sync-tasks/<station>/scripts/
+    # als Task zählen (Fehlalarm bis 13.08.2026).
+    TASKS_MBP=$(find "$NAS_BASE/sync-tasks/macbook-pro" -maxdepth 1 -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
+    TASKS_MINI=$(find "$NAS_BASE/sync-tasks/mac-mini" -maxdepth 1 -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
+
+    # Zurückgehaltene Tasks (Freigabe-Schwelle) separat: sie warten auf Raphaels
+    # Einzelfreigabe, /station-sync arbeitet sie NICHT ab.
+    FREI_MBP=$(find "$NAS_BASE/sync-tasks/freigabe/macbook-pro" -maxdepth 1 -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
+    FREI_MINI=$(find "$NAS_BASE/sync-tasks/freigabe/mac-mini" -maxdepth 1 -name "*.md" -type f 2>/dev/null | wc -l | tr -d ' ')
 
     TOTAL_TASKS=$((TASKS_MBP + TASKS_MINI))
+    TOTAL_FREI=$((FREI_MBP + FREI_MINI))
 
-    if [ "$TOTAL_TASKS" -eq 0 ]; then
+    if [ "$TOTAL_TASKS" -eq 0 ] && [ "$TOTAL_FREI" -eq 0 ]; then
         sync_ok=true
         sync_msg="✅ Keine offenen Sync-Tasks"
-    else
+    elif [ "$TOTAL_TASKS" -eq 0 ]; then
+        sync_ok=false
+        sync_msg="⚠️  $TOTAL_FREI Task(s) in Freigabe — MBP: $FREI_MBP, Mini: $FREI_MINI → sync-task-check.sh --freigeben"
+    elif [ "$TOTAL_FREI" -eq 0 ]; then
         sync_ok=false
         sync_msg="⚠️  $TOTAL_TASKS offene Task(s) — MBP: $TASKS_MBP, Mini: $TASKS_MINI → /station-sync ausführen"
+    else
+        sync_ok=false
+        sync_msg="⚠️  $TOTAL_TASKS offen (MBP $TASKS_MBP / Mini $TASKS_MINI) + $TOTAL_FREI in Freigabe (MBP $FREI_MBP / Mini $FREI_MINI)"
     fi
 else
     sync_ok=false

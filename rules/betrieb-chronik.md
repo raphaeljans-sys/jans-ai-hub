@@ -21,6 +21,31 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260813 — heartbeat zählte einen Hilfsordner als offene Sync-Task (Dauer-Fehlalarm behoben)
+
+**Befund im Lauf `heartbeat-daily` vom 13.08.2026, 00:51:** Die Zeile «Sync-Tasks» meldete
+«1 offene Task(s) — MBP: 0, Mini: 1 → /station-sync ausführen», obwohl beide Queues leer
+waren. Ursache: `heartbeat.sh` zählte mit `ls | grep -v "^done$"` **jeden** Verzeichniseintrag
+der Queue. Der leere Hilfsordner `sync-tasks/mac-mini/scripts/` (angelegt 31.07., seit 07.08.
+leer) wurde damit dauerhaft als Task gezählt. Der kanonische Zähler
+`scripts/sync-task-check.sh` zählt dagegen nur `find -maxdepth 1 -name "*.md" -type f`, sah
+also korrekt null — die beiden Instrumente widersprachen sich seit dem 31.07.
+
+**Behoben:** `heartbeat.sh` zählt jetzt mit derselben `find`-Logik wie `sync-task-check.sh`.
+Nachgemessen mit `--force`: Status wieder ✅ «Alles OK», rc=0.
+
+**Zusätzlich ergänzt:** Der Heartbeat zählt neu auch die zurückgehaltenen Tasks unter
+`sync-tasks/freigabe/<station>/` und weist sie **getrennt** aus, weil `/station-sync` sie
+nicht abarbeitet — sie warten auf Raphaels Einzelfreigabe. Anlass ist die Lehre vom
+12.08.2026: ein korrekt zurückgehaltener Reparatur-Task lag 41 h unbemerkt, weil kein
+Instrument die Freigabe-Queue sichtbar machte. Beide Freigabe-Queues waren zum Zeitpunkt der
+Änderung leer, der neue Zweig ist also noch nicht scharf gemessen.
+
+**Lehre, gleiche Familie wie 260807:** Ein Zähler misst nicht, was sein Name behauptet,
+sondern was seine Filterregel durchlässt. Zwei Instrumente, die dieselbe Grösse zählen,
+müssen dieselbe Zählweise verwenden — sonst gewöhnt man sich an die Warnung des einen und
+glaubt dem anderen nicht mehr.
+
 ## 260813 — Neue Kontingent-Lage: privates Max 20x bleibt, plus Team-Abo mit zwei Seats
 
 **Lage (Ansage Raphael, 13.08.2026):** Das private Max-Abo bleibt bei **20x** — die zuvor
