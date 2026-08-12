@@ -42,6 +42,31 @@ _ **Betriebskonzept ist gutgeheissen:** C. Schäfer (KISPI) hat am 11.08. 14:13 
   Weiterbearbeitung und Zustellung an die entsprechenden Stellen**. Diese zwei Sätze sind noch
   einzuarbeiten. Status: **offen, Aktion Raphael/JANS.**
 
+Nachtrag 13.08.2026 01:28 (Ersatz-Entwurf erstellt, Freigabe Raphael): Der Ersatz liegt im
+Entwurfsordner `rj@` (Exchange) unter **«KISPI PPTS: Anschlusswerte, offene Punkte und weiteres
+Vorgehen Therapieküche»**, an ti@schreinermanufaktur.ch, durch den Korrektur-Harness gelaufen
+(Rechtschreibung und Layout je gelb, Befunde eingearbeitet). Inhalt: er nimmt Inniger die
+Abluftfrage ab (die Anschlusswerte stehen belegt in der Installationslegende Gastro-Online AG
+26-122 vom 01.05.2026, die er am 07.08. erhalten hat: Total 41.47 kW mit Gleichzeitigkeitsfaktor
+0.70, Abluft 2 x 500 = 1'000 m³/h mit Gleichzeitigkeitsfaktor 90 % rund 900 m³/h, und die
+Legende hält im Kopf selbst fest, dass die Lüftungsangaben approximativ und vom Lüftungsplaner
+zu berechnen sind), sagt die Beschaffung der genauen Typenbezeichnungen beim Gastroplaner zu,
+ordnet die zwölf Punkte nach Zuständigkeit (Nutzer / Gastroplaner / Architekt), stimmt dem
+Nutzergespräch zu und bittet um den aktuellen Planstand als PDF, weil das DWG erst in ein paar
+Wochen kommt.
+⚠ **Verwechslungsgefahr: es liegen jetzt ZWEI Entwürfe zum selben Vorgang im selben Ordner.**
+Der alte vom 08.08. 08:56 («Geräteliste Therapieküche mit Abluftwerten») ist der überholte und
+darf **nicht** hinausgehen; Claude hat ihn bewusst weder geändert noch gelöscht. Beim Versenden
+auf den Betreff achten. Status: **Ersatz versandbereit, Versand-Entscheid Raphael; alten Entwurf
+löschen oder verwerfen.**
+_ Offen dabei: Ob Stephan Lanz (stl@schreinermanufaktur.ch) und M. Spörri (KISPI) wie in der
+  Mail vom 07.08. ins Cc gehören, ist nicht entschieden — der Entwurf geht vorerst nur an
+  Inniger, wie schon der Entwurf vom 08.08.
+_ Folgeaufgabe aus dem Entwurf: Detailplan Herdanlage und die genauen Typenbezeichnungen der
+  bauseitigen Geräte bei Gastro-Online AG (M. Schwander) anfordern. Im Projektbestand ist kein
+  Detailplan Herdanlage auffindbar; die einzigen Treffer gehören zur bestehenden Spitalküche
+  (LOS 258.06, Electrolux M2M, Bereich Diät) und sind ein anderer Gegenstand.
+
 Eintrag 13.08.2026 (Session Raphael, am Token und am Aussteller nachgemessen — **die bisherige
 Ursachenangabe zum bexio-401 war falsch**): Der Eintrag vom 12.08. nennt als Ursache «Token
 ungueltig/abgelaufen oder fehlende Scopes» und leitet daraus die Aktion «neuen PAT mit Scopes
