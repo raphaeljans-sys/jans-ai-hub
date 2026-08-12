@@ -149,15 +149,15 @@ NAS /Volumes/daten/jans-ai-hub    KANONISCH  skills, agents, rules, commands, wi
                                              templates, docs, logbuch, sync-tasks
   → GitHub                        BACKUP     einziges Off-Site, Push nur vom NAS und den Stationen
   → ~/Developer/jans-ai-hub       SPIEGEL    Lese-Klon; hier NIE geteilte Inhalte editieren
-      → .claude/{skills,agents,commands}  SYMLINK zurueck aufs NAS
-      → .claude/worktrees/*       5 verwaiste Worktrees, 8. Mai bis 9. Juli
+      → .claude/{skills,agents,commands}  SYMLINK zurück aufs NAS
+      → .claude/worktrees/*       5 verwaiste Worktrees, 08.05. bis 09.07.
 
 SharePoint / OneDrive             KANONISCH  Projekte, PROJEKT-STAND.md, Output-Ablage
-  → OneDrive-FreigegebeneBibliotheken–JANS/   der eine gueltige Pfad (15 Eintraege)
+  → OneDrive-FreigegebeneBibliotheken–JANS/   der eine gültige Pfad (15 Einträge)
   → drei weitere OneDrive-Wurzeln, davon zwei leere Namensraum-Leichen
 
 ~/.claude/scheduled-tasks/        KANONISCH  Live-Wecker, ausserhalb Git
-  → templates/scheduled-tasks/    SPIEGEL    Doku, ausdruecklich nicht Live-Zustand
+  → templates/scheduled-tasks/    SPIEGEL    Doku, ausdrücklich nicht Live-Zustand
 ```
 
 ## 1.7 Architekturdiagramm, Ist-Zustand
@@ -172,7 +172,7 @@ flowchart TB
 
   subgraph NAS["NAS DS918 — kanonische Quelle (93 % voll)"]
     REPO["/volume2/daten/jans-ai-hub<br/>skills · rules · wissen · logbuch"]
-    SC["nas-selfcommit.sh<br/>nativ, alle 15 Min<br/>Taktgeber DSM (nicht pruefbar)"]
+    SC["nas-selfcommit.sh<br/>nativ, alle 15 Min<br/>Taktgeber DSM (nicht prüfbar)"]
     QUEUE["sync-tasks/<br/>+ freigabe/ (kein Leser)"]
     RT["remote-tasks/pending"]
   end
@@ -210,7 +210,7 @@ flowchart TB
   NS --> REPO
   ST31 -->|liest| REPO
   ST31 -->|mailt| SP
-  MBP -->|bexio.env nur hier| SP
+  ST31 -->|bexio.env nur hier| SP
 
   classDef risiko fill:#fff3f3,stroke:#c0392b,stroke-width:2px
   classDef ok fill:#f4f9f4,stroke:#4a7c59
@@ -282,7 +282,7 @@ NAS-Committer im selben Zeitraum 41 Stunden stillstand (verwaister Rebase-Rest, 
 **Genau das ist der Befund.** Ein Mechanismus, der im Leerlauf schweigt, macht seinen eigenen
 Totalausfall unsichtbar: ein toter Job und ein ruhiger Tag sehen im Log identisch aus.
 Dasselbe gilt für den Sync-Task-Runner (`scripts/sync-task-run.sh:105`:
-`[ ${#TASKS[@]} -eq 0 ] && exit 0`, stiller Ausstieg ohne Logzeile) — sein
+`[ ${#TASKS[@]} -eq 0 ] && exit 0`, stiller Ausstieg ohne Logzeile). Sein
 `runner-202608.log` endet am **07.08. 21:29**, bei einem 30-Minuten-Takt. Ob er seither
 läuft, ist aus dem Log nicht entscheidbar.
 
@@ -311,7 +311,7 @@ Kontrollkanal: Tagesbriefing, Fristen-Radar, Heartbeat, Mahnwesen, Zahlungsabgle
 Kontingent-Frühwarnung, Wissens-Chef. Der Mini trägt acht reine Trainingsläufe.
 
 Die Architektur hat die Rollen vertauscht: Die Arbeit liegt auf der zuverlässigen Station,
-die Aufsicht auf der unzuverlässigen. Verschärfend kommt die Wechselseitigkeit hinzu —
+die Aufsicht auf der unzuverlässigen. Verschärfend kommt die Wechselseitigkeit hinzu:
 fällt das MacBook aus, fällt die Aufsicht über den Mini mit aus, und der Mini bemerkt es
 nicht (SPOF 1). Es gibt keinen Punkt im System, an dem der Ausfall des jeweils anderen
 sichtbar würde.
@@ -323,7 +323,7 @@ geschlossen ist (VERMUTET; das Zusammenspiel wurde nicht durchgespielt).
 
 ### SPOF 3 — Der NAS-Mount auf dem Mini kennt keine Wiederherstellung
 
-`com.jans.nas-mount.plist` hat `RunAtLoad`, aber **kein `StartInterval`** — er läuft genau
+`com.jans.nas-mount.plist` hat `RunAtLoad`, aber **kein `StartInterval`**: er läuft genau
 einmal pro Login. Der Befehl selbst ist ein `osascript` mit `try ... end try`, das jeden
 Fehler verschluckt und nach `/tmp/nas-mount.log` genau ein Wort schreibt (`file daten:`).
 
@@ -338,7 +338,7 @@ Sync-Task-Runner gegen leere Pfade weiter, ohne Meldung.
 
 `~/.bexio.env` liegt ausschliesslich auf dem MacBook Pro. Jede bexio-gestützte Arbeit
 (`mahnwesen`, `zahlungsabgleich`, `kostenkontrolle`, der bexio-Teil des `hub-chef`) ist
-damit an die mobile Station gebunden. `~/.zefix.env` fehlt auf **beiden** Stationen — der
+damit an die mobile Station gebunden. `~/.zefix.env` fehlt auf **beiden** Stationen: der
 Zefix-Connector steht im Werkzeug-Index und in der Wege-Logik, ist aber unbenutzbar.
 
 ### SPOF 5 — Speicher an zwei Stellen nahe der Grenze
@@ -376,7 +376,7 @@ interaktiv, weil sie ad hoc entstehen.
 `~/OneDrive-Quarantaene-260808` enthält **2.8 GB** und wurde am 08.08. zwischen 17:47 und
 20:41 angelegt (`ls -la`). Darin liegen:
 
-- `fileprovider-store/` und `domainscache.plist-260808` — Systeminterna des macOS-FileProviders
+- `fileprovider-store/` und `domainscache.plist-260808`: Systeminterna des macOS-FileProviders
 - **echte Projektdaten**: `JANS - AR - 01 Projekte`, `JANS - IMMO - 01 JANS Bewertung`,
   `JANS - IMMO - 02 UBS FS` **und** `JANS - IMMO - 02 UBSFS` (zwei Varianten desselben
   Ordners, die zweite vom 07.08.), vier weitere IMMO-Ordner, zwei Projekt-Bibliotheken
@@ -385,7 +385,7 @@ interaktiv, weil sie ad hoc entstehen.
 Der Reststand im Namensraum ist bis heute sichtbar: Neben dem gültigen
 `OneDrive-FreigegebeneBibliotheken–JANS/` (15 Einträge) existieren
 `OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2/`
-und dieselbe Kette mit einer vierten Verdoppelung und dem Suffix « 2» — beide **leer**.
+und dieselbe Kette mit einer vierten Verdoppelung und dem Suffix « 2», beide **leer**.
 
 **Der entscheidende Befund ist nicht der Eingriff, sondern seine Unsichtbarkeit.** Eine
 Volltextsuche über `rules/`, `logbuch/` und `docs/` nach «OneDrive-Quarantaene» und
@@ -394,8 +394,8 @@ Remote-Task-Scripts von **heute** (`remote-tasks/done/20260812-onedrive-status-c
 die den Ordner lediglich auf Existenz prüfen. Weder `logbuch/LOGBUCH.md` noch
 `logbuch/fristen.md` noch `rules/betrieb-chronik.md` kennen den Vorgang.
 
-Damit gilt: Der riskanteste Eingriff der vergangenen Woche — Chirurgie am Namensraum des
-Systems, das die gesamte Projektablage trägt, mit 2.8 GB verschobener Projektdaten — lief
+Damit gilt: Der riskanteste Eingriff der vergangenen Woche (Chirurgie am Namensraum des
+Systems, das die gesamte Projektablage trägt, mit 2.8 GB verschobener Projektdaten) lief
 ohne Guard, ohne Freigabe, ohne Chronikeintrag und ohne Fristen-Registerzeile. Er ist heute
 nur noch daran erkennbar, dass ein Ordner im Home-Verzeichnis liegt.
 
@@ -454,9 +454,9 @@ Absatz. Der «Doppelarbeit-Guard» im selben Abschnitt trägt bereits den Vermer
 ### Elf abgelöste Plists und fünf verwaiste Worktrees
 
 `~/Library/LaunchAgents/` trägt elf `.bak-*`/`.disabled-*`-Dateien neben den zwölf aktiven.
-`git worktree list` zeigt fünf Worktrees unter `.claude/worktrees/` (8. Mai bis 9. Juli,
+`git worktree list` zeigt fünf Worktrees unter `.claude/worktrees/` (08.05. bis 09.07.,
 vier davon detached HEAD, zusammen 792 K). Der Schaden ist gering, aber Rule
-`sync-kanonische-quelle` verbietet ausdrücklich Edits in Worktrees — jeder stehengelassene
+`sync-kanonische-quelle` verbietet ausdrücklich Edits in Worktrees: jeder stehengelassene
 Worktree ist eine Falle für die nächste Session, die ihn zufällig öffnet.
 
 ### Regel und Praxis divergieren beim auto-sync
@@ -464,7 +464,7 @@ Worktree ist eine Falle für die nächste Session, die ihn zufällig öffnet.
 Rule `git-auto-push.md` schreibt vor: «`git add <spezifische Dateien>` (keine `-A`, keine
 `.`)». `scripts/git-auto-sync.sh:67` führt `git add -A` aus. Da `.gitignore` alle
 Secret-Muster abdeckt und `.env` nachweislich nie committet wurde, ist das **kein akutes
-Sicherheitsrisiko** — aber es ist eine Regel, die im laufenden Betrieb nicht gilt, und
+Sicherheitsrisiko**, aber es ist eine Regel, die im laufenden Betrieb nicht gilt, und
 solche Regeln erodieren die Verbindlichkeit der übrigen.
 
 ### Git-Identität nicht gesetzt
@@ -478,40 +478,129 @@ aber es verrauscht das Log und erschwert die Zuordnung in der History.
 
 # Risikoliste
 
-Sortiert nach Schadenserwartung. «Fundstelle» ist jeweils der Ort, an dem der Befund
-nachprüfbar ist.
+Sortiert nach Schadenserwartung. Jeder Eintrag nennt vier Dinge: die **Fundstelle**, an der
+der Befund nachprüfbar ist, das **Szenario**, das ihn auslöst, das **Schadensbild** und den
+**Belegstatus**. Blockform statt Tabelle, weil eine sechsspaltige Tabelle im A4-Hochformat
+Wörter mitten im Wort trennt (Rule `dokument-layout-standard`).
 
-| Nr. | Risiko | Fundstelle | Eintrittsszenario | Schadensbild | Status |
-|---|---|---|---|---|---|
-| **R1** | Mac Mini startet nach Reboot nicht selbständig durch | `fdesetup status` = On; `autoLoginUser` nicht gesetzt; alle 12 Jobs in `~/Library/LaunchAgents/`; `last reboot` (5x am 12.08.) | Stromausfall, macOS-Update, Kernel-Panic in Abwesenheit | Nachtschicht, 8 Trainings-Tasks, Sync, Mount, Cockpit stehen bis zum physischen Login. Bei Abwesenheit tagelang | BELEGT |
-| **R2** | Stationsausfall wird von niemandem bemerkt | kein Leser von `station-status/*.md`; `hub-chef/SKILL.md` ohne Frische-Prüfung | R1 tritt ein, oder MacBook bleibt zu | Ausfall wird erst beim nächsten manuellen Blick entdeckt. Fristen laufen unbeobachtet | BELEGT |
-| **R3** | Gesamte Aufsicht auf der mobilen Station | `templates/scheduled-tasks/`: 31 MacBook vs. 8 Mini | MacBook geschlossen, unterwegs, Akku leer | Kein Tagesbriefing, kein Fristen-Radar, kein Mahnwesen, keine Kontingent-Frühwarnung. Zugleich R2 blind | BELEGT |
-| **R4** | Riskante Eingriffe ausserhalb des Guards, ohne Spur | `~/OneDrive-Quarantaene-260808` (2.8 GB); kein Treffer in `rules/`, `logbuch/`, `docs/` | Interaktive Reparatur an Cloud-Sync, FileProvider, Keychain, Systemdiensten | Datenverlust oder Divergenz ohne Rekonstruktionsmöglichkeit; zwei OneDrive-Ordnervarianten bereits vorhanden | BELEGT |
-| **R5** | Log ist kein Lebenszeichen | `git-auto-sync.sh:55-59`; `sync-task-run.sh:105`; `runner-202608.log` endet 07.08. | Ein Job stirbt oder wird nie geladen | Totalausfall sieht aus wie ein ruhiger Tag. Erkennung erst durch Folgeschaden | BELEGT |
-| **R6** | NAS-Mount auf dem Mini ohne Wiederherstellung | `com.jans.nas-mount.plist` (RunAtLoad, kein Intervall, `try…end try`); MacBook hat 2 Jobs dafür | SMB-Timeout, NAS-Neustart, Netzwerkunterbruch | Nachtschicht und Loops arbeiten gegen leere Pfade, ohne Meldung | BELEGT |
-| **R7** | Freigabe-Queue ohne Leser | `sync-tasks/freigabe/macbook-pro/20260811-230347_NAS-Committer-entsperren…md`, 24 h alt; Chronik 260812 | Guard hält einen Task korrekt zurück | Störung verlängert sich unbegrenzt. Real: 41 h Sync-Stillstand | BELEGT |
-| **R8** | Speicher nahe der Grenze, zweifach | `df -h /volume2` = 93 %; `logbuch/fristen.md:1053` (SharePoint, seit 18.06. offen) | Normales Wachstum der Loop-Ausgaben | Commit und Output-Ablage scheitern gleichzeitig; Loops schreiben ins Leere | BELEGT (NAS) / Registereintrag (SharePoint) |
-| **R9** | Post-mortem unmöglich, Logs in `/tmp` | alle `StandardErrorPath` der Mini-Jobs; Zeitstempel 12. Aug 17:50 = Boot | Jeder unerklärte Neustart | Ursache nicht rekonstruierbar. Gleicher Fehler wiederholt sich | BELEGT |
-| **R10** | `station-status` blockiert an OneDrive-`find` | `station-status.sh:64`; PID 13193, 6:07 min Laufzeit; Takt 600 s | OneDrive materialisiert Dateien oder hängt | Überlappende Läufe, veralteter Status, zusätzliche Last. Verschärft R2 | BELEGT |
-| **R11** | Scheduled-Task-Registry nicht steuerbar, Doku divergiert | Logbuch 08.08. «Stale-Fire»; `templates/scheduled-tasks/README.md`; Rule `modellwahl-routine` Ziff. 4 | Task deaktivieren, Modell setzen, Takt ändern | Änderung wirkt nicht, gilt aber als erledigt. Kosten und Läufe laufen weiter | BELEGT |
-| **R12** | bexio nur auf einer Station, Zefix auf keiner | `~/.bexio.env` fehlt auf dem Mini; `~/.zefix.env` fehlt auf beiden | Debitoren-Arbeit vom Mini aus; Firmenprüfung | bexio-Skills scheitern auf dem Mini; Zefix-Connector unbenutzbar trotz Eintrag im Index | BELEGT |
-| **R13** | Fünf Sync-Mechanismen blockieren sich gegenseitig | Chronik 260811/260812: `pull --rebase --autostash` erzeugt den Rest, den `nas-selfcommit` 178x umgeht | Gleichzeitiger Zugriff zweier Mechanismen | Sync-Stillstand, uncommittete Loop-Arbeit. Real: 44 Dateien aus 1,5 Tagen | BELEGT |
-| **R14** | Steuerungslogik als Prosa im Prompt | `nachtschicht-run.sh:126`, rund 4'000 Zeichen mit Korrekturen und Rücknahmen | Jede weitere Takt-Entscheidung | Nicht testbar, nicht diffbar. Widersprüche fallen erst im Lauf auf | BELEGT |
-| **R15** | Regel und Praxis divergieren (`git add -A`) | Rule `git-auto-push.md` vs. `git-auto-sync.sh:67` | Neue, noch nicht ignorierte Datei im Repo | Kein akutes Secret-Risiko (`.gitignore` deckt alle Muster, `.env` nie committet). Erodiert die Verbindlichkeit der Rules | BELEGT |
-| **R16** | Verwaiste Worktrees und tote Plists | `git worktree list` (5, ab 8. Mai); 11 `.bak/.disabled`-Plists | Session öffnet zufällig einen Worktree | Edit am falschen Ort, entgegen Rule `sync-kanonische-quelle` | BELEGT |
-| **R17** | Git-Identität nicht gesetzt | `git config user.name` leer (lokal und global); Warnung in `auto-sync.log` | Jeder auto-sync-Commit | Log verrauscht, Zuordnung in der History erschwert | BELEGT |
+**R1 — Mac Mini startet nach einem Reboot nicht selbständig durch** · BELEGT
+Fundstelle: `fdesetup status` = «FileVault is On»; `autoLoginUser` nicht gesetzt; alle 12 Jobs
+in `~/Library/LaunchAgents/`; `last reboot` mit 5 Neustarts am 12.08.
+Szenario: Stromausfall, macOS-Update oder Kernel-Panic in Abwesenheit.
+Schaden: Nachtschicht, 8 Trainings-Tasks, Sync, Mount und Cockpit stehen bis zum physischen
+Login. Bei Abwesenheit tagelang.
+
+**R2 — Der Ausfall einer Station wird von niemandem bemerkt** · BELEGT
+Fundstelle: kein Leser der Dateien `station-status/*.md`; `skills/hub-chef/SKILL.md` ohne
+Frische-Prüfung.
+Szenario: R1 tritt ein, oder das MacBook bleibt zu.
+Schaden: Der Ausfall wird erst beim nächsten manuellen Blick entdeckt. Fristen laufen
+unbeobachtet weiter.
+
+**R3 — Die gesamte Aufsicht läuft auf der mobilen Station** · BELEGT
+Fundstelle: `templates/scheduled-tasks/` mit 31 Tasks auf dem MacBook gegen 8 auf dem Mini.
+Szenario: MacBook geschlossen, unterwegs oder Akku leer.
+Schaden: Kein Tagesbriefing, kein Fristen-Radar, kein Mahnwesen, keine
+Kontingent-Frühwarnung. Zugleich ist R2 blind.
+
+**R4 — Riskante Eingriffe laufen ausserhalb des Guards und hinterlassen keine Spur** · BELEGT
+Fundstelle: `~/OneDrive-Quarantaene-260808` mit 2.8 GB; kein einziger Treffer in `rules/`,
+`logbuch/` und `docs/`.
+Szenario: interaktive Reparatur an Cloud-Sync, FileProvider, Keychain oder Systemdiensten.
+Schaden: Datenverlust oder Divergenz ohne Rekonstruktionsmöglichkeit. Zwei Varianten
+desselben OneDrive-Ordners liegen bereits vor.
+
+**R5 — Ein Log ist kein Lebenszeichen** · BELEGT
+Fundstelle: `scripts/git-auto-sync.sh:55-59`; `scripts/sync-task-run.sh:105`;
+`runner-202608.log` endet am 07.08. bei 30-Minuten-Takt.
+Szenario: ein Job stirbt oder wird nie geladen.
+Schaden: Der Totalausfall sieht aus wie ein ruhiger Tag. Erkennung erst über den
+Folgeschaden.
+
+**R6 — Der NAS-Mount auf dem Mini kennt keine Wiederherstellung** · BELEGT
+Fundstelle: `com.jans.nas-mount.plist` mit RunAtLoad, ohne Intervall, mit `try … end try`;
+das MacBook hat für dieselbe Aufgabe zwei Jobs.
+Szenario: SMB-Timeout, NAS-Neustart, Netzwerkunterbruch.
+Schaden: Nachtschicht und Loops arbeiten gegen leere Pfade weiter, ohne Meldung.
+
+**R7 — Die Freigabe-Queue hat keinen Leser** · BELEGT
+Fundstelle: `sync-tasks/freigabe/macbook-pro/20260811-230347_NAS-Committer-entsperren…md`,
+24 Stunden alt; Chronik 260812.
+Szenario: der Guard hält einen Task korrekt zurück.
+Schaden: Die Störung verlängert sich unbegrenzt. Real eingetreten: 41 Stunden
+Sync-Stillstand.
+
+**R8 — Speicher an zwei Stellen nahe der Grenze** · BELEGT für das NAS, Registereintrag für SharePoint
+Fundstelle: `df -h /volume2` mit 93 %; `logbuch/fristen.md:1053` für SharePoint, seit
+18.06. offen.
+Szenario: normales Wachstum der Loop-Ausgaben.
+Schaden: Commit und Output-Ablage scheitern gleichzeitig, die Loops schreiben ins Leere.
+
+**R9 — Post-mortem unmöglich, weil die Logs in `/tmp` liegen** · BELEGT
+Fundstelle: alle `StandardErrorPath` der Mini-Jobs; Zeitstempel 12. August 17:50, also
+die Boot-Zeit.
+Szenario: jeder unerklärte Neustart.
+Schaden: Die Ursache ist nicht rekonstruierbar, derselbe Fehler wiederholt sich.
+
+**R10 — `station-status` blockiert an einem `find` über OneDrive** · BELEGT
+Fundstelle: `scripts/station-status.sh:64`; PID 13193 mit 6:07 Minuten Laufzeit bei einem
+Takt von 600 s.
+Szenario: OneDrive materialisiert Dateien oder hängt.
+Schaden: überlappende Läufe, veralteter Status, zusätzliche Last. Verschärft R2.
+
+**R11 — Die Scheduled-Task-Registry ist nicht steuerbar, die Doku divergiert** · BELEGT
+Fundstelle: Logbuch 08.08. «Stale-Fire»; `templates/scheduled-tasks/README.md`; Rule
+`modellwahl-routine`, Ziffer 4.
+Szenario: eine Task deaktivieren, ein Modell setzen, einen Takt ändern.
+Schaden: Die Änderung wirkt nicht, gilt aber als erledigt. Kosten und Läufe laufen weiter.
+
+**R12 — bexio nur auf einer Station, Zefix auf keiner** · BELEGT
+Fundstelle: `~/.bexio.env` fehlt auf dem Mini, `~/.zefix.env` fehlt auf beiden Stationen.
+Szenario: Debitoren-Arbeit vom Mini aus, oder eine Firmenprüfung.
+Schaden: Die bexio-Skills scheitern auf dem Mini. Der Zefix-Connector ist unbenutzbar,
+obwohl er im Werkzeug-Index steht.
+
+**R13 — Fünf Sync-Mechanismen blockieren sich gegenseitig** · BELEGT
+Fundstelle: Chronik 260811 und 260812. Das `pull --rebase --autostash` erzeugt den Rest,
+den `nas-selfcommit` danach 178 Mal umgeht.
+Szenario: gleichzeitiger Zugriff zweier Mechanismen.
+Schaden: Sync-Stillstand mit uncommitteter Loop-Arbeit. Real eingetreten: 44 Dateien aus
+1.5 Tagen.
+
+**R14 — Steuerungslogik steht als Prosa im Prompt** · BELEGT
+Fundstelle: `scripts/nachtschicht-run.sh:126`, rund 4'000 Zeichen mit eingebetteten
+Korrekturen und Rücknahmen.
+Szenario: jede weitere Takt-Entscheidung.
+Schaden: nicht testbar, nicht diffbar. Widersprüche fallen erst im Lauf auf.
+
+**R15 — Regel und Praxis divergieren beim `git add -A`** · BELEGT
+Fundstelle: Rule `git-auto-push.md` gegen `scripts/git-auto-sync.sh:67`.
+Szenario: eine neue, noch nicht ignorierte Datei im Repo.
+Schaden: kein akutes Secret-Risiko, da `.gitignore` alle Muster deckt und `.env` nie
+committet wurde. Es erodiert aber die Verbindlichkeit der übrigen Rules.
+
+**R16 — Verwaiste Worktrees und tote Plists** · BELEGT
+Fundstelle: `git worktree list` mit 5 Einträgen ab 08.05.; 11 `.bak`- und
+`.disabled`-Plists.
+Szenario: eine Session öffnet zufällig einen Worktree.
+Schaden: Edit am falschen Ort, entgegen Rule `sync-kanonische-quelle`.
+
+**R17 — Die Git-Identität ist nicht gesetzt** · BELEGT
+Fundstelle: `git config user.name` ist leer, lokal wie global; Warnung in `auto-sync.log`.
+Szenario: jeder auto-sync-Commit.
+Schaden: Das Log verrauscht, die Zuordnung in der History wird erschwert.
 
 ---
 
 # Massnahmen
 
 Priorisiert nach Nutzen je Aufwand. Jede Massnahme nennt den konkreten Umsetzungsort.
-**Keine davon wurde in diesem Lauf ausgeführt** — der Auftrag war ein Audit, und mehrere
+**Keine davon wurde in diesem Lauf ausgeführt**: der Auftrag war ein Audit, und mehrere
 Massnahmen berühren Persistenz, Systemdienste und Freigabe-Mechanik.
 
 ## Priorität A — hoher Nutzen, kleiner Aufwand
 
-**A1 — Wechselseitiger Stations-Watchdog** *(gegen R2, R3, R1)*
+**A1 — Wechselseitiger Stations-Watchdog** *(gegen R1, R2, R3)*
 Ein Script `scripts/stationen-watchdog.sh` liest `station-status/<gegenstation>.md`, vergleicht
 den Zeitstempel mit der Gegenwart und meldet ab einer Schwelle (Vorschlag: 60 Min für den
 Mini, 24 h für das MacBook, weil mobil). Einhängen an zwei Stellen: als Check 13 im Skill
@@ -555,6 +644,16 @@ Aufwand: eine Stunde.
 `git config --global user.email "rj@raphaeljans.ch"` auf beiden Stationen.
 Aufwand: fünf Minuten.
 
+**A8 — Takt-Aussagen nachmessen statt dokumentieren** *(gegen R11)*
+Für die nicht steuerbare Scheduled-Task-Registry gibt es keine technische Lösung von der
+Session aus. Was es gibt, ist eine Beweispflicht. Ein Script
+`scripts/task-takt-nachweis.sh` liest `logbuch/laeufe/*.jsonl` und listet je Task den
+letzten tatsächlichen Lauf; die Differenz zwischen behauptetem Takt (aus dem Spiegel) und
+gemessenem Lauf ist der Befund. Einhängen in den Skill `heartbeat` und in den bestehenden
+Task `arbeits-weiche-review`. Ergänzend eine Zeile in Rule `modellwahl-routine`, die den
+Grundsatz verallgemeinert: eine Takt- oder Deaktivierungsänderung gilt erst als erledigt,
+wenn der ausbleibende beziehungsweise erfolgte Lauf gemessen ist. Aufwand: ein halber Tag.
+
 ## Priorität B — hoher Nutzen, mittlerer Aufwand
 
 **B1 — Aufsicht auf die Always-On-Station verlegen** *(gegen R3)*
@@ -562,7 +661,7 @@ Die Melde- und Kontroll-Tasks `hub-chef-taeglich`, `logbuch-radar`, `heartbeat-d
 `mahnwesen-verzugscheck`, `zahlungsabgleich-check`, `vollgas-fruehwarnung` und
 `vollgas-chef-radar` vom MacBook Pro auf den Mac Mini umziehen. Vorbedingung ist A4 und der
 Umzug von `~/.bexio.env` (siehe B3). Der Umzug muss in der Claude-Code-App erfolgen, weil die
-Registry von Sessions aus nicht steuerbar ist (R11) — das ist Handarbeit, aber einmalig.
+Registry von Sessions aus nicht steuerbar ist (R11). Das ist Handarbeit, aber einmalig.
 Die Trainings-Tasks bleiben, wo sie sind. Aufwand: ein halber Tag, davon der grössere Teil
 Nachmessen, dass die Tasks am neuen Ort wirklich feuern.
 
@@ -576,7 +675,7 @@ Drei gangbare Wege:
   Sicherheitsabwägung: physischer Zugriff auf das Gerät würde die lokale Platte lesbar
   machen. Aufwand: 30 Minuten.
 - **Die kritischen Jobs zu LaunchDaemons machen** (`/Library/LaunchDaemons/`, `root`). Sie
-  starten dann vor dem Login. Das löst FileVault **nicht** — der Rechner bleibt trotzdem am
+  starten dann vor dem Login. Das löst FileVault **nicht**: der Rechner bleibt trotzdem am
   Prompt stehen. Nur sinnvoll in Kombination mit dem ersten Weg.
 - **`sudo fdesetup authrestart` als Standard für geplante Neustarts** verwenden. Das hilft
   bei bewussten Reboots (also den fünf von heute), nicht beim Stromausfall.
@@ -589,7 +688,7 @@ Empfehlung: Weg eins plus A4, weil er als einziger den Stromausfall abdeckt. Ums
 `~/.bexio.env` auf den Mac Mini bringen (Voraussetzung für B1), `~/.zefix.env` neu
 beschaffen oder den Zefix-Connector aus `connectors/README.md` und `connectors/WEGE.md`
 als «Zugang fehlt» kennzeichnen. Ergänzend: `scripts/wege-doctor.sh` um eine Prüfung
-erweitern, die je Connector das Vorhandensein seines Auth-Artefakts meldet — dann fällt
+erweitern, die je Connector das Vorhandensein seines Auth-Artefakts meldet. Dann fällt
 eine fehlende Datei beim nächsten Wege-Radar auf, nicht erst beim Einsatz.
 **Secrets nie ins Repo**, Übertragung von Hand. Aufwand: eine Stunde.
 
@@ -614,7 +713,7 @@ Erst prüfen, dann räumen. Schritt eins: Abgleich der 2.8 GB in
 `~/OneDrive-Quarantaene-260808` gegen SharePoint, insbesondere die zwei Varianten
 `JANS - IMMO - 02 UBS FS` und `UBSFS`. Schritt zwei: die zwei leeren, verdoppelten
 CloudStorage-Wurzeln entfernen. Schritt drei: Chronikeintrag nachtragen, damit der Vorgang
-vom 08.08. dokumentiert ist. **Nicht unbeaufsichtigt, nicht als Sync-Task** — dieser Eingriff
+vom 08.08. dokumentiert ist. **Nicht unbeaufsichtigt, nicht als Sync-Task**: dieser Eingriff
 gehört interaktiv, mit Raphael am Bildschirm. Aufwand: zwei Stunden.
 
 ## Priorität C — mittlerer Nutzen, grösserer Aufwand
@@ -687,7 +786,7 @@ Die heutige Härtung des `nas-selfcommit` hat den ersten dieser vier Fälle gel�
 Massnahmen A1, A2 und A5 lösen die übrigen drei, mit zusammen etwa einem Arbeitstag.
 
 Der Prüffall vom 12.08. trägt dabei eine Korrektur in sich, die über ihn hinausweist:
-Nicht der Schlüsselbund blockiert den Git-Sync — der SSH-Key liegt ohne Passphrase vor.
+Nicht der Schlüsselbund blockiert den Git-Sync. Der SSH-Key liegt ohne Passphrase vor.
 Blockiert wird der **ganze Rechner**, weil FileVault ohne Auto-Login vor allen LaunchAgents
 steht. Die Station, die die Architektur «Always-On» nennt, ist genau so verfügbar wie die
 Anwesenheit einer Person vor dem Gerät.

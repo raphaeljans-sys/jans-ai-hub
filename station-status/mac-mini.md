@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.08.2026 23:09:11
+Stand: 12.08.2026 23:19:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:07)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 12.08.2026 23:09:11
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1fd74970 nas-selfcommit: 2 Datei(en) 2026-08-12 23:00
+- 9bcadef4 Freigabe-Sichtbarkeit: freigabe-status.sh (je Station, auch 0, >24h markiert, Exit 2 = UNBEKANNT) eingehaengt in heartbeat Check 5 + hub-chef Phase 1/6 als Sendegrund 5; Rule interaktive-eingriffe.md angelegt (NOCH NICHT importiert, zur Durchsicht); Freigabe-Task 11.08. als gegenstandslos nach done/ verworfen. Mitgenommen: Hub-Audit-Dokument aus paralleler Session
