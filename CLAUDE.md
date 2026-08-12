@@ -285,6 +285,7 @@ Historie der Auto-Verbesserungen: `rules/auto-verbesserungen-archiv.md` (nicht i
 @/Volumes/daten/jans-ai-hub/rules/dokument-layout-standard.md
 @/Volumes/daten/jans-ai-hub/rules/git-auto-push.md
 @/Volumes/daten/jans-ai-hub/rules/identifikatoren-verifizieren.md
+@/Volumes/daten/jans-ai-hub/rules/interaktive-eingriffe.md
 @/Volumes/daten/jans-ai-hub/rules/jans-absenderadresse.md
 @/Volumes/daten/jans-ai-hub/rules/mail-formatierung.md
 @/Volumes/daten/jans-ai-hub/rules/modellwahl-routine.md

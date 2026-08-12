@@ -171,6 +171,57 @@ nachgewiesen gefeuert.
 Teil dieses Laufs (User-Vorgabe: keine LaunchAgents/Plists anlegen/aendern/laden — A1 braucht
 einen eigenen LaunchAgent). Die Stamps liegen bereit, sobald A1 gebaut wird.
 
+## 260813 — Rule `interaktive-eingriffe` aktiviert, Guard-Luecke B4 geschlossen (Freigabe Raphael)
+
+**Einzeiler zu drei Eingriffen dieser Session**, gemaess der Rule, die damit selbst in Kraft ist.
+
+1. **`@`-Import gesetzt:** `rules/interaktive-eingriffe.md` ist seit heute aktiv (CLAUDE.md
+   Zeile 288, alphabetisch zwischen `identifikatoren-verifizieren` und `jans-absenderadresse`);
+   `rules/README.md` von «NOCH NICHT AKTIV» auf «aktiv seit 13.08.2026» gestellt. Entscheid
+   Raphael: **eine** Heimat fuer die Pflicht, keine separate `eingriffs-protokoll.md` — eine
+   Pflicht, die in zwei Regeln wohnt, driftet auseinander, bis niemand mehr weiss, welche gilt.
+   Die B4-Inhalte (Pflichtzeile in `fristen.md`, dokumentierte Guard-Luecke) waren am 12.08.
+   23:54 bereits in die Rule eingewandert (Commit `b4876e44`, Betreff Massnahme A1 — die
+   B4-Zeilen fuhren dort mit, was beim Suchen nach «B4» in die Irre fuehrt).
+   Sicherung: `/tmp/CLAUDE.md.vor-import-260813` auf der Synology.
+
+2. **Guard-Muster B4 Teil 2 ergaenzt** in `scripts/sync-task-guard.sh`, zwei neue Eintraege:
+   «Cloud-Sync und FileProvider» (`fileproviderctl`, `domainscache`, `brctl`,
+   `Application Support/FileProvider`, `killall|pkill` auf OneDrive/Dropbox/bird) und
+   «Verschluesselung und System-Defaults» (`fdesetup`, `defaults write /Library`, schreibende
+   `security`-Aufrufe). `launchctl`/`LaunchAgents` waren ueber «Persistenz» **schon** gedeckt —
+   die Audit-Liste nannte sie als Luecke, sie war keine.
+   Sicherung: `/tmp/sync-task-guard.sh.vor-b4-260813`.
+
+   **Bewusst NICHT aufgenommen: Pfad-Token wie `CloudStorage` oder `OneDrive` fuer sich.**
+   Sie treffen jeden harmlosen Projektpfad — die Ablage eines Deliverables nach OneDrive ist
+   die Regel, nicht die Ausnahme (Rule `projekt-ablage-stand`), und `mv`/`cp` dorthin ist
+   Alltag. Ein Muster darauf haette den Guard in eine stille Bremse verwandelt, also genau in
+   das Gegenteil dessen, was er soll. Zerstoerendes auf denselben Pfaden faengt ohnehin
+   «Zerstoerend rekursiv (auch relativ)» ab. **Werkzeug-Token statt Pfad-Token** ist die
+   uebertragbare Lehre: der Guard soll die Handlung erkennen, nicht den Ort.
+
+   **Nachgemessen (Probelauf, wie von Raphael verlangt):** zwei harmlose Tasks mit echten
+   OneDrive-Projektpfaden laufen durch (Exit 0); alle vier heiklen Testfaelle werden mit
+   korrektem Label gehalten (Exit 10); Regression ueber die **40 juengsten** Tasks in
+   `sync-tasks/done/`: vorher 4 gehalten, nachher 4 gehalten — **keine einzige zusaetzliche
+   Zurueckhaltung** durch die neuen Muster. Jedes Muster wurde relativ und ueber `ssh`
+   durchdacht (Chronik 260811); die Fern-Variante deckt zusaetzlich «Fernausfuehrung» ab.
+   Bekannt und akzeptiert: ein lesendes `fdesetup status` wird ebenfalls gehalten — bei einem
+   Werkzeug dieser Klasse ist die Rueckfrage billiger als die Ausnahme.
+
+3. **SMB-Mount neu angestossen** (`launchctl kickstart -k gui/501/com.jans.nas-mount`,
+   00:33) — **erfolglos**. Der Mount `//raphaeljans@192.168.1.10/daten` ist seit etwa 00:20
+   eine tote Session: `ls` und jeder Lesezugriff scheitern mit «Operation not permitted»,
+   waehrend Schluesselbund (`no-timeout`, also offen), Ping auf 192.168.1.10 und der
+   ssh-Zugang zur Synology einwandfrei arbeiten — es ist ein stale handle, kein Netz- und kein
+   Rechteproblem. Die gesamte Arbeit dieser Session lief deshalb **nativ per ssh am kanonischen
+   Ort**, was Rule `sync-kanonische-quelle` ohnehin vorzieht. **Offen fuer den Morgen:** der
+   Mount kommt ohne Handanlegen nicht zurueck (`com.jans.nas-mount` laeuft nur `RunAtLoad`),
+   und alle Loops, die `/Volumes/daten` lesen, laufen bis dahin ins Leere. Naechster Schritt
+   waere `umount -f /Volumes/daten` und ein frischer Mount — bewusst **nicht** um 00:35 und
+   nicht ohne Raphael, weil ein fehlschlagender Remount die Station ganz ohne NAS zuruecklaesst.
+
 ## 260812b — hub-chef-Lauf vom 08.08. sauber abgeschlossen; der Meldekanal selbst stand vier Tage still
 
 Einzeiler zum Abschluss: Der hub-chef-Lauf vom **08.08.2026** ist **vollstaendig** (Briefing

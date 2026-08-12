@@ -54,6 +54,13 @@ MUSTER=(
   "Fremdcode aus dem Netz::(curl|wget)[^|]*\|[ ]*(ba)?sh|base64 +-[dD][^|]*\|[ ]*(ba)?sh|eval +\"?\\\$\((curl|wget)"
   "Aussenwirkung Versand::osascript.*(com\.apple\.mail|\"Mail\").*(send|senden)|mail +-s|sendmail|--senden|--mahnen"
   "Zahlungen und Buchen::--buchen|--ja([^a-z]|$).*(buch|mahn)|bexio.*(buchen|mahnen)"
+  # --- B4 (Hub-Audit 260812, Anlass OneDrive-Vorfall 08.08.2026) -------------
+  # Bewusst WERKZEUG-Token statt Pfad-Token: "CloudStorage"/"OneDrive" allein
+  # traefe jeden harmlosen Projektpfad (Output-Ablage nach OneDrive ist die
+  # Regel, nicht die Ausnahme) und machte den Guard zur stillen Bremse.
+  # Zerstoerendes auf diesen Pfaden faengt bereits "Zerstoerend rekursiv" ab.
+  "Cloud-Sync und FileProvider::fileproviderctl|domainscache|brctl|Application Support/FileProvider|(killall|pkill)[^|]*(OneDrive|Dropbox|bird|FileProvider)"
+  "Verschluesselung und System-Defaults::fdesetup|defaults +write +/Library|security +(delete-[a-z-]*|set-keychain-settings|lock-keychain)"
 )
 
 TREFFER=""
