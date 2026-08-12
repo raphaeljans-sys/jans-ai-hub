@@ -74,3 +74,9 @@ logbuch/vollgas/monitor.html
 # wird (belegt 31.07.2026 an studien-generator/tools/__pycache__ im selben Commit).
 __pycache__/
 *.pyc
+
+# Heartbeat-Stamps (Massnahme A2, Hub-Audit 260812, gegen R5): reine Lebenszeichen von
+# git-auto-sync.sh und sync-task-run.sh, mtime aendert sich bei jedem Sync-Zyklus (alle
+# 5 bzw. 30 Min je Station). Ein Commit-wuerdiger Inhalt sind sie nie — nur ihr Alter
+# zaehlt, das A1 (Stations-Watchdog) direkt auf dem NAS liest.
+logbuch/heartbeat/*.stamp

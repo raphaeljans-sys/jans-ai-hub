@@ -21,6 +21,29 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260812c — Massnahme A2 (Hub-Audit): Lebenszeichen statt Stille fuer git-auto-sync und Sync-Task-Runner
+
+Umsetzung von Massnahme A2 aus `docs/konzepte/260812-Hub-Audit/260812-Hub-Audit.md` (gegen
+R5 — «ein Log ist kein Lebenszeichen»: `git-auto-sync.sh` und `sync-task-run.sh` schreiben bei
+«nichts zu tun» keine Zeile, ein toter Job und ein ruhiger Tag sehen im Log identisch aus).
+
+**Umsetzung:** Touch-Datei-Variante (sauberer als Log-Zeilen, trennt Puls von Inhalt, wie im
+Audit als Alternative vorgeschlagen). `scripts/git-auto-sync.sh` schreibt nach dem Pull-Block
+(vormals Zeile 59) `logbuch/heartbeat/git-auto-sync-<Hostname>.stamp`; `scripts/sync-task-run.sh`
+schreibt vor dem Leerlauf-Exit (vormals Zeile 105) `logbuch/heartbeat/synctask-runner-<Station>.stamp`.
+Je Station eine eigene Datei (Praezisierung gegenueber dem Audit-Vorschlag «je Job»): sonst
+wuerde der Puls der einen Station den Ausfall der anderen ueberdecken, genau das Muster, das
+SPOF 2 im Audit beschreibt.
+
+**Gemessen:** Beide Scripts am 12.08.2026 23:36 manuell einmal durchlaufen lassen (beide rc=0).
+Vorher war `logbuch/heartbeat/` leer, nachher lagen `git-auto-sync-Macmini.stamp` und
+`synctask-runner-mac-mini.stamp` mit frischem mtime dort. Der Mechanismus ist damit einmal
+nachgewiesen gefeuert.
+
+**Offen:** Der Watchdog, der das Alter dieser Stamps prueft (Massnahme A1), ist explizit NICHT
+Teil dieses Laufs (User-Vorgabe: keine LaunchAgents/Plists anlegen/aendern/laden — A1 braucht
+einen eigenen LaunchAgent). Die Stamps liegen bereit, sobald A1 gebaut wird.
+
 ## 260812b — hub-chef-Lauf vom 08.08. sauber abgeschlossen; der Meldekanal selbst stand vier Tage still
 
 Einzeiler zum Abschluss: Der hub-chef-Lauf vom **08.08.2026** ist **vollstaendig** (Briefing

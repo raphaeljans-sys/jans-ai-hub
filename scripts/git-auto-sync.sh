@@ -11,6 +11,11 @@
 REPO_DIR="$HOME/Developer/jans-ai-hub"
 LOG_FILE="$REPO_DIR/.git/auto-sync.log"
 MAX_LOG_LINES=500
+# A2 (Hub-Audit 260812, gegen R5): Herzschlag-Datei statt stillem Log. Ein Log, das bei
+# "nichts zu tun" schweigt, macht seinen eigenen Totalausfall unsichtbar (ein toter Job
+# und ein ruhiger Tag sehen identisch aus). Je Station eine eigene Stamp-Datei, damit ein
+# Ausfall auf EINER Station nicht durch den Puls der anderen ueberdeckt wird.
+NAS_HEARTBEAT_DIR="/Volumes/daten/jans-ai-hub/logbuch/heartbeat"
 
 log() {
     echo "$(date '+%Y-%m-%d %H:%M:%S') $1" >> "$LOG_FILE"
@@ -56,6 +61,13 @@ if echo "$PULL_OUTPUT" | grep -q "Already up to date"; then
     : # Nichts zu tun
 else
     log "PULL: $PULL_OUTPUT"
+fi
+
+# A2: Lebenszeichen setzen — der Job hat seinen Pull-Zyklus erfolgreich durchlaufen,
+# unabhaengig davon, ob es etwas zu tun gab. A1 (Stations-Watchdog) kann das Alter pruefen.
+if [ -d "$NAS_HEARTBEAT_DIR" ]; then
+    HB_STATION=$(scutil --get LocalHostName 2>/dev/null || hostname -s)
+    touch "$NAS_HEARTBEAT_DIR/git-auto-sync-$HB_STATION.stamp" 2>/dev/null
 fi
 
 # 2. Lokale Aenderungen committen

@@ -100,6 +100,13 @@ if [ ${#CTASKS[@]} -gt 0 ] && [ -f "$HOME/.jans-git-committer" ]; then
     fi
 fi
 
+# --- Lebenszeichen (A2, Hub-Audit 260812, gegen R5) --------------------------
+# Der Job schweigt bislang im Leerlauf (leere Queue = stiller exit 0) — ein toter
+# Runner und ein Tag ohne Pendenzen sehen dann identisch aus. Stamp VOR dem
+# Leerlauf-Exit setzen, damit er auch bei 0 Pendenzen zeigt, dass der Lauf stattfand.
+mkdir -p "$REPO_NAS/logbuch/heartbeat" 2>/dev/null
+touch "$REPO_NAS/logbuch/heartbeat/synctask-runner-$STATION.stamp" 2>/dev/null
+
 # --- Offene Pendenzen sammeln -----------------------------------------------
 TASKS=("$QUEUE"/*.md)
 [ ${#TASKS[@]} -eq 0 ] && exit 0
