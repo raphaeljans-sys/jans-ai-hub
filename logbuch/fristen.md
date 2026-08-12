@@ -3,6 +3,30 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Session Raphael, am Token und am Aussteller nachgemessen — **die bisherige
+Ursachenangabe zum bexio-401 war falsch**): Der Eintrag vom 12.08. nennt als Ursache «Token
+ungueltig/abgelaufen oder fehlende Scopes» und leitet daraus die Aktion «neuen PAT mit Scopes
+`kb_invoice_show` + `kb_invoice_edit` erzeugen» ab. **Beides trifft nicht zu.** Gemessen am
+hinterlegten Wert in `~/.bexio.env` (nur Metadaten gelesen, nie der Wert): es ist ein
+Keycloak-JWT von `https://auth.bexio.com/realms/bexio`, ausgestellt am **13.06.2026 11:04**,
+gueltig bis **13.12.2026** — zum Messzeitpunkt also **noch 122 Tage Restlaufzeit**. Die
+geforderten Scopes sind **beide vorhanden** (die Claim-Liste umfasst 60 Scopes, darunter
+`kb_invoice_show`, `kb_invoice_edit`, `offline_access`, `revocable`). Trotzdem antworten alle
+drei geprueften Endpunkte (`/2.0/company_profile`, `/3.0/banking/transactions`,
+`/2.0/kb_invoice`) mit **HTTP 401 «Unauthorized»**. Entscheidend ist die Gegenprobe beim
+Aussteller selbst: auch `.../openid-connect/userinfo` gibt **401** zurueck. Damit ist der Token
+nicht an der API gescheitert, sondern **beim Identity Provider ungueltig — die Session hinter
+dem `sid` wurde beendet oder zurueckgezogen**. **Folge fuer die Aktion:** ein neuer Token ist
+weiterhin noetig, aber aus einem anderen Grund, und **Abwarten hilft nicht** — der Ablauf im
+Dezember war nie das Problem. Ein Refresh-Token liegt nicht vor (`~/.bexio.env` enthaelt
+ausschliesslich `BEXIO_API_TOKEN`), eine programmatische Erneuerung ist darum nicht moeglich.
+**Behoben wurde die Fehlerquelle:** `connectors/bexio.mjs` behauptete die Ursache, statt sie zu
+messen; die 401-Meldung liest jetzt die Restlaufzeit aus dem Token und unterscheidet
+«abgelaufen» von «zurueckgezogen», samt der Gegenprobe-Zeile fuer den Aussteller. **Der Hub
+nennt den Wert an mehreren Stellen «Personal Access Token» — das trifft nicht zu**, und woher
+er 2026 bezogen wurde, ist nirgends dokumentiert; beim Erneuern bitte den Bezugsweg festhalten.
+Status: **Ursache geklaert, Fehlermeldung korrigiert, neuer Token weiterhin Aktion Raphael.**
+
 Eintrag 13.08.2026 (Session Raphael, Auftrag «bexio-Vorfilter reparieren» — **Punkt (b) des
 Eintrags vom 08.08. ist erledigt, Punkt (a) bleibt offen**): Die Monitoring-Luecke, durch die
 Tx 3630 (07.08., CHF 6'000) unsichtbar blieb, ist an beiden Ursachen geschlossen.
