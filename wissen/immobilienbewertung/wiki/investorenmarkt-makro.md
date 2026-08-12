@@ -234,6 +234,26 @@ Aktualisierung der Kurs-Anker (T10) mit dem jüngsten Marktstand:
   - **Update 20.06.2026 (Run 7):** Der **SREBI Q2-2026 ist noch nicht publiziert** (Stand
     20.06.2026); Q1-2026 = **0.69 «moderat»** bleibt der aktuelle Anker. Beobachtungspunkt für
     den nächsten Lauf, ob der zweite starke Quartalsanstieg sich fortsetzt.
+  - **Update 13.08.2026 (Marktpuls vorgezogen): SREBI Q2-2026 = 0.72 Indexpunkte**, publiziert
+    **06.08.2026**. Der Index steigt das dritte Quartal in Folge und bleibt mit «moderat»
+    deutlich unter der Risikoschwelle 1.0 (Blase ~1989 bei ~2.3). Begleitzahlen Q2-2026:
+    Wohneigentum **+3.6 % YoY**, **Angebotsmieten +2.4 % YoY**, **Bestandesmieten +1.1 % YoY**;
+    UBS-Prognose 2026 neu **nominal +3.5 bis +4.0 %** (vorher +3 %). Für die Bewertung: die
+    Preisdynamik ist eher stärker als im Frühjahr unterstellt, das Blasenrisiko bleibt aber im
+    moderaten Band — kein Anlass, Diskontsätze aus Risikogründen zu heben.
+    Quelle: UBS CIO, SREBI Q2-2026, publ. 06.08.2026 (Medienberichterstattung nau.ch 06.08.2026
+    gegengelesen; PDF-Primärquelle nicht direkt abrufbar → Wert `emerging`, Verifikation am
+    UBS-PDF beim nächsten Lauf).
+  - **⚠ METHODISCHER BEFUND 13.08.2026 — der SREBI wird rückwirkend revidiert.** Die
+    Q2-Publikation weist den Vorquartalswert mit **0.62** aus, während dieselbe Reihe im Mai
+    für Q1-2026 **0.69** meldete (UBS-Mitteilung 07.05.2026, «Anstieg um 0.23 auf 0.69»,
+    mehrfach unabhängig belegt). UBS hat Q1-2026 also nachträglich **um 0.07 Punkte nach unten
+    revidiert**. Der bisherige KB-Wert 0.69 war zu seinem Datenstand korrekt und ist nicht
+    falsch erfasst worden — er ist **überholt**. Konsequenz für die KB und für jedes
+    Deliverable: **einen SREBI-Quartalswert nie ohne Publikationsdatum zitieren**, und bei
+    Zeitreihen-Vergleichen immer die Werte **derselben** Publikation verwenden, nie Werte aus
+    zwei Quartalsberichten mischen. Dasselbe Revisionsverhalten ist bei Index-Reihen die Regel,
+    nicht die Ausnahme (vgl. BFS-IMPI in [[vergleichswert-hedonisch]]).
 - **Wüest-Partner-Prognose 2026 (Stand 06.2026, Web):** Transaktionspreise
   **Eigentumswohnungen +2.8 %**, **Einfamilienhäuser +3.1 %** für 2026 (deckt sich mit der
   UBS-Prognose Wohneigentum +3 %); **Bauinvestitionen +5.3 %** (Wohnungsbau zieht an, getrieben

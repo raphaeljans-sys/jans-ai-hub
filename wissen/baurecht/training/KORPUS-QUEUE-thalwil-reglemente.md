@@ -77,6 +77,28 @@ Klassen sauber trennen:
   ist aber weder genehmigt noch in Kraft. Die Queue-Kopfzeile «negative Vorwirkung seit
   16.05.2025» ist bestätigt (Auflage 16.05.–15.07.2025).
 
+### T2 — Umgebungsgestaltung (Run 73, 13.08.2026)
+
+- Wiki [[umgebungsgestaltung-und-einfriedungen]] **neu** — die grösste gemessene Lücke der
+  Priorität (d) ist geschlossen. Trägt die **Vierebenen-Prüfung** (Zonenrecht · Strassenrecht ·
+  Privatrecht · Einordnung), die vollständige **Konkordanz StrAV → VErV** und die
+  **Wegleitungs-Falle**.
+- **Kein neuer `raw/`-Volltext nötig:** der Batch liess sich vollständig aus dem vorhandenen
+  amtlichen Bestand belegen (PBG, VErV, EG ZGB, BZO Thalwil, revBZO-Synopse, ABV). Die 16 Dateien
+  des Ordners sind Screenshots des amtlichen Gemeinde-Merkblatts, zwei Claude-Erzeugnisse und
+  eine Claude-Übersichtsgrafik.
+- **Zwei materielle Fassungsbefunde** (nicht bloss Nummernwechsel): Lichtraum über Trottoirs/
+  Fuss-/Velowegen **2,5 → 2,65 m** (§ 20 VErV) und Kurveninnenseite von fester 0,80-m-Grenze zur
+  blossen **Abstandsbefugnis** (§ 28 VErV). Schliesst die QUESTIONS-Frage «StrAV-Masszahlen».
+- **Der wertvollste Befund war nicht beauftragt:** die Thalwiler «max. 1.40 m» für Gartenmauern
+  ist **kein Rechtssatz**. Die Wegleitung führt sie unter «*Aufgrund fehlender Rechtsgrundlage
+  weggelassene oder gelöschte Absätze, welche daher als Beurteilungsrichtlinie dienen*» — samt
+  drei weiteren Sätzen desselben Status. Er stand in keinem Screenshot des T2-Ordners, sondern
+  erst im Wegleitungs-PDF aus dem T4-Ordner, das zur Verifikation der Zahl beigezogen wurde.
+- **T8 teilweise vorgezogen** (die drei Gartenmauer-Erzeugnisse liegen in diesem Ordner):
+  Fehlerbericht in `outputs/2026-08-13_buch-run73.md`, Ziff. 4. Für T8 verbleiben die beiden
+  Factsheets vom 03.07.2026 (Gartenmauern/Besondere Gebäude).
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

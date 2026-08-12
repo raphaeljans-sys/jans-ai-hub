@@ -21,6 +21,25 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260813c — Task-Prompt `methoden-radar` auf den richtigen Quellordner nachgezogen (auf Auftrag)
+
+Eingriff der Klasse «Persistenz» (Rule `interaktive-eingriffe`), von Raphael selbst beauftragt,
+umkehrbar: In `/Users/raphaeljans/.claude/scheduled-tasks/methoden-radar/SKILL.md` stand als
+Quelle noch «03 Prompteingaben». Der OneDrive-Ordner heisst seit dem 30.07.2026 09:49
+«00 Prompteingaben». Getragen hat den Widerspruch zehn Tage lang allein der Vorfilter
+`scripts/methoden-scan.sh`, der seit dem 30.07. «00», dann «03» und zuletzt das Muster
+`* Prompteingaben` probiert — der Prompt selbst war falsch und wäre bei einem Umbau des Scripts
+sofort blind gewesen. Geändert wurden nur die zwei Pfadstellen, ergänzt um die Auflage, den Pfad
+nie hart anzunehmen, sondern die vom Script auf stderr ausgewiesene Quelle zu verwenden.
+Rückgängig zu machen durch Ersetzen von «00» durch «03» an denselben zwei Stellen. Nichts offen.
+
+**Lehre, gleiche Familie wie 260807 (Konfigurationsfelder messen statt glauben):** Ein Script,
+das eine Konfigurationsleiche kompensiert, hält den Betrieb am Laufen und verdeckt zugleich, dass
+die Konfiguration falsch ist. Der Fehler fällt erst auf, wenn die Kompensation wegfällt. Wer eine
+solche Fallback-Kette einbaut, korrigiert im selben Zug die Quelle, aus der der falsche Wert stammt.
+
+---
+
 ## 260813 — heartbeat zählte einen Hilfsordner als offene Sync-Task (Dauer-Fehlalarm behoben)
 
 **Befund im Lauf `heartbeat-daily` vom 13.08.2026, 00:51:** Die Zeile «Sync-Tasks» meldete

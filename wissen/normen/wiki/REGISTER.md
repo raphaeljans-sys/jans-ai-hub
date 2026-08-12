@@ -254,7 +254,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 381/2 | —(alle zurueckgezogen) | 1988✗ |  |
 | SIA 381/3 | 1982 | 1982✓ |  |
 | SIA 382/1 | 2007 | 2007✓ |  |
-| SIA 382/2 | 2011 | 2011✓ | Bestand 2011 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; SN 546382/2:2011 de, «Klimatisierte Gebäude — Leistungs- und Energiebedarf», ersetzt Empfehlung SIA V 382/2:1992; Scan mit schwachem OCR-Layer) |
+| SIA 382/2 | 2011 | 2011✓ | Bestand 2011 = gueltig 2013 ✓ (dt., Übernahme 260807 aus Downloads-Sammlung; SN 546382/2:2011 de, «Klimatisierte Gebäude — Leistungs- und Energiebedarf», ersetzt Empfehlung SIA V 382/2:1992; Scan mit schwachem OCR-Layer). **Nachtrag 13.08.2026 (Wissens-Chef Run 29):** per Stichtag 2013 gueltig, aber nach 2013 abgeloest — **archiviert, gueltig bis 31.10.2022, ersetzt durch SIA 380/2:2022** (shop.sia.ch, Vorgaenger-Block der 380/2 nennt SIA 2044:2019 und SIA 382/2:2011, selbst abgerufen 13.08.2026). Volltext 380/2 **nicht im Bestand**, ungelesen — Bring-Schuld. Details im `gueltigkeit`-Feld von `destillate/sia-382-2-2011.md` |
 | SIA 384/1 | 2009 | 2009✓ · 1991✗ |  |
 | SIA 384/2 | —(alle zurueckgezogen) | 1982✗ |  |
 | SIA 384/4 | —(alle zurueckgezogen) | 1987✗ |  |

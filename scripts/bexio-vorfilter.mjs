@@ -126,6 +126,19 @@ const eingaenge = (abgleich.eingangOhneBuchung || []).map((t) => ({
   amount: t.amount,
 }));
 
+// Unreconciled CREDIT ohne abgeglichenen Zwilling: unzugeordnetes Geld, KEIN Duplikat des
+// UBS-Doppelimports. Bis 13.08.2026 war dieser Fall im taeglichen Lauf blind — `eingaenge`
+// baut nur auf reconciled/auto_reconciled auf und kann ihn strukturell nie enthalten
+// (Connector bexio.mjs, abgleichCheck). Fehlt das Feld, ist der Connector aelter als dieser
+// Vorfilter; dann bleibt die Liste leer statt zu faelschlich «keine Eingaenge» zu behaupten.
+const unrecVorhanden = Array.isArray(abgleich.unrecOhneZwilling);
+const unrecEingaenge = (abgleich.unrecOhneZwilling || []).map((t) => ({
+  id: t.id,
+  date: t.date,
+  amount: t.amount,
+  titel: t.title || null,
+}));
+
 // Duplikate in Einzelfaelle und Pruefgruppen trennen: mehrere gleich hohe Betraege am selben
 // Tag duerfen NICHT pauschal als Duplikat gelten (koennen echte gleich hohe Zahlungen sein).
 const nachSchluessel = {};
@@ -163,6 +176,7 @@ const zustand = {
     verzugFaelle: verzug.length,
     verzugSumme: Number(verzug.reduce((s, r) => s + r.offen, 0).toFixed(2)),
     eingangOhneBuchung: eingaenge.length,
+    unrecOhneZwilling: unrecVorhanden ? unrecEingaenge.length : null,
   },
   verzug,
   phantome,
@@ -179,16 +193,35 @@ const zustand = {
   })),
   gruppen,
   eingaenge,
+  unrecEingaenge,
 };
 
 // ---------------------------------------------------------------- Vergleich
 
 const alt = existsSync(SNAPSHOT) ? JSON.parse(readFileSync(SNAPSHOT, "utf8")) : null;
 const delta = [];
+const kennzahlDelta = [];
 
 if (!alt) {
   delta.push("ERSTLAUF  kein Vergleichs-Snapshot vorhanden, voller Zustand unten");
 } else {
+  // Kennzahlen-Rueckfallnetz: bis zum 13.08.2026 verglich der Vorfilter ausschliesslich die
+  // Detail-Listen und meldete darum «keine Aenderung» (Exit 0), obwohl unreconciledCredit von
+  // 55 auf 56 gestiegen war (Tx 3630, 07.08.2026, CHF 6'000). Bewegt sich eine Kennzahl, ist
+  // das ein Delta — auch dann, wenn keine der Listen die Ursache abbildet. Genau das ist der
+  // Sinn dieses Blocks: er faengt die naechste Luecke, die noch niemand kennt.
+  const betragsKennzahl = new Set(["phantomSumme", "verzugSumme"]);
+  const altK = alt.kennzahlen || {};
+  for (const [name, wert] of Object.entries(zustand.kennzahlen)) {
+    const vorher = altK[name];
+    // Feld im alten Snapshot nicht vorhanden (neu eingefuehrte Kennzahl) oder beidseits
+    // unbekannt: kein Delta, sonst meldet der erste Lauf nach einer Erweiterung ein Phantom.
+    if (vorher === undefined || vorher === null || wert === null) continue;
+    if (vorher === wert) continue;
+    const f = betragsKennzahl.has(name) ? (v) => `CHF ${chf(v)}` : (v) => String(v);
+    kennzahlDelta.push(`${name} ${f(vorher)} -> ${f(wert)}`);
+  }
+
   // Verzug
   const altV = new Map(alt.verzug.map((r) => [r.nr, r]));
   const neuV = new Map(verzug.map((r) => [r.nr, r]));
@@ -245,6 +278,38 @@ if (!alt) {
       );
   for (const t of alt.eingaenge)
     if (!neuE.has(t.id)) delta.push(`EINGANG WEG   Tx ${t.id} CHF ${chf(t.amount)} — zugeordnet`);
+
+  // Unzugeordnete unreconciled Eingaenge. Fehlt das Feld im alten Snapshot, ist dies der erste
+  // Lauf nach der Erweiterung: dann wird der Bestand EINMAL als Erstbestand ausgewiesen statt
+  // Posten fuer Posten als «neu» — sonst sieht ein Altbestand wie ein Geldregen von heute aus.
+  if (!unrecVorhanden) {
+    delta.push(
+      "UNREC        Connector liefert kein unrecOhneZwilling — bexio.mjs ist aelter als dieser Vorfilter"
+    );
+  } else if (!Array.isArray(alt.unrecEingaenge)) {
+    if (unrecEingaenge.length)
+      delta.push(
+        `UNREC ERST   ${unrecEingaenge.length} unzugeordnete/r Eingang/Eingaenge im Erstbestand: ` +
+          unrecEingaenge
+            .map((t) => `Tx ${t.id} ${deDatum(t.date)} CHF ${chf(t.amount)}`)
+            .join(" · ") +
+          " — je Posten am E-Banking gegenpruefen"
+      );
+  } else {
+    const altU = new Set(alt.unrecEingaenge.map((t) => t.id));
+    const neuU = new Set(unrecEingaenge.map((t) => t.id));
+    for (const t of unrecEingaenge)
+      if (!altU.has(t.id))
+        delta.push(
+          `UNREC NEU     Tx ${t.id} ${deDatum(t.date)} CHF ${chf(t.amount)} «${t.titel || "ohne Titel"}» ` +
+            "— Geldeingang ohne Zuordnung und ohne Zwilling, E-Banking gegenpruefen"
+        );
+    for (const t of alt.unrecEingaenge)
+      if (!neuU.has(t.id))
+        delta.push(
+          `UNREC WEG     Tx ${t.id} CHF ${chf(t.amount)} — zugeordnet, ignoriert oder als Duplikat erkannt`
+        );
+  }
 }
 
 // ---------------------------------------------------------------- Vorbehalte

@@ -2,6 +2,25 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-13 (methoden-radar, Nachhol-Lauf 00:57 auf Auftrag Raphael) — Prompt-Pfad korrigiert, Rotation Anthropic-Lecture ohne Befund
+
+- **[korrigiert] Der Task-Prompt nannte als Quelle noch «03 Prompteingaben».** Der OneDrive-Ordner
+  heisst seit dem 30.07.2026 09:49 «00 Prompteingaben». Aufgefangen wurde das bisher allein von
+  `scripts/methoden-scan.sh`, das seit dem 30.07. beide Namen probiert — der Prompt selbst war zehn
+  Tage lang falsch. In `/Users/raphaeljans/.claude/scheduled-tasks/methoden-radar/SKILL.md`
+  nachgezogen, mit dem Zusatz, den Pfad nie hart anzunehmen, sondern die vom Script auf stderr
+  ausgewiesene Quelle zu verwenden.
+- **[kein Delta] Vorfilter Exit 0**, 8 Ordner unveraendert — Verifikations-Rotation statt Destillation.
+- **[geprueft, ohne neuen Befund] Rotationszeile `260729 Antrophic Lecture`:** alle Artefakte
+  vorhanden (beide Destillate, `auto-verbesserungen` 260729, `claude-run.sh` mit der Locale-Haertung
+  vom 01.08., `connectors/README.md`, Konzeptordner Kontext-Diaet); Aufsicht `vollgas-fruehwarnung`
+  enabled, letzter Lauf 08.08.; Liefer-Belege bis 06.08. Die Luecke 09.–12.08. ist der dokumentierte
+  Stationsausfall, kein Leerlauf — die Pflichtpruefung aus Run 23 wurde durchgefuehrt.
+- **[Betrieb, Nebenbefund] Der Wochenlauf vom Montag 10.08. ist ausgefallen**, `lastRunAt` stand auf
+  03.08. Ursache dieselbe wie beim Ausfall aller Tagesloops zwischen dem 09. und 12.08.; dieser Lauf
+  holt ihn nach. Kein eigener Defekt des Radars.
+- **[Register]** Zeile `260729 Antrophic Lecture` gestempelt, Rotation weiter auf `260725 Archetypen`.
+
 ## 2026-08-06 (Wissens-Chef Run 27, Cross-KB) — Grundkontext neu gemessen, Riegel-Datierung berichtigt
 
 - **`wiki/kontext-architektur.md` fortgeschrieben, nichts ueberschrieben.** Eigene Messung

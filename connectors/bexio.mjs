@@ -425,12 +425,11 @@ async function kontieren(jahr, { zielDatei = null } = {}) {
 
   // 1) echte Transaktionen des Jahres: reconciled/auto_reconciled + unreconciled OHNE Zwilling.
   //    Status "ignored" (in der UI bereinigte Duplikate) faellt bewusst raus.
-  const key = t => `${t.bank_account_id}|${t.type}|${t.value_date}|${Math.round(Number(t.amount) * 100)}`;
-  const realKeys = new Set(tx.filter(t => ['reconciled', 'auto_reconciled'].includes(t.status)).map(key));
+  const realKeys = new Set(tx.filter(t => ['reconciled', 'auto_reconciled'].includes(t.status)).map(txKey));
   const echte = tx.filter(t =>
     String(t.value_date || '').startsWith(String(jahr)) &&
     (['reconciled', 'auto_reconciled'].includes(t.status) ||
-     (t.status === 'unreconciled' && !realKeys.has(key(t)))));
+     (t.status === 'unreconciled' && !realKeys.has(txKey(t)))));
 
   // 1b) Doppelimport des UBS-Feeds: identische unreconciled-Transaktionen (Konto|Typ|Datum|
   //     Betrag|Titel) zu EINER Position zusammenfassen; anzahl_im_feed dokumentiert die
@@ -439,7 +438,7 @@ async function kontieren(jahr, { zielDatei = null } = {}) {
   const bereinigt = [];
   for (const t of echte) {
     if (t.status !== 'unreconciled') { bereinigt.push({ ...t, _anzahl: 1 }); continue; }
-    const k = key(t) + '|' + (t.title || '');
+    const k = txKey(t) + '|' + (t.title || '');
     if (gesehen.has(k)) { gesehen.get(k)._anzahl++; continue; }
     const kopie = { ...t, _anzahl: 1 };
     gesehen.set(k, kopie); bereinigt.push(kopie);
@@ -685,14 +684,17 @@ const main = async () => {
     return;
   }
   if (arg('--abgleich')) {
-    const { realCount, credUnrecCount, ohneBeleg, eingangOhneBuchung } = await abgleichCheck();
-    if (arg('--json')) { console.log(JSON.stringify({ realCount, credUnrecCount, ohneBeleg, eingangOhneBuchung }, null, 2)); return; }
+    const { realCount, credUnrecCount, ohneBeleg, eingangOhneBuchung, unrecOhneZwilling } = await abgleichCheck();
+    if (arg('--json')) { console.log(JSON.stringify({ realCount, credUnrecCount, ohneBeleg, eingangOhneBuchung, unrecOhneZwilling }, null, 2)); return; }
     console.log(`Echte Eingaenge (reconciled/auto): ${realCount}  |  unreconciled CREDIT (meist Duplikate): ${credUnrecCount}`);
     console.log(`\n■ Als BEZAHLT gebucht, aber OHNE echten Bankbeleg (${ohneBeleg.length}):`);
     if (ohneBeleg.length) for (const f of ohneBeleg) console.log(`  ⚠ ${f.nr}  ${chf(f.betrag)}  gebucht ${f.datum}  ${f.kunde}`);
     else console.log('  (keine — alle bezahlten Rechnungen sind bankgedeckt)');
     console.log(`\n■ Echter Bankeingang ohne zugeordnete Rechnungs-Zahlung (${eingangOhneBuchung.length}):`);
     for (const r of eingangOhneBuchung) console.log(`  ${r.date}  ${chf(r.amount)}  (Bank-Tx ${r.id})`);
+    console.log(`\n■ Unreconciled Eingang OHNE abgeglichenen Zwilling — kein Duplikat, sondern unzugeordnetes Geld (${unrecOhneZwilling.length}):`);
+    if (unrecOhneZwilling.length) for (const r of unrecOhneZwilling) console.log(`  ⚠ ${r.date}  ${chf(r.amount)}  (Bank-Tx ${r.id})  ${r.title || ''}`);
+    else console.log('  (keine)');
     return;
   }
   if (arg('--duplikate')) {

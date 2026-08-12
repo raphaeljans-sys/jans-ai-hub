@@ -5,6 +5,40 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Methoden-Radar 13.08.2026, 00:57 — Nachhol-Lauf auf Auftrag Raphael (Prompt-Pfad korrigiert, Rotation ohne Befund)
+
+**Auslöser:** Auftrag Raphaels, den Prompt anzupassen und den Loop auszuführen. Der zunächst
+genannte Bezug «neues Repo» liess sich am Hub nicht belegen — geprüft wurden `~/Developer/`
+(nur `jans-ai-hub`), neu angelegte `.git`-Verzeichnisse unter `~`, das Logbuch bis zum 12.08.,
+die Konversations-Destillate vom 31.07. bis 08.08., `sync-tasks/` samt Freigabe-Queue,
+`remote-tasks/pending/` und eine hubweite Textsuche über alle seit dem 08.08. geänderten
+Dateien. Kein zweites Repo, kein dokumentierter Entscheid, eines anzulegen. Stattdessen
+umgesetzt, was tatsächlich veraltet war.
+
+**Korrigiert:** Der Task-Prompt
+`/Users/raphaeljans/.claude/scheduled-tasks/methoden-radar/SKILL.md` nannte als Quelle noch
+«03 Prompteingaben»; der OneDrive-Ordner heisst seit dem 30.07.2026 09:49 «00 Prompteingaben».
+Getragen hat das bisher allein der Vorfilter `scripts/methoden-scan.sh`, der seit dem 30.07.
+beide Namen probiert. Neu steht der richtige Pfad im Prompt, mit der Auflage, ihn nie hart
+anzunehmen, sondern die vom Script auf stderr ausgewiesene Quelle zu verwenden.
+
+**Lauf:** Vorfilter Exit 0, 8 Ordner unverändert, kein neues Methoden-Material. Rotationszeile
+`260729 Antrophic Lecture` geprüft — alle Artefakte vorhanden, Aufsicht `vollgas-fruehwarnung`
+aktiv, Liefer-Belege bis 06.08. Kein neuer Befund. Die Lücke vom 09. bis 12.08. ist der
+dokumentierte Stationsausfall; die seit Run 23 vorgeschriebene Prüfung, ob der Loop im
+fraglichen Fenster überhaupt laufen durfte, wurde durchgeführt.
+
+**Nebenbefund Betrieb:** Der Wochenlauf vom Montag **10.08. ist ausgefallen** (`lastRunAt` stand
+auf dem 03.08.). Ursache ist derselbe Ausfall, der auch Hub-Chef und Radar vom 09. bis 12.08.
+stillgelegt hat — kein eigener Defekt. Dieser Lauf holt ihn nach; der reguläre Takt steht wieder
+auf Montag 17.08. Nichts deaktiviert, nichts umgetaktet.
+
+**Nur zur Kenntnis, bereits registriert:** Dass die Vollgas-Frühwarnung am 08./09.08. zwei
+Warnentwürfe erzeugte und keinen sendete, steht als P1 im Fristen-Register vom 12.08. Hier
+bewusst kein zweiter Alarm.
+
+---
+
 ## Hub-Chef 12.08.2026, 23:15 bis 23:40 — Abschluss des Laufs vom 08.08. und Nachhol-Lauf (Auftrag Raphael, interaktiv)
 
 **Zweck: einen durch die Mac-Mini-Neustarts vom 12.08. getrennten Lauf sauber schliessen, keine

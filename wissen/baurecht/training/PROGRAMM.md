@@ -156,7 +156,11 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
 4. **Einfriedungen, Gartenmauern, Sichtschutz** — die Vierebenen-Prüfung Zonenrecht /
    Strassenrecht (§ 240 PBG, VErV §§ 23/26/27/28 — StrAV per 01.06.2020 aufgehoben) /
    Privatrecht (§ 178 EG ZGB, 1,5 m) / Einordnung
-   (§ 238 Abs. 1 PBG). **Kein eigener Wiki-Artikel** — die grösste Lücke; Batch T2.
+   (§ 238 Abs. 1 PBG). ~~**Kein eigener Wiki-Artikel** — die grösste Lücke; Batch T2.~~
+   **ERLEDIGT (Run 73, 13.08.2026, Batch T2):** eigener Wiki-Artikel
+   [[umgebungsgestaltung-und-einfriedungen]] mit der Vierebenen-Prüfung, der Konkordanz
+   StrAV → VErV und der Wegleitungs-Falle (kommunale Masszahl ohne Rechtssatzcharakter).
+   Offen bleibt nur das Rechtsprechungs-Register zu § 238 Abs. 1 PBG (Thema 6).
 5. **Negative Vorwirkung revidierter BZO** — **ERLEDIGT (Run 72, 03.08.2026, Batch T1).**
    Eigener Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]]: Anknüpfung § 234 PBG
    («durch den Gemeindevorstand **beantragte** planungsrechtliche Festlegung»), nur negative
@@ -194,7 +198,11 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    Volltext liegt seit 03.08.2026 in `raw/260803_amtlich_zh_verkehrserschliessungsv.md`).
    **Nicht mehr beschaffen** (korrigiert 31.07.2026, Wissens-Chef Run 22 — der Auftrag war seit
    dem 30.07. gegenstandslos, der Nachfolgeerlass lag bereits in derselben KB).
-   Zu bearbeiten sind die Kernparagraphen der VErV: § 23 Sichtbereiche dauernd freizuhalten ·
+   **ERLEDIGT (Run 73, 13.08.2026):** die Kernparagraphen sind erfasst und in
+   [[umgebungsgestaltung-und-einfriedungen]] Ziff. 2 als **Konkordanz StrAV → VErV** geführt,
+   inkl. der zwei materiellen Änderungen (Lichtraum § 20: 2,5 → **2,65 m** über Trottoirs/Fuss-/
+   Velowegen; Kurveninnenseite § 28: feste 0,80-m-Grenze → blosse **Abstandsbefugnis**).
+   Erfasst sind: § 23 Sichtbereiche dauernd freizuhalten ·
    § 26 Abstände von Mauern und Einfriedigungen (Abs. 1 lit. a offene Einfriedigungen, lit. b
    bis 0,8 m in allen Strassenbereichen, lit. c über 0,8 m nur an geraden Strecken und an der
    Kurven-Aussenseite; Abs. 2 bis 0,5 m bei fehlendem Fussgängerschutz) · § 27 Abstände von
@@ -281,6 +289,44 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
+  - **Run 73 (2026-08-13, Festigungsmodus, Priorität (d) Korpus-Queue Batch T2 + Priorität (b),
+    kein Agent-Fan-out):** **Die grösste gemessene Lücke der Priorität (d) ist geschlossen.**
+    Neuer Wiki-Artikel **[[umgebungsgestaltung-und-einfriedungen]]** — Thema Nr. 4 der neun
+    Zielthemen war bis heute «kein eigener Wiki-Artikel». Er trägt die **Vierebenen-Prüfung**
+    (Zonenrecht § 238a PBG + BZO · Strassenrecht **VErV** gegen die Strassengrenze · Privatrecht
+    §§ 169-179 EG ZGB gegen die Nachbargrenze · Einordnung § 238 Abs. 1 PBG), kumulativ und je
+    die strengere Anforderung. **§ 309 Abs. 1 lit. h PBG** nennt Mauern und Einfriedigungen
+    ausdrücklich und eigenständig als bewilligungspflichtig.
+    **Priorität (b), zwei MATERIELLE Fassungsbefunde** — nicht bloss ein Nummernwechsel, und
+    genau der Fall, den ein Fassungscheck auf Erlassebene verfehlt hätte: die vollständige
+    Konkordanz **StrAV → VErV** zeigt, dass § 7 StrAV → **§ 26 Abs. 1 VErV** zwar wortgleich
+    übernommen wurde (dessen Abs. 2, Abstand bis 0,5 m bei fehlendem Fussgängerschutz, ist neu),
+    dass sich aber **§ 17 StrAV → § 20 VErV materiell änderte** (Lichtraum über Trottoirs, Fuss-
+    und Velowegen **2,5 → 2,65 m**; Fahrbahngebiet unverändert 4,5 m) und dass **§ 28 VErV** die
+    feste 0,80-m-Obergrenze an der **Kurveninnenseite** durch eine blosse **Abstandsbefugnis**
+    ersetzt hat. Wer weiter «max. 0,80 m» schreibt, gibt eine offene Verhandlungsposition preis.
+    Schliesst die seit Run 25 offene QUESTIONS-Frage «StrAV-Masszahlen» — sie war **falsch
+    gestellt**, weil es keinen geltenden StrAV-Volltext mehr gibt.
+    **Der wertvollste Befund stand in keinem Auftrag** (Muster wie Run 72): die Thalwiler
+    «max. 1.40 m» für Gartenmauern längs Strassen und Wegen ist **kein Rechtssatz**. Die
+    Wegleitung BZO (Nachführung 2020) führt sie unter der Überschrift «*Aufgrund fehlender
+    Rechtsgrundlage weggelassene oder gelöschte Absätze, welche daher als Beurteilungsrichtlinie
+    dienen*» — zusammen mit drei weiteren Sätzen desselben Status (Abgrabungen/Aufschüttungen
+    «in der Regel nicht mehr als 1.5 m», Gestaltungs-/Bepflanzungsvorgaben, Stützmauern «auf die
+    technisch notwendigen Minimalmasse»). Rechtsfolge: kein selbständiger Ablehnungsgrund, nur
+    Auslegungshilfe im Rahmen von § 238 Abs. 1 PBG. Gefunden wurde er nur, weil die Zahl vor der
+    Übernahme verifiziert wurde — sie steht in **keiner** der beiden BZO-Fassungen, und der
+    Nullbefund wurde nicht als Halluzinationsbeweis genommen, sondern als Anlass, die Wegleitung
+    beizuziehen (Leitplanke «ein leeres Ergebnis ist zuerst eine Aussage über das Werkzeug»).
+    **T8 teilweise vorgezogen:** die drei Claude-Erzeugnisse zur Gartenmauer gegengelesen,
+    **4 Fehler** (2× tote StrAV-Fundstelle, 1× überholtes Lichtraummass, 1× Rechtscharakter der
+    1,40 m unterschlagen, dazu «Art. 2a ABV» statt «§ 2a ABV»), **davon keiner in die KB
+    übernommen**. **0 Halluzinationen**, 2 neue Drill-Karten (beide am Fall Bohlweg 3),
+    ~6 Fundorte gesweept. Report `outputs/2026-08-13_buch-run73.md`. **«Rückstand abgebaut»
+    NICHT ausgerufen** — die Korpus-Queue steht bei **2 von 8** Batches. **Nächster Schritt:**
+    Batch **T3** (Grundmasse + Sonderbauvorschrift W3 + Zonenplan) oder **T4** (Merkblätter/
+    Wegleitungen) — für T4 spricht, dass der Wegleitungs-Befund dieses Laufs zeigt, wie viel
+    Rechtscharakter-Klärung in diesem Ordner steckt.
   - **Run 72 (2026-08-03/04, Festigungsmodus, Priorität (d) Korpus-Queue Batch T1, kein
     Agent-Fan-out):** Erster Batch der Thalwiler Reglemente-Queue abgearbeitet — **BZO-Revision
     2025**. Beide Synopse-PDFs vom Mac-Mini-OneDrive gelesen; **die zwei Fassungen sind nicht
