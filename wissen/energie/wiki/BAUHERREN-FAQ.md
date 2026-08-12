@@ -7411,3 +7411,208 @@ herzuleiten.
 2010, und «Wegleitung Nachweis-Formular MINERGIE», Version 11 vom 03.02.2010, gelesen 07.08.2026
 → `[[minergie-reglement-wegleitung-2010-historisch]]` (Status **superseded**, historische
 Fassung). Geltender Stand: `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+
+---
+
+## F222 — «Wassersparen ist doch ein Umweltthema. Spart es auch Energie?»
+
+**Kurz:** Ja, und zwar fast ausschliesslich über das **Warmwasser**. Kaltwasser kostet über die
+ganze Kette von der Aufbereitung bis zur Abwasserreinigung nur etwa **4 MJ (1,1 kWh) Strom pro
+m³**. Ein Kubikmeter Warmwasser aus einem Elektro-Einzelspeicher braucht inklusive Ausstoss- und
+Auskühlverlusten rund **270 MJ (75 kWh)** — also etwa **siebzigmal mehr**. Wer Wasser sparen will
+und dabei Energie im Blick hat, setzt deshalb bei Dusche, Bad und Waschmaschine an, nicht bei der
+Toilettenspülung.
+
+**Fachlich:** Die Verbrauchsanteile im Haushalt verteilen sich auf Klosettspülung 32 %, Baden und
+Duschen 30 %, Wäsche waschen 12 %, Geschirr spülen 6 %, Körperpflege 6 %, Gartenbewässerung 4 %,
+Putzen 4 %, Auto waschen 3 %, Trinken und Kochen 3 %. Der grösste Wasserposten (Klosett) ist
+energetisch der billigste, der zweitgrösste (Baden und Duschen) der teuerste. Im Mehrfamilienhaus
+mit **zentraler** Wassererwärmung liegt der Energiebedarf pro m³ Warmwasser häufig **bis zu 50 %
+höher** als beim Einzelspeicher, weil Verteilung und Zirkulation dazukommen. Genau dort setzen die
+Betriebsregeln an: Umwälzpumpen und Begleitheizbänder müssen zeitlich abschaltbar sein, die
+Ausschaltzeit ausserhalb der Hauptnutzungszeit sollte mehr als 6 Stunden betragen. Die
+Temperaturspanne ist beidseitig begrenzt, oben durch die Energievorschrift, unten durch die
+Hygiene: nicht über 60 °C, aus Legionellengründen nicht unter 45 °C, und das Durchspülen aller
+Warmwasserleitungen mit mindestens 60 °C muss möglich sein.
+
+**Bauherren-Transfer:** Zwei Dinge lohnen sich im Neubau und bei jeder Sanierung des
+Verteilsystems, weil sie später kaum nachrüstbar sind: **kurze Leitungswege** zu den
+Warmwasser-Entnahmestellen und die **individuelle Erfassung des Warmwasserverbrauchs** pro
+Wohnung. Wasserspar-Armaturen sind demgegenüber ein Detail, das man jederzeit tauschen kann. Ein
+Punkt aus der Quelle ist ausdrücklich eine Warnung, nicht ein Tipp: der unfachmännische
+nachträgliche Ersatz von Mischdüsen durch Durchflussbegrenzer kann die Leitungen so schwach
+durchströmen lassen, dass sich Festteile absetzen und Leitungskorrosion begünstigen. Mengenbegrenzung
+gehört in die Planung des Fliessdrucks, nicht ins nachträgliche Basteln an der Armatur.
+
+**Der aufschlussreichste Vergleich über die Zeit:** Die Quelle von 1997 nennt für Dusche,
+Waschtisch, Spültisch und Bidet bei 3 bar Fliessdruck einen **Ist-Volumenstrom von 12 l/min** und
+empfiehlt als **Soll 11 bzw. 8,5 l/min** (bei entsprechend reduziertem Druck). Die
+Ökologie-Merkblätter von 2008 und das ecoBKP 2026 führen für Duschen **12 l/min** als Anforderung
+an eine *wassersparende* Armatur. Was 1997 der schlichte Istzustand war, ist heute der
+Sparstandard. Das ist kein Widerspruch der Quellen, sondern ein Hinweis, wie wenig sich bei den
+Armaturen bewegt hat, und ein Argument dafür, in einem eigenen Projekt die 8,5 l/min der alten
+Zürcher Projektierungsgrundlage als Zielwert zu setzen statt die 12 l/min der Merkblätter.
+
+**Quelle:** Amt für Hochbauten der Stadt Zürich / Führungsgruppe PRESANZ, «Dokumentation Bauen +
+Ökologie», Projektierungsgrundlage 2.3 «Wassersparen», **November 1997**, 21 Seiten vollständig
+gelesen 11.08.2026 → `[[ahb-zuerich-wassersparen]]`. Die Kernwerte (460 l/E·Tag, 4 MJ/m³ Kalt-,
+270 MJ/m³ Warmwasser, Verbrauchsanteile, Volumenstromtabelle) sind vom Hauptlauf am Original
+nachgeprüft. Vergleichswerte 2008/2026 aus
+`[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]` und `[[ecobkp-2026-gebaeudetechnik]]`.
+⚠ **Die Quelle ist 28 Jahre alt.** Die Grössenordnung Kalt- gegen Warmwasser und die
+Hygiene-/Betriebsgrundsätze tragen weiter; die Geräte-Kennwerte (Wasch- und
+Geschirrwaschmaschinen «Angebot Herbst 1997») sind überholt, und die in der Quelle genannten
+Artikelnummern (Art. 26 und 30a BBV I, Art. 9 Energiegesetz Kanton Zürich) sind vor einer
+Verwendung gegen die heute geltenden Fassungen zu prüfen. Status **emerging**.
+
+---
+
+## F223 — «Der Architekt schreibt Recyclingbeton aus. Wo darf der überhaupt eingesetzt werden, und was heisst RC-B?»
+
+**Kurz:** Recyclingbeton ist Beton, dessen Gesteinskörnung zu **25 bis 100 Massenprozent** aus
+rezykliertem Material besteht. Er ist heute für den grossen Teil des Hochbaus zugelassen, aber
+nicht überall gleich: **innen und trocken** ist die Verwendung unkritisch, bei **Aussenfassaden
+und wasserdichtem Beton** wird die Sortenwahl eng, und bei **Frost mit Taumitteln** sowie bei
+hohen Festigkeiten fällt die Mischabbruch-Sorte aus.
+
+**Fachlich:** Die KBOB-Empfehlung von 2007 unterscheidet drei Sorten: **RC-W** aus gereinigtem,
+vormals kontaminiertem Erdaushub, **RC-B** aus Betonabbruch und **RC-M** aus Mischabbruch. RC-M
+hat ein grösseres Schwind- und Kriechmass und einen geringeren Elastizitätsmodul, weshalb er auf
+die weniger beanspruchten Anwendungen beschränkt bleibt. Die Zuordnung läuft über die
+Expositionsklassen: X0 für Sauberkeitsschicht, Füllbeton und Böschungssicherung, XC1 und XC2 für
+innen und trocken, XC3 für aussen regengeschützt, XC4 und XF1 für Aussenfassaden, XC4 für
+wasserdichten Beton. Ausgeschlossen war RC-B nach dieser Fassung bei Festigkeiten «zurzeit über
+C40/50» und bei Frost-/Tausalzbeton. Die ökologische Begründung ist die Transportdistanz und die
+Ressourcenschonung, nicht ein gerechneter CO₂-Vorteil: die Empfehlung von 2007 nennt **keine
+einzige Zahl** zu grauer Energie oder kg CO₂-eq. Für MINERGIE-ECO war damals eine
+Ausschreibungsdistanz von 25 km und eine 50-Prozent-Schwelle massgebend.
+
+**Bauherren-Transfer:** Wichtiger als die Sortenkunde ist für Sie die **Nomenklatur-Falle**. Die
+Sortenbezeichnungen RC-B, RC-M und RC-W stammen aus der Normenwelt von 2007; die zugehörige
+SIA-Empfehlung 162/4 ist seit **31.12.2009 archiviert**. Das heute geltende ecoBKP 2026 spricht von
+**RC-C50 und RC-M40** als erster Priorität und erklärt Primärbeton für **nicht empfohlen**, wenn
+RC-Beton innerhalb von **25 km** verfügbar ist. Wenn ein Ausschreibungstext also noch «RC-B nach
+SIA 162/4» sagt, ist er nicht falsch gemeint, aber veraltet formuliert, und das gibt bei der
+Vergabe Diskussionen. Verlangen Sie die Sortenbezeichnung nach der aktuellen Norm, und lassen Sie
+den Recyclingbeton als **Hauptposition** ausschreiben und nicht als Variante — sonst wird er im
+Angebot regelmässig wegoptimiert.
+
+**Quelle:** KBOB / eco-bau / IPB, Empfehlung Nachhaltiges Bauen **2007/2** «Beton aus recyclierter
+Gesteinskörnung», erarbeitet mit EMPA und SIA, 6 Seiten vollständig gelesen 11.08.2026 →
+`[[kbob-recyclingbeton-2007]]`. Geltender Stand und Sortenbezeichnungen:
+`[[ecobkp-2026-tragwerk-und-rohbau]]`. Ausschreibungsmechanik (Hauptposition, 60-Prozent-Quote):
+`[[bauoekologische-submissionsbedingungen]]`. Archivierung der SIA 162/4:
+`[[eco-bau-merkblaetter-bkp-2008-huelle]]`.
+⚠ Die Empfehlung ist 19 Jahre alt; Normfassungen, Festigkeitsgrenzen und Marktaussagen sind
+gegen den heutigen Stand zu prüfen. Status **emerging**.
+
+---
+
+## F224 — «Unsere Genossenschaft steht vor einer Gesamterneuerung. Wie fangen wir an, ohne uns zu verrennen?»
+
+**Kurz:** Nicht mit der Frage «welche Fassade», sondern mit dem **Variantenentscheid**. Es gibt
+vier Grundvarianten: **Instandhaltung, Instandsetzung, Gesamterneuerung und Ersatzneubau**. Dieser
+Entscheid fällt in der **strategischen Planung**, also vor jeder Projektierung, und er ist bei
+einer Genossenschaft zugleich ein Entscheid der Generalversammlung. Wer ihn übergeht und direkt
+projektiert, arbeitet die Hälfte zweimal.
+
+**Fachlich:** Die Checkliste des Bundes und des Wohnbaugenossenschaftsverbands gliedert das
+Vorgehen entlang der SIA-112-Phasen: **Phase A strategische Planung** mit sechs Schritten,
+**Phase B Vorstudien** mit zwei und **Phase C Projektierung** mit drei Schritten. Der inhaltliche
+Kern der Phase A ist die Bestandsaufnahme in ihrer ganzen Breite: baulicher Zustand, energetischer
+Zustand, Nutzungstauglichkeit der Wohnungen, wirtschaftliche Situation und die Mieterschaft. Der
+genossenschaftliche Sonderfall zieht sich durch das ganze Dokument: die Bewohnenden sind zugleich
+**Mitglieder und Miteigentümer**, weshalb Kommunikation und Mitwirkung nicht Beiwerk sind, sondern
+den Terminplan mitbestimmen.
+
+**Bauherren-Transfer:** Der bleibende Wert dieser Quelle ist die **Reihenfolge der Fragen**, nicht
+ihr Zahlenmaterial. Praktisch heisst das: die vier Varianten offen und ergebnisoffen
+gegenüberstellen, bevor ein Architekturauftrag für eine davon erteilt wird, und dabei den
+Zustandsbefund, die Zielmiete nach der Erneuerung und die Verträglichkeit für die heutige
+Bewohnerschaft in derselben Tabelle führen. Für Ihr Projekt kommen die energetischen Zielwerte
+und die Fördermöglichkeiten aus den heute geltenden Quellen, nicht aus dieser Checkliste. Wenn Sie
+die Entscheidung zwischen Sanierung und Ersatzneubau energetisch untermauern wollen, ist der
+Vergleich der grauen Energie der eigentliche Streitpunkt, und dafür gibt es in dieser
+Wissensbasis belegte Zahlen.
+
+**Quelle:** Bundesamt für Energie, Bundesamt für Raumentwicklung, Bundesamt für Wohnungswesen,
+Stadt Zürich Amt für Hochbauten (Programm «Nachhaltige Stadt Zürich, 2000-Watt-Gesellschaft»),
+Koordination novatlantis, Vertrieb SVW ASH ASA; Bearbeitung econcept AG. «Checkliste nachhaltige
+Gebäudeerneuerung, für gemeinnützige Wohnbaugenossenschaften», datiert **25. Juni 2007**,
+18 Seiten vollständig gelesen 11.08.2026 → `[[checkliste-nachhaltige-gebaeudeerneuerung-svw]]`.
+Heutige Zielwerte und Förderung: `[[foerderung-energie-zh]]`, `[[minergie-standards]]`;
+graue Energie im Entscheid Sanierung gegen Ersatzneubau: `[[graue-energie]]`.
+⚠ 19 Jahre alt; Anforderungswerte, Normfassungen und Förderhinweise überholt, die
+Vorgehenslogik trägt. Status **emerging**.
+
+---
+
+## F225 — «Im Nachhaltigkeitsbericht stehen UBP, graue Energie und CO₂-Äquivalente. Was ist der Unterschied, und welche Zahl gilt?»
+
+**Kurz:** Es sind drei verschiedene Messgrössen desselben Ökobilanz-Datensatzes. **Graue Energie**
+in MJ-Äquivalenten misst den kumulierten Energieaufwand, **Treibhauseffekt** in kg CO₂-Äquivalenten
+misst allein die Klimawirkung, und **Umweltbelastungspunkte (UBP)** fassen die gesamte
+Umweltbelastung in einer einzigen Zahl zusammen, in der die beiden anderen bereits enthalten sind.
+Für die Frage «welche Zahl gilt» ist entscheidend, aus **welcher Version** der Datensatz stammt:
+verbindlich ist immer die aktuelle Fassung der KBOB-Ökobilanzdaten.
+
+**Fachlich:** Die UBP-Methode ist die schweizerische «Methode der ökologischen Knappheit». Die
+KBOB-Empfehlung, mit der die Bundes- und Kantonsbauherren diese Datengrundlage 2007 gemeinsam
+verbindlich gemacht haben, illustriert die Logik an Beispielen: Beton kommt auf 92 UBP/kg für die
+Herstellung plus 27 UBP/kg für die Entsorgung, zusammen 119 UBP/kg. Der Vergleich dreier statisch
+gleichwertiger Deckenträger ergab 876'000 UBP für Beton mit Stahl, 884'000 UBP für
+Brettschichtholz und 3'301'000 UBP für das Stahlprofil. Für Heizsysteme mit 100'000 MJ
+Nutzwärme pro Jahr lagen Erdwärmesonde 3,7, Gas 3,9, Pellets 4,2 und Öl 5,4 Millionen UBP.
+**Diese Zahlen sind ausdrücklich nur noch Methodik-Illustration**: der Datenstand der damaligen
+Liste ist Dezember 2006, und die KBOB-Ökobilanzdaten sind seither mehrfach revidiert worden.
+
+**Bauherren-Transfer:** Wenn Ihnen jemand eine Ökobilanz vorlegt, sind zwei Rückfragen
+ergiebiger als jede Diskussion über die Zahl selbst. Erstens: **welche Version der
+KBOB-Ökobilanzdaten** liegt zugrunde? Ein Vergleich zweier Varianten ist nur gültig, wenn beide
+mit derselben Version gerechnet wurden. Zweitens: **welche der drei Grössen** wird verglichen?
+Ein Material kann bei der grauen Energie besser und bei den UBP schlechter abschneiden, weil die
+UBP auch Schadstoffe, Ressourcenverbrauch und Entsorgung mit einbeziehen. Der Systemgrenzen-Punkt
+gehört ebenfalls dazu: Die Entsorgung macht beim Beton des Beispiels rund ein Viertel der
+Gesamtbelastung aus, und wer sie weglässt, rechnet ein Material systematisch zu gut.
+
+**Quelle:** KBOB / eco-bau / IPB, Empfehlung Nachhaltiges Bauen **2007/1** «Ökobilanzdaten im
+Baubereich», Datenliste mit eigenem Vermerk «Stand Dezember 2006», Datenpflege durch EMPA und
+ecoinvent, 11 Seiten vollständig gelesen 11.08.2026 →
+`[[kbob-oekobilanzdaten-baubereich-2007]]`. Geltender Stand der Grössenordnungen und der
+Reduktionshebel: `[[kbob-graue-treibhausgasemissionen-2025]]`; kg CO₂-eq je Bauteil:
+`[[kbob-bauteilkatalog-co2-je-aufbau]]`, `[[kbob-massivbau-bauteilaufbau-co2]]`;
+Grenzwert-Regime: `[[muken-2025-verabschiedet]]`.
+⚠ Die zitierten UBP-Werte sind **keine geltenden Rechenwerte** (Datenstand Dezember 2006).
+Status **emerging**.
+
+## F226 — Muss ich beim Bauen an «Elektrosmog» denken, und was kostet mich das?
+
+**Kurz:** Für elektrische Hausinstallationen gibt es **keinen gesetzlichen Grenzwert** — die
+NISV setzt den Anlagegrenzwert von **1 Mikrotesla** nur für ortsfeste Anlagen wie
+Trafostationen und Freileitungen an Orten mit empfindlicher Nutzung (Aufenthalt > 4 h/Tag).
+Für Hausinstallationen gilt stattdessen der **anerkannte Stand der Technik**: sternförmige
+Leitungsführung ab Verteiltafel, keine Schlaufen, Hauptverteiler nicht neben dem Schlaf-
+bereich. Das kostet in der Planungsphase kaum mehr, ist aber nachträglich aufwendig.
+
+**Fachlich:** Elektrische Felder entstehen an jeder unter Spannung stehenden Leitung und
+lassen sich mit geerdetem, leitfähigem Material (z. B. Stahlbetonhülle) gut abschirmen.
+Magnetische Felder entstehen nur bei Stromfluss und durchdringen fast alle Baumaterialien —
+Abschirmung ist nur mit hohem technischem Aufwand möglich. Am stärksten unter haushaltsüblichen
+Geräten sind **Niedervolt-Transformatoren** (Halogenlampen) und Leuchtstoffröhren; am
+schwächsten Glühlampen. Bei 50 cm Abstand unterschreiten die meisten Haushaltgeräte den für
+ortsfeste Anlagen als unbedenklich geltenden Grenzwert von 1 Mikrotesla bereits deutlich
+(Elektroherd 1 µT, Mikrowelle 4,5 µT, Fön 3,5 µT bei 50 cm).
+
+**Bauherren-Transfer:** Für JANS-Projekte heisst das: die «Erdungsinsel»-Planung (alle
+leitenden Verbindungen an einer Stelle ins Gebäude einführen, Einpunkt-Erdung) und die
+Vermeidung von Leitungsschlaufen im Schlafbereich gehören in die frühe
+Elektroplaner-Koordination, nicht in die Ausführungsplanung. Bei Bauherren mit erhöhter
+Sensibilität (Elektrosensibilität) empfiehlt sich der Beizug einer Elektrobiologie-Fachstelle
+(IBES) — das ist eine freiwillige Zusatzleistung ohne gesetzliche Pflicht.
+
+**Quelle:** Amt für Hochbauten Stadt Zürich + Hochbauamt Kt. Zürich, Informationsblatt 5.7
+«Elektrosmog», Februar 2002 (Grafiken EWZ), vollständig gelesen 12.08.2026 →
+`[[elektrosmog-informationsblatt-ahb-ewz]]`. NISV-Datenstand 1999 (SR 814.710), Feldstärke-
+Messwerte IBES 2001.
+⚠ Datenstand 2002 — aktuelle NISV-Fassung und heutige LED-/Schaltnetzteil-Technik nicht
+gegengeprüft. Status **emerging**.

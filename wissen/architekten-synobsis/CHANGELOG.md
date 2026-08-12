@@ -4,6 +4,24 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-11 (Mac Mini Nachtschicht 13:30-Slot) — KORRIGIERT: kein neuer Stoff, Doppelarbeit
+
+**Korrektur eines eigenen Fehlbefunds im selben Lauf.** Erster Eindruck: `vectors.npz`
+sei nicht vorhanden und Stufe 2 offen — Trugschluss, weil die eigene Suche nach
+`*.index`/`*embedding*` und ein alphabetisch abgeschnittenes `ls catalog/ | head -20`
+die Datei `vectors.npz` (sortiert unter «v») schlicht nicht erfasst hat. Tatsaechlich
+lief Stufe 2 bereits seit 03.07.2026 als wiederkehrender Batch-Lauf (`synobsis-batch-nacht`,
+zuletzt 24.07. — seither ohne neuen Stoff, deshalb keine weiteren Batch-Commits noetig).
+`synobsis_embed.py` erneut gelaufen: Ergebnis-MD5 `b7e37031f13dfebad0210683b62aa46c`
+**identisch** mit dem bereits committeten `vectors.npz` (deterministisches Modell,
+unveraendertes `documents.jsonl`) — keine inhaltliche Aenderung, reine Wiederholung.
+Scan-Status unveraendert 853/853, 0 offen. Semantische Suche als Nebenprodukt verifiziert
+(`--semantic "introvertierter Hof Beton Kapelle"`, plausible Treffer). Kein Commit fuer
+diesen Lauf noetig (nichts geaendert). Lehre: vor einer «fehlt/offen»-Diagnose in dieser
+KB IMMER zuerst `git log --oneline -- wissen/architekten-synobsis/catalog/vectors.npz`
+bzw. das CHANGELOG nach «synobsis-batch-nacht» durchsuchen, nicht nur den Dateibestand
+per Glob abtasten.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B6 · C0 · D0 · E0 · F1 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Unveraendert zur Basis 2026-08-01: alle sechs B-Befunde entfallen auf `wiki/THEMEN.md` (kein Frontmatter, nicht im INDEX). Kein `raw/_INGESTED.md` — Audit D strukturell nicht anwendbar. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

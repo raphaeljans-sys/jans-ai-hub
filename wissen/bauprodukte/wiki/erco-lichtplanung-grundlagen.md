@@ -1,13 +1,13 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Lichtanwendungen, Aussenraumbeleuchtung (Teil 1/n, Seiten 1-240)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung (Teil 1/n, Seiten 1-317)"
 status: emerging
-last_updated: 2026-08-11
-gelesen: "Seiten 1-240 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG inkl. Montage S. 94-98 und Wartung S. 98; Kapitel «Licht visualisieren» VOLLSTÄNDIG S. 99-109; Kapitel «Innenraumbeleuchtung» VOLLSTÄNDIG S. 110-183; Hauptkapitel «Aussenraumbeleuchtung» S. 184-240 fortgeschrieben: Unterkapitel «Arten des Beleuchtens» S. 184-196 VOLLSTÄNDIG, «Leuchtengruppen» S. 197-210 VOLLSTÄNDIG, «Lichtanwendungen» S. 211-240 TEILWEISE (Wand/Decke/Boden/Objekt S. 211-229 VOLLSTÄNDIG; Fassade-Typen massiv/vertikale Gliederung/horizontale Gliederung/Vorsprung-Rücksprung S. 230-239 VOLLSTÄNDIG, Lochfassade angelesen bis S. 240, Fortsetzung + Fassade transparent + Vegetation offen)). Offen: Lochfassade-Rest ab S. 241, Fassade transparent, Vegetation, danach «Lichtsteuerung», «Lichttechnik» mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur je Lampentyp), «Simulation und Berechnung» (separates Kapitel laut Keywords), «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Aussenraumbeleuchtung (fortgeschrieben bis S. 240), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-183 Edition 07.07.2006, S.184-194 Edition 29.09.2006, S.195 Edition 01.03.2010, S.196-210 Edition 29.09.2006, S.211-240 Edition 24.10.2006 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-12
+gelesen: "Seiten 1-317 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG; Kapitel «Licht visualisieren» VOLLSTÄNDIG; Kapitel «Innenraumbeleuchtung» VOLLSTÄNDIG; Hauptkapitel «Aussenraumbeleuchtung» S. 184-277 VOLLSTÄNDIG («Arten des Beleuchtens», «Leuchtengruppen», «Lichtanwendungen» inkl. Wand/Decke/Boden/Objekt/Fassade/Vegetation S. 211-265, «Planungsbeispiele» S. 266-274, «Lichtplanung»/Dark Sky S. 275-277); Hauptkapitel «Lichtsteuerung» S. 278-317 VOLLSTÄNDIG (Licht steuern/Funktionen, Steuerungssysteme inkl. 1V-10V/DMX/DALI/KNX/LON, Geräte, Planungsbeispiele)). Offen: «Lichttechnik» ab S. 318 (vermutlich Kennwerte lm/W, Ra, Farbtemperatur je Lampentyp — Herstellerneutralität beachten, ERCO ist Leuchtenhersteller), danach vermutlich «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Aussenraumbeleuchtung + Lichtsteuerung (fortgeschrieben bis S. 317), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-183 Edition 07.07.2006, S.184-194 Edition 29.09.2006, S.195 Edition 01.03.2010, S.196-210 Edition 29.09.2006, S.211-265 Edition 24.10.2006, S.266-274 Edition 26.10.2006, S.275-277 Edition 25.10.2006, S.278-298 Edition 03.07.2007, S.299-300 Edition 01.03.2010, S.301-317 Edition 03.07.2007 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[INDEX]]
 ---
 
-# ERCO Ratgeber — Lichtplanungsgrundlagen (Teil 1/n)
+# ERCO Ratgeber — Lichtplanungsgrundlagen (Teil 1/n, Seiten 1-317)
 
 BKP-Einordnung: **BKP 233 Leuchten und Lampen** (verifiziert gegen
 `references/bkp-2017/BKP-2017-Liste.md`, Subpositionen 233.0 Lieferung / 233.1
@@ -15,7 +15,7 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 240 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 317 Seiten.
 
 ## Herstellerneutralität
 
@@ -1025,7 +1025,7 @@ festen Schema Beobachtung → Folgerung → Anordnung → Anwendung → Projektb
   Original). Anwendung: Fassaden, Eingangsbereiche, Parkanlagen, Skulpturen;
   Leuchtengruppen Strahler, Wandfluter, Uplight.
 
-## Aussenraumbeleuchtung — Lichtanwendungen: Fassade, Teil 1 (S. 230-240, Fortsetzung im nächsten Lauf)
+## Aussenraumbeleuchtung — Lichtanwendungen: Fassade (S. 230-245, vollständig)
 
 Umfangreichstes Unterkapitel von «Lichtanwendungen» Aussenraum (mind. 5
 Fassadentypen, S. 230 nennt zusätzlich noch «Fassade transparent» als sechsten,
@@ -1071,13 +1071,533 @@ bei Freiflächenleuchten (S. 201).
   Innenecken mit Streiflicht. **Regel:** grösserer Leuchtenabstand reduziert
   Schlagschatten; Leuchtenanordnung soll mit Fassadenstruktur korrespondieren;
   harte Kontraste über flutende Grundbeleuchtung ausgleichbar.
-- **Lochfassade (S. 239-240, angelesen, Fortsetzung folgt):** bei Tageslicht
-  wirken Fensterflächen dunkel, bei Nacht erzeugen beleuchtete Innenräume
-  starken Kontrast zur dunklen Fassade; Fluter für gleichmässige
+- **Lochfassade (S. 239-241, vollständig):** bei Tageslicht wirken
+  Fensterflächen dunkel, bei Nacht erzeugen beleuchtete Innenräume starken
+  Kontrast zur dunklen Fassade; Fluter für gleichmässige
   Fassadenlichtverteilung; Fensterleibungs-Beleuchtung hebt den
   Öffnungsrahmen hervor; engstrahlige Uplights betonen das Fassadenraster.
-  Sauberer Stopp am Original vor Fortsetzung der Beobachtung (S. 241, am
-  PDF verifiziert `pdftotext -f 241`).
+  **Folgerung (S. 241):** Blendung der Nutzer im Innenraum vermeiden — in den
+  Innenraum strahlende Leuchten beeinträchtigen den Blick aus dem Gebäude
+  heraus; Lichtsteuerungssysteme erlauben, Räume einzeln anzusteuern und
+  gezielt Lichtfelder auf der Fassade zu erzeugen. Anwendungsbeispiele:
+  Humboldt-Universität Ehrenhof Berlin, Pentacon Turm Dresden,
+  Ernst-August-Carree Hannover, DZ Bank Berlin.
+- **Bandfassade (S. 242-243):** bei Tageslicht erscheint das Fensterband
+  dunkel; beleuchtete Innenräume bilden bei Nacht einen starken Kontrast
+  zwischen dunkler Fassadenfläche und hellem Fensterband, zusätzliche
+  Brüstungsbeleuchtung unterstützt die horizontale Struktur. **Folgerung:**
+  der starke Hell-Dunkel-Kontrast zwischen Innenraum und Aussenfläche lässt
+  sich nur begrenzt über eine flutende Fassadenbeleuchtung ausgleichen.
+  Beispiele: Greater London Authority (City Hall) London, Stadtwerke
+  Lüdenscheid, E-Werk Eventhallen/SAP SI Büros Berlin.
+- **Fassade transparent (S. 244-245):** bei Tageslicht wirkt die transparente
+  Fassade dunkel und reflektiert die Umgebung; Innenraumbeleuchtung schafft
+  Einblick, Deckenfluter im Innenraum heben die Deckenflächen hervor und
+  verstärken den nächtlichen Helligkeitseindruck, die Fassadenkonstruktion
+  zeichnet sich als Silhouette ab, Lichtlinien auf Geschossdeckenhöhe
+  unterstreichen die horizontale Gebäudestruktur, Uplights betonen die
+  vertikalen Fassadenelemente. **Folgerung:** Wegen der Blickperspektive vom
+  Boden erscheint die Lichtwirkung des Innenraums mit Uplights grösser als
+  mit Downlights; Blendung der Nutzer im Innenraum ist zu vermeiden — in den
+  Innenraum strahlende Leuchten beeinträchtigen den Blick aus dem Gebäude
+  heraus (identischer Blendungshinweis wie bei Lochfassade und Bandfassade,
+  dritte Wiederholung in diesem Unterkapitel). Beispiele: Mediathek Sendai,
+  Congresszentrum Ruhrfestspielhaus Recklinghausen, Zürich Versicherungen
+  Buenos Aires, Maritim Museum Osaka.
+
+Damit ist das Unterkapitel «Fassade» (S. 230-245, sechs Typen: massiv,
+vertikale Gliederung, horizontale Gliederung, Vorsprung-Rücksprung,
+Lochfassade, Bandfassade, transparent — die Übersichtsgrafik S. 230 zählte
+Bandfassade nicht separat, das Dokument führt sie de facto als siebten
+Unterfall) vollständig gelesen.
+
+## Aussenraumbeleuchtung — Lichtanwendungen: Vegetation (S. 246-265, vollständig)
+
+Letztes Unterkapitel von «Lichtanwendungen» Aussenraum. Einleitung (S. 246):
+Bäume sind im Landschaftsbereich die wichtigsten raumbildenden Elemente; Form
+und Grösse von Stamm und Baumkrone variieren je Baumtyp (Kugel-, Säulen-,
+Schirm- und Palmform als bekannteste Baumformen); im Winter prägen filigrane
+Äste das Bild, im Sommer verdichten sich die Blätter der Baumkrone zu einem
+Volumen; neben der Form charakterisieren Blüten und Blätter im
+Jahreszeitenwechsel das Aussehen.
+
+- **Bäume — Beleuchtungsarten (S. 247-248):** nach oben gerichtete Fluter
+  lassen die Baumkrone plastisch erscheinen. Zwei Fluter von vorne seitlich
+  beleuchten die Baumkrone als Volumen gleichmässig; seitlich angebrachte
+  Fluter (rechts oder rechts+links) heben die Plastizität stärker hervor;
+  dreiseitig angeordnete Fluter beleuchten die Baumkrone von allen Seiten
+  gleichmässig und reduzieren die Plastizität der Baumform; Fluter im
+  Hintergrund erzeugen Gegenlicht und eine Silhouette der Baumkrone. Uplights
+  am Stamm akzentuieren diesen als lineares Element und verbinden visuell
+  Baumkrone und Boden; Licht von oben unterstreicht je nach Jahreszeit die
+  Kontur der Baumkrone oder der Aststruktur am Boden. Engstrahlende Uplights
+  eignen sich für die akzentuierende Beleuchtung markanter hoher Baumstämme,
+  die Textur der Rinde kommt bei Beleuchtung von vorne stärker zur Geltung;
+  seitliche Anordnung führt zu einer schmalen Lichtlinie am Stamm; bei
+  Beleuchtung einer Wand hinter einem Baum zeichnet sich die Silhouette von
+  Baumkrone und Stamm ab. In Atrien oder an Fassaden montierte Strahler
+  können die Kontur des Baumes oder des Astwerks als Schatten auf dem Boden
+  nachzeichnen.
+- **Bäume — Baumwachstum (S. 249, angelesen):** ein oder zwei Leuchten
+  akzentuieren Bäume geringer Grösse, mehrere Fluter erzeugen eine
+  gleichmässige Beleuchtung ausgewachsener grosser Bäume. **Folgerung:**
+  Baumwachstum und die Vermeidung von Blendung sind bei Anordnung und
+  Ausrichtung der Leuchten zu berücksichtigen; bei grossen Bäumen können
+  mehrere Leuchten nötig werden, um eine gleichmässige Ausleuchtung zu
+  erreichen und verzerrte Wahrnehmung heller/dunkler Partien zu vermeiden.
+  Flexibel ausrichtbare Leuchten mit Erdspiess lassen sich der
+  Anordnung/Ausrichtung dem wachsenden Baum anpassen; Bodeneinbauleuchten
+  fügen sich besser in den Landschaftsraum ein, sind aber aufwendiger bei der
+  Neupositionierung.
+- **Bäume — Jahreszeit (S. 250-251):** flutende Beleuchtung der
+  Baumkrone bringt im Frühjahr die aussen liegenden Blüten besonders zur
+  Geltung; im Sommer lässt das dichte Blattwerk die Baumkrone als Volumen
+  erscheinen; charakteristisch für den Herbst ist das farbige Laub; im Winter
+  reduziert sich die Lichtwirkung auf das filigrane Astwerk. **Folgerung:**
+  mit der Lampenauswahl lässt sich die Lichtfarbe und Farbwiedergabe der
+  Blätter und Blüten beeinflussen — tageslichtweisse Lichtfarben betonen
+  blaugrüne Laubfarben, warmweisse Lichtfarben betonen braunrote Blätter.
+  **Anwendung (S. 251):** Parkanlagen, Eingangsbereiche, Atrien;
+  Leuchtengruppen Strahler, Fluter, Uplights.
+
+- **Baumarten (S. 252-257):** fünf Baumformen (Kugel, Schirm, Säule, Kegel,
+  Palme) werden je mit unterschiedlichen Leuchtenpositionen bebildert (Fluter
+  vorne/rechts/dreiseitig/rückseitig, Uplight, Strahler oben bzw. vorne/
+  rechts/dreiseitig/rückseitig je nach Form) — überwiegend Bildmaterial ohne
+  eigenen Fliesstext je Variante. **Beobachtung (S. 252):** flutende
+  Beleuchtung hebt die Form der Baumkrone als Volumen hervor; nahe
+  Positionierung der Leuchte zum Baum unterstreicht mit Streiflicht die
+  Textur von Baumkrone und Stamm; Beleuchtung von unten bringt die
+  Dreidimensionalität der Krone bei lockerem Blattwerk zur Geltung.
+  **Folgerung (S. 257):** kugelförmige Bäume mit dichtem, undurchsichtigem,
+  weit herabhängendem Laub eignen sich für flutende Beleuchtung mit
+  Leuchtenpositionierung ausserhalb der Baumgrundfläche; bei schirmförmigen
+  Bäumen mit lockerem, durchsichtigem Blattwerk lässt die Beleuchtung
+  innerhalb der Baumgrundfläche durch Uplights die ganze Krone erstrahlen;
+  die Streiflichtbeleuchtung eines Baumes erfordert flach einfallendes Licht
+  von **etwa 15°**; kegelförmige Bäume benötigen einen grösseren
+  Leuchtenabstand zur Krone als säulenförmige; engstrahlende Uplights eignen
+  sich besonders zur Beleuchtung hoher Palmen, die gewünschte
+  Beleuchtungsstärke ist dabei mit dem Reflexionsgrad der Blätter
+  abzustimmen.
+- **Baumgruppe (S. 258-259):** Fluter von vorne beleuchten die Baumkronen
+  gleichmässig; seitlich angeordnete Fluter erzeugen einen harten
+  Licht-Schatten-Kontrast; Leuchten von zwei Seiten vermeiden harte
+  Schlagschatten; Uplights am Stamm unterstreichen ihn als lineares
+  vertikales Element. **Lichtverteilung:** die Baumgruppe lässt sich durch
+  unterschiedliche Leuchten und deren Ausrichtung visuell differenzieren,
+  Raumtiefe entsteht durch Beleuchtungsschwerpunkte im Vorder-, Mittel- und
+  Hintergrund, stärkere Helligkeitskontraste unterstützen die Wirkung;
+  engstrahlende Leuchten akzentuieren, breitstrahlende Fluter übernehmen die
+  Grundbeleuchtung. **Folgerung:** mehrere Leuchten mit hohem Abblendwinkel
+  reduzieren die Blendung im Vergleich zu wenigen breitstrahlenden Leuchten;
+  Baumwachstum und Blendvermeidung sind bei Anordnung/Ausrichtung zu
+  berücksichtigen.
+- **Baumreihe (S. 260-261) und Baumallee (S. 262-263):** inhaltlich nahezu
+  identisch. Nach oben gerichtete Strahler betonen die Baumkrone; Fluter mit
+  asymmetrischer Lichtverteilung ergeben auch bei hohen, flächigen
+  Baumreihen/-alleen ein homogenes Licht von unten bis oben; engstrahlende
+  Uplights akzentuieren den Baumstamm als lineares vertikales Element.
+  **Folgerung (identisch für beide):** die raumbildende Wirkung/das
+  Raumprofil hängt sehr stark von der Baumart ab — eine enggepflanzte
+  Baumreihe/-allee kann je nach Baumtyp wie eine Wand oder eine Säulenreihe
+  erscheinen; engstrahlende, gut ausgerichtete Leuchten reduzieren die
+  Blendung und überflüssige Lichtabstrahlung in die Umgebung; das
+  Baumwachstum ist bei Anordnung/Ausrichtung zu berücksichtigen. Anwendung
+  Baumreihe: Parkanlagen, Eingangsbereiche, Wege; Leuchtengruppen Strahler,
+  Fluter, Uplights.
+- **Baumraster (S. 264-265):** breite, nach oben gerichtete Lichtkegel
+  betonen die Untersicht des Baumdaches; engstrahlende Uplights akzentuieren
+  den Baumstamm als lineares vertikales Element. **Folgerung:** eng im
+  Raster angeordnete Bäume entfalten über die Baumkrone eine Wirkung als
+  Dach; mehrere engstrahlende Leuchten reduzieren die Blendung im Vergleich
+  zu wenigen breitstrahlenden Leuchten; bei Verkehrsflächen ist auf eine
+  gute Abblendung der Leuchten zu achten.
+
+Damit ist «Vegetation» (S. 246-265) und damit das gesamte Unterkapitel
+«Lichtanwendungen» (Aussenraum, S. 211-265) vollständig gelesen.
+
+## Aussenraumbeleuchtung — Planungsbeispiele (S. 266-274, vollständig)
+
+Neues, letztes Unterkapitel des Hauptkapitels «Aussenraumbeleuchtung»: vier
+konkrete Anwendungsbeispiele (Eingangsbereich klein, Eingangsbereich gross,
+Historische Fassade, Weg), je mit mehreren durchgerechneten Planungsvarianten
+und Simulationsbild — anders als die vorangehenden Kapitel nicht mehr nach
+Bezugsfläche/Leuchtengruppe, sondern nach konkreter Bauaufgabe gegliedert.
+
+- **Eingangsbereich klein (S. 267-268):** Situation: ein durch ein negatives
+  Volumen gebildeter Eingangsbereich, wenige Stufen setzen ihn vom
+  Aussenraum ab. **Planung 1:** deckenintegrierte Wandfluter bewirken eine
+  sehr homogene Wandausleuchtung, die Leuchten sind in die Architektur
+  integriert; Anordnung Wandabstand = halbe Wandhöhe, Leuchtenabstand =
+  Wandabstand. **Planung 2:** die Ausstrahlungscharakteristik der Downlights
+  bestimmt den Gesamteindruck, an der Wand zeichnen sich gleichmässige
+  Lichtkegel als gestaltendes Element ab, die Materialstruktur der Rückwand
+  wird herausgearbeitet; Downlights nah an der Wand positioniert für
+  dekorative Wirkung. **Planung 3:** eine reine Bodenausleuchtung genügt für
+  die funktionalen Kriterien eines Eingangs, das Gesamtvolumen tritt in den
+  Hintergrund; Bodenfluter auf 60 cm Höhe montiert, um Blendung zu vermeiden.
+- **Eingangsbereich gross (S. 269-270):** Situation: repräsentativer
+  Eingangsbereich mit weit auskragendem Vordach auf gleichmässig verteilten
+  Stützen, Hauptaufgabe ist die Verstärkung des repräsentativen Charakters
+  durch die Beleuchtung. **Planung 1:** Downlights folgen der Form des
+  Kragdaches entlang der Stützen, die sich am Boden abzeichnenden Lichtkreise
+  betonen die Dynamik der kreisförmigen Fassade, Deckeneinbauwandfluter
+  hellen die anschliessende Wand leicht auf; Wandabstand nur ein **Viertel**
+  der Wandhöhe (enger als die sonst notierte Drittel-Regel), um einen Bezug
+  zwischen Wand und Leuchten herzustellen. **Planung 2:** Deckenfluter
+  strahlen das Kragdach an, die Decke reflektiert das Licht diffus/
+  gleichmässig auf den Boden, eine zusätzliche Wandbeleuchtung kann
+  entfallen, die Leuchten erscheinen als eigenständige Architekturelemente;
+  Deckenfluter auf zwei Drittel der Stützenhöhe montiert. **Planung 3:** vier
+  Aufbaudownlights je Stütze betonen deren Materialität, kreisförmig um die
+  Stütze in geringem Abstand angeordnet; Wandabstand wieder ein Viertel der
+  Wandhöhe.
+- **Historische Fassade (S. 271-272):** Situation: klassizistische Fassaden
+  verlangen ein Lichtkonzept, das ihre Elemente berücksichtigt (Säulen,
+  Portikus, Friese, Dreiteilung Portal/beide Seitenflügel); durchgehend eine
+  schwache Grundbeleuchtung über Linsenwandfluter, nicht zu steil, da im
+  Bereich der Friese sonst irritierende Schlagschatten entstehen können.
+  **Anordnung (für alle drei Varianten gemeinsam):** Grundbeleuchtung linear
+  im Abstand eines **Drittels der Gebäudehöhe** vor dem rechten und linken
+  Fassadenabschnitt. **Planung 1:** die Säulen stehen als Schattenriss vor
+  dem von Aufbaudownlights beleuchteten Eingangsbereich (je Säule ein
+  breitstrahlendes Aufbaudownlight dahinter), die Dreidimensionalität des
+  Portikus wird dadurch stark reduziert, die Gebäudeansicht erfährt eine
+  deutliche Dreiteilung. **Planung 2:** die Säulen werden mit engstrahligen
+  Uplights (kreisförmig um jede Säule) beleuchtet, das Tympanon gesondert
+  beleuchtet, der vorgesetzte Eingangsbereich tritt deutlich hervor, der
+  Blick wird auf den Mittelteil gezogen. **Planung 3:** die horizontale
+  Gliederung wird durch Anstrahlung der Friese deutlich (Richtstrahler im
+  Abstand eines **Zehntels der Wandhöhe**, eng angeordnet für gleichmässige
+  Friesausleuchtung, dazu engstrahlende Uplights im Halbkreis um die vier
+  Säulen); die Säulen wie in Planung 2, aber mit reduzierter Lichtstärke, um
+  den Eingang nicht zu dominant zu machen. Insgesamt verleiht dieses
+  differenzierte Konzept der historischen Fassade laut Quelle «einen sehr
+  festlichen Charakter».
+- **Weg (S. 273-274):** Situation: Orientierung auf Wegen entweder über die
+  primäre Beleuchtung der Wegfläche oder über die Betonung von Blickpunkten
+  im Raum. **Planung 1:** linear angeordnete Lichtpunkte der Bodenfluter plus
+  Markierung von Blickpunkten; eine geringe Wegausleuchtung genügt, weil die
+  angestrahlte Baumreihe für Orientierung sorgt; Uplights rechts und links
+  der Bäume, parallel dazu eine Reihe Bodenfluter. **Planung 2:**
+  weitstrahlende Bodenfluter leuchten den Weg gut aus und führen den Blick,
+  angrenzende Bäume stehen als Schattenriss vor der gleichmässig beleuchteten
+  Mauer, die Raumgrenzen werden betont und lassen das Raumvolumen erahnen; in
+  den Boden eingelassene Linsenwandfluter für die Mauer im Wandabstand von
+  einem Drittel der Wandhöhe.
+
+Damit ist «Planungsbeispiele» (S. 266-274) und damit das komplette Kapitel
+«Aussenraumbeleuchtung | Lichtanwendungen» inkl. seiner Fallbeispiele
+gelesen.
+
+## Aussenraumbeleuchtung — Lichtplanung: Dark Sky (S. 275-277, vollständig)
+
+Letztes Unterkapitel des Hauptkapitels «Aussenraumbeleuchtung» (Breadcrumb im
+Original: «Außenraumbeleuchtung | Lichtplanung | Dark Sky») — inhaltlich ein
+Brückenkapitel zur Lichtimmissions-/Nachhaltigkeitsfrage, die im Dokument
+zuvor nur vereinzelt anklang (Freiflächenleuchten S. 201, Fassade S. 230).
+
+- **Einführung (S. 276):** Dark Sky steht für eine Lichtplanung im
+  Aussenraum, die sich auf das Wesentliche konzentriert, Lichtverschmutzung
+  vermeidet und die Beobachtung des Sternenhimmels ermöglicht; verbindet ein
+  nachhaltiges Planungskonzept mit einer darauf abgestimmten Leuchtentechnik;
+  die kooperative Zusammenarbeit von Lichtplanern, Architekten,
+  Landschaftsplanern, Bauherren, Installateuren und Leuchtenherstellern ist
+  laut Quelle die Grundlage für eine effektive Umsetzung.
+- **Lichtverschmutzung (S. 276):** Definition laut Quelle: das aufgrund
+  Beleuchtungsstärke, Lichtrichtung oder Lichtspektrum im gegebenen Kontext
+  störende Streulicht; Streulicht und Blendung reduzieren den Sehkomfort,
+  gewünschte Informationsinhalte werden nicht vermittelt; als ökologische
+  Folgen nennt die Quelle Energieverschwendung und negative Auswirkungen auf
+  Flora und Fauna (die begleitende Weltkarte der Lichtemissionen, Credit
+  P. Cinzano/F. Falchi/C. D. Elvidge, Royal Astronomical Society, ist reines
+  Bildmaterial und wird hier nicht als Datenquelle übernommen).
+- **Leuchten (S. 277):** Dark-Sky-geeignete Leuchten verfügen über präzise
+  Lichtlenkung und eine definierte Abschirmung für optimalen Sehkomfort;
+  **keine Lichtemission oberhalb der Horizontalebene** ist laut Quelle
+  entscheidendes Kriterium für Freiflächen- und Wegeleuchten; eine geringe
+  Leuchtdichte an der Lichtaustrittsöffnung vermeidet übermässige
+  Leuchtdichtekontraste im Aussenraum.
+- **Planung/Anordnung (S. 277):** vier Kriterien für eine nachhaltige
+  Beleuchtung laut Quelle: adäquate Beleuchtungsstärke, Vermeidung von
+  Streulicht oberhalb der Horizontebene, korrekte Ausrichtung der Leuchten,
+  Reduzieren oder Ausschalten der Beleuchtung, wenn sie nicht erforderlich
+  ist; Leuchten sind so anzuordnen, dass die zu beleuchtenden Elemente
+  optimal ausgeleuchtet sind und kein Licht an den Objekten vorbeistrahlt
+  (vermeidet die Blendung der Betrachter).
+- **Planung/Steuerung (S. 277):** bei Dark Sky kommt der Lichtsteuerung eine
+  besondere Bedeutung zu, um Intensität und Zeitdauer der Beleuchtung je Zone
+  zu regulieren und damit die Gesamt-Lichtemission zu regeln; sie erlaubt
+  Schalten und Dimmen für einzelne Bereiche; über Zeit- und
+  Bewegungssensoren lassen sich vordefinierte Lichtszenen tages- und
+  jahreszeitabhängig abrufen, funktionsabhängige Beleuchtungsszenen für
+  Dämmerung/Abend/Nacht können sensorgesteuert werden.
+
+Damit ist das Hauptkapitel «Aussenraumbeleuchtung» (S. 184-277: «Arten des
+Beleuchtens», «Leuchtengruppen», «Lichtanwendungen» inkl. «Planungsbeispiele»
+und «Dark Sky») vollständig gelesen.
+
+## Lichtsteuerung — Licht steuern: Funktionen (S. 278-289, vollständig)
+
+Neues, sechstes Hauptkapitel des Ratgebers — erstmals nicht mehr nach Innen-/
+Aussenraum gegliedert, sondern rein technisch: Licht steuern (Funktionen),
+Steuerungssysteme, Geräte, Planungsbeispiele. Einleitung (S. 279): die
+Veränderung der Raumatmosphäre lässt sich über unterschiedliche Parameter
+regeln, von Grundfunktionen wie dem Ein-/Ausschalten von Stromkreisen bis zu
+automatisch zeitgesteuerten Farbverläufen; über das Programmieren von
+Lichtszenen lassen sich Einstellungen speichern, flexibel neu definieren und
+wechselnden Anforderungen anpassen. Acht Funktionen laut Übersichtsgrafik:
+
+- **Schalten (S. 281):** einfachstes Ein-/Ausschalten per Schalter/Taster;
+  für unterschiedliche Lichtszenen sind verschiedene Stromkreise mit
+  separaten Schaltern nötig; bei den meisten Leuchtmitteln setzt die
+  gewünschte Lichtleistung unmittelbar ein, Hochdruck-Entladungslampen
+  benötigen eine Einbrennzeit von einigen Minuten und eine längere
+  Abkühlphase vor dem Wiederzünden.
+- **Dimmen (S. 282):** stufenloses Regeln des Lichtstroms erhöht den
+  Sehkomfort und senkt den Stromverbrauch, verlängert bei Glühlampen zudem
+  die Lebensdauer; Temperaturstrahler (Halogen-Glühlampen) lassen sich
+  problemlos dimmen, Leuchtstofflampen und LEDs benötigen spezielle
+  dimmbare Betriebsgeräte.
+- **Lichtfarbe (S. 283):** bei Leuchten mit variabler Lichtfarbe lässt sich
+  diese über Farbwinkel, Intensität und Helligkeit definieren; der mögliche
+  Farbraum hängt von Leuchtmittel bzw. Lichttechnik ab; die
+  RGB-Farbmischtechnik regelt die Lichtfarbe über die Einzelregelung von
+  Rot, Grün und Blau.
+- **Szene (S. 284):** eine statische Beleuchtungssituation, in der der
+  Zustand aller lichttechnischen Systeme (Leuchten, Lichtdecken,
+  Lichtobjekte) mit ihren Schalt-/Dimmzuständen definiert ist; lässt sich in
+  Lichtsteuersystemen speichern und manuell oder automatisch abrufen.
+- **Fading (S. 285):** der Übergang von einer Lichtszene zu einer anderen;
+  die Fadingzeit variiert vom unmittelbaren Wechsel bis zu einem mehrere
+  Stunden dauernden Übergang; kontrastreiche Szenen mit kurzer Fadingzeit
+  erzeugen starke Aufmerksamkeit, sehr lange Fadingzeiten wirken kaum
+  wahrnehmbar; der Szenenwechsel lässt sich über Nutzer, Sensor oder Timer
+  auslösen.
+- **Dynamischer Farbverlauf (S. 286):** eine zeitliche Abfolge von
+  Farbveränderungen innerhalb einer definierten Gesamtlaufzeit, mit
+  Wiederholungsoptionen wie Endlosschleife oder «vor und zurück».
+- **Sequenz (S. 287):** ein Ablauf aufeinanderfolgender Lichtszenen; ihre
+  Definition braucht sowohl die einzelnen Szenen als auch Angaben zu ihrem
+  Übergang; kann sich am Ende automatisch wiederholen oder beendet werden.
+- **Timer (S. 288):** ermöglicht den Abruf von Szenen zu definierten
+  Zeitpunkten; Uhrzeit- und Kalenderfunktionen bieten hohe Flexibilität bei
+  der Automatisierung, z. B. Anpassung an Öffnungszeiten über Start-/
+  Endzeit.
+- **Sensor (S. 289):** erfasst Eigenschaften wie Helligkeit oder Bewegung und
+  passt die Beleuchtung automatisch an veränderte Umgebungseinflüsse an;
+  ein Helligkeitssensor ermöglicht die tageslichtabhängige Steuerung,
+  Bewegungssensoren registrieren Aktivität im Raum und regeln das Licht in
+  Abhängigkeit der Nutzung zur Reduktion des Stromverbrauchs.
+
+## Lichtsteuerung — Steuerungssysteme (S. 290-295, vollständig)
+
+Einleitung (S. 290): in Gebäuden wächst die Automatisierung durch
+Steuerungssysteme; die Beleuchtung ist nur eine Komponente neben der
+Bedienung von Sonnenschutz, Klimatechnik und Sicherheitssystemen; der
+Vorteil spezieller Lichtsteuersysteme liegt in der besonderen Ausrichtung auf
+die Anforderungen der Lichtplanung und der geringeren Komplexität gegenüber
+umfangreichen Gebäudesteuerungssystemen.
+
+- **Lichtsteuerungssysteme (S. 291-292):** schalten und dimmen Leuchten,
+  richten Lichtszenen ein und verwalten sie zeitlich sowie räumlich; die
+  Wahl eines Systems hängt von der Grösse der Anlage, den Anforderungen an
+  Veränderbarkeit/Bedienkomfort und wirtschaftlichen Aspekten ab; digitale
+  Systeme mit individueller Leuchtenadressierung ermöglichen eine hohe
+  Flexibilität, Lichtsteuersysteme lassen sich als Subsystem in ein
+  Gebäudemanagementsystem einbinden. Drei im Dokument beschriebene
+  Protokolle (technische Sachbeschreibung, keine ERCO-Produktnennung):
+  **1V-10V** (analoge Steuertechnik zur Ansteuerung elektronischer
+  Vorschaltgeräte, verbreitet in Anlagen niedriger Komplexität; der
+  Dimmwert wird über eine separate Steuerleitung übertragen, die EVGs sind
+  nicht adressierbar, der Steuerkreis muss deshalb sorgfältig geplant
+  werden und Gruppierungen sind fest durch die Stromkreise vorgegeben; eine
+  Rückmeldung, z. B. bei Lampenausfall, ist mit 1V-10V nicht möglich);
+  **DMX** (Digital Multiplexed, hauptsächlich für Bühnenbeleuchtung, in der
+  Architekturbeleuchtung u. a. für Medienfassaden/bühnenartige
+  Rauminszenierungen; Datenübertragung über ein separates 5-poliges Kabel
+  mit 250 Kbit/s und bis zu 512 steuerbaren Kanälen, an jeder Leuchte muss
+  eine Busadresse eingestellt werden; die Version **DMX 512-A** ermöglicht
+  erstmals eine bidirektionale Kommunikation, die einfache DMX-Übertragung
+  war lange unidirektional ohne Rückmeldung z. B. bei Lampenausfall);
+  **DALI** (Digital Adressable Lighting Interface, Steuerprotokoll zur
+  individuellen Ansteuerung von Leuchten mit DALI-Betriebsgeräten,
+  komfortables Lichtmanagement, als Subsystem auch in moderne
+  Gebäudesteuerungssysteme integrierbar; zweiadrige Steuerleitung mit
+  1,2 Kbit/s, gemeinsam mit der Netzleitung in einer 5-poligen Leitung
+  verlegbar; bidirektionales System mit Rückmeldung z. B. bei
+  Lampendefekt; das Protokoll begrenzt die Teilnehmerzahl auf 64, die
+  Standardausführung speichert Einstellungen für maximal 16
+  Leuchtengruppen und 16 Lichtszenen in den Betriebsgeräten selbst; das
+  Light System DALI von ERCO speichert die Einstellungen dagegen in einem
+  zentralen Controller mit grösserer Speicherkapazität, was mehr
+  Leuchtengruppen/Lichtszenen/Fadingzeiten sowie zusätzliche Codierung
+  erlaubt — einzige konkrete ERCO-Produktnennung in diesem Abschnitt, hier
+  bewusst als Herstellerbeispiel gekennzeichnet, nicht als allgemeine
+  DALI-Eigenschaft übernommen; weiterführende, herstellerneutrale
+  Information laut Quelle unter www.dali-ag.org).
+- **Allgemeine Steuerungssysteme (S. 293-294):** Gebäudemanagementsysteme
+  steuern mehrere Gebäudesysteme (Heizung, Sonnenschutz, Beleuchtung), sind
+  komplexer als reine Lichtsteuerungen und entsprechend aufwendiger in
+  Planung/Installation/Bedienung; ein einheitliches Protokoll ermöglicht die
+  gewerkeübergreifende Kommunikation; die Gebäudeautomation gliedert sich
+  laut Quelle in drei Ebenen — Managementebene (Visualisierung für den
+  Nutzer), Automationsebene (Datenaustausch), Feldebene (Sensoren/Aktoren);
+  für die Beleuchtung selbst stehen meist keine integrierten Schnittstellen
+  in den Leuchten zur Verfügung, die Lichtsteuerung erfolgt über die
+  Stromkreise. Zwei Protokolle: **KNX** (bekannt als European Installation
+  Bus EIB, digitales Standardsystem, das nicht nur Beleuchtung, sondern auch
+  Heizung/Lüftung/Sonnenschutz steuert und sich als Netzwerk für die
+  Gebäudeautomation eignet; Fernüberwachung/-steuerung als Komfortmerkmal;
+  Datenübertragung mit 9,6 Kbit/s über eine separate 24-V-Steuerleitung als
+  verdrillte Zweidrahtleitung; bidirektionale, dezentrale Kommunikation mit
+  Prioritätenvergabe zur Vermeidung von Datenkollisionen, individuelle
+  Adressen von Sensoren/Aktoren erlauben eine flexible Zuordnungsänderung;
+  Einsatzfelder Wohnungsbau sowie grosse Gebäude wie Büros/Flughäfen);
+  **LON** (Local Operating Network, digitales Standardprotokoll, das nicht
+  nur Baugewerke steuert, sondern auch in der Industrie-/
+  Prozessautomatisierung verwendet wird; über TCP/IP zu ortsübergreifenden,
+  aus der Ferne steuerbaren Netzwerken zusammenstellbar; basiert auf
+  intelligenten Sensoren/Aktoren, der «Neuron» genannte Mikroprozessor jedes
+  LON-Knotens ist programmier-/konfigurierbar; Datenübertragung von bis zu
+  32'000 Knoten über eine verdrillte Zweidrahtleitung als separate
+  Steuerleitung mit bis zu 1,25 Mbit/s).
+- **Beleuchtung programmieren (S. 295):** die Software-Programmierung von
+  Beleuchtungsanlagen ermöglicht ein hohes Mass an Flexibilität für
+  individuelle Anforderungen, führt aber zu komplexen Systemen mit
+  Sensoren/Schnittstellen, die häufig eine professionelle Installation und
+  Betreuung erfordern; für den Anwender ist eine einfache Bedienung im
+  Alltag entscheidend, um individuelle Anpassungen selbst vornehmen zu
+  können. Nicht standardisierte Systeme decken einen sehr hohen
+  Komplexitätsgrad für besondere Bauaufgaben ab, erfordern aber bei
+  Problemen/Änderungen die Unterstützung eines spezialisierten
+  Programmierers; standardisierte Lichtsysteme mit wählbaren Parametern
+  vereinfachen die Handhabung und ermöglichen Modifikationen durch
+  Lichtplaner und Nutzer selbst. Die Systemwahl hängt laut Quelle von
+  technischen Aspekten (Anlagengrösse, Integration in Medientechnik/
+  Gebäudesteuerung, Installationsaufwand) sowie Anwenderkriterien
+  (Ergonomie, Flexibilität, Wartung) ab.
+
+## Lichtsteuerung — Geräte (S. 296-303, vollständig)
+
+Einleitung (S. 296): Lichtsteuerungsanlagen setzen sich aus Sensoren
+(registrieren Veränderungen in der Umgebung), Bedienelementen (Abruf/
+Programmierung von Lichtszenen) und Ausgabegeräten (setzen die Signale des
+Regelkreises um) zusammen; die Verbindung mit dem Computer ermöglicht eine
+komfortable Softwarebedienung, für die Kombination verschiedener
+Steuersysteme stehen Gateways zur Verfügung.
+
+- **Sensoren (S. 297-298):** Ein **Lichtsensor** erfasst die
+  Beleuchtungsstärke und ermöglicht die tageslichtabhängige Steuerung von
+  Lichtszenen. Im Innenraum lässt sich aus der Kombination von veränderlichem
+  Tageslicht und Kunstlicht eine konstante Beleuchtungsstärke erzielen, z. B.
+  um Mindestwerte an Arbeitsstätten einzuhalten oder die Strahlungsbelastung
+  von Exponaten in Museen zu begrenzen (Anschlusspunkt zur bereits notierten
+  UV-/IR-Strahlungsbelastungs-Betrachtung der Lampenauswahl); ein
+  Aussensensor auf dem Dach misst die Beleuchtungsstärke des Tageslichts und
+  steuert die Innenraumbeleuchtung («Steuerung»), ein Innensensor misst die
+  Summe aus einfallendem Tageslicht und Kunstlicht, um in Abhängigkeit vom
+  Tageslicht zu regeln («Regelung», mit Rückkopplungskreislauf); in
+  Kombination mit einer Szenensteuerung z. B. als Dämmerungsschalter, auch
+  der Sonnenschutz lässt sich über Sensorsteuerung regeln. Ein
+  **Bewegungssensor** erfasst Bewegungen im Raum und kann z. B. in nicht
+  genutzten Büros das Licht automatisch dimmen/ausschalten, um den
+  Energieverbrauch zu optimieren; in Museen lässt sich die Belichtung
+  empfindlicher Exponate reduzieren, wenn keine Besucher anwesend sind; im
+  Aussenraum vermindern Bewegungssensoren den Stromverbrauch in der Nacht,
+  wenn die Beleuchtung nur bei Bedarf eingeschaltet wird; die
+  Schaltschwellen müssen dafür praxisgerecht eingestellt werden.
+- **Bedienelemente (S. 299-300):** **Taster** (schliesst/öffnet für die
+  Dauer der Betätigung kurzzeitig einen Stromkreis, für mehrere Funktionen
+  sind entsprechend mehrere Taster nötig, die Funktion wird bei der
+  Installation der Lichtsteuerungsanlage festgelegt), **Schalter** (rastet
+  in einer Position ein, muss anders als ein Taster nicht gedrückt gehalten
+  werden, ändert die Beleuchtung durch Ein-/Ausschalten), **Fernbedienung**
+  (steuert das Licht unabhängig von Wand-Bedienelementen, in
+  Konferenzräumen komfortabel, um unterschiedliche Lichtszenen frei im Raum
+  abzurufen, die Infrarot-Variante braucht einen IR-Empfänger), **GUI**
+  (Graphical User Interface, grafische Benutzeroberfläche als Schnittstelle
+  zu einer Software auf Computern/Bedienelementen, erspart dem Nutzer das
+  Erlernen komplexer Befehlssprachen, in Kombination mit einem Touchscreen
+  direkte Bildschirminteraktion).
+- **Ausgabegeräte (S. 301-302):** **Relais** (ein elektrisch betriebener
+  Schalter; bei Halogen-Metalldampflampen müssen die Einbrennzeit von
+  einigen Minuten und eine längere Abkühlphase vor dem Wiederzünden
+  berücksichtigt werden), **Dimmer** (regelt den Lichtstrom stufenlos;
+  Phasenanschnittsteuerung bei Glühlampen sowie bei Niedervolt-
+  Halogenlampen mit elektronischem Transformator; Leuchtstofflampen
+  benötigen spezielle elektronische Vorschaltgeräte, konventionelle
+  Kompaktleuchtstofflampen sind nicht dimmbar, LEDs mit passenden
+  Betriebsgeräten problemlos dimmbar; die 1V-10V-Technik braucht neben einem
+  speziellen EVG ein Potentiometer oder Steuersystem mit 1V-10V-
+  Steuerspannungsausgang, Dimmer sind dabei meist in Schaltschränken
+  zusammengefasst mit fest zugeordneten Steuerleitungen; DALI erlaubt
+  dagegen die individuelle Ansteuerung der dimmbaren EVGs an den Leuchten),
+  **Controller** (elektronische Einheiten zur Prozesssteuerung, in einem
+  Lichtsteuersystem wie dem Light System DALI werden dort Lichtszenen
+  gespeichert und die Leuchten angesteuert, die Speicherkapazität begrenzt
+  die Datenmenge; der Nutzer steuert den Controller über Software oder
+  Bedienelemente an, eine Steuerleitung verbindet ihn mit den Leuchten und
+  überträgt die Signale an die Vorschaltgeräte; für das LON-System stehen
+  D/A-Module zum Speichern/Abrufen von Lichtszenen und zum Anschluss
+  externer Dimmer bzw. zur direkten Ansteuerung dimmbarer EVGs/
+  Transformatoren zur Verfügung).
+- **Schnittstellen und Software (S. 303):** **Gateways** ermöglichen den
+  Signal-/Datenaustausch zwischen unterschiedlichen Datennetzen/
+  Bussystemen; der Einsatz mehrerer Steuersysteme in einem Gebäude erfordert
+  einen Datentransfer zwischen den Systemen, so lassen sich
+  Lichtsteuersysteme als Subsystem über Konverter in ein
+  Gebäudemanagementsystem integrieren, ebenso können z. B. DALI-
+  Lichtsteuersysteme über Gateways 1V-10V-Steuergeräte für den Sonnenschutz
+  regeln. **Software** macht jeden angeschlossenen PC zum Bedienelement/
+  Programmiergerät für die Anlage (Anschluss z. B. über USB); die
+  Einstellungen von Helligkeit und Lichtfarbe werden in Lichtszenen
+  zusammengefasst, die Programmierung erfolgt über Software und lässt sich
+  über Bedienelemente abrufen; über ein Zeitsteuerungsprogramm lässt sich
+  das Licht sequentiell (periodisch wiederkehrende Lichtszenen) oder
+  kalendarisch (ausgerichtet an festgelegten Uhrzeiten/Tagen) steuern; beim
+  DALI-System mit individuell adressierbaren Leuchten lassen sich die
+  Zuordnungen flexibel neu gruppieren. **Firmware** ist die für den Betrieb
+  von Geräten erforderliche, im Flash Memory gespeicherte Software, die
+  **PC-Software** dient zur Bedienung des Lichtsteuersystems über den
+  Computer und wird auf der Festplatte gespeichert.
+
+## Lichtsteuerung — Planungsbeispiele (S. 304-317, vollständig)
+
+Einleitung (S. 304): der Anwendungsbereich einer Lichtsteuerung umfasst die
+funktionelle Anpassung des individuellen Beleuchtungsbedarfs, die
+Optimierung des Energieeinsatzes sowie die differenzierte Gestaltung von
+Architektur, Ausstellung und Präsentation. Fünf Fallbeispiele, im Original
+überwiegend bildbasiert (Pläne/Diagramme) mit knappem Anforderungstext, hier
+nur der Fliesstext wiedergegeben:
+
+- **Museum (S. 305-306):** das Beleuchtungsniveau bleibt niedrig, solange
+  sich keine Besucher im Raum befinden; beim Betreten des Raums wird die
+  optimale Ausstellungsbeleuchtung angesteuert — Bewegungssensor-Logik im
+  direkten Anschluss an den bereits notierten Exponatenschutz-Gedanken
+  (Museums-Belichtungsreduktion S. 298).
+- **Büro (S. 307-309):** mehrere Beleuchtungsniveaus lassen sich einstellen
+  und werden tageslichtabhängig gesteuert; die Bedienung erfolgt über Taster
+  an der Tür, maximal vier verschiedene Lichtniveaus sind wählbar; die
+  Lichtszenen werden nach Beleuchtungsstärken für unterschiedliche Nutzungen
+  definiert, die eigentliche Feinregelung auf den Sollwert innerhalb der
+  Lichtszene erfolgt über die Tageslichtregelung.
+- **Showroom (S. 310-311):** das Beleuchtungsprogramm setzt sich aus
+  differenzierten Lichtszenen zusammen, die Bedienung erfolgt über ein
+  Preset am Empfang; eine Tageslichtsteuerung optimiert die Energienutzung.
+- **Restaurant (S. 312-314):** für Frühstück, Mittag- und Abendessen lassen
+  sich verschiedene Lichtszenen abrufen (Tageszeiten-Szenenlogik).
+- **Multifunktionaler Raum (S. 315-317):** unterschiedliche Lichtszenen für
+  Nutzungsvarianten mit unterschiedlicher Raumaufteilung, konkret laut
+  Quelle Schulung/Seminar im grossen Raum, Sitzung im grossen Raum,
+  Schulung im kleinen Raum — die Teilbarkeit des Raums bestimmt die
+  Szenenlogik.
+
+Damit ist das Hauptkapitel «Lichtsteuerung» (S. 278-317) vollständig
+gelesen. Nächstes Hauptkapitel «Lichttechnik» beginnt S. 318 mit der
+Übersicht «Grössen, Einheiten» — sauberer Stopp vor der Kapitelgrenze, am
+Original verifiziert (`pdftotext -f 318`).
 
 ## Praxisrelevanz für JANS
 
@@ -1285,40 +1805,68 @@ bei Freiflächenleuchten (S. 201).
   Fachplaner-Offerte eingeholt wird (gleiche Kategorie wie das bereits
   vermerkte Downlight-Abstandsverhältnis a≤1,5h).
 - Der explizite **Blendungshinweis bei der Lochfassade** («Blendung der
-  Nutzer im Innenraum sollte vermieden werden», S. 241, direkt an den
-  Stopp-Punkt dieses Laufs anschliessend) ist ein Praxispunkt speziell für
-  Fassadenkonzepte mit Fensterleibungs-/Innenraum-Beleuchtung — im nächsten
-  Lauf mit dem vollständigen Lochfassade-Abschnitt aufzunehmen.
+  Nutzer im Innenraum sollte vermieden werden», S. 241) ist ein Praxispunkt
+  speziell für Fassadenkonzepte mit Fensterleibungs-/Innenraum-Beleuchtung.
+- Die **Streiflicht-Faustregel für Bäume von etwa 15°** (S. 257) und die
+  Unterscheidung «Leuchten innerhalb vs. ausserhalb der Baumgrundfläche» je
+  nach Kronendichte (dicht/kugelförmig vs. locker/schirmförmig) sind
+  konkrete, herstellerneutrale Planungswerte für ein Aussenraum-
+  Beleuchtungskonzept mit Bestandsbäumen — direkt gegenüber
+  Landschaftsplaner/Bauherrschaft zitierfähig.
+- Die vier **Dark-Sky-Kriterien** (adäquate Beleuchtungsstärke, keine
+  Streulichtabstrahlung oberhalb der Horizontebene, korrekte
+  Leuchtenausrichtung, Reduktion/Abschaltung bei Nichtbedarf, S. 277) sind
+  eine direkt einsetzbare Checkliste, sobald eine Gemeinde oder das UGZ im
+  Aussenraumkonzept Lichtimmissionen thematisiert — ergänzt die bereits
+  notierten Einzelhinweise (Freiflächenleuchten S. 201, Fassade S. 230) um
+  einen zusammenhängenden, zitierfähigen Kriterienblock; eine eigene
+  normative Grenzwert-Fundstelle liefert der Ratgeber weiterhin nicht.
+- Der **Protokollüberblick 1V-10V/DMX/DALI/KNX/LON** (S. 291-294) ist ein
+  herstellerneutrales Vokabular, um in einem Elektro-/Lichtsteuerungs-LV die
+  Systemwahl zu begründen (Komplexität, Adressierbarkeit, Rückmeldefähigkeit,
+  Gewerkeintegration), ohne bereits auf ein Fabrikat festgelegt zu sein —
+  die einzige konkrete Herstellernennung (Light System DALI, S. 292) ist im
+  Artikel als solche gekennzeichnet und nicht als allgemeine
+  DALI-Eigenschaft übernommen.
+- Die **Sensor-/Regelungs-Unterscheidung «Steuerung» (Aussensensor, offene
+  Kette) vs. «Regelung» (Innensensor, Rückkopplungskreislauf)** (S. 297) ist
+  ein präziser Begriffsapparat, um gegenüber einem Elektroplaner die
+  gewünschte Tageslichtabhängigkeit einer Kunstlichtanlage exakt zu
+  benennen, statt pauschal «tageslichtgesteuert» zu fordern.
 
 ## Offene Punkte
 
-- 240 von ca. 435 Seiten gelesen. Kapitel «Innenraumbeleuchtung» (S. 110-183)
-  und die Unterkapitel «Arten des Beleuchtens» (S. 184-196) sowie
-  «Leuchtengruppen» (S. 197-210) von «Aussenraumbeleuchtung» sind vollständig;
-  vom Unterkapitel «Lichtanwendungen» (Aussenraum) sind Wand, Decke, Boden,
-  Objekt (S. 211-229) vollständig gelesen sowie von Fassade die Typen massiv,
-  vertikale Gliederung, horizontale Gliederung, Vorsprung-Rücksprung
-  (S. 230-239) vollständig und Lochfassade angelesen bis S. 240 (Beobachtung
-  vollständig, Folgerung/Anordnung/Anwendung ab S. 241 offen). Laut
-  Übersichtsgrafik S. 230 folgt nach Lochfassade noch der sechste Fassadentyp
-  «Fassade transparent», danach das letzte «Lichtanwendungen»-Unterkapitel
-  «Vegetation». Offen: Lochfassade-Rest, Fassade transparent, Vegetation,
-  danach «Lichtsteuerung», «Lichttechnik»
-  mit vermutlich den praxisrelevantesten Kennwerten (lm/W, Ra, Farbtemperatur
-  je Lampentyp), «Simulation und Berechnung» (eigenes Kapitel laut
-  PDF-Keywords — Abgrenzung zum bereits gelesenen «Licht
-  visualisieren»-Abschnitt «Simulation» noch ungeklärt, evtl. Dublette oder
-  vertiefendes Berechnungskapitel) sowie das Glossar — für künftige
-  Destillat-Läufe offen, im Frontmatter-Feld `gelesen:` nachgeführt.
+- 317 von ca. 435 Seiten gelesen. Kapitel «Innenraumbeleuchtung» und das
+  gesamte Hauptkapitel «Aussenraumbeleuchtung» (S. 184-277: «Arten des
+  Beleuchtens», «Leuchtengruppen», «Lichtanwendungen» inkl. «Planungsbeispiele»
+  und «Dark Sky») sind vollständig gelesen. Das neue Hauptkapitel
+  «Lichtsteuerung» (S. 278-317: Licht steuern/Funktionen, Steuerungssysteme
+  inkl. 1V-10V/DMX/DALI/KNX/LON, Geräte, Planungsbeispiele) ist ebenfalls
+  vollständig gelesen. Offen: das Hauptkapitel «Lichttechnik» ab S. 318
+  (beginnt laut Übersicht mit «Grössen, Einheiten», vermutlich mit den
+  praxisrelevantesten Kennwerten lm/W, Ra, Farbtemperatur je Lampentyp —
+  hier ist besonders auf Herstellerneutralität zu achten, da ERCO selbst
+  Leuchtenhersteller ist, siehe Präzedenzfall Light System DALI S. 292),
+  danach vermutlich «Simulation und Berechnung» (eigenes Kapitel laut
+  PDF-Keywords — Abgrenzung zum bereits gelesenen «Licht visualisieren»-
+  Abschnitt «Simulation» weiterhin ungeklärt) sowie das Glossar — für
+  künftige Destillat-Läufe offen, im Frontmatter-Feld `gelesen:`
+  nachgeführt.
 - Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise
   nachgeführt) deutet auf eine lebende Online-Publikation (www.erco.com/guide
   laut S.1) — für eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil
-  dieses Laufs. Der Wechsel fällt meist mit Kapitelgrenzen zusammen (S. 151→152
-  Leuchtengruppen→Lichtanwendungen, S. 183→184 Innenraum→Aussenraum), diesmal
-  aber auch einmal mitten in einem Unterkapitel (S. 195 Edition 01.03.2010,
-  S. 196 wieder 29.09.2006, beide «Orientierung») — im nächsten Lauf weiter
-  mitführen.
+  dieses Laufs. Der Wechsel fällt in diesem Lauf durchgehend mit
+  Kapitelgrenzen zusammen (S. 265→266 Vegetation→Planungsbeispiele,
+  S. 274→275 Planungsbeispiele→Dark Sky, S. 277→278
+  Aussenraumbeleuchtung→Lichtsteuerung), mit einer Ausnahme innerhalb von
+  «Geräte» (S. 298 Edition 03.07.2007 → S. 299-300 Edition 01.03.2010 →
+  S. 301 wieder 03.07.2007, mitten im Unterkapitel «Bedienelemente»/
+  «Ausgabegeräte») — im nächsten Lauf weiter mitführen.
 - Für künftige Läufe: bei inhaltlich wiederholten Abschnitten (siehe
   Praxisrelevanz-Punkt zur dreifachen Orientierungs-/Fluchtweg-Wiederholung)
   reicht ein knapper Verweis statt vollständiger Neuformulierung — Beobachtung
-  aus diesem Lauf, keine Korrektur eines Fehlers.
+  aus einem früheren Lauf, keine Korrektur eines Fehlers. Für dieses
+  Kapitel «Lichtsteuerung/Planungsbeispiele» (S. 304-317) galt dieselbe
+  Verdichtungslogik bereits direkt: die fünf Fallbeispiele sind im Original
+  überwiegend bildbasiert (Pläne/Diagramme ohne OCR-fähigen Text), der
+  Artikel gibt nur den vorhandenen Fliesstext wieder.

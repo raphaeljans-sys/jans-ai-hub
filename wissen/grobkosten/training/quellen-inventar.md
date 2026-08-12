@@ -1,3 +1,21 @@
+## Run 15 (11.08.2026, Mac Mini Nachtschicht) — Run-13/14-Blocker `2304 Wädenswil` geschlossen: Zugriff über Weg 2 (Graph/CLI), Inhalt aber `[-]` untauglich (BKP-1-9-only)
+
+Statt eines dritten identischen `cp`-Retrys auf den weiterhin blockierten OneDrive-Mount
+(Rule Budget-Disziplin: nie dieselbe gescheiterte Aufgabe direkt wiederholen) über die
+zertifikatsangemeldete CLI for Microsoft 365 zugegriffen: `spo file get --webUrl <Site>
+--url <server-relativer Pfad> --asFile --path <Ziel>`, liest über Graph/SharePoint-API,
+umgeht den hängenden File-Provider vollständig. Alle drei Zieldateien (`230831_Variante_
+Atrium.pdf`, `230829_Immo_02_P23D_Residualwert_Projektbewertung.pdf`, `230829_
+Flaechenauszug.pdf`) vollständig und grössenkorrekt geladen. **Ergebnis `[-]`:** beide
+Residualwert-PDF beschriften ihre einzige Kostensumme eindeutig als "ERSTELLUNGSKOSTEN TOTAL
+(BKP 1-9)" — keine BKP-1-5-Teilsumme im Dokument, auch nicht rechnerisch rückführbar; GV nur
+rechnerisch aus dem Kennwert zurückgeleitet, nicht SIA-416-ausgemessen. Gleiche Ausschlussregel
+wie Pre-Check-Tool (`raw/2305-waedenswil-precheck.md`) und Wald Haselstudstrasse. Kein
+Kennwert promoviert. Damit ist der seit Run 6 offene Kandidat «2304 Wädenswil Residualwert-
+Tool» **abschliessend geschlossen** — inhaltlich beantwortet, nicht mehr als Blocker offen.
+Details: `raw/2304-waedenswil-residualwert-zwei-varianten.md`. Zugriffsweg dokumentiert in
+`connectors/WEGE.md` für künftige `Resource deadlock avoided`/OneDrive-Timeout-Fälle.
+
 ## Run 14 (08.08.2026) — Run-13-Blocker unverändert, kein neuer Projektordner: stattdessen Gegenprüfung Niederhasli (`[x]`, bereits extrahiert, jetzt unabhängig verifiziert)
 
 `2304 Wädenswil` (Run 13) erneut getestet (`cp` auf dieselbe Datei): weiterhin `Resource

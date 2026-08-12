@@ -1,13 +1,15 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-04 (Run 123 neu angelegt; Wissens-Chef Run 25: Vertragshierarchie SIA 118 korrigiert)"
+last_updated: "2026-08-11 (Run 123 neu angelegt; Wissens-Chef Run 25: Vertragshierarchie SIA 118 korrigiert; Run 126: Recyclingbeton-Nomenklatur 2006/2007/2008/2026)"
 sources:
   - "[[eco-bau-merkblaetter-bkp-2008-huelle]] und [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] — Verein eco-bau c/o KBOB, «Ökologisch Bauen — Merkblätter nach Baukostenplan BKP», Ausgabe 2008, 55 S. vollständig gelesen"
   - "[[bauoekologische-submissionsbedingungen]] — Stadt Zürich HBD, «Allgemeine bauökologische Submissionsbedingungen», September 2006"
   - "[[eco-bau-devis-und-baustellenkontrolle]] — eco-bau/AHB, Checklisten Deviskontrolle und Baustellenkontrolle, 2006"
   - "[[eco-bau-checkliste-planung-projektierung]] — eco-bau, «Ökologisch Bauen: Planung und Projektierung», Stand 2001"
   - "[[eco-bau-zielvereinbarungen-sia112-1]] — Checkliste Zielvereinbarungen SIA 112/1, Copyright 2004"
+  - "[[kbob-recyclingbeton-2007]] — KBOB/eco-bau/IPB, Empfehlung Nachhaltiges Bauen 2007/2 «Beton aus recyclierter Gesteinskörnung», 6 S. vollständig gelesen 11.08.2026"
+  - "[[kbob-oekobilanzdaten-baubereich-2007]] — KBOB/eco-bau/IPB, Empfehlung 2007/1 «Ökobilanzdaten im Baubereich», Datenstand Dezember 2006"
   - "[[ahb-zuerich-massstaebe-nachhaltiges-bauen]] — Stadt Zürich AHB, «Massstäbe für Umwelt- und energiegerechtes Bauen», Mai 2006"
   - "[[haushaltgeraete-effizienz-beschaffung-topten]] — «Professionelle Beschaffung: Haushaltgeräte», Januar 2008"
   - "Aktualitätsprüfung ecoBKP 2026 / SIA-Normstände: siehe outputs/2026-08-04_energie-run123.md"
@@ -186,6 +188,38 @@ Normstände (Aktualitätsprüfung Run 123, an shop.sia.ch bzw. Fedlex/BAFU verif
 | SIA 162/4 | **archiviert** seit 31.12.2009 |
 | VeVA (SR 814.610) | **gilt weiterhin** — nicht zu verwechseln mit TVA → VVEA (01.01.2016) |
 | Energieetikette A++/A+ | **neu skaliert** ab 01.03.2021, Skala A-G, EnEV SR 730.02 |
+
+## Recyclingbeton: dieselbe Sache, drei Nomenklaturen (ergänzt Run 126, 2026-08-11)
+
+Recyclingbeton ist das Lehrstück dieses Artikels, weil sich an ihm zeigen lässt, wie eine
+Anforderung inhaltlich stabil bleibt und ihre **Bezeichnung** trotzdem dreimal wechselt. Wer einen
+alten Ausschreibungstext übernimmt, schreibt Sortenbezeichnungen aus, die es normativ nicht mehr
+gibt.
+
+| Stand | Sortenbezeichnung | Normbezug | Fundstelle |
+|---|---|---|---|
+| 2006 (Submissionsbedingungen Stadt Zürich) | «RC-Beton», Mindestanteil **60 %** rezyklierte Gesteinskörner, als **Hauptposition** | — | `[[bauoekologische-submissionsbedingungen]]` |
+| 2007 (KBOB-Empfehlung 2007/2) | **RC-W** (gereinigter Erdaushub) · **RC-B** (Betonabbruch) · **RC-M** (Mischabbruch) | SN EN 206-1; Anwendung nach SIA-Empfehlung **162/4** | `[[kbob-recyclingbeton-2007]]` |
+| 2008 (eco-bau-Merkblätter nach BKP) | RC-B / RC-M je Expositionsklasse | SN EN 206-1, SIA 162/4 | `[[eco-bau-merkblaetter-bkp-2008-huelle]]` |
+| **2026 (ecoBKP, geltend)** | **RC-C50 · RC-M40** als 1. Priorität; Primärbeton **nicht empfohlen** bei RC-Verfügbarkeit innert **25 km** | aktuelle SIA-/SN-Fassungen | `[[ecobkp-2026-tragwerk-und-rohbau]]` |
+
+**Der Bruch liegt bei der Norm, nicht bei der Absicht:** Die SIA-Empfehlung 162/4, auf die sich
+2007 und 2008 für die Anwendung stützen, ist seit **31.12.2009 archiviert**. Die Fachlogik der
+Empfehlung 2007/2 gilt dagegen unverändert: RC-M hat grösseres Schwind- und Kriechmass und
+geringeren Elastizitätsmodul und bleibt deshalb den gering beanspruchten Anwendungen vorbehalten
+(X0, XC1, XC2), während Aussenfassaden und wasserdichter Beton (XC4, XF1) die höherwertigen Sorten
+verlangen; Frost mit Taumitteln und hohe Festigkeiten waren ausgeschlossen.
+
+Zwei Punkte für die Ausschreibungspraxis, die sich aus dem Vergleich der vier Stände ergeben:
+
+1. **Die 25-km-Regel ist die eigentliche Konstante.** Sie steht 2007 (MINERGIE-ECO), 2008
+   (eco-bau) und 2026 (ecoBKP) unverändert. Die ökologische Begründung des Recyclingbetons ist
+   die Transportdistanz und die Ressourcenschonung, **nicht** ein gerechneter CO₂-Vorteil: die
+   Empfehlung 2007/2 nennt keine einzige Zahl zu grauer Energie oder kg CO₂-eq.
+2. **Hauptposition, nicht Variante.** Die Mechanik dieses Artikels greift hier unmittelbar: eine
+   Materialvorgabe, die nur als Variante im Devis steht, wird im Angebot wegoptimiert. Die
+   Submissionsbedingungen von 2006 haben das bereits so gelöst und verlangen RC-Beton
+   ausdrücklich als Hauptposition.
 
 ## Bauherren-Transfer
 

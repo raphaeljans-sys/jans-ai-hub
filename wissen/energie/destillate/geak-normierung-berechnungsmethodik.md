@@ -4,8 +4,8 @@ herausgeber: EnDK / Verein GEAK-CECB-CECE
 ausgabe: Version 2.1.0, 30.3.2023
 gelesen: 2026-08-07 (vollständig, Seiten 1-79, in Blöcken 1-6 / 7-26 / 27-46 / 47-66 / 67-79)
 datenstand: 2023 (aktuell gültige Methodik-Fassung, Stand Juli/August 2026)
-status: emerging (Refuter-Panel Run 125: 10 bzw. 19 Beanstandungen, tragende Punkte korrigiert; established erst nach erneuter Prüfung)
-last_updated: 2026-08-07
+status: established (zweite, unabhängige Prüfrunde Run 126 am 11.08.2026 bestanden: 10 von 13 wörtlich zitierten Aussagen ohne Beanstandung, 3 Beanstandungen geringer Tragweite — zwei Formulierungen und eine zusammengezogene Fundstelle — vom Hauptlauf am Original gegengeprüft und korrigiert; keine falsche Zahl, keine falsche Fundstelle)
+last_updated: 2026-08-11
 geltungsbereich: Kap. 2 Heizwärmebedarf (S.8-9) · Kap. 3 Heizung und Warmwasser (Wärmeerzeuger, Speichertypen, Verteil-/Speicherverluste, Hilfsenergie, Endenergie, S.10-33; ohne Kap. 3.6 Zuordnung der Speicherverluste auf Wärmeerzeuger, S.20-22, Gl. 9-12) · Kap. 4 Lüftung (S.34-41) · Kap. 5 PV/WKK-Anrechnung (S.42) · Kap. 6 Elektrizität Wohnen/Zweckbauten (S.43-59; ohne Kap. 6.2.5 Weitere Verbraucher WVA, S.49) · Kap. 7.1/7.2 Etikette, Projektwerte und Referenzwerte inkl. CO2/THGE (S.60-65) · Kap. 8 Beurteilung Gebäudehülle und Gebäudetechnik (S.68-71). Kap. 7.3 Kennwerte und Klassierung (Tab. 40/41, S.66-67) ist bereits im Bestandsdestillat [[geak-klassengrenzen-relative-klassierung]] erfasst und wird hier nur verlinkt, nicht wiederholt. Kap. 9 Literaturverzeichnis und Kap. 10 Symbolverzeichnis wurden gelesen, aber nicht inhaltlich destilliert (reine Nachschlagelisten).
 ---
 
@@ -55,9 +55,11 @@ jeder Bereich muss zu 100 % gedeckt sein (Beispieltabelle Tab. 1, S. 10). Sonder
 Heizwärmebedarfs, nur in einem wassergeführten Bereich möglich, verlangt zwingend einen
 zusätzlichen Hauptwärmeerzeuger, hat keine Hilfsenergie und keine Verteilverluste. Speicher
 (Heizungs-, Warmwasser- oder Kombispeicher) werden den Wärmeerzeugern erzeugerscharf und
-binär zugeordnet (Gl. 9): mindestens einem, maximal drei Wärmeerzeugern je Speicher, maximal
-zwei Speicher je Erzeuger (Fliesstext S. 11; die Beispieltabelle Tab. 2, S. 12, zeigt nur
-einen Anwendungsfall). Die Wärmeerzeugung selbst hat keinen eigenen Verlustmechanismus: laut
+binär zugeordnet: die **Mengengrenzen** stehen als Aufzählung in Kap. 3.4 «Speichertypen», S. 11
+(«Jeder Speicher wird mindestens einem, maximal drei Wärmeerzeugern zugeordnet. Jedem
+Wärmeerzeuger können maximal zwei Speicher zugeordnet werden.»), die **binäre Zuordnung selbst**
+liefert Gl. 9, S. 20 (Faktor 1 bei Zuordnung, 0 ohne). Die Beispieltabelle Tab. 2, S. 12, zeigt
+nur einen Anwendungsfall. Die Wärmeerzeugung selbst hat keinen eigenen Verlustmechanismus: laut
 Kap. 3.5.1, S. 13, müssen die Erzeugungsverluste «in den eingegebenen Nutzungsgraden bzw.
 Jahresarbeitszahlen der Wärmeerzeuger enthalten sein» — eine freie Eingabe und damit die
 empfindlichste Stellschraube der Bilanz.
@@ -71,9 +73,11 @@ Gebäudehülle liegt; in allen anderen Fällen gelten sie als komplett rückgewi
 mit 0 kWh/a angesetzt, ebenso die vertikalen Heizungsleitungen ausnahmslos. **Warmwasser**
 (Gl. 5, S. 16): hier entfällt die Lage-Abfrage — sobald die Versorgung nicht dezentral ist,
 werden horizontale und vertikale Verteilverluste beide nach Gl. 3 gerechnet. Die Lage entscheidet
-beim Warmwasser nicht über das Ob der Berechnung, sondern nur darüber, ob die Verluste als
-rückgewinnbar gutgeschrieben werden (Faktor f_WW,dis,hor,ls = 1 innerhalb, = 0 ausserhalb der
-Hülle, S. 24). Die eigentliche Verlustberechnung (Gl. 3/4, S. 13-14) ist ein
+beim Warmwasser nicht über das Ob der Berechnung, sondern über die **Höhe** der Verluste
+(Umgebungsluft θ_U = 13 °C ausserhalb, 20 °C innerhalb der Hülle, Legende zu Gl. 3/4, S. 14, also
+Δθ = 47 K gegen 40 K; vertikale Verteilleitungen gelten laut derselben Legende **immer** als
+innerhalb der thermischen Hülle) und darüber, ob sie als rückgewinnbar gutgeschrieben werden
+(Faktor f_WW,dis,hor,ls,j = 1 innerhalb, = 0 ausserhalb der Hülle, S. 24). Die eigentliche Verlustberechnung (Gl. 3/4, S. 13-14) ist ein
 Rohrwärmeverlust-Modell (Wärmeübergang innen/aussen, Dämmzustand, mittlere Leitungslänge nach
 Gebäudetyp aus Tab. 8, Umgebungslufttemperatur θ_U: 13 °C ausserhalb, 20 °C innerhalb der
 Hülle; massgebend ist die Temperaturdifferenz Δθ = θ_HK − θ_U bzw. θ_WW − θ_U mit θ_WW = 60 °C).
@@ -90,6 +94,12 @@ Stutzen zzgl. 2 je zugeordnetem Wärmeerzeuger, ausser bei Elektrospeicher/-dire
 -Wassererwärmer, S. 19) — mit dem ausdrücklichen Hinweis, dass diese Formel gemäss SIA
 385/2 eigentlich nur für Speicher > 2000 l gilt und im GEAK mangels Alternative auch für
 kleinere Speicher verwendet wird.
+
+⚠ **Nicht verwechseln (Prüfhinweis Run 126):** Die Temperaturdifferenz Δθ = θ_HK − θ_U gilt für die
+**Verteilleitungen** (Gl. 3, S. 14). Der **Heizungsspeicher** rechnet nach der Legende auf S. 18
+mit **Δθ = θ_HK,max + 5 K − θ_U** (Speichertemperatur = maximale mittlere Heizkreistemperatur der
+versorgten Bereiche zuzüglich 5 K). Wer den Leitungs-Ausdruck auf Gl. 6 anwendet, rechnet den
+Speicher zu günstig.
 
 ### 5. Rückgewonnene Verluste: Warmwasser-Verluste innerhalb der Hülle heizen anteilig mit (Kap. 3.7, S. 23-25)
 
@@ -168,9 +178,18 @@ Endenergie aller Wärmeerzeuger, Hilfsenergie, Lüftungsstrom und Haushaltsstrom
 des anrechenbaren PV-/WKK-Ertrags — jeweils multipliziert mit einem **nationalen
 Gewichtungsfaktor f_CH je Energieträger** (Tab. 35, S. 61):
 
-Heizöl, Erdgas, Kohle, Briketts: 1,0 · Holz (Stückholz/Schnitzel/Pellets): 0,5 · Solarwärme:
-0 · Fernwärme: 0,4 bis 1,0 je nach deklariertem Fossilanteil (≤ 25 % / ≤ 50 % / ≤ 75 % /
-> 75 %) · **Elektrizität, sowohl Bedarf als auch Produktion: 2,0**.
+Heizöl EL, Erdgas/Biogas, Kohle, Briketts: 1,0 · Holz (Stückholz/Schnitzel/Pellets): 0,5 ·
+Solarwärme: 0 · Fernwärme: 0,4 / 0,6 / 0,8 / 1,0 je nach deklariertem Fossilanteil
+(≤ 25 % / ≤ 50 % / ≤ 75 % / > 75 %) · **Elektrizität, als zwei getrennte Zeilen «Bedarf» und
+«Produktion», je 2,0**.
+
+⚠ **Werkzeug-Falle in genau dieser Tabelle (Prüfbefund Run 126, am Seitenbild verifiziert):** In der
+0,5-Zeile steht im Original «~~Biogas,~~ Holz: Stückholz, Holzschnitzel, Pellets» — **«Biogas» ist
+durchgestrichen**, und die Fussnote stellt klar: «Für Biogas wird der gleiche Gewichtungsfaktor
+angewendet wie für Erdgas, unabhängig davon, ob das Biogas zugekauft oder vor Ort produziert wird»
+(also 1,0). Jede reine Textextraktion (`pdftotext`) verliert die Durchstreichung und liest Biogas
+fälschlich als 0,5-Energieträger. Wer die Tabelle nur als Text prüft, erzeugt hier einen
+Scheinwiderspruch; massgebend ist das Seitenbild.
 
 Der Referenzwert E_P,ref (Gl. 54, S. 64; die Quelle selbst schreibt an zwei Stellen fälschlich
 «Gl. 53» — ein Tippfehler des Originals, da Gl. 53 die THGE bezeichnet, hier stillschweigend
@@ -196,7 +215,8 @@ Wärmeerzeugermix (Öl/Gas/Holz/Grundwasserwärmepumpe/Kehrrichtverbrennung, ges
 deklariertem Fossilanteil, Tab. 38, S. 63) unterstellt, aus dem die
 **Treibhausgasemissionsfaktoren** der Fernwärme in Tab. 37 hergeleitet werden
 (0,05 / 0,12 / 0,19 / 0,29 kg/kWh); in die direkten CO2-Emissionen nach Gl. 52 geht Fernwärme
-dagegen nicht ein, Tab. 36 führt nur Heizöl und Erdgas.
+dagegen nicht ein, Tab. 36 führt nur Heizöl extraleicht (0,265), Erdgas inkl. Biogas (0,203) und
+Biogas als eigene Zeile (0,203) — also ausschliesslich die vor Ort verbrannten Brennstoffe.
 
 ### 14. Beurteilung Gebäudehülle: eigene, strengere Skala für Neubauten (Kap. 8.1, S. 68-69)
 
@@ -288,5 +308,41 @@ Vermischung der Verteilverlust-Regeln von Heizung und Warmwasser (Punkt 3), die 
 des Faktors 2/3 an die gesamte Warmwasser-Rückgewinnung statt an das Heizband (Punkt 5), den
 auf beide Energieträger angewendeten Überdimensionierungs-Malus (Punkt 6), die Deutung des
 Hilfsenergie-Faktors 0 als Wärmepumpen-Bonus (Bauherren-Transfer) und die erfundene
-Motivzuschreibung zur Strom-Gewichtung (Bauherren-Transfer). Der Status bleibt `emerging`:
-established ist erst nach einer erneuten Prüfung der korrigierten Fassung vertretbar.
+Motivzuschreibung zur Strom-Gewichtung (Bauherren-Transfer). Der Status blieb zunächst `emerging`:
+established war erst nach einer erneuten Prüfung der korrigierten Fassung vertretbar.
+
+## Verifikation Run 126 (11.08.2026) — Hebung auf `established`
+
+Die verlangte zweite Runde ist gelaufen (QUESTIONS E-125-1 damit geschlossen). Zwei unabhängige
+Refuter im Hauptmodell haben **13 wörtlich aus dieser Datei zitierte** Aussagen gegen das
+Original zu widerlegen versucht — bewusst wörtlich und nicht als Zusammenfassung, nach der
+Lehre aus Run 121. Schwerpunkte getrennt: Refuter A auf die sechs in Run 125 korrigierten
+Aussagen (dort ist das Risiko am grössten, dass eine Korrektur ins andere Extrem umschlägt),
+Refuter B auf Zahlen, Tabellenwerte und Fundstellen.
+
+**Ergebnis: 10 von 13 Aussagen unbeanstandet, 3 Beanstandungen geringer Tragweite, keine
+tragende.** Keine einzige falsche Zahl und keine falsche Gleichungs- oder Tabellennummer; keine
+der Run-125-Korrekturen ist ins Gegenteil umgekippt. Namentlich bestätigt wurden die
+Gewichtungsfaktoren nach Tab. 35 (Elektrizität 2,0 in Bedarf **und** Produktion, als zwei
+getrennte Zeilen), alle sieben E_el,ref-Werte aus Tab. 39, die Referenzwert-Rezeptur nach Gl. 54,
+die Klammerstruktur der PV-Anrechnung nach Gl. 33, der Belegungsfaktor nach Gl. 36, die
+Geräteklassen 70/120/230/280 kWh/a aus Tab. 19, die Speicherparameter c1/c2 und die dreistufige
+Staffelung ≤ 400 / ≤ 2000 / > 2000 l, die Schwellen aus Tab. 44 sowie der Hilfsenergie-Faktor 0
+für alle Wärmepumpen-Bauarten aus Tab. 11 samt Fussnote.
+
+Die drei Beanstandungen wurden **vom Hauptlauf selbst am Original gegengeprüft** (Rule
+`auto-verbesserungen` 260729b, per `pdftotext -layout` für S. 11/14/18/62 und per Seitenbild für
+Tab. 35 auf S. 61) und oben eingearbeitet: (1) das zu absolute «nur» bei den
+Warmwasser-Verteilverlusten — die Lage bestimmt über θ_U = 13/20 °C auch die **Höhe** der
+Verluste; (2) die unvollständige Wiedergabe von Tab. 36, die eine eigene Zeile «Biogas 0,203»
+führt; (3) die bei Gl. 9 zusammengezogene Fundstelle der Speicher-Mengengrenzen, die in Kap. 3.4
+auf S. 11 stehen.
+
+Zusätzlich sind drei **Prüffallen für künftige Läufe** dokumentiert, die dieser Lauf
+aufgedeckt hat und die ohne Vermerk jeden nächsten Prüflauf in denselben Scheinbefund führen
+würden: die **durchgestrichene «Biogas»-Angabe in Tab. 35**, die nur im Seitenbild sichtbar ist;
+die **abweichende Δθ-Definition des Heizungsspeichers** (θ_HK,max + 5 K − θ_U) gegenüber den
+Verteilleitungen; und der **Tippfehler des Originals** auf S. 65 und S. 66, das dort zweimal
+«Gl. 53» schreibt, wo Gl. 54 gemeint ist (unabhängig belegt, im Fliesstext auf S. 67 zudem
+«Gl. 56» statt Gl. 57 für f_cor). Dieses Destillat folgt jeweils der richtigen
+Gleichungsnummer, nicht dem Tippfehler; das ist kein Fehler und darf nicht beanstandet werden.

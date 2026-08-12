@@ -88,6 +88,17 @@ Belegte Beispiele, alle am 09.08.2026 gelaufen:
 # SharePoint-Gruppen einer Site
 "$M365" spo group list --webUrl "$SITE" --output json
 "$M365" spo group member list --webUrl "$SITE" --groupId 5 --output json
+
+# Datei laden, wenn der OneDrive-Mount haengt ("Resource deadlock avoided"/"Operation timed
+# out") — umgeht den File-Provider vollstaendig, belegt 11.08.2026 (grobkosten-KB, Ordner
+# "2304 Waedenswil" seit 07.08. blockiert; energie-KB Run 126 nutzte denselben Trick per
+# rohem Graph-request+curl, "spo file get" ist der einfachere Weg dafuer):
+"$M365" spo file get --webUrl "$SITE" --url "/sites/<Site>/<Bibliothek>/<Pfad>/<Datei>.pdf" \
+  --asFile --path "/tmp/<ziel>.pdf"
+# WICHTIG: node muss im PATH sein (zsh-Login-Shell hat das i.d.R.; in einem Bash-Tool-Aufruf
+# ohne Login-Profil kann "env: node: No such file or directory" kommen — dann
+# "$HOME/Developer/jans-ai-hub/node_modules/.bin/m365" mit vollem Pfad UND intaktem PATH
+# aufrufen, kein Workaround noetig ausser sicherzustellen dass /opt/homebrew/bin im PATH liegt).
 "$M365" spo group member add --webUrl "$SITE" --groupId 5 --userNames "<upn>"
 
 # Externe Nutzer einer Site (NUR mit --siteUrl, siehe Sackgassen)

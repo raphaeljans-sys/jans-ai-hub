@@ -1,9 +1,9 @@
 ---
 title: Gebäudeschadstoffe beim Umbau (Kt. ZH)
 status: established
-last_updated: "2026-08-04 (Run 123 Gewerksfundstellen; Wissens-Chef Run 25 VVEA-Rechtsbasis präzisiert)"
-sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]]
+last_updated: "2026-08-12 (Mac Mini Nachtschicht 13:30 — Gebäudescreening-Ergänzung)"
+sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]], [[asbest-dimension-jenseits-spritzasbest]], [[ahb-checkliste-schadstoffe-in-bauten]]
 ---
 
 # Gebäudeschadstoffe beim Umbau (Kt. ZH)
@@ -112,3 +112,22 @@ VREG) sind **nicht** auf ihren heutigen Stand geprüft.
 BKP 112 (Abbrüche/Rückbau/Entsorgung), BKP 230 und BKP 281 →
 `[[eco-bau-merkblaetter-bkp-2008-huelle]]`, `[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`.
 Beschaffungs-/Kontrollkette → `[[oekologische-materialvorgaben-beschaffung]]`.
+
+## Gebäudescreening als kostengünstige Vorstufe (Ergänzung 12.08.2026)
+
+Vor der pflichtigen Schadstoffabklärung (Fall 1/2 oben) lohnt sich ein **visuelles
+Gebäudescreening**: 5-Kategorien-Dringlichkeitsraster, kostet für eine mittlere Liegenschaft
+nur **Fr. 800–1'200** (≈ 15–20 % eines detaillierten Gebäudechecks) und liefert die Grundlage
+für eine belastbare Offertanfrage. Fallbeispiel Stadt Zürich (Schulkreis Uto, 83 Objekte):
+Screening-Kosten Fr. 40'000, Folgekosten der 5 dringlichen Sanierungen Fr. 200'000 — das
+Screening kostete ein Fünftel der Sanierung. **Rund 80 % der vor 1990 erstellten Bauten**
+enthalten asbesthaltige Materialien, auch wenn kein Spritzasbest im amtlichen Kataster steht
+(der Kataster erfasst nur Spritzasbest, nicht Faserzement/Platten/Bodenbeläge/Rohrisolationen).
+Details, Kategorien-Tabelle, Fundstellen-Häufigkeiten → `[[asbest-dimension-jenseits-spritzasbest]]`.
+
+Die AHB-Checkliste «Schadstoffe in Bauten» ergänzt den Prozess für Projektleitende
+(Projektierung → Ausschreibung → Ausführung) samt kompakter Übersichtstabelle Asbest/PCB/PCP
+(Grenzwerte, Vorschriften, Zuständigkeiten Stadt/Kanton Zürich) und einer Fundstellen-Suchliste
+für die Begehung → `[[ahb-checkliste-schadstoffe-in-bauten]]`. Wichtige Nuance aus dieser
+Quelle: **eine Teilsanierung (z. B. Versiegelung) entlässt ein Gebäude nicht aus dem
+Asbest-Kataster** — periodische Kontrollen bleiben Pflicht bis zur Totalsanierung.

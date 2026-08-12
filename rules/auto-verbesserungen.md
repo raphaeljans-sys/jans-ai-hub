@@ -14,6 +14,23 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260811 — Kein globales Ersetzen in gewachsenen Dateien; nach jedem Schreiben `--numstat` pruefen
+- **Regel:** (1) Um **eigenen** Text in einer gewachsenen, geteilten Datei zu korrigieren, wird
+  **nie** ein globales Suchen-und-Ersetzen ueber den ganzen Dateiinhalt gefahren (`sed -i` ohne
+  Adressbereich, `str.replace()` ohne `count`, `%s///g`). Der eigene Abschnitt wird am Anker
+  herausgeschnitten, darin ersetzt und wieder eingesetzt. (2) **Nach jedem Schreibvorgang auf eine
+  gewachsene oder geteilte Datei** wird der Umfang gemessen (`git diff --numstat`, nativ per ssh,
+  nie `git` ueber SMB). Eine **Append-only-Datei muss `-0` zeigen**; jede Loeschung ist ein Befund,
+  solange sie nicht als gewollte Zeilenersetzung benannt ist. (3) Beim Reparieren eines solchen
+  Fehlers **nicht aus HEAD wiederherstellen**, ohne zu pruefen, ob ein anderer Lauf unbestaetigte
+  Aenderungen in derselben Datei hat — sonst loescht die Reparatur fremde Arbeit mit. Zeilenexakt
+  aus dem Diff zuruecksetzen.
+- **Gilt fuer:** alle Sessions und Loops, jede Schreiboperation auf `logbuch/`, `rules/`,
+  `wissen/**`, `docs/` und jede andere append-only oder gemeinsam gepflegte Datei. Anlass und
+  Messwerte: `rules/betrieb-chronik.md` 260811 und
+  `wissen/energie/outputs/2026-08-11_energie-run126.md` (246 historische Zeilen eines
+  append-only-Journals umgeschrieben, durch die Diff-Messung entdeckt und zeilenexakt repariert).
+
 ## 260809 — Vor «geht nicht» das Wege-Register lesen; umkehrbare Arbeit wird getan, nicht vorgelegt
 - **Regel:** (1) Eine Aufgabe gilt erst dann als blockiert, wenn **jeder** in
   `connectors/WEGE.md` gelistete Weg nachweislich versagt hat. Ein Weg, der nicht im `PATH`

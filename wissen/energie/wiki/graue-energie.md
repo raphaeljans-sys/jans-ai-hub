@@ -1,9 +1,9 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-07-29
-sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md]
-links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]]
+last_updated: 2026-08-11
+sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md]
+links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]]
 ---
 
 # Graue Energie & THGE
@@ -144,6 +144,33 @@ komplette Holzbauwand inkl. Dämmung — bevor Mörtel/Putz/Bewehrung der Massiv
 mitgerechnet sind. Kein öffentlich frei zugängliches Massivbau-Bauteildatenblatt mit vollem
 Schichtplan (Pendant zu den Lignumdata-Blättern) gefunden — bauteilkatalog.ch führt die GWP-Spalte
 weiterhin nur im PRO-Abo (bestätigter Negativbefund).
+
+## Die drei Messgrössen und die Versionsdisziplin (ergänzt Run 126, 2026-08-11)
+
+Graue Energie ist nur **eine** von drei Grössen, die aus demselben Ökobilanz-Datensatz gelesen
+werden. Die KBOB-Empfehlung, mit der Bund, Kantone und die privaten professionellen Bauherren
+diese Datengrundlage gemeinsam verbindlich gemacht haben, unterscheidet:
+
+| Grösse | Einheit | Was sie misst |
+|---|---|---|
+| Graue Energie | MJ-Äquivalente | kumulierter Energieaufwand |
+| Treibhauseffekt | kg CO₂-Äquivalente | allein die Klimawirkung |
+| **Umweltbelastungspunkte UBP** | UBP | gesamte Umweltbelastung nach der «Methode der ökologischen Knappheit»; die beiden obigen Grössen sind darin **bereits enthalten** |
+
+Praktische Folge für jeden Variantenvergleich: Ein Material kann bei der grauen Energie besser
+und bei den UBP schlechter abschneiden, weil die UBP zusätzlich Schadstoffe, Ressourcenverbrauch
+und Entsorgung einbeziehen. Und die **Systemgrenze** entscheidet mit: im Beispiel der Empfehlung
+trägt der Beton 92 UBP/kg für die Herstellung und 27 UBP/kg für die Entsorgung, zusammen
+119 UBP/kg. Wer die Entsorgung weglässt, rechnet ein Material um rund ein Viertel zu gut.
+
+**Die Versionsfrage ist die wichtigste Rückfrage an jede vorgelegte Ökobilanz.** Die
+KBOB-Ökobilanzdaten werden fortgeschrieben; dieser Artikel führt v8.0 als geltenden Stand, die
+Gründungsempfehlung von 2007 trägt den Datenstand **Dezember 2006**. Ein Vergleich zweier
+Varianten ist nur gültig, wenn beide mit **derselben Version** gerechnet wurden. Die
+Zahlenbeispiele der Fassung 2007 (Deckenträger 876'000 UBP Beton mit Stahl / 884'000
+Brettschichtholz / 3'301'000 Stahlprofil; Heizsysteme bei 100'000 MJ/a Nutzwärme: Erdwärmesonde
+3,7 · Gas 3,9 · Pellets 4,2 · Öl 5,4 Mio. UBP) sind deshalb **Methodik-Illustration und keine
+geltenden Rechenwerte** → `[[kbob-oekobilanzdaten-baubereich-2007]]`, FAQ F225.
 
 ## Offen
 - Für eine **projektgenaue** Berechnung bleiben die kostenpflichtigen KBOB-Ökobilanzdaten v8.0 /

@@ -344,3 +344,89 @@ Kommentare.pdf` (2 S., Antragsformular 2010, durch das Reglement-Destillat abged
 `Vergleich/{ME-ME-P-Haus,Qh+Qww-Haus-Abbildung}.pdf` (je 1 S. Abbildungen),
 `Merkblaetter/{EnFK_Fensterblatt_endgueltig-Juni2009mit PW,VoHi_EN-02_de}.pdf` (Dubletten
 bereits destillierter Quellen).
+
+## Nachtrag 2026-08-11 (Run 126): eco-bau-Block PL-02 fortgesetzt — Zugang über Graph statt OneDrive
+
+⚠⚠ **Der wichtigste Betriebsbefund dieses Laufs: der OneDrive-Mount war für die GESAMTE
+Bibliothek blockiert, die Quellen waren trotzdem lesbar.** `ls` lief auf `PL - 02_Recht_Norm`
+UND auf `PL - 04 Energie` in jeder der Kandidaten-Wurzeln in ein `Operation timed out`
+(hängender File Provider, gleiche Familie wie das `Resource deadlock avoided` der Nachtschicht
+vom 08.08.). Statt den Lauf als blockiert zurückzugeben (Rule `wege-und-vollmachten`), wurde
+**Weg 2 des Registers** gegangen: die **CLI for Microsoft 365** ist per Zertifikat angemeldet
+(`Sites.FullControl.All`, gültig bis 2028) und liefert die Dateien über Graph direkt:
+
+```bash
+M365="$HOME/Developer/jans-ai-hub/node_modules/.bin/m365"
+# Site PL → Drive 02_Recht_Norm
+"$M365" request --url "https://graph.microsoft.com/v1.0/sites/raphaeljans.sharepoint.com,bc0cbde1-7a6d-48e1-9ff6-752f01437ebe,cabb651c-1220-4f25-867d-954b88c6dd27/drives"
+# Ordner listen (Umlaute im Pfad funktionieren direkt)
+"$M365" request --url "https://graph.microsoft.com/v1.0/drives/<driveId>/root:/04_Merkblätter/eco:/children?\$top=100&\$select=name,size,folder"
+# Datei holen: downloadUrl ziehen, dann curl
+"$M365" request --url "https://graph.microsoft.com/v1.0/drives/<driveId>/root:/<pfad>:/?\$select=@microsoft.graph.downloadUrl"
+```
+
+Drive-IDs der PL-Site (einmal ermittelt, wiederverwendbar):
+`02_Recht_Norm` = `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfT25dFWtAPQ7JsQfZ1A7n_` ·
+`04 Energie` = `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SeLXwejZ1lrRLNhU-gqy3Xx`.
+
+**Dieser Weg ist dem Mount künftig vorzuziehen, nicht nur sein Ersatz:** er liefert die Datei
+sofort materialisiert (kein `dataless`-Platzhalter, keine `head`-Vorwärmung), er meldet die echte
+Grösse im Listing mit, und er legt die Datei direkt lokal ab — womit die Arbeitskopie für die
+Destillier-Agenten (Standardvorgehen seit Run 122) ohnehin schon existiert.
+
+**Zweiter Befund: der eco-Ordner ist kleiner als gedacht.** Das Graph-Listing zeigt in
+`04_Merkblätter/eco/` **26 PDF** flach plus den Unterordner `Nachhaltiges Bauen` (28 MB) — nicht
+53 Dateien. Die Run-123-Feststellung, dass die flachen Dateien byte-identische Kopien der Dateien
+unter `Nachhaltiges Bauen/**` sind, bleibt damit gültig; die Zählung «53 PDF im Ordner» bezog
+die Unterordner mit ein.
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/eco/...) | KB-Datenstand |
+|---|---|---|
+| [x] `3.36KBOB_Empfehlung_2007_1.pdf` | 2026-08-11 (11 S. vollst.; KBOB/eco-bau/IPB «Ökobilanzdaten im Baubereich», Liste mit Eigenvermerk «Stand Dezember 2006» → `kbob-oekobilanzdaten-baubereich-2007`) |
+| [x] `3.38RecyclingBetonKBOB_2007_2.pdf` | 2026-08-11 (6 S. vollst.; «Beton aus recyclierter Gesteinskörnung», mit EMPA und SIA → `kbob-recyclingbeton-2007`) |
+| [x] `5.36Wassersparen.pdf` | 2026-08-11 (21 S. vollst.; AHB Zürich/PRESANZ «Projektierungsgrundlage 2.3 Wassersparen» → `ahb-zuerich-wassersparen`. ⚠ **November 1997**, Bild-PDF) |
+| [x] `1.15Checkliste_Genossenschaften.pdf` | 2026-08-11 (18 S. vollst.; echter Titel «Checkliste nachhaltige Gebäudeerneuerung», BFE/ARE/BWO/AHB, **25.06.2007** → `checkliste-nachhaltige-gebaeudeerneuerung-svw`) |
+| [-] `4.13Innenraumklima.pdf` | 2026-08-11 (geprüft: **Dublette** — dieselbe KBOB/IPB-Empfehlung **2004/1** «Gutes Innenraumklima ist planbar», die als `minergie-innenraumklima` (Run 121) bereits vollständig destilliert ist. Bewusst nicht doppelt geführt) |
+| [-] `0Inhaltsverzeichnis.pdf` | 2026-08-11 (geprüft: 1 S., «ÜBERSICHT 0.11 Dokumentation Bauen + Ökologie, Inhaltsverzeichnis» — reines Verzeichnis ohne Fachinhalt) |
+| [-] `4.16Gebaudescreening.pdf` | 2026-08-11 (geprüft: 2 S., AHB-Checkliste Gebäudescreening für Objektmanager und Hauswarte, Schadstoffe in Bauten vor 1990 — Schadstoff-, kein Energiethema; inhaltlich durch `gebaeudeschadstoffe-checkliste-zh` und den Asbest-Block in `eco-bau-merkblaetter-bkp-2008-technik-ausbau` abgedeckt) |
+
+⚠ **Messfalle-Ergänzung zu Run 124:** `5.36Wassersparen.pdf` ist ein **Bild-PDF** — `pdftotext`
+liefert über 21 Seiten nur rund 2'200 Zeichen und suggeriert ein fast leeres Dokument. Gelesen
+werden muss es visuell (Read-Tool mit `pages`). Die Reihe der Fallen wächst damit um eine Stufe:
+Dateiname (Run 122), Ablageort (Run 124/125), Dateigrösse gegen Seitenzahl (Run 124) — und jetzt
+**Textextrahierbarkeit**. Vor dem Zuteilen an einen Agenten kurz `pdftotext | wc -c` prüfen: ist
+das Ergebnis im Verhältnis zur Seitenzahl auffällig klein, gehört das PDF visuell gelesen und
+Tabellenwerte dürfen nicht per Textextraktion gegengeprüft werden.
+
+**Noch offen im flachen eco-Ordner** (nach Sachbezug zur Energie-KB geordnet):
+`3.14Deviskontrolle.pdf`/`3.15Baustellenkontrolle.pdf` (destilliert Run 123),
+`4.27Fugendichtungsmassen.pdf` (724 kB), `4.26Asbest.pdf` (173 kB), `4.14SchadstoffinBauten.pdf`
+(54 kB), `4.76Elektrosmog.pdf` (82 kB), `4.15VorgehenbeiBeschwerden.pdf` (29 kB),
+`5.26PflanzenamBau.pdf` (5,2 MB), `1.15`-Nachbarn `6.16Eidg.Gesetze_Verordnungen_1-2005.pdf`,
+`6.26Literatur_1-2005.pdf`, `7.17Fachstellen.pdf`, `7.26Fachstellenecobau.pdf` (Verzeichnisse,
+voraussichtlich `[-]`).
+
+**Stand PL-02:** **55 von 182** energierelevanten PDF destilliert (10 Run 121, 9 Run 122,
+9 Run 123, 8 Run 124, 15 Run 125, **4 Run 126**), **127 offen**; zusätzlich 3 in Run 126 als
+`[-]` geprüft.
+
+## Nachtrag 2026-08-12 (Mac Mini Nachtschicht 13:30, Run 127): eco-bau-Block fortgesetzt
+
+Weg aus Run 126 (M365-CLI/Graph statt OneDrive-Mount) bestätigt und wiederverwendet. Vier
+kleine PDF aus `04_Merkblätter/eco/` gelesen und destilliert:
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/eco/...) | KB-Datenstand |
+|---|---|---|
+| [x] `4.26Asbest.pdf` | 2026-08-12 (6 S. vollst.; Umweltpraxis Nr. 41/Juli 2005, Stadt Zürich Gebäudescreening-Methodik → `asbest-dimension-jenseits-spritzasbest`) |
+| [x] `4.14SchadstoffinBauten.pdf` | 2026-08-12 (4 S. vollst.; AHB-Checkliste 4.14, 20.09.2005 → `ahb-checkliste-schadstoffe-in-bauten`) |
+| [x] `4.76Elektrosmog.pdf` | 2026-08-12 (7 S. vollst.; AHB/EWZ-Infoblatt 5.7, Feb. 2002 → `elektrosmog-informationsblatt-ahb-ewz`; **neues Thema**, erste Erschliessung in der KB) |
+| [x] `4.15VorgehenbeiBeschwerden.pdf` | 2026-08-12 (2 S. vollst.; AHB-Checkliste 4.15, 30.09.2005 → `vorgehen-bei-beschwerden-innenraumklima`) |
+
+VERDICHTUNG: `[[gebaeudeschadstoffe]]` um Gebäudescreening-Abschnitt gewachsen; neuer
+Wiki-Artikel `[[elektrosmog]]` (Status emerging) angelegt; neue BAUHERREN-FAQ F226.
+
+**Stand PL-02:** **59 von 182** energierelevanten PDF destilliert (**4 in Run 127**), **123 offen**.
+
+**Noch offen im flachen eco-Ordner:** `4.27Fugendichtungsmassen.pdf` (724 kB),
+`5.26PflanzenamBau.pdf` (5,2 MB), Verzeichnisse `6.16Eidg.Gesetze_Verordnungen_1-2005.pdf`,
+`6.26Literatur_1-2005.pdf`, `7.17Fachstellen.pdf`, `7.26Fachstellenecobau.pdf` (voraussichtlich `[-]`).

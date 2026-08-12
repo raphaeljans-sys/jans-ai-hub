@@ -2175,5 +2175,31 @@ gewachsen.
    die eco-bau-Reihe unter `04_Merkblätter/eco/` (⚠ Dublettenwarnung Run 121/123 beachten:
    Grössenvergleich statt Namensvergleich).
 
-PL-02: **51 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122, 9 in
-Run 123, 8 in Run 124, **15 in Run 125**), **131 offen**.
+PL-02: **55 von 182** energierelevanten PDF destilliert (10 in Run 121, 9 in Run 122, 9 in
+Run 123, 8 in Run 124, 15 in Run 125, **4 in Run 126**), **127 offen**.
+
+## Stand nach Run 126 (11.08.2026) — Priorität nächster Lauf
+
+Erledigt in Run 126: Punkt 2 der Liste oben (**`geak-normierung-berechnungsmethodik` ist nach
+bestandener zweiter Prüfrunde `established`**, QUESTIONS E-125-1 geschlossen) und ein erster
+Block der eco-bau-Reihe (Punkt 3): vier PDF destilliert, drei als `[-]` geprüft.
+
+**Betriebsänderung, die künftig gilt:** Der OneDrive-Mount war für die ganze Bibliothek
+blockiert (`Operation timed out` auf PL-02 UND PL-04). Der Lauf ist stattdessen über die
+zertifikatsangemeldete **CLI for Microsoft 365 / Graph** an die Quellen gekommen (Befehle und
+Drive-IDs in `training/pdf-inventar.md`, Nachtrag Run 126). Dieser Weg ist dem Mount **generell
+vorzuziehen**: sofort materialisierte Dateien, echte Grösse im Listing, direkte lokale Ablage.
+
+1. **Produktreglement 2026.1 fertig lesen** (unverändert Punkt 1 oben): offen sind Anhang B3,
+   C, D und die Kapitel 1-13, dazu das ausgelassene Refuter-Panel für Anhang H/J.
+2. **eco-bau-Reihe weiter.** Aus dem flachen eco-Ordner sind fachlich noch ergiebig:
+   `4.27Fugendichtungsmassen.pdf`, `4.26Asbest.pdf`, `4.14SchadstoffinBauten.pdf`,
+   `4.76Elektrosmog.pdf`. Sie gehören thematisch eher zu `[[gebaeudeschadstoffe]]` als zur
+   Energie im engeren Sinn; vorher entscheiden, ob dieser Loop sie mitnimmt oder ob sie in die
+   Schadstoff-Linie gehören. Der Unterordner `eco/Nachhaltiges Bauen/` (28 MB) ist noch nicht
+   systematisch inventarisiert.
+3. **E-126-1 auflösen** (Volumenstrom-Zielwerte): SVGW-Grundlage bzw. aktuelle GEEA-Werte
+   beschaffen. Aus der Antwort wird direkt eine LV-Vorgabe, und sie schliesst zugleich den schon
+   in `ecobkp-2026-gebaeudetechnik` notierten offenen Punkt.
+4. **E-126-2 an den Skill `baurecht`**: die 1997er Verweise Art. 26/30a BBV I und Art. 9 EnerG ZH
+   gegen die geltenden Fassungen nachführen (VHKA-Pflicht besteht sachlich weiter).

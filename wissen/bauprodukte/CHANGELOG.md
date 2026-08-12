@@ -1,5 +1,36 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-12 — ERCO-Ratgeber Seite 250 auf Seite 317 fortgeschrieben: Vegetation/Planungsbeispiele/Dark Sky komplettiert, Hauptkapitel «Lichtsteuerung» vollstaendig destilliert
+
+Fortsetzungslauf. `de_erco_guide.pdf` (BKP 233, P1, 435 S.) von Seite 251 bis
+Seite 317 gelesen (`pdftotext -layout`, Textqualitaet gut, sauberer Stopp am
+Original vor S. 318 verifiziert). [[erco-lichtplanung-grundlagen]] erweitert:
+
+- **Unterkapitel «Vegetation» abgeschlossen (S. 246-265):** Baumarten
+  (Kugel/Schirm/Saeule/Kegel/Palme), Baumgruppe, Baumreihe, Baumallee,
+  Baumraster — damit ist das gesamte Unterkapitel «Lichtanwendungen»
+  (Aussenraum, S. 211-265) vollstaendig gelesen.
+- **Neues Unterkapitel «Planungsbeispiele» (S. 266-274):** vier
+  Fallbeispiele (Eingangsbereich klein/gross, Historische Fassade, Weg) mit
+  durchgerechneten Planungsvarianten.
+- **Neues Unterkapitel «Lichtplanung» / Dark Sky (S. 275-277):**
+  Lichtverschmutzung, Dark-Sky-geeignete Leuchten, vier Kriterien fuer
+  nachhaltige Aussenraumbeleuchtung — damit ist das Hauptkapitel
+  «Aussenraumbeleuchtung» (S. 184-277) vollstaendig gelesen.
+- **Neues, sechstes Hauptkapitel «Lichtsteuerung» (S. 278-317) vollstaendig
+  destilliert:** Funktionen (Schalten/Dimmen/Lichtfarbe/Szene/Fading/
+  Sequenz/Timer/Sensor), Steuerungssysteme (Protokolle 1V-10V/DMX/DALI/KNX/
+  LON, herstellerneutral beschrieben mit einer gekennzeichneten Ausnahme
+  Light System DALI), Geraete (Sensoren/Bedienelemente/Ausgabegeraete/
+  Schnittstellen/Software), fuenf Planungsbeispiele (Museum/Buero/Showroom/
+  Restaurant/Multifunktionaler Raum).
+- Fuenf neue Praxisrelevanz-Punkte ergaenzt (Baum-Streiflichtwinkel,
+  Dark-Sky-Checkliste, Protokolluebersicht fuers LV, Sensor-/Regelungs-
+  Begriffsapparat).
+- Register nachgefuehrt: Frontmatter (Titel/Stand/gelesen/sources),
+  `skills/wissens-destillat/training/bauprodukte-inventar.md`. Naechstes
+  offenes Kapitel: «Lichttechnik» ab S. 318 (Herstellerneutralitaet beachten).
+
 ## 2026-08-11 (Mac Mini Nachtschicht 02:30-Fortsetzung) — ERCO-Ratgeber Seite 210 auf Seite 240 fortgeschrieben, Aussenraum-Lichtanwendungen Wand/Decke/Boden/Objekt und vier Fassadentypen
 
 Fortsetzung des Vorlaufs vom 10.08. 23:30 (Prioritaeten 1-3 leer: keine Sync-/
@@ -904,3 +935,14 @@ Punkte-Zeile aufgelöst, Frontmatter-Link nachgetragen). Kein Versand, keine Pub
 - Quelle registriert: `/Volumes/daten/03 Bauprodukte_BKP` (37 Gewerke-Sektionen).
 - Inventar Phase 0 gestartet: 2 von 37 Sektionen erfasst, 134 Dateien offen.
 - Noch keine Artikel — der erste Destillat-Lauf schreibt zuerst die Korpus-Spec.
+
+## 2026-08-11 (Nachtschicht 05:30) — ERCO-Ratgeber: Fassade abgeschlossen, Vegetation begonnen
+- `de_erco_guide.pdf` S. 240 auf S. 250 fortgeschrieben: Unterkapitel «Fassade» vollstaendig
+  (Lochfassade-Rest, Bandfassade, Fassade transparent), Unterkapitel «Vegetation» begonnen
+  (Baeume: Beleuchtungsarten/-wachstum/-jahreszeit angelesen bis S. 250).
+- `wiki/erco-lichtplanung-grundlagen.md` erweitert (Frontmatter `gelesen:` auf S. 1-250,
+  neue Abschnitte, Offene Punkte nachgefuehrt), `training/PROGRAMM.md` Stand aktualisiert.
+- energie/grobkosten heute nicht erreichbar: OneDrive-Mount defekt (Symlink-Ziel
+  `OneDrive-FreigegebeneBibliotheken–...–JANS` existiert nicht, mehrere doppelte Mountpunkte
+  unter `~/Library/CloudStorage`, einer haengt bei `ls` >30s) — Befund in
+  `wissen/energie/wiki/QUESTIONS.md` und `wissen/grobkosten/wiki/QUESTIONS.md` nachzutragen.

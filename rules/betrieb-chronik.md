@@ -21,6 +21,74 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260811 — Zwei Befunde in einem Lauf: der Committer stand 18 Stunden, und der Freigabe-Guard liess ein `rm -rf` durch
+
+Gefunden vom Energie-Loop (Run 126, 11.08.2026, 23:00), beides ausserhalb seines Auftrags.
+
+### Befund 1: `nas-selfcommit` verweigert seit 05:30 jeden Durchgang
+
+`scripts/nas-commit-now.sh` meldet **«ausgeloest»** und erzeugt trotzdem **keinen Commit** — der
+Rueckgabewert bezieht sich nur auf den gelungenen ssh-Aufruf, nicht auf das Ergebnis. Gemessen
+statt geglaubt (Rule `auto-verbesserungen` 260730b): letzter Commit **1163b452 vom 11.08. 05:30**,
+danach **27 Dateien uncommittet** aus mehreren Loops, und
+`sync-tasks/log/selfcommit-202608.log` zeigt ab 05:45 lueckenlos alle 15 Minuten
+«Rebase/Merge aktiv — skip (manuell bereinigen)».
+
+**Ursache ist ein Artefakt, kein Rebase.** `.git/rebase-merge/` (erstellt 05:30:04) enthaelt
+**nur** `autostash`; `git-rebase-todo`, `onto`, `head-name` und `msgnum` fehlen alle, HEAD steht
+sauber auf `main`, `git diff --diff-filter=U` ist leer. Es ist der Rest eines
+`pull --rebase --autostash`, das nach dem Schreiben des Autostash abbrach. Der Autostash
+(`61582c9d3c38ddeaeda9051a6a4160581c6a0df1`) enthaelt zwei Telemetriedateien mit zwei Zeilen, die
+im Arbeitsbaum ohnehin neuer vorliegen.
+
+**Drei Lehren fuer den Betrieb:**
+
+1. **Ein «ausgeloest» ist kein Commit.** Wer `nas-commit-now.sh` aufruft, prueft danach
+   `git log -1` **nativ per ssh** — nicht den rc, und nicht den SSD-Klon allein (der zeigt beim
+   Skip unveraendert den alten Stand und sieht deshalb gesund aus).
+2. **Der Skip ist stumm nach aussen.** Die Schutzlogik schreibt in ihren Log und sonst nirgends;
+   18 Stunden ohne Commit sind ohne aktives Nachsehen unsichtbar. Ein Kandidat fuer den
+   `heartbeat`: Alter des letzten NAS-Commits gegen die Cron-Frequenz pruefen und ab einer
+   Stunde melden. **Bewusst nur als Vorschlag notiert, nicht gebaut** — es ist eine Aenderung an
+   der Aufsicht und gehoert Raphael vorgelegt.
+3. **Die Schutzlogik selbst ist richtig.** Sie verlangt einen Menschen, und das ist gut so; der
+   Fehler liegt nicht im Skip, sondern darin, dass niemand den Skip bemerkt.
+
+### Befund 2: Der Freigabe-Guard hat ein `rm -rf .git/rebase-merge` als harmlos durchgelassen
+
+Fuer die Behebung wurde ein Sync-Task erstellt (statt selbst in `.git` einzugreifen, Rule
+`wege-und-vollmachten`). Kontrollhalber gegen den Guard gehalten — **Exit 0, harmlos, laeuft
+unbeaufsichtigt.** Der Task fuehrt per ssh auf der Synology ein `rm -rf` auf Git-Interna des
+kanonischen Repos aus. Das ist genau das Falsch-Negativ, das der Guard-Kopf selbst ausschliesst
+(«ein Falsch-Positiv kostet eine Rueckfrage, ein Falsch-Negativ kostet Zugang»).
+
+**Die Luecke war eine einzige Regex-Stelle:** das Muster `Zerstoerend` lautete
+`rm +-[a-z]*[rR][a-z]* +/` und verlangt einen Pfad, der mit `/` beginnt. Ein relatives
+`rm -rf .git/rebase-merge` nach einem `cd` trifft es nicht — und relativ ist in Scripts der
+Normalfall, nicht die Ausnahme.
+
+**Behoben im selben Lauf** (die Aenderung macht den Guard ausschliesslich strenger, also in
+Richtung seiner eigenen Doktrin), drei neue Muster in `scripts/sync-task-guard.sh`:
+
+- `Zerstoerend rekursiv (auch relativ)` — `rm +-[a-z]*[rR]` ohne Pfadbedingung
+- `Eingriff in Git-Interna` — `rm` auf `.git/`, die Marker `rebase-merge`/`rebase-apply`/
+  `index.lock`/`MERGE_HEAD`/`CHERRY_PICK_HEAD`, dazu `update-ref` und `git stash drop|clear`
+- `Fernausfuehrung auf einer anderen Station` — `ssh` in Verbindung mit `diskstation`,
+  `tail8265aa`, `volume2/daten` oder `jans-ai-hub`
+
+**Nachgemessen:** Der neue Guard haelt den Task korrekt zurueck (Exit 10, Gruende
+«Zerstoerend rekursiv» und «Eingriff in Git-Interna»). Regression ueber die letzten 25 Tasks in
+`sync-tasks/done/`: **5 wuerden Freigabe verlangen, alle fuenf aus VORBESTEHENDEN Mustern**
+(Persistenz/LaunchAgents dreimal, SSH-Zugang, `.env`) — **kein einziges Falsch-Positiv aus den
+neuen Mustern.** Der Task selbst liegt in `sync-tasks/freigabe/macbook-pro/` und wurde von Hand
+dorthin verschoben, weil er in der Queue lag, bevor die Luecke geschlossen war.
+
+**Verallgemeinerung, die ueber diesen Fall hinausgeht:** Ein Guard, der auf Kommando-Muster
+prueft, ist nur so gut wie seine Annahme ueber die Schreibweise. Absolute Pfade, `sudo` am
+Zeilenanfang und Klartext-Kommandos sind die leichten Faelle. Wer ein neues Muster ergaenzt, sollte
+es **einmal in der relativen und einmal in der entfernten Variante** durchdenken — `cd` und `ssh`
+sind die zwei Verkleidungen, die jedes Muster aushebeln.
+
 ## 260807c — Ein korrekt datierter Lauf wurde «korrigiert» und dabei um vier Tage verschoben
 
 **Befund.** Die Sitzung des Buch-Laufs 72 begann am **03.08.2026 23:44** und wurde am

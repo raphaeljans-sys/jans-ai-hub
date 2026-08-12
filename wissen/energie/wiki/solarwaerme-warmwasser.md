@@ -1,9 +1,9 @@
 ---
 title: Solarwärme, Warmwasser & die Entscheidung Solarthermie ↔ Photovoltaik
 status: established
-last_updated: 2026-07-12
-sources: [destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/solarthermie-investitionskosten-ch.md, destillate/pvt-hybridkollektoren.md]
-links: [[BAUHERREN-FAQ]], [[pv-eigenverbrauch-zev]], [[heizleistung-und-waermeerzeuger]], [[pv-solar-technologien]]
+last_updated: 2026-08-11
+sources: [destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/solarthermie-investitionskosten-ch.md, destillate/pvt-hybridkollektoren.md, destillate/ahb-zuerich-wassersparen.md]
+links: [[BAUHERREN-FAQ]], [[pv-eigenverbrauch-zev]], [[heizleistung-und-waermeerzeuger]], [[pv-solar-technologien]], [[ahb-zuerich-wassersparen]]
 ---
 
 # Solarwärme, Warmwasser & die Entscheidung Solarthermie ↔ Photovoltaik
@@ -58,6 +58,33 @@ Kombinieren PV-Stromerzeugung und Solarthermie-Wärmenutzung in derselben Fläch
 allem bei **knapper Dachfläche**. Elektrisch ~15–20 %, thermisch ~65 % Wirkungsgrad. In der
 Schweiz 2017 rund 300 Anlagen installiert (CH-Hersteller u.a. PVT Solar AG); Kosten widersprüchlich
 belegt (CHF 210–650 vs. 1'100–1'600/m²) → `[[pvt-hybridkollektoren]]`. Status emerging.
+
+## Die andere Hälfte der Rechnung: weniger Warmwasser statt mehr Solarwärme (ergänzt Run 126, 2026-08-11)
+
+Vor der Frage, **womit** das Warmwasser erwärmt wird, steht die Frage, **wie viel** davon anfällt.
+Die Grössenordnung ist eindeutig: Kaltwasser kostet über die ganze Kette von der Aufbereitung bis
+zur Abwasserreinigung nur etwa **4 MJ (1,1 kWh) Strom pro m³**, ein Kubikmeter Warmwasser aus einem
+Elektro-Einzelspeicher inklusive Ausstoss- und Auskühlverlusten rund **270 MJ (75 kWh)** — etwa
+**siebzigmal mehr**. Im Mehrfamilienhaus mit **zentraler** Wassererwärmung liegt der Bedarf pro m³
+häufig **bis zu 50 % höher** als beim Einzelspeicher, weil Verteilung und Zirkulation dazukommen.
+
+Daraus folgt eine Prioritätenreihe, die der Entscheid-Reihenfolge oben vorangeht:
+
+1. **Verteilverluste zuerst.** Kurze Leitungswege und die zeitliche Abschaltung von Umwälzpumpen
+   und Begleitheizbändern (Ausschaltzeit ausserhalb der Hauptnutzungszeit möglichst mehr als
+   6 Stunden) wirken auf jeden Kubikmeter, unabhängig vom Wärmeerzeuger.
+2. **Temperaturband einhalten, beidseitig.** Nicht über 60 °C, aus Legionellengründen nicht unter
+   45 °C, und das Durchspülen aller Warmwasserleitungen mit mindestens 60 °C muss möglich sein.
+   Das begrenzt auch, wie tief eine Wärmepumpe für das Warmwasser fahren darf.
+3. **Verbrauchsseite.** Von den Haushalts-Wasseranteilen (Klosettspülung 32 %, Baden und Duschen
+   30 %, Wäsche 12 %, Geschirr 6 %, Körperpflege 6 %) ist energetisch **allein die Warmwasserseite
+   relevant**: der grösste Wasserposten ist der energetisch billigste. Wassersparen an der Toilette
+   ist Umweltschutz, Wassersparen an der Dusche ist Energiesparen.
+
+Detail, Kennwerte und der Vergleich der Armaturen-Volumenströme 1997 gegen 2008/2026 →
+`[[ahb-zuerich-wassersparen]]`, FAQ F222. ⚠ Die Quelle dieser Kennwerte ist die Zürcher
+Projektierungsgrundlage von **November 1997**; die Grössenordnung und die Hygiene-/Betriebsgrundsätze
+tragen, die Geräte-Kennwerte und die genannten Artikelnummern sind überholt.
 
 ## Offen
 - **Wirkungsgrad 70–85 % vs. 20 %** aus Sekundärquellen (energieheld/iwb), nicht EnergieSchweiz/Swissolar-Primär.

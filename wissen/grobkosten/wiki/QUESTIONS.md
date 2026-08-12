@@ -2,6 +2,30 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-11 (Mac Mini Nachtschicht, Run 15) — Wädenswil-Blocker (07./08.08.) geschlossen: Zugriff über Weg 2 gelungen, Inhalt aber BKP-1-9-only
+
+**Zugriff gelöst:** Der native OneDrive-Mount blieb für `2304 Waedenswil` weiterhin blockiert
+(`Resource deadlock avoided`, unverändert seit Run 13). Statt eines dritten identischen
+Retry-Versuchs (Budget-Disziplin) über **Weg 2** gegangen: CLI for Microsoft 365
+(`spo file get --webUrl <Site> --url <Pfad> --asFile --path <Ziel>`, zertifikatsangemeldet,
+liest über Graph/SharePoint-API am hängenden File-Provider vorbei). Alle drei Zieldateien
+(zwei Residualwert-PDF, ein Flächenauszug-PDF) vollständig und grössenkorrekt geladen. Dieser
+Weg ist jetzt im Wege-Register dokumentiert (`connectors/WEGE.md`) — künftig bei jedem
+`Resource deadlock avoided`/OneDrive-Timeout zuerst probieren, statt den Mount erneut
+zu testen oder den Fall als blockiert zurückzugeben.
+
+**Inhalt, kein Kennwert:** Beide PDF beschriften ihre einzige Kostensumme eindeutig als
+"ERSTELLUNGSKOSTEN TOTAL (BKP 1-9)" — keine BKP-1-5-Teilsumme im Dokument, auch nicht
+rechnerisch rückführbar (keine Einzelpositionen). GV zusätzlich nur rechnerisch aus dem
+Kennwert zurückgeleitet, nicht SIA-416-ausgemessen. Damit bleibt der seit Run 6 (27.07.2026)
+offene Kandidat «2304 Wädenswil Residualwert-Tool» bei einer klaren Negativantwort — **jetzt
+abschliessend geschlossen**, nicht mehr offen. Details: `raw/2304-waedenswil-residualwert-
+zwei-varianten.md`.
+
+**Kein Kennwert promoviert, kein Fan-out.** Die verbleibenden MFH-Median-Blocker (Frage 1
+BKP-1-9-vs-1-5, Frage 2 Standard-Klassifikation) sind durch diesen Lauf unverändert — dieser
+Fall war ein eigener, jetzt erledigter Kandidat, keine Antwort auf Frage 1/2 selbst.
+
 ## 2026-08-08 (Mac Mini Nachtschicht) — Werkzeug-Hinweis (kein offener Punkt): Kopffelder des Tools "hva" nicht wörtlich übernehmen
 
 Bei der unabhängigen Gegenprüfung des Niederhasli-Belegs (`raw/8155-niederhasli-

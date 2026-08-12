@@ -1,5 +1,112 @@
 # CHANGELOG
 
+## 2026-08-12 (Mac Mini Nachtschicht 13:30, Run 127) — eco-bau-Block fortgesetzt, neues Thema Elektrosmog
+
+Weg aus Run 126 (M365-CLI/Graph statt blockiertem OneDrive-Mount) bestätigt, vier kleine PDF aus
+`04_Merkblätter/eco/` gelesen: `4.26Asbest.pdf` (Umweltpraxis Nr. 41/2005, Stadt-Zürich-
+Gebäudescreening-Methodik), `4.14SchadstoffinBauten.pdf` (AHB-Checkliste Projektleiter-Ablauf +
+Asbest/PCB/PCP-Übersichtstabelle), `4.76Elektrosmog.pdf` (AHB/EWZ-Infoblatt 2002, NISV-
+Grenzwerte, **erste Erschliessung dieses Themas in der KB**), `4.15VorgehenbeiBeschwerden.pdf`
+(AHB-Checkliste Innenraumklima-Beschwerden). Neue Destillate: `asbest-dimension-jenseits-
+spritzasbest`, `ahb-checkliste-schadstoffe-in-bauten`, `elektrosmog-informationsblatt-ahb-ewz`,
+`vorgehen-bei-beschwerden-innenraumklima`. `[[gebaeudeschadstoffe]]` um Gebäudescreening-
+Abschnitt gewachsen; neuer Wiki-Artikel `[[elektrosmog]]` (emerging) angelegt; neue
+BAUHERREN-FAQ F226. Stand PL-02: 59/182 destilliert, 123 offen. Nachtschicht-Budgetdisziplin:
+kein Refuter-Panel (Einzellauf, kleine Quellen, klare Amtsdokumente).
+
+## 2026-08-11 (Run 126) — eco-bau-Block über Graph statt blockiertem OneDrive, GEAK-Normierung auf established, erster Wasser-/Warmwasser-Kennwertbeleg
+
+**Erster Lauf im Sparbetrieb** (Token-Vollgas nach Rule 260712b endete am 10.08.2026): Richtwert
+zurück auf 3 bis 5 PDF, sechs Agenten (vier Destillier-Agenten auf Sonnet, zwei Refuter im
+Hauptmodell). 7 PDF geprüft, **4 destilliert**, 3 begründet als `[-]` abgelegt.
+
+**Der Lauf wäre nach Auftragstext abzubrechen gewesen.** Der OneDrive File Provider hing für die
+gesamte Bibliothek (`Operation timed out` auf PL-02 **und** PL-04, verwandt mit dem
+`Resource deadlock avoided` der Nachtschicht vom 08.08.). Nach Rule `wege-und-vollmachten` wurde
+stattdessen Weg 2 gegangen: die zertifikatsangemeldete **CLI for Microsoft 365** liefert die
+Dateien über Graph (Site auflösen → Ordner listen → `@microsoft.graph.downloadUrl` → `curl`). Alle
+sieben Kandidaten kamen vollständig herunter, ohne den Mount zu berühren. **Dieser Weg ist dem
+Mount künftig generell vorzuziehen** (sofort materialisiert, echte Grösse im Listing, direkte
+lokale Ablage — der `dataless`-Umgang aus Run 121 und die Zwischenkopie aus Run 122 entfallen);
+Befehle und Drive-IDs in `training/pdf-inventar.md`, Nachtrag Run 126.
+
+**Neu:** `kbob-oekobilanzdaten-baubereich-2007` (KBOB/eco-bau/IPB 2007/1, 11 S. vollst. —
+Gründungsdokument der Datengrundlage, die die KB als v8.0 nutzt; die drei Messgrössen graue
+Energie / Treibhauseffekt / UBP, Systemgrenzen-Lehre am Beton 92 + 27 = 119 UBP/kg) ·
+`kbob-recyclingbeton-2007` (2007/2, 6 S. vollst., mit EMPA und SIA — Sorten RC-W/RC-B/RC-M nach
+Expositionsklassen; **ehrlicher Negativbefund: keine einzige Zahl zu grauer Energie oder CO₂**) ·
+`ahb-zuerich-wassersparen` (AHB Zürich/PRESANZ, **November 1997**, 21 S. vollst., Bild-PDF —
+**erster Wasser-/Warmwasser-Kennwertbeleg der KB aus einer Primärquelle**: 4 MJ/m³ Kaltwasser gegen
+**270 MJ (75 kWh)/m³ Warmwasser**, Faktor ~70, vom Hauptlauf am Seitenbild nachgeprüft) ·
+`checkliste-nachhaltige-gebaeudeerneuerung-svw` (BFE/ARE/BWO/AHB, **25.06.2007**, 18 S. vollst. —
+Dateinamen-Falle, echter Titel «Checkliste nachhaltige Gebäudeerneuerung»; vier Grundvarianten
+Instandhaltung/Instandsetzung/Gesamterneuerung/Ersatzneubau als Entscheidungsraster vor der
+Projektierung).
+
+**Verifikation: `geak-normierung-berechnungsmethodik` auf `established` gehoben** (QUESTIONS
+E-125-1 geschlossen). Zwei unabhängige Refuter gegen **13 wörtlich zitierte** Aussagen, Schwerpunkte
+getrennt (korrigierte Aussagen / Zahlen und Fundstellen): **10 von 13 unbeanstandet, 3
+Beanstandungen geringer Tragweite, keine tragende** — keine falsche Zahl, keine falsche
+Gleichungs- oder Tabellennummer. Die drei Punkte am Original gegengeprüft und eingearbeitet (zu
+absolutes «nur» bei den Warmwasser-Verteilverlusten, fehlende Zeile «Biogas 0,203» in Tab. 36, bei
+Gl. 9 zusammengezogene Fundstelle der Speicher-Mengengrenzen). **Drei Prüffallen dokumentiert:** die
+nur im Seitenbild sichtbare **Durchstreichung von «Biogas» in Tab. 35** (jede Textextraktion täuscht
+hier einen Widerspruch vor), die abweichende Δθ-Definition des Heizungsspeichers, und der
+Tippfehler des Originals «Gl. 53» statt Gl. 54 an zwei Stellen (unabhängig belegt).
+
+**FAQ +4:** F222 (Wassersparen spart Energie fast nur über das Warmwasser) · F223 (Recyclingbeton,
+wo zulässig, und die Nomenklatur-Falle RC-B gegen RC-C50) · F224 (Gesamterneuerung einer
+Genossenschaft, Variantenentscheid vor Projektierung) · F225 (UBP gegen graue Energie gegen
+CO₂-eq, und welche Datenversion gilt). Stand **225 Kernfragen F1-F225, lückenlos, keine
+Duplikate** (maschinell geprüft), 267 Destillate, 33 Themenartikel.
+
+**Gewachsen:** `graue-energie` (drei Messgrössen, Systemgrenzen, Versionsdisziplin) ·
+`oekologische-materialvorgaben-beschaffung` (Nomenklatur-Tabelle Recyclingbeton über die Stände
+2006/2007/2008/2026, mit dem Normbruch SIA 162/4 archiviert seit 31.12.2009) ·
+`solarwaerme-warmwasser` (die Verbrauchsseite vor der Erzeugerseite).
+
+**Scheinwiderspruch aufgelöst statt eingetragen:** Die 1997er Volumenströme (8,5-11 l/min Dusche)
+gegen die 12 l/min von eco-bau 2008 und ecoBKP 2026 sahen nach einem Quellenkonflikt aus. Die
+Prüfung am Seitenbild zeigt eine **dreispaltige** Tabelle (Ist 12 / Soll 11 / 8,5) — kein
+Widerspruch, sondern 28 Jahre Stillstand: was 1997 der Istzustand war, ist heute der Sparstandard.
+Daraus die offene Frage E-126-1 nach der geltenden SVGW-Grundlage.
+
+**Neue Messfalle für die Reihe:** `5.36Wassersparen.pdf` ist ein **Bild-PDF** (21 Seiten, aber nur
+~2'200 Zeichen per `pdftotext`). Die Reihe lautet damit Dateiname (Run 122) · Ablageort (Run
+124/125) · Grösse gegen Seitenzahl (Run 124) · **Textextrahierbarkeit (Run 126)**.
+
+**Eigener Fehler, schwerer Teil:** Beim Nachziehen der Umlaute liefen zwei `str.replace()`
+**unbegrenzt über die ganze Datei** statt nur über den eigenen Abschnitt — dabei wurden **246
+historische Zeilen in `logbuch/LOGBUCH.md`** (append-only!) und 5 historische Überschriften in
+`training/curriculum.md` umgeschrieben. Bemerkt durch die Diff-Messung nach dem Schreiben
+(`--numstat` zeigte `317 250` statt Insertions-only), zeilenexakt aus dem Diff repariert (nicht aus
+HEAD, weil ein anderer Loop unbestätigte Änderungen in derselben Datei hatte). Endstand nachgemessen:
+`LOGBUCH.md` +67/−0, `curriculum.md` +28/−2, alle 12 weiteren Dateien geprüft. **Lehre: ein globales
+Ersetzen ist nie das Werkzeug, um eigenen Text in einer gewachsenen Datei zu korrigieren — Abschnitt
+herausschneiden, ersetzen, wieder einsetzen; und nach jedem Schreiben auf eine geteilte Datei
+`--numstat` prüfen, eine Append-only-Datei muss `−0` zeigen.**
+
+**Eigener Fehler, leichter Teil:** zweimal in ASCII-Umschrift geschrieben (GEAK-Verifikationsabschnitt,
+Curriculum) sowie zweimal «maassgebend» statt «massgebend» — im selben Lauf bemerkt, korrigiert und
+maschinell nachkontrolliert. Es ist derselbe Fehler wie in Run 125, dort über Agenten-Vorgabetexte.
+**Die Merkregel wird verallgemeinert: jeder in die KB geschriebene Text erfüllt die
+Umlaute-Konvention, unabhängig davon, wer ihn schreibt** — ein `grep` über die geänderten Dateien
+gehört ans Ende jedes Laufs.
+
+**Neue offene Punkte E-126-1 bis E-126-5** (Volumenstrom-Zielwerte SVGW/GEEA · 1997er Rechtsverweise
+Art. 26/30a BBV I und Art. 9 EnerG ZH an Skill `baurecht` · Materialienband und Excel-Tool
+«Retrofit Advisor» zur Erneuerungs-Checkliste · Farbcodierung der RC-Beton-Tabelle ·
+Vergleichbarkeit alter und neuer UBP-Werte). **Zur Vorlage an Raphael:** die Task-Beschreibung
+nennt weiterhin «TOKEN-VOLLGAS bis 10.08.2026» und 6-10 PDF; der Stichtag ist abgelaufen, dieser
+Lauf hat am gemessenen Datum auf 3-5 zurückgestellt — die Task selbst sollte nachgezogen werden.
+⚠ **Schritt 9 (committen/pushen) NICHT erledigt:** Der NAS-Committer verweigert seit 05:30 jeden
+Durchgang («Rebase/Merge aktiv — skip»), Ursache ist ein leeres `.git/rebase-merge/`-Artefakt aus
+einem abgebrochenen `pull --rebase --autostash` (kein echter Rebase, keine Konflikte, Autostash
+geprüft und harmlos). 27 Dateien sind seither uncommittet. Bewusst nicht selbst behoben — Eingriff
+in `.git` des kanonischen Repos, Freigabe-Schwelle; Diagnose und fertiger Befehl im Logbuch-Eintrag
+vom 11.08.2026 23:05. Kein Datenverlust, alle Erzeugnisse liegen auf dem NAS.
+Report: `outputs/2026-08-11_energie-run126.md`.
+
 ## 2026-08-08 (Nachtschicht Mac Mini, kleiner Block) — E-125-4 geklärt: Impulsberatung seit 1.4.2022 kostenlos
 
 PL-02 (OneDrive) war für den geplanten eco-bau-Block gesperrt (`Resource deadlock avoided`,

@@ -1,5 +1,20 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-11 (Mac Mini Nachtschicht, Run 15) — Wädenswil-Blocker geschlossen (Weg 2: Graph/CLI statt OneDrive-Mount), kein neuer Kennwert
+
+Letzter offener Kandidat seit Run 6 («2304 Wädenswil Residualwert-Tool») abschliessend
+bearbeitet. Der native OneDrive-Mount blieb blockiert (`Resource deadlock avoided`,
+unverändert seit Run 13); statt eines dritten identischen Retrys über die zertifikats-
+angemeldete CLI for Microsoft 365 zugegriffen (`spo file get --asFile`, umgeht den
+File-Provider). Beide Residualwert-PDF (Variante Atrium, Variante Zwei Treppenhäuser) und
+der Flächenauszug vollständig geladen und ausgewertet. Ergebnis: beide Dokumente beschriften
+ihre Kostensumme eindeutig als "BKP 1-9", keine BKP-1-5-Teilsumme vorhanden — kein Kennwert
+promoviert (gleiche Ausschlussregel wie Pre-Check-Tool/Wald Haselstudstrasse). Der Fall gilt
+damit als geschlossen, nicht mehr als offener Blocker. Der Zugriffsweg ist im Wege-Register
+(`connectors/WEGE.md`) für künftige OneDrive-Blockaden dokumentiert. Details:
+`raw/2304-waedenswil-residualwert-zwei-varianten.md`, `wiki/QUESTIONS.md`,
+`training/quellen-inventar.md` (Run 15). Kein Versand, keine Buchung, kein Fan-out.
+
 ## 2026-08-08 (interaktiv, Mac Mini) — Pfad-Verweise auf umbenannte Bibliothek «IMMO - 02 Standort INFO» nachgezogen
 
 Die SharePoint-Bibliothek IMMO/«02 UBSFS» heisst seit 07.08.2026 **«02 Standort INFO»**

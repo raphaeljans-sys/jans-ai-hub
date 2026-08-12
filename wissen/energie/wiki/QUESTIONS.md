@@ -3069,7 +3069,18 @@ durchfuehrbar.
 
 ## Run 125 (07.08.2026) — Minergie-Restbestand PL-02, GEAK-Methodik, Aktualitätsprüfung
 
-- **E-125-1 — `geak-normierung-berechnungsmethodik` wartet auf die zweite Prüfrunde.** Zwei
+- **E-125-1 — ✅ GESCHLOSSEN am 11.08.2026 (Run 126).** Die zweite, unabhängige Prüfrunde ist
+  gelaufen: zwei Refuter im Hauptmodell gegen 13 **wörtlich** aus der Datei zitierte Aussagen,
+  Schwerpunkte getrennt (korrigierte Aussagen / Zahlen und Fundstellen). Ergebnis **10 von 13
+  unbeanstandet, 3 Beanstandungen geringer Tragweite, keine tragende** — keine falsche Zahl, keine
+  falsche Gleichungs- oder Tabellennummer, keine der Run-125-Korrekturen ins Gegenteil umgekippt.
+  Die drei Punkte (zu absolutes «nur» bei den Warmwasser-Verteilverlusten, fehlende Biogas-Zeile in
+  Tab. 36, bei Gl. 9 zusammengezogene Fundstelle der Speicher-Mengengrenzen) wurden vom Hauptlauf
+  am Original gegengeprüft und eingearbeitet. **Status auf `established` gehoben.** Nebenertrag:
+  drei Prüffallen im Destillat dokumentiert (durchgestrichenes «Biogas» in Tab. 35, nur im
+  Seitenbild sichtbar · abweichende Δθ-Definition des Heizungsspeichers · Tippfehler des Originals
+  «Gl. 53» statt Gl. 54 an zwei Stellen, unabhängig belegt). Ursprünglicher Eintrag:
+- **E-125-1 (historisch) — `geak-normierung-berechnungsmethodik` wartet auf die zweite Prüfrunde.** Zwei
   Refuter mit getrennten Schwerpunkten haben 10 bzw. 19 Beanstandungen gemeldet; die tragenden
   wurden vom Hauptlauf am Original nachgeprüft und korrigiert (u.a.: direkte CO2-Emissionen sind
   **klassenwirksam**, nicht informativ; die Zwei-Bedingungs-Regel der Verteilverluste gilt nur für
@@ -3125,3 +3136,46 @@ durchfuehrbar.
   vorliegt, gehört sie als Destillat in diese KB: sie ist projektübergreifend wertvoll, weil an
   der Einstufung Abluftmengen, Geräteumfang und Gastro-Anforderungen und damit die Kosten
   hängen. Berührt die Skills `energie`, `auflagebereinigung` und `ausschreibung`.
+
+## Offene Punkte aus Run 126 (11.08.2026)
+
+- **E-126-1 — Gelten die 8,5 l/min der Zürcher Projektierungsgrundlage heute noch als Zielwert,
+  oder sind die 12 l/min von eco-bau/ecoBKP der geltende Stand?** Der Befund dieses Laufs: was
+  die AHB-Grundlage von **November 1997** als **Ist**-Volumenstrom für Dusche, Waschtisch,
+  Spültisch und Bidet bei 3 bar festhält (**12 l/min**), führen die eco-bau-Merkblätter 2008 und
+  das ecoBKP 2026 als **Anforderung an eine wassersparende Armatur**; die 1997er **Soll**-Werte
+  lagen bei 11 bzw. 8,5 l/min (bei reduziertem Fliessdruck). Das ist kein Quellenwiderspruch — die
+  Spalten sind verschieden —, aber es ist ungeklärt, welcher Wert heute fachlich richtig ist.
+  Offen ist die **aktuelle SVGW-Grundlage** (W3 bzw. die Leitsätze für Wasserinstallationen) und
+  ob die GEEA-Werte seither verschärft wurden. Lohnend, weil aus der Antwort eine konkrete
+  LV-Vorgabe wird. Bezug: `[[ahb-zuerich-wassersparen]]`, FAQ F222, offener Punkt in
+  `[[ecobkp-2026-gebaeudetechnik]]` (dort schon als «Wassersparkonzept-Literwerte» notiert).
+- **E-126-2 — Die 1997er Rechtsverweise der Wassersparen-Grundlage sind nicht nachgeführt.** Die
+  Quelle stützt sich auf **Art. 26 BBV I** (Warmwasser max. 60 °C, Abschaltbarkeit von
+  Umwälzpumpen und Begleitheizbändern), **Art. 30a BBV I** (Wärmerückgewinnung aus Kühlmaschinen
+  für Warmwasser) und **Art. 9 Energiegesetz Kanton Zürich** (individuelle Erfassung und
+  Abrechnung des Warmwasserverbrauchs, obligatorisch in Neubauten mit fünf oder mehr
+  Wärmebezügern, bei bestehenden Bauten nur beim Ersatz des Verteilsystems). Ob und in welcher
+  Artikelnummer diese Pflichten heute im EnerG/EnerV ZH stehen, ist **nicht geprüft** — der
+  Sachgehalt (VHKA-Pflicht) existiert weiter, die Fundstellen sind mit hoher Wahrscheinlichkeit
+  verschoben. Abgleich gehört mit dem Skill `baurecht` gemacht, nicht in dieser KB geraten.
+- **E-126-3 — Der Materialienband und das Excel-Tool «Retrofit Advisor» zur Erneuerungs-Checkliste
+  fehlen.** Die Checkliste von 2007 verweist mehrfach auf beide; in der PDF liegen sie nicht bei.
+  Der Retrofit Advisor wäre interessant, weil er den Variantenentscheid Instandsetzung gegen
+  Gesamterneuerung gegen Ersatzneubau rechnerisch unterlegt — genau die Stelle, an der die KB
+  heute nur die Vorgehenslogik und keine Rechenhilfe hat. Zu prüfen ist, ob beides bei
+  novatlantis, econcept oder dem SVW noch abrufbar ist und ob es eine neuere Fassung gibt.
+  Bezug: `[[checkliste-nachhaltige-gebaeudeerneuerung-svw]]`, FAQ F224.
+- **E-126-4 — Farbcodierung der RC-Beton-Anwendungstabelle nicht zeilenweise gesichert.** In der
+  KBOB-Empfehlung 2007/2 codiert die Tabelle auf S. 3 je Anwendungszeile farblich, welche Sorten
+  zulässig sind. Übernommen sind nur die textlich explizit belegten Fälle (innen/trocken für RC-M
+  geeignet; Aussenfassaden und wasserdichter Beton nur RC-B/RC-W); für die übrigen Zeilen ist die
+  Zuordnung im Original nachzuschlagen. Geringe Priorität, weil die geltenden Sorten heute
+  RC-C50/RC-M40 heissen und die Zuordnung ohnehin über das ecoBKP 2026 läuft.
+- **E-126-5 — Fortgeschriebene Fassung der KBOB-Ökobilanzdaten nicht als Primärquelle in der KB.**
+  Die KB nennt v8.0 (20.02.2026) als geltenden Stand, kennt aber als **gelesene Primärquelle** nur
+  die Gründungsempfehlung 2007/1 mit Datenstand Dezember 2006 und das KBOB-Faktenblatt 2025. Für
+  einen belastbaren Variantenvergleich fehlt die aktuelle Datenliste selbst (kostenpflichtig, vgl.
+  den bestehenden Offen-Punkt in `[[graue-energie]]`). Zu klären ist, ob die UBP-Methode seit 2006
+  methodisch revidiert wurde (die Quelle nennt eine Aktualisierung 2006 einer 1990 publizierten
+  Methode) — das entscheidet, ob alte und neue UBP-Zahlen überhaupt vergleichbar sind.

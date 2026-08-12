@@ -579,3 +579,8 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   SharePoint-Bibliotheken gesichtet — Frage 1 und Frage 2 (`wiki/QUESTIONS.md`) bleiben die
   einzigen verbleibenden Blocker für eine MFH-Median-Bildung, nicht mehr Materialmangel.
   Details: `training/quellen-inventar.md` Abschnitt "Run 11", kein neuer `raw/`-Beleg.
+- Run 15 (11.08.2026): letzter offener Kandidat «2304 Wädenswil Residualwert-Tool» (Run 6,
+  seit Run 13 durch OneDrive-Blockade unzugänglich) über Weg 2 (Graph/CLI statt Mount)
+  erfolgreich gelesen — Inhalt aber `[-]` untauglich: Kostensumme eindeutig "BKP 1-9", keine
+  BKP-1-5-Teilsumme. Kein neuer Kennwert, Fall abschliessend geschlossen. Details:
+  `raw/2304-waedenswil-residualwert-zwei-varianten.md`.
