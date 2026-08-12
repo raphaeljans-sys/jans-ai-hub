@@ -75,3 +75,8 @@ hochgeladen wurden. Ablauf:
 
 Audit-Auftrag (2 Phasen, Beleg-Pflicht) ist vorbereitet — Prompt liegt in der
 Session-Historie; Ergebnis-Ablage vorgesehen unter `docs/konzepte/260812-Hub-Audit/`.
+
+**Option B aktiviert (12.08., Freigabe Raphael):** Einmaliger launchd-Trigger
+`ch.jans.onedrive-geister-trigger` feuert Fr 14.08. 09:00 auf dem Mac Mini,
+legt das Cleanup-Script in die Task-Queue und baut sich selbst ab. Bericht
+danach unter `remote-tasks/results/260814-onedrive-geister-cleanup/`.
