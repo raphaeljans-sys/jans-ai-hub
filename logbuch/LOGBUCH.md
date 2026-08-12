@@ -7,7 +7,7 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ## Radar-Briefing 13.08.2026 (01:32, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
-**Der Tag hat einen klaren Schwerpunkt: Die Baufreigabe KISPI hängt an einer einzigen Mail, die
+Der Tag hat einen klaren Schwerpunkt: Die Baufreigabe KISPI **hängt an einer einzigen Mail, die
 seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 
 **Erledigt seit gestern**
@@ -37,7 +37,7 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 - Zweiter unversendeter Entwurf an L. Furrer (AfB) vom 12.08. 16:06: Bitte um den Statusbericht
   der Auflagepunkte des Stammgesuchs B26-00705.01. Er ist die Grundlage für das Nachfassen bei
   den Fachplanungen, das der 17.08. verlangt.
-- RE-00098 (CHF 13'600) und RE-00099 (CHF 3'680), KISPI, Mahnstufe 1: Frist am 12.08. abgelaufen,
+- RE-00098 (CHF 13'600) und RE-00099 (CHF 3'680), KISPI, Mahnung 1: Frist am 12.08. abgelaufen,
   Zahlungseingang wegen des toten bexio-Zugangs **nicht prüfbar**. Vor jeder Eskalation auf
   Mahnung 2 ist der Zahlstatus zu verifizieren. Bis zum neuen Token wird nicht gemahnt.
 
@@ -53,8 +53,8 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
   (nur wenn die Mail heute rausgeht).
 - Sonntag 16.08.: E-Banking-Gegenprüfung zu Tx 3630 (CHF 6'000, Valuta 07.08., mutmasslich
   RE-00101 Tschopp). A1 für RE-00101 bleibt bis dahin gesperrt.
-- Montag 17.08.: Die Bauherrschaft erwartet die Baufreigabe KISPI; gleichentags 09:00 bis
-  10:00 Austausch Umbau PPTS mit C. Schäfer.
+- Montag 17.08.: Die Bauherrschaft erwartet die Baufreigabe KISPI; gleichentags
+  09:00 bis 10:00 Austausch Umbau PPTS mit C. Schäfer.
 - Donnerstag 20.08. 13:00 bis 14:00: Koordinationssitzung Gruner / Jans / KISPI (Zweiwochenrhythmus).
 
 **In Beobachtung**
@@ -64,13 +64,15 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 - Notariat Wiedikon und UBS-Kapitaleinzahlungsbescheinigung: beide ausstehend, Kette hängt daran.
 - Kollision Bodenablauf und Bodenheizung KISPI: Entscheid Kupplungen gegen Rückbau steht aus.
 - bexio-Token: Neuer Token ist Aktion Raphael, ohne ihn bleibt die Debitoren-Aufsicht blind.
-- Aus den gestrigen Gesprächen offen geblieben: der Verschlankungs-Entwurf für die `CLAUDE.md`
-  (von 18'655 auf 13'456 Bytes) wartet auf Deine Antwort, ob er direkt geschrieben oder vorher mit
-  einem Testagenten geprüft wird.
+
+**Aus unseren Gesprächen**
+
+- Der Verschlankungs-Entwurf für die `CLAUDE.md` (von 18'655 auf 13'456 Bytes) wartet auf Deine
+  Antwort, ob er direkt geschrieben oder vorher mit einem Testagenten geprüft wird.
 
 **Vorschlag Kalendereinträge**
 
-- Heute 08:30 bis 09:00, Vorbereitung Nova: Varianten Küche 1A bis 3B, Schliessanlage Portunus
+- Heute 08:30 bis 09:00: Vorbereitung Nova — Varianten Küche 1A bis 3B, Schliessanlage Portunus
   gegen Feldmann, Hochschränke. Der Termin beginnt um 09:00 und der Entscheid zur Eingriffstiefe
   fällt dort.
 - Freitag 14.08. 16:00, Kontrolle: Ist der Brandschutzplan von Gruner eingetroffen? Wenn nicht,
@@ -78,8 +80,51 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 
 **Token-Tempo**
 
-12.08.2026: MacBook Pro ohne Verbrauch (die Station war den ganzen Tag still), Mac Mini
-117'501'271 Token für 83.65 USD API-Äquivalent, Summe damit 117.5 Mio Token und 83.65 USD.
+Vortag 12.08.: MacBook Pro ohne Verbrauch (die Station war den ganzen Tag still),
+Mac Mini 117.5 Mio Token für USD 83.65, zusammen 117.5 Mio Token und USD 83.65
+API-Kostenäquivalent.
+
+---
+
+## Hub-Chef 13.08.2026, 01:36 bis 01:45 — Tagesbriefing GESENDET (Nachtlauf, sieben Stunden vor dem Regelslot)
+
+**Sendeentscheid und seine Begründung.** Der Lauf feuerte um **01:36**, weil die Task-Flotte in
+dieser Nacht nachgeholt wurde; der Regelslot **08:38 feuert heute zusätzlich** (Registry:
+`nextRunAt 2026-08-13T06:38:53Z`). Trotz der absehbaren Doppelung wurde gesendet, weil die
+Asymmetrie eindeutig ist: eine redundante Mail kostet nichts, ein ausgefallener 08:38-Lauf hätte
+Raphael ohne Kenntnis der drei versandbereiten Entwürfe in den 09:00-Termin gehen lassen, und
+genau dieser Ausfall ist vom **09. bis 12.08. viermal in Folge eingetreten**. Der Lauf um 08:38
+soll das hier lesen und nur die **Delta** melden, nicht das Ganze wiederholen.
+
+**Gesendet:** 13.08.2026 **01:41:36** an `rj@raphaeljans.ch`, Betreff «Hub-Chef 13.08.26: Drei
+Entwuerfe liegen bereit, einer muss heute raus, und der bexio-Zugang ist tot», Body **5'004
+Zeichen**, in «Gesendete Elemente» des Exchange-Kontos verifiziert (Gegenprobe zum
+Leer-Draft-Fehler). Aptos wird über den Mail-Default getragen: `set message font` scheitert auf
+dieser macOS-Fassung mit `-10006`, die Eigenschaft wurde weggelassen, nicht ersetzt.
+
+**Inhalt, verdichtet:** (1) drei versandbereite Entwürfe, Stevanovic terminkritisch heute,
+Furrer AfB, Inniger neu; (2) die Verwechslungswarnung zum überholten Inniger-Entwurf vom 08.08.;
+(3) Termine 09:00 bis 10:30 Nova Feldeggstrasse 26 und 11:30 bis 12:00 KISPI PPTS Teams;
+(4) bexio 401 samt Token-Anleitung und der Blindzeit seit 08.08.; (5) Fälligkeiten 14., 15., 16.,
+17. und 20.08.; (6) Beobachtung AG-Gründung und die offenen Trennwand-Fragen an Gruner.
+
+**QS am Erzeugnis:** kein «ß», kein Gedankenstrich als Stilmittel, echte Umlaute, Tausender-
+Apostroph gesetzt, «m³/h» korrigiert (stand als «m3/h»). Der Rechenweg im Inniger-Entwurf wurde
+gegengerechnet: **41.47 × 0.70 = 29.03 kW** und **1'000 × 0.90 = 900 m³/h** stimmen beide. Die
+fünf im Entwurf aufgeführten Positionen summieren sich auf **33.97 kW**, nicht auf 41.47; der Text
+kennzeichnet die Liste ausdrücklich als Auszug («Die wichtigsten Werte daraus»), der Befund ist
+damit kein Fehler, aber ein Leser könnte nachrechnen und stutzen. Als Prüfpunkt vermerkt, der
+Entwurf wurde **nicht verändert**.
+
+**Keine Whitelist-Aktion ausgeführt, und warum nicht.** Die drei Entwürfe gehen an **Dritte**.
+A7 trägt sie grundsätzlich, sein Widerrufsfenster von 30 Minuten wäre um 01:45 aber wertlos
+gewesen, weil Raphael nachts nichts widerrufen kann; damit fehlt A7 die tragende Bedingung, und
+der Versand bleibt Entscheid Raphaels. A1 ist mangels bexio-Daten ohnehin gesperrt. Kein Entwurf
+verändert, keiner gelöscht.
+
+**Queues:** Sync, Freigabe und Remote alle leer. **Konversations-Destillat:** letzter Stand
+`260808-konversationen.md`, für den 09. bis 12.08. fehlt es (`konversations-log` lief zuletzt am
+08.08., nächster Lauf heute 06:12).
 
 ---
 

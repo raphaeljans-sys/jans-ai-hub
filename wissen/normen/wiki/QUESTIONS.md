@@ -1,5 +1,38 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 49 (13.08.2026) — nach den 17 Refuter-Runden
+
+- **N49-1 — 65 von 70 Kernbefunden sind noch NICHT hauptprozess-verifiziert.** Die Refuter-Flotte
+  hat 70 Kernbefunde gemeldet; der Hauptprozess hat 5 davon selbst am Original nachgeprüft (alle
+  bestätigt). Die übrigen 65 stehen als sichtbare Marker im jeweiligen Destillat, sind aber NICHT
+  in Korrekturen überführt — ein Refuter-Befund kann ein Werkzeug-Artefakt sein, und eine ältere
+  Bestätigung kann selbst der Fehler gewesen sein. Reihenfolge der Abarbeitung nach Wirkung:
+  BKP-Codes und Vergütungs-/Ausmassgrössen zuerst (sie wandern ins LV), dann fehlende
+  Anforderungen, zuletzt die Fundstellen-Versätze.
+
+- **N49-2 — Vorschlag Methodik-Pflicht 11 (Raphael zur Freigabe).** «Ein unverifiziertes Destillat
+  ist kein Wissensstand, sondern ein Entwurf. Aus Entwürfen wird keine Querschnitts-Synthese, kein
+  Registereintrag und keine Skill-Empfehlung gebaut — auch nicht mit Vorbehalt.» Anlass: 17 von 17
+  Destillaten beanstandet, und die aus ihnen gebaute ABB-Synthese trug eine Bedeutungsumkehr
+  (Betonbau/Arbeitsgerüst) ausgerechnet in dem Satz, den sie selbst als folgenreichsten hervorhob.
+  Der Vorbehalt «Warnkarte, nicht Zitierquelle» stand zweimal fett im Artikel und hat den Fehler
+  trotzdem nicht aufgehalten — dieselbe Mechanik wie bei Methodik-Pflicht 9. Begründung im Report
+  `outputs/2026-08-13_normen-nacht-run49.md`, Ziff. 4.
+
+- **N49-3 — Seitenversatz der Run-48-Destillate mechanisch beheben.** Bei `sia-118-244-2006` und
+  `sia-118-246-2006` sind rund 40 Fundstellen je genau eine Seite zu niedrig (Ziff. 0 bis 2), ab
+  Ziff. 3 stimmen sie wieder — ein gezielt nachziehbarer Off-by-one. Bei `sia-118-265-2004` ist
+  die Verschiebung unregelmässig und muss Fundstelle für Fundstelle geprüft werden. **Ursache ist
+  keine neue Fehlerklasse, sondern die Verletzung der bestehenden Methodik-Pflicht 6:** die
+  Seitenzahl ist am Seitenrand abzulesen, nicht zu schätzen. Am Original gegengemessen: gedruckte
+  Seitenzahl = PDF-Seite, 1:1.
+
+- **N49-4 — ABB-Synthese erst nach Abarbeitung von N49-1 hochstufen.** Der Artikel
+  `wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md` bleibt Warnkarte. Beim Hochstufen sind die
+  Grenzwerte beider Tabellen (Gerüsthöhen, Abzugsgrenzen) **gezielt nebeneinander** zu prüfen —
+  die Refuter haben sie nicht beanstandet, aber auch niemand hat sie als Reihe geprüft. Ein
+  nicht beanstandeter Wert ist kein verifizierter Wert.
+
 ## Normen-Nacht Run 48 (08.08.2026) — nach Abschluss des Downloads-Uebernahme-Blocks
 
 - **N48-1 — 17 Refuter-Runden faellig (der eigentliche Rueckstand dieses Laufs).** Der ganze

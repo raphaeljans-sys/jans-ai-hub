@@ -1,3 +1,48 @@
+## 2026-08-13 (Run 49) — 17 Refuter-Runden als Multi-Agent-Flotte: 17/17 BEANSTANDET, 70 Kernbefunde
+
+Die ausstehenden Refuter-Runden fuer den P2-Block sind gefahren, als Workflow mit **34 Agenten**
+(17 Refuter, 17 Inline-Einarbeiter, Pipeline ohne Barriere), 6,57 Mio Subagent-Token, 24 Minuten,
+0 Fehlschlaege. Ergebnis: **17 von 17 Destillaten BEANSTANDET, 70 Kernbefunde, 190 Nebenbefunde,
+null Hebungen auf `established`.**
+
+Fuenf wiederkehrende Klassen: systematischer Seitenversatz (40-44 Fundstellen je Destillat bei
+118/244, 118/246, 118/265) · falsche BKP-Codes in genau den Abschnitten, die der Skill
+`ausschreibung` als LV-Vorlage liest (118/246, 118/248, 118/267) · fehlende ausfuehrungsrelevante
+Anforderungen bis hin zu einem ganzen Kapitel (380/3) · falsche Zahlenwerte in sicherheits- und
+verguetungsrelevanten Groessen · Selbstwidersprueche quer durch alle 17.
+
+**Der Hauptprozess hat fuenf Befundklassen selbst am Original nachgeprueft, alle bestaetigt:**
+gedruckte Seitenzahl = PDF-Seite und Ziff. 0 steht auf S. 5 statt 4 · BKP 227 ist «Aeussere
+Oberflaechenbehandlungen» und hat mit Naturstein nichts zu tun (richtig: 216.0 / 281.4 / 282.2) ·
+Figur 4 der SIA 197/2 laeuft als Plateau bei 500 m und faellt auf 300 m, die «600» ist die
+oberste Achsenteilung (Fluchtwegabstand, 20 % zu grosszuegig) · die Millisekunde in Ziff. 7.4.2.3
+gehoert zur linearen Abnahme, nicht zum Anstieg · und Ziff. 8.4.2.2 der SIA 118/262.
+
+**Der teuerste Befund war ein Fehler des Hauptprozesses selbst.** Die in Run 48 geschriebene
+Querschnitts-Synthese `wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md` fuehrte fuer den Betonbau
+«Arbeitsgeruste sind grundsaetzlich NICHT inbegriffen» samt der Warnung, wer sie als inbegriffen
+behandle, verschenke die Position. Der Originaltext sagt das Gegenteil: sie «werden nicht
+verguetet, ausgenommen wenn im Leistungsverzeichnis hierfuer getrennte Positionen enthalten sind»
+— also im Einheitspreis enthalten. Die Aussage stand ausgerechnet in dem Satz, den die Synthese
+selbst als «die praktisch folgenreichste Zeile» hervorhob. Inline korrigiert, mit sichtbarem
+Korrekturkasten; Status- und Belastbarkeitsblock verschaerft.
+
+Daraus der Vorschlag **Methodik-Pflicht 11** (Raphael zur Freigabe, QUESTIONS N49-2): ein
+unverifiziertes Destillat ist kein Wissensstand, sondern ein Entwurf — aus Entwuerfen wird keine
+Synthese und kein Registereintrag gebaut, auch nicht mit Vorbehalt. Der Vorbehalt stand zweimal
+fett im Artikel und hat den Fehler trotzdem nicht aufgehalten.
+
+Methodisch bewaehrt: die neu eingezogene **Selbstwiderspruchs-Pruefung** (trifft quer durch alle
+17 und ist der einzige Befundtyp, der ohne Quellenzugriff beweisbar ist) und die **Rollentrennung
+Urteil/Eingriff** — der Refuter aendert nichts, ein zweiter Agent arbeitet nur die Nebenbefunde
+inline ein und markiert die Kernbefunde sichtbar. Kein Destillat wurde von einem Agenten selbst
+auf `established` gehoben.
+
+Ehrliche Bilanz: 5 von 70 Kernbefunden sind hauptprozess-verifiziert, die uebrigen 65 stehen als
+Marker im Destillat und sind der ausgewiesene Rueckstand (QUESTIONS N49-1 bis N49-4).
+
+Lauf-Report: `outputs/2026-08-13_normen-nacht-run49.md`.
+
 ## 2026-08-12 (Session Raphael) — Output: Duschtasse in nicht-IV-Duschen zulaessig (Fall 2619 KISPI)
 
 Compounding-Loop zur Frage, ob nicht rollstuhlgerechte Duschen/WC im Umbau 2619 KISPI

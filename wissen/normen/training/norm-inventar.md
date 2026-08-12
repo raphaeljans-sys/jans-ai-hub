@@ -83,7 +83,16 @@ Positionen der Uebernahme sind als Erstdestillat angelegt, Status durchwegs `spe
 
 Die 9 xalt-Altausgaben werden gemaess Programm NICHT destilliert.
 
-**Naechster Schritt fuer diesen Block (P3, faellig):** die 17 Refuter-Runden. Reihenfolge nach
+**[x] 130813 — die 17 Refuter-Runden sind GEFAHREN (Run 49, Multi-Agent-Flotte, 34 Agenten).
+Ergebnis: 17/17 BEANSTANDET, 70 Kernbefunde, 190 Nebenbefunde, KEINE Hebung auf `established`.**
+Alle 17 Destillate bleiben `speculative`, tragen die inline eingearbeiteten Nebenbefunde und je
+einen sichtbaren Marker «⚠ REFUTER-KERNBEFUND (Run 49), Nachpruefung Hauptprozess ausstehend».
+Fuenf Befundklassen wurden vom Hauptprozess am Original nachgeprueft und bestaetigt (Seitenversatz,
+BKP 227, Figur 4 der 197/2, Millisekunden-Zuordnung, Arbeitsgeruest-Regel der 118/262).
+**Offener Rueckstand: 65 der 70 Kernbefunde sind noch nicht hauptprozess-verifiziert**
+(QUESTIONS N49-1). Report `outputs/2026-08-13_normen-nacht-run49.md`.
+
+~~**Naechster Schritt fuer diesen Block (P3, faellig):** die 17 Refuter-Runden.~~ Reihenfolge nach
 Nutzwert: zuerst die ABB-Reihe (sie speist `ausschreibung`/`werkvertrag`/`unternehmerkontrolle`
 und traegt die Zahlenwerte der Querschnitts-Synthese
 `wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`, die bis dahin ausdruecklich Warnkarte und
