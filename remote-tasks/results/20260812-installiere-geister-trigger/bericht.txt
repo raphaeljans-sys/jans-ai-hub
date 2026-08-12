@@ -1,0 +1,20 @@
+=== Trigger-Installation 2026-08-12 23:11:13 ===
+--- Plist: /Users/raphaeljans/Library/LaunchAgents/ch.jans.onedrive-geister-trigger.plist
+-rw-r--r--  1 raphaeljans  staff  737 Aug 12 23:11 /Users/raphaeljans/Library/LaunchAgents/ch.jans.onedrive-geister-trigger.plist
+--- Helper: /Users/raphaeljans/Library/Application Support/jans/onedrive-geister-trigger.sh
+-rwxr-xr-x  1 raphaeljans  staff  671 Aug 12 23:11 /Users/raphaeljans/Library/Application Support/jans/onedrive-geister-trigger.sh
+--- launchd-Status:
+gui/501/ch.jans.onedrive-geister-trigger = {
+	active count = 0
+	path = /Users/raphaeljans/Library/LaunchAgents/ch.jans.onedrive-geister-trigger.plist
+	type = LaunchAgent
+	state = not running
+
+	program = /bin/bash
+	arguments = {
+		/bin/bash
+		/Users/raphaeljans/Library/Application Support/jans/onedrive-geister-trigger.sh
+	}
+
+
+Feuert: Fr 14.08.2026 09:00 lokale Zeit, danach Selbstabbau.
