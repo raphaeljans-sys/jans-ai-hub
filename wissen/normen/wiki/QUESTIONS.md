@@ -2569,3 +2569,9 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Warum das zaehlt: Wer die Zahl ohne Klaerung uebernimmt, rechnet um den Faktor 3 falsch. Betroffen sind alle Abnehmer, die Beleuchtungsstaerken aus `normen` ziehen (Skill `energie`, `planungsgrundlagen`, Healthcare-Raumprogramme).
 - Herkunft: Cross-KB-Lauf Wissens-Chef Run 28, 07.08.2026, Feld F. Die Divergenz ist **KB-intern in `normen`** und ausdruecklich kein Cross-KB-Befund; sie ist deshalb hier und nicht im Koordinations-Register angemeldet.
 - Naechster Schritt: an den Originalen (SIA 2056 Tab. 42, S. 38-39; SIA 387/4 Tab. 4, S. 18-19) die Definitionszeile beider Tabellen lesen und im INDEX/REGISTER eine eindeutige Bezeichnerregel festhalten. Bis dahin gilt der Bezugsgroessen-Vorbehalt, der am 07.08.2026 in der Beleuchtungs-Zeile des Koordinations-Registers gesetzt wurde.
+
+## 260813 — SIA 382/2:2011 verlinkt SIA 416:2003, zitiert aber SIA 416/1:2007 (fehlendes Destillat)
+- Frage: `destillate/sia-382-2-2011.md` referenziert in Ziff. 0.2.1 und Kap. 5 durchgehend **SIA 416/1:2007** «Kennzahlen für die Gebäudetechnik» (Bezugsflächen, Tabellenschema Tabellen 1-3). Im Frontmatter `links` steht dagegen `[[sia-416-2003]]`, also SIA 416:2003 «Flächen und Volumen von Gebäuden» — eine andere Norm mit ähnlicher Nummer. Ein Destillat zu SIA 416/1:2007 liegt im Bestand nicht vor.
+- Warum das zaehlt: Jeder Abnehmer, der über den Link auf SIA 416 in 382/2 nachschlaegt, landet auf der falschen Norm (Flaechen/Volumen statt Gebaeudetechnik-Kennzahlen).
+- Herkunft: Refuter-Run 49 (13.08.2026), Nebenbefund zu `destillate/sia-382-2-2011.md`.
+- Naechster Schritt: SIA 416/1:2007 aus dem Original destillieren (falls im Bestand PL-02_Recht_Norm vorhanden) und den Link in `sia-382-2-2011.md` umhaengen.

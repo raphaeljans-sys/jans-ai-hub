@@ -14,11 +14,13 @@ beendet oder zurückgezogen. Gegenprobe direkt am Aussteller
 Connector, nicht das NAS, nicht der Vorfilter. `~/.bexio.env` ist seit dem 13.06.2026 unverändert,
 lokal wurde nichts rotiert. **Nur ein neuer Personal Access Token hilft.**
 
-**Befund 2, der schwerere — die Dauer:** letzter erfolgreicher Lauf **08.08.2026 08:36**
-(Snapshot trägt denselben Stand), für den **09. bis 12.08. existiert kein Hygiene-Bericht**. Vier
-Läufe sind still ins Leere gelaufen, ohne Meldung. **Ein Lauf, der still scheitert, sieht von
-aussen genau aus wie ein Lauf ohne Befund** — dieselbe Familie wie die Fehlbefunde, bei denen ein
-leeres Ergebnis als Sachaussage gelesen wurde.
+**Befund 2, die Dauer:** letzter erfolgreicher Lauf **08.08.2026 08:36** (Snapshot trägt denselben
+Stand), für den **09. bis 12.08. existiert kein Hygiene-Bericht** — fünf Tage ohne Daten. Die
+Lücke geht nach Aktenlage **nicht** auf den Token zurück, sondern auf den bereits bekannten
+Stillstand der Task-Flotte: eine Reihe täglicher Loops trägt in der Registry einen letzten Lauf am
+07./08.08., und diese Nacht fährt sichtbar Nachhol-Läufe (Hub-Chef 12.08. 23:15, Methoden-Radar
+13.08. 00:57). **Wann in diesen fünf Tagen der bexio-Zugang gestorben ist, lässt sich daraus nicht
+bestimmen** — das ändert an der Debitorenlage nichts, der 08.08. bleibt der letzte belegte Stand.
 
 **Was in die Blindzeit fiel:** **RE-00098 (CHF 13'600) und RE-00099 (CHF 3'680), KISPI, Mahnung 1,
 Frist 12.08. gestern abgelaufen** — Zahlungseingang nicht prüfbar, vor einer Eskalation auf

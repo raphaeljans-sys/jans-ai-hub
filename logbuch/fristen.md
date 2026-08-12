@@ -8,9 +8,11 @@ seit fünf Tagen blind**): Der Vorfilter `bexio-vorfilter.mjs --voll` bricht mit
 bexio antwortet **HTTP 401**. Der Token ist **nicht abgelaufen** (Ablauf 13.12.2026), die Session
 dahinter wurde serverseitig beendet; Gegenprobe direkt am Aussteller
 (`auth.bexio.com/.../userinfo`) ebenfalls 401, `~/.bexio.env` seit 13.06.2026 unverändert. Nur ein
-**neuer Personal Access Token** hilft. **Der schwerere Teil ist die Dauer:** letzter erfolgreicher
-Lauf **08.08.2026 08:36**, für den 09. bis 12.08. existiert **kein Hygiene-Bericht** — vier Läufe
-sind still ins Leere gelaufen. Terminlich fällt in diese Blindzeit: **RE-00098 (CHF 13'600) und
+**neuer Personal Access Token** hilft. **Dazu die Dauer:** letzter erfolgreicher Lauf
+**08.08.2026 08:36**, für den 09. bis 12.08. existiert **kein Hygiene-Bericht** — fünf Tage ohne
+Daten, nach Aktenlage wegen des bekannten Task-Flotten-Stillstands (Nachhol-Läufe dieser Nacht),
+nicht wegen des Tokens; wann in diesen fünf Tagen der Zugang starb, ist nicht bestimmbar.
+Terminlich fällt in diese Blindzeit: **RE-00098 (CHF 13'600) und
 RE-00099 (CHF 3'680), KISPI, Mahnung 1, Frist 12.08. gestern abgelaufen** — ob gezahlt wurde, ist
 nicht prüfbar, **vor einer Eskalation auf Mahnung 2 ist der Zahlstatus zu verifizieren**; und die
 am 08.08. angeordnete **E-Banking-Gegenprüfung zu Tx 3630 (CHF 6'000, Valuta 07.08., mutmasslich
