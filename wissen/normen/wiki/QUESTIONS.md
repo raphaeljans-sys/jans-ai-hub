@@ -54,6 +54,34 @@
   Ob die 2014er Fassung Groessen geaendert hat, auf die 382/2 rechnerisch zugreift, ist **nicht**
   geprueft. Relevant fuer `energie` und die KB `wissen/energie`, sobald eine Klimaanlage
   nachzurechnen ist.
+  **Nachtrag 13.08.2026 (Wissens-Chef Run 29):** nicht geloescht, aber praktisch entwertet — die
+  ganze SIA 382/2 ist per 31.10.2022 archiviert (siehe N29-1). Die Frage bleibt fuer **Altvertraege**
+  relevant, fuer Neuprojekte ist sie gegenstandslos.
+
+## Wissens-Chef Run 29 (13.08.2026) — Cross-KB-Nachzug
+
+- **N29-1 — SIA 380/2:2022 liegt nicht im Bestand (neue, echte Luecke).** Mit der Archivierung der
+  SIA 382/2:2011 per 31.10.2022 ist **SIA 380/2:2022** die geltende Norm fuer den Leistungs- und
+  Energiebedarf klimatisierter Gebaeude (und zugleich Nachfolgerin von SIA 2044:2019). Der Volltext
+  ist im Hub **nicht vorhanden und ungelesen** (Kostenschranke). Damit fuehrt die KB fuer dieses
+  Thema nur noch abgeloesten Bestand. Solange das so ist, gilt: aus `sia-382-2-2011` und
+  `sia-2044` darf **keine Aussage fuer ein Neuprojekt** gezogen werden, ohne den Ablöse-Vorbehalt
+  mitzuführen. Beschaffungs-Bring-Schuld. Beleg: shop.sia.ch, Produktseite SIA 380/2 (2022),
+  Vorgaenger-Block, selbst abgerufen 13.08.2026.
+
+- **N29-2 — REGISTER.md Zeile 256 fuehrt SIA 382/1 noch mit «2007», obwohl die KB 2014 UND 2025
+  kennt.** Das Destillat `sia-382-1-2014.md` traegt seit dem 26.07.2026 korrekt das Feld
+  `ausgabe_ueberholt` (ersetzt durch SIA 382/1:2025 seit 01.02.2025) und REGISTER Zeile 472 fuehrt
+  den neueren Stand. Die Zeile 256 liegt jedoch im **Stichtags-Block 25.02.2013** und ist per
+  Stichtag richtig — sie darf nicht ueberschrieben, sondern nur in der Bemerkungsspalte ergaenzt
+  werden (viertes Struktur-Muster, Run 25). Eigener Befund, noch nicht ausgefuehrt; bewusst nicht
+  im selben Zug erledigt, weil er einen eigenen Herausgeber-Beleg braucht.
+
+- **N29-3 — `status: VOLLSTAENDIG` hat im SIA-180-Destillat eine Kapitel-Luecke nicht verhindert.**
+  `destillate/sia-180-2014.md` fehlen Ziff. 2.4.1.3 (Figur 6 gilt fuer 30-70 % r.F., Kapitel
+  thermische Behaglichkeit) und Ziff. 6.4.4 (Bereich ohne aktive Be-/Entfeuchtung einzuhalten),
+  obwohl das Destillat sich als vollstaendig destilliert ausweist. Gefunden ueber Feld A des
+  Cross-KB-Laufs, als eine `energie`-Aussage gegengelesen wurde. Ergaenzen, nicht ueberschreiben.
 
 ## Normen-Nacht Run 46 (07.08.2026) — ein neuer Auftrag, ein Rückstand richtiggestellt
 

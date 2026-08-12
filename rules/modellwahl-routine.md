@@ -23,6 +23,15 @@ Belege, Messwerte und der Rollout-Stand stehen in `rules/betrieb-chronik.md`, Ab
    (gemessen: 78'000 Token fuer einen einzelnen Bash-Aufruf). Bei einem Zweizeiler ist die
    direkte Ausfuehrung guenstiger.
 
+   **⚠ Schwelle beziffert 08.08.2026** (Rueckmeldung Raphael «bist etwas lahm», eigene Messung
+   am `vollgas-chef-radar`): ein Haiku-Subagent brauchte **90 Sekunden und 87'562 Token fuer
+   neun Shell-Befehle**, die inline rund zehn Sekunden dauern. **Faustregel: weniger als etwa
+   zehn Werkzeugaufrufe → inline; mehr, oder das Lesen ganzer Transcripts/Dokumente →
+   Subagent.** Unabhaengige Messbefehle gehoeren dabei in EINEN parallelen Block, nicht in eine
+   Kette von Einzelaufrufen — die Kette ist der zweite, haeufigere Grund fuer einen zaehen Lauf.
+   Bei einem Routine-Lauf ohne Befund zaehlt auch die Berichtslaenge: ein Regellauf meldet
+   knapp, ausfuehrlich wird nur das Neue.
+
 4. **⚠ Das Frontmatter-Feld `model:` wirkt NICHT.** Am 07.08.2026 widerlegt: alle
    Scheduled-Task-Hauptlaeufe fahren `claude-opus-5`, auch die Task, die das Feld traegt.
    Gleiche Familie wie `enabled:`/`cron_target:` — Dokumentation, nicht Live-Zustand. **Nie

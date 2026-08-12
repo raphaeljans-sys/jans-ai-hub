@@ -339,12 +339,21 @@ console.log(
   `KENNZAHLEN  echt=${k.echteEingaenge} unrecCredit=${k.unreconciledCredit} ` +
     `duplikate=${k.duplikatKandidaten} (einzel ${k.duplikatEinzel} / ${k.duplikatGruppen} Gruppen) ` +
     `phantome=${k.phantome} CHF ${chf(k.phantomSumme)} ` +
-    `verzug=${k.verzugFaelle} CHF ${chf(k.verzugSumme)} eingangOhneBuchung=${k.eingangOhneBuchung}`
+    `verzug=${k.verzugFaelle} CHF ${chf(k.verzugSumme)} eingangOhneBuchung=${k.eingangOhneBuchung} ` +
+    `unrecOhneZwilling=${k.unrecOhneZwilling === null ? "n/a" : k.unrecOhneZwilling}`
 );
 console.log(`VERGLEICH   ${alt ? `Snapshot vom ${deDatum(alt.stand)}` : "kein Snapshot (Erstlauf)"}`);
 
-if (delta.length === 0) {
+if (kennzahlDelta.length) {
+  console.log(`KENNZAHL    ${kennzahlDelta.length} bewegt: ${kennzahlDelta.join(" · ")}`);
+}
+
+if (delta.length === 0 && kennzahlDelta.length === 0) {
   console.log("DELTA       keine Aenderung gegenueber dem Vergleichsstand");
+} else if (delta.length === 0) {
+  console.log(
+    "DELTA       keine Listen-Aenderung — aber eine Kennzahl hat sich bewegt, Ursache klaeren"
+  );
 } else {
   console.log(`DELTA       ${delta.length} Aenderung(en):`);
   for (const d of delta) console.log(`  ${d}`);
@@ -399,4 +408,4 @@ if (!TROCKEN) {
   console.log("SNAPSHOT    nicht fortgeschrieben (--trocken)");
 }
 
-process.exit(delta.length ? 10 : 0);
+process.exit(delta.length || kennzahlDelta.length ? 10 : 0);

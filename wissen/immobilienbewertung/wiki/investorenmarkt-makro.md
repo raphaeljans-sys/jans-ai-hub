@@ -161,6 +161,14 @@ Aktualisierung der Kurs-Anker (Kurszahlen sind Stand 2022/23):
     Referenzzins seitwärts oder es entsteht auf tieferen Basiswerten Senkungspotenzial. Nächste
     Publikation **1. September 2026** (Stichtag 30. Juni 2026). Quelle: BWO
     (bwo.admin.ch/entwicklung-referenzzinssatz-und-durchschnittszinssatz), Web-Check 12.07.2026.
+  - **Stand 13.08.2026 (Marktpuls vorgezogen): unverändert 1.25 %, und der nächste Wert ist
+    noch nicht da.** Der Referenzzinssatz liegt seit dem **2. September 2025** bei 1.25 %,
+    letztmals bestätigt am **2. Juni 2026**. Die BWO publiziert quartalsweise; die Termine 2026
+    sind **2. März · 1. Juni · 1. September · 1. Dezember**. Der massgebende Durchschnittszinssatz
+    per Stichtag **30.06.2026** wird also **erst am 01.09.2026** veröffentlicht — der jüngste
+    belegte Wert bleibt **1.31 % per 31.03.2026**, komfortabel innerhalb des Stabilitätsbands
+    1.13–1.37 %. Es gibt zum heutigen Datum **keine neue BWO-Zahl**; wer eine nennt, rät.
+    Quelle: BWO (bwo.admin.ch/referenzzinssatz), Web-Check 13.08.2026.
 - **SNB-Leitzins: 0.00 % — bestätigt an der geldpolitischen Lagebeurteilung vom 18.06.2026.**
   Die SNB belässt den Leitzins unverändert bei null (seit Mitte 2025 wieder bei null nach der
   Straffung 2022–2023). Die **Teuerung beschleunigte sich auf 0.6 % (Mai 2026)** von 0.1 %
