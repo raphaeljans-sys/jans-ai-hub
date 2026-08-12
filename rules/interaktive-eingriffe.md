@@ -95,13 +95,20 @@ Ankuendigungspflicht loest beides: der Eingriff geschieht, aber sichtbar.
 ## Das maschinelle Gegenstueck
 
 Diese Rule diszipliniert die **interaktive** Session. Das unbeaufsichtigte Gegenstueck ist
-`scripts/sync-task-guard.sh`, und der deckt die Klassen 2 bis 5 bisher **nicht** ab: geprueft
-werden Git-Interna, Zerstoerendes, SSH-Zugang, Rechte, Secrets, Persistenz und Fernausfuehrung,
-aber nicht `CloudStorage`, `FileProvider`, `domainscache`, schreibende `security`-Aufrufe,
-`fdesetup`, `launchctl` und `defaults write /Library`. Solange das so ist, traegt allein diese
-Rule den Schutz, und nur dort, wo Raphael anwesend ist. Offen aus dem Hub-Audit 260812 (B4,
-zweiter Teil); beim Ergaenzen jedes Muster einmal relativ und einmal ueber `ssh` durchdenken
-(Chronik 260811).
+`scripts/sync-task-guard.sh` — und der deckt seit dem 13.08.2026 **alle fuenf Klassen** ab:
+Git-Interna, Zerstoerendes, SSH-Zugang, Rechte, Secrets, Persistenz und Fernausfuehrung waren
+vorhanden; Commit `daf0cab8` ergaenzte «Cloud-Sync und FileProvider» (`fileproviderctl`,
+`domainscache`, `brctl`, `Application Support/FileProvider`, `killall|pkill` auf
+OneDrive/Dropbox/bird/FileProvider) und «Verschluesselung und System-Defaults» (`fdesetup`,
+`defaults write /Library`, schreibende `security`-Aufrufe). Die Luecke B4 Teil 2 aus dem
+Hub-Audit 260812 ist damit geschlossen.
+
+**Eine Einschraenkung mit Absicht:** die neuen Muster greifen auf **Werkzeug-Token**, nicht auf
+Pfad-Token. `CloudStorage` und `OneDrive` allein loesen nicht aus, sonst haette jeder harmlose
+Lese- oder Ablage-Task in einer Cloud-Bibliothek in der Freigabe-Queue gelegen. Ein Task, der
+einen Sync-Ordner **nur mit `mv` oder `cp`** anfasst, wird also nicht zurueckgehalten — dort
+traegt weiterhin allein diese Rule den Schutz. Beim Ergaenzen weiterer Muster jedes einmal
+relativ und einmal ueber `ssh` durchdenken (Chronik 260811).
 
 ## Verwandt
 

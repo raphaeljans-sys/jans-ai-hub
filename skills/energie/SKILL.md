@@ -91,6 +91,8 @@ Diese KB führt die **Fachphysik und die Bauherren-Antwort**. Nicht hier fortsch
 - **Agent:** `energie-berater` (PV-/U-Wert-/Nachweis-Fan-out, bisher über `planungsgrundlagen`).
 - **Fach-Skills, die hier belegen:** `machbarkeit`, `machbarkeit-studio`, `kostenschaetzung`,
   `grobkosten-onepager`, `ankaufspruefung`, `immobilienbewertung` (energetischer Zustand),
-  `healthcare-wirtschaftlichkeit` (Betriebsenergie), `wettbewerb`, `auflagebereinigung`.
+  `healthcare-wirtschaftlichkeit` (Betriebsenergie), `wettbewerb`, `auflagebereinigung`,
+  `stockwerkeigentum` (Heizungsersatz als Ausloeser des Sanierungsbeschlusses — Rueckkante
+  am 13.08.2026 dort gesetzt, hier am selben Tag nachgezogen; Synergie-Lauf 05).
 - **Ablage:** Bauherren-Reports nach `wissen/energie/outputs/`; projektgebundene Erzeugnisse in
   den Projektordner (Rule `projekt-ablage-stand`).

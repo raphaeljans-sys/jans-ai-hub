@@ -141,7 +141,8 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige Verfahrens-/
   Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
   (Behörden-Dekomposition), nicht flach auflisten; **eigene sequenzielle Fragen als bewusst
-  komponierte Liste an einen unbekannten/fernen Erstkontakt nummerieren (1./2./3.)**, offene
+  komponierte Liste an einen unbekannten/fernen Erstkontakt als «A) B) C)» ordnen, nicht als
+  «1./2./3.» (260813; die Ziffernform war ein Artefakt der Textvorschau, → [[stimme]])**, offene
   Spezifikationslisten als «_ »/«–» davon trennen; an einen schon im Verfahren engagierten
   Fachplaner bleiben mehrere Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen;
   im **engsten, eingespielten Peer-Du** die Rohheit des Originals halten: spontane Reihenfolge,
@@ -2554,3 +2555,65 @@ Gewichtung: authentisch (Fenster 06.–10.05.2026, KISPI-Umbau 1.OG).
   KI-assistierten Absatz und ist deshalb **nur inhaltlich** verbucht, nicht als Formulierung; er ist
   aber die konsequente Fortsetzung der belegten Haltung «Bauherr vor unnötigen Kosten schützen, auch
   gegen das eigene Honorar» (→ [[haltung]]).
+
+## Die Koordinationsmail als Traktandenpapier — fette Sprechakt-Blöcke, pro Gegenstand wiederholt (Fidelity 260813)
+
+Beleg: `rj@` 19.05.2026 12:23 «Schliessplan & Brandfallmatrix» an den Technischen Dienst (Du),
+Brandschutz im To, drei weitere im Cc. Die Mail ist keine Nachricht, sie ist ein **Papier**: unter
+der Anrede steht der Betreff noch einmal als Titel, darunter sieben fett gesetzte Blöcke.
+
+**Prüfen · Abhängigkeiten · Entscheide · Plangrundlagen - Platform · Türfachplaner ·
+Brandfallmatrix · Entscheide**
+
+Vier operationalisierbare Befunde:
+
+1. **Die Blocktitel sind Sprechakte, nicht Themen.** «Prüfen» und «Entscheide» sagen dem Empfänger,
+   *was er mit dem Block tun soll*; «Plangrundlagen» und «Türfachplaner» sind Bereitstellung. Der
+   Zwilling betitelt nach Thema («Schliessplan», «Termine») und verliert damit die Handlungsansage.
+2. **Der Blocktitel wiederholt sich pro Gegenstand, statt zu hierarchisieren.** «Entscheide»
+   erscheint **zweimal** — einmal unter dem Schliessplan mit sechs Fragen, einmal unter der
+   Brandfallmatrix mit einer einzigen. Der zweite Gegenstand bekommt seinen eigenen vollständigen
+   Block, obwohl er nur eine Zeile trägt. Nicht zusammenziehen, nicht nummerieren.
+3. **Die Betroffenen-Liste fragt auch, wen es gar nicht betrifft.** Die A)/B)/C)-Sichten sind
+   Leitung Technischer Dienst · Betreiber der neuen Station · **angrenzende Station
+   «1.01.02.11 Zentrum Kinderhaut»** — die fremde Nachbarnutzung mit ihrer Raumnummer, die im
+   Projekt nichts zu entscheiden hat, aber mit dem Schliessplan leben muss.
+4. **Die Plangrundlage wird mit sprechendem Fett-Label UND exaktem Dateinamen genannt**, nicht als
+   «siehe Anhang»: **Türliste** → `_ 52_S_TFP_Master_ TMatrix_Ausfuehrung_220504_REVPL04_240710.xlsx`.
+   Das Label ist der Klartext für den Menschen, der Dateiname die Kennung auf der Plattform. Ebenso
+   steht der mögliche Türfachplaner mit **voller Firmenadresse inline**, obwohl er noch nicht
+   beauftragt ist («vtl. Beizug»).
+
+## Entscheide werden als W-Fragen gestellt und NICHT beantwortet (Fidelity 260813)
+
+Aus demselben Gold, sechs Zeilen hintereinander: «Wer erstellt den Schliessplan? · Wer holt die
+einzelnen Nutzerbedürfnisse ab? · Wer Koordiniert die Einpflege in die Fachplanung? · Wann werden
+die Unternehmer mit dem Schliessplan beliefert? · Wie wird der neue Schliessplan in den bestehenden
+integriert? · Wie sollen die neuen Türen in die bestehende Nummerierung aufgenommen werden?»
+
+**Keine einzige Frage wird beantwortet, und keine trägt einen Vorschlag** — obwohl Raphael auf
+jede eine Meinung hat und mehrere zu seinem eigenen Leistungsbild gehören. Der Sprechakt ist die
+**Zuständigkeitsfrage**, nicht die Sachfrage: er stellt fest, dass niemand zugeteilt ist, und legt
+die Zuteilung dem Bauherrn vor. Das ist die härtere Schwester von «statt einer Empfehlung die
+abschreibfertige Variante» (260806/260807) — hier liefert er nicht einmal die Variante.
+Der Zwilling beantwortet in der Blindfassung reflexhaft mit «Ich schlage vor, dass …» und nimmt
+dem Bauherrn damit genau den Entscheid ab, den die Mail einfordert.
+
+**Der Dank steht dabei in der Mitte, nicht am Schluss** («Danke für Deine Vorabklärungen.» nach dem
+Abhängigkeiten-Block); die Mail endet auf der letzten offenen Frage und dem Block. Vierte Endform
+(Fakten ohne Folgerung, 260807), hier als **offene Frage ohne Nachdruck**.
+
+## Die Weiterleitung ist die Begründung, die eigene Mail nur das Deckblatt (Fidelity 260813)
+
+Beleg: `rj@` 19.05.2026 08:56 an den HLK-Fachplaner (Sie). Der gesamte Eigentext ist eine Anrede,
+ein Satz und zwei Zeilen:
+
+> Darf ich Sie Bitten uns folgende zwei kritische Planungspunkte zu Bestätigen:
+> A) Leistung Abzugshaube Tauglich für Fehlalarme (Mail unten Stefanie Sonderegger)
+> B) Termin Auslieferung Abbruchplan Lüftung (Mail Albin Spahic)
+
+Kein Kontext, keine Begründung, kein Schlusssatz — die weitergeleitete Kette darunter trägt beides.
+Jeder Punkt trägt stattdessen seine **Quellenzuordnung in Klammern**, und zwar den **Namen des
+Anforderers**, nicht den Sachinhalt: die Beweislast bleibt bei dem, der die Anforderung gestellt
+hat. Der Zwilling formulierte die Stichwortzeilen zu Fragen aus und hängte einen
+Terminkritisch-Satz an — er erklärt, wo Raphael nur zuordnet.

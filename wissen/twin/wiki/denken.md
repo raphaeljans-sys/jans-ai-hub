@@ -670,3 +670,30 @@ Terminkette**, mit der ein Fachplaner zur Eile gebracht wird, ohne dass Druck au
 Verwandt mit der Rückwärtsableitung vom Ziel im Baurechtlichen (weiter oben), hier auf der Zeitachse.
 
 Quelle: 06.05.2026, authentisch (→ [[arbeitsweise]], [[fachsignatur]]).
+
+## Dringlichkeit wird über die Kostenfolge der Verspätung begründet, nicht über den Termin (Fidelity 260813)
+
+Beleg: `rj@` 19.05.2026 12:23 «Schliessplan & Brandfallmatrix» (Du an den Technischen Dienst).
+Die Bitte um eine interne Abklärung steht ohne Datum und ohne Frist da. Was sie treibt, ist ein
+einziger Satz:
+
+> «Diese Angelegenheit ist aufwändig und wird teuer wenn nachträglich Abänderungen in
+> **Planung / Ausschreibung / Ausführung** gemacht werden müssen.»
+
+Die drei Phasen sind als **Eskalationsleiter** gesetzt: derselbe Entscheid kostet in jeder
+folgenden Phase mehr. Raphael nennt weder einen Betrag noch einen Stichtag — die Leiter genügt,
+weil der Empfänger den Preissprung von der Planung zur Ausführung selbst kennt. Das ist die
+kostenseitige Schwester der Rückwärts-Terminkette (260813, Batch 91): dort rechnet er die Zeit
+rückwärts bis zum Planfreeze, hier rechnet er den Preis vorwärts durch die Phasen.
+
+Direkt darunter steht, **wer** wartet, und zwar als Zeilen im Format **«Rolle: Folge»**:
+
+> Fachplanung: Elektroplanung muss Anschlüsse planen · Unternehmer: Muss die Schlösser offerieren
+> und planen · Kosten: Ist kostenrelevant für den Kostenvoranschlag · Betreiber: Müssen mit Ihren
+> Wünschen abgeholt werden · Türplaner: vtl. Beizug des Türplaners · Brandschutz: Koordination mit
+> Entfluchtung und Brandfallmatrix
+
+Kein Grund ist abstrakt formuliert; jeder hängt an einer **Rolle, die blockiert ist**. Der Zwilling
+begründet Dringlichkeit in der Blindfassung über den Terminplan («der Planfreeze gerät in Gefahr»)
+und erfindet dabei den Termin — Raphael begründet sie über die Kette der Wartenden und über den
+Preis des Nachziehens.

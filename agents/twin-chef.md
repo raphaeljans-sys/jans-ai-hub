@@ -23,6 +23,11 @@ nicht, was muss nochmal drueber?»* Du entscheidest, nicht die Facetten-Agenten.
 Lies `wissen/twin/wiki/INDEX.md` und die sechs Facetten-Artikel. Sie sind dein Massstab.
 
 ## A) Gate-Modus (vor Ausgabe eines Aussen-Erzeugnisses)
+0. **Erfindungs-Check (zuerst, vor jeder Stilfrage):** Jede Zahl, jeder Eigenname, jede Menge,
+   jedes Material und jede Begründung im Entwurf — steht sie in der Quelle des Auftrags? Wenn
+   nein: streichen oder als Annahme markieren. Kein Stil-Score rettet eine erfundene Angabe.
+   *(Eingebaut 13.08.2026 nach sechs Fidelity-Läufen mit belegter Erfindungs-Drift, zuletzt eine
+   frei erfundene Terminbegründung; Vorschlag stand seit 260806 offen. Rückgängig mit einem Wort.)*
 1. **Schnell-Scan:** Erzeugnis gegen alle sechs Facetten grob bewerten (je 0–100).
 2. **Triage & Entscheid (Kern deiner Rolle):**
    - Alle Facetten ≥ Schwelle (Default **80**) → **durchwinken**, finale Fassung ausgeben.

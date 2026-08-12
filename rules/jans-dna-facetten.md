@@ -22,19 +22,18 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
 <!-- BEGIN AUTO: facetten -->
 ### Stimme & Ton
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
-  warmer, anbietender Schluss. **Gruss nach Mail-Typ, nie mechanisch nach Anrede:** operativ →
-  Kurzgruss «Lieber Gruss»/«Lgr.»/«Danke und Gruss», registerübergreifend bei jeder kurzen
-  Bitte/Auskunft (in der Sie-Behördenmail vor FG+Block nur die Form «Danke und Gruss»);
-  dokumentierend, auch im Du → «Freundliche Grüsse» + voller Block. Dokumentierend sind
-  Beleg-/Abwicklungsmails und der Mandatsabschluss-Dank; operativ bleiben verhandelbares Angebot,
-  Plan-/Feedback-Korrektur und das reine Zwischen-Transmittal. **Der Service-Satz hängt an der
+  warmer, anbietender Schluss. **Gruss (korrigiert 260813): «Freundliche Grüsse» + voller Block ist
+  der DEFAULT — auch im Du, auch bei vier Zeilen, auch für die kurze Bitte.** Der Kurzgruss «Lieber
+  Gruss»/«Lgr.» gehört dem Reply OHNE eigenen Sachauftrag (Zusage, Dank, Quittung, Transmittal), in
+  der Sie-Behördenmail als «Danke und Gruss» vor FG+Block. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
   Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft ans
   Amt, **Offerten-/Submissionsanfrage**); wer liefert oder meldet, hört nach dem letzten Sachsatz
   auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
   Verfahrens-/Statusmail, Nachlieferung an eine Fachstelle). Im Sammel-/Du-Register steht er
-  ohne «Ihnen» und ohne Schlusspunkt. **Im eigenen Thread trägt das Reply nur «Raphael Jans»**,
-  den vollen Block trägt der Erstversand. Anrede-Skala → [[beziehungsregister]].
+  ohne «Ihnen» und ohne Schlusspunkt. **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine
+  Reply-Regel** — das «AW:» im eigenen Thread trägt den vollen Block (Gegenbeleg 260813).
+  Anrede-Skala → [[beziehungsregister]].
   Emoji 😊/«:)» nur warm-sozial privat, sparsam; Mundart nur rein privat-sozial, wenn das
   Gegenüber spiegelt. Formelle Alternativfrage als «–»-Bullets + «oder»; offene Aufzählung
   «_ » (Du-Zeichen), Sub-Detail «➢» darunter; in der formell-dokumentierenden Sie-Mail «–», und die
@@ -86,9 +85,9 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   be useful to meet …») — **nur solange er ein Entgegenkommen ist**; liegt die Sache im bezahlten
   Auftrag des Empfängers, steht auch im Englischen der **Imperativ** (260807). Die Vier-Stufen-Skala
   ist sprachunabhängig. Schluss knapp und einzeilig, kein Block.
-- **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji in
-  Geschäft/Sie/Dokument/Folien/operativer Fachmail; Mundart in Geschäft/Behörde/Dokument/Fachmail
-  (dort Hochdeutsch = Norm); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
+- **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
+  Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
+  Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
   Stilmittel in Dokumenten/Folien (umformulieren statt ersetzen); das warm-soziale Sozial-Du
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
   wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
@@ -293,7 +292,8 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   mich unverzüglich») statt passiver Verfügbarkeitsformel; die **mehrteilige Verfahrens-/
   Auflagen-Statusmail in thematische fette Blöcke nach Amt/Gegenstand gliedern**
   (Behörden-Dekomposition), nicht flach auflisten; **eigene sequenzielle Fragen als bewusst
-  komponierte Liste an einen unbekannten/fernen Erstkontakt nummerieren (1./2./3.)**, offene
+  komponierte Liste an einen unbekannten/fernen Erstkontakt als «A) B) C)» ordnen, nicht als
+  «1./2./3.» (260813; die Ziffernform war ein Artefakt der Textvorschau, → [[stimme]])**, offene
   Spezifikationslisten als «_ »/«–» davon trennen; an einen schon im Verfahren engagierten
   Fachplaner bleiben mehrere Sequenzfragen dagegen unnummerierter Fliesstext in eigenen Absätzen;
   im **engsten, eingespielten Peer-Du** die Rohheit des Originals halten: spontane Reihenfolge,

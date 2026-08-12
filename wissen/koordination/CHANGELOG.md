@@ -3,6 +3,34 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Synergie-Lauf 05 (erster Lauf im Tagestakt, Skill `synergie-orchestrator`)
+
+- **Bericht:** `outputs/2026-08-13_synergie-lauf-05.md`. Delta-Basis 13.08. 01:05, Fenster
+  14 Minuten, 10 Commits. Uhr-Check bestanden (Station 01:19 CEST gegen Synology
+  `2026-08-13T01:18:59`); Gegenprobe bestanden (gefiltertes Ergebnis endet auf HEAD `efa7df0a`).
+- **Kein Frueh-Ausstieg:** 0 neue Bausteine, aber 5 geaenderte Skills und 1 geaenderter
+  Connector. Thema des Fensters: Rueckkanten, gesetzt vom `wissens-chef` Run 29 (`397d4fc5`).
+- **SYN-23 neu (Typ 1):** `mahnwesen` kennt den Befund `unrecOhneZwilling` nicht, den
+  `zahlungsabgleich` seit heute fuehrt. Die Mahn-Kernregel liest Verzug allein von der
+  Rechnungsseite; unzugeordnetes Geld laesst eine gedeckte Rechnung ueberfaellig aussehen
+  (belegt: Tx 3630 vom 07.08., CHF 6'000, deckungsgleich mit RE-00101). Kanten-Messung
+  8-mal hin, 0-mal zurueck — SYN-10-Muster, diesmal mit der unwissenden Seite am
+  Kundenkontakt. Gedaempft, weil Phase 2 ausnahmslos interaktiv ist. **Querverweis im Lauf
+  gesetzt** (active-with-flagging); die maschinelle Gegenpruefung in Phase 1 bleibt Vorschlag.
+- **SYN-20 nachgemessen:** Rueckkanten weiterhin **0 von 9**. Bewegt hat sich ein zehnter
+  Konsument (`stockwerkeigentum` → `energie`), dessen Gegenkante ihrerseits fehlte und
+  **nachgezogen wurde**. Contract-Pruefscript weiterhin nicht vorhanden.
+- **Geprueft, kein Befund:** die neue Kante `ausschreibung` → `wissen/normen` (ABB-Reihe
+  SIA 118/xxx) traegt — Zielartikel vorhanden und korrekt als `speculative` markiert,
+  10 ABB-Destillate liegen vor, Rueckkante in `skills/normen` Z. 50 gesetzt.
+- ⚠ **Korrektur an Lauf 04:** die dort gemeldete Allowlist-Fehlstelle `m365-graph.mjs` ist ein
+  **Fehlbefund** und wird zurueckgezogen. `.claude/settings.json` enthaelt genau einen
+  Bash-Eintrag, `"Bash(*)"` — pauschale Freigabe. Der 0-Treffer-Grep war eine Aussage ueber
+  die Suchform, nicht ueber die Freigabe (Rule `wege-und-vollmachten` Punkt 5).
+- **Messhinweis Tagestakt:** Commit-Messages im Fenster passen nicht zu den geaenderten
+  Dateien (`nas-selfcommit` unter fremder Message, Chronik 260813d) — Zuordnung ueber
+  `git diff` am Inhalt, nie ueber die Message.
+
 ## 2026-08-13 — Synergie-Lauf 04 (Struktur-Aufsicht, Skill `synergie-orchestrator`)
 
 - **Bericht:** `outputs/2026-08-13_synergie-lauf-04.md`. Delta-Basis 01.08. 14:20 – 13.08. 01:05,

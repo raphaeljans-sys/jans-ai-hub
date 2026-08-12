@@ -987,3 +987,27 @@ ist deshalb **die Entscheidung, nicht die Formulierung** — Raphael hat den Sta
 Mail versendet, den Satzbau hat er nicht getippt. Als Stilquelle ist der Text gesperrt.
 
 Quelle: 06.05.2026 (Vorgang), Korrektur zu `../outputs/2026-08-08_fidelity.md`.
+
+## Die stillschweigende Gratisleistung wird verweigert — in derselben Zeile, in der sie angeboten wird (Fidelity 260813)
+
+Beleg: `rj@` 18.05.2026 07:21, Reply an den Technischen Dienst (Du), Sanitärplaner und
+Fachplanung im Cc. Der Bauherr hat eine zugesagte Grundlage seit Tagen nicht beschafft, der
+Fachplaner steht still. Raphaels ganze Mail ist vier Zeilen lang, und die zwei entscheidenden sind:
+
+> «Wenn ich diese organisieren soll bitte mich beauftragen.
+> Ansonsten bin ich für eine schnelle Beschaffung und Zustellung dankbar.»
+
+Kein «gerne», kein «kein Problem», kein Angebot der Gefälligkeit. Die Leistung ist verfügbar, aber
+nur als **Auftrag** — und die zweite Zeile hält den Druck aufrecht, falls der Bauherr die billigere
+Variante wählt und selbst beschafft. Beide Wege sind ausformuliert, keiner ist empfohlen, und der
+für den Bauherrn günstigere steht zuletzt.
+
+Das ergänzt «ehrlich vor Auftrag, auch gegen das eigene Honorar» um die Gegenrichtung: Raphael
+schützt den Bauherrn vor unnötigen Kosten, **arbeitet aber nicht unbezahlt weiter, um ein fremdes
+Versäumnis zu heilen**. Die Formel dafür ist der nackte Imperativ «bitte mich beauftragen» — nicht
+«darf ich anbieten», nicht «ich könnte».
+
+Der Zwilling schrieb in der Blindfassung «ich mache das gerne in Deinem Auftrag» und drehte damit
+den Auftrag zurück in eine Gefälligkeit — dieselbe Drift wie bei der Honorarzahl, die er
+weichspült (Don't seit Batch 07), nur eine Ebene früher: hier verschenkt er nicht den Preis,
+sondern die Auftragspflicht.

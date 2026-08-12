@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 01:15:17
+Stand: 13.08.2026 01:25:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 00:55)
@@ -13,4 +13,4 @@ Stand: 13.08.2026 01:15:17
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 977fc9b6 nas-selfcommit: 2 Datei(en) 2026-08-13 01:15
+- efa7df0a Fristen-Register 13.08.: A5-Entwurf Inniger NICHT versenden — Inniger hat am 08.08. 14:50 geantwortet und kann die Abluftwerte nicht liefern; Bringschuld liegt jetzt bei JANS (Typenbezeichnungen, 12 Klaerungspunkte), Betriebskonzept von KISPI gutgeheissen mit 2 Ergaenzungssaetzen

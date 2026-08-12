@@ -138,6 +138,34 @@ kommen streichen» — gross und klein **im selben Satz**. Das Signal ist damit 
 in Kombination und nie fuer sich. Gleiche Lehre wie beim Guillemet-Falsch-Positiv vom 03.08.2026: **ein
 Signal, das echtes Gold abwerten kann, muss vor der Aufnahme gegen die eigene Hand gegengeprueft werden.**
 
+**Sechste Falle, neu 13.08.2026 — der Echo-Detektor ist jetzt mechanisch: `Anthropic Sans` im
+HTML.** Die bisherigen Signale (En-/Em-Strich, Fehlerdichte, idiomatische Glätte, CSS
+`rgb(253,253,252)`) sind Indizien und brauchen eine Gegenprobe. Der Fidelity-Lauf 260813 hat den
+Beweis dafür gefunden, dass es auch eindeutig geht: die Submissions-Anfrage vom 19.05.2026 15:31
+trägt im Mail-HTML
+
+```
+font-family:"Anthropic Sans",system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif
+```
+
+Diese Schriftliste stammt aus der Claude-Oberfläche und überlebt Copy-Paste in Outlook. **Wo sie
+steht, ist der Absatz Claude-Text — ohne jede Auslegung.** Der Text sah als Goldprobe unauffällig
+aus (Ausgangslage/Frage-Gliederung, korrektes Fachvokabular RF3/EN 13501-1) und wäre ohne das
+CSS-Signal in die Facetten gewandert; die weichen Signale hätten ihn ebenfalls gefasst (Em-Strich,
+null Tippfehler), aber erst nach längerer Prüfung.
+
+**Vor jeder Destillation greppen — in dieser Reihenfolge, alle drei sind harte Ausschlüsse:**
+
+| Muster | Bedeutung |
+|---|---|
+| `Anthropic Sans` | Claude-Oberfläche, Copy-Paste |
+| `rgb(253,253,252)` | dieselbe Herkunft (Erstbeleg 17.04.2026, zweiter 08.05., dritter 19.05.) |
+| `class="text-body"` | dieselbe Herkunft (Erstbeleg 17.04.2026) |
+
+Der Grep läuft auf dem **HTML-Body** (`body.content`), nicht auf `bodyPreview` — die Vorschau ist
+reiner Text und zeigt keines der drei Muster. Wer über Apple Mail / osascript destilliert, sieht
+sie ebenfalls nicht und muss bei den weichen Signalen bleiben.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

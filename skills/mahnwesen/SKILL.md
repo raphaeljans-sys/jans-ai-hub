@@ -33,7 +33,8 @@ archivierte Mahnungs-PDF.
 - **Abhaengige Rules:** umlaute-konvention, mail-formatierung, jans-absenderadresse,
   anrede-kontakte, dokument-layout-standard, dateinamen-konvention + Korrektur-Pflicht
   (jede Mail/jedes Schreiben vor Ausgabe durch Skill `korrektur`).
-- **Verwandt:** kostenkontrolle (Bauseite), korrektur (QS vor Versand).
+- **Verwandt:** kostenkontrolle (Bauseite), korrektur (QS vor Versand), zahlungsabgleich
+  (Zahlungseingaenge gegen bexio — liefert den Vorbehalt unten).
 
 ## Kernregel — Verzug NUR aus dem Live-Stand (Lektion Fall RE-00088, 13.06.2026)
 
@@ -44,6 +45,22 @@ mahnt eine bereits beglichene Rechnung. Darum gilt hart:
 > **Zahlungsverzug = Restbetrag (`total_remaining_payments`) > 0 UND Faelligkeit
 > (`is_valid_to`) < heute UND Status nicht Entwurf(7)/storniert(19,20).**
 > Eine archivierte Mahnungs-PDF ist KEIN Beleg fuer Verzug.
+
+**Vorbehalt 13.08.2026 — der Live-Stand kann in die andere Richtung falsch sein.** Die Kernregel
+liest den Verzug allein von der **Rechnungsseite** (`total_remaining_payments`). Ist ein
+Zahlungseingang in bexio angekommen, aber nie einer Rechnung zugeordnet worden, bleibt der
+Restbetrag stehen und die Rechnung sieht ueberfaellig aus, obwohl das Geld auf dem Konto liegt.
+Belegt am 07.08.2026: Tx 3630, CHF 6'000, deckungsgleich mit der offenen RE-00101
+(`logbuch/fristen.md`). Der Skill `zahlungsabgleich` fuehrt diesen Fall seit 13.08.2026 als
+eigenen Befund **`unrecOhneZwilling`** (unreconciled CREDIT ohne abgeglichenen Zwilling).
+
+> **Vor jedem Mahnvorschlag in Phase 2 gegenpruefen:**
+> `node connectors/bexio.mjs --abgleich --json` → Feld `unrecOhneZwilling`. Taucht dort ein
+> Betrag auf, der zu einer vorgeschlagenen Rechnung passt (Debitor/Betrag/Valuta), wird diese
+> Rechnung **nicht gemahnt**, sondern der Zuordnungsfall vorgelegt.
+
+Ergaenzt 13.08.2026 (Synergie-Lauf 05, active-with-flagging — Querverweis auf einen bestehenden
+Befund, keine Aenderung an der Mahn-Mechanik; Mahnstufen bleiben ausnahmslos interaktiv).
 
 ## bexio-Datenmodell (validiert 13.06.2026)
 
