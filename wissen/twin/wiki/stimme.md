@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-08
+last_updated: 2026-08-13
 gewichtung: authentisch
-sources: [260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -3361,3 +3361,37 @@ Seite», «Usw.»); En-Strich 0 in rund 260 W eigener Hand.
   Gold B), Tausender-Apostroph 1× («CHF 60’000.-», hier mit typografischem Apostroph ’ statt '),
   «%» 4× **ohne** Leerschlag, Ellipsen 0; Anreden «Sehr geehrter Herr» 1× / «Guten Tag Herr» 1× /
   «Geschätztes <Sammelname>» 1×; Grüsse FG+Block 2× / Kurzsignatur 1×.
+
+## Batch 91 (13.08.2026) — Fenster 06.–10.05.2026, der Serviceschluss als mitgeschleppter Block
+
+Gewichtung: authentisch (12 Eigentexte, 721 W). Fenster nach **Leserate** statt Datum gezogen
+(Empfehlung Fidelity 260808: 12 von 55 gelesen); der 08.05. vormittags und der 11.–13.05. waren
+abgeerntet, die Lücke lag am **06./07.05.** und am **10.05.**
+
+- **Der Service-Schluss «Bei Fragen oder Unklarheiten stehe ich Dir jederzeit gerne zur Verfügung»
+  wandert als ganzer Block ins falsche Register.** Am 06.05.2026 15:11 geht die Zahlungserinnerung
+  an ein **anonymes Kreditoren-Sammelpostfach** («Guten Tag», kein Name) — und trägt trotzdem das
+  **«Dir»** aus der Vortagesfassung an den persönlich bekannten Technischen Leiter (05.05.2026 10:27,
+  «Geschätzter Albin»). Anrede und Signatur wurden ans neue Register angepasst, der Serviceschluss
+  nicht. Der Satz selbst ist seit Batch 24 belegt; neu ist, dass er **als Textbaustein reist und dabei
+  seine Anredeform behält**. Für den Zwilling zweierlei: (a) der Satz gehört zum Standardrepertoire,
+  (b) beim Registerwechsel ist er der Ort, an dem ein Du stehen bleibt, das nicht stehen bleiben darf
+  — beim Umformulieren gezielt prüfen. Quelle: 06.05.2026, authentisch (→ [[arbeitsweise]] Mahnkette).
+
+- **«Stand Jetzt:» als eigener Zeilenauftakt** (Substantiv-Adverb-Paar, beide gross, Doppelpunkt) —
+  die Zeile trägt den vorläufigen Entscheid, den Raphael selbst setzt, während er den definitiven
+  noch einfordert: «Stand Jetzt: Kein Einbau einer Friteuse vorgesehen.» Zwei Vorkommen in einer Mail,
+  je unmittelbar unter der zugehörigen offenen Frage. Quelle: 07.05.2026, authentisch
+  (→ [[arbeitsweise]], [[denken]]).
+
+- **Metrik (12 Eigentexte, 721 W, `stilmetrik.py`):** Du-Gross **0.933** (14/15; der einzige Verstoss
+  «Kannst du mir die Änderungen Bestätigen» steht in einer mobil getippten Vierwortmail — dieselbe
+  Gattung, die schon den ß-Gruss trug, siehe den Gerätebefund weiter oben), Satzlänge ø **17.6 W**,
+  Tausender-Apostroph 0, Ellipsen 0, «%» kam nicht vor. Anreden «Hoi Albin» 3× / «Hoi Marco» 3× /
+  «Geschätzter Herr <Nachname>» 3× / «Geschätzter <Vorname> <Nachname>» 1× / «Geschätztes Projektteam»
+  1× / «Guten Tag» (Sammelpostfach) 1×. Grüsse: «Freundliche Grüsse» 9× / «Lgr» 4×.
+- **Widerspruch markiert, nicht geglättet:** ø 17.6 W liegt wie schon in Batch 90 (16.5 W) **über**
+  dem Korpusband 11.9–14.3. Zwei aufeinanderfolgende Sweeps über dasselbe Projekt zeigen dasselbe
+  Bild; die Ursache ist mutmasslich die **Gattung** (Koordinationsmails mit Bedingungsketten), nicht
+  eine Stiländerung. Erst ein Fenster ausserhalb des KISPI-Projekts kann das trennen
+  ([[QUESTIONS]] 260813 #1).

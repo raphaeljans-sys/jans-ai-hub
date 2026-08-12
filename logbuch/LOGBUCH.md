@@ -545,6 +545,10 @@ verfallender Beurkundungstermin, keine binnen 24 Stunden ablaufende Frist. Die K
 Notariat ist eine Entlastung und hätte Raphaels Handeln heute nicht verändert, der UBS-Anruf
 steht seit dem 05.08. im Chef-Briefing. `fristen.md` in beiden AG-Zeilen nachgeführt.
 
+**Nachtrag von Raphael heute 07.08:** Strategie-Wechsel — die Einreichung über die
+Geschäftsstelle Wiedikon funktioniert nicht. Statt des UBS-Anrufs: Dossier nochmal schicken
+mit digitaler Identifikation. `fristen.md` aktualisiert.
+
 ---
 
 ## Vollgas-Frühwarnung 07.08.2026 (07:15, still — keine Mail)

@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-08
+last_updated: 2026-08-13
 gewichtung: authentisch
-sources: [260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2024,3 +2024,33 @@ andere ersetzen. Ergänzt die Healthcare-Fachsignatur um die Gattung **Therapiek
 (bisher belegt: Sanitär-Installationswand, Raumbreitenstandard, Durchgangsbreite).
 
 Quelle: 08.05.2026 14:44, authentisch (→ [[denken]], [[haltung]]).
+
+## Sprinkler/Sprühnebel im Bestand: die Kennwerte, die über den Nachweis entscheiden (Batch 91, authentisch)
+
+Batch 43 belegt, dass Raphael die **Anlagenart** klärt (Sprühnebel ≠ klassischer Sprinkler) und den
+Sprühnebelplan als sicherheitsrelevantes Bauteil der Auflagebereinigung führt. Batch 91 zeigt, was er
+aus dem Telefonat mit dem Anlagebauer **als Zahlen mitnimmt** und ungefiltert an Bauherrschaft und
+Betreiberin weitergibt (07.05.2026):
+
+- **Bestandserhalt zuerst:** «Bestehende Sprühnebelanlage reicht für neue Nutzung aus.» Die
+  Nutzungsänderung zieht also keine neue Anlage nach sich, nur punktuelle Anpassungen.
+- **Auslösetemperatur als Nutzungsindikator:** In der neuen Gastroküche (ehemals Teeküche) sind
+  «Neue Sprinklerköpfe mit einer Auslösetemperatur von **91°**» nötig — die Küchennutzung, nicht die
+  Fläche, treibt das Bauteil.
+- **Der Schwellenwert, der das Verfahren bestimmt:** «Wenn **weniger als 10 Sprinklerköpfe**
+  angepasst werden, muss **kein Nachweis für die Auflagebereinigung** erbracht werden.» Damit ist die
+  Anzahl angepasster Köpfe kein Detail mehr, sondern die Grösse, an der Verfahrensaufwand und Termin
+  hängen.
+- **Die Frage, die den Umfang steuert:** «Bleiben die Deckenplatten? In den Deckenplatten sind die
+  Sprinklerköpfe eingebaut.» Daraus die Vorgabe: «Die Deckenplatten sollten wenn möglich bleiben,
+  dass keine Anpassungen nötig sind.» **Bestandsschonung ist hier keine Haltung, sondern die
+  billigste Variante** — der Erhalt der Decke hält die Kopfzahl unter der Nachweisschwelle.
+- **Die offene Nutzungsfrage wird als Fragestellung stehen gelassen:** «Wird in der Gastroküche eine
+  Friteuse eingebaut?» — die Fritteuse verschärft die Löschanforderung, deshalb wird der Entscheid
+  terminiert eingefordert statt angenommen (→ [[arbeitsweise]] «Stand Jetzt»).
+
+Muster: Der Architekt destilliert aus dem Fachgespräch **die drei bis fünf Grössen, an denen
+Kosten, Termin und Verfahren kippen**, und gibt sie so weiter, dass der Betreiber ohne Fachwissen
+entscheiden kann — nicht das Fachgespräch selbst.
+
+Quelle: 07.05.2026, authentisch (Rückmeldung Anlagebauer, von Raphael zusammengefasst).

@@ -2981,3 +2981,28 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    Absicht ist, muss der Zwilling den Satz je Submittent neu zuschneiden; wenn nicht, muss er
    ihn im Gegenteil über alle Lose konstant halten — die Submissionsregeln verlangen
    Vergleichbarkeit.* → [[fachsignatur]], Skill `ausschreibung`
+
+## 260813 (Batch 91) — Fenster 06.–10.05.2026
+
+1. **Satzlänge: Gattung oder Drift?** Zwei aufeinanderfolgende Sweeps über das KISPI-Projekt liegen
+   mit ø 16.5 W (Batch 90) und ø **17.6 W** (Batch 91) deutlich über dem Korpusband 11.9–14.3. Ist
+   das die Gattung (Koordinationsmails mit Bedingungs- und Terminketten) oder eine reale Veränderung
+   seit Frühjahr 2026? *Warum: der kompilierte DNA-Block gibt dem Zwilling ein Satzlängen-Zielband
+   mit; liegt eine ganze Projektgattung systematisch darüber, ist das Band zu eng formuliert. Zu
+   klären an einem Fenster **ausserhalb** des KISPI-Projekts, nicht durch weitere KISPI-Batches.*
+
+2. **Zwei Hände in einer Honorarmail — welcher Teil ist die Vorlage?** Die Honorarofferte vom
+   08.05.2026 trägt einen KI-assistierten Hauptteil (Em-Strich «Kategorie V — Spital im Bestand»,
+   fehlerfreie Phasenstaffelung 41/51/52/53) und einen handgetippten Schlussabsatz (Rahmenvertrag,
+   dichte Fehler: «Gerne könne wir auch ein Rahmenvertrag», «was Ihr bereit wäret zu Bezahlen»).
+   Entsteht die Mail so, dass Raphael den Fachteil generieren lässt und das Verhandlungsangebot
+   selbst anfügt — oder umgekehrt? *Warum: davon hängt ab, welchen Teil einer Honorarofferte der
+   Zwilling überhaupt erzeugen soll und wo er Raphael die Feder lassen muss. Die Fehlerdichte je
+   Absatz zu vergleichen (statt das Dokument als Ganzes zu beurteilen) ist die Methodik aus der
+   vierten Echo-Falle; sie greift hier erstmals innerhalb **einer Mail** und mit Claude statt
+   Fachplaner als zweiter Hand.*
+
+3. **Wird die Rückwärts-Terminkette wiederverwendet?** Die Kalenderwochen-Kette gegen die gefühlte
+   Zeitreserve (06.05.2026, → [[denken]]) ist bislang ein Einzelbeleg. Ist das ein stehendes Mittel
+   bei säumigen Fachplanern oder die Reaktion auf diesen einen Fall? *Warum: als stehendes Mittel
+   gehörte es in den DNA-Kern, als Einzelfall nicht.*

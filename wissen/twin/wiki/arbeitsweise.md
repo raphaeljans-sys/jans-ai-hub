@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-08
+last_updated: 2026-08-13
 gewichtung: authentisch
-sources: [260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -2514,3 +2514,43 @@ für eine Regel zu wenig — offen als [[QUESTIONS]] 260808 #2, damit der Zwilli
 verallgemeinert.
 
 Quelle: 08.05.2026, authentisch (→ [[stimme]] Typografie).
+
+## Batch 91 (13.08.2026) — das Entscheid-Vakuum füllen, die Mahnkette eskalieren, den Auftrag verbreitern
+
+Gewichtung: authentisch (Fenster 06.–10.05.2026, KISPI-Umbau 1.OG).
+
+- **Das Entscheid-Vakuum wird mit einer eigenen, sichtbar markierten Annahme gefüllt — nicht mit
+  einer Nachfrage allein.** In der Sprinkler-Statusmail stehen die offenen Punkte und die Antwort
+  darauf untereinander: «Definitiver Entscheid Einbau Friteuse in Gastroküche Bitte Meldung an mich
+  bis Ende KW20» / **«Stand Jetzt: Kein Einbau einer Friteuse vorgesehen.»** Die Frist bindet den
+  Entscheidträger, die «Stand Jetzt»-Zeile hält die Planung derweil in Bewegung und legt zugleich
+  offen, wogegen widersprochen werden müsste. Muster: **Frist an den Entscheidträger + eigene
+  Zwischenannahme protokollieren**, damit kein Vorgang auf eine Antwort wartet. Zwei Vorkommen in
+  einer Mail. Quelle: 07.05.2026, authentisch (→ [[stimme]], [[denken]]).
+
+- **Die Mahnkette wechselt nach der persönlichen Stufe den Adressaten, nicht den Ton.** Stufe 1
+  (05.05.2026 10:27) geht an den Technischen Leiter persönlich, «Geschätzter Albin», und enthält die
+  **Terminfrage** «Bis wann kann ich mit der Überweisung der Aussehenden Beträge rechnen?». Stufe 2
+  (06.05.2026 15:11, Tag darauf) geht an das **Kreditoren-Sammelpostfach**, «Guten Tag», **ohne** die
+  Terminfrage, dafür mit dem Mahnungs-PDF im Anhang — und mit dem Technischen Leiter **im Cc**, der
+  die Eskalation damit mitliest, ohne selbst angeschrieben zu sein. Der Betreff trägt beide Vorgänge
+  mit **je eigener Mahnstufe**: «Zahlungserinnerung: RE-00088 & Mahnung 1: RE-00086». Muster:
+  **persönlich fragen, unpersönlich mahnen; die Beziehung bleibt im Cc.** Ergänzt die
+  Stufe-1-Systematik aus Batch 14/29.
+  Quelle: 05./06.05.2026, authentisch.
+
+- **Aus der abgefragten Einzelleistung wird ein Rahmenangebot gemacht — mit der Preisfrage zurück an
+  den Kunden.** Neben der erbetenen Phasenofferte bietet Raphael unaufgefordert einen Jahres-
+  Rahmenvertrag an, nennt beispielhaft die Vorgänge, die darin aufgehen würden, und **überlässt dem
+  Bauherrn die Bezifferung**: «Da müsstest Du mir Deine Vorstellung, was Du von mir erwartest und was
+  Ihr bereit wäret zu Bezahlen nennen.» Er setzt keinen Preis, er fordert eine Zahl — die Verhandlung
+  beginnt beim Gegenüber. Erster Beleg eines Rahmenvertrags-Angebots im Korpus.
+  Quelle: 08.05.2026, authentisch (handgetippter Absatz einer sonst KI-assistierten Mail, siehe den
+  Herabstufungsvermerk in [[QUESTIONS]] 260813 #2).
+
+- **Die Honorarofferte trennt bewusst ab, was billiger fremdvergeben wird.** Die örtliche Bauleitung
+  ist «bewusst nicht enthalten» und wird zur Submission an spezialisierte Bauleiter empfohlen —
+  angeboten wird stattdessen die **Begleitung dieser Submission**. Der Marker steht in einem
+  KI-assistierten Absatz und ist deshalb **nur inhaltlich** verbucht, nicht als Formulierung; er ist
+  aber die konsequente Fortsetzung der belegten Haltung «Bauherr vor unnötigen Kosten schützen, auch
+  gegen das eigene Honorar» (→ [[haltung]]).

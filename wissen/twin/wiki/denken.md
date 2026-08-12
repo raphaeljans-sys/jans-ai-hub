@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-08
+last_updated: 2026-08-13
 gewichtung: authentisch
-sources: [260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -637,3 +637,36 @@ Gegenargument, das sie überwinden muss. Der Zwilling erfand in der Blindfassung
 «Cafeteria» und begründete über Betreuung statt über die Diagnose.
 
 Quelle: 08.05.2026 14:44, authentisch (→ [[fachsignatur]]).
+
+## Der späte Termin ist nicht der Termin — Rückwärtsrechnung gegen die gefühlte Zeitreserve (Batch 91, authentisch)
+
+Ein Fachplanerteam verschleppt die Installationspläne, weil der im Grobterminplan sichtbare
+Meilenstein weit weg liegt. Raphael widerlegt die Zeitreserve nicht mit Druck, sondern **mit der
+Kette der Vorgänge, die zwischen heute und diesem Meilenstein liegen**:
+
+> «da vermehrt Fragen bezüglich Termine im Grobterminplan Ausführung aufgekommen sind und die Meinung
+> vorherrscht es gäbe noch viel Zeit da erst Anfang Juli KW28 (Vorgang Nr. 7 Abbruch / Rückbau …)
+> möchte ich hiermit nochmals folgender Sachverhalt verdeutlichen:»
+
+Danach die Kette, jede Stufe mit Kalenderwoche: Auflagebereinigung KW21/22 braucht die
+Installationspläne → **«Gemäss PLANFREEZE 22.05.26; also Ende KW21 (jetzt KW19) noch 2 Wochen Zeit.»**
+→ Submission Haustechnik KW22/23 → Kalkulation/Auswertung KW24/25/26 → Vergabe KW27–30 → Abbruch
+KW28/29. Zuletzt die Verschärfung aus zweiter Quelle («Nach Rücksprache mit Herr Albin Spahic … soll
+mit Teilen des Abbruches … bereits Anfangs Juni also in KW23 begonnen werden») und erst dann die
+Bitte: «Ich bitte Euch daher Eure Planung zu finalisieren.»
+
+Drei operationalisierbare Züge:
+
+1. **Den wirklich bindenden Termin benennen, nicht den sichtbaren.** Bindend ist der Planfreeze in
+   zwei Wochen, nicht der Abbruch in zehn.
+2. **Die Distanz in der Einheit des Empfängers ausdrücken** — durchgehend Kalenderwochen, dazu die
+   Gegenüberstellung «Ende KW21 (jetzt KW19)», die die Restzeit ohne Vorwurf sichtbar macht.
+3. **Die Bitte kommt zuletzt und ist eine einzige Zeile.** Die Arbeit leistet die Kette; der
+   Imperativ muss nichts mehr beweisen.
+
+Abgrenzung zum bereits belegten Planfreeze-Prinzip (Batch 32): dort ist der Planfreeze ein
+**Steuerungsbegriff**, den Raphael dem Bauherrn erklärt; hier ist er das **Rechenende einer
+Terminkette**, mit der ein Fachplaner zur Eile gebracht wird, ohne dass Druck ausgesprochen wird.
+Verwandt mit der Rückwärtsableitung vom Ziel im Baurechtlichen (weiter oben), hier auf der Zeitachse.
+
+Quelle: 06.05.2026, authentisch (→ [[arbeitsweise]], [[fachsignatur]]).
