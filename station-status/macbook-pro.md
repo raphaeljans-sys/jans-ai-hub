@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 01:25:34
+Stand: 13.08.2026 01:35:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:55)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:11)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 13.08.2026 01:25:34
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- efa7df0a Fristen-Register 13.08.: A5-Entwurf Inniger NICHT versenden — Inniger hat am 08.08. 14:50 geantwortet und kann die Abluftwerte nicht liefern; Bringschuld liegt jetzt bei JANS (Typenbezeichnungen, 12 Klaerungspunkte), Betriebskonzept von KISPI gutgeheissen mit 2 Ergaenzungssaetzen
+- f3706c8a Zahlungsabgleich 13.08. Praezisierung: die Berichtsluecke 09.-12.08. geht nach Aktenlage auf den bekannten Task-Flotten-Stillstand zurueck, nicht auf den Token; wann in diesen fuenf Tagen der bexio-Zugang starb, ist nicht bestimmbar

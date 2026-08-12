@@ -3,6 +3,78 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Logbuch-Radar 01:32, am Postfach und am M365-Kalender nachgemessen —
+**zwei unversendete Entwürfe stehen auf dem kritischen Pfad zur Baufreigabe KISPI**):
+
+**Befund 1, der dringendste: der Entwurf an B. Stevanovic (Gruner) liegt seit gestern 16:37
+unversendet im Entwurfsordner `rj@` und setzt eine Frist auf morgen.** Betreff «KISPI PPTS:
+Auflagebereinigung», an `bojan.stevanovic@gruner.ch`, Cc `jens.ziegel@gruner.ch`, drei Anhänge
+(DWG 4.77 MB, PDF-Plan 1.20 MB, Abänderungseingabe-PDF 382 kB). Inhalt am Beleg: **die
+Bauherrschaft erwartet die Baufreigabe bis Montag 17.08.26** («der Geduldsfaden der Bauherrschaft
+ist final gerissen»); die Auflagepunkte Lüftung sind erfüllt, der Abänderungsplan ist genehmigt;
+**einziger noch offener Auflagepunkt ist II.1b) Brandschutzplan und Stellungnahme**. RJ bittet
+Stevanovic, beides jetzt zu erstellen (Plangrundlage `A1_260812_Architektur
+Änderungseingabe_Raphael Jans Architekten.dwg/.pdf`) und die Stellungnahme inhaltlich der neuen
+Situation anzupassen, **unterzeichnet zurück bis Freitag 14.08.26**. Der Entwurf hebt damit
+bewusst die frühere Absprache auf, wonach J. Ziegel den Plan erst nach seinen Ferien anpasst
+(Ziegel ist bis 18.08. abwesend). **Geht die Mail nicht heute hinaus, ist die Frist 14.08. beim
+Absenden bereits verbraucht und der Termin 17.08. nicht mehr zu halten.** Status: **versandbereit,
+Versand-Entscheid Raphael, terminkritisch.**
+
+**Befund 2: zweiter unversendeter Entwurf an L. Furrer (AfB), 12.08. 16:06.** Betreff «AfB BE
+KISPI PPTS Auflagen vor Baubeginn.pdf», Dank für die Genehmigung des Abänderungsplans und Bitte
+um den **Statusbericht der Auflagepunkte des Stammgesuchs B26-00705.01 als Printscreen**, weil RJ
+bei den Fachplanungen nachfassen muss, um die Auflagen zu erfüllen (Anhang 151 kB). Kein eigenes
+Fristdatum, aber er ist die Grundlage für genau das Nachfassen, das der Termin 17.08. verlangt.
+Status: **versandbereit, Versand-Entscheid Raphael.**
+
+**Befund 3, die Vorgeschichte, vollständig am Beleg gepaart:** K. Frauenfelder (SRZ Feuerpolizei)
+hat die Abänderungseingabe B26-00705.02 am **10.08. 11:07 als nicht bewilligungsfähig**
+zurückgewiesen (Wartebereiche entweder aus dem horizontalen Fluchtweg entfernen oder
+brandabschnittsbildend trennen). RJ hat am **11.08. 14:46** nach Rücksprache mit L. Merci
+(Sicherheitsbeauftragter KISPI) und J. Ziegel sechs Änderungen vorgelegt (Zone Infomaterial vor
+2.017 aufgehoben und dem Fluchtweg 0.302 zugeordnet, C1 bis C6 als Abbruch dargestellt).
+Frauenfelder stimmt am **12.08. 06:50** zu («Ihrem Plan können wir so weit zustimmen»), **verlangt
+aber ausdrücklich auch den angepassten Brandschutzplan**. RJ meldet am 12.08. 10:35 einen
+Zeichnungsfehler (Möblierung im Korridor 0.301) und bittet um erneute Dossier-Freigabe; **L. Furrer
+hat das Dossier am 12.08. 11:06 wieder geöffnet.** Damit ist die Kette klar: das Dossier steht
+offen, der Abänderungsplan gilt als genehmigt, **es fehlt allein der angepasste Brandschutzplan
+samt Stellungnahme** — und genau der ist Gegenstand des unversendeten Entwurfs aus Befund 1.
+
+**Befund 4, ein Widerspruch aufgelöst: der Nova-Termin heute ist 09:00 bis 10:30, nicht 09:30 und
+nicht 10:00.** Der Hub-Chef-Nachhollauf vom 12.08. 23:15 führte drei Zeiten aus zwei
+Kalenderquellen und liess den Widerspruch bewusst offen. Am **M365-Kalender** (massgebliche
+Quelle) gemessen: «Besprechung KV / Finalisierung Baubeschrieb Direktvermietung — Albertstrasse 7,
+Zürich», Organisator `roman.steinmann@novaproperty.ch`, **13.08. 07:00 bis 08:30 UTC, also 09:00
+bis 10:30 CEST**, Ort Feldeggstrasse 26, 8008 Zürich, mit Teams-Option. **Kein Konflikt mit dem
+KISPI-Termin um 11:30** (M365 09:30 bis 10:00 UTC, also 11:30 bis 12:00 CEST, Organisator RJ,
+Teilnehmer L. Hansen und S. Zala (Stadt Zürich) sowie B. Kübler (Gruner)). Die Registerzeilen mit
+09:30 bis 11:00 und 10:00 bis 11:30 sind damit überholt.
+
+**Befund 5: B. Kübler (Gruner) hat den 11:30-Termin nur unter Vorbehalt angenommen** (12.08.
+11:08, Betreff «Mit Vorbehalt: KISPI PPTS: Vollständigkeit Dokumentengrundlage zur Beurteilung»).
+Für den Termin heisst das: die Vollständigkeit der Dokumentengrundlage ist mit den anwesenden
+Stellen zu klären, ohne sich auf Gruner verlassen zu können.
+
+**In Beobachtung, ausgehend und ohne Antwort:** «Trennwand beim 2.039 Speiseraum und 0.300
+Einzelzimmer» (RJ 12.08. 15:29, zwei offene Fragen — bis wann das Elektrotrasse aus der Flucht der
+Zimmertrennwand 2.301/2.300 verschoben ist, und wie weit die Trennwand zum Fluchtweg maximal
+verschoben werden muss; RJ hält fest, flächenbündig mit der WC-Front wären 64 cm und das sei ihm
+zu viel). Ebenso der Notariats-Nachfass vom 13.08. 00:47 und die UBS-Kapitaleinzahlungsbescheinigung.
+
+**Unverändert offen und heute nicht nachprüfbar:** der bexio-Zugang (HTTP 401, eigener Eintrag
+unten), damit RE-00098 und RE-00099 (KISPI, Mahnstufe 1, Frist 12.08. abgelaufen) und die
+E-Banking-Gegenprüfung zu Tx 3630 (Frist 16.08.).
+
+**Termine der nächsten sieben Tage, am M365-Kalender gemessen:** 13.08. 09:00 bis 10:30 Nova KV
+Albertstrasse 7 (Feldeggstrasse 26) · 13.08. 11:30 bis 12:00 KISPI PPTS Vollständigkeit
+Dokumentengrundlage (Teams) · **17.08. Erwartung der Bauherrschaft: Baufreigabe KISPI** · 17.08.
+09:00 bis 10:00 Austausch Umbau PPTS mit C. Schäfer (Teams) · 20.08. 13:00 bis 14:00
+Koordinationssitzung Gruner/Jans/KISPI (Teams, Zweiwochenrhythmus).
+
+Sync-Queues, Freigabe-Queue und Remote-Queue sind leer. Keine Mail versendet (Ein-Mail-Prinzip),
+kein Kalendereintrag, kein Entwurf verändert.
+
 Eintrag 13.08.2026 (Lauf zahlungsabgleich-check 01:30, **bexio-Zugang tot, Debitoren-Aufsicht
 seit fünf Tagen blind**): Der Vorfilter `bexio-vorfilter.mjs --voll` bricht mit **Exit 2** ab,
 bexio antwortet **HTTP 401**. Der Token ist **nicht abgelaufen** (Ablauf 13.12.2026), die Session
