@@ -72,7 +72,27 @@ hinreichend» und die betriebsspezifischen Anforderungen für vorrangig.
   ausdrücklich freigeben lassen und protokollieren — damit ist die Vorrangklausel der
   Erwägung b beweissicher erfüllt.
 
-## Offen
+## Nachtrag 13.08.2026 — betriebsspezifische Quelle verifiziert (DS3-Plattform)
 
-- Ob das KISPI ein internes Raumbuch/Nutzerpflichtenheft mit Sanitärstandards führt
-  (wäre die massgebende «betriebsspezifische» Quelle) — bei Raphael angefragt.
+Die Truninger-Plattform (DS3, Projektraum KISPI Neubau) wurde vollstaendig konsultiert
+(Connector `connectors/truninger-ds3.mjs`, Namenssuche + Ordner-Listing). Ergebnis:
+
+- **Ein Raumbuch existiert auf der Plattform nicht** (Suche «Raumbuch» ohne Treffer).
+- **Massgebende Nutzer-/Bauherrenquelle ist das Projektpflichtenheft Neubau KISPI,
+  V1.0 Arch vom 31.05.2014** (Hardegger P&P; DS3: Projektraum / 02 Grundlagen /
+  02.01 Bauherrschaft, File-4953997). **Kapitel 12 «Behindertengerechtes Bauen»
+  (S. 31):** oeffentlich zugaengliche Bereiche unterstehen dem BehiG, grundsaetzlich
+  gilt SIA 500; **«Abweichungen koennen durch spezielle Beduerfnisse von Kindern
+  unterschiedlicher Altersklassen noetig sein.»** Keine Vorgabe bodeneben/Duschtasse
+  auf Stufe Nasszelle.
+- **Raumprogramm Soll V10.0 (18.12.2015**, File-4953993): fuehrt rollstuhlgerechte
+  Raeume als designierte Raumtypen («WC Behinderte», «WC Patienten,
+  behindertengerecht») neben regulaeren Dusch-/WC-Typen; keine
+  Ausstattungsanforderungen.
+- Beide Dateien gemaess Ablage-Regel gespiegelt nach: JANS - 2619-KISPI - Dokumente /
+  0 Plangrundlagen Bestand / 02 Grundlagen / 02.01 Bauherrschaft.
+- Bericht fuer Raphael: 2 Umbauprojekt Neu PPTS / 33.01_JANS / 04 Berichte Sitzungen /
+  260813-Bericht-Hindernisfreiheit-Sanitaerraeume (MD/DOCX/PDF).
+
+Der Befund bestaetigt das Ergebnis dieses Reports: keine betriebliche Pflicht zur
+bodenebenen Ausfuehrung nicht designierter Nasszellen; Duschtasse dort zulaessig.
