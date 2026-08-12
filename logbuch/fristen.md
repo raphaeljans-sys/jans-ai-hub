@@ -3,6 +3,45 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Session Raphael 01:20, am Postfach nachgemessen — **die «Frist heute»
+beruht auf einer überholten Annahme, der Entwurf darf NICHT so hinausgehen**): Der als
+Frist 13.08. geführte A5-Entwurf an T. Inniger («KISPI PPTS: Geräteliste Therapieküche mit
+Abluftwerten», Entwurfsordner `rj@`, 08.08. 08:56) ist **inhaltlich verfallen und sachlich
+überholt**. Zwei unabhängige Gründe, beide am Postfach belegt:
+_ **Verfallen:** der Text bittet um «die Werkpläne, die Sie mir für heute in Aussicht
+  gestellt haben» (heute = 08.08.) und kündigt die Zustellung an die Fachplanung für
+  «Montag, 10.08.2026» mit Frist «bis Montagmorgen» an. Dieser Montag ist drei Tage vorbei.
+_ **Überholt:** **Inniger hat am 08.08. um 14:50 geantwortet**, also rund sechs Stunden nachdem
+  der Entwurf angelegt wurde und bevor er je versandt war («AW: KISPI PPTS: DWG/PDF Grundlage
+  Therapieküche», Anhang `Therapieküche KISPI_Zuerich_INST.pdf`). Er liefert die
+  Installationspläne und hält ausdrücklich fest, dass er zu den **bauseitig eingebauten
+  Geräten nur die Dimensionen, NICHT die Anschlusswerte** kennt — genau die erbetenen
+  Abluftwerte kann er also nicht liefern. Das DWG kommt erst «in ein paar Wochen» (CAD-Planung
+  Projektleiter N. Rothe).
+**Würde der Entwurf heute hinausgehen, bittet er ein zweites Mal um etwas, das der Empfänger
+vor fünf Tagen begründet abgelehnt hat** — und übergeht dabei seine Gegenfragen. Status des
+Entwurfs: **nicht versenden, ersetzen.** Claude hat den Entwurf **nicht verändert und nicht
+gelöscht** (fremder Entwurf, Versand-/Änderungsentscheid Raphael).
+
+**Was stattdessen offen ist (Bringschuld liegt jetzt bei JANS):**
+_ Inniger braucht von uns **Typenbezeichnungen und Einbauskizzen der bestehenden Geräte** —
+  ohne sie kann er die Ausführungsplanung nicht sauber aufsetzen.
+_ Er hat **zwölf Klärungspunkte** gestellt (u.a. abschliessbarer Spülmittelschrank GWA,
+  Beckengrösse neben Combi-Dämpfer, Kompostabwurf Blanco Solon-IF, Steckdosenpositionen,
+  Frontdekor, Griffleiste, Vollkerndekor Sockel, Arbeitsplatten-Überstand und -Finish) und
+  bittet darum, einzelne davon **mit den künftigen Nutzern** besprechen zu dürfen.
+_ Die **Abluftwerte kommen nicht von Inniger.** Für das UGZ bleibt damit entweder der
+  Gastroplaner-Wert von 500 m³/h je Kochherd (Online-Schätzung mit Planervorbehalt, Beleglage
+  08.08.) oder die Auflösung über die Typenbezeichnungen der bauseitigen Geräte. **Das ist die
+  eigentliche Lücke für den heutigen Termin 11:30** («Vollständigkeit Dokumentengrundlage»).
+_ **Betriebskonzept ist gutgeheissen:** C. Schäfer (KISPI) hat am 11.08. 14:13 die Unterlagen
+  freigegeben, mit **zwei Ergänzungssätzen zu «1. Zweck und Leitidee»** (nur eine Mahlzeit/Tag
+  wird auf der Station produziert, Rest plus alle Diätmahlzeiten aus der Spitalküche; Integration
+  der Jugendlichen nach definiertem Prozess Tellerservice/begleitetes Schöpfen/selbständiges
+  Schöpfen, Einkaufen teilweise Therapiebestandteil). Sie bittet ausdrücklich um **schnellstmögliche
+  Weiterbearbeitung und Zustellung an die entsprechenden Stellen**. Diese zwei Sätze sind noch
+  einzuarbeiten. Status: **offen, Aktion Raphael/JANS.**
+
 Eintrag 13.08.2026 (Session Raphael, am Token und am Aussteller nachgemessen — **die bisherige
 Ursachenangabe zum bexio-401 war falsch**): Der Eintrag vom 12.08. nennt als Ursache «Token
 ungueltig/abgelaufen oder fehlende Scopes» und leitet daraus die Aktion «neuen PAT mit Scopes
