@@ -68,12 +68,36 @@ Zwilling: **zuerst fragen, was ein Lebenszeichen wirklich bezeugt.** Ein Log-Ein
 dass der Prozess lief — nicht, dass er seine Arbeit tat. Ein Herzschlag-Check, der die Existenz
 einer Zeile misst statt ihren Inhalt, meldet einem Stillstand Gesundheit.
 
-**Offen fuer Raphael (nicht selbst erledigt):** Der Freigabe-Task vom 11.08. ist gegenstandslos
-und kann verworfen werden — `sync-tasks/freigabe/` ist Raphaels Domaene, Claude raeumt dort
-nichts weg. Zweitens die ungeloeste Frage hinter dem Vorfall: **wer liest die Freigabe-Queue?**
-Solange das niemandes Aufgabe ist, verlaengert der Guard jede heikle Stoerung um unbestimmte
-Zeit. Ein Kandidat waere eine Zeile im Tagesbriefing des `hub-chef`, sobald dort etwas aelter
-als 24 h liegt. **Transparenz zum Eingriff selbst:** die Reparatur beruehrte Git-Interna des
+**Nachtrag vom selben Abend — beide offenen Punkte erledigt, auf Anweisung Raphaels.**
+
+Der Freigabe-Task vom 11.08. ist verworfen: nicht geloescht, sondern mit einem Vermerk
+versehen nach `sync-tasks/done/` verschoben. Beim Lesen fiel zweierlei auf. Er war an
+**macbook-pro** adressiert, obwohl der Mac Mini ihn erstellt hatte und die Reparatur selbst
+haette fahren koennen — ein mobiles Geraet als Empfaenger einer dringenden Reparatur erklaert
+die 41 Stunden mit. Und sein Sicherheitsnetz war in einem Punkt besser als die tatsaechlich
+gefahrene Reparatur: er sichert den Autostash per `git update-ref refs/stash-rescue/...` als
+**echte Referenz**, statt das Verzeichnis nur zu verschieben. Fuer den naechsten Fall ist das
+der bessere Weg und steht so in `rules/interaktive-eingriffe.md`.
+
+Die Frage «**wer liest die Freigabe-Queue?**» ist beantwortet: ab sofort **beide**
+Aufsichts-Instanzen, aus derselben Quelle. `scripts/freigabe-status.sh` meldet je Station den
+Stand — **immer, auch bei null** — markiert jeden Eintrag aelter als 24 h und trennt drei
+Zustaende sauber: Exit 0 nichts Ueberfaelliges, Exit 1 ueberfaellig, **Exit 2 UNBEKANNT**
+(NAS nicht gemountet). Der dritte ist der wichtigste: eine stille Null ist von einer
+ungepruefte Queue nicht unterscheidbar, und genau diese Verwechslung kostete die 41 Stunden.
+Eingehaengt in `heartbeat` Check 5 und in `hub-chef` Phase 1 + Phase 6 (eigener
+Briefing-Abschnitt «Wartet auf Deine Freigabe»).
+
+Dabei blieb die Sende-Schwelle von 260803 unangetastet: ein ueberfaelliger Eintrag wird
+**Sendegrund 5**, weil er echte Arbeit anhaelt und nur Raphael ihn aufloesen kann; ein Stand
+von 0 oder ein Eintrag juenger als 24 h ist **nie** ein Sendegrund und laeuft nur im ohnehin
+erzeugten Briefing mit. Der Chef bleibt still by default.
+
+**Strukturbefund am Rande, noch offen:** `sync-tasks/` steht in `.gitignore` (Zeile 27) — die
+Freigabe-Queue ist damit unversioniert, nicht auf GitHub gesichert und aus Cloud-Sessions
+(claude.ai/code) unsichtbar. Wer von dort arbeitet, sieht das Wartezimmer nicht, auch mit
+diesem Check nicht. Bewusst nicht im selben Lauf geaendert: das beruehrt die Frage, ob
+Task-Inhalte ueberhaupt nach GitHub gehoeren, und ist Raphaels Entscheid. **Transparenz zum Eingriff selbst:** die Reparatur beruehrte Git-Interna des
 kanonischen Repos — genau das Muster, das der Guard seit 11.08. zurueckhaelt. Sie lief
 interaktiv auf Raphaels `/heartbeat` hin und umkehrbar per `mv`, nicht unbeaufsichtigt und nicht
 per `rm -rf`; die Freigabe-Schwelle fuer **Sync-Tasks** wurde nicht angetastet. Ob interaktive

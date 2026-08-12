@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 12.08.2026 22:59:10
+Stand: 12.08.2026 23:09:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 22:44)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +13,4 @@ Stand: 12.08.2026 22:59:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c74f8ab0 energie-run128: AHB-Korpus 14/18 — 5 Destillate (Glasbauten SIA 2021, 2000-Watt, Beleuchtungsnachweis, Planungsleistungen, Raumluftmessungen), FAQ F227-F229, neue Dublettenfalle
+- 1fd74970 nas-selfcommit: 2 Datei(en) 2026-08-12 23:00

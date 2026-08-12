@@ -50,13 +50,26 @@ df -h ~ | tail -1 | awk '{print $4}'
 - ⚠️ 5–10 GB frei
 - ❌ < 5 GB frei → Aufräumen nötig
 
-### 5. Sync-Tasks (offene Tasks von anderer Station)
+### 5. Sync-Tasks (offene Tasks von anderer Station) + Freigabe-Queue
 ```bash
 ls /Volumes/daten/jans-ai-hub/sync-tasks/macbook-pro/ 2>/dev/null
 ls /Volumes/daten/jans-ai-hub/sync-tasks/mac-mini/ 2>/dev/null
+
+# Wartezimmer: zurueckgehaltene Tasks beider Stationen (Pflicht, auch bei 0)
+bash /Volumes/daten/jans-ai-hub/scripts/freigabe-status.sh
 ```
-- ✅ Keine offenen Tasks
+- ✅ Keine offenen Tasks; Freigabe-Queue leer oder alles juenger als 24 h (Exit 0)
 - ⚠️ Tasks vorhanden → `/station-sync` ausführen
+- ❌ **Exit 1 — ein Eintrag wartet laenger als 24 h.** Immer im Report ausweisen, mit
+  Wartezeit und Station. Der Guard verschiebt eine Stoerung, er behebt sie nicht: am
+  11./12.08.2026 lag ein korrekt zurueckgehaltener Reparatur-Task 41 h in der Queue,
+  waehrend die Wissens-Kette stillstand. **Claude gibt nie selbst frei** (Rule
+  `wege-und-vollmachten`) — er legt den fertigen Freigabe-Befehl vor.
+- ❌ Exit 2 — NAS nicht gemountet, Queue **UNBEKANNT**. Als unbekannt melden, nie als «0».
+
+**Der Freigabestand wird auch bei null berichtet.** Eine stille Null ist von einer
+ungeprueften Queue nicht unterscheidbar; genau diese Verwechslung kostete die 41 Stunden.
+Denselben Stand fuehrt der `hub-chef` in jedem Tagesbriefing (Phase 6, Sendegrund 5).
 
 ### 6. Symlinks
 ```bash
@@ -227,6 +240,7 @@ Git-Status:     ✅ Clean (oder ⚠️ 3 uncommitted files)
 M365-Connector: ✅ Connected as rj@raphaeljans.ch
 Disk Space:     ✅ 47 GB frei (von 500 GB)
 Sync-Tasks:     ✅ Keine offenen Tasks
+Freigaben:      ✅ mac-mini 0 · macbook-pro 0 (keine > 24 h)
 Symlinks:       ✅ skills / agents / commands OK
 Sync-Health:    ✅ Wissens-Kette fliesst (0 Commit-Anfragen offen, NAS↔SSD gleichauf)
 Grundkontext:   ✅ 95'536 Zeichen (~23'900 est. Tokens, Schwelle 100'000); Doctor vor 1 Tag

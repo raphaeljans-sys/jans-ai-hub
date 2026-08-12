@@ -40,7 +40,14 @@ Der Hub-Chef ist **still by default**. Er sendet **nur**, wenn mindestens eines 
 2. ein **versandbereiter Entwurf** liegt vor und wartet auf seine Freigabe;
 3. ein **operativer Befund**, der Raphaels Handeln betrifft (Geld, Frist, Termin, Behoerde,
    Kunde, Projekt) und den der `logbuch-radar` heute noch nicht gemeldet hat;
-4. ein **P1-Blocker** im Betrieb, der die Arbeitsfaehigkeit gefaehrdet.
+4. ein **P1-Blocker** im Betrieb, der die Arbeitsfaehigkeit gefaehrdet;
+5. ein **Sync-Task wartet laenger als 24 h auf Freigabe** (`scripts/freigabe-status.sh`,
+   Exit 1). Neu am 12.08.2026: ein zurueckgehaltener Reparatur-Task lag 41 h in der Queue,
+   waehrend die Wissens-Kette stillstand — Guard und Diagnose arbeiteten fehlerfrei, nur las
+   niemand das Wartezimmer. Ein wartender Eintrag ist **kein** Hub-Internum im Sinne der
+   Ausschlussliste: er haelt echte Arbeit an und braucht eine Entscheidung, die nur Raphael
+   treffen kann. **Ein Stand von 0 oder ein Eintrag juenger als 24 h ist dagegen NIE ein
+   Sendegrund** — er wird nur im ohnehin erzeugten Briefing mitgefuehrt.
 
 **Ausdruecklich NICHT sendewuerdig** (das war die Luecke: bis 03.08. galt jeder «Befund» als
 Sendegrund, auch reine Hub-Interna — am 01.08. loeste ein Locale-Fix in einem Script plus die
@@ -68,6 +75,15 @@ Fristen-Register + Logbuch lesen (Horizont 7 Tage), heutige Loop-Ergebnisse aggr
 Mail-Eingang seit letztem Lauf sichten, bexio-Verzugsstand (`--verzug`) und Bankverifikation
 (`--abgleich`) uebernehmen, Kalender naechste 7 Tage, offene Sync-/Remote-Tasks.
 
+**Pflicht in jedem Lauf** — der Freigabestand beider Stationen:
+
+```bash
+bash /Volumes/daten/jans-ai-hub/scripts/freigabe-status.sh --kurz
+```
+
+Exit 1 heisst: mindestens ein Eintrag wartet laenger als 24 h → Sendegrund 5. Exit 2 heisst
+**UNBEKANNT** (NAS nicht gemountet) und wird als solches gemeldet — nie als «0» gelesen.
+
 ### Phase 2 — Priorisieren
 Reihenfolge: (1) Geld/Fristen faellig <= 7 Tage, (2) externe Kunden/Behoerden warten auf JANS,
 (3) laufende Projekte (KISPI, Albertstrasse, ...), (4) Service-Chancen (Anfragen, die auf den
@@ -91,9 +107,16 @@ das `twin`-Fidelity-Gate. Zahlen/Fakten gegen Quelle belegt, nie erfunden.
 
 ### Phase 6 — EIN Briefing
 Struktur: **Erledigt (autonom)** → **Entwuerfe bereit (1 Klick)** → **Faellig/Droht (7 Tage)**
-→ **Service-Chancen** → **Beobachten**. Kompakt, sechsstellige Daten, keine Doppelmeldung
-von Dingen, die ein Fach-Loop heute schon gemailt hat (stattdessen Verweis). Versand an
-rj@raphaeljans.ch; Vermerk im Logbuch.
+→ **Wartet auf Deine Freigabe** → **Service-Chancen** → **Beobachten**. Kompakt,
+sechsstellige Daten, keine Doppelmeldung von Dingen, die ein Fach-Loop heute schon gemailt
+hat (stattdessen Verweis). Versand an rj@raphaeljans.ch; Vermerk im Logbuch.
+
+**Der Abschnitt «Wartet auf Deine Freigabe» steht in JEDEM Briefing — auch bei null.** Er
+nennt die Zahl je Station («mac-mini: 0 · macbook-pro: 0») und markiert jeden Eintrag aelter
+als 24 h mit seiner Wartezeit. Eine Null ist hier eine Aussage, kein Grund zum Weglassen:
+genau die stille Null haette den 41-h-Stillstand vom 11./12.08.2026 sichtbar gemacht. Ist
+der Stand UNBEKANNT (NAS nicht gemountet), steht das da — Schweigen wuerde als «nichts
+offen» gelesen.
 
 ## Compounding
 Korrektur-Deltas (was Raphael am Briefing/Entwurf aendert) und neue Whitelist-Kandidaten im
