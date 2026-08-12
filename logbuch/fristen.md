@@ -791,6 +791,15 @@ Firma «Raphael Jans AG» standhält. **Mathies ist abwesend (Autoantwort 14:56)
 ist vorerst nicht zu erwarten, dringende Fälle laufen über `wiedikon-zuerich@notariate-zh.ch` oder
 044 298 55 00. **Die von der UBS für den 03./04.08. erwartete IBAN ist in keinem Konto eingegangen**
 (Stand 22:30). Status: **beobachten.**
+**Nachtrag 13.08.2026 (Auftrag Raphael, Session):** Die Mail vom 03.08. an M. Mathies blieb bis
+heute unbeantwortet (Posteingänge aller Konten geprüft: kein UBS-, kein Notariats-Eingang seit
+04.08.). Deshalb am **13.08. 00:47** Nachfass an das Sammelpostfach
+`wiedikon-zuerich@notariate-zh.ch` versendet (rj@, Betreff «Gründung Raphael Jans AG: Nachfrage
+Beurkundungstermin und Firmenname», Original-Mail im Wortlaut + beide Word-Anhänge
+Gründungsurkunde/Statuten; Versand in «Gesendete Elemente» verifiziert). Erbeten: Bestätigung
+Firmenname + provisorisches Beurkundungsfenster **neu ab Woche vom 17.08.**, Vorbehalt
+Kapitaleinzahlungsbescheinigung. Status: **beobachten — Antwort Notariat und UBS-Bescheinigung
+weiter ausstehend.**
 
 **Erledigt und geschlossen:** die SIA-Normen-Anfrage von M. Prencipe (RJ hat am 03.08. 07:52 mit
 vier Anhängen geantwortet); die Frist «KISPI Türbuch + Sicherheitskonzept 31.07. 17:00» — RJ hat
