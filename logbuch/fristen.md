@@ -3,6 +3,32 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Hub-Chef 01:36, Nachtlauf — **Tagesbriefing gesendet 01:41:36, und im
+Entwurfsordner liegt eine echte Verwechslungsgefahr**):
+
+**Neuer Punkt, Status offen, Risiko hoch: zwei Entwürfe an T. Inniger im selben Ordner, nur einer
+darf hinaus.** Versandbereit ist der **neue** vom **13.08. 01:28**, Betreff «KISPI PPTS:
+Anschlusswerte, offene Punkte und weiteres Vorgehen Therapieküche». **Nicht versenden** darf man
+den **alten** vom **08.08. 08:56**, Betreff «KISPI PPTS: Geräteliste Therapieküche mit
+Abluftwerten» — er bittet ein zweites Mal um Abluftwerte, die Inniger am 08.08. 14:50 begründet
+abgelehnt hat, und nennt eine Frist auf einen Montag, der drei Tage zurückliegt. Die beiden
+Betreffzeilen beginnen identisch mit «KISPI PPTS:», die Verwechslung ist im Alltag plausibel.
+Claude hat **keinen** der beiden verändert oder gelöscht (Versand-/Änderungsentscheid Raphael).
+**Erledigt ist dieser Punkt erst, wenn der alte Entwurf verworfen ist.**
+
+**Prüfpunkt am neuen Inniger-Entwurf, kein Fehler:** die fünf aufgeführten Positionen summieren
+sich auf **33.97 kW**, der genannte Total lautet **41.47 kW**. Der Text kennzeichnet die Liste als
+Auszug («Die wichtigsten Werte daraus»), die Differenz von 7.50 kW entfällt also auf nicht
+aufgeführte Positionen der Legende. Gegengerechnet und richtig sind **41.47 × 0.70 = 29.03 kW**
+und **1'000 × 0.90 = 900 m³/h**. Wer den Total gegen die Legende Gastro-Online 26-122 verifizieren
+will, tut es vor dem Versand; zwingend ist es nicht.
+
+**Briefing gesendet** 13.08. 01:41:36 an `rj@`, Body 5'004 Zeichen, in «Gesendete Elemente»
+verifiziert. **Bewusst KEIN Versand an Dritte:** A7 verlangt ein wirksames Widerrufsfenster, und
+um 01:45 kann Raphael nichts widerrufen; die drei Entwürfe (Stevanovic, Furrer, Inniger) bleiben
+Versand-Entscheid Raphael. **Hinweis an den Regellauf 08:38:** dieser Nachtlauf hat bereits
+gesendet, das Logbuch trägt den vollen Inhalt; dort nur das Delta melden.
+
 Eintrag 13.08.2026 (Logbuch-Radar 01:32, am Postfach und am M365-Kalender nachgemessen —
 **zwei unversendete Entwürfe stehen auf dem kritischen Pfad zur Baufreigabe KISPI**):
 

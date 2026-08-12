@@ -26,6 +26,11 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 - Der Zeitwiderspruch zum heutigen Nova-Termin ist aufgelöst. Massgeblich ist M365: 09:00 bis
   10:30, Feldeggstrasse 26. Die im Register geführten 09:30 und 10:00 sind überholt.
 
+**Aus unseren Gesprächen**
+
+- Der Verschlankungs-Entwurf für die `CLAUDE.md` (von 18'655 auf 13'456 Bytes) wartet auf Deine
+  Antwort, ob er direkt geschrieben oder vorher mit einem Testagenten geprüft wird.
+
 **Überfällig**
 
 - **Entwurf an B. Stevanovic (Gruner), seit 12.08. 16:37 unversendet, Frist im Text auf morgen.**
@@ -64,11 +69,6 @@ seit gestern Nachmittag unversendet im Entwurfsordner liegt.**
 - Notariat Wiedikon und UBS-Kapitaleinzahlungsbescheinigung: beide ausstehend, Kette hängt daran.
 - Kollision Bodenablauf und Bodenheizung KISPI: Entscheid Kupplungen gegen Rückbau steht aus.
 - bexio-Token: Neuer Token ist Aktion Raphael, ohne ihn bleibt die Debitoren-Aufsicht blind.
-
-**Aus unseren Gesprächen**
-
-- Der Verschlankungs-Entwurf für die `CLAUDE.md` (von 18'655 auf 13'456 Bytes) wartet auf Deine
-  Antwort, ob er direkt geschrieben oder vorher mit einem Testagenten geprüft wird.
 
 **Vorschlag Kalendereinträge**
 
