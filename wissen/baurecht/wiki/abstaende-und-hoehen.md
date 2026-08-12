@@ -137,7 +137,9 @@ Anhang/übergangsrechtlich; die Gemeinde kann weniger festlegen oder das Privile
   (§ 5 lit. l BVV; BEZ 2001 Nr. 49); für dauerhafte Sicherung **Dienstbarkeit im Grundbuch**
   (Art. 680 Abs. 2 ZGB). Fehlende Zustimmung ist ein häufiger Stolperstein im Verfahren
   (siehe [[baubewilligungsverfahren]]). Abzugrenzen von den privatrechtlichen Pflanzen-/
-  Einfriedungsabständen (Art. 688 ZGB i.V.m. §§ 169 ff. EG ZGB).
+  Einfriedungsabständen (Art. 688 ZGB i.V.m. §§ 169 ff. EG ZGB) — diese und die
+  strassenrechtlichen Abstände (VErV, **nicht** mehr StrAV) im Einzelnen in
+  [[umgebungsgestaltung-und-einfriedungen]].
 - **Aussenwärmedämmung Bestand:** bis **35 cm** über die Abstandsvorschriften hinaus zulässig
   (§ 253a Abs. 1 PBG / § 33a ABV); Neubau wird ab Aussenhaut gemessen.
 

@@ -206,6 +206,11 @@ async function alleBankTx() {
   return out;
 }
 
+/** Identitaets-Schluessel einer Banktransaktion (Konto|Typ|Valuta|Rappen) — die Grundlage
+ *  jeder Zwillings-/Duplikat-Erkennung. Eine einzige Definition, damit die Erkennungen nicht
+ *  auseinanderdriften. */
+const txKey = t => `${t.bank_account_id}|${t.type}|${t.value_date}|${Math.round(Number(t.amount) * 100)}`;
+
 /**
  * Prueft die Konsistenz: ist jede als bezahlt gebuchte Rechnung durch einen ECHTEN
  * (reconciled/auto_reconciled) Bankeingang gedeckt? Deckt Phantom-Duplikate auf und
@@ -232,7 +237,23 @@ async function abgleichCheck({ minBetrag = 1000 } = {}) {
   }
   for (const f of ohneBeleg) f.kunde = (await kontakt(f.contact_id)).name;
   const eingangOhneBuchung = real.filter(r => !r.used && r.amount >= minBetrag);
-  return { realCount: real.length, credUnrecCount: credUnrec.length, ohneBeleg, eingangOhneBuchung };
+
+  // Unreconciled CREDIT OHNE abgeglichenen Zwilling: ein echter Geldeingang, den bexio keiner
+  // Rechnung zugeordnet hat. Er kann per Konstruktion NIE in eingangOhneBuchung erscheinen,
+  // weil das nur auf `real` (reconciled/auto_reconciled) aufbaut — genau diese Luecke liess
+  // Tx 3630 (07.08.2026, CHF 6'000) im taeglichen Monitoring unsichtbar bleiben, obwohl die
+  // Kennzahl unreconciledCredit von 55 auf 56 stieg. Mit Zwilling ist es dagegen ein
+  // Duplikat-Kandidat des UBS-Doppelimports und gehoert nicht hierhin (siehe duplikate()).
+  const zwillingKey = new Set(
+    tx.filter(t => ['reconciled', 'auto_reconciled'].includes(t.status)).map(txKey)
+  );
+  const unrecOhneZwilling = credUnrec
+    .filter(t => !zwillingKey.has(txKey(t)))
+    .map(t => ({ id: t.id, date: t.value_date, amount: Math.round(Number(t.amount) * 100) / 100, title: t.title }))
+    .filter(t => t.amount >= minBetrag)
+    .sort((a, b) => a.id - b.id);
+
+  return { realCount: real.length, credUnrecCount: credUnrec.length, ohneBeleg, eingangOhneBuchung, unrecOhneZwilling };
 }
 
 /**
@@ -245,12 +266,9 @@ async function duplikate() {
   const tx = await alleBankTx();
   const realKey = new Set();
   for (const t of tx) {
-    if (['reconciled', 'auto_reconciled'].includes(t.status)) {
-      realKey.add(`${t.bank_account_id}|${t.type}|${t.value_date}|${Math.round(Number(t.amount) * 100)}`);
-    }
+    if (['reconciled', 'auto_reconciled'].includes(t.status)) realKey.add(txKey(t));
   }
-  const dups = tx.filter(t => t.status === 'unreconciled' &&
-    realKey.has(`${t.bank_account_id}|${t.type}|${t.value_date}|${Math.round(Number(t.amount) * 100)}`));
+  const dups = tx.filter(t => t.status === 'unreconciled' && realKey.has(txKey(t)));
   return dups.map(t => ({ id: t.id, type: t.type, date: t.value_date, amount: Number(t.amount), title: t.title }));
 }
 

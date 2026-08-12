@@ -4,6 +4,36 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 13.08.2026 — twin-mail-training Batch 91: Fenster 06.–10.05.2026, 15 Marker in 6 Facetten
+
+Fenster nach **Leserate statt Datum** gezogen (Empfehlung Fidelity 260808): 69 Sent Items im Fenster
+06.–13.05., davon 12 neue Eigentexte gelesen (721 W). Kernbefunde: **Rückwärts-Terminkette in
+Kalenderwochen gegen die gefühlte Zeitreserve** eines säumigen Fachplanerteams, mit dem Planfreeze
+als Rechenende und der Bitte als einziger Schlusszeile ([[denken]]); **«Stand Jetzt:»** — das
+Entscheid-Vakuum wird mit einer sichtbar markierten eigenen Annahme gefüllt, direkt unter der
+terminierten Frage ([[arbeitsweise]], [[stimme]]); **Mahnkette Stufe 2 wechselt den Adressaten, nicht
+den Ton** (persönlich fragen, unpersönlich mahnen, die Beziehung bleibt im Cc); **der Serviceschluss
+reist als Block und behält sein «Dir»** bis ins anonyme Sammelpostfach — der Satz war belegt, die
+Fehlstelle beim Registerwechsel nicht; **Rahmenvertrag als unaufgefordertes Gegenangebot** mit der
+Bezifferung zurück an den Kunden (Erstbeleg); **Sprinkler im Bestand** — 91° Auslösetemperatur,
+Schwelle «unter 10 Köpfe kein Nachweis», Deckenplattenerhalt als billigste Variante
+([[fachsignatur]]); zweistufige Team-Anrede + 5 Mappings ([[beziehungsregister]]).
+
+**Registerkorrektur zu Fidelity 260808:** der dort als unbeantwortet notierte Honorarangriff des
+Bauherrn wurde 34 Minuten später beantwortet — für den Zulieferer, gegen den Bauherrn. Verbucht ist
+die Entscheidung, nicht die Formulierung: der Text ist KI-assistiert ([[haltung]]).
+
+**Echo-Schutz:** 4 Texte ausgeschlossen (CSS `rgb(253,253,252)` als zweiter Beleg; fehlerfreies
+Englisch gegen die eigene Hand; En-/Em-Strich in beiden Honorarmails). Die vierte Echo-Falle greift
+erstmals **innerhalb einer einzelnen Mail** — die Honorarofferte vom 08.05. hat einen KI-assistierten
+Fachteil und einen handgetippten Rahmenvertrags-Absatz. Bestandsabgleich verhinderte zudem, dass der
+ß-Gruss vom 06.05. ein zweites Mal als «Erstbeleg» eingetragen wurde.
+
+Metrik: Du-Gross 0.933 · ø 17.6 W (zweiter Sweep über Korpusband, Gattungsverdacht statt Drift,
+[[QUESTIONS]] 260813 #1) · Apostroph 0 · FG 9× / Lgr 4×. Register `raw/_INGESTED.md` und
+`raw/260813-mailbatch-91.md` nachgeführt. Nächstes Fenster 14.–19.05.2026, dort zuerst die zwei
+konkurrierenden Batch-45-Einträge klären.
+
 ## 08.08.2026 — twin-fidelity-review: Fidelity 40, Wahlfreiheit-Regel korrigiert
 
 Drei Golds vom **08.05.2026** (Submissions-Tag KISPI-Gastrokueche), alle handgetippt, Echo-Pruefung

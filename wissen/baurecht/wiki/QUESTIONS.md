@@ -1676,8 +1676,18 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   zusammengezogen zitiert, S. 1035). *(Teilklärung 2026-07-04, Kap. 5: § 102 PBG = Entschädigung bei
   besonderer Belastung durch Baulinien/Wald-/Gewässerabstandslinien; Heimschlag Baulinien = § 103 f. PBG;
   siehe [[enteignung-und-entschaedigung]]. §-Nummern weiterhin am Volltext bestätigen.)*
-- **StrAV-Masszahlen** (Lichtraumprofil 2,5/4,5 m, Pflanzen-/Einfriedungsabstände §§ 7/14/17 StrAV):
-  am amtlichen Volltext der Strassenabstandsverordnung gegenprüfen — im Screenshot nur teilweise lesbar.
+- ~~**StrAV-Masszahlen** (Lichtraumprofil 2,5/4,5 m, Pflanzen-/Einfriedungsabstände §§ 7/14/17 StrAV):
+  am amtlichen Volltext der Strassenabstandsverordnung gegenprüfen — im Screenshot nur teilweise lesbar.~~
+  **GESCHLOSSEN 2026-08-13 (Buch-Run 73, Batch T2).** Die Frage war falsch gestellt: die StrAV ist
+  seit **01.06.2020 aufgehoben**, es gibt keinen «geltenden StrAV-Volltext» mehr. Massgebend ist die
+  **VErV**; die vollständige Konkordanz StrAV → VErV steht in
+  [[umgebungsgestaltung-und-einfriedungen]] Ziff. 2. Zwei der drei Masszahlen haben sich dabei
+  **materiell geändert**: das Lichtraumprofil über Trottoirs/Fuss-/Velowegen stieg von **2,5 m auf
+  2,65 m** (§ 20 Abs. 1 lit. b VErV; Fahrbahngebiet unverändert 4,5 m), und die feste Obergrenze
+  0,80 m an der **Kurveninnenseite** wich einer blossen **Abstandsbefugnis** (§ 28 VErV). Wortgleich
+  übernommen wurde nur § 7 StrAV → **§ 26 Abs. 1 VErV**; dessen Abs. 2 (bis 0,5 m bei fehlendem
+  Fussgängerschutz) ist neu. Pflanzenabstände neu § 27 VErV (Bäume 4 m ab Stammmitte, Sträucher/
+  Hecken 0,5 m, Reduktion auf 2 m).
 - **«Dicht überbautes Gebiet»** (Art. 41c Abs. 1 Satz 2 GSchV): praxistaugliche Kriterien aus
   dem Merkblatt ARE/BAFU/BPUK ergänzen — im Buch nur über Fallrecht (BGE 140 II 428;
   Altendorf/Hurden/Rüschlikon) umrissen.

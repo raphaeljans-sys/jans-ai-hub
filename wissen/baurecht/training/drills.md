@@ -2510,3 +2510,38 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   gegenprüfen. Lehre allgemein: **visuelle Rechtsinformation ist Information** — Markierung,
   Durchstreichung, Farbe im Rotdruck. Geht sie bei der Extraktion verloren, ist der extrahierte
   Text nicht die Quelle, sondern eine stillschweigend beschädigte Fassung. _[2026-08-03]_
+
+- **F (Modell D / Fassungsstand, Fall Bohlweg 3):** Ein Factsheet zur Gartenmauer zitiert «StrAV
+  § 7» (Mauern an der Strassengrenze) und «StrAV § 17» (Lichtraumprofil 4,5 m, Rad-/Fussweg 2,5 m).
+  Beide Inhalte findet man wortgleich im amtlichen Merkblatt der Gemeinde. Ist das belastbar? —
+  **A: Nein, bei beiden.** Die **Strassenabstandsverordnung ist per 01.06.2020 aufgehoben**;
+  massgebend ist die **Verkehrserschliessungsverordnung (VErV, LS 700.4)**. Zu unterscheiden sind
+  zwei Fehlerklassen: **§ 7 StrAV → § 26 Abs. 1 VErV ist wortgleich** (offene Einfriedigungen frei ·
+  geschlossen bis 0,8 m überall · über 0,8 m nur an geraden Strecken und der Kurven-**aussen**seite)
+  — hier stimmt die Sache, nur die Fundstelle ist tot, und Abs. 2 (Abstand bis 0,5 m bei fehlendem
+  Fussgängerschutz) fehlt im alten Zitat ganz. **§ 17 StrAV → § 20 VErV ist materiell geändert:**
+  der Lichtraum über Trottoirs, Fuss- und Velowegen beträgt neu **2,65 m statt 2,5 m**. Wer die alte
+  Zahl plant, unterschreitet das geltende Mass. Ebenso gewechselt hat § 28 VErV (Kurven**innen**seite):
+  aus der festen Obergrenze 0,80 m wurde eine blosse **Abstandsbefugnis** der Behörde — wer weiter
+  «max. 0,80 m» schreibt, gibt eine offene Verhandlungsposition preis. **Lehre:** dass ein amtliches
+  Merkblatt der Gemeinde denselben Wortlaut trägt, beweist nichts — das Thalwiler Merkblatt datiert
+  vom **11.12.2013**. Amtliche Herkunft schützt nicht vor Alterung. _[2026-08-13]_
+
+- **F (Modell A / Rechtscharakter, Fall Bohlweg 3):** Die kommunale Wegleitung nennt für
+  Gartenmauern längs Strassen und Wegen «eine maximale Höhe von 1.40 m ab Belag, sofern sie nicht
+  dem Lärmschutz dienen». Das Bauamt beruft sich darauf. Muss der Bauherr die 1,40 m einhalten? —
+  **A: Nein — jedenfalls nicht als Rechtssatz.** Entscheidend ist die Überschrift, unter der der
+  Satz in der Wegleitung steht: «*Aufgrund fehlender Rechtsgrundlage weggelassene oder gelöschte
+  Absätze, welche daher als Beurteilungsrichtlinie dienen*». Die Gemeinde erklärt damit selbst, dass
+  sie die Bestimmung **mangels Rechtsgrundlage aus der BZO entfernt** hat. Eine Wegleitung ist eine
+  **Verwaltungsverordnung**: sie bindet die Behörde im Interesse der Rechtsgleichheit, ist für
+  Private aber nicht direkt verbindlich und kann eine fehlende gesetzliche Grundlage nicht ersetzen.
+  Die 1,40 m dürfen deshalb **kein selbständiger Ablehnungsgrund** sein, sondern nur Auslegungshilfe
+  im Rahmen von **§ 238 Abs. 1 PBG** — mit dessen Anforderungen (objektiver Massstab, «befriedigend»
+  genügt, erhöhte Begründungspflicht). Unter derselben Überschrift stehen drei weitere Sätze mit
+  gleichem Status (Abgrabungen/Aufschüttungen «in der Regel nicht mehr als 1.5 m»; Gestaltungs- und
+  Bepflanzungsvorgaben; Stützmauern «auf die technisch notwendigen Minimalmasse»). **Lehre:** bei
+  jeder kommunalen Masszahl zuerst den **Rechtscharakter der Fundstelle** klären — BZO-Artikel
+  (Rechtssatz) oder Merkblatt/Wegleitung (Verwaltungsverordnung) — und erst dann die Zahl. Wer die
+  Zahl ohne die Fundstelle übernimmt, macht aus einer verhandelbaren Richtlinie geltendes Recht.
+  _[2026-08-13]_

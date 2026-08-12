@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 00:51:04
+Stand: 13.08.2026 01:01:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:24)
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -16,4 +16,4 @@ Stand: 13.08.2026 00:51:04
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a7e475ee Notariat-Nachfass 13.08.: Sammelpostfach angeschrieben, Fristen-Register nachgetragen
+- 6ed871d8 ag-gruendung-monitor: Strategie-Wechsel — Neueinreichung des Dossiers digital statt UBS-Anruf
