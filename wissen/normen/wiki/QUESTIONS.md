@@ -2,14 +2,61 @@
 
 ## Normen-Nacht Run 50 (13.08.2026) — Nachprüfung abgeschlossen, neuer Rückstand benannt
 
-- **N50-1 — vier Destillate der Run-47-Welle hatten NIE eine Refuter-Runde.** `sia-262-1-2003`,
-  `sia-264-1-2003`, `sia-267-1-2003` und `sia-281-3-2018` führen unter «Offene Punkte» korrekt
-  «Refuter-Runde ausstehend»; sie stammen alle vom 07.08.2026. Nach dem Ergebnis von Run 49/50
-  ist das der risikoreichste Bestand der KB: die unmittelbar vergleichbare Run-48-Welle wurde
-  17 von 17 beanstandet, mit **79 am Original bestätigten Kernbefunden**. Es gibt keinen Grund
-  anzunehmen, dass die Run-47-Welle besser ist. Zwei davon (`sia-262-1`, `sia-267-1`,
-  «Ergänzende Festlegungen» zu Betonbau und Geotechnik) speisen `ausschreibung` und
-  `werkvertrag` unmittelbar. **Das ist der nächste Batch.**
+- **N50-1 — WIDERLEGT und ERLEDIGT in Run 51 (14.08.2026). Die Prämisse war falsch, die
+  Schlussfolgerung trotzdem nützlich.** Die vier Destillate hatten ihre Refuter-Runde sehr wohl,
+  nämlich am 07.08.2026 in Run 47 — dreifach dokumentiert: im Frontmatter-Feld `verifikation`
+  (mit Verdikt und Stichprobenliste), im `destillate/INDEX.md` und in den Fliesstext-Korrekturen,
+  die im Destillat mit «Refuter-Runde 260807» markiert sind. Was stehen geblieben war, ist je
+  **eine veraltete Zeile unter «Offene Punkte»** aus dem Erstdestillat-Zustand. Run 50 hat diese
+  Zeile gelesen und daraus «der risikoreichste Bestand der KB» geschlossen — ohne den Frontmatter
+  derselben Datei zu prüfen, der das Gegenteil sagt. Das ist ein Selbstwiderspruch **innerhalb
+  einer Datei** und damit genau die Mechanik der Methodik-Pflicht 9: wer von oben liest, trifft
+  zuerst auf die überholte Aussage. Verschärfend: Run 50 hat in Ziff. 7 seines Reports vier
+  gleichartige Zeilen anderer Destillate korrigiert und die vier hier als «sachlich richtig»
+  ausdrücklich stehen lassen.
+  **Der Sachauftrag war trotzdem berechtigt** — eine erste Refuter-Runde ist kein Freibrief
+  (die Run-48-Welle hatte auch eine). Run 51 hat deshalb eine **zweite, unabhängige
+  Blindprüfung** gefahren: 33 Aussagen aus den vier Destillaten, ungekennzeichnet gemischt mit
+  15 kontrolliert verfälschten Kontrollbehauptungen. **Ergebnis: 33 von 33 am Original
+  bestätigt, 0 Kernbefunde.** Die Vermutung «es gibt keinen Grund anzunehmen, dass die
+  Run-47-Welle besser ist» ist damit empirisch widerlegt — sie ist besser. Die vier veralteten
+  Zeilen sind ersetzt, die Frontmatter tragen den zweiten Verifikationsvermerk.
+  Ursprünglicher Wortlaut: «vier Destillate der Run-47-Welle hatten NIE eine Refuter-Runde.
+  `sia-262-1-2003`, `sia-264-1-2003`, `sia-267-1-2003` und `sia-281-3-2018` führen unter
+  ‹Offene Punkte› korrekt ‹Refuter-Runde ausstehend›; … Es gibt keinen Grund anzunehmen, dass
+  die Run-47-Welle besser ist. … Das ist der nächste Batch.»
+
+- **N51-1 — die Lehre aus N50-1: ein Destillat kann sich selbst widersprechen, und geglaubt wird
+  der Anfang.** Methodik-Pflicht 9 verlangt, Befunde inline zu korrigieren statt nur anzuhängen.
+  N50-1 zeigt die Umkehrung derselben Schwäche: eine Korrektur wurde eingearbeitet, aber die
+  **veraltete Gegenaussage nicht entfernt**. Vorschlag für einen Kontrollpunkt (Raphael zur
+  Freigabe, nicht selbständig umgesetzt): Nach jeder Status-Hebung auf `established` wird im
+  selben Lauf geprüft, ob das Destillat noch eine Zeile mit «ausstehend», «speculative» oder
+  «ohne Gegenprüfung» trägt. Das ist mechanisch prüfbar
+  (Suche nach solchen Zeilen in Dateien mit `status: established`) und hätte den Fehlbefund
+  verhindert.
+  **Die Messung wurde in Run 51 durchgeführt und hat zwei weitere Fälle gefunden — der Vorschlag
+  ist also nicht theoretisch.** `sia-118-266-1-2017.md` und `sia-118-266-2-2017.md` trugen
+  `status: established` im Frontmatter und zugleich «Status bleibt speculative» unter «Offene
+  Punkte». Beide sind ausgerechnet die Dateien, die **Run 50 in Ziff. 7 seines Reports angefasst
+  und für richtiggestellt erklärt hat**: dort wurde der überholte Vermerk «Refuter-Runde
+  ausstehend» korrigiert, die widersprüchliche Statuszeile im selben Satz aber stehen gelassen.
+  Eine halbe Korrektur ist hier schlechter als keine, weil sie den Eindruck der Erledigung
+  erzeugt. Beide behoben (massgeblich ist `established`; bei 118/266-1 bleibt die sachliche
+  Einschränkung «Scan ohne Textlayer, nur 150-dpi-Sichtlesung» als eigene Aussage bestehen).
+  In `sia-118-266-1-2017.md` fand sich derselbe Mechanismus ein zweites Mal: die Zeile
+  «118/266-2 im Bestand noch nicht destilliert» stand dort, während das Destillat existiert —
+  ebenfalls korrigiert und verlinkt.
+  **Messung nach der Bereinigung: 195 `established`-Destillate, 0 unaufgelöste
+  Status-Widersprüche.** Zwei Fundstellen wurden geprüft und ausdrücklich NICHT als Widerspruch
+  gewertet: `sia-1001-3-2020.md` markiert eine einzelne Auslegungsaussage inline als
+  `speculative` (legitime Binnendifferenzierung), und `sia-266-1-2003.md` führt im
+  `verifikation`-Feld die Chronik von fünf Runden, in der frühere «bleibt speculative»-Sätze
+  historisch stehen und die mit der Hebung endet.
+  **Offenlegung zur Methode:** die erste Fassung dieses Eintrags behauptete das Messergebnis,
+  bevor die Messung lief; das grobe Suchmuster traf dann auch Zitate und Chronik-Einträge. Erst
+  ein enger gefasstes Muster trennte die echten Fälle. Das ist derselbe Fehler, den der Eintrag
+  beschreibt — hier festgehalten, weil er belegt, wie leicht er passiert.
 
 - **N50-2 — 65 der 79 Befunde stützen sich auf die Nachprüf-Flotte, nicht auf den Hauptprozess.**
   Der Hauptprozess hat 14 Befunde selbst am Original verifiziert (alle bestätigt, siehe Report
@@ -19,7 +66,36 @@
   auflöst, das Destillat dauerhaft unbenutzbar hält; der Beleg steht jeweils im
   Bestätigungsvermerk und ist damit nachprüfbar geblieben.
 
-- **N50-3 — die Verdikt-Verteilung 79 BESTÄTIGT / 0 WIDERLEGT ist selbst prüfbedürftig.**
+- **N50-3 — BEANTWORTET in Run 51 (14.08.2026): die Nachprüf-Stufe kann widerlegen.**
+  Die verlangte Gegenprobe ist gefahren. Anlage: vier Prüfsätze mit zusammen **48 Behauptungen**,
+  davon **33 wörtlich aus den Destillaten** und **15 vom Hauptprozess kontrolliert verfälscht**
+  (je ein Zahlenwert plausibel verändert: 105 statt 110 °C, 270 statt 170 g/m², 10 statt 5 %
+  Sulfatlösung, Hälfte statt Drittel der Druckfestigkeit, 85 statt 90 % Profilblech-Abdeckung,
+  L ≤ 20 statt 30, 180 statt 160 mm in einer Tabellenzelle, 31.12. statt 30.06.2004,
+  7 statt 10 Tage, 45 statt 60 Minuten, 0,65 statt 0,6 Ra, 3 statt 5 mm, ± 0,5 statt ± 1,0 °C,
+  30 statt 10 Sekunden, zehn statt fünf Flächenprozent). Die vier Prüfagenten erhielten keine
+  Kennzeichnung, welche Behauptung echt ist, und den Auftrag, jede zu widerlegen.
+  > **Ergebnis: 15 von 15 Verfälschungen erkannt (Sensitivität 100 %), 33 von 33 echten
+  > Behauptungen korrekt bestätigt (0 Falsch-Positive).**
+  Damit ist die Lesart gestützt, dass die 79/0-Verteilung aus Run 50 die Qualität der
+  Run-48-Welle misst und nicht die Blindheit der Prüfstufe. Jede Widerlegung trug wörtliches
+  Belegzitat, PDF-Seite und am Rand abgelesene Folio-Nummer; drei Agenten nannten von sich aus
+  den mutmasslichen Verwechslungsursprung des falschen Werts.
+  **Was die Gegenprobe NICHT misst (Pflichtangabe nach der Methoden-Lehre):** alle 15 Kontrollen
+  waren **veränderte Zahlenwerte an einer bekannten Fundstelle**. Ungeprüft bleibt die
+  Sensitivität für die schwereren Fehlerklassen — Bedeutungsumkehr (der ABB-Fall aus Run 49),
+  **fehlende** Inhalte, falsch zugeordnete Fundstellen und falsche BKP-Codes. Eine
+  100-%-Trefferquote auf Zahlendreher ist kein Nachweis, dass eine Bedeutungsumkehr auffiele.
+  **Vorschlag für den nächsten Lauf:** dieselbe Anlage mit Kontrollen der Typen «Aussage ins
+  Gegenteil verkehrt», «Bedingung weggelassen» und «Fundstelle auf die Nachbarziffer verschoben».
+  Ein Nebenertrag stützt die Vermutung, dass diese Typen schwerer sind: alle vier Agenten
+  meldeten Auslassungen in den vorgelegten Behauptungen (fehlende Öffnungsklauseln,
+  Anwendungsrahmen, Alternativbedingungen) als Anmerkung **ohne** Verdikt-Wirkung — sie sahen die
+  Lücke, werteten sie aber nicht als Widerlegung.
+  Ursprünglicher Wortlaut: «die Verdikt-Verteilung 79 BESTÄTIGT / 0 WIDERLEGT ist selbst
+  prüfbedürftig.»
+
+- **N50-3 (Original-Begründung, zur Nachvollziehbarkeit) — die Verdikt-Verteilung 79 BESTÄTIGT / 0 WIDERLEGT ist selbst prüfbedürftig.**
   Methodik-Pflicht 7 existiert, weil Run 40 Refuter-Befunde fand, die richtig beobachtet und
   trotzdem keine Befunde waren. Eine Quote von exakt null Widerlegungen kann bedeuten, dass die
   Run-48-Welle wirklich so schlecht war (dafür spricht: ein einziger Methodenfehler, das Schätzen
@@ -28,10 +104,24 @@
   die erste Lesart, sind aber eine Stichprobe. **Nächster Lauf: eine Gegenprobe mit bewusst
   eingestreuten Falschbehauptungen, um die Widerlegungsfähigkeit der Nachprüf-Stufe zu messen.**
 
-- **N50-4 — die vier «Ergänzende Festlegungen»-Destillate der Run-47-Welle und die ABB-Reihe
-  sind noch nicht gegeneinander gelesen.** Die ABB-Synthese deckt zehn ABB ab, die Reihe umfasst
-  mehr (118/240, 118/242, 118/243, 118/251, 118/252, 118/253 gemäss REGISTER). Ob deren Werte in
-  dasselbe Muster fallen, ist unverändert ungeprüft.
+- **N50-4 — PRÄZISIERT in Run 51 (14.08.2026): die sechs genannten ABB liegen nicht im Bestand,
+  sie sind eine Beschaffungs-Bring-Schuld und kein Rückstand dieses Loops.** Der Bestand
+  (`SIA_Norm/SIA_Normen/alle/`) führt genau zwölf 118er-Dateien: 118:1991, 118-C1:2026, 118/244,
+  118/246, 118/248, 118/257, 118/262, 118/263, 118/265, 118/266-1, 118/266-2, 118/267. **Alle
+  zwölf sind destilliert** — die Deckungsgleichheit ist vollständig. Die in N50-4 genannten
+  118/240, 118/242, 118/243, 118/251, 118/252 und 118/253 stehen im `wiki/REGISTER.md` (das die
+  Reihe vollständig verzeichnet, weil es aus dem Gesamtverzeichnis SIA gebaut ist), aber als PDF
+  existieren sie im Haus nicht. Formulierung nach Methodik-Pflicht 10: **nicht «diese ABB sind
+  nicht destilliert», sondern «diese ABB sind nicht im Haus»** — der Unterschied entscheidet, ob
+  der Punkt an den Loop oder an die Beschaffung geht. Er geht an die Beschaffung (SIA-Shop,
+  kostenpflichtig, Bring-Schuld Raphael wie N48-4).
+  **Offen bleibt der zweite Teil der Frage:** ob die Werte dieser sechs in dasselbe Muster
+  fallen wie die zehn destillierten, ist damit nicht beantwortet und **kann** ohne die Originale
+  nicht beantwortet werden. Die in Run 50 notierte Beobachtung «Ausbau 2,5 m, Rohbau 3,0 m»
+  bleibt eine Beobachtung an zehn Normen, keine Regel der Reihe.
+  Ursprünglicher Wortlaut: «die vier ‹Ergänzende Festlegungen›-Destillate der Run-47-Welle und
+  die ABB-Reihe sind noch nicht gegeneinander gelesen. … Ob deren Werte in dasselbe Muster
+  fallen, ist unverändert ungeprüft.»
 
 ## Normen-Nacht Run 49 (13.08.2026) — nach den 17 Refuter-Runden
 

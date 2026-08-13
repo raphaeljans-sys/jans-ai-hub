@@ -1,3 +1,37 @@
+## 2026-08-14 — Normen-Nacht Run 51: die Pruefstufe selbst gemessen, zwei Fehlbefunde der eigenen Uebergabe korrigiert
+
+Report: `outputs/2026-08-14_normen-nacht-run51.md`.
+
+1. **Gegenprobe zur Widerlegungsfaehigkeit gefahren (N50-3 BEANTWORTET).** Vier Pruefsaetze mit
+   zusammen 48 Behauptungen: 33 woertlich aus den Destillaten, **15 vom Hauptprozess kontrolliert
+   verfaelscht** (je ein Zahlenwert plausibel veraendert), den Pruefagenten ungekennzeichnet
+   vorgelegt. **Ergebnis: 15 von 15 Verfaelschungen erkannt, 33 von 33 echten Aussagen korrekt
+   bestaetigt** — Sensitivitaet und Spezifitaet je 100 %. Damit ist gestuetzt, dass die
+   79/0-Verteilung aus Run 50 die Qualitaet der Run-48-Welle misst und nicht die Blindheit der
+   Pruefstufe. Ausgewiesen bleibt, was die Probe NICHT misst: alle Kontrollen waren veraenderte
+   Zahlenwerte; Bedeutungsumkehr, fehlende Inhalte und verschobene Fundstellen sind ungeprueft.
+2. **N50-1 als Fehlbefund widerlegt und erledigt.** `sia-262-1-2003`, `sia-264-1-2003`,
+   `sia-267-1-2003` und `sia-281-3-2018` hatten ihre Refuter-Runde sehr wohl (07.08.2026,
+   Run 47) — dreifach dokumentiert in Frontmatter, INDEX und den inline eingearbeiteten
+   Korrekturen. Stehen geblieben war je **eine veraltete Zeile unter «Offene Punkte»**; genau
+   sie hat Run 50 gelesen. Die Blindpruefung diente zugleich als zweite Refuter-Runde:
+   **0 Kernbefunde** in allen vier. Vier Zeilen ersetzt, vier Frontmatter mit dem zweiten
+   Verifikationsvermerk und `last_updated: 2026-08-14` nachgefuehrt, vier INDEX-Zeilen ergaenzt.
+3. **Zwei neue Selbstwidersprueche gefunden und behoben.** `sia-118-266-1-2017.md` und
+   `sia-118-266-2-2017.md` trugen `status: established` im Frontmatter und zugleich «Status
+   bleibt speculative» unter «Offene Punkte» — beide ausgerechnet die Dateien, die Run 50 in
+   Ziff. 7 angefasst und fuer richtiggestellt erklaert hatte. In 118/266-1 zusaetzlich die
+   ueberholte Zeile «118/266-2 im Bestand noch nicht destilliert», obwohl das Destillat
+   existiert; korrigiert und verlinkt. **Messung nach der Bereinigung: 195
+   `established`-Destillate, 0 unaufgeloeste Status-Widersprueche.**
+4. **N50-4 praezisiert.** Die sechs ABB 118/240, 242, 243, 251, 252, 253 sind nicht
+   «nicht destilliert», sondern **nicht im Haus**; alle zwoelf im Bestand liegenden 118er sind
+   destilliert. Der Punkt geht an die Beschaffung, nicht an den Loop (Methodik-Pflicht 10).
+5. **Neuer Vorschlag Methodik-Pflicht 12 (Raphael zur Freigabe, N51-1):** nach jeder
+   Status-Hebung auf `established` im selben Lauf pruefen, ob das Destillat noch eine Zeile
+   traegt, die den Status als offen behauptet. Drei Faelle in einem Lauf gefunden, einer davon
+   hat einen ganzen Batch-Auftrag fehlgeleitet.
+
 ## 2026-08-13 — Fremdlauf `wissens-chef` Run 31: drei Nachtraege, die Run 50 offen liess
 
 Geschrieben vom Wissens-Chef (Cross-KB-Aufsicht), nicht von einem `normen`-Lauf. Alle drei Punkte
