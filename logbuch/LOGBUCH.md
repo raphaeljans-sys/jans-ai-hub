@@ -5756,3 +5756,12 @@ CHANGELOG protokolliert. **Bewusst nicht selbst umgesetzt:** eine Ruecktaktung i
 (dort eine reine Tatsachenkorrektur eines nicht mehr existierenden Taktgebers). Kein neuer
 Kennwert, kein Versand, keine Buchung, kein Fan-out. Zyklus klein und budgetdiszipliniert
 gehalten (deutlich unter dem 5-USD-Deckel).
+
+## 2026-08-13, 23:56 (Mac Mini Nachtschicht) — bauprodukte: ERCO Teil 2/n destilliert
+
+Hauptkapitel "Simulation und Berechnung" + "Planungsbeispiele" des ERCO-Ratgebers (S.375-426
+von 435, BKP 233) destilliert, neuer Artikel `wissen/bauprodukte/wiki/erco-lichtplanung-
+simulation-berechnung.md`. Energie-KB uebersprungen (bereits vor dieser Session per
+energie-run129 heute Abend bearbeitet, kein Doppellauf). Offen: Glossar S.427-435 fuer
+Folgelauf. Commit nativ ueber nas-commit-now.sh. Budget eng ausgeschoepft (Bild-Reads teuer,
+ab S.395 auf pdftotext umgestellt).
