@@ -4,6 +4,39 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+
+## 2026-08-13 02:10 — ROHMESSUNG (Bewertung folgt im selben Lauf)
+
+Messzeitpunkt 13.08.2026 02:07 CEST, NAS gemountet. **Erster Lauf seit dem 08.08.** — die
+Lücke von fünf Tagen ist kein Messfehler, sondern der Aufsichtsausfall, den der Radar um
+01:51 belegt hat (gesamte Task-Flotte stand 08.08. bis 12.08. spätabends, Typ: nicht
+gefeuert). Rekursives Glob inklusive Subagenten-Transcripts, Zeilenfilter je
+`timestamp[:10]` über acht Kalendertage bei neun Tagen mtime-Vorfilter, Duplikate über
+(message.id, requestId) ausgeschlossen.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 06.08. | 9.19 | 181.56 | 1.93 | 49.81 | **11.12** |
+| 07.08. | 43.25 | 354.36 | 9.86 | 134.71 | **53.11** |
+| 08.08. | 9.13 | 174.34 | 9.17 | 109.51 | **18.30** |
+| 09.08. | 0.62 | 37.17 | 0.00 | 0.00 | **0.62** |
+| 10.08. | 0.00 | 0.00 | 1.32 | 19.41 | **1.32** |
+| 11.08. | 0.00 | 0.00 | 2.79 | 78.22 | **2.79** |
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | **28.39** |
+| 13.08. (bis 02:07) | 3.08 | 68.09 | 0.00 | 0.00 | **3.08** |
+
+Die drei Überlappungstage 06.08. und 07.08. stimmen auf zwei Nachkommastellen mit der
+Messung vom 08.08. überein (11.12 und 53.11) — die rekursive Methodik reproduziert sich
+zum sechsten Mal. Der 08.08. steht jetzt als voller Tag mit 18.30 statt der damaligen
+Teilmessung bis 07:16 (4.32).
+
+**Blockade-Status: FREI.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429 zusammen mit Limit-Textmuster) findet in den
+letzten 24 h auf **beiden** Stationen **null** echte Ereignisse. Weder 5-Stunden- noch
+Wochenlimit.
+
 ## 2026-08-08 07:16 — GEMELDET (Mail an rj@ gesendet 07:29)
 
 Messzeitpunkt 08.08.2026 07:16 CEST, NAS gemountet. Fünfter Lauf mit rekursivem Glob

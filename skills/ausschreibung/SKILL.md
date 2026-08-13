@@ -109,9 +109,20 @@ allgemeinen Bedingungen, **nicht** für Ausmass und Vergütung.
 Vor dem Schreiben eines LV prüfen, ob für das Gewerk eine **ABB der Reihe SIA 118/xxx** existiert.
 Ihre Grenzwerte (Gerüsthöhe, Abzugs-/Nichtabzugsgrenzen, Mörtelschicht) sind **je Gewerk
 verschieden** — belegt etwa mit der Inklusivgrenze für Arbeitsgerüste von 2,5 m bei den
-Ausbau-Normen von 2006 gegenüber 3,0 m bei Maler, Holzbau und Mauerwerk, und beim Betonbau gar
-nicht inbegriffen. Wer den Grenzwert des Nachbargewerks verwendet, produziert genau den
-Nachtragsstreit, den das LV vermeiden soll.
+Ausbau-Normen von 2006 gegenüber 3,0 m bei Maler, Holzbau und Mauerwerk. Wer den Grenzwert des
+Nachbargewerks verwendet, produziert genau den Nachtragsstreit, den das LV vermeiden soll.
+
+**Arbeitsgerüste im Beton-LV (SIA 118/262:2004, Ziff. 8.4.2.2, S. 21).** Sie werden «nicht
+vergütet, ausgenommen wenn im Leistungsverzeichnis hierfür getrennte Positionen enthalten sind»
+— in der Vertragsterminologie der Norm heisst das **im Einheitspreis inbegriffen** («Nicht
+inbegriffene Leistung» ist nach Ziff. 0.3, S. 10, gerade die gesondert zu vergütende). Fürs LV:
+**keine Gerüstposition ausschreiben**, sonst wird dieselbe Leistung zweimal bezahlt; eine
+Arbeitsgerüst-Nachforderung ohne eigene LV-Position ist unbegründet. Getrennte Positionen nur
+setzen, wenn die Bauherrschaft das Gerüst bewusst gesondert ausweisen und vergüten will.
+Lehr-, Schutz- und besondere Gerüste dagegen **immer** getrennt vergüten (Ziff. 8.4.2.3).
+Die Mauerwerk-ABB regelt das **gleichsinnig**, nicht gegenläufig: dort ist das Arbeitsgerüst
+bis 3,0 m ebenfalls inbegriffen (SIA 118/266-1:2017 Ziff. 2.2), der Betonbau kennt dafür keine
+Höhengrenze.
 
 - **Wo hinschauen (Warnkarte, keine Zitierquelle):**
   `/Volumes/daten/jans-ai-hub/wissen/normen/wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`
@@ -119,9 +130,18 @@ Nachtragsstreit, den das LV vermeiden soll.
 - **Woher der Wert kommt (Zitierquelle):** das Destillat
   `wissen/normen/destillate/sia-118-<nr>-<jahr>.md`, im Zweifel das Original-PDF. Nur diese
   Fundstelle wandert ins LV.
+- ⚠ **Auch das Destillat hat einen Verifikationsstatus — zuerst sein Feld `status:` lesen.**
+  Bei `speculative` ist es ein **Entwurf**, kein Wissensstand: der Wert wird vor der Verwendung
+  im LV am Original-PDF auf SharePoint (`PL - 02_Recht_Norm/02_Normen/`) nachgelesen. Trägt es
+  ausserdem einen ⚠-Marker «Kernbefund, Nachprüfung ausstehend», ist die betroffene Angabe
+  **gar nicht** zu verwenden. Nur `established` ist ohne Gegenlesen zitierfähig. Nie eine
+  Normnummern-Liste abschreiben — der Status steht im Destillat und ändert sich.
 
 Ergänzt 13.08.2026 (Wissens-Chef Run 29), nachdem `normen` Run 48 die ABB-Reihe erstmals
-destilliert hatte und im Skill kein Weg in die Normen-KB führte.
+destilliert hatte und im Skill kein Weg in die Normen-KB führte. **Korrigiert 13.08.2026
+(Wissens-Chef Run 30):** Der Abschnitt trug aus Run 48 die Bedeutungsumkehr «beim Betonbau gar
+nicht inbegriffen». `normen` Run 49/50 hat sie am Original widerlegt; hier nachgezogen, samt
+Status-Vorbehalt für die Zitierquelle.
 
 ### Gewerk-Ordnernamen — Stadt-Zürich-BKP 2008 (VERBINDLICH)
 

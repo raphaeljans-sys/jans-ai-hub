@@ -3,6 +3,35 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Wissens-Chef Run 30 (Kollisionslauf, 32 Minuten nach Run 29)
+
+- **Bericht:** `outputs/2026-08-13_wissens-chef-run30.md`. Zuschnitt bewusst schmal: Run 29 endete
+  um 01:13 und empfahl ausdruecklich, bei knappem Kontingent die Zahl der Felder zu senken statt
+  die Refuter-Runden. Delta gemessen: 22 geaenderte Dateien in `wissen/` seit 01:30, praktisch
+  alle aus `normen` Run 49. Statt sechs Feldern deshalb **drei Melder + 18 Refuter** (21 Agenten,
+  3,06 Mio Token) auf die frische Kollisionszone.
+- **Ein Befund mit Geldwirkung, bestaetigt:** `normen` Run 49 korrigierte um 01:43 eine
+  **Bedeutungsumkehr** zu den Arbeitsgeruesten im Betonbau (SIA 118/262 Ziff. 8.4.2.2). Der Skill
+  `ausschreibung`, den **Run 29 dreissig Minuten zuvor** an genau diese Stelle verdrahtet hatte,
+  trug die falsche Fassung weiter. Korrigiert (SKILL.md Z. 109-124 → neuer Absatz mit Fundstelle
+  und LV-Konsequenz: **keine** Geruestposition ins Beton-LV, sonst Doppelverguetung).
+- **Der Refuter fand mehr als der Melder.** Nullhypothese «die Korrektur ist der eigentliche
+  Fehler», widerlegt am Original-PDF auf SharePoint. Zusaetzlich aufgedeckt: auch der Kontrast
+  «anders als die Mauerwerk-ABB» ist falsch — **beide** ABB stellen das Arbeitsgeruest in den
+  Einheitspreis, nur die Schwelle unterscheidet sich (266-1: bis 3,0 m; 262: keine Hoehengrenze).
+  Eine mechanische Ersetzung «nicht inbegriffen» → «inbegriffen» haette einen neuen Fehler erzeugt.
+- **Zweite Korrektur derselben Wurzel:** Run 29 hatte den Verifikationsstatus nur bei der
+  Warnkarte benannt, nicht bei der Zitierquelle — obwohl 8 von 10 ABB-Destillaten `speculative`
+  sind. Neuer Vorbehalt im Skill, angebunden ans Feld `status:` statt an eine Normnummern-Liste.
+- **Kein Eingriff in `wissen/normen/**`:** ein `normen`-Lauf 50 arbeitete waehrend dieses Laufs an
+  denselben Dateien (vier Parallelsessions gemessen) und hat die Destillat-Stellen selbst
+  korrigiert, inklusive derselben Mauerwerk-Praezisierung. Zwei unabhaengige Wege, dasselbe
+  Ergebnis. Uebergeben statt angefasst: `destillate/INDEX.md` Z. 22 haengt noch nach.
+- **6 von 17 Meldungen bestaetigt, 11 verworfen** — verworfen wurden namentlich alle Vorschlaege,
+  historische Protokolle (CHANGELOG, Laufberichte, Registerzitate) nachtraeglich umzuschreiben.
+- Register: 1 neuer Paar-Eintrag, 1 datierter Nachtrag am Run-29-Eintrag. QUERBEZUEGE 2757 → 2804
+  Zeilen, **0 Loeschungen** (nachgemessen, Rule `auto-verbesserungen` 260811).
+
 ## 2026-08-13 — Synergie-Lauf 05, Nachtrag der zweiten Instanz (Doppellauf)
 
 - Der Task `synergie-lauf-taeglich` feuerte beim Erstlauf **zweimal** (beide 01:19, PIDs 25627

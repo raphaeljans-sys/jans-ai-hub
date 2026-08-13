@@ -1,7 +1,7 @@
 ---
 title: "Jury-DNA Schul- und Bildungsbauten — was in Schweizer Schulwettbewerben gewinnt (Synthese aus 23 ausgewerteten Juryberichten)"
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-08-13
 sources:
   - "23 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (2012–2026, überwiegend Schul-/Bildungsbau)"
 links:
@@ -380,6 +380,153 @@ Diese Synthese liefert die Inhalte fuer die in der Generalprobe Muttenz
    `programm-pruefer`.
 6. **Visualisierungs-Grundriss-Abgleich** (Sektion 5) als Abgabe-Checkliste-Punkt im
    `plakat-setzer`/`bericht-autor`: keine Rendering-Grosszuegigkeit ohne Grundriss-Deckung.
+
+## 7. Rueckkopplung: die drei eigenen Beitraege gegen die zwoelf Siegargumente (V2, 13.08.2026)
+
+Bis hierher beschreibt der Artikel, **was gewinnt**. Dieser Abschnitt beantwortet die
+Gegenfrage: **was haben die eigenen Beitraege davon bedient, und hat die Jury das auch so
+gesehen?** Geprueft wurden die drei JANS-Schulbau-Teilnahmen mit Jury-Urteil gegen S1 bis
+S12. Alle Zitate sind am Original nachgeprueft (Etappe 4, Lauf 02).
+
+**Raenge, aus den Berichten belegt, nicht aus dem Gedaechtnis:** 2102 Muttenz «PATIO IM
+PIANO NOBILE» Nr. 20 = **4. Rang / 3. Preis** CHF 13'000 (Jurybericht, gedruckte S. 14,
+Rangierungstabelle) · 2206 Schoental «ARCHE» Nr. 25 = **3. Rang / 3. Preis** CHF 25'000
+(Schlussbericht S. 11, Tab. 1 und 2) · 2103 Steinhof «Patio in Nobile» Nr. 9 = **kein Rang**,
+aus der engeren Wahl im finalen Rundgang zurueckgestuft (Jurybericht S. 13).
+
+### 7.1 Die Matrix
+
+Legende — **B** bedient · **T** teilweise · **N** nicht bedient · **–** nicht anwendbar.
+Zweiter Buchstabe: hat die Jury es benannt? **a** ausdruecklich · **s** sinngemaess ·
+**o** ohne Erwaehnung · **w** Jury widerspricht.
+
+| | 2102 Muttenz (4. Rang) | 2103 Steinhof (kein Rang) | 2206 Schoental (3. Rang) |
+|---|---|---|---|
+| S1 Setzung baut Bestand weiter | T / o | T / o | **B / a** |
+| S2 Freiraum zoniert | T / s | T / o | T / s |
+| S3 Bestand als Schutzgut | B / o | **N** / o | T / s |
+| S4 Nutzbare Erschliessung | T / **w** | T / o | T / **w** |
+| S5 Lerncluster | T / o | T / o | T / s |
+| S6 Betriebs-Entflechtung | T / o | T / o | **B / a** |
+| S7 Kompaktheit | T / **a + w** | B / o | B / o |
+| S8 Vereinssport eigene Adresse | T / o | T / o | – |
+| S9 Vorfabrikation/Material | B / s | T / o | T / a |
+| S10 Kind-/Nutzerperspektive | **N** / o | **N** / o | **N** / o |
+| S11 Adressierung | **B / a** | T / o | **B / a** |
+| S12 Stufentrennung KG/Primar | – | – | T / o |
+
+### 7.2 Was die Matrix zeigt
+
+**Erstens: kein einziger der drei Beitraege bediente S10 (Kind-/Nutzerperspektive) — und
+keine der drei Jurys hat das je geruegt.** Das ist der auffaelligste Befund und zugleich
+eine Warnung an den Artikel selbst: S10 ist aus **fremden** Berichten destilliert und in
+den eigenen Verfahren nie schlagend geworden. Der Punkt bleibt gueltig (die Belege aus
+Hausen und Riehen stehen), aber er ist fuer die eigene Praxis unbelegt. In 2103 war er
+sogar ausdrueckliche Programmvorgabe — «Kindgerechte Materialien, Farben und Atmosphaeren,
+welche vor allem stetes aktives Gestalten unterstuetzen, werden vorausgesetzt» (Jurybericht,
+Ziff. 1.2.1, S. 5) — und der eigene Erlaeuterungstext beantwortet sie nicht. Eine unbeantwortete
+Programmvorgabe wurde hier nicht bestraft; verlassen darf man sich darauf nicht.
+
+**Zweitens: die Staerke liegt konstant bei S11 und S1, die Schwaeche konstant bei S4.**
+Adressierung wurde in beiden rangierten Beitraegen ausdruecklich gelobt («Der Schulneubau
+erhaelt eine klare Adressierung an der Stockertstrasse», 2102 S. 39; «Die Zugaenge liegen
+uebersichtlich angeordnet im etwas erhoehten Erdgeschoss», 2206 S. 28). Verloren wurde
+beide Male an S4, und zwar an dessen paedagogischem Unterpunkt. Das bestaetigt Abschnitt 1
+(gewonnen wird auf der Betriebs-/Paedagogik-Ebene) an den eigenen Beitraegen.
+
+**Drittens: S4 wurde zweimal mit unterschiedlicher Mechanik verloren.** In 2206 fehlte die
+Sichtbeziehung («Leider fehlt die Transparenz zwischen den beiden noerdlichen Klassenzimmern
+und der Lernlandschaft», S. 28). In 2102 war die Halle raeumlich vorhanden und
+gross, aber ohne Programm: «Die zentrale Halle stellt ein zusaetzliches Angebot dar, ist aber
+fuer den Mittagstisch im Obergeschoss nicht nutzbar und stellt deshalb keinen eigentlichen
+Mehrwert dar. Das Erdgeschoss enthaelt nur die Eingaenge mit der vertikalen Erschliessung,
+aber keine Nutzungen, die den Pausenplatz beleben.» (S. 39)
+
+### 7.3 Drei Schaerfungen, die aus der Rueckkopplung folgen
+
+**Schaerfung zu S4 — der Brandschutz-Kunstgriff ist notwendig, aber nicht hinreichend.**
+S4 fuehrt das zweite Fluchttreppenhaus (Beleg Zelgli Schlieren) als Mechanismus, um die
+Erschliessungsflaeche der Lernlandschaft zuzuschlagen. **2102 hat genau diesen Kunstgriff
+angewandt** und in der Abgabe ausformuliert: «Zwei Entfluchtungstreppenhaeuser loesen die
+Fluchtwegsituation im Brandfall und ermoeglichen es, die gesamten Geschosse als
+Nutzungseinheit zu klassieren. Dadurch kann die Erschliessungshalle der Schule als
+vollwertige, moeblierte Zone dienen» (eigene Abgabe). Die Jury hat den Kunstgriff **nicht
+honoriert und nicht einmal erwaehnt** — sie verwarf die Halle aus einem anderen Grund, dem
+fehlenden Nutzungsbezug zum Mittagstisch. Der Sieger «hannes» erreichte dasselbe Ziel mit
+einer anderen Technik und bekam den Punkt: «Weil die Schulgeschosse vom Treppenhaus
+abgetrennt sind, wird die innenliegende Halle und damit fast alle Erschliessungsflaechen
+nutzbar.» (S. 21) — und kam als Gebaeude mittlerer Hoehe mit unter 900 m2 Geschossflaeche
+sogar «mit nur einem vertikalen Fluchtweg aus» (S. 21). **Regel: Der regulatorische
+Kunstgriff schafft die Erlaubnis, die Flaeche zu bespielen; den Punkt gibt es erst fuer die
+Nutzungen, die dann wirklich darin liegen.** Ein zweites Treppenhaus ohne angrenzendes
+Programm ist bezahlte Flaeche ohne Ertrag.
+
+**Schaerfung zu S7 — die Unterscheidung Fussabdruck gegen Volumenkennwert ist keine
+Feinheit, sie ist die Bruchlinie innerhalb eines einzigen Projekts.** Die Wuerdigung von
+2102 lobt und verurteilt beides auf derselben Seite: «Der kompakte Fussabdruck laesst viel
+Freiraum und ermoeglicht eine spaetere Erweiterung der Schulanlage» — und zwoelf Zeilen
+spaeter «Das Projekt weist sowohl die groesste Geschossflaeche wie auch das groesste Volumen
+auf. Die hohen Kennwerte zeigen sich auch in den vergleichsweise hohen Kosten.» (beide
+S. 39). Die Jury benennt die Ursache selbst: «Die Doppelsporthalle ist zu Zweidrittel in den
+Boden versenkt … Dies fuehrt zwar zu einem kleinen oberirdischen Volumen, das aber einen
+grossen unterirdischen Fussabdruck aufweist.» (S. 39) **Regel: Ein kompakter oberirdischer
+Fussabdruck rechtfertigt nie die Behauptung «kompakt», solange GF und GV im Feld an der
+Spitze liegen. Beide Groessen sind vor Abgabe gegen das Feld zu schaetzen, nicht nur die
+eigene.** Der Sieger lag «im Bereich des Mittelfeldes knapp unter dem Mittelwert» (S. 21) —
+und wurde fuer seinen Footprint sogar geruegt («ein eher grosser Footprint», S. 21). Er
+gewann trotz schlechterem Fussabdruck, weil die Gesamtkennwerte stimmten.
+
+**Schaerfung zu S9/S3 — das Kompensationsmittel muss ueberall dort liegen, wo die Ursache
+liegt.** In 2206 erzeugte das umlaufende Vordach denselben Effekt an zwei Orten, wurde aber
+nur an einem kompensiert: gelobt als «guter baulicher Sonnenschutz», gefolgt von «Die
+Belichtung der Lernlandschaft bleibt durch das grosse Oblicht trotzdem gewaehrleistet»
+(S. 29) — und zugleich kritisiert, «weil der an sich gute ueberdeckte Vorbereich die
+natuerliche Belichtung im hinteren Bereich einschraenken duerfte» beim oestlichen
+Kindergarten (S. 28). **Das Oblicht als Gegenmittel war im Projekt vorhanden, nur nicht dort,
+wo der zweite Schatten entstand.** Regel: Wird ein verschattendes Element umlaufend
+eingesetzt, ist die Tageslicht-Kompensation an **jedem** dahinterliegenden Hauptraum
+nachzuweisen, nicht nur am Vorzeigeraum.
+
+### 7.4 Zwei Kandidaten fuer eigenstaendige Argumente (noch nicht in S1–S12)
+
+**Kandidat A — die Zielkosten koennen die Grundsatzfrage vorentscheiden, bevor der Entwurf
+beginnt.** In 2103 war die Grundsatzfrage Erhalt gegen Ersatz der Turnhalle formal offen,
+und die Jury betont ausdruecklich, sie habe dank «der ausgewogenen Anzahl an eingereichten
+Projekten, welche die Turnhalle erhalten oder eben ersetzen», einen «fundierten Entscheid in
+dieser Grundsatzfrage» faellen koennen (S. 15). Budgetaer war sie es nicht: «Die
+Investitionszielkosten für die baulichen Interventionen … betragen total 9,3 Mio. Franken
+(+/– 25 %), unter der Voraussetzung, dass die bestehende Turnhalle erhalten bleibt und
+entsprechend saniert und ertuechtigt wird.» (S. 6) JANS trat mit vollstaendigem Ersatzneubau
+an. Der Sieger nutzte die Gegenposition als ausdrueckliches Verkaufsargument: «Der Erhalt der
+bestehenden Turnhalle wird umfassend als Vorteil genutzt.» (S. 23) **Der Kausalzusammenhang
+zum Ausscheiden ist nicht belegt** — der Bericht nennt fuer Nr. 9 nur einen einzigen Satz
+(siehe 7.5) und keine Kostenzahl. Belegt ist allein die Konstruktion. Praxisregel trotzdem
+ableitbar und pruefbar: **Zielkostenangaben im Programm auf Konditionalsaetze absuchen; wo
+die Zielkosten an eine Bestandsentscheidung geknuepft sind, ist die Gegenposition
+begruendungspflichtig, nicht gleichrangig.**
+
+**Kandidat B — akustische Geschosstrennung ruhig gegen laermig als eigener Betriebsvorteil.**
+In 2102 formuliert die Jury das als verfahrensweite Erkenntnis: «In der Beurteilung hat sich
+gleichzeig gezeigt, dass eine Trennung der „ruhigeren“ Schulraeume von den „laermigeren“
+Spezialraeumen auf verschiedenen Geschossen betriebliche Vorteile bringt.» (S. 18, «gleichzeig»
+so im Original) — und rechnet es dem Sieger konkret an: «Die Unterbringung von «laermigen» und
+weniger «laermigen» Schulnutzungen auf verschiedenen Geschossen bringt betrieblich grosse
+Vorteile.» (S. 21) Das ist von S6 trennscharf: S6 entflechtet **Zugaenge und Wege nach
+Nutzergruppe**, hier geht es um **akustische Schichtung nach Geschoss**. Einzelverfahren-Beleg
+(n=1), deshalb noch kein eigener Punkt in S1–S12; bei der naechsten Schulbau-Quelle gezielt
+gegenzupruefen.
+
+### 7.5 Die Quellengrenze, die dieser Abschnitt nicht ueberspringt
+
+**Fuer 2103 Steinhof gibt es keinen Projektbeschrieb.** Der Bericht widmet Nr. 9 genau einen
+wertenden Satz: «Dabei erkannte das Preisgericht, dass das Projekt Nr. 9 Patio in Nobile im
+Vergleich mit den uebrigen Projekten der engeren Wahl nicht ebenbuertige Qualitaeten aufweist.
+Es wurde deshalb in den dritten Rundgang zurueckgestuft.» (S. 13) Danach erscheint Nr. 9 nur
+noch mit Teamblatt unter den Projekten des dritten Rundgangs (S. 81). **Die 2103-Spalte der
+Matrix beschreibt daher fast durchgehend die eigene Abgabe, nicht das Jury-Urteil** — jedes
+«o» in dieser Spalte heisst «der Bericht sagt dazu nichts», nicht «die Jury hat es
+uebersehen». Das deckt sich mit dem bereits 2026-07-13 festgehaltenen Befund, dass die
+Rueckstufungsgruende von 2103 nicht rekonstruierbar sind.
 
 ## Offene Punkte
 

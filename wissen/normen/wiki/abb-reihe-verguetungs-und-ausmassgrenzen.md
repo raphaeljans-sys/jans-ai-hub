@@ -53,17 +53,34 @@ ist.
 
 | ABB | Gewerk | Gerüst im Einheitspreis inbegriffen bis |
 |---|---|---|
-| SIA 118/244:2006 | Kunststeinarbeiten | **2,5 m** Belagshöhe |
-| SIA 118/246:2006 | Natursteinarbeiten | **2,5 m** Belagshöhe |
-| SIA 118/248:2006 | Plattenarbeiten | **2,5 m** Belagshöhe |
-| SIA 118/257:2005 | Maler-/Tapeziererarbeiten | **3,0 m** (Gerüst oder Leiter) |
-| SIA 118/265:2004 | Holzbau | **3,00 m** ab Gerüstfuss (Hilfsgerüst) |
-| SIA 118/266-1:2017 | Mauerwerk | **3,0 m** |
-| SIA 118/266-2:2017 | Natursteinmauerwerk | **3,0 m** |
+| SIA 118/244:2006 | Kunststeinarbeiten | **2,5 m Belagshöhe**, und nur «für Arbeiten zu Einheitspreisen» |
+| SIA 118/246:2006 | Natursteinarbeiten | **2,5 m Belagshöhe**, und nur «für Arbeiten zu Einheitspreisen» |
+| SIA 118/248:2006 | Plattenarbeiten | **2,5 m Belagshöhe**, und nur «für Arbeiten zu Einheitspreisen» |
+| SIA 118/257:2005 | Maler-/Tapeziererarbeiten | **3,0 m Arbeitshöhe ab Abstellbasis** (Gerüst oder Leiter) |
+| SIA 118/265:2004 | Holzbau | **3,00 m ab Gerüstfuss** (Hilfsgerüst) |
+| SIA 118/266-1:2017 | Mauerwerk | **3,0 m Mauerwerkshöhe ab Gerüstabstellbasis** |
+| SIA 118/266-2:2017 | Natursteinmauerwerk | **3 m Mauerwerkshöhe ab Gerüstabstellbasis** (Original schreibt «3 m», nicht «3,0 m») |
 | SIA 118/262:2004 | Betonbau | **keine Höhengrenze, aber umgekehrte Systematik** — Arbeitsgerüste für die Betonarbeiten werden **nicht vergütet**, ausser das LV führt dafür getrennte Positionen (Ziff. 8.4.2.2, S. 21). Lehr- und Schutzgerüste dagegen werden in getrennten Positionen vergütet (Ziff. 8.4.2.3) |
 
+> **⚠ Die Zahlen sind nicht ohne Weiteres vergleichbar — geprüft Run 50 (13.08.2026), Hauptprozess
+> an fünf Originalen.** Die Spalte nennt zwei verschiedene Messgrössen an zwei verschiedenen
+> Objekten. Die 2006er-Normen messen die **Belagshöhe**, also die Höhe der zu erstellenden
+> Bekleidung («einfache Gerüste für Arbeiten zu Einheitspreisen und bis 2,5 m Belagshöhe»,
+> wortgleich in 118/244, 118/246 und 118/248). Die Mauerwerksnormen messen die **Mauerwerkshöhe
+> ab Gerüstabstellbasis** («Erstellen, Vorhalten und Abbrechen einfacher Gerüste für
+> Mauerwerkshöhen bis 3 m ab Gerüstabstellbasis», 118/266-2 Ziff. 2.2, gedruckte S. 11 am
+> Rendering abgelesen), wobei die Gerüstabstellbasis ohne andere Angabe dem Mauerfuss entspricht
+> (118/266-1 Ziff. 1.1.3.9). **0,5 m Differenz zwischen zwei Werten, die von unterschiedlichen
+> Bezugspunkten aus gemessen werden, sind keine 0,5 m Differenz in der Sache.** Wer die Werte
+> gegenüberstellt, muss zusätzlich prüfen, ob Abstellbasis und Belagsfuss im konkreten Fall
+> zusammenfallen. Zweite Einschränkung, die die Tabelle bis Run 50 verschwieg: bei den drei
+> 2006er-Normen gilt die Inklusion **nur für Arbeiten zu Einheitspreisen** — bei Regie- oder
+> Pauschalpositionen greift sie nicht.
+
 **Die drei Ausbau-Normen von 2006 liegen bei 2,5 m, die übrigen bei 3,0 m — und der Betonbau
-kennt keine Höhengrenze, weil er die Frage anders stellt.** Die anderen ABB sagen: bis zu dieser
+kennt keine Höhengrenze, weil er die Frage anders stellt.** Diese Beobachtung bleibt gültig,
+ist nach dem Kasten oben aber als Beobachtung an **unterschiedlich definierten Grössen** zu
+lesen, nicht als sauberer Zahlenvergleich. Die anderen ABB sagen: bis zu dieser
 Höhe im Einheitspreis enthalten, darüber separat vergütet. Der Betonbau sagt: das Arbeitsgerüst
 wird überhaupt nicht vergütet, es sei denn, der Bauherr schafft im LV eine eigene Position dafür.
 Praktische Folge fürs LV: **wer im Beton-LV keine Gerüstposition ausschreibt, bekommt sie auch

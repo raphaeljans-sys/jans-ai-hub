@@ -1,8 +1,46 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 50 (13.08.2026) — Nachprüfung abgeschlossen, neuer Rückstand benannt
+
+- **N50-1 — vier Destillate der Run-47-Welle hatten NIE eine Refuter-Runde.** `sia-262-1-2003`,
+  `sia-264-1-2003`, `sia-267-1-2003` und `sia-281-3-2018` führen unter «Offene Punkte» korrekt
+  «Refuter-Runde ausstehend»; sie stammen alle vom 07.08.2026. Nach dem Ergebnis von Run 49/50
+  ist das der risikoreichste Bestand der KB: die unmittelbar vergleichbare Run-48-Welle wurde
+  17 von 17 beanstandet, mit **79 am Original bestätigten Kernbefunden**. Es gibt keinen Grund
+  anzunehmen, dass die Run-47-Welle besser ist. Zwei davon (`sia-262-1`, `sia-267-1`,
+  «Ergänzende Festlegungen» zu Betonbau und Geotechnik) speisen `ausschreibung` und
+  `werkvertrag` unmittelbar. **Das ist der nächste Batch.**
+
+- **N50-2 — 65 der 79 Befunde stützen sich auf die Nachprüf-Flotte, nicht auf den Hauptprozess.**
+  Der Hauptprozess hat 14 Befunde selbst am Original verifiziert (alle bestätigt, siehe Report
+  Ziff. 2). Die übrigen 65 sind von je einem unabhängigen Nachprüf-Agenten am Original mit
+  wörtlichem Belegzitat, PDF-Seite und abgelesener Folio-Nummer bestätigt worden — das ist eine
+  Stufe schwächer als eigene Sicht. Sie sind inline eingearbeitet, weil ein Marker, den niemand
+  auflöst, das Destillat dauerhaft unbenutzbar hält; der Beleg steht jeweils im
+  Bestätigungsvermerk und ist damit nachprüfbar geblieben.
+
+- **N50-3 — die Verdikt-Verteilung 79 BESTÄTIGT / 0 WIDERLEGT ist selbst prüfbedürftig.**
+  Methodik-Pflicht 7 existiert, weil Run 40 Refuter-Befunde fand, die richtig beobachtet und
+  trotzdem keine Befunde waren. Eine Quote von exakt null Widerlegungen kann bedeuten, dass die
+  Run-48-Welle wirklich so schlecht war (dafür spricht: ein einziger Methodenfehler, das Schätzen
+  der Seitenzahl, erzeugt allein rund 120 falsche Fundstellen), oder dass die Nachprüfer dem
+  Refuter gefolgt sind statt selbst zu prüfen. Die 14 unabhängigen Hauptprozess-Prüfungen stützen
+  die erste Lesart, sind aber eine Stichprobe. **Nächster Lauf: eine Gegenprobe mit bewusst
+  eingestreuten Falschbehauptungen, um die Widerlegungsfähigkeit der Nachprüf-Stufe zu messen.**
+
+- **N50-4 — die vier «Ergänzende Festlegungen»-Destillate der Run-47-Welle und die ABB-Reihe
+  sind noch nicht gegeneinander gelesen.** Die ABB-Synthese deckt zehn ABB ab, die Reihe umfasst
+  mehr (118/240, 118/242, 118/243, 118/251, 118/252, 118/253 gemäss REGISTER). Ob deren Werte in
+  dasselbe Muster fallen, ist unverändert ungeprüft.
+
 ## Normen-Nacht Run 49 (13.08.2026) — nach den 17 Refuter-Runden
 
-- **N49-1 — 65 von 70 Kernbefunden sind noch NICHT hauptprozess-verifiziert.** Die Refuter-Flotte
+- **N49-1 — ERLEDIGT in Run 50 (13.08.2026).** Alle Kernbefunde sind am Original nachgeprüft
+  (79 statt der gemeldeten 70, weil mehrere Marker mehrere Einzelbefunde trugen), sämtlich
+  BESTÄTIGT, sämtlich inline eingearbeitet; null ⚠-Marker verbleiben in der KB. Reihenfolge nach
+  Wirkung eingehalten: BKP-Codes und Vergütungs-/Ausmassgrössen zuerst. Nachfolgefragen: N50-2
+  (Beweisstufe) und N50-3 (Verdikt-Verteilung). Ursprünglicher Wortlaut:
+  «65 von 70 Kernbefunden sind noch NICHT hauptprozess-verifiziert.» Die Refuter-Flotte
   hat 70 Kernbefunde gemeldet; der Hauptprozess hat 5 davon selbst am Original nachgeprüft (alle
   bestätigt). Die übrigen 65 stehen als sichtbare Marker im jeweiligen Destillat, sind aber NICHT
   in Korrekturen überführt — ein Refuter-Befund kann ein Werkzeug-Artefakt sein, und eine ältere

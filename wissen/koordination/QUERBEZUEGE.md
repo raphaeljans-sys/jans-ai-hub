@@ -158,6 +158,48 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen (ABB SIA 118/262) ↔ Skill ausschreibung — die Korrektur blieb in der KB stecken — geprueft 2026-08-13 (Run 30)
+- **Befund (BESTAETIGT, hoch — der erste Befund seit Run 25 mit direkter Geldwirkung):** `normen`
+  Run 49 hat um 01:43 eine **Bedeutungsumkehr** in der ABB-Synthese korrigiert (Arbeitsgerueste
+  Betonbau). Der Skill `ausschreibung`, den Run 29 dreissig Minuten zuvor an genau diese Stelle
+  verdrahtet hatte, trug die falsche Fassung weiter: «und beim Betonbau gar nicht inbegriffen»
+  (SKILL.md Z. 112-113). Die KB hat sich selbst geheilt, den Abnehmer aber nicht mitgenommen.
+- **Verifikation am Original, nicht abgeschrieben.** Ein adversarialer Refuter mit der
+  Nullhypothese «die Korrektur ist der eigentliche Fehler» hat das Original-PDF auf SharePoint
+  gelesen (`118_262_2004_d.pdf`, Seitenzuordnung ueber die Copyright-Fusszeilen verifiziert) und
+  die Nullhypothese widerlegt: Ziff. 8.4.2.2 (S. 21) «werden nicht verguetet, ausgenommen wenn im
+  Leistungsverzeichnis hierfuer getrennte Positionen enthalten sind» heisst nach der Definition
+  Ziff. 0.3 (S. 10) **inbegriffen**, gestuetzt durch Ziff. 1.3.2.3 (Arbeitsgeruest ist
+  Unternehmeraufgabe), Ziff. 1.3.1.5 und den Katalog Ziff. 8.2.1. Eine dritte Lesart wurde gezielt
+  gesucht und ausgeschlossen.
+- **Zweiter Befund derselben Wurzel, den vorher niemand hatte:** auch die Kontrastierung «anders
+  als die Mauerwerk-ABB» ist falsch. **Beide** ABB stellen Arbeitsgerueste in den Einheitspreis;
+  der Unterschied ist allein die Schwelle (SIA 118/266-1 Ziff. 2.2: bis 3,0 m; SIA 118/262: keine
+  Hoehengrenze). Der Betonbau ist fuer die Bauherrschaft also **grosszuegiger**, nicht enger —
+  genau umgekehrt zur bisherigen Darstellung. Wer nur die Formel «nicht inbegriffen» →
+  «inbegriffen» getauscht und den Nebensatz stehen gelassen haette, haette einen neuen Fehler
+  erzeugt.
+- **Aktion (Run 30):** SKILL.md korrigiert — eigener Absatz mit Fundstelle, LV-Konsequenz
+  (**keine** Geruestposition ins Beton-LV, sonst Doppelverguetung; Arbeitsgeruest-Nachforderung
+  ohne LV-Position unbegruendet), Abgrenzung zu Lehr-/Schutzgeruesten (Ziff. 8.4.2.3) und der
+  richtiggestellten Mauerwerk-Parallele.
+- **Zweite Aktion, dieselbe Wurzel:** die von Run 29 gesetzte Trennung Warnkarte ↔ Zitierquelle
+  benannte den Verifikationsstatus **nur beim Wiki**. Das Destillat war als alleinige Zitierquelle
+  deklariert, obwohl 8 der 10 ABB-Destillate `speculative` sind und `sia-118-262-2004` intern eine
+  Nichtverwendungs-Sperre trug, von der die Skill-Anweisung nichts wusste. Neuer Vorbehalt setzt
+  am Feld `status:` an, **nicht** an einer Normnummern-Liste (die veraltet mit der naechsten
+  Statushebung — Fehlertyp Phantom-Code 271.10).
+- **Bewusst NICHT getan:** kein Eingriff in `wissen/normen/**`. Ein `normen`-Lauf 50 arbeitete
+  waehrend dieses Laufs an denselben Dateien (Destillat um 02:03 geaendert, vier Parallelsessions
+  gemessen) und hat die drei Destillat-Stellen selbst korrigiert — inklusive derselben
+  Mauerwerk-Praezisierung, die der Refuter unabhaengig fand. Zwei unabhaengige Wege, dasselbe
+  Ergebnis; ein Eingriff waere Doppelarbeit mit Kollisionsrisiko gewesen (Rule
+  `auto-verbesserungen` 260811).
+- **Offen an `normen` uebergeben:** `destillate/INDEX.md` Z. 22 traegt die falsche Fassung
+  weiterhin und wurde von Run 50 bis 02:06 nicht mitgezogen. Ebenfalls offen: ob die Wendung
+  «umgekehrte Systematik» im korrigierten Wiki-Artikel (Z. 63) praezise genug ist — nach dem
+  Refuter ist die Systematik dieselbe, nur die Schwelle unterscheidet sich.
+
 ### normen ↔ energie (Fassungsstand SIA 382/2 — die zweite Bring-Schuld derselben Passage) — geprueft 2026-08-13 (Run 29)
 - **Befund (gedaempft von WIDERSPRUCH auf UEBERGABE-NICHT-NACHGEZOGEN, mittel — der einzige
   substanzielle Sachbefund dieses Laufs):** Das am 08.08.2026 angelegte Erstdestillat
@@ -236,6 +278,11 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
   091100 ist NPK-113-Standardtext und steht identisch in 11 von 12 Dateien; und einen
   `speculative`-Wert in ein Kopier-Vorbild zu schreiben, ist die schaerfste Form von «als
   Zitierquelle verwendet». Offener Entscheid: ob ein Satz dazu in `goldstandard-lv/README.md` soll.
+- ⚠ **Nachtrag 13.08.2026 (Run 30): der oben referierte Run-48-Befund «beim Betonbau gar nicht
+  inbegriffen» ist FALSCH.** Er bleibt hier als Wiedergabe des damaligen Standes stehen, ist aber
+  am Original widerlegt: SIA 118/262:2004 Ziff. 8.4.2.2 (S. 21) stellt die Arbeitsgerueste fuer
+  Betonarbeiten **in den Einheitspreis**. Die daraus abgeleitete Formulierung im Skill
+  `ausschreibung` ist in Run 30 korrigiert. Aufloesung siehe den Paar-Eintrag zuoberst.
 
 ### energie ↔ planungsgrundlagen (Minergie-Verfahren, EN-101b) — geprueft 2026-08-13 (Run 29)
 - **Befund (gedaempft, mittel):** Governance-Luecke, kein Sachwiderspruch. Rund 20
