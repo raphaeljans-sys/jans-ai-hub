@@ -27,7 +27,23 @@ Report: `outputs/2026-08-14_normen-nacht-run51.md`.
 4. **N50-4 praezisiert.** Die sechs ABB 118/240, 242, 243, 251, 252, 253 sind nicht
    «nicht destilliert», sondern **nicht im Haus**; alle zwoelf im Bestand liegenden 118er sind
    destilliert. Der Punkt geht an die Beschaffung, nicht an den Loop (Methodik-Pflicht 10).
-5. **Neuer Vorschlag Methodik-Pflicht 12 (Raphael zur Freigabe, N51-1):** nach jeder
+5. **N48-3 ERLEDIGT — die Anhang-D-Matrix der SIA 112/1 rechnerisch aufgenommen.** 136 Zeilen x
+   14 Spalten = **1904 Kreuzfelder, 1904 gemessen (100 %)**, von einer zweiten Statistik mit
+   anderem Entscheidungsmerkmal in 1904/1904 bestaetigt; Export
+   `training/sia112-1-anhangD-matrix.tsv`. **4 Kernbefunde**, alle vom Hauptprozess am eigenen
+   Rendering der S. 42-43 nachgeprueft: (1) die Matrix nutzt in 35 Zellen die Doppelmarke `LE`,
+   die die Legende D.3.1 nicht definiert, ausschliesslich beim Auftraggeber; (2) `E` kommt nur
+   in der Spalte Auftraggeber vor, diese ist in 136/136 Zeilen belegt — die Aussage in D.2,
+   partizipierende Akteure traeten vereinzelt als Entscheidungstraeger auf, ist im Anhang D
+   nirgends eingeloest; (3) genau eine Zeile hat keinen Entscheidungstraeger
+   (Kommunikation/Oeffentlichkeitsarbeit, S. 43); (4) die Matrix fuehrt fuenf Akteursspalten,
+   D.1.2 nennt nur vier — die Spalte Betreiber fehlt dort, obwohl in 71 Zeilen belegt und in 35
+   davon Leistungstraeger. **Methodik-Pflicht 6 in Reinform:** keiner der vier Befunde waere
+   durch «pruefen, ob stimmt was das Destillat behauptet» gefunden worden. Nebenertrag fuer
+   `honorarberechnung-sia102`: die Phasenbelegung ist stark auf die fruehen Phasen gewichtet
+   (Vorstudien 111, Realisierung nur 12 von 136). Offen bleibt, dass die OCR-gestuetzten
+   Zeilentexte und Kriterien-Rueckverweise des Exports nicht zitierfaehig sind.
+6. **Neuer Vorschlag Methodik-Pflicht 12 (Raphael zur Freigabe, N51-1):** nach jeder
    Status-Hebung auf `established` im selben Lauf pruefen, ob das Destillat noch eine Zeile
    traegt, die den Status als offen behauptet. Drei Faelle in einem Lauf gefunden, einer davon
    hat einen ganzen Batch-Auftrag fehlgeleitet.

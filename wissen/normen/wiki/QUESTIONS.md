@@ -178,7 +178,41 @@
   Registerfehler? Zu klaeren am `Gesamtverzeichnis SIA.pdf` bzw. an `ersetzte_normen.pdf`, die
   beide im Bestand liegen. Kein Handlungsdruck, aber eine offene Kette.
 
-- **N48-3 — SIA 112/1, Anhang D: die E/L/P-Kreuzfelder der Matrix S. 43-48 sind ungemessen.**
+- **N48-3 — ERLEDIGT in Run 51 (14.08.2026). Die Matrix ist rechnerisch aufgenommen, und sie
+  hat vier Kernbefunde hergegeben.** 136 Leistungszeilen × 14 Kreuzfeld-Spalten = **1904 Felder,
+  1904 gemessen (100 %)**, 972 belegt, 932 leer, 0 unklassifizierte Glyphen. Eine zweite
+  Statistik mit anderem Entscheidungsmerkmal bestätigte **1904 von 1904**. Vollständiger Export:
+  `training/sia112-1-anhangD-matrix.tsv`. Alle vier Kernbefunde hat der Hauptprozess am eigenen
+  200-dpi-Rendering der S. 42-43 selbst nachgeprüft und bestätigt:
+  (1) **Die Matrix verwendet ein fünftes Zeichen, das die Legende nicht kennt:** die Doppelmarke
+  `LE` in 35 Zellen, ausschliesslich in der Spalte Auftraggeber. Ziff. D.3.1 definiert nur
+  E, L, P und x; die Auflösung steht im Fliesstext D.2, nicht in der Legende.
+  (2) **`E` kommt in der ganzen Matrix nur beim Auftraggeber vor**, und dessen Spalte ist in
+  136 von 136 Zeilen belegt. Die Aussage in D.2, partizipierende Akteure träten «vereinzelt sogar
+  als … Entscheidungsträger (E)» auf, ist im Anhang D für die E-Rolle **nirgends** eingelöst —
+  für die L-Rolle dagegen 35-mal (durchwegs der Betreiber).
+  (3) **Genau eine Zeile kennt keinen Entscheidungsträger:**
+  «Kommunikation/Öffentlichkeitsarbeit/Information» (S. 43), dort ist der Auftraggeber selbst
+  Leistungsträger.
+  (4) **Die Matrix hat fünf Akteursspalten, Ziff. D.1.2 nennt nur vier Akteure** — die Spalte
+  Betreiber fehlt dort, obwohl sie in 71 Zeilen belegt und in 35 davon Leistungsträger ist.
+  **Das ist der Beleg für Methodik-Pflicht 6 in Reinform:** die visuelle Lesung hatte die
+  Zeilentexte, Blocktitel und Spaltenköpfe zuverlässig erfasst — und trotzdem vier
+  Struktureigenschaften der Tabelle übersehen, darunter ein undefiniertes Zeichen und eine ganze
+  Spalte, die der begleitende Normtext nicht nennt. Kein einziger dieser Befunde wäre durch
+  «prüfen, ob stimmt was das Destillat behauptet» gefunden worden; alle vier kommen aus der
+  Gegenrichtung «was steht in der Quelle, wovon das Destillat nichts sagt».
+  **Neuer Ertrag für die Fach-Skills:** die Phasenbelegung ist stark asymmetrisch (Vorstudien
+  111, Projektierung 79, Bewirtschaftung 70 — Realisierung nur 12 von 136). Für die
+  Honorarargumentation nach SIA 102 heisst das, der Zusatzaufwand aus SIA 112/1 fällt ganz
+  überwiegend **vor** der Ausführung an.
+  **Was offen bleibt:** die Zeilentexte und Kriterien-Rückverweise des Exports stammen aus OCR
+  und enthalten erkennbare Fehler — **kein Kriterien-Rückverweis daraus ist zitierfähig**, ohne
+  am Original nachgelesen zu werden. Die Kreuzfelder selbst sind davon unberührt. Ferner wurden
+  die S. 45 und 47 nur rechnerisch doppelt gemessen, nicht zusätzlich ganzseitig sichtgeprüft
+  (S. 43, 44, 46, 48 schon). Ursprünglicher Wortlaut:
+
+- **N48-3 (ursprünglich) — SIA 112/1, Anhang D: die E/L/P-Kreuzfelder der Matrix S. 43-48 sind ungemessen.**
   Die Matrix ordnet ueber sechs Seiten jeder Leistung Phase, Akteur (E/L/P) und raeumlichen Fokus
   zu. Zeilentexte, Blocktitel und Kriterien-Rueckverweise sind zuverlaessig aufgenommen; die
   Kreuzfelder selbst sind bei sehr kleiner Schrift **visuell** gelesen und **nicht** rechnerisch

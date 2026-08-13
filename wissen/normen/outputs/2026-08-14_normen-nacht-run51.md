@@ -158,7 +158,55 @@ die Beschaffung geht. Er geht an die Beschaffung (SIA-Shop, kostenpflichtig, Bri
 N48-4). Der zweite Teil der Frage — ob ihre Werte in dasselbe Muster fallen — ist damit nicht
 beantwortet und **kann** ohne die Originale nicht beantwortet werden.
 
-## 7. Vorschläge an Raphael (nicht selbständig umgesetzt)
+## 7. N48-3 erledigt: die Anhang-D-Matrix der SIA 112/1 rechnerisch aufgenommen
+
+Parallel zur Gegenprobe lief der seit Run 48 offene Auftrag, die E/L/P-Kreuzfelder der
+sechsseitigen Matrix in Anhang D zu messen statt visuell zu lesen. **136 Leistungszeilen ×
+14 Kreuzfeld-Spalten = 1904 Felder, 1904 gemessen (100 %)**, 972 belegt, 932 leer, null
+unklassifizierte Glyphen. Eine zweite Statistik mit anderem Entscheidungsmerkmal (Euler-Zahl
+für geschlossene Löcher, Kopfband-Deckung für E gegen L) bestätigte **1904 von 1904**. Export:
+`training/sia112-1-anhangD-matrix.tsv`.
+
+**Vier Kernbefunde, alle vom Hauptprozess am eigenen 200-dpi-Rendering der S. 42-43
+nachgeprüft und bestätigt:**
+
+1. **Ein fünftes Zeichen, das die Legende nicht kennt.** In 35 Zellen steht die Doppelmarke
+   `LE`, ausschliesslich in der Spalte Auftraggeber. Ziff. D.3.1 (S. 42) definiert nur E, L, P
+   und x. Die Auflösung steht im Fliesstext D.2 — «die Auftraggeber treffen die … Entscheide (E)
+   und erbringen zum Teil Leistungen (L)» — also im Text, nicht in der Legende. Wer die Matrix
+   mit dem Zeichenvorrat der Legende liest, hat für 35 Felder kein Zeichen.
+2. **`E` kommt in der ganzen Matrix nur in der Spalte Auftraggeber vor**, und diese ist in
+   136 von 136 Zeilen belegt (E 100 · LE 35 · L 1). Damit ist die Aussage in D.2, die
+   partizipierenden Akteure träten «vereinzelt sogar als Leistungsträger (L) oder
+   Entscheidungsträger (E)» auf, für die **E**-Rolle im ganzen Anhang D **nirgends** eingelöst;
+   für die L-Rolle dagegen 35-mal, durchwegs beim Betreiber.
+3. **Genau eine der 136 Zeilen kennt keinen Entscheidungsträger:**
+   «Kommunikation/Öffentlichkeitsarbeit/Information» (S. 43) — dort ist der Auftraggeber selbst
+   Leistungsträger (Behörden P · Auftraggeber L · Planer L · Nutzer P).
+4. **Die Matrix hat fünf Akteursspalten, Ziff. D.1.2 nennt nur vier Akteure.** Die Spalte
+   Betreiber fehlt in der D.1.2-Aufzählung, ist aber in 71 Zeilen belegt und in 35 davon
+   **Leistungsträger** — im Block Betriebskonzept trägt sie praktisch durchgehend die Leistung.
+
+**Das ist Methodik-Pflicht 6 in Reinform.** Die visuelle Lesung aus Run 48 hatte Zeilentexte,
+Blocktitel und Spaltenköpfe zuverlässig erfasst — und trotzdem vier Struktureigenschaften
+übersehen, darunter ein undefiniertes Zeichen und eine ganze Spalte. **Keiner der vier Befunde
+wäre durch «prüfen, ob stimmt was das Destillat behauptet» gefunden worden.** Alle vier kommen
+aus der Gegenrichtung: was steht in der Quelle, wovon das Destillat nichts sagt.
+
+**Neuer Ertrag für die Fach-Skills.** Die Phasenbelegung ist stark asymmetrisch (von je 136:
+Vorstudien 111 · Projektierung 79 · Bewirtschaftung 70 · Ausschreibung 27 · Strategische
+Planung 25 · **Realisierung nur 12**). Für die Honorarargumentation nach SIA 102 heisst das:
+der Zusatzaufwand aus SIA 112/1 fällt ganz überwiegend **vor** der Ausführung an.
+
+**Was offen bleibt:** die Zeilentexte und Kriterien-Rückverweise des Exports stammen aus OCR
+und enthalten erkennbare Fehler («A.2AAA.7» statt «A.2 A.4 A.7», «G.3» statt «C.3») — **kein
+Kriterien-Rückverweis daraus ist zitierfähig**, ohne am Original nachgelesen zu werden. Die
+Kreuzfelder selbst sind davon unberührt; der Zellen-OCR-Versuch scheiterte an isolierten
+Einzelbuchstaben und wurde deshalb gar nicht verwendet. Ferner: die S. 45 und 47 wurden nur
+rechnerisch doppelt gemessen, nicht zusätzlich ganzseitig sichtgeprüft (S. 43, 44, 46, 48
+schon) — eine ausgewiesene Asymmetrie.
+
+## 8. Vorschläge an Raphael (nicht selbständig umgesetzt)
 
 1. **Den Vorrang-Auftrag aus dem Task-Prompt entfernen.** Er ist seit Run 38 erledigt und wurde
    nun dreimal in Folge als überholt zurückgemeldet (Runs 49, 50, 51). Solange er im Prompt
@@ -173,13 +221,16 @@ beantwortet und **kann** ohne die Originale nicht beantwortet werden.
    Prüfung ist mechanisch und kostet Sekunden. Sie folgt derselben Logik wie die Beobachtung aus
    Run 50: **eine Pflicht ohne Kontrollpunkt im Lauf ist eine Empfehlung.**
 
-## 8. Offen — Übergabe
+## 9. Offen — Übergabe
 
 1. **Gegenprobe zweiter Ordnung:** dieselbe Anlage mit Kontrollen der Typen «Aussage ins
    Gegenteil verkehrt», «Bedingung weggelassen», «Fundstelle auf die Nachbarziffer verschoben».
    Run 51 hat die Sensitivität nur für Zahlendreher gemessen (N50-3 neu gefasst).
 2. **Unverändert offen aus Run 48:** SIA 118/265:2018 beschaffen (N48-4), Nachfolge-Status der
-   vier Altnormen (N48-5), SIA 382/2 gegen SIA 382/1:2014 (N48-7).
+   vier Altnormen (N48-5), SIA 382/2 gegen SIA 382/1:2014 (N48-7). **N48-3 ist erledigt**
+   (Ziff. 7).
+2a. **Aus N48-3 neu:** die Kriterien-Rückverweise der Anhang-D-Matrix am Original nachlesen und
+   den OCR-Teil des Exports ersetzen; die S. 45 und 47 ganzseitig sichtprüfen.
 3. **Neu aus Ziff. 6:** die sechs ABB 118/240, 242, 243, 251, 252, 253 als Beschaffungsposten
    führen, nicht als Destillier-Rückstand.
 4. **Fremde KB, weiterhin nur gemeldet** (aus Run 50):
