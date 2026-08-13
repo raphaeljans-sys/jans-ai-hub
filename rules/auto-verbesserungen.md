@@ -14,6 +14,20 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260813 — Projekt-Ablage 2619 KISPI: Original mit MD intern, Spiegel ohne MD in der geteilten Bibliothek
+- **Regel:** Gewerks-Deliverables im Projekt 2619 KISPI werden zweifach abgelegt (Freigabe
+  Raphael 13.08.2026): (1) **Original inkl. MD-Quelldatei** nach
+  `OneDrive-FreigegebeneBibliotheken–JANS/AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/<LOS-Gewerk>/…`
+  (interne Bibliothek); (2) **Spiegelung ohne MD-Datei** (nur DOCX/PDF/Grafiken, gleiche
+  Ordnerstruktur und Namensstämme) nach
+  `OneDrive-FreigegebeneBibliotheken–JANS/JANS - 2619-KISPI - Dokumente/2 Umbauprojekt Neu PPTS/33.04 BKP/<LOS-Gewerk>/…`.
+  Grund: Die KISPI-Dokumente-Bibliothek ist für alle Projektbeteiligten zugänglich; die
+  MD-Arbeitsdateien bleiben privat. **Prinzip verallgemeinern:** In geteilte, für Dritte
+  zugängliche Projektbibliotheken gehören nie MD-Quell- oder Arbeitsdateien, nur die
+  fertigen Fassungen (DOCX/PDF/Pläne).
+- **Gilt fuer:** alle Deliverables im Projekt 2619 KISPI (BKP-/LOS-Ablage), sinngemäss für
+  jede geteilte Projektbibliothek; ergänzt Rule `projekt-ablage-stand.md`.
+
 ## 260811 — Kein globales Ersetzen in gewachsenen Dateien; nach jedem Schreiben `--numstat` pruefen
 - **Regel:** (1) Um **eigenen** Text in einer gewachsenen, geteilten Datei zu korrigieren, wird
   **nie** ein globales Suchen-und-Ersetzen ueber den ganzen Dateiinhalt gefahren (`sed -i` ohne
