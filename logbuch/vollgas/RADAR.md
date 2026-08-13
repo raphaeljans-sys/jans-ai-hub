@@ -52,6 +52,99 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-13 12:58 — [FREI] **Erster Regellauf nach dem 109-h-Ausfall: die Flotte trägt wieder, und zwar voll.** 109 Commits in 14 h, 96 geänderte Wissens-Dateien heute, kein einziger Delta-Null-Loop. Ampel **FREI** (23.2 % bei 43.4 % verstrichener Woche, Vorsprung **-20.2**). Ausgeführt: `grobkosten` als freies Nachtschicht-Ziel ausgesetzt — Endbedingung erreicht (Schritt 6). Kein Mail-Anlass
+
+**Selbstkontrolle: bestanden, erstmals seit vier Läufen.** Letzter Eintrag 13.08. 01:51, dieser
+Lauf 12:58 — Abstand **11 h 07 min** bei 12-h-Takt und 15 h Toleranz. Der eigene `lastRunAt`
+(10:57:50 UTC = 12:57 CEST) deckt sich mit diesem Lauf, es fehlt kein gefeuerter Lauf dazwischen.
+Der Nachhol-Sturm vom 00:51 hat sich in den regulären Takt eingeschwungen.
+
+**Fenster [FREI], sauber gemessen.** Die Probe lief in zwei Anläufen: der erste starb an
+`(eval):set:2: can't change option: -m` — **`set -m` gibt es in dieser zsh nicht**, das im Auftrag
+vorgeschriebene Watchdog-Rezept setzt eine bash voraus. Wiederholung als `/bin/bash -c '…'`:
+rc=0, Antwort «OK», Laufzeit unter zehn Sekunden. Das ist kein Kontingent- und kein Loginbefund,
+sondern eine Werkzeugfalle in der Vorschrift selbst — dieselbe Familie wie die `< /dev/null`-Falle
+vom 04./05.08. Gegenprobe nach dem Lauf: `ps -eo pid,ppid,command | grep "claude -p"` zeigt
+**nichts**, es sind keine Waisen entstanden, die Gate-Plätze sind frei.
+
+**Wochenbudget: der Verbrauch läuft dem Kalender weiterhin deutlich HINTERHER.** 38.82 von
+167 Mio teuer = 23.2 %, bei 43.4 % verstrichener Woche. Vorsprung **-20.2 Punkte** (Vorlauf 01:51:
+-19.5) — die Lücke ist trotz eines vollen Arbeitsvormittags noch um 0.7 Punkte gewachsen. Beide
+Stationen frisch (MacBook Pro 29.19, Mac Mini 9.63). Der Rückstand ist die direkte Nachwirkung
+des fünftägigen Stillstands vom 08.–12.08. und **kein Drosselgrund**; im Gegenteil, unter dem
+stehenden Entscheid «gleichmässig über die Woche» ist eher Luft nach oben. Keine Drossel gesetzt,
+keine gedrosselte Task zurückzudrehen — es steht aktuell keine.
+
+**Liefer-Delta: durchweg positiv, kein Kandidat für den Leerlauf-Wächter.** 109 Commits in 14 h,
+davon rund 55 echte Arbeitscommits (der Rest `nas-selfcommit`-Viertelstundentakt, der als
+Status-Proxy nicht zählt). 96 Wissens-Dateien mit heutiger mtime über neun KBs. Namentlich mit
+belegtem Delta: `normen` (Run 49/50 — 79 von 79 Kernbefunden am Original nachgeprüft und
+bestätigt, drei falsche BKP-Zuordnungen gefunden, SIA 380/3 Kap. 4+5 erstmals geschrieben),
+`wettbewerbs-dna` (Etappe 4 Lauf 02, 3x12-Matrix Schulbau), `twin-mail-training` (Batch 92, 16
+Marker), `baurecht` (Buch-Run 73), `immobilienbewertung` (Marktpuls vorgezogen), `bauprodukte`
+(ERCO S. 317 → 374), `wissens-chef` (Run 30, Bedeutungsumkehr SIA 118/262 aus dem Skill
+`ausschreibung` entfernt), `methoden-radar` (Befund: die Rollen-Aufsicht war nie verdrahtet).
+Alle vier operativen Briefings haben geliefert.
+
+**Feuermechanismen: alle drei Orte stimmen überein.** (i) Lokale Registry 31 Tasks, keine
+Doppelfeuerung. (ii) launchd beide Stationen: `ch.jans.vollgas-supervisor` und
+`ch.jans.vollgas-monitor` tragen unverändert `.disabled-260729` und sind auf **keiner** Station
+geladen — der stehende Entscheid «nicht wieder beleben» ist gewahrt, dieser Lauf hat nichts
+gestartet und keine STOP-Datei angefasst. `ch.jans.nachtschicht` läuft auf dem Mini wie
+vorgesehen. (iii) Zweite Registry gegengeprüft: acht Mini-Tasks, Sollstand unverändert.
+
+**AUSGEFÜHRT — `grobkosten` als freies Nachtschicht-Ziel ausgesetzt (Schritt 6, Endbedingung).**
+Das ist der einzige Eingriff dieses Laufs. Sachlage: `training/quellen-inventar.md` trägt seit
+Run 15 (11.08.) **keine offene `[ ]`-Zeile** mehr, alle Kandidaten sind `[x]` oder `[-]`
+geschlossen, `wiki/kennwerte.md` trägt für die geführten Nutzungsarten belegte Werte. Die in
+`training/PROGRAMM.md` definierte Endbedingung ist damit formal erreicht. **Beide
+Nachtschicht-Läufe von heute (02:30 und 05:31) haben das unabhängig festgestellt und die
+Rücktaktung bewusst nicht selbst vollzogen**, weil sie darin eine Drosselentscheidung sahen
+(Rule `rollen-taxonomie`) — sachlich korrekt für einen Lern-Loop, aber der Slot wäre dadurch
+weiter an eine gesättigte KB gegangen. Schritt 6 meines stehenden Auftrags regelt genau diesen
+Fall und autorisiert ihn ausdrücklich: «meldet ein PROGRAMM.md oder CHANGELOG Inventar komplett,
+den Loop stilllegen und die frei werdende Kapazität auf die grösste offene Wissenslücke
+umlenken». Präzedenz identischer Machart: die Aussetzung von `projekt-lessons` durch diesen
+Radar am 05.08. Vollzug: Ausschlussblock in `scripts/nachtschicht-run.sh` Zeile 126 ergänzt,
+`git diff --numstat` = **1/1** (reine Zeilenersetzung, keine Kollateralschäden — Pflichtmessung
+nach Rule 260811). Kapazität geht an `energie` (27 offene ecoBKP-Merkblätter, S. 20–138) und
+`bauprodukte` (ERCO ab S. 375). Wiederaufnahme nur bei neuem Rohmaterial in `raw/` oder auf
+Auftrag, nicht stillschweigend. **Bewusst NICHT angefasst:** die Rolle `grower` in
+`rollen-map.tsv` (Umwidmung wäre Raphaels Entscheid) und das Feld `cron_target: "0 9,21 * * *"`
+in der Mini-Stationskopie — Frontmatter ist Dokumentation, nicht Live-Zustand, und ein Edit
+daran könnte einen produktiven Loop stillstellen.
+
+**Speicher: Druckstufe 2 (warn), knapp aber nicht kritisch.** free+inactive+purgeable ≈ 3.39 GB
+(free 72 MB, inactive 3.16 GB, purgeable ~0), `kern.memorystatus_vm_pressure_level` = 2. Kein
+Eingriff; die Stufe ist bei laufender Arbeitsstation plus Nachhol-Flotte erklärbar. Beim nächsten
+Lauf gegenmessen, ob sie unter Ruhelast auf 1 zurückgeht.
+
+**P1 — Die Delta-Null-Erkennung des Frühwarners hat seit dem 03.08. keine Datenbasis mehr.**
+Befund der `vollgas-fruehwarnung` von heute 07:15, an mich adressiert: ihre Kennzahl (c) misst den
+Fortschritt des Wissens-Destillat-Loops über dessen `outputs/`-Reports — und der Loop schreibt
+seit dem 03.08. keine mehr. Die Kennzahl zeigt seither nicht «kein Fortschritt», sondern
+**nichts**, und das ist der gefährlichere Zustand: ein Zähler, der stillschweigend ins Leere
+misst, sieht wie eine bestandene Prüfung aus. Gleiche Familie wie der Methoden-Radar-Befund von
+heute Nacht (Rollen-Aufsicht war nie verdrahtet, die Doku behauptete das Gegenteil) und wie
+Rule 260807. Nicht in diesem Lauf behoben, weil die Reparatur an der Messmethodik des Frühwarners
+ansetzt und eine Tiefenuntersuchung verlangt — der Regellauf bleibt schlank. Nächster Radar-Lauf
+oder ein eigener Auftrag.
+
+**P2 — Der Stillstand vom 08.–12.08. ist weiterhin nirgends ursächlich dokumentiert.** Steht
+unverändert aus dem 01:51-Eintrag; fünf Tage Totalausfall der App-Task-Flotte ohne bekannte
+Ursache heissen, dass eine Wiederholung nicht verhindert werden kann. Der heutige Betrieb ist
+kein Beleg dafür, dass die Ursache weg ist — nur dafür, dass sie gerade nicht wirkt.
+
+**P3 — Werkzeugfalle im eigenen Auftrag festhalten:** das Watchdog-Rezept in dieser SKILL.md
+schreibt `set -m` vor, was unter zsh scheitert. Wer es wörtlich befolgt, verliert den ersten
+Probeversuch. Beim nächsten Auftrags-Update `/bin/bash -c` explizit hineinschreiben.
+
+**Mail: keine.** Kein P1-Blocker, den nur Raphael lösen kann (P1 ist Hub-intern und von mir
+selbst behebbar), kein gelöster Blocker, kein erschöpftes Wochenkontingent. Regellauf, schlank
+gehalten, inline gemessen ohne Subagent — die Delegation lohnt bei diesem Umfang nicht
+(Auftragskorrektur 08.08.).
+
+---
 ## 2026-08-13 01:51 — [FREI] **Aufsichtsausfall von 4 Tagen 13 Stunden: die gesamte Task-Flotte stand vom 08.08. bis 12.08. spätabends.** Ausfalltyp belegt: die Tasks haben NICHT gefeuert (nicht: gefeuert und versagt). Seit 00:51 läuft die Flotte wieder, aber als Nachhol-Sturm — rund 20 Tasks in einer einzigen Stunde. Ampel **FREI** (17.4 % bei 36.8 % verstrichener Woche, Vorsprung **-19.5**). Kein Delta-Null-Loop, im Gegenteil: 61 Commits in 30 h. Kein Mail-Anlass
 
 **Selbstkontrolle: schwerer Ausfall, und er ist der Hauptbefund dieses Laufs.** Letzter Eintrag
