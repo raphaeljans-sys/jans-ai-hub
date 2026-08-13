@@ -3,6 +3,49 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Logbuch-Radar 06:55, Regellauf — **Delta zum Nachtlauf: nichts hat sich
+bewegt, und genau das ist der Befund**):
+
+**Am Entwurfsordner `rj@` um 06:5x nachgemessen: alle drei Entwürfe liegen unverändert dort, dazu
+der überholte vierte.** Stevanovic 12.08. 16:37 «KISPI PPTS: Auflagebereinigung» · Furrer 12.08.
+16:06 «AfB BE KISPI PPTS Auflagen vor Baubeginn.pdf» · Inniger neu 13.08. 01:28 «KISPI PPTS:
+Anschlusswerte, offene Punkte und weiteres Vorgehen Therapieküche» · Inniger alt 08.08. 08:56
+«KISPI PPTS: Geräteliste Therapieküche mit Abluftwerten» (**darf nicht hinaus**). Damit bleibt der
+Befund des Nachtlaufs in vollem Umfang gültig: **die im Stevanovic-Entwurf gesetzte Rückfrist
+14.08. verbraucht sich mit jeder Stunde, die er liegen bleibt**, und der von der Bauherrschaft
+erwartete Baufreigabe-Termin 17.08. hängt daran.
+
+**Gegen-Verifikation ergab keine Statusänderung an einem einzigen offenen Punkt.** Mail-Vorfilter
+über 8 Stunden (alle Apple-Mail-Konten, Ein- und Ausgang): **keine eingehende Fremd-Mail** seit
+dem Nachtlauf, die einzigen Treffer sind die beiden Hub-Chef-Selbstmails von 01:41 und der
+Notariats-Nachfass von 00:47. Konto `raphaeljans@outlook.com` über 14 Stunden separat geprüft:
+**leer**. Also keine Antwort von Notariat Wiedikon, keine UBS-Kapitaleinzahlungsbescheinigung,
+keine Reaktion von Gruner auf die Trennwand-Fragen vom 12.08. 15:29.
+
+**bexio bleibt tot, heute erneut nachgemessen: HTTP 401.** Der Connector weist selbst darauf hin,
+dass der Token formal bis 13.12.2026 gültig ist und die Session serverseitig beendet wurde —
+Warten hilft nicht, ein neuer Token muss erzeugt werden (Aktion Raphael). Damit bleibt der
+Zahlstatus von **RE-00087 (CHF 15'000, seit 16.04. fällig, 113 Tage überfällig, Mahnung 2 seit 23
+Tagen fristabgelaufen)**, RE-00098 (CHF 13'600) und RE-00099 (CHF 3'680) unprüfbar. **Es wird
+nicht gemahnt, solange die Datengrundlage fehlt** — auch nicht bei RE-00087, wo die Sachlage sonst
+für Mahnstufe 3 oder Betreibung spräche.
+
+**Deliverable-Pfade aus dem Konversations-Destillat stichprobenartig verifiziert, beide vorhanden:**
+die Nova-Sitzungsunterlagen für den heutigen 09:00-Termin liegen vollständig unter
+`AR - 03 Studien/2620 ALBERTSTRASSE 7/09 Dokumente/260813-Sitzung-Nova-Eingriffstiefe-KV/`
+(Präsentation, Sitzungsvorbereitung und Beschlussliste, je als DOCX und PDF, die beiden
+Textstücke zusätzlich als MD) · der Bericht zur Hindernisfreiheit unter
+`JANS - 2619-KISPI - Dokumente/2 Umbauprojekt Neu PPTS/33.01_JANS/04 Berichte Sitzungen/
+260813-Bericht-Hindernisfreiheit-Sanitaerraeume/`.
+
+**Sync-, Freigabe- und Remote-Queues sind leer** (beide Stationen, um 06:5x geprüft).
+
+**Keine neue Registerzeile nötig:** die vier Punkte, die das Konversations-Destillat von 06:18
+nachgetragen hat (unbestätigter Max-Plan-Stopp, Kontingent-Aufsicht in alter Fassung, OneDrive
+Mac Mini, CLAUDE.md-Entwurf), stehen bereits als eigene Zeilen im Register. Sie fehlen aber im
+Radar-Briefing von 01:32, weil dieses **vor** dem Destillat entstand — deshalb sind sie unten im
+Briefing-Abschnitt aufgeführt, damit der Hub-Chef sie um 08:39 mitnimmt.
+
 Eintrag 13.08.2026 (Hub-Chef 01:36, Nachtlauf — **Tagesbriefing gesendet 01:41:36, und im
 Entwurfsordner liegt eine echte Verwechslungsgefahr**):
 

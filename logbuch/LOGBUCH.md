@@ -5,6 +5,110 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 13.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
+
+Der Nachtlauf hat den Tag um 01:32 vollständig aufgearbeitet und um 01:41 gemailt. Seither hat
+sich **nichts bewegt** — und weil die wichtigste Frist heute läuft, ist genau das die Meldung.
+Vier Punkte kommen dazu, die um 01:32 noch nicht vorlagen: sie stammen aus dem
+Konversations-Destillat, das erst um 06:18 fertig war.
+
+**Der Tag in einem Satz:** Um 09:00 sitzt Du bei Nova mit fertigen Unterlagen, um 11:30 im
+KISPI-Termin, und dazwischen muss eine einzige Mail hinausgehen, sonst fällt der 17.08.
+
+**Erledigt seit gestern**
+
+- Die Unterlagen für den heutigen Nova-Termin sind fertig und liegen im Projektordner: Präsentation,
+  Sitzungsvorbereitung und Beschlussliste mit 13 Punkten, je als DOCX und PDF, unter
+  `AR - 03 Studien/2620 ALBERTSTRASSE 7/09 Dokumente/260813-Sitzung-Nova-Eingriffstiefe-KV/`.
+  Kostenstand darin: KV Variante 1 «Direktvermietung light» vom 17.07.2026 mit CHF 386'020.65
+  exkl. MwSt., alle grossen Positionen offertgestützt.
+- Der Bericht zur Hindernisfreiheit der Sanitärräume KISPI ist abgelegt (Duschtasse zulässig,
+  gestützt auf den Bauentscheid 1171/26 Erwägung b und das Projektpflichtenheft Neubau, Kap. 12).
+- Der Nachfass an das Notariat Wiedikon ist raus (00:47, mit beiden Word-Anhängen).
+
+**Aus unseren Gesprächen**
+
+- **Der Verbrauchsstopp auf dem alten Max Plan ist nicht belegt.** Du wolltest die Aktivitäten
+  stoppen, weil dort Guthaben verbrennt, während das neue Team-Abo bereits läuft. Das Guthaben
+  stand bei 89 % verbraucht, der Auto-Top-Up-Schalter war gefunden — dann brach die Session ab,
+  bevor er bestätigt war. Abo- und Zahlungseinstellungen fasst Claude nicht selbst an: **ein Blick
+  auf die Billing-Seite, ob Auto-Top-Up aus ist.**
+- **Der Wächter über genau dieses Kontingent läuft in der alten Fassung.** Die Erweiterung auf drei
+  Töpfe ist gebaut, aber die lokale Stationskopie liess sich wegen einer Rechte-Sperre nicht
+  nachziehen, und der geforderte Testlauf mit erzwungener Warnschwelle blieb aus Budgetgründen aus.
+  Bis das nachgezogen ist, überwacht die Aufsicht die neuen Töpfe nicht.
+- **Mac Mini, OneDrive:** die SharePoint-Umbenennung «IMMO - 02 UBSFS» zu «IMMO - 02 Standort INFO»
+  ist sauber gelaufen, das lokale Nachziehen nicht. Von 35 Bibliotheken laufen rund 20 sauber, zwei
+  Zombie-Ordner blieben. Kein Datenverlust, die Inhalte liegen in SharePoint; der lokale Zustand
+  der Always-On-Station ist aber unklar.
+- **Der Kürzungs-Entwurf für die `CLAUDE.md`** (18'655 auf 13'456 Bytes, alle 24 Rule-Importe
+  unverändert) wartet auf Deinen Entscheid: direkt schreiben oder vorher mit einem Testagenten
+  prüfen.
+
+**Überfällig**
+
+- **Der Entwurf an B. Stevanovic (Gruner) liegt seit gestern 16:37 unversendet und setzt eine
+  Frist auf morgen.** Einziger offener Auflagepunkt zur Baufreigabe ist II.1b, Brandschutzplan
+  und Stellungnahme; der Entwurf bittet Stevanovic, beides jetzt zu erstellen und bis Freitag
+  14.08. unterzeichnet zurückzusenden, weil J. Ziegel bis 18.08. in den Ferien ist. Die
+  Bauherrschaft erwartet die Baufreigabe am Montag 17.08. **Geht die Mail heute nicht hinaus, ist
+  die Rückfrist beim Absenden bereits verbraucht.**
+- Der zweite Entwurf an L. Furrer (AfB) vom 12.08. 16:06 liegt ebenfalls: Bitte um den
+  Statusbericht der Auflagepunkte des Stammgesuchs B26-00705.01. Er ist die Grundlage für das
+  Nachfassen bei den Fachplanungen, das der 17.08. verlangt.
+- **Im selben Ordner liegt der überholte Inniger-Entwurf vom 08.08. 08:56.** Er bittet ein zweites
+  Mal um Abluftwerte, die Inniger begründet abgelehnt hat, und nennt eine Frist, die drei Tage
+  zurückliegt. Beide Betreffzeilen beginnen mit «KISPI PPTS:». Versandbereit ist allein der neue
+  vom 13.08. 01:28.
+- **RE-00087 (CHF 15'000, KISPI Eleonorenstiftung): 113 Tage überfällig**, Mahnung 2 seit 23 Tagen
+  fristabgelaufen. Sachlich stünde Mahnstufe 3 oder Betreibung an. Dazu RE-00098 (CHF 13'600) und
+  RE-00099 (CHF 3'680), Mahnung 1, Frist am 12.08. abgelaufen.
+- **Der bexio-Zugang ist weiterhin tot (HTTP 401, heute erneut gemessen).** Der Token ist formal
+  bis Dezember gültig, die Session dahinter wurde serverseitig beendet — Warten hilft nicht, es
+  braucht einen neuen Token. Bis dahin ist kein Zahlungseingang prüfbar, und **es wird nicht
+  gemahnt**: eine Mahnung an einen Kunden, der bereits gezahlt hat, richtet mehr Schaden an als
+  ein Tag Verzug.
+
+**In den nächsten 7 Tagen**
+
+- Heute 09:00 bis 10:30: Nova, Besprechung KV und Finalisierung Baubeschrieb Direktvermietung,
+  Feldeggstrasse 26 (Organisator R. Steinmann, Teams-Option).
+- Heute 11:30 bis 12:00: KISPI PPTS, Vollständigkeit der Dokumentengrundlage (Teams, mit
+  L. Hansen und S. Zala, Stadt Zürich, sowie B. Kübler, Gruner). Kübler hat nur unter Vorbehalt
+  zugesagt; die Vollständigkeit ist mit den Anwesenden zu klären.
+- 14.08.: Rückfrist Brandschutzplan und Stellungnahme bei Stevanovic, sofern die Mail heute
+  hinausgeht.
+- 16.08.: E-Banking-Gegenprüfung zu Transaktion 3630 (CHF 6'000, Valuta 07.08., mutmasslich
+  RE-00101 Tschopp). Bis dahin bleibt die Mahnaktion für RE-00101 gesperrt.
+- 17.08.: Erwartung der Bauherrschaft, Baufreigabe KISPI. Ebenso 09:00 bis 10:00 Austausch Umbau
+  PPTS mit C. Schäfer (Teams).
+- 20.08.: Koordinationssitzung Gruner/Jans/KISPI, 13:00 bis 14:00 (Teams), und Zahlungsfrist
+  RE-00100 (Nova, CHF 13'120).
+
+**In Beobachtung**
+
+- Notariat Wiedikon: keine Antwort auf den Nachfass; erbeten sind Firmenname und ein
+  Beurkundungsfenster ab der Woche vom 17.08.
+- UBS-Kapitaleinzahlungsbescheinigung: Neueinreichung läuft digital durch Dich, noch kein Eingang.
+- Gruner, Trennwand 2.039 Speiseraum und 0.300 Einzelzimmer (Deine Fragen vom 12.08. 15:29): offen
+  bleiben der Termin für das Verschieben des Elektrotrasse und das Mass der Trennwandverschiebung.
+- OneDrive-Quarantäne vom 08.08. auf dem Mac Mini: 2.8 GB Projektdaten, Abgleich gegen SharePoint
+  noch nicht gelaufen.
+
+**Vorschlag Kalendereinträge** (nur Vorschlag, nichts eingetragen)
+
+- Freitag 14.08., kurze Erinnerung «Rückfrist Brandschutzplan Stevanovic prüfen» — sinnvoll nur,
+  wenn die Mail heute hinausgeht.
+- Montag 17.08. morgens, Merkpunkt «Baufreigabe KISPI, Erwartung Bauherrschaft».
+
+**Token-Tempo**
+
+Vortag 12.08.: Mac Mini 117.5 Mio Token für 83.65 USD API-Äquivalent; für den MacBook Pro weist
+`ccusage` keinen Tageswert für den 12.08. aus, über das Fenster 10. bis 13.08. dort 559.8 Mio
+Token für 485.54 USD.
+
+---
+
 ## Methoden-Radar 13.08.2026 (02:11, still ins Logbuch)
 
 Kein neues Material (Vorfilter Exit 0, 8 Ordner unveraendert). Verifikations-Rotation an der
