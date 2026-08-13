@@ -413,3 +413,54 @@ dieses Destillats waren dort bereits geführt und wurden nicht gedoppelt.
 2. Kontingent-Aufsicht läuft in alter Fassung, Stationskopie nicht nachgezogen (Block 8)
 3. OneDrive-Bibliotheken Mac Mini unvollständig verlinkt, zwei Zombie-Ordner (Block 9)
 4. Grundkontext-Diät CLAUDE.md: Entwurf wartet auf Entscheid (Block 11)
+
+---
+
+# Nachtrag 06:13 CEST — Fenster 01:56 bis 06:13
+
+Abdeckung des Nachtrags: MacBook Pro 8 Sessions · Mac Mini 2 Sessions · Cloud/Dispatch 2.
+Der Hauptteil oben deckt den Stand 01:56 ab; dieser Nachtrag schliesst die restlichen vier
+Stunden des 26-Stunden-Fensters, ohne am Bestehenden etwas zu ändern.
+
+**Kein neues Gesprächsthema.** Alle zehn Sessions dieses Fensters sind automatisierte
+Verifikations-, Trainings- und Nachtschicht-Läufe. Die als «RAPHAEL:» markierten Zeilen
+darin sind der wiederkehrend einkopierte Nachtschicht-Auftragstext, keine neue Anweisung.
+Die letzte echte Benutzer-Eingabe im Fenster («was sagt mir diese tabelle?», Session
+7ca4b13f) datiert von 01:39 und ist im Hauptteil unter Block 13 bereits erfasst. Kein neuer
+Termin, keine neue Zahl, keine neue Zusage, kein Blocker mit Aussenwirkung. Es sind daher
+auch keine weiteren Register-Zeilen entstanden.
+
+## Zwei Befunde ohne Aussenwirkung, festgehalten weil fachlich erheblich
+
+**wissens-chef Run 30** (MacBook Pro, 02:10) korrigierte im Skill `ausschreibung` eine
+Bedeutungsumkehr zu **SIA 118/262:2004 Ziff. 8.4.2.2**. Die Norm sagt, Arbeitsgerüste für
+Betonarbeiten «werden nicht vergütet, ausgenommen wenn im LV getrennte Positionen enthalten
+sind», also im Einheitspreis inbegriffen (Ziff. 0.3). Unter der falschen Lesart wäre eine
+Gerüstposition ins Beton-LV geschrieben worden, mit **Doppelvergütung** als Folge, und eine
+unbegründete Nachtragsforderung wäre in der Prüfung anerkannt worden. Run 49 hatte die
+Ziffer am Original bereits verifiziert, aber nur die Wiki-Synthese korrigiert, nicht das
+Destillat, das der Skill als Zitierquelle führt. Ein adversarialer Prüfschritt gegen das
+Original-PDF auf SharePoint bestätigte die Korrektur und fand dabei einen zweiten Fehler.
+Behoben im selben Lauf, Commit `2b6177dc`. Ohne Aussenwirkung, da nie an Dritte versandt.
+Verwandt mit dem Befund zu Normen Run 49 im Hauptteil.
+
+**Normen-KB Run 50** (MacBook Pro, 02:14) bestätigte **79 von 79 Befunden** am Original;
+unter anderem wurden **BKP 241 und 243 als im BKP 2017 nicht existent** korrigiert. Gleiche
+Fehlerfamilie wie die Phantom-Code-Korrektur «271.10» vom 04.08.2026, siehe Rule
+`bkp-2017-referenz.md`.
+
+**Radar-relevant: nein** für beide — Hub-Interna ohne Aussenwirkung, im selben Lauf behoben,
+gemäss Regel 260803 kein Sendegrund.
+
+## Routine-Läufe im Nachtrag-Fenster
+
+Neun Läufe, keine Besonderheiten mit Fristen-, Geld- oder Kundenwirkung:
+Rollen-Verifikationsrotation 02:18 (korrigierte eine falsche Behauptung in CLAUDE.md, wonach
+der Rollen-Selbsttest im heartbeat hänge, Commit `9e4067b8`), twin-Mailtraining Batch 92
+03:50 (Fenster rj@ 20. bis 27.05.2026, Commit `e48e7724`), wettbewerbs-dna Etappe 4 Lauf 02
+V2 Schulbau 02:19, normen-KB Run 50 02:14, wissens-chef Run 30 02:10,
+vollgas-Frühwarnung 02:17 (still beendet, kein Meldekriterium, Kontingent frei),
+twin-Fidelity-Review 05:56 (Score 41, bestätigt unabhängig den Score 42 des frühen Laufs),
+Mac-Mini-Nachtschicht 02:30 (bauprodukte-KB, ERCO-Ratgeber S. 317 bis 374 fortgeschrieben)
+und Mac-Mini-Nachtschicht 05:30 (formale Rücktaktungs-Empfehlung für die KB `grobkosten`
+dokumentiert, nichts umgestellt, Commit `6e5429c9`).
