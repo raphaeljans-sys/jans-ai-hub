@@ -1,7 +1,7 @@
 ---
 title: 2103 WB Luzern — Schulanlage Steinhof (PATIO IN NOBILE)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-13
 sources: [2103-steinhofschule_jurybericht.txt, 2103-steinhofschule_programm.txt, 2103-steinhofschule_erlaeuterungstext.txt]
 links: [[delta-zum-ersten-rang]]
 ---

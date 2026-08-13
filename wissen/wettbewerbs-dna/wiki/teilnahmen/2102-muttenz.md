@@ -1,7 +1,7 @@
 ---
 title: 2102 WB Muttenz — Erweiterung Sekundarschule Hinterzweien (PATIO IM PIANO NOBILE)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-13
 sources: [2102-muttenz_jurybericht.txt, 2102-muttenz_programm.txt, 2102-muttenz_eigene-abgabe.txt, ../../outputs/2026-07-12_rang-klaerung-2102-2206.md]
 links: [[delta-zum-ersten-rang]]
 ---

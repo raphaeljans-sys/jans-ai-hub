@@ -1,7 +1,7 @@
 ---
 title: 2206 WB Schoental — Projektwettbewerb Neubau Schulhaus Schöntal, Altstätten (Kennwort ARCHE)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-13
 sources: [2206-schoental_schlussbericht-jury.txt, 2206-schoental_programm.txt, 2206-schoental_eigenes-b12-volumen-flaechen.txt, 2206-schoental_eigene-abgabeplaene.txt, 2206-schoental_hinweis-text1-jury-ist-bruehl-solothurn.txt, ../../outputs/2026-07-12_rang-klaerung-2102-2206.md]
 links: []
 ---
@@ -55,6 +55,44 @@ Alle Zitate aus dem Schlussbericht SB_PW_221103.pdf (Pfad: /Users/raphaeljans/Li
 
 - **Zum 1. Rang «NORDLICHTER»** (Michal Krzywdziak, Zürich; SB S. 16–17): Der Sieger löste genau das, woran ARCHE gemessen wurde — die Pädagogik ohne Schwachstelle: die Klassenzimmer reihen sich im Obergeschoss «kompakt aneinander», die Lernlandschaften sind «den Klassenzimmern vorgelagert und mit diesen gut verbunden», Tageslicht über Nord-Oblichter in der Raumtiefe (S. 17); Gesamturteil: «Die positive Stimmung und der entlang den pädagogischen Zielvorgaben überzeugend organisierte Schul- und Kindergartenbereich machen diesen Vorschlag zu einem gelungenen Beitrag.» (S. 17). Zusätzliche Sieger-Qualitäten, die ARCHE nicht bot: zwei massstäblich differenzierte, zusammengeschobene Baukörper (eingeschossiger Kindergarten + zweigeschossige Schule) statt eines einzigen Riegels; Ausnutzung der Topografie mit überdachter «Pausenarena» mit Sitzstufen; Lehrerzimmer als beidseitig zugängliches «funktionales Zentrum» im Angelpunkt zwischen Schule und Kindergarten; grösstmögliche Wahrung des wertvollen Baumbestands (S. 16–17).
 - **Zum 2. Rang «KIM»** (GREDIG WALSER, Chur; SB S. 22–23): überzeugte durch Setzung, «vorbildliche» Belichtung der Kindergarten-Haupträume, gute Sichtbezüge der Klassenzimmer zu den Lernlandschaften und hohe OG-Flexibilität — wurde aber wegen Kindergarten-Erschliessung über das Nachbargrundstück (Zustimmung Dritter nötig) und zerstückeltem Pausenplatz zurückgestuft. Gegenüber KIM hatte ARCHE die sauberere Erschliessung, aber die schwächeren Sichtbezüge im Schulgeschoss.
+
+## 4b. Nachtrag Rückkopplung V2 (13.08.2026, Etappe 4, Lauf 02)
+
+Geprüft gegen die zwölf Siegargumente in [[muster/jury-argumente-schulbauten]], Abschnitt 7.
+ARCHE bediente von den zwölf Argumenten drei voll (Setzung, Betriebs-Entflechtung,
+Adressierung), sechs teilweise, eines gar nicht (Kind-/Nutzerperspektive), eines war nicht
+anwendbar (Vereinssport/Aula gehörte nicht zur Bauaufgabe).
+
+**Neuer Befund: das Gegenmittel war im Projekt vorhanden, nur nicht überall.** Das umlaufende
+Vordach erzeugte denselben Verschattungseffekt an zwei Stellen, wurde aber nur an einer
+kompensiert. Die Jury lobt es zunächst («Er bietet einen guten baulichen Sonnenschutz und
+eine gute Verschattung der Fassaden») und stellt ausdrücklich fest: «Die Belichtung der
+Lernlandschaft bleibt durch das grosse Oblicht trotzdem gewährleistet» (beide SB S. 29). Am
+östlichen Kindergarten fehlte dieses Oblicht — dort wird derselbe Vorbereich zum Mangel,
+«weil der an sich gute überdeckte Vorbereich die natürliche Belichtung im hinteren Bereich
+einschränken dürfte» (SB S. 28). Die bisher im Dossier notierte Lesson («Gedeckte
+Vorbereiche gegen Tageslicht gegenrechnen») ist damit zu präzisieren: der Beitrag **kannte**
+das Gegenmittel und setzte es am Hauptraum korrekt ein; gefehlt hat die konsequente
+Anwendung am zweiten betroffenen Raum.
+
+**Bestätigt, nicht neu:** der Rangverlust an der fehlenden Transparenz zwischen den beiden
+nördlichen Klassenzimmern und der Lernlandschaft (SB S. 28, Fazit S. 29) — das ist der
+paedagogische Unterpunkt von Siegargument S4 und deckt sich mit dem Muster über alle drei
+eigenen Schulbau-Beiträge.
+
+**Ausdrücklich gelobt und im Muster-Artikel verankert:** Setzung («Zusammenfassend überzeugt
+der Entwurf ortsbaulich und architektonisch mit einer klaren und einfachen Setzung des
+Baukörpers», SB S. 29) und Zugangs-Entflechtung («Der Eingang zum Kindergarten liegt getrennt
+vom südlichen Hauptzugang der Schule im Norden neben dem Eingang zur Tagesstruktur», SB
+S. 28). Beide Punkte sind in beiden rangierten JANS-Beiträgen die konstante Stärke.
+
+**Kennwerte:** Der Schlussbericht nennt für ARCHE keine Geschossflächen-, Volumen- oder
+HNF/GF-Werte. Die Kennwert-Prüfung (S7) stützt sich hier ausschliesslich auf die eigene
+B12-Rechnung und ist von der Jury weder bestätigt noch widerlegt.
+
+**Rang erneut verifiziert:** 3. Rang / 3. Preis, CHF 25'000 zzgl. MWST, Nr. 25 (Schlussbericht
+S. 11, Tab. 1 «Übersicht Rangfolge» und Tab. 2 «Übersicht Preiserteilung»; nochmals Kap. 8.1,
+S. 14). Keine Abweichung zum Registerstand.
 
 ## 5. Lessons / DNA
 

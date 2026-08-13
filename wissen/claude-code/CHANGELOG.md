@@ -2,6 +2,31 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-13 (methoden-radar, Lauf 02:11 aus dem Nachhol-Sturm) — Rotation `260725 Archetypen`: Aufsicht nie verdrahtet
+
+- **[kein Delta] Vorfilter Exit 0**, 8 Ordner unveraendert — Verifikations-Rotation statt
+  Destillation. Rotationszeile nach dem neuen Stand: `260725 Archetypen` (Rollen-Taxonomie).
+- **[BEFUND] Die Ueberpruefungs-Stufe der Rollen-Taxonomie ist nicht verdrahtet.** `CLAUDE.md`
+  behauptete, `scripts/schutzmechanik-selbsttest.sh` haenge im `heartbeat`; `skills/heartbeat/SKILL.md`
+  nennt weder ihn noch `rollen-bilanz.sh` noch `nutzungs-radar.sh`. `git log --all -S"schutzmechanik"`
+  gegen die heartbeat-SKILL.md ist **leer** — die Verdrahtung existierte nie, es ist eine offene
+  Absicht vom Bautag 29.07.2026, keine Regression. Einziger Aufrufweg: der manuelle Command
+  `/rollen`. Seit der Erstmessung 29.07. lief keine automatische Bilanz.
+- **[korrigiert] Die falsche Behauptung in der kanonischen `CLAUDE.md`** (Z. 263 f.) auf den
+  gemessenen Zustand gebracht — Tatsachenkorrektur einer Zeile im Grundkontext, der in jeder
+  Session laedt. Der Entscheid ueber eine Automatik bleibt bei Raphael (QUESTIONS Punkt 1, drei
+  Wege), es wurde kein Task angelegt und kein Script angetastet.
+- **[abgegrenzt] Die Implementation liefert**, der Befund trifft nur die Aufsicht: `rollen-map.tsv`
+  138 Zeilen, zuletzt 13.08. 01:14, Liefer-Belege 30.07. (`519deea0`), 31.07. (`e3c98abb`,
+  `5b666e80`), 07.08. (`26a057cf`), 13.08. (`977fc9b6`).
+- **[Regel ergaenzt] Dritte Pflichtpruefung im Register:** ein in der Spalte
+  «Training/Ueberpruefung» genanntes Aufsichtsmittel gilt erst als vorhanden, wenn die
+  Verdrahtung am Zielartefakt gemessen ist; Gegenprobe via `git log --all -S` unterscheidet nie
+  gebaut von kaputtgegangen.
+- **[Betriebsnotiz]** Dritter Radar-Lauf innert 75 Minuten (Nachhol-Sturm nach dem
+  Aufsichtsausfall), kein Defekt der heute beschlossenen Monatstaktung; naechster regulaerer
+  Lauf 08.09.2026.
+
 ## 2026-08-13 (Umbau auf Entscheid Raphael) — Methoden-Radar: Scan in den heartbeat, Rotation monatlich
 
 - **[Befund] Die Leerlauf-Bremse des Loops war konstruktiv wirkungslos.** Schritt 3 verlangte in

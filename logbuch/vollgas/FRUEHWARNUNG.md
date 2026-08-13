@@ -5,7 +5,7 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
-## 2026-08-13 02:10 — ROHMESSUNG (Bewertung folgt im selben Lauf)
+## 2026-08-13 02:10 — STILL (keine Mail)
 
 Messzeitpunkt 13.08.2026 02:07 CEST, NAS gemountet. **Erster Lauf seit dem 08.08.** — die
 Lücke von fünf Tagen ist kein Messfehler, sondern der Aufsichtsausfall, den der Radar um
@@ -36,6 +36,91 @@ Teilmessung bis 07:16 (4.32).
 message.type=error / apiErrorStatus 429 zusammen mit Limit-Textmuster) findet in den
 letzten 24 h auf **beiden** Stationen **null** echte Ereignisse. Weder 5-Stunden- noch
 Wochenlimit.
+
+
+### Bewertung — kein Meldegrund, alle sieben Kriterien geprüft
+
+| Kriterium | Befund | erfüllt |
+|---|---|---|
+| (a) interaktive Session mit echtem Limit-Ereignis | 0 Ereignisse, beide Stationen | nein |
+| (b) kombiniert >35 Mio an einem Tag / >18 Mio an zwei Folgetagen | Höchstwert 12.08. mit 28.39 | nein |
+| (c) Wochenkontingent in 24 h erschöpft | kein Ereignis | nein |
+| (d) operatives Briefing ohne Deliverable | alle vier erreicht (siehe unten) | nein |
+| (e) Radar-Herzschlag >12 h alt | RADAR.md-Eintrag 01:51, 20 Min alt | nein |
+| (f) Destillat verbraucht ohne Fortschritt/Ertrag | beides bewegt sich | nein |
+| (g) KORPUS-QUEUE KOMPLETT | 22 Dateien offen | nein |
+
+**Der Aufsichtsausfall 08.–12.08. ist real, aber bereits gemeldet.** Die Lücke von fünf
+Tagen in diesem Log ist derselbe Vorgang, den der Radar um 01:51 als 109-Stunden-Stillstand
+der gesamten Task-Flotte belegt hat (Typ: nicht gefeuert). Die Flotte läuft seit 00:51
+wieder, als Nachhol-Sturm: sämtliche Registry-Stempel liegen zwischen 22:51 und 00:07 UTC.
+Eine zweite Mail zum selben Sachverhalt verstiesse gegen das Ein-Mail-Prinzip; das
+Operative daraus trägt der Hub-Chef.
+
+**Schritt 3 — die vier operativen Briefings, alle mit Deliverable:**
+
+- `hub-chef-taeglich` — **Tagesbriefing versendet, unabhängig verifiziert.** Exchange /
+  Gesendete Elemente, 13.08.2026 01:41:36, Betreff «Hub-Chef 13.08.26: Drei Entwuerfe
+  liegen bereit, einer muss heute raus, und der bexio-Zugang ist tot». Der eine reguläre
+  Meldekanal an Raphael funktioniert.
+- `logbuch-radar` — Briefing steht im LOGBUCH.md («Radar-Briefing 13.08.2026», 01:32),
+  keine eigene Mail, wie vorgesehen.
+- `zahlungsabgleich-check` — bewusst abgebrochen mit Befund statt blind weiterzulaufen:
+  bexio antwortet HTTP 401, Token gültig bis 13.12.2026, Session serverseitig beendet.
+  Das ist ein erreichtes Deliverable, kein Ausfall.
+- `mahnwesen-verzugscheck` — gelaufen, konnte aber wegen desselben toten bexio-Zugangs
+  nicht prüfen. **Die Debitoren-Aufsicht ist seit dem 08.08. blind**; die Frist RE-00098/99
+  (12.08.) ist in der Blindzeit abgelaufen. Bereits im Fristen-Register und im heutigen
+  Tagesbriefing — hier nur als Querverweis, nicht als neuer Befund.
+
+**Defekt-Befund (kein Meldegrund, gehört dem Radar): ein Task-Lauf starb an der
+Modellwahl.** Der `ag-gruendung-monitor`-Lauf um 01:35 endet nach zwölf Zeilen mit
+«There's an issue with the selected model (haiku-4-5). It may not exist or you may not
+have access to it.» Die Tagesarbeit war nicht verloren, weil derselbe Task um 01:00 bereits
+vollständig durchlief (210 Zeilen, Register auf «Neueinreichung läuft» gesetzt). Die Breite
+ist gemessen: **genau ein echter Fall in 48 h**, kein Flächenproblem der Modell-Politik.
+Trotzdem ist die Bauform gefährlich — ein Loop, der die mechanische Arbeit an ein nicht
+verfügbares Modell delegiert, stirbt bei Schritt null, und das sieht in der Registry aus
+wie ein gelaufener Task.
+
+**Schritt 5b — Destillat, Fortschritt und Ertrag bewegen sich beide:**
+
+- FORTSCHRITT: 37/37 Sektionen, 214 Dateien inventarisiert, **22 offen**. Der
+  LOGBUCH-Eintrag 12.08. 05:30 belegt die Nachtschicht am ERCO-Ratgeber (S. 250 → 317).
+- ERTRAG: 9 Artikel in `wissen/bauprodukte/wiki/`, jüngster
+  `erco-lichtplanung-grundlagen.md` vom **12.08. 22:39** — also frisch.
+- DELTA-NULL-SERIE: keine. Der Loop liefert, die Reports wandern zuletzt ins LOGBUCH statt
+  nach `outputs/` (letzter Report dort 03.08.).
+- SPEC: `specs/bauprodukte-spec.md` (28.07.) liegt vor, das Spec-Gate hängt nicht.
+- MITTAGS-SLOT 13:30: **diesen Lauf nicht gemessen** — der Pfad des Nachtschicht-Logs auf
+  dem Mac Mini stimmt nicht mehr (`~/Library/Logs/nachtschicht*.log` existiert nicht).
+  Offen für den nächsten Lauf, nicht geschätzt.
+
+**STÜCKKOSTEN.** Artikel je Tag über `git log --name-only` (nicht mtime), INDEX und
+QUESTIONS herausgefiltert: 11.08. **1** · 12.08. **10** · 13.08. **22** (ohne die sechs
+Twin-Facetten: 16). Die Tagesquotienten sind derzeit **nicht aussagekräftig**, weil der
+Nachhol-Sturm die Arbeit des 12.08. am 13.08. committet hat. Aussagekräftig ist das
+Dreitagesmittel: 34.26 Mio teuer auf 33 Artikel = **1.04 Mio je Artikel** (ohne
+Twin-Facetten 1.27). Das liegt im Band der bisherigen Reihe.
+
+**Zwei Werkzeug-Fallen, die diesen Lauf beinahe zu Fehlbefunden geführt hätten** — beide
+gehören zur Familie «ein leeres Ergebnis ist zuerst eine Aussage über das Werkzeug»:
+
+1. **Gesendete Mails nur in «Sent Messages» zu suchen, findet das Exchange-Konto nicht.**
+   Der erste Durchgang meldete für 30 Stunden genau eine gesendete Mail und hätte das
+   Tagesbriefing als nicht versendet ausgewiesen — es liegt in «Gesendete Elemente». Ein
+   Fehlalarm auf Kriterium (d) wäre die Folge gewesen. Immer beide Ordnernamen abfragen.
+2. **`grep` auf die rohen JSONL findet den Task-Opener nicht**, weil die Anführungszeichen
+   dort als `\"` escaped sind; ausserdem steht der Opener hinter dem grossen
+   CLAUDE.md-Vorspann, ein `head -c 4000` greift zu kurz. Beide Varianten meldeten
+   «keine Session» für Tasks, die nachweislich gelaufen sind und committet haben.
+   Zusätzlich: die eigene Session muss aus jeder solchen Suche **ausgeschlossen** werden —
+   sonst findet man die Suchbegriffe, die man selbst gerade ausgegeben hat (in diesem Lauf
+   zweimal passiert, einmal beim Modellfehler, einmal beim Hub-Chef).
+
+**Nächste Mail:** nicht für diesen Befund. Zuletzt gemailt am 08.08. (Verbrauchsspitze
+07.08.). Erst wieder bei Erschöpfung, blockierter interaktiver Sitzung, ausgefallenem
+Briefing oder totem Radar.
 
 ## 2026-08-08 07:16 — GEMELDET (Mail an rj@ gesendet 07:29)
 

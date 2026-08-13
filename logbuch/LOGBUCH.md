@@ -5,6 +5,35 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Methoden-Radar 13.08.2026 (02:11, still ins Logbuch)
+
+Kein neues Material (Vorfilter Exit 0, 8 Ordner unveraendert). Verifikations-Rotation an der
+Zeile `260725 Archetypen` (Rollen-Taxonomie), **ein Befund**:
+
+- **Die Ueberpruefungs-Stufe der Rollen-Taxonomie ist nicht verdrahtet.** Die `CLAUDE.md`
+  behauptete, `scripts/schutzmechanik-selbsttest.sh` haenge im `heartbeat`. Der heartbeat-Skill
+  nennt weder ihn noch `rollen-bilanz.sh` noch `nutzungs-radar.sh` — und hat das laut
+  git-Historie nie getan. Keine Regression, sondern eine Absicht vom Bautag 29.07., die nie
+  eingeloest wurde. Einziger Aufrufweg ist der manuelle Command `/rollen`. Seit der Erstmessung
+  vom 29.07. wurde die Rollen-Bilanz also nie automatisch gefahren.
+- **Korrigiert:** die falsche Behauptung in der `CLAUDE.md` (eine Zeile, reine Tatsachen-
+  korrektur). **Nicht entschieden:** ob der Selbsttest jetzt in den heartbeat gehaengt wird —
+  das erzeugt Betriebslast und gehoert Dir. Drei Wege in `wissen/claude-code/wiki/QUESTIONS.md`
+  Punkt 1: heartbeat-Check (billig, wie der neue Check 14), bewusst manuell lassen und die Rule
+  praezisieren, oder eigener Monatstakt.
+- **Achtung Kollision:** Der Verschlankungs-Entwurf fuer die `CLAUDE.md`, der auf Deine Antwort
+  wartet, darf die korrigierte Stelle nicht ueberschreiben — sonst kehrt die falsche Behauptung
+  zurueck.
+- **Die Implementation selbst liefert**, der Befund betrifft nur die Aufsicht: das Rollen-Register
+  ist lebendig (138 Zeilen, zuletzt heute 01:14), mit Belegen vom 30.07., 31.07., 07.08. und 13.08.
+
+Nebenbefund ohne Handlungsbedarf: Dies war der dritte `methoden-radar`-Lauf innert 75 Minuten
+(Umbau 00:20, Nachhol-Lauf 00:57, dieser 02:11) — Teil des Nachhol-Sturms nach dem
+Aufsichtsausfall, nicht ein Defekt der heute beschlossenen Monatstaktung. Der naechste regulaere
+Lauf steht am 08.09.2026.
+
+---
+
 ## Radar-Briefing 13.08.2026 (01:32, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
 Der Tag hat einen klaren Schwerpunkt: Die Baufreigabe KISPI **hängt an einer einzigen Mail, die

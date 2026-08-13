@@ -1,5 +1,53 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-13 — ETAPPE 4, VERTIEFUNGSLAUF 02 (V2, Bauaufgabe Schulbau)
+
+- **[inhalt]** Neuer **Abschnitt 7** in `wiki/muster/jury-argumente-schulbauten.md`:
+  Rückkopplung der zwölf Siegargumente gegen die drei eigenen Schulbau-Beiträge
+  (2102 Muttenz 4. Rang, 2103 Steinhof kein Rang, 2206 Schöntal 3. Rang) als 3×12-Matrix
+  mit doppelter Codierung (bedient? / hat die Jury es benannt?). **Damit wechselt der
+  Artikel von Beschreibung zu Handlungswissen** — die Kernaussage «gewonnen wird auf der
+  Betriebs-/Pädagogik-Ebene» ist erstmals an den eigenen Beiträgen belegt, nicht nur an
+  fremden Verfahren.
+- **[inhalt]** Wertvollster Einzelbefund: **2102 hat den in S4 gutgeschriebenen
+  Brandschutz-Kunstgriff (zweites Fluchttreppenhaus) tatsächlich angewandt und dafür nichts
+  bekommen.** Die Jury erwähnt ihn nicht und verwirft die Halle aus einem anderen Grund
+  («nicht nutzbar … keinen eigentlichen Mehrwert», S. 39). Arbeitshypothese: der Kunstgriff
+  schafft die Erlaubnis, den Punkt geben erst die Nutzungen, die darin liegen.
+- **[inhalt]** Drei Schärfungen: S4 (Kunstgriff notwendig, nicht hinreichend) · S7 (die
+  Bruchlinie Fussabdruck gegen Volumenkennwert verläuft **innerhalb eines Projekts** — die
+  Jury lobt und verurteilt 2102 auf derselben Seite) · S9/S3 (das Kompensationsmittel Oblicht
+  war bei 2206 vorhanden, nur nicht am zweiten verschatteten Raum).
+- **[inhalt]** Zwei Kandidaten für ein 13. Argument, beide n=1 und ausdrücklich als
+  unbelegt-kausal markiert: Zielkosten können die Grundsatzfrage vorentscheiden (2103:
+  9,3 Mio. «unter der Voraussetzung, dass die bestehende Turnhalle erhalten bleibt», S. 6) ·
+  akustische Geschosstrennung ruhig/lärmig als eigener Betriebsvorteil (2102 S. 18/21).
+- **[befund/selbstkritik]** **Keiner der drei Beiträge bediente S10 (Kind-/Nutzerperspektive)
+  — und keine der drei Jurys hat das je gerügt.** In 2103 war es sogar Programmvorgabe und
+  blieb folgenlos. S10 bleibt gültig, ist aber für die eigene Praxis unbelegt. Der Befund
+  richtet sich gegen den Artikel selbst und ist so festgehalten.
+- **[verifikation]** Ein unabhängiger Refuter, **Verdikt NICHT BESTANDEN**, 7 Beanstandungen
+  eingearbeitet: zwei echte Wortabweichungen in als wörtlich markierten Zitaten
+  («Kindergerechte» statt «Kindgerechte»; «einen guten baulichen Sonnenschutz» statt «guter
+  baulicher»), eine unmarkierte Zitatverkürzung, eine methodisch unsaubere Matrixzelle
+  (2206/S4 «w» ohne belegte Gegenbehauptung → «a», Legende präzisiert) und drei zu absolut
+  formulierte Regeln → Arbeitshypothesen mit n=1. Alle Beanstandungen vor der Einarbeitung
+  einzeln am Original gegengeprüft (Rule 260729b).
+- **[ehrlichkeit]** Für **2103 existiert kein Projektbeschrieb** — der Bericht widmet Nr. 9
+  genau einen wertenden Satz (S. 13). Die 2103-Spalte beschreibt daher fast durchgehend die
+  eigene Abgabe, nicht das Jury-Urteil; als eigener Abschnitt 7.5 deklariert statt kaschiert.
+- **[nebenbefund]** Die Fundstellen im Dossier `2102-muttenz.md` liegen **durchgängig eine
+  Seite höher** als die gedruckte Paginierung (5 Stichproben, Inhaltsverzeichnis dreifach
+  verankert; vermutlich PDF-Zählung). **Bewusst nicht umnummeriert** (Rule 260811 — kein
+  globaler Eingriff in eine gewachsene Datei ohne eigenen Prüfgang); Konvention in beiden
+  Dateien deklariert, Audit als offener Punkt in QUESTIONS. Betrifft die Auffindbarkeit, nicht
+  die Richtigkeit — alle geprüften Zitate stehen wortgetreu im Bericht.
+- **[nachträge]** Abschnitt 4b in allen drei Dossiers (2102, 2103, 2206), `last_updated`
+  2026-08-13. Report: `outputs/2026-08-13_etappe4-vertiefung-02.md`.
+- **[steuerung]** V2 Schulbau abgeschlossen. Nächster Lauf: **V2 Healthcare**, mit
+  Quellenlage-Vorprüfung vor Arbeitsbeginn (Lehre aus Lauf 01). V3 erst nach V2 über alle
+  drei Bauaufgaben.
+
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B1 · C0 · D0 · E0 · F1 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-03_health-check.md`. Einziger substanzieller Befund: kein `raw/_INGESTED.md` bei 93 raw-Dateien — alle sind zwar zitiert (Audit D auf 0), aber ohne Register nicht nachweisbar, was als eingearbeitet gilt. Sonst sauber, 71/71 Artikel `established`. Phase 2 (Aktionen) nicht ausgefuehrt — unbeaufsichtigter Lauf.

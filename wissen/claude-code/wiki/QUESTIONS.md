@@ -2,6 +2,33 @@
 
 Luecken und ungeklaerte Fragen. Wird beim Ingestieren neuen Materials abgearbeitet.
 
+## Offen (13.08.2026)
+
+1. **Soll der Rollen-Selbsttest in den `heartbeat` gehaengt werden — oder faellt die
+   automatische Rollen-Messung bewusst weg?** Befund der Verifikations-Rotation `methoden-radar`
+   vom 13.08.2026 (Registerzeile `260725 Archetypen`). Die `CLAUDE.md` behauptete,
+   `scripts/schutzmechanik-selbsttest.sh` «haengt im heartbeat». Gemessen: `skills/heartbeat/SKILL.md`
+   nennt weder den Selbsttest noch `rollen-bilanz.sh` noch `nutzungs-radar.sh`, und
+   `git log --all -S"schutzmechanik" -- skills/heartbeat/SKILL.md` ist leer — die Verdrahtung
+   existierte **nie**. Einziger Aufrufweg ist der manuelle Command `/rollen`; kein Scheduled Task
+   fuehrt eine Bilanz. Seit der Erstmessung vom 29.07.2026 gab es damit keine Messung, obwohl
+   Rule `rollen-taxonomie` Punkt 3 verlangt: «Quoten werden gemessen und berichtet, nie
+   automatisch durchgesetzt.»
+
+   Die falsche Behauptung in `CLAUDE.md` ist in diesem Lauf korrigiert (Tatsachenkorrektur, eine
+   Zeile). **Der Entscheid ueber die Automatik liegt bei Raphael**, weil er neue Betriebslast
+   erzeugt — der Loop baut das nicht eigenmaechtig. Drei Wege:
+   - **(a) In den heartbeat haengen** wie urspruenglich gedacht: reines Shell-Script, keine eigene
+     Claude-Session, kostet Sekunden — dieselbe Bauart wie der neue Check 14 (Methoden-Scan).
+   - **(b) Bewusst manuell lassen** und die Rule entsprechend praezisieren, damit «wird gemessen»
+     nicht laenger eine Automatik suggeriert, die es nicht gibt.
+   - **(c) Eigener monatlicher Takt**, analog `planungsgrundlagen-wartung`.
+
+   Nichts angetastet ausser der Faktenkorrektur; kein Script deaktiviert, kein Task angelegt.
+   **Hinweis zur Kollision:** Fuer die `CLAUDE.md` liegt ein Verschlankungs-Entwurf bei Raphael
+   (Radar-Briefing 13.08.). Wird er umgesetzt, muss die korrigierte Stelle erhalten bleiben —
+   sonst kehrt die falsche Behauptung zurueck.
+
 ## Offen (03.08.2026)
 
 0. **`wissens-chef` laeuft, liefert aber seit dem 31.07.2026 nichts Sichtbares.** Befund der
