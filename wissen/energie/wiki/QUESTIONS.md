@@ -76,6 +76,8 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   kein Anschlusszwang an den Holzwärmeverbund der Energie Aussenschwyz AG, Erdsonden-
   Tiefenbeschränkung mit Faustregel 180 m (verbindlich nur via AfU SZ), thermische
   Grundwassernutzung nur seenah bzw. ab 50 kW / vier Wohneinheiten.
+  ✓ **ERLEDIGT (Mac-Mini-Nachtschicht 13.08.2026):** Wiki-Artikel `wiki/waermeplanung-kommunal-zh-sz.md`
+  angelegt, kompiliert aus den vier genannten Destillaten.
 
 ## 2026-07-29 (Wissens-Chef Run 20) — Restpunkte aus den Cross-KB-Korrekturen an F186/F187/F189/F71
 
