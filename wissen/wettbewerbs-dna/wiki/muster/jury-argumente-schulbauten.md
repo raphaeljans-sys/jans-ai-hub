@@ -398,14 +398,17 @@ aus der engeren Wahl im finalen Rundgang zurueckgestuft (Jurybericht S. 13).
 
 Legende — **B** bedient · **T** teilweise · **N** nicht bedient · **–** nicht anwendbar.
 Zweiter Buchstabe: hat die Jury es benannt? **a** ausdruecklich · **s** sinngemaess ·
-**o** ohne Erwaehnung · **w** Jury widerspricht.
+**o** ohne Erwaehnung · **w** Jury widerspricht. **«w» ist eng definiert und meint nicht
+blosse Kritik:** es wird nur vergeben, wo der Beitrag das Argument ausdruecklich fuer sich
+reklamiert **und** die Jury genau dieser Behauptung widerspricht. Wo die Jury ein Defizit
+benennt, ohne dass eine eigene Gegenbehauptung belegt ist, steht **a**.
 
 | | 2102 Muttenz (4. Rang) | 2103 Steinhof (kein Rang) | 2206 Schoental (3. Rang) |
 |---|---|---|---|
 | S1 Setzung baut Bestand weiter | T / o | T / o | **B / a** |
 | S2 Freiraum zoniert | T / s | T / o | T / s |
 | S3 Bestand als Schutzgut | B / o | **N** / o | T / s |
-| S4 Nutzbare Erschliessung | T / **w** | T / o | T / **w** |
+| S4 Nutzbare Erschliessung | T / **w** | T / o | T / **a** |
 | S5 Lerncluster | T / o | T / o | T / s |
 | S6 Betriebs-Entflechtung | T / o | T / o | **B / a** |
 | S7 Kompaktheit | T / **a + w** | B / o | B / o |
@@ -422,8 +425,8 @@ keine der drei Jurys hat das je geruegt.** Das ist der auffaelligste Befund und 
 eine Warnung an den Artikel selbst: S10 ist aus **fremden** Berichten destilliert und in
 den eigenen Verfahren nie schlagend geworden. Der Punkt bleibt gueltig (die Belege aus
 Hausen und Riehen stehen), aber er ist fuer die eigene Praxis unbelegt. In 2103 war er
-sogar ausdrueckliche Programmvorgabe — «Kindgerechte Materialien, Farben und Atmosphaeren,
-welche vor allem stetes aktives Gestalten unterstuetzen, werden vorausgesetzt» (Jurybericht,
+sogar ausdrueckliche Programmvorgabe — «Kindergerechte Materialien, Farben und Atmosphären,
+welche vor allem stetes aktives Gestalten unterstützen, werden vorausgesetzt.» (Jurybericht,
 Ziff. 1.2.1, S. 5) — und der eigene Erlaeuterungstext beantwortet sie nicht. Eine unbeantwortete
 Programmvorgabe wurde hier nicht bestraft; verlassen darf man sich darauf nicht.
 

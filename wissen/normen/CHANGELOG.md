@@ -1,3 +1,58 @@
+## 2026-08-13 (Run 50) — die 79 Kernbefunde am Original nachgeprueft: 79 bestaetigt, 0 widerlegt, null Marker uebrig
+
+Die Uebergabe aus Run 49 ist abgearbeitet. Zwei Flotten mit zusammen 33 Agenten (17 Nachpruefer am
+Original, 16 Einarbeiter), dazwischen der Hauptprozess als Richter. Aus den 65 markierten
+Kernbefunden wurden **79** (mehrere Marker trugen mehrere Einzelbefunde): **79 BESTAETIGT,
+0 WIDERLEGT, 0 UNENTSCHIEDEN**, alle inline eingearbeitet, **null ⚠-Marker verbleiben in der KB**.
+Keine Hebung auf `established` — geprueft wurden die Befunde, nicht die Destillate als Ganzes.
+
+**Hauptprozess selbst geprueft: 14 Befunde, alle bestaetigt.** Drei falsche BKP-Zuordnungen am
+systematischen Teil der BKP-2017-Liste nachgeschlagen (118/248 → 281.6/282.4 statt 227/281.1/281.2;
+118/267 → Hauptgruppe 17 Spezialtiefbau + 201, weil **241 und 243 im BKP 2017 gar nicht existieren**
+und 242 «Heizungsanlagen» ist; 118/246 bereits in Run 49). Seitenversatz an eigenen 150-dpi-Renderings
+bestaetigt (gedruckte Folio = PDF-Seite, 1:1) — Ursache ist die Verletzung der bestehenden
+Methodik-Pflicht 6, ein einziger Verstoss erzeugte rund 120 falsche Fundstellen. Ausmasszuschlag
+118/244 A.2/A.4: «doppelt gemessen» = Faktor 2 = **100 %, nicht 200 %**. Begriffszahl 118/244:
+17 statt 15, am Rendering ausgezaehlt.
+
+**Luecke geschlossen:** SIA 380/3 Kap. 4 «Werkstoffe» und Kap. 5 «Ausfuehrung» fehlten vollstaendig
+(der Abschnitt bestand aus einer Ueberschrift), waehrend das Frontmatter «S. 1-42 komplett»
+zusicherte. Beide Kapitel am Original nachgelesen und als regulaerer Inhalt geschrieben, samt der
+ausfuehrungsrelevanten Pflichten (Dichtigkeitspruefung vor Daemmbeginn, Anlage ausser Betrieb waehrend
+der Montage, Wegleitungen der kantonalen Gebaeudeversicherungen, Tragkonstruktion ueber der
+Dampfbremse, kein Daemmstoff zwischen Begleitheizung und beheiztem Anlageteil).
+
+**Unbeauftragter Sweep, weil es die dritte Wiederholung derselben Fehlerfamilie war:** alle
+BKP-Codes saemtlicher Destillate dieser KB maschinell gegen die BKP-2017-Liste geprueft
+(50 verwendete gegen 846 gueltige Codes). Ergebnis: **genau zwei nicht existente Codes, 241 und 243,
+beide im bereits bekannten 118/267 — kein weiterer Phantomcode versteckt sich in der KB.** Ein
+Negativbefund, aber ein gemessener. Grenze der Methode ausgewiesen: ein existierender, aber sachlich
+falscher Code (242 fuer einen Baugrubenabschluss) bleibt darin unsichtbar.
+
+**ABB-Synthese (`wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`) korrigiert:** die Gerüst-Tabelle
+stellte Zahlen nebeneinander, die nicht dieselbe Groesse messen — die 2006er-Normen die
+**Belagshoehe**, die Mauerwerksnormen die **Mauerwerkshoehe ab Geruestabstellbasis** (ohne andere
+Angabe = Mauerfuss). Dazu die verschwiegene Einschraenkung, dass die 2,5 m nur «fuer Arbeiten zu
+Einheitspreisen» gelten. Beides als Warnkasten eingearbeitet, alle Werte an fuenf Originalen geprueft.
+Die Synthese bleibt bewusst **Warnkarte, nicht Zitierquelle** — sie ist aus Destillaten mit Status
+`speculative` gebaut. Bei dieser Pruefung entstand ein Beinahe-Fehlbefund in eigener Sache: die Suche
+nach «3,0 m» im 266-2-Destillat lief leer, obwohl der Wert dort steht — als «3 m», wie im Original.
+Das Suchmuster war der Fehler, nicht die Quelle.
+
+**Vier ueberholte Statusangaben richtiggestellt:** 118/246, 118/248 (Refuter-Runde Run 49 gelaufen)
+sowie 118/266-1 und 118/266-2 (Run 47, Verdikt BESTANDEN) fuehrten weiterhin «Refuter-Runde
+ausstehend».
+
+**Neu offen (QUESTIONS N50-1 bis N50-4):** vier Destillate der Run-47-Welle hatten NIE eine
+Refuter-Runde (`sia-262-1-2003`, `sia-264-1-2003`, `sia-267-1-2003`, `sia-281-3-2018`) — nach dem
+Ergebnis dieses Laufs der risikoreichste Bestand der KB und der naechste Batch. Ausserdem: 65 der
+79 Befunde sind Nachpruefer-, nicht hauptprozess-verifiziert; und die Verdikt-Verteilung 79/0/0 ist
+selbst pruefbeduerftig — vorgeschlagen ist eine Gegenprobe mit eingestreuten Falschbehauptungen, um
+die Widerlegungsfaehigkeit der Nachpruef-Stufe zu messen. Methodik-Pflicht 11 bleibt Raphael zur
+Freigabe vorgelegt, mit verstaerkten Belegen. N49-1 geschlossen.
+
+Report: `outputs/2026-08-13_normen-nacht-run50.md`.
+
 ## 2026-08-13 (Run 49) — 17 Refuter-Runden als Multi-Agent-Flotte: 17/17 BEANSTANDET, 70 Kernbefunde
 
 Die ausstehenden Refuter-Runden fuer den P2-Block sind gefahren, als Workflow mit **34 Agenten**

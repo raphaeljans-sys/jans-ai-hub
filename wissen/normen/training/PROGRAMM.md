@@ -318,6 +318,35 @@ praktikable Verfahren:
   zeigte sich, dass dort auch einer von vier Nachweis-Wegen fehlte. Wer nur die Nummernliste
   abhakt, notiert «1 formaler Befund» und geht weiter.
 
+### Stand der vorgeschlagenen Methodik-Pflicht 11 (Run 49 vorgeschlagen, Run 50 belegt)
+
+Vorschlag unverändert, Belege verstärkt — **weiterhin Raphael zur Freigabe, nicht selbständig
+umgesetzt**:
+
+> **Ein unverifiziertes Destillat ist kein Wissensstand, sondern ein Entwurf. Aus Entwürfen wird
+> keine Querschnitts-Synthese, kein Registereintrag und keine Skill-Empfehlung gebaut — auch
+> nicht mit Vorbehalt.**
+
+Run 49 stützte sich auf 70 *gemeldete* Kernbefunde. Run 50 hat sie am Original nachgeprüft:
+**79 geprüft, 79 bestätigt, 0 widerlegt.** Ein Destillat ohne Refuter-Runde ist in dieser
+Grössenordnung nicht «weitgehend richtig mit Randunschärfen» — es trug drei falsche
+BKP-Zuordnungen, einen um 100 % falschen Ausmasszuschlag und einen um 200 m zu grossen
+Fluchtwegabstand, alles Grössen, die unverändert in ein Leistungsverzeichnis wandern.
+
+**Zwei methodische Beobachtungen aus Run 50, die für künftige Läufe zählen:**
+
+1. **Ein einziger Methodenverstoss kann dreistellig viele Fundstellen verderben.** Der
+   Seitenversatz über drei Destillate (rund 120 Fundstellen) geht allein darauf zurück, dass die
+   Seitenzahl aus der Blattnummer geschätzt statt am Rand abgelesen wurde — ein Verstoss gegen
+   die seit Run 39 bestehende Methodik-Pflicht 6. Die Pflicht war da; niemand hat ihre Einhaltung
+   im Lauf geprüft. **Eine Pflicht ohne Kontrollpunkt im Lauf ist eine Empfehlung.**
+2. **Eine Verdikt-Verteilung ohne jede Widerlegung ist selbst prüfbedürftig.** Die
+   Methoden-Lehre sagt bisher: eine Runde mit wenigen Befunden misst womöglich die Methode, nicht
+   die Quelle. Die Umkehrung gilt genauso — eine Runde, in der **jeder** Befund bestätigt wird,
+   kann bedeuten, dass die Prüfstufe nicht widerlegen *kann*. Vorgeschlagene Gegenprobe:
+   der Nachprüf-Flotte bewusst einige Falschbehauptungen unterschieben und messen, wie viele sie
+   zurückweist. Ohne diese Messung ist eine 100-%-Bestätigungsquote kein Qualitätsnachweis.
+
 ## Leitplanken (Qualität)
 
 - **Nie Ziffern/Kennwerte erfinden** — nur was im PDF steht; Unsicheres `speculative`.
