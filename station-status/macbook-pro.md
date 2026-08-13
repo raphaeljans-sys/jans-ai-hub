@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 02:16:58
+Stand: 13.08.2026 02:27:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 02:03)
@@ -13,4 +13,4 @@ Stand: 13.08.2026 02:16:58
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 9e4067b8 methoden-radar: kein Delta, Rotation 260725 Archetypen mit BEFUND — Rollen-Aufsicht war nie verdrahtet (CLAUDE.md behauptete schutzmechanik-selbsttest haenge im heartbeat, git log -S belegt: nie enthalten, einziger Weg ist der manuelle Command /rollen); falsche Behauptung im Grundkontext korrigiert, Entscheid ueber Automatik bei Raphael (QUESTIONS 1, drei Wege); Implementation selbst liefert (rollen-map 138 Zeilen, Belege 30.07./31.07./07.08./13.08.); dritte Pflichtpruefung ins Register: Verdrahtung am Zielartefakt messen, nie aus Doku schliessen
+- 0c22138e wettbewerbs-dna Etappe 4 Lauf 02: V2 Schulbau abgeschlossen — 3x12-Matrix der eigenen Beitraege gegen die zwoelf Siegargumente (Abschnitt 7); Brandschutz-Kunstgriff in 2102 angewandt aber nicht honoriert, S7-Bruchlinie innerhalb eines Projekts, S10 von keinem Beitrag bedient und von keiner Jury geruegt; Refuter NICHT BESTANDEN, 7 Beanstandungen eingearbeitet; Seitenzahl-Versatz 2102 bewusst nicht umnummeriert
