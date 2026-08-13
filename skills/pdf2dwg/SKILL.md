@@ -76,3 +76,13 @@ Referenzfall 2619 KISPI: 240'414 Striche → ~14'500 Entities
   und im Script LibreDWG ersetzen.
 - Linienstaerken werden nicht uebertragen (Layer tragen nur Farbe);
   gestrichelte Linien bleiben als Einzelstriche erhalten (kein Linientyp-Rebuild).
+- **Fremd-DXF nach DWG** (Hersteller-CAD-Daten, Fall Schmidlin 260813): LibreDWGs
+  DXF-Reader scheitert an SPLINE/HATCH mit `READ ERROR 0x800`. Weg: DXF mit ezdxf
+  abflachen (SPLINE -> LWPOLYLINE via `flattening(distance=0.05)`, HATCH weglassen,
+  INSERT via `virtual_entities()` aufloesen, Polylinien-Format `xyb` ohne Breiten,
+  Layerfarben auf 1..255 klemmen), dann OBJECTS strippen + `dxf2dwg --as r2000`.
+  Ein 3DSOLID (ACIS) uebersteht die Konvertierung NICHT — 3D nur als Original-DXF
+  weitergeben. ⚠ Verifikations-Falle: `dwg2SVG` zeigt fuer korrekte DWGs
+  1e20-Koordinaten (Render-Bug); Koordinaten via `dwg2dxf`-Roundtrip pruefen und
+  das Quell-DXF mit dem ezdxf-drawing-Addon rendern (Hintergrund schwarz setzen,
+  sonst weisse Striche auf weiss).
