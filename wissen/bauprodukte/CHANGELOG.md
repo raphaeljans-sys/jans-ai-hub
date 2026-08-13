@@ -1,5 +1,15 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-13b — Outputs-Report: Duschwanne im Nischeneinbau, Rohlichtmass und Wandanschluss (Schmidlin)
+
+Fortsetzung des Duschwannen-Rücklaufs aus 2619 KISPI: Wandanschluss-System gemäss
+Montageanleitungen (Schallschutzband/SIA 181, Wannenanker, Dichtband 50 mm,
+Distanzband-Silikonfuge), hergeleitetes Rohlichtmass Nische = Wannenmass + 5 mm je
+Seite, Ausgleichslagen-Loesung bei zu grosser Bestandsnische, Ablaufloch-Lagen und
+Garnituren-Kennwerte FLOW 30/50. Neu:
+`outputs/2026-08-13_duschwanne-nischeneinbau-rohlichtmass.md` (verlinkt mit dem
+Schuerzen-Report vom selben Tag).
+
 ## 2026-08-13 — Outputs-Report: Duschwanne mit nahtlos emaillierter Schürze (Renovation ohne Bodeneingriff)
 
 Projektruecklauf aus 2619 KISPI (Umbau PPTS): Schmidlin-Option «nahtlos emaillierte
