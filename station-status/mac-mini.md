@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 17:17:35
+Stand: 13.08.2026 17:27:51
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -10,9 +10,6 @@ Stand: 13.08.2026 17:17:35
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
-- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 82dbf7ec nas-selfcommit: 3 Datei(en) 2026-08-13 17:15
+- 0eed8c26 Synergie-Lauf 06 (Tagestakt): SYN-24 Verifikationsstatus der Normen-Destillate erreichte 1 von 11 Abnehmern — Punkt 1b in Rule normen-referenz + Rueckkanten in werkvertrag/unternehmerkontrolle gesetzt; SYN-25 pdf2dwg-Sackgassen ins Wege-Register; SYN-26 Ablage-Spiegelung 260813 mit Gegenkante in projekt-ablage-stand
