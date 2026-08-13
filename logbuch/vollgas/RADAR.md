@@ -52,6 +52,73 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-14 00:57 — [FREI] **Zweiter sauberer Regellauf in Folge, Takt hält.** 165 Commits in 26 h, vier KBs mit echtem Liefer-Delta (energie, bauprodukte, normen, koordination), kein Delta-Null-Loop. Ampel **FREI** (28.8 % bei 50.6 % verstrichener Woche, Vorsprung **-21.7** — noch besser als beim letzten Lauf). Keine Massnahme nötig, kein Mail-Anlass
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 13.08. 12:58, dieser Lauf 14.08. 00:57 — Abstand
+**11 h 59 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Kein
+gefeuerter Lauf fehlt dazwischen. Zweiter regulärer Abstand in Folge nach dem Nachhol-Sturm vom
+13.08. — der Takt ist wieder eingeschwungen.
+
+**Fenster und Budget.** Fensterprobe mit `< /dev/null` in Sekunden: «OK», rc=0. Budget-Messung
+ohne Modellaufruf: 48.18 von 167 Mio «teuer» kombiniert (MacBook Pro 34.57, Mac Mini 13.61, beide
+Stationsdateien frisch). Der Verbrauch läuft dem Zeitverlauf **21.7 Punkte hinterher**, also
+deutlich unter Zeitplan — das Wochenkontingent reicht bis zum Montags-Reset mit Reserve. Das ist
+genau das vom stehenden Entscheid 03.08. geforderte gleichmässige Bild; kein Drossel-Anlass, aber
+auch keine Unterauslastung, die eine Takterhöhung rechtfertigen würde.
+
+**Liefer-Delta je Loop (gemessen an Commits, CHANGELOGs und Output-Dateien, nicht an `lastRunAt`).**
+Vier KBs mit CHANGELOG-Eintrag **und** neuem Output seit dem letzten Lauf:
+- `energie` run129 — AHB-Ordner 14 abgeschlossen, 5 Destillate (erste Healthcare-Quelle der KB:
+  Gebäudeautomation Pflegezentren), FAQ F230–F232; 18 geänderte Dateien, die grösste Einzelleistung
+  der Nacht.
+- `bauprodukte` — ERCO-Ratgeber Teil 2 (S. 375–426) destilliert, neuer Wiki-Artikel, Glossar
+  S. 427–435 offen für den Folgelauf; zusätzlich zwei Duschwannen-Outputs.
+- `koordination` — `wissens-chef` run31 und `synergie-lauf-06`; run31 hat SIA 386.111 von `energie`
+  nach `normen` nachgezogen und dabei **4 von 6 Melder-Befunden adversarial widerlegt**, in drei
+  Fällen war der Korrekturvorschlag selbst falsch. Genau die Gegenprüfung, die Rule 260729b verlangt.
+- `normen` — Registerzeile plus drei BKP-/Fundstellen-Korrekturen aus derselben Übergabe.
+Dazu `tenant-hygiene` (Versions-Trim JANS.PROJEKTE gestartet 23:26, IMMO offen, im Fristen-Register
+vermerkt). **Kein Loop drei Läufe in Folge ohne Delta — keine Rücktaktung, keine Deaktivierung.**
+
+**Feuermechanismen: alle drei Orte stimmen.** Beide `vollgas-supervisor`-plists weiterhin
+`.disabled-260729`, der MacBook-`vollgas-monitor` ebenso; der Runner bleibt ausgebaut (stehender
+Entscheid 30.07.). Auf dem Mini sind `nachtschicht`, `wissens-trigger`, `transcript-rotation`,
+`speicher-waechter` und `station-status` geladen und arbeiten — das Journal belegt den
+Nachtschicht-Lauf um 23:35 (rc=0, 289 s, 4.76 USD). Kein Loop wird von zwei Mechanismen gefeuert.
+
+**Messdisziplin-Befund: `launchctl list` über ssh lügt nicht, es misst nur die falsche Domäne.**
+Der erste Griff — `ssh mini 'launchctl list | grep jans'` — zeigte nur vier Jobs und liess
+`nachtschicht` fehlen, was wie ein Ausfall der ganzen Mini-Nachtschicht aussah. Tatsächlich sieht
+eine ssh-Sitzung nur ihre eigene launchd-Domäne, nicht `gui/501`. Die Gegenprobe
+`launchctl print gui/501` zeigt alle fünf Jobs geladen. **Ein leeres oder kurzes Ergebnis ist
+zuerst eine Aussage über das Werkzeug, nicht über die Quelle** (gleiche Familie wie die
+grep-Falle im nicht-UTF-8-Selfcommit-Log, Rule 260730b, und der Konfigurationsfeld-Befund 260807).
+Für künftige Läufe: **auf dem Mini immer `launchctl print gui/501` verwenden, nie `launchctl list`
+über ssh.**
+
+**Speicher und Waisen.** Keine verwaisten `claude -p`-Prozesse (die Fensterprobe brauchte keinen
+Watchdog). Frei nach der gültigen Methode (free + inactive + purgeable): **rund 6.0 GB**,
+`kern.memorystatus_vm_pressure_level: 1` (normal). Kein Handlungsbedarf.
+
+**Sparsamkeit.** Regellauf inline und in einem parallelen Block gemessen, kein Subagent, rund zehn
+Werkzeugaufrufe — die einzige zusätzliche Abfrage war die Gegenprobe zur launchd-Domäne, also ein
+konkreter Befund und kein Streifzug.
+
+**P1 — keiner.** Kein Login-Blocker, kein Wochenlimit, kein toter Loop, kein Mechanismus-Konflikt.
+
+**P2 — `bauprodukte` läuft auf die Endbedingung zu.** Vom ERCO-Ratgeber fehlt nur noch das Glossar
+(S. 427–435 von 435). Ist es destilliert, ist diese Quelle erschöpft und die Nachtschicht braucht
+ein neues Korpus-Ziel aus `KORPUS-QUEUE.md`, sonst wiederholt sich das `grobkosten`-Muster: ein
+Loop, der weiterläuft, obwohl sein Material aufgebraucht ist. Beim nächsten Lauf prüfen und, falls
+das Glossar durch ist, das nächste Queue-Ziel benennen.
+
+**P3 — offene Nachträge aus Budgetabbrüchen.** Zwei Mac-Mini-Läufe endeten am 5-USD-Deckel, bevor
+sie fertig protokolliert hatten: der CHANGELOG-Nachtrag zu `waermeplanung-kommunal-zh-sz.md`
+(13.08. 13:34) und die Stationskopie von `claude-abo-auslastung/SKILL.md`, die an einer
+Permission-Sperre scheiterte (13.08. 00:24). Beides ist inhaltlich harmlos, aber der zweite Punkt
+bedeutet, dass die Station beim nächsten Lauf die **alte** Fassung zieht — das gehört nachgezogen.
+
+---
 ## 2026-08-13 12:58 — [FREI] **Erster Regellauf nach dem 109-h-Ausfall: die Flotte trägt wieder, und zwar voll.** 109 Commits in 14 h, 96 geänderte Wissens-Dateien heute, kein einziger Delta-Null-Loop. Ampel **FREI** (23.2 % bei 43.4 % verstrichener Woche, Vorsprung **-20.2**). Ausgeführt: `grobkosten` als freies Nachtschicht-Ziel ausgesetzt — Endbedingung erreicht (Schritt 6). Kein Mail-Anlass
 
 **Selbstkontrolle: bestanden, erstmals seit vier Läufen.** Letzter Eintrag 13.08. 01:51, dieser
