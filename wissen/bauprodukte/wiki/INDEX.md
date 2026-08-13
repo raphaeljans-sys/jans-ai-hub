@@ -14,7 +14,7 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
-- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-240 von ca. 435):
+- [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-374 von 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
   (Lichtrichtung/-verteilung/Kontrastskala), Mit Lichtfarben gestalten (Farbe,
@@ -22,22 +22,21 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   Planungspraxis vollständig (Projektanalyse, Lampen-/Leuchtenauswahl inkl.
   Lichtverteilung/Montagearten/UGR/Beleuchtungsstärke/IP-Schutzart, Leuchtenanordnung,
   Montage Decke/Wand/Boden, Wartung), Licht visualisieren vollständig (Zeichnung,
-  Simulation, Modell/Mock-up), Kapitel Innenraumbeleuchtung (S. 110-183) vollständig:
-  Arten des Beleuchtens (Allgemein direkt/direkt diffus/indirekt/kombiniert, Fluten,
-  Akzentuieren, Projektion, Orientierung), Leuchtengruppen (Stromschiene/Strahler/
-  Fluter/Wandfluter/Lichtstrukturen/Downlights/Arbeitsplatzleuchten/Wandleuchten/
-  Perimeterleuchten/Bodeneinbauleuchten/Orientierungsleuchten/Not- und
-  Hinweisleuchten), Lichtanwendungen (Nutzfläche/Wand/Decke/Boden/Objekt im Raum/
-  an der Wand/Orientierungsbeleuchtung/Hinweisbeleuchtung). Kapitel
-  Aussenraumbeleuchtung begonnen: Arten des Beleuchtens vollständig (Allgemein direkt
-  gerichtet/diffus, Fluten symmetrisch/asymmetrisch, Akzentuieren, Orientierung),
-  Leuchtengruppen vollständig (Scheinwerfer/Fluter/Wandfluter/Freiflächen- und
-  Wegeleuchten/Downlights/Decken- und Wandleuchten/Bodeneinbauleuchten/
-  Orientierungsleuchten). Lichtanwendungen Aussenraum (S. 211-240) teilweise:
-  Wand/Decke/Boden/Objekt vollständig, Fassade (massiv/vertikale Gliederung/
-  horizontale Gliederung/Vorsprung-Rücksprung) vollständig, Lochfassade
-  angelesen. Weitere Kapitel offen (Lochfassade-Rest, Fassade transparent,
-  Vegetation, Lichtsteuerung, Lichttechnik, Simulation und Berechnung, Glossar)
+  Simulation, Modell/Mock-up), Kapitel Innenraumbeleuchtung (S. 110-183) vollständig,
+  Kapitel Aussenraumbeleuchtung (S. 184-277) vollständig (Arten des Beleuchtens,
+  Leuchtengruppen, Lichtanwendungen inkl. Wand/Decke/Boden/Objekt/Fassade/Vegetation,
+  Planungsbeispiele, Dark Sky), Hauptkapitel Lichtsteuerung (S. 278-317) vollständig
+  (Funktionen, Steuerungssysteme 1V-10V/DMX/DALI/KNX/LON, Geräte, Planungsbeispiele).
+  Hauptkapitel **Lichttechnik (S. 318-374) neu vollständig destilliert**: Grössen/
+  Einheiten (Lichtstrom/-ausbeute lm/W, Lichtstärke/LVK, Beleuchtungsstärke lx,
+  Leuchtdichte cd/m², Lichtfarbe mit exakten Kelvin-Grenzen ww/nw/tw, Farbwiedergabe-
+  index Ra), Lampen (Lampenübersichtstabelle, Temperaturstrahler, Entladungslampen,
+  LED), Leuchtentechnik (Prinzipien der Lichtlenkung Reflexion/Transmission/
+  Absorption/Brechung/Interferenz, Reflektoren, Linsensysteme, Filter inkl. UV-/
+  IR-Schutzfilter für Museen, Prismenraster, Lichttechnisches Zubehör, Farbmischung/
+  Varychrome). Zwei gekennzeichnete ERCO-Markennamen im Artikel: Light System DALI
+  (S. 292), Varychrome (S. 373-374). Offen: Simulation und Berechnung (ab S. 375),
+  Glossar (bis S. 435)
 
 ### BKP 261 — Aufzüge
 - [[bkp-261-aufzuege]] — Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit

@@ -5513,3 +5513,33 @@ Herstellerneutralitaet beachten, ERCO ist selbst Leuchtenhersteller). Wiki-Artik
 Inventar/CHANGELOG nachgefuehrt. Kein Versand, keine Buchung, kein Fan-out ueber den einen
 Subagenten hinaus. Zyklus bei knapp 5 von 5 USD beendet (Budget diesen Lauf ausgeschoepft).
 - energie Run 127 (13:30-Slot): eco-bau-Block fortgesetzt, 4 PDF (Asbest-Screening ZH, AHB-Checkliste, Elektrosmog neu, Beschwerden-Vorgehen), 59/182 destilliert, FAQ F226, Wiki elektrosmog neu + gebaeudeschadstoffe gewachsen.
+
+## 2026-08-13 02:30 Nachtschicht Mac Mini (KB bauprodukte, ERCO-Ratgeber S. 317→374; Nebenbefund grobkosten gesaettigt)
+
+Prioritaeten 1-3 leer/abgedeckt: keine pending remote-/sync-Tasks fuer Mac Mini; Fristen-Radar
+heute bereits durch Radar-Briefing (01:32) und Hub-Chef-Tagesbriefing (01:41) bedient, kein
+zusaetzlicher Entwurf noetig. Vor der Prioritaet-4-Wahl `grobkosten` gegengeprueft (naechst-
+aelterer inhaltlicher Stand nach `energie`, das bereits heute Nacht per Run 128 bedient wurde):
+`training/quellen-inventar.md` zeigt nach Run 15 (11.08.) **keine** verbleibenden `[ ]`-Zeilen
+mehr, alle drei zuvor offenen Kandidaten (2304 Waedenswil, Langnau Giebelweg 12, Pre-Check-Tool
+2305 Waedenswil) sind in Run 7/15 abschliessend `[x]`/`[-]` geschlossen. Die Endbedingung aus
+`training/PROGRAMM.md` ("alle Inventar-Zeilen [x]/[-]") ist damit erreicht — der Loop meldet
+Saettigung und schlaegt (wie die Endbedingung selbst vorsieht) Ruecktaktung auf einen
+Ereignis-Trigger vor (neuer Kostenstand aus `kostenkontrolle`). Keine destruktive Aenderung
+vorgenommen, nur der Befund hier vermerkt; die formelle Ruecktaktungs-Notiz gehoert nach
+`wissen/grobkosten/wiki/QUESTIONS.md` (noch offen fuer einen kuenftigen kurzen Lauf).
+
+Gewaehlte Aufgabe: `bauprodukte` (55 offene Positionen laut KORPUS-QUEUE, hoechste Prioritaet
+unter den Destillat-Korpora, letzter inhaltlicher Stand 12.08. gegenueber energie 13.08. bereits
+heute Nacht bedient). Subagent (Sonnet) hat den ERCO-Ratgeber (`de_erco_guide.pdf`, BKP 233) von
+Seite 318 auf Seite 374 fortgeschrieben: Hauptkapitel «Lichttechnik» (Groessen/Einheiten,
+Lampen, Leuchtentechnik) vollstaendig destilliert, sauberer Stopp vor Kapitel «Simulation und
+Berechnung» (S. 375). Zweiter gekennzeichneter ERCO-Markenname aufgetreten («Varychrome»,
+S. 373-374, analog zum Praezedenzfall «Light System DALI» S. 292 explizit als Firmenbeispiel
+benannt, nicht als Fachbegriff uebernommen) — Herstellerneutralitaet gewahrt. Eine OCR-technisch
+nicht sauber extrahierbare Reflexionsgrad-Tabelle (S. 351) bewusst nicht wiedergegeben statt
+geraten. Wiki-Artikel `erco-lichtplanung-grundlagen.md` (+432/-44 Zeilen, Verdichtung des
+Frontmatter-Fortschritts + neue Abschnitte, keine Loeschung von Altinhalt), INDEX.md-Eintrag und
+CHANGELOG nachgefuehrt, `git diff --numstat` gegengeprueft (nur die drei bauprodukte-Dateien
+betroffen). Kein Versand, keine Buchung, kein weiterer Fan-out. Zyklus bei knapp 4.6 von 5 USD
+beendet (Budget ausgeschoepft).

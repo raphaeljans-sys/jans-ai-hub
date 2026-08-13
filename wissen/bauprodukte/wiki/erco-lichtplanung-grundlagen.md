@@ -1,13 +1,13 @@
 ---
-title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung (Teil 1/n, Seiten 1-317)"
+title: "ERCO Ratgeber — Lichtplanungsgrundlagen: Geschichte, Wahrnehmung, Gestaltung mit Licht, Planungspraxis, Licht visualisieren, Innenraumbeleuchtung, Aussenraumbeleuchtung, Lichtsteuerung, Lichttechnik (Teil 1/n, Seiten 1-374)"
 status: emerging
-last_updated: 2026-08-12
-gelesen: "Seiten 1-317 von ca. 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG; Kapitel «Licht visualisieren» VOLLSTÄNDIG; Kapitel «Innenraumbeleuchtung» VOLLSTÄNDIG; Hauptkapitel «Aussenraumbeleuchtung» S. 184-277 VOLLSTÄNDIG («Arten des Beleuchtens», «Leuchtengruppen», «Lichtanwendungen» inkl. Wand/Decke/Boden/Objekt/Fassade/Vegetation S. 211-265, «Planungsbeispiele» S. 266-274, «Lichtplanung»/Dark Sky S. 275-277); Hauptkapitel «Lichtsteuerung» S. 278-317 VOLLSTÄNDIG (Licht steuern/Funktionen, Steuerungssysteme inkl. 1V-10V/DMX/DALI/KNX/LON, Geräte, Planungsbeispiele)). Offen: «Lichttechnik» ab S. 318 (vermutlich Kennwerte lm/W, Ra, Farbtemperatur je Lampentyp — Herstellerneutralität beachten, ERCO ist Leuchtenhersteller), danach vermutlich «Simulation und Berechnung», «Glossar» — Folgelauf nötig."
-sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Aussenraumbeleuchtung + Lichtsteuerung (fortgeschrieben bis S. 317), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-183 Edition 07.07.2006, S.184-194 Edition 29.09.2006, S.195 Edition 01.03.2010, S.196-210 Edition 29.09.2006, S.211-265 Edition 24.10.2006, S.266-274 Edition 26.10.2006, S.275-277 Edition 25.10.2006, S.278-298 Edition 03.07.2007, S.299-300 Edition 01.03.2010, S.301-317 Edition 03.07.2007 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
+last_updated: 2026-08-13
+gelesen: "Seiten 1-374 von 435 (Kapitel «Grundlagen» und «Gestalten mit Licht» vollständig; Hauptkapitel «Planungspraxis» VOLLSTÄNDIG; Kapitel «Licht visualisieren» VOLLSTÄNDIG; Kapitel «Innenraumbeleuchtung» VOLLSTÄNDIG; Hauptkapitel «Aussenraumbeleuchtung» S. 184-277 VOLLSTÄNDIG; Hauptkapitel «Lichtsteuerung» S. 278-317 VOLLSTÄNDIG; Hauptkapitel «Lichttechnik» S. 318-374 VOLLSTÄNDIG («Grössen, Einheiten» S. 318-327: Lichtstrom/Lichtausbeute/Lichtstärke/LVK/Beleuchtungsstärke/Belichtung/Leuchtdichte/Lichtfarbe/Farbwiedergabe; «Lampen» S. 328-347: Lampenübersicht/-bezeichnung, Temperaturstrahler, Entladungslampen, LED; «Leuchtentechnik» S. 348-374: Prinzipien der Lichtlenkung, Reflektoren, Linsensysteme, Filter, Prismenraster, Lichttechnisches Zubehör, Farbmischung/Varychrome)). Offen: Hauptkapitel «Simulation und Berechnung» ab S. 375 (Einführung Simulation, Lichtsimulation inkl. Rendering, Berechnungen inkl. Anschlussleistung/Wartungsfaktor, Planungsdaten, Planungsbeispiele), danach «Glossar» bis S. 435 — Folgelauf nötig, klare Kapitelgrenze bei S. 374/375."
+sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Grundlagen + Gestalten mit Licht + Planungspraxis + Licht visualisieren + Innenraumbeleuchtung + Aussenraumbeleuchtung + Lichtsteuerung + Lichttechnik (fortgeschrieben bis S. 374), Editionsdaten je Seite unterschiedlich vermerkt: S.1 keine Edition, S.2-14 Edition 20.03.2007, S.15-31 Edition 20.09.2007, S.32-54/57-62/72-98 Edition 26.06.2006, S.55-56/69-71 Edition 01.03.2010, S.99-109 Edition 19.07.2007, S.110-129 Edition 25.07.2006, S.130-151 Edition 05.09.2006, S.152-183 Edition 07.07.2006, S.184-194 Edition 29.09.2006, S.195 Edition 01.03.2010, S.196-210 Edition 29.09.2006, S.211-265 Edition 24.10.2006, S.266-274 Edition 26.10.2006, S.275-277 Edition 25.10.2006, S.278-298 Edition 03.07.2007, S.299-300 Edition 01.03.2010, S.301-317 Edition 03.07.2007, S.318/321-325 Edition 20.03.2007, S.319-320/326-327/330/333-347/365-368 Edition 01.03.2010, S.328-329/331-332 Edition 20.05.2007, S.348-364/369-374 Edition 10.01.2008 — Dokument wurde seitenweise nachgeführt, kein einheitliches Ausgabedatum)]
 links: [[INDEX]]
 ---
 
-# ERCO Ratgeber — Lichtplanungsgrundlagen (Teil 1/n, Seiten 1-317)
+# ERCO Ratgeber — Lichtplanungsgrundlagen (Teil 1/n, Seiten 1-374)
 
 BKP-Einordnung: **BKP 233 Leuchten und Lampen** (verifiziert gegen
 `references/bkp-2017/BKP-2017-Liste.md`, Subpositionen 233.0 Lieferung / 233.1
@@ -15,15 +15,18 @@ Montage). Dieser Artikel ist kein Produktdatenblatt, sondern
 **Planungsgrundlagenwissen** aus den ersten Kapiteln des ERCO-Ratgebers — einer
 mehrere hundert Seiten umfassenden Fachenzyklopädie des Leuchtenherstellers ERCO
 zur Architekturbeleuchtung. Das Dokument (435 Seiten laut PDF-Struktur) wird in
-mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 317 Seiten.
+mehreren Destillat-Läufen bearbeitet; dieser Artikel deckt die ersten 374 Seiten.
 
 ## Herstellerneutralität
 
 ERCO ist selbst Leuchtenhersteller; der Ratgeber ist als allgemeine Fachpublikation
-angelegt (Physik/Wahrnehmung/Planungsmethodik), nicht als Produktkatalog der ersten
-20 Seiten. Konkrete ERCO-Produkte kommen in diesem Auszug nicht vor. Bei künftigen
-Kapiteln («Lichttechnik», die Leuchten-Kennwerte enthalten dürfte) ist auf
-Herstellerneutralität zu achten (KB-Schreibregel 4/5).
+angelegt (Physik/Wahrnehmung/Planungsmethodik), nicht als reiner Produktkatalog.
+Bislang zwei konkrete, als solche gekennzeichnete ERCO-Markennamen im gelesenen
+Textkorpus: **«Light System DALI»** (S. 292, Lichtsteuerungssystem) und
+**«Varychrome»** (S. 373-374, dynamische Farbmischung) — beide im Artikel explizit
+als Markenbezeichnung benannt, nicht als allgemeiner Fachbegriff übernommen
+(KB-Schreibregel 4/5). Alle physikalischen/normativen Kennwerte (lm/W, Ra, Kelvin,
+IP-Schutzart u.ä.) sind herstellerneutral.
 
 ## Geschichte der Lichtplanung — zwei Denkschulen
 
@@ -1833,40 +1836,425 @@ Original verifiziert (`pdftotext -f 318`).
   ein präziser Begriffsapparat, um gegenüber einem Elektroplaner die
   gewünschte Tageslichtabhängigkeit einer Kunstlichtanlage exakt zu
   benennen, statt pauschal «tageslichtgesteuert» zu fordern.
+- Die **drei Farbtemperatur-Hauptgruppen mit exakten Kelvin-Grenzen**
+  (S. 326: Warmweiss < 4'000 K, Neutralweiss 4'000-5'000 K, Tageslichtweiss
+  > 5'000 K) präzisieren die bereits weiter oben (S. 50) vermerkte, dort nur
+  qualitative Dreiteilung — direkt als Übergabewert an ein Elektro-/
+  Lichtplaner-LV verwendbar, wenn eine Lichtfarbe als Zahlenbereich statt als
+  Wort verlangt wird.
+- Die **Farbwiedergabeindex-Systematik Ra** (S. 327: Referenzlichtquelle =
+  kontinuierliches Spektrum, acht Körperfarben als Prüfskala, Ra 100 =
+  ideale Wiedergabe) ist die normative Grundlage, mit der sich eine
+  Bauherren-Forderung «gute Farbwiedergabe» in eine belegbare Zahl (Ra-Wert)
+  übersetzen lässt — ergänzt die bereits auf S. 55-56 notierte qualitative
+  Aussage um die exakte Messmethodik.
+- Die **Lampenübersichtstabelle S. 330** (Lampenleistung, Lichtstrom,
+  Lichtausbeute lm/W, Lichtfarbe, Farbtemperatur, Ra-Bereich, Lebensdauer,
+  Dimmverhalten, Brillanz, Startverhalten je Lampenkategorie LED/A/QT/QT,QPAR/
+  TC/T/HIT/HST) ist eine herstellerneutrale Kennwerte-Referenz für die
+  Vorauswahl eines Leuchtmitteltyps in einer Ausschreibung — die Kategorien
+  bezeichnen Bauformen (Allgebrauchslampe, Halogen 12V/Netzspannung,
+  Kompaktleuchtstoff, Leuchtstoffröhre, Halogen-Metalldampf,
+  Natriumdampf-Hochdruck), keine Fabrikate.
+
+## ⚠ Herstellerneutralität — «Varychrome» (S. 373-374)
+
+Im Abschnitt «Farbmischung» führt das Dokument den Begriff **«Varychrome»**
+explizit als ERCO-Markenbezeichnung ein («Der Namenszusatz ‚varychrome'
+kennzeichnet bei ERCO Leuchten, die dynamisch die Lichtfarbe verändern
+können», S. 373) — dieselbe Konstellation wie beim bereits dokumentierten
+Präzedenzfall «Light System DALI» (S. 292): eine als solche gekennzeichnete
+ERCO-Produktlinie, **nicht** als allgemeiner Fachbegriff für additive
+RGB-Farbmischung übernommen. Die physikalische Grundlage dahinter (additive
+Farbmischung aus roten/grünen/blauen Leuchtstofflampen oder LEDs, elektronisch
+gesteuert, stufenlose Lichtfarbeneinstellung) ist neutral und im Artikel
+entsprechend als «RGB-Technik» bzw. «additive Farbmischung» wiedergegeben.
+
+## Lichttechnik — Grössen, Einheiten (S. 318-327)
+
+Erstes Unterkapitel des dritten Hauptkapitels «Lichttechnik» (nach
+«Grundlagen» und «Gestalten mit Licht» sowie dem separaten Kapitel
+«Planungspraxis»/«Licht visualisieren»/«Innenraumbeleuchtung»/
+«Aussenraumbeleuchtung»/«Lichtsteuerung»). Definiert die physikalischen
+Grössen, die in den vorangegangenen Kapiteln bereits verwendet, aber nicht
+formal hergeleitet wurden.
+
+- **Lichtstrom Φ (S. 319):** Mass für die gesamte von einer Lichtquelle
+  abgegebene Lichtleistung, Einheit **Lumen (lm)**. Grund für die Einheit
+  Lumen statt der physikalischen Strahlungsleistung in Watt: die spektrale
+  Empfindlichkeit des Auges ist wellenlängenabhängig (Maximum bei 555 nm,
+  photopisch) — ein Strahlungsfluss von 1 W bei 555 nm erzeugt 683 lm,
+  derselbe Strahlungsfluss in weniger empfindlichen Spektralbereichen
+  entsprechend weniger.
+- **Lichtausbeute η (S. 320):** η = Φ/P [lm/W], beschreibt den Wirkungsgrad
+  einer Lampe (abgegebener Lichtstrom pro aufgewendeter elektrischer
+  Leistung). Theoretischer Maximalwert bei vollständiger Umsetzung bei 555 nm:
+  **683 lm/W** — tatsächlich erreichbare Werte liegen je nach Leuchtmittel
+  weit darunter (Bandbreiten je Lampentyp: siehe Tabelle S. 330 unten).
+- **Lichtstärke I (S. 321-322):** I = Φ/Ω [lm/sr = Candela, cd], die
+  **Grundeinheit der Lichttechnik**, von der alle weiteren lichttechnischen
+  Grössen abgeleitet werden — Mass für den in einen bestimmten Raumwinkel
+  abgegebenen Lichtstrom. Eine ideale Punktlichtquelle strahlt gleichmässig
+  in alle Richtungen; real ergibt sich eine ungleichmässige räumliche
+  Verteilung, dargestellt als **Lichtstärkeverteilungskurve (LVK)** im
+  Polarkoordinatensystem, auf 1'000 lm Lichtstrom normiert (zum Vergleich
+  unterschiedlicher Lichtquellen). Rotationssymmetrische Leuchten brauchen
+  nur eine LVK, achsensymmetrische Leuchten zwei (Ebenen C0/180° und
+  C90/270°, meist in einem Diagramm zusammengefasst).
+- **Ausstrahlungswinkel und Abblendwinkel (S. 322):** der
+  **Ausstrahlungswinkel β** ist der Winkelbereich, innerhalb dessen die
+  maximale Lichtstärke I' auf I'/2 abnimmt; der **Abblendwinkel α** ergänzt
+  den Grenzausstrahlungswinkel γ_G zu 90°. Diese Begriffe präzisieren die
+  bereits an mehreren Stellen (z.B. S. 397 Blendung/UGR) verwendete, dort nur
+  qualitative Abblendwinkel-Diskussion.
+- **Beleuchtungsstärke E (S. 323):** Mass für die Lichtstromdichte auf einer
+  Fläche (auf eine Fläche fallender Lichtstrom pro Flächeneinheit), Einheit
+  **Lux (lx)**. Nicht an eine reale Oberfläche gebunden, an jeder Stelle im
+  Raum bestimmbar. Nimmt mit dem **Quadrat der Entfernung** von der
+  Lichtquelle ab (photometrisches Entfernungsgesetz, E_p = I/a²). Unterschieden
+  werden horizontale (E_h) und vertikale (E_v) Beleuchtungsstärke, die
+  mittlere Beleuchtungsstärke E_m = Φ/A (Lichtstrom auf eine Fläche bezogen)
+  und die Beleuchtungsstärke an einem Punkt E_p = I/a².
+- **Belichtung (S. 324):** Produkt aus Beleuchtungsstärke und
+  Belichtungsdauer — praxisrelevant vor allem bei der Berechnung von
+  Lichtbelastungen auf Exponaten, z.B. in Museen.
+- **Leuchtdichte L (S. 324):** beschreibt, anders als die Beleuchtungsstärke
+  (auf eine Fläche treffendes Licht), das **von einer Fläche ausgehende**
+  Licht — Verhältnis von Lichtstärke zur projizierten Fläche, L = I/A_p
+  [cd/m²]. Kann von der Fläche selbst ausgehen (Lampen/Leuchten) oder
+  reflektiert/transmittiert werden; bei diffus reflektierenden (matten)
+  Flächen berechenbar aus Beleuchtungsstärke × Reflexionsgrad / π. Die
+  Helligkeit korreliert mit der Leuchtdichte, der tatsächliche
+  Helligkeitseindruck wird zusätzlich vom Adaptationszustand des Auges, den
+  Kontrastverhältnissen und dem Informationsgehalt der Fläche beeinflusst —
+  Rückbezug auf die Wahrnehmungskonstanz-Aussagen S. 22-25.
+- **Lichtfarbe (S. 325-326):** Farbe des von einer Lampe abgegebenen Lichts,
+  beschreibbar über x,y-Koordinaten im **CIE-Normvalenzsystem** oder, bei
+  weissen Lichtfarben, über die **Farbtemperatur T_F**. Der **Planckscher
+  Kurvenzug** enthält die Farborte der Planckschen Strahlung aller
+  Temperaturen; da reale Lichtquellen meist nahe an dieser Kurve liegen, wird
+  über eine Geradenschar «ähnlichster Farbtemperaturen» auch Lichtquellen
+  ausserhalb der Kurve eine Farbtemperatur zugeordnet. **Drei
+  Farbtemperatur-Hauptgruppen mit exakten Grenzwerten:** Warmweiss (ww)
+  **unter 4'000 K**, Neutralweiss (nw) **4'000-5'000 K**, Tageslichtweiss
+  (tw) **über 5'000 K** — präzisiert die frühere, nur qualitative
+  Dreiteilung (S. 50). Tabelle ähnlichster Farbtemperaturen typischer
+  Lichtquellen (Quelle, gerundet): Kerze ca. 1'900-1'950 K, Kohlefadenlampe
+  ca. 2'100 K, Glühlampe ca. 2'700-2'900 K, Leuchtstofflampen 2'800-7'500 K,
+  Mondlicht ca. 4'100 K, Sonnenlicht 5'000-6'000 K, Tageslicht (Sonne + blauer
+  Himmel) 5'800-6'500 K, bedeckter Himmel 6'400-6'900 K, klarer blauer Himmel
+  10'000-26'000 K.
+- **Farbwiedergabe (S. 327):** Qualität der Wiedergabe von Farben unter einer
+  gegebenen Beleuchtung, ausgedrückt über den **Farbwiedergabeindex Ra**
+  (bzw. die Farbwiedergabestufe). Referenz ist eine Lichtquelle mit
+  kontinuierlichem Spektrum vergleichbarer Farbtemperatur (Temperaturstrahler
+  oder Tageslicht). Ermittelt über die Farbwirkung einer Skala von **acht
+  Körperfarben** unter Prüf- und Referenzbeleuchtung. **Ra 100** = ideale
+  Farbwiedergabe (Glühlampenlicht/Tageslicht), geringere Werte = schlechtere
+  Wiedergabe. Lineare/kontinuierliche Spektren geben eine gute Farbwiedergabe,
+  Linienspektren allgemein eine schlechtere, Mehrlinienspektren verbessern sie
+  gegenüber einzelnen Linienspektren.
+
+## Lichttechnik — Lampen (S. 328-347)
+
+Zweites Unterkapitel: systematischer Überblick über Leuchtmitteltechnologien,
+gegliedert nach Lichterzeugungsprinzip in drei Hauptgruppen —
+**Temperaturstrahler**, **Entladungslampen**, **Elektrolumineszenzstrahler**.
+
+**Lampenbezeichnung (S. 331):** ein Buchstabencode-System, bei dem der 1.
+Buchstabe die Lichterzeugungsart, der 2. Buchstabe das Kolbenmaterial
+(Glühlampen) bzw. die Gasfüllung (Entladungslampen) und der 3.
+Buchstabe/die 3. Buchstabenkombination die Kolbenform kennzeichnet;
+Sonderausführungen werden mit Bindestrich angehängt (z.B. HIT-DE).
+
+**Lampenübersichtstabelle (S. 330), Kennwertbereiche je Kategorie** (LED /
+A Allgebrauchslampe / QT 12V Halogen-Niedervolt / QT,QPAR
+Halogen-Netzspannung / TC Kompaktleuchtstoff / T Leuchtstoffröhre /
+HIT Halogen-Metalldampf / HST Natriumdampf-Hochdruck):
+
+| Kennwert | LED | A | QT (12V) | QT,QPAR | TC | T | HIT | HST |
+|---|---|---|---|---|---|---|---|---|
+| Lampenleistung (W) | 1.7-42 | 100-150 | 20-100 | 75-1'000 | 9-36 | 24-58 | 20-400 | 50-100 |
+| Lichtstrom (lm) | 25-3'200 | 1'380-2'220 | 320-2'200 | 1'100-22'000 | 600-2'800 | 1'750-5'200 | 1'700-35'000 | 2'400-5'000 |
+| Lichtausbeute (lm/W) | 30-75 | 15 | 22 | 22 | 78 | 90 | 88-97 | 50 |
+| Lichtfarbe | diverse | ww | ww | ww | ww/nw/tw | ww/nw/tw | ww/nw | ww |
+| Farbtemperatur (K) | 1'700-10'000 | 2'700 | 3'000 | 3'000 | 2'700-6'500 | 2'700-6'500 | 3'000-4'200 | 2'550 |
+| Ra-Bereich | 70-85 | 100 | 100 | 100 | 80-89 | 80-89 | 80-89 | 83 |
+| Lebensdauer (h) | 50'000 | 1'000 | 3'000-5'000 | 2'000 | 8'000-12'000 | 12'000-20'000 | 9'000-12'000 | 10'000-15'000 |
+| Dimmbar / Brillanz / sofort startklar | + / + / + | + / + / + | + / + / + | + / + / + | + / - / + | + / - / + | - / + / - | - / + / - |
+
+Diese Tabelle ist eine herstellerneutrale Vergleichsreferenz nach
+Lampenkategorie (Bauform), keine Produktangabe.
+
+**Temperaturstrahler (S. 332-336):** Lichterzeugung über eine glühende
+Metallwendel; mit zunehmender Temperatur verschiebt sich das Spektrum von
+Rotglut zu warmweissem Licht. Gemeinsame Eigenschaften über die vier
+Ausprägungen (Allgebrauchslampen, R-/PAR-Lampen, Halogenlampen,
+Halogenreflektorlampen): niedrige Farbtemperatur, kontinuierliches Spektrum
+→ hervorragende Farbwiedergabe, hohe Leuchtdichte als Punktlichtquelle →
+Brillanz, problemlos dimmbar, kein Zusatzgerät für den Betrieb nötig; Nachteil
+geringe Lichtausbeute und relativ kurze Lebensdauer. **Dimmverhalten:**
+Spannungsreduzierung verschiebt das Spektrum zu längeren Wellenlängen (Rotglut
+statt warmweiss) und senkt den Lichtstrom überproportional zur
+Spannungsreduzierung. **Halogenlampen** verbessern gegenüber der
+herkömmlichen Glühlampe Lichtausbeute und Lebensdauer durch den
+Halogen-Kreisprozess (verdampftes Wolfram verbindet sich mit dem Halogen zu
+Metallhalogenid und wird zur Wendel zurückgeführt), ermöglichen kompaktere
+Bauformen und damit engere Lichtbündelung; Niedervolt-Varianten benötigen
+einen Transformator. **R-/PAR-Lampen:** R-Lampen aus Weichglas mit innen
+angebrachter Teilverspiegelung (mässige Bündelung), PAR-Lampen aus Pressglas
+mit parabolischem Reflektor (höhere Formgenauigkeit, definierter
+Ausstrahlungswinkel); Kaltlichtlampen (Untergruppe der PAR-Lampen) mit
+dichroitischer Verspiegelung reflektieren sichtbares Licht, lassen aber einen
+Grossteil der Wärmestrahlung durch — reduziert die Wärmebelastung
+angestrahlter Objekte um etwa die Hälfte.
+
+**Entladungslampen (S. 337-344):** Lichterzeugung nicht (allein) über
+Temperatur, sondern über chemische/elektrische Prozesse; unterteilt in
+Niederdruck- und Hochdrucklampen. **Leuchtstofflampen:** Quecksilberdampf-
+Niederdruckentladung, UV-Strahlung wird über eine Leuchtstoffbeschichtung im
+Rohr in sichtbares Licht umgewandelt (Fluoreszenz); grosse abstrahlende
+Oberfläche → diffuses Licht mit wenig Brillanz; benötigen Starter und
+Vorschaltgerät; Lichtfarbe ww/nw/tw je nach Leuchtstoffanteil; höhere
+Lichtausbeute geht auf Kosten der Farbwiedergabe. **Kompakte
+Leuchtstofflampen:** gleiche Funktionsweise, kürzere Bauform durch gebogene
+Entladungsrohre; bei integriertem Starter nicht dimmbar, mit externem Starter
+und elektronischem Vorschaltgerät dimmbar. **Halogen-Metalldampflampen
+(HIT):** enthalten zusätzlich zum Quecksilberdampf ein Gemisch von
+Metallhalogeniden → höhere Lichtausbeute UND verbesserte Farbwiedergabe
+gegenüber reinen Quecksilberdampflampen, fast kontinuierliches
+Mehrlinienspektrum; Keramik-Brenner erreichen höhere Betriebstemperatur und
+damit bessere Werte als Quarztechnik; benötigen Zünd- und Vorschaltgerät,
+Einbrennzeit (mehrere Minuten) und Abkühlphase vor Wiederzündung (ausser bei
+speziellen Sofort-Wiederzündungs-Ausführungen); nicht dimmbar; Bauformen
+röhrenförmig (HIT ein-/HIT-DE zweiseitig gesockelt) und als
+Halogen-Metalldampf-Reflektorlampe (HIPAR). **Natriumdampf-Hochdrucklampen:**
+hervorragende Lichtausbeute, hohe Lebensdauer, mässige bis gute
+Farbwiedergabe, gelbliches bis warmweisses Licht; gleiches Betriebsschema
+(Vorschalt-/Zündgerät, Einbrennzeit, Abkühlphase) wie HIT.
+
+**Elektrolumineszenzstrahler — LED (S. 345-347):** Halbleiterdioden;
+Lichterzeugung durch Rekombination von Ladungsträgerpaaren am pn-Übergang
+(Anlegen einer Spannung an Kathode/Anode), schmalbandiges Spektrum, keine
+UV-/IR-Strahlung. Eigenschaften: sehr lange Lebensdauer (**mittlere
+Lebensdauer 50'000 Stunden** laut Quelle), stossfest, geringer
+Energieverbrauch, Farbtemperatur bleibt beim Dimmen konstant (Unterschied zu
+Temperaturstrahlern), verzögerungsfreier Start und unmittelbare Reaktion auf
+Steuerung (geeignet für dynamische Lichtszenen), punktförmige
+Strahlungsquelle erlaubt präzise Lichtlenkung; gute Wärmeableitung nötig
+(Strahlungsleistung sinkt mit steigender Temperatur), Montage fern von
+Wärmequellen/direkter Sonneneinstrahlung empfohlen. **Weisses Licht:** zwei
+Techniken — **RGB-Mischung** (drei LEDs Rot/Grün/Blau, Ansteuerung gleicht
+unterschiedliche Lichtströme aus) oder **Lumineszenzkonversion** (Phosphore
+konvertieren das Spektrum farbiger LEDs, z.B. blaue LED mit gelben
+Phosphoren — einfacher herzustellen als UV-LED mit RGB-Phosphoren); Ra
+weisser LEDs erreicht laut Quelle **bis zu ca. 90**; Lichtfarben ww/nw/tw von
+2'500 bis 8'000 K verfügbar. **Farbige LEDs:** schmalbandiger Spektralbereich,
+dominante Wellenlänge bestimmt den Farbort, höhere Farbsättigung als farbige
+Leuchtstofflampen; Lichtströme bei gleicher Anschlussleistung nicht
+einheitlich zwischen den Grundfarben. **Bauformen:** T-Type (3-5 mm
+Kunststoffgehäuse, Linsenform bestimmt Lichtaustrittswinkel, Orientierungs-/
+Signalleuchten), SMD («Surface Mounted Device», auf Leiterplatte
+geklebt/verlötet), COB («Chip on Board», Chip ohne eigenes Gehäuse direkt auf
+Leiterplatte, Kontaktierung über Drähte, Schutz durch Verguss), High Power
+LED (Leistungsaufnahme über 1 W, spezieller Aufbau für geringen
+Wärmewiderstand, meist auf Metallkern-Leiterplatten). Herstellerklassifikation
+über Lichtstrom und dominante Wellenlänge («BIN»-Code, Sortierung als
+«Binning» bezeichnet).
+
+## Lichttechnik — Leuchtentechnik (S. 348-374)
+
+Drittes Unterkapitel des Hauptkapitels «Lichttechnik»: wie die Leuchte selbst
+(nicht das Leuchtmittel) den Lampenlichtstrom lenkt — Reflektoren,
+Linsensysteme, Filter, Prismenraster, lichttechnisches Zubehör, Farbmischung.
+Grundaussage: die wesentlichste Aufgabe der Leuchte ist die Lenkung des
+Lampenlichtstroms mit möglichst guter Energieausnutzung; die Entwicklung
+verlagerte sich historisch von Reflektoren in der Lampe selbst (R-/
+PAR-Lampen) zu Reflektoren in der Leuchte, was leuchtenspezifisch auf
+Lichtquelle und Aufgabe abgestimmte Konstruktionen ermöglicht.
+
+**Prinzipien der Lichtlenkung (S. 349-354):** fünf physikalische Grundprinzipien.
+- **Reflexion:** Licht wird je nach Reflexionsgrad des Körpers
+  zurückgeworfen; **gerichtete Reflexion** (spiegelnde Oberfläche, keine
+  Streuung) vs. **diffuse Reflexion** (vollständige Streuung) mit
+  Zwischenstufen (gemischte Reflexion). Für die Leuchtenkonstruktion ist die
+  gerichtete Reflexion entscheidend (Reflektorkonturen, Leuchtenwirkungsgrad).
+  Eine Reflexionsgrad-Tabelle für Metalle, Farbanstriche und Baustoffe ist im
+  Original vorhanden, die OCR-Extraktion dieser Tabelle ist jedoch stark
+  gestört (Sonderzeichen statt Prozentwerte) — hier **nicht** wiedergegeben,
+  um keine Zahlen zu erfinden; bei Bedarf im Original-PDF S. 351 nachschlagen.
+- **Transmission:** analog zur Reflexion, aber für durchscheinendes Material;
+  gerichtete Transmission (klares Material) bis diffuse Transmission
+  (vollständige Streuung, z.B. opales Glas/Kunststoff als Leuchtenabschluss
+  zur Senkung der Lampenleuchtdichte und Vermeidung von Blendwirkungen).
+- **Absorption:** Licht wird ganz oder teilweise vernichtet statt gelenkt —
+  bei Leuchten grundsätzlich unerwünscht (senkt den Wirkungsgrad), aber zur
+  gezielten Abschirmung von Lichtquellen (Sehkomfort) unverzichtbar; typische
+  absorbierende Elemente: schwarze Rillenblenden, Abblendzylinder/-klappen,
+  Abblendraster.
+- **Brechung:** Richtungsänderung beim Übergang zwischen Medien
+  unterschiedlicher Dichte (Brechungsindex n), z.B. Luft/Glas
+  (n_Glas/n_Luft ≈ 1,5). Bei Prismen/Linsen entstehen daraus gezielte
+  optische Effekte (Bündelung, Streuung, Abbildung). **Totalreflexion:** ab
+  einem Grenzwinkel ε_G wird ein Lichtstrahl beim Übergang in ein Medium
+  geringerer Dichte vollständig reflektiert statt gebrochen (für Glas/Luft
+  ε_G ≈ 42°) — technisch genutzt in Lichtleitern.
+- **Interferenz:** wechselseitige Verstärkung/Abschwächung überlagerter
+  Wellen an sehr dünnen Schichten; ermöglicht selektive Reflexion bestimmter
+  Frequenzbereiche bei Transmission anderer (z.B. Kaltlichtlampen: sichtbares
+  Licht reflektiert, IR-Strahlung transmittiert). **Interferenzfilter
+  (Kantenfilter)** erreichen eine sehr scharfe Trennung zwischen reflektiertem
+  und transmittiertem Spektralbereich.
+
+**Reflektoren (S. 355-361):** Material meist eloxiertes Aluminium (mechanisch
+robust, hitzebeständig) oder chrom-/aluminiumbeschichteter Kunststoff
+(preiswerter, thermisch limitiert). Oberfläche glatt, mattiert (weicherer
+Lichtverlauf, gleichmässigere aber höhere Leuchtdichte), facettiert oder
+strukturiert (leichte Streuung); dichroitische Beschichtung steuert
+Lichtfarbe und UV-/IR-Anteil. **Drei Reflexionsgrad-Klassen:**
+Hochglänzend (kein Interferenz bei guter Materialqualität, höchster
+Glanzgrad, Leuchte wirkt als «dunkles Loch» in der Decke, Spiegelungen
+möglich), Glänzend (Zwischenstufe), Seidenmatt (geringe Kontraste im
+Reflektor, keine störenden Spiegelungen, ruhiger Raumeindruck, laut Quelle
+Leuchtdichten **über 200 cd/m²** im Abblendbereich möglich, i.d.R. ohne
+störende Bildschirm-Auswirkung). **Reflektorgeometrien** (auf Parabel, Kreis
+oder Ellipse zurückführbar): **Parabolreflektoren** (häufigste Form, Licht
+im Brennpunkt wird parallel zur Parabelachse abgestrahlt; je nach
+Rotationsachse eng-, breitstrahlend bis Batwing-Charakteristik konstruierbar,
+gezielte Blendungsbegrenzung möglich — auch bei linearen Lichtquellen wie
+PAR-/Leuchtstofflampen, dann primär zur Blendungsbegrenzung statt
+Parallelausrichtung); **Darklightreflektoren** (Reflektoren mit gleitendem
+Parabelbrennpunkt, vermeiden Blendlicht im Reflektor bei Volumenstrahlern
+wie kompakten Leuchtstofflampen, die bei normalen Parabolreflektoren schon
+oberhalb des Abschirmwinkels sichtbar würden); **Kugelreflektoren**
+(reflektieren Licht zum eigenen Brennpunkt zurück, meist als Hilfsmittel in
+Kombination mit Parabolreflektor/Linsensystem, um den frei nach vorn
+abgestrahlten Lampenanteil einzubeziehen); **Evolventenreflektoren**
+(reflektieren stets an der Lampe vorbei statt zurück — bei Entladungslampen,
+um leistungsmindernde Erwärmung durch zurückreflektiertes Licht zu
+vermeiden); **Elliptische Reflektoren** (Licht vom ersten zum zweiten
+Brennpunkt der Ellipse reflektiert, der als imaginäre freistrahlende
+Lichtquelle dienen kann — Einsatz bei Doppelfokus-Downlights und
+Duofokal-Wandflutern für einen Lichtansatz an der Decke bei kleiner
+Deckenöffnung); **Doppelreflektorsysteme** (Primärreflektor bündelt zum
+Sekundärreflektor, der die eigentliche Verteilung übernimmt — vermeidet
+direkten Blick auf die hohe Lampenleuchtdichte, verbessert den Sehkomfort;
+präzise Abstimmung der beiden Reflektoren entscheidet über die Effizienz).
+
+**Linsensysteme (S. 362-364):** fast ausschliesslich bei Punktlichtquellen,
+meist als Kombination Reflektor + Linse(n). **Sammellinsen** (bündeln zu
+parallelem Lichtbündel, Abstand zur Lichtquelle oft verstellbar → variabler
+Ausstrahlungswinkel), **Fresnellinsen** (konzentrische Ringsegmente,
+optisch vergleichbar mit konventionellen Linsen, aber flacher/leichter/
+günstiger; ursprünglich Bühnenscheinwerfer, heute auch Architekturbeleuchtung
+zur Winkelregelung bei variablem Abstand), **Skulpturenlinse** (asymmetrische
+Lichtverteilung, spreizt eine Achse zu einem vertikalen Oval — für Objekte
+über die volle Höhe), **Streulinse** (bei Wandflutern, gleiche
+Oval-Charakteristik für sehr gleichmässige Wandflutung), **Floodlinse**
+(spreizt symmetrisch, weicherer Helligkeitsgradient am Kegelrand),
+**Softeclinse** (Weichzeichnung durch strukturiertes/mattiertes Glas, gleicht
+Schlieren von Reflektorlampen aus, senkt die Lampenleuchtdichte gegen
+Blendung). **Abbildende Systeme** (Ellipsoid- vs. Kondensorscheinwerfer):
+elliptischer Reflektor oder Kugelspiegel + Kondensor bilden eine
+Zwischenbildebene über die Hauptlinse auf der Zielfläche ab; Lochblenden/
+Irisblenden für die Kegelgrösse, **Konturenmasken** für unterschiedliche
+Kegelkonturen, **Gobos** (Schablonen) für Schriftzüge/Bildprojektionen;
+Ellipsoidscheinwerfer = hohe Lichtstärke, Kondensorscheinwerfer = hohe
+Abbildungsqualität, scharfe oder durch Unschärfe weiche Konturen möglich.
+
+**Filter (S. 365-368):** optisch wirksame Elemente mit selektiver
+Transmission (Absorption oder Interferenz). **Absorptionsfilter**
+(eingefärbtes Glas/Kunststoff, erwärmen sich, weniger scharfe
+Spektraltrennung, eher ungesättigte Farben, lange Lebensdauer) vs.
+**Interferenzfilter/Kantenfilter** (beschichtete Glasfilter, sehr scharfe
+Trennung, gesättigtere Farben, kein Wärmestau da Reflexion statt Absorption,
+geringere Beständigkeit der Bedampfung). **Farbfilter:** transmittieren nur
+einen Teil des sichtbaren Spektrums; vier «natürlich» wirkende
+Architektur-Filterfarben (Rückbezug auf S. 51): **Magenta**
+(Sonnenuntergangs-Stimmung), **Amber** (Sonnenaufgang), **Night Blue**
+(klarer Nachthimmel), **Sky Blue** (Himmelslicht bei Tag); in der szenischen
+Beleuchtung werden alle Lichtfarben zur Akzentuierung/Kontrastbildung
+eingesetzt, bei farbigen Flächen empfiehlt die Quelle Probebeleuchtungen.
+**Korrekturfilter:** Konversionsfilter erhöhen/senken die Farbtemperatur;
+**Skintonefilter** korrigieren gezielt den grünen/gelben Spektralbereich für
+natürliche Hauttöne (Einsatz Restaurants/Cafés), **Daylight-Konversionsfilter**
+transformieren warmweiss (3'000 K) zu neutralweiss (4'000 K), z.B. um in
+warmweiss beleuchteten Bereichen neutralweisse Zonen zu schaffen.
+**Schutzfilter:** **UV-Filter** blockieren nahezu vollständig UV-Strahlung
+(Trennung Reflexion/Transmission bei 400 nm) bei optimaler Durchlässigkeit
+des sichtbaren Lichts — verzögern den photochemischen Verfall (Ausbleichen/
+Vergilben) lichtempfindlicher Exponate; Einsatzfelder laut Quelle:
+Kunstmuseen, Kunstgalerien, naturwissenschaftliche Museen, Antiquariate; die
+höchste UV-Belastung entsteht bei Halogen-Glühlampen ohne Hüllkolben (der
+UV-Anteil von Hochdruck-Entladungslampen ist durch vorgeschriebene
+Abschlussgläser bereits reduziert). **IR-Filter** absorbieren/reflektieren
+Wärmestrahlung oberhalb 800 nm, reduzieren die Wärmelast auf Objekte;
+zusätzliche Einsatzfelder laut Quelle: Nahrungsmittelgeschäfte. Diese beiden
+Schutzfilter-Hinweise sind ein direkt zitierfähiger, herstellerneutraler
+Beleg für ein Museums-/Ausstellungs-Lichtkonzept mit
+konservatorischen Anforderungen.
+
+**Prismenraster (S. 369):** nutzt Lichtbrechung zur Lichtlenkung; oberhalb
+eines Grenzwinkels wird Licht nicht mehr gebrochen, sondern total reflektiert
+— dieses Prinzip wird genutzt, um Licht gezielt auszublenden. Vor allem bei
+Leuchtstofflampen-Leuchten zur Kontrolle des Ausstrahlungswinkels und zur
+Blendungsbegrenzung eingesetzt.
+
+**Lichttechnisches Zubehör (S. 370-372):** Zusatzeinrichtungen zur
+nachträglichen Veränderung der lichttechnischen Eigenschaften. **Blenden**
+(Blendschutzklappen an vier Seiten separat verstellbar, oder starrer
+Blendschutzvorsatz-Zylinder ohne diese Flexibilität; schwarze Lackierung
+absorbiert Licht und reduziert Leuchtdichtekontraste), **Wabenraster**
+(Begrenzung des Lichtkegels und Blendungsminderung, geringe Bauhöhe → in die
+Leuchte integrierbar, hoher Sehkomfort-Anspruch z.B. im Ausstellungsbereich),
+**Kreuzraster** (analoge Funktion), **Konturenschieber** (separat
+einstellbare Schiebeelemente, z.B. für scharf konturierte Rechtecke an
+Wänden zur Objektakzentuierung — Referenzprojekte laut Quelle: Museo Deu El
+Vendrell, Museo Ruiz de Luna Talavera, Goya-Ausstellung Madrid), **Gobo**
+(Maske/Bildschablone für projizierte Schriftzüge/Abbildungen über einen
+abbildenden Scheinwerfer — Referenzprojekte laut Quelle: Teattri Ravintola
+Finnland, Aragón-Pavillon Sevilla, ERCO Lüdenscheid als Firmenreferenz).
 
 ## Offene Punkte
 
-- 317 von ca. 435 Seiten gelesen. Kapitel «Innenraumbeleuchtung» und das
-  gesamte Hauptkapitel «Aussenraumbeleuchtung» (S. 184-277: «Arten des
-  Beleuchtens», «Leuchtengruppen», «Lichtanwendungen» inkl. «Planungsbeispiele»
-  und «Dark Sky») sind vollständig gelesen. Das neue Hauptkapitel
-  «Lichtsteuerung» (S. 278-317: Licht steuern/Funktionen, Steuerungssysteme
-  inkl. 1V-10V/DMX/DALI/KNX/LON, Geräte, Planungsbeispiele) ist ebenfalls
-  vollständig gelesen. Offen: das Hauptkapitel «Lichttechnik» ab S. 318
-  (beginnt laut Übersicht mit «Grössen, Einheiten», vermutlich mit den
-  praxisrelevantesten Kennwerten lm/W, Ra, Farbtemperatur je Lampentyp —
-  hier ist besonders auf Herstellerneutralität zu achten, da ERCO selbst
-  Leuchtenhersteller ist, siehe Präzedenzfall Light System DALI S. 292),
-  danach vermutlich «Simulation und Berechnung» (eigenes Kapitel laut
-  PDF-Keywords — Abgrenzung zum bereits gelesenen «Licht visualisieren»-
-  Abschnitt «Simulation» weiterhin ungeklärt) sowie das Glossar — für
-  künftige Destillat-Läufe offen, im Frontmatter-Feld `gelesen:`
-  nachgeführt.
-- Uneinheitliches Editionsdatum je Seite (2006/2007/2010, seitenweise
-  nachgeführt) deutet auf eine lebende Online-Publikation (www.erco.com/guide
-  laut S.1) — für eine aktuelle Fassung wäre eine Web-Prüfung nötig, nicht Teil
-  dieses Laufs. Der Wechsel fällt in diesem Lauf durchgehend mit
-  Kapitelgrenzen zusammen (S. 265→266 Vegetation→Planungsbeispiele,
-  S. 274→275 Planungsbeispiele→Dark Sky, S. 277→278
-  Aussenraumbeleuchtung→Lichtsteuerung), mit einer Ausnahme innerhalb von
-  «Geräte» (S. 298 Edition 03.07.2007 → S. 299-300 Edition 01.03.2010 →
-  S. 301 wieder 03.07.2007, mitten im Unterkapitel «Bedienelemente»/
-  «Ausgabegeräte») — im nächsten Lauf weiter mitführen.
-- Für künftige Läufe: bei inhaltlich wiederholten Abschnitten (siehe
-  Praxisrelevanz-Punkt zur dreifachen Orientierungs-/Fluchtweg-Wiederholung)
-  reicht ein knapper Verweis statt vollständiger Neuformulierung — Beobachtung
-  aus einem früheren Lauf, keine Korrektur eines Fehlers. Für dieses
-  Kapitel «Lichtsteuerung/Planungsbeispiele» (S. 304-317) galt dieselbe
-  Verdichtungslogik bereits direkt: die fünf Fallbeispiele sind im Original
-  überwiegend bildbasiert (Pläne/Diagramme ohne OCR-fähigen Text), der
-  Artikel gibt nur den vorhandenen Fliesstext wieder.
+- 374 von 435 Seiten gelesen. Das gesamte dritte Hauptkapitel «Lichttechnik»
+  (S. 318-374: «Grössen, Einheiten», «Lampen», «Leuchtentechnik» inkl.
+  Prinzipien der Lichtlenkung/Reflektoren/Linsensysteme/Filter/Prismenraster/
+  Lichttechnisches Zubehör/Farbmischung) ist damit **vollständig gelesen** —
+  klare Kapitelgrenze, S. 375 beginnt laut Kopfzeile das nächste Hauptkapitel
+  **«Simulation und Berechnung»** (Unterkapitel laut erster Sichtung:
+  Einführung Simulation, Lichtsimulation inkl. Rendering/Oberfläche/Licht/
+  Hardware/Software/Entwicklungen, Berechnungen inkl. Anschlussleistung/
+  Punktbeleuchtungsstärken/Wartungsfaktor, Planungsdaten, Planungsbeispiele) —
+  **hier setzt der nächste Destillat-Lauf an.** Danach folgt laut Übersicht
+  noch ein **Glossar** (ab ca. S. 434 laut Grep-Scan der Kapitelüberschriften)
+  als voraussichtlich letztes Kapitel vor Dokumentende (S. 435).
+- **Herstellerneutralität in diesem Lauf:** ein weiterer gekennzeichneter
+  ERCO-Markenname aufgetreten («Varychrome», S. 373-374, siehe eigener
+  Abschnitt oben) — dieselbe Behandlung wie beim Präzedenzfall «Light System
+  DALI» (S. 292): als Markenname benannt, nicht als allgemeiner Fachbegriff
+  übernommen. Für den nächsten Lauf («Simulation und Berechnung») ist mit
+  Softwarenamen zu rechnen (laut Kapitelübersicht kommen «DIALux»,
+  «Autodesk», «Radiance» als Stichworte vor) — das sind Drittprodukte
+  (keine ERCO-Produkte), aber ebenfalls konkrete Produktnamen und daher mit
+  derselben Sorgfalt zu kennzeichnen (Software-Werkzeuge nennen, nicht als
+  einzig mögliche Lösung darstellen).
+- Eine im Original vorhandene Reflexionsgrad-Tabelle für Metalle/
+  Farbanstriche/Baustoffe (S. 351) ist mit `pdftotext -layout` nicht sauber
+  extrahierbar (Sonderzeichen statt Prozentzahlen, mutmasslich ein
+  Schriftart-Encoding-Problem der Quelle) — bewusst nicht wiedergegeben statt
+  geraten (Rule «nichts erfinden»); bei konkretem Bedarf im Original-PDF S.
+  351 direkt nachschlagen oder mit anderem Extraktionswerkzeug (z.B.
+  `pdftotext -raw` oder OCR) erneut versuchen.
+- Editionsdaten dieses Laufs weiterhin uneinheitlich und seitenweise
+  gemischt, teils **innerhalb** eines Unterkapitels (z.B. S. 318 Edition
+  20.03.2007, S. 319-320 01.03.2010, S. 321-325 wieder 20.03.2007,
+  S. 326-330 01.03.2010, S. 331-332 20.05.2007, S. 333-347 wieder
+  01.03.2010) — bestätigt den bereits notierten Befund einer lebend
+  nachgeführten Online-Publikation ohne einheitliches Ausgabedatum; für
+  künftige Läufe weiterhin nur als Beobachtung mitführen, keine Web-Prüfung
+  Teil dieses Laufs.
+- Für künftige Läufe: dieselbe Verdichtungslogik wie in den Vorläufen
+  angewendet — bildbasierte Diagramme (Spektralverteilungskurven,
+  Dimmverhalten-Kurven, Farbdreiecke) ohne OCR-fähigen Zusatztext wurden
+  nicht einzeln beschrieben, nur der zugehörige Fliesstext destilliert.

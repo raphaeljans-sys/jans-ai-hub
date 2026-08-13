@@ -1,5 +1,57 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-13 — ERCO-Ratgeber Seite 317 auf Seite 374 fortgeschrieben: Hauptkapitel «Lichttechnik» (Groessen/Einheiten, Lampen, Leuchtentechnik) vollstaendig destilliert
+
+Fortsetzungslauf. `de_erco_guide.pdf` (BKP 233, P1, 435 S.) von Seite 318 bis
+Seite 374 gelesen (`pdftotext -layout`, Textqualitaet gut bis auf eine
+gestoerte Reflexionsgrad-Tabelle S. 351, nicht wiedergegeben statt geraten;
+sauberer Stopp am Original vor S. 375, klare Kapitelgrenze).
+[[erco-lichtplanung-grundlagen]] erweitert:
+
+- **Neues, drittes Unterkapitel «Groessen, Einheiten» (S. 318-327)
+  vollstaendig:** Lichtstrom/Lichtausbeute (lm, lm/W, theoretisches Maximum
+  683 lm/W), Lichtstaerke/Lichtstaerkeverteilungskurve (cd, rotations-/
+  achsensymmetrisch, Ausstrahlungswinkel/Abblendwinkel), Beleuchtungsstaerke
+  (lx, horizontal/vertikal/mittel/punktuell, photometrisches
+  Entfernungsgesetz), Belichtung/Leuchtdichte (cd/m2), Lichtfarbe (CIE-System,
+  Planckscher Kurvenzug, drei Farbtemperatur-Hauptgruppen MIT exakten
+  Kelvin-Grenzen ww<4000K/nw 4000-5000K/tw>5000K, Tabelle aehnlichster
+  Farbtemperaturen), Farbwiedergabe (Ra-Index, acht Koerperfarben als
+  Pruefskala).
+- **Unterkapitel «Lampen» (S. 328-347) vollstaendig:** Lampenbezeichnung
+  (Buchstabencode-System), Lampenuebersichtstabelle (Kennwertbereiche
+  LED/A/QT/QT,QPAR/TC/T/HIT/HST als Tabelle uebernommen, herstellerneutral),
+  Temperaturstrahler (Allgebrauchs-/R-PAR-/Halogen-/Halogenreflektorlampen),
+  Entladungslampen (Leuchtstoff-/kompakte Leuchtstoff-/Halogen-Metalldampf-/
+  Natriumdampf-Hochdrucklampen), Elektrolumineszenzstrahler LED (Aufbau,
+  weisses Licht via RGB-Mischung/Lumineszenzkonversion, Bauformen
+  T-Type/SMD/COB/High Power).
+- **Unterkapitel «Leuchtentechnik» (S. 348-374) vollstaendig:** Prinzipien
+  der Lichtlenkung (Reflexion/Transmission/Absorption/Brechung/Interferenz),
+  Reflektoren (Material/Oberflaeche/Reflexionsgrad-Klassen, Parabol-/
+  Darklight-/Kugel-/Evolventen-/Elliptische Reflektoren,
+  Doppelreflektorsysteme), Linsensysteme (Sammel-/Fresnel-/Skulpturen-/
+  Streu-/Flood-/Softeclinse, abbildende Systeme mit Gobos), Filter
+  (Absorptions-/Interferenzfilter, Farbfilter Magenta/Amber/Night Blue/
+  Sky Blue, Korrekturfilter Skintone/Daylight, Schutzfilter UV-/IR-Filter
+  mit Museums-Anwendungsbezug), Prismenraster, Lichttechnisches Zubehoer
+  (Blenden/Waben-/Kreuzraster/Konturenschieber/Gobo), Farbmischung.
+- **Zweiter Herstellerneutralitaets-Fall dokumentiert:** «Varychrome»
+  (S. 373-374, ERCO-Markenname fuer dynamische RGB-Farbmischung) explizit
+  als solcher gekennzeichnet, analog zum Praezedenzfall «Light System DALI»
+  (S. 292) — eigener Warnabschnitt im Artikel ergaenzt, Herstellerneutralitaets-
+  Absatz am Artikelanfang nachgefuehrt.
+- Fuenf neue Praxisrelevanz-Punkte ergaenzt (Kelvin-Grenzwerte je
+  Farbtemperaturgruppe, Ra-Messmethodik, Lampenuebersichtstabelle,
+  Schutzfilter-Museumsbezug).
+- Eine im Original vorhandene, aber OCR-technisch gestoerte
+  Reflexionsgrad-Tabelle (S. 351) bewusst nicht uebernommen (Rule
+  «nichts erfinden»), Fundstelle im Artikel vermerkt.
+- Register nachgefuehrt: Frontmatter (Titel/Stand/gelesen/sources),
+  `wiki/INDEX.md`. **Klare Kapitelgrenze:** Hauptkapitel «Lichttechnik»
+  (S. 318-374) damit vollstaendig, naechstes offenes Hauptkapitel
+  «Simulation und Berechnung» ab S. 375, danach «Glossar» bis S. 435.
+
 ## 2026-08-12 — ERCO-Ratgeber Seite 250 auf Seite 317 fortgeschrieben: Vegetation/Planungsbeispiele/Dark Sky komplettiert, Hauptkapitel «Lichtsteuerung» vollstaendig destilliert
 
 Fortsetzungslauf. `de_erco_guide.pdf` (BKP 233, P1, 435 S.) von Seite 251 bis
