@@ -7776,3 +7776,137 @@ Nachweis SIA 380/4 Beleuchtung», Version 1.0 vom 07.01.2009, vollständig geles
 `[[energienachweis-zh]]`.
 ⚠ Die Quelle selbst ist Stand 2009; die Aussage über den heute geltenden Nachweisweg stützt sich auf
 die genannten KB-Artikel, nicht auf sie. Status **emerging**.
+
+## F230 — «Muss ich für jeden Raum einzeln festlegen, was die Gebäudetechnik können soll?»
+
+**Kurz:** Nicht für jeden Raum, aber für jeden **Raumtyp**. Die Stadt Zürich macht das seit über
+zwanzig Jahren so: pro Raumtyp ein einmal durchdachtes «Raummodul», das den gebäudetechnischen
+Sollzustand festhält und danach in jedem Projekt wiederverwendet wird. Das ist der einzige Weg, wie
+eine Anforderung überhaupt prüfbar wird — eine gebäudeweite Formulierung wie «energieeffiziente
+Beleuchtung» lässt sich bei der Abnahme gegen nichts halten.
+
+**Fachlich:** Zwei Module liegen der KB vor, Büro und Klassenzimmer, beide vom Juli 2008
+(Erstfreigaben 2005 und 2003). Aufschlussreich ist, wie **ähnlich** sie sind: gleiche
+Beleuchtungsstärke 500 Lux auf 70 cm Tischhöhe, gleiche Tageslicht-Ausschaltschwelle über 800 Lux,
+gleicher Präsenz-Nachlauf 15 Minuten, gleiche Lüftungsvorgabe 25 m³/h pro Person mit CO₂-Grenzwert
+1'500 ppm, gleiche Raumtemperatur 21 °C, gleiche Elektro-Grundausstattung mit vier Steckdosen und
+vier Kommunikationsanschlüssen, gleiche Storen-Frostsicherung unter 2 °C bei über 95 % relativer
+Feuchte, gleiches öffenbares Fensterelement von mindestens 5 % der Bodenfläche. Die Unterschiede
+liegen im Betriebsrhythmus, nicht im Zielwert: das Klassenzimmer hat drei Beleuchtungszonen und
+eine Storen-Rückstellung um 12.30 Uhr, das Büro eine nach Storentyp differenzierte Nachtstellung.
+
+Drei Vorgaben sind zeitlos, weil sie keine Zahl sind, sondern eine Betriebslogik: die Lüftung an
+die **Belegung** koppeln statt an die Uhr (mindestens 30 Minuten Vorlauf, Präsenzsignal mit
+10 Minuten Mindestdauer, mindestens 30 Minuten Nachlauf); die Einzelraumregelung um **±2 K**
+justierbar machen, also genug Einfluss, dass niemand das Fenster aufreisst, und zu wenig, um die
+Anlage zu unterlaufen; und **keine aktive Kühlung als Grundausstattung** — das Büromodul enthält
+kein Kühlkapitel, sommerliche Behaglichkeit läuft über Sonnenschutzautomatik und Fensterlüftung.
+
+⚠ Die Zahlenwerte selbst sind Stand 2008 und **keine heutige Anforderung**. Am deutlichsten bei
+der Aussenluftrate: die Module nennen 25 m³/h pro Person, SIA 382/1:2025 arbeitet mit
+IDA-Kategorien von 29/57/18 m³/h pro Person. Wer ein Modul als Vorlage nimmt, ersetzt die
+Auslegungswerte und behält die Struktur.
+
+**Bauherren-Transfer:** Für ein Büro- oder Schulhausprojekt ist das eine der wenigen Massnahmen,
+die gleichzeitig Planungskosten senkt und Qualität sichert. Ein Raummodul gehört als Anhang ins
+Pflichtenheft und damit in die Ausschreibungsunterlagen, nicht in den Erläuterungsbericht — dort
+liest es niemand mehr, wenn es darauf ankommt. Der Aufwand fällt einmal an; ab dem zweiten Projekt
+ist er eingespart. Siehe `[[gebaeudetechnik-pflichtenheft]]`.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, «Raummodul
+Büro — Standard Gebäudetechnik», Version 1.1, Juli 2008 (11 S. vollständig gelesen 13.08.2026) →
+`[[ahb-raummodul-buero]]`, und «Raummodul Klassenzimmer», Version 2.1, Juli 2008 (10 S.) →
+`[[ahb-raummodul-klassenzimmer]]`. Aktuelle Auslegungswerte aus
+`[[komfortlueftung-wrg-sia382-luftwechsel]]`. Status **emerging**, Alterskorpus.
+
+## F231 — «Was ist bei der Gebäudetechnik in einem Pflegeheim anders als in einem normalen Bau?»
+
+**Kurz:** Vor allem eines: **das Personal ist rund um die Uhr da, der technische Dienst nicht.**
+Ausserhalb der Bürozeiten übernimmt die Nachtwache die Alarmreaktion. Das verändert die ganze
+Automationsplanung — nicht die Frage, was technisch möglich ist, sondern wie viele Alarme man einer
+Belegschaft zumuten darf, die pflegt und nicht Technik betreut.
+
+**Fachlich:** Der Standard der Pflegezentren der Stadt Zürich zieht daraus drei Konsequenzen, die
+ein generisches Gebäudeautomations-Pflichtenheft nicht kennt.
+
+Erstens die **Nachtwache als Ausfallebene**, mit Eskalation über DECT und SMS. Eine harte
+Alarmpriorisierung ist damit keine Komfortfrage, sondern Voraussetzung: was nachts nicht
+handlungsrelevant ist, darf nachts nicht anschlagen.
+
+Zweitens die bewusste **Nicht-Integration von Patientenruf und Weglaufschutz** in die
+Gebäudeautomation, begründet damit, dass eine 24-Stunden-Personalüberwachung ohnehin besteht. Das
+ist ein brauchbares Argument in der Schnittstellendiskussion, in der meist die Gegenrichtung
+vorgetragen wird: nicht jede technisch mögliche Integration ist betrieblich sinnvoll, und jede
+zusätzliche Kopplung ist eine zusätzliche Störquelle über die ganze Nutzungsdauer.
+
+Drittens eine **nach Raumtyp gestaffelte Bedienlogik** — grosse, einfache Taster im
+Patientenzimmer, feine Automatisierung in Verkehrs- und Nebenzonen. Dieselbe Denkweise wie beim
+Raummodul-Ansatz (F230), hier mit der Nutzergruppe als bestimmender Grösse statt der Nutzungsart.
+
+Zur Energieseite verankert der Standard die **Verbrauchs- und Betriebsdatenerfassung als
+verbindliche Systemanforderung**, nennt dazu aber keine Kennwerte.
+
+⚠ Nicht übernehmen lässt sich die konkrete Systemarchitektur: Züri-Netz, IMMO-Box, die
+ESPA-4.4.4-Schnittstelle und das dort ausgesprochene **EIB/KNX-Verbot** sind stadteigene
+Infrastrukturentscheide von 2008. Das Verbot ungeprüft zu übernehmen wäre heute ein Fehlschluss —
+es war die damalige Kehrseite der Forderung nach Herstellerunabhängigkeit, nicht deren Umsetzung.
+
+**Bauherren-Transfer:** Für ein Pflegeheim- oder Klinikprojekt heisst das, die Alarm- und
+Bedienkonzeption **mit dem Betrieb** zu entwickeln und nicht mit dem Automationsanbieter allein.
+Die betriebliche Frage «wer reagiert um drei Uhr morgens worauf» gehört vor die technische Frage
+«was können wir alles aufschalten». Sie ist auch die günstigere Reihenfolge: jeder nachträglich
+stillgelegte Alarmpfad ist bezahlte, nutzlose Installation. Anschluss: `[[gebaeudetechnik-pflichtenheft]]`.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle Energie und Gebäudetechnik, erarbeitet mit
+den Pflegezentren (PZZ) und der Immobilien-Bewirtschaftung, «Pflegezentren der Stadt Zürich —
+Standard Gebäudeautomation», Version 1.1, Juli 2008, 9 S. vollständig gelesen 13.08.2026 →
+`[[ahb-standard-gebaeudeautomation-pflegezentren]]`. Status **emerging**, Alterskorpus rund
+18 Jahre — die Systematik trägt, die Systemtechnik nicht.
+
+## F232 — «Wie stelle ich sicher, dass meine Lüftung nach dem Einbau wirklich das tut, was versprochen wurde?»
+
+**Kurz:** Indem Sie die **Messungen** in den Vertrag schreiben, nicht die Versprechen. Ein
+Datenblatt sagt, was ein Gerät im Prüfstand kann; ob die eingebaute Anlage die Luftmengen erreicht,
+den Wärmerückgewinnungsgrad hält und leise ist, zeigt nur die Inbetriebsetzung. Fünf Messungen und
+ein Nachweis nach einem Betriebsjahr genügen — sie kosten wenig und sind die einzige Handhabe, die
+Sie bei einem Mangel haben.
+
+**Fachlich:** Die Liste, die in Devis oder Werkvertrag gehört, umfasst **Luftmengenabgleich**,
+**Luftmengenmessung mit Protokoll**, **Messung des WRG-Wirkungsgrads**, **Messung der Stromaufnahme
+der Ventilatoren** und bei grossen oder unzugänglichen Kanalnetzen eine **Dichtigkeitsmessung der
+Kanäle**. Dazu gehört, im Terminprogramm ausreichend Zeit dafür einzuplanen — die Inbetriebsetzung
+ist der Posten, der bei Bauverzug zuerst zusammengestrichen wird, und genau dann entsteht der
+Mangel, der später niemandem mehr zuzuordnen ist.
+
+Der wirksamste und am seltensten vereinbarte Punkt ist der **Nachweis nach einem Betriebsjahr** zu
+Luftqualität, Schall und Nutzerzufriedenheit. Er fängt die Reklamationen ab, die typischerweise
+erst nach Ablauf der Rügefrist auftauchen, und übersetzt ein Gefühl in einen messbaren Sachverhalt.
+
+Schall ist der unterschätzte Mangel. Die Raumschall-Emissionen sind bereits in der **Projektierung**
+zu definieren; die Quelle nennt als eigenen Wert 25 dB(A) (⚠ nicht gegen die geltende SIA 181
+geprüft). Wichtiger als die Zahl ist die Konstruktionsregel: Schalldämpfung **bei den Auslässen ist
+wenig wirksam und manipulierbar** — sie gehört ins Kanalnetz und an den Monoblock, Körperschall
+eingeschlossen. Abluft aus Nasszellen erzeugt häufig sehr hohe Pegel.
+
+Für den Betrieb braucht es einen **Servicevertrag mit einer Fachfirma** (Innenreinigung des
+Monoblocks inklusive Wärmetauscher, Filterwechsel, Betriebstests, Reinigung der Aussenluftfassung,
+periodische Kanalreinigung) und eine **Nutzerinformation** samt Wartungsanleitung für die
+Fettfilter der Küchenabluft. Eine Komfortlüftung, deren Nutzende sie nicht verstehen, wird
+abgeschaltet oder durch dauergekippte Fenster unterlaufen — der teuerste aller Lüftungsmängel, weil
+er nicht an der Anlage liegt.
+
+⚠ Das Quellendokument ist von 2007 und nennt selbst **keinen** WRG-Zielwert; es verlangt nur, ihn
+zu definieren. Die heute geltenden Werte stehen nicht in dieser Quelle: SIA 382/1:2025 setzt als
+Minimum eine Temperatur-Bruttoeffizienz von 73 % (Kreislaufverbundsystem 70 %), das Zürcher
+Formular verlangt mindestens 70 %, Minergie mindestens 80 % Temperatur und 60 % Feuchte.
+
+**Bauherren-Transfer:** Die Messliste ist ohne Anpassung in eine heutige Ausschreibung übernehmbar
+— sie ist der Teil des Dokuments, der nicht gealtert ist. Ergänzen Sie sie um den Ziel-WRG-Wert aus
+der geltenden Norm und terminieren Sie die Abnahmemessung **vor der Schlusszahlung** an das
+Lüftungsgewerk. Dann steht bei einer Abweichung der Unternehmer in der Pflicht und nicht die
+Bauherrschaft. Siehe `[[komfortlueftung]]`.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, «Merkblatt Kontrollierte Wohnungslüftung»,
+Dateistempel 26.02.2007, 2 S. vollständig gelesen 13.08.2026 →
+`[[ahb-merkblatt-kontrollierte-wohnungslueftung]]`. Aktuelle WRG-Werte aus
+`[[komfortlueftung-wrg-sia382-luftwechsel]]`, nicht aus der Quelle. Status **emerging**.

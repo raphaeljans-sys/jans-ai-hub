@@ -1,5 +1,55 @@
 # CHANGELOG
 
+## 2026-08-13 (Run 129) — Raummodule je Raumtyp, erste Healthcare-Quelle der KB, neue Datierungsfalle
+
+**Sparbetrieb**, fünf Destillier-Agenten auf Sonnet, kein Refuter-Panel. **6 PDF geprüft, 5
+destilliert**, 1 begründet als `[-]` abgelegt. Zugang zum vierten Mal in Folge über die
+**M365-CLI/Graph** (Run 126/127/128/129); der OneDrive-Mount wurde gar nicht versucht, weil die
+PL-Site unter der gemounteten Wurzel nicht existiert. ⚠ Hinweis zum Weg: `m365 spo file get` lief
+in diesem Lauf für alle sechs Dateien in ein HTTP 404, der rohe Graph-Weg über die **Drive-ID**
+funktionierte auf Anhieb — die Drive-ID ist die stabilere Adressierung als der Web-Pfad.
+
+Neue Destillate (alle `emerging` mit ⚠-Alterskorpus-Vermerk, Ausgabe je am Dokument gelesen):
+`ahb-merkblatt-kontrollierte-wohnungslueftung` (AHB, **26.02.2007** — die Betriebs- und
+Abnahmeseite, die den sechs bisherigen Lüftungs-Destillaten der KB fehlte: V/D/M-Rollenmatrix,
+Messliste der Inbetriebsetzung, Nachweis nach einem Betriebsjahr, Schalldämpfung gehört ins
+Kanalnetz und nicht an die Auslässe), `ahb-standard-gebaeudeautomation-pflegezentren` (AHB mit den
+Pflegezentren PZZ, **Version 1.1, Juli 2008** — **erste Healthcare-Quelle der KB**, Bezug Projekt
+2619 KISPI: Nachtwache als Ausfallebene, bewusste Nicht-Integration von Patientenruf/Weglaufschutz,
+Bedienlogik nach Nutzergruppe), `ahb-raummodul-buero` (**V 1.1, Juli 2008**) und
+`ahb-raummodul-klassenzimmer` (**V 2.1, Juli 2008**) — der Raummodul-Ansatz, Sollzustand je
+Raumtyp, mit nahezu identischen Zielwerten und Unterschieden nur im Betriebsrhythmus —, sowie
+`ahb-merkblatt-sicherheitsnachweis-elektro` (**V 1.1, 13.05.2005**, Sachbezug zur Energie-KB
+ehrlich als mittelbar ausgewiesen).
+
+Begründet nicht destilliert: `Standards_Kennzeichnungssystem_V2.2.pdf` (24 S., 01.09.2007) — reine
+Anlagenkennzeichnungs-Systematik ohne energetische Kennwerte; bei einem künftigen
+Submetering-Thema neu zu bewerten (E-R129-5).
+
+VERDICHTUNG: drei neue BAUHERREN-FAQ — **F230** (Sollzustand je Raumtyp statt gebäudeweiter
+Formulierung; die zeitlosen Betriebsregeln von den Zahlen von 2008 getrennt), **F231** (was in
+einem Pflegeheim gebäudetechnisch anders ist), **F232** (Lüftungs-Abnahme: die Messungen in den
+Vertrag schreiben, nicht die Versprechen). Gewachsen: `[[gebaeudetechnik-pflichtenheft]]` um
+**Raummodule** und **Gebäudeautomation im Pflegebetrieb** · `[[komfortlueftung]]` um **Abnahme und
+Inbetriebsetzung** — der Artikel war bisher rein kennwertorientiert.
+
+**Zwei methodische Befunde.** Erstens eine **neue Datierungsfalle**: beim SiNa-Merkblatt weichen
+Fusszeilenstempel (23.11.2007) und Redaktionsvermerk im Fliesstext (**Version 1.1, 13. Mai 2005**)
+um zweieinhalb Jahre ab. Mein Auftrag an den Agenten gab den Fusszeilenstempel als Ausgabe vor; der
+Agent hat am Dokument korrigiert, der Hauptlauf hat die Korrektur am Original gegengeprüft. Die
+Reihe der Fallen lautet damit: Dateiname (122) · Ablageort (124/125) · Grösse gegen Seitenzahl
+(124) · Textextrahierbarkeit (126) · Grösse als Dublettenkriterium (128) · **Fusszeilenstempel
+gegen Redaktionsvermerk (129)**. Zweitens: **die mtime auf dem NAS ist derzeit kein Indikator für
+den Zeitpunkt der Arbeit** — drei Destillate mit Änderungszeit 01:04-01:07 des 13.08. sahen nach
+einem abgebrochenen Nachtlauf aus, ihr Frontmatter weist sie als Arbeit aus Run 123 und Run 125
+aus (Rückstau aus dem Sync-Stillstand, vgl. `betrieb-chronik` 260813d). Massgeblich ist das
+Frontmatter.
+
+Keine Statushebung. Anfügungen an gewachsene Dateien nachgemessen (Rule 260811, `--numstat` nativ
+per ssh): 134/0, 69/0, 34/0 — durchgehend null Löschungen. **Stand PL-02: 69 von 182 destilliert,
+113 offen; der AHB-Ordner 14 ist abgeschlossen.** Report:
+`outputs/2026-08-13_energie-run129.md`.
+
 ## 2026-08-12 (Run 128) — AHB-Korpus Energie/Gebäudetechnik + Nachhaltiges Bauen, neue Dublettenfalle
 
 Zweiter Lauf des Tages (Run 127 lief in der Nachtschicht 13:30), **Sparbetrieb**, vier

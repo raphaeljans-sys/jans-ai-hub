@@ -1,9 +1,12 @@
 ---
 title: "Pflichtenheft Gebäudetechnik — was eine Bauherrschaft verbindlich vorgeben sollte"
 status: emerging
-last_updated: "2026-08-03 (Run 122, neu angelegt)"
+last_updated: "2026-08-13 (Run 129 — Raummodule je Raumtyp + Gebäudeautomation im Pflegebetrieb ergänzt)"
 sources:
   - "[[ahb-zuerich-gt-rl1-planungsgrundlagen]] bis [[ahb-zuerich-gt-rl9-gebaeudeautomation]] — Richtlinien Gebäudetechnik der Stadt Zürich, Amt für Hochbauten (AHB), Fachstelle Energie & Gebäudetechnik, Version 2.1, Juli 2008 (in Kraft seit 04.05.2004, Fassung 2.1 freigegeben 18.06.2008)"
+  - "[[ahb-raummodul-buero]] — AHB Stadt Zürich, «Raummodul Büro — Standard Gebäudetechnik», Version 1.1, Juli 2008 (Erstfreigabe GL AHB 28.09.2005), 11 S. vollständig gelesen (Run 129)"
+  - "[[ahb-raummodul-klassenzimmer]] — AHB Stadt Zürich, «Raummodul Klassenzimmer — Standard Gebäudetechnik», Version 2.1, Juli 2008 (Erstfreigabe GL AHB 24.09.2003, Revisionen 09/2005 und 07/2008), 10 S. vollständig gelesen (Run 129)"
+  - "[[ahb-standard-gebaeudeautomation-pflegezentren]] — AHB Stadt Zürich mit den Pflegezentren (PZZ) und der Immobilien-Bewirtschaftung, «Standard Gebäudeautomation», Version 1.1, Juli 2008, 9 S. vollständig gelesen (Run 129)"
   - "Aktualitätsprüfung der zitierten Normen: siehe outputs/2026-08-03_energie-run122.md"
 links:
   - "[[sia-386-bacs-gebaeudeautomation]]"
@@ -172,6 +175,75 @@ abzuwägen und gehört in den Variantenvergleich.
 Die **IMMO-Box** (ab 1'000 m² EBF) ist dagegen **stadteigene Infrastruktur** und nicht
 übertragbar; sie ist ausdrücklich nicht mit der MuKEn-Monitoringschwelle von 2'000 m² EBF zu
 verwechseln.
+
+## Raummodule: der Sollzustand je Raumtyp (ergänzt Run 129, 13.08.2026)
+
+Aus [[ahb-raummodul-buero]] und [[ahb-raummodul-klassenzimmer]] (beide AHB Stadt Zürich, Juli 2008,
+Erstfreigaben 2005 bzw. 2003). Der Gedanke dahinter ist die eigentliche Übertragung, nicht die
+Zahlentabelle: Statt die Gebäudetechnik gebäudeweit zu beschreiben, wird sie **je Raumtyp** als
+Sollzustand festgeschrieben — einmal durchdacht, danach in jedem Projekt wiederverwendet. Das senkt
+den Planungsaufwand, reduziert Schnittstellenrisiken zwischen Planenden und Unternehmern und macht
+die Anforderung überhaupt prüfbar.
+
+Beide Module sind bemerkenswert ähnlich aufgebaut, was den Ansatz stützt: gleiche
+Beleuchtungsstärke (500 Lux auf 70 cm Tischhöhe), gleiche Tageslicht-Ausschaltschwelle (über
+800 Lux), gleicher Präsenz-Nachlauf (15 Minuten), gleiche Lüftungsvorgabe (25 m³/h pro Person,
+CO₂-Grenzwert 1'500 ppm), gleiche Raumtemperatur (21 °C), gleiche Elektro-Grundausstattung
+(4 Steckdosen plus 1 beim Eingang, 4 Kommunikationsanschlüsse), gleiche Storen-Frostsicherung
+(unter 2 °C bei über 95 % relativer Feuchte) und dieselbe Vorgabe zum öffenbaren Fensterelement
+(mindestens 5 % der Bodenfläche). Unterschiede liegen im Betriebsrhythmus, nicht im Zielwert: das
+Klassenzimmer hat drei Beleuchtungszonen und eine Rückstellung der Storen in Grundposition um
+12.30 Uhr, das Büro eine feinere Nachtstellung nach Storentyp.
+
+Drei Vorgaben sind auch heute unverändert übernehmbar, weil sie keine Zahl, sondern eine
+Betriebslogik sind:
+
+1. **Vorlauf und Nachlauf der Lüftung an die Nutzung koppeln** — mindestens 30 Minuten vor
+   Nutzungsbeginn ein, Präsenzsignal mit 10 Minuten Mindestdauer, mindestens 30 Minuten Nachlauf.
+   Das ist der Unterschied zwischen einer Anlage, die nach Uhr läuft, und einer, die nach Belegung
+   läuft.
+2. **Einzelraumregelung mit begrenztem Nutzereingriff** — Sollwert um ±2 K justierbar. Genug
+   Einfluss, dass niemand das Fenster öffnet, zu wenig, um die Anlage zu unterlaufen.
+3. **Keine aktive Kühlung als Grundausstattung.** Das Büromodul enthält kein Kühlkapitel und keine
+   Kühl-Kennwerte; sommerliche Behaglichkeit läuft ausschliesslich über Sonnenschutzautomatik und
+   Fensterlüftung. Das deckt sich mit [[ahb-zuerich-gt-rl4-raumkuehlung]] und mit
+   [[sommerlicher-waermeschutz]].
+
+⚠ **Die Zahlen selbst sind Stand 2008 und keine heutige Anforderung.** Namentlich die
+Aussenluftrate: die Module nennen 25 m³/h pro Person, [[komfortlueftung-wrg-sia382-luftwechsel]]
+belegt für SIA 382/1:2025 IDA-Kategorien von 29/57/18 m³/h pro Person. Wer das Modul als Vorlage
+nimmt, ersetzt die Auslegungswerte, nicht die Struktur. Geräte- und Verkabelungsannahmen von 2008
+(vier RJ45 je Arbeitsplatz, Storenzeiten nach Metall- oder Textilstoren) sind ohnehin
+nutzungsabhängig neu zu setzen.
+
+## Healthcare: Gebäudeautomation im Pflegebetrieb (ergänzt Run 129, 13.08.2026)
+
+Aus [[ahb-standard-gebaeudeautomation-pflegezentren]] (AHB Stadt Zürich mit den Pflegezentren PZZ,
+Version 1.1, Juli 2008) — die erste Quelle dieser KB mit ausdrücklichem Pflegeheim-Bezug und damit
+für JANS unmittelbar einschlägig. Drei Punkte hat ein generisches Gebäudeautomations-Pflichtenheft
+nicht:
+
+- **Die Nachtwache ist die Ausfallebene.** Ausserhalb der Bürozeiten des technischen Dienstes
+  übernimmt das Pflegepersonal die Alarmreaktion, mit Eskalation über DECT und SMS. Wer im
+  Pflegebau die Alarmkette plant, plant sie gegen eine Belegschaft, die pflegt und nicht Technik
+  betreut — das begrenzt zulässige Alarmmenge und verlangt eine harte Priorisierung.
+- **Patientenruf und Weglaufschutz werden bewusst NICHT in die Gebäudeautomation integriert**,
+  weil eine 24-Stunden-Personalüberwachung ohnehin besteht. Das ist ein brauchbares Argument in
+  der Schnittstellenabgrenzung: nicht jede technisch mögliche Integration ist betrieblich sinnvoll,
+  und jede zusätzliche Kopplung ist eine zusätzliche Störquelle.
+- **Bedienlogik nach Raumtyp gestaffelt** — grosse, einfache Taster im Patientenzimmer, feine
+  Automatisierung in Verkehrs- und Nebenzonen. Dieselbe Denkweise wie bei den Raummodulen oben,
+  hier mit der Nutzergruppe als bestimmender Grösse.
+
+Zur Energiefrage verankert der Standard die **Verbrauchs- und Betriebsdatenerfassung als
+verbindliche Systemanforderung**, nennt aber selbst keine Kennwerte; dafür gelten
+[[energiemonitoring-submetering-grossverbraucher-zh-sz]] und [[sia-386-bacs-gebaeudeautomation]].
+
+⚠ Nicht übertragbar ist die konkrete Systemarchitektur: **Züri-Netz, IMMO-Box, die
+ESPA-4.4.4-Schnittstelle und das dort ausgesprochene EIB/KNX-Verbot** sind stadteigene
+Infrastrukturentscheide von 2008. Gerade das EIB/KNX-Verbot wäre heute ein Fehlschluss, wenn man
+es ungeprüft übernähme — es ist die damalige Kehrseite der Herstellerunabhängigkeit, nicht ihre
+Umsetzung.
 
 ## Was NICHT übertragbar ist
 

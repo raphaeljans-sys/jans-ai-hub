@@ -519,3 +519,40 @@ Bürovorlagen mit SIA-380/4-Zeile nicht unbemerkt weiterlaufen.
 **verschiedener Grösse und verschiedenem SHA-256** trugen **zeichengleichen Text**. Nach der
 bisherigen Methode (Grössenvergleich, Run 123) wären sie als zwei Quellen gezählt worden. Ab jetzt
 entscheidet bei ähnlichen Kandidaten ein `pdftotext`-Diff, nicht der Dateiname und nicht die Grösse.
+
+## Run 129 (13.08.2026) — Raummodule je Raumtyp und die erste Healthcare-Quelle der KB
+
+Fünf Primärquellen des Amts für Hochbauten der Stadt Zürich destilliert, eine sechste (Standard
+Kennzeichnungssystem und Beschriftungskonzept, V 2.2 vom 01.09.2007, 24 S.) geprüft und begründet
+als `[-]` abgelegt: reine Anlagenkennzeichnungs-Systematik ohne energetische Kennwerte und ohne
+Bauherren-Entscheidungsrelevanz. Zugang wie in Run 126/127/128 über die **M365-CLI/Graph** —
+**vierte Bestätigung in Folge**, der OneDrive-Mount wurde nicht versucht.
+
+Neue FAQ: **F230** (Sollzustand je **Raumtyp** statt gebäudeweiter Formulierung — der
+Raummodul-Ansatz, seine zeitlosen Betriebsregeln und die Warnung, dass die Zahlen von 2008 nicht
+die heutige Anforderung sind), **F231** (was in einem **Pflegeheim** gebäudetechnisch anders ist —
+die Nachtwache als Ausfallebene), **F232** (wie man sicherstellt, dass eine Lüftung nach dem Einbau
+wirklich leistet, was versprochen wurde — die Messliste der Inbetriebsetzung).
+
+Gewachsen: `[[gebaeudetechnik-pflichtenheft]]` um zwei Abschnitte — **Raummodule als Sollzustand je
+Raumtyp** (mit dem Zahlenvergleich der beiden Module und der ausdrücklichen Gegenüberstellung
+25 m³/h/Person 2008 gegen IDA 29/57/18 m³/h/Person nach SIA 382/1:2025) und **Gebäudeautomation im
+Pflegebetrieb** · `[[komfortlueftung]]` um einen Abschnitt **Abnahme und Inbetriebsetzung**, der
+der bisher rein kennwertorientierten Darstellung die Betriebsseite gibt.
+
+**Zwei methodische Befunde.**
+
+Erstens eine **neue Variante der Datierungsfalle**, im Hauptlauf am Original gegengeprüft: Beim
+SiNa-Merkblatt nennt der **Fusszeilenstempel 23.11.2007**, der Redaktionsvermerk **im Fliesstext**
+(Abschnitt 1.5) dagegen «Version 1.1 / Dokumentdatum: 13. Mai 2005». Der Fusszeilenstempel ist der
+Datei-/Druckstempel, nicht die Ausgabe. Das Briefing des Hauptlaufs an den Agenten war falsch, der
+Agent hat am Dokument korrigiert. Die Reihe lautet damit: Dateiname (Run 122) · Ablageort
+(Run 124/125) · Grösse gegen Seitenzahl (Run 124) · Textextrahierbarkeit (Run 126) · Grösse als
+Dublettenkriterium (Run 128) · **Fusszeilenstempel gegen Redaktionsvermerk im Fliesstext (Run 129)**.
+Das Ausgabedatum steht nicht immer auf dem Titelblatt.
+
+Zweitens: **Die Dateizeit auf dem NAS ist derzeit kein Indikator dafür, wann eine Arbeit entstand.**
+Drei Destillate trugen die Änderungszeit 01:04-01:07 des 13.08. und sahen nach einem
+abgebrochenen Nachtlauf aus; ihr Frontmatter weist sie als Arbeit aus Run 123 und Run 125 aus. Es
+war Rückstau aus dem Sync-Stillstand, der erst jetzt auf dem NAS landete. **Massgeblich ist das
+Frontmatter, nicht die mtime** — sonst wird ein Lauf doppelt gezählt oder eine Nummer übersprungen.

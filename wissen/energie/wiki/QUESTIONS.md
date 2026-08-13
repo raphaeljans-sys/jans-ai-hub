@@ -3230,3 +3230,39 @@ durchfuehrbar.
   Schaden — die Substanz steht im CHANGELOG —, aber die Lauf-Historie hat eine Lücke, und der
   Schritt ist im PROGRAMM als Pflicht (Ablauf Schritt 5) geführt. Zu prüfen, ob die Nachtschicht
   diesen Schritt generell auslässt oder ob er einmalig abgebrochen ist.
+
+## 2026-08-13 (Run 129) — offene Punkte aus dem AHB-Korpus 14
+
+- [ ] **E-R129-1 (P2): Raumschall-Grenzwert 25 dB(A) für Lüftungsanlagen gegen die geltende
+  SIA 181 prüfen.** Das AHB-Merkblatt von 2007 nennt diesen Wert als einzige eigene Zahl
+  (`[[ahb-merkblatt-kontrollierte-wohnungslueftung]]`), ohne Normbezug. Die KB hat mit
+  `[[schallschutz-sia181]]` und `[[sia-181-schallschutz-anforderungswerte]]` bereits die
+  Anforderungswerte destilliert — der Abgleich wurde in diesem Lauf nicht gemacht. Bis dahin darf
+  25 dB(A) nicht als geltende Anforderung zitiert werden, nur als AHB-Praxiswert von 2007.
+  Erledigt der Loop über den Skill `normen`.
+
+- [ ] **E-R129-2 (P2): Personenbelegung eines Klassenzimmers fehlt — die 25 m³/h pro Person sind
+  ohne sie nicht in eine Anlagengrösse übersetzbar.** `[[ahb-raummodul-klassenzimmer]]` nennt
+  weder Personenzahl je Klassenzimmer noch Fläche pro Person, obwohl es die Aussenluftrate
+  personenbezogen vorgibt. Für eine belastbare Bauherren-Antwort zu Schulbauten fehlt diese
+  Bezugsgrösse; SIA 2024 (Raumnutzungsdaten) wäre die naheliegende Quelle und ist in der KB noch
+  nicht destilliert.
+
+- [ ] **E-R129-3 (P3): NIV-Fassung und Kontrollperioden verifizieren.**
+  `[[ahb-merkblatt-sicherheitsnachweis-elektro]]` stützt sich auf die NIV vom 07.11.2001
+  (SR 734.27) und nennt keine Artikelziffern. Die Verordnung wurde seither mehrfach revidiert.
+  Vor jeder Verwendung in einem laufenden Mandat an der geltenden Fassung auf fedlex.admin.ch
+  gegenlesen (Zugriffsmuster: Rule `auto-verbesserungen` 260721, Filestore-URL statt JS-Portal).
+  Niedrige Priorität, weil der Sachbezug zur Energie-KB mittelbar ist.
+
+- [ ] **E-R129-4 (P3): SIA 2024 als Quelle für Raumnutzungsdaten erschliessen.** Beide Raummodule
+  arbeiten mit Belegungs-, Lasten- und Betriebszeitannahmen, ohne sie herzuleiten. SIA 2024 ist
+  die Norm, die genau das liefert, und würde die Raummodul-Werte von 2008 auf eine heute gültige
+  Bezugsgrösse heben. Wäre der sachlich nächste Schritt nach diesem Lauf; Zugang über den Skill
+  `normen` bzw. SharePoint PL - 02_Recht_Norm.
+
+- [ ] **E-R129-5 (P4): `Standards_Kennzeichnungssystem_V2.2.pdf` bei einem Betriebsoptimierungs-
+  oder Submetering-Thema neu bewerten.** In diesem Lauf begründet als `[-]` abgelegt (reine
+  Anlagenkennzeichnungs-Systematik ohne energetische Kennwerte). Sobald die KB das Thema
+  Zählerstruktur/Submetering vertieft (`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`),
+  könnte die Kennzeichnungssystematik dort doch Nutzen haben.

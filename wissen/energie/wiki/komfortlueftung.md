@@ -1,8 +1,8 @@
 ---
 title: Komfortlüftung / kontrollierte Wohnungslüftung — frische Luft ohne Wärmeverlust
 status: established
-last_updated: 2026-07-13
-sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md]
+last_updated: 2026-08-13
+sources: [destillate/komfortlueftung-wohnungslueftung-ch.md, destillate/en-lueftung-kuehlung-zh.md, destillate/komfortlueftung-wrg-sia382-luftwechsel.md, destillate/komfortlueftung-filterklassen-epm-stromverbrauch.md, destillate/raumluftfeuchte-komfortbereich-sia180.md, destillate/bfe-komfortlueftung-dimensionierungshilfe-1.md, destillate/ahb-merkblatt-kontrollierte-wohnungslueftung.md]
 links: [[INDEX]], [[en-lueftung-kuehlung-zh]], [[minergie-standards]], [[pv-eigenverbrauch-zev]], [[gebaeudeprogramm-bund-hfm-2015]], [[sommerlicher-waermeschutz]], [[BAUHERREN-FAQ]]
 ---
 
@@ -81,6 +81,40 @@ jeder Lüftungstechnik**. Milderung: **Enthalpietauscher** (Feuchterückgewinnun
 
 Details/Quellen: `[[komfortlueftung-wrg-sia382-luftwechsel]]`,
 `[[komfortlueftung-filterklassen-epm-stromverbrauch]]`.
+
+## Abnahme und Inbetriebsetzung — die Lücke zwischen Auslegung und Betrieb (ergänzt Run 129, 13.08.2026)
+
+Alle Kennwerte oben beschreiben, was die Anlage können **soll**. Ob sie es nach dem Einbau
+tatsächlich tut, entscheidet sich in der Inbetriebsetzung — und genau dort fehlt in privaten
+Verträgen meist die Vorgabe. Aus [[ahb-merkblatt-kontrollierte-wohnungslueftung]] (AHB Stadt
+Zürich, 26.02.2007) stammt die Messliste, die in ein Devis oder einen Werkvertrag gehört:
+
+- **Luftmengenabgleich** und **Luftmengenmessung mit Protokoll**
+- **Wirkungsgrad WRG messen** (nicht nur im Datenblatt versprechen lassen)
+- **Stromaufnahme der Ventilatoren messen**
+- **Dichtigkeitsmessung der Kanäle** bei grossen oder unzugänglichen Kanalnetzen
+- ausreichend Zeit dafür im Terminprogramm einplanen
+
+Der wirksamste und am seltensten vereinbarte Punkt ist der **Nachweis nach einem Betriebsjahr** zu
+Luftqualität, Schall und Nutzerzufriedenheit. Er fängt genau die Reklamationen ab, die sonst erst
+nach Ablauf der Rügefrist auftauchen, und macht aus einem Gefühl («es zieht», «es ist laut») einen
+messbaren Sachverhalt.
+
+Schall ist dabei der unterschätzte Mangel: das Merkblatt verlangt, die Raumschall-Emissionen
+bereits in der Projektierung zu definieren, und nennt als einzigen eigenen Zahlenwert **25 dB(A)**
+(⚠ nicht gegen die geltende SIA 181 geprüft, vor Verwendung über den Skill `normen` verifizieren).
+Es warnt ausdrücklich, dass Schalldämpfung **bei den Auslässen wenig wirksam und manipulierbar**
+ist — sie gehört ins Kanalnetz und an den Monoblock, inklusive Körperschall. Abluft aus Nasszellen
+erzeugt laut Quelle häufig sehr hohe Pegel.
+
+Für den Betrieb: Wartung des Monoblocks über einen **Servicevertrag mit einer Fachfirma**
+(Innenreinigung inklusive Wärmetauscher, Filterwechsel, Betriebstests, Reinigung der
+Aussenluftfassung, periodische Kanalreinigung) und eine **Nutzerinformation**, die Möglichkeiten
+und Nutzen der Anlage erklärt — samt Wartungsanleitung für die Fettfilter der Küchenabluft. Eine
+Komfortlüftung, deren Nutzende sie nicht verstehen, wird abgeschaltet oder durch dauergekippte
+Fenster unterlaufen.
+
+→ FAQ `F232`.
 
 ## Offene Punkte
 - CHF-Kosten aus neutraler/amtlicher Quelle statt Installateur-Schätzung (weiterhin offen).

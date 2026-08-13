@@ -2227,3 +2227,25 @@ Gebäudetechnik) und 18 (Nachhaltiges Bauen) gemessen und angebrochen.
    läuft über Skill `normen` / die Normen-KB, nicht über eine weitere PL-02-Datei.
 5. **E-128-2 auflösen** (heutige Innenraumluft-Richtwerte BAG gegen die Zürcher 60/1'000 µg/m³):
    Web-Quelle, aus der Antwort wird unmittelbar eine Devis-Klausel und eine Abnahmeposition.
+
+## Nach Run 129 (13.08.2026) — Prioritäten
+
+Der AHB-Ordner **14 (Energie und Gebäudetechnik) ist abgeschlossen**: alle fünf PDF in
+`14.2-Merkblaetter` und alle vier in `14.5-Standards` sind erfasst (destilliert oder begründet
+`[-]`). Damit fällt der bisher naheliegendste Block weg; die nächsten Schritte in der Reihenfolge
+ihres Ertrags:
+
+1. **Ordner `18-Nachhaltiges Bauen` mit `pdftotext`-Diff abräumen.** Neun Dateien stehen unter
+   Dublettenverdacht gegenüber bereits destillierten eco-Quellen (Liste in `pdf-inventar.md`,
+   Nachtrag Run 128). Billiger Lauf mit hohem Aufräumwert — er senkt die «offen»-Zahl belegt statt
+   geschätzt. Entscheidend ist der Textvergleich, nicht der Dateiname und nicht die Grösse.
+2. **`06_Richtlinien/Minergie/` (79 PDF, Priorität 1)** — der grösste noch unangetastete Block des
+   PL-02-Korpus und der mit dem höchsten Bauherren-Nutzen (Bauteile-/Wärmebrückenkataloge,
+   Nachweisformulare, Anwendungshilfen Minergie-P/-A).
+3. **E-R129-4: SIA 2024 (Raumnutzungsdaten) erschliessen.** Der sachlich nächste Schritt nach
+   diesem Lauf: beide Raummodule arbeiten mit Belegungs-, Lasten- und Betriebszeitannahmen, ohne
+   sie herzuleiten. SIA 2024 liefert genau das und würde die Raummodul-Systematik von einer
+   historischen Zahlentabelle auf eine heute gültige Bezugsgrösse heben. Läuft über den Skill
+   `normen`, nicht über eine weitere PL-02-Datei.
+4. **E-R129-1 auflösen** (25 dB(A) gegen die geltende SIA 181): betrifft die neue FAQ F232 direkt
+   und ist über die bereits destillierten SIA-181-Anforderungswerte der KB schnell zu klären.

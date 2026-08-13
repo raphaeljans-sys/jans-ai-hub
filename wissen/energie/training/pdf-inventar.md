@@ -480,3 +480,62 @@ Messfalle oben), nicht nach Dateinamen entscheiden.
 **Stand PL-02:** **64 von 182** energierelevanten PDF destilliert (10 Run 121, 9 Run 122, 9 Run 123,
 8 Run 124, 15 Run 125, 4 Run 126, 4 Run 127, **5 Run 128**), **118 offen**; zusätzlich 1 in Run 128
 als `[-]` geprüft.
+
+## Nachtrag 2026-08-13 (Run 129): AHB-Korpus «14.5 Standards» + Rest «14.2 Merkblaetter»
+
+Graph-Weg (M365-CLI, Zertifikat) zum **vierten Mal in Folge** bestätigt; der OneDrive-Mount wurde
+gar nicht versucht. Der im Task-Prompt verlangte Pfad `…/OneDrive-FreigegebeneBibliotheken–JANS/
+PL - 04 Energie` existiert weiterhin nicht (unter dieser Wurzel nur AD/AR/IMMO). **Empfehlung an
+die Task-Definition unverändert offen:** die Voraussetzungszeile sollte auf den Graph-Weg
+umgeschrieben werden, sonst prüft jeder künftige Lauf zuerst eine strukturell unerfüllbare
+Bedingung.
+
+Vor der Prioritätensetzung gemessen (Seitenzahl, Grösse, Textextrahierbarkeit, Dubletten-Diff):
+alle sechs Kandidaten textextrahierbar, keine Bild-PDF (1'333 bis 2'198 Zeichen je Seite). Die
+beiden Raummodule sind mit 548 Diff-Zeilen **echte Varianten**, keine Dublette — trotz nahezu
+gleicher Dateigrösse (592'941 gegen 592'502 B), also genau die Konstellation, vor der die
+Run-128-Falle warnt.
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/...) | KB-Datenstand |
+|---|---|---|
+| [x] `14.2-Merkblaetter/Merkblatt_Kontrollierte_Wohnungslueftung.pdf` | 2026-08-13 (2 S. vollst.; AHB Stadt Zürich, Fusszeilen-Dateistempel **26.02.2007**, kein Titelblatt-Datum → `ahb-merkblatt-kontrollierte-wohnungslueftung`) |
+| [x] `14.5-Standards/Standards_Gebaeudeautomation_Pflegezentren.pdf` | 2026-08-13 (9 S. vollst.; AHB mit den Pflegezentren PZZ, **Version 1.1, Juli 2008** → `ahb-standard-gebaeudeautomation-pflegezentren`; **erste Healthcare-Quelle der KB**) |
+| [x] `14.5-Standards/Standards_Raummodul_Buero.pdf` | 2026-08-13 (11 S. vollst.; **Version 1.1, Juli 2008**, Erstfreigabe GL AHB 28.09.2005 → `ahb-raummodul-buero`) |
+| [x] `14.5-Standards/Standards_Raummodul_Klassenzimmer.pdf` | 2026-08-13 (10 S. vollst.; **Version 2.1, Juli 2008**, Erstfreigabe GL AHB 24.09.2003, Revisionen 09/2005 und 07/2008 → `ahb-raummodul-klassenzimmer`; «V21» korrekt als Version 2.1 gelesen) |
+| [x] `14.2-Merkblaetter/Merkblatt_Sicherheitsnachweis Elektroinstallationen.pdf` | 2026-08-13 (4 S. vollst.; AHB Fachstelle Energie und Gebäudetechnik, **Version 1.1, Dokumentdatum 13. Mai 2005** laut Redaktionsvermerk im Fliesstext; Fusszeilenstempel 23.11.2007 ist nur der Dateistempel → `ahb-merkblatt-sicherheitsnachweis-elektro`) |
+| [-] `14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf` | 2026-08-13 (geprüft: 24 S., «Kennzeichnungssystem und Beschriftungskonzept», V 2.2, Dokumentdatum **01.09.2007** — reine Anlagenkennzeichnungs-/Beschriftungssystematik (Ortskennzeichnung, Kennzeichnungsblöcke) ohne energetische Kennwerte und ohne Bauherren-Entscheidungsrelevanz; nicht einzeln destilliert. Bei einem künftigen Betriebsoptimierungs- oder Submetering-Thema neu zu bewerten) |
+
+⚠ **Messfalle-Ergänzung — Fusszeilenstempel ist nicht die Ausgabe.** Beim SiNa-Merkblatt weichen
+**Dateistempel (23.11.2007)** und **Redaktionsvermerk im Fliesstext (Version 1.1, 13. Mai 2005)**
+um zweieinhalb Jahre voneinander ab. Der Hauptlauf hatte dem Agenten den Fusszeilenstempel als
+Ausgabe vorgegeben; der Agent hat am Dokument korrigiert, der Hauptlauf hat die Korrektur am
+Original gegengeprüft. **Lehre: das Ausgabedatum steht nicht immer auf dem Titelblatt — bei
+Merkblättern ohne Titelblatt-Datum den Fliesstext nach einem Redaktions-/Versionsvermerk absuchen,
+bevor der Fusszeilenstempel als Ausgabe übernommen wird.** Die Reihe der Fallen lautet damit:
+Dateiname (122) · Ablageort (124/125) · Grösse gegen Seitenzahl (124) · Textextrahierbarkeit (126) ·
+Grösse als Dublettenkriterium (128) · **Fusszeilenstempel gegen Redaktionsvermerk (129)**.
+
+⚠ **Zweite Lehre, Betrieb:** Die **mtime auf dem NAS ist derzeit kein Indikator für den Zeitpunkt
+der Arbeit.** Drei Destillate (`eco-bau-zielvereinbarungen-sia112-1`, `minergie-nachweisformular-2022-set`,
+`raumluftfeuchte-komfortbereich-sia180`) trugen die Änderungszeit 01:04-01:07 des 13.08. und sahen
+nach einem abgebrochenen Nachtlauf aus; ihr Frontmatter weist sie als Arbeit aus **Run 123 bzw.
+Run 125** aus. Es war Rückstau aus dem Sync-Stillstand. **Massgeblich ist das Frontmatter, nicht
+die mtime.**
+
+**Noch offen im AHB-Korpus 14** (gemessen): nichts mehr in `14.2-Merkblaetter` (alle fünf PDF
+erfasst: Beleuchtung/Glasbauten/Elektrosmog in Run 128, Lüftung/SiNa in Run 129) und nichts mehr in
+`14.5-Standards` ausser dem als `[-]` abgelegten Kennzeichnungssystem. **Der Ordner 14 ist damit
+abgeschlossen.**
+
+**Nächste Priorität:** Ordner `18-Nachhaltiges Bauen` — die in Run 128 gelisteten
+Dubletten-Verdächtigen (`18.1/Gebaeudelabel_MINERGIE-ECO_(Flyer).pdf`,
+`18.1/Nachhaltige_Gebaeudeerneuerung_(Checkliste).pdf`, `18.1/Richtlinie_7-Meilenschritte_(Flyer).pdf`,
+`18.1/Zielvereinbarungen_SIA112.1_(Uebersicht).pdf`, `18.2/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf`,
+`18.2/Topten_Haushaltgeraete_(Flyer).pdf`, `18.3/Baustellenkontrolle_+_Deviskontrolle_(Checkliste).pdf`,
+`18.3/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf`, `18.3/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf`)
+**je mit einem `pdftotext`-Diff gegen die bereits destillierte Fassung prüfen**, nicht nach
+Dateinamen entscheiden. Danach der grosse Block `06_Richtlinien/Minergie/` (79 PDF, Priorität 1).
+
+**Stand PL-02:** **69 von 182** energierelevanten PDF destilliert (10 Run 121, 9 Run 122, 9 Run 123,
+8 Run 124, 15 Run 125, 4 Run 126, 4 Run 127, 5 Run 128, **5 Run 129**), **113 offen**; zusätzlich
+1 in Run 129 als `[-]` geprüft.
