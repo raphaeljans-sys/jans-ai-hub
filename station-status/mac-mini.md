@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 08:43:52
+Stand: 13.08.2026 08:54:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 13.08.2026 08:43:52
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c3f0acdf nas-selfcommit: 1 Datei(en) 2026-08-13 08:30
+- ba6b3e25 hub-chef 13.08.: Plavenir-BBF-Deklaration mit Privatadresse als neue Registerzeile, Entwurfsordner um 08:45 nachgemessen, AG-Monitor seit 07.08. stumm
