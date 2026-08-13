@@ -28,11 +28,24 @@
 
 ## Bereits ausgeschriebene Lose (Bauherrschaft jeweils bestaetigt)
 
-- BKP 272.5 Briefkastenanlage (E. Feldmann AG)
-- BKP 275.0 Schliessanlage (E. Feldmann AG)
-- BKP 281.5 Bodenbelag Kunststein (Hänni AG)
-- BKP 285.00 Innere Malerarbeiten (Züri-Bau GmbH)
-- BKP 250 Sanitäranlagen — Reparatur / Ersatz der defekten Sanitärarmaturen (Karl Wächter AG, Benzenhofer AG)
+Die Nummern unten sind die **bürointernen Los-Nummern der bereits versandten Submissionen** und
+werden nicht geändert (sie stehen so in den ausgegebenen LV). Vier von ihnen sind **keine gültigen
+BKP-2017-Codes** — beim Schreiben eines neuen LV-Titels ist der echte Code aus
+`references/bkp-2017/BKP-2017-Liste.md` zu setzen, nicht die Los-Nummer (Rule `bkp-2017-referenz`,
+Abschnitt «Bürointerne Los-Nummern sind keine BKP-Codes»; Fallchronik 271.10, Ticket N43-1).
+Geprüft am systematischen Teil der Liste, Wissens-Chef Run 31, 13.08.2026.
+
+- LOS 272.5 Briefkastenanlage (E. Feldmann AG) — **kein BKP-Code**: BKP 272 Metallbauarbeiten
+  hat nur die Unterpositionen .0 bis .4. Der zutreffende Code ist am Original noch zu bestimmen
+  (die Liste führt den Begriff «Briefkasten» nicht wörtlich) — offen, nicht raten.
+- LOS 275.0 Schliessanlage (E. Feldmann AG) — **kein BKP-Code**: **BKP 275 Schliessanlagen** ist
+  ein Code ohne Unterpositionen.
+- BKP 281.5 Bodenbelag Kunststein (Hänni AG) — gültig (**281.5 Bodenbeläge aus Kunststein**).
+- LOS 285.00 Innere Malerarbeiten (Züri-Bau GmbH) — **kein BKP-Code**, und die verkürzte Form
+  wäre irreführend: **285.0 ist «Gerüste»**, Innere Malerarbeiten sind **BKP 285.1**.
+- LOS 250 Sanitäranlagen — Reparatur / Ersatz der defekten Sanitärarmaturen (Karl Wächter AG,
+  Benzenhofer AG) — **BKP 250 ist die «Übergangsposition»** der Hauptgruppe 25, nicht
+  «Sanitäranlagen»; für Apparate gilt **BKP 251 Allgemeine Sanitärapparate**.
 
 ## Quelle der Verifikation
 

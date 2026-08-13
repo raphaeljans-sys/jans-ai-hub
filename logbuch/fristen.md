@@ -3,6 +3,30 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026, 23:26 (tenant-hygiene Nachlauf, Phase 2 durch Raphael ausgeloest):
+
+**Versions-Trim SharePoint gestartet — Effekt ist in den naechsten Tagen nachzumessen.**
+Raphael hat am **13.08.2026 abends** interaktiv `New-PnPSiteFileVersionBatchDeleteJob`
+(`-MajorVersionLimit 5 -MajorWithMinorVersionsLimit 5 -Force`) auf
+**/sites/JANS.PROJEKTE** ausgefuehrt. Rueckmeldung des Servers: «Success. Versions specified
+will be permanently deleted in the upcoming days.» Der Job laeuft serverseitig asynchron,
+die Speicherstatistik zieht zusaetzlich bis zu 24 h nach. **Ausgangswert zum Vergleich
+(Messung 13.08. 20:08): Tenant 932.2 GB / 88.4 %, JANS.PROJEKTE 652.7 GB Site davon
+159.8 GB Versionsverlauf.** Erwartung rund 120 GB Gewinn. Damit sind der seit **13.07.2026**
+offene Dauerbefund und die Restlaufzeit-Warnung (44 Tage) in Bearbeitung.
+Status: **beobachten** — der naechste tenant-hygiene-Lauf misst nach und schreibt das
+Ergebnis in den Tagesreport.
+
+**Zwei Punkte bleiben offen:**
+1. **IMMO-Trim NICHT gelaufen** (Potenzial rund 3 GB; 4.72 GB Versionen auf 7.21 GB Site).
+   Der Befehl und die Status-Abfrage wurden im Terminal in eine Zeile zusammengeklebt,
+   es gab keine Erfolgsmeldung. Muss separat wiederholt werden. Status: **offen.**
+2. **Tenant-Versionslimit steht auf «Manuell»** (Admin Center, Einstellungen,
+   Versionsverlauf-Limits). Ohne Umstellung auf «Automatisch» waechst der Verlauf nach dem
+   Trim erneut an und der Trim wird zur Dauerpflicht statt zur einmaligen Bereinigung. Als
+   Kontoeinstellung nur durch Raphael oder mit ausdruecklicher Freigabe. Steht seit
+   **13.07.2026** unveraendert offen. Status: **offen, Entscheid Raphael.**
+
 Eintrag 13.08.2026 (Hub-Chef 08:39, Regellauf — **ein neuer Vorgang seit dem Radar, und die
 vier Entwuerfe liegen um 08:45 immer noch unversendet**):
 

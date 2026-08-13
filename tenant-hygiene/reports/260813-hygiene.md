@@ -241,3 +241,29 @@ Gemeldet wird. Ausgeloest haben drei Gruende gleichzeitig: Auslastung **88.4 %**
 88 %), Restlaufzeit **44 Tage** (Schwelle 60 Tage) und der Tagesdelta von **3.22 GB/Tag**
 (Schwelle 3 GB/Tag). Auto-bereinigt wurde nichts, ein Blocker liegt nicht vor, und heute
 ist Donnerstag, die Wochenpflicht greift also nicht.
+
+## Nachtrag 13.08.2026, 23:26 — Phase 2 angestossen (JANS.PROJEKTE)
+
+Raphael hat den Versions-Trim auf **/sites/JANS.PROJEKTE** interaktiv ausgefuehrt:
+
+```
+New-PnPSiteFileVersionBatchDeleteJob -MajorVersionLimit 5 -MajorWithMinorVersionsLimit 5 -Force
+```
+
+Serverantwort: «Success. Versions specified will be permanently deleted in the upcoming
+days.» Der Job laeuft serverseitig asynchron ueber mehrere Tage; `StorageUsage` laeuft
+zusaetzlich bis zu 24 h nach. Ein Rueckgang ist deshalb fruehestens im Lauf vom 14.08.
+sichtbar, der volle Effekt spaeter.
+
+**Ausgangswerte fuer die Nachmessung (Stand 13.08. 20:08):** Tenant 932.2 GB / 88.4 %,
+freier Puffer 121.8 GB; JANS.PROJEKTE 652.7 GB Site, davon 159.8 GB Versionsverlauf.
+Erwartung rund 120 GB Gewinn, Auslastung danach etwa 77 %.
+
+**Nicht gelaufen: IMMO.** Der zweite Befehl und die Status-Abfrage wurden im Terminal in
+eine Zeile zusammengeklebt (`...-Force"pwsh -NoProfile...`), es erfolgte keine
+Erfolgsmeldung. Der IMMO-Trim (Potenzial rund 3 GB) ist offen und muss separat wiederholt
+werden.
+
+**Weiterhin offen: Tenant-Versionslimit auf «Manuell».** Ohne Umstellung auf «Automatisch»
+waechst der Versionsverlauf nach dem Trim erneut an. Beides ist im Register
+`logbuch/fristen.md` unter dem 13.08.2026 eingetragen.
