@@ -5,6 +5,88 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-13 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 13.08.2026 07:15 CEST, NAS gemountet. Zweiter Lauf desselben Tages (der
+erste um 02:10, STILL). Rekursives Glob inklusive Subagenten-Transcripts, Zeilenfilter je
+`timestamp[:10]`, neun Tage mtime-Vorfilter, Duplikate über (message.id, requestId)
+ausgeschlossen.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 05.08. | 12.13 | 252.53 | 5.13 | 67.30 | **17.26** |
+| 06.08. | 9.19 | 181.56 | 1.93 | 49.81 | **11.12** |
+| 07.08. | 43.25 | 354.36 | 9.86 | 134.71 | **53.11** |
+| 08.08. | 9.13 | 174.34 | 9.17 | 109.51 | **18.30** |
+| 09.08. | 0.62 | 37.17 | 0.00 | 0.00 | **0.62** |
+| 10.08. | 0.00 | 0.00 | 1.32 | 19.41 | **1.32** |
+| 11.08. | 0.00 | 0.00 | 2.79 | 78.22 | **2.79** |
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | **28.39** |
+| 13.08. (bis 07:15) | 4.96 | 124.79 | 0.59 | 11.05 | **5.55** |
+
+Alle sieben Überlappungstage reproduzieren die Messung vom 02:10 auf zwei Nachkommastellen
+(06.08. 11.12, 07.08. 53.11, 08.08. 18.30, 12.08. 28.39) — die rekursive Methodik ist zum
+siebten Mal stabil. Subagenten-Anteil am teuren Verbrauch heute: MacBook Pro 2.97 von 4.96
+(60 %), Mac Mini 0.24 von 0.59.
+
+**Blockade-Status: FREI.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429 zusammen mit Limit-Textmuster) findet in den
+letzten 24 h auf **beiden** Stationen **null** echte Ereignisse. Weder 5-Stunden- noch
+Wochenlimit.
+
+### Bewertung — STILL, keine Mail; alle sieben Kriterien geprüft
+
+| Kriterium | Befund | erfüllt |
+|---|---|---|
+| (a) interaktive Session mit echtem Limit-Ereignis | 0 Ereignisse, beide Stationen | nein |
+| (b) kombiniert >35 Mio an einem Tag / >18 Mio an zwei Folgetagen | letzte 24 h: 12.08. 28.39, 13.08. 5.55; Vorpaar 11./12.08. = 2.79/28.39 | nein |
+| (c) Wochenkontingent in 24 h erschöpft | kein Ereignis | nein |
+| (d) operatives Briefing ohne Deliverable | alle erreicht (siehe unten) | nein |
+| (e) Radar-Herzschlag >12 h alt | Sessions 01:34 und 01:55, RADAR.md-Eintrag 01:54 — 5.4 h alt | nein |
+| (f) Destillat verbraucht ohne Fortschritt/Ertrag | Artikel um 02:38 gewachsen | nein |
+| (g) KORPUS-QUEUE KOMPLETT | 22 Dateien offen | nein |
+
+**Schritt 3 — operative Briefings.** Der neue Lauf seit 02:10 ist `logbuch-radar` 07:01
+(123 Zeilen): Deliverable erreicht, Register und Journal nachgeführt, vom nativen
+Committer um 07:00 gesichert (LOGBUCH.md +104/-0, fristen.md +43/-0, append-only sauber).
+Kein eigener Mail-Versand, korrekt nach dem Ein-Mail-Prinzip — der Hub-Chef hatte um
+01:41 gemailt. `hub-chef-taeglich` (01:24/01:46), `mahnwesen-verzugscheck` (01:18/01:29)
+und `zahlungsabgleich-check` (01:35) waren bereits im 02:10-Lauf mit Deliverable
+verifiziert; der reguläre Hub-Chef-Slot 08:39 steht zum Messzeitpunkt noch aus.
+
+**Schritt 4 — Radar-Herzschlag vorhanden.** Beide unabhängigen Signale erfüllt: zwei
+`vollgas-chef-radar`-Sessions (01:34, 01:55) und der RADAR.md-Eintrag von 01:51/01:54.
+
+**Schritt 5 — Liefer-Delta.** Kräftig positiv: 41 getaktete Task-Sessions in den letzten
+26 h, davon 12 mit eigenem Sach-Commit (normen run50, wissens-chef Run 30, twin-mail
+Batch 92, wettbewerbs-dna Etappe 4, methoden-radar, grobkosten-Rücktaktung u.a.). Kein
+Loop mit Tokenverbrauch ohne Delta. Ein Defekt bleibt der bereits um 02:10 gemeldete
+`ag-gruendung-monitor`-Lauf 01:35 (12 Zeilen, an nicht verfügbarem Modell haiku-4-5
+gestorben) — seither kein weiterer Lauf, also kein zweiter Fall.
+
+**Schritt 5b — Destillat.** (a) Fortschritt: `bauprodukte` 37/37 Sektionen, 214
+inventarisiert, **22 offen** — unverändert gegenüber 02:10, was bei fünf Stunden Abstand
+erwartbar ist. (b) Ertrag: 10 Artikel plus INDEX; `erco-lichtplanung-grundlagen.md` ist um
+02:38 auf 154 kB gewachsen, also nach dem letzten Frühwarnungs-Lauf. (c) Delta-Null-Serie:
+**nicht messbar** — der jüngste Lauf-Report unter `wissen/bauprodukte/outputs/` datiert vom
+03.08., obwohl der Loop seither mehrfach geliefert hat. Der Loop schreibt sein Ergebnis in
+den Artikel, aber keinen Report mehr. Für den Radar vermerkt: die Delta-Null-Erkennung
+nach Kennzahl (c) hat damit seit zehn Tagen keine Datenbasis und müsste auf das
+Artikel-mtime oder den Commit umgestellt werden. (d) Stückkosten 13.08.: 5.55 Mio teuer
+auf 27 im Tag geschriebene Wiki-Artikel (git, ohne INDEX/QUESTIONS) = **0.21 Mio je
+Artikel**; ohne die sechs Twin-Facetten 21 Artikel = **0.26 Mio**. Bester Wert der Reihe
+(02:10-Lauf: 1.04 im Dreitagesmittel), weil der Nachhol-Sturm viel Ertrag in kurzer Zeit
+erzeugt hat.
+
+**Abweichung von der Modell-Politik, bewusst:** der Lauf wurde nicht an einen
+Haiku-Subagenten delegiert. Das Arbeitsvolumen sind ein Messkript und sechs parallele
+Shell-Blöcke — unter der in Rule `modellwahl-routine` bezifferten Schwelle von rund zehn
+Werkzeugaufrufen, ab der sich der Kontextaufbau eines Subagenten lohnt.
+
+**Letzte Mail:** 27.07.2026 (Wochenlimit-Ausfall). Seither still.
+
 ## 2026-08-13 02:10 — STILL (keine Mail)
 
 Messzeitpunkt 13.08.2026 02:07 CEST, NAS gemountet. **Erster Lauf seit dem 08.08.** — die
