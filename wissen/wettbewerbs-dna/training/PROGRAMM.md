@@ -57,11 +57,41 @@
 > NICHT BESTANDEN**, 9 Beanstandungen eingearbeitet. Report
 > `outputs/2026-08-03_etappe4-vertiefung-01.md`.
 >
-> **Naechster Lauf: V2**, beginnend mit **Schulbau** — dort stehen drei eigene Beitraege mit
-> Jury-Urteil (2102 Muttenz, 2103 Steinhof, 2206 Schoental) den 10 belegten Siegargumenten
-> aus `muster/jury-argumente-schulbauten.md` gegenueber; das ist die dichteste Datenlage der
-> drei Bauaufgaben. Danach Healthcare (2101 als einziger eigener Beitrag), dann Wohnungsbau
-> (2205; 2207/2503 fallen mangels Jury-Urteil aus), zuletzt V3.
+> ---
+>
+> ### STAND 13.08.2026 nach Lauf 02: **V2 SCHULBAU ABGESCHLOSSEN** — naechster Lauf V2 Healthcare
+>
+> Die drei eigenen Schulbau-Beitraege (2102 Muttenz 4. Rang, 2103 Steinhof kein Rang, 2206
+> Schoental 3. Rang) sind gegen alle zwoelf Siegargumente gestellt. Ergebnis als **Abschnitt 7**
+> in `muster/jury-argumente-schulbauten.md`: 3×12-Matrix, doppelt codiert (bedient? / hat die
+> Jury es benannt?), drei Schaerfungen, zwei Kandidaten fuer ein 13. Argument, plus eine
+> ausdruecklich deklarierte Quellengrenze.
+>
+> **Ertrag Lauf 02:** (1) **Der in S4 gutgeschriebene Brandschutz-Kunstgriff wurde in 2102
+> angewandt und nicht honoriert** — die Jury erwaehnt ihn nicht und verwirft die Halle aus
+> programmatischem Grund. Arbeitshypothese: der Kunstgriff schafft die Erlaubnis, den Punkt
+> geben erst die Nutzungen darin. (2) **Die S7-Bruchlinie Fussabdruck gegen Volumenkennwert
+> verlaeuft innerhalb eines einzigen Projekts** — die Jury lobt und verurteilt 2102 auf
+> derselben Seite. (3) **S10 wurde von keinem der drei Beitraege bedient und von keiner der
+> drei Jurys geruegt**, in 2103 sogar entgegen ausdruecklicher Programmvorgabe; fuer die
+> eigene Praxis damit unbelegt — ein Befund gegen den Artikel selbst.
+>
+> **Verifikation:** ein Refuter, **NICHT BESTANDEN**, 7 Beanstandungen eingearbeitet (zwei
+> echte Wortabweichungen in woertlichen Zitaten, eine unmarkierte Zitatverkuerzung, eine
+> methodisch unsaubere Matrixzelle, drei zu absolute Regeln → Arbeitshypothesen n=1). Alle
+> Beanstandungen vor der Einarbeitung einzeln am Original gegengeprueft.
+>
+> **Nebenbefund:** Seitenzahl-Versatz +1 im Dossier `2102-muttenz.md` (5 Stichproben,
+> Inhaltsverzeichnis dreifach verankert). **Bewusst nicht umnummeriert** — Rule 260811. Audit
+> als offener Punkt in QUESTIONS.
+>
+> Report `outputs/2026-08-13_etappe4-vertiefung-02.md`.
+>
+> **Naechster Lauf: V2 Healthcare** (`muster/jury-argumente-healthcare.md` gegen die eigenen
+> Healthcare-Beitraege, Stand Programm: 2101 als einziger). **Pflicht vor Arbeitsbeginn: die
+> Quellenlage pruefen** — Lauf 01 hat gezeigt, dass eine geplante Reihenfolge an fehlenden
+> Juryberichten scheitern kann; das gehoert vor den Aufwand, nicht danach. Danach V2
+> Wohnungsbau (2205; 2207/2503 fallen mangels Jury-Urteil aus), zuletzt V3.
 >
 > **Nebenaufgaben aus Lauf 01** (klein, aber echt, in QUESTIONS): raumweiser
 > Kennwert-Quervergleich 2408 aus der Planbeilage · Volltext-Umlaut-Sanierung von

@@ -3,6 +3,33 @@
 Stand: 27.07.2026 (Wohnungsbau B4+B6 abgeschlossen; Verfahrens-Sonderfaelle-Frage und
 Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 
+## Offen (neu 13.08.2026, Etappe 4 Lauf 02)
+
+- **Seitenzahl-Audit `wiki/teilnahmen/2102-muttenz.md`.** Die Fundstellen des Dossiers liegen
+  durchgängig **eine Seite höher** als die gedruckte Paginierung des Juryberichts. Die
+  gedruckte Zählung ist über das Inhaltsverzeichnis dreifach verankert (Rangierung = 14,
+  Empfehlungen = 15, Genehmigung = 16); fünf Stichproben zeigen den Versatz einheitlich
+  (Rangierungstabelle 14/15 · Genehmigungsvermerk 16/17 · Teamblatt Nr. 20 38/39 · Würdigung
+  Nr. 20 39/40 · Balkon-Fluchtweg 39/40). Vermutliche Ursache: das Dossier zählt PDF-Seiten
+  (unnummeriertes Vorblatt). **Bewusst nicht umnummeriert** — ein globales Ersetzen in einer
+  gewachsenen Datei ohne vollständigen Prüfgang ist genau der Fehler aus Rule 260811. Zu tun:
+  ein eigener Lauf, der jede Fundstelle einzeln prüft und umstellt, danach die Konvention im
+  Frontmatter festhalten. Der Versatz betrifft die Auffindbarkeit, nicht die Richtigkeit — alle
+  im Rahmen von Lauf 02 geprüften Zitate stehen wortgetreu im Bericht. Zu prüfen ist, ob
+  weitere Dossiers dieselbe Doppelzählung tragen.
+- **Zwei Kandidaten für ein 13. Siegargument Schulbau, beide n=1.** (a) Zielkosten können die
+  Grundsatzfrage vorentscheiden (2103: Investitionszielkosten «unter der Voraussetzung, dass
+  die bestehende Turnhalle erhalten bleibt», S. 6). (b) Akustische Geschosstrennung ruhig
+  gegen lärmig als eigenständiger Betriebsvorteil (2102 S. 18/21). Beide brauchen einen
+  zweiten, unabhängigen Verfahrensbeleg, bevor sie in die Liste S1–S12 aufgenommen werden.
+- **Arbeitshypothesen aus Lauf 02, die einen zweiten Beleg brauchen:** S4 «regulatorischer
+  Kunstgriff ist notwendig, nicht hinreichend» (Direktvergleich innerhalb eines Verfahrens) ·
+  S9/S3 «Kompensationsmittel an jedem verschatteten Hauptraum» (kein zweiter Verfahrensbeleg).
+- **S10 (Kind-/Nutzerperspektive) ist für die eigene Praxis unbelegt.** In keinem der drei
+  eigenen Schulbau-Verfahren wurde das Kriterium schlagend, obwohl es in 2103 ausdrückliche
+  Programmvorgabe war. Offen: bei der nächsten Schulbau-Teilnahme prüfen, ob das Kriterium
+  real greift oder ob S10 eine Eigenheit der fremden Referenzverfahren (Hausen, Riehen) ist.
+
 ## Geklaert
 - **Betriebsbefund: Vollgas-Runner schloss `wettbewerbs-dna-training` NICHT aus — behoben
   (27.07.2026, Nachtschicht Mac Mini).** Der am 25.07.2026 gemeldete Doppellauf-Fall (Runner
