@@ -5,6 +5,37 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Verzugscheck 13.08.2026 (08:06, Regellauf `mahnwesen-verzugscheck`, still)
+
+**Zum Verzugsstand nichts Neues.** bexio erneut nachgemessen, dreifach 401 (Connector,
+`/2.0/kb_invoice`, `userinfo` beim Aussteller). Die Diagnose des Nachtlaufs von 01:18 ist damit
+unabhängig bestätigt: der Token ist nicht abgelaufen, die Session dahinter ist serverseitig
+beendet. Nichts erzeugt, nichts vorgeschlagen, nichts versendet. Der operative Punkt (RE-00087,
+CHF 15'000, 113 Tage überfällig, Mahnstufe 2 seit 23 Tagen fristabgelaufen) steht bereits im
+Fristen-Register und wird hier **nicht doppelt eröffnet**.
+
+**Ein Nebenbefund, der in keinem Register steht: drei Werktage ohne Bericht.** Zwischen dem
+letzten belastbaren Bericht vom Fr 07.08. und dem von heute 01:18 fehlen **Mo 10., Di 11. und
+Mi 12.08.** (Sa/So sind planmässig ausgenommen, die Task läuft Mo–Fr). Der bexio-Zugang war seit
+dem 08.08. tot, und die Aufgabenstellung der Task **schreibt einen Fehlerbericht vor**. Es hätte
+also an jedem der drei Tage einer entstehen müssen. Stattdessen fiel der Ausfall erst auf, als
+Raphael in der Nacht auf den 13.08. selbst darauf stiess — fünf Tage später.
+
+**Warum das nicht aufzuklären war, ist der eigentliche Befund: es gibt kein Lauf-Log für
+Scheduled Tasks.** Die Registry hält nur `lastRunAt`, also einen einzigen Zeitstempel ohne
+Historie. `logbuch/laeufe/*.jsonl` erfasst ausschliesslich `claude-run.sh`-Loops. Und der
+Wrapper-Marker `<scheduled-task name="…">` ist in den Transcripts nicht persistiert: über alle
+3'295 Transcripts null Treffer für `logbuch-radar`, `hub-chef-taeglich`, `ag-gruendung-monitor`
+und `zahlungsabgleich-check`, obwohl alle vier heute nachweislich gelaufen sind.
+
+Ob die Task an den drei Tagen nicht feuerte oder feuerte und den Fehler verschluckte, ist mit
+den vorhandenen Mitteln **nicht entscheidbar**. Beides wäre eigenständig behebenswert. Als
+Frage an den Hub notiert, nicht als Behauptung — und mit der Beobachtung, dass ein stiller
+Loop-Ausfall derzeit von keiner Instanz bemerkt wird. Voller Bericht:
+`30 JANS AI HUB OUTPUT/mahnwesen/2026/260813_Verzugscheck.md`.
+
+---
+
 ## Radar-Briefing 13.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
 Der Nachtlauf hat den Tag um 01:32 vollständig aufgearbeitet und um 01:41 gemailt. Seither hat
