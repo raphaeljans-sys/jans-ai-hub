@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.08.2026 00:49:40
+Stand: 14.08.2026 01:10:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 14.08.2026 00:49:40
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 4274ac83 nas-selfcommit: 3 Datei(en) 2026-08-14 00:45
+- 0b6357f9 vollgas-radar: 14.08. 00:57 [FREI] — Budget 28.8/50.6 (-21.7), 4 KBs mit Delta, launchctl-list-ueber-ssh als Domaenen-Artefakt entlarvt

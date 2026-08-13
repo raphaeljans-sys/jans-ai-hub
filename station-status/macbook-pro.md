@@ -1,11 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 00:50:00
+Stand: 14.08.2026 01:10:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 00:29)
-- Developer/jans/ai/hub//claude/worktrees/normen/destillat/p1/a19385  (letzte Aktivitaet 00:36)
-- Developer/jans/ai/hub//claude/worktrees/sidebar/sessions/understanding/877012  (letzte Aktivitaet 00:28)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -21,4 +19,4 @@ Stand: 14.08.2026 00:50:00
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 4274ac83 nas-selfcommit: 3 Datei(en) 2026-08-14 00:45
+- 0b6357f9 vollgas-radar: 14.08. 00:57 [FREI] — Budget 28.8/50.6 (-21.7), 4 KBs mit Delta, launchctl-list-ueber-ssh als Domaenen-Artefakt entlarvt
