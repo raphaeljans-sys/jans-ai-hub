@@ -167,6 +167,47 @@ Auch der Sieger hatte benannte Schwächen (eher grosser Footprint, grosses
 unterirdisches Volumen, Optimierungsbedarf für Minergie-P/Eco/SNBS; Jurybericht S. 22)
 — sie wogen die betrieblichen Vorteile aber nicht auf.
 
+## 4b. Nachtrag Rückkopplung V2 (13.08.2026, Etappe 4, Lauf 02)
+
+Geprüft wurde der Beitrag gegen die zwölf Siegargumente in
+[[muster/jury-argumente-schulbauten]], Abschnitt 7. Vier Befunde, alle am Original
+verifiziert und durch einen Refuter-Durchgang gegangen.
+
+1. **Die Kompaktheits-Bruchlinie liegt innerhalb einer einzigen Seite.** Die Jury bestätigt
+   die eigene Fussabdruck-Behauptung ausdrücklich («Der kompakte Fussabdruck lässt viel
+   Freiraum und ermöglicht eine spätere Erweiterung der Schulanlage», gedruckte S. 39) und
+   verurteilt zwölf Zeilen später die Gesamtkennwerte («Das Projekt weist sowohl die grösste
+   Geschossfläche wie auch das grösste Volumen auf. Die hohen Kennwerte zeigen sich auch in
+   den vergleichsweise hohen Kosten.», S. 39). Die Ursache benennt sie selbst: die zu zwei
+   Dritteln versenkte Doppelsporthalle führe «zwar zu einem kleinen oberirdischen Volumen,
+   das aber einen grossen unterirdischen Fussabdruck aufweist» (S. 39). Der Beitrag hat also
+   nicht «die Kompaktheit verfehlt», sondern die eine Hälfte des Kriteriums gewonnen und die
+   andere verloren.
+2. **Der Brandschutz-Kunstgriff wurde angewandt und nicht honoriert.** Die Abgabe
+   formuliert ihn explizit aus (zwei Entfluchtungstreppenhäuser, ganze Geschosse als
+   Nutzungseinheit, Halle als «vollwertige, möblierte Zone», Textbaustein 9.12). Die Jury
+   erwähnt ihn mit keinem Wort und verwirft die Halle aus einem anderen Grund: sie sei «für
+   den Mittagstisch im Obergeschoss nicht nutzbar» und stelle «deshalb keinen eigentlichen
+   Mehrwert dar»; das Erdgeschoss enthalte «keine Nutzungen, die den Pausenplatz beleben»
+   (S. 39). Der Sieger «hannes» erreichte dasselbe Ziel über die Abtrennung der Schulgeschosse
+   vom Treppenhaus (S. 21) und kam wegen unter 900 m2 Geschossfläche mit einem einzigen
+   vertikalen Fluchtweg aus (S. 21).
+3. **Der Fluchtweg-Mangel ist ausdrücklich protokolliert, war aber nicht eliminierend**
+   (K.-o.-Punkt «Fluchtwege am Plan nicht erfüllt»): «Dieser Balkon soll als Fluchtweg
+   dienen, kann aber seine Aufgabe wegen der Richtungsänderung nicht erfüllen.» (S. 39)
+4. **Jury-Erkenntnis über das Verfahren hinaus:** die akustische Geschosstrennung ruhig
+   gegen lärmig wird als eigenständiger Betriebsvorteil benannt (S. 18) und dem Sieger
+   angerechnet (S. 21). Kandidat für ein 13. Siegargument, bisher n=1.
+
+> **Seitenzahl-Konvention, wichtig:** Die Fundstellen in diesem Nachtrag sind **gedruckte**
+> Seitenzahlen (gegen das Inhaltsverzeichnis geprüft: Rangierung = 14, Empfehlungen = 15,
+> Genehmigung = 16). Die Zitate in den Abschnitten 1 bis 4 dieses Dossiers verwenden eine
+> **um 1 höhere** Zählung, vermutlich den PDF-Seitenzähler. Fünf Stichproben bestätigen den
+> Versatz einheitlich (Rangierungstabelle gedruckt 14 / Dossier 15 · Genehmigungsvermerk 16 /
+> 17 · Teamblatt Nr. 20 38 / 39 · Balkon-Fluchtweg 39 / 40 · Würdigung Nr. 20 39 / 40). Der
+> Altbestand wurde **bewusst nicht umnummeriert** — das braucht einen eigenen, vollständigen
+> Prüfgang über alle Fundstellen. Offener Punkt in `wiki/QUESTIONS.md`.
+
 ## 5. Lessons / DNA
 
 Verallgemeinerbare Regeln (Kandidaten für [[delta-zum-ersten-rang]] und künftige

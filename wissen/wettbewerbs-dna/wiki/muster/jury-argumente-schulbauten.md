@@ -388,6 +388,24 @@ Gegenfrage: **was haben die eigenen Beitraege davon bedient, und hat die Jury da
 gesehen?** Geprueft wurden die drei JANS-Schulbau-Teilnahmen mit Jury-Urteil gegen S1 bis
 S12. Alle Zitate sind am Original nachgeprueft (Etappe 4, Lauf 02).
 
+**Verifikations-Hinweis (13.08.2026):** Dieser Abschnitt wurde nach einem unabhaengigen
+Refuter-Durchgang ueberarbeitet, **Verdikt «nicht bestanden»**. Sieben Beanstandungen sind
+eingearbeitet: zwei echte Wortabweichungen in als woertlich markierten Zitaten
+(«Kindergerechte», nicht «Kindgerechte»; «einen guten baulichen Sonnenschutz», nicht «guter
+baulicher»), eine unmarkierte Zitatverkuerzung, eine methodisch unsaubere Matrixzelle
+(2206/S4 stand auf «w», obwohl keine eigene Gegenbehauptung belegt ist — jetzt «a», Legende
+praezisiert) sowie drei zu absolut formulierte Regeln, die auf einem Einzelverfahren
+beruhten und nun als Arbeitshypothese mit n=1 gefuehrt werden. Nicht beanstandet und
+unabhaengig bestaetigt: saemtliche Raenge, Preissummen und Beitragsnummern, die drei
+unterschiedlichen Seitenmarker-Konventionen, die Trennung der aehnlich benannten Beitraege
+«PATIO IM PIANO NOBILE» (2102) und «Patio in Nobile» (2103), die Quellengrenze in 7.5 sowie
+die Widerspruchsfreiheit zu den Abschnitten 1 bis 6.
+
+**Seitenzahlen in diesem Abschnitt sind gedruckte Seitenzahlen** (die im Bericht sichtbare
+Paginierung, gegen das Inhaltsverzeichnis geprueft) — nicht PDF-Seitenzaehler. Das ist
+relevant, weil das Dossier `teilnahmen/2102-muttenz.md` durchgaengig eine um 1 hoehere
+Zaehlung verwendet; siehe QUESTIONS.
+
 **Raenge, aus den Berichten belegt, nicht aus dem Gedaechtnis:** 2102 Muttenz «PATIO IM
 PIANO NOBILE» Nr. 20 = **4. Rang / 3. Preis** CHF 13'000 (Jurybericht, gedruckte S. 14,
 Rangierungstabelle) · 2206 Schoental «ARCHE» Nr. 25 = **3. Rang / 3. Preis** CHF 25'000
@@ -450,19 +468,24 @@ aber keine Nutzungen, die den Pausenplatz beleben.» (S. 39)
 **Schaerfung zu S4 — der Brandschutz-Kunstgriff ist notwendig, aber nicht hinreichend.**
 S4 fuehrt das zweite Fluchttreppenhaus (Beleg Zelgli Schlieren) als Mechanismus, um die
 Erschliessungsflaeche der Lernlandschaft zuzuschlagen. **2102 hat genau diesen Kunstgriff
-angewandt** und in der Abgabe ausformuliert: «Zwei Entfluchtungstreppenhaeuser loesen die
-Fluchtwegsituation im Brandfall und ermoeglichen es, die gesamten Geschosse als
+angewandt** und in der Abgabe ausformuliert: «Zwei Entfluchtungstreppenhäuser lösen die
+Fluchtwegsituation im Brandfall und ermöglichen es, die gesamten Geschosse als
 Nutzungseinheit zu klassieren. Dadurch kann die Erschliessungshalle der Schule als
-vollwertige, moeblierte Zone dienen» (eigene Abgabe). Die Jury hat den Kunstgriff **nicht
+vollwertige, möblierte Zone dienen und die Brandschutzanforderungen der Zwischenwände sind
+einfach zu lösen.» (eigene Abgabe, Textbaustein 9.12). Die Jury hat den Kunstgriff **nicht
 honoriert und nicht einmal erwaehnt** — sie verwarf die Halle aus einem anderen Grund, dem
 fehlenden Nutzungsbezug zum Mittagstisch. Der Sieger «hannes» erreichte dasselbe Ziel mit
 einer anderen Technik und bekam den Punkt: «Weil die Schulgeschosse vom Treppenhaus
 abgetrennt sind, wird die innenliegende Halle und damit fast alle Erschliessungsflaechen
 nutzbar.» (S. 21) — und kam als Gebaeude mittlerer Hoehe mit unter 900 m2 Geschossflaeche
-sogar «mit nur einem vertikalen Fluchtweg aus» (S. 21). **Regel: Der regulatorische
-Kunstgriff schafft die Erlaubnis, die Flaeche zu bespielen; den Punkt gibt es erst fuer die
-Nutzungen, die dann wirklich darin liegen.** Ein zweites Treppenhaus ohne angrenzendes
-Programm ist bezahlte Flaeche ohne Ertrag.
+sogar «mit nur einem vertikalen Fluchtweg aus» (S. 21). **Arbeitshypothese (Einzelverfahren,
+n=1): Der regulatorische Kunstgriff schafft die Erlaubnis, die Flaeche zu bespielen; den
+Punkt gibt es erst fuer die Nutzungen, die dann wirklich darin liegen.** Ein zweites
+Treppenhaus ohne angrenzendes Programm ist bezahlte Flaeche ohne Ertrag. Beleglage: ein
+Direktvergleich eigener Beitrag gegen Sieger **innerhalb desselben Verfahrens** (2102). Der
+Zelgli-Schlieren-Beleg in S4 stuetzt einen verwandten, aber nicht identischen Mechanismus
+(dort wurde der Kunstgriff honoriert) und kann die Hypothese daher nicht unabhaengig
+bestaetigen. Bei der naechsten Schulbau-Quelle mit Hallentypologie gezielt gegenzupruefen.
 
 **Schaerfung zu S7 — die Unterscheidung Fussabdruck gegen Volumenkennwert ist keine
 Feinheit, sie ist die Bruchlinie innerhalb eines einzigen Projekts.** Die Wuerdigung von
@@ -473,22 +496,26 @@ auf. Die hohen Kennwerte zeigen sich auch in den vergleichsweise hohen Kosten.»
 S. 39). Die Jury benennt die Ursache selbst: «Die Doppelsporthalle ist zu Zweidrittel in den
 Boden versenkt … Dies fuehrt zwar zu einem kleinen oberirdischen Volumen, das aber einen
 grossen unterirdischen Fussabdruck aufweist.» (S. 39) **Regel: Ein kompakter oberirdischer
-Fussabdruck rechtfertigt nie die Behauptung «kompakt», solange GF und GV im Feld an der
-Spitze liegen. Beide Groessen sind vor Abgabe gegen das Feld zu schaetzen, nicht nur die
-eigene.** Der Sieger lag «im Bereich des Mittelfeldes knapp unter dem Mittelwert» (S. 21) —
+Fussabdruck traegt die Behauptung «kompakt» nicht, solange GF und GV im Feld an der Spitze
+liegen. Beide Groessen sind vor Abgabe gegen das Feld zu schaetzen, nicht nur die eigene.**
+Diese Regel steht nicht auf 2102 allein: die Fussabdruck-gegen-Volumen-Unterscheidung ist in
+Abschnitt 3, Punkt 7 bereits ueber Baetterkinden unabhaengig belegt. 2102 liefert hier den
+Fall, in dem beide Seiten der Unterscheidung **im selben Projekt** auftreten. Der Sieger lag «im Bereich des Mittelfeldes knapp unter dem Mittelwert» (S. 21) —
 und wurde fuer seinen Footprint sogar geruegt («ein eher grosser Footprint», S. 21). Er
 gewann trotz schlechterem Fussabdruck, weil die Gesamtkennwerte stimmten.
 
 **Schaerfung zu S9/S3 — das Kompensationsmittel muss ueberall dort liegen, wo die Ursache
 liegt.** In 2206 erzeugte das umlaufende Vordach denselben Effekt an zwei Orten, wurde aber
-nur an einem kompensiert: gelobt als «guter baulicher Sonnenschutz», gefolgt von «Die
-Belichtung der Lernlandschaft bleibt durch das grosse Oblicht trotzdem gewaehrleistet»
-(S. 29) — und zugleich kritisiert, «weil der an sich gute ueberdeckte Vorbereich die
-natuerliche Belichtung im hinteren Bereich einschraenken duerfte» beim oestlichen
-Kindergarten (S. 28). **Das Oblicht als Gegenmittel war im Projekt vorhanden, nur nicht dort,
-wo der zweite Schatten entstand.** Regel: Wird ein verschattendes Element umlaufend
-eingesetzt, ist die Tageslicht-Kompensation an **jedem** dahinterliegenden Hauptraum
-nachzuweisen, nicht nur am Vorzeigeraum.
+nur an einem kompensiert: gelobt mit «Er bietet einen guten baulichen Sonnenschutz und eine
+gute Verschattung der Fassaden», gefolgt von «Die Belichtung der Lernlandschaft bleibt durch
+das grosse Oblicht trotzdem gewährleistet» (beide S. 29) — und zugleich kritisiert, «weil der
+an sich gute überdeckte Vorbereich die natürliche Belichtung im hinteren Bereich einschränken
+dürfte» beim östlichen Kindergarten (S. 28). **Das Oblicht als Gegenmittel war im Projekt
+vorhanden, nur nicht dort, wo der zweite Schatten entstand.** **Arbeitshypothese
+(Einzelverfahren, n=1):** Wird ein verschattendes Element umlaufend eingesetzt, ist die
+Tageslicht-Kompensation an jedem dahinterliegenden Hauptraum nachzuweisen, nicht nur am
+Vorzeigeraum. Anders als die S7-Regel hat dieser Punkt **keinen zweiten, unabhaengigen
+Verfahrensbeleg** — er bleibt Hypothese, bis eine weitere Quelle ihn stuetzt.
 
 ### 7.4 Zwei Kandidaten fuer eigenstaendige Argumente (noch nicht in S1–S12)
 

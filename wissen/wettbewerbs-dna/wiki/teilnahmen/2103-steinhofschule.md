@@ -175,6 +175,45 @@ links: [[delta-zum-ersten-rang]]
   und baukulturelle Qualität gewertet, inklusive «Erinnerungswert an die bestehende
   Schule» (Jurybericht S. 23).
 
+## 4b. Nachtrag Rückkopplung V2 (13.08.2026, Etappe 4, Lauf 02)
+
+Geprüft gegen die zwölf Siegargumente in [[muster/jury-argumente-schulbauten]], Abschnitt 7.
+
+**Der stärkste Einzelbefund: die Investitionszielkosten waren an den Turnhallen-Erhalt
+geknüpft.** Wörtlich: «Die Investitionszielkosten für die baulichen Interventionen (inkl.
+Wettbewerb, Planung und Projektierung) betragen total 9,3 Mio. Franken (+/– 25 %), unter der
+Voraussetzung, dass die bestehende Turnhalle erhalten bleibt und entsprechend saniert und
+ertüchtigt wird.» (Jurybericht S. 6). JANS trat mit vollständigem Ersatzneubau und
+gestapelter Halle an. Der Sieger «Gigelisuppe» machte die Gegenposition zum ausdrücklichen
+Verkaufsargument: «Der Erhalt der bestehenden Turnhalle wird umfassend als Vorteil genutzt.»
+(S. 23)
+
+**Wichtige Einschränkung, die diesen Befund nicht überdehnt:** Die Grundsatzfrage war formal
+offen, und die Jury betont das selbst — dank «der ausgewogenen Anzahl an eingereichten
+Projekten, welche die Turnhalle erhalten oder eben ersetzen», sei ein «fundierter Entscheid
+in dieser Grundsatzfrage» möglich gewesen (S. 15). **Ein Kausalzusammenhang zwischen
+Ersatzneubau und Rückstufung ist nicht belegt** und aus diesem Bericht auch nicht belegbar
+(siehe unten). Belegt ist allein: formal offen, budgetär auf Erhalt konditioniert.
+
+**Die Quellengrenze, die jede weitere Aussage verbietet:** Der Bericht widmet Nr. 9 genau
+einen wertenden Satz — «Dabei erkannte das Preisgericht, dass das Projekt Nr. 9 Patio in
+Nobile im Vergleich mit den übrigen Projekten der engeren Wahl nicht ebenbürtige Qualitäten
+aufweist. Es wurde deshalb in den dritten Rundgang zurückgestuft.» (S. 13) — und führt es
+danach nur noch mit Teamblatt unter den Projekten des dritten Rundgangs (S. 81). **Es gibt
+keinen Projektbeschrieb zu Nr. 9.** Die V2-Prüfung konnte deshalb fast durchgehend nur die
+eigene Abgabe bewerten, nicht das Jury-Urteil. Das bestätigt den bereits am 13.07.2026
+festgehaltenen Befund, dass die Rückstufungsgründe nicht rekonstruierbar sind.
+
+**Nicht bediente Programmvorgabe:** Das Programm setzt «Kindergerechte Materialien, Farben
+und Atmosphären, welche vor allem stetes aktives Gestalten unterstützen» voraus (Ziff. 1.2.1,
+S. 5). Der einseitige Erläuterungstext beantwortet das nicht; «Kind» kommt darin genau einmal
+vor, rein funktional («Kinder halten sich dort keine auf»). Gerügt wurde es nicht — belegbar
+ist nur die Lücke, nicht ihre Wirkung.
+
+**Verlauf im Verfahren, lückenlos belegt:** Nr. 9 überstand den ersten und zweiten
+Beurteilungsrundgang, gehörte zu den sechs Projekten der engeren Wahl (S. 13), durchlief die
+vertiefte Vorprüfung und wurde erst im finalen Rundgang zurückgestuft.
+
 ## 5. Lessons / DNA
 
 - **Grundsatzfragen des Programms zuerst entscheiden:** Wenn das Programm eine
