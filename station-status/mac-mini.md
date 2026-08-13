@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 07:11:21
+Stand: 13.08.2026 07:21:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 13.08.2026 07:11:21
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 08af862f nas-selfcommit: 5 Datei(en) 2026-08-13 07:00
+- 979a0742 vollgas-fruehwarnung 13.08. 07:15: STILL, kein Meldegrund — zweiter Lauf des Tages, alle sieben Kriterien negativ; Blockade-Status FREI, Radar-Herzschlag 5.4 h, logbuch-radar 07:01 mit Deliverable; Stueckkosten 0.21 Mio je Artikel (bester Wert der Reihe); Befund fuer den Radar: Delta-Null-Erkennung Kennzahl (c) seit 03.08. ohne Datenbasis, weil der Destillat-Loop keine outputs-Reports mehr schreibt
