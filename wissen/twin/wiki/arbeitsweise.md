@@ -2617,3 +2617,39 @@ Jeder Punkt trägt stattdessen seine **Quellenzuordnung in Klammern**, und zwar 
 Anforderers**, nicht den Sachinhalt: die Beweislast bleibt bei dem, der die Anforderung gestellt
 hat. Der Zwilling formulierte die Stichwortzeilen zu Fragen aus und hängte einen
 Terminkritisch-Satz an — er erklärt, wo Raphael nur zuordnet.
+
+## Mailbatch 92 (20.–27.05.2026)
+
+- **Die Ja-Zusage mit Vorbehaltsliste: zusagen, Risiko benennen, Verantwortung zuordnen — in
+  sechs Zeilen.** Auf die dringliche Bitte des Bauherrn um Rückbaupläne bis Freitag (Rückbau
+  beginnt am Samstag) antwortet Raphael zuerst **«Ja, ich kann Dir diese Pläne zustellen.»**,
+  dann «**Bitte Bedenke:**» und fünf Bindestrich-Bullets, die vom Sachstand zur Haftung
+  absteigen: Bauentscheid liegt nicht vor · Brandschutzbestimmungen nicht fixiert · offene Fragen
+  (Reduit/WC) · Abbrüche im Reduit sollen zuwarten · «**Abbrüche diesbezüglich gehen auf
+  Eigenverantwortung Bauherrschaft**». Kein «aber», kein Konjunktiv, keine Verweigerung: die
+  Leistung wird geliefert und der Preis des Vorpreschens im letzten Bullet **beziffert als
+  Verantwortungsübergang**. Operationalisierbar: **Zusage in Satz 1, Vorbehalte als Liste,
+  Haftungszuordnung als letzter Punkt** — nie als Vorbedingung vorangestellt. Quelle:
+  27.05.2026, authentisch.
+- **Anbieteranfrage als nummerierte Entscheidungsfragen, nicht als Leistungsbeschrieb.** Eine
+  Anfrage an einen Türenhersteller gliedert sich in «**Frage 1:**» und «**Frage 2:**» (fett), je
+  gefolgt von BKP-Position, Raumliste mit EI-Klassen und einer geschlossenen Ja/Nein-Frage
+  («Wollen Sie für folgende Türen uns ein Angebot unterbreiten?» · «Können Sie … anbieten und
+  die Systemgarantie … übernehmen?»). Die vier Beilagen stehen **als nackte Dateinamen-Zeilen**
+  vor der ersten Frage. Ergänzt das belegte Muster «Themen-Header in Kurzmails» (Batch 22) um
+  die Anbieter-Gattung: der Hersteller soll nicht offerieren, sondern **zuerst zwei Fragen
+  beantworten**. Quelle: 20.05.2026, authentisch.
+- **Nachhaken beim Säumigen: Empathie-Vorspann, dann die Bitte, dann der Termin — drei Sätze,
+  kein Vorwurf.** «**Ich weiss Sie sind voll mit Sitzungen. / Jedoch Bitte ich Sie uns die Pläne
+  zuzustellen. / Gut wäre diese heute vorliegen zu haben.**» Die Entschuldigung des anderen wird
+  **vorweggenommen und ihm abgenommen**, bevor die Forderung kommt; der Termin steht als
+  Wunschform («Gut wäre») statt als Frist. Dritte Stufe desselben Fadens (18.05. sachliche Bitte
+  → 21.05. dieser Vorspann), ohne dass der Ton kippt — vgl. die Mahnkette Batch 91, wo nicht der
+  Ton, sondern der Adressat wechselt. Quelle: 21.05.2026, authentisch.
+- **Bei der Weiterreichung wird die eigene Bitte WORTGLEICH wiederholt, nicht neu formuliert.**
+  Nachdem der Erstkontakt an einen Kollegen verweist, geht an diesen derselbe Satz, den der
+  Erstkontakt bekommen hatte («Könnten Sie mich zurückrufen um einen für Sie geeigneten
+  Besichtigungstermin der Liegenschaft … gemeinsam zu vereinbaren?»), plus der **Kontaktblock
+  ein zweites Mal im Fliesstext**, obwohl die Signatur direkt darunter dieselben Angaben trägt.
+  Redundanz zugunsten der Erreichbarkeit; die Kette bleibt für alle Mitlesenden (Erstkontakt und
+  Investor im Cc) wörtlich nachvollziehbar. Quelle: 22.05.2026, authentisch.

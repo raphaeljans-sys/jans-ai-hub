@@ -4,6 +4,43 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 13.08.2026 — twin-mail-training Batch 92: 20.–27.05.2026, siebte Echo-Falle, Satzlängen-Frage geschlossen
+
+Fenster `rj@` **20.–27.05.2026** (43 Sent Items). Echte Lücke war der **20.05. ganztags** (Batch 46
+hatte erst um 14:05 begonnen) plus sechs Einzelmails. **9 Volltexte gelesen: 6 Gold, 1
+Korrektur-Delta, 1 harter Echo-Ausschluss, 1 Verdacht ohne Urteil.**
+
+**Siebte Echo-Falle in `CLAUDE.md`: die vierte Falle mit vertauschten Rollen.** Die Investorenmail
+vom 21.05. ist Claude-Grundtext (`Anthropic Sans`), in den Raphael vor dem Versand mit «`- `» drei
+eigene Entscheide hineingetippt hat («- ok machen wir.»). Das ist **`korrektur-delta` (SILBER),
+nicht Echo** — und zeigt, wo der Zwilling danebenliegt: er stellt Rückfragen, wo Raphael
+entscheidet und anweist. Nebenbefund: Em-Strich und Bindestrich stehen im **selben Absatz**
+nebeneinander, von zwei Händen — der sauberste bisherige Beleg des En-/Em-Strich-Tells. Der
+Bolon-/LOS_281.20-Faden ist damit vollständig als Claude-Text belegt.
+
+**Frage 260813 #1 (Satzlänge) beantwortet, und zwar gegen die eigene Vermutung.** Vermutet war ein
+Gattungseffekt des KISPI-Projekts; gemessen wurden im **selben Projekt und Folgefenster** ø **13.2 W**
+über 277 W eigener Hand — mitten im Korpusband 11.9–14.3, gegen 16.5/17.6 W in Batch 90/91. Die
+Satzlänge hängt an der Hand, nicht am Projekt; die Ausreisser sind mutmasslich nicht erkannter
+KI-Rest. Das Zielband bleibt. Offener Kehrschluss: Batch 90/91 nachprüfen, sie entstanden vor dem
+mechanischen Grep.
+
+**Neue Marker (16 in 5 Facetten):** [[arbeitsweise]] Ja-Zusage mit Vorbehaltsliste und
+Haftungszuordnung im letzten Bullet · Anbieteranfrage als «Frage 1:/Frage 2:» · Nachhaken mit
+Empathie-Vorspann · wortgleiche Bitte bei der Weiterreichung. [[fachsignatur]] Systemgarantie fürs
+ganze Bauteil (Erstbeleg) · Türsignatur «Raum; EI-Klasse-Typ» mit explizitem EI00 · vier
+Rückbau-Vorbehalte in Verfahrensreihenfolge. [[stimme]] «Grüezi» als Dank-Stufe im Anbieter-Sie ·
+«Herzliche Grüsse» als dritte Doppel-Sign-off-Variante · «Sehr geehrter Herr X.» mit Punkt · Metrik.
+[[beziehungsregister]] Anrede-Erwärmung nach Lieferung · vier Sie-Mappings (Tobler/Schaad,
+Oberholzer, Gomes/Fisch, Grob). [[haltung]] zusagen und trotzdem die Verantwortung zuordnen.
+
+**Widersprüche markiert statt geglättet:** «Herzliche Grüsse» an einem Dreizeiler widerspricht der
+Gewichts-These ([[stimme]] 328) und stützt die Spiegelungs-These → QUESTIONS #4. Ein Verdachtstext
+(27.05. 08:25) mit Claude-Absatz-Skelett aber ohne CSS-Farbe wurde **weder als Gold verbucht noch
+als Echo verurteilt** → QUESTIONS #2. **Empfehlung nächster Lauf:** sequenziell 28.05.–05.06., aber
+methodisch vorrangig ein Sweep nach «`- `»-Einschüben in Claude-CSS-Mails — die dichteste bisher
+gefundene Korrektur-Delta-Quelle, bisher pauschal als Echo ausgeschlossen.
+
 ## 13.08.2026 — twin-fidelity-review: Gruss-Default umgedreht, Echo-Detektor mechanisch, Fidelity 42
 
 Fenster `rj@` **14.–19.05.2026** (26 Sent Items, 10 durch Batch 45 gelesen). Die seit Fidelity

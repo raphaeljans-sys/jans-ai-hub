@@ -3420,3 +3420,42 @@ Textexport). Gegenprobe an einem Fenster ausserhalb des KISPI-Projekts offen ([[
 - **Die Bitt-Reflex-Verbgrossschreibung ist heute erneut belegt** («Darf ich Sie **Bitten** … zu
   **Bestätigen**», «Könntest Du **Bitte Intern** prüfen»). Sie bleibt **Echtheitszeichen, nicht
   Nachahmungsziel** — der Zwilling schreibt korrekt klein (Regel unverändert seit Batch 45).
+
+## Mailbatch 92 (20.–27.05.2026, Lücke 20.05. ganztags + Einzelmails 21./27.05.)
+
+- **«Grüezi Herr <Nachname>» wandert vom Service-Schalter zum Anbieter — und zwar als Erwärmung
+  IM SELBEN FADEN.** Derselbe Kalkulator einer Innenausbaufirma wird am 18.05. mit «**Sehr
+  geehrter Herr Grob**, geschätzter Herr Arter» angeschrieben (Submissionsunterlagen, zwei
+  Honorifika in einer Anrede, Batch 29), zwei Tage später nach Eingang des Angebots mit «**Grüezi
+  Herr Grob**». Das Wiki führte «Grüezi» bisher als **Service-/Datenstellen-Opener**
+  ([[beziehungsregister]] Zeilen 31/62) und als etwas, das Raphael selbst dann **nicht** spiegelt,
+  wenn er so angeschrieben wird (Frick, 05.09.2025). Neu belegt ist die dritte Verwendung:
+  **Grüezi als eine Stufe Wärme im Anbieter-Sie, sobald der Anbieter geliefert hat** — nicht
+  Kälte, nicht Service, sondern Dank. Quelle: 20.05.2026, authentisch.
+- **«Herzliche Grüsse Raphael» vor dem vollen Signaturblock — dritte Variante des Doppel-Sign-offs
+  und ein Widerspruch zur bisherigen Bedingung.** Nach «Gruss, Raphael» (Batch 45) und «Liebe
+  Grüsse Raphael» (Batch 46) steht hier «**Herzliche Grüsse / Raphael**» im Fliesstext, danach
+  wie immer der «Freundliche Grüsse RAPHAEL JANS…»-Block. **Widerspruch, nicht geglättet:**
+  [[stimme]] 328 führt «Herzliche Grüsse» als Gruss der **warm-liefernden, gehaltvollen**
+  Investor-/Stammkunden-Du-Mail (Angerer-Studienlieferung). Hier trägt ihn ein **Dreizeiler** an
+  den Betreiber-Du, der nur eine Excel-Zusammenstellung durchgesehen haben will. Der Gruss ist
+  ausserdem **gespiegelt**: derselbe Empfänger schreibt sechs Tage später selbst «Lieber Raphael
+  … Herzliche Grüsse». Damit hängt «Herzliche Grüsse» womöglich nicht am Gewicht der Mail,
+  sondern am Gruss-Register des Gegenübers → [[QUESTIONS]] 260813 #4. Quelle: 21.05.2026,
+  authentisch.
+- **«Sehr geehrter Herr <Nachname>.» mit Punkt statt Komma.** Die kälteste Sie-Anrede schliesst
+  mit einem **Punkt** ab («Sehr geehrter Herr Gomes.»), nicht mit Komma und nicht ohne Zeichen.
+  Reiht sich in die belegte Punkt-nach-Anrede-Reihe («Hoi Albin.», Batch 15) und zeigt, dass der
+  Punkt registerunabhängig auftritt — er ist Tippgewohnheit, nicht Tonfall. Quelle: 22.05.2026,
+  authentisch (dieselbe Mail trägt den Grammatikfehler «ein schöne Wochenende»).
+- **Bestätigt, kein neuer Marker:** die Bitt-Reflex-Verbgrossschreibung ist in diesem Fenster
+  vierfach belegt («Jedoch **B**itte ich Sie», «Bitte **B**edenke:», «Darf ich Sie **B**itten»,
+  «Gerne unterbreite **I**ch Ihr Angebot») — weiterhin **Echtheitszeichen, nicht
+  Nachahmungsziel**.
+- **Mikro-Metrik Batch 92** (277 W über `stilmetrik.py`, 6 handgetippte Eigentexte ohne
+  Signaturen/Zitate): Du-Gross-Quote **1.0**; Tausender-Apostroph 0; Ellipsen 0; «%» kam nicht
+  vor; Satzlänge ø **13.2 W**; Grüsse «Freundliche Grüsse» 5× (dazu «Herzliche Grüsse» 1×, vom
+  Regex nicht erfasst); Anreden «Hoi Albin» / «Lieber Albin» / «Geschätzter Herr» / «Sehr
+  geehrter Herr» / «Guten Tag Herr» / «Grüezi Herr» je 1×. **Echo-Gegenprobe: En-/Em-Strich 0 in
+  277 W eigener Hand** gegen 4 Vorkommen in den zwei verworfenen Texten. Quelle: 20.–27.05.2026,
+  authentisch.

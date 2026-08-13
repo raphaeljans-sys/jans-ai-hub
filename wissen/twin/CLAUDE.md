@@ -166,6 +166,36 @@ Der Grep läuft auf dem **HTML-Body** (`body.content`), nicht auf `bodyPreview` 
 reiner Text und zeigt keines der drei Muster. Wer über Apple Mail / osascript destilliert, sieht
 sie ebenfalls nicht und muss bei den weichen Signalen bleiben.
 
+**Siebte Falle, neu 13.08.2026 (Batch 92) — die vierte Falle mit VERTAUSCHTEN Rollen: Raphael ist
+die zweite Hand IM Claude-Text, und das ist Korrektur-Delta, kein Echo.** Die vierte Falle
+(«zwei Hände in einem Dokument») ging bisher davon aus, dass der Fremdtext das Sauberere ist —
+Fachplaner (04.08.), später Claude (Batch 91). Die Mail vom 21.05.2026 13:56 an den Investor dreht
+das um: der **Grundtext ist Claude** (`Anthropic Sans` + `rgb(253,253,252)` + Em-Strich), und
+Raphael hat vor dem Versand **hinter drei Claude-Sätze seine eigenen Entscheide getippt**, jeweils
+eingeleitet mit «`- `»:
+
+| Claude-Satz (Rückfrage) | Raphaels Einschub |
+|---|---|
+| «… Fenster und Sonnenschutz **—** sollen wir diese mitabklären oder bewusst aussen vor lassen?» | «`- ok machen wir.`» |
+| «Idealerweise organisierst du mir einen Termin, an dem das komplette Haus leer ist.» | «`- Bitte Kaspar Eisenhut Kontakt senden`» |
+| «… und werte die Unternehmer-Offerten entsprechend aus.» | «`- wir machen den Besichtigugnstermin mit möglichst vielen Apartments + Benennung in Offerte je Apartment mit Nummer was gemacht wird.`» |
+
+Drei Konsequenzen, alle verbindlich:
+
+1. **Die Einschübe sind `korrektur-delta` (SILBER), nicht `claude-aera`.** Sie zeigen genau das,
+   was die Gewichtung als zweitstärkstes Signal führt: wo der Zwilling danebenlag. Hier lag er
+   **in der Sprechhandlung** daneben — er stellt Rückfragen, wo Raphael **entscheidet** und
+   **anweist**. «ok machen wir» ist keine Antwort auf die Frage, es ist ihre Ersetzung.
+2. **Em-Strich und Bindestrich stehen im SELBEN ABSATZ nebeneinander.** Claude «—», Raphael «`- `».
+   Das ist der sauberste Beleg für den seit Batch 27/28 geführten En-/Em-Strich-Tell: kein
+   Korpusvergleich, kein Tagesfenster, sondern zwei Zeichen in einer Zeile, von zwei Händen.
+3. **Weder ganz Gold noch ganz Echo verbuchen** — die Regel der vierten Falle gilt unverändert,
+   nur ist die Fehlerdichte hier **umgekehrt** verteilt: der Tippfehler («Besichtigugnstermin»),
+   das «+» als Konjunktion und die fehlende Interpunktion markieren **Raphaels** Anteil.
+
+Erkennungsregel für die Gattung: **ein «`- `» mitten im Fliesstext, direkt hinter einem
+vollständigen Satz** ist in einer Mail mit Claude-CSS immer ein Raphael-Einschub, nie eine Liste.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

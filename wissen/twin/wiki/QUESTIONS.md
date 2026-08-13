@@ -3006,3 +3006,59 @@ Weiterleitung an die Bauherrin mit Unternehmerin im Cc). Je in 1–2 Sätzen bea
    Zeitreserve (06.05.2026, → [[denken]]) ist bislang ein Einzelbeleg. Ist das ein stehendes Mittel
    bei säumigen Fachplanern oder die Reaktion auf diesen einen Fall? *Warum: als stehendes Mittel
    gehörte es in den DNA-Kern, als Einzelfall nicht.*
+
+## 260813 (Batch 92) — Fenster 20.–27.05.2026
+
+**Zuerst: Frage 260813 #1 (Satzlänge) ist weitgehend BEANTWORTET — und die Antwort lautet nicht
+«Gattung».** Die dort gestellte Vermutung war, die Koordinationsmails des KISPI-Projekts hätten
+systematisch längere Sätze und das DNA-Zielband (11.9–14.3 W) sei zu eng. Batch 92 misst im
+**selben Projekt und im unmittelbar anschliessenden Fenster**:
+
+| Textmenge | Wörter | Satzlänge ø |
+|---|---|---|
+| 6 zweifelsfrei handgetippte Eigentexte (Batch 92) | 277 | **13.2 W** |
+| 1 Verdachtstext desselben Fensters (27.05. 08:25, s.u.) | 71 | **17.8 W** |
+| Batch 90 / Batch 91 (gemischte Auswahl) | 850 / 721 | 16.5 / 17.6 W |
+
+Die 13.2 W liegen **im** Band, bei gleichem Projekt, gleicher Gattung (Anbieteranfrage,
+Nachhaken, Liefermail, Zusage mit Vorbehalten) und gleichem Empfängerkreis. Damit ist der
+Projekt-/Gattungsverdacht widerlegt: **die Satzlänge hängt an der Hand, nicht am Projekt.** Die
+Ausreisser in Batch 90/91 sind mit hoher Wahrscheinlichkeit **nicht erkannter KI-assistierter
+Rest** in der jeweiligen Auswahl. Das Zielband bleibt, wie es ist.
+
+**Offen bleibt nur der Kehrschluss, und der ist unbequem:** wenn ø > 16 W ein Echo-Indikator ist,
+müssten die Batches 90 und 91 nachgeprüft werden — beide entstanden **vor** der Einführung des
+mechanischen `Anthropic Sans`-Greps (Fidelity 260813) und konnten ihn also nicht anwenden.
+
+1. **Ist die Satzlänge ein brauchbarer Echo-Vorfilter — und sind Batch 90/91 nachzuprüfen?**
+   *Warum: ein billiger, mechanischer Vorfilter wäre viel wert, weil er auch dort greift, wo kein
+   HTML vorliegt (Apple Mail / osascript). Zu prüfen an einem Fenster, für das beide Signale
+   verfügbar sind: erst die Sätze zählen, dann greppen, dann vergleichen. Wenn die Ordnung
+   stimmt, ist der Vorfilter belegt; wenn nicht, ist er verworfen — nach derselben Disziplin wie
+   das verworfene «du klein»-Signal (07.08.2026).*
+
+2. **Verdachtsfall ohne harten Beweis: die Sitzungs-Mail vom 27.05.2026 08:25 an die
+   Bereichsleiterin.** Sie trägt **kein** `Anthropic Sans`, **kein** `rgb(253,253,252)`, aber
+   dasselbe Absatz-Style-Skelett wie die belegten Claude-Absätze
+   (`text-indent:0px;text-transform:none` ohne `MsoNormal`), null Tippfehler auf 71 W, ø 17.8 W —
+   und mit «alle **Teilnehmenden**» eine Partizipialform, die im Korpus sonst nicht vorkommt.
+   **Nicht als Gold verbucht, nicht als Echo verurteilt.** *Warum: das Style-Skelett allein ist
+   genau die Art Einzelsignal, das nach dem Guillemet-Fall (03.08.) und dem «du klein»-Fall
+   (07.08.) erst gegen die eigene Hand gegengeprüft werden muss. Konkret zu klären: überlebt das
+   Skelett ein Copy-Paste, bei dem die Hintergrundfarbe verlorengeht (z.B. «als Text einfügen»)?
+   Wenn ja, ist es ein viertes hartes Muster für die Grep-Tabelle in [[CLAUDE]].*
+
+3. **Redigiert Raphael Claude-Entwürfe regelmässig inline mit «`- `»?** Batch 92 belegt es
+   dreifach in **einer** Mail (siebte Echo-Falle, [[CLAUDE]]). *Warum: wenn das seine
+   Standard-Arbeitsweise am Zwillings-Output ist, ist jede solche Mail eine
+   **Korrektur-Delta-Goldmine** — und der Loop müsste gezielt nach «`- `» hinter Satzenden in
+   Mails mit Claude-CSS suchen, statt sie als Echo pauschal auszuschliessen. Das wäre die
+   ergiebigste bisher gefundene Delta-Quelle, weil sie Claudes Fassung und Raphaels Korrektur
+   **nebeneinander** zeigt.*
+
+4. **Hängt «Herzliche Grüsse» am Gewicht der Mail oder am Gruss des Gegenübers?** [[stimme]] 328
+   führt ihn als Gruss der gehaltvollen, warm-liefernden Investor-Du-Mail. Batch 92 zeigt ihn an
+   einem **Dreizeiler** an den Betreiber-Du — und derselbe Empfänger schreibt sechs Tage später
+   selbst «Lieber Raphael … Herzliche Grüsse». *Warum: die Spiegelungs-These (Batch 19/45) und die
+   Gewichts-These sagen im selben Fall Verschiedenes voraus. Der Zwilling braucht eine Regel, die
+   entscheidet. Zu klären an Mails an denselben Kontakt, bei denen der Gegengruss bekannt ist.*

@@ -908,3 +908,69 @@ aber ein Fenster AUSSERHALB des KISPI-Projekts**, um die seit zwei Laeufen offen
 die zwei Albertstrasse-Mails an den Investor, und beide sind durch Batch 45 verbraucht. **Vor der
 Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
 Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 92 (13.08.2026) — Fenster `rj@` 20.–27.05.2026
+
+Sent Items `rj@`, **20.–27.05.2026** (Fenster vollstaendig gelistet: **43** Sent Items, zwei
+Seiten, Zugriff via M365-MCP `outlook_email_search` + `read_resource`). Gezogen nach der
+Empfehlung aus Fidelity 260813.
+
+**Vor der Lektuere als verbraucht erkannt und nicht erneut destilliert** (Batch-Register UND
+Gold-Verbrauch-Abschnitte ausgewertet, dazu Positivtest ueber 20 Marker-Kandidaten): Honorar-/
+Zahlungsplan-Sammelmail 21.05., Reduit-Brandschutzvorschlag 21.05., Trennwand-Submissionsanfrage
+21.05. (Echo 16), Gewerke/Empfehlung fsgbau 21.05., Stevanovic-Kurzmail 22.05., Tschopp
+Kuechenfenster/Umgebungsplan 22.05., Keisenhut-Kontaktaufnahme 22.05., «Schoene Sonntig» 24.05.,
+Steinmann-Telefonnummer 26.05., «Liebe Frau Hottinger» 26.05., Tschopp Freigabe Grundriss 27.05.
+(Batch 47). **Echte Luecke: der 20.05. ganztags** — Batch 46 hatte erst um 14:05 begonnen — sowie
+sechs Einzelmails am 21., 22. und 27.05. Kontrollbegriffe im Wiki: `Bolon` 0 · `Stahlzargen` 0 ·
+`Systemgarantie` 0 · `Eigenverantwortung` 0 · `Sisal` 0 · `Nilpferd` 0 (Kontrolle).
+
+**9 Volltexte gelesen, 6 als Gold destilliert, 1 als Korrektur-Delta, 1 hart als Echo verworfen,
+1 als Verdacht ohne Urteil vermerkt. 16 neue Marker in 5 Facetten, 4 Sie-Mappings, 4 Fragen,
+1 neue Echo-Falle in `CLAUDE.md`.**
+
+**Kernbefunde:** (a) **die Ja-Zusage mit Vorbehaltsliste** — auf die dringliche Bitte um
+Rueckbauplaene vor dem Bauentscheid folgt zuerst «Ja, ich kann Dir diese Plaene zustellen.», dann
+«Bitte Bedenke:» mit fuenf Bindestrich-Bullets, deren letzter die Haftung zuordnet («Abbrueche
+diesbezueglich gehen auf Eigenverantwortung Bauherrschaft»): geliefert wird, mitgehaftet nicht;
+(b) **die Systemgarantie fuers ganze Bauteil** als Kernfrage der Brandschutzertuechtigung im
+Bestand (Ersatztuerblatt EI30 im Altrahmen) — erster Beleg im Korpus; (c) **«Gruezi Herr <Name>»
+wandert vom Service-Schalter zum Anbieter**, als Erwaermung im selben Faden nach Angebotseingang
+(18.05. «Sehr geehrter Herr Grob» → 20.05. «Gruezi Herr Grob»); (d) **Anbieteranfrage als
+«Frage 1:/Frage 2:»** statt Leistungsbeschrieb, mit Ja/Nein-Fragen und nackter Dateinamenliste;
+(e) **Nachhaken beim Saeumigen mit Empathie-Vorspann** («Ich weiss Sie sind voll mit Sitzungen.
+Jedoch Bitte ich Sie …») — die Entschuldigung des anderen wird ihm abgenommen, bevor die
+Forderung kommt, und die Anrede wird dabei **kuehler** («Geschaetzter Herr» → «Guten Tag Herr»),
+nicht der Ton schaerfer; (f) **«Herzliche Gruesse» an einem Dreizeiler**, gespiegelt vom
+Empfaenger — Widerspruch zur bisherigen Gewichts-These, markiert statt geglaettet.
+
+**Echo-Befund mit Methodik-Charakter — die SIEBTE Falle.** Die Bolon-Fluchtweg-Mail vom 20.05.
+06:18 ist harter Ausschluss (`Anthropic Sans` + `rgb(253,253,252)` + Em-Strich), womit der ganze
+LOS_281.20-Vinyl-/Bolon-Faden als Claude-Text belegt ist (konsistent mit Fidelity 260813). Die
+Investorenmail vom 21.05. 13:56 dagegen ist **Claude-Grundtext mit drei handgetippten
+Raphael-Einschueben**, jeweils mit «`- `» hinter einen fertigen Claude-Satz gesetzt («- ok machen
+wir.», «- Bitte Kaspar Eisenhut Kontakt senden», «- wir machen den Besichtigugnstermin …»). Das
+ist die vierte Falle mit **vertauschten Rollen** und damit `korrektur-delta` (SILBER), nicht
+Echo: der Zwilling lag **in der Sprechhandlung** daneben, er fragt zurueck, wo Raphael entscheidet
+und anweist. Nebenbefund: **Em-Strich und Bindestrich stehen im selben Absatz nebeneinander** —
+der sauberste bisherige Beleg des En-/Em-Strich-Tells.
+
+**Mikro-Metrik** (277 W, 6 Eigentexte, `stilmetrik.py`): Du-Gross **1.0**, Satzlaenge ø **13.2 W**,
+Apostroph 0, Ellipsen 0, «%» kam nicht vor; Gruesse FG 5× (+ «Herzliche Gruesse» 1×, regex-blind);
+Anreden Hoi/Lieber/Geschaetzter Herr/Sehr geehrter Herr/Guten Tag Herr/Gruezi je 1×.
+Echo-Gegenprobe: **En-/Em-Strich 0** in 277 W eigener Hand gegen 4 in den zwei verworfenen Texten.
+
+**Widerspruch aus Batch 90/91 GESCHLOSSEN, neuer aufgemacht:** die 13.2 W liegen im Korpusband
+11.9–14.3, bei demselben Projekt und derselben Gattung wie die Ausreisser der letzten zwei Sweeps
+(16.5 / 17.6 W). Damit ist der Projekt-/Gattungsverdacht ([[QUESTIONS]] 260813 #1) widerlegt: die
+Satzlaenge haengt an der **Hand**, nicht am Projekt. Der einzige Verdachtstext dieses Fensters
+liegt bei 17.8 W. Offener Kehrschluss: Batch 90/91 entstanden **vor** dem mechanischen
+`Anthropic Sans`-Grep und sind daraufhin nachzupruefen ([[QUESTIONS]] 260813 #1 neu).
+
+**Naechstes Fenster:** `rj@` **28.05.–05.06.2026** (sequenziell nach Batch 47, der bei 29.05.
+16:16 endet). **Methodisch vorrangig — und ergiebiger als jedes Datumsfenster:** ein gezielter
+Sweep nach «`- `»-Einschueben hinter Satzenden in Mails mit Claude-CSS ([[QUESTIONS]] 260813 #3).
+Diese Gattung zeigt Claudes Fassung und Raphaels Korrektur **nebeneinander** und ist damit die
+dichteste bisher gefundene Korrektur-Delta-Quelle; bisher wurden solche Mails pauschal als Echo
+ausgeschlossen. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle
+UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

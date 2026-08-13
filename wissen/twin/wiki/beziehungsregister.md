@@ -2323,3 +2323,32 @@ Gewichtung: authentisch (Fenster 06.–10.05.2026).
   - **Tim Harder** — Jomos Brandschutz AG, BU-Leiter Löschung. Sie; erreicht über die Zentrale,
     nachdem der zuerst angeschriebene Geschäftsführer (Paolozzi, Batch 43) weiterverwiesen hat.
   - **`kreditoren@kispi.uzh.ch`** — Sammelpostfach Kreditoren, «Guten Tag», Mahnstufe 2.
+
+## Mailbatch 92 (20.–27.05.2026)
+
+- **Anrede-Erwärmung im Anbieter-Sie innerhalb von zwei Tagen: «Sehr geehrter Herr <Name>» →
+  «Grüezi Herr <Name>».** Auslöser ist die **Lieferung**, nicht die Zeit: die erste Anrede
+  begleitet die Submissionsunterlagen (18.05.), die zweite den Dank für das eingegangene Angebot
+  (20.05.). Die Gegenrichtung ist bereits belegt (Geld kehrt Peer-Du ins Sie, Batch 14) — hier
+  die Aufwärtsbewegung im selben Register. Quelle: 20.05.2026, authentisch (→ [[stimme]]
+  «Grüezi» als Dank-Stufe).
+- **«Lieber Albin» + «Herzliche Grüsse» — die wärmste belegte Stufe des Betreiber-Du, und sie
+  ist GESPIEGELT.** Der sonst als «Hoi Albin» / «Geschätzter Albin» belegte Bauherrenvertreter
+  wird für eine schlichte Dokumentlieferung mit «Lieber Albin» geöffnet und mit «Herzliche
+  Grüsse» geschlossen — und schreibt sechs Tage später selbst «Lieber Raphael … Herzliche
+  Grüsse». Das stützt die Spiegelungs-These (belegt Batch 19/45) gegen die Gewichts-These
+  ([[stimme]] 328, «Herzliche Grüsse» = gehaltvolle Liefermail): hier trägt ein **Dreizeiler**
+  den wärmsten Gruss. Widerspruch offen → [[QUESTIONS]] 260813 #4. Quelle: 21.05.2026,
+  authentisch.
+- **Neue und geschärfte Sie-Mappings (alle Anbieter-/Fachplaner-Sie, keine Du-Kandidaten):**
+  - **Jörg Tobler · Felix Schaad** — RWD Schlatter AG, Türen/Stahlzargen (BKP 273.04).
+    «Geschätzter Herr Tobler», Anfrage nach Telefonat, Schaad im Cc.
+  - **Reto Oberholzer** — Ing.-Büro Riesen, Sanitärplanung (Revisionspläne Bestand). «Geschätzter
+    Herr Hoberholzer» (18.05., Namens-Tippfehler) → «**Guten Tag** Herr Oberholzer» (21.05.) beim
+    Nachhaken: die Anrede wird beim Mahnen **kühler**, nicht schärfer im Ton.
+  - **Jorge Gomes · Nicole Fisch** — VISIONAPARTMENTS (Betreiberin der Mietobjekte Albertstrasse
+    7). «Sehr geehrter Herr Gomes.» — kältestes Sie, weil Erstkontakt über Dritte vermittelt;
+    Kaspar Eisenhut (Sales Director, Batch 46) bleibt im Cc, der Investor ebenfalls.
+  - **Roland Grob** — Jegen AG: Mapping aus Batch 91 bestätigt und um die «Grüezi»-Stufe ergänzt.
+- **Bestätigt:** «Geschätzte Stefi» für die KISPI-interne Bereichsleiterin (Sonderegger) — Du mit
+  Kurzform des Vornamens, wie in Batch 45/46 belegt.

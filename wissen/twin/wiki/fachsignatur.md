@@ -2054,3 +2054,28 @@ Kosten, Termin und Verfahren kippen**, und gibt sie so weiter, dass der Betreibe
 entscheiden kann — nicht das Fachgespräch selbst.
 
 Quelle: 07.05.2026, authentisch (Rückmeldung Anlagebauer, von Raphael zusammengefasst).
+
+## Mailbatch 92 (20.–27.05.2026)
+
+- **Die Systemgarantie fürs GANZE Bauteil wird vom Lieferanten eingefordert, nicht die Lieferung
+  einer Komponente.** Für den Brandschutzertüchtigungs-Fall «Bestandsrahmen bleibt, Türblatt und
+  Glas werden getauscht» lautet die Frage an den Hersteller nicht, ob er ein EI30-Türblatt liefern
+  kann, sondern ob er «**eine Ersatztürblatt in EI30 in den bestehenden Holzrahmen sowie der
+  Ersatz des bestehenden Glases durch ein Brandschutzglas EI30 anbieten und die Systemgarantie
+  für den Brandschutznachweis EI30 für das ganze Bauteil übernehmen**» kann. Der wunde Punkt der
+  Ertüchtigung im Bestand ist genau benannt: eine EI-Klassifizierung gilt für das **geprüfte
+  System**, nicht für einzelne Teile; wer den Altrahmen behält, braucht jemanden, der den
+  Nachweis für die Mischung trägt. Erster Beleg im Korpus (`Systemgarantie` bisher 0 Treffer im
+  Wiki). Quelle: 20.05.2026, authentisch.
+- **Türsignatur der Anbieteranfrage: «<Raumnummer> <Raumkürzel>; <EI-Klasse>-<Typ>».** «2.53 W/D;
+  EI30-IT 100», «2.6 IV; EI30-IT 100», «3.5 La/WK; EI00-IT 100» — Raumnummer, gekürzte Nutzung,
+  Brandschutzklasse und Türtyp in einer Zeile, Stückzahl und Typ als Summenzeile darunter («Total
+  7 Stk. … Typ: IT 100»). **EI00** wird ausgeschrieben statt weggelassen: die Nicht-Anforderung
+  ist so explizit wie die Anforderung, damit der Anbieter nicht überklassifiziert offeriert.
+  Quelle: 20.05.2026, authentisch.
+- **Rückbau vor Bauentscheid: die vier fachlichen Vorbehalte, in dieser Reihenfolge.** Fehlender
+  Bauentscheid · nicht fixierte Brandschutzbestimmungen · offene Raumfragen · Zuwarten bei den
+  Abbrüchen im betroffenen Bereich. Die Reihenfolge ist die des **Verfahrens**, nicht der Baustelle:
+  was rechtlich noch offen ist, steht vor dem, was planerisch offen ist, und das vor der konkreten
+  Bauteilanweisung. Quelle: 27.05.2026, authentisch (→ [[arbeitsweise]] Ja-Zusage mit
+  Vorbehaltsliste).
