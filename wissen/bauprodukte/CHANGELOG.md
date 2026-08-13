@@ -4,9 +4,10 @@
 
 Fortsetzung des Duschwannen-Rücklaufs aus 2619 KISPI: Wandanschluss-System gemäss
 Montageanleitungen (Schallschutzband/SIA 181, Wannenanker, Dichtband 50 mm,
-Distanzband-Silikonfuge), hergeleitetes Rohlichtmass Nische = Wannenmass + 5 mm je
-Seite, Ausgleichslagen-Loesung bei zu grosser Bestandsnische, Ablaufloch-Lagen und
-Garnituren-Kennwerte FLOW 30/50. Neu:
+Distanzband-Silikonfuge), Rohnischenmass seit Nachtrag offiziell belegt
+(Zargen-Broschüre 2023: Wannenmass + 10 mm Einfach- bzw. + 35 mm Doppelbeplankung;
+Zarge = reguläres Systemdetail, silikonfrei), Ausgleichslagen-Loesung bei zu grosser
+Bestandsnische, Ablaufloch-Lagen und Garnituren-Kennwerte FLOW 30/50. Neu:
 `outputs/2026-08-13_duschwanne-nischeneinbau-rohlichtmass.md` (verlinkt mit dem
 Schuerzen-Report vom selben Tag).
 

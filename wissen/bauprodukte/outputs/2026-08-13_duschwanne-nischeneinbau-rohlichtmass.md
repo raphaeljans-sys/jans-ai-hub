@@ -19,11 +19,15 @@ Anwendungsfall 2619 KISPI, Dusche D (13.08.2026). Verallgemeinerbar:
    Untermauerung, Dichtband am Rand vormontiert und 50 mm an der Wand hochgeführt,
    Dichtecken, Flüssigabdichtung darüber, Plattenbelag über den Wannenrand, Silikonfuge
    über Distanzband 15 mm definiert (nach Plattenlegen entfernen, 24 h trocknen).
-2. **Rohlichtmass Nische (Herleitung, von Schmidlin nicht als Zahl publiziert):**
-   Wannen-Nennmass plus 5 mm Spiel je Seite (deckt Fertigungstoleranz +/- 3 mm und
-   Schallschutzband). Für 1200er-Wanne also 1210 mm Rohlicht zwischen beplankten
-   GK-Wänden. Grösseres Spiel vermeiden, sonst spannen Dichtband und Silikonfuge über
-   einen Hohlraum. Vor Werkplanung beim Hersteller bestätigen (041 859 00 60).
+2. **Rohnischenmass (offiziell belegt, Nachtrag gleichentags):** Schmidlin-Broschüre
+   «Zargen» 2023, Seite 11: Rohnischenmass = Wannenmass + 10 mm bei Einfachbeplankung,
+   Wannenmass + 35 mm bei Doppelbeplankung (Zargen-Einbau; Beplankung wird nach dem
+   Versetzen der Wanne aufgebracht und überdeckt die 30 mm hohe Zarge um 15 mm).
+   Die zuvor hergeleiteten 5 mm Spiel je Seite decken sich mit der
+   Einfachbeplankungs-Zahl. **Das reguläre Schmidlin-Systemdetail für den
+   Wandanschluss ist die Zarge:** silikonfrei, wartungsfrei, 30 Jahre
+   Fabrikationsgarantie; für Duschwannen an 1 bis 4 Seiten, Front als um 20 mm
+   verkürzte Zarge.
 3. **Zu grosse Bestandsnische:** je Seite eine GK-Ausgleichslage 12.5 mm aufdoppeln
    (Fall KISPI: Ist 1235 auf Soll 1210). Alternative: VARIO-Massanfertigung in
    cm-Schritten (Toleranz +/- 3 mm, garantiert 10 Arbeitstage, Subito 4).
