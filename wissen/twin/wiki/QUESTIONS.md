@@ -3062,3 +3062,51 @@ mechanischen `Anthropic Sans`-Greps (Fidelity 260813) und konnten ihn also nicht
    selbst «Lieber Raphael … Herzliche Grüsse». *Warum: die Spiegelungs-These (Batch 19/45) und die
    Gewichts-These sagen im selben Fall Verschiedenes voraus. Der Zwilling braucht eine Regel, die
    entscheidet. Zu klären an Mails an denselben Kontakt, bei denen der Gegengruss bekannt ist.*
+
+## 260813 Lauf 2 (Fidelity) — Fenster 28.05.–05.06.2026
+
+1. **Hängt der Service-Satz am Adressatenkreis statt an der Gattung?** [[stimme]] bindet ihn an die
+   Gattung (erbitten → Kanal offen; liefern/melden → Schluss nach dem letzten Sachsatz). Der
+   Brandschutz-Thread widerlegt das zweimal in zwei Tagen: die **Liefermail** an Ziegel allein
+   (28.05. 10:03) trägt «Bei Fragen oder Unklarheiten stehe ich Ihnen jederzeit gerne zur
+   Verfügung», die **Bittmail** an vier Empfänger (29.05. 10:01) trägt keinen. *Warum: die These
+   ist, dass die Sie-Einzelmail den Kanal offenhält und die gestapelte Sammelmail nicht, weil ein
+   Service-Satz an ein Verteilerfeld niemanden adressiert. Trifft sie zu, ersetzt die Achse
+   «Einzeladressat ↔ Verteiler» die Gattungsregel oder überlagert sie. Zu prüfen an Paaren
+   desselben Threads mit wechselnder Empfängerzahl — die gibt es im KISPI-Bestand reichlich.*
+
+2. **Ist `color:rgb(10,10,10)` ein viertes hartes Echo-Muster?** Es begleitet im Beleg vom
+   29.05.2026 10:01 das `rgb(253,253,252)` in denselben zwei `<li>` und kommt in der übrigen Mail
+   nicht vor (dort durchgehend `rgb(0,0,0)`). *Warum: ein zweites mechanisches Muster verdoppelt die
+   Trefferfläche des Vorfilters. Es hat aber bisher einen Beleg und muss nach dem Guillemet-Fall
+   (03.08.) und dem «du klein»-Fall (07.08.) erst gegen die eigene Hand gegengeprüft werden. Zu
+   klären an einem Fenster mit bekannten Echo- und bekannten Gold-Mails: kommt `rgb(10,10,10)` je
+   ohne eines der drei bestätigten Muster vor, und kommt es je in einer zweifelsfrei handgetippten
+   Mail vor?*
+
+3. **Wie weit reicht die Breadcrumb-Verweisform?** Die Sitzungsmail legt den SharePoint-Pfad Zeile
+   für Zeile offen (Bibliothek → Ordner → Unterordner → Zielordner) und setzt den Link erst darunter
+   unter «Hier der Link:». *Warum: der Zwilling kennt bisher nur den nackten Link. Zu klären ist, ob
+   die Form am Empfängerkreis hängt (mehrere Beteiligte, die den Ort künftig selbst wiederfinden
+   sollen) oder an der Ablagetiefe — und ob sie auch im Du-Einzelkontakt und gegenüber Behörden
+   auftritt. Davon hängt ab, ob sie in den DNA-Kern gehört oder eine Gattungsform der
+   Projektkoordination bleibt.*
+
+4. **Bietet Raphael unaufgefordert Gratisleistung an — und wann?** Auf eine reine Statusmeldung des
+   Betriebsleiters (29.05. 11:41) antwortet er mit «Solltest Du eine Grobkostenschätzung benötigen
+   lass es mich wissen. Das würde ich für Euch kostenlos machen.», ohne dass eine Kostenfrage
+   gestellt war. *Warum: [[haltung]] führt «ehrlicher Rat auch gegen das eigene Honorar» als erste
+   Do-Regel, aber der Zwilling wendet sie nur reaktiv an, wenn Kosten bereits im Raum stehen. Das
+   Gold zeigt sie **proaktiv**. Zu klären: hängt das Verschenken am bestehenden Mandat (Kunde
+   ohnehin gebunden), an der Beziehungswärme, oder an der Aussicht auf ein Folgemandat? Die drei
+   Lesarten führen zu drei verschiedenen Zwillings-Regeln, und die falsche macht ihn anbiedernd.*
+
+5. **Wie wird der Fidelity-Selbsttest wirklich blind?** Die Suchtreffer liefern je eine `summary`
+   von rund 40 Wörtern, die Anrede und Eröffnungssatz enthält — bei einer Kurzmail die halbe Mail.
+   In diesem Lauf war Gold B so weit kontaminiert, dass nur der Teil nach dem Vorschau-Schnitt
+   gescort werden konnte. *Warum: das betrifft nicht diesen Lauf, sondern die ganze bisherige
+   Messreihe — alle Anreden- und Eröffnungs-Scores sind nach oben verzerrt, und niemand hat es
+   bisher vermerkt. Vorschlag zur Prüfung im nächsten Lauf: Kandidaten allein über `subject` +
+   `toRecipients` + `hasAttachments` + Thread-Position wählen, Twin-Fassung fixieren, erst danach
+   Vorschau und Volltext öffnen. Wenn der Gesamtscore dabei deutlich fällt, war die Messreihe
+   systematisch zu optimistisch und die Vorläufe sind entsprechend zu lesen.*

@@ -4,6 +4,51 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 13.08.2026 (Lauf 2) — twin-fidelity-review: Echo-Grep trifft das Element, nicht die Mail; Fidelity 41
+
+Zweiter Fidelity-Lauf desselben Tages (regulärer Cron 05:40, nachdem 01:28 bereits einer lief).
+**Frisches, nicht überlapptes Fenster `rj@ 28.05.–05.06.2026`** (82 Sent Items) — Batch 92 endete am
+27.05., der 01:28-Lauf arbeitete auf 14.–19.05. **Fidelity 41** bestätigt die 42 von heute früh aus
+unabhängigem Material; zwei disjunkte Fenster, derselbe Pegel.
+
+**Hauptbefund: der mechanische Echo-Grep hätte heute eine echte Goldprobe vernichtet.** Die
+Sitzungsmail vom 29.05. 10:01 trägt `rgb(253,253,252)` in genau **zwei `<li>`** einer sonst
+durchgehend nativ getippten Mail. Die drei Muster sind damit **Element**-Ausschlüsse, kein
+Mail-Urteil — der Grep ist ein Lokalisator. Damit ist die **achte Falle** belegt (Raphael-Grundtext
+mit eingesetztem Claude-Fragment), die Umkehrung der siebten. Drei unabhängige Linien stützen es:
+Kontrollmail vom Vortag (gleiches Projekt/Gattung) durchgehend nativ; die Handsignatur («Darf ich
+Euch **B**itten», identisch in der Kontrolle) steht im nativen Teil, die `<li>` sind fehlerfrei;
+Fehlerdichte umgekehrt verteilt wie in der vierten Falle. `color:rgb(10,10,10)` **nicht**
+aufgenommen — ein Beleg, Gegenprobe steht aus → QUESTIONS #2.
+
+**Facetten-Lücke geschlossen:** [[arbeitsweise]] band «A) B) C)» an den fernen Erstkontakt und
+stellte dem engagierten Fachplaner Fliesstext gegenüber. Gold A richtet sich an genau so einen
+Fachplaner und trägt A)/B). Kein sauberer Widerspruch (die Regel gilt *Fragen*, Gold A ist eine
+*Traktandenliste*), deshalb **erweitert statt umgeworfen**; neu zusätzlich der
+SharePoint-Breadcrumb als Verweisform. Der Zwilling hatte die Lücke als Erlaubnis gelesen, die
+Agenda in Prosa aufgelöst und dabei Traktandeninhalte **erfunden** (dritter Vorfall nach 260804/05).
+
+**Widerspruch markiert statt geglättet:** der Service-Satz steht im selben Thread zweimal gegen die
+Gattungsregel aus [[stimme]] (Liefermail an Einzeladressat trägt ihn, Bittmail an vier Empfänger
+nicht). These: die Achse ist der Adressatenkreis, nicht die Gattung — **nicht** eingearbeitet,
+QUESTIONS #1.
+
+**Methodenbefund, gilt rückwirkend für die ganze Messreihe:** die `summary` der Suchtreffer enthält
+Anrede und Eröffnungssatz, bei Kurzmails die halbe Mail. Gold B konnte nur nach dem Vorschau-Schnitt
+gescort werden. Alle bisherigen Anreden-/Eröffnungs-Scores sind nach oben verzerrt → QUESTIONS #5.
+
+**⚠ Der Auto-Block ist strukturell voll: 29997 B bei Obergrenze 30000 (3 B Reserve).** Die neue
+Regel (~330 B) passte nur, nachdem rund 750 B **Beleg-Prosa** aus dem Do/Don't von [[arbeitsweise]]
+verdichtet wurden (Provenienz-Parenthesen, Beispiel-Listen, Querverweise — kein operativer Satz
+entfernt, Belege stehen unverändert im Artikel-Fliesstext darunter). Das ist Option (a) des
+Build-Guards. **Die nächste substanzielle Facetten-Erweiterung geht nicht mehr ohne Raphaels
+Entscheid** über MAX_AUTO_BYTES bzw. eine grössere Verdichtung; Budget-Führung in
+`wissen/claude-code/wiki/kontext-architektur.md`.
+
+Report: `outputs/2026-08-13_fidelity-lauf2.md`. 5 neue Fragen in [[QUESTIONS]]. Gehirn neu
+kompiliert. Diff gegengemessen (nativ per ssh): QUESTIONS +48/−0, CLAUDE.md +28/−0,
+arbeitsweise +16/−12 — append-only gehalten, keine Fremdlöschung.
+
 ## 13.08.2026 — twin-mail-training Batch 92: 20.–27.05.2026, siebte Echo-Falle, Satzlängen-Frage geschlossen
 
 Fenster `rj@` **20.–27.05.2026** (43 Sent Items). Echte Lücke war der **20.05. ganztags** (Batch 46

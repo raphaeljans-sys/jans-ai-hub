@@ -166,6 +166,34 @@ Der Grep läuft auf dem **HTML-Body** (`body.content`), nicht auf `bodyPreview` 
 reiner Text und zeigt keines der drei Muster. Wer über Apple Mail / osascript destilliert, sieht
 sie ebenfalls nicht und muss bei den weichen Signalen bleiben.
 
+**⚠ Präzisiert 13.08.2026 (Fidelity-Lauf 2): die drei Muster schliessen das ELEMENT aus, nicht die
+MAIL.** Der Grep ist ein **Lokalisator**, kein Mail-Urteil. Belegt an der Sitzungsmail vom
+29.05.2026 10:01: `background-color:rgb(253,253,252)` steht dort in genau **zwei `<li>`** einer
+sonst durchgehend nativ getippten Mail (`Aptos,Arial,Helvetica` / `color:rgb(0,0,0)` in jedem
+anderen Absatz). Als Mail-Ausschluss gelesen hätte der Grep eine Goldprobe mit sechs belegbaren
+Markern vernichtet, darunter den dritten unabhängigen Beleg der FG+Block-Korrektur desselben Tages.
+
+Damit ist die **dritte Konfiguration** derselben Familie belegt:
+
+| Konfiguration | Grundtext | Fremde Hand | Gewichtung |
+|---|---|---|---|
+| Sechste Falle (13.08.) | Claude | — | ganz `claude-aera` |
+| Siebte Falle (Batch 92) | Claude | Raphaels «`- `»-Einschübe | Einschübe = `korrektur-delta` |
+| **Achte, neu (13.08.)** | **Raphael** | **eingesetztes Claude-Fragment** | **nativer Teil = Gold, Fragment raus** |
+
+**Vorgehen im Mischfall:** die Absatz-/Listenelemente einzeln prüfen, den befallenen Block
+herausnehmen, den Rest normal gewichten — und die Zuordnung über die **Handsignatur im nativen
+Teil** gegenprüfen, nie über den Gesamteindruck. Im Beleg trägt der native Teil den
+charakteristischen Tippfehler «Darf ich Euch **B**itten» (grossgeschriebenes «Bitten» mitten im
+Satz), der sich in der Kontrollmail vom Vortag identisch wiederfindet («Darf ich **s**ie
+**B**itten»); die beiden `<li>` sind fehlerfrei. Die Fehlerdichte ist hier **umgekehrt** verteilt
+wie in der vierten Falle — der eingefügte Fremdteil ist der saubere.
+
+**Nicht aufgenommen: `color:rgb(10,10,10)`.** Es begleitet im Beleg das `rgb(253,253,252)` und kommt
+sonst in der Mail nicht vor, hat aber bislang **einen** Beleg. Nach dem Guillemet-Fall (03.08.) und
+dem «du klein»-Fall (07.08.) gilt: ein Signal, das echtes Gold abwerten kann, kommt erst nach
+Gegenprobe gegen die eigene Hand in die Tabelle. Als Kandidat geführt in [[QUESTIONS]].
+
 **Siebte Falle, neu 13.08.2026 (Batch 92) — die vierte Falle mit VERTAUSCHTEN Rollen: Raphael ist
 die zweite Hand IM Claude-Text, und das ist Korrektur-Delta, kein Echo.** Die vierte Falle
 («zwei Hände in einem Dokument») ging bisher davon aus, dass der Fremdtext das Sauberere ist —
