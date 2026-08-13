@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 20:01:59
+Stand: 13.08.2026 20:12:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 13.08.2026 20:01:59
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 5848c608 nas-selfcommit: 3 Datei(en) 2026-08-13 20:00
+- 4deb7cd7 tenant-hygiene 13.08.2026 Nachlauf 20:08: 932.2 GB / 88.4 %, Restlaufzeit 44 Tage, 2. Papierkorbstufe leer (5. Lauf in Folge)
