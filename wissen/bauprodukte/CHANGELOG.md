@@ -1,5 +1,17 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-13 — Outputs-Report: Duschwanne mit nahtlos emaillierter Schürze (Renovation ohne Bodeneingriff)
+
+Projektruecklauf aus 2619 KISPI (Umbau PPTS): Schmidlin-Option «nahtlos emaillierte
+Schürze» (1 bis 3 Seiten, Hoehe nach Mass, Typen superflach/flach/tief/Eck) ersetzt bei
+Aufsatzmontage Leichtbauwand und Plattenbelag; flachster belegter Wannenablauf Viega
+Tempoplex extraflach (60 mm, Sperrwasser 30 mm, waagrecht DN 40/50, 0.55 l/s);
+Aufbaulogik ca. 95 mm ohne Bodeneingriff. Neu:
+`outputs/2026-08-13_duschwanne-schuerze-renovation-ohne-bodeneingriff.md`.
+Werkzeug-Notiz: schmidlin.ch blockiert automatisierte Abrufe (403), URL-Struktur 2026
+gewechselt; via Web-Archiv/Browser beziehen. Wiki-Artikel-Kandidat, sobald BKP 25
+(Sanitaeranlagen) im Destillat-Korpus an der Reihe ist.
+
 ## 2026-08-13 — ERCO-Ratgeber Seite 317 auf Seite 374 fortgeschrieben: Hauptkapitel «Lichttechnik» (Groessen/Einheiten, Lampen, Leuchtentechnik) vollstaendig destilliert
 
 Fortsetzungslauf. `de_erco_guide.pdf` (BKP 233, P1, 435 S.) von Seite 318 bis
