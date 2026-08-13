@@ -19,6 +19,16 @@ funktional über **MuKEn 2025 Art. D.1.23** (Monitoring-Pflicht ab 2'000 m² EBF
 Nichtwohn-Neubauten) und nicht über eine vorgeschriebene BACS-Klasse greift; **Minergie verlangt
 explizit keine Gebäudeautomation** (nur ein eigenes, tiefer schwellendes Monitoring-Modul).
 
+> **Querbezug KB `normen` (Fundstelle/Ausgabe, gesetzt Wissens-Chef Run 31, 13.08.2026):** Die
+> Ausgaben- und Gültigkeitshistorie unten war bis zum 13.08.2026 **nur hier** geführt und in der
+> für Norm-Fundstellen führenden KB `normen` gar nicht registriert (0 Treffer für «386», «BACS»,
+> «52120»). Sie ist jetzt als Registerzeile **SIA 386.111** in `wissen/normen/wiki/REGISTER.md`
+> nachgezogen — dort ohne Inhaltsaussage, weil der Volltext nicht im Bestand ist. **Dieses
+> Destillat bleibt Träger des Primärbelegs** (shop.sia.ch, abgerufen 25.07.2026); die
+> Registerzeile verweist hierher, statt zu kopieren (Muster wie SWKI/Electrosuisse,
+> `wissen/koordination/QUERBEZUEGE.md`). Ändert sich der Fassungsstand, ist er in **beiden**
+> Dateien nachzuziehen.
+
 ## Wichtige Korrektur gegenüber dem ersten Entwurf (Run 105)
 Der bisherige Arbeitstitel dieses Destillats («SIA 386.110») bezeichnet die **veraltete** Norm-
 Vorstufe. Amtlich verifiziert über die SIA-Shop-Produktseiten (shop.sia.ch, 2026-07-25):
