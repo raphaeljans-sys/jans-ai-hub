@@ -8,6 +8,15 @@ SIA 416 bei Flächen, VKF im Brandschutz):
    Phasenanteil, Definition) kommt aus der **Normen-KB** (`wissen/normen/` —
    Register + Destillate) oder direkt aus dem Original-PDF auf SharePoint
    (`PL - 02_Recht_Norm/02_Normen/`). Route: Skill `normen`.
+   **1b. Auch das Destillat hat einen Verifikationsstatus — zuerst sein Feld `status:`
+   lesen.** Nur `established` ist ohne Gegenlesen zitierfähig. Bei `speculative` ist das
+   Destillat ein **Entwurf**: der Wert wird vor der Verwendung am Original-PDF nachgelesen.
+   Trägt es zusätzlich einen ⚠-Marker «Kernbefund, Nachprüfung ausstehend», ist die
+   betroffene Angabe **gar nicht** zu verwenden. Ein Wiki-Artikel mit `status: speculative`
+   ist eine **Warnkarte, keine Zitierquelle** — er zeigt, wo hinzuschauen ist, nicht was gilt.
+   (Ergänzt 13.08.2026: `normen` Run 48 destillierte eine Bedeutungsumkehr zu SIA 118/262
+   Ziff. 8.4.2.2, die bis zur Korrektur durch Run 49/50 in einen Fach-Skill weitergereicht
+   wurde. Der Status stand die ganze Zeit im Destillat.)
 2. **Fundstelle nennen:** Norm + Ausgabe + Ziffer (z.B. «SIA 118:1991, Art. 172»).
    Ohne Fundstelle keine Norm-Behauptung — stattdessen als offen markieren und in
    `wissen/normen/wiki/QUESTIONS.md` eintragen.

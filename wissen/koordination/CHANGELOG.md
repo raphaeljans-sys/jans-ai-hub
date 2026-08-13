@@ -3,6 +3,26 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Synergie-Lauf 06 (zweiter Lauf im Tagestakt)
+
+- **Bericht:** `outputs/2026-08-13_synergie-lauf-06.md`. Delta-Basis 13.08.2026 01:35,
+  Fenster 15,5 h, 80 Commits. Uhr-Check und Gegenprobe bestanden (Station 17:10 CEST gegen
+  Synology `17:00:06`; neuester gefilterter Commit = HEAD `d6b59600`).
+- **Strukturelles Delta:** 0 neue Bausteine, aber 2 geaenderte Skills, 2 geaenderte Rules und
+  CLAUDE.md — Frueh-Ausstieg griff nicht. Thema: Verifikations- und Ablage-Vorbehalte, die nur
+  ihr Erzeuger kennt.
+- **Neu:** SYN-24 (der Verifikationsstatus der Normen-Destillate erreicht 1 von 11 Abnehmern;
+  Teile a und b im selben Lauf umgesetzt — Punkt 1b in `rules/normen-referenz.md`, Rueckkanten
+  in `werkvertrag` und `unternehmerkontrolle`; Teil c, ein mechanischer Status-Check, offen),
+  SYN-25 (pdf2dwg-Sackgassen nicht im Wege-Register, umgesetzt), SYN-26 (Ablage-Spiegelung
+  260813 ohne Gegenkante, umgesetzt).
+- **Geprueft, kein Befund:** `rules/jans-dna-facetten.md` (`6c207435`) und `CLAUDE.md`
+  (`b1782600`). Nicht neu aufgerollt: SYN-01 bis SYN-23.
+- **Schreib-Kontrolle** nach Rule 260811: `--numstat` ueber alle bearbeiteten Dateien, keine
+  Datei hat Bestand verloren; die zwei Einer-Loeschungen sind beabsichtigte Zeilenersetzungen
+  in den Contract-Bloecken.
+- Kein Service-ENTWURF, kein Katalog-Bezug, keine Mail (Loop still by default).
+
 ## 2026-08-13 — Wissens-Chef Run 30 (Kollisionslauf, 32 Minuten nach Run 29)
 
 - **Bericht:** `outputs/2026-08-13_wissens-chef-run30.md`. Zuschnitt bewusst schmal: Run 29 endete

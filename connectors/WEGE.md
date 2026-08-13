@@ -52,6 +52,14 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Geodaten ZH und SZ | `connectors/geo-zh.mjs`, `geo-sz.mjs` | | | Kartenportale |
 | Git auf dem NAS | `scripts/nas-commit-now.sh` | 15-Min-Cron abwarten | | |
 | Mac-App-Store-Updates | `mas outdated` / `mas upgrade` | | | App Store (GUI) |
+| CAD: Vektor-PDF oder Fremd-DXF nach DWG | Skill `pdf2dwg` (venv `~/.venvs/pdf2dwg`, ezdxf + LibreDWG) | | | Original-DXF unverändert weitergeben |
+
+**Zu Zeile «CAD»:** die belegten Sackgassen und die Verifikations-Falle dieses Wegs stehen
+vollständig in `skills/pdf2dwg/SKILL.md` (Abschnitt «Grenzen») und werden hier bewusst nicht
+kopiert — kurz: LibreDWGs DXF-Reader scheitert an SPLINE/HATCH (`READ ERROR 0x800`, deshalb
+vorher mit ezdxf abflachen), ein 3DSOLID (ACIS) übersteht die Konvertierung nicht, und
+`dwg2SVG` zeigt für korrekte DWGs 1e20-Koordinaten (Render-Bug, nicht Datenfehler — Prüfung
+via `dwg2dxf`-Roundtrip). Belegt am Fall Schmidlin, 13.08.2026.
 
 ---
 

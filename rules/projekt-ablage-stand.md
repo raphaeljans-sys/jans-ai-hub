@@ -53,6 +53,13 @@ Jedes aktive Projekt hat **eine** Datei `09_Dokumente/CLAUDE/PROJEKT-STAND.md`:
 - **Konzept-/Pipeline-Dokumente kanonisch aufs NAS** (Regel 260611): nach
   `/Volumes/daten/jans-ai-hub/docs/konzepte/` (MD als Wahrheit, DOCX/PDF daneben);
   OneDrive-Kopie optional.
+- **Deliverable-Spiegel in eine für Dritte zugängliche Bibliothek: ohne die MD-Quelldatei**
+  (Regel 260813, Freigabe Raphael, Anlassfall 2619 KISPI). Original inkl. MD in die interne
+  Projektbibliothek, Spiegelung mit gleicher Ordnerstruktur und gleichen Namensstämmen, aber
+  nur DOCX/PDF/Grafiken, in die geteilte. **Abgrenzung zum Punkt darüber:** der
+  Plattform-Download wird als *exakter* Spiegel der Fremdquelle abgelegt, der
+  Deliverable-Spiegel dagegen bewusst reduziert — MD-Quell- und Arbeitsdateien bleiben
+  privat. Wortlaut und Pfade: Rule `auto-verbesserungen.md`, Eintrag 260813.
 
 ## Geltungsbereich
 
