@@ -136,3 +136,108 @@ Connect-PnPOnline -Url https://raphaeljans.sharepoint.com/sites/JANS.PROJEKTE \
   -Tenant raphaeljans.onmicrosoft.com -Interactive
 New-PnPSiteFileVersionBatchDeleteJob -MajorVersionLimit 5 -MajorWithMinorVersionsLimit 5 -Force
 ```
+
+---
+
+# Nachlauf 13.08.2026, 20:08 CEST (zweiter Lauf desselben Tages)
+
+Lauf: Scheduled Task `tenant-hygiene-weekly`, Phase 1, Messzeitpunkt **20:08 CEST**
+Connector: M365 App-only/Zertifikat (headless), erreichbar
+
+**Warum angehaengt statt ueberschrieben:** der Tagestakt wurde heute eingefuehrt, deshalb
+faellt ein zweiter Lauf auf denselben Dateinamen `260813-hygiene.md`. Der Vormittagslauf
+(01:35) und dieser Nachlauf stehen nun in einer Datei untereinander, statt dass der
+juengere den aelteren loescht. Kuenftige Laeufe treffen wieder je einen eigenen Tag.
+
+## Tenant-Summe
+
+- Belegt: **932.2 GB** (954'544 MB) ueber 20 Sites
+- Limit: ~1'054 GB (1.03 TB)
+- Auslastung: **88.4 %**, freier Puffer noch **121.8 GB**
+
+**Delta gegen den Vorreport in dieser Datei (13.08.2026, 01:35, 929.7 GB):**
++2.49 GB in 18 h 33 min. Umgerechnet auf einen ganzen Tag sind das **3.22 GB/Tag**. Der
+Zeitraum ist kurz und `StorageUsage` laeuft tenantseitig um Stunden nach, der Wert ist
+deshalb ein Hinweis und keine Trendlinie.
+
+**Delta gegen den letzten Wochenstand (03.08.2026, 904.6 GB):** +27.6 GB in 10 Tagen =
+**2.76 GB/Tag**. Das ist der belastbare Wert.
+
+**Restlaufzeit-Hochrechnung:** 121.8 GB Puffer geteilt durch 2.76 GB/Tag ergibt rund
+**44 Tage**, der Pool waere damit um den **26.09.2026** voll. Beim heutigen Tagestempo von
+3.22 GB/Tag waeren es 38 Tage (20.09.2026). Die **90-%-Marke (948.6 GB)** faellt in
+**fuenf bis sechs Tagen**, also um den 18. bis 19.08.2026.
+
+Die Ursache ist unveraendert eine einzige Position: von den 27.6 GB der letzten zehn Tage
+entfallen **24.9 GB auf den Versionsverlauf von JANS.PROJEKTE** (134.9 auf 159.8 GB). Der
+tenantweite Nutzdaten-Zuwachs betraegt in zehn Tagen rund 2.7 GB.
+
+## Sites mit Belegung (nach Groesse)
+
+| Site | Belegung | Versionen | Papierkorb 1. Stufe | Papierkorb 2. Stufe | Letzte Aenderung |
+|---|---|---|---|---|---|
+| /sites/JANS.PROJEKTE | 652.7 GB | 159.8 GB | 296 Obj / 1.19 GB | leer | 13.08.2026 |
+| /sites/SE | 108.1 GB | 1.24 GB | leer | leer | 07.08.2026 |
+| /sites/AD | 53.2 GB | 3.37 GB | 29 Obj / 0.01 GB | leer | 13.08.2026 |
+| /sites/PL | 40.2 GB | 3.50 GB | leer | leer | 12.08.2026 |
+| /sites/kispi | 30.8 GB | 0.18 GB | 92 Obj / 0.19 GB | leer | 13.08.2026 |
+| /sites/BI | 18.3 GB | ~0 GB | leer | leer | 07.08.2026 |
+| /sites/WE | 9.09 GB | 0.42 GB | leer | leer | 07.08.2026 |
+| /sites/IMMO | 7.21 GB | 4.72 GB | 2 Obj / 0.00 GB | leer | 12.08.2026 |
+| /sites/MO | 6.95 GB | 0 GB | leer | leer | 07.08.2026 |
+| /sites/WO | 5.33 GB | 0.31 GB | leer | leer | 07.08.2026 |
+| /sites/JANSDATENAUSTAUSCH | 0.25 GB | ~0 GB | 10 Obj / 0.05 GB | leer | 09.08.2026 |
+
+Neun weitere Sites liegen unter 100 MB (PA, Test, zwei AllCompany-Sites, search, Root,
+OneDrive-Root, WBHafenarealSZ, HLEBWEB) und werden ohne Papierkorb-Erhebung gefuehrt.
+
+## Durchgefuehrte Auto-Bereinigung
+
+**Keine.** Die zweite Papierkorb-Stufe ist auf allen elf gemessenen Sites leer
+(0 Objekte tenantweit). Damit war sie in **fuenf Laeufen in Folge** leer (13.07., 27.07.,
+03.08., 13.08. frueh, 13.08. spaet). Die erste Stufe bleibt als Undo-Netz unangetastet
+(429 Objekte, 1.43 GB tenantweit).
+
+### Messfehler im Subagenten, korrigiert
+
+Der mit der Papierkorb-Erhebung beauftragte Subagent meldete die erste Stufe von **WO**
+und **JANSDATENAUSTAUSCH** vertauscht (WO 10 Objekte, JANSDATENAUSTAUSCH leer). Die
+eigene Nachmessung im Hauptkontext ergibt das Gegenteil: WO ist leer,
+JANSDATENAUSTAUSCH haelt 10 Objekte mit 56'166'909 Bytes. Die Tabelle oben zeigt die
+nachgemessenen Werte. Zusaetzlich wurde der gleichfoermige Befund «alle zweiten Stufen
+leer» an zwei Sites (JANS.PROJEKTE, AD) selbst gegengeprueft und bestaetigt.
+Beleg fuer Rule `auto-verbesserungen` 260729b: der Agenten-Befund war zur Haelfte falsch,
+die Gegenpruefung hat ihn gefangen.
+
+## Offene Phase-2-Empfehlungen
+
+1. **Versions-Trim JANS.PROJEKTE — Potenzial rund 120 GB.** Der groesste und einzige real
+   wachsende Hebel. 159.8 GB Versionsverlauf auf einer Site von 652.7 GB, also 24 %.
+   Bei einer Begrenzung auf fuenf Hauptversionen sind erfahrungsgemaess drei Viertel davon
+   loeschbar. Das allein wuerde die Auslastung von 88.4 % auf rund 77 % druecken und die
+   Restlaufzeit von 44 Tagen auf ueber ein halbes Jahr verlaengern. Der Befund ist seit dem
+   **13.07.2026** offen, also seit einem Monat.
+   Braucht Raphaels interaktiven Login (geht nicht headless):
+   ```
+   Connect-PnPOnline -Url https://raphaeljans.sharepoint.com/sites/JANS.PROJEKTE \
+     -ClientId 80c24101-4597-48db-8388-c6e8bdc75f5f \
+     -Tenant raphaeljans.onmicrosoft.com -Interactive
+   New-PnPSiteFileVersionBatchDeleteJob -MajorVersionLimit 5 -MajorWithMinorVersionsLimit 5 -Force
+   ```
+   Nicht `-DeviceLogin` (auf PnP 3.1.0 defekt).
+2. **Versions-Trim IMMO — Potenzial rund 3 GB.** 4.72 GB Versionen auf 7.21 GB Site, also
+   65 % und damit anteilig der schlechteste Wert im Tenant. Absolut klein, aber mit
+   demselben Befehl in derselben Sitzung erledigt.
+3. **Erste Papierkorb-Stufe JANS.PROJEKTE — 1.19 GB.** Nur mit `recyclebinitem remove --ids`
+   in 1000er-Batches, bewusst nicht automatisiert. Geringer Hebel, kein Handlungsdruck.
+4. **Tenant-Versionslimit auf «Automatisch» stellen** (Admin Center, Einstellungen,
+   Versionsverlauf-Limits). Ohne diesen Schritt waechst der Verlauf nach jedem Trim erneut
+   an, und der Trim wird zur Dauerpflicht statt zur einmaligen Bereinigung. Der Punkt steht
+   seit dem 13.07.2026 unveraendert offen.
+
+## Sende-Entscheid
+
+Gemeldet wird. Ausgeloest haben drei Gruende gleichzeitig: Auslastung **88.4 %** (Schwelle
+88 %), Restlaufzeit **44 Tage** (Schwelle 60 Tage) und der Tagesdelta von **3.22 GB/Tag**
+(Schwelle 3 GB/Tag). Auto-bereinigt wurde nichts, ein Blocker liegt nicht vor, und heute
+ist Donnerstag, die Wochenpflicht greift also nicht.
