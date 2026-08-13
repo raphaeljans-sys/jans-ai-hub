@@ -2,6 +2,35 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-13 (Mac Mini Nachtschicht 05:31) — Formale Rücktaktungs-Empfehlung: Endbedingung erreicht, Entscheid liegt bei Raphael
+
+**Nachtrag zum Befund der Vornacht (02:30-Zyklus):** Dieser Lauf holt die dort als «für einen
+künftigen kurzen Lauf offen» vermerkte formelle Notiz nach, ohne selbst etwas umzustellen.
+
+**Sachstand:** `training/quellen-inventar.md` zeigt seit Run 15 (11.08.2026) **keine**
+verbleibende `[ ]`-Zeile mehr — alle Inventar-Kandidaten sind `[x]` ausgewertet oder `[-]`
+als untauglich geschlossen (zuletzt: 2304 Wädenswil Residualwert-Tool, Run 15, BKP-1-9-only).
+Die Endbedingung aus `training/PROGRAMM.md` («alle Inventar-Zeilen `[x]`/`[-]` und
+`wiki/kennwerte.md` trägt für die geführten Nutzungsarten belegte Werte») ist damit formal
+erreicht. `wiki/kennwerte.md` trägt für die geführten Nutzungsarten belegte Werte (u.a.
+Reckholdern n=1, Niederhasli-Fall gegengeprüft); für weitere Nutzungsarten bleibt die Basis
+`Seed`, aber ohne neues Rohmaterial gibt es dafür aktuell keinen Weg zur Promotion.
+
+**Empfehlung (kein Vollzug, nur Vorlage):** Diese Nachtschicht-Rotation sollte `grobkosten`
+nicht mehr routinemässig als Priorität-4-Ziel wählen, sondern erst wieder, wenn eines von
+zwei Dingen eintritt: (1) neues Rohmaterial landet in `raw/` (z.B. ein `kostenkontrolle`-Output
+eines abgeschlossenen Mandats), oder (2) eine gezielte Vertiefung eines bestehenden
+Einzelfalls wird explizit beauftragt. Diese KB kennt **keinen eigenen Taktgeber** (Register
+`logbuch/rollen/rollen-map.tsv`: `grobkosten-training` ist «getaktet von der Mac-Mini-
+Nachtschicht») — die Rotationslogik selbst müsste die Ausnahme tragen, analog zur
+bestehenden Ausschlussliste für baurecht/normen/planungsgrundlagen/wettbewerbs-dna in
+`scripts/nachtschicht-run.sh`. **Bewusst nicht selbst umgesetzt**, weil eine Rücktaktung eine
+Drosselentscheidung ist (Rule `rollen-taxonomie`: «Drosselentscheidung bleibt bei Raphael») —
+anders als der 04.08.-Fall `energie` (dort eine reine Tatsachenkorrektur: ein behaupteter
+Taktgeber existierte nachweislich nicht mehr). Rolle in `rollen-map.tsv` bliebe unverändert
+zur Diskussion offen (Analogie `planungsgrundlagen`: grower → maintainer nach mehrfacher
+Sättigungsbestätigung, dort aber erst nach 28 Bestätigungen und mit Raphaels Entscheid).
+
 ## 2026-08-11 (Mac Mini Nachtschicht, Run 15) — Wädenswil-Blocker (07./08.08.) geschlossen: Zugriff über Weg 2 gelungen, Inhalt aber BKP-1-9-only
 
 **Zugriff gelöst:** Der native OneDrive-Mount blieb für `2304 Waedenswil` weiterhin blockiert

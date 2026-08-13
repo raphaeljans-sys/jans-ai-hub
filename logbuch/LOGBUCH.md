@@ -5543,3 +5543,21 @@ Frontmatter-Fortschritts + neue Abschnitte, keine Loeschung von Altinhalt), INDE
 CHANGELOG nachgefuehrt, `git diff --numstat` gegengeprueft (nur die drei bauprodukte-Dateien
 betroffen). Kein Versand, keine Buchung, kein weiterer Fan-out. Zyklus bei knapp 4.6 von 5 USD
 beendet (Budget ausgeschoepft).
+
+## 2026-08-13 05:31 Nachtschicht Mac Mini (KB grobkosten, formale Ruecktaktungs-Empfehlung dokumentiert)
+
+Prioritaeten 1-3 leer/abgedeckt: keine pending remote-/sync-Tasks fuer Mac Mini; Synobsis
+Stufe 2 fertig (853/853, 0 offen, Task korrekt deaktiviert); Fristen-Radar heute bereits durch
+Radar-Briefing (01:32) und Hub-Chef-Tagesbriefing (01:41) ausfuehrlich bedient, kein
+zusaetzlicher Entwurf noetig. Bei Prioritaet 4 den vom 02:30-Zyklus derselben Nacht offen
+gelassenen Punkt aufgenommen: `grobkosten` hat die Endbedingung aus `training/PROGRAMM.md`
+erreicht (alle Inventar-Zeilen `[x]`/`[-]`, `wiki/kennwerte.md` fuehrt belegte Werte fuer die
+geführten Nutzungsarten), meldet also Saettigung. Formale Ruecktaktungs-Empfehlung nach
+`wiki/QUESTIONS.md` geschrieben (Vorschlag: `grobkosten` aus der Nachtschicht-Rotation nehmen,
+bis neues Rohmaterial in `raw/` liegt oder ein gezielter Vertiefungsauftrag kommt) und im
+CHANGELOG protokolliert. **Bewusst nicht selbst umgesetzt:** eine Ruecktaktung ist laut Rule
+`rollen-taxonomie` Raphaels Drosselentscheidung, `scripts/nachtschicht-run.sh` und
+`logbuch/rollen/rollen-map.tsv` bleiben unveraendert — anders als der energie-Fall vom 04.08.
+(dort eine reine Tatsachenkorrektur eines nicht mehr existierenden Taktgebers). Kein neuer
+Kennwert, kein Versand, keine Buchung, kein Fan-out. Zyklus klein und budgetdiszipliniert
+gehalten (deutlich unter dem 5-USD-Deckel).

@@ -1,5 +1,16 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-13 (Mac Mini Nachtschicht 05:31) — Formale Rücktaktungs-Empfehlung dokumentiert (kein Vollzug)
+
+Endbedingung aus `training/PROGRAMM.md` bestätigt: alle Zeilen in `training/quellen-
+inventar.md` sind `[x]`/`[-]` geschlossen. Nachtrag zum Befund des 02:30-Zyklus derselben
+Nacht (dort als «offen für einen künftigen kurzen Lauf» vermerkt). Empfehlung in
+`wiki/QUESTIONS.md` festgehalten: `grobkosten` aus der Nachtschicht-Priorität-4-Rotation
+nehmen, bis neues Rohmaterial oder ein expliziter Vertiefungsauftrag vorliegt. Keine
+Ausführung — Rücktaktung ist laut Rule `rollen-taxonomie` eine Drosselentscheidung
+Raphaels, `scripts/nachtschicht-run.sh` und `logbuch/rollen/rollen-map.tsv` unverändert.
+Kein neuer Kennwert, kein Fan-out, kein Versand.
+
 ## 2026-08-11 (Mac Mini Nachtschicht, Run 15) — Wädenswil-Blocker geschlossen (Weg 2: Graph/CLI statt OneDrive-Mount), kein neuer Kennwert
 
 Letzter offener Kandidat seit Run 6 («2304 Wädenswil Residualwert-Tool») abschliessend
