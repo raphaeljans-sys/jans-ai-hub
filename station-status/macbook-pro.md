@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 13.08.2026 15:38:58
+Stand: 13.08.2026 15:59:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 13.08.2026 15:38:58
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b889064a nas-selfcommit: 3 Datei(en) 2026-08-13 15:30
+- 2641d5ad rules: Ablage-Spiegelung 2619 KISPI (Original mit MD intern, Spiegel ohne MD) + KB bauprodukte Duschwannen-Ruecklauf

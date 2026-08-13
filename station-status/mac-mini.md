@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 15:34:50
+Stand: 13.08.2026 15:55:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:53)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 13.08.2026 15:34:50
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b889064a nas-selfcommit: 3 Datei(en) 2026-08-13 15:30
+- 2641d5ad rules: Ablage-Spiegelung 2619 KISPI (Original mit MD intern, Spiegel ohne MD) + KB bauprodukte Duschwannen-Ruecklauf
