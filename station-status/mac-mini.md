@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 13.08.2026 11:59:04
+Stand: 13.08.2026 12:09:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -9,10 +9,9 @@ Stand: 13.08.2026 11:59:04
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- 9 Datei(en): AR - 03 Studien / 2620 ALBERTSTRASSE 7
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d4f7639e nas-selfcommit: 3 Datei(en) 2026-08-13 11:45
+- 4adf291c nas-selfcommit: 3 Datei(en) 2026-08-13 12:00
