@@ -3,6 +3,52 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 13.08.2026 (Hub-Chef 08:39, Regellauf — **ein neuer Vorgang seit dem Radar, und die
+vier Entwuerfe liegen um 08:45 immer noch unversendet**):
+
+**Neu, Status zu pruefen: Berufsbildungsfonds Raum- und Bauplanung, Deklaration eingegangen —
+mit der PRIVATADRESSE statt der Geschaeftsadresse.** Eingangsbestaetigung von Plavenir,
+Geschaeftsstelle BBF (`bbf-ffp@plavenir.ch`), am **13.08.2026 07:51** im Konto
+`mail@raphaeljans.ch`. **BBF-Fall-ID 4257.** Deklariert sind: Firmenname «Raphael Jans -
+Architekten ETH», Adresse **Saumstrasse 21, 8003 Zuerich**, Mitglied SIA, Zeichnerausbildung
+EFZ «Nein», Unterstellung nach Art. 4 des Reglements (branchentypische Leistungen), **1
+unterstellter Zeichner mit EFZ**. Voraussichtliche Rechnung: **CHF 180.- pro Betrieb + CHF
+40.- pro Person = CHF 220.-**, kantonale Reduktionen erst bei der Fakturierung.
+**Der Pruefpunkt ist die Adresse.** Die kanonische Geschaeftsadresse ist nach Rule
+`jans-absenderadresse` **Grubenstrasse 37, 8045 Zuerich**; die Saumstrasse 21 ist im Hub
+ausschliesslich als **privater** Bauort belegt (LOS 258 Geschirrspueler-Ersatz, Konfiguration
+`skills/ausschreibung/tools/configs/priv-258-geschirrspueler-saumstrasse21.json`, Versand
+08.07.2026). Ob das gewollt ist (Domizil der Einzelfirma) oder ein Vertipper, ist von hier
+nicht entscheidbar und wird **nicht** unterstellt. Korrekturkanal steht in der Bestaetigung
+selbst: Mail an `bbf-ffp@plavenir.ch`. **Zweiter Punkt zum Mitdenken:** die Angabe «1
+unterstellter Zeichner EFZ» bindet einen jaehrlichen Beitrag und beruehrt die laufende
+AG-Gruendung (Traeger der Unterstellung wechselt mit der Rechtsform). Status: **zu pruefen,
+Entscheid Raphael.**
+
+**Nachgemessen um 08:45 am Entwurfsordner `rj@` (Exchange): alle vier Entwuerfe liegen
+unveraendert.** Stevanovic 12.08. 16:37 · Furrer 12.08. 16:06 · Inniger neu 13.08. 01:28 ·
+Inniger alt 08.08. 08:56 (darf nicht hinaus). Seit dem Nachtlauf ist **keine** ausgehende Mail
+an Dritte versendet worden; die juengste gesendete Nachricht ist der Notariats-Nachfass von
+00:47. **Damit verschaerft sich der Befund des Radars zeitlich:** heute 09:00 bis 10:30 Nova
+und 11:30 bis 12:00 KISPI, das praktische Versandfenster fuer den Stevanovic-Entwurf liegt
+also **zwischen 10:30 und 11:30 oder nach 12:00** — die darin gesetzte Rueckfrist 14.08. und
+der Baufreigabe-Termin 17.08. haengen daran. **Bewusst nicht versendet:** es sind fremde,
+nicht von Claude erzeugte Entwuerfe; A7 verlangt bestandene QS am eigenen Erzeugnis, und ein
+Widerrufsfenster ab 08:45 liefe waehrend der Nova-Sitzung ab. Versand-Entscheid bleibt Raphael.
+
+**Kein Zahlungs-/Debitorenbefund moeglich:** bexio antwortet weiterhin 401 (heute dreifach
+gemessen, Verzugscheck 08:06). Es wird nicht gemahnt.
+
+**AG-Gruendung: kein Eingang, selbst nachgemessen.** Im Konto `mail@raphaeljans.ch` liegt
+seit dem 11.08. nichts von UBS und nichts vom Notariat Wiedikon; juengster Eingang dort ist
+die Plavenir-Bestaetigung oben. **Dazu ein Aufsichtsbefund:** der `ag-gruendung-monitor`
+schreibt seinen Logbuch-Abschnitt seit dem **07.08.2026** nicht mehr — sechs Tage ohne
+Eintrag, waehrend genau dieser Monitor der einzige ist, der den UBS-Strang in `mail@`
+beobachtet (der M365-Connector hat dort keinen Delegate-Zugriff und liefert still leer).
+Heute ist der Strang durch diesen Lauf abgedeckt, ab morgen nicht. Gleiche Familie wie der
+Befund des Verzugschecks von 08:06 (drei Werktage ohne Bericht, kein Lauf-Log fuer Scheduled
+Tasks vorhanden). Status: **offen.**
+
 Eintrag 13.08.2026 (Logbuch-Radar 06:55, Regellauf — **Delta zum Nachtlauf: nichts hat sich
 bewegt, und genau das ist der Befund**):
 

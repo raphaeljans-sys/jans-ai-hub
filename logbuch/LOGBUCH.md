@@ -5,6 +5,66 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 13.08.2026, 08:39 bis 08:53 — Tagesbriefing GESENDET (Regellauf)
+
+**Versandbeleg:** 13.08.2026 **08:53:03** an `rj@raphaeljans.ch`, Betreff «Hub-Chef 13.08.26:
+Der Berufsbildungsfonds hat Deine Privatadresse, und die vier Entwuerfe liegen um 08:45 immer
+noch», Body **4'431 Zeichen**, in «Gesendete Elemente» nachgemessen (Gegenprobe zum
+Leer-Draft-Fehler). **QS:** Korrektur-Harness gelaufen, `rechtschreibung` **rot** (40
+Umlaut-Verstoesse, der Body war durchgehend in ae/oe/ue gesetzt) und `layout` **gelb** (sechs
+verkuerzte Datumsangaben, dekorativer Mittelpunkt); **beide Befundlisten vollstaendig
+eingearbeitet** und per Gegenprobe verifiziert, dass nur noch legitime Vorkommen (`Queue`,
+`Raphael`, `feuerte`, `neue`, `raphaeljans`) uebrig sind. Das `twin`-Fidelity-Gate wurde
+bewusst **nicht** gezogen: das Briefing geht an Raphael selbst, nicht nach aussen.
+
+**Sendegrund 3: ein operativer Befund, den der Radar um 06:55 noch nicht haben konnte.** Um
+**07:51** ist im Konto `mail@raphaeljans.ch` die **Eingangsbestaetigung des
+Berufsbildungsfonds Raum- und Bauplanung** eingegangen (Plavenir, `bbf-ffp@plavenir.ch`,
+BBF-Fall-ID **4257**). Deklariert ist die Einzelfirma «Raphael Jans - Architekten ETH» mit der
+Adresse **Saumstrasse 21, 8003 Zuerich** — das ist nach Aktenlage des Hub die **Privatadresse**
+(dort und nur dort belegt als privater Bauort LOS 258 Geschirrspueler-Ersatz), waehrend die
+kanonische Geschaeftsadresse nach Rule `jans-absenderadresse` **Grubenstrasse 37, 8045 Zuerich**
+lautet. Jaehrlicher Beitrag **CHF 220.-** (CHF 180.- Betrieb + CHF 40.- fuer 1 unterstellten
+Zeichner EFZ). Ob die Adresse gewollt ist, wird **nicht unterstellt**; der Korrekturkanal steht
+in der Bestaetigung. Volle Zeile im Fristen-Register.
+
+**Was dieser Lauf sonst gemessen hat, statt es zu wiederholen:**
+
+- **Entwurfsordner `rj@` um 08:45 nachgemessen: alle vier Entwuerfe liegen unveraendert.**
+  Seit dem Nachtlauf ist keine Mail an Dritte hinausgegangen. Der Radar-Befund von 06:55 gilt
+  also unveraendert weiter und **verschaerft sich zeitlich**: mit Nova 09:00 bis 10:30 und
+  KISPI 11:30 bis 12:00 liegt das praktische Versandfenster fuer den Stevanovic-Entwurf
+  zwischen 10:30 und 11:30 oder nach 12:00.
+- **Mail-Vorfilter ueber 26 h, alle Apple-Mail-Konten, Ein- und Ausgang.** Ausser der
+  Plavenir-Bestaetigung **keine** neue Fremdmail seit dem Nachtlauf: keine Antwort von
+  Notariat Wiedikon, keine UBS-Kapitaleinzahlungsbescheinigung, keine Reaktion von Gruner auf
+  die Trennwand-Fragen vom 12.08. 15:29. Die einzige weitere Neuzugang ist privat und ohne
+  Vorgang (Chiropraktik Stadelhofen 07:17, blosse Empfangsbestaetigung, kein Termin — daher
+  **keine** A2-Aktion).
+- **Freigabe-Queue 0/0 auf beiden Stationen** (`--kurz` Exit 0), **keine Eintraege ab 12 h**
+  (`--briefing`), **Watchdog Exit 0** (alle Stationen und Sync-Jobs fristgerecht). Sync-,
+  Freigabe- und Remote-Queues leer.
+- **bexio weiterhin 401**, heute bereits vom Verzugscheck 08:06 dreifach gegengemessen. Keine
+  Mahnaktion, keine Buchung — Guard fuer A1 ist nicht erfuellt, weil die Datengrundlage fehlt.
+
+**Ausgefuehrte Whitelist-Aktionen: A4 (Register + Logbuch).** Fristen-Register um den
+Plavenir-Vorgang, die 08:45-Messung am Entwurfsordner und den AG-Aufsichtsbefund ergaenzt;
+Schreibumfang nativ per ssh gegengemessen (`git diff --numstat` = **46 0**, kein Verlust,
+Rule 260811). **Bewusst KEIN Versand an Dritte (A7/A8 nicht gezogen):** die vier Entwuerfe sind
+**fremde**, nicht von Claude erzeugte Texte, A7 verlangt bestandene eigene QS, und ein
+Widerrufsfenster ab 08:45 waere waehrend der Nova-Sitzung abgelaufen. Versand-Entscheid bleibt
+bei Raphael. Keine Buchung, keine Loeschung, kein Entwurf veraendert.
+
+**Aufsichtsbefund, im Register festgehalten:** der `ag-gruendung-monitor` hat seit dem
+**07.08.2026** keinen Logbuch-Abschnitt mehr geschrieben — sechs Tage, obwohl er der einzige
+Beobachter des UBS-Strangs in `mail@` ist (M365 hat dort keinen Delegate-Zugriff und liefert
+still leer). Heute ist der Strang durch diesen Lauf abgedeckt, ab morgen nicht. Das ist
+dieselbe Familie wie der Befund des Verzugschecks von 08:06 (drei Werktage ohne Bericht, kein
+Lauf-Log fuer Scheduled Tasks). Beides zusammen ist ein Muster, kein Einzelfall: **ein stiller
+Loop-Ausfall wird derzeit von keiner Instanz bemerkt.**
+
+---
+
 ## Verzugscheck 13.08.2026 (08:06, Regellauf `mahnwesen-verzugscheck`, still)
 
 **Zum Verzugsstand nichts Neues.** bexio erneut nachgemessen, dreifach 401 (Connector,
