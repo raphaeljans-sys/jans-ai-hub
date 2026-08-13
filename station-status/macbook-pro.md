@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 01:10:33
+Stand: 14.08.2026 01:20:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 01:00)
@@ -19,4 +19,4 @@ Stand: 14.08.2026 01:10:33
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0b6357f9 vollgas-radar: 14.08. 00:57 [FREI] — Budget 28.8/50.6 (-21.7), 4 KBs mit Delta, launchctl-list-ueber-ssh als Domaenen-Artefakt entlarvt
+- 23a9be10 nas-selfcommit: 3 Datei(en) 2026-08-14 01:15
