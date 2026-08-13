@@ -14,6 +14,13 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
+- [[erco-lichtplanung-simulation-berechnung]] — ERCO Ratgeber Teil 2/n (S. 375-426
+  von 435): Simulation und Berechnung vollständig (Lichtsimulation-Ablauf,
+  Hardware/Software, sechs Berechnungsformeln inkl. UGR/Wartungsfaktor/
+  Beleuchtungskosten, Planungsdaten-Formate) + sechs Planungsbeispiele
+  (Chiesa Dives in Misericordia, Brandenburger Tor, Ara Pacis, Schottisches
+  Parlament, BMW Mini Autohaus, Film Tune the light) + Virtual Prototyping.
+  Offen: Glossar S.427-435.
 - [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-374 von 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten

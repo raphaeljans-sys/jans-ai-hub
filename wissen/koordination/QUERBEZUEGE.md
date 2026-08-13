@@ -51,6 +51,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Anlegen und Ueberschreiben einer Destillat-/Artikeldatei** | **der destillierende Lauf** — nur er hat die Quelle gelesen | Struktur-, Health-Check- und Reparaturlaeufe duerfen ausschliesslich **anlegen, wo nichts ist**, und **nie ueberschreiben**; ein Stub-Titel wird aus der gelesenen Datei oder der Quelle genommen, **nie aus der Normnummer geraten**. Ein Reparaturlauf, der Inhalt erzeugt, braucht dieselbe Verifikationsstufe wie ein Destillier-Lauf — NEU Run 28, Anlass Commit `f147dac4` (477 Zeilen established-Bestand ueberschrieben, zwei Gegenstaende falsch geraten) |
 | **Leitungs- und Kanaldaemmung: gesetzliche Mindest-Daemmstaerken und UR-Werte** | **energie** (`muken-2025-anhang-4-5-daemmstaerken-leitungen`, MuKEn 2025 Anhang 4/5, WDV ZH § 6, KEnV SZ Anhang 8/9) | normen liefert mit SIA 380/3 **nur das Berechnungsverfahren** fuer effektive Waermeverluste und setzt ausdruecklich keine Dicken (Ziff. 02: die Anforderungen stehen «in den entsprechenden Energie- und Baugesetzen»). Der Verweis laeuft nur in diese Richtung — ein normativer Bezug MuKEn → SIA 380/3 ist an keiner Primaerquelle belegt und waere KB-eigene Subsumtion. Achtung: SIA 380/1 traegt die Leitungsdaemmstaerken im Hausbestand NICHT (`sia-380-1-2016` ist eine 6-Seiten-Vorschau) — NEU Run 29 |
 | **Minergie-Zertifizierungsverfahren** (privat: MOP-Plattform, Nachweisformular, Zertifizierungsstelle, Antragsrollen) | **energie** (rund 20 `minergie-*`-Destillate) | planungsgrundlagen fuehrt ausschliesslich den **amtlichen** Nachweisweg (EVEN, EN-Formulare, private Kontrolle ZH) und hat zu Minergie keinen Artikel. Minergie ist ein privater Standard ohne kantonalen Vollzug — die Zeile «Energienachweis-Verfahren» oben erfasst ihn deshalb NICHT, und ein kuenftiger Lauf soll die Minergie-Verfahrensdestillate nicht nach planungsgrundlagen verschieben. Beruehrungspunkt ist allein das Blatt **EN-101b**, das in beiden Welten vorkommt: das Formular fuehrt planungsgrundlagen, die Feldstruktur des Minergie-Exemplars energie — NEU Run 29 (die Abgrenzung war nie explizit, die Herleitung musste jeder Lauf neu machen) |
+| **Gebaeudeautomation/BACS: Norm-Fundstelle, Ausgabe, Fassungsstand** (SIA 386.111:2022 / SN EN ISO 52120-1:2021, Vorgaengerkette 386.110:2007/2012 → 386.111:2017) | **normen** (Registerzeile `wiki/REGISTER.md`; **ohne Inhaltsaussage**, Volltext nicht im Bestand, CHF 144.–) | `energie` fuehrt die **angewandte Fachaussage** (BACS-Klassen A–D, MuKEn 2025 Art. D.1.23, § 41a BBV I, EN-141, Minergie-Abgrenzung) und bleibt **Traeger des Primaerbelegs** (`destillate/sia-386-bacs-gebaeudeautomation.md`, shop.sia.ch 25.07.2026); normen verweist dorthin, statt zu kopieren. Deckungsgleich mit der SWKI-Zeile oben — NEU Run 31 (13.08.2026), adversarial bestaetigt |
 | **Unabhaengigkeit einer Marktdaten-Zweitquelle** (wer darf als «Gegenkontrolle» gelten) | **immobilienbewertung** (`datenquellen-registry`, `vergleichswert-hedonisch`) — dort ist am Original belegt, welcher Anbieter von welchem abhaengt | Alle Skills (`machbarkeit`, `kostenschaetzung`, `grobkosten-onepager`) verweisen dorthin und behaupten keine Unabhaengigkeit selbst. **Belegt Run 28:** UBS RE LFS bezieht seine Preisdaten von Wuest Partner (Quellenverzeichnis LFS S. 13) und ist damit **kein** von WP unabhaengiger Gegencheck; unabhaengig sind IAZI/CIFI und die kantonale Handaenderungsstatistik — NEU Run 28 |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
@@ -157,6 +158,111 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > fuer Raphael (Loeschung braucht Einzelfreigabe).
 
 ## Gepruefte Paare
+
+### normen ↔ energie (SIA 386.111 / BACS) — eine Norm, die nur EINE der beiden KBs kannte — geprueft 2026-08-13 (Run 31)
+- **Befund (BESTAETIGT, hoch — der einzige der sechs Meldungen dieses Laufs, der die Gegenpruefung
+  ueberstand):** `energie` fuehrt seit Run 106 (25.07.2026) ein `established`-Destillat
+  `sia-386-bacs-gebaeudeautomation.md` mit der **vollstaendigen amtlichen Ausgaben- und
+  Gueltigkeitskette** der SIA 386.111 (386.110:2007 · 386.110:2012 archiviert seit 30.11.2017 ·
+  386.111:2017 archiviert seit 31.08.2022 · 386.111:2022 gueltig ab 01.09.2022, Bezugsnorm
+  SN EN ISO 52120-1:2021), belegt an shop.sia.ch. In der **fuer Norm-Fundstellen fuehrenden** KB
+  `normen` existierte dazu **nichts**: 0 Treffer fuer «386» (ausser der Fremdfamilie DIN EN 386
+  Brettschichtholz), 0 fuer «BACS», 0 fuer «52120»; auch in QUERBEZUEGE 0, es gab also nicht
+  einmal eine offene Uebergabe. `wissen/energie/wiki/gebaeudetechnik-pflichtenheft.md` Z. 156-157
+  verweist ausdruecklich «fuer die normative Seite» auf dieses Destillat.
+- **Warum das zaehlt:** Matrix-Zeile «Gueltigkeits-/Fassungsstand einer Norm» weist die Arbeit
+  eindeutig `normen` zu, mit dem Zusatz «meldet sie eine Archivierung, ist sie in normen
+  NACHZUZIEHEN (sonst verpufft die Uebergabe)». Genau dieses Muster («Uebergabe verpufft im
+  abgebenden KB», Run 8) lag hier vor — nur ohne den Flag, der es sichtbar gemacht haette. Ein
+  kuenftiger `normen`-Lauf zu SIA 386 haette bei null begonnen und eine zweite, moeglicherweise
+  abweichende Fassungsversion erzeugt.
+- **Verifikation, die den Vorschlag korrigiert hat:** Der Refuter bestaetigte den Befund und
+  **verwarf zugleich einen Teil der vorgeschlagenen Umsetzung**. Ein Eintrag in
+  `destillate/INDEX.md` oder gar ein normen-Destillat waere **falsch** gewesen: der Volltext ist
+  nicht im Bestand und nicht gelesen (CHF 144.–), und nach QUERBEZUEGE Z. 60 darf nur der
+  destillierende Lauf eine Destillatdatei anlegen. Richtig ist **ausschliesslich** eine
+  REGISTER-Zeile ohne Inhaltsaussage — Praezedenz im selben Register: VA 105-01 (Z. 425,
+  «Volltext nicht im Bestand»).
+- **Aktion (Run 31), drei Teile:** (1) Registerzeile **SIA 386.111** in
+  `wissen/normen/wiki/REGISTER.md` zwischen SIA 385/12 und SIA 387/4, mit ⚠-Sperre «keine
+  Inhaltsaussage ableitbar», dem Bezeichner-Hinweis (aeltere Zitate «SIA 386.110» sind ueberholt)
+  und dem Vorbehalt zu den EN-15232-Effizienzfaktoren. (2) **Gegenrichtung** im energie-Destillat:
+  Querbezug-Block, der die neue Registerzeile nennt und festhaelt, dass der Primaerbeleg hier
+  bleibt und ein Fassungswechsel in **beiden** Dateien nachzuziehen ist. (3) Matrix-Zeile
+  «Gebaeudeautomation/BACS», deckungsgleich zur SWKI-Zeile (Entscheid Raphael 31.07.2026) —
+  damit ist der Fall geregelt, nicht nur repariert.
+- **Bewusst NICHT getan:** die Ausgabenhistorie aus `energie` gekuerzt oder verschoben. Nach dem
+  Electrosuisse-/SWKI-Muster bleibt sie dort; `normen` verweist, statt zu kopieren.
+
+### normen (Destillate) ↔ references/bkp-2017 ↔ Skill ausschreibung — dieselbe BKP-Fehlerfamilie, zwei Dateien weiter — geprueft 2026-08-13 (Run 31)
+- **Ausgangspunkt war eine Uebergabe aus Run 30**, die niemand eingeloest hatte:
+  `normen/destillate/INDEX.md` Z. 22 trug die am 13.08. korrigierte **Bedeutungsumkehr** zu den
+  Arbeitsgeruesten im Betonbau («NICHT inbegriffen, anders als Mauerwerk-ABB») unveraendert
+  weiter, obwohl Run 50 dieselbe Zeile angefasst und den Status-Vermerk ergaenzt hatte. Die
+  Statusspalte wurde gepflegt, die Sachspalte nicht. **Korrigiert** (Fundstelle Ziff. 8.4.2.2 /
+  8.4.2.3, mit der richtiggestellten Mauerwerk-Parallele).
+- **Dabei aufgefallen, neuer Befund mit LV-Wirkung:** `normen` Run 50 hat belegt, dass **BKP 241
+  und 243 im BKP 2017 nicht existieren** und **242 «Heizungsanlagen»** ist — und hat das in
+  `sia-118-267-2004.md` korrigiert. **`sia-118-262-2004.md` wurde nicht mitgezogen** und nannte in
+  der Abnehmer-Zeile zum Skill `ausschreibung` weiterhin «BKP 241/242 Baumeisterarbeiten
+  Beton/Ortbeton», dazu «BKP 291 Statik/Bauingenieur» — 291 ist der **Architekt**, der
+  Bauingenieur ist **292**. Am systematischen Teil der Liste nachgeschlagen (Hauptgruppe 24 fuehrt
+  240 · 242 · 244 · 245, kein 241, kein 243). **Korrigiert** auf BKP 211 (mit 211.5), BKP 212 fuer
+  die Betonfertigteile und BKP 292, mit Herleitung und Verweis auf Rule `bkp-2017-referenz`.
+- **Mechanischer Sweep als Gegenprobe:** alle «BKP nnn»-Nennungen in `wissen/`, `skills/` und
+  `rules/` gegen die 846 gueltigen Codes der offiziellen Liste gedifft. Ergebnis: die uebrigen
+  Abweichungen liegen in `raw/`-Bestaenden und Laufberichten (Zeitdokumente, nicht angefasst) —
+  **ausser** in `skills/ausschreibung/projekte/2620-albertstrasse-7.md`.
+- **Dritter Befund, Klassenfall 271.10:** Dort standen vier bereits versandte Lose mit
+  «BKP»-Praefix, deren Nummern **keine gueltigen BKP-2017-Codes** sind: 272.5 (BKP 272 hat nur
+  .0–.4), 275.0 (275 ist ein Code ohne Unterpositionen), 285.00 (existiert nicht — und die
+  verkuerzte Form waere irrefuehrend, denn **285.0 ist «Geruste»**, Innere Malerarbeiten sind
+  **285.1**) sowie «BKP 250 Sanitaeranlagen» (250 ist die **Uebergangsposition**). Das ist genau
+  der Fehlertyp, den die Rule `bkp-2017-referenz` seit dem 04.08.2026 benennt (Ticket N43-1).
+- **Aktion mit Absicht zurueckhaltend:** **keine Nummer geaendert** — sie stehen so in den
+  ausgegebenen LV, ein Umschreiben haette den Projektnachweis verfaelscht. Stattdessen die von der
+  Rule vorgeschriebene Form gesetzt: `LOS <Nr.>` statt `BKP <Nr.>`, je Zeile der Grund und, wo am
+  Original belegbar, der echte Code daneben. **Briefkastenanlage blieb offen** — die Liste fuehrt
+  den Begriff nicht woertlich, und Raten ist hier der Fehler, nicht die Luecke.
+
+### Vier Meldungen, die die Gegenpruefung NICHT ueberstanden — geprueft 2026-08-13 (Run 31)
+- **energie ↔ normen, SIA 382/1:2025 (73 %/70 % WRG) — WIDERLEGT (3 von 3 Runden).** Der Melder
+  las `komfortlueftung.md` Z. 19-20 und uebersah den Verweis vier Zeilen weiter (Z. 22), dazu
+  Z. 82, Z. 124 und das Frontmatter-Feld `sources`. Wichtiger: der «fehlende normen-Vorbehalt» ist
+  **kein fachlicher Zweifel**, sondern ein KB-Synchronisationsvermerk, den `normen` selbst
+  aufgeloest hat — REGISTER Z. 605 erklaert den eigenen Stand 2014 fuer «ueberholt» und uebergibt
+  die 2025er-Fuehrung an das energie-Destillat. Der Wert ist zusaetzlich **primaerquellennah
+  unabhaengig belegt**: MuKEn 2025, Anhang 6, Standardmassnahme 5 (`muken-2025-verabschiedet`,
+  `established`, MD5-verifiziert am amtlichen EnDK-Text). Haette man den Vorschlag umgesetzt,
+  waere ein gesicherter Grenzwert in einem bauherrengerichteten Artikel als unsicher markiert
+  worden.
+- **energie ↔ planungsgrundlagen, Abnahme Komfortlueftung — WIDERLEGT (2 von 2).** Die
+  werkvertragliche Abnahmemessung (Luftmengenabgleich, WRG-Wirkungsgrad, Dichtigkeit, Nachweis
+  nach einem Betriebsjahr) und die **oeffentlich-rechtliche** Private Kontrolle nach BBV I § 4
+  sind zwei verschiedene Dinge, nicht zwei Namen fuer dasselbe. Der Vorschlag haette sie
+  gleichgesetzt und dabei **EN-105 falsch als Ausfuehrungskontroll-Formular** bezeichnet (es ist
+  das Detailformular des Projekt-Nachweises Lueftung).
+- **energie ↔ planungsgrundlagen, Gebaeudeautomation EN-135 — WIDERLEGT.** **EN-135 ist
+  «Beheizte Freiluftbaeder».** Gebaeudeautomation ist **EN-141**, gefuehrt sowohl unter Befugnis
+  **He** als auch **Kl**. Der Melder hatte eine Nummer aus einer Aufzaehlung gegriffen und ihr ein
+  Thema zugeordnet, das ihr nicht gehoert; die «Korrektur» haette einen frischen Sachfehler in
+  einen `established`-Artikel geschrieben.
+- **bauprodukte ↔ normen, SIA 181 ohne Fundstelle — WIDERLEGT (2 von 2).** Die Stelle referiert
+  eine **Schmidlin-Montageanleitung**; die Norm-Nennung ist die Begruendung des Herstellers, keine
+  eigene Norm-Behauptung des Hub, und es haengt keine Zahl daran. Die Rule `normen-referenz`
+  greift dort nicht.
+- **Muster dieses Laufs:** In **drei** von vier widerlegten Faellen war nicht nur der Befund
+  falsch, sondern der mitgelieferte Korrekturvorschlag **selbst fehlerhaft**. Ein Melder ohne
+  Refuter haette diesen Lauf schlechter beendet, als er ihn begonnen hat. Die Refuter-Stufe ist
+  damit nicht Qualitaetskosmetik, sondern die eigentliche Arbeit.
+
+### grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung — unveraendert offen — geprueft 2026-08-13 (Run 31)
+- Der Regelgeschoss-Faktor **HNF/GF 0.70 vs. 0.75** steht weiterhin an zwei Orten verschieden
+  (`flaechendefinitionen-sia:84` = 0.75 belegt; `realwert-sachwert:219` = 0.70 per Hub-Entscheid
+  12.07.2026). Das ist **kein neuer Befund**, sondern Ticket **T-Regelgeschoss** in
+  `immobilienbewertung/wiki/wissensluecken.md` — **Fachentscheid Raphael**, seit Run 15 offen, in
+  Run 25/26 zweimal praezisiert. Bis zum Entscheid darf keine der beiden Stellen still umgestellt
+  werden; dieser Lauf hat nichts geaendert. Sonst keine Kennwert-Abweichung gefunden.
 
 ### normen (ABB SIA 118/262) ↔ Skill ausschreibung — die Korrektur blieb in der KB stecken — geprueft 2026-08-13 (Run 30)
 - **Befund (BESTAETIGT, hoch — der erste Befund seit Run 25 mit direkter Geldwirkung):** `normen`

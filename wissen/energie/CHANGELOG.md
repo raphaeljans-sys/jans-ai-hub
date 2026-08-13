@@ -1,5 +1,34 @@
 # CHANGELOG
 
+## 2026-08-13 — Fremdlauf `wissens-chef` Run 31: SIA 386.111 nach `normen` nachgezogen, drei Meldungen gegen die KB widerlegt
+
+Geschrieben vom Wissens-Chef (Cross-KB-Aufsicht), nicht von einem `energie`-Lauf. **Eine Aenderung
+an der KB, und sie ist additiv.**
+
+- **`destillate/sia-386-bacs-gebaeudeautomation.md` — Querbezug-Block gesetzt** (vor «Wichtige
+  Korrektur gegenueber dem ersten Entwurf»). Die vollstaendige Ausgaben- und Gueltigkeitskette der
+  SIA 386.111 war bis heute **nur hier** gefuehrt; in der fuer Norm-Fundstellen fuehrenden KB
+  `normen` gab es dazu keinen einzigen Treffer. Sie ist dort jetzt als Registerzeile nachgezogen
+  (ohne Inhaltsaussage, Volltext nicht im Bestand). **Der Primaerbeleg bleibt hier** — normen
+  verweist, statt zu kopieren, wie bei SWKI und Electrosuisse. Ein Fassungswechsel ist kuenftig in
+  **beiden** Dateien nachzuziehen; der neue Block sagt das ausdruecklich.
+- **Drei Meldungen gegen diese KB wurden adversarial geprueft und WIDERLEGT** — die KB bleibt
+  unangetastet, und in allen drei Faellen haette die vorgeschlagene «Korrektur» geschadet:
+  (1) *SIA 382/1:2025, 73 %/70 % WRG in `wiki/komfortlueftung.md`* — der Verweis auf
+  `[[komfortlueftung-wrg-sia382-luftwechsel]]` steht vier Zeilen weiter (Z. 22) sowie in Z. 82,
+  Z. 124 und im Frontmatter; der «offene normen-Vorbehalt» ist ein Synchronisationsvermerk, den
+  `normen` selbst aufgeloest hat (REGISTER Z. 605: eigener Stand 2014 «ueberholt»), und der Wert
+  ist unabhaengig primaerquellennah gedeckt (MuKEn 2025, Anhang 6, Standardmassnahme 5). Ein
+  Warnvermerk haette einen gesicherten Grenzwert als unsicher markiert.
+  (2) *Abnahme Komfortlueftung ohne Verweis auf die Private Kontrolle* — die werkvertragliche
+  Abnahmemessung und der oeffentlich-rechtliche Nachweis nach BBV I § 4 sind zwei verschiedene
+  Dinge; der Vorschlag haette sie gleichgesetzt und EN-105 falsch bezeichnet.
+  (3) *Gebaeudeautomation ohne Verweis auf EN-135* — **EN-135 sind «Beheizte Freiluftbaeder»**;
+  Gebaeudeautomation ist **EN-141** (Befugnis He *und* Kl). Der Vorschlag haette einen frischen
+  Sachfehler in einen `established`-Artikel geschrieben.
+
+Bericht: `wissen/koordination/outputs/2026-08-13_wissens-chef-run31.md`.
+
 ## 2026-08-13 (Run 129) — Raummodule je Raumtyp, erste Healthcare-Quelle der KB, neue Datierungsfalle
 
 **Sparbetrieb**, fünf Destillier-Agenten auf Sonnet, kein Refuter-Panel. **6 PDF geprüft, 5

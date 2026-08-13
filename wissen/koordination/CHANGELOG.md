@@ -3,6 +3,49 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-13 — Wissens-Chef Run 31 (Abendlauf, 21 h nach Run 30)
+
+- **Bericht:** `outputs/2026-08-13_wissens-chef-run31.md`. Delta seit Run 30: **75 geaenderte
+  Dateien** in `wissen/` (deutlich ueber der in Run 29 vorgeschlagenen Schwelle von rund 40),
+  Schwerpunkt `normen` Run 50 (20 ABB-Destillate nachgeprueft) und `energie` Run 129 (AHB-Ordner
+  14, erste Healthcare-Quelle). Zuschnitt daher wieder breit: **5 Melder-Felder + 9 Refuter**
+  (14 Agenten, 2,25 Mio Token), in zwei getrennten Workflows, damit der Hauptprozess zwischen
+  Melden und Widerlegen selbst urteilt.
+- **Ergebnis der Gegenpruefung: 6 Meldungen, 1 bestaetigt, 4 widerlegt, 1 bereits bekannt.** Das
+  ist die schaerfste Refuter-Bilanz seit Einfuehrung der Stufe — und der eigentliche Befund des
+  Laufs: **in drei der vier widerlegten Faelle war nicht nur die Meldung falsch, sondern der
+  mitgelieferte Korrekturvorschlag selbst fehlerhaft.** Am deutlichsten bei EN-135: der Melder
+  hielt es fuer das Formular «Gebaeudeautomation», es sind «Beheizte Freiluftbaeder» (richtig ist
+  EN-141). Ein Lauf ohne Refuter haette die KB verschlechtert.
+- **Bestaetigt und umgesetzt (SIA 386.111:2022, Gebaeudeautomation/BACS):** `energie` fuehrte die
+  vollstaendige amtliche Ausgabenkette seit Run 106, `normen` kannte die Norm gar nicht (0 Treffer
+  «386»/«BACS»/«52120»). Registerzeile in `normen/wiki/REGISTER.md` gesetzt — **ohne
+  Inhaltsaussage**, weil der Volltext nicht im Bestand ist (Praezedenz VA 105-01); Rueckverweis im
+  energie-Destillat; neue Matrix-Zeile in QUERBEZUEGE nach dem SWKI-Muster. Der Refuter hat dabei
+  einen Teil des Vorschlags **verworfen**: ein Eintrag in `destillate/INDEX.md` oder ein
+  normen-Destillat waere ein Regelverstoss gewesen (nur der destillierende Lauf legt Destillate
+  an, QUERBEZUEGE Z. 60).
+- **Drei Korrekturen, die der Hauptprozess selbst fand — alle in der BKP-/Fundstellen-Familie:**
+  (1) Die aus Run 30 uebergebene, dort offen gebliebene Zeile `normen/destillate/INDEX.md` Z. 22
+  (Bedeutungsumkehr Arbeitsgerueste Betonbau) korrigiert. (2) **Neu:** `sia-118-262-2004.md`
+  Z. 161 nannte «BKP 241/242 Baumeisterarbeiten Beton/Ortbeton» und «BKP 291 Statik/Bauingenieur»
+  — **241 und 243 existieren im BKP 2017 nicht**, **242 ist Heizungsanlagen**, **291 ist der
+  Architekt**. Run 50 hatte genau diese Fehlerfamilie in `sia-118-267-2004.md` korrigiert und
+  dieses Destillat nicht mitgezogen. Korrigiert auf BKP 211/211.5, 212 und 292. (3) Mechanischer
+  Sweep aller «BKP nnn»-Nennungen in `wissen/`, `skills/`, `rules/` gegen die 846 gueltigen Codes
+  der offiziellen Liste: der einzige lebende Treffer ausserhalb von `raw/` und Laufberichten ist
+  `skills/ausschreibung/projekte/2620-albertstrasse-7.md` mit vier ungueltigen Codes
+  (272.5 · 275.0 · 285.00 · 250) — **Klassenfall 271.10, Ticket N43-1**. Nach der von Rule
+  `bkp-2017-referenz` vorgeschriebenen Form auf `LOS <Nr.>` umgestellt, **ohne eine einzige Nummer
+  zu aendern** (sie stehen so in den versandten LV); echter Code je Zeile daneben, Briefkasten
+  bewusst offen gelassen statt geraten.
+- **Nicht geaendert:** Ticket **T-Regelgeschoss** (HNF/GF 0.70 vs. 0.75) bleibt Fachentscheid
+  Raphaels, seit Run 15 offen; keine der beiden Stellen wurde still umgestellt.
+- **Schreib-Kontrolle** nach Rule 260811: Zeilenzahl aller bearbeiteten Dateien gegen HEAD
+  geprueft, **keine Datei hat Bestand verloren** (alle Aenderungen additiv oder zeilengleich).
+- Keine Mail (Loop still by default, Rule 260803); ein operativer Hinweis fuer das Tagesbriefing
+  im Bericht markiert.
+
 ## 2026-08-13 — Synergie-Lauf 06 (zweiter Lauf im Tagestakt)
 
 - **Bericht:** `outputs/2026-08-13_synergie-lauf-06.md`. Delta-Basis 13.08.2026 01:35,

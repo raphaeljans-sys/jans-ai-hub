@@ -1,5 +1,20 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-13c (Mac Mini Nachtschicht 23:30) — ERCO Ratgeber Teil 2/n: Simulation und Berechnung + Planungsbeispiele (S.375-426)
+
+Fortsetzung der ERCO-Lichtplanungs-Destillation (BKP 233) ab dem in Teil 1 markierten
+Kapitelbruch S.375. Neuer Artikel `erco-lichtplanung-simulation-berechnung.md`: Hauptkapitel
+«Simulation und Berechnung» vollständig (Lichtsimulations-Ablauf 3D-Modell/Oberfläche/Licht/
+Rendering, Hardware/Software DIALux/Autodesk/Radiance, sechs Berechnungsformeln inkl.
+Anschlussleistung/UGR-Verfahren/Wartungsfaktor/Beleuchtungskosten-Payback, Planungsdaten-
+Formate IES/Eulumdat/DXF/i-drop) sowie «Planungsbeispiele» (sechs Referenzprojekte: Chiesa
+Dives in Misericordia, Brandenburger Tor, Ara Pacis, Schottisches Parlament, BMW Mini
+Autohaus, Film Tune the light) + Virtual Prototyping. Budgetbedingt (Nachtschicht-Deckel)
+Bild-Reads nach den ersten 45 Seiten auf `pdftotext -layout` umgestellt (deutlich günstiger,
+gleiche Vollständigkeit für reinen Fliesstext). Offen: Kapitel «Glossar» S.427-435, Buchstaben
+A-E bereits per Textextraktion gesichtet, noch nicht einzeln destilliert — Folgelauf würde das
+435-seitige Dokument vollständig abschliessen. Inventar/INDEX nachgeführt.
+
 ## 2026-08-13b — Outputs-Report: Duschwanne im Nischeneinbau, Rohlichtmass und Wandanschluss (Schmidlin)
 
 Fortsetzung des Duschwannen-Rücklaufs aus 2619 KISPI: Wandanschluss-System gemäss

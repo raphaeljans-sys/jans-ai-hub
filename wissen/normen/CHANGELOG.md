@@ -1,3 +1,39 @@
+## 2026-08-13 — Fremdlauf `wissens-chef` Run 31: drei Nachtraege, die Run 50 offen liess
+
+Geschrieben vom Wissens-Chef (Cross-KB-Aufsicht), nicht von einem `normen`-Lauf. Alle drei Punkte
+sind am Original bzw. an `references/bkp-2017/BKP-2017-Liste.md` belegt, keiner beruht auf einer
+Ableitung.
+
+1. **`destillate/INDEX.md` Z. 22 (SIA 118/262) — Bedeutungsumkehr korrigiert.** Die
+   Zusammenfassungsspalte trug weiterhin «Arbeitsgerueste fuer Beton NICHT inbegriffen (anders als
+   Mauerwerk-ABB)», obwohl Run 49/50 diese Aussage im Destillat und im Wiki-Artikel als **falsch**
+   nachgewiesen und korrigiert hatten. Run 50 hat die Zeile angefasst (Status-Vermerk ergaenzt),
+   die Sachspalte aber nicht mitgezogen — die Uebergabe aus `wissens-chef` Run 30 blieb liegen.
+   Neu: Ziff. 8.4.2.2 (nicht verguetet, also im Werkpreis inbegriffen, sofern das LV keine
+   getrennten Positionen fuehrt), Ziff. 8.4.2.3 (Lehr-/Schutz-/besondere Gerueste stets getrennt)
+   und die richtiggestellte Mauerwerk-Parallele (gleiche Systematik, nur ohne 3,0-m-Grenze).
+2. **`destillate/sia-118-262-2004.md` Z. 161 — drei falsche BKP-Codes.** Die Abnehmer-Zeile zum
+   Skill `ausschreibung` nannte «BKP 241/242 Baumeisterarbeiten Beton/Ortbeton» und «BKP 291
+   Statik/Bauingenieur». Run 50 hatte dieselbe Fehlerfamilie in `sia-118-267-2004.md` bereits
+   korrigiert und dort festgehalten, dass **241 und 243 im BKP 2017 nicht existieren** und **242
+   «Heizungsanlagen»** ist — dieses Destillat wurde nicht mitgezogen. Am systematischen Teil
+   gegengeprueft (Hauptgruppe 24 HLK fuehrt 240 · 242 · 244 · 245). Korrigiert auf **BKP 211**
+   (mit 211.5 Beton- und Stahlbetonarbeiten), **BKP 212** fuer die Betonfertigteile nach Ziff. 8.6
+   und **BKP 292 Bauingenieur** (291 ist der Architekt), mit Herleitung und Verweis auf Rule
+   `bkp-2017-referenz`.
+3. **`wiki/REGISTER.md` — Neuzugang SIA 386.111:2022 (Gebaeudeautomation/BACS).** Die KB kannte
+   diese Norm bisher gar nicht (0 Treffer fuer «386» ausser der Fremdfamilie DIN EN 386, 0 fuer
+   «BACS», 0 fuer «52120»), waehrend `energie` seit Run 106 die vollstaendige amtliche
+   Ausgabenkette fuehrt und im Pflichtenheft-Artikel ausdruecklich «fuer die normative Seite»
+   dorthin verweist. Registerzeile gesetzt zwischen SIA 385/12 und SIA 387/4, **bewusst ohne
+   Inhaltsaussage**: der Volltext ist nicht im Bestand und nicht gelesen (CHF 144.–), Praezedenz
+   VA 105-01 (Z. 425). Kein Destillat und kein `destillate/INDEX.md`-Eintrag — nur der
+   destillierende Lauf darf eine Destillatdatei anlegen (QUERBEZUEGE Z. 60). Der Primaerbeleg
+   bleibt in `wissen/energie/destillate/sia-386-bacs-gebaeudeautomation.md`, das seinerseits einen
+   Rueckverweis erhalten hat; Zustaendigkeit als Matrix-Zeile in QUERBEZUEGE geregelt.
+
+Bericht: `wissen/koordination/outputs/2026-08-13_wissens-chef-run31.md`.
+
 ## 2026-08-13 (Run 50) — die 79 Kernbefunde am Original nachgeprueft: 79 bestaetigt, 0 widerlegt, null Marker uebrig
 
 Die Uebergabe aus Run 49 ist abgearbeitet. Zwei Flotten mit zusammen 33 Agenten (17 Nachpruefer am
