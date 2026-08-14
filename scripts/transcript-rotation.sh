@@ -15,23 +15,92 @@
 # NICHT geloescht wird etwas ohne Archiv. Bei jeder Unstimmigkeit bricht das
 # Script ab und laesst die Originale unangetastet.
 #
+# ARCHIVORT (Entscheid Raphael 14.08.2026): das NAS, NICHT der lokale Mac und
+# NICHT das Hub-Repo. Das Repo wird nach GitHub gepusht — 1.8 GB Binaerarchive
+# waeren dort unumkehrbar (Git behaelt jede Version), und Transcripts enthalten
+# Mailinhalte, Kundennamen und Projektinterna, die in kein GitHub-Backup
+# gehoeren. Deshalb ein NAS-Ordner AUSSERHALB von jans-ai-hub/.
+#
+# Ist das NAS nicht gemountet (mobile Station), archiviert das Script lokal
+# weiter und schiebt den Rueckstand beim naechsten Lauf mit Mount aufs NAS
+# nach. Die Rotation darf nie daran scheitern, dass gerade kein NAS da ist.
+#
+# VERFALL (Entscheid Raphael 14.08.2026): Archive aelter als VERFALL_TAGE
+# werden geloescht — der Wissenswert der Sessions liegt bereits destilliert in
+# logbuch/konversationen/ (412 kB gegen 1.8 GB Rohdaten) und bleibt unbefristet.
+# Das juengste Archiv wird NIE geloescht, auch wenn es die Frist reisst.
+#
 # Aufruf: via launchd ch.jans.transcript-rotation (woechentlich, So 04:00)
-# Archiv: ~/.claude/transcript-archiv/transcripts-bis-YYMMDD.tar.gz
+# Archiv: /Volumes/daten/06_Claude_Archiv/transcripts/<Station>/transcripts-bis-YYMMDD.tar.gz
+#         Rueckfall lokal: ~/.claude/transcript-archiv/
 # Log:    logbuch/speicher/transcripts-<Station>.log auf dem NAS
 # ============================================================================
 
 set -uo pipefail
 
 ALTER_TAGE="${ALTER_TAGE:-14}"
+VERFALL_TAGE="${VERFALL_TAGE:-180}"
 STATION="$(hostname -s)"
-ARCH="$HOME/.claude/transcript-archiv"
+ARCH_LOKAL="$HOME/.claude/transcript-archiv"
+ARCH_NAS="/Volumes/daten/06_Claude_Archiv/transcripts/${STATION}"
 LOGDIR="/Volumes/daten/jans-ai-hub/logbuch/speicher"
 LOGFILE="$LOGDIR/transcripts-${STATION}.log"
+
+# Zielordner waehlen: NAS wenn erreichbar UND beschreibbar, sonst lokal.
+if mkdir -p "$ARCH_NAS" 2>/dev/null && [ -w "$ARCH_NAS" ]; then
+    ARCH="$ARCH_NAS"
+    NAS_DA=1
+else
+    ARCH="$ARCH_LOKAL"
+    NAS_DA=0
+fi
 
 log() {
     mkdir -p "$LOGDIR" 2>/dev/null
     echo "$(date '+%Y-%m-%d %H:%M:%S') [$STATION] $*" >> "$LOGFILE" 2>/dev/null
 }
+
+# --- Verfall: Archive aelter als VERFALL_TAGE entfernen ----------------------
+# Laeuft bei JEDEM Lauf, auch wenn nichts zu archivieren war — sonst verfaellt
+# in ruhigen Wochen nie etwas. Das juengste Archiv bleibt IMMER stehen, damit
+# nie ein Zustand ganz ohne Sicherung entsteht.
+verfall_pruefen() {
+    [ -d "$ARCH" ] || return 0
+    local gesamt juengstes
+    gesamt=$(ls -1 "$ARCH"/transcripts-bis-*.tar.gz 2>/dev/null | wc -l | tr -d ' ')
+    [ "$gesamt" -le 1 ] && return 0
+    juengstes=$(ls -t "$ARCH"/transcripts-bis-*.tar.gz 2>/dev/null | head -1)
+
+    local n=0 mb=0
+    while IFS= read -r f; do
+        [ -n "$f" ] || continue
+        [ "$f" = "$juengstes" ] && continue
+        mb=$((mb + $(du -sm "$f" 2>/dev/null | awk '{print $1}')))
+        rm -f "$f" && n=$((n + 1))
+    done < <(find "$ARCH" -maxdepth 1 -name "transcripts-bis-*.tar.gz" -mtime +${VERFALL_TAGE} 2>/dev/null)
+
+    [ "$n" -gt 0 ] && log "Verfall: ${n} Archiv(e) aelter als ${VERFALL_TAGE} Tage entfernt (${mb} MB)."
+    return 0
+}
+
+# --- Nachschub: liegengebliebene lokale Archive aufs NAS holen ---------------
+# Heilt den Fall "unterwegs ohne Mount archiviert". Verschoben wird nur, was
+# auf dem NAS noch nicht liegt; bei Namensgleichheit bleibt die lokale Datei
+# stehen und wird beim naechsten Lauf erneut angeboten (nie stillschweigend
+# ueberschreiben).
+if [ "$NAS_DA" -eq 1 ] && [ -d "$ARCH_LOKAL" ]; then
+    VERSCHOBEN=0
+    for f in "$ARCH_LOKAL"/transcripts-bis-*.tar.gz; do
+        [ -e "$f" ] || continue
+        if [ -e "$ARCH_NAS/$(basename "$f")" ]; then
+            log "Nachschub: $(basename "$f") liegt bereits auf dem NAS — lokal belassen."
+            continue
+        fi
+        mv "$f" "$ARCH_NAS"/ 2>/dev/null && VERSCHOBEN=$((VERSCHOBEN + 1))
+    done
+    [ "$VERSCHOBEN" -gt 0 ] && log "Nachschub: ${VERSCHOBEN} lokale(s) Archiv(e) aufs NAS verschoben."
+    rmdir "$ARCH_LOKAL" 2>/dev/null   # entfernt sich nur, wenn wirklich leer
+fi
 
 PROJDIR="$HOME/.claude/projects"
 [ -d "$PROJDIR" ] || { log "Kein Projektverzeichnis — nichts zu tun."; exit 0; }
@@ -48,6 +117,7 @@ N=$(tr -dc '\0' < "$LISTE" | wc -c | tr -d ' ')
 
 if [ "$N" -eq 0 ]; then
     rm -f "$LISTE"
+    verfall_pruefen
     # Still-by-default: nur alle 30 Tage eine Lebendzeile.
     LETZTE=$(tail -1 "$LOGFILE" 2>/dev/null | cut -c1-7)
     [ "$LETZTE" != "$(date '+%Y-%m')" ] && log "OK — nichts aelter als ${ALTER_TAGE} Tage."
@@ -81,6 +151,9 @@ rm -f "$LISTE"
 
 NACHHER=$(du -sm "$PROJDIR" 2>/dev/null | awk '{print $1}')
 ARCHGROESSE=$(du -sm "$ZIEL" 2>/dev/null | awk '{print $1}')
-log "Rotation: ${N} Dateien archiviert (${ARCHGROESSE} MB). Projektordner ${VORHER} MB -> ${NACHHER} MB."
+[ "$NAS_DA" -eq 1 ] && ORT="NAS" || ORT="lokal (NAS nicht gemountet)"
+log "Rotation: ${N} Dateien archiviert (${ARCHGROESSE} MB, ${ORT}). Projektordner ${VORHER} MB -> ${NACHHER} MB."
+
+verfall_pruefen
 
 exit 0

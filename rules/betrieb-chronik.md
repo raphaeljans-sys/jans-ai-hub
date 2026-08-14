@@ -101,6 +101,42 @@ Schalter bedient Raphael selbst): **33 GB materialisiertes OneDrive**, davon
 (Spotify 2.0 G, Comet 982 M, Adobe 832 + 475 M), die ein App-Beenden brauchen, sowie
 `/Library/Developer` 9.0 G (Xcode-Simulatoren) und `~/.diffusionbee` 2.3 G.
 
+## 260814d — Transcript-Archiv aufs NAS ausserhalb des Repos, Verfall nach 6 Monaten
+
+Entscheid Raphael 14.08.2026 auf die Frage «gehoert das nicht aufs NAS?». Ja — mit einer
+Praezisierung, die den Unterschied macht: **NICHT ins Hub-Repo.**
+`/Volumes/daten/jans-ai-hub/` wird nach GitHub gepusht; 1.8 GB Binaerarchive waeren dort
+unumkehrbar, weil Git jede Version dauerhaft behaelt. Dazu enthalten Transcripts
+Mailinhalte, Kundennamen und Projektinterna, die in kein GitHub-Backup gehoeren — auch
+nicht in ein privates. Genau darum schliesst `.gitignore` Zeile 50 `.claude/*` bereits aus.
+Neuer Ort deshalb **ausserhalb** des Repos:
+`/Volumes/daten/06_Claude_Archiv/transcripts/<Station>/`.
+
+**Der Verfall folgt aus einer Messung, nicht aus Sparsamkeit:** der Wissenswert der Sessions
+liegt bereits destilliert in `logbuch/konversationen/` — **412 kB gegen 1.8 GB Rohdaten**,
+im Git und gebackupt. Das tar-Archiv ist reine Rohdaten-Rueckversicherung hinter einem
+Destillat, das es schon gibt, und waechst um rund 600 MB pro Woche (~30 GB/Jahr) auf ein zu
+93 % belegtes NAS. Frist deshalb **180 Tage**; der Bestand pendelt sich bei rund 15 GB ein.
+
+`scripts/transcript-rotation.sh` an drei Stellen erweitert, Kern unveraendert gelassen:
+(1) **Zielwahl** NAS wenn gemountet und beschreibbar, sonst lokaler Rueckfall — die Rotation
+darf nie daran scheitern, dass die mobile Station gerade keinen Mount hat. (2) **Nachschub**:
+liegengebliebene lokale Archive wandern beim naechsten Lauf mit Mount aufs NAS, bei
+Namensgleichheit bleibt die lokale Datei stehen statt still ueberschrieben zu werden.
+(3) **`verfall_pruefen()`**, aufgerufen an BEIDEN Ausstiegen — auch im Zweig «nichts zu
+archivieren», sonst verfaellt in ruhigen Wochen nie etwas. Das juengste Archiv bleibt immer
+stehen, damit nie ein Zustand ganz ohne Sicherung entsteht.
+
+Erster Lauf: fuenf Archive (1.8 GB) verschoben, alle fuenf nach dem SMB-Transfer mit
+`tar tzf` gegengeprueft (4 / 1912 / 948 / 581 / 2508 Dateien, deckungsgleich mit dem
+Rotations-Log), lokaler Ordner leer und entfernt, `~/.claude` 3.6 → 1.8 GB. Verfall heute
+0 Treffer, alle Archive sind aus Juli/August.
+
+**Stolperstein fuer die naechste Aenderung:** der launchd-Job `ch.jans.transcript-rotation`
+laedt das Script **zuerst aus dem SSD-Klon** (`$HOME/Developer/…`) und erst als Rueckfall vom
+NAS. Eine Aenderung nur auf dem NAS wirkt also erst, wenn der SSD-Klon nachgezogen ist —
+nach jedem Script-Edit `git -C ~/Developer/jans-ai-hub log -1 -- scripts/<datei>` pruefen.
+
 ## 260814c — Routinen-Pruefung MacBook Pro: Kontingent frei, `station-status`-Exit-2 ist gewollt, `session-env` und Transcripts geraeumt
 
 Auftrag Raphael («Routinen pruefen, kommt das System an seine Grenzen?»). Ergebnis: **die

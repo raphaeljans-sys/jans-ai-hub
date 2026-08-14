@@ -23,6 +23,15 @@ gegengeprüft). Das Archiv wächst wöchentlich und liegt bisher nur lokal, also
 Gegenargument: das NAS ist zu **93 % belegt** (477 GB von 6 TB frei). Entscheid Raphael
 nötig, ob auslagern oder ob ältere Archive (bis 260728, 853 MB) verfallen dürfen. Status:
 **zu prüfen.** | Beleg: `rules/betrieb-chronik.md` 260814c
+**Nachtrag 14.08.2026, 16:40 (Entscheid Raphael): ERLEDIGT — aufs NAS, Verfall 6 Monate.**
+Ziel ist bewusst **ausserhalb** des Hub-Repos:
+`/Volumes/daten/06_Claude_Archiv/transcripts/<Station>/` (im Repo wären die Archive über
+GitHub unumkehrbar und enthielten Kundendaten). Alle fünf Archive (1.8 GB) verschoben und
+nach dem Transfer einzeln mit `tar tzf` gegengeprüft; `~/.claude` von 3.6 auf 1.8 GB.
+`transcript-rotation.sh` schreibt künftig direkt aufs NAS, mit lokalem Rückfall ohne Mount
+und Nachschub beim nächsten Lauf. Verfall 180 Tage, das jüngste Archiv bleibt immer stehen.
+Die Destillate in `logbuch/konversationen/` bleiben unbefristet. Beleg:
+`rules/betrieb-chronik.md` 260814d
 
 Eintrag 14.08.2026, 14:30 (interaktive Session RJ, Türfachplanung 2619 KISPI):
 
