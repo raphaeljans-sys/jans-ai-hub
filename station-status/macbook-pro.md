@@ -1,11 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 14:32:44
+Stand: 14.08.2026 14:43:01
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/explanation/request/0b0aab  (letzte Aktivitaet 14:31)
-- Developer/jans/ai/hub//claude/worktrees/systemdateien/optimierung/84ae11  (letzte Aktivitaet 14:10)
-- Developer/jans/ai/hub  (letzte Aktivitaet 14:10)
+- Developer/jans/ai/hub  (letzte Aktivitaet 14:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -21,4 +20,4 @@ Stand: 14.08.2026 14:32:44
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- bbe29f93 Rule 260814b: Modellwahl interaktiv - Opus 5 Standard, Fable 5 nur punktuell
+- fc72fdaf Chronik 260814d: Systemdaten nachgemessen, 5 GiB Cache geraeumt, OneDrive-Doppelzaehlung als Messfalle belegt
