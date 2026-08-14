@@ -29,6 +29,15 @@ Beim Suchen nach E-Mails **IMMER Apple Mail via osascript als primaere Quelle** 
 Grund: Apple Mail aggregiert alle Konten (M365 + iCloud + mail@raphaeljans.ch).
 Der M365-Graph-API-Zugriff deckt nur rj@raphaeljans.ch ab und verpasst iCloud-Mails.
 
+> ⚠ **Zwei bekannte Fallen in den Skripten unten** (eingetragen 14.08.2026, Synergie-Lauf 07):
+> **(1)** `tell application "Mail"` ist auf macOS Tahoe der falsche Aufruf — er konfligiert mit
+> der QuickLook-Erweiterung. Verbindlich ist die Bundle-ID `application id "com.apple.mail"`
+> (Rule `osascript-apple-apps.md`, importiert). Die drei Bloecke hier sind noch nicht
+> nachgezogen. **(2)** Der `whose`-Filter greift auf frisch synchronisierten Nachrichten
+> nicht zuverlaessig und liefert dann still nichts (`connectors/WEGE.md`, Eintrag 14.08.).
+> Fuer belegbare Treffer die juengsten Nachrichten je Postfach enumerieren und selbst
+> vergleichen, statt dem leeren Filterergebnis zu glauben.
+
 ### Schritt 1: Alle Konten durchsuchen (Apple Mail)
 ```applescript
 tell application "Mail"

@@ -12,6 +12,15 @@ Layout: Cambria 11pt, A4, 20 mm Raender, schwarz, dezente Tabellenlinien
 Unterstuetzt: # / ## / ### Ueberschriften, Pipe-Tabellen, Aufzaehlungen (-, *),
 nummerierte Listen, Blockzitate (>), Code-Bloecke (```), **fett**, `code`, --- Trennlinie.
 
+⚠ OFFEN seit 14.08.2026 (Synergie-Lauf 07, SYN-27): Die Rule dokument-layout-standard.md
+verbietet in AUSGEHENDEN Dokumenten seit dem 14.08.2026 Aufzaehlungs-Bullets (weder «•»
+noch «-») und verlangt stattdessen nummerierte Positionen im Fliesstext (Themenblock 01,
+02 …; Positionen 01.1, 01.2 … mit fetter Nummer und fettem Stichwort). Dieser Konverter
+setzt eine «- »-Zeile weiterhin als Word-Bullet (style="List Bullet", siehe unten) und ist
+damit NICHT auf dem Stand der Rule. Bis zur Umstellung gilt: fuer ausgehende Dokumente die
+Positionen bereits in der MD-Quelle nummeriert schreiben, nicht als Bullet-Liste — der
+Konverter heilt das nicht. Interne Arbeitsdokumente duerfen Bullets behalten.
+
 Zeilenumbrueche (seit 30.07.2026): EINGERUECKTE Fortsetzungszeilen werden an ihren Block
 angehaengt (siehe _unwrap). Damit werden umbrochene Listenpunkte wieder ein Absatz und ein
 ueber den Umbruch laufendes **fett** wird erkannt. NICHT eingerueckte Folgezeilen bleiben

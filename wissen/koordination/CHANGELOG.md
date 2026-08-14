@@ -3,6 +3,29 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-14 — Synergie-Lauf 07 (Tagestakt, 23,5 h nach Lauf 06)
+
+- **Bericht:** `outputs/2026-08-14_synergie-lauf-07.md`. Delta-Basis 13.08.2026 17:35,
+  124 Commits. Uhr- und Gegenprobe bestanden (Station 17:10 CEST gegen Synology
+  `2026-08-14T17:00:01`; neuester Commit im Fenster = HEAD `91615d12`).
+- **Strukturelles Delta:** 0 neue Bausteine, aber 3 geaenderte Rules und `connectors/WEGE.md`
+  — Frueh-Ausstieg griff nicht. Thema: **vier neue Regeln vom 14.08., die alle mit «ergaenzt
+  Rule X» enden; in drei Faellen ergaenzt die genannte Rule nichts zurueck.**
+- **Neu: SYN-27, SYN-28, SYN-29.** SYN-27 (offen): die Listen-Neuregelung vom 14.08. (keine
+  Bullets in ausgehenden Dokumenten) erreicht die Werkzeugschicht nicht — `md2docx.py` Z. 192
+  setzt weiterhin «List Bullet», `build-document.template.js` Z. 81 ff. weiterhin `itemBold`;
+  Warnhinweise gesetzt, Umstellung braucht Raphaels Vorgabe. SYN-28: die neue Apple-Mail-
+  `whose`-Sackgasse stand nur im Wege-Register, nicht an den beiden Stellen, die den Filter
+  benutzen (Teil a umgesetzt); dabei fiel auf, dass `email-preferences/SKILL.md` als einzige
+  Hub-Datei noch `tell application "Mail"` statt der Bundle-ID nutzt (Teil b offen).
+  SYN-29 (umgesetzt): Gegenkanten in `interaktive-eingriffe.md` (inhaltlicher Widerspruch zur
+  neuen Cloud-Schalter-Regel) und `modellwahl-routine.md` (Opus-5-Default, Fable-Ausnahme).
+- **Eigenbefund:** zwei Werkzeugfallen im Lauf selbst (abbrechende `&&`-Kette bei leerem grep,
+  zsh-expandierte `--include`-Muster). Beide Messungen wiederholt; haette der Lauf der ersten
+  geglaubt, waere er faelschlich als Nulldelta beendet worden.
+- **Schreib-Kontrolle:** 7 Dateien, 2 geloeschte Zeilen, beide beabsichtigte
+  Zeilenersetzungen am Anker. Keine Datei hat Bestand verloren.
+
 ## 2026-08-13 — Wissens-Chef Run 31 (Abendlauf, 21 h nach Run 30)
 
 - **Bericht:** `outputs/2026-08-13_wissens-chef-run31.md`. Delta seit Run 30: **75 geaenderte

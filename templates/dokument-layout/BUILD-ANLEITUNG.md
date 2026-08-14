@@ -1,5 +1,13 @@
 # Build-Anleitung Dokument-Layout (ausgelagert aus Rule dokument-layout-standard, 19.07.2026)
 
+> ⚠ **Listen-Neuregelung 14.08.2026 noch nicht in der Vorlage abgebildet** (Synergie-Lauf 07,
+> SYN-27): Rule `dokument-layout-standard.md` verbietet in ausgehenden Dokumenten
+> Aufzaehlungs-Bullets und verlangt **nummerierte Positionen** (Themenblock 01, 02 …;
+> Positionen 01.1, 01.2 … mit fetter Nummer und fettem Stichwort). Der Helper `itemBold`
+> und die Referenz `items` in `build-document.template.js` (Z. 81 ff.) erzeugen weiterhin
+> Bullet-Listen. Bis zur Umstellung fuer ausgehende Dokumente `itemNum` bzw. nummerierte
+> Absaetze verwenden, nicht `itemBold`.
+
 ## Generator-Vorlage
 
 Fertige docx-js Vorlage: `/Volumes/daten/jans-ai-hub/templates/dokument-layout/build-document.template.js`

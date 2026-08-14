@@ -12,7 +12,13 @@ Guard unbeaufsichtigt zurueckhalten wuerde.**
 
 1. **Git-Interna** — alles unterhalb von `.git/`: Rebase-/Merge-Marker, `index.lock`,
    `MERGE_HEAD`, `update-ref`, `stash drop|clear`, `reflog expire`, `gc --prune`.
-2. **Cloud-Sync und FileProvider** — OneDrive, Dropbox, Google Drive, iCloud: Sync-Ordner
+2. **Cloud-Sync und FileProvider** — ⚠ **fuer diese Klasse gilt seit 14.08.2026 mehr als
+   Ankuendigen:** die systemseitigen Schalter (OneDrive-/Dropbox-Einstellungen, «Dateien bei
+   Bedarf», Finder «Speicherplatz freigeben»/«Nur online verfuegbar») bedient **Raphael
+   selbst**. Claude misst, waehlt Kandidaten-Ordner aus und liefert den exakten Klickweg,
+   loest aber keine Sync- oder Systemprozesse dafuer aus — auch nicht nach Ankuendigung
+   (Rule `auto-verbesserungen` 260814). Die uebrigen Cloud-Eingriffe unten bleiben bei der
+   Ankuendigungspflicht. Betroffen: OneDrive, Dropbox, Google Drive, iCloud: Sync-Ordner
    umbenennen/verschieben, FileProvider-Domains oder -Caches anfassen, Platzhalter-Dateien
    materialisieren oder loeschen, Sync-Prozesse beenden.
 3. **Keychain und Credentials** — `security`-Aufrufe, die schreiben oder entsperren,

@@ -38,7 +38,10 @@ Belege, Messwerte und der Rollout-Stand stehen in `rules/betrieb-chronik.md`, Ab
    ein Konfigurationsfeld setzen und den Verbrauch damit als gesenkt betrachten**, ohne die
    Wirkung gemessen zu haben.
 
-5. **Manuelle Auftraege bleiben unberuehrt.** Raphael arbeitet selbst; jede interaktive
+5. **Manuelle Auftraege bleiben unberuehrt.** Das Standardmodell interaktiver Sessions ist
+   seit 14.08.2026 **Opus 5**; **Fable 5** nur punktuell und nur durch Raphael via `/model`
+   (Rule `auto-verbesserungen` 260814b). Scheduled Tasks und Loops werden **nie** auf Fable
+   gestellt — fuer sie gilt ausschliesslich diese Rule. Raphael arbeitet selbst; jede interaktive
    Session ist ein Operator-Auftrag und laeuft im Standardmodell. Ebenso Diagnose bei
    unerwartetem Fehlschlag, neue Sachverhalte und P1-Blocker.
 

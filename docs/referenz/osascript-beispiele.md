@@ -41,6 +41,22 @@ tell application id "com.apple.iCal"
 end tell
 ```
 
+## ⚠ Der `whose`-Filter ist keine verlaessliche Suche (14.08.2026)
+
+Ein `whose`-Filter auf Nachrichten (`messages of mb whose subject contains "…"`,
+`whose sender contains "…"`) liefert auf **frisch synchronisierten** Nachrichten still
+«nicht gefunden», obwohl die Mail im Postfach liegt — belegt am Hub-Chef-Briefing vom
+14.08.2026 (gesendet 08:51:44, per Filter nicht auffindbar, per Enumeration sofort).
+Ein leeres Ergebnis ist hier eine Aussage ueber den Filter, nicht ueber das Postfach; wer
+ihm glaubt, protokolliert einen erfolgreichen Versand als Fehlschlag und sendet womoeglich
+ein zweites Mal.
+
+**Stattdessen enumerieren und den Betreff selbst vergleichen** (`item i of (messages of mb)`,
+die juengsten Nachrichten je Konto). Sackgassen-Eintrag: `connectors/WEGE.md`.
+
+Das Beispiel unten bleibt gueltig, weil es **ausgehende Entwuerfe** (`outgoing message`) im
+eigenen Prozess betrifft und nicht die synchronisierte Postfach-Suche.
+
 ## Test-Drafts aufraeumen
 
 ```bash
