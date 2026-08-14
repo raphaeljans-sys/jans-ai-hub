@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 17:17:10
+Stand: 14.08.2026 17:27:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:16)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 14.08.2026 17:17:10
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 65e3ec43 nas-selfcommit: 3 Datei(en) 2026-08-14 17:15
+- 21bb315f Synergie-Lauf 07 (14.08.): SYN-27 Listen-Neuregelung erreicht Generatoren nicht (offen), SYN-28 Apple-Mail-whose-Sackgasse + Bundle-ID, SYN-29 zwei einseitige Regel-Kanten geheilt
