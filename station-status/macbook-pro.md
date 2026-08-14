@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 08:42:41
+Stand: 14.08.2026 08:52:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 14.08.2026 08:42:41
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- d9f29857 nas-selfcommit: 1 Datei(en) 2026-08-14 08:30
+- 4819d540 hub-chef: Tagesbriefing 14.08. gesendet (Stevanovic-Frist ohne Ruecklauf), A2 Kalendereintrag, Register nachgefuehrt

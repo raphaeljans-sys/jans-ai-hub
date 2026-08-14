@@ -195,6 +195,7 @@ Wer hier steht, muss nicht nochmals probiert werden.
 | 09.08. | `mdfind` über `~/Library/Mail` | Der Mail-Index ist auf dieser Station im Zustand «unknown indexing state», liefert nichts. Apple Mail per osascript durchsuchen. |
 | 30.07. | `git` über den SMB-Mount aufs NAS-Repo | Hängt uninterruptibel, blockiert `index.lock`. Nur `scripts/nas-commit-now.sh`. |
 | 07.08. | `grep` auf `sync-tasks/log/selfcommit-*.log` | Die Datei ist nicht UTF-8, `grep` behandelt sie als binär und liefert still nichts. Mit `awk 'substr($0,1,10)=="JJJJ-MM-TT"'` arbeiten. |
+| 14.08. | Apple Mail, Versandbeleg suchen über `messages of mb whose subject contains "<Text>"` | Liefert **still «nicht gefunden»**, obwohl die Mail in «Gesendete Elemente» liegt (belegt am Hub-Chef-Briefing 14.08., gesendet 08:51:44, gefunden erst per Enumeration). Der `whose`-Filter greift auf frisch synchronisierten Nachrichten nicht zuverlässig. **Stattdessen die drei jüngsten Nachrichten je Konto enumerieren** (`item i of (messages of mb)`) und den Betreff selbst vergleichen. Ein leeres Ergebnis ist hier eine Aussage über den Filter, nicht über das Postfach — wer ihm glaubt, protokolliert einen erfolgreichen Versand als Fehlschlag und sendet womöglich ein zweites Mal. |
 
 ---
 
