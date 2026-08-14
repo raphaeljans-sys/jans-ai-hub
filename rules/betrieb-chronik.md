@@ -137,6 +137,15 @@ laedt das Script **zuerst aus dem SSD-Klon** (`$HOME/Developer/…`) und erst al
 NAS. Eine Aenderung nur auf dem NAS wirkt also erst, wenn der SSD-Klon nachgezogen ist —
 nach jedem Script-Edit `git -C ~/Developer/jans-ai-hub log -1 -- scripts/<datei>` pruefen.
 
+**Der Mac Mini hatte dasselbe Bild und wurde im selben Lauf mitgezogen** — die Aenderung ist
+geteilt, eine Station im halben Zustand zu lassen waere die schlechtere Haelfte der Arbeit.
+Dort lagen **1.8 GB** lokales Archiv und **4586** `session-env`-Eintraege (mehr als auf dem
+MacBook). Nach `git pull` auf dem Mini-Klon: drei Archive aufs NAS nachgeschoben, 4084
+Transcripts neu archiviert (110 MB), Projektordner 1482 → 1162 MB, `~/.claude` 1.4 GB, 4511
+leere `session-env`-Verzeichnisse entfernt (75 aktive blieben, gleiche Abbruchbedingung wie
+oben: 0 Dateien, 0 nicht-leere Kandidaten). NAS-Bestand jetzt 1.8 GB (Macbookpro) + 1.9 GB
+(Macmini) in getrennten Stations-Unterordnern.
+
 ## 260814c — Routinen-Pruefung MacBook Pro: Kontingent frei, `station-status`-Exit-2 ist gewollt, `session-env` und Transcripts geraeumt
 
 Auftrag Raphael («Routinen pruefen, kommt das System an seine Grenzen?»). Ergebnis: **die

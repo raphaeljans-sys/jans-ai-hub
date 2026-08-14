@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.08.2026 16:31:15
+Stand: 14.08.2026 16:41:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 16:21)
@@ -15,4 +15,4 @@ Stand: 14.08.2026 16:31:15
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 1d171dfb nas-selfcommit: 3 Datei(en) 2026-08-14 16:30
+- 3e54f683 Transcript-Archiv aufs NAS ausserhalb des Repos, Verfall 180 Tage; Rotation mit NAS-Ziel, Rueckfall und Nachschub
