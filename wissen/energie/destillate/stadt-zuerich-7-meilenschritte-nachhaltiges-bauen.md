@@ -88,6 +88,11 @@ steht zur Förderung von Pilot- und Demonstrationsprojekten zur Verfügung.
 
 ## Offene Punkte
 
+- ~~**Bezug zum dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` ungeklärt.**~~
+  **ERLEDIGT am 14.08.2026 (Run 132): Erklärung (b) trifft zu** — die Mai-2006-Fassung existiert
+  als eigene Datei und war nie eingelesen. Fundort, Wortlaut und der Zielwert-Vergleich stehen im
+  Nachtrag unten. Der ursprüngliche Wortlaut der offenen Frage bleibt zur Nachvollziehbarkeit
+  stehen:
 - **Bezug zum dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` ungeklärt.** Der Artikel
   [[oekologische-materialvorgaben-beschaffung]] führt in seinen `sources` einen Eintrag
   «`ahb-zuerich-massstaebe-nachhaltiges-bauen` — Stadt Zürich AHB, 'Massstäbe für Umwelt- und
@@ -102,3 +107,55 @@ steht zur Förderung von Pilot- und Demonstrationsprojekten zur Verfügung.
 - Kein Hinweis in der Quelle, ob StRB 1094/2008 durch einen späteren Beschluss ersetzt wurde —
   für eine aktuelle Bauherren-Aussage zu städtischem Baurechtsland wäre eine gezielte Anfrage
   beim AHB nötig (nicht Gegenstand dieses Merkblatts).
+
+## Nachtrag Run 132 (14.08.2026): die Vorfassung Mai 2006 ist gefunden und verglichen
+
+Die in den «Offenen Punkten» als ungeklärt vermerkte Mai-2006-Quelle **existiert tatsächlich als
+eigenes Dokument** und war nie eingelesen. Damit ist Erklärung (b) belegt und kein Zitierfehler
+in [[oekologische-materialvorgaben-beschaffung]] anzunehmen.
+
+**Fundort:** SharePoint `PL - 02_Recht_Norm/04_Merkblätter/eco/Nachhaltiges Bauen/01 verbindliche
+Richtlinien/1.11.R Massstaebe für Umwelt- und Energiegerechtes Bauen.pdf` (174 kB, 2 Seiten,
+Bild-/Layout-PDF). Kopfzeile wörtlich: «NACHHALTIGES BAUEN — MASSSTÄBE FÜR UMWELT- UND
+ENERGIEGERECHTES BAUEN», Fussvermerk «Amt für Hochbauten / Immobilien-Bewirtschaftung MAI 2006».
+
+**Beide Fassungen tragen dieselben sieben Meilenschritte.** Das Faltblatt von 2006 ist kein
+anderes Werk, sondern die Erstfassung desselben Vorgabenwerks; der Stadtratsbeschluss Nr. 1094
+vom 17.09.2008 ist ihre förmlich beschlossene und **inhaltlich verschärfte** Nachfolgefassung.
+Die 2006er-Fassung rahmt sich selbst als «Aktivitätsschwerpunkt bis 2010» des
+Hochbaudepartementes, also als Programm, nicht als Ratsbeschluss.
+
+### Zielwert-Vergleich der belegten Zahlen (Mai 2006 gegen StRB 1094/2008)
+
+| Meilenschritt | Mai 2006 (wörtlich) | StRB 1094 / 17.09.2008 |
+|---|---|---|
+| 1 Neubau | «Neubauten erreichen den MINERGIE-Standard.» | MINERGIE-**ECO**; MINERGIE-**P-ECO** wird erreicht |
+| 2 Sanierung / Erneuerung | «in 1. Priorität der MINERGIE-Standard … Flächenanteile MINERGIE: 25%» | Standard für MINERGIE-Modernisierungen; Primäranforderung Gebäudehülle **100 % des Neubaugrenzwerts SIA 380/1:2007** (Denkmalschutz 140 %) |
+| 3 Beleuchtung und Geräte | «Neubauten und 50% der Sanierungen … Grenzwert SIA 380/4 um 25% unterschreiten»; Geräte «Energieetikette Klasse A» | MINERGIE-Zusatzanforderungen Beleuchtung; Geräte Klasse **A bzw. A+ (Kühlgeräte)** |
+| 4 Erneuerbare Energien | «Erneuerbare Energien decken **25%** des Wärmebedarfes von Neubauten.» | mindestens **40 %** des gesamten Wärmebedarfs von Neubauten, **50 %** bei bestehenden Bauten |
+| 7 Bewirtschaftung | Betriebsoptimierung und Energiestatistik, Zielvereinbarung Grossverbraucher, ökologische Beschaffung/Reinigung/Entsorgung, nachhaltiges Portfoliomanagement | inhaltlich fortgeführt (siehe oben) |
+
+Die 2006er-Fassung nennt zusätzlich die Wirtschaftlichkeitsregel: Ermittlung «gemäss den
+Richtlinien des Stadtrates (StRB 46/1998), unter Einbezug allfälliger nicht quantifizierbarer
+Zusatznutzen», dazu einen Fonds zur Förderung von Pilot- und Demonstrationsprojekten. Dieser
+Verweis auf StRB 46/1998 ist in der 2008er-Fassung nicht mehr enthalten.
+
+### Bauherren-Transfer (eigene Einordnung)
+
+Zwischen 2006 und 2008 hat die Stadt Zürich den Anteil erneuerbarer Energie am Wärmebedarf von
+Neubauten von 25 % auf 40 % angehoben und den Neubaustandard von MINERGIE auf MINERGIE-ECO
+verschoben, also innerhalb von gut zwei Jahren. Für eine Bauherrschaft auf städtischem
+Baurechtsland heisst das zweierlei: die Vorgabenhöhe ist historisch beweglich, und ⚠ **beide
+Fassungen sind heute alt** (2006 bzw. 2008). Welche Fassung im konkreten Baurechtsvertrag
+gilt, ist am Vertrag selbst zu lesen und beim AHB zu bestätigen, nicht aus einem dieser
+Merkblätter abzuleiten.
+
+### Was daraus offen bleibt
+
+- Der Quellverweis in [[oekologische-materialvorgaben-beschaffung]] ist **korrekt** (Mai 2006);
+  er zeigt lediglich auf eine Datei, die noch kein Destillat hat. Der Dangling-Link
+  `ahb-zuerich-massstaebe-nachhaltiges-bauen` bleibt bestehen, bis die 2006er-Fassung ein
+  eigenes Destillat erhält — nach dem hier dokumentierten Vergleich ist ihr Zusatznutzen
+  allerdings gering, weil sie inhaltlich vollständig von der 2008er-Fassung abgelöst ist.
+- Ob zwischen Mai 2006 und September 2008 weitere Zwischenfassungen bestehen und ob StRB
+  1094/2008 seinerseits abgelöst wurde, ist weiterhin ungeklärt (unverändert offen).
