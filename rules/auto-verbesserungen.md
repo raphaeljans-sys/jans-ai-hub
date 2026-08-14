@@ -29,6 +29,14 @@ zuerst.
 - **Gilt fuer:** alle Stationen, alle interaktiven Sessions; ergaenzt Rule
   `modellwahl-routine.md`.
 
+## 260814b — Rueckmeldelisten an Fachplaner: einfache Zeilenliste, kein Pruefbericht-Apparat
+- **Regel:** Rueckmeldungen zu Fachplaner-Dokumenten (Plan-/Tuerbuch-/Konzept-Kontrollen, analog
+  der KISPI-Rueckmeldung vom 14.08.2026) werden als **einfache Zeilenliste** verfasst: nummerierte
+  Themenbloecke (z.B. «01 Tuer-ID Nummernanpassung», «02 Generelle Fragen Korrekturen»), darunter
+  Zeile fuer Zeile die Punkte. **Keine Einleitung, kein Befund-Kapitel, keine Tabellen.** Der
+  foermliche Pruefbericht-Apparat bleibt internen Dossiers vorbehalten, wenn Raphael ihn verlangt.
+- **Gilt fuer:** alle Rueckmelde-/Kommentarlisten an Fachplaner und Bauherrschaft, alle Projekte.
+
 ## 260814 — Cloud-Ordner: On-Demand als Standard; System- und Sync-Schalter stellt Raphael selbst
 - **Regel:** (1) Fuer OneDrive und Dropbox gilt **online-only als Standard**: neue oder
   selten genutzte Cloud-Ordner bleiben dematerialisiert, lokal gepinnt werden nur aktive

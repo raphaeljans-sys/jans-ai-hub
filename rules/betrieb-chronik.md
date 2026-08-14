@@ -21,6 +21,40 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260814e — Gleicher Cache-Putz auf dem Mac Mini: 3.6 GB, aber die Station hat kein Speicherproblem
+
+Auftrag Raphael («die gleichen Prozesse auch auf dem Mac Mini»). Ausgangslage dort:
+1.8 TiB Volume, **765 GiB belegt, 1.0 TiB frei (42 %)** — anders als auf dem MacBook besteht
+kein Druck.
+
+**Zwei Befunde, die man nicht als Problem lesen darf:** (1) Die Station meldet **24 lokale
+APFS-Snapshots**, waehrend der MacBook 0 hat. Das ist **normales Time-Machine-Verhalten**,
+kein Fehler: Ziel «Elements» ist konfiguriert, die Snapshots decken stuendlich nur den
+13./14.08. ab und rotieren selbst; macOS gibt sie bei Platzbedarf frei. Nicht loeschen.
+(2) `~/Library/Preferences` = 8.5 GB klingt absurd, ist aber `Maxon` 5.6 G (C4D/Redshift)
+und `GRAPHISOFT` 2.6 G — App-Caches im Preferences-Ordner, kein Defekt.
+
+**Geraeumt:** `Caches/Firefox` 1.1 G, `Caches/com.openai.atlas` 1.2 G, `Caches/pip` 311 M,
+`.npm/_cacache` 983 M = **rund 3.6 GB**. Bestaetigt ueber den Inode-Zaehler (4.2M → 4.1M);
+die `df`-Anzeige bewegt sich bei 1.8 TiB nicht sichtbar. Chrome, Adobe, Spotify, Claude,
+Dropbox und OneDrive liefen, deren Caches blieben liegen. `codex-runtimes` und der uv-Cache
+existieren auf dem Mini nicht.
+
+**⚠ Werkzeug-Falle:** in der **nicht-interaktiven ssh-Shell fehlen `npm`, `uv` und `brew` im
+`PATH`** (kein Login-Profil). Wer `command -v brew` remote prueft, bekommt «nicht gefunden»
+und haelt das Werkzeug faelschlich fuer abwesend. Entweder `export
+PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"` voranstellen oder den Cache direkt ueber den
+Pfad raeumen (so wurde `_cacache` erwischt).
+
+**Vom Auto-Mode-Klassifikator blockiert, nicht umgangen:** `brew cleanup --prune=all` ueber
+ssh (rund 1.9 GB Homebrew-Cache). Befehl Raphael vorgelegt statt Umweg gesucht — so
+vorgesehen in Rule `wege-und-vollmachten`.
+
+**Der eigentliche Brocken auf dem Mini ist Dropbox: 215 GB vollstaendig materialisiert**
+(OneDrive dort nur 31 G). Das ist der Ort, an dem die On-Demand-Regel 260814 den groessten
+Effekt haette. Nicht angefasst, Schalter bedient Raphael selbst. Solange 1 TiB frei ist,
+besteht kein Anlass.
+
 ## 260814d — «150 GB Systemdaten» nachgemessen: erklaerbar, 5 GiB Cache geraeumt, OneDrive bleibt der Hebel
 
 Auftrag Raphael («ist die Festplatte mit 150 GB Systemdaten berechtigt?»). **Die Anzeige ist
