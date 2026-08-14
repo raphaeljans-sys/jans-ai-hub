@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.08.2026 23:32:31
+Stand: 14.08.2026 23:42:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:35)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 14.08.2026 23:32:31
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- fd176ad4 nas-selfcommit: 5 Datei(en) 2026-08-14 23:30
+- 752384b6 bauprodukte: Sektion 900 Einrichtung Phase-1-Triage abgeschlossen (22 Positionen), erster Artikel kevi-buerodrehstuhl
