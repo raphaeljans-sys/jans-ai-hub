@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 14.08.2026 16:41:32
+Stand: 14.08.2026 16:51:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 16:21)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 14.08.2026 16:41:32
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 3e54f683 Transcript-Archiv aufs NAS ausserhalb des Repos, Verfall 180 Tage; Rotation mit NAS-Ziel, Rueckfall und Nachschub
+- 988410e0 Mac Mini nachgezogen: Archiv aufs NAS, 4511 leere session-env-Dirs entfernt
