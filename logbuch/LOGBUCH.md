@@ -5,6 +5,100 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 14.08.2026
+
+Guten Morgen Raphael
+
+Gestern hat sich mehr bewegt als in der ganzen Woche davor: die Brandschutz-Mail ist raus, das
+Notariat hat nach zehn Tagen geantwortet, und der Trennwand-Strang ist beantwortet. Dafür
+laufen heute zwei Fristen zusammen.
+
+### Erledigt seit gestern
+
+- **Die Mail an B. Stevanovic ist versendet**, 13.08. 12:53, Betreff «KISPI PPTS:
+  Auflagebereinigung Brandschutz», Cc Ziegel, Schäfer, Allerkamp, drei Anhänge. Du hast sie
+  selbst neu gefasst statt den Entwurf zu nehmen; der alte Entwurf liegt nicht mehr im
+  Postfach. Der terminkritische Befund von gestern ist damit erledigt.
+- **Das Notariat Wiedikon hat geantwortet**, M. Mathies 13.08. 14:41, mit ergänzter
+  Gründungsurkunde und ergänzten Statuten im Anhang. Der Nachfass vom 13.08. 00:47 hat
+  gewirkt.
+- **Der Trennwand-Strang ist beantwortet.** M. Spörri hat 13.08. geliefert (Elektrotrasse
+  bestellt, wird intern umgesetzt), Du hast 13:53 die Hilti-Joch-Frage an Ziegel und
+  Stevanovic gestellt und 20:58 Spörri Deinen Lösungsvorschlag geschickt.
+
+### Aus unseren Gesprächen
+
+- **KISPI Duschwanne, und das ist der einzige Punkt mit Fehlerpotenzial am Bau.** Im selben
+  Ablageordner liegen jetzt zwei Rohlichtmasse: die hergeleiteten **1210 mm** im Einbauschema
+  und die **1235 mm** aus dem Schmidlin-Zargen-Systemdetail, das erst danach zum Vorschein kam.
+  Die vorgefundenen 1235 mm sind exakt das Systemmass bei Doppelbeplankung, die
+  Aufdopplungs-Empfehlung ist damit überholt. Vor der Werkplanung telefonisch bei Schmidlin
+  bestätigen lassen und die beiden Fassungen zusammenführen, bevor jemand danach baut.
+- **Das Twin-Gehirn ist am Riegel**, 29'997 von 30'000 Bytes. Ab sofort kann kein Fidelity-Lauf
+  mehr eine neue Regel hineinschreiben; zwei erarbeitete Regeln sind gestern bereits nicht mehr
+  kompiliert worden. Drei Wege liegen vor (Grenze anheben, verdichten, Facetten je Gattung
+  laden), keiner wurde eigenmächtig gegangen.
+- **Der SharePoint-Trim läuft, aber nur zur Hälfte.** JANS.PROJEKTE ist angestossen (Erwartung
+  rund 120 GB), IMMO ist nicht gelaufen, und das Tenant-Versionslimit steht weiter auf
+  «Manuell». Ohne die Umstellung wächst der Verlauf nach dem Trim erneut an.
+- **Der Nachtschicht-Takt ist anders dokumentiert als er läuft:** die plist feuert vier Mal
+  täglich, der Script-Kopf behauptet stündlich. Entscheid, welche Seite stimmt.
+
+### Überfällig
+
+- **bexio antwortet den sechsten Tag mit 401.** Die Debitoren-Aufsicht ist blind: RE-00087
+  (CHF 15'000) und RE-00098/99 mit abgelaufener Mahnfrist vom 12.08. sind nicht prüfbar, ein
+  Mahnschritt ist nicht möglich.
+- **Zwei Entwürfe liegen weiterhin unversendet**: L. Furrer (AfB, Statusbericht der
+  Auflagepunkte, 12.08. 16:06) und T. Inniger (13.08. 01:28). Daneben liegt weiterhin der
+  **alte** Inniger-Entwurf vom 08.08., der nicht hinausgehen darf; beide Betreffzeilen beginnen
+  gleich.
+- **Thalwil Bohlweg 3**, Begleitbeschrieb: Frist 06.08. verstrichen, Dateien unverändert.
+
+### In den nächsten 7 Tagen
+
+- **Heute 14.08.: Rücklauf von B. Stevanovic fällig.** Du hast den unterzeichneten
+  Brandschutzplan samt Stellungnahme auf heute erbeten. Er ist der einzige noch offene
+  Auflagepunkt II.1b) und damit der letzte Schritt vor dem 17.08. J. Ziegel ist bis 18.08.
+  abwesend, ein Ausweichen gibt es nicht.
+- **15.08.: KISPI Türbuch und Sicherheitskonzept**, gebündelte Stellungnahme aller internen
+  KISPI-Stellen, am 03.08. so vereinbart.
+- **15.08. 08:02: erster Lauf der neuen Cloud-Routine `wissenscheck-phase1-alle2tage`.** Vorher
+  klären, ob der bestehende Monats-Wissenscheck stillgelegt oder umgewidmet wird, sonst laufen
+  zwei Taktgeber auf denselben Prüfauftrag.
+- **16.08.: E-Banking-Gegenprüfung Tx 3630.**
+- **17.08.: die Bauherrschaft erwartet die Baufreigabe KISPI.** Am selben Tag 09:00 bis 10:00
+  Austausch Umbau PPTS mit C. Schäfer (Teams).
+- **18.08.: Dropbox verlängert automatisch**, danach jährlich EUR 203.88.
+- **20.08. 13:00 bis 14:00: Koordinationssitzung Gruner / Jans / KISPI** (Teams).
+- **Um den 18./19.08.: die 90-Prozent-Marke des SharePoint-Pools**, falls der Trim bis dahin
+  nicht durchschlägt.
+
+### In Beobachtung
+
+- Notariat: Rückmeldung zu den Anpassungen und das falsche Datum auf der HR-Anmeldung liegen
+  bei Dir; das Notariat ist am 03. und 04.09. geschlossen. Die UBS-Kapitaleinzahlungsbestätigung
+  ist dort weiterhin nicht eingetroffen.
+- Antwort von J. Ziegel auf die Hilti-Joch-Frage. M. Spörri ist bis Mo 17.08. abwesend
+  (Vertretung R. Meisser).
+- Berufsbildungsfonds: Deklaration mit der Privatadresse Saumstrasse 21 eingegangen, CHF 220
+  jährlich, Fall-ID 4257.
+- CLAUDE.md-Kürzungsentwurf liegt im Scratchpad, kanonische Datei unangetastet.
+
+### Vorschlag Kalendereinträge
+
+- **Heute, später Nachmittag: Kontrolle, ob der Brandschutzplan von Stevanovic da ist.** Falls
+  nicht, heute noch telefonisch nachfassen, damit der 17.08. haltbar bleibt.
+- **Freitag 15.08. vormittags, 15 Minuten: Notariats-Unterlagen durchsehen** und die beiden
+  Bringschulden beantworten.
+
+### Token-Tempo
+
+Vortag 13.08.: MacBook Pro 658.5 Mio Tokens (rund USD 608), Mac Mini 147.0 Mio (rund USD 182),
+zusammen 805.5 Mio und rund USD 790 API-Kostenäquivalent.
+
+---
+
 ## Hub-Chef 13.08.2026, 08:39 bis 08:53 — Tagesbriefing GESENDET (Regellauf)
 
 **Versandbeleg:** 13.08.2026 **08:53:03** an `rj@raphaeljans.ch`, Betreff «Hub-Chef 13.08.26:
