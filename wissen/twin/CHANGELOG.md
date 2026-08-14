@@ -4,6 +4,43 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 14.08.2026 — twin-mail-training Batch 93: 27.07.–01.08.2026, neunte Echo-Falle (blinder Kanal)
+
+Fenster `rj@` **27.07.–01.08.2026** (48 Sent Items, sequenziell frisch nach Batch 65). **11
+Volltexte gelesen: 9 Gold, 2 harte Echo-Ausschlüsse.** 30 neue Marker in allen 6 Facetten,
+7 Mappings, 5 Fragen.
+
+**Neunte Echo-Falle in `CLAUDE.md`: der mechanische Grep hat einen blinden Kanal.** Beide
+verworfenen Texte tragen **keines** der drei harten Muster — sie stammen nicht aus Copy-Paste,
+sondern sind vom Hub selbst per `osascript` als Apple-Mail-Draft erzeugt: Claude-Text ohne
+Claude-CSS. Erkannt über den Kontrollgruppen-Kontrast im selben Tagesfenster, in der schärfsten
+bisher gefundenen Form (Paar mit **2 h 47 min** Abstand, dieselbe Sprechhandlung «bitten»:
+fehlerfreies «b**i**tten» ohne `font-family` gegen «**B**itten» mit `Aptos` und Slip). Ein
+negativer Grep beweist ab sofort nichts.
+
+**Folgenreicher Nebenbefund: Signaturphrasen aus `rules/jans-dna.md` sind als Echtheitsbeleg
+verbrannt.** Der eine Verdachtstext reproduziert «Gib mir bescheid, welche Zeit Euch passt.»
+wortgetreu samt Kleinschreibung. Was der Zwilling gelernt hat, kann er erzeugen; Detektionswert
+hat nur noch, was das Gehirn NICHT enthält (Tippfehler, Grossschreibungs-Slips, Satzabbrüche).
+
+**Zwei Messbefunde, beide gegen die eigene Reihe:** (a) der En-/Em-Strich-Test trennt hier
+**nicht** (1 Vorkommen in eigener Hand aus einem übernommenen Amtstitel gegen 0 in den
+Verworfenen) → QUESTIONS #2; (b) das Strippen der Bullet-Zeilen verschmelzt Listen-Anläufe mit
+dem Folgesatz und verzerrt die Satzlänge um **+1.4 W** (17.0 gemessen, 15.6 korrigiert) — die in
+Batch 92 geschlossene Satzlängen-Frage ist damit **nicht sauber geschlossen** → QUESTIONS #3.
+Neuer CSS-Kandidat `background-color:rgb(252,252,251)` mit einem Beleg **nicht** in die
+Muster-Tabelle aufgenommen (Guillemet-Regel) → QUESTIONS #1.
+
+**⚠ Gehirn NICHT neu kompiliert — bewusst.** Der Auto-Block steht seit 13.08. bei 29997 B von
+30000 B; dieser Batch trägt rund 9 kB neue Facetten-Prosa. Eine Kompilierung würde bestehende
+Regeln verdrängen. Der Entscheid über MAX_AUTO_BYTES liegt bei Raphael. Die Marker wirken
+unterdessen über die Twin-Agenten, die die Artikel direkt lesen.
+
+Report: `outputs/2026-08-14_mailbatch-93.md`. Diff gegengemessen: stimme +56/−0,
+arbeitsweise +42/−0, beziehungsregister +40/−0, fachsignatur +35/−0, denken +23/−0,
+haltung +18/−0, CLAUDE.md +45/−0, QUESTIONS +34/−0, _INGESTED +72/−0 — durchgehend append-only,
+keine Fremdlöschung.
+
 ## 13.08.2026 (Lauf 2) — twin-fidelity-review: Echo-Grep trifft das Element, nicht die Mail; Fidelity 41
 
 Zweiter Fidelity-Lauf desselben Tages (regulärer Cron 05:40, nachdem 01:28 bereits einer lief).

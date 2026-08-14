@@ -2079,3 +2079,38 @@ Quelle: 07.05.2026, authentisch (Rückmeldung Anlagebauer, von Raphael zusammeng
   was rechtlich noch offen ist, steht vor dem, was planerisch offen ist, und das vor der konkreten
   Bauteilanweisung. Quelle: 27.05.2026, authentisch (→ [[arbeitsweise]] Ja-Zusage mit
   Vorbehaltsliste).
+
+## Mailbatch 93 (27.07.–01.08.2026) — Türfachplanung als eigene Disziplin, Auflageziffer als Adresse
+
+- **Die Tür ist ein Fachplanungsgegenstand mit eigener Kette.** Erstbeleg im Korpus für die
+  Türfachplanung als eigenständige Disziplin neben Architektur und Gebäudetechnik: die Kette
+  läuft **Sicherheitskonzept + Türbuch (Türfachplaner) → Abklärung der Türfunktionen bei den
+  Fachstellen der Betreiberin → Ausführungsplanung bei Türbauer und
+  Gebäudetechnik-Fachplaner → Materialvorbestellung → Produktion → Montage**. Das Türbuch ist
+  dabei nicht eine Liste, sondern das Dokument, an dem Sicherheit, Flucht, Zutritt und Elektro
+  zusammenlaufen. Quelle: 27.07.2026, authentisch.
+- **Die Auflageziffer ist die Adresse, nicht das Thema.** In der Auflagebereinigung wird nicht
+  «der Brandschutz» freigegeben, sondern **einzelne Auflagepunkte** («Baufreigabe … für die
+  Auflagepunkte II.1c»), und die eingereichten Dokumente tragen die Ziffer im Dateinamen
+  (`II.1b 01 …` bis `II.1b 06 …`). Die Bewilligung zerfällt damit in adressierbare Teilfreigaben,
+  die je bei einer anderen Amtsstelle liegen (Kreisarchitektur, Feuerpolizei, UGZ) — das ist der
+  Grund, warum in diesem Fenster drei Ämter parallel bedient werden. Quelle: 27./28.07.2026,
+  authentisch (→ Skill `auflagebereinigung`).
+- **Gastrotechnik-/Therapieküchen-Vokabular, belegt und mit Preisgrössenordnung:** Kühlkorpus,
+  Steamer/Combi-Dämpfer 6×GN2/3, Kondensationshaube, Position «Warme Küche», Hochschrank; das
+  Rahmenbudget einer Therapieküche im Healthcare-Umbau liegt bei rund CHF 70'000.- exkl. MwSt.,
+  die Gerätekosten darin bei rund CHF 24'000.-. **Kennwert aus einem Einzelfall, nicht
+  verallgemeinern** — als Grössenordnung für die Plausibilisierung eines Küchenangebots
+  brauchbar. Quelle: 27.07.2026, authentisch.
+- **Der Rechtsträger einer Spitalliegenschaft ist nicht der Spitalbetrieb.** Belegt an einem
+  Universitäts-Kinderspital: Bauherrin und Rechnungsempfängerin ist die **private Stiftung**,
+  nicht der kantonale Spitalverbund — mit eigener UID und eigenem Kreditoren-Postfach. Wer die
+  Rechnungsanschrift aus dem Betriebsnamen ableitet, adressiert falsch. Verwandt mit dem
+  zurückgewiesenen Kreditorenbeleg desselben Fensters (Immobilienverwaltung verlangt eine
+  bestimmte Rechnungsanschrift, sonst keine Zahlung). Quelle: 30.07.2026, authentisch.
+- **Möblierung im horizontalen Fluchtweg löst eine neue Verfügung aus.** Sachverhalt aus der
+  Feuerpolizei-Korrespondenz: Einrichtung und Möblierung im horizontalen Fluchtweg sind nicht
+  über die bestehende Bewilligung gedeckt, sondern ziehen ein eigenes Verfahren mit eigenen
+  Fristen nach sich. **Der Marker ist der Sachverhalt, nicht die Formulierung** — der Mailtext
+  dazu ist als `claude-aera` verworfen (siehe `CLAUDE.md`, neunte Falle). Quelle: 30.07.2026,
+  Sachverhalt aus der Amtsmail, Formulierung nicht als Stilquelle verwendet.

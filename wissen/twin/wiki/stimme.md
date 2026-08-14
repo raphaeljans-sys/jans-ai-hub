@@ -3459,3 +3459,59 @@ Textexport). Gegenprobe an einem Fenster ausserhalb des KISPI-Projekts offen ([[
   geehrter Herr» / «Guten Tag Herr» / «Grüezi Herr» je 1×. **Echo-Gegenprobe: En-/Em-Strich 0 in
   277 W eigener Hand** gegen 4 Vorkommen in den zwei verworfenen Texten. Quelle: 20.–27.05.2026,
   authentisch.
+
+## Mailbatch 93 (27.07.–01.08.2026) — der Anlauf wird mitgetippt, die Härte wird gefühlsmarkiert
+
+- **«Meine Frage an Sie:» steht da, bevor die Frage da ist.** In der Behördenmail folgt auf den
+  freistehenden Ankündigungs-Doppelpunkt **keine** Frage, sondern eine Leerzeile, dann die
+  Dokumentenliste, dann das Ziel — die angekündigte Frage kommt erst drei Absätze später
+  («Darf ich mich bei Ihnen erkundigen, wie der Stand der Beurteilung ist …»). Der Anlauf wird
+  getippt, während der Inhalt noch sortiert wird, und danach nicht mehr aufgeräumt. **Für den
+  Zwilling: nicht nachahmen, aber auch nicht wegkorrigieren**, wenn er eine Vorlage Raphaels
+  überarbeitet — der stehengebliebene Anlauf ist Echtheitszeichen derselben Familie wie die
+  Bitt-Reflex-Grossschreibung. Quelle: 27.07.2026, authentisch.
+- **«Schweren Herzens bitte ich Sie die Hochschränke aus dem Angebot zu streichen.»** Die harte
+  Sparforderung an den Anbieter wird **affektiv gerahmt, nicht abgeschwächt** — die Forderung
+  selbst bleibt unbedingt und benennt die Streichposition namentlich. Kein «vielleicht», kein
+  «wenn möglich». Quelle: 27.07.2026, authentisch.
+- **Vorschuss-Dank als Verpflichtungsfigur, zweimal in derselben Mail.** «Für Ihr entgegenkommen
+  bedanke ich mich im Voraus.» und «Für die Lieferung … bis Montag den 03.08.26 sind wir Ihnen
+  dankbar.» — gedankt wird für das, was noch nicht geschehen ist; das macht die Bitte verbindlich,
+  ohne sie zu einer Forderung zu machen. Ergänzt den bekannten Service-Schluss «Bei Fragen oder
+  Unklarheiten stehe ich Ihnen jederzeit gerne zur Verfügung», der in diesem Fenster dreimal steht.
+  Quelle: 27.07.2026, authentisch.
+- **Jahreszeitlicher Wunsch als Schlussformel im Du:** «Ich wünsche Dir schöne Sommertage.» —
+  reiht sich in «Schöne Sonntig» (Batch 47), «schönes Wochenende» (Batch 28) und die
+  Neujahrs-Wunschformeln (Batch 22). Die Reihe ist damit ganzjährig belegt: der Gruss-Block wird
+  regelmässig **durch einen Zeitwunsch ersetzt oder ergänzt**, nicht nur um ihn erweitert.
+  Quelle: 30.07.2026, authentisch.
+- **Der Kopf über der Anrede ist auch ein Dateiname.** Die schon belegte nackte Themenzeile vor
+  der Anrede trägt hier einmal den Vorgangstitel («Türkonzeptplan & Türbuch PPTS») und einmal
+  den **Quittungs-Dateinamen** («zh-n1akk-eingabequittung») — der Kopf identifiziert den Vorgang
+  mit dem, was gerade auf dem Bildschirm liegt, nicht mit einer formulierten Überschrift.
+  Quelle: 27.07.2026, authentisch.
+- **Bitt-Reflex-Grossschreibung, dritter Fensterbeleg in Folge** («Darf ich Sie dringenst
+  **B**itten», 29.07.; «würde ich Dich gerne **B**itten», 30.07.). Sie ist damit über Batch 92,
+  Fidelity 260813 und dieses Fenster durchgehend belegt und in diesem Batch der **schärfste
+  Positivtest**: sie steht in den neun handgetippten Texten und in **keinem** der beiden
+  Verdachtstexte, obwohl beide dieselbe Bitte-Sprechhandlung tragen (dort «Darf ich Euch
+  **b**itten» bzw. «darf ich Dich **b**itten»). Weiterhin **Echtheitszeichen, nicht
+  Nachahmungsziel**. Quelle: 29./30.07.2026, authentisch.
+- **⚠ Eine Signaturphrase taugt nicht mehr als Echtheitsbeleg.** Der als Echo verworfene Text vom
+  30.07. trägt «Gib mir bescheid, welche Zeit Euch passt.» — Kleinschreibung inklusive, also die
+  im Gehirn kompilierte JANS-Signaturphrase, wortgetreu von Claude reproduziert. **Was in
+  `rules/jans-dna.md` steht, kann der Zwilling erzeugen und ist als Detektor verbrannt.** Als
+  Positivtest bleibt nur, was das Gehirn NICHT enthält: Tippfehler, Grossschreibungs-Slips,
+  Satzabbrüche, Doppelleerschläge. Quelle: 30.07.2026, `claude-aera` (Negativmaterial).
+- **Mikro-Metrik Batch 93** (679 W über `stilmetrik.py`, 9 handgetippte Eigentexte ohne
+  Signaturen/Zitate/Dateilisten): Du-Gross-Quote **1.0**; Tausender-Apostroph **5**; Ellipsen 0;
+  «%» kam nicht vor; Satzlänge ø **17.0 W** — **korrigiert 15.6 W**, siehe Messhinweis; Grüsse
+  «Lieber Gruss» 2× / «Freundliche Grüsse» 1×; Anreden «Geschätzter Herr <Nachname>» 4×,
+  «Geschätzter <Vorname>» 3×, «Guten Morgen lieber <Vorname>» 1×, «Sehr geehrter Herr» 1×.
+  **Echo-Gegenprobe: En-/Em-Strich 1 in 679 W eigener Hand** (ein «—» im Projekttitel, aus der
+  Bauentscheid-Bezeichnung übernommen, kein Satzzeichen) gegen 0 in den zwei verworfenen Texten —
+  **in diesem Fenster trennt der Strich-Test nicht**, siehe [[QUESTIONS]] 260814 #2.
+  **Messhinweis, gilt rückwirkend für die ganze Messreihe:** beim Strippen der Bullet-Zeilen
+  verschmelzen die Listen-Anläufe mit dem Folgesatz zu einem überlangen Satz. Ohne die vier
+  Listen-Anläufe liegt derselbe Korpus bei **15.6 W** statt 17.0 W. Die Verzerrung beträgt hier
+  **+1.4 W** und wirkt in jedem Batch, der Listen enthielt. Quelle: 27.07.–01.08.2026, authentisch.

@@ -3110,3 +3110,37 @@ mechanischen `Anthropic Sans`-Greps (Fidelity 260813) und konnten ihn also nicht
    `toRecipients` + `hasAttachments` + Thread-Position wählen, Twin-Fassung fixieren, erst danach
    Vorschau und Volltext öffnen. Wenn der Gesamtscore dabei deutlich fällt, war die Messreihe
    systematisch zu optimistisch und die Vorläufe sind entsprechend zu lesen.*
+
+## Batch 93 (14.08.2026) — Fenster `rj@` 27.07.–01.08.2026
+
+1. **Ist `background-color:rgb(252,252,251)` ein zweites mechanisches Echo-Signal?** Ein Beleg
+   (30.07.2026 15:48, durchgehend über alle sechs Fliesstext-Absätze, nicht im Signaturblock).
+   Der Wert liegt je Kanal um 1 neben dem etablierten `rgb(253,253,252)`. **Gegenprobe nötig:**
+   in einem Fenster mit unstrittig handgetippten Apple-Mail-Texten greppen, ob der Wert dort
+   ebenfalls vorkommt. Kommt er vor, ist er Apple-Mail-Rendering und wertlos; kommt er nicht vor,
+   gehört er in die Muster-Tabelle in `CLAUDE.md`. Bis dahin **kein Ausschlusskriterium**.
+2. **Der En-/Em-Strich-Test hat in diesem Fenster NICHT getrennt.** 1 Vorkommen in 679 W eigener
+   Hand (ein «—» im Projekttitel «Akutspital — Innerer Umbau …», aus der amtlichen
+   Bauentscheid-Bezeichnung übernommen) gegen **0** in den beiden verworfenen Texten — also
+   umgekehrt zur bisherigen Reihe. Erklärung wahrscheinlich: Raphael übernimmt Amts- und
+   Betreffzeilen wörtlich, und die zwei Verdachtstexte enthielten keine Bandbreiten/Aufzählungen,
+   wo Claude den Strich setzt. **Zu prüfen:** gilt der Test nur für Bandbreiten, Bulletlisten und
+   Einschübe, nicht für übernommene Titel? Wenn ja, in `CLAUDE.md` entsprechend eingrenzen.
+3. **Messfehler in der Satzlängen-Reihe, betrifft alle bisherigen Batches mit Listen.** Beim
+   Strippen der Bullet-Zeilen verschmelzen Listen-Anläufe mit dem Folgesatz. Gemessen: 17.0 W mit,
+   **15.6 W ohne** die vier Listen-Anläufe desselben Korpus (+1.4 W Verzerrung). Die in Batch 92
+   geschlossene Frage nach der Satzlänge (Korpusband 11.9–14.3 gegen Ausreisser 16.5/17.6) ist
+   damit **nicht sauber geschlossen**: die Ausreisser könnten Listen-Artefakte sein. **Zu tun:**
+   `stilmetrik.py` um einen Listen-Anlauf-Filter ergänzen (Zeile endet auf «:») oder die Reihe mit
+   dem korrigierten Verfahren nachmessen, bevor weitere Schlüsse auf «die Hand» gezogen werden.
+4. **Wie viele Loop-Mails gehen über den blinden Kanal?** Die neunte Falle (`CLAUDE.md`) zeigt,
+   dass per `osascript` gesendete Claude-Texte keines der drei Muster tragen. Im Fenster waren es
+   2 von 11 gelesenen Mails. **Zu klären:** gibt es ein anderes mechanisches Kennzeichen der
+   Apple-Mail-Drafts des Hub (z.B. das fehlende `font-family` in den `<p style="margin:0.0px">`-
+   Absätzen bei gleichzeitigem `font:12.0px Helvetica` in den Spacer-Zeilen)? Das wäre ein
+   Struktur-, kein Inhaltsmerkmal und damit ebenso hart wie der CSS-Grep.
+5. **Der Service-Schluss steht in diesem Fenster dreimal — und in beiden Verdachtstexten in
+   Variation** («Für die Unterstützung bedanke ich mich im Voraus», «Über eine kurze Sitzung …
+   würde ich mich freuen»). Bestätigt Frage #1 aus Fidelity 260813 aus anderer Richtung: der
+   Zwilling hat den Schluss gelernt und variiert ihn. **Zu klären:** an welcher Achse hängt die
+   Gattungsregel wirklich — Adressatenkreis, Gattung oder schlicht Textlänge?

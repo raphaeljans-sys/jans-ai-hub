@@ -224,6 +224,51 @@ Drei Konsequenzen, alle verbindlich:
 Erkennungsregel für die Gattung: **ein «`- `» mitten im Fliesstext, direkt hinter einem
 vollständigen Satz** ist in einer Mail mit Claude-CSS immer ein Raphael-Einschub, nie eine Liste.
 
+**Neunte Falle, neu 14.08.2026 (Batch 93) — der mechanische Grep hat einen BLINDEN KANAL: was der
+Hub selbst als Apple-Mail-Entwurf sendet, trägt keines der drei Muster.** Die drei harten Muster
+(`Anthropic Sans`, `rgb(253,253,252)`, `class="text-body"`) entstehen beim **Copy-Paste aus der
+Claude-Oberfläche** in Outlook. Ein Text, den der Hub über `osascript` direkt als Apple-Mail-Draft
+erzeugt (Rule `osascript-apple-apps.md`), durchläuft diese Oberfläche nie — **er ist Claude-Text
+ohne Claude-CSS.** Im Fenster 27.07.–01.08.2026 sind zwei solche Mails belegt; beide hätten den
+Grep sauber passiert und wären als Gold in die Facetten gewandert.
+
+Erkannt wurden sie über den **Kontrollgruppen-Kontrast im selben Tagesfenster** (fünfte Falle),
+hier in der schärfsten bisher gefundenen Form — ein Paar mit **2 Stunden 47 Minuten Abstand,
+derselbe Absender, derselbe Tag, dieselbe Sprechhandlung «bitten»**:
+
+| | Verdachtstext 30.07. 15:48 | Kontrolle 30.07. 18:35 |
+|---|---|---|
+| Bitt-Reflex | «Darf ich Euch **b**itten, …» | «würde ich Dich gerne **B**itten» |
+| Tippfehler | 0 | Grossschreibungs-Slip, fehlende Kommas |
+| Satzbau | Nebensatzgefüge mit Finalsatz | Hauptsatzreihung |
+| `font-family` im Fliesstext | **keine** | `Aptos,Arial,Helvetica` |
+
+Dasselbe für das zweite Paar (27.07. 08:51 handgetippt gegen 27.07. 20:06 verdächtig, **derselbe
+Vorgang, elf Stunden Abstand**): morgens vier Tippfehler und ein verschriebener Empfängername,
+abends null Fehler bei doppelter Länge und einer vollständig zusammengetragenen Terminkette
+(Materialvorbestellung, Produktionsstart, Montagestart, Abwesenheit des Türbauers).
+
+**Vier Konsequenzen, alle verbindlich:**
+
+1. **Ein negativer Grep beweist nichts.** Er schliesst Copy-Paste aus, nicht Claude. Nach dem Grep
+   läuft in jedem Fall der Fehlerdichte-Vergleich gegen die Eigentexte **desselben Tagesfensters**.
+2. **Die Handsignatur ist der beste Positivtest, den der Korpus hat.** Die Bitt-Reflex-
+   Verbgrossschreibung («Darf ich Sie **B**itten») steht in diesem Fenster in allen neun
+   handgetippten Texten und in **keinem** der beiden Verdachtstexte. Ebenso brauchbar:
+   Doppelleerschläge, Satzabbrüche, freistehende Telefonnummern, Wortdreher im Empfängernamen.
+3. **⚠ Signaturphrasen aus `rules/jans-dna.md` taugen NICHT mehr als Echtheitsbeleg.** Der eine
+   Verdachtstext trägt «Gib mir bescheid, welche Zeit Euch passt.» — Kleinschreibung inklusive,
+   also die im Gehirn kompilierte JANS-Phrase, wortgetreu reproduziert. Was der Zwilling gelernt
+   hat, kann er erzeugen; **jeder Marker, der ins Gehirn kompiliert wurde, ist als Detektor
+   verbrannt.** Detektionswert hat nur, was das Gehirn NICHT enthält (Fehler, Slips, Brüche).
+4. **Nicht aufgenommen: `background-color:rgb(252,252,251)`.** Der eine Verdachtstext trägt diesen
+   Wert durchgehend in allen sechs Absätzen — **einen Kanalwert neben dem bekannten
+   `rgb(253,253,252)`**, und der Signaturblock derselben Mail trägt ihn nicht. Das ist ein starker
+   Kandidat, hat aber **einen** Beleg. Nach dem Guillemet-Fall (03.08.), dem «du klein»-Fall
+   (07.08.) und `color:rgb(10,10,10)` (13.08.) gilt unverändert: ein Signal, das echtes Gold
+   abwerten kann, kommt erst nach Gegenprobe gegen die eigene Hand in die Tabelle. Als Kandidat
+   geführt in [[QUESTIONS]] 260814 #1.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

@@ -974,3 +974,75 @@ Diese Gattung zeigt Claudes Fassung und Raphaels Korrektur **nebeneinander** und
 dichteste bisher gefundene Korrektur-Delta-Quelle; bisher wurden solche Mails pauschal als Echo
 ausgeschlossen. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle
 UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 93 (14.08.2026) — Fenster `rj@` 27.07.–01.08.2026
+
+Sent Items `rj@`, **27.07.–01.08.2026** (Fenster vollstaendig gelistet: **48** Sent Items, zwei
+Seiten, Zugriff via M365-MCP `outlook_email_search` mit `folderName: "Sent Items"` +
+`order: oldest` + `read_resource` auf den HTML-Body). **Sequenziell frisches Fenster:** Batch 65
+endete am 25.07. 18:11, der 26.07. traegt keine Sent Items.
+
+**Nicht dem empfohlenen Fenster gefolgt, mit Grund.** Batch 92 empfahl `28.05.–05.06.2026` — dieses
+Fenster ist inzwischen doppelt abgedeckt (Fidelity 260813 Lauf 2 auf 28.05.–05.06., Batch 50 auf
+04.–08.06., Batch 52 auf 09.–11.06.). Stattdessen wurde die **methodisch vorrangige Empfehlung**
+desselben Eintrags aufgenommen (gezielte Suche nach Claude-Grundtext und Raphael-Einschueben) und
+auf das erste unverbrauchte Fenster angewandt. Das Ergebnis ist die **neunte Echo-Falle**.
+
+**Rauschen gestreift, nicht gelesen:** 10 Selbstmails (Logbuch-Radar, Hub-Chef, Vollgas-Fruehwarnung,
+AG-Gruendungs-Monitor — durchwegs Claude-Erzeugnisse an `rj@` selbst, per Definition `claude-aera`),
+3 Teams-«Angenommen»-Quittungen, 1 Teams-Beitrittsbenachrichtigung, 1 Unsubscribe, 1 Reaktions-Quittung,
+5 reine Weiterleitungen ohne Eigentext bzw. mit dem Einzeiler «Zur INFO.», 6 Wiederholungen derselben
+UGZ-Terminmail (vier Fassungen desselben Textes innerhalb von 29 Minuten, Terminverschiebung).
+
+**11 Volltexte gelesen: 9 als Gold destilliert, 2 hart als Echo verworfen.** 30 neue Marker in
+6 Facetten, 7 Mappings, 5 Fragen, 1 neue Echo-Falle in `CLAUDE.md`.
+
+**Kernbefund — die neunte Falle: der mechanische Echo-Grep hat einen blinden Kanal.** Beide
+verworfenen Texte (27.07. 20:06 Freigabe-Nachfass, 30.07. 15:48 Fluchtweg-Moeblierung) tragen
+**keines** der drei harten Muster und waeren als Gold in die Facetten gewandert. Sie stammen nicht
+aus Copy-Paste, sondern sind vom Hub selbst per `osascript` als Apple-Mail-Draft erzeugt worden —
+Claude-Text ohne Claude-CSS. Erkannt ueber den Kontrollgruppen-Kontrast im selben Tagesfenster, in
+der schaerfsten bisher gefundenen Form: ein Paar mit **2 h 47 min Abstand**, derselbe Absender,
+dieselbe Sprechhandlung «bitten» — «Darf ich Euch **b**itten» (fehlerfrei, kein `font-family`)
+gegen «wuerde ich Dich gerne **B**itten» (Slip, `Aptos`). Zweites Paar: derselbe Vorgang, 11 h
+Abstand, morgens vier Tippfehler, abends null bei doppelter Laenge.
+
+**Zweiter Kernbefund, mit Folgen fuer die ganze Detektion:** der eine Verdachtstext traegt
+«Gib mir bescheid, welche Zeit Euch passt.» — die im Gehirn kompilierte JANS-Signaturphrase,
+wortgetreu samt Kleinschreibung reproduziert. **Jeder Marker, der nach `rules/jans-dna.md`
+kompiliert wurde, ist als Echtheitsbeleg verbrannt.** Positiv detektierbar bleibt nur, was das
+Gehirn nicht enthaelt: Tippfehler, Grossschreibungs-Slips, Satzabbrueche, Doppelleerschlaege.
+
+**Neuer CSS-Kandidat, NICHT aufgenommen:** `background-color:rgb(252,252,251)` (ein Kanalwert neben
+dem etablierten `rgb(253,253,252)`), durchgehend in allen sechs Absaetzen des einen Verdachtstexts,
+nicht im Signaturblock derselben Mail. Ein Beleg → [[QUESTIONS]] 260814 #1, kein Ausschlusskriterium.
+
+**Fachliche Neuheiten im Gold:** Tuerfachplanung als eigene Disziplin mit eigener Kette
+(Sicherheitskonzept/Tuerbuch → Fachstellen der Betreiberin → Ausfuehrungsplanung → Produktion);
+die Auflageziffer als Adresse statt als Thema (Teilfreigaben je Amtsstelle, Ziffer im Dateinamen);
+Angebots-Nachverhandlung als offengelegte Differenzrechnung mit den Zahlen der Gegenseite;
+Rechtstraeger-Klarstellung bei der Rechnungsanschrift eines Spitals (private Stiftung ≠ Betrieb).
+
+**Mikro-Metrik** (679 W, 9 Eigentexte, `stilmetrik.py`): Du-Gross **1.0**, Satzlaenge ø **17.0 W**
+(**korrigiert 15.6 W** ohne die vier Listen-Anlaeufe — Messfehler der ganzen Reihe, [[QUESTIONS]]
+260814 #3), Tausender-Apostroph 5, Ellipsen 0, «%» kam nicht vor; Gruesse «Lieber Gruss» 2× /
+«Freundliche Gruesse» 1×; Anreden «Geschaetzter Herr <Nachname>» 4× / «Geschaetzter <Vorname>» 3× /
+«Guten Morgen lieber <Vorname>» 1× / «Sehr geehrter Herr» 1×. **Echo-Gegenprobe erstmals negativ:**
+En-/Em-Strich 1 in eigener Hand (uebernommener Amtstitel) gegen 0 in den Verworfenen →
+[[QUESTIONS]] 260814 #2.
+
+**⚠ Gehirn NICHT neu kompiliert.** Der Auto-Block in `rules/jans-dna.md` stand nach Fidelity
+260813 Lauf 2 bei 29997 B von 30000 B (3 B Reserve); dieser Batch traegt rund 9 kB neue
+Facetten-Prosa. Eine Kompilierung wuerde entweder scheitern oder bestehende Regeln verdraengen.
+**Der Entscheid ueber MAX_AUTO_BYTES bzw. eine groessere Verdichtung liegt bei Raphael**
+(Budget-Fuehrung `wissen/claude-code/wiki/kontext-architektur.md`). Die Marker stehen vollstaendig
+in den Facetten-Artikeln und wirken ueber die Twin-Agenten; nur der immer-aktive Auto-Block ist
+seit dem 13.08. eingefroren.
+
+**Naechstes Fenster:** `rj@` **02.–09.08.2026** (sequenziell). **Methodisch vorrangig:** die
+Gegenprobe zu [[QUESTIONS]] 260814 #1 und #4 — in einem Fenster mit unstrittig handgetippten
+Apple-Mail-Texten greppen, ob `rgb(252,252,251)` bzw. die Struktur «Fliesstext-Absatz ohne
+`font-family` bei gleichzeitigem `font:12.0px Helvetica` in den Spacer-Zeilen» dort ebenfalls
+vorkommt. Faellt die Gegenprobe negativ aus, hat der Korpus ein zweites mechanisches Echo-Signal
+und der blinde Kanal ist geschlossen. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
+auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

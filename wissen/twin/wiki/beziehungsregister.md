@@ -2352,3 +2352,43 @@ Gewichtung: authentisch (Fenster 06.–10.05.2026).
   - **Roland Grob** — Jegen AG: Mapping aus Batch 91 bestätigt und um die «Grüezi»-Stufe ergänzt.
 - **Bestätigt:** «Geschätzte Stefi» für die KISPI-interne Bereichsleiterin (Sonderegger) — Du mit
   Kurzform des Vornamens, wie in Batch 45/46 belegt.
+
+## Mailbatch 93 (27.07.–01.08.2026) — die Anrede kühlt bei Dringlichkeit, zweiter Beleg
+
+- **Derselbe Empfänger, zwei Tage, zwei Kältestufen — und der Auslöser ist die Dringlichkeit.**
+  Der Fachplaner (Gebäudetechnik, Ingenieurbüro) wird am 27.07. in der Sammelmail als «werter
+  Herr <Nachname>» angeredet, am 29.07. in der dringlichen Einzelbitte als **«Sehr geehrter Herr
+  <Nachname>»** — die kälteste Stufe der Skala, bei gleichbleibend sachlichem Ton («Darf ich Sie
+  dringenst Bitten …»). Damit ist die in Batch 92 erstbelegte Mechanik **unabhängig bestätigt**:
+  beim Nachhaken und beim Drängen wandert die **Anrede** nach unten, nicht der Ton nach oben.
+  Status dieser Regel damit von `emerging` auf **`established`**. Quelle: 27./29.07.2026,
+  authentisch.
+- **«Geschätzter Herr <Nachname> <Vorname>»** — die Bank-/Institutions-Anrede stapelt Nachname
+  UND nachgestellten Vornamen, so wie der Absendername im Mailprogramm steht. Im Folgemail
+  desselben Tages fällt sie auf die normale Form zurück («Geschätzter Herr <Nachname>,»). Die
+  Anrede wird also **aus dem Adressfeld abgeschrieben**, bevor sie sich einspielt — dieselbe
+  Mechanik wie beim «Herr + Vorname» aus Batch 25. Quelle: 29.07.2026, authentisch.
+- **«Guten Morgen lieber <Vorname>»** — Tageszeitgruss + «lieber» + Vorname, gestapelt, an einen
+  Lieferanten im Du (Gastrotechnik). Neue Kombination: die Tageszeit-Anrede war bisher im Sie
+  belegt («Guten Morgen Herr <Nachname>», Batch 28), «lieber <Vorname>» im Sozial-Du. Hier
+  tragen beide Register **dieselbe Anrede**, und die Mail schliesst entsprechend doppelt warm
+  («Danke für Deinen Einsatz. / Ich wünsche Dir schöne Sommertage.»). Quelle: 30.07.2026,
+  authentisch.
+- **Neue und bestätigte Mappings (alle aus diesem Fenster):**
+  - **Küchenbauer/Schreinermanufaktur (Angebotssteller)** — «Geschätzter Herr <Nachname>,» Sie,
+    warm trotz harter Preisverhandlung.
+  - **UBS-Firmenkundenberater** — «Geschätzter Herr <Nachname> <Vorname>» → «Geschätzter Herr
+    <Nachname>,» Sie.
+  - **UGZ-Sachbearbeiter (Umwelt- und Gesundheitsschutz, Stellvertretung)** — «Geschätzter Herr
+    <Nachname>» warmer Behörden-Sie; in der Gruppenmail «Geschätzter Herr <Nachname>, werter Herr
+    <Nachname>».
+  - **Kreisarchitekt (AfB, neu zuständig nach Teamwechsel)** — «Geschätzter Herr <Nachname>»,
+    unmittelbar nach der ersten Besprechung.
+  - **Gastrotechnik-Lieferant** — Du, «Guten Morgen lieber <Vorname>».
+  - **Bauherr-Partner Thalwil** — «Geschätzter Stefan,» (nicht «Hoi»): bestätigt die
+    Gewichts-These, der Anlass ist ein Freigabe-Antrag mit Vertragsdokument.
+  - **Investor/Asset Manager Nova** — «Geschätzter Roman,» + «Lieber Gruss und bis bald»:
+    das Investor-Du ist inzwischen durchgehend warm, die Sie-Startphase (Batch 24) ist beendet.
+- **Gestapelte Anrede mit gemischtem Register, weiterer Beleg:** «Geschätzter <Vorname>, werter
+  Herr <Nachname>» — Bauherrenvertreter im Du, Fachplaner im Sie, in einer Zeile, Reihenfolge
+  nach Nähe. Bestätigt Batch 29/50. Quelle: 27.07.2026, authentisch.

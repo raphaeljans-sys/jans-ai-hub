@@ -2657,3 +2657,45 @@ Terminkritisch-Satz an — er erklärt, wo Raphael nur zuordnet.
   ein zweites Mal im Fliesstext**, obwohl die Signatur direkt darunter dieselben Angaben trägt.
   Redundanz zugunsten der Erreichbarkeit; die Kette bleibt für alle Mitlesenden (Erstkontakt und
   Investor im Cc) wörtlich nachvollziehbar. Quelle: 22.05.2026, authentisch.
+
+## Mailbatch 93 (27.07.–01.08.2026) — die Freigabe wird adressierbar gemacht, die Nachverhandlung nachgerechnet
+
+- **Die Freigabe-Bitte benennt die internen Stellen der Bauherrschaft namentlich.** Die Bitte um
+  interne Freigabe listet nicht «Ihre Fachstellen», sondern **Kürzel, Funktion und Person je
+  Stelle** (Flächenmanagement, Technischer Dienst Elektro, Sicherheit und Umwelt,
+  Unternehmensentwicklung) und schliesst mit «ggf. weitere Stellen». Der Architekt organisiert
+  damit die **Binnenkoordination der Bauherrschaft mit**, statt sie ihr zu überlassen; die
+  Freigabe wird von einem Zustand zu einer Liste von Adressaten. Quelle: 27.07.2026, authentisch.
+- **Die Frist wird durch die Anschlusskette begründet, nicht gesetzt.** Auf die Freigabebitte
+  folgt unmittelbar, was danach passiert («Wir werden anschliessend auf Grundlage der
+  Türfachplanung die Ausführungsplanung … bei Türbauer und Gebäudetechnikfachplaner
+  finalisieren»). Dieselbe Figur wie die Rückwärtsrechnung aus Batch 91, hier ohne Datumskette:
+  **die Frist steht, weil danach jemand wartet.** Quelle: 27.07.2026, authentisch.
+- **Angebots-Nachverhandlung als offengelegte Differenzrechnung.** Die Preiserhöhung des
+  Anbieters wird in sechs Zeilen zerlegt: (1) dessen eigene Positionen mit alten und neuen
+  Beträgen zitiert, (2) die Differenz gebildet, (3) um eine sachlich gerechtfertigte Position
+  bereinigt, (4) eigene «gut gerechnete» Referenzpreise je Gerät dagegengestellt, (5) die
+  verbleibende Differenz beziffert, (6) erst dann das Rahmenbudget genannt und die Streichung
+  verlangt. Die Forderung kommt zuletzt und ist da bereits arithmetisch unausweichlich.
+  Zusätzlich die Trennung **«Gerätepreise gesondert ausweisen»** — die verhandelbare Position
+  wird aus dem Pauschalangebot herausgelöst, bevor über sie gesprochen wird. Quelle: 27.07.2026,
+  authentisch (→ [[denken]] Differenzrechnung gegen die Gegenseite).
+- **Die Behördenfrage bietet die eigene Bringschuld gleich mit an.** Dreiteilig in einem Satz:
+  «wie der Stand der Beurteilung ist, was kann ich Ihnen noch liefern, gibt es offene Fragen?» —
+  der mittlere Teil verwandelt eine Statusanfrage in ein Angebot und nimmt dem Amt die
+  Rechtfertigung ab. Quelle: 27.07.2026, authentisch.
+- **Zuständigkeitswechsel im Amt aktiv nachführen und im eigenen Mail dokumentieren.** Der
+  Wechsel der zuständigen Kreisarchitektur wird nicht nur berücksichtigt, sondern mitsamt dem
+  **eingeklebten Amtstext** in die eigene Mail übernommen (alte Ansprechperson, neues Team, neue
+  Person, Cc-Begründung) — beweissicher für alle Mitlesenden, auch wenn der Klebesatz die
+  Satzgrenze sprengt. Quelle: 27.07.2026, authentisch.
+- **Die Dokumentenliste als Leistungsnachweis mit Auflagen-Präfix.** Gegenüber der Feuerpolizei
+  stehen die **vollständigen echten Dateinamen** mit ihrer Ordnungssystematik (Auflageziffer +
+  laufende Nummer, `A1_`/`A2_`/`A3.1_`, Signatur-Suffixe `_sign_signed_signed`). Bestätigt die
+  nackte Dateinamenliste aus Batch 92 und erweitert sie: **der Dateiname trägt die Auflageziffer,
+  damit die Behörde die Zuordnung nicht selbst leisten muss.** Quelle: 28.07.2026, authentisch.
+- **Rechnungsadresse an Dritte wird als vollständiger Datensatz geliefert, mit Rechtsträger-
+  Klarstellung vorweg.** Auf die Frage nach der Rechnungsadresse folgt zuerst der Satz, **warum**
+  die naheliegende Adresse falsch wäre («ist eine private Stiftung und nicht direkt an das
+  Kantonsspital angebunden»), dann Adresse, UID, E-Rechnungs-Postfach und Zahlungskondition.
+  Der Zwilling neigt hier dazu, nur die Adresse zu liefern. Quelle: 30.07.2026, authentisch.

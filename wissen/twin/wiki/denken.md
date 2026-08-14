@@ -697,3 +697,26 @@ Kein Grund ist abstrakt formuliert; jeder hängt an einer **Rolle, die blockiert
 begründet Dringlichkeit in der Blindfassung über den Terminplan («der Planfreeze gerät in Gefahr»)
 und erfindet dabei den Termin — Raphael begründet sie über die Kette der Wartenden und über den
 Preis des Nachziehens.
+
+## Die Differenzrechnung wird gegen die Zahlen der Gegenseite geführt (Mailbatch 93, authentisch)
+
+In der Angebots-Nachverhandlung argumentiert Raphael **nicht mit seinem Zielpreis, sondern mit dem
+Widerspruch im Angebot des Gegenübers.** Der Gedanke läuft in einer Richtung, jede Etappe eine
+Zeile:
+
+1. die eigenen Positionen des Anbieters zitieren, alt gegen neu («erhöhen Ihr Angebot … von CHF
+   7738.- auf … CHF 36'950.-»),
+2. die Differenz bilden und hinschreiben,
+3. sie um das bereinigen, was sachlich dazugekommen ist (Hochschrank abziehen) — **die Korrektur
+   geht zugunsten der Gegenseite**, was die restliche Rechnung unangreifbar macht,
+4. eigene Referenzpreise je Gerät dagegenstellen, ausdrücklich als «gut gerechnet» markiert,
+5. die verbleibende Differenz beziffern,
+6. erst jetzt das Budget nennen und die Forderung stellen.
+
+Die Reihenfolge ist der Punkt: **das Budget kommt zuletzt.** Käme es zuerst, wäre es eine Vorgabe,
+über die man verhandeln kann; nach der Rechnung ist es die einzige verbleibende Schlussfolgerung.
+Der Zwilling neigt dazu, Budget und Forderung an den Anfang zu stellen und die Begründung
+nachzuliefern — das kehrt die Beweislast um und macht aus einer Rechnung eine Behauptung.
+
+Verwandt mit «in Varianten rechnen» und der Hochfaktorierung vom Bekannten (Batch 26); neu ist,
+dass die Ausgangszahlen **vollständig vom Gegenüber stammen**. Quelle: 27.07.2026, authentisch.
