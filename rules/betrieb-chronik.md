@@ -49,9 +49,16 @@ dass kein einziger Kandidat nicht-leer ist (Abbruchbedingung im Befehl); 107 akt
 (2) `scripts/transcript-rotation.sh` manuell angestossen statt bis So 04:00 zu warten:
 **2508 Transcripts (561 MB) verlustfrei** nach `transcripts-bis-260814.tar.gz` archiviert,
 Integritaet mit `tar tzf | wc -l` = 2508 gegengeprueft, Projektordner 2771 → 1767 MB. Netto
-lokal rund 445 MB, weil das Archiv (jetzt 1.8 GB) lokal liegt. **Offen:** Quarantaene-Ordner
-und die Frage, ob `transcript-archiv/` aufs NAS soll (dort nur noch 477 GB frei, 93 %
-belegt) — als Zeile in `logbuch/fristen.md`.
+lokal rund 445 MB, weil das Archiv (jetzt 1.8 GB) lokal liegt.
+
+**Nachtrag 14:38 (Anweisung Raphael «sofort entfernen»):** Quarantaene-Ordner geloescht,
+nachdem erneut verifiziert war, dass er 0 Dateien, 0 Symlinks und 0 nicht-leere
+Unterverzeichnisse enthaelt (2889 leere Dirs, 0 KB). Bewusst mit
+`find -depth -type d -empty -delete` statt `rm -rf`: der Befehl kann per Konstruktion nur
+Leeres entfernen, eine aufgetauchte Datei waere stehen geblieben — die praezisere Form ist
+auch bei ausdruecklicher Loeschanweisung vorzuziehen. Die 107 aktiven `session-env`-Eintraege
+blieben unberuehrt. **Weiterhin offen:** ob `transcript-archiv/` aufs NAS soll (dort nur noch
+477 GB frei, 93 % belegt) — als Zeile in `logbuch/fristen.md`.
 
 ## 260814 — Speicherputz MacBook Pro: Adobe-Altversionen und Render-Caches in den Papierkorb, Quartals-Task angelegt
 

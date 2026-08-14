@@ -10,6 +10,12 @@ Verzeichnisse) kann ab 21.08.2026 gelöscht werden.** Am 14.08. umkehrbar aus
 `~/.claude/session-env` verschoben (Inode-Müll aus 3360 Sessions, alle nachweislich leer,
 0 Byte). Eine Woche stehen lassen, dann ersatzlos entfernen. Status: **beobachten, kein
 Handlungsdruck.**
+**Nachtrag 14.08.2026, 14:38 (Anweisung Raphael «sofort entfernen»): ERLEDIGT.** Vor der
+Löschung erneut verifiziert: 0 Dateien, 0 Symlinks, 0 nicht-leere Unterverzeichnisse,
+2889 leere Verzeichnisse, 0 KB. Entfernt mit `find -depth -type d -empty -delete` statt
+`rm -rf` — dieser Befehl kann per Konstruktion nur leere Verzeichnisse löschen, eine Datei
+wäre stehen geblieben. Ordner vollständig weg, die 107 aktiven `session-env`-Einträge
+blieben unberührt. Die Wartefrist bis 21.08. entfällt damit.
 
 **ZU PRÜFEN: Soll `~/.claude/transcript-archiv/` (1.8 GB, vier tar.gz) aufs NAS?** Am
 14.08. kamen 559 MB dazu (`transcripts-bis-260814.tar.gz`, 2508 Transcripts, Integrität
