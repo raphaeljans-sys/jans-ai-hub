@@ -5971,3 +5971,18 @@ dangling-Link "ahb-zuerich-massstaebe-nachhaltiges-bauen" (Mai 2006, gleicher Ti
 nie eingelesen) sowie die verbleibenden 4 Formulare aus Run 130 fuer Run 132.
 training/pdf-inventar.md, destillate/INDEX.md und CHANGELOG.md nachgefuehrt. Commit
 folgt nativ ueber nas-commit-now.sh (kein Git ueber SMB).
+
+## 2026-08-14/15 (Mac Mini Nachtschicht 23:30) — Bauprodukte-KB: Sektion 900 Einrichtung abgeschlossen, erster Artikel
+
+Prioritaet 1-3 der Nachtschicht ohne gueltiges Ziel (Synobsis Stufe 1+2 fertig/eigener
+Takt, Fristen-Register bereits taggesaktuell gepflegt); energie heute bereits zweimal
+trainiert (Run 130, Run 132). Bauprodukte war mit letztem inhaltlichem Stand 02:41 das
+laenger nicht trainierte Ziel. Alle 22 offenen Inventarpositionen der letzten Sektionen
+(233/282/900/921/960) via Haiku-Subagent triagiert und selbst gegengeprueft: 14 Skip
+(Finanzbelege, Transaktionsdokumente, generische Haendlerkataloge, defekte PDFs), 6
+destillierbar erkannt, 1 versehentlich uebersprungen (erneut vorzulegen). Dazu 15
+bereits in Phase 1 beurteilte, aber noch als [t] gefuehrte Positionen formal auf [-]
+geschlossen. Neuer Wiki-Artikel [[kevi-buerodrehstuhl]] (BKP 900, Quelle kevi.pdf
+selbst gelesen/verifiziert). Drei Kandidaten (CH24 Wishbone, Matrah-Moll Naturmatratze,
+BIOFA Coloroel) fuer den naechsten Lauf offen gelassen (Budgetgrenze). Details:
+`wissen/bauprodukte/CHANGELOG.md`.

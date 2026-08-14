@@ -147,26 +147,26 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [x] | 224 Bedachungsarbeiten | 224 Bedachungsarbeiten/020426 Dachbegruenung.doc | bauprodukte | destilliert → dachbegruenung-systeme.md |
 | [x] | 225 Spezielle Dichtungen und Daemmungen | 225 Spezielle Dichtungen und Daemmungen/021230 Beschichtung PU.doc | bauprodukte | destilliert → pu-beschichtung-fassade.md |
 | [-] | 230 Elektroanlagen | 230 Elektroanlagen/151218_Lorrainestrasse_4_1.OG.pdf | bauprodukte | Projektplan einzeln |
-| [ ] | 230 Elektroanlagen | 230 Elektroanlagen/Kostenschätzung Elektroinstallationen.docx | bauprodukte | | P2 · Elektrokostenschätzung |
+| [-] | 230 Elektroanlagen | 230 Elektroanlagen/Kostenschätzung Elektroinstallationen.docx | bauprodukte | Kostenschaetzungsdokument, gehoert fachlich zu wissen/grobkosten nicht bauprodukte (Analogie BKP-0-Ausschluss lt. Spec); beim Triage-Versuch zusaetzlich nicht lesbar (Triage 14.08.2026) |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180621 Bemusterung 251 Bakery.pdf | bauprodukte | Projekt-Bemusterung |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180623 Offerte.pdf | bauprodukte | Transaktionsdokument |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180703 Bestellung.pdf | bauprodukte | Transaktionsdokument |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 20180621 Bemusterung 251 Bakery.pdf | bauprodukte | Projekt-Bemusterung |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 AB 22237475.pdf | bauprodukte | Transaktionsdokument |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 Bestätigung Bestellung.pdf | bauprodukte | | Transaktionsdokument |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/0 Kommunikation/Vitra/180706 Bestätigung Bestellung.pdf | bauprodukte | Transaktionsdokument (Bestellbestaetigung Vitra), kein Produktwissen (Triage 14.08.2026) |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/1 Zahlungne/ZahlungInland_20180723_1719.pdf | bauprodukte | Zahlungsbeleg |
 | [x] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/0 Administration/de_erco_guide.pdf | bauprodukte | P1 · Grosses Werk (435 S.) VOLLSTAENDIG destilliert in drei Teilen: Teil 1/3 (S.1-374 → erco-lichtplanung-grundlagen.md), Teil 2/3 (S.375-426 → erco-lichtplanung-simulation-berechnung.md), Teil 3/3 (S.427-435 Glossar, 271 Begriffe A-Z → erco-lichtplanung-glossar.md, Lauf 14.08.2026) |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/1 Wandleuchte/170123 Leuchtenauswahl Nasszellen.pdf | bauprodukte | Fehltriage korrigiert (04:37) — ist Katalog-Scrapbook mit Klebezetteln (Tic Light, Catellani+Smith, eintopf/etna Wallroth), keine Feuchtraum/IP-Inhalte trotz Dateiname |
-| [ ] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/4 Ständerlampe/SKMBT_C28017050111200.pdf | bauprodukte | | P3 · Scan unklar |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/4 Ständerlampe/SKMBT_C28017050111200.pdf | bauprodukte | Unklare Handskizze, kontextlos, kein extrahierbares Produktwissen (Triage 14.08.2026) |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/151109_Optimaler.pdf | bauprodukte | P3 · Unklar datiert |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/272_10_Wandansicht_Esstisch_151030.pdf | bauprodukte | Projekt-Grundriss |
 | [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/31 Lichtschalter Steckdosen.pdf | bauprodukte | Falsche Sektion |
-| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/A3 Schreinerplaene.pdf | bauprodukte | - · Konstruktionsplan |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Jans/A3 Schreinerplaene.pdf | bauprodukte | Konstruktionsplan, kein eigenstaendiges Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Judd/ Its_Hard_To_Find_A_Good_Lamp_1993.pdf | bauprodukte | P3 · Designessay |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/SKMBT_C28015121019050.pdf | bauprodukte | P3 · Scan ohne Kontext |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller20cm.pdf | bauprodukte | P3 · Bauteil knapp |
 | [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/MPP/Teller30cm.pdf | bauprodukte | P3 · Bauteil knapp |
-| [t] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | - · Einzelhandel Katalog |
+| [-] | 233 Leuchten und Lampen | 233 Leuchten und Lampen/6 Pendellampe/Noguchi/Akari 26A 45cm Fr285/26A Akari Papier-Leuchte von Vitra | connox.ch.pdf | bauprodukte | Einzelhandel-Katalogseite ohne technische Substanz (Phase-1-Urteil formalisiert 14.08.2026) |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/1.5x1.5/21005312.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege.pdf | bauprodukte | destilliert → bkp-261-aufzuege.md |
 | [x] | 260 Transportanlagen | 260 Transportanlagen/Lift/AS/100426_AS_Aufzuege_Masskizze.pdf | bauprodukte | destilliert 30.07.2026 → [[bkp-261-aufzuege]] (Schachtbemassung Swisslift) |
@@ -180,44 +180,44 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [x] | 273 Schreinerarbeiten | 273 Schreinerarbeiten/Zusammenzieher/110207_Arbeitsplatten_Verbinder_Zip_Bold_Mini.pdf | bauprodukte | → [[arbeitsplatten-verbinder-schreinerei]] |
 | [x] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 1.doc | bauprodukte | → [[terrazzo-kunststein-bodenbelaege]] |
 | [x] | 281 Bodenbelaege | 281 Bodenbelaege/020226 Terrazzo 2.doc | bauprodukte | → [[terrazzo-kunststein-bodenbelaege]] |
-| [t] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | - · Kostendokument |
-| [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | |
-| [ ] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | |
+| [-] | 281 Bodenbelaege | 281 Bodenbelaege/Offerte_Terrazzo_Belaege.pdf | bauprodukte | Kostendokument, kein Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
+| [-] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/180516 Materialisierung.pdf | bauprodukte | Projektspezifisches Materialisierungsdossier (Rendering+Materialien Gastraum), nicht uebertragbar (Triage 14.08.2026) |
+| [-] | 282 Wandbeläge | 282 Wandbeläge/2 Referenzen/SKM_C30818051015130.pdf | bauprodukte | Projektspezifische Material-/Farbmuster, nicht verallgemeinerbar, Scan schwer lesbar (Triage 14.08.2026) |
 | [x] | 284 Cheminee | 284 Cheminee/Cheminee.pdf | bauprodukte | destilliert 01.08.2026 → [[cheminee-aufbau-hafnerarbeiten]] |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | - · Falsche Sektion |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | - · Falsche Sektion |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich(1).pdf | bauprodukte | Falsche Sektion (Fussbodenheizung/Estrich, nicht Einrichtung) (Phase-1-Urteil formalisiert 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/2012_MB_Fussbodenheizungen_Estrich.pdf | bauprodukte | Falsche Sektion (Fussbodenheizung/Estrich, nicht Einrichtung), Duplikat der Zeile oben (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/9783959721622.pdf | bauprodukte | P3 · ISBN-Datenblatt unklar |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_FSG1100_D.pdf | bauprodukte | - · Falsche Sektion |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_Router_ZyXEL_NBG6617.pdf | bauprodukte | - · Falsche Sektion |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/IFL-schedule-Aug2017.pdf | bauprodukte | - · Falsche Sektion |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_FSG1100_D.pdf | bauprodukte | Falsche Sektion (Geraeteanleitung) (Phase-1-Urteil formalisiert 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/Anleitung_Router_ZyXEL_NBG6617.pdf | bauprodukte | Falsche Sektion (IT-Router-Anleitung) (Phase-1-Urteil formalisiert 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/IFL-schedule-Aug2017.pdf | bauprodukte | Falsche Sektion, kein Produktbezug erkennbar (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/Kleihues_fertig.pdf | bauprodukte | P3 · Scan ohne Kontext |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/OrangerEinzahlungsschein_20180313_0852.pdf | bauprodukte | - · Zahlungsbeleg |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/OrangerEinzahlungsschein_20180313_0852.pdf | bauprodukte | Zahlungsbeleg, kein Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/Planer8_Kap7.pdf | bauprodukte | P3 · Scan ohne Kontext |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/Seiten aus Seiten aus Praes-Arth3-2011-4STOFFWECHSEL.pdf | bauprodukte | P3 · Scan ohne Kontext |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/Synology_DS918+_Data_Sheet_deu_SVHW.pdf | bauprodukte | - · Falsche Sektion |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/WDS-Konfiguration mit NWA1100-N.pdf | bauprodukte | - · Falsche Sektion |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/ZahlungInland_20180223_1504.pdf | bauprodukte | - · Zahlungsbeleg |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/Synology_DS918+_Data_Sheet_deu_SVHW.pdf | bauprodukte | Falsche Sektion (NAS-Geraetedatenblatt) (Phase-1-Urteil formalisiert 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/WDS-Konfiguration mit NWA1100-N.pdf | bauprodukte | Falsche Sektion (WLAN-Konfigurationsanleitung) (Phase-1-Urteil formalisiert 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/ZahlungInland_20180223_1504.pdf | bauprodukte | Zahlungsbeleg, kein Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/degewo_feuchtwangerweg_0908.pdf | bauprodukte | P3 · Scan ohne Kontext |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/fs-lsv-zahlungsausgang-de.pdf | bauprodukte | - · Finanzdokument |
-| [ ] | 900 Einrichtung | 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf | bauprodukte | |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | - · Finanzdokument |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/fs-lsv-zahlungsausgang-de.pdf | bauprodukte | Finanzdokument (LSV-Merkblatt), kein Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
+| [t] | 900 Einrichtung | 900 Einrichtung/00 best/lisfäadbf/Datenblatt-ch24.pdf | bauprodukte | P1 · Design-Klassiker Carl Hansen CH24 Wishbone Chair (Hans J. Wegner 1949) - Material Buche/Schafwolle/Kork, Masse ca. 73.5x25x17.5cm laut Subagent-Sichtung, nicht selbst gegengelesen; DESTILL-Kandidat naechster Lauf (Triage 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/merkblatt-sepa-de.pdf | bauprodukte | Finanzdokument (SEPA-Merkblatt), kein Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/mo table.pdf | bauprodukte | P3 · Dateiname kryptisch |
 | [-] | 900 Einrichtung | 900 Einrichtung/00 best/paustian_mirror_mirror_product_sheet.pdf | bauprodukte | Geprüft 04.08.2026: reines Hersteller-Datenblatt (Paustian, Design Maria Bruun, PDF-Stand 08.09.2015, >10 Jahre) zu einem konkreten Serienprodukt (Winkelspiegel, 3 Grössen, Eiche/Chromstahl) ohne Konstruktionsprinzip oder System dahinter — nach der Altersregel (Rule/CLAUDE.md 31.07.2026) aus einem >10 Jahre alten Dokument nur ein Prinzip-Artikel zulässig, kein Produkt-Eintrag; hier gibt es kein destillierbares Prinzip. Kein Artikel. |
-| [t] | 900 Einrichtung | 900 Einrichtung/00 best/teilnahmeerklaerung-sepa-basislastschrift-zahlungspflichtige-de.pdf | bauprodukte | - · Finanzdokument |
+| [-] | 900 Einrichtung | 900 Einrichtung/00 best/teilnahmeerklaerung-sepa-basislastschrift-zahlungspflichtige-de.pdf | bauprodukte | Finanzdokument (SEPA-Teilnahmeerklaerung), kein Produktwissen (Phase-1-Urteil formalisiert 14.08.2026) |
 | [t] | 900 Einrichtung | 900 Einrichtung/00 best/wbw-002_1967_54__797_d.pdf | bauprodukte | P3 · Historisches Dokument |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/100902_Auswahl_IKEA_fuer_mich_Matratze_Linie_Sultan.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/Schaumstoff/170T95~O.PDF | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/latex/100903_SULTAN_ERFJORD_Latexmatratze.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/100830_REMO_Stuehle_Wohnzimmer_Die Kollektion.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/Kevi-Katalog_0.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi_catalogue_produkt_pdf_e.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Klappstuhl Apatura (Landmann 265400) : 265400.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Tisch/Klapptisch - quadratisch Apatura (Landmann 265415) : 265415.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Moebelhauser/Fly/katalog_fly_2011.pdf | bauprodukte | |
-| [ ] | 900 Einrichtung | 900 Einrichtung/Naturmatratze_Matrah_Moll.pdf | bauprodukte | |
-| [ ] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Defitext/921_Vorhaenge.pdf | bauprodukte | |
-| [ ] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Vorhaenge - WUNDERLIN/kopie/pdf/F 030430 Sonnenschutzvorhang.pdf | bauprodukte | |
-| [ ] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Vorhaenge - WUNDERLIN/kopie/pdf/F 030620 pendenzen.pdf | bauprodukte | |
-| [ ] | 960 Oberflaechen | 960 Oberflaechen/5 Stühle farbe/farb_Farbtonkarte_ColorC3B6l.pdf | bauprodukte | |
+| [t] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf | bauprodukte | P2 · Matrah-Moll Naturmatratze: Material-Schichtung (Schafschurwolle/Rosshaar/Naturlatex/Kokos), zwei Ausfuehrungstypen, Preise CHF 1'005-2'243 laut Subagent-Sichtung, nicht selbst gegengelesen; Duplikat siehe Zeile 900 Einrichtung/Naturmatratze_Matrah_Moll.pdf; DESTILL-Kandidat naechster Lauf (Triage 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/100902_Auswahl_IKEA_fuer_mich_Matratze_Linie_Sultan.pdf | bauprodukte | Generischer IKEA-Handelskatalog (Sultan Faevang Schaumstoffmatratze) ohne technische Substanz (Triage 14.08.2026) |
+| [ ] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/Schaumstoff/170T95~O.PDF | bauprodukte | | Im Triage-Lauf 14.08.2026 durch Nummerierungsfehler des Subagenten ausgelassen - erneut vorlegen |
+| [-] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Bett/Matraze/ikea/latex/100903_SULTAN_ERFJORD_Latexmatratze.pdf | bauprodukte | Generischer IKEA-Handelskatalog (Sultan Erfjord Latexmatratze) ohne technische Tiefe (Triage 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/100830_REMO_Stuehle_Wohnzimmer_Die Kollektion.pdf | bauprodukte | Generischer Online-Shop-Eintrag (REMO Barhocker) ohne technische Substanz (Triage 14.08.2026) |
+| [x] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/Kevi-Katalog_0.pdf | bauprodukte | als Quelle in [[kevi-buerodrehstuhl]] zitiert (allgemeine Katalogaussagen); Triage-Verdict widerspruechlich (SKIP vs DESTILL im selben Lauf), Einzelinhalt nicht gegengelesen (14.08.2026) |
+| [x] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi.pdf | bauprodukte | destilliert 14.08.2026 (selbst vollstaendig gelesen und verifiziert) -> [[kevi-buerodrehstuhl]] (Kevi 2003 Buerodrehstuhl, Datenblatt Linea Einrichtungs GmbH, Preisstand 01/2011) |
+| [x] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Buerostuhl/Kevi_Fritz_Jacobsen/kevi_catalogue_produkt_pdf_e.pdf | bauprodukte | als Nebenquelle in [[kevi-buerodrehstuhl]] verwendet (allgemeine Aussage zur Office/Conference-Serie), Einzelinhalt nicht selbst gegengelesen (14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Stühle/Klappstuhl Apatura (Landmann 265400) : 265400.pdf | bauprodukte | Generischer Gartenmoebel-Onlinekatalog (Apatura Teak-Klappstuhl) ohne technische Substanz (Triage 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/Einrichtungselemente/Tisch/Klapptisch - quadratisch Apatura (Landmann 265415) : 265415.pdf | bauprodukte | Generischer Gartenmoebel-Onlinekatalog (Apatura Teak-Klapptisch) ohne technische Substanz (Triage 14.08.2026) |
+| [-] | 900 Einrichtung | 900 Einrichtung/Moebelhauser/Fly/katalog_fly_2011.pdf | bauprodukte | Reiner Einzelhandels-Dekorationskatalog (FLY Moebel und Dekoration 2010/2011) ohne Produktfachwissen (Triage 14.08.2026) |
+| [t] | 900 Einrichtung | 900 Einrichtung/Naturmatratze_Matrah_Moll.pdf | bauprodukte | P2 · Duplikat von Einrichtungselemente/Bett/Matraze/100902_Naturmatratze_Matrah_Moll.pdf (Zeile oben), gleicher Inhalt (Triage 14.08.2026) |
+| [-] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Defitext/921_Vorhaenge.pdf | bauprodukte | Projektspezifisches Ausschreibungsdossier (Pflegeheim Haus St. Martin Eschen, BKP 921) mit Finanzierungsdaten, nicht uebertragbar (Triage 14.08.2026) |
+| [-] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Vorhaenge - WUNDERLIN/kopie/pdf/F 030430 Sonnenschutzvorhang.pdf | bauprodukte | Datei defekt/nicht lesbar (Triage 14.08.2026) |
+| [-] | 921 Vorhaenge | 921 Vorhaenge/Forsterstrasse/Vorhaenge - WUNDERLIN/kopie/pdf/F 030620 pendenzen.pdf | bauprodukte | Datei defekt/nicht lesbar; zudem projektspezifische Pendenzenliste, kein Produktwissen (Triage 14.08.2026) |
+| [t] | 960 Oberflaechen | 960 Oberflaechen/5 Stühle farbe/farb_Farbtonkarte_ColorC3B6l.pdf | bauprodukte | P2 · BIOFA Coloroel (Oberflaechenoel, loesemittelfrei) - Anwendung Kork/Holz/Parkett/MDF/OSB, 15+ Farbvarianten fuer Fichte/Eiche/Edelhoelzer laut Subagent-Sichtung, nicht selbst gegengelesen; DESTILL-Kandidat naechster Lauf (Triage 14.08.2026) |

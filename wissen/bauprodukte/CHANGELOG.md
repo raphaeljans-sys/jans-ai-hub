@@ -1,6 +1,36 @@
 # CHANGELOG — KB `bauprodukte`
 
-## 2026-08-14 (Mac Mini Nachtschicht 02:30) — ERCO Ratgeber Teil 3/3: Glossar (S.427-435) — Dokument vollständig abgeschlossen
+## 2026-08-14/15 (Mac Mini Nachtschicht 23:30) — BKP 900 Einrichtung: 22 offene Positionen triagiert, erster Artikel Kevi-Bürodrehstuhl
+
+Phase-1-Triage der letzten 22 unbearbeiteten Inventarpositionen (Haiku-Subagent,
+Sichtung jeder Datei, Ergebnis selbst gegengeprüft): 6 als inhaltlich destillierbar
+erkannt (CH24 Wishbone Chair, Matrah-Moll Naturmatratze, BIOFA Coloröl, Kevi-Serie),
+14 als Skip mit Begründung geschlossen (Finanzbelege, Transaktionsdokumente,
+generische Einzelhandelskataloge, projektspezifische Dossiers, defekte PDFs), 1 Datei
+(170T95~O.PDF) blieb durch einen Nummerierungsfehler des Subagenten unbehandelt und
+ist erneut vorzulegen. Zusätzlich 15 bereits in Phase 1 mit «-»-Bemerkung geführte
+[t]-Positionen (Zahlungsbelege, Falsche-Sektion-Funde) formal auf `[-]` geschlossen —
+das Urteil stand, war aber nicht im Status nachgezogen.
+
+**Neuer Wiki-Artikel [[kevi-buerodrehstuhl]]** (BKP 900, erste Position dieser
+Sektion): Kevi-Bürodrehstuhl (Design Jørgen Rasmussen), Furnier-Sitzschale auf
+Fünffuss-Alu-Gestell. Quelldatei `kevi.pdf` selbst vollständig gelesen und
+verifiziert (Material, Höhenverstellung 38-51 cm, Farben, Preis EUR 520,03 Stand
+01/2011); die beiden Katalog-Nebenquellen (`Kevi-Katalog_0.pdf`,
+`kevi_catalogue_produkt_pdf_e.pdf`) lieferten im Subagenten-Lauf widersprüchliche
+Verdicts (SKIP vs. DESTILL für dieselbe Datei) — nur allgemeine, nicht
+einzeln-belegbedürftige Aussagen daraus übernommen, im Inventar als unverifiziert
+vermerkt.
+
+**Drei DESTILL-Kandidaten für den nächsten Lauf** (aus Budgetgründen heute nicht mehr
+verifiziert): CH24 Wishbone Chair (P1, Design-Klassiker), Matrah-Moll Naturmatratze
+(P2, Material-Schichtung + Preise), BIOFA Coloröl (P2, Oberflächenbehandlung
+Holz/Kork/Parkett).
+
+Inventarstand danach: 20 destilliert, 17 triagiert (davon 4 neue P1/P2-Kandidaten),
+1 offen (Nachtrag), 176 bewusst übersprungen.
+
+ — ERCO Ratgeber Teil 3/3: Glossar (S.427-435) — Dokument vollständig abgeschlossen
 
 Letzter Fehlbetrag der ERCO-Lichtplanungs-Destillation (BKP 233): Kapitel «Glossar»
 (S.427-435, alphabetisches Fachbegriffs-Glossar der Lichtplanung, Edition 01.03.2010).

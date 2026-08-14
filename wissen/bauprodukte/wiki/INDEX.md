@@ -5,6 +5,11 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 
 ## Nach BKP
 
+### BKP 900 — Einrichtung
+- [[kevi-buerodrehstuhl]] — Kevi-Bürodrehstuhl (Design Jørgen Rasmussen): Furnier-
+  Sitzschale auf Fünffuss-Alu-Gestell statt Polsterung, Höhenverstellung 38-51 cm
+  (Preisstand 2011, Datenblattquelle Linea Einrichtungs GmbH)
+
 ### BKP 225 — Spezielle Dichtungen und Dämmungen
 - [[pu-beschichtung-fassade]] — PU-Fassadenbeschichtung: Aufbau, Verarbeitung,
   Elastizitäts-/Garantierisiken (Stand 2002, unverifiziert)
