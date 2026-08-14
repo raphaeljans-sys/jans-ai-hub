@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.08.2026 07:09:51
+Stand: 14.08.2026 07:20:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 14.08.2026 07:09:51
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 278a60cc logbuch-radar: Briefing 14.08.2026 (Stevanovic-Mail versandt, Notariat geantwortet, Trennwand gepaart) + 3 Register-Abschluesse
+- b8cd34ba nas-selfcommit: 3 Datei(en) 2026-08-14 07:15

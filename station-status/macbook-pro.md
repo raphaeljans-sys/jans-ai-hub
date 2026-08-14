@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 07:10:12
+Stand: 14.08.2026 07:20:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:03)
@@ -19,4 +19,4 @@ Stand: 14.08.2026 07:10:12
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 278a60cc logbuch-radar: Briefing 14.08.2026 (Stevanovic-Mail versandt, Notariat geantwortet, Trennwand gepaart) + 3 Register-Abschluesse
+- b8cd34ba nas-selfcommit: 3 Datei(en) 2026-08-14 07:15

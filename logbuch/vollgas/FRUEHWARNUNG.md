@@ -5,6 +5,108 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-14 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 14.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+Subagenten-Transcripts, Zeilenfilter je `timestamp[:10]` gegen ein Achttagefenster,
+neun Tage mtime-Vorfilter, Duplikate über (message.id, requestId) ausgeschlossen.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 07.08. | 43.25 | 354.36 | 9.86 | 134.71 | **53.11** |
+| 08.08. | 9.13 | 174.34 | 9.17 | 109.51 | **18.30** |
+| 09.08. | 0.62 | 37.17 | 0.00 | 0.00 | **0.62** |
+| 10.08. | 0.00 | 0.00 | 1.32 | 19.41 | **1.32** |
+| 11.08. | 0.00 | 0.00 | 2.79 | 78.22 | **2.79** |
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | **28.39** |
+| 13.08. (voll) | 12.73 | 276.76 | 4.56 | 112.30 | **17.29** |
+| 14.08. (bis 07:15) | 1.80 | 31.28 | 0.61 | 17.57 | **2.41** |
+
+Alle sechs Überlappungstage reproduzieren die Messung vom 13.08. auf zwei Nachkommastellen
+(07.08. 53.11, 08.08. 18.30, 09.08. 0.62, 10.08. 1.32, 11.08. 2.79, 12.08. 28.39) — die
+rekursive Methodik ist zum achten Mal stabil. Der 13.08. schloss mit 17.29 kombiniert
+(um 07:15 waren erst 5.55 gemessen), also ein ruhiger Tag im Vergleich zum 12.08.
+
+**Blockade-Status: FREI.** Strukturelle Prüfung (isApiErrorMessage / type=error /
+message.type=error / apiErrorStatus 429 zusammen mit Limit-Textmuster) findet in den
+letzten 24 h auf **beiden** Stationen **null** echte Ereignisse. Die einzigen Treffer im
+Achttagefenster stammen vom 08.08. 21:22/21:30 (Wochenlimit, Reset 10.08. 12:00) und sind
+mit dem Eintrag vom 08.08. bereits gemeldet und abgeschlossen.
+
+### Bewertung — STILL, keine Mail; alle sieben Kriterien geprüft
+
+| Kriterium | Befund | erfüllt |
+|---|---|---|
+| (a) interaktive Session mit echtem Limit-Ereignis | 0 Ereignisse in 24 h, beide Stationen | nein |
+| (b) kombiniert >35 Mio an einem Tag / >18 Mio an zwei Folgetagen | 13.08. 17.29, 14.08. bis 07:15 erst 2.41; Vorpaar 12./13.08. = 28.39/17.29, der zweite Tag bleibt unter 18 | nein |
+| (c) Wochenkontingent in 24 h erschöpft | kein Ereignis | nein |
+| (d) operatives Briefing ohne Deliverable | alle vier erreicht (siehe unten) | nein |
+| (e) Radar-Herzschlag >12 h alt | Session 00:57, RADAR.md-Einträge 00:57 und 05:30 — 1.8 h alt | nein |
+| (f) Destillat verbraucht ohne Fortschritt/Ertrag | neuer Artikel mit 895 Zeilen um 02:42 | nein |
+| (g) KORPUS-QUEUE KOMPLETT | 22 Dateien offen | nein |
+
+**Schritt 3 — operative Briefings, alle vier mit Deliverable.** `logbuch-radar` 14.08. 06:55
+(191 Zeilen): Fristen-Register und Logbuch nachgeführt, Commit 07:02 («Briefing 14.08.2026,
+Stevanovic-Mail versandt, Notariat geantwortet, Trennwand gepaart» plus drei
+Register-Abschlüsse), kein eigener Mail-Versand — korrekt nach dem Ein-Mail-Prinzip.
+`hub-chef-taeglich` 13.08. 08:53 (182 Zeilen): Mail um 08:53:03 an rj@ nachweislich gesendet
+(4'431 Zeichen Body). `mahnwesen-verzugscheck` 13.08. 08:05 (132 Zeilen) und
+`zahlungsabgleich-check` 13.08. 08:23 (76 Zeilen): beide mit Registerpflege abgeschlossen,
+beide inhaltlich durch den bexio-401-Blocker begrenzt, der als aktive Zeile im Register steht.
+Der reguläre Hub-Chef-Slot 08:39 des 14.08. steht zum Messzeitpunkt noch aus.
+
+**Schritt 4 — Radar-Herzschlag vorhanden.** Beide unabhängigen Signale erfüllt: eine
+`vollgas-chef-radar`-Session um 00:57 und der zugehörige RADAR.md-Eintrag desselben
+Zeitpunkts («Budget 28.8/50.6, 4 KBs mit Delta»), dazu ein Nachtschicht-Eintrag um 05:30.
+
+**Schritt 5 — Liefer-Delta kräftig positiv.** Seit dem letzten Lauf 21 Sach-Commits ohne den
+Selfcommit-Takt: normen Run 51, energie Run 129 und 130, twin-mail Batch 93,
+twin-fidelity-review (Fidelity 36, erster Blindwert), wissens-chef Run 31, konversations-log,
+Synergie-Lauf 06, tenant-hygiene, bauprodukte zweimal. Kein Loop mit Verbrauch ohne Delta —
+mit einer Ausnahme.
+
+**Der Defekt bleibt derselbe: `ag-gruendung-monitor`.** Läufe 12.08. 23:35 und 13.08. 05:47,
+je 13 Zeilen, beide gestorben an «There's an issue with the selected model (haiku-4-5). It may
+not exist or you may not have access to it.» (model_not_found, HTTP 404). Der Hub-Chef hat den
+Ausfall am 13.08. selbst vermerkt («AG-Monitor seit 07.08. stumm»), die Frühwarnung am 13.08.
+ebenfalls. Damit ist es der **achte Tag ohne Monitor-Lauf** — der Loop, der bei
+Kapitalbescheinigung, Beurkundungstermin und 24-Stunden-Fristen eigenständig mailen dürfte.
+Kein Meldegrund nach dem Wortlaut (er zählt nicht zu den vier Briefings des Schritts 3) und
+bereits von zwei Kanälen gemeldet, deshalb keine Wiederholungsmail. Der Radar hat den Fall auf
+dem Tisch; die Reparatur ist ein Einzeiler in der Task-Konfiguration (Modell haiku-4-5 gibt es
+auf dieser Station nicht).
+
+**Schritt 5b — Destillat.** (a) Fortschritt: `bauprodukte` 37/37 Sektionen, 214
+inventarisiert, **22 offen** — die Front steht seit dem 13.08. still. (b) Ertrag: **11 Artikel**
+plus INDEX; in der Nacht kamen `erco-lichtplanung-simulation-berechnung.md` (+152 Zeilen,
+23:34) und der neue `erco-lichtplanung-glossar.md` (+895 Zeilen, 02:42) dazu, womit der
+ERCO-Ratgeber vollständig destilliert ist. Die stillstehende Front ist hier also kein
+Leerlauf, sondern die Folge eines Dokuments, das über drei Läufe geht und erst am Schluss aus
+der Offen-Liste fällt. **Alle 11 Artikel tragen `status: emerging`, keiner `established`** —
+für die Zitierfähigkeit nach Rule `normen-referenz` Punkt 1b relevant. (c) Delta-Null-Serie:
+weiterhin **nicht messbar**, der jüngste Destillat-Lauf-Report unter
+`wissen/bauprodukte/outputs/` datiert vom 03.08.; die beiden Reports vom 13.08. stammen aus
+dem interaktiven Duschwannen-Rücklauf, nicht aus dem Loop. Der Radar führt diesen Punkt seit
+dem 13.08. als P1. (d) Stückkosten: 13.08. voll **0.56 Mio je Artikel** (17.29 Mio auf 31
+Artikel laut git, ohne INDEX/QUESTIONS), ohne die sechs Twin-Facetten 25 Artikel = **0.69 Mio**;
+14.08. bis 07:15 2.41 Mio auf 9 Artikel = 0.27 (ohne Twin 3 Artikel = 0.80), Tag noch jung.
+Spec für den laufenden Korpus vorhanden (`specs/bauprodukte-spec.md`), Spec-Gate hängt nicht.
+
+**Neuer Nebenbefund für den Radar — das Lauf-Gate des Mac Mini protokolliert nicht mehr.**
+`logbuch/speicher/gate-Macmini.log` endet am **10.08. 05:30** («ABGEWIESEN weiche-nachtschicht,
+Wochenkontingent zu 85.5 % aufgebraucht»). Seither kein einziger Eintrag, obwohl die
+Nachtschicht in der Nacht auf den 14.08. zweimal geliefert hat (23:34 und 02:42). Entweder
+schreibt das Gate seit vier Tagen nicht mehr, oder die Nachtschicht läuft an ihm vorbei. Beides
+ist harmlos für den heutigen Betrieb und deshalb kein Sendegrund, entzieht aber der im Auftrag
+verlangten Wochen-Auswertung des **Mittags-Slots 13:30** die Datenbasis: der letzte belegte
+13:30-Versuch ist der **09.08.**, und er wurde abgewiesen. Solange das Gate stumm bleibt, lässt
+sich Raphaels Entscheid über diesen Slot nicht auf Zahlen stützen.
+
+**Meldeentscheid: STILL.** Kein Kriterium erfüllt, kein Eingriff. Letzte Mail dieser Aufsicht:
+08.08.2026 07:29.
+
 ## 2026-08-13 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 13.08.2026 07:15 CEST, NAS gemountet. Zweiter Lauf desselben Tages (der
