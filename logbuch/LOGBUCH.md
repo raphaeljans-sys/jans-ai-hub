@@ -5954,3 +5954,20 @@ pdftotext-Diff gegen die eco-Quelle gegengeprueft, nur 4 bestaetigt, 5 sind spae
 der 5 offenen Formulare aus Budgetgruenden auf Run 131 vertagt. Details:
 wissen/energie/outputs/2026-08-14_energie-run130.md, Register in
 training/pdf-inventar.md nachgefuehrt. Commit folgt nativ ueber nas-commit-now.sh.
+
+## 2026-08-14 13:30 — Nachtschicht Mac Mini: Energie Run 131 (Richtlinie_7-Meilenschritte destilliert)
+
+Prioritaeten 1-3 leer/nicht anwendbar (Sync-Queues leer, Synobsis 853/853 gesaettigt,
+Fristenregister bereits vom 06:55-Radar abgedeckt). Fortsetzung Energie-KB, Run 130
+liess 5 offene Formulare im Ordner `18-Nachhaltiges Bauen` fuer Run 131 stehen. Eine
+Einheit destilliert (Budgetdisziplin): `Richtlinie_7-Meilenschritte_(Flyer).pdf`
+(Stadtratsbeschluss Nr. 1094 vom 17.09.2008, "Massstaebe fuer Umwelt- und
+energiegerechtes Bauen") ueber den Graph-Weg (M365-CLI) bezogen, neues Destillat
+`stadt-zuerich-7-meilenschritte-nachhaltiges-bauen.md`. Bauherren-relevanter Befund:
+der Geltungsbereich bindet auch private Bauvorhaben mit staedtischer
+Unterstuetzungsleistung (Baurecht, Beitraege), nicht nur staedtische Bauten selbst.
+Zwei offene Punkte neu in wiki/QUESTIONS.md: ungeklaerter Bezug zu einem
+dangling-Link "ahb-zuerich-massstaebe-nachhaltiges-bauen" (Mai 2006, gleicher Titel,
+nie eingelesen) sowie die verbleibenden 4 Formulare aus Run 130 fuer Run 132.
+training/pdf-inventar.md, destillate/INDEX.md und CHANGELOG.md nachgefuehrt. Commit
+folgt nativ ueber nas-commit-now.sh (kein Git ueber SMB).

@@ -3266,3 +3266,20 @@ durchfuehrbar.
   Anlagenkennzeichnungs-Systematik ohne energetische Kennwerte). Sobald die KB das Thema
   Zählerstruktur/Submetering vertieft (`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`),
   könnte die Kennzeichnungssystematik dort doch Nutzen haben.
+
+- [ ] **E-R131-1 (P3): Dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006) gegen
+  das neue Destillat `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` (StRB 1094/2008)
+  abgleichen.** `[[oekologische-materialvorgaben-beschaffung]]` führt in seinen `sources` einen
+  Eintrag mit demselben Titel «Massstäbe für Umwelt- und energiegerechtes Bauen», aber Datum
+  Mai 2006 statt 17.09.2008, ohne dass dazu je eine eigene Datei in `wiki/` oder `destillate/`
+  entstanden ist. Offen: Zitierfehler (dann Quellverweis in `oekologische-materialvorgaben-
+  beschaffung.md` auf das neue Destillat umbiegen) oder tatsächlich eine frühere, nie
+  eingelesene Mai-2006-Fassung (dann im PL-02-Bestand gezielt danach suchen). Nicht spekulativ
+  aufgelöst, kleiner Umfang, für einen künftigen Lauf.
+
+- [ ] **E-R131-2 (P3): Restliche vier `18-Nachhaltiges Bauen`-Formulare aus Run 130 noch offen.**
+  `Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf`, `Topten_Haushaltgeraete_(Flyer).pdf`,
+  `Deviskontrolle_(Checkliste).pdf`, `Baustellenkontrolle_(Checkliste).pdf` und
+  `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` sind laut `pdf-inventar.md` als
+  Nicht-Dubletten bestätigt, aber noch nicht destilliert (Budget dieses Laufs reichte nur für
+  eine Einheit, `Richtlinie_7-Meilenschritte`). Nächster kleiner Umfang für Run 132.

@@ -580,7 +580,7 @@ das nächstliegende Ziel für Run 131, kleiner Umfang (5 kurze Formulare/Merkbl�
 
 | Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/...) | KB-Datenstand |
 |---|---|---|
-| [ ] `18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf` | noch offen (Diff gegen `[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]` bestätigt Nicht-Dublette, Stadtratsbeschluss 1094/2008) |
+| [x] `18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf` | 2026-08-14 (Run 131; 2 S. vollst.; Stadtratsbeschluss 1094/2008 → `stadt-zuerich-7-meilenschritte-nachhaltiges-bauen`) |
 | [ ] `18.2 Betriebsenergie/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-checkliste-solarstromanlagen]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |
 | [ ] `18.2 Betriebsenergie/Topten_Haushaltgeraete_(Flyer).pdf` | noch offen (Diff gegen `[[haushaltgeraete-effizienz-beschaffung-topten]]` bestätigt eigenständiges kürzeres Dokument) |
 | [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Deviskontrolle_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-devis-und-baustellenkontrolle]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |

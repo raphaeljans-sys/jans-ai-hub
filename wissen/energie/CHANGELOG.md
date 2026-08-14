@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-08-14 — Run 131 (Mac-Mini-Nachtschicht 13:30-Slot): Richtlinie_7-Meilenschritte destilliert
+
+Erste der fünf in Run 130 als Nicht-Dubletten bestätigten Formulare aus `18-Nachhaltiges
+Bauen` destilliert (eine Einheit, Budgetdisziplin). Neues Destillat
+`stadt-zuerich-7-meilenschritte-nachhaltiges-bauen.md`: Stadtratsbeschluss Nr. 1094 vom
+17.09.2008, «Massstäbe für Umwelt- und energiegerechtes Bauen» mit den 7 Meilenschritten
+zum umwelt- und energiegerechten Bauen. Bezogen über den Graph-Weg (M365-CLI, Zertifikat;
+`node_modules/.bin/m365`, Drive `02_Recht_Norm`), da die lokale OneDrive-Bibliothek diesen
+SharePoint-Pfad auf dieser Station nicht gemountet zeigt — Dokumentation des Zugangswegs
+in `pdf-inventar.md` bereits vorhanden (Run 126), hier nur erneut angewendet und bestätigt.
+**Bauherren-relevanter Kernbefund:** der Geltungsbereich bindet nicht nur städtische Bauten,
+sondern auch private Bauvorhaben mit städtischer Unterstützungsleistung (Baurecht,
+Beiträge) — bei JANS-Projekten auf städtischem Baurechtsland ist das ein Prüfpunkt.
+`training/pdf-inventar.md` und `destillate/INDEX.md` nachgeführt (Status `[x]`). Zwei
+Punkte offen in `wiki/QUESTIONS.md`: (E-R131-1) ungeklärter Bezug zum dangling-Link
+`ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006) im Artikel
+`oekologische-materialvorgaben-beschaffung.md` — gleicher Titel, anderes Datum, nie
+eingelesen; (E-R131-2) die restlichen vier Formulare aus Run 130 bleiben offen für Run 132.
+Kein Wiki-Artikel geändert, keine bestehende Aussage angetastet.
+
 ## 2026-08-14 — Run 130 (Mac-Mini-Nachtschicht): Ordner 18-Nachhaltiges Bauen dublettengeprueft, Befund korrigiert
 
 `training/pdf-inventar.md`: alle neun in Run 128 vermuteten Dubletten aus `18-Nachhaltiges Bauen`
