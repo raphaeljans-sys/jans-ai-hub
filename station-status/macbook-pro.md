@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 06:18:50
+Stand: 14.08.2026 06:29:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:17)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 14.08.2026 06:18:50
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0288d481 nas-selfcommit: 3 Datei(en) 2026-08-14 06:15
+- e9fb22a0 konversations-log: Destillat 14.08.2026 (7 echte Gespraeche) + 3 Registerzeilen (KISPI Rohlichtmass, Nachtschicht-Takt, Cloud-Routine Wissenscheck)
