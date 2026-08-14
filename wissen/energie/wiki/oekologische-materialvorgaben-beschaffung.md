@@ -1,7 +1,7 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-11 (Run 123 neu angelegt; Wissens-Chef Run 25: Vertragshierarchie SIA 118 korrigiert; Run 126: Recyclingbeton-Nomenklatur 2006/2007/2008/2026)"
+last_updated: "2026-08-14 (Run 132: Vertragsstufe Werkleistungen ergaenzt, Mai-2006-Quellverweis verifiziert; zuvor 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
 sources:
   - "[[eco-bau-merkblaetter-bkp-2008-huelle]] und [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] — Verein eco-bau c/o KBOB, «Ökologisch Bauen — Merkblätter nach Baukostenplan BKP», Ausgabe 2008, 55 S. vollständig gelesen"
   - "[[bauoekologische-submissionsbedingungen]] — Stadt Zürich HBD, «Allgemeine bauökologische Submissionsbedingungen», September 2006"
@@ -254,3 +254,46 @@ Anschluss an die JANS-Skills: `ausschreibung` (LV-Positionen, Devis), `werkvertr
   destilliert.
 - Die BKP-Nummern der Altquellen wurden **nicht** gegen **BKP 2017** abgeglichen (Rule
   `bkp-2017-referenz.md`).
+
+## Nachtrag Run 132 (14.08.2026): die Vertragsstufe zwischen Devis und Baustelle
+
+Der Artikel beschrieb die Kette bisher als vier Stationen, deren dritte (Übersetzung ins
+Leistungsverzeichnis) als «Bruchstelle» bezeichnet wird. Zwischen LV und Ausführungskontrolle
+liegt jedoch eine eigene, bisher nicht benannte Stufe: der **Vertragsbestandteil, der die
+Unternehmung selbst verpflichtet**.
+
+Dafür existiert ein eigenes Dokument, KBOB/eco-bau/IPB, «Nachhaltiges Bauen: Bedingungen für
+Werkleistungen (Hochbau)», Stempel **Juli 2008** →
+`[[ahb-bedingungen-werkleistungen-nachhaltiges-bauen]]`. Es ist das Gegenstück zu den bereits
+geführten `[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]`; der Schlussblock beider
+Dokumente ist wortidentisch, und das Planer-Dokument verweist ausdrücklich auf die Integration
+solcher Bedingungen in Werkverträge. Der eigenständige Beitrag des Unternehmer-Dokuments ist
+seine Ziffer 4: ein **materialscharfer Anforderungs- und Verbotskatalog** (Beton, Holz,
+Anstrichstoffe, Dämmungen), der im Planer-Dokument nur pauschal über ECO-BKP abgedeckt ist.
+
+Die drei übertragbaren Mechanismen, unabhängig vom Alter der zitierten Regelwerke:
+
+**01 Warendeklaration mit Zustimmungsvorbehalt.** Die Unternehmung deklariert die eingesetzten
+Produkte; jede Abweichung davon bedarf der Zustimmung der Bauherrschaft. Das verlagert die
+Begründungslast dorthin, wo die Abweichung entsteht.
+
+**02 Materialscharfe statt pauschale Anforderung.** Nicht «nach eco-bau», sondern die konkrete
+Anforderung je Materialgruppe. Eine pauschale Verweisung ist im Streitfall keine geschuldete
+Leistung.
+
+**03 Kostenfolge zulasten der Unternehmung.** Bei Abweichung oder Kontamination trägt die
+Unternehmung die Folgekosten. Ohne diesen Punkt bleibt die Anforderung eine Bitte.
+
+⚠ Das Dokument ist von 2008 und **nicht unbesehen** als heutiger Vertragsbestandteil zu
+verwenden; übertragbar ist die Mechanik, nicht der Wortlaut. Anschluss an die Skills
+`werkvertrag` (Überbindung) und `ausschreibung` (Submissionsbedingungen).
+
+### Der Quellverweis auf die Mai-2006-Fassung ist korrekt
+
+Der oben in `sources` geführte Eintrag `[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]` (Mai 2006)
+stand als Dangling-Link ohne eigene Datei im Verdacht, ein Zitierfehler zu sein. Am 14.08.2026
+wurde die Datei auf SharePoint gefunden und gelesen: sie existiert tatsächlich als eigene,
+frühere Fassung. **Der Verweis ist damit richtig**, ihm fehlt nur das Destillat. Der
+Fassungsvergleich Mai 2006 gegen Stadtratsbeschluss Nr. 1094 vom 17.09.2008 steht im Nachtrag zu
+`[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]`; die Vorgaben wurden in diesen gut zwei
+Jahren deutlich verschärft (erneuerbare Energien am Wärmebedarf von Neubauten von 25 % auf 40 %).

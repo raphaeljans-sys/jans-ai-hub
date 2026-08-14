@@ -595,3 +595,77 @@ Unternehmer-Gegenstück) — für einen künftigen Lauf vormerken, nicht Teil di
 
 **Nächste Priorität nach den fünf offenen 18.x-Formularen:** `06_Richtlinien/Minergie/`
 (79 PDF, Priorität 1, unverändert seit Run 129).
+
+## Nachtrag 2026-08-14 (Run 132, zweiter Lauf desselben Tages): Ordner 18 weitgehend abgeräumt
+
+Dritter Lauf am 14.08.2026 (Run 130 Dubletten-Diff 05:30, Run 131 eine Einheit 13:30, dieser
+Lauf 22:37). Zugang über den Graph-Weg (M365-CLI, Zertifikat, Drive `02_Recht_Norm`), **zum
+sechsten Mal in Folge bestätigt**; die lokale OneDrive-Bibliothek zeigt `PL - 04 Energie` und
+`PL - 02_Recht_Norm` auf dieser Station gar nicht erst an. ⚠ **Die Voraussetzungszeile der
+Task-Definition ist damit weiterhin sachlich falsch** — sie verlangt den OneDrive-Mount und
+würde bei wörtlicher Befolgung jeden Lauf abbrechen lassen. Unverändert offen seit Run 129.
+
+**Destilliert (4 Destillate aus 5 Quellen):**
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/...) | KB-Datenstand |
+|---|---|---|
+| [x] `18.2 Betriebsenergie/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf` | 2026-08-14 (Run 132; 4 S. vollst.; Stempel FUY 25.09.2008 → `ahb-checkliste-solarstromanlagen-2008`) |
+| [x] `18.2 Betriebsenergie/Topten_Haushaltgeraete_(Flyer).pdf` | 2026-08-14 (Run 132; 4 S. vollst.; November 2008, 3. rev. Auflage → `topten-haushaltgeraete-liegenschaftenverwaltung`) |
+| [x] `18.3 …/Deviskontrolle_(Checkliste).pdf` + `Baustellenkontrolle_(Checkliste).pdf` | 2026-08-14 (Run 132; 1 + 2 S. vollst.; ein gemeinsames Destillat → `ahb-devis-und-baustellenkontrolle-2008`) |
+| [x] `18.3 …/Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf` | 2026-08-14 (Run 132; 2 S. vollst.; KBOB/eco-bau/IPB Juli 2008 → `ahb-bedingungen-werkleistungen-nachhaltiges-bauen`; Unternehmer-Gegenstück zu `[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]`, Vermutung aus Run 130 am Text bestätigt) |
+| [-] `18.3 …/Bauteilkatalog_Energie+Oekologie.pdf` | 2026-08-14 (geprüft: 1 S., **kein Fachinhalt** — die Seite enthält ausschliesslich einen Rahmen mit der URL `www.bauteilkatalog.ch`) |
+| [-] `18.3 …/eco-devis_(Ausschreibungshilfe-nach-NKP).pdf` | 2026-08-14 (geprüft: 1 S., **kein Fachinhalt** — nur ein Rahmen mit `http://www.eco-bau.ch/index.cfm?Nav=15&ID=16`) |
+
+**Zusätzlich gelesen (ausserhalb Ordner 18), zur Auflösung von E-R131-1:**
+
+| Status | Quelle | KB-Datenstand |
+|---|---|---|
+| [~] `04_Merkblätter/eco/Nachhaltiges Bauen/01 verbindliche Richtlinien/1.11.R Massstaebe für Umwelt- und Energiegerechtes Bauen.pdf` | 2026-08-14 (Run 132; 2 S. vollst. gelesen, **kein eigenes Destillat** — Fassungsvergleich als Nachtrag in `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` abgelegt, weil die Fassung Mai 2006 von der 2008er vollständig abgelöst ist) |
+
+### ⚠ Korrektur eines Run-130-Befunds: Deviskontrolle und Baustellenkontrolle sind KEINE Revisionen
+
+Run 130 hatte beide als «spätere Revision, DokumenteignerIn POM 25.09.2008» geführt. **Das ist
+falsch.** Am Original nachgelesen tragen beide Dokumente den Stempel **«DokumenteignerIn POM
+11.08.06»**, identisch mit der eco-Vorfassung. Der Stempel 25.09.2008 gehört zu einem **anderen**
+Dokument desselben Ordners, `18.2/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf` (dort
+«FUY 25.09.2008», ebenfalls am Original verifiziert). Ein Wort-Diff zeigt: der Sachinhalt ist
+wortgleich; abweichend sind nur Kopfzeilenblock, Dokumentnummer (ÖKO 3.14.C/3.15.C → 18.3_…) und
+geschlechtergerechte Formulierungen («für Projektleitende Bauherr» → «Projektleitung
+Bauherrschaft», «Bauleiter/Bauleiterinnen» → «Bauleiterinnen/Bauleiter»). Die PDF wurden am
+**16.03.2009** technisch neu erzeugt (Distiller 8.0, Autor Michael Pöll) — eine formale
+Neuablage, keine inhaltliche Revision.
+
+**Zwei Fallen daraus, beide neu:**
+
+**Falle Nr. 8 — ein Stempel gilt nur für sein eigenes Dokument.** Wer den Datumsstempel eines
+Nachbardokuments aus demselben Ordner übernimmt, erzeugt eine Datierung, die verifiziert aussieht
+und es nicht ist. Jeder Stempel wird am eigenen Dokument gelesen. Das ist die Ordner-Variante der
+schon bekannten Dateinamen-Falle (Run 122).
+
+**Falle Nr. 9 — ein zeilenweiser Diff misst Layout, kein Sachinhalt.** Die 106 bzw. 87
+Diff-Zeilen aus Run 130 stammen fast vollständig aus Zeilenumbrüchen und dem neuen Kopfzeilenblock.
+Erst der **Wort-Diff** (`tr -s '[:space:]' '\n' | sort` und `comm`) trennt Layout- von
+Sachänderung. Beim Dublettencheck ist der zeilenweise `diff` der erste, nicht der letzte Schritt.
+Reihe der Fallen jetzt: Dateiname (122) · Ablageort (124/125) · Grösse gegen Seitenzahl (124) ·
+Textextrahierbarkeit (126) · Grösse als Dublettenkriterium (128) · Fusszeilenstempel gegen
+Redaktionsvermerk (129) · spätere Revision statt Dublette (130) · **fremder Stempel (132)** ·
+**Zeilen-Diff statt Wort-Diff (132)**.
+
+**Falle Nr. 10 — das Link-Stub-PDF.** Zwei Dateien in `18.3` (12 kB und 11 kB, je 1 Seite)
+enthalten ausschliesslich einen Kasten mit einer URL. Ein solches PDF ist kein Bild-PDF und kein
+Fachdokument, sondern ein Lesezeichen. Erkennungsmerkmal: sehr kleine Datei, 1 Seite, unter
+100 Zeichen extrahierbarer Text. Kosten der Prüfung: ein visueller Read. Nicht als «Bild-PDF,
+muss visuell gelesen werden» einordnen und dafür ein Budget einplanen.
+
+### Ordner 18 — Reststand
+
+Offen bleibt in `18-Nachhaltiges Bauen` nur noch `18.3 …/Richtlinie_ECO-BKP_(Merkblaetter_nach_
+BKP).pdf` (2.0 MB) — Run 130 hat den deutlich abweichenden Umfang gegenüber
+`[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`-technik-ausbau` belegt, im Detail ungeprüft. Gehört
+in die planmässige Destillation des BKP-Merkblattwerks, nicht in einen Aufräumlauf. Nicht
+gesichtet sind die Unterordner `18.4 Wohlbefinden (Innenraumklima)` (7 Dateien, 3.6 MB),
+`18.5 Boden Landschaft` (1 Datei, 124 kB) und `18.6 Organisation` (2 Dateien, 695 kB).
+
+**Stand PL-02:** **75 von 182** energierelevanten PDF destilliert (69 bis Run 129, 1 in Run 131,
+**5 in Run 132**), **105 offen**; zusätzlich 2 in diesem Lauf als `[-]` geprüft (Link-Stubs) und
+1 als `[~]` gelesen ohne eigenes Destillat.

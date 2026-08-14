@@ -3267,6 +3267,15 @@ durchfuehrbar.
   Zählerstruktur/Submetering vertieft (`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`),
   könnte die Kennzeichnungssystematik dort doch Nutzen haben.
 
+- [x] **ERLEDIGT 14.08.2026 (Run 132).** Die Mai-2006-Fassung **existiert** als eigene Datei
+  (`04_Merkblätter/eco/Nachhaltiges Bauen/01 verbindliche Richtlinien/1.11.R Massstaebe für
+  Umwelt- und Energiegerechtes Bauen.pdf`, 2 S., «Amt für Hochbauten / Immobilien-Bewirtschaftung
+  MAI 2006») und war nie eingelesen. Erklärung (b) trifft zu, **der Quellverweis ist korrekt**,
+  kein Zitierfehler. Beide Fassungen tragen dieselben 7 Meilenschritte; der Fassungsvergleich mit
+  den verschärften Zielwerten (erneuerbare Energien 25 % → 40 %) steht als Nachtrag in
+  `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` und als FAQ F234. Kein eigenes
+  Destillat angelegt, weil die Fassung inhaltlich vollständig abgelöst ist. Ursprünglicher
+  Wortlaut zur Nachvollziehbarkeit:
 - [ ] **E-R131-1 (P3): Dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006) gegen
   das neue Destillat `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` (StRB 1094/2008)
   abgleichen.** `[[oekologische-materialvorgaben-beschaffung]]` führt in seinen `sources` einen
@@ -3277,9 +3286,44 @@ durchfuehrbar.
   eingelesene Mai-2006-Fassung (dann im PL-02-Bestand gezielt danach suchen). Nicht spekulativ
   aufgelöst, kleiner Umfang, für einen künftigen Lauf.
 
+- [x] **ERLEDIGT 14.08.2026 (Run 132), bis auf einen Rest.** Vier der fünf Quellen sind
+  destilliert (Solarstromanlagen, Topten-Haushaltgeräte, Devis-/Baustellenkontrolle gemeinsam,
+  Bedingungen für Werkleistungen). **Offen bleibt allein**
+  `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (2.0 MB) — sie gehört in die planmässige
+  Destillation des BKP-Merkblattwerks, nicht in einen Aufräumlauf. Ursprünglicher Wortlaut:
 - [ ] **E-R131-2 (P3): Restliche vier `18-Nachhaltiges Bauen`-Formulare aus Run 130 noch offen.**
   `Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf`, `Topten_Haushaltgeraete_(Flyer).pdf`,
   `Deviskontrolle_(Checkliste).pdf`, `Baustellenkontrolle_(Checkliste).pdf` und
   `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` sind laut `pdf-inventar.md` als
   Nicht-Dubletten bestätigt, aber noch nicht destilliert (Budget dieses Laufs reichte nur für
   eine Einheit, `Richtlinie_7-Meilenschritte`). Nächster kleiner Umfang für Run 132.
+
+- [ ] **E-R132-1 (P2): Gilt der Stadtratsbeschluss Nr. 1094/2008 noch?** Die Frage trägt jetzt
+  mehr Gewicht als vor Run 132, weil der Fassungsvergleich Mai 2006 gegen September 2008 belegt,
+  **wie schnell sich diese Vorgaben ändern** (erneuerbare Energien am Wärmebedarf von Neubauten
+  25 % → 40 % in gut zwei Jahren). FAQ F234 antwortet deshalb bewusst mit «lesen Sie Ihren
+  Baurechtsvertrag und lassen Sie sich den geltenden Stand bestätigen» statt mit einer Zahl. Der
+  Weg zur Auflösung führt über die Stadt Zürich (Beschlusssammlung / Amt für Hochbauten), nicht
+  über eine weitere PL-02-Datei. Sobald geklärt: F234 von `emerging` heben und den Zielwert
+  benennen.
+
+- [ ] **E-R132-2 (P3): `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (18.3, 2.0 MB) im Detail
+  gegen die 2008er-Destillate prüfen.** Run 130 hat einen deutlich abweichenden Textumfang
+  gegenüber `[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`
+  belegt (3'234 Diff-Zeilen), ohne den Grund zu klären. ⚠ Nach der Lehre dieses Laufs (Falle
+  Nr. 9) ist die Diff-Zeilenzahl allein **kein** Beleg für einen Sachunterschied — vor der
+  Destillation ein **Wort-Diff** fahren. Wenn er einen echten Umfangsunterschied bestätigt,
+  gehört die Datei in die planmässige BKP-Destillation, nicht in einen Aufräumlauf.
+
+- [ ] **E-R132-3 (P3): Ordner `18.4 Wohlbefinden (Innenraumklima)` (7 Dateien, 3.6 MB), `18.5
+  Boden Landschaft` (1 Datei) und `18.6 Organisation` (2 Dateien) sind nie gesichtet.** Sie
+  standen in keiner der Dublettenlisten aus Run 128/130, weil die Listen nur 18.1 bis 18.3
+  abdeckten. `18.4` ist der inhaltlich naheliegendste Rest (Anschluss an
+  `[[ahb-checkliste-raumluftmessungen]]` und `[[gebaeudeschadstoffe]]`). Erst listen und gegen
+  den Bestand diffen, dann entscheiden.
+
+- [ ] **E-R132-4 (P4): Gibt es Auflagen des Topten-Merkblatts nach November 2008?** Die KB führt
+  nun die 2. Auflage (Januar 2008) und die 3. Auflage (November 2008) desselben Werks. Ob eine
+  vierte existiert, ist offen. Geringe Priorität: alle Effizienzklassen der Reihe sind durch die
+  Neuskalierung der Energieetikette 2021 ohnehin überholt, brauchbar ist nur die
+  Beschaffungsmechanik (Gesamtkosten über 15 Jahre).

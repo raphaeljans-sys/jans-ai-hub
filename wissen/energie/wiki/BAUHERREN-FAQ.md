@@ -6947,6 +6947,33 @@ LV-Position, in der diese Anforderung steht» und «Wann und wie wird auf der Ba
 dass sie eingehalten wird?» Beide Fragen kosten nichts und entscheiden darüber, ob das
 Nachhaltigkeitskonzept Wirkung hat.
 
+**Ergänzung 14.08.2026 (Run 132) — die dritte, oft fehlende Stufe: der Werkvertrag.**
+Deviskontrolle und Baustellenkontrolle prüfen das Soll im Leistungsverzeichnis und das Ist auf der
+Baustelle. Dazwischen fehlt in vielen Dossiers das Bindeglied: ein **Vertragsbestandteil, der die
+Unternehmung direkt verpflichtet**. Dafür existiert ein eigenes Dokument, «Nachhaltiges Bauen:
+Bedingungen für Werkleistungen (Hochbau)» von KBOB/eco-bau/IPB, das Gegenstück zu den bereits in
+der KB geführten Bedingungen für Planungsleistungen. Drei Punkte daraus sind unmittelbar
+brauchbar:
+
+Erstens eine **Warendeklarationspflicht** mit Zustimmungsvorbehalt der Bauherrschaft, sobald die
+Unternehmung vom deklarierten Produkt abweichen will. Zweitens ein **materialscharfer
+Anforderungskatalog** (Beton, Holz, Anstrichstoffe, Dämmungen), der die pauschale Verweisung auf
+ein Merkblatt durch konkrete, prüfbare Vorgaben ersetzt. Drittens eine ausdrückliche
+**Kostenfolge zulasten der Unternehmung** bei Abweichung oder Kontamination — der Punkt, der aus
+einer Anforderung eine durchsetzbare macht.
+
+⚠ Auch dieses Dokument trägt den Stempel **Juli 2008**; die darin zitierten Regelwerke sind mit
+demselben Vorbehalt zu lesen wie oben. Übernehmen Sie es **nicht unbesehen** als
+Vertragsbestandteil, sondern die Mechanik: Deklarationspflicht, Abweichungsvorbehalt, Kostenfolge.
+Siehe `[[ahb-bedingungen-werkleistungen-nachhaltiges-bauen]]`.
+
+**Nachgemessen 14.08.2026:** Die beiden Checklisten liegen auf SharePoint in einer zweiten,
+neu nummerierten Ablagegeneration («18.3 Baustoffe», PDF technisch neu erzeugt am 16.03.2009).
+Ein Wortvergleich zeigt: **inhaltlich identisch**, gleicher Dokumenteigner-Stempel POM 11.08.06;
+abweichend sind nur Kopfzeile, Dokumentnummer und geschlechtergerechte Formulierungen. Die obige
+Antwort gilt damit für beide Ablagestände unverändert →
+`[[ahb-devis-und-baustellenkontrolle-2008]]`.
+
 **Quelle:** eco-bau / Stadt Zürich AHB, Checklisten «Öko 3.14.C Deviskontrolle» und «Öko 3.15.C
 Baustellenkontrolle» (Dokumentstand 2006, Fusszeilen 29.08.2006 bzw. 11.08.2006), beide
 vollständig gelesen → `[[eco-bau-devis-und-baustellenkontrolle]]`; Vertrags-/Auflagenseite →
@@ -7910,3 +7937,108 @@ Bauherrschaft. Siehe `[[komfortlueftung]]`.
 Dateistempel 26.02.2007, 2 S. vollständig gelesen 13.08.2026 →
 `[[ahb-merkblatt-kontrollierte-wohnungslueftung]]`. Aktuelle WRG-Werte aus
 `[[komfortlueftung-wrg-sia382-luftwechsel]]`, nicht aus der Quelle. Status **emerging**.
+
+## F233 — «Wir bauen jetzt, die Solaranlage kommt vielleicht erst später — was muss ich im Rohbau schon vorsehen?»
+
+**Kurz:** Sechs Quadratmeter Wandfläche in der Elektroverteilung, ein Leerrohr vom Dach dorthin,
+Rückspeiseklemmen, freier Sicherungsplatz, zwei freie Zählerplätze und eine statische Reserve auf
+dem Dach. Das ist alles, und es kostet im Rohbau fast nichts. Wer es weglässt, zahlt später ein
+Mehrfaches für Stemmarbeiten, Aufputzkanäle und einen zweiten Verteilerschrank — oder verzichtet
+ganz auf die Anlage, weil der Umbau unverhältnismässig wird.
+
+**Fachlich:** Die Vorbereitung zerfällt in einen baulichen und einen elektrotechnischen Teil.
+
+**Baulich (Architektur und Statik):**
+Statische Zusatzlast einplanen, **vorzugsweise 50 kg/m²**, mit Nachweis durch die Statik.
+Unter die Solarkonstruktion gehört eine **Bauteilschutzmatte** zum Schutz der Abdichtung. Eine
+**Dachdurchdringung** (Schwanenhalsbogen, ø ca. 100 mm) im Bereich der Steigzone oder der
+Etagenverteilung ist vorzusehen. **Dachbegrünung und Photovoltaik schliessen sich nicht aus,
+sondern ergänzen sich** — die Begrünung kühlt die Module über Verdunstung, die Kombination ist
+ausdrücklich sinnvoll. Der Kontakt zu einer Solarplanung gehört bereits in die Definition der
+Dachkonstruktion, nicht in die Ausführungsphase.
+
+**Elektrotechnisch (Elektroplanung):**
+In der Elektroverteilung, idealerweise im Dachgeschoss, aber auch im Erd- oder Untergeschoss
+möglich, ist ein **Leerplatz für Wechselrichteranlage, DC- und AC-Schrank** vorzusehen;
+Platzbedarf für Wandinstallationen **rund 6 m², Tiefe 0.8 m**. Dazu **Klemmen für die
+Rückspeisung im Unter- bzw. Hauptverteilungsschrank (5 × 35 mm²)**, ein **freier
+Sicherungsplatz** und **zwei freie Zählerplätze**. Vom Durchdringungspunkt der Gebäudehülle zum
+Leerplatz führt ein **Polyethylen-Rohr, Trassee oder Kabelkanal (100 mm)**; die Wand- und
+Deckendurchbrüche werden vorbereitet. Die **Potentialausgleichsschiene** gehört in die Steigzone
+bis ins Dachgeschoss beziehungsweise in die Nähe der Hüllendurchdringung, dazu der **äussere
+Blitzschutz**.
+
+**Zur Ausrichtung:** Bei beispielsweise 20° Neigung und ±0° Südausrichtung nennt die Quelle
+rund **900 kWh/kWp und Jahr**; eine Abweichung von 10° Neigung oder ±45° gegenüber Süd kostet
+**ca. 6 %**. ⚠ Der Absolutwert ist der Stand von 2008 und heute zu tief — die KB rechnet
+belegt mit rund **1'000 kWh/kWp** (siehe F18). Die **Abweichungsregel von ca. 6 %** ist davon
+unberührt und bleibt die brauchbare Aussage: eine nicht ideal ausgerichtete Fläche verliert
+weniger, als Bauherrschaften meist annehmen.
+
+⚠ **Nicht mehr übernehmen:** Die Quelle nennt eine Baubewilligungspflicht ab «> 10 cm Aufbau und
+> 35 m² Fläche». Das ist Zürcher Recht von 2008 und **überholt** — heute gilt für konforme
+Solaranlagen das Meldeverfahren nach **Art. 18a RPG** (siehe F19). Ebenfalls überholt sind die
+Vermarktungsangaben der Quelle (Solarbörse, Contractor-Modell mit 20-Jahre-Dachnutzungsvertrag).
+
+**Bauherren-Transfer:** Verlangen Sie die Liste als **Position im Elektro-Devis**, nicht als
+Absichtserklärung im Konzept. Die einzige Position mit spürbarem Preis ist die statische Reserve;
+alles andere sind Platzhalter und ein Leerrohr. Wenn die Anlage nie kommt, haben Sie einen freien
+Schrankplatz. Wenn sie kommt, sparen Sie den Umbau der Hauptverteilung.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle nachhaltiges Bauen, «Vorgaben —
+Solarstromanlagen in Bauprojekten» (Checkliste), Dokumenteigner-Stempel **FUY 25.09.2008**,
+4 S. vollständig gelesen 14.08.2026 → `[[ahb-checkliste-solarstromanlagen-2008]]`. Ertragswert
+und Bewilligungsweg **nicht** aus dieser Quelle, sondern aus `[[pv-solar-technologien]]` bzw.
+`[[solarpflicht-schweiz-kantone]]`. Status **emerging**.
+
+## F234 — «Ich baue auf Baurechtsland der Stadt Zürich — welche energetischen Vorgaben treffen mich?»
+
+**Kurz:** Möglicherweise die städtischen, obwohl Sie privat bauen. Die Zürcher Vorgaben für
+nachhaltiges Bauen binden nicht nur städtische Bauten, sondern ausdrücklich auch **private
+Bauvorhaben mit städtischer Unterstützungsleistung — und ein Baurecht zählt dazu**. Was konkret
+gilt, steht aber nicht im Merkblatt, sondern **in Ihrem Baurechtsvertrag**. Lesen Sie ihn, bevor
+Sie mit der Planung den Energiestandard festlegen, und lassen Sie sich den geltenden Stand vom
+Amt für Hochbauten bestätigen.
+
+**Fachlich:** Das Vorgabenwerk heisst «Massstäbe für Umwelt- und energiegerechtes Bauen» und
+besteht aus **sieben Meilenschritten** (Neubaustandard, Erneuerung, effizienter
+Elektrizitätseinsatz, erneuerbare Energien, Gesundheit und Baustoffe, Wettbewerbe,
+Bewirtschaftung). Ausnahmen sind jeweils **zu begründen**, nicht frei wählbar.
+
+Wie beweglich diese Vorgabenhöhe ist, zeigt der Vergleich der beiden in der KB belegten
+Fassungen. Innerhalb von gut zwei Jahren wurde sie deutlich verschärft:
+
+| Meilenschritt | Fassung Mai 2006 | Stadtratsbeschluss Nr. 1094 vom 17.09.2008 |
+|---|---|---|
+| Neubau | MINERGIE | MINERGIE-**ECO**, angestrebt MINERGIE-P-ECO |
+| Erneuerung | MINERGIE, Flächenanteil 25 % | MINERGIE-Modernisierung, Gebäudehülle 100 % des Neubaugrenzwerts SIA 380/1:2007 (Denkmalschutz 140 %) |
+| Geräte | Energieetikette A | Energieetikette A bzw. A+ (Kühlgeräte) |
+| Erneuerbare Energien | **25 %** des Wärmebedarfs von Neubauten | mindestens **40 %** des gesamten Wärmebedarfs von Neubauten, **50 %** bei bestehenden Bauten |
+
+Der Anteil erneuerbarer Energie am Wärmebedarf eines Neubaus hat sich also in zwei Jahren von
+einem Viertel auf zwei Fünftel erhöht. Wichtig ist dabei die Konstruktion des Standards: die
+sieben Meilenschritte sind ausdrücklich als **Minimum** formuliert, nicht als Deckel. Für jede
+Bauaufgabe wird zusätzlich geprüft, ob sie sich für die weitergehenden Vorgaben der
+2000-Watt-Gesellschaft eignet.
+
+Zwei Punkte werden in privaten Bauvorhaben regelmässig übersehen, weil sie im gewöhnlichen
+Energienachweis nicht vorkommen: der **Elektrizitätsbedarf der Prozesse** (Küche, Wäscherei) ist
+bei grösseren Nichtwohnbauten bereits in der Planung auszuweisen und zu optimieren, und die
+**graue Energie** ist in der Planung zu ermitteln, nicht erst im Betrieb zu bilanzieren.
+
+⚠ **Beide Fassungen sind alt** (Mai 2006 und September 2008). Ob StRB 1094/2008 noch in dieser
+Form gilt oder durch einen späteren Beschluss abgelöst wurde, ist aus diesen Quellen **nicht**
+zu beantworten. Auch der zitierte Referenzwert SIA 380/1:2007 ist überholt (heute SIA 380/1:2016).
+
+**Bauherren-Transfer:** Behandeln Sie diese Vorgaben wie eine Vertragsklausel, nicht wie eine
+Empfehlung. Drei Schritte: den Baurechtsvertrag auf einen Verweis auf die städtischen
+Nachhaltigkeitsvorgaben prüfen, beim Amt für Hochbauten den **heute geltenden Stand** schriftlich
+bestätigen lassen, und erst dann mit der Bauherrschaft den Zielstandard festlegen. Wer den
+Standard vor dieser Abklärung festlegt, riskiert eine Nachforderung in der Bewilligungsphase, die
+das Projekt an der teuersten Stelle trifft: an der Gebäudehülle und an der Wärmeerzeugung.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, «Nachhaltiges Bauen — Massstäbe für Umwelt- und
+energiegerechtes Bauen»: Fassung **Mai 2006** (2 S.) und **Stadtratsbeschluss Nr. 1094 vom
+17.09.2008** (2 S.), beide vollständig gelesen (Run 131/132, 14.08.2026) →
+`[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` samt Nachtrag mit dem Fassungsvergleich.
+Status **emerging** — die Zahlen sind quellentreu, die Frage der heutigen Geltung ist offen.

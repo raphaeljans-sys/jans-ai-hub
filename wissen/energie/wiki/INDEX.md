@@ -556,3 +556,39 @@ Drei Destillate trugen die Änderungszeit 01:04-01:07 des 13.08. und sahen nach 
 abgebrochenen Nachtlauf aus; ihr Frontmatter weist sie als Arbeit aus Run 123 und Run 125 aus. Es
 war Rückstau aus dem Sync-Stillstand, der erst jetzt auf dem NAS landete. **Massgeblich ist das
 Frontmatter, nicht die mtime** — sonst wird ein Lauf doppelt gezählt oder eine Nummer übersprungen.
+
+## Nachtrag Run 132 (14.08.2026): Ordner 18 abgeräumt, zwei neue FAQ, F209 um die Vertragsstufe geschärft
+
+Vier neue Destillate aus fünf Quellen (`[[ahb-checkliste-solarstromanlagen-2008]]`,
+`[[topten-haushaltgeraete-liegenschaftenverwaltung]]`, `[[ahb-devis-und-baustellenkontrolle-2008]]`,
+`[[ahb-bedingungen-werkleistungen-nachhaltiges-bauen]]`), zwei Link-Stub-PDF begründet verworfen.
+
+**Neu in der FAQ.** **F233** schliesst eine Lücke, die trotz zwanzig PV-Einträgen bestand: was im
+**Rohbau** für eine spätere Solaranlage vorzusehen ist (6 m² Leerplatz in der Elektroverteilung,
+Rückspeiseklemmen 5 × 35 mm², zwei freie Zählerplätze, Leerrohr 100 mm, 50 kg/m² statische
+Reserve). Die KB konnte bisher sagen, ob sich PV lohnt, aber nicht, was man beim Bauen dafür
+lässt. **F234** beantwortet die Baurechtsland-Frage für die Stadt Zürich und stützt sich auf einen
+belegten Fassungsvergleich.
+
+**Der inhaltlich interessanteste Befund** ist dieser Vergleich: Zwischen der Fassung Mai 2006 und
+dem Stadtratsbeschluss Nr. 1094 vom 17.09.2008 wurde der geforderte Anteil erneuerbarer Energie am
+Wärmebedarf von Neubauten **von 25 % auf 40 %** angehoben und der Neubaustandard von MINERGIE auf
+MINERGIE-ECO verschoben — in gut zwei Jahren. Das ist der Grund, warum F234 bewusst nicht mit
+einer Zahl antwortet, sondern mit dem Verweis auf den Baurechtsvertrag und eine Bestätigung durch
+das Amt für Hochbauten.
+
+**Geschärft statt gedoppelt.** F209 (Umsetzung ökologischer Vorgaben) beschrieb bisher zwei
+Kontrollstufen, Devis und Baustelle. Dazwischen fehlte die **Vertragsstufe**: die «Bedingungen für
+Werkleistungen» verpflichten die Unternehmung direkt, über Warendeklaration mit
+Zustimmungsvorbehalt, einen materialscharfen Katalog und eine Kostenfolge bei Abweichung. Der
+Themenartikel `[[oekologische-materialvorgaben-beschaffung]]` ist um dieselbe Stufe gewachsen.
+
+**Zwei methodische Fallen, beide neu und beide teuer, wenn man sie nicht kennt.** Erstens: Ein
+Datumsstempel gilt **nur für sein eigenes Dokument**. Run 130 hatte den Stempel des
+Solarstrom-Merkblatts (25.09.2008) auf die Devis- und Baustellenkontrolle übertragen und sie
+dadurch als «spätere Revision» eingestuft; tatsächlich tragen beide unverändert den Stempel
+11.08.2006. Zweitens: Ein **zeilenweiser Diff misst Layout mit**. Die 106 und 87 Diff-Zeilen, auf
+denen dieser Fehlschluss beruhte, stammen aus Zeilenumbrüchen, einem neuen Kopfzeilenblock und
+geschlechtergerechten Formulierungen. Erst der Wort-Diff zeigte: der Sachinhalt ist wortgleich.
+Die Reihe der Fallen wächst damit um **fremder Stempel** und **Zeilen- statt Wort-Diff** — sowie
+um das **Link-Stub-PDF**, ein 12-kB-Dokument, das nur eine URL in einem Rahmen enthält.

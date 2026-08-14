@@ -1,5 +1,43 @@
 # CHANGELOG
 
+## 2026-08-14 — Run 132 (Abendlauf 22:37): Ordner 18 abgeraeumt, Run-130-Befund korrigiert, zwei neue FAQ
+
+Vier neue Destillate aus fuenf Quellen des Ordners `18-Nachhaltiges Bauen`
+(`ahb-checkliste-solarstromanlagen-2008`, `topten-haushaltgeraete-liegenschaftenverwaltung`,
+`ahb-devis-und-baustellenkontrolle-2008`, `ahb-bedingungen-werkleistungen-nachhaltiges-bauen`),
+zwei Link-Stub-PDF begruendet als `[-]` verworfen. Damit ist E-R131-2 bis auf die
+ECO-BKP-Richtlinie erledigt.
+
+**Verifikation, mit Korrektur:** Run 130 hatte Devis- und Baustellenkontrolle als «spaetere
+Revision, POM 25.09.2008» gefuehrt. Am Original nachgelesen tragen beide den Stempel
+**POM 11.08.06** — der Stempel 25.09.2008 gehoert zum Solarstrom-Merkblatt desselben Ordners.
+Der Destillier-Agent hat dem falschen Vorbefund im Auftrag widersprochen, der Hauptlauf hat
+gegengeprueft. Drei neue Fallen dokumentiert: **fremder Stempel** (ein Stempel gilt nur fuer sein
+eigenes Dokument), **Zeilen- statt Wort-Diff** (der zeilenweise `diff` misst Layout mit und war
+die Ursache des Fehlschlusses), **Link-Stub-PDF** (12 kB, 1 Seite, nur eine URL im Rahmen).
+
+**E-R131-1 geschlossen:** die Mai-2006-Fassung der «Massstaebe fuer Umwelt- und energiegerechtes
+Bauen» existiert tatsaechlich als eigene Datei und war nie eingelesen; der Quellverweis in
+`oekologische-materialvorgaben-beschaffung` ist korrekt, kein Zitierfehler. Fassungsvergleich als
+Nachtrag in `stadt-zuerich-7-meilenschritte-nachhaltiges-bauen`: **die Vorgaben wurden in gut
+zwei Jahren deutlich verschaerft** (erneuerbare Energien am Waermebedarf von Neubauten 25 % → 40 %,
+Neubaustandard MINERGIE → MINERGIE-ECO).
+
+**Verdichtung:** **F233 neu** (Solar-Bauvorbereitung im Rohbau — Leerplatz 6 m², Rueckspeiseklemmen
+5 × 35 mm², zwei freie Zaehlerplaetze, 50 kg/m² statische Reserve; eine Luecke, die trotz zwanzig
+PV-Eintraegen bestand). **F234 neu** (Baurechtsland Stadt Zuerich, mit dem Fassungsvergleich als
+Begruendung). **F209 geschaerft** um die Vertragsstufe zwischen Devis und Baustelle
+(Warendeklaration mit Zustimmungsvorbehalt, materialscharfer Katalog, Kostenfolge zulasten der
+Unternehmung). Themenartikel `oekologische-materialvorgaben-beschaffung.md` um dieselbe Stufe
+gewachsen, Frontmatter nachgefuehrt.
+
+Register nachgefuehrt: `destillate/INDEX.md`, `training/pdf-inventar.md`, `raw/_INGESTED.md`,
+`wiki/QUESTIONS.md` (E-R132-1 bis -4 neu), `wiki/INDEX.md`, `training/curriculum.md`.
+Lauf-Report `outputs/2026-08-14_energie-run132.md`. Stand PL-02: **75 von 182** destilliert.
+
+⚠ Unveraendert offen seit Run 129: die Voraussetzungszeile der Task-Definition verlangt den
+OneDrive-Mount, waehrend der Graph-Weg inzwischen sechs Laeufe in Folge traegt.
+
 ## 2026-08-14 — Run 131 (Mac-Mini-Nachtschicht 13:30-Slot): Richtlinie_7-Meilenschritte destilliert
 
 Erste der fünf in Run 130 als Nicht-Dubletten bestätigten Formulare aus `18-Nachhaltiges

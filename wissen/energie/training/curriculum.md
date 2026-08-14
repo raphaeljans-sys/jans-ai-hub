@@ -2249,3 +2249,41 @@ ihres Ertrags:
    `normen`, nicht über eine weitere PL-02-Datei.
 4. **E-R129-1 auflösen** (25 dB(A) gegen die geltende SIA 181): betrifft die neue FAQ F232 direkt
    und ist über die bereits destillierten SIA-181-Anforderungswerte der KB schnell zu klären.
+
+## Nach Run 132 (14.08.2026, dritter Lauf des Tages) — Prioritäten
+
+Der Ordner **`18-Nachhaltiges Bauen` ist in 18.1 bis 18.3 abgeräumt** (eine Restdatei, siehe
+unten). Die Reihenfolge des Ertrags für die nächsten Läufe:
+
+1. **`06_Richtlinien/Minergie/` (79 PDF, Priorität 1).** Unverändert seit Run 129 der grösste
+   unangetastete Block des PL-02-Korpus und der mit dem höchsten Bauherren-Nutzen
+   (Bauteile-/Wärmebrückenkataloge, Nachweisformulare, Anwendungshilfen Minergie-P/-A). Nach drei
+   Aufräum-Läufen hintereinander ist das jetzt der richtige nächste Schritt: er bringt Substanz
+   statt Registerpflege. ⚠ Vor dem ersten Batch **listen und die Ausgabejahre am Titelblatt
+   lesen** — bei 79 Dateien entscheidet die Alterseinstufung darüber, wie viel davon überhaupt
+   zitierfähig ist, und der Minergie-Standard wurde seit 2008 mehrfach revidiert (die KB führt
+   bereits `[[minergie-produktreglement-2026-1-muken-vergleich]]` als aktuellen Bezugspunkt).
+
+2. **`18.4 Wohlbefinden (Innenraumklima)` (7 Dateien, 3.6 MB) sichten** (E-R132-3). Der
+   inhaltlich naheliegendste Rest im Ordner 18, mit direktem Anschluss an
+   `[[ahb-checkliste-raumluftmessungen]]` und `[[gebaeudeschadstoffe]]`. Zuerst listen und per
+   **Wort-Diff** gegen den Bestand prüfen, dann destillieren. Klein, billig, sauber abschliessbar.
+
+3. **E-R132-1 auflösen: gilt StRB 1094/2008 noch?** (P2) Die neue FAQ F234 hängt daran. Der
+   Fassungsvergleich zeigt, wie schnell diese Vorgaben sich ändern, und genau deshalb ist eine
+   Antwort «lesen Sie Ihren Baurechtsvertrag» nur die zweitbeste. Weg: Stadt Zürich
+   (Beschlusssammlung / AHB), nicht PL-02.
+
+4. **E-R129-4: SIA 2024 (Raumnutzungsdaten) erschliessen** (P3, unverändert aus Run 129). Läuft
+   über den Skill `normen`. Würde die Raummodul-Destillate von einer historischen Zahlentabelle
+   auf eine heute gültige Bezugsgrösse heben.
+
+5. **`Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf`** (E-R132-2, P3). Erst Wort-Diff, dann
+   entscheiden — gehört bei bestätigtem Umfangsunterschied in die planmässige BKP-Destillation,
+   nicht in einen Aufräumlauf.
+
+**Methodischer Merksatz aus diesem Lauf, für jeden künftigen Dublettencheck:** der zeilenweise
+`diff` ist der **erste** Schritt, nicht der letzte. Er misst Layout mit. Erst der Wort-Diff
+(`pdftotext -layout | tr -s '[:space:]' '\n' | sort`, dann `comm`) trennt Layoutänderung von
+Sachänderung — und der Datumsstempel wird am **eigenen** Dokument gelesen, nie vom Nachbarn im
+selben Ordner übernommen.
