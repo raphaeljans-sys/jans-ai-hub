@@ -21,6 +21,52 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260814d — «150 GB Systemdaten» nachgemessen: erklaerbar, 5 GiB Cache geraeumt, OneDrive bleibt der Hebel
+
+Auftrag Raphael («ist die Festplatte mit 150 GB Systemdaten berechtigt?»). **Die Anzeige ist
+kein Fehlalarm, aber auch nicht restlos berechtigt.** Die «Systemdaten» sind praktisch
+deckungsgleich mit `~/Library` = 139 GiB.
+
+Ausgangslage: APFS-Container 494.4 GB, belegt 396.9 GB, frei 97.5 GB. Data 372.6 GB,
+System 12.6, Preboot 9.1, Recovery 1.3, VM 1.1. **Lokale APFS-Snapshots: 0**, Papierkorb
+220 KB — die beiden klassischen stillen Fresser sind sauber.
+
+**⚠ Messfalle, wichtig fuer den naechsten Lauf:** OneDrive erscheint in `du` **zweimal** —
+`~/Library/CloudStorage/OneDrive-…JANS` (34 GiB) und
+`~/Library/Group Containers/UBF8T346G9.OneDriveStandaloneSuite/JANS.noindex/JANS` (33 GiB).
+Das sind **dieselben Bytes**, nicht zwei Kopien. Belegt an einer 14-MB-Testdatei: beide
+Pfade melden `stat -f %b` = **0 belegte Bloecke** bei identischer logischer Groesse. Wer die
+beiden Zahlen addiert, erfindet 33 GB. Gleiche Familie wie der Grundsatz «ein leeres
+Suchergebnis ist zuerst eine Aussage ueber das Werkzeug».
+
+Nicht aufgeklaert und ehrlich so benannt: Verzeichnissummen ergeben 334 GB, das Volume
+meldet 372.6 GB belegt. **Rund 38 GB Differenz**, vermutlich purgeable; mit den vorhandenen
+Rechten nicht haerter belegbar.
+
+**Eingriff (Freigabe Raphael «ja mach die caches»):** geloescht wurden ausschliesslich
+regenerierbare Caches von Apps, die **nicht liefen** — `Caches/Google` 1.3 G,
+`Caches/Firefox` 989 M, `Caches/com.openai.atlas` 526 M, `Caches/pip` 216 M,
+`.cache/codex-runtimes` 1.5 G, dazu `uv cache clean` (818 MiB) und `npm cache clean --force`
+(641 M). Ergebnis gemessen: **347 → 341 GiB belegt, 91 → 96 GiB frei.**
+
+Zwei bewusste Auslassungen: **`~/.claude` (4.0 GB) ist kein Cache** — `transcript-archiv`
+1.8 G und `projects` 1.7 G sind Session-Historie und das Memory-Verzeichnis, nie loeschen.
+Und `Caches/ms-playwright` (539 M) bleibt, weil dort die Browser-Binaries des Connectors
+`ebaugesuche-zh` liegen; loeschen heisst neu herunterladen.
+
+Merksatz aus dem Lauf: **bei Caches ist «umkehrbar zur Seite schieben» eine Illusion** — ein
+`mv` auf dasselbe Volume gibt null Byte frei. Entweder loeschen (bei Caches vertretbar, sie
+bauen sich neu auf) oder es bleiben lassen; nicht so tun, als gaebe es einen dritten Weg.
+
+Offen, groesster Hebel und bewusst nicht angefasst (Rule `auto-verbesserungen` 260814,
+Schalter bedient Raphael selbst): **33 GB materialisiertes OneDrive**, davon
+`AR - 01 Projekte` 14 G, `JANS - 2619-KISPI - Dokumente` 12 G (aktiv, bleibt lokal),
+`AR - 05 Transfer` 1.8 G, `AR - 03 Studien` 1.6 G, `AR - 02 Wettbewerbe` 1.3 G,
+`PL - 02_Recht_Norm` 1.1 G, `AR - 07 Archiv` 181 M. Realistisch 6 bis 19 GB ueber
+«Speicherplatz freigeben». Dazu `Claude/vm_bundles` 5.9 G und die Caches der laufenden Apps
+(Spotify 2.0 G, Comet 982 M, Adobe 832 + 475 M), die ein App-Beenden brauchen, sowie
+`/Library/Developer` 9.0 G (Xcode-Simulatoren) und `~/.diffusionbee` 2.3 G.
+
 ## 260814c — Routinen-Pruefung MacBook Pro: Kontingent frei, `station-status`-Exit-2 ist gewollt, `session-env` und Transcripts geraeumt
 
 Auftrag Raphael («Routinen pruefen, kommt das System an seine Grenzen?»). Ergebnis: **die
