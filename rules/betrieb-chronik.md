@@ -21,6 +21,38 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260814c — Routinen-Pruefung MacBook Pro: Kontingent frei, `station-status`-Exit-2 ist gewollt, `session-env` und Transcripts geraeumt
+
+Auftrag Raphael («Routinen pruefen, kommt das System an seine Grenzen?»). Ergebnis: **die
+Routinen sind nicht der Engpass.** Kontingent 32.3 % bei 58.6 % verstrichener Woche
+(Vorsprung -26.3), Swap 0.00 MB, lokal 91 GB frei. Der beobachtete 15-Minuten-Load von
+20.5 auf 12 Kernen stammte aus einer **parallelen Claude-Session**, die `du` ueber
+`~/Library` (139 GB) fuhr und dabei `ApplicationsStorageExtension` hochtrieb; vier Minuten
+spaeter stand der Load bei 2.2. Neustart 14:11:38 ohne Panic-Report.
+
+**Beinahe-Fehleingriff, als Lehre festgehalten:** `launchctl list` zeigte
+`com.jans.station-status` mit Exit-Status **2**, woraus zuerst «144 Fehlstarts pro Tag»
+geschlossen wurde. Falsch. Zeile 27 des Scripts ist
+`[ -d "$NAS" ] || { echo "NAS nicht gemountet"; exit 2; }` — ein **gewollter** Ruecktritt.
+Der Exit 2 war der Boot-Lauf um 14:11:38, bevor der SMB-Mount stand; `launchctl list
+com.jans.station-status` zeigte danach `LastExitStatus = 0`, und der manuelle Lauf gab
+rc=0. **Die Sammelansicht `launchctl list` nennt den LETZTEN Exit-Status, nicht den
+Regelzustand** — vor jeder Massnahme den Einzelstatus des Jobs abfragen und das Script auf
+absichtliche Exit-Codes lesen. Der Job blieb unangetastet. Gleiche Familie wie 260807
+(Konfigurationsfelder erst messen, dann glauben).
+
+**Zwei Aufraeumungen ausgefuehrt** (umkehrbar, Rule `interaktive-eingriffe` Pkt. 2/4):
+(1) `~/.claude/session-env` enthielt **2995 leere Verzeichnisse** (Inode-Muell aus 3360
+Sessions, 0 Byte, vom Rotations-Job nicht abgedeckt). 2889 Eintraege aelter als zwei Tage
+nach `~/.claude-quarantaene-260814/session-env/` **verschoben**, nachdem verifiziert war,
+dass kein einziger Kandidat nicht-leer ist (Abbruchbedingung im Befehl); 107 aktive blieben.
+(2) `scripts/transcript-rotation.sh` manuell angestossen statt bis So 04:00 zu warten:
+**2508 Transcripts (561 MB) verlustfrei** nach `transcripts-bis-260814.tar.gz` archiviert,
+Integritaet mit `tar tzf | wc -l` = 2508 gegengeprueft, Projektordner 2771 → 1767 MB. Netto
+lokal rund 445 MB, weil das Archiv (jetzt 1.8 GB) lokal liegt. **Offen:** Quarantaene-Ordner
+und die Frage, ob `transcript-archiv/` aufs NAS soll (dort nur noch 477 GB frei, 93 %
+belegt) — als Zeile in `logbuch/fristen.md`.
+
 ## 260814 — Speicherputz MacBook Pro: Adobe-Altversionen und Render-Caches in den Papierkorb, Quartals-Task angelegt
 
 Interaktiver Eingriff (Auftrag Raphael, Rule `interaktive-eingriffe` Pkt. 4): Auf dem

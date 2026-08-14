@@ -3,6 +3,21 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 14.08.2026, 14:35 (interaktive Session RJ, Routinen-Prüfung MacBook Pro):
+
+**BEOBACHTEN: Quarantäne-Ordner `~/.claude-quarantaene-260814/session-env/` (2889 leere
+Verzeichnisse) kann ab 21.08.2026 gelöscht werden.** Am 14.08. umkehrbar aus
+`~/.claude/session-env` verschoben (Inode-Müll aus 3360 Sessions, alle nachweislich leer,
+0 Byte). Eine Woche stehen lassen, dann ersatzlos entfernen. Status: **beobachten, kein
+Handlungsdruck.**
+
+**ZU PRÜFEN: Soll `~/.claude/transcript-archiv/` (1.8 GB, vier tar.gz) aufs NAS?** Am
+14.08. kamen 559 MB dazu (`transcripts-bis-260814.tar.gz`, 2508 Transcripts, Integrität
+gegengeprüft). Das Archiv wächst wöchentlich und liegt bisher nur lokal, also ohne Backup.
+Gegenargument: das NAS ist zu **93 % belegt** (477 GB von 6 TB frei). Entscheid Raphael
+nötig, ob auslagern oder ob ältere Archive (bis 260728, 853 MB) verfallen dürfen. Status:
+**zu prüfen.** | Beleg: `rules/betrieb-chronik.md` 260814c
+
 Eintrag 14.08.2026, 14:30 (interaktive Session RJ, Türfachplanung 2619 KISPI):
 
 **NEU/OFFEN: KISPI PPTS Türkonzeptplan + Türbuch — Freigabe ausstehend, Teams-Call zu
