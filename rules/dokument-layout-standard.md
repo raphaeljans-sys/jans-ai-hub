@@ -12,7 +12,13 @@ Festgelegt 05.05.2026. Build-Workflow, Generator-Vorlage und DXA-Detailparameter
 - **Hierarchie:** H1 18 pt fett, H2 12 pt fett, Footer 8 pt
 - **Keine** Hintergrundfarben, Akzentfarben, sichtbaren Tabellenrahmen; Trennung ueber
   Whitespace, Tabellen nur als unsichtbare Layout-Hilfe
-- **Listen:** Bindestrich «-» als Bullet (nicht «•»), Einzug 360 DXA; fette Praefix-Phrase moeglich
+- **Listen (Neuregelung 14.08.2026, Vorgabe Raphael):** In ausgehenden Dokumenten **keine
+  Aufzaehlungs-Bullets** (weder «•» noch «-») — Klick-Listen wirken generisch und sind als
+  KI-Erzeugnis identifizierbar. Stattdessen **nummerierte Positionen im Fliesstext**:
+  Themenblock als H2 mit Nummer (01, 02 …), darunter je Punkt ein Absatz mit fetter
+  Positionsnummer (01.1, 01.2 …) und fettem Stichwort, dann der Text. Vorteil: jede Position
+  ist in Sitzung, Protokoll und Mail referenzierbar. Bindestrich-Bullets bleiben nur in
+  internen Arbeitsdokumenten und MD-Quellen zulaessig; fette Praefix-Phrase weiterhin moeglich
 - **Footer:** links Verfasser/Mail/Datum, rechts «Seite X von Y»
 - **Keine expliziten PageBreaks**; bei Seitenzahl-Vorgabe verdichten statt umbrechen
 

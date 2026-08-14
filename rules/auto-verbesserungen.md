@@ -29,6 +29,15 @@ zuerst.
 - **Gilt fuer:** alle Stationen, alle interaktiven Sessions; ergaenzt Rule
   `modellwahl-routine.md`.
 
+## 260814c — Keine Aufzaehlungs-Bullets in ausgehenden Dokumenten: nummerierte Positionen
+- **Regel:** Ausgehende JANS-Dokumente fuehren Aufzaehlungen als **nummerierte Positionen**
+  (Themenblock 01, 02 …; Positionen 01.1, 01.2 … mit fetter Nummer und fettem Stichwort im
+  Fliesstext), **nie als Bullet-Listen** («•» oder «-») — Klick-Listen sind als KI-Erzeugnis
+  identifizierbar und nicht referenzierbar. Wortlaut und Details: Rule
+  `dokument-layout-standard.md`, Abschnitt Listen (Neuregelung 14.08.2026). Erzeugnisse im
+  Protokoll-CI bauen (Generator-Vorlage `templates/dokument-layout/`, Cambria, Fusszeile).
+- **Gilt fuer:** alle ausgehenden DOCX/PDF-Erzeugnisse, alle Skills und Agenten, alle Stationen.
+
 ## 260814b — Rueckmeldelisten an Fachplaner: einfache Zeilenliste, kein Pruefbericht-Apparat
 - **Regel:** Rueckmeldungen zu Fachplaner-Dokumenten (Plan-/Tuerbuch-/Konzept-Kontrollen, analog
   der KISPI-Rueckmeldung vom 14.08.2026) werden als **einfache Zeilenliste** verfasst: nummerierte
