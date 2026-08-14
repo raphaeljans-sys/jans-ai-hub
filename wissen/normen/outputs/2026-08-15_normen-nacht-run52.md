@@ -203,9 +203,33 @@ Destillat davon **nicht** führt. Das ist als N52-2 offen.
 8. **Fremde KB, weiterhin nur gemeldet:** `wissen/projekt-lessons/wiki/kispi-lbw-rohdichte-800.md`
    führt bürointerne Los-Nummern im Frontmatter-Feld `bkp:`.
 
-## 9. Anhang-D-Matrix SIA 112/1 (Übergabe Run 51, Punkt 2a)
+## 9. Anhang-D-Matrix SIA 112/1 — erledigt (Übergabe Run 51, Punkt 2a)
 
-Siehe Nachtrag unten — der Prüflauf lief zum Zeitpunkt der Berichtsabfassung noch.
+Run 51 hatte die 1904 Kreuzfelder rechnerisch gesichert, aber ausgewiesen, dass die
+Kriterien-Rückverweise aus OCR stammen und **kein einziger davon zitierfähig** ist. Dieser Punkt
+ist abgearbeitet: alle **136 Rückverweise am Original nachgelesen** (400 dpi flächendeckend,
+600 dpi für die verklebten Zellen), **87 korrigiert, 0 blieben unlesbar**. Folio = PDF-Blatt 1:1.
+
+Die Mehrheit waren reine Leerzeichen-Verklebungen («A.7B.5» statt «A.7 B.5»). Die echten
+Zeichenfehler zeigen ein **systematisches Muster**, das für künftige OCR-Läufe zählt: «C.» wird an
+fünf Stellen zu «G» verlesen, «A.4» an sechs Stellen zu «A.A». Dazu drei stark entstellte Fälle,
+darunter «A1NABBI B.3 C.1» für «A.1 A.6 B.1 B.3 C.1».
+
+**Hauptprozess-Gegenprüfung am eigenen 400-dpi-Rendering der S. 43** (drei Stichproben, alle
+bestätigt): «A.2 A.4 A.7 B.2 B.3 B.4» (das im Auftrag genannte Beispiel, zuvor «A.2AAA.7»),
+«A.2 A.3 B.1 C.1 C.4» und «B.1 B.3 C.6» stimmen zellengenau mit dem korrigierten Export; auch
+Kreuzfelder und Akteursspalten der geprüften Zeilen decken sich. Die vom Prüfagenten vorgenommene
+Hebung des ⚠-Vermerks auf «zitierfähig» ist damit gedeckt — **die Statusentscheidung liegt beim
+Hauptprozess, nicht beim Agenten**, und sie wird hier ausdrücklich bestätigt.
+
+Die S. 45 und 47, in Run 51 nur rechnerisch gemessen, sind nun zusätzlich ganzseitig sichtgeprüft:
+Zeilenzahl, Blocktitel, Spaltenbelegung und Kreuzfelder stimmen vollständig, keine Abweichung.
+Damit ist die in Run 51 ausgewiesene Asymmetrie zwischen den Anhang-D-Seiten aufgehoben.
+
+**Offengelegt:** Der Prüfagent hat selbst berichtet, dass sein erster Korrekturlauf die Werte über
+das falsche Feld zuordnete; er hat den Fehler vor dem Schreiben bemerkt, die Datei aus HEAD
+zurückgesetzt und den Lauf wiederholt. Das ist die richtige Reihenfolge und wird hier festgehalten,
+weil ein still korrigierter Fehlgriff der teurere Fall wäre.
 
 ## Belege
 

@@ -1,3 +1,57 @@
+## 2026-08-15 — Normen Run 52 (Hauptteil): SIA 416/1:2007 destilliert, xalt-Ordner aufgenommen, Gegenprobe zweiter Ordnung gefahren
+
+Report: `outputs/2026-08-15_normen-nacht-run52.md`.
+
+1. **Neues Destillat `destillate/sia-416-1-2007.md`** (SIA 416/1 «Kennzahlen fuer die
+   Gebaeudetechnik», 40 S., reiner Scan ohne Textlayer, vollstaendig in 300 dpi gerendert,
+   Tabellen 1-5 zellenweise abgelesen, Folio = PDF-Blatt 1:1). Kern: Energiebezugsflaeche A_E
+   (Ziff. 3.2), Gebaeudehuellflaeche A_b/A_th/A_inf (Ziff. 3.3), Energiekennzahl E (Ziff. 4.1);
+   ersetzt Empfehlung SIA 180/4:1982. Status `speculative`, Refuter-Runde ausstehend;
+   Hauptprozess-Stichprobe Ziff. 3.1.3/3.2.1 (S. 23) am Original bestaetigt. **Schliesst
+   QUESTIONS 260813** — der Frontmatter-Link in `sia-382-2-2011.md` zeigte auf SIA 416:2003, eine
+   andere Norm; er ist umgehaengt, beide Nachtragsvermerke von Run 49 auf erledigt gesetzt.
+2. **Der xalt-Ordner ist erstmals aufgenommen.** Das Inventar fuehrte «9 Altausgaben», gemessen
+   sind **76 PDF** (57 direkt, 19 im Unterordner `neu/`). Darin zwei **geltende** Normen ohne
+   Destillat: SIA 416/1:2007 (jetzt destilliert) und **SIA 215:1978** (REGISTER 1978✓, neu als
+   offene `[ ]`-Position P3 im Inventar). Ferner abgegrenzt: SIA 242:2012 und SIA 274:2010 sind
+   geltend, aber **nicht im Haus** (Beschaffung, nicht Loop); acht Normen sind zurueckgezogen und
+   korrekt uebersprungen; fuenf Dateien sind Dubletten geltender Normen; 17 sind
+   Vernehmlassungsentwuerfe und damit **Fassungsindikatoren** (Methodik-Pflicht 3), darunter
+   SIA 252_VL_2011-12, der den Ersatz der destillierten Ausgabe 2002 ankuendigt.
+   Rohaufnahme: `training/xalt-bestandsaufnahme-260815.md` — **Klassenspalte ausdruecklich nicht
+   belastbar**, der Subagent klassierte 51 Dateien als «geltend», darunter nachweislich ersetzte
+   (SIA 358:1996, SIA 116:1952, SIA 380/1:2001); der Befund wurde nach Methodik-Pflicht 5 nicht
+   uebernommen, sondern durch eigene Messung gegen REGISTER und Destillat-Deckung ersetzt.
+   Lehre, im Inventar verankert: **ein Ordnername ist eine Behauptung ueber den Inhalt, keine
+   Feststellung** — derselbe Mechanismus hatte Run 29 bei SIA D 0165 getroffen, dort wurde nur die
+   Einzeldatei geheilt und der Ordner nie geprueft.
+3. **`destillate/sia-358-2010.md` (established): 13 Fundstellen inline korrigiert, kein einziger
+   Zahlenwert falsch.** Der Hauptprozess hat den deutschen Normteil (S. 5-10) selbst gerendert und
+   gelesen. Alle Werte stimmen (1,0 / 0,90 / 0,20 / 0,65 / 0,30 / 0,12 / 0,05 / 0,75 / 1,50 m,
+   fuenf und zwei Steigungen). Falsch waren die Fundstellen: Seitenangaben ab Ziff. 1.3.4
+   durchgehend +1 (Kap. 2 als S. 8 statt 7, Kap. 3 als S. 9/10 statt 8, Anhang A als S. 10 statt 9
+   — bei Folio = PDF-Blatt 1:1); Ziffernzuordnung an fuenf Stellen (0.1.3 als «0.1.2»; die
+   Rollstuhlfahrer-Fussnote zu Ziff. 1.3.3 als eigene «Ziff. 1.3.4»; 1.3.4/1.3.5, 2.1.1-2.1.4 und
+   3.1.3-3.1.6 je zu einer Ziffer verschmolzen). Alle Stellen mit sichtbarem ⚠-Vermerk und der
+   zuvor gefuehrten Angabe korrigiert (Methodik-Pflicht 9). Relevanz: Rule `normen-referenz`
+   verlangt «Norm + Ausgabe + Ziffer» — richtige Werte mit falscher Ziffer erzeugen Zitate, die
+   formal korrekt aussehen und beim Nachschlagen ins Leere fuehren.
+4. **Gegenprobe zweiter Ordnung gefahren** (Uebergabe Run 51, Punkt 1). 16 Behauptungen zu
+   SIA 358:2010 blind vorgelegt, 6 kontrolliert verfaelscht; Quelle vom Hauptprozess vorab selbst
+   verifiziert. **6 von 6 schweren Kontrollen erkannt** (2 Bedeutungsumkehr, 1 weggelassene
+   Bedingung, 1 verschobene Fundstelle bei richtigem Inhalt, 2 Zahlenwerte), **10 von 10 echten
+   Aussagen bestaetigt, null Falsch-Positive**. Damit ist die offene Frage aus Run 51 beantwortet:
+   die Pruefstufe erkennt auch die schweren Klassen.
+   **Der eigentliche Ertrag ist der Ausfall:** die versteckte siebte Kontrolle (eine Aufzaehlung
+   mit zwei statt drei Punkten) wurde BESTAETIGT und die Luecke nicht einmal als Anmerkung
+   erwaehnt. Die Fragerichtung «widerlege» kann fehlenden Inhalt **strukturell** nicht erfassen.
+   Damit ist Methodik-Pflicht 6 erstmals empirisch fuer die Refuter-Stufe selbst belegt, nicht nur
+   fuer Destillate: **eine Refuter-Runde ist kein Vollstaendigkeitsnachweis.** Als
+   Methodik-Pflicht 13 zur Freigabe vorgelegt (QUESTIONS N52-2).
+5. **QUESTIONS**: N52-1 und N52-3 geschlossen, N52-2 sowie N52-4 bis N52-7 neu offen.
+   **Vorrang-Auftrag des Task-Prompts zum vierten Mal als ueberholt zurueckgemeldet** (erledigt
+   seit Run 38); Entfernung erneut vorgeschlagen.
+
 ## 2026-08-15 — Normen Run 52: Anhang-D-Kriterien-Rueckverweise am Original korrigiert, S. 45/47 sichtgeprueft
 
 Uebergabepunkt 2a aus Run 51 (N51-Notiz "OCR-gestuetzte Zeilentexte und Kriterien-Rueckverweise
