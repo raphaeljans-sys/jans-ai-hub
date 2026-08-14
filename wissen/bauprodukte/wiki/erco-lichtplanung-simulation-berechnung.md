@@ -4,7 +4,7 @@ status: emerging
 last_updated: 2026-08-13
 gelesen: "Seiten 375-426 von 435 (Hauptkapitel «Simulation und Berechnung» VOLLSTÄNDIG: Einführung Simulation S.376-379, Lichtsimulation S.380-394 (3D-Modell/Oberfläche/Licht/Rendering/Beurteilung), Hardware/Software/Entwicklungen S.395-400, Berechnungen S.401-409 (Anschlussleistung/Punktbeleuchtungsstärken/Wartungsfaktor/UGR-Verfahren/Wirkungsgradverfahren/Beleuchtungskosten), Planungsdaten S.410-414 (IES/Eulumdat/DXF/i-drop/Wartungswert), Planungsbeispiele S.415-426 (sechs Referenzprojekte + Virtual Prototyping)). Offen: Kapitel «Glossar» ab S.427 bis S.435 — Anfang (Buchstaben A-E) bereits mitgelesen (Textextraktion, nicht einzeln verarbeitet), vollständige Destillation für Folgelauf."
 sources: ["de_erco_guide.pdf" (ERCO GmbH, «ERCO Ratgeber», Kapitel Simulation und Berechnung + Planungsbeispiele, Editionsdaten je Seite unterschiedlich: S.375-379/386-394/410-414/415-426 Edition 04.01.2007/05.12.2006/11.12.2006 (mehrere Teil-Editionen), S.380-385 Edition 05.12.2006, S.395-398 Edition 05.12.2006, S.399-400 Edition 01.03.2010, S.401-409 Edition 06.12.2006, Glossar-Anfang S.427 Edition 01.03.2010 — Dokument seitenweise nachgeführt, kein einheitliches Ausgabedatum, wie in Teil 1 notiert)]
-links: [[erco-lichtplanung-grundlagen]], [[INDEX]]
+links: [[erco-lichtplanung-grundlagen]], [[erco-lichtplanung-glossar]], [[INDEX]]
 ---
 
 # ERCO Ratgeber — Simulation und Berechnung (Teil 2/n, Seiten 375-426)

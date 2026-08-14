@@ -5765,3 +5765,14 @@ simulation-berechnung.md`. Energie-KB uebersprungen (bereits vor dieser Session 
 energie-run129 heute Abend bearbeitet, kein Doppellauf). Offen: Glossar S.427-435 fuer
 Folgelauf. Commit nativ ueber nas-commit-now.sh. Budget eng ausgeschoepft (Bild-Reads teuer,
 ab S.395 auf pdftotext umgestellt).
+
+## Nachtschicht 02:30-Slot (Mac Mini)
+KB `bauprodukte`: ERCO-Ratgeber Teil 3/3 (Glossar, S.427-435 von 435, BKP 233)
+destilliert, neuer Artikel `wissen/bauprodukte/wiki/erco-lichtplanung-glossar.md`
+(271 Fachbegriffe A-Z). Damit ist das 435-seitige Dokument vollstaendig erschlossen
+(Teil 1/3 Grundlagen, Teil 2/3 Simulation/Berechnung, Teil 3/3 Glossar). Rohtext-
+Umformatierung an Haiku-Subagent delegiert, Ergebnis stichprobenartig gegen den
+Rohtext geprueft, drei Dehyphenation-Fehler gefunden und korrigiert. INDEX,
+Vorgaenger-Links, CHANGELOG und Destillat-Inventar nachgefuehrt. Sync-/Freigabe-
+Queues waren leer, Synobsis 853/853 gesaettigt (kein Ziel). Commit folgt nativ ueber
+nas-commit-now.sh.

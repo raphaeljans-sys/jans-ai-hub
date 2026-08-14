@@ -1,5 +1,26 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-14 (Mac Mini Nachtschicht 02:30) — ERCO Ratgeber Teil 3/3: Glossar (S.427-435) — Dokument vollständig abgeschlossen
+
+Letzter Fehlbetrag der ERCO-Lichtplanungs-Destillation (BKP 233): Kapitel «Glossar»
+(S.427-435, alphabetisches Fachbegriffs-Glossar der Lichtplanung, Edition 01.03.2010).
+Neuer Wiki-Artikel `erco-lichtplanung-glossar.md`: 271 Begriffe A-Z vollständig
+erfasst (Optik/Photometrie, Lampentypen, Lichtsteuerungsprotokolle, Wartungsfaktoren,
+Nutzungstyp-Beleuchtungen). Damit ist `de_erco_guide.pdf` (435 Seiten) über alle drei
+Teile vollständig erschlossen ([[erco-lichtplanung-grundlagen]] S.1-374,
+[[erco-lichtplanung-simulation-berechnung]] S.375-426, dieser Teil S.427-435).
+Werkzeug-Notiz: Glossar-Rohtext per `pdftotext -raw` (nicht `-layout`) extrahiert —
+bei diesem mehrspaltigen Layout hält `-raw` die Lesereihenfolge sauber, `-layout`
+vermischte die Spalten. Rohtext-Umformatierung an Haiku-Subagent delegiert
+(Modell-Politik), Ergebnis gegen den Rohtext stichprobenartig geprüft (5 von 22
+Buchstaben-Sektionen vollständig verglichen): drei Wortworttrennungs-Fehler durch
+Dehyphenation gefunden und korrigiert («mesopisches» statt «mesopische Sehen»,
+«Schattigheit» statt «Schattigkeit», «Innerverspiegelungen» statt
+«Innenverspiegelungen»). Ein Zeichen im Originaltext (vermutlich «<» vor «380 nm»
+beim Begriff Ultraviolettstrahlung) ging bei der PDF-Extraktion verloren — bewusst
+NICHT ergänzt, sondern als Lücke im Artikel vermerkt (Belegpflicht). INDEX und die
+`links:`-Frontmatter der beiden Vorgänger-Artikel nachgeführt.
+
 ## 2026-08-13c (Mac Mini Nachtschicht 23:30) — ERCO Ratgeber Teil 2/n: Simulation und Berechnung + Planungsbeispiele (S.375-426)
 
 Fortsetzung der ERCO-Lichtplanungs-Destillation (BKP 233) ab dem in Teil 1 markierten

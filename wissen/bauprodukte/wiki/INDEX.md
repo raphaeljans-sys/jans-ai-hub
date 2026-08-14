@@ -14,13 +14,19 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
 
 ### BKP 233 — Leuchten und Lampen
+- [[erco-lichtplanung-glossar]] — ERCO Ratgeber Teil 3/3 (S. 427-435 von 435,
+  ABSCHLUSS des Dokuments): alphabetisches Fachbegriffs-Glossar, 271 Begriffe
+  A-Z (Optik/Photometrie: Reflexion/Transmission/Brechung/Interferenz;
+  Lampentypen: Glühlampe/Entladungslampe/LED; Lichtsteuerung: DALI/DMX/KNX/LON;
+  Wartungsfaktoren; Nutzungstypen: Büro-/Hotel-/Verkaufsraum-/Museumsbeleuchtung).
+  Zwei gekennzeichnete ERCO-Begriffe: DALI (offener Standard), Varychrome
+  (ERCO-Markenattribut).
 - [[erco-lichtplanung-simulation-berechnung]] — ERCO Ratgeber Teil 2/n (S. 375-426
   von 435): Simulation und Berechnung vollständig (Lichtsimulation-Ablauf,
   Hardware/Software, sechs Berechnungsformeln inkl. UGR/Wartungsfaktor/
   Beleuchtungskosten, Planungsdaten-Formate) + sechs Planungsbeispiele
   (Chiesa Dives in Misericordia, Brandenburger Tor, Ara Pacis, Schottisches
   Parlament, BMW Mini Autohaus, Film Tune the light) + Virtual Prototyping.
-  Offen: Glossar S.427-435.
 - [[erco-lichtplanung-grundlagen]] — ERCO Ratgeber Teil 1/n (S. 1-374 von 435):
   Geschichte der Lichtplanung, Kelly/Lam, Physiologie des Sehens, Beleuchtungsstärken-
   Tabelle, Wahrnehmungskonstanz, Gestaltgesetze, Räume verbinden, Objekte beleuchten
@@ -42,8 +48,9 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
   Absorption/Brechung/Interferenz, Reflektoren, Linsensysteme, Filter inkl. UV-/
   IR-Schutzfilter für Museen, Prismenraster, Lichttechnisches Zubehör, Farbmischung/
   Varychrome). Zwei gekennzeichnete ERCO-Markennamen im Artikel: Light System DALI
-  (S. 292), Varychrome (S. 373-374). Offen: Simulation und Berechnung (ab S. 375),
-  Glossar (bis S. 435)
+  (S. 292), Varychrome (S. 373-374). Fortsetzung: [[erco-lichtplanung-simulation-berechnung]]
+  (S. 375-426), [[erco-lichtplanung-glossar]] (S. 427-435) — damit ist das
+  435-seitige Dokument vollständig destilliert
 
 ### BKP 261 — Aufzüge
 - [[bkp-261-aufzuege]] — Systemtypen (MRL-Traktionsaufzug, Seilaufzug mit
