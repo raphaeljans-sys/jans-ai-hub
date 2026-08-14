@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 16:56:37
+Stand: 14.08.2026 17:06:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 16:47)
@@ -19,4 +19,4 @@ Stand: 14.08.2026 16:56:37
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 988410e0 Mac Mini nachgezogen: Archiv aufs NAS, 4511 leere session-env-Dirs entfernt
+- 91615d12 nas-selfcommit: 3 Datei(en) 2026-08-14 17:00
