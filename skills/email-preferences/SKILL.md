@@ -32,15 +32,15 @@ Der M365-Graph-API-Zugriff deckt nur rj@raphaeljans.ch ab und verpasst iCloud-Ma
 > ⚠ **Zwei bekannte Fallen in den Skripten unten** (eingetragen 14.08.2026, Synergie-Lauf 07):
 > **(1)** `tell application "Mail"` ist auf macOS Tahoe der falsche Aufruf — er konfligiert mit
 > der QuickLook-Erweiterung. Verbindlich ist die Bundle-ID `application id "com.apple.mail"`
-> (Rule `osascript-apple-apps.md`, importiert). Die drei Bloecke hier sind noch nicht
-> nachgezogen. **(2)** Der `whose`-Filter greift auf frisch synchronisierten Nachrichten
+> (Rule `osascript-apple-apps.md`, importiert). Die drei Bloecke unten sind am 14.08.2026
+> nachgezogen (Wissens-Chef Run 32, uebernommen aus SYN-28b). **(2)** Der `whose`-Filter greift auf frisch synchronisierten Nachrichten
 > nicht zuverlaessig und liefert dann still nichts (`connectors/WEGE.md`, Eintrag 14.08.).
 > Fuer belegbare Treffer die juengsten Nachrichten je Postfach enumerieren und selbst
 > vergleichen, statt dem leeren Filterergebnis zu glauben.
 
 ### Schritt 1: Alle Konten durchsuchen (Apple Mail)
 ```applescript
-tell application "Mail"
+tell application id "com.apple.mail"
     set resultList to {}
     repeat with acct in every account
         repeat with mbox in mailboxes of acct
@@ -63,7 +63,7 @@ end tell
 
 ### Schritt 2: Neueste Mail lesen
 ```applescript
-tell application "Mail"
+tell application id "com.apple.mail"
     -- Ueber alle Accounts suchen, nach Datum sortieren, neueste zurueckgeben
     set newestDate to date "Montag, 1. Januar 2024 um 00:00:00"
     set newestMsg to missing value
@@ -107,7 +107,7 @@ end tell
 ## Versandmethode
 Bevorzugt Apple Mail via AppleScript (osascript). Beispiel:
 ```applescript
-tell application "Mail"
+tell application id "com.apple.mail"
     set newMessage to make new outgoing message with properties {subject:"...", content:"...", visible:true}
     tell newMessage
         make new to recipient at end of to recipients with properties {address:"..."}

@@ -60,7 +60,7 @@ ist.
 | SIA 118/265:2004 | Holzbau | **3,00 m ab Gerüstfuss** (Hilfsgerüst) |
 | SIA 118/266-1:2017 | Mauerwerk | **3,0 m Mauerwerkshöhe ab Gerüstabstellbasis** |
 | SIA 118/266-2:2017 | Natursteinmauerwerk | **3 m Mauerwerkshöhe ab Gerüstabstellbasis** (Original schreibt «3 m», nicht «3,0 m») |
-| SIA 118/262:2004 | Betonbau | **keine Höhengrenze, aber umgekehrte Systematik** — Arbeitsgerüste für die Betonarbeiten werden **nicht vergütet**, ausser das LV führt dafür getrennte Positionen (Ziff. 8.4.2.2, S. 21). Lehr- und Schutzgerüste dagegen werden in getrennten Positionen vergütet (Ziff. 8.4.2.3) |
+| SIA 118/262:2004 | Betonbau | **keine Höhengrenze, gleiche Grundsystematik** — Arbeitsgerüste für die Betonarbeiten werden **nicht gesondert vergütet**, sind also nach Ziff. 0.3 (S. 10) in den Einheitspreisen inbegriffen, und zwar ohne Höhenlimite; gesondert vergütet nur, wenn das LV dafür getrennte Positionen führt (Ziff. 8.4.2.2, S. 21). Lehr- und Schutzgerüste dagegen werden in getrennten Positionen vergütet (Ziff. 8.4.2.3) |
 
 > **⚠ Die Zahlen sind nicht ohne Weiteres vergleichbar — geprüft Run 50 (13.08.2026), Hauptprozess
 > an fünf Originalen.** Die Spalte nennt zwei verschiedene Messgrössen an zwei verschiedenen
@@ -81,8 +81,9 @@ ist.
 kennt keine Höhengrenze, weil er die Frage anders stellt.** Diese Beobachtung bleibt gültig,
 ist nach dem Kasten oben aber als Beobachtung an **unterschiedlich definierten Grössen** zu
 lesen, nicht als sauberer Zahlenvergleich. Die anderen ABB sagen: bis zu dieser
-Höhe im Einheitspreis enthalten, darüber separat vergütet. Der Betonbau sagt: das Arbeitsgerüst
-wird überhaupt nicht vergütet, es sei denn, der Bauherr schafft im LV eine eigene Position dafür.
+Höhe im Einheitspreis enthalten, darüber separat vergütet. Der Betonbau sagt dasselbe ohne
+Höhengrenze: das Arbeitsgerüst ist immer im Einheitspreis inbegriffen (Ziff. 0.3, S. 10) und wird
+nicht gesondert vergütet, es sei denn, der Bauherr schafft im LV eine eigene Position dafür.
 Praktische Folge fürs LV: **wer im Beton-LV keine Gerüstposition ausschreibt, bekommt sie auch
 nicht verrechnet — die Leistung steckt dann im Einheitspreis der Betonarbeiten.** Umgekehrt ist
 die Position bewusst zu setzen, wenn das Gerüst getrennt ausgewiesen und vergütet werden soll.
@@ -98,6 +99,17 @@ Lehr- und Schutzgerüste sind davon ausgenommen und immer getrennt zu vergüten.
 > selbst als «die praktisch folgenreichste Zeile» hervorhob** — der Merksatz war also nicht nur
 > falsch, sondern auch noch betont. Das ist der Beleg dafür, warum eine Synthese aus
 > unverifizierten Destillaten als Warnkarte und nicht als Zitierquelle zu führen ist.
+
+> ⚠ **Nachtrag 14.08.2026 (Wissens-Chef Run 32), Restbefund derselben Umkehr.** Die Korrektur
+> vom 13.08. reichte inhaltlich, liess aber die **Beschreibung** der Systematik in der alten
+> Richtung stehen: Tabellenzelle und Fliesstext nannten den Betonbau eine «umgekehrte
+> Systematik», in der das Arbeitsgerüst «überhaupt nicht vergütet» werde. Umgekehrt wäre die
+> Systematik nur, wenn der Betonbau die Gerüste **ausschliesst** — er schliesst aber allein die
+> **gesonderte** Vergütung aus, womit sie nach Ziff. 0.3 (S. 10) in den Einheitspreisen
+> **inbegriffen** sind, genau wie bei den anderen ABB, nur ohne Höhenlimite. Beide Stellen sind
+> auf «nicht gesondert vergütet, also inbegriffen» umgestellt. Run 30 hatte die Wendung
+> gemeldet, Run 31 sie als «kein Sachfehler» stehen lassen — sie war der sprachliche Rest des
+> korrigierten Fehlers und schob den Leser weiter in die falsche Richtung.
 
 ## Abzugs- und Nichtabzugsgrenzen im Ausmass
 
