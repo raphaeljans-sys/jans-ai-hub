@@ -3,6 +3,65 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 14.08.2026, 06:13 (Gespräch Mac Mini 13.08.2026, Konversations-Destillat — Fehlerrisiko
+in der Werkplanung, keine Frist):
+
+**KISPI Duschwanne — zwei widersprüchliche Rohlichtmasse liegen im selben Ablageordner.**
+Im Gespräch zur Duschwanne (LOS 260.03 Sanitäranlagen PREISIG) wurde für die 120er-Standardwanne
+zuerst ein Rohlichtmass von **1210 mm** hergeleitet (Wannenmass 1200 plus 5 mm Spiel je Seite für
+Toleranz und Schallschutzband) und empfohlen, das gemessene Ist-Mass von **1235 mm** durch je eine
+zusätzliche imprägnierte GK-Beplankungslage 12.5 mm zu reduzieren. Diese Herleitung steht im
+abgelegten Dokument `260813-Einbauschema-Duschwanne-120x90-KISPI`. **Danach kam das offizielle
+Herstellerdokument ans Licht und widerlegt sie:** Die Broschüre «Schmidlin Zargen» 2023 nennt auf
+Seite 11 das Rohnischenmass **Wannenmass + 10 mm bei Einfachbeplankung, Wannenmass + 35 mm bei
+Doppelbeplankung**. Die vorgefundenen 1235 mm sind exakt 1200 + 35, also bereits das Systemmass
+für die Zargen-Ausführung; die Aufdopplung wäre falsch. Beide Fassungen liegen im selben Ordner
+(Original `AR - 01 Projekte/2619_KINDERSPITAL/03_BKP/LOS_260.03 Sanitaeranlagen PREISIG/
+Apparateliste Sanitär/`, Spiegel in den KISPI-Dokumenten). **AKTION: die 1210-Herleitung im
+Einbauschema-Dokument gegen das Zargen-Systemmass zusammenführen und vor der Werkplanung bei
+Schmidlin telefonisch bestätigen lassen** — das Dokument selbst trägt diesen Vorbehalt bereits,
+weil Schmidlin zur Nische keine eigene Zahl publiziert. Offen ausserdem: die Artikelnummer der
+Schürzenwanne (Massanfertigung, wird mit der Offerte Sanitas Troesch bestätigt) und die Frage,
+ob ArchiCAD die aus dem Schmidlin-DXF konvertierte DWG annimmt (DXF liegt als Fallback daneben).
+Status: **offen** — Aktion JANS vor Werkplanung.
+
+Eintrag 14.08.2026, 06:13 (Gespräch MacBook Pro 13.08.2026, Konversations-Destillat — Entscheid
+Raphael, betrifft den einzigen Lern-Taktgeber des Hub):
+
+**Der Nachtschicht-Takt ist anders dokumentiert als er läuft: plist feuert 4×/Tag, der
+Script-Kopf behauptet stündlich.** Beim Fernzugriff auf den Mac Mini gemessen: Der Kopf von
+`nachtschicht-run.sh` gibt an, launchd starte ihn «stündlich um :30» im Fenster 18:00–09:00.
+Die plist feuert tatsächlich nur zu **vier Stunden: 2, 5, 13 und 23** — das deckt sich mit dem
+Lauf-Log, nicht aber mit dem Kommentar. **Vier Zyklen pro Tag statt fünfzehn.** Die Differenz ist
+nicht kosmetisch: Sie ändert die Rechnung, wieviel Lernkapazität ein verbrannter Slot kostet, und
+damit jede Priorisierung im Nachtschicht-Prompt. Nichts angefasst, weil unklar ist, ob die plist
+bewusst gedrosselt wurde (dann ist der Kommentar zu korrigieren) oder der Kommentar nie stimmte
+(dann ist die plist zu erweitern). Gleiche Familie wie Rule `auto-verbesserungen` 260807:
+ein Konfigurations- oder Doku-Feld ist kein Live-Zustand. Im selben Lauf wurde auf dem Mini
+bewusst **nichts** verändert; die Vermutung, dort trete dieselbe SMB-Abbruchart auf wie auf dem
+MacBook, trägt nicht (Log ohne Mount-Vorfälle, jeder Zyklus schreibt seine Schlusszeile; die
+34 Exit-1-Zyklen kommen aus dem Dispatch-Aufruf, nicht aus einer Schutzklausel).
+**AKTION Raphael: entscheiden, welche der beiden Seiten stimmt.**
+Status: **offen, Entscheid Raphael.**
+
+Eintrag 14.08.2026, 06:13 (Gespräch MacBook Pro 14.08.2026 00:02, Konversations-Destillat —
+Termin 15.08. und Doppel-Taktgeber-Risiko):
+
+**Neue Cloud-Routine `wissenscheck-phase1-alle2tage` ist live, erster Lauf Freitag 15.08.2026
+08:02 CEST.** Auf Raphaels «ja gerne» angelegt: Takt alle 2 Tage, cron `0 6 */2 * *`
+(06:00 UTC = 08:00 CEST), Modell **Haiku**, Repo `github.com/raphaeljans-sys/jans-ai-hub`.
+Umfang: Audit aller 18 KBs über 7 Dimensionen, Health-Check-Reports, CHANGELOG, Commit —
+**Phase 2 (Reparaturen) bleibt manuell**. Begründung im Gespräch: Ein Zwei-Tages-Fenster trennt
+Signal (neuer Fehler) von Rauschen (alter, wiederkehrender Befund) und erlaubt, Reparaturen im
+Batch statt einzeln zu fahren. **Der Prüfpunkt: der bestehende MONATLICHE Wissenscheck ist
+damit nicht abgelöst, nur ergänzt.** Zwei Taktgeber auf denselben Prüflauf ist genau das Muster,
+das der Nachtschicht-Prompt an anderer Stelle ausdrücklich verbietet («ein zweiter Mechanismus
+wird bewusst NICHT angelegt, sonst feuern zwei auf denselben Loop»). Zu beachten ist ausserdem,
+dass Cloud-Routinen ohne MCP-Konnektoren laufen und in einer eigenen Cloud-Session mit eigenem
+git-Checkout arbeiten, nicht auf einer Station. **AKTION vor dem 15.08.: klären, ob der
+Monats-Task stillgelegt oder umgewidmet wird.**
+Status: **offen** — Abgleich vor dem ersten Lauf.
+
 Eintrag 14.08.2026, 05:45 (twin-fidelity-review, Entscheid Raphael noetig):
 
 **Das Twin-Gehirn ist am Wachstums-Riegel angekommen — 29'997 von 30'000 Bytes, 3 Bytes
