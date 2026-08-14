@@ -288,12 +288,16 @@ Unternehmung die Folgekosten. Ohne diesen Punkt bleibt die Anforderung eine Bitt
 verwenden; übertragbar ist die Mechanik, nicht der Wortlaut. Anschluss an die Skills
 `werkvertrag` (Überbindung) und `ausschreibung` (Submissionsbedingungen).
 
-### Der Quellverweis auf die Mai-2006-Fassung ist korrekt
+### Der Quellverweis auf die Mai-2006-Fassung ist korrekt und belegt
 
-Der oben in `sources` geführte Eintrag `[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]` (Mai 2006)
-stand als Dangling-Link ohne eigene Datei im Verdacht, ein Zitierfehler zu sein. Am 14.08.2026
-wurde die Datei auf SharePoint gefunden und gelesen: sie existiert tatsächlich als eigene,
-frühere Fassung. **Der Verweis ist damit richtig**, ihm fehlt nur das Destillat. Der
-Fassungsvergleich Mai 2006 gegen Stadtratsbeschluss Nr. 1094 vom 17.09.2008 steht im Nachtrag zu
-`[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]`; die Vorgaben wurden in diesen gut zwei
-Jahren deutlich verschärft (erneuerbare Energien am Wärmebedarf von Neubauten von 25 % auf 40 %).
+Der oben in `sources` geführte Eintrag `[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]`
+(Mai 2006) ist richtig und auflösbar. Das Destillat existiert seit dem 04.08.2026 (Run 123):
+`destillate/ahb-zuerich-massstaebe-nachhaltiges-bauen.md`, registriert in `destillate/INDEX.md`
+Zeile 340, «gelesen: Seiten 1-2 (vollständig), 2026-08-04». Seine Frontmatter führt die von
+Run 132 als Fundort gemeldete Datei ausdrücklich als byte-identische Dublette (…/eco/Nachhaltiges
+Bauen/01 verbindliche Richtlinien/1.11.R Massstäbe für Umwelt- und Energiegerechtes Bauen.pdf)
+der destillierten Datei …/eco/1.11Meilenschritte_05_2006.pdf. Der Link war nie dangling. ⚠
+Korrektur 14.08.2026 (Wissens-Chef Run 32): die zuvor hier stehende Aussage, dem Verweis fehle
+noch das Destillat, war falsch — sie beruhte auf einer nicht durchgeführten Verzeichnisprüfung
+in `destillate/`. Der Fassungsvergleich Mai 2006 gegen Stadtratsbeschluss Nr. 1094 vom
+17.09.2008 steht im Nachtrag zu `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]`.

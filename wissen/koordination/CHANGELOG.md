@@ -3,6 +3,46 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-14 — Wissens-Chef Run 32 (Abendlauf, 23,4 h nach Run 31)
+
+- **Bericht:** `outputs/2026-08-14_wissens-chef-run32.md`. Delta 50 Dateien in `wissen/`
+  (Schwelle rund 40 ueberschritten). Zuschnitt 5 Melder + 7 Refuter (12 Agenten, 2,10 Mio Token),
+  zwei getrennte Workflows. Uhr-Kontrolle bestanden (Station 23:11 CEST gegen Synology 23:00:01).
+- **Erster Vollzug der Run-31-Empfehlung «zuerst die eigenen Uebergaben».** Sie traegt sofort:
+  die aus Run 30/31 uebergebene Wendung «umgekehrte Systematik» (ABB-Reihe, Betonbau) war kein
+  Wortproblem, sondern **der sprachliche Rest der am 13.08. behobenen Bedeutungsumkehr**. Umgekehrt
+  waere die Systematik nur, wenn SIA 118/262 die Arbeitsgerueste ausschloesse; sie schliesst allein
+  die *gesonderte* Verguetung aus, womit sie nach Ziff. 0.3 inbegriffen sind. Zwei Laeufe hatten die
+  Stelle gesehen und als «kein Sachfehler» liegengelassen. **Eine Bedeutungsumkehr hinterlaesst zwei
+  Spuren: die falsche Aussage und die falsche Beschreibung.**
+- **Gegenpruefung: 2 bestaetigt, 3 widerlegt, 1 bereits bekannt** — und wieder war bei drei der vier
+  gefallenen Meldungen auch der Korrekturvorschlag fehlerhaft (gleiche Quote wie Run 31).
+- **Hauptbefund (bestaetigt, `energie`):** Run 132 erklaerte eine Quelle fuer «nie eingelesen»,
+  deren Destillat seit Run 123 unter **buchstabengleichem** Dateinamen bestand. Die Gegenpruefung
+  verbreiterte den Befund von zwei auf **sieben** Stellen — darunter INDEX, CHANGELOG und QUESTIONS,
+  also dort, wo der naechste Lauf zuerst nachschlaegt. Additiv korrigiert, nichts gemergt (zwei
+  verschiedene Dokumente). Ursache: `INDEX.md` fuehrte nur einen der beiden SharePoint-Pfade;
+  Dubletten-Pfad nachgetragen, QUESTIONS-Punkt E-WC32-1 angelegt.
+- **Zweiter bestaetigter Befund (`twin`):** «Parallelprojekt KISPI Albertstrasse 7» verschmolz
+  2620 Albertstrasse 7 (Nova) mit 2619 KISPI — Fehlerfamilie Staehlin/Waechter, korrigiert.
+- **F2 als Praezedenz festgehalten:** Die Meldung, der immer aktive Kern `rules/jans-dna.md`
+  widerspreche der Facetten-Korrektur, fiel auf **beiden** Linsen — sachlich (Kern = grobe Achse,
+  Facette = Verfeinerung) und formal. **Merksatz im Register:** eine Meldung «importierte Rule
+  widerspricht KB» ist nie eine Aktion dieses Loops, immer eine Vorlage an Raphael.
+- **Refuter-Nebenertrag, vom Hauptprozess am Rohtext gegengelesen:** `normen/wiki/REGISTER.md`
+  Z. 268 nannte die BBV-I-ZH-Ziffer 2.3382 «verbindlich» — sie steht unter «Als Richtlinien und
+  Normalien sind zu **beachten**», und § 4 Abs. 5 BBV I laesst begruendete Abweichung zu. Korrigiert.
+- **Teuerste gesetzte Kante:** `werkvertrag`- und `unternehmerkontrolle`-Vorlage zitierten nur
+  Art. 179 Abs. 1 SIA 118 und kannten die **zwingende 60-Tage-Ruegefrist** fuer verdeckte Maengel
+  nicht (Korrigenda SIA 118 C1:2026, OR-Revision per 01.01.2026). Additiver Hinweis gesetzt.
+- **Mitgenommen aus dem Nachbar-Register:** SYN-28b (drei Apple-Mail-Codebloecke auf die
+  Bundle-ID) erledigt. Lehrbuchfall fuer Rule 260811: ein globales Ersetzen haette den Warnkasten
+  zerstoert, der die falsche Form zitiert.
+- **Schreib-Kontrolle:** 13 Dateien, jede geloeschte Zeile einzeln gesichtet, alle Loeschungen
+  beabsichtigte Zeilenersetzungen am Anker. Historische Originalwortlaute unveraendert. Keine Datei
+  hat Bestand verloren.
+- Keine Mail (Rule 260803, still by default); fuenf offene Entscheide im Bericht markiert.
+
 ## 2026-08-14 — Synergie-Lauf 07 (Tagestakt, 23,5 h nach Lauf 06)
 
 - **Bericht:** `outputs/2026-08-14_synergie-lauf-07.md`. Delta-Basis 13.08.2026 17:35,

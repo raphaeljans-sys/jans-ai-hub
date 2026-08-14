@@ -4,6 +4,25 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 14.08.2026 — Cross-KB (Wissens-Chef Run 32): Projektverwechslung im Beziehungsregister korrigiert
+
+Report: `../koordination/outputs/2026-08-14_wissens-chef-run32.md`.
+
+`wiki/beziehungsregister.md` (Batch-37-Eintrag zu fsgbau) nannte ein «Parallelprojekt **KISPI
+Albertstrasse 7**» und verschmolz damit zwei getrennte Vorgaenge: **2620 Albertstrasse 7**
+(Bauherrschaft Nova Property Fund Management AG) und **2619 KISPI** (Universitaets-Kinderspital).
+Besnik/fsgbau gehoert zur Albertstrasse 7. Auf «Parallelprojekt Albertstrasse 7 (Nova)»
+korrigiert, Korrekturvermerk mit Belegen gesetzt. Gemeldet im Cross-KB-Fan-out, adversarial
+gegengeprueft (Urteil «bestaetigt»: Zitat woertlich korrekt, Artikel `status: established`, kein
+Zeitdokument, keine Lesart, in der die Formulierung traegt). Belegt an `rules/anrede-kontakte.md`
+(Besnik → 2620, Albin Spahic → 2619) und an zwei weiteren Stellen desselben Wikis, die den
+Kontakt korrekt fuehren.
+
+**Fehlerfamilie:** dieselbe Signatur wie Staehlin/Waechter am 29.07.2026 — eine Faktenaussage
+(Firma, Gewerk, Projekt), die in einem Stil-Wiki nebenbei mitlaeuft und von dort in Anrede,
+Betreff und Projektbezug einer ausgehenden Mail wandert. Die Stil-Aussage des Eintrags (Register
+an die Person, nicht an die Firma) ist unberuehrt und bleibt gueltig.
+
 ## 14.08.2026 — twin-mail-training Batch 93: 27.07.–01.08.2026, neunte Echo-Falle (blinder Kanal)
 
 Fenster `rj@` **27.07.–01.08.2026** (48 Sent Items, sequenziell frisch nach Batch 65). **11

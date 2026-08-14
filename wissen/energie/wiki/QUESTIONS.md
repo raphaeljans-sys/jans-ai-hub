@@ -3267,14 +3267,16 @@ durchfuehrbar.
   Zählerstruktur/Submetering vertieft (`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`),
   könnte die Kennzeichnungssystematik dort doch Nutzen haben.
 
-- [x] **ERLEDIGT 14.08.2026 (Run 132).** Die Mai-2006-Fassung **existiert** als eigene Datei
+- [x] **ERLEDIGT 14.08.2026 (Run 132), ⚠ teilkorrigiert 14.08.2026 (Wissens-Chef Run 32):**
+  Die Mai-2006-Fassung **existiert** als eigene Datei
   (`04_Merkblätter/eco/Nachhaltiges Bauen/01 verbindliche Richtlinien/1.11.R Massstaebe für
   Umwelt- und Energiegerechtes Bauen.pdf`, 2 S., «Amt für Hochbauten / Immobilien-Bewirtschaftung
-  MAI 2006») und war nie eingelesen. Erklärung (b) trifft zu, **der Quellverweis ist korrekt**,
-  kein Zitierfehler. Beide Fassungen tragen dieselben 7 Meilenschritte; der Fassungsvergleich mit
-  den verschärften Zielwerten (erneuerbare Energien 25 % → 40 %) steht als Nachtrag in
-  `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` und als FAQ F234. Kein eigenes
-  Destillat angelegt, weil die Fassung inhaltlich vollständig abgelöst ist. Ursprünglicher
+  MAI 2006») und ist seit 04.08.2026 (Run 123) destilliert. Erklärung (b) trifft zu, **der
+  Quellverweis ist korrekt**, kein Zitierfehler. Beide Fassungen tragen dieselben 7 Meilenschritte;
+  der Fassungsvergleich mit den verschärften Zielwerten (erneuerbare Energien 25 % → 40 %) steht
+  als Nachtrag in `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` und als FAQ F234. Ein
+  eigenes Destillat bestand bereits (`[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]`, Run 123);
+  Run 132 hat es nicht gefunden und die Quelle ein zweites Mal gelesen. Ursprünglicher
   Wortlaut zur Nachvollziehbarkeit:
 - [ ] **E-R131-1 (P3): Dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006) gegen
   das neue Destillat `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` (StRB 1094/2008)
@@ -3327,3 +3329,8 @@ durchfuehrbar.
   vierte existiert, ist offen. Geringe Priorität: alle Effizienzklassen der Reihe sind durch die
   Neuskalierung der Energieetikette 2021 ohnehin überholt, brauchbar ist nur die
   Beschaffungsmechanik (Gesamtkosten über 15 Jahre).
+
+- [ ] **E-WC32-1 (P3): Vor jeder «Quelle nie eingelesen»-Aussage: Verzeichnisliste `destillate/`
+  gegen den Linknamen prüfen, nicht nur INDEX-Volltextsuche.** Anlass: Run 132 hat ein seit zehn
+  Tagen bestehendes, gleichnamiges Destillat übersehen, weil `INDEX.md` Zeile 340 nur einen der
+  beiden SharePoint-Pfade führte (Wissens-Chef Run 32).

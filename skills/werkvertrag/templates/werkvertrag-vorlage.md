@@ -120,6 +120,14 @@ Vertrags-Summe   Netto, inkl. MwSt.                            CHF [Netto]
 7. **Verjaehrungsfristen** — verdeckte Maengel (Art. 179/1 SIA 118): Garantiefrist
    2 Jahre, Verjaehrung 5 bzw. 10 Jahre (absichtlich verschwiegen). Fristbeginn:
    Abnahme des Werkes.
+   ⚠ **Ruegefrist verdeckte Maengel neu 60 Tage** (ergaenzt 14.08.2026, Wissens-Chef Run 32):
+   Die OR-Revision Baumaengel per 01.01.2026 ersetzt die «sofortige» Ruegeobliegenheit durch
+   eine **zwingende Frist von 60 Tagen ab Entdeckung**; kuerzere Fristen sind nicht mehr
+   zulaessig und das Gesetz geht der SIA 118 vor. Die **Korrigenda SIA 118 C1:2026** passt
+   dafuer Art. 179 **Abs. 2** an (Abs. 1 unveraendert). Fundstelle und Wortlaut:
+   `wissen/normen/destillate/sia-118-c1-2026.md` (`status: established`). Bei Neuvertraegen
+   ab 01.01.2026 gilt die 60-Tage-Frist ohnehin; die Korrigenda selbst wirkt nur, wenn sie
+   zusaetzlich zur Norm SIA 118 ausdruecklich vereinbart wird.
 8. **Schlussabrechnung** — Ausmass nach SIA-Normen/-Messvorschriften, im Zweifel
    nur wirklich ausgefuehrte Arbeiten ohne Zuschlaege. Bauleitung erstellt
    Schlussabrechnung; Schlusszahlung nach Unterzeichnung + Deponierung

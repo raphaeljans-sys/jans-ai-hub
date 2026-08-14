@@ -1,3 +1,28 @@
+## 2026-08-14 — Cross-KB (Wissens-Chef Run 32): zwei sprachliche Restbefunde korrigiert
+
+Report: `../koordination/outputs/2026-08-14_wissens-chef-run32.md`.
+
+1. **`wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md` (Tabellenzelle Z. 63 und Fliesstext
+   Z. 84-85) — sprachlicher Rest der am 13.08. korrigierten Bedeutungsumkehr.** Beide Stellen
+   nannten den Betonbau eine «umgekehrte Systematik», in der das Arbeitsgeruest «ueberhaupt
+   nicht verguetet» werde. Umgekehrt waere die Systematik nur, wenn SIA 118/262 die Gerueste
+   **ausschloesse** — sie schliesst allein die **gesonderte** Verguetung aus, womit sie nach
+   Ziff. 0.3 (S. 10) in den Einheitspreisen **inbegriffen** sind, gleich wie bei den uebrigen
+   ABB, nur ohne Hoehenlimite. Auf «nicht gesondert verguetet, also inbegriffen» umgestellt,
+   Korrekturkasten gesetzt. Run 30 hatte die Wendung gemeldet, Run 31 sie als «kein Sachfehler»
+   stehen lassen — sie war der sprachliche Rest des behobenen Fehlers und schob den Leser
+   weiter in die falsche Richtung. Damit ist die Uebergabe aus Run 30/31 geschlossen.
+2. **`wiki/REGISTER.md` Z. 268 (SIA 387/4) — rechtliche Qualifikation praezisiert.** Hier stand,
+   die BBV I ZH erklaere die «Ausgabe 2017» **verbindlich**. Am Rohtext nachgelesen
+   (`../baurecht/raw/260607_amtlich_zh_bbv1.md`): Ziff. 2.3382 (Z. 1036) steht unter der
+   Anhangs-Ueberschrift **«2. Als Richtlinien und Normalien sind zu beachten»** (Z. 1013),
+   nicht unter «1. Als Verordnungsbestimmungen gelten» (Z. 1006); nach **§ 4 Abs. 5 BBV I**
+   darf von beachtlich erklaerten Richtlinien (§ 360 Abs. 3 PBG) «aus wichtigen Gruenden»
+   abgewichen werden. Auf «beachtlich» umgestellt und der Schluss «fuer EN-111 massgeblich»
+   als Auslegung gekennzeichnet. Herkunft: Nebenbefund der Refuter-Runde, vom Hauptprozess am
+   Rohtext gegengelesen. **N27-2 bleibt offen** (Fassungsstand 387/4:2017 gegen 2023 ist am
+   Normtext weiterhin nicht verifiziert); dieser Lauf hat daran nichts geaendert.
+
 ## 2026-08-14 — Normen-Nacht Run 51: die Pruefstufe selbst gemessen, zwei Fehlbefunde der eigenen Uebergabe korrigiert
 
 Report: `outputs/2026-08-14_normen-nacht-run51.md`.

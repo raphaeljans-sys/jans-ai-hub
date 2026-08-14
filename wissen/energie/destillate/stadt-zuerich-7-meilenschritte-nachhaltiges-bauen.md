@@ -90,7 +90,7 @@ steht zur Förderung von Pilot- und Demonstrationsprojekten zur Verfügung.
 
 - ~~**Bezug zum dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` ungeklärt.**~~
   **ERLEDIGT am 14.08.2026 (Run 132): Erklärung (b) trifft zu** — die Mai-2006-Fassung existiert
-  als eigene Datei und war nie eingelesen. Fundort, Wortlaut und der Zielwert-Vergleich stehen im
+  als eigene Datei und ist seit 04.08.2026 (Run 123) destilliert (⚠ korrigiert Run 32). Fundort, Wortlaut und der Zielwert-Vergleich stehen im
   Nachtrag unten. Der ursprüngliche Wortlaut der offenen Frage bleibt zur Nachvollziehbarkeit
   stehen:
 - **Bezug zum dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` ungeklärt.** Der Artikel
@@ -110,8 +110,21 @@ steht zur Förderung von Pilot- und Demonstrationsprojekten zur Verfügung.
 
 ## Nachtrag Run 132 (14.08.2026): die Vorfassung Mai 2006 ist gefunden und verglichen
 
+> ⚠ **Korrektur 14.08.2026 (Wissens-Chef Run 32) zu diesem Nachtrag.** Die Feststellung
+> «war nie eingelesen» ist falsch. Das Destillat existiert seit dem 04.08.2026 (Run 123):
+> `destillate/ahb-zuerich-massstaebe-nachhaltiges-bauen.md`, registriert in `destillate/INDEX.md`
+> Zeile 340, «gelesen: Seiten 1-2 (vollständig), 2026-08-04». Seine Frontmatter führt die von
+> Run 132 als Fundort gemeldete Datei ausdrücklich als byte-identische Dublette (…/eco/Nachhaltiges
+> Bauen/01 verbindliche Richtlinien/1.11.R Massstäbe für Umwelt- und Energiegerechtes Bauen.pdf)
+> der destillierten Datei …/eco/1.11Meilenschritte_05_2006.pdf. Der Nachtrag hat dasselbe
+> zweiseitige PDF ein zweites Mal gelesen. **Sachlich unverändert richtig bleibt alles Übrige:**
+> dass der Quellverweis in `[[oekologische-materialvorgaben-beschaffung]]` korrekt ist und kein
+> Zitierfehler vorliegt, der wörtliche Kopfzeilen-Beleg, Fundort und Dateigrösse sowie der
+> Fassungsvergleich 25 % → 40 % / MINERGIE → MINERGIE-ECO. Offen bleibt allein, dass der
+> Fassungsvergleich hier statt im 2006er-Destillat steht.
+
 Die in den «Offenen Punkten» als ungeklärt vermerkte Mai-2006-Quelle **existiert tatsächlich als
-eigenes Dokument** und war nie eingelesen. Damit ist Erklärung (b) belegt und kein Zitierfehler
+eigenes Dokument** und ist seit 04.08.2026 (Run 123) destilliert (⚠ korrigiert Run 32). Damit ist Erklärung (b) belegt und kein Zitierfehler
 in [[oekologische-materialvorgaben-beschaffung]] anzunehmen.
 
 **Fundort:** SharePoint `PL - 02_Recht_Norm/04_Merkblätter/eco/Nachhaltiges Bauen/01 verbindliche
@@ -152,10 +165,9 @@ Merkblätter abzuleiten.
 
 ### Was daraus offen bleibt
 
-- Der Quellverweis in [[oekologische-materialvorgaben-beschaffung]] ist **korrekt** (Mai 2006);
-  er zeigt lediglich auf eine Datei, die noch kein Destillat hat. Der Dangling-Link
-  `ahb-zuerich-massstaebe-nachhaltiges-bauen` bleibt bestehen, bis die 2006er-Fassung ein
-  eigenes Destillat erhält — nach dem hier dokumentierten Vergleich ist ihr Zusatznutzen
-  allerdings gering, weil sie inhaltlich vollständig von der 2008er-Fassung abgelöst ist.
+- Der Quellverweis in [[oekologische-materialvorgaben-beschaffung]] ist **korrekt**
+  (Mai 2006) und **auflösbar**: das Destillat `[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]`
+  besteht seit 04.08.2026 (Run 123). Kein Dangling-Link. ⚠ Die früher hier stehende
+  Gegenaussage ist am 14.08.2026 korrigiert worden (Wissens-Chef Run 32).
 - Ob zwischen Mai 2006 und September 2008 weitere Zwischenfassungen bestehen und ob StRB
   1094/2008 seinerseits abgelöst wurde, ist weiterhin ungeklärt (unverändert offen).

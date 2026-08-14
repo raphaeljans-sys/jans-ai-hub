@@ -1028,11 +1028,18 @@ und ergänzt:
 
 - **Register ist an die PERSON gebunden, nicht an die Firma — selbst innerhalb desselben Subunternehmers:**
   fsgbau ist auf dem Projekt Wartstrasse 8 gegenüber «Beson» durchgehend förmlich-Sie («Geschätzter Herr
-  Beson», vgl. Batch 35/36), auf dem Parallelprojekt KISPI Albertstrasse 7 gegenüber dem Ansprechpartner
+  Beson», vgl. Batch 35/36), auf dem Parallelprojekt Albertstrasse 7 (Nova) gegenüber dem Ansprechpartner
   **Besnik** dagegen informell-Du mit nacktem Vorname-Opener ohne Anrede-Formel: «Besnik, Wie besprochen
   Offerten bis Ende KW16. Lgr». Derselbe Betrieb, zwei Personen, zwei Register — bestätigt, dass Raphael das
   Register konsequent an die individuelle Beziehung knüpft, nicht an die Firma als Ganzes.
   Quelle: ID 21931, 26.03.2026, authentisch.
+  ⚠ **Projektname korrigiert 14.08.2026 (Wissens-Chef Run 32, adversarial bestätigt):** hier stand
+  «Parallelprojekt KISPI Albertstrasse 7». Das verschmolz zwei getrennte Vorgänge — **2620
+  Albertstrasse 7** (Bauherrschaft Nova Property Fund Management AG) und **2619 KISPI**
+  (Universitäts-Kinderspital). Besnik/fsgbau gehört zur Albertstrasse 7, nicht zum KISPI. Belegt an
+  `rules/anrede-kontakte.md` (Besnik → 2620 Albertstrasse 7; Albin Spahic → 2619 KISPI) sowie im
+  selben Wiki oben («Ansprechpartner Besnik (Projekt Albertstrasse 7)»). Die Stil-Aussage des
+  Eintrags — Register an die Person, nicht an die Firma — bleibt davon unberührt.
 
 ## Nackter Vorname-Opener ohne Anrede-Formel — zweiter, unabhängiger Beleg (belegt Fidelity 260725e, authentisch)
 Generalisiert den bisher einzigen Beleg (Besnik, oben): bei einer kurzen operativen Weiterleitung

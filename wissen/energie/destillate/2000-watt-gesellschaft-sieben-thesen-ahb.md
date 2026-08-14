@@ -150,6 +150,15 @@ jeder Bauherren-Aussage über den Skill `energie` bzw. die KB zu verifizieren.
   ersetzt ist — und wie sich die hier genannten Watt-/CO₂-Zielwerte dazu verhalten.
 - Aktuelle Fassung des SIA-Effizienzpfads Energie (Nachfolge von SIA-Dokumentation D0216:2006)
   und ob der hier zitierte Wohnen-Anteil von rund 40 % (800 Watt) darin unverändert gilt.
+  ⚠ **Teilantwort vorhanden (Querverweis gesetzt 14.08.2026, Wissens-Chef Run 32):** Der
+  Fassungsstand ist in der führenden KB `normen` seit dem 13.07.2026 belegt —
+  [[sia-2040-2017]] (`wissen/normen/destillate/sia-2040-2017.md`, `status: established`,
+  S. 1-40 vollständig gelesen): **SIA 2040:2017** «SIA-Effizienzpfad Energie», SNR 592040:2016 de,
+  gültig ab 01.05.2017, ersetzt das Merkblatt SIA 2040 Ausgabe 2011. Damit ist die
+  Fassungsfrage beantwortet. **Offen bleibt der zweite Teil:** SIA 2040:2017 arbeitet mit
+  flächenbezogenen Zielwerten je Gebäudekategorie, nicht mit einem Watt-Anteil «Wohnen» —
+  ob und wie sich der hier zitierte Anteil von rund 40 % (800 Watt) darin wiederfindet, ist
+  nicht geklärt und aus dem Destillat allein nicht ableitbar.
 - Aktueller Stand von SIA-Merkblatt 2032 (Graue Energie) und 2033 (Mobilität) — beide waren
   2008 gerade neu bzw. in Bearbeitung; heutige Ausgaben/Nachfolgenormen prüfen.
 - Ob SNARC (SIA-Dokumentation D0200:2004) noch das massgebliche Nachhaltigkeits-

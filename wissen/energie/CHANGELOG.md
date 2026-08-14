@@ -1,5 +1,18 @@
 # CHANGELOG
 
+## 2026-08-14 — Korrektur (Wissens-Chef Run 32) zum Eintrag «E-R131-1 geschlossen»
+
+Die dort und an sechs weiteren Stellen notierte Aussage, die Mai-2006-Fassung sei «nie
+eingelesen» worden, ist falsch. Das Destillat existiert seit dem 04.08.2026 (Run 123):
+`destillate/ahb-zuerich-massstaebe-nachhaltiges-bauen.md`, registriert in `destillate/INDEX.md`
+Zeile 340, «gelesen: Seiten 1-2 (vollstaendig), 2026-08-04». Seine Frontmatter fuehrt die von
+Run 132 als Fundort gemeldete Datei ausdruecklich als byte-identische Dublette (…/eco/Nachhaltiges
+Bauen/01 verbindliche Richtlinien/1.11.R Massstaebe fuer Umwelt- und Energiegerechtes Bauen.pdf)
+der destillierten Datei …/eco/1.11Meilenschritte_05_2006.pdf. Der Link war nie dangling. Sachlich
+richtig bleiben der korrigierte Quellverweis (kein Zitierfehler) und der Fassungsvergleich
+25 % → 40 %. **Lehre:** vor einer «existiert nicht / nie eingelesen»-Aussage `ls destillate/`
+gegen den Linknamen pruefen — der Dateiname des Destillats war buchstabengleich der gesuchte Link.
+
 ## 2026-08-14 — Run 132 (Abendlauf 22:37): Ordner 18 abgeraeumt, Run-130-Befund korrigiert, zwei neue FAQ
 
 Vier neue Destillate aus fuenf Quellen des Ordners `18-Nachhaltiges Bauen`

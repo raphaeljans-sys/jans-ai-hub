@@ -159,6 +159,94 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### twin ↔ rules/anrede-kontakte + rules/jans-dna (Beziehungsregister, Kontakt-Fakten) — geprueft 2026-08-14 (Run 32, Erst-Pruefung, rotierend)
+- **BESTAETIGT und korrigiert:** `twin/wiki/beziehungsregister.md` (Batch-37-Eintrag fsgbau) nannte
+  ein «Parallelprojekt **KISPI Albertstrasse 7**» und verschmolz **2620 Albertstrasse 7** (Nova
+  Property Fund) mit **2619 KISPI**. Auf «Albertstrasse 7 (Nova)» korrigiert, Vermerk gesetzt.
+  Dieselbe Fehlerfamilie wie Staehlin/Waechter (29.07.2026): eine Faktenaussage, die in einem
+  Stil-Wiki nebenbei mitlaeuft und von dort in Anrede und Projektbezug einer Mail wandert.
+- **WIDERLEGT (beide Linsen):** Die Meldung, der immer aktive Kern `rules/jans-dna.md` Z. 20-22
+  widerspreche mit seiner Gruss-Skala der Facetten-Korrektur vom 13.08. Linse 1: kein Widerspruch,
+  der Kern nennt die grobe Beziehungsachse, die Facette verfeinert sie. Linse 2 (Zustaendigkeit):
+  selbst wenn — der Wissens-Chef duerfte die Zeile nicht selbst aendern, sie gehoert Raphael
+  vorgelegt. **Merksatz fuer kuenftige Laeufe:** eine Meldung «importierte Rule widerspricht KB»
+  ist nie eine Aktion dieses Loops, immer eine Vorlage.
+- **OFFEN, Vorlage an Raphael:** drei Uebernahmen aus dem Wiki in `rules/anrede-kontakte.md`
+  (Du-Kontakt Stefanie Sonderegger, mehrfach belegt · zweite Person «Angerer»: Gertrud Angerer,
+  2414 Thalwil, Du · Kanal-Achse «Sammelpostfach senkt die Stufe» als Gegenstueck zur
+  Gewichts-Klausel). Die Rule ist @-importiert; keine stille Aenderung.
+- **Strukturbefund:** Es gibt keinen Mechanismus, der mehrfach belegte Wiki-Mappings in die Rule
+  zieht. Vorschlag (Entscheid Raphael): der twin-Lauf gibt kuenftig eine Kandidatenliste
+  «mehrfach belegt und nicht in der Rule» als Laufergebnis aus.
+
+### energie ↔ normen (nachhaltiges Bauen, SIA 112/1 · SIA 2040) — geprueft 2026-08-14 (Run 32)
+- **BESTAETIGT und korrigiert (KB-intern energie, sieben Stellen):** `energie` Run 132 erklaerte
+  die Quelle «Massstaebe fuer Umwelt- und energiegerechtes Bauen» (Mai 2006) fuer «nie eingelesen»
+  und den Wikilink fuer dangling — das Destillat `ahb-zuerich-massstaebe-nachhaltiges-bauen.md`
+  besteht seit dem 04.08.2026 (Run 123) unter **buchstabengleichem** Dateinamen. Die Falschaussage
+  stand nicht an den zwei gemeldeten, sondern an **sieben** Stellen, darunter INDEX, CHANGELOG und
+  QUESTIONS. Additiv korrigiert, nichts geloescht, die beiden Destillate NICHT gemergt (zwei
+  verschiedene Dokumente: Faltblatt Mai 2006 gegen StRB Nr. 1094 vom 17.09.2008).
+  **Ursache:** `INDEX.md` fuehrte nur einen der beiden SharePoint-Pfade; die Suche lief ueber den
+  Titel statt ueber den Linknamen. Dubletten-Pfad nachgetragen.
+- **BEREITS BEKANNT, nicht angefasst:** Vorgaengerausgabe SIA 112/1 — `energie` fuehrt an fuenf
+  Stellen «2005» (shop.sia.ch), `normen` hat am Original «2004» gelesen (Titelblatt S. 1,
+  Genehmigungsblock S. 52). Run 29 hat den Widerspruch am 13.08. ausdruecklich stehen lassen.
+  **Neu und berichtenswert:** er ist seither in ein NEUES Destillat vom 14.08. weitergewandert.
+  Der Refuter raet ab, in `energie` eine Qualifier-Welle zu fahren; aufloesbar ist die Frage
+  belegt und billig ueber `normen` N48-2 (Gesamtverzeichnis SIA.pdf und ersetzte_normen.pdf
+  liegen im Bestand). **Entscheid an Raphael:** gilt der Run-29-Entscheid weiter, wenn jeder neue
+  2008er-Korpus-Lauf ihn mitkopiert?
+- **Querverweis gesetzt:** `energie/destillate/2000-watt-gesellschaft-sieben-thesen-ahb.md` fuehrte
+  die Fassung des SIA-Effizienzpfads als offenen Punkt — in `normen` liegt sie seit 13.07.2026
+  established vor ([[sia-2040-2017]], SIA 2040:2017, ersetzt Ausgabe 2011). Teilantwort gesetzt,
+  der zweite Teil (Wohnen-Anteil 40 % / 800 Watt) bleibt ausdruecklich offen: SIA 2040:2017
+  arbeitet mit flaechenbezogenen Zielwerten je Gebaeudekategorie, nicht mit einem Watt-Anteil.
+
+### bauprodukte (ERCO Licht) ↔ energie (Beleuchtung, SIA 387/4) — geprueft 2026-08-14 (Run 32, Erst-Pruefung)
+- **WIDERLEGT, aber mit Nebenertrag.** Die Meldung, `energie` fuehre fuer den Nachweis EN-111 die
+  Ausgabe 387/4:**2023** gegen die 2017er in `normen`, faellt: die energie-Stellen sagen «die
+  **Fachnorm** gilt», nicht «der Nachweis laeuft nach dieser Ausgabe» — zwei Bezugspunkte, kein
+  Widerspruch. Der Punkt ist zudem seit 07.08.2026 als `normen` N27-2 protokolliert, samt der noch
+  offenen Rueckrichtung nach `energie`.
+- **Nebenbefund der Refuter-Runde, vom Hauptprozess am Rohtext gegengelesen und korrigiert:**
+  `normen/wiki/REGISTER.md` Z. 268 sagte, die BBV I ZH erklaere die Ausgabe 2017 **verbindlich**.
+  Ziff. 2.3382 steht im Anhang unter «**2. Als Richtlinien und Normalien sind zu beachten**», nicht
+  unter «1. Als Verordnungsbestimmungen gelten»; § 4 Abs. 5 BBV I laesst begruendete Abweichung zu.
+  Auf «beachtlich» umgestellt. **Ein Refuter kann mehr wert sein als die Meldung, die er widerlegt.**
+- **Offen (nicht ausgefuehrt, Zuwachs fuer den naechsten Lauf):** die Rueckrichtung nach
+  `energie/wiki/QUESTIONS.md`, die `normen` QUESTIONS Z. 367-368 ausdruecklich verlangt · die
+  Verlinkung der drei ERCO-Artikel mit dem EN-111-Abschnitt · der in `energie` zweimal als fehlend
+  vermerkte Wiki-Themenartikel «Beleuchtung», fuer den `bauprodukte` jetzt Material haette.
+  **Beachten:** ERCO ist eine Hersteller-Quelle und darf nicht als neutrale Kennwertquelle gelesen
+  werden.
+
+### normen → Abnehmer-Skills (ABB-Reihe, Gerueste, Verguetung) — geprueft 2026-08-14 (Run 32)
+- **NULL-BEFUND bei den Widerspruechen, und das ist der Ertrag:** Der am 13.08. korrigierte alte,
+  umgekehrte Stand («Arbeitsgerueste beim Betonbau nicht inbegriffen») steht ausserhalb von `normen`
+  **nirgendwo** mehr. Der einzige Sachtraeger, `skills/ausschreibung/SKILL.md` Z. 115-125, traegt
+  seit Run 30 den richtigen Stand woertlich am Original. Alle uebrigen Treffer liegen in
+  Zeitdokumenten und sind dort als widerlegter Vorstand markiert. Die Korrektur ist also wirklich
+  bis zu den Abnehmern durchgeschlagen — anders als in der Run-31-Erwartung.
+- **WIDERLEGT im Kern (F6):** die Meldung, `skills/ausschreibung/SKILL.md` Z. 109-113 stelle mit
+  «2,5 m gegenueber 3,0 m» ein durch Run 50 hinfaellig gewordenes Zahlenpaar auf. Das Wiki
+  **bestaetigt** die Skill-Aussage ausdruecklich (Z. 80-83: «Diese Beobachtung bleibt gueltig»);
+  Run 50 verschaerft die Verschiedenheit, statt sie aufzuheben. Alle Zahlen sind korrekt zitiert,
+  und der Statusvorbehalt steht bereits im Skill (Z. 127-138).
+- **OFFEN, Vorlage an Raphael (Praezisierung, kein Fehler):** das Wort «gegenueber» suggeriert
+  einen sauberen Zahlenvergleich, und der Vorbehalt «nur fuer Arbeiten zu Einheitspreisen» fehlt.
+  Fertiger, belegter Ersatzwortlaut liegt im Laufbericht. Nicht selbst gesetzt, weil der Skill in
+  LV mit Geldfolge wirkt und der Befund «teilweise» lautet, nicht «bestaetigt».
+- **Uebergabe gesetzt (Rueegefrist, praktisch die teuerste Luecke des Laufs):**
+  `skills/werkvertrag/templates/werkvertrag-vorlage.md` und
+  `skills/unternehmerkontrolle/templates/abnahmeprotokoll.md` zitierten nur Art. 179 **Abs. 1**
+  SIA 118. Die Korrigenda **SIA 118 C1:2026** (`normen`, established) setzt fuer verdeckte Maengel
+  eine **zwingende Ruegefrist von 60 Tagen** ab Entdeckung an die Stelle der «sofortigen»
+  Ruegepflicht (OR-Revision Baumaengel per 01.01.2026, geht der SIA 118 vor). Additiver Hinweis in
+  beiden Vorlagen gesetzt, Vertragsklauseln unveraendert.
+- **Offen:** `skills/kostenkontrolle` hat **keine einzige** Verbindung in die Normen-KB (0 Treffer),
+  und der Router `skills/normen/SKILL.md` Z. 51 fuehrt ihn nicht in seiner Abnehmerliste.
+
 ### normen ↔ energie (SIA 386.111 / BACS) — eine Norm, die nur EINE der beiden KBs kannte — geprueft 2026-08-13 (Run 31)
 - **Befund (BESTAETIGT, hoch — der einzige der sechs Meldungen dieses Laufs, der die Gegenpruefung
   ueberstand):** `energie` fuehrt seit Run 106 (25.07.2026) ein `established`-Destillat

@@ -30,6 +30,11 @@ Anwesend         [BL: …] · [UN: …] · [BH: …]
 
 ## Fristen & Sicherheiten (Folge der Abnahme)
 - **Garantiefrist** 2 Jahre ab heute (Ruegerecht verdeckte Maengel Art. 179/1).
+  ⚠ **Ruegefrist verdeckte Maengel: 60 Tage ab Entdeckung** (ergaenzt 14.08.2026,
+  Wissens-Chef Run 32) — zwingendes Recht seit der OR-Revision Baumaengel per 01.01.2026,
+  umgesetzt in der Korrigenda **SIA 118 C1:2026** (Art. 179 **Abs. 2**; Abs. 1 unveraendert).
+  Die frueher geltende «sofortige» Ruegepflicht ist ueberholt. Beleg:
+  `wissen/normen/destillate/sia-118-c1-2026.md` (`status: established`).
 - **Verjaehrung** 5 Jahre (10 Jahre bei absichtlich verschwiegenen Maengeln).
 - **Garantieschein/Buergschaft** 10 % der Abrechnungssumme zu deponieren
   (Art. 181 SIA 118) → `garantieschein.md`.
