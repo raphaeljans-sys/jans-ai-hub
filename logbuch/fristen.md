@@ -3,6 +3,65 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 14.08.2026, 06:55 (Logbuch-Radar, an Postfach und M365-Kalender nachgemessen — **drei
+Punkte am Beleg geschlossen, und das Notariat hat nach zehn Tagen geantwortet**):
+
+**ERLEDIGT, Befund 1 des gestrigen Radars: die Mail an B. Stevanovic ist raus.** Nicht als
+Entwurf versendet, sondern von RJ neu gefasst: **13.08.2026 12:53 CEST**, Betreff «KISPI PPTS:
+Auflagebereinigung Brandschutz», an `bojan.stevanovic@gruner.ch`, Cc `jens.ziegel@gruner.ch`,
+`cornelia.schaefer@kispi.uzh.ch`, `claudia.allerkamp@kispi.uzh.ch`, drei Anhänge (DWG 4.77 MB,
+PDF-Plan 1.20 MB, Abänderungseingabe 382 kB). In «Gesendete Elemente» am Beleg verifiziert. Der
+alte Entwurf vom 12.08. 16:37 liegt nicht mehr im Entwurfsordner. **Daraus folgt die neue
+Frist: RJ hat um «Zusendung des unterzeichneten angepassten Brandschutzplan mit Stellung bis
+Morgen Freitag, den 14.08.26» gebeten — die Frist läuft also HEUTE ab**, und sie ist der letzte
+Schritt vor der Baufreigabe-Erwartung der Bauherrschaft am 17.08. J. Ziegel ist bis 18.08.
+abwesend, ein Ausweichen auf ihn ist nicht möglich.
+Status: **Versand erledigt · Rücklauf Stevanovic heute fällig, terminkritisch.**
+
+**ERLEDIGT: der Trennwand-Strang hat Antwort, eingehend und ausgehend gepaart.** Der seit
+12.08. 15:29 unbeantwortete Punkt («Trennwand beim 2.039 Speiseraum und 0.300 Einzelzimmer») ist
+gelöst: M. Spörri (KISPI) antwortet 13.08. mit sechs Anhängen (Material Elektrotrasse bestellt
+und intern in Umsetzung), RJ hat zweimal reagiert — **13.08. 13:53** an J. Ziegel und
+B. Stevanovic mit der Brandschutzfrage zum Hilti-Joch, das mehrere Brandabschnitte durchdringt,
+und **13.08. 20:58** an Spörri mit dem eigenen Lösungsvorschlag (Metalltraverse kürzen).
+**Neu offen und beobachtet: Ziegels Antwort auf die Hilti-Joch-Frage.** M. Spörri ist per
+Abwesenheitsnotiz bis **Mo 17.08.** nicht erreichbar (Vertretung `reto.meisser@kispi.uzh.ch`).
+Status: **erledigt (gepaart) · Nachfolgefrage in Beobachtung.**
+
+**ERLEDIGT und zugleich der wichtigste Neubefund: das Notariat Wiedikon hat geantwortet.**
+M. Mathies am **13.08.2026 14:41**, Cc R. Blocher, drei Anhänge. Damit ist der Nachfass vom
+13.08. 00:47 beantwortet. Inhalt am Beleg, vier Punkte, die alle bei Raphael liegen:
+1. **Ergänzte Gründungsurkunde und ergänzte Statuten liegen zur Prüfung vor**
+   (`Gruendungsurkunde_Raphael-Jans-AG_Angepasst.docx`, `Statuten_Raphael-Jans-AG_Angepasst.docx`).
+   Das Notariat erwartet ausdrücklich Raphaels Rückmeldung zu den Anpassungen, **bevor** ein
+   Beurkundungstermin vereinbart wird.
+2. **Die Handelsregisteranmeldung trägt noch das falsche Datum.** Das Notariat hat sie nur als
+   PDF und kann es nicht ändern — die Korrektur muss von JANS kommen.
+3. **Firmenname:** im Zefix keine ähnliche Firma gefunden, eine Zusage zur Annahme durch das
+   Handelsregisteramt gibt das Notariat aber ausdrücklich nicht; empfohlen wird die
+   Firmenrecherche über regix.ch direkt beim HRA.
+4. **Vereinfachungen:** die separate Wahlannahmeerklärung entfällt, das Opting-out ist in der
+   Urkunde integriert, eine Lex-Friedrich-Erklärung erübrigt sich (kein Liegenschaftenhandel
+   im Hauptzweck).
+**Der Engpass bleibt die UBS:** die Kapitaleinzahlungsbestätigung ist beim Notariat weiterhin
+**nicht** eingetroffen. **Terminschranke neu belegt: das Notariat ist am 03. und 04.09.2026
+wegen IT-Systemwechsel geschlossen** (Stellvertretung Hottingen-Zürich).
+Status: **offen, zwei Bringschulden Raphael (Rückmeldung zu den Anpassungen, Datum der
+HR-Anmeldung) · UBS-Bescheinigung weiter ausstehend.**
+
+**Unverändert offen, am Entwurfsordner `rj@` um 06:5x nachgemessen:** der Entwurf an L. Furrer
+(AfB) vom 12.08. 16:06 liegt weiterhin unversendet, ebenso der neue Inniger-Entwurf vom
+13.08. 01:28 **und der alte Inniger-Entwurf vom 08.08. 08:56**, der nicht hinausgehen darf. Die
+Verwechslungsgefahr aus dem Eintrag vom 13.08. 01:36 besteht damit unverändert fort.
+
+**bexio antwortet weiterhin HTTP 401**, heute erneut nachgemessen. Die Debitoren-Aufsicht ist
+den sechsten Tag blind; RE-00087 (CHF 15'000) sowie RE-00098/RE-00099 (Mahnstufe 1, Frist 12.08.
+abgelaufen) sind nicht prüfbar. Kein Mahn- oder Buchungsschritt möglich.
+
+**Konto `raphaeljans@outlook.com` geprüft, Posteingang und Gesendete Elemente über 48 h leer.**
+Sync-, Freigabe- und Remote-Queues auf beiden Stationen leer. Keine Mail versendet
+(Ein-Mail-Prinzip), kein Kalendereintrag, kein Entwurf verändert.
+
 Eintrag 14.08.2026, 06:13 (Gespräch Mac Mini 13.08.2026, Konversations-Destillat — Fehlerrisiko
 in der Werkplanung, keine Frist):
 
