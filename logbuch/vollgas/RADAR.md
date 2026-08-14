@@ -52,6 +52,57 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-14 12:58 — [FREI] **Dritter sauberer Regellauf in Folge.** 67 Commits in 13 h, vier KBs mit Liefer-Delta (twin, bauprodukte, normen, energie), kein Delta-Null-Loop, keine Waisen. Ampel **FREI** (31.9 % bei 57.7 % verstrichener Woche, Vorsprung **-25.9** — der beste Wert der Serie). Keine Massnahme nötig, kein Mail-Anlass
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 14.08. 00:57, dieser Lauf 14.08. 12:58 — Abstand
+**12 h 01 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Dritter
+regulärer Abstand in Folge; der Takt ist stabil eingeschwungen. `lastRunAt`-Gegenprobe nicht
+nötig, da keine Eintragslücke besteht.
+
+**Fensterprobe:** «OK», rc=0, Antwort in Sekunden (Rezept mit `< /dev/null` eingehalten, kein
+Watchdog-Eingriff nötig). Gegenprobe auf verwaiste `claude -p`-Prozesse: **nichts** — beide
+Gate-Plätze frei.
+
+**Wochenbudget (Schritt 2b):** Ampel **FREI**, 53.2 von 167 Mio «teuer» = **31.9 %** bei
+**57.7 %** verstrichener Woche, Vorsprung **-25.9 Punkte**. Der Verbrauch läuft dem Zeitverlauf
+weiterhin deutlich hinterher, und der Abstand hat sich gegenüber dem 00:57-Lauf (-21.7) noch
+einmal vergrössert. Beide Stationen frisch gemeldet (MacBook Pro 38.98, Mac Mini 14.22 Mio).
+Der Entscheid Raphaels vom 03.08. («gleichmässig über die Woche») wird eingehalten, ohne dass
+gedrosselt werden müsste — es besteht kein Drossel-Anlass nach Schritt 2c.
+
+**Liefer-Delta je Loop (13-h-Fenster, Schritt 4/5):** 67 Commits, **darunter kein einziger
+reiner Status-Commit** — der volle Durchsatz ist Arbeit. Geänderte Wiki-/Output-Dateien:
+`wissen/twin` 12 Wiki-Artikel + 2 Outputs + CHANGELOG (der grösste Einzelbeitrag dieses
+Fensters), `wissen/bauprodukte` 4 Wiki + CHANGELOG, `wissen/normen` 2 Wiki + 2 Outputs +
+CHANGELOG, `wissen/energie` 1 Output + CHANGELOG. **Kein Loop ohne Delta, keine Rücktaktung,
+keine Deaktivierung.** Das Lauf-Journal `260814-laeufe.jsonl` verzeichnet zwei Mac-Mini-Läufe,
+beide rc=0 mit substanzieller Lieferung: 02:42 der Abschluss des 435-seitigen ERCO-Dokuments
+(Wiki-Artikel `erco-lichtplanung-glossar.md`, 271 Fachbegriffe), 05:39 der Energie-Lauf mit
+einer neuen methodischen Falle Nr. 7 (vermeintliche Dubletten waren teils spätere
+2008er-Revisionen). Beide Läufe delegierten die mechanische Stufe an Haiku und prüften
+gegen — Modell-Politik greift wie vorgesehen.
+
+**Feuermechanismen (Schritt 3), alle drei Orte geprüft:** MacBook Pro — beide Vollgas-plists
+liegen unverändert als `*.disabled-260729` und sind **nicht geladen**. Mac Mini —
+`ch.jans.vollgas-supervisor.plist.disabled-260729` ebenfalls nicht geladen; geladen ist
+ausschliesslich `ch.jans.nachtschicht` (korrekt, das ist der vorgesehene Mechanismus). **Keine
+Doppelfeuerung, keine stille Wiederbelebung.** Der stehende Entscheid vom 30.07. ist gewahrt.
+
+**Speicher (Messdisziplin):** frei+inactive+purgeable **1.3 GB**,
+`kern.memorystatus_vm_pressure_level` = **1** (normal). Der freie Anteil ist niedrig, aber der
+Druckindikator — die Kennzahl, die zählt — steht auf grün. Kein Eingriff; zur Beobachtung
+vermerkt, damit ein echter Anstieg auf Level 2 im nächsten Lauf als Veränderung erkennbar ist.
+
+**P1 — keiner.** Kein Blocker, kein Login-Problem, kein Kontingentrisiko.
+**P2 — keiner.** Alle vier aktiven KBs liefern; der Takt hält seit drei Läufen.
+**P3 — Beobachtung Speicher:** freier Speicher bei 1.3 GB. Erst handeln, wenn der
+Pressure-Level tatsächlich steigt, nicht auf den freien Anteil hin.
+
+**Laufaufwand:** schlanker Regellauf, inline und in einem parallelen Messblock, keine
+Delegation (Faustregel unter zehn Werkzeugaufrufe → inline). Keine Tiefenuntersuchung, da kein
+Befund sie verlangte.
+
+---
 ## 2026-08-14 00:57 — [FREI] **Zweiter sauberer Regellauf in Folge, Takt hält.** 165 Commits in 26 h, vier KBs mit echtem Liefer-Delta (energie, bauprodukte, normen, koordination), kein Delta-Null-Loop. Ampel **FREI** (28.8 % bei 50.6 % verstrichener Woche, Vorsprung **-21.7** — noch besser als beim letzten Lauf). Keine Massnahme nötig, kein Mail-Anlass
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 13.08. 12:58, dieser Lauf 14.08. 00:57 — Abstand
