@@ -539,3 +539,59 @@ Dateinamen entscheiden. Danach der grosse Block `06_Richtlinien/Minergie/` (79 P
 **Stand PL-02:** **69 von 182** energierelevanten PDF destilliert (10 Run 121, 9 Run 122, 9 Run 123,
 8 Run 124, 15 Run 125, 4 Run 126, 4 Run 127, 5 Run 128, **5 Run 129**), **113 offen**; zusätzlich
 1 in Run 129 als `[-]` geprüft.
+
+## Nachtrag 2026-08-14 (Run 130, Mac-Mini-Nachtschicht): Ordner 18-Nachhaltiges Bauen — Dubletten-Diff, Befund korrigiert
+
+Alle neun in Run 128 gelisteten Dublettenverdächtigen aus `18-Nachhaltiges Bauen/18.1-18.3`
+(Ordnernamen real: `18.1 Grundsaetze`, `18.2 Betriebsenergie`, `18.3 Baustoffe (Bauoekologie &
+Stofffluesse)`) über den Graph-Weg geladen und je gegen die bereits destillierte eco-Quelle per
+`pdftotext -layout` + `diff` geprüft (Zeichenlänge vorab verglichen, dann Volltext-Diff — die
+Lehre aus Run 128 konsequent angewandt).
+
+**Befund weicht deutlich von der Vermutung ab: nur 4 von 9 sind echte Dubletten, 5 sind eigene
+Dokumente.**
+
+| Kandidat (18.x) | Gegenprobe (eco/) | Diff-Zeilen | Befund |
+|---|---|---|---|
+| `18.1/Gebaeudelabel_MINERGIE-ECO_(Flyer).pdf` | `1.16.I_Gebaudelabel-MINERGIE-ECO.pdf` | 0 | **Dublette**, bereits `[[minergie-eco-gebaeudelabel]]` |
+| `18.1/Nachhaltige_Gebaeudeerneuerung_(Checkliste).pdf` | `1.15Checkliste_Genossenschaften.pdf` | 0 | **Dublette**, bereits `[[checkliste-nachhaltige-gebaeudeerneuerung-svw]]` |
+| `18.1/Zielvereinbarungen_SIA112.1_Nachhaltiges_Bauen_(Uebersicht).pdf` | `1.13Zielvereinbarungen_SIA112_1.pdf` | 0 | **Dublette**, bereits `[[eco-bau-zielvereinbarungen-sia112-1]]` |
+| `18.3/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf` | `3.38RecyclingBetonKBOB_2007_2.pdf` | 0 | **Dublette**, bereits `[[kbob-recyclingbeton-2007]]` |
+| `18.1/Richtlinie_7-Meilenschritte_(Flyer).pdf` | `1.11Meilenschritte_05_2006.pdf` | 254 | **KEINE Dublette** — Kandidat trägt Kopfzeile «Stadtratsbeschluss Nr. 1094 vom 17. September 2008», die eco-Fassung «Amt für Hochbauten, Mai 2006»; die spätere Fassung beruft sich auf einen förmlichen Ratsbeschluss und ist damit die massgeblichere Ausgabe |
+| `18.2/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf` | `2.43Solarstromanlagen.pdf` | 427 | **KEINE Dublette** — Kandidat trägt «DokumenteignerIn … FUY 25.09.2008» (neues Layout Fachstelle nachhaltiges Bauen), eco-Fassung «Amt für Hochbauten der Stadt Zürich» ohne dieses Versionsfeld — spätere Revision |
+| `18.2/Topten_Haushaltgeraete_(Flyer).pdf` | `2.33Haushaltgeraete.pdf` | 510 | **KEINE Dublette** — eigenständiger, deutlich kürzerer Flyer «Professionelle Beschaffung: Haushaltgeräte, Empfehlungen für Liegenschaftenverwaltungen …» (192 kB) gegenüber dem umfangreicheren Grundlagendokument (3,6 MB); Titel und Zielgruppenansprache unterscheiden sich, keine Textüberschneidung im Kopf |
+| `18.3/Deviskontrolle_(Checkliste).pdf` | `3.14Deviskontrolle.pdf` | 106 | **KEINE Dublette** — Kandidat «DokumenteignerIn … Vorgaben, POM 25.09.2008»-Layout, eco-Fassung «ÖKO 3.14.C, POM, 11.08.06» — spätere Revision desselben Formulars |
+| `18.3/Baustellenkontrolle_(Checkliste).pdf` | `3.15Baustellenkontrolle.pdf` | 87 | **KEINE Dublette** — analog Deviskontrolle, spätere Revision |
+| `18.3/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` | `3.12MerkblaetternachBKP_1_2008_ganzer_Inhalt.pdf` | 3'234 | **KEINE Dublette** — deutlich abweichender Umfang (187 kB gegen 207 kB Extrakttext); nicht im Detail geprüft, gehört in die planmässige Destillation des BKP-Merkblattwerks |
+
+⚠ **Fünfte Falle in der Reihe: „ersetzt durch spätere Revision" ist keine Dublette.** Vier der
+fünf Nicht-Dubletten (7-Meilenschritte, Solarstromanlagen, Deviskontrolle, Baustellenkontrolle)
+sind **keine anderen Themen**, sondern spätere, im `18-Nachhaltiges Bauen`-Ordner unter
+„Projektadmin AHB" abgelegte **Revisionen** derselben eco-Bau-Formulare (2008 gegenüber
+2005-2006). Das deckt sich mit der Ordnerbenennung `Projektadmin AHB` gegenüber `04_Merkblätter/
+eco` — vermutlich zwei verschiedene Ablage-Generationen desselben Werks. Reihe der Fallen jetzt:
+Dateiname (122) · Ablageort (124/125) · Grösse gegen Seitenzahl (124) · Textextrahierbarkeit
+(126) · Grösse als Dublettenkriterium (128) · Fusszeilenstempel gegen Redaktionsvermerk (129) ·
+**spätere Revision statt Dublette (130)**.
+
+**Aus Budgetgründen (Sparbetrieb, Nachtschicht-Deckel) in diesem Lauf NICHT destilliert:** die
+fünf echten Nicht-Dubletten bleiben `[ ]` offen und sind unten neu im Inventar geführt. Sie sind
+das nächstliegende Ziel für Run 131, kleiner Umfang (5 kurze Formulare/Merkblätter, 2005-2008).
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/...) | KB-Datenstand |
+|---|---|---|
+| [ ] `18.1 Grundsaetze/Richtlinie_7-Meilenschritte_(Flyer).pdf` | noch offen (Diff gegen `[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]` bestätigt Nicht-Dublette, Stadtratsbeschluss 1094/2008) |
+| [ ] `18.2 Betriebsenergie/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-checkliste-solarstromanlagen]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |
+| [ ] `18.2 Betriebsenergie/Topten_Haushaltgeraete_(Flyer).pdf` | noch offen (Diff gegen `[[haushaltgeraete-effizienz-beschaffung-topten]]` bestätigt eigenständiges kürzeres Dokument) |
+| [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Deviskontrolle_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-devis-und-baustellenkontrolle]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |
+| [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Baustellenkontrolle_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-devis-und-baustellenkontrolle]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |
+| [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` | noch offen (Diff gegen `[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`-technik-ausbau` bestätigt deutlich abweichenden Umfang, ungeprüft im Detail) |
+
+Zusätzlich in `18.3` zwei bisher nicht erfasste, sehr kleine Dateien gesehen (Listing, nicht
+geöffnet): `Bauteilkatalog_Energie+Oekologie.pdf` (12 kB), `eco-devis_(Ausschreibungshilfe-nach-
+NKP).pdf` (11 kB), sowie `Richtlinie_Bedingungen_fuer_Werkleistungen_(Vertragsbestandteil).pdf`
+(51 kB, mutmasslich das in `[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]` erwähnte
+Unternehmer-Gegenstück) — für einen künftigen Lauf vormerken, nicht Teil dieses Diffs.
+
+**Nächste Priorität nach den fünf offenen 18.x-Formularen:** `06_Richtlinien/Minergie/`
+(79 PDF, Priorität 1, unverändert seit Run 129).

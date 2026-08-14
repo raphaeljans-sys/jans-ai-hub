@@ -1,5 +1,16 @@
 # CHANGELOG
 
+## 2026-08-14 — Run 130 (Mac-Mini-Nachtschicht): Ordner 18-Nachhaltiges Bauen dublettengeprueft, Befund korrigiert
+
+`training/pdf-inventar.md`: alle neun in Run 128 vermuteten Dubletten aus `18-Nachhaltiges Bauen`
+per `pdftotext`-Diff gegen die eco-Quelle geprueft. Nur **4 von 9** sind echte Dubletten
+(MINERGIE-ECO-Flyer, Nachhaltige Gebaeudeerneuerung, Zielvereinbarungen SIA 112.1, Recycling
+Beton) — die restlichen **5 sind spaetere Revisionen** derselben Formulare (2008 gegenueber
+2005/2006, neues «DokumenteignerIn»-Layout Fachstelle nachhaltiges Bauen) und bleiben als eigene
+Quellen offen. Neue Falle Nr. 7 dokumentiert: «spaetere Revision statt Dublette». Keine
+Destillation in diesem Lauf (Budget); die fuenf offenen Formulare sind fuer Run 131 vorgemerkt,
+danach `06_Richtlinien/Minergie/` (79 PDF). Kein Wiki-Artikel geaendert.
+
 ## 2026-08-13 — Fremdlauf `wissens-chef` Run 31: SIA 386.111 nach `normen` nachgezogen, drei Meldungen gegen die KB widerlegt
 
 Geschrieben vom Wissens-Chef (Cross-KB-Aufsicht), nicht von einem `energie`-Lauf. **Eine Aenderung

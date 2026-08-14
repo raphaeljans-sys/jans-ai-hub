@@ -5776,3 +5776,15 @@ Rohtext geprueft, drei Dehyphenation-Fehler gefunden und korrigiert. INDEX,
 Vorgaenger-Links, CHANGELOG und Destillat-Inventar nachgefuehrt. Sync-/Freigabe-
 Queues waren leer, Synobsis 853/853 gesaettigt (kein Ziel). Commit folgt nativ ueber
 nas-commit-now.sh.
+
+## 2026-08-14 05:30 — Nachtschicht Mac Mini: Energie Run 130
+
+Sync-/Freigabe-Queues leer (remote-tasks/pending, sync-tasks/mac-mini, sync-tasks/
+freigabe), Synobsis 853/853 gesaettigt (kein Ziel, eigener launchd-Job seit 25.07.
+stillgelegt). Ziel: Energie-KB (laengster ungetrainierter Stand ggue. bauprodukte).
+Ordner `18-Nachhaltiges Bauen` dublettengeprueft: 9 vermutete Dubletten per
+pdftotext-Diff gegen die eco-Quelle gegengeprueft, nur 4 bestaetigt, 5 sind spaetere
+2008er-Revisionen (neue Falle Nr. 7: "spaetere Revision statt Dublette"). Destillation
+der 5 offenen Formulare aus Budgetgruenden auf Run 131 vertagt. Details:
+wissen/energie/outputs/2026-08-14_energie-run130.md, Register in
+training/pdf-inventar.md nachgefuehrt. Commit folgt nativ ueber nas-commit-now.sh.
