@@ -14,6 +14,18 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260814 — Cloud-Ordner: On-Demand als Standard; System- und Sync-Schalter stellt Raphael selbst
+- **Regel:** (1) Fuer OneDrive und Dropbox gilt **online-only als Standard**: neue oder
+  selten genutzte Cloud-Ordner bleiben dematerialisiert, lokal gepinnt werden nur aktive
+  Projektordner. (2) **Systemseitige Schalter bedient Raphael selbst** (Freigabe 14.08.2026):
+  OneDrive-/Dropbox-Einstellungen, «Dateien bei Bedarf», Finder-Aktionen «Speicherplatz
+  freigeben»/«Nur online verfuegbar» und alles, was Sync-Prozesse oder Systemeinstellungen
+  anfasst. Claude misst, waehlt Kandidaten-Ordner aus und liefert den exakten Klickweg,
+  loest aber keine Systemprozesse dafuer aus. (macOS Tahoe kennt zudem kein
+  `fileproviderctl evict` mehr; ein CLI-Weg existiert nicht.)
+- **Gilt fuer:** alle Stationen, alle Sessions; ergaenzt Rule `interaktive-eingriffe.md`
+  (Klasse Cloud-Sync/FileProvider).
+
 ## 260813 — Projekt-Ablage 2619 KISPI: Original mit MD intern, Spiegel ohne MD in der geteilten Bibliothek
 - **Regel:** Gewerks-Deliverables im Projekt 2619 KISPI werden zweifach abgelegt (Freigabe
   Raphael 13.08.2026): (1) **Original inkl. MD-Quelldatei** nach

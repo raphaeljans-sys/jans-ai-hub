@@ -21,6 +21,22 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260814 — Speicherputz MacBook Pro: Adobe-Altversionen und Render-Caches in den Papierkorb, Quartals-Task angelegt
+
+Interaktiver Eingriff (Auftrag Raphael, Rule `interaktive-eingriffe` Pkt. 4): Auf dem
+MacBook Pro Adobe InDesign 2024/2025 und Photoshop 2025 (zusammen ~12 GB) sowie
+`Redshift/Cache` (6.4 GB) und Maxon `_assetcache` (1.3 GB) **umkehrbar** nach
+`~/.Trash/260814-Speicherputz/` verschoben (InDesign 2024 + Photoshop 2025 via
+Finder-osascript, direkter `mv` scheiterte an Besitzrechten); `brew cleanup --prune=all`
+gab weitere ~2 GB frei. Papierkorb leert Raphael selbst. Adobe-Headless-Uninstall via
+HDBox/Setup schlug fehl (Exit 105/135, Uninstaller-Stub haengt headless — Sackgasse, nicht
+wiederholen). **macOS Tahoe hat kein `fileproviderctl evict` mehr**; Dropbox-online-only
+geht nur via Finder («Nur online verfuegbar»), Kandidaten WEBSEITE JANS (31 GB) + JANS
+Privat (5.4 GB) an Raphael uebergeben. Neu: Scheduled Task `speicher-hygiene-quartal`
+(1. Feb/Mai/Aug/Nov 07:00, MacBook Pro; brew cleanup + Mess-Report ins Logbuch, loescht
+sonst nichts) und Rule-Eintrag `auto-verbesserungen` 260814 (On-Demand-Standard,
+Sync-/Systemschalter stellt Raphael selbst).
+
 ## 260813f — `synergie-lauf-taeglich` feuerte beim Erstlauf doppelt; beide Instanzen kamen zum selben Ergebnis
 
 Der am 13.08.2026 neu angelegte Task `synergie-lauf-taeglich` (17:00) startete seinen Erstlauf

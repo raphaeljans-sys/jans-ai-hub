@@ -136,3 +136,4 @@ nutzungs-radar	script	grower	Misst, welche Skills wirklich aufgerufen werden; li
 schutzmechanik-selbsttest	script	maintainer	Prueft lauf-gate und speicher-waechter auf Freigabe- UND Abweisungspfad; haengt als Check im heartbeat	aktiv	scripts/schutzmechanik-selbsttest.sh
 vorgaenge-bilanz	script	grower	Misst Durchlaufzeit und Wartezeit aus logbuch/fristen.md (Leitgroesse ab 31.07.2026); erzeugt logbuch/vorgaenge/vorgaenge.tsv	aktiv	logbuch/vorgaenge
 tiefenrecherche	command	builder	Orchestriert parallele recherche-Agenten zu einem belegten Recherchebericht	anlassgebunden	commands/tiefenrecherche.md
+speicher-hygiene-quartal	loop	maintainer	Quartals-Putz Speicher-Hygiene MacBook Pro: brew cleanup + Top-10-Mess-Report ins Logbuch, loescht sonst nichts	aktiv	~/.claude/scheduled-tasks/speicher-hygiene-quartal
