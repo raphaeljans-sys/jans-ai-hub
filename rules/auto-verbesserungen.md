@@ -14,6 +14,21 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260814b — Modellwahl interaktiv: Opus 5 als Standard, Fable 5 nur punktuell auf Zuruf
+- **Regel:** Interaktive Sessions laufen standardmaessig auf **Opus 5** (Entscheid Raphael
+  14.08.2026). **Fable 5** wird nur punktuell eingesetzt, wenn die Aufgabe den hoeheren
+  Kontingentverbrauch rechtfertigt: komplexe Fachstudien mit hohem Einsatz (Machbarkeit,
+  Bewertung, Wirtschaftlichkeit), baurechtliche Grenzfaelle mit Normenabwaegung, Spec-Phasen
+  grosser neuer Vorhaben, festgefahrene Architektur-/Debugging-Fragen am Hub. Der Wechsel
+  geschieht ausschliesslich durch Raphael via `/model` (Claude kann und darf das Modell nicht
+  selbst umstellen); Claude schlaegt den Fable-Wechsel bei passender Aufgabe in EINEM Satz
+  vor und wechselt danach gedanklich zurueck zum Opus-Default. Hintergrund: Fable zieht das
+  Wochenkontingent schneller herunter, maximal 50 % davon duerfen auf Fable laufen.
+  Scheduled Tasks und Loops bleiben unveraendert bei Rule `modellwahl-routine.md` (Hauptlauf
+  Opus, Mechanik an Haiku/Sonnet delegiert) und werden **nie** auf Fable gestellt.
+- **Gilt fuer:** alle Stationen, alle interaktiven Sessions; ergaenzt Rule
+  `modellwahl-routine.md`.
+
 ## 260814 — Cloud-Ordner: On-Demand als Standard; System- und Sync-Schalter stellt Raphael selbst
 - **Regel:** (1) Fuer OneDrive und Dropbox gilt **online-only als Standard**: neue oder
   selten genutzte Cloud-Ordner bleiben dematerialisiert, lokal gepinnt werden nur aktive
