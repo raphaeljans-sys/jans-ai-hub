@@ -3,6 +3,42 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 14.08.2026, 08:39 bis 08:50 (Hub-Chef, Regellauf — **am Postfach nachgemessen, nicht
+fortgeschrieben**):
+
+**Der Rücklauf von B. Stevanovic ist um 08:40 noch nicht eingegangen.** Mail-Vorfilter über 26 h
+gefahren, alle Apple-Mail-Konten, Ein- und Ausgang: seit der Absendung vom 13.08. 12:53 keine
+Antwort von `bojan.stevanovic@gruner.ch`, auch keine von J. Ziegel auf die Hilti-Joch-Frage vom
+13.08. 13:53. Die von RJ selbst gesetzte Frist «bis Morgen Freitag, den 14.08.26» läuft damit
+heute ohne Eingang. Sie ist der letzte offene Auflagepunkt II.1b) vor der Baufreigabe-Erwartung
+vom 17.08.; J. Ziegel ist bis 18.08. abwesend, M. Spörri bis Mo 17.08. (Vertretung R. Meisser).
+Status: **terminkritisch, telefonisches Nachfassen heute empfohlen.**
+
+**Entwurfsordner um 08:45 nachgemessen: die zwei aktiven Entwürfe liegen unverändert.**
+L. Furrer (AfB, «AfB BE KISPI PPTS Auflagen vor Baubeginn.pdf», 12.08. 16:06) und T. Inniger
+(«KISPI PPTS: Anschlusswerte, offene Punkte und weiteres Vorgehen Therapieküche», 13.08. 01:28).
+Daneben liegt weiterhin der **alte** Inniger-Entwurf vom 08.08. 16:04 («WG: KISPI PPTS: DWG/PDF
+Grundlage Therapieküche»), der nicht hinausgehen darf. Seit dem 13.08. 20:58 ist keine Mail an
+Dritte hinausgegangen. Status: **unverändert offen, Versand-Entscheid bei RJ.**
+
+**Ausgeführte Whitelist-Aktion A2: Kalendereintrag NeuroSpineZürich.** Aus der
+Terminbestätigung von N. Reichmuth (13.08. 09:38, Konto iCloud, drei Anhänge) ist der Termin
+**Di 22.09.2026, 08:00 bei Prof. Dr. med. U. Schmid, Seestrasse 315, 8038 Zürich** im Kalender
+«Privat» angelegt, mit Quellenvermerk im Notizfeld und Erinnerung 24 h vorher. Guard geprüft:
+Datum, Zeit und Ort sind in der Mail eindeutig, im Kalender lag am 22.09.2026 zuvor kein
+Eintrag, es wurde nichts geändert und nichts gelöscht.
+
+**bexio antwortet den siebten Tag mit 401.** Erneut gegengemessen (`--verzug`). Der Token läuft
+erst am 13.12.2026 ab, ist also nicht abgelaufen; die Session dahinter ist serverseitig beendet.
+RE-00087 (CHF 15'000) und RE-00098/99 mit abgelaufener Mahnfrist vom 12.08. bleiben unprüfbar,
+der Guard für A1 ist nicht erfüllt. **Keine Mahnaktion, keine Buchung.**
+
+**Aufsichtsbefund, zweiter Tag in Folge: der `ag-gruendung-monitor` hat seit dem 07.08.2026
+keinen Logbuch-Abschnitt geschrieben**, und auch der `mahnwesen-verzugscheck` hat heute keinen
+geschrieben (letzter 13.08. 08:06). Der UBS-Strang in `mail@` hat damit weiterhin keinen
+eigenen Beobachter; heute ist er durch diesen Lauf abgedeckt. Sync-, Freigabe- und
+Widerruf-Queues sind leer (`--kurz` Exit 0, keine offenen Vorgänge).
+
 Eintrag 14.08.2026, 06:55 (Logbuch-Radar, an Postfach und M365-Kalender nachgemessen — **drei
 Punkte am Beleg geschlossen, und das Notariat hat nach zehn Tagen geantwortet**):
 

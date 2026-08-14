@@ -5,6 +5,78 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 14.08.2026, 08:39 bis 08:55 — Tagesbriefing GESENDET (Regellauf)
+
+**Versandbeleg:** 14.08.2026 **08:51:44** an `rj@raphaeljans.ch`, Betreff «Hub-Chef 14.08.2026:
+Von Stevanovic ist bis 08:40 nichts eingegangen, die Frist läuft heute ab», Body **5'962
+Zeichen**, in «Gesendete Elemente» nachgemessen (Gegenprobe zum Leer-Draft-Fehler). **QS:**
+Korrektur-Harness gelaufen, `rechtschreibung` **gelb** (vier orthografische Punkte: fehlender
+Doppelpunkt vor einer Aufzählung, fehlendes Komma in einer Datumsapposition, unvollständiges
+Verb «lag kein Eintrag vor», fehlender Artikel) und `layout` **gelb** (Hauptbefund: der Body war
+bei rund 97 Zeichen hart umbrochen und trennte dabei einen Personennamen sowie zwei
+Wertphrasen; dazu uneinheitliche Titelzeile und uneinheitlicher Listen-Einstieg in der
+Terminliste). **Beide Befundlisten vollständig eingearbeitet:** harte Umbrüche entfernt, Absätze
+als durchlaufende Zeilen gesetzt, Terminliste auf durchgehende Satzform gebracht, Titel auf
+reine Versalien vereinheitlicht. Zwei Punkte bewusst NICHT geändert, weil sie Belegtes sind:
+«Auflagepunkt II.1b)» ist der Wortlaut des Bauentscheids, «NeuroSpineZürich» die Eigenschreibweise
+der Praxis laut ihrer eigenen Signatur. Das `twin`-Fidelity-Gate wurde bewusst **nicht** gezogen:
+das Briefing geht an Raphael selbst, nicht nach aussen.
+
+**Werkzeug-Notiz zur Versandprüfung, gleiche Familie wie Rule `wege-und-vollmachten` Punkt 5:**
+die Suche nach dem Beleg über `messages of mb whose subject contains "Hub-Chef 14.08.2026"`
+lieferte über alle Konten und Mailboxen hinweg **«NICHT GEFUNDEN»**, obwohl die Mail zu diesem
+Zeitpunkt bereits in «Gesendete Elemente» lag. Erst die Enumeration der drei jüngsten Nachrichten
+je Konto förderte sie zutage. **Ein leeres Suchergebnis war auch hier zuerst eine Aussage über
+das Werkzeug, nicht über die Quelle** — wer den Filter für bare Münze genommen hätte, hätte
+einen erfolgreichen Versand als Fehlschlag protokolliert und womöglich ein zweites Mal gesendet.
+
+**Sendegrund: operativer Befund und laufende Frist.** Der Radar-Abschnitt von 06:55 lag
+vollständig vor und wurde als Pflichtlektüre gelesen; seine operativen Punkte sind in dieses
+Briefing übernommen statt wiederholt. Der AG-Gründungs-Abschnitt fehlt erneut (siehe
+Aufsichtsbefund unten).
+
+**Was dieser Lauf zusätzlich gemessen hat, statt es fortzuschreiben:**
+
+- **Mail-Vorfilter über 26 h, alle Apple-Mail-Konten, Ein- und Ausgang, Stand 08:40.** Seit dem
+  Radar von 06:55 **keine** neue Fremdmail: kein Rücklauf von B. Stevanovic, keine Antwort von
+  J. Ziegel auf die Hilti-Joch-Frage, keine UBS-Kapitaleinzahlungsbescheinigung. Einziger
+  Neuzugang im Fenster nach 06:55 ist Werbung (Zapier 03:09).
+- **Entwurfsordner um 08:45 nachgemessen:** die zwei aktiven Entwürfe (Furrer 12.08. 16:06,
+  Inniger 13.08. 01:28) liegen unverändert, dazu der alte Inniger-Entwurf vom 08.08. Seit dem
+  13.08. 20:58 ist keine Mail an Dritte hinausgegangen.
+- **bexio erneut 401**, siebter Tag. Guard für A1 nicht erfüllt, keine Mahnaktion, keine
+  Buchung.
+- **Sync-, Freigabe-, Remote- und Widerruf-Queues leer** (`--kurz` Exit 0, keine offenen
+  Vorgänge, kein `remote-tasks/pending`).
+- **Kalender 14. bis 17.08. nachgemessen:** heute kein Termin, erster Eintrag Mo 17.08. 09:00
+  «Austausch Umbau PPTS». Das Zeitfenster für ein telefonisches Nachfassen bei Stevanovic ist
+  heute also frei.
+
+**Ausgeführte Whitelist-Aktionen: A2 und A4.**
+
+- **A2 — Kalendereintrag erstellt.** Aus der Terminbestätigung von NeuroSpineZürich
+  (N. Reichmuth, 13.08. 09:38, Konto iCloud) der Termin **Di 22.09.2026, 08:00 bei Prof.
+  Dr. med. U. Schmid, Seestrasse 315, 8038 Zürich** im Kalender «Privat», Quelle im Notizfeld,
+  Erinnerung 24 h vorher. Guards: Datum, Zeit und Ort in der Mail eindeutig; am 22.09.2026 lag
+  zuvor kein Eintrag; nichts geändert, nichts gelöscht.
+- **A4 — Register und Logbuch gepflegt.** Fristen-Register um die 08:40-Messung am Postfach,
+  die 08:45-Messung am Entwurfsordner, die A2-Aktion, den bexio-Stand und den Aufsichtsbefund
+  ergänzt. Schreibumfang nativ per ssh gegengemessen: `git diff --numstat` = **36 0**, kein
+  Verlust (Rule 260811).
+
+**Bewusst KEIN Versand an Dritte (A7 nicht gezogen):** die beiden liegenden Entwürfe sind
+Raphaels eigene, nicht von Claude erzeugte Texte; A7 verlangt bestandene eigene QS. Der
+Versand-Entscheid bleibt bei ihm. Keine Buchung, keine Löschung, kein Entwurf verändert.
+
+**Aufsichtsbefund, zweiter Tag in Folge und damit bestätigt:** der `ag-gruendung-monitor` hat
+seit dem **07.08.2026** keinen Logbuch-Abschnitt geschrieben, und der `mahnwesen-verzugscheck`
+hat heute ebenfalls keinen geschrieben (letzter 13.08. 08:06). Beide Stränge sind heute durch
+diesen Lauf abgedeckt, ab morgen nicht. Das ist dieselbe Familie wie der Befund vom 13.08.: **ein
+stiller Loop-Ausfall wird derzeit von keiner Instanz bemerkt**, weil es kein Lauf-Log für
+Scheduled Tasks gibt. Gestern als Einzelbeobachtung notiert, heute als Muster bestätigt.
+
+---
+
 ## Radar-Briefing 14.08.2026
 
 Guten Morgen Raphael
