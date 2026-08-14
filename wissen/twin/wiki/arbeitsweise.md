@@ -2699,3 +2699,45 @@ Terminkritisch-Satz an — er erklärt, wo Raphael nur zuordnet.
   die naheliegende Adresse falsch wäre («ist eine private Stiftung und nicht direkt an das
   Kantonsspital angebunden»), dann Adresse, UID, E-Rechnungs-Postfach und Zahlungskondition.
   Der Zwilling neigt hier dazu, nur die Adresse zu liefern. Quelle: 30.07.2026, authentisch.
+
+## Das P.S. ist das Gefäss für die zweite, sachfremde Frage (Fidelity 260814)
+
+```
+Es ist jetzt wirklich dringend.
+Freundliche Grüsse
+Raphael Jans
+
+P.S: Wer ist jetzt zuständig für mein Bauentscheid? Bitte teilen Sie mir die E-Mail mit.
+```
+
+Die Mail verfolgt **ein** Anliegen (Zustellung des Vorab-Bauentscheids). Eine zweite, damit
+zusammenhängende, aber sachlich eigenständige Frage — **wer ist überhaupt zuständig** — wandert
+hinter den Gruss ins **P.S.**, statt die Hauptbitte zu verwässern. Geschrieben «**P.S:**» mit
+einfachem Doppelpunkt, nicht «P.S.:».
+
+Das ist ein Ordnungsprinzip, kein Stilornament: die Hauptbitte bleibt einsätzig und damit
+schwer abweisbar; die Nebenfrage bekommt ihren eigenen Ort. Der Zwilling kennt dieses Gefäss
+nicht und hätte beide Anliegen in einen Absatz gepackt — womit die Dringlichkeit des ersten
+verloren geht.
+
+**Für den Zwilling:** in der kurzen Bittmail nur **ein** Anliegen über dem Gruss; jede weitere
+Frage als «P.S:» darunter. Nicht anwenden, wenn die zweite Frage zum selben Vorgang gehört
+(dann gehört sie in den Hauptteil) und nicht im Eigendokument. Quelle: 01.06.2026, authentisch.
+
+## Kein Nächster-Schritt-Zwang: die Entlastungsmail endet ohne Rückmeldebitte (Fidelity 260814)
+
+Die Do-Regel «immer einen nächsten Schritt anbieten» steht oben und ist breit belegt — sie ist
+aber **nicht ausnahmslos**. Die Terminmail an den Investor vom 02.06.2026 endet nach dem
+Entlastungssatz, **ohne** Bestätigungsbitte, ohne Rückmeldefrist, ohne Anhangssatz (obwohl ein
+PDF anhängt). Ebenso nennt sie den Anhang mit keinem Wort.
+
+Die Auflösung ist nicht «die Regel ist falsch», sondern: **der nächste Schritt ist die Bitte
+selbst**, wenn die Mail bereits einen Termin nennt, an dem der Empfänger entweder erscheint
+oder nicht. Eine zusätzliche Rückmeldebitte würde die Entlastung (→ [[haltung]]) sofort wieder
+aufheben. **Wo entlastet wird, endet die Mail** — die beiden Regeln greifen ineinander.
+
+Gegenprobe aus demselben Fenster: die Erstanfrage an den Unternehmer (02.06.2026 07:51) trägt
+sehr wohl einen nächsten Schritt, und zwar den für den Empfänger **billigsten**: «Für Ihren
+Rückruf bin ich Ihnen dankbar.» — kein Dokument, keine Frist, ein Telefonat.
+
+Quelle: 02.06.2026, authentisch (zwei Belege desselben Tages, gegenläufig).

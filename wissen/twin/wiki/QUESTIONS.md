@@ -3144,3 +3144,63 @@ mechanischen `Anthropic Sans`-Greps (Fidelity 260813) und konnten ihn also nicht
    würde ich mich freuen»). Bestätigt Frage #1 aus Fidelity 260813 aus anderer Richtung: der
    Zwilling hat den Schluss gelernt und variiert ihn. **Zu klären:** an welcher Achse hängt die
    Gattungsregel wirklich — Adressatenkreis, Gattung oder schlicht Textlänge?
+
+## Fidelity 260814b (14.08.2026) — Fenster `rj@` 01.–02.06.2026
+
+1. **[Methodik · Echo-Verdacht in der eigenen Facette] Stammt die Service-Satz-Regel für
+   Offerten-/Submissionsanfragen aus Claude-generierten Mails?** [[stimme]] führt seit
+   260807/260808: «wer für sich selbst etwas erbittet, hält den Kanal offen (… **Offerten-/
+   Submissionsanfrage**)». In diesem Fenster tragen den Service-Satz **genau die Mails, die am
+   `Apple-Mail-URLShareWrapperClass` als eingesetzte Blöcke erkennbar sind** («Für Rückfragen
+   stehe ich Ihnen gerne zur Verfügung», Feldmann 01.06., Rollläden 01.06.). Die unstrittig
+   handgetippte Erstanfrage desselben Vorgangs (02.06. 07:51, durchgehend natives Outlook-Markup)
+   hat **keinen** Service-Satz, sondern «Für Ihren Rückruf bin ich Ihnen dankbar.» *Warum das
+   dringend ist: hier steht der Verdacht im Raum, dass eine Facetten-Regel aus dem eigenen Echo
+   destilliert wurde und seither vom Gehirn reproduziert wird — der Fehlertyp, gegen den die
+   ganze Gewichtung gebaut ist. Zu prüfen: alle Belegstellen der Service-Satz-Klausel im
+   Teilsatz «Offerten-/Submissionsanfrage» auf ihr Absatz-Markup zurückverfolgen. Trägt die
+   Mehrzahl einen Wrapper oder eines der drei CSS-Muster, ist die Klausel zu streichen und die
+   Gattung neu zu bestimmen. **Bis zur Klärung nicht ins Gehirn nachschärfen.***
+
+2. **[Methodik] Setzt Raphael je eigenen Text als Block in Apple Mail ein?** Der neue
+   Lokalisator `Apple-Mail-URLShareWrapperClass` (→ `CLAUDE.md`) markiert *eingesetzte* Absätze,
+   nicht *Claude*. *Warum: davon hängt ab, ob der Marker als harter Vorfilter taugt oder
+   dauerhaft eine Fehlerdichte-Gegenprobe braucht. Billig zu klären: ein Fenster aus der
+   Vor-Claude-Zeit (vor 2026) nach dem Muster greppen. Findet es sich dort in Mails, die
+   zweifelsfrei Raphaels Hand tragen, ist der Marker nur ein Einsetz-Detektor; findet es sich
+   nicht, ist er faktisch ein Hub-Kanal-Detektor.*
+
+3. **[Beziehungsregister] Senkt das Sammelpostfach das Register auch dann, wenn die persönliche
+   Adresse bekannt ist?** Am 02.06.2026 07:51 geht die Anfrage an `info@` und trägt «Guten
+   <Vorname> <Nachname>» + Sie, obwohl `rules/anrede-kontakte.md` den Inhaber als Du-Kontakt
+   führt und die persönliche Adresse aktenkundig ist. *Warum: die neue Kanal-Regel steht
+   quer zur Kontaktliste, und der Zwilling muss wissen, welche gewinnt. Zu klären an einem Paar
+   desselben Empfängers (`info@` gegen persönliche Adresse) im selben Vorgang: springt das
+   Register mit dem Adressfeld, oder war die Sie-Form hier nur die Vorsicht der Erstanfrage?*
+
+4. **[Haltung] Wie weit reicht der Entlastungssatz?** Belegt ist er gegenüber dem Investor
+   («Sollte es Dir nicht möglich sein ist es nicht so schlimm, die Preisangaben … bleiben
+   stabil»). *Warum: die Regel «wer bittet, entlastet» ist mächtig und könnte den Zwilling
+   verweichlichen, wenn er sie überall anwendet. Zu klären: gilt sie auch gegenüber
+   Unternehmern, Fachplanern und Behörden — oder nur gegenüber dem Partner, von dem Raphael
+   nichts erzwingen kann? Die Gegenbelege existieren wahrscheinlich schon im Korpus
+   («Das Wunschkonzert ist vorbei», 260808) und müssen nur gegenübergestellt werden.*
+
+5. **[Stimme] Hängt die Kurzsignatur an der Dringlichkeit oder an der Kürze?** 01.06.2026 17:42:
+   FG + nur «Raphael Jans» in einer fünfzeiligen, dringlichen Behörden-Initiativmail. Die
+   Korrektur 260813 stellte fest, dass der volle Block auch den Dreizeiler trägt. *Warum: die
+   beiden Belege widersprechen sich nur scheinbar, aber der Zwilling braucht das trennende
+   Merkmal. Kandidaten: (a) Dringlichkeit, (b) Reintext statt HTML, (c) mobiler Versand,
+   (d) Amtskontakt. Billig zu prüfen: alle Reintext-Mails des Halbjahrs greppen und ihre
+   Signaturform auszählen.*
+
+6. **[Methodik — beantwortet, zur Kenntnis] Der blinde Messversuch senkt den Score, wie
+   vermutet.** Frage 260813 #5 lautete, ob die Messreihe systematisch zu optimistisch sei, weil
+   die `summary` Anrede und Eröffnungssatz vorwegnimmt. In diesem Lauf wurden die
+   Twin-Fassungen vor dem Volltext fixiert und die vorschau-kontaminierten Teile **aus der
+   Wertung genommen**; der Gesamtscore fällt von 41 auf **36**. *Konsequenz: die Vorläufe
+   42/40/41/43/48/46 sind um geschätzt 4–6 Punkte nach oben verzerrt und dürfen nicht als
+   Trendlinie gegen den heutigen Wert gelesen werden. Der Trend beginnt neu bei 36. Die
+   `summary` bleibt unvermeidbar — sie kommt mit jedem Suchtreffer —, deshalb ist die einzige
+   wirksame Massnahme, kontaminierte Passagen konsequent von der Wertung auszuschliessen und
+   das im Report auszuweisen.*

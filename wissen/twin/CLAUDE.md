@@ -269,6 +269,52 @@ abends null Fehler bei doppelter Länge und einer vollständig zusammengetragene
    abwerten kann, kommt erst nach Gegenprobe gegen die eigene Hand in die Tabelle. Als Kandidat
    geführt in [[QUESTIONS]] 260814 #1.
 
+**Der blinde Kanal hat doch ein mechanisches Kennzeichen, neu 14.08.2026 (Fidelity 260814) —
+`Apple-Mail-URLShareWrapperClass`.** [[QUESTIONS]] 260814 #4 fragte, ob die per `osascript`
+erzeugten Apple-Mail-Drafts des Hub ein Strukturmerkmal tragen. Sie tragen eines. Im Fenster
+01.–02.06.2026 ist es mit **zwei Verdachtstexten und zwei handgetippten Gegenproben desselben
+Tages** belegt:
+
+| | Absatz-Markup im `body.content` |
+|---|---|
+| Offertanfrage 01.06. 11:58 (Verdacht) | **jeder** `<p>` trägt `class="Apple-Mail-URLShareWrapperClass"` + `padding-right:inherit;padding-left:inherit` |
+| Offertanfrage 01.06. (Rollläden, im Zitat belegt) | Anrede `MsoNormal`, **alle übrigen** `<p>` mit `apple-mail-urlsharewrapperclass` |
+| Gegenprobe «Hoi Stefi / Online per Teams.» 01.06. 08:16 | nacktes `<div>`, kein Wrapper, `id="lineBreakAtBeginningOfMessage"` |
+| Gegenprobe «Super, Danke.» 01.06. 16:39 | nacktes `<div>`, kein Wrapper |
+
+Alle vier kommen aus **Apple Mail** (lokal erzeugte `internetMessageId` `<UUID@raphaeljans.ch>`,
+nicht Exchange `…@ZR2P278MB1112…`). Der Kanal allein trennt also nicht — **das Absatz-Markup
+trennt.**
+
+**Was das Muster wirklich bedeutet, und was nicht.** Es beweist nicht «Claude», sondern: *dieser
+Absatz wurde als Block in Apple Mail eingesetzt, nicht dort getippt.* Damit hat es exakt den
+Status, den die drei CSS-Muster seit der Präzisierung vom 13.08. haben — es ist ein
+**Lokalisator, kein Autorschaftsurteil**, und es zielt auf den **Absatz**, nicht auf die Mail.
+Genau das macht es brauchbar: in der Rollläden-Mail liegt die Anrede **ausserhalb** des
+Wrappers, und dort steht der Tippfehler «**Geschätzer** Herr Battaglia» — die Handsignatur sitzt
+im nicht-gewrappten Teil, der fehlerfreie Rest im gewrappten. Dieselbe Konfiguration wie die
+achte Falle (Raphaels Rahmen, eingesetztes Fragment), nur mit dem Rahmen auf die Anrede
+geschrumpft.
+
+**Aufnahme in die Muster-Tabelle mit ausdrücklichem Vorbehalt.** Nach dem Guillemet-Fall
+(03.08.), dem «du klein»-Fall (07.08.) und `rgb(10,10,10)` (13.08.) gilt: ein Signal, das echtes
+Gold abwerten kann, kommt erst nach Gegenprobe gegen die eigene Hand hinein. Die Gegenprobe ist
+hier **erbracht** (zwei handgetippte Apple-Mail-Texte desselben Tages, beide ohne das Muster) —
+deshalb wird es aufgenommen, aber **ausdrücklich nur als Lokalisator**:
+
+| Muster | Bedeutung | Reichweite |
+|---|---|---|
+| `Anthropic Sans` | Claude-Oberfläche, Copy-Paste | Element |
+| `rgb(253,253,252)` | dieselbe Herkunft | Element |
+| `class="text-body"` | dieselbe Herkunft | Element |
+| **`Apple-Mail-URLShareWrapperClass`** (auch klein geschrieben im Zitat) | **eingesetzter Block in Apple Mail** — Hub-`osascript`-Draft ODER von Raphael selbst eingefügter Text | **Absatz** |
+
+**Die offene Restunsicherheit ausdrücklich benannt:** ob Raphael je eigenen Text als Block in
+Apple Mail einsetzt, ist nicht geprüft. Solange das offen ist, entscheidet **nach** dem Grep
+weiterhin der Fehlerdichte-Vergleich gegen die Eigentexte desselben Tagesfensters (erste
+Konsequenz der neunten Falle, unverändert in Kraft). Der Grep sagt **wo** hinzusehen ist, nicht
+**wer** geschrieben hat. Als Restfrage geführt in [[QUESTIONS]] 260814b #2.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

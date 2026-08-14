@@ -3,6 +3,31 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 14.08.2026, 05:45 (twin-fidelity-review, Entscheid Raphael noetig):
+
+**Das Twin-Gehirn ist am Wachstums-Riegel angekommen — 29'997 von 30'000 Bytes, 3 Bytes
+Reserve. Ab sofort kann kein Fidelity-Lauf mehr eine neue Regel ins kompilierte Gehirn
+schreiben.** `skills/twin/tools/build_dna.py` bricht bei Ueberschreitung bewusst ab, statt still
+zu kuerzen (Riegel eingebaut 03.08.2026, Grundkontext-Diaet Runde 2). Der Lauf vom 14.08. hat
+zwei operative Regeln erarbeitet, die deshalb **nicht** ins Gehirn kompiliert werden konnten:
+«der Kanal senkt das Register» (Sammelpostfach schlaegt den Du-Kontakt) und «wer bittet,
+entlastet» (Entlastungssatz mit Sachgrund statt Bestaetigungsbitte). Beide stehen belegt und mit
+«Fuer den Zwilling»-Anweisung in `wissen/twin/wiki/beziehungsregister.md` bzw. `haltung.md` und
+wirken damit fuer die twin-Agenten, die die Facetten direkt lesen — **nicht** aber ueber
+`rules/jans-dna-facetten.md` fuer die text-erzeugenden Skills.
+
+Messung je Facette (Do/Don't-Bloecke, 14.08.): stimme 6'742 · fachsignatur 5'915 · arbeitsweise
+5'915 · beziehungsregister 4'506 · haltung 3'587 · denken 3'184 = 29'849 B plus Header.
+
+**Drei Wege, Entscheid Raphael:** (1) Grenze anheben — hebt die Ladekosten **jedes**
+Texterzeugnisses, bewusst zu tun; (2) verdichten — das Script-Audit vom 03.08. haelt fest, die
+Bloecke seien «nahezu reine Regel, kaum Beleg-Prosa», also ist kein Fett zu schneiden, ohne
+Regeln zu verlieren; (3) die Facetten-Bloecke thematisch splitten und je Gattung laden statt
+alle sechs immer. Claude hat **keine** der drei Varianten eigenmaechtig ausgefuehrt: das Gehirn
+steht unveraendert auf dem letzten gueltigen Stand, es gibt keine Regression. Vollstaendige
+Messung und Begruendung: `wissen/twin/outputs/2026-08-14_fidelity.md`.
+Status: **offen, Entscheid Raphael.**
+
 Eintrag 13.08.2026, 23:26 (tenant-hygiene Nachlauf, Phase 2 durch Raphael ausgeloest):
 
 **Versions-Trim SharePoint gestartet — Effekt ist in den naechsten Tagen nachzumessen.**

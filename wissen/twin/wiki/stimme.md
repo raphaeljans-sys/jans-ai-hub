@@ -3515,3 +3515,64 @@ Textexport). Gegenprobe an einem Fenster ausserhalb des KISPI-Projekts offen ([[
   verschmelzen die Listen-Anläufe mit dem Folgesatz zu einem überlangen Satz. Ohne die vier
   Listen-Anläufe liegt derselbe Korpus bei **15.6 W** statt 17.0 W. Die Verzerrung beträgt hier
   **+1.4 W** und wirkt in jedem Batch, der Listen enthielt. Quelle: 27.07.–01.08.2026, authentisch.
+
+## Die Kurzsignatur trägt auch die kurze, dringliche Behörden-Initiativmail (Fidelity 260814)
+
+Die Korrektur vom 260813 stellt fest: **FG + voller Block ist der Default**, und die Kurzsignatur
+«Raphael Jans» ist «eine Ausnahme, keine Reply-Regel». Der Beleg vom 01.06.2026 17:42 an die
+Kreisarchitektin zeigt die **zweite Gestalt derselben Ausnahme**, und sie ist gerade **kein** Reply:
+
+```
+Geschätzte Frau Hottinger
+Können Sie mir den Vorab-Bauentscheid per Mail zustellen; ich benötige diesen um die
+Fachplaner mit der Auflagebereinigung zu beauftragen.
+
+Es ist jetzt wirklich dringend.
+Freundliche Grüsse
+Raphael Jans
+
+P.S: Wer ist jetzt zuständig für mein Bauentscheid? Bitte teilen Sie mir die E-Mail mit.
+```
+
+Vier Marker in fünf Zeilen, alle im **reinen Text** (kein HTML — schon das ist Handsignatur):
+
+- **Kurzsignatur bei Dringlichkeit.** Nicht der Reply-Charakter trägt die Ausnahme, sondern
+  **Kürze + Dringlichkeit + eingespielter Kontakt**. Wer drängt, hängt keinen Firmenblock an.
+- **Die Dringlichkeit steht nackt und als eigener Absatz:** «Es ist jetzt wirklich dringend.»
+  Kein «leider», kein «ich weiss, dass Sie viel zu tun haben», keine Entschuldigung. Der Satz
+  steht allein zwischen Sachsatz und Gruss.
+- **Die Bitte ist eine direkte Frage mit Semikolon**, nicht «Darf ich Sie bitten»: «Können Sie mir
+  den Vorab-Bauentscheid per Mail zustellen; ich benötige diesen um …». Das Semikolon koppelt
+  Bitte und Begründung in **einen** Satz — die Begründungspflicht ist erfüllt, ohne dass ein
+  zweiter Satz entsteht.
+- **Kein Dank, kein Service-Satz.** Die Mail fordert und hört auf.
+
+**Für den Zwilling:** in der kurzen, dringlichen Mail an einen eingespielten Amtskontakt FG +
+**nur den Namen**; die Dringlichkeit als eigenen, ungedämpften Satz; die Bitte als direkte
+Können-Sie-Frage mit Semikolon-Begründung. Nicht glätten, nicht höflich rahmen — die Schärfe ist
+die Aussage. Quelle: 01.06.2026, authentisch (Reintext).
+
+## Der «•   »-Bullet mit «>»-Folgepfeil in der Mail (Fidelity 260814)
+
+Die Zeichen-Registratur führt bisher «_ » als Du-Default, «–» in der formell-dokumentierenden
+Sie-Mail und «>»/«>>>» **nur im Eigendokument**. Die Erstanfrage vom 02.06.2026 07:51 an einen
+Unternehmer zeigt eine vierte Form, und zwar in der **Mail**:
+
+```
+•   Einbau sep. Stromzähler pro Einheit
+•   Im UG sind die notwendigen Wasch- & Trocknungsräume vorzusehen > Neue Anschlüsse
+    Waschmaschine Tumbler
+•   Die Restflächen im UG sind als Kellerräume mit Lattenverschlag auszugestalten (so viel
+    Kellerabteile wie in Restflächen möglich) > Neue Belichtung
+```
+
+- **Aufzählungszeichen «•» plus drei Leerschläge** (nicht «_ », nicht «–») für die **offene
+  Leistungsliste einer Interessensabfrage**.
+- **«>» als Folgepfeil INNERHALB der Bullet-Zeile**: Anforderung «>» daraus folgende
+  Bauleistung. Das ist keine Aussagekette wie im Protokoll, sondern ein «daraus folgt». Damit
+  ist das Zeichen erstmals ausserhalb des Eigendokuments belegt.
+- Die Regel von 01.08.2026 bleibt in Kraft: **die Zeichen sind gewachsen, keine Grammatik.**
+  Der Zwilling setzt «•   » + «>» nur in derselben Gattung (offene Leistungsliste in der
+  Erstanfrage an einen Unternehmer), nie erzwungen und nie mit abgeleiteter Semantik.
+
+Quelle: 02.06.2026, authentisch.

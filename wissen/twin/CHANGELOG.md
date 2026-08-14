@@ -1710,3 +1710,36 @@ des Gastgebers; Mail-vs-Dokument-Schluss; Belege 5+6), `CLAUDE.md` (Echo-Detekti
 Guillemet-Signal nur in Kombination; neue Falle Fremdtext im eigenen Ordner), [[QUESTIONS]]
 Runde 260803 (6 Fragen + Facetten-Spannung), `raw/_INGESTED.md` (Gold-Verbrauch + verworfene
 Datei), Report `outputs/2026-08-03_fidelity.md`, `rules/jans-dna.md` neu kompiliert.
+
+## 2026-08-14 — twin-fidelity-review (Fenster rj@ 01.–02.06.2026)
+
+- **Gesamt-Fidelity 36**, erster **blind** gemessener Wert (Twin-Fassungen vor dem Volltext
+  fixiert, vorschau-kontaminierte Passagen aus der Wertung genommen). Beantwortet QUESTIONS
+  260813 #5: die Messreihe war um geschaetzt 4–6 Punkte zu optimistisch; die Vorlaeufe
+  41/41/42/40/43/48/46 sind nicht mehr direkt vergleichbar, der Trend beginnt bei 36 neu.
+- **`CLAUDE.md`:** vierter Echo-Lokalisator `Apple-Mail-URLShareWrapperClass` aufgenommen —
+  beantwortet QUESTIONS 260814 #4 (blinder osascript-Kanal). Belegt mit zwei Verdachtstexten
+  und **zwei handgetippten Gegenproben desselben Tages aus demselben Mailprogramm**.
+  Ausdruecklich nur als **Lokalisator auf Absatzebene**, kein Autorschaftsurteil.
+- **`wiki/stimme.md`** (+61): Kurzsignatur bei dringlicher Behoerden-Initiativmail; nackte
+  Dringlichkeitszeile; Bitte als Koennen-Sie-Frage mit Semikolon-Begruendung; «•   »-Bullet mit
+  «>»-Folgepfeil — erster Beleg des Zeichens ausserhalb des Eigendokuments.
+- **`wiki/beziehungsregister.md`** (+57): **der Kanal senkt das Register** — Sammelpostfach
+  schlaegt den Du-Kontakt («Guten <Vorname> <Nachname>» + Sie); angeklebte Anrede ohne
+  Leerzeile, zwei unabhaengige Belege.
+- **`wiki/haltung.md`** (+30): **wer bittet, entlastet** — Entlastungssatz mit Sachgrund statt
+  Bestaetigungsbitte. Zweiter Lauf in Folge mit derselben Umkehrung, damit belegte
+  Standard-Drift statt Einzelbeobachtung.
+- **`wiki/arbeitsweise.md`** (+42): P.S. als Gefaess der zweiten, sachfremden Frage; kein
+  Naechster-Schritt-Zwang, wo entlastet wird.
+- **`wiki/QUESTIONS.md`** (+60): 6 Eintraege. Wichtigster: **Echo-Verdacht in der eigenen
+  Facette** — die Service-Satz-Klausel fuer Offerten-/Submissionsanfragen wird in diesem Fenster
+  ausschliesslich von gewrappten (eingesetzten) Absaetzen getragen, waehrend der handgetippte
+  Beleg derselben Gattung ihr widerspricht. Nicht nachgeschaerft, Pruefauftrag hinterlegt.
+- **Alle Aenderungen append-only**, nativ auf der Synology mit `git diff --numstat` geprueft:
+  sechs Dateien, **null Loeschungen** (Rule auto-verbesserungen 260811).
+- **`rules/jans-dna-facetten.md` NICHT neu kompiliert — Wachstums-Riegel erreicht.** Der
+  Auto-Block steht bei 29'997 von 30'000 B (3 B Reserve); `build_dna.py` bricht bewusst ab,
+  statt still zu kuerzen. Die Do/Don't-Bloecke wurden deshalb **nicht** angefasst, das Gehirn
+  bleibt auf dem letzten gueltigen Stand (keine Regression). Entscheid ueber Anheben /
+  Verdichten / Splitten liegt bei Raphael; eingetragen in `logbuch/fristen.md` 14.08.2026.

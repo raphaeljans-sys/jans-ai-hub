@@ -2392,3 +2392,60 @@ Gewichtung: authentisch (Fenster 06.–10.05.2026).
 - **Gestapelte Anrede mit gemischtem Register, weiterer Beleg:** «Geschätzter <Vorname>, werter
   Herr <Nachname>» — Bauherrenvertreter im Du, Fachplaner im Sie, in einer Zeile, Reihenfolge
   nach Nähe. Bestätigt Batch 29/50. Quelle: 27.07.2026, authentisch.
+
+## Das Sammelpostfach schlägt den Du-Kontakt: «Guten <Vorname> <Nachname>» + Sie (Fidelity 260814)
+
+**Der teuerste Registerfehler dieses Laufs.** Die Erstanfrage vom 02.06.2026 07:51 geht an
+`info@`-Sammelpostfach eines Betriebs, dessen Inhaber in `rules/anrede-kontakte.md` als
+**Du-Kontakt** geführt ist («Hoi Felix» / «Lieber Gruss»). Raphael schreibt trotzdem:
+
+```
+Guten Felix Stählin
+…
+Gerne frage ich Sie an ob Sie Interesse hätten für folgende Arbeiten uns ein Angebot
+nach Besichtigungstermin zu unterbreiten:
+…
+Für Ihren Rückruf bin ich Ihnen dankbar.
+```
+
+Also **Sie im ganzen Körper** — und eine Anredeform, die es in der Skala bisher nicht gibt:
+«**Guten** <Vorname> <Nachname>». Der «Guten Tag»-Opener ist auf den vollen Namen kollabiert;
+das Ergebnis ist weder «Guten Tag Herr Stählin» noch «Hoi Felix», sondern eine Mischform, die
+die Person nennt und die Distanz des Kanals hält.
+
+**Die Regel, die daraus folgt:** nicht der Kontakt allein bestimmt das Register, sondern der
+**Kanal**. Geht dieselbe Mail an ein unpersönliches Sammelpostfach, fällt das Du weg, weil
+ungewiss ist, wer sie öffnet — der Vorname bleibt als Wärmeträger in der Anrede stehen. Das
+ergänzt die bestehende Sammelpostfach-Regel («Person im Betreff, `z.H. <Name>`»): hier steht die
+Person **in der Anrede**, und der Betreff trägt sie nicht.
+
+Abgrenzung zur Gewichts-Klausel aus `rules/anrede-kontakte.md`: dort hebt das **Gewicht des
+Anliegens** die Stufe (Hoi → Geschätzter). Hier senkt der **Kanal** sie (Du → Sie), bei
+gleichbleibender Nennung des Vornamens. Zwei verschiedene Achsen, beide gleichzeitig gültig.
+
+Der Zwilling schrieb «Hoi Felix» und duzte durchgehend — an ein Postfach, das im Zweifel das
+Sekretariat liest. Quelle: 02.06.2026, authentisch.
+
+## Die angeklebte Anrede: kein Leerschlag zwischen Anrede und erstem Sachsatz (Fidelity 260814)
+
+Zweimal unabhängig belegt am selben Tagespaar, in zwei verschiedenen Registern:
+
+```
+Geschätzter Roman,
+Wir machen mit den Submittierten Firmen für den KV am 12.06.26 …
+```
+```
+Geschätzte Frau Hottinger
+Können Sie mir den Vorab-Bauentscheid per Mail zustellen; …
+```
+
+Der erste Sachsatz steht **direkt in der Folgezeile**, ohne Leerzeile — und zwar sowohl im
+Investor-Du (mit Komma nach der Anrede) als auch im Behörden-Sie (ohne Komma). Erst **nach** dem
+ersten Sachsatz beginnt die normale Absatzgliederung mit Leerzeilen.
+
+Der Fidelity-Lauf vom 13.08.2026 hatte «Zeilenform der gestapelten Anrede erneut verfehlt»
+notiert, ohne die Form festzuhalten. Hier ist sie, und sie gilt über die gestapelte Anrede
+hinaus: **die angeklebte erste Zeile ist die Normalform, nicht die Ausnahme.** Ein Zwilling, der
+routinemässig eine Leerzeile setzt, ist an dieser Stelle in jeder Mail falsch.
+
+Quelle: 01.06.2026 + 02.06.2026, authentisch (zwei unabhängige Belege).
