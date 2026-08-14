@@ -3,6 +3,15 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-14 — Rücklauf aus 2619 KISPI PPTS: Türfachplanung, Vorabzug-Prüfmethode
+
+Neuer Report `outputs/2026-08-14_tuerfachplanung-vorabzug-pruefmethode.md` (interaktive
+Session, Rule `wissens-ruecklauf`). Vier belegte Lehren aus der Architektur-Prüfung des
+TeKoSi-Vorabzugs (LOS 231.10): Tür-ID-Duplikate am PDF-Textlayer prüfen (drei Duplikate
+gefunden, keines in der Bauherren-Rückmeldung); Türbuch-Vorabzug ohne Türmatrix ist nicht
+freigabefähig; Grundlagenstand des Fachplaners vor Detailkorrekturen verifizieren;
+ID-Systematik mit dem FM-System der Bauherrschaft abgleichen.
+
 ## 2026-08-08 — Rücklauf aus 2619 KISPI PPTS: Küchenlüftung und Nutzungseinstufung
 
 Neuer Report `outputs/2026-08-08_kuechenlueftung-planervorbehalt-und-nutzungseinstufung.md`

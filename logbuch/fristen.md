@@ -3,6 +3,22 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 14.08.2026, 14:30 (interaktive Session RJ, Türfachplanung 2619 KISPI):
+
+**NEU/OFFEN: KISPI PPTS Türkonzeptplan + Türbuch — Freigabe ausstehend, Teams-Call zu
+koordinieren (JANS-Aktion).** L. Merci (Leiter Sicherheit und Umwelt KISPI) sendet 14.08.
+10:56 die konsolidierte Rückmeldung (15 Punkte, abgestimmt mit F. Würsch TL TD-Elektro und
+N. Ramminger Ltg FLM, nutzerseitig PPTS verifiziert) zum TeKoSi-Vorabzug vom 27.07.2026
+(Türkonzeptplan «Sicherheitskonzept_TEK» + Türbuch V1.0, L. Hiltmann). Bitte an RJ:
+**Teams-Call mit L. Hiltmann (TeKoSi) und L. Merci koordinieren**, damit offene Punkte
+geklärt und die Freigabe zur Umsetzung zeitnah erteilt werden kann. Architekturseitige
+Prüfung JANS vom 14.08. ergänzt drei bestätigte Tür-ID-Duplikate auf dem Plan (Umbau-15
+01.2.038.01 → 01.2.055.01; Umbau-1 01.2.332.01 → 01.2.005.01; Umbau-29 01.2.333.01 →
+01.2.338.01) sowie fehlende Türmatrix als Freigabe-Voraussetzung. Dossier:
+`2619_KINDERSPITAL/03_BKP/LOS_231.10 Türfachplanung System TeKoSi AG/`. Status: **offen,
+Terminkoordination bei RJ, Freigabe erst nach Plan-Revision empfohlen.** | mail (L. Merci
+14.08. 10:56) + Plan-Prüfung JANS
+
 Eintrag 14.08.2026, 08:39 bis 08:50 (Hub-Chef, Regellauf — **am Postfach nachgemessen, nicht
 fortgeschrieben**):
 
