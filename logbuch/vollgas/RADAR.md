@@ -52,6 +52,56 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-15 00:58 — [FREI] **Vierter sauberer Regellauf in Folge.** 70 Commits in 14 h, sechs KBs mit Liefer-Delta (bauprodukte, energie, koordination, normen, projekt-lessons, twin), kein Delta-Null-Loop, keine Waisen. Ampel **FREI** (35.9 % bei 64.9 % verstrichener Woche, Vorsprung **-29.0** — erneut verbessert). Keine Massnahme nötig, kein Mail-Anlass
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 14.08. 12:58, dieser Lauf 15.08. 00:58 — Abstand
+**exakt 12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Vierter
+regulärer Abstand in Folge, der Takt läuft präzise. `lastRunAt`-Gegenprobe nicht nötig, da keine
+Eintragslücke besteht.
+
+**Fensterprobe:** «OK», rc=0, Antwort in Sekunden (Rezept mit `< /dev/null` eingehalten, kein
+Watchdog-Eingriff nötig). Gegenprobe auf verwaiste `claude -p`-Prozesse: **nichts** — beide
+Gate-Plätze frei. Speicher unauffällig: rund 5.6 GB frei (free + inactive + purgeable über
+`vm_stat`), `kern.memorystatus_vm_pressure_level: 1` = normal.
+
+**Wochenbudget (Schritt 2b):** Ampel **FREI**, 59.91 von 167 Mio «teuer» = **35.9 %** bei
+**64.9 %** verstrichener Woche, Vorsprung **-29.0 Punkte**. Der Abstand hat sich gegenüber dem
+12:58-Lauf (-25.9) nochmals vergrössert; der Verbrauch läuft dem Zeitverlauf über die ganze Woche
+konstant hinterher. Beide Stationen frisch gemeldet (MacBook Pro 43.23, Mac Mini 16.68 Mio). Der
+Entscheid Raphaels vom 03.08. («gleichmässig über die Woche») wird eingehalten, ohne dass
+gedrosselt werden müsste — **kein Drossel-Anlass nach Schritt 2c.**
+
+**Liefer-Delta je Loop (14-h-Fenster, Schritt 4/5):** 70 Commits, davon **15 benannte
+Arbeits-Commits** und 55 `nas-selfcommit`-Sammelcommits, die die Edits der Läufe einpacken; **kein
+reiner Status-Commit** (`station-status`) darunter. Geänderte Wiki-/Output-Dateien in **sechs**
+KBs: `wissen/bauprodukte` (Sektion 900 triagiert, neuer Artikel `kevi-buerodrehstuhl.md`, INDEX +
+CHANGELOG), `wissen/energie` (Run 132, Output-Report, BAUHERREN-FAQ F233/F234, neuer Artikel
+`oekologische-materialvorgaben-beschaffung.md`, QUESTIONS), `wissen/koordination` (zwei Outputs:
+Wissens-Chef Run 32 und Synergie-Lauf 07), `wissen/normen` (REGISTER + neuer Artikel
+`abb-reihe-verguetungs-und-ausmassgrenzen.md`), `wissen/projekt-lessons` (Output
+Türfachplanung-Prüfmethode), `wissen/twin` (beziehungsregister). **Kein Loop ohne Delta, keine
+Rücktaktung, keine Deaktivierung.** Das Lauf-Journal `260814-laeufe.jsonl` verzeichnet vier
+Mac-Mini-Läufe, **alle rc=0** mit substanzieller Lieferung (02:42 ERCO-Glossar-Abschluss, 05:39
+Energie-Dublettenprüfung mit neuer Methodenfalle Nr. 7, 13:37 Run 131, 23:40 bauprodukte-Triage).
+`260815-laeufe.jsonl` ist noch leer — der Tag ist erst 58 Minuten alt, das ist kein Befund.
+
+**Feuermechanismen (Schritt 3), alle drei Orte geprüft:** MacBook Pro — beide vollgas-plists
+liegen als `*.disabled-260729` vor, `launchctl list` zeigt **keinen** geladenen vollgas-Job. Mac
+Mini (per ssh) — `ch.jans.nachtschicht` geladen und arbeitend (belegt durch die vier
+Journal-Läufe), `ch.jans.vollgas-supervisor` weiterhin `.disabled-260729`. **Keine Abweichung, kein
+doppeltes Feuern, der stehende Entscheid vom 30.07. («nicht wieder beleben») ist gewahrt.**
+
+**Bemerkenswert im Fenster:** der Wissens-Chef Run 32 hat die Bedeutungsumkehr SIA 118/262 aus
+Run 30/31 sprachlich zu Ende bereinigt und einen energie-Befund an sieben statt zwei Stellen
+korrigiert — genau die Art Nacharbeit, die ein Delta-Zähler leicht unterschätzt. Der Synergie-Lauf
+07 hält fest, dass die Listen-Neuregelung (Rule 260814b/c) die **Generatoren noch nicht erreicht**
+hat (SYN-27, offen). Das ist ein Hub-Internum ohne Aussenwirkung und damit kein Sendegrund; es
+liegt beim Synergie-Orchestrator korrekt im Register.
+
+**P1/P2/P3:** keine. Vierter Regellauf in Folge ohne Befund, kein Mail-Anlass (ein regelmässig
+freies Fenster ist keiner).
+
+---
 ## 2026-08-14 12:58 — [FREI] **Dritter sauberer Regellauf in Folge.** 67 Commits in 13 h, vier KBs mit Liefer-Delta (twin, bauprodukte, normen, energie), kein Delta-Null-Loop, keine Waisen. Ampel **FREI** (31.9 % bei 57.7 % verstrichener Woche, Vorsprung **-25.9** — der beste Wert der Serie). Keine Massnahme nötig, kein Mail-Anlass
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 14.08. 00:57, dieser Lauf 14.08. 12:58 — Abstand
