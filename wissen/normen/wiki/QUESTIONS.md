@@ -1,5 +1,79 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 52 (15.08.2026) — die Gegenprobe zweiter Ordnung ist gefahren; eine Fehlerklasse bleibt unerkannt
+
+**N52-1 — GESCHLOSSEN: Gegenprobe zweiter Ordnung (Übergabe Run 51, Punkt 1).** Run 51 hatte die
+Sensitivität der Refuter-Stufe nur für **veränderte Zahlenwerte** gemessen (15/15) und ausdrücklich
+ausgewiesen, dass die schwereren Klassen ungeprüft blieben. Diese Runde hat sie gemessen, an
+SIA 358:2010 (reiner Scan, deutscher Normteil S. 5-10, vom Hauptprozess vorab vollständig selbst
+gelesen und verifiziert). Anlage: 16 Behauptungen, 6 kontrolliert verfälscht, blind vorgelegt.
+
+| Fehlerklasse | Kontrollen | erkannt |
+|---|---|---|
+| Bedeutungsumkehr | 2 (B01 Abweichungen «nicht zulässig»; B03 Rollstuhlfahrer als besonderes Gefährdungsbild) | **2** |
+| Weggelassene Bedingung | 1 (B08 beidseitige Handläufe «in jedem Fall») | **1** |
+| Verschobene Fundstelle bei richtigem Inhalt | 1 (B10 Ziff. 3.1.4 statt 3.1.3) | **1** |
+| Veränderter Zahlenwert (Vergleichsbasis zu Run 51) | 2 (B07 drei statt fünf Steigungen; B13 0,15 statt 0,12 m) | **2** |
+| **Summe** | **6** | **6 (100 %)** |
+
+Zehn echte Aussagen, zehn korrekt bestätigt — **null Falsch-Positive**. Der Agent hat bei B08 von
+sich aus auch die abgeschwächte Modalität erkannt («im Allgemeinen» gegen «in jedem Fall») und bei
+B10 ausdrücklich getrennt, dass der Inhalt richtig und nur die Ziffer falsch ist. Die Prüfstufe
+kann die schweren Klassen also erkennen; die 79/0-Verteilung aus Run 50 misst weiterhin die
+Qualität der geprüften Destillate, nicht die Blindheit der Prüfer.
+
+**N52-2 — OFFEN, und das ist der eigentliche Ertrag: «fehlender Inhalt» wird strukturell nicht
+erkannt.** Behauptung B02 war die versteckte siebte Kontrolle. Sie gab die Nicht-Geltungs-Fälle
+der Ziff. 0.1.3 mit **zwei** von **drei** Punkten wieder; weggelassen war «in Teilen von Bauten,
+die nur speziell ausgebildeten oder instruierten Personen zugänglich sind». Der Agent hat B02
+BESTÄTIGT und die Lücke **nicht einmal als Anmerkung** erwähnt.
+
+Das ist kein Versagen des Agenten, sondern der **Fragerichtung**: Eine unvollständige Aussage ist
+wahr in allem, was sie sagt, und mit dem Auftrag «versuche zu widerlegen» grundsätzlich nicht
+fassbar. Run 51 hatte dasselbe schwächer beobachtet (Agenten meldeten Auslassungen «durchwegs als
+Anmerkung ohne Verdikt-Wirkung»); hier fiel die Lücke ganz durch.
+
+**Damit ist Methodik-Pflicht 6 («Abdeckung messen, nicht nur Behauptungen prüfen») erstmals
+empirisch für die Refuter-Stufe selbst belegt.** Sie war bisher für Destillate formuliert. Die
+Konsequenz ist dieselbe: Eine Refuter-Runde, so gut sie widerlegt, ist **kein**
+Vollständigkeitsnachweis und darf nie als solcher gelesen werden. Wer Vollständigkeit will,
+braucht die Gegenrichtung (Seiten-Inventur, rechnerische Tabellenaufnahme).
+
+Nächster Schritt: eine Anlage konstruieren, die fehlenden Inhalt **prüfbar** macht — der Agent
+bekommt nicht Behauptungen, sondern einen Quellenabschnitt und die Frage, was das Destillat davon
+nicht führt. Das ist die Fragerichtung, nicht die Modellgüte.
+
+**N52-3 — GESCHLOSSEN: SIA 416/1:2007 destilliert (war QUESTIONS 260813).** Die Norm liegt als
+`alle/xalt/neu/SIA 416_1_2007.pdf` im Haus (40 S., reiner Scan ohne Textlayer) und ist im REGISTER
+durchgehend als 2007✓ **geltend** geführt. Ein Destillat fehlte, weil die Datei in einem Ordner
+namens `xalt` liegt. Jetzt `destillate/sia-416-1-2007.md` (alle 40 S. in 300 dpi gerendert,
+Tabellen 1-5 zellenweise abgelesen, Folio = PDF-Blatt 1:1; Hauptprozess-Stichprobe Ziff. 3.1.3
+und 3.2.1 auf S. 23 am Original bestätigt). Status `speculative`, Refuter-Runde ausstehend.
+Der falsche Frontmatter-Link in `sia-382-2-2011.md` ist umgehängt.
+
+**N52-4 — OFFEN (P3): SIA 215:1978 ist geltend, im Haus und nie destilliert.** REGISTER führt
+SIA 215 als 1978✓; die Datei `alle/xalt/215_d.pdf` (40 S.) trägt auf dem Titelblatt «Ausgabe 1978,
+ersetzt Norm 115 (1953)», Herausgeber mit VSZKGF, Zement-Grundnorm. Für ein Architekturbüro
+randständig, deshalb P3 — aber es ist eine geltende Norm im Bestand ohne Destillat, und sie steht
+im Inventar jetzt als offene `[ ]`-Position.
+
+**N52-5 — OFFEN: Beschaffungsposten SIA 242:2012 und SIA 274:2010.** Beide laut REGISTER geltend,
+beide **nicht im Haus**: von 242 liegen nur `242-1_1994` und `242_2`, von 274 nur der
+Vernehmlassungsentwurf 2008 und `274_d` («VERLÄNGERTE VERNEHMLASSUNG»). Formulierung nach
+Methodik-Pflicht 10: **nicht «nicht destilliert», sondern «nicht im Haus»** — der Punkt geht an
+die Beschaffung, nicht an den Loop. Gleiche Klasse wie die sechs ABB aus Run 51 Ziff. 6.
+
+**N52-6 — OFFEN: Geltungsstatus von SIA 151 und SIA 178 ungeklärt.** Beide liegen ausschliesslich
+in `xalt`, beide sind im REGISTER nicht geführt (weder als geltend noch als zurückgezogen).
+Nächster Schritt: gegen das Gesamtverzeichnis SIA prüfen.
+
+**N52-7 — OFFEN: Fassungsfrage SIA 252.** Der Vernehmlassungsentwurf `xalt/neu/SIA 252_VL_2011-12.pdf`
+trägt auf dem Titelblatt «SIA 252:201█ … Vorgesehen als Ersatz für Norm SIA 252:2002»,
+Stellungnahmefrist 24.02.2012. Die KB destilliert `sia-252-2002.md`. Ein VL-Entwurf ist kein
+Normstand, aber ein **Fassungsindikator** (Methodik-Pflicht 3): Es ist zu prüfen, ob aus dem
+Entwurf eine Ausgabe 2012/2013 geworden ist und ob das Destillat damit auf einer überholten
+Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xalt-Ordner.
+
 ## Normen-Nacht Run 50 (13.08.2026) — Nachprüfung abgeschlossen, neuer Rückstand benannt
 
 - **N50-1 — WIDERLEGT und ERLEDIGT in Run 51 (14.08.2026). Die Prämisse war falsch, die

@@ -1,3 +1,30 @@
+## 2026-08-15 — Normen Run 52: Anhang-D-Kriterien-Rueckverweise am Original korrigiert, S. 45/47 sichtgeprueft
+
+Uebergabepunkt 2a aus Run 51 (N51-Notiz "OCR-gestuetzte Zeilentexte und Kriterien-Rueckverweise
+nicht zitierfaehig") abgearbeitet. Die Kreuzfelder der Anhang-D-Matrix waren bereits rechnerisch
+gesichert (Run 51); offen war nur die Kriterien-Spalte des Exports.
+
+1. **Alle 136 Kriterien-Rueckverweise am Original nachgelesen** (`SIA_Normen/alle/112_1_2017.pdf`,
+   S. 43-48, pdftoppm 400 dpi flaechendeckend, 600 dpi fuer 12 besonders verklebte Zellen).
+   **Seitenversatz PDF-Blatt/gedruckte Folio-Nummer: keiner** (Blatt 42 = Druckseite 42 usw.).
+   **87 von 136 Zeilen korrigiert, 0 unlesbar.** Ganz ueberwiegend reine OCR-Leerzeichen-Verklebung
+   zwischen Kriteriencodes (z.B. "A.7B.5" -> "A.7 B.5"). Echte Zeichenfehler, alle am Original
+   verifiziert: "A.2AAA.7" -> "A.2 A.4 A.7" (Z.11, das im Auftrag genannte Beispiel); "G.3"/"G3"/
+   "G2" wo "C.3"/"C.2" gemeint war, an fuenf Stellen (Z.68, 90, 96, 107, 120 — durchgaengiges
+   Verwechslungsmuster "C." zu "G"); "A.A" -> "A.4" an sechs Stellen (Z.70, 71, 116, 125, 130,
+   134); drei stark entstellte Einzelfaelle "E57" -> "C.5 C.7" (Z.119), "Ga" -> "C.5 C.7" (Z.137),
+   "A1NABBI B.3 C.1" -> "A.1 A.6 B.1 B.3 C.1" (Z.59).
+2. **S. 45 und S. 47 zusaetzlich ganzseitig sichtgeprueft** (Run 51 hatte nur S. 43/44/46/48
+   sichtgeprueft, S. 45/47 nur rechnerisch doppelt gemessen). Zeilenzahl (S. 45: Nutzungskonzept
+   18 + Mobilitaetskonzept 6 = 24; S. 47: Freiraumkonzept 11 + Energie-/Medienkonzept 13 = 24),
+   Blocktitel, Spaltenbelegung und Kreuzfelder stimmen auf beiden Seiten vollstaendig mit dem TSV
+   ueberein — keine Abweichung gefunden.
+3. **Export `training/sia112-1-anhangD-matrix.tsv` korrigiert**, Kreuzfelder unangetastet
+   (19 Spalten je Zeile vor/nach Korrektur identisch geblieben, nur Feld `kriterien_ocr`
+   veraendert). Pruefvermerk als Kommentarzeilen an die Datei angehaengt. Destillat
+   `destillate/sia-112-1-2017.md` nachgefuehrt (⚠-Absatz zu ✅ gehoben, `verifikation`-Feld
+   ergaenzt): **Kriterien-Rueckverweise aus dem Export sind ab sofort zitierfaehig.**
+
 ## 2026-08-14 — Cross-KB (Wissens-Chef Run 32): zwei sprachliche Restbefunde korrigiert
 
 Report: `../koordination/outputs/2026-08-14_wissens-chef-run32.md`.

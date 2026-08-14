@@ -1,137 +1,146 @@
 seite_gedruckt	pdf_blatt	dokumenttyp	leistung_ocr	kriterien_ocr	1_Strategische_Planung	2_Vorstudien	3_Projektierung	4_Ausschreibung	5_Realisierung	6_Bewirtschaftung	Behoerden	Auftraggeber	Planer	Nutzer	Betreiber	Umfeld	Perimeter	Gebaeude
 43	43	Projektorganisation	Definition Zusammenarbeit, Entscheidungswege und -kompetenzen, Kommunikationsgefässe	A.7 B.5	x	x						LE	L				x	
-43	43	Projektorganisation	Definition Aufgaben und Rahmen Planungsteam, Darstellung komplexer Zusammenhänge	A.7B.5		x						E	L				x	
+43	43	Projektorganisation	Definition Aufgaben und Rahmen Planungsteam, Darstellung komplexer Zusammenhänge	A.7 B.5		x						E	L				x	
 43	43	Projektorganisation	Einbindung wichtiger Interessensvertreter und Identifikation möglicher Interessenkonflikte	A.7	x	x	x	x	x	x	P	LE	L	P		x	x	x
 43	43	Projektorganisation	Kommunikation/Öffentlichkeitsarbeit/Information: Organisation, Zuständigkeiten, Anlässe	A.7		x	x	x	x	x	P	L	L	P		x	x	
-43	43	Projektorganisation	Berücksichtigung regionaler und lokaler Dienst- leistungen, Unternehmungen und Produkte	A.5A.7 B.1 B.2		x		x		x		E	L				x	x
+43	43	Projektorganisation	Berücksichtigung regionaler und lokaler Dienst- leistungen, Unternehmungen und Produkte	A.5 A.7 B.1 B.2		x		x		x		E	L				x	x
 43	43	Projektorganisation	Baustelleninfrastruktur und effiziente Transport- planung, Logistikkonzept	A.7			x	x	x			E	L				x	x
 43	43	Projektorganisation	Berücksichtigung der Inbetriebnahme bei der Vergabe unternehmerischer Leistungen	A.4 B.6		x		x		x		E	L				x	x
-43	43	Standortanalyse/Sozialraumstudien	Bestandsaufnahmen, Zustandsanalysen, Mietpreise, Arbeitsmarkt, Regionalökonomie	A.1B.1B.4 B.6	x	x						LE	L			x	x	
-43	43	Standortanalyse/Sozialraumstudien	Zukünftige Entwicklungen (Quartierleitbilder, Raum- planung, Zonenänderungen, Demografie)	A.1 B.1B.3 C.4	x	x						LE	L			x	x	
-43	43	Standortanalyse/Sozialraumstudien	Analyse Nutzer- und Zielgruppen für ergänzende Angebote am Standort, Sozialstruktur	A.2AAA.7 B.2 B.3B.4	x	x						LE	L			x	x	
-43	43	Standortanalyse/Sozialraumstudien	Qualität, Entwicklungspotenzial Grundversorgung: kommerzielles, nicht kommerzielles Angebot	A.2A.3B.1 C.1C.4	x	x						LE	L			x		
-43	43	Standortanalyse/Sozialraumstudien	Ausnützung, Verdichtungspotenzial, baurechtliche Rahmenbedingungen	B.1B.3C.6		x					P	E	L			x	x	
-43	43	Standortanalyse/Sozialraumstudien	Historischer, politischer, gesellschaftlicher, räum- licher, architektonischer, landschaftlicher Kontext	A.5 B.1 B.3 B.4C.3C.5	x	x						LE	L			x		
-43	43	Standortanalyse/Sozialraumstudien	Erreichbarkeit, Mobilitätsangebot, öffentlicher Ver- kehr, Velowege, Fussgänger	A.1A.3B.1 B.2 C.1		x						E	L			x	x	
-43	43	Standortanalyse/Sozialraumstudien	Angebot regionaler Ressourcen, Produkte und Dienst- leistungen im Umfeld, Energieversorgung	A.2 B.1B.2 B.4 C.1 C.3		x		x				E	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Bestandsaufnahmen, Zustandsanalysen, Mietpreise, Arbeitsmarkt, Regionalökonomie	A.1 B.1 B.4 B.6	x	x						LE	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Zukünftige Entwicklungen (Quartierleitbilder, Raum- planung, Zonenänderungen, Demografie)	A.1 B.1 B.3 C.4	x	x						LE	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Analyse Nutzer- und Zielgruppen für ergänzende Angebote am Standort, Sozialstruktur	A.2 A.4 A.7 B.2 B.3 B.4	x	x						LE	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Qualität, Entwicklungspotenzial Grundversorgung: kommerzielles, nicht kommerzielles Angebot	A.2 A.3 B.1 C.1 C.4	x	x						LE	L			x		
+43	43	Standortanalyse/Sozialraumstudien	Ausnützung, Verdichtungspotenzial, baurechtliche Rahmenbedingungen	B.1 B.3 C.6		x					P	E	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Historischer, politischer, gesellschaftlicher, räum- licher, architektonischer, landschaftlicher Kontext	A.5 B.1 B.3 B.4 C.3 C.5	x	x						LE	L			x		
+43	43	Standortanalyse/Sozialraumstudien	Erreichbarkeit, Mobilitätsangebot, öffentlicher Ver- kehr, Velowege, Fussgänger	A.1 A.3 B.1 B.2 C.1		x						E	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Angebot regionaler Ressourcen, Produkte und Dienst- leistungen im Umfeld, Energieversorgung	A.2 B.1 B.2 B.4 C.1 C.3		x		x				E	L			x	x	
 43	43	Standortanalyse/Sozialraumstudien	Analyse Naherholungsqualität, Freiräume, Öko- systeme, Kreislaufsysteme	A.6 B.1 C.3 C.5	x	x						LE	L			x		
-43	43	Standortanalyse/Sozialraumstudien	Topografie, Geologie, Umweltgefahren, Schadstoffe im Boden, Immissionen, Lärm, Verkehr	A.6B.1B.2 B.6C.5	x	x						E	L			x	x	
+43	43	Standortanalyse/Sozialraumstudien	Topografie, Geologie, Umweltgefahren, Schadstoffe im Boden, Immissionen, Lärm, Verkehr	A.6 B.1 B.2 B.6 C.5	x	x						E	L			x	x	
 44	44	Marktanalyse	Marktfähigkeit, Mietpreise, Arbeitsmarkt, Regional- ökonomie, Innovationspotenzial	B.1 B.2 B.5 B.6	x					x		LE	L			x	x	
-44	44	Marktanalyse	Angebot und Nachfrage der geplanten Nutzungen im Umfeld, mittel- und langfristige Perspektive	A.1A.2B.1 B.2 B.3 B.4	x	x				x		LE	L			x	x	
-44	44	Marktanalyse	Klärung Rahmenbedingungen und Sachzwänge (Ausnützung, Erschliessung, Topografie usw.)	A.1A.4 B.1 B.6	x	x						LE	L			x	x	
+44	44	Marktanalyse	Angebot und Nachfrage der geplanten Nutzungen im Umfeld, mittel- und langfristige Perspektive	A.1 A.2 B.1 B.2 B.3 B.4	x	x				x		LE	L			x	x	
+44	44	Marktanalyse	Klärung Rahmenbedingungen und Sachzwänge (Ausnützung, Erschliessung, Topografie usw.)	A.1 A.4 B.1 B.6	x	x						LE	L			x	x	
 44	44	Marktanalyse	Klärung von Anreizen oder Unterstützungsleistungen zur sozio-ökonomischen Aufwertung	A.2 B.2 B.6	x	x						LE	L				x	
-44	44	Marktanalyse	Vermeidung einer Wertverminderung durch raum- planerische, sozialräumliche Entwicklungen	A.1B.1B.4 B.6		x						LE	L			x		
-44	44	Marktanalyse	Städtebaulich und ökonomisch sinnvolle Dichte der Bebauung, Massnahmen zu deren Akzeptanz	A.1 B.1 B.3 C2		x	x				P	E	L	P		x	x	x
-44	44	Marktanalyse	Festlegen Preissegment des Angebots mit Blick auf Zugang zu vielseitigem Marktsegment	A.1A.2B.1 B.4 B.6	x	x						LE	L	P		x	x	
-44	44	Marktanalyse	Gestaltungsqualität, Identität, Innovation, Allein- stellungsmerkmal	A.5 B.1B.5 C.4		x						E	L			x	x	x
+44	44	Marktanalyse	Vermeidung einer Wertverminderung durch raum- planerische, sozialräumliche Entwicklungen	A.1 B.1 B.4 B.6		x						LE	L			x		
+44	44	Marktanalyse	Städtebaulich und ökonomisch sinnvolle Dichte der Bebauung, Massnahmen zu deren Akzeptanz	A.1 B.1 B.3 C.2		x	x				P	E	L	P		x	x	x
+44	44	Marktanalyse	Festlegen Preissegment des Angebots mit Blick auf Zugang zu vielseitigem Marktsegment	A.1 A.2 B.1 B.4 B.6	x	x						LE	L	P		x	x	
+44	44	Marktanalyse	Gestaltungsqualität, Identität, Innovation, Allein- stellungsmerkmal	A.5 B.1 B.5 C.4		x						E	L			x	x	x
 44	44	Marktanalyse	Analyse innovativer Unternehmungen, Dienstleis- tungen im Umfeld	B.5		x						E	L			x		
-44	44	Marktanalyse	Definition Nutzungszyklen, Entwicklung von Nut- zungsszenarien	A.4 B.1B.4 B.7	x	x						LE	L				x	x
+44	44	Marktanalyse	Definition Nutzungszyklen, Entwicklung von Nut- zungsszenarien	A.4 B.1 B.4 B.7	x	x						LE	L				x	x
 44	44	Marktanalyse	Sicherstellen Finanzierbarkeit, Festlegen des Finanzierungsmodells	B.6 B.7	x	x						LE	L				x	
 44	44	Volumenstudien	(Städte)baulich, sozial, funktional und ökonomisch sinnvolle Dichte unter Berücksichtigung Baurecht	A.3 A.5 B.3 B.4 B.7 C.6		x	x				P	E	L			x	x	x
 44	44	Volumenstudien	Gebäudetypologie, Bebauungsstruktur mit hoher Ausnützung an Flächen und Freiflächen	A.5 B.3 B.4 B.5 B.6 C.6		x	x					E	L				x	x
-44	44	Volumenstudien	Bauvolumen im Verhältnis zu Freiräumen, Perimeter- belastung durch Be- und Unterbauung	A5SA6B3 B.4C3C5		x	x					E	L			x	x	x
+44	44	Volumenstudien	Bauvolumen im Verhältnis zu Freiräumen, Perimeter- belastung durch Be- und Unterbauung	A.5 A.6 B.3 B.4 C.3 C.5		x	x					E	L			x	x	x
 44	44	Volumenstudien	Massstäblichkeit im Kontext zum nahen Umfeld, Er- halt identitätsstiftender und baukultureller Werte	A.5 B.1 B.3		x	x					E	L			x	x	x
 44	44	Volumenstudien	Anbindung der Bauvolumen, Erschliessung an Schnittstelle Umfeld zu Perimeter	A.1 A.5 B.1 B.3		x	x					E	L			x	x	x
 44	44	Volumenstudien	Übersichtlichkeit, Orientierung, Adressbildung, Sicherheit aufgrund volumetrischer Setzungen	A.5 C.6		x	x					E	L			x	x	x
-44	44	Volumenstudien	Berücksichtigung von Immissionen (z.B. Lärm) Ökolo- gisch erhaltenswerter Lebensräume	A.6 B.3C.5		x	x					E	L			x		
+44	44	Volumenstudien	Berücksichtigung von Immissionen (z.B. Lärm) Ökolo- gisch erhaltenswerter Lebensräume	A.6 B.3 C.5		x	x					E	L			x		
 44	44	Volumenstudien	Festlegen funktionaler Zusammenhänge und Auswir- kung auf räumliche Anordnungen	A.4 A.5 B.3		x	x					E	L			x	x	x
 44	44	Volumenstudien	Kosteneffizienz: Volumen und Kompaktheit, Mini- mierung Unterterrainbauten	B.7 C.6		x	x					E	L				x	x
 44	44	Volumenstudien	Verschattung, Sonneneinstrahlung, Tageslicht, Ein- und Ausblicke	A.5 B.3		x	x					E	L			x	x	x
-44	44	Volumenstudien	Einfache Raumkonzepte, geringer Flächenbedarf	A.4 B.2 B.3 C.2C.4C.6		x	x					E	L				x	x
-45	45	Nutzungskonzept	Bestimmung der Gebäudetypologie: Ausrichtung Nutzungseinheiten, Erschliessung, Struktur	A.4A.5B.1 B.3		x	x					E	L				x	x
+44	44	Volumenstudien	Einfache Raumkonzepte, geringer Flächenbedarf	A.4 B.2 B.3 C.2 C.4 C.6		x	x					E	L				x	x
+45	45	Nutzungskonzept	Bestimmung der Gebäudetypologie: Ausrichtung Nutzungseinheiten, Erschliessung, Struktur	A.4 A.5 B.1 B.3		x	x					E	L				x	x
 45	45	Nutzungskonzept	Nutzungsdefinition in Ergänzung zum bestehenden Angebot, Ziel höhere Standortqualität	A.1 A.2 A.3 B.1 B.2 B.4	x	x						LE	L		P	x	x	x
-45	45	Nutzungskonzept	Finanzierbarkeit, Marktfähigkeit und langfristige Rendite der geplanten Nutzungen	B.4B.6B.7	x	x						LE	L		P		x	x
-45	45	Nutzungskonzept	Diversität des Angebots, Schaffung möglicher Syner- gien in der Nutzung (gemeinsame Nutzung)	A.3 A.4 B.2 B.5 B.6.C.2	x	x	x			x		E	L	P	L		x	x
-45	45	Nutzungskonzept	Zugänglichkeit, Hindernisfreiheit gemäss SIA 500, Erschliessung für Personen, Güter und Medien	A.1 A.2 A.3 A.4B.2C.1		x	x			x		E	L		L	x	x	x
+45	45	Nutzungskonzept	Finanzierbarkeit, Marktfähigkeit und langfristige Rendite der geplanten Nutzungen	B.4 B.6 B.7	x	x						LE	L		P		x	x
+45	45	Nutzungskonzept	Diversität des Angebots, Schaffung möglicher Syner- gien in der Nutzung (gemeinsame Nutzung)	A.3 A.4 B.2 B.5 B.6 C.2	x	x	x			x		E	L	P	L		x	x
+45	45	Nutzungskonzept	Zugänglichkeit, Hindernisfreiheit gemäss SIA 500, Erschliessung für Personen, Güter und Medien	A.1 A.2 A.3 A.4 B.2 C.1		x	x			x		E	L		L	x	x	x
 45	45	Nutzungskonzept	Nutzungsszenarien in Varianten zur Sicherstellung guter Nutzbarkeit und Möblierbarkeit	A.1 A.4 A.6 B.2 B.6 C.4		x	x					E	L	P	P			x
 45	45	Nutzungskonzept	Anwendung und Entwicklung innovativer Nutzungs- modelle, auch baulich und technisch	A.4 A.5 B.5		x	x	x		x		E	P	P	L			x
-45	45	Nutzungskonzept	Suffizienz: Priorisierung zwingend notwendiger Angebote, Nutzbarkeit bei hoher Belegung	A.2 B.2B.7 C.2C.6	x	x				x		E	P	P	L			x
+45	45	Nutzungskonzept	Suffizienz: Priorisierung zwingend notwendiger Angebote, Nutzbarkeit bei hoher Belegung	A.2 B.2 B.7 C.2 C.6	x	x				x		E	P	P	L			x
 45	45	Nutzungskonzept	Differenzierung öffentlicher/halböffentlicher/privater Räume und Flächen	A.3 A.4 A.6		x	x				P	E	L	P	P		x	x
-45	45	Nutzungskonzept	Mehrfachnutzung von Räumen und Angeboten, Einbezug von Modellen des Teilens	A.2 A.3 A.A B.4C.2 C.6		x	x	x		x		E	P	P	L		x	x
-45	45	Nutzungskonzept	Funktionales Raumprogramm: Grösse, Art, Zu- sammenwirken, Zugänglichkeit der Nutzungen	A.1A.3A.4 B.6C.2		x	x			x		E	L	P	L			x
+45	45	Nutzungskonzept	Mehrfachnutzung von Räumen und Angeboten, Einbezug von Modellen des Teilens	A.2 A.3 A.4 B.4 C.2 C.6		x	x	x		x		E	P	P	L		x	x
+45	45	Nutzungskonzept	Funktionales Raumprogramm: Grösse, Art, Zu- sammenwirken, Zugänglichkeit der Nutzungen	A.1 A.3 A.4 B.6 C.2		x	x			x		E	L	P	L			x
 45	45	Nutzungskonzept	Nutzungstflexibilität/-neutralität, Anpassbarkeit, Dauerhaftigkeit, Einfachheit, Rückbaufähigkeit	A.4 B.4 B.5 B.6 C.2 C.4		x	x			x		E	L		L			x
 45	45	Nutzungskonzept	Gestaltung, Orientierung, Sicherheit, Geborgenheit, Rückzug, Privatheit	A.3 A.5 A.6 B.5		x	x			x		E	L	P	P		x	x
 45	45	Nutzungskonzept	Definition Tragstruktur und Konstruktion: Ressourcen- schonung, Kosten, Sicherheit	B.5 B.7 C.4 C.6		x	x					E	L					x
 45	45	Nutzungskonzept	Sicherheitskonzept: physische Sicherheit im Gebäude und auf dem Grundstück	A.4 A.6		x	x			x		E	L	P	L		x	x
-45	45	Nutzungskonzept	Ausbaustandard entsprechend Preissegment, Robustheit, Einfachheit, vielfältige Nutzbarkeit	A.2C.2C.4 C.6		x	x			x		E	L		P			x
-45	45	Nutzungskonzept	Klärung und Einbindung der Bedürfnisse der vom Projekt Betroffenen	A.2B.2C.2	x	x	x	x	x	x	P	E	L	P	P		x	x
-45	45	Nutzungskonzept	Kosteneffizienz: Flächeneffizienz (HNF/GF) und Er- schliessungseffizienz (VF/GF)	A.2 B.3B.7 c.2		x	x					E	L					x
-45	45	Mobilitätskonzept	Attraktivität und Sicherheit der Wegführungen, Zn Durchlässigkeit, Anbindung an Umfeld	A1NABBI B.3 C.1		x	x			x		E	L		P	x	x	x
-45	45	Mobilitätskonzept	Zugänglichkeit und Anbindung an öffentlichen Ver- kehr, Velowege, Hindernisfreiheit	A.1 B.1B.3 C.1		x	x				P	E	L			x	x	
-45	45	Mobilitätskonzept	Innovative Mobilitätskonzepte und -angebote, Sharing-Systeme, Anreizsysteme	B5C.1		x	x			x		E	L		P		x	
+45	45	Nutzungskonzept	Ausbaustandard entsprechend Preissegment, Robustheit, Einfachheit, vielfältige Nutzbarkeit	A.2 C.2 C.4 C.6		x	x			x		E	L		P			x
+45	45	Nutzungskonzept	Klärung und Einbindung der Bedürfnisse der vom Projekt Betroffenen	A.2 B.2 C.2	x	x	x	x	x	x	P	E	L	P	P		x	x
+45	45	Nutzungskonzept	Kosteneffizienz: Flächeneffizienz (HNF/GF) und Er- schliessungseffizienz (VF/GF)	A.2 B.3 B.7 C.2		x	x					E	L					x
+45	45	Mobilitätskonzept	Attraktivität und Sicherheit der Wegführungen, Zn Durchlässigkeit, Anbindung an Umfeld	A.1 A.6 B.1 B.3 C.1		x	x			x		E	L		P	x	x	x
+45	45	Mobilitätskonzept	Zugänglichkeit und Anbindung an öffentlichen Ver- kehr, Velowege, Hindernisfreiheit	A.1 B.1 B.3 C.1		x	x				P	E	L			x	x	
+45	45	Mobilitätskonzept	Innovative Mobilitätskonzepte und -angebote, Sharing-Systeme, Anreizsysteme	B.5 C.1		x	x			x		E	L		P		x	
 45	45	Mobilitätskonzept	Park- und Stellplätze für Velo und Auto: Art, Anzahl, Lokalisierung und Bewirtschaftung	C.1		x	x			x	P	E	L		L	x	x	
-45	45	Mobilitätskonzept	Evaluation, ggf. Anpassung Mobilitätsangebote	A.1B.1C.1		x	x			x	P	E	L	P	L		x	
-45	45	Mobilitätskonzept	Sensibilisierung Nutzer, Schaffung von Anreiz- systemen	A.7C.1 ?						x		E	L	P	L		x	
-46	46	Ertragsrechnung	Sicherung Finanzierung, Klärung Rahmenbedin- gungen Wirtschaftlichkeit und Rendite	B.6B.7	x	x						LE	L			x	x	x
-46	46	Ertragsrechnung	Priorisierung notwendiger, zwingender und optionaler Angebote	A.2 B.2B.6	x	x						LE	L	P		x	x	
+45	45	Mobilitätskonzept	Evaluation, ggf. Anpassung Mobilitätsangebote	A.1 B.1 C.1		x	x			x	P	E	L	P	L		x	
+45	45	Mobilitätskonzept	Sensibilisierung Nutzer, Schaffung von Anreiz- systemen	A.7 C.1						x		E	L	P	L		x	
+46	46	Ertragsrechnung	Sicherung Finanzierung, Klärung Rahmenbedin- gungen Wirtschaftlichkeit und Rendite	B.6 B.7	x	x						LE	L			x	x	x
+46	46	Ertragsrechnung	Priorisierung notwendiger, zwingender und optionaler Angebote	A.2 B.2 B.6	x	x						LE	L	P		x	x	
 46	46	Ertragsrechnung	Verifizierung Lebenszykluskosten, Berücksichtigung Gesamtkosten inkl. Projektanpassungen	B.2 B.6 B.7		x	x	x	x	x		LE	L		P		x	x
-46	46	Ertragsrechnung	Volumeneffizienz: Kompaktheit der Volumen, Geologie, Terrainverhältnisse, Unterterrainbauten	B.1 B.4 B.5 B.7 G3C.6		x	x					E	L			x	x	x
+46	46	Ertragsrechnung	Volumeneffizienz: Kompaktheit der Volumen, Geologie, Terrainverhältnisse, Unterterrainbauten	B.1 B.4 B.5 B.7 C.3 C.6		x	x					E	L			x	x	x
 46	46	Ertragsrechnung	Ertragsrechnungen unter Einbezug von Einlagen in Unterhalt und Erneuerung	B.6 B.7		x				x		LE	L		P		x	x
-46	46	Ertragsrechnung	Flächeneffizienz: Verhältnis vermietbare Fläche zu Geschossfläche, hohe Nutzbarkeit	A.2 A.AB.2 B.4 C.6		x	x					E	L					x
-46	46	Ertragsrechnung	Erschliessungseffizienz: Verhältnis Verkehrsflächen . zu Hauptnutzflächen	A.A B.2 B.4 c.6		x	x					E	L					x
+46	46	Ertragsrechnung	Flächeneffizienz: Verhältnis vermietbare Fläche zu Geschossfläche, hohe Nutzbarkeit	A.2 A.4 B.2 B.4 C.6		x	x					E	L					x
+46	46	Ertragsrechnung	Erschliessungseffizienz: Verhältnis Verkehrsflächen . zu Hauptnutzflächen	A.4 B.2 B.4 C.6		x	x					E	L					x
 46	46	Ertragsrechnung	Energieeffizienz: Verhältnis Investitionskosten zu Senkung Energiekosten im Betrieb	A.4 B.4		x	x			x		E	L		P			x
-46	46	Ertragsrechnung	Dauerhaftigkeit, Einfachheit und Robustheit, Bedie- nungsfreundlichkeit technischer Systeme	A.4 B.4 B.5 B.7C.4C.6		x	x	x		x		E	L	P	P			x
+46	46	Ertragsrechnung	Dauerhaftigkeit, Einfachheit und Robustheit, Bedie- nungsfreundlichkeit technischer Systeme	A.4 B.4 B.5 B.7 C.4 C.6		x	x	x		x		E	L	P	P			x
 46	46	Ertragsrechnung	Instandhaltung und Instandsetzung: Werterhalt, Erneuerungszyklen, Systemtrennung	B.4 B.7 C.4 C.6		x	x	x		x		E	L		P			x
-46	46	Ertragsrechnung	Nutzbarkeit, Nutzungsflexibilität und -neutralität, Anpassbarkeit bei Nutzungsänderungen	A.4 B.4C.4 C.6		x	x	x		x		E	L		P		x	x
-46	46	Ertragsrechnung	Gestaltungsqualität, Identität, Innovation, Alleinstel- lungsmerkmal	A.5 B.4B.5		x	x				P	E	L				x	x
+46	46	Ertragsrechnung	Nutzbarkeit, Nutzungsflexibilität und -neutralität, Anpassbarkeit bei Nutzungsänderungen	A.4 B.4 C.4 C.6		x	x	x		x		E	L		P		x	x
+46	46	Ertragsrechnung	Gestaltungsqualität, Identität, Innovation, Alleinstel- lungsmerkmal	A.5 B.4 B.5		x	x				P	E	L				x	x
 46	46	Ertragsrechnung	Werterhalt: Regelmässige Instandhaltung und Instand- setzung	B.4 B.6 B.7						x		E	L		P		x	x
-46	46	Ertragsrechnung	Kostengünstige Angebote durch Reduktion Flächen- bedarf, Komfort, Ausbaustandard	A.2 B.2B.4 B.6C.2		x	x					E	L				x	x
-46	46	Materialkonzept	Definition Bauweise/Materialisierung in Abhängigkeit von Struktur und Konstruktion	A.5 C.4C.6		x	x	x				E	L					x
-46	46	Materialkonzept	Identitätsstiftende Massnahmen zum gestalterischen Kontext, Einfachheit	A.5C.2C.4		x	x				P	E	L	P				x
-46	46	Materialkonzept	Materialisierung unter Berücksichtigung von Raum- luftqualität und Umweltbelastung	A.6C.5		x	x	x		x		E	L		P			x
-46	46	Materialkonzept	Recyclingmaterialien und Wiederverwendung ganzer Bauteile, regionale Baustoffe, Entsorgung	A5C.5C.6		x	x	x		x		E	L		P			x
+46	46	Ertragsrechnung	Kostengünstige Angebote durch Reduktion Flächen- bedarf, Komfort, Ausbaustandard	A.2 B.2 B.4 B.6 C.2		x	x					E	L				x	x
+46	46	Materialkonzept	Definition Bauweise/Materialisierung in Abhängigkeit von Struktur und Konstruktion	A.5 C.4 C.6		x	x	x				E	L					x
+46	46	Materialkonzept	Identitätsstiftende Massnahmen zum gestalterischen Kontext, Einfachheit	A.5 C.2 C.4		x	x				P	E	L	P				x
+46	46	Materialkonzept	Materialisierung unter Berücksichtigung von Raum- luftqualität und Umweltbelastung	A.6 C.5		x	x	x		x		E	L		P			x
+46	46	Materialkonzept	Recyclingmaterialien und Wiederverwendung ganzer Bauteile, regionale Baustoffe, Entsorgung	A.5 C.5 C.6		x	x	x		x		E	L		P			x
 46	46	Materialkonzept	Dauerhaftigkeit, Auswechselbarkeit, Unterhalt und Reinigung, Bauschadenfreiheit	B.7 C.4 C.6		x	x	x		x		E	L		P			x
 46	46	Materialkonzept	Funktionstüchtigkeit, spezifische Anforderungen, Sicherheit	A.4 A.6 C.4		x	x	x		x		E	L		P			x
 46	46	Materialkonzept	Auswahl Submittentenlisten mit Berücksichtigung regionaler Anbieter	A.5 C.5 C.6		x		x				E	L					x
-46	46	Materialkonzept	Innovation und Suffizienz: Zulassung Unternehmer- varianten	B5C.2		x		x				E	L					x
-46	46	Materialkonzept	Integration ökologischer Vorgaben in Ausschreibung und Ausführung, Baustellenkontrollen	A.6 C.3 C.5 C.6C.7				x	x			E	L					x
+46	46	Materialkonzept	Innovation und Suffizienz: Zulassung Unternehmer- varianten	B.5 C.2		x		x				E	L					x
+46	46	Materialkonzept	Integration ökologischer Vorgaben in Ausschreibung und Ausführung, Baustellenkontrollen	A.6 C.3 C.5 C.6 C.7				x	x			E	L					x
 46	46	Materialkonzept	Optimierung auf tiefe Lebenszykluskosten, Bauteil- alterung, Unterhalt und Reinigung .	B.7 C.4 C.6		x	x	x		x		E	L		P			x
-47	47	Freiraumkonzept	Analyse Gefahrenzonen, Immissionen (Licht, Lärm, Umweltbelastung) und Altlasten	A.6C.5		x	x				P	E	L			x	x	
-47	47	Freiraumkonzept	Setzung Bauvolumen: Freiflächen, Schnittstelle zu Umfeld, Terraingestaltung, Grundwasser	B:3:C.3		x	x				P	E	L				x	
-47	47	Freiraumkonzept	Nicht unterbaute Freiflächen, Versickerung- und Retentionsflächen, Dachbegrünungen	B.7C.3C.6		x	x				P	E	L				x	
+47	47	Freiraumkonzept	Analyse Gefahrenzonen, Immissionen (Licht, Lärm, Umweltbelastung) und Altlasten	A.6 C.5		x	x				P	E	L			x	x	
+47	47	Freiraumkonzept	Setzung Bauvolumen: Freiflächen, Schnittstelle zu Umfeld, Terraingestaltung, Grundwasser	B.3 C.3		x	x				P	E	L				x	
+47	47	Freiraumkonzept	Nicht unterbaute Freiflächen, Versickerung- und Retentionsflächen, Dachbegrünungen	B.7 C.3 C.6		x	x				P	E	L				x	
 47	47	Freiraumkonzept	Nutzungen, Raumprogramm in Aussen- und Frei- räumen differenziert nach Zielgruppen	A.3 A.4 B.3 C.3		x	x			x		E	L	P	P		x	
 47	47	Freiraumkonzept	Angebot von Räumen und Orten zur Förderung sozialer Kontakte, Nutzbarkeit, Zugänglichkeit	A.3 B.3		x	x			x		E	L	P	P		x	x
 47	47	Freiraumkonzept	Sicherheit im Aussenraum, Wegführungen, Über- sichtlichkeit, Zugänglichkeit, Hindernisfreiheit	A.1 A.4 A.6		x	x			x		E	L	P	P		x	
 47	47	Freiraumkonzept	Ökologische Qualität und Vielfalt, Mikroklimate, Nischen an Gebäuden, standortgerechte Pflanzen	A.6 C.3		x	x			x		E	L		P		x	
-47	47	Freiraumkonzept	Baustelle: Schutz erhaltenswerter Lebensräume und Ökosysteme, Bodenschutzkonzept	G.3				x	x		P	E	L				x	
+47	47	Freiraumkonzept	Baustelle: Schutz erhaltenswerter Lebensräume und Ökosysteme, Bodenschutzkonzept	C.3				x	x		P	E	L				x	
 47	47	Freiraumkonzept	Kosteneffizienz: Unterhaltsplanung der Aussen- anlagen, Aufwandoptimierung	A.4 B.7		x	x			x		LE	P		L		x	
 47	47	Freiraumkonzept	Bildung informeller Treffpunkte und Nischen (z.B. durch Nutzungsneuftralität)	A.3		x	x			x		E	L	P	P		x	x
 47	47	Freiraumkonzept	Differenzierung privater, halböffentlicher, öffentlicher Aussenräume	A.3		x	x			x		E	L	P	P	x	x	x
-47	47	Energie- und Medienkonzept	Kompaktheit, Flächenanteil und Orientierung Fenster, Verschattung, sommerl. Wärmeschutz	C.6C.7		x	x					E	L				x	x
-47	47	Energie- und Medienkonzept	Definition Energiestandard, Effizienz, Suffizienz, Defi- nition Dämmstandard und Dämmperimeter	B.4C.2C.7		x	x					E	L					x
-47	47	Energie- und Medienkonzept	Schachtkonzept zur zugänglichen, vertikalen Medien- führung, kurze Verteilwege	A.6 C.4 C.6 0.7		x	x					E	L					x
-47	47	Energie- und Medienkonzept	Nutzung erneuerbarer Energien, Energiekonzepte unter Berücksichtigung des Standortangebots	B.1 B.4 B.5 B.7C.7	x	x	x				P	E	L			x	x	x
-47	47	Energie- und Medienkonzept	Definition Raumkonditionen, Klima, Beleuchtung, Behaglichkeit usw.	A.6C.4C.7	x	x					P	E	L		P			x
+47	47	Energie- und Medienkonzept	Kompaktheit, Flächenanteil und Orientierung Fenster, Verschattung, sommerl. Wärmeschutz	C.6 C.7		x	x					E	L				x	x
+47	47	Energie- und Medienkonzept	Definition Energiestandard, Effizienz, Suffizienz, Defi- nition Dämmstandard und Dämmperimeter	B.4 C.2 C.7		x	x					E	L					x
+47	47	Energie- und Medienkonzept	Schachtkonzept zur zugänglichen, vertikalen Medien- führung, kurze Verteilwege	A.6 C.4 C.6 C.7		x	x					E	L					x
+47	47	Energie- und Medienkonzept	Nutzung erneuerbarer Energien, Energiekonzepte unter Berücksichtigung des Standortangebots	B.1 B.4 B.5 B.7 C.7	x	x	x				P	E	L			x	x	x
+47	47	Energie- und Medienkonzept	Definition Raumkonditionen, Klima, Beleuchtung, Behaglichkeit usw.	A.6 C.4 C.7	x	x					P	E	L		P			x
 47	47	Energie- und Medienkonzept	Bevorzugung baulicher Lösungen gegenüber techni- schen Lösungen (Bauteilzyklen)	B.7 C.4		x	x					E	L					x
-47	47	Energie- und Medienkonzept	Bestimmung der technischen Ausrüstung (Art und Grad, lowtech/hightech)	A.4B.7C.2 C.4C.6C.7		x	x				P	E	L	P	P			x
-47	47	Energie- und Medienkonzept	Lüftungskonzept bezüglich optimaler Raumluft- qualität und angemessener Technisierung	A.4 A.6 B.5 G2C6C7		x	x					E	L	P	P			x
-47	47	Energie- und Medienkonzept	Beleuchtungskonzept: Tageslichtnutzung, Kunstlicht- nutzung, Steuerung	A.6C.7		x	x					E	L		P		x	x
-47	47	Energie- und Medienkonzept	Bedienungsfreundlichkeit und Robustheit der An- lagen, geeignetes Messkonzept	A.4 B.5 B.7 C.2 C.4C.6		x	x	x		x		E	L	P	P			x
-47	47	Energie- und Medienkonzept	Einschluss von Leistungen zur Inbetriebnahme, Wartung, Dokumentation	B.7C7					x	x		E	L		L			x
-47	47	Energie- und Medienkonzept	Innovation und Suffizienz: Einbindung Unternehmer- varianten	B5C2C7				x		x		E	L					x
-47	47	Energie- und Medienkonzept	Regelmässige Überprüfung, Betriebsoptimierung, Monitoring, Nutzerverhalten, -sensibilisierung	A.AB.7C.7						x		E	L	P	L			x
-48	48	Betriebskonzept	Vermietung und Verwaltungsplanung, Vergabe- kriterien, Solidaritätsbeiträge	A.2B.6B.7		x	x			x		LE	P		L	x	x	
-48	48	Betriebskonzept	Ertragsrechnung und Mietzinskalkulation mit Berücksichtigung des Erneuerungsfonds	B.4 B.6B.7		x	x			x		LE	P		L	x	x	
+47	47	Energie- und Medienkonzept	Bestimmung der technischen Ausrüstung (Art und Grad, lowtech/hightech)	A.4 B.7 C.2 C.4 C.6 C.7		x	x				P	E	L	P	P			x
+47	47	Energie- und Medienkonzept	Lüftungskonzept bezüglich optimaler Raumluft- qualität und angemessener Technisierung	A.4 A.6 B.5 C.2 C.6 C.7		x	x					E	L	P	P			x
+47	47	Energie- und Medienkonzept	Beleuchtungskonzept: Tageslichtnutzung, Kunstlicht- nutzung, Steuerung	A.6 C.7		x	x					E	L		P		x	x
+47	47	Energie- und Medienkonzept	Bedienungsfreundlichkeit und Robustheit der An- lagen, geeignetes Messkonzept	A.4 B.5 B.7 C.2 C.4 C.6		x	x	x		x		E	L	P	P			x
+47	47	Energie- und Medienkonzept	Einschluss von Leistungen zur Inbetriebnahme, Wartung, Dokumentation	B.7 C.7					x	x		E	L		L			x
+47	47	Energie- und Medienkonzept	Innovation und Suffizienz: Einbindung Unternehmer- varianten	B.5 C.2 C.7				x		x		E	L					x
+47	47	Energie- und Medienkonzept	Regelmässige Überprüfung, Betriebsoptimierung, Monitoring, Nutzerverhalten, -sensibilisierung	A.4 B.7 C.7						x		E	L	P	L			x
+48	48	Betriebskonzept	Vermietung und Verwaltungsplanung, Vergabe- kriterien, Solidaritätsbeiträge	A.2 B.6 B.7		x	x			x		LE	P		L	x	x	
+48	48	Betriebskonzept	Ertragsrechnung und Mietzinskalkulation mit Berücksichtigung des Erneuerungsfonds	B.4 B.6 B.7		x	x			x		LE	P		L	x	x	
 48	48	Betriebskonzept	Vermietungs- und Verwaltungskonzepte unter Ein- bezug der Nutzer, Belegungsplanung	A.1 A.2 A.3		x	x			x		LE	P	P	L	x	x	
-48	48	Betriebskonzept	Nutzungsvereinbarungen für Räume und Gebrauchs- anweisungen für Geräte	A.2 A.3 A.A A.5		x	x			x		LE	P	P	L		x	x
+48	48	Betriebskonzept	Nutzungsvereinbarungen für Räume und Gebrauchs- anweisungen für Geräte	A.2 A.3 A.4 A.5		x	x			x		LE	P	P	L		x	x
 48	48	Betriebskonzept	Hauswartung, Sicherheitskonzept für Innen- und Aussenanlagen	A.4 A.6						x		LE	P		L	x	x	x
 48	48	Betriebskonzept	Regelung der Nutzung der Bauten und Anlagen für Menschen mit Behinderung	A.2 A.4 B.4 C.4			x			x		LE	L	P	L		x	x
-48	48	Betriebskonzept	Abfall- und Entsorgungskonzept	E57			x	x		x		E	L		P	x	x	x
-48	48	Betriebskonzept	Definition Partizipationsprozess für den Betrieb, Instruktion Gremien Partizipation	A.1A.2A.7 G.2C.7		x				x	P	E	P	P	L	x		
-48	48	Betriebskonzept	Anwendung innovativer Betriebskonzepte, Einbin- dung von Suffizienzstrategien in den Betrieb	B.4B.5 C.2 7						x		E	L	P	P	x		
-48	48	Betriebskonzept	Berücksichtigung von Dienstleistungen regionaler Unternehmer	A2B.2C2		x		x		x		E	P		L	x		
-48	48	Betriebskonzept	Raumbuch mit Angaben zu Nutzungen, Installationen, Materialien	B.7C.2C.7					x	x		E	L		P	x	x	x
+48	48	Betriebskonzept	Abfall- und Entsorgungskonzept	C.5 C.7			x	x		x		E	L		P	x	x	x
+48	48	Betriebskonzept	Definition Partizipationsprozess für den Betrieb, Instruktion Gremien Partizipation	A.1 A.2 A.7 C.2 C.7		x				x	P	E	P	P	L	x		
+48	48	Betriebskonzept	Anwendung innovativer Betriebskonzepte, Einbin- dung von Suffizienzstrategien in den Betrieb	B.4 B.5 C.2 C.7						x		E	L	P	P	x		
+48	48	Betriebskonzept	Berücksichtigung von Dienstleistungen regionaler Unternehmer	A.2 B.2 C.2		x		x		x		E	P		L	x		
+48	48	Betriebskonzept	Raumbuch mit Angaben zu Nutzungen, Installationen, Materialien	B.7 C.2 C.7					x	x		E	L		P	x	x	x
 48	48	Betriebskonzept	Instandhaltung/-setzung, Wartung, Betrieb: Wartungs- und Serviceverträge, Dokumentation	B.6 B.7 C.4 C.7					x	x		LE	P		L	x	x	x
-48	48	Betriebskonzept	Nutzerbefragungen zur Zufriedenheit und Definition Ansprechpersonen/Hauswartung	A.AA.7						x		E		P	L	x	x	x
+48	48	Betriebskonzept	Nutzerbefragungen zur Zufriedenheit und Definition Ansprechpersonen/Hauswartung	A.4 A.7						x		E		P	L	x	x	x
 48	48	Betriebskonzept	Periodische Überprüfung, ggf. Anpassung der Be- triebskonzepte bezüglich Marktfähigkeit	A.1 A.2 A.3 A.4 B.4 B.6						x		E	P		L	x	x	x
-48	48	Betriebskonzept	Unterhalt der Mobilitätseinrichtungen, Aussen- anlagen, Gebäude und ggf. Instandsetzung	B:7 51						x		E	P	P	L	x	x	
-48	48	Betriebskonzept	Unterhaltsplanung der technischen Anlagen, Betriebs- optimierung, Monitoring, Messkonzepte	B.6B.7 C.1 507		x	x			x		E	L	P	L	x	x	x
-48	48	Betriebskonzept	Periodische Überprüfung, ggf. Instandsetzung oder Erneuerung	B:72						x		E	L		L	x	x	x
-48	48	Betriebskonzept	Nutzungs- und Betriebskonzepte für gemeinsam genutzte Räume	A.3 A.AB.7 7		x	x			x		LE		P	L	x	x	x
-48	48	Betriebskonzept	Dokumentation bauliche und technische Massnahmen	A.4 B.7 C.4 7					x	x		E	L		P	x	x	x
-48	48	Betriebskonzept	Einführung und Nachführung verständlich anwend- barer Nutzungs- und Betriebsanleitungen	A.4B.7C.7					x	x		LE	P	P	L	x	x	x
-48	48	Betriebskonzept	Erhalt und Steigerung der Standortqualitäten	B.1 B.4 B.7 7						x		E	L	P	L	x		
-48	48	Betriebskonzept	Sicherstellung der Nutzungsvielfalt durch Nutzungs- und Betriebskonzepte	A.4 B.3 B.4 E27		x				x		E	P	P	L	x	x	x
-48	48	Betriebskonzept	Wirtschaftlichkeitsprüfung des Betriebskonzepts während der Nutzungszeit	B.6B.7						x		LE	P		L	x	x	x
-48	48	Betriebskonzept	Fortlaufende Betriebsoptimierung, regelmässige Überprüfung der Energieverbräuche	B7G.7						x		LE	L	P	L	x	x	x
-48	48	Betriebskonzept	Aktive Abfallbewirtschaftung im Rahmen der realisierten Entsorgungsinfrastruktur	Ga						x		LE	P		L	x	x	
+48	48	Betriebskonzept	Unterhalt der Mobilitätseinrichtungen, Aussen- anlagen, Gebäude und ggf. Instandsetzung	B.7 C.1						x		E	P	P	L	x	x	
+48	48	Betriebskonzept	Unterhaltsplanung der technischen Anlagen, Betriebs- optimierung, Monitoring, Messkonzepte	B.6 B.7 C.1 C.5 C.7		x	x			x		E	L	P	L	x	x	x
+48	48	Betriebskonzept	Periodische Überprüfung, ggf. Instandsetzung oder Erneuerung	B.7 C.7						x		E	L		L	x	x	x
+48	48	Betriebskonzept	Nutzungs- und Betriebskonzepte für gemeinsam genutzte Räume	A.3 A.4 B.7 C.7		x	x			x		LE		P	L	x	x	x
+48	48	Betriebskonzept	Dokumentation bauliche und technische Massnahmen	A.4 B.7 C.4 C.7					x	x		E	L		P	x	x	x
+48	48	Betriebskonzept	Einführung und Nachführung verständlich anwend- barer Nutzungs- und Betriebsanleitungen	A.4 B.7 C.7					x	x		LE	P	P	L	x	x	x
+48	48	Betriebskonzept	Erhalt und Steigerung der Standortqualitäten	B.1 B.4 B.7 C.7						x		E	L	P	L	x		
+48	48	Betriebskonzept	Sicherstellung der Nutzungsvielfalt durch Nutzungs- und Betriebskonzepte	A.4 B.3 B.4 C.7		x				x		E	P	P	L	x	x	x
+48	48	Betriebskonzept	Wirtschaftlichkeitsprüfung des Betriebskonzepts während der Nutzungszeit	B.6 B.7						x		LE	P		L	x	x	x
+48	48	Betriebskonzept	Fortlaufende Betriebsoptimierung, regelmässige Überprüfung der Energieverbräuche	B.7 C.7						x		LE	L	P	L	x	x	x
+48	48	Betriebskonzept	Aktive Abfallbewirtschaftung im Rahmen der realisierten Entsorgungsinfrastruktur	C.5 C.7						x		LE	P		L	x	x	
+# --- Pruefvermerk Run 52, 15.08.2026 ---
+# Auftrag: Kriterien-Rueckverweise (Anhang D, S. 43-48) am Original SIA 112/1:2017 nachgelesen und korrigiert.
+# Quelle: SIA_Normen/alle/112_1_2017.pdf, pdftoppm -r 400 (S.43-48) + gezielte 600-dpi-Nachrenderings.
+# Seitenversatz PDF-Blatt <-> gedruckte Folio-Nummer: KEINER (Blatt 42 = Druckseite 42, Blatt 43 = Druckseite 43, usw. bis Blatt 48 = Druckseite 48).
+# Korrigiert: 87 von 136 Zeilen (Spalte kriterien_ocr). Reine OCR-Verklebungen (fehlendes Leerzeichen zwischen Kriterien-Codes, z.B. A.7B.5 -> A.7 B.5): Mehrheit der Faelle.
+# Echte Zeichenfehler (nicht nur Leerzeichen), am Original verifiziert: A.2AAA.7->A.2 A.4 A.7 (Z.11); G3/G.3/G2 wo C.3/C.2 gemeint war, mehrfach (Z.68,90,96,107,120); A.A->A.4, mehrfach (Z.70,71,116,125,130,134); E57->C.5 C.7 (Z.119); Ga->C.5 C.7 (Z.137); B:7 51->B.7 C.1 (Z.127); B:72->B.7 C.7 (Z.129); 0.7->C.7 (Z.102); einzelne "7"->C.7 ergaenzt (Z.121,130,131,133); B7G.7->B.7 C.7 (Z.136); A1NABBI B.3 C.1->A.1 A.6 B.1 B.3 C.1 (Z.59); B:3:C.3->B.3 C.3 (Z.90); c.2/c.6 Kleinschreibung->C.2/C.6 (Z.58,71).
+# UNLESBAR: 0 Rueckverweise. Jede Zeile war bei 400 dpi (Standardseiten) bzw. 600 dpi (Einzelfaelle Z.11,59,32,68,90,96,102,107,111,112,119-137) eindeutig lesbar.
+# Sichtpruefung S.45 (Nutzungskonzept 18 Zeilen + Mobilitaetskonzept 6 Zeilen = 24) und S.47 (Freiraumkonzept 11 Zeilen + Energie-/Medienkonzept 13 Zeilen = 24): Zeilenzahl, Blocktitel, Spaltenbelegung und Kreuzfelder stimmen vollstaendig mit dem TSV ueberein. Keine Abweichung gefunden.
+# Kreuzfelder (E/L/P/x-Spalten) wurden NICHT angefasst, wie in Run 51 rechnerisch aufgenommen.

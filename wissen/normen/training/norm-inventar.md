@@ -81,7 +81,36 @@ Positionen der Uebernahme sind als Erstdestillat angelegt, Status durchwegs `spe
   `sia-162-152-a1-a2.md` (Aenderungsblaetter als Delta-Destillate; Rueckwirkung als datierte
   Inline-Hinweise in den established Grundnorm-Destillaten nachgefuehrt, 5 bzw. 3 Stellen)
 
-Die 9 xalt-Altausgaben werden gemaess Programm NICHT destilliert.
+~~Die 9 xalt-Altausgaben werden gemaess Programm NICHT destilliert.~~
+
+**⚠ PRAEZISIERT Run 52 (15.08.2026) — der xalt-Ordner traegt 76 PDF, nicht 9, und nicht alle sind
+Altausgaben.** Formulierung nach Methodik-Pflicht 10: Das Inventar hatte «9 Altausgaben», neu
+gemessen sind es 76 Dateien (57 direkt in `alle/xalt/`, 19 im Unterordner `alle/xalt/neu/`; die
+Unterordner `index5/` und `index7/` sind Hilfsdateien, keine Normen). Der Unterordner heisst
+«neu» — und das ist woertlich zu nehmen. Vollstaendige Aufnahme:
+`training/xalt-bestandsaufnahme-260815.md` (Erhebung durch Subagent; die Klassenspalte ist
+NICHT belastbar, siehe Warnung in der Datei — der Hauptprozess hat die entscheidenden Faelle
+selbst gegen `wiki/REGISTER.md` nachgemessen).
+
+Belastbar nachgemessen (Hauptprozess, gegen REGISTER + Destillat-Deckung):
+
+| Norm | Befund | Konsequenz |
+|---|---|---|
+| **SIA 416/1:2007** | REGISTER: 2007✓ **geltend**; Datei `xalt/neu/SIA 416_1_2007.pdf`; kein Destillat | **destilliert Run 52** → `sia-416-1-2007.md`, schliesst QUESTIONS 260813 |
+| **SIA 215:1978** | REGISTER: 1978✓ **geltend**; Datei `xalt/215_d.pdf` (40 S., Titelblatt «Ausgabe 1978», ersetzt Norm 115:1953, Zement/VSZKGF); kein Destillat | **[ ] P3 offen** — geltende Norm, im Haus, nie destilliert |
+| SIA 242 | REGISTER: 2012✓ geltend; im Haus nur `242-1_1994`, `242_2` | Beschaffungsposten, nicht Destillier-Rueckstand |
+| SIA 274 | REGISTER: 2010✓ geltend; im Haus nur VL-Entwurf 2008 und `274_d` («VERLAENGERTE VERNEHMLASSUNG») | Beschaffungsposten |
+| 136 · 222 · 233 · 234 · 235 · 280 · 381/1 · 381/2 | REGISTER: «alle zurueckgezogen» ✗ | korrekt nicht destilliert, kein Handlungsbedarf |
+| 151 · 178 | im REGISTER nicht gefuehrt | Status ungeklaert, siehe QUESTIONS 260815 |
+| 251:2008 · 271:2007 · 273:1989 · 358:2010 · 500:2009 | identische Kopie liegt zusaetzlich in `alle/` | Dubletten, inhaltlich gedeckt; irrefuehrende Ablage |
+| 17 Dateien mit «VL»/«Entwurf zur Vernehmlassung»/Jahr «200X» bzw. «201█» | Vernehmlassungsentwuerfe | korrekt nicht als Normstand zu destillieren, aber **Fassungsindikator** (Methodik-Pflicht 3): der VL-Entwurf `SIA 252_VL_2011-12` kuendigt den Ersatz von SIA 252:2002 an |
+
+**Die Lehre, gleiche Familie wie Methodik-Pflicht 2 («Sprachvariante ist eine Behauptung, keine
+Feststellung»): Ein Ordnername ist eine Behauptung ueber den Inhalt, keine Feststellung.**
+«xalt» hat 76 Dateien pauschal aus dem Blickfeld genommen, darunter mindestens zwei geltende
+Normen. Derselbe Mechanismus hatte schon SIA D 0165 getroffen (Run 29, Zeile 335 unten) — dort
+wurde die einzelne Datei geheilt, der Ordner aber nie geprueft. **Eine Einzelfall-Heilung ersetzt
+die Bestandsaufnahme nicht.**
 
 **[x] 130813 — die 17 Refuter-Runden sind GEFAHREN (Run 49, Multi-Agent-Flotte, 34 Agenten).
 Ergebnis: 17/17 BEANSTANDET, 70 Kernbefunde, 190 Nebenbefunde, KEINE Hebung auf `established`.**
@@ -500,6 +529,8 @@ aus der KB `baurecht`».
 
 | Status | Prio | Norm | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
+| [ ] | P3 | SIA 215 — Zement (Grundnorm, VSZKGF) | 215 | **1978** | **Neu aufgenommen Run 52 (15.08.2026).** REGISTER führt SIA 215 als **1978✓ geltend**; die Datei `SIA_Norm/SIA_Normen/alle/xalt/215_d.pdf` (40 S.) trägt auf dem Titelblatt «Ausgabe 1978», «Ersetzt Norm 115 (1953)», Herausgeber-Mitwirkung VSZKGF. Sie war nie destilliert, weil sie im Ordner `xalt` liegt — derselbe Mechanismus wie bei SIA 416/1:2007 (Run 52 destilliert) und SIA D 0165 (Run 29). **Anders als jene beiden für ein Architekturbüro randständig** (Zement-Produktgrundnorm, kein Planungs-/Vertragsstoff), deshalb P3 und nicht P1. Die zugehörigen Teilnormen 215.002 (EN 197-1:2000, Zement Zusammensetzung) und 215.003 (EN 197-2:2000, Konformitätsbewertung) liegen ebenfalls in `xalt`. |
+| [x] 260815 | P1 | SIA 416/1 — Kennzahlen für die Gebäudetechnik | 416/1 | 2007 | `sia-416-1-2007.md`, Erstdestillat Run 52 (15.08.2026). Quelle `alle/xalt/neu/SIA 416_1_2007.pdf`, 40 S., reiner Scan ohne Textlayer, vollständig in 300 dpi gerendert; Tabellen 1-5 zellenweise abgelesen (Methodik-Pflicht 8), Folio = PDF-Blatt 1:1 verifiziert. Kern: Energiebezugsfläche A_E (Ziff. 3.2), Gebäudehüllfläche A_b/A_th/A_inf (Ziff. 3.3), Energiekennzahl E (Ziff. 4.1); ersetzt Empfehlung SIA 180/4:1982. Status `speculative`, Refuter-Runde ausstehend. Schliesst QUESTIONS 260813 (Link-Fehler in `sia-382-2-2011.md` umgehängt). |
 | [ ] | P2 | SIA 491 — Vermeidung unnötiger Lichtemissionen im Aussenraum | 491 | 2013 | **Preis verifiziert 260729: CHF 90.00 (shop.sia.ch, Download = Papier).** Bring-Schuld KB `baurecht` (Fundstelle `baurecht/wiki/laermschutz-und-nichtionisierende-strahlung.md:165`), angemeldet Wissens-Chef Run 15. Bestand geprüft 260727 (Run 30): weder in PL-02 noch in PL-03 vorhanden — bleibt externe Bring-Schuld (SIA-Shop-Kauf), keine PL-03-Fehlklassierung. |
 | [ ] | P2 | SN EN 12193 — Licht und Beleuchtung, Sportstättenbeleuchtung | EN 12193 | **2019** | Bring-Schuld KB `baurecht` (selbe Fundstelle). Bestand geprüft 260727 (Run 30): weder in PL-02 noch in PL-03 vorhanden. **Nachfolgefrage GEKLÄRT 260729 (Run 36, Bestelllisten-Recherche): gültig ist SN EN 12193:2019 (gültig ab 01.08.2019), sie ersetzt die 2008er — die KB fragte bisher nach der falschen Ausgabe.** Bezug connect.snv.ch, CHF 134.00 (Online+PDF) bzw. 115.00 (nur Online); für die KB braucht es die PDF-Variante. |
 | [ ] | P2 | SN 640 052 (VSS) — Kehrplatz/Kehrmöglichkeit bei Stichstrassen | 640 052 | — | Bring-Schuld KB `baurecht` (`baurecht/wiki/baureife-und-erschliessung.md:76`). Gehört in den VSS-Erschliessungsblock, der in Run 11/12/13 dreimal korrigiert werden musste. |
