@@ -1,0 +1,36 @@
+=== Geister-Cleanup 2026-08-14 09:03:32 ===
+
+--- Ziel: OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2 2
+Groesse: 0 KB
+rm: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2 2: Directory not empty
+ERGEBNIS: haengt noch (vermutlich weiter von Schnappschuessen
+gehalten) — spaeter erneut versuchen, ggf. einmalig manuell mit sudo
+
+--- Ziel: OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2
+Groesse: 0 KB
+rm: /Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2: Directory not empty
+ERGEBNIS: haengt noch (vermutlich weiter von Schnappschuessen
+gehalten) — spaeter erneut versuchen, ggf. einmalig manuell mit sudo
+
+--- CloudStorage danach (Soll: Dropbox, 4x GoogleDrive, OneDrive-JANS,
+--- OneDrive-FreigegebeneBibliotheken–JANS — sonst nichts):
+total 32
+drwxr-xr-x+  12 raphaeljans  staff    384 Aug 12 17:44 .
+drwx------@ 125 raphaeljans  staff   4000 Aug 13 19:36 ..
+-rw-r--r--@   1 raphaeljans  staff  14340 Aug 12 19:00 .DS_Store
+drwx------@  20 raphaeljans  staff    640 Mar 25 15:33 Dropbox
+dr-x------@   9 raphaeljans  staff    288 Nov  8  2024 GoogleDrive-jans.architektur@gmail.com
+dr-x------@   7 raphaeljans  staff    224 Nov 12  2024 GoogleDrive-mail@raphaeljans.ch
+dr-x------@   9 raphaeljans  staff    288 Jul 25  2023 GoogleDrive-raphaeljans@me.com
+dr-x------@   7 raphaeljans  staff    224 Jul 11  2023 GoogleDrive-rphljans@gmail.com
+drwx------@  21 raphaeljans  staff    672 Aug 13 05:22 OneDrive-FreigegebeneBibliotheken–JANS
+drwx------@  25 raphaeljans  staff    800 Aug  8 18:08 OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2 2
+drwx------@  27 raphaeljans  staff    864 Aug  8 18:09 OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–OneDrive-FreigegebeneBibliotheken–JANS2
+drwx------@  13 raphaeljans  staff    416 Aug 13 05:22 OneDrive-JANS
+
+--- Gesunde Ordner unversehrt?
+OneDrive-JANS: OK
+FreigegebeneBibliotheken–JANS: OK
+
+--- Quarantaene unangetastet?
+2.8G	/Users/raphaeljans/OneDrive-Quarantaene-260808
