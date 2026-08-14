@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 14.08.2026 13:40:45
+Stand: 14.08.2026 13:51:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/systemdateien/optimierung/84ae11  (letzte Aktivitaet 13:37)
+- Developer/jans/ai/hub//claude/worktrees/systemdateien/optimierung/84ae11  (letzte Aktivitaet 13:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 14.08.2026 13:40:45
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 0e5bb38c energie-training Run 131: Richtlinie 7-Meilenschritte destilliert (Mac Mini Nachtschicht 13:30)
+- 92a5e7ac Speicherputz 260814: Rule On-Demand-Standard, Chronik-Eintrag, rollen-map speicher-hygiene-quartal

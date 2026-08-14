@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 14.08.2026 13:46:50
+Stand: 14.08.2026 13:57:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 13:37)
@@ -15,4 +15,4 @@ Stand: 14.08.2026 13:46:50
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 60e06912 nas-selfcommit: 2 Datei(en) 2026-08-14 13:45
+- 92a5e7ac Speicherputz 260814: Rule On-Demand-Standard, Chronik-Eintrag, rollen-map speicher-hygiene-quartal
