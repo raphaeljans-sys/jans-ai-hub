@@ -24,9 +24,19 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[pu-beschichtung-fassade]] — PU-Fassadenbeschichtung: Aufbau, Verarbeitung,
   Elastizitäts-/Garantierisiken (Stand 2002, unverifiziert)
 
+### BKP 281 — Bodenbeläge (Estrich-Systeme)
+- [[bkp-281-estrich-systeme]] — Verbund-/Trenn-/Schwimmestrich (DIN 18560/13813),
+  Festigkeitsklassen, beheizter Estrich Bauart A/B/C, CM-Restfeuchtemessung
+  (Stand 2017, DIN-basiert, nicht SIA)
+
 ### BKP 224 — Bedachungsarbeiten
 - [[dachbegruenung-systeme]] — Extensive/intensive Dachbegrünung, drei CH-Anbieter
   (Stand 2002, unverifiziert, Systematik bleibt brauchbar)
+
+### BKP 221 — Fenster, Aussentüren, Tore
+- [[bkp-221-holzfenster-3fach-verglasung]] — Holzfenster 3-fach verglast: Rahmen-/
+  Glasaufbau, Uw-Berechnung (Ug 0,6 → Uw 0,9 W/m²K), EN-Klassen B4/9A/4, LV-Positionen
+  Demontage/Abdichten/Fugen (Stand 07/2017, Degonda SA als Beispiel)
 
 ### BKP 233 — Leuchten und Lampen
 - [[erco-lichtplanung-glossar]] — ERCO Ratgeber Teil 3/3 (S. 427-435 von 435,
