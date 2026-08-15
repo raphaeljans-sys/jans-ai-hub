@@ -3,7 +3,7 @@ title: Arbeitsweise & Orchestrierung
 status: established
 last_updated: 2026-08-15
 gewichtung: authentisch
-sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -2782,3 +2782,67 @@ Quelle: 02.06.2026, authentisch (zwei Belege desselben Tages, gegenläufig).
   den Prozessschritt davor.
 
 Quelle: 03.–07.08.2026, authentisch.
+
+
+## «A) B) C) D)» auch in der Rügen-/Forderungsliste an den LAUFENDEN Fachplaner (belegt Fidelity 260815, authentisch)
+
+Beleg: `rj@` 04.06.2026 13:35 UTC, «AW: 2619 KISPI PPTS: Plangrundlagen Neu…» an Mustafa Eren
+(Gruner, Sanitärplaner), Cc sieben Mitlesende. Outlook nativ, `Aptos`+`rgb(0,0,0)`, Tippfehler
+im Text («Ich weisse … zurück») — Handschrift belegt.
+
+Die vier Punkte stehen im HTML als `<ol>` mit `list-style-type:"A) "` bis `"D) "`. Die Mail
+rendert also **A) B) C) D)**, nicht 1./2./3./4.
+
+Damit erweitert sich die Regel von 260813 um eine **dritte Gattung und einen nahen Adressaten**:
+
+- 260813: eigene Sequenzfragen an einen **unbekannten/fernen** Erstkontakt → «A) B) C)»
+- 260813b: die **Traktandenliste** trägt «A) B)» unabhängig von Vertrautheit
+- **260815 (neu): die Rüge-/Forderungsliste an den bereits engagierten Fachplaner ebenso** —
+  obwohl 260813 für den engagierten Fachplaner gerade den unnummerierten Fliesstext festhält.
+
+Auflösung der scheinbaren Spannung: die Fliesstext-Regel gilt der **Rückfrage** (ich will etwas
+wissen), die «A)»-Form der **geschlossenen, später referenzierbaren Aufzählung** (ich stelle fest,
+was Du schuldest). Nicht das Vertrautheitsverhältnis entscheidet, sondern ob die Liste
+**zitierfähig** sein muss. Das deckt sich mit der Regel 260804 «nummeriert wird eine geschlossene
+Aufzählung, auf die später zurückverwiesen wird» — nur ist das Zeichen «A)» und nicht «1.».
+
+**⚠ Methodischer Warnhinweis, gleiche Fundstelle:** die `bodyPreview` des Graph-API gibt
+denselben Block als «1. 2. 3. 4.» aus. Die Vorschau **flacht `<ol>`-Listen auf Ziffern ab und
+verliert das `list-style-type`.** Jeder Marker «nummerierte Liste 1./2./3.», der aus einer
+Vorschau statt aus `body.content` destilliert wurde, ist damit unbelegt. Vor jeder
+Listen-Aussage den Volltext lesen.
+
+## VERSAL-Blocktitel in fett in der Vergabe-/Auftragsmail im Du (belegt Fidelity 260815, authentisch)
+
+Beleg: `rj@` 03.06.2026 13:54 UTC, «Vergabe LOS_273.35 Küchenbau» an Albin Spahic, Cc Sonderegger/
+Würsch. Outlook nativ, Tippfehler dicht («Ausbaustandart», «RÖTHLISVERGER», «Grüner» für Gruner,
+Bitt-Reflex-Grossschreibung «Bitte ich Dich») — Handschrift mehrfach belegt.
+
+Fünf fette Blocktitel, **durchgehend in Versalien**, ohne Nummer, ohne Doppelpunkt:
+
+```
+VERGABE LOS_273.35 Küchenbau
+SUBMISSIONSDOSSIER
+GRUNDFRAGESTELLUNG
+KOORDINATION MIT FACHPLANER
+WERKPLANUNG
+```
+
+Das erweitert die Regel «thematische fette Blöcke nach Amt/Gegenstand» (260718) von der
+Verfahrens-/Auflagen-Statusmail auf die **Vergabe-/Auftragsmail**, und es setzt die Versalie
+als Blockzeichen — bisher war VERSAL nur für Erläuterungsbericht-Kapitel und für einzelne
+sicherheitskritische Wörter belegt. Register spielt keine Rolle: das hier ist ein Du.
+
+Zweiter Marker aus derselben Mail: unter «SUBMISSIONSDOSSIER» stehen die **vollständigen
+Dateinamen der neun Anhänge, einer je Zeile, ohne Aufzählungszeichen und ohne Kürzung**,
+eingeleitet mit «Im Anhang habe ich Dir diesbezüglich folgende Dokumente beigelegt:». Das ist die
+Langform der Anhang-Liste aus dem Liefer-Skelett (Batch 06) — der Dateiname selbst ist der
+Listenpunkt.
+
+## Die Rüge endet nach dem letzten Punkt (belegt Fidelity 260815, authentisch)
+
+Gold A' endet nach D) unmittelbar mit FG + Block: **kein Service-Satz, kein Schlusssatz, kein
+nächster Schritt, keine Frist**. Vier Feststellungen, dann Schluss. Das bestätigt «wer liefert
+oder meldet, hört nach dem letzten Sachsatz auf» für die neue Gattung **Rüge/Zurückweisung** —
+und es ist genau die Stelle, an der der Zwilling zum fünften Mal dokumentiert verlängert hat
+(er hängte «Sollten Fragen offen sein, melden Sie sich bitte direkt bei mir.» an).

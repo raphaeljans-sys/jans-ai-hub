@@ -3259,3 +3259,63 @@ Bullet-Zeilen gebildet wurde (752 W, ø 13.4 W); der Filter in `stilmetrik.py` f
    die SWKI bisher nicht. Wenn der Gesundheitsbau eine eigene Normenfamilie für die Lüftung hat,
    gehört sie ins Normen-Register — und die Fundstelle ist nach Rule `normen-referenz` vor der
    nächsten Verwendung am Original zu verifizieren, nicht aus dieser Mail zu zitieren.*
+
+## Offen — Runde 260815b (twin-fragesteller, aus Fidelity-Review 2026-08-15)
+
+Quelle: Drift-Report `outputs/2026-08-15_fidelity.md`. Besonderheit dieses Laufs: von fünf
+substanziellen Mails des Fensters waren **drei Hub-Erzeugnisse**; gewertet wurden zwei Golds.
+Fidelity 36, zweiter blind gemessener Wert, Basislinie hält. Je in 1–2 Sätzen beantwortbar.
+
+**Vorrangige Prüfaufgabe an den Harness (keine Frage an Raphael), 260815b #1:** Die
+`bodyPreview` des Graph-API flacht `<ol>`-Listen auf «1. 2. 3.» ab und verliert das
+`list-style-type`. Der Eren-Gold vom 04.06.2026 rendert tatsächlich «A) B) C) D)». **Jeder
+Marker im Wiki, der eine "nummerierte Liste 1./2./3." behauptet und aus einer Vorschau statt aus
+`body.content` destilliert wurde, ist unbelegt.** Die betroffenen Stellen sind an den
+Batch-Abschnitten erkennbar, die keine Markup-Angabe führen. Vor der nächsten Aussage über
+Listenform nachprüfen. Gehört zusammen mit der Werkzeug-Falle aus `auto-verbesserungen` 260730b
+(nicht-UTF-8-Log, den `grep` still leer zurückgab): ein Werkzeug antwortet plausibel auf eine
+Frage, die es nicht beantworten kann.
+
+2. **[Stimme] Der Service-Satz im Du: mit «Dir» und mit Punkt?** Die Vergabemail an Albin vom
+   03.06.2026 schliesst «Bei Fragen oder Unklarheiten stehe ich **Dir** jederzeit gerne zur
+   Verfügung**.**» — das Wiki hält fest, im Sammel-/Du-Register stehe der Satz ohne Objekt und
+   ohne Schlusspunkt. War die Klausel je fürs **Du** gemeint, oder nur fürs unpersönliche
+   Sammelpostfach? *Facette: Stimme. Warum: der Satz steht unter fast jeder Auftrags- und
+   Offertmail; die falsche Variante fällt beim Empfänger nicht auf, aber sie klingt in jedem
+   einzelnen Erzeugnis eine Spur fremd.*
+
+3. **[Stimme] Was entscheidet «Lieber Gruss» gegen «Freundliche Grüsse»?** Die Regel im Wiki sagt:
+   Kurzgruss nur im Reply ohne eigenen Sachauftrag. Die Vergabemail ist eine Auftragsmail mit sehr
+   eigenem Sachauftrag (fünf Blöcke, neun Anhänge) und trägt trotzdem «Lieber Gruss / Raphael».
+   Entscheidet in Wahrheit die **Vertrautheit zum Empfänger** und nicht die Gattung — oder
+   schreibst Du den Gruss gar nicht bewusst, sondern so, wie er beim Tippen kommt?
+   *Facette: Stimme + Beziehungsregister. Warum: der Zwilling setzt heute mechanisch «Freundliche
+   Grüsse» und liegt damit bei jedem vertrauten Empfänger daneben.*
+
+4. **[Arbeitsweise] Wann VERSALIEN als Blocktitel?** Die Vergabemail gliedert in fünf fette
+   Versal-Titel (VERGABE / SUBMISSIONSDOSSIER / GRUNDFRAGESTELLUNG / KOORDINATION MIT FACHPLANER /
+   WERKPLANUNG). Andere mehrteilige Mails tragen fette Titel in normaler Gross-/Kleinschreibung.
+   Machst Du die Versalie an der **Wichtigkeit** fest, an der **Länge der Mail**, oder ist es der
+   Vergabe-/Submissionskontext, in dem Du ohnehin in Los-Titeln denkst? *Facette: Arbeitsweise.
+   Warum: der Zwilling schreibt heute gar keine Blocktitel und liefert dadurch bei jeder längeren
+   Auftragsmail eine flache Textwand statt Deiner Gliederung.*
+
+5. **[Beziehungsregister] Die nackte Amts-Mail — Absicht oder Versehen?** Am 04.06.2026 09:49 ging
+   an das Amt für Baubewilligungen eine Mail, deren ganzer Inhalt der wiederholte Betreff
+   «Bauentscheid KISPI» ist: keine Anrede, kein Gruss, keine Signatur. Drei Tage zuvor hattest Du
+   der Kreisarchitektin geschrieben, es sei «jetzt wirklich dringend». War das ein bewusstes
+   Anstupsen im laufenden Vorgang — oder ein zu früh abgeschickter Entwurf? *Facette:
+   Beziehungsregister + Stimme. Warum: als Absicht wäre es ein Registerbefund (der Betreff trägt
+   die Botschaft, die Mail wird gestrippt — bisher nur im wärmsten Peer-Du belegt, nie gegenüber
+   einer Behörde). Bis zur Klärung nicht ins Wiki übernommen.*
+
+6. **[alle sechs] Sollen Deine unveränderten Hub-Mails als Negativ-Kontrolle erfasst werden?**
+   In diesem Fenster waren drei von fünf substanziellen Mails Hub-Erzeugnisse, die Du unverändert
+   versendet hast. Für den Echo-Schutz sind sie wertlos, als **Kontrollgruppe** aber das
+   Genaueste, was der Harness hat: sie zeigen, was der Zwilling schreibt, wenn ihn niemand
+   korrigiert. Wenn Du eine davon nachträglich durchliest und sagst «hier hätte ich anders
+   formuliert», entsteht daraus ein Korrektur-Delta (Silber) ohne dass Du selbst etwas schreiben
+   musst. Wäre das ein gangbarer Weg — etwa eine Mail pro Woche? *Facette: alle sechs. Warum:
+   das Gold wird ab Juni 2026 knapp, weil Du zunehmend den Hub schreiben lässt. Genau dieselbe
+   Entwicklung macht die Kontrollgruppe gross. Ohne ein Delta-Signal misst der Review die Drift
+   weiter, kann sie aber nicht mehr korrigieren.*

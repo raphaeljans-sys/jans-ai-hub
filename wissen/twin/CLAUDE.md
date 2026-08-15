@@ -388,6 +388,59 @@ Tages «erschoepft», «Waechter», «noetig», «laeuft». Raphael schreibt im 
 Betreffzeilen, nicht Claude-Text als solchen — die drei übrigen Verdachtstexte dieses Fensters
 tragen korrekte Umlaute im Betreff. Geführt in [[QUESTIONS]] 260815 #2.
 
+**Elfte Falle, neu 15.08.2026 (Fidelity-Review) — der GEDANKENSTRICH, das erste rein
+sprachliche Signal, und es ist stärker als alle Markup-Signale zusammen.**
+
+Alle bisherigen mechanischen Detektoren sind Markup: sie sterben beim Zitieren, beim Ausdruck,
+beim Weiterleiten als Reintext. Dieser hier überlebt alles, weil er im Text selbst steht.
+
+Befund im Fenster 03.–07.06.2026, drei als Hub-Erzeugnis markierte Mails:
+
+```
+«Besten Dank — ich habe das Dachgeschoss baurechtlich angeschaut.»   (07.06., Chaled)
+«Grundsätzlich ja — sinnvollerweise innerhalb des bestehenden Dachs» (07.06., Chaled)
+«… muss die Türe in Fluchtrichtung gedreht werden — mit dem oben …»  (04.06., Öffnungsrichtung)
+«Die Besitzstandsgarantie schützt nur den heutigen Zustand, nicht dessen Ausweitung — und wie …»
+```
+
+Gegenprobe an den zwei handgetippten Golds desselben Fensters (Eren 04.06., Vergabe Küchenbau
+03.06.): **kein einziger Geviertstrich.** Raphael setzt den Bindestrich («Schreiner - Ausbaustandart»,
+«Gastro-Online-AG»), nie den Gedankenstrich als Stilmittel.
+
+**Warum das Signal so gut trägt:** die Regel `dokument-layout-standard.md` und `rules/jans-dna.md`
+verbieten den Gedankenstrich als Stilmittel ausdrücklich — «umformulieren, nicht durch Bindestrich
+ersetzen». Genau diese Regel existiert, weil der Geviertstrich KI-Text kennzeichnet. Ein Hub-Text,
+der ihn trägt, hat die eigene Regel gerissen; ein Raphael-Text trägt ihn gar nicht erst. Beide Wege
+führen zum selben Schluss.
+
+**Reichweite: Absatz, wie beim Wrapper.** Ein Geviertstrich beweist, dass DIESE Passage nicht
+handgetippt ist, nicht dass die Mail es nicht ist. Und die Umkehrung gilt NICHT: sein Fehlen
+beweist nichts — dieselbe Logik wie bei der Bitt-Reflex-Grossschreibung (Korrektur an der neunten
+Falle). Ein Hub-Text kann regelkonform ohne ihn auskommen.
+
+**Zweites, schwächeres Signal aus derselben Fundstelle: klein geschriebenes «dich»/«deiner».**
+Die Mail vom 05.06. 16:15 (Öffnungsrichtung, wrapper- und `rgb(253,253,252)`-markiert) schreibt
+«Darf ich **d**ich bitten» und «Nach **d**einer Bestätigung»; die handgetippte Vergabemail
+desselben Fensters schreibt dreimal gross («Bitte ich **D**ich», «habe ich **D**ir», «stehe ich
+**D**ir»). Das deckt sich mit dem «du klein»-Fall vom 07.08. — **aber es ist nicht sauber**: die
+ebenfalls markierte Mail vom 04.06. schreibt «findet **I**hr» und «bitte **E**uch» korrekt gross.
+Das Signal ist damit intermittierend wie die Bitt-Reflex-Grossschreibung und taugt nur als
+Verdachtsmoment neben einem harten Marker, nie allein. Geführt in [[QUESTIONS]] 260815b #2.
+
+Aufnahme in die Muster-Tabelle, beide als Textsignal getrennt von den Markup-Signalen:
+
+| Muster | Bedeutung | Reichweite | Umkehrschluss |
+|---|---|---|---|
+| **Geviertstrich «—» als Stilmittel** | Passage nicht handgetippt (verstösst gegen die eigene Stilregel) | **Absatz** | **nein** — Fehlen beweist nichts |
+| **«dich»/«dir»/«deine» klein im Du** | Verdachtsmoment | Absatz | nein, intermittierend |
+
+**⚠ Methodische Falle im selben Lauf, kein Echo-Thema, aber gleich teuer: die `bodyPreview` des
+Graph-API lügt über Listenzeichen.** Der Eren-Gold rendert im `body.content` als `<ol>` mit
+`list-style-type:"A) "` … `"D) "`, also **A) B) C) D)**. Die `bodyPreview` gibt denselben Block als
+«1. 2. 3. 4.» aus — sie flacht `<ol>` auf Ziffern ab. Jeder Marker «nummerierte Liste 1./2./3.»,
+der aus einer Vorschau statt aus `body.content` destilliert wurde, ist unbelegt und gehört
+nachgeprüft. Vor jeder Aussage über Listenform den Volltext lesen.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

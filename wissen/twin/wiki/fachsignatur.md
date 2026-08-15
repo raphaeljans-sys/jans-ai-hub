@@ -3,7 +3,7 @@ title: Fachsignatur
 status: established
 last_updated: 2026-08-15
 gewichtung: authentisch
-sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2145,3 +2145,46 @@ Quelle: 07.05.2026, authentisch (Rückmeldung Anlagebauer, von Raphael zusammeng
   ja der Ecke **ausplättlen**»), nicht in Gestaltung. Mundart mitten im Fachsatz.
 
 Quelle: 03.–07.08.2026, authentisch.
+
+
+## Gastro-/Küchenbau-Vokabular im Healthcare-Umbau (belegt Fidelity 260815, authentisch)
+
+Beleg: `rj@` 03.06.2026 13:54 UTC, «Vergabe LOS_273.35 Küchenbau», Therapieküche KISPI.
+
+Die vier abzustimmenden Positionen stehen als «_ »-Liste, jede ein Gerätetyp, keine Prozessschritte:
+
+```
+_ Spülsituation und Spülmaschine
+_ Kombidämpfer
+_ Kühlkorpus
+_ Herdanlage
+```
+
+Weiteres Vokabular derselben Mail: **Metallküche gegen Holzküche** als getroffene Grundsatzwahl,
+**Gastrogerätschaften gegen Haushaltsgeräte** als daraus folgende offene Frage,
+**Schreiner-Ausbaustandard**, **Küchen-Installationsplan** als das Dokument, das der Schreiner
+analog zum Installationsplan des Gastroplaners liefern muss, damit HLK/ELE/SAN ihre Anschlüsse
+anpassen können.
+
+Die Fachsignatur liegt hier in der **Kette**: Materialentscheid (Holz) → Gerätefrage
+(Gastro/Haushalt) → Anschlussänderung (Sanitär, Elektro, Lüftung) → Werkplan. Ein Entscheid am
+Anfang zieht die Fachplanerkoordination am Ende nach sich, und das wird ausgeschrieben, nicht
+vorausgesetzt.
+
+Der Zwilling hat in dieser Aufgabe **kein einziges Gerät und kein einziges Material genannt** und
+stattdessen Prozessschritte aufgelistet («Bereinigung des Angebots», «Kostendach einhalten»). Das
+ist die belegte Kernschwäche, jetzt im vierten Lauf in Folge: **formal reicher, fachlich ärmer**.
+
+## Zweiter Beleg: die Sanitär-Schuldposten im Fluchtweg (belegt Fidelity 260815, authentisch)
+
+Beleg: `rj@` 04.06.2026 13:35 UTC an den Sanitärplaner:
+
+> «C) Sie schulden uns die Angaben bezüglich **Brandlast Sanitärleitungen in den Fluchtwegen**.»
+> «D) Informieren Sie sich bei Gastroplaner und Sanitärplaner Bauwerkersteller bezüglich
+> **Härtegrad Wasser**.»
+
+Zwei benannte, prüfbare Fachlücken — Brandlast im Fluchtweg (VKF-relevant, speist die
+Auflagebereinigung) und Wasserhärte (speist die Gerätewahl der Therapieküche, siehe Abschnitt
+oben). Beide sind keine allgemeinen Mahnungen, sondern konkrete Nachweise mit Adressat. Die
+Fachsignatur zeigt sich hier daran, **welche zwei Angaben er aus einem ganzen Planstand
+herausgreift**.
