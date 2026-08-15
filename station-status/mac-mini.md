@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 01:34:15
+Stand: 16.08.2026 01:44:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 01:34:15
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7f69eba3 nas-selfcommit: 4 Datei(en) 2026-08-16 01:30
+- 50065538 normen Run 53: Gegenrichtung 'fehlender Inhalt' gemessen (N52-2 zu, Abdeckung 3/3 vs Refuter 1/3), Refuter-Runde SIA 416/1 (93 bestaetigt, 2 widerlegt), SIA 215:1978 destilliert, N52-6 geklaert (SIA 151 geltend / 178 erloschen), SIA 266/2 fehlt im Haus
