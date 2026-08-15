@@ -1,5 +1,29 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-15 (Mac Mini Nachtschicht 23:30) — Inventar komplett: letzte zwei offene Positionen geschlossen
+
+Die beiden letzten offenen Zeilen des Gesamtinventars (`skills/wissens-destillat/training/bauprodukte-inventar.md`)
+abgearbeitet — beide selbst vollständig gelesen, nicht nur Subagenten-Sichtung übernommen:
+
+- **`170T95~O.PDF`** (900 Einrichtung, IKEA Sultan Fåvang Schaumstoffmatratze): im Triage-Lauf
+  vom 14.08.2026 durch einen Nummerierungsfehler ausgelassen, jetzt nachgeholt. Gleicher
+  Befund wie die Nachbarzeile (`100902_Auswahl_IKEA_fuer_mich_Matratze_Linie_Sultan.pdf`):
+  generischer IKEA-Produktseiten-Ausdruck (ikea.com/ch/de, 03.09.2010) desselben Produkts —
+  konsistent SKIP, kein Artikel.
+- **`Its_Hard_To_Find_A_Good_Lamp_1993.pdf`** (233 Leuchten und Lampen, Donald Judd, P3
+  Designessay): vollständig gelesen. Trotz Titel keine Lampen-, sondern reine
+  Möbeldesign-Philosophie ohne jeden Produkt- oder Kennwertbezug — SKIP für diese KB, aber als
+  Prinzip-Artikel-Kandidat nach `wissen/entwurfs-referenzen/wiki/QUESTIONS.md` vermerkt
+  (thematisch Entwurfsprinzipien, nicht Bauprodukte).
+
+**Inventarstand danach: 0 offen, 0 triagiert** (214 inventarisiert: 26 destilliert `[x]`,
+188 verworfen `[-]`). Damit ist die in `training/PROGRAMM.md` definierte Endbedingung
+formal erreicht — Korpus 1 (`03 Bauprodukte_BKP`) ist vollständig erschlossen. Alle 37
+Gewerke-Sektionen bereits zuvor `[x]` (`bauprodukte-sektionen.md`). Nächster Schritt gemäss
+Endbedingung: `training/PROGRAMM.md` auf Bestätigungstakt setzen bzw. Kapazität an Korpus 2
+(`buero-projekte`, siehe `skills/wissens-destillat/KORPUS-QUEUE.md`) weitergeben — nicht in
+diesem Lauf, eigener dedizierter Anlauf nötig.
+
 ## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — drei Normen-Kanten gesetzt, zwei davon mit Warnvermerk
 
 - **`wiki/erco-lichtplanung-simulation-berechnung.md`:** Teil 1 der ERCO-Reihe trug die

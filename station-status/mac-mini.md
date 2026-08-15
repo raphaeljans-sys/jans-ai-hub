@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 23:30:58
+Stand: 15.08.2026 23:41:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:30)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 23:30:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b73a6ae7 nas-selfcommit: 18 Datei(en) 2026-08-15 23:30
+- 87f6619d wissens-chef Run 33: 13 Meldungen, 13 gehalten (2 Widerspruch, 11 Verlinkung per grep bewiesen); BZO Art. 11 in energie auf geltenden Wortlaut nachgezogen (Solaranlagen-Klausel fehlte ganz), QUERBEZUEGE Z.38 widersprach sich selbst (SIA 358), kostenkontrolle erstmals an normen verdrahtet, alle 4 Run-32-Uebergaben abgearbeitet; 6 Anrede-Kontakte als Vorlage offen

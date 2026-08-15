@@ -41,3 +41,15 @@ Quellen (Kennwert-Extrakte, Buch-Destillate) reserviert.
 - [ ] Soll `volumen_generator.py` ein `--parameter-set` Flag bekommen?
 - [ ] Wie fliesst die Rückkopplung aus realen Projekten am besten zurück? (Manuell oder via Output-Compounding?)
 - [ ] Braucht es einen eigenen Scheduled Task für den Compounding-Loop?
+
+## Promotion-Kandidat (Cross-KB-Fund, Nachtschicht Mac Mini 15.08.2026)
+- [ ] **Donald Judd, «It's Hard to Find a Good Lamp» (1993, © Judd Foundation)** — vollständig
+  gelesen bei der Schluss-Triage von `wissen/bauprodukte` (Quelle:
+  `/Volumes/daten/03 Bauprodukte_BKP/233 Leuchten und Lampen/6 Pendellampe/Judd/`, dort als
+  kein Bauprodukt verworfen, siehe `bauprodukte-inventar.md` Z. 165). Trotz Titel keine
+  Lampen-, sondern reine Möbeldesign-Philosophie: Trennung Kunst/Funktion («the intent of art
+  is different from that of the latter, which must be functional»), Proportion als «visible
+  reasonableness», Kritik an Stil-Imitation und Distributions-Oligopolen. Passt thematisch zu
+  `entwurfsprinzipien/` (Haltung/Diskurs-Achse). Kein Artikel destilliert — nur der Fund
+  vermerkt; Kompilation als eigener Prinzip-Artikel wäre ein eigener, dedizierter Lauf dieser
+  KB (Urheberrecht beachten: nur kurze Zitate mit Quellenangabe, kein Volltext-Nachdruck).
