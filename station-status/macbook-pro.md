@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 01:29:30
+Stand: 16.08.2026 01:39:46
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:29)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 16.08.2026 01:29:30
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 44c997e9 nas-selfcommit: 2 Datei(en) 2026-08-16 01:15
+- db91eab2 wissen/normen: SIA 215:1978 Mineralische Bindemittel destilliert (P3 aus Run 52 geschlossen); Zement-Kapitel belegt ersetzt durch SIA 215.002/215.003 (EN 197-1/-2), Kalk/Gips-Ablösung offen

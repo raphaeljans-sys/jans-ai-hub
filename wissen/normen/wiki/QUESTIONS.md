@@ -1,5 +1,55 @@
 # Offene Fragen — KB Normen
 
+## Normen-Nacht Run 53 (16.08.2026) — die Klasse «fehlender Inhalt» ist gemessen und zerfällt in zwei
+
+**N52-2 — GESCHLOSSEN: die Gegenrichtung ist konstruiert, gefahren und mit Kontrollen
+gemessen.** Anlage und Rohergebnis: `training/n52-2-gegenrichtung-anlage-260816.md`.
+Quelle SIA 416/1:2007, gedruckte S. 23-25, vom Hauptprozess vorab selbst gelesen (ohne das
+misst eine solche Anlage nichts). Zwei Varianten desselben Destillat-Abschnitts, in der
+dotierten drei Aussagen entfernt — bewusst so, dass **keine Falschaussage** entsteht.
+
+| Lauf | gepflanzte Auslassungen erkannt | Falsch-Positive |
+|---|---|---|
+| Abdeckungsrichtung auf dotierter Variante | **3 von 3** | 0 |
+| Abdeckungsrichtung auf unveränderter Variante | 0 von 3 fälschlich gemeldet | **0** |
+| Refuter-Richtung auf dotierter Variante | **1 von 3** mit Verdikt-Wirkung | 0 |
+
+**Der Befund präzisiert Run 52, statt ihn nur zu bestätigen: die Klasse zerfällt in zwei
+Unterklassen.** (a) Eine **weggelassene Ausnahme zu einer geführten Regel** macht die
+Restregel überdehnt und damit falsch — der Refuter fand sie sofort, sogar an zwei Stellen
+zugleich. **Diese Unterklasse ist refuter-sichtbar.** (b) **Weggelassener eigenständiger
+Inhalt** (eine sonst nirgends aufgerufene Einschränkung, eine ganze zusätzliche
+Bezugsgrösse) lässt den Resttext unberührt wahr und ist **refuter-blind**; der Agent erwähnte
+beide Fälle nur unter einer verdiktlosen Rubrik «Auslassungen». B02 aus Run 52 war ein Fall
+der Klasse (b) — ein weggelassenes Listenglied unter drei gleichrangigen.
+
+**Praktische Folge:** Die Refuter-Runde ist schärfer als angenommen und fängt die
+gefährlichste Auslassungsform, die verschwiegene Ausnahme, von selbst. Sie bleibt aber blind
+für alles, was die Quelle **zusätzlich** sagt. Der Vorschlag Methodik-Pflicht 13 bleibt
+damit richtig, ist aber zu präzisieren (siehe Lauf-Report Ziff. 7).
+
+**N53-1 — OFFEN: SIA 266/2:2012 ist nicht im Haus.** Bestand Run 53 gemessen; im PL-02-Baum
+existiert zu «266/2» einzig die Vertragsnorm `alle/118_266-2_2017.pdf`. **Die KB führt damit
+die ABB-Norm SIA 118/266-2 als `established`, während die Bemessungsnorm dahinter fehlt** —
+Ausschreibungs- und Vertragsbedingungen für Natursteinmauerwerk sind belegt, die technischen
+Anforderungen nicht. Zugleich Nachfolgenorm der per 31.12.2011 ersetzten Empf. SIA 178:1996.
+Beschaffungsposten, gleiche Klasse wie N52-5 und die sechs ABB aus Run 51.
+
+**N53-2 — OFFEN: `sia-215-1978.md` und `sia-416-1-2007.md` brauchen ihre Refuter-Runden.**
+Für SIA 416/1 ist Kap. 3 durch diese Anlage in beiden Richtungen geprüft und inline
+korrigiert; die übrigen Kapitel liefen im selben Lauf durch die Refuter-Richtung. SIA 215
+ist frisch destilliert und bisher nur vom Hauptprozess stichprobenweise gegengelesen
+(Portlandzement-Typen PC/PCS 5/PCHS/HPC, Baugips Typ S/P, Inkrafttreten 01.01.1978 — alle
+am Original bestätigt). Beide bleiben `speculative`.
+
+**N53-3 — OFFEN, aus dem Kalk/Gips-Punkt zu N52-4 herausgelöst: die formelle Frage zu
+SIA 215:1978.** Fachlich sind die Zement-Kapitel durch SIA 215.002/215.003 (EN 197-1/-2,
+gültig ab 01.01.2002) überholt. **Formell ist SIA 215:1978 nicht zurückgezogen** — das
+REGISTER führt sie als 1978✓ geltend, und keines der beiden EN-Titelblätter erwähnt sie.
+Vor einem Zitat als geltende Norm extern zu prüfen (SIA-Normenverzeichnis/-Shop). Für Kalk
+und Gips ist zusätzlich ungeklärt, ob SN EN 459-1 bzw. SN EN 13279-1 an ihre Stelle getreten
+sind; beide sind nicht im Bestand.
+
 ## Normen-Nacht Run 52 (15.08.2026) — die Gegenprobe zweiter Ordnung ist gefahren; eine Fehlerklasse bleibt unerkannt
 
 **N52-1 — GESCHLOSSEN: Gegenprobe zweiter Ordnung (Übergabe Run 51, Punkt 1).** Run 51 hatte die
@@ -61,9 +111,16 @@ Tabelle mit verbundenen Zellen/Farbcodierung gefunden, daher kein Rendering nöt
 weiterhin OFFEN:** die 1978er-Ausgabe selbst enthält keinen EN-Verweis, aber im selben
 `xalt`-Ordner liegen `215.002_2000_d.pdf` (SIA 215.002 = SN EN 197-1:2000 «Zement Teil 1»,
 gültig ab 01.01.2002, Titelblatt: «ersetzt Norm SIA 215.002:1993 (ENV 197-1:1992)») und
-`215_003d.pdf` (SIA 215.003 = SN EN 197-2:2000 «Zement Teil 2», gültig ab 01.01.2002) —
-damit sind die Zement-Kapitel von SIA 215:1978 (Ziff. 2.1/3.2/6.2/6.28/6.29) seit spätestens
-1993 durch eigene EN-Adoptionen unter derselben 215er-Familiennummer ersetzt. Für
+`215_003d.pdf` (SIA 215.003 = SN EN 197-2:2000 «Zement Teil 2», gültig ab 01.01.2002).
+⚠ **Korrigiert vom Hauptprozess (Run 53, 260816), beide Titelblätter selbst nachgelesen:**
+Hier stand zunächst, die Zement-Kapitel von SIA 215:1978 seien «seit spätestens 1993 ersetzt».
+Das war eine Schlussfolgerung, kein Beleg. Die Titelblätter nennen als ersetzte Norm
+ausschliesslich die **je eigene Vorgängerausgabe** (215.002:1993 bzw. 215.003:1996) und
+erwähnen SIA 215:1978 mit keinem Wort; die Jahreszahl 1993 gehört zu jener Vorgängerausgabe,
+die zudem eine **ENV-Vornorm** war. Belegt ist nur: seit 01.01.2002 gilt für Zement eine
+eigene vollwertige EN-Adoption unter derselben Familiennummer. **Fachlich** sind die
+Zement-Kapitel damit überholt, **formell zurückgezogen ist SIA 215:1978 nicht** — das
+REGISTER führt sie unverändert als 1978✓ geltend. Für
 hydraulischen Kalk, Weisskalk und Baugips liegt im Haus keine EN-Nachfolgenorm vor (SN EN
 459-1 Baukalk/SN EN 13279-1 Gips nicht im Bestand) — **neuer offener Punkt:** ob und wodurch
 diese drei Abschnitte ersetzt wurden, ist nicht geklärt und muss vor einem Zitat als geltende

@@ -1,3 +1,63 @@
+## 2026-08-16 — Run 53: Gegenrichtung «fehlender Inhalt» gemessen (N52-2 geschlossen), Refuter-Runde SIA 416/1, N52-6 geklärt
+
+Lauf-Report `outputs/2026-08-16_normen-nacht-run53.md`, Anlage
+`training/n52-2-gegenrichtung-anlage-260816.md`.
+
+**N52-2 geschlossen — die Klasse «fehlender Inhalt» zerfällt in zwei.** Run 52 hatte an
+einem Fall beobachtet, dass die Fragerichtung «widerlege» fehlenden Inhalt nicht erfasst.
+Diese Runde hat es mit Kontrollen gemessen: Quelle SIA 416/1:2007, gedruckte S. 23-25, vom
+Hauptprozess vorab selbst gelesen; zwei Varianten desselben Destillat-Abschnitts, in der
+dotierten drei Aussagen entfernt (bewusst so, dass keine Falschaussage entsteht); drei
+blinde Läufe. Ergebnis: **Abdeckungsrichtung 3 von 3 erkannt bei 0 Falsch-Positiven,
+Refuter-Richtung 1 von 3.** Präzisierung statt Wiederholung: (a) eine weggelassene
+**Ausnahme** zu einer geführten Regel macht die Restregel überdehnt und ist damit
+refuter-**sichtbar**; (b) weggelassener **eigenständiger Inhalt** bleibt wahr und ist
+refuter-**blind**. B02 aus Run 52 war ein Fall der Klasse (b).
+
+**Nebenertrag:** Dieselbe Anlage fand **sieben echte Lücken** in drei Seiten von
+`sia-416-1-2007.md`, drei davon planungsrelevant — hälftige Teilung der Konstruktionsfläche
+(Ziff. 3.1.3, die Grundregel fehlte, geführt war nur ihre Ausnahme), Mehrfachnutzungs-Regel
+(Ziff. 3.2.1), zweite Hälfte der Fussnote 1 zu Ziff. 3.3.3 (SIA 180 verlangt ausdrücklich
+Aussenabmessungen — der Wert, der den Blower-Door-Bezug entscheidet). Dazu «Rampen/Aufzügen»
+statt «Fahrzeugrampen und Fahrzeugaufzügen» an zwei Stellen. Alle inline korrigiert
+(Methodik-Pflicht 9). Keine davon war ein falscher Wert; die Refuter-Richtung allein hätte
+das Destillat passieren lassen.
+
+**Refuter-Runde `sia-416-1-2007` vollständig gefahren** (Übergabe Run 52, Pkt. 6): zwei
+unabhängige Läufe über S. 4-22 und S. 26-40 — **93 bestätigt, 2 widerlegt, 1 Fundstelle
+falsch**, in Kap. 0-2 keine einzige falsche Ziffern-/Seitenangabe. Alle drei Verdikt-Befunde
+vom Hauptprozess an eigenen 300-dpi-Renderings (S. 11, 12, 28) nachgeprüft und bestätigt:
+Tabelle 4 teilt nach **Erzeugungs**systemen auf (nicht Verteilsystemen, Ziff. 4.4.1);
+Begriff «Energieträger» gab die Beispielliste anstelle der Definition und als abschliessend
+wieder («Windwärme» gibt es nicht); Einheit MJ/m²/kWh/m² steht in Ziff. 1.2, S. 12, nicht in
+Ziff. 4.1.1. **Status bleibt bewusst `speculative`** — die Abdeckungsrichtung ist erst auf
+Kap. 3 gelaufen, und derselbe Lauf hat gemessen, dass die Refuter-Richtung für Klasse (b)
+blind ist. Prüfstand als Tabelle im Destillat ausgewiesen. Eine Zeile unter «Offene Punkte»,
+die den Status anders behauptete, wurde dabei gefunden und korrigiert (Methodik-Pflicht 12).
+
+**N52-6 geklärt, zwei REGISTER-Lücken geschlossen.** Am Original nachgemessen:
+**SIA 151:2001** «Standesordnung» ist **geltend** (gültig ab 01.01.2001, ohne Enddatum und
+ohne Nachfolger; Dokumentart «O = Ordnung» — vermutete Ursache der Erfassungslücke, weil das
+REGISTER aus dem technischen Normteil aufgebaut wurde). **SIA 178:1996** «Naturstein-
+Mauerwerk» (Empfehlung V178) ist **erloschen**, ersetzt per 31.12.2011 durch SIA 266/2:2012.
+Beide REGISTER-Zeilen ergänzt, Inventar nachgeführt. **Dabei sichtbar geworden (N53-1):**
+SIA 266/2:2012 ist **nicht im Haus** — die KB führt die ABB-Norm SIA 118/266-2:2017 als
+`established`, während die Bemessungsnorm dahinter fehlt.
+
+**Zu `sia-215-1978.md` eine Schlussfolgerung zurückgenommen.** Das Destillat behauptete, die
+Zement-Kapitel seien «spätestens seit 1993 ersetzt». Beide Titelblätter selbst nachgelesen:
+sie nennen ausschliesslich die je eigene Vorgängerausgabe und erwähnen SIA 215:1978 nicht;
+die Jahreszahl 1993 gehört zu jener Vorgängerausgabe, die eine ENV-Vornorm war. Belegt ist
+nur: seit 01.01.2002 gilt für Zement eine eigene EN-Adoption. Fachlich überholt, **formell
+nicht zurückgezogen**. An beiden Fundstellen korrigiert (Destillat und QUESTIONS), nicht nur
+an einer.
+
+**Selbstoffengelegt:** Der Hauptprozess hat im selben Lauf einen eigenen Scheinbefund
+erzeugt — «spezifischer Luftstrom» wurde als Destillat-Fehler gegen «Luftdurchlässigkeit»
+ausgetauscht, obwohl das Symbolverzeichnis Ziff. 1.2 (S. 12) genau die erste Formulierung
+führt. Die Norm führt beide Begriffe. Richtiggestellt und im Report festgehalten;
+Methodik-Pflicht 7 gilt für den Hauptprozess genauso wie für die Agenten.
+
 ## 2026-08-16 — SIA 215:1978 «Mineralische Bindemittel» destilliert (P3 aus Run 52 geschlossen)
 
 Auftrag: das zweite geltende, nie destillierte `xalt`-PDF aus Run 52 (P3) nachziehen.
