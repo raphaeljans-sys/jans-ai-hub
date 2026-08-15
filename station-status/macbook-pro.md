@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 12:59:05
+Stand: 15.08.2026 13:09:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 12:59:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1082cf5f nas-selfcommit: 2 Datei(en) 2026-08-15 12:45
+- 16006493 vollgas-radar 15.08. 12:58: P1 Claude-CLI 2.1.224 haengt seit 05:15, Autoupdate-Baum abgeraeumt, Fristen-Eintrag
