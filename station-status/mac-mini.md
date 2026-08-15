@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 13:14:32
+Stand: 15.08.2026 13:24:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 13:14:32
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 16006493 vollgas-radar 15.08. 12:58: P1 Claude-CLI 2.1.224 haengt seit 05:15, Autoupdate-Baum abgeraeumt, Fristen-Eintrag
+- 9d6550d2 nas-selfcommit: 2 Datei(en) 2026-08-15 13:15
