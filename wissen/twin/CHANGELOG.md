@@ -4,47 +4,47 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
-## 15.08.2026 — twin-fidelity-review: elfte Echo-Falle (Gedankenstrich) + die Vorschau luegt ueber Listen
+## 15.08.2026 — twin-fidelity-review: elfte Echo-Falle (Gedankenstrich) + die Vorschau lügt über Listen
 
 Report: `outputs/2026-08-15_fidelity.md`. Fenster `rj@` **03.–07.06.2026** (38 Sent Items,
-7 Volltexte). **Gesamt-Fidelity 36** — zweiter blind gemessener Wert, Basislinie vom 14.08. haelt.
+7 Volltexte). **Gesamt-Fidelity 36** — zweiter blind gemessener Wert, Basislinie vom 14.08. hält.
 Je Facette: Beziehung 58 · Stimme 38 · Denken 35 · Haltung 35 · Arbeitsweise 25 · Fachsignatur 23.
 
-**Nur zwei Golds statt drei: von fuenf substanziellen Mails des Fensters sind drei
+**Nur zwei Golds statt drei: von fünf substanziellen Mails des Fensters sind drei
 Hub-Erzeugnisse** (zwei mit `rgb(253,253,252)`, eine mit `Apple-Mail-URLShareWrapperClass`), je
 erkannt vor der Wertung. Dazu zwei Degenerate: eine Mail ohne Body (`body.content: null`) und eine
 an das AfB, deren ganzer Inhalt der wiederholte Betreff ist.
 
 **Elfte Falle in `CLAUDE.md`: der Geviertstrich, das erste rein sprachliche Signal.** Alle drei
-Hub-Mails fuehren ihn mehrfach als Stilmittel, die zwei handgetippten Golds keinen einzigen
-(Raphael setzt den Bindestrich). Er traegt besser als jedes Markup-Muster, weil er Zitieren,
-Ausdrucken und Reintext-Weiterleitung ueberlebt — und weil `dokument-layout-standard.md` ihn
-ausdruecklich verbietet: ein Hub-Text mit Geviertstrich hat die eigene Regel gerissen, ein
-Raphael-Text fuehrt ihn gar nicht erst. Reichweite Absatz, **kein Umkehrschluss**. Zweites,
-ausdruecklich als intermittierend markiertes Signal: klein geschriebenes «dich»/«deiner» im Du.
+Hub-Mails führen ihn mehrfach als Stilmittel, die zwei handgetippten Golds keinen einzigen
+(Raphael setzt den Bindestrich). Er trägt besser als jedes Markup-Muster, weil er Zitieren,
+Ausdrucken und Reintext-Weiterleitung überlebt — und weil `dokument-layout-standard.md` ihn
+ausdrücklich verbietet: ein Hub-Text mit Geviertstrich hat die eigene Regel gerissen, ein
+Raphael-Text führt ihn gar nicht erst. Reichweite Absatz, **kein Umkehrschluss**. Zweites,
+ausdrücklich als intermittierend markiertes Signal: klein geschriebenes «dich»/«deiner» im Du.
 
 **Methodische Falle gleichen Gewichts: die `bodyPreview` flacht `<ol>` auf «1. 2. 3.» ab** und
-verliert das `list-style-type`. Der Eren-Gold rendert tatsaechlich **A) B) C) D)**. Jeder
-Listen-Marker, der aus einer Vorschau destilliert wurde, ist unbelegt (Pruefauftrag QUESTIONS
+verliert das `list-style-type`. Der Eren-Gold rendert tatsächlich **A) B) C) D)**. Jeder
+Listen-Marker, der aus einer Vorschau destilliert wurde, ist unbelegt (Prüfauftrag QUESTIONS
 260815b #1). Inhaltlich erweitert derselbe Fund die «A) B) C)»-Regel um eine dritte Gattung
-(Ruegenliste) und einen nahen Adressaten; aufgeloest ueber die Zitierfaehigkeit, nicht die
+(Rügenliste) und einen nahen Adressaten; aufgelöst über die Zitierfähigkeit, nicht die
 Vertrautheit.
 
 **Weitere Funde:** VERSAL-Blocktitel in der Vergabemail im Du; Anhang-Dateinamen als Listenpunkte;
 Service-Satz im Du **mit** «Dir» und Punkt (Gegenbeleg zur Wiki-Klausel); «Lieber Gruss» unter
 einer Auftragsmail mit eigenem Sachauftrag (zweiter Widerspruch); Lead-Abgabe an den Unternehmer
 (zweiter Datenpunkt zu 260806); Konflikt hebt die Anredestufe NICHT. Drift-Kern: der Zwilling
-**zentralisiert, wo Raphael verteilt** (Gegenstueck zur Bringschuld-Umkehr vom 14.08.), und ist
-zum vierten Lauf in Folge formal reicher und fachlich aermer, mit erneuter Erfindungs-Drift.
+**zentralisiert, wo Raphael verteilt** (Gegenstück zur Bringschuld-Umkehr vom 14.08.), und ist
+zum vierten Lauf in Folge formal reicher und fachlich ärmer, mit erneuter Erfindungs-Drift.
 
 **Gehirn kompiliert, aber am Anschlag:** `build_dna.py` lief sauber durch (rc 0, idempotent), weil
-die Do/Don't-Bloecke bewusst nicht angefasst wurden — **Reserve 3 B von 30000**. Die naechste
-Regel in einem Do/Don't-Block laesst das Script mit `ABBRUCH` stehen. Entscheid ueber Verdichten
+die Do/Don't-Blöcke bewusst nicht angefasst wurden — **Reserve 3 B von 30000**. Die nächste
+Regel in einem Do/Don't-Block lässt das Script mit `ABBRUCH` stehen. Entscheid über Verdichten
 oder `MAX_AUTO_BYTES` liegt weiter bei Raphael; Empfehlung im Report.
 
-Geaendert: `wiki/{stimme,denken,haltung,beziehungsregister,fachsignatur,arbeitsweise}.md`
-(je ein Abschnitt «Fidelity 260815», Quelle in `sources` ergaenzt), `CLAUDE.md` (elfte Falle +
-Muster-Tabelle mit Umkehrschluss-Spalte + Vorschau-Warnung), `wiki/QUESTIONS.md` (5 Eintraege),
+Geändert: `wiki/{stimme,denken,haltung,beziehungsregister,fachsignatur,arbeitsweise}.md`
+(je ein Abschnitt «Fidelity 260815», Quelle in `sources` ergänzt), `CLAUDE.md` (elfte Falle +
+Muster-Tabelle mit Umkehrschluss-Spalte + Vorschau-Warnung), `wiki/QUESTIONS.md` (5 Einträge),
 `outputs/2026-08-15_fidelity.md` (neu).
 
 ## 15.08.2026 — twin-mail-training Batch 94: 03.–07.08.2026, zehnte Echo-Falle (dokumentarischer Beweis)
