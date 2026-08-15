@@ -52,6 +52,114 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-15 12:58 — [FREI] **P1 NEU: die Claude-CLI dieser Station ist seit 05:15 wedged — Homebrew-Upgrade auf 2.1.224.** Jeder CLI-Aufruf haengt, die App-Tasks laufen unbeeintraechtigt weiter. Ampel **FREI** (38.7 % bei 72.0 % verstrichener Woche, Vorsprung **-33.3** — erneut verbessert). Vier KBs mit Liefer-Delta, kein Delta-Null-Loop. Haengender Autoupdate-Baum abgeraeumt, Mail an rj@ gesendet
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 15.08. 00:58, dieser Lauf 15.08. 12:58 — Abstand
+**exakt 12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Fuenfter
+regulaerer Abstand in Folge. Keine Eintragsluecke, `lastRunAt`-Gegenprobe nicht noetig.
+
+### P1 — Claude-CLI 2.1.224 haengt auf dem MacBook Pro (seit 05:15, nur Raphael kann das loesen)
+
+**Die Fensterprobe dieses Laufs hing 4 Minuten und lieferte nichts — und das war NICHT das
+dokumentierte stdin-Problem.** Das `< /dev/null` aus dem Rezept war korrekt gesetzt. Die Suche nach
+der Ursache foerderte einen deutlich groesseren Befund zutage.
+
+Beweiskette, drei unabhaengige Aufrufe, alle haengend:
+
+01.1 **Der Autoupdate-Job lief seit 7 h 49 min.** `ch.jans.claude-autoupdate` mit drei
+bash-Prozessen (63690, 64377, 64378), daran haengend PID 64380 = `claude --version` und
+PID 64379 = `head -1` — exakt der Aufruf aus der Funktion `cli_version()` des Scripts.
+
+01.2 **Die eigene Fensterprobe** `claude -p "Antworte nur mit: OK" --model haiku < /dev/null`
+haengte 4 Minuten ohne jede Ausgabe.
+
+01.3 **Kontrollierter Test mit Watchdog:** `claude --version < /dev/null` endete mit **rc=137**
+(Watchdog-Kill nach 25 s), Ausgabe leer.
+
+**Das Autoupdate-Log nennt die Ursache im Klartext.** Um 05:15:05 zog Homebrew das Cask hoch:
+`claude-code 2.1.223 -> 2.1.224`, inklusive `Unlinking Binary` / `Linking Binary` und
+`Purging files for version 2.1.223`, abgeschlossen mit «successfully upgraded». **Das Log endet
+an dieser Stelle** — der Job blieb danach im Post-Upgrade-Versionscheck gegen das *neue* Binary
+haengen. Der Symlink `/opt/homebrew/bin/claude → /opt/homebrew/Caskroom/claude-code/2.1.224/claude`
+traegt den Zeitstempel 15.08. 05:15.
+
+**Wirkung, sauber getrennt:**
+
+02.1 **Nicht betroffen sind die App-basierten Scheduled Tasks.** Sie feuern aus der App, nicht ueber
+die CLI. Belegt durch die Laeufe *nach* 05:15, die alle geliefert haben: logbuch-radar 07:00,
+vollgas-fruehwarnung 07:15, bexio-Hygiene 08:15, hub-chef 09:00 — und dieser Radar-Lauf selbst.
+
+02.2 **Betroffen ist jeder CLI-Weg dieser Station**: `claude-run.sh`, Dispatch, Fensterproben.
+Das Lauf-Journal 260815 enthaelt konsequenterweise nur Mac-Mini-Eintraege.
+
+02.3 **Der Mac Mini ist nicht betroffen** (eigene Installation): Dispatch-Laeufe 02:35 und 05:39,
+beide rc=0.
+
+02.4 **Zur Ruecknahme:** 2.1.223 wurde beim Upgrade aus dem Caskroom geloescht, dort liegt nur noch
+2.1.224. Ein Downgrade braucht also einen erneuten Download, kein blosses Relinken.
+
+**Ausgefuehrte Massnahme:** den haengenden Autoupdate-Baum abgeraeumt (PIDs 64380, 64379, 64378,
+64377, 63690) sowie die eigenen Proben-Prozesse; Waisen-Gegenprobe zweimal sauber
+(`ps -eo pid,ppid,command | grep "claude -p"` leer). Das hat den Job befreit, die CLI aber **nicht**
+geheilt — der Kontrolltest danach hing erneut.
+
+**Nicht ausgefuehrt und bewusst Raphael vorgelegt:** Downgrade oder Neuinstallation des Cask. Das
+ist eine Installations-/Persistenzaenderung und gehoert damit nicht in einen unbeaufsichtigten Lauf.
+
+### P2 — Der Autoupdate-Job hat keinen Timeout um den Versionscheck
+
+Ein haengendes `claude --version` blockiert den ganzen Job unbegrenzt; 7 h 49 min sind gemessen.
+Ohne Absicherung haette derselbe Effekt jede weitere Nacht wiederholt zugeschlagen. Der Fix gehoert
+in `scripts/claude-autoupdate.sh`, Funktion `cli_version()`: den Aufruf hinter einen Watchdog legen
+(`timeout` existiert in dieser Umgebung nicht, also Subprozess + `kill -9 -$PGID`) und bei Zeitablauf
+mit «n/a» weiterlaufen statt zu blockieren. **In diesem Lauf bewusst nicht umgesetzt**, weil die
+richtige Form davon abhaengt, wie 2.1.224 aufgeloest wird, und ich waehrend eines laufenden Vorfalls
+keine zweite Aenderung auf dieselbe kaputte Komponente stapeln wollte.
+
+### P3 — Das Proben-Rezept kennt jetzt einen zweiten Hang-Modus
+
+Die Auftragsdatei fuehrt das Haengen der Fensterprobe bisher allein auf das fehlende `< /dev/null`
+zurueck. Dieser Lauf belegt einen zweiten, davon unabhaengigen Modus: **das Binary selbst kann
+wedged sein.** Ein Haenger ist deshalb kuenftig nicht mehr automatisch als «stdin vergessen» zu
+lesen. Sauberer Weg, wenn die Probe haengt: die Prozessgruppe abraeumen, den Fensterzustand aus
+`kontingent-budget.sh` plus den gelieferten Laeufen der letzten Stunden bestimmen — beides braucht
+die CLI nicht — und erst dann die Ursache am Binary suchen.
+
+### Fensterzustand und Budget
+
+Die Probe war unbrauchbar, der Zustand **[FREI]** ist trotzdem belegt: `kontingent-budget.sh --json`
+meldet Ampel **FREI**, **64.64 von 167 Mio** teuren Token (**38.7 %**) bei **72.0 %** verstrichener
+Woche, Vorsprung **-33.3 Punkte** (00:58: -29.0, also erneut verbessert). Stationen frisch:
+MacBook Pro 47.48 Mio, Mac Mini 17.16 Mio. Kein Drossel-Anlass, nichts scharf zu schalten.
+
+### Liefer-Delta 12 h (00:58 bis 12:58)
+
+56 Commits, davon der grosse Teil mechanische `nas-selfcommit`-Laeufe. Vier KBs mit echtem Delta:
+
+03.1 **normen** — Nacht-Run 52, vier neue Destillate (SIA 112/1, 358, 382/2, 416/1), REGISTER,
+QUESTIONS und Norm-Inventar nachgefuehrt.
+
+03.2 **energie** — Run 133, zwei Destillate plus zwei Wiki-Artikel (Holzwerkstoffe/Formaldehyd,
+Dachbegruenung Stadt ZH), BAUHERREN-FAQ erweitert.
+
+03.3 **bauprodukte** — drei neue Wiki-Artikel (Biofa Coloroel, CH24 Wishbone Chair, Matrah-Moll),
+INDEX und CHANGELOG nachgezogen.
+
+03.4 **twin** — Fidelity-Review, alle sechs Facetten-Artikel plus QUESTIONS und Output angefasst.
+
+Operativ daneben: Radar-Briefing, hub-chef-Briefing versendet, Fristen-Nachtrag zum toten
+bexio-Zugang (vierter Tag blind). **Kein Delta-Null-Loop, kein Ruecktakt- oder
+Stilllegungsbedarf.**
+
+### Feuermechanismen und Speicher
+
+Alle drei Orte geprueft, **keine Drift**. Lokal ist kein vollgas-Job geladen, beide plists tragen
+weiterhin `.disabled-260729`. Auf dem Mac Mini laeuft `ch.jans.nachtschicht`, der
+`vollgas-supervisor` bleibt `.disabled-260729`. Die zweite Registry des Mini fuehrt **8 Tasks** und
+entspricht damit exakt dem dokumentierten Sollstand. Kein Loop wird doppelt gefeuert. Speicher
+unauffaellig: free+inactive+purgeable rund **4.74 GB**, `kern.memorystatus_vm_pressure_level: 1`.
+
+---
 ## 2026-08-15 00:58 — [FREI] **Vierter sauberer Regellauf in Folge.** 70 Commits in 14 h, sechs KBs mit Liefer-Delta (bauprodukte, energie, koordination, normen, projekt-lessons, twin), kein Delta-Null-Loop, keine Waisen. Ampel **FREI** (35.9 % bei 64.9 % verstrichener Woche, Vorsprung **-29.0** — erneut verbessert). Keine Massnahme nötig, kein Mail-Anlass
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 14.08. 12:58, dieser Lauf 15.08. 00:58 — Abstand
