@@ -318,6 +318,47 @@ praktikable Verfahren:
   zeigte sich, dass dort auch einer von vier Nachweis-Wegen fehlte. Wer nur die Nummernliste
   abhakt, notiert «1 formaler Befund» und geht weiter.
 
+### Stand der vorgeschlagenen Methodik-Pflicht 13 (Run 52 vorgeschlagen, Run 53 gemessen und präzisiert)
+
+**Weiterhin Raphael zur Freigabe, nicht selbständig umgesetzt.** Run 52 hatte die Pflicht aus
+einem einzelnen Fall abgeleitet (Kontrolle B02, 0 von 1). Run 53 hat sie mit Kontrollen
+gemessen — Anlage `training/n52-2-gegenrichtung-anlage-260816.md`, Quelle SIA 416/1:2007
+S. 23-25, drei gepflanzte Auslassungen ohne Erzeugung einer Falschaussage, drei blinde Läufe:
+
+| Lauf | erkannt | Falsch-Positive |
+|---|---|---|
+| Abdeckungsrichtung, dotierte Variante | **3 von 3** | 0 |
+| Abdeckungsrichtung, unveränderte Variante | 0 fälschlich gemeldet | **0** |
+| Refuter-Richtung, dotierte Variante | **1 von 3** | 0 |
+
+**Die Messung präzisiert den Vorschlag, statt ihn nur zu stützen.** Die Klasse «fehlender
+Inhalt» zerfällt in zwei:
+
+- **(a) Weggelassene Ausnahme zu einer geführten Regel** — die Restregel wird überdehnt und
+  damit falsch. **Refuter-sichtbar**, hier sofort und an zwei Stellen zugleich gefunden.
+- **(b) Weggelassener eigenständiger Inhalt** — bleibt in allem, was er sagt, wahr.
+  **Refuter-blind**; nur als verdiktlose Anmerkung erwähnt. B02 aus Run 52 gehörte hierher.
+
+Vorgeschlagene Fassung:
+
+> Eine Refuter-Runde darf nie als Vollständigkeitsnachweis protokolliert werden. Sie erfasst
+> **weggelassene Ausnahmen** zu geführten Regeln zuverlässig, weil die Restregel dadurch
+> überdehnt und damit falsch wird. Für **weggelassenen eigenständigen Inhalt** ist sie
+> strukturell blind. Wo Vollständigkeit behauptet werden soll, ist die Abdeckungsrichtung zu
+> fahren und im Report auszuweisen, welche der beiden Richtungen auf welchem Teil gelaufen ist.
+
+**Erster Anwendungsfall im selben Lauf, mit Folgen für eine Statusentscheidung.** Auf
+`sia-416-1-2007.md` lief die Refuter-Richtung über S. 4-40 (93 bestätigt, 2 widerlegt, 1
+falsche Fundstelle), die Abdeckungsrichtung nur über Kap. 3. Dort, wo beide liefen, förderte
+die Abdeckungsrichtung **sieben** Lücken zutage, drei planungsrelevant — nachdem die
+Refuter-Richtung zufrieden war. Der Status wurde deshalb **bewusst nicht** auf `established`
+gehoben, obwohl die Refuter-Runde bestanden ist. Das ist die Methoden-Lehre in ihrer
+schärfsten Form: erst ausweisen, welche Methode auf welchem Teil lief, dann urteilen.
+
+**Zweiter Ertrag, methodisch unabhängig:** die Anlage misst nicht nur die Prüfstufe, sondern
+zugleich das Destillat. Ein Destillat mit vollständigem Rendering, Hauptprozess-Stichprobe
+und einer Nacht Arbeit trug in drei Seiten sieben Lücken, keine davon ein falscher Wert.
+
 ### Stand der vorgeschlagenen Methodik-Pflicht 11 (Run 49 vorgeschlagen, Run 50 belegt)
 
 Vorschlag unverändert, Belege verstärkt — **weiterhin Raphael zur Freigabe, nicht selbständig
