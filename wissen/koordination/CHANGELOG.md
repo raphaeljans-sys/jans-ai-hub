@@ -3,6 +3,52 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-15 — Wissens-Chef Run 33 (Abendlauf, 24,0 h nach Run 32)
+
+- **Bericht:** `outputs/2026-08-15_wissens-chef-run33.md`. Delta 58 Dateien in `wissen/`
+  (110 Commits). Zuschnitt **5 Melder + 2 Refuter (7 Agenten, 1,15 Mio Token)** — knapp halb so
+  gross wie Run 32, weil Verlinkungsbefunde nicht mehr adversarial geprueft, sondern
+  deterministisch per `grep` vom Hauptprozess gemessen werden (Umsetzung des Run-32-Vorschlags).
+  Uhr-Kontrolle bestanden (Station 23:11 CEST gegen Synology 23:00:05).
+- **13 Meldungen, 13 gehalten, 0 gefallen** — 2 bestaetigte Widersprueche/Veraltetes, 11
+  Verlinkungen (alle per grep nachgemessen). Verlinkungs-Bilanz ueber zwei Laeufe: **30 von 30
+  korrekt**, gegenueber 4 von 9 bei den Widerspruechen.
+- **Beide bestaetigten Befunde betreffen eine Korrektur, die es im Haus schon gab.**
+  (B1) `energie` destillierte am 15.08. die AHB-Checkliste Dachbegruenung und uebernahm dabei
+  BZO Art. 11 Abs. 1 im Wortlaut von 2009 — den `planungsgrundlagen` am 31.07. (Run 22) bereits
+  korrigiert hatte. Am amtlichen Text gegengelesen: an **vier** Punkten falsch, darunter die
+  ganz fehlende Klausel «auch dort, wo Solaranlagen installiert sind» (Fassung GRB 30.11.2016,
+  IK 01.11.2018). Genau diese Klausel entscheidet ueber Gruendach + PV, den Gegenstand des
+  Artikels. (B2) `QUERBEZUEGE.md` **widersprach sich selbst**: Z. 38 fuehrte die
+  SIA-358-Fassungsfrage als «offen», Z. 1032 derselben Datei loest sie seit Run 24 als
+  «bereinigt» auf.
+- **Der Refuter hat B2 verschaerft und zugleich den Korrekturvorschlag beschnitten:** die
+  Tatsachenaussage «baurecht fuehrt 1996, normen 2010» ist **weiterhin wahr** (Buch S. 1291),
+  veraltet war nur die Rahmung als offener Punkt. Zeile **umgewidmet, nicht gestrichen**.
+- **Vorstufe: alle vier Uebergaben aus Run 32 abgearbeitet, alle vier belastbar.**
+  `skills/kostenkontrolle` hatte **null** Verbindungen in die Normen-KB, obwohl
+  `sia-118-1991.md` Z. 148 ihn namentlich als Abnehmer fuehrt — der Skill prueft
+  Schlussabrechnungen ohne Kenntnis der Rechtsfolge des Pruefversaeumnisses (Art. 155 Abs. 2)
+  und fuehrt Garantieverfalldaten ohne Art. 172/177. Gegenkante gesetzt. RC-Beton 50/60 % ist
+  **kein** Widerspruch (zwei Bezugsgroessen), Vorbehalt gesetzt. SIA-387/4-Rueckrichtung als
+  E-R33-1 in `energie` eingetragen (nicht entschieden). ERCO Teil 2 verdrahtet.
+- **Zwei Kanten gegen den Melder eingeschraenkt:** `sia-380-1-2016.md` ist nur die Vorschau
+  (6 Seiten, keine Grenzwerte), `sia-416-1-2007.md` traegt `status: speculative`. Beide Kanten
+  gesetzt, aber ausdruecklich als Nicht-Zitierquelle markiert. **Eine blind gesetzte Kante auf
+  eine Warnkarte ist schlimmer als keine — sie sieht aus wie ein Beleg.**
+- **Register:** zwei neue Fuehrungszeilen fuer Dachbegruenung/Gruendach (Recht →
+  planungsgrundlagen, Erlasswortlaut → baurecht, Fachphysik/PV → energie). Dachbegruenung war
+  dreimal Gegenstand einer Cross-KB-Pruefung (Run 22, 25, 33), ohne je eine Matrixzeile zu haben.
+- **Offen fuer Raphael:** sechs Du-Kontakte fehlen in der importierten `rules/anrede-kontakte.md`
+  (Sonderegger und Gertrud Angerer seit Run 32, dazu Spoerri/Stadelmann/Ziegel/Duran aus
+  Mailbatch 94). **Bewusst nicht selbst eingetragen** — die Rule verlangt fuer ein Du-Mapping
+  die Bestaetigung des Benutzers, eine Ableitung aus Mailverkehr ist keine. Reibung im Betrieb:
+  Sonderegger steht neben Albin Spahic im aktiven Projekt 2619.
+- Schreib-Kontrolle 260811: zwoelf Dateien, keine hat Bestand verloren; alle Loeschungen
+  beabsichtigte Zeilenersetzungen am Anker. **Ein eigener Fehler dabei gefunden und behoben** —
+  ein Nachtrag war mitten in einen bestehenden Satz gesetzt worden und trennte einen
+  Korrekturvermerk von seinem Bezug; die numstat-Messung hat ihn sichtbar gemacht.
+
 ## 2026-08-15 — Synergie-Lauf 08 (Tagestakt)
 
 - **Bericht:** `outputs/2026-08-15_synergie-lauf-08.md`. Delta-Basis 14.08.2026 17:45,

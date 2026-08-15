@@ -3,6 +3,27 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — Cross-Ref zur EBF im Buch-Destillat; SIA-358-Fassungsfrage im Register nachgezogen
+
+- **`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`, EBF/AE-Definition (S. 1259):**
+  Cross-Ref auf das neue `normen/destillate/sia-416-1-2007.md` (Ziff. 3.2) ergaenzt — **rein
+  additiv, der Buchinhalt ist unveraendert** (Register-Regel: nur der destillierende Lauf
+  ueberschreibt ein Destillat). Zwei Vorbehalte mitgesetzt: das normen-Destillat traegt
+  `status: speculative` und ist damit nach Rule `normen-referenz` Ziff. 1b **Warnkarte, keine
+  Zitierquelle**; und fuer den **kantonalen Vollzug** bleibt die hier zitierte Vollzugshilfe
+  EN-2 massgebend — die beiden Definitionen sind nicht ungeprueft gleichzusetzen.
+- **Kein Eingriff in dieser KB, aber sie betreffend:** Die Fassungsfrage SIA 358:1996 gegen
+  :2010 stand in `koordination/QUERBEZUEGE.md` Z. 38 weiterhin als «offen», obwohl **dieselbe
+  Datei** sie ab Z. 1032 seit Run 24 (03.08.2026) als bereinigt fuehrt und
+  `wiki/QUESTIONS.md` Z. 111 sie als GESCHLOSSEN vermerkt. Die Registerzeile ist nachgezogen —
+  und zwar **umgewidmet, nicht gestrichen**: die Tatsachenaussage «das Buch zitiert S. 1291 die
+  Ausgabe 1996, geltend ist 2010» bleibt wahr, sie ist nur ohne Wirkung auf die Zahlen. Real
+  offen bleibt allein die Pruefpendenz am Destillationsverfahren (Stichprobe der uebrigen
+  Schwellenwert-Tabellen, Shot-Bereich 632-655).
+- **Lesend genutzt:** `raw/260607_amtlich_zh_bzo-zurich-stadt.md` (Art. 11 Fassungsstand) als
+  Beleg fuer die Korrektur in `energie` — `raw/` unberuehrt.
+- Bericht: `koordination/outputs/2026-08-15_wissens-chef-run33.md`.
+
 ## 2026-08-13 (Buch-Run 73, Korpus-Queue Batch T2) — Neuer Artikel Umgebungsgestaltung/Einfriedungen; Konkordanz StrAV → VErV mit zwei materiellen Aenderungen; die Thalwiler «1.40 m» ist kein Rechtssatz
 
 - **[neu] `wiki/umgebungsgestaltung-und-einfriedungen.md`** — schliesst die groesste gemessene

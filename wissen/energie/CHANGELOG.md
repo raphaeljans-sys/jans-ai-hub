@@ -1,5 +1,49 @@
 # CHANGELOG
 
+## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — BZO Art. 11 auf den geltenden Wortlaut nachgezogen; drei Kanten und ein offener Punkt
+
+- **`wiki/dachbegruenung-gruendach.md` — Rechtsteil korrigiert.** Der am 15.08. (Run 133) neu
+  angelegte Artikel gab BZO Art. 11 Abs. 1 Stadt Zuerich im Wortlaut der Quelle von 2009
+  wieder. Am amtlichen Text gegengelesen
+  (`baurecht/raw/260607_amtlich_zh_bzo-zurich-stadt.md` Z. 930-945, Fussnote 35): an **vier**
+  Punkten falsch — «betrieblich moeglich» statt «zweckmaessig», «wirtschaftlich tragbar» statt
+  «zumutbar», fehlendes «oekologisch wertvoll» und die **ganz fehlende Klausel «auch dort, wo
+  Solaranlagen installiert sind»**. Geltend ist die Fassung GRB 30.11.2016, in Kraft
+  01.11.2018 (STRB Nr. 686/2018). «Technisch und wirtschaftlich zumutbar» steht in **Abs. 3**
+  (bestehende MFH) und betrifft die Dachbegruenung nicht.
+- **Warum das mehr als ein Zitierfehler war:** die fehlende Solaranlagen-Klausel laesst die
+  Kombination Gruendach + PV wie einen Auslegungsspielraum aussehen, waehrend der Gesetzgeber
+  sie seit 2018 anordnet — und genau diese Kombination ist der Gegenstand des Artikels.
+- **Entstehung, und die eigentliche Lehre:** `planungsgrundlagen` hatte dieselbe Quelle (AHB-
+  Checkliste 16.02.2009) am 25.07. verarbeitet und am **31.07. in genau diesem Punkt
+  korrigiert**. Die Korrektur existierte, war aber nicht erreichbar (`grep -c
+  "planungsgrundlagen"` in beiden neuen Dateien: 0). Kante beidseitig gesetzt; Fuehrung fuer
+  Recht/Bewilligung liegt bei `planungsgrundlagen`, diese KB fuehrt Substrat-/Qualitaetsstandard,
+  Kennwerte und PV-Kombination.
+- **`destillate/dachbegruenung-checkliste-stadt-zh.md`:** 2009er-Wortlaut als
+  Quellendokumentation **stehen gelassen** (ein Destillat protokolliert seine Quelle) und mit
+  zwei Vorbehalten versehen — Rechtsstand ueberholt, SIA-Ziffern aus der Quelle uebernommen und
+  nicht am Normtext geprueft. Kanten zu `[[dachbegruenung-gruendach]]` und `[[sia-271-2007]]`.
+- **`wiki/holzwerkstoffe-formaldehyd-innenraumklima.md`:** Doppelspurigkeit benannt — Lignatec
+  21/2008 liegt seit 25.07. auch in `planungsgrundlagen`. **Keine Zusammenfuehrung**, sondern
+  Arbeitsteilung festgehalten (hier Fachphysik/Grenzwerte, dort AHB-Massnahmenkatalog).
+- **`destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`:** Kante auf das neue
+  `[[sia-416-1-2007]]` — mit dem Vorbehalt, dass es `status: speculative` traegt und damit nach
+  Rule `normen-referenz` Ziff. 1b **Warnkarte, keine Zitierquelle** ist. Der Abgleich der
+  EBF-Grunddefinition gegen Ziff. 3.2 ist ausdruecklich **offen gelassen**, nicht behauptet.
+- **`wiki/oekologische-materialvorgaben-beschaffung.md`:** Bezugsgroessen-Vorbehalt zu
+  Recyclingbeton. Die drei Prozentzahlen im Hub messen **nicht dasselbe** — 60 % rezyklierte
+  Gesteinskoerner *in* der Rezeptur (Stadt ZH 2006), 50 % RC-Beton *am* Betoneinsatz
+  (MINERGIE-ECO-Labelbedingung, KBOB 2007/2), 50/80 % Massenanteil als deklariertes
+  Musterbeispiel (AHB 2008). Kein Widerspruch, aber ein Devis-Text muss die Bezugsgroesse
+  mitschreiben, sonst ist die Vorgabe nicht durchsetzbar.
+- **`wiki/QUESTIONS.md` neu E-R33-1:** KB-interne Divergenz zur **Ausgabebezeichnung** von
+  SIA 387/4 (fuenf Destillate «:2023», eines «Ausgabe 2017, aktualisiert 2023»). **Nicht
+  entschieden** — `normen` fuehrt die Ausgabe und hat die Klaerung an einen eigenen datierten
+  Abruf gebunden; die BBV I ZH erklaert fuer den kantonalen Vollzug weiterhin die Ausgabe 2017
+  verbindlich. Nachgeholte Rueckrichtung aus `normen` Run 28.
+- Bericht: `koordination/outputs/2026-08-15_wissens-chef-run33.md`.
+
 ## 2026-08-15 (Run 134, MacBook Pro 22:37) — Minergie-Korpus vermessen, EFH-Ebene, Label-Debatte
 
 **Der Befund vor den Destillaten:** Die seit Run 129 unverändert weitergereichte Prioritätenzeile

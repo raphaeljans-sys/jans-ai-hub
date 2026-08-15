@@ -2,6 +2,23 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — Gegenkante zur Dachbegruenung; die Korrektur vom 31.07. hatte eine Parallel-Destillation nicht erreicht
+
+- **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`, §19 Dachbegruenung:** Gegenkante
+  nach `energie` gesetzt. Anlass: diese KB hatte die AHB-Checkliste Dachbegruenung (16.02.2009)
+  am 25.07. verarbeitet und den darin zitierten, ueberholten BZO-Art.-11-Wortlaut am
+  **31.07.2026 (Wissens-Chef Run 22) korrigiert**. Am **15.08.2026** destillierte `energie`
+  dieselbe Quelle unabhaengig und uebernahm den Fehler erneut, weil keine Kante bestand
+  (`grep -c "planungsgrundlagen"` in beiden neuen energie-Dateien: 0).
+- **Zustaendigkeit festgehalten** (neu auch in der Fuehrungsmatrix `koordination/QUERBEZUEGE.md`):
+  dieser Artikel fuehrt **Recht und Bewilligungspflicht**, den **Erlasswortlaut** fuehrt
+  `baurecht`, `energie` fuehrt Substrat-/Qualitaetsstandard, bauphysikalische Kennwerte und die
+  PV-Kombination.
+- **Zweiter belegter Fall derselben Mechanik:** eine hier ausgesprochene Korrektur erreicht eine
+  parallel laufende Destillation in einer anderen KB nicht, solange keine Kante besteht. Der
+  Vermerk steht jetzt im Artikel selbst.
+- Bericht: `koordination/outputs/2026-08-15_wissens-chef-run33.md`.
+
 ## 2026-08-07 (Wissens-Chef Run 28, Cross-KB) — § 321 Abs. 2 PBG: Kann-Modalverb zog faelschlich ueber beide Halbsaetze
 
 - **`wiki/recht-norm-mehrwertrevers-grundbucheintragungen.md`, Abschnitt 1:** Der Satz

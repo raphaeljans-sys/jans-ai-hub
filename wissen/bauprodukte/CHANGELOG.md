@@ -1,5 +1,31 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — drei Normen-Kanten gesetzt, zwei davon mit Warnvermerk
+
+- **`wiki/erco-lichtplanung-simulation-berechnung.md`:** Teil 1 der ERCO-Reihe trug die
+  Normen-Kante bereits (14 Treffer), **Teil 2 hatte null** — und das ist ausgerechnet der Teil
+  mit den rechnenden Kapiteln (Anschlussleistung, UGR-Verfahren, Wartungsfaktor,
+  Wirkungsgradverfahren). Warnkasten gesetzt: die Verfahren sind ein **herstellereigener
+  Ratgeber der Editionen 2006/2007/2010** und weder Fundstelle noch Nachweisweg. Normwerte
+  fuehrt `normen` (`sia-387-4-2017`, `sia-592-056`), den Nachweis EN-111/EVEN fuehrt
+  `planungsgrundlagen`; beim Zahlenvergleich E_vm gegen E_0 pruefen. Das Glossar bewusst
+  **nicht** verdrahtet — reine Begriffsdefinitionen, eine Kante dort waere Rauschen.
+- **`wiki/bkp-281-estrich-systeme.md` → `[[sia-251-2008]]`:** Der Artikel nannte SIA 251/252
+  namentlich, verlinkte aber weder im Frontmatter noch im Fliesstext (`grep -c "sia-251"` = 0).
+  Das Destillat ist `established` und am Original gelesen. Vermerkt: fuer ein Schweizer LV sind
+  die SIA-Werte massgebend, nicht die DIN-Werte des Artikels.
+- **`wiki/bkp-221-holzfenster-3fach-verglasung.md` → `[[sia-380-1-2016]]`, mit Einschraenkung.**
+  Der Melder wollte die Kante als Beleg fuer den Uw-Wert. **Am Ziel geprueft und beschnitten:**
+  `sia-380-1-2016.md` ist nur die **Vorschau** (6 Seiten — Titelblatt, Impressum,
+  Inhaltsverzeichnis) und enthaelt **keine Grenzwerte**. Kante gesetzt, aber ausdruecklich als
+  Nicht-Kennwertquelle markiert; die Anforderungswerte stehen im kantonalen Energierecht
+  (BBV I / MuKEn, gefuehrt von `energie`). Der herstellerbelegte Uw = 0,9 W/m²K bleibt ein
+  **Produktwert, kein Anforderungswert**.
+- **Ohne Befund geprueft:** `biofa-coloroel`, `ch24-wishbone-chair`, `kevi-buerodrehstuhl`,
+  `matrah-moll-naturmatratze` — alle vier Preisangaben tragen bereits den geforderten
+  Datenstand-Vorbehalt, keine Norm- oder Kennwertaussage ohne Deckung.
+- Bericht: `koordination/outputs/2026-08-15_wissens-chef-run33.md`.
+
 ## 2026-08-15 (Mac Mini Nachtschicht 02:30) — drei DESTILL-Kandidaten aus dem 23:30-Lauf abgearbeitet
 
 Die drei im vorigen Lauf identifizierten DESTILL-Kandidaten selbst vollständig gelesen
