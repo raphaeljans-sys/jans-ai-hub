@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 03:59:41
+Stand: 15.08.2026 04:09:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 03:59:41
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 23df0bdd twin-mail-training Batch 94: 03.-07.08.2026 — zehnte Echo-Falle (dokumentarischer Beweis via Hub-Sendejournal), 33 Marker, 6 Mappings
+- 2b9b7af2 nas-selfcommit: 1 Datei(en) 2026-08-15 04:00
