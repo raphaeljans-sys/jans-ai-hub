@@ -52,115 +52,115 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
-## 2026-08-16 00:58 — [FREI] **CLI-Wedge weiter offen, aber ein funktionierender Ersatz ist belegt: die App-gebuendelte 2.1.229 laeuft (rc=0), Homebrew hat kein neueres Cask.** Der Wedge kostet den Lern-Ertrag NICHTS — seit dem 03.08. laeuft kein headless-Loop mehr ueber die MacBook-CLI. **Korpus 1 des Wissens-Destillats hat seine Endbedingung erreicht**, Queue auf Korpus 2 nachgerueckt. Ampel **FREI** (40.9 % bei 79.2 % verstrichener Woche, Vorsprung **-38.3**, erneut verbessert). Fuenf Loops mit Liefer-Delta, kein Delta-Null-Loop
+## 2026-08-16 00:58 — [FREI] **CLI-Wedge weiter offen, aber ein funktionierender Ersatz ist belegt: die App-gebündelte 2.1.229 läuft (rc=0), Homebrew hat kein neueres Cask.** Der Wedge kostet den Lern-Ertrag NICHTS — seit dem 03.08. läuft kein headless-Loop mehr über die MacBook-CLI. **Korpus 1 des Wissens-Destillats hat seine Endbedingung erreicht**, Queue auf Korpus 2 nachgerückt. Ampel **FREI** (40.9 % bei 79.2 % verstrichener Woche, Vorsprung **-38.3**, erneut verbessert). Fünf Loops mit Liefer-Delta, kein Delta-Null-Loop
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 15.08. 12:58, dieser Lauf 16.08. 00:58 — Abstand
 **exakt 12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Sechster
-regulaerer Abstand in Folge. Keine Eintragsluecke, `lastRunAt`-Gegenprobe nicht noetig.
+regulärer Abstand in Folge. Keine Eintragslücke, `lastRunAt`-Gegenprobe nicht nötig.
 
-**Fenster und Budget.** Die Fensterprobe konnte nicht ausgefuehrt werden — sie laeuft ueber genau
-die CLI, die haengt (Watchdog rc=137, keine Ausgabe). Der Kontingentstand kommt deshalb allein aus
+**Fenster und Budget.** Die Fensterprobe konnte nicht ausgeführt werden — sie läuft über genau
+die CLI, die hängt (Watchdog rc=137, keine Ausgabe). Der Kontingentstand kommt deshalb allein aus
 `kontingent-budget.sh --json`, das ohne Modellaufruf misst: **68.27 von 167 Mio teuer = 40.9 %** bei
 **79.2 %** verstrichener Woche, Vorsprung **-38.3 Punkte** (Vortag -33.3, davor -25.9). Der Verbrauch
-laeuft dem Zeitverlauf weiter deutlich hinterher, die Woche reicht komfortabel bis zum Reset.
+läuft dem Zeitverlauf weiter deutlich hinterher, die Woche reicht komfortabel bis zum Reset.
 Aufteilung MacBook Pro 49.53 / Mac Mini 18.74 Mio, beide Stationsdateien frisch. Keine Drossel
-noetig, keine gedrosselte Task zum Zurueckdrehen — alle Lern-Tasks stehen auf `enabled: true`.
+nötig, keine gedrosselte Task zum Zurückdrehen — alle Lern-Tasks stehen auf `enabled: true`.
 
-**P1 (unveraendert offen, aber entschaerft und mit neuem Loesungsweg) — Claude-CLI 2.1.224 haengt
+**P1 (unverändert offen, aber entschärft und mit neuem Lösungsweg) — Claude-CLI 2.1.224 hängt
 seit 15.08. 05:15.** Drei Befunde dieses Laufs, alle gemessen:
-1. **Der Wedge sitzt im Binary, nicht im Netz oder im Login.** Auch `claude --version` haengt
+1. **Der Wedge sitzt im Binary, nicht im Netz oder im Login.** Auch `claude --version` hängt
    (Watchdog rc=137 nach 20 s). Ein Versionsstring braucht weder Token noch Sitzung — damit sind
    Kontingent und OAuth als Ursache ausgeschlossen.
 2. **Homebrew hilft nicht.** `brew info --cask claude-code` zeigt **2.1.224 als aktuellste**
-   Fassung; im Caskroom liegt nur diese eine Version. Ein `brew upgrade` waere ein Leerlauf, ein
+   Fassung; im Caskroom liegt nur diese eine Version. Ein `brew upgrade` wäre ein Leerlauf, ein
    Downgrade braucht wie am 15.08. vermerkt einen erneuten Download.
 3. **NEU und der eigentliche Fortschritt: es liegt eine funktionierende, NEUERE CLI auf der
    Maschine.** Die Claude-App bringt ihre eigene mit, unter
    `~/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude`.
    Direkt aufgerufen antwortet sie in Sekunden: **`2.1.229 (Claude Code)`, rc=0**. Sie ist es, die
-   die App-Task-Flotte traegt, weshalb Radar, Fruehwarnung, hub-chef und bexio-Hygiene die ganze
-   Zeit unbeeintraechtigt liefern.
+   die App-Task-Flotte trägt, weshalb Radar, Frühwarnung, hub-chef und bexio-Hygiene die ganze
+   Zeit unbeeinträchtigt liefern.
 
-**Aktion Raphael** (Installationseingriff, gehoert nicht in einen unbeaufsichtigten Lauf — der
-Radar hat ihn deshalb NICHT ausgefuehrt): den Homebrew-Symlink auf die funktionierende Fassung
+**Aktion Raphael** (Installationseingriff, gehört nicht in einen unbeaufsichtigten Lauf — der
+Radar hat ihn deshalb NICHT ausgeführt): den Homebrew-Symlink auf die funktionierende Fassung
 zeigen lassen, statt auf ein Downgrade zu warten.
 
 ```
 ln -sf "$HOME/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude" /opt/homebrew/bin/claude
 ```
 
-Rueckweg jederzeit `brew link --overwrite claude-code`. Zu bedenken: der Symlink zeigt danach in
-einen App-Ordner, den die App bei ihrem naechsten Update selbst weiterdreht — als Dauerloesung
-gehoert er nach dem naechsten funktionierenden Cask wieder auf Homebrew zurueckgestellt.
+Rückweg jederzeit `brew link --overwrite claude-code`. Zu bedenken: der Symlink zeigt danach in
+einen App-Ordner, den die App bei ihrem nächsten Update selbst weiterdreht — als Dauerlösung
+gehört er nach dem nächsten funktionierenden Cask wieder auf Homebrew zurückgestellt.
 
-**Warum das P1 an Schaerfe verliert.** Gemessen am Lauf-Journal: die letzte Zeile mit
+**Warum das P1 an Schärfe verliert.** Gemessen am Lauf-Journal: die letzte Zeile mit
 `"station":"Macbookpro"` stammt vom **03.08.2026**. Am 14. und 15.08. lief je viermal
-ausschliesslich `Macmini`. Die CLI des MacBook traegt also seit knapp zwei Wochen keinen
-produktiven Loop mehr — betroffen sind die Fensterprobe dieses Radars und jede kuenftige
+ausschliesslich `Macmini`. Die CLI des MacBook trägt also seit knapp zwei Wochen keinen
+produktiven Loop mehr — betroffen sind die Fensterprobe dieses Radars und jede künftige
 Ad-hoc-Nutzung, nicht der Lern-Ertrag. Der Eintrag vom 15.08. nannte `claude-run.sh` und Dispatch
-pauschal als betroffen; das stimmt fuer die Faehigkeit, nicht fuer den laufenden Betrieb.
+pauschal als betroffen; das stimmt für die Fähigkeit, nicht für den laufenden Betrieb.
 
-**P2 — Korpus 1 des Wissens-Destillats ist fertig, die Queue ist nachgerueckt (Schritt 6 des
+**P2 — Korpus 1 des Wissens-Destillats ist fertig, die Queue ist nachgerückt (Schritt 6 des
 Auftrags).** Der Nachtschicht-Lauf vom 15.08. 23:37 hat die letzten zwei offenen Positionen
 geschlossen: **214 inventarisiert, 26 destilliert, 188 verworfen, 0 offen / 0 triagiert.** Damit
 ist die in `wissen/bauprodukte/training/PROGRAMM.md` definierte Endbedingung erreicht. Die
-Queue-Regel erlaubt dem Loop ausdruecklich, einen Korpus als erledigt zu markieren (nur das
-Erfinden eines neuen ist Raphaels Entscheid), deshalb ausgefuehrt:
+Queue-Regel erlaubt dem Loop ausdrücklich, einen Korpus als erledigt zu markieren (nur das
+Erfinden eines neuen ist Raphaels Entscheid), deshalb ausgeführt:
 `skills/wissens-destillat/KORPUS-QUEUE.md` Zeile 1 auf **erledigt**, Zeile 2 (`buero-projekte` →
 `wissen/projekt-lessons`) auf **aktiv**. Dabei ist aufgefallen, dass Zeile 1 die Spalte `Ziel-KB`
-gar nie enthielt (fuenf Zellen bei sechs Spalten) — mit derselben Aenderung ergaenzt.
-**Der naechste Nachtschicht-Lauf schreibt nur die Spec und endet**, denn
+gar nie enthielt (fünf Zellen bei sechs Spalten) — mit derselben Änderung ergänzt.
+**Der nächste Nachtschicht-Lauf schreibt nur die Spec und endet**, denn
 `specs/buero-projekte-spec.md` existiert noch nicht und die Queue-Regel verbietet das Destillieren
-ohne Spec. Fuer Korpus 2 gilt der Pflicht-Zusatzauftrag vom 31.07. (Buerohaltung zu bevorzugten
+ohne Spec. Für Korpus 2 gilt der Pflicht-Zusatzauftrag vom 31.07. (Bürohaltung zu bevorzugten
 Systemen als Entwurf `status: emerging`, nie selbst auf `established` heben).
 
-**Liefer-Delta der letzten 12 h — fuenf Loops, alle mit Ertrag, kein Delta-Null-Loop:**
+**Liefer-Delta der letzten 12 h — fünf Loops, alle mit Ertrag, kein Delta-Null-Loop:**
 
 | Loop | Zeit | Delta |
 |---|---|---|
 | `synergie-lauf-taeglich` | 17:10 | SYN-30 gesetzt, vier SKILL.md (ausschreibung, energie, unternehmerkontrolle, werkvertrag) + Synergie-Register |
 | `tenant-hygiene-weekly` | 20:08 | Report 260815 (823.1 GB / 78.1 %, +0.02 GB/Tag), ohne Befund |
-| `wissens-chef` Run 33 | 23:11 | 13 Meldungen gehalten, BZO Art. 11 auf geltenden Wortlaut, fuenf KB-CHANGELOGs |
+| `wissens-chef` Run 33 | 23:11 | 13 Meldungen gehalten, BZO Art. 11 auf geltenden Wortlaut, fünf KB-CHANGELOGs |
 | `energie` Run 134 | ~22:37 (Mini) | Minergie-Korpus vermessen, 3 Destillate, FAQ F237/F238, WEGE-Falle dokumentiert |
 | Nachtschicht `bauprodukte` | 23:37 (Mini) | Inventar auf 0/0 geschlossen — Endbedingung, siehe P2 |
 
-32 geaenderte `.md` unter `wissen/` in 14 h, 60 Commits (davon der grosse Teil `nas-selfcommit`).
+32 geänderte `.md` unter `wissen/` in 14 h, 60 Commits (davon der grosse Teil `nas-selfcommit`).
 
 **P3 — ein Lauf am Budgetdeckel abgebrochen.** Der Mini-Lauf vom 15.08. 13:40 endete nach 23 Turns
 mit `rc=1`, `subtype: error_max_budget_usd` («Reached maximum budget ($5)»), 5.04 USD, 10 min 21 s.
 Das ist ein **Abbruch, kein Delta-Null** — der Loop war hungrig, nicht leer, und wird nach der
-Waechter-Regel ausdruecklich NICHT zurueckgetaktet. Einzelfall; die drei anderen Mini-Laeufe
-desselben Tages liefen mit rc=0 durch. Bei Wiederholung waere der Deckel je Lauf zu pruefen, nicht
+Wächter-Regel ausdrücklich NICHT zurückgetaktet. Einzelfall; die drei anderen Mini-Läufe
+desselben Tages liefen mit rc=0 durch. Bei Wiederholung wäre der Deckel je Lauf zu prüfen, nicht
 der Takt.
 
 **Feuermechanismen — Sollstand auf beiden Stationen.** MacBook: `vollgas-supervisor` und
-`vollgas-monitor` liegen unveraendert als `*.disabled-260729` und sind nicht geladen; geladen sind
-nur die regulaeren Jobs. Der `ch.jans.claude-autoupdate` traegt Exit **-9** — das ist der
+`vollgas-monitor` liegen unverändert als `*.disabled-260729` und sind nicht geladen; geladen sind
+nur die regulären Jobs. Der `ch.jans.claude-autoupdate` trägt Exit **-9** — das ist der
 Watchdog-Kill des gestrigen Laufs, kein neuer Befund. Mac Mini: `ch.jans.nachtschicht` ist geladen
 und feuert (23:30-Slot belegt, siehe P2), `vollgas-supervisor` weiterhin disabled, die vier
-stillgelegten Trainings-Jobs unveraendert. Kein Mechanismus feuert doppelt, keiner laeuft, der
+stillgelegten Trainings-Jobs unverändert. Kein Mechanismus feuert doppelt, keiner läuft, der
 stillgelegt sein sollte. Der Endlos-Runner wurde nicht angefasst (stehender Entscheid 30.07.).
 
-**Speicher.** Frei plus inaktiv plus purgeable = 5542 + 350909 + 5080 Pages a 16 kB = **5.9 GB**,
+**Speicher.** Frei plus inaktiv plus purgeable = 5542 + 350909 + 5080 Pages à 16 kB = **5.9 GB**,
 `kern.memorystatus_vm_pressure_level: 1` (normal). Keine `claude -p`-Waisen; die Gegenprobe nach
 den beiden Watchdog-Eingriffen dieses Laufs zeigte nichts.
 
 **Werkzeug-Befund, selbst gefangen — `find -newermt` gibt es hier nicht.** Die erste Delta-Messung
-meldete **null** geaenderte Dateien unter `wissen/`, obwohl vier Loops sichtbar geliefert hatten.
+meldete **null** geänderte Dateien unter `wissen/`, obwohl vier Loops sichtbar geliefert hatten.
 Ursache war nicht die Quelle, sondern das Werkzeug: `find` ist auf dieser Station **bfs**, das
 `-newermt` nicht kennt und mit «Invalid timestamp» abbricht — bei umgeleitetem stderr sieht der
 Abbruch wie ein Sachbefund «kein Delta» aus. Mit einer Referenzdatei und `-newer` sind es **32**
 Dateien. Genau das Muster aus Rule `auto-verbesserungen` 260730b und 260807: **ein leeres Ergebnis
-ist zuerst eine Aussage ueber das Werkzeug.** Haette der Lauf die Null geglaubt, waere daraus die
-Empfehlung geworden, vier liefernde Loops zurueckzutakten. Kuenftig in diesem Radar `-newer` gegen
-eine `touch`-Referenz verwenden und stderr nie blind unterdruecken.
+ist zuerst eine Aussage über das Werkzeug.** Hätte der Lauf die Null geglaubt, wäre daraus die
+Empfehlung geworden, vier liefernde Loops zurückzutakten. Künftig in diesem Radar `-newer` gegen
+eine `touch`-Referenz verwenden und stderr nie blind unterdrücken.
 
-**Mail: keine.** Der CLI-Wedge ist derselbe P1, fuer den am 15.08. 12:58 bereits gemailt wurde —
-keine Wiederholungsmail fuer denselben Befund. Der neue Loesungsweg (funktionierende 2.1.229) ist
+**Mail: keine.** Der CLI-Wedge ist derselbe P1, für den am 15.08. 12:58 bereits gemailt wurde —
+keine Wiederholungsmail für denselben Befund. Der neue Lösungsweg (funktionierende 2.1.229) ist
 eine Verbesserung der Lage, kein neuer Blocker, und steht hier sowie als Nachtrag im
-Fristen-Register. Gemailt wird erst wieder, wenn der Blocker geloest ist oder eskaliert.
+Fristen-Register. Gemailt wird erst wieder, wenn der Blocker gelöst ist oder eskaliert.
 
-**Lauf-Oekonomie:** Regellauf, inline gemessen in parallelen Bloecken, kein Subagent (Faustregel
+**Lauf-Ökonomie:** Regellauf, inline gemessen in parallelen Blöcken, kein Subagent (Faustregel
 unter zehn Werkzeugaufrufen). Die Tiefe bei P1 und P2 war befundgetrieben und damit vom Auftrag
 gedeckt.
 
