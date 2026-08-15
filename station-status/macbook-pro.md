@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 08:52:24
+Stand: 15.08.2026 09:12:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:48)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 08:52:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6aff7826 hub-chef 15.08.: KISPI-Stellungnahme am Beleg erfuellt, Gastro-Rechnung geprueft (Auftragsgrundlage fehlt), Briefing versendet
+- e3e75d83 nas-selfcommit: 3 Datei(en) 2026-08-15 09:00
