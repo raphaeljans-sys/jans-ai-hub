@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 08:47:23
+Stand: 15.08.2026 08:57:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 08:47:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5647cd6b nas-selfcommit: 2 Datei(en) 2026-08-15 08:45
+- 6aff7826 hub-chef 15.08.: KISPI-Stellungnahme am Beleg erfuellt, Gastro-Rechnung geprueft (Auftragsgrundlage fehlt), Briefing versendet
