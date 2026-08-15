@@ -1,5 +1,37 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-15 (Mac Mini Nachtschicht 02:30) — drei DESTILL-Kandidaten aus dem 23:30-Lauf abgearbeitet
+
+Die drei im vorigen Lauf identifizierten DESTILL-Kandidaten selbst vollständig gelesen
+und verifiziert (nicht bloss die Subagenten-Sichtung übernommen):
+
+**[[ch24-wishbone-chair]]** (BKP 90 Möbel) — CH24 Wishbone Chair, Hans J. Wegner 1949
+für Carl Hansen & Søn. Datenblatt-Text (`pdftotext`) enthielt unter «Varianten und
+Masse» keine Werte — die Massangaben stecken in einer Vektorgrafik auf Seite 2, per
+Seiten-Render (`pdftoppm`) gelesen: Gesamthöhe 75 cm, Sitzhöhe 45 cm, Breite/Tiefe
+55/51 cm. Keine Preisangabe im Dokument selbst (nur «available on request»).
+
+**[[matrah-moll-naturmatratze]]** (BKP 90 Möbel) — 5-Schicht-Naturmatratze
+(Schafschurwolle/Rosshaar/Naturlatex/Kokos), Gesamthöhe 14 cm, zwei Bezugstypen,
+Preisliste **datiert 05/2007 im Dokumenttext selbst** (nicht die PDF-ModDate 2010,
+die der Dateiname suggeriert — Datumsquelle ist der Text, nicht die Metadaten/der
+Dateiname, Rule `dateinamen-konvention` sinngemäss). Der im Inventar geführte
+Duplikat-Pfad (`900 Einrichtung/Naturmatratze_Matrah_Moll.pdf`) ist mit demselben
+Artikel abgedeckt.
+
+**[[biofa-coloroel]]** (neue Sektion BKP 285 Innere Oberflächenbehandlungen) — die
+Archiv-Sektion «960 Oberflaechen» ist **kein gültiger BKP-2017-Code** (960 bezeichnet
+dort «Transportmittel», nicht Oberflächen — Ordnername ungenau, wie in der Korpus-Spec
+bereits vorgesehen). Korrekt zugeordnet zu 285.3 Innere Holzbehandlungsarbeiten. Die
+Quelldatei ist nur eine Farbtonkarte (Eigenschaften + Artikelnummern/Farbtöne), kein
+technisches Merkblatt — Artikel bewusst auf `status: emerging` belassen, da
+Ergiebigkeit/VOC/Trocknungszeit fehlen.
+
+Inventarstand danach: **24 destilliert, 13 triagiert, 1 offen** (`170T95~O.PDF`, aus
+dem 23:30-Lauf durch Nummerierungsfehler ausgelassen — weiterhin vorzulegen), 176
+bewusst übersprungen. Nächster Schritt: die verbleibende offene Position, danach
+zurück zur regulären Sektions-Reihenfolge (`PROGRAMM.md`).
+
 ## 2026-08-14/15 (Mac Mini Nachtschicht 23:30) — BKP 900 Einrichtung: 22 offene Positionen triagiert, erster Artikel Kevi-Bürodrehstuhl
 
 Phase-1-Triage der letzten 22 unbearbeiteten Inventarpositionen (Haiku-Subagent,

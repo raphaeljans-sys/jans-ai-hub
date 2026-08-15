@@ -9,6 +9,16 @@ Der KB wird durch den Skill `wissens-destillat` aus dem Archiv
 - [[kevi-buerodrehstuhl]] — Kevi-Bürodrehstuhl (Design Jørgen Rasmussen): Furnier-
   Sitzschale auf Fünffuss-Alu-Gestell statt Polsterung, Höhenverstellung 38-51 cm
   (Preisstand 2011, Datenblattquelle Linea Einrichtungs GmbH)
+- [[ch24-wishbone-chair]] — CH24 Wishbone Chair (Hans J. Wegner, Carl Hansen & Søn):
+  Massivholz mit handgeflochtener Papierkordel-Sitzfläche, Masse 75/45/55/51 cm,
+  keine Preisangabe im Datenblatt
+- [[matrah-moll-naturmatratze]] — Matrah-Moll Naturmatratze: 5-Schicht-Aufbau
+  Schafschurwolle/Rosshaar/Naturlatex/Kokos, Gesamthöhe 14 cm, zwei Bezugstypen
+  (Preisstand 05/2007)
+
+### BKP 285 — Innere Oberflächenbehandlungen
+- [[biofa-coloroel]] — BIOFA Coloröl: lösemittelfreies Farböl für Holz/Kork/Parkett,
+  Farbtonkarte mit Artikelnummern (Stand 09/2011, kein technisches Merkblatt im Archiv)
 
 ### BKP 225 — Spezielle Dichtungen und Dämmungen
 - [[pu-beschichtung-fassade]] — PU-Fassadenbeschichtung: Aufbau, Verarbeitung,

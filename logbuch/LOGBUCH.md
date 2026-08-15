@@ -5986,3 +5986,14 @@ geschlossen. Neuer Wiki-Artikel [[kevi-buerodrehstuhl]] (BKP 900, Quelle kevi.pd
 selbst gelesen/verifiziert). Drei Kandidaten (CH24 Wishbone, Matrah-Moll Naturmatratze,
 BIOFA Coloroel) fuer den naechsten Lauf offen gelassen (Budgetgrenze). Details:
 `wissen/bauprodukte/CHANGELOG.md`.
+
+## 2026-08-15 (Mac Mini Nachtschicht 02:30) — Bauprodukte-KB: drei DESTILL-Kandidaten abgeschlossen
+
+Die im 23:30-Lauf offen gelassenen drei DESTILL-Kandidaten selbst gelesen und
+verifiziert (nicht nur die Subagenten-Sichtung uebernommen): [[ch24-wishbone-chair]]
+(Masse aus Vektorgrafik S.2 per Seiten-Render gelesen, Text allein zeigte sie nicht),
+[[matrah-moll-naturmatratze]] (Preisdatum 05/2007 aus dem Dokumenttext, nicht aus der
+PDF-ModDate/dem Dateinamen uebernommen), [[biofa-coloroel]] (neue Sektion BKP 285 statt
+dem ungueltigen Archiv-Code «960» — Ordnername sinnfrei fuer BKP 2017). Inventarstand
+danach: 24 destilliert, 13 triagiert, nur noch 1 offen (170T95~O.PDF, Nummerierungsfehler
+aus dem Vorlauf). Details: `wissen/bauprodukte/CHANGELOG.md`.
