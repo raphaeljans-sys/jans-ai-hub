@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 07:09:37
+Stand: 15.08.2026 07:19:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 06:58)
@@ -12,4 +12,4 @@ Stand: 15.08.2026 07:09:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bfc7383b logbuch-radar 15.08.2026: Brandschutz II.1b erfuellt, Baufreigabe beantragt, Rechnung Gastro Online neu
+- 49b45623 nas-selfcommit: 1 Datei(en) 2026-08-15 07:15

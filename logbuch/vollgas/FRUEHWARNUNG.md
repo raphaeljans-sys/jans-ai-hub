@@ -5,6 +5,142 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-15 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 15.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+Subagenten-Transcripts, Zeilenfilter je `timestamp[:10]` gegen ein Achttagefenster,
+neun Tage mtime-Vorfilter, Duplikate über (message.id, requestId) ausgeschlossen.
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 08.08. | 9.19 | 175.05 | 9.17 | 109.51 | 18.36 |
+| 09.08. | 0.62 | 37.17 | 0.00 | 0.00 | 0.62 |
+| 10.08. | 0.00 | 0.00 | 1.32 | 19.41 | 1.32 |
+| 11.08. | 0.00 | 0.00 | 2.79 | 78.22 | 2.79 |
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | 28.39 |
+| 13.08. | 12.73 | 276.76 | 4.56 | 112.30 | 17.29 |
+| 14.08. | 8.55 | 163.91 | 3.07 | 75.38 | 11.62 |
+| 15.08. | 2.09 | 33.99 | 0.48 | 16.90 | 2.57 (Tag läuft erst) |
+
+Auf dem MacBook Pro entfielen am 12.08. 15.52 der 23.17 Mio teuren Tokens auf
+Subagenten (67 %), am 13.08. 6.66 von 12.73 (52 %) — der rekursive Glob bleibt der
+entscheidende Teil der Messung.
+
+**Blockade-Status: KEINE.** Strukturelle Prüfung über `isApiErrorMessage`,
+`type=="error"`, `message.type=="error"` und `apiErrorStatus==429` mit Limit-Text:
+kein einziges echtes Usage-/Rate-Limit-Fehlerereignis in den letzten 48 h, auf keiner
+der beiden Stationen. Kein Wochenlimit-Vorfall.
+
+**Radar-Herzschlag: LEBT.** `vollgas-chef-radar`-Sessions am 15.08. 00:59, 14.08. 15:17,
+14.08. 09:11, 14.08. 00:07 — jüngster Lauf rund 6 h alt, deutlich unter der
+Zwölfstundenschwelle.
+
+**Operative Briefings:** `logbuch-radar` heute 07:06 gelaufen (518 kB Session),
+`hub-chef-taeglich` 14.08. 09:11 (569 kB), `mahnwesen-verzugscheck` 14.08. 10:08
+(243 kB), `zahlungsabgleich-check` 14.08. 09:11 (193 kB). Deliverable-Prüfung siehe
+Bewertung unten.
+
+**Lücke im eigenen Log:** zwischen dem 08.08. und dem 13.08. fehlen die Einträge für
+den 09.–12.08. Die Verbrauchsmessung zeigt für diese Tage Betrieb (12.08. kombiniert
+28.39 Mio), also lief gearbeitet, aber diese Frühwarnung hat vier Tage nichts
+protokolliert. Vermerkt als Befund, nicht rekonstruierbar.
+
+### Bewertung
+
+**Meldeschwelle: NICHT erreicht — keine Mail.**
+
+- (a) interaktive Session mit Limit-Ereignis: nein, keine Ereignisse überhaupt.
+- (b) Verbrauch: höchster kombinierter Tageswert 28.39 Mio (12.08.), unter der
+  35-Mio-Schwelle. Zwei Folgetage über je 18 Mio: 12.08. 28.39 / 13.08. 17.29 — knapp
+  nicht erfüllt. Der Trend zeigt seit dem 12.08. konsequent nach unten
+  (28.39 → 17.29 → 11.62), also Entspannung, nicht Zuspitzung.
+- (c) Wochenkontingent erschöpft: nein.
+- (d) Briefing ohne Deliverable: nein, siehe Destillat-/Briefing-Abschnitt.
+- (e) Radar-Herzschlag: vorhanden.
+- (f) Destillat-Aufwand ohne Wissenszuwachs: siehe unten.
+- (g) Korpus-Queue komplett: siehe unten.
+
+### Destillat-Aufsicht
+
+**Fortschritt (Front):** aktueller Korpus `bauprodukte` (Queue-Position 1 von 4,
+Quelle `/Volumes/daten/03 Bauprodukte_BKP`). Inventar meldet **37 von 37 Sektionen
+erfasst**, 214 Dateien inventarisiert, **1 Datei offen**. Die Erfassungsfront ist also
+praktisch geschlossen; die Arbeit liegt jetzt in der Artikelproduktion.
+
+**Ertrag:** KB `wissen/bauprodukte` zählt **15 Artikel**, jüngstes mtime heute
+15.08. 02:34 — der Nachtlauf hat geliefert. Spec liegt vor
+(`specs/bauprodukte-spec.md`), das Spec-Gate hängt nicht.
+
+**Artikel je Tag** (ermittelt über `git log --name-only`, nicht über mtime):
+
+| Tag | Artikel gesamt | ohne die sechs Twin-Facetten | teuer kombiniert | Stückkosten je Artikel (ohne Twin) |
+|---|---|---|---|---|
+| 12.08. | 10 | 10 | 28.39 | 2.84 Mio |
+| 13.08. | 31 | 25 | 17.29 | 0.69 Mio |
+| 14.08. | 14 | 8 | 11.62 | 1.45 Mio |
+| 15.08. | 13 | 7 | 2.57 | 0.37 Mio (Tag läuft erst) |
+
+Die Reihe ist gesund: der teuerste Tag (12.08.) war zugleich der ertragsärmste, seither
+sinken Verbrauch und Stückkosten gemeinsam. Kein Aufwand ohne Wissenszuwachs.
+
+**Delta-Null-Serie:** der jüngste Lauf-Report in `wissen/bauprodukte/outputs/` mit
+einem Delta-Null-Vermerk datiert vom 03.08. («Nichts Neues. Delta an Fachwissen:
+Null»). Seither keine Serie — die Artikelzahlen oben belegen das Gegenteil. Keine
+Rücktaktung fällig.
+
+**Korpus-Queue:** der Marker «KORPUS-QUEUE KOMPLETT» steht **nicht** in der Datei;
+`bauprodukte` ist als «in Arbeit» geführt, die drei Folgekorpora (`buero-projekte`,
+`buero-referenzen`, `archiv-fachwissen`) warten. Kriterium (g) nicht erfüllt.
+**Nebenbefund:** die Stand-Spalte der Queue ist seit dem 28.07. nicht nachgeführt (sie
+nennt 6 Artikel, real sind es 15). Kein Meldegrund, aber die Queue taugt so nicht als
+Fortschrittsanzeige — wer den Stand wissen will, muss das Inventar fahren.
+
+**Mittags-Slot Mac Mini (13:30, befristeter Versuch seit 29.07.):** im Gate-Log
+`logbuch/speicher/gate-Macmini.log` findet sich zwischen dem 08.08. und heute genau
+**ein** 13:30-Eintrag, und der ist eine Abweisung: 09.08. 13:30:18, weiche-nachtschicht
+abgewiesen bei 85.5 % Wochenkontingent. Seither kein einziger 13:30-Eintrag mehr —
+weder Lauf noch Abweisung. Der Slot ist damit faktisch stumm; ob er technisch noch
+getaktet ist, gehört bei Gelegenheit geprüft, ist aber kein Meldegrund.
+
+### Briefing-Deliverables
+
+Alle vier operativen Briefings haben ihr Deliverable erreicht, keines brach ab:
+
+- `logbuch-radar` heute 07:06 gelaufen. **Bewusst ohne eigene Mail** — Samstag, kein
+  Punkt verlangte Handeln vor 08:39, der Hub-Chef hatte am 14.08. um 08:51:44 gesendet.
+  Das Briefing steht als Abschnitt «Radar-Briefing 15.08.2026» im heutigen Datumsblock
+  des Logbuchs. Das ist das Ein-Mail-Prinzip (Rule `auto-verbesserungen` 260803) in
+  korrekter Anwendung, kein Ausfall.
+- `hub-chef-taeglich` 14.08. 09:11, Mail nachweislich versendet (08:51:44 in
+  «Gesendete Elemente», vom Radar unabhängig bestätigt).
+- `mahnwesen-verzugscheck` 14.08. 10:08 und `zahlungsabgleich-check` 14.08. 09:11,
+  beide durchgelaufen.
+
+**Methodenhinweis für den nächsten Lauf:** ein Subagent hatte für alle vier Sessions
+«Mailversand nachweisbar» gemeldet, weil er auf die Zeichenkette `com.apple.mail` und
+`send` im Transcript prüfte. Beim `logbuch-radar` waren das durchweg **lesende**
+osascript-Aufrufe auf Mailboxen. Die Wortsuche taugt nicht als Versandbeleg; massgeblich
+ist, ob die Session ihr Deliverable erreicht hat — die Mail ist nur eine von zwei
+zulässigen Formen davon. Gegengeprüft und korrigiert (Rule `auto-verbesserungen`
+260729b: Agenten-Befunde nie ungeprüft übernehmen).
+
+### Ergebnis
+
+**STILL — keine Mail.** Kein Kriterium der Meldeschwelle erfüllt: keine Blockade, kein
+erschöpftes Wochenkontingent, Verbrauch unter den Schwellen und fallend, Radar lebt,
+alle Briefings geliefert, Destillat-Loop liefert Ertrag, Queue nicht komplett.
+
+**Zuletzt gemeldet:** 08.08.2026 07:29. Seither still.
+
+**Schreibkontrolle dieses Eintrags:** `git diff --numstat` nativ auf der Synology
+gemessen — erster Versuch 58 Einfügungen / **1 Löschung**. Die Löschung war die
+Überschrift des 14.08.-Eintrags: der Anker war im Ersatztext nicht wiederholt worden.
+Zeilenexakt repariert, der 14.08.-Block ist vollständig. Genau der Fehlertyp, für den
+Rule `auto-verbesserungen` 260811 die Messpflicht eingeführt hat — ohne die Messung wäre
+der Verlust unbemerkt geblieben.
+
 ## 2026-08-14 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 14.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
