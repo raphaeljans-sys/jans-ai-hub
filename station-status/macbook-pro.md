@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 05:57:41
+Stand: 15.08.2026 06:07:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:01)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 05:57:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ee6944d7 nas-selfcommit: 16 Datei(en) 2026-08-15 05:45
+- bdb1f343 twin-fidelity-review 2026-08-15: echte Umlaute im CHANGELOG-Eintrag (Rule umlaute-konvention)
