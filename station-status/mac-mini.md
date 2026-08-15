@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 08:26:51
+Stand: 15.08.2026 08:37:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 08:26:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f6fa0d5f fristen: Nachtrag bexio-Zugang tot (Hygiene-Lauf 15.08., vierter Tag blind, Datumskorrektur RE-00101)
+- 3fc92c1d nas-selfcommit: 2 Datei(en) 2026-08-15 08:30
