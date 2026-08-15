@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 01:40:43
+Stand: 15.08.2026 01:51:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:40)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:44)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 15.08.2026 01:40:43
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 4b7ff6dd nas-selfcommit: 4 Datei(en) 2026-08-15 01:30
+- 438b21f6 Normen Run 52 Hauptteil: SIA 416/1:2007 destilliert (lag unter xalt), xalt-Ordner aufgenommen (76 statt 9 Dateien, 2 geltende Normen gefunden), SIA 358 13 Fundstellen korrigiert, Gegenprobe 2. Ordnung 6/6 - aber fehlender Inhalt 0/1
