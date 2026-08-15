@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 06:13:16
+Stand: 15.08.2026 06:23:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 06:13:16
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bdb1f343 twin-fidelity-review 2026-08-15: echte Umlaute im CHANGELOG-Eintrag (Rule umlaute-konvention)
+- 735180b9 nas-selfcommit: 3 Datei(en) 2026-08-15 06:15

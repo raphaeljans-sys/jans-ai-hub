@@ -49,6 +49,28 @@ Prüfung JANS vom 14.08. ergänzt drei bestätigte Tür-ID-Duplikate auf dem Pla
 Terminkoordination bei RJ, Freigabe erst nach Plan-Revision empfohlen.** | mail (L. Merci
 14.08. 10:56) + Plan-Prüfung JANS
 
+**Nachtrag 15.08.2026, 06:20 (Konversations-Destillat, Quelle: Gespräch Mac Mini 14.08.2026,
+Session ab 16:21): AKTION RJ — Teams-Termin vorgeschlagen, aber NICHT gebucht.** Empfehlung aus
+der Session, nach Prüfung des M365-Kalenders: Favorit **Montag 17.08.2026, 10:30 bis 11:15 Uhr**
+(direkt im Anschluss an den bereits gesetzten Austausch Umbau PPTS 09:00 bis 10:00),
+Ausweichoptionen Dienstag 18.08. 09:00 bis 09:45 und Mittwoch 19.08. 15:00 bis 15:45. Teilnehmer
+L. Hiltmann (TeKoSi, `levi.hiltmann@tekosi.ch`) und L. Merci (KISPI, `lior.merci@kispi.uzh.ch`),
+45 Minuten Teams, Betreff «KISPI PPTS: Türkonzeptplan und Türbuch, Besprechung Rückmeldungen»,
+Rückmeldeliste als PDF und Plan-PNG als Anhang, Ausweichoptionen im Einladungstext. Der private
+Apple-Kalender wurde dabei **nicht** geprüft (über M365 nicht sichtbar) — RJ muss ihn vor dem
+Anlegen gegenlesen. Liegt in derselben Kette wie die dem KISPI zugesagte gebündelte Stellungnahme
+bis **15.08.2026**. Status: **offen, Termin nicht gebucht, Terminanlage bei RJ.**
+**Zwei Präzisierungen zum Block oben, am Plan nachgemessen:** (1) Es sind **vier**, nicht drei
+Tür-ID-Korrekturen — hinzu kommt Umbau-14 (Glasschiebetüre Korridor 0.303) alt 01.2.054.01 →
+neu 01.0.303.01; das ist zugleich ein Grundlagenkonflikt, weil TeKoSi auf einem Planstand **vor**
+der Feuerpolizei-Bereinigung arbeitet, auf dem der Zielraum 2.054 noch existiert. Ein zusätzlich
+vermuteter Duschen-Konflikt (2.335/2.336) wurde von RJ als Irrtum erkannt und gestrichen.
+(2) Der Punkt **«Türmatrix fehlt»** ist auf RJs Weisung aus der ausgehenden Rückmeldeliste
+**gestrichen**, der Befund selbst bleibt aber bestehen: die Türmatrix ist laut Türbuch das
+massgebliche Dokument für Ausrüstung, EI-Klassen und Schallschutz je Tür, und die
+Truninger-Plattform liefert weder zu «Türmatrix» noch zu «Türkonzept» einen Treffer. | Gespräch
+Mac Mini 14.08.2026 + Plan-Prüfung JANS
+
 Eintrag 14.08.2026, 08:39 bis 08:50 (Hub-Chef, Regellauf — **am Postfach nachgemessen, nicht
 fortgeschrieben**):
 
