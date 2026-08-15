@@ -3,6 +3,110 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 15.08.2026, 06:55 (Logbuch-Radar, am Postfach, am M365-Kalender und am
+Rechnungsbeleg nachgemessen — **der Brandschutz-Strang ist durchgebrochen, die Eingabe ist
+raus, und es liegt eine neue Rechnung im Haus**):
+
+**ERLEDIGT, der terminkritische Punkt des gestrigen Tages: B. Stevanovic hat geliefert, und
+RJ hat noch am selben Vormittag eingereicht.** Der Ablauf am Beleg, Thread «KISPI PPTS:
+Auflagebereinigung Brandschutz»: Stevanovic sendet **14.08. 10:00** die angepassten Pläne,
+RJ gibt sie **10:06** frei («Der Plan kann so freigegeben werden»), Stevanovic liefert
+**10:14** den Plan, RJ verlangt **11:07** die zugehörige Stellungnahme mit sieben präzise
+benannten Korrekturen (Fassung 14.08.26 auf jeder Seite, Versanddatum, Anhangsverzeichnis
+A1/A2, Abbildungslegenden), und Stevanovic sendet **11:18** die revidierte Stellungnahme
+zurück («Anbei die rev. Stellungnahme. Angepasst habe ich alle Daten und den Architekturplan
+ohne Möbel eingefügt. Viel Erfolg bei der Eingabe.»). **Damit ist der Auflagepunkt II.1b)
+erfüllt.** Die am 13.08. von RJ gesetzte Frist «bis Morgen Freitag, den 14.08.26» ist
+eingehalten worden. Der Punkt wird geschlossen; das telefonische Nachfassen erübrigt sich.
+| mail Stevanovic 14.08. 11:18 (13 Anhänge), Thread am Beleg gelesen
+
+**ERLEDIGT und weitergetragen: die Abänderungseingabe ist eingereicht und die Baufreigabe
+ist beantragt.** Zwei ausgehende Mails am 14.08., beide in «Gesendete Elemente» verifiziert:
+**12:12:39** «BAGE-Nr. B26-00705.01: Antrag Baufreigabe» an `linus.furrer@zuerich.ch` (AfB,
+II.1.a), `kurt.frauenfelder@zuerich.ch` (SRZ, II.1.b), `shyam.zala@zuerich.ch` (UGZ, II.1.c),
+Cc `lars.hansen@zuerich.ch`, `torsten.stubbe@zuerich.ch` — mit der Bitte, die drei
+Auflagepunkte im internen System freizugeben und die Baufreigabe auf eBaugesucheZH
+hochzuladen. **12:28:41** «AW: AW: AW: [Extern] B26-00705.01_Akutspital_Innerer_Umbau/
+Abänderungseingabe B26-00705.02» mit sieben Anhängen, darunter
+`260814_KISPI_Therapiestation_1OG_Stellungahme_Auflagenbereinigung.pdf` und die beiden
+Brandlastberechnungen Fluchtweg A (0.034/0.302) und Fluchtweg B (0.031/0.300).
+**Status neu: beobachten — die Baufreigabe der drei Ämter steht aus, die Bauherrschaft
+erwartet sie am 17.08.2026.** Von B. Kübler (Gruner) kam auf den Antrag nur eine automatische
+Abwesenheitsantwort (14.08. 12:13, Sekretariat D. Pfäffli, +41 61 367 96 27).
+| mail rj@ 14.08. 12:12 und 12:28
+
+**ERLEDIGT: der Teams-Termin zum Türkonzept ist angesetzt — aber eine Absage liegt bereits
+vor.** Der Register-Punkt vom 15.08. 06:20 («Termin vorgeschlagen, aber NICHT gebucht,
+Terminanlage bei RJ») ist überholt: RJ hat **14.08. 16:34:29** die Einladung «KISPI PPTS:
+Türkonzeptplan und Türbuch, Besprechung Rückmeldungen» mit acht Anhängen versendet, der
+Termin liegt im M365-Kalender auf **Montag 17.08.2026, 10:30 bis 11:00 Uhr** (Teams,
+Organisator rj@), Teilnehmer L. Hiltmann und R. Otschkowski (TeKoSi), L. Merci und
+N. Ramminger (KISPI). Damit folgt er wie empfohlen direkt auf den Austausch Umbau PPTS
+09:00 bis 10:00. **Neu offen: N. Ramminger hat am 14.08. 17:13:57 abgesagt**, und RJ hat in
+der Einladung selbst um Gegenvorschlag gebeten («Geht Dir diesen Termin? Könntest Du uns
+einen für Dich passenden Termin vorschlagen und uns einladen?») — eine Zusage von TeKoSi
+liegt noch nicht vor. Status: **Terminanlage erledigt · Bestätigung TeKoSi in Beobachtung.**
+| mail rj@ 14.08. 16:34 + Absage Ramminger 14.08. 17:13 + M365-Kalender
+
+**NEU/OFFEN: Rechnung Gastro Online AG über CHF 4'250.50 für die Küchenplanung Therapiestation
+— Rechnungsempfänger ist das Kinderspital, nicht JANS.** M. Schwander (`ms@gastro-online.ch`)
+sendet am **14.08.2026 12:10:57** die Rechnung **Nr. 26-08-0025 vom 13.08.2026**: Betrag
+**CHF 4'250.50** (netto CHF 3'932.00, MWST 8.1 % CHF 318.50), **Zahlungsfrist 10 Tage netto,
+also fällig um den 23.08.2026**. Leistung: Planungsaufwand Kücheneinrichtung Therapiestation
+(Bedarfsanalyse, Massaufnahmen, Fachplanung Gastroküche, Gerätekonzept, Layout-Planung,
+2D-CAD-Projektpläne, Kostenvoranschlag ±10 %, Sitzungsteilnahmen, Installationsplan für den
+Medienplaner). Adressiert an **Universitäts-Kinderspital Zürich, Eleonorestiftung,
+Lenggstrasse 30, 8008 Zürich**; zahlbar an GASTRO ONLINE AG, Weiherstrasse 2, 6275 Ballwil,
+Konto CH96 3002 4393 5006 1455 8. **Es ist also keine JANS-Verbindlichkeit und keine
+Zahlungsaktion von JANS.** Zu tun bleibt die bauleitende Prüfung: sachliche und rechnerische
+Richtigkeit gegen den erteilten Auftrag, dann Visum und Weiterleitung an die Bauherrschaft,
+damit die 10-Tage-Frist nicht bei der Rechnungsprüfung verstreicht. Status: **offen, Prüfung
+und Visum JANS.** | mail Schwander 14.08. 12:10 + Rechnungs-PDF 26-08-0025 am Beleg gelesen
+
+**NEU: Baustellenbegehung Kinderspital am Freitag 21.08.2026, 10:00 bis 12:00 Uhr,
+Lenggstrasse 28, 8008 Zürich.** Einladung von N. Rothe (Röthlisberger AG,
+`nr@schreinermanufaktur.ch`), von RJ am 14.08. 16:08:51 angenommen; der Termin steht im
+M365-Kalender. Status: **fix, keine Aktion.** | Kalender + Zusage rj@ 14.08. 16:08
+
+**HEUTE fällig gewesen und jetzt verstrichen: der Abgleich der beiden Wissenscheck-Taktgeber.**
+Die Registerzeile vom 14.08. 06:13 verlangte «AKTION vor dem 15.08.: klären, ob der Monats-Task
+stillgelegt oder umgewidmet wird». Die neue Cloud-Routine `wissenscheck-phase1-alle2tage` fährt
+ihren ersten Lauf **heute 15.08.2026 um 08:02 CEST**; der monatliche Wissenscheck-Task besteht
+unverändert daneben. Damit feuern ab heute zwei Taktgeber auf denselben Prüflauf — genau das
+Muster, das der Nachtschicht-Prompt an anderer Stelle ausdrücklich verbietet. Kein Schaden
+ausser doppeltem Verbrauch und doppelten Reports. Status: **offen, Entscheid Raphael, jetzt
+überfällig.**
+
+**Unverändert offen, am Entwurfsordner `rj@` um 06:5x nachgemessen: die beiden aktiven Entwürfe
+liegen weiterhin, und der Furrer-Entwurf ist inhaltlich fraglich geworden.** L. Furrer (AfB)
+vom 12.08. 16:06 «AfB BE KISPI PPTS Auflagen vor Baubeginn.pdf» · T. Inniger vom 13.08. 01:28
+«KISPI PPTS: Anschlusswerte, offene Punkte und weiteres Vorgehen Therapieküche» · daneben
+weiterhin der **alte** Inniger-Entwurf vom 08.08., der nicht hinausgehen darf. **Prüfpunkt am
+Furrer-Entwurf:** er trägt den Statusbericht der Auflagepunkte, und genau an Furrer ist am
+14.08. 12:12 der förmliche Antrag auf Baufreigabe gegangen, der II.1.a mit umfasst. Ob der
+Entwurf damit überholt ist oder als Ergänzung noch Sinn hat, ist von hier nicht entscheidbar
+und wird nicht unterstellt. Neu im Ordner liegt zudem ein leerer Entwurf ohne Betreff vom
+14.08. 10:00:29. Status: **unverändert offen, Versand-Entscheid RJ.**
+
+**bexio antwortet den achten Tag mit HTTP 401**, heute erneut gegengemessen. Der Token läuft
+erst am 13.12.2026 ab; die Session dahinter ist serverseitig beendet, Warten hilft nicht.
+RE-00087 (CHF 15'000), RE-00098 und RE-00099 mit abgelaufener Mahnfrist vom 12.08. bleiben
+unprüfbar. **Keine Mahnaktion, keine Buchung.** Status: **offen, neuer Token durch Raphael.**
+
+**Erledigt und im Register nachgetragen: der Widerspruch der beiden Duschwannen-Rohlichtmasse
+ist aufgelöst.** Die Zeile vom 14.08. 06:13 führte 1210 mm gegen 1235 mm als offenen
+Fehlerrisiko-Punkt. Das offizielle Schmidlin-Zargen-Systemdetail (Wannenmass plus 35 mm bei
+Doppelbeplankung) belegt: die vorgefundenen 1235 mm sind für die 120er-Wanne korrekt, die
+empfohlene Gipskarton-Aufdopplung wäre falsch gewesen und entfällt. Status: **erledigt.**
+| Gespräch Mac Mini 14.08.2026, Konversations-Destillat 15.08.
+
+**Konto `raphaeljans@outlook.com` geprüft, Posteingang und Gesendete Elemente über 30 h leer.**
+Im Konto `mail@raphaeljans.ch` nur zwei Fremdmails ohne Vorgangsbezug (Unthread-Login-Mail
+14.08. 23:42, Kaltakquise CVs `bewerberansatz.com` 14.08. 16:09 — kein Handlungsbedarf, keine
+Registerzeile). **Kein Eingang von UBS und keiner vom Notariat Wiedikon.** Sync-, Freigabe- und
+Remote-Queues auf beiden Stationen leer. Keine Mail versendet (Ein-Mail-Prinzip), kein
+Kalendereintrag angelegt, kein Entwurf verändert.
+
 Eintrag 14.08.2026, 14:35 (interaktive Session RJ, Routinen-Prüfung MacBook Pro):
 
 **BEOBACHTEN: Quarantäne-Ordner `~/.claude-quarantaene-260814/session-env/` (2889 leere

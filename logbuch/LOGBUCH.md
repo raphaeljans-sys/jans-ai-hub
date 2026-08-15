@@ -5,6 +5,134 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-15 — Logbuch-Radar 06:55 (Regellauf, keine Mail versendet)
+
+**Erledigt:** der Brandschutz-Auflagepunkt II.1b) ist erfüllt (Stevanovic liefert 14.08. 11:18
+die revidierte Stellungnahme), die Abänderungseingabe B26-00705.02 ist am 14.08. 12:28
+eingereicht und die Baufreigabe am 14.08. 12:12 bei AfB, SRZ und UGZ beantragt; der Teams-Termin
+zum Türkonzept ist auf Montag 17.08. 10:30 gesetzt; der Duschwannen-Masswiderspruch ist
+aufgelöst. **Offen:** Prüfung und Visum der Rechnung Gastro Online (CHF 4'250.50, Frist um den
+23.08.), Bestätigung TeKoSi zum Teams-Termin nach der Absage Rammingers, Abgleich der beiden
+Wissenscheck-Taktgeber (heute überfällig), zwei liegende Entwürfe, bexio-Token. **Kommt:**
+Baufreigabe-Erwartung 17.08., E-Banking-Gegenprüfung 16.08., Dropbox 18.08.,
+Koordinationssitzung und RE-00100 am 20.08., Baustellenbegehung 21.08.
+Register um 06:55 nachgeführt (nur ergänzt, keine Zeile gelöscht).
+
+**Kein eigener Versand.** Der Chef-Lauf des Vortages ist nicht ausgefallen — die Hub-Chef-Mail
+vom 14.08. 08:51:44 liegt in «Gesendete Elemente» —, und kein Punkt verlangt Handeln vor 08:39;
+heute ist Samstag, die Ämter und das Notariat arbeiten nicht. Das Briefing steht darum wie
+vorgesehen unten als Abschnitt für den Hub-Chef. **Werkzeug-Notiz:** das Lauf-Journal
+`logbuch/laeufe/260814-laeufe.jsonl` führt für den 14.08. ausschliesslich vier
+`dispatch-versuch1`-Zeilen und **keinen** Hub-Chef-Lauf. Wer allein danach urteilt, hält den
+Chef fälschlich für ausgefallen und sendet eine überflüssige Ausnahme-Mail. Der Beleg ist die
+versendete Mail, nicht das Journal — gleiche Familie wie Rule `auto-verbesserungen` 260807.
+
+### Radar-Briefing 15.08.2026
+
+**Erledigt seit gestern**
+
+Der Brandschutz-Strang ist durchgebrochen. Bojan Stevanovic hat am 14.08. um 10:00 die
+angepassten Pläne geschickt, Du hast sie um 10:06 freigegeben, um 11:07 die sieben Korrekturen
+an der Stellungnahme verlangt und um 11:18 die revidierte Fassung zurückerhalten. Der
+Auflagepunkt II.1b) ist damit erfüllt, Deine Frist auf den 14.08. ist eingehalten worden.
+
+Die Abänderungseingabe B26-00705.02 ist am 14.08. um 12:28 eingereicht, mit der Stellungnahme
+vom 14.08. und den beiden Brandlastberechnungen für die Fluchtwege A und B. Um 12:12 hast Du bei
+Linus Furrer (AfB), Kurt Frauenfelder (SRZ) und Shyam Zala (UGZ) die Baufreigabe des Gesuchs
+B26-00705.01 beantragt und um Freigabe der drei Auflagepunkte im internen System gebeten.
+
+Der Teams-Termin zum Türkonzept ist angesetzt: Montag 17.08.2026, 10:30 bis 11:00, direkt im
+Anschluss an den Austausch Umbau PPTS. Einladung am 14.08. um 16:34 versendet, an Levi Hiltmann
+und Roman Otschkowski (TeKoSi) sowie Lior Merci und Nora Ramminger (KISPI).
+
+Der Widerspruch bei der Duschwanne ist aufgelöst. Das Schmidlin-Zargen-Systemdetail belegt
+Wannenmass plus 35 mm bei Doppelbeplankung; die vorgefundenen 1235 mm sind korrekt, die
+Gipskarton-Aufdopplung entfällt.
+
+**Aus unseren Gesprächen**
+
+Das Rückmeldedokument zum KISPI-Türkonzept ist fertig und im neuen Format gebaut: zwei
+Abschnitte mit nummerierten Positionen statt Tabellen und Aufzählungspunkten. Bestätigt sind
+vier Tür-ID-Fehler, einer mehr als im Register vom 14.08. Der vierte, Umbau-14 alt 01.2.054.01
+neu 01.0.303.01, ist zugleich ein Grundlagenkonflikt: TeKoSi arbeitet auf einem Planstand vor
+der Feuerpolizei-Bereinigung. Der Befund «Türmatrix fehlt im TeKoSi-Versand» bleibt sachlich
+bestehen, ist aber auf Deine Weisung aus der ausgehenden Liste gestrichen.
+
+Das Dossier zur Duschtasse Schmidlin ist vollständig, inklusive Datenblatt, Systemdetail und
+DXF/DWG; die Anfrage an Sanitas Troesch kann damit raus. Die Rechtsfrage zur Duschtasse in nicht
+als IV bezeichneten Nasszellen ist über den Bauentscheid 1171/26 belegt geklärt.
+
+Aus dem Türkonzept-Lauf ist die verbindliche Layout-Neuregelung entstanden: keine
+Aufzählungspunkte mehr in ausgehenden Dokumenten, stattdessen nummerierte Positionen.
+
+Der Cleanup der beiden verwaisten OneDrive-Ordner ist gescheitert; sie sind 0 KB, lassen sich
+aber nicht entfernen. Als FileProvider-Eingriff bleibt das ohnehin Deine Aktion.
+
+**In den nächsten 7 Tagen**
+
+Heute Samstag um 08:02 fährt die neue Cloud-Routine `wissenscheck-phase1-alle2tage` ihren ersten
+Lauf. Der monatliche Wissenscheck besteht unverändert daneben; ab heute feuern damit zwei
+Taktgeber auf denselben Prüflauf. Der Abgleich war für vor dem 15.08. vorgesehen und ist jetzt
+überfällig.
+
+Am 16.08. ist die E-Banking-Gegenprüfung zu Transaktion 3630 über CHF 6'000 fällig, Valuta
+07.08., mutmasslich RE-00101 Tschopp.
+
+Am 17.08. erwartet die Bauherrschaft die Baufreigabe; der Antrag liegt seit dem 14.08. bei den
+drei Ämtern. Gleichentags 09:00 bis 10:00 Austausch Umbau PPTS und 10:30 bis 11:00 der
+Türkonzept-Call.
+
+Am 18.08. verlängert Dropbox automatisch, danach jährlich EUR 203.88.
+
+Am 20.08. Koordinationssitzung Gruner, Jans, KISPI von 13:00 bis 14:00, dazu die Zahlungsfrist
+RE-00100 der Nova über CHF 13'120.
+
+Am 21.08. Baustellenbegehung Kinderspital von 10:00 bis 12:00, Lenggstrasse 28, auf Einladung
+von Nicklas Rothe.
+
+Um den 23.08. läuft die Zahlungsfrist der Rechnung Gastro Online ab. Marco Schwander stellt am
+14.08. die Rechnung 26-08-0025 über CHF 4'250.50 für die Küchenplanung Therapiestation, zahlbar
+innert 10 Tagen. Rechnungsempfänger ist das Kinderspital, nicht JANS, es ist also keine
+Verbindlichkeit von Dir. Zu tun bleibt die bauleitende Prüfung auf sachliche und rechnerische
+Richtigkeit, dann Visum und Weitergabe, damit die Frist nicht bei der Prüfung verstreicht.
+
+**In Beobachtung**
+
+Nora Ramminger hat den Türkonzept-Termin am 14.08. um 17:13 abgesagt, und eine Zusage von TeKoSi
+liegt noch nicht vor; Du hast in der Einladung selbst um einen Gegenvorschlag gebeten.
+
+Die Baufreigabe der drei Ämter steht aus. Von Benjamin Kübler kam auf den Antrag nur eine
+Abwesenheitsantwort.
+
+Zwei Entwürfe liegen unverändert im Postfach: an Lukas Furrer vom 12.08. 16:06 und an Thomas
+Inniger vom 13.08. 01:28, dazu weiterhin der alte Inniger-Entwurf vom 08.08., der nicht
+hinausgehen darf. Beim Furrer-Entwurf lohnt ein Blick, ob er nach dem förmlichen
+Baufreigabe-Antrag vom 14.08. überhaupt noch nötig ist.
+
+bexio antwortet den achten Tag mit 401. RE-00087 über CHF 15'000 sowie RE-00098 und RE-00099
+bleiben unprüfbar, ein Mahnschritt ist nicht möglich; es hängt allein an einem neuen Token.
+
+Beim Notariat Wiedikon liegen zwei Bringschulden bei Dir, die Rückmeldung zu den Anpassungen an
+Urkunde und Statuten und das falsche Datum auf der Handelsregisteranmeldung. Die
+UBS-Kapitaleinzahlungsbestätigung ist dort weiterhin nicht eingetroffen. Das Notariat ist am
+03. und 04.09. geschlossen.
+
+Unverändert offen bleiben ferner das Tenant-Versionslimit auf «Manuell», der Begleitbeschrieb
+Thalwil Bohlweg 3, der Entscheid zum Twin-Gehirn am Grössenriegel und der Widerspruch beim
+Nachtschicht-Takt.
+
+**Vorschlag Kalendereinträge**
+
+Keiner. Der Türkonzept-Termin ist von Dir selbst angelegt, die Baustellenbegehung von Dir
+angenommen.
+
+**Token-Tempo**
+
+Vortag 14.08.: MacBook Pro 180.2 Mio Tokens (177 USD Kostenäquivalent), Mac Mini 75.5 Mio
+(70 USD), zusammen 255.7 Mio Tokens und rund 247 USD.
+
+---
+
 ## Hub-Chef 14.08.2026, 08:39 bis 08:55 — Tagesbriefing GESENDET (Regellauf)
 
 **Versandbeleg:** 14.08.2026 **08:51:44** an `rj@raphaeljans.ch`, Betreff «Hub-Chef 14.08.2026:
