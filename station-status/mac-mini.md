@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 01:13:42
+Stand: 16.08.2026 01:23:59
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 01:13:42
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 36cd5d49 vollgas-radar 16.08.: Umlaute-Korrektur im Eintrag 00:58 und im Fristen-Nachtrag (Rule umlaute-konvention)
+- 44c997e9 nas-selfcommit: 2 Datei(en) 2026-08-16 01:15
