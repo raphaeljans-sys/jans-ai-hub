@@ -51,11 +51,25 @@ Tabellen 1-5 zellenweise abgelesen, Folio = PDF-Blatt 1:1; Hauptprozess-Stichpro
 und 3.2.1 auf S. 23 am Original bestätigt). Status `speculative`, Refuter-Runde ausstehend.
 Der falsche Frontmatter-Link in `sia-382-2-2011.md` ist umgehängt.
 
-**N52-4 — OFFEN (P3): SIA 215:1978 ist geltend, im Haus und nie destilliert.** REGISTER führt
-SIA 215 als 1978✓; die Datei `alle/xalt/215_d.pdf` (40 S.) trägt auf dem Titelblatt «Ausgabe 1978,
-ersetzt Norm 115 (1953)», Herausgeber mit VSZKGF, Zement-Grundnorm. Für ein Architekturbüro
-randständig, deshalb P3 — aber es ist eine geltende Norm im Bestand ohne Destillat, und sie steht
-im Inventar jetzt als offene `[ ]`-Position.
+**N52-4 — GESCHLOSSEN (16.08.2026): SIA 215:1978 destilliert.** REGISTER führt SIA 215 als
+1978✓; die Datei `alle/xalt/215_d.pdf` (40 S., vollständiger Textlayer) trägt auf dem Titelblatt
+«Ausgabe 1978, ersetzt Norm 115 (1953)», Herausgeber im Einvernehmen mit EMPA und VSZKGF —
+reine Produkt-/Prüfnorm für Zement/Kalk/Gips, für die Planungspraxis randständig. Jetzt
+`destillate/sia-215-1978.md` (alle 40 S. per pdftotext gelesen, Folio = PDF-Blatt 1:1, keine
+Tabelle mit verbundenen Zellen/Farbcodierung gefunden, daher kein Rendering nötig). Status
+`speculative`, Refuter-Runde ausstehend. **EN-Überlagerung für Zement BELEGT, für Kalk/Gips
+weiterhin OFFEN:** die 1978er-Ausgabe selbst enthält keinen EN-Verweis, aber im selben
+`xalt`-Ordner liegen `215.002_2000_d.pdf` (SIA 215.002 = SN EN 197-1:2000 «Zement Teil 1»,
+gültig ab 01.01.2002, Titelblatt: «ersetzt Norm SIA 215.002:1993 (ENV 197-1:1992)») und
+`215_003d.pdf` (SIA 215.003 = SN EN 197-2:2000 «Zement Teil 2», gültig ab 01.01.2002) —
+damit sind die Zement-Kapitel von SIA 215:1978 (Ziff. 2.1/3.2/6.2/6.28/6.29) seit spätestens
+1993 durch eigene EN-Adoptionen unter derselben 215er-Familiennummer ersetzt. Für
+hydraulischen Kalk, Weisskalk und Baugips liegt im Haus keine EN-Nachfolgenorm vor (SN EN
+459-1 Baukalk/SN EN 13279-1 Gips nicht im Bestand) — **neuer offener Punkt:** ob und wodurch
+diese drei Abschnitte ersetzt wurden, ist nicht geklärt und muss vor einem Zitat als geltende
+Norm extern (SIA-Shop/Normenverzeichnis) geprüft werden. REGISTER.md (Zeile 53-58) führt
+SIA 215:1978 zusätzlich als eine von 14 Normzeilen mit höchster Revisionswahrscheinlichkeit,
+ohne eigene Zeilen für 215.002/215.003.
 
 **N52-5 — OFFEN: Beschaffungsposten SIA 242:2012 und SIA 274:2010.** Beide laut REGISTER geltend,
 beide **nicht im Haus**: von 242 liegen nur `242-1_1994` und `242_2`, von 274 nur der

@@ -1,3 +1,37 @@
+## 2026-08-16 — SIA 215:1978 «Mineralische Bindemittel» destilliert (P3 aus Run 52 geschlossen)
+
+Auftrag: das zweite geltende, nie destillierte `xalt`-PDF aus Run 52 (P3) nachziehen.
+Neues Destillat `destillate/sia-215-1978.md`. Quelle `alle/xalt/215_d.pdf`, 40 Seiten,
+vollständiger Textlayer, komplett per `pdftotext` seitenweise gelesen; keine Tabellen mit
+verbundenen Zellen/Farbcodierung gefunden, daher kein 300-dpi-Rendering nötig. Folio =
+PDF-Blatt 1:1 verifiziert (Fussnoten-Seitenzahlen S. 5-40 stimmen durchgehend mit dem
+PDF-Blatt überein).
+
+Inhalt: reine Produkt-/Prüfnorm für Zement, schnellbindenden Zement, hydraulischen Kalk,
+Weisskalk und Baugips — Begriffsbestimmungen (Ziff. 2), Gütewerte (Ziff. 3, Zahlenwerte
+selbst nicht übernommen, Urheberrecht), Kontroll- und Liefervorschriften (Ziff. 4-5),
+20 Seiten Laborprüfverfahren (Ziff. 6) bis auf Reagenzien-/Geräteebene. Kein
+Ausschreibungs-, Vertrags- oder Bemessungsstoff (anders als die ABB-Reihe SIA 118/262,
+118/266-1 etc.); für die JANS-Planungspraxis randständig, punktuell relevant bei
+Bestandsanalysen/Ankaufsprüfung mit historischer Bindemittel-Terminologie.
+
+**Befund zur EN-Überlagerung — für Zement BELEGT, für Kalk/Gips offen:** Die Norm
+selbst enthält keinen einzigen Verweis auf eine EN-Norm (nur eine Empfehlung zu
+CEN-anerkannten Analysemethoden, Ziff. 4.1) — konsistent mit ihrem Alter von 1978, deutlich
+vor der europäischen Harmonisierung. Im selben `xalt`-Ordner liegen aber
+`215.002_2000_d.pdf` (SIA 215.002 = **SN EN 197-1:2000** «Zement Teil 1», gültig ab
+01.01.2002, Titelblatt: «ersetzt Norm SIA 215.002:1993 (ENV 197-1:1992)») und
+`215_003d.pdf` (SIA 215.003 = **SN EN 197-2:2000** «Zement Teil 2», gültig ab 01.01.2002,
+ersetzt «Vornorm SIA 215.003:1996»). Damit ist belegt: die **Zement**-Bestimmungen von
+SIA 215:1978 (Ziff. 2.1/3.2/6.2/6.28/6.29) sind seit spätestens 1993 durch eigene
+EN-Adoptionen unter derselben 215er-Familiennummer ersetzt. Für **hydraulischen Kalk,
+Weisskalk und Baugips** liegt im Haus keine entsprechende EN-Nachfolgenorm vor (SN EN
+459-1/13279-1 nicht im Bestand) — ob und wodurch diese Abschnitte ersetzt wurden, bleibt
+offen. `wiki/REGISTER.md` (Zeile 53-58) führte SIA 215:1978 bereits vor diesem Lauf als
+eine von 14 Normzeilen mit höchster Revisionswahrscheinlichkeit, ohne eigene Zeilen für
+215.002/215.003. Schliesst QUESTIONS N52-4 (P3), `norm-inventar.md` Zeile 100 aktualisiert.
+Status `speculative`, Refuter-Runde ausstehend.
+
 ## 2026-08-15 — Normen Run 52 (Hauptteil): SIA 416/1:2007 destilliert, xalt-Ordner aufgenommen, Gegenprobe zweiter Ordnung gefahren
 
 Report: `outputs/2026-08-15_normen-nacht-run52.md`.
