@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 17:21:07
+Stand: 15.08.2026 17:41:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 17:21:07
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 86cd018f Synergie-Lauf 08 (15.08.): SYN-30 — bauoekologischer Beschaffungsstrang in wissen/energie ohne Rueckkante zu ausschreibung/werkvertrag/unternehmerkontrolle; Kante beidseitig gesetzt mit Alterskorpus-Vorbehalt. SYN-28b auf umgesetzt (Wissens-Chef Run 32), hub-weit gegengeprueft
+- ccc4e2b0 nas-selfcommit: 3 Datei(en) 2026-08-15 17:30
