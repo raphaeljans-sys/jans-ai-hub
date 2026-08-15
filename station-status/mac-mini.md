@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 15.08.2026 07:14:55
+Stand: 15.08.2026 07:25:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 15.08.2026 07:14:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 49b45623 nas-selfcommit: 1 Datei(en) 2026-08-15 07:15
+- 9063ab82 vollgas-fruehwarnung 15.08.2026: still, keine Meldung — Verbrauch fallend, Destillat liefert
