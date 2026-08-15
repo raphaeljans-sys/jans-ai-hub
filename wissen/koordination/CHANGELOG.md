@@ -3,6 +3,33 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-15 — Synergie-Lauf 08 (Tagestakt)
+
+- **Bericht:** `outputs/2026-08-15_synergie-lauf-08.md`. Delta-Basis 14.08.2026 17:45,
+  Fenster 23,4 h, 108 Commits. Uhr-Check bestanden (Station 17:10 CEST gegen Synology
+  17:00:05), Gegenprobe bestanden (gefiltertes Neuestes = HEAD `df34cf9d` = letzter Push).
+- **Strukturelles Delta: 0 neue Bausteine, 1 geaenderter Skill** (`email-preferences`).
+  Kein Frueh-Ausstieg, aber der Befund kam nicht von dort.
+- **Neu SYN-30 (umgesetzt):** `wissen/energie/wiki/oekologische-materialvorgaben-beschaffung.md`
+  nennt seine vier Konsumenten (`ausschreibung`, `werkvertrag`, `unternehmerkontrolle`,
+  `kostenkontrolle`) zweimal namentlich; Gegenprobe zeigte **0 Treffer** auf `energie` in allen
+  vier Skill-Dateien, und auch `skills/energie/SKILL.md` fuehrte keinen von ihnen. Der Inhalt ist
+  vergaberechtlich, nicht energetisch (Titel «Kontrolle Oekologievorgaben in Ausschreibungen»,
+  «integrierter Bestandteil aller Werkvertraege», ECO-BKP-Reihe nach BKP-Code). Kante beidseitig
+  gesetzt (drei Inputs-Klauseln + Gegenkante), je mit Alterskorpus-Vorbehalt; in `werkvertrag`
+  zusaetzlich die SIA-118-Rangfolge gegen die Selbstzuschreibung der Quelle. `kostenkontrolle`
+  bewusst nicht verdrahtet (Substanz = ein Mechanismus, erreicht sie ueber den Werkvertrag).
+- **SYN-28 (b) von offen auf umgesetzt** — durch den Wissens-Chef Run 32 (`fd176ad4`), nicht
+  durch diesen Skill; hub-weit gegengeprueft, kein Klarnamen-Aufruf von Mail/Calendar mehr.
+- **Geprueft, kein Befund:** neues Normen-Destillat `sia-416-1-2007.md` (`speculative`, in
+  REGISTER und INDEX verzeichnet — SYN-24-Mechanik traegt); sechs neue `bauprodukte`-Artikel
+  (SYN-16-Kante deckt sie ab, weil sie auf die KB zeigt); `twin` (nur Fidelity-Output).
+- **Methodischer Hinweis an den naechsten Lauf:** der Befund lag in einer KB-Datei, die das
+  Standard-Grep-Set des Schritts 1 nicht erfasst. Vorschlag, den Frueh-Ausstieg um den Fall
+  «neue Wiki-Artikel, die Skills namentlich adressieren» zu erweitern (billig messbar).
+- Schreib-Kontrolle 260811: sechs Dateien, keine hat Bestand verloren; alle vier Loeschungen
+  beabsichtigte Zeilenersetzungen am Anker.
+
 ## 2026-08-14 — Wissens-Chef Run 32 (Abendlauf, 23,4 h nach Run 31)
 
 - **Bericht:** `outputs/2026-08-14_wissens-chef-run32.md`. Delta 50 Dateien in `wissen/`

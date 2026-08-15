@@ -94,5 +94,12 @@ Diese KB führt die **Fachphysik und die Bauherren-Antwort**. Nicht hier fortsch
   `healthcare-wirtschaftlichkeit` (Betriebsenergie), `wettbewerb`, `auflagebereinigung`,
   `stockwerkeigentum` (Heizungsersatz als Ausloeser des Sanierungsbeschlusses — Rueckkante
   am 13.08.2026 dort gesetzt, hier am selben Tag nachgezogen; Synergie-Lauf 05).
+- **Bauleitungs-Skills, die den bauoekologischen Beschaffungsstrang hier belegen** (Kante
+  beidseitig gesetzt 15.08.2026, Synergie-Lauf 08): `ausschreibung` (Submissionsbedingungen,
+  ECO-BKP-Reihe nach BKP-Code, Anforderung als Hauptposition statt Variante), `werkvertrag`
+  (Ueberbindung an die Unternehmung: Warendeklaration mit Zustimmungsvorbehalt, Kostenfolge),
+  `unternehmerkontrolle` (Baustellenkontrolle der Materialvorgaben). Fuehrender Artikel:
+  `wissen/energie/wiki/oekologische-materialvorgaben-beschaffung.md`. ⚠ Alterskorpus
+  2006/2008 — uebertragbar ist die Mechanik, nicht der Wortlaut.
 - **Ablage:** Bauherren-Reports nach `wissen/energie/outputs/`; projektgebundene Erzeugnisse in
   den Projektordner (Rule `projekt-ablage-stand`).
