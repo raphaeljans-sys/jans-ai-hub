@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 22:55:16
+Stand: 15.08.2026 23:05:32
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -18,4 +18,4 @@ Stand: 15.08.2026 22:55:16
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0e48d0ad energie Run 134: Minergie-Korpus vermessen (79 PDF -> 35 echt offen), 3 Destillate (ME/ME-P-EFH-Vergleich, Label-Pressekritik, Faustregeln), 5 Dubletten per MD5 belegt, FAQ F237/F238, E-125-5 geschlossen, WEGE-Falle SharePoint-Bibliotheksname
+- 21956371 nas-selfcommit: 2 Datei(en) 2026-08-15 23:00
