@@ -5,7 +5,7 @@ ausgabe: "Kopf-/Fusszeile auf den Blättern Eingabe/EN-101b (2 Seiten), Zusatzan
 gelesen: "2026-08-07, alle 6 Seiten (sichtbarer Druckbereich und PDF-Textebene; Blatt Eingabe/EN-101b S. 1+2, Zusatzangaben Minergie-Nachweis, Sommerlicher Wärmeschutz, Übersicht Minergie-Nachweis, Zusatzangaben zur Erstellung von Neubauten). Nur in der PDF-Textebene, nicht im sichtbaren Druckbereich: N35 «Qww Wärmebedarf Warmwasser SIA 380/1 kWh/m2», N60 «Warmwasser mit mindestens 20% erneuerbarer Energie erzeugt (für Restaurants / Sportbauten / Hallenbäder) — Ja», Beilagenblock N63/N64 sowie U46/U47 «Treibhausgasemissionen … / Gespeicherter Kohlenstoff … — Keine Anforderungen»."
 datenstand: "⚠ Formular selbst befristet «zu verwenden bis 31. Dezember 2023» — heute (2026-08-07) drei Jahre abgelaufen. Als STRUKTUR-Beleg (welche Angaben braucht ein Minergie-Nachweis, wie hängen die Blätter zusammen) weiterhin brauchbar; Zahlen-/Grenzwertfelder sind im vorliegenden Exemplar leer (Blanko-Formular ohne Projektdaten) und dürfen nicht als aktuelle Kennwerte übernommen werden."
 status: emerging
-last_updated: 2026-08-07
+last_updated: 2026-08-15
 ---
 
 # Destillat — MINERGIE-Nachweisformular 2022.4 (Formularsatz, 5 Blätter)
@@ -304,3 +304,44 @@ Beruhigungsformel zur Nachfolgeversion, fehlende Felder EGID/Batterie/Minergie-A
 Unterschriftsblöcke ergänzt). Kein Zugewinn bei den MKZ-Formeln und THGE-Grenzwerten selbst.
 Statusentscheid: `emerging` bleibt bestehen — Formular ist strukturell gut belegt, aber seit
 31.12.2023 abgelaufen und die Nachfolgeversion nicht verifiziert.
+
+## Re-Abgleich 15.08.2026 (Dublettenpruefung, kein neuer Destillat-Lauf)
+
+Ein separat beauftragter Destillat-Lauf zu genau denselben sechs Dateien
+(`PL - 02_Recht_Norm/06_Richtlinien/Minergie/Nachweisformulare/{1_Eingabe,2_Minergie,3_Nachweis,
+4_Sommer,5_Uebersicht,6_Erstellung}.pdf`) wurde als Dublette erkannt und nicht als eigenes
+Destillat angelegt. Alle sechs PDF neu von SharePoint geladen (Pfad korrekt aufgelöst als
+`/sites/PL/PL  Immobilienpreise/06_Richtlinien/Minergie/Nachweisformulare/` — die Bibliothek
+`02_Recht_Norm` traegt intern noch den alten internen URL-Namen `PL  Immobilienpreise`) und
+stichprobenartig gegen dieses Destillat geprüft: **unverändert**, `TimeLastModified` weiterhin
+2025-03-24, Kopfzeile weiterhin «MINERGIE-Nachweisformular 2022.4, zu verwenden bis
+31. Dezember 2023» auf allen fünf versionierten Blättern. Kein inhaltlicher Zugewinn gegenüber
+Run 125; der ⚠-Vorbehalt (Formular seit 31.12.2023 abgelaufen, heute 2026-08-15 rund 32 Monate)
+bleibt unverändert gültig.
+
+## Nachfolgeversion verifiziert 15.08.2026 (Run 134) — löst QUESTIONS E-125-5
+
+Die seit Run 125 offene Frage «welche Fassung gilt heute?» ist an der Primärquelle beantwortet:
+
+- Massgebend ist das **Produktreglement Gebäudestandards MINERGIE/-P/-A, Version 2026.1**,
+  Titelblatt wörtlich: «Version 2026.1 — Ausgabe vom 08. Januar 2026, gültig ab 01. Januar 2026»
+  (minergie.ch, PDF-Titelblatt selbst gelesen, nicht aus einer Zusammenfassung übernommen).
+- Auf `minergie.ch/de/zertifizieren/minergie/` sind als aktuelle Bezugsdokumente gelistet:
+  Produktreglement **2026.1**, Anwendungshilfe zu den Minergie-Gebäudestandards **2026.2**
+  (Online-Version), Berechnungsmethodik Grenzwerte THGE in der Erstellung **2026.1**,
+  Zusatzanforderungen Industrie **2026.1** (Stand 15.08.2026).
+- Der Nachweis läuft heute **nicht mehr über eine herunterladbare Excel-Arbeitsmappe**, sondern
+  über die Label-Plattform: Projekt erstellen, Nachweis einreichen, Antragsformular unterzeichnen
+  und hochladen (`minergie.ch/de/zertifizieren/ablauf/`, Stand 15.08.2026) →
+  `[[minergie-online-plattform-antragstellung]]`, `[[minergie-zertifizierung-workflow]]`.
+- Übergangsregel: Nachweise nach Version 2025.1 sind noch bis **31.12.2026** zur provisorischen
+  Zertifizierung einreichbar (bereits belegt in `[[minergie-standards]]` aus Anhang A, gelesen
+  05.08.2026). Auf dem Titelblatt des Reglements 2026.1 selbst steht diese Frist **nicht**.
+
+**Folge für dieses Destillat:** Der Formularsatz 2022.4 ist damit nicht nur abgelaufen, sondern
+durch einen anderen Einreichungsweg abgelöst. Er bleibt als **Struktur-Beleg** brauchbar (welche
+Angaben ein Minergie-Nachweis überhaupt verlangt und wie die Blätter zusammenhängen); als
+Formularvorlage ist er wertlos. Der Status bleibt `emerging`.
+
+**Nicht belegt:** wie stark sich die Feldstruktur zwischen 2022.4 und der heutigen
+Plattform-Eingabe unterscheidet — das liesse sich nur an einem realen Plattform-Projekt prüfen.

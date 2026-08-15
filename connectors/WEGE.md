@@ -108,6 +108,24 @@ Belegte Beispiele, alle am 09.08.2026 gelaufen:
 # ohne Login-Profil kann "env: node: No such file or directory" kommen — dann
 # "$HOME/Developer/jans-ai-hub/node_modules/.bin/m365" mit vollem Pfad UND intaktem PATH
 # aufrufen, kein Workaround noetig ausser sicherzustellen dass /opt/homebrew/bin im PATH liegt).
+# ⚠ FALLE (belegt 15.08.2026, energie-Run 134): der `--url` will die SERVER-relative URL, und
+# die entspricht bei umbenannten Bibliotheken NICHT dem angezeigten Titel. SharePoint aendert
+# beim Umbenennen nur den Titel, nicht die Server-URL. Die Bibliothek mit dem Titel
+# "02_Recht_Norm" auf der Site /sites/PL heisst intern weiterhin "PL  Immobilienpreise"
+# (zwei Leerzeichen!). Am 15.08.2026 gemessen, betroffen sind ZWEI der sechs PL-Bibliotheken:
+#   Titel "02_Recht_Norm"    -> /sites/PL/PL  Immobilienpreise
+#   Titel "01 Kartenportale" -> /sites/PL/01 AV Amtliche Vermessung
+#   (03 Brandschutz, 04 Energie, 05 Planungsportale: Titel = interner Name)
+# Richtig ist also
+#   /sites/PL/PL  Immobilienpreise/06_Richtlinien/...   und NICHT
+#   /sites/PL/02_Recht_Norm/06_Richtlinien/...          → das liefert 404.
+# Den internen Namen holen (und nie raten):
+"$M365" spo list list --webUrl "$SITE" --output json   # Feld: Url bzw. RootFolder.ServerRelativeUrl
+# Der Graph-Weg ueber die Drive-ID ist von der Umbenennung NICHT betroffen und darum der
+# robustere Einstieg, wenn der Bibliotheksname unklar ist:
+"$M365" request --url "https://graph.microsoft.com/v1.0/sites/<siteId>/drives?\$select=id,name"
+"$M365" request --url "https://graph.microsoft.com/v1.0/drives/<driveId>/root:/<Pfad>:/children"
+
 "$M365" spo group member add --webUrl "$SITE" --groupId 5 --userNames "<upn>"
 
 # Externe Nutzer einer Site (NUR mit --siteUrl, siehe Sackgassen)

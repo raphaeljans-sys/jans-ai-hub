@@ -1,5 +1,39 @@
 # CHANGELOG
 
+## 2026-08-15 (Run 134, MacBook Pro 22:37) — Minergie-Korpus vermessen, EFH-Ebene, Label-Debatte
+
+**Der Befund vor den Destillaten:** Die seit Run 129 unverändert weitergereichte Prioritätenzeile
+«Minergie, 79 PDF, Priorität 1» hält der Messung nicht stand. 274 Dateien im Baum, davon 170
+FileMaker-App-Bundle, 15 Screenshots, 25 Seiten-Splits eines bereits destillierten Werks — **67
+dokumentartige Quellen, davon 32 bereits geführt, 35 offen**. Der Block war seit Run 124/125
+grösstenteils erledigt. Lehre in `curriculum.md` und `pdf-inventar.md`: eine Mengenangabe in der
+Prioritätenliste ist so verifikationsbedürftig wie ein Kennwert im Destillat. Daraus **E-R134-1
+(P2)**: die Grundzahl «182 energierelevante PDF» des PL-02-Korpus (Run 121) wurde seither nie
+nachgemessen.
+
+Drei neue Destillate aus fünf Quellen (Graph-Weg, M365-CLI, alle vollständig gelesen):
+`minergie-me-vs-me-p-vergleich` (Bauteil-Vergleich Neubau EFH plus Grundgleichung Qh = (Qt+Ql) −
+(Qs+Qp+Qe); ⚠ undatiert, Bezugsnorm SIA 380/1:2009, Zahlen zweifach überholt),
+`minergie-label-pressekritik` (archithese 6/2009 Leibundgut gegen minergie.ch 31.03.2010 Kriesi;
+keine normative Quelle, Meinung und Tatsache getrennt, beide Wortführer befangen — ausgewiesen)
+und `faustregeln-energieeffizientes-gebaeude` (⚠ kein Herausgeber, kein Datum, status
+`speculative`; Lambda-Anomalie 0,3 W/(m·K) **unverändert markiert statt korrigiert**).
+
+Fünf Dublettenkandidaten **belegt** entschieden statt geschätzt: die beiden `VoHi_EN-02_de.pdf`
+byte-identisch (MD5, `cmp`), Editionskette Jan 2009 → Feb 2013 → Dez 2018 belegt; der
+Grössenunterschied 179 kB gegen 420 kB war reine Komprimierung, nicht Sachänderung. Sechs weitere
+Dateien als Re-Abgleich bestätigt (Nachweisformular-Satz 2022.4, unverändert).
+
+Neue Bauherren-FAQ **F237** (Unterschied ME/ME-P am EFH) und **F238** (Label-Debatte ehrlich
+eingeordnet); Wiki `minergie-standards` gewachsen. **E-125-5 geschlossen**: massgebend ist das
+Produktreglement **2026.1** (Titelblatt am PDF selbst gelesen: Ausgabe 08.01.2026, gültig ab
+01.01.2026) plus Anwendungshilfe 2026.2; der Nachweis läuft über die Label-Plattform, nicht mehr
+über eine Excel-Mappe. Abhängige Stellen mitgezogen (Lehre E-125-4). **E-125-6 bleibt offen** mit
+stärkerem Negativbefund. Werkzeug-Befund in `connectors/WEGE.md`: `spo file get` will die
+server-relative URL, und `02_Recht_Norm` heisst intern weiterhin `PL  Immobilienpreise`.
+Stand PL-02: 80/182 destilliert, 102 offen. Register: `training/pdf-inventar.md`,
+`training/curriculum.md`, `destillate/INDEX.md`, `wiki/QUESTIONS.md`, `wiki/BAUHERREN-FAQ.md`.
+
 ## 2026-08-15 (Run 133, Mac Mini Nachtschicht 05:30) — Ordner 18.4/18.5/18.6 abgeschlossen
 
 Alle 10 Dateien aus `18.4 Wohlbefinden (Innenraumklima)`, `18.5 Boden Landschaft`, `18.6

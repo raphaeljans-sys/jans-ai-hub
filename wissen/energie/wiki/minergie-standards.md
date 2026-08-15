@@ -133,3 +133,39 @@ Zertifizierung einreichbar. Volle Tabelle und Anhang F (Monitoring-Messgrössen)
 Siehe auch: `[[u-werte-grenzwerte-ch]]`, `[[minergie-nachweiskurs-2023-mkz-thge]]` (Verifikations-
 Update mit Verdikt-Tabelle), `[[minergie-produktreglement-2026-1-muken-vergleich]]`,
 Bauherren-FAQ F5 + F10 + F212.
+
+## Update 15.08.2026 (Run 134) — EFH-Bauteilebene, Label-Debatte, Stand der Bezugsdokumente
+
+**Bauteilebene EFH ergänzt.** Die Tabellen oben führen die Kennzahlen für Wohnen MFH. Für den
+**Neubau Einfamilienhaus** liegt neu ein Bauteil-Vergleich Minergie ↔ Minergie-P vor (Dämmstärke
+20-25 gegen 20-35 cm, zweifach gegen dreifach Verglasung, «gute» gegen **gemessene**
+Luftdichtheit, Luftheizung möglich bei max. 10 W/m²) → `[[minergie-me-vs-me-p-vergleich]]`.
+⚠ Das Quellblatt ist **undatiert** und rechnet den Heizwärmebedarf noch als Prozentsatz von
+SIA 380/1:2009 (90 % / 60 %) mit einer festen Energiekennzahl 38/30 kWh/m². Beide Zahlenreihen
+sind überholt; massgebend bleiben die 90 % / 70 % QH,li **MuKEn 2025** aus Anhang A des
+Reglements 2026.1. Brauchbar an der Quelle sind die **Relationen** zwischen den Bauteilen und
+die Kopplung Hülle ↔ Haustechnik, nicht ihre Werte.
+
+**Stand der Bezugsdokumente, am 15.08.2026 an der Primärquelle geprüft:** Produktreglement
+**2026.1** (Titelblatt: Ausgabe 08.01.2026, gültig ab 01.01.2026), Anwendungshilfe **2026.2**
+(Online-Version), Berechnungsmethodik THGE Erstellung 2026.1, Zusatzanforderungen Industrie
+2026.1. Der Nachweis wird über die Label-Plattform eingereicht, nicht mehr über eine
+herunterladbare Excel-Mappe → `[[minergie-nachweisformular-2022-set]]` (dort die Auflösung der
+Frage E-125-5).
+
+**Zur Gültigkeitsdauer eines Zertifikats: weiterhin Negativbefund.** Die offizielle
+Ablauf-Seite (`minergie.ch/de/zertifizieren/ablauf/`, geprüft 15.08.2026) beschreibt die
+provisorische und die definitive Zertifizierung in je sieben Schritten und nennt **keine
+Befristung, keinen Verfall und keine Erneuerung** des Zertifikats. Das bestätigt den bisherigen
+Stand in `[[minergie-zertifizierung-workflow]]`; die Fünfjahresfrist aus dem Reglement 2010
+betrifft die Mehrfachanwendung der Marke, nicht das objektbezogene Zertifikat (QUESTIONS
+E-125-6 bleibt offen, weil ein Negativbefund auf einer Prozessseite kein Beleg für das
+Gegenteil ist — abschliessend nur bei der Zertifizierungsstelle zu klären).
+
+**Die Debatte um das Label gehört zur Beratung.** Dass Minergie unter Fachleuten nicht
+unbestritten ist (Dämmlogik gegen Emissions- und Erzeugungsseite, belegt 2009/2010), ist als
+eigener Beleg erfasst → `[[minergie-label-pressekritik]]`, Bauherren-FAQ F238. Bemerkenswert
+ist die Bewegung: die THGE-Grenzwerte und die PV-Pflicht seit 2023 adressieren genau die
+Emissions- und Erzeugungsseite, deren Vernachlässigung damals beanstandet wurde.
+
+Siehe auch Bauherren-FAQ **F237** (Unterschied ME/ME-P am EFH) und **F238** (Label-Debatte).

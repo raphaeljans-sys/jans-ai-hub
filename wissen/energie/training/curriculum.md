@@ -2287,3 +2287,43 @@ unten). Die Reihenfolge des Ertrags für die nächsten Läufe:
 (`pdftotext -layout | tr -s '[:space:]' '\n' | sort`, dann `comm`) trennt Layoutänderung von
 Sachänderung — und der Datumsstempel wird am **eigenen** Dokument gelesen, nie vom Nachbarn im
 selben Ordner übernommen.
+
+## Nach Run 134 (15.08.2026, zweiter Lauf des Tages) — Prioritäten, nach Messung korrigiert
+
+**Punkt 1 der bisherigen Liste fällt weg, weil er auf einer ungeprüften Zahl beruhte.** «Minergie
+(79 PDF, Priorität 1), unverändert seit Run 129» stand drei Läufe lang als grösster unangetasteter
+Block. Die Messung am 15.08.2026 zeigt: 274 Dateien im Baum, davon 170 FileMaker-App-Bundle, 15
+Screenshots, 25 Seiten-Splits eines bereits destillierten Werks — **67 dokumentartige Quellen,
+davon 32 bereits als Destillat-Quelle geführt**. Der Block war seit Run 124/125 grösstenteils
+abgearbeitet. Details und die Lehre daraus: `pdf-inventar.md`, Nachtrag Run 134.
+
+Reihenfolge des Ertrags für die nächsten Läufe:
+
+1. **`18.4/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf`** (43 S., unverändert aus Run 133).
+   Braucht einen mehrteiligen Read (>20 S./Request) und ein eigenes Budget. Vor dem Lauf zuerst
+   den Wort-Diff gegen `4.27Fugendichtungsmassen.pdf` (gleiche Dateigrösse) — bestätigt sich die
+   Dublette, ist der Punkt in zehn Minuten statt in einem ganzen Lauf erledigt.
+
+2. **Minergie-Restbestand, jetzt gezielt statt pauschal.** Rund 30 offene dokumentartige Quellen,
+   die ergiebigen zuerst: `ME-Antrag/ME-Antrag mit Kommentare.pdf`, `Weg_zum_Minergiezertifikat/
+   _Archiv/` (3 kleine PDF), `SIA380_1_Energie_im_Hochbau/EN-1b Berechnet.pdf` (ausgefülltes
+   Rechenbeispiel — für die KB potenziell wertvoll, weil sie viele Nachweis-Formulare, aber wenig
+   durchgerechnete Beispiele führt). Die `.xls/.xlt` im ME-Antrag-Ordner vorher darauf prüfen, ob
+   sie über `minergie-reglement-wegleitung-2010-historisch` hinaus überhaupt etwas hergeben.
+
+3. **E-R134-1 auflösen (P2): die Grundzahl «182 energierelevante PDF» des PL-02-Korpus
+   nachmessen.** Sie stammt aus Run 121 und ist die Bezugsgrösse, gegen die seither jeder
+   Fortschritt gemeldet wird — nachgemessen wurde sie nie. Derselbe Basenamen-Abgleich, der den
+   Minergie-Block in zwei Befehlen geklärt hat, würde zeigen, ob die Fortschrittszahl «80 von 182»
+   überhaupt das misst, was sie zu messen vorgibt. **Billig und mit hohem Aufräumwert.**
+
+4. **E-129-4: SIA 2024 (Raumnutzungsdaten) erschliessen** (P3, unverändert seit Run 129). Läuft
+   über den Skill `normen`, nicht über eine PL-02-Datei.
+
+5. **E-R132-1 (P2), E-R132-2 (P3)** unverändert offen.
+
+**Methodischer Merksatz aus diesem Lauf, Fortsetzung des Wort-Diff-Merksatzes aus Run 132:** Ein
+Wort-Diff prüft die Quelle, eine Bestandsmessung prüft die eigene Planung. Beide altern. **Eine
+Mengenangabe in der Prioritätenliste ist so verifikationsbedürftig wie ein Kennwert im Destillat**
+— wer sie von Lauf zu Lauf zitiert, ohne sie gegen den Bestand zu messen, plant gegen einen
+Vorrat, den es längst nicht mehr gibt.

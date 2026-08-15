@@ -8093,3 +8093,80 @@ BZO-Begrünungspflicht nicht automatisch — kommunale BZO der jeweiligen Gemein
 Dachbegrünung (Checkliste)», 16.02.2009, 2 S. vollständig gelesen (Run 133, 15.08.2026) →
 `[[dachbegruenung-gruendach]]`. Status **emerging** — Datenstand 2009, Rechtsbasis BZO Art. 11
 vor Zitat am aktuellen Stand verifizieren (KB `baurecht`); gilt nur für Stadt Zürich.
+
+## F237 — «Minergie oder Minergie-P — was heisst der Unterschied konkret an meinem Einfamilienhaus?»
+
+**Kurz:** Der Unterschied ist nicht ein einzelner strengerer Wert, sondern ein **Bündel**: Beim
+Heizwärmebedarf verlangt Minergie 90 %, Minergie-P **70 %** des gesetzlichen Grenzwerts QH,li;
+dazu kommen dickere Dämmung, Dreifachverglasung statt Zweifach, eine **gemessene** statt nur
+guten Luftdichtheit und energieeffiziente Geräte als Pflicht. Wer «einfach etwas besser dämmen»
+will, landet damit nicht automatisch bei Minergie-P.
+
+**Fachlich:** Die heute massgebenden Zahlen stehen im Produktreglement MINERGIE/-P/-A
+**Version 2026.1** (Ausgabe 08.01.2026, gültig ab 01.01.2026, am Titelblatt verifiziert
+15.08.2026): Wärmeschutz **90 % QH,li der MuKEn 2025** für Minergie und Minergie-A, **70 %** für
+Minergie-P; Luftdichtheitsmessung bei P und A zwingend (q_a50 ≤ 0,8 gegen 1,2). Die
+Minergie-Kennzahl ist **kein fixer Reglementwert**, sondern wird projektspezifisch gerechnet.
+
+Wie sich das an Bauteilen niederschlägt, zeigt ein älteres Minergie-Vergleichsblatt für den
+**Neubau Einfamilienhaus** — die Bauteil-Relationen sind weiterhin instruktiv, die Zahlenwerte
+selbst nicht mehr gültig:
+
+| Kriterium | Minergie | Minergie-P |
+|---|---|---|
+| Wärmedämmung | 20 bis 25 cm | 20 bis 35 cm |
+| Wärmeschutzverglasung | zweifach | dreifach |
+| Luftdichtigkeit | gut | geprüft (gemessen) |
+| Wärmeverteilung | übliche Verteilung | Luftheizung möglich |
+| Erneuerbare Energien, A-Geräte | empfohlen | erforderlich |
+| Wärmeleistungsbedarf | keine Anforderung | max. 10 W/m² (bei Luftheizung) |
+
+⚠ Diese Tabelle stammt aus einem **undatierten** Blatt, das noch auf SIA 380/1:2009 Bezug nimmt
+(Heizwärmebedarf 90 % bzw. 60 % jenes Grenzwerts, gewichtete Energiekennzahl 38/30 kWh/m²).
+Beide Zahlenreihen sind überholt und dürfen nicht in eine Offerte übernommen werden.
+
+**Bauherren-Transfer:** Der Entscheid für Minergie-P fällt **früh** und hat Gewerke-Folgen. Sinkt
+die Heizlast weit genug (Grössenordnung 8 bis 20 W/m² gemäss `[[heizleistung-und-waermeerzeuger]]`),
+lohnt sich ein eigenes Warmwasser-Verteilnetz oft nicht mehr und die Restwärme lässt sich über
+die ohnehin nötige Komfortlüftung verteilen. Das spart ein Gewerk, verlangt aber, dass Hülle,
+Lüftung und Wärmeerzeugung zusammen entschieden werden und nicht nacheinander. Umgekehrt gilt:
+Wer die Luftdichtheit erst auf der Baustelle «mitnimmt», besteht die Messung bei P und A nicht.
+
+**Quelle:** Minergie, «ME-ME-P-Haus» und «Qh+Qww-Haus-Abbildung», beide undatiert, vollständig
+gelesen (Run 134, 15.08.2026) → `[[minergie-me-vs-me-p-vergleich]]`. Geltende Werte:
+Produktreglement 2026.1, Anhang A → `[[minergie-produktreglement-2026-1-muken-vergleich]]`,
+`[[minergie-standards]]`. Status **emerging** — die Bauteiltabelle ist undatiert, nur die
+2026.1-Werte sind zitierfähig.
+
+## F238 — «Ist Minergie unter Fachleuten eigentlich unbestritten?»
+
+**Kurz:** Nein, und das ist kein Makel des Labels, sondern eine seit Langem offen geführte
+Fachdebatte. Der Streitpunkt ist nicht, **ob** energieeffizient gebaut werden soll, sondern
+**wo** der Franken die grösste Wirkung hat: in immer dickerer Dämmung oder in Wärmeerzeugung,
+Photovoltaik und Emissionsbilanz. Für eine Bauherrschaft heisst das: Minergie ist ein bewährtes,
+prüfbares Qualitätsversprechen, aber kein Naturgesetz — die Frage «lohnt sich der letzte
+Zentimeter Dämmung noch?» darf gestellt werden.
+
+**Fachlich:** Die Debatte ist belegt bis mindestens 2009/2010. Prof. Hans Jörg Leibundgut (ETH
+Zürich) kritisierte in archithese 6/2009 den Fokus auf Energie statt auf Emissionen und die aus
+seiner Sicht übertriebene Dämmlogik (Exergie-Argument); Dr. Ruedi Kriesi, Mitgründer und damals
+Vizepräsident von Minergie, antwortete am 31.03.2010 mit Erfolgszahlen und der Markenlogik.
+**Beide Seiten sind in der Sache befangen** — der eine als Vertreter eines konkurrierenden
+Ansatzes, der andere als Mitgründer des kritisierten Labels; das gehört zur Einordnung dazu.
+Sachlich hat sich das Label seither erkennbar in Richtung der damaligen Kritik bewegt: seit der
+Überarbeitung 2023 begrenzt Minergie zusätzlich die **Treibhausgasemissionen der Erstellung**
+(THGE) und verlangt PV auf mindestens 60 % der Dachfläche — also genau jene Emissions- und
+Erzeugungsseite, deren Vernachlässigung 2009 beanstandet wurde.
+
+**Bauherren-Transfer:** Die brauchbare Konsequenz für ein konkretes Projekt ist nicht «Label ja
+oder nein», sondern die Rechnung im Einzelfall: Ab einem gewissen Dämmstandard bringt der
+nächste Zentimeter wenig, während dieselbe Investition in Wärmeerzeugung, PV oder graue Energie
+mehr Wirkung hat. Diese Abwägung gehört ins Vorprojekt und ist der Ort, an dem sich ein
+Zertifizierungsentscheid ehrlich begründen lässt — gegenüber der Bauherrschaft ebenso wie
+gegenüber einer Bank oder einem Käufer, die das Label als Wertmerkmal lesen.
+
+**Quelle:** archithese 6/2009 (H. J. Leibundgut), gespiegelt auf nextroom.at (14.01.2010), und
+minergie.ch/News vom 31.03.2010 (R. Kriesi), beide vollständig gelesen (Run 134, 15.08.2026) →
+`[[minergie-label-pressekritik]]`. Status **speculative** — Presseartikel sind keine normative
+Quelle, Datenstand rund 16 Jahre; der geltende Stand steht in
+`[[minergie-produktreglement-2026-1-muken-vergleich]]`.

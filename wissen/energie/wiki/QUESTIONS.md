@@ -3334,3 +3334,47 @@ durchfuehrbar.
   gegen den Linknamen prüfen, nicht nur INDEX-Volltextsuche.** Anlass: Run 132 hat ein seit zehn
   Tagen bestehendes, gleichnamiges Destillat übersehen, weil `INDEX.md` Zeile 340 nur einen der
   beiden SharePoint-Pfade führte (Wissens-Chef Run 32).
+
+## Run 134 (15.08.2026, zweiter Lauf des Tages) — Minergie-Korpus vermessen, EFH-Ebene, Label-Debatte
+
+- **E-125-5 — ✅ GESCHLOSSEN am 15.08.2026.** «Welche Fassung des Minergie-Nachweisformulars gilt
+  heute?» ist an der Primärquelle beantwortet: massgebend ist das **Produktreglement 2026.1**
+  (Titelblatt wörtlich «Ausgabe vom 08. Januar 2026, gültig ab 01. Januar 2026», PDF selbst
+  gelesen, nicht aus einer Suchzusammenfassung übernommen), begleitet von der **Anwendungshilfe
+  2026.2** (Online-Version), der Berechnungsmethodik THGE Erstellung 2026.1 und den
+  Zusatzanforderungen Industrie 2026.1 (minergie.ch, Stand 15.08.2026). Der Nachweis läuft heute
+  **über die Label-Plattform**, nicht mehr über eine herunterladbare Excel-Mappe — der
+  Formularsatz 2022.4 ist also nicht nur abgelaufen, sondern durch einen anderen Einreichungsweg
+  abgelöst. **Abhängige Stellen mitgezogen** (Lehre aus E-125-4): Destillat
+  `[[minergie-nachweisformular-2022-set]]` um den Abschnitt «Nachfolgeversion verifiziert»
+  ergänzt, Wiki `[[minergie-standards]]` um den Stand der Bezugsdokumente. **Offen bleibt** nur,
+  wie stark sich die Feldstruktur zwischen 2022.4 und der heutigen Plattform-Eingabe
+  unterscheidet — das ist nur an einem realen Plattform-Projekt prüfbar.
+- **E-125-6 — bleibt offen, aber mit stärkerem Negativbefund.** Die offizielle Ablauf-Seite
+  (`minergie.ch/de/zertifizieren/ablauf/`, geprüft 15.08.2026) beschreibt provisorische und
+  definitive Zertifizierung in je sieben Schritten und nennt **keine Befristung, keinen Verfall,
+  keine Erneuerung**. Das stützt den bisherigen Stand, beweist aber nichts: eine Prozessseite
+  schweigt auch dann, wenn es eine Frist gibt. Abschliessend nur bei der Zertifizierungsstelle
+  zu klären; wertrelevant beim Verkauf.
+- [ ] **E-R134-1 (P2): Die Prioritätenliste hat drei Läufe lang eine ungeprüfte Mengenangabe
+  weitergereicht.** «Minergie: 79 PDF, Priorität 1» stand seit Run 129 unverändert in Curriculum
+  und Inventar. Gemessen am 15.08.2026: 274 Dateien im Baum, davon 170 App-Bundle, 15
+  Screenshots, 25 Seiten-Splits, 2 InDesign — **67 dokumentartige Quellen, davon 32 bereits
+  destilliert, 35 offen**. Der Block war seit Run 124/125 grösstenteils erledigt. **Zu klären:
+  in welchen anderen Prioritätenzeilen steckt dieselbe Ungenauigkeit?** Kandidat ist die
+  Grundzahl «182 energierelevante PDF» des PL-02-Korpus selbst (Run 121), gegen die seither jeder
+  Fortschritt gemessen wird, ohne dass sie je nachgemessen wurde. Ein Basenamen-Abgleich gegen
+  alle Destillate kostet zwei Befehle.
+- [ ] **E-R134-2 (P3): Bezugsfläche der Energiekennzahl 38/30 kWh/m² im EFH-Vergleichsblatt nicht
+  ausgeschrieben.** Auf der Grafik steht nur «kWh/m²»; EBF ist naheliegend, aber nicht belegt.
+  Nur von historischem Interesse (der Wert selbst ist überholt), aber ein sauberes Beispiel für
+  die Bezugsflächen-Falle, die schon bei EBF↔NWF im Passivhaus-Vergleich zugeschlagen hat
+  (`[[minergie-p-genese-passivhaus-vergleich-2002]]`).
+- [ ] **E-R134-3 (P3): Lambda-Anomalie im Faustregeln-Merkblatt.** Regel 03 nennt «verbesserter
+  Lambda-Wert λ 0,3 W/(m·K)» — für einen Dämmstoff physikalisch unplausibel (üblich 0,03 bis
+  0,04). Vermutlich fehlende Null im Original. **Bewusst nicht korrigiert, nur markiert** — das
+  Destillat gibt die Quelle treu wieder. Falls das Papier je als Gesprächsgrundlage dient, vorher
+  klären; da Herausgeber und Datum fehlen, ist der Aufwand vermutlich nicht gerechtfertigt.
+- [ ] **E-R134-4 (P4): Existiert eine MFH- oder Zweckbau-Fassung des EFH-Bauteilvergleichs?** Das
+  Blatt gilt laut eigener Fussnote ausdrücklich nur für «Wohnen Einfamilienhaus». Die KB deckt
+  MFH über die Kennzahlen ab, aber nicht auf derselben Bauteilebene.

@@ -704,3 +704,61 @@ dedizierter Lauf). 2. `06_Richtlinien/Minergie/` (79 PDF, Priorität 1, unverän
 **Stand PL-02:** **77 von 182** energierelevanten PDF destilliert (75 bis Run 132, **2 in
 Run 133**), **103 offen**; zusätzlich 7 in diesem Lauf geprüft und bewusst nicht einzeln
 destilliert (5 Dubletten + 2 ohne Bauherren-Fakt).
+
+## Nachtrag 2026-08-15 (Run 134): Minergie-Korpus vermessen — die «79 PDF offen» stimmen nicht
+
+**Zuerst die Korrektur, weil sie die Prioritätenliste ändert.** Seit Run 129 stand «`06_Richtlinien/
+Minergie/` (79 PDF, Priorität 1)» als grösster unangetasteter Block in Inventar und Curriculum. Die
+Zahl 79 ist richtig gezählt, aber als Arbeitsvorrat irreführend. Vollständige rekursive Messung über
+Graph am 15.08.2026:
+
+| | Anzahl |
+|---|---|
+| Dateien im Baum `06_Richtlinien/Minergie/` gesamt | **274** |
+| davon FileMaker-App-Bundle `Tool/Tool_MiEcoV23/…` (Binaries, Wörterbücher, .nib, .plist) | 170 |
+| davon Screenshots/Bilder/.url | 15 |
+| davon Einzelseiten-Splits `planer_d-SeiteNN.pdf` eines bereits destillierten Werks | 25 |
+| davon InDesign-Quelldateien (.indd) | 2 |
+| **dokumentartige Quellen (PDF/DOCX/XLS/DOC)** | **67** |
+| davon in Destillaten bereits als Quelle geführt (Basenamen-Abgleich über alle 289 Destillate) | **32** |
+| **tatsächlich offen** | **35**, davon 5 in diesem Lauf als Dubletten erledigt |
+
+Die 79 PDF enthalten also 25 Seiten-Splits und rund 30 bereits destillierte Quellen. Der Block war
+seit Run 124/125 zu weiten Teilen abgearbeitet; die Prioritätenzeile wurde von Lauf zu Lauf
+unverändert weitergereicht, ohne gegen den Bestand gemessen zu werden. **Lehre, gleiche Familie wie
+der Wort-Diff-Merksatz aus Run 132: eine Mengenangabe in der Prioritätenliste altert wie ein
+Kennwert. Wer sie drei Läufe lang zitiert, ohne sie gegen den Bestand zu messen, plant gegen einen
+Vorrat, den es nicht mehr gibt.** Der Abgleich kostete zwei Befehle.
+
+| Status | Quelle (PL - 02_Recht_Norm/06_Richtlinien/Minergie/...) | KB-Datenstand |
+|---|---|---|
+| [x] `Vergleich/ME-ME-P-Haus.pdf` + `Vergleich/Qh+Qww-Haus-Abbildung.pdf` | 2026-08-15 (beide vollst., 1 + 2 S. → `minergie-me-vs-me-p-vergleich`; **undatiert**, Alters-Indiz Bezugsnorm SIA 380/1:2009. Bauteil-Vergleich Neubau EFH + Grundgleichung Qh = (Qt+Ql) − (Qs+Qp+Qe) → FAQ F237) |
+| [x] `Nuetzliche Unterlagen/Presse/nextroom.at - Superlabel in Erklärungsnot.pdf` + `Presse/Superlabel bleibt super.pdf` | 2026-08-15 (beide vollst. → `minergie-label-pressekritik`; archithese 6/2009 H. J. Leibundgut, gespiegelt 14.01.2010, und minergie.ch/News 31.03.2010 R. Kriesi. **Keine normative Quelle**, Meinung/Tatsache im Destillat getrennt → FAQ F238, status speculative) |
+| [x] `Nuetzliche Unterlagen/Faustregeln zum Energieeffizienten Gebäude.docx` | 2026-08-15 (vollst., 1 S./17 Punkte → `faustregeln-energieeffizientes-gebaeude`; **kein Herausgeber, kein Datum im Text**, Docx-Metadaten 18.04.2010. status **speculative**, jede Zahl als nicht-normativ gekennzeichnet; Lambda-Anomalie 0,3 W/(m·K) unverändert markiert statt korrigiert) |
+| [-] `Merkblaetter/VoHi_EN-02_de.pdf` + `SIA380_1_Energie_im_Hochbau/VoHi_EN-02_de.pdf` | 2026-08-15 (geprüft: **byte-identisch**, MD5 `28fe2f69aa6b5d25a1a9105f7ab3bb4c`, `cmp` bestätigt; je 14 S., «Ausgabe Januar 2009». Inhaltlich abgedeckt durch die 2013er-Auflage → `enfk-en-02-waermeschutz-2013`, U-Wert-Grenzwerttabelle in beiden Editionen identisch) |
+| [-] `Nuetzliche Unterlagen/Gebaeudehuellziffer/VoHi_EN02_de.pdf` | 2026-08-15 (geprüft: 14 S., «Ausgabe Februar 2013» — **andere Auflage als die beiden 2009er**, aber bereits im Bestand als `enfk-en-02-waermeschutz-2013`, gelesen 2026-06-09) |
+| [-] `Nuetzliche Unterlagen/Gebaeudehuellziffer/EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` | 2026-08-15 (geprüft: 18 S., Ausgabe Dezember 2018 — Titel, Ausgabe und Seitenzahl exakt = `enfk-en-102-waermeschutz-2018`, gelesen 2026-06-06) |
+| [-] `Nuetzliche Unterlagen/Infobrochuren/01_planer_d/planer_d.pdf` | 2026-08-15 (geprüft: 24 S., Druckvermerk 01-17-940006 = `minergie-besser-planen-bauen`; die 24 Einzelseiten-Splits im Unterordner `einzel/` bleiben wie bisher ungeführt) |
+| [x] `Nachweisformulare/{1_Eingabe … 6_Erstellung}.pdf` | 2026-08-15 (**Re-Abgleich, kein neuer Lauf**: alle sechs neu geladen, `TimeLastModified` unverändert 2025-03-24, Kopfzeile weiterhin «Nachweisformular 2022.4, zu verwenden bis 31. Dezember 2023» — Dublette zum bestehenden `minergie-nachweisformular-2022-set`, dort als Re-Abgleich vermerkt) |
+
+⚠ **Werkzeug-Falle dieses Laufs, für jeden künftigen SharePoint-Zugriff:** `m365 spo file get --url`
+will die **server-relative** URL, und die folgt bei umbenannten Bibliotheken nicht dem angezeigten
+Titel. Die Bibliothek mit dem Titel `02_Recht_Norm` heisst intern weiterhin `PL  Immobilienpreise`
+(zwei Leerzeichen), `01 Kartenportale` heisst intern `01 AV Amtliche Vermessung`. Der im Auftrag
+mitgegebene Pfad lief deshalb bei allen drei Destillat-Agenten in einen 404; alle drei fanden den
+richtigen Namen selbständig über `spo list list`. Eingetragen in `connectors/WEGE.md`. Der
+Graph-Weg über die Drive-ID ist von Umbenennungen nicht betroffen und darum der robustere Einstieg.
+
+**Stand PL-02:** **80 von 182** energierelevanten PDF destilliert (77 bis Run 133, **3 in Run 134**),
+**102 offen**; zusätzlich 5 in diesem Lauf belegt als Dubletten geprüft und 6 als Re-Abgleich
+bestätigt.
+
+**Nächste Priorität:** 1. `18.4/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf` (43 S.,
+dedizierter Lauf, unverändert aus Run 133). 2. Minergie-Restbestand — **nicht mehr «79 PDF»,
+sondern rund 30 dokumentartige Quellen**, davon die inhaltlich ergiebigen:
+`Nachweisformulare/ME-Antrag/ME-Antrag mit Kommentare.pdf` (194 kB), `Weg_zum_Minergiezertifikat/
+_Archiv/` (3 kleine PDF), `SIA380_1_Energie_im_Hochbau/EN-1b Berechnet.pdf` (490 kB, ausgefülltes
+Rechenbeispiel), `Nuetzliche Unterlagen/Verschattungs-Tool-Internet.doc`. Die `.xls/.xlt`-Dateien
+im ME-Antrag-Ordner sind Rechenwerkzeuge der Fassung 2010/2011 und tragen keinen eigenen
+Fachinhalt über `minergie-reglement-wegleitung-2010-historisch` hinaus — vor einem Lauf prüfen,
+ob sie überhaupt einen Bauherren-Fakt hergeben.
