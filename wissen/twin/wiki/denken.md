@@ -1,7 +1,7 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-13
+last_updated: 2026-08-15
 gewichtung: authentisch
 sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
@@ -720,3 +720,34 @@ nachzuliefern — das kehrt die Beweislast um und macht aus einer Rechnung eine 
 
 Verwandt mit «in Varianten rechnen» und der Hochfaktorierung vom Bekannten (Batch 26); neu ist,
 dass die Ausgangszahlen **vollständig vom Gegenüber stammen**. Quelle: 27.07.2026, authentisch.
+
+## Mailbatch 94 (03.–07.08.2026) — die eine tragende Frage wird benannt, die Norm wird vom Bauherrn gefordert
+
+- **«Grundsätzliche Fragestellung:» als eigener Schlussabsatz.** Die Liefermail an den
+  Gipser-Unternehmer führt über zwei Bildschirmseiten Detailpunkte (Nachweise, Elektro,
+  Leitungsdurchbrüche, Brandabschottung, Planstand, Telefontermin) und endet mit einer einzigen,
+  ausdrücklich so bezeichneten Frage: «**Grundsätzliche Fragestellung:** Kannst Du mit der
+  bestehenden Vermassung die LBW einmessen?» Muster: **erst alles Nebeneinander, dann die eine
+  Frage, an der das Ganze hängt, explizit als solche markieren.** Der Zwilling neigt dazu, die
+  entscheidende Frage in die Detailliste einzureihen, wo sie untergeht.
+- **Die Norm wird nicht selbst gegen den Fachplaner geführt, sondern dem Bauherrn in die Hand
+  gegeben.** Nachdem die Behörde die Berechnungsgrundlage (SWKI VA-102-01) benannt hat, geht die
+  Mail nicht an den säumigen Fachplaner, sondern an den Betreiber: «Ich Bitte Dich nun **direkt
+  von** [dem Fachplanerbüro] **zu verlangen** das Sie die Planung nach den gültigen Vorschriften
+  machen und dies mit der Bhörde Absprechen.» Muster: **wo die Durchsetzung Bauherrenmacht
+  braucht, wird sie dorthin delegiert, statt sie als Architekt zu simulieren.** Verwandt mit der
+  Generalisten-Koordination über die Fachplaner-Kette (Batch 25), hier mit der Autorität als
+  ausdrücklichem Hebel.
+- **Vorsorgefrage stellen, Beleg mitliefern, Bemessung abgeben.** Zur Küchenlüftung: erst die
+  Überlegung als Frage («Würde es sinnvoll sein **vorsorglich zusätzlich** zu dem Bodenabzug …
+  ein Dunstabzugshaube an der Decke … einzuplanen?»), dann die Rückgabe der Dimensionierung an
+  den Fachplaner («Können Sie uns **in Absprache mit dem UGZ** ein Vorschlag machen was für ein
+  Umlufthaube für eine Leistung zu erbringen hat?»), dazu die bestehende Variantenuntersuchung
+  als Beilage. **Die Idee bleibt beim Architekten, die Zahl beim Fachplaner** — und die Behörde
+  wird in der Frage schon mitgenannt, damit die Antwort nicht zweimal gerechnet werden muss.
+- **Der Präzedenzfall im eigenen Bestand schlägt die Norm.** Zur zu knappen Ecke beim Lavabo:
+  «Ich habe eine Ähnliche Situation **im 2.OG gefunden** wo das Lavabo ziemlich nahe an der
+  Seiten Wand ist.» Muster: **die Zulässigkeit einer Ausnahme am gebauten Bestand desselben
+  Hauses belegen**, nicht am Regelwerk. Für den Betreiber ist das der billigere Beweis.
+
+Quelle: 03.–07.08.2026, authentisch.

@@ -1,7 +1,7 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-13
+last_updated: 2026-08-15
 gewichtung: authentisch
 sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -2114,3 +2114,34 @@ Quelle: 07.05.2026, authentisch (Rückmeldung Anlagebauer, von Raphael zusammeng
   Fristen nach sich. **Der Marker ist der Sachverhalt, nicht die Formulierung** — der Mailtext
   dazu ist als `claude-aera` verworfen (siehe `CLAUDE.md`, neunte Falle). Quelle: 30.07.2026,
   Sachverhalt aus der Amtsmail, Formulierung nicht als Stilquelle verwendet.
+
+## Mailbatch 94 (03.–07.08.2026) — VKF-Nummer je Bauteil als eigene Prüfspur, SWKI im Spitalbau
+
+- **Die VKF-Nummer wird je Bauteil geführt und offen als ungeprüft markiert.** «Ich überprüfe
+  noch die **Korrektheit der VKF-Nr. Je Bauteil** wo Fragezeichen sind» — der Nachweis hängt
+  nicht am Bauteiltyp, sondern an der konkreten Zulassungsnummer des konkreten Aufbaus, und der
+  Prüfstand wird im Mail sichtbar gehalten. Dazu die offenen Nachweise als Fragenpaar statt als
+  Behauptung: «Unterlagsboden EI60, Anschluss mit Systemhersteller abklären?» / «Bodendeckbelag
+  horizontale Fluchtwege RF3? (siehe Factsheet Anhang)». Ergänzt die Ertüchtigungsfrage
+  «Bauteil oder Systemnachweis» (Batch 92).
+- **SWKI VA-102-01 als Berechnungsgrundlage der Luftmengen im Spitalbau.** Erste SWKI-Fundstelle
+  im Korpus; sie steht neben SIA und VKF und wurde hier von der städtischen Fachstelle als
+  verbindliche Grundlage benannt, gegen eine abweichende Auslegung der Fachplanung. Merksatz für
+  die Fachsignatur: **im Gesundheitsbau bestimmt die SWKI-Richtlinie die Luftmenge, nicht die
+  allgemeine Lüftungsnorm.**
+- **Leichtbauwand-Vokabular im Du-Fachmail, ungebremst und massgenau.** «Nachweis **LBW auf UB** —
+  Anschluss LBW auf UB **EI30** Konform», «**GK-Doppelständerwand ab 20.5cm; CW75** offene Fragen
+  bez. VKF. Nr.», dazu **BIK** (Brandschutz-Innenverglasung) und die Brandabschottung in den
+  EI30-Unterzügen. Massangaben auf den halben Zentimeter, Profilbezeichnung statt Beschreibung.
+- **Gastro-Gerätebezeichnung samt Artikelnummer im Fliesstext, weil sie die Bemessungsgrundlage
+  ist.** «Bodenabzug Kochfeld BORA Professional 3.0 Pro Set Flächeninduktion (1x PKAS3, 2x PKFI3)
+  mit Plasmafilter Typ AVITANA aira Quadro L Art.-Nr. …» — und daran anschliessend die Frage nach
+  der zusätzlichen Umluft-Deckenhaube. **Umluft- gegen Ablufthaube ist im Umbau die Kostenfrage**,
+  weil die Abluft die Fassade oder den Steigzonen-Nachweis berührt.
+- **Präzedenz im eigenen Bestandesbau als Zulässigkeitsbeleg** (→ [[denken]]) und die
+  Planänderung über den Betriebsnutzen begründet: das Lavabo «an die Wand gedrückt; damit hättet
+  Ihr die Möglichkeit dort an dieser Wand **noch 3 Hochschränke** zu platzieren nebst der
+  Waschmaschine». **Der Healthcare-Blick argumentiert in Stauraum und Reinigbarkeit** («Ihr könnt
+  ja der Ecke **ausplättlen**»), nicht in Gestaltung. Mundart mitten im Fachsatz.
+
+Quelle: 03.–07.08.2026, authentisch.

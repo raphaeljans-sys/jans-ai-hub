@@ -3204,3 +3204,58 @@ mechanischen `Anthropic Sans`-Greps (Fidelity 260813) und konnten ihn also nicht
    `summary` bleibt unvermeidbar — sie kommt mit jedem Suchtreffer —, deshalb ist die einzige
    wirksame Massnahme, kontaminierte Passagen konsequent von der Wertung auszuschliessen und
    das im Report auszuweisen.*
+
+## Batch 94 (15.08.2026) — Fenster `rj@` 03.–07.08.2026
+
+**Erledigt aus 260814:** #4 (mechanisches Kennzeichen des blinden Kanals) ist **beantwortet** —
+nicht über ein Strukturmerkmal, sondern über das **Sendejournal des Hub** (→ `CLAUDE.md`, zehnte
+Falle). #3 (Listen-Anlauf-Messfehler) ist in diesem Lauf **umgangen**, indem der Messkorpus ohne
+Bullet-Zeilen gebildet wurde (752 W, ø 13.4 W); der Filter in `stilmetrik.py` fehlt weiterhin.
+**Weiterhin offen:** 260814 #1 (Gegenprobe nicht durchführbar, siehe unten), #2, #5 sowie
+260814b #1–#5.
+
+1. **[Methodik · hoher Ertrag, sofort umsetzbar] Das Sendejournal rückwirkend gegen die
+   Gold-Bestände laufen lassen.** Die zehnte Falle zeigt, dass die Selbstmails des Hub Uhrzeit,
+   Empfänger und Inhalt der vom Zwilling versendeten Mails protokollieren. *Warum das dringend
+   ist: die Batches 84–93 haben diese Selbstmails durchwegs als «Rauschen gestreift» und
+   ungelesen verworfen — genau die Quelle, die jeden Verdachtsfall dieser Fenster hätte
+   entscheiden können. Zu tun: für die Fenster ab ca. April 2026 (Beginn der Hub-Versandtätigkeit)
+   die Selbstmails gezielt nach Formulierungen wie «ist raus», «versendet», «Entwurf liegt» +
+   Uhrzeit durchsuchen und gegen die als Gold verbuchten Mails derselben Tage stellen. Jeder
+   Treffer ist ein Gold-Eintrag, der zurückzunehmen ist. Das ist die billigste und härteste
+   Qualitätssicherung, die dem Korpus zur Verfügung steht.*
+2. **[Methodik] Trennt die ASCII-Transliteration im Betreff die Hub-Mails zuverlässig?** Ein
+   bewiesener Beleg («Gruendung … bestaetigt») plus vier Selbstmails desselben Tages; drei weitere
+   Verdachtstexte desselben Fensters tragen dagegen korrekte Umlaute im Betreff. *Warum: falls das
+   Muster an einer bestimmten Task hängt (Betreff aus einem Script/Dateinamen gebildet, Rule
+   `dateinamen-konvention`) statt an Claude, ist es ein Task-Detektor und gehört nicht in die
+   Muster-Tabelle. Billig zu prüfen: alle Sent Items eines Monats nach `ue|ae|oe` im Betreff bei
+   gleichzeitig deutschem Fliesstext greppen und die Treffer den Loops zuordnen.*
+3. **[Methodik] `rgb(252,252,251)` — die Gegenprobe steht weiterhin aus, aber die Frage hat sich
+   verschoben.** Zweiter Beleg gefunden, diesmal in einer **Exchange**-Mail; damit ist das
+   Apple-Mail-Rendering als Ursache ausgeschlossen. *Zu klären ist jetzt nicht mehr «ist es ein
+   Rendering-Artefakt», sondern: gibt es einen zweifelsfrei handgetippten Text — in irgendeinem
+   Kanal —, der den Wert trägt? Findet sich keiner in einem Fenster von 50+ Mails, gehört er als
+   drittes hartes Muster in die Tabelle in `CLAUDE.md`.*
+4. **[Beziehungsregister · Widerspruch, nicht geglättet] Gilt die Sammelanrede-Regel «höflichste
+   Stufe für alle» überhaupt noch?** Belegt ist jetzt das Gegenteil: «Werter Herr Kübler, /
+   geschätzter Cekar und Jens.» — Sie und Du nebeneinander in EINER Anrede, an dasselbe Büro.
+   *Warum: `rules/anrede-kontakte.md` schreibt «Bei mehreren Empfängern im Cc/An: höflichste
+   Anrede wählen, sofern nicht alle per Du sind». Der Beleg zeigt, dass Raphael stattdessen jede
+   Person einzeln adressiert und die Stufen nebeneinander stehen lässt. Zu klären: ist die
+   gestaffelte Anrede die Regel und die Nivellierung die Ausnahme (z.B. bei grossen Verteilern
+   oder wenn die Namen nicht alle bekannt sind)? Falls ja, ist die Rule zu präzisieren — sie
+   steuert jede ausgehende Sammelmail.*
+5. **[Stimme] Woran hängt der Wechsel Vollname → Kosename?** Innerhalb desselben Tages und
+   derselben Du-Stufe: «Geschätzter Michael» (06:24, Sachforderung durchstellen) → «Geschätzter
+   Michi» (09:31, Akontozahlung) → «Hoi Michi» (14:23, Möblierungsfrage). *Kandidaten: (a) das
+   Gewicht des Anliegens (analog der Klausel in `rules/anrede-kontakte.md`), (b) ob Dritte
+   mitlesen — die 06:24-Mail geht an mehrere Fachplaner, die späteren nur an ihn. Billig zu
+   prüfen: alle Mails an denselben Kontakt nach Empfängerzahl gruppieren und die Anredeform
+   auszählen. Trägt (b), ist es kein Wärme-, sondern ein Öffentlichkeitsmarker — und der Zwilling
+   muss den Verteiler prüfen, bevor er die Anrede wählt.*
+6. **[Fachsignatur] Ist die SWKI-Richtlinienreihe im Korpus sonst belegt?** VA-102-01 ist die
+   erste SWKI-Fundstelle überhaupt. *Warum: die Normen-KB (`wissen/normen`) führt SIA/VKF/DIN/VSS,
+   die SWKI bisher nicht. Wenn der Gesundheitsbau eine eigene Normenfamilie für die Lüftung hat,
+   gehört sie ins Normen-Register — und die Fundstelle ist nach Rule `normen-referenz` vor der
+   nächsten Verwendung am Original zu verifizieren, nicht aus dieser Mail zu zitieren.*

@@ -315,6 +315,79 @@ weiterhin der Fehlerdichte-Vergleich gegen die Eigentexte desselben Tagesfenster
 Konsequenz der neunten Falle, unverändert in Kraft). Der Grep sagt **wo** hinzusehen ist, nicht
 **wer** geschrieben hat. Als Restfrage geführt in [[QUESTIONS]] 260814b #2.
 
+**Zehnte Falle, neu 15.08.2026 (Batch 94) — der erste DOKUMENTARISCHE Beweis: der Hub
+protokolliert seinen eigenen Versand.** Alle bisherigen Echo-Urteile beruhen auf Indizien (CSS,
+Fehlerdichte, Satzmelodie) oder auf einem Lokalisator. In diesem Fenster liegt zum ersten Mal ein
+**Beweis ausserhalb des Textes** vor.
+
+Die Mail ans Notariat vom 03.08.2026 wurde um **12:56 UTC = 14:56 CEST** gesendet. Am selben
+Abend schreibt der `ag-gruendung-monitor` seine Selbstmail an `rj@`:
+
+> «Die Rückmeldung ans Notariat ist **um 14:56** raus, und zwar in der richtigen Fassung:
+> **Terminbitte ab rund dem 10.08. unter Vorbehalt der Kapitalbescheinigung**, beide Anhänge
+> dabei (**Gründungsurkunde und Statuten**, Fassung …).»
+
+Die Mail selbst trägt genau diesen Wortlaut («Könnten Sie mir ein Fenster **ab rund dem
+10.08.26** provisorisch reservieren, unter dem Vorbehalt, dass die Bescheinigung vorliegt?») und
+genau diese zwei Anhänge. Uhrzeit, Inhalt, Anhänge und Absicht stimmen überein. **Damit ist der
+Text als Hub-Erzeugnis belegt, ohne dass ein einziges Stilmerkmal bemüht werden musste.**
+
+**Die Methode, die daraus folgt — ab sofort verbindlich vor jedem Echo-Urteil:** die Selbstmails
+des Hub an `rj@` (Logbuch-Radar, Hub-Chef, AG-Gründungs-Monitor, Vollgas-Frühwarnung,
+Kontingent-Wächter) sind **nicht bloss Rauschen, das man überspringt** — sie sind das
+**Sendejournal des Zwillings**. Sie nennen Uhrzeit, Empfänger und Inhalt dessen, was der Hub
+selbst hinausgeschickt hat. Bisher wurden sie in jedem Batch als «claude-aera, gestreift»
+abgetan; genau darin lag der Verlust. **Vorgehen: bei einem Verdachtstext zuerst die Selbstmails
+desselben Tages nach der Uhrzeit und dem Vorgang durchsuchen, erst danach stilistisch urteilen.**
+Das ist billiger und härter als jede Fehlerdichte-Rechnung.
+
+**Der Wrapper hält, mit einem dokumentierten Anker.** In diesem Fenster: `Apple-Mail-URLShare-
+WrapperClass` in **4 von 4** über Apple Mail gesendeten Mails, in **0 von 11** über Exchange
+gesendeten. Die eine als Hub-Erzeugnis **bewiesene** Mail trägt ihn **40×**. Der Marker bleibt
+formal ein Lokalisator (→ [[QUESTIONS]] 260814b #2 ist damit **nicht** geschlossen: ob Raphael je
+selbst Text als Block einsetzt, ist weiterhin ungeprüft), hat aber erstmals einen Beleg, in dem
+die Herkunft unabhängig feststeht.
+
+**Die schärfste Kontrollgruppe des Korpus: 29 Minuten.** 04.08.2026, dieselben zwei Empfänger,
+derselbe Vorgang (Installationsplan Therapieküche):
+
+| | 11:58 (Apple Mail, Wrapper 1×) | 12:27 (Exchange, kein Wrapper) |
+|---|---|---|
+| Satzbau | «Ich hoffe, Sie sind gut aus den Ferien zurück, und erlaube mir, mich nach dem Stand … zu erkundigen» | «wenn Sie finden es gäbe noch gute Arbeit-Steckdosen sind ist Ihr Vorschlag gerne willkommen» |
+| Fehler | 0 | Satzbruch, Kongruenzfehler, «wenn Sie nach sind» |
+| `font-family` | **im ganzen Body keine** | `Aptos,Arial,Helvetica,sans-serif` |
+
+Damit schlägt dieses Paar die bisherige Bestmarke von 2 h 47 min (neunte Falle).
+
+**⚠ Korrektur an der neunten Falle: die Bitt-Reflex-Grossschreibung ist ein INTERMITTIERENDER
+Slip.** Die neunte Falle notierte, «Darf ich Sie **B**itten» stehe «in allen neun handgetippten
+Texten» des damaligen Fensters — und empfahl sie als besten Positivtest. In Batch 94 steht sie in
+**2 von 10** Gold-Texten (03.08. 06:24 und 09:31) und fehlt korrekt kleingeschrieben in zwei
+zweifelsfrei handgetippten Texten («**bitte** ich Dich mit … Kontakt aufzunehmen», 05.08.;
+«Darf ich Sie **bitten** …», 07.08.). Konsequenz: **ihr Vorhandensein belegt die Hand, ihr Fehlen
+belegt nichts.** Wer aus dem Fehlen auf Claude schliesst, verwirft Gold. Dieselbe Lehre wie beim
+Guillemet-Fall (03.08.) und beim «du klein»-Fall (07.08.), nur diesmal an einem **Positiv**-Test:
+auch ein Echtheitsbeleg muss über mehrere Fenster gegengeprüft werden, bevor er trägt.
+
+**`rgb(252,252,251)`: Gegenprobe nicht durchführbar, aber zweiter Beleg — und er verschiebt die
+These.** [[QUESTIONS]] 260814 #1 verlangte den Grep in einem Fenster mit **handgetippten
+Apple-Mail-Texten**; in diesem Fenster gibt es keine (alle vier Apple-Mail-Mails sind
+Verdachtstexte), die Gegenprobe blieb also offen. Gefunden wurde der Wert stattdessen ein zweites
+Mal — **in einer über Exchange gesendeten Mail** (03.08. 10:25, 12× über den ganzen Eigentext),
+und zwar in derselben Konfiguration wie beim Erstbeleg: **die Fliesstext-Absätze tragen gar kein
+`font-family`**, während alle zehn übrigen Exchange-Mails des Fensters durchgehend
+`Aptos,Arial,Helvetica,sans-serif` führen. Daraus folgt: **der Wert stammt nicht aus dem
+Apple-Mail-Rendering** — er reist mit dem eingesetzten Text, wie `rgb(253,253,252)`. Der Wert
+bleibt **Kandidat, kein Ausschlusskriterium** (zwei Belege, beide in Texten, die selbst nur
+verdächtig und nicht bewiesen sind). Die betroffene Mail wurde nicht als Stilquelle verwendet.
+
+**Kandidat, nicht aufgenommen: ASCII-Transliteration im BETREFF einer deutschen Mail.** Die
+bewiesene Hub-Mail trägt «Gr**ue**ndung … Firmenname best**ae**tigt», die Selbstmails desselben
+Tages «erschoepft», «Waechter», «noetig», «laeuft». Raphael schreibt im Betreff echte Umlaute
+(«Küchenbau», «Türbuch», «Projektänderung»). Das Signal trennt aber nur die **skriptgenerierten**
+Betreffzeilen, nicht Claude-Text als solchen — die drei übrigen Verdachtstexte dieses Fensters
+tragen korrekte Umlaute im Betreff. Geführt in [[QUESTIONS]] 260815 #2.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

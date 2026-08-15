@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-13
+last_updated: 2026-08-15
 gewichtung: authentisch
 sources: [260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -2456,3 +2456,53 @@ hinaus: **die angeklebte erste Zeile ist die Normalform, nicht die Ausnahme.** E
 routinemässig eine Leerzeile setzt, ist an dieser Stelle in jeder Mail falsch.
 
 Quelle: 01.06.2026 + 02.06.2026, authentisch (zwei unabhängige Belege).
+
+## Mailbatch 94 (03.–07.08.2026) — zwei Register in EINER Anredezeile, und die Reihenfolge trägt Information
+
+**Der stärkste Beleg dieses Fensters: Du und Sie stehen nebeneinander in derselben Anrede, an
+dasselbe Büro.** Die Mail an das Fachplanerteam eröffnet mit
+
+```
+Werter Herr Kübler,
+geschätzter Cekar und Jens.
+```
+
+— Sie-Nachname für den einen, Du-Vorname für die beiden anderen, alle drei im selben
+Ingenieurbüro, alle drei im selben Projekt. Damit ist ausdrücklich belegt, was das Register
+bisher nur implizit trug: **die Anredestufe hängt an der Person, nicht an der Firma und nicht an
+der Rolle** — und sie wird nicht vereinheitlicht, wenn beide Stufen in einer Zeile aufeinander
+treffen. Ein Zwilling, der auf die höflichste Form nivelliert (wie es die Sammelanrede-Regel
+nahelegt), verfehlt hier den Ton in beide Richtungen zugleich. Nebenbefund: der Vorname wird in
+der eingedeutschten Hörfassung geschrieben («Cekar» für Cekdar), der Satz endet mit Punkt statt
+Komma.
+
+- **Die Reihenfolge der Genannten folgt dem letzten Kontakt.** Zwei Mails an dasselbe
+  Küchenbauer-Duo: am 04.08. «Geschätzter Herr **Lanz**, geschätzter Herr **Inniger**», am 07.08.
+  — nach einem Telefonat mit Inniger am 04.08. — «Geschätzter Herr **Inniger**, werter Herr
+  **Lanz**». Zugleich wechselt die zweite Position von «geschätzter» auf «**werter**»:
+  **der Zweitgenannte bekommt die halbe Stufe kühler.** Ergänzt die zwei Honorifika in einer
+  Anrede (Batch 29) um die Beobachtung, dass Reihenfolge und Stufe zusammen die Gesprächslage
+  abbilden.
+- **Drei Wärmestufen an EINEN Kontakt an EINEM Tag**, an den Teamleiter Gebäudetechnik der
+  Bauherrschaft: 06:24 «Geschätzter **Michael**» (Sachforderung an den Fachplaner durchstellen),
+  09:31 «Geschätzter **Michi**» (Akontozahlung), 14:23 «Hoi **Michi**» (Möblierungsfrage).
+  Zweiter unabhängiger Beleg dieses Musters nach dem Geschäftspartner-Fall (Batch 17) — und
+  hier zusätzlich mit dem Wechsel Vollname → Kosename innerhalb der Du-Stufe.
+
+**Neue Mappings (alle aus Exchange-Eigentexten, Projekt 2619 KISPI):**
+
+| Kontakt | Rolle | Register | Beleg |
+|---|---|---|---|
+| Michael «Michi» Spörri | Teamleiter HLKKS / Stv. Leiter Technischer Dienst der Bauherrschaft | **Du**, drei Stufen (Geschätzter Michael / Geschätzter Michi / Hoi Michi) | 03.–06.08.2026 |
+| Othmar Stadelmann | Unternehmer Leichtbauwände (Gipserunternehmen) | **Du**, «Geschätzter Othmar» | 03./05.08.2026 |
+| Jens Ziegel | Brandschutz-Fachplanung | **Du**, «Poa Jens» / «geschätzter … Jens» | 03.08.2026 |
+| Cekdar Duran | Gebäudetechnik-Fachplanung | **Du**, «geschätzter Cekar» (Vorname, Hörfassung) | 03.08.2026 |
+| Benjamin Kübler | Gebäudetechnik-Fachplanung, dasselbe Büro wie Ziegel/Duran | **Sie**, «Werter Herr Kübler» / «Geschätzter Herr Kübler» | 03./07.08.2026 |
+| Herr Lanz, Herr Inniger | Küchenbauer (Röthlisberger AG / Schreinermanufaktur) | **Sie**, «Geschätzter Herr <Nachname>», Reihenfolge wechselnd | 04./07.08.2026 |
+
+**Nicht aufgenommen:** die Anrede an den Türfachplaner («Geschätzter Levi») steht nur in einem
+Text, der als Claude-Erzeugnis verworfen wurde (→ `CLAUDE.md`, zehnte Falle). Ein Register aus
+einem Zwillings-Text ist kein Beleg für Raphaels Register, sondern für die Wahl des Zwillings.
+`rules/anrede-kontakte.md` führt den Kontakt bereits eigenständig.
+
+Quelle: 03.–07.08.2026, authentisch (Exchange-Eigentexte).

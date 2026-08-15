@@ -4,6 +4,41 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 15.08.2026 — twin-mail-training Batch 94: 03.–07.08.2026, zehnte Echo-Falle (dokumentarischer Beweis)
+
+Fenster `rj@` **02.–09.08.2026** (42 Sent Items, sequenziell frisch nach Batch 93; erster
+Eigentext 03.08.). **15 Volltexte gelesen: 10 Gold, 5 nicht als Stilquelle verwendet.** 33 neue
+Marker in allen 6 Facetten, 6 Mappings, 6 Fragen.
+
+**Zehnte Echo-Falle in `CLAUDE.md`: der erste dokumentarische Beweis des Korpus.** Die Mail ans
+Notariat vom 03.08. 14:56 CEST ist als Hub-Erzeugnis **bewiesen**, nicht erschlossen — die
+Selbstmail des `ag-gruendung-monitor` desselben Abends nennt Uhrzeit, Wortlaut («Terminbitte ab
+rund dem 10.08. unter Vorbehalt der Kapitalbescheinigung») und beide Anhänge, alles
+deckungsgleich mit der Mail. **Neue verbindliche Methode: die Selbstmails des Hub sind das
+Sendejournal des Zwillings und werden vor jedem Echo-Urteil gelesen.** Die Batches 84–93 haben
+genau diese Quelle als «Rauschen» übersprungen; der rückwirkende Abgleich ist als vorrangige
+Aufgabe in `wiki/QUESTIONS.md` (260815 #1) hinterlegt.
+
+**Weitere Befunde:** Kanal-Trennung in diesem Fenster sauber (11× Exchange, tippfehlerdicht, kein
+Wrapper — 4× Apple Mail, fehlerfrei, alle mit `Apple-Mail-URLShareWrapperClass`); schärfste
+Kontrollgruppe des Korpus mit **29 Minuten** Abstand bei identischem Empfänger und Vorgang;
+`rgb(252,252,251)` mit zweitem Beleg, diesmal aus dem **Exchange**-Kanal, womit
+Apple-Mail-Rendering als Ursache ausscheidet (bleibt Kandidat, kein Ausschlusskriterium).
+**Korrektur an der neunten Falle:** die Bitt-Reflex-Grossschreibung ist ein intermittierender
+Slip — Vorhandensein belegt die Hand, Fehlen belegt nichts; die Empfehlung aus Batch 93 galt nur
+für jenes Fenster.
+
+**Stärkster inhaltlicher Fund:** «Werter Herr Kübler, / geschätzter Cekar und Jens.» — Sie und Du
+nebeneinander in EINER Anredezeile an dasselbe Büro. Das Register hängt an der Person und wird
+**nicht** nivelliert; steht quer zur Sammelanrede-Klausel in `rules/anrede-kontakte.md`
+(→ QUESTIONS 260815 #4). Metrik: 752 W, Du-Gross 0.75, Satzlänge ø 13.4 W (ohne Bullet-Zeilen
+gemessen). **Gehirn nicht neu kompiliert** — Auto-Block weiterhin bei 29997/30000 B, Entscheid
+über MAX_AUTO_BYTES liegt bei Raphael.
+
+Geändert: `wiki/{stimme,denken,haltung,arbeitsweise,fachsignatur,beziehungsregister}.md`
+(je ein Abschnitt «Mailbatch 94», `last_updated` auf 2026-08-15), `CLAUDE.md` (zehnte Falle +
+Korrektur an der neunten), `wiki/QUESTIONS.md`, `raw/_INGESTED.md`.
+
 ## 14.08.2026 — Cross-KB (Wissens-Chef Run 32): Projektverwechslung im Beziehungsregister korrigiert
 
 Report: `../koordination/outputs/2026-08-14_wissens-chef-run32.md`.

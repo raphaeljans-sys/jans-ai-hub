@@ -1046,3 +1046,89 @@ Apple-Mail-Texten greppen, ob `rgb(252,252,251)` bzw. die Struktur «Fliesstext-
 vorkommt. Faellt die Gegenprobe negativ aus, hat der Korpus ein zweites mechanisches Echo-Signal
 und der blinde Kanal ist geschlossen. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
 auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 94 (15.08.2026) — Fenster `rj@` 02.–09.08.2026
+
+Sent Items `rj@`, **02.–09.08.2026** (Fenster vollstaendig gelistet: **42** Sent Items, zwei
+Seiten, Zugriff via M365-MCP `outlook_email_search` mit `folderName: "Sent Items"` +
+`order: oldest` + `read_resource` auf den HTML-Body). Sequenziell frisch: Batch 93 endete am
+01.08. Der 02.08. traegt keine Sent Items, der erste Eigentext liegt am 03.08. 06:18.
+**Dem in Batch 93 empfohlenen Fenster gefolgt**, samt der dort methodisch vorrangig gestellten
+Gegenprobe zu [[QUESTIONS]] 260814 #1 und #4.
+
+**Rauschen gestreift, nicht destilliert:** 12 Selbstmails an `rj@` (Logbuch-Radar, Hub-Chef,
+Vollgas-Fruehwarnung, AG-Gruendungs-Monitor, Kontingent-Waechter-Test, Wochenbudget) —
+**ab sofort aber nicht mehr «ignoriert», sondern als Sendejournal ausgewertet, siehe Kernbefund**;
+4 reine Weiterleitungen mit Einzeiler («Zur Info. Die Sitzung finde ohne Behoerde statt.»,
+«Bitte interne Mail-Korrespondenz … Durchlesen…»); 2 Rechnungsversand-Mails mit reinem
+Boilerplate-Text; 1 Teams-Einladung ohne Eigentext; 1 Unsubscribe; 1 Terminannahme; 1 leere Mail;
+1 Protokoll-Versandmail (Protokolltext ist Eigendokument, nicht Mailstil); 1 Fwd ohne Eigentext.
+
+**15 Volltexte gelesen: 10 als Gold destilliert, 5 nicht als Stilquelle verwendet.**
+33 neue Marker in allen 6 Facetten, 6 Mappings, 6 Fragen, 1 neue Echo-Falle + 1 Korrektur an der
+neunten Falle in `CLAUDE.md`.
+
+**Kernbefund — die zehnte Falle: der erste DOKUMENTARISCHE Echo-Beweis des Korpus.** Die Mail ans
+Notariat vom 03.08. 12:56 UTC (= 14:56 CEST) ist als Hub-Erzeugnis **bewiesen**, nicht
+erschlossen: die Selbstmail des `ag-gruendung-monitor` desselben Abends meldet «Die Rueckmeldung
+ans Notariat ist **um 14:56** raus … Terminbitte **ab rund dem 10.08.** unter Vorbehalt der
+Kapitalbescheinigung, beide Anhaenge dabei (Gruendungsurkunde und Statuten)» — Uhrzeit, Wortlaut
+und Anhaenge stimmen mit der Mail ueberein. **Daraus die neue Methode: die Selbstmails des Hub
+sind das Sendejournal des Zwillings und werden vor jedem Echo-Urteil gelesen**, statt wie in den
+Batches 84–93 als Rauschen uebersprungen zu werden. Rueckwirkende Pruefung der Bestaende:
+[[QUESTIONS]] 260815 #1.
+
+**Kanal-Trennung in diesem Fenster erstaunlich sauber:** 11 Mails ueber **Exchange**
+(`…@ZR2P278MB1112…`), durchgehend tippfehlerdicht, keine mit `Apple-Mail-URLShareWrapperClass`;
+4 Mails ueber **Apple Mail** (`<UUID@raphaeljans.ch>`), durchgehend fehlerfrei, **alle vier** mit
+dem Wrapper (1× bis 40×). Schaerfste Kontrollgruppe des Korpus: ein Paar mit **29 Minuten**
+Abstand, dieselben zwei Empfaenger, derselbe Vorgang (Installationsplan Therapiekueche) —
+fehlerfrei + Wrapper + gar kein `font-family` gegen Satzbruch + `Aptos,Arial,Helvetica`. Schlaegt
+die bisherige Bestmarke von 2 h 47 min (Batch 93).
+
+**Fuenfter Ausschluss, aus dem Exchange-Kanal:** die Mail vom 03.08. 10:25
+(Zahlungsnachforschung) ist die einzige Exchange-Mail des Fensters ohne `font-family` im
+Fliesstext und traegt stattdessen 12× `background-color:rgb(252,252,251)` — plus null Tippfehler
+an einem Tag, an dem die Nachbarmails an denselben Empfaenger von Slips durchsetzt sind
+(«Ich **B**itte Dich», «Guner AG», «Bhoerde», «Baubehhoerde»). Nicht bewiesen, aber hinreichend
+verdaechtig; **nicht als Stilquelle verwendet**. Damit hat `rgb(252,252,251)` einen zweiten Beleg
+— und weil er aus dem Exchange-Kanal stammt, ist Apple-Mail-Rendering als Ursache ausgeschlossen.
+Bleibt Kandidat, kein Ausschlusskriterium ([[QUESTIONS]] 260815 #3).
+
+**Korrektur an der neunten Falle:** die Bitt-Reflex-Grossschreibung («Darf ich Sie **B**itten»)
+ist ein **intermittierender** Slip — 2 von 10 Gold-Texten, und in zwei zweifelsfrei
+handgetippten Texten korrekt klein. Ihr Vorhandensein belegt die Hand, **ihr Fehlen belegt
+nichts**. Batch 93 hatte sie als besten Positivtest empfohlen; die Empfehlung galt nur fuer jenes
+Fenster.
+
+**Staerkster inhaltlicher Fund:** «Werter Herr Kuebler, / geschaetzter Cekar und Jens.» —
+**Sie und Du nebeneinander in EINER Anredezeile, an dasselbe Ingenieurbuero.** Damit ist belegt,
+dass das Register an der Person haengt und **nicht nivelliert wird**, wenn beide Stufen
+aufeinandertreffen. Steht quer zur Sammelanrede-Klausel in `rules/anrede-kontakte.md`
+([[QUESTIONS]] 260815 #4). Weiter neu: die Interjektion als Anrede-Ersatz beim Eintreffen einer
+Bewilligung («Poa Jens, Genehmigung (Fuer Schiebetueren und BIK)!»); der abgebrochene Satz als
+Drohgebaerde («Ich und die Bauherrschaft erwartet dass von nun an ….»); «Grundsaetzliche
+Fragestellung:» als markierter Schlussabsatz; zwei Parteien mit beiden Kontaktbloecken
+verkuppeln und selbst aus der Kette gehen (zwei Belege desselben Tages); die VKF-Nummer je
+Bauteil als eigene Pruefspur; SWKI VA-102-01 als erste SWKI-Fundstelle des Korpus.
+
+**Mikro-Metrik** (752 W, 10 Eigentexte, `stilmetrik.py`, **ohne Bullet-Zeilen gebildet** wegen
+[[QUESTIONS]] 260814 #3): Du-Gross **0.75**, Satzlaenge ø **13.4 W** (im Korpusband 11.9–14.3),
+Tausender-Apostroph 0, Ellipsen 1.33/1000 W, «%» kam nicht vor; Gruesse «Lgr» 3× / FG 1× /
+«Lieber Gruss» 1× / «Bester Gruss» 1×. Du-Gross 0.75 stammt aus gemischter Schreibung **im
+selben Mailpaar** (16 Minuten Abstand, «findest **du**» gegen «denkst **Du**») — dritter
+unabhaengiger Beleg, dass «du klein» kein Echo-Detektor ist.
+
+**⚠ Gehirn NICHT neu kompiliert** (unveraendert seit Batch 93): der Auto-Block in
+`rules/jans-dna.md` steht bei 29997 B von 30000 B. Dieser Batch traegt rund 11 kB neue
+Facetten-Prosa. **Der Entscheid ueber MAX_AUTO_BYTES bzw. eine groessere Verdichtung liegt bei
+Raphael** (Budget-Fuehrung `wissen/claude-code/wiki/kontext-architektur.md`). Die Marker wirken
+ueber die Twin-Agenten, die die Facetten-Artikel direkt lesen; nur der immer-aktive Auto-Block
+ist seit dem 13.08. eingefroren.
+
+**Naechstes Fenster:** `rj@` **10.–16.08.2026** (sequenziell; der 10.08. ist bereits angeschnitten
+und traegt zwei ungelesene Eigentexte). **Methodisch vorrangig — und ergiebiger als jedes neue
+Datumsfenster:** der rueckwirkende Sendejournal-Abgleich nach [[QUESTIONS]] 260815 #1. Er prueft
+den vorhandenen Gold-Bestand statt neuen zu sammeln und kann Marker zurueckziehen, die auf
+Zwillings-Text beruhen. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
+Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
