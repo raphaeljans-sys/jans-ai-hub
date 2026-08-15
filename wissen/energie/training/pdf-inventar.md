@@ -669,3 +669,38 @@ gesichtet sind die Unterordner `18.4 Wohlbefinden (Innenraumklima)` (7 Dateien, 
 **Stand PL-02:** **75 von 182** energierelevanten PDF destilliert (69 bis Run 129, 1 in Run 131,
 **5 in Run 132**), **105 offen**; zusätzlich 2 in diesem Lauf als `[-]` geprüft (Link-Stubs) und
 1 als `[~]` gelesen ohne eigenes Destillat.
+
+## Nachtrag 2026-08-15 (Run 133, Mac Mini Nachtschicht 05:30): Ordner 18.4/18.5/18.6 abgeschlossen
+
+Graph-Weg (M365-CLI, Zertifikat) erneut bestätigt. Alle 10 Dateien der drei kleinen Restordner
+gesichtet und geprüft.
+
+| Status | Quelle (PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/...) | KB-Datenstand |
+|---|---|---|
+| [x] `18.4 Wohlbefinden (Innenraumklima)/Holzwerkstoffe_in_Innenraeumen_(Merkblatt).pdf` | 2026-08-15 (Run 133; 6 S. vollst.; Lignatec 21/2008, Lignum/BAG/holz21, Juli 2008 → `holzwerkstoffe-innenraeume-formaldehyd`) |
+| [x] `18.5 Boden Landschaft/Dachbegruenung_(Checkliste).pdf` | 2026-08-15 (Run 133; 2 S. vollst.; Stadt Zürich AHB, 16.02.2009 → `dachbegruenung-checkliste-stadt-zh`) |
+| [-] `18.4/Elektrosmog_(Informationsblatt_5.7).pdf` | 2026-08-15 (geprüft: Seitenzahl 7 = identisch mit bereits destilliertem `4.76Elektrosmog.pdf` → `elektrosmog-informationsblatt-ahb-ewz`; mit hoher Konfidenz Dublette, nicht wort-gegengelesen) |
+| [-] `18.4/Gebaeudescreening_(Checkliste).pdf` | 2026-08-15 (geprüft: Seitenzahl 2 = identisch mit `4.16Gebaudescreening.pdf`, bereits als [-] Schadstoff-Thema geführt) |
+| [-] `18.4/Gutes_Innenraumklima_ist_planbar_(KBOB-Empfehlung_2004.1).pdf` | 2026-08-15 (geprüft: Seitenzahl 6 = identisch mit `4.13Innenraumklima.pdf`/Minergie-Ordner-Fassung, bereits destilliert als `minergie-innenraumklima`) |
+| [-] `18.4/Schadstoff_in_Bauten_(Checkliste).pdf` | 2026-08-15 (geprüft: Seitenzahl 4 = identisch mit `4.14SchadstoffinBauten.pdf` → `ahb-checkliste-schadstoffe-in-bauten`) |
+| [-] `18.4/Vorgehen_bei_Beschwerden_(Checkliste).pdf` | 2026-08-15 (geprüft: Seitenzahl 2 = identisch mit `4.15VorgehenbeiBeschwerden.pdf` → `vorgehen-bei-beschwerden-innenraumklima`) |
+| [-] `18.6 Organisation/Fachstelle_nachhaltiges_Bauen+Energie+Gebaeudetechnik.pdf` | 2026-08-15 (geprüft: 1 S., reiner Organisationsablauf für städtische Bauprojekte, kein übertragbarer Bauherren-Fakt) |
+| [-] `18.6/Verein_eco-bau_(Flyer).pdf` | 2026-08-15 (geprüft: 2 S., Vereins-Selbstdarstellung, Inhalte anderswo bereits abgedeckt) |
+
+⚠ **Neu identifiziert, nicht destilliert (Budgetgrund):** `18.4/PCB_in_Fugendichtung_(KBOB-
+Empfehlung_2004.4).pdf`, 724'221 Bytes / 43 Seiten — Dateigrösse identisch mit dem seit Run 126
+offen geführten `4.27Fugendichtungsmassen.pdf` (724 kB) im eco-flat-Ordner, mit hoher
+Wahrscheinlichkeit dieselbe Quelle in zwei Ablagen. 43 Seiten sprengen den Read-Grenzwert
+(20 S./Request) und das verbleibende Nachtschicht-Budget dieses Laufs — **nächste Priorität**,
+mehrteiliger Read einplanen.
+
+**Ordner 18-Nachhaltiges Bauen jetzt vollständig gesichtet.** Einzig offen: `18.3 …/Richtlinie_
+ECO-BKP_(Merkblaetter_nach_BKP).pdf` (2,0 MB, gehört in die planmässige BKP-Merkblattwerk-
+Destillation, nicht in einen Aufräumlauf).
+
+**Nächste Priorität:** 1. `18.4/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf` (43 S.,
+dedizierter Lauf). 2. `06_Richtlinien/Minergie/` (79 PDF, Priorität 1, unverändert seit Run 129).
+
+**Stand PL-02:** **77 von 182** energierelevanten PDF destilliert (75 bis Run 132, **2 in
+Run 133**), **103 offen**; zusätzlich 7 in diesem Lauf geprüft und bewusst nicht einzeln
+destilliert (5 Dubletten + 2 ohne Bauherren-Fakt).

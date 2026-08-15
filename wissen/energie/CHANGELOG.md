@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2026-08-15 (Run 133, Mac Mini Nachtschicht 05:30) — Ordner 18.4/18.5/18.6 abgeschlossen
+
+Alle 10 Dateien aus `18.4 Wohlbefinden (Innenraumklima)`, `18.5 Boden Landschaft`, `18.6
+Organisation` gesichtet (Graph-Weg, M365-CLI). Zwei neue Destillate + Wiki-Artikel:
+`holzwerkstoffe-innenraeume-formaldehyd` (Lignatec 21/2008, Formaldehyd-Grenzwerte
+Holzwerkstoffe) und `dachbegruenung-checkliste-stadt-zh` (Stadt-ZH-Vorgabe BZO Art. 11 +
+PV-Synergie), je neuer Wiki-Themenartikel und Bauherren-FAQ F235/F236. Fünf Dateien als
+Dubletten bereits destillierter eco-flat-Quellen eingestuft (Seitenzahl-Abgleich), zwei ohne
+Bauherren-Fakt (Organisationsablauf, Vereinsflyer) bewusst nicht destilliert. Neu
+identifiziert: `18.4/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf` (43 S.) ist mit hoher
+Wahrscheinlichkeit dieselbe Quelle wie der seit Run 126 offene `4.27Fugendichtungsmassen.pdf`
+— zu gross für dieses Budget, nächste Priorität. Stand PL-02: 77/182 destilliert, 103 offen.
+Register: `training/pdf-inventar.md`, `destillate/INDEX.md`, `wiki/INDEX.md`,
+`wiki/BAUHERREN-FAQ.md`.
+
 ## 2026-08-14 — Korrektur (Wissens-Chef Run 32) zum Eintrag «E-R131-1 geschlossen»
 
 Die dort und an sechs weiteren Stellen notierte Aussage, die Mai-2006-Fassung sei «nie

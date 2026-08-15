@@ -5997,3 +5997,13 @@ PDF-ModDate/dem Dateinamen uebernommen), [[biofa-coloroel]] (neue Sektion BKP 28
 dem ungueltigen Archiv-Code «960» — Ordnername sinnfrei fuer BKP 2017). Inventarstand
 danach: 24 destilliert, 13 triagiert, nur noch 1 offen (170T95~O.PDF, Nummerierungsfehler
 aus dem Vorlauf). Details: `wissen/bauprodukte/CHANGELOG.md`.
+
+## 2026-08-15 05:30-06:00 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training)
+
+Energie-Training Run 133: Ordner `18.4 Wohlbefinden`/`18.5 Boden Landschaft`/`18.6
+Organisation` (10 Dateien) via Graph-Weg gesichtet. Zwei neue Destillate + Wiki-Artikel
+[[holzwerkstoffe-formaldehyd-innenraumklima]] und [[dachbegruenung-gruendach]] samt FAQ
+F235/F236, fuenf Dubletten geschlossen, zwei ohne Bauherren-Fakt uebersprungen. Neu
+identifiziert: `PCB_in_Fugendichtung` (43 S.) vermutlich identisch mit dem seit Run 126
+offenen `4.27Fugendichtungsmassen.pdf` — zu gross fuer dieses Budget, naechste Prioritaet.
+Stand PL-02: 77/182 destilliert. Details: `wissen/energie/outputs/2026-08-15_energie-run133.md`.

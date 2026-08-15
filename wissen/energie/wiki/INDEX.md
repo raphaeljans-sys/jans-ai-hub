@@ -592,3 +592,27 @@ denen dieser Fehlschluss beruhte, stammen aus Zeilenumbrüchen, einem neuen Kopf
 geschlechtergerechten Formulierungen. Erst der Wort-Diff zeigte: der Sachinhalt ist wortgleich.
 Die Reihe der Fallen wächst damit um **fremder Stempel** und **Zeilen- statt Wort-Diff** — sowie
 um das **Link-Stub-PDF**, ein 12-kB-Dokument, das nur eine URL in einem Rahmen enthält.
+
+## Nachtrag 2026-08-15 (Run 133, Mac Mini Nachtschicht 05:30): Ordner 18.4/18.5/18.6 abgeschlossen
+
+Zugang via Graph-Weg (M365-CLI, Zertifikat, Drive `02_Recht_Norm`) bestätigt. Alle 10 Dateien
+aus `18.4 Wohlbefinden (Innenraumklima)` (7), `18.5 Boden Landschaft` (1), `18.6 Organisation` (2)
+gesichtet. Zwei neue Themenartikel: `[[holzwerkstoffe-formaldehyd-innenraumklima]]` (Formaldehyd-
+Grenzwerte Holzwerkstoffe, Lignatec 21/2008) und `[[dachbegruenung-gruendach]]` (BZO-Pflicht Stadt
+Zürich + PV-Synergie, Stadt-ZH-Checkliste 2009) → FAQ F235/F236. Fünf Dateien mit hoher Konfidenz
+als Dubletten bereits destillierter eco-flat-Quellen eingestuft (Seitenzahl-Abgleich, nicht
+vollständig wort-gegengelesen — Budgetgrund, bei Zweifel nachholen). Zwei Dateien (Fachstelle-
+Organisationsablauf, Verein-eco-bau-Flyer) ohne eigenständigen Bauherren-Fakt, bewusst nicht
+destilliert.
+
+**Offen bleibt in `18-Nachhaltiges Bauen`:** `18.3 …/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf`
+(2,0 MB, gehört in die planmässige BKP-Merkblattwerk-Destillation) und **neu identifiziert**:
+`18.4/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf` (724'221 Bytes, 43 Seiten) — Grösse
+identisch mit dem seit Run 126 als offen geführten `4.27Fugendichtungsmassen.pdf` im eco-flat-
+Ordner, mit hoher Wahrscheinlichkeit dieselbe Quelle in zwei Ablagen. **Zu gross für diesen
+Nachtschicht-Slot** (43 Seiten sprengen ein 20-Seiten-Read und das verbleibende Budget) — nächste
+Priorität für einen dedizierten Lauf, danach der Ordner `06_Richtlinien/Minergie/` (79 PDF).
+
+**Stand PL-02:** **77 von 182** energierelevanten PDF destilliert (75 bis Run 132, **2 in Run 133**),
+**103 offen**; zusätzlich 7 in diesem Lauf geprüft und bewusst nicht einzeln destilliert (5 Dubletten
++ 2 ohne Bauherren-Fakt).

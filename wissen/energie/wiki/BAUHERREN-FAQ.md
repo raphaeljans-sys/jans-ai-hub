@@ -8042,3 +8042,54 @@ energiegerechtes Bauen»: Fassung **Mai 2006** (2 S.) und **Stadtratsbeschluss N
 17.09.2008** (2 S.), beide vollständig gelesen (Run 131/132, 14.08.2026) →
 `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` samt Nachtrag mit dem Fassungsvergleich.
 Status **emerging** — die Zahlen sind quellentreu, die Frage der heutigen Geltung ist offen.
+
+## F235 — «Ich baue mit Spanplatten/MDF im Innenausbau — muss ich mir wegen Formaldehyd Sorgen machen?»
+
+**Kurz:** Nicht bei korrekt gewählten und verarbeiteten Produkten. Entscheidend sind drei Dinge:
+die **Emissionsklasse E1** der Rohplatte, eine **beidseitige** Beschichtung (nicht nur die
+sichtbare Seite) und der Verzicht auf **nachträgliches Schlitzen/Bohren** beschichteter Platten.
+
+**Fachlich:** Der Bundesamt-für-Gesundheit-Richtwert für die Raumluft liegt bei **0,1 ppm**
+Formaldehyd, Minergie-Eco setzt mit **0,05 ppm** einen strengeren Zielwert. E1-klassifizierte
+Platten dürfen im Prüfstand 0,1 ppm nicht überschreiten; unbeschichtete Standard-Spanplatten
+liegen laut Referenzmessung bei rund 0,10 ppm, beidseitig versiegelte (inkl. Bohrlöcher) bei
+rund 0,015 ppm — der Unterschied liegt fast vollständig an der Beschichtung, nicht am Rohmaterial.
+Formaldehydfreie Klebstoffsysteme (PMDI, PU/PUR, PVAc) vermeiden das Thema von vornherein.
+Kritische Stellen sind Nasszellen und Bereiche mit erhöhter Temperatur (Heizkörpernähe,
+Fensterbereich) — dort verstärkt sich die Abgabe.
+
+**Bauherren-Transfer:** Bei Akustikdecken und Einbaumöbeln in die Ausschreibung aufnehmen:
+E1-Klassifizierung, beidseitige industrielle Beschichtung, kein nachträgliches Lochen/Schlitzen
+auf der Baustelle (das verdoppelt bei Akustikplatten die wirksame Oberfläche). Bei
+Minergie-Eco-Zielsetzung reicht E1 allein nicht — dort zusätzlich formaldehydfreie
+Klebstoffsysteme verlangen.
+
+**Quelle:** Lignum/BAG/holz21, Lignatec 21/2008 «Holzwerkstoffe in Innenräumen», Juli 2008, 6 S.
+vollständig gelesen (Run 133, 15.08.2026) → `[[holzwerkstoffe-formaldehyd-innenraumklima]]`.
+Status **emerging** — Datenstand 2008, DIBt-Richtlinie 100/EN-Normwerte vor Zitat aktualisieren.
+
+## F236 — «Muss ich mein Flachdach begrünen, und was heisst das für eine geplante PV-Anlage?»
+
+**Kurz:** In der Stadt Zürich ja, grundsätzlich (BZO Art. 11 Abs. 1) — ausser die Begrünung ist
+technisch/wirtschaftlich unzumutbar oder das Dach wird als Terrasse genutzt. Mit PV ist das kein
+Widerspruch: Dachbegrünung und Solaranlage ergänzen sich, wenn Substrattiefe und Panelabstand
+von Anfang an aufeinander abgestimmt werden.
+
+**Fachlich:** Mindeststandard Extensivbegrünung: Substrat-Schichtstärke ≥ 10 cm, gesamte
+Wasserrückhaltekapazität ≥ 45 l/m² (davon ≥ 25 l/m² pflanzenverfügbar). Dachbegrünungen halten
+40–90 % des Regenwassers zurück und wirken temperaturausgleichend (dichtes Graspolster λ = 0,17
+W/m²K). Bei gleichzeitiger PV: die Begrünung kühlt die Panels über Verdunstung (ertragsrelevant),
+bei Panelabstand unter 80 cm niedrig wachsende Samenmischung verwenden und Substrattiefe
+punktuell auf 5 cm absenken; unter der PV-Unterkonstruktion zusätzlich eine Bautenschutzmatte
+zum Schutz der Abdichtung einbauen. Bei Dachgefälle < 1,5 % braucht es konstruktive Massnahmen
+gegen Staunässe (SIA 271/2007).
+
+**Bauherren-Transfer:** Substrataufbau, Panelabstand und Bautenschutzmatte gemeinsam mit dem
+Solarplaner UND dem Gartenbauer planen, nicht nacheinander — Nachrüsten einer Bautenschutzmatte
+unter bereits montierten Panels ist unnötiger Mehraufwand. Ausserhalb der Stadt Zürich gilt die
+BZO-Begrünungspflicht nicht automatisch — kommunale BZO der jeweiligen Gemeinde prüfen.
+
+**Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle nachhaltiges Bauen, «Vorgaben
+Dachbegrünung (Checkliste)», 16.02.2009, 2 S. vollständig gelesen (Run 133, 15.08.2026) →
+`[[dachbegruenung-gruendach]]`. Status **emerging** — Datenstand 2009, Rechtsbasis BZO Art. 11
+vor Zitat am aktuellen Stand verifizieren (KB `baurecht`); gilt nur für Stadt Zürich.
