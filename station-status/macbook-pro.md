@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 15.08.2026 17:16:03
+Stand: 15.08.2026 17:26:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:16)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 15.08.2026 17:16:03
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 2a7cc4de nas-selfcommit: 2 Datei(en) 2026-08-15 17:15
+- 86cd018f Synergie-Lauf 08 (15.08.): SYN-30 — bauoekologischer Beschaffungsstrang in wissen/energie ohne Rueckkante zu ausschreibung/werkvertrag/unternehmerkontrolle; Kante beidseitig gesetzt mit Alterskorpus-Vorbehalt. SYN-28b auf umgesetzt (Wissens-Chef Run 32), hub-weit gegengeprueft
