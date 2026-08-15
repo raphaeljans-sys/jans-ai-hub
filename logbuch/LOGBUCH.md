@@ -5,6 +5,69 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 15.08.2026, 08:39 bis 09:10 — Tagesbriefing GESENDET (Regellauf)
+
+**Gesendet um 08:48:58**, Betreff «Hub-Chef 15.08.26: Die für heute zugesagte KISPI-Stellungnahme
+liegt seit gestern vor, und der Gastro-Rechnung fehlt die Auftragsgrundlage», Body **5384 Zeichen**
+(Gegenprobe zum Leer-Draft-Fehler bestanden), in `Exchange/Gesendete Elemente` am Beleg
+verifiziert. Sendegrund: zwei operative Befunde, beide mit Aussenwirkung.
+
+**Befund 1, und er stand heute in keinem Loop-Abschnitt: die für HEUTE zugesagte gebündelte
+KISPI-Stellungnahme ist am 14.08. eingetroffen.** Die Registerzeile mit Frist 15.08.2026 stand
+auf `offen`; der Radar von 06:55 führt sie weder unter «Erledigt» noch unter «In den nächsten
+7 Tagen». Am Beleg gelesen: Mail L. Merci 14.08. 10:56:23, konsolidierte Rückmeldungen,
+abgestimmt mit F. Würsch (ELE) und N. Ramminger (FLM), nutzerseitig PPTS verifiziert — die
+vereinbarte **eine** Antwort statt Einzelmeldungen. Frist erfüllt, Kette Jegen Los 274.01 hat
+ihre Grundlage. C. Schäfer (UEN) ist in Mercis Aufzählung nicht genannt; daraus wird nichts
+geschlossen. Register nachgeführt (Kopf-Eintrag + Nachtrag an der Tabellenzeile, Status
+`erfüllt 14.08.2026`).
+
+**Befund 2: die Rechnung Gastro Online 26-08-0025 ist rechnerisch sauber, aber ohne
+Auftragsgrundlage nicht sachlich prüfbar.** Nachgerechnet: 26 Std. zu CHF 145.00 = 3'770.00 ·
+180 km zu 0.90 = 162.00 · netto 3'932.00 · MWST 8.1 % = 318.49, ausgewiesen 318.50 · total
+4'250.50. Weder im Los-Ordner 298.60 noch in der Korrespondenz mit `ms@gastro-online.ch`
+(zurück bis 20.04.2026) findet sich eine Auftragsbestätigung oder Honorarvereinbarung für den
+Planungsaufwand; die Mail vom 30.07. fragt nur nach der Rechnungsanschrift. Drei formale
+Befunde am Beleg: Schlusszeile als «Gesamtsumme Netto» falsch bezeichnet (ist brutto), Seite 2
+trägt andere Nummern (26080062 / Projekt-Nr. 26080006) als Seite 1 (26-08-0025), Feld «Ihre
+Referenz» leer. Rechnungsempfänger bleibt das KISPI, keine JANS-Verbindlichkeit. **Nicht
+visiert** — die Prüfung wurde vorbereitet und vorgelegt, der Entscheid liegt bei RJ.
+
+**Ausgeführte Whitelist-Aktionen: nur A4 (Register + Logbuch).** `git diff --numstat` auf
+`logbuch/fristen.md` zeigt **64 hinzugefügt, 1 gelöscht** — die eine Löschung ist die gewollte
+Ersetzung der Tabellenzeile 15.08. durch dieselbe Zeile mit angehängtem Nachtrag, kein
+Textverlust (Rule `auto-verbesserungen` 260811). **A1 gesperrt**, bexio antwortet den achten Tag
+mit 401, der Guard ist unerfüllt: keine Mahnaktion, keine Buchung. **A2 ohne Anlass**, alle vier
+Termine der Woche stehen bereits im Kalender (17.08. 09:00 und 10:30, 20.08. 13:00, 21.08.
+10:00). Keine Mail an Dritte, kein Entwurf verändert, nichts gelöscht.
+
+**QS:** Body durch die Agenten `rechtschreibung` (Ampel grün) und `layout` (Ampel gelb) gefahren.
+Umgesetzt: fehlendes «CHF» vor 145.00, Verbkongruenz «bleiben», Doppelpunkt in der
+Notariats-Aufzählung, «lohnt sich ein Blick darauf», «stand die Frist noch offen», Kurzform
+20.04., Absatzbruch im ersten Block. **Nicht umgesetzt und begründet:** der Layout-Agent
+beanstandete den Signaturblock («RAPHAEL JANS Founder I MD» statt der kanonischen Vierzeilenform,
+«0041» statt «+41»). Beides ist Raphaels **gelebte** Mail-Signatur, wortgleich aus seiner eigenen
+Mail vom 27.07.2026 22:06 belegt; der Beleg schlägt die Rekonstruktion aus der Rule, die die
+Dokument-/Briefkopfform beschreibt. Beide Agenten hatten diesen Vorbehalt selbst formuliert.
+
+**Werkzeug-Notiz, gleiche Familie wie Rule `auto-verbesserungen` 260807 und 260730b:** die
+Versand-Gegenprobe über `messages ... whose subject contains "Hub-Chef 15.08.26"` lieferte
+**zweimal still nichts**, obwohl die Mail versendet war — und auch ein simples `item 1 of messages`
+gab nichts zurück. Erst die Abfrage über `whose date sent > (current date) - 10 hours` fand sie
+(08:48:58). **Ein leeres Ergebnis war hier wieder eine Aussage über das Werkzeug, nicht über die
+Sache**; wer nach dem ersten Leerbefund «nicht gesendet» geschlossen und erneut gesendet hätte,
+hätte die Mail doppelt verschickt.
+
+**Aufsichtsbefund, achter Tag in Folge:** der `ag-gruendung-monitor` hat seit dem 07.08.2026
+keinen Logbuch-Abschnitt geschrieben. Der UBS-/Notariats-Strang ist heute durch diesen Lauf
+abgedeckt (Bringschulden und Schliessung 03./04.09. im Briefing weitergetragen). Sync-,
+Freigabe- und Widerruf-Queues leer (`sync-task-check.sh --kurz`, Exit 0). Das Lauf-Journal
+`logbuch/laeufe/260815-laeufe.jsonl` führt heute nur zwei `dispatch-versuch1`-Zeilen des Mac Mini
+und wie schon am 14.08. **keinen** Hub-Chef-Lauf — das Journal ist für die Chef-Aufsicht weiterhin
+kein tauglicher Beleg.
+
+---
+
 ## 2026-08-15 — Logbuch-Radar 06:55 (Regellauf, keine Mail versendet)
 
 **Erledigt:** der Brandschutz-Auflagepunkt II.1b) ist erfüllt (Stevanovic liefert 14.08. 11:18
