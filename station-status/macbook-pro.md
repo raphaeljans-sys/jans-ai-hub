@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 00:58:40
+Stand: 16.08.2026 01:08:56
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:08)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 16.08.2026 00:58:40
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9611c534 nas-selfcommit: 2 Datei(en) 2026-08-16 00:45
+- 36cd5d49 vollgas-radar 16.08.: Umlaute-Korrektur im Eintrag 00:58 und im Fristen-Nachtrag (Rule umlaute-konvention)
