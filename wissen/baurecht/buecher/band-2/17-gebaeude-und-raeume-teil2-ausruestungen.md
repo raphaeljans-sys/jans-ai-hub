@@ -62,6 +62,14 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 - **Energiebezugsflaeche (EBF, Symbol AE):** Summe aller ober-/unterirdischen
   Geschossflaechen, fuer deren Nutzung eine Beheizung/Klimatisierung notwendig ist;
   Raeume mit lichter Raumhoehe < 1 m zaehlen nicht (Vollzugshilfe EN-2) (S. 1259).
+  *(Cross-Ref ergaenzt Wissens-Chef Run 33, 15.08.2026 — rein additiv, Buchinhalt unveraendert:
+  die **normative** Fundstelle von Symbol und Berechnungsgrundlage der EBF/AE fuehrt seit dem
+  15.08.2026 die KB `normen` in `wissen/normen/destillate/sia-416-1-2007.md`, Ziff. 3.2
+  (SIA 416/1:2007, Nachfolgenorm der zurueckgezogenen SIA 180/4:1982). **Achtung: dieses
+  Destillat traegt `status: speculative`** — es ist nach Rule `normen-referenz` Ziff. 1b eine
+  Warnkarte, keine Zitierquelle; vor jeder Verwendung am Original nachlesen. Fuer den
+  **kantonalen Vollzug** bleibt die hier zitierte Vollzugshilfe EN-2 massgebend; die beiden
+  Definitionen sind nicht ungeprueft gleichzusetzen.)*
 - **Nachweis Waermedaemmung:** System-/Mindestanforderung nach SIA 380/1 (≥ 80 % der
   zulaessigen Waermebedarfe gedeckt) ODER Einzelbauteil-Nachweis (Grenzwerte je Bauteil)
   (S. 1260). **§ 18 BBV I:** «andere Vorkehren» zur Waermedaemmung moeglich.

@@ -18,6 +18,35 @@ Hauptteils. Herstellerneutralität wie in Teil 1: ERCO-eigene Produktnamen und
 Drittsoftware werden als Namen genannt, nicht als einzig mögliche Lösung
 dargestellt.
 
+> **⚠ Dieses Kapitel rechnet, ist aber kein Nachweisverfahren** (Kante gesetzt Wissens-Chef
+> Run 33, 15.08.2026 — Teil 1 trug sie bereits, dieser Teil hatte **null** Verweise in die
+> Normen- und Verfahrensseite, obwohl er die rechnenden Kapitel enthält). Die hier
+> beschriebenen Verfahren — Anschlussleistung, Wirkungsgradverfahren, UGR-Verfahren,
+> Wartungsfaktor — sind ein **herstellereigener Planungsratgeber, Editionen 2006/2007 und
+> 2010**, und dürfen weder als Fundstelle noch als Nachweisweg verwendet werden:
+>
+> - **Normwerte** (E_vm/E_0, UGR-Grenzwerte je Raumnutzung, Wartungsfaktoren) führt
+>   ausschliesslich `wissen/normen/` — insbesondere
+>   `wissen/normen/destillate/sia-387-4-2017.md` (E_vm/k_0/E_0 und UGR für die 43
+>   SIA-2024-Standardnutzungen) und `wissen/normen/destillate/sia-592-056.md` (SIA 2056,
+>   E_vm je Raumnutzung ohne UGR). Rule `normen-referenz`: Norm-Aussagen nie aus dem
+>   Gedächtnis und nie aus einer Herstellerquelle. **Ein Herstellerratgeber ist für
+>   EN-12464-1-Werte keine zulässige Quelle** (Register `koordination/QUERBEZUEGE.md`,
+>   Zeile «Beleuchtung», Run 26).
+> - **Der Nachweis im Kanton Zürich** läuft nicht über dieses Rechenverfahren, sondern über
+>   das Formular **EN-111 auf der Plattform EVEN**; die Verfahrensseite führt
+>   `wissen/planungsgrundlagen/` (`wiki/energie-energienachweis-zh-formulare.md`,
+>   `wiki/energie-private-kontrolle-zh.md`). Fachlich stützt sich der Nachweis auf
+>   **SIA 387/4** — zur Ausgabebezeichnung dieser Norm ist im Hub ein Punkt offen
+>   (`wissen/energie/wiki/QUESTIONS.md` E-R33-1), deshalb hier bewusst ohne Jahrgang.
+> - **Beim Zahlenvergleich die Bezugsgrösse prüfen:** E_vm (Wartungswert) und E_0 sind über
+>   den Faktor k_0 verknüpft und nicht dasselbe. Wer eine ERCO-Beleuchtungsstärke gegen einen
+>   Normwert hält, ohne das zu klären, vergleicht zwei verschiedene Grössen.
+>
+> Übertragbar und unbestritten bleibt die **Methodik**: der Ablauf einer Lichtsimulation, die
+> Beurteilung von Renderings, die Datenformate (IES, Eulumdat) und die Logik hinter
+> Wartungsfaktor und Wirkungsgradverfahren.
+
 ## Lichtsimulation — Grundlagen und Ablauf
 
 Simulation dient zwei Zwecken: **Evaluation/Präsentation** (Konzeptvarianten

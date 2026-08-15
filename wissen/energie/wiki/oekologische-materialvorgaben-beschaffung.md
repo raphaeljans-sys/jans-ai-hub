@@ -211,6 +211,30 @@ gibt.
 | 2008 (eco-bau-Merkblätter nach BKP) | RC-B / RC-M je Expositionsklasse | SN EN 206-1, SIA 162/4 | `[[eco-bau-merkblaetter-bkp-2008-huelle]]` |
 | **2026 (ecoBKP, geltend)** | **RC-C50 · RC-M40** als 1. Priorität; Primärbeton **nicht empfohlen** bei RC-Verfügbarkeit innert **25 km** | aktuelle SIA-/SN-Fassungen | `[[ecobkp-2026-tragwerk-und-rohbau]]` |
 
+**⚠ Bezugsgrössen-Vorbehalt zu den Prozentzahlen (Wissens-Chef Run 33, 2026-08-15).** Im Hub
+stehen zu Recyclingbeton drei Prozentzahlen nebeneinander, die **nicht dasselbe messen** und
+deshalb nie gegeneinander gerechnet oder als Widerspruch gelesen werden dürfen:
+
+1. **60 % — Anteil rezyklierter Gesteinskörner IM Beton.** Eine Eigenschaft der Betonrezeptur.
+   Fundstelle: Submissionsbedingungen Stadt Zürich 2006, Ziff. 2.1, in
+   `[[bauoekologische-submissionsbedingungen]]`. Dieselbe Bezugsgrösse verwendet die
+   Definition in FAQ F223 («Gesteinskörnung zu 25 bis 100 Massenprozent»).
+2. **50 % — Anteil Recyclingbeton AM eingesetzten Beton.** Eine Eigenschaft des Projekts, nicht
+   der Rezeptur, und formuliert als Label-Bedingung: MINERGIE-ECO ist nur erreichbar, wenn
+   mindestens 50 % Recyclingbeton oder Gesteinskörnung aus Bodenwäsche eingesetzt werden
+   (`[[kbob-recyclingbeton-2007]]`; gleichlautend im MINERGIE-ECO-Fragenkatalog
+   `[[minergie-fragenkatalog-mfh]]`, Kriterium R13).
+3. **50 % / 80 % Massenanteil** aus den AHB-Bedingungen 2008
+   (`[[ahb-bedingungen-planungsleistungen-nachhaltiges-bauen]]` Ziff. 10.2) sind ausdrücklich
+   als **Beispiel** unter «spezielle Bedingungen der Bauherrschaft» deklariert, nicht als
+   Grundanforderung — sie sind kein dritter Standard, sondern ein Musterwert.
+
+Ein Devis-Text muss die Bezugsgrösse mitschreiben («mindestens 60 % rezyklierte
+Gesteinskörnung im RC-Beton» ist etwas anderes als «mindestens 50 % des Betonvolumens als
+RC-Beton»); ohne sie ist die Vorgabe im Streitfall nicht durchsetzbar. Gleiche Mechanik wie
+beim Bezugsflächen-Vorbehalt der Healthcare-Kostenbänder (CHF/m² NF gegen HNF) und bei den
+Beleuchtungsstärken (E_vm gegen E_0) — beide im Register `koordination/QUERBEZUEGE.md`.
+
 **Der Bruch liegt bei der Norm, nicht bei der Absicht:** Die SIA-Empfehlung 162/4, auf die sich
 2007 und 2008 für die Anwendung stützen, ist seit **31.12.2009 archiviert**. Die Fachlogik der
 Empfehlung 2007/2 gilt dagegen unverändert: RC-M hat grösseres Schwind- und Kriechmass und

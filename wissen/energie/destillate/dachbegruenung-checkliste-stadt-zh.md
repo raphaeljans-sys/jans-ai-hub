@@ -3,12 +3,31 @@ quelle: "Stadt Zürich, Amt für Hochbauten, Fachstelle nachhaltiges Bauen: Vorg
 herausgeber: "Amt für Hochbauten Stadt Zürich, DokumenteignerIn FUY; Autoren Grün Stadt Zürich (Bettina Tschander) / Amt für Hochbauten (Yvonne Fürer)"
 ausgabe: "16.02.2009"
 gelesen: "2026-08-15 (Mac Mini Nachtschicht 05:30, Run 133)"
-datenstand: "2009 (Rechtsbasis BZO Art. 11 Stadt Zürich — vor Zitat gegen aktuellen BZO-Stand prüfen)"
+datenstand: "2009 ⚠ Rechtsbasis BZO Art. 11 ist ÜBERHOLT und am 15.08.2026 (Wissens-Chef Run 33) am amtlichen Text gegengelesen: geltend ist die Fassung gem. GRB 30.11.2016, in Kraft seit 01.11.2018 (STRB Nr. 686/2018). Die unten wiedergegebene 2009er-Formulierung bleibt als Quellendokumentation stehen, ist aber NICHT zitierfähig — geltender Wortlaut und Abweichungsanalyse in [[dachbegruenung-gruendach]]"
 status: emerging
 last_updated: "2026-08-15"
 pfad_quelle: "PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/18.5 Boden Landschaft/Dachbegruenung_(Checkliste).pdf"
-links: [[pv-solar-technologien]], [[gebaeudeschadstoffe]]
+links: [[pv-solar-technologien]], [[gebaeudeschadstoffe]], [[dachbegruenung-gruendach]], [[sia-271-2007]]
 ---
+
+> **⚠ Zwei Vorbehalte zu diesem Destillat** (Wissens-Chef Run 33, 15.08.2026):
+>
+> 1. **Der Rechtsteil gibt den Stand von 2009 wieder, nicht das geltende Recht.** Die
+>    Wiedergabe von BZO Art. 11 Abs. 1 unten («soweit nicht als Terrasse genutzt … wenn
+>    zweckmässig sowie technisch und wirtschaftlich zumutbar») entspricht der Quelle, aber
+>    nicht dem seit 01.11.2018 geltenden Text. Dieser verlangt eine **ökologisch wertvolle**
+>    Begrünung, stellt sie unter «technisch und **betrieblich möglich** sowie wirtschaftlich
+>    **tragbar**» und ordnet sie ausdrücklich **auch dort an, wo Solaranlagen installiert
+>    sind**. Beleg und Abweichungsanalyse: `[[dachbegruenung-gruendach]]`, Primärquelle
+>    `wissen/baurecht/raw/260607_amtlich_zh_bzo-zurich-stadt.md` Z. 930-945. Führend für
+>    Recht und Bewilligungspflicht ist `wissen/planungsgrundlagen/` (§19 in
+>    `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`), das dieselbe Quelle bereits am
+>    25.07.2026 verarbeitet und am 31.07.2026 in genau diesem Punkt korrigiert hatte.
+> 2. **Die SIA-Fundstellen unten sind aus der Quelle übernommen, nicht am Normtext geprüft.**
+>    Für SIA 271:2007 (Ziff. 2.2.1.1, 2.6.1.1, 5.1.4, Gefällekriterium 1,5 %) führt die KB
+>    `normen` ein eigenes, am Original gelesenes Destillat: `[[sia-271-2007]]`
+>    (`wissen/normen/destillate/sia-271-2007.md`). Vor jedem Zitat dort gegenlesen
+>    (Rule `normen-referenz`).
 
 # Dachbegrünung — Vorgaben Stadt Zürich (Checkliste)
 

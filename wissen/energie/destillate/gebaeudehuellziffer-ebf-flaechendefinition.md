@@ -172,6 +172,14 @@ Primärquelle der Norm.
   Der Wortlaut ist also quellentreu; **beim Zitat in einem Aussendokument ist statt der
   zurückgezogenen Norm die Nachfolgenorm zu nennen** (Rule `normen-referenz.md`,
   Ausgaben-Disziplin).
+  **Nachtrag Wissens-Chef Run 33 (15.08.2026):** Die Nachfolgenorm liegt seit dem 15.08.2026
+  als eigenes Destillat vor — `wissen/normen/destillate/sia-416-1-2007.md`
+  (`[[sia-416-1-2007]]`), das die Energiebezugsfläche AE in Ziff. 3.2 normativ definiert; bis
+  dahin verwies diese Stelle nur auf das REGISTER und ein Immobilienmanagement-Destillat.
+  **Zwei Vorbehalte:** das Destillat trägt `status: speculative` und ist damit nach Rule
+  `normen-referenz` Ziff. 1b eine Warnkarte, keine Zitierquelle; und die EBF-Grunddefinition
+  weiter oben in diesem Destillat (Z. 70 ff.) ist **noch nicht** gegen Ziff. 3.2 abgeglichen —
+  das ist ein offener Punkt, keine bestätigte Übereinstimmung.
 - **Alter der EBF-Quelle:** Definition Energiebezugsflaeche.pdf datiert vom 10.06.2005 und
   damit deutlich vor SIA 380/1:2009 und :2016. Ob die Raum-Zugehörigkeitsliste (Ziffer 2 32/2
   33) seither unverändert übernommen wurde oder in neueren SIA-380/1-Ausgaben abweicht, ist mit

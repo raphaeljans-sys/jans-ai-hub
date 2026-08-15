@@ -2,6 +2,32 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-15 (Wissens-Chef Run 33) — nachgeholte Rueckrichtung aus `normen`
+
+- [ ] **E-R33-1 (P2): KB-interne Divergenz zur Ausgabebezeichnung von SIA 387/4 —
+  «SIA 387/4:2023» gegen «Ausgabe 2017, aktualisiert 01.08.2023».** Beide Formulierungen
+  stehen nebeneinander in dieser KB und meinen moeglicherweise dasselbe Dokument, sagen aber
+  Verschiedenes ueber die **Ausgabe**, und genau die wird in Nachweis und Devis zitiert.
+  - «SIA 387/4:2023 (gueltig ab 01.08.2023)»: `destillate/ahb-zuerich-gt-rl8-beleuchtung.md`
+    Z. 6 und Z. 93 · `destillate/ahb-checkliste-nachweis-beleuchtung.md` Z. 6 und Z. 34 ·
+    `destillate/ahb-zuerich-gt-rl4-raumkuehlung.md` Z. 6 · `destillate/ahb-raummodul-klassenzimmer.md`
+    Z. 117 · `destillate/INDEX.md` Z. 349.
+  - «SIA 387/4 Ausgabe 2017, aktualisiert 01.08.2023»:
+    `destillate/aufzug-energieeffizienz-vdi4707.md` Z. 4 und Z. 44.
+  **Nicht selbst entscheiden.** `normen` fuehrt die Ausgabe (Rule `normen-referenz`) und hat
+  den Punkt ausdruecklich offen gelassen: das Destillat `normen/destillate/sia-387-4-2017.md`
+  und die Registerzeile bleiben bei **2017**, bis ein **eigener, datierter Abruf der
+  SIA-387/4-Produktseite** vorliegt (`normen/wiki/QUESTIONS.md` Z. 425-442, Run 28). Zu
+  beachten: die BBV I ZH, Anhang Ziff. 2.3382, erklaert fuer den kantonalen Vollzug weiterhin
+  die **Ausgabe 2017** verbindlich (`baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 1036) — ein
+  pauschaler «abgeloest»-Vermerk waere fuer den Nachweis EN-111 irrefuehrend. Bis zur Klaerung
+  gilt fuer diese KB: **die angewandte Fachaussage bleibt unveraendert, nur die
+  Ausgabebezeichnung ist unsicher** und ist beim Zitieren mit Vorbehalt zu versehen.
+  **Herkunft:** Run 28 hat den Punkt nur in `normen` notiert; die Rueckrichtung war seither
+  offen und wurde von Run 32 als Zuwachs an Run 33 uebergeben. Belegt damit erneut das
+  Struktur-Muster «Uebergabe verpufft im abgebenden KB» — Uebergaben gehoeren in die
+  QUESTIONS der **Empfaenger**-KB.
+
 ## 2026-08-05 (Cross-KB-Lauf Run 26) — KB-interner Defekt zwischen Wiki und eigenem Destillat
 
 - [ ] **E-R26-1 (P2): `wiki/oekologische-materialvorgaben-beschaffung.md` ist gegenüber den

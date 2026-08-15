@@ -3,8 +3,18 @@ title: "Estrich-Systeme: Verbundestrich, Estrich auf Trennschicht, schwimmender 
 status: emerging
 last_updated: 2026-08-15
 sources: ["900 Einrichtung/00 best/Planer8_Kap7.pdf" (Sopro Bauchemie GmbH, Fachbuch-Kapitel "Estriche und Fussbodenkonstruktionen", PDF-Erstelldatum 11.01.2017, referenziert DIN EN 13813 und DIN 18560)]
-links: [[INDEX]]
+links: [[INDEX]], [[sia-251-2008]]
 ---
+
+> **Schweizer Gegenstück zu den DIN-Werten unten: `wissen/normen/destillate/sia-251-2008.md`**
+> (Kante gesetzt Wissens-Chef Run 33, 15.08.2026 — der Artikel nannte SIA 251/252 zwar
+> namentlich, verlinkte aber weder im Frontmatter noch im Fliesstext auf das Destillat;
+> `grep -c "sia-251"` ergab 0). SIA 251:2008 «Schwimmende Estriche im Innenbereich» ist
+> `established` und am Original gelesen (S. 1-26 von 34) und führt Bauart-Systematik,
+> Festigkeitsklassen und Mindestdicken je Beanspruchungskategorie. **Für ein Schweizer LV sind
+> die SIA-Werte massgebend, nicht die DIN-Werte dieses Artikels** (Rule `normen-referenz`:
+> Norm-Fundstelle mit Ziffer und Ausgabe kommt aus `normen`). Die Trittschall-Anforderungen
+> führt SIA 181, nicht dieser Artikel.
 
 # Estrich-Systeme: Verbundestrich, Estrich auf Trennschicht, schwimmender Estrich
 

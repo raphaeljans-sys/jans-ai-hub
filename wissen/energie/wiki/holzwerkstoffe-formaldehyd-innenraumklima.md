@@ -8,6 +8,16 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[gebaeudeschadstoffe]], [[minergie-innenra
 
 # Holzwerkstoffe im Innenausbau — Formaldehyd
 
+> **Dieselbe Quelle liegt zweimal im Hub** (festgestellt Wissens-Chef Run 33, 15.08.2026;
+> `grep -c "planungsgrundlagen"` in diesem Artikel und im zugehörigen Destillat ergab beide
+> Male 0). Lignatec 21/2008 wurde von `planungsgrundlagen` bereits am 25.07.2026 aus demselben
+> SharePoint-Ordner verarbeitet — mit denselben Kernaussagen (E1, beidseitige Beschichtung,
+> Verbot nachträglicher Lochung/Schlitzung), nachzulesen in
+> `wissen/planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` (§19-Umfeld,
+> ab Z. 1366). **Keine Zusammenführung, sondern eine Arbeitsteilung:** dieser Artikel führt die
+> Fachphysik und die Grenzwerte, `planungsgrundlagen` den Bezug zum AHB-Massnahmenkatalog der
+> Stadt Zürich. Wer einen der beiden Werte ändert, prüft den anderen mit.
+
 > ⚠ **Datenstand 2008** (Lignatec 21, Lignum/BAG). Emissionsklassen/Grenzwerte vor Zitat gegen
 > aktuelle DIBt-Richtlinie 100 / EN-Normen verifizieren.
 

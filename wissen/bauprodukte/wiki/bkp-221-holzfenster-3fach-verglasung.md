@@ -3,8 +3,20 @@ title: "Holzfenster 3-fach verglast — Systemaufbau, Uw-Berechnung und Anschlus
 status: emerging
 last_updated: 2026-08-15
 sources: ["221 Fenster Aussentueren Tore/SKM_C30817111017320.pdf" (Degonda SA, Cumpadials GR, Auftragsbestätigung Nr. A 1710533, Fenstersystem SIR V-H 68/74, Datenstand 07.11.2017)]
-links: [[INDEX]]
+links: [[INDEX]], [[sia-380-1-2016]]
 ---
+
+> **⚠ Zum Verweis auf SIA 380/1 unten** (Kante gesetzt Wissens-Chef Run 33, 15.08.2026 — der
+> Artikel nannte die Norm zweimal, verwies aber nur generisch auf den Pfad `wissen/normen`;
+> `grep -c "sia-380"` ergab 0). Die Registerzeile führt `normen`, das Destillat heisst
+> `wissen/normen/destillate/sia-380-1-2016.md` — **es ist jedoch nur die Vorschau** (6 Seiten:
+> Titelblatt, Impressum, Inhaltsverzeichnis) und enthält **keine Grenzwerte und keine
+> U-Wert-Anforderungen**. Ein Uw-Anforderungswert darf daher weder aus diesem Artikel noch
+> aus jenem Destillat entnommen werden. Die geltenden **Anforderungswerte** stehen im
+> kantonalen Energierecht (BBV I ZH bzw. MuKEn) und werden von `wissen/energie/` geführt; die
+> **Norm-Fundstelle** (Ziffer, Ausgabe) führt `normen`. Dieser Artikel führt allein das
+> Produkt- und Systemwissen zu BKP 221 samt dem herstellerbelegten Uw = 0,9 W/m²K des
+> konkreten Systems (Datenstand 2017) — das ist ein **Produktwert, kein Anforderungswert**.
 
 # Holzfenster 3-fach verglast — Systemaufbau, Uw-Berechnung und Anschlussdetails
 

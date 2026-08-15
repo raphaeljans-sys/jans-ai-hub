@@ -1392,6 +1392,15 @@ der Backlog nicht erneut aufgemacht wird:
   Samenmischung + Substrattiefe punktuell auf 5 cm reduziert**, Bautenschutzmatte unter der
   PV-Unterkonstruktion Pflicht — ergänzt [[energie-pv-eignung-typenwahl]] um die
   Dachbegrünungs-Schnittstelle.
+  **Gegenkante gesetzt Wissens-Chef Run 33 (15.08.2026):** Die KB `energie` hat dieselbe Quelle
+  am 15.08.2026 unabhängig destilliert und dabei den hier bereits am 31.07.2026 korrigierten
+  2009er-Wortlaut erneut übernommen — nachgezogen in
+  `wissen/energie/wiki/dachbegruenung-gruendach.md` und
+  `wissen/energie/destillate/dachbegruenung-checkliste-stadt-zh.md`, beide verweisen jetzt
+  hierher. **Zuständigkeit:** dieser Artikel führt Recht und Bewilligungspflicht, `energie`
+  führt Substrat-/Qualitätsstandard, bauphysikalische Kennwerte und die PV-Kombination.
+  Der Fall belegt zum zweiten Mal, dass eine hier ausgesprochene Korrektur eine parallel
+  laufende Destillation in einer anderen KB nicht erreicht, solange keine Kante besteht.
 
 ## 20. GT-Kleinrichtlinien (4 Restdateien, §9 abgeschlossen)
 
