@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 09:12:01
+Stand: 16.08.2026 09:22:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:49)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:55)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 16.08.2026 09:12:01
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b4b66009 hub-chef 16.08.2026: Briefing gesendet (08:57) — Entwurfsstand des Radars auf einem Konto gemessen, zwei Vornamen richtiggestellt
+- 7eab514f nas-selfcommit: 2 Datei(en) 2026-08-16 09:15
