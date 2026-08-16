@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 01:54:49
+Stand: 16.08.2026 02:05:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 01:54:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 038efdbc normen PROGRAMM: Methodik-Pflicht 13 mit Kontrollen gemessen und praezisiert (Abdeckung 3/3 bei 0 Falsch-Positiven vs Refuter 1/3); Klasse 'fehlender Inhalt' zerfaellt in refuter-sichtbare Ausnahme und refuter-blinden Zusatzinhalt
+- 4e230341 nas-selfcommit: 4 Datei(en) 2026-08-16 02:00
