@@ -21,6 +21,36 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260817 — Der Auto-Update-Waechter hing 19 h am gewedgeten Binary; Watchdog eingebaut
+
+**Befund (vollgas-radar 17.08. 00:58, MacBook Pro).** `scripts/claude-autoupdate.sh` stand seit dem
+16.08. 05:15 volle 19 h 45 min an der Zeile `command claude --version` in `cli_version()`. Der Lauf
+vom 15.08. 05:15 hatte den Homebrew-Symlink auf das Cask 2.1.224 gelinkt und ist unmittelbar danach
+an derselben Zeile stehengeblieben: sein Log endet nach «successfully upgraded» ohne die sonst
+obligate Zeile «=== Lauf beendet ===». Da launchd bei laufender Instanz keine zweite startet,
+blockierte der Haenger jeden weiteren 05:15-Takt.
+
+**Die Lehre.** Der Mechanismus, der das defekte Binary aktualisieren wuerde, war an genau diesem
+Defekt blockiert. Wer eine Selbstheilung annimmt, weil ein Update-Job existiert, hat den Job nicht
+gemessen. Gleiche Familie wie `auto-verbesserungen` 260807: die Existenz eines Mechanismus ist keine
+Aussage ueber seine Wirkung.
+
+**Eingriff (umkehrbar).** Beide Prozessbaeume beendet (PID 40993/40999/41000 samt Kind 41002), danach
+verifiziert, dass kein `claude --version` mehr laeuft. Der launchd-Job selbst wurde **nicht**
+angefasst und feuert am naechsten Takt regulaer. Anschliessend `cli_version()` um einen eigenen
+Watchdog mit harter 20-Sekunden-Grenze ergaenzt (`timeout` existiert auf diesen Stationen nicht,
+deshalb Subprozess plus `pkill -P`); bei Ueberschreitung liefert die Funktion
+`n/a (Zeitueberschreitung nach 20 s)` statt zu haengen. Verifiziert: `--status` kehrt nach exakt 20 s
+zurueck, keine Waisen. Diff `25/1`.
+
+**Offen (P1, nur Raphael).** Der Symlink `/opt/homebrew/bin/claude` zeigt unveraendert auf die
+gewedgete Fassung 2.1.224; jeder Aufruf ueber den PATH laeuft ins Leere. Fix: Symlink auf die
+funktionierende App-Fassung umhaengen oder das Cask ersetzen. Der Radar misst derweil ueber
+`~/Library/Application Support/Claude/claude-code/<version>/claude.app/Contents/MacOS/claude`.
+Beleg und Messwerte: `logbuch/vollgas/RADAR.md`, Eintrag 17.08. 00:58.
+
+---
+
 ## 260816 — Scheduled-Task-Prompt: NAS-Stand seit dem 13.08. aktuell, Station fuehrte den alten aus
 
 Beim woechentlichen `claude-abo-auslastung` (Mac Mini, 16.08. 18:06) fiel auf, dass die Station

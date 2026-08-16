@@ -57,7 +57,31 @@ desktop_update_pending() {
     ls -d "$SHIPIT_DIR"/update.* >/dev/null 2>&1
 }
 cli_version() {
-    command claude --version 2>/dev/null | head -1 || echo "n/a"
+    # Watchdog (17.08.2026): eine gewedgete CLI-Fassung laesst `claude --version`
+    # NIE zurueckkehren. Belegt am Cask 2.1.224 — die Laeufe vom 15.08. und
+    # 16.08. 05:15 blieben genau hier stehen, der zweite hing 19 h 45 min und
+    # hielt den naechsten Takt blockiert (launchd startet keine zweite Instanz).
+    # `timeout` gibt es auf diesen Stationen nicht, deshalb eigener Watchdog.
+    local out tmp pid i
+    tmp=$(mktemp -t claude-cliver) || { echo "n/a"; return; }
+    command claude --version >"$tmp" 2>/dev/null &
+    pid=$!
+    for i in $(seq 1 20); do
+        kill -0 "$pid" 2>/dev/null || break
+        sleep 1
+    done
+    if kill -0 "$pid" 2>/dev/null; then
+        pkill -9 -P "$pid" 2>/dev/null
+        kill -9 "$pid" 2>/dev/null
+        wait "$pid" 2>/dev/null
+        rm -f "$tmp"
+        echo "n/a (Zeitueberschreitung nach 20 s)"
+        return
+    fi
+    wait "$pid" 2>/dev/null
+    out=$(head -1 "$tmp" 2>/dev/null)
+    rm -f "$tmp"
+    if [ -n "$out" ]; then echo "$out"; else echo "n/a"; fi
 }
 
 if [ "${1:-}" = "--status" ]; then

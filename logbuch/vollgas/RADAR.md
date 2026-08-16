@@ -52,6 +52,65 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-17 00:58 — [FREI] **Die Ursache des P1 gefunden: der Auto-Update-Waechter haengt selbst am gewedgeten Binary.** `claude-autoupdate.sh` stand seit dem 16.08. 05:15 volle **19 h 45 min** an der Zeile `command claude --version`, ohne Watchdog, ohne Zeitgrenze. Der Lauf vom 15.08. 05:15 hatte den Symlink auf 2.1.224 gelinkt und ist unmittelbar danach an derselben Stelle stehengeblieben: sein Log endet nach «successfully upgraded» ohne die sonst obligate Zeile «=== Lauf beendet ===». Damit ist belegt, warum der P1 seit zwei Tagen offen steht. **Nicht nur das PATH-Binary ist defekt, der Mechanismus, der es reparieren wuerde, ist an genau diesem Defekt blockiert** und wuerde es bei jedem weiteren 05:15-Takt erneut sein. Ampel **FREI** (47.4 % bei 93.4 % verstrichener Woche, Vorsprung **-46.1**, vierter Tag in Folge verbessert). **Sieben fremde Loops mit Liefer-Delta plus der eigene Lauf, kein Delta-Null-Loop.**
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 16.08. 12:58, dieser Lauf 17.08. 00:58, Abstand **exakt
+12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Achter regulaerer
+Abstand in Folge, keine Eintragsluecke, `lastRunAt`-Gegenprobe nicht noetig.
+
+**Fensterprobe.** Ueber die App-gebuendelte CLI 2.1.229 «OK», rc=0, Antwort in Sekunden. Der Ersatzweg
+aus dem Rezept traegt den zweiten Lauf in Folge. Das PATH-Binary wurde gegengeprueft und antwortet
+weiterhin nicht: `/opt/homebrew/bin/claude --version` lief in den 60-s-Abbruch, der Symlink zeigt
+unveraendert auf `Caskroom/claude-code/2.1.224/claude` (Datum 15.08. 05:15). Der eigene Waise dieser
+Gegenprobe wurde sofort abgeraeumt.
+
+**Ausgefuehrte Massnahmen.**
+1. Beide haengenden Autoupdate-Prozessbaeume beendet (PID 40993/40999/41000 samt Kind 41002), danach
+   verifiziert: kein `claude --version` mehr in der Prozessliste. Der launchd-Job selbst wurde **nicht**
+   angefasst, er feuert am naechsten Takt regulaer.
+2. `scripts/claude-autoupdate.sh` Zeile 59 ff.: `cli_version()` bekommt einen eigenen Watchdog mit
+   harter 20-Sekunden-Grenze, der die Kindprozesse mitabraeumt und `n/a (Zeitueberschreitung nach 20 s)`
+   zurueckgibt. `timeout` gibt es auf diesen Stationen nicht, deshalb Subprozess plus `pkill -P`.
+   Verifiziert: `--status` kehrt nach exakt 20 s zurueck statt zu haengen, keine Waisen. Diff `25/1`,
+   die eine geloeschte Zeile ist die ersetzte. Der Job kann sich damit nicht mehr selbst blockieren,
+   auch wenn das Binary defekt bleibt.
+
+**Wochenbudget.** 79.11 von 167 Mio, MacBook Pro 57.96 / Mac Mini 21.15, beide Stationsdateien frisch.
+Der Verbrauch laeuft dem Zeitverlauf um 46.1 Punkte **hinterher**, der komfortabelste Stand der Woche.
+Der Entscheid «gleichmaessig ueber die Woche» ist eingehalten, das Wochenende laeuft nicht leer.
+Keine Drossel, keine Reaktivierung noetig.
+
+**Liefer-Delta (13 h).** 58 Commits, davon 8 Arbeits-Commits: wissens-chef Run 34 (23:32),
+energie Run 137 (22:59), tenant-hygiene (20:13), Abo-Check (18:13), Synergie-Lauf 09 (17:20),
+energie-training Run 136 auf der Mini-Nachtschicht (13:36) und die beiden Commits des eigenen
+12:58-Laufs. Dateiseitig zusaetzlich Deltas in `wissen/normen`, `wissen/planungsgrundlagen`,
+`wissen/projekt-lessons` und `wissen/koordination`. Kein Loop ohne Delta, kein Ruecktakt-Kandidat.
+
+**Nachtschicht Mac Mini.** Vier Laeufe im Journal, drei mit rc=0. Der Lauf um 02:40 endete mit rc=1 und
+`terminal_reason: budget_exhausted` am 5-Dollar-Deckel nach 20 Turns. Das ist ein **Abbruch, kein
+Delta Null**: der Loop war hungrig und wurde am Deckel gestoppt, nicht materialleer. Nach der
+Auftragsregel wird er deshalb ausdruecklich **nicht** rueckgetaktet.
+
+**Feuermechanismen.** Unveraendert sauber. Lokal liegen `vollgas-supervisor` und `vollgas-monitor` als
+`.disabled-260729` und sind nicht geladen; auf dem Mac Mini liegt der Supervisor ebenso deaktiviert,
+geladen ist dort einzig `ch.jans.nachtschicht` (Status 0). Kein Doppelfeuer, keine Wiederbelebung.
+
+**Speicher.** Frei plus inaktiv plus purgeable rund 4.35 GB, `kern.memorystatus_vm_pressure_level: 1`
+(normal). Keine Waisen im Lauf-Gate.
+
+- **P1 (unveraendert offen, nur Raphael):** der Homebrew-Symlink `/opt/homebrew/bin/claude` zeigt auf
+  die gewedgete Fassung 2.1.224. Der Radar misst ueber den App-Pfad weiter, aber jeder Script- und
+  Loop-Aufruf, der `claude` aus dem PATH nimmt, laeuft ins Leere. Fix: Symlink auf die funktionierende
+  App-Fassung umhaengen oder das Cask ersetzen. Der Auto-Update-Weg faellt als Selbstheilung aus, das
+  hat dieser Lauf gemessen. **Keine Mail**, der Befund ist seit dem 15.08. gemeldet und nicht neu.
+- **P2:** die Desktop-App meldet ein bereitliegendes Update (1.30096.1 laeuft, Update pendent). Der
+  sanfte Neustart haengt am selben Job und ist seit zwei Laeufen nicht ausgefuehrt worden. Mit dem
+  Watchdog kommt der naechste 05:15-Lauf ueber die Versionszeile hinaus und sollte ihn nachholen. Im
+  naechsten Radar-Lauf gegenpruefen, ob das Log den vollstaendigen Durchlauf zeigt.
+- **P3:** kein Handlungsbedarf. Der Abstand zwischen Verbrauch und Zeitverlauf waechst weiter zugunsten
+  des Kontingents, die Loops liefern durchgehend.
+
+---
 ## 2026-08-16 12:58 — [FREI] **Die Fensterprobe misst wieder: über die App-gebündelte 2.1.229 antwortet sie mit «OK», rc=0.** Der letzte Lauf hatte den funktionierenden Ersatzweg diagnostiziert, aber noch nicht genutzt; dieser Lauf hat ihn gefahren und im Rezept verankert. Damit ist die Kernmessung des Radars nach zwei blinden Läufen wiederhergestellt. Der Homebrew-Symlink zeigt unverändert auf die gewedgete 2.1.224; P1 bleibt offen, hat aber keinen Messverlust mehr zur Folge. Ampel **FREI** (44.7 % bei 86.3 % verstrichener Woche, Vorsprung **-41.6**, dritter Tag in Folge verbessert). **Acht Loops mit Liefer-Delta, kein Delta-Null-Loop.**
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 16.08. 00:58, dieser Lauf 12:58 — Abstand **exakt
