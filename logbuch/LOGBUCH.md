@@ -5,6 +5,118 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-16 — Logbuch-Radar 06:55 (Regellauf, keine Mail versendet)
+
+**Erledigt:** nichts. Das Fenster der letzten 26 Stunden enthält keine einzige geschäftliche
+Fremdmail, und es ist auch nichts hinausgegangen; die letzte ausgehende Mail bleibt der Versand
+vom 14.08. 16:34. **Offen:** bexio den fünften Tag mit HTTP 401, damit die heute ablaufende
+Mahnfrist RE-00101 (Tschopp, CHF 6'000) unprüfbar und RE-00098/99 seit fünf Tagen unverifiziert;
+Visum und Weiterleitung der Rechnung Gastro Online (CHF 4'250.50, Frist um den 23.08.), immer
+noch ohne Auftragsgrundlage; Bestätigung TeKoSi zum Montagstermin; Abgleich der beiden
+Wissenscheck-Taktgeber. **Kommt:** Baufreigabe-Erwartung der Bauherrschaft 17.08., zwei
+KISPI-Termine am Montag, Dropbox 18.08., RE-00100 und Koordinationssitzung am 20.08.,
+Baustellenbegehung 21.08., Adobe-Acrobat-Abo scharf ab 22.08., Gastro-Rechnung um den 23.08.
+Register um 07:1x nachgeführt: ein Kopf-Eintrag und eine neue Zeile (Adobe-Abo), nur ergänzt,
+keine Zeile gelöscht (nativ nachgemessen, +60/-0).
+
+**Kein eigener Versand.** Der Chef-Lauf des Vortages ist nicht ausgefallen, die
+Hub-Chef-Mail vom 15.08. 08:49 liegt im Postfach, und kein Punkt verlangt Handeln vor 08:39 —
+heute ist Sonntag, der dringendste Schritt (bexio-Token) wird erst Montag praktisch wirksam.
+Das Briefing steht deshalb regelkonform hier und nicht im Postfach.
+
+### Radar-Briefing 16.08.2026
+
+Lagebild in einem Satz: **ein wirklich ruhiges Wochenendfenster ohne eine einzige geschäftliche
+Fremdmail, mit zwei Punkten, die trotzdem Geld betreffen** — die Debitoren-Aufsicht ist den
+fünften Tag blind, und ein neues Jahresabo läuft am 22.08. scharf.
+
+**Erledigt seit gestern**
+
+Nichts abgeschlossen. Von Dritten kam in den letzten 26 Stunden nichts herein, und es ging nichts
+hinaus. Neun Nachrichten im Fenster, davon vier Systemmails (Apple zweimal, idealo, MERX-Werbung)
+und zwei eigene Loop-Mails samt ihren Spiegelungen in den Gesendeten. Auch das Konto
+raphaeljans@outlook.com ist leer; die neueste Nachricht dort stammt vom 01.08. Das ist ein
+belegtes Leerergebnis, kein Werkzeugfehler: Postfach und Mailbox wurden vor der Aussage gezählt.
+
+**Überfällig**
+
+**bexio antwortet den fünften Tag mit HTTP 401, und heute läuft die erste Frist darin ab.** Die
+Mahnfrist RE-00101 (Tschopp, CHF 6'000) endet heute, Sonntag, ist ohne Live-Stand aber nicht
+prüfbar und praktisch erst Montag fassbar. RE-00098/RE-00099 (KISPI, Frist 12.08.) sind fünf Tage
+überfällig und weiterhin unverifiziert. Es wurde nichts gemahnt, nichts gebucht, nichts
+versendet. Der eine Schritt, der das löst, liegt bei Dir: neuen Personal Access Token in bexio
+ausstellen, in `~/.bexio.env` eintragen, danach den Kontrolllauf.
+
+**Für den dringendsten Fall gibt es heute einen Ersatzweg.** Solange bexio schweigt, lässt sich
+die Position Tschopp im E-Banking direkt gegenprüfen: gesucht ist ein Eingang über CHF 6'000
+(Transaktion 3630). Findet er sich dort, ist RE-00101 erledigt und die heute ablaufende Mahnfrist
+gegenstandslos, ganz ohne Token. Diese Gegenprüfung war für heute ohnehin vorgemerkt.
+
+**In den nächsten 7 Tagen**
+
+**Montag 17.08., der Prüfstein des Tages: die Bauherrschaft erwartet die Baufreigabe KISPI.**
+Beantragt hast Du sie am 14.08. um 12:12 bei AfB, SRZ und UGZ, nachdem der Brandschutz-
+Auflagepunkt II.1b) erfüllt und die Abänderungseingabe B26-00705.02 eingereicht war. Eine
+Rückmeldung der drei Stellen liegt bis heute früh nicht vor, und J. Ziegel ist bis 18.08.
+abwesend. Der Termin um 09:00 ist die erste Gelegenheit, den Stand gegenüber dem KISPI zu
+benennen, auch wenn er dann noch offen ist.
+
+Montag 17.08., 09:00 bis 10:00: Austausch Umbau PPTS, Teams, Organisatorin C. Schäfer (KISPI).
+
+Montag 17.08., 10:30 bis 11:00: KISPI PPTS Türkonzeptplan und Türbuch, Besprechung der
+Rückmeldungen, Du als Organisator. **Die Besetzung ist unsicher:** N. Ramminger hat am 14.08. um
+17:13 ferienbedingt abgesagt, von TeKoSi (L. Hiltmann, R. Otschkowski) liegt weder Zu- noch
+Absage vor. Montag früh prüfen, ob der Termin in dieser Runde trägt.
+
+Dienstag 18.08.: Das Dropbox-Abo verlängert sich automatisch, danach jährlich EUR 203.88. Reine
+Kenntnisnahme, eine Anpassung wäre nur vor dem 18.08. möglich.
+
+Donnerstag 20.08.: RE-00100 (Nova Property Fund Management AG, CHF 13'120) wird fällig, ohne
+bexio-Zugang nicht überwachbar.
+
+Donnerstag 20.08., 13:00 bis 14:00: Koordinationssitzung Gruner / Jans / KISPI, Teams.
+
+Freitag 21.08., 10:00 bis 12:00: Baustellenbegehung Kinderspital, Lenggstrasse 28, auf Einladung
+von N. Rothe (Röthlisberger AG), von Dir bereits angenommen.
+
+Samstag 22.08.: Adobe Acrobat Premium wird kostenpflichtig, CHF 71.00 pro Jahr mit automatischer
+Verlängerung. Das Probeabo hast Du am 15.08. gestartet, das Kündigungsfenster endet mit ihm. Auf
+der Apple-Rechnung desselben Tages steht zusätzlich PDFelement Perpetual mit CHF 60.00. Zwei
+PDF-Werkzeuge am selben Tag, eines gekauft, eines abonniert; ob beide gewollt sind, ist Dein
+Entscheid, das Register hält nur das Datum fest.
+
+Um den 23.08.: Rechnung Gastro Online AG Nr. 26-08-0025 über CHF 4'250.50, Zahlungsfrist zehn
+Tage netto. Rechnungsempfänger ist das Kinderspital, es ist keine JANS-Verbindlichkeit; offen
+sind Visum und Weiterleitung, und dafür fehlt weiterhin die Auftragsgrundlage im Los-Ordner
+298.60.
+
+**In Beobachtung**
+
+Claude-CLI des MacBook Pro hängt seit 15.08., der Symlink-Fix auf die funktionierende CLI 2.1.229
+liegt als fertiger Befehl im Register, die Dringlichkeit ist gesunken, weil diese CLI seit dem
+03.08. keinen produktiven Loop mehr trägt · Kürzungsentwurf CLAUDE.md wartet auf Deinen Entscheid
+· das Twin-Gehirn kompiliert nach der Verdichtung von heute früh mit nur noch 10 Byte Reserve,
+der nächste Lauf steht ohne Entscheid wieder vor dem Abbruch · die OneDrive-Quarantäne mit 2.8 GB
+Projektdaten ist weiterhin unabgeglichen · der SharePoint-Pool steht bei 88.2 % und läuft Anfang
+Oktober voll, die 90-Prozent-Marke fällt um den 18./19.08. · zwei Bedienschritte aus der
+Speicherbereinigung offen (Dropbox auf «Nur online», `brew cleanup --prune=all` auf dem Mac
+Mini), beide ohne Frist · der Abgleich der beiden Wissenscheck-Taktgeber ist seit gestern
+überfällig, seither feuern zwei Takte auf denselben Prüflauf.
+
+**Vorschlag Kalendereinträge** (nur Vorschlag, nichts eingetragen)
+
+Montag 17.08. früh, vor dem ersten Termin: bexio-Token erneuern und Kontrolllauf, weil daran drei
+Debitorenpositionen und die Mahnfähigkeit hängen · Freitag 21.08.: Entscheid zu Adobe Acrobat
+Premium, einen Tag vor Ablauf des Probeabos.
+
+**Token-Tempo**
+
+Vortag 15.08.2026: MacBook Pro 143.26 Mio Token (API-Äquivalent USD 104.61), Mac Mini 65.53 Mio
+(USD 29.07), zusammen 208.79 Mio Token und USD 133.68.
+
+---
+
+
 ## 2026-08-16 05:31 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — Korpus-Spec `buero-projekte` geschrieben
 
 Prioritaet 1 (pending-Tasks) und 2 (Synobsis Embeddings) leer/erledigt (853/853, offen 0).

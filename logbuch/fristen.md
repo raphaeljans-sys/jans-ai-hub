@@ -3,6 +3,65 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 16.08.2026, 06:55 (Logbuch-Radar, Sonntag — **an allen vier Postfächern, am
+M365-Kalender, am bexio-Aussteller und am Konversations-Destillat nachgemessen; ein wirklich
+ruhiges Fenster, mit einer Ausnahme, die Geld kostet**):
+
+**Das Fenster der letzten 26 Stunden enthält keine einzige geschäftliche Fremdmail.** Neun
+Nachrichten insgesamt, davon vier Systemmails (Apple zweimal, idealo, OpenAI, MERX-Werbung) und
+zwei eigene Loop-Mails an rj@ samt ihren Spiegelungen in den Gesendeten. **Von Dritten kam
+nichts, und es ging nichts an Dritte hinaus** — die letzte ausgehende Mail bleibt der Versand vom
+14.08. 16:34. Das Konto `raphaeljans@outlook.com` wurde gegengeprüft und ist ebenfalls leer: die
+neueste Nachricht dort stammt vom **01.08.2026**, die neueste gesendete vom 15.07.2026. Das ist
+ein belegtes Leerergebnis, kein Werkzeugfehler — Postfach und Mailbox wurden vor der Aussage
+gezählt (24 bzw. 16 Nachrichten erreichbar), nach Rule `auto-verbesserungen` 260730b.
+
+**bexio ist den fünften Tag in Folge blind, und heute läuft die erste Frist darin ab.**
+`--verzug --json` antwortet erneut mit **HTTP 401**, `~/.bexio.env` unverändert vom 13.06.2026,
+letzter erfolgreicher Lauf 08.08. 08:36. **Die Mahnfrist RE-00101 (Tschopp, CHF 6'000) läuft
+heute, Sonntag den 16.08., ab** und ist ohne Live-Stand nicht prüfbar; praktisch fassbar wird sie
+Montag 17.08., aber auch dann nur mit neuem Token. RE-00098/RE-00099 (KISPI, Frist 12.08.) sind
+nun **fünf Tage überfällig und weiterhin unverifiziert**, RE-00100 (Nova, CHF 13'120) fällt am
+**20.08.** Es wurde nichts gemahnt, nichts gebucht, nichts versendet — der Guard für A1 bleibt
+unerfüllt. AKTION Raphael unverändert: neuen Personal Access Token in bexio ausstellen, in
+`~/.bexio.env` eintragen, danach Kontrolllauf. Fünf Tage sind die Schwelle, ab der das nicht mehr
+eine Infrastrukturstörung ist, sondern eine offene Debitorenposition ohne Aufsicht.
+
+**NEU, ein Geldpunkt mit Datum in sechs Tagen: Adobe Acrobat Premium.** Apple bestätigt am
+15.08.2026 13:21 ein am selben Tag angenommenes Jahresabo «Acrobat Premium» (Anbieter Adobe Inc.),
+**eine Woche kostenlos ab 15.08., danach CHF 71.00 pro Jahr ab dem 22.08.2026**, automatische
+Verlängerung bis zur Kündigung. Das Kündigungsfenster endet also mit dem Probeabo am 22.08.
+Ohne Unterstellung, aber der Vollständigkeit halber: die Apple-Rechnung vom selben Tag, 19:40,
+weist zusätzlich **PDFelement Perpetual (Multi-platform) mit CHF 60.00** als In-App-Kauf aus,
+neben GitHub Pro CHF 4.50 monatlich, Gesamtbetrag CHF 64.50 auf die private Visa …1222. Zwei
+PDF-Werkzeuge am selben Tag, eines einmalig gekauft, eines als Jahresabo gestartet — ob beide
+gewollt sind, entscheidet Raphael; das Register hält nur das Datum fest, an dem die
+Entscheidung fällig wird. Status: **beobachten, Entscheid bis 22.08.** | Apple-Mails 15.08.
+13:21 und 19:40 am Beleg (Konto raphaeljans@me.com)
+
+**Aus dem Konversations-Destillat kam nichts Neues fürs Register, und das ist geprüft, nicht
+angenommen.** Das Destillat 260816 führt vier Themen, alle als Überlappung markiert und bereits
+in aktuellerer Fassung registriert (KISPI-Türbuch-Termin, Brandschutz/Gastro-Rechnung,
+bexio-Token, CLI-Wedge). Neu und nur dort belegt sind zwei Systembereinigungs-Gespräche vom
+14.08., beide abgeschlossen; die daraus offenen Punkte (Dropbox-Grundeinstellung «Nur online»,
+drei Ordner auf «Nur online verfügbar», `brew cleanup --prune=all` auf dem Mac Mini) sind reine
+Bedienschritte ohne Frist- oder Geldcharakter und bleiben bewusst ohne Registerzeile.
+
+**Vier Termine in den nächsten sieben Tagen, alle im M365-Kalender bestätigt, keiner neu.**
+Montag 17.08. 09:00 bis 10:00 «Austausch Umbau PPTS» (Organisatorin C. Schäfer, KISPI) ·
+Montag 17.08. 10:30 bis 11:00 «KISPI PPTS: Türkonzeptplan und Türbuch, Besprechung
+Rückmeldungen» (Organisator RJ; **N. Ramminger hat am 14.08. 17:13 ferienbedingt abgesagt, von
+TeKoSi liegt weiterhin weder Zu- noch Absage vor** — die Lage ist Montag früh zu prüfen) ·
+Donnerstag 20.08. 13:00 bis 14:00 Koordinationssitzung Gruner/Jans/KISPI · Freitag 21.08. 10:00
+bis 12:00 Baustellenbegehung Kinderspital, Lenggstrasse 28 (N. Rothe, Röthlisberger AG).
+
+**Entwurfsordner und Queues nachgemessen.** Neun Entwürfe, alle alt und keiner versandreif: der
+Testlauf-Entwurf vom 09.08. 03:06, sieben Duplikate der Küchen-Submission vom 06.05. und ein
+Website-Entwurf vom 12.04. Sync-, Freigabe- und Widerruf-Queues leer. Der Hub-Chef-Lauf des
+Vortages hat geliefert (Briefing 15.08. 08:49 im Postfach), deshalb bleibt dieser Lauf beim
+Regelfall: **kein Mailversand, das Briefing steht im Logbuch.** | Postfächer, Kalender,
+bexio-Aussteller, Queues und Entwürfe alle am 16.08. zwischen 06:55 und 07:1x gemessen
+
 Eintrag 15.08.2026, 08:39 bis 09:05 (Hub-Chef, Regellauf — **am Beleg nachgemessen, nicht
 fortgeschrieben**):
 
@@ -2029,3 +2088,4 @@ Stand: 20.07.2026 (Radar-Lauf, Montag — **ohne NAS**, gearbeitet auf dem lokal
 | offen | SwissSign Wallet — Geraeteumzug altes → neues iPhone fuer qualifizierte elektronische Signaturen. Schritt 1 (Trennung altes iPhone vom Signatur-Service) am 24.07. erfolgreich abgeschlossen (Bestaetigungsmail an rj@); Schritt 2/3 (App-Neuinstallation + Neukopplung via QR-Scan/Face ID am neuen iPhone) angestossen, Abschluss durch Raphael nicht belegt — offen, ob das erste Dokument rechtsgueltig signiert werden konnte. Signatur bewusst nicht automatisierbar (ZertES/eIDAS: alleinige Schluessel-Kontrolle Raphaels; SwissSign ohne Account-API). Quelle: Gespraech MacBook Pro 25.07. | privat/IT | niedrig | nachfassen |
 | offen | **Claude-CLI MacBook Pro haengt seit 15.08.2026 05:15** — Homebrew hob das Cask claude-code von 2.1.223 auf 2.1.224; das Upgrade lief sauber durch, aber jeder Aufruf des neuen Binaries blockiert, auch `claude --version` (drei unabhaengige Aufrufe geprueft, einer davon mit Watchdog rc=137). Der Autoupdate-Job steckte dadurch 7 h 49 min im Post-Upgrade-Versionscheck fest und wurde vom vollgas-chef-radar abgeraeumt; die CLI selbst ist damit **nicht** geheilt. Nicht betroffen sind die App-basierten Scheduled Tasks (Radar, Fruehwarnung, bexio-Hygiene, hub-chef haben nach 05:15 alle geliefert) und der Mac Mini. Betroffen ist jeder CLI-Weg des MacBook: claude-run.sh, Dispatch, Fensterproben. **Aktion Raphael:** Downgrade oder Neuinstallation des Cask (Installationseingriff, gehoert nicht in einen unbeaufsichtigten Lauf). Zu beachten: 2.1.223 wurde beim Upgrade lokal geloescht, im Caskroom liegt nur 2.1.224 — Downgrade braucht erneuten Download. P1-Mail an rj@ am 15.08. 12:58 gesendet. Details: `logbuch/vollgas/RADAR.md` Eintrag 15.08. 12:58. **Nachtrag 16.08.2026 00:58 (vollgas-chef-radar):** drei Messungen präzisieren die Lage. (1) Auch `claude --version` hängt (Watchdog rc=137 nach 20 s) — der Wedge sitzt im Binary, Kontingent und OAuth sind als Ursache ausgeschlossen. (2) `brew info --cask claude-code` zeigt **2.1.224 als aktuellste** Fassung, ein Upgrade wäre ein Leerlauf. (3) **Es liegt eine funktionierende, NEUERE CLI auf der Maschine**: die App-gebündelte 2.1.229 unter `~/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude` antwortet direkt aufgerufen mit `2.1.229 (Claude Code)`, rc=0 — sie trägt die ganze App-Task-Flotte. Empfohlene Aktion Raphael statt Downgrade: `ln -sf "$HOME/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude" /opt/homebrew/bin/claude`, Rückweg `brew link --overwrite claude-code`; nach dem nächsten funktionierenden Cask wieder auf Homebrew zurückstellen, weil der Symlink sonst in einen App-Ordner zeigt, den die App selbst weiterdreht. **Dringlichkeit gesunken:** die letzte Journalzeile mit `station:Macbookpro` stammt vom 03.08.2026 — die MacBook-CLI trägt seit knapp zwei Wochen keinen produktiven Loop, betroffen sind nur die Fensterprobe des Radars und künftige Ad-hoc-Nutzung, nicht der Lern-Ertrag. Keine Wiederholungsmail (derselbe Befund). Details: RADAR-Eintrag 16.08. 00:58 | vollgas-chef-radar | hoch | offen |
 | offen | **Speicherplatz MacBook Pro: rund 185 GB liegen in Dropbox-Ordnern, die der Hub nicht braucht — zwei Bedienschritte bei Raphael.** Gemessen am 14.08.2026: APFS-Container 494.4 GB, belegt 396.9 GB, **frei 97.5 GB**. Dropbox belegt lokal 215 GB, davon 210 GB in drei Ordnern (WEBSEITE JANS 92 GB, CLAUDIA 85 GB, YORCK 33 GB); der Hub greift nur auf 6.6 GB aus WEBSEITE JANS zu (Skill `website-content`). Die «150 GB Systemdaten» der macOS-Anzeige sind **kein** Fehlbestand, sondern praktisch deckungsgleich mit `~/Library` (139 GiB); lokale Snapshots gibt es keine, und die doppelte OneDrive-Messung (CloudStorage 34 GB plus Group Containers 33 GB) sind dieselben Bytes (APFS-Klon, per Stichprobe verifiziert). Caches sind bereits geräumt (MacBook Pro rund 5 GiB, Mac Mini rund 3.6 GB); `~/.claude` und `Caches/ms-playwright` (Connector `ebaugesuche-zh`) wurden bewusst nicht angefasst. **AKTION Raphael, weil systemseitige Cloud-Sync-Schalter nach Rule `interaktive-eingriffe` und Rule `auto-verbesserungen` 260814 nicht von Claude bedient werden:** (1) Dropbox-Einstellungen, Reiter Synchronisierung, «Neue Dateien standardmässig» auf **Nur online** stellen; (2) CLAUDIA, YORCK und «06 REFERENZ Agent» im Finder einzeln auf «Nur online verfügbar» setzen. Zusätzlich vorgelegt und vom Auto-Mode-Klassifikator blockiert: `brew cleanup --prune=all` auf dem Mac Mini (rund 1.9 GB). Kein Termindruck, aber der Hebel ist gross und liegt allein bei Raphael | Gespräch MacBook Pro 14.08.2026 (Destillat `logbuch/konversationen/260816-konversationen.md`) | Infrastruktur/Speicher | tief | offen |
+| 22.08.2026 | **Adobe Acrobat Premium — Jahresabo CHF 71.00, Probeabo endet am 22.08.2026.** Apple bestätigt am 15.08.2026 13:21 die Annahme des Angebots «Acrobat Premium - jährlich» (Anbieter Adobe Inc., App Adobe Acrobat Reader), eine Woche kostenlos ab 15.08., **Verlängerungspreis CHF 71.00 pro Jahr ab dem 22.08.2026**, automatische Verlängerung bis zur Kündigung. Das Kündigungsfenster endet mit dem Probeabo. Kontext ohne Unterstellung: die Apple-Rechnung vom selben Tag (15.08. 19:40, laufende Nr. 2-9522871827) weist zusätzlich **PDFelement Perpetual (Multi-platform) mit CHF 60.00** als In-App-Kauf aus, dazu GitHub Pro CHF 4.50 monatlich, Gesamtbetrag CHF 64.50 auf Visa …1222, Apple Account raphaeljans@me.com. Zwei PDF-Werkzeuge am selben Tag, eines einmalig gekauft, eines als Jahresabo gestartet. **AKTION Raphael: bis 22.08. entscheiden, ob das Abo bleibt** — Claude kündigt keine Abos und löst keine Zahlungen aus. | Apple-Mails 15.08.2026 13:21 + 19:40 am Beleg (Konto raphaeljans@me.com) | Infrastruktur/Lizenzen | tief | beobachten |
