@@ -12,7 +12,7 @@ eigene Lern-Aufgabe statt ausgebaut zu werden.
 | # | Korpus | Quelle | Ziel-KB | Spec | Stand |
 |---|---|---|---|---|---|
 | 1 | `bauprodukte` | `/Volumes/daten/03 Bauprodukte_BKP` (37 Gewerke-Sektionen nach BKP) | `wissen/bauprodukte` | `specs/bauprodukte-spec.md` (28.07.2026) | **erledigt** 15.08.2026 — Inventar komplett: 214 inventarisiert, 26 destilliert, 188 verworfen, 0 offen / 0 triagiert |
-| 2 | `buero-projekte` | `/Volumes/daten/04_Buero/02_Projekte` (22 Projekte) | `wissen/projekt-lessons` (bestehend) | **fehlt** — erster Lauf schreibt `specs/buero-projekte-spec.md` und endet | **aktiv** ab 16.08.2026 (nachgerueckt, Korpus 1 erledigt) |
+| 2 | `buero-projekte` | `/Volumes/daten/04_Buero/02_Projekte` (22 Projekte) | `wissen/projekt-lessons` (bestehend) | `specs/buero-projekte-spec.md` (16.08.2026) | **aktiv** ab 16.08.2026 — Spec steht, Inventar Phase 0 noch offen |
 | 3 | `buero-referenzen` | `/Volumes/daten/04_Buero/10_Referenzenbibliothek` | `wissen/architektur-fachwissen` (neu) | offen | wartet |
 | 4 | `archiv-fachwissen` | `/Volumes/daten/02_Architektur_Archiv` (23 Themensektionen) | `wissen/architektur-fachwissen` | offen | wartet |
 

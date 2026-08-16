@@ -5,6 +5,21 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-16 05:31 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — Korpus-Spec `buero-projekte` geschrieben
+
+Prioritaet 1 (pending-Tasks) und 2 (Synobsis Embeddings) leer/erledigt (853/853, offen 0).
+Prioritaet 3 (Fristen-Radar) ohne akut Neues; der reguläre `logbuch-radar` läuft in Kürze
+(06:55) ohnehin darüber, keine Doppelarbeit gestartet. Bei Prioritaet 4 zeigte die mtime-Probe
+`bauprodukte/wiki` (15.08. 23:24) älter als `energie/wiki` (16.08. 02:39, bereits in dieser
+Nacht bearbeitet) — `bauprodukte`-Korpus 1 ist zudem laut CHANGELOG seit 15.08. 23:30
+vollständig erschlossen (214/214, 0 offen). Gemäss `KORPUS-QUEUE.md` ist Korpus 2
+`buero-projekte` nachgerückt, aber ohne Spec — Skill `wissens-destillat` verlangt: kein
+Destillat ohne Spec, erster Lauf schreibt sie und endet. `specs/buero-projekte-spec.md`
+geschrieben (Ziel, Abgrenzung, Artikelschnitt, Goldstandard, Pflicht-Zusatzauftrag
+bevorzugte Systeme aus Entscheid Raphael 31.07.2026), `KORPUS-QUEUE.md` und
+`wissen/projekt-lessons/CHANGELOG.md` nachgeführt. Kein Destillat-Lauf in diesem Zyklus
+(Budgetdisziplin) — nächster Schritt ist Inventar Phase 0 in einem Folgelauf.
+
 ## Hub-Chef 15.08.2026, 08:39 bis 09:10 — Tagesbriefing GESENDET (Regellauf)
 
 **Gesendet um 08:48:58**, Betreff «Hub-Chef 15.08.26: Die für heute zugesagte KISPI-Stellungnahme

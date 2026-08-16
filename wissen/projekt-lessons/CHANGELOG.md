@@ -3,6 +3,27 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-16 (Mac Mini Nachtschicht 05:31) — Korpus-Spec `buero-projekte` geschrieben, Destillat-Lauf startet als Nächstes
+
+`skills/wissens-destillat/specs/buero-projekte-spec.md` angelegt (Skill `wissens-destillat`
+verlangt: kein Destillat ohne Spec, erster Lauf schreibt sie und endet). Anlass: Korpus 1
+(`bauprodukte`) wurde am 15.08.2026 als `erledigt` markiert (Inventar 214/214, 0 offen),
+`buero-projekte` (Quelle `/Volumes/daten/04_Buero/02_Projekte`, 22 Projektordner, ca. 17 GB)
+ist gemäss `KORPUS-QUEUE.md` nachgerückt. Ziel, Abgrenzung und Artikelschnitt direkt aus der
+bereits bestehenden `CLAUDE.md` dieser KB und dem Goldstandard-Artikel
+`kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087.md` abgeleitet (kein Widerspruch,
+keine Neuerfindung). Abgrenzung priorisiert die vier ergiebigen Ordnerklassen je Projekt
+(`12_Schriftverkehr`, `02_Berichte`, `04_Kosten`, `13_Recherche`/`15_Referenzen`) gegenüber
+`01_Plaene`/`11_Bildablage` (CAD/Bild ohne Fliesstext, pauschal `[-]`); zwei Sonderfälle
+vermerkt (`1115_Kostenberechnung` ist ein Einzeldokument kein Projekt, `180716 Schilder.pln`
+eine lose CAD-Datei ohne erkennbaren Projektbezug). **Pflicht-Zusatzauftrag aus der Spec
+übernommen:** aus diesem Korpus zusätzlich die Bürohaltung zu bevorzugten Systemen ableiten,
+Ergebnis als Entwurf `wissen/bauprodukte/wiki/bevorzugte-systeme-jans.md`, Status zwingend
+`emerging`, Raphael zur Bestätigung vorlegen (Entscheid Raphael 31.07.2026). Kein
+Destillat-Lauf (Phasen 0-2) in diesem Zyklus — das ist gemäss SKILL.md der nächste Schritt
+eines Folgelaufs; Budget bewusst nicht auf einen unvollständigen Pipeline-Start verwendet
+(Nachtschicht-Budgetdisziplin).
+
 ## 2026-08-14 — Rücklauf aus 2619 KISPI PPTS: Türfachplanung, Vorabzug-Prüfmethode
 
 Neuer Report `outputs/2026-08-14_tuerfachplanung-vorabzug-pruefmethode.md` (interaktive
