@@ -5,6 +5,148 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-16 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 16.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+Subagenten-Transcripts, Zeilenfilter je `timestamp[:10]` gegen ein Siebentagefenster,
+neun Tage mtime-Vorfilter, Duplikate über (message.id, requestId) ausgeschlossen.
+MacBook Pro 475 Dateien im mtime-Fenster (von 799), Mac Mini 152 (von 259).
+
+Verbrauch teuer/total je Station (Mio Tokens):
+
+| Tag | MacBook Pro teuer | MacBook Pro total | Mac Mini teuer | Mac Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 10.08. | 0.00 | 0.00 | 1.32 | 19.41 | 1.32 |
+| 11.08. | 0.00 | 0.00 | 2.79 | 78.22 | 2.79 |
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | 28.39 |
+| 13.08. | 12.73 | 276.76 | 4.56 | 112.30 | 17.29 |
+| 14.08. | 8.55 | 163.91 | 3.07 | 75.38 | 11.62 |
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 2.74 | 58.85 | 0.61 | 14.14 | 3.35 (Tag läuft erst) |
+
+Die Werte für den 10.–14.08. reproduzieren die gestrige Messung exakt — die Messmethode
+ist stabil. Der 15.08. stand gestern mit 2.57 Mio als angebrochener Tag im Log und
+schliesst nun mit **8.97 Mio** kombiniert ab.
+
+Subagenten-Anteil MacBook Pro: 15.08. 3.70 von 6.91 Mio teuer (54 %), 16.08. bisher
+1.27 von 2.74 (46 %). Der rekursive Glob bleibt der entscheidende Teil der Messung.
+
+**Blockade-Status: KEINE.** Strukturelle Prüfung über `isApiErrorMessage`,
+`type=="error"`, `message.type=="error"` und `apiErrorStatus==429`, beide Stationen,
+48-h-Fenster. Mac Mini null Ereignisse. Auf dem MacBook Pro genau ein echtes
+Fehlerereignis, und das ist **kein Limit**: 14.08. 05:46:54 UTC, `apiErrorStatus 404`,
+Text «There's an issue with the selected model (haiku-4-5). It may not exist or you may
+not have access to it» — im Lauf `ag-gruendung-monitor`. Kein Usage-/Rate-Limit, kein
+Wochenlimit-Vorfall.
+
+**Radar-Herzschlag: LEBT.** Beide Signale vorhanden: `RADAR.md` trägt einen Eintrag vom
+16.08. 00:58, und es existiert die zugehörige Session (`vollgas-chef-radar`,
+15.08. 22:57 UTC = 16.08. 00:57 CEST, 589 kB), davor 15.08. 10:57 UTC und
+14.08. 22:57 UTC. Jüngster Lauf rund 6 h alt, deutlich unter der Zwölfstundenschwelle.
+Der Radar meldet 40.9 % Wochenbudget bei 79.2 % verstrichener Woche, Vorsprung
+−38.3 Punkte.
+
+**Operative Briefings: alle vier haben ihr Deliverable erreicht**, keines brach ab
+(geprüft über die letzte assistant-Nachricht der jeweiligen Session, nicht über eine
+Wortsuche):
+
+- `logbuch-radar` heute 04:55 UTC (06:55 CEST), 675 kB. Regelfall ohne Mailversand,
+  Briefing ins Logbuch — ruhiges Wochenendfenster.
+- `hub-chef-taeglich` 15.08. 06:39 UTC, 1200 kB: «Briefing versendet, Register und
+  Logbuch nachgeführt, Commit `6aff7826`». Der heutige Lauf (08:39 CEST) war zum
+  Messzeitpunkt noch nicht fällig.
+- `zahlungsabgleich-check` 15.08. 06:23 UTC, 219 kB: sauber beendet mit Befund.
+- `mahnwesen-verzugscheck` zuletzt 14.08. 06:05 UTC, 243 kB, sauber beendet. Die Lücke
+  am 15./16.08. ist das Wochenende, kein Ausfall.
+
+### Bewertung
+
+**Meldeschwelle: NICHT erreicht — keine Mail.**
+
+- (a) interaktive Session mit Limit-Ereignis: nein, kein Limit-Ereignis überhaupt.
+- (b) Verbrauch: höchster kombinierter Tageswert im Fenster 28.39 Mio (12.08.), unter
+  der 35-Mio-Schwelle. Zwei Folgetage über je 18 Mio: 12.08. 28.39 / 13.08. 17.29 —
+  knapp nicht erfüllt. Der Trend sinkt den fünften Tag in Folge
+  (28.39 → 17.29 → 11.62 → 8.97), also Entspannung.
+- (c) Wochenkontingent erschöpft: nein, 40.9 % bei 79.2 % verstrichener Woche.
+- (d) Briefing ohne Deliverable: nein, alle vier geliefert.
+- (e) Radar-Herzschlag: vorhanden, rund 6 h alt.
+- (f) Destillat-Aufwand ohne Wissenszuwachs: nein, siehe unten.
+- (g) Korpus-Queue komplett: nein, Marker steht nicht in der Datei.
+
+### Destillat-Aufsicht
+
+**Korpus-Wechsel vollzogen — der erste Korpus ist fertig.** Die Queue führt
+`bauprodukte` seit dem 15.08. als **erledigt** (214 inventarisiert, 26 destilliert,
+188 verworfen, 0 offen). Nachgerückt ist Korpus 2 `buero-projekte`
+(`/Volumes/daten/04_Buero/02_Projekte`, 22 Projekte, Ziel-KB `wissen/projekt-lessons`),
+**aktiv ab 16.08.**; die Spec `specs/buero-projekte-spec.md` wurde heute 05:36 geschrieben.
+Das Spec-Gate hängt also nicht. Inventar Phase 0 steht noch bei 0 Sektionen — erwartbar
+am Starttag, im nächsten Lauf ist das der zu prüfende Fortschritt.
+
+**Ertrag:** die neue Ziel-KB `wissen/projekt-lessons` zählt 5 Artikel (1 emerging,
+4 established), jüngstes mtime 04.08. — der neue Korpus hat noch nichts abgelegt, was
+am Starttag kein Befund ist. Der Ertrag des Tages liegt weiterhin in den laufenden
+Lern-Loops.
+
+**Artikel je Tag** (über `git log --name-only` nativ auf der Synology, nicht über mtime):
+
+| Tag | Artikel gesamt | ohne die sechs Twin-Facetten | teuer kombiniert | Stückkosten je Artikel (ohne Twin) |
+|---|---|---|---|---|
+| 13.08. | 31 | 25 | 17.29 | 0.69 Mio |
+| 14.08. | 14 | 8 | 11.62 | 1.45 Mio |
+| 15.08. | 19 | 13 | 8.97 | 0.69 Mio |
+| 16.08. | 8 | 2 | 3.35 | 1.68 Mio (Tag läuft erst) |
+
+Der 15.08. stand gestern mit 13/7 als angebrochener Tag im Log und schliesst mit 19/13
+ab — Stückkosten 0.69 Mio, gleichauf mit dem bisher besten Tag. Kein Aufwand ohne
+Wissenszuwachs.
+
+**Delta-Null-Serie:** in `wissen/projekt-lessons/outputs/` trägt keiner der vier jüngsten
+Reports (14.08., 08.08., 03.08., 01.08.) einen Delta-Null-Vermerk. Keine Serie, keine
+Rücktaktung fällig.
+
+**Nebenbefund von gestern erledigt:** die Stand-Spalte der Korpus-Queue war seit dem
+28.07. nicht nachgeführt und taugte nicht als Fortschrittsanzeige. Sie ist jetzt aktuell
+und nennt je Korpus den belegten Stand.
+
+**Mittags-Slot Mac Mini (13:30, befristeter Versuch seit 29.07.):** unverändert stumm.
+Im Gate-Log `logbuch/speicher/gate-Macmini.log` steht seit dem 09.08. weiterhin genau
+**ein** 13:30-Eintrag, die Abweisung vom 09.08. 13:30:18 bei 85.5 % Wochenkontingent.
+Seither weder Lauf noch Abweisung — der Slot hat in acht Tagen nichts geliefert. Das ist
+jetzt eine belastbare Reihe für Raphaels Entscheid, ob er bleibt; Meldegrund ist es nicht.
+
+### Nebenbefund — `haiku-4-5` ist keine gültige Modell-ID
+
+Das einzige Fehlerereignis des Fensters ist ein 404 auf das Modell `haiku-4-5` im Lauf
+`ag-gruendung-monitor` (14.08.). Die gültige ID lautet `claude-haiku-4-5-20251001`; die
+Kurzform `haiku` funktioniert in der Delegation ebenfalls (in diesem Lauf zweimal
+erfolgreich verwendet). Wo eine Scheduled Task `haiku-4-5` wörtlich setzt, läuft die
+Delegation ins Leere und der Hauptlauf macht die Arbeit selbst — die Sparwirkung der Rule
+`modellwahl-routine` verpufft dort still. Kein Meldegrund, aber ein Kandidat für den
+nächsten Radar-Lauf: die Task-Prompts auf diese Zeichenkette prüfen.
+
+### Ergebnis
+
+**STILL — keine Mail.** Kein Kriterium der Meldeschwelle erfüllt: keine Blockade, kein
+erschöpftes Wochenkontingent, Verbrauch unter den Schwellen und den fünften Tag fallend,
+Radar lebt, alle vier Briefings geliefert, Destillat-Loop hat den ersten Korpus
+abgeschlossen und den zweiten mit Spec gestartet, Queue nicht komplett.
+
+**Zuletzt gemeldet:** 08.08.2026 07:29. Seither still.
+
+**Methodenhinweis — zwei Fehlbefunde eines Subagenten gegengeprüft:** ein Haiku-Subagent
+meldete, keine der vier operativen Tasks sei in 48 h gelaufen und es gebe keine
+`vollgas-chef-radar`-Session. Beides war falsch; seine Session-Suche griff ins Leere,
+während der Opener `scheduled-task name="…"` in 67 Transcripts der letzten drei Tage
+nachweisbar ist. Eigene Gegenprüfung am Original nach Rule `auto-verbesserungen` 260729b:
+ein leeres Suchergebnis ist zuerst eine Aussage über das Werkzeug. Hätte ich den Befund
+übernommen, wäre eine Mail wegen Kriterium (d) auf einem Messfehler hinausgegangen.
+
+**Schreibkontrolle dieses Eintrags:** `git diff --numstat` nativ auf der Synology
+(`/volume2/daten/jans-ai-hub`) — Rohblock 26 Einfügungen / **0 Löschungen**,
+append-only sauber.
+
 ## 2026-08-15 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 15.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive

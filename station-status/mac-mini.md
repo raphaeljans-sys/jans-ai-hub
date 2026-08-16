@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 07:13:20
+Stand: 16.08.2026 07:23:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 07:13:20
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f6d56967 layout-Agent: Schweizer Zahlen-/Betragsformat verankert (Dezimalpunkt bei Geldbetraegen), nach Fehlbefund im Radar-Lauf 16.08.
+- 06fe1285 nas-selfcommit: 2 Datei(en) 2026-08-16 07:15
