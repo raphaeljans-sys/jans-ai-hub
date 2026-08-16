@@ -415,7 +415,31 @@ Regeln zu verlieren; (3) die Facetten-Bloecke thematisch splitten und je Gattung
 alle sechs immer. Claude hat **keine** der drei Varianten eigenmaechtig ausgefuehrt: das Gehirn
 steht unveraendert auf dem letzten gueltigen Stand, es gibt keine Regression. Vollstaendige
 Messung und Begruendung: `wissen/twin/outputs/2026-08-14_fidelity.md`.
-Status: **offen, Entscheid Raphael.**
+
+**Nachtrag 15.08.2026, 05:45:** Reserve unveraendert 3 B. Der Lauf hat die Do/Don't-Bloecke
+bewusst nicht angefasst, weil eine Schaerfung, die nicht kompiliert werden kann, den Anschlag nur
+weiter hochschiebt. Befund des Laufs: **mit 3 B Reserve ist der Fidelity-Review ein Messinstrument
+ohne Stellglied.** Empfehlung dort (1) anheben, weil die Kostenrechnung im Script-Kommentar seit
+dem 03.08.2026 veraltet ist — die Datei ist kein @-Import mehr und laedt vor jedem
+Texterzeugnis, nicht in jeder Session.
+
+**Nachtrag 16.08.2026, 06:03 (dritter blockierter Lauf, Claude hat Weg (2) ausgefuehrt):** Der
+Kompilierversuch brach bei **32'270 B** ab, bevor eine einzige Korrektur wirken konnte — darunter
+zwei Regeln, die den Zwilling **aktiv falsch** steuerten (Behoerden-Begruendungspflicht,
+Gruss-nach-Sachauftrag). Weil eine falsche Regel schlechter ist als eine fehlende und der
+Entscheid ueber (1)/(3) bei Raphael liegt und liegen bleibt, wurde **(2) verdichtet** —
+ausschliesslich Beleg-Prosa in zwei Do-Bloecken: stimme 6'930 → 5'722 B, fachsignatur
+5'915 → 4'922 B, arbeitsweise 6'465 → 6'311 B. **Keine Regel ist entfallen**; jede entfernte
+Passage ist im jeweiligen Artikel unter «Auslagerung aus dem Do-Block (260816)» einzeln
+aufgefuehrt und damit rueckholbar. Damit ist die Annahme des Script-Audits vom 03.08. («kaum
+Beleg-Prosa, kein Fett zu schneiden») fuer diese zwei Bloecke widerlegt.
+
+Ergebnis: Gehirn kompiliert bei **29'990 B, 10 B Reserve**. Die seit dem 13.08. aufgelaufenen
+Marker sind erstmals seit drei Laeufen wieder wirksam. **Der Entscheid bleibt trotzdem faellig,
+und zwar dringlicher als vorher:** die Verdichtungsreserve der zwei fettesten Bloecke ist jetzt
+gehoben, der naechste Lauf hat sie nicht mehr und steht wieder vor demselben Abbruch. Details:
+`wissen/twin/outputs/2026-08-16_fidelity.md`.
+Status: **offen, Entscheid Raphael (Weg 1 oder 3) — Weg 2 ist ausgereizt.**
 
 Eintrag 13.08.2026, 23:26 (tenant-hygiene Nachlauf, Phase 2 durch Raphael ausgeloest):
 
