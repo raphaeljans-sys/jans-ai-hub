@@ -52,6 +52,97 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-16 12:58 — [FREI] **Die Fensterprobe misst wieder: über die App-gebündelte 2.1.229 antwortet sie mit «OK», rc=0.** Der letzte Lauf hatte den funktionierenden Ersatzweg diagnostiziert, aber noch nicht genutzt; dieser Lauf hat ihn gefahren und im Rezept verankert. Damit ist die Kernmessung des Radars nach zwei blinden Läufen wiederhergestellt. Der Homebrew-Symlink zeigt unverändert auf die gewedgete 2.1.224 — P1 bleibt offen, hat aber keinen Messverlust mehr zur Folge. Ampel **FREI** (44.7 % bei 86.3 % verstrichener Woche, Vorsprung **-41.6**, dritter Tag in Folge verbessert). **Acht Loops mit Liefer-Delta, kein Delta-Null-Loop**
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 16.08. 00:58, dieser Lauf 12:58 — Abstand **exakt
+12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Siebter regulärer
+Abstand in Folge. Keine Eintragslücke, `lastRunAt`-Gegenprobe nicht nötig (Registry zeigt
+16.08. 12:57 = dieser Lauf).
+
+**Fenster.** Erstmals seit dem 14.08. wieder eine echte Probe. Der erste Versuch über `claude` im
+PATH lief erwartungsgemäss in den Watchdog (rc=137 nach 100 s) — der Symlink
+`/opt/homebrew/bin/claude` zeigt weiterhin auf `Caskroom/claude-code/2.1.224/claude`, Zeitstempel
+unverändert 15.08. 05:15. Über die App-gebündelte Fassung
+`~/Library/Application Support/Claude/claude-code/2.1.229/…/claude` antwortete dieselbe Probe in
+Sekunden: **«OK», rc=0**, Version 2.1.229 rc=0. **Fensterzustand FREI.** Waisen nach beiden
+Watchdog-Eingriffen gegengeprüft: `ps -eo pid,ppid,command | grep "claude -p"` leer, kein
+Gate-Platz blockiert.
+
+**Rezept-Korrektur, im selben Lauf umgesetzt** (umkehrbare Arbeit, Whitelist A-Bereich): Schritt 2
+der eigenen SKILL.md schreibt die Probe jetzt zwingend auf die App-CLI fest, samt Rückweg für den
+Tag, an dem der Symlink wieder stimmt (am PATH-Binary prüfen, nicht vermuten), und samt dem
+Hinweis, dass die Versionsnummer im Pfad mit den App-Updates wandert. Zusätzlich vermerkt: **`set -m`
+scheitert in zsh** («can't change option: -m») — das Probe-Script gehört in eine Datei und wird mit
+`bash` gestartet. Dieser Fehler ist in diesem Lauf einmal gelaufen und hat den ersten Probeversuch
+gekostet; er soll keinen zweiten kosten.
+
+**Budget.** `kontingent-budget.sh --json` (misst ohne Modellaufruf): **74.67 von 167 Mio teuer =
+44.7 %** bei **86.3 %** verstrichener Woche, **Vorsprung -41.6 Punkte** (Vortag -38.3, davor -33.3,
+davor -25.9). Der Abstand zum Zeitverlauf wächst weiter — die Woche reicht komfortabel bis zum
+Reset am Montag 12:00. Aufteilung MacBook Pro 55.33 / Mac Mini 19.35 Mio, beide Stationsdateien
+frisch. **Keine Drossel nötig; keine gedrosselte Task zum Zurückdrehen** — alle Lern-Tasks beider
+Registries stehen auf `enabled: true`.
+
+**Feuermechanismen — alle drei Orte geprüft, keine Abweichung.** MacBook: `vollgas-supervisor` und
+`vollgas-monitor` beide als `*.disabled-260729` abgelegt und nicht geladen; `launchctl list` zeigt
+keinen der beiden. Mac Mini: `ch.jans.nachtschicht` geladen (Status 0, Sollstand), `vollgas-supervisor`
+dort ebenfalls `.disabled-260729`. Beide Registries gelesen — MacBook 33 Tasks, Mac Mini die acht
+bekannten. Keine Doppelfeuerung, kein wiederbelebter Job. Der stehende Entscheid vom 30.07.
+(Runner bleibt ausgebaut) ist gewahrt.
+
+**Liefer-Delta im Fenster 00:58–12:58 — acht Loops, alle mit Delta:**
+
+| Loop | Delta |
+|---|---|
+| `normen-training-nacht` | Run 53: SIA 215:1978 destilliert, Gegenrichtung «fehlender Inhalt» gemessen (Abdeckung 3/3 vs. Refuter 1/3), Refuter-Runde SIA 416/1 (93 bestätigt, 2 widerlegt), Methodik-Pflicht 13 präzisiert — 3 Commits |
+| `twin-fidelity-review` | Dreizehnte Echo-Falle, Sperrliste verworfener Signale, Gruss-/Begründungsregel korrigiert, Gehirn neu kompiliert (29'990 B), Riegel-Nachtrag ins Fristen-Register — 3 Commits |
+| `twin-mail-training` | Batch 95 (10.–16.08.): 13 Gold, 1 Korrektur-Delta, 2 verworfen, zwölfte Echo-Falle |
+| `wissens-destillat` (Mini-Nachtschicht) | Korpus-Spec `buero-projekte` geschrieben, Lauf regelkonform beendet (kein Destillat ohne Spec) |
+| `logbuch-radar` | Briefing ins Logbuch, Fristen-Register +60/-0 |
+| `hub-chef-taeglich` | Tagesbriefing gesendet 08:57, zwei Vornamen richtiggestellt |
+| `zahlungsabgleich-check` | bexio 5. Tag 401, Registernachtrag RE-00101-Frist erreicht |
+| `vollgas-fruehwarnung` | Still beendet, Log geschrieben (Verbrauch 5. Tag fallend) |
+
+**Kein Delta-Null-Loop, keine Rücktaktung, keine Stilllegung.** Der Lern-Betrieb trägt sich
+weiterhin allein über die getakteten Tasks und die Mac-Mini-Nachtschicht.
+
+**Speicher:** Druck-Level 1 (normal), 316'042 Pages inactive + 4'332 free bei 16-kB-Seiten — rund
+5.0 GB rückgewinnbar. Kein Handlungsbedarf.
+
+**P1 (unverändert offen, aber entschärft) — Homebrew-Symlink zeigt weiter auf die gewedgete
+2.1.224.** Raphael hat den am 16.08. 00:58 vorgelegten Einzeiler noch nicht ausgeführt; der
+Symlink trägt unverändert den Zeitstempel 15.08. 05:15. Der Eingriff bleibt seine Sache
+(Installationseingriff, gehört nicht in einen unbeaufsichtigten Lauf):
+
+```
+ln -sf "$HOME/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude" /opt/homebrew/bin/claude
+```
+
+Rückweg jederzeit `brew link --overwrite claude-code`. **Was sich geändert hat:** der Wedge kostet
+den Radar jetzt nichts mehr, weil die Probe über die App-CLI läuft. Betroffen bleibt allein die
+Ad-hoc-Nutzung von `claude` im Terminal und alles, was blind auf den PATH greift
+(`claude-run.sh`, Dispatch auf dem MacBook) — der Lern-Ertrag ist es weiterhin nicht, die letzte
+Journalzeile mit `"station":"Macbookpro"` stammt vom 03.08.
+
+**P2 — bexio-Zugang seit fünf Tagen tot (401).** Nicht dieses Radars Zuständigkeit, aber der
+längste offene operativen Faden im Fenster: `zahlungsabgleich-check` und `mahnwesen-verzugscheck`
+laufen seit dem 12.08. blind, und im Register ist die RE-00101-Frist erreicht. Der `logbuch-radar`
+und der `hub-chef` führen ihn; hier nur als Sichtbarkeitsvermerk, damit er nicht zwischen den
+Aufsichten verschwindet.
+
+**P3 — keine.** Kein Feinschliff-Befund in diesem Fenster.
+
+**Mail: keine.** Der CLI-Wedge ist derselbe P1, für den am 15.08. 12:58 bereits gemailt wurde —
+keine Wiederholungsmail. Er ist auch nicht gelöst (der Symlink steht aus), also greift der
+Sendegrund «gelöster P1-Blocker» nicht. Das Wochenkontingent ist weit von der Erschöpfung
+entfernt. Die wiederhergestellte Fensterprobe ist eine Verbesserung der Lage und ein Hub-Internum
+ohne Aussenwirkung — nach Rule `auto-verbesserungen` 260803 ausdrücklich kein Sendegrund.
+
+**Lauf-Ökonomie:** Regellauf, inline in parallelen Blöcken gemessen, kein Subagent (Faustregel
+unter zehn Werkzeugaufrufen). Die zwei Zusatzaufrufe für die Ersatzprobe und die Rezept-Korrektur
+waren befundgetrieben und haben den blinden Fleck der letzten beiden Läufe geschlossen.
+
+---
 ## 2026-08-16 00:58 — [FREI] **CLI-Wedge weiter offen, aber ein funktionierender Ersatz ist belegt: die App-gebündelte 2.1.229 läuft (rc=0), Homebrew hat kein neueres Cask.** Der Wedge kostet den Lern-Ertrag NICHTS — seit dem 03.08. läuft kein headless-Loop mehr über die MacBook-CLI. **Korpus 1 des Wissens-Destillats hat seine Endbedingung erreicht**, Queue auf Korpus 2 nachgerückt. Ampel **FREI** (40.9 % bei 79.2 % verstrichener Woche, Vorsprung **-38.3**, erneut verbessert). Fünf Loops mit Liefer-Delta, kein Delta-Null-Loop
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 15.08. 12:58, dieser Lauf 16.08. 00:58 — Abstand
