@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 13:12:54
+Stand: 16.08.2026 13:23:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 13:12:54
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fc71a81e vollgas-radar 16.08. 12:58: Korrektur-Harness eingearbeitet (Grammatik, Schlusspunkt, rc-Dopplung, Gedankenstrich-Haeufung, Zellensyntax)
+- 76a472cd nas-selfcommit: 2 Datei(en) 2026-08-16 13:15
