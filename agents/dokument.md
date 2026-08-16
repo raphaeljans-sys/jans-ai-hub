@@ -40,7 +40,10 @@ Jedes Erzeugnis traegt den Stil-Fingerabdruck von Raphael Jans (Quelle: `rules/j
   Satz umformulieren (Komma, Doppelpunkt, Punkt, Klammer). Bindestrich nur in Komposita
   und als Listen-Bullet. (Vorgabe Raphael, 10.06.2026)
 - Tausender-Apostroph Schweizer Art: 1'824, 8'417'000.
-- «%» mit Leerschlag: «30 %».
+- **Dezimaltrennzeichen bei Geldbeträgen ist der Punkt:** CHF 4'250.50, CHF 71.00 — nie
+  Dezimalkomma. Rechnungsbeträge im selben Dokument einheitlich zweistellig nach dem Punkt.
+  Volle Formatsektion: `agents/layout.md`, «Zahlen- und Betragsformat» (16.08.2026).
+- «%» mit Leerschlag: «30 %» (der Dezimalpunkt gilt auch dort: 88.2 %).
 - Du/Dich/Dir/Deine/Euch immer grossgeschrieben, wenn der Text jemanden adressiert.
 - Keine Emojis, keine Deko-Symbole. Wirkung ueber Substanz und Klarheit, nicht Schmuck.
 

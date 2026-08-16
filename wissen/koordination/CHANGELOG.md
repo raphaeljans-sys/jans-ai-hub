@@ -3,6 +3,32 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-16 — Synergie-Lauf 09 (Tagestakt)
+
+- **Bericht:** `outputs/2026-08-16_synergie-lauf-09.md`. Delta-Basis 15.08.2026 17:50,
+  Fenster 23,3 h, 112 Commits. Uhr-Check bestanden (Station 17:10 CEST gegen Synology
+  17:00:06), Commit-Gegenprobe bestanden. Strukturelles Delta: 0 neue Bausteine, 4 geaenderte
+  (`agents/twin-chef`, `agents/layout`, `skills/kostenkontrolle`, `rules/jans-dna-facetten`)
+  — Frueh-Ausstieg griff nicht.
+- **SYN-31 neu** — das am 16.08. in `agents/layout.md` verankerte Schweizer Zahlen-/
+  Betragsformat (Dezimalpunkt bei Geldbetraegen) existiert hub-weit an **genau einer Stelle**,
+  waehrend der parallel laufende Schwester-Agent `rechtschreibung` selbst eine Zahlen-Regel
+  fuehrt und laut `korrektur/SKILL.md` die **Text-Basis** des Merges liefert. Anlass war ein
+  echter Fehlbefund (vier korrekte Frankenbetraege als Fehler gemeldet). (a)+(b) umgesetzt
+  (Klauseln in `rechtschreibung` und `dokument`), (c) `rules/jans-dna.md` Raphael vorgelegt
+  statt gesetzt — importierter Grundkontext und Twin-kompiliert.
+- **SYN-32 neu** — Takt-Divergenz `twin-fidelity-review`: `twin-chef` auf «taeglich»
+  korrigiert, `skills/twin/SKILL.md` an zwei Stellen auf «alle 2 Tage» stehen geblieben. An
+  77 Fidelity-Outputs gemessen: laeuft lueckenlos taeglich. Skill nachgezogen; der in sich
+  widerspruechliche stationslokale Registry-Prompt gemeldet, nicht angefasst.
+- **Kein Befund, aber die wichtigste Messung des Laufs:** die Gegenprobe zu SYN-24 (c) —
+  `kostenkontrolle` nahm 53 Zeilen Norm-Fundstellen auf und waehlte **beide** Destillate
+  korrekt (`status: established`, mit Ausgaben- und Vertragsvorbehalt). Das seit 13.08.
+  benannte Risiko trat ein und ging gut aus.
+- **Selbstbefund:** die numstat-Zahlen der Schreib-Kontrolle waren zuerst geschaetzt statt
+  gemessen und mussten zweimal nachgezogen werden; im Bericht offen ausgewiesen.
+- Still beendet, keine Mail (Rule 260803).
+
 ## 2026-08-15 — Wissens-Chef Run 33 (Abendlauf, 24,0 h nach Run 32)
 
 - **Bericht:** `outputs/2026-08-15_wissens-chef-run33.md`. Delta 58 Dateien in `wissen/`

@@ -60,6 +60,15 @@ nie verändern**, ausser der Inhaber schreibt sich nachweislich mit Umlaut.
   ok), „Freundliche Grüsse" — nie „Mit freundlichen Grüßen"
 - **Doppelte Leerzeichen, Leerzeichen vor Satzzeichen** entfernen
 - **Zahlen:** Schweizer Tausender-Apostroph (12'500), CHF vor der Zahl
+- **⚠ Dezimaltrennzeichen bei Geldbeträgen ist der PUNKT** — CHF 4'250.50, CHF 71.00,
+  88.2 %. Das ist Hausstandard (Register, Offerten, LV, Buchhaltung); **ein Betrag mit
+  Punkt ist KEIN Befund**, ihn zu Komma zu ändern ist ein Fehler. Der Schwester-Agent
+  `layout` führt die volle Formatsektion (`agents/layout.md`, «Zahlen- und Betragsformat»);
+  sie steht hier, weil Zahlen bei beiden Agenten zuständig sind und die orthografisch
+  korrigierte Fassung dieses Agenten laut `skills/korrektur/SKILL.md` die **Text-Basis**
+  des Merges bildet — ein hier eingeführtes Dezimalkomma müsste `layout` erst wieder
+  zurücknehmen. Anlass: Fehlbefund des Agenten `layout` am 16.08.2026 (vier korrekte
+  Frankenbeträge als Fehler gemeldet, aus deutschem Sprachgefühl abgeleitet)
 
 ## Was du NICHT tust
 

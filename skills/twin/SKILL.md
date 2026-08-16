@@ -66,7 +66,7 @@ Wissensbasis: `wissen/twin/` (sechs Facetten-Artikel + QUESTIONS + outputs). Geh
 3. Facetten-Agenten im ANALYSE-Modus die Marker ins `wiki/` destillieren lassen (nur Marker
    + anonyme Schnipsel, nie Volltext horten). CHANGELOG fuehren.
 
-## Workflow C — Fidelity-Review (alle 2 Tage, Scheduled `twin-fidelity-review`)
+## Workflow C — Fidelity-Review (täglich 05:40, Scheduled `twin-fidelity-review`)
 
 1. `twin-chef` im Review-Modus: Selbsttest gegen echte Goldproben, Score je Facette,
    Drift-Report nach `outputs/`.
@@ -90,7 +90,15 @@ Der Zwilling lernt **nie von seinem eigenen Echo**: unbearbeitete Claude-Ausgabe
 
 - Fidelity-Schwelle 80, max. 3 Veredelungsrunden.
 - Gate-Reichweite: nur ausgehende Erzeugnisse automatisch; intern/Chat nur auf Zuruf.
-- Trainingsrhythmus: Mail-Training taeglich, Fidelity-Review alle 2 Tage.
+- Trainingsrhythmus: Mail-Training taeglich, Fidelity-Review **taeglich** (05:40,
+  Registry-Cron `40 5 * * *`). Korrigiert 16.08.2026: «alle 2 Tage» war der Stand vor der
+  Fokussierung vom 25.07.; gemessen an `wissen/twin/outputs/*_fidelity.md` laeuft der Review
+  lueckenlos taeglich (03.–08.08., 13.–16.08.). Der Takt zaehlt doppelt, weil dieser Lauf
+  nach Rule `modellwahl-routine` Punkt 6 ausdruecklich **nicht** an ein schwaecheres Modell
+  delegiert wird. **⚠ Der Registry-Prompt widerspricht sich selbst** — Frontmatter
+  `description` sagt «1x taeglich (05:40)», der Prompttext darunter «alle 2 Tage»; die
+  Registry liegt stationslokal unter `~/.claude/scheduled-tasks/twin-fidelity-review/`
+  und ist von hier aus nicht kanonisch pflegbar.
 
 ## PFLICHT vor jedem Texterzeugnis: Feinregeln laden
 
