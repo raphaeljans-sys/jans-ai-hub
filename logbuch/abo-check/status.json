@@ -10,12 +10,12 @@
     "ampel": "GRUEN | GELB | ROT | SCHWARZ (Messausfall)",
     "bemerkung": "Kurznotiz fuer den naechsten Lauf"
   },
-  "letzterLauf": "2026-08-03 12:22",
+  "letzterLauf": "2026-08-16 18:06",
   "ergebnis": "ok",
   "ausfaelleInFolge": 0,
-  "letzterWert": 0,
-  "letzterReset": "2026-08-10 12:00",
-  "tempoFaktor": 0.0,
-  "ampel": "GRUEN",
-  "bemerkung": "GRUEN ist hier ein Nullwert ohne Aussagekraft: das Fenster hatte beim Messen erst 22 Minuten (0.22 % Fensterzeit) bei 0 % Verbrauch. Der Befund dieses Laufs liegt im ABGELAUFENEN Fenster: das Limit riss am 01.08. um 14:28 exakt wie am 30.07. prognostiziert (66 % bei 43 % Fensterzeit, Tempo 1.52); 10 Laeufe brachen mit weekly limit ab, die Briefings vom 02.08. und 03.08. fielen aus. Entscheidend: das geschah bei STILLSTEHENDEN Vollgas-Runnern (STOP-Flags beidseitig seit 29.07. 02:51, kein Runner in ps) - die Flags allein halten das Max-5x-Budget nicht. Hauptlast ist dispatch-versuch1 (300 bis 740 s je Lauf, 3.00 bis 4.82 USD, stuendlich bis dreistuendlich). Pendenz im Register: Raphael entscheidet den Grundverbrauch VOR der Runner-Wiederaufnahme. Keine Extra-Kosten (keine Connector-Zeile plus cost_usd=0 bei allen Abbruechen, zwei unabhaengige Indizien). Naechster Lauf 10.08.: erster belastbarer Tempo-Wert am vollen Fenster, und er soll pruefen, ob der Grundverbrauch-Entscheid gefallen ist."
+  "letzterWert": 51,
+  "letzterReset": "2026-08-17 11:59:59",
+  "tempoFaktor": 0.57,
+  "ampel": "GELB",
+  "bemerkung": "GELB allein wegen des absoluten Werts (51 % liegt im Band 50 bis 70); das Tempo ist mit 0.57 unauffaellig, gemessen bei 89.3 % verstrichener Fensterzeit. Prognose Fensterende rund 57 %, 100 % waeren rechnerisch erst am 22.08. erreicht und damit gar nicht in diesem Fenster. Woche Fable 30 % (innerhalb der 50-%-Schranke Rule 260814b). Keine Extra-Kosten (keine Connector-Zeile, Indizschluss). Betrieb gemessen: STOP-Flags beidseitig seit 29.07. 02:51, kein Vollgas-Runner in ps. NEU gegenueber dem 03.08.: dispatch-versuch1, damals als Hauptlast benannt, erscheint nicht mehr in launchctl list; aktive Hintergrundlast ist ch.jans.nachtschicht. Das erklaert den Sprung von Tempo 1.52 (30.07.) auf 0.57 plausibel, beweist es aber nicht. ZWEITE moegliche Ursache und offene Unschaerfe: seit 13.08. gilt die Drei-Toepfe-Lage (Max 20x privat plus Team-Abo 2 Seats, Memory projekt-claude-abo-drei-toepfe); der Connector misst immer nur das aktive Keychain-Token der Station, dessen Account nur raphaeljans lautet und den gemessenen Topf NICHT erkennen laesst. Der Erwartungswert 28 bis 30 % aus der alten Max-5x-Annahme ist damit hinfaellig; der Kontext-Abschnitt der Task wurde in diesem Lauf entsprechend korrigiert. AUSFALL-BEFUND: der Lauf vom 10.08. hat nicht stattgefunden (13 Tage Abstand), Zaehler war kurz 1 und steht nach der heutigen Messung wieder auf 0; Ursache nicht belegbar, kein Lauf-Journal zu dieser Task vorhanden. Pendenz im Register auf beobachten. Naechster Lauf 23.08.: pruefen, ob er ueberhaupt stattfindet (bliebe er aus, waere es der zweite Ausfall in Folge und die Mail-Eskalation greift), und ob die beiden offenen Entscheide gefallen sind (Grundverbrauch aus dem 03.08.-Check, Auto-Top-Up alter Max Plan aus dem Registereintrag 13.08.)."
 }

@@ -3,6 +3,36 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 16.08.2026, 18:06 (wöchentlicher Abo-Auslastungs-Check Mac Mini — **die Messung ist
+unauffällig, der ausgefallene Lauf ist der Befund**):
+
+**Der Abo-Check vom 10.08.2026 hat nicht stattgefunden.** Letzter Lauf war der 03.08. 12:22,
+heute ist der 16.08. — 13 Tage bei wöchentlichem Takt, also ein fehlender Lauf. Der Zähler
+`ausfaelleInFolge` stand dadurch kurz auf 1 und steht nach der heute erfolgreichen Messung
+wieder auf 0; eine Mail-Eskalation war nicht ausgelöst (die greift erst ab zwei Ausfällen in
+Folge) und eine `ALARM.md` gibt es nicht. **Warum der Lauf ausblieb, lässt sich nicht belegen**:
+zu dieser Task existiert kein Lauf-Journal, und die Task-Registry
+(`~/.claude/scheduled-tasks/claude-abo-auslastung/`) enthält nur die Prompt-Datei. Relevanz: der
+ausgefallene Lauf hätte den ersten belastbaren Tempo-Wert am vollen Fenster geliefert, auf den
+der Check vom 03.08. ausdrücklich gewartet hatte. **Bekanntes Restrisiko, unverändert und
+bewusst offen:** dieser Check überwacht sich nur selbst — fällt er mehrfach hintereinander aus,
+meldet ihn niemand. Ein robuster Wächter wäre ein reines bash-/launchd-Script ohne
+Claude-Session; das ist **nicht gebaut** und eine Infrastruktur-Entscheidung Raphaels.
+Status: **beobachten** (nächster Lauf 23.08. — bleibt auch er aus, ist es der zweite Ausfall in
+Folge und der Check eskaliert per Mail).
+
+**Messung selbst, zur Einordnung, keine Frist:** Woche alle Modelle **51 %** bei 89.3 %
+verstrichener Fensterzeit, **Tempo 0.57**, Reset 17.08. 11:59:59, Prognose Fensterende rund
+57 %. Ampel **GELB** allein wegen des absoluten Werts, das Tempo ist unauffällig. Keine
+Extra-Kosten (keine Connector-Zeile). Vollgas-Runner stehen weiterhin still (STOP-Flags seit
+29.07. 02:51, kein Runner in `ps`). **Zwei bereits offene Registerpunkte bleiben unberührt und
+sind durch diesen Lauf nicht entschieden:** der Grundverbrauch-Entscheid aus dem 03.08.-Check
+und die Zeile vom 13.08. zum Auto-Top-Up auf dem alten Max Plan. Zur zweiten nur ein schwaches
+Indiz: es fällt keine Extra-Usage mehr an — das passt zu einem aufgebrauchten Guthaben, ebenso
+gut aber zu einem anderen gemessenen Konto, denn der Connector misst immer nur das aktive
+Keychain-Token der Station und lässt seit der Drei-Töpfe-Lage vom 13.08. **nicht erkennen,
+welcher Topf gemessen wurde**. Status: **offen, Entscheid Raphael** (beide Punkte unverändert).
+
 Eintrag 16.08.2026, 08:39 (Hub-Chef, Nachtrag zum Radar-Eintrag von 06:55 — **eine
 Messkorrektur, keine neue Frist**):
 

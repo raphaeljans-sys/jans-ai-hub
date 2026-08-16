@@ -5,6 +5,87 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Abo-Auslastung 16.08.2026, 18:06 (Mac Mini, Wochencheck) — GELB bei 51 %, Tempo 0.57; der Lauf vom 10.08. ist ausgefallen
+
+**Messung (ein Lauf, keine Wiederholung):** Woche alle Modelle **51 %**, Reset **17.08.2026
+11:59:59**. Fensterstart damit 10.08. 12:00, verstrichen bis zur Messung **6 Tage 6 h = 89.3 %
+der Fensterzeit**. **Tempo-Faktor 0.57** — der Verbrauch läuft klar langsamer als die Uhr.
+Hochgerechnet endet das Fenster morgen bei rund **57 %**; 100 % würden bei diesem Tempo erst am
+**22.08.** erreicht, also gar nicht mehr in diesem Fenster. Zusätzlich ausgewiesen: **Woche
+Fable 30 %**, damit innerhalb der 50-%-Schranke aus Rule `auto-verbesserungen` 260814b.
+5-Stunden-Fenster 0 %.
+
+**Ampel GELB**, allein wegen des absoluten Werts (51 % liegt im Band 50 bis 70 %). Das Tempo
+wäre für sich genommen grün. Keine Extra-Usage-Zeile in der Connector-Ausgabe, also **keine
+Extra-Kosten** — das ist ein Indizschluss aus der fehlenden Zeile, keine gemessene Null.
+
+**Betriebszustand, gemessen und nicht fortgeschrieben:** beide STOP-Flags stehen unverändert
+seit **29.07. 02:51** (`STOP-Macbookpro`, `STOP-Macmini`), `ps` zeigt auf dem Mac Mini **keinen
+Vollgas-Runner**. Die 51 % entstehen also weiterhin **ohne** die Vollgas-Runner. **Neu gegenüber
+dem 03.08.:** `dispatch-versuch1`, im damaligen Check als Hauptlast benannt (300 bis 740 s je
+Lauf, stündlich bis dreistündlich), **erscheint nicht mehr in `launchctl list`**. Aktive
+Hintergrundlast ist `ch.jans.nachtschicht` (die Nachtläufe 02:30/05:30 sind im Journal belegt).
+Das erklärt den Sprung von Tempo 1.52 (30.07.) auf 0.57 plausibel, beweist es aber nicht — die
+zweite mögliche Ursache steht im nächsten Absatz.
+
+**Der Prozentwert ist diese Woche schwerer zu lesen als sonst, und das gehört dazu.** Die
+Task-Beschreibung geht noch vom Max-5x-Abo mit Erwartungswert 28 bis 30 % aus; seit **13.08.**
+gilt laut Memory `projekt-claude-abo-drei-toepfe` die Lage **Max 20x privat plus Team-Abo mit
+zwei Seats**. Der Connector misst technisch immer nur **ein** Konto, nämlich das aktive
+Keychain-Token der Station; der Keychain-Eintrag trägt lediglich den Account «raphaeljans» und
+lässt **nicht erkennen, welcher der drei Töpfe hier gemessen wurde**. Damit ist offen, ob die
+Entspannung vom weggefallenen `dispatch-versuch1` kommt oder schlicht daher, dass 51 % eines
+grösseren Topfes gemessen werden. Beides ist plausibel, auseinanderhalten lässt es sich mit
+diesem Werkzeug nicht.
+
+**Der Lauf vom 10.08. ist ausgefallen** — 13 Tage seit dem letzten Lauf (03.08. 12:22) bei
+wöchentlichem Takt, also ein fehlender Lauf. Nach Schritt 0 zählt das wie ein Messausfall: der
+Zähler stand kurzzeitig auf 1, und weil heute wieder erfolgreich gemessen wurde, geht er
+regelkonform auf **0** zurück. Eine `ALARM.md` existierte nicht und war nicht anzulegen; die
+Mail-Eskalation greift erst ab zwei Ausfällen in Folge und war hier nicht ausgelöst. Der
+ausgefallene Lauf hätte den **ersten belastbaren Tempo-Wert am vollen Fenster** geliefert, den
+der 03.08.-Eintrag ausdrücklich erwartet hatte. Warum er ausblieb, ist aus den vorhandenen
+Spuren nicht zu belegen; ein Lauf-Journal zu dieser Task existiert nicht. Pendenz dazu im
+Register.
+
+**Nicht entschieden und weiterhin offen:** der Grundverbrauch-Entscheid aus dem 03.08.-Check
+(Bedingung vor jeder Wiederaufnahme der Vollgas-Runner) und die Registerzeile vom 13.08.
+(«Verbrauch auf dem alten Max Plan stoppen», Auto-Top-Up-Schalter unbestätigt). Zur zweiten
+liefert dieser Lauf ein schwaches, nicht beweiskräftiges Indiz: es fällt **keine Extra-Usage**
+mehr an, was zum Bild eines aufgebrauchten oder nicht mehr aufgeladenen Guthabens passt —
+ebenso gut aber zu einem anderen gemessenen Konto. Nichts an Abo, Konto, Takten, STOP-Flags
+oder Runner-Zuständen verändert; dieser Check misst und empfiehlt, er handelt nicht.
+
+**Nachtrag desselben Laufs, 18:11 — und dieser Befund wiegt schwerer als die Messung: die
+Verbesserung vom 13.08. war nie auf der Station angekommen.** Beim Versuch, die überholte
+Max-5x-Annahme in der kanonischen Quelle zu korrigieren, zeigte sich, dass sie dort **längst
+korrigiert war**. Der NAS-Stand vom **13.08. 00:23** trägt bereits die Drei-Töpfe-Lage, die
+Pflicht, das gemessene Konto auszuweisen, und die Sendeweg-Verifikation aus den Lehren 260812b/f.
+Die lokale Kopie der Station stand unverändert auf dem Stand vom **07.08. 21:38** — und die
+lokale Kopie ist es, welche die Task-Registry ausführt. **Der heutige Lauf wurde also vom alten
+Prompt gesteuert**, samt der falschen Erwartung «Max-5x, ~28 bis 30 %». Der Kopierschritt, vor
+dessen Unterlassen der Prompt in seinem eigenen zweiten Absatz warnt, ist genau hier unterblieben.
+
+**Eine wahrscheinliche Ursache steckt im Prompt selbst:** die Kopfzeile nannte als kanonische
+Quelle `templates/scheduled-tasks/claude-abo-auslastung/SKILL.md` — **diesen Pfad gibt es nicht**,
+die Datei liegt unter `templates/scheduled-tasks/mac-mini/claude-abo-auslastung/SKILL.md`. Wer
+der Wegweisung folgt, findet nichts und editiert am Ende doch nur eine Kopie. Beides ist in
+diesem Lauf behoben: Pfad in der Kopfzeile richtiggestellt, ein Gleichstand-`diff` samt
+Reparaturanweisung als Pflichtschritt am Laufende ergänzt, und die **lokale Kopie auf den
+NAS-Stand gebracht** (alte Fassung umkehrbar gesichert als
+`~/.claude/scheduled-tasks/claude-abo-auslastung/SKILL.md.vor-20260816`, Gleichstand danach per
+`diff` verifiziert). Gleiche Familie wie Rule `auto-verbesserungen` 260807: ein
+Konfigurationsstand ist erst dann wirksam, wenn seine Wirkung gemessen wurde — hier lag die
+Verbesserung drei Läufe lang folgenlos auf dem NAS.
+
+**Was der neue Prompt zusätzlich verlangt und hier nachgereicht wird — der Konto-Ausweis:**
+gemessen wurde das Keychain-Token der Station Mac Mini, Service `Claude Code-credentials`,
+Feld `acct` = **raphaeljans**, also das private Konto. **Team-Seat 1: noch nicht eingerichtet.
+Team-Seat 2: noch nicht eingerichtet.** Die Zeilen stehen ausdrücklich da, statt zu fehlen —
+eine fehlende Zeile sähe aus wie eine vergessene Messung statt wie ein noch nicht existierendes
+Konto. Solange die Migration offen ist (`docs/konzepte/260813-Kontingent-Takt/`), misst der
+Connector nur diesen einen Topf; eine Konto-Auswahl ist im Connector nicht gebaut.
+
 ## Hub-Chef 16.08.2026, 08:39 bis 08:58 — Tagesbriefing GESENDET (Regellauf)
 
 **Gesendet um 08:57:05**, Betreff «Hub-Chef 16.08.26: Die Mahnfrist Tschopp läuft heute ab, und

@@ -21,6 +21,33 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260816 — Scheduled-Task-Prompt: NAS-Stand seit dem 13.08. aktuell, Station fuehrte den alten aus
+
+Beim woechentlichen `claude-abo-auslastung` (Mac Mini, 16.08. 18:06) fiel auf, dass die Station
+den Prompt-Stand vom **07.08. 21:38** ausfuehrte, waehrend die kanonische NAS-Fassung seit dem
+**13.08. 00:23** die neue Drei-Toepfe-Lage, die Konto-Ausweispflicht und die
+Sendeweg-Verifikation traegt. Der Lauf arbeitete deshalb mit der ueberholten Max-5x-Annahme
+(«Erwartungswert 28 bis 30 %»). **Der Kopierschritt war unterblieben, und zwar vermutlich, weil
+die Kopfzeile des Prompts den eigenen kanonischen Pfad falsch angab**: sie nannte
+`templates/scheduled-tasks/claude-abo-auslastung/SKILL.md`, tatsaechlich liegt die Datei unter
+`templates/scheduled-tasks/mac-mini/claude-abo-auslastung/SKILL.md`. Wer der Angabe folgt,
+findet nichts.
+
+**Eingriff im selben Lauf, umkehrbar:** lokale Kopie
+`~/.claude/scheduled-tasks/claude-abo-auslastung/SKILL.md` vorher als `SKILL.md.vor-20260816`
+gesichert, dann mit dem NAS-Stand ueberschrieben, Gleichstand per `diff` verifiziert. Im
+NAS-Prompt Pfad richtiggestellt und ein Gleichstand-`diff` als Pflichtschritt am Laufende
+ergaenzt. **Lehre, gleiche Familie wie 260807:** ein Konfigurationsstand ist erst wirksam, wenn
+seine Wirkung gemessen wurde — hier lag eine Verbesserung drei Laeufe lang folgenlos auf dem
+NAS. **Im selben Lauf gegengeprueft und entwarnt:** alle uebrigen sieben Scheduled Tasks der
+Station (`arbeits-weiche-review`, `baurecht-buch-training`, `energie-training`,
+`grobkosten-training`, `normen-training-mini`, `planungsgrundlagen-training`,
+`synobsis-batch-nacht`) sind byteweise identisch mit ihrer NAS-Quelle unter
+`templates/scheduled-tasks/mac-mini/`. Der Fall war also isoliert und kein systematischer
+Sync-Ausfall. Der Testbefehl ist ein `diff` je Task und gehoert bei jedem Verdacht wiederholt.
+
+---
+
 ## 260814e — Gleicher Cache-Putz auf dem Mac Mini: 3.6 GB, aber die Station hat kein Speicherproblem
 
 Auftrag Raphael («die gleichen Prozesse auch auf dem Mac Mini»). Ausgangslage dort:
