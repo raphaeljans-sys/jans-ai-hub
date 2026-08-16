@@ -1,3 +1,46 @@
+## 2026-08-17 (Normen-Training Run 54, MacBook Pro) — die Abdeckungsrichtung findet 37 Kernlücken dort, wo die Refuter-Richtung zufrieden war
+
+Kernergebnis: **N53-2 geschlossen.** Beide Prüfrichtungen sind für `sia-416-1-2007.md`
+erstmals auf **allen** Teilen gelaufen, und `sia-215-1978.md` hat seine Refuter-Runde.
+
+- **`destillate/sia-416-1-2007.md` — Abdeckungsrichtung auf Kap. 0-2 und Kap. 4-5/Anhänge
+  nachgeholt** (7 Segment-Agenten über S. 4-22 und S. 26-40, Präfix `cov416-r54-`).
+  **37 Kern- und 20 Nebenlücken**, alle inline eingearbeitet (Methodik-Pflicht 9). Darunter:
+  τ-Schwelle 10 % für «lichtdurchlässig» in der Definition von Ag; Treppenauge-Regel
+  (bis 5 m² Geschossfläche, darüber Luftraum); Versetzbarkeits-Kriterium für Trenn-/
+  Schrankwände; die vier KF/NGF-Zuteilungsregeln; Messkonvention lotrechte Projektion;
+  Ziff. 2.2.1.2 (Einbezug unbeheizter Räume) fehlte vollständig; Ziff. 2.2.1.7
+  (wiederholte Wärmebrücken im U-Wert, Verbundelemente); Ziff. 2.3.1 (Projektphasen/
+  Fertigmasse) und 2.3.3 (runde Bauteile); Ziff. 4.1.4 erste Hälfte samt Fussnote auf
+  SIA 380/1 und SIA 2024; Ziff. 4.1.5, 4.1.6, 4.2 und 4.5.2; die Abgrenzungen der sechs
+  Verwendungszwecke (Ziff. 4.3.3); Lüftungsstrom ist keine Hilfsenergie (Ziff. 4.4.2);
+  Carnot-Maschine und anteilmässig gespeiste Verteilsysteme (Ziff. 4.4.3); die gesamte
+  Übertragungs- und Vorzeichenlogik samt Doppelweg-Konsistenzcheck (Ziff. 4.4.4); die
+  Rechenbeziehungen der Tabelle 5; Ziff. 5.1 Bezug auf Ziff. 2.2.3; Anhang A (FF «des
+  Bauwerkes selbst», Schutzräume «auch wenn zeitweilig anders genutzt», HNF6-Raumliste
+  Healthcare); die drei Bezugszustands-Fussnoten der Tabelle 6.
+  **Kein einziger falscher Wert — durchgehend fehlender Inhalt.**
+  Hauptprozess-Nachprüfung an eigenen 300-dpi-Renderings (S. 4, 6, 9, 17, 21, 26, 33): alle
+  bestätigt, keine Widerlegung. Status bleibt `speculative`, neu wegen N54-1.
+- **`destillate/sia-215-1978.md` — Refuter-Runde gefahren** (2 Segmente, `ref215a/b-r54-`):
+  41 bestätigt, 3 widerlegt, 1 Fundstelle falsch, 1 nicht prüfbar. Korrigiert: «Ziff. 0-6»
+  (eine Ziffer 0 existiert nicht, Inhaltsverzeichnis beginnt bei 1); die als generell
+  ausgegebenen Druckfestigkeits-Prüfalter (Baugips kennt **nur 7 Tage**, hydraulischer Kalk
+  28 Tage — die 24 h/48 h/28 Tage gelten allein für Zement); die Fundstelle der drei
+  chemischen Grenzwerte (stehen in Ziff. 6.27.1/6.27.3/6.27.4 auf S. 17-19, nicht in
+  Ziff. 4.3 auf S. 9-10); Seitenbereich des Stichwortverzeichnisses (S. 35-**38**, S. 39 ist
+  leer). Ergänzt: TFB Wildegg als zweite Überwachungsstelle. Die zwei folgenreichsten
+  Befunde hat der Hauptprozess am Original selbst nachgeprüft (Rendering S. 8 für die
+  Gütewert-Tabellen, `pdftotext` S. 10/17/18/19 für die Fundstellen).
+- **`destillate/INDEX.md` — zwei veraltete Zeilen korrigiert (Methodik-Pflicht 12).** Die
+  SIA-215-Zeile trug noch die Schlussfolgerung «seit spätestens 1993 belegt ersetzt», die
+  Run 53 im Destillat **und** in QUESTIONS zurückgenommen hatte — der INDEX war die dritte,
+  übersehene Stelle. Die SIA-416/1-Zeile führte die Refuter-Runde als «ausstehend», obwohl
+  Run 53 sie gefahren hatte. Lehre: eine zurückgenommene Aussage ist erst zurückgenommen,
+  wenn **alle** Register sie nicht mehr tragen.
+- **`wiki/QUESTIONS.md`:** N53-2 geschlossen, **N54-1 neu eröffnet** (Refuter-Runde auf den
+  Run-54-Zuwachs, mit Angabe der vom Hauptprozess nicht nachgeprüften Seiten).
+
 
 ## 2026-08-16 (Wissens-Chef Run 34, Cross-KB) — kein Eingriff in diese KB, aber drei neue Abnehmer-Kanten und ein bestätigter Fehler beim Abnehmer
 
