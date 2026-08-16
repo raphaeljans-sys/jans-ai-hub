@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 17:15:08
+Stand: 16.08.2026 17:25:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:21)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 17:15:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 4192a468 nas-selfcommit: 2 Datei(en) 2026-08-16 17:15
+- 31df12e2 Synergie-Lauf 09 (16.08.): SYN-31 Zahlen-/Betragsformat nur im layout-Agenten (Rueckkanten in rechtschreibung+dokument gesetzt), SYN-32 Takt-Divergenz twin-fidelity-review korrigiert
