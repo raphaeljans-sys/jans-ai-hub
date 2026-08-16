@@ -510,12 +510,20 @@ und Rechtslage** — das gilt besonders für alle mit ⚠ markierten Punkte oben
 
 ## Offene Punkte
 
-- Diskrepanz im Impressum: Titelblatt (S. 1) und alle Einzel-Merkblätter (Fusszeile)
-  nennen «Ausgabe 2008», die Impressum-Seite (S. 2) selbst trägt in der Fusszeile
-  «Ausgabe 09/2006». Ungeklärt, ob dies ein Fehler im Layout der 2008er-Auflage
-  ist oder ob das Impressum bewusst unverändert aus der Vorauflage übernommen
-  wurde. Für die KB als «Ausgabe 2008» geführt (Mehrheitsbeleg: Titelblatt + alle
-  Fachseiten), aber zu vermerken.
+- ~~Diskrepanz im Impressum~~ — **GESCHLOSSEN Run 137 (16.08.2026), die Vorauflage liegt
+  jetzt vor.** Die Frage war, ob die abweichende Fusszeile «Ausgabe 09/2006» auf der
+  Impressum-Seite S. 2 ein Layoutfehler ist oder ein unveränderter Rest der Vorauflage.
+  Es ist der Rest der Vorauflage, und die Vorauflage ist identifiziert: Im selben Korpus
+  liegt die **Ausgabe September 2006** (66 Seiten, `PL - 02_Recht_Norm/04_Merkblätter/eco/
+  Nachhaltiges Bauen/01 verbindliche Richtlinien/3.12.R Oekologisch-Bauen-Merkblaetter nach
+  BKP.pdf`). Ihre **durchgehende** Fusszeile lautet zeichengleich «Ökologisch Bauen –
+  Merkblätter nach BKP, Ausgabe 09/2006 · BKP © CRB · Seite 2/2» — genau die Zeile, die in
+  der Ausgabe 2008 auf S. 2 stehengeblieben ist. Beide Fusszeilen in diesem Lauf am
+  jeweiligen Original nachgelesen (nicht über Zwischenquellen): die Fachseiten der Ausgabe
+  2008 tragen «Ausgabe 2008», ihre Impressum-Seite «Ausgabe 09/2006». Zusätzlich stützend:
+  die Mitgliederliste wurde beim Umbruch nachgeführt («Stand Februar 2006» → «Stand Oktober
+  2007»), die Fusszeile nicht. Massgeblich bleibt **«Ausgabe 2008»**. Editionskette und
+  Belege: `[[ecobkp-editionskette-2006-2009]]`.
 - Alle referenzierten SIA-Normen/-Empfehlungen (380/4, 180, 382/1, 2026, 493),
   die NIN, EN 13300 und sämtliche zitierten Bundesverordnungen (G_USG, G_GSchG,
   G_NISV, G_VeVA, G_VREG, G_AltlV, G_ChemV, G_BauAV etc.) sind seit 2008

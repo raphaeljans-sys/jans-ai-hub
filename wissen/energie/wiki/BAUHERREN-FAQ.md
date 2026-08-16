@@ -8197,3 +8197,86 @@ nötige Heizlast so weit senken, dass sich die Auslegung spürbar ändert.
 19.01.2023, vollständig gelesen (Run 135, 16.08.2026) →
 `[[energiequelle-erdsonden-potentialabklaerung-zh-innenstadt]]`. Status **emerging** — Kontakt-
 und Zulässigkeitsangaben Stand Januar 2023, vor Verwendung an der aktuellen Praxis zu verifizieren.
+
+## F240 — «Auf welche Raumtemperatur soll ich mein Gebäude einstellen, und was bringt das Absenken nachts?»
+
+**Kurz:** Als Referenz taugt die Raumtemperatur-Richtlinie der Stadt Zürich, die für die
+stadteigenen Gebäude je Raumnutzung Sollwerte festlegt: 21 °C für Wohn-, Büro- und
+Aufenthaltsräume, 22 °C für Bettenzimmer in Pflegezentren, 24 °C für Bäder, Duschen und
+Behandlungszimmer, 16 °C für Treppenhäuser, 16 – 18 °C für Korridore, 16 °C für Turnhallen,
+26 – 28 °C für Nebenräume beim Schwimmen. Im Absenkbetrieb gilt eine Untergrenze von **16 °C**,
+und unter **minus 10 °C Aussentemperatur wird nicht weiter abgesenkt** — sonst wird die
+Solltemperatur tagsüber nicht mehr erreicht.
+
+**Fachlich:** Die Richtlinie ist eine **stadtinterne Betriebsrichtlinie für die Gebäude der Stadt
+Zürich** (Beilage zum Stadtratsbeschluss Nr. 1194 vom 4. Oktober 2006), keine allgemein geltende
+Rechtsnorm für private Bauherrschaften. Ihre Zahlen sind deshalb als **Referenz** brauchbar, nicht
+als Pflicht. Generell verweist sie auf die Vorgaben der SIA-Norm 384/2; die Detailwerte je
+Raumnutzung stehen in ihrem Anhang 1. Betriebszeiten: Bürogebäude maximal 06.00 bis 20.00 Uhr,
+Wohnbauten Mo–Fr 07.00 bis 23.00 Uhr und Sa/So 08.00 bis 24.00 Uhr, ausserhalb Absenkung auf die
+16 °C-Untergrenze. Bei ungenügend gedämmten Gebäuden, älteren, überhohen oder undichten Fenstern
+sieht die Richtlinie einen Zuschlag von **1 bis 2 °C** vor — die Gebäudehülle bestimmt also mit,
+welche Solltemperatur nötig ist, um dieselbe Behaglichkeit zu erreichen. Der Betrieb elektrischer
+Heizöfen und Luftbefeuchter ist in städtischen Schul- und Verwaltungsbauten untersagt.
+
+**Bauherren-Transfer:** Solltemperatur und Absenkprogramm sind der billigste Energiehebel
+überhaupt, weil sie nichts kosten ausser einer Einstellung an der Regelung — sie gehören darum in
+jede Betriebsoptimierung, bevor über bauliche Massnahmen gesprochen wird. Für JANS-Projekte im
+Healthcare-Bereich ist die Pflegezentren-Zeile direkt anschlussfähig, weil sie ein reales
+Betreiber-Sollwertprofil abbildet und nicht nur einen Normwert. Der Zuschlag von 1 bis 2 °C bei
+schlechter Hülle ist zugleich das ehrliche Argument in der Sanierungsberatung: eine bessere Hülle
+senkt nicht nur den Bedarf, sie erlaubt bei gleicher Behaglichkeit eine tiefere Solltemperatur.
+
+⚠ **Negativbefund, ausdrücklich:** Die Richtlinie **beziffert an keiner Stelle**, wie viel
+Heizenergie eine tiefere Solltemperatur oder ein Absenkbetrieb einspart. Die verbreitete
+Faustregel «ein Grad weniger spart rund sechs Prozent» steht **nicht** in dieser Quelle und darf
+nicht unter Berufung auf sie zitiert werden; wer sie braucht, belegt sie eigens.
+
+**Quelle:** Stadt Zürich, «Raumtemperatur-Richtlinie 2006», Beilage zum Stadtratsbeschluss
+Nr. 1194 vom 04.10.2006, vollständig gelesen (Run 137, 16.08.2026) →
+`[[raumtemperatur-richtlinie-stadt-zuerich-2006]]`. Status **emerging** — Datenstand 2006;
+die Sonderbestimmungen für Schulgebäude waren als Probephase bis zur Heizsaison 2008/2009
+angelegt, ob die Richtlinie seither überarbeitet wurde, ist offen. Normverweis SIA 384/2 vor
+Verwendung gegen die geltende Ausgabe prüfen.
+
+## F241 — «Holz, Holz-Metall oder Kunststoff: welches Fenstermaterial ist ökologisch die erste Wahl?»
+
+**Kurz:** Nach der heute geltenden Ausgabe **ecoBKP 2026** ist die Rangfolge eindeutig:
+**1. Priorität Holzfenster, 2. Priorität Holz-Metall-Fenster.** Kunststofffenster (PVC) werden
+als Rahmenwahl **gar nicht mehr geführt** — sie tauchen nur noch als Bestandsposition bei der
+Oberflächenbehandlung auf. Wer heute neu baut oder ersetzt und ökologisch argumentiert, wählt
+Holz, mit Holz-Metall als begründeter Rückfalloption bei hoher Witterungsbelastung.
+
+**Fachlich:** Bemerkenswert ist nicht die heutige Rangfolge, sondern wie stetig sie sich
+entwickelt hat — die Abwertung von PVC ist keine Modeerscheinung der letzten Jahre:
+
+| Ausgabe | 1. Priorität | 2. Priorität |
+|---|---|---|
+| 2008 | Holzrahmen U<sub>f</sub> 1.3; **Kunststoffrahmen (PVC)** mit Ca-Zn-Stabilisator U<sub>f</sub> 1.1 | Holzrahmen 1.4 – 1.5; Holz-Metall 1.2 – 1.3; PVC 1.2 – 1.3 |
+| 2009 | Holzrahmen U<sub>f</sub> 1.3; **Holz-Metall-Rahmen** U<sub>f</sub> 1.2 | Holzrahmen 1.4 – 1.6; Holz-Metall 1.3 – 1.4; PVC 1.1 – 1.2 |
+| 2026 | Holzfenster | Holz-Metall-Fenster (PVC nicht mehr geführt) |
+
+Der Wechsel fand also bereits in der **Ausgabe 2009** statt: dort verliert PVC den Platz in der
+1. Priorität an den Holz-Metall-Rahmen und rutscht in die zweite Stufe, aus der es bis 2026 ganz
+verschwindet. Die Begründung steht seit je in derselben Randspalte der Merkblätter: Metall- und
+Kunststoffrahmen haben eine deutlich höhere graue Energie, und beim Metallrahmen zusätzlich einen
+höheren U-Wert, der für den Wärmeverlust des ganzen Fensters entscheidend ist. Für Holz gilt
+durchgehend die Herkunftsvorgabe: Label Schweizer Holz, FSC oder PEFC (ecoBKP 2026), in den
+Altausgaben FSC/PEFC.
+
+**Bauherren-Transfer:** Der U<sub>f</sub>-Wert allein entscheidet die Materialfrage nicht — das
+zeigt die Tabelle deutlich, denn der PVC-Rahmen war in beiden Altausgaben energetisch der
+*bessere* (U<sub>f</sub> 1.1 gegenüber 1.3 beim Holzrahmen) und wurde trotzdem zurückgestuft.
+Ausschlaggebend ist die Gesamtbilanz aus grauer Energie, Lebensdauer und Rückbaubarkeit. Wer eine
+Ausschreibung ökologisch führen will, schreibt darum nicht «U<sub>f</sub> ≤ x» allein aus,
+sondern verweist auf die Prioritätenstufe des geltenden ecoBKP-Merkblatts. Neu seit 2026 kommt die
+Rückbaubarkeit dazu (Design for Disassembly nach ISO 20887): lösbare, sichtbare Befestigungen und
+unabhängig demontierbare Komponenten — ein Kriterium, das in den Altausgaben noch völlig fehlte.
+
+**Quelle:** Editionsvergleich am Original, alle drei Fassungen vollständig gelesen (Run 137,
+16.08.2026): `[[ecobkp-2026-gebaeudehuelle]]` (geltend, Stand Januar 2026),
+`[[ecobkp-2009-merkblaetter-nach-bkp]]` (Ausgabe 2009, historisch),
+`[[eco-bau-merkblaetter-bkp-2008-huelle]]` (Ausgabe 2008, historisch), Editionskette
+`[[ecobkp-editionskette-2006-2009]]`. ⚠ Verbindlich für ein laufendes Projekt ist **allein die
+Ausgabe 2026**; die Werte der Ausgaben 2008 und 2009 sind hier nur zitiert, um die Entwicklung
+zu belegen, und dürfen nicht als geltende Anforderung verwendet werden.

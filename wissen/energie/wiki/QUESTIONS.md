@@ -3382,15 +3382,45 @@ durchfuehrbar.
   keine Erneuerung**. Das stützt den bisherigen Stand, beweist aber nichts: eine Prozessseite
   schweigt auch dann, wenn es eine Frist gibt. Abschliessend nur bei der Zertifizierungsstelle
   zu klären; wertrelevant beim Verkauf.
-- [ ] **E-R134-1 (P2): Die Prioritätenliste hat drei Läufe lang eine ungeprüfte Mengenangabe
-  weitergereicht.** «Minergie: 79 PDF, Priorität 1» stand seit Run 129 unverändert in Curriculum
-  und Inventar. Gemessen am 15.08.2026: 274 Dateien im Baum, davon 170 App-Bundle, 15
-  Screenshots, 25 Seiten-Splits, 2 InDesign — **67 dokumentartige Quellen, davon 32 bereits
-  destilliert, 35 offen**. Der Block war seit Run 124/125 grösstenteils erledigt. **Zu klären:
-  in welchen anderen Prioritätenzeilen steckt dieselbe Ungenauigkeit?** Kandidat ist die
-  Grundzahl «182 energierelevante PDF» des PL-02-Korpus selbst (Run 121), gegen die seither jeder
-  Fortschritt gemessen wird, ohne dass sie je nachgemessen wurde. Ein Basenamen-Abgleich gegen
-  alle Destillate kostet zwei Befehle.
+- [x] **E-R134-1 (P2) — GESCHLOSSEN 16.08.2026 (Run 137): die Grundzahl «182» misst nicht, was
+  sie zu messen vorgibt.** Ursprung: Run 121 zählte «1'171 PDF in PL-02, davon energierelevant
+  **182**» über einen **Dateinamen-Filter, dessen Filterbegriffe nie festgehalten wurden** — die
+  Zahl ist damit nicht reproduzierbar. Rekonstruierbar ist nur ihre Zusammensetzung aus der
+  Verteilungszeile (Minergie 79 · eco-bau/KBOB 55 · Stadt Zürich AHB 38 · Energierecht ZH 5 ·
+  übrige 5).
+
+  **Nachmessung 16.08.2026** (voller Graph-`delta`-Durchlauf über den Drive, 2'954 Items,
+  2'550 Dateien, 404 Ordner; reproduzierbare Definition = PDF in den Ordnern
+  `06_Richtlinien/Minergie` + `04_Merkblätter/eco` + `Projektadmin AHB/18-Nachhaltiges Bauen`
+  + `Projektadmin AHB/14-Energie-und Gebaeudetechnik` + `01_Gesetze/02_Zuerich/Energie`):
+
+  | Grösse | Wert |
+  |---|---|
+  | PDF in PL-02 gesamt | **1'222** (Run 121: 1'171 — der Korpus ist gewachsen) |
+  | PDF in den fünf energierelevanten Ordnern, roh | 188 |
+  | abzüglich Seiten-Splits (`…-SeiteNN.pdf`) | −25 |
+  | **dokumentartige PDF (netto)** | **163** |
+  | abzüglich byte-identischer Mehrfachablagen (quickXorHash) | −32 |
+  | **echte Werke** | **131** |
+
+  **Die 182 war in zwei Richtungen zu hoch:** sie zählte 25 Seiten-Splits eines bereits
+  destillierten Werks (`planer_d-SeiteNN.pdf`) als eigene Quellen — derselbe Fehler, den Run 134
+  für den Minergie-Block schon einzeln gefunden hatte — und sie zählte dasselbe Werk bis zu
+  **dreimal**, weil der Korpus die eco-Merkblätter flach, thematisch und unter `Projektadmin AHB`
+  parallel ablegt. **23 Gruppen, 55 Dateien, 32 redundante Kopien**, byte-identisch belegt.
+  Register: `training/pl02-dubletten-hash.md`.
+
+  **Konsequenz:** die Fortschrittsmeldung «84 von 182» ist als Bruch wertlos, weil Zähler und
+  Nenner verschieden definiert sind. Neuer Nenner ist **131 echte Werke**. → Folgepunkt
+  **E-R137-1** (Zähler neu bestimmen).
+
+- [ ] **E-R137-1 (P2): Zähler zum neuen Nenner 131 bestimmen.** E-R134-1 hat den Nenner sauber
+  gemessen, aber nicht, wie viele der 84 bisher gemeldeten Destillate innerhalb der neuen
+  Ordner-Definition liegen (einige stammen aus PL-04 oder aus Web-Quellen und gehören nicht in
+  diesen Bruch). Erst danach ist eine ehrliche Fortschrittsangabe möglich. Weg: die
+  `quelle:`-Frontmatterfelder aller Destillate gegen die 131 Pfade aus
+  `training/pl02-dubletten-hash.md` und dem Delta-Dump abgleichen. **Bis dahin keine
+  Prozentangabe zum PL-02-Fortschritt in Lauf-Reports** — lieber gar keine Zahl als die alte.
 - [ ] **E-R134-2 (P3): Bezugsfläche der Energiekennzahl 38/30 kWh/m² im EFH-Vergleichsblatt nicht
   ausgeschrieben.** Auf der Grafik steht nur «kWh/m²»; EBF ist naheliegend, aber nicht belegt.
   Nur von historischem Interesse (der Wert selbst ist überholt), aber ein sauberes Beispiel für

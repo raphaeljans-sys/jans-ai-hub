@@ -2327,3 +2327,38 @@ Wort-Diff prüft die Quelle, eine Bestandsmessung prüft die eigene Planung. Bei
 Mengenangabe in der Prioritätenliste ist so verifikationsbedürftig wie ein Kennwert im Destillat**
 — wer sie von Lauf zu Lauf zitiert, ohne sie gegen den Bestand zu messen, plant gegen einen
 Vorrat, den es längst nicht mehr gibt.
+
+## Run 137 (16.08.2026, Mac Mini) — die Grundzahl des PL-02-Korpus widerlegt
+
+Zugang über den M365-Graph-Weg (OneDrive-Mount fehlt auf dieser Station), Sparbetrieb, fünf
+Quellen bearbeitet, drei neue Destillate: `ecobkp-2009-merkblaetter-nach-bkp`,
+`raumtemperatur-richtlinie-stadt-zuerich-2006`, `ecobkp-editionskette-2006-2009`. FAQ **F240**
+(Raumtemperatur/Absenkbetrieb) und **F241** (Fenstermaterial ökologisch) neu; Artikel
+`heizleistung-und-waermeerzeuger` und `oekologische-materialvorgaben-beschaffung` gewachsen.
+Protokoll: `outputs/2026-08-16_energie-run137.md`.
+
+**E-R134-1 geschlossen.** Die Grundzahl «182 energierelevante PDF» stammt aus einem
+Dateinamen-Filter, dessen Begriffe nie festgehalten wurden, und ist nicht reproduzierbar.
+Nachgemessen: 1'222 PDF in PL-02, **163 dokumentartige** in den fünf energierelevanten Ordnern,
+**131 echte Werke** nach Abzug von 32 byte-identischen Mehrfachablagen. Register
+`training/pl02-dubletten-hash.md`. Nur **16** der 131 Werke sind nirgends erwähnt. Neuer Punkt
+E-R137-1: Zähler auf die neue Definition umstellen; bis dahin **keine Bruchzahl** im Lauf-Report.
+
+**Methodischer Merksatz, Fortsetzung des Mengenangaben-Merksatzes aus Run 134:** Run 134 hat den
+Fehlermechanismus (Seiten-Splits als Quellen gezählt) an **einem Bestandteil** der Grundzahl
+gefunden und den Einzelfall korrigiert — die Summe, in die er einfliesst, blieb stehen und wurde
+drei weitere Läufe zitiert. **Wer einen Bestandteil einer Zahl korrigiert, muss die Zahl selbst
+nachrechnen; sonst ist die Korrektur nur lokal wahr.** Eine falsche Mengenangabe ist zäher als ein
+falscher Kennwert: der Kennwert fällt auf, sobald ihn jemand einsetzt, die Grundgesamtheit wird
+nur zitiert — und steuert dabei still die Priorisierung.
+
+**Zweiter Merksatz, Kandidatenauswahl:** Drei von fünf für diesen Lauf eingeplanten Quellen waren
+im Bestand bereits erledigt (Recycling Beton seit Run 126, zwei Link-Stubs seit Run 132). Ursache
+war die Auswahl nach **Ordnerinhalt** statt nach Register. **Die Kandidatenauswahl beginnt beim
+Screening gegen `_INGESTED.md` und die Dublettentabelle, nicht beim Ordnerlisting.**
+
+**Nächste Priorität:** `01_Gesetze/02_Zuerich/Energie/Vollzugsordner Energie Kanton ZH.pdf` —
+199 Seiten, «Stand: Juni 2013», AWEL Abteilung Energie. Grösster und inhaltlich wertvollster
+Restposten (Energierecht ZH im Vollzug), braucht mehrere Läufe; ⚠ Aktualitätsprüfung gegen
+EnerG/EnerV ZH und MuKEn 2025 ist hier der halbe Wert der Arbeit. Danach der übrige
+Energierecht-ZH-Ordner (vier kleinere Dateien) im selben Zug.

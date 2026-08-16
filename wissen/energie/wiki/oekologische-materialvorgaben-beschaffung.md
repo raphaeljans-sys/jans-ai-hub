@@ -1,8 +1,10 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-14 (Run 132: Vertragsstufe Werkleistungen ergaenzt, Mai-2006-Quellverweis verifiziert; zuvor 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
+last_updated: "2026-08-16 (Run 137: Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; zuvor 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
 sources:
+  - "[[ecobkp-editionskette-2006-2009]] — Editions-Abgleich der drei Altausgaben 09/2006, 2008 und 2009 desselben Werks (Run 137)"
+  - "[[ecobkp-2009-merkblaetter-nach-bkp]] — Verein eco-bau c/o KBOB, «ECO-BKP 2009», Ausgabe 2009, 51 S. vollständig gelesen"
   - "[[eco-bau-merkblaetter-bkp-2008-huelle]] und [[eco-bau-merkblaetter-bkp-2008-technik-ausbau]] — Verein eco-bau c/o KBOB, «Ökologisch Bauen — Merkblätter nach Baukostenplan BKP», Ausgabe 2008, 55 S. vollständig gelesen"
   - "[[bauoekologische-submissionsbedingungen]] — Stadt Zürich HBD, «Allgemeine bauökologische Submissionsbedingungen», September 2006"
   - "[[eco-bau-devis-und-baustellenkontrolle]] — eco-bau/AHB, Checklisten Deviskontrolle und Baustellenkontrolle, 2006"
@@ -325,3 +327,51 @@ Korrektur 14.08.2026 (Wissens-Chef Run 32): die zuvor hier stehende Aussage, dem
 noch das Destillat, war falsch — sie beruhte auf einer nicht durchgeführten Verzeichnisprüfung
 in `destillate/`. Der Fassungsvergleich Mai 2006 gegen Stadtratsbeschluss Nr. 1094 vom
 17.09.2008 steht im Nachtrag zu `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]`.
+
+## Welche Ausgabe gilt? Die Editionskette der eco-BKP-Merkblätter (ergänzt Run 137, 2026-08-16)
+
+Der Abschnitt «Aktualität — der entscheidende Vorbehalt» oben verlangt, die Ausgabe zu bestimmen,
+bevor ein Merkblatt zitiert wird. Für das meistgenutzte Werk dieser Familie ist die Kette jetzt
+belegt → `[[ecobkp-editionskette-2006-2009]]`:
+
+| Ausgabe | Seiten | Ablage im Korpus PL-02 | Status |
+|---|---|---|---|
+| **September 2006** | 66 | `eco/Nachhaltiges Bauen/01 verbindliche Richtlinien/3.12.R Oekologisch-Bauen-Merkblaetter nach BKP.pdf` | historisch |
+| **2008** | 55 | `eco/3.12MerkblaetternachBKP_1_2008_ganzer_Inhalt.pdf` (+ byte-identische Zweitablage) | historisch → `[[eco-bau-merkblaetter-bkp-2008-huelle]]` |
+| **2009** | 51 | `Projektadmin AHB/18-Nachhaltiges Bauen/18.3 Baustoffe …/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` | historisch → `[[ecobkp-2009-merkblaetter-nach-bkp]]` |
+| **ecoBKP 2026** | 138 | ecobau.ch (Web) | **geltend** → `[[ecobkp-2026-methodik-und-uebersicht]]` |
+
+**Die Datumsfalle in diesem Werk, jetzt aufgelöst.** Die Ausgabe 2008 trägt auf ihrer
+Impressum-Seite die Fusszeile «Ausgabe 09/2006», auf allen Fachseiten dagegen «Ausgabe 2008». Der
+Widerspruch stand seit Run 123 offen. Er ist keiner: die Fusszeile ist ein stehengebliebener
+Produktionsrest der **tatsächlich existierenden Vorauflage September 2006**, deren durchgehende
+Fusszeile zeichengleich so lautet. Beide Fusszeilen wurden am jeweiligen Original nachgelesen. Die
+Mitgliederliste wurde beim Umbruch nachgeführt («Stand Februar 2006» → «Stand Oktober 2007»), die
+Fusszeile nicht. **Merksatz für dieses Werk: die Fachseiten-Fusszeile datiert die Ausgabe, nicht
+die Impressum-Seite.**
+
+**Der Bestand blieb stabil, die Bewertungen änderten sich.** Von 2006 auf 2008 ist der Bestand der
+23 BKP-Merkblätter unverändert; der Seitenrückgang 66 → 55 ist überwiegend Wegfall von Leerseiten.
+Auch 2009 führt dieselben 23 Positionen. Was sich ändert, sind die **Materialbewertungen** — und
+genau darauf kommt es beim Zitieren an. Das schärfste Beispiel:
+
+**Fensterrahmen, BKP/ecoBKP 221 — die Abwertung von PVC über drei Ausgaben**
+
+| Ausgabe | 1. Priorität | 2. Priorität |
+|---|---|---|
+| 2008 | Holzrahmen U<sub>f</sub> 1.3; **Kunststoffrahmen (PVC)** Ca-Zn U<sub>f</sub> 1.1 | Holz 1.4 – 1.5; Holz-Metall 1.2 – 1.3; PVC 1.2 – 1.3 |
+| 2009 | Holzrahmen U<sub>f</sub> 1.3; **Holz-Metall-Rahmen** U<sub>f</sub> 1.2 | Holz 1.4 – 1.6; Holz-Metall 1.3 – 1.4; PVC 1.1 – 1.2 |
+| 2026 | Holzfenster | Holz-Metall-Fenster (PVC nicht mehr als Rahmenwahl geführt) |
+
+Der Bruch fällt also in die **Ausgabe 2009**, nicht irgendwann zwischen 2008 und 2026 — beide
+Fassungen am Original nachgelesen. Beratungsrelevant ist die Begründung: der zurückgestufte
+PVC-Rahmen war energetisch der **bessere** (U<sub>f</sub> 1.1 gegen 1.3). Den Ausschlag gab die
+graue Energie, nicht der U-Wert. Das ist das Musterbeispiel dafür, warum eine ökologische
+Ausschreibung nicht über einen U-Wert-Grenzwert allein geführt werden kann, sondern über die
+Prioritätenstufe des **geltenden** Merkblatts. Siehe FAQ **F241**, `[[graue-energie]]`.
+
+**Weitere belegte Änderungen 2008 → 2009** (aus `[[ecobkp-2009-merkblaetter-nach-bkp]]`):
+BKP 211 Abwasserrohr-Grenzmass DN 300 → 250, PE und PVC mit Ca-Zn-Stabilisator neu in
+1. Priorität · BKP 224 Dachbegrünung neu mit quantifizierten Kennwerten statt reinem Label-Verweis
+(mindestens 10 cm Substrat, Wasserrückhaltekapazität mindestens 45 l/m², am Original verifiziert)
+· BKP 222 Kupferblech verzinnt entfällt, Aluminiumblech blank neu, Metallfilterpflicht ab 50 m².

@@ -1,5 +1,105 @@
 # CHANGELOG
 
+## 2026-08-16 (Run 137) — ECO-BKP 2009 destilliert, Ordner 18.3 vollständig abgeschlossen
+
+- Neues Destillat `destillate/ecobkp-2009-merkblaetter-nach-bkp.md` (ECO-BKP Ausgabe 2009,
+  51 Seiten vollständig via `pdftotext -layout` gelesen). Schliesst die seit Run 130 offene
+  letzte Position in `18.3 Baustoffe (Bauökologie & Stoffflüsse)`
+  (`Richtlinie_ECO-BKP_(Merkblätter_nach_BKP).pdf`).
+- Seiten-für-Seiten-Vergleich gegen die beiden 2008er-Destillate
+  (`[[eco-bau-merkblaetter-bkp-2008-huelle]]`, `[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`):
+  identische 23 BKP-Positionen (keine Streichung/Neuaufnahme), Seitendifferenz 55→51 durch
+  Wegfall des im Inhaltsverzeichnis noch angekündigten Quellen-/Abkürzungsverzeichnisses
+  erklärt (Leitfaden verweist stattdessen auf www.eco-bau.ch). 13 konkrete Sachänderungen
+  dokumentiert, u.a. BKP 221 Fensterrahmen-Priorität (Kunststoff PVC 1.→2. Priorität,
+  Holz-Metall neu 1. Priorität), BKP 211 Abwasserrohr-Grenzmass DN 300→250, BKP 224
+  Dachbegrünung neu mit quantifizierten Kennwerten (10 cm Substrat, 45 l/m² Wasserrück-
+  haltekapazität), BKP 222 Kupferblech durch Aluminiumblech ersetzt.
+- Verweist im Bauherren-Transfer explizit auf die heute geltende Fassung
+  `[[ecobkp-2026-methodik-und-uebersicht]]` — die 2008er/2009er-Materialpriorisierungen sind
+  historischer Stand und werden nicht als aktuelle Empfehlung dargestellt.
+- `training/pdf-inventar.md`: Nachtrag Run 137, PL-02 auf **85 destilliert**; Ordner
+  `18-Nachhaltiges Bauen` damit vollständig abgeschlossen. ⚠ Die im ersten Teil dieses Laufs
+  notierte Bruchzahl «85/182» ist **nicht mehr zu verwenden** — der Nenner 182 wurde im selben
+  Lauf widerlegt, siehe den folgenden Abschnitt.
+
+### Korpus-Nachmessung PL-02 — die Grundzahl «182» ist widerlegt (E-R134-1 geschlossen)
+
+- **Seit Run 121 misst die KB ihren PL-02-Fortschritt gegen eine Zahl, die nicht reproduzierbar
+  ist.** Die «182 energierelevanten PDF» stammen aus einem **Dateinamen-Filter, dessen Begriffe
+  nie festgehalten wurden**. Nachmessung in diesem Lauf über einen vollen Graph-`delta`-Durchlauf
+  (2'954 Items, 2'550 Dateien, 404 Ordner, 15 Seiten Pagination):
+
+  | Grösse | Wert |
+  |---|---|
+  | PDF in PL-02 gesamt | **1'222** (Run 121: 1'171 — der Korpus ist gewachsen) |
+  | PDF in den fünf energierelevanten Ordnern, roh | 188 |
+  | abzüglich Seiten-Splits `…-SeiteNN.pdf` | −25 |
+  | **dokumentartige PDF** | **163** |
+  | abzüglich byte-identischer Mehrfachablagen | −32 |
+  | **echte Werke** | **131** |
+
+- **Die 182 war in zwei Richtungen zu hoch.** Sie zählte 25 Seiten-Splits eines bereits
+  destillierten Werks (`planer_d-SeiteNN.pdf`) als eigene Quellen — den Einzelfall hatte Run 134
+  für den Minergie-Block schon gefunden, ohne die Grundzahl selbst zu korrigieren. Und sie zählte
+  dasselbe Werk bis zu **dreimal**: der Korpus legt die eco-Merkblätter flach
+  (`eco/3.38RecyclingBetonKBOB_2007_2.pdf`), thematisch (`eco/Nachhaltiges Bauen/03
+  Informationen/…`) und unter `Projektadmin AHB/18-…/` mit sprechendem Namen parallel ab.
+  **23 Gruppen, 55 Dateien, 32 redundante Kopien**, per `quickXorHash` byte-identisch belegt.
+- **Neues Register `training/pl02-dubletten-hash.md`** mit allen 23 Gruppen und der Methode. Der
+  Hash kommt bei der `delta`-Abfrage gratis mit, wenn `file` im `$select` steht — ein Durchlauf
+  statt eines Downloads plus Wort-Diff je Verdachtsfall (Methode aus Run 136, hier systematisiert).
+  Kreuzvalidierung: alle im `pdf-inventar.md` per Wort-Diff als «KEINE Dublette» geführten Paare
+  haben erwartungsgemäss **verschiedene** Hashes — die beiden Register widersprechen sich nicht.
+- **Screening: nur 16 der 131 Werke sind in Inventar und Destillaten nirgends erwähnt.** Der
+  Korpus ist damit weit näher am Abschluss, als «84 von 182» suggerierte. Der Zähler ist noch
+  nicht auf die neue Definition umgestellt → neuer Punkt **E-R137-1** in `wiki/QUESTIONS.md`;
+  **bis dahin keine Prozent- oder Bruchangabe zum PL-02-Fortschritt in Lauf-Reports.**
+- **Praktische Bestätigung im selben Lauf:** `Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf` war
+  als offener Kandidat eingeplant und ist eine **dreifach abgelegte, seit Run 126 destillierte**
+  Quelle; der Destillat-Agent hat das erkannt und **kein** Zweitdestillat angelegt.
+
+### Zweiter Teil des Laufs — Raumtemperatur, Editionskette, zwei Leerbefunde
+
+- **Neues Destillat `destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md`** (5 S. vollst.):
+  Raumtemperatur-Richtlinie 2006 der Stadt Zürich, Beilage zum Stadtratsbeschluss Nr. 1194 vom
+  04.10.2006. Sollwerte je Raumnutzung (Anhang 1), Betriebszeiten Schulhäuser (Anhang 2) und
+  Wohnbauten (Anhang 3), 16 °C-Untergrenze im Absenkbetrieb, keine weitere Absenkung unter
+  −10 °C Aussentemperatur, Zuschlag 1 – 2 °C bei schlechter Hülle. Als **stadtinterne
+  Betriebsrichtlinie** klar von einer allgemein geltenden Rechtsnorm abgegrenzt. **Negativbefund
+  am Original nachgeprüft: das Dokument beziffert an keiner Stelle eine Energieeinsparung** — die
+  verbreitete Faustregel «ein Grad spart rund sechs Prozent» steht nicht darin und darf nicht
+  unter Berufung darauf zitiert werden. Schliesst zugleich eine Lücke in
+  `[[ahb-zuerich-gt-rl3-heizungsanlagen]]`, das StRB 1194/2006 bisher nur referenzierte.
+- **Neues Destillat `destillate/ecobkp-editionskette-2006-2009.md`** — Editions-Abgleich statt
+  drittem Inhaltsdestillat. **Schliesst den seit Run 123 offenen Impressum-Widerspruch der
+  Ausgabe 2008:** deren stehengebliebene Fusszeile «Ausgabe 09/2006» auf der Impressum-Seite ist
+  zeichengleich die **durchgehende** Fusszeile der tatsächlichen Vorauflage September 2006
+  (66 S.), die im selben Korpus liegt. Beide Fusszeilen in diesem Lauf **am jeweiligen Original**
+  nachgelesen, nicht über Zwischenquellen. Bestand der 23 BKP-Merkblätter 2006 → 2008
+  unverändert; der Seitenrückgang 66 → 55 ist überwiegend Wegfall von Leerseiten. Der offene
+  Punkt in `eco-bau-merkblaetter-bkp-2008-technik-ausbau.md` ist entsprechend geschlossen.
+- **Zwei Leerbefunde sauber als `[-]` erfasst:** `eco-devis_(Ausschreibungshilfe-nach-NKP).pdf`
+  und `Bauteilkatalog_Energie+Oekologie.pdf` sind je 1 Seite, deren vollständiger Textinhalt aus
+  **einer URL** besteht — kein Fachinhalt, kein Destillat.
+
+### Verdichtung (Block 2)
+
+- **FAQ F240 — «Auf welche Raumtemperatur soll ich mein Gebäude einstellen, und was bringt das
+  Absenken nachts?»** Sollwerte je Raumnutzung, Betriebszeiten, Absenkgrenzen, mit dem
+  Negativbefund zur unbelegten Prozent-Faustregel. Für Healthcare direkt anschlussfähig
+  (Pflegezentren-Zeile: 22 °C Bettenzimmer, 24 °C Bad/Behandlung).
+- **FAQ F241 — «Holz, Holz-Metall oder Kunststoff: welches Fenstermaterial ist ökologisch die
+  erste Wahl?»** Geltend ist ecoBKP 2026 (1. Priorität Holz, 2. Holz-Metall, PVC nicht mehr
+  geführt). **Neuer Sachbefund: die Abwertung von PVC fiel bereits in die Ausgabe 2009**, nicht
+  irgendwann zwischen 2008 und 2026 — an beiden Originalen nachgelesen (2008: 1. Priorität
+  «Holzrahmen U_f 1.3; Kunststoffrahmen (PVC) … U_f 1.1»; 2009: «Holzrahmen U_f 1.3;
+  Holzmetallrahmen U_f 1.2», PVC in 2. Priorität). Beratungsrelevant: der zurückgestufte
+  PVC-Rahmen war energetisch der **bessere** — den Ausschlag gab die graue Energie, nicht der
+  U-Wert.
+- **`destillate/ecobkp-2026-gebaeudehuelle.md` präzisiert:** die dortige Aussage sprang von 2008
+  direkt auf 2026; die Zwischenstufe 2009 ist jetzt belegt eingefügt.
+
 ## 2026-08-16 (Run 136, Mac Mini Nachtschicht 13:30-Versuchsslot) — PCB-Fugendichtungsmassen destilliert
 
 - Neues Destillat `destillate/kbob-pcb-fugendichtungsmassen-2004-4.md` (KBOB Empfehlung

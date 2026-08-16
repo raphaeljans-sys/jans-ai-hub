@@ -585,7 +585,7 @@ das nächstliegende Ziel für Run 131, kleiner Umfang (5 kurze Formulare/Merkbl�
 | [ ] `18.2 Betriebsenergie/Topten_Haushaltgeraete_(Flyer).pdf` | noch offen (Diff gegen `[[haushaltgeraete-effizienz-beschaffung-topten]]` bestätigt eigenständiges kürzeres Dokument) |
 | [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Deviskontrolle_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-devis-und-baustellenkontrolle]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |
 | [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Baustellenkontrolle_(Checkliste).pdf` | noch offen (Diff gegen `[[eco-bau-devis-und-baustellenkontrolle]]` bestätigt Nicht-Dublette, Revision 25.09.2008) |
-| [ ] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` | noch offen (Diff gegen `[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`-technik-ausbau` bestätigt deutlich abweichenden Umfang, ungeprüft im Detail) |
+| [x] `18.3 Baustoffe (Bauoekologie & Stofffluesse)/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` | 2026-08-16 (Run 137; ECO-BKP Ausgabe 2009, 51 S. vollst. gelesen → `ecobkp-2009-merkblaetter-nach-bkp`; Vergleich gegen `[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`-technik-ausbau` bestätigt: identische 23 BKP-Positionen, Seitendifferenz durch Wegfall des Quellen-/Abkürzungsverzeichnisses erklärt, 13 konkrete Sachänderungen dokumentiert u.a. BKP 221 Fensterrahmen-Priorität, BKP 211 Abwasserrohr-Grenzmass) |
 
 Zusätzlich in `18.3` zwei bisher nicht erfasste, sehr kleine Dateien gesehen (Listing, nicht
 geöffnet): `Bauteilkatalog_Energie+Oekologie.pdf` (12 kB), `eco-devis_(Ausschreibungshilfe-nach-
@@ -802,3 +802,82 @@ schliesst 2 Inventarzeilen), **98 offen**.
 gehört in die planmässige BKP-Merkblattwerk-Destillation) sowie der Minergie-Restbestand
 (rund 30 dokumentartige Quellen laut Run-134-Messung, davon nach Run 135 ein Teil erledigt —
 Bestand vor dem nächsten Lauf neu zählen statt die alte Zahl weiterzureichen).
+
+## Nachtrag 2026-08-16 (Run 137): ECO-BKP 2009 destilliert, letzte offene 18.3-Position geschlossen
+
+`18.3 Baustoffe/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (2,0 MB, 51 S.) vollständig via
+`pdftotext -layout` seitenweise gelesen und gegen die beiden 2008er-Destillate
+(`[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`-technik-ausbau`) verglichen → neues Destillat
+`ecobkp-2009-merkblaetter-nach-bkp`. Kernbefund: dieselben 23 BKP-Positionen wie 2008 (keine
+Streichung/Neuaufnahme), die Seitendifferenz 55→51 erklärt sich durch den Wegfall des im
+Inhaltsverzeichnis noch angekündigten, aber in der PDF nicht mehr enthaltenen Quellen-/
+Abkürzungsverzeichnisses (Leitfaden verweist stattdessen auf www.eco-bau.ch). 13 konkrete
+Sachänderungen dokumentiert, u.a. BKP 221 Fensterrahmen (Kunststoffrahmen PVC von 1. auf 2.
+Priorität, Holz-Metallrahmen neu in 1. Priorität), BKP 211 Abwasserrohr-Grenzmass DN 300→250,
+BKP 224 Dachbegrünung neu mit quantifizierten Kennwerten (10 cm Substrat, 45 l/m² Wasserrück-
+haltekapazität), BKP 222 Kupferblech durch Aluminiumblech ersetzt. Jedes Merkblatt trägt neu eine
+eigene volle Tabelle «Weitere Vorgaben in anderen ECO-BKP» (2008 nur Fliesstext-Querverweise).
+
+**Damit ist `18-Nachhaltiges Bauen` vollständig destilliert** (letzte offene Position seit Run
+133 geschlossen).
+
+**Stand PL-02:** **85 destilliert** (84 bis Run 136, **1 in Run 137**).
+
+⚠ **Der Nenner «182» ist im selben Lauf ausser Kraft gesetzt worden — bitte nicht weiterverwenden.**
+Die Nachmessung zu E-R134-1 (Run 137, voller Graph-`delta`-Durchlauf) hat gezeigt, dass die
+Grundzahl aus Run 121 nicht misst, was sie zu messen vorgibt: sie stammt aus einem
+Dateinamen-Filter, dessen Begriffe nie festgehalten wurden, sie zählte **25 Seiten-Splits** eines
+bereits destillierten Werks als eigene Quellen, und sie zählte dasselbe Werk bis zu **dreimal**,
+weil der Korpus die eco-Merkblätter flach, thematisch und unter `Projektadmin AHB` parallel ablegt.
+
+**Neue, reproduzierbare Grundgesamtheit:** 1'222 PDF in PL-02 gesamt · 188 in den fünf
+energierelevanten Ordnern · **163 dokumentartige PDF** nach Abzug der Seiten-Splits · **131 echte
+Werke** nach Abzug von 32 byte-identischen Mehrfachablagen (23 Gruppen, per `quickXorHash`
+belegt → `pl02-dubletten-hash.md`).
+
+**Screening gegen Inventar und Destillate: nur noch 16 der 131 Werke sind nirgends erwähnt.**
+Der Korpus ist also weit näher am Abschluss, als die alte Bruchzahl suggerierte. Der Zähler ist
+noch nicht sauber auf die neue Definition umgestellt (→ E-R137-1 in `wiki/QUESTIONS.md`); **bis
+dahin keine Prozent- oder Bruchangabe zum PL-02-Fortschritt** — lieber keine Zahl als die alte.
+
+### Die 16 noch nirgends erwähnten Werke (Stand 16.08.2026, Run 137)
+
+Ermittelt über Hash-Deduplikation und Namensabgleich gegen `pdf-inventar.md` + alle Destillate.
+⚠ Das Screening prüft die Erwähnung eines Dateinamens, nicht die Destillat-Tiefe — ein Treffer
+kann auch eine `[-]`-Zeile oder ein Dublettenvermerk sein.
+
+| Bytes | Pfad (PL-02) |
+|---|---|
+| 5'157'440 | `/01_Gesetze/02_Zuerich/Energie/Vollzugsordner Energie Kanton ZH.pdf` — **199 Seiten, «Stand: Juni 2013», AWEL Abteilung Energie**; grösster verbliebener Einzelbrocken und inhaltlich der wertvollste (Energierecht ZH im Vollzug) |
+| 4'910'998 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Allgemeines_Uebersicht.pdf` — ⚠ trotz 4,9 MB nur **1 Seite** (Faltblatt «Allgemeines zu den Richtlinien Gebäudetechnik», Dach über die bereits destillierte GT_RL1-9-Reihe); die Dateigrösse führt hier in die Irre |
+| 1'389'823 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Kursunterlagen_SIA/FEZ_Kursprogramm_Herbst_Winter_2023.pdf` (Kursprogramm, vermutlich `[-]`) |
+| 1'206'301 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf` |
+| 170'762 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.27.I Bodenbelaege(KBOB2000_1).pdf` |
+| 133'739 | `/06_Richtlinien/Minergie/SIA380_1_Energie_im_Hochbau/25.04.10 Kursausschreibung SIA380-1.pdf` (Kursausschreibung, vermutlich `[-]`) |
+| 120'751 | `/01_Gesetze/02_Zuerich/Energie/WDV2009 mpw.pdf` |
+| 93'924 | `/01_Gesetze/02_Zuerich/Energie/730.1_19.6.83_85.pdf` |
+| 79'932 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Richtlinie_Anlagedokumentation E.pdf` |
+| 77'259 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Richtlinie_Anlagedokumentation H L S.pdf` |
+| 72'880 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Uebersichtstabelle_Beleuchtung_EN12464-1.pdf` |
+| 56'679 | ~~`/04_Merkblätter/…/14.3-Richtlinien/Richtlinie_Raumtemperatur_Stadtrat.pdf`~~ — **in diesem Lauf destilliert**, siehe unten |
+| 45'102 | `/01_Gesetze/02_Zuerich/Energie/Zusammenstellung Änderungen.pdf` |
+| 35'586 | `/01_Gesetze/02_Zuerich/Energie/VoHi_EN10_de.pdf` |
+| 32'274 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.39.I Recyclingprodukte.pdf` |
+| 27'875 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/3.15.C Checkliste Baustellenkontrolle.pdf` |
+
+## Nachtrag 2026-08-16 (Run 137, zweiter Teil): Raumtemperatur-Richtlinie, Editionskette, zwei Leerbefunde
+
+| Status | Quelle | KB-Datenstand |
+|---|---|---|
+| [x] `14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Richtlinie_Raumtemperatur_Stadtrat.pdf` | 2026-08-16 (5 S. vollst. → `raumtemperatur-richtlinie-stadt-zuerich-2006`; StRB Nr. 1194 vom 04.10.2006, Sollwerte je Raumnutzung Anhang 1, Betriebszeiten Schule/Wohnen Anhang 2/3, 16 °C-Absenkgrenze, keine Absenkung unter −10 °C. **Negativbefund am Original bestätigt: das Dokument beziffert keine Energieeinsparung**, keine Prozent-Faustregel daraus zitierbar. FAQ F240) |
+| [x] `eco/Nachhaltiges Bauen/01 verbindliche Richtlinien/3.12.R Oekologisch-Bauen-Merkblaetter nach BKP.pdf` | 2026-08-16 (Ausgabe **September 2006**, 66 S. → Editions-Abgleich `ecobkp-editionskette-2006-2009`; **löst den seit Run 123 offenen Impressum-Widerspruch der Ausgabe 2008**: deren stehengebliebene Fusszeile «Ausgabe 09/2006» ist zeichengleich die durchgehende Fusszeile dieser Vorauflage. Beide Fusszeilen in Run 137 am jeweiligen Original nachgelesen) |
+| [-] `18.3 Baustoffe/eco-devis_(Ausschreibungshilfe-nach-NKP).pdf` | ⚠ **bereits Run 132 (14.08.2026) erfasst**, hier nur re-bestätigt: 1 S., vollständiger Textinhalt ist **eine URL** (`http://www.eco-bau.ch/index.cfm?Nav=15&ID=16`) — Link-Stub-PDF, kein Fachinhalt. Siehe `raw/_INGESTED.md` (dort als «Falle Nr. 10» geführt) |
+| [-] `18.3 Baustoffe/Bauteilkatalog_Energie+Oekologie.pdf` | ⚠ **bereits Run 132 (14.08.2026) erfasst**, hier nur re-bestätigt: 1 S., vollständiger Textinhalt ist **eine URL** (`www.bauteilkatalog.ch`) — Link-Stub-PDF, kein Fachinhalt |
+
+⚠ **Eigener Fehler dieses Laufs, vermerkt statt kaschiert:** beide Link-Stubs und die
+Recycling-Beton-Dublette waren im Bestand bereits korrekt geführt (Run 132 bzw. Run 126). Ich habe
+die Kandidaten dieses Laufs nach **Ordnerinhalt** ausgewählt statt zuerst gegen `_INGESTED.md` und
+die Dublettentabelle zu screenen — drei von fünf eingeplanten Quellen waren dadurch schon erledigt.
+**Konsequenz für den nächsten Lauf: Kandidatenauswahl beginnt mit dem Screening gegen die Register,
+nicht mit dem Ordnerlisting.** Die Liste der 16 nirgends erwähnten Werke oben ist genau dafür da.
+| [-] `18.3 Baustoffe/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf` | 2026-08-16 (Re-Abgleich: **bestätigte Dublette**, bereits `[[kbob-recyclingbeton-2007]]` aus Run 126; per quickXorHash byte-identisch mit `eco/3.38RecyclingBetonKBOB_2007_2.pdf` und `eco/Nachhaltiges Bauen/03 Informationen/3.38.I …` — **drei** Ablagen desselben Werks. Der Kandidat war in diesem Lauf fälschlich als offen eingeplant; die bestehende Dublettenzeile weiter oben hatte ihn korrekt geführt) |

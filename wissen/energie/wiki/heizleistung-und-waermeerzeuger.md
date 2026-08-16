@@ -1,8 +1,8 @@
 ---
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-07-29
-sources: [destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md]
+last_updated: 2026-08-16
+sources: [destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -191,3 +191,56 @@ gegenüber der Erdsonde (reale CH-Beispiele 75'000 CHF EFH bis 420'000 CHF MFH-P
 2,0 (Fehlauslegung) bis 6 (CH-Pilotprojekt, Rapperswil-Jona). ⚠ Kantonale Bewilligungspraxis
 ZH/SZ-Grundwasserschutzzone nicht gefunden (offener Punkt) → `[[eisspeicher-waermepumpe-latentwaermespeicher]]`,
 FAQ F187.
+
+## Solltemperatur und Absenkbetrieb — der Hebel vor der Anlage (ergänzt Run 137, 2026-08-16)
+
+Dieser Artikel dreht sich um die Frage, wie gross der Wärmeerzeuger sein muss. Die Gegenfrage —
+**wie warm und wie lange überhaupt geheizt wird** — entscheidet über den Verbrauch, kostet nichts
+ausser einer Einstellung an der Regelung und gehört deshalb an den Anfang jeder Betriebsoptimierung,
+noch vor jede bauliche Massnahme.
+
+Als belegte Referenz dient die **Raumtemperatur-Richtlinie 2006 der Stadt Zürich** (Beilage zum
+Stadtratsbeschluss Nr. 1194 vom 04.10.2006) → `[[raumtemperatur-richtlinie-stadt-zuerich-2006]]`.
+⚠ **Rechtsnatur beachten:** Das ist eine **stadtinterne Betriebsrichtlinie für die Gebäude der
+Stadt Zürich**, keine allgemein geltende Norm. Ihre Zahlen sind als Referenz brauchbar, nicht als
+Pflicht für private Bauherrschaften.
+
+**Sollwerte je Raumnutzung (Anhang 1, Auswahl)**
+
+| Nutzung | Sollwert °C |
+|---|---|
+| Wohn-, Büro-, Aufenthaltsräume, Klassenzimmer | 21 |
+| Bettenzimmer Pflegezentren/Altersheime | 22 |
+| Bad, Dusche, Behandlungszimmer (Pflege) | 24 |
+| Kindergarten, Horte | 22 |
+| Korridore | 16 – 18 |
+| Treppenhäuser | 16 |
+| Turnhallen | 16 |
+| Nebenräume Schwimmen | 26 – 28 |
+| Werkstätten | 12 – 20 (je nach Nutzung) |
+| Windfänge, Garagen ohne Arbeitsräume | unbeheizt bzw. max. 5 (Frostschutz) |
+
+**Die drei Betriebsregeln, die den Verbrauch bestimmen**
+
+1. **Betriebszeiten.** Bürogebäude maximal 06.00 – 20.00 Uhr; Wohnbauten Mo – Fr 07.00 – 23.00,
+   Sa/So 08.00 – 24.00 Uhr. Ausserhalb wird abgesenkt.
+2. **Absenkgrenze 16 °C.** Im Absenkbetrieb soll die Raumtemperatur in der Regel 16 °C nicht
+   unterschreiten.
+3. **Keine Absenkung unter −10 °C Aussentemperatur.** Sonst wird die Solltemperatur tagsüber nicht
+   mehr erreicht — die Absenkung kippt dann von der Ersparnis in ein Komfort- und
+   Leistungsproblem. Das ist zugleich die Brücke zur Dimensionierungsfrage dieses Artikels: eine
+   knapp ausgelegte Anlage verträgt weniger Absenkung als eine reichlich ausgelegte.
+
+**Kopplung an die Gebäudehülle.** Die Richtlinie sieht bei ungenügend gedämmten Gebäuden, älteren,
+überhohen oder undichten Fenstern einen Zuschlag von **1 bis 2 °C** vor. Das ist das ehrliche
+Argument in der Sanierungsberatung: eine bessere Hülle senkt nicht nur den Bedarf, sie erlaubt bei
+gleicher Behaglichkeit eine **tiefere Solltemperatur** — die Einsparung fällt zweimal an.
+Umgekehrt heisst es, dass in einem schlecht gedämmten Bau die nominelle Solltemperatur nicht
+genügt, um Behaglichkeit herzustellen (Strahlungstemperatur der kalten Oberflächen, vgl.
+`[[u-werte-grenzwerte-ch]]`).
+
+⚠ **Negativbefund, ausdrücklich.** Die Richtlinie **beziffert an keiner Stelle**, wie viel
+Heizenergie eine tiefere Solltemperatur oder ein Absenkbetrieb spart — am Original nachgeprüft
+(Run 137). Die verbreitete Faustregel «ein Grad weniger spart rund sechs Prozent» ist **nicht**
+aus dieser Quelle belegbar. Wer sie in einer Beratung braucht, belegt sie eigens; die KB führt sie
+bis dahin nicht. Siehe FAQ **F240**.
