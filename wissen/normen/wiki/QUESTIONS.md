@@ -35,12 +35,28 @@ Ausschreibungs- und Vertragsbedingungen für Natursteinmauerwerk sind belegt, di
 Anforderungen nicht. Zugleich Nachfolgenorm der per 31.12.2011 ersetzten Empf. SIA 178:1996.
 Beschaffungsposten, gleiche Klasse wie N52-5 und die sechs ABB aus Run 51.
 
-**N53-2 — OFFEN: `sia-215-1978.md` und `sia-416-1-2007.md` brauchen ihre Refuter-Runden.**
-Für SIA 416/1 ist Kap. 3 durch diese Anlage in beiden Richtungen geprüft und inline
-korrigiert; die übrigen Kapitel liefen im selben Lauf durch die Refuter-Richtung. SIA 215
-ist frisch destilliert und bisher nur vom Hauptprozess stichprobenweise gegengelesen
-(Portlandzement-Typen PC/PCS 5/PCHS/HPC, Baugips Typ S/P, Inkrafttreten 01.01.1978 — alle
-am Original bestätigt). Beide bleiben `speculative`.
+**N53-2 — GESCHLOSSEN (17.08.2026, Run 54).** Beide Aufträge erledigt.
+- **SIA 416/1:2007:** Die Abdeckungsrichtung ist auf Kap. 0-2 und Kap. 4-5/Anhänge nachgeholt
+  (7 Segment-Agenten über S. 4-22 und S. 26-40). Ergebnis **37 Kern- und 20 Nebenlücken**,
+  alle inline eingearbeitet — darunter die τ-Schwelle von 10 % für «lichtdurchlässig»
+  (Ziff. 1.1.2), die Treppenauge-5-m²-Regel (Ziff. 1.1.1), der komplett fehlende Ziff. 2.2.1.2,
+  die Abgrenzungen der Verwendungszwecke (Ziff. 4.3.3) und die Vorzeichen-/Übertragungslogik
+  der Tabelle 3 (Ziff. 4.4.4). **Kein einziger falscher Wert, durchgehend fehlender Inhalt.**
+  Die vier von Run 53 beiläufig gemeldeten Lücken sind darin bestätigt und eingearbeitet.
+- **SIA 215:1978:** Refuter-Runde in zwei Segmenten gefahren — 41 bestätigt, 3 widerlegt,
+  1 Fundstelle falsch, alle korrigiert.
+
+Beide bleiben `speculative`, aber aus **neuen** Gründen: siehe N54-1 (SIA 416/1) und den
+Wertevorbehalt im Frontmatter von SIA 215.
+
+**N54-1 — OFFEN: Refuter-Runde auf den Run-54-Zuwachs von `sia-416-1-2007.md`.**
+Rund 37 Kernstellen sind neu eingearbeitet und damit **noch nicht widerlegungsgeprüft**. Der
+Hauptprozess hat eine Stichprobe an eigenen 300-dpi-Renderings nachgeprüft (S. 4, 6, 9, 17,
+21, 26, 33 — alle bestätigt, keine Widerlegung); **nicht** gerendert nachgeprüft und daher
+vorrangig zu prüfen sind S. 7-8, 10, 12-13, 18-20, 27-32 und 34-40. Erst danach ist die
+Statusfrage ohne Vorbehalt zu beantworten. Nach Methodik-Pflicht 11 ist neu zugewachsener
+Text genauso ein Entwurf wie ein Erstdestillat — eine Hebung jetzt würde Vollständigkeit mit
+Richtigkeit verwechseln.
 
 **N53-3 — OFFEN, aus dem Kalk/Gips-Punkt zu N52-4 herausgelöst: die formelle Frage zu
 SIA 215:1978.** Fachlich sind die Zement-Kapitel durch SIA 215.002/215.003 (EN 197-1/-2,
