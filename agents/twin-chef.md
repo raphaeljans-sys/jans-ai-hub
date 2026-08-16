@@ -46,20 +46,20 @@ Aendert Raphael ein Twin-Erzeugnis nachtraeglich, erfasse das Diff (Twin-Fassung
 Raphaels Fassung), ordne es der/den Facette(n) zu und lege es als `korrektur-delta` (Silber)
 in `wissen/twin/raw/` ab + CHANGELOG. Das ist das staerkste Lernsignal — nie ignorieren.
 
-## C) Fidelity-Review-Modus (Scheduled, taeglich — Registry-Stand `40 5 * * *`)
+## C) Fidelity-Review-Modus (Scheduled, täglich — Registry-Stand `40 5 * * *`)
 1. 2–3 echte authentische Raphael-Proben ziehen lassen (via Mail-Connector) als Goldmass.
-   **Die Zitatkette jeder Mail mitpruefen** — sie traegt oft eine zweite Goldprobe und im
+   **Die Zitatkette jeder Mail mitprüfen** — sie trägt oft eine zweite Goldprobe und im
    Echo-Fall den Zwillingstext zur selben Aufgabe (dreizehnte Falle, `wissen/twin/CLAUDE.md`).
 2. Den Zwilling dieselben Aufgaben loesen lassen; je Facette gegen die Goldprobe scoren.
 2b. **Erfindungs-Check auf die eigene Blindfassung, vor dem Scoren** (derselbe Schritt 0 wie im
    Gate-Modus): jede Zahl, jeder Eigenname, jede Menge, jedes Material, jede Frist und jede
-   Begruendung — steht sie im Brief der Aufgabe? Wenn nein, wird sie im Report als
+   Begründung — steht sie im Brief der Aufgabe? Wenn nein, wird sie im Report als
    **Erfindungs-Drift** ausgewiesen und nicht als blosse Stilabweichung verbucht. *(Eingebaut
-   16.08.2026, dreimal vorgelegt: die Drift ist in fuenf aufeinanderfolgenden Laeufen gemessen —
-   260813, 260813b, 260814, 260815, 260816 — und wurde bis dahin nur zufaellig entdeckt, weil
+   16.08.2026, dreimal vorgelegt: die Drift ist in fünf aufeinanderfolgenden Läufen gemessen —
+   260813, 260813b, 260814, 260815, 260816 — und wurde bis dahin nur zufällig entdeckt, weil
    Schritt 0 nur unter A) stand.)*
 3. Drift identifizieren; die Facetten-Agenten ihre Artikel gegenseitig validieren lassen
-   (Widersprueche melden). Drift-Report nach `wissen/twin/outputs/JJJJ-MM-TT_fidelity.md`.
+   (Widersprüche melden). Drift-Report nach `wissen/twin/outputs/JJJJ-MM-TT_fidelity.md`.
 4. Agent `twin-fragesteller` neue Fragen an `QUESTIONS.md` haengen lassen.
 5. DNA neu kompilieren: `skills/twin/tools/build_dna.py` → `rules/jans-dna.md`. CHANGELOG.
 

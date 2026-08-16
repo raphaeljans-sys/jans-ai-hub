@@ -2903,38 +2903,38 @@ Quelle: 10.–14.08.2026, authentisch; der Block «Sachkern wandert» zusätzlic
 `korrektur-delta`-Mail vom 13.08. 10:53 (→ `CLAUDE.md`, zwölfte Falle).
 
 ## Der Protokollpunkt ist eine Semikolon-Stichwortkette (belegt Fidelity 260816, authentisch)
-Die Fixierung des Besprochenen an den Fachplaner (10.06.2026 09:54) fuehrt vier Punkte, und keiner
+Die Fixierung des Besprochenen an den Fachplaner (10.06.2026 09:54) führt vier Punkte, und keiner
 davon ist ein Satz:
 
 ```
 Besprechung mit QS vom 10.06.26:
 Zu den einzelnen inhaltlichen Punkten:
-01 Moeblierung Empfang 1.14 Soziale Dienste; wie bisher moeglich; Festverschraubt; Produktdatenblatt pendent
-02 Evakuierungsvektor; keine Aenderung des Vektors; kein Stellplatz noetig; keine zusaetzlichen planerische Anpassungen
-03 Tuermodelle; Modell Breakout spezifisch festgelegt
+01 Möblierung Empfang 1.14 Soziale Dienste; wie bisher möglich; Festverschraubt; Produktdatenblatt pendent
+02 Evakuierungsvektor; keine Änderung des Vektors; kein Stellplatz nötig; keine zusätzlichen planerische Anpassungen
+03 Türmodelle; Modell Breakout spezifisch festgelegt
 04 Einheitlichkeit Booklet; Durch Raumnummerierungsystematik (<Name>; <Abteilung>) in die Wege geleitet; Revisionsplanung nach Abschluss Arbeiten pendent
 ```
 
 Form: **Nummer, Gegenstand samt Raumnummer, dann Feststellungen und der offene Rest, alles mit
-Semikolon getrennt, ohne Verb und ohne Wertung.** Die Laenge der Kette richtet sich nach der Zahl
+Semikolon getrennt, ohne Verb und ohne Wertung.** Die Länge der Kette richtet sich nach der Zahl
 der Feststellungen, nicht nach einer Vorlage; wo nichts offen ist, endet sie (03), sonst auf
-«pendent». Darunter **ein** Satz Gesamtstand («Die erwaehnten Punkte sind jetzt eingearbeitet.»)
-und der **Antrag auf den naechsten Schritt** («Ich wuerde gerne die ueberarbeitete Fassung … zur
-Kontrolle an <Person> senden.») — nicht die Bitte, das Protokoll zu bestaetigen.
+«pendent». Darunter **ein** Satz Gesamtstand («Die erwähnten Punkte sind jetzt eingearbeitet.»)
+und der **Antrag auf den nächsten Schritt** («Ich würde gerne die überarbeitete Fassung … zur
+Kontrolle an <Person> senden.») — nicht die Bitte, das Protokoll zu bestätigen.
 
 **Zwei Formmarker derselben Mail:**
 - **Die Signatur steht mitten in der Mail.** Nach dem Antrag folgt der volle FG-Block, und
-  **darunter laeuft der eigene, aeltere Text ungetrennt weiter** (die harte Veto-Passage, →
+  **darunter läuft der eigene, ältere Text ungetrennt weiter** (die harte Veto-Passage, →
   [[haltung]]): kein Zitat-Trenner, kein «Von:»-Header, keine Kennzeichnung. Wer die Mail von oben
-  liest, haelt sie fuer beendet.
-- **Die Empfaengerarchitektur ist dreistufig:** An = der zustaendige Fachplaner, Cc = die
-  Bauherrschaft, **Bcc = die Qualitaetssicherung und das Flaechenmanagement**. Der stille Mitleser
-  ist belegt und war bisher im Register nicht gefuehrt.
+  liest, hält sie für beendet.
+- **Die Empfängerarchitektur ist dreistufig:** An = der zuständige Fachplaner, Cc = die
+  Bauherrschaft, **Bcc = die Qualitätssicherung und das Flächenmanagement**. Der stille Mitleser
+  ist belegt und war bisher im Register nicht geführt.
 
-## Kein Anhangsverzeichnis, wenn die Anhaenge fuer sich sprechen (belegt 260816)
-Die Kaufberatung vom 09.06.2026 traegt **sieben** Anhaenge (Bewertung, Neubau-Potenzial, OEREB-
+## Kein Anhangsverzeichnis, wenn die Anhänge für sich sprechen (belegt 260816)
+Die Kaufberatung vom 09.06.2026 trägt **sieben** Anhänge (Bewertung, Neubau-Potenzial, OEREB-
 Auszug, UBS-Factsheet, Factsheet Baurecht, zwei Bildschirmfotos) und nennt im Text nur drei davon,
 in einem Satz, ohne Liste und ohne Dateinamen: «Ich habe Dir meine Liegenschaftsbewertung Factseet
 Baurecht sowie das UBS Local Factsheet beigelegt.» Das steht neben dem belegten Gegenmuster
-«Anhang-Dateinamen als Listenpunkte» (260815, Vergabemail) — **die Liste gehoert der Lieferung an
-den Ausfuehrenden, der Fliesstext der Beratung.**
+«Anhang-Dateinamen als Listenpunkte» (260815, Vergabemail) — **die Liste gehört der Lieferung an
+den Ausführenden, der Fliesstext der Beratung.**

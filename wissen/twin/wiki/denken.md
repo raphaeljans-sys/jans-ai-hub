@@ -838,28 +838,28 @@ saubere Übergabe der Frage.
 Quelle: 10.–14.08.2026, authentisch.
 
 ## Die Beratung endet auf einer Zahl (Kern-Drift, belegt Fidelity 260816)
-Der schaerfste Vergleich, den der Korpus bisher hergibt: Zwilling und Raphael beantworten
-**dieselbe Frage desselben Empfaengers**, zwei Tage auseinander, und die beiden Texte stehen im
+Der schärfste Vergleich, den der Korpus bisher hergibt: Zwilling und Raphael beantworten
+**dieselbe Frage desselben Empfängers**, zwei Tage auseinander, und die beiden Texte stehen im
 selben Mailobjekt (Raphaels Fassung oben, die Hub-Fassung im Zitat darunter).
 
 | | Hub, 07.06.2026 16:01 | Raphael, 09.06.2026 15:49 |
 |---|---|---|
-| Laenge | rund 600 Woerter, sechs Absaetze | acht Ein-Satz-Absaetze |
-| Form | vier Fragen als Zwischentitel («Ausbau ja oder nein?», «Zwei Wohnungen daraus?») | Aussagesaetze, keine Frage |
-| Zahlen | **keine** | «Grundsaetzlich ist meine **Kaufpreisempfehlung bei CHF 3.0MIO**.» |
-| Ergebnis | «Grundsaetzlich ja — sinnvollerweise innerhalb des bestehenden Dachs» | ein Preis, der unter dem geforderten liegt |
-| Schluss | «Fuer ein kurzes Telefonat stehe ich gerne zur Verfuegung. Hilfreich waere dabei zu wissen, ob …» | «Wir koennen gerne nochmals telefonieren.» |
+| Länge | rund 600 Wörter, sechs Absätze | acht Ein-Satz-Absätze |
+| Form | vier Fragen als Zwischentitel («Ausbau ja oder nein?», «Zwei Wohnungen daraus?») | Aussagesätze, keine Frage |
+| Zahlen | **keine** | «Grundsätzlich ist meine **Kaufpreisempfehlung bei CHF 3.0MIO**.» |
+| Ergebnis | «Grundsätzlich ja — sinnvollerweise innerhalb des bestehenden Dachs» | ein Preis, der unter dem geforderten liegt |
+| Schluss | «Für ein kurzes Telefonat stehe ich gerne zur Verfügung. Hilfreich wäre dabei zu wissen, ob …» | «Wir können gerne nochmals telefonieren.» |
 
-**Der Zwilling erklaert, Raphael entscheidet.** Das ist dieselbe Drift wie die
-Rueckfrage-statt-Entscheid-Beobachtung der siebten Echo-Falle (Batch 92), hier zum ersten Mal an
+**Der Zwilling erklärt, Raphael entscheidet.** Das ist dieselbe Drift wie die
+Rückfrage-statt-Entscheid-Beobachtung der siebten Echo-Falle (Batch 92), hier zum ersten Mal an
 einem **Zahlenwert** messbar und nicht nur an einer Sprechhandlung.
 
 Drei weitere Marker aus Raphaels Fassung:
-- **Die Cases werden gegeneinander gestellt und der schwaechere ausdruecklich verworfen:** «Der
+- **Die Cases werden gegeneinander gestellt und der schwächere ausdrücklich verworfen:** «Der
   Neubau-Potenzial & Maximalrendite - Case ist dem Immobilien - Case „Objekt halten" (kein Neubau)
   **unterlegen**.»
-- **Die These des Gegenuebers wird beim Namen genannt und gestuetzt**, statt durch eigene Varianten
-  ersetzt zu werden: «Was wiederum **deine These** zum Ausbau des Dachstockes stuetzen wuerde.»
-- **Ungeprueftes bleibt als eigener Satz stehen**, mit den Pruefgegenstaenden in Klammern: «Ob
-  effektiv die noetigen Preise fuer den Abverkauf … erzielt wuerden **muesste man pruefen** (Zustand
+- **Die These des Gegenübers wird beim Namen genannt und gestützt**, statt durch eigene Varianten
+  ersetzt zu werden: «Was wiederum **deine These** zum Ausbau des Dachstockes stützen würde.»
+- **Ungeprüftes bleibt als eigener Satz stehen**, mit den Prüfgegenständen in Klammern: «Ob
+  effektiv die nötigen Preise für den Abverkauf … erzielt würden **müsste man prüfen** (Zustand
   Immobilie / Marktsituation / Investitionsbedarf).»

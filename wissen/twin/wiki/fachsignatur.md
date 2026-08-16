@@ -2233,21 +2233,21 @@ Quelle: 10.–14.08.2026, authentisch.
 
 ## Brandschutz- und Feuerwehr-Vokabular (belegt Fidelity 260816, authentisch)
 Aus der Auflagebereinigung KISPI an den Brandschutzplaner (10.06.2026), durchgehend ohne
-Erlaeuterung an den Fachplaner verwendet:
+Erläuterung an den Fachplaner verwendet:
 
-- **Evakuierung/Intervention:** Evakuierungsvektor · FW Einsatzplaene · SRZ (Schutz & Rettung
-  Zuerich) · Anfahrt eines max. **18T** Fahrzeugs · Stellplatz gegen blossen Anfahrtsplatz ·
+- **Evakuierung/Intervention:** Evakuierungsvektor · FW Einsatzpläne · SRZ (Schutz & Rettung
+  Zürich) · Anfahrt eines max. **18T** Fahrzeugs · Stellplatz gegen blossen Anfahrtsplatz ·
   Brandwache · Zugang Intervention auf der «Nicht-Fluchtwegseite».
-- **Tueren im Fluchtweg:** VKF-zertifizierte Schiebetuere **EI30** · «nach **System 4**
-  auszufuehren» · brandfallgesteuert ueber **BMA** mit Notbetrieb «Zu» · bei Netzausfall
-  selbstschliessend mit Brandschutzfunktion · **Break-Out** oder **Swing-Out** · Tuerbeschlaege nach
+- **Türen im Fluchtweg:** VKF-zertifizierte Schiebetüre **EI30** · «nach **System 4**
+  auszuführen» · brandfallgesteuert über **BMA** mit Notbetrieb «Zu» · bei Netzausfall
+  selbstschliessend mit Brandschutzfunktion · **Break-Out** oder **Swing-Out** · Türbeschläge nach
   **SN EN 179** · **ZUKO** als bauherrenseitige Zusatzvorgabe.
 - **Planwesen:** BSP (Brandschutzplan) · Stellungnahme Brandschutz · Booklet ·
   Raumnummerierungsystematik · Revisionsplanung · Produktdatenblatt.
 
 **Der Marker ist nicht die Vokabelliste, sondern die Verwendung:** Raphael zitiert die eigene
-Baueingabe woertlich als Blockzitat und stellt ihr den Ist-Zustand der Plaene gegenueber («Diese
-sind in den Brandschutzplaenen nicht so ausgewiesen!»). Die Fachsprache dient dem Nachweis eines
+Baueingabe wörtlich als Blockzitat und stellt ihr den Ist-Zustand der Pläne gegenüber («Diese
+sind in den Brandschutzplänen nicht so ausgewiesen!»). Die Fachsprache dient dem Nachweis eines
 Widerspruchs, nicht der Demonstration von Kenntnis. Die eine offene Stelle bleibt als eingeklammerte
 Frage im Zitat stehen: «Break-Out oder Swing-Out Funktion **(was jetzt?)**».
 
@@ -2256,19 +2256,19 @@ In der Beratung eines Kaufinteressenten (09.06.2026) rechnet Raphael nicht in Ve
 sondern in **benannten Cases**, die gegeneinander gestellt werden: «Neubau-Potenzial &
 Maximalrendite - Case» gegen «Immobilien - Case ‹Objekt halten› (kein Neubau)», dazu
 «Stockwerkeigentum als Renditeobjekt», «Abverkauf der Stockwerkeigentumswohnungen»,
-«Kaufpreisempfehlung», «Dachstock» (nicht «Dachgeschoss»). Die drei Pruefgegenstaende stehen als
-Schraegstrich-Kette: «Zustand Immobilie / Marktsituation / Investitionsbedarf».
+«Kaufpreisempfehlung», «Dachstock» (nicht «Dachgeschoss»). Die drei Prüfgegenstände stehen als
+Schrägstrich-Kette: «Zustand Immobilie / Marktsituation / Investitionsbedarf».
 
 ## Auslagerung aus dem Do-Block (260816, kein Regelverlust)
 Wie bei [[stimme]] wurde Beleg-Prosa in den Fliesstext verschoben, um den Kompilier-Riegel zu
 bedienen. Entfallen sind **nur Beispiele**: die Amtsstellen-Liste zur Auflagen-Weitergabe (UGZ
-Energie im Bau · UGZ Gebaeudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
-Baumerhalt · Tiefbauamt), das Zitat «zwingend in Holz, mit Kaempfer und Bruestungsfeld», das
+Energie im Bau · UGZ Gebäudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
+Baumerhalt · Tiefbauamt), das Zitat «zwingend in Holz, mit Kämpfer und Brüstungsfeld», das
 Plan-Metadaten-Beispiel «Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt», die
-Subsumtionsformel «in meinem Fall erfuellt, da …», die Gegenueberstellungsquellen «kantonale
-Definition gegen Kommentar/Rechtsprechung», das Beispiel zur Rechts-/Schutzgroessen-Kopplung («Wie
-nahe darf der Baukoerper architektonisch und feuerpolizeilich …»), die Aufzaehlung der
+Subsumtionsformel «in meinem Fall erfüllt, da …», die Gegenüberstellungsquellen «kantonale
+Definition gegen Kommentar/Rechtsprechung», das Beispiel zur Rechts-/Schutzgrössen-Kopplung («Wie
+nahe darf der Baukörper architektonisch und feuerpolizeilich …»), die Aufzählung der
 Wettbewerbs-Kennwerte (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname, Ug-Wert,
-PV-Flaeche, Label), «Bestandsbaeume ausgewiesen» sowie die Handelsregister-Zeilenform «Nachname,
+PV-Fläche, Label), «Bestandsbäume ausgewiesen» sowie die Handelsregister-Zeilenform «Nachname,
 Vorname, von <Heimatort>, in <Wohnort> (Funktion)» samt «Kollektivunterschrift zu zweien».
-Saemtliche Regeln stehen unveraendert im Do-Block, die Belege in den Abschnitten oben.
+Sämtliche Regeln stehen unverändert im Do-Block, die Belege in den Abschnitten oben.

@@ -3737,55 +3737,55 @@ und dass sie steigt, ist selbst ein Gold-Indiz, denn Zwillingstext interpunktier
 Quelle: 10.–14.08.2026, authentisch (13 Exchange-/Apple-Mail-Eigentexte) + 1 `korrektur-delta`
 (13.08. 10:53, versendeter und überarbeiteter Hub-Entwurf, → `CLAUDE.md` zwölfte Falle).
 
-## Der Kurzgruss haengt am Register, nicht am Sachauftrag (belegt Fidelity 260816, authentisch)
-Die Klausel «Kurzgruss gehoert dem Reply OHNE eigenen Sachauftrag» (260813) ist zweifach
+## Der Kurzgruss hängt am Register, nicht am Sachauftrag (belegt Fidelity 260816, authentisch)
+Die Klausel «Kurzgruss gehört dem Reply OHNE eigenen Sachauftrag» (260813) ist zweifach
 widerlegt und in der Do-Regel ersetzt. Belege, alle Outlook-nativ (`Aptos` + `rgb(0,0,0)`, kein
 Wrapper, kein Geviertstrich):
 
-| Mail | Register / Empfaenger | Sachauftrag | Gruss |
+| Mail | Register / Empfänger | Sachauftrag | Gruss |
 |---|---|---|---|
-| 09.06.2026 15:49, Kaufberatung an den Interessenten | Du, EINE Person, kein Cc | ja, Kaufpreisempfehlung | «Lieber Gruss und schoener Abend.» / «Raphael.» |
-| 03.06.2026 15:54, Vergabe Kuechenbau (Fidelity 260815) | Du, Cc 2 | ja, Auftrag | «Lieber Gruss» |
+| 09.06.2026 15:49, Kaufberatung an den Interessenten | Du, EINE Person, kein Cc | ja, Kaufpreisempfehlung | «Lieber Gruss und schöner Abend.» / «Raphael.» |
+| 03.06.2026 15:54, Vergabe Küchenbau (Fidelity 260815) | Du, Cc 2 | ja, Auftrag | «Lieber Gruss» |
 | 10.06.2026 09:54, Auflagebereinigung an den Fachplaner | Du-Anrede «Hallo Jens», Cc 2 + Bcc 2 | ja | FG + voller Block |
-| 09.06.2026 11:25 / 11:29, Behoerde | Sie | Bitte | FG + voller Block |
+| 09.06.2026 11:25 / 11:29, Behörde | Sie | Bitte | FG + voller Block |
 
 Der trennende Umstand ist nicht der Sachauftrag, sondern **wer mitliest**: Du-Mail an eine
-einzelne Person traegt den Kurzgruss, sobald ein Sie-Register, eine Behoerde oder ein Cc/Bcc
+einzelne Person trägt den Kurzgruss, sobald ein Sie-Register, eine Behörde oder ein Cc/Bcc
 dazukommt, steht FG + Block. Die Vergabemail vom 03.06. (Du, Cc 2, Kurzgruss) bleibt der
-Grenzfall — sie ist mit dem Register-Kriterium besser erklaert als mit dem Sachauftrag, aber
-nicht widerspruchsfrei; als offener Punkt in [[QUESTIONS]] 260816 #3 gefuehrt.
+Grenzfall — sie ist mit dem Register-Kriterium besser erklärt als mit dem Sachauftrag, aber
+nicht widerspruchsfrei; als offener Punkt in [[QUESTIONS]] 260816 #3 geführt.
 
-**Zwei Nebenmarker aus derselben Mail:** der Kurzgruss wird **erweitert** («und schoener Abend»),
-und der Vorname traegt einen **Punkt** («Raphael.»). Beide bisher unbelegt.
+**Zwei Nebenmarker aus derselben Mail:** der Kurzgruss wird **erweitert** («und schöner Abend»),
+und der Vorname trägt einen **Punkt** («Raphael.»). Beide bisher unbelegt.
 
-## Der Service-Satz traegt sein Objekt (Korrektur 260816, Spannung vom 260815 aufgeloest)
+## Der Service-Satz trägt sein Objekt (Korrektur 260816, Spannung vom 260815 aufgelöst)
 Die Do-Klausel «im Sammel-/Du-Register ohne ‹Ihnen› und ohne Schlusspunkt» ist im Objekt-Teil
-widerlegt, im Punkt-Teil bestaetigt-schwankend:
+widerlegt, im Punkt-Teil bestätigt-schwankend:
 
-- 10.06.2026, an den Fachplaner: «Fuer Fragen und Loesungen stehe ich **dir** gerne jederzeit zur
-  Verfuegung» — mit Objekt, **ohne** Schlusspunkt.
-- 03.06.2026, Vergabemail (Fidelity 260815): «stehe ich **Dir** jederzeit gerne zur Verfuegung.» —
+- 10.06.2026, an den Fachplaner: «Für Fragen und Lösungen stehe ich **dir** gerne jederzeit zur
+  Verfügung» — mit Objekt, **ohne** Schlusspunkt.
+- 03.06.2026, Vergabemail (Fidelity 260815): «stehe ich **Dir** jederzeit gerne zur Verfügung.» —
   mit Objekt, **mit** Schlusspunkt.
 
-Zwei unabhaengige Golds: das Objekt bleibt immer, der Schlusspunkt ist intermittierend. Damit ist
-die Spannung 1 aus dem Fidelity-Report 260815 aufgeloest.
+Zwei unabhängige Golds: das Objekt bleibt immer, der Schlusspunkt ist intermittierend. Damit ist
+die Spannung 1 aus dem Fidelity-Report 260815 aufgelöst.
 
 ## Auslagerung aus dem Do-Block (260816, kein Regelverlust)
-Der Kompilier-Riegel stand bei 3 B Reserve; um die drei Korrekturen dieses Laufs ueberhaupt ins
+Der Kompilier-Riegel stand bei 3 B Reserve; um die drei Korrekturen dieses Laufs überhaupt ins
 Gehirn zu bringen, wurde Beleg-Prosa aus dem Do-Block hierher verschoben. **Keine Regel ist
 entfallen**, nur ihre Beispiele:
 
 - Emoji-Variante «:)» neben 😊; «warm-sozial privat» als Langform von «privat-sozial».
-- Beispielpaar «iterativer Zwischenstand ‹kurzes OK-Feedback› / Schlussabgabe ‹Bitte um Pruefung
-  und Freigabe›» (Regel unveraendert gueltig, Beleg in den Abschnitten unten).
-- «Wunschzeile als Schluss ohne Gruss» → verkuerzt zu «grussloser Wunschsatz».
-- Beim Rueckruf-Wunsch die Registerverteilung (waermstes Peer-Du strippt die Mail, Lieferanten-Sie
-  traegt den Call-to-Action nur im Betreff) — Regel im Abschnitt weiter unten.
+- Beispielpaar «iterativer Zwischenstand ‹kurzes OK-Feedback› / Schlussabgabe ‹Bitte um Prüfung
+  und Freigabe›» (Regel unverändert gültig, Beleg in den Abschnitten unten).
+- «Wunschzeile als Schluss ohne Gruss» → verkürzt zu «grussloser Wunschsatz».
+- Beim Rückruf-Wunsch die Registerverteilung (wärmstes Peer-Du strippt die Mail, Lieferanten-Sie
+  trägt den Call-to-Action nur im Betreff) — Regel im Abschnitt weiter unten.
 - Beim ultrakurzen Du-Reply das Beispiel «Ich melde mich.»; bei der schlechten Nachricht die
-  Erlaeuterung «kein ‹schade›, nur der naechste Schritt».
-- Im Eigendokument-Absatz die Aufzaehlung «Satzform, Kapitelkopf, Zahlenkolonne,
+  Erläuterung «kein ‹schade›, nur der nächste Schritt».
+- Im Eigendokument-Absatz die Aufzählung «Satzform, Kapitelkopf, Zahlenkolonne,
   Szenarienbenennung» und der Zusatz «keine Semantik ableiten, keine neuen erfinden»; die
-  Untergattungs-Formspezifikationen (a)/(b)/(c) stehen unveraendert im Abschnitt
+  Untergattungs-Formspezifikationen (a)/(b)/(c) stehen unverändert im Abschnitt
   «Eigendokument-Untergattungen».
 - Im Englisch-Absatz die Zitatbeispiele («Unfortunately we were not able to …», «It would be
   helpful if you could …») und «ohne Trostfloskel».
