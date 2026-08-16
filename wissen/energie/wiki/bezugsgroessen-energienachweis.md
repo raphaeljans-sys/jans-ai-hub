@@ -79,6 +79,11 @@ den Nachweis. Vgl. Skill `volumenstudie` und `grobkosten-onepager`.
 - ⚠ **Schwache Quelle bei der Flächenhierarchie:** Die SIA-416-Hierarchie GF/NGF/HNF/NNF stammt
   im Destillat aus einem Dokument einer privaten Immobilienfirma, nicht von einer Normstelle.
   Für verbindliche Flächendefinitionen ist SIA 416 selbst zu ziehen (Skill `normen`).
+  **Nachtrag 16.08.2026 (Wissens-Chef Run 34): der autoritative Ersatz liegt im Haus bereit** —
+  `[[sia-416-2003]]` in der KB `normen` (`status: established`, Ziff. 2, deutscher Normteil
+  komplett gelesen) trägt die Hierarchie GF = NGF + KF, NGF = NF + VF + FF sowie die
+  Abgrenzung HNF/NNF mit Fundstelle. Die schwache RHYMO-Quelle ist damit ersetzbar; der
+  Abgleich Begriff für Begriff steht noch aus.
 - Die EBF-Abgrenzungsregel («Beheizen sonst üblich») ist über SIA 380/1:**2001** Anhang F belegt;
   ob sie in der geltenden Ausgabe wortgleich steht, ist nicht verifiziert.
 - Eine belegte Zahlentabelle «Gebäudehüllziffer → Grenzwertzuschlag» fehlt in der KB noch; die

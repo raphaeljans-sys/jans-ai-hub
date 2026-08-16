@@ -1,3 +1,32 @@
+
+## 2026-08-16 (Wissens-Chef Run 34, Cross-KB) — kein Eingriff in diese KB, aber drei neue Abnehmer-Kanten und ein bestätigter Fehler beim Abnehmer
+
+Diese KB wurde in diesem Lauf **nicht verändert** — der Eintrag hält fest, wo sie neu als Quelle
+gezogen wird und wo ein Abnehmer sie falsch wiedergegeben hatte.
+
+- **`destillate/sia-416-2003.md` (`established`) ist jetzt zweifach verlinkt:** aus
+  `energie/wiki/bezugsgroessen-energienachweis.md` und
+  `energie/destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`. Beide führten dort den
+  Vorbehalt, ihre Flächenhierarchie stamme aus einer privaten Immobilienfirma statt von einer
+  Normstelle — der belastbare Ersatz lag seit dem 14.07.2026 hier und war nur nie verlinkt.
+- **`destillate/sia-416-1-2007.md` (`speculative`) als Warnkarte verlinkt**, nicht als Beleg:
+  Ziff. 3.2.2 (Abstellräume/Schächte unter 10 m² zählen abweichend doch zur AE) ist in
+  `energie` als **Prüfauftrag** gesetzt, mit ausdrücklichem Hinweis auf Rule `normen-referenz`
+  Ziff. 1b. Eine blind gesetzte Kante auf eine Warnkarte sieht aus wie ein Beleg.
+- **`destillate/sia-118-1991.md` (`established`) hat einen Fehler beim Abnehmer aufgedeckt:**
+  `skills/offertenpruefung` führte «Gewaehrleistung (typisch 2 Jahre / SIA 118 5 Jahre)» — die
+  Verwechslung von Garantie-/Rügefrist (Art. 172, **2 Jahre**) mit der Verjährung der
+  Mängelrechte (Art. 180, 5 Jahre), vor der der Begriffe-Abschnitt dieses Destillats (Z. 142)
+  wörtlich warnt. Adversarial gegengeprüft, bestätigt, im Skill korrigiert.
+- **Zweiter Abnehmer-Befund aus demselben Destillat:** `skills/unternehmerkontrolle` und
+  `skills/werkvertrag` führten Rückbehalt und Garantie gemeinsam unter «10 % Art. 181».
+  Am Destillat gegengelesen: das sind zwei Sicherheiten mit eigener Fundstelle und eigener
+  Schwelle — Rückbehalt bis Abnahme Art. 149-150 (>Fr. 300'000 → 5 %, min. Fr. 30'000),
+  Solidarbürgschaft nach Abnahme Art. 181 (>Fr. 200'000 → 5 %, min. Fr. 20'000). Beide Skills
+  getrennt nachgeführt.
+- **`destillate/sia-215-1978.md` (neu 16.08., Run 53) geprüft:** inhaltlich themenfremd zu den
+  Flächen-/Bezugsgrössen dieses Laufs (mineralische Bindemittel), keine Berührung, kein Befund.
+
 ## 2026-08-16 — Run 53: Gegenrichtung «fehlender Inhalt» gemessen (N52-2 geschlossen), Refuter-Runde SIA 416/1, N52-6 geklärt
 
 Lauf-Report `outputs/2026-08-16_normen-nacht-run53.md`, Anlage

@@ -66,8 +66,14 @@ Aufwand → Kostendach) und mit Default vorschlagen.
 3. **Verguetungsmodell** waehlen, passenden Verguetungstext einsetzen.
 4. **Termine + Konventionalstrafe** konkret setzen (Ziff. 22) — vergabekritisch,
    nie als Platzhalter stehen lassen.
-5. **Garantie/Rueckbehalt** 10 % (Art. 181 SIA 118), Garantiefrist 2 J., Verjaehrung
-   5/10 J.
+5. **Rueckbehalt und Garantie getrennt setzen** — zwei Sicherheiten, zwei Fundstellen,
+   zwei Schwellen (praezisiert 16.08.2026, Wissens-Chef Run 34; die Zeile fuehrte beide
+   zuvor unter «10 % Art. 181»): **Rueckbehalt bis Abnahme** 10 %, ueber Fr. 300'000.–
+   noch 5 %, min. Fr. 30'000.– (SIA 118:1991 **Art. 149-150**); **Solidarbuergschaft nach
+   Abnahme** 10 %, ueber Fr. 200'000.– noch 5 %, min. Fr. 20'000.– (**Art. 181**), beide
+   max. Fr. 1 Mio. Garantie-/Ruegefrist 2 J. (Art. 172), Verjaehrung der Maengelrechte
+   5 J. (Art. 180), bei absichtlich verschwiegenen Maengeln 10 J. Quelle
+   `wissen/normen/destillate/sia-118-1991.md`, `status: established`.
 6. **PDF** erzeugen (Verbindlichkeit), **doppelt ablegen** (Projektordner
    `…06 WV/` + AI-Hub-Output), **Mail-Entwurf** nach `10_dokumente-standard.md`.
 7. **Uebergabe an Phase H**: Garantieverfalldaten, Termine, Regieansaetze und

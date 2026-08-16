@@ -10,7 +10,7 @@ description: Offerten-/Angebotspruefungs-Agent fuer Bau-, Architektur- und Spezi
 - **Trigger:** Greift, sobald eine oder mehrere eingegangene Offerten (Unternehmer, Spezialplaner, Lieferant) systematisch zu prüfen sind — Vollständigkeit, Plausibilität, Marktkonformität, Risiken, Reduktionspotenzial. Auch wenn der Benutzer nur eine Offerten-/Angebots-PDF anhängt. Gegenstück zu `ausschreibung` (dort gehen Devis raus, hier kommen Offerten rein).
 - **Inputs:** Die Offerte(n) als PDF/DOCX/Mail inkl. Beilagen (Positionsliste, Pläne, Installationslegende, AGB), Plangrundlage (Nr./Revision), Projekt-/Gewerk-Bezug; ideal die LV-Grundlage aus `ausschreibung` zum Abgleich; zur technischen Plausibilisierung der angebotenen Systeme die KB `wissen/bauprodukte` (Aufbau, Kennwerte, Einsatzgrenzen, Fehlerbilder je Gewerk nach BKP).
 - **Output-Ablage:** Factsheet/Strategie als .md unter `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/offertenpruefung/<jahr>/<YYMMDD>_<projektnr>_<projekt>_<gewerk>_<anbieter>/` (`YYMMDD_Factsheet_…`, `YYMMDD_Reduktionsstrategie_…`, `YYMMDD_Klaerungsfragen_…`). Reine Kurzeinschätzung ohne verlangtes Dokument: kein Datei-Output (nur Antwort), ausser explizit ein Dokument verlangt.
-- **Abhaengige Rules:** dokument-layout-standard, umlaute-konvention, dateinamen-konvention, bkp-2017-referenz, identifikatoren-verifizieren (Projektnr./Adresse/Termin), mail-formatierung (bei Klärungs-/Antwortmails), auftrags-dekomposition (mehrere Offerten) + Korrektur-Pflicht (jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`).
+- **Abhaengige Rules:** dokument-layout-standard, umlaute-konvention, dateinamen-konvention, bkp-2017-referenz, normen-referenz (SIA 118 und SIA 1024 — Fundstelle mit Norm/Ausgabe/Ziffer aus `wissen/normen/destillate/`, und vor dem Zitieren das Feld `status:` des Destillats lesen; ergaenzt 16.08.2026, Wissens-Chef Run 34: der Skill trifft in der Gewaehrleistungs-Pruefung eine SIA-118-Fristenaussage und fuehrte sie bis dahin ohne Fundstelle), identifikatoren-verifizieren (Projektnr./Adresse/Termin), mail-formatierung (bei Klärungs-/Antwortmails), auftrags-dekomposition (mehrere Offerten) + Korrektur-Pflicht (jedes Texterzeugnis vor Ausgabe durch Skill `korrektur`).
 - **Vorgelagert:** ausschreibung
 - **Nachgelagert:** werkvertrag
 
@@ -67,7 +67,12 @@ Pro Position pruefen:
 - **Lieferzeit** (Wochen ab Bestellung — zum Bauprogramm passend?)
 - **Zahlungsplan** (typisch 30/40/30 oder 50/25/25 — Risiko fuer Bauherr bei hoher Anzahlung)
 - **Bauseits-Leistungen** (Sanitaer, Elektro, Lueftung, Baumeister — Kostenrisiko nicht in Offerte enthalten)
-- **Gewaehrleistung** (typisch 2 Jahre / SIA 118 5 Jahre)
+- **Gewaehrleistung** (typisch 2 Jahre — das ist zugleich die Garantie-/Ruegefrist nach
+  SIA 118:1991 Art. 172; die **5 Jahre** sind NICHT die Gewaehrleistung, sondern die
+  separate Verjaehrung der Maengelrechte nach Art. 180. Quelle
+  `wissen/normen/destillate/sia-118-1991.md`, `status: established`. Korrigiert
+  16.08.2026, Wissens-Chef Run 34 — die Zeile las sich zuvor als «SIA 118 5 Jahre»
+  und haette eine normkonforme 2-Jahres-Offerte als unterdurchschnittlich bewertet.)
 - **Preisbindung** (fix oder Indexbindung)
 - **Stornobedingungen** / Aenderungen
 

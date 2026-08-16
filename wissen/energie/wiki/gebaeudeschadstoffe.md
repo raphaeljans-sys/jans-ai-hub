@@ -141,6 +141,22 @@ Bestand lohnt sich eine portfolioweite Vorprüfung.
 gelesen 16.08.2026). ⚠ Datenstand 2004; Entsorgungswege/Labor-Verzeichnisse der Quelle
 möglicherweise veraltet, für den Einzelfall neu prüfen.
 
+**Gegenkante in die KB `planungsgrundlagen` (gesetzt 16.08.2026, Wissens-Chef Run 34):** Dasselbe
+KBOB-Merkblatt 2004/4 ist dort seit dem 14.07.2026 erfasst —
+`wissen/planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §17.3,
+`status: established`, mit demselben vierstufigen Entscheidbaum und denselben Schwellen
+(>50 ppm Sanierungspflicht als Sonderabfall; Innenraumluft-Jahresmittel >6 µg/m³ bei
+Tagesaufenthalt bzw. >2 µg/m³ bei Daueraufenthalt). **Kein Widerspruch, aber 33 Tage
+Doppelarbeit an derselben Primärquelle** — der Cross-KB-Lauf hat es erst jetzt sichtbar
+gemacht. **Führung:** dieses Destillat ist die tiefere Fassung (18 Seiten Grundlage vollständig
+gelesen, dort nur Auszug S. 1–4); `planungsgrundlagen` führt dafür zusätzlich **PCP** als
+drittes Substanzprofil und die feinere Bauteilliste, die hier fehlen — dort nachschlagen, bevor
+ein Schadstoff-Screening als vollständig gilt. Der dortige Verweis
+`[[energie-baustoffe-schadstoffe-rueckbau]]` zeigt **nicht** auf diesen Artikel, sondern auf
+einen gleichnamigen Artikel **innerhalb** von `planungsgrundlagen` (kantonale AWEL-Checkliste,
+Vier-Fälle-Weiche Art. 16 VVEA) — die KB benennt ihre eigenen Artikel mit Domänen-Präfixen
+`energie-` / `recht-norm-` / `brandschutz-`. Nicht als KB-Verweis missdeuten und nicht umbiegen.
+
 ## Gebäudescreening als kostengünstige Vorstufe (Ergänzung 12.08.2026)
 
 Vor der pflichtigen Schadstoffabklärung (Fall 1/2 oben) lohnt sich ein **visuelles

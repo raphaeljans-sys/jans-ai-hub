@@ -3,6 +3,59 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-16 — Wissens-Chef Run 34 (Abendlauf, 23,7 h nach Run 33)
+
+- **Bericht:** `outputs/2026-08-16_wissens-chef-run34.md`. Delta 62 Dateien in `wissen/`
+  (115 Commits). Zuschnitt **5 Melder + 2 Refuter (7 Agenten, 1,25 Mio Token)** — derselbe
+  Zuschnitt wie Run 33, Verlinkungen wieder deterministisch per `grep` vom Hauptprozess statt
+  adversarial. Uhr-Kontrolle bestanden (Station 23:14:48 CEST gegen Synology 22:59:53, = HEAD
+  `cfe1dc8c`).
+- **10 Meldungen: 8 weiche (Verlinkung/Vorbehalt), 2 harte. Von den harten hielt 1, fiel 1.**
+- **Der Lauf hat sein Muster gewechselt: statt drei Einzelfaellen ein Korpus-Befund.** Run 33
+  fand die Dachbegruenungs-Doppeldestillation, dieser Lauf fand zwei weitere (PCB-Fugendichtungs-
+  massen, Raumtemperatur-Richtlinie) — und daraufhin die gemeinsame Ursache: **von den 25
+  `energie`-Destillaten mit Quelle aus dem AHB-Ordner `Projektadmin AHB` ist genau EINES in
+  `planungsgrundlagen` genannt**, obwohl dort ein 1'439-zeiliger Artikel denselben Ordner
+  systematisch auswertet. Haerteste Einzelmessung: die neun `ahb-zuerich-gt-rl1..9`-Destillate
+  (03.08.) gegen §12/§13 des pg-Artikels (14./25.07.) — dieselben neun Quell-PDF, neun Tage
+  auseinander, unabhaengig destilliert, null Kanten in beide Richtungen. **Drei Einzelfaelle
+  waren Symptome; die Matrixzeile fehlte fuer den ganzen Korpus.** Fuehrungszeile gesetzt.
+- **Bestaetigter Widerspruch mit Geldfolge (`skills/offertenpruefung`):** die Zeile
+  «Gewaehrleistung (typisch 2 Jahre / SIA 118 5 Jahre)» verwechselt Garantie-/Ruegefrist
+  (Art. 172, 2 Jahre) mit der Verjaehrung der Maengelrechte (Art. 180, 5 Jahre) — genau die
+  Verwechslung, vor der `sia-118-1991.md` Z. 142 woertlich warnt. Wirkung: eine normkonforme
+  2-Jahres-Offerte waere als unterdurchschnittlich bewertet worden. Korrigiert, `normen-referenz`
+  in den Rules-Block ergaenzt (der Skill fuehrte als **einziger** der vier Bauleitungs-Skills
+  eine SIA-118-Fristenaussage ohne jeden Normen-Bezug: `grep -c` = 0).
+- **Zweiter Fund derselben Achse, in ZWEI Skills gleichzeitig:** `unternehmerkontrolle` und
+  `werkvertrag` fuehrten Rueckbehalt und Garantie gemeinsam unter «10 % Art. 181». Am Destillat
+  gegengelesen: zwei Sicherheiten, zwei Fundstellen, zwei verschiedene Schwellen (Art. 149-150,
+  >Fr. 300'000 → 5 %, min. Fr. 30'000 · Art. 181, >Fr. 200'000 → 5 %, min. Fr. 20'000). Beide
+  Dateien gleichzeitig nachgefuehrt, damit sie nicht wieder auseinanderlaufen. **Damit ist die
+  Uebergabe E3 aus Run 33 eingeloest** — die Achse Bauleitungs-Skills ↔ `normen` trug drei
+  Befunde in drei von vier Skills.
+- **Der gefallene Befund ist der lehrreichste:** Ein Melder hielt `[[energie-baustoffe-schadstoffe-rueckbau]]`
+  in `planungsgrundlagen` fuer einen toten Link in die KB `energie` und wollte ihn auf
+  `[[gebaeudeschadstoffe]]` umbiegen. Der Refuter belegte, dass die Datei existiert — **als
+  KB-eigener Artikel in `planungsgrundlagen`**, deren Wiki seine Artikel mit Domaenen-Praefixen
+  `energie-`/`recht-norm-`/`brandschutz-` benennt. Die vorgeschlagene «Korrektur» haette einen
+  funktionierenden Link zerstoert. **Ein Dateiname mit KB-Namen als Praefix ist keine
+  KB-Zuordnung** — der Warnsatz steht jetzt in der gesetzten Kante.
+- **Sauberer Negativbefund, selbst gemessen:** die drei neuen `bauprodukte`-Artikel fuehren
+  BKP 221.0 (Fenster aus Holz), 281.0 (Estriche) und 233 (Leuchten und Lampen) — alle drei
+  gegen `references/bkp-2017/BKP-2017-Liste.md` verifiziert, keine Phantom-Subcodes wie im
+  Fall 271.10. Kein Eingriff noetig, nur eine fehlende Matrixzeile (Fenster-Kennwerte, gesetzt).
+- **Offen fuer Raphael:** die sechs Du-Kontakte aus Run 33 sind **unveraendert nicht eingetragen**
+  (je `grep -c` = 0 in `rules/anrede-kontakte.md`, die Datei hat seit 15.08. keinen Commit);
+  neu hinzu kommt Levi Hiltmann, der nur als Beleg-Beispiel im Fliesstext steht, aber keine
+  Tabellenzeile hat. Weiterhin bewusst nicht selbst gesetzt — die Rule verlangt Bestaetigung,
+  eine Ableitung aus Mailverkehr ist keine.
+- Schreib-Kontrolle 260811: zehn Dateien, nativ per ssh gemessen. Sechs rein additiv (-0), drei
+  Skills mit zusammen fuenf Loeschungen — **jede einzeln gesichtet, alle sind die von mir
+  ersetzten Ankerzeilen.** Keine Datei hat Bestand verloren. Fremde unbestaetigte Aenderungen
+  (`logbuch/kontingent`, `station-status`) unberuehrt gelassen.
+- Still beendet, keine Mail (Rule 260803); die offenen Entscheide nimmt der `hub-chef` auf.
+
 ## 2026-08-16 — Synergie-Lauf 09 (Tagestakt)
 
 - **Bericht:** `outputs/2026-08-16_synergie-lauf-09.md`. Delta-Basis 15.08.2026 17:50,

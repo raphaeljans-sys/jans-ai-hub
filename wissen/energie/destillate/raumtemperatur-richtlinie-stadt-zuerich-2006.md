@@ -120,6 +120,8 @@ Absenkbetrieb, Betriebszeitfenster und Solltemperatur sind reine Einstellungspar
 
 **Negativbefund zur Einsparung:** Die Richtlinie beziffert an keiner Stelle, wie viel Heizenergie eine tiefere Solltemperatur oder ein konsequenter Absenkbetrieb tatsächlich einspart — es gibt keine Prozentangabe wie «1 °C weniger spart X %» im Dokument. Eine solche Faustregel darf aus diesem Destillat nicht zitiert werden; sie müsste, falls gebraucht, aus einer anderen, eigens dafür geprüften Quelle stammen.
 
+**Gegenkante in die KB `planungsgrundlagen` (gesetzt 16.08.2026, Wissens-Chef Run 34):** Dieselbe Quelle (`Richtlinie_Raumtemperatur_Stadtrat.pdf`) ist dort bereits als Kurzfassung erfasst — `wissen/planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §20, `status: established`, Teil des systematischen Abgleichs des AHB-Ordners `Projektadmin AHB`. Die Werte stimmen überein (16 °C-Untergrenze, minus-10-°C-Schranke, Büro/Werkstatt 06.00–20.00 Uhr, Elektroheiz-Verbot); dieses Destillat ist die tiefere Fassung mit den vollständigen Anhängen 1–3 und dem Bauherren-Transfer. **Führung:** `planungsgrundlagen` führt den AHB-Ordnerkontext und die Einordnung als Betriebs- statt Planungsvorgabe, `energie` führt die Detailwerte und den Übertrag auf private Bauherrschaften.
+
 Verwandte Destillate/Artikel in der KB: [[behaglichkeit-raumklima-kbob-ipb]] (Behaglichkeit/Raumklima allgemein), [[minergie-innenraumklima]], [[ahb-zuerich-gt-rl3-heizungsanlagen]] (dieses Schwester-Destillat referenzierte StRB 1194/2006 bereits für die minimalen Raumtemperaturen bei der Wärmeabgabe, konnte die Werte aber mangels Lektüre nicht wiedergeben — mit diesem Lauf ist die Lücke geschlossen).
 
 ## Offene Punkte

@@ -73,7 +73,19 @@ regierapport.md       ← Regie-Stundenrapport pruefen (L04)
 ## Regeln
 
 - **Schriftlichkeit vor Ausfuehrung** bei NT und Regie — sonst kein Anspruch.
-- **Rueckbehalt/Garantie 10 %** (Art. 181 SIA 118) konsequent fuehren.
+- **Rueckbehalt und Garantie sind ZWEI Sicherheiten mit eigener Fundstelle und eigener
+  Schwelle** — konsequent getrennt fuehren (praezisiert 16.08.2026, Wissens-Chef Run 34;
+  die Zeile fasste beide zuvor unter «10 % Art. 181» zusammen):
+  **Rueckbehalt bis zur Abnahme** 10 % des Leistungswerts, ueber Fr. 300'000.– nur 5 %,
+  mindestens Fr. 30'000.–, hoechstens Fr. 1 Mio.; grob geschaetzte Global-/Pauschalleistungen
+  20 % (SIA 118:1991 **Art. 149-150**; von Regie- und Teuerungsabrechnungen wird kein
+  Rueckbehalt abgezogen, Art. 149 Abs. 2). Faellig erst kumulativ mit Abnahme,
+  geprueter Schlussabrechnung UND geleisteter Sicherheit nach Art. 181 (Art. 152),
+  bis dahin unverzinst.
+  **Solidarbuergschaft nach der Abnahme** 10 % der Verguetungssumme, ueber Fr. 200'000.–
+  nur 5 %, mindestens Fr. 20'000.–, hoechstens Fr. 1 Mio. (**Art. 181**), zu leisten bis
+  alle verbuergten Maengelrechte erloschen sind; ausnahmsweise Bargarantie (Art. 182).
+  Quelle `wissen/normen/destillate/sia-118-1991.md`, `status: established`.
 - Maengel als **Pendenzen** spiegeln (Skill `pendenzenliste`) und Termine im
   Skill `terminplanung` nachfuehren.
 - **MWST 8,1 %**, JANS-Dokumentstandard (`10_dokumente-standard.md`), doppelte Ablage.

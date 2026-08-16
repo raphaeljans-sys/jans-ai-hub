@@ -82,6 +82,14 @@ Quelle: Definition Energiebezugsflaeche.pdf (BaFa, 10.06.2005), Auszug wörtlich
   Kohle usw.); Garagen; Einstellräume für Velos, Kinderwagen und dergleichen; Abstellräume im
   Dach- und Untergeschoss oder unter der Dachschräge von Wohngeschossen; nach aussen offene
   Flächen wie Laubengänge, Terrassen, Balkone, Durchgänge und dergleichen.
+  ⚠ **Möglicher Rückausnahme-Vorbehalt zu den Abstellräumen** (gesetzt 16.08.2026, Wissens-Chef
+  Run 34): `[[sia-416-1-2007]]` Ziff. 3.2.2 führt eine flächenabhängige Gegenregel — kleine
+  Abstellräume und Ver-/Entsorgungsschächte unter 10 m², die von AE-Flächen oder der
+  thermischen Hülle umschlossen sind, zählen dort **doch** zur AE. Das ist **kein belegter
+  Widerspruch**, sondern ein Prüfauftrag aus zwei Gründen: die Liste hier stammt aus dem
+  BaFa-Merkblatt von 2005 (Bezug SIA 180/4), die Gegenregel aus der Nachfolgenorm — und das
+  Ziel-Destillat trägt `status: speculative` und ist nach Rule `normen-referenz` Ziff. 1b eine
+  **Warnkarte, keine Zitierquelle**. Vor jeder Verwendung am Original SIA 416/1:2007 nachlesen.
 - **Korrekturfaktoren in speziellen Fällen** (komplexe Gebäudenutzungstypen, gemischte
   Nutzung): Teilzeit-Korrekturfaktor fz, Temperatur-Korrekturfaktor ft, Raumhöhen-
   Korrekturfaktor fh. Bei ganzjährig belegten reinen Wohnbauten sowie bei Schulen,
@@ -189,6 +197,11 @@ Primärquelle der Norm.
   Langem stabil, eine Prüfung gegen die aktuell gültige SIA-416-Ausgabe wurde hier nicht
   vorgenommen. Zudem ist die Quelle eine private Immobilienfirma, keine Normstelle — als
   Erläuterung brauchbar, nicht als Normzitat.
+  **Nachtrag 16.08.2026 (Wissens-Chef Run 34):** Die Norm-Gegenprobe ist beschaffbar, ohne das
+  Original zu ziehen — `[[sia-416-2003]]` in der KB `normen` trägt `status: established` und
+  führt die Hierarchie GSF → GF (= NGF + KF) → AGF sowie NGF = NF + VF + FF und die
+  HNF/NNF-Abgrenzung mit Ziffer. Der Abgleich der RHYMO-Begriffe gegen SIA 416:2003 Ziff. 2
+  bleibt zu leisten; bis dahin gilt der Vorbehalt oben unverändert.
 - **Zahlenwerte Qh,li0/ΔQh,li je Gebäudekategorie** werden in Gebaeudeform.pdf nicht
   tabelliert (nur die qualitative Aussage "ähnliche Grössenordnung, +/-30 %"); die konkreten
   Kategorie-Werte stehen in `[[muken-2025-anhang-1-3-uwert-heizwaermebedarf]]` (Tabelle C,

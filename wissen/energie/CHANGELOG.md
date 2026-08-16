@@ -1,5 +1,37 @@
 # CHANGELOG
 
+## 2026-08-16 (Wissens-Chef Run 34, Cross-KB) — drei Kanten in `normen`/`planungsgrundlagen`, ein 10-m²-Vorbehalt; alle rein additiv
+
+- **`wiki/bezugsgroessen-energienachweis.md` + `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`:**
+  Beide führten den Vorbehalt «die SIA-416-Flächenhierarchie stammt aus einem Dokument einer
+  privaten Immobilienfirma, keine Normstelle» — und beide verwiesen nur pauschal auf den Skill
+  `normen`. Der autoritative Ersatz liegt seit dem 14.07.2026 im Haus: `[[sia-416-2003]]`
+  (`status: established`, deutscher Normteil komplett gelesen). Kante in beiden Dateien gesetzt,
+  Vorbehalt bewusst **stehen gelassen** — der Begriff-für-Begriff-Abgleich RHYMO gegen
+  SIA 416:2003 Ziff. 2 ist damit beschaffbar, aber noch nicht geleistet.
+- **`destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`, EBF-Raumausschlussliste:**
+  Vorbehalt zur möglichen Rückausnahme in `[[sia-416-1-2007]]` Ziff. 3.2.2 gesetzt (Abstellräume
+  und Schächte unter 10 m², von AE-Fläche umschlossen, zählen dort doch zur AE). **Ausdrücklich
+  als Prüfauftrag, nicht als Beleg** — die Liste hier stammt aus dem BaFa-Merkblatt 2005 (SIA
+  180/4), die Gegenregel aus der Nachfolgenorm, und das Zieldestillat trägt `status: speculative`
+  und ist nach Rule `normen-referenz` Ziff. 1b eine Warnkarte.
+- **`destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md` (neu vom selben Tag, Run 137):**
+  Gegenkante nach `planungsgrundlagen` gesetzt. Dieselbe Quelle (`Richtlinie_Raumtemperatur_Stadtrat.pdf`)
+  steht dort seit dem 25.07.2026 als Kurzfassung in
+  `recht-norm-ahb-stadt-zuerich-projektstandards` §20. Werte stimmen überein (16 °C-Untergrenze,
+  minus-10-°C-Schranke, Büro/Werkstatt 06.00–20.00 Uhr, Elektroheiz-Verbot) — **kein Widerspruch,
+  aber unabhängige Doppeldestillation ohne Kante.**
+- **`wiki/gebaeudeschadstoffe.md`:** Gegenkante nach `planungsgrundlagen` §17.3 gesetzt. Das
+  KBOB-Merkblatt 2004/4 (PCB in Fugendichtungsmassen) wurde hier am 16.08. destilliert und stand
+  dort seit dem 14.07.2026 mit identischen Schwellen (>50 ppm; 6/2 µg/m³) — 33 Tage Doppelarbeit
+  an derselben Primärquelle. Diese Fassung ist die tiefere (18 S. Grundlage vollständig gegen
+  Auszug S. 1–4), die dortige führt dafür **PCP** als drittes Substanzprofil, das hier fehlt.
+  Mitgesetzt: der Warnhinweis, dass `[[energie-baustoffe-schadstoffe-rueckbau]]` dort ein
+  KB-**interner** Artikel ist (Domänen-Präfix), kein Verweis in diese KB — ein Melder hatte ihn
+  für einen toten Link gehalten und wollte ihn umbiegen; der Refuter hat das verhindert.
+- Alle fünf Eingriffe rein additiv gemessen (`git diff --numstat`, nativ per ssh: 13+/0, 2+/0,
+  5+/0, 16+/0). `raw/` unberührt.
+
 ## 2026-08-16 (Run 137) — ECO-BKP 2009 destilliert, Ordner 18.3 vollständig abgeschlossen
 
 - Neues Destillat `destillate/ecobkp-2009-merkblaetter-nach-bkp.md` (ECO-BKP Ausgabe 2009,

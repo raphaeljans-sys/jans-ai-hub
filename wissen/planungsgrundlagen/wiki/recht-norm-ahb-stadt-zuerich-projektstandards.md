@@ -1421,6 +1421,14 @@ der Backlog nicht erneut aufgemacht wird:
   SIA-380/1-Standardnutzungswerten in [[energie-heizwaermebedarf-waermeerzeugerleistung]] §2
   vermerkt (dort Innentemperatur bereits je Gebäudekategorie tabelliert — kein Widerspruch, andere
   Quelle/Ebene).
+  **Gegenkante in die KB `energie` (gesetzt 16.08.2026, Wissens-Chef Run 34):** Am 16.08.2026
+  hat `energie` (Run 137) dieselbe Quelle unabhängig und vollständig destilliert —
+  `wissen/energie/destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md`, `status: emerging`,
+  mit den kompletten Anhängen 1–3 (Raumtemperaturtabelle je Nutzung, Schul-Sonderbestimmungen,
+  Wohnbauten-Betriebszeiten) und einem Abschnitt dazu, was eine private Bauherrschaft daraus
+  übernehmen kann. Die hier geführten Werte stimmen damit überein; für die Detailwerte gilt das
+  dortige Destillat als tiefere Fassung. **Der Ordner ist damit von zwei KBs bewirtschaftet** —
+  siehe die Führungszeile in `wissen/koordination/QUERBEZUEGE.md`.
 - **«Verzeichnis relevanter Gesetze, Vorschriften, Normen und Richtlinien»** (Fachstelle Energie und
   Gebäudetechnik AHB, Excel, Datenstand-Spalte durchgängig **12.12.2006**): eine **Meta-Tabelle**
   (Bundesrecht → kantonales Recht → SIA/SN-EN-Normen → interne AHB-Richtlinien), keine eigene

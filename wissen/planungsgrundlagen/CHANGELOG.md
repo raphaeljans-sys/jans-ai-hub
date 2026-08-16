@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-16 (Wissens-Chef Run 34, Cross-KB) — Gegenkante zur Raumtemperatur-Richtlinie; der AHB-Ordner ist messbar von zwei KBs bewirtschaftet
+
+- **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §20 (Raumtemperatur-Richtlinie 2006,
+  StRB 1194/04.10.2006):** Gegenkante nach `energie` gesetzt. Dort ist dieselbe Quelle am
+  16.08.2026 (Run 137) unabhängig und vollständig destilliert worden
+  (`destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md`, `status: emerging`, komplette
+  Anhänge 1–3). Die hier geführten Werte stimmen überein — **kein Widerspruch**, aber der dritte
+  Fall desselben Musters nach Dachbegrünung (Run 33) und PCB-Fugendichtungsmassen (heute).
+- **Der Befund hinter den drei Einzelfällen, gemessen statt erzählt:** von den **25**
+  `energie`-Destillaten mit Quelle aus dem Ordner `PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/`
+  ist **genau eines** in dieser KB genannt. Namentlich: die neun `ahb-zuerich-gt-rl1..9`-Destillate
+  (`energie`, 03.08.2026) gegen §12/§13 dieses Artikels (14.07./25.07.2026) — dieselben neun
+  Quell-PDF, neun Tage auseinander, unabhängig destilliert, **null Kanten in beide Richtungen**.
+- **Zuständigkeit festgehalten** (neue Führungszeile in `koordination/QUERBEZUEGE.md`): diese KB
+  führt den **Ordnerkontext, die Vertragsbindung an den AHB-Honorarvertrag und die Einordnung**
+  je Dokument, `energie` führt die **Detailwerte und den Bauherren-Transfer**. Wer aus diesem
+  Ordner destilliert, prüft zuerst diesen Artikel und setzt die Kante beidseitig.
+- **Nicht angefasst:** die Wikilinks `[[energie-baustoffe-schadstoffe-rueckbau]]` (Z. 1166/1170/1197
+  und Frontmatter). Ein Melder hielt sie für tot und wollte sie auf `[[gebaeudeschadstoffe]]`
+  umbiegen; die Gegenprüfung belegte, dass sie auf den existierenden KB-eigenen Artikel
+  `wiki/energie-baustoffe-schadstoffe-rueckbau.md` (`established`, seit 14.07.2026) zeigen. Die
+  vorgeschlagene «Korrektur» hätte einen funktionierenden Link zerstört.
+- Eingriff rein additiv gemessen (8+/0).
+
 ## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — Gegenkante zur Dachbegruenung; die Korrektur vom 31.07. hatte eine Parallel-Destillation nicht erreicht
 
 - **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`, §19 Dachbegruenung:** Gegenkante
