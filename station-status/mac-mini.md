@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 20:03:49
+Stand: 16.08.2026 20:14:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 20:03:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fbcc82ba nas-selfcommit: 4 Datei(en) 2026-08-16 20:00
+- 04070a09 tenant-hygiene 16.08.2026: Report Phase 1 (822.97 GB / 78.1 %, -90 MB/24h, keine Auto-Bereinigung); Korrektur der Bloat-Klassifizierung JANS.PROJEKTE
