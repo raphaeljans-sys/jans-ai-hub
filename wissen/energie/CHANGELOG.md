@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2026-08-16 (Run 136, Mac Mini Nachtschicht 13:30-Versuchsslot) — PCB-Fugendichtungsmassen destilliert
+
+- Neues Destillat `destillate/kbob-pcb-fugendichtungsmassen-2004-4.md` (KBOB Empfehlung
+  2004/4, vollständig gelesen): Bauherren-Prozess A/B (Vorstudie → Analyse → Projektierung/
+  Ausschreibung → Realisierung → Bewirtschaftung), Schwelle 50 ppm, Raumluft-Grenzwerte
+  6/2 µg/m³, Chlorparaffine als Nebenstoff. Löst die seit Run 133 offene Priorität
+  `4.27Fugendichtungsmassen.pdf` — per quickXorHash als byte-identisch mit dem vermeintlichen
+  Zwilling `18.4/PCB_in_Fugendichtung...` bestätigt (realer zweiter Pfad: `.../03 Informationen/
+  4.27.I PCB in Fugendichtungsmassen(KBOB2004_4).pdf`), beide Inventarzeilen mit einem
+  Destillat geschlossen.
+- `wiki/gebaeudeschadstoffe.md` um neue Sektion «PCB in Fugendichtungsmassen: der
+  Bauherren-Prozess im Detail» ergänzt (vertieft die bestehende Tabellenzeile mit Ablauf,
+  Schwellen und Chlorparaffin-Hinweis). Frontmatter sources/links nachgezogen.
+- `training/pdf-inventar.md`: Nachtrag Run 136, Stand PL-02 auf 84/182 destilliert (98 offen).
+- Protokoll: `outputs/2026-08-16_energie-run136.md`.
+
 ## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — BZO Art. 11 auf den geltenden Wortlaut nachgezogen; drei Kanten und ein offener Punkt
 
 - **`wiki/dachbegruenung-gruendach.md` — Rechtsteil korrigiert.** Der am 15.08. (Run 133) neu

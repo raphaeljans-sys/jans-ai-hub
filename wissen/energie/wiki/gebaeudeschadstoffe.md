@@ -1,9 +1,9 @@
 ---
 title: Gebäudeschadstoffe beim Umbau (Kt. ZH)
 status: established
-last_updated: "2026-08-12 (Mac Mini Nachtschicht 13:30 — Gebäudescreening-Ergänzung)"
-sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]], [[asbest-dimension-jenseits-spritzasbest]], [[ahb-checkliste-schadstoffe-in-bauten]]
+last_updated: "2026-08-16 (Mac Mini Nachtschicht 13:30 — PCB-Prozess-Ergänzung)"
+sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md, destillate/kbob-pcb-fugendichtungsmassen-2004-4.md]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]], [[asbest-dimension-jenseits-spritzasbest]], [[ahb-checkliste-schadstoffe-in-bauten]], [[kbob-pcb-fugendichtungsmassen-2004-4]]
 ---
 
 # Gebäudeschadstoffe beim Umbau (Kt. ZH)
@@ -112,6 +112,34 @@ VREG) sind **nicht** auf ihren heutigen Stand geprüft.
 BKP 112 (Abbrüche/Rückbau/Entsorgung), BKP 230 und BKP 281 →
 `[[eco-bau-merkblaetter-bkp-2008-huelle]]`, `[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`.
 Beschaffungs-/Kontrollkette → `[[oekologische-materialvorgaben-beschaffung]]`.
+
+## PCB in Fugendichtungsmassen: der Bauherren-Prozess im Detail (Ergänzung 16.08.2026)
+
+Die Zeile «PCB in Fugendichtungsmassen» in der Tabelle oben nennt nur Zeitraum und Schwelle.
+Das KBOB-Merkblatt 2004/4 (Empfehlung Nachhaltiges Bauen) belegt den vollständigen Ablauf:
+
+1. **Vorstudie:** Baufachleute klären vor Ort/aus Bauakten drei Fragen — Beton-/
+   Elementbauweise? Baujahr/Erneuerung **1955–1975**? FDM in Dilatations-/Bewegungs-/
+   Anschlussfugen? Nur bei **allen drei** «Ja» folgt der Gebäudecheck mit chemischer Analyse.
+2. **Schwelle:** **< 50 ppm** → keine Massnahme. **> 50 ppm** → fachgerechte Entfernung
+   projektieren/ausschreiben/ausführen (Sonderabfall).
+3. **Zusatzkriterium Innenraumluft** (nur bei hohem PCB-Gehalt im Prozentbereich, vielen Fugen
+   je Raumvolumen und Dauernutzung): Jahresmittelwert **> 6 µg/m³** (Tagesaufenthalt) bzw.
+   **> 2 µg/m³** (Daueraufenthalt) → Quellen entfernen. Darunter, aber im µg/m³-Bereich →
+   Vorsorge in der Bewirtschaftung prüfen (Lüftung, Feuchtreinigung).
+4. **Alternative zur Sofortsanierung:** Bei Kontaktrisiko für Nutzende kann statt der Sanierung
+   eine **Abdeckung** der PCB-haltigen FDM geprüft werden — die bautechnische Erneuerungspflicht
+   bleibt davon unberührt.
+5. **Chlorparaffine (CP)** wurden vereinzelt für denselben Zweck wie PCB eingesetzt; humantoxisch
+   weniger kritisch, aber ebenfalls Sonderabfall — gehören in dieselbe Abklärung.
+
+**Kostenfolge:** Trifft die Bauperiode 1955–1975 zu, gehört die PCB-Abklärung in den
+Voranschlag der Vorstudie, nicht erst in die Ausführung; bei mehreren Liegenschaften im
+Bestand lohnt sich eine portfolioweite Vorprüfung.
+
+→ Destillat `[[kbob-pcb-fugendichtungsmassen-2004-4]]` (KBOB Empfehlung 2004/4, vollständig
+gelesen 16.08.2026). ⚠ Datenstand 2004; Entsorgungswege/Labor-Verzeichnisse der Quelle
+möglicherweise veraltet, für den Einzelfall neu prüfen.
 
 ## Gebäudescreening als kostengünstige Vorstufe (Ergänzung 12.08.2026)
 

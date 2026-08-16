@@ -774,3 +774,31 @@ ob sie überhaupt einen Bauherren-Fakt hergeben.
 | [-] `Weg_zum_Minergiezertifikat/_Archiv/230107_Lieferschein_Vorlage_rj.pdf` | 2026-08-16 (1 S. geprüft: JANS-Lieferschein für einen MRI-Bericht/Chiropraktik-Projekt, thematisch fremd, kein Energie-/Bauherren-Fakt, vermutlich Fehlablage im Minergie-Archivordner) |
 
 **Stand PL-02:** 83 von 182 energierelevanten PDF destilliert (80 bis Run 134, 3 in Run 135), 99 offen; zusätzlich 2 in diesem Lauf als Dublette/kein Bauherren-Fakt geprüft.
+
+## Nachtrag 2026-08-16 (Run 136, Mac Mini Nachtschicht 13:30-Versuchsslot): PCB-Fugendichtungsmassen aufgelöst
+
+Seit Run 133 als «nächste Priorität, dedizierter Lauf» geführt: `4.27Fugendichtungsmassen.pdf`
+(eco-Wurzel) gegen den vermuteten Zwilling `18.4/PCB_in_Fugendichtung_(KBOB-Empfehlung_2004.4).pdf`
+geprüft. **Der Pfad `18.4/...` aus Run 133/134 existiert unter diesem Namen nicht** — der reale
+zweite Ablageort ist `eco/Nachhaltiges Bauen/03 Informationen/4.27.I PCB in Fugendichtungsmassen
+(KBOB2004_4).pdf` (Ordnerstruktur der Unterbibliothek folgt `01 verbindliche Richtlinien/02
+Checklisten/03 Informationen/04 weiterführende Links`, nicht der `18.x`-Zählung). Statt Wort-Diff
+genügte der **quickXorHash über Graph**: beide Dateien **724'221 Bytes, identischer Hash
+`4ZCvZh++syknFgTFk5UH9hqesyQ=`** — bestätigte Dublette, byte-identisch, kein Wort-Diff nötig.
+
+| Status | Quelle | KB-Datenstand |
+|---|---|---|
+| [x] `04_Merkblätter/eco/4.27Fugendichtungsmassen.pdf` = `.../Nachhaltiges Bauen/03 Informationen/4.27.I PCB in Fugendichtungsmassen(KBOB2004_4).pdf` | 2026-08-16 (KBOB Empfehlung Nachhaltiges Bauen 2004/4, 43 S. bilingual DE/FR, vollst. via pdftotext gelesen → `kbob-pcb-fugendichtungsmassen-2004-4`; Prozess A/B, Schwelle 50 ppm, Raumluft 6/2 µg/m³, Chlorparaffine als Nebenstoff. Wiki `[[gebaeudeschadstoffe]]` um den Prozess ergänzt) |
+
+**Lehre:** Der Ordnername in einer Prioritätenzeile ist so lange vertrauenswürdig, bis er einmal
+gegen den Baum nachgemessen wird — gleiche Familie wie die 79-PDF-Korrektur aus Run 134. Für
+Dublette-Verdacht bei bekannter Dateigrösse ist der Hash-Abgleich über Graph (`$select=file`)
+günstiger als ein Wort-Diff: ein Request statt zweier Downloads plus Textvergleich.
+
+**Stand PL-02:** **84 von 182** energierelevanten PDF destilliert (83 bis Run 135, **1 in Run 136**,
+schliesst 2 Inventarzeilen), **98 offen**.
+
+**Nächste Priorität:** `18.3 Baustoffe/Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (2,0 MB,
+gehört in die planmässige BKP-Merkblattwerk-Destillation) sowie der Minergie-Restbestand
+(rund 30 dokumentartige Quellen laut Run-134-Messung, davon nach Run 135 ein Teil erledigt —
+Bestand vor dem nächsten Lauf neu zählen statt die alte Zahl weiterzureichen).
