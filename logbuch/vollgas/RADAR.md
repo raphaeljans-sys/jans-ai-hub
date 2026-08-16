@@ -52,7 +52,7 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
-## 2026-08-16 12:58 — [FREI] **Die Fensterprobe misst wieder: über die App-gebündelte 2.1.229 antwortet sie mit «OK», rc=0.** Der letzte Lauf hatte den funktionierenden Ersatzweg diagnostiziert, aber noch nicht genutzt; dieser Lauf hat ihn gefahren und im Rezept verankert. Damit ist die Kernmessung des Radars nach zwei blinden Läufen wiederhergestellt. Der Homebrew-Symlink zeigt unverändert auf die gewedgete 2.1.224 — P1 bleibt offen, hat aber keinen Messverlust mehr zur Folge. Ampel **FREI** (44.7 % bei 86.3 % verstrichener Woche, Vorsprung **-41.6**, dritter Tag in Folge verbessert). **Acht Loops mit Liefer-Delta, kein Delta-Null-Loop**
+## 2026-08-16 12:58 — [FREI] **Die Fensterprobe misst wieder: über die App-gebündelte 2.1.229 antwortet sie mit «OK», rc=0.** Der letzte Lauf hatte den funktionierenden Ersatzweg diagnostiziert, aber noch nicht genutzt; dieser Lauf hat ihn gefahren und im Rezept verankert. Damit ist die Kernmessung des Radars nach zwei blinden Läufen wiederhergestellt. Der Homebrew-Symlink zeigt unverändert auf die gewedgete 2.1.224; P1 bleibt offen, hat aber keinen Messverlust mehr zur Folge. Ampel **FREI** (44.7 % bei 86.3 % verstrichener Woche, Vorsprung **-41.6**, dritter Tag in Folge verbessert). **Acht Loops mit Liefer-Delta, kein Delta-Null-Loop.**
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 16.08. 00:58, dieser Lauf 12:58 — Abstand **exakt
 12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Siebter regulärer
@@ -64,7 +64,8 @@ PATH lief erwartungsgemäss in den Watchdog (rc=137 nach 100 s) — der Symlink
 `/opt/homebrew/bin/claude` zeigt weiterhin auf `Caskroom/claude-code/2.1.224/claude`, Zeitstempel
 unverändert 15.08. 05:15. Über die App-gebündelte Fassung
 `~/Library/Application Support/Claude/claude-code/2.1.229/…/claude` antwortete dieselbe Probe in
-Sekunden: **«OK», rc=0**, Version 2.1.229 rc=0. **Fensterzustand FREI.** Waisen nach beiden
+Sekunden: **«OK», rc=0**. Die vorgeschaltete Versionsabfrage derselben Fassung meldete
+**2.1.229 (Claude Code)**, ebenfalls rc=0. **Fensterzustand FREI.** Waisen nach beiden
 Watchdog-Eingriffen gegengeprüft: `ps -eo pid,ppid,command | grep "claude -p"` leer, kein
 Gate-Platz blockiert.
 
@@ -94,8 +95,8 @@ bekannten. Keine Doppelfeuerung, kein wiederbelebter Job. Der stehende Entscheid
 
 | Loop | Delta |
 |---|---|
-| `normen-training-nacht` | Run 53: SIA 215:1978 destilliert, Gegenrichtung «fehlender Inhalt» gemessen (Abdeckung 3/3 vs. Refuter 1/3), Refuter-Runde SIA 416/1 (93 bestätigt, 2 widerlegt), Methodik-Pflicht 13 präzisiert — 3 Commits |
-| `twin-fidelity-review` | Dreizehnte Echo-Falle, Sperrliste verworfener Signale, Gruss-/Begründungsregel korrigiert, Gehirn neu kompiliert (29'990 B), Riegel-Nachtrag ins Fristen-Register — 3 Commits |
+| `normen-training-nacht` | Run 53: SIA 215:1978 destilliert, Gegenrichtung «fehlender Inhalt» gemessen (Abdeckung 3/3 vs. Refuter 1/3), Refuter-Runde SIA 416/1 (93 bestätigt, 2 widerlegt), Methodik-Pflicht 13 präzisiert (3 Commits) |
+| `twin-fidelity-review` | Dreizehnte Echo-Falle, Sperrliste verworfener Signale, Gruss-/Begründungsregel korrigiert, Gehirn neu kompiliert (29'990 B), Riegel-Nachtrag ins Fristen-Register (3 Commits) |
 | `twin-mail-training` | Batch 95 (10.–16.08.): 13 Gold, 1 Korrektur-Delta, 2 verworfen, zwölfte Echo-Falle |
 | `wissens-destillat` (Mini-Nachtschicht) | Korpus-Spec `buero-projekte` geschrieben, Lauf regelkonform beendet (kein Destillat ohne Spec) |
 | `logbuch-radar` | Briefing ins Logbuch, Fristen-Register +60/-0 |
@@ -106,7 +107,7 @@ bekannten. Keine Doppelfeuerung, kein wiederbelebter Job. Der stehende Entscheid
 **Kein Delta-Null-Loop, keine Rücktaktung, keine Stilllegung.** Der Lern-Betrieb trägt sich
 weiterhin allein über die getakteten Tasks und die Mac-Mini-Nachtschicht.
 
-**Speicher:** Druck-Level 1 (normal), 316'042 Pages inactive + 4'332 free bei 16-kB-Seiten — rund
+**Speicher.** Druck-Level 1 (normal), 316'042 Pages inactive + 4'332 free bei 16-kB-Seiten, rund
 5.0 GB rückgewinnbar. Kein Handlungsbedarf.
 
 **P1 (unverändert offen, aber entschärft) — Homebrew-Symlink zeigt weiter auf die gewedgete
@@ -125,7 +126,7 @@ Ad-hoc-Nutzung von `claude` im Terminal und alles, was blind auf den PATH greift
 Journalzeile mit `"station":"Macbookpro"` stammt vom 03.08.
 
 **P2 — bexio-Zugang seit fünf Tagen tot (401).** Nicht dieses Radars Zuständigkeit, aber der
-längste offene operativen Faden im Fenster: `zahlungsabgleich-check` und `mahnwesen-verzugscheck`
+längste offene operative Faden im Fenster: `zahlungsabgleich-check` und `mahnwesen-verzugscheck`
 laufen seit dem 12.08. blind, und im Register ist die RE-00101-Frist erreicht. Der `logbuch-radar`
 und der `hub-chef` führen ihn; hier nur als Sichtbarkeitsvermerk, damit er nicht zwischen den
 Aufsichten verschwindet.
@@ -136,7 +137,7 @@ Aufsichten verschwindet.
 keine Wiederholungsmail. Er ist auch nicht gelöst (der Symlink steht aus), also greift der
 Sendegrund «gelöster P1-Blocker» nicht. Das Wochenkontingent ist weit von der Erschöpfung
 entfernt. Die wiederhergestellte Fensterprobe ist eine Verbesserung der Lage und ein Hub-Internum
-ohne Aussenwirkung — nach Rule `auto-verbesserungen` 260803 ausdrücklich kein Sendegrund.
+ohne Aussenwirkung, nach Rule `auto-verbesserungen` 260803 also ausdrücklich kein Sendegrund.
 
 **Lauf-Ökonomie:** Regellauf, inline in parallelen Blöcken gemessen, kein Subagent (Faustregel
 unter zehn Werkzeugaufrufen). Die zwei Zusatzaufrufe für die Ersatzprobe und die Rezept-Korrektur
