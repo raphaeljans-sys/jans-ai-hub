@@ -1,7 +1,7 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 gewichtung: authentisch
 sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -2188,3 +2188,56 @@ Auflagebereinigung) und Wasserhärte (speist die Gerätewahl der Therapieküche,
 oben). Beide sind keine allgemeinen Mahnungen, sondern konkrete Nachweise mit Adressat. Die
 Fachsignatur zeigt sich hier daran, **welche zwei Angaben er aus einem ganzen Planstand
 herausgreift**.
+
+
+## Mailbatch 95 (10.–14.08.2026) — der Fluchtweg ist eine Inventarfrage, und der Nachweis heisst Abbruchdarstellung
+
+- **Die Fluchtwegbreite wird über die Möblierung hergestellt, Element für Element benannt.** Um
+  den Korridor 0.302 bewilligungsfähig zu machen, werden nicht Wände versetzt, sondern sechs
+  Einrichtungsgegenstände einzeln aufgeführt und entfernt: «C1 Bildschirm an Wand / C2 Sitzpolster
+  auf Fensterbank / C3 Spielelement vor Empfang / C4 Hochschrank mit Infomaterial / C5 Sitzbank /
+  C6 Recyclingsammelstelle bei Stationszugang Neu». **Im Bestandesumbau eines Akutspitals
+  entscheidet über den Fluchtweg das Inventar, nicht die Geometrie** — und der Nachweis gegenüber
+  der Behörde wird geführt, indem jedes Element **im Plan als Abbruch dargestellt** wird. Ein
+  bestehender Gegenstand, der nur weggeräumt werden soll, gilt der Vorprüfung nichts; erst die
+  Darstellung als Abbruch ist prüfbar.
+- **Die Zone wird dem Fluchtweg zugeschlagen, in drei steigenden Verben.** «Zone Infomaterial vor
+  dem Raum 2.017 Empfang wird komplett **aufgehoben, entmöbliert** und komplett dem 0.302
+  **Fluchtweg zugeordnet**.» Aufheben (Nutzung), entmöblieren (Inventar), zuordnen
+  (brandschutzrechtliche Fläche) — drei verschiedene Ebenen desselben Vorgangs, in der
+  Reihenfolge, in der die Behörde sie prüft.
+- **Das durchgehende Traggerüst als Brandabschnitts-Problem.** «Wir haben ein **Hilti Joch**
+  (Metalprofil) welches **multipel Brandabschnitte durchdringt**» — nicht die einzelne Leitung ist
+  das Problem, sondern die durchlaufende Montageschiene, an der die Leitungen hängen. Die zwei
+  Wege: die Abhangkonstruktion komplett in EI30 einpacken, oder das Joch versetzen — wobei das
+  Versetzen die **Erdbebensicherheit** der Aufhängung berührt. **Im Spitalumbau kollidiert der
+  Brandabschnitt regelmässig mit der Tragstruktur der Haustechnik, nicht mit der Architektur.**
+- **Die Verfahrensmechanik der Wiedereinreichung auf eBaugesucheZH.** Vier Fragen, die den
+  Prozedere-Rahmen einer Abänderung abstecken: neues Gesuch **oder** Kopie des Stammgesuchs;
+  unter welcher **Aktion** hochladen («Mitteilung an Gemeinde»); ob das **Unterschriftenblatt**
+  erneut zu unterzeichnen ist; ob die **Vollmacht** erneut einzureichen ist. **Beim
+  Abänderungsgesuch ist nicht der Inhalt die Hürde, sondern der richtige Ablageort im
+  Gesuchssystem** — ein falsch abgelegter Plan gilt als nicht eingereicht.
+- **Die Freigabe wird als Antrag mit Auflageziffern gestellt, nicht als Statusmeldung.** «Hiermit
+  beantrage ich die Baufreigabe des Gesuch BAGE-Nr. B26-00705.0. / Ich bitte um Freigabe der
+  Auflagepunkte …» — je Amt die eigene Ziffer (UGZ II.1.c, SRZ II.1.b, AfB II.1.a). **Die
+  Baufreigabe ist kein Zustand, der eintritt, sondern eine Handlung, die beantragt wird**, und
+  sie zerfällt in so viele Teilfreigaben, wie Auflagen offen sind.
+- **Gründungsmechanik in eigener Sache: Sperrkonto und Liberierung.** «Wir benötigen eine IBAN
+  Nummer des **Sperrkontos** für die Überweisung des Stammkapitals **100%Lieberierung**.» Erste
+  Fundstelle im Korpus, in der die Kapitaleinzahlung als eigener Verfahrensschritt geführt wird —
+  das Sperrkonto ist die Voraussetzung der Bescheinigung, die Bescheinigung die Voraussetzung der
+  Beurkundung. (Schreibung «Lieberierung» im Original; korrekt ist **Liberierung**. Vor
+  Verwendung in einem ausgehenden Dokument nach Rule `identifikatoren-verifizieren` prüfen.)
+- **OPAK als Alternative zur Umplanung.** Wenn der Küchenkorpus an eine Vollverglasung stösst,
+  ist die Antwort nicht zwingend, die Küche zu verschieben: «oder aber die Vollverglasung muss im
+  Bereich der Küchenzeile **OPAK** sein». **Die Glasqualität ersetzt die Grundrissänderung** —
+  der billigere Eingriff bei gleichem funktionalem Ergebnis.
+
+**Nicht aufgenommen** (aus dem verworfenen Hub-Text vom 13.08. 18:57): der Wandtyp «W340-00, EI 30
+und 45 dB», der ZPF-Tabuzonenplan «S_TRA_0904» und die Setztiefen 35/120 mm. Fachlich plausibel,
+aber aus Zwillingstext — nach Rule `normen-referenz` und dem Echo-Schutz nicht als Raphaels
+Fachsignatur zu buchen. Falls die Werte gebraucht werden, sind sie am Originaldokument zu
+verifizieren (→ [[QUESTIONS]] 260816 #3).
+
+Quelle: 10.–14.08.2026, authentisch.

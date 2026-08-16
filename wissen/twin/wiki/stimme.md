@@ -1,7 +1,7 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 gewichtung: authentisch
 sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
@@ -3666,3 +3666,84 @@ FG-Treffer im Korpus ist Automatik, kein Entscheid.
 Bemerkenswert dabei: es ist eine **Auftragsmail mit eigenem Sachauftrag**, und trotzdem trägt sie
 den Kurzgruss — der Do-Block reserviert «Lieber Gruss» für das Reply OHNE eigenen Sachauftrag.
 Zweite offene Spannung derselben Mail, ebenfalls nur vorgemerkt.
+
+
+## Mailbatch 95 (10.–14.08.2026) — die Buchstabenkette läuft über die Sprechhandlung hinweg, und das Verb in der Aufforderung wird grossgeschrieben
+
+- **Die Kette A) B) C) D) trennt nicht nach Sprechhandlung, sondern zählt durch.** In der
+  Trennwand-Mail an den Teamleiter Gebäudetechnik tragen **A) und B) die zwei Vorschläge**, dann
+  folgt der Zwischensatz «Daher Bitte ich Dich um folgende Angaben:» — und **C) und D) sind
+  Rückfragen**. Nicht zwei Listen mit eigenem Alphabet, sondern eine durchlaufende Kette über
+  den Bruch hinweg. Aus dem `body.content` gelesen: `<ol>` mit `list-style-type:"A) "` und
+  `"B) "`. Wer die Rückfragen bei «A)» neu beginnen lässt, verliert die Referenzierbarkeit, die
+  der ganze Zweck der Buchstaben ist.
+- **Der Sammelpunkt bekommt Unterpunkte OHNE eigene Klammer.** «C) Zusätzlich wurden im
+  Abänderungsplan folgende Elemente als Abbruch dargestellt:» → darunter **C1 bis C6**, je ein
+  nacktes Substantiv, kein «)», kein Punkt, keine Einrückungsziffer im Klammerstil:
+
+  ```
+  C1 Bildschirm an Wand
+  C2 Sitzpolster auf Fensterbank
+  C3 Spielelement vor Empfang
+  ```
+
+  **Die Hauptebene trägt die Klammer, die Unterebene trägt sie nicht.** Zweifach belegt
+  (11.08. an die Behörde, 13.08. an den Brandschutzplaner, wortgleicher Block).
+- **Die Verbgrossschreibung trifft nicht «bitten», sondern das Verb im Kern der Aufforderung.**
+  Belege dieses Fensters: «würde ich folgendes **V**orschlagen», «Daher **B**itte ich Dich»,
+  «Weiter würde ich Sie **B**itten», «bitte **I**ch Sie», «dass muss geplant und **K**oordiniert
+  sein», «den Planstand mit der Fachplanung **R**ücksprechen», «Wie lösen wir das Problem
+  **B**randschutztechnisch». **Präzisiert die neunte Falle in `CLAUDE.md`:** dort war die
+  Beobachtung auf «Darf ich Sie **B**itten» verengt. Der Slip ist allgemeiner — er trifft das
+  betonte Verb, und er trifft auch Adjektive in derselben Position. Als Positivtest damit
+  breiter einsetzbar, als Umkehrschluss weiterhin wertlos (sein Fehlen beweist nichts).
+- **Die Semikolon-Kette statt der Kommareihe, mit dem eigenen Urteil im letzten Glied.**
+  «Bitte nur soviel schieben wie wirklich nötig; Flächenbündig mit der WC-Front wäre dann 64cm;
+  was ich etwas viel finde.» — drei Glieder, zwei Semikola: Vorgabe, gerechnete Obergrenze,
+  persönliche Wertung. Ebenso «… oder aber die Vollverglasung muss im Bereich der Küchenzeile
+  OPAK sein; dass muss geplant und Koordiniert sein.» **Das Semikolon hängt bei ihm einen
+  Nachgedanken an, wo die Schulgrammatik einen neuen Satz verlangte.**
+- **«Bitte Bedenken:» als Blockmarker** — Imperativ plus substantiviertes Verb als
+  Absatzüberschrift, gefolgt von der Konsequenzkette. Reiht sich neben «Grundsätzliche
+  Fragestellung:» (Batch 94, hier zweiter Beleg: «Grundsätzliche Fragestellung: Kannst Du mit
+  der bestehenden Vermassung die LBW einmessen?») und «Was wurde geändert:». **Der Blockmarker
+  ist bei ihm ein Zweiwort-Sprechakt mit Doppelpunkt, kein Substantivtitel.**
+- **Lösungsoptionen als nackte Nominalfragmente mit Fragezeichen.** An den Brandschutzplaner:
+  «Komplettes einpacken der Metall-Abhangkonstruktion in EI30 z.B. Speiseraumseitig?
+  Versetzen/Erdbebensicherheit?» — kein Verb, kein Satz, zwei Optionen nebeneinander, die
+  zweite mit dem Gegenargument im Schrägstrich. Verwandt mit dem Fragenpaar der Fachsignatur
+  (Batch 94), hier auf die Satzform durchgeschlagen.
+- **Die abgebrochene MAIL, nicht nur der abgebrochene Satz.** Die Rückweisung an den
+  Brandschutzplaner vom 14.08. 09:07 endet mitten in der Aufzählung bei «2.2 Grundlage» —
+  ohne Gruss, ohne Signaturzeile, nur der leere Trenner. Batch 94 hat den abgebrochenen Satz
+  als Drohgebärde belegt («Ich und die Bauherrschaft erwartet dass von nun an ….»); hier bricht
+  der ganze Text ab. Ob Absicht oder Versand aus Versehen, ist nicht entscheidbar — **als
+  Marker taugt nur die Beobachtung, dass eine abgebrochene Mail bei ihm vorkommt und nicht
+  nachträglich korrigiert wird.**
+- **Der Doppelgruss in einer Mail, fünfter Beleg.** «Danke Dir. **Lieber Gruss, Raphael**» am
+  Textende, darunter der automatische «Freundliche Grüsse»-Block. Der getippte Kurzgruss und
+  der Automatik-Block stehen unbeirrt nebeneinander.
+- **Die Reintext-Mail trägt den Kurzgruss.** Die einzige Mail des Fensters mit `contentType:
+  text` (14.08. 07:14, telefonnaher Nachtrag ans CAD) schliesst mit «**Danke und Gruss**» statt
+  mit dem vollen Block, bei drei Bindestrich-Zeilen Inhalt. **Stützt Kandidat (b) aus
+  [[QUESTIONS]] 260815b #5** (Reintext statt HTML), nicht Kandidat (a) Dringlichkeit — die Mail
+  ist ein ruhiger Nachtrag, kein Eilfall.
+
+**Mikro-Metrik** (1087 W, 14 Eigentexte, `stilmetrik.py`, ohne Listen-, Kontaktkarten- und
+Dateinamenzeilen): Du-Gross **0.85**, Satzlänge ø **19.8 W**, Tausender-Apostroph 0, Ellipsen 0,
+«%» kam nicht vor; Grüsse «Freundliche Grüsse» 10× / «Lieber Gruss» 2×; Anreden «Geschätzter
+Herr <Nachname>» 5× / «Sehr geehrter Herr» 4× / «Geschätzter <Vorname>» 5× / «Hoi Michi» 1× /
+«Geschätzte Frau» 1×.
+
+**⚠ Messvorbehalt zur Satzlänge, neuer Befund zum Messfehler aus [[QUESTIONS]] 260814 #3.** Die
+19.8 W liegen weit über dem Korpusband 11.9–14.3, ohne dass die Sätze länger geworden wären.
+Ursache ist **die fehlende Endinterpunktion**: `stilmetrik.py` trennt an `.!?`, und Raphael lässt
+in Aufzählungs- und Anweisungszeilen den Schlusspunkt regelmässig weg («Bitte um Koordination mit
+Bauleitung», «_ Bitte beachte: Die Angaben zur Elektorinstallationen fehlen im Plan»). Zwei bis
+drei solche Zeilen werden als **ein** Satz gezählt. Der Filter aus Batch 94 (Bullet-Zeilen
+entfernen) fasst diese Zeilen nicht, weil sie kein Listenzeichen tragen. **Konsequenz: die
+Satzlänge ist bei diesem Schreiber keine Stilkennzahl, sondern eine Interpunktionskennzahl** —
+und dass sie steigt, ist selbst ein Gold-Indiz, denn Zwillingstext interpunktiert vollständig.
+
+Quelle: 10.–14.08.2026, authentisch (13 Exchange-/Apple-Mail-Eigentexte) + 1 `korrektur-delta`
+(13.08. 10:53, versendeter und überarbeiteter Hub-Entwurf, → `CLAUDE.md` zwölfte Falle).

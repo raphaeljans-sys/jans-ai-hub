@@ -1,7 +1,7 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 gewichtung: authentisch
 sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
@@ -2846,3 +2846,54 @@ nächster Schritt, keine Frist**. Vier Feststellungen, dann Schluss. Das bestät
 oder meldet, hört nach dem letzten Sachsatz auf» für die neue Gattung **Rüge/Zurückweisung** —
 und es ist genau die Stelle, an der der Zwilling zum fünften Mal dokumentiert verlängert hat
 (er hängte «Sollten Fragen offen sein, melden Sie sich bitte direkt bei mir.» an).
+
+
+## Mailbatch 95 (10.–14.08.2026) — der Sachblock wandert unverändert weiter, der Rahmen wird neu gebaut
+
+- **Einmal formuliert, zweimal adressiert: derselbe Block, zwei Sprechhandlungen.** Der
+  Änderungsblock A) B) C) mit den sechs entmöblierten Elementen C1–C6 steht **wörtlich
+  identisch** in zwei Mails: am 11.08. an die Brandschutz-Vorprüfung der Behörde, eingerahmt als
+  Nachweis («Ich bitte um kurze Rücksprache ob für Sie so der Abänderungsplan bewilligungsfähig
+  ist»), und am 13.08. an den Brandschutzplaner, eingerahmt als Arbeitsauftrag («Was wurde
+  geändert:» → «Weiter würde ich Sie Bitten die Stellungnahme soweit anzupassen»). **Der
+  Sachkern wird nicht neu geschrieben, wenn er einmal stimmt — nur der Rahmen wechselt mit dem
+  Adressaten.** Das spart nicht nur Zeit: die Behörde und der Planer lesen nachweislich denselben
+  Wortlaut, was bei einer Auflagebereinigung der Punkt ist.
+- **Die Plangrundlage wird doppelt mitgegeben: DWG zum Arbeiten, PDF zum Verstehen.** «Bitte
+  verwenden Sie folgende Plangrundlage (siehe Anhang): A1_260812_Architektur
+  Änderungseingabe_Raphael Jans Architekten.**dwg** / Zum Verständnis und Plangrundlage hier den
+  PDF Plan: … .**pdf**». Beide Dateinamen ausgeschrieben, mit ausdrücklicher Zweckangabe je
+  Format. Ergänzt «Schlussabgabe PDF + Originalquelle» (Batch 18) um die **Begründung je
+  Format** — der Empfänger soll wissen, welche Datei er öffnet und welche er bearbeitet.
+- **Zwei Parteien verkuppeln, dritter Beleg — jetzt mit beiden vollständigen Kontaktblöcken und
+  Gewerkeüberschrift.** «Ich erlaube mir hier eure zwei Kontakte bezüglich Abstimmung
+  Ausführungsarbeiten … aufzuführen. Ich bin Euch dankbar wenn Ihre Euch für die Baustelle
+  bilateral auf der Baustelle koordiniert.» Darunter «**Leichtbauwände**» + voller Kontaktblock
+  des Unternehmers (Firma, Adresse, Direktwahl, Mobile, Web), dann «**Und Bauleitung**» + voller
+  Kontaktblock der Bauherrschaft. **Die Überschrift nennt das Gewerk, nicht die Person** — die
+  beiden sollen sich über die Sache finden, nicht über die Bekanntschaft. Batch 94 hatte das
+  Muster mit zwei Belegen; hier ist erstmals die vollständige Form dokumentiert.
+- **Der eigene Fehler wird in vier Sätzen erledigt: benennen, verorten, Handlung erbitten,
+  entschuldigen.** «Mir ist ein Zeichnungsfehler unterlaufen im Abänderungsplan: Es ist eine
+  Möblierung im Korridor 0.301 die da nicht hingehört. / Darf ich sie bitten mir das Dossier
+  nochmals freizugeben um den korrekten Plan hochzuladen. / Ich entschuldige mich für die
+  Unannehmlichkeiten.» **Kein Erklärungsabsatz, keine Ursachenanalyse, keine Zusicherung für die
+  Zukunft** — und keine Verzögerung: die Korrektur geht am Morgen nach der Einreichung raus.
+- **Die Verfahrensfrage an die Behörde: Liste, und jede Frage trägt ihre Antwortmenge in der
+  Klammer.** «Muss ein neues Gesuch erstellt werden? (Kopie von Stammgesuch oder Gesuch um
+  Abänderung)» / «Unter welcher Aktion muss der neue Abänderungsplan hochgeladen werden?
+  (Mitteilung an Gemeinde/…)» / «Muss das Unterschriftenblatt wieder unterzeichnet werden …?» /
+  «Muss die Vollmacht wieder eingereicht werden?». Vier `- `-Zeilen (aus dem `body.content`
+  gelesen: `list-style-type:"- "`). **Die Klammer nennt die denkbaren Antworten, damit der
+  Beamte nur wählen muss statt zu formulieren.** Dazu die bewusste Kanalwahl: er bittet um
+  **Rückruf**, nicht um schriftliche Antwort — und schreibt die Fragen trotzdem auf, damit das
+  Telefonat eine Traktandenliste hat. Zweiter Datenpunkt zu «Telefonat-Traktanden» (Batch 18).
+- **Die Vollständigkeitsfrage als eigener Vorgang.** Eine Mail hat nur einen Zweck: «ob für Ihre
+  Beurteilung des Projektes … **alle Dokumente vorhanden sind?** Sollten weitere Dokumente
+  benötigt werden bitte Ich Sie dies uns mitzuteilen.» **Er wartet nicht ab, ob die Behörde sich
+  meldet, sondern macht das Fehlen von Unterlagen zur Bringschuld der Behörde** — vor Ablauf der
+  Beurteilungsfrist. Verwandt mit der Bringschuld-Umkehr (Fidelity 260814), hier präventiv statt
+  reaktiv.
+
+Quelle: 10.–14.08.2026, authentisch; der Block «Sachkern wandert» zusätzlich belegt über die
+`korrektur-delta`-Mail vom 13.08. 10:53 (→ `CLAUDE.md`, zwölfte Falle).

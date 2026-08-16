@@ -1,7 +1,7 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 gewichtung: authentisch
 sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
@@ -1138,3 +1138,33 @@ nichts — sie ist Teil der Wirkung.
 
 Wichtig für den Zwilling: **die Härte liegt im Verb, nicht in der Lautstärke** («zurückweisen»,
 «schulden»). Es gibt keine Verstärker, keine Versalien, kein Ausrufezeichen.
+
+
+## Mailbatch 95 (10.–14.08.2026) — der eigene Fehler kostet die Behörde Arbeit, und er meldet ihn trotzdem
+
+- **Der eigene Zeichnungsfehler wird am nächsten Morgen gemeldet, obwohl das Dossier bereits
+  eingereicht ist.** «Mir ist ein Zeichnungsfehler unterlaufen im Abänderungsplan … Darf ich sie
+  bitten mir das Dossier nochmals freizugeben … Ich entschuldige mich für die
+  Unannehmlichkeiten.» Der Fehler ist klein (eine Möblierung im Korridor, die nicht hingehört)
+  und wäre mit einiger Wahrscheinlichkeit nicht aufgefallen. **Er bittet die Behörde um einen
+  zusätzlichen Arbeitsschritt, statt auf das Durchrutschen zu setzen** — und stellt sich damit
+  freiwillig schlechter. Das ist dieselbe Haltung wie «ehrlich vor Auftrag», hier gegenüber dem
+  Amt und gegen das eigene Fortkommen.
+- **Der Massstab für den Aufwand des anderen ist die Notwendigkeit, nicht die Bequemlichkeit.**
+  «Bitte nur soviel schieben wie wirklich nötig» — gerichtet an die Gebäudetechnik der
+  Bauherrschaft, die eine Trennwand verschieben soll. Die technisch bequeme Lösung (flächenbündig
+  mit der WC-Front, 64 cm) wird ausdrücklich als «etwas viel» zurückgewiesen. **Er schützt die
+  Raumfläche des Betriebs gegen die Einbaufreiheit der Technik**, obwohl beide Seiten seine
+  Auftraggeber sind.
+- **Die härteste Forderung des Textes steht in der höflichsten Form.** «Für Ihre Zusendung des
+  unterzeichneten angepassten Brandschutzplan mit Stellung **bis Morgen Freitag, den 14.08.26**
+  bin ich Ihnen sehr verbunden.» Eine Tagesfrist an einen externen Fachplaner, formuliert als
+  Dankesformel im Voraus. **Die Frist wird nicht abgeschwächt, sondern eingekleidet** — sie steht
+  mit Wochentag und Datum da, ohne Konjunktiv der Bitte.
+- **Die Zurückweisung folgt am nächsten Morgen, ohne die Wärme zurückzunehmen.** Derselbe
+  Fachplaner erhält 09:07 «Leider kann ich den Brandschutzplan so nicht einreichen», nachdem er
+  um 08:06 noch «Der Plan kann so freigegeben werden. Danke.» gelesen hatte. **Die Korrektur der
+  eigenen voreiligen Freigabe wird ohne Umschweife nachgeschoben** — kein Beschönigen des
+  Widerrufs, keine Erklärung, warum die erste Einschätzung anders lautete.
+
+Quelle: 10.–14.08.2026, authentisch.

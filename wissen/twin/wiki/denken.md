@@ -1,7 +1,7 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 gewichtung: authentisch
 sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
@@ -790,3 +790,43 @@ benennt sie, hängt die Folgefrage an den vorangegangenen Entscheid und übergib
 schliesst an «statt einer Empfehlung liefert er die abschreibfertige Variante» (260806/260807)
 an, geht aber einen Schritt weiter: hier gibt es nicht einmal eine Variante, sondern nur die
 saubere Übergabe der Frage.
+
+
+## Mailbatch 95 (10.–14.08.2026) — die Frage wird so gestellt, dass die Antwort ein Ankreuzen ist
+
+- **Die Klammer hinter der Frage nennt die Antwortmenge.** «Muss ein neues Gesuch erstellt
+  werden? **(Kopie von Stammgesuch oder Gesuch um Abänderung)**» — er fragt nicht offen, sondern
+  legt die zwei Möglichkeiten daneben, die er selbst für denkbar hält. **Die Frage wird zur
+  Auswahl reduziert, bevor der andere antworten muss.** Das verkürzt die Antwort, macht aber
+  zugleich den eigenen Kenntnisstand sichtbar — wer die falschen zwei Optionen nennt, wird
+  korrigiert, und auch das ist ein Gewinn. Verwandt mit dem A-oder-B-Muster der beweissicheren
+  Behörden-Vorabklärung (Batch 20), hier ohne Beweissicherungs-Absicht, rein zur
+  Antwortbeschleunigung.
+- **Die eigene Frage bekommt die Obergrenze und ihre Bewertung gleich mit.** «Wie viel muss die
+  Trennwand zwischen 2.039 Speisezimmer und 0.300 Fluchtweg Richtung Hoffassade **maximal**
+  verschoben werden? / Bitte nur soviel schieben wie wirklich nötig; Flächenbündig mit der
+  WC-Front wäre dann 64cm; was ich etwas viel finde.» **Er fragt, rechnet die Obergrenze selbst
+  aus und wertet sie im selben Atemzug ab.** Damit ist der Spielraum nach oben begrenzt, bevor
+  der Gefragte antwortet — die Frage ist offen, der Verhandlungsraum nicht. Fortsetzung des
+  Spielraum-/Verhandlungsdenkens, hier gegenüber der eigenen Bauherrschaft statt gegenüber einem
+  Anbieter.
+- **Die Folgekette wird bis ins vierte Glied ausgerollt und dann als Planungsauftrag
+  zurückgegeben.** Trennwandposition → innere Verglasung → Anschluss des Zmorgenküche-Korpus →
+  **entweder** Konsequenz für Position von Küche und Türe **oder** die Vollverglasung muss im
+  Bereich der Küchenzeile OPAK sein → «dass muss geplant und Koordiniert sein». **Der
+  Bauteilentscheid wird nicht isoliert beantwortet, sondern so lange weitergedacht, bis er auf
+  eine Entwurfsentscheidung trifft** — und die wird benannt, nicht selbst getroffen.
+- **Zwei Lösungswege werden nebeneinander gestellt, der Einwand steckt im Schrägstrich.**
+  «Komplettes einpacken der Metall-Abhangkonstruktion in EI30 z.B. Speiseraumseitig? /
+  **Versetzen/Erdbebensicherheit?**» — die zweite Option trägt ihren eigenen Killeinwand im
+  selben Wort. Der Fachplaner bekommt beide Wege und den Grund, warum der zweite schwierig ist,
+  in fünf Wörtern. **Keine Empfehlung, keine Priorisierung: die Wahl bleibt beim Fachmann, die
+  Vorarbeit macht er.**
+- **Die Zurückweisung argumentiert über die Instanz, nicht über das Verschulden.** «Leider kann
+  ich den Brandschutzplan so nicht einreichen **und wird auch nicht akzeptiert**.» Nicht «Sie
+  haben die Stellungnahme vergessen», sondern «so kommt es nicht durch». **Der Ablehnungsgrund
+  wird nach aussen verlegt** — die Behörde entscheidet, Raphael überbringt nur. Das erlaubt die
+  harte Sache ohne den persönlichen Vorwurf und lässt die Zusammenarbeit intakt (zwei Stunden
+  später steht die Anrede bereits eine Wärmestufe höher, → [[beziehungsregister]]).
+
+Quelle: 10.–14.08.2026, authentisch.

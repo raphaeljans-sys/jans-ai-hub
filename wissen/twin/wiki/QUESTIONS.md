@@ -3319,3 +3319,72 @@ Frage, die es nicht beantworten kann.
    das Gold wird ab Juni 2026 knapp, weil Du zunehmend den Hub schreiben lässt. Genau dieselbe
    Entwicklung macht die Kontrollgruppe gross. Ohne ein Delta-Signal misst der Review die Drift
    weiter, kann sie aber nicht mehr korrigieren.*
+
+
+## Batch 95 (16.08.2026) — Fenster `rj@` 10.–16.08.2026
+
+**Erledigt aus den Vorrunden:** **260814b #2** (Wrapper: setzt Raphael je selbst Text als Block
+in Apple Mail ein?) ist **erstmals gegengeprüft** — zwei handgetippte Apple-Mail-Texte desselben
+Fensters tragen den Wrapper **nicht** (→ `CLAUDE.md`, zwölfte Falle). Logisch ausgeschlossen ist
+der Fall damit nicht, aber er hat zwei Gegenbelege statt keinen; der Marker bleibt Lokalisator.
+**260815 #1** (rückwirkender Sendejournal-Abgleich) ist **methodisch erweitert, nicht erledigt**
+— siehe #4 unten. **Weiterhin offen:** 260814 #2/#5, 260814b #1/#3–#5, 260815 #2/#4–#6,
+260815b #1–#6.
+
+1. **[Beziehungsregister · Entscheid Raphael] Die Sammelanrede-Klausel in
+   `rules/anrede-kontakte.md` ist jetzt zweifach widerlegt — soll sie geändert werden?** Die Rule
+   sagt «Bei mehreren Empfängern im Cc/An: höflichste Anrede wählen, sofern nicht alle per Du
+   sind». Der Korpus zeigt zweimal das Gegenteil: «Werter Herr Kübler, / geschätzter Cekar und
+   Jens» (Batch 94, Du und Sie nebeneinander) und der Baufreigabe-Antrag vom 14.08.2026
+   («Geschätzter Herr Zala Shyam (UGZ, II.1.c), / Sehr geehrter Herr Kurt Frauenfelder (SRZ,
+   II.1.b), / Sehr geehrter Herr Linus Furrer (AfB, II.1.a)» — zwei Wärmestufen, 14 Empfänger,
+   3 angeredet). *Warum das eskaliert werden muss: die Rule ist **immer aktiv** und wird laut
+   eigener Konvention **vor** dem Wiki konsultiert — der Zwilling nivelliert also bei jeder
+   Sammelmail, obwohl Raphael staffelt. Vorschlag zur Formulierung: «Jede Person wird einzeln
+   angeredet, in ihrer eigenen Stufe; nivelliert wird nur bei grossen oder unbekannten
+   Verteilern.» Rule-Änderungen an dieser Datei sind an Raphaels Freigabe gebunden
+   (CHANGELOG 2026-07-25j), deshalb hier und nicht dort.*
+2. **[Methodik] `rgb(252,252,251)` — die dritte Gegenprobe fällt gegen den Kandidaten aus.** Der
+   Wert kommt in **keiner** der 16 gelesenen Mails dieses Fensters vor, auch **nicht in den
+   beiden Hub-Erzeugnissen**. *Ein Muster, das in bewiesenem Zwillingstext fehlt, ist als
+   Zwillings-Detektor untauglich. Er bleibt bei den zwei Belegen aus Batch 94 stehen und wird
+   nicht in die Muster-Tabelle aufgenommen. Zu klären bleibt nur noch, ob er an einer bestimmten
+   Erzeugungsart hängt (welcher Loop, welches Werkzeug) — das wäre ein Task-Detektor, kein
+   Echo-Detektor, gleiche Familie wie 260815 #2.*
+3. **[Fachsignatur · Verifikationspflicht] Vier Werte stehen nur in Zwillingstext und sind
+   ungeprüft.** Aus der verworfenen Mail vom 13.08.2026 18:57: Wandtyp «**W340-00**, EI 30 und
+   45 dB», ZPF-Tabuzonenplan «**S_TRA_0904**», Setztiefen «bis **35 mm** überall, nach Absprache
+   bis **120 mm**». *Warum: sie sind fachlich plausibel und wurden an die Bauherrschaft
+   hinausgeschickt, stammen aber nicht aus Raphaels Hand. Nach Rule `identifikatoren-verifizieren`
+   ist eine Bauteilnummer ein Identifikator, der unverändert in Ausschreibung und Werkvertrag
+   wandert. **Vor der nächsten Verwendung am Originaldokument prüfen**, nicht aus dieser Mail
+   zitieren. Nicht ins Wiki übernommen.*
+4. **[Methodik · höchster Ertrag, ersetzt die Formulierung von 260815 #1] Der rückwirkende
+   Abgleich braucht ZWEI Quellen, nicht eine.** Batch 95 zeigt, dass das Sendejournal allein die
+   Frage nicht schliesst: es meldet «Entwurf liegt bereit», nicht was danach geschah. Erst der
+   Ordner **`Drafts`** entscheidet — ein protokollierter Entwurf, der dort fehlt und dessen
+   Betreff am selben Tag in den Sent Items auftaucht, wurde versendet. *Zu tun für die Fenster ab
+   ca. April 2026: (a) Selbstmails nach «Entwurf», «liegt», «versendet», «ist raus» + Uhrzeit
+   durchsuchen; (b) die genannten Entwurfsbetreffs gegen den heutigen `Drafts`-Bestand stellen;
+   (c) fehlende Entwürfe in den Sent Items suchen; (d) die Treffer auf Handsignatur-Slips prüfen.
+   **Treffer ohne Slips sind zurückzunehmendes Gold, Treffer mit Slips sind neu gewonnenes
+   Silber** — der Abgleich schafft also nicht nur Verluste, sondern erschliesst die bisher
+   praktisch leere Kategorie `korrektur-delta`. Achtung: `Drafts` enthält aktuell 102 Einträge und
+   wird nicht aufgeräumt, die Quelle ist also belastbar; sie altert aber, sobald Raphael den
+   Ordner leert.*
+5. **[alle sechs · Frage an Raphael, 2 Sätze] Was hast Du am Stevanovic-Entwurf geändert?** Der
+   Hub hatte am 12.08.2026 16:37 einen Entwurf «KISPI PPTS: Auflagebereinigung» im Entwurfsordner
+   liegen; am 13.08. 12:53 ging eine Mail dieses Betreffs an dieselben Empfänger hinaus — über
+   Exchange und mit fünf Deiner typischen Slips, also überarbeitet oder neu getippt. *Warum das
+   die wertvollste offene Frage ist: es ist der **erste im Korpus nachweisbare Fall** von Entwurf
+   → Deine Überarbeitung → Versand. Wenn Du sagen kannst, was Du geändert hast (Ton, Struktur,
+   Schärfe, Fristsetzung), entsteht daraus ein echtes Korrektur-Delta — das zweitstärkste
+   Lernsignal, von dem der Harness bisher fast nichts hat. Selbst «ich habe ihn komplett neu
+   getippt, weil er nicht passte» wäre eine wertvolle Antwort.*
+6. **[Stimme · Frage an Raphael, 1 Satz] Die Mail vom 14.08.2026 09:07 bricht mitten in der
+   Aufzählung bei «2.2 Grundlage» ab, ohne Gruss — Absicht oder zu früh abgeschickt?** *Warum:
+   Batch 94 hat den abgebrochenen Satz als Drohgebärde belegt («… erwartet dass von nun an ….»).
+   Wenn auch die abgebrochene Mail ein Mittel ist, ist das ein Registerbefund; wenn es ein
+   Versehen war, darf der Zwilling es nicht nachahmen. Gleiche Frage wie 260815b #5 (die nackte
+   Amts-Mail), und beide zusammen entscheiden, ob der Zwilling unfertige Texte je senden darf.
+   Bis zur Klärung: nicht nachahmen.*

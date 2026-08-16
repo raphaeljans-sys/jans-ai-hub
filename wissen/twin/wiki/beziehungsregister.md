@@ -1,7 +1,7 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-15
+last_updated: 2026-08-16
 gewichtung: authentisch
 sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
@@ -2530,3 +2530,73 @@ Beleg: `rj@` 03.06.2026 13:54 UTC, «Geschätzter Albin,» — mit Komma, gefolg
 Die belegten Fassungen im Wiki stehen überwiegend ohne Satzzeichen («Geschätzter Jens»,
 «Geschätzte Stefi, lieber Albin»). Beide Formen laufen nebeneinander; kein Registerunterschied
 erkennbar, Einzelbeleg, nicht verallgemeinern.
+
+
+## Mailbatch 95 (10.–14.08.2026) — die gestaffelte Anrede trägt die Zuständigkeit, und sie adressiert nur drei von vierzehn
+
+**Der stärkste Beleg dieses Fensters, und er beantwortet [[QUESTIONS]] 260815 #4 praktisch.** Der
+Antrag auf Baufreigabe geht an **vierzehn** Empfänger (drei Ämter, Bauherrschaft,
+Fachplanerteam). Angeredet werden **drei**, jeder in eigener Zeile, mit Amt und der ihn
+betreffenden Auflageziffer in Klammern:
+
+```
+Geschätzter Herr Zala Shyam (UGZ, II.1.c),
+Sehr geehrter Herr Kurt Frauenfelder (SRZ, II.1.b),
+Sehr geehrter Herr Linus Furrer (AfB, II.1.a)
+```
+
+Drei Beobachtungen, alle operationalisierbar:
+
+1. **Zwei Wärmestufen stehen nebeneinander, ohne nivelliert zu werden** — «Geschätzter» für den
+   einen, «Sehr geehrter» für die zwei anderen, alle drei im Sie. Zweiter unabhängiger Beleg
+   nach «Werter Herr Kübler, / geschätzter Cekar und Jens» (Batch 94), diesmal **innerhalb einer
+   einzigen Registerstufe**. Damit ist die Staffelung nicht mehr Ausnahme, sondern die belegte
+   Regel: `rules/anrede-kontakte.md` («höflichste Anrede wählen») beschreibt einen Fall, den der
+   Korpus zweimal widerlegt. Die Rule zu präzisieren bleibt Raphaels Entscheid
+   ([[QUESTIONS]] 260816 #1).
+2. **Die Anrede ist zugleich die Sachadresse.** Die Klammer nennt nicht die Firma, sondern
+   **Amt plus Auflageziffer** — jeder Angeredete liest in seiner eigenen Zeile, welcher Punkt
+   ihm gehört. Der Rest des Verteilers liest mit, ohne angesprochen zu sein. **Wer angeredet
+   wird, ist zuständig; wer im Verteiler steht, ist informiert.** Fortsetzung des Markers
+   «Auflageziffer als Adresse statt als Thema» (Batch 93) bis in die Anredezeile hinein.
+3. **Die Reihenfolge folgt der Ziffer rückwärts** (II.1.c, II.1.b, II.1.a) — nicht der Hierarchie
+   und nicht dem letzten Kontakt. Einzelbeleg, nicht verallgemeinern; notiert, weil Batch 94 für
+   die Reihenfolge das Kriterium «letzter Kontakt» belegt hat und hier ein anderes greift.
+
+- **«Geschätzter Levi» ist jetzt authentisch belegt — der Batch-94-Vorbehalt fällt.** Dort wurde
+  die Anrede an den Türfachplaner nicht ins Wiki genommen, weil sie nur in einem verworfenen
+  Claude-Text stand. Die Mail vom 14.08. 14:34 ist Exchange-Eigentext mit zwei Slips («worden
+  wir gerne», «Geht Dir **diesen** Termin?») und trägt «Geschätzter Levi» + «**Lieber Gruss,
+  Raphael**». Der Türfachplaner steht damit im **Du**, warm, mit Kurzgruss.
+- **Die Wärmestufe steigt im selben Vorgang, sobald telefoniert wurde.** An den
+  Brandschutzplaner eines Fachplanerbüros, den er neu adressiert: 13.08. 10:53 «**Sehr
+  geehrter** Herr Stevanovic» (Erstauftrag, schriftlich) → 14.08. 07:14 «**Guten Tag** Herr
+  Stevanovic» (Reintext-Nachtrag direkt nach dem Telefonat, «Danke für Ihre Zeit.») → 14.08.
+  08:06 und 09:07 «**Geschätzter** Herr Stevanovic». **Innerhalb von 22 Stunden zwei Stufen
+  wärmer, ausgelöst durch das Telefonat, nicht durch den Projektfortschritt** — und die
+  Erwärmung überlebt die Zurückweisung des gelieferten Plans zwei Stunden später.
+- **Der Nachname wird geraten, wenn die Namensordnung unklar ist.** An denselben Empfänger
+  einmal «Sehr geehrter Herr **Shyam**» (12.08.) und einmal «Geschätzter Herr **Zala Shyam**»
+  (14.08.), bei einem Kontakt, der im Verteiler als «Zala Shyam» geführt ist. Nüchtern als Slip
+  vermerkt: **bei nicht eindeutiger Vor-/Nachnamen-Ordnung setzt er beide Namensteile oder rät,
+  statt zu prüfen.** Für den Zwilling ist das kein nachahmenswerter Marker, sondern der Ort, an
+  dem Rule `identifikatoren-verifizieren` greift.
+
+**Neue Mappings (Projekt 2619 KISPI und eigene Administration):**
+
+| Kontakt | Rolle | Register | Beleg |
+|---|---|---|---|
+| Cornelia Schäfer | Bauherrschaft KISPI, Projektseite | **Sie**, «Geschätzte Frau Schäfer,» | 11.08.2026 |
+| Linus Furrer | Amt für Baubewilligungen (AfB), Sachbearbeitung | **Sie**, «Geschätzter Herr Furrer» | 11./12.08.2026 |
+| Kurt Frauenfelder | Schutz & Rettung Zürich (SRZ), Brandschutz-Vorprüfung | **Sie**, «Geschätzter Herr Frauenfelder» / «Sehr geehrter Herr Frauenfelder» | 11./14.08.2026 |
+| Shyam Zala | Umwelt- und Gesundheitsschutz Zürich (UGZ) | **Sie**, «Sehr geehrter Herr Shyam» / «Geschätzter Herr Zala Shyam» | 12./14.08.2026 |
+| Bojan Stevanovic | Brandschutzplanung Gruner AG (Plan + Stellungnahme) | **Sie**, Stufe steigt Sehr geehrter → Guten Tag → Geschätzter | 13./14.08.2026 |
+| Levi Hiltmann | Türfachplanung TeKoSi | **Du**, «Geschätzter Levi» + «Lieber Gruss» | 14.08.2026 |
+| Bruno Jeckelmann | UBS, Kapitaleinzahlungskonto | **Sie**, «Guten Tag Herr Jeckelmann» | 12.08.2026 |
+
+**Nicht aufgenommen:** die Anrede «Sehr geehrte Damen und Herren» an das Notariat (12.08. 22:47)
+steht in einem als Hub-Erzeugnis verworfenen Text (→ `CLAUDE.md`, zwölfte Falle). Dieselbe
+Vorsicht wie bei «Geschätzter Levi» in Batch 94 — nur dass die Auflösung dort inzwischen
+gekommen ist.
+
+Quelle: 10.–14.08.2026, authentisch.

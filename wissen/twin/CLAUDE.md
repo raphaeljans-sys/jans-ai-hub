@@ -441,6 +441,92 @@ Graph-API lügt über Listenzeichen.** Der Eren-Gold rendert im `body.content` a
 der aus einer Vorschau statt aus `body.content` destilliert wurde, ist unbelegt und gehört
 nachgeprüft. Vor jeder Aussage über Listenform den Volltext lesen.
 
+**Zwölfte Falle, neu 16.08.2026 (Batch 95) — der ENTWURFSORDNER ist die zweite dokumentarische
+Quelle, und das Sendejournal spricht auch FREI.** Die zehnte Falle (15.08.) hat die Selbstmails
+des Hub als Sendejournal erschlossen. Batch 95 zeigt zwei Erweiterungen, die beide den Ertrag
+vervielfachen.
+
+**(1) Der negative Journalbefund ist ein Freispruch, nicht bloss eine Leerstelle.** Im Fenster
+10.–16.08.2026 protokollieren die fünf Hub-Chef-Selbstmails durchgehend und wörtlich, dass
+**nichts** an Dritte hinausgegangen ist («Ich habe bewusst keinen davon selbst versendet»,
+«keine Mail ist an Dritte gegangen», dazu die namentliche Liste der liegengebliebenen Entwürfe
+mit Uhrzeit). Damit sind die 23 übrigen Ausgangsmails des Fensters **dokumentarisch als
+nicht-vom-Hub-versendet ausgewiesen**, bevor ein einziges Stilmerkmal geprüft wurde. Bisher
+konnte das Journal nur belasten; es entlastet ebenso gut, und das ist der häufigere Fall.
+
+**(2) Der Entwurfsordner schliesst die Lücke, die das Journal offen lässt.** Das Journal sagt
+«Entwurf liegt bereit» — es sagt nicht, was danach damit geschah. Der Ordner `Drafts` sagt es:
+
+| Entwurf laut Journal | am 13.08. 08:45 im Journal | heute noch in `Drafts` | Sent Item gleichen Betreffs |
+|---|---|---|---|
+| Furrer (AfB), 12.08. 16:06 | liegt | **ja** (12.08. 14:06 UTC) | keines |
+| Inniger, 13.08. 01:28 | liegt | **ja** (12.08. 23:28 UTC) | keines |
+| Stevanovic (Gruner), 12.08. 16:37 | liegt | **nein** | **13.08. 10:53 UTC, gleicher Betreff, gleiche Empfänger inkl. Cc Ziegel** |
+
+**Ein protokollierter Entwurf, der aus `Drafts` verschwindet, während am selben Tag eine Mail
+gleichen Betreffs in den Sent Items auftaucht, ist versendet worden.** Der Hub-Chef vom 14.08.
+führt Stevanovic denn auch nicht mehr unter den offenen Entwürfen, sondern schreibt «**Du hast
+ihn** am 13.08.2026 12:53 … gebeten».
+
+**Und jetzt der eigentliche Fund: diese Mail ist weder Gold noch Echo, sondern SILBER.** Sie
+trägt fünf Handsignatur-Slips in vier Sätzen («würde ich Sie **B**itten», «**I**nhaltlich»,
+«**das** sie», «bis **M**orgen Freitag», Doppelleerschlag) und läuft über **Exchange** mit
+`Aptos,Arial,Helvetica` — nicht über den Apple-Mail-Kanal, in dem der Hub seine Drafts erzeugt.
+Raphael hat den Entwurf also nicht durchgewinkt, sondern neu getippt oder überschrieben. Das ist
+die Definition des **Korrektur-Deltas**, und es ist der erste Fall im Korpus, in dem der Weg
+Entwurf → Überarbeitung → Versand über zwei unabhängige Quellen (Journal + Ordner) nachweisbar
+ist.
+
+**Das messbare Delta, so weit es ohne den Entwurfstext reicht:** der Sachblock A)–C6) der
+gesendeten Mail ist wörtlich derselbe wie in Raphaels eigener, zweifelsfrei handgetippter Mail
+an die Behörde vom 11.08. 12:46 — mit **einer** Abweichung: dort steht «Zone Infomaterial vor
+dem **Raun** 2.017», hier «vor dem **Raum** 2.017». **Der Zwilling hat den Tippfehler
+stillschweigend ausgebessert.** Das ist die Drift in ihrer kleinsten beobachtbaren Form: er
+übernimmt die Sache korrekt und glättet die Hand. Wer Gold an der Fehlerdichte erkennt, misst
+genau das, was der Zwilling zuerst wegputzt.
+
+**Verbindliches Vorgehen ab sofort, in dieser Reihenfolge:** (1) Selbstmails des Fensters lesen
+— belasten oder entlasten sie? (2) Bei protokollierten Entwürfen `Drafts` gegen `Sent Items`
+stellen. (3) Erst dann stilistisch urteilen. (4) Trägt eine als versendeter Entwurf erkannte
+Mail Handsignatur-Slips, wird sie **nicht verworfen**, sondern als `korrektur-delta` gewichtet —
+sie zeigt, wo Raphael den Zwilling nicht stehen liess.
+
+**Gegenprobe zu [[QUESTIONS]] 260814b #2 erstmals bestanden (Wrapper).** Das Fenster enthält
+vier über Apple Mail gesendete Mails, und sie trennen sauber:
+
+| Apple-Mail-Text | `Apple-Mail-URLShareWrapperClass` | Fehler | Urteil |
+|---|---|---|---|
+| UBS-Kapitaleinzahlung, 12.08. 12:30 | **nein** | «100%**Lieberierung**», «bezüglich **dem** Projektstand» | handgetippt |
+| Brandschutzplan-CAD, 14.08. 07:14 (contentType **text**) | entfällt (kein HTML) | telegraphisch, «Danke und Gruss» | handgetippt |
+| Notariat, 12.08. 22:47 | ja, 3× | 0 | Hub |
+| Hilti-Joch-Lösung, 13.08. 18:57 | ja, 4× | 1 (im Einleitungssatz) | Hub, achte Falle |
+
+**Damit ist zum ersten Mal belegt, dass Raphael in Apple Mail tippt, ohne den Wrapper zu
+erzeugen** — die Restunsicherheit «setzt er je selbst Text als Block ein?» ist zwar nicht
+logisch ausgeschlossen, aber sie hat jetzt zwei Gegenbelege statt keinen. Der Marker bleibt
+Lokalisator; er ist als solcher aber deutlich belastbarer geworden.
+
+**`rgb(252,252,251)`: dritte Gegenprobe, und sie fällt gegen den Kandidaten aus.** Der Wert kommt
+in **keiner** der 16 gelesenen Mails vor — auch **nicht in den beiden Hub-Erzeugnissen**. Ein
+Muster, das in bewiesenem Zwillingstext fehlt, taugt nicht als Zwillings-Detektor. Er bleibt bei
+zwei Belegen aus Batch 94 stehen und wird **nicht** in die Muster-Tabelle aufgenommen
+(→ [[QUESTIONS]] 260816 #2).
+
+**Die schärfste Kontrollgruppe dieses Fensters: 7 Stunden 4 Minuten, derselbe Vorgang, derselbe
+Empfängerkreis** (Hilti-Joch in der Zimmertrennwand 2.300/2.301):
+
+| | 13.08. 11:53 (Exchange) | 13.08. 18:57 (Apple Mail) |
+|---|---|---|
+| Länge | 5 Zeilen | 4 Absätze, ~300 Wörter |
+| Form | Nominalfragmente mit Fragezeichen: «Komplettes einpacken … Speiseraumseitig? Versetzen/Erdbebensicherheit?» | Doppelpunkt-Blocktitel «Lösung:» / «Sicherheit bei der Montage:» / «Bohren und Tabuzonen, kurz:» |
+| Haltung | fragt den Fachplaner, entscheidet nicht | liefert die fertige Lösung samt Brandwache, Röntgenprüfung und Notfallplan |
+| Wrapper | nein | ja, 4× |
+
+**Der Verdachtstext ist nicht daran erkennbar, dass er schlechter wäre, sondern daran, dass er
+vollständiger ist, als die Frage sieben Stunden zuvor war.** Der eine Tippfehler steht im
+Einleitungssatz («Wenn Jens kein **bessern** Vorschlag hat») — also im Rahmen, den Raphael
+selbst getippt hat, vor dem eingesetzten Block. Achte Falle, mustergültig.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),
