@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 08:56:03
+Stand: 16.08.2026 09:06:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 08:56:03
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5e8780a4 nas-selfcommit: 2 Datei(en) 2026-08-16 08:45
+- b4b66009 hub-chef 16.08.2026: Briefing gesendet (08:57) — Entwurfsstand des Radars auf einem Konto gemessen, zwei Vornamen richtiggestellt
