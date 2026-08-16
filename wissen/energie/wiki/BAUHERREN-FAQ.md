@@ -8170,3 +8170,30 @@ minergie.ch/News vom 31.03.2010 (R. Kriesi), beide vollständig gelesen (Run 134
 `[[minergie-label-pressekritik]]`. Status **speculative** — Presseartikel sind keine normative
 Quelle, Datenstand rund 16 Jahre; der geltende Stand steht in
 `[[minergie-produktreglement-2026-1-muken-vergleich]]`.
+
+## F239 — «Kann ich bei meiner Innenstadt-Liegenschaft überhaupt eine Erdsonde bohren?»
+
+**Kurz:** Das ist standortabhängig und muss vor jeder Systementscheidung bei zwei Stellen
+abgeklärt werden: dem Amt für Baubewilligungen (Machbarkeit einer Bohrung) und der kantonalen
+Fachstelle für Erdsonden (`erdsonden@bd.zh.ch` in der Stadt Zürich). In dichten Innenstadtlagen
+gilt oft zusätzlich eine ortsspezifische **Bohrtiefenbegrenzung** aus dem Wärmenutzungsatlas, die
+mitbestimmt, wie viele Sonden überhaupt Platz haben.
+
+**Fachlich:** Ein reales JANS-Abklärungsbeispiel (Objekt Zürich Altstadt, Zone «F» des
+Wärmenutzungsatlas) zeigt eine Bohrtiefenbegrenzung von 280 m an der konkreten Stelle;
+Erdwärmesonden, thermoaktive Elemente und Erdregister waren dort grundsätzlich zulässig, für
+Grundwasser-Wärmenutzung galt eine Einschränkung «i.d.R. aus hydrogeologischen Gründen». Für die
+Sondendimensionierung selbst gilt die Faustregel rund 12.5 kW Heizlast pro Bohrung (Grobschätzung
+geowatt.ch); die gewählte Rohrdimension (32 mm gegen 40 mm Doppel-U) verändert den
+Druckverlust der Anlage um den Faktor rund 5.
+
+**Bauherren-Transfer:** Vor der Wahl zwischen Erdsonde und Luft/Wasser-Wärmepumpe lohnt sich eine
+frühe, kostenlose Anfrage bei der kantonalen Erdsonden-Fachstelle — die Antwort («Machbarkeit
+gegeben» oder nicht) entscheidet oft schon, welche Systeme überhaupt zur Debatte stehen, bevor
+in eine Detailplanung investiert wird. Eine Hüllensanierung (z.B. Fensterersatz) vorher kann die
+nötige Heizlast so weit senken, dass sich die Auslegung spürbar ändert.
+
+**Quelle:** JANS-internes Arbeitspapier «Energiequellen — Potential für Erneuerung WEZ»,
+19.01.2023, vollständig gelesen (Run 135, 16.08.2026) →
+`[[energiequelle-erdsonden-potentialabklaerung-zh-innenstadt]]`. Status **emerging** — Kontakt-
+und Zulässigkeitsangaben Stand Januar 2023, vor Verwendung an der aktuellen Praxis zu verifizieren.

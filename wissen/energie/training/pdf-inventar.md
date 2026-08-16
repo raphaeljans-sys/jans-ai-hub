@@ -762,3 +762,15 @@ Rechenbeispiel), `Nuetzliche Unterlagen/Verschattungs-Tool-Internet.doc`. Die `.
 im ME-Antrag-Ordner sind Rechenwerkzeuge der Fassung 2010/2011 und tragen keinen eigenen
 Fachinhalt über `minergie-reglement-wegleitung-2010-historisch` hinaus — vor einem Lauf prüfen,
 ob sie überhaupt einen Bauherren-Fakt hergeben.
+
+## Nachtrag 2026-08-16 (Run 135, Mac Mini Nachtschicht): Minergie-Restbestand ME-Antrag/EN-1b/Archiv
+
+| Status | Quelle | KB-Datenstand |
+|---|---|---|
+| [x] `Nachweisformulare/ME-Antrag/ME-Antrag mit Kommentare.pdf` | 2026-08-16 (2 S. vollst. → `minergie-me-antrag-nachweisformular-kommentiert`; undatiert, Alters-Indiz SIA 380/1:2009) |
+| [x] `SIA380_1_Energie_im_Hochbau/EN-1b Berechnet.pdf` | 2026-08-16 (1 S. vollst., durchgerechnetes Beispiel Höchstanteil-Regel → `en-1b-hoechstanteil-berechnungsbeispiel`; Formular gültig bis 31.12.2010) |
+| [x] `Weg_zum_Minergiezertifikat/_Archiv/230119_Energiequelle_rj.pdf` | 2026-08-16 (2 S. vollst., JANS-intern, Erdsonden-Potentialabklärung Zürich Innenstadt → `energiequelle-erdsonden-potentialabklaerung-zh-innenstadt`, FAQ F239) |
+| [-] `Weg_zum_Minergiezertifikat/_Archiv/230525_Minergiezertifikat_rj.pdf` | 2026-08-16 (2 S. vollst. geprüft: früherer, kürzerer Entwurf desselben Objekts wie das bereits destillierte `weg-zum-minergiezertifikat-ablauf` — identischer Aussenwand-U-Wert-Ist 1.715/95cm Backstein, identische GKS-Tabellenstruktur, nahezu wortgleicher Fragenkatalog an energie@bd.zh.ch; Vorstufe, kein eigenständiges Destillat) |
+| [-] `Weg_zum_Minergiezertifikat/_Archiv/230107_Lieferschein_Vorlage_rj.pdf` | 2026-08-16 (1 S. geprüft: JANS-Lieferschein für einen MRI-Bericht/Chiropraktik-Projekt, thematisch fremd, kein Energie-/Bauherren-Fakt, vermutlich Fehlablage im Minergie-Archivordner) |
+
+**Stand PL-02:** 83 von 182 energierelevanten PDF destilliert (80 bis Run 134, 3 in Run 135), 99 offen; zusätzlich 2 in diesem Lauf als Dublette/kein Bauherren-Fakt geprüft.

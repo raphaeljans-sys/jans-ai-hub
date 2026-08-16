@@ -5591,3 +5591,27 @@ Hebel) gilt, exakter Zahlenwert vor einer Baueingabe an aktueller Norm/Software 
   `destillate/INDEX.md`, `wiki/INDEX.md`, `wiki/QUESTIONS.md`, `raw/_INGESTED.md`, `outputs/`.
 - Scheduled Task `energie-training` (taeglich) angelegt; Agent `energie-berater` auf diese KB
   ausgerichtet; Bruecke aus `wissen/planungsgrundlagen/wiki/energie-uebersicht`.
+
+## 2026-08-16 (Mac Mini Nachtschicht Run 135) — Minergie-Restbestand: ME-Antrag, EN-1b-Rechenbeispiel, Archiv
+
+Zugang wie Run 133/134: M365-CLI mit Zertifikat, Graph-Drive-Navigation (Drive `02_Recht_Norm`)
+zum Auflösen der Ordnerpfade, Download der Dateien über `m365 spo file get --asFile` mit der
+server-relativen URL `/sites/PL/PL  Immobilienpreise/...` (zwei Leerzeichen, Werkzeugfalle aus
+Run 134 bestätigt und erneut angewendet).
+
+Drei Quellen destilliert: `minergie-me-antrag-nachweisformular-kommentiert` (kommentierte alte
+Minergie-Nachweis-Excel-Mappe, Pflichtfelder), `en-1b-hoechstanteil-berechnungsbeispiel`
+(durchgerechnetes Zahlenbeispiel der historischen 80-%-Höchstanteil-Regel, Negativfall) und
+`energiequelle-erdsonden-potentialabklaerung-zh-innenstadt` (JANS-internes Arbeitspapier,
+Erdsonden-/Grundwasser-Zulässigkeitsabklärung Zürich Altstadt, Auslegungsbeispiel Bohrungen).
+Zwei der drei Archiv-Dateien bewusst nicht destilliert: `230525_Minergiezertifikat_rj.pdf` ist
+eine belegte Vorstufe des bereits destillierten `weg-zum-minergiezertifikat-ablauf` (identischer
+Aussenwand-U-Wert 1.715/95cm Backstein, nahezu wortgleicher Fragenkatalog), und
+`230107_Lieferschein_Vorlage_rj.pdf` ist ein thematisch fremdes JANS-Lieferschein-Dokument
+(MRI-Bericht Chiropraktik-Projekt) ohne Energie-Bezug, vermutlich Fehlablage.
+
+Neue Bauherren-FAQ **F239** (Erdsonden-Zulässigkeit in Innenstadtlagen, Bohrtiefenbegrenzung,
+Ansprechstellen AfB/AWL) in `wiki/BAUHERREN-FAQ.md`.
+
+**Stand PL-02:** 83 von 182 energierelevanten PDF destilliert (80 bis Run 134, 3 in Run 135),
+99 offen. Register `training/pdf-inventar.md` nachgeführt.
