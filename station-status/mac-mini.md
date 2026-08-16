@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 18:21:04
+Stand: 16.08.2026 18:41:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 18:13)
@@ -12,4 +12,4 @@ Stand: 16.08.2026 18:21:04
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 09f6c4bb Abo-Check 16.08.: GELB 51 % / Tempo 0.57; Lauf 10.08. ausgefallen; Task-Prompt-Sync repariert (Station fuhr Stand 07.08. statt 13.08.)
+- 93fc7ca3 nas-selfcommit: 4 Datei(en) 2026-08-16 18:30
