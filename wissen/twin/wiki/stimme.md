@@ -50,46 +50,36 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Gruss (korrigiert 260813): «Freundliche Grüsse» + voller Block ist
   der DEFAULT — auch im Du, auch bei vier Zeilen, auch für die kurze Bitte.** Der Kurzgruss «Lieber
-  Gruss»/«Lgr.» gehört dem Reply OHNE eigenen Sachauftrag (Zusage, Dank, Quittung, Transmittal), in
-  der Sie-Behördenmail als «Danke und Gruss» vor FG+Block. **Der Service-Satz hängt an der
+  Gruss»/«Lgr.» hängt am REGISTER, nicht am Sachauftrag (korrigiert 260816, zweifach widerlegt):
+  Du-Mail an EINE Person trägt ihn auch mit eigenem Sachauftrag, gern erweitert («Lieber Gruss und
+  schöner Abend.» + «Raphael.» mit Punkt); sobald Sie, Behörde oder ein Cc/Bcc dabei ist, FG+Block,
+  in der Sie-Behördenmail als «Danke und Gruss» davor. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
   Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft ans
   Amt, **Offerten-/Submissionsanfrage**); wer liefert oder meldet, hört nach dem letzten Sachsatz
   auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
-  Verfahrens-/Statusmail, Nachlieferung an eine Fachstelle). Im Sammel-/Du-Register steht er
-  ohne «Ihnen» und ohne Schlusspunkt. **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine
-  Reply-Regel** — das «AW:» im eigenen Thread trägt den vollen Block (Gegenbeleg 260813).
-  Anrede-Skala → [[beziehungsregister]].
-  Emoji 😊/«:)» nur warm-sozial privat, sparsam; Mundart nur rein privat-sozial, wenn das
-  Gegenüber spiegelt. Formelle Alternativfrage als «–»-Bullets + «oder»; offene Aufzählung
-  «_ » (Du-Zeichen), Sub-Detail «➢» darunter; in der formell-dokumentierenden Sie-Mail «–», und die
-  Form wechselt dort **blockweise mit der Logik des Blocks** (nummeriert für eine Schrittabfolge,
-  «–» für gleichrangige Partner, Fliesstext für eine geltende Auflage → [[arbeitsweise]]);
-  iterativer Zwischenstand «kurzes OK-Feedback», Schlussabgabe «Bitte um Prüfung und Freigabe».
-  Im Peer-Du erlaubt: «Gel»-Opener, saloppe Superlative, «haha», Wunschzeile als Schluss ohne
-  Gruss. Rückruf-Wunsch: die Handynummer kann als BETREFF dienen (im wärmsten Peer-Du wird die
-  Mail auf «ruf mich an» gestrippt, im Lieferanten-Sie trägt nur der Betreff den Call-to-Action).
-  Ultrakurzes Du-Reply: ohne Signatur-Phrase, objektlose Zusage («Ich melde mich.»), «Bester
-  Gruss» + nur «Raphael»; ehrliche Selbst-Nebenzeile mit «…» stehen lassen; einzelnes
-  sicherheitskritisches Wort in VERSALIEN; schlechte Nachricht kommentarlos quittieren (kein
-  «schade», nur der nächste Schritt); Verfahrens-/Status-Sie-Mail sachlich ohne Wunschzeile,
-  «melde ich mich unverzüglich» + FG+Block. Datierte Detail-Präzedenzen: Abschnitte unten.
+  Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
+  (260816). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel** — das «AW:»
+  im eigenen Thread trägt den vollen Block. Anrede-Skala → [[beziehungsregister]].
+  Emoji 😊 und Mundart nur privat-sozial, sparsam und nur bei Spiegelung. Aufzählung: «–» + «oder»
+  in der formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt
+  **blockweise mit der Logik des Blocks** (nummeriert = Schrittabfolge, «–» = gleichrangig,
+  Fliesstext = geltende Auflage → [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
+  Superlative, «haha», grussloser Wunschsatz, die auf «ruf mich an» gestrippte Mail mit der
+  Handynummer im Betreff. Ultrakurzes Du-Reply ohne Signatur-Phrase, objektlose Zusage, «Bester
+  Gruss» + nur «Raphael». Ehrliche Selbst-Nebenzeile mit «…» stehen lassen; sicherheitskritisches
+  Einzelwort in VERSALIEN; schlechte Nachricht kommentarlos quittieren; Verfahrens-/Status-Sie-Mail
+  ohne Wunschzeile, «melde ich mich unverzüglich» + FG+Block. Detail-Präzedenzen: Abschnitte unten.
 - **Gattungsweiche Mail ↔ Eigendokument (260801):** Alles oben gilt der **Mail**. Im
   **JANS-Eigendokument** (Skript, Fragenkatalog, Arbeitspapier) fällt der ganze Mail-Rahmen weg —
   keine Anrede, kein Gruss, keine Signatur-Phrase, kein Service-Satz; **Stichwort-Gerüst statt
   ausformulierter Sätze**, ein Skript ist ein **Gerüst zum Sprechen**, kein Vortragstext.
-  Satzform, Kapitelkopf, Zahlenkolonne, Szenarienbenennung und die Zeichen «>»/«>>>» stehen im
-  Abschnitt «Eigendokument-Untergattungen» unten. **Die Zeichen sind gewachsen, keine Grammatik
-  (Raphael, 01.08.2026):** «_ » bleibt der Default; «>>>»/«>» nur bei gleicher Gattung und
-  gleichem Zweck, **nie erzwungen**; keine Semantik ableiten, keine neuen erfinden.
-- **Das Eigendokument ist eine Familie, der Zweck bestimmt die Form (260803/260804) — drei
-  Untergattungen, Formspezifikation im Abschnitt «Eigendokument-Untergattungen» unten, vor dem
-  Schreiben dort nachschlagen:** **(a) Sitzungsprotokoll** (Kopfblock statt Kapitelgerüst; «_ »
-  Teilthema, «>» Aussagekette, kein «>>>»; eigene Wertung nur als «**Anmerkung RJ:**»);
-  **(b) Bewertungsdokument** (Varianten ab 0, beschreibende Doppelformel, «+»/«-»-Rubriken, Ton
-  wertend und sinnlich); **(c) Erläuterungsbericht/Abgabetext** — die **einzige** Untergattung mit
-  ausformulierter Prosa (VERSAL-Kapitel ohne Nummer, Projekttitel als eingelöste These, kein
-  Schlusskapitel, Fachplanerbeiträge als eigene Spalten → [[arbeitsweise]]).
+  **Die Zeichen sind gewachsen, keine Grammatik (Raphael, 01.08.2026):** «_ » bleibt der Default;
+  «>>>»/«>» nur bei gleicher Gattung und gleichem Zweck, **nie erzwungen**.
+- **Das Eigendokument ist eine Familie, der Zweck bestimmt die Form (260803/260804):**
+  (a) Sitzungsprotokoll, (b) Bewertungsdokument, (c) Erläuterungsbericht/Abgabetext — als einzige
+  mit ausformulierter Prosa. Formspezifikation je Untergattung im Abschnitt
+  «Eigendokument-Untergattungen» unten, vor dem Schreiben dort nachschlagen.
 - **Anführungszeichen:** «…» als Default; die Echo-Detektionsklausel dazu steht in
   `wissen/twin/CLAUDE.md`, nicht hier (sie regelt Quellenprüfung, nicht das Schreiben).
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806):**
@@ -101,16 +91,15 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   jetzt fragen, wer unterzeichnet**». Je weniger der Druck von Raphael stammt, desto direkter die
   Form — die Höflichkeitsform ist nicht Respekt, sondern Kennzeichen des eigenen Wollens. Die
   **Abwicklungsbitte im laufenden Mandat trägt KEINE Begründung** (der angehängte Beleg IST die
-  Begründung); die Begründungspflicht gilt der **substanziellen** Bitte. Belegnummern inline mit
-  Form: «RE-00079 **(PDF)**». Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile
-  nach der Anrede**. Belege unten.
+  Begründung); die Begründungspflicht gilt der **substanziellen** Bitte — und **nicht** der
+  Anforderung eines Dokuments, das einem ohnehin zusteht, auch nicht bei namentlich bekannter
+  Sachbearbeiterin (260816, zweifach belegt). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
+  Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**.
 - **Englisch: «Hello <Vorname>,» ist die belegte Eröffnung, nicht «Hi» (260806).** Der Abbruch
-  einer Zusage öffnet ohne Entschuldigungswort und ohne Trostfloskel, direkt mit Ursache
-  («Unfortunately we were not able to …, due to …»), gefolgt vom Ersatz-Commitment **mit Uhrzeit**.
-  Der Wunsch an das Gegenüber steht im Konditional («It would be helpful if you could …», «It would
-  be useful to meet …») — **nur solange er ein Entgegenkommen ist**; liegt die Sache im bezahlten
-  Auftrag des Empfängers, steht auch im Englischen der **Imperativ** (260807). Die Vier-Stufen-Skala
-  ist sprachunabhängig. Schluss knapp und einzeilig, kein Block.
+  einer Zusage öffnet ohne Entschuldigungswort direkt mit der Ursache, gefolgt vom
+  Ersatz-Commitment **mit Uhrzeit**. Der Wunsch steht im Konditional, **solange er ein
+  Entgegenkommen ist**; im bezahlten Auftrag auch englisch der **Imperativ** (260807). Die
+  Vier-Stufen-Skala ist sprachunabhängig. Schluss knapp und einzeilig, kein Block.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als
@@ -3747,3 +3736,57 @@ und dass sie steigt, ist selbst ein Gold-Indiz, denn Zwillingstext interpunktier
 
 Quelle: 10.–14.08.2026, authentisch (13 Exchange-/Apple-Mail-Eigentexte) + 1 `korrektur-delta`
 (13.08. 10:53, versendeter und überarbeiteter Hub-Entwurf, → `CLAUDE.md` zwölfte Falle).
+
+## Der Kurzgruss haengt am Register, nicht am Sachauftrag (belegt Fidelity 260816, authentisch)
+Die Klausel «Kurzgruss gehoert dem Reply OHNE eigenen Sachauftrag» (260813) ist zweifach
+widerlegt und in der Do-Regel ersetzt. Belege, alle Outlook-nativ (`Aptos` + `rgb(0,0,0)`, kein
+Wrapper, kein Geviertstrich):
+
+| Mail | Register / Empfaenger | Sachauftrag | Gruss |
+|---|---|---|---|
+| 09.06.2026 15:49, Kaufberatung an den Interessenten | Du, EINE Person, kein Cc | ja, Kaufpreisempfehlung | «Lieber Gruss und schoener Abend.» / «Raphael.» |
+| 03.06.2026 15:54, Vergabe Kuechenbau (Fidelity 260815) | Du, Cc 2 | ja, Auftrag | «Lieber Gruss» |
+| 10.06.2026 09:54, Auflagebereinigung an den Fachplaner | Du-Anrede «Hallo Jens», Cc 2 + Bcc 2 | ja | FG + voller Block |
+| 09.06.2026 11:25 / 11:29, Behoerde | Sie | Bitte | FG + voller Block |
+
+Der trennende Umstand ist nicht der Sachauftrag, sondern **wer mitliest**: Du-Mail an eine
+einzelne Person traegt den Kurzgruss, sobald ein Sie-Register, eine Behoerde oder ein Cc/Bcc
+dazukommt, steht FG + Block. Die Vergabemail vom 03.06. (Du, Cc 2, Kurzgruss) bleibt der
+Grenzfall — sie ist mit dem Register-Kriterium besser erklaert als mit dem Sachauftrag, aber
+nicht widerspruchsfrei; als offener Punkt in [[QUESTIONS]] 260816 #3 gefuehrt.
+
+**Zwei Nebenmarker aus derselben Mail:** der Kurzgruss wird **erweitert** («und schoener Abend»),
+und der Vorname traegt einen **Punkt** («Raphael.»). Beide bisher unbelegt.
+
+## Der Service-Satz traegt sein Objekt (Korrektur 260816, Spannung vom 260815 aufgeloest)
+Die Do-Klausel «im Sammel-/Du-Register ohne ‹Ihnen› und ohne Schlusspunkt» ist im Objekt-Teil
+widerlegt, im Punkt-Teil bestaetigt-schwankend:
+
+- 10.06.2026, an den Fachplaner: «Fuer Fragen und Loesungen stehe ich **dir** gerne jederzeit zur
+  Verfuegung» — mit Objekt, **ohne** Schlusspunkt.
+- 03.06.2026, Vergabemail (Fidelity 260815): «stehe ich **Dir** jederzeit gerne zur Verfuegung.» —
+  mit Objekt, **mit** Schlusspunkt.
+
+Zwei unabhaengige Golds: das Objekt bleibt immer, der Schlusspunkt ist intermittierend. Damit ist
+die Spannung 1 aus dem Fidelity-Report 260815 aufgeloest.
+
+## Auslagerung aus dem Do-Block (260816, kein Regelverlust)
+Der Kompilier-Riegel stand bei 3 B Reserve; um die drei Korrekturen dieses Laufs ueberhaupt ins
+Gehirn zu bringen, wurde Beleg-Prosa aus dem Do-Block hierher verschoben. **Keine Regel ist
+entfallen**, nur ihre Beispiele:
+
+- Emoji-Variante «:)» neben 😊; «warm-sozial privat» als Langform von «privat-sozial».
+- Beispielpaar «iterativer Zwischenstand ‹kurzes OK-Feedback› / Schlussabgabe ‹Bitte um Pruefung
+  und Freigabe›» (Regel unveraendert gueltig, Beleg in den Abschnitten unten).
+- «Wunschzeile als Schluss ohne Gruss» → verkuerzt zu «grussloser Wunschsatz».
+- Beim Rueckruf-Wunsch die Registerverteilung (waermstes Peer-Du strippt die Mail, Lieferanten-Sie
+  traegt den Call-to-Action nur im Betreff) — Regel im Abschnitt weiter unten.
+- Beim ultrakurzen Du-Reply das Beispiel «Ich melde mich.»; bei der schlechten Nachricht die
+  Erlaeuterung «kein ‹schade›, nur der naechste Schritt».
+- Im Eigendokument-Absatz die Aufzaehlung «Satzform, Kapitelkopf, Zahlenkolonne,
+  Szenarienbenennung» und der Zusatz «keine Semantik ableiten, keine neuen erfinden»; die
+  Untergattungs-Formspezifikationen (a)/(b)/(c) stehen unveraendert im Abschnitt
+  «Eigendokument-Untergattungen».
+- Im Englisch-Absatz die Zitatbeispiele («Unfortunately we were not able to …», «It would be
+  helpful if you could …») und «ohne Trostfloskel».
+- Beim Transmittal der Zusatz «Belege unten»; beim «AW:» der Klammerverweis «(Gegenbeleg 260813)».

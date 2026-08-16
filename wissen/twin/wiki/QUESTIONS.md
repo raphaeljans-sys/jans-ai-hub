@@ -3388,3 +3388,53 @@ der Fall damit nicht, aber er hat zwei Gegenbelege statt keinen; der Marker blei
    Versehen war, darf der Zwilling es nicht nachahmen. Gleiche Frage wie 260815b #5 (die nackte
    Amts-Mail), und beide zusammen entscheiden, ob der Zwilling unfertige Texte je senden darf.
    Bis zur Klärung: nicht nachahmen.*
+
+## 260816 — Fidelity-Review (Fenster 08.–14.06.2026, Golds AfB / Kaufberatung / Auflagebereinigung)
+
+1. **[Beziehungsregister · Pruefaufgabe] Duzt das erste Telefonat immer?** Belegt ist ein Sprung
+   ueber zwei Stufen an einem Tag: 08.06.2026 «Geschaetzter Herr <Nachname>» + FG, am 09.06. nach
+   dem Telefonat «Hoi <Vorname>,» + Kurzgruss. *Warum das zaehlt: das Register kannte bisher nur
+   Achsen, die **formalisieren** (Cc, Gewicht des Anliegens). Hier bewegt ein Kanalwechsel in die
+   Gegenrichtung, und zwar sofort und ueber zwei Stufen. Wenn das die Regel ist, braucht der
+   Zwilling einen harten Ausloeser statt eines Gefuehls — und er darf nach einem Telefonat nicht
+   im Sie stehen bleiben. Pruefweg: Erstkontakte im Korpus suchen, bei denen ein Teams-/
+   Telefontermin zwischen zwei Mails liegt, und die Anrede davor/danach vergleichen.*
+
+2. **[Meta/Methode · Pruefaufgabe, hoher Ertrag] Wie viel Gold liegt in den Zitatketten?** Die
+   dreizehnte Falle zeigt, dass ein `body.content` mehrere Faelle traegt. *Warum vorrangig: die
+   Materialbeschaffung ist seit Juni 2026 das Nadeloehr des Fidelity-Strangs (rund die Haelfte der
+   substanziellen Mails sind Hub-Erzeugnisse). Die Zitatkette verdoppelt den Ertrag je Abfrage
+   ohne zusaetzliche Kosten und liefert zusaetzlich Faelle, in denen Zwilling und Original
+   **dieselbe** Aufgabe geloest haben. Pruefweg: in einem bereits destillierten Batch die
+   `x_Apple-Mail-URLShareWrapperClass`- und Geviertstrich-Treffer **innerhalb** der Zitatbloecke
+   zaehlen und gegen die Zahl der dort gewerteten Texte halten.*
+
+3. **[Stimme · Frage an Raphael, 1 Satz] Warum traegt die Vergabemail vom 03.06.2026 «Lieber
+   Gruss», obwohl zwei Personen im Cc stehen?** *Warum: die heute korrigierte Regel («Kurzgruss
+   nur im Du an EINE Person, sobald Cc/Bcc oder Sie dabei ist FG+Block») erklaert drei von vier
+   Belegen sauber, diesen einen nicht. Entweder ist das Kriterium die Empfaengerzahl nicht ganz,
+   oder die beiden im Cc zaehlen fuer Dich zum selben vertrauten Kreis. Eine Antwort in einem
+   Satz macht aus einer Faustregel eine Regel.*
+
+4. **[Arbeitsweise · Frage an Raphael, 1 Satz] Ist der Text unterhalb Deiner Signatur in der Mail
+   vom 10.06.2026 09:54 bewusst dort platziert oder ein Rest beim Zusammenkopieren?** Die Mail
+   endet formal mit dem FG-Block, darunter laeuft ungetrennt die harte Veto-Passage weiter.
+   *Warum: wenn das Absicht ist (die Ruege steht «nach» der offiziellen Mail und wirkt dadurch
+   persoenlicher), ist es ein starker Formmarker. War es ein Versehen, darf der Zwilling es nie
+   nachbauen — er wuerde sonst systematisch Signaturen mitten in Texte setzen. Gleiche Familie wie
+   260815b #4 und 260816 #6.*
+
+5. **[Haltung/Beziehungsregister · Pruefaufgabe] Wann setzt Du Bcc?** In derselben Mail stehen
+   Qualitaetssicherung und Flaechenmanagement im **Bcc**, waehrend die Bauherrschaft im Cc steht.
+   *Warum: der stille Mitleser war im Register bisher gar nicht gefuehrt, obwohl er die
+   Empfaengerarchitektur veraendert — und die belegte Regel «der mitlesende Dritte formalisiert die
+   Anrede» kann auf einen Bcc-Empfaenger gar nicht wirken, weil das Gegenueber ihn nicht sieht.
+   Pruefweg: alle Sent Items mit nicht-leerem `bccRecipients` ziehen und die Rollen der
+   Bcc-Empfaenger klassifizieren.*
+
+6. **[Denken · Frage an Raphael, 1 Satz] Nennst Du eine eigene Zahl auch dann, wenn die Grundlage
+   duenn ist?** Am 09.06.2026 steht «meine Kaufpreisempfehlung bei CHF 3.0MIO» direkt neben dem
+   Satz, dass die Abverkaufspreise noch zu pruefen waeren. *Warum: das ist die Kern-Drift dieses
+   Laufs — der Zwilling ordnet ein und erklaert, wo Du eine Zahl setzt. Bevor er das nachmacht,
+   muss klar sein, ob die Zahl an eine Mindestgrundlage gebunden ist oder ob der Vorbehalt danach
+   genuegt. Die falsche Antwort waere teuer: ein Zwilling, der zu frueh beziffert, bindet Dich.*

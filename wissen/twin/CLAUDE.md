@@ -527,6 +527,53 @@ vollständiger ist, als die Frage sieben Stunden zuvor war.** Der eine Tippfehle
 Einleitungssatz («Wenn Jens kein **bessern** Vorschlag hat») — also im Rahmen, den Raphael
 selbst getippt hat, vor dem eingesetzten Block. Achte Falle, mustergültig.
 
+**Dreizehnte Falle, neu 16.08.2026 (Fidelity-Review) — die ZITATKETTE ist die billigste
+Goldquelle des Korpus, und sie liefert Gold und Echo im selben Objekt.** Bisher wurde je Mail
+**ein** Text geprüft und gewichtet; der zitierte Thread darunter galt als Rauschen. Er ist das
+Gegenteil. Die Kaufberatungsmail vom 09.06.2026 15:49 enthält in einem einzigen `body.content`:
+
+| Position im Objekt | Hand | Erkennungszeichen |
+|---|---|---|
+| oben, neuer Text | **Raphael** | `Aptos`+`rgb(0,0,0)`, Tippfehler «Factseet», kein Wrapper, kein Geviertstrich |
+| Zitat, 08.06. | **Raphael** | Zweizeiler, «Geschätzter Herr <Nachname>» |
+| Zitat, 07.06. | **Hub** | `x_Apple-Mail-URLShareWrapperClass` auf jedem `<p>`, Geviertstriche |
+
+Damit steht die **kontrollierteste Gegenüberstellung, die es geben kann**: derselbe Empfänger,
+dieselbe Sachfrage, zwei Tage Abstand, beide Fassungen in derselben Datei — ohne zweite Abfrage,
+ohne Tagesfenster-Rechnung, ohne Fehlerdichte-Statistik. Das schlägt die bisherige Bestmarke
+(29 Minuten, Batch 94) nicht in der Zeit, wohl aber in der Beweiskraft.
+
+**Verbindlich ab sofort:** bei jeder gelesenen Mail den **zitierten Thread mitprüfen** und die
+Marker im Zitat einzeln zuordnen. Der Präfix `x_` vor den Apple-Mail-Klassen ist das Zeichen für
+«zitiert», nicht für eine andere Herkunft — Outlook stellt ihn beim Einbetten voran. Der
+Zusatzertrag ist doppelt: eine zweite Goldprobe pro Abfrage, und im Echo-Fall die Möglichkeit,
+Zwilling und Original an **derselben Aufgabe** zu messen statt nur an derselben Person.
+
+**Sperrliste: ein verworfenes Signal darf nicht durch die Hintertür zurückkommen.** Das Signal
+«dich/dir/deine klein geschrieben im Du» wurde am **07.08.2026** ausdrücklich verworfen
+(Gegenprobe: «kannst **Du** mir … welche für **dich** nicht mehr in Frage kommen» — gross und
+klein im selben handgetippten Satz). Am **15.08.2026** kam es als «intermittierendes
+Verdachtsmoment» wieder in die Muster-Tabelle. Am **16.08.** ist es zum dritten Mal widerlegt, in
+zweifelsfreiem Gold: «Was wiederum **deine** These zum Ausbau des Dachstockes stützen würde»
+(Outlook-nativ, tippfehlerbehaftet, kein Wrapper, kein Geviertstrich) — in derselben Mail, die
+zwei Absätze vorher «Ich habe **Dir** … beigelegt» gross schreibt.
+
+Das Signal ist damit **gestrichen und gesperrt**, nicht abgeschwächt. Und die Lehre gilt über den
+Einzelfall hinaus: die Fallen-Sammlung wächst chronologisch, und ein späterer Lauf findet ein
+schon einmal geprüftes Signal wieder «neu», weil er die frühere Widerlegung nicht liest. **Wer ein
+Signal aufnehmen will, greppt zuerst `CLAUDE.md` nach seinem Namen — steht dort «verworfen» oder
+«nicht aufgenommen», gilt das weiter, bis ein Beleg die frühere Gegenprobe entkräftet.** Aktuell
+gesperrt:
+
+| Gesperrtes Signal | verworfen am | Grund |
+|---|---|---|
+| «du/dich/deine klein» im Du | 07.08., bestätigt 16.08. | gross und klein in derselben eigenen Hand |
+| null Guillemets «…» allein | 03.08. | belegter Falsch-Positiv (Protokoll 24.08.2023) |
+| Signaturphrasen aus `rules/jans-dna.md` | 14.08. | der Zwilling reproduziert sie wortgetreu |
+| `color:rgb(10,10,10)` | 13.08. | Einzelbeleg, Gegenprobe fehlt |
+| `background-color:rgb(252,252,251)` | 16.08. | fehlt in bewiesenem Zwillingstext (Batch 95) |
+| Fehlen der Bitt-Reflex-Grossschreibung | 15.08. | intermittierend, belegt nur ihr Vorhandensein |
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

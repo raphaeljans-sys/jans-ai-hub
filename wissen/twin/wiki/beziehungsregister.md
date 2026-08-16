@@ -453,7 +453,11 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
   «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des
-  Eingangs); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
+  Eingangs; **der Zwilling hat genau hier gemessen versagt, 260816**: er spiegelte «Lieber Herr
+  X»/«Liebe Grüsse», Raphael antwortete zwei Tage später mit «Geschätzter Herr X»/FG. **Was die
+  Stufe wirklich bewegt, ist der KANALWECHSEL:** nach dem ersten Telefonat springt er in einem
+  Schritt von «Geschätzter Herr <Nachname>» auf «Hoi <Vorname>». **Gestapelt wird verkürzt:**
+  «Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die Nachnamen); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
   am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
   nicht das singuläre «Dich».
@@ -2600,3 +2604,48 @@ Vorsicht wie bei «Geschätzter Levi» in Batch 94 — nur dass die Auflösung d
 gekommen ist.
 
 Quelle: 10.–14.08.2026, authentisch.
+
+## Der Zwilling spiegelt den Opener — Raphael nie (gemessener Verstoss, Fidelity 260816)
+Das Don't «das Anrede-Wort des Gegenuebers spiegeln» war bisher nur an Raphaels Verhalten belegt.
+Der Lauf 260816 liefert erstmals den **Fehlgriff selbst**, und zwar in einem einzigen Mailobjekt,
+das Gold und Echo nebeneinander traegt (Kaufinteressent Bahnhofstrasse 27, Wangen SZ):
+
+| Datum | Hand | Anrede | Gruss |
+|---|---|---|---|
+| 07.06.2026, eingehend | der Interessent | «Lieber Herr Jans» | «Liebe Gruesse» |
+| 07.06.2026 16:01 | **Hub** (Wrapper + Geviertstrich) | «Lieber Herr Chaled» | «Liebe Gruesse» |
+| 08.06.2026 13:33 | **Raphael** | «Geschaetzter Herr Chaled» | «Freundliche Gruesse» |
+| 09.06.2026 15:49 | **Raphael**, nach dem Telefonat | «Hoi David,» | «Lieber Gruss und schoener Abend.» |
+
+Der Zwilling uebernahm Anrede **und** Gruss des Eingangs Wort fuer Wort. Raphael antwortete am
+Folgetag mit der eigenen Skala und blieb im Sie.
+
+**Und der Registersprung haengt am Kanalwechsel, nicht am Opener.** Zwischen dem 08.06. (Sie) und
+dem 09.06. (Du + Vorname) liegt genau ein Ereignis: das erste Telefonat. Der Sprung geht ueber
+zwei Stufen auf einmal («Geschaetzter Herr <Nachname>» → «Hoi <Vorname>») und ist damit die
+Gegenbewegung zum belegten Cc-Rueckschritt (260805/260806): **ein Mitleser formalisiert, ein
+persoenliches Gespraech duzt.** Erster Beleg dieser Richtung; als Frage nach weiteren Belegen in
+[[QUESTIONS]] 260816 #1.
+
+## Die gestapelte Anrede wird verkuerzt gefuehrt (belegt 260816, authentisch)
+An drei namentlich bekannte Sachbearbeiterinnen desselben Amts steht **ein** Anredewort, dann die
+Nachnamen: «Geschaetzte Frau Capkin, Heinrich, Hottinger» (09.06.2026 11:25) — nicht dreimal
+«geschaetzte Frau …» ausgeschrieben. Das Sammelpostfach des Teams stand im selben An-Feld und
+bekam **keine** eigene Nennung.
+
+## Kontrollpaar ueber 4 Minuten: Raphaels eigenes Redigat (belegt 260816, authentisch)
+Derselbe Inhalt, viermal Minuten Abstand, zwei Empfaengerkreise — und der zweite Anlauf zeigt, in
+welche Richtung Raphael seinen eigenen Text redigiert, wenn er ihn ein zweites Mal schreibt. (Der
+Anlass: im ersten Versand stand die falsche Sachbearbeiterin, «Heinrich» statt «Heimlicher».)
+
+| | 11:25, an drei + Teampostfach | 11:29:54, an die richtige Einzelperson |
+|---|---|---|
+| Anrede | «Geschaetzte Frau Capkin, Heinrich, Hottinger» | «Geschaetzte Frau Heimlicher» |
+| Dank | «Danke fuer den Bauentscheid**!**» | «Danke fuer den Bauentscheid**.**» |
+| Fragen | **ein** Satz, drei Fragen mit Komma gereiht, ein Fragezeichen am Ende | **zwei** Saetze, Konjunktiv «**Koennten** Sie …?», die zwei Verfahrensfragen mit «oder» gebuendelt |
+| Praezision | «diese Liste zu bekommen» | «die Auflagen zu besprechen» |
+| Signatur | einfach | **doppelt** (zwei Bloecke untereinander) |
+
+**Die Bewegung geht auf Gliederung und Milderung, nicht auf Kuerze** — und was *nicht* dazukommt,
+ist so aussagekraeftig wie was dazukommt: keine Begruendung, kein Voraus-Dank, kein Service-Satz.
+Die Tippfehler bleiben in beiden Fassungen stehen («auf der Platform», «ein Termin buchen»).

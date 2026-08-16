@@ -503,43 +503,32 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Säule** (C4D-/FBX-/Pfad-Terminologie) — aber **knapp**: Handlungsanweisung plus Wirkgrund,
   nicht als Lehrmittel. Wo etwas vom Gegenüber gebraucht wird, vorher die Reibung wegnehmen:
   Ursache belegen, das Zielgefäss selbst anlegen, mit dem Nutzen schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
-  (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): einschlägige
-  Norm zitieren (Artikel + Abs. + lit.), auf den eigenen Fall **subsumieren** («in meinem Fall
-  erfüllt, da …»), dann klarer Antrag mit Bestätigungsbitte. (b) **die Behörde um Auslegung einer
-  strittigen Norm bitten** (ohne eigene Rechtsbehauptung): NICHT subsumieren, sondern die
-  **konkurrierenden Auslegungen belegt gegenüberstellen** (kantonale Definition gegen
-  Kommentar/Rechtsprechung, exakte Fundstellen, Quellen physisch anhängen) und mit geschlossener
-  «–»-Alternativfrage + «oder» + «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide
-  enden mit FG + Block **ohne Service-Satz**. Honorar als durchgerechnete Offerte nüchtern
-  beziffern (Tagespauschale, «exkl. MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe
-  einer **Behörden-Auflage an die Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu
-  paraphrasieren («zwingend in Holz, mit Kämpfer und Brüstungsfeld») und jeden Punkt seiner
-  **namentlichen Amtsstelle** zuordnen (UGZ Energie im Bau · UGZ Gebäudeschadstoffe ·
-  Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ Baumerhalt · Tiefbauamt).
-  Bei einer **Korrektur-/Planlieferung** die Plan-Metadaten
-  ausweisen («Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt»). **In der
-  Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der konkreten Gemeinde rechnen, nicht die
-  generische Ausnützungsziffer (260801):** wo die BZO mit der **Baumassenziffer** arbeitet, lautet
-  die Kette «W2.2 = Grundstücksfläche × 2.2 ergibt die Baumasse der Regelbebauung, **+ 0.3 für die
-  Arealüberbauung**» → Volumen Arealüberbauung / Baumassenreserve / **stille Reserven** / Total,
-  jede Zahl in m3. **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie
-  rein typologisch stellen («Wie nahe darf der Baukörper architektonisch **und feuerpolizeilich**
-  an die Nachbarsbauten kommen?»). **Kernzone: die Grundmasse gelten weiter, verhandelt wird die
-  Einordnung (260803)** — die Kernzone hebelt die Ausnützung nicht aus, Ortsverträglichkeit
-  entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm wörtlich zitieren.
-  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (260803)** mit den festen Kopplungen
-  **Aussicht an die Himmelsrichtung** und **Lagequalität an die Ausnützung**, Mehrkosten als
-  Prozent-Bandbreite. Vokabular beider Felder samt Einordnungs-Hebeln: Abschnitt
-  «Zonen-, Kernzonen- und Aussenraum-Vokabular» unten — vor einer Studie dort nachschlagen.
-  **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (belegt Fidelity 260804):**
-  benannte Konstruktion mit Zahl (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname,
-  Ug-Wert, PV-Fläche, Label); Gestaltbegriffe an der Konstruktion festgemacht; Pflanzen mit
-  botanischem Namen, Bestandsbäume ausgewiesen. Belege: Abschnitt «Wettbewerbs-Fachsignatur» unten.
-  **Die administrative Fachsprache des Gegenübers übernehmen** (Vokabular und Belege: Abschnitt
-  «Administrative Fachsprache» unten, 260805) — bei **Registerdaten wörtlich**, samt der
-  Handelsregister-Zeilenform «Nachname, Vorname, von <Heimatort>, in <Wohnort> (Funktion)» und
-  der Vertretungsregel («Kollektivunterschrift zu zweien»); paraphrasieren würde die Angabe
-  formularuntauglich machen (260806).
+  (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren
+  (Artikel + Abs. + lit.), auf den eigenen Fall **subsumieren**, dann klarer Antrag mit
+  Bestätigungsbitte. (b) **die Behörde um Auslegung einer strittigen Norm bitten**: NICHT
+  subsumieren, sondern die **konkurrierenden Auslegungen belegt gegenüberstellen** (exakte
+  Fundstellen, Quellen anhängen) und mit geschlossener «–»-Alternativfrage + «oder» +
+  «Hintergrund der Anfrage:» die Behörde zur Wahl zwingen. Beide enden mit FG + Block **ohne
+  Service-Satz**. Honorar als durchgerechnete Offerte nüchtern beziffern (Tagespauschale, «exkl.
+  MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe einer **Behörden-Auflage an die
+  Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu paraphrasieren und jeden Punkt
+  seiner **namentlichen Amtsstelle** zuordnen (Liste unten). Bei einer **Korrektur-/Planlieferung**
+  die Plan-Metadaten ausweisen. **In der Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der
+  konkreten Gemeinde rechnen, nicht die generische Ausnützungsziffer (260801):** wo die BZO mit der
+  **Baumassenziffer** arbeitet, die Kette «W2.2 = Grundstücksfläche × 2.2, **+ 0.3 für die
+  Arealüberbauung**» → Volumen / Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3.
+  **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie rein typologisch.
+  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803)** — die
+  Kernzone hebelt die Ausnützung nicht aus, Ortsverträglichkeit entsteht über
+  **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm wörtlich zitieren.
+  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (260803)**, feste Kopplungen **Aussicht
+  an die Himmelsrichtung** und **Lagequalität an die Ausnützung**, Mehrkosten als
+  Prozent-Bandbreite; Vokabular im Abschnitt «Zonen-, Kernzonen- und Aussenraum-Vokabular» unten.
+  **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (260804)** — benannte
+  Konstruktion mit Zahl, Gestaltbegriffe an der Konstruktion festgemacht, Pflanzen mit botanischem
+  Namen; Abschnitt «Wettbewerbs-Fachsignatur» unten. **Die administrative Fachsprache des
+  Gegenübers übernehmen**, bei **Registerdaten wörtlich** — paraphrasieren macht die Angabe
+  formularuntauglich (260805/260806, Abschnitt «Administrative Fachsprache» unten).
 - **Eine Formalie wird bis zur Rechtsfolge durcherzählt, nicht als Aufgabe abgesetzt (260806):**
   Auslöser → Handlung → **Gegenstand mit vorweggenommener Missverständnis-Abwehr in Klammern**
   («… die Eingabequittung unterzeichnen **(keine Pläne)**») → Ausfertigung, Medium und Empfänger
@@ -2241,3 +2230,45 @@ Fachsignatur zu buchen. Falls die Werte gebraucht werden, sind sie am Originaldo
 verifizieren (→ [[QUESTIONS]] 260816 #3).
 
 Quelle: 10.–14.08.2026, authentisch.
+
+## Brandschutz- und Feuerwehr-Vokabular (belegt Fidelity 260816, authentisch)
+Aus der Auflagebereinigung KISPI an den Brandschutzplaner (10.06.2026), durchgehend ohne
+Erlaeuterung an den Fachplaner verwendet:
+
+- **Evakuierung/Intervention:** Evakuierungsvektor · FW Einsatzplaene · SRZ (Schutz & Rettung
+  Zuerich) · Anfahrt eines max. **18T** Fahrzeugs · Stellplatz gegen blossen Anfahrtsplatz ·
+  Brandwache · Zugang Intervention auf der «Nicht-Fluchtwegseite».
+- **Tueren im Fluchtweg:** VKF-zertifizierte Schiebetuere **EI30** · «nach **System 4**
+  auszufuehren» · brandfallgesteuert ueber **BMA** mit Notbetrieb «Zu» · bei Netzausfall
+  selbstschliessend mit Brandschutzfunktion · **Break-Out** oder **Swing-Out** · Tuerbeschlaege nach
+  **SN EN 179** · **ZUKO** als bauherrenseitige Zusatzvorgabe.
+- **Planwesen:** BSP (Brandschutzplan) · Stellungnahme Brandschutz · Booklet ·
+  Raumnummerierungsystematik · Revisionsplanung · Produktdatenblatt.
+
+**Der Marker ist nicht die Vokabelliste, sondern die Verwendung:** Raphael zitiert die eigene
+Baueingabe woertlich als Blockzitat und stellt ihr den Ist-Zustand der Plaene gegenueber («Diese
+sind in den Brandschutzplaenen nicht so ausgewiesen!»). Die Fachsprache dient dem Nachweis eines
+Widerspruchs, nicht der Demonstration von Kenntnis. Die eine offene Stelle bleibt als eingeklammerte
+Frage im Zitat stehen: «Break-Out oder Swing-Out Funktion **(was jetzt?)**».
+
+## Case-Terminologie der Kaufberatung (belegt Fidelity 260816, authentisch)
+In der Beratung eines Kaufinteressenten (09.06.2026) rechnet Raphael nicht in Verfahrensschritten,
+sondern in **benannten Cases**, die gegeneinander gestellt werden: «Neubau-Potenzial &
+Maximalrendite - Case» gegen «Immobilien - Case ‹Objekt halten› (kein Neubau)», dazu
+«Stockwerkeigentum als Renditeobjekt», «Abverkauf der Stockwerkeigentumswohnungen»,
+«Kaufpreisempfehlung», «Dachstock» (nicht «Dachgeschoss»). Die drei Pruefgegenstaende stehen als
+Schraegstrich-Kette: «Zustand Immobilie / Marktsituation / Investitionsbedarf».
+
+## Auslagerung aus dem Do-Block (260816, kein Regelverlust)
+Wie bei [[stimme]] wurde Beleg-Prosa in den Fliesstext verschoben, um den Kompilier-Riegel zu
+bedienen. Entfallen sind **nur Beispiele**: die Amtsstellen-Liste zur Auflagen-Weitergabe (UGZ
+Energie im Bau · UGZ Gebaeudeschadstoffe · Denkmalpflege · Baukontrolle · Stadtpolizei · GSZ
+Baumerhalt · Tiefbauamt), das Zitat «zwingend in Holz, mit Kaempfer und Bruestungsfeld», das
+Plan-Metadaten-Beispiel «Das Zeichnungsdatum habe ich auf 14.12.2025 gesetzt», die
+Subsumtionsformel «in meinem Fall erfuellt, da …», die Gegenueberstellungsquellen «kantonale
+Definition gegen Kommentar/Rechtsprechung», das Beispiel zur Rechts-/Schutzgroessen-Kopplung («Wie
+nahe darf der Baukoerper architektonisch und feuerpolizeilich …»), die Aufzaehlung der
+Wettbewerbs-Kennwerte (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produktname, Ug-Wert,
+PV-Flaeche, Label), «Bestandsbaeume ausgewiesen» sowie die Handelsregister-Zeilenform «Nachname,
+Vorname, von <Heimatort>, in <Wohnort> (Funktion)» samt «Kollektivunterschrift zu zweien».
+Saemtliche Regeln stehen unveraendert im Do-Block, die Belege in den Abschnitten oben.

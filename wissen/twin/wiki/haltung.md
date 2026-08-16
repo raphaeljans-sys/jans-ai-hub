@@ -128,6 +128,14 @@ nicht jede Nachbesserung wird zur Position.
   bitte ich sie den günstigst möglichen … zu verwenden. Das Wunschkonzert ist vorbei.»). Im Fazit steht der
   Befund **gegen den erklärten Favoriten der Bauherrschaft**, wenn die Rechnung ihn nicht trägt,
   und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
+- **Den eigenen Prüfaufwand beziffern, die Zustimmung verweigern, die Person freistellen
+  (260816):** «Ich habe mir nun 2.5 Stunden oberflächlich Zeit genommen … Aus meiner Sicht kann
+  ich dieser Baueingabe seitens <Firma> nicht zustimmen.» Die Härte hängt am
+  Preis-Leistungs-Verhältnis («Wir bezahlen einen Dienstleister … für sehr viel Geld. Es ist nicht
+  zu viel erwartet, wenn wir auch dafür ein adäquates Produkt erhalten.»), die Anwesenden werden
+  ausdrücklich entlastet («ich mache weder dir noch unserem <Name> Vorwürfe»), und der Schluss
+  bleibt Empfehlung, nicht Beschluss («müssten wir jetzt unser Veto einleiten. Dies ist meine
+  Empfehlung.»).
 - **Im internen Papier fällt die Höflichkeitsdämpfung weg (260803):** wo Raphael gegen aussen
   «machbar, aber schon massiv» sagt, verurteilt er im eigenen Bewertungsdokument die eigene
   Variante schonungslos (Zitate unten); gedämpft wird erst gegenüber dem Empfänger.
@@ -1168,3 +1176,30 @@ Wichtig für den Zwilling: **die Härte liegt im Verb, nicht in der Lautstärke*
   Widerrufs, keine Erklärung, warum die erste Einschätzung anders lautete.
 
 Quelle: 10.–14.08.2026, authentisch.
+
+## Den eigenen Pruefaufwand beziffern und die Zustimmung verweigern (belegt Fidelity 260816)
+Die haerteste Passage des Fensters 08.–14.06.2026, an den Brandschutzplaner, Cc Bauherrschaft,
+Bcc Qualitaetssicherung (10.06.2026 09:54):
+
+> «Ich habe mir nun **2.5 Stunden oberflaechlich Zeit genommen** alle diese Dokumente einzusehen.
+> Aus meiner Sicht **kann ich dieser Baueingabe seitens <Firma> nicht zustimmen**.»
+
+Drei Bewegungen, die zusammengehoeren:
+- **Der eigene Pruefaufwand wird beziffert** und dabei selbst noch relativiert («oberflaechlich»).
+  Die Zahl legitimiert das Urteil, ohne es aufzublasen.
+- **Die Haerte haengt am Preis-Leistungs-Verhaeltnis, nicht an der Person:** «Wir bezahlen einen
+  Dienstleister im vlg. zum Projekt <Referenzprojekt> fuer sehr viel Geld. Es ist nicht zu viel
+  erwartet, wenn wir auch dafuer ein adaequates Produkt erhalten.»
+- **Die Anwesenden werden ausdruecklich freigestellt:** «Moechte ebenfalls diese Zeilen nutzen und
+  herzlichst erwaehnen, dass ich **weder dir noch unserem <Name> Vorwuerfe mache**.» Die Ruege
+  richtet sich an die Firma, nicht an die zwei mitlesenden Menschen.
+
+**Der Schluss bleibt Empfehlung, nicht Beschluss:** «Wenn wir die Kosten minimal einhalten wollen,
+muessten wir jetzt unser **Veto** einleiten. **Dies ist meine Empfehlung.**» Der Entscheid bleibt
+bei der Bauherrschaft — dieselbe Bewegung wie «Wahlfreiheit beim Bauherrn lassen», hier im
+Konfliktfall. Das kollektive «wir/unser» im etablierten Mandat ist zusaetzlich belegt.
+
+Die rhetorischen Vorwurfsfragen davor sind nummeriert und bleiben unbeantwortet stehen: «2. Frage:
+Wieso nicht einen Anruf an <Person> taetigen und dies korrekt eintragen, anstatt dies als Pendenz
+fuer <Bauherr> aufzugeben?», «3. Frage: Wieso werden Tuermodelle in der Baueingabe erwaehnt, welche
+mit den BSP nicht uebereinstimmen?»

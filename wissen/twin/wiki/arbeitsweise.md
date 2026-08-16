@@ -158,11 +158,15 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   ist die **Zuständigkeit unklar**, dieselbe Anfrage im selben Zug an zwei Kanäle derselben
   Organisation richten; vor jedem **Nachhaken** den eigenen Prüfschritt belegt ausweisen.
   **Die Studien-/Sitzungspräsentation beginnt mit der Agenda, nicht mit dem Inhalt (260801):**
-  nummerierte Kapitelliste mit Kurzbeschrieb → Zustimmung zur Agenda → erst dann sprechen. Die
-  **Grundlagen werden mit ihrer Herkunft belegt**, bevor sie verwendet werden, samt offener Kritik
-  an der übernommenen Vorstudie. **Eine Änderung wird zuerst legitimiert, dann beschrieben**
-  («Gemäss Entscheid der GL … habe ich … angepasst»): die Urheberschaft bleibt beim
+  nummerierte Kapitelliste → Zustimmung zur Agenda → erst dann sprechen; **Grundlagen mit ihrer
+  Herkunft belegen**, bevor sie verwendet werden. **Eine Änderung wird zuerst legitimiert, dann
+  beschrieben** («Gemäss Entscheid der GL … habe ich … angepasst») — die Urheberschaft bleibt beim
   Entscheidgremium.
+- **Der Protokollpunkt ist eine Semikolon-Stichwortkette, kein Satz (260816):** «01 <Gegenstand
+  + Raum>; <Befund>; <Befund>; <Status> pendent» — Position, Feststellungen, offener Rest, ohne
+  Verb und ohne Wertung. Darunter EIN Satz Gesamtstand («Die erwähnten Punkte sind jetzt
+  eingearbeitet.») und der Antrag auf den nächsten Schritt, nie die Bitte, das Protokoll zu
+  bestätigen.
 - **Das Protokoll läuft im Formular des Gastgebers (260803):** fand die Besprechung beim Gegenüber
   statt, füllt er **dessen** Vorlage statt eines eigenen Rasters; **Pendenzen werden
   ausgelagert** («siehe separate Pendenzenliste im Anhang»); stehen gebliebene Fremd-Platzhalter
@@ -2897,3 +2901,40 @@ und es ist genau die Stelle, an der der Zwilling zum fünften Mal dokumentiert v
 
 Quelle: 10.–14.08.2026, authentisch; der Block «Sachkern wandert» zusätzlich belegt über die
 `korrektur-delta`-Mail vom 13.08. 10:53 (→ `CLAUDE.md`, zwölfte Falle).
+
+## Der Protokollpunkt ist eine Semikolon-Stichwortkette (belegt Fidelity 260816, authentisch)
+Die Fixierung des Besprochenen an den Fachplaner (10.06.2026 09:54) fuehrt vier Punkte, und keiner
+davon ist ein Satz:
+
+```
+Besprechung mit QS vom 10.06.26:
+Zu den einzelnen inhaltlichen Punkten:
+01 Moeblierung Empfang 1.14 Soziale Dienste; wie bisher moeglich; Festverschraubt; Produktdatenblatt pendent
+02 Evakuierungsvektor; keine Aenderung des Vektors; kein Stellplatz noetig; keine zusaetzlichen planerische Anpassungen
+03 Tuermodelle; Modell Breakout spezifisch festgelegt
+04 Einheitlichkeit Booklet; Durch Raumnummerierungsystematik (<Name>; <Abteilung>) in die Wege geleitet; Revisionsplanung nach Abschluss Arbeiten pendent
+```
+
+Form: **Nummer, Gegenstand samt Raumnummer, dann Feststellungen und der offene Rest, alles mit
+Semikolon getrennt, ohne Verb und ohne Wertung.** Die Laenge der Kette richtet sich nach der Zahl
+der Feststellungen, nicht nach einer Vorlage; wo nichts offen ist, endet sie (03), sonst auf
+«pendent». Darunter **ein** Satz Gesamtstand («Die erwaehnten Punkte sind jetzt eingearbeitet.»)
+und der **Antrag auf den naechsten Schritt** («Ich wuerde gerne die ueberarbeitete Fassung … zur
+Kontrolle an <Person> senden.») — nicht die Bitte, das Protokoll zu bestaetigen.
+
+**Zwei Formmarker derselben Mail:**
+- **Die Signatur steht mitten in der Mail.** Nach dem Antrag folgt der volle FG-Block, und
+  **darunter laeuft der eigene, aeltere Text ungetrennt weiter** (die harte Veto-Passage, →
+  [[haltung]]): kein Zitat-Trenner, kein «Von:»-Header, keine Kennzeichnung. Wer die Mail von oben
+  liest, haelt sie fuer beendet.
+- **Die Empfaengerarchitektur ist dreistufig:** An = der zustaendige Fachplaner, Cc = die
+  Bauherrschaft, **Bcc = die Qualitaetssicherung und das Flaechenmanagement**. Der stille Mitleser
+  ist belegt und war bisher im Register nicht gefuehrt.
+
+## Kein Anhangsverzeichnis, wenn die Anhaenge fuer sich sprechen (belegt 260816)
+Die Kaufberatung vom 09.06.2026 traegt **sieben** Anhaenge (Bewertung, Neubau-Potenzial, OEREB-
+Auszug, UBS-Factsheet, Factsheet Baurecht, zwei Bildschirmfotos) und nennt im Text nur drei davon,
+in einem Satz, ohne Liste und ohne Dateinamen: «Ich habe Dir meine Liegenschaftsbewertung Factseet
+Baurecht sowie das UBS Local Factsheet beigelegt.» Das steht neben dem belegten Gegenmuster
+«Anhang-Dateinamen als Listenpunkte» (260815, Vergabemail) — **die Liste gehoert der Lieferung an
+den Ausfuehrenden, der Fliesstext der Beratung.**
