@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.08.2026 01:01:45
+Stand: 17.08.2026 01:12:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 17.08.2026 01:01:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 47be10e0 nas-selfcommit: 4 Datei(en) 2026-08-17 01:00
+- 90e2a382 vollgas-radar 17.08. 00:58: Ursache P1 gefunden (Auto-Update-Waechter hing 19h45 an claude --version), Watchdog eingebaut und verifiziert; FREI 47.4% bei 93.4% Woche
