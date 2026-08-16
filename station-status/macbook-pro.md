@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 01:39:46
+Stand: 16.08.2026 01:50:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:39)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:46)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 16.08.2026 01:39:46
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- db91eab2 wissen/normen: SIA 215:1978 Mineralische Bindemittel destilliert (P3 aus Run 52 geschlossen); Zement-Kapitel belegt ersetzt durch SIA 215.002/215.003 (EN 197-1/-2), Kalk/Gips-Ablösung offen
+- 038efdbc normen PROGRAMM: Methodik-Pflicht 13 mit Kontrollen gemessen und praezisiert (Abdeckung 3/3 bei 0 Falsch-Positiven vs Refuter 1/3); Klasse 'fehlender Inhalt' zerfaellt in refuter-sichtbare Ausnahme und refuter-blinden Zusatzinhalt
