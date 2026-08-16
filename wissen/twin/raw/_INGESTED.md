@@ -1132,3 +1132,102 @@ Datumsfenster:** der rueckwirkende Sendejournal-Abgleich nach [[QUESTIONS]] 2608
 den vorhandenen Gold-Bestand statt neuen zu sammeln und kann Marker zurueckziehen, die auf
 Zwillings-Text beruhen. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
 Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 95 (16.08.2026) — Fenster `rj@` 10.–16.08.2026
+
+Sent Items `rj@`, **10.–16.08.2026** (Fenster vollständig gelistet: **37** Sent Items, zwei
+Seiten, Zugriff via M365-MCP `outlook_email_search` mit `folderName: "Sent Items"` +
+`order: oldest` + `read_resource` auf den HTML-Body). Sequenziell frisch: Batch 94 endete am
+09.08. Der 15.08. trägt nur Selbstmails, der 16.08. keine Eigentexte. **Dem in Batch 93/94
+empfohlenen Fenster gefolgt**, samt der dort vorrangig gestellten Prüfaufgabe zum Sendejournal
+([[QUESTIONS]] 260815 #1) — mit dem Ergebnis, dass die Methode um eine zweite Quelle erweitert
+werden musste (siehe Kernbefund).
+
+**Rauschen gestreift:** 7 Selbstmails an `rj@` (Hub-Chef 4×, Wege-Radar 2× als Dublette,
+P1 Vollgas-Radar) — **als Sendejournal ausgewertet, nicht übersprungen**; 4 Terminannahmen
+(«Angenommen: …»); 2 reine Weiterleitungen ohne Eigentext; 1 leere Mail («Arioli», `summary:
+null`); 1 Fremdmail, die nur formal in Sent Items liegt (Absender
+`nr@schreinermanufaktur.ch`); 1 Zweiwort-Reply («Danke und glg»); 1 Kurzreply («Danke. Schönes
+Wochenende.»); 1 Freigabe-Einzeiler («Der Plan kann so freigegeben werden. Danke.»).
+
+**16 Volltexte gelesen: 13 als Gold destilliert, 1 als `korrektur-delta` gewichtet, 2 nicht als
+Stilquelle verwendet.** 32 neue Marker in allen 6 Facetten, 7 Mappings, 6 Fragen, 1 neue
+Echo-Falle in `CLAUDE.md`, 1 Präzisierung der neunten Falle, 1 bestandene Gegenprobe.
+
+**Kernbefund — die zwölfte Falle: der Entwurfsordner ist die zweite dokumentarische Quelle, und
+das Sendejournal spricht auch FREI.** Zwei Erweiterungen der zehnten Falle:
+
+(1) **Der negative Journalbefund entlastet.** Die fünf Hub-Chef-Selbstmails protokollieren
+wörtlich, dass nichts an Dritte hinausging («Ich habe bewusst keinen davon selbst versendet»,
+«keine Mail ist an Dritte gegangen»), samt namentlicher Liste der liegengebliebenen Entwürfe mit
+Uhrzeit. Damit sind die übrigen Ausgangsmails **dokumentarisch freigesprochen**, bevor ein
+Stilmerkmal geprüft wurde. Bisher konnte das Journal nur belasten.
+
+(2) **`Drafts` schliesst die Lücke, die das Journal offen lässt.** Von drei protokollierten
+Entwürfen liegen zwei heute noch im Ordner (Furrer 12.08. 14:06 UTC, Inniger 12.08. 23:28 UTC),
+einer fehlt — und genau dessen Betreff und Empfängerkreis (inkl. Cc) steht am 13.08. 10:53 UTC
+in den Sent Items. Der Hub-Chef vom 14.08. führt ihn nicht mehr als offen, sondern schreibt
+«**Du hast ihn** am 13.08.2026 12:53 … gebeten».
+
+**Und diese Mail ist SILBER, nicht Echo.** Sie trägt fünf Handsignatur-Slips in vier Sätzen
+(«würde ich Sie **B**itten», «**I**nhaltlich», «**das** sie», «bis **M**orgen Freitag»,
+Doppelleerschlag) und läuft über **Exchange** mit `Aptos,Arial,Helvetica` — nicht über den
+Apple-Mail-Kanal, in dem der Hub seine Drafts erzeugt. **Erster im Korpus nachweisbarer Fall von
+Entwurf → Überarbeitung → Versand.** Das messbare Delta, soweit es ohne den Entwurfstext reicht:
+der Sachblock A)–C6) ist wörtlich derselbe wie in Raphaels handgetippter Behördenmail vom
+11.08. 12:46 — mit **einer** Abweichung, «vor dem **Raun** 2.017» wurde zu «vor dem **Raum**
+2.017». **Der Zwilling hat den Tippfehler stillschweigend ausgebessert.** Die Drift in ihrer
+kleinsten beobachtbaren Form: er übernimmt die Sache korrekt und glättet die Hand.
+
+**Zwei Ausschlüsse, beide über den Wrapper + Fehlerdichte:** die Notariatsmail vom 12.08. 22:47
+(Apple Mail, Wrapper 3×, kein `font-family`, null Tippfehler, Fortsetzung der in Batch 94
+**bewiesenen** Hub-Mail vom 03.08.) und die Hilti-Joch-Lösung vom 13.08. 18:57 (Apple Mail,
+Wrapper 4×, drei Doppelpunkt-Blocktitel, Sicherheits- und Tabuzonenkapitel). Letztere bildet mit
+der eigenen Mail vom selben Tag 11:53 die **schärfste Kontrollgruppe dieses Fensters: 7 h 04 min,
+derselbe Vorgang, derselbe Empfängerkreis** — morgens fünf Zeilen Nominalfragmente mit
+Fragezeichen, abends 300 Wörter mit fertiger Lösung samt Brandwache und Röntgenprüfung. **Der
+Verdachtstext ist nicht schlechter, sondern vollständiger, als die Frage sieben Stunden zuvor
+war.** Der eine Tippfehler steht im Einleitungssatz, also in Raphaels Rahmen vor dem eingesetzten
+Block (achte Falle, mustergültig).
+
+**Gegenprobe zu [[QUESTIONS]] 260814b #2 erstmals bestanden:** von vier Apple-Mail-Texten des
+Fensters tragen die zwei handgetippten (UBS 12.08. 12:30 mit «100%Lieberierung»; CAD-Nachtrag
+14.08. 07:14 als reiner `contentType: text`) **keinen** Wrapper, die zwei Hub-Texte tragen ihn
+3× bzw. 4×. **`rgb(252,252,251)` kam in keiner der 16 Mails vor, auch nicht in den beiden
+Hub-Texten** — der Kandidat aus Batch 94 wird damit **nicht** in die Muster-Tabelle aufgenommen
+([[QUESTIONS]] 260816 #2).
+
+**Stärkster inhaltlicher Fund:** die gestaffelte Anrede mit **Amt und Auflageziffer je Zeile**
+(«Geschätzter Herr Zala Shyam (UGZ, II.1.c), / Sehr geehrter Herr Kurt Frauenfelder (SRZ, II.1.b),
+/ Sehr geehrter Herr Linus Furrer (AfB, II.1.a)») — 14 Empfänger, 3 angeredet, zwei Wärmestufen
+nebeneinander, die Anrede ist zugleich die Sachadresse. Zweiter Beleg gegen die
+Sammelanrede-Klausel in `rules/anrede-kontakte.md` ([[QUESTIONS]] 260816 #1). Weiter neu: die
+Buchstabenkette A)–D) läuft über den Bruch zwischen Vorschlag und Rückfrage hinweg; der
+Sammelpunkt bekommt Unterpunkte C1–C6 **ohne** Klammer; die Verbgrossschreibung trifft nicht
+«bitten», sondern das betonte Verb der Aufforderung (Präzisierung der neunten Falle); der
+Fluchtweg wird über das **Inventar** freigeräumt und der Nachweis als **Abbruchdarstellung**
+geführt; «Geschätzter Levi» ist jetzt authentisch belegt (Batch-94-Vorbehalt fällt).
+
+**Mikro-Metrik** (1087 W, 14 Eigentexte, `stilmetrik.py`, ohne Listen-, Kontaktkarten- und
+Dateinamenzeilen): Du-Gross **0.85**, Satzlänge ø **19.8 W**, Tausender-Apostroph 0, Ellipsen 0,
+«%» kam nicht vor; Grüsse FG 10× / «Lieber Gruss» 2×; Anreden «Geschätzter Herr <Nachname>» 5× /
+«Sehr geehrter Herr» 4× / «Geschätzter <Vorname>» 5× / «Hoi Michi» 1× / «Geschätzte Frau» 1×.
+**⚠ Neuer Befund zum Messfehler [[QUESTIONS]] 260814 #3:** die 19.8 W liegen weit über dem
+Korpusband 11.9–14.3, ohne dass die Sätze länger wären — Ursache ist die **fehlende
+Endinterpunktion** in Anweisungszeilen, die der Bullet-Filter aus Batch 94 nicht fasst, weil sie
+kein Listenzeichen tragen. Die Satzlänge misst bei diesem Schreiber Interpunktion, nicht Stil.
+
+**⚠ Gehirn NICHT neu kompiliert** (unverändert seit Batch 93): der Auto-Block in
+`rules/jans-dna.md` steht bei 29997 B von 30000 B. Dieser Batch trägt rund 12 kB neue
+Facetten-Prosa. **Der Entscheid über MAX_AUTO_BYTES bzw. eine grössere Verdichtung liegt bei
+Raphael** (Budget-Führung `wissen/claude-code/wiki/kontext-architektur.md`). Die Marker wirken
+über die Twin-Agenten, die die Facetten-Artikel direkt lesen; nur der immer-aktive Auto-Block ist
+seit dem 13.08. eingefroren.
+
+**Nächstes Fenster:** `rj@` **17.–23.08.2026** (sequenziell; der 15./16.08. tragen keine
+Eigentexte). **Methodisch vorrangig — und weiterhin ergiebiger als jedes neue Datumsfenster:**
+der rückwirkende Doppelabgleich Sendejournal + `Drafts` nach [[QUESTIONS]] 260816 #4. Er prüft
+den vorhandenen Bestand statt neuen zu sammeln, nimmt fälschlich verbuchtes Gold zurück **und**
+erschliesst zugleich die bisher fast leere Kategorie `korrektur-delta`. **Vor der Lektüre
+zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der
+Fidelity-Läufe.**

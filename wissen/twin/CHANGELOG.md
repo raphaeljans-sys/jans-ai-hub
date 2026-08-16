@@ -4,6 +4,53 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 16.08.2026 — twin-mail-training Batch 95 (10.–16.08.2026): zwölfte Echo-Falle, und das erste belegte Korrektur-Delta
+
+Fenster `rj@` **10.–16.08.2026** (37 Sent Items, 16 Volltexte). **13 Gold · 1 Korrektur-Delta ·
+2 verworfen.** 32 neue Marker in allen sechs Facetten, 7 Mappings, 6 Fragen.
+
+**Zwölfte Falle in `CLAUDE.md` — der Entwurfsordner als zweite dokumentarische Quelle, und das
+Sendejournal spricht auch frei.** Zwei Erweiterungen der zehnten Falle: (1) Die fünf Hub-Chef-
+Selbstmails protokollieren wörtlich, dass **nichts** an Dritte hinausging — damit sind die
+übrigen Ausgangsmails dokumentarisch entlastet, bevor ein Stilmerkmal geprüft wurde; bisher
+konnte das Journal nur belasten. (2) Von drei protokollierten Entwürfen liegen zwei heute noch in
+`Drafts`, einer fehlt — und genau dessen Betreff und Empfängerkreis steht am 13.08. in den Sent
+Items. **Ein protokollierter Entwurf, der aus `Drafts` verschwindet, wurde versendet.**
+
+**Diese Mail ist Silber, nicht Echo** — sie trägt fünf Handsignatur-Slips in vier Sätzen und
+läuft über Exchange, nicht über den Apple-Mail-Kanal der Hub-Drafts. Erster im Korpus
+nachweisbarer Fall von Entwurf → Überarbeitung → Versand. Das messbare Delta: der wörtlich
+übernommene Sachblock aus Raphaels eigener Behördenmail vom 11.08. weicht an **einer** Stelle ab
+— «vor dem **Raun** 2.017» wurde zu «**Raum**». Der Zwilling glättet den Tippfehler. Wer Gold an
+der Fehlerdichte erkennt, misst genau das, was der Zwilling zuerst wegputzt.
+
+**Zwei Ausschlüsse** (Notariat 12.08., Hilti-Joch-Lösung 13.08. — beide Apple Mail mit Wrapper,
+ohne `font-family`, fehlerfrei). Die zweite bildet mit der eigenen Mail desselben Tages die
+schärfste Kontrollgruppe des Fensters: **7 h 04 min, derselbe Vorgang** — morgens fünf Zeilen
+Nominalfragmente, abends 300 Wörter fertige Lösung. Der Verdachtstext ist nicht schlechter,
+sondern vollständiger, als die Frage sieben Stunden zuvor war.
+
+**Gegenprobe zu QUESTIONS 260814b #2 erstmals bestanden:** die zwei handgetippten Apple-Mail-Texte
+tragen keinen Wrapper, die zwei Hub-Texte 3× bzw. 4×. **`rgb(252,252,251)` kam in keiner der 16
+Mails vor, auch nicht in den Hub-Texten** — Kandidat verworfen, nicht in die Muster-Tabelle.
+
+**Inhaltlich:** gestaffelte Anrede mit Amt und Auflageziffer je Zeile (14 Empfänger, 3 angeredet,
+zwei Wärmestufen nebeneinander) — zweiter Beleg gegen die Sammelanrede-Klausel in
+`rules/anrede-kontakte.md`, eskaliert als QUESTIONS 260816 #1; Buchstabenkette A)–D) über den
+Bruch zwischen Vorschlag und Rückfrage hinweg; Unterpunkte C1–C6 ohne Klammer; die
+Verbgrossschreibung trifft das betonte Verb, nicht «bitten» (Präzisierung der neunten Falle);
+Fluchtweg als Inventarfrage mit Abbruchdarstellung als Nachweis; «Geschätzter Levi» jetzt
+authentisch belegt (Batch-94-Vorbehalt fällt).
+
+**Metrik** (1087 W, 14 Eigentexte): Du-Gross 0.85, Satzlänge ø 19.8 W, FG 10× / «Lieber Gruss» 2×.
+**⚠ Die 19.8 W sind ein Messartefakt**: Ursache ist die fehlende Endinterpunktion in
+Anweisungszeilen, die der Bullet-Filter aus Batch 94 nicht fasst. Die Satzlänge misst bei diesem
+Schreiber Interpunktion, nicht Stil.
+
+**⚠ Gehirn nicht neu kompiliert** (unverändert seit Batch 93): `rules/jans-dna.md` steht bei
+29997 B von 30000 B, dieser Batch trägt rund 12 kB. Entscheid über MAX_AUTO_BYTES liegt bei
+Raphael. Die Marker wirken über die Twin-Agenten, die die Facetten direkt lesen.
+
 ## 15.08.2026 — twin-fidelity-review: elfte Echo-Falle (Gedankenstrich) + die Vorschau lügt über Listen
 
 Report: `outputs/2026-08-15_fidelity.md`. Fenster `rj@` **03.–07.06.2026** (38 Sent Items,
