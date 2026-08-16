@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 23:35:31
+Stand: 16.08.2026 23:56:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:33)
@@ -12,4 +12,4 @@ Stand: 16.08.2026 23:35:31
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ffe9c755 wissens-chef Run 34: AHB-Korpus als Doppelbewirtschaftung gemessen (25 Destillate, 1 Kante), SIA-118-Fristenfehler in 3 Bauleitungs-Skills korrigiert, 2 Fuehrungszeilen
+- 183d5e9a nas-selfcommit: 9 Datei(en) 2026-08-16 23:45
