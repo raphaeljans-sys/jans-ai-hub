@@ -163,6 +163,102 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### energie ↔ planungsgrundlagen (AHB-Korpus `Projektadmin AHB`) — der Korpus statt der Einzelfaelle — geprueft 2026-08-16 (Run 34)
+
+**Befund (bestaetigt, Korpus-Ebene).** Run 33 fand die Dachbegruenungs-Doppeldestillation, dieser
+Lauf zwei weitere desselben Musters (PCB-Fugendichtungsmassen, Raumtemperatur-Richtlinie 2006).
+Statt einen dritten Einzelfall zu melden, wurde die Ursache gemessen: von den **25**
+`energie`-Destillaten mit Quelle aus `PL - 02_Recht_Norm/04_Merkblaetter/Projektadmin AHB/` ist
+**genau eines** in `planungsgrundlagen` genannt — waehrend dort ein 1'439-zeiliger Artikel
+(`recht-norm-ahb-stadt-zuerich-projektstandards`, `established`) denselben Ordner systematisch
+auswertet. Haerteste Einzelmessung: die neun `ahb-zuerich-gt-rl1..9`-Destillate (`energie`,
+03.08.2026) gegen §12/§13 desselben Artikels (14./25.07.2026) — dieselben neun Quell-PDF, neun
+Tage auseinander, unabhaengig destilliert, **null Kanten in beide Richtungen**.
+
+**Kein Widerspruch in den Werten**, in keinem der drei Faelle: Raumtemperatur (16 °C-Untergrenze,
+minus-10-°C-Schranke, 06.00–20.00 Uhr, Elektroheiz-Verbot) und PCB (>50 ppm; 6/2 µg/m³) stimmen
+beidseitig ueberein. **Der Schaden ist ein anderer:** bei PCB sind die beiden Fassungen
+unterschiedlich vollstaendig — `energie` las die 18-seitige Grundlage ganz, `planungsgrundlagen`
+nur S. 1–4, fuehrt dafuer aber **PCP** als drittes Substanzprofil und eine feinere Bauteilliste.
+Ein Schadstoff-Screening allein aus `energie` haelt sich fuer vollstaendig und uebersieht PCP.
+
+**Status: Fuehrungszeile gesetzt** (Matrix oben) — `planungsgrundlagen` fuehrt Ordnerkontext,
+Vertragsbindung und Einordnung, `energie` die Detailwerte und den Bauherren-Transfer. Drei Kanten
+beidseitig gesetzt (Raumtemperatur, PCB, plus die Dachbegruenungs-Kante aus Run 33). **Offen: die
+24 uebrigen Kanten**, insbesondere der inhaltliche Abgleich der neun GT-RL — dort ist neunmal
+dieselbe Konstellation wie bei PCB, wo der Vergleich eine echte Luecke fand.
+
+### normen → Bauleitungs-Skills (SIA 118: Fristen und Sicherheiten) — Uebergabe E3 aus Run 33 eingeloest — geprueft 2026-08-16 (Run 34)
+
+**Drei Befunde in drei von vier Skills, alle mit Geld- oder Rechtsfolge, alle korrigiert.**
+
+1. **`offertenpruefung` Z. 70 (WIDERSPRUCH, adversarial bestaetigt):** «Gewaehrleistung (typisch
+   2 Jahre / SIA 118 5 Jahre)» verwechselt Garantie-/Ruegefrist (Art. 172, **2 Jahre**) mit der
+   Verjaehrung der Maengelrechte (Art. 180, 5 Jahre) — genau die Verwechslung, vor der
+   `sia-118-1991.md` Z. 142 woertlich warnt. Eine normkonforme 2-Jahres-Offerte waere als
+   unterdurchschnittlich bewertet worden. Korrigiert.
+2. **`unternehmerkontrolle` + `werkvertrag` (VORBEHALT, am Original nachgelesen):** beide fuehrten
+   Rueckbehalt und Garantie gemeinsam unter «10 % Art. 181». Es sind zwei Sicherheiten mit
+   getrennten Schwellen — Rueckbehalt bis Abnahme Art. 149-150 (>Fr. 300'000 → 5 %, min.
+   Fr. 30'000), Solidarbuergschaft nach Abnahme Art. 181 (>Fr. 200'000 → 5 %, min. Fr. 20'000).
+   Beide Ausgangsprozentsaetze sind 10 %, was die Verschmelzung erklaert; zwischen Fr. 200'000 und
+   Fr. 300'000 divergieren sie sofort. In beiden Dateien gleichzeitig getrennt.
+3. **`offertenpruefung` (VERLINKUNG):** einziger der vier Skills mit `grep -c` = 0 auf
+   `wissen/normen`/`normen-referenz`, obwohl er eine SIA-118-Fristenaussage mit Rechtsfolge fuehrt.
+   Rule ergaenzt, Destillat-Pfad an der Fundstelle gesetzt. Derselbe Fund wie bei
+   `kostenkontrolle` in Run 33, eine Tuer weiter.
+
+**Status: Trefferquote der Achse bisher 4 von 5 Skills** (kostenkontrolle Run 33, diese drei).
+**Offen: `ausschreibung`** (402 Zeilen) ueber die Stichprobe hinaus ungeprueft.
+
+### energie ↔ normen (SIA 416 / 416/1, Flaechen- und Bezugsgroessen) — geprueft 2026-08-16 (Run 34)
+
+**Kein Widerspruch.** Die EBF-Grunddefinitionen in `energie`, `normen` und dem `baurecht`-Buch
+sind nahezu wortgleich; der von Run 33 gesetzte Cross-Ref im Buch-Destillat haelt den
+Geltungsbereichs-Unterschied (kantonaler Vollzug EN-2 gegen SIA-Normtext) bereits korrekt fest.
+Ausgaben-Konsistenz SIA 380/1 2009 gegen 2016 geprueft: konsistent (9,4 °C / 6 % pro K).
+
+**Zwei Kanten gesetzt, beide eingeschraenkt:** `[[sia-416-2003]]` (`established`) ist jetzt aus
+`bezugsgroessen-energienachweis` und `gebaeudehuellziffer-ebf-flaechendefinition` verlinkt — beide
+fuehrten den Vorbehalt, ihre Flaechenhierarchie stamme von einer privaten Immobilienfirma statt
+einer Normstelle, und der belastbare Ersatz lag seit dem 14.07. ungenutzt im Haus. **Der Vorbehalt
+wurde bewusst nicht gestrichen**: der Ersatz ist auffindbar, der Abgleich Begriff fuer Begriff
+noch nicht geleistet. Zweitens `[[sia-416-1-2007]]` Ziff. 3.2.2 (Abstellraeume/Schaechte unter
+10 m² zaehlen abweichend doch zur AE) — **als Pruefauftrag gesetzt, nicht als Beleg**, weil das
+Ziel `status: speculative` traegt (Rule `normen-referenz` Ziff. 1b).
+
+`sia-215-1978.md` (neu 16.08.) geprueft: mineralische Bindemittel, themenfremd, keine Beruehrung.
+
+### bauprodukte ↔ energie/normen/BKP (drei neue Artikel) — sauberer Negativbefund — geprueft 2026-08-16 (Run 34)
+
+**Kein Befund, und das ist selbst gemessen.** Die BKP-Codes der drei neuen Artikel
+(`bkp-221-holzfenster-3fach-verglasung`, `bkp-281-estrich-systeme`,
+`erco-lichtplanung-simulation-berechnung`) wurden vom Hauptprozess gegen
+`references/bkp-2017/BKP-2017-Liste.md` geprueft: **221.0** Fenster aus Holz, **281.0** Estriche
+(Unterlagsboeden), **233** Leuchten und Lampen — alle drei existieren, alle drei passen zur
+bezeichneten Leistung, **keine Phantom-Subcodes** wie im Fall 271.10. Der Fenster-Artikel fuehrt
+Uw = 0,9 W/m²K korrekt als Produktwert und delegiert die Anforderungswerte ausdruecklich.
+
+**Es fehlte nur die Matrixzeile** (Fenster-Kennwerte Uw/Ug/g-Wert) — zweiter Cross-KB-Pruefgegenstand
+zum selben Thema nach Run 33, beide Male sauber, beide Male ohne Fuehrungszeile. Gesetzt.
+
+### Eine Meldung, die die Gegenpruefung NICHT ueberstand — geprueft 2026-08-16 (Run 34)
+
+**«Toter Wikilink `[[energie-baustoffe-schadstoffe-rueckbau]]` in `planungsgrundlagen`»** — der
+Melder wollte vier Vorkommen auf `[[gebaeudeschadstoffe]]` umbiegen, weil es die Datei in
+`wissen/energie/wiki/` nicht gebe. **Widerlegt und selbst nachgemessen:** sie existiert als
+KB-**eigener** Artikel `wissen/planungsgrundlagen/wiki/energie-baustoffe-schadstoffe-rueckbau.md`
+(`established`, 14.07.2026, 9'955 Bytes). `planungsgrundlagen` benennt seine Artikel mit
+Domaenen-Praefixen `energie-`/`recht-norm-`/`brandschutz-`, passend zu den vier PL-Bibliotheken.
+Die vorgeschlagene «Korrektur» haette vier funktionierende Links zerstoert und auf einen sachlich
+anderen Artikel (kantonale AWEL-Checkliste, Vier-Faelle-Weiche Art. 16 VVEA) umgelenkt.
+
+**Regel daraus, jetzt in der gesetzten Kante vermerkt: ein Dateiname, der mit einem KB-Namen
+beginnt, ist keine KB-Zuordnung.** Die Substanz des Befunds (KB-uebergreifende Doppeldestillation
+des KBOB-Merkblatts 2004/4) blieb bestehen und ist oben im AHB-Korpus-Eintrag verarbeitet — **der
+Befund fiel, seine Substanz nicht.**
+
+
 ### twin ↔ rules/anrede-kontakte + rules/jans-dna (Beziehungsregister, Kontakt-Fakten) — geprueft 2026-08-14 (Run 32, Erst-Pruefung, rotierend)
 - **BESTAETIGT und korrigiert:** `twin/wiki/beziehungsregister.md` (Batch-37-Eintrag fsgbau) nannte
   ein «Parallelprojekt **KISPI Albertstrasse 7**» und verschmolz **2620 Albertstrasse 7** (Nova
