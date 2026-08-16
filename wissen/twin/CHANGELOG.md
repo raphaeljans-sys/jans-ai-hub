@@ -4,6 +4,34 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 16.08.2026 — twin-fidelity-review (Fenster 08.–14.06.2026): dreizehnte Falle, und der Riegel ist entschärft
+
+Gesamt-Fidelity **38** (nach 36 / 36) — dritter Messpunkt derselben Basislinie. 3 Golds + ein
+4-Minuten-Kontrollpaar, 1 Echo. Report: `outputs/2026-08-16_fidelity.md`.
+
+**Dreizehnte Falle in `CLAUDE.md`: die Zitatkette ist die billigste Goldquelle des Korpus.** Gold B
+trägt die Hub-Mail vom 07.06. in der eigenen Zitatkette — derselbe Empfänger, dieselbe Sachfrage,
+zwei Tage Abstand, beide Fassungen in derselben Datei. Ab sofort wird der zitierte Thread jeder
+gelesenen Mail mitgeprüft (`x_`-Präfix = zitiert, keine andere Herkunft). Dazu eine **Sperrliste**
+der sechs verworfenen Signale, weil «du/dich klein» nach der Widerlegung vom 07.08. am 15.08.
+wieder hereinkam und heute zum dritten Mal fiel.
+
+**Kern-Drift: der Zwilling erklärt, Raphael entscheidet** — erstmals an einem Zahlenwert messbar
+(600 Wörter ohne Zahl gegen «meine Kaufpreisempfehlung bei CHF 3.0MIO»). Zwei Wiki-Regeln haben
+die Blindfassung aktiv verdorben und sind korrigiert: die Behörden-Begründungspflicht (gilt nicht
+der Anforderung eines ohnehin zustehenden Dokuments) und die Gruss-Regel (Kurzgruss hängt am
+Register, nicht am Sachauftrag). Damit sind beide offenen Spannungen aus 260815 aufgelöst.
+
+**Der Kompilier-Riegel brach bei 32'270 B ab.** Da der Entscheid (b)/(c) bei Raphael liegt, wurde
+(a) verdichtet — ausschliesslich Beleg-Prosa in `stimme` (6'930 → 5'722 B) und `fachsignatur`
+(5'915 → 4'922 B), jede entfernte Passage einzeln im Artikel unter «Auslagerung aus dem Do-Block
+(260816)» aufgeführt, keine Regel entfallen. Gehirn kompiliert bei **29'990 B (10 B Reserve)**;
+die seit dem 13.08. aufgelaufenen Marker sind damit erstmals seit drei Läufen wieder wirksam.
+
+`agents/twin-chef.md`: Erfindungs-Check als Schritt 2b im Fidelity-Modus (dreimal vorgelegt, die
+Drift ist in fünf Läufen in Folge gemessen), Zitatketten-Pflicht in Schritt 1, Taktangabe berichtigt.
+32 Marker/Belege in allen sechs Facetten, 6 neue Fragen.
+
 ## 16.08.2026 — twin-mail-training Batch 95 (10.–16.08.2026): zwölfte Echo-Falle, und das erste belegte Korrektur-Delta
 
 Fenster `rj@` **10.–16.08.2026** (37 Sent Items, 16 Volltexte). **13 Gold · 1 Korrektur-Delta ·
