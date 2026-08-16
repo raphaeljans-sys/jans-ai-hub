@@ -3,6 +3,28 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-16 (Mac Mini Nachtschicht 23:30) — Korpus `buero-projekte` Inventar Phase 0 abgeschlossen
+
+Fortsetzung des 05:31-Laufs (Spec stand, Inventar war offen). `bash
+skills/wissens-destillat/tools/inventar.sh buero-projekte` über alle 21 Sektionen
+(22 Projektordner minus `180716 Schilder.pln`, lose Datei ohne Verzeichnis) durchlaufen
+lassen: `training/buero-projekte-sektionen.md` (21/21) und `training/buero-projekte-inventar.md`
+(812 Zeilen: 807 `[ ]` offen, 5 `[-]` pauschal für Projekte mit exakt benannten
+`01_Plaene`/`11_Bildablage`-Ordnern, 1 `[-]` für den Sonderfall `180716 Schilder.pln`)
+neu angelegt. `korpus.conf` um die Ausschluss-Teilstrings `/01_Plaene/,/11_Bildablage/`
+für `buero-projekte` ergänzt (spec-konform: diese Klassen nicht dateiweise auflisten) —
+erwies sich als grösstenteils redundant zur ohnehin bestehenden Extensions-Whitelist
+(`pdf,docx,doc,md,txt` filtert Bild-/CAD-Ordner unabhängig vom Namen), griff aber nur bei
+4 der 21 Projekte, weil die übrigen 17 völlig andere Ordnernamen führen (`Fotos`, `CAD`,
+`Skizzen`, `Plaene` ohne Präfix u.a.) — Befund und Konsequenz für Phase 1 (keine pauschale
+Ordnerklassen-Triage möglich, Sektion/Datei bleibt die Einheit) in
+`skills/wissens-destillat/specs/buero-projekte-spec.md` unter «Plan» nachgetragen.
+`KORPUS-QUEUE.md` Standspalte aktualisiert. Nächster Schritt: Triage Phase 1 (Haiku) je
+Sektion — grösste ungeprüfte Sektionen `1318_Lorraine_Kueche` (262 Dateien),
+`1527_EH Europe GmbH` (229), `1012_Ardez` (82), `1011_Lorrainestr_4` (71), `00_Allgemein`
+(58). Kein Destillat-Lauf (Phase 2) in diesem Zyklus — Budget-Disziplin, Phase 0 ist ein
+eigener abgeschlossener Schritt.
+
 ## 2026-08-16 (Mac Mini Nachtschicht 05:31) — Korpus-Spec `buero-projekte` geschrieben, Destillat-Lauf startet als Nächstes
 
 `skills/wissens-destillat/specs/buero-projekte-spec.md` angelegt (Skill `wissens-destillat`

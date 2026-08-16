@@ -165,11 +165,30 @@ Nachbar-KB (Cross-KB-Output, keine Ausnahme von der Ziel-KB-Zuordnung des Korpus
 
 ## Plan (nächste Läufe)
 
-- [ ] Inventar Phase 0: alle 22 Projektordner + `00_Allgemein` + die 2 Sonderfälle erfassen,
-      pro Projekt zunächst nur die vier ergiebigen Ordnerklassen (`12_Schriftverkehr`,
-      `02_Berichte`, `04_Kosten`, ggf. `13_Recherche`/`15_Referenzen`) auflisten — `01_Plaene`
-      und `11_Bildablage` im Inventar als Klasse `[-]` pauschal vermerken, nicht dateiweise
-      auflisten (17 GB, überwiegend CAD/Bild ohne Fliesstext).
+- [x] **Inventar Phase 0 abgeschlossen (16.08.2026, Nachtschicht 23:30-Fenster):** alle 21
+      `find -type d`-Sektionen erfasst (22 Projektordner minus `180716 Schilder.pln`, das als
+      lose Datei auf Wurzelebene kein Verzeichnis ist und darum nicht in der Sektionsliste
+      auftaucht — separat als `[-]`-Zeile nachgetragen). 812 Zeilen im Inventar: 807 `[ ]` offen,
+      5 `[-]` pauschal (die einzigen Projekte mit exakt `01_Plaene`/`11_Bildablage` benannten
+      Ordnern: `1011_Lorrainestr_4` \[beide\], `1012_Ardez`/`1303_Steinhof`/`1602_St_Karli_11`
+      \[je nur `01_Plaene`, da diese drei kein Verzeichnis exakt `11_Bildablage` führen\]),
+      plus 1 `[-]` für den Sonderfall `180716 Schilder.pln`.
+      **Befund, der die obige Ordnerklassen-Annahme relativiert:** die Struktur aus der
+      Stichprobe (`1011_Lorrainestr_4`) verallgemeinert NICHT — eine Vollsichtung aller 21
+      Sektionen zeigt völlig heterogene Ordnernamen quer durch die Projekte (`Fotos`,
+      `14_Fotos`, `8_Bilder`, `CAD`, `Skizzen`, `Plaene`, `04_Plaene`, `5_CAD_Projektstände`
+      statt `01_Plaene`/`11_Bildablage`). Die pauschale `01_Plaene`/`11_Bildablage`-Ausklammerung
+      in `korpus.conf` griff darum nur bei 4 der 21 Projekte — war aber unschädlich: die
+      Extensions-Whitelist (`pdf,docx,doc,md,txt`) filtert Bild-/CAD-Ordner unabhängig vom
+      Namen bereits selbst heraus (Stichprobe: 0 Treffer für Plaene/Fotos/Bilder/CAD/Skizzen
+      im fertigen Inventar ausserhalb der 5 pauschal-Zeilen). Für Phase 1 heisst das: die 807
+      offenen Zeilen sind NICHT sauber auf die vier vermuteten Ordnerklassen einschränkbar,
+      sondern verteilen sich über projektspezifische Strukturen — die Sektion/Datei-Spalte im
+      Inventar bleibt daher die massgebliche Triage-Grundlage, keine pauschale Ordnerklasse.
+      Konkrete Beispiele grosser, ungeprüfter Sektionen: `1318_Lorraine_Kueche` (262 Dateien),
+      `1527_EH Europe GmbH` (229 Dateien), `1012_Ardez` (82 Dateien), `1011_Lorrainestr_4`
+      (71 Dateien) — Reihenfolge nach Dateizahl ist kein Ertragsindikator, Triage Phase 1
+      klärt das erst.
 - [ ] Triage Phase 1 (Haiku) je inventarisiertem Projekt/Ordnerklasse.
 - [ ] Erster Destillat-Lauf Phase 2 (Sonnet) auf dem ergiebigsten bereits inventarisierten
       Projekt mit echtem Entscheidungs-/Konfliktgehalt.

@@ -5,6 +5,20 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-16 23:30 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — Korpus `buero-projekte` Inventar Phase 0 abgeschlossen
+
+Fortsetzung des 05:31-Laufs (Spec `skills/wissens-destillat/specs/buero-projekte-spec.md`
+stand, Inventar Phase 0 war offen). `inventar.sh buero-projekte` ueber alle 21 Sektionen
+(22 Projektordner minus loser Datei `180716 Schilder.pln`) durchlaufen lassen: 812 Zeilen
+im Inventar, 807 offen, 5 pauschal uebersprungen (Ordner `01_Plaene`/`11_Bildablage`), 1
+Sonderfall. Nebenbefund fuer Phase 1: die vier vermuteten Standard-Ordnerklassen
+verallgemeinern nicht ueber alle 21 Projekte, die Extensions-Whitelist filtert Bild-/CAD-
+Material aber ohnehin unabhaengig vom Ordnernamen heraus. Details:
+`wissen/projekt-lessons/CHANGELOG.md`. Kein Destillat-Lauf (Phase 1/2) in diesem Zyklus,
+Budget-Disziplin.
+
+---
+
 ## Abo-Auslastung 16.08.2026, 18:06 (Mac Mini, Wochencheck) — GELB bei 51 %, Tempo 0.57; der Lauf vom 10.08. ist ausgefallen
 
 **Messung (ein Lauf, keine Wiederholung):** Woche alle Modelle **51 %**, Reset **17.08.2026
