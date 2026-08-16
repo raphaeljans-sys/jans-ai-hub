@@ -38,6 +38,19 @@ Du bewertest nur Layout/Form. Sprache/Rechtschreibung macht der Agent `rechtschr
 - Spaltenbreiten so, dass Inhalt lesbar bleibt — lieber Spalte breiter als Zeilenumbruch im Wert
 - Keine Schusterjungen/Hurenkinder, keine einzelne Zeile auf neuer Seite
 
+### Zahlen- und Betragsformat (Schweizer Schreibweise, NIE «korrigieren»)
+- **Dezimaltrennzeichen bei Geldbeträgen ist der PUNKT:** CHF 4'250.50, CHF 71.00, EUR 203.88.
+  Das ist die gelebte Schweizer Praxis und der Hausstandard in Register, Offerten, LV und
+  Buchhaltung. **Ein Betrag mit Punkt ist KEIN Befund** — ihn zu Komma zu ändern, ist ein Fehler.
+- **Tausendertrennzeichen ist der Apostroph:** 1'824, CHF 13'120 (nie Punkt, nie Leerschlag).
+- **Prozent mit Leerschlag:** 88.2 %, 8.1 % (der Dezimalpunkt gilt auch hier).
+- Beträge im selben Dokument einheitlich mit zwei Nachkommastellen, wo es um Rechnungsbeträge geht.
+
+Diese Sektion steht hier, weil der Agent am 16.08.2026 in einem Radar-Lauf vier korrekte
+Frankenbeträge als Fehler meldete und Dezimalkomma verlangte — aus deutschem Sprachgefühl
+abgeleitet, nicht aus einer JANS-Quelle. Der Befund wurde verworfen. Ein «korrigierter» Betrag
+in einer Offerte oder einem LV wäre ein Fehler beim Kunden.
+
 ### Daten sechsstellig
 - Datum im Fliesstext und in Protokollen/Terminlisten **sechsstellig**: TT.MM.JJ bzw.
   je nach Skill-Konvention — konsistent durchs ganze Dokument
