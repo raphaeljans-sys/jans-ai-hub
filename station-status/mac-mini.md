@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 13:33:26
+Stand: 16.08.2026 13:43:43
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 13:33:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6a69a5c2 nas-selfcommit: 5 Datei(en) 2026-08-16 13:30
+- ad76ace4 energie-training Run 136 (Mac Mini Nachtschicht 13:30): PCB-Fugendichtungsmassen destilliert, PL-02 84/182
