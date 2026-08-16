@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 16.08.2026 06:01:25
+Stand: 16.08.2026 06:11:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:37)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 16.08.2026 06:01:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d83a4a6c nas-selfcommit: 14 Datei(en) 2026-08-16 06:00
+- 9846c102 twin-fidelity-review 16.08.2026: echte Umlaute in den neuen Abschnitten (umlaute-konvention), Gehirn unveraendert 29990 B
