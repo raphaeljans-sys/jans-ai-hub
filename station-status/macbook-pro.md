@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 16.08.2026 06:07:00
+Stand: 16.08.2026 06:27:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 06:22)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 16.08.2026 06:07:00
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0de17ac7 twin-fidelity-review 16.08.2026: Riegel-Nachtrag ins Fristen-Register (Weg 2 ausgereizt, Entscheid Raphael faellig)
+- faaf22a5 nas-selfcommit: 1 Datei(en) 2026-08-16 06:15
