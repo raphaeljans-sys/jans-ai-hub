@@ -3,6 +3,48 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 16.08.2026, 08:39 (Hub-Chef, Nachtrag zum Radar-Eintrag von 06:55 — **eine
+Messkorrektur, keine neue Frist**):
+
+**Der Entwurfsstand von heute früh ist auf zu engem Ausschnitt gemessen.** Der Radar nennt
+um 06:55 «neun Entwürfe, alle alt und keiner versandreif: der Testlauf-Entwurf vom 09.08.,
+sieben Duplikate der Küchen-Submission vom 06.05. und ein Website-Entwurf vom 12.04.» — das
+sind **ausschliesslich die Entwürfe des iCloud-Kontos**. Der Entwurfsordner des
+Exchange-Kontos `rj@` wurde dabei nicht erfasst, und genau dort liegen die beiden Entwürfe an
+Dritte, die das Register seit dem 12./13.08. führt. Nachgemessen um 08:4x über alle Konten:
+**«AfB BE KISPI PPTS Auflagen vor Baubeginn.pdf» (Entwurf 12.08. 16:06)** und **«KISPI PPTS:
+Anschlusswerte, offene Punkte und weiteres Vorgehen Therapieküche» (Entwurf 13.08. 01:28)**
+liegen unverändert unversendet, ebenso der ältere Entwurf **«KISPI PPTS: Geräteliste
+Therapieküche mit Abluftwerten» vom 08.08. 08:56**, der nicht hinausgehen darf. Gegenprobe an
+den Gesendeten über sieben Tage: keiner der drei Betreffe erscheint dort, sie sind also nicht
+etwa versendet und nur als Kopie liegen geblieben. Die am 13.08. 01:36 festgehaltene
+Verwechslungsgefahr zwischen den beiden Therapieküche-Entwürfen besteht damit unverändert
+fort. **Nichts versendet, nichts gelöscht, nichts am Entwurf verändert** — der Inhalt ist
+nicht geprüft, und ein Behörden- bzw. Fachentwurf geht nicht ungelesen und nicht am Sonntag
+hinaus. Status: **offen, Aktion Raphael (beide Entwürfe sichten, den alten vom 08.08. vorher
+kenntlich machen oder zurückstellen).**
+
+**Namenskorrektur im selben Zug, zwei Vornamen waren falsch.** Der AfB-Kontakt heisst **Linus
+Furrer** (`linus.furrer@zuerich.ch`, im Register 16 mal als «L. Furrer», 4 mal ausgeschrieben,
+3 mal mit Mailadresse belegt). Das Hub-Chef-Briefing vom **15.08.2026** schrieb ihn als «Lukas
+Furrer»; das ist der einzige Beleg dieser Fassung im ganzen Hub und damit ein Eigen-Echo, das
+sich beim nächsten Lesen selbst bestätigt hätte. Ebenso heisst der Röthlisberger-Kontakt
+**Tobias Inniger** (`ti@schreinermanufaktur.ch`, 21 mal «T. Inniger», 2 mal ausgeschrieben);
+die Fassung «Thomas Inniger» kommt im Hub **null** mal vor. Beide Fassungen wurden im
+Briefing von heute vor dem Versand korrigiert (Fund des `twin-chef`-Gates, am Register
+gegengeprüft). **Der Logbuch-Eintrag vom 15.08. bleibt unangetastet** (append-only); diese
+Zeile ist die Richtigstellung dazu.
+
+**Offener Widerspruch im Register, nicht durch diesen Lauf entschieden:** der ältere
+Inniger-Entwurf steht zweimal mit **16:04** und dreimal mit **08:56**. Das Briefing nimmt die
+häufiger belegte Zeit 08:56; welche stimmt, ist am Entwurf selbst zu klären. Status: **zu
+prüfen.**
+
+**Werkzeug-Lehre, gleiche Familie wie Rule `auto-verbesserungen` 260730b und 260807:** eine
+Entwurfszählung über nur ein Konto sieht aus wie eine Aussage über den Entwurfsstand. Wer sie
+so liest, hält zwei liegen gebliebene Mails an Dritte für erledigt. Entwurfsstände sind über
+**alle** Konten zu messen, nicht über das erstbeste.
+
 Eintrag 16.08.2026, 06:55 (Logbuch-Radar, Sonntag — **an allen vier Postfächern, am
 M365-Kalender, am bexio-Aussteller und am Konversations-Destillat nachgemessen; ein wirklich
 ruhiges Fenster, mit einer Ausnahme, die Geld kostet**):

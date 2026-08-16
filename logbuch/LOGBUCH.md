@@ -5,6 +5,79 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 16.08.2026, 08:39 bis 08:58 — Tagesbriefing GESENDET (Regellauf)
+
+**Gesendet um 08:57:05**, Betreff «Hub-Chef 16.08.26: Die Mahnfrist Tschopp läuft heute ab, und
+zwei Entwürfe an Dritte liegen weiter im Postfach», Body **6178 Zeichen** (Gegenprobe zum
+Leer-Draft-Fehler bestanden), in `Exchange/Gesendete Elemente` am Beleg verifiziert.
+**Sendegrund 3:** ein operativer Befund, den der Radar heute nicht hatte, plus ein neuer
+Geldpunkt mit Datum. Der Radar hat um 06:55 regelkonform nicht gemailt, damit war dieser Lauf
+der einzige Kanal des Tages.
+
+**Befund 1, und er korrigiert eine Messung von heute früh: der Entwurfsstand des Radars ist auf
+einem einzigen Konto gemessen.** Die Zeile von 06:55 nennt «neun Entwürfe, alle alt und keiner
+versandreif» und zählt damit ausschliesslich iCloud. Der Entwurfsordner des Exchange-Kontos
+`rj@` war nicht dabei, und genau dort liegen die drei Entwürfe, die das Register seit dem
+08./12./13.08. führt: **Furrer (AfB) 12.08. 16:06**, **Inniger (Anschlusswerte Therapieküche)
+13.08. 01:28** und der ältere **Inniger (Geräteliste) 08.08. 08:56**, der nicht hinausgehen
+darf. **Gegenprobe an den Gesendeten über sieben Tage: keiner der drei Betreffe erscheint
+dort** — sie sind also wirklich unversendet und nicht bloss als Kopie liegen geblieben. Nichts
+versendet, nichts verändert, nichts gelöscht; der Inhalt ist ungeprüft, und ein
+Behördenentwurf geht nicht ungelesen und nicht am Sonntag hinaus.
+
+**Befund 2, weitergetragen statt wiederholt:** die Mahnfrist RE-00101 (Tschopp, CHF 6'000)
+läuft heute ab und ist ohne bexio nicht prüfbar; der Ersatzweg über das E-Banking
+(Transaktion 3630) steht. **Neu und im Radar-Abschnitt nur registriert, nicht gemeldet:**
+Adobe Acrobat Premium wird am 22.08. mit CHF 71.00 pro Jahr scharf, das Kündigungsfenster
+endet mit dem Probeabo; dazu PDFelement CHF 60.00 auf derselben Apple-Rechnung. Beides ist
+Raphaels Entscheid, das Briefing hält nur das Datum fest.
+
+**Ausgeführte Whitelist-Aktionen: nur A4 (Register).** `git diff --numstat` auf
+`logbuch/fristen.md`, **nativ per ssh auf der Synology** gemessen (nie git über SMB):
+**42 hinzugefügt, 0 gelöscht** — append-only sauber gehalten, keine einzige Zeile ersetzt.
+**A1 gesperrt**, bexio antwortet weiterhin 401 und der Guard ist unerfüllt: keine Mahnung,
+keine Buchung. **A2 ohne Anlass**, alle vier Termine der Woche stehen im Kalender. **A7/A8
+nicht angewandt** — die zwei liegen gebliebenen Entwürfe wären formal von A7 gedeckt, aber
+ihr Inhalt ist ungeprüft; ein ungelesener Behördenentwurf ist kein Fall für ein
+Widerrufsfenster. Freigabe- und Stations-Queues leer (mac-mini 0, macbook-pro 0, keine
+Einträge ab 12 h, Watchdog Exit 0).
+
+**QS: `korrektur` (Rechtschreibung grün, Layout gelb) und das `twin`-Fidelity-Gate.** Vom
+Layout übernommen: fehlendes Datum an der einzigen datumslosen Zeitangabe, einheitliche
+Uhrzeit-Schreibweise, Aufbrechen des zu dichten Wochenblocks, «älter als 12 Stunden»,
+verbloser Satz bei der Baustellenbegehung, Prozent-Schreibweise. **Nicht übernommen und
+begründet:** die Angleichung von CHF 6'000 und CHF 13'120 auf zwei Nachkommastellen — das
+Register führt beide Beträge ohne, und Quellentreue schlägt hier die interne
+Formatgleichheit; ebenso die geschützten Leerzeichen (Risiko auf dem osascript-Versandweg)
+und der Signaturblock (Raphaels gelebte Fassung, belegt aus seiner Mail vom 27.07.2026).
+
+**Das Fidelity-Gate hat zwei erfundene Vornamen abgefangen, und einer davon war mein
+eigenes Echo.** Der AfB-Kontakt heisst **Linus Furrer** (`linus.furrer@zuerich.ch`, 16 mal
+«L. Furrer», 4 mal ausgeschrieben, 3 mal mit Adresse belegt); das Hub-Chef-Briefing vom
+**15.08.** schrieb «Lukas Furrer», der einzige Beleg dieser Fassung im ganzen Hub. Der
+Röthlisberger-Kontakt heisst **Tobias Inniger** (`ti@schreinermanufaktur.ch`); «Thomas
+Inniger» kommt null mal vor. Beide am Register gegengeprüft (Rule 260729b: Agenten-Befunde
+nie ungeprüft übernehmen) und vor dem Versand ersetzt; die Richtigstellung steht im Register,
+der Eintrag vom 15.08. bleibt append-only unangetastet. **Die Lehre ist nicht der fehlende
+Check, sondern dass ein erfundener Vorname sich über das eigene Logbuch selbst belegt**, wenn
+niemand ihn beim ersten Mal fängt. Wo die Quelle nur «L. Furrer» hergibt, gehört «L. Furrer»
+in den Text und kein Vorname, der plausibel klingt.
+
+**Werkzeug-Notiz, gleiche Familie wie 260730b/260807 und wie gestern:** die Versand-Gegenprobe
+über `messages ... whose date sent > (current date) - 3 hours` lieferte über **alle** Konten
+`LEER`, obwohl die Mail versendet war. Gestern versagte umgekehrt die Betreffsuche und die
+Datumsabfrage trug. **Verlässlich war heute allein der Indexzugriff** (`message 1 of mailbox
+"Gesendete Elemente"`), der die Mail auf Anhieb fand. Wer nach dem ersten `LEER` «nicht
+gesendet» geschlossen hätte, hätte doppelt versendet. Für künftige Läufe: Versand über den
+**Index** gegenprüfen, nicht über einen `whose`-Filter.
+
+**Aufsichtsbefund, neunter Tag in Folge:** der `ag-gruendung-monitor` hat seit dem 07.08.2026
+keinen Logbuch-Abschnitt geschrieben. Der Strang (Notariat wartet auf Rückmeldung zu Urkunde
+und Statuten sowie auf die Datumskorrektur der HR-Anmeldung, UBS-Bescheinigung weiterhin
+ausstehend, Notariat 03./04.09. geschlossen) ist deshalb erneut durch diesen Lauf
+weitergetragen. Das Lauf-Journal `logbuch/laeufe/260816-laeufe.jsonl` führt heute nur zwei
+`dispatch-versuch1`-Zeilen des Mac Mini und wie an den Vortagen **keinen** Hub-Chef-Lauf.
+
 ## 2026-08-16 — Logbuch-Radar 06:55 (Regellauf, keine Mail versendet)
 
 **Erledigt:** nichts. Das Fenster der letzten 26 Stunden enthält keine einzige geschäftliche
