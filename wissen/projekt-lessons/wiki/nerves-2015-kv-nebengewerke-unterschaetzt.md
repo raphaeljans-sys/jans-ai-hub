@@ -4,7 +4,7 @@ status: emerging
 last_updated: 2026-08-17
 sources:
   - /Volumes/daten/04_Buero/02_Projekte/00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf (Baukostenübersicht ARCHmark Hofstetter, Stand 21.05.2015, rev. 25.08.2015, 1. Entwurf 15.04.2015)
-links: []
+links: [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]]
 tags:
   fokus: Kosten & Termine
   bkp: "214.1, 232, 254, 258, 271"

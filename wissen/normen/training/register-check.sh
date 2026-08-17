@@ -122,7 +122,20 @@ if [ -f "$INVENTAR" ]; then
     [ -z "$norm" ] && continue
     num="$(printf '%s' "$norm" | awk '{print $NF}' | tr '/' '-')"
     fam="$(printf '%s' "$norm" | awk '{print tolower($1)}')"
-    treffer="$(ls -1 "$DEST" 2>/dev/null | grep -E "^${fam}-${num}-" | head -1)"
+    # ⚠ Kalibriert Run 55 (17.08.2026): AUSGABEJAHR MITPRUEFEN.
+    # Vorher verglich die Pruefung nur Familie+Nummer. Damit meldete die offene Zeile
+    # «SIA 181:2020 — Re-Destillat der geltenden Ausgabe» (eine Bring-Schuld, Norm nicht im
+    # Haus) einen Treffer auf `sia-181-2006.md` — ein anderes Ausgabejahr derselben Norm.
+    # Run 54 hat diesen Fehlbefund als echten Registerdefekt protokolliert und weitergereicht;
+    # Run 55 hat ihn am Inventar widerlegt (Z. 576 fuehrt die Ausgabe 2006 korrekt als [x]).
+    # Eine offene Position fuer eine NEUE Ausgabe ist kein veraltetes Register, sondern
+    # genau die Arbeit, die noch aussteht.
+    jahr="$(printf '%s' "$zeile" | grep -oE '(19|20)[0-9]{2}' | tail -1)"
+    if [ -n "$jahr" ]; then
+      treffer="$(ls -1 "$DEST" 2>/dev/null | grep -E "^${fam}-${num}-${jahr}" | head -1)"
+    else
+      treffer="$(ls -1 "$DEST" 2>/dev/null | grep -E "^${fam}-${num}-" | head -1)"
+    fi
     [ -n "$treffer" ] && echo "  INVENTAR VERALTET (Z. $nr): '$norm' steht auf [ ], aber $treffer existiert"
   done
 else
@@ -144,6 +157,40 @@ for f in "$DEST"/*.md; do
   for feld in status datenstand ausgabe quelle; do
     grep -q "^${feld}:" "$f" || melde "FELD FEHLT ($feld): $b"
   done
+done
+echo
+
+# ---------------------------------------------------------------- [6] Status-Vokabular
+# Ergaenzt Run 55 (17.08.2026). Die Pruefungen 2 und 3 vergleichen Destillat und Register
+# miteinander — sie merken nicht, wenn BEIDE dasselbe Wort fuehren, das Wort aber gar keine
+# definierte Reifestufe ist. Genau das ist der Bestand: 16 Destillate stehen auf
+# `destilliert`, dazu `teil-destillat`, `struktur-destillat`, `emerging`, `superseded`,
+# `established-mit-vorbehalt`, `speculative→belastbar`.
+#
+# Das ist kein Schoenheitsfehler, sondern ein Regelungsloch: Rule `normen-referenz` Ziff. 1b
+# laesst NUR `established` als zitierfaehig zu und behandelt `speculative` als Warnkarte.
+# Ein Destillat mit Status `destilliert` faellt durch die Rule hindurch — sie trifft fuer
+# es keine Aussage, obwohl sie genau diesen Fall regeln soll.
+#
+# Trailing-Satzzeichen werden abgestreift: viele Frontmatter schreiben
+# `status: "established, verifiziert 260714, ..."`. Ohne das Abstreifen meldet die Pruefung
+# ein `established,` als Verstoss — ein Artefakt des Parsers, kein Mangel der KB.
+VOKABULAR="established speculative deprecated stub"
+echo "[6] Status-Vokabular (nur $VOKABULAR sind definierte Reifestufen)"
+for f in "$DEST"/*.md; do
+  b="$(basename "$f")"
+  [ "$b" = "INDEX.md" ] && continue
+  # YAML-Blockskalar beachten: `status: |` traegt den Wert erst in der Folgezeile.
+  # Ohne diesen Zweig meldet die Pruefung '|' als Statuswert (belegt an
+  # stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019.md) — wieder ein Parser-Artefakt.
+  st="$(awk 'NR>1 && /^---$/{exit}
+             /^status:/{sub(/^status:[[:space:]]*/,""); gsub(/["'"'"']/,"");
+                        if ($1=="|" || $1==">" || $1=="") {blk=1; next}
+                        t=$1; gsub(/[,;.:()]+$/,"",t); print t; exit}
+             blk && NF {t=$1; gsub(/[,;.:()]+$/,"",t); print t; exit}' "$f")"
+  [ -z "$st" ] && continue
+  printf '%s\n' $VOKABULAR | grep -qx "$st" || \
+    melde "STATUS AUSSERHALB VOKABULAR: $b fuehrt '$st'"
 done
 echo
 

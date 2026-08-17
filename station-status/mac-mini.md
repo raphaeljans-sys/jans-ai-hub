@@ -1,8 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 17.08.2026 07:11:05
+Stand: 17.08.2026 07:21:21
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:19)
 - /Users/raphaeljans  (letzte Aktivitaet 07:11)
 
 ## Laufende Arbeits-Prozesse
@@ -15,4 +16,4 @@ Stand: 17.08.2026 07:11:05
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 5cb8096f nas-selfcommit: 4 Datei(en) 2026-08-17 07:00
+- 073fe914 normen: Entscheide Raphael nach Run 54 — Vorrang-Auftrag gestrichen, Methodik-Pflicht 13 verbindlich, register-check.sh gebaut (dritte Pruefachse, nur auf Zuruf), xalt-README in PL-02

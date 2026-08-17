@@ -7,10 +7,10 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 
 | St | Sektion | Datei | KB | Bemerkung |
 |---|---|---|---|---|
-| [ ] | 00_Allgemein | 00_Allgemein/800 h für Wettbewerb rüschlikon Patrick und Barbara 25 Wohnungen.docx | projekt-lessons | |
+| [t] | 00_Allgemein | 00_Allgemein/800 h für Wettbewerb rüschlikon Patrick und Barbara 25 Wohnungen.docx | projekt-lessons | P2 · Diverse |
 | [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/1533_001.pdf | projekt-lessons | P3 · Referenzmaterial |
 | [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Bauprog_nerves_v3.pdf | projekt-lessons | P2 · Bauprogramm-Termin |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Köfler_konstrkt_20.pdf | projekt-lessons | |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Köfler_konstrkt_20.pdf | projekt-lessons | P2 · Diverse |
 | [x] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf | projekt-lessons | P1 · Kostenberechnung → 2026-08-17 [[nerves-2015-kv-nebengewerke-unterschaetzt]] |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v2_LAN.pdf | projekt-lessons | IT-Netzwerkplan |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v3_ELEKTRO.pdf | projekt-lessons | Elektro-IT-Plan |
@@ -30,7 +30,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Gipser - Goger - DOC240815-24082015140759.pdf | projekt-lessons | P2 · Gipsarbeiten-Offerte |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_MSA_Nr._2339 v2.pdf | projekt-lessons | Telecom-Vertrag |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_MSA_Nr._2339.pdf | projekt-lessons | Duplikat |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_SLA_Basic & Standard_SCS FTTH.PDF | projekt-lessons | |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_SLA_Basic & Standard_SCS FTTH.PDF | projekt-lessons | P2 · Projektinfrastruktur |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_SLA_Basic & Standard_VDSL v2.PDF | projekt-lessons | Telecom-Infrastruktur |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES_Offerte_Basic & Standard_SCS FTTH.pdf | projekt-lessons | Duplikat-Variante |
 | [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/LED - LEDFox - Angebot_100946.pdf | projekt-lessons | P2 · LED-Beleuchtung |
@@ -64,7 +64,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Wichtige Informationen gescannt.pdf | projekt-lessons | Scan unklarer Quelle |
 | [-] | 00_Allgemein | 00_Allgemein/Scan 1.pdf | projekt-lessons | Scan unklarer Quelle |
 | [-] | 00_Allgemein | 00_Allgemein/Scan.pdf | projekt-lessons | Scan unklarer Quelle |
-| [ ] | 00_Allgemein | 00_Allgemein/Sicherungskopie von 800 h für Wettbewerb rüschlikon Patrick und Barbara 25 Wohnungen.docx | projekt-lessons | |
+| [-] | 00_Allgemein | 00_Allgemein/Sicherungskopie von 800 h für Wettbewerb rüschlikon Patrick und Barbara 25 Wohnungen.docx | projekt-lessons | Duplikat-Backup |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/01_Adressen/Saxer.pdf | projekt-lessons | Adressmaterial |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/02_Ordnerregister/110827_Ordnerregister.pdf | projekt-lessons | Ordnerregister |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/03_Ordnerruecken/110827_Ordnerruecken_Organisation_Plaene_Bilder.pdf | projekt-lessons | Ordnerorganisation |
@@ -72,42 +72,42 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/Sicherungskopie von 110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | Duplikat Backup |
 | [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | P2 · Konzept-Prämissen |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/100903_Praemissen_Projekt_Loraine.pdf | projekt-lessons | PDF-Duplikat |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/110819_Konzept für den Wohnungsausbau Lorrainenstrasse 4.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/Sicherungskopie von 100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/PDF/110817_Fragebogen_Dachwohnung_Lorrainestrasse.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/Sicherungskopie von 110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Unterlagen.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100831_Sammelmappe1.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/einzel/100831_A4_Bildmontage.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101103_Schnitte_Treppenhaus_50.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101103_Schnitte_Wohnung_50.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101110_Grundrissmasse_50.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/111118_Offerte_Jans_Back.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111118_Offerte_Jans_Back.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111122_Projektbeschrieb.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Baubeschrib_Beispiel/100218_Baubeschrieb.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/CRB/890101_CRB_1989_SN_506_500.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/CRB/gesamt/BKP.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/BKP 1.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/BKP 2.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/BKP 3.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/gesamt/960723_ETHZ_Prof_Meyer_BKP.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Zusammenfassung/100218_gibbecoBKP-Liste.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Zusammenfassung/100218_Zusammenf_BKP_A6.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Zusammenfassung/100223_Zusammenf_BKP_A6.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/090909_DOK_Vermietung_Ladenlokal_Lorrainestr_4.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen_komp.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100919_Skizze_Maria.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Brandschutz_Formular_leer.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Formular_leer.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Technik_Formular_leer.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Merkblatt_Baueingabe.pdf | projekt-lessons | |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/110819_Konzept für den Wohnungsausbau Lorrainenstrasse 4.pdf | projekt-lessons | P2 · Diverse |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/Sicherungskopie von 100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | Duplikat-Backup |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | P2 · Projektfragebogen |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/PDF/110817_Fragebogen_Dachwohnung_Lorrainestrasse.pdf | projekt-lessons | PDF-Duplikat |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/Sicherungskopie von 110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | Duplikat-Backup |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Unterlagen.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100831_Sammelmappe1.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/einzel/100831_A4_Bildmontage.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101103_Schnitte_Treppenhaus_50.pdf | projekt-lessons | Reine Vermassungszeichnung (Schnitt, Kotenwerte), keine Entscheid-/Fehler-Story |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101103_Schnitte_Wohnung_50.pdf | projekt-lessons | Reine Vermassungszeichnung (Schnitt, Kotenwerte), keine Entscheid-/Fehler-Story |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101110_Grundrissmasse_50.pdf | projekt-lessons | Reine Vermassungszeichnung (Grundriss, Kotenwerte), keine Entscheid-/Fehler-Story |
+| [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/111118_Offerte_Jans_Back.docx | projekt-lessons | P1 · Offertekalkulation → 2026-08-17 [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]] |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111118_Offerte_Jans_Back.pdf | projekt-lessons | PDF-Duplikat |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111122_Projektbeschrieb.pdf | projekt-lessons | P2 · Projektbeschreibung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Baubeschrib_Beispiel/100218_Baubeschrieb.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/CRB/890101_CRB_1989_SN_506_500.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/CRB/gesamt/BKP.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/BKP 1.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/BKP 2.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/BKP 3.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/ETHZ/gesamt/960723_ETHZ_Prof_Meyer_BKP.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Zusammenfassung/100218_gibbecoBKP-Liste.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Zusammenfassung/100218_Zusammenf_BKP_A6.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Zusammenfassung/100223_Zusammenf_BKP_A6.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.docx | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.pdf | projekt-lessons | Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/090909_DOK_Vermietung_Ladenlokal_Lorrainestr_4.pdf | projekt-lessons | Reine Vermietungsbroschüre (Objektbeschrieb/Fotos/Nutzungsvorschläge), keine Entscheid-/Fehler-Story |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | P2 · Schriftverkehr |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen_komp.pdf | projekt-lessons | P2 · Schriftverkehr |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen.pdf | projekt-lessons | P2 · Schriftverkehr |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100919_Skizze_Maria.pdf | projekt-lessons | P2 · Schriftverkehr |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Brandschutz_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Technik_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Merkblatt_Baueingabe.pdf | projekt-lessons | P2 · Baueingabe |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstock_Baugesuch_Kostenaufstellung_Kontakte_Okt2003.pdf | projekt-lessons | |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstocksanierung_Pläne_Oktober2003.pdf | projekt-lessons | |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos_Okt08.pdf | projekt-lessons | |

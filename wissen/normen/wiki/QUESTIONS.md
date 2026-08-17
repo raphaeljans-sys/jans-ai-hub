@@ -1,5 +1,71 @@
 # Offene Fragen — KB Normen
 
+## Normen-Lauf Run 55 (17.08.2026) — N54-1 geschlossen, drei neue Punkte
+
+**N54-1 — GESCHLOSSEN.** Die Refuter-Runde auf dem Run-54-Zuwachs von `sia-416-1-2007` ist
+gefahren (S. 26-32, 34, 35, 40; ~69 Aussagen; 2 widerlegt, 2 unpräzise, 7 weitere Lücken
+beiläufig). Einzelheiten im Destillat, Abschnitt «Prüfstand», und im Lauf-Report.
+
+**N55-1 — Der Run-54-Zuwachs auf S. 4, 6, 9, 17, 21-22 und 39 hat weiterhin keine unabhängige
+Refuter-Runde.** Run 54 hat S. 4/6/9/17/21 zwar gerendert nachgeprüft — aber durch den
+Hauptprozess, der den Text selbst geschrieben hatte. **Selbstprüfung ist keine Refuter-Runde**;
+Run 55 hat genau in solchem selbstgeprüften Umfeld zwei Kernbefunde gefunden. S. 22 (Ziff. 2.3)
+und S. 39 (Abkürzungslegende) sind von niemandem gerendert gegengelesen. Kap. 1-2 meldete
+Run 54 zudem als «dichtesten Bereich» der Abdeckungslücken — dort ist die Fehlerwahrscheinlichkeit
+am höchsten. **Das ist der letzte Block vor der Statusentscheidung zu SIA 416/1:2007.**
+
+**N55-2 — Anhang A von SIA 416/1: die Raumlisten HNF1-HNF5 und die vollständige FF-Liste
+fehlen im Destillat.** Run 54 vermerkte, der Anhang führe «zu jeder HNF-Kategorie konkrete
+Raumlisten», buchstabierte aber nur HNF6 aus. Der Vermerk las sich wie eine geschlossene
+Lücke. Belegt fehlen u.a. die FF-Positionen «Installationsschächte und -kanäle». Der Anhang ist
+informativ, aber er ist die einzige Zuordnungshilfe zwischen Raumbezeichnung und
+SIA-416-Flächenkategorie und wird von `flaechen-nachweis` gebraucht.
+
+**N55-3 — Grafische Kodierung der Tabellen 3 und 5 (S. 30 und 32) ohne Legende.** Beide
+Tabellen setzen einen Teil der Zellen **grau** und umranden zwei Ergebniszellen **fett**. Auf
+den Seiten selbst steht keine Legende dazu, und der Fliesstext der Ziff. 4.4.4 bzw. 4.5.1
+erwähnt es nicht. Naheliegend ist «grau = bleibt leer / nicht auszufüllen», belegt ist es
+nicht. **Nicht ins Destillat übernommen, weil eine plausible Lesart keine Fundstelle ist.**
+Zu prüfen wäre, ob eine Legende an anderer Stelle der Norm steht (Ziff. 1.3 Darstellung?) oder
+ob die Kodierung tatsächlich unerklärt bleibt. Lehre aus dem lignum-Harness: eine Farbkodierung
+ohne gelesene Legende ist eine Falle, keine Nebensache.
+
+**N55-4 — Die dritte Prüfachse ist gebaut und misst sofort Drift: 18 Statusabweichungen und
+25 Statuswörter ausserhalb des Vokabulars.** Run 54 hatte den Register-gegen-Destillat-Abgleich
+als fehlende Prüfachse benannt und ein Script vorgeschlagen; Run 55 hat es gebaut
+(`training/register-abgleich.sh`, nur lesend). Erster Lauf über **369 Destillate**:
+
+| Befundklasse | Zahl | Bewertung |
+|---|---|---|
+| Statusabweichung Destillat ↔ INDEX | **18** (nach 2 Korrekturen dieses Laufs) | offen |
+| Statuswort ausserhalb des Vokabulars | **25** | offen, siehe unten |
+| im INDEX nicht geführt | 1 | offen |
+| im Inventar nicht geführt | 58 | **überwiegend kein Mangel** — das Inventar führt Quelldateien, das Destillat einen normalisierten Namen |
+
+**Zwei Fälle sind in diesem Lauf am Original geprüft und korrigiert**, je einer pro Richtung:
+`vsa-aufzuege-esba-zh.md` (INDEX führte «Verifikation ausstehend», die in eben jenem Run 40
+gefahren war — INDEX war stale) und `ugz-hindernisfreie-aufzuege-2010.md` (Destillat führte
+«speculative, noch keine unabhängige Verifikation» und beschrieb im selben Feld die
+durchgeführte Refuter-Runde — Destillat war stale). **Die Drift geht in beide Richtungen; man
+kann also nicht pauschal einer Seite glauben.** Der zweite Fall ist der gefährlichere: nach
+Rule `normen-referenz` Ziff. 1b ist nur `established` zitierfähig, das Destillat hatte sich
+also selbst für die Zitation gesperrt.
+
+**Die 25 Vokabularabweichungen sind kein Flüchtigkeitsfehler, sondern ein Regelungsloch.**
+Sie verteilen sich auf **16× `destilliert`** (eine ganze Kohorte älterer SIA- und DE-Normen),
+`teil-destillat`, `struktur-destillat`, `emerging`, `speculative→belastbar`,
+`established-mit-vorbehalt`, **2× `superseded`** und einen offensichtlichen Formatierungsdefekt
+(`|` als Statuswert in `stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019.md`).
+Der Kern: **ein Destillat mit Status `destilliert` ist weder `established` noch `speculative`
+und fällt durch Rule `normen-referenz` Ziff. 1b hindurch** — die Rule trifft für es keine
+Aussage, obwohl sie genau diesen Fall regeln soll.
+
+**Nicht selbständig bereinigt** (Rule `wissens-bibliothekar`: Umbenennen und Umstrukturieren
+über die ganze KB ist pausepflichtig). Vorschlag zur Entscheidung im Lauf-Report Ziff. 6.
+Ein Artefakt des Scripts ist unterwegs aufgefallen und behoben: der erste Parser las
+`status: "established, verifiziert …"` als Vokabularverstoss `established,` und blähte die
+Zahl von 25 auf 33 — **die Messung war zuerst eine Aussage über das Werkzeug.**
+
 ## Normen-Nacht Run 53 (16.08.2026) — die Klasse «fehlender Inhalt» ist gemessen und zerfällt in zwei
 
 **N52-2 — GESCHLOSSEN: die Gegenrichtung ist konstruiert, gefahren und mit Kontrollen

@@ -1,3 +1,81 @@
+## 2026-08-17 Run 55 — N54-1 geschlossen; der Register-Check kalibriert, zwei Fehlbefunde widerlegt
+
+- **`sia-416-1-2007.md`: Refuter-Runde auf dem Run-54-Zuwachs gefahren (N54-1 geschlossen).**
+  Vom Hauptprozess **ohne Subagenten** am eigenen 300-dpi-Rendering (`ref416-r55-`) der
+  S. 26, 27, 28, 29, 30, 31, 32, 34, 35 und 40 — sämtlich Seiten, die Run 54 als «nicht
+  gerendert nachgeprüft» ausgewiesen hatte. **Rund 69 Aussagen geprüft: 2 widerlegt,
+  2 unpräzise, der Rest bestätigt**, kein falscher Zahlenwert, keine falsche Fundstelle.
+  - **Kernbefund 1 (Ziff. 4.3.3, S. 27):** Das Destillat liess EV «die **Erwärmung der
+    geförderten Luft**» umfassen. Die Norm ordnet EV nur die **Auswirkungen der luftseitigen
+    Druckverluste** zu — auch die der Erwärmungs-Komponente; die Lufterwärmung selbst gehört
+    zu Eh. Die alte Fassung zählte sie zweimal, also genau die Doppelzählung, die dieser
+    Abschnitt verhindern soll.
+  - **Kernbefund 2 (Anhang A, S. 34):** Der Kategorietitel HNF3 lautet «Produktion, Hand- und
+    Maschinenarbeit, **Experimente**»; «Experimente» fehlte. Es trägt die Zuordnung der
+    **Labors** — die Frage stellt sich in jedem Spital- und Forschungsbau (2619 KISPI).
+  - Vollständig bestätigt: die Übertragungs- und Vorzeichenlogik der Ziff. 4.4.4 (S. 30), die
+    Konsistenzbedingung (S. 31), die Carnot- und Anteilsregeln (S. 29), die
+    Tabellen-5-Rechenwege und Ziff. 4.5.2 (S. 32), die drei Fussnoten der Tabelle 6 (S. 35),
+    die Präsidenten-Vertretung (S. 40).
+  - Beiläufig **sieben weitere Abdeckungslücken**, die auch Run 54 übersah, eingearbeitet.
+    **Methodenbefund:** Eine Refuter-Runde, die Satz für Satz am Original liest, findet auch
+    dann noch fehlenden Inhalt, wenn kurz zuvor eine Abdeckungsrunde über dieselben Seiten
+    lief. Die beiden Richtungen sind komplementär — **aber keine ist für sich erschöpfend.**
+  - **Status bleibt `speculative`**, offen als **N55-1**: der Run-54-Zuwachs auf S. 4, 6, 9,
+    17, 21-22 und 39 hat keine **unabhängige** Refuter-Runde — dort prüfte in Run 54 der Autor
+    seinen eigenen Text, S. 22 und S. 39 niemand.
+- **Neuer Wiki-Artikel `sia-416-1-verwendungszwecke-abgrenzung.md`** (`established`, INDEX
+  nachgeführt): die sechs Verwendungszwecke und die vier Grenzen, an denen Doppelzählung
+  entsteht. **Jede Aussage darin am Original nachgelesen** — der Artikel stützt sich
+  ausdrücklich NICHT auf das noch `speculative` Destillat. Für `energie`, `flaechen-nachweis`
+  und Rückfragen an Fachplaner.
+- **`register-check.sh` um Prüfung [6] Status-Vokabular erweitert.** Die Prüfungen 2 und 3
+  vergleichen Destillat und Register miteinander und merken nicht, wenn beide dasselbe Wort
+  führen, das Wort aber **gar keine definierte Reifestufe** ist. Befund: **25 Destillate**
+  stehen ausserhalb des Vokabulars, davon **16 auf `destilliert`**, dazu `teil-destillat`,
+  `struktur-destillat`, `emerging`, `superseded`, `established-mit-vorbehalt`,
+  `speculative→belastbar`. **Das ist ein Regelungsloch, kein Schönheitsfehler:** Rule
+  `normen-referenz` Ziff. 1b lässt nur `established` als zitierfähig zu — ein Destillat mit
+  Status `destilliert` fällt durch die Rule hindurch. **Nicht selbständig bereinigt**
+  (KB-weites Umbenennen ist nach Rule `wissens-bibliothekar` pausepflichtig); Vorschlag im
+  Lauf-Report.
+- **Zwei Fehlbefunde des Register-Checks widerlegt und die Kalibrierung nachgezogen** — beide
+  waren Werkzeug-Artefakte, nicht Registerdefekte:
+  - **Prüfung [4] verglich Normnummer ohne Ausgabejahr.** Die offene Zeile «SIA 181:**2020**
+    — Re-Destillat der geltenden Ausgabe» (Bring-Schuld, Norm nicht im Haus) meldete einen
+    Treffer auf `sia-181-2006.md`. Run 54 hatte das als echten Registerdefekt protokolliert
+    und weitergereicht; am Inventar widerlegt (Z. 576 führt die Ausgabe 2006 korrekt als
+    `[x]`). Prüfung [4] fordert jetzt Übereinstimmung im **Ausgabejahr**; sie meldet damit
+    null Befunde statt eines falschen.
+  - **Prüfung [6] las YAML-Blockskalare falsch.** `status: |` trägt den Wert erst in der
+    Folgezeile; die Prüfung meldete `|` als Statuswert
+    (`stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019.md`). Ebenso blähte ein
+    fehlendes Abstreifen der Trailing-Kommata (`status: "established, verifiziert 260714…"`)
+    die Zahl der Vokabularverstösse von 25 auf 33. **Beide Male war die Messung zuerst eine
+    Aussage über das Werkzeug** (Rule `wege-und-vollmachten`, `auto-verbesserungen` 260807).
+- **Drei belegte Registerdrift-Fälle bereinigt** (die Übergabe «dem nächsten Lauf» aus dem
+  Eintrag darunter), jeder einzeln am Bestand nachgelesen. **Die Drift läuft in beide
+  Richtungen — man kann also nicht pauschal einer Seite glauben:**
+  - `vsa-aufzuege-esba-zh.md`: INDEX führte «speculative (Verifikation ausstehend)»; die
+    Verifikation war in eben jenem Run 40 gefahren. **INDEX war stale** → korrigiert.
+  - `sia-196-1998.md`: INDEX führte «teil-destillat (verifiziert 260713)»; die Frontmatter
+    steht seit dem 23.07. auf `established` (Anhänge A1-A4 vollständig geprüft). **INDEX war
+    stale** → korrigiert.
+  - `ugz-hindernisfreie-aufzuege-2010.md`: Die Frontmatter führte «speculative — noch keine
+    unabhängige Verifikation» und beschrieb **im selben Feld** die durchgeführte Refuter-Runde
+    (~150 Aussagen, alle Befunde eingearbeitet). **Das Destillat war stale** → korrigiert. Der
+    gefährlichere Fall: es sperrte sich selbst für die Zitation.
+- **Ein selbst gebautes Duplikat wieder entfernt.** Der Lauf hat zunächst ein zweites
+  Abgleich-Script (`register-abgleich.sh`) gebaut, ohne zu prüfen, ob es schon eines gibt —
+  `register-check.sh` war wenige Stunden zuvor entstanden und deutlich besser kalibriert. Das
+  Duplikat ist gelöscht, der einzige neue Gedanke daraus (Vokabular-Prüfung) ins bestehende
+  Script übernommen. **Bestand lesen kommt vor bauen**, auch wenn der Bau billig ist.
+- **Vorrang-Auftrag `lignum-lignatec` erneut gegengeprüft — und diesmal am Destillat selbst,
+  nicht am Vorlaufbericht.** Die Frontmatter von `lignum-lignatec-brandschutz.md` weist die
+  rechnerische Zellaufnahme von Tab. 3 und Tab. 4 als **in Run 38 (30.07.2026) ausgeführt**
+  aus, mit sieben Kernbefunden. Der Auftrag ist erledigt; im Scheduled Task ist er nach
+  Raphaels Entscheid heute bereits gestrichen. Der hier eingegangene Prompt trug ihn noch.
+
 ## 2026-08-17 (Entscheide Raphael nach Run 54) — vier Vorschläge beantwortet, drei umgesetzt
 
 Raphael hat die offenen Punkte aus Report Run 54, Ziff. 7 entschieden:

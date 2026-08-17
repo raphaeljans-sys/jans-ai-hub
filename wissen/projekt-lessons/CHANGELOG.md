@@ -3,6 +3,54 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-17 (Kurator-Stufe, Phase 3, 07:1x-Lauf) — Beleg-Prüfung `lorrainestrasse-2011-realisierungsphase-honorar-unpreist`, Rückverweis ergänzt
+
+- **Beleg-Prüfung:** Quelldokument `111118_Offerte_Jans_Back.docx` per `textutil -convert txt`
+  vollständig gegen den Artikel zurückgeprüft — alle Zahlen (84 h × 80.-/h = 6'720.-; vier
+  Phasenpreise 2'000/2'000/1'000/1'000 = 6'000.-; Terminstand je Phase; Strich statt Preis bei
+  Phase 5 «Realisierung») stimmen wortgetreu mit der Quelle überein, keine unbelegte Aussage
+  gefunden. BKP 291 gegen `references/bkp-2017/BKP-2017-Liste.md` verifiziert (Zeile 1064:
+  «291 Architekt (Gebäude) ← STANDARD für Honorarofferten»). Referenzierte Skills
+  `honorarberechnung-sia102`/`ausschreibung` existieren im Hub.
+- **Widerspruchs-Prüfung:** kein Konflikt mit bestehenden Artikeln oder Nachbar-KBs
+  (`normen`, `baurecht`, `grobkosten`) — Thema (unpreiste SIA-102-Phase in einer Honorarofferte)
+  ist neu im KB.
+- **Promotion:** `status: emerging` bestätigt, nicht gehoben — nur ein Beleg, keine
+  unabhängige Zweitquelle (Rule 260714).
+- **Verwebung:** Rückverweis ergänzt — `nerves-2015-kv-nebengewerke-unterschaetzt.md` trug
+  `links: []`, obwohl der neue Artikel bereits darauf verlinkt; jetzt beidseitig verknüpft
+  (gemeinsames Muster: Kostenpositionen, die ohne Mechanismus/Einzelofferte offen blieben,
+  wurden zum Problem — einmal unpreiste Phase, einmal pauschal geschätzte Nebengewerke).
+- Report: `outputs/2026-08-17_destillat-buero-projekte-run1.md`.
+
+## 2026-08-17 (Destillat-Lauf, verbleibende [t]/P1-Positionen) — vier Positionen geprüft, eine destilliert, drei als [-] verworfen
+
+Die fünf verbliebenen `[t]`/P1-Zeilen aus `training/buero-projekte-inventar.md` wurden gelesen
+und abschliessend bearbeitet:
+
+- **[[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]]** (Quelle:
+  `1011_Lorrainestr_4/04_Kosten/00_Offerten/111118_Offerte_Jans_Back.docx`, Offerte Back Lukas
+  & Raphael Jans an Maria Jans & Tom Bickel, 18.11.2011) — die SIA-102-Phasenofferte bepreist
+  die vier Planungsphasen bis Ausschreibung mit total 6'000.-, lässt die Realisierungsphase
+  (Bauleitung, März–Mai 2012) aber mit einem blossen Strich unpreist; die parallele
+  Stundenvariante für eine einzige Arbeitswoche (6'720.-) kostet dabei mehr als die vier
+  bepreisten Planungsphasen zusammen. Status `emerging`.
+- Drei Positionen `101103_Schnitte_Treppenhaus_50.pdf`, `101103_Schnitte_Wohnung_50.pdf`,
+  `101110_Grundrissmasse_50.pdf` (alle `1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/`)
+  geprüft und als `[-]` verworfen — reine Vermassungszeichnungen (Schnitte/Grundriss mit
+  Kotenwerten) ohne jede Entscheid- oder Fehler-Story, exakt die in der Korpus-Spec
+  `buero-projekte-spec.md` (Abschnitt Abgrenzung) explizit ausgeschlossene Kategorie „reine
+  Pläne sind Arbeitsergebnisse, keine Erfahrungsträger".
+- Position `12_Schriftverkehr/Jans_Maria/in/090909_DOK_Vermietung_Ladenlokal_Lorrainestr_4.pdf`
+  geprüft und als `[-]` verworfen — trotz des irreführenden Inventar-Vermerks
+  „Entscheidungskorrespondenz" ist es eine reine Vermietungsbroschüre (Objektbeschrieb,
+  Fotos, Nutzungsvorschläge, Kontaktangabe), keine Korrespondenz mit Entscheid- oder
+  Konfliktgehalt.
+
+`training/buero-projekte-inventar.md` entsprechend nachgeführt, `wiki/INDEX.md` aktualisiert
+(7 Artikel). Damit sind alle im Inventar als `[t]`+P1 markierten Zeilen abgearbeitet; offen
+bleiben nur noch P2-/P3-Positionen für einen Folgelauf.
+
 ## 2026-08-17 (Mac Mini Nachtschicht 05:30) — Korpus `buero-projekte`: P1-Position destilliert, Phase-2-Rest der Triage von 02:32 offen
 
 Der 02:30-Lauf hatte Phase 1 (Triage, Haiku) für die nächsten 40 Positionen abgeschlossen

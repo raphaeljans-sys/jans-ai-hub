@@ -5,6 +5,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-17 07:12–07:20 (Wissens-Destillat, Korpus `buero-projekte`, Run 1) — eine Lesson destilliert, [t]/P1-Rest abgearbeitet, Kurator-Prüfung durchgeführt
+
+Pipeline-Treiber (`destillat-lauf.sh buero-projekte`) im Vordergrund gefahren: Phase 1 (Haiku,
+40 Positionen trigiert) und Phase 2 (Sonnet, die 5 verbliebenen `[t]`+P1-Zeilen bearbeitet) —
+1 neue Lesson [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]] (Quelle
+`1011_Lorrainestr_4/04_Kosten/00_Offerten/111118_Offerte_Jans_Back.docx`, Offerte 18.11.2011):
+die SIA-102-Phasenofferte bepreist Planung bis Ausschreibung mit 6'000.-, lässt die
+Realisierungsphase (Bauleitung) aber unpreist, während die parallele Stundenvariante für eine
+Woche mehr kostet (6'720.-) als die vier Planungsphasen zusammen. 4 weitere Positionen geprüft
+und begründet als `[-]` verworfen (reine Vermassungszeichnungen, eine Vermietungsbroschüre).
+Kurator-Stufe in dieser Session: Quelle volltextlich gegen den Artikel zurückgeprüft (keine
+Abweichung), BKP 291 gegen die Referenzliste verifiziert, fehlenden Rückverweis in
+[[nerves-2015-kv-nebengewerke-unterschaetzt]] ergänzt, Status `emerging` bestätigt (nicht
+gehoben). Details: `wissen/projekt-lessons/CHANGELOG.md`,
+`wissen/projekt-lessons/outputs/2026-08-17_destillat-buero-projekte-run1.md`. Inventarstand
+danach: 813 inventarisiert / 706 offen, keine `[t]`+P1-Position mehr offen — nächster Lauf
+braucht P2-Destillate oder neue Triage grosser ungeprüfter Sektionen (`1318_Lorraine_Kueche`,
+`1527_EH Europe GmbH`, `1012_Ardez`).
+
+---
+
 ## Radar-Briefing 17.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
 **Kein eigener Versand.** Der Chef-Lauf vom 16.08. ist regulär gelaufen und hat um 08:57

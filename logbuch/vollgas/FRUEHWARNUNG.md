@@ -5,6 +5,113 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-17 07:15 — STILL (keine Mail)
+
+Messzeitpunkt 17.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 411 Dateien im 9-Tage-Fenster, Zeilenfilter je `timestamp[:10]`.
+
+### Verbrauch MacBook Pro (Mio Tokens)
+
+| Tag | teuer | total |
+|---|---|---|
+| 12.08. | 23.17 | 436.21 |
+| 13.08. | 12.73 | 276.76 |
+| 14.08. | 8.55 | 163.91 |
+| 15.08. | 6.91 | 151.84 |
+| 16.08. | 8.40 | 170.91 |
+| 17.08. (bis 07:14) | 4.61 | 117.46 |
+
+Der Verbrauch liegt seit dem 14.08. stabil im Band 6.9 bis 8.6 Mio teuer pro Tag,
+also im unteren Bereich der Referenz. Die Spitze vom 12.08. (23.17) ist vier Tage
+her und hat sich nicht wiederholt.
+
+**Mac Mini: NICHT MESSBAR.** `ssh` und `ping` auf 100.120.219.12 laufen in den
+Timeout; Tailscale zeigt den Peer zwar als `active; relay "fra"`, aber mit
+`tx 1404 rx 0` — es geht nichts zurück. Der Mini selbst **läuft**: er hat heute um
+02:42, 05:36, 07:11 und 07:12 Zeilen ins Lauf-Journal geschrieben. Defekt ist also
+nur der SSH-Weg von dieser Station aus, nicht die Station. Folge für diesen Eintrag:
+die Tageswerte des Mini fehlen, die Schwelle (b) ist damit nur zur Hälfte prüfbar.
+
+### Blockade-Status: FREI
+
+Strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` / `apiErrorStatus==429`
+mit Limit-Bezug im Text: **0 echte Limit-Fehlerereignisse** im 48-Stunden-Fenster.
+Keine blockierte interaktive Sitzung, kein erschöpftes Wochenlimit. Der `vollgas-chef-radar`
+meldet um 00:58 die Ampel **FREI** mit 47.4 % bei 93.4 % verstrichener Woche
+(Vorsprung -46.1, vierter Tag in Folge verbessert).
+
+### Operative Briefings: durchgelaufen
+
+Alle heute um 05:15 gestartet, mit substanziellem Umfang, kein Abbruch nach wenigen
+Schritten: `logbuch-radar` 223/134/113 Zeilen (Mailspur vorhanden), `hub-chef-taeglich`
+312/193 Zeilen (Mailspur vorhanden), `zahlungsabgleich-check` 69/57 Zeilen (ohne
+Mailspur, entspricht dem Ein-Mail-Prinzip). `mahnwesen-verzugscheck` hat seit dem
+14.08. keinen Lauf — als Beobachtung vermerkt, nicht als Befund gewertet, weil der
+Takt dieses Tasks hier nicht geprüft wurde.
+
+### Radar-Herzschlag: INTAKT
+
+Beide Signale frisch: RADAR.md jüngster Eintrag **17.08. 00:58** (mtime 01:03), und
+Radar-Sessions heute um 05:15 und 07:14. Kein Ausfall.
+
+### Liefer-Delta der Lern-Loops — zwei Befunde für den Radar
+
+- **`energie-training-vollgas` (Mac Mini, 07:11) ist defekt:** rc=1 nach 1 Sekunde,
+  `result_tail` = «Not logged in · Please run /login», 0 USD. Der Lauf kommt gar nicht
+  erst zustande. Muster (a) in Reinform, allerdings ohne Tokenkosten.
+- **`grobkosten-training-vollgas` (Mac Mini, 07:12) verbraucht ohne zu liefern:**
+  rc=0, 0.098 USD, aber der Lauf startete im Arbeitsverzeichnis `/Users/raphaeljans`
+  statt im Hub-Repo, hat deshalb weder Skills noch Wissensbasis gesehen und endet mit
+  einer Rückfrage («Soll ich stattdessen direkt hier weitermachen?») statt mit einem
+  Delta. Ein unbeaufsichtigter Lauf, der auf eine Antwort wartet, ist ein Leerlauf.
+- Geliefert hat dagegen `dispatch-versuch1` (02:42 und 05:36): der Artikel
+  `wissen/projekt-lessons/wiki/nerves-2015-kv-nebengewerke-unterschaetzt.md` ist neu
+  geschrieben, samt INDEX-, CHANGELOG- und Logbuch-Nachtrag.
+
+### Destillat-Aufsicht
+
+- **Fortschritt:** Korpus 2 `buero-projekte` ist aktiv (Korpus 1 `bauprodukte` am
+  15.08. abgeschlossen). Inventar Phase 0 fertig: 21 Sektionen, 807 offen, 5 pauschal,
+  1 Sonderfall. Triage Phase 1 offen. Die Front bewegt sich.
+- **Spec-Gate:** `specs/buero-projekte-spec.md` (16.08.2026) liegt vor, das Gate hängt nicht.
+- **Ertrag:** 282 Artikel über 17 KBs. Über git gezählt (nie über mtime):
+  15.08. 19 Artikel (13 ohne Twin), 16.08. 13 (7 ohne Twin), 17.08. bisher 10 (4 ohne
+  Twin: projekt-lessons 1, wettbewerbs-dna 3).
+- **Delta-Null-Serie:** keine. Die letzten Delta-Null-Meldungen stammen von vor dem 03.08.
+- **Stückkosten (nur MacBook Pro, der Mini-Anteil fehlt, Werte daher zu tief):**
+  16.08. 0.65 Mio je Artikel bzw. 1.20 ohne Twin-Facetten; 17.08. bis 07:14 0.46 bzw.
+  1.15. Die Reihe bleibt stabil im Bereich der Vortage.
+- **Mittags-Slot 13:30 (Mac Mini):** hat am 16.08. geliefert (energie-training Run 136,
+  PCB-Fugendichtungsmassen destilliert). Der Slot vom 17.08. lag zum Messzeitpunkt
+  noch in der Zukunft. Keine Abweisung durch das Lauf-Gate erkennbar.
+
+### Meldeentscheid: KEINE MAIL
+
+Kein Kriterium erfüllt: (a) keine blockierte interaktive Sitzung, (b) MacBook Pro
+mit 8.40 und 4.61 Mio weit unter den Schwellen (Mini-Anteil nicht messbar, siehe oben),
+(c) Wochenkontingent nicht erschöpft, (d) Briefings durchgelaufen, (e) Radar-Herzschlag
+intakt, (f) Destillat-Loop bewegt Front und Ertrag, (g) Queue nicht komplett.
+
+Die zwei Loop-Befunde oben sind Hub-Interna ohne Aussenwirkung und damit nach
+Rule 260803 ausdrücklich **nicht** sendewürdig; sie stehen hier für den Radar als
+Leerlauf-Wächter. Letzte Mail dieser Frühwarnung: 08.08.2026 07:29.
+
+### Werkzeug-Notiz (zwei stille Fehlmessungen in diesem Lauf)
+
+Beide wären als Sachbefund durchgegangen, wenn sie nicht aufgefallen wären:
+1. `grep 'scheduled-task name="<task>"'` liefert über alle Transkripte **null Treffer**,
+   weil die Anführungszeichen im JSONL escaped sind (`name=\"…\"`). 728 Dateien enthalten
+   die Zeichenkette, keine einzige in der gesuchten Form. Korrekt ist die Prüfung in
+   Python gegen `name=\\"<task>\\"`. Ohne diese Korrektur hätte der Lauf gemeldet, es
+   gebe überhaupt keine Briefing-Sessions.
+2. `timeout` existiert auf macOS nicht. In einer Kommandosubstitution schlägt der
+   Aufruf fehl, die Substitution wird leer, und die Artikelzählung meldet **0 Artikel** —
+   was wie ein Delta-Null-Befund aussieht. Ohne `timeout` und gegen den SSD-Klon
+   gerechnet sind es 13 bzw. 10.
+Beides bestätigt Rule 260807/260730b: ein leeres Ergebnis ist zuerst eine Aussage über
+das Werkzeug, nicht über die Quelle.
+
+
 ## 2026-08-16 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 16.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
