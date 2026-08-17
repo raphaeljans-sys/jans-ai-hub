@@ -47,7 +47,15 @@ description: Baunormen-Agent (Router) fuer die JANS-Normenbibliothek — beantwo
 - **KB:** `wissen/normen/` (CLAUDE.md dort zuerst lesen; Nacht-Loop
   `normen-training-nacht` füllt Register + Destillate, Programm `training/PROGRAMM.md`).
 - **Rule:** `rules/normen-referenz.md` — verpflichtet die Fach-Skills auf diesen Router.
-- **Fach-Skills:** `ausschreibung`/`werkvertrag`/`unternehmerkontrolle` (SIA 118),
+- **Fach-Skills:** `ausschreibung`/`werkvertrag`/`unternehmerkontrolle`/`offertenpruefung`/
+  `kostenkontrolle` (SIA 118 — die ganze Phasenkette G bis I; `kostenkontrolle` fuehrt mit
+  Art. 150/152/153-156/172/177/180/190 die dichteste SIA-118-Strecke aller Fach-Skills und
+  zusaetzlich SIA 416:2003, `offertenpruefung` die Gewaehrleistungs-Fristenaussage),
   `honorarberechnung-sia102` (SIA 102/103/105/112), `kostenschaetzung`+`flaechen-nachweis`
   (SIA 416), `brandschutz` (VKF — dort bleibt die Fach-Logik, hier nur die Fundstellen),
   `terminplanung`, `wettbewerb`.
+  <!-- Gegenkante ergaenzt 17.08.2026, Synergie-Lauf 10 (SYN-33, active-with-flagging):
+  beide Skills nannten den Router laengst, der Router sie nicht. Zuerst notiert von
+  Wissens-Chef Run 33 (QUERBEZUEGE Z. 348, `kostenkontrolle`), in Run 34 erneut liegen
+  geblieben, waehrend dieselbe Achse auf der Skill-Seite korrigiert wurde. -->
+
