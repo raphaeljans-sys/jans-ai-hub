@@ -3,6 +3,48 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-17 — Synergie-Lauf 10 (Tagestakt, 23,8 h nach Lauf 09)
+
+- **Bericht:** `outputs/2026-08-17_synergie-lauf-10.md`. Delta-Basis 16.08. 17:10,
+  113 Commits. Uhr-Kontrolle bestanden (Station 17:10 CEST gegen Synology 17:00:05,
+  = HEAD `2a06264c`). Inline, kein Fan-out.
+- **Strukturelles Delta:** 0 neue Bausteine, 9 geaenderte (davon 3 aus den eigenen
+  Schreibvorgaengen von Lauf 09, nicht neu aufgerollt), 4 neue Trainingsartefakte unter
+  `skills/wissens-destillat/training/`. Frueh-Ausstieg griff nicht.
+- **2 Befunde, beide auf der Achse `normen → Bauleitungs-Skills`, beide dieselbe Figur:
+  die Korrektur folgt dem Ort, an dem der Fehler auffiel, nicht dem, an dem er entsteht.**
+- **SYN-33 (umgesetzt, active-with-flagging):** Der Router `skills/normen/SKILL.md`
+  Z. 50-53 fuehrte `kostenkontrolle` und `offertenpruefung` nicht in seiner Abnehmerliste —
+  obwohl `kostenkontrolle` mit Art. 150/152/153-156/172/177/180/190 plus SIA 416:2003 die
+  dichteste SIA-118-Strecke aller fuenf Skills traegt und das Destillat `sia-118-1991.md`
+  Z. 148 ihn seinerseits namentlich nennt. **Seit Run 33 aktenkundig** (`QUERBEZUEGE.md`
+  Z. 348), in Run 34 erneut liegen geblieben, waehrend dieselbe Achse auf der Skill-Seite
+  dreimal korrigiert wurde — die dortige Bilanz «4 von 5 Skills» stammt aus genau dieser
+  lueckenhaften Liste. Router-Zeile auf die Phasenkette G bis I erweitert; `normen-referenz`
+  zusaetzlich in die Contract-Pflichtfelder von `kostenkontrolle` und `ausschreibung`
+  gesetzt. Ehrliche Daempfung im Register vermerkt: die Rule ist always-on importiert, das
+  fehlende Feld schaltet sie nicht ab — der Schaden ist Auffindbarkeit, nicht Wirkung.
+- **SYN-34 (offen, Raphael vorgelegt):** Die von Run 34 selbst geparkte Pruefung von
+  `ausschreibung` nachgeholt und bestaetigt. `wissensbasis/06_glossar.md` Z. 23 und
+  `wissensbasis/07_werkvertrag-unternehmerkontrolle.md` Z. 13 fuehren beide «2 Jahre
+  Rügefrist + 5 Jahre verdeckte Mängel (SIA 118)» ohne Ausgabe, Artikel und
+  Vertragsvorbehalt. Zwei Sachprobleme: die 5 Jahre sind die Verjaehrung **aller**
+  Maengelrechte (Art. 180, 10 J. bei absichtlichem Verschweigen), nicht eine Sonderfrist fuer
+  verdeckte Maengel; und die Ruegepflicht fuer verdeckte Maengel betraegt seit **01.01.2026
+  zwingend 60 Tage** ab Entdeckung (`sia-118-c1-2026.md`, established) — der additive
+  Hinweis, den Run 33 in zwei Vorlagen gesetzt hat, fehlt am **vorgelagerten** Skill, in dem
+  die Vertragstexte entstehen. Wegen Aussenwirkung (Devis/LV mit Geld- und Rechtsfolge)
+  nicht selbst gesetzt; Praezedenz Run 34.
+- **Kein Befund:** die drei am 16.08. korrigierten Skills sind sachlich korrekt; die
+  SIA-118-Strecke in `kostenkontrolle` ist inhaltlich vollstaendig; die vier neuen
+  `buero-projekte`-Dateien sind beidseitig verdrahtet; `anrede-kontakte` und
+  `jans-dna-facetten` sind belegte Registerpflege.
+- **Schreib-Kontrolle:** 9/1, 1/1, 1/1 und 53/0 (Register, reines Anhaengen). Zeilen
+  53/61, 130/130, 402/402, 288/341 (32/34 Tabellenzeilen), keine Datei hat Bestand verloren.
+  Zwei methodische Nachtraege im Bericht: gegen Commit `7ef6c2a6` gemessen statt gegen den
+  Arbeitsbaum (Selfcommit fuhr dazwischen), und die zuerst notierten numstat-Werte waren
+  geschaetzt und wurden nachgezogen.
+
 ## 2026-08-16 — Wissens-Chef Run 34 (Abendlauf, 23,7 h nach Run 33)
 
 - **Bericht:** `outputs/2026-08-16_wissens-chef-run34.md`. Delta 62 Dateien in `wissen/`
