@@ -1,8 +1,8 @@
 ---
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-08-16
-sources: [destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md]
+last_updated: 2026-08-17
+sources: [destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md, destillate/vollzugshilfe-en10-heizungen-im-freien.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
 
@@ -244,3 +244,11 @@ Heizenergie eine tiefere Solltemperatur oder ein Absenkbetrieb spart — am Orig
 (Run 137). Die verbreitete Faustregel «ein Grad weniger spart rund sechs Prozent» ist **nicht**
 aus dieser Quelle belegbar. Wer sie in einer Beratung braucht, belegt sie eigens; die KB führt sie
 bis dahin nicht. Siehe FAQ **F240**.
+
+## Aussenheizungen (Terrassenheizung, Rampenheizung, Heizpilz) — EnFK-Vollzugshilfe EN-10 (Ergänzung Run 138)
+
+Ein eigener Fall, weil hier die Grundregel **umgekehrt** zur normalen Heizungsdimensionierung ist: Heizungen im Freien sind **grundsätzlich verboten**, ausser mit erneuerbarer Energie (Holz, Sonne, Erdsonde **ohne** Wärmepumpe) oder sonst nicht nutzbarer Abwärme. Eine nichterneuerbare Aussenheizung (Gas-/Strom-Heizpilz, konventionelle Rampenheizung) braucht **kumulativ alle drei** Voraussetzungen: Sicherheits-/Schutzbedarf, Unzumutbarkeit von baulichen/betrieblichen Alternativen (Überdachung, Schneeräumung), und eine temperatur-/feuchteabhängige Regelung.
+
+**Für die Gastronomie-/Aussenraumplanung heisst das:** eine dauerhafte Terrassenheizung ist mit einer normalen Ausnahmebewilligung kaum zu begründen — «es ist kalt draussen» erfüllt keine der drei Voraussetzungen. Ein Restaurant-Projekt mit ganzjährig genutzter Aussenterrasse plant die Beheizung von Beginn weg auf Holz-, Solar- oder Abwärmebasis, nicht auf eine spätere Ausnahme. Bei Tiefgaragen-Rampenheizungen ist früh zu prüfen, ob Gefälle- oder Überdachungsalternativen möglich sind, weil der Unzumutbarkeitsnachweis bereits im Baugesuch geführt werden muss. **Nicht bewilligungspflichtig** ist dagegen ein Heizpilz für eine kurze Veranstaltung von wenigen Tagen im Jahr.
+
+**Quelle:** EnFK, «Vollzugshilfe EN-10 — Heizungen im Freien», Ausgabe Juli 2009, vollständig gelesen (Run 138) → [[vollzugshilfe-en10-heizungen-im-freien]]. ⚠ 17 Jahre alt, ZH-Verfahrensteil (Formular EN-10, heute EVEN) nicht mitgelesen.
