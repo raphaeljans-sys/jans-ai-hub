@@ -2,6 +2,38 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-17 (Run 16, unbeaufsichtigter Trainingsauftrag) — Endbedingung erneut bestätigt; ein neuer Punkt: 01.04.2026-Indexstand nicht verifizierbar
+
+**Sachstand:** Die am 13.08.2026 festgestellte Endbedingung (`training/quellen-inventar.md`
+vollständig `[x]`/`[-]`) gilt unverändert — SharePoint (`AR - 01/03`, `IMMO - 01/03/06`) auf
+neues Material seit dem letzten Rohbeleg (12.08.2026) geprüft, einzige neue Aktivität betrifft
+das explizit ausgeklammerte Healthcare-Mandat KISPI. Dieser Lauf war explizit beauftragt
+(Bedingung 2 aus dem 13.08.-Eintrag), deshalb gearbeitet statt zurückgestellt — aber gemäss
+«Kein Leerlauf-Zwang» auf eine Gegenprüfung/Vertiefung statt neuer Fläche ausgewichen.
+
+**Neuer, kleiner Fortschritt:** Primärquelle des Baupreisindex (Stadt Zürich direkt statt nur
+die HEV-SZ-Kopie) liefert einen neuen amtlichen Stand 01.10.2025 (116.1 Punkte, Basis
+April 2020=100). In `wiki/kennwerte.md` (Abschnitt "Baupreisindex ZH") und
+`raw/zuercher-index-wohnbaupreise-2025-10-update.md` dokumentiert. Effekt auf bestehende
+Einzelfälle liegt unter der Rundungsgenauigkeit der KB (+0.26 % auf den Anker) — bewusst nicht
+in die Tabellen zurückgerechnet.
+
+**Neuer offener Punkt:** Eine WebSearch-Zusammenfassung deutete einen weiteren Indexstand
+01.04.2026 an (116.8 Punkte bzw. eine Rebasierung auf Basis Oktober-2025=100). Ein direkter
+Verifikationsversuch an der Primärquelle scheiterte (mutmassliche Presse-URL 404; ein
+vermeintlicher BFS-Beleg war ein Alt-Dokument von 2023, falscher Suchtreffer). **Nicht
+übernommen.** Für einen künftigen Lauf: `https://www.stadt-zuerich.ch/ziw` (von der
+Primärquelle selbst als Datenportal genannt) direkt aufsuchen, sobald dieser Stand fällig sein
+könnte — insbesondere prüfen, ob die dort erwähnte Rebasierung (neue Gewichtung ab
+Kostenschätzungen 2020-2024) real ist und, falls ja, ob sie die Vergleichbarkeit mit der
+1939-Basis-Kette bricht (neue Gewichtung ≠ reine Rebasierung, könnte den Kettenfaktor
+verfälschen — vor Übernahme prüfen, nicht nur umrechnen).
+
+**Empfehlung unverändert:** Kein eigener Taktgeber für diese KB (siehe 13.08.-Eintrag unten),
+nächster inhaltlich ergiebiger Lauf bei neuem Rohmaterial (Bauabrechnung eines abgeschlossenen
+Mandats) oder einem amtlich bestätigten 01.04.2026-Indexstand. Details:
+`outputs/2026-08-17_grobkosten-run16.md`.
+
 ## 2026-08-13 (Mac Mini Nachtschicht 05:31) — Formale Rücktaktungs-Empfehlung: Endbedingung erreicht, Entscheid liegt bei Raphael
 
 **Nachtrag zum Befund der Vornacht (02:30-Zyklus):** Dieser Lauf holt die dort als «für einen

@@ -1,5 +1,23 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-17 (Run 16, unbeaufsichtigter Trainingsauftrag) — Endbedingung erneut geprüft (bestätigt), neuer Baupreisindex-Stichtag ergänzt
+
+Vor Arbeitsbeginn geprüft, ob eine der beiden Voraussetzungen aus dem 13.08.-Eintrag für einen
+neuen Lauf erfüllt ist: dieser Lauf ist explizit beauftragt (Bedingung 2). SharePoint
+(`AR - 01/03 Projekte/Studien`, `IMMO - 01/03/06`) auf Material neuer als der letzte Rohbeleg
+(12.08.2026) durchsucht — keine neuen JANS-Kostendokumente ausserhalb des ausgeklammerten
+KISPI-Healthcare-Mandats, `training/quellen-inventar.md` bleibt vollständig `[x]`/`[-]`.
+
+Gemäss «Kein Leerlauf-Zwang» (`training/PROGRAMM.md`) stattdessen die Primärquelle des in
+Run 8 gefundenen Baupreisindex direkt geprüft: neuer amtlicher Stand 01.10.2025 = 116.1 Punkte
+(Basis April 2020=100, Stadt Zürich) gefunden und dokumentiert (`raw/zuercher-index-
+wohnbaupreise-2025-10-update.md`, `wiki/kennwerte.md` Abschnitt "Baupreisindex ZH"). Effekt auf
+bereits geführte Einzelfälle liegt unter der Darstellungsgenauigkeit (+0.26 % auf den Anker),
+bewusst nicht zurückgerechnet. Ein per KI-Suchzusammenfassung kolportierter 01.04.2026-Stand
+liess sich nicht an einer Primärquelle verifizieren — nicht übernommen, als offener Punkt in
+`wiki/QUESTIONS.md` vermerkt. Kein neuer Projekt-Kennwert, kein Fan-out, kein Versand. Report:
+`outputs/2026-08-17_grobkosten-run16.md`.
+
 ## 2026-08-13 (Mac Mini Nachtschicht 05:31) — Formale Rücktaktungs-Empfehlung dokumentiert (kein Vollzug)
 
 Endbedingung aus `training/PROGRAMM.md` bestätigt: alle Zeilen in `training/quellen-

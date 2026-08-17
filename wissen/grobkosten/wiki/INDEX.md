@@ -69,4 +69,13 @@ null Treffer). Run 18 wiederholt bewusst KEINEN der bereits mehrfach negativ gep
 erklärt die formale Sättigung ein siebtes Mal in Folge (Run 12-18) — Frage 1/2 bleiben der
 einzige verbleibende Blocker.
 
+Lauf vom 17.08.2026 (quellen-inventar.md-Zählung: Run 16 — unabhängig von der oben
+verwendeten, älteren Run-Zählung dieses Absatzes, die vor der Runner-Entfernung 30.07.2026
+entstand und nicht deckungsgleich weitergeführt wurde): Endbedingung erneut geprüft und
+bestätigt (kein neues SharePoint-Material ausserhalb des ausgeklammerten KISPI-Healthcare-
+Mandats). Statt Leerlauf die Primärquelle des Baupreisindex nachgezogen — neuer amtlicher
+Stand 01.10.2025 (Stadt Zürich direkt statt nur HEV-SZ-Kopie) in `kennwerte.md` ergänzt, Effekt
+auf bestehende Einzelfälle unter Rundungsgenauigkeit. Kein neuer Projekt-Kennwert. Details
+`../outputs/2026-08-17_grobkosten-run16.md`.
+
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

@@ -1,3 +1,38 @@
+## Run 16 (17.08.2026) — Endbedingung erneut bestätigt (kein neues Projektmaterial), stattdessen Primärquelle des Baupreisindex nachgezogen
+
+Vor Arbeitsbeginn die Empfehlung aus `wiki/QUESTIONS.md` (2026-08-13, "Endbedingung erreicht")
+geprüft, ob eine Voraussetzung für einen neuen Lauf eingetreten ist: (1) neues Rohmaterial in
+`raw/` oder (2) explizite Beauftragung. Dieser Lauf ist explizit beauftragt (unbeaufsichtigter
+Trainingsauftrag 17.08.2026) — Bedingung (2) erfüllt, also gearbeitet statt zurückgestellt.
+
+**Kein neues Projektmaterial:** SharePoint (`AR - 01 Projekte`, `AR - 03 Studien`,
+`IMMO - 01 Projekte`, `IMMO - 03 KNOW-HOW`, `IMMO - 06 Kennwerte`) nach Dateien neuer als der
+letzte Rohbeleg (`raw/2304-waedenswil-residualwert-zwei-varianten.md`, 12.08.2026) durchsucht
+(`find -newer`). Einzige neue Aktivität seit dem 12.08.2026 betrifft ausschliesslich
+`2619_KINDERSPITAL` (Healthcare, gemäss `training/PROGRAMM.md` explizit nicht in dieser KB
+geführt). Kein neuer `kostenkontrolle`-Output. Inventar bleibt vollständig `[x]`/`[-]`,
+keine `[ ]`-Zeile.
+
+**Statt Leerlauf (`training/PROGRAMM.md`, "Kein Leerlauf-Zwang"):** die Primärquelle des in
+Run 8 gefundenen Baupreisindex (Zürcher Index der Wohnbaupreise, bisher nur über eine HEV-SZ-
+Kopie bekannt) direkt bei der Stadt Zürich geprüft (WebSearch + WebFetch). Neuer amtlicher
+Stand gefunden: 01.10.2025 = 116.1 Punkte (Basis April 2020=100, +0.3 % ggü. 01.04.2025) —
+die HEV-SZ-Kopie selbst ist bei erneutem Abruf unverändert (Stand weiterhin 01.04.2025).
+Effekt auf die Stufe-4-Tabelle in `wiki/kennwerte.md` gering (+0.26 % auf den Anker), bewusst
+nicht in die Einzelfall-Normalisierung zurückgerechnet (unter Rundungsgenauigkeit). Ein per
+KI-Suchzusammenfassung kolportierter 01.04.2026-Stand liess sich nicht an einer Primärquelle
+verifizieren (Fetch-Versuch 404, ein vermeintlicher BFS-Beleg erwies sich als Alt-Dokument
+2023) — bewusst **nicht** übernommen (Rule «Kennwerte nie raten»), als offener Punkt für einen
+künftigen Lauf vermerkt.
+
+**Ergebnis Run 16:** kein neuer Projekt-Kennwert, kein neuer Inventar-Eintrag (Bedingungen
+für eine neue Stufe-1-Zeile fehlen weiterhin). Ein neuer, sauber belegter Rohbeleg
+(`raw/zuercher-index-wohnbaupreise-2025-10-update.md`) erweitert den bereits geführten
+Baupreisindex um einen aktuelleren Stichtag. Empfehlung unverändert: `grobkosten` bleibt ohne
+eigenen Taktgeber (`logbuch/rollen/rollen-map.tsv`), nächster produktiver Lauf entweder bei
+neuem Rohmaterial (Bauabrechnung eines abgeschlossenen Mandats) oder wenn der April-2026-
+Indexstand amtlich bestätigt vorliegt.
+
 ## Run 15 (11.08.2026, Mac Mini Nachtschicht) — Run-13/14-Blocker `2304 Wädenswil` geschlossen: Zugriff über Weg 2 (Graph/CLI), Inhalt aber `[-]` untauglich (BKP-1-9-only)
 
 Statt eines dritten identischen `cp`-Retrys auf den weiterhin blockierten OneDrive-Mount

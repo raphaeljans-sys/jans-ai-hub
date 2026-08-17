@@ -1,8 +1,8 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-07-27 (Run 11)
-sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md, raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md]
+last_updated: 2026-08-17 (Run 16)
+sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md, raw/zuercher-index-wohnbaupreise-2025-10-update.md, raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md, raw/2304-waedenswil-residualwert-zwei-varianten.md]
 links: []
 ---
 
@@ -358,6 +358,18 @@ Rebasierungs-Spalte ablesen (Details/volle Tabelle: `raw/zuercher-index-wohnbauk
 Deckt sich grössenordnungsmässig mit dem bereits geführten BFS-Baupreisindex-Cross-Check
 (12.07.2026, ~1 %/Jahr, moderat) — zwei unabhängige Quellen, kein Widerspruch.
 
+> **Nachtrag Run 16 (17.08.2026):** Primärquelle (Stadt Zürich, nicht mehr nur die HEV-SZ-Kopie)
+> direkt geprüft — neuster amtlicher Stand ist jetzt **01.10.2025 = 116.1 Punkte (Basis
+> April 2020=100)**, +0.3 % ggü. 01.04.2025. Rechnerisch auf Basis 1939=100 umgelegt (Kettenfaktor
+> 10.4525, siehe Roh-Beleg) ≈ **1'213.5** — eine Verschiebung des Ankers um nur **+0.26 %**
+> gegenüber dem bisherigen 01.04.2025-Stand. Bewusst NICHT auf die Einzelfälle in Run 9 unten
+> angewendet (Effekt liegt unter der Rundungsgenauigkeit der KB, z.B. Niederhasli 1'032 → ≈1'033);
+> Anker hier nur vermerkt, damit er beim nächsten grösseren Publikationssprung (z.B. April-2026-
+> Stand) als Zwischenstützstelle zur Verfügung steht. Details: `raw/zuercher-index-wohnbaupreise-
+> 2025-10-update.md`. Ein kolportierter 01.04.2026-Stand (aus einer KI-Suchzusammenfassung, nicht
+> aus der Primärquelle direkt bestätigt) wurde bewusst **nicht** übernommen — offener Punkt für
+> einen künftigen Lauf, siehe `wiki/QUESTIONS.md`.
+
 **Anwendung (ab sofort möglich, in diesem Lauf noch nicht auf alle Einzelfälle angewendet):**
 Die in dieser KB geführten Einzelfälle mit Preisstand vor 2025 (z.B. Reckholdern 12/2023,
 Haus Deuber 10/2020, Wald/Niederhasli 07/2025) können mit obiger Tabelle auf einen
@@ -584,3 +596,13 @@ kennwerte bleibt diese KB; energie liefert nur die Detail-/Betriebskosten (Wisse
   erfolgreich gelesen — Inhalt aber `[-]` untauglich: Kostensumme eindeutig "BKP 1-9", keine
   BKP-1-5-Teilsumme. Kein neuer Kennwert, Fall abschliessend geschlossen. Details:
   `raw/2304-waedenswil-residualwert-zwei-varianten.md`.
+- Run 16 (17.08.2026): Endbedingung (Empfehlung QUESTIONS.md 13.08.2026) erneut geprüft, bevor
+  gearbeitet wurde — `training/quellen-inventar.md` weiterhin ohne offene `[ ]`-Zeile, SharePoint
+  (`AR - 01/03`, `IMMO - 01/03/06`) auf Dateien neuer als der letzte Rohbeleg (12.08.2026)
+  durchsucht: keine neuen Funde ausserhalb des laufenden, hier bewusst ausgeklammerten
+  KISPI-Healthcare-Mandats. Statt Leerlauf (`training/PROGRAMM.md`) die Primärquelle des
+  Baupreisindex direkt geprüft (bisher nur über die HEV-SZ-Kopie bekannt): neuer amtlicher
+  Stand 01.10.2025 gefunden und dokumentiert (Abschnitt "Baupreisindex ZH" oben), Effekt auf
+  bestehende Einzelfälle unter der Darstellungsgenauigkeit (~+0.26 %), bewusst nicht in die
+  Tabellen zurückgerechnet. Details: `raw/zuercher-index-wohnbaupreise-2025-10-update.md`,
+  `training/quellen-inventar.md` Abschnitt "Run 16", `outputs/2026-08-17_grobkosten-run16.md`.
