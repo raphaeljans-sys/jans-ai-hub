@@ -101,17 +101,17 @@ bestehen bleiben.
   15.9.2 unten). Zur Abgrenzung Flachdach/Schraegdach: ein Besonderes Gebaeude darf im Sinne von
   § 49 Abs. 3 PBG eine groesste Hoehe von 5 m aufweisen, wenn es mit einem mindestens 10° geneigten
   Schraegdach ueberdeckt ist (BEZ 1996 Nr. 30). (S. 1095)
-- **15.8.9.3a Gartenhaeuser, Schoepfe, Gartensitzplaetze (§ 18 Abs. 1 BBV II)** — *ergaenzt
+- **15.8.9.3a Gartenhäuser, Schöpfe, Gartensitzplätze (§ 18 Abs. 1 BBV II)** — *ergänzt
   Buch-Run 74 (17.08.2026) am amtlichen Wortlaut, nicht aus dem Buchtext; Seitenbeleg steht
-  aus*: Gartenhaeuser und Schoepfe ohne Bestimmung zum dauernden Aufenthalt sowie ueberdeckte,
-  seitlich mindestens zur Haelfte der Abwicklung offene Gartensitzplaetze sind **von den
-  Abstandsvorschriften gegenueber grundstueckinternen Gebaeuden** befreit, wenn Grundflaeche
-  **10 m2**, Fassadenlaenge einschliesslich allfaelliger Pergolen **6 m** und Gesamthoehe
-  **3 m** nicht ueberschritten werden. **Die Befreiung erfasst nur den Gebaeudeabstand
+  aus*: Gartenhäuser und Schöpfe ohne Bestimmung zum dauernden Aufenthalt sowie überdeckte,
+  seitlich mindestens zur Hälfte der Abwicklung offene Gartensitzplätze sind **von den
+  Abstandsvorschriften gegenüber grundstückinternen Gebäuden** befreit, wenn Grundfläche
+  **10 m²**, Fassadenlänge einschliesslich allfälliger Pergolen **6 m** und Gesamthöhe
+  **3 m** nicht überschritten werden. **Die Befreiung erfasst nur den Gebäudeabstand
   innerhalb der eigenen Parzelle, NICHT den Grenzabstand zum Nachbarn.** Beide Fassungen
-  geprueft: 067 (bis 1.3.2017) «groesste Hoehe 3 m», 097 (geltend) «Gesamthoehe 3 m» — die
-  Aenderung war rein terminologisch, das Mass unveraendert. Fehlerquelle in der Praxis:
-  kommunale Klammerverweise geben Hoehe und Reichweite abweichend wieder
+  geprüft: 067 (bis 1.3.2017) «grösste Höhe 3 m», 097 (geltend) «Gesamthöhe 3 m» — die
+  Änderung war rein terminologisch, das Mass unverändert. Fehlerquelle in der Praxis:
+  kommunale Klammerverweise geben Höhe und Reichweite abweichend wieder
   (→ [[gebaeudearten-und-abstandssystem]], Abschnitt «Klammer-Falle»).
 - **15.8.9.4 Familiengartenhaeuser**: Familiengartenhaeuser samt zugehoerigen gemeinschaftlichen
   Nebenbauten (Wasch- und Abortanlagen) sind von den Grenzabstaenden (und ueber die

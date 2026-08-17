@@ -126,29 +126,29 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Synopsen die Spaltenzuordnung **wortweise** ueber die x-Position machen — `pdftotext` verschmilzt
   Tabellenzeilen ueber alle Spalten zu **einer** Zeile, und eine zeilenweise Zuordnung schreibt dann
   Werte der alten Fassung der neuen zu.
-- **KOMMUNALE Klammerverweise sind kein Beleg (Pruefregel Modell D, seit Run 74):** die
-  zweiteilige Fassungspruefung aus Run 71 galt kantonalen Verweisnormen. Run 74 fand dieselbe
-  Drift eine Ebene weiter unten, dort wo sie **haeufiger** vorkommt: im kommunalen Recht. Steht in
-  einer BZO oder einem Gemeinde-Merkblatt eine Fundstelle mit Klammer-Angabe («gemaess § X BBV II
-  (Grundflaeche …, Hoehe …)»), sind **Fundstelle und geklammerter Inhalt getrennt** am amtlichen
-  Erlasstext zu pruefen. Belegt an Art. 24 Abs. 3 BZO Thalwil: die Klammer nennt 2,50 m, § 18
-  Abs. 1 BBV II nennt **3 m Gesamthoehe**; die Klammer sagt «keine Abstandsvorschriften», die Norm
-  befreit nur **gegenueber grundstueckinternen Gebaeuden** (Grenzabstand bleibt!); die dritte
-  Voraussetzung (Fassadenlaenge 6 m inkl. Pergolen) fehlt ganz. **Der Erlass war dabei voellig
-  intakt** (BBV II in Kraft, Nachtrag 097) — ein Fassungsstand-Check auf Erlassebene haette nichts
+- **KOMMUNALE Klammerverweise sind kein Beleg (Prüfregel Modell D, seit Run 74):** die
+  zweiteilige Fassungsprüfung aus Run 71 galt kantonalen Verweisnormen. Run 74 fand dieselbe
+  Drift eine Ebene weiter unten, dort wo sie **häufiger** vorkommt: im kommunalen Recht. Steht in
+  einer BZO oder einem Gemeinde-Merkblatt eine Fundstelle mit Klammer-Angabe («gemäss § X BBV II
+  (Grundfläche …, Höhe …)»), sind **Fundstelle und geklammerter Inhalt getrennt** am amtlichen
+  Erlasstext zu prüfen. Belegt an Art. 24 Abs. 3 BZO Thalwil: die Klammer nennt 2,50 m, § 18
+  Abs. 1 BBV II nennt **3 m Gesamthöhe**; die Klammer sagt «keine Abstandsvorschriften», die Norm
+  befreit nur **gegenüber grundstückinternen Gebäuden** (Grenzabstand bleibt!); die dritte
+  Voraussetzung (Fassadenlänge 6 m inkl. Pergolen) fehlt ganz. **Der Erlass war dabei völlig
+  intakt** (BBV II in Kraft, Nachtrag 097) — ein Fassungsstand-Check auf Erlassebene hätte nichts
   gefunden. Zusatzbefund: die abweichende Zahl war **kein eingefrorener Altstand** (Fassung 067
-  lautete ebenfalls 3 m), also nie durch Alterung erklaerbar. Warum kommunal haeufiger: BZO-Texte
-  laufen jahrzehntelang unveraendert weiter, waehrend die verwiesenen kantonalen Erlasse revidiert
+  lautete ebenfalls 3 m), also nie durch Alterung erklärbar. Warum kommunal häufiger: BZO-Texte
+  laufen jahrzehntelang unverändert weiter, während die verwiesenen kantonalen Erlasse revidiert
   werden. **Und: ein Nullbefund gegen den kantonalen Bestand belegt nie, dass eine Zahl erfunden
   ist** — sie kann aus dem kommunalen Recht stammen (Selbstkorrektur an Run 73, siehe dortigen
   Korrekturvermerk).
-- **Merkblatt-Aussagen dreiteilen (Pruefregel Modell A, seit Run 74):** in einem Gemeinde-Merkblatt
+- **Merkblatt-Aussagen dreiteilen (Prüfregel Modell A, seit Run 74):** in einem Gemeinde-Merkblatt
   stehen drei Dinge nebeneinander, optisch ununterscheidbar — **Gesetzeswortlaut**, **Auslegung**
-  und **blosse Verwaltungspraxis**. Vor der Uebernahme trennen. Belegt: das Thalwiler Merkblatt
-  stellt Anhang § 49 Abs. 3 PBG als Legaldefinition der «besonderen Gebaeude» dar, waehrend die
-  Norm eine **Kann-Ermaechtigung an die Gemeinde** ist (ohne BZO-Regelung greift sie nicht;
-  unmittelbar wirkt Anhang § 273 PBG mit 3,5 m Gebaeudeabstand), und ergaenzt drei Kriterien
-  (nicht beheizt · nicht von einem anrechenbaren Raum zugaenglich · Belichtung unter 10 %), die im
+  und **blosse Verwaltungspraxis**. Vor der Übernahme trennen. Belegt: das Thalwiler Merkblatt
+  stellt Anhang § 49 Abs. 3 PBG als Legaldefinition der «besonderen Gebäude» dar, während die
+  Norm eine **Kann-Ermächtigung an die Gemeinde** ist (ohne BZO-Regelung greift sie nicht;
+  unmittelbar wirkt Anhang § 273 PBG mit 3,5 m Gebäudeabstand), und ergänzt drei Kriterien
+  (nicht beheizt · nicht von einem anrechenbaren Raum zugänglich · Belichtung unter 10 %), die im
   Gesetzeswortlaut **nicht vorkommen**. Schwesterregel zur Wegleitungs-Falle aus Run 73 (dort:
   Masszahl ohne Rechtsgrundlage).
 - **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
