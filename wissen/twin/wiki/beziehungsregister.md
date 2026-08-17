@@ -2649,3 +2649,34 @@ Anlass: im ersten Versand stand die falsche Sachbearbeiterin, «Heinrich» statt
 **Die Bewegung geht auf Gliederung und Milderung, nicht auf Kürze** — und was *nicht* dazukommt,
 ist so aussagekräftig wie was dazukommt: keine Begründung, kein Voraus-Dank, kein Service-Satz.
 Die Tippfehler bleiben in beiden Fassungen stehen («auf der Platform», «ein Termin buchen»).
+
+## Batch 96 (17.08.2026) — der verworfene Entwurf zeigt, wen er zuerst adressieren wollte
+
+Am 11.08.2026 liegt ein **abgebrochener Entwurf aus Raphaels eigener Hand** im Ordner `Drafts`
+(Exchange-Kanal, `Aptos,Arial,Helvetica`, kein Wrapper) und daneben in den Sent Items die 19
+Minuten später gesendete Fassung desselben Vorgangs. Der Vorgang: die Feuerpolizei (SRZ) hat die
+Abänderungseingabe als nicht bewilligungsfähig zurückgewiesen; geschrieben hat Frauenfelder (SRZ),
+im Cc stand Furrer (AfB, Kreisarchitekt).
+
+| | verworfen, 12:27 | gesendet, 12:46 |
+|---|---|---|
+| Betreff | **WG:** (Weiterleitung) | **AW:** (Antwort) |
+| An | **Furrer** (AfB) | **Frauenfelder** (SRZ) |
+| Cc | Frauenfelder | Furrer **+ Bauherrschaft** (2 Personen) |
+| Anrede | «**Sehr geehrter** Herr Furrer» | «**Geschätzter** Herr Frauenfelder» |
+| Text | «Nach Rücksprache mit Herr » *(Abbruch)* | ausformuliert, mit vorangestellter Erklärung |
+
+- **Er antwortet dem, der geschrieben hat, nicht dem Ranghöheren.** Der erste Reflex war die
+  Weiterleitung an den Kreisarchitekten; gesendet wurde die Antwort an den Sachbearbeiter, der
+  die Rüge verfasst hatte. Der Ranghöhere rutscht ins Cc. **Regel: der Absender des Anliegens ist
+  der Hauptadressat, auch wenn ein Ranghöherer im Verteiler steht.**
+- **Die Anrede wird beim Adressatenwechsel WÄRMER, nicht kälter** — «Sehr geehrter» für den
+  Kreisarchitekten, «Geschätzter» für den Feuerpolizisten, der die Ablehnung geschrieben hat.
+  Die wärmere Stufe geht an den, **mit dem die Sache zu klären ist**, nicht an den Ranghöheren
+  und nicht an den Wohlgesinnten. Das ist kontraintuitiv und deshalb als Regel festzuhalten.
+- **Der Verteiler wächst beim Versand, er schrumpft nie.** Zweiter Beleg desselben Tages-Musters:
+  das Sitzungsprotokoll ging an **8** statt der im Entwurf adressierten **7** Empfänger
+  (ergänzt: ein weiterer Vertreter der Bauherrschaft), die Behördenmail an **4** statt **2**
+  (ergänzt: die Bauherrschaft). **Der Zwilling adressiert enger, als Raphael sendet** — bei
+  Behörden- und Sitzungsvorgängen gehört die Bauherrschaft dazu.
+  Quelle: 11.08. und 06.08.2026, `korrektur-delta` bzw. authentisch.

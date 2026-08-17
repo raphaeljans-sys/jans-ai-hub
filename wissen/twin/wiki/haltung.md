@@ -1203,3 +1203,32 @@ Die rhetorischen Vorwurfsfragen davor sind nummeriert und bleiben unbeantwortet 
 Wieso nicht einen Anruf an <Person> tätigen und dies korrekt eintragen, anstatt dies als Pendenz
 für <Bauherr> aufzugeben?», «3. Frage: Wieso werden Türmodelle in der Baueingabe erwähnt, welche
 mit den BSP nicht übereinstimmen?»
+
+## Batch 96 (17.08.2026) — die Kern-Drift, erstmals am NICHT-Gesendeten belegt
+
+Bisher wurde die Drift «der Zwilling erklärt, Raphael entscheidet» an gesendeten Zwillings-Texten
+gemessen. Der Entwurf an die GT-Leitung vom **30.07.2026 22:35** liefert den härteren Beleg: er
+wurde **nie versendet** und liegt am 17.08. seit **18 Tagen** unberührt im Entwurfsordner.
+
+Sein Schluss besteht aus zwei vollständigen Absätzen Entgegenkommen, nach einer bereits
+gesetzten Frist:
+
+> «Wenn Ihnen dafür etwas von meiner Seite fehlt, sagen Sie es mir bitte: Grundlagen, Pläne, ein
+> Entscheid, den ich vorziehen kann. Das nehme ich gerne vorweg, damit Sie nicht darauf warten
+> müssen.»
+> «Sollte der Termin … nicht machbar sein, sagen Sie mir das bitte offen und mit einem
+> verbindlichen Ersatztermin. Mir ist eine ehrliche Auskunft deutlich lieber als eine Zusage, die
+> dann nicht hält; danach können wir gemeinsam überlegen, wie wir den Rest sauber über die Bühne
+> bringen.»
+
+**Der Zwilling nimmt seine eigene Frist im selben Text wieder zurück.** Er setzt «Zustellung bis
+Dienstag, 04.08.26, 17:00» und bietet danach zwei Auswege an, ohne dass jemand darum gebeten
+hätte. Raphaels eigene Mahnungen im Korpus setzen die Frist und hören auf; das Entgegenkommen
+steht dort **vor** der Frist oder gar nicht.
+
+**Regel, verschärft: nach einer gesetzten Frist folgt kein Absatz mehr, der sie relativiert.**
+Ein Angebot, den Termin zu verschieben, gehört nicht in dieselbe Mail wie der Termin.
+
+Der unversendete Entwurf ist als solcher das Urteil: er wurde nicht abgeschickt, obwohl der
+Vorgang dringlich war und der Hub-Chef ihn viermal als versandbereit gemeldet hat.
+Quelle: 30.07.2026, `claude-aera` (Negativmaterial, nie versendet).

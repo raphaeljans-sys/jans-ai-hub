@@ -1231,3 +1231,86 @@ den vorhandenen Bestand statt neuen zu sammeln, nimmt fälschlich verbuchtes Gol
 erschliesst zugleich die bisher fast leere Kategorie `korrektur-delta`. **Vor der Lektüre
 zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der
 Fidelity-Läufe.**
+
+## Batch 96 (17.08.2026) — Doppelabgleich `Drafts` × Sent Items, kein neues Datumsfenster
+
+**Bewusst kein sequenzielles Fenster.** Batch 95 empfahl `rj@` 17.–23.08.2026; der 17.08. trägt
+zum Laufzeitpunkt (04:00) genau **eine** Sent Item, und die ist eine Hub-Selbstmail. Stattdessen
+wurde die in Batch 94 und 95 **zweimal als methodisch vorrangig** bezeichnete Aufgabe ausgeführt:
+der rückwirkende Doppelabgleich nach [[QUESTIONS]] 260816 #4.
+
+**Erhoben:** Ordner `Drafts` in `rj@` vollständig (**103 Einträge**, fuenf Seiten, davon **62**
+mit Drittempfängern, Bestand zurück bis 04.07.2025), dazu Sent Items 04.–08.08., 11.08. und
+12.–13.08.2026 zum Abgleich. **5 Volltexte gelesen** (2 Entwürfe + 2 gesendete Fassungen + 1
+Gegenprobe). **3 `korrektur-delta` · 2 Gold · 1 Negativmaterial.** 16 neue Marker in allen sechs
+Facetten, 1 neue Echo-Falle, 1 neuer textlicher Detektor, 5 Fragen.
+
+**Kernbefund — die vierzehnte Falle: der Entwurfsordner konserviert den WORTLAUT der
+Zwillings-Fassung.** Die zwölfte Falle nutzte `Drafts` als Ja/Nein-Beweis, *ob* versendet wurde.
+Batch 96 zeigt: wo Entwurf und Sent Item beide existieren, ist das Korrektur-Delta **wörtlich
+ablesbar**, ohne Tagesfenster-Rechnung und ohne Rückfrage. Dazu die Kanal-Trennung im Ordner
+(**Apple Mail = Hub-`osascript`-Draft, Exchange = Raphaels unfertige Hand**) und daraus drei
+Paartypen, alle belegt:
+
+| Typ | Beleg | Gewichtung |
+|---|---|---|
+| Apple-Mail-Entwurf **ohne** Sent Item | GT-Leitung 30.07. 22:35, seit **18 Tagen** liegend, 4× als versandbereit gemeldet | `claude-aera`, Negativmaterial |
+| Apple-Mail-Entwurf **mit** abweichendem Sent Item | Sitzungsprotokoll 06.08., **13:17 gegen 13:44** | **`korrektur-delta`** |
+| **Exchange**-Entwurf mit spaeterem Sent Item (**neu**) | Behörde 11.08., «WG:» 12:27 abgebrochen gegen «AW:» 12:46 | **Gold, Selbst-Delta** |
+
+**Das Protokoll-Paar, 27 Minuten:** Zwilling «Guten Tag miteinander» + dreiabsaetzige Begleitmail
+zum PDF-Anhang + Anerkennungsfrist als eigener Mail-Absatz + Betreff mit Projektnummer und Datum.
+Raphael «**Geschätztes Projektteam**» + SharePoint-Link **und** Anhang **und** das vollständige
+Protokoll (Ziffer 1–9) im Mailkoerper + Frist nur im Dokument + gekürzter Betreff + ein Empfaenger
+mehr. **Die Mail ist Transportmittel, die Rechtsfolge trägt das Dokument.**
+
+**Das Selbst-Delta, 19 Minuten:** Der Entwurf bricht bei «Nach Rücksprache mit Herr » ab; die
+gesendete Fassung fuehrt ihn zu Ende mit **Name, Funktion und Organisation je Person**. Der
+Abbruch markiert die Stelle, an der Raphael innehielt. Zugleich dreht der Verteiler: der
+Kreisarchitekt (ranghoeher, im Cc der eingehenden Mail) rutscht ins Cc, der Feuerpolizist, der
+die Rückweisung geschrieben hat, wird Hauptadressat — und bekommt die **wärmere** Anrede
+(«Sehr geehrter» verworfen, «Geschaetzter» gesendet).
+
+**Neuer TEXTLICHER Detektor (überlebt Zitieren und Reintext, anders als alle Markup-Signale):
+der Signaturblock.** Hub = voller Block mit «**+41** 79 846 11 65» (die Form aus
+`rules/jans-absenderadresse.md`); Raphael in Outlook = «RAPHAEL JANS» in Versalien mit «**0041**»
+und «--»-Trenner; **Raphael in Apple Mail selbst getippt = «Freundliche Grüsse / Raphael Jans»,
+gar kein Block**. Drei Belege, **Gegenprobe bestanden** an der handgetippten Apple-Mail-Mail vom
+12.08. 12:30, deren Outlook-Fassung in derselben **Zitatkette** steht (dreizehnte Falle in
+Aktion). Nebenbefund für Raphael: Rule und gelebte Signatur laufen auseinander
+([[QUESTIONS]] 260817 #1).
+
+**Entlastungsbefund, ausdruecklich festgehalten:** Der Abgleich sollte fälschlich verbuchtes Gold
+zurückholen — **es gab keines**. Die Wiki-Marker der Kandidatentage (24.07., 30.07., 05.08.,
+08.08.) belegen durchgehend *andere* Mails desselben Tages; die Batches 93–95 haben sauber über
+`folderName: "Sent Items"` gearbeitet und den Entwurfsordner nie eingesammelt. Der Ertrag liegt
+damit vollständig auf der Gewinnseite.
+
+**Mikro-Metrik** — erstmals **Gold gegen Zwilling im selben Vorgang** (`stilmetrik.py`, Gold 322 W
+aus 6 Eigentexten, Zwilling 545 W aus 3 Hub-Entwürfen): Du-Gross **0.818 gegen 1.0**;
+Tausender-Apostroph 0/0; Ellipsen 0/0; Satzlänge ø 18.9 gegen 16.0 W. **Die Satzlänge ist hier
+nicht belastbar** (Fragmente ohne Endinterpunktion, Messfehler [[QUESTIONS]] 260814 #3). Belastbar
+ist die Du-Quote: der Zwilling schreibt Du **ausnahmslos** gross, weil `rules/jans-dna.md` es
+vorschreibt — als Kandidat geführt, **nicht** aufgenommen (Sperrlisten-Disziplin).
+
+**⚠ Werkzeug-Falle, in diesem Lauf bezahlt:** Der Erhebungs-Subagent gab die Message-URIs um den
+mittleren Ordner-Block **gekürzt** zurück; `read_resource` scheitert darauf mit «Id is
+malformed». **Message-URIs immer aus der eigenen Abfrage nehmen.** Ein zweiter Subagent brach
+zudem an der Ausgabegrösse ab («Prompt is too long»), als er eine vollständige Sent-Items-Liste
+mit URIs zurückgeben sollte — solche Listen inline ziehen, nicht delegieren.
+
+**⚠ Gehirn NICHT neu kompiliert** (unverändert seit dem Fidelity-Lauf 16.08.): der Auto-Block in
+`rules/jans-dna.md` steht bei **29990 B von 30000 B**, zehn Byte Reserve. Dieser Batch trägt rund
+9 kB neue Facetten-Prosa. **Der Entscheid über MAX_AUTO_BYTES bzw. eine grössere Verdichtung
+liegt weiterhin bei Raphael** (Budget-Führung `wissen/claude-code/wiki/kontext-architektur.md`);
+er steht seit dem 13.08. aus und blockiert inzwischen den vierten Batch in Folge. Die Marker wirken
+über die Twin-Agenten, die die Facetten-Artikel direkt lesen.
+
+**Naechstes Fenster:** **weiterhin `Drafts`, nicht das Kalenderdatum.** 62 Entwürfe mit
+Drittempfängern sind erhoben, **5 gelesen**; rund 20 fallen in die Claude-Ära. Jedes gefundene
+Paar liefert ein Korrektur-Delta, und das ist das Lernsignal, von dem der Harness bis zu diesem
+Batch fast nichts hatte ([[QUESTIONS]] 260817 #4). **Achtung beim Heben: Entwürfe vor der
+Claude-Ära sind Gold, auch die über Apple Mail** — die Kanal-Regel gilt erst, seit der Hub
+`osascript`-Drafts erzeugt; wo genau die Grenze liegt, ist ungeprüft. Sequenziell wäre danach
+`rj@` 17.–23.08.2026. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
+Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

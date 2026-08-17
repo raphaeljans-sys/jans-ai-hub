@@ -2938,3 +2938,35 @@ in einem Satz, ohne Liste und ohne Dateinamen: «Ich habe Dir meine Liegenschaft
 Baurecht sowie das UBS Local Factsheet beigelegt.» Das steht neben dem belegten Gegenmuster
 «Anhang-Dateinamen als Listenpunkte» (260815, Vergabemail) — **die Liste gehört der Lieferung an
 den Ausführenden, der Fliesstext der Beratung.**
+
+## Batch 96 (17.08.2026) — was Raphael am Zwillings-Entwurf umbaut
+
+Das Sitzungsprotokoll vom 06.08.2026 liegt in beiden Fassungen vor: Hub-Entwurf 13:17 (Apple
+Mail, Wrapper), Raphaels Versand 13:44 (Exchange). Der Umbau ist gross und in eine Richtung.
+
+- **Der Volltext gehört in den Mailkörper — zusätzlich zu Link und Anhang.** Der Zwilling schrieb
+  eine dreiabsätzige Begleitmail zum PDF. Raphael sendete **SharePoint-Link + PDF-Anhang + das
+  vollständige Protokoll (Ziffer 1 bis 9 samt Beilagenliste) im Mailtext**. Dreifache Redundanz
+  mit Absicht: **niemand soll einen Anhang öffnen müssen, um zu sehen, was ihn betrifft.**
+  **Regel: bei Protokollen und Pendenzen wird der Inhalt in die Mail kopiert, nicht referenziert.**
+- **Die verbindliche Klausel gehört ins Dokument, nicht in die Mail.** Der Zwilling stellte die
+  Anerkennungsfrist als eigenen Mail-Absatz heraus («Ergänzungen und Korrekturen … innerhalb von
+  fünf Arbeitstagen, andernfalls gilt der Inhalt als anerkannt»). Raphael strich sie aus dem
+  Mailtext und liess sie **ausschliesslich im Protokoll** stehen, dort kursiv. **Die Mail ist
+  Transportmittel, die Rechtsfolge trägt das Dokument** — weil nur das Dokument abgelegt wird.
+- **Der Betreff wird gekürzt, nicht präzisiert.** «2619 KISPI PPTS: Protokoll 8. Besprechung
+  Fachplanung vom 06.08.2026» wurde zu «KISPI PPTS: Protokoll 8. Besprechung». Der Zwilling
+  packt Projektnummer und Datum in den Betreff, Raphael verlässt sich auf den Vorgangsnamen.
+
+- **Er schliesst nicht mit der Lösung, sondern mit einem Kanalwechsel.** Der Hub-Entwurf an den
+  Bauleiter endet mit der ausformulierten Konsequenz («Ohne die beiden Bestätigungen ist die Wand
+  im Brandschutznachweis nicht belegt»). Raphaels gesendete Mail desselben Tages endet mit «**So
+  oder so werde ich versuchen Dich morgen kurz telefonisch zu erreichen** um das Verständnis der
+  LBW-Vermassung mit Dir zu klären» und der nackten Rückfrage «Grundsätzliche Fragestellung:
+  Kannst Du mit der bestehenden Vermassung die LBW einmessen?». **Regel: die schriftliche Klärung
+  wird nicht zu Ende geschrieben, sondern ans Telefon übergeben.**
+- **Er delegiert an einen Dritten, statt selbst zu antworten** — dreimal in einer Mail: «bitte ich
+  Dich mit **Michael Spörri** Kontakt aufzunehmen», «Gut ist, wenn Du mit Ihm die Koordination
+  diesbezüglich absprichst», «bitte ich Dich auch direkt mit Michael Spörri zu besprechen». Der
+  Zwilling beantwortet die Frage; Raphael benennt den Zuständigen und geht aus der Kette.
+  Quelle: 05.08. und 06.08.2026, `korrektur-delta`.

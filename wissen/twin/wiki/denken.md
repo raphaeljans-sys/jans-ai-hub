@@ -863,3 +863,22 @@ Drei weitere Marker aus Raphaels Fassung:
 - **Ungeprüftes bleibt als eigener Satz stehen**, mit den Prüfgegenständen in Klammern: «Ob
   effektiv die nötigen Preise für den Abverkauf … erzielt würden **müsste man prüfen** (Zustand
   Immobilie / Marktsituation / Investitionsbedarf).»
+
+## Batch 96 (17.08.2026) — der Abbruch zeigt, wo er innehält
+
+Der am 11.08.2026 verworfene Entwurf bricht **mitten im Wort-für-Wort-Satz** ab: «Nach Rücksprache
+mit Herr ». Die 19 Minuten später gesendete Fassung führt denselben Satz zu Ende:
+
+> «Nach Rücksprache mit **Herr Lior Merci, Sicherheitsbeauftragter Kinderspital** sowie **Jens
+> Ziegel QS Gruner AG Brandschutzexperte** …»
+
+- **Die Autoritätskette wird vollständig ausgewiesen: Name, Funktion, Organisation je Person.**
+  Der Abbruch belegt, dass genau an dieser Stelle innegehalten wurde — der Name allein trug die
+  Aussage gegenüber der Behörde nicht. **Regel: wer eine Rücksprache gegen eine Behörde ins Feld
+  führt, nennt je Person alle drei Angaben; eine halbe Nennung wird nicht gesendet.**
+- **Vor dem Sachsatz steht die Erklärung der eigenen Nichterreichbarkeit.** Die eingehende Rüge
+  enthielt «Leider habe ich Sie telefonisch nicht erreicht»; der Entwurf ging ohne ein Wort dazu
+  in die Sache, die gesendete Fassung schiebt «Besten Dank für Ihre E-Mail. **Ich war gestern an
+  einem Telefonat, deshalb nicht erreichbar gewesen.**» davor. **Der implizite Vorwurf wird
+  aufgenommen und entschärft, bevor argumentiert wird** — nicht als Entschuldigung, sondern als
+  Tatsachenangabe. Quelle: 11.08.2026, `korrektur-delta`.

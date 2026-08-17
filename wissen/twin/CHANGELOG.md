@@ -4,6 +4,33 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 17.08.2026 — twin-mail-training Batch 96 (Doppelabgleich `Drafts` × Sent Items): vierzehnte Falle, drei Korrektur-Deltas
+
+Kein neues Datumsfenster (der 17.08. trägt nur eine Hub-Selbstmail), sondern die in Batch 94 und 95
+zweimal als vorrangig bezeichnete Aufgabe [[QUESTIONS]] 260816 #4. Erhoben: `Drafts` vollständig
+(**103 Einträge, 62 mit Drittempfängern**), abgeglichen gegen Sent Items 04.–13.08.2026.
+**3 `korrektur-delta` · 2 Gold · 1 Negativmaterial**, 16 Marker in allen sechs Facetten, 5 Fragen.
+
+**Vierzehnte Falle in `CLAUDE.md`: der Entwurfsordner konserviert den Wortlaut der
+Zwillings-Fassung.** Die zwölfte Falle nutzte ihn als Ja/Nein-Beweis; wo beide Fassungen existieren,
+ist das Korrektur-Delta **wörtlich ablesbar**. Dazu die Kanal-Trennung im Ordner (Apple Mail = Hub,
+Exchange = Raphaels unfertige Hand) und drei Paartypen, darunter das neue **Selbst-Delta**:
+Raphael verwirft seinen eigenen Ansatz (11.08., «WG:» an den Kreisarchitekten, abgebrochen bei
+«Nach Rücksprache mit Herr », gegen «AW:» an den Feuerpolizisten 19 Minuten später, wärmere Anrede,
+Verteiler gedreht).
+
+**Neuer textlicher Detektor: der Signaturblock** — er überlebt Zitieren und Reintext, anders als
+alle Markup-Signale. Hub «+41» + voller Block; Raphael in Outlook «RAPHAEL JANS» + «0041»; Raphael
+in Apple Mail selbst getippt: **gar kein Block**. Gegenprobe bestanden, die Outlook-Fassung stand
+in der Zitatkette derselben Mail. Nebenbefund: `rules/jans-absenderadresse.md` und die gelebte
+Signatur laufen in der Telefonnummer auseinander — Entscheid Raphael, 260817 #1.
+
+**Entlastungsbefund:** Das befürchtete fälschlich verbuchte Gold gab es **nicht** — die Batches
+93–95 haben sauber über `folderName: "Sent Items"` gearbeitet. Der Ertrag liegt vollständig auf der
+Gewinnseite. Kern-Drift erstmals am **nicht gesendeten** Text belegt: der Entwurf vom 30.07. nimmt
+seine eigene Frist im Schlussabsatz zurück und liegt seit 18 Tagen. Gehirn unverändert bei 29990 B;
+der Entscheid über MAX_AUTO_BYTES steht seit dem 13.08. aus und blockiert den vierten Batch in Folge.
+
 ## 16.08.2026 — twin-fidelity-review (Fenster 08.–14.06.2026): dreizehnte Falle, und der Riegel ist entschärft
 
 Gesamt-Fidelity **38** (nach 36 / 36) — dritter Messpunkt derselben Basislinie. 3 Golds + ein

@@ -574,6 +574,74 @@ gesperrt:
 | `background-color:rgb(252,252,251)` | 16.08. | fehlt in bewiesenem Zwillingstext (Batch 95) |
 | Fehlen der Bitt-Reflex-Grossschreibung | 15.08. | intermittierend, belegt nur ihr Vorhandensein |
 
+**Vierzehnte Falle, neu 17.08.2026 (Batch 96) — der ENTWURFSORDNER ist die dritte dokumentarische
+Quelle, und er konserviert die Fassung, die das Sendejournal nur erwähnt.** Die zwölfte Falle
+(16.08.) hat `Drafts` als Beweismittel dafür erschlossen, **ob** ein protokollierter Entwurf
+versendet wurde. Batch 96 zeigt: der Ordner leistet mehr. Er hält den **Wortlaut** der
+Zwillings-Fassung fest, während die Sent Items Raphaels Fassung tragen. **Wo beide existieren,
+ist das Korrektur-Delta wörtlich ablesbar** — ohne Tagesfenster-Rechnung, ohne Fehlerdichte-
+Statistik, ohne Rückfrage an Raphael.
+
+**Die Kanal-Trennung IM Entwurfsordner ist die Schlüsselunterscheidung** (Stand 17.08.2026,
+103 Einträge, davon 62 mit Drittempfängern):
+
+| Kanal des Entwurfs | Herkunft | Gewichtung |
+|---|---|---|
+| **Apple Mail** (`<UUID@raphaeljans.ch>`) | Hub-`osascript`-Draft | Zwillingstext |
+| **Exchange** (`…@ZR2P278MB1112…`) | Raphael hat in Outlook angefangen und nicht gesendet | **Gold**, unfertig |
+
+Daraus **drei Paartypen**, alle in diesem Batch belegt:
+
+1. **Apple-Mail-Entwurf OHNE Sent Item** = nie versendeter Zwillingstext. Reines Negativmaterial
+   — und zugleich das ehrlichste Urteil über den Zwilling, das der Korpus kennt: Raphael hat ihn
+   liegen lassen. Beleg: der Entwurf an die GT-Leitung vom 30.07.2026, seit **18 Tagen** unberührt,
+   viermal als versandbereit gemeldet.
+2. **Apple-Mail-Entwurf MIT abweichendem Sent Item** = `korrektur-delta` (SILBER), wörtlich
+   messbar. Beleg: Sitzungsprotokoll 06.08.2026, Entwurf 13:17 gegen Versand 13:44 — **27 Minuten**,
+   anderer Betreff, andere Anrede, ein Empfänger mehr, Volltext statt Anhang.
+3. **Exchange-Entwurf mit späterem Sent Item** = **Selbst-Delta**, neu in diesem Batch. Raphael
+   verwirft seinen eigenen Ansatz. Beleg: 11.08.2026, «WG:» an den Kreisarchitekten, abgebrochen
+   bei «Nach Rücksprache mit Herr », gegen «AW:» an den Feuerpolizisten 19 Minuten später. **Der
+   Abbruch markiert die Stelle, an der er innehielt** — hier fehlte die Funktionsangabe zur
+   Autoritätskette. Diese Gattung ist die einzige Quelle für Raphaels Revisionsverhalten an sich
+   selbst.
+
+**Neuer TEXTLICHER Detektor: der Signaturblock.** Alle bisherigen mechanischen Marker ausser dem
+Geviertstrich sind Markup und sterben beim Zitieren. Dieser hier nicht:
+
+| Herkunft | Signatur |
+|---|---|
+| Hub (Apple-Mail-Draft) | voller Block mit «**+41** 79 846 11 65» — die Form aus `rules/jans-absenderadresse.md` |
+| Raphael in Outlook | «**RAPHAEL JANS**» in Versalien, «**0041** 79 846 11 65», «--»-Trenner |
+| Raphael in Apple Mail, selbst getippt | **«Freundliche Grüsse / Raphael Jans» — gar kein Block** |
+
+**Ein über Apple Mail gesendeter Text mit vollständigem Signaturblock ist Hub-Text.** Drei Belege
+(30.07., 05.08., 06.08.), **Gegenprobe bestanden** an der handgetippten Apple-Mail-Mail vom
+12.08.2026 12:30, deren Outlook-Fassung in derselben Zitatkette steht (dreizehnte Falle). Reichweite:
+**Mail**, nicht nur Absatz — die Signatur steht einmal. Nebenbefund für Raphael: die Rule schreibt
+«+41», seine gelebte Signatur «0041» ([[QUESTIONS]] 260817 #1).
+
+**Zwei billige Zusatzsignale aus demselben Bestand:** Ein Betreff mit Grossbuchstaben-Platzhaltern
+in eckigen Klammern («2619 KISPI, ausstehende Leistungen Fachplanung **[GEWERK]**, Nachfrist bis
+**[DATUM]**», zwei Entwürfe vom 30.07.) ist eine **Hub-Schablone** und zweifelsfrei nie versendet.
+Und: der Zwilling schreibt die Du-Formen **ausnahmslos** gross (Quote 1.0 gegen 0.818 in Raphaels
+Hand), weil `rules/jans-dna.md` es vorschreibt — als Kandidat geführt, **nicht** aufgenommen, weil
+ein Beleg nach der Sperrlisten-Disziplin nicht reicht.
+
+**Verbindliches Vorgehen ab sofort, als Erweiterung der zwölften Falle:** (1) Selbstmails des
+Fensters lesen. (2) `Drafts` **nach Kanal getrennt** gegen Sent Items stellen — nicht nur fragen,
+ob ein Entwurf fehlt, sondern den vorhandenen Entwurf **mitlesen**. (3) Bei einem Paar beide
+Fassungen wörtlich gegenüberstellen, statt die gesendete stilistisch zu beurteilen. (4) Erst dann
+stilistisch urteilen. Der Ordner altert, sobald Raphael ihn leert — die Paare sind **jetzt** zu
+heben.
+
+**⚠ Werkzeug-Falle, in diesem Lauf teuer bezahlt: URIs aus einem Subagenten-Bericht sind
+unbrauchbar.** Der Erhebungs-Subagent gab die Message-URIs um den mittleren Ordner-Block gekürzt
+zurück; jeder `read_resource` darauf scheitert mit «Id is malformed». **Message-URIs immer aus der
+eigenen Abfrage nehmen**, nie aus einem weitergereichten Bericht. Gleiche Familie wie der
+`bodyPreview`-Listenfehler (elfte Falle): eine zweite Hand zwischen Quelle und Auswertung
+verfälscht still.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

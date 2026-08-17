@@ -2272,3 +2272,23 @@ Wettbewerbs-Kennwerte (Bauweise, Raster, Spannweite, Bauteilaufbau in mm, Produk
 PV-Fläche, Label), «Bestandsbäume ausgewiesen» sowie die Handelsregister-Zeilenform «Nachname,
 Vorname, von <Heimatort>, in <Wohnort> (Funktion)» samt «Kollektivunterschrift zu zweien».
 Sämtliche Regeln stehen unverändert im Do-Block, die Belege in den Abschnitten oben.
+
+## Batch 96 (17.08.2026) — zwei Formmarker, zweitbelegt
+
+- **«Grundsätzliche Fragestellung:» als markierter Schlussabsatz — zweiter unabhängiger Beleg.**
+  Batch 94 hatte den Marker aus dem Fenster 02.–09.08. eingeführt; hier steht er erneut, als
+  letzte Zeile vor dem Gruss und als einzige echte Frage einer Mail, die sonst nur Aufträge
+  verteilt: «Grundsätzliche Fragestellung: Kannst Du mit der bestehenden Vermassung die LBW
+  einmessen?» **Die Formel markiert die eine Frage, an der alles hängt, und trennt sie vom
+  Rest.** Quelle: 05.08.2026, authentisch.
+- **Der Unterstrich «_» als Listenzeichen ist auch im Zwillings-Text angekommen.** Er steht in
+  Raphaels Fassung («_ Bitte beachte: Die Angaben zur Elektorinstallationen fehlen im Plan») und
+  ebenso im Hub-Entwurf desselben Vorgangs («_ 2619-4.1 Umbauplan 1:100»). **Damit ist er als
+  Echtheitszeichen verbrannt** — gleiche Logik wie die Signaturphrasen (neunte Falle): was der
+  Zwilling gelernt hat, kann er erzeugen. Als Stilvorgabe bleibt er richtig, als Detektor nicht.
+  Quelle: 05.08.2026, beide Fassungen.
+- **Die Auflageziffer wird in der Sache mitgeführt, nicht nur in der Anrede.** Belegt am
+  13.08.2026: «Um den Auflagepunkt, welcher noch offen ist, nämlich der **II.1b)** Brandschutzplan
+  und Stellungnahme zu erfüllen …» — die Ziffer steht als Apposition mitten im Satz, damit der
+  Empfänger den Punkt im Bauentscheid direkt aufschlagen kann. Quelle: 13.08.2026,
+  `korrektur-delta` (versendeter, überarbeiteter Entwurf, siehe Batch 95).

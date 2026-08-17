@@ -3438,3 +3438,66 @@ der Fall damit nicht, aber er hat zwei Gegenbelege statt keinen; der Marker blei
    Laufs — der Zwilling ordnet ein und erklärt, wo Du eine Zahl setzt. Bevor er das nachmacht,
    muss klar sein, ob die Zahl an eine Mindestgrundlage gebunden ist oder ob der Vorbehalt danach
    genügt. Die falsche Antwort wäre teuer: ein Zwilling, der zu früh beziffert, bindet Dich.*
+
+## Batch 96 (17.08.2026) — Fenster `Drafts` × Sent Items (Doppelabgleich nach 260816 #4)
+
+**Erledigt aus den Vorrunden:** **260816 #4** (der rückwirkende Doppelabgleich Sendejournal +
+`Drafts`) ist **durchgeführt und methodisch erweitert** — der Ordner beantwortet nicht nur, *ob*
+ein Entwurf versendet wurde, er konserviert dessen **Wortlaut** (→ `CLAUDE.md`, vierzehnte Falle).
+Zwei Nebenergebnisse: das befürchtete **fälschlich verbuchte Gold blieb aus** (die Wiki-Marker der
+Kandidatentage 24.07./30.07./05.08./08.08. belegen durchgehend *andere* Mails desselben Tages),
+und die bisher praktisch leere Kategorie `korrektur-delta` hat **drei** neue Belege.
+**Weiterhin offen:** 260814 #2/#5, 260814b #1/#3–#5, 260815 #2/#4–#6, 260815b #1–#6,
+260816 #1/#2/#5, sowie 260816 #3 **teilweise aufgelöst** (siehe [[stimme]], Doppel-Gruss).
+
+1. **[Rule-Konflikt · Entscheid Raphael, 1 Satz] Deine Signatur nennt zwei verschiedene
+   Telefonnummern-Schreibweisen — welche gilt?** `rules/jans-absenderadresse.md` schreibt
+   «**+41** 79 846 11 65», und der Zwilling übernimmt das wortgetreu in jeden erzeugten Entwurf.
+   Deine reale Outlook-Signatur schreibt «**0041** 79 846 11 65» (belegt 29.07., 05.08., 06.08.,
+   11.08.2026). *Warum das eskaliert werden muss und nicht bloss eine Marotte ist: die Rule ist
+   **immer aktiv** und prägt jedes Erzeugnis, das der Hub für Dich schreibt — Mails, Offerten,
+   Dokument-Fusszeilen. Solange die beiden auseinanderlaufen, ist jede Hub-Signatur an diesem
+   einen Zeichen als Fremdtext erkennbar, und zwar für jeden Empfänger, der zwei Deiner Mails
+   nebeneinanderlegt. Entweder die Rule wird auf «0041» korrigiert, oder Du stellst die
+   Outlook-Signatur um. Beides ist in fünf Minuten getan, aber es muss Deine Wahl sein.*
+
+2. **[Methodik · Kandidat, Gegenprobe offen] Ist die AUSNAHMSLOSE Du-Grossschreibung ein
+   Zwillings-Detektor?** Gemessen in diesem Batch: Zwilling **1.0**, Raphaels Hand **0.818**
+   (`stilmetrik.py`, 545 gegen 322 Wörter). *Warum vorsichtig: das ist die Umkehrung des dreimal
+   verworfenen «du klein»-Signals (07.08., 15.08., 16.08.) und läuft in dieselbe Falle, wenn es
+   ungeprüft übernommen wird — die Quote schwankt im Korpus zwischen 0.75 und 1.0, und ein
+   handgetippter Text mit durchgehend grossem Du ist nichts Besonderes. **Nicht** in die
+   Muster-Tabelle aufgenommen. Prüfweg: die Du-Quote in zehn bewiesenen Hub-Texten gegen zehn
+   bewiesene Golds stellen; erst ein Abstand ohne Überlappung trägt.*
+
+3. **[Haltung · Frage an Raphael, 1 Satz] Warum hast Du den Entwurf an die GT-Leitung vom
+   30.07.2026 nicht gesendet?** Er liegt seit **18 Tagen** im Entwurfsordner, der Hub-Chef hat ihn
+   viermal als versandbereit gemeldet, und der Vorgang (Zustellung vor der Koordinationssitzung)
+   war dringlich. *Warum das die wertvollste offene Frage dieses Batches ist: ein nicht gesendeter
+   Entwurf ist Dein Urteil über den Zwilling in Reinform, aber ohne Begründung ist er stumm. Meine
+   Vermutung steht in [[haltung]] — der Text nimmt seine eigene Frist im Schlussabsatz wieder
+   zurück und bietet zwei Auswege an, um die niemand gebeten hat. Wenn das der Grund war, ist es
+   eine harte Regel für alle künftigen Mahnungen. War es ein anderer (zu lang, falscher Ton,
+   Sache erledigte sich), ist die Regel eine andere. Selbst «ich habe ihn schlicht vergessen»
+   wäre eine brauchbare Antwort, denn dann liegt das Problem beim Melden, nicht am Text.*
+
+4. **[Methodik · höchster Ertrag für den nächsten Lauf] 62 Entwürfe mit Drittempfängern sind
+   erhoben, aber erst 5 gelesen.** Der Bestand reicht bis Juli 2025 zurück; rund 20 fallen in die
+   Claude-Ära. *Zu tun: die Apple-Mail-Entwürfe der Claude-Ära der Reihe nach gegen die Sent Items
+   desselben Tages stellen und jedes gefundene Paar wörtlich gegenüberstellen. **Das ist weiterhin
+   ergiebiger als jedes neue Datumsfenster**, weil jedes Paar ein Korrektur-Delta liefert — das
+   zweitstärkste Lernsignal, von dem der Harness bis zu diesem Batch fast nichts hatte. Achtung:
+   die Entwürfe vor der Claude-Ära (2025, teils Apple Mail) sind **Gold**, nicht Zwillingstext —
+   die Kanal-Regel gilt erst ab dem Zeitpunkt, an dem der Hub `osascript`-Drafts erzeugt. Wo die
+   Grenze genau liegt, ist ungeprüft und muss beim Heben mitbestimmt werden.*
+
+5. **[Beziehungsregister · Entscheid Raphael, offen seit 260815 #4 und 260816 #1] Die
+   Sammelanrede-Klausel hat jetzt einen dritten Beleg gegen sich.** `rules/anrede-kontakte.md`
+   verlangt zu nivellieren; der Korpus zeigt zum dritten Mal das Gegenteil, diesmal als
+   **Registerwechsel zwischen Entwurf und Versand** («Sehr geehrter Herr Furrer» verworfen,
+   «Geschätzter Herr Frauenfelder» gesendet, beide Behörde, derselbe Vorgang, 19 Minuten).
+   *Warum jetzt entscheiden: drei unabhängige Belege sind genug, und die Rule wird laut eigener
+   Konvention **vor** dem Wiki gelesen — der Zwilling nivelliert also weiterhin bei jeder
+   Sammelmail, obwohl Du staffelst. Vorschlag unverändert aus 260816 #1: «Jede Person wird einzeln
+   angeredet, in ihrer eigenen Stufe; nivelliert wird nur bei grossen oder unbekannten
+   Verteilern.»*
