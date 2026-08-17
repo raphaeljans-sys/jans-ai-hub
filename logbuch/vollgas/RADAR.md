@@ -52,6 +52,55 @@ Fensterzustand je Eintrag: [FREI] Kapazitaet offen · [VOLL] Fenster ausgereizt 
 [LOGIN] headless-Login-Block · [GEDROSSELT] Drossel-Regime, Runner gestoppt (historisch 14.–25.07.2026).
 
 ---
+## 2026-08-17 12:58 — [FREI] **Der P1 ist nicht bloss blockiert, er ist unreparierbar auf dem eingeschlagenen Weg: der Caskroom enthaelt nur 2.1.224.** Der letzte Lauf hat richtig diagnostiziert, dass der Auto-Update-Waechter am gewedgeten Binary haengt. Dieser Lauf legt die zweite Haelfte frei: selbst ein entblockter Waechter faende **nichts zum Updaten** — `/opt/homebrew/Caskroom/claude-code/` fuehrt als einzige Fassung die defekte 2.1.224. Der Waechter koennte also endlos sauber durchlaufen und der P1 bliebe stehen. Zugleich hat sich der Defekt an der Oberflaeche veraendert: `command claude --version` antwortet neu **in Sekunden** mit 2.1.224 (rc=0), der 19-h-45-Hang ist weg — aber `claude -p` ueber denselben Symlink laeuft weiterhin in den Watchdog (**rc=137**, 60 s). Das Binary kann Metadaten ausgeben, aber keine Session fahren. Ampel **FREI** (0.1 % bei 0.6 % verstrichener Woche — der Wochen-Reset lief heute 12:00). **Sieben KBs mit Liefer-Delta, kein Delta-Null-Loop, keine Waisen.**
+
+**Selbstkontrolle: bestanden.** Letzter Eintrag 17.08. 00:58, dieser Lauf 12:58, Abstand **exakt
+12 h 00 min** bei 12-h-Takt und 15 h Toleranz (Faustregel Takt + 3 h eingehalten). Neunter regulaerer
+Abstand in Folge, keine Eintragsluecke, `lastRunAt`-Gegenprobe nicht noetig.
+
+**Fenster und Budget.** Probe ueber die App-gebuendelte CLI 2.1.229 (`~/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude`, Rezept vom 16.08.): «OK», rc=0, Antwort in Sekunden. Das Probe-Script lief wie vorgeschrieben als Datei ueber `bash`, nicht inline in der zsh. Budget: **0.18 von 167 Mio teuer = 0.1 %** bei **0.6 %** verstrichener Woche, Vorsprung **-0.5 Punkte**. Der Wochen-Reset ist heute 12:00 gelaufen; die Woche 10.–17.08. endete bei 47.4 % gegen 93.4 % verstrichene Zeit, also mit rund der Haelfte des Kontingents ungenutzt. Speicher: 5.31 GB verfuegbar (free 4745 + inactive 313041 + purgeable 6535 Pages a 16 kB), `kern.memorystatus_vm_pressure_level: 1` (normal).
+
+**Feuermechanismen — alle drei Orte geprueft, keine Abweichung.** (i) Lokale Registry: 34 Tasks, die acht deaktivierten sind samt und sonders gewollt (erledigte One-Times, die beiden Ereignis-Trigger `immobewertung-training`/`spec-training`, das abgeloeste `synergie-lauf-monatlich`). **Kein Drossel-Rest aus einer frueheren Ampel-Phase, der jetzt zurueckzuholen waere** — bei FREI ausdruecklich geprueft, weil eine nicht zurueckgedrehte Drossel eine stille Stilllegung waere. (ii) launchd beide Stationen: `ch.jans.vollgas-supervisor` und `ch.jans.vollgas-monitor` tragen unveraendert `.disabled-260729` und sind nirgends geladen; der stehende Entscheid vom 30.07. haelt. Auf dem Mini feuert `ch.jans.nachtschicht` als einziger Lern-Taktgeber. (iii) Zweite Registry (Mini, per ssh): acht Tasks, deckungsgleich mit dem Sollstand. Keine Doppelfeuerung.
+
+**Liefer-Delta: sieben KBs, plus vier operative Briefings.** twin (7 Dateien, Fidelity-Review 05:45: 15. Falle, DNA neu kompiliert auf 29'971 B), normen (Run 55: N54-1 geschlossen, Refuter-Runde ueber ~69 Aussagen mit 2 Widerlegungen, neuer Wiki-Artikel SIA 416/1 Verwendungszweck-Abgrenzung), energie (Run 138: Energierecht-ZH-Ordner abgeschlossen, WDV-2022-Luecke aufgedeckt, Fortschrittszahl sauber nachgemessen auf 107 von 131), projekt-lessons (3 Dateien, neue Lesson nerves-2015 zu unterschaetzten Nebengewerken), grobkosten (Baupreisindex-Stichtag 01.10.2025 an der Primaerquelle nachgezogen), wettbewerbs-dna (Etappe-4-Vertiefung, Montagslauf 02:27), wissens-destillat (Inventar 813/706). Dazu hub-chef, zahlungsabgleich, mahnwesen, logbuch-radar. **97 Commits seit 05:15.** Kein Loop mit Delta Null, also keine Ruecktaktung und keine Stilllegung faellig.
+
+**Zwei transiente Stoerungen von heute frueh, beide von selbst behoben — kein Handlungsbedarf.** (1) `energie-training-vollgas` fiel um 07:11 mit «Not logged in» aus (rc=1, 1 s); derselbe Loop lief um 07:31 volle 1197 s durch und lieferte. Kein Login-Blocker. (2) Zwei Mini-Loops meldeten um 07:20 und 07:24, die SSH-Route zur Synology sei nicht erreichbar, ihre Arbeit liege nur lokal committet. Gegenprobe eben: `ssh diskstation918.tail8265aa.ts.net` antwortet, **SYNO_OK 13:00:20**, und `energie` Run 138 meldete um 07:31 bereits «committet und gepusht». Die Sicherung hat sich eingerenkt, nichts blieb liegen.
+
+### P1 — CLI-Wedge: der Reparaturweg ueber Homebrew ist eine Sackgasse, der Fix liegt am Symlink
+Stand: `/opt/homebrew/bin/claude` → `Caskroom/claude-code/2.1.224/claude`, gesetzt am 15.08. 05:15.
+Der Caskroom fuehrt **nur diese eine Fassung**; die funktionierende 2.1.229 liegt ausschliesslich
+in der App unter `Application Support/Claude/claude-code/2.1.229/`. Damit ist belegt: **weder der
+naechste 05:15-Lauf des Waechters noch ein manuelles `brew upgrade` kann den P1 loesen**, solange
+Homebrew kein neues Cask veroeffentlicht. Der wirksame Eingriff waere, den Symlink auf die
+App-gebuendelte CLI umzuhaengen. **Das tut dieser Lauf ausdruecklich nicht:** ein Symlink in
+`/opt/homebrew/bin` faellt unter Persistenz/Systemdienste (Rule `interaktive-eingriffe`, Klasse 4/5),
+und dies ist eine unbeaufsichtigte Session — dort gilt die Ankuendigungspflicht gerade nicht als
+erfuellbar. Der fertige Befehl zum Vorlegen:
+`ln -sfn "$HOME/Library/Application Support/Claude/claude-code/2.1.229/claude.app/Contents/MacOS/claude" /opt/homebrew/bin/claude`
+Umkehrbar durch erneutes `ln -sfn` auf den Caskroom-Pfad. **Auswirkung bleibt begrenzt:** die
+Scheduled Tasks feuern aus der App und sind unbeeintraechtigt, der Mini-PATH ist gesund (seine
+Loops liefen heute 484 s, 737 s und 1197 s durch). Betroffen sind allein script-getriebene
+`claude -p`-Aufrufe auf dem MacBook.
+**Mail: keine.** Derselbe P1, fuer den am 15.08. 12:58 bereits gemailt wurde; er ist weder geloest
+noch eskaliert, und eine Wiederholungsmail fuer denselben Befund ist ausgeschlossen. Gemailt wird,
+sobald der Symlink umgehaengt ist (geloester Blocker) oder der Wedge auf die App-CLI uebergreift.
+
+### P2 — Der Mini-Dispatch startet Loops im falschen Arbeitsverzeichnis
+`grobkosten-training-vollgas` meldete um 07:12 woertlich, er laufe «in `/Users/raphaeljans`, nicht
+im Hub-Repo», und **fragte zurueck statt zu arbeiten** (16 s, 0.10 USD, kein Delta). Ohne das
+Repo-Arbeitsverzeichnis greift weder dessen `CLAUDE.md` noch die Trainingsregel der KB. Der Lauf
+um 07:20 lief dann korrekt und lieferte, der Fehler kostete also nur einen Fehlstart — aber er ist
+strukturell: ein Loop, der sein Arbeitsverzeichnis nicht gesetzt bekommt, improvisiert oder bricht
+ab. Zu pruefen waere, ob `dispatch-run.sh` bzw. der Nachtschicht-Wrapper vor `claude -p` sicher ins
+Repo wechselt. **Kein Eingriff in diesem Lauf** (fremde Station, Script-Aenderung); als Befund
+notiert, weil er jeden Mini-Loop treffen kann.
+
+### P3 — Keine offenen Punkte
+Feuermechanismen sauber, keine Waisen, kein Delta-Null-Loop, Budget nach dem Reset praktisch
+unberuehrt. Der Radar-Regellauf blieb schlank (unter 15 Werkzeugaufrufen, inline gemessen, keine
+Delegation — Faustregel der Modell-Politik eingehalten).
+
+---
 ## 2026-08-17 00:58 — [FREI] **Die Ursache des P1 gefunden: der Auto-Update-Waechter haengt selbst am gewedgeten Binary.** `claude-autoupdate.sh` stand seit dem 16.08. 05:15 volle **19 h 45 min** an der Zeile `command claude --version`, ohne Watchdog, ohne Zeitgrenze. Der Lauf vom 15.08. 05:15 hatte den Symlink auf 2.1.224 gelinkt und ist unmittelbar danach an derselben Stelle stehengeblieben: sein Log endet nach «successfully upgraded» ohne die sonst obligate Zeile «=== Lauf beendet ===». Damit ist belegt, warum der P1 seit zwei Tagen offen steht. **Nicht nur das PATH-Binary ist defekt, der Mechanismus, der es reparieren wuerde, ist an genau diesem Defekt blockiert** und wuerde es bei jedem weiteren 05:15-Takt erneut sein. Ampel **FREI** (47.4 % bei 93.4 % verstrichener Woche, Vorsprung **-46.1**, vierter Tag in Folge verbessert). **Sieben fremde Loops mit Liefer-Delta plus der eigene Lauf, kein Delta-Null-Loop.**
 
 **Selbstkontrolle: bestanden.** Letzter Eintrag 16.08. 12:58, dieser Lauf 17.08. 00:58, Abstand **exakt
