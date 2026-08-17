@@ -1,3 +1,48 @@
+## 2026-08-17 (Entscheide Raphael nach Run 54) — vier Vorschläge beantwortet, drei umgesetzt
+
+Raphael hat die offenen Punkte aus Report Run 54, Ziff. 7 entschieden:
+
+- **Vorrang-Auftrag GESTRICHEN.** Der Block «achte Verifikationsrunde lignum-lignatec, Tab. 3/4
+  rechnerisch» ist aus dem Task-Prompt `normen-training-nacht` entfernt (15 Zeilen, plus
+  Frontmatter-`description` und Abschnittstitel nachgezogen). Erledigt war er seit Run 38
+  (30.07.2026); die Runs 49-54 hatten ihn sechsmal als überholt zurückgemeldet.
+- **Methodik-Pflicht 13 FREIGEGEBEN und verbindlich** (`training/PROGRAMM.md`): Eine
+  Refuter-Runde ist nie ein Vollständigkeitsnachweis — sie fängt weggelassene Ausnahmen, ist
+  für weggelassenen eigenständigen Inhalt aber strukturell blind. Belegkette Run 52
+  (Einzelfall) → Run 53 (3/3 gegen 1/3 an gepflanzten Auslassungen, 0 Falsch-Positive) →
+  Run 54 (realer Bestand: 37 Kernlücken dort, wo die Refuter-Runde 93 Aussagen bestätigt
+  hatte). Praktische Folge: keine Hebung auf `established`, solange nicht beide Richtungen auf
+  allen Teilen gelaufen sind; der Prüfstand gehört als Tabelle ins Destillat.
+- **Methodik-Pflicht 11 und die Erweiterung von MP 12 NICHT freigegeben.** Sie bleiben
+  Vorschlag und gute Praxis, sind aber **nicht** verbindlich und dürfen nicht als verletzte
+  Pflicht protokolliert werden. Vermerkt im PROGRAMM.md; nicht erneut vorlegen ohne neuen Beleg.
+- **Register-Check gebaut** (`training/register-check.sh`, nur auf Zuruf, kein Automatik-Takt).
+  Schliesst die dritte Prüfachse: der Loop prüft Destillat gegen Original in zwei Richtungen,
+  niemand prüfte Register gegen Destillat. Fünf Prüfungen: Datei↔INDEX-Zeile beidseitig,
+  `status:` gegen INDEX, «ausstehend» im Register trotz `geprueft:`, Inventar-`[ ]` trotz
+  vorhandenem Destillat, Pflichtfelder. Ändert nichts, meldet nur.
+  **Beim Kalibrieren am Bestand (369 Destillate) zwei Falsch-Positiv-Klassen beseitigt:**
+  (1) die Prüfung traf die Prosa-Zeile «Je Norm ein Destillat `sia-102-2020.md`» statt der
+  Tabellenzeile und meldete dadurch fast jeden Status als Drift — nun nur noch Zeilen ab `|`;
+  (2) Korrekturvermerke, die den behobenen Zustand in Guillemets zitieren, lösten Prüfung 3
+  aus — zitierter Text wird nun ausgeblendet. Ferner `norm:` aus den Pflichtfeldern gestrichen
+  (nur wenige Destillate führen es, es ist keine Konvention; die Prüfung feuerte 398 Mal und
+  mass damit ihre eigene Fehlkalibrierung).
+  **Erster Lauf: rund 30 Befunde**, zwei stichprobenweise am Bestand als echt bestätigt —
+  `sia-196-1998` (Frontmatter `established` seit 260723, INDEX führt weiterhin
+  `teil-destillat` von 260713) und `vsa-aufzuege-esba-zh` (Frontmatter `established`, INDEX
+  `speculative`). Ausserdem: `sia-181-2006` steht im Inventar auf `[ ]`, obwohl das Destillat
+  existiert — derselbe Fehlertyp wie bei SIA 215 in Run 54. **Bereinigung dem nächsten Lauf
+  übergeben**, nicht hier miterledigt: jede Registerzeile braucht den Beleg des Laufs, der sie
+  setzt.
+- **xalt-Bestandshygiene: README angelegt** in
+  `PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Normen/alle/xalt/README.md` (geteilte
+  SharePoint-Bibliothek, Freigabe Raphael). Hält fest, dass der Ordnername keine Aussage über
+  die Gültigkeit trifft, listet die vier belegten Fälle (SIA 416/1:2007, SIA 215:1978,
+  SIA 151:2001, SIA D 0165:2000 — alle geltend) und den Gegenfall SIA 178:1996, der dort zu
+  Recht liegt. Ordner **nicht** umbenannt: das hätte alle Quellenpfade in den Destillaten und
+  jeden fremden Verweis gebrochen.
+
 ## 2026-08-17 (Normen-Training Run 54, MacBook Pro) — die Abdeckungsrichtung findet 37 Kernlücken dort, wo die Refuter-Richtung zufrieden war
 
 Kernergebnis: **N53-2 geschlossen.** Beide Prüfrichtungen sind für `sia-416-1-2007.md`

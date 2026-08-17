@@ -3,6 +3,34 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 17.08.2026, 06:55 (Logbuch-Radar — **der Montagstermin ist am Kalender geprüft, und die
+Lage ist schlechter als am Freitag angenommen**):
+
+**«KISPI PPTS: Türkonzeptplan und Türbuch, Besprechung Rückmeldungen», heute 10:30 bis 11:00:
+von vier eingeladenen Personen hat KEINE zugesagt.** Die Registerzeile vom 15.08. trug «Lage
+Montag früh prüfen» — das ist hiermit geschehen, und zwar **direkt am Kalendereintrag statt am
+Postfach**, weil der Antwortstand dort verbindlich geführt wird. Gemessen um 06:55:
+**N. Ramminger abgesagt** (14.08. 17:13, «ferienbedingt abwesend»), **L. Merci ohne Antwort**,
+**L. Hiltmann ohne Antwort**, **R. Otschkowski ohne Antwort**. Die Freitagsmessung kannte nur
+den TeKoSi-Teil; dass auch **L. Merci (KISPI)** nicht geantwortet hat, ist neu und wiegt
+schwerer, weil der Termin nach Rücksprache mit ihm angesetzt wurde. **Die Einladung selbst ist
+als Vorschlag formuliert** («Geht Dir dieser Termin? Könntest Du uns einen für Dich passenden
+Termin vorschlagen und uns einladen?») und nennt zwei Ausweichfenster: **Option 2 Dienstag
+18.08. 09:00 bis 09:45**, **Option 3 Mittwoch 19.08. 15:00 bis 15:45**. Ein Ausweichen innerhalb
+der Woche löst Rammingers Abwesenheit nicht, sie ist aber eine der drei Stellen, die die
+konsolidierte Rückmeldung abgestimmt haben (FLM). Status: **Entscheid Raphael heute früh —
+durchführen, auf Option 2/3 verlegen oder absagen.** | Kalendereintrag rj@ am Beleg gelesen
+(Antwortstände und Einladungstext), 17.08.2026 06:55
+
+**Drei Entwürfe an Dritte am Postfach nachgemessen, unverändert:** L. Furrer (AfB) 12.08. 16:06:56
+· T. Inniger 13.08. 01:28:14 · der **alte** Inniger-Entwurf 08.08. 08:56:47, der nicht hinausgehen
+darf · dazu der leere Entwurf ohne Betreff vom 14.08. 10:00:29. Seit dem 14.08. 16:34 ist keine
+Mail an Dritte hinausgegangen, und im 26-h-Fenster ging keine Fremdmail ein. **bexio antwortet
+den neunten Tag mit 401** (seit mindestens 09.08.), damit bleibt der Guard für A1 unerfüllt:
+keine Mahnaktion, keine Buchung, und die gestern abgelaufene Mahnfrist **RE-00101 (Tschopp,
+CHF 6'000)** ist nicht verifizierbar. Sync-, Freigabe- und Widerruf-Queues leer.
+Status: **unverändert offen, Aktion Raphael (Entwürfe sichten, bexio-Zugang erneuern).**
+
 Eintrag 16.08.2026, 18:06 (wöchentlicher Abo-Auslastungs-Check Mac Mini — **die Messung ist
 unauffällig, der ausgefallene Lauf ist der Befund**):
 

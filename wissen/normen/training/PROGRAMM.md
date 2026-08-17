@@ -318,9 +318,47 @@ praktikable Verfahren:
   zeigte sich, dass dort auch einer von vier Nachweis-Wegen fehlte. Wer nur die Nummernliste
   abhakt, notiert «1 formaler Befund» und geht weiter.
 
-### Stand der vorgeschlagenen Methodik-Pflicht 13 (Run 52 vorgeschlagen, Run 53 gemessen und präzisiert)
+### Methodik-Pflicht 13 — eine Refuter-Runde ist nie ein Vollständigkeitsnachweis
 
-**Weiterhin Raphael zur Freigabe, nicht selbständig umgesetzt.** Run 52 hatte die Pflicht aus
+**✅ VERBINDLICH seit 17.08.2026 (Freigabe Raphael nach Run 54).** Vorgeschlagen in Run 52,
+an einer Testanlage gemessen in Run 53, am realen Bestand belegt in Run 54.
+
+> Eine Refuter-Runde darf nie als Vollständigkeitsnachweis protokolliert werden. Sie erfasst
+> **weggelassene Ausnahmen** zu geführten Regeln zuverlässig, weil die Restregel dadurch
+> überdehnt und damit falsch wird. Für **weggelassenen eigenständigen Inhalt** ist sie
+> strukturell blind. Wo Vollständigkeit behauptet werden soll, ist die Abdeckungsrichtung zu
+> fahren und im Report auszuweisen, welche der beiden Richtungen auf welchem Teil gelaufen ist.
+
+**Praktische Folge für jeden Lauf:** Ein Destillat wird nicht auf `established` gehoben, solange
+nicht **beide** Richtungen auf **allen** seinen Teilen gelaufen sind. Der Prüfstand (welche
+Methode auf welchem Teil, und was ungeprüft blieb) gehört als Tabelle ins Destillat, nicht nur
+in den Report — dort liest ihn der nächste Lauf.
+
+**Die Belege, in der Reihenfolge ihrer Stärke:**
+
+| Lauf | Anlage | Ergebnis |
+|---|---|---|
+| Run 52 | Einzelbeobachtung (Kontrolle B02) | 0 von 1 — zu wenig für eine Pflicht |
+| Run 53 | 3 gepflanzte Auslassungen, 3 blinde Läufe, mit Falsch-Positiv-Kontrolle | Abdeckung **3/3** bei **0** Falsch-Positiven · Refuter **1/3** |
+| **Run 54** | **realer Bestand**, `sia-416-1-2007`, S. 4-22 und 26-40 | Refuter (Run 53): 93 bestätigt, 2 widerlegt · Abdeckung (Run 54): **37 Kern- und 20 Nebenlücken auf denselben Seiten**, **kein einziger falscher Wert** |
+
+Run 54 ist der entscheidende Beleg, weil er die Asymmetrie nicht an konstruierten, sondern an
+echten Lücken zeigt — und weil die Grössenordnung die Messung aus Run 53 deutlich übertrifft.
+Darunter waren die τ-über-10-%-Schwelle in der Definition von Ag (ohne sie ist der Glasanteil
+nicht rechenbar), die Treppenauge-5-m²-Regel, ein vollständig fehlender Ziff. 2.2.1.2 und die
+gesamte Vorzeichenlogik der Tabelle 3.
+
+**Die Klasse «fehlender Inhalt» zerfällt in zwei** (Run 53, unverändert gültig):
+- **(a) Weggelassene Ausnahme zu einer geführten Regel** — die Restregel wird überdehnt und
+  damit falsch. **Refuter-sichtbar.**
+- **(b) Weggelassener eigenständiger Inhalt** — bleibt in allem, was er sagt, wahr.
+  **Refuter-blind.** Die 37 Kernlücken aus Run 54 gehören fast durchgehend hierher.
+
+---
+
+### Entstehungsgeschichte (Belege im Detail, Stand vor der Freigabe)
+
+Run 52 hatte die Pflicht aus
 einem einzelnen Fall abgeleitet (Kontrolle B02, 0 von 1). Run 53 hat sie mit Kontrollen
 gemessen — Anlage `training/n52-2-gegenrichtung-anlage-260816.md`, Quelle SIA 416/1:2007
 S. 23-25, drei gepflanzte Auslassungen ohne Erzeugung einer Falschaussage, drei blinde Läufe:
@@ -360,6 +398,13 @@ zugleich das Destillat. Ein Destillat mit vollständigem Rendering, Hauptprozess
 und einer Nacht Arbeit trug in drei Seiten sieben Lücken, keine davon ein falscher Wert.
 
 ### Stand der vorgeschlagenen Methodik-Pflicht 11 (Run 49 vorgeschlagen, Run 50 belegt)
+
+⚠ **Entscheid 17.08.2026:** Raphael wurden nach Run 54 drei Methodik-Pflichten zur Freigabe
+vorgelegt (11, 12-erweitert, 13). Freigegeben wurde **nur MP 13**. MP 11 und die Erweiterung
+von MP 12 (Register und Inventar mitprüfen) bleiben damit **Vorschlag, nicht Pflicht** — sie
+sind weiterhin gute Praxis und werden in den Läufen befolgt, aber sie sind nicht verbindlich
+und dürfen nicht als verletzte Pflicht protokolliert werden. Nicht erneut vorlegen, ohne dass
+ein neuer Beleg hinzukommt.
 
 Vorschlag unverändert, Belege verstärkt — **weiterhin Raphael zur Freigabe, nicht selbständig
 umgesetzt**:
