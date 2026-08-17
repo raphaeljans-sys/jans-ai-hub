@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 17.08.2026 13:10:38
+Stand: 17.08.2026 13:20:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 17.08.2026 13:10:38
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- f12afafa vollgas-radar 17.08. 12:58: P1 praezisiert (Caskroom fuehrt nur 2.1.224, Homebrew-Weg ist Sackgasse), Fenster FREI nach Wochen-Reset, 7 KBs mit Delta
+- 91bca7b7 nas-selfcommit: 2 Datei(en) 2026-08-17 13:15
