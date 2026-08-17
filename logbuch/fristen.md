@@ -570,6 +570,20 @@ Marker sind erstmals seit drei Laeufen wieder wirksam. **Der Entscheid bleibt tr
 und zwar dringlicher als vorher:** die Verdichtungsreserve der zwei fettesten Bloecke ist jetzt
 gehoben, der naechste Lauf hat sie nicht mehr und steht wieder vor demselben Abbruch. Details:
 `wissen/twin/outputs/2026-08-16_fidelity.md`.
+**Nachtrag 17.08.2026, 04:20 (twin-mail-training Batch 96, vierter blockierter Lauf):** Reserve
+unveraendert **10 B**; das Gehirn wurde nicht angefasst. Batch 96 traegt rund 9 kB neue
+Facetten-Prosa, darunter **drei erstmals woertlich gemessene Korrektur-Deltas** (Entwurf gegen
+gesendete Fassung desselben Vorgangs) und einen neuen textlichen Echo-Detektor. Diese Marker
+wirken ueber die twin-Agenten, die die Facetten direkt lesen, **nicht** ueber das kompilierte
+Gehirn. Der Befund vom 16.08. bestaetigt sich damit ohne Abweichung: **Weg 2 ist ausgereizt, und
+der Stau waechst mit jedem Lauf weiter.** Kein eigenmaechtiger Eingriff.
+
+**Ein zweiter, kleiner Entscheid faellt in dieselbe Familie und ist in fuenf Minuten erledigt:**
+`rules/jans-absenderadresse.md` schreibt «**+41** 79 846 11 65», Raphaels reale Outlook-Signatur
+«**0041** 79 846 11 65» (vier Belege 29.07.–11.08.2026). Der Zwilling uebernimmt die Rule-Form
+wortgetreu in jeden erzeugten Entwurf — damit ist jede Hub-Signatur an diesem einen Zeichen als
+Fremdtext erkennbar. Entweder die Rule auf «0041» korrigieren oder die Outlook-Signatur umstellen;
+beides ist Raphaels Wahl. Belegt: `wissen/twin/wiki/QUESTIONS.md` 260817 #1.
 Status: **offen, Entscheid Raphael (Weg 1 oder 3) — Weg 2 ist ausgereizt.**
 
 Eintrag 13.08.2026, 23:26 (tenant-hygiene Nachlauf, Phase 2 durch Raphael ausgeloest):
