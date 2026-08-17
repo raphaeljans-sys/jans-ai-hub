@@ -16,8 +16,9 @@ links: []
 - **Jahr:** 2022 — Programm 5. April 2022 (Dateiname 220405); Ortsbegehung 7. April 2022; Abgabe Pläne 15. Juli 2022, Abgabe Modell 29. Juli 2022; Jurierung 15./19. August 2022; Bericht/Ausstellung 24./25. September 2022 (Jurybericht S. 8); Jurybericht datiert 22. September 2022 (Dateiname/PDF-Metadaten).
 - **Präqualifikation:** 12 Teams selektioniert — die 10 bestbewerteten Bewerbungen plus 2 Nachwuchsbüros. Das JANS-Team wurde als **Nachwuchsteam Nr. 07** selektioniert: Atelier Arpagaus Sommer Zarn mit Archobau AG, B3 Kolb AG, Collenberg Energietechnik AG (Jurybericht S. 6–7). PQ-Unterlagen: `/Users/raphaeljans/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/AR - 02 Wettbewerbe/2205 WB Guggerbach/12_PQ/` (Entscheid: `12_PQ/07_Entscheid/Entscheid Präqualifikation Projektwettbewerb Zentrum Guggerbach Davos.pdf`).
 - **Kennwort:** **Juli** (Jurybericht S. 49, Beitrag 7.8 mit Verfasserzuordnung Atelier Arpagaus Sommer Zarn). Hinweis: Im eigenen Verfassernachweis-Formular (`08_Abgabe/A05_Verfassernachweis_ausgefüllt.pdf`) ist das Kennwort-Feld im Textextrakt leer; die Zuordnung Kennwort↔Team ist über den Jurybericht belegt.
-- **Team (Jurybericht S. 49; Verfassernachweis `08_Abgabe/A05_Verfassernachweis_ausgefüllt.pdf`):**
+- **Team (Verfassernachweis `08_Abgabe/A05_Verfassernachweis_ausgefüllt.pdf`; Namensliste zusätzlich Jurybericht S. 49):**
   - Architektur und Städtebau: Atelier Arpagaus Sommer Zarn — Entwurfsverfasser Andrea Marco Zarn; Mitarbeit **Raphael Jans**, Ramon Arpagaus, Mario Sommer.
+    **Belegabgrenzung (korrigiert 17.08.2026, Etappe 4 Lauf 03):** Die **Rollen**zuordnung stützt sich allein auf den Verfassernachweis. Der Jurybericht S. 49 führt die vier Namen ohne jede Rollenbezeichnung: «Andrea Marco Zarn | Raphael Jans | Ramon Arpagaus | Mario Sommer». Die frühere Fassung nannte den Jurybericht als Erstbeleg auch für die Rollen; das deckt er nicht.
   - Tragwerksplanung: B3 Kolb AG — Ivan Brühwiler.
   - HLK-Planung: Collenberg Energietechnik AG — Remo Collenberg.
   - Baumanagement: ARCHOBAU AG.
@@ -46,7 +47,7 @@ links: []
 **Kritik (dominierend):**
 - Zur identischen Dachkante trotz Hanglage: «Ein Entwurfsentscheid, der ortsbaulich unverständlich ist.» (Jurybericht S. 50)
 - Zur Setzung: «Die zwei Volumen stehen zudem zu nahe zusammen und erzeugen hohe räumliche Dichten. Hier verliert der Gedanke, von alleinstehenden Gebäuden im Park, stark an Kraft.» (Jurybericht S. 50)
-- Zur Zweiteilung: «Mit Blick auf die Wirtschaftlichkeit sind zwei Gebäude ungünstig» (Jurybericht S. 50); «die Aufteilung auf zwei Baukörper an sich [führt] zu höheren Kosten» (Jurybericht S. 50).
+- Zur Zweiteilung: «Mit Blick auf die Wirtschaftlichkeit sind zwei Gebäude ungünstig» (Jurybericht S. 50); «Die beiden Baukörper in sich sind kompakt ausgebildet, allerdings führt die Aufteilung auf zwei Baukörper an sich zu höheren Kosten.» (Jurybericht S. 50). **Zitat berichtigt 17.08.2026:** die frühere Fassung «die Aufteilung auf zwei Baukörper an sich [führt] zu höheren Kosten» liess das einleitende «allerdings führt» ohne Auslassungszeichen weg; am Original nachgeprüft (Rohextrakt Z. 1673 f., zwischen den Seitenmarkern 49 und 50).
 - Zum Grundriss: «Der freie Grundriss mit umlaufenden Raumverbindungen ist ein spannender Ansatz, bringt aber dem zukünftigen Nutzer keinen Mehrwert – im Gegenteil, es entstehen zu viele Verkehrsflächen. Übrig bleiben schlecht möblierbare Räume.» (Jurybericht S. 50)
 - Zu Kosten/Statik: «Es sind einzelne Baugrundsicherungen/ Unterfangungen und im Haus A erhebliche statische Eingriffe erforderlich. Die Erstellungskosten pro Wohnung sind im Verhältnis relativ hoch, sodass mit einer weniger guten Wirtschaftlichkeit zu rechnen ist.» (Jurybericht S. 50)
 

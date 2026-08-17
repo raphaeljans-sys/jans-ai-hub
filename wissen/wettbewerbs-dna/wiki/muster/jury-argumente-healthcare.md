@@ -365,6 +365,208 @@ kein Vorteil daraus erwächst (LUKS S. 10/63; Widnau S. 10).
    Kennwerte — die meisten Healthcare-Juryberichte publizieren keine CHF/m²-Werte (siehe Offene
    Punkte).
 
+## 7. Rückkopplung: die zwei eigenen Beiträge gegen die zwölf Siegargumente (V2, 17.08.2026)
+
+Bis hierher beschreibt der Artikel, **was gewinnt**. Dieser Abschnitt beantwortet die
+Gegenfrage: **was haben die eigenen Beiträge davon bedient, und hat die Jury das auch so
+gesehen?** Geprüft wurden die zwei JANS-Healthcare-Teilnahmen mit Jurybericht im Bestand
+gegen H1 bis H12. Alle Zitate sind am Original nachgeprüft (Etappe 4, Lauf 03).
+
+**Die Ränge, aus den Berichten belegt, nicht aus dem Gedächtnis:** 2101 KSSG Haus 14
+«LOUISE» Nr. 04 = **kein Rang**, Ausscheiden im zweiten Rundgang (Beurteilungsbericht S. 13;
+Anhang C «Ausscheidung 2. Rundgang», S. 63); Sieger 06 «Insere» (Rangfolge S. 14). ·
+2205 Guggerbach «Juli» = **kein Rang**, Ausscheiden im ersten Beurteilungsrundgang
+(Jurybericht S. 14); Sieger «Sonnenblume» (S. 15).
+
+**Seitenzahlen sind in beiden Fällen die gedruckte Paginierung der Originale** (Fusszeilen
+«KSSG | … | Beurteilungsbericht Seite N» bzw. «Seite N|65»); eine abweichende
+Extrakt-Zählung existiert bei diesen beiden Quellen nicht. Das ist der Unterschied zum
+Seitenzahl-Versatz, der in Abschnitt 7 der Schulbau-Synthese für 2102 zu vermerken war.
+
+### 7.1 Die Matrix
+
+Legende — erster Buchstabe **bedient?** **B** bedient · **T** teilweise · **N** nicht
+bedient · **?** nicht verifizierbar (die Quelle erlaubt weder Ja noch Nein) · **–** im
+Verfahren nicht anwendbar. Zweiter Buchstabe **hat die Jury es benannt?** **a**
+ausdrücklich am eigenen Beitrag · **s** nur im Sammelurteil einer Gruppe · **g** im
+Verfahren benannt (beim Sieger oder an anderen Beiträgen), aber nicht am eigenen ·
+**o** ohne Erwähnung · **w** die Jury widerspricht einer ausdrücklichen eigenen Behauptung.
+
+**Der Code «g» ist gegenüber der Schulbau-Matrix neu** und hier unverzichtbar: zu «LOUISE»
+existiert überhaupt kein individuelles Jury-Urteil, sodass ohne diese Unterscheidung die
+Information verloren ginge, dass die Jury dasselbe Kriterium im selben Verfahren sehr wohl
+angewandt hat — nur an anderen Projekten. «g» ist ein Befund über das Verfahren, nie über
+den eigenen Beitrag.
+
+| | 2101 KSSG H14 (kein Rang) | 2205 Guggerbach (kein Rang) |
+|---|---|---|
+| H1 Etappierbarkeit/Weiterbetrieb | – | **N** / o |
+| H2 Betriebs-Entflechtung On-/Off-Stage | T / s | – |
+| H3 Normzimmer/Rooming-in | – | – |
+| H4 Getrennte Adressen, gemeinsames Zentrum | – | T / o |
+| H5 Nachbarschaften/Wohngruppen | – | – |
+| H6 Demenzgarten offen und geschlossen | – | – |
+| H7 Anlieferung/Küche kreuzungsfrei | – | **N** / o |
+| H8 Kompaktheit inkl. UG und Fassade | T / **g** | T / **a + w** |
+| H9 Mischbauweise Beton + Holz | **B** / **g** | **?** / o |
+| H10 Umnutzbarkeit konstruktiv nachgewiesen | T / **g** | – |
+| H11 Zwei Vertikalerschliessungen/Warenlift | T / **g** | – |
+| H12 Milieu-/Atmosphärenqualität | T / **g** | **B** / o |
+
+### 7.2 Was die Matrix zeigt
+
+**Erstens, und das ist der Befund gegen diesen Artikel selbst: nur drei der zwölf
+Siegargumente waren in beiden eigenen Verfahren überhaupt anwendbar** — H8 (Kompaktheit),
+H9 (Mischbauweise) und H12 (Milieuqualität). Je sechs Argumente sind in je einem Verfahren
+programmatisch gegenstandslos, und **drei sind es in beiden**: H3 Normzimmer/Rooming-in,
+H5 Wohngruppen-Nachbarschaften und H6 Demenzgarten. Der Grund ist strukturell und nicht
+durch mehr Sorgfalt zu heilen: die zwölf Argumente sind aus acht **stationären** Bauten
+destilliert (Spital-Bettenhaus, Pflegeheim, Demenz, Psychiatrie, betreutes Alterswohnen),
+während das eigene Healthcare-Portfolio aus einem **ambulanten Praxis- und Bürobau** (2101)
+und einem **Wohnungsneubau 65+** (2205) besteht. Für 2101 ist das aktenkundig: das Programm
+verlangt drei ambulante Funktionscluster (Sprechstunden, MPA/Sekretariat,
+OPU/Überwachung/FioreLab, Programm S. 22), keine Patientenzimmer; für 2205 gilt «Eine Küche
+zur Selbstversorgung ist zwingend.» (Programm S. 22) — Selbstversorgerwohnungen, kein
+Pflegegeschoss. **Der Katalog ist nicht falsch, er ist für die eigene Praxis nur zu einem
+Viertel einschlägig.** Das ist die Healthcare-Entsprechung zum S10-Befund des Schulbaus:
+die Rückkopplung deckt eine Lücke im Artikel auf, nicht nur eine Schwäche der Beiträge.
+
+**Zweitens: von 24 Matrixzellen enthält genau EINE ein Jury-Urteil, das sich auf den eigenen
+Beitrag bezieht** — 2205/H8. Alles andere ist «nicht anwendbar», «ohne Erwähnung», ein
+Sammelurteil oder ein Urteil über andere Projekte. Das ist keine Nachlässigkeit der Jurys,
+sondern die Mechanik des frühen Ausscheidens: beide Beiträge waren vor der individuellen
+Würdigung draussen. **Wer im ersten oder zweiten Rundgang ausscheidet, erhält kein Feedback
+zu den Argumenten, die später den Sieg entscheiden.** Für die KB heisst das: Healthcare-
+Handlungswissen aus den eigenen Verfahren lässt sich fast nur über den Umweg der
+Sieger-Würdigung gewinnen, nicht aus dem Urteil über den eigenen Beitrag.
+
+**Drittens, der mechanisch wertvollste Einzelbefund: die Kennzahlen, an denen H8 hängt,
+entstehen erst für die Finalisten.** Der Beurteilungsbericht 2101 hält fest: «Die Projekte
+in der engeren Wahl wurden einer detaillierten Prüfung unterzogen.» (S. 13, Kap. 5.4), und
+zur Wirtschaftlichkeit: «Durch die Perita AG wurden die verbliebenen Projekte einer
+vergleichenden Kostenschätzung unterzogen» (S. 13, Kap. 5.4.3). Erst daraus entstanden die
+Sätze, mit denen der Sieger den Punkt holte: «Im Vergleich zu den anderen bewerteten
+Projekten bietet INSERE am meisten Nutzfläche und weist in Bezug auf die Erstellungskosten
+ein gutes CHF/NF-Verhältnis auf.» (S. 22). **LOUISE wurde diesem Vergleich nie unterzogen**
+— das Projekt war zu diesem Zeitpunkt bereits ausgeschieden. Damit ist die Rangordnung aus
+Abschnitt 1 nicht nur inhaltlich, sondern **verfahrenstechnisch** bestätigt: Wirtschaftlichkeit
+ist der Korrektor der Endrunde, weil die dafür nötigen Zahlen vorher gar nicht existieren.
+Praktische Folge: in einem frühen Rundgang kann man mit Effizienzkennzahlen nicht punkten
+— dort entscheiden Setzung und Organisation, und genau dort fielen beide eigenen Beiträge.
+
+**Viertens: Wirtschaftlichkeit war in 2205 Ausscheidungsgrund, aber nicht Siegargument.**
+Die Jury verwarf «Juli» unter anderem an der Wirtschaftlichkeit («Die Erstellungskosten pro
+Wohnung sind im Verhältnis relativ hoch, sodass mit einer weniger guten Wirtschaftlichkeit
+zu rechnen ist.», S. 50), prämierte aber ein Projekt, das sie selbst als «mittelmässig
+kompakt» mit «mittlerer Wirtschaftlichkeit» beschreibt (S. 19) — während mindestens vier
+weitere Beiträge als «sehr kompakt» beurteilt wurden, einer davon ausdrücklich mit «guter
+Wirtschaftlichkeit» (S. 28) und ohne Sieg. **Die Kompaktheit wirkt als Schwelle nach unten,
+nicht als Hebel nach oben.** Das schärft H8 und deckt sich mit dem Extremwert-K.-o. aus
+Abschnitt 4 (HOSPES), zeigt aber die andere Flanke derselben Asymmetrie.
+
+### 7.3 Drei Schärfungen an bestehenden Argumenten
+
+1. **H8 — die Bruchlinie verläuft innerhalb eines einzigen Projekts, und zwar bauaufgaben-
+   übergreifend.** «Juli» reklamierte die Kompaktheit ausdrücklich für sich («Der minimale
+   Fussabdruck der Gebäude, die leicht ausgedrehte Setzung zueinander und die regelmässig
+   polygonale Form ermöglicht es die zwei Baukörper so in der Situation anzuordnen …»,
+   eigener Projekttext, Abschnitt «Städtebau»). Die Jury bestätigt den Teil und kassiert den
+   Schluss im selben Satz: «Die beiden Baukörper in sich sind kompakt ausgebildet, allerdings
+   führt die Aufteilung auf zwei Baukörper an sich zu höheren Kosten.» (S. 50). Das ist
+   **dieselbe Mechanik wie S7 im Schulbau**, wo die Jury 2102 den kompakten Fussabdruck lobte
+   und zwölf Zeilen später auf derselben Seite das grösste Volumen verurteilte. Die dort
+   als Arbeitshypothese mit n=1 geführte Regel hat damit **einen zweiten, unabhängigen Beleg
+   aus einer anderen Bauaufgabe und einem anderen Kanton**: der Fussabdruck ist nie die
+   Kennzahl, an der die Jury Wirtschaftlichkeit misst — sie misst Hülle, Untergeschoss und
+   Wiederholung. Für die Verdichtung V3 vorgemerkt.
+2. **H9 — Geltungsbereich einschränken: das Muster stammt aus dem stationären Pflegebau.**
+   In 2101 zeigt der Bericht ein lückenloses Gegenbild: die drei Beiträge mit Holz- oder
+   Hybridtragwerk belegen die Ränge 5, 6 und 7 (03 BETULA PAPYRIFERA «ein Hybrid von einer
+   tragender Aussenhülle aus einer Holzrahmenkonstruktion», S. 45 · 05 Sol «Das Gebäude ist
+   in den Regelgeschossen als Holzbau konzipiert.», S. 51 · 19 ENSEMBLE «Das Tragwerk aus
+   Stützen und Balkenunterzügen beruht auf einem Holzsystem», S. 57), die drei ausdrücklich
+   als Massivbau ausgewiesenen Beiträge die Ränge 2, 3 und 4. Und bei jedem der drei
+   Holzbauten hängt die Jury eine konstruktionsbezogene Kritik an: «Allerdings sind die
+   vorgesehenen Spannweiten zu gross für eine ökonomische und nachhaltige Holzbauweise.»
+   (S. 45) · das Tragwerkssystem «ist aber nicht plausibilisiert» (S. 51) · der Materialmix
+   «wirft aber bezüglich Wertigkeit und Materialmix einige Fragen auf» (S. 57).
+   **Ausdrücklich nicht belegt** ist, dass die Bauweise den Rang verursachte — der Bericht
+   sagt das nirgends, und **für den Sieger «Insere» weist er gar keine Bauweise aus**. Belegt
+   ist allein die Verteilung samt der drei Einzelkritiken. Konsequenz: H9 gilt weiterhin für
+   Pflege-/Alterszentren (Sihlsana, Widnau), ist aber für **ambulante Praxis- und Bürobauten
+   unbelegt**; dort wird Holz an Spannweite, Plausibilisierung und Wertigkeit angegriffen.
+   LOUISE selbst war ein Holz-Beton-Verbundbau («Die Geschosse über Terrain werden in
+   Holz-Beton-Verbundbauweise erstellt … Rund 75% des Rohbaus wird industriell vorgefertigt.»,
+   Tragwerkstext Diggelmann) — ob ihm das schadete, sagt der Bericht nicht. Arbeitshypothese
+   mit n=1.
+3. **H11 — gemessen wird nicht die Zahl der Lifte, sondern die Fläche davor.** Das Programm
+   2101 verlangte einen bettengängigen Lift; die Jury prüfte daran aber die **Vorzone**, und
+   zwar bis hinauf zum Sieger: «Die Erschliessung des Bettenlifts ist grundsätzlich anders zu
+   lösen.» (Insere, S. 21) und als verbindliche Auflage «Die Erschliessung des Bettenlifts zum
+   Aussenraum hin muss optimiert werden.» (Empfehlung des Preisgerichts, S. 16); bei
+   03 BETULA sind «die Vorzone um den Bettenlift … zu knapp bemessen» (S. 44). H11 ist damit
+   um die Rangier-/Vorzonenfläche zu ergänzen — die reine Liftzahl war in diesem Verfahren
+   nie das Thema. Arbeitshypothese mit n=1.
+
+### 7.4 Der zweite Verfahrensbeleg für Subtyp 2.5 (betreutes Alterswohnen)
+
+Der Abschnitt «Offene Punkte» hält fest, dass alle Muster des betreuten Alterswohnens
+ausschliesslich aus Tägermoos stammen und «nicht als robuste Regel verkauft werden» dürfen,
+bis ein zweiter Bericht vorliegt. **2205 Guggerbach ist dieser zweite, unabhängige
+Verfahrensbeleg** — anderer Kanton (GR statt ZH), andere Trägerschaft (Stiftung), anderes
+Verfahren (selektiv mit Präqualifikation), und er bestätigt zwei der drei Tägermoos-Muster,
+das erste sogar über den Negativbeweis des eigenen Scheiterns:
+
+- **Solitär statt Mehrkörper, bestätigt.** Der Sieger setzte einen einzigen, gegliederten
+  Baukörper; «Juli» setzte zwei identische und wurde dafür ortsbaulich wie wirtschaftlich
+  verworfen: «Die zwei Volumen stehen zudem zu nahe zusammen und erzeugen hohe räumliche
+  Dichten.» (S. 50) und der Kostensatz aus 7.3. Die Tägermoos-Mechanik
+  **Erschliessungs- und Hüllenverdoppelung wird direkt in Kosten umgerechnet** ist damit
+  unabhängig belegt. **Nicht** mitbelegt ist das spezifische Tägermoos-Element «Etagenlounges»
+  — dieses bleibt Einzelbeleg.
+- **Das verbindende Zentrum ist das Siegargument, bestätigt (H4).** «Alle drei Wohnhäuser
+  sind durch die attraktive, verglaste Gartenhalle miteinander verbunden.» (S. 18); sie
+  «bietet einen Mehrwert für alle Bewohner, Besucherinnen und Mitarbeiter» (S. 19). «Juli»
+  erfüllte dieselbe zwingende Programmvorgabe (unterirdische Anbindung an Haus A,
+  Programm S. 22) rein funktional im zweiten Untergeschoss. **Die Muss-Verbindung eines
+  Alterszentrums ist kein Abhakpunkt, sondern der Ort, an dem das Verfahren entschieden wird.**
+- **Umnutzbarkeit (H10) bleibt Einzelbeleg** — in 2205 nicht Programmgegenstand, in 2101
+  nicht anwendbar.
+
+Subtyp 2.5 darf damit von **VORLÄUFIG/EINZELBELEG** auf **zwei Quellen** gehoben werden,
+begrenzt auf die zwei bestätigten Muster. Die Kopfzeile von 2.5 ist entsprechend zu
+präzisieren, sobald V3 den Artikel ohnehin überarbeitet; hier steht der Befund, nicht schon
+die Umschrift.
+
+### 7.5 Die Quellengrenze, die dieser Abschnitt nicht überspringt
+
+**Beide eigenen Beiträge sind unrangiert.** Die Schulbau-Rückkopplung konnte einen 3. und
+einen 4. Rang auswerten; hier stehen zwei Frühausscheider. Alles, was dieser Abschnitt über
+Siegargumente sagt, stammt deshalb aus den Würdigungen **fremder** Projekte im selben
+Verfahren; über die eigenen Beiträge sagt er fast nur, was sie enthielten, nicht wie sie
+bewertet wurden.
+
+**Zu «LOUISE» existiert kein individuelles Jury-Urteil.** Der Beurteilungsbericht führt
+Projektbeschriebe nur für die sieben Beiträge der engeren Wahl; LOUISE erscheint an genau
+zwei Stellen, im Sammelurteil des zweiten Rundgangs («Trotz interessanter Lösungsansätze,
+wiesen die Projekte Mängel hinsichtlich der architektonischen Gestaltung, der betriebliche
+Funktionalität und der Raumorganisation auf.», S. 13, Kommasetzung und Grammatik so im
+Original) und im Anhang C (S. 63). **Jedes «o» in der LOUISE-Spalte heisst «der Bericht
+sagt nichts», nie «die Jury hat es übersehen».**
+
+**H9 ist für 2205 nicht verifizierbar, nicht verneint.** Der einzige Materialtext der Abgabe
+steht im eigenen Projekttext hinter dem Vermerk «Weitere Text nicht bearbeitet (Stand
+Hittnau)» und stammt möglicherweise aus einem anderen Wettbewerb. Er wird deshalb weder als
+Beleg für noch gegen H9 verwendet — daher der Code «?». Der Vorbehalt ist im Dossier
+`teilnahmen/2205-guggerbach.md` festgehalten und wurde in diesem Lauf an den Satzanfang
+gezogen, damit er beim nächsten Zugriff nicht überlesen wird.
+
+**Quantitative Programmerfüllung von «Juli» ist offen.** Wohnungszahl, Parkplatzzahl und
+Flächenkennwerte sind aus dem Bestand nicht extrahierbar (Datenblatt Kosten/Mengen ohne
+Textebene). Dass die Jury — anders als bei einem anderen Beitrag, dem sie «vier Wohnungen
+mehr als im Raumprogramm gefordert» attestiert (S. 23) — bei «Juli» keine Abweichung nennt,
+ist ein Schluss aus fehlender Kritik und kein Beleg für Konformität.
+
 ## Offene Punkte
 
 - **Refuter-Welle durchlaufen (25.07.2026).** Diese Synthese wurde durch fünf parallele Quellen-

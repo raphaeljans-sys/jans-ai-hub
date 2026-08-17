@@ -8,70 +8,70 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | St | Sektion | Datei | KB | Bemerkung |
 |---|---|---|---|---|
 | [ ] | 00_Allgemein | 00_Allgemein/800 h für Wettbewerb rüschlikon Patrick und Barbara 25 Wohnungen.docx | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/1533_001.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Bauprog_nerves_v3.pdf | projekt-lessons | |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/1533_001.pdf | projekt-lessons | P3 · Referenzmaterial |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Bauprog_nerves_v3.pdf | projekt-lessons | P2 · Bauprogramm-Termin |
 | [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Köfler_konstrkt_20.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v2_LAN.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v3_ELEKTRO.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_Grundriss_V8+_50_A3.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_Pentg_einmass_V8+_50_A3.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Brandschutz - Grunig - b_20150821_MAB_Nerves.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - Schumacher - 150826 Nerves Xerox 7800 7225 7830 Offerte - Signed.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - Schumacher - 150826 Nerves Xerox 7800 7225 7830 Offerte.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - Stoffeloffice - SalesQuotation(DOC)__U0000050_20150813155031778.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - XEROTRADING - WC7225 Xerotrading AG New Business.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - XEROTRADING - WC7830 Xerotrading New Business.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4789_001.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4945_001 - Signed.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4945_001.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/FUST - Empfang - Rapport_R7642100.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/FUST - Seitenwange - Rapport_R7642097-1.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Gipser - Goger - DOC240815-24082015140759.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_MSA_Nr._2339 v2.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_MSA_Nr._2339.pdf | projekt-lessons | |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf | projekt-lessons | P1 · Kostenberechnung |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v2_LAN.pdf | projekt-lessons | IT-Netzwerkplan |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v3_ELEKTRO.pdf | projekt-lessons | Elektro-IT-Plan |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_Grundriss_V8+_50_A3.pdf | projekt-lessons | Reine Planzeichnung |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_Pentg_einmass_V8+_50_A3.pdf | projekt-lessons | Reine Planzeichnung |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Brandschutz - Grunig - b_20150821_MAB_Nerves.pdf | projekt-lessons | P2 · Brandschutz-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - Schumacher - 150826 Nerves Xerox 7800 7225 7830 Offerte - Signed.pdf | projekt-lessons | IT-Ausstattung |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - Schumacher - 150826 Nerves Xerox 7800 7225 7830 Offerte.pdf | projekt-lessons | Duplikat unsigned |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - Stoffeloffice - SalesQuotation(DOC)__U0000050_20150813155031778.pdf | projekt-lessons | IT-Ausstattung |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - XEROTRADING - WC7225 Xerotrading New Business.pdf | projekt-lessons | IT-Ausstattung |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Drucker - XEROTRADING - WC7830 Xerotrading New Business.pdf | projekt-lessons | IT-Ausstattung |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4789_001.pdf | projekt-lessons | P2 · Elektroanlage-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4945_001 - Signed.pdf | projekt-lessons | Duplikat signed |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4945_001.pdf | projekt-lessons | Duplikat unsigned |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/FUST - Empfang - Rapport_R7642100.pdf | projekt-lessons | Möbel-Rapport |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/FUST - Seitenwange - Rapport_R7642097-1.pdf | projekt-lessons | Möbel-Rapport |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Gipser - Goger - DOC240815-24082015140759.pdf | projekt-lessons | P2 · Gipsarbeiten-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_MSA_Nr._2339 v2.pdf | projekt-lessons | Telecom-Vertrag |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_MSA_Nr._2339.pdf | projekt-lessons | Duplikat |
 | [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_SLA_Basic & Standard_SCS FTTH.PDF | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_SLA_Basic & Standard_VDSL v2.PDF | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES_Offerte_Basic & Standard_SCS FTTH.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/LED - LEDFox - Angebot_100946.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Maler - Quirici - 15188 Nerves GmbH.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Maler - Quirici - Nerves GmbH, Offerte Nr. 15183.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Maler - Quirici - Nerves GmbH, Offerte Nr. 15184.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Atelierseitz - NERVES-Angebot-27-05-2015.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_1.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_2.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_3_Band-Fi_od_Bu.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_4_Variante ohne Holzband_Nerves.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Pentagon_Goger_Nerves, BKP 271.1 Angebot.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - AGB Offert-Anhang.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - CCE24082015_00000.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - O20150354 (1) - Signed.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - O20150354 (1).pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - AtlasHolz - Verkauf - Angebot_VA15001288.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Frohraum - Angebot-Frohraum.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Fust - Rapport_R7642094.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - Nerves_SitzungszimmerTisch_Pentagon_v1.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-01 MZ.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-02 MZ.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-03 MZ 2015-474-01 Sitzungstisch rund.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-03 MZ.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Schreinerei MKessler - Offerte 14219-13082015090748.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Schnittstellenpapier 1.OG -.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150706 nerves gmbh b1.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150715 nerves gmbh baubeschrieb.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150715 nerves gmbh mv.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150724 nerves schnittstelle.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Wichtige Informationen gescannt.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Scan 1.pdf | projekt-lessons | |
-| [ ] | 00_Allgemein | 00_Allgemein/Scan.pdf | projekt-lessons | |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES VISUAL COMMUNICATION_SLA_Basic & Standard_VDSL v2.PDF | projekt-lessons | Telecom-Infrastruktur |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Internet - Cyberlink - 6509_NERVES_Offerte_Basic & Standard_SCS FTTH.pdf | projekt-lessons | Duplikat-Variante |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/LED - LEDFox - Angebot_100946.pdf | projekt-lessons | P2 · LED-Beleuchtung |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Maler - Quirici - 15188 Nerves GmbH.pdf | projekt-lessons | P2 · Malerarbeiten |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Maler - Quirici - Nerves GmbH, Offerte Nr. 15183.pdf | projekt-lessons | Duplikat-Variante |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Maler - Quirici - Nerves GmbH, Offerte Nr. 15184.pdf | projekt-lessons | Duplikat-Variante |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Atelierseitz - NERVES-Angebot-27-05-2015.pdf | projekt-lessons | P3 · Möbel-Pentagon |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_1.pdf | projekt-lessons | P3 · Möbel-Pentagon |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_2.pdf | projekt-lessons | Duplikat |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_3_Band-Fi_od_Bu.pdf | projekt-lessons | Duplikat-Variante |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Koeffler - Pentagon_4_Variante ohne Holzband_Nerves.pdf | projekt-lessons | Duplikat-Variante |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Pentagon - Pentagon_Goger_Nerves, BKP 271.1 Angebot.pdf | projekt-lessons | P2 · Trockenbau-BKP271 |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - AGB Offert-Anhang.pdf | projekt-lessons | Sanitär-AGB |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - CCE24082015_00000.pdf | projekt-lessons | P2 · Sanitäranlage |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - O20150354 (1) - Signed.pdf | projekt-lessons | Duplikat signed |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Sanitaer - Kaelin - O20150354 (1).pdf | projekt-lessons | P2 · Sanitäranlage |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - AtlasHolz - Verkauf - Angebot_VA15001288.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Frohraum - Angebot-Frohraum.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Fust - Rapport_R7642094.pdf | projekt-lessons | Möbel-Rapport |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - Nerves_SitzungszimmerTisch_Pentagon_v1.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-01 MZ.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-02 MZ.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-03 MZ 2015-474-01 Sitzungstisch rund.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Metalwerk - O 2015-474-03 MZ.pdf | projekt-lessons | Möbel-Offerte |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Tisch - Schreinerei MKessler - Offerte 14219-13082015090748.pdf | projekt-lessons | Möbel-Offerte |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Schnittstellenpapier 1.OG -.pdf | projekt-lessons | P2 · Schnittstellen-Koordination |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150706 nerves gmbh b1.pdf | projekt-lessons | P2 · Baubeschreibung |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150715 nerves gmbh baubeschrieb.pdf | projekt-lessons | P2 · Baubeschreibung |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150715 nerves gmbh mv.pdf | projekt-lessons | P2 · Schnittstelle-Vermassung |
+| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150724 nerves schnittstelle.pdf | projekt-lessons | P2 · Schnittstellen-Koordination |
+| [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Wichtige Informationen gescannt.pdf | projekt-lessons | Scan unklarer Quelle |
+| [-] | 00_Allgemein | 00_Allgemein/Scan 1.pdf | projekt-lessons | Scan unklarer Quelle |
+| [-] | 00_Allgemein | 00_Allgemein/Scan.pdf | projekt-lessons | Scan unklarer Quelle |
 | [ ] | 00_Allgemein | 00_Allgemein/Sicherungskopie von 800 h für Wettbewerb rüschlikon Patrick und Barbara 25 Wohnungen.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/01_Adressen/Saxer.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/02_Ordnerregister/110827_Ordnerregister.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/03_Ordnerruecken/110827_Ordnerruecken_Organisation_Plaene_Bilder.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/Sicherungskopie von 110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/100903_Praemissen_Projekt_Loraine.pdf | projekt-lessons | |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/01_Adressen/Saxer.pdf | projekt-lessons | Adressmaterial |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/02_Ordnerregister/110827_Ordnerregister.pdf | projekt-lessons | Ordnerregister |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/03_Ordnerruecken/110827_Ordnerruecken_Organisation_Plaene_Bilder.pdf | projekt-lessons | Ordnerorganisation |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | P2 · Projektaufgabenstellung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/Sicherungskopie von 110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | Duplikat Backup |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | P2 · Konzept-Prämissen |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/100903_Praemissen_Projekt_Loraine.pdf | projekt-lessons | PDF-Duplikat |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/110819_Konzept für den Wohnungsausbau Lorrainenstrasse 4.pdf | projekt-lessons | |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/Sicherungskopie von 100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | |
