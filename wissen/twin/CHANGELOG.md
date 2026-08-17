@@ -4,6 +4,30 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-17 — Fidelity-Review (Fenster rj@ 15.–21.06.2026)
+
+- Gesamt-Fidelity **35** (nach 36/36/38). Golds: «Unterzeichnung Brandlast Elektro» 16.06. 12:16,
+  «AW: Giebelweg 12 Revision Baulinie» 16.06. 10:46 inkl. zwei weiterer Golds aus der Zitatkette
+  (13. Falle bestätigt). Zwei Echos entlarvt, eines davon unverändert an die Behörde versendet.
+- **Fünfzehnte Falle** in `CLAUDE.md`: der Kanal «aus dem Chat-Fenster kopiert, aus Outlook
+  gesendet» war blind. Marker sind Tailwind-Utility-Klassen (`text-[var(--accent)] hover:underline
+  …`) am Link, die das Einfügen überleben; die Signatur-Detektion der 14. Falle greift dort nicht,
+  weil Outlook die eigene Signatur anhängt. Reichweite an zwei Kontrollmails geprüft.
+- Vierter Paartyp ergänzt (durchgewinkter Zwillingstext mit Empfänger-Tausch, Korrektur-Delta null);
+  `bodyPreview`-Listenfehler mit Ursache benannt (`list-style-type` wird ignoriert).
+- Do-Blöcke korrigiert: [[beziehungsregister]] (Stapel nur bei gleicher Stufe verkürzen; adressiert
+  werden Entscheidungsträger, nicht der Verteiler) · [[stimme]] (Kurzgruss hängt an Register UND
+  Gattung; fette Anweisung mit Ausrufezeichen auch im Sie) · [[arbeitsweise]] («A) B) C)» ist
+  Listenform, kein Registersignal; fünfte Endform der Mail) · [[haltung]] (Bauherr wird zum
+  Spezialisten geschickt, mit Auswahlkriterium statt eigener Offerte — Kern-Drift) ·
+  [[denken]] (dünne Faktenlage offen lassen statt füllen; sechste Erfindungs-Drift in Folge) ·
+  [[fachsignatur]] (Paragraf und Parzellennummer statt Gesetzesname).
+- 7 neue Einträge in [[QUESTIONS]], darunter der vierte Beleg gegen die Nivellier-Klausel in
+  `rules/anrede-kontakte.md` (Entscheid Raphael, offen seit 260815).
+- `rules/jans-dna-facetten.md` neu kompiliert: **29'971 B** nach sieben Anläufen (Start 31'718 B).
+  Keine Regel entfallen, nur Beleg-Prosa und Doppelungen. Reserve 29 B — der Riegel-Entscheid steht.
+- Report: `outputs/2026-08-17_fidelity.md`.
+
 ## 17.08.2026 — twin-mail-training Batch 96 (Doppelabgleich `Drafts` × Sent Items): vierzehnte Falle, drei Korrektur-Deltas
 
 Kein neues Datumsfenster (der 17.08. trägt nur eine Hub-Selbstmail), sondern die in Batch 94 und 95
