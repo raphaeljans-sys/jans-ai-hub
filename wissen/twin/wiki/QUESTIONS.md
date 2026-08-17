@@ -3501,3 +3501,60 @@ und die bisher praktisch leere Kategorie `korrektur-delta` hat **drei** neue Bel
    Sammelmail, obwohl Du staffelst. Vorschlag unverändert aus 260816 #1: «Jede Person wird einzeln
    angeredet, in ihrer eigenen Stufe; nivelliert wird nur bei grossen oder unbekannten
    Verteilern.»*
+
+## 260817 — Fidelity-Review (Fenster rj@ 15.–17.06.2026)
+
+**#1 (Beziehungsregister) — Wonach ordnest Du die Zeilen einer gestapelten Anrede?**
+In der Mail «Unterzeichnung / Verantwortung Berechnung Brandlast Elektro» (16.06.2026 12:16)
+stehen vier Zeilen mit drei verschiedenen Stufen: «Sehr geehrter Herr Büchler,» / «Geschätzter
+Herr Kübler,» / «Sehr geehrter Herr Cetin,» / «Werter Jens». Herr Kübler steht im Cc und wird
+angeredet, Herr Duran steht ebenfalls im Cc und wird nicht angeredet; die Reihenfolge folgt nicht
+dem To-Feld. Ordnest Du nach Hierarchie, nach Zuständigkeit für die verlangte Handlung, oder
+schlicht nach dem Gedankengang? *Warum: der Zwilling hat die Wiki-Regel «gestapelt wird verkürzt»
+angewandt und lag falsch; die korrigierte Regel («eigene Zeile je Stufe») sagt noch nichts über
+die Sortierung.*
+
+**#2 (Stimme) — Fette Handlungsanweisung mit Ausrufezeichen: Regel oder Ausnahme?**
+Dieselbe Mail trägt «**Bitte klärt ab wer bei der Firma Gruner AG diese zwei Formulare
+unterzeichnet!**» — fett gesetzt, mit Ausrufezeichen, an eine Sie-Runde. Ist das Deine Form für
+die eine Handlung, die aus einer Mail hängen bleiben soll, oder war es der Termindruck (Frist
+gleichentags 17:00)? *Warum: der Zwilling setzt nie ein Ausrufezeichen im Sie-Register und hat
+die Anweisung als höfliche Bitte formuliert.*
+
+**#3 (Haltung) — Wann schickst Du den Bauherrn zum Spezialisten, statt selbst zu prüfen?**
+Christoph Bopp fragte ausdrücklich, ob er einen Baurechtler beiziehen solle. Deine Antwort war
+kein Angebot Deiner Leistung, sondern ein Auswahlkriterium («macht Sinn wenn dieser einschlägige
+Erfahrung mit Verfahren in Bezug auf Baulinien-Festsetzungen hat»). Gibt es eine Schwelle, ab der
+Du die Abklärung doch selbst übernimmst und offerierst? *Warum: das ist die Kern-Drift dieses
+Laufs — der Zwilling macht aus derselben Frage eine Honorarposition.*
+
+**#4 (Stimme) — «Beste Grüsse» / «Lieber Gruss» / voller Block am selben Tag, an dieselbe Person.**
+Am 16.06.2026 gingen drei Mails an Christoph Bopp, keine mit Cc: 00:17 «Geschätzter Christoph,» →
+«Beste Grüsse»; 10:02 «Guten Morgen Christoph,» → «Lieber Gruss»; 10:46 «Geschätzter Christoph,»
+→ Freundliche Grüsse + voller Signaturblock. Trifft die Lesart zu, dass die Lieferung mit Substanz
+die Vollform trägt und die operative Zwischenfrage die Kurzform? *Warum: die bisherige Regel band
+den Gruss allein daran, ob jemand mitliest — hier liest in keiner der drei jemand mit.*
+
+**#5 (Arbeitsweise) — Kopierst Du Mailtexte aus einem Chat-Fenster in Outlook?**
+Die Mail an Roman Steinmann vom 15.06.2026 14:20 trägt im HTML Utility-Klassen einer
+Web-Oberfläche; Absendekanal und Signatur sind Deine. Ist das ein gelegentlicher Weg (Text im
+Browser erzeugt, von Hand eingefügt, gesendet), und liest Du ihn vor dem Senden durch?
+*Warum: dieser Kanal war für den Echo-Schutz bisher unsichtbar; wenn er häufig ist, muss jede
+Mail dieses Fensters neu gewichtet werden.*
+
+**#6 (Arbeitsweise) — Ist «A) B) C)» einfach Deine Listenform?**
+Beide Belege dieses Laufs zeigen sie ausserhalb ihres bisher angenommenen Anwendungsfalls: als
+gestyltes `<ol>` an die Sachbearbeiterin Buchhaltung und als Fliesstext-Paar an einen vertrauten
+Du-Kontakt. Verwendest Du «1./2./3.» überhaupt noch, und wenn ja wofür? *Warum: das Wiki band
+die Form an «unbekannter/ferner Erstkontakt» und ist damit zweifach widerlegt.*
+
+**#7 (Entscheid Raphael, offen seit 260815 #4 · jetzt VIERTER Beleg) — die Nivellier-Klausel in
+`rules/anrede-kontakte.md` steht gegen den Korpus.** Die Rule verlangt bei mehreren Empfängern
+«die höflichste Anrede, sofern nicht alle per Du sind». Gold B vom 16.06.2026 zeigt zum vierten
+Mal das Gegenteil, und diesmal am schärfsten: vier Zeilen, drei Stufen, vom «Sehr geehrter» bis
+zum «Werter Jens» in derselben Anrede. *Warum das nicht länger im Wiki allein zu heilen ist: die
+Rule wird laut eigener Konvention **vor** dem Wiki gelesen und ist ein @-Import — solange dort
+«nivellieren» steht, nivelliert der Zwilling weiter, auch wenn das Facetten-Wiki es seit heute
+verbietet. Vorschlag unverändert: «Jede Person wird einzeln angeredet, in ihrer eigenen Stufe;
+nivelliert wird nur bei grossen oder unbekannten Verteilern.» Der Fidelity-Review ändert
+`rules/anrede-kontakte.md` nicht selbst — die Kontaktliste ist Raphaels Register.*

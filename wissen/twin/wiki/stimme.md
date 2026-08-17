@@ -50,9 +50,10 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
 - **Do:** menschlicher Rahmen + sachlicher Kern; Signatur-Phrasen; Du gross; Apostroph-Zahlen;
   warmer, anbietender Schluss. **Gruss (korrigiert 260813): «Freundliche Grüsse» + voller Block ist
   der DEFAULT — auch im Du, auch bei vier Zeilen, auch für die kurze Bitte.** Der Kurzgruss «Lieber
-  Gruss»/«Lgr.» hängt am REGISTER, nicht am Sachauftrag (korrigiert 260816, zweifach widerlegt):
-  Du-Mail an EINE Person trägt ihn auch mit eigenem Sachauftrag, gern erweitert («Lieber Gruss und
-  schöner Abend.» + «Raphael.» mit Punkt); sobald Sie, Behörde oder ein Cc/Bcc dabei ist, FG+Block,
+  Gruss»/«Lgr.» hängt am REGISTER **und an der GATTUNG** (260816/260817, drei Fassungen an
+  denselben Du-Kontakt in elf Stunden, keine mit Cc): **operative Zwischenfrage → Kurzgruss**, gern
+  erweitert («Lieber Gruss und schöner Abend.» + «Raphael.» mit Punkt); **Lieferung mit Substanz →
+  FG+Block, auch ohne Mitleser**; sobald Sie, Behörde oder ein Cc/Bcc dabei ist, ohnehin FG+Block,
   in der Sie-Behördenmail als «Danke und Gruss» davor. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
   Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft ans
@@ -61,27 +62,25 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
   (260816). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel** — das «AW:»
   im eigenen Thread trägt den vollen Block. Anrede-Skala → [[beziehungsregister]].
-  Emoji 😊 und Mundart nur privat-sozial, sparsam und nur bei Spiegelung. Aufzählung: «–» + «oder»
-  in der formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt
-  **blockweise mit der Logik des Blocks** (nummeriert = Schrittabfolge, «–» = gleichrangig,
-  Fliesstext = geltende Auflage → [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
+  Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
+  formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise mit
+  der Logik des Blocks** (→ [[arbeitsweise]]). Im Peer-Du erlaubt: «Gel»-Opener, saloppe
   Superlative, «haha», grussloser Wunschsatz, die auf «ruf mich an» gestrippte Mail mit der
-  Handynummer im Betreff. Ultrakurzes Du-Reply ohne Signatur-Phrase, objektlose Zusage, «Bester
+  Handynummer im Betreff; ultrakurzes Du-Reply ohne Signatur-Phrase, objektlose Zusage, «Bester
   Gruss» + nur «Raphael». Ehrliche Selbst-Nebenzeile mit «…» stehen lassen; sicherheitskritisches
-  Einzelwort in VERSALIEN; schlechte Nachricht kommentarlos quittieren; Verfahrens-/Status-Sie-Mail
-  ohne Wunschzeile, «melde ich mich unverzüglich» + FG+Block. Detail-Präzedenzen: Abschnitte unten.
+  Einzelwort in VERSALIEN; **fette Handlungsanweisung mit Ausrufezeichen auch im Sie** («Bitte
+  klärt ab wer … unterzeichnet!», 260817); schlechte Nachricht kommentarlos quittieren.
+  Detail-Präzedenzen: Abschnitte unten.
 - **Gattungsweiche Mail ↔ Eigendokument (260801):** Alles oben gilt der **Mail**. Im
   **JANS-Eigendokument** (Skript, Fragenkatalog, Arbeitspapier) fällt der ganze Mail-Rahmen weg —
   keine Anrede, kein Gruss, keine Signatur-Phrase, kein Service-Satz; **Stichwort-Gerüst statt
   ausformulierter Sätze**, ein Skript ist ein **Gerüst zum Sprechen**, kein Vortragstext.
   **Die Zeichen sind gewachsen, keine Grammatik (Raphael, 01.08.2026):** «_ » bleibt der Default;
   «>>>»/«>» nur bei gleicher Gattung und gleichem Zweck, **nie erzwungen**.
-- **Das Eigendokument ist eine Familie, der Zweck bestimmt die Form (260803/260804):**
-  (a) Sitzungsprotokoll, (b) Bewertungsdokument, (c) Erläuterungsbericht/Abgabetext — als einzige
-  mit ausformulierter Prosa. Formspezifikation je Untergattung im Abschnitt
-  «Eigendokument-Untergattungen» unten, vor dem Schreiben dort nachschlagen.
-- **Anführungszeichen:** «…» als Default; die Echo-Detektionsklausel dazu steht in
-  `wissen/twin/CLAUDE.md`, nicht hier (sie regelt Quellenprüfung, nicht das Schreiben).
+- **Das Eigendokument ist eine Familie (260803/260804):** (a) Sitzungsprotokoll,
+  (b) Bewertungsdokument, (c) Erläuterungsbericht/Abgabetext — als einzige mit ausformulierter
+  Prosa. Formspezifikation im Abschnitt «Eigendokument-Untergattungen» unten, vor dem Schreiben
+  dort nachschlagen. **Anführungszeichen:** «…» als Default.
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806):**
   ich selbst, fremde Ressource/Amtshandlung (Geld, Unterschrift, Verwaltungsweg) → «**Darf ich
   Dich/Sie bitten, …**»; das laufende Mandat, Aufgabe im Zuständigkeitsbereich des Empfängers →
@@ -95,11 +94,10 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Anforderung eines Dokuments, das einem ohnehin zusteht, auch nicht bei namentlich bekannter
   Sachbearbeiterin (260816, zweifach belegt). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**.
-- **Englisch: «Hello <Vorname>,» ist die belegte Eröffnung, nicht «Hi» (260806).** Der Abbruch
-  einer Zusage öffnet ohne Entschuldigungswort direkt mit der Ursache, gefolgt vom
-  Ersatz-Commitment **mit Uhrzeit**. Der Wunsch steht im Konditional, **solange er ein
-  Entgegenkommen ist**; im bezahlten Auftrag auch englisch der **Imperativ** (260807). Die
-  Vier-Stufen-Skala ist sprachunabhängig. Schluss knapp und einzeilig, kein Block.
+- **Englisch: «Hello <Vorname>,», nicht «Hi» (260806).** Der Abbruch einer Zusage öffnet ohne
+  Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
+  Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
+  **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als

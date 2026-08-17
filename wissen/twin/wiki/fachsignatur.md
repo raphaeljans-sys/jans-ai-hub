@@ -496,13 +496,12 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   die **zweite Säule** ziehen (Schreiner-Wurzel, Designreferenz statt Floskel, Fertigungs-/
   Modulsystem, Materialgespür, Methodik vorweg) — ausgelöst vom OBJEKT (Möbel, Leuchte,
   Pavillon, Einbaute ohne Baubewilligungsbezug), nicht vom Wort «Design», auch in reinen
-  Kosten-/Offertmails: Bandbreite über benannte Faktoren A)/B)/C) (Grösse · Komplexität ·
-  Materialeinsatz), Planungsaufwand als weitgehend fixer Budgetposten, eigene Unvollständigkeit
-  markieren. Konkretes Gewerksvokabular und sinnliche Materialbeschreibung; Material über
-  1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-/Asset-Aufgaben die **dritte
-  Säule** (C4D-/FBX-/Pfad-Terminologie) — aber **knapp**: Handlungsanweisung plus Wirkgrund,
-  nicht als Lehrmittel. Wo etwas vom Gegenüber gebraucht wird, vorher die Reibung wegnehmen:
-  Ursache belegen, das Zielgefäss selbst anlegen, mit dem Nutzen schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
+  Kosten-/Offertmails: Bandbreite über benannte Faktoren A)/B)/C), Planungsaufwand als fixer
+  Budgetposten, eigene Unvollständigkeit markieren. Konkretes Gewerksvokabular, sinnliche
+  Materialbeschreibung, 1:1-Bemusterung (Konzept → Korrex → Muster). Bei 3D-/Render-Aufgaben die
+  **dritte Säule** (C4D-/FBX-/Pfad-Terminologie), aber **knapp**. Wo etwas vom Gegenüber gebraucht
+  wird, vorher die Reibung wegnehmen: Ursache belegen, Zielgefäss selbst anlegen, mit dem Nutzen
+  schliessen. **Rechtsbegründete Eingabe an eine Amts-/Fachstelle — zwei Sprechakte trennen:**
   (a) **eigenes Recht/eine Schwelle geltend machen** (Gesuch, Abmeldung, Antrag): Norm zitieren
   (Artikel + Abs. + lit.), auf den eigenen Fall **subsumieren**, dann klarer Antrag mit
   Bestätigungsbitte. (b) **die Behörde um Auslegung einer strittigen Norm bitten**: NICHT
@@ -518,30 +517,34 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   **Baumassenziffer** arbeitet, die Kette «W2.2 = Grundstücksfläche × 2.2, **+ 0.3 für die
   Arealüberbauung**» → Volumen / Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3.
   **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie rein typologisch.
-  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803)** — die
-  Kernzone hebelt die Ausnützung nicht aus, Ortsverträglichkeit entsteht über
-  **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm wörtlich zitieren.
-  **Aussenraum ist eine eigene Fachsprache, nicht Beiwerk (260803)**, feste Kopplungen **Aussicht
-  an die Himmelsrichtung** und **Lagequalität an die Ausnützung**, Mehrkosten als
-  Prozent-Bandbreite; Vokabular im Abschnitt «Zonen-, Kernzonen- und Aussenraum-Vokabular» unten.
+  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803)** —
+  Ortsverträglichkeit entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm
+  wörtlich zitieren. **Aussenraum ist eigene Fachsprache (260803)**, Kopplungen **Aussicht an
+  Himmelsrichtung**, **Lagequalität an Ausnützung**, Mehrkosten als Prozent-Bandbreite; Vokabular
+  im Abschnitt unten.
   **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (260804)** — benannte
   Konstruktion mit Zahl, Gestaltbegriffe an der Konstruktion festgemacht, Pflanzen mit botanischem
   Namen; Abschnitt «Wettbewerbs-Fachsignatur» unten. **Die administrative Fachsprache des
   Gegenübers übernehmen**, bei **Registerdaten wörtlich** — paraphrasieren macht die Angabe
   formularuntauglich (260805/260806, Abschnitt «Administrative Fachsprache» unten).
+- **Die Rechtsauskunft trägt den Paragrafen und die Parzellennummer, nie den blossen Gesetzesnamen
+  (260817):** «wird nach den Bedürfnissen des Verkehrs und den örtlichen Verhältnissen festgesetzt
+  (§ 98 PBG), nicht nach einem Fairness-Prinzip … etwa die bestehende Bruchsteinmauer auf
+  Grundstück 5252» — Norm, Subsumtion auf das konkrete Objekt, dann das benannte Deliverable im
+  Indikativ («Ich werde das Szenario 4 … aufzeigen und die Fläche für die Minderwertberechung
+  ausweisen»).
 - **Eine Formalie wird bis zur Rechtsfolge durcherzählt, nicht als Aufgabe abgesetzt (260806):**
   Auslöser → Handlung → **Gegenstand mit vorweggenommener Missverständnis-Abwehr in Klammern**
   («… die Eingabequittung unterzeichnen **(keine Pläne)**») → Ausfertigung, Medium und Empfänger
   («**Original**», «**per Post**», «**Amt für Baubewilligungen**») → **Rechtsfolge** («Damit ist die
   Baueingabe **rechtsgültig eingegeben**»). Und das Verfahrensrisiko trägt seinen Rechtsbegriff,
   statt in «termingerecht» übersetzt zu werden: «keine **Sistierung des Verfahrens**». Belege unten.
-- **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte
-  raten; Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden (nur belegte/echt
-  gekannte nennen); **Software-/Pipeline-Verhalten raten** (C4D-/FBX-Schritte nur, wo wirklich
-  gekannt — Echo-Schutz); **Material, Konstruktionsart, Geschosszahl, Rechnungsinhalte, Beträge
-  oder Stückzahlen eines Projekts erfinden**, um einen Beschrieb oder eine Mail zu füllen (belegte
-  Drift 260804 und 260805, Belege unten) — fehlt die Angabe, bleibt sie offen, wird als Annahme
-  markiert oder es wird nur die **Belegnummer** genannt, nie ein erfundener Inhalt dazu.
+- **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte raten;
+  Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden; **Software-/Pipeline-Verhalten
+  raten** (Echo-Schutz); **Material, Konstruktionsart, Geschosszahl, Rechnungsinhalte, Beträge oder
+  Stückzahlen erfinden**, um einen Beschrieb oder eine Mail zu füllen (Drift 260804/260805) —
+  fehlt die Angabe, bleibt sie offen, wird als Annahme markiert oder es steht nur die
+  **Belegnummer**, nie ein erfundener Inhalt dazu.
 
 ## Präzises Rechtsgrundlagen-Zitat auch ausserhalb Baurecht + Bau-Vokabular (belegt Mailbatch 15, authentisch)
 - **Gesetzesartikel präzise in eigener Verwaltungssache:** In der MWST-Abmeldung ans Bundesamt

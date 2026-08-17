@@ -178,8 +178,11 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Zwilling den fremden Preis einordnet und erklärt, setzt Raphael den eigenen dagegen
   («Grundsätzlich ist meine Kaufpreisempfehlung bei CHF 3.0MIO.») — ein Satz, eine Zahl, kein
   Vorbehalt davor; die These des Gegenübers wird beim Namen genannt und gestützt, nicht durch
-  eigene Varianten ersetzt; Ungeprüftes bleibt als eigener Satz stehen («müsste man prüfen
-  (Zustand Immobilie / Marktsituation / Investitionsbedarf)»).
+  eigene Varianten ersetzt; **die dünne Faktenlage wird OFFEN gelassen, nie mit Plausiblem
+  gefüllt** (260817, sechste Erfindungs-Drift in Folge): der Zwilling erfindet Rechtsfolgen,
+  Dokumentinhalte und nächste Schritte, wo Raphael die Lücke stehen lässt und benennt — «müsste man
+  prüfen (Zustand Immobilie / Marktsituation / Investitionsbedarf)», «macht Sinn wenn …», «oder
+  deren verantwortlichen Vorgesetzten».
 - **Varianten werden bilanziert, nicht benotet (260803):** kein Punkte-/Notenraster, sondern je
   Variante eine **«+»/«-»-Bilanz** nach drei Regeln: (1) das Dokument verpflichtet sich auf **eine**
   Perspektive und zieht sie konsequent durch; (2) derselbe Mangel wird über die Varianten hinweg

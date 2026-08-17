@@ -429,26 +429,20 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Fliesstext; «Ich ersuche um» als förmliche Behörden-Eröffnung, «Beste(r) Grüsse/Gruss» als
   warm-neutrale Mittelstufe (Anrede-Skala ab 260807 nur hier). Gruss nach Mail-Typ; Stufe nur Richtwert; Du gross; Bitte-Form nach der
   Vier-Stufen-Skala in [[stimme]] (wer den Druck erzeugt), nicht nach dem Register.
-  **Im Eigendokument steht die Person in der Drittform, nie in der Mail-Anrede (260801 Skript +
-  260803 Protokoll):** die Anrede-Stufe der Mail wandert **nicht** in die Drittnennung — dort
-  «Herr <Nachname>» bzw. voller Name, in der Teilnehmer-Rubrik «Vorname Nachname · Kürzel ·
-  Firmenkürzel», die eigene Stimme nur als Kürzel («Anmerkung RJ»). Sie-/Du-Teilfrage offen
-  ([[QUESTIONS]] 260801 #1).
-- **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» — auch in der gewichtigen
-  Verfahrensmail (Drift 260804):** das Gewicht des Anliegens hebt die Stufe bei **Du-Kontakten und
-  Behörden** (Rule `anrede-kontakte`), **nicht** bei der Privatkundin im warmen Sie; dort trägt die
-  laufende Zusammenarbeit die Anrede, nicht der Ernst des Einzelfalls. Bei derselben Empfängerin
-  läuft die Bewegung über die Monate **abwärts** ins Vertrautere («Sehr geehrte Frau Hofer» →
-  «Guten Tag Frau Hofer» → «Hoi <Vorname>» nach dem erfolgreichen Bauentscheid). Belege unten.
+  **Im Eigendokument steht die Person in der Drittform (260801/260803):** die Anrede-Stufe der Mail
+  wandert **nicht** in die Drittnennung — dort «Herr <Nachname>» bzw. voller Name, Teilnehmer-Rubrik
+  «Vorname Nachname · Kürzel · Firmenkürzel», die eigene Stimme nur als Kürzel («Anmerkung RJ»).
+- **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» (Drift 260804):** das Gewicht des
+  Anliegens hebt die Stufe bei **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht**
+  bei der Privatkundin im warmen Sie; dort trägt die laufende Zusammenarbeit die Anrede. Bei
+  derselben Empfängerin läuft die Bewegung über die Monate **abwärts** ins Vertrautere. Belege unten.
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
   (260805 + 260806, zwei kontrollierte Paare):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
-  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»).
-  Beide Bewegungen zeigen in dieselbe Richtung
-  — formeller, sobald jemand mitliest —, nur die Achse wechselt, weil im Du keine Nachnamenform
-  zur Verfügung steht. Die Bewegung ins Vertrautere ist damit **nicht monoton**; ein Rücksprung
-  ist kein Abkühlen, sondern fast immer ein Cc. **Vor dem Anrede-Entscheid also erst die
-  Empfängerliste lesen, dann den Anlass.** Belege unten.
+  **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
+  zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
+  monoton**; ein Rücksprung ist fast immer ein Cc. **Erst die Empfängerliste lesen, dann den
+  Anlass.** Belege unten.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
@@ -456,8 +450,13 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Eingangs; **der Zwilling hat genau hier gemessen versagt, 260816**: er spiegelte «Lieber Herr
   X»/«Liebe Grüsse», Raphael antwortete zwei Tage später mit «Geschätzter Herr X»/FG. **Was die
   Stufe wirklich bewegt, ist der KANALWECHSEL:** nach dem ersten Telefonat springt er in einem
-  Schritt von «Geschätzter Herr <Nachname>» auf «Hoi <Vorname>». **Gestapelt wird verkürzt:**
-  «Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die Nachnamen); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
+  Schritt von «Geschätzter Herr <Nachname>» auf «Hoi <Vorname>». **Gestapelt wird nur bei
+  GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
+  Nachnamen); **gehen die Stufen auseinander, steht jede Person auf eigener Zeile mit eigener
+  Stufe** («Sehr geehrter Herr <A>, / Geschätzter Herr <B>, / Werter <Vorname>» — die vertrauteste
+  Zeile zuletzt und ohne Schlusskomma), und angeredet werden die **Entscheidungsträger, nicht der
+  Verteiler**: ein Cc kann angeredet, ein anderer übergangen werden, und die Reihenfolge folgt
+  nicht dem To-Feld (korrigiert 260817, gemessener Fehlgriff des Zwillings)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
   am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
   nicht das singuläre «Dich».

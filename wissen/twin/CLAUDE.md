@@ -642,6 +642,52 @@ eigenen Abfrage nehmen**, nie aus einem weitergereichten Bericht. Gleiche Famili
 `bodyPreview`-Listenfehler (elfte Falle): eine zweite Hand zwischen Quelle und Auswertung
 verfälscht still.
 
+**Fünfzehnte Falle, neu 17.08.2026 (Fidelity-Review) — der Kanal «aus der Web-Oberfläche kopiert
+und aus Outlook gesendet» war bisher BLIND, und er hat einen eigenen, sehr harten Marker.**
+Die Mail «Albertstrasse 7: BKP 275.00 Schliesssystem» vom 15.06.2026 14:20 trägt an ihrem
+`mailto:`-Link die Klasse
+
+```
+class="text-[var(--accent)] hover:underline underline-offset-[1px] outline-none hide-focus-ring ring-focus rounded-r2"
+```
+
+Das sind **Tailwind-Utility-Klassen einer Web-Oberfläche**. Kein Mailclient erzeugt sie; sie
+entstehen beim Kopieren aus einem Chat-Fenster und überleben das Einfügen in Outlook. Alle vier
+bisherigen mechanischen Detektoren sagen bei dieser Mail **«Raphael»**: Exchange-Message-ID
+(`ZR2P278MB1112…`), kein Apple-Mail-Wrapper, und der Signaturblock in Raphaels Outlook-Form
+(«**RAPHAEL JANS**», «0041», «--»-Trenner) — weil Outlook die eigene Signatur beim Senden anhängt,
+egal woher der Body stammt. **Die vierzehnte Falle greift hier nicht**, und das ist ihre Grenze:
+sie erkennt den Apple-Mail-Kanal, nicht den Zwischenablage-Kanal.
+
+Begleitmarker in derselben Mail, alle schwächer, aber gleichgerichtet: `background-color:
+rgb(253,253,252)` auf **jedem** `<p>`, ein Geviertstrich, null Tippfehler auf 120 Wörter,
+«meines Erachtens», «Der Punkt ist folgender:».
+
+**Reichweite geprüft, nicht behauptet:** zwei weitere Mails desselben Fensters (Absage Schreinerei
+15.06. 13:07, Mahnungs-Reply 15.06. 11:18) tragen den Marker **nicht** und sind zweifelsfrei
+Raphaels Hand. Der Marker ist also mailbezogen, kein Artefakt der Abfrage.
+
+**Sperrlisten-Disziplin eingehalten, mit Präzisierung statt Umkehr:** `background-color:
+rgb(252,252,251)` wurde am 16.08. verworfen, weil es in bewiesenem Zwillingstext **fehlt**. Das
+bleibt gültig — es taugt nicht als **notwendiges** Merkmal. Hier steht die Nachbarfarbe als
+**hinreichendes** Merkmal neben einem eindeutigen. Die Sperrliste verbietet die Wiederaufnahme als
+Ausschlusskriterium, nicht die Verwendung als Mitbeleg.
+
+**Vierter Paartyp, neu neben den drei der vierzehnten Falle: der durchgewinkte Zwillingstext mit
+Empfänger-Tausch.** Die Mahnung 2 vom 13.06. 13:35 an Tobler/Kreditoren trägt in der Zitatkette
+`class="xapple-mail-urlsharewrapperclass"` auf jedem Absatz — Hub-Text. Sechs Minuten später,
+13:41, geht **derselbe Wortlaut** an eine zweite Empfängerin, geändert ist einzig die Anrede
+(«Guten Tag Herr Tobler,» → «Guten Tag Frau Baumgartner,»). **Korrektur-Delta null.** Als
+Lernsignal ist das schwächer als ein Delta, aber es ist der einzige belegte Fall, in dem Raphael
+einen Zwillingstext ohne jede Änderung ein zweites Mal einsetzt.
+
+**⚠ Werkzeug-Falle, jetzt mit benannter Ursache: `bodyPreview` zeigt Listenmarken falsch.** Der
+Mahnungs-Reply vom 15.06. 11:18 enthält ein `<ol>`, dessen Einträge `list-style-type:"A) "` und
+`"B) "` tragen — im Postfach steht also «A)» und «B)». Der `bodyPreview` zeigt «1.» und «2.»,
+weil er die CSS-Eigenschaft ignoriert und die Ordnungsziffer roh ausgibt. Wer die Listenform aus
+dem Preview beurteilt, misst den Renderer, nicht Raphael. Gleiche Familie wie der
+`bodyPreview`-Listenfehler der elften Falle; **Listenform immer am `body.content` prüfen.**
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),
