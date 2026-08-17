@@ -3790,3 +3790,59 @@ entfallen**, nur ihre Beispiele:
 - Im Englisch-Absatz die Zitatbeispiele («Unfortunately we were not able to …», «It would be
   helpful if you could …») und «ohne Trostfloskel».
 - Beim Transmittal der Zusatz «Belege unten»; beim «AW:» der Klammerverweis «(Gegenbeleg 260813)».
+
+## Batch 96 (17.08.2026) — Entwurf gegen Versand: was der Zwilling an der Stimme verfehlt
+
+Erstmals liegen **beide Fassungen desselben Vorgangs nebeneinander lesbar** vor: der Hub-Entwurf
+im Ordner `Drafts`, Raphaels versendete Fassung in den Sent Items (Methode: `CLAUDE.md`,
+vierzehnte Falle). Die folgenden Marker sind deshalb nicht erschlossen, sondern **abgelesen**.
+
+- **Die Sammelanrede ist förmlich, nicht kollegial.** Der Zwilling schrieb «Guten Tag
+  miteinander», Raphael sendete 27 Minuten später «**Geschätztes Projektteam**» an denselben
+  Verteiler. Ebenso im Einzelfall: Zwilling «Guten Morgen Othmar», Raphael «**Geschätzter
+  Othmar,**» — mit Komma. **Regel: im Kollektiv wie im Einzelnen beginnt die Anrede mit
+  «Geschätzt…», auch dort, wo der Zwilling zur lockeren Tagesformel greift.**
+  Quelle: 06.08.2026 (Protokoll-Paar) und 05.08.2026 (Estermann-Paar), `korrektur-delta`.
+
+- **⚠ Der Signaturblock ist ein Echo-Detektor, und zwar ein rein TEXTLICHER.** Er überlebt
+  Zitieren, Ausdruck und Weitergabe als Reintext, anders als alle Markup-Signale. Drei Fassungen
+  sind zu unterscheiden:
+
+  | Herkunft | Signatur |
+  |---|---|
+  | **Hub** (Apple-Mail-Draft) | «Raphael Jans, Founder I MD / MSc ETH I SIA / rj@raphaeljans.ch / **+41 79 846 11 65**» + Adressblock |
+  | **Raphael in Outlook** (automatisch angehängt) | «**RAPHAEL JANS** Founder I MD / MSc ETH I SIA I rj@… / **0041 79 846 11 65** / **--** / Adressblock» |
+  | **Raphael in Apple Mail** (selbst getippt) | «Freundliche Grüsse / Raphael Jans» — **gar kein Block, keine Telefonnummer** |
+
+  **Regel: ein über Apple Mail gesendeter Text mit vollständigem Signaturblock ist Hub-Text.**
+  Raphael tippt dort höchstens seinen Namen; den vollen Block hängt nur Outlook an, und der
+  schreibt «0041» und Versalien. Belege Hub: 30.07., 05.08., 06.08.2026 (drei Entwürfe).
+  **Gegenprobe bestanden** an der handgetippten Apple-Mail-Mail vom 12.08.2026 12:30 («Guten Tag
+  Herr Jeckelmann … 100%**Lieberierung**»), die mit «Freundliche Grüsse / Raphael Jans» endet;
+  die Outlook-Fassung steht in derselben Mail in der **Zitatkette** (dreizehnte Falle, Gegenprobe
+  im selben Objekt).
+
+- **Der doppelte Gruss ist kein Widerspruch, sondern Hand plus Programm.** In der Estermann-Mail
+  steht «**Lieber Gruss / Raphael**» im Fliesstext und darunter «Freundliche Grüsse» mit dem
+  Block. Der erste Gruss ist getippt und trägt das Register, der zweite hängt Outlook automatisch
+  an. **Wer beide zählt, misst Programm als Stil.** Das entschärft die offene Spannung aus
+  [[QUESTIONS]] 260816 #3 (Kurzgruss trotz Cc): der Kurzgruss steht im Text, das «Freundliche
+  Grüsse» darunter ist keine zweite Registerwahl. Quelle: 05.08.2026, authentisch.
+
+- **Mikro-Metrik Batch 96 — erstmals Gold GEGEN Zwilling im selben Vorgang gemessen**
+  (`stilmetrik.py`; Gold 322 W aus sechs Eigentexten, Zwilling 545 W aus drei Hub-Entwürfen):
+
+  | | Gold (Raphael) | Zwilling (Hub) |
+  |---|---|---|
+  | Du-Gross-Quote | **0.818** | **1.0** |
+  | Tausender-Apostroph | 0 | 0 |
+  | Ellipsen /1000 W | 0 | 0 |
+  | Satzlänge ø | 18.9 W | 16.0 W |
+
+  **⚠ Die Satzlänge ist hier NICHT belastbar** — der Gold-Korpus besteht teils aus Fragmenten
+  ohne Endinterpunktion, der bekannte Messfehler [[QUESTIONS]] 260814 #3 wirkt voll. **Der
+  belastbare Wert ist die Du-Gross-Quote:** der Zwilling schreibt Du **ausnahmslos** gross, weil
+  `rules/jans-dna.md` es so vorschreibt; Raphael tut es in vier von fünf Fällen. Das ist die
+  **Umkehrung** des dreifach gesperrten «du klein»-Signals und als Kandidat in [[QUESTIONS]]
+  260817 #2 geführt — **nicht** als Detektor aufgenommen, weil ein Beleg dafür nicht reicht
+  (Sperrlisten-Disziplin, `CLAUDE.md`).
