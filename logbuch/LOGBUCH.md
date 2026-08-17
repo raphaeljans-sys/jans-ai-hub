@@ -5,6 +5,113 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 17.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
+
+**Kein eigener Versand.** Der Chef-Lauf vom 16.08. ist regulär gelaufen und hat um 08:57
+gesendet (Mail «Hub-Chef 16.08.26: Die Mahnfrist Tschopp läuft heute ab …», im Exchange-Postfach
+belegt); kein Punkt verlangt Handeln vor 08:39. Beide Montagstermine standen bereits im
+Chef-Briefing von gestern.
+
+**Lagebild:** ruhiges Wochenende. Im 26-Stunden-Fenster ging **keine einzige Fremdmail** ein
+(nur das eigene Chef-Briefing und ein McNeel-Rundschreiben), und **seit dem 14.08. 16:34 ist
+nichts hinausgegangen**. Der Tag ist trotzdem terminlich dicht: zwei Sitzungen heute Vormittag,
+davon eine ohne jede Zusage.
+
+### Erledigt seit gestern
+
+Nichts geschlossen. Kein Beleg hat einen offenen Punkt aufgelöst — die Postfächer waren leer,
+und bexio antwortet weiterhin nicht, sodass auch kein Debitor abgeglichen werden konnte.
+
+### Aus unseren Gesprächen
+
+Raphael hat im Fenster kein Gespräch geführt. Der einzige neue Punkt kommt aus der Messkette
+selbst: **die Konversations-Extraktion wählt die Transkripte über die Dateizeit statt über den
+Zeitstempel der letzten Nachricht** (`scripts/konversations-extract.sh`, `find -mmin`). Heute
+lagen dadurch 21 von 38 MacBook-Pro-Sessions ausserhalb des Fensters, das sie zu beschreiben
+vorgeben, darunter zwei vom 31.07. Ohne die Gegenprobe des Destillats hätten Radar und Chef
+drei Wochen alte Vorgänge als Ereignisse der letzten Nacht gemeldet. Registerzeile gesetzt,
+Aktion: Auswahl auf den letzten Nachrichten-Zeitstempel umstellen. Für heute heisst das nur:
+gesprächsbasierte Punkte tragen zurzeit ein Datumsrisiko.
+
+### Überfällig
+
+**Die Debitoren-Aufsicht ist den neunten Tag blind.** bexio lehnt den Token seit mindestens dem
+09.08. mit HTTP 401 ab; der Token selbst läuft erst am 13.12.2026 ab, die Sitzung wurde
+serverseitig beendet. Solange das so bleibt, ist keine Mahnung und keine Buchung möglich, und
+drei Positionen sind nicht verifizierbar: **RE-00101 (Tschopp, CHF 6'000)**, deren Mahnfrist
+gestern ablief, **RE-00087 (KISPI, CHF 15'000)** bei über 110 Tagen, und die seit dem 12.08.
+unverifizierten RE-00098/99. Die Erneuerung des Zugangs braucht Raphaels bexio-Login und ist
+damit seine Aktion.
+
+**Thalwil Bohlweg 3 — die Eingabe des Begleitbeschriebs ist seit dem 06.08. überfällig.**
+Unverändert: Dateien vom 03.08. 22:28 mit weiterhin falscher Ziffer 4.5, die vorbereitete Mail
+liegt als Entwurf und ist in keinem Konto versendet.
+
+**Drei Entwürfe an Dritte liegen unverändert im Exchange-Postfach**, heute früh am Postfach
+nachgemessen: L. Furrer (AfB) vom 12.08. 16:06, T. Inniger vom 13.08. 01:28 und der **ältere
+Inniger-Entwurf vom 08.08. 08:56, der nicht hinausgehen darf**. Die Verwechslungsgefahr
+zwischen den beiden Therapieküche-Entwürfen besteht fort.
+
+### In den nächsten 7 Tagen
+
+**Heute 09:00 bis 10:00 — «Austausch Umbau PPTS»**, Teams, Organisatorin C. Schäfer (KISPI),
+mit C. Allerkamp und T. Hayen. Fix, keine Vorbereitung offen.
+
+**Heute 10:30 bis 11:00 — «KISPI PPTS: Türkonzeptplan und Türbuch»: keine einzige Zusage.**
+Am Kalendereintrag um 06:55 direkt geprüft, nicht am Postfach: N. Ramminger hat am 14.08. 17:13
+ferienbedingt **abgesagt**, und L. Merci, L. Hiltmann sowie R. Otschkowski stehen alle drei auf
+**«keine Antwort»**. Die Einladung war ausdrücklich als Vorschlag formuliert («Geht Dir dieser
+Termin? Könntest Du uns einen für Dich passenden Termin vorschlagen») und nennt bereits zwei
+Ausweichfenster: **Option 2 Dienstag 18.08. 09:00 bis 09:45**, **Option 3 Mittwoch 19.08. 15:00
+bis 15:45**. Entscheid heute früh: durchführen, auf Option 2 oder 3 verlegen oder absagen.
+Ramminger ist zugleich eine der drei Stellen, die die konsolidierte Rückmeldung abgestimmt
+haben, ihre Ferienabwesenheit lässt sich innerhalb der Woche nicht ausweichen.
+
+**Morgen 18.08. — Dropbox-Abo verlängert sich automatisch, EUR 203.88 pro Jahr.** Heute ist der
+letzte Tag, an dem Kündigung oder Anpassung noch greifen. Zweite Seite desselben Punkts: die
+hinterlegte Kreditkarte wurde Ende Juli als ablaufend gemeldet, die Verlängerung kann also auch
+schlicht fehlschlagen. Entscheid Raphael, Claude kündigt keine Abos.
+
+**Donnerstag 20.08. 13:00 bis 14:00** — Koordinationssitzung Gruner/Jans/KISPI, Teams
+(Serientermin, Organisatorin M. Valentin).
+
+**Donnerstag 20.08. — RE-00100 (Nova Property Fund, CHF 13'120) fällig.** Wegen des toten
+bexio-Zugangs nicht verifizierbar.
+
+**Freitag 21.08. 10:00 bis 12:00** — Baustellenbegehung Kinderspital, Lenggstrasse 28,
+vor Ort, mit N. Rothe.
+
+**Samstag 22.08. — Adobe Acrobat Premium**: das Probeabo endet, danach CHF 71.00 pro Jahr
+automatisch. Das Kündigungsfenster endet mit dem Probeabo.
+
+**Um den 23.08. — Rechnung Schwander 26-08-0025**, Zahlungsfrist 10 Tage netto ab 13.08. Keine
+JANS-Verbindlichkeit und keine Zahlungsaktion, offen bleibt die bauleitende Prüfung auf
+sachliche und rechnerische Richtigkeit samt Visum, damit die Frist nicht in der Prüfung
+verstreicht.
+
+### In Beobachtung
+
+Claude-CLI des MacBook Pro hängt seit dem 15.08. (Cask 2.1.224), Neuinstallation ist Raphaels
+Eingriff · Speicherplatz MacBook Pro, zwei Bedienschritte in Dropbox und Finder ·
+SBB-Näherbaurechtsvereinbarung Thalwil, Ball bei der Bauherrschaft · KISPI Los 231.10 TeKoSi, Ball bei
+L. Hiltmann · UGZ-Fachbefund Lüftung KISPI 1. OG, fünf Punkte umzusetzen · OneDrive-Quarantäne
+auf dem Mac Mini, 2.8 GB seit dem 08.08. unabgeglichen · Tenant-Versionslimit auf «Automatisch»
+stellen, sonst ist der Speichergewinn in rund 84 Tagen wieder weg · AG-Gründung, UBS- und
+Notariatsstrang.
+
+### Vorschlag Kalendereinträge
+
+Zwei Erinnerungen, nur vorgeschlagen, nicht eingetragen: **heute vormittag ein kurzer Block vor
+09:00 für den Entscheid zum Türbuch-Termin** und **morgen 18.08. früh der Dropbox-Entscheid**
+(letzter Tag). Der Adobe-Entscheid vom 22.08. liegt noch ausserhalb dieser Woche.
+
+### Token-Tempo
+
+Gestern 16.08. zusammen **258.0 Mio Token, API-Kostenäquivalent $178.56** — MacBook Pro
+184.3 Mio / $140.83, Mac Mini 73.7 Mio / $37.73.
+
+---
+
 ## 2026-08-17 05:30 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — bauprodukte auf Bestaetigungstakt gesetzt, Korpus `buero-projekte` P1-Lesson destilliert
 
 Zwei Befunde vorab geprueft, bevor die eigentliche Arbeit begann (remote-tasks/pending und
