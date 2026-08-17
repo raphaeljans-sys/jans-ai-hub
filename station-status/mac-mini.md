@@ -1,15 +1,15 @@
 # Stations-Status: mac-mini
 
-Stand: 17.08.2026 05:59:41
+Stand: 17.08.2026 06:09:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 05:36)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
-- keine
+- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 052a3dfc nas-selfcommit: 9 Datei(en) 2026-08-17 05:45
+- 1c564e19 twin-fidelity-review 2026-08-17: 15. Falle (Zwischenablage-Kanal), 6 Do-Block-Korrekturen, DNA neu kompiliert (29971 B)
