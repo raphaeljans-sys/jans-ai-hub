@@ -3,6 +3,26 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-17 (Mac Mini Nachtschicht 05:30) — Korpus `buero-projekte`: P1-Position destilliert, Phase-2-Rest der Triage von 02:32 offen
+
+Der 02:30-Lauf hatte Phase 1 (Triage, Haiku) für die nächsten 40 Positionen abgeschlossen
+(39 klassifiziert: P1: 1, P2: 16, P3: 3, übersprungen: 19; Protokoll
+`skills/wissens-destillat/training/buero-projekte-lauf-20260817-0232.md`) und danach Phase 2
+(Destillation) im Hintergrund gestartet — der Hintergrundlauf ist ohne Ergebnis stehen
+geblieben (Protokolldatei seit 02:39 unverändert, keine Fertigstellungsmeldung). Dieser Lauf
+hat die einzige P1-Position selbst gelesen und destilliert:
+
+**[[nerves-2015-kv-nebengewerke-unterschaetzt]]** (Quelle: `00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf`,
+Baukostenübersicht ARCHmark Hofstetter, Referenzfall Nerves Büroumbau 2015) — Holzbau- und
+Küchen-Gewerk trafen die grobe KV fast exakt (+3,3 % / −0,3 %), drei technische Nebengewerke
+(Elektro, Sanitär, Gipser) lagen 76 bis 322 % über der KV, während die Gesamtsumme nur moderat
+(+8,8 %) driftete und die Einzelabweichungen dadurch verdeckte. Status `emerging`.
+`training/buero-projekte-inventar.md` Zeile auf `[x]` gesetzt, `wiki/INDEX.md` nachgeführt
+(6 Artikel).
+
+Die 16 P2-/P3-Positionen aus derselben Triage bleiben `[t]` offen für einen Folgelauf —
+Budget-Disziplin, ein Artikel pro Nachtschicht-Slot bei diesem Korpus-Anlauf.
+
 ## 2026-08-16 (Mac Mini Nachtschicht 23:30) — Korpus `buero-projekte` Inventar Phase 0 abgeschlossen
 
 Fortsetzung des 05:31-Laufs (Spec stand, Inventar war offen). `bash

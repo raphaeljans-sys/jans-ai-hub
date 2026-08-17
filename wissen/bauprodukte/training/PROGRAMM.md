@@ -11,9 +11,18 @@ Angelegt vom `vollgas-chef-radar` am 29.07.2026 nach dem Strukturbefund der
 **Kein neuer Loop, kein neuer Takt, keine zusaetzlichen Kosten** — nur die fehlende
 Wegweiser-Datei zu bereits vorhandener Buchhaltung.
 
-> **STATUS: AKTIV, hoechste Prioritaet unter den Destillat-Korpora** (`KORPUS-QUEUE.md`:
-> hoechster direkter Hebel, weil nach BKP gegliedert und damit Zulieferer fuer
-> `ausschreibung`, `offertenpruefung`, `brandschutz` und `grobkosten`).
+> **STATUS: ERLEDIGT seit 15.08.2026 — Bestaetigungstakt.** Endbedingung erreicht:
+> Inventar (`skills/wissens-destillat/training/bauprodukte-inventar.md`) zeigt 0 offen /
+> 0 triagiert (214 inventarisiert, 26 destilliert, 188 verworfen); alle 37 Gewerke-Sektionen
+> `[x]`. `KORPUS-QUEUE.md` fuehrt diesen Korpus als **erledigt**, Kapazitaet ist an Korpus 2
+> (`buero-projekte`, Ziel-KB `wissen/projekt-lessons`) uebergegangen. **Diese KB ist damit
+> KEIN gueltiges Ziel mehr fuer die Nachtschicht-Prioritaet 4** ("naechste faellige
+> Trainingslektion") — ein neuer Trainingslauf wuerde ein bereits vollstaendig erschlossenes
+> Inventar ein weiteres Mal durchsuchen. Wieder aufnehmen nur bei neuem Rohmaterial in der
+> Quelle `/Volumes/daten/03 Bauprodukte_BKP` oder einer gezielten Vertiefung auf Zuruf Raphaels
+> (analog `grobkosten`, Rule `auto-verbesserungen` 260813-Familie). Der noch offene
+> Pflicht-Zusatzauftrag `bevorzugte-systeme-jans.md` (aus Korpus 2 abzuleiten, `KORPUS-QUEUE.md`)
+> haengt an Korpus 2, nicht an dieser Sektion.
 >
 > **Achtung bei der «am laengsten nicht trainiert»-Auswahl (Nachtschicht-Prioritaet 4):**
 > `CHANGELOG.md` dieser KB traegt den 29.07.2026 — das ist die **Struktur-Korrektur** des

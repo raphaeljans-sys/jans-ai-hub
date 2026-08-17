@@ -11,7 +11,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/1533_001.pdf | projekt-lessons | P3 · Referenzmaterial |
 | [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Bauprog_nerves_v3.pdf | projekt-lessons | P2 · Bauprogramm-Termin |
 | [ ] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Köfler_konstrkt_20.pdf | projekt-lessons | |
-| [t] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf | projekt-lessons | P1 · Kostenberechnung |
+| [x] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf | projekt-lessons | P1 · Kostenberechnung → 2026-08-17 [[nerves-2015-kv-nebengewerke-unterschaetzt]] |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v2_LAN.pdf | projekt-lessons | IT-Netzwerkplan |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/Nerves_EDVPlan_v3_ELEKTRO.pdf | projekt-lessons | Elektro-IT-Plan |
 | [-] | 00_Allgemein | 00_Allgemein/Nerves_Binz_DatenMisc/nerves_Grundriss_V8+_50_A3.pdf | projekt-lessons | Reine Planzeichnung |

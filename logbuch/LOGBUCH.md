@@ -5,6 +5,27 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-17 05:30 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — bauprodukte auf Bestaetigungstakt gesetzt, Korpus `buero-projekte` P1-Lesson destilliert
+
+Zwei Befunde vorab geprueft, bevor die eigentliche Arbeit begann (remote-tasks/pending und
+sync-tasks/mac-mini leer, Synobsis Stufe 2 seit Wochen saturiert, Fristen-Radar wegen Umfang
+zurueckgestellt): `wissen/bauprodukte/training/PROGRAMM.md` fuehrte noch «STATUS: AKTIV»,
+obwohl das Inventar seit dem 15.08.2026 23:30 auf 0 offen/0 triagiert steht (`KORPUS-QUEUE.md`
+fuehrt den Korpus bereits als erledigt). Status-Header korrigiert auf Bestaetigungstakt, analog
+`grobkosten` — bauprodukte ist damit kein gueltiges Nachtschicht-Ziel mehr.
+
+Der 02:30-Lauf hatte fuer `buero-projekte` (Korpus 2) eine Phase-1-Triage abgeschlossen (39
+Positionen klassifiziert) und danach einen Phase-2-Hintergrundlauf gestartet, der ohne Ergebnis
+stehen blieb (Protokoll seit 02:39 unveraendert). Die einzige P1-Position daraus
+(`nerves_baukosten_v2.pdf`, Baukostenuebersicht ARCHmark Hofstetter) selbst gelesen und zu
+[[nerves-2015-kv-nebengewerke-unterschaetzt]] destilliert: Hauptgewerke (Holzbau, Kueche)
+trafen die grobe KV fast exakt, drei technische Nebengewerke (Elektro, Sanitaer, Gipser) lagen
+76-322 % darueber, waehrend die Gesamtsumme nur moderat driftete. Details:
+`wissen/projekt-lessons/CHANGELOG.md`. 16 weitere triagierte Positionen bleiben fuer einen
+Folgelauf offen.
+
+---
+
 ## 2026-08-16 23:30 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — Korpus `buero-projekte` Inventar Phase 0 abgeschlossen
 
 Fortsetzung des 05:31-Laufs (Spec `skills/wissens-destillat/specs/buero-projekte-spec.md`
