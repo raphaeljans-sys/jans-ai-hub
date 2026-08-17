@@ -142,6 +142,14 @@ Werte sind Marktorientierung, keine Submissionswerte — immer auf Unverbindlich
 - Ersetzen KEINE objektspezifische Kostenschaetzung
 - OHNE Medizinaltechnik und BKP 6-9
 - Bei Unsicherheit: Bandbreite vergroessern, nicht einengen
+- **Nach Beleglage differenzieren, nicht pauschal bandbreiten** — Positionen ohne vorliegende
+  Richtofferte ausdruecklich als «grob, ohne Einzelofferte» kennzeichnen und hoeher zuschlagen als
+  Positionen mit Marktbeleg. Besonders anfaellig sind kleine technische Nebengewerke (Elektro,
+  Sanitaer, Gipser) bei Umbauten, wo runde Pauschalbetraege naheliegen. Belegter Eigenfall:
+  `wissen/projekt-lessons/wiki/nerves-2015-kv-nebengewerke-unterschaetzt.md` — Hauptgewerk traf auf
+  +3,3 % genau, Nebengewerke lagen 76 bis 322 % daneben, die Gesamtsumme zeigte davon nur +8,8 %
+  (`status: emerging`, ein Beleg; der dort genannte Zuschlags-Erfahrungswert ist NICHT als Kennwert
+  zu verwenden, solange er einzelbelegt ist)
 - Immer auf Unverbindlichkeit hinweisen
 
 ## Ausgabeformat

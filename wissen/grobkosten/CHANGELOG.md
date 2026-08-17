@@ -1,5 +1,24 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — diese KB fuehrt ab jetzt den ZIW-Indexstand; `links:` befuellt
+
+- **Fuehrungsfrage geklaert:** Den **Zuercher Index der Wohnbaupreise (ZIW)** — Indexstand,
+  Stuetzstellen, Umrechnungsfaktoren — fuehrt ab jetzt **diese KB** (`wiki/kennwerte`, Abschnitt
+  «Baupreisindex ZH»). Anlass: Run 16 hat am 17.08.2026 den Stand **01.10.2025 = 116.1 Punkte**
+  direkt an der **Primaerquelle** Stadt Zuerich verifiziert, waehrend
+  `immobilienbewertung/wiki/realwert-sachwert` weiterhin **01.04.2025 = 1210.4** aus der
+  HEV-SZ-Reproduktion fuehrte. Dort ist jetzt ein Vorbehalt mit Verweis auf diese KB gesetzt.
+- **`wiki/kennwerte.md`:** Das Feld `links:` stand leer, obwohl der Artikel vier
+  immobilienbewertung-Artikel durchgehend im Fliesstext zitiert (Z. 22-24, 53-57, 81-84, 228-235,
+  361-368). Mit `realwert-sachwert`, `investorenmarkt-makro`, `flaechendefinitionen-sia` und
+  `wissensluecken` befuellt (Pfadnotation, weil diese KB die `[[…]]`-Syntax hub-weit nicht nutzt). 1/1.
+- **Kein Befund, ausdruecklich geprueft:** keine Vermengung von ZIW und **BFS-Baupreisindex** —
+  beide KBs tragen die Verwechslungswarnung selbst und verrechnen die Prozentwerte nirgends
+  gegeneinander; der BFS-Stand ist in beiden identisch (April 2026 = 100.6, Basis Okt-2025). Die
+  Ankerzahlen sind seit Run 15 stabil. Das Ticket `T-Regelgeschoss` (HNF/GF 0,70 gegen 0,75) ist
+  beidseitig sauber dokumentiert — es fehlt allein der Fachentscheid Raphaels.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
 ## 2026-08-17 (Run 16, unbeaufsichtigter Trainingsauftrag) — Endbedingung erneut geprüft (bestätigt), neuer Baupreisindex-Stichtag ergänzt
 
 Vor Arbeitsbeginn geprüft, ob eine der beiden Voraussetzungen aus dem 13.08.-Eintrag für einen

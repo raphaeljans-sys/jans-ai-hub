@@ -3435,13 +3435,26 @@ durchfuehrbar.
   zh-2009-historisch]]` bleibt bewusst `superseded` (korrekt, historische Fassung). Neuer Folgepunkt:
   E-R139-1 unten (SIA 380/1:2016 selbst und §§ 47a BBV I / 10a/10c/11 Abs. 4 EnerG fehlen noch im
   Volltext — die WDV verweist nur auf deren Tabellen, enthält sie nicht).
-- [ ] **E-R139-1 (P2, neu): SIA 380/1:2016 (Heizwärmebedarf) und die referenzierten §§ 47a BBV I /
-  10a, 10c, 11 Abs. 4 EnerG im Volltext beschaffen.** Die WDV 2022 (`[[waermedaemmvorschriften-
-  zh-2022]]`) verweist durchgehend auf Tabellen 2/3/5/6 der Norm SIA 380/1:2016 und auf diese
-  Paragraphen, enthält die Zahlenwerte aber nicht selbst — ohne die Norm bleiben die U-Wert-/
-  QH,li-Grenzwerte nur indirekt (über die historische 2009er-Tabelle) rekonstruierbar. SIA-Normkauf
-  ist ein Geldentscheid (vgl. den seit Run 98 hängenden Normkäufe-Punkt in `logbuch/fristen.md`),
-  BBV-I/EnerG-Paragraphen sind dagegen frei über `zh.ch`/ZH-Lex beziehbar wie die WDV selbst.
+- [x] **E-R139-1 (P2, teilgelöst Run 140, 17.08.2026 Nachtschicht Mac Mini): §§ 47a BBV I /
+  10a, 10c, 11 Abs. 4 EnerG im Volltext beschafft und destilliert — OHNE neuen Web-Abruf.**
+  Beide Erlasse lagen bereits vollständig als amtliches Rohmaterial im Hub vor
+  (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`, `wissen/baurecht/raw/260712_amtlich_zh_energ.md`)
+  und enthielten die gesuchten Paragraphen bereits im Volltext — reine Sichtung + Destillation,
+  kein Normkauf nötig. Neues Destillat `destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`
+  (status `established`), `wiki/energienachweis-zh.md` nachgeführt. Kernfund: § 47a BBV I trägt
+  die Grenzwerttabelle des gewichteten Energiebedarfs je Gebäudekategorie (Wohnen 35, Spitäler 70,
+  Industrie/Lager 20 kWh/m² u.a.) plus Bagatellklausel; § 11 Abs. 4 EnerG die 90-%-Auffangregel
+  beim Wärmeerzeugerersatz (Bezugsgrösse 100 kWh/m²/Jahr, Umsetzungsfrist 3 Jahre). **Weiterhin
+  offen bleibt SIA 380/1:2016 selbst** — das ist der tatsächliche Geldentscheid (Normkauf,
+  `logbuch/fristen.md` seit Run 98) und war der eigentlich teure Teil dieses Punktes, nicht die
+  BBV-I/EnerG-Paragraphen. Neuer Folgepunkt E-R140-1 unten.
+- [ ] **E-R140-1 (P2, neu): Gebäudekategorie-Einstufung Healthcare (Pflegeheim/Altersheim) für
+  § 47a BBV I ungeklärt.** Die Grenzwerttabelle unterscheidet Kat. I «Wohnen MFH» (35 kWh/m²) von
+  Kat. VIII «Spitäler» (70 kWh/m², Faktor 2). Für JANS-Healthcare-Projekte (Pflegeplätze,
+  Betreutes Wohnen) ist unklar, welche Kategorie zutrifft und wo diese Einstufung amtlich
+  definiert ist (vermutlich SIA 380/1 Anhang oder ein EN-ZH-Formular, nicht in § 47a BBV I selbst
+  enthalten) — bei nächster Gelegenheit mit Bezug zu einem konkreten Pflegeheim-Fall klären, sonst
+  bleibt es akademisch. Quelle: `destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`.
 - [ ] **E-R138-2 (P3, neu): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
   nachführen.** Der E-R137-1-Befund zeigt, dass mindestens 5 in `pdf-inventar.md` bereits geprüfte
   und bewusst nicht destillierte Werke (Run 126, 135) in `_INGESTED.md` fehlen und deshalb bei

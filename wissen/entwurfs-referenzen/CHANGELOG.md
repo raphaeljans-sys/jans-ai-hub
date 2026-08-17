@@ -1,5 +1,15 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — `healthcare-neubau-zh.json`: Quellenstand der B4-Quelle nachgezogen
+
+- **`wiki/parameter-sets/healthcare-neubau-zh.json`:** Die Zitatzeile zu
+  `wissen/wettbewerbs-dna/wiki/muster/jury-argumente-healthcare.md` fuehrte «8 Quellen,
+  25.07.2026». Die Quelle ist am 17.08.2026 gewachsen (Etappe-4-Vertiefung 03, Abschnitt 7
+  «Rueckkopplung» aus den eigenen Teilnahmen 2101 KSSG H14 und 2205 Guggerbach): **15 Quellen**.
+  Stand nachgezogen, JSON-Validitaet nach dem Edit geprueft. 1/1.
+- Die Gegenrichtung (Abnehmer-Vermerk) ist in `wettbewerbs-dna` gesetzt.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
 ## 2026-08-06 (Cross-KB-Lauf Run 27) — `healthcare-neubau-zh.json`: Vorbehalt zum oberen Kosten-Endpunkt nachgetragen
 
 - **`wiki/parameter-sets/healthcare-neubau-zh.json`, Block `kosten_referenz`, Feld `hinweis`:**

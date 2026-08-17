@@ -3,6 +3,26 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — beide neuen Lessons sind in den Skills angekommen
+
+- **Befund:** `grep` ueber **alle** `skills/*/SKILL.md` nach «projekt-lessons» ergab **null
+  Treffer** — die Lehren dieser KB waren in keinem Skill verankert, obwohl beide neuen Artikel ihre
+  Abnehmer im Frontmatter taggen.
+- **Gesetzt (Pruefschritt + Herkunftsverweis):** `skills/honorarberechnung-sia102` («keine Phase
+  ohne Preis ODER Preismechanismus — jede Phase vor dem Versand durchzaehlen», aus
+  `lorrainestrasse-2011-realisierungsphase-honorar-unpreist`), `skills/kostenschaetzung` («nach
+  Beleglage differenzieren statt pauschal bandbreiten») und `skills/kostenkontrolle` («nie nur die
+  kumulierte Abweichung kommentieren»), beide aus `nerves-2015-kv-nebengewerke-unterschaetzt`.
+- **Gegenkante in beiden Artikeln:** neuer Abschnitt «Wo diese Lehre gelandet ist». 9/0 bzw. 7/0.
+- **Bewusst NICHT uebernommen:** der Zuschlags-Erfahrungswert **«Faktor 2 bis 4»**. Beide Lessons
+  tragen `status: emerging` mit genau **einem** Beleg; ein einzelbelegter Faktor darf kein Kennwert
+  in einem Skill werden. Die qualitative Regel ist uebernommen, die Zahl bleibt im Fall.
+- **Registerpunkt beantwortet:** Keiner der beiden Artikel ist der seit Run 23 gesuchte **zweite
+  Fall** fuer `projekt-lessons ↔ mahnwesen/bexio` — jenes Muster ist Zahlungsverzug/Mahnkaskade,
+  hier geht es um Angebots- und Schaetzgenauigkeit ohne jeden Bezug zu Rechnung, Mahnstufe oder
+  bexio. Der Punkt bleibt offen.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
 ## 2026-08-17 (Kurator-Stufe, Phase 3, 07:1x-Lauf) — Beleg-Prüfung `lorrainestrasse-2011-realisierungsphase-honorar-unpreist`, Rückverweis ergänzt
 
 - **Beleg-Prüfung:** Quelldokument `111118_Offerte_Jans_Back.docx` per `textutil -convert txt`

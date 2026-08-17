@@ -72,6 +72,12 @@ Kernkennzahl je BKP: **Prognose Endkosten** = Verpflichtung + offene NT-Erwartun
 3. **Zahlungen buchen** — Akontofreigaben (aus Phase H) + Schlusszahlungen.
 4. **Monatlicher Kostenrapport** — Budget/Verpflichtung/Zahlung/Prognose/Abweichung
    je BKP, kumuliert; Abweichungen kommentieren, Bauherr informieren.
+   ⚠ **Nie nur die kumulierte Abweichung kommentieren** — sie ist ein irrefuehrender Indikator
+   fuer die Treffsicherheit einzelner Gewerke: Ueber- und Unterschreitungen gleichen sich aus, und
+   Positionen ohne Werkvertrag zum Stichtag stehen noch bei null. Immer zusaetzlich auf
+   Einzel-BKP-Ausreisser pruefen. Belegter Eigenfall:
+   `wissen/projekt-lessons/wiki/nerves-2015-kv-nebengewerke-unterschaetzt.md` (Gesamtsumme +8,8 %,
+   darunter Einzelgewerke zwischen +76 % und +322 %; `status: emerging`, ein Beleg).
 5. **Schlussabrechnung pruefen** — SR je Gewerk gegen Werkvertrag + Ausmass; nur
    wirklich ausgefuehrte Mengen (Ziff. 8 WV); Rueckbehalt/Garantie 10 % beachten.
 6. **Kennwerte** — CHF/m2, CHF/m3 ermitteln (an `kostenschaetzung` zur Benchmark-Pflege).

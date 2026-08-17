@@ -57,6 +57,9 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Unabhaengigkeit einer Marktdaten-Zweitquelle** (wer darf als «Gegenkontrolle» gelten) | **immobilienbewertung** (`datenquellen-registry`, `vergleichswert-hedonisch`) — dort ist am Original belegt, welcher Anbieter von welchem abhaengt | Alle Skills (`machbarkeit`, `kostenschaetzung`, `grobkosten-onepager`) verweisen dorthin und behaupten keine Unabhaengigkeit selbst. **Belegt Run 28:** UBS RE LFS bezieht seine Preisdaten von Wuest Partner (Quellenverzeichnis LFS S. 13) und ist damit **kein** von WP unabhaengiger Gegencheck; unabhaengig sind IAZI/CIFI und die kantonale Handaenderungsstatistik — NEU Run 28 |
 | **Der AHB-Korpus `PL - 02_Recht_Norm/04_Merkblaetter/Projektadmin AHB/` (Stadt Zuerich)** — er wird von ZWEI KBs bewirtschaftet, und das ist gewollt, aber bis Run 34 unbeschriftet | **geteilt nach Ebene:** `planungsgrundlagen` (`recht-norm-ahb-stadt-zuerich-projektstandards`, 1'439 Z., `established`) fuehrt den **Ordnerkontext, die Vertragsbindung an den AHB-Honorarvertrag und die Einordnung** je Dokument; `energie` fuehrt die **Detailwerte und den Bauherren-Transfer** in derzeit 25 Destillaten aus demselben Ordner | **NEU Run 34 (16.08.2026).** Anlass ist kein Widerspruch, sondern eine gemessene Kanten-Armut: von den 25 `energie`-Destillaten mit Quelle aus diesem Ordner ist **genau eines** in `planungsgrundlagen` genannt (Dachbegruenung, und das nur, weil Run 33 es gesetzt hat). Namentlich betroffen: die neun `ahb-zuerich-gt-rl1..9`-Destillate (`energie`, angelegt 03.08.2026, Run 122) gegen §12/§13 desselben pg-Artikels (angelegt 14.07., erweitert 25.07.2026) — **dieselben neun Quell-PDF, neun Tage auseinander, unabhaengig destilliert, null Kanten in beide Richtungen.** Dachbegruenung (Run 22/25/33), PCB-Fugendichtungsmassen (Run 34) und Raumtemperatur-Richtlinie (Run 34) sind Symptome desselben Musters, nicht Einzelfaelle. **Regel:** wer aus diesem Ordner destilliert, prueft ZUERST den pg-Artikel auf einen bestehenden Absatz und setzt die Kante in beide Richtungen |
 | **Fenster-Kennwerte Uw / Ug / g-Wert / Psi-Randverbund** | **energie** (`destillate/fenster-verglasung-uw-g-wert.md`, `established`) fuer Anforderungs- und Fachphysikseite; die **Grenzwerte** selbst kommen aus dem kantonalen Energierecht bzw. `normen` | `bauprodukte` fuehrt ausschliesslich **Produkt- und Systemwerte konkreter Hersteller** nach BKP 221 (z.B. Uw = 0,9 W/m²K als Produktwert eines bestimmten Systems) und **nie** Anforderungswerte — NEU Run 34 (16.08.2026). Anlass: `bkp-221-holzfenster-3fach-verglasung` ist der zweite Cross-KB-Pruefgegenstand zu Fenster-Kennwerten (nach Run 33), war beide Male sauber gehedgt und hatte trotzdem nie eine Matrixzeile. Der Artikel selbst trifft die Grenze richtig («der Uw-Wert, nicht der Ug-Wert, gehoert in den Energienachweis SIA 380/1») |
+| **Der Quellordner `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie/`** (Vollzugsordner Energie ZH, WDV 2009/2022, Vollzugshilfen EN) | **energie** — erschliesst den Ordner seit 17.08.2026 mit vier Destillaten (`vollzugsordner-energie-zh-abschnitt1-2`, `waermedaemmvorschriften-zh-2022`, `waermedaemmvorschriften-zh-2009-historisch` mit `status: superseded`, `vollzugshilfe-en10-heizungen-im-freien`) | `planungsgrundlagen` fuehrt den Ordner nur als Strukturzeile in `wiki/recht-norm-quellenlandkarte` und destilliert ihn **nicht** — NEU Run 35 (17.08.2026). **Abgrenzung, die den Anlass ausmacht:** die AHB-Fuehrungszeile aus Run 34 gilt fuer diesen Ordner **nicht**; sie deckt allein `04_Merkblaetter/Projektadmin AHB` ab. Von den fuenf am 17.08. geprueften Destillaten stammt nur `raumtemperatur-richtlinie-stadt-zuerich-2006` aus dem AHB-Ordner, und das ist beidseitig verdrahtet. Beide Richtungen sind seit Run 35 beschriftet |
+| **Zuercher Index der Wohnbaupreise (ZIW): Indexstand, Stuetzstellen und Umrechnungsfaktoren** | **grobkosten** (`wiki/kennwerte`, Abschnitt «Baupreisindex ZH») — fuehrt seit Run 16 (17.08.2026) den Stand **01.10.2025 = 116.1 Punkte**, direkt an der **Primaerquelle** Stadt Zuerich verifiziert statt ueber die HEV-SZ-Reproduktion | `immobilienbewertung` (`realwert-sachwert`) verweist dorthin und pflegt die Reihe nicht mehr parallel — NEU Run 35. Sie hing einen Publikationsschritt zurueck (01.04.2025 = 1210.4). **Nicht zu verwechseln** mit dem **BFS-Baupreisindex** (andere Basis, andere Methodik, andere Region): der ist in beiden KBs deckungsgleich (April 2026 = 100.6, Basis Okt-2025) und wird nirgends mit dem ZIW verrechnet — beide KBs tragen die Verwechslungswarnung bereits selbst. Die Tab.-2-Richtwerte in `realwert-sachwert` bleiben auf dem Faktor 1.346 gerechnet; die Umstellung verschoebe sie um ~0,3 % und gehoert in die regulaere Ueberarbeitung |
+| **Mehrfach-Destillation derselben Quell-PDF ueber KB-Grenzen** (gemessen auf Dateiebene, nur `wiki/`+`destillate/`+`buecher/`) | **kein einzelner Fuehrender — es ist eine Messgroesse.** Run 35 (17.08.2026): 33 Quell-PDF von ≥2 KBs destilliert, 38 KB-uebergreifende Paare, davon **2 verdrahtet, 36 nicht**. Cluster: pg↔normen 18 · pg↔energie 11 · energie↔normen 4 · immobilienbewertung↔normen 2 · baurecht↔normen 1 | **Regel:** wer aus einem Ordner destilliert, der bereits von einer anderen KB bedient wird, prueft zuerst deren Bestand und setzt die Kante in beide Richtungen. **Zwei Vorbehalte, ohne die die Zahl luegt:** (1) gemessen ist die Kante auf **Dokument**ebene — mehrere Artikel sind auf **KB**-Ebene sehr wohl verdrahtet (z.B. `energie-heizwaermebedarf-waermeerzeugerleistung` nennt die KB `energie` zweimal als fuehrend); der scharfe Fall ist `recht-norm-arbeitshilfen-planungsdetails` mit **null** Verweisen bei drei Doppel-Destillaten. (2) **Doppelbewirtschaftung ist nicht per se falsch** — falsch ist nur, sie nicht aufzuschreiben. Die Messung findet die Stellen; die Lektuere entscheidet. Abarbeitung clusterweise, ein Cluster je Lauf — NEU Run 35 |
 
 > **NEU Run 8 — zweites Struktur-Muster «Uebergabe verpufft im abgebenden KB»:** Ein Artikel erkennt
 > korrekt, dass eine andere KB nachziehen muss, notiert den Flag aber NUR bei sich. Zwei Fundorte
@@ -162,6 +165,187 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > fuer Raphael (Loeschung braucht Einzelfreigabe).
 
 ## Gepruefte Paare
+
+### Mehrfach-Destillation ueber KB-Grenzen — der ganze Korpus gemessen — Run 35 (17.08.2026)
+
+**Der von Run 34 vorgeschlagene Schritt 1b, ausgefuehrt und dabei geschaerft.** Run 34 hatte
+vorgeschlagen, die `quelle:`-Frontmatter auf gemeinsame **Quellordner-Praefixe** zu gruppieren. Das
+war zu grob: die Ordner-Messung meldete `PL - 04 Energie` mit 14 zu 1 zugunsten von
+`planungsgrundlagen` — alle 14 Treffer lagen in `outputs/` (Trainingsberichte), kein einziger im
+Bestand. **Die tragfaehige Messung ist die auf Dateiebene, beschraenkt auf die dauerhafte Schicht**
+(`wiki/`, `destillate/`, `buecher/` — nicht `outputs/`, nicht `training/`, nicht `raw/`).
+
+So gemessen: **33 identische Quell-PDF werden von zwei oder mehr KBs unabhaengig destilliert.**
+Daraus 38 KB-uebergreifende Paare, davon **2 beidseitig verdrahtet und 36 nicht**. Die Cluster:
+
+| KB-Paar | unverdrahtete Doppel-Destillate |
+|---|---|
+| planungsgrundlagen ↔ normen | 18 |
+| planungsgrundlagen ↔ energie | 11 |
+| energie ↔ normen | 4 |
+| immobilienbewertung ↔ normen | 2 |
+| baurecht ↔ normen | 1 |
+
+Vier `planungsgrundlagen`-Artikel tragen die Masse: `recht-norm-hindernisfreies-bauen-zh` (7),
+`energie-heizwaermebedarf-waermeerzeugerleistung` (7), `recht-norm-sanitaerraeume-planungsgrundlagen`
+(3) und `recht-norm-arbeitshilfen-planungsdetails` (3).
+
+**Die notwendige Relativierung — sonst liest sich die Zahl schlimmer, als sie ist.** Gemessen wurde
+die Kante auf **Dokumentebene** (nennt Artikel A das Destillat B beim Namen). Auf **KB-Ebene** sind
+mehrere dieser Artikel sehr wohl verdrahtet: `energie-heizwaermebedarf-waermeerzeugerleistung` nennt
+die KB `energie` zweimal ausdruecklich als fuehrend (Z. 169, 183), `recht-norm-sanitaerraeume-…`
+nennt zwei `normen`-Destillate namentlich. Der scharfe Fall ist
+`recht-norm-arbeitshilfen-planungsdetails`: **null** Verweise auf `wissen/normen` bei drei doppelt
+destillierten Quellen. **Und, weiterhin gueltig aus Run 34: Doppelbewirtschaftung ist nicht per se
+falsch.** Zwei KBs auf zwei Ebenen desselben Materials ist oft die richtige Arbeitsteilung. Falsch
+ist nur, wenn sie niemand aufschreibt. **Die Messung findet die Stellen; ob dort ein Fehler liegt
+oder eine unbeschriftete Arbeitsteilung, entscheidet weiterhin die Lektuere.**
+
+**Status: gemessen, nicht abgearbeitet.** Run 35 hat zwei der Ordner beschriftet (AHB aus Run 34,
+`01_Gesetze/02_Zuerich/Energie` neu, siehe naechster Eintrag) und die uebrigen 36 Paare bewusst
+NICHT im Blindflug verlinkt — 36 Kanten in fremde Wikis zu setzen, ohne die Paare gelesen zu haben,
+waere genau der Fehler, vor dem der Absatz oben warnt. Vorschlag fuer die naechsten Laeufe: **je
+Lauf einen Cluster lesen und beschriften**, beginnend mit `recht-norm-arbeitshilfen-planungsdetails`
+(null Kanten) und `recht-norm-hindernisfreies-bauen-zh` (7 Paare, ein Fach-Cluster).
+
+### energie ↔ planungsgrundlagen (Quellordner `01_Gesetze/02_Zuerich/Energie`) — der zweite Ordner, diesmal ohne jede Beschriftung — geprueft 2026-08-17 (Run 35)
+
+- **Befund (weich, bestaetigt):** Die vier am 17.08.2026 angelegten `energie`-Destillate
+  `vollzugsordner-energie-zh-abschnitt1-2`, `waermedaemmvorschriften-zh-2022`,
+  `waermedaemmvorschriften-zh-2009-historisch` und `vollzugshilfe-en10-heizungen-im-freien` stammen
+  alle aus `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie/`. `grep -rln` ueber
+  `wissen/planungsgrundlagen/` nach diesen vier Dateinamen: **null Treffer.** Der pg-Artikel
+  `recht-norm-quellenlandkarte` Z. 36 kennt den Ordner nur als Strukturzeile und hat ihn nie
+  destilliert. **Dieselbe Figur wie beim AHB-Ordner in Run 34, aber in einem Ordner, den die
+  dortige Fuehrungszeile ausdruecklich nicht abdeckt.**
+- **Praezisierung zur Run-34-Zeile (wichtig, weil der Auftrag dieses Laufs es anders vermutete):**
+  Von den fuenf heute geprueften Destillaten stammt nur **eines** wirklich aus dem AHB-Ordner
+  (`raumtemperatur-richtlinie-stadt-zuerich-2006`) — und das ist beidseitig verdrahtet (pg §20 ↔
+  Destillat), die Werte (16 °C, −10 °C, 06.00–20.00) stimmen ueberein. **Die Run-34-Fuehrungszeile
+  haelt fuer das, was sie abdeckt.** Ebenfalls korrigiert: der pg-AHB-Artikel wurde am 17.08.
+  entgegen der Annahme des Auftrags **nicht** geaendert (letzter Commit `0999939f`, 16.08. 23:30).
+- **Aktion (Run 35):** Fuehrungsvermerk in beide Richtungen gesetzt —
+  `planungsgrundlagen/wiki/recht-norm-quellenlandkarte` (Ordner wird von `energie` erschlossen, mit
+  Namen der vier Destillate) und `energie/wiki/energienachweis-zh` (Gegenkante, samt Hinweis, dass
+  die Run-34-Zeile hier nicht gilt). **Status: beschriftet.**
+
+### energie ↔ planungsgrundlagen (EnFK-Vollzugshilfe EN-102, Norm-Ausgabe) — derselbe Fehler, ein zweites Mal, in der fuehrenden KB — geprueft 2026-08-17 (Run 35)
+
+- **Befund (hart, adversarial BESTAETIGT, Umfang groesser als gemeldet):**
+  `energie/wiki/u-werte-grenzwerte-ch.md` (`status: established`) ordnete die EnFK-Vollzugshilfe
+  **EN-102 (Dez. 2018)** an **drei** Stellen der Norm-Ausgabe **SIA 380/1:2009** zu. Richtig ist
+  **2016**. Der Artikel widersprach sich dabei selbst: Z. 12 «SIA 380/1:2009», vier Zeilen weiter
+  Z. 16 «Kt. ZH heute SIA 380/1:2016 (dieser Artikel)».
+- **Vier Widerlegungsversuche, alle gescheitert.** Der staerkste: «zwei EN-102-Ausgaben». Widerlegt
+  am eigenen Destillat `enfk-en-102-waermeschutz-2018.md` Z. 4/129-131 (Fusszeile jeder PDF-Seite:
+  Basis SIA 380/1:2016). **Eine EN-102 auf Basis 2009 existiert nicht** — die auf 2009 fussende
+  Vollzugshilfe ist das andere Dokument **EN-2 (Feb. 2013)**, in derselben KB korrekt gefuehrt.
+- **Der Jahrgangsfehler hatte bereits eine Zahl verdorben** (vom Melder nicht erfasst, vom Refuter
+  gefunden): Z. 119 fuehrte fuer EN-102 Tab. 5 die Klimareferenz **8,5 °C** — den 2009er-Wert.
+  Das Destillat nennt fuer dieselbe Tabelle **+9,4 °C**, und der Artikel sagt das auf Z. 146 selbst.
+- **Die Figur ist die eigentliche Lehre:** `planungsgrundlagen` hatte **exakt denselben Fehler** am
+  25.07.2026 (Run 15) korrigiert und dabei `energie` als fuehrend erklaert. Die Ursache ist in
+  beiden Faellen dieselbe: der irrefuehrende SharePoint-Dateiname `…_3801_2009_2018Dez.pdf`.
+  **Die zuliefernde KB wurde geheilt, die fuehrende blieb ein Jahr lang falsch** — und zwar mit
+  `status: established`, also ohne Gegenlese-Pflicht (Rule `normen-referenz` Ziff. 3).
+- **Aktion (Run 35):** vier Edits in `energie/wiki/u-werte-grenzwerte-ch.md` (Z. 12, Z. 119 Zahl,
+  Datenstand-Abschnitt, `last_updated`), je mit Korrekturvermerk. Die korrekten 2009-Nennungen
+  (Versionsabgleich EN-2, Delta-Abschnitt, `sources`) blieben unberuehrt und wurden nachgemessen.
+  **Status: bereinigt.**
+
+### immobilienbewertung ↔ planungsgrundlagen ↔ normen (SIA 416/1 und die EBF-Hoehenschwelle) — drei harte Meldungen, drei Widerlegungen — geprueft 2026-08-17 (Run 35)
+
+**Der lehrreichste Teil dieses Laufs: alle drei harten Meldungen der Flaechen-Achse fielen, und
+jede aus einem anderen Grund.**
+
+- **F1 «SIA 416/1 als Flaechenbedarfs-Norm zitiert» — WIDERLEGT.**
+  `immobilienbewertung/wiki/flaechendefinitionen-sia.md:13` sagt: «Massgebend ist **SIA 416**; fuer
+  Flaechenbedarf/Programm **ergaenzend** SIA 416/1 und SIA 2024.» Das ist genau die Rollenzuweisung,
+  die auch das normen-Destillat trifft (416 = Flaechen/Volumen, 416/1 = Ergaenzungsnorm). Der
+  Melder las aus «ergaenzend» eine Gleichsetzung, die dort nicht steht. Der Refuter belegte
+  zusaetzlich, dass **Anhang A der SIA 416/1** sehr wohl programmrelevant ist (Zuordnung Raum →
+  Flaechenkategorie HNF1-HNF6/NNF/VF/FF). **Keine Korrektur** — und ausdruecklich keine Aenderung
+  eines `established`-Artikels auf ein `speculative`-Destillat hin.
+- **F2 «EBF-Schwelle 1,5 m gegen 1,0 m» — WIDERLEGT, und dies ist der wertvollste Befund des
+  Laufs.** Der Refuter ging an die Originale: SIA 416/1:2007 Ziff. 3.2.2 (Figur 16) nennt **1,0 m**
+  (am 200-dpi-Rendering selbst gelesen). Die 1,5 m in `planungsgrundlagen` sind **kein
+  Uebertragungsfehler**, sondern die wortgetreue Wiedergabe der **RFB-Richtlinie V7.0 (13.07.2007)
+  Ziff. 3.5.2.3** der Stadt Zuerich, die auf dem **Entwurf 3/05** der SIA 416/1 fusst und ueber den
+  AHB-Honorarvertrag bindend ist. **Zwei je fuer sich gueltige Fassungen, kein Widerspruch.**
+- **Was trotzdem zu tun war:** Wer Abschnitt 1.2 isoliert liest, haelt 1,5 m fuer den geltenden
+  SIA-Stand — fuer einen **Energienachweis waere das der falsche Nenner der Energiekennzahl**. Die
+  Fassungsangabe stand in Z. 30, nicht in der Zwischenueberschrift. **Aktion:** Zwischenueberschrift
+  auf «SIA 416/1 **Entwurf 3/05** — RFB-Stand» praezisiert und ein Fassungsvorbehalt gesetzt, der
+  beide Zahlen nebeneinander stellt. **Der Wert 1,5 m blieb unveraendert.**
+- **F4 «HNF/GF 0,70 gegen 0,75 einseitig ungeflaggt» — WIDERLEGT.** Die Flaggung ist beidseitig und
+  auf der immobilienbewertung-Seite sogar dichter: `realwert-sachwert.md:222-231` traegt eine eigene
+  ⚠-needs-decision-Box, die den Gegenwert woertlich nennt und auf `grobkosten/wiki/kennwerte`
+  zurueckzeigt; `wissensluecken.md:30` fuehrt das Ticket `T-Regelgeschoss` mit der **Sperrklausel
+  «keine der beiden Stellen still umstellen»**. Der Melder hatte den Beleg-Ort (`flaechendefinitionen-
+  sia:84`) mit dem Vorbehalts-Ort verwechselt. **Keine Aktion — die vorgeschlagene Warnung an
+  Z. 84 haette die Sperrklausel verletzt.**
+- **Status-Disziplin sauber:** Das Destillat `sia-416-1-2007.md` traegt `status: speculative` und
+  wird an **jeder** Fundstelle im Hub mit diesem Vorbehalt weitergereicht (energie, baurecht ×2,
+  normen-REGISTER). Kein Verstoss gegen Rule `normen-referenz` Ziff. 1b. **Status: bereinigt,
+  drei Meldungen widerlegt, eine Ergonomie-Praezisierung gesetzt.**
+
+### grobkosten ↔ immobilienbewertung ↔ kostenschaetzung (Teuerung, Indexstand) — geprueft 2026-08-17 (Run 35)
+
+- **Befund (weich, VERALTET + Doppelspur):** Beide KBs pflegen die amtliche Reihe **Zuercher Index
+  der Wohnbaupreise (ZIW)** materiell parallel. `grobkosten/wiki/kennwerte.md` Z. 361-363 hat am
+  17.08.2026 (Run 16) den Stand **01.10.2025 = 116.1 Punkte** direkt bei der **Primaerquelle** Stadt
+  Zuerich verifiziert; `immobilienbewertung/wiki/realwert-sachwert.md` Z. 69-70 fuehrt weiterhin
+  **01.04.2025 = 1210.4** aus der HEV-SZ-Reproduktion (Stand 14.07.2026).
+- **Kein Befund, ausdruecklich geprueft:** keine Vermengung der beiden Indexreihen (ZIW gegen
+  BFS-Baupreisindex) — beide KBs tragen explizite Verwechslungswarnungen und verrechnen die
+  Prozentwerte nirgends gegeneinander. Der **BFS**-Stand ist in beiden KBs identisch (April 2026 =
+  100.6, Basis Okt-2025). Die Ankerzahlen sind seit Run 15 stabil.
+- **Aktion (Run 35):** Fuehrungszeile gesetzt (ZIW-Indexstand → **grobkosten**), Vorbehalt mit dem
+  neuen Stand in `realwert-sachwert.md` ergaenzt, und das leere Feld `links:` in
+  `grobkosten/wiki/kennwerte.md` mit den vier durchgehend zitierten immobilienbewertung-Artikeln
+  befuellt. **Die Tabellenwerte wurden bewusst NICHT neu gerechnet** — die Umstellung auf den neuen
+  Stand verschoebe die Richtwerte um rund 0,3 %, weit innerhalb der gefuehrten Bandbreite; eine
+  Neurechnung gehoert in die regulaere Ueberarbeitung, nicht in einen Koordinationslauf.
+  **Status: bereinigt.**
+
+### wettbewerbs-dna ↔ entwurfs-referenzen ↔ architekten-synobsis — Rotationspaar, weiterhin nur teilweise pruefbar — geprueft 2026-08-17 (Run 35)
+
+- **Sachstand vor den Befunden (wichtiger als sie):** Die seit Run 21 gesetzte Blockade ist
+  **nicht** aufgehoben. `wettbewerbs-dna/training/PROGRAMM.md` Z. 17-25 definiert Etappe 4 mit den
+  Bausteinen V1/V2/V3; geliefert sind V1 (03.08.), V2 Schulbau (13.08.) und V2 Healthcare (17.08.).
+  **Offen bleiben V2 Wohnungsbau** (im Programm selbst als «absehbar duenn» markiert) **und V3
+  Verdichtung.** Die beiden Befunde unten betreffen ausschliesslich den Healthcare-Strang und sind
+  kein abschliessendes Urteil ueber das Dreieck.
+- **Kein Widerspruch moeglich, nicht nur keiner gefunden:** die in den neuen Dossiers 2101/2205
+  genannten Buero- und Personennamen ergeben in `architekten-synobsis` und `entwurfs-referenzen`
+  **null Treffer** — es gibt schlicht keinen gemeinsamen Gegenstand. Die vier bekannten
+  Katalog-Kollisionen sind unveraendert.
+- **Aktion (Run 35):** Stand in `entwurfs-referenzen/wiki/parameter-sets/healthcare-neubau-zh.json`
+  nachgezogen (8 → 15 Quellen, 25.07. → 17.08.2026, Abschnitt 7 Rueckkopplung) und ein
+  **Abnehmer-Vermerk** in `wettbewerbs-dna/wiki/muster/jury-argumente-healthcare.md` gesetzt (analog
+  Run 16). **Status: teilverlinkt; Paar bleibt in Rotation, bis V2 Wohnungsbau und V3 geliefert sind.**
+
+### projekt-lessons → Honorar-/Kosten-Skills (zwei neue Faelle vom 17.08.) — geprueft 2026-08-17 (Run 35)
+
+- **Befund (drei weiche VERLINKUNGEN):** Die beiden neuen Artikel
+  `lorrainestrasse-2011-realisierungsphase-honorar-unpreist` und
+  `nerves-2015-kv-nebengewerke-unterschaetzt` taggen ihre Abnehmer-Skills im Frontmatter, aber
+  `grep` ueber **alle** `skills/*/SKILL.md` nach «projekt-lessons» ergab **null Treffer** — die
+  Lehren waren nirgends angekommen.
+- **Der Kern beider Faelle:** (1) eine SIA-102-Phasenofferte darf keine Phase ohne Preis oder
+  Preismechanismus enthalten; (2) eine moderate Gesamtabweichung (+8,8 %) kann massive
+  Einzelgewerk-Ausreisser (+76 % bis +322 %) vollstaendig kaschieren — sowohl in der Schaetzung als
+  auch in der Kostenkontrolle.
+- **Aktion (Run 35):** Pruefschritt plus Herkunftsverweis in `skills/honorarberechnung-sia102`,
+  `skills/kostenschaetzung` und `skills/kostenkontrolle` gesetzt; Gegenkante «Wo diese Lehre
+  gelandet ist» in beiden Artikeln. **Bewusst NICHT uebernommen:** der Zuschlags-Erfahrungswert
+  «Faktor 2 bis 4». Beide Lessons tragen `status: emerging` mit **einem** Beleg — ein einzelbelegter
+  Faktor darf kein Kennwert in einem Skill werden. Die qualitative Regel ist uebernommen, die Zahl
+  bleibt im Fall.
+- **Registerpunkt beantwortet:** Keiner der beiden Artikel ist der seit Run 23 gesuchte **zweite
+  Fall** fuer `projekt-lessons ↔ mahnwesen/bexio`. Jenes Muster ist Zahlungsverzug/Mahnkaskade;
+  hier geht es um Angebots- und Schaetzgenauigkeit, ohne jeden Bezug zu Rechnung, Mahnstufe oder
+  bexio. **Der Registerpunkt bleibt offen.**
 
 ### energie ↔ planungsgrundlagen (AHB-Korpus `Projektadmin AHB`) — der Korpus statt der Einzelfaelle — geprueft 2026-08-16 (Run 34)
 

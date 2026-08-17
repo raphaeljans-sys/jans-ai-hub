@@ -63,3 +63,12 @@ bereits vorliegender Richtofferte — der in diesem Fall beobachtete Erfahrungsw
 Faktor 2 bis 4 — oder wo möglich frühzeitig eine indikative Marktofferte einholen. Sich nicht
 auf den scheinbar moderaten Drift der Gesamtbausumme verlassen: der kann grosse
 Einzelabweichungen bei kleinen Nebengewerken vollständig kaschieren.
+
+## Wo diese Lehre gelandet ist
+
+Wissens-Chef Run 35 (17.08.2026) hat den verallgemeinerbaren Kern in zwei Skills verankert:
+`skills/kostenschaetzung/SKILL.md` («Wichtige Hinweise» — nach Beleglage differenzieren statt
+pauschal bandbreiten) und `skills/kostenkontrolle/SKILL.md` (Schritt 4 — nie nur die kumulierte
+Abweichung kommentieren). Bewusst **nicht** uebernommen wurde der hier genannte Zuschlags-
+Erfahrungswert Faktor 2 bis 4: er ist einzelbelegt (`status: emerging`) und darf erst als Kennwert
+gelten, wenn ein zweiter unabhaengiger Fall ihn stuetzt.

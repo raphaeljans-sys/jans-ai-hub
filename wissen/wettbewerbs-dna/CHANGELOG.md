@@ -1,5 +1,22 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — Abnehmer-Vermerk in `jury-argumente-healthcare`
+
+- **`wiki/muster/jury-argumente-healthcare.md`:** Abnehmer-Vermerk gesetzt (analog Run 16). Der
+  Artikel wird von `wissen/entwurfs-referenzen/wiki/parameter-sets/healthcare-neubau-zh.json` als
+  materielle B4-Quelle fuer Typologie- und K.o.-Punkte zitiert, kannte diesen Abnehmer aber nicht.
+  Wer hier inhaltlich aendert, prueft dort die Quellen- und Standangabe mit. 4/0.
+- **Anlass:** Die heutige Etappe-4-Lieferung (Vertiefung 03, Abschnitt 7 «Rueckkopplung» aus 2101
+  KSSG H14 und 2205 Guggerbach) hat die Quellenzahl von 8 auf 15 gehoben — das Parameterset zitierte
+  weiterhin den Stand 25.07.2026. Dort nachgezogen.
+- **Sachstand zum Rotationspaar `wettbewerbs-dna ↔ entwurfs-referenzen ↔ architekten-synobsis`:**
+  Die Blockade ist **nicht** aufgehoben. Geliefert sind V1, V2 Schulbau und V2 Healthcare; **offen
+  bleiben V2 Wohnungsbau und V3 Verdichtung** (`training/PROGRAMM.md` Z. 17-25, 33-35). Das Paar
+  bleibt in Rotation. Kein Widerspruch zu den beiden anderen KBs moeglich: die in 2101/2205
+  genannten Buero- und Personennamen ergeben dort null Treffer, es gibt keinen gemeinsamen
+  Gegenstand.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
 ## 2026-08-17 — ETAPPE 4, VERTIEFUNGSLAUF 03 (V2, Bauaufgabe Healthcare)
 
 - **[inhalt]** Neuer **Abschnitt 7** in `wiki/muster/jury-argumente-healthcare.md`:

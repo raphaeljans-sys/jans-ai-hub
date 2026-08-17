@@ -238,6 +238,13 @@ Hier gehören hin:
 ## Wichtige Hinweise
 
 - **Niemals Honorar OHNE Bezugsgrösse offerieren** — Aufwandbestimmende Bausumme oder klare Pauschal-Aufgabe ist Voraussetzung.
+- **Keine Phase ohne Preis ODER Preismechanismus** — vor dem Versand jede Phase der Offerte
+  durchzählen. Steht die Bausumme noch nicht fest (typisch bei Phase 52 Realisierung/Bauleitung),
+  gehört statt eines Strichs der Berechnungsmodus in die Offerte: Prozentsatz der Bausumme nach
+  SIA 102, Stundenansatz mit Kostendach, oder ausdrücklicher Verweis auf eine Nachofferte nach
+  Vorliegen der Ausschreibungsergebnisse. Belegter Eigenfall:
+  `wissen/projekt-lessons/wiki/lorrainestrasse-2011-realisierungsphase-honorar-unpreist.md`
+  (Offerte 18.11.2011 — vier Phasen bepreist, die fünfte offen; `status: emerging`, ein Beleg).
 - **Bei Bestand/Umbau Zuschlag** — Umbau-Faktor 1.15-1.3 auf das Honorar oder höherer Schwierigkeitsgrad.
 - **Bei öffentlichen Bauherren** (Spitäler, Kanton, Gemeinden) — IVoeB/BoeB beachten, formelle Offerte sehr sauber strukturieren.
 - **Änderungen vorbehalten** — Standardklausel: "Bei wesentlicher Änderung der aufwandbestimmenden Bausumme wird das Honorar entsprechend angepasst."

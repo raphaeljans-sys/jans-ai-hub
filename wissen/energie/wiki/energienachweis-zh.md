@@ -1,8 +1,8 @@
 ---
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
-last_updated: 2026-08-17
-sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md]
+last_updated: 2026-08-17 (Run 140)
+sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md, destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]]
 ---
 
@@ -42,6 +42,13 @@ Beide Module vervollständigen die Formularmatrix (Details `[[en-lueftung-kuehlu
 > `wissen/planungsgrundlagen/wiki/energie-energienachweis-zh-formulare`,
 > `energie-even-plattform-bedienung` und `energie-private-kontrolle-zh` (Wegweiser für den
 > Agent `energie-berater`). Diese energie-KB bleibt führend für Fachphysik/Grenzwerte.
+> **Gegenkante Quellordner (Wissens-Chef Run 35, 17.08.2026):** Den Quellordner
+> `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie` erschliesst **diese KB** (Destillate
+> `vollzugsordner-energie-zh-abschnitt1-2`, `waermedaemmvorschriften-zh-2022`,
+> `waermedaemmvorschriften-zh-2009-historisch`, `vollzugshilfe-en10-heizungen-im-freien`);
+> `planungsgrundlagen` führt den Ordnerkontext in `wiki/recht-norm-quellenlandkarte` und
+> destilliert ihn nicht selbst. Beide Seiten sind seit Run 35 beschriftet — die Führungszeile
+> aus Run 34 gilt nur für den **AHB**-Ordner und deckt diesen hier nicht ab.
 > **Querbezug KB baurecht (Verfahrensrecht):** Die **Verfahrensart** führt
 > `wissen/baurecht/wiki/baubewilligungsverfahren` — insbesondere **§ 325a PBG**, der
 > energetische Sanierungen der Gebäudehülle (Fassadendämmung/Fensterersatz im Bestand,
@@ -103,7 +110,10 @@ die Planerleistung, die sich mit dem Normwechsel nicht geändert hat.
 `[[ahb-zuerich-gt-rl8-beleuchtung]]`.
 
 ## Rechtsgrundlage Wärmedämmung — welche WDV-Fassung gilt heute (Ergänzung Run 139, 2026-08-17)
-Die heute massgebliche Fassung ist **WDV vom 8. Juni 2022, LS 700.211**, in Kraft seit 01.09.2022 — seit Run 139 im Volltext destilliert und primärquellenbelegt: → [[waermedaemmvorschriften-zh-2022]] (status `established`, bezogen direkt über `zh.ch`). Kernpunkt: Wärmeschutznachweis nach SIA 380/1:2016 (Einzelanforderungen Tabellen 2/3/5 oder Systemanforderung QH,li Tabelle 6, PH,li ≤ 20 W/m² Kat. I/IV bzw. 25 W/m² Kat. II/III), vier Standardlösungen für Neubauten (§ 9) sowie 11 Standardlösungen für Wärmeerzeugerersatz (§ 10, inkl. Fassaden-/Dachdämmung als eigene SL 9 und Fensterersatz als SL 8). Die **historische Ausgabe 2009** → [[waermedaemmvorschriften-zh-2009-historisch]] (status `superseded`) bleibt als Referenz für den Vergleich alt/neu erhalten. Ergänzend: der ZH-Vollzugsordner (Stand 2013, Verfahrenslogik Neu-/Umbau) ist teildestilliert → [[vollzugsordner-energie-zh-abschnitt1-2]] und referenziert noch die 2009er-Fassung — bei Bedarf gegen die 2022er-Fassung gegenlesen, nicht blind übernehmen. Offen: SIA 380/1:2016 selbst und die referenzierten EnerG-/BBV-I-Paragraphen fehlen noch im Volltext (E-R139-1, `wiki/QUESTIONS.md`).
+Die heute massgebliche Fassung ist **WDV vom 8. Juni 2022, LS 700.211**, in Kraft seit 01.09.2022 — seit Run 139 im Volltext destilliert und primärquellenbelegt: → [[waermedaemmvorschriften-zh-2022]] (status `established`, bezogen direkt über `zh.ch`). Kernpunkt: Wärmeschutznachweis nach SIA 380/1:2016 (Einzelanforderungen Tabellen 2/3/5 oder Systemanforderung QH,li Tabelle 6, PH,li ≤ 20 W/m² Kat. I/IV bzw. 25 W/m² Kat. II/III), vier Standardlösungen für Neubauten (§ 9) sowie 11 Standardlösungen für Wärmeerzeugerersatz (§ 10, inkl. Fassaden-/Dachdämmung als eigene SL 9 und Fensterersatz als SL 8). Die **historische Ausgabe 2009** → [[waermedaemmvorschriften-zh-2009-historisch]] (status `superseded`) bleibt als Referenz für den Vergleich alt/neu erhalten. Ergänzend: der ZH-Vollzugsordner (Stand 2013, Verfahrenslogik Neu-/Umbau) ist teildestilliert → [[vollzugsordner-energie-zh-abschnitt1-2]] und referenziert noch die 2009er-Fassung — bei Bedarf gegen die 2022er-Fassung gegenlesen, nicht blind übernehmen.
+
+## Rechtsgrundlagen hinter der WDV — EnerG §§ 10a/10c/11 + BBV I § 47a (Ergänzung Run 140, 2026-08-17)
+Die WDV verweist auf diese vier Paragraphen, enthält sie aber nicht selbst — jetzt primärquellenbelegt aus bereits vorhandenem `baurecht`-Rohmaterial (kein neuer Web-Abruf nötig) → [[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]] (status `established`). Kernpunkt: **§ 47a BBV I** trägt die eigentliche Grenzwerttabelle des gewichteten Energiebedarfs je Gebäudekategorie (Wohnen 35 kWh/m², Spitäler 70 kWh/m², Industrie/Lager 20 kWh/m², Hallenbäder keine Anforderung) inkl. Bagatellklausel bei Erweiterungen (< 50 m² bzw. ≤ 20 % / max. 1'000 m² der Bestands-EBF); **EnerG § 10a** ist die Ermächtigungsnorm dazu, **§ 10c** regelt die Eigenstromerzeugungspflicht (Kompensation bei Unterschreitung der Mindestanforderungen möglich), **§ 11 Abs. 1-4** das Fossilverbot Neubau plus die 90-%-Auffangregel beim Wärmeerzeugerersatz (massgebender Energiebedarf 100 kWh/m²/Jahr, Umsetzungsfrist 3 Jahre). ⚠ Neu aufgeworfen: für Healthcare-Projekte (Pflegeheim/Altersheim) ist unklar, ob Kat. I (Wohnen, 35 kWh/m²) oder Kat. VIII (Spitäler, 70 kWh/m²) gilt — Definition nicht in § 47a selbst, offener Punkt E-R140-1. **Weiterhin offen: SIA 380/1:2016 selbst** (Geldentscheid, `logbuch/fristen.md` seit Run 98).
 
 ## Quelle / Abgrenzung
 EN-ZH-005 (Baudirektion ZH/AWEL, Juli 2022) → `[[en-zh-nachweis-uebersicht]]`; EVEN-Stand via

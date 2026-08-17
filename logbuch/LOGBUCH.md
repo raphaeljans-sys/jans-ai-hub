@@ -5,6 +5,32 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-17 23:30 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — energie Run 140: EnerG §§ 10a/10c/11 + BBV I § 47a destilliert, E-R139-1 teilgelöst
+
+Prioritaeten 1-3 geprueft und leer (remote-tasks/pending nicht vorhanden, sync-tasks/mac-mini
+leer ausser einem leeren scripts-Unterordner, Synobsis weiterhin 853/853 mit deaktiviertem
+Taktgeber seit 25.07. — kein gueltiges Ziel gemaess eigenem CHANGELOG, fristen.md/heutiges
+Logbuch bereits durch Radar 06:55 und Hub-Chef 08:39 sowie den 13:30-Versuchsslot abgedeckt,
+kein neuer Entwurfsbedarf). Bauprodukte per eigenem Statuskopf seit 15.08. kein gueltiges Ziel,
+grobkosten/projekt-lessons weiterhin ausgesetzt — einziges freies Ziel bleibt `energie`.
+
+Dort lag aus dem 13:30-Slot der Folgepunkt E-R139-1 vor (SIA 380/1:2016 + §§ 47a BBV I /
+10a/10c/11 Abs. 4 EnerG fehlen im Volltext der WDV). Vor einem Web-Abruf zuerst im
+Hub-Bestand geprueft: beide Erlasse lagen bereits vollstaendig als amtlicher Volltext in
+`wissen/baurecht/raw/` vor — kein neuer WebFetch noetig, reine Sichtung + Destillation. Neues
+Destillat `wissen/energie/destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md` (status
+established): § 47a BBV I traegt die Grenzwerttabelle des gewichteten Energiebedarfs je
+Gebaeudekategorie (Wohnen 35, Spitaeler 70, Industrie/Lager 20 kWh/m² u.a.), EnerG §§ 10a/10c/11
+die Ermaechtigungsnorm, Eigenstromerzeugungspflicht und die 90-%-Auffangregel beim
+Waermeerzeugerersatz. `wiki/energienachweis-zh.md`, `wiki/QUESTIONS.md`, CHANGELOG und
+Curriculum nachgefuehrt. Weiterhin offen bleibt SIA 380/1:2016 selbst (Geldentscheid,
+`logbuch/fristen.md` seit Run 98) — das war der eigentlich teure Teil des Punktes, nicht die
+jetzt erledigten Paragraphen. Neuer Folgepunkt E-R140-1 (Gebaeudekategorie-Einstufung Healthcare
+Pflegeheim/Altersheim, Kat. I vs. Kat. VIII, ungeklaert). NAS committet sich selbst
+(nas-selfcommit, kein Git ueber SMB). Budget dieses Laufs: ca. 3.4 USD von 5 USD.
+
+---
+
 ## 2026-08-17 13:30-13:47 (Mac Mini Nachtschicht, Versuchs-Slot, Prioritaet 4 KB-Training) — energie: WDV 8.6.2022 (LS 700.211) beschafft, E-R138-1 gelöst
 
 Prioritaeten 1-3 geprueft und leer (remote-tasks/pending nicht vorhanden, sync-tasks/mac-mini leer,

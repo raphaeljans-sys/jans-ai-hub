@@ -2414,3 +2414,30 @@ beziehbar, analog zur WDV selbst.
 **Nächste Priorität:** 1. E-R139-1 (SIA 380/1:2016-Tabellen + BBV-I-/EnerG-Paragraphen). 2.
 Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80) — dabei die 2022er-WDV als aktuellen
 Massstab gegenlesen. 3. Die rund 19 echten Restwerke aus der 24er-Liste (`pdf-inventar.md`).
+
+## Run 140 (17.08.2026, Nachtschicht Mac Mini 23:30) — E-R139-1 teilgelöst: EnerG §§ 10a/10c/11 + BBV I § 47a destilliert
+
+**E-R139-1 teilgelöst (der freie Teil).** Vor einem Web-Abruf zuerst im Hub-Bestand geprüft:
+beide Erlasse (BBV I, EnerG) lagen bereits vollständig als amtlicher Volltext in
+`wissen/baurecht/raw/` vor (von früheren baurecht-Läufen beschafft) und enthielten § 47a BBV I
+sowie EnerG §§ 10a/10c/11 bereits im Volltext — kein neuer WebFetch nötig. Neues Destillat
+`energ-bbv1-waermebedarf-rechtsgrundlagen-zh`, status **established**. Kern: § 47a BBV I trägt
+die Grenzwerttabelle des gewichteten Energiebedarfs je Gebäudekategorie (Wohnen 35, Verwaltung/
+Verkauf/Versammlung 40, Restaurants 45, Spitäler 70, Industrie/Lager 20, Sportbauten 25 kWh/m²,
+Hallenbäder keine Anforderung) inkl. Bagatellklausel bei Erweiterungen; EnerG § 10a ist die
+Ermächtigungsnorm dazu, § 10c regelt die Eigenstromerzeugungspflicht (Verzicht möglich bei
+Unterschreitung der Mindestanforderungen), § 11 Abs. 1-4 das Fossilverbot Neubau plus die
+90-%-Auffangregel beim Wärmeerzeugerersatz (Bezugsgrösse 100 kWh/m²/Jahr, Umsetzungsfrist 3
+Jahre). `energienachweis-zh` nachgeführt.
+
+**Weiterhin offen: SIA 380/1:2016 selbst** — das war der eigentlich teure Teil des Punktes
+(Normkauf-Geldentscheid, `logbuch/fristen.md` seit Run 98), nicht die jetzt erledigten
+BBV-I/EnerG-Paragraphen; diese waren die ganze Zeit frei zugänglich.
+
+Neuer Folgepunkt **E-R140-1 (P2):** Gebäudekategorie-Einstufung für Healthcare-Projekte
+(Pflegeheim/Altersheim) ungeklärt — Kat. I «Wohnen» (35 kWh/m²) oder Kat. VIII «Spitäler»
+(70 kWh/m²)? Die Abgrenzung steht nicht in § 47a BBV I selbst.
+
+**Nächste Priorität:** 1. Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80). 2. Die rund 19
+echten Restwerke aus der 24er-Liste (`pdf-inventar.md`). 3. E-R140-1 bei Bezug zu einem
+konkreten Healthcare-Fall klären.

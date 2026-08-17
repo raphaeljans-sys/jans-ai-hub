@@ -3,6 +3,57 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-17 — Wissens-Chef Run 35 (Abendlauf, 23,9 h nach Run 34)
+
+- **Bericht:** `outputs/2026-08-17_wissens-chef-run35.md`. Zuschnitt **5 Melder + 4 Refuter
+  (9 Agenten, 1'659'131 Token, 12,9 Min)**; die Korpus-Messung fuhr der Hauptprozess deterministisch
+  selbst. Uhr-Kontrolle bestanden (Station 23:17:12 CEST gegen Synology 23:15:06, = HEAD `40c4b51a`).
+- **16 Meldungen, davon 4 harte. Von den vier harten hielt genau EINE — und die drei Widerlegungen
+  sind der Ertrag des Laufs, nicht sein Ausschuss.**
+- **Bestaetigt (energie):** `wiki/u-werte-grenzwerte-ch.md` (`established`) ordnete die
+  EnFK-Vollzugshilfe **EN-102 (Dez. 2018)** an drei Stellen der Ausgabe **SIA 380/1:2009** zu —
+  richtig ist **2016**; der Artikel widersprach sich vier Zeilen weiter selbst. Vier
+  Widerlegungsversuche gescheitert: eine EN-102 auf Basis 2009 existiert nicht, die auf 2009
+  fussende Vollzugshilfe ist das andere Dokument EN-2 (2013). **Der Fehler hatte bereits eine Zahl
+  verdorben** (vom Refuter gefunden, nicht vom Melder): Klimareferenz 8,5 statt 9,4 °C fuer EN-102
+  Tab. 5. **Die Figur:** `planungsgrundlagen` hatte exakt denselben Fehler am 25.07. korrigiert und
+  dabei `energie` als fuehrend erklaert — die zuliefernde KB wurde geheilt, die fuehrende blieb
+  falsch. Ursache beide Male derselbe irrefuehrende SharePoint-Dateiname. Vier Edits gesetzt.
+- **Widerlegt, mit Ertrag (F2):** Die EBF-Schwelle «1,5 m gegen 1,0 m» war kein Fehler. Der Refuter
+  las SIA 416/1:2007 Ziff. 3.2.2 am 200-dpi-Original (Figur 16: 1,0 m) und fand die Herkunft der
+  1,5 m: **RFB-Richtlinie V7.0 der Stadt Zuerich, Ziff. 3.5.2.3, auf dem Entwurf 3/05 fussend**, ueber
+  den AHB-Honorarvertrag bindend. Zwei je fuer sich gueltige Fassungen. **Wert unveraendert
+  gelassen**, aber die Ergonomieluecke geschlossen (Fassungsangabe stand in Z. 30, die Zahl in
+  Z. 78 — fuer einen Energienachweis waere 1,5 m der falsche Nenner).
+- **Widerlegt (F1/F4):** «SIA 416/1 als Flaechenbedarfsnorm» las aus «ergaenzend» eine
+  Gleichsetzung, die nicht dasteht (und haette einen `established`-Artikel auf ein `speculative`-
+  Destillat hin geaendert). «HNF/GF einseitig ungeflaggt» verwechselte den **Beleg**-Ort mit dem
+  **Vorbehalts**-Ort — die Flaggung ist beidseitig, und `wissensluecken.md:30` traegt die
+  Sperrklausel «keine der beiden Stellen still umstellen», die der Vorschlag verletzt haette.
+- **Korpus-Messung (Run 34s Vorschlag ausgefuehrt und geschaerft):** Die vorgeschlagene Gruppierung
+  nach **Ordner**-Praefix war zu grob — sie meldete `PL - 04 Energie` 14:1, alle 14 Treffer lagen in
+  `outputs/`. Tragfaehig ist die Messung auf **Dateiebene**, beschraenkt auf `wiki/`+`destillate/`+
+  `buecher/`: **33 identische Quell-PDF von ≥2 KBs destilliert, 38 Paare, davon 2 verdrahtet und 36
+  nicht** (pg↔normen 18 · pg↔energie 11 · energie↔normen 4 · immobilienbewertung↔normen 2 ·
+  baurecht↔normen 1). Bewusst **nicht** blind abgearbeitet; clusterweise Abarbeitung vorgeschlagen.
+  Zwei Vorbehalte im Register festgehalten: gemessen ist die Dokument-, nicht die KB-Ebene, und
+  Doppelbewirtschaftung ist nicht per se falsch.
+- **Zweiter Quellordner beschriftet:** `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie` — vier neue
+  `energie`-Destillate, null Treffer in `planungsgrundlagen`, und die AHB-Fuehrungszeile aus Run 34
+  deckt diesen Ordner ausdruecklich **nicht** ab. Kante in beide Richtungen gesetzt. Zugleich
+  bestaetigt: die Run-34-Zeile **haelt** fuer das, was sie abdeckt.
+- **Zwei Faktenkorrekturen an den eigenen Annahmen** (von den Meldern belegt): der pg-AHB-Artikel
+  wurde am 17.08. **nicht** geaendert (letzter Commit `0999939f`, 16.08. 23:30), und von den fuenf
+  geprueften Destillaten stammt nur eines wirklich aus dem AHB-Ordner.
+- **Weitere Aktionen:** ZIW-Indexstand (Fuehrung → `grobkosten`, Vorbehalt in `immobilienbewertung`),
+  `links:`-Feld in `grobkosten/wiki/kennwerte` befuellt, Stand des Healthcare-Parametersets
+  nachgezogen, Abnehmer-Vermerk in `wettbewerbs-dna`, drei Kosten-/Honorar-Skills um einen
+  Pruefschritt aus den zwei neuen `projekt-lessons` ergaenzt (**ohne** den einzelbelegten
+  Zuschlagsfaktor).
+- **Schreib-Kontrolle:** 14 Dateien, jede per `git diff --numstat` gemessen; Register **184/0**
+  (reines Anhaengen). Nur drei Dateien ersetzten ueberhaupt Zeilen, dort war die Ersetzung die
+  beabsichtigte Korrektur. Keine Datei hat Bestand verloren.
+
 ## 2026-08-17 — Synergie-Lauf 10 (Tagestakt, 23,8 h nach Lauf 09)
 
 - **Bericht:** `outputs/2026-08-17_synergie-lauf-10.md`. Delta-Basis 16.08. 17:10,

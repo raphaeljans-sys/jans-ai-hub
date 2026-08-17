@@ -2,6 +2,30 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — EBF-Schwelle 1,5 m ist RFB-Stand, kein Fehler; zweiter Quellordner beschriftet
+
+- **Gemeldeter Widerspruch WIDERLEGT, Wert unveraendert:** Die EBF-Ausschlussgrenze «lichte
+  Raumhoehe <1.5 m» in `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` Z. 78 ist **kein
+  Uebertragungsfehler** gegenueber den 1,0 m der SIA 416/1:2007 Ziff. 3.2.2. Der Refuter las beide
+  Originale: Figur 16 der publizierten Norm zeigt «h < 1 m»; die 1,5 m sind die wortgetreue
+  Wiedergabe der **RFB-Richtlinie V7.0 (13.07.2007) Ziff. 3.5.2.3** der Stadt Zuerich, die auf dem
+  **Entwurf 3/05** der SIA 416/1 fusst und ueber den AHB-Honorarvertrag bindend ist. **Zwei je fuer
+  sich gueltige Fassungen.**
+- **Was trotzdem zu tun war (Ergonomie, nicht Wahrheit):** Die Fassungsangabe stand in Z. 30, die
+  Zahl in Z. 78 — wer Abschnitt 1.2 isoliert liest, haelt 1,5 m fuer den geltenden SIA-Stand, und
+  **fuer einen Energienachweis waere das der falsche Nenner der Energiekennzahl**.
+  Zwischenueberschrift auf «SIA 416/1 **Entwurf 3/05** — RFB-Stand» praezisiert, Fassungsvorbehalt
+  mit beiden Zahlen und ihrer jeweiligen Geltung gesetzt. 10/2.
+- **`wiki/recht-norm-quellenlandkarte.md`:** Fuehrungsvermerk fuer
+  `01_Gesetze/02_Zuerich/Energie` — diesen Ordner erschliesst seit 17.08.2026 die KB `energie`
+  (vier Destillate namentlich genannt), diese KB destilliert ihn nicht. `grep -rln` nach den vier
+  Dateinamen ueber `wissen/planungsgrundlagen/`: null Treffer. Die AHB-Fuehrungszeile aus Run 34
+  deckt diesen Ordner **nicht** ab. 10/0.
+- **Bestaetigt, was haelt:** Die Run-34-Gegenkante zur Raumtemperatur-Richtlinie ist intakt (§20 ↔
+  Destillat, Werte 16 °C / −10 °C / 06.00-20.00 stimmen ueberein), und die Rollenteilung
+  Physik=`energie` / Verfahren=`planungsgrundlagen` haelt unveraendert.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
 ## 2026-08-16 (Wissens-Chef Run 34, Cross-KB) — Gegenkante zur Raumtemperatur-Richtlinie; der AHB-Ordner ist messbar von zwei KBs bewirtschaftet
 
 - **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` §20 (Raumtemperatur-Richtlinie 2006,

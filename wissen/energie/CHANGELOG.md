@@ -1,5 +1,49 @@
 # CHANGELOG
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — EN-102 fusst auf SIA 380/1:2016, nicht 2009; Gegenkante zum ZH-Energie-Quellordner
+
+- **Korrektur `wiki/u-werte-grenzwerte-ch.md` (`status: established`), adversarial bestaetigt:**
+  Der Artikel ordnete die EnFK-Vollzugshilfe **EN-102 (Dez. 2018)** an drei Stellen der Norm-Ausgabe
+  **SIA 380/1:2009** zu. Richtig ist **2016** — belegt im eigenen Destillat
+  `destillate/enfk-en-102-waermeschutz-2018.md` Z. 4 und 129-131 (Fusszeile jeder PDF-Seite). Der
+  Artikel widersprach sich selbst: Z. 12 «2009», Z. 16 «Kt. ZH heute SIA 380/1:2016 (dieser Artikel)».
+  **Eine EN-102 auf Basis 2009 existiert nicht**; die auf 2009 fussende Vollzugshilfe ist das andere
+  Dokument **EN-2 (Feb. 2013)**, in dieser KB korrekt und getrennt gefuehrt. Ursache ist der
+  irrefuehrende SharePoint-Dateiname `…_3801_2009_2018Dez.pdf`, der denselben Fehler schon einmal in
+  `planungsgrundlagen` erzeugt hatte (dort am 25.07.2026 korrigiert — **die zuliefernde KB wurde
+  geheilt, die fuehrende blieb falsch**).
+- **Der Jahrgangsfehler hatte bereits eine Zahl verdorben:** Z. 119 fuehrte fuer EN-102 Tab. 5 die
+  Klimareferenz **8,5 °C** (Wert der Ausgabe 2009); das Destillat nennt fuer dieselbe Tabelle
+  **+9,4 °C**, und der Artikel sagt das auf Z. 146 selbst. Korrigiert.
+- **Vier Edits** (Z. 12, Z. 119, Datenstand-Abschnitt, `last_updated` 2026-07-13 → 2026-08-17), je
+  mit Korrekturvermerk. Die **korrekten** 2009-Nennungen (Versionsabgleich EN-2, Delta-Abschnitt
+  2016 gegenueber 2009, `sources`) blieben unberuehrt und wurden per `grep` nachgemessen. 12/4.
+- **Gegenkante gesetzt in `wiki/energienachweis-zh.md`:** Den Quellordner
+  `PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie` erschliesst **diese KB** (vier Destillate vom
+  17.08.); `planungsgrundlagen` fuehrt nur den Ordnerkontext. Die AHB-Fuehrungszeile aus Run 34 gilt
+  fuer diesen Ordner **nicht**. Beide Richtungen sind seit Run 35 beschriftet. 7/0.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
+## 2026-08-17 (Run 140, Nachtschicht Mac Mini 23:30) — EnerG §§ 10a/10c/11 + BBV I § 47a destilliert, E-R139-1 teilgelöst
+
+- **E-R139-1 (P2) teilgelöst:** Die vier von der WDV 2022 referenzierten, aber nicht selbst
+  enthaltenen Paragraphen (§ 47a BBV I: Grenzwerttabelle gewichteter Energiebedarf je
+  Gebäudekategorie; EnerG §§ 10a/10c/11 Abs. 1-4: Ermächtigungsnorm, Eigenstromerzeugung,
+  Fossilverbot + 90-%-Auffangregel Wärmeerzeugerersatz) waren **bereits vollständig als amtliches
+  Rohmaterial im Hub vorhanden** (`wissen/baurecht/raw/260607_amtlich_zh_bbv1.md`,
+  `wissen/baurecht/raw/260712_amtlich_zh_energ.md`) — kein neuer Web-Abruf nötig, reine Sichtung
+  + Destillation. Neues Destillat `destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`
+  (status `established`), Quelle amtlich/gemeinfrei, Fassungsstand beider Erlasse für die
+  betroffenen Paragraphen unverändert seit Inkrafttreten 01.09.2022 (keine spätere Änderung
+  belegt). `wiki/energienachweis-zh.md` nachgeführt (neuer Abschnitt «Rechtsgrundlagen hinter der
+  WDV»). **Weiterhin offen: SIA 380/1:2016 selbst** — das war der eigentliche Geldentscheid des
+  Punktes (Normkauf, `logbuch/fristen.md` seit Run 98), nicht die jetzt erledigten
+  BBV-I/EnerG-Paragraphen. Neuer Folgepunkt E-R140-1 (Gebäudekategorie-Einstufung Healthcare
+  Pflegeheim/Altersheim: Kat. I «Wohnen» 35 kWh/m² vs. Kat. VIII «Spitäler» 70 kWh/m² — amtliche
+  Abgrenzung nicht in § 47a selbst enthalten, in `wiki/QUESTIONS.md`). Kein Fan-out, kein
+  Subagent, keine Kosten für Websuche — Budget ca. 3 USD von 5 USD (überwiegend Recherche im
+  Bestand vor dem Schreiben).
+
 ## 2026-08-17 (Run 139, Versuchs-Slot Mac-Mini-Nachtschicht 13:30) — WDV 8.6.2022 (LS 700.211) beschafft und destilliert, E-R138-1 gelöst
 
 - **E-R138-1 (P1) gelöst:** Wärmedämmvorschriften Kt. Zürich vom 8. Juni 2022, LS 700.211 (die

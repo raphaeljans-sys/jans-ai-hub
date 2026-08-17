@@ -2,6 +2,27 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — ZIW-Indexstand ueberholt, Fuehrung an `grobkosten`; zwei Meldungen gegen diese KB widerlegt
+
+- **`wiki/realwert-sachwert.md`:** Die Stuetzstelle **01.04.2025 = 1210.4** (HEV-SZ-Reproduktion,
+  Stand 14.07.2026) ist nicht mehr die juengste. `grobkosten/wiki/kennwerte` Z. 361-363 hat am
+  17.08.2026 den Stand **01.10.2025 = 116.1 Punkte (Basis April 2020 = 100)** direkt an der
+  **Primaerquelle** Stadt Zuerich verifiziert (≈ 1'213.5 auf Basis 1939 = 100). Vorbehalt gesetzt,
+  **Fuehrung fuer den ZIW-Indexstand an `grobkosten` abgegeben** — diese KB verweist dorthin, statt
+  die Reihe parallel zu pflegen. 12/0.
+- **Die Tab.-2-Richtwerte wurden bewusst NICHT neu gerechnet.** Die Umstellung verschoebe sie um
+  rund 0,3 %, weit innerhalb der ohnehin gefuehrten Bandbreite; eine Neurechnung gehoert in die
+  regulaere Ueberarbeitung, nicht in einen Koordinationslauf.
+- **Zwei Meldungen gegen diese KB WIDERLEGT, keine Aenderung:** (1) `wiki/flaechendefinitionen-sia`
+  Z. 13 zitiere SIA 416/1 faelschlich als Flaechenbedarfs-Norm — der Satz sagt «massgebend ist
+  SIA 416; **ergaenzend** SIA 416/1 und SIA 2024», also genau die richtige Rollenteilung, und
+  Anhang A der 416/1 ist tatsaechlich programmrelevant. (2) der Konflikt HNF/GF 0,70 gegen 0,75 sei
+  hier ungeflaggt — er ist es nicht: `realwert-sachwert` Z. 222-231 traegt eine eigene
+  ⚠-needs-decision-Box, `wissensluecken` Z. 30 das Ticket `T-Regelgeschoss` samt Sperrklausel
+  «keine der beiden Stellen still umstellen». Der Melder hatte den **Beleg**-Ort mit dem
+  **Vorbehalts**-Ort verwechselt; seine vorgeschlagene Warnung haette die Sperrklausel verletzt.
+- Bericht: `wissen/koordination/outputs/2026-08-17_wissens-chef-run35.md`.
+
 ## 2026-08-13 (Marktpuls VORGEZOGEN, MacBook Pro) — SREBI Q2-2026, BFS-IMPI neu in der KB, LIK 07.2026; zwei methodische Befunde; die zwei Stichtags-Werte bewusst offen gelassen
 
 **Einordnung zuerst, weil sie das ganze Ergebnis rahmt: dieser Lauf fand 19 Tage VOR seinem

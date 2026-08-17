@@ -60,3 +60,10 @@ Ausschreibungsergebnisse). Vor dem Versand zusätzlich prüfen, ob eine parallel
 Stunden- und Pauschalvariante im selben Dokument gegeneinander plausibel sind — eine als
 günstiger positionierte Variante darf nicht rechnerisch teurer ausfallen als die
 umfassendere Alternative.
+
+## Wo diese Lehre gelandet ist
+
+Wissens-Chef Run 35 (17.08.2026) hat den verallgemeinerbaren Kern in
+`skills/honorarberechnung-sia102/SKILL.md` verankert («Wichtige Hinweise» — keine Phase ohne Preis
+oder Preismechanismus, jede Phase vor dem Versand durchzaehlen). Der Fall bleibt
+`status: emerging` (ein Beleg); der Skill nennt ihn als Herkunft, nicht als Kennwert.
