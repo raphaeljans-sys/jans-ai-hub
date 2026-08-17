@@ -68,6 +68,18 @@ Zuschlag Aufzug Fr. 15-20/m3.
 (Quelle: Stadt Zuerich, Statistik und Daten, Publikationsstand 01.01.2026, Reproduktion HEV
 Schwyz). Wert 01.04.2003 = 899.2, Wert 01.04.2025 = 1210.4 (juengste publizierte Halbjahresreihe;
 naechste Publikation ~04/06.2026). **Index-Faktor 2003→2025 = 1210.4/899.2 = 1.346 (+34.6 %).**
+
+> ⚠ **Indexstand ueberholt — Wissens-Chef Run 35 (17.08.2026).** Die hier gefuehrte Stuetzstelle
+> 01.04.2025 ist nicht mehr die juengste. `wissen/grobkosten/wiki/kennwerte.md` Z. 361-363 hat am
+> 17.08.2026 (Run 16) den Stand **01.10.2025 = 116.1 Punkte (Basis April 2020 = 100)** direkt bei
+> der **Primaerquelle** Stadt Zuerich verifiziert — nicht mehr nur ueber die HEV-SZ-Reproduktion,
+> auf der die Zeile oben fusst. Auf Basis 1939 = 100 umgelegt entspricht das ≈ 1'213.5.
+> **Fuehrung neu geordnet:** den reinen ZIW-Indexstand und die Umrechnungsfaktoren fuehrt ab jetzt
+> **grobkosten** (Abschnitt «Baupreisindex ZH»); diese KB verweist dorthin, statt die Reihe
+> parallel zu pflegen. Die Tabelle unten bleibt vorerst auf dem 1.346-Faktor gerechnet — eine
+> Neurechnung auf 1'213.5 verschoebe die Richtwerte um rund 0,3 % und damit weit innerhalb der
+> ohnehin gefuehrten Bandbreite; sie gehoert in die naechste regulaere Ueberarbeitung, nicht in
+> einen Koordinationslauf.
 Damit lassen sich die Tab.-2-Richtwerte direkt hochrechnen:
 
 | Bauklasse (Wohnbauten) | EFH CHF/m3 (2025) | MFH CHF/m3 (2025) |

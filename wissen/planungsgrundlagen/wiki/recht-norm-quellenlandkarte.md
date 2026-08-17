@@ -35,6 +35,16 @@ Der Ordner ist breiter als der erste Wegweiser-Stand. 10 Top-Ordner + `Tiefgarag
 **IVHB_Leitfaden**, MPP, Mehrwert-/Beseitigungsrevers, SM Blaues/Rotes Buch, Übergangsbestimmungen),
 `Energie`, `Submission` (SubV 720.11, 4094), `Wasser`, `Zivilschutz`.
 
+> **Führung `01_Gesetze/02_Zuerich/Energie` — Wissens-Chef Run 35 (17.08.2026):** Diesen Unterordner
+> erschliesst seit dem 17.08.2026 die KB **`energie`**, nicht `planungsgrundlagen`. Dort liegen die
+> Destillate `vollzugsordner-energie-zh-abschnitt1-2`, `waermedaemmvorschriften-zh-2022`,
+> `waermedaemmvorschriften-zh-2009-historisch` (status `superseded`) und
+> `vollzugshilfe-en10-heizungen-im-freien`. `planungsgrundlagen` kennt den Ordner bisher nur aus
+> dieser Strukturübersicht und hat ihn nie inhaltlich destilliert — wer hier ansetzt, prüft zuerst
+> den energie-Bestand, statt ein zweites Mal aus derselben Quelle zu destillieren. Die
+> Führungszeile aus Run 34 deckt ausdrücklich nur `04_Merkblätter/Projektadmin AHB` ab und gilt
+> für diesen Ordner **nicht**.
+
 ## Bundeserlasse — SR-Nummer → fedlex (zitierfähige Fassung)
 
 > **Regel:** Für ein Gutachten/eine Studie nie die im Ordner liegende PDF zitieren (Dateinamen

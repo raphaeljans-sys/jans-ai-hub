@@ -1,7 +1,7 @@
 ---
 title: U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-17
 sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
@@ -9,7 +9,12 @@ links: [[INDEX]], [[BAUHERREN-FAQ]]
 # U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 
 Themenartikel zu den verbindlichen Anforderungen des winterlichen Wärmeschutzes. Faktenbasis:
-EnFK-Vollzugshilfe EN-102 (Dez 2018, SIA 380/1:2009).
+EnFK-Vollzugshilfe EN-102 (Dez 2018, SIA 380/1:**2016**).
+(⚠ Korrektur Wissens-Chef Run 35, 17.08.2026: hier stand «SIA 380/1:2009». EN-102 fusst auf der
+Ausgabe **2016** — belegt im eigenen Destillat `[[enfk-en-102-waermeschutz-2018]]` Z. 4 aus der
+Fusszeile jeder PDF-Seite; die auf 2009 fussende Vollzugshilfe ist das **andere** Dokument EN-2
+(Feb. 2013). Der irrefuehrende SharePoint-Dateiname `…_3801_2009_2018Dez.pdf` hatte denselben
+Fehler schon einmal in `planungsgrundlagen` erzeugt, wo er am 25.07.2026 korrigiert wurde.)
 
 > **Querbezug KB normen (Fundstelle/Ausgabe SIA 380/1):** Norm-Fundstelle und Gültigkeitsstand
 > führt das normen-Register `wissen/normen/wiki/REGISTER` (Zeile 204 SIA 380/1). Ausgaben-Kette:
@@ -116,7 +121,10 @@ die anderen fünf Gruppen bereits als abschliessend gemeldet waren — hiermit k
 ## Heizwärmebedarf Q_H
 Formel und Bilanz: `[[sia-380-1-heizwaermebedarf-berechnung]]`
 (Q_h = Q_T + Q_V − η_g·(Q_i + Q_s)). Grenzwert je Kategorie: Q_H,li = Q_H,li0 + ΔQ_H,li·(A_th/A_E),
-Klima 8,5 °C / Auslegung −8 °C. Werte (kWh/m²) → EN-102 Tab. 5; Kennwerte in MJ/m²·a inkl.
+Klima 9,4 °C / Auslegung −8 °C. Werte (kWh/m²) → EN-102 Tab. 5;
+(⚠ Korrektur Run 35, 17.08.2026: hier stand «8,5 °C», der Wert der Ausgabe 2009. Das Destillat
+`[[enfk-en-102-waermeschutz-2018]]` Z. 69-70 nennt fuer dieselbe Tabelle 5 die
+Jahresmitteltemperatur **+9,4 °C** — konsistent mit dem Delta-Abschnitt weiter unten.) Kennwerte in MJ/m²·a inkl.
 **Gebäudehüllzahl** und Ziel- vs. Grenzwert → `[[bauphysik-heizwaermebedarf-kennwerte]]`.
 Umbau/Umnutzung: Grenzwert = 1,5 × Neubau.
 
@@ -152,7 +160,7 @@ Die konkreten neuen Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie bleiben oh
 weiterhin offen.
 
 ## Datenstand / Aktualität
-⚠ Werte SIA 380/1:2009 / EN-102 2018. Kt. ZH operativ über EnerG seit **1.9.2022** (MuKEn 2014).
+⚠ Werte SIA 380/1:**2016** / EN-102 2018 (Ausgabe-Zuordnung korrigiert Run 35, 17.08.2026). Kt. ZH operativ über EnerG seit **1.9.2022** (MuKEn 2014).
 **MuKEn 2025** von der EnDK am **29.08.2025** verabschiedet (Details, Änderungen ggü. 2014,
 Umsetzungshorizont 2025-2030 → `[[muken-2025-verabschiedet]]`), kantonale Umsetzung ZH (Stand
 2026-07-12) weiterhin ausstehend → bei konkreten Grenzwert-Zitaten aktuellen ZH-Stand verifizieren.

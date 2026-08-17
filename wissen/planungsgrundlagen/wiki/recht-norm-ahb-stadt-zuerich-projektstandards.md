@@ -69,13 +69,21 @@ Flächensystematik — ergänzt [[recht-norm-raumprogramm-referenzwerke]] um die
 - **Gebäudevolumen GV** = GF × zugehörige Höhe, **ohne Zuschläge/Abzüge**. Spezialfundationen zur
   Baugrundverbesserung (Pfählungen, Kofferungen, Sohlbeton) zählen **nicht** zum GV.
 
-### 1.2 Energiebezugsfläche EBF (SIA 416/1, thermische Hülle)
+### 1.2 Energiebezugsfläche EBF (SIA 416/1 **Entwurf 3/05** — RFB-Stand, thermische Hülle)
 
 Die **EBF** ist die Summe aller ober-/unterirdischen Geschossflächen **innerhalb der thermischen
 Hülle**, für deren Nutzung ein Beheizen/Klimatisieren nötig ist. Einzuschliessen: HNF, VF, Teile der
 NNF (Sanitärräume/Garderoben), Ver-/Entsorgungsschächte/Abstellräume <10 m² (Ausnahme). Auszu-
 schliessen: übrige NNF, FF — auch wenn innerhalb der thermischen Hülle beheizt. Geschossflächen mit
-lichter Raumhöhe <1.5 m zählen nicht zur EBF; **keine Korrekturfaktoren/Zuschläge**. Bei
+lichter Raumhöhe <1.5 m zählen nicht zur EBF; **keine Korrekturfaktoren/Zuschläge**.
+⚠ **Fassungsvorbehalt (Wissens-Chef Run 35, 17.08.2026, adversarial verifiziert):** Die 1.5 m sind
+der Wert der **RFB-Richtlinie V7.0 (13.07.2007) Ziff. 3.5.2.3** der Stadt Zürich, die auf dem
+**Entwurf 3/05** der SIA 416/1 fusst — für städtische Bewirtschaftungspläne über den AHB-Honorar-
+vertrag weiterhin bindend, deshalb hier unverändert. Die **publizierte Norm SIA 416/1:2007
+Ziff. 3.2.2 (Figur 16) nennt 1,0 m** (am Original nachgelesen, siehe
+`wissen/normen/destillate/sia-416-1-2007.md` Z. 232-233). **Für einen Energienachweis gilt 1,0 m** —
+dort wäre der RFB-Wert der falsche Nenner der Energiekennzahl. Kein Fehler in diesem Artikel,
+sondern zwei verschiedene, je für sich gültige Fassungen. Bei
 Doppelfassaden/hinterlüfteten Fassaden mit Luftraum >10 cm gilt die **innere** Begrenzung des
 Luftraums als Aussenabmessung der thermischen Hülle (bei <10 cm die äusserste Bauteilebene) — eine
 in der Energie-KB bislang nicht so präzise dokumentierte Messregel, Ergänzung zu

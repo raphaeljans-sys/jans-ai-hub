@@ -4,7 +4,7 @@
   "version": "2.0",
   "quellen": [
     "wissen/wettbewerbs-dna/wiki/muster/kennwerte-healthcare.md (B6, established, 12 Quellen / 11 externe Juryberichte + eigene Teilnahme 2101, vier unabhaengige Refuter-Wellen, 25.07.2026) — Programm-/Konstruktions-/Verfahrenskennwerte",
-    "wissen/wettbewerbs-dna/wiki/muster/jury-argumente-healthcare.md (B4, established, 8 Quellen, 5-Shard-Refuter-Welle + Konsistenz-Refuter, 25.07.2026) — Typologie-/Jury-Argumente/K.o.-Punkte",
+    "wissen/wettbewerbs-dna/wiki/muster/jury-argumente-healthcare.md (B4, established, 15 Quellen, 5-Shard-Refuter-Welle + Konsistenz-Refuter, Stand 17.08.2026 — Abschnitt 7 'Rueckkopplung' aus den eigenen Teilnahmen 2101 KSSG H14 und 2205 Guggerbach ergaenzt; Quellenzahl von 8 auf 15 gewachsen, Stand nachgezogen vom Wissens-Chef Run 35) — Typologie-/Jury-Argumente/K.o.-Punkte",
     "wissen/immobilienbewertung/wiki/realwert-sachwert.md (JANS 8-Objekt-Referenzvergleich Altersheime/Gesundheitszentren CH 2011-2025, Run 14; NUR fuer den CHF/m3-Kostenhinweis, nicht fuer die uebrigen Felder)"
   ],
   "scope_hinweis": "Bewusst auf die Subtypen Pflegeheim/Alterszentrum, Demenz-Sondertyp und betreutes Alterswohnen begrenzt (JANS-Auftragsprofil, vgl. 2410-WALD). Akutspital, Psychiatrie und der gemischte Subtyp (Pflege+Alterswohnen) sind in B4/B6 mit eigenen, teils abweichenden Kennwerten belegt, aber NICHT in dieses Set uebernommen — Subtypen duerfen laut B6 nie quer uebertragen werden. Eigene Sets healthcare-akutspital.json / healthcare-psychiatrie.json sind in INDEX.md als geplant vermerkt.",

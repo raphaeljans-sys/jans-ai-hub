@@ -18,6 +18,10 @@ links:
   - "[[teilnahmen/2101-kssg-h14]]"
   - "[[teilnahmen/2205-guggerbach]]"
   - "[[jury-argumente-schulbauten]]"
+  - "ABNEHMER: wissen/entwurfs-referenzen/wiki/parameter-sets/healthcare-neubau-zh.json zitiert
+    diesen Artikel als materielle B4-Quelle fuer Typologie- und K.o.-Punkte (Abnehmer-Vermerk
+    gesetzt vom Wissens-Chef Run 35, 17.08.2026 — analog Run 16). Wer hier inhaltlich aendert,
+    prueft dort die Quellen- und Standangabe mit."
   - "[[extern/jurybericht-kantonsspital-aarau-ksa]]"
   - "[[extern/jurybericht-alterszentrum-sihlsana-adliswil]]"
   - "[[extern/jurybericht-ipw-klinik-schlosstal-winterthur]]"

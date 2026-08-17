@@ -3,7 +3,7 @@ title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
 last_updated: 2026-08-17 (Run 16)
 sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md, raw/zuercher-index-wohnbaupreise-2025-10-update.md, raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md, raw/2304-waedenswil-residualwert-zwei-varianten.md]
-links: []
+links: [wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, wissen/immobilienbewertung/wiki/flaechendefinitionen-sia, wissen/immobilienbewertung/wiki/wissensluecken]
 ---
 
 # Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
