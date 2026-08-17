@@ -3,6 +3,29 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 17.08.2026, 17:45 (Synergie-Lauf 10 — **Rechtsstand in einer Textquelle, aus der
+Vertragsbedingungen entstehen; keine Frist für Raphael, aber ein Entscheid**):
+
+**Die Ausschreibungs-Wissensbasis führt eine überholte SIA-118-Fristenformel.**
+`skills/ausschreibung/wissensbasis/06_glossar.md` Z. 23 und
+`wissensbasis/07_werkvertrag-unternehmerkontrolle.md` Z. 13 sagen beide «2 Jahre Rügefrist +
+5 Jahre verdeckte Mängel (SIA 118)». Zwei Probleme, beide am Destillat belegt: die 5 Jahre sind
+die Verjährung **aller** Mängelrechte (Art. 180, 10 Jahre bei absichtlichem Verschweigen), nicht
+eine Sonderfrist für verdeckte Mängel — und die Rügepflicht für verdeckte Mängel beträgt seit
+**01.01.2026 zwingend 60 Tage ab Entdeckung** statt «sofort» (OR-Revision Baumängel, Korrigenda
+SIA 118-C1:2026, `wissen/normen/destillate/sia-118-c1-2026.md`, established, refuter-bestanden
+07.08.2026). Die Frist ist zwingendes Gesetzesrecht und geht vertraglichen Bestimmungen vor, gilt
+also für jeden Neuvertrag ohnehin. **Warum das hier steht und nicht nur im Synergie-Register:**
+Genau denselben additiven Hinweis hat der Wissens-Chef am 13.08. in der Werkvertrags-Vorlage und
+im Abnahmeprotokoll gesetzt — `ausschreibung` ist der **vorgelagerte** Skill, in dem die Texte
+entstehen, und wurde dabei übersprungen; der Vermerk «noch ungeprüft» blieb im abgebenden
+Register liegen. **Nicht selbst korrigiert**, weil die Stellen über Devis und LV nach aussen
+wirken und Geld- sowie Rechtsfolge tragen. Die Fundstellenpflicht (Rule `normen-referenz`) ist im
+Contract des Skills gesetzt und greift ab sofort, auch solange der Wortlaut unverändert ist.
+**Status: offen, Entscheid Raphael** — fertiger Ersatzwortlaut im Laufbericht
+`wissen/koordination/outputs/2026-08-17_synergie-lauf-10.md` (SYN-34). |
+Am Destillat und an beiden Wissensbasis-Dateien gelesen, 17.08.2026 17:45
+
 Eintrag 17.08.2026, 08:39 (Hub-Chef — **der Türbuch-Termin hat sich seit dem Radar gedreht, und
 zwar nach oben**):
 
