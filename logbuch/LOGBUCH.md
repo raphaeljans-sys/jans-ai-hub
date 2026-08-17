@@ -5,6 +5,46 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 17.08.2026 (08:39, gesendet) — der Türbuch-Termin hat eine Zusage bekommen, 25 Minuten nach dem Radar
+
+**Signale:** Radar-Briefing 06:55 und Konversations-Destillat 260817 gelesen (Pflichtlektüre,
+beide vorhanden); ein AG-Gründungs-Abschnitt fehlt erneut, der Monitor hat seit dem 07.08. keinen
+geschrieben — zehnter Tag, der Strang wird weiterhin hier mitgetragen. Mail-Vorfilter 26 h über
+alle Konten: **eine einzige Fremdmail** (SwissSign INV2049252). Freigabe-Queue mac-mini 0 ·
+macbook-pro 0, keine Einträge ab 12 h; Stationen-Watchdog fristgerecht; Sync-, Remote- und
+Widerruf-Queues leer. bexio weiterhin 401 (Verzugscheck 08:05, Hygiene-Lauf 08:2x, beide im
+Register nachgetragen).
+
+**Befund des Laufs (neu gegenüber dem Radar):** Am Graph-Original des Kalendereintrags gemessen
+hat **Lior Merci um 07:20 zugesagt** (`responseTime 2026-08-17T05:20:50Z`), also nach der
+Radar-Messung von 06:55. Der Radar hatte «keine einzige Zusage» gemeldet; das war zu seiner Zeit
+richtig und ist überholt, keine Fehlmessung. Stand um 08:45: Merci zugesagt, Ramminger abgesagt,
+Hiltmann und Otschkowski (TeKoSi) ohne Antwort. Damit ist die Entscheidungslage eine andere —
+der Termin hängt nur noch an TeKoSi.
+
+**Aktion A5 (Mail-Entwurf bereitgestellt):** Nachfrage an Levi Hiltmann, Cc Roman Otschkowski und
+Lior Merci, Betreff wie der Kalendereintrag. Auslöser: Termin in unter zwei Stunden, TeKoSi ohne
+Antwort. Guards: bestehende Korrespondenz belegt (Einladung 14.08. aus rj@), Optionen 2 und 3
+wörtlich aus der Original-Einladung übernommen statt geschätzt, QS `korrektur` (Rechtschreibung
+GRÜN, Layout GELB mit fünf Punkten, alle eingearbeitet) und `twin`-Gate (Fidelity 76, Veredelung
+Beziehung/Stimme ausgeführt: «Hoi» → «Geschätzter» wegen der zwei Cc, Dramaturgie auf
+Sachlage → Konsequenz → nächster Schritt gedreht). Die vom Twin gesetzte Rückmeldefrist «bis
+09:30» wurde **gestrichen**, weil sie eine eigene Setzung ohne Beleg war und Raphael von 09:00
+bis 10:00 in der PPTS-Sitzung sitzt. Ergebnis: Entwurf liegt in rj@, Body 733 Zeichen
+(nachgemessen, kein Leer-Draft). **Nicht versendet** — der Entscheid durchführen/verschieben/
+absagen gehört Raphael, und A2 lässt Terminänderungen ohnehin nur als Vorschlag zu.
+
+**Aktion A4 (Register gepflegt):** Fristen-Register um den Terminstand und die SwissSign-Rechnung
+ergänzt (INV2049252, CHF 26.20 inkl., **bezahlt mit Kreditkarte**, keine Frist; Randbefund: die
+Rechnung läuft auf Saumstrasse 21 statt auf die Geschäftsadresse). `rules/anrede-kontakte.md` um
+**Levi Hiltmann (Du, belegt)** ergänzt; für Roman Otschkowski ist kein Register belegt, dort
+wurde bewusst nichts eingetragen.
+
+**Nicht gehandelt:** keine Mahnung, keine Buchung, kein Versand (A1 bleibt gesperrt, solange
+bexio 401 antwortet und Tx 3630 ungeprüft ist). Nichts gelöscht, nichts überschrieben.
+
+---
+
 ## 2026-08-17 07:12–07:20 (Wissens-Destillat, Korpus `buero-projekte`, Run 1) — eine Lesson destilliert, [t]/P1-Rest abgearbeitet, Kurator-Prüfung durchgeführt
 
 Pipeline-Treiber (`destillat-lauf.sh buero-projekte`) im Vordergrund gefahren: Phase 1 (Haiku,

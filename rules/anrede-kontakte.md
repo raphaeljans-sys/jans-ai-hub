@@ -31,6 +31,7 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 | Beson | fsgbau, Bauunternehmer | Wartstrasse 8 | Sie | Gleicher Betrieb wie Besnik, anderer Ansprechpartner → Sie |
 | Christoph Bopp | WOMA, Geschäftspartner | kunde-bopp | **Du** | «Geschätzter Christoph» bei Offerte/Gewicht, sonst Hoi/Lieber |
 | Guido Giacometti | Steinmann AG, Werkplaner Fenster | Wartstrasse 8 | Sie | Warm-Sie, eingespielte Zusammenarbeit |
+| Levi Hiltmann | TeKoSi AG, Türen/System | 2619 KISPI, Los 231.10 | **Du** | «Geschätzter Levi» + «Lieber Gruss» in der Einladung vom 14.08.2026 (Raphaels eigene Hand, Kalendereintrag rj@); nachgetragen 17.08.2026. Kollege Roman Otschkowski (TeKoSi) hat **kein belegtes Register** — dort nicht raten |
 | Angela Hottinger | Stadt Zürich, Kreisarchitektin AfB | Wartstrasse 8 u.a. | Sie | Warm-formell «Geschätzte Frau Hottinger», seit Erstkontakt 2025 eingespielt |
 | Labinot Shabani | 38 Grad Gebäudetechnik GmbH, Geschäftsführer | KISPI u.a. | **Du** | «Hoi Labi»/«Guten Morgen Labinot» |
 | Albin Spahic | Universitäts-Kinderspital Zürich, Technischer Dienst | 2619 KISPI | **Du** | Per Du seit Projektstart KISPI |

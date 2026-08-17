@@ -3,6 +3,30 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+Eintrag 17.08.2026, 08:39 (Hub-Chef — **der Türbuch-Termin hat sich seit dem Radar gedreht, und
+zwar nach oben**):
+
+**Lior Merci hat um 07:20 zugesagt, 25 Minuten nach der Radar-Messung.** Am Graph-Original des
+Kalendereintrags nachgemessen (`responseTime 2026-08-17T05:20:50Z`), nicht am Apple-Spiegel. Der
+Radar-Befund von 06:55 «von vier eingeladenen Personen hat KEINE zugesagt» war zu seiner Zeit
+korrekt und ist keine Fehlmessung, er ist überholt. **Stand um 08:45: Lior Merci (KISPI)
+zugesagt · Nora Ramminger (KISPI) abgesagt (14.08. 17:13, ferienbedingt) · Levi Hiltmann und
+Roman Otschkowski (beide TeKoSi) ohne Antwort.** Damit steht die KISPI-Seite, offen ist allein
+TeKoSi — und genau an Levi Hiltmann war die Einladung adressiert. Die Entscheidungslage ist
+dadurch eine andere als heute früh: nicht «Termin ohne Besetzung», sondern «Termin, der an einer
+Zusage hängt». **Entwurf bereitgestellt** (A5, Nachfrage an Levi Hiltmann, Cc Otschkowski und
+Merci, Optionen 2 und 3 aus der Original-Einladung belegt übernommen). Entscheid bleibt bei
+Raphael. | Graph-Kalendereintrag rj@ am Original gelesen, 17.08.2026 08:45
+
+**Neu eingegangen, ohne Handlungsbedarf: SwissSign-Rechnung INV2049252 vom 15.08.2026**, im
+Postfach am 17.08. 07:30. Am PDF gelesen: «Web Signatures (10x)», CHF 24.24 exkl., CHF 26.20
+inkl. 8.1 % MWST, Vertrag CNTR2031509, Zahlungskondition **«Bezahlt mit Kreditkarte»** — also
+keine offene Position und keine Frist. Randbeobachtung ohne Frist: die Rechnung ist an
+**Saumstrasse 21, 8003 Zürich** adressiert, nicht an die Geschäftsadresse Grubenstrasse 37; für
+die Buchhaltung ist die Adresse bei SwissSign zu korrigieren, wenn die Position geschäftlich
+laufen soll. Status: **erledigt (bezahlt), Adressnachführung offen ohne Frist.** |
+Rechnung_INV2049252.pdf am Beleg gelesen, 17.08.2026 08:42
+
 Eintrag 17.08.2026, 06:55 (Logbuch-Radar — **der Montagstermin ist am Kalender geprüft, und die
 Lage ist schlechter als am Freitag angenommen**):
 
