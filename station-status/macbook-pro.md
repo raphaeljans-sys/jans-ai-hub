@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.08.2026 17:14:17
+Stand: 17.08.2026 17:24:33
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 17.08.2026 17:14:17
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 2a06264c nas-selfcommit: 3 Datei(en) 2026-08-17 17:00
+- 91a5a53a Synergie-Lauf 10: SYN-34 als offener Entscheid ins Fristenregister (Rule 260805)
