@@ -145,7 +145,7 @@ AHB-Ordner, noch gar keine Fuehrungszeile. Gesetzt, in beide Richtungen.
 
 ---
 
-## 4 · Ausgefuehrte Aktionen (14 Dateien)
+## 4 · Ausgefuehrte Aktionen (14 inhaltliche Dateien; dazu 8 CHANGELOG-Eintraege und dieser Bericht)
 
 | # | Datei | Aktion | numstat |
 |---|---|---|---|
