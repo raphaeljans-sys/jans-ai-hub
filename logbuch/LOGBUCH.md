@@ -5,6 +5,23 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## 2026-08-17 13:30-13:47 (Mac Mini Nachtschicht, Versuchs-Slot, Prioritaet 4 KB-Training) — energie: WDV 8.6.2022 (LS 700.211) beschafft, E-R138-1 gelöst
+
+Prioritaeten 1-3 geprueft und leer (remote-tasks/pending nicht vorhanden, sync-tasks/mac-mini leer,
+Synobsis 853/853 vollstaendig, kein neues offenes Material; fristen.md ohne neuen Entwurfsbedarf,
+bestehende Punkte sind bereits Aktion-Raphael/beobachten). Bauprodukte per eigenem PROGRAMM.md-
+Statuskopf seit 15.08. explizit kein gueltiges Ziel mehr; grobkosten/projekt-lessons weiterhin
+ausgesetzt. Einziges freies Ziel: `energie` (kein aktiver Taktgeber, `energie-training` enabled:
+false, event-getriggert). Dort lag bereits Run 138 von heute Morgen (07:45) mit einem klar
+benannten P1-Folgepunkt E-R138-1 vor: die WDV Kt. ZH vom 8. Juni 2022 (LS 700.211) fehlte im
+Volltext. Per WebSearch+WebFetch direkt ueber die offizielle `zh.ch`-Rechtsgrundlagen-Seite bezogen
+(9 S., vollstaendig gelesen), destilliert (`destillate/waermedaemmvorschriften-zh-2022.md`, status
+established), `wiki/energienachweis-zh.md` + FAQ F242 nachgefuehrt, QUESTIONS/INDEX/CHANGELOG/
+curriculum aktualisiert, neuer Folgepunkt E-R139-1 (SIA 380/1:2016 + BBV-I-/EnerG-Paragraphen)
+gesetzt. NAS committet sich selbst (nas-selfcommit, kein Git ueber SMB).
+
+---
+
 ## Hub-Chef 17.08.2026 (08:39, gesendet) — der Türbuch-Termin hat eine Zusage bekommen, 25 Minuten nach dem Radar
 
 **Signale:** Radar-Briefing 06:55 und Konversations-Destillat 260817 gelesen (Pflichtlektüre,

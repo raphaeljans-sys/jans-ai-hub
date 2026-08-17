@@ -3427,16 +3427,21 @@ durchfuehrbar.
   sind bereits in `pdf-inventar.md` als `[-]` entschieden, nur nicht in `_INGESTED.md` gespiegelt
   (Mess-Artefakt, siehe Folgepunkt E-R138-2). **Ab jetzt gilt 107/131 (bzw. die 24er-Restliste)
   als Fortschrittszahl — nicht mehr «84 von 182».**
-- [ ] **E-R138-1 (P1, neu): Wärmedämmvorschriften Kt. ZH vom 8. Juni 2022 (LS 700.211) beschaffen
-  und destillieren.** Kreuzabgleich mit `baurecht` (`raw/260607_amtlich_zh_bzo-zurich-stadt.md`)
-  belegt, dass dies die heute geltende Fassung ist — sie liegt weder in PL-02 noch anderswo im Hub
-  im Volltext vor, nur als Fundort-Hinweis in `baurecht/outputs/2026-08-03_triage-reglemente-
-  2414-thalwil.md` zu einer Datei in einem Projektordner (nicht PL-02, nicht ohne Weiteres per
-  Graph-Drive-ID erreichbar). Wege: (a) der genannte Projektordner «2414 Thalwil», (b) direkt via
-  `zhlex.zh.ch`/`www.zh.ch` (Web-Weg, mit Datenstand). **Höchste Priorität** — einzige fehlende,
-  aktuell verbindliche Zahlenquelle für die ZH-Wärmedämmung; `[[waermedaemmvorschriften-zh-2009-
-  historisch]]` und `[[vollzugsordner-energie-zh-abschnitt1-2]]` können erst danach auf `emerging`
-  mit vollständiger Aktualitätsprüfung gehoben werden.
+- [x] **E-R138-1 (P1, gelöst Run 139, 17.08.2026 Versuchs-Slot Nachtschicht Mac Mini): Wärmedämmvorschriften
+  Kt. ZH vom 8. Juni 2022 (LS 700.211) beschafft und destilliert.** Weg (b) gewählt — offizielle
+  Rechtsgrundlagen-Seite `zh.ch` (nicht der Projektordner-Umweg), Volltext-PDF vollständig gelesen
+  (9 Seiten). Destillat `destillate/waermedaemmvorschriften-zh-2022.md`, status `established`.
+  `wiki/energienachweis-zh.md` und `wiki/BAUHERREN-FAQ.md` (F-WDV) nachgeführt. `[[waermedaemmvorschriften-
+  zh-2009-historisch]]` bleibt bewusst `superseded` (korrekt, historische Fassung). Neuer Folgepunkt:
+  E-R139-1 unten (SIA 380/1:2016 selbst und §§ 47a BBV I / 10a/10c/11 Abs. 4 EnerG fehlen noch im
+  Volltext — die WDV verweist nur auf deren Tabellen, enthält sie nicht).
+- [ ] **E-R139-1 (P2, neu): SIA 380/1:2016 (Heizwärmebedarf) und die referenzierten §§ 47a BBV I /
+  10a, 10c, 11 Abs. 4 EnerG im Volltext beschaffen.** Die WDV 2022 (`[[waermedaemmvorschriften-
+  zh-2022]]`) verweist durchgehend auf Tabellen 2/3/5/6 der Norm SIA 380/1:2016 und auf diese
+  Paragraphen, enthält die Zahlenwerte aber nicht selbst — ohne die Norm bleiben die U-Wert-/
+  QH,li-Grenzwerte nur indirekt (über die historische 2009er-Tabelle) rekonstruierbar. SIA-Normkauf
+  ist ein Geldentscheid (vgl. den seit Run 98 hängenden Normkäufe-Punkt in `logbuch/fristen.md`),
+  BBV-I/EnerG-Paragraphen sind dagegen frei über `zh.ch`/ZH-Lex beziehbar wie die WDV selbst.
 - [ ] **E-R138-2 (P3, neu): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
   nachführen.** Der E-R137-1-Befund zeigt, dass mindestens 5 in `pdf-inventar.md` bereits geprüfte
   und bewusst nicht destillierte Werke (Run 126, 135) in `_INGESTED.md` fehlen und deshalb bei

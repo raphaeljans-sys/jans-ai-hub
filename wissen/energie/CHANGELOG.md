@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-08-17 (Run 139, Versuchs-Slot Mac-Mini-Nachtschicht 13:30) — WDV 8.6.2022 (LS 700.211) beschafft und destilliert, E-R138-1 gelöst
+
+- **E-R138-1 (P1) gelöst:** Wärmedämmvorschriften Kt. Zürich vom 8. Juni 2022, LS 700.211 (die
+  heute geltende Fassung, in Kraft seit 01.09.2022) direkt via `zh.ch`-Rechtsgrundlagen-Seite
+  bezogen (9 Seiten, vollständig gelesen) und destilliert: neues Destillat
+  `destillate/waermedaemmvorschriften-zh-2022.md`, status **established**. Kernpunkte:
+  Wärmeschutznachweis nach SIA 380/1:2016 (Einzelanforderungen Tabellen 2/3/5 oder
+  Systemanforderung QH,li Tabelle 6, PH,li ≤ 20 W/m² Gebäudekat. I/IV bzw. 25 W/m² Kat. II/III),
+  Dämmstärken-Tabelle Heizungs-/Warmwasserleitungen (§ 6), 4 Standardlösungen für Neubauten
+  (§ 9, Gebäudekat. I/II), 11 Standardlösungen für Wärmeerzeugerersatz (§ 10, inkl. SL 8
+  Fensterersatz U ≤ 0,7 W/(m²·K) und SL 9 Fassaden-/Dachdämmung U ≤ 0,20 W/(m²·K)),
+  Wintergarten-Ausnützungsbefreiung (§§ 11-12).
+- `wiki/energienachweis-zh.md` und `wiki/BAUHERREN-FAQ.md` (F242) nachgeführt, `sources`-Frontmatter
+  ergänzt, `destillate/INDEX.md` neuer Eintrag. Die historische Ausgabe 2009
+  (`[[waermedaemmvorschriften-zh-2009-historisch]]`) bleibt bewusst `superseded`, dient nur noch
+  dem Alt/Neu-Vergleich.
+- Neuer Folgepunkt **E-R139-1 (P2):** SIA 380/1:2016 selbst (referenzierte Tabellen 2/3/5/6) sowie
+  §§ 47a BBV I / 10a, 10c, 11 Abs. 4 EnerG liegen noch nicht im Volltext vor — die WDV verweist
+  nur auf deren Zahlenwerte, enthält sie nicht selbst. SIA-Normkauf ist ein Geldentscheid (hängt
+  bereits seit Run 98 in `logbuch/fristen.md`); die EnerG-/BBV-I-Paragraphen sind dagegen frei
+  über `zh.ch` beziehbar wie die WDV selbst.
+
 ## 2026-08-17 (Run 138) — Energierecht-ZH-Ordner abgeschlossen, WDV-2022-Lücke aufgedeckt, E-R137-1 gelöst
 
 - Drei neue Destillate aus dem Restordner `01_Gesetze/02_Zuerich/Energie/` (PL-02):

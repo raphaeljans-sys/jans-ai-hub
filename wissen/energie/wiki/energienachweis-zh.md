@@ -2,7 +2,7 @@
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
 last_updated: 2026-08-17
-sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md]
+sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]]
 ---
 
@@ -102,8 +102,8 @@ die Planerleistung, die sich mit dem Normwechsel nicht geändert hat.
 → Bauherren-FAQ **F229**, Destillate `[[ahb-checkliste-nachweis-beleuchtung]]`,
 `[[ahb-zuerich-gt-rl8-beleuchtung]]`.
 
-## Rechtsgrundlage Wärmedämmung — welche WDV-Fassung gilt heute (Ergänzung Run 138, 2026-08-17)
-Diese KB hatte bisher **keine Fundstelle** für die Ordnungsnummer der geltenden Wärmedämmvorschriften. Kreuzabgleich mit `baurecht` (`raw/260607_amtlich_zh_bzo-zurich-stadt.md`) belegt: die heute massgebliche Fassung ist **WDV vom 8. Juni 2022, LS 700.211**. Diese Fassung liegt weder in dieser KB noch in PL-02 im Volltext vor (nur als Fundort-Hinweis in einem `baurecht`-Triage-Dokument zu einem Projektordner). Destilliert und primärquellenbelegt ist bisher nur die **historische Ausgabe 2009** → [[waermedaemmvorschriften-zh-2009-historisch]] (status `superseded`, mit vollständiger 2009er-Grenzwerttabelle als historische Referenz). **Offener Punkt E-R138-1:** WDV 8.6.2022 beschaffen und destillieren — höchste Priorität im PL-02-Loop, weil sie die einzige noch fehlende, aktuell verbindliche Zahlenquelle für die ZH-Wärmedämmung ist. Ergänzend: der ZH-Vollzugsordner (Stand 2013, Verfahrenslogik Neu-/Umbau) ist teildestilliert → [[vollzugsordner-energie-zh-abschnitt1-2]].
+## Rechtsgrundlage Wärmedämmung — welche WDV-Fassung gilt heute (Ergänzung Run 139, 2026-08-17)
+Die heute massgebliche Fassung ist **WDV vom 8. Juni 2022, LS 700.211**, in Kraft seit 01.09.2022 — seit Run 139 im Volltext destilliert und primärquellenbelegt: → [[waermedaemmvorschriften-zh-2022]] (status `established`, bezogen direkt über `zh.ch`). Kernpunkt: Wärmeschutznachweis nach SIA 380/1:2016 (Einzelanforderungen Tabellen 2/3/5 oder Systemanforderung QH,li Tabelle 6, PH,li ≤ 20 W/m² Kat. I/IV bzw. 25 W/m² Kat. II/III), vier Standardlösungen für Neubauten (§ 9) sowie 11 Standardlösungen für Wärmeerzeugerersatz (§ 10, inkl. Fassaden-/Dachdämmung als eigene SL 9 und Fensterersatz als SL 8). Die **historische Ausgabe 2009** → [[waermedaemmvorschriften-zh-2009-historisch]] (status `superseded`) bleibt als Referenz für den Vergleich alt/neu erhalten. Ergänzend: der ZH-Vollzugsordner (Stand 2013, Verfahrenslogik Neu-/Umbau) ist teildestilliert → [[vollzugsordner-energie-zh-abschnitt1-2]] und referenziert noch die 2009er-Fassung — bei Bedarf gegen die 2022er-Fassung gegenlesen, nicht blind übernehmen. Offen: SIA 380/1:2016 selbst und die referenzierten EnerG-/BBV-I-Paragraphen fehlen noch im Volltext (E-R139-1, `wiki/QUESTIONS.md`).
 
 ## Quelle / Abgrenzung
 EN-ZH-005 (Baudirektion ZH/AWEL, Juli 2022) → `[[en-zh-nachweis-uebersicht]]`; EVEN-Stand via

@@ -2389,3 +2389,28 @@ gespiegelt (neuer Pflegepunkt E-R138-2, P3). **Ab jetzt gilt 107/131 als Bezugsg
 S. 46-80). 3. Die rund 19 echten Restwerke aus der 24er-Liste (`pdf-inventar.md`), grösste zuerst:
 `5.26PflanzenamBau.pdf`, beide `Richtlinie_Anlagedokumentation`-Dateien,
 `Uebersichtstabelle_Beleuchtung_EN12464-1.pdf`.
+
+## Run 139 (17.08.2026, Versuchs-Slot Mac-Mini-Nachtschicht 13:30) — E-R138-1 gelöst: WDV 8.6.2022 beschafft
+
+**E-R138-1 gelöst.** Statt des unsicheren Projektordner-Wegs («2414 Thalwil») direkt über die
+offizielle `zh.ch`-Rechtsgrundlagen-Seite bezogen: Wärmedämmvorschriften vom 8. Juni 2022,
+LS 700.211, 9 Seiten, vollständig gelesen. Neues Destillat `waermedaemmvorschriften-zh-2022`,
+status **established** (löst damit die einzige noch fehlende, aktuell verbindliche Zahlenquelle
+für die ZH-Wärmedämmung). Kern: Wärmeschutznachweis SIA 380/1:2016 (Einzel- oder
+Systemanforderung), Dämmstärken-Tabelle Leitungen, 4 Standardlösungen Neubau (§ 9), 11
+Standardlösungen Wärmeerzeugerersatz (§ 10, u.a. Fensterersatz SL 8, Fassaden-/Dachdämmung
+SL 9), Wintergarten-Ausnützungsbefreiung. `energienachweis-zh` und FAQ **F242** nachgeführt.
+Die 2009er-Ausgabe bleibt bewusst `superseded` (korrekter historischer Referenzstatus, keine
+Statusänderung nötig); der Vollzugsordner (`vollzugsordner-energie-zh-abschnitt1-2`, `emerging`)
+verweist weiterhin auf die 2009er-Fassung und wurde entsprechend mit einem Gegenlese-Hinweis
+versehen, nicht selbst überarbeitet (ausserhalb Budget dieses kurzen Laufs).
+
+Neuer Folgepunkt **E-R139-1 (P2):** SIA 380/1:2016 selbst und die referenzierten §§ 47a BBV I /
+10a, 10c, 11 Abs. 4 EnerG fehlen noch im Volltext — die WDV verweist nur auf deren Tabellen/
+Paragraphen, enthält sie nicht. SIA-Normkauf bleibt der hängende Geldentscheid aus
+`logbuch/fristen.md` (seit Run 98); die EnerG-/BBV-I-Paragraphen sind dagegen frei über `zh.ch`
+beziehbar, analog zur WDV selbst.
+
+**Nächste Priorität:** 1. E-R139-1 (SIA 380/1:2016-Tabellen + BBV-I-/EnerG-Paragraphen). 2.
+Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80) — dabei die 2022er-WDV als aktuellen
+Massstab gegenlesen. 3. Die rund 19 echten Restwerke aus der 24er-Liste (`pdf-inventar.md`).
