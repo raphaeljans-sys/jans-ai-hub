@@ -53,7 +53,7 @@ Klassen sauber trennen:
 | **T1** | **BZO-Revision 2025** | `02 BZO Thalwil/_BZO-Revision 2025/`: `20250416-BZO-Vorschriften-Synopse.pdf`, `20250905-Auslegung-negative-Vorwirkung-BZO-Artikel.pdf` | neuer `raw/`-Volltext revBZO Thalwil + neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]] | **erledigt** (Run 72, 03.08.2026) |
 | **T2** | **Umgebungsgestaltung** | `02 BZO Thalwil/02 Umgebungsgestaltung/` (Gartenmauern, Vorgarten, Grünanteil) | Wiki [[umgebungsgestaltung-und-einfriedungen]] (neu) | **erledigt** (Run 73, 13.08.2026) |
 | **T3** | **Grundmasse + SBV W3** | `02 BZO Thalwil/01 Grundmasse/`, `Sonderbauvorschrift W3/`, `Zonenplan/` | [[zonenkonformitaet]] + [[nutzungsziffern]] schärfen | offen |
-| **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | offen |
+| **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | **erledigt** (Run 74, 17.08.2026) |
 | **T5** | **Einzelthemen** | `Kniestock/`, `Massgebendes Terrain/`, `Besonderes Gebäude/`, `Fahrzeugabstellplaetze/`, `Fensterflaechen/`, `Spiel und Ruheflaeche/`, `Baugespann/`, `Wohnungserhebung/` | je bestehender Wiki-Artikel | offen |
 | **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | offen |
 | **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | offen |
@@ -98,6 +98,44 @@ Klassen sauber trennen:
 - **T8 teilweise vorgezogen** (die drei Gartenmauer-Erzeugnisse liegen in diesem Ordner):
   Fehlerbericht in `outputs/2026-08-13_buch-run73.md`, Ziff. 4. Für T8 verbleiben die beiden
   Factsheets vom 03.07.2026 (Gartenmauern/Besondere Gebäude).
+
+### T4 — Merkblätter und Wegleitungen (Run 74, 17.08.2026)
+
+- **Kernbefund: die Klammer-Falle.** Art. 24 Abs. 3 BZO Thalwil und das Gemeinde-Merkblatt über
+  den Grenz-/Weg- und Strassenabstand (20.01.2022) geben **§ 18 Abs. 1 BBV II in drei Punkten
+  abweichend** wieder: Höhe 2,50 m statt **3 m**, «keine Abstandsvorschriften» statt Befreiung nur
+  **gegenüber grundstückinternen Gebäuden**, und die **6-m-Fassadenlänge** (inkl. Pergolen) fehlt
+  ganz. Die praktisch gefährlichste Divergenz ist die zweite: § 18 Abs. 1 BBV II befreit vom
+  **Gebäudeabstand innerhalb der eigenen Parzelle**, nicht vom **Grenzabstand zum Nachbarn** — und
+  der Satz steht ausgerechnet in einem Merkblatt über den Grenzabstand.
+- **Zweiteiliger Fassungsstand-Check (Leitplanke Run 71, erstmals kommunal angewandt):** Teil 1 —
+  die BBV II ist **in Kraft**, Nachtrag 097 (zhlex, 17.08.2026), also kein totes Recht. Teil 2 —
+  die Drift sitzt im **Inhalt** des Verweises. Ein Check auf Erlassebene allein hätte nichts
+  gefunden. Zusätzlich widerlegt: die 2,50 m sind **kein eingefrorener Altstand**. Die Fassung 067
+  (in Kraft bis 01.03.2017) wurde frisch von zhlex beschafft und lautet «grösste **Höhe 3 m**»; die
+  Änderung per 01.03.2017 war rein terminologisch («grösste Höhe» → «Gesamthöhe»).
+- **Anhang § 49 Abs. 3 PBG ist Ermächtigung, nicht Definition** — eine Kann-Vorschrift an die
+  Gemeinde. Ohne BZO-Regelung greift die Erleichterung nicht; unmittelbar wirkt **Anhang § 273 PBG**
+  (3,5 m Gebäudeabstand). Die Merkblatt-Zusatzkriterien (nicht beheizt · nicht von einem
+  anrechenbaren Raum zugänglich · Belichtung unter 10 %) stehen **nicht** im Gesetzeswortlaut und
+  sind Verwaltungspraxis.
+- **Messweisen-Merkblatt gegengelesen, kein Fehler gefunden.** Gebäudehöhe ab gewachsenem Boden,
+  Firsthöhe ab Gebäudehöhe bis First, Gesamthöhe als «maximal zulässige höchste Höhe unabhängig der
+  Dachform» — konsistent mit dem altrechtlichen Anhang-Regime und der BZO-Fussnote. **Verkürzt**
+  ist es aber: die eigentliche Begrenzung der Firsthöhe (45°-Ebene, 7 m, Anhang § 281 PBG) nennt
+  das Merkblatt nicht. Bestätigt wurde dabei der Bezugspunkt: in nicht harmonisierten Gemeinden
+  gilt der **gewachsene Boden**, nicht das **massgebende Terrain** (harmonisierter § 281 PBG).
+- **Kein neuer Wiki-Artikel, kein neuer `raw/`-Volltext.** Der Bestand ([[abstaende-und-hoehen]]
+  führt die Doppelspurigkeit harmonisiert/alt bereits sauber) trug den Befund; ergänzt wurden
+  [[gebaeudearten-und-abstandssystem]] (neue Gebäudeart + zwei Abschnitte) und das Destillat
+  [[15-lage-von-gebaeuden-teil2d]] (§ 18 **Abs. 1** fehlte, Abs. 2 war erfasst).
+- **Selbstkorrektur am Run-73-Report:** dessen «Fehler 2» («10 m²/2,50 m entsprechen keiner der
+  beiden Grössen») ist präzisiert — die Zahlen stammen wörtlich aus Art. 24 Abs. 3 BZO Thalwil,
+  also aus amtlicher kommunaler Quelle. Korrekturvermerk im Report gesetzt.
+- **Verbleibend aus diesem Ordner:** Merkblatt LEK, Merkblatt Qualitative Beurteilungskriterien und
+  die Wegleitung BZO 2020 wurden bereits in Run 73 beigezogen; ungeprüft bleibt das Blatt
+  «Gestaltung und Anordnung von Dachterrassen über Attikageschossen» (PNG) → sinnvoll bei T5
+  zusammen mit Art. 25 BZO (Attikageschosse).
 
 ## Arbeitsregeln je Batch
 

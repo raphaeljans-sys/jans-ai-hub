@@ -3,6 +3,37 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-17 (Buch-Run 74, Korpus-Batch T4) — Klammer-Falle kommunaler Verweise: § 18 Abs. 1 BBV II dreifach abweichend zitiert
+
+- **`wiki/gebaeudearten-und-abstandssystem.md`:** neue Gebäudeart **Gartenhaus/Schopf/
+  Gartensitzplatz** (§ 18 Abs. 1 BBV II: ≤ 10 m² · ≤ 6 m Fassadenlänge inkl. Pergolen · ≤ 3 m
+  Gesamthöhe) in die Tabelle aufgenommen, mit Fussnote 3 zur **Reichweite**: die Befreiung gilt
+  nur gegenüber **grundstückinternen Gebäuden**, der **Grenzabstand zum Nachbarn bleibt**. Zwei
+  neue Abschnitte: «Die Klammer-Falle: kommunale Verweise auf kantonale Normen» (Musterfall
+  Art. 24 Abs. 3 BZO Thalwil, Divergenztabelle, Fassungsvergleich 067/097) und «Anhang § 49
+  Abs. 3 PBG ist Ermächtigung, nicht Definition». Arbeitsanweisung in vier Schritten ergänzt.
+  `verifiziert`-Eintrag 2026-08-17, `last_updated` nachgeführt, sources und links erweitert.
+- **`buecher/band-2/15-lage-von-gebaeuden-teil2d.md`:** Ziff. 15.8.9.3a ergänzt — § 18 **Abs. 1**
+  BBV II fehlte im Destillat, während Abs. 2 (Familiengartenhäuser) erfasst war. Ausdrücklich als
+  Ergänzung am amtlichen Wortlaut gekennzeichnet, **ohne** Seitenbeleg zu erfinden; Seitenbeleg
+  steht aus. Frontmatter-Paragraphenliste nachgezogen.
+- **`wiki/INDEX.md`:** Registerzeile korrigiert — führte den Artikel als *emerging*, während der
+  Frontmatter seit 2026-07-13 *established* trägt (Register-Divergenz, gefunden im Pflicht-Sweep).
+- **`wiki/QUESTIONS.md`:** T-08 (welche Höhenzahl gilt in Thalwil — 2,50 m oder 3 m, am Bauamt zu
+  klären), **T-09 (Rechtsfolge des Ablaufs der achtjährigen BZO-Anpassungsfrist am 01.03.2025 —
+  betrifft jede noch nicht harmonisierte ZH-Gemeinde)**, T-10 (Wegabstand 3,5 m / VB.2005.00017
+  nur merkblatt-belegt).
+- **`training/drills.md`:** 2 neue Karten, beide am realen Fall Bohlweg 3 (Klammer-Falle bei
+  § 18 Abs. 1 BBV II · Normtypus des Anhang § 49 Abs. 3 PBG). Rein additiv.
+- **`training/PROGRAMM.md`:** zwei neue Leitplanken («Kommunale Klammerverweise sind kein Beleg»
+  und «Merkblatt-Aussagen dreiteilen») sowie Tracker-Eintrag Run 74.
+- **`training/KORPUS-QUEUE-thalwil-reglemente.md`:** T4 auf **erledigt**, Ergebnisabschnitt ergänzt.
+- **`outputs/2026-08-13_buch-run73.md`:** **Korrekturvermerk** gesetzt — die dort als erfunden
+  gerügten Masse «10 m²/2,50 m» stehen wörtlich in Art. 24 Abs. 3 BZO Thalwil. Das Verdikt bleibt
+  im Ergebnis bestehen (falsche Anwendung auf Mauern), die Begründung war unzutreffend. Der
+  Originaltext wurde **nicht** überschrieben, der Vermerk ist datiert angefügt.
+- **Report:** `outputs/2026-08-17_buch-run74.md`.
+
 ## 2026-08-15 (Wissens-Chef Run 33, Cross-KB) — Cross-Ref zur EBF im Buch-Destillat; SIA-358-Fassungsfrage im Register nachgezogen
 
 - **`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`, EBF/AE-Definition (S. 1259):**

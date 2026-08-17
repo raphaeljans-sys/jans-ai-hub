@@ -1,5 +1,41 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-08-17 (Buch-Run 74, Korpus-Batch T4) — Klammer-Falle, Anpassungsfrist, Wegabstand
+
+**T-08 · Welche Höhenzahl gilt bei Kleinbauten in Thalwil — 2,50 m oder 3 m? — offen,
+am Bauamt zu klären.** Art. 24 Abs. 3 BZO Thalwil verweist auf § 18 Abs. 1 BBV II und nennt
+in der Klammer «Gebäudehöhe max. 2.50 m»; die verwiesene Norm nennt **3 m Gesamthöhe** (in
+beiden Fassungen 067 und 097, verifiziert). Zwei Lesarten sind vertretbar: die Klammer als
+**eigenständige kommunale Verschärfung** (dann 2,50 m, gedeckt durch Anhang § 49 Abs. 3 PBG,
+der der Gemeinde die Regelung überlässt) oder als **Wiedergabe des Verweises** (dann 3 m, und
+die Klammer ist schlicht unrichtig). Hinzu kommt die abweichende **Messgrösse**: «Gebäudehöhe»
+(BZO) und «Gesamthöhe» (BBV II) sind im ZH-Recht nicht dasselbe. **Nicht selbst entscheiden:**
+in Projekten die strengere Annahme (2,50 m) rechnen und die Klärung als Vorbehalt setzen.
+Prüfweg: DLZ Bau, Energie und Umwelt Thalwil, Abt. Baubewilligungen. → [[gebaeudearten-und-abstandssystem]]
+
+**T-09 · Was folgt aus dem Ablauf der achtjährigen BZO-Anpassungsfrist am 01.03.2025? —
+offen, kantonsweite Tragweite.** Die Übergangsbestimmung zur PBG-Änderung vom 14.09.2015
+(OS 72, 52) lautet: «*Die Gemeinden passen ihre Bau- und Zonenordnungen bis spätestens acht
+Jahre ab Inkrafttreten dieses Gesetzes an*» — Inkrafttreten war der 01.03.2017, die Frist lief
+also am **01.03.2025** ab. Thalwils revBZO ist bis heute nicht in Kraft (→ T-01). Abs. 2
+derselben Bestimmung ordnet an, dass bis zur Anpassung die dort aufgezählten §§ in der alten
+Fassung anwendbar bleiben (Anhang PBG, Stand 28.02.2017), **ohne die Weitergeltung zeitlich zu
+befristen**. Naheliegend ist deshalb eine blosse **Ordnungsfrist**, deren Ablauf das
+Anhang-Regime nicht beendet — sonst entstünde ein Rechtsvakuum. **Belegt ist das nicht.**
+Zu klären an einem Entscheid oder einer Auskunft des ARE/der Baudirektion. Die Frage betrifft
+**jede noch nicht harmonisierte ZH-Gemeinde**, nicht nur Thalwil, und entscheidet mit, ob im
+Einzelfall gewachsener Boden/Gebäudehöhe (alt) oder massgebendes Terrain/Fassadenhöhe
+(harmonisiert) gilt → [[abstaende-und-hoehen]].
+
+**T-10 · Wegabstand 3,5 m und VB.2005.00017 — nicht am Urteilstext verifiziert.** Das
+Thalwiler Merkblatt über den Grenz-/Weg- und Strassenabstand (20.01.2022) unterscheidet bei
+Wegen ohne Baulinie: ab 3 m Breite gilt ein Wegabstand von **3,5 m**; bei schmaleren Wegen der
+ordentliche Grenzabstand ohne Mehrlängenzuschlag über den Weg hinaus, **maximal 6,5 m**, unter
+Berufung auf **VB.2005.00017**. Beide Zahlen sind bislang nur merkblatt-belegt; eine
+Gerichtsentscheid-Datenbank steht der KB weiterhin nicht zur Verfügung (gleiche Lage wie bei
+BEZ 1989 Nr. 21 / RB 1991 Nr. 84). Nicht als gesicherte Regel zitieren, bis der Urteilstext
+oder eine Norm-Grundlage vorliegt.
+
 ## 2026-08-03 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil: Verfahrensstand und ein Zitat-Flag
 
 **T-01 · Genehmigung und Inkrafttreten der revBZO Thalwil — offen, zu überwachen.**

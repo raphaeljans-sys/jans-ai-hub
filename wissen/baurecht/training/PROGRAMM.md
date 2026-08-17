@@ -126,6 +126,31 @@ Nicht nur lesen — **anwenden und pruefen**. Jeder Lauf nutzt mindestens eines:
   Synopsen die Spaltenzuordnung **wortweise** ueber die x-Position machen — `pdftotext` verschmilzt
   Tabellenzeilen ueber alle Spalten zu **einer** Zeile, und eine zeilenweise Zuordnung schreibt dann
   Werte der alten Fassung der neuen zu.
+- **KOMMUNALE Klammerverweise sind kein Beleg (Pruefregel Modell D, seit Run 74):** die
+  zweiteilige Fassungspruefung aus Run 71 galt kantonalen Verweisnormen. Run 74 fand dieselbe
+  Drift eine Ebene weiter unten, dort wo sie **haeufiger** vorkommt: im kommunalen Recht. Steht in
+  einer BZO oder einem Gemeinde-Merkblatt eine Fundstelle mit Klammer-Angabe («gemaess § X BBV II
+  (Grundflaeche …, Hoehe …)»), sind **Fundstelle und geklammerter Inhalt getrennt** am amtlichen
+  Erlasstext zu pruefen. Belegt an Art. 24 Abs. 3 BZO Thalwil: die Klammer nennt 2,50 m, § 18
+  Abs. 1 BBV II nennt **3 m Gesamthoehe**; die Klammer sagt «keine Abstandsvorschriften», die Norm
+  befreit nur **gegenueber grundstueckinternen Gebaeuden** (Grenzabstand bleibt!); die dritte
+  Voraussetzung (Fassadenlaenge 6 m inkl. Pergolen) fehlt ganz. **Der Erlass war dabei voellig
+  intakt** (BBV II in Kraft, Nachtrag 097) — ein Fassungsstand-Check auf Erlassebene haette nichts
+  gefunden. Zusatzbefund: die abweichende Zahl war **kein eingefrorener Altstand** (Fassung 067
+  lautete ebenfalls 3 m), also nie durch Alterung erklaerbar. Warum kommunal haeufiger: BZO-Texte
+  laufen jahrzehntelang unveraendert weiter, waehrend die verwiesenen kantonalen Erlasse revidiert
+  werden. **Und: ein Nullbefund gegen den kantonalen Bestand belegt nie, dass eine Zahl erfunden
+  ist** — sie kann aus dem kommunalen Recht stammen (Selbstkorrektur an Run 73, siehe dortigen
+  Korrekturvermerk).
+- **Merkblatt-Aussagen dreiteilen (Pruefregel Modell A, seit Run 74):** in einem Gemeinde-Merkblatt
+  stehen drei Dinge nebeneinander, optisch ununterscheidbar — **Gesetzeswortlaut**, **Auslegung**
+  und **blosse Verwaltungspraxis**. Vor der Uebernahme trennen. Belegt: das Thalwiler Merkblatt
+  stellt Anhang § 49 Abs. 3 PBG als Legaldefinition der «besonderen Gebaeude» dar, waehrend die
+  Norm eine **Kann-Ermaechtigung an die Gemeinde** ist (ohne BZO-Regelung greift sie nicht;
+  unmittelbar wirkt Anhang § 273 PBG mit 3,5 m Gebaeudeabstand), und ergaenzt drei Kriterien
+  (nicht beheizt · nicht von einem anrechenbaren Raum zugaenglich · Belichtung unter 10 %), die im
+  Gesetzeswortlaut **nicht vorkommen**. Schwesterregel zur Wegleitungs-Falle aus Run 73 (dort:
+  Masszahl ohne Rechtsgrundlage).
 - **Register-Sweep nach jeder Korrektur (seit Run 47):** derselbe Fakt steht regelmaessig an
   5-6 Fundorten (Wiki, Destillat, `buecher/INDEX.md`, `wiki/INDEX.md`, `training/curriculum.md`,
   `training/drills.md`). Eine Korrektur nur im Fliesstext laesst **Tabellen und Register
@@ -289,6 +314,30 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
+  - **Run 74 (2026-08-17, Festigungsmodus, Priorität (d) Korpus-Queue Batch T4 + Priorität (b),
+    kein Agent-Fan-out):** **Batch T4 (Merkblätter/Wegleitungen) erledigt** — auf Vorschlag von
+    Run 73 vor T3 gezogen, weil in diesem Ordner ungeklärter Rechtscharakter steckt. Der Vorschlag
+    hat sich bezahlt gemacht: **drei Neubefunde, keine Korrektur an bestehenden Wiki-Aussagen.**
+    (1) **Die Klammer-Falle** — Art. 24 Abs. 3 BZO Thalwil und das Gemeinde-Merkblatt vom
+    20.01.2022 geben § 18 Abs. 1 BBV II dreifach abweichend wieder (2,50 m statt **3 m**; «keine
+    Abstandsvorschriften» statt Befreiung nur **gegenüber grundstückinternen Gebäuden**;
+    6-m-Fassadenlänge fehlt). Die zweite Divergenz ist die gefährliche: der **Grenzabstand zum
+    Nachbarn bleibt bestehen**, und der Satz steht in einem Merkblatt über den Grenzabstand.
+    (2) **Der Fassungsstand-Check war zweiteilig nötig** — die BBV II ist völlig intakt (in Kraft,
+    Nachtrag 097, zhlex 17.08.2026); die Drift sitzt im Inhalt des Verweises. Ein Check auf
+    Erlassebene hätte nichts gefunden. Zusätzlich widerlegt: die 2,50 m sind **kein eingefrorener
+    Altstand** — die eigens von zhlex beschaffte Fassung 067 (bis 01.03.2017) lautet ebenfalls
+    «3 m», die Änderung war rein terminologisch. (3) **Anhang § 49 Abs. 3 PBG ist Ermächtigung,
+    nicht Definition**; die Merkblatt-Zusatzkriterien (nicht beheizt · Belichtung < 10 %) stehen
+    nicht im Gesetz. **Zwei neue Leitplanken** daraus (oben): «Kommunale Klammerverweise sind kein
+    Beleg» und «Merkblatt-Aussagen dreiteilen». **Selbstkorrektur:** Run 73 hatte einem
+    Claude-Erzeugnis erfundene Masse unterstellt («entsprechen keiner der beiden Grössen») — die
+    10 m²/2,50 m stehen wörtlich in Art. 24 Abs. 3 BZO Thalwil; Korrekturvermerk im Run-73-Report
+    gesetzt, das Verdikt bleibt im Ergebnis (falsche Anwendung auf Mauern) bestehen. Ergänzt:
+    [[gebaeudearten-und-abstandssystem]] (neue Gebäudeart § 18 Abs. 1 BBV II + zwei Abschnitte),
+    Destillat [[15-lage-von-gebaeuden-teil2d]] (Abs. 1 fehlte, Abs. 2 war erfasst), 2 Drill-Karten,
+    QUESTIONS T-08/T-09/T-10. **Kein neuer Wiki-Artikel und kein neuer `raw/`-Volltext nötig** —
+    der Bestand trug den Befund. Report: `outputs/2026-08-17_buch-run74.md`.
   - **Run 73 (2026-08-13, Festigungsmodus, Priorität (d) Korpus-Queue Batch T2 + Priorität (b),
     kein Agent-Fan-out):** **Die grösste gemessene Lücke der Priorität (d) ist geschlossen.**
     Neuer Wiki-Artikel **[[umgebungsgestaltung-und-einfriedungen]]** — Thema Nr. 4 der neun

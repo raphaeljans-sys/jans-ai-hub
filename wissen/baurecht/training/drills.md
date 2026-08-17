@@ -2545,3 +2545,39 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   (Rechtssatz) oder Merkblatt/Wegleitung (Verwaltungsverordnung) — und erst dann die Zahl. Wer die
   Zahl ohne die Fundstelle übernimmt, macht aus einer verhandelbaren Richtlinie geltendes Recht.
   _[2026-08-13]_
+
+### Modell A/D — Selbsttest-Karten (Klammer-Falle kommunaler Verweise, Buch-Run 74, 2026-08-17)
+
+- **F (Modell D / Verweisnormen, Fall Bohlweg 3):** Art. 24 Abs. 3 BZO Thalwil lautet: «Für
+  Kleinbauten gemäss § 18 Abs. 1 BBV II (Grundfläche kleiner 10 m², Gebäudehöhe max. 2.50 m) gelten
+  keine Abstandsvorschriften.» Der Bauherr will ein Gartenhaus von 9 m² und 2,40 m Höhe an die
+  Nachbargrenze stellen und beruft sich auf diesen Artikel. Trägt das? — **A: Nein, und der Satz
+  ist gleich dreifach unzuverlässig.** Der amtliche § 18 Abs. 1 BBV II befreit nur «**von den
+  Abstandsvorschriften gegenüber grundstückinternen Gebäuden**», also vom Gebäudeabstand
+  **innerhalb der eigenen Parzelle** — der **Grenzabstand zum Nachbarn bleibt bestehen**. Zweitens
+  nennt die Norm **3 m Gesamthöhe**, nicht 2,50 m: der Fassungsvergleich zeigt 067 (bis 1.3.2017)
+  «grösste Höhe 3 m» und 097 (geltend) «Gesamthöhe 3 m» — die Änderung war rein terminologisch, die
+  BZO-Zahl ist also **kein eingefrorener Altstand, sondern schlicht abweichend**. Drittens fehlt in
+  der Klammer die dritte Voraussetzung: **Fassadenlänge 6 m einschliesslich Pergolen**. Hinzu kommt,
+  dass die BZO über privatrechtliche (§§ 169 ff. EG ZGB) und strassenrechtliche Abstände (VErV) gar
+  nicht verfügen kann. **Lehre:** Ein kommunaler Verweis auf eine kantonale Norm ist **kein Beleg
+  für deren Inhalt**. Fundstelle und geklammerten Inhalt immer getrennt am amtlichen Erlasstext
+  prüfen — die Leitplanke «Verweisnormen zweiteilig prüfen» (Run 71) gilt auf kommunaler Ebene
+  häufiger, weil BZO-Texte jahrzehntelang unverändert weiterlaufen. _[2026-08-17]_
+
+- **F (Modell A / Normtypus, Fall Bohlweg 3):** Das Gemeinde-Merkblatt definiert: «Besondere
+  Gebäude gemäss Anhang § 49 Abs. 3 PBG sind Bauten, die nicht für den dauernden Aufenthalt von
+  Menschen bestimmt sind und deren grösste Höhe 4 m, bei Schrägdächern 5 m, nicht übersteigt. Sie
+  dürfen nicht beheizt sowie nicht direkt von einem anrechenbaren Raum aus zugänglich sein und
+  müssen eine Belichtung von deutlich unter 10 % aufweisen.» Was daran ist Gesetzeswortlaut? — **A:
+  Nur der erste Halbsatz, und auch der steht dort in anderer Funktion.** Anhang § 49 Abs. 3 PBG ist
+  keine Legaldefinition, sondern eine **Kann-Ermächtigung an die Gemeinde**: für Gebäude ohne
+  Daueraufenthalt bis 4 m (Schrägdach 5 m) *kann* die BZO von den kantonalen Mindestabständen
+  abweichen und den Grenzbau erleichtern. **Ohne BZO-Regelung greift die Erleichterung nicht**; die
+  unmittelbar wirkende Abstandsnorm ist **Anhang § 273 PBG** (3,5 m Gebäudeabstand, «wo die Bau- und
+  Zonenordnung nichts anderes bestimmt»). Die drei Zusatzkriterien — nicht beheizt, nicht von einem
+  anrechenbaren Raum zugänglich, Belichtung unter 10 % — stehen **nicht im Gesetz**; sie
+  konkretisieren das Merkmal «kein dauernder Aufenthalt» und sind **Verwaltungspraxis**. Sie dürfen
+  zitiert werden, aber als Praxis, nicht als Rechtssatz. **Lehre:** Beim Zitieren aus einem Merkblatt
+  immer trennen, was Gesetzeswortlaut, was Auslegung und was blosse Verwaltungspraxis ist — dieselbe
+  Dreiteilung wie bei der Wegleitungs-Falle aus Run 73. _[2026-08-17]_

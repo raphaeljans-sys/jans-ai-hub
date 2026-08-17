@@ -4,7 +4,7 @@ kapitel: 15 — Lage von Gebaeuden (Vorspruenge-Messweise, Erleichterungen, Naeh
 band: 2
 seiten: 1086-1123
 shots: 547-570
-paragraphen: ["§ 260 Abs. 2 PBG", "§ 260 Abs. 3 PBG", "§ 269 PBG", "§ 270 Abs. 1 PBG", "§ 270 Abs. 2 PBG", "§ 270 Abs. 3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 274 PBG", "§ 274 Abs. 1 PBG", "§ 274 Abs. 2 PBG", "§ 286 PBG", "§ 286 Abs. 2 PBG", "§ 287 PBG", "§ 287 lit. b PBG", "§ 289 PBG", "§ 289 Abs. 1 PBG", "§ 289 Abs. 2 PBG", "§ 290 PBG", "§ 290 Abs. 2 PBG", "§ 290 Abs. 3 PBG", "§ 291 PBG", "§ 302 PBG", "§ 310 Abs. 3 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 73 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 321 Abs. 1 PBG", "§ 357 Abs. 1 PBG", "§ 18 Abs. 2 BBV II", "§ 14 ABV", "§ 15 ABV", "§ 27 ABV", "§ 27 Abs. 2 ABV", "§ 30 ABV", "§ 31 ABV", "§ 33a ABV", "§ 10 ABV", "§ 5 lit. l BVV", "§ 85 BauG", "§ 109 BauG", "Art. 674 ZGB", "Art. 680 Abs. 2 ZGB", "Art. 26 RLV", "Art. 27 RLV", "Art. 38 LeV", "Art. 39 LeV"]
+paragraphen: ["§ 260 Abs. 2 PBG", "§ 260 Abs. 3 PBG", "§ 269 PBG", "§ 270 Abs. 1 PBG", "§ 270 Abs. 2 PBG", "§ 270 Abs. 3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 274 PBG", "§ 274 Abs. 1 PBG", "§ 274 Abs. 2 PBG", "§ 286 PBG", "§ 286 Abs. 2 PBG", "§ 287 PBG", "§ 287 lit. b PBG", "§ 289 PBG", "§ 289 Abs. 1 PBG", "§ 289 Abs. 2 PBG", "§ 290 PBG", "§ 290 Abs. 2 PBG", "§ 290 Abs. 3 PBG", "§ 291 PBG", "§ 302 PBG", "§ 310 Abs. 3 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 73 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 321 Abs. 1 PBG", "§ 357 Abs. 1 PBG", "§ 18 Abs. 1 BBV II", "§ 18 Abs. 2 BBV II", "§ 14 ABV", "§ 15 ABV", "§ 27 ABV", "§ 27 Abs. 2 ABV", "§ 30 ABV", "§ 31 ABV", "§ 33a ABV", "§ 10 ABV", "§ 5 lit. l BVV", "§ 85 BauG", "§ 109 BauG", "Art. 674 ZGB", "Art. 680 Abs. 2 ZGB", "Art. 26 RLV", "Art. 27 RLV", "Art. 38 LeV", "Art. 39 LeV"]
 status: emerging
 gelesen: 2026-06-16
 last_updated: 2026-06-29
@@ -101,6 +101,18 @@ bestehen bleiben.
   15.9.2 unten). Zur Abgrenzung Flachdach/Schraegdach: ein Besonderes Gebaeude darf im Sinne von
   § 49 Abs. 3 PBG eine groesste Hoehe von 5 m aufweisen, wenn es mit einem mindestens 10° geneigten
   Schraegdach ueberdeckt ist (BEZ 1996 Nr. 30). (S. 1095)
+- **15.8.9.3a Gartenhaeuser, Schoepfe, Gartensitzplaetze (§ 18 Abs. 1 BBV II)** — *ergaenzt
+  Buch-Run 74 (17.08.2026) am amtlichen Wortlaut, nicht aus dem Buchtext; Seitenbeleg steht
+  aus*: Gartenhaeuser und Schoepfe ohne Bestimmung zum dauernden Aufenthalt sowie ueberdeckte,
+  seitlich mindestens zur Haelfte der Abwicklung offene Gartensitzplaetze sind **von den
+  Abstandsvorschriften gegenueber grundstueckinternen Gebaeuden** befreit, wenn Grundflaeche
+  **10 m2**, Fassadenlaenge einschliesslich allfaelliger Pergolen **6 m** und Gesamthoehe
+  **3 m** nicht ueberschritten werden. **Die Befreiung erfasst nur den Gebaeudeabstand
+  innerhalb der eigenen Parzelle, NICHT den Grenzabstand zum Nachbarn.** Beide Fassungen
+  geprueft: 067 (bis 1.3.2017) «groesste Hoehe 3 m», 097 (geltend) «Gesamthoehe 3 m» — die
+  Aenderung war rein terminologisch, das Mass unveraendert. Fehlerquelle in der Praxis:
+  kommunale Klammerverweise geben Hoehe und Reichweite abweichend wieder
+  (→ [[gebaeudearten-und-abstandssystem]], Abschnitt «Klammer-Falle»).
 - **15.8.9.4 Familiengartenhaeuser**: Familiengartenhaeuser samt zugehoerigen gemeinschaftlichen
   Nebenbauten (Wasch- und Abortanlagen) sind von den Grenzabstaenden (und ueber die
   Gebaeudeabstaende) befreit, sofern die schriftliche Zustimmung der betroffenen Nachbarn vorliegt
