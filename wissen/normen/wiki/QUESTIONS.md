@@ -1,5 +1,34 @@
 # Offene Fragen — KB Normen
 
+## Normen-Lauf Run 56 (18.08.2026) — N55-1 und N55-2 geschlossen, ein neuer Punkt
+
+**N55-1 — GESCHLOSSEN.** Die unabhängige Refuter-Runde auf dem Run-54-Zuwachs der S. 4, 6, 9,
+17, 21-22 und 39 von `sia-416-1-2007` ist gefahren, vom Hauptprozess am eigenen
+300-dpi-Rendering (Präfix `ref416-r56-`). **3 Kernbefunde, 5 Nebenbefunde, alle inline
+korrigiert.** S. 22 und S. 39 waren zuvor von niemandem gelesen worden; beide bestätigten sich
+inhaltlich. Damit hat **jeder** Teil dieses Destillats beide Prüfrichtungen gesehen.
+
+**N55-2 — GESCHLOSSEN.** Anhang A von SIA 416/1 ist am eigenen 300-dpi-Rendering vollständig
+aufgenommen; die Raumlisten **HNF1-HNF5** und die vollständige **FF-Liste** (inkl.
+«Installationsräume, -schächte und -kanäle» und «unmittelbar zum Betrieb gehörige Flächen»)
+stehen jetzt im Destillat, ebenso NNF und VF. Nebenbefund dabei: **Anhang A ist ausdrücklich
+als «(informativ)» überschrieben** — das war im Destillat nicht ausgewiesen und ist für die
+normative Verbindlichkeit erheblich. Zwei Abgrenzungen sind neu benannt, weil sie den
+Zweifelsfall entscheiden: Küchen und Sanitärräume sind **je zweimal** geführt (Wohnung → HNF1,
+gewerblich bzw. allgemein → HNF3 bzw. NNF), und **Labors gehören zu HNF3, nicht HNF6**. Damit
+kann `flaechen-nachweis` die Zuordnung aus der KB beziehen statt aus dem Original.
+
+**N56-1 — Der Run-56-Zuwachs auf S. 4, 6 und 21 ist selbst wieder unverifiziert.** Genau die
+drei Seiten, die einen Kernbefund erbrachten, tragen jetzt neu geschriebenen Text, den niemand
+gegengelesen hat. Das ist der vierte Lauf in Folge, der den Status aus je einem anderen Grund
+nicht hebt — **jede Korrektur erzeugt neuen unverifizierten Text**. Ohne Abbruchregel ist das
+ein Regress ohne Ende. Run 55 hat dafür ein Kriterium vorgeschlagen (Vorschlag 7.1: «ein
+Prüfteil gilt als geschlossen, sobald eine Runde darauf nur noch Nebenbefunde und keinen
+Kernbefund mehr erbringt»); **es ist noch nicht entschieden**. Nach diesem Kriterium wären mit
+Run 55 und 56 zusammen **S. 9, 17, 22, 26, 28-32, 35, 39 und 40 geschlossen** und nur noch
+**S. 4, 6, 21, 27 und 34** offen. Die Statusfrage wäre dann in einem Lauf zu beantworten.
+**Entscheid Raphael nötig** — siehe Lauf-Report Run 56, Ziff. 6.
+
 ## Normen-Lauf Run 55 (17.08.2026) — N54-1 geschlossen, drei neue Punkte
 
 **N54-1 — GESCHLOSSEN.** Die Refuter-Runde auf dem Run-54-Zuwachs von `sia-416-1-2007` ist

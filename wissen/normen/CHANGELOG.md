@@ -1,3 +1,62 @@
+## 2026-08-18 Run 56 — N55-1 und N55-2 geschlossen; drei Kernbefunde in selbstgeprüftem Text
+
+- **`sia-416-1-2007.md`: unabhängige Refuter-Runde auf dem Run-54-Zuwachs der S. 4, 6, 9, 17,
+  21-22 und 39 gefahren (N55-1 geschlossen).** Vom Hauptprozess ohne Subagenten am eigenen
+  300-dpi-Rendering (`ref416-r56-`); S. 22 und S. 39 waren zuvor von niemandem gelesen worden.
+  **3 Kernbefunde, 5 Nebenbefunde, alle inline korrigiert** (Methodik-Pflicht 9).
+  - **Kernbefund 1 (Vorwort, S. 4):** Das Destillat zählte **drei** Änderungen gegenüber
+    SIA 180/4:1982; gedruckt stehen **vier**. Die fehlende ist «eine vereinfachte, sich auf die
+    Norm SIA 416 beziehende Definition der **Energiebezugsfläche**» — also die Aussage, dass AE,
+    die Bezugsgrösse der ganzen Norm, **aus SIA 416 abgeleitet** und nicht eigenständig
+    definiert ist. Genau die Abgrenzung, die das Destillat als Auftragsanlass führt.
+  - **Kernbefund 2 (Ziff. 1.1.1, S. 6):** Die KF-Definition stand ohne die Eingrenzung
+    «**innerhalb der Geschossfläche GF liegenden**» — das Kriterium, das KF zur Teilfläche der
+    GF macht. Ohne es ist GF = NGF + KF nicht mehr geschlossen. Bauteil-Beispiele (Aussen- und
+    Innenwände, Stützen, **Brüstungen**) fehlten ebenfalls; dass Brüstungen genannt sind, stützt
+    die Zuteilungsregel «Fensternischen mit Brüstungen → KF».
+  - **Kernbefund 3 (Ziff. 2.3.2, S. 21):** Bei **abgehängten Decken an der Untersicht von
+    auskragenden Bauteilen** fehlte die mitlaufende **10-cm-Schwelle**. Das «Das gilt auch» der
+    Norm trägt sie mit, und **Figur 13** zeichnet die Spalte «Böden gegen Aussenklima»
+    ausdrücklich als Paar ≤ 10 cm / > 10 cm. Ohne die Bedingung wird die Messebene auch bei
+    kleinem Hohlraum nach innen gelegt und **Ath zu klein** gerechnet — eine Grösse, die über
+    die Gebäudehüllzahl in die SIA-380/1-Grenzwerte eingeht.
+  - **Nebenbefunde:** halbierte Brennwert-Folge (die Norm nennt auch «entsprechende Änderungen
+    bei den **Energiekennzahlen**»); die Messkonvention S. 6 ist aufrecht, nicht kursiv gesetzt;
+    «**äusserste** Hauptebene der Fassade» (Ziff. 2.3.4); «hinterlüftete Aussenwände» stammt aus
+    der Legende der Figur 13, nicht aus dem Normtext; die **drei Linientypen** der Figur-10-Legende.
+    Dazu die **Auflösung der fünf Organisationskürzel** S. 39 (CRB, EMPA, ETHZ, SIA KH, SIA KHE),
+    die Run 54 als Lücke benannt, aber nicht geschlossen hatte.
+  - **Vollständig bestätigt:** S. 17 (Ziff. 2.2.1.1-2.2.1.5 — der von Run 54 am stärksten
+    umgebaute Block, Satz für Satz ohne Befund), S. 9 (alle sechs Begriffe), S. 22 (Figur 14),
+    S. 39, Treppenauge-Regel S. 6, Ziff. 2.3.1/2.3.3.
+- **`sia-416-1-2007.md`: Anhang A vollständig aufgenommen (N55-2 geschlossen).** Die Raumlisten
+  **HNF1-HNF5** und die vollständige **FF-Liste** (inkl. «Installationsräume, -schächte und
+  -kanäle») stehen jetzt im Destillat, ebenso NNF und VF. **Nebenbefund: Anhang A ist
+  ausdrücklich «(informativ)» überschrieben** — das war nicht ausgewiesen und ist für die
+  normative Verbindlichkeit erheblich. Zwei Zweifelsfall-Abgrenzungen neu benannt: Küchen und
+  Sanitärräume sind je **zweimal** geführt (Wohnung → HNF1; gewerblich → HNF3, allgemein → NNF),
+  und **Labors gehören zu HNF3, nicht HNF6** (das trägt das Wort «Experimente» im
+  Kategorietitel). Zuordnungshilfe für `flaechen-nachweis` und `healthcare-wirtschaftlichkeit`.
+- **Status bleibt `speculative` — aus einem vierten, neuen Grund (N56-1).** Sachlich ist der
+  Prüfstand vollständig: beide Prüfrichtungen sind jetzt auf **jedem** Teil gelaufen. Aber die
+  drei Seiten mit Kernbefund tragen neu geschriebenen, wieder unverifizierten Text. Das ist der
+  vierte Lauf in Folge, der den Status nicht hebt. **Der Entscheid über das von Run 55
+  vorgeschlagene Abbruchkriterium liegt bei Raphael** (Lauf-Report Ziff. 6); angewandt blieben
+  nur noch **fünf** Seiten offen (4, 6, 21, 27, 34).
+- **Methodenbefund:** Alle drei Kernbefunde liegen auf Seiten, die Run 54 als «gerendert
+  nachgeprüft» führte — sie waren nicht ungeprüft, sondern **vom Autor selbst** geprüft. Run 55
+  hatte das vermutet und mit zwei Befunden gestützt; mit sieben weiteren Seiten ist es
+  unabhängig bestätigt. Alle drei sind **Auslassungen**, keiner ist ein falscher Wert — der
+  Autor liest seinen Satz gegen die Erinnerung an die Quelle, nicht gegen die Quelle.
+  **Folge: wer in einem Lauf Text schreibt, weist ihn im selben Lauf nicht als geprüft aus.**
+- Register nachgeführt: `norm-inventar.md`, `destillate/INDEX.md`, `wiki/REGISTER.md`,
+  `wiki/QUESTIONS.md` (N55-1, N55-2 geschlossen; N56-1 neu). Lauf-Report
+  `outputs/2026-08-18_normen-nacht-run56.md`. Diff am Destillat gemessen: **+51/−10**, alle
+  Löschungen ersetzte eigene Zeilen (Rule 260811).
+- Inventar: **0 destillierbare offene Positionen**; die fünf verbliebenen `[ ]` sind externe,
+  kostenpflichtige Bring-Schulden (SIA 491, SN EN 12193, SN 640 052, SN 641 400, SIA 181:2020).
+  Stationssplit eingehalten (nur SIA/VKF).
+
 ## 2026-08-17 Run 55 — N54-1 geschlossen; der Register-Check kalibriert, zwei Fehlbefunde widerlegt
 
 - **`sia-416-1-2007.md`: Refuter-Runde auf dem Run-54-Zuwachs gefahren (N54-1 geschlossen).**
