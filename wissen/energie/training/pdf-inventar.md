@@ -881,3 +881,76 @@ die Dublettentabelle zu screenen — drei von fünf eingeplanten Quellen waren d
 **Konsequenz für den nächsten Lauf: Kandidatenauswahl beginnt mit dem Screening gegen die Register,
 nicht mit dem Ordnerlisting.** Die Liste der 16 nirgends erwähnten Werke oben ist genau dafür da.
 | [-] `18.3 Baustoffe/Recycling_Beton_(KBOB-Empfehlung_2007.2).pdf` | 2026-08-16 (Re-Abgleich: **bestätigte Dublette**, bereits `[[kbob-recyclingbeton-2007]]` aus Run 126; per quickXorHash byte-identisch mit `eco/3.38RecyclingBetonKBOB_2007_2.pdf` und `eco/Nachhaltiges Bauen/03 Informationen/3.38.I …` — **drei** Ablagen desselben Werks. Der Kandidat war in diesem Lauf fälschlich als offen eingeplant; die bestehende Dublettenzeile weiter oben hatte ihn korrekt geführt) |
+
+## Nachtrag 2026-08-17 (Run 138): Energierecht-ZH-Ordner + E-R137-1 (Zähler-Nachmessung) gelöst
+
+Kandidatenauswahl nach der Run-137-Lehre begonnen: erst Screening gegen Register, dann Priorität.
+Alle fünf Dateien im Restordner `01_Gesetze/02_Zuerich/Energie/` bearbeitet (Zugang M365-CLI/Graph,
+lokale Arbeitskopie vor Zuteilung — Standardvorgehen seit Run 122).
+
+| Status | Quelle (PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie/...) | KB-Datenstand |
+|---|---|---|
+| [x] `WDV2009 mpw.pdf` + `Zusammenstellung Änderungen.pdf` | 2026-08-17 (beide vollst., 12 + 2 S. → `waermedaemmvorschriften-zh-2009-historisch`, status **superseded**; ⚠⚠⚠ Kreuzabgleich mit KB `baurecht` belegt: heute gilt WDV vom 8.6.2022, LS 700.211 — hier NICHT vorliegend, neuer Offen-Punkt E-R138-1) |
+| [x] `VoHi_EN10_de.pdf` | 2026-08-17 (vollst., 2 S., EnFK Juli 2009 → `vollzugshilfe-en10-heizungen-im-freien`; FAQ **F243**) |
+| [~] `Vollzugsordner Energie Kanton ZH.pdf` (199 S. gesamt) | 2026-08-17 (S. 7-45 gelesen: Abschnitt 1.1-1.5 + 2.1-2.2 → `vollzugsordner-energie-zh-abschnitt1-2`; **161 S. offen** (Abschnitt 3-10), Priorität Abschnitt 4 Heizungsanlagen für Fortsetzung. Grösster verbliebener PL-02-Einzelbrocken) |
+| [-] `730.1_19.6.83_85.pdf` (EnerG-Konsolidierung, Nachtrag 85/1.7.2014) | 2026-08-17 (geprüft: **veralteter Rechtsstand** — die KB `baurecht` führt EnerG ZH bereits als primäre, laufend fassungsgeprüfte Quelle auf **Nachtrag 129/1.7.2025** (`raw/260712_amtlich_zh_energ.md`); dieser Snapshot ist 44 Nachträge/11 Jahre älter. Bewusst **nicht destilliert** (Rule «Verlinken statt doppeln»), stattdessen Cross-Link in `vollzugsordner-energie-zh-abschnitt1-2` gesetzt) |
+
+**E-R137-1 gelöst (Zähler zum Nenner 131 bestimmt).** Unabhängige Neumessung über vollständigen
+Graph-`delta`-Durchlauf (3'507 Items im Drive) reproduziert Run 137 exakt: **188 PDF roh in den
+fünf Ordnern → 163 nach Abzug 25 Seiten-Splits → 131 echte Werke nach Abzug 32 byte-identischer
+Kopien** (quickXorHash, Skript `analyze.py` im Lauf-Transkript, nicht committet — Rohdaten
+reproduzierbar). Basenamen-Abgleich der 131 kanonischen Pfade gegen `destillate/*.md` (Frontmatter
+`quelle:`) + `raw/_INGESTED.md` (bewusst **ohne** `pdf-inventar.md` selbst, um die
+Zirkularität «ein offen geführtes Item erwähnt sich selbst» zu vermeiden — genau der Fehler, der
+bei einer ersten, verworfenen Messung mit `pdf-inventar.md` im Suchkorpus auftrat):
+
+- **Vor diesem Lauf: 103 von 131** kanonischen Werken in `destillate/`/`_INGESTED.md` nachweisbar.
+- **Nach diesem Lauf: 107 von 131** (die vier heute bearbeiteten Dateien schliessen die Lücke,
+  `730.1_19.6.83_85.pdf` bleibt bewusst offen/[-] und zählt methodisch nicht als „destilliert“).
+- **24 kanonische Werke ohne Destillat-/`_INGESTED`-Fund** (Liste unten) — das ist die einzige
+  Zahl, die ab jetzt als Fortschritts-Nenner zitiert werden darf, **nicht** «84 von 182».
+
+⚠ **Messvorbehalt, ausdrücklich:** Diese 24 sind nicht identisch mit «gar nicht bearbeitet» — mehrere
+sind in `pdf-inventar.md` bereits als `[-]` geprüft (z. B. die beiden `_Archiv`-Dateien aus Run 135,
+`0Inhaltsverzeichnis.pdf`/`7.17Fachstellen.pdf`/`7.26Fachstellenecobau.pdf` aus Run 126 als reine
+Verzeichnisse). Der Befund misst nur, was in `destillate/`+`_INGESTED.md` **auffindbar** ist, nicht
+den vollständigen Bearbeitungsstand. **Für eine abschliessende Zahl müsste `_INGESTED.md` um alle
+`[-]`-Entscheide aus `pdf-inventar.md` nachgeführt werden — als P3-Folgepunkt in `QUESTIONS.md`
+vermerkt, kein Blocker für die tägliche Arbeit.**
+
+### Die 24 verbleibenden kanonischen Werke ohne Destillat-/`_INGESTED`-Fund (Stand 17.08.2026)
+
+| Bytes | Pfad (PL-02) | Einordnung (ungeprüft, aus Dateiname/Grösse) |
+|---|---|---|
+| 5'235'353 | `/04_Merkblätter/eco/5.26PflanzenamBau.pdf` | grösster Restposten, Fachinhalt unbekannt |
+| 4'910'998 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Allgemeines_Uebersicht.pdf` | laut Run-137-Fund nur 1 S. (Faltblatt-Deckblatt GT_RL1-9) |
+| 1'389'823 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Kursunterlagen_SIA/FEZ_Kursprogramm_Herbst_Winter_2023.pdf` | vermutlich Kursflyer, `[-]`-Kandidat |
+| 1'206'301 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf` | echte Variante zu `haushaltgeraete-effizienz-beschaffung-topten`, nicht Dublette (Run 123 belegt) |
+| 705'390 | `/04_Merkblätter/eco/7.26Fachstellenecobau.pdf` | vermutlich Verzeichnis, `[-]`-Kandidat |
+| 594'295 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Infobrochuren/MFH.pdf` | **bereits destilliert** als `heizungsersatz-groessere-mfh-stweg` (Run 125) — Basenamen-Abgleich zu kurz («MFH»), Mess-Artefakt, nicht real offen |
+| 434'310 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf` | laut Run 129 bereits geprüft, kein Bauherren-Fakt — `[-]`-Kandidat |
+| 173'047 | `/04_Merkblätter/eco/4.26Asbest.pdf` | Schadstoffthema, evtl. `[-]` wie `4.16Gebaudescreening.pdf` |
+| 170'762 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.27.I Bodenbelaege(KBOB2000_1).pdf` | ungeprüft |
+| 154'383 | `/04_Merkblätter/eco/6.26Literatur_1-2005.pdf` | vermutlich Literaturverzeichnis, `[-]`-Kandidat |
+| 133'739 | `/06_Richtlinien/Minergie/SIA380_1_Energie_im_Hochbau/25.04.10 Kursausschreibung SIA380-1.pdf` | Kursausschreibung, `[-]`-Kandidat |
+| 82'157 | `/06_Richtlinien/Minergie/Energiegesetz/730.1_19.6.83_72.pdf` | weiterer alter EnerG-Snapshot (Nachtrag 72) — wie `730.1_19.6.83_85.pdf` behandeln (Verlinken statt doppeln) |
+| 79'932 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation E.pdf` | ungeprüft |
+| 77'259 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation H L S.pdf` | ungeprüft |
+| 72'880 | `.../14.3-Richtlinien/Uebersichtstabelle_Beleuchtung_EN12464-1.pdf` | ungeprüft, evtl. Ergänzung zu `ahb-zuerich-gt-rl8-beleuchtung` |
+| 69'755 | `/04_Merkblätter/eco/7.17Fachstellen.pdf` | vermutlich Verzeichnis, `[-]`-Kandidat |
+| 57'018 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/1.13.C Zielvereinbarungen-SIA112_1.pdf` | **belegte Nicht-Dublette** zu `1.13.C Zielvereinbarungen SIA112_1.pdf` (Run 123, andere Grösse) |
+| 49'339 | `/04_Merkblätter/eco/6.16Eidg.Gesetze_Verordnungen_1-2005.pdf` | vermutlich Verzeichnis/Gesetzesliste, `[-]`-Kandidat |
+| 32'982 | `.../Weg_zum_Minergiezertifikat/_Archiv/230525_Minergiezertifikat_rj.pdf` | **bereits [-] geprüft** (Run 135, Vorstufe zu `weg-zum-minergiezertifikat-ablauf`) — Mess-Artefakt (`_INGESTED.md` nicht nachgeführt) |
+| 32'274 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.39.I Recyclingprodukte.pdf` | ungeprüft |
+| 27'875 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/3.15.C Checkliste Baustellenkontrolle.pdf` | vermutlich Dublette zu `eco-bau-devis-und-baustellenkontrolle` (Run 123), nicht per Hash bestätigt |
+| 21'516 | `.../Weg_zum_Minergiezertifikat/_Archiv/230107_Lieferschein_Vorlage_rj.pdf` | **bereits [-] geprüft** (Run 135, JANS-Lieferschein fremdes Projekt) — Mess-Artefakt |
+| 19'378 | `/04_Merkblätter/eco/0Inhaltsverzeichnis.pdf` | **bereits [-] geprüft** (Run 126, reines Inhaltsverzeichnis) — Mess-Artefakt |
+
+**Ehrlicher Kern nach Abzug der 5 Mess-Artefakte (bereits [-]/[x] geführt, nur nicht in `_INGESTED.md`
+gespiegelt): rund 19 tatsächlich unbearbeitete kanonische Werke**, davon die werthaltigsten die
+beiden `Richtlinie_Anlagedokumentation`-Dateien, `Uebersichtstabelle_Beleuchtung_EN12464-1.pdf`
+und `5.26PflanzenamBau.pdf`.
+
+**Nächste Priorität:** 1. WDV 8.6.2022 (LS 700.211) beschaffen — E-R138-1, höchster Bauherren-Wert.
+2. Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80). 3. Die rund 19 echten Restwerke oben,
+mit `Richtlinie_Anlagedokumentation E/H L S` und `Uebersichtstabelle_Beleuchtung_EN12464-1` zuerst.

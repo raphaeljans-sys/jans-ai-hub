@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-08-17 (Run 138) — Energierecht-ZH-Ordner abgeschlossen, WDV-2022-Lücke aufgedeckt, E-R137-1 gelöst
+
+- Drei neue Destillate aus dem Restordner `01_Gesetze/02_Zuerich/Energie/` (PL-02):
+  `destillate/waermedaemmvorschriften-zh-2009-historisch.md` (WDV 2009 + AWEL-Änderungs-
+  zusammenstellung, status **superseded**), `destillate/vollzugshilfe-en10-heizungen-im-freien.md`
+  (EnFK EN-10, Juli 2009), `destillate/vollzugsordner-energie-zh-abschnitt1-2.md` (Teildestillat,
+  S. 7-45 von 199 des AWEL-Vollzugsordners, Stand Juni 2013).
+- **⚠⚠⚠ Zentraler Befund:** Kreuzabgleich mit KB `baurecht` (`raw/260607_amtlich_zh_bzo-zurich-
+  stadt.md`) zeigt, dass die im PL-02-Korpus vorliegende Ausgabe der Wärmedämmvorschriften (2009)
+  seit dem **8. Juni 2022 (LS 700.211)** nicht mehr die geltende Fassung ist — diese liegt dem Hub
+  bisher nicht im Volltext vor (nur als Fundort-Hinweis in einem `baurecht`-Triage-Dokument zu
+  einem Projektordner). Neuer P1-Offenpunkt **E-R138-1** in `wiki/QUESTIONS.md`.
+- Ein weiterer PL-02-Fund (`730.1_19.6.83_85.pdf`, EnerG-Konsolidierung Nachtrag 85/2014) wurde
+  bewusst **nicht** separat destilliert: die KB `baurecht` führt EnerG ZH bereits als primäre,
+  fassungsgepflegte Quelle auf Nachtrag 129/2025 — Rule «Verlinken statt doppeln» angewendet statt
+  einen 11 Jahre alten Rechtsstand zu duplizieren.
+- **E-R137-1 gelöst:** unabhängige Neumessung (voller Graph-`delta`-Durchlauf, 3'507 Items)
+  bestätigt Run 137 exakt (188 → 163 → **131 echte PL-02-Werke**). Basenamen-Abgleich gegen
+  `destillate/`+`_INGESTED.md` (bewusst ohne `pdf-inventar.md` selbst, um Zirkularität durch
+  Selbstnennung offener Items zu vermeiden — eigener Messfehler dieses Laufs, korrigiert bevor er
+  ins Register floss): **107 von 131** kanonischen Werken nachweisbar (103 vor, +4 durch diesen
+  Lauf). 24 ohne Fund, davon mind. 5 methodische Artefakte (bereits `[-]` in `pdf-inventar.md`,
+  nur nicht in `_INGESTED.md` gespiegelt → neuer P3-Pflegepunkt E-R138-2). **Ab jetzt 107/131 als
+  Bezugsgrösse, nicht mehr «84 von 182».**
+- FAQ **F242** (WDV-2009-Supersession) und **F243** (Aussenheizungen/Heizpilz) neu; Artikel
+  `wiki/energienachweis-zh.md` und `wiki/heizleistung-und-waermeerzeuger.md` geschärft.
+- Register nachgeführt: `training/pdf-inventar.md` (Nachtrag 17.08.2026, 24er-Restliste),
+  `training/curriculum.md` (Run-138-Eintrag), `destillate/INDEX.md`, `wiki/QUESTIONS.md`,
+  `raw/_INGESTED.md`. Report `outputs/2026-08-17_energie-run138.md`.
+
 ## 2026-08-16 (Wissens-Chef Run 34, Cross-KB) — drei Kanten in `normen`/`planungsgrundlagen`, ein 10-m²-Vorbehalt; alle rein additiv
 
 - **`wiki/bezugsgroessen-energienachweis.md` + `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`:**

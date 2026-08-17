@@ -3414,13 +3414,35 @@ durchfuehrbar.
   Nenner verschieden definiert sind. Neuer Nenner ist **131 echte Werke**. → Folgepunkt
   **E-R137-1** (Zähler neu bestimmen).
 
-- [ ] **E-R137-1 (P2): Zähler zum neuen Nenner 131 bestimmen.** E-R134-1 hat den Nenner sauber
-  gemessen, aber nicht, wie viele der 84 bisher gemeldeten Destillate innerhalb der neuen
-  Ordner-Definition liegen (einige stammen aus PL-04 oder aus Web-Quellen und gehören nicht in
-  diesen Bruch). Erst danach ist eine ehrliche Fortschrittsangabe möglich. Weg: die
-  `quelle:`-Frontmatterfelder aller Destillate gegen die 131 Pfade aus
-  `training/pl02-dubletten-hash.md` und dem Delta-Dump abgleichen. **Bis dahin keine
-  Prozentangabe zum PL-02-Fortschritt in Lauf-Reports** — lieber gar keine Zahl als die alte.
+- [x] **E-R137-1 (P2) — ✅ GESCHLOSSEN am 17.08.2026 (Run 138).** Unabhängige Neumessung über
+  vollständigen Graph-`delta`-Durchlauf (3'507 Items) reproduziert Run 137 exakt: 188 → 163
+  (Seiten-Splits abgezogen) → **131 echte Werke** (quickXorHash-Dedup). Basenamen-Abgleich der 131
+  kanonischen Pfade gegen `destillate/*.md` (`quelle:`) + `raw/_INGESTED.md` — **bewusst ohne**
+  `pdf-inventar.md` selbst, weil ein dort offen geführtes Item sich sonst durch seine eigene
+  Nennung als «erwähnt» zirkulär selbst bestätigt (Fund dieses Laufs, verworfene erste Messung).
+  Ergebnis: **107 von 131** kanonischen Werken sind in `destillate/`/`_INGESTED.md` nachweisbar
+  (103 vor, +4 durch diesen Lauf). **24 ohne Fund** — Liste mit Einordnung in
+  `training/pdf-inventar.md`, Nachtrag 17.08.2026. ⚠ Der Befund misst Auffindbarkeit in
+  `destillate/`+`_INGESTED.md`, nicht den vollständigen Bearbeitungsstand: mindestens 5 der 24
+  sind bereits in `pdf-inventar.md` als `[-]` entschieden, nur nicht in `_INGESTED.md` gespiegelt
+  (Mess-Artefakt, siehe Folgepunkt E-R138-2). **Ab jetzt gilt 107/131 (bzw. die 24er-Restliste)
+  als Fortschrittszahl — nicht mehr «84 von 182».**
+- [ ] **E-R138-1 (P1, neu): Wärmedämmvorschriften Kt. ZH vom 8. Juni 2022 (LS 700.211) beschaffen
+  und destillieren.** Kreuzabgleich mit `baurecht` (`raw/260607_amtlich_zh_bzo-zurich-stadt.md`)
+  belegt, dass dies die heute geltende Fassung ist — sie liegt weder in PL-02 noch anderswo im Hub
+  im Volltext vor, nur als Fundort-Hinweis in `baurecht/outputs/2026-08-03_triage-reglemente-
+  2414-thalwil.md` zu einer Datei in einem Projektordner (nicht PL-02, nicht ohne Weiteres per
+  Graph-Drive-ID erreichbar). Wege: (a) der genannte Projektordner «2414 Thalwil», (b) direkt via
+  `zhlex.zh.ch`/`www.zh.ch` (Web-Weg, mit Datenstand). **Höchste Priorität** — einzige fehlende,
+  aktuell verbindliche Zahlenquelle für die ZH-Wärmedämmung; `[[waermedaemmvorschriften-zh-2009-
+  historisch]]` und `[[vollzugsordner-energie-zh-abschnitt1-2]]` können erst danach auf `emerging`
+  mit vollständiger Aktualitätsprüfung gehoben werden.
+- [ ] **E-R138-2 (P3, neu): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
+  nachführen.** Der E-R137-1-Befund zeigt, dass mindestens 5 in `pdf-inventar.md` bereits geprüfte
+  und bewusst nicht destillierte Werke (Run 126, 135) in `_INGESTED.md` fehlen und deshalb bei
+  einem künftigen Namensabgleich fälschlich als „unbearbeitet“ erscheinen. Kein Blocker, aber ein
+  Pflegeaufwand, der die nächste Zähler-Messung wieder sauberer macht. Kandidatenliste in
+  `pdf-inventar.md`, Nachtrag 17.08.2026 (Spalte «Einordnung»).
 - [ ] **E-R134-2 (P3): Bezugsfläche der Energiekennzahl 38/30 kWh/m² im EFH-Vergleichsblatt nicht
   ausgeschrieben.** Auf der Grafik steht nur «kWh/m²»; EBF ist naheliegend, aber nicht belegt.
   Nur von historischem Interesse (der Wert selbst ist überholt), aber ein sauberes Beispiel für

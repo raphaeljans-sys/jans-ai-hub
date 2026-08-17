@@ -2362,3 +2362,30 @@ Screening gegen `_INGESTED.md` und die Dublettentabelle, nicht beim Ordnerlistin
 Restposten (Energierecht ZH im Vollzug), braucht mehrere Läufe; ⚠ Aktualitätsprüfung gegen
 EnerG/EnerV ZH und MuKEn 2025 ist hier der halbe Wert der Arbeit. Danach der übrige
 Energierecht-ZH-Ordner (vier kleinere Dateien) im selben Zug.
+
+## Run 138 (17.08.2026) — Energierecht-ZH-Ordner abgeschlossen, E-R137-1 (Zähler) gelöst
+
+Restordner `01_Gesetze/02_Zuerich/Energie/` (5 Dateien) vollständig bearbeitet: WDV 2009 +
+AWEL-Änderungszusammenstellung → `waermedaemmvorschriften-zh-2009-historisch` (status
+**superseded** — ⚠⚠⚠ Kreuzabgleich mit KB `baurecht` belegt, dass heute die Fassung vom
+**8. Juni 2022, LS 700.211** gilt, hier nicht vorliegend → neuer P1-Punkt **E-R138-1**);
+EnFK-Vollzugshilfe EN-10 «Heizungen im Freien» → `vollzugshilfe-en10-heizungen-im-freien`
+(FAQ F243); Beginn des grössten PL-02-Einzelbrockens, `Vollzugsordner Energie Kanton ZH.pdf`
+(199 S., S. 7-45 gelesen: Abschnitt 1+2.1/2.2) → `vollzugsordner-energie-zh-abschnitt1-2`,
+**161 S. offen**; alter EnerG-Snapshot (`730.1_19.6.83_85.pdf`, Nachtrag 85/2014) bewusst
+**nicht destilliert** — die KB `baurecht` führt EnerG ZH bereits primär auf Nachtrag 129/2025,
+Cross-Link statt Doppelarbeit (Rule «Verlinken statt doppeln»). FAQ F242 neu, Artikel
+`energienachweis-zh` und `heizleistung-und-waermeerzeuger` geschärft.
+
+**E-R137-1 gelöst** (Details `wiki/QUESTIONS.md`): unabhängige Neumessung bestätigt Run 137
+exakt (188 → 163 → 131 echte PL-02-Werke). Zähler-Nachmessung gegen `destillate/`+`_INGESTED.md`
+(bewusst ohne `pdf-inventar.md` selbst, um Zirkularität durch Selbstnennung offener Items zu
+vermeiden): **107 von 131** kanonischen Werken nachweisbar (103 vor diesem Lauf, +4 heute), 24
+ohne Fund — davon mindestens 5 bereits als `[-]` entschieden, nur nicht in `_INGESTED.md`
+gespiegelt (neuer Pflegepunkt E-R138-2, P3). **Ab jetzt gilt 107/131 als Bezugsgrösse.**
+
+**Nächste Priorität:** 1. E-R138-1 (WDV 8.6.2022) — höchster Wert, macht zwei Destillate von
+`emerging`-fähig statt dauerhaft `superseded`. 2. Vollzugsordner Abschnitt 4 (Heizungsanlagen,
+S. 46-80). 3. Die rund 19 echten Restwerke aus der 24er-Liste (`pdf-inventar.md`), grösste zuerst:
+`5.26PflanzenamBau.pdf`, beide `Richtlinie_Anlagedokumentation`-Dateien,
+`Uebersichtstabelle_Beleuchtung_EN12464-1.pdf`.
