@@ -708,6 +708,23 @@ wieder aufgezehrt, und der Trim wird zur Dauerpflicht. Nur mit Nutzdatenwachstum
 `tenant-hygiene/reports/260814-hygiene.md`. Status: **Punkt 1 erledigt, Punkt 2 offen,
 Entscheid Raphael (Admin Center).**
 
+**Nachtrag 17.08.2026, 20:08 (tenant-hygiene-Lauf — Punkt 2 ist ab heute gemessen, nicht
+mehr prognostiziert):** Der erste Werktag nach dem Wochenende zeigt den Nachwuchs. Der
+Tenant ist in exakt 24 Stunden von 822.97 auf **826.24 GB** gestiegen (**+3.27 GB/Tag**,
+78.4 % Auslastung, freier Puffer 227.8 GB), nachdem er am 15. und 16.08. stillstand.
+**Das gesamte Wachstum stammt aus dem Versionsverlauf einer einzigen Site:** JANS.PROJEKTE
+Versionen 53.59 → **58.14 GB** (+4.55 GB) bei einem Belegungszuwachs der Site von nur
+4.47 GB. Tenantweit 64.10 → 68.70 GB Versionen; rechnet man sie heraus, sind die Nutzdaten
+um rund 1.3 GB **geschrumpft**. Vom Trim-Gewinn des 13.08. (106 GB) sind an einem Werktag
+4.6 GB zurueckgekehrt. Restlaufzeit bei diesem Tempo rund **70 Tage** (ca. 26.10.2026), die
+88-%-Sendeschwelle ist rund 31 Tage entfernt. **Ein Trim ist jetzt Symptombehandlung** — er
+raeumt die 4.6 GB ab, die ohne Umstellung des Tenant-Limits in einer Woche wieder da sind.
+Der einzige wirksame Hebel bleibt **Tenant-Versionslimit auf «Automatisch»** (Admin Center,
+Einstellungen, Versionsverlauf-Limits). Ein Werktag ist noch keine Reihe; die Laeufe
+Dienstag bis Freitag zeigen, ob 3.27 GB/Tag das Normalmass ist oder ein Nachholeffekt.
+Report: `tenant-hygiene/reports/260817-hygiene.md`. Status: **Punkt 2 offen und ab heute
+belegt, Entscheid Raphael (Admin Center).**
+
 Eintrag 13.08.2026 (Hub-Chef 08:39, Regellauf — **ein neuer Vorgang seit dem Radar, und die
 vier Entwuerfe liegen um 08:45 immer noch unversendet**):
 
