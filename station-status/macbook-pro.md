@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 17.08.2026 08:09:32
+Stand: 17.08.2026 08:19:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:07)
@@ -12,4 +12,4 @@ Stand: 17.08.2026 08:09:32
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- e832c979 mahnwesen-verzugscheck 17.08.: bexio weiterhin 401 (6. Tag), Fristen-Nachtrag
+- af1ff967 nas-selfcommit: 2 Datei(en) 2026-08-17 08:15
