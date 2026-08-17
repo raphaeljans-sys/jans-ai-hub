@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 01:07:06
+Stand: 18.08.2026 01:27:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:20)
 - /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 01:01)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 18.08.2026 01:07:06
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 25a263c5 vollgas-radar 18.08. 00:58: P1 CLI-Blocker geloest (2.1.224 antwortet wieder, 3x rc=0), Fristenzeile erledigt, Entwarnungsmail raus
+- e2b91998 nas-selfcommit: 2 Datei(en) 2026-08-18 01:15
