@@ -1,9 +1,9 @@
 ---
 title: 2205 WB Guggerbach — Zentrum Guggerbach Davos, Wohnungsneubau Generation 65+ (Kennwort Juli)
 status: established
-last_updated: 2026-07-12
+last_updated: 2026-08-17
 sources: [2205-guggerbach_jurybericht.txt, 2205-guggerbach_programm.txt, 2205-guggerbach_projekttext.txt]
-links: []
+links: [[muster/jury-argumente-healthcare]], [[delta-zum-ersten-rang]]
 ---
 
 # 2205 WB Guggerbach — Zentrum Guggerbach Davos
@@ -39,7 +39,7 @@ links: []
 - **Setzung/Städtebau:** Zwei Körper mit minimalem Fussabdruck im parkartigen Grünstreifen an der Platzstrasse; durchlässige Gesamtanlage, Ensemble mit den Bestandsbauten (Häuser A und D), Dachkante beider Volumen auf gleicher Höhe belassen (Projekttext «Städtebau»/«Freiraumkonzept»; Jurybericht S. 50).
 - **Programmanordnung:** EG je Haus mit Eingangsraum, Studios, Gemeinschaftsraum, Waschküche und Nebenräumen; 5 OG mit je 2 Wohnungen; 1. UG Keller/Sportgeräte (direkt von aussen erschlossen); 2. UG Einstellhalle und Anbindung an Haus A (Projekttext «Architektur»).
 - **Wohnungstyp:** Dreiseitig orientierte Wohnungen, Erschliessung im Zentrum der Wohnung, Individualräume und Wohnraum an der Fassade aufgereiht, dazwischengeschobenes Bad mit Tageslicht, über Eck organisierter Wohnbereich mit windgeschützter Eckloggia, Cheminée (Projekttext «Wohnungen»). Freier Grundriss mit umlaufenden Raumverbindungen (Jurybericht S. 50).
-- **Material/Tragwerk:** Massivholz-Elementbau aus verdübelten Vollholzbrettern (leimfrei), Rippendecken mit Vollholzbalken je Wohneinheit, keine Stahlbeton-Treppenhauskerne; UG als wasserdichte Wanne in Stahlbeton (Projekttext «Konstruktion» — dort mit Vermerk «Weitere Text nicht bearbeitet (Stand Hittnau)», d.h. Konstruktionstext moeglicherweise nicht abgabefinal).
+- **Material/Tragwerk — ⚠ NICHT als Beleg für die Abgabe verwendbar:** Der Vermerk «Weitere Text nicht bearbeitet (Stand Hittnau)» steht im eigenen Projekttext **unmittelbar vor der Überschrift «Konstruktion»** (Rohextrakt Z. 53 ff., am Original geprüft 17.08.2026) und deckt damit den gesamten folgenden Materialabschnitt; er stammt möglicherweise aus einem anderen Wettbewerb und ist nicht abgabefinal. **Nur unter diesem Vorbehalt** referiert: Massivholz-Elementbau aus verdübelten Vollholzbrettern (leimfrei), Rippendecken mit Vollholzbalken je Wohneinheit, keine Stahlbeton-Treppenhauskerne, UG als wasserdichte Wanne in Stahlbeton. **Vorbehalt an den Satzanfang gezogen 17.08.2026** (Etappe 4 Lauf 03): in der früheren Fassung stand er am Satzende und wurde bei der Rückkopplungs-Auswertung beinahe als gesicherte Materialaussage übernommen.
 - **Kennzahlen (GF/GV):** Nicht belegt extrahierbar — das Datenblatt Kosten (`08_Abgabe/02 Formulare/A06_Datenblatt Kosten_Mengen.pdf`) liefert im Textextrakt keinen Inhalt; siehe Offene Fragen.
 
 ## 4. Jury-Urteil (Projektwürdigung «Juli», Jurybericht S. 50)
@@ -64,6 +64,35 @@ links: []
 - **Studios als Pluspunkt:** Sonnenblume legte die Studios auf jedes Wohngeschoss (Gäste-/Angehörigenzimmer nahe der Wohnung) (S. 18); «Juli» sammelte die Studios im EG (Projekttext «Architektur»).
 - **Wirtschaftlichkeit:** Sonnenblume «mittelmässig kompakt», wenige Baugrundsicherungen, geringe Eingriffe in Haus A, Erstellungskosten im oberen Durchschnitt = mittlere Wirtschaftlichkeit (S. 19); «Juli» erhebliche statische Eingriffe in Haus A und relativ hohe Kosten pro Wohnung (S. 50).
 - **Einfühlung als Jury-Argument:** «Überhaupt haben sich die Projektverfasserinnen in das Leben der Menschen im Zentrum Guggerbach hineinversetzt» (S. 19); die Empfehlung erfolgte wegen «sehr hohe[r] ortsbauliche[r] Qualität, typologische[r] Herleitung und Einfügung auf dem Areal» (S. 15).
+
+### 4b. Nachtrag V2 — Rückkopplung gegen die Healthcare-Siegargumente (17.08.2026)
+
+Erhoben in Etappe 4, Lauf 03; vollständige Matrix in
+[[muster/jury-argumente-healthcare]], Abschnitt 7.
+
+- **Dieser Beitrag ist der zweite, unabhängige Verfahrensbeleg für den Healthcare-Subtyp
+  «betreutes Alterswohnen»**, der in der KB bisher allein auf dem Verfahren Tägermoos
+  Küsnacht stand und dort ausdrücklich als Einzelbeleg markiert war. Bestätigt sind zwei
+  der drei Tägermoos-Muster: der **Solitär statt Mehrkörper** (hier über den Negativbeweis
+  des eigenen Scheiterns) und das **verbindende gemeinsame Zentrum als Siegargument**
+  (Gartenhalle des Siegers, S. 18–19). Nicht mitbelegt sind die Tägermoos-Elemente
+  «Etagenlounges» und «umnutzbares Wohnmodul».
+- **Sechs der zwölf Siegargumente sind auf diese Bauaufgabe nicht anwendbar** (Betriebs-
+  Entflechtung, Normzimmer, Wohngruppen-Nachbarschaften, Demenzgarten, Umnutzbarkeit,
+  Vertikalerschliessung/Warenlift): der Wettbewerbsumfang ist ein Wohnungsneubau mit
+  Selbstversorgung, «Eine Küche zur Selbstversorgung ist zwingend.» (Programm S. 22), ohne
+  Pflegegeschoss.
+- **Kompaktheit wirkt als Schwelle nach unten, nicht als Hebel nach oben.** Die eigene
+  Abgabe reklamierte den «minimale[n] Fussabdruck» für sich, die Jury bestätigte den
+  Baukörper und kassierte den Schluss im selben Satz (S. 50, Zitat in Abschnitt 4). Der
+  Sieger dagegen ist nur «mittelmässig kompakt» mit «mittlerer Wirtschaftlichkeit» (S. 19),
+  während mindestens vier weitere Beiträge als «sehr kompakt» beurteilt wurden, einer davon
+  mit «guter Wirtschaftlichkeit» (S. 28) und ohne Sieg.
+- **Nur eine einzige Zelle der Matrix trägt ein Jury-Urteil zum eigenen Beitrag** (H8). Alles
+  Übrige ist nicht anwendbar oder im Bericht nicht erwähnt — Folge des Ausscheidens im
+  ersten Rundgang.
+- **H9 (Mischbauweise) ist für diesen Beitrag nicht verifizierbar, nicht verneint** — siehe
+  den Hittnau-Vorbehalt in Abschnitt 3.
 
 ## 5. Lessons / DNA
 

@@ -1,9 +1,10 @@
 ---
 title: "Jury-DNA Healthcare (Alters-/Pflege-/Gesundheitsbau) — was in Schweizer Healthcare-Wettbewerben gewinnt (Synthese aus 8 ausgewerteten Juryberichten)"
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-17
 sources:
   - "8 aktiv ausgewertete Referenz-Juryberichte in wiki/extern/ (2012–2025, Healthcare: Spital/Klinik, Pflegeheim/Alterszentrum, Psychiatrie, betreutes Alterswohnen), subtyp-gespreizt, aber pro Subtyp schmale Basis (siehe Verifikations-Hinweis)"
+  - "Abschnitt 7 (Rückkopplung, 17.08.2026) zusätzlich: raw/2101-kssg-h14_beurteilungsbericht.txt, raw/2101-kssg-h14_programm.txt, raw/2101-kssg-h14_eigene-abgabe-plaene.txt, raw/2101-kssg-h14_projekttext-diggelmann.txt, raw/2205-guggerbach_jurybericht.txt, raw/2205-guggerbach_programm.txt, raw/2205-guggerbach_projekttext.txt"
   - "jurybericht-kantonsspital-aarau-ksa (Spital/Klinik)"
   - "jurybericht-luks-sursee-schwyzermatt (Spital/Klinik)"
   - "jurybericht-universitaetsspital-basel-klinikum-2 (Spital/Klinik)"
@@ -14,6 +15,9 @@ sources:
   - "jurybericht-alterswohnen-taegermoos-kuesnacht (betreutes Alterswohnen, Einzelbeleg)"
 links:
   - "[[delta-zum-ersten-rang]]"
+  - "[[teilnahmen/2101-kssg-h14]]"
+  - "[[teilnahmen/2205-guggerbach]]"
+  - "[[jury-argumente-schulbauten]]"
   - "[[extern/jurybericht-kantonsspital-aarau-ksa]]"
   - "[[extern/jurybericht-alterszentrum-sihlsana-adliswil]]"
   - "[[extern/jurybericht-ipw-klinik-schlosstal-winterthur]]"
@@ -383,6 +387,15 @@ Anhang C «Ausscheidung 2. Rundgang», S. 63); Sieger 06 «Insere» (Rangfolge S
 Extrakt-Zählung existiert bei diesen beiden Quellen nicht. Das ist der Unterschied zum
 Seitenzahl-Versatz, der in Abschnitt 7 der Schulbau-Synthese für 2102 zu vermerken war.
 
+**Ein Zählkonflikt im Bericht 2101 ist dabei offengelegt, nicht entschieden:** das
+Inhaltsverzeichnis des Beurteilungsberichts weist Kapitel 5.4 «Vertiefte Vorprüfung» der
+Seite 13 zu, die Fusszeilen-Zählung der Seite 14; dasselbe Delta von einer Seite zeigt sich
+über den ganzen Abschnitt 5.2.4 bis 6.2. Dieser Abschnitt folgt durchgehend der
+**Fusszeilen-Zählung** (Inhalt vor dem Fusszeilenmarker gehört zu dessen Seite) — das ist
+die Konvention, die auch das Dossier `teilnahmen/2101-kssg-h14.md` verwendet, sodass beide
+konsistent bleiben. Welche der beiden Zählungen die gedruckte Realität abbildet, ist am
+PDF zu entscheiden und in QUESTIONS vermerkt.
+
 ### 7.1 Die Matrix
 
 Legende — erster Buchstabe **bedient?** **B** bedient · **T** teilweise · **N** nicht
@@ -442,9 +455,9 @@ Sieger-Würdigung gewinnen, nicht aus dem Urteil über den eigenen Beitrag.
 
 **Drittens, der mechanisch wertvollste Einzelbefund: die Kennzahlen, an denen H8 hängt,
 entstehen erst für die Finalisten.** Der Beurteilungsbericht 2101 hält fest: «Die Projekte
-in der engeren Wahl wurden einer detaillierten Prüfung unterzogen.» (S. 13, Kap. 5.4), und
+in der engeren Wahl wurden einer detaillierten Prüfung unterzogen.» (S. 14, Kap. 5.4), und
 zur Wirtschaftlichkeit: «Durch die Perita AG wurden die verbliebenen Projekte einer
-vergleichenden Kostenschätzung unterzogen» (S. 13, Kap. 5.4.3). Erst daraus entstanden die
+vergleichenden Kostenschätzung unterzogen» (S. 14, Kap. 5.4.3). Erst daraus entstanden die
 Sätze, mit denen der Sieger den Punkt holte: «Im Vergleich zu den anderen bewerteten
 Projekten bietet INSERE am meisten Nutzfläche und weist in Bezug auf die Erstellungskosten
 ein gutes CHF/NF-Verhältnis auf.» (S. 22). **LOUISE wurde diesem Vergleich nie unterzogen**
@@ -504,7 +517,7 @@ Abschnitt 4 (HOSPES), zeigt aber die andere Flanke derselben Asymmetrie.
    zwar bis hinauf zum Sieger: «Die Erschliessung des Bettenlifts ist grundsätzlich anders zu
    lösen.» (Insere, S. 21) und als verbindliche Auflage «Die Erschliessung des Bettenlifts zum
    Aussenraum hin muss optimiert werden.» (Empfehlung des Preisgerichts, S. 16); bei
-   03 BETULA sind «die Vorzone um den Bettenlift … zu knapp bemessen» (S. 44). H11 ist damit
+   03 BETULA sind «die Vorzone um den Bettenlift … zu knapp bemessen» (S. 45). H11 ist damit
    um die Rangier-/Vorzonenfläche zu ergänzen — die reine Liftzahl war in diesem Verfahren
    nie das Thema. Arbeitshypothese mit n=1.
 
