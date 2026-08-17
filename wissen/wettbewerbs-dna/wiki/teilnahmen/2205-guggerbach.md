@@ -72,11 +72,14 @@ Erhoben in Etappe 4, Lauf 03; vollständige Matrix in
 
 - **Dieser Beitrag ist der zweite, unabhängige Verfahrensbeleg für den Healthcare-Subtyp
   «betreutes Alterswohnen»**, der in der KB bisher allein auf dem Verfahren Tägermoos
-  Küsnacht stand und dort ausdrücklich als Einzelbeleg markiert war. Bestätigt sind zwei
-  der drei Tägermoos-Muster: der **Solitär statt Mehrkörper** (hier über den Negativbeweis
-  des eigenen Scheiterns) und das **verbindende gemeinsame Zentrum als Siegargument**
-  (Gartenhalle des Siegers, S. 18–19). Nicht mitbelegt sind die Tägermoos-Elemente
-  «Etagenlounges» und «umnutzbares Wohnmodul».
+  Küsnacht stand und dort ausdrücklich als Einzelbeleg markiert war. **Bestätigt ist genau
+  eines der drei Tägermoos-Muster:** der **Solitär als «Partnerhaus»** (hier über den
+  Negativbeweis des eigenen Scheiterns). Die Muster «Ein-Kern-Erschliessung plus
+  Etagenlounges» und «umnutzbares Wohnmodul» kommen im Verfahren gar nicht vor und bleiben
+  unverändert Einzelbeleg. Das **verbindende gemeinsame Zentrum** (Gartenhalle des Siegers,
+  S. 18–19) erhält ebenfalls einen weiteren Beleg, gehört aber als subtyp-übergreifendes
+  Siegargument H4 nicht zu den drei Mustern von Abschnitt 2.5 und trägt deren Statusanhebung
+  nicht mit.
 - **Sechs der zwölf Siegargumente sind auf diese Bauaufgabe nicht anwendbar** (Betriebs-
   Entflechtung, Normzimmer, Wohngruppen-Nachbarschaften, Demenzgarten, Umnutzbarkeit,
   Vertikalerschliessung/Warenlift): der Wettbewerbsumfang ist ein Wohnungsneubau mit

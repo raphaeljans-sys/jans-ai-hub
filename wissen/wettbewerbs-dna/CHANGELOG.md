@@ -1,5 +1,70 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-17 — ETAPPE 4, VERTIEFUNGSLAUF 03 (V2, Bauaufgabe Healthcare)
+
+- **[inhalt]** Neuer **Abschnitt 7** in `wiki/muster/jury-argumente-healthcare.md`:
+  Rückkopplung der zwölf Siegargumente gegen die zwei eigenen Healthcare-Beiträge mit
+  Jurybericht (2101 KSSG Haus 14 «LOUISE», 2205 Guggerbach «Juli» — **beide ohne Rang**)
+  als 2×12-Matrix, doppelt codiert. Neu gegenüber der Schulbau-Matrix sind die Codes **«g»**
+  (die Jury benennt das Kriterium im Verfahren, aber nicht am eigenen Beitrag) und **«?»**
+  (die Quelle erlaubt kein Urteil).
+- **[befund/selbstkritik]** **Nur drei der zwölf Siegargumente waren in beiden eigenen
+  Verfahren überhaupt anwendbar** (H8 Kompaktheit, H9 Mischbauweise, H12 Milieuqualität);
+  drei sind es in keinem (H3 Normzimmer, H5 Wohngruppen, H6 Demenzgarten). Grund ist
+  strukturell: die zwölf Argumente stammen aus acht **stationären** Bauten, das eigene
+  Portfolio besteht aus einem **ambulanten Praxis- und Bürobau** und einem
+  **Wohnungsneubau 65+**. Der Katalog ist nicht falsch, aber für die eigene Praxis nur zu
+  einem Viertel einschlägig — der Healthcare-Gegenpart zum S10-Befund des Schulbaus.
+- **[befund]** **Von 24 Matrixzellen trägt genau EINE ein Jury-Urteil zum eigenen Beitrag**
+  (2205/H8). Beide Beiträge waren vor der individuellen Würdigung ausgeschieden. Wer früh
+  ausscheidet, erhält kein Feedback zu den Argumenten, die später den Sieg entscheiden.
+- **[befund/mechanik]** **Die Kennzahlen, an denen H8 hängt, entstehen erst für die
+  Finalisten.** «Die Projekte in der engeren Wahl wurden einer detaillierten Prüfung
+  unterzogen.» (2101, S. 14, Kap. 5.4); die vergleichende Kostenschätzung der Perita AG
+  erfasste nur «die verbliebenen Projekte» (S. 14, Kap. 5.4.3). LOUISE wurde ihr nie
+  unterzogen. Damit ist die Kriterien-Rangordnung aus Abschnitt 1 **verfahrenstechnisch**
+  bestätigt: Wirtschaftlichkeit ist Korrektor der Endrunde, weil die Zahlen vorher nicht
+  existieren. In 2205 zeigt sich die Gegenflanke: Wirtschaftlichkeit war Ausscheidungsgrund,
+  aber nicht Siegargument (Sieger nur «mittelmässig kompakt», S. 19).
+- **[inhalt]** **Subtyp 2.5 «betreutes Alterswohnen» erhält mit 2205 einen zweiten,
+  unabhängigen Verfahrensbeleg** (GR statt ZH, Stiftung, selektives Verfahren) — **eng
+  gefasst**: bestätigt ist allein Muster (a) «Solitär als Partnerhaus», über den
+  Negativbeweis des eigenen Scheiterns. Die Muster (b) Ein-Kern-Erschliessung/Etagenlounges
+  und (c) umnutzbares Wohnmodul bleiben Einzelbeleg. Umschrift der Kopfzeile in V3.
+- **[inhalt]** Drei Schärfungen: H8 (Fussabdruck ist nicht die Kennzahl, an der
+  Wirtschaftlichkeit gemessen wird — verwandt, aber nicht identisch mit S7 Schulbau) ·
+  H9 (Geltungsbereich auf den stationären Pflegebau begrenzen: in 2101 liegen die drei
+  Holz-/Hybridbauten auf den Rängen 5–7, die drei Massivbauten auf 2–4, jeweils mit
+  konstruktionsbezogener Kritik — **Kausalität ausdrücklich nicht belegt**, für den Sieger
+  weist der Bericht gar keine Bauweise aus) · H11 (gemessen wird die Rangier-/Vorzonenfläche
+  vor dem Bettenlift, nicht die Liftzahl; Auflage sogar beim Sieger, S. 16).
+- **[verifikation]** Ein unabhängiger Refuter, **Verdikt NICHT BESTANDEN**, 8 Beanstandungen
+  eingearbeitet — darunter **zwei Seitenzahlen, die entgegen der selbst deklarierten
+  Fusszeilen-Konvention aus dem Inhaltsverzeichnis übernommen waren** (Rangfolge S. 15 statt
+  14; Funktionscluster Programm S. 23 statt 22), eine zu eng beschriebene Reichweite des
+  Zählkonflikts, die überdehnte Subtyp-2.5-Höherstufung, die forcierte S7-Gleichsetzung, die
+  Inkonsistenz «N» gegen «?» und zwei fehlende Kennzeichnungen. Nicht beanstandet: rund
+  zwanzig wörtliche Zitate, alle Ränge und Beitragsnummern, die Bauweise-Zuordnung, die
+  Matrix-Arithmetik, die Widerspruchsfreiheit zu den Abschnitten 1–6.
+- **[befund/quelle]** **Zählkonflikt im Beurteilungsbericht 2101 offengelegt:** das
+  Inhaltsverzeichnis führt durchgehend eine um eins tiefere Zählung als die Fusszeilen
+  (Kap. 1: TOC 5 / Fusszeile 6 · Anhang C: TOC 62 / Fusszeile 63). Artikel und Dossier
+  folgen einheitlich der Fusszeilen-Zählung; die Entscheidung am PDF steht aus (QUESTIONS).
+- **[korrektur]** `wiki/teilnahmen/2205-guggerbach.md`: Team-**Rollen**zuordnung stützte sich
+  fälschlich auch auf Jurybericht S. 49 — dort stehen die vier Namen ohne Rollenbezeichnung;
+  Beleg jetzt allein der Verfassernachweis · Zitat «… allerdings führt die Aufteilung auf
+  zwei Baukörper an sich zu höheren Kosten.» ohne markierte Kürzung berichtigt · der
+  Hittnau-Vorbehalt zum Materialtext an den Satzanfang gezogen (er steht im Original
+  unmittelbar vor der Überschrift «Konstruktion» und deckt den ganzen Abschnitt; in diesem
+  Lauf wäre er beinahe als gesicherte Materialaussage übernommen worden).
+- **[korrektur]** `wiki/teilnahmen/2101-kssg-h14.md`: Funktionscluster-Fundstelle von
+  Programm S. 22 auf S. 23 berichtigt; weitere Programm-Fundstellen ungeprüft (QUESTIONS).
+- **[struktur]** Nachtrag-Abschnitte 4b in beiden Dossiers; `last_updated` und `links` in
+  Artikel und Dossiers nachgeführt.
+- **[naechste-zelle]** **V2 Wohnungsbau** (`muster/jury-argumente-wohnungsbau.md` gegen
+  2205/2207/2503), mit Quellenlage-Vorprüfung vor Arbeitsbeginn — 2207 und 2503 haben
+  keinen Jurybericht, 2205 ist bereits hier ausgewertet. Danach V3.
+
 ## 2026-08-13 — ETAPPE 4, VERTIEFUNGSLAUF 02 (V2, Bauaufgabe Schulbau)
 
 - **[inhalt]** Neuer **Abschnitt 7** in `wiki/muster/jury-argumente-schulbauten.md`:

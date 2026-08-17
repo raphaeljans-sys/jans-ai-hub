@@ -376,25 +376,48 @@ Gegenfrage: **was haben die eigenen Beiträge davon bedient, und hat die Jury da
 gesehen?** Geprüft wurden die zwei JANS-Healthcare-Teilnahmen mit Jurybericht im Bestand
 gegen H1 bis H12. Alle Zitate sind am Original nachgeprüft (Etappe 4, Lauf 03).
 
+**Verifikations-Hinweis (17.08.2026):** Dieser Abschnitt wurde nach einem unabhängigen
+Refuter-Durchgang überarbeitet, **Verdikt «nicht bestanden»**. Acht Beanstandungen sind
+eingearbeitet: zwei Seitenzahlen, die entgegen der hier deklarierten Fusszeilen-Konvention
+aus dem Inhaltsverzeichnis übernommen waren (Rangfolge S. 15 statt 14, Funktionscluster
+Programm S. 23 statt 22) · eine zu eng beschriebene Reichweite des Zählkonflikts · eine
+überdehnte Subtyp-2.5-Höherstufung, die auf zwei statt auf einem bestätigten Muster
+beruhte · eine forcierte Gleichsetzung mit dem Schulbau-Argument S7 · eine methodische
+Inkonsistenz zwischen den Codes «N» und «?» · eine ungekennzeichnete Zuordnungsentscheidung
+bei H2 · eine fehlende Randnotiz zum Begriff «Etappierung». Vom Refuter geprüft und **nicht**
+beanstandet: rund zwanzig wörtliche Zitate zeichengetreu, sämtliche Ränge und
+Beitragsnummern, die Bauweise-Zuordnung aller sechs rangierten Vergleichsprojekte, die
+Feststellung, dass der Bericht für den Sieger «Insere» keine Bauweise ausweist, die
+Arithmetik der Matrix sowie die Widerspruchsfreiheit zu den Abschnitten 1 bis 6.
+
 **Die Ränge, aus den Berichten belegt, nicht aus dem Gedächtnis:** 2101 KSSG Haus 14
 «LOUISE» Nr. 04 = **kein Rang**, Ausscheiden im zweiten Rundgang (Beurteilungsbericht S. 13;
-Anhang C «Ausscheidung 2. Rundgang», S. 63); Sieger 06 «Insere» (Rangfolge S. 14). ·
+Anhang C «Ausscheidung 2. Rundgang», S. 63); Sieger 06 «Insere» (Rangfolge S. 15). ·
 2205 Guggerbach «Juli» = **kein Rang**, Ausscheiden im ersten Beurteilungsrundgang
 (Jurybericht S. 14); Sieger «Sonnenblume» (S. 15).
 
 **Seitenzahlen sind in beiden Fällen die gedruckte Paginierung der Originale** (Fusszeilen
 «KSSG | … | Beurteilungsbericht Seite N» bzw. «Seite N|65»); eine abweichende
-Extrakt-Zählung existiert bei diesen beiden Quellen nicht. Das ist der Unterschied zum
-Seitenzahl-Versatz, der in Abschnitt 7 der Schulbau-Synthese für 2102 zu vermerken war.
+Extrakt-Zählung existiert bei diesen beiden Quellen nicht — der Textextrakt übernimmt die
+Fusszeilen der Originale wörtlich. Das ist der Unterschied zum Seitenzahl-Versatz, der in
+Abschnitt 7 der Schulbau-Synthese für 2102 zu vermerken war (dort zählte das Dossier
+PDF-Seiten). **Davon zu unterscheiden ist der folgende Konflikt**, der nicht zwischen
+Extrakt und Druck, sondern zwischen Inhaltsverzeichnis und Fusszeile desselben Dokuments
+verläuft.
 
 **Ein Zählkonflikt im Bericht 2101 ist dabei offengelegt, nicht entschieden:** das
 Inhaltsverzeichnis des Beurteilungsberichts weist Kapitel 5.4 «Vertiefte Vorprüfung» der
-Seite 13 zu, die Fusszeilen-Zählung der Seite 14; dasselbe Delta von einer Seite zeigt sich
-über den ganzen Abschnitt 5.2.4 bis 6.2. Dieser Abschnitt folgt durchgehend der
-**Fusszeilen-Zählung** (Inhalt vor dem Fusszeilenmarker gehört zu dessen Seite) — das ist
-die Konvention, die auch das Dossier `teilnahmen/2101-kssg-h14.md` verwendet, sodass beide
-konsistent bleiben. Welche der beiden Zählungen die gedruckte Realität abbildet, ist am
-PDF zu entscheiden und in QUESTIONS vermerkt.
+Seite 13 zu, die Fusszeilen-Zählung der Seite 14. **Das Delta von einer Seite zieht sich
+durch den ganzen Bericht**, nicht nur durch diesen Abschnitt: «1 Ausgangslage» steht im
+Inhaltsverzeichnis auf S. 5 und im Fusszeilenblock von S. 6; «11 Anhang C: Ausscheidung
+2. Rundgang» im Inhaltsverzeichnis auf S. 62 und im Fusszeilenblock von S. 63. Dieser
+Abschnitt folgt durchgehend der **Fusszeilen-Zählung** (Inhalt vor dem Fusszeilenmarker
+gehört zu dessen Seite) — das ist die Konvention, die auch das Dossier
+`teilnahmen/2101-kssg-h14.md` verwendet, sodass beide konsistent bleiben. Welche der beiden
+Zählungen die gedruckte Realität abbildet, ist am PDF zu entscheiden und in QUESTIONS
+vermerkt. **Warnung für spätere Läufe:** genau dieser Konflikt hat in der ersten Fassung
+dieses Abschnitts zwei Fehlzitate erzeugt (Rangfolge, Funktionscluster), weil dort die
+bequemere Inhaltsverzeichnis-Zahl übernommen wurde. Beide sind korrigiert.
 
 ### 7.1 Die Matrix
 
@@ -411,20 +434,44 @@ Information verloren ginge, dass die Jury dasselbe Kriterium im selben Verfahren
 angewandt hat — nur an anderen Projekten. «g» ist ein Befund über das Verfahren, nie über
 den eigenen Beitrag.
 
+**Wann «N» und wann «?» — die Abgrenzung hängt an der Vollständigkeit der Abgabequelle.**
+«N» wird nur vergeben, wo die Abgabe **vollständig** vorliegt und den Punkt trotzdem nicht
+behandelt. «?» steht, wo die Quelle die Frage gar nicht beantworten kann. Für 2101 liegt
+der Textextrakt aller vier Abgabeplakate vor, für 2205 nur der Projekttext — **die
+A0-Abgabepläne von 2205 liessen sich nicht extrahieren**. Für 2205 kann das Schweigen des
+Textes deshalb nie belegen, dass die Abgabe einen Punkt nicht bediente; sämtliche negativen
+Zellen dieser Spalte stehen daher auf «?», nicht auf «N». Positive Zellen bleiben davon
+unberührt: Vorhandensein ist aus dem Text beweisbar, Abwesenheit nicht.
+
 | | 2101 KSSG H14 (kein Rang) | 2205 Guggerbach (kein Rang) |
 |---|---|---|
-| H1 Etappierbarkeit/Weiterbetrieb | – | **N** / o |
-| H2 Betriebs-Entflechtung On-/Off-Stage | T / s | – |
+| H1 Etappierbarkeit/Weiterbetrieb | –¹ | **?** / o |
+| H2 Betriebs-Entflechtung On-/Off-Stage | T / s² | – |
 | H3 Normzimmer/Rooming-in | – | – |
 | H4 Getrennte Adressen, gemeinsames Zentrum | – | T / o |
 | H5 Nachbarschaften/Wohngruppen | – | – |
 | H6 Demenzgarten offen und geschlossen | – | – |
-| H7 Anlieferung/Küche kreuzungsfrei | – | **N** / o |
+| H7 Anlieferung/Küche kreuzungsfrei | – | **?** / o |
 | H8 Kompaktheit inkl. UG und Fassade | T / **g** | T / **a + w** |
 | H9 Mischbauweise Beton + Holz | **B** / **g** | **?** / o |
 | H10 Umnutzbarkeit konstruktiv nachgewiesen | T / **g** | – |
 | H11 Zwei Vertikalerschliessungen/Warenlift | T / **g** | – |
 | H12 Milieu-/Atmosphärenqualität | T / **g** | **B** / o |
+
+¹ **H1 bei 2101 «nicht anwendbar»**, weil die Bestandesbaute vor dem Wettbewerb bereits
+abgebrochen war und kein Betrieb weiterzuführen ist: «Das KSSG geht gestützt auf den
+baulichen Kontext sowie auf Grundlage der vorgängigen Bestandesbaute (mittlerweile
+abgebrochen) von 4 Vollgeschossen und einer Tiefgarage aus.» (Programm S. 22). Der Begriff
+«Etappierung» ist im Verfahren nicht völlig abwesend — er fällt einmal beim Beitrag
+20 PARTHÉNOS («ungewollte Abhängigkeiten», S. 33), dort aber im städtebaulichen Sinn einer
+Standortverschiebung, nicht im Sinn von H1 (Weiterbetrieb ohne Provisorien).
+
+² **Die «s»-Zuordnung bei H2 ist eine Zuordnungsentscheidung, kein Jury-Befund.** Das
+Sammelurteil nennt «Mängel hinsichtlich der architektonischen Gestaltung, der betriebliche
+Funktionalität und der Raumorganisation» (S. 13) und ist damit so allgemein, dass es
+mehrere Argumente treffen könnte. «s» steht hier bei H2, weil «betriebliche Funktionalität»
+unter den für dieses Verfahren anwendbaren Argumenten am nächsten liegt — ein Bezug zu
+On-/Off-Stage oder kreuzungsfreien Wegen steht im Bericht **nicht**.
 
 ### 7.2 Was die Matrix zeigt
 
@@ -438,7 +485,7 @@ destilliert (Spital-Bettenhaus, Pflegeheim, Demenz, Psychiatrie, betreutes Alter
 während das eigene Healthcare-Portfolio aus einem **ambulanten Praxis- und Bürobau** (2101)
 und einem **Wohnungsneubau 65+** (2205) besteht. Für 2101 ist das aktenkundig: das Programm
 verlangt drei ambulante Funktionscluster (Sprechstunden, MPA/Sekretariat,
-OPU/Überwachung/FioreLab, Programm S. 22), keine Patientenzimmer; für 2205 gilt «Eine Küche
+OPU/Überwachung/FioreLab, Programm S. 23), keine Patientenzimmer; für 2205 gilt «Eine Küche
 zur Selbstversorgung ist zwingend.» (Programm S. 22) — Selbstversorgerwohnungen, kein
 Pflegegeschoss. **Der Katalog ist nicht falsch, er ist für die eigene Praxis nur zu einem
 Viertel einschlägig.** Das ist die Healthcare-Entsprechung zum S10-Befund des Schulbaus:
@@ -485,13 +532,16 @@ Abschnitt 4 (HOSPES), zeigt aber die andere Flanke derselben Asymmetrie.
    polygonale Form ermöglicht es die zwei Baukörper so in der Situation anzuordnen …»,
    eigener Projekttext, Abschnitt «Städtebau»). Die Jury bestätigt den Teil und kassiert den
    Schluss im selben Satz: «Die beiden Baukörper in sich sind kompakt ausgebildet, allerdings
-   führt die Aufteilung auf zwei Baukörper an sich zu höheren Kosten.» (S. 50). Das ist
-   **dieselbe Mechanik wie S7 im Schulbau**, wo die Jury 2102 den kompakten Fussabdruck lobte
-   und zwölf Zeilen später auf derselben Seite das grösste Volumen verurteilte. Die dort
-   als Arbeitshypothese mit n=1 geführte Regel hat damit **einen zweiten, unabhängigen Beleg
-   aus einer anderen Bauaufgabe und einem anderen Kanton**: der Fussabdruck ist nie die
-   Kennzahl, an der die Jury Wirtschaftlichkeit misst — sie misst Hülle, Untergeschoss und
-   Wiederholung. Für die Verdichtung V3 vorgemerkt.
+   führt die Aufteilung auf zwei Baukörper an sich zu höheren Kosten.» (S. 50). Das ist ein
+   **zweiter Hinweis aus einer anderen Bauaufgabe und einem anderen Kanton** auf ein
+   **verwandtes** Muster zu S7 im Schulbau, wo die Jury 2102 den kompakten Fussabdruck lobte
+   und auf derselben Seite das grösste Volumen verurteilte. **Ausdrücklich nicht dieselbe
+   Mechanik:** dort kaschierte ein kleines oberirdisches Volumen einen grossen
+   unterirdischen Fussabdruck, hier verdoppeln zwei Baukörper Hülle und Erschliessung. Der
+   gemeinsame Nenner ist schmaler und nur so weit belegt: **der Fussabdruck allein ist nicht
+   die Kennzahl, an der die Jury Wirtschaftlichkeit misst.** Ob die beiden Fälle wirklich
+   einer Regel folgen, entscheidet die Verdichtung V3 — bis dahin zwei verwandte
+   Einzelbeobachtungen, keine bestätigte Regel.
 2. **H9 — Geltungsbereich einschränken: das Muster stammt aus dem stationären Pflegebau.**
    In 2101 zeigt der Bericht ein lückenloses Gegenbild: die drei Beiträge mit Holz- oder
    Hybridtragwerk belegen die Ränge 5, 6 und 7 (03 BETULA PAPYRIFERA «ein Hybrid von einer
@@ -527,29 +577,36 @@ Der Abschnitt «Offene Punkte» hält fest, dass alle Muster des betreuten Alter
 ausschliesslich aus Tägermoos stammen und «nicht als robuste Regel verkauft werden» dürfen,
 bis ein zweiter Bericht vorliegt. **2205 Guggerbach ist dieser zweite, unabhängige
 Verfahrensbeleg** — anderer Kanton (GR statt ZH), andere Trägerschaft (Stiftung), anderes
-Verfahren (selektiv mit Präqualifikation), und er bestätigt zwei der drei Tägermoos-Muster,
-das erste sogar über den Negativbeweis des eigenen Scheiterns:
+Verfahren (selektiv mit Präqualifikation). **Er bestätigt aber nur EINES der drei in
+Abschnitt 2.5 gelisteten Muster** — diese Abgrenzung ist wichtig, weil davon abhängt, wie
+weit der Subtyp-Status gehoben werden darf:
 
-- **Solitär statt Mehrkörper, bestätigt.** Der Sieger setzte einen einzigen, gegliederten
-  Baukörper; «Juli» setzte zwei identische und wurde dafür ortsbaulich wie wirtschaftlich
-  verworfen: «Die zwei Volumen stehen zudem zu nahe zusammen und erzeugen hohe räumliche
-  Dichten.» (S. 50) und der Kostensatz aus 7.3. Die Tägermoos-Mechanik
-  **Erschliessungs- und Hüllenverdoppelung wird direkt in Kosten umgerechnet** ist damit
-  unabhängig belegt. **Nicht** mitbelegt ist das spezifische Tägermoos-Element «Etagenlounges»
-  — dieses bleibt Einzelbeleg.
-- **Das verbindende Zentrum ist das Siegargument, bestätigt (H4).** «Alle drei Wohnhäuser
-  sind durch die attraktive, verglaste Gartenhalle miteinander verbunden.» (S. 18); sie
-  «bietet einen Mehrwert für alle Bewohner, Besucherinnen und Mitarbeiter» (S. 19). «Juli»
-  erfüllte dieselbe zwingende Programmvorgabe (unterirdische Anbindung an Haus A,
-  Programm S. 22) rein funktional im zweiten Untergeschoss. **Die Muss-Verbindung eines
-  Alterszentrums ist kein Abhakpunkt, sondern der Ort, an dem das Verfahren entschieden wird.**
-- **Umnutzbarkeit (H10) bleibt Einzelbeleg** — in 2205 nicht Programmgegenstand, in 2101
-  nicht anwendbar.
+- **Muster (a) Solitär als «Partnerhaus»: bestätigt**, über den Negativbeweis des eigenen
+  Scheiterns. Der Sieger setzte einen einzigen, gegliederten Baukörper; «Juli» setzte zwei
+  identische und wurde dafür ortsbaulich wie wirtschaftlich verworfen: «Die zwei Volumen
+  stehen zudem zu nahe zusammen und erzeugen hohe räumliche Dichten.» (S. 50) und der
+  Kostensatz aus 7.3.
+- **Muster (b) Ein-Kern-Erschliessung plus Etagenlounges: NICHT geprüft.** 2205 zeigt zwar,
+  dass die Verdoppelung von Hülle und Erschliessung in Kosten umgerechnet wird — also die
+  **Kostenmechanik**, die hinter dem Muster steht. Es prüft aber nicht die Aussage von
+  Muster (b) selbst: weder die Ein-Kern-Konfiguration innerhalb eines Hauses noch die
+  Etagenlounges kommen im Verfahren vor. Muster (b) bleibt vollständig Einzelbeleg.
+- **Muster (c) umnutzbares Wohnmodul: nicht geprüft** — in 2205 nicht Programmgegenstand,
+  in 2101 nicht anwendbar. Bleibt Einzelbeleg.
+- **Zusätzlich, aber ausserhalb von 2.5: H4 erhält einen weiteren Verfahrensbeleg.** «Alle
+  drei Wohnhäuser sind durch die attraktive, verglaste Gartenhalle miteinander verbunden.»
+  (S. 18); sie «bietet einen Mehrwert für alle Bewohner, Besucherinnen und Mitarbeiter»
+  (S. 19). «Juli» erfüllte dieselbe zwingende Programmvorgabe (unterirdische Anbindung an
+  Haus A, Programm S. 22) rein funktional im zweiten Untergeschoss. **Die Muss-Verbindung
+  eines Alterszentrums ist kein Abhakpunkt, sondern der Ort, an dem das Verfahren
+  entschieden wird.** H4 ist ein subtyp-übergreifendes Siegargument aus Abschnitt 3 und
+  gehört nicht zu den drei Mustern von 2.5 — es darf deren Statusanhebung nicht mittragen.
 
-Subtyp 2.5 darf damit von **VORLÄUFIG/EINZELBELEG** auf **zwei Quellen** gehoben werden,
-begrenzt auf die zwei bestätigten Muster. Die Kopfzeile von 2.5 ist entsprechend zu
-präzisieren, sobald V3 den Artikel ohnehin überarbeitet; hier steht der Befund, nicht schon
-die Umschrift.
+**Konsequenz, eng gefasst:** Für Subtyp 2.5 darf allein **Muster (a)** von
+VORLÄUFIG/EINZELBELEG auf zwei Quellen gehoben werden. Die Muster (b) und (c) bleiben
+unverändert Einzelbeleg, und die Kopfzeile von 2.5 muss diese Differenzierung tragen,
+statt pauschal auf «zwei Quellen» zu wechseln. Umgesetzt wird die Umschrift in V3; hier
+steht der Befund.
 
 ### 7.5 Die Quellengrenze, die dieser Abschnitt nicht überspringt
 
@@ -573,6 +630,12 @@ Hittnau)» und stammt möglicherweise aus einem anderen Wettbewerb. Er wird desh
 Beleg für noch gegen H9 verwendet — daher der Code «?». Der Vorbehalt ist im Dossier
 `teilnahmen/2205-guggerbach.md` festgehalten und wurde in diesem Lauf an den Satzanfang
 gezogen, damit er beim nächsten Zugriff nicht überlesen wird.
+
+**Von der Abgabe 2205 liegt nur der Projekttext vor, nicht die Pläne.** Die A0-Abgabepläne
+liessen sich nicht in Text überführen. Aus dem Schweigen des Projekttextes folgt deshalb
+nie, dass die Abgabe einen Punkt nicht bediente — darum steht die 2205-Spalte in ihren
+negativen Zellen durchgehend auf «?» und nirgends auf «N». Für 2101 liegt der Textextrakt
+aller vier Abgabeplakate vor; dort wäre «N» belegbar, kommt aber nicht vor.
 
 **Quantitative Programmerfüllung von «Juli» ist offen.** Wohnungszahl, Parkplatzzahl und
 Flächenkennwerte sind aus dem Bestand nicht extrahierbar (Datenblatt Kosten/Mengen ohne

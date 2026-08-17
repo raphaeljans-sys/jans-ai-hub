@@ -1,6 +1,27 @@
 # INDEX — KB wettbewerbs-dna
 
-Stand: 03.08.2026 (**Etappe 4 «Vertiefung», Lauf 01 — Baustein V1 abgeschlossen UND
+Stand: 17.08.2026 (**Etappe 4 «Vertiefung», Lauf 03 — Baustein V2 HEALTHCARE
+ABGESCHLOSSEN**): Neuer **Abschnitt 7** in `muster/jury-argumente-healthcare.md` —
+2×12-Matrix der zwei eigenen Healthcare-Beiträge mit Jurybericht (2101 KSSG Haus 14
+«LOUISE», 2205 Guggerbach «Juli», **beide ohne Rang**) gegen die zwölf Siegargumente,
+doppelt codiert; neue Codes «g» (Jury benennt es im Verfahren, nicht am eigenen Beitrag)
+und «?» (Quelle erlaubt kein Urteil). **Kernbefund gegen den Artikel selbst: nur drei der
+zwölf Argumente waren in beiden eigenen Verfahren überhaupt anwendbar** (H8/H9/H12), drei
+in keinem (H3/H5/H6) — die zwölf stammen aus acht stationären Bauten, das eigene Portfolio
+ist ein ambulanter Praxis-/Bürobau plus ein Wohnungsneubau 65+. **Von 24 Zellen trägt genau
+eine ein Jury-Urteil zum eigenen Beitrag**, weil beide vor der individuellen Würdigung
+ausschieden. **Mechanik-Befund: die Kennzahlen, an denen H8 hängt, entstehen erst für die
+Finalisten** («Die Projekte in der engeren Wahl wurden einer detaillierten Prüfung
+unterzogen.», S. 14) — LOUISE wurde dem Kostenvergleich nie unterzogen; damit ist die
+Kriterien-Rangordnung aus Abschnitt 1 verfahrenstechnisch bestätigt. **Subtyp 2.5 erhält mit
+2205 einen zweiten unabhängigen Verfahrensbeleg, aber eng gefasst: nur Muster (a) «Solitär
+als Partnerhaus»**; (b) und (c) bleiben Einzelbeleg. Drei Schärfungen (H8, H9
+Geltungsbereich, H11 Vorzonenfläche statt Liftzahl), alle n=1. **Refuter NICHT BESTANDEN**,
+8 Beanstandungen eingearbeitet, darunter zwei Seitenzahlen, die entgegen der selbst
+deklarierten Konvention aus dem Inhaltsverzeichnis übernommen waren. Nebenbefund:
+durchgehender TOC-/Fusszeilen-Versatz im Bericht 2101 (QUESTIONS). Report
+`outputs/2026-08-17_etappe4-vertiefung-03.md`. **Nächste Zelle: V2 Wohnungsbau**, mit
+Quellenlage-Vorprüfung. — vorher 03.08.2026 (**Etappe 4 «Vertiefung», Lauf 01 — Baustein V1 abgeschlossen UND
 erschöpft**): Vertieft wurde **2408 BIWAK/Grassen** gegen die im Erst-Destillat nicht
 ausgewerteten Berichtsteile (Kap. 4.3 «Würdigung», Würdigungen des 2. und 3. Rangs,
 Planbeilage «Pläne engere Auswahl»). Ertrag: zwei neue Befunde im Muster

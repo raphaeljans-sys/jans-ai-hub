@@ -99,6 +99,57 @@
 >
 > **Kein gueltiges Ziel fuer die Nachtschicht-Prioritaet 4:** diese KB hat mit
 > `wettbewerbs-dna-training` wieder einen **eigenen aktiven Taktgeber**.
+>
+> ---
+>
+> ### STAND 17.08.2026 nach Lauf 03: **V2 HEALTHCARE ABGESCHLOSSEN** — naechster Lauf V2 Wohnungsbau
+>
+> **Quellenlage-Vorpruefung (Pflicht aus Lauf 02) durchgefuehrt und ergiebiger als erwartet:**
+> nicht nur 2101, sondern auch **2205 Guggerbach** hat einen Jurybericht im Bestand. 2205 ist
+> ein Wohnungsneubau «Generation 65+» am Alterszentrum und faellt damit unter den
+> Healthcare-Subtyp 2.5 «betreutes Alterswohnen». Der Beitrag ist bewusst **hier** ausgewertet
+> und nicht im Wohnungsbau; das ist beim naechsten Lauf zu beachten, damit er nicht doppelt
+> durchlaeuft. Ergebnis als **Abschnitt 7** in `muster/jury-argumente-healthcare.md`:
+> 2×12-Matrix, doppelt codiert, mit den zwei neuen Codes «g» und «?».
+>
+> **Ertrag Lauf 03:** (1) **Nur drei der zwoelf Siegargumente waren in beiden eigenen
+> Verfahren ueberhaupt anwendbar** (H8/H9/H12), drei in keinem (H3/H5/H6) — der Katalog stammt
+> aus acht stationaeren Bauten, das eigene Portfolio ist ein ambulanter Praxis-/Buerobau und
+> ein Wohnungsneubau 65+. Befund gegen den Artikel selbst, wie S10 im Schulbau. (2) **Von 24
+> Matrixzellen traegt genau eine ein Jury-Urteil zum eigenen Beitrag** — beide Beitraege
+> schieden vor der individuellen Wuerdigung aus. (3) **Die Kennzahlen, an denen H8 haengt,
+> entstehen erst fuer die Finalisten**; LOUISE wurde dem Kostenvergleich nie unterzogen. Damit
+> ist die Kriterien-Rangordnung aus Abschnitt 1 verfahrenstechnisch bestaetigt. (4) **Subtyp
+> 2.5 erhaelt einen zweiten unabhaengigen Verfahrensbeleg, aber nur fuer Muster (a)**. Drei
+> Schaerfungen (H8, H9 Geltungsbereich, H11 Vorzonenflaeche), alle n=1.
+>
+> **Ein unabhaengiger Refuter, Verdikt NICHT BESTANDEN**, 8 Beanstandungen eingearbeitet.
+> Zwei davon sind Seitenzahlen, die **entgegen der im selben Abschnitt deklarierten
+> Fusszeilen-Konvention** aus dem Inhaltsverzeichnis uebernommen worden waren — die Lehre ist
+> aelter als dieser Lauf und traf ihn trotzdem.
+>
+> **Nebenbefund:** Der Beurteilungsbericht 2101 traegt einen **durchgehenden Versatz von einer
+> Seite zwischen Inhaltsverzeichnis und Fusszeilen** (Kap. 1: TOC 5 / Fusszeile 6 · Anhang C:
+> TOC 62 / Fusszeile 63). Artikel und Dossier folgen einheitlich der Fusszeilen-Zaehlung; die
+> Entscheidung am PDF steht aus. Verwandt mit dem Seitenzahl-Audit 2102 aus Lauf 02 —
+> **es lohnt sich, beide in einem Lauf zu erledigen**.
+>
+> Report `outputs/2026-08-17_etappe4-vertiefung-03.md`.
+>
+> **Naechster Lauf: V2 Wohnungsbau** (`muster/jury-argumente-wohnungsbau.md`). **Quellenlage
+> vorab pruefen, und diesmal ist das Ergebnis absehbar duenn:** von den drei
+> Wohnungsbau-Teilnahmen hat 2207 Schliengerweg keinen Jurybericht, 2503 Glockenacker gar
+> keine Unterlagen ausser CAD-Dateien, und 2205 ist bereits in Lauf 03 ausgewertet. **Wenn
+> sich daraus kein substanzieller Lauf bilden laesst, ist das ausdruecklich zu melden und
+> direkt auf V3 zu wechseln** — nicht ein duenner Lauf als voller ausweisen. Die
+> Endbedingung der Etappe gilt unveraendert.
+>
+> **Fuer V3 vorgemerkt:** die Zusammenfuehrung von H8 (Healthcare) und S7 (Schulbau) — zwei
+> verwandte, nicht deckungsgleiche Beobachtungen zur Frage, an welcher Kennzahl Jurys
+> Wirtschaftlichkeit messen. Ausserdem die differenzierte Umschrift der Kopfzeile von
+> Abschnitt 2.5 und die Frage an Raphael, ob ein sechster Subtyp «ambulante Praxis-/
+> Ambulatoriumsbauten» eroeffnet werden soll (das braeuchte neues Quellmaterial und
+> widerspraeche der Etappen-4-Vorgabe — **Entscheid Raphael, nicht durch den Loop**).
 
 Loop: `wettbewerbs-dna-training` · Station: **MacBook Pro** (Zuteilung 12.07.2026;
 OneDrive-Archiv hier lesbar, TCC geprueft). Takt **historisch** (bis 27.07.2026): taeglich

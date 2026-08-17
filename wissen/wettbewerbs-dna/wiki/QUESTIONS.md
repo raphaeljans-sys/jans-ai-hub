@@ -3,6 +3,44 @@
 Stand: 27.07.2026 (Wohnungsbau B4+B6 abgeschlossen; Verfahrens-Sonderfaelle-Frage und
 Extrakt-Grenze Koch-Areal geklaert, fehlende 1. Stufe Walkeweg bleibt offen)
 
+## Offen (neu 17.08.2026, Etappe 4 Lauf 03)
+
+- **Zählkonflikt im Beurteilungsbericht 2101 am PDF entscheiden.** Das Inhaltsverzeichnis
+  führt durchgehend eine um eins tiefere Seitenzählung als die Fusszeilen — belegt an zwei
+  weit auseinanderliegenden Stellen (Kap. 1 «Ausgangslage»: TOC S. 5 / Fusszeilenblock S. 6;
+  Anhang C: TOC S. 62 / Fusszeilenblock S. 63) und in der Mitte (Kap. 5.4: TOC 13 /
+  Fusszeile 14). Artikel und Dossier folgen einheitlich der **Fusszeilen**-Zählung. Zu tun:
+  am Original-PDF prüfen, welche Zählung die gedruckte Seite abbildet, und die unterlegene
+  Zählung im Dossier-Frontmatter als Konvention festhalten. **Der Konflikt ist teuer:** er
+  hat in der ersten Fassung von Abschnitt 7 zwei Fehlzitate erzeugt.
+- **Programm-Fundstellen des Dossiers `2101-kssg-h14.md` sind ungeprüft.** In diesem Lauf
+  wurde eine einzige Fundstelle nachgerechnet (Funktionscluster: S. 22 → S. 23, korrigiert).
+  Ob der Programm-Extrakt denselben TOC-/Fusszeilen-Versatz trägt wie der Beurteilungsbericht
+  und wie viele der übrigen Programm-Zitate betroffen sind, ist offen. **Bewusst nicht global
+  ersetzt** (Rule 260811). Gleiche Familie wie das Seitenzahl-Audit 2102 aus Lauf 02.
+- **Die A0-Abgabepläne von 2205 sind nicht in Text überführbar.** Solange nur der Projekttext
+  vorliegt, kann für diese Teilnahme nie belegt werden, dass die Abgabe einen Punkt **nicht**
+  bediente; alle negativen Matrixzellen stehen deshalb auf «?». Zu tun: einen Weg zur
+  Textextraktion der A0-PDFs suchen (Wege-Register `connectors/WEGE.md`), sonst bleibt die
+  2205-Spalte dauerhaft einseitig auswertbar.
+- **Der Healthcare-Argumentkatalog deckt die eigene Healthcare-Praxis nur zu einem Viertel.**
+  Nur H8, H9 und H12 waren in beiden eigenen Verfahren anwendbar; H3, H5 und H6 in keinem.
+  Die acht Quellen sind stationäre Bauten, die eigenen Beiträge ein ambulanter Praxis-/Bürobau
+  und ein Wohnungsneubau 65+. Offen: Soll ein **sechster Subtyp «ambulante Praxis-/
+  Ambulatoriumsbauten»** eröffnet werden? Das hiesse neue externe Juryberichte beschaffen und
+  widerspräche der Etappen-4-Vorgabe «kein neues Quellmaterial» — **Entscheid Raphael**, nicht
+  durch den Loop zu treffen.
+- **Arbeitshypothesen aus Lauf 03, je n=1, brauchen einen zweiten Beleg:** H9 «im ambulanten
+  Praxisbau wird Holz an Spannweite, Plausibilisierung und Wertigkeit angegriffen» (Ränge 5–7
+  gegen 2–4, Kausalität nicht belegt, für den Sieger ist gar keine Bauweise ausgewiesen) ·
+  H11 «gemessen wird die Rangier-/Vorzonenfläche vor dem Bettenlift, nicht die Liftzahl» ·
+  H8 «der Fussabdruck allein ist nicht die Kennzahl der Wirtschaftlichkeit» (verwandt, aber
+  nicht deckungsgleich mit S7 Schulbau — die Zusammenführung entscheidet V3).
+- **Subtyp 2.5: nur Muster (a) darf hochgestuft werden.** Guggerbach bestätigt den «Solitär
+  als Partnerhaus»; Ein-Kern-Erschliessung/Etagenlounges und das umnutzbare Wohnmodul kommen
+  im Verfahren nicht vor und bleiben Einzelbeleg. Zu tun in V3: Kopfzeile von Abschnitt 2.5
+  differenziert umschreiben, nicht pauschal auf «zwei Quellen» setzen.
+
 ## Offen (neu 13.08.2026, Etappe 4 Lauf 02)
 
 - **Seitenzahl-Audit `wiki/teilnahmen/2102-muttenz.md`.** Die Fundstellen des Dossiers liegen
