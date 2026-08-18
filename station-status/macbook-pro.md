@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 03:41:17
+Stand: 18.08.2026 03:51:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:41)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:50)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.08.2026 03:41:17
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 486d68b8 nas-selfcommit: 3 Datei(en) 2026-08-18 03:30
+- 0f356164 twin-mail-training Batch 97: Doppelabgleich Drafts x Sent Items, Fenster rj@ 17.08.2026
