@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.08.2026 06:59:03
+Stand: 18.08.2026 07:09:20
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 18.08.2026 06:59:03
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 65616f85 nas-selfcommit: 3 Datei(en) 2026-08-18 06:45
+- acd1a870 Radar 18.08.2026: UBS-Kapitaleinzahlungskonto eroeffnet, Tuerbuch-Termin auf 19.08. verlegt, Duschwannen-Aufbauhoehe und Jegen-Lieferfristen neu im Register
