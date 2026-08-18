@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-08-18 (Versuchs-Slot Mac-Mini-Nachtschicht 13:30) — Run 141 (02:30 delegiert) nie abgeschlossen: kein Ergebnis, kein Commit; PL-04-Mount strukturell nicht vorhanden
+
+**Loser Faden geschlossen, kein neuer Trainingslauf.** Der 02:30-Zyklus hatte Run 141
+(Fortsetzung AWEL-Vollzugsordner Energie ZH, Abschnitt 4 Heizungsanlagen S. 46ff.) an einen
+Subagenten delegiert und als "laeuft im Hintergrund weiter, Ergebnis noch nicht bekannt" im
+Logbuch vermerkt (`logbuch/LOGBUCH.md`, Eintrag 02:30). Weder hier im CHANGELOG noch in
+`outputs/`, `curriculum.md` oder `pdf-inventar.md` ist seither ein Ergebnis angekommen — der
+Lauf ist ohne sichtbaren Abschluss verpufft, vermutlich am selben Hindernis wie die Runs
+126-129 (siehe Eintrag 2026-08-12/13 oben): **`OneDrive-FreigegebeneBibliotheken–JANS/PL - 04
+Energie` existiert auf dieser Station strukturell nicht** (nur AD/AR/IMMO unter dieser Wurzel,
+selbst geprueft 18.08. 13:xx via `ls`) — der belegte Regelweg ist der **Graph-Weg (M365-CLI,
+Drive-ID statt Web-Pfad, `m365 spo file get` liefert 404)**, nicht der OneDrive-Mount.
+
+Dieser Zyklus hat Run 141 **nicht neu gestartet** (Rule: nach Budget-/Access-Scheitern nie
+dieselbe Aufgabe direkt wiederholen) und auch keinen Ersatz-Trainingslauf gefahren — alle
+anderen Prioritaeten waren bereits von den beiden vorherigen Zyklen heute (02:30, 05:34)
+sauber abgearbeitet oder als gesaettigt/blockiert bestaetigt (Synobsis, bauprodukte, grobkosten,
+Fristen-Register, `entwurfs-referenzen`-Artikel). **Naechster Schritt fuer Run 141:** direkt ueber
+den Graph-Weg (Drive-ID) neu ansetzen, nicht ueber den OneDrive-Mount pruefen.
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — EN-102 fusst auf SIA 380/1:2016, nicht 2009; Gegenkante zum ZH-Energie-Quellordner
 
 - **Korrektur `wiki/u-werte-grenzwerte-ch.md` (`status: established`), adversarial bestaetigt:**
