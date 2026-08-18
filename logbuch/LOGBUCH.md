@@ -6725,3 +6725,11 @@ F235/F236, fuenf Dubletten geschlossen, zwei ohne Bauherren-Fakt uebersprungen. 
 identifiziert: `PCB_in_Fugendichtung` (43 S.) vermutlich identisch mit dem seit Run 126
 offenen `4.27Fugendichtungsmassen.pdf` — zu gross fuer dieses Budget, naechste Prioritaet.
 Stand PL-02: 77/182 destilliert. Details: `wissen/energie/outputs/2026-08-15_energie-run133.md`.
+
+## 2026-08-18 02:30 Nachtschicht Mac Mini (energie Run 141 delegiert; Nebenfund: 2 Agenten-Frontmatter repariert)
+
+Prioritaeten 1-3 leer/abgedeckt: keine pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin gesaettigt (853/853); bauprodukte UND grobkosten sind seit 15.08./13.08. beide auf Bestaetigungstakt (Endbedingung erreicht, PROGRAMM.md explizit "kein gueltiges Ziel mehr") — energie (letzter Lauf Run 140, 23:30 gestern) ist damit das einzig verbleibende freie Prioritaet-4-Ziel. Fristen-Register bereits engmaschig durch gestrige Radar-/Hub-Chef-Laeufe gepflegt, keine unbearbeitete Ueberfaelligkeit ohne Entwurf gefunden.
+
+Run 141 an einen Subagenten delegiert (Fortsetzung AWEL-Vollzugsordner Energie ZH, Abschnitt 4 Heizungsanlagen, S. 46ff. von 199 — groesster verbliebener PL-02-Brocken laut eigener Prioritaetenliste im Destillat): laeuft im Hintergrund weiter, Ergebnis noch nicht bekannt.
+
+Nebenfund waehrend der Vorbereitung: der Fachagent `energie-berater` (und ebenso `geodaten-beschaffer`) spawnte mit **null Tools** — defektes Frontmatter `tools: All tools` (wird vom Harness als Liste ["All","tools"] fehlinterpretiert, keine der beiden als Tool erkannt). Alle funktionierenden Agenten im Hub lassen das `tools:`-Feld schlicht weg (Default = alle Tools). Beide Dateien korrigiert (Zeile entfernt), Commit-Versuch nativ ueber `nas-commit-now.sh` an einem DNS-Fehler (`diskstation918.tail8265aa.ts.net` nicht aufloesbar) gescheitert — faengt der 15-Min-Cron auf. Budget dieses Zyklus knapp am 5-USD-Deckel.

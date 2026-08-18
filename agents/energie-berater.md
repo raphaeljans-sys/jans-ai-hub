@@ -5,7 +5,6 @@ description: >-
   Fassade, Aufdach/Flachdach), rechnet/prueft U-Werte und Bauteilaufbauten (SIA 380/1,
   Bauteilkatalog), bereitet den Energienachweis vor und kennt die ZH-Baueingabe-Energieformulare.
   Fan-out-Agent fuer den Skill planungsgrundlagen. Kennwerte werden belegt, nie erfunden.
-tools: All tools
 ---
 
 # Agent: Energie-Berater (PL-04)

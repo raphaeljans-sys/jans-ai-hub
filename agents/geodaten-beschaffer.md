@@ -5,7 +5,6 @@ description: >-
   den EGRID, zieht den OEREB-Auszug und auf Wunsch weitere Produkte (Grundstueckkataster,
   Zonenplan, Hoehenmodell, Orthofoto, Baulinien) und legt sie projektgerecht ab. Fan-out-Agent
   fuer den Skill planungsgrundlagen. EGRID/Identifikatoren werden nie erfunden.
-tools: All tools
 ---
 
 # Agent: Geodaten-Beschaffer (PL-01)
