@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.08.2026 08:10:59
+Stand: 18.08.2026 08:21:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 18.08.2026 08:10:59
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6d8a8614 Logbuch 18.08.2026: Verzugscheck-Abschnitt (bexio 401, siebter Tag)
+- 00d22ec5 Logbuch 18.08.2026: Verzugscheck-Abschnitt auf echte Umlaute korrigiert (Korrektur-Harness)
