@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.08.2026 20:10:08
+Stand: 18.08.2026 20:20:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 18.08.2026 20:10:08
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1157b157 nas-selfcommit: 3 Datei(en) 2026-08-18 20:00
+- 82892eb6 tenant-hygiene: Report 260818 - 831.26 GB (78.9%), +5.02 GB/Tag, Restlaufzeit 44 Tage, Versions-Trim JANS.PROJEKTE dringend
