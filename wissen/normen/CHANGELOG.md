@@ -1,3 +1,50 @@
+## 2026-08-19 (Normen-Nacht Run 57, MacBook Pro) — N56-1 geschlossen; SIA 416/1:2007 ist zurueckgezogen
+
+- **N56-1 GESCHLOSSEN.** Refuter-Runde auf den fuenf zuletzt offenen Seiten von
+  `destillate/sia-416-1-2007.md` (S. 4, 6, 21, 27, 34), vom Hauptprozess ohne Subagenten am
+  eigenen 300-dpi-Rendering (Praefix `ref416-r57-`), Folio je am Seitenrand abgelesen.
+  **Saemtliche Korrekturen der Runs 55 und 56 haben am Druck gehalten** — keine musste
+  zurueckgenommen werden. Der EV/Eh-Befund aus Run 55 ist am Druck sogar **doppelt** belegt
+  (der Eh-Eintrag nennt die Zuluft-Erwaermung ausdruecklich).
+- **3 neue Kernbefunde, alle inline korrigiert:** (a) **S. 6 — Figur 1 und die GF-Gliederung
+  fehlten dem Destillat vollstaendig**; damit war die Identitaet GF = NGF + KF und die
+  Taxonomie NGF = NF+VF+FF / NF = HNF+NNF nirgends gefuehrt (Gegenpruefung «Figur 1»,
+  «gliedert», «GF = NGF» je 0 Treffer). (b) **S. 6 — «Bauteile _wie_ versetzbare Trennwaende
+  und Schrankwaende»** war zur geschlossenen Aufzaehlung verengt; verneint ist zudem nicht die
+  Bauteil-Eigenschaft schlechthin, sondern die als **umschliessendes oder innenliegendes**
+  Konstruktionsbauteil. (c) **S. 27 — die Positivdefinitionen von EV und EC fehlten** (Run 55
+  trug drei nach, es waren fuenf); mit ihnen fehlten die Zuteilungsregeln **WRG-Antrieb → EV**
+  und **Rueckkuehl-Ventilator → EC**. Dazu 4 Nebenbefunde. **S. 4, 21 und 34 ohne Kernbefund.**
+- **⚠⚠ SIA 416/1:2007 IST ZURUECKGEZOGEN** — gueltig 01.07.2007 bis **31.03.2015**, seit
+  01.04.2015 ersetzt durch **SIA 380:2015 «Grundlagen fuer energetische Berechnungen von
+  Gebaeuden»** (SN 504380:2015). Belegt an **zwei unabhaengigen Primaerquellen**: dem
+  SIA-Shop-Produktdatenblatt («archivierter Titel», mit Enddatum) und dem **Titelblatt der
+  SIA 380:2015 selbst** («Ersatz fuer SIA 416/1:2007 sowie Teile von SIA 2031:2009,
+  SIA 2032:2010 und SIA 2040:2011»). **SIA 380:2015 liegt NICHT im Haus** — Beschaffung ist
+  Bring-Schuld (**N57-2**).
+- **Nachgefuehrt:** `destillate/sia-416-1-2007.md` (Warnkasten zuoberst, Frontmatter-Feld
+  `gueltigkeit`, Pruefstand, Statusbegruendung; Diff **+131/−11**, alle 11 Loeschungen sind
+  ersetzte eigene Zeilen, kein fremder Inhalt entfernt, Rule 260811; ankerbasiert, kein
+  globales Ersetzen; Sicherungskopie im Scratchpad) · `wiki/REGISTER.md` (Gueltigkeitsspalte
+  von «2007✓» auf «2007 ✗ zurueckgezogen» korrigiert) · `destillate/INDEX.md` ·
+  `training/norm-inventar.md` (beide Zeilen) · `wiki/sia-416-1-verwendungszwecke-abgrenzung.md`
+  (**Status von `established` auf `speculative` herabgesetzt** — `established` heisst nach Rule
+  `normen-referenz` Ziff. 1b «ohne Gegenlesen zitierfaehig», das darf fuer eine archivierte
+  Ausgabe nicht gelten; der Artikelinhalt selbst bleibt geprueft und richtig) ·
+  `wiki/QUESTIONS.md` (N56-1 geschlossen, N57-1 bis N57-4 neu) ·
+  `outputs/2026-08-19_normen-nacht-run57.md`.
+- **Nur gemeldet, nicht angefasst:** neun Dateien in vier Fremd-KBs (`energie`,
+  `immobilienbewertung`, `planungsgrundlagen`, `baurecht`) zitieren SIA 416/1 als Fundstelle.
+  Die Umhaengung auf SIA 380:2015 setzt deren Beschaffung voraus und ist **sachbezogen** zu
+  pruefen, nicht mechanisch zu ersetzen (Lehre aus Rule `bkp-2017-referenz`). Liste in
+  `wiki/QUESTIONS.md` unter N57-2.
+- **Methodenbefund:** Fuenf Laeufe (53-57) haben den Inhalt dieser Norm Satz fuer Satz
+  verifiziert, **ohne je ihren Gueltigkeitsstand zu pruefen** — obwohl Methodik-Pflicht 3 des
+  PROGRAMM genau das als **ersten** Schritt jeder Verifikation verlangt. Die Pflicht war
+  formuliert fuer den Vergleich zweier Fassungen **im Bestand**; dass die geltende Fassung gar
+  nicht im Haus liegen koennte, deckte sie nicht ab. Praezisierung im Laufbericht vorgeschlagen.
+- Stationssplit eingehalten: nur SIA/VKF bearbeitet; DIN, VSS und RAL nicht angefasst.
+
 ## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — drei Gegenkanten zur KB `planungsgrundlagen` gesetzt
 
 - **Doppelfuehrung beidseitig verdrahtet** (Uebergabe-Auftrag 1 aus Run 35). Drei Destillate

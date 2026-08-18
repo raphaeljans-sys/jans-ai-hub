@@ -1,7 +1,8 @@
 ---
 title: SIA 416/1 Ziff. 4.3.3 — die Abgrenzung der Verwendungszwecke (wo Doppelzählung entsteht)
-status: established
-last_updated: 2026-08-17
+status: speculative
+gueltigkeit: "Die beschriebene Norm SIA 416/1:2007 ist seit 31.03.2015 ZURUECKGEZOGEN, ersetzt durch SIA 380:2015. Der Artikelinhalt ist unveraendert richtig und am Original geprueft; er ist nur keine geltende Fundstelle mehr."
+last_updated: 2026-08-19
 sources:
   - "SIA 416/1:2007 «Kennzahlen für die Gebäudetechnik», Ziff. 4.1.1-4.1.6, 4.2, 4.3.1-4.3.3, 4.4.2 (S. 26-28), Ziff. 4.4.6 (S. 31) — in Run 55 (17.08.2026) vom Hauptprozess am eigenen 300-dpi-Rendering der Originalseiten gelesen (Präfix ref416-r55-), nicht aus dem Destillat übernommen"
   - "Destillat [[sia-416-1-2007]] (status speculative — dieser Artikel stützt sich NICHT darauf, sondern auf die eigene Originallektüre)"
@@ -9,6 +10,27 @@ links: [[sia-416-1-2007]], [[sia-416-2003]]
 ---
 
 # SIA 416/1 Ziff. 4.3.3 — die Abgrenzung der Verwendungszwecke
+
+> ⚠ **Bezugsnorm zurückgezogen — Statusstufe herabgesetzt (Run 57, 19.08.2026).**
+> **SIA 416/1:2007 ist seit dem 31.03.2015 nicht mehr gültig** und durch **SIA 380:2015
+> «Grundlagen für energetische Berechnungen von Gebäuden»** ersetzt (belegt am
+> SIA-Shop-Produktdatenblatt und am Titelblatt der SIA 380:2015: «Ersatz für
+> SIA 416/1:2007»). Siehe den Warnkasten im Destillat [[sia-416-1-2007]].
+>
+> **Der Inhalt dieses Artikels ist davon nicht betroffen** — er wurde in Run 55 am eigenen
+> 300-dpi-Rendering der Originalseiten geprüft und in Run 57 an S. 27 erneut bestätigt
+> (der EV/Eh-Befund ist am Druck doppelt belegt). **Herabgesetzt ist nur die Zitierstufe:**
+> `established` bedeutet nach Rule `normen-referenz` Ziff. 1b «ohne Gegenlesen
+> zitierfähig», und das darf für eine archivierte Ausgabe nicht gelten. Wer die Abgrenzung
+> der Verwendungszwecke heute belegen muss, prüft sie in **SIA 380:2015** nach (nicht im
+> Haus, N57-2).
+>
+> **Beiläufig ein Beleg für N55-4** (Status-Vokabular): Dem Vokabular fehlt eine Stufe für
+> «Inhalt solide geprüft, Ausgabe aber nicht mehr in Kraft». `speculative` sagt hier das
+> Falsche — es liest sich als Zweifel am Inhalt. Genau dafür schlug Run 55 eine Stufe
+> `destilliert` vor.
+
+## Warum dieser Artikel
 
 ## Warum dieser Artikel
 

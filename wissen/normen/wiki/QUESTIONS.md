@@ -1,5 +1,78 @@
 # Offene Fragen — KB Normen
 
+## Normen-Lauf Run 57 (19.08.2026) — N56-1 geschlossen; die Norm ist zurückgezogen
+
+**N56-1 — GESCHLOSSEN.** Die Refuter-Runde auf den fünf zuletzt offenen Seiten von
+`sia-416-1-2007` (S. 4, 6, 21, 27, 34) ist gefahren, vom Hauptprozess am eigenen
+300-dpi-Rendering (Präfix `ref416-r57-`). **Sämtliche Korrekturen der Runs 55 und 56 haben am
+Druck gehalten**, keine musste zurückgenommen werden. Neu 3 Kernbefunde (S. 6 — Figur 1 und die
+GF-Gliederung fehlten ganz; S. 6 — «Bauteile _wie_ …» zur geschlossenen Aufzählung verengt;
+S. 27 — die Positivdefinitionen von EV und EC fehlten, mit ihnen die Zuteilung von WRG-Antrieb
+und Rückkühl-Ventilator) und 4 Nebenbefunde, alle inline korrigiert. Nach dem vorgeschlagenen
+Abbruchkriterium sind **S. 4, 21 und 34 geschlossen**; offen bleiben **S. 6 und S. 27**.
+
+---
+
+### ⚠⚠ N57-2 — SIA 416/1:2007 ist seit 31.03.2015 zurückgezogen; die Nachfolgenorm fehlt
+
+**Der gewichtigste Befund dieses Laufs, und er relativiert die ganze Reihe 52-57.** Run 56 hatte
+die Korrigenda-Liste als «einzigen offenen Schritt, der die ganze bisherige Verifikationskette
+relativieren könnte» benannt. Der Schritt ist gefahren — und hat nicht eine Korrigenda gefunden,
+sondern **das Ende der Gültigkeit**:
+
+- **SIA 416/1:2007 war gültig vom 01.07.2007 bis zum 31.03.2015.** Der SIA-Shop führt sie als
+  **«archivierter Titel»**.
+- Ersetzt seit **01.04.2015** durch **SIA 380:2015 «Grundlagen für energetische Berechnungen
+  von Gebäuden»** (SN 504380:2015, 64 S.). Deren **Titelblatt** trägt wörtlich: «**Ersatz für
+  SIA 416/1:2007** sowie Teile von SIA 2031:2009, SIA 2032:2010 und SIA 2040:2011».
+- **Zwei unabhängige Primärquellen**, nicht eine Suchmaschinen-Zusammenfassung.
+
+**Was zu tun ist:** **SIA 380:2015 beschaffen und destillieren.** Sie liegt **nicht im Haus** —
+der Bestand führt nur SIA 380/1:2016, 380/3:1990 und 380/4 (andere Normen). Bezug SIA-Shop,
+kostenpflichtig, **Bring-Schuld Raphael; Claude tätigt keine Käufe.** Diese Beschaffung ist
+gewichtiger als jede weitere Runde auf der Altnorm.
+
+**Reichweite über die KB hinaus — bitte prüfen, hier nur gemeldet.** Das Register `wissen/normen`
+ist nachgeführt (REGISTER, INDEX, Inventar, Destillat, Wiki-Artikel). **Nicht angefasst** sind
+Fremd-KBs, die SIA 416/1 zitieren; sie sollten die Fundstelle auf SIA 380:2015 umhängen, sobald
+diese vorliegt:
+
+| KB | Datei |
+|---|---|
+| `energie` | `wiki/u-werte-grenzwerte-ch.md`; `destillate/gebaeudehuellziffer-ebf-flaechendefinition.md`, `enfk-en-02-waermeschutz-2013.md`, `enfk-fensterblatt.md`, `systemnachweis-kurs-zh-2009.md`, `therapiebad-hallenbad-energie-pflegeheim.md` |
+| `immobilienbewertung` | `wiki/flaechendefinitionen-sia.md` |
+| `planungsgrundlagen` | `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` |
+| `baurecht` | `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` |
+
+**Achtung bei der Umhängung:** Der Begriff **Energiebezugsfläche AE** lebt in SIA 380:2015
+weiter; ein Verweis auf das *Konzept* ist nicht falsch, nur die *Fundstelle* ist veraltet.
+Pauschales Ersetzen wäre der Fehler aus Rule `bkp-2017-referenz` («Sachbezug prüfen, nicht
+mechanisch ersetzen»).
+
+### N57-1 — der Run-57-Zuwachs ist selbst wieder unverifiziert
+
+Die in diesem Lauf geschriebenen Stellen auf S. 4, 6, 27 und 34 hat niemand gegengelesen
+(Lehre aus Run 56: wer in einem Lauf Text schreibt, weist ihn im selben Lauf nicht als geprüft
+aus). **Nachrangig geworden:** solange die Norm archiviert ist und die Nachfolgenorm fehlt, ist
+eine weitere Runde auf der Altnorm der geringere Ertrag. Erst nach Entscheid zu N57-2 sinnvoll.
+
+### N57-3 — Korrigenda-Liste weiterhin nicht eingesehen (gering)
+
+Der SIA führt Korrekturen unter `www.sia.ch/korrigenda`; die Seite liefert ohne JavaScript
+keinen Inhalt. Bei einer archivierten Ausgabe nachrangig. Der Hinweis auf die Fundstelle steht
+auf dem Titelblatt jeder neueren SIA-Norm — für **SIA 380:2015** ist er beim Destillieren
+mitzuprüfen.
+
+### N57-4 — Gültigkeit von SIA 416:2003 nicht primärverifiziert (gering, billig)
+
+Das Destillat stützt sich durchgehend auf **SIA 416:2003** als geltende Bezugsnorm. Nach
+Sekundärquelle ist sie weiterhin in Kraft (gültig ab 01.10.2003; archiviert ist die Ausgabe
+1993), **das Produktdatenblatt selbst wurde aber nicht erreicht** — die geratene Shop-URL lief
+ins Leere. Bis zum Primärbeleg ist die Aussage nicht zitierfähig. Nach dem 416/1-Befund ist
+diese Prüfung nicht mehr optional: **wer eine Bezugsnorm zitiert, prüft ihren Gültigkeitsstand.**
+
+---
+
 ## Normen-Lauf Run 56 (18.08.2026) — N55-1 und N55-2 geschlossen, ein neuer Punkt
 
 **N55-1 — GESCHLOSSEN.** Die unabhängige Refuter-Runde auf dem Run-54-Zuwachs der S. 4, 6, 9,
