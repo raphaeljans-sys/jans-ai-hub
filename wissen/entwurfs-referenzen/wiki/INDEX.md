@@ -9,8 +9,13 @@
 on-demand aus [[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
 
 ## Entwurfsprinzipien
-*(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus
-[[architekten-synobsis]]-Abfragen, vgl. Domänen-INDEX + CHANGELOG 2026-07-20)*
+- [entwurfsprinzipien/trennung-kunst-funktion-judd.md](entwurfsprinzipien/trennung-kunst-funktion-judd.md) —
+  Donald Judd (1993): Trennung Kunst/Funktion, Proportion als «visible reasonableness», Kritik
+  an Stil-Imitation und Distributionsoligopolen. Erster Artikel dieser Domäne, kompiliert
+  18.08.2026.
+
+*(weitere Artikel noch offen — Artikel entstehen on-demand aus [[architekten-synobsis]]-Abfragen
+oder aus Cross-KB-Funden, vgl. Domänen-INDEX + CHANGELOG)*
 
 ## Architekten
 *(noch leer — kein Roh-Seed-Import mehr geplant, Artikel entstehen on-demand aus

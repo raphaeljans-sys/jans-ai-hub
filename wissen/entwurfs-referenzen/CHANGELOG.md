@@ -1,5 +1,22 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-18 (Nachtschicht Mac Mini) — Erster Artikel in `entwurfsprinzipien/`: Donald Judd, Trennung Kunst/Funktion
+
+- **Neuer Artikel `wiki/entwurfsprinzipien/trennung-kunst-funktion-judd.md`:** kompiliert aus
+  Donald Judds Essay «It's Hard to Find a Good Lamp» (1993, © Judd Foundation), vollstaendig
+  gelesen an der Primaerquelle (`/Volumes/daten/03 Bauprodukte_BKP/233 Leuchten und Lampen/
+  6 Pendellampe/Judd/`). Kernpunkte: Kunst und Gebrauchsgegenstand sind kategorial verschieden,
+  Proportion als «visible reasonableness» statt Dekor, Kritik an Stil-Imitation und an
+  Distributions-Oligopolen. Urheberrecht beachtet — nur kurze Zitate mit Quellenangabe, kein
+  Volltext-Nachdruck. Erster Artikel des bisher leeren Ordners `entwurfsprinzipien/`
+  (Haltung/Diskurs-Achse).
+- Herkunft: Cross-KB-Fund der Schluss-Triage `wissen/bauprodukte` vom 15.08.2026 (dort als kein
+  Bauprodukt verworfen, `bauprodukte-inventar.md` Z. 165), am 15.08. nur als Promotion-Kandidat
+  in `wiki/QUESTIONS.md` vermerkt und dort ausdruecklich als «eigener dedizierter Lauf»
+  vorgemerkt — dieser Lauf holt das nach.
+- Register nachgezogen: `wiki/entwurfsprinzipien/INDEX.md`, `wiki/INDEX.md` (Sektion
+  Entwurfsprinzipien), `wiki/QUESTIONS.md` (Kandidat auf ERLEDIGT gesetzt).
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — `healthcare-neubau-zh.json`: Quellenstand der B4-Quelle nachgezogen
 
 - **`wiki/parameter-sets/healthcare-neubau-zh.json`:** Die Zitatzeile zu
