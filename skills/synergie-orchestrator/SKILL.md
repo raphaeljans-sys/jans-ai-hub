@@ -101,6 +101,14 @@ Status offen/umgesetzt/verworfen, Datum). Laufbericht nach `outputs/`. Eintrag i
 einem SKILL.md-Contract) direkt setzen (active-with-flagging); alles Groessere als
 Empfehlung an Raphael.
 
+⚠ **Reihenfolge bei der ID-Vergabe (Lehre aus Lauf 11, 18.08.2026):** eine SYN-ID nie in
+einem Baustein zitieren, bevor die Registerzeile geschrieben ist. Lauf 10 verwies in
+`skills/ausschreibung/SKILL.md` auf «SYN-35», waehrend die hoechste vergebene ID SYN-34 war —
+gemeint war SYN-34. Zeigt ein solcher Verweis ins Leere, faellt er auf; vergibt der naechste
+Lauf die ID aber zuerst neu, wird aus dem toten Verweis ein **falscher**, der plausibel auf
+den Nachbarbefund zeigt und danach bei keiner Pruefung mehr auffaellt. Beim Antreffen eines
+toten Verweises deshalb **zuerst korrigieren, dann die neue ID vergeben**.
+
 ### Phase 5 — Geschaeftsmodell-Ableitung
 Aus den Befunden Typ 4+5 die Geschaeftsmodell-Sicht aktualisieren: Vorschlaege fuer
 neue Service-Pakete (ENTWURF fuer `services/KATALOG.md`), neue Entwurfsprozesse
