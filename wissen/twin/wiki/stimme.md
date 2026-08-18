@@ -98,6 +98,12 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
   **Imperativ** (260807). Vier-Stufen-Skala sprachunabhängig. Schluss einzeilig, kein Block.
+- **Die Abgebots-/Nachfassbitte im laufenden Vergabeverfahren trägt KEINEN Service-Satz (260818):**
+  anders als die Erst-Offertenanfrage ist sie Abwicklung im Mandat — «Im Auftrag der Bauherrschaft
+  **bitte ich Sie** …» (nackter Indikativ, nicht «darf ich Sie bitten»: der Druck stammt von der
+  Bauherrschaft), dann «Danke für Ihre Unterstützung.» + «**Wir freuen uns auf die Zusammenarbeit.**»
+  Der Zusammenarbeits-Satz stellt den Zuschlag in Aussicht, bevor er formell ist. Der Nachlass wird
+  als Total beziffert («-8%tot»), nie als «besprochene Reduktion» umschrieben.
 - **Don't:** steife Behördenfloskeln, Boilerplate-Disclaimer, aufdringliche CTAs, «ß»; Emoji oder
   Mundart ausserhalb des privat-sozialen Registers (Geschäft/Behörde/Dokument/Folien/Fachmail:
   Hochdeutsch); Gruss mechanisch an die Anrede koppeln; Gedankenstrich als

@@ -539,6 +539,15 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   («**Original**», «**per Post**», «**Amt für Baubewilligungen**») → **Rechtsfolge** («Damit ist die
   Baueingabe **rechtsgültig eingegeben**»). Und das Verfahrensrisiko trägt seinen Rechtsbegriff,
   statt in «termingerecht» übersetzt zu werden: «keine **Sistierung des Verfahrens**». Belege unten.
+- **Wer die Rechtsbehauptung TRÄGT, entscheidet über den Paragrafen (260818, löst die Spannung zu
+  260817):** verantwortet Raphael die Aussage, steht die Norm im Satz; führt der Bauherr die
+  Rechtsschrift selbst, liefert Raphael das Normmaterial als **Beilage** (Buchauszug PBG «zu Deinen
+  Akten») und nennt im Fliesstext nur die Verfahrensart. Nicht die Gattung entscheidet.
+- **Kontaminations-Drift (260818, neu):** ein Identifikator aus einem früheren Fidelity-Report oder
+  Wiki-Marker (§, Parzelle, Betrag, Frist) ist Beleg für den DAMALIGEN Fall, nie Faktum für den
+  heutigen — er wird aus der Quelle der aktuellen Aufgabe neu belegt oder fällt weg. Gefährlicher
+  als gewöhnliches Erfinden, weil eine echte Nummer verifiziert aussieht (gleiche Familie wie die
+  BKP-Phantomnummer «271.10»).
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte raten;
   Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden; **Software-/Pipeline-Verhalten
   raten** (Echo-Schutz); **Material, Konstruktionsart, Geschosszahl, Rechnungsinhalte, Beträge oder

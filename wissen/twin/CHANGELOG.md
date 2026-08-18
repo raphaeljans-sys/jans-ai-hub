@@ -4,6 +4,25 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-18 — Fidelity-Review (Fenster rj@ 22.–29.06.2026), Gesamt-Fidelity 31
+
+Drei Goldproben im Volltext (Abgebot Jegen · Brandlast ELE · Baulinie Giebelweg), alle
+authentisch, kein Echo-Treffer; drei weitere Raphael-Fassungen aus der Zitatkette (13. Falle).
+Report `outputs/2026-08-18_fidelity.md`. Kern-Drift: der Zwilling baut eine Liste, wo Raphael
+EINEN abschreibfertigen Baustein liefert; Service-Satz genau vertauscht; siebter Beleg der
+Kanalisierungs-Drift. **Neue Driftart benannt: Kontamination aus dem eigenen Vorlauf-Report**
+(«§ 98 PBG», Parzelle 5252 aus dem 17.08.-Report in einen Fall mit Kat.-Nr. 3338 getragen).
+Zwei Facetten-Spannungen aufgelöst (Service-Satz bei der Abgebotsrunde; Träger der
+Rechtsbehauptung entscheidet über den Paragrafen). Sechs Do/Don't-Blöcke geschärft
+(stimme, denken, haltung, beziehungsregister, fachsignatur, arbeitsweise — nur Zuwachs,
++38 Zeilen, keine Löschung). Sieben neue Selbstfragen in `wiki/QUESTIONS.md` (260818b).
+**Kompilier-Riegel nach dreimaliger Vorlage entschieden:** `MAX_AUTO_BYTES` 30'000 → 34'000,
+`WARN_AUTO_BYTES` 24'000 → 30'000 in `skills/twin/tools/build_dna.py`; neu kompiliert nach
+`rules/jans-dna-facetten.md` (33'430 B, 570 B Reserve). Gemessene Wachstumsrate ~3,5 kB je Lauf —
+die Anhebung kauft je 4 kB einen Lauf, deshalb Vorschlag Verfallsregel (QUESTIONS 260818b #7).
+**Korrektur an Empfehlung 2 des Vorlaufs:** der Token-Sweep über die destillierten Batches ist
+mechanisch unmöglich — `raw/` enthält null HTML; der Sweep muss am Postfach laufen.
+
 ## 2026-08-18 — Batch 97: Doppelabgleich `Drafts` × Sent Items (Fenster rj@ 17.08.2026)
 
 Zwei Korrektur-Paare desselben Tages gehoben (Entwurfsordner 109 Eintraege, +6 seit Batch 96);

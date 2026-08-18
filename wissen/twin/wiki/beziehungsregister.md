@@ -443,6 +443,12 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Erst die Empfängerliste lesen, dann den
   Anlass.** Belege unten.
+- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818, Gegenprobe zu 260817):** acht
+  Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
+  die Einzeladressierung nicht aus. Bei zwei Adressaten mit auseinandergehender Stufe: zwei Zeilen,
+  **Komma nur auf der ersten**. Dasselbe Paar wandert über Wochen — einzeilig («Sehr geehrter Herr
+  A, geschätzter Herr B») → zweizeilig, und beide Stufen steigen ins Vertrautere, solange kein
+  neuer Mitleser dazukommt.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»

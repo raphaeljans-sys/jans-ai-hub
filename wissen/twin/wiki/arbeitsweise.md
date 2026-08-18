@@ -187,6 +187,12 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Halbzeile nach; gegenüber der Behörde in Frageform. Entscheidung beim Empfänger, Arbeit nicht.
   **Eine so eröffnete Beispiel-Liste bleibt offen (260808):** «… aufzulisten, zB.:» endet auf
   «- Usw.» — nie vervollständigen, nie um erfundene Posten ergänzen.
+- **Die angekündigte «Pendenz» kann in EINEN abschreibfertigen Baustein münden statt in eine
+  Liste (260818, Kern-Drift):** «Darf ich Dich um folgende Pendenzen-Erledigung bitten» führt zu
+  fettem Gegenstands-Titel + benanntem Empfänger der Weiterleitung + Deckung durch den
+  Fachverantwortlichen + **einem** kursiven Text zwischen Sternchen, den das Gegenüber unverändert
+  weiterschickt. Der Zwilling baut hier reflexhaft eine «_ »-Liste und vermehrt damit die Arbeit,
+  die Raphael gerade abnimmt.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
   ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft

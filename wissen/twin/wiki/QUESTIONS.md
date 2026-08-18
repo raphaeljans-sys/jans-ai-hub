@@ -3587,3 +3587,78 @@ diesem Batch ihren zweiten Beleg und ein zweites, staerkeres Klassen-Token
 Apple-Wrapper, Raphaels Outlook-Signatur) und wurde bis zum 17.08. systematisch als authentisch
 gewichtet. Ein gezielter Sweep ueber `font-claude-response-body` und `text-[var(--accent)]` im
 gesamten Sent-Items-Bestand ist der naechste vorrangige Lauf — vor jedem neuen Datumsfenster.*
+
+## 260818b — Fidelity-Review (Fenster rj@ 22.–29.06.2026, Golds Abgebot / Brandlast ELE / Baulinie)
+
+Quelle: Drift-Report `outputs/2026-08-18_fidelity.md`. Gesamt-Fidelity 31 (unter der Spanne
+35–38 der vier Vorlaeufe). Besonderheit: drei Golds ohne einen einzigen Echo-Treffer, und
+erstmals eine Erfindung, die aus dem **eigenen Pruefapparat** stammt.
+
+**#1 (Arbeitsweise · Entscheid Raphael) — soll die Pendenz an einen Zustaendigen IMMER als
+abschreibfertiger Baustein kommen, oder nur, wenn er sie weitergeben muss?** Gold B kuendigt
+«folgende Pendenzen-Erledigung» an und liefert dann **einen einzigen** kursiven
+Weiterleitungstext samt Deckung durch den QS-Verantwortlichen, statt einer Liste. Derselbe
+Reflex in Gold C («optional gewisse Textbausteine … je nach Bedarf»). *Warum das den Zwilling
+annaehert: er baut heute reflexhaft eine Liste, sobald das Wort «Pendenzen» faellt — das ist
+die schwerste gemessene Drift dieses Laufs (Arbeitsweise 28). Die Regel «Statt einer
+Empfehlung liefert er die abschreibfertige Variante» steht seit 260806 im Artikel, aber ohne
+Ausloeser. Ein Satz von Dir setzt ihn: gilt der Baustein, sobald das Gegenueber den Text
+weitergeben muss — oder auch dann, wenn es ihn nur selbst abarbeitet?*
+
+**#2 (Haltung · Entscheid Raphael · SIEBTER Beleg) — wann darfst Du Dir selbst Arbeit geben?**
+In Gold C hat der Bauherr seine Einrede selbst verfasst; Raphael winkt sie durch («denke ist
+alles korrekt getan») und begrenzt den Aufwand ueber die Verfahrensart. Der Zwilling
+formulierte stattdessen eigene Ziele, kuendigte ein eigenes Deliverable an und setzte sich eine
+Frist. *Warum das drueckt: das ist der siebte Beleg derselben Drift in Folge (260805, 260817,
+jetzt 260818) und der teuerste — er erfindet Honorararbeit genau dort, wo Du dem Kunden Geld
+sparst. Der Marker steht im Artikel und wird nicht abgerufen. Frage: gibt es einen Fall, in dem
+Du die fremde Vorarbeit doch ersetzt statt durchwinkst — und woran erkennst Du ihn?*
+
+**#3 (Fachsignatur, aus Widerspruch aufgeloest, Bestaetigung erbeten) — traegt die
+Rechtsauskunft den Paragrafen, oder liegt er bei?** Der Marker vom 260817 sagt «Norm, Subsumtion,
+Parzellennummer im Satz». Gold C ist ebenfalls eine Rechtsauskunft an denselben Du-Kontakt und
+traegt **keinen** Paragrafen — die Artikel wandern als PDF-Beilage mit
+(`260629_Buchauszug_…_PBG_….pdf`). *Aufgeloest wurde das im Artikel so: nicht die Gattung
+entscheidet, sondern wer die Rechtsbehauptung traegt — verantwortest Du sie, steht der § im
+Satz; fuehrt der Bauherr die Schrift selbst, lieferst Du das Normmaterial als Dokument.
+Stimmt diese Lesart, oder haengt es an etwas anderem (Empfaenger-Vorbildung, Streitwert,
+Adressat der Schrift)?*
+
+**#4 (Echo-Schutz, an den Harness gerichtet · korrigiert 260817 Empfehlung 2) — die
+raw-Batches muessen eine Detektor-Zeile mitfuehren.** Gemessen in diesem Lauf: die 33 Dateien
+in `raw/` enthalten **null** HTML; der als «billig» angekuendigte Grep-Sweep ueber die
+destillierten Batches ist mechanisch unmoeglich, alle vier Treffer waren die Dokumentation der
+Falle selbst. *Warum das mehr ist als eine Korrektur: solange `raw/` nur Klartext speichert,
+ist jede rueckwirkende mechanische Echo-Pruefung blind — bei der 6., der 14. und der 15. Falle
+gleichermassen. Vorschlag: jeder kuenftige Batch fuehrt je Mail eine Zeile mit, welche der
+sechs Detektor-Muster trafen und welche nicht. Kostet eine Zeile, rettet den naechsten Sweep.*
+Bezug: 260818 #3 (der Postfach-Sweep selbst bleibt offen und ist jetzt teurer veranschlagt).
+
+**#5 (Querschnitt, neue Driftart · kein Entscheid noetig, hier als Warnung protokolliert) —
+Kontamination aus dem eigenen Vorlauf-Report.** Die Blindfassung zitierte «§ 98 PBG» und
+«Grundstueck 5252» — beides echte Fundstellen, aber aus dem Fidelity-Report vom 17.08. und
+einem **anderen** Vorgang; die Parzelle in Gold C ist Kat.-Nr. 3338. *Warum das die
+gefaehrlichere Verwandte der Erfindungs-Drift ist: die Angabe sieht verifiziert aus, weil sie
+eine echte Nummer ist. Gleiche Familie wie die BKP-Phantomnummer «271.10». Konsequenz, im
+Artikel gesetzt: ein Identifikator aus einem frueheren Report oder Wiki-Marker ist Beleg fuer
+den damaligen Fall, nie Faktum fuer den heutigen.*
+
+**#6 (Stimme · Bestaetigung erbeten) — «Wir freuen uns auf die Zusammenarbeit.» als Ersatz
+fuer den Service-Satz in der Abgebotsrunde.** Gold A traegt statt des Service-Satzes zwei
+knappe Saetze: «Danke fuer Ihre Unterstuetzung.» und «Wir freuen uns auf die Zusammenarbeit.»
+— der zweite stellt den Zuschlag in Aussicht, bevor er formell ist, und macht dem Unternehmer
+den Nachlass bezahlbar. *Warum wir fragen: der Artikel stellt die Submissionsanfrage
+ausdruecklich auf die Service-Satz-Seite. Ist der Zusammenarbeits-Satz Deine feste Form fuer
+die Abgebotsrunde — oder war er hier der Sache geschuldet (KISPI in finanzieller Notlage, 8 %
+Nachlass erbeten)?*
+
+**#7 (Harness · Entscheid Raphael · loest den Riegel-Strang strukturell ab) — soll der
+Do/Don't-Block eine VERFALLSREGEL bekommen?** Der Kompilier-Riegel wurde heute nach dreimaliger
+Vorlage auf 34'000 B angehoben — und war nach diesem einen Lauf schon wieder bei 33'430 B (570 B
+Reserve). Damit ist die Wachstumsrate erstmals beziffert: rund **3,5 kB pro Fidelity-Lauf** bei
+sechs Korrekturen. *Warum eine Grenzanhebung das nicht loest: sie kauft je 4 kB genau einen Lauf.
+Auch die Deckelung je Facette (Empfehlung c) verteilt das Wachstum nur gerechter. Der Vorschlag:
+ein Marker, der seit N Laeufen weder **verletzt** noch **bestaetigt** wurde, wandert aus dem
+Do/Don't-Block zurueck in den Artikelkoerper und wird nicht mehr mitkompiliert — der Block traegt
+dann, was der Zwilling HEUTE falsch macht, statt das Gesamtarchiv des Gelernten. Nichts geht
+verloren, der Artikel behaelt alles. Offene Groesse: wie viele Laeufe sind «N»? Vorschlag 10.*

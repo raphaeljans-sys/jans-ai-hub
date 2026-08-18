@@ -200,6 +200,12 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   zuerst die Aussagekette des Gegenübers («>»-Zeilen), dann die eigene, deutlich längere «Anmerkung
   RJ» mit wörtlichem Normzitat, Subsumtion und pragmatischem Schlussweg — nicht in die
   Protokollzeile eingeschmolzen, sondern als eigener, gekennzeichneter Sprechakt.
+- **Die Verfahrensart benennen, um den Aufwand zu begrenzen (260818):** «Da es sich um eine
+  **informelle Mitwirkungsfrist und nicht um eine formelle Rekursfrist** ans Baurekursgericht
+  handelt, ist alles korrekt getan» — die Einordnung beruhigt und spart dem Bauherrn Arbeit, statt
+  Dringlichkeit zu erzeugen; dazu die Rückfallebene im Konditional bereithalten («wenn die Gemeinde
+  hart bleibt … zur gegebenen Zeit ins Spiel gebracht werden»). Nie eine Frist erfinden, die die
+  Aufgabe nicht nennt.
 - **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
   verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
   Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein

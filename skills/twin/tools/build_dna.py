@@ -54,8 +54,14 @@ END = "<!-- END AUTO: facetten -->"
 # Entscheidung. Blindes Truncaten waere hier falsch: die Do/Don't-Bloecke sind
 # nahezu reine Regel, kaum Beleg-Prosa (geprueft 03.08.2026).
 # Wer die Grenze anhebt, hebt die Ladekosten jedes Texterzeugnisses — bewusst tun.
-MAX_AUTO_BYTES = 30000        # harte Obergrenze des kompilierten Blocks
-WARN_AUTO_BYTES = 24000       # ab hier warnen, damit es nicht erst am Anschlag auffaellt
+# ENTSCHIEDEN 18.08.2026 (Fidelity-Review, nach dreimaliger Vorlage 16./17.08.):
+# Grenze 30000 -> 34000 B nach Empfehlung (b). Grund: die billige Verdichtungsreserve war
+# aufgebraucht (29 B), die naechste Runde haette Regeln geloescht statt Doppelungen — der
+# Punkt, an dem der Riegel schadet statt schuetzt. Die Kostenrechnung oben ist seit dem
+# 03.08.2026 milder als beschrieben: die Datei ist KEIN @-Import mehr und laedt vor
+# Texterzeugnissen, nicht in jeder Session. Rueckgaengig mit einer Zeile.
+MAX_AUTO_BYTES = 34000        # harte Obergrenze des kompilierten Blocks
+WARN_AUTO_BYTES = 30000       # ab hier warnen, damit es nicht erst am Anschlag auffaellt
 
 # matcht "## Do / Don't ..." bis zur naechsten H2 (##) oder Dateiende; tolerant ggue. Apostroph
 DODONT = re.compile(r"^##\s*Do\s*/\s*Don.?t.*?$(.*?)(?=^##\s|\Z)", re.M | re.S)
