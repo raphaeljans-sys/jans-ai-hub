@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 12:56:18
+Stand: 18.08.2026 13:06:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
+- /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 13:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +13,4 @@ Stand: 18.08.2026 12:56:18
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 22cdb9b4 nas-selfcommit: 3 Datei(en) 2026-08-18 12:45
+- cd6ce503 vollgas-radar 18.08. 12:57: FREI, P1 strukturell geloest (Homebrew 2.1.226), Umweg zurueckgebaut
