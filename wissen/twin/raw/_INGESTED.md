@@ -1314,3 +1314,78 @@ Claude-Ära sind Gold, auch die über Apple Mail** — die Kanal-Regel gilt erst
 `osascript`-Drafts erzeugt; wo genau die Grenze liegt, ist ungeprüft. Sequenziell wäre danach
 `rj@` 17.–23.08.2026. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
 Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 97 (18.08.2026) — Doppelabgleich `Drafts` × Sent Items, Fenster `rj@` 17.08.2026
+
+**Der Empfehlung aus Batch 96 gefolgt.** Dort stand: weiter im Entwurfsordner arbeiten, nicht am
+Kalenderdatum. Der Ordner zaehlt jetzt **109 Eintraege** (17.08.: 103) — sechs neue, zwei davon
+mit Drittempfaengern, und **beide mit vorhandenem Sent Item**. Damit liessen sich erstmals zwei
+Korrektur-Paare **desselben Tages** nebeneinander stellen, statt eines einzelnen.
+
+**Erhoben:** `Drafts` Seite 1 (25 von 109, neueste zuerst) + Sent Items 16.–18.08. vollstaendig
+(`totalResultCount` **17**). **5 Volltexte gelesen** (2 Entwuerfe + 3 gesendete Fassungen).
+**2 `korrektur-delta` · 3 Gold · 1 neuer Echo-Beleg.** 15 Marker in allen sechs Facetten,
+3 Fragen.
+
+**Kernbefund 1 — der Zwilling baut Druck auf, wo Raphael eine Bruecke baut.** Paar A, 78 Minuten
+(Apple-Mail-Entwurf 06:48 gegen Outlook-Versand 08:06, Terminbitte an einen Du-Fachplaner). Der
+Zwilling begruendet die Bitte mit dem **Ausbleiben der Gegenleistung** («Von Eurer Seite habe ich
+dazu noch keine Bestaetigung») und stellt fest, woran es haengt («haengt nur noch an Euch»).
+Raphael streicht **beide Saetze ersatzlos** und setzt eine **Legitimation** an ihre Stelle («Nach
+Ruecksprache mit <Drittem> …»). Dann gibt er die Terminhoheit ab: drei Fragen statt einer
+Aufforderung, Einladung durch den Empfaenger. Dazu Teilnehmerblock mit Organisation je Person,
+SharePoint-Link **und** acht Anhaenge (der Entwurf hatte keine), Optionen als abgesetzter Block —
+und «**Lieber Gruss, Raphael**» statt «Freundliche Gruesse» + vollem Signaturblock.
+
+**Kernbefund 2 — die Kanal-Regel der vierzehnten Falle hat ein Loch, und es ist teuer.** Paar B,
+6 Minuten. Der Entwurf 14:04 kommt ueber **Exchange** und traegt Raphaels Outlook-Signatur; nach
+der Tabelle von Batch 96 waere er **Gold**. Sein Body traegt aber auf jedem Absatz
+`class="font-claude-response-body break-words whitespace-normal"` — die Antwort-Klasse der
+Claude-Weboberflaeche. **Zweiter Beleg der fuenfzehnten Falle, neues und deutlich sprechenderes
+Token, erstmals mit Entwurfs-Paar.** Konsequenz in `CLAUDE.md` nachgetragen: die Kanal-Regel gilt
+nur noch nach vorheriger Body-Pruefung auf die Web-Tokens.
+
+**Was Raphael an einkopiertem Claude-Text tatsaechlich aendert** (erstmals ablesbar): **vier von
+fuenf Saetzen bleiben wortgleich.** Korrigiert wird ausschliesslich die **Selbstreferenz ohne
+Anker** — «im oben genannten Projekt» → «im Projekt <Nummer> <Bezeichnung>» — plus der fehlende
+Betreff. Die Mail geht an ein Amt und wird dort abgelegt: sie muss ohne ihre Umgebung gelten.
+Gesendet wurde aus **Outlook Mobile**; der letzte Schliff faellt in sechs Minuten am Telefon.
+
+**Kernbefund 3 — der Gruss haengt am Verteiler, nicht am Menschen.** Sauberster kontrollierter
+Vergleich des Korpus: **fuenf Minuten** zwischen zwei Mails an denselben Du-Hauptadressaten zum
+selben Thema. 08:06, drei Empfaenger ohne Cc: «Lieber Gruss, Raphael», kein Block. 08:11, zwei
+Empfaenger mit **drei im Cc**: «Freundliche Gruesse» + voller Block. Derselbe Kontakt bekommt
+15:02 nach einem Telefonat «**Lieber Levi,**» — drei Anreden an einem Tag, gestaffelt nach
+Mailtyp und Verteilerbreite. «Geschaetzter» ist bei ihm die **Arbeitsstufe im Du**, nicht die
+Distanzstufe.
+
+**Fuenfter Beleg gegen die Nivellier-Klausel** in `rules/anrede-kontakte.md`: «Geschaetzter <A>,
+lieber <B>» — zwei Du-Kontakte, zwei Stufen, eine Zeile ([[QUESTIONS]] 260818 #1). Der Entscheid
+liegt bei Raphael, die Kontaktliste ist sein Register.
+
+**Mikro-Metrik** (`stilmetrik.py`, Gold 235 W aus fuenf Eigentexten, Zwilling 150 W aus zwei
+Entwuerfen): Du-Gross **1.0 gegen 1.0**; Apostroph 0/0; Ellipsen 0/0; Satzlaenge ø 16.8 gegen
+15.0 W. **Belastbar ist die Gruss-Verteilung** («Lieber Gruss» 2× nur auf der Gold-Seite). **Der
+Batch-96-Befund zur Du-Gross-Quote (0.818 gegen 1.0) bestaetigt sich NICHT** und bleibt
+Einzelbeleg — weiterhin kein Detektor (Sperrlisten-Disziplin). Satzlaenge unbelastbar
+([[QUESTIONS]] 260814 #3).
+
+**⚠ Gehirn NICHT neu kompiliert, jetzt fuenfter Batch in Folge.** Gemessen in diesem Lauf: der
+Auto-Block in **`rules/jans-dna-facetten.md`** steht bei **29973 B von 30000 B**, 27 Byte Reserve.
+(Praezisierung gegenueber den Batches 93–96, die den Block in `rules/jans-dna.md` verorteten: er
+liegt seit der Auslagerung vom 03.08.2026 in der **nicht importierten** Facetten-Datei, und
+`build_dna.py` kompiliert nur die **Do/Don't-Bloecke**, nicht die Marker-Prosa.) Die 15 Marker
+dieses Batches landen ausserhalb des kompilierten Blocks und wirken ueber die Twin-Agenten, die
+die Facetten-Artikel direkt lesen. **Der Entscheid ueber `MAX_AUTO_BYTES` liegt weiterhin bei
+Raphael** — `build_dna.py` kuerzt bewusst nichts von selbst, sondern bricht ab und verlangt eine
+Entscheidung. **Weil die Datei seit dem 03.08. nicht mehr in jede Session laedt, sondern nur vor
+jedem Texterzeugnis, ist die Kostenlage eine andere als bei der Festsetzung der Grenze.**
+
+**Naechstes Fenster — Vorrang vor jedem Datumsfenster: ein gezielter Sweep auf die Web-Tokens.**
+Beide Belege der fuenfzehnten Falle stammen aus Stichproben, nicht aus einer Suche. Der Kanal
+traegt **alle vier** bisherigen Gold-Merkmale und wurde bis zum 17.08. systematisch als
+authentisch gewichtet. Zu greifen ist nach `font-claude-response-body` und
+`text-[var(--accent)]` im Sent-Items-Bestand ab etwa Mai 2026 ([[QUESTIONS]] 260818 #3).
+**Erst danach** sequenziell weiter: `rj@` 18.–24.08.2026, sowie die verbleibenden 84 ungelesenen
+Entwuerfe mit Drittempfaengern. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
+Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

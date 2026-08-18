@@ -3558,3 +3558,32 @@ Rule wird laut eigener Konvention **vor** dem Wiki gelesen und ist ein @-Import 
 verbietet. Vorschlag unverändert: «Jede Person wird einzeln angeredet, in ihrer eigenen Stufe;
 nivelliert wird nur bei grossen oder unbekannten Verteilern.» Der Fidelity-Review ändert
 `rules/anrede-kontakte.md` nicht selbst — die Kontaktliste ist Raphaels Register.*
+
+## 260818 — Batch 97 (Doppelabgleich `Drafts` × Sent Items, Fenster 17.08.2026)
+
+**#1 (Entscheid Raphael · FUENFTER Beleg zur offenen Frage 260817 #7) — die Nivellier-Klausel in
+`rules/anrede-kontakte.md` ist jetzt fuenffach widerlegt.** Am 17.08.2026 um 08:11 gehen zwei
+Du-Kontakte in EINER Anredezeile in **zwei verschiedenen Stufen** an: «Geschaetzter <A>, lieber
+<B>». Die Rule verlangt zu nivellieren; der Korpus zeigt zum fuenften Mal das Gegenteil, diesmal
+sogar bei zwei Kontakten **derselben** Anredeform (beide Du). *Warum das drueckt: die Rule ist ein
+@-Import und wird vor dem Wiki gelesen. Der Vorschlag steht unveraendert seit 260815 — «jede
+Person wird einzeln angeredet, in ihrer eigenen Stufe; nivelliert wird nur bei grossen oder
+unbekannten Verteilern». Der Trainingslauf aendert `rules/anrede-kontakte.md` nicht selbst, die
+Kontaktliste ist Raphaels Register.*
+
+**#2 (Beziehungsregister, neu) — «Geschaetzter Herr <Vorname>»: Absicht oder Verwechslung?**
+Ein Fachplaner wird am 17.08. zweimal mit «Herr» + seinem **Vornamen** angeredet (13:04
+«Geschaetzter Herr <Vorname>», 14:49 «Sehr geehrter Herr <Vorname>»), weil der Vorname im
+Outlook-Anzeigenamen vorn steht. *Warum wir fragen, statt es zu uebernehmen: der Zwilling darf
+einen Namensfehler nicht als Stil reproduzieren. Bis zur Klaerung ist der Marker im Wiki
+ausdruecklich als «nicht nachahmen» gekennzeichnet. Sollen wir den Kontakt im Register mit
+Vor-/Nachname sauber fuehren?*
+
+**#3 (Echo-Schutz, an den Harness gerichtet) — wie viele Mails sind ueber den
+Zwischenablage-Kanal gelaufen, die wir als Gold verbucht haben?** Die fuenfzehnte Falle hat mit
+diesem Batch ihren zweiten Beleg und ein zweites, staerkeres Klassen-Token
+(`font-claude-response-body`). Beide Belege stammen aus Stichproben, nicht aus einer Suche.
+*Warum das dringend ist: der Kanal traegt alle vier bisherigen Gold-Merkmale (Exchange-ID, kein
+Apple-Wrapper, Raphaels Outlook-Signatur) und wurde bis zum 17.08. systematisch als authentisch
+gewichtet. Ein gezielter Sweep ueber `font-claude-response-body` und `text-[var(--accent)]` im
+gesamten Sent-Items-Bestand ist der naechste vorrangige Lauf — vor jedem neuen Datumsfenster.*

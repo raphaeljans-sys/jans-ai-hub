@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-16
+last_updated: 2026-08-18
 gewichtung: authentisch
-sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -3844,3 +3844,41 @@ vierzehnte Falle). Die folgenden Marker sind deshalb nicht erschlossen, sondern 
   **Umkehrung** des dreifach gesperrten «du klein»-Signals und als Kandidat in [[QUESTIONS]]
   260817 #2 geführt — **nicht** als Detektor aufgenommen, weil ein Beleg dafür nicht reicht
   (Sperrlisten-Disziplin, `CLAUDE.md`).
+
+## Batch 97 (18.08.2026) — der Gruss haengt am Verteiler, nicht am Menschen
+
+- **Der Gruss folgt dem MAILTYP und der Verteilerbreite, nicht der Person** — sauberster
+  kontrollierter Beleg des Korpus, weil zwischen den beiden Mails **fuenf Minuten** liegen,
+  derselbe Hauptadressat (Du-Fachplaner) und dasselbe Thema. 08:06, Terminvorschlag an drei
+  Empfaenger ohne Cc: «**Lieber Gruss, Raphael**», Vorname allein, **kein Signaturblock**.
+  08:11, Dokumentenuebergabe an zwei Empfaenger mit **drei Personen im Cc**: «Freundliche
+  Gruesse» + voller Outlook-Block. **Regel: sobald ein Cc-Verteiler mitliest, faellt der Gruss
+  auf die formelle Stufe zurueck, auch beim Du-Kontakt.** Umgekehrt gilt: eine Mail nur an die
+  Beteiligten selbst darf den Kurzgruss tragen. Quelle: 17.08.2026, authentisch.
+
+- **«Geschaetzter <A>, lieber <B>» — gestapelte Doppelanrede mit ZWEI verschiedenen
+  Registerstufen in einer Zeile.** Nicht ein Register fuer die Gruppe (wie «Geschaetzter
+  Christoph & Gerry», 260704), sondern **je Person die ihr zustehende Stufe**, in der Reihenfolge
+  der Adressierung. Der foermlichere Kontakt steht vorn. Quelle: 17.08.2026, authentisch.
+
+- **Fett-Auszeichnung endet mitten im Wort** («Mittwoch, 19.08.26 15:00 - 15:30 Uh**r**
+  anzunehmen» — das «r» faellt aus der Auszeichnung). Ein Hub-Text setzt Auszeichnungen
+  wortgenau; dieser Slip ist ein **Gold-Indiz** derselben Familie wie Tippfehler und
+  Kasus-Slips, und er ueberlebt das Zitieren als Markup. Quelle: 17.08.2026, authentisch.
+
+- **Mikro-Metrik Batch 97** (`stilmetrik.py`; Gold 235 W aus fuenf Eigentexten, Zwilling 150 W
+  aus zwei Entwuerfen desselben Tages):
+
+  | | Gold (Raphael) | Zwilling |
+  |---|---|---|
+  | Du-Gross-Quote | **1.0** | **1.0** |
+  | Tausender-Apostroph | 0 | 0 |
+  | Ellipsen /1000 W | 0 | 0 |
+  | Satzlaenge ø | 16.8 W | 15.0 W |
+  | Gruesse | «Freundliche Gruesse» 2× · **«Lieber Gruss» 2×** | «Freundliche Gruesse» 2× |
+
+  **Belastbar ist die Gruss-Verteilung:** der Zwilling kennt in beiden Entwuerfen nur
+  «Freundliche Gruesse», Raphael setzt in derselben Zeitspanne zweimal «Lieber Gruss».
+  **⚠ Der Batch-96-Befund zur Du-Gross-Quote (0.818 gegen 1.0) bestaetigt sich NICHT** — hier
+  liegen beide bei 1.0. Er bleibt Einzelbeleg, weiterhin kein Detektor (Sperrlisten-Disziplin).
+  Die Satzlaenge bleibt unbelastbar ([[QUESTIONS]] 260814 #3).

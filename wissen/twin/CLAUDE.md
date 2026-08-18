@@ -688,6 +688,30 @@ weil er die CSS-Eigenschaft ignoriert und die Ordnungsziffer roh ausgibt. Wer di
 dem Preview beurteilt, misst den Renderer, nicht Raphael. Gleiche Familie wie der
 `bodyPreview`-Listenfehler der elften Falle; **Listenform immer am `body.content` prüfen.**
 
+**⚠ Zweiter Beleg der fuenfzehnten Falle, 18.08.2026 (Batch 97) — neues Token, und erstmals MIT
+Entwurfs-Paar.** Der Entwurf einer Amtsauskunft vom 17.08.2026 14:04 traegt auf **jedem** Absatz
+
+```
+class="font-claude-response-body break-words whitespace-normal"
+```
+
+Das ist die Antwort-Klasse der Claude-Weboberflaeche und ein deutlich sprechenderes Token als die
+Tailwind-Utilities des ersten Belegs. **Beide Belege zusammen ergeben die Suchmenge fuer einen
+Sweep:** `font-claude-response-body` und `text-[var(--accent)]`.
+
+Zwei Dinge macht dieser Beleg haerter als der erste:
+
+1. **Er widerlegt die Kanal-Tabelle der vierzehnten Falle ausdruecklich.** Dort steht
+   «Exchange-Entwurf = **Gold**, unfertig». Dieser Entwurf ist Exchange
+   (`…@ZR2P278MB1112…`), traegt Raphaels Outlook-Signatur — und ist Claude-Text. **Die
+   Kanal-Regel gilt nur noch, wenn der Body zuvor auf die Web-Tokens geprueft wurde.** Wer sie
+   blind anwendet, verbucht Echo auf der hoechsten Gewichtungsstufe.
+2. **Das Sent Item existiert, sechs Minuten spaeter** — damit ist erstmals ablesbar, was Raphael
+   an einem einkopierten Claude-Text tatsaechlich aendert: **vier von fuenf Saetzen bleiben
+   wortgleich**, korrigiert wird ausschliesslich die Selbstreferenz ohne Anker («im oben
+   genannten Projekt» → «im Projekt <Nummer> <Bezeichnung>») samt nachgetragenem Betreff. Das ist
+   `korrektur-delta` im engsten Sinn und als solches verbucht — **nicht** als Gold.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

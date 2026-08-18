@@ -4,6 +4,19 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-18 — Batch 97: Doppelabgleich `Drafts` × Sent Items (Fenster rj@ 17.08.2026)
+
+Zwei Korrektur-Paare desselben Tages gehoben (Entwurfsordner 109 Eintraege, +6 seit Batch 96);
+5 Volltexte gelesen. **Paar A** (78 Min, Hub-Entwurf gegen Raphaels Fassung): der Zwilling
+begruendet eine Bitte mit dem Ausbleiben der Gegenleistung, Raphael streicht den Vorwurf und
+setzt eine Legitimation ein. **Paar B** (6 Min): ein aus der Claude-Weboberflaeche einkopierter
+Entwurf — **zweiter Beleg der fuenfzehnten Falle mit neuem Token
+`font-claude-response-body`**, der die Kanal-Tabelle der vierzehnten Falle einschraenkt
+(Exchange ist nicht mehr automatisch Gold). 15 neue Marker in allen sechs Facetten, 3 Fragen.
+Metrik: Gold 235 W / ø 16.8 W gegen Zwilling 150 W / ø 15.0 W; Du-Gross beidseits 1.0, womit der
+Batch-96-Befund 0.818 **nicht** bestaetigt ist. Gehirn nicht neu kompiliert (Budget, siehe
+`_INGESTED.md`).
+
 ## 2026-08-17 — Fidelity-Review (Fenster rj@ 15.–21.06.2026)
 
 - Gesamt-Fidelity **35** (nach 36/36/38). Golds: «Unterzeichnung Brandlast Elektro» 16.06. 12:16,

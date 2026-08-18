@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-16
+last_updated: 2026-08-18
 gewichtung: authentisch
-sources: [../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -2961,3 +2961,32 @@ Mail, Wrapper), Raphaels Versand 13:44 (Exchange). Der Umbau ist gross und in ei
   diesbezüglich absprichst», «bitte ich Dich auch direkt mit Michael Spörri zu besprechen». Der
   Zwilling beantwortet die Frage; Raphael benennt den Zuständigen und geht aus der Kette.
   Quelle: 05.08. und 06.08.2026, `korrektur-delta`.
+
+## Batch 97 (18.08.2026) — die Einladung traegt die Dokumente mit
+
+- **SharePoint-Link UND Anhang, dritter Beleg — und der Zwilling schickt weiterhin keines von
+  beidem.** In der ueberarbeiteten Terminmail setzt Raphael den Ordner-Link **und** acht
+  Anhaenge (Stellungnahme des Fachplaners, Brandschutzplan, Grundriss, Tuerkonzept-Pruefung,
+  Korrektur-PNG, DWG und PDF der Aenderungseingabe). Der Hub-Entwurf derselben Sache trug
+  **null Beilagen**. Das ist keine Stilfrage: der Empfaenger soll die Sitzung ohne Rueckfrage
+  vorbereiten koennen. **Merksatz: eine Besprechungseinladung ohne die zu besprechenden
+  Dokumente ist unfertig.** Quelle: 17.08.2026, korrektur-delta.
+
+- **Anhaenge werden im Fliesstext namentlich aufgezaehlt, mit vollem Dateinamen samt Endung**,
+  eingeleitet mit «Im Anhang die Rueckmeldung - Dokumente:», Listenmarke **«_ »** (dritter Beleg
+  dieser Marke). Zusaetzlich wird bei mehreren aehnlichen Dateien ausdruecklich gesagt, **welche**
+  zu verwenden ist («… bitte ich Dich, im folgenden Ordner das Dokument <Name>.pdf zu
+  verwenden»). Quelle: 17.08.2026, authentisch.
+
+- **Terminoptionen stehen als abgesetzter Block, nicht im Fliesstext.** Der Zwilling schob
+  «Option 2 (…) oder Option 3 (…)» in Klammern in den Satz; Raphael stellt sie untereinander
+  frei. Gleiche Familie wie die nummerierten Positionen in Dokumenten (Rule
+  `dokument-layout-standard`, 14.08.2026): **was der Empfaenger auswaehlen oder referenzieren
+  soll, gehoert aus dem Satz heraus.** Quelle: 17.08.2026, korrektur-delta.
+
+- **Entwurf am Rechner, Versand vom Telefon.** Die Amtsauskunft wurde 14:04 im Outlook-Desktop
+  vorbereitet und 14:10 aus **Outlook Mobile** gesendet
+  (`ms-outlook-mobile-body-separator-line`). Die letzte inhaltliche Korrektur (Projektnummer
+  statt «oben genannt») faellt in diese sechs Minuten. **Fuer den Harness heisst das: der letzte
+  Schliff passiert oft mobil und unter Zeitdruck** — ein Entwurf muss so weit fertig sein, dass
+  er am Telefon nur noch bestaetigt werden muss. Quelle: 17.08.2026, authentisch.
