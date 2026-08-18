@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.08.2026 17:25:47
+Stand: 18.08.2026 17:36:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -10,9 +10,6 @@ Stand: 18.08.2026 17:25:47
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
-- 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- b58bf082 synergie-orchestrator Phase 4: Reihenfolge der SYN-ID-Vergabe verankert (Lehre Lauf 11)
+- 713c52b6 nas-selfcommit: 3 Datei(en) 2026-08-18 17:30
