@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 07:27:26
+Stand: 18.08.2026 07:37:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:25)
@@ -12,4 +12,4 @@ Stand: 18.08.2026 07:27:26
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6310825d Vollgas-Fruehwarnung 18.08.2026: STILL, kein Kriterium erfuellt; Methoden-Befund escaped Task-Opener
+- 4f4432e4 nas-selfcommit: 2 Datei(en) 2026-08-18 07:30
