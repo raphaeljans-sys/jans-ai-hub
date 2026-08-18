@@ -5,6 +5,117 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-18 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 18.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 410 Dateien im 9-Tage-Fenster MacBook Pro / 123 Mac Mini, Zeilenfilter
+je `timestamp[:10]`.
+
+### Verbrauch beide Stationen (Mio Tokens, teuer = in + cache_creation + out)
+
+| Tag | MBP teuer | MBP total | Mini teuer | Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | 28.39 |
+| 13.08. | 12.73 | 276.76 | 4.56 | 112.30 | 17.29 |
+| 14.08. | 8.55 | 163.91 | 3.07 | 75.38 | 11.62 |
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 8.40 | 170.91 | 2.41 | 73.54 | 10.81 |
+| 17.08. | 10.23 | 254.85 | 2.30 | 66.25 | 12.53 |
+| 18.08. (bis 07:15) | 1.37 | 34.38 | 0.60 | 14.83 | 1.97 |
+
+**Mac Mini wieder messbar.** Der gestrige Eintrag musste den Mini offen lassen, weil
+`ssh` auf die Tailscale-Adresse 100.120.219.12 in den Timeout lief. Heute ist es
+unverändert so: die direkte Tailscale-IP antwortet nicht, der **LAN-Weg 192.168.1.210
+und damit der Dual-Pfad-Alias `mini` funktionieren jedoch**. Wer den Mini misst, nimmt
+den Alias, nicht die IP aus dem Kopf. Der Tailscale-Rückweg bleibt als offener Punkt
+bestehen (relevant, sobald die Station nicht im Büro-LAN steht).
+
+Der kombinierte Verbrauch liegt seit dem 14.08. stabil zwischen 9.0 und 12.5 Mio teuer.
+Die Spitze vom 12.08. (28.39) ist sechs Tage her, der Trend danach flach.
+
+### Blockade-Status: FREI
+
+Strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` / `message.type=="error"`
+/ `apiErrorStatus==429` mit Limit-Bezug im Text: **0 echte Limit-Fehlerereignisse** im
+26-Stunden-Fenster, beide Stationen. Keine blockierte interaktive Sitzung, kein
+erschöpftes Wochenlimit.
+
+### Operative Briefings: alle durchgelaufen
+
+Heute um 05:15 gestartet, mit substanziellem Umfang und Mailspur, kein Abbruch:
+`logbuch-radar` 135 Zeilen, `hub-chef-taeglich` 167 Zeilen, `zahlungsabgleich-check`
+50 Zeilen. `mahnwesen-verzugscheck` hat seinen letzten Lauf am 17.08. 08:07 — sein Slot
+liegt nach dem Messzeitpunkt dieses Laufs, deshalb keine Aussage und kein Befund.
+
+### Radar-Herzschlag: INTAKT
+
+Beide Signale frisch: RADAR.md jüngster Eintrag **18.08. 00:58** (mtime 01:04), dazu
+Radar-Sessions heute um 05:15 und 07:20. Der Radar meldet Ampel **FREI** mit 2.3 %
+verbraucht bei 7.7 % verstrichener Woche (Vorsprung −5.4; der Wochen-Reset lief am
+17.08. 12:00). Er meldet zugleich den **P1 als erledigt**: die gewedgete CLI 2.1.224
+fährt wieder Sessions, `claude -p` antwortet dreimal in Folge mit rc=0.
+
+### Destillat-Aufsicht — Front und Ertrag bewegen sich beide
+
+- **Fortschritt:** Korpus 2 `buero-projekte` aktiv, Ziel-KB `projekt-lessons`.
+  `inventar.sh --stand` meldet 21/21 Sektionen, 813 inventarisiert, **706 offen**.
+  Gestern standen 807 offen — **die Front hat sich um 101 Dateien bewegt**, die
+  Triage Phase 1 läuft also wirklich. Spec `buero-projekte-spec.md` (16.08.) liegt vor,
+  das Spec-Gate hängt nicht.
+- **Ertrag:** **288 Artikel** über alle KBs (rekursiv gezählt, gestern 282, also +6).
+  `projekt-lessons` steht bei 7 Artikeln (3 emerging, 4 established), jüngster
+  17.08. 23:31. Am 17.08. sind dort zwei neue Artikel entstanden
+  (`lorrainestrasse-2011-…`, `nerves-2015-…`).
+- **Delta-Null-Serie:** keine. Die fünf jüngsten Reports unter
+  `wissen/projekt-lessons/outputs/` enthalten keinen Delta-Null-Vermerk.
+- **Stückkosten 17.08.:** kombiniert teuer 12.53 Mio auf **20 Artikel** (git-gezählt)
+  = **0.63 Mio je Artikel**; ohne die sechs Twin-Facetten 14 Artikel = **0.89 Mio**.
+  ⚠ Erstmals mit dem Mini-Anteil gerechnet — die Werte der Vortage waren
+  MacBook-only und damit zu tief. Nicht direkt gegen sie halten.
+
+### Meldeentscheid: STILL (keine Mail)
+
+Kein Kriterium erfüllt. (a) keine blockierte interaktive Sitzung, (b) Tagesspitze
+kombiniert 28.39 Mio am 12.08. liegt unter 35 und ist sechs Tage her; kein Paar
+Folgetage über je 18, (c) Wochenkontingent frisch und weit vorne, (d) Briefings
+durchgelaufen, (e) Radar-Herzschlag intakt, (f) Destillat-Loop bewegt Front **und**
+Ertrag, (g) Queue nicht komplett (Korpus 2 von 4 aktiv).
+
+Letzte Mail dieser Frühwarnung: **08.08.2026 07:29**.
+
+### Methoden-Befund für den nächsten Lauf: das Suchmuster der Briefing-Prüfung war falsch
+
+Schritt 3 und 4 suchen die Task-Sessions über den Opener `scheduled-task name="<task>"`.
+In der JSONL stehen die Anführungszeichen **escaped** (`name=\"logbuch-radar\"`), das
+ungeschützte Muster trifft deshalb **nie**. Ergebnis: eine erste Prüfung meldete «keine
+Session in 40 h» für alle vier Briefings **und** für den Radar — was als Kriterium (d)
+und (e) zugleich eine Meldung ausgelöst hätte. Beides war falsch, alle Sessions
+existieren. Die Kontrollprobe hat es aufgedeckt: 95 von 113 Dateien im Fenster enthalten
+den String `scheduled-task` überhaupt, nur eben nicht in der gesuchten Form.
+
+Zwei Lehren, beide schon als Regel vorhanden und hier erneut belegt: **ein leeres
+Suchergebnis ist zuerst eine Aussage über das Werkzeug** (Rule `auto-verbesserungen`
+260730b/260807), und **ein Agenten-Befund, der eine Quelle als defekt meldet, wird nie
+ohne eigene Gegenprüfung übernommen** (Rule 260729b). Derselbe Lauf lieferte einen
+zweiten Fall davon: der jüngste RADAR.md-Eintrag wurde als «37 Tage alt» gemeldet, weil
+der historische Regimewechsel-Kopf der Datei statt des ersten Eintrags gelesen wurde.
+Richtig ist 18.08. 00:58. Wer RADAR.md prüft, nimmt die erste `## `-Überschrift, nicht
+den Dateikopf.
+
+Korrektes Muster für den nächsten Lauf:
+`'scheduled-task name=\\"%s\\"' % task` (Python) bzw. `grep -F 'name=\"logbuch-radar\"'`.
+
+### Offene Beobachtungen (kein Meldegrund, für den Radar)
+
+- **Tailscale-Rückweg zum Mac Mini weiterhin defekt, zweiter Tag.** `ssh` auf
+  100.120.219.12 läuft in den Timeout; LAN 192.168.1.210 und der Dual-Pfad-Alias `mini`
+  funktionieren. Solange die Station im Büro-LAN steht, ist der Mini messbar — ausserhalb
+  wäre er es nicht.
+- **`energie-training-vollgas`** (Mac Mini) war am 17.08. 07:11 mit rc=1 nach 1 Sekunde
+  und «Not logged in · Please run /login» defekt. **Heute kein erneuter Lauf im Journal**,
+  der Defekt ist also weder bestätigt noch behoben. Bleibt beim Radar.
+
+
 ## 2026-08-17 07:15 — STILL (keine Mail)
 
 Messzeitpunkt 17.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
