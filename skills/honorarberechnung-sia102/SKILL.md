@@ -46,7 +46,7 @@ Bei Spezialplaner-Honoraren den entsprechenden Spezialisten-Code aus der Hauptgr
 4. **Bandbreite vor Punktwert** — Bei frühen Phasen Honorar-Bandbreite ausweisen, erst bei klarer Aufgabe Pauschale.
 5. **Konsistenz zu bestehenden Angeboten** — Wenn ein Vorangebot des gleichen Projekts existiert, neue Phasen auf gleichem Honorar-Niveau halten.
 
-## SIA 102:2020 — Phasenanteile Grundleistungen
+## Phasenanteile Grundleistungen — bürointerne JANS-Konvention (nicht normativ)
 
 | Phase | Bezeichnung | Anteil |
 |---|---|---|
@@ -61,7 +61,19 @@ Bei Spezialplaner-Honoraren den entsprechenden Spezialisten-Code aus der Hauptgr
 | 53 | Inbetriebnahme / Abschluss | 2% |
 | **Total** | | **100%** |
 
-Quelle: SIA 102:2020, Anhang A. Bei älterer Auflage (SIA 102:2014) leichte Verschiebung — pro Auflage spezifizieren.
+⚠ **Quelle: bürointerne JANS-Konvention, nicht die Norm.** Hergeleitet aus der
+Leistungsanteils-Tabelle **SIA 102:2014, Ziff. 7.7** (dort Basis Phasen 3+4+5 = 100 %:
+Vorprojekt 9 %, Bauprojekt 21 %, Bewilligungsverfahren 2.5 %, Ausschreibung 18 %,
+Ausführungsprojekt 16 %, Ausführung 29 %, Inbetriebnahme/Abschluss 4.5 %). Die JANS-Tabelle
+oben zieht zusätzlich Phase 21 Vorstudien in die 100 % und gewichtet die Ausführung tiefer.
+
+**Nie als SIA-102:2020-Fundstelle zitieren.** Diese Ausgabe endet mit Art. 6 und enthält
+weder einen Art. 7 noch eine Anhang-A-Prozenttabelle; eine baukostenabhängige
+Prozent-Honorarrechnung ist über SIA 102:2020 **nicht** normativ zu belegen (Beleg:
+`wissen/normen/destillate/sia-102-2020.md`, status `established`, Original S. 1-41 gelesen).
+Wer prozentual nach Baukosten rechnet, beruft sich auf **SIA 102:2014, Ziff. 7.7** oder weist
+die Werte als bürointerne Konvention aus. Korrigiert 18.08.2026 (Wissens-Chef Run 36, M1-1);
+die Prozentwerte selbst blieben unverändert, nur die Herkunftsangabe war falsch.
 
 ### Aufteilung Phase 52 (wichtig bei separater Bauleitungs-Submission)
 - Architektonische Oberleitung (Architekt): ca. 30-40% von Phase 52 = ca. 6-8% des Gesamthonorars
@@ -153,7 +165,7 @@ Layout-Standard: `/Volumes/daten/jans-ai-hub/rules/dokument-layout-standard.md`
 Für ergänzende Honorarofferten innerhalb eines Mail-Threads (z.B. wenn Bauherrschaft fragt "Was kosten zusätzliche Phasen?"). Aufbau:
 
 ```
-Honorarofferte für <Phasen> (gestützt auf SIA 102:2020)
+Honorarofferte für <Phasen> (gestützt auf SIA 102:<Ausgabe>)
 Aufwandbestimmende Bausumme: CHF <B> (BKP 1+2, ohne MWST)
 Schwierigkeitsgrad: <q> (Kategorie <Röm>)
 
@@ -165,6 +177,14 @@ Total <Phasenbereich>: CHF <Total> (von der Steuer befreit)
 Zahlungsbedingungen analog Hauptangebot AN-XXXXX.
 Gültig bis <Datum>.
 ```
+
+⚠ **Ausgabe im Kopf bewusst setzen, nicht «2020» einsetzen.** Dieser Baustein rechnet über
+aufwandbestimmende Bausumme und Schwierigkeitsgrad, also nach der **Baukosten-Methode** — die
+in SIA 102:**2020** nicht mehr existiert (die Ordnung endet mit Art. 6). Wer diesen Baustein
+verwendet, stützt sich entweder auf **SIA 102:2014, Art. 7** (dann so schreiben und im Vertrag
+vereinbaren) oder weist das Honorar als Pauschale ohne Norm-Prozentbezug aus. Eine Offerte,
+die «gestützt auf SIA 102:2020» sagt und zugleich Baukosten-Prozente ausweist, behauptet eine
+Norm-Deckung, die es nicht gibt. Vermerk 18.08.2026 (Wissens-Chef Run 36, M1-1).
 
 ### Format C — Honorar-Bandbreite (früh)
 
