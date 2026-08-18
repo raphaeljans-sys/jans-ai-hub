@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 23:33:30
+Stand: 18.08.2026 23:43:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.08.2026 23:33:30
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- a41e5ad0 nas-selfcommit: 6 Datei(en) 2026-08-18 23:30
+- 895e7cb1 wissens-chef Run 36: SIA-102-Fundstelle im Honorar-Skill richtiggestellt (Anhang A existiert nicht, Zahlen unveraendert), § 47a BBV I im Buch-Layer als ueberholt markiert, VKF-Fluchtwegtuer auf BRL 16-15 gehoben, Doppelfuehrungs-Landkarte fuer den Arbeitshilfen-Cluster, Dateinamen-Gegenprobe ohne weiteren Fall
