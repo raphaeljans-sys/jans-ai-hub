@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 01:08:05
+Stand: 19.08.2026 01:28:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 01:08:05
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- f6cc2447 vollgas-radar: 19.08. 00:57 [FREI] - Probe-Latenz >120s (3. Anstieg in Folge), Watchdog-Untergrenze auf 180s, Verbrauchsrueckstand -15.7 Punkte
+- 2caad3aa nas-selfcommit: 3 Datei(en) 2026-08-19 01:15
