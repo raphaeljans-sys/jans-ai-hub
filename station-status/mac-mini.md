@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 18.08.2026 08:52:04
+Stand: 18.08.2026 09:12:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -14,4 +14,4 @@ Stand: 18.08.2026 08:52:04
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 28b5c91d Hub-Chef 18.08.2026: Tagesbriefing gesendet, Radar-Kalenderbefund korrigiert, Entwurf Gruner bereitgestellt
+- 641ab4c7 nas-selfcommit: 3 Datei(en) 2026-08-18 09:00

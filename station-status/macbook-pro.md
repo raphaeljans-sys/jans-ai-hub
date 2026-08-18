@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 08:49:39
+Stand: 18.08.2026 09:10:12
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:26)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:07)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.08.2026 08:49:39
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 28b5c91d Hub-Chef 18.08.2026: Tagesbriefing gesendet, Radar-Kalenderbefund korrigiert, Entwurf Gruner bereitgestellt
+- 641ab4c7 nas-selfcommit: 3 Datei(en) 2026-08-18 09:00
