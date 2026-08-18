@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 08:18:49
+Stand: 18.08.2026 08:29:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 18.08.2026 08:18:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 00d22ec5 Logbuch 18.08.2026: Verzugscheck-Abschnitt auf echte Umlaute korrigiert (Korrektur-Harness)
+- 5772add6 Zahlungsabgleich 18.08.2026: bexio 401 achter Tag, Hygiene-Bericht + Nachtrag im Fristen-Register
