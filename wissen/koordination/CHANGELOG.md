@@ -3,6 +3,35 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-18 — Synergie-Lauf 11 (Tagestakt, 23,8 h nach Lauf 10)
+
+- **Bericht:** `outputs/2026-08-18_synergie-lauf-11.md`. Delta-Basis 17.08.2026 17:10,
+  Fenster 112 Commits. Uhr-Kontrolle bestanden (Station 17:10 CEST gegen Synology 17:00:08,
+  = HEAD `8d2d2013`); Gegenprobe der gefilterten Commit-Zahl bestanden.
+- **Strukturelles Delta:** 0 neue Bausteine, 8 geaenderte — davon 3 aus dem eigenen Vorlauf
+  (nicht neu aufgerollt). Frueh-Ausstieg griff nicht.
+- **Neu: SYN-35** — `skills/ausschreibung/SKILL.md` fehlte die Kante zur KB
+  `wissen/projekt-lessons`. Wissens-Chef Run 35 verankerte die Lehre aus
+  `nerves-2015-kv-nebengewerke-unterschaetzt.md` in drei Skills; der Artikel nennt in seinem
+  Feld `skills:` aber vier Abnehmer. Verweis ergaenzt (active-with-flagging), mit
+  `status: emerging`-Vorbehalt. **Nicht** verdrahtet wurde die nominelle Nennung im
+  `lorrainestrasse`-Artikel: dort ist «Ausschreibung» nur die SIA-Phasenbezeichnung eines
+  Honorarfalls. Eine Nennung im Feld `skills:` ist ein Hinweis, kein Beleg fuer eine Kante.
+- **Nebenbefund behoben:** `ausschreibung` Z. 13 verwies auf die nicht existierende ID
+  «SYN-35»; gemeint war SYN-34, gesetzt vom eigenen Vorlauf. Korrigiert **vor** der Vergabe
+  der neuen ID — andernfalls waere aus dem toten Verweis ein falscher geworden. Lehre: eine
+  SYN-ID nie in einem Baustein zitieren, bevor die Registerzeile geschrieben ist.
+- **Geprueft, kein Befund:** Rueckkanten der drei verankerten Skills (beidseitig sauber);
+  Entfernung von `tools: All tools` an zwei Agenten (korrekte Bereinigung, danach 0 Treffer
+  hubweit, die 14 Agenten mit `tools:`-Feld tragen echte Einschraenkungen);
+  `rules/jans-dna-facetten.md` +38 Z. (kein Handedit am Kompilat — alle sechs Quell-Artikel
+  und `build_dna.py` im selben Commit `42ced312` mitgeaendert).
+- **Schreib-Kontrolle** (Rule `auto-verbesserungen` 260811, alle Werte per `--numstat`
+  gemessen): `ausschreibung` **2/2** (402/402, zwei beabsichtigte Zeilenersetzungen),
+  Register **53/0** (346/399, 34/35 Tabellenzeilen, null Loeschungen). Keine Datei hat
+  Bestand verloren.
+- **Keine Mail** (Loop still by default, kein P1-Blocker).
+
 ## 2026-08-17 — Wissens-Chef Run 35 (Abendlauf, 23,9 h nach Run 34)
 
 - **Bericht:** `outputs/2026-08-17_wissens-chef-run35.md`. Zuschnitt **5 Melder + 4 Refuter
