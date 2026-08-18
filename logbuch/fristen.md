@@ -3,6 +3,39 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+
+Eintrag 18.08.2026, 08:39 (Hub-Chef — **eine Radar-Korrektur, die den Donnerstag betrifft, und
+zwei Entwarnungen aus dem Postfach der letzten neunzig Minuten**):
+
+**Die Koordinationssitzung Gruner/Jans/KISPI vom 20.08. EXISTIERT.** Der Radar meldete heute um
+06:55, am 20.08. sei «über alle fünfzehn Kalender abgefragt kein einziger Eintrag» vorhanden, und
+riet zu einem Blick, bevor der Donnerstagnachmittag anders verplant werde. Am Graph-Original
+nachgemessen steht der Termin: **Donnerstag 20.08., 13:00 bis 14:00 CEST** (`2026-08-20T11:00:00Z`),
+Organisatorin Michelle Valentin (KISPI), zehn Teilnehmende inkl. rj@, Gruner (Cetin, Duran, Ziegel,
+Büchler, Kübler, Simmen, Eren) und A. Spahic, Microsoft Teams, Serie im Zwei-Wochen-Rhythmus.
+**Der Radar-Befund ist eine Fehlmessung, keine Absage** — vermutlich hat die Abfrage den
+Serientermin nicht aufgelöst. Diese Korrektur steht hier und nicht nur im Logbuch, weil sie
+Raphaels Handeln betrifft: er hätte den Nachmittag sonst überbucht. | Outlook-Kalender via Graph,
+gemessen 18.08.2026 08:35 | 2619 KISPI | hoch | erledigt (Termin bestätigt) |
+
+**Die Aufbauhöhe der bodenebenen Duschen ist vom Fachplaner selbst gelöst.** M. Eren (Gruner)
+meldet am **18.08. 08:14**: «Ich habe eine einfachere Lösung gefunden. Ich werde den Siphon,
+welcher am meisten Platz benötigt, unter der Decke anordnen. Dadurch bin ich beim Bodenaufbau
+flexibler und benötige nicht zwingend die 9 cm Unterlagsboden.» Damit ist der gestern eröffnete
+Konflikt zwischen seinen geforderten 9 cm und den real vorhandenen 70 mm an der Vertiefung beim
+Bodenablauf hinfällig; weder das System Geberit Cleanwall noch eine örtliche Verletzung der
+Trittschalldämmung sind nötig. **Formell offen bleibt allein, ob er den am 17.08. 15:47
+angeforderten Schnittplan der Nasszellen inklusive Bodenaufbau noch braucht** — er hat ihn nicht
+ausdrücklich zurückgezogen. Entwurf dazu liegt im Postfach (siehe Logbuch). | mail Eren (Gruner),
+18.08.2026 08:14, am Original gelesen | 2619 KISPI | mittel | offen (nur noch Schnittplan-Frage) |
+
+**Der Türbuch-Termin vom 19.08. 15:00 ist vollständig besetzt.** Levi Hiltmann (TeKoSi) hat am
+**18.08. 07:18** angenommen, 23 Minuten nach der Radar-Messung. Damit steht die Besetzung: L. Merci
+(KISPI) zugesagt, L. Hiltmann (TeKoSi) zugesagt, F. Würsch neu eingeladen, N. Ramminger (KISPI)
+ferienbedingt abgesagt (14.08.), R. Otschkowski (TeKoSi) ohne Antwort. **Der Entwurf an Levi
+Hiltmann vom 17.08. 08:48 ist damit endgültig gegenstandslos** und kann gelöscht werden; Raphael
+hatte TeKoSi ohnehin am 17.08. telefonisch erreicht. | mail Hiltmann, 18.08.2026 07:18 |
+2619 KISPI | mittel | erledigt |
 Eintrag 17.08.2026, 17:45 (Synergie-Lauf 10 — **Rechtsstand in einer Textquelle, aus der
 Vertragsbedingungen entstehen; keine Frist für Raphael, aber ein Entscheid**):
 

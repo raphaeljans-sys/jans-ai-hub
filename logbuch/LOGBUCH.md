@@ -4,6 +4,50 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
+## Hub-Chef 18.08.2026 (08:39 bis 08:55) — Tagesbriefing GESENDET (Regellauf)
+
+**Lage.** Der Radar hat um 06:55 sauber vorgelegt; mein Beitrag ist das Delta der neunzig
+Minuten danach und eine Korrektur an einem seiner Befunde. Zwei Eingänge nach der
+Radar-Messung, beide operativ und beide entlastend: **L. Hiltmann (TeKoSi) hat um 07:18 den
+Türbuch-Termin angenommen**, **M. Eren (Gruner) hat um 08:14 die Aufbauhöhe der bodenebenen
+Duschen selbst gelöst** (Siphon unter der Decke statt 9 cm Unterlagsboden). Der grösste
+Einzelpunkt des Tages bleibt unverändert der des Radars: das **UBS-Kapitaleinzahlungskonto**
+ist eröffnet und wartet auf die Einzahlung, und das ist eine Zahlung, also ausschliesslich
+Raphaels Schritt.
+
+**Korrektur am Radar-Befund (handlungsrelevant, deshalb gesendet und nicht still).** Der Radar
+meldete, die **Koordinationssitzung Gruner/Jans/KISPI vom 20.08.** stehe «in keinem Kalender»,
+und riet, das vor der Verplanung des Donnerstagnachmittags zu prüfen. Am Graph-Original
+nachgemessen existiert der Termin: **20.08., 13:00 bis 14:00 CEST**, Organisatorin M. Valentin,
+zehn Teilnehmende, Serie im Zwei-Wochen-Rhythmus. Fehlmessung, keine Absage; vermutlich wurde der
+Serientermin nicht aufgelöst. Registerzeile gesetzt.
+
+**Erledigt autonom.**
+- **A5 — Entwurf an M. Eren (Gruner) bereitgestellt**, Cc Kübler, Spörri, Würsch, Spahic, Betreff
+  «AW: KISPI PPTS: Konzept Duschwannen», 1194 Zeichen, Aptos 12 pt. Inhalt: Dank für die
+  Siphon-Lösung, die Frage ob der am 17.08. angeforderte **Schnittplan der Nasszellen inkl.
+  Bodenaufbau** noch gebraucht wird (er hat ihn nicht ausdrücklich zurückgezogen), und die
+  Bestätigung des Konzepts vom 17.08. samt Stilllegung des Heizkreises 2.032. **Nicht versendet**
+  — die fachliche Freigabe der Raumpläne ist Raphaels Entscheid. QS: `rechtschreibung` gelaufen,
+  ein Komma übernommen. **Die Anrede «Sehr geehrter Herr Mustafa» ist bewusst belassen**: sie ist
+  Raphaels eigener, im Thread zweimal belegter Wortlaut (17.08. 15:04 und 16:49); der
+  Korrektur-Agent wollte auf «Herr Eren» korrigieren, was sachlich richtig ist (Eren ist der
+  Nachname) — hier gewinnt der authentische Threadstil, der Hinweis geht ins Briefing.
+- **A4 — Fristen-Register nachgeführt**, drei Einträge (Kalender-Korrektur 20.08., Entwarnung
+  Aufbauhöhe, Türbuch-Besetzung vollständig). Umfang nativ gemessen: `33 0`, append-only
+  eingehalten.
+
+**Guards.** A1 gesperrt, achter Lauf mit HTTP 401 gegen bexio (`--verzug`); nichts gemahnt,
+nichts gebucht. Freigabe-Queues auf beiden Stationen leer, Sync- und Remote-Queues ohne pending.
+**Kein AG-Gründungs-Abschnitt im heutigen Datumsblock**, elfter Tag in Folge; der Strang läuft
+über den Radar mit, der ihn heute korrekt getragen hat (UBS-Eröffnung).
+
+**Vier Entwürfe liegen weiter im Postfach**, heute nachgemessen: L. Furrer/AfB (12.08. 16:06),
+T. Inniger (13.08. 01:28), der ältere Inniger-Entwurf (08.08. 08:56, darf nicht raus) und der nun
+endgültig gegenstandslose Türbuch-Entwurf an L. Hiltmann (17.08. 08:48). Löschen ist mir verboten,
+also bleibt er liegen und wird gemeldet.
+
+---
 ## Radar-Briefing 18.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
 
 **Kein eigener Versand.** Der Chef-Lauf vom 17.08. ist regulär gelaufen und hat um 08:54
