@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.08.2026 00:55:44
+Stand: 19.08.2026 01:06:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 00:58)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 00:55:44
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ca49ef9d nas-selfcommit: 4 Datei(en) 2026-08-19 00:45
+- f6cc2447 vollgas-radar: 19.08. 00:57 [FREI] - Probe-Latenz >120s (3. Anstieg in Folge), Watchdog-Untergrenze auf 180s, Verbrauchsrueckstand -15.7 Punkte
