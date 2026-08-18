@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 18.08.2026 08:29:06
+Stand: 18.08.2026 08:39:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:26)
@@ -12,4 +12,4 @@ Stand: 18.08.2026 08:29:06
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5772add6 Zahlungsabgleich 18.08.2026: bexio 401 achter Tag, Hygiene-Bericht + Nachtrag im Fristen-Register
+- 1f032e50 nas-selfcommit: 2 Datei(en) 2026-08-18 08:30
