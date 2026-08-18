@@ -4,6 +4,174 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
+## Radar-Briefing 18.08.2026 (06:55, still ins Logbuch, für das Tagesbriefing des Hub-Chefs 08:39)
+
+**Kein eigener Versand.** Der Chef-Lauf vom 17.08. ist regulär gelaufen und hat um 08:54
+gesendet (Mail «Hub-Chef 17.08.26: Der Türbuch-Termin hat um 07:20 eine Zusage bekommen …»,
+im Postfach belegt); kein Punkt verlangt Handeln vor 08:39.
+
+**Lagebild: das Gegenteil des Wochenendes.** Raphael hat gestern den ganzen Tag gearbeitet,
+vierzehn Mails sind hinausgegangen, sieben eingegangen, und die drei Stränge KISPI, UGZ und
+AG-Gründung haben sich alle bewegt. Der wichtigste Einzelbefund liegt aber nicht im KISPI:
+**die UBS hat das Kapitaleinzahlungskonto eröffnet.** Nach Wochen, in denen die AG-Gründung
+auf fremde Rückmeldungen wartete, liegt der Ball wieder bei Raphael.
+
+### Erledigt seit gestern
+
+**Der Türbuch-Termin ist entschieden.** Raphael hat den Termin vom 17.08. 10:30 um 10:06
+abgesagt und für **Mittwoch 19.08. 15:00 bis 15:30** neu eingeladen, neu inklusive Fabian
+Würsch. Er hat es gegenüber C. Schäfer um 11:32 selbst festgehalten: «findet statt inkl.
+Fabian Würsch». Damit ist auch der vom Hub-Chef bereitgelegte Entwurf an Levi Hiltmann
+gegenstandslos, denn Raphael hat TeKoSi telefonisch erreicht und um 17:02 direkt geschrieben
+(«Danke für Dein Telefon»).
+
+**Die Nutzungsbestätigung an den UGZ ist raus.** Raphael hat L. Hansen um 16:10 schriftlich
+bestätigt, dass die Therapieküche eine Schulküche in therapeutisch betreutem Umfeld ist,
+Belegung 4 bis 6 Personen, davon 1 bis 2 Betreuungspersonen. Die Bringschuld von JANS am
+UGZ-Strang ist damit erfüllt.
+
+**Das Duschwannen-Konzept ist bei Gruner.** Um 15:04 an M. Eren versendet, mit der von B. Kübler
+mitgetragenen Aufteilung Aufsatzmontage in vier Räumen, bodeneben in zwei, und dem klaren
+Hinweis, dass der Heizkreis 2.032 stillgelegt und entleert werden muss. Antwort kam nach
+43 Minuten, sie ist unten aufgeführt.
+
+**Die Lieferfristen von Jegen liegen vor.** Angefragt um 08:47, beantwortet um 13:27. Die Frage
+ist geschlossen, die Terminfolge daraus ist neu offen.
+
+**Das KISPI hat dem LBW-Termin zugestimmt.** M. Spörri bestätigt um 12:06 die Einbringung der
+RHS am 31.08.
+
+**Der Irrläufer an C. Gasser ist von Raphael selbst richtiggestellt.** Sie fragte um 11:19
+zurück, ob überhaupt ein Auftrag bestehe, er hat um 11:28 geantwortet und um Löschung gebeten.
+
+**Der P1 «Claude-CLI MacBook Pro» hat sich ohne Eingriff erledigt.** Dasselbe Binary antwortet
+seit dem 18.08. 00:58 wieder, dreimal in Folge mit rc=0.
+
+### Aus unseren Gesprächen
+
+Raphael hat im Fenster zwei Gespräche geführt, beide am Morgen des 17.08. zwischen 07:04 und
+07:33, beide zu den Lern-Läufen des Hub. **Nichts davon berührt einen Termin, eine Zusage oder
+einen Betrag gegenüber Dritten.**
+
+Auf «ja mach vollgas ich will es rattern sehen» liefen vier Läufe parallel, 29.29 USD in rund
+30 Minuten, alle mit rc=0 bis auf einen Fehlstart. Drei Stolpersteine wurden dabei gelöst und
+sind der eigentliche Ertrag: der gewedgete PATH-`claude` des MacBook wird über `CLAUDE_BIN`
+umgangen, ein Handstart via `ssh mini` scheitert ohne Repo-Wechsel, PATH und
+`~/.jans-dispatch.env` dreifach, und ein Trainings-Lauf braucht einen ausdrücklich autonomen
+Auftrag, sonst beendet er sich mit einer Rückfrage selbst. **Diese drei Wege stehen bisher
+nicht im Wege-Register** (`connectors/WEGE.md`), dorthin gehören sie.
+
+Im zweiten Gespräch hat er vier offene Entscheide der Normen-KB auf einmal entschieden («nein
+jetzt») und im selben Lauf umsetzen lassen. **Ein fünfter Punkt wartet weiterhin auf ein
+Ja oder Nein:** das Abbruchkriterium für die Verifikationsschleifen der KB `normen`, seit Run 55
+offen, von Run 56 erneut vorgelegt, ohne Termindruck.
+
+### Überfällig
+
+**Die Debitoren-Aufsicht ist den zehnten Tag blind.** bexio lehnt den Token unverändert mit
+HTTP 401 ab; der Token selbst läuft erst am 13.12.2026 ab, die Sitzung dahinter wurde beendet.
+Drei Positionen bleiben unverifizierbar: **RE-00101 (Tschopp, CHF 6'000)** mit abgelaufener
+Mahnfrist, wobei ein Mahnschritt ohnehin gesperrt bleibt, solange die ungeprüfte Bankbewegung
+über exakt CHF 6'000 im Register steht, **RE-00087 (KISPI, CHF 15'000)** bei über 110 Tagen und
+die seit dem 12.08. unverifizierten RE-00098/99. Die Erneuerung braucht Raphaels bexio-Login.
+
+**Thalwil Bohlweg 3, unverändert seit dem 06.08. überfällig.** Dateien vom 03.08. 22:28 mit
+weiterhin falscher Ziffer 4.5, die vorbereitete Mail ist in keinem Konto versendet.
+
+**Drei Entwürfe an Dritte liegen weiter im Postfach**, heute früh nachgemessen: L. Furrer (AfB)
+vom 12.08. 16:06, T. Inniger vom 13.08. 01:28 und der ältere Inniger-Entwurf vom 08.08. 08:56,
+der nicht hinausgehen darf. Die Verwechslungsgefahr zwischen den beiden Therapieküche-Entwürfen
+besteht fort. **Neu ist der vierte gegenstandslos geworden:** der Türbuch-Entwurf an L. Hiltmann
+vom 17.08. 08:48 kann gelöscht werden.
+
+### In den nächsten 7 Tagen
+
+**Heute, ohne Uhrzeit: das UBS-Kapitaleinzahlungskonto ist offen und wartet auf die Einzahlung.**
+C. Bitic (UBS, C&RE Onboarding) meldet am 17.08. 10:18 an mail@ die Eröffnung für die «Raphael
+Jans AG In Gründung», IBAN **CH46 0027 6276 1238 74D7 N**, BIC UBSWCHZH80A. Der Ablauf steht in
+der Mail: Kapital überweisen, danach versendet die UBS die Bescheinigung **automatisch per
+eingeschriebener Post**, und nach dem Handelsregister-Eintrag ist die UBS unter **044 236 48 48**
+anzurufen, damit das operative Konto eröffnet wird. Die Kette Einzahlung, Bescheinigung,
+Notariat Mathies, HR-Eintrag hängt damit an einem einzigen Schritt, und dieser Schritt ist eine
+Zahlung, also ausschliesslich Raphaels.
+
+**Heute 14:00 bis 14:30 — «Abstimmung nächste Schritte PPTS»**, Teams, am 17.08. um 11:23
+angenommen. Ein Traktandum hat Raphael selbst gesetzt: den «Stand interne Übergabe Bauleitung»,
+zusammen mit der internen Koordination mit A. Spahic zum LBW-Termin vom 31.08.
+
+**Heute — das Dropbox-Abo verlängert sich automatisch, EUR 203.88 pro Jahr.** Der letzte Tag für
+Kündigung oder Anpassung war gestern. Zweite Seite desselben Punkts: die hinterlegte Kreditkarte
+wurde Ende Juli als ablaufend gemeldet, die Verlängerung kann also auch schlicht fehlschlagen.
+
+**Mittwoch 19.08. 15:00 bis 15:30 — KISPI PPTS, Türkonzeptplan und Türbuch**, neu inklusive
+F. Würsch. Ein Traktandum steht bereits fest: die Zuständigkeit für die Angabe der
+Bohrungsdurchmesser der Öffnungen, die in den Elementen vorbereitet werden sollen.
+
+**Donnerstag 20.08. — RE-00100 (Nova Property Fund, CHF 13'120) fällig**, wegen des toten
+bexio-Zugangs nicht verifizierbar.
+
+**Donnerstag 20.08. — die Koordinationssitzung Gruner/Jans/KISPI steht heute in keinem Kalender.**
+Gestern war sie als Serientermin 13:00 bis 14:00 gemeldet; heute früh über alle fünfzehn Kalender
+abgefragt, ist am 20.08. **kein einziger Eintrag** vorhanden, während der Türbuch-Termin und die
+Baustellenbegehung sauber erscheinen. Entweder ist die Serie beendet oder abgesagt worden. Ein
+kurzer Blick genügt, bevor der Donnerstagnachmittag anders verplant wird.
+
+**Freitag 21.08. 10:00 bis 12:00 — Baustellenbegehung Kinderspital**, Lenggstrasse 28, vor Ort,
+mit N. Rothe.
+
+**Samstag 22.08. — Adobe Acrobat Premium**, das Probeabo endet, danach CHF 71.00 pro Jahr
+automatisch.
+
+**Um den 23.08. — Rechnung Schwander 26-08-0025**, Zahlungsfrist 10 Tage netto ab 13.08. Keine
+JANS-Verbindlichkeit; offen bleibt die bauleitende Prüfung auf sachliche und rechnerische
+Richtigkeit samt Visum, damit die Frist nicht in der Prüfung verstreicht.
+
+**Sonntag 23.08. — der UGZ ist wieder erreichbar.** S. Zala hat die Rückkehr auf diesen Tag
+gesetzt; vorher ist am Strang der Abänderungseingabe B26-00705.02 kein Fortschritt zu erwarten.
+
+**Montag 24.08. 09:00 bis 09:30 — «Abgleich / Status PPTS»**, am 17.08. um 14:15 angenommen.
+
+### Zwei neue Sachpunkte, die keine Frist tragen, aber den kritischen Pfad betreffen
+
+**Die Aufbauhöhe der bodenebenen Duschen geht rechnerisch nicht auf.** M. Eren (Gruner) braucht
+mindestens **9 cm Unterlagsboden exklusive Plattenbelag und Gefälle**. Raphael hat um 16:49 die
+realen Höhen genannt: Unterlagsboden 85 mm, Deckbelag 5 mm Bolon, also 90 mm bis zur
+Trittschalldämmung, **an der Vertiefung beim Bodenablauf aber nur 70 mm**. Zwei Wege stehen im
+Raum, das System Geberit Cleanwall Wandablauf mit Einbaulösung GIS Duofix/Kombifix in der
+Vormauerung, oder eine örtliche Verletzung der Trittschalldämmung. Offen sind Erens Antwort und
+der von ihm angeforderte **Schnittplan der Nasszellen inklusive Bodenaufbau**, der als
+Bringschuld bei JANS liegt.
+
+**Die Jegen-Fristen machen die Freigabe zum kritischen Pfad.** Elemente ca. **8 Wochen ab
+Freigabe und erfolgter Massaufnahme**, Gläser mindestens 8 Wochen, Stoff noch in Abklärung.
+Zwischen Freigabe und Lieferung liegen also mindestens zwei Monate, und die Massaufnahme muss
+vor dem Fristbeginn erfolgt sein. Der Stoff ist die einzige unbezifferte Position.
+
+### In Beobachtung
+
+Estermann soll sich für den RHS-Termin vom 31.08. bei M. Spörri melden, eine Bestätigung von
+JANS an Stadelmann ist nicht belegt · SBB-Näherbaurechtsvereinbarung Thalwil, Ball bei der
+Bauherrschaft · UGZ-Fachbefund Lüftung KISPI 1. OG, fünf Punkte umzusetzen · OneDrive-Quarantäne
+auf dem Mac Mini, 2.8 GB seit dem 08.08. unabgeglichen · SharePoint-Tenant bei 78.4 Prozent,
+Restlaufzeit rund 70 Tage, Versionslimit weiterhin auf «Automatisch» zu stellen ·
+Speicherplatz MacBook Pro, zwei Bedienschritte in Dropbox und Finder · SwissSign-Rechnung
+INV2049252 über CHF 26.20 trägt weiterhin die alte Adresse Saumstrasse 21 · AG-Gründung,
+Notariatsstrang nach der Einzahlung.
+
+### Vorschlag Kalendereinträge
+
+Drei Erinnerungen, nur vorgeschlagen, nicht eingetragen: **heute ein Block für die
+Kapitaleinzahlung an die UBS**, weil daran die ganze weitere Kette hängt · **heute vor 14:00
+zehn Minuten für den Dropbox-Entscheid**, letzter wirksamer Zeitpunkt · **Freitag 22.08. eine
+Erinnerung für Adobe Acrobat**, dessen Probeabo am selben Tag endet.
+
+### Token-Tempo
+
+Gestern 17.08. zusammen **338.8 Mio Token, API-Kostenäquivalent 229.91 USD** — MacBook Pro
+272.6 Mio / 207.22 USD, Mac Mini 66.2 Mio / 22.69 USD.
+
+---
+
 
 ## 2026-08-17 23:30 (Mac Mini Nachtschicht, Prioritaet 4 KB-Training) — energie Run 140: EnerG §§ 10a/10c/11 + BBV I § 47a destilliert, E-R139-1 teilgelöst
 
