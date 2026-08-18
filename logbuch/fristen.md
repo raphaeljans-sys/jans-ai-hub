@@ -4,6 +4,28 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
+Eintrag 19.08.2026, 01:4x (Normen-Nacht Run 57 — **keine Frist, aber eine Bring-Schuld mit
+Fehlerrisiko in ausgehenden Erzeugnissen**): **Die Norm SIA 416/1:2007 ist seit dem 31.03.2015
+zurueckgezogen** und seit 01.04.2015 ersetzt durch **SIA 380:2015 «Grundlagen fuer energetische
+Berechnungen von Gebaeuden»** (SN 504380:2015). Belegt an zwei unabhaengigen Primaerquellen: dem
+SIA-Shop-Produktdatenblatt («archivierter Titel», mit Enddatum) und dem Titelblatt der SIA 380:2015
+selbst («Ersatz fuer SIA 416/1:2007 sowie Teile von SIA 2031:2009, SIA 2032:2010 und SIA 2040:2011»).
+**Warum das hier steht und nicht nur im Laufbericht:** SIA 416/1 definiert die **Energiebezugsflaeche
+AE**, die **Gebaeudehuellflaeche** und die **Energiekennzahl** — Groessen, die in Energienachweise,
+Leistungsverzeichnisse und Behoerdeneingaben wandern. Sie wird im Hub aktuell in **neun Dateien
+ueber vier weitere KBs** als Fundstelle zitiert (`energie` 6, `immobilienbewertung` 1,
+`planungsgrundlagen` 1, `baurecht` 1; Liste in `wissen/normen/wiki/QUESTIONS.md` unter N57-2).
+Die Normen-KB selbst ist nachgefuehrt (REGISTER, INDEX, Inventar, Destillat, Wiki-Artikel von
+`established` auf `speculative` herabgesetzt). **AKTION Raphael: SIA 380:2015 beschaffen**
+(SIA-Shop, kostenpflichtig, ~64 S. — Claude taetigt keine Kaeufe). Erst danach lassen sich die
+neun Fundstellen umhaengen, und zwar **sachbezogen geprueft, nicht mechanisch ersetzt** (der Begriff
+AE lebt in SIA 380:2015 weiter; pauschales Ersetzen waere der Fehler aus Rule `bkp-2017-referenz`).
+**Bis dahin gilt:** keine SIA-416/1-Fundstelle in ein ausgehendes Erzeugnis setzen, ohne den
+Gueltigkeitsstand zu vermerken; fuer Bestandesbauten und Altvertraege bleibt die 2007er Ausgabe
+die richtige Referenz. Beleg: `wissen/normen/outputs/2026-08-19_normen-nacht-run57.md`.
+| Normen-Nacht Run 57, 19.08.2026 | KB normen + 4 Fremd-KBs | mittel | **offen — Beschaffung Raphael** |
+
+
 Eintrag 18.08.2026, 08:39 (Hub-Chef — **eine Radar-Korrektur, die den Donnerstag betrifft, und
 zwei Entwarnungen aus dem Postfach der letzten neunzig Minuten**):
 
