@@ -2,6 +2,15 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Backlink auf das SIA-416/1-Destillat gesetzt
+
+- `wiki/flaechendefinitionen-sia.md` nannte **SIA 416/1** im Fliesstext, ohne auf die
+  Norm-Fundstelle zu zeigen. Seit Run 56 fuehrt die KB `normen` dazu ein eigenes Destillat
+  (`sia-416-1-2007.md`); im Feld `links:` ergaenzt.
+- **Kein inhaltlicher Befund.** Die in Run 35 gegen diesen Artikel erhobene Meldung
+  («SIA 416/1 als Flaechenbedarfs-Norm zitiert») war bereits damals widerlegt; das neue
+  Destillat bestaetigt die Rollenzuweisung «massgebend SIA 416, ergaenzend SIA 416/1» erneut.
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — ZIW-Indexstand ueberholt, Fuehrung an `grobkosten`; zwei Meldungen gegen diese KB widerlegt
 
 - **`wiki/realwert-sachwert.md`:** Die Stuetzstelle **01.04.2025 = 1210.4** (HEV-SZ-Reproduktion,

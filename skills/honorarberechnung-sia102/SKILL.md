@@ -126,7 +126,24 @@ Beispiel: Bestehende Pauschale 75'000 CHF für Phasen 21+31+32+33 (Anteil 41%)
 => Phase 41 (18%) = 32'927 CHF (gerundet 33'000)
 => Phase 51 (19%) = 34'756 CHF (gerundet 35'000)
 
-## Schwierigkeitsgrad q — Bauwerkkategorien (SIA 102)
+## Schwierigkeitsgrad — Bauwerkkategorien (bürointerne JANS-Skala, nicht die Norm-Skala)
+
+⚠ **Weicht in drei Punkten von SIA 102:2014 ab — vor Verwendung in einer Offerte prüfen**
+(festgestellt 18.08.2026, Wissens-Chef Run 36; Werte bewusst unverändert gelassen, offener
+Fachentscheid Raphael, siehe Bericht `wissen/koordination/outputs/2026-08-18_wissens-chef-run36.md`):
+
+1. **Symbol:** In SIA 102:2014 heisst der Schwierigkeitsgrad **`n`**; **`q`** ist dort der
+   *Leistungsanteil in Prozent* (Ziff. 7.2/7.7). Die Tabelle unten vertauscht die Symbole.
+2. **Skala:** Die Norm kennt **sieben** Kategorien I-VII mit `n` = 0.7/0.8/0.9/1.0/1.1/1.2/1.3
+   (Ziff. 7.6). Die Tabelle unten führt sechs Kategorien mit anderen Zwischenwerten.
+3. **Zuordnung Healthcare:** Die Norm (Ziff. 7.6.5, S. 45-48) ordnet zu — Pflegeheime/Reha/
+   Sanatorien und Altersheime **Kat. V**, Arztpraxen/Ärztehäuser **Kat. V**, Krankenhäuser
+   generisch **VI**, Bettenhäuser V, Behandlungstrakte und Universitätskliniken **VII**.
+   Die JANS-Defaults unten liegen für Pflegeheim und Praxis **zwei Stufen tiefer**.
+
+Beleg: `wissen/normen/destillate/sia-102-2014.md` (status `established`, Zuordnung am Original
+S. 45-48 verifiziert). Solange der Fachentscheid offen ist: die Skala unten als bürointern
+kennzeichnen, nicht als «nach SIA 102» ausweisen.
 
 | Kategorie | q | Beispiele |
 |---|---|---|

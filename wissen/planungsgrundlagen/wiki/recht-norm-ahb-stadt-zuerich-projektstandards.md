@@ -81,7 +81,10 @@ der Wert der **RFB-Richtlinie V7.0 (13.07.2007) Ziff. 3.5.2.3** der Stadt Züric
 **Entwurf 3/05** der SIA 416/1 fusst — für städtische Bewirtschaftungspläne über den AHB-Honorar-
 vertrag weiterhin bindend, deshalb hier unverändert. Die **publizierte Norm SIA 416/1:2007
 Ziff. 3.2.2 (Figur 16) nennt 1,0 m** (am Original nachgelesen, siehe
-`wissen/normen/destillate/sia-416-1-2007.md` Z. 232-233). **Für einen Energienachweis gilt 1,0 m** —
+`wissen/normen/destillate/sia-416-1-2007.md`, Abschnitt zu Ziff. 3.2.2/Figur 16 — bewusst ohne
+Zeilennummer zitiert, weil das Destillat wächst; Ziffer und Figur sind stabil, die Zeile nicht.
+Gegengeprüft am 18.08.2026, Wissens-Chef Run 36: der Wert 1,0 m steht dort unverändert).
+**Für einen Energienachweis gilt 1,0 m** —
 dort wäre der RFB-Wert der falsche Nenner der Energiekennzahl. Kein Fehler in diesem Artikel,
 sondern zwei verschiedene, je für sich gültige Fassungen. Bei
 Doppelfassaden/hinterlüfteten Fassaden mit Luftraum >10 cm gilt die **innere** Begrenzung des

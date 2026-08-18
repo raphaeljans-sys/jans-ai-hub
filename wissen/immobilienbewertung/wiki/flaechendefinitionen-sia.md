@@ -3,7 +3,7 @@ title: Flaechendefinitionen (SIA 416 / SIA 416/1)
 status: established
 last_updated: 2026-07-10
 sources: [SIA 416:2003 (SN 504 416) Flaechen und Volumen von Gebaeuden — kanonische Norm-PDF IMMO-03 FLÄCHENBEZEICHNUNG/sia/416_2003_dfi.pdf, S. 6-15 vollstaendig verankert Run 10 (Hierarchie GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF/AGF, Volumen GV/NGV/KV/AKV, Miet-/STWE-Flaechen FSN/FGN, Abgrenzung 0.1), IMMO-06 Kennwerte `_Kennwerte Jans.docx` (R. Jans 25.03.2025 — JANS-Umrechnungsfaktor aGF/GF Altbau 0.8 / Neubau 0.9, D8, Run 16), IMMO-06 WOHNEN Baumasse (Flaechenkonzeption Wohnen.pdf, R. Jans 20.10.2024, Haselstudstrasse 12 Wald), JANS 8-Objekt-Referenzvergleich Healthcare «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410, GF/GV/HNF nach SIA 416 → Healthcare-Flaechenfaktoren HNF/GF ~0.55, Run 14 2026-07-06), Schaetzungsanleitung Kap. 5 (Tab. 12 Nutzflaechen, Tab. 13 Raumeinheiten)]
-links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]]
+links: [[realwert-sachwert]], [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[vergleichswert-hedonisch]], [[sia-416-1-2007]] (Norm-Fundstelle in `wissen/normen/destillate/`, ergänzt 18.08.2026 Wissens-Chef Run 36)
 ---
 
 # Flaechendefinitionen (SIA 416)

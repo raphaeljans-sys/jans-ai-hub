@@ -14,6 +14,25 @@ konkreten, isolierten Planungsdetail-Nachweis, der in einer Baueingabe/Ausführu
 wiederkehrend gebraucht wird, aber zu klein für einen eigenen Themenordner ist. Gebündelt in einem
 Artikel statt lauter Einzeiler-Stubs.
 
+## Doppelführung mit der KB `normen` — wer wofür führend ist
+
+**Beschriftet am 18.08.2026 (Wissens-Chef Run 36, Übergabe-Auftrag 1 aus Run 35).** Fünf der
+sieben Quellen dieses Artikels sind zusätzlich in `wissen/normen/destillate/` destilliert.
+Die Doppelbewirtschaftung ist gewollt und bleibt bestehen — die beiden KBs lesen dieselben PDF
+mit verschiedener Absicht: **`normen` führt die zitierfähige Norm-Fundstelle**, dieser Artikel
+**die baupraktische Einordnung im JANS-Projektablauf**. Falsch wäre nur, die Doppelführung nicht
+aufzuschreiben. Im Konfliktfall gilt für eine Fundstellenangabe die Fassung in `normen`.
+
+| § | Quelle | Gegenstück in `wissen/normen/destillate/` | Führend für die Fundstelle |
+|---|---|---|---|
+| 1 | 2h-Schatten (AfB Kt. ZH) | — (Alleinstellung) | dieser Artikel |
+| 2 | Post-Briefkastenanlage | — (Alleinstellung) | dieser Artikel |
+| 3 | Absturzsicherungen Stadt ZH 2019 | `stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019.md` (dort zusätzlich Abgleich mit SIA 358/bfu) | `normen` |
+| 4 | SMU-Merkblatt 004 Türen in Fluchtwegen | `smu-merkblatt-004-tueren-in-fluchtwegen.md` + `vst-merkblatt-012-tueren-fluchtwegen.md` | **VKF-Geltung: `vkf-brl-16-15-flucht-rettungswege.md`** (siehe Fassungsvorbehalt in §4.2) |
+| 5 | PAVIDENSA PAV-E 01:2008 / PAV-E 16:2012 | `pav-e-01-2008-spezielle-bedingungen-heizestriche.md`, `pav-e-16-2012-checkliste-planung-und-ausfuehrung-von-estrichen.md` (beide dort `speculative`) | hier vollständig gelesen (Run 58); Norm-Fundstelle SIA 251:2008 über `normen` |
+| 6 | Balkone/Laubengänge SIA 271/273 | `sia-271-2007.md`, `sia-273-1998.md` (direkt aus der Norm gelesen) | `normen` |
+| 7 | AUVA Anschlageinrichtungen 2010 | `auva-planungsgrundlagen-anschlageinrichtungen-daecher-2010.md` | `normen` (siehe Vorbehalt in §7) |
+
 ## 1. 2-Stunden-Schatten — Schattenwurf-Grobnachweis Kt. ZH
 
 **Rechtliche Grundlage:** § 284 Abs. 4 PBG ZH ("Die Nachbarschaft darf nicht wesentlich
@@ -187,8 +206,17 @@ hinweist (§5.3).
 
 Die europäischen Normen unterscheiden begrifflich Notausgang/Panikausgang; die **VKF-
 Brandschutznorm kennt diese Unterscheidung nicht** — sie fordert generell, dass Türen in
-Fluchtwegen in Fluchtrichtung ohne Hilfsmittel geöffnet werden können (Ausnahme: Türen zu kleinen
-Räumen ≤ 30 m²/≤ 6 Personen oder Räumen ohne erhöhte Brandgefahr).
+Fluchtwegen in Fluchtrichtung ohne Hilfsmittel geöffnet werden können (Ausnahme im Merkblatt:
+Türen zu kleinen Räumen ≤ 30 m²/≤ 6 Personen oder Räumen ohne erhöhte Brandgefahr).
+
+⚠ **Fassungsvorbehalt zur Ausnahme ≤ 30 m²/≤ 6 Personen — nicht als geltendes Recht
+verwenden** (Wissens-Chef Run 36, 18.08.2026, Befund M3-3). Die Zahl stammt aus dem Merkblatt
+und bezieht sich auf die VKF-Generation 2003 (in Kraft 01.01.2005). Massgebend ist heute die
+**VKF-Brandschutzrichtlinie 16-15 «Flucht- und Rettungswege», Ziff. 2.5.5**: Türen öffnen
+grundsätzlich in Fluchtrichtung, **Ausnahme für Räume mit max. 20 Personen, ohne
+Flächenkriterium** (Destillat `wissen/normen/destillate/vkf-brl-16-15-flucht-rettungswege.md`,
+Ausgabe 2015/Stand 01.12.2022). Das Merkblatt ist an dieser Stelle strenger als das geltende
+Recht; für jede verbindliche Bemessung gilt die VKF-Richtlinie, nicht das Merkblatt.
 
 **Problematik Panikstangen/Pushbars (§5.3, wörtlich relevant):** «Die Bedienkräfte sind bei
 Paniktüren sehr hoch und in einer ungünstigen Richtung aufzubringen. […] Für kleine Kinder
@@ -392,6 +420,13 @@ Dach-Planungsfrage, KEIN Doppel zu §3.
   Klasse 4 (volle bauliche Absturzsicherung nach Bauvorschriften, kein PSA-Ersatz zulässig).
   **JANS-Praxisrelevanz:** ein Flachdach mit Solaranlage (mehrmals jährliche Wartung) landet
   automatisch in Klasse 3, unabhängig vom Nutzerkreis — früh im Vorprojekt zu berücksichtigen.
+  ⚠ **Stand nachgezogen 18.08.2026 (Wissens-Chef Run 36, M3-4):** Die Ausstattungsklassen-Matrix
+  gilt nach der späteren, unabhängigen Prüfung in `wissen/normen` (Run 43, 03.08.2026,
+  `auva-planungsgrundlagen-anschlageinrichtungen-daecher-2010.md`) als **in der Schweiz nicht
+  validiert** — ein Vollzugsäquivalent wurde dort nicht gefunden. Die Klassierung darf als
+  Orientierung dienen, **nicht als Klassierungsraster für ein CH-Projekt**. Massgebend ist die
+  Suva-Wegleitung 44066 in Verbindung mit der BauAV; dort gilt für Anlegeleitern die Schwelle
+  **3,0 m**, nicht die AUVA-eigene 5-m-Regel.
 - **Geometrische Planungsregeln:** Anschlagpunkt-Abstand zur Absturzkante **2,5 m** (ermöglicht
   sichere Schneeräumung); Flachdach-Rastermass **max. 17 m Dachbreite bzw. max. 7,5 m Punktabstand**
   für die «orange Zone» (Rückhaltesystem, bevorzugt) statt «rote Zone» (Auffangsystem, möglichst

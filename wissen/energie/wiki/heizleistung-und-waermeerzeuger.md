@@ -1,7 +1,7 @@
 ---
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-08-17
+last_updated: 2026-08-18 (Nachtschicht Mac Mini — § 357 PBG Wärmeerzeuger-Ersatzpflicht + Heizzentralen Überbauungen ergänzt, F244)
 sources: [destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md, destillate/vollzugshilfe-en10-heizungen-im-freien.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
@@ -58,6 +58,18 @@ Gemeindebauamt). Beilagen je Quelle: **Luft-WP → Lärmschutznachweis LN-1a**; 
 Energierecht: **fossil im Neubau verboten (§ 11 Abs. 1 EnerG)**, im Bestand nur mit **EN-LCC-ZH + EN-120**;
 neue Heizflächen auf **max. 35 °C Vorlauf** (§ 23 BBV I) — die Bedingung für eine effiziente WP.
 Details → `[[wta-formular-zh-waermetechnische-anlagen]]` / FAQ F14. ⚠ seit 1.1.2026 Vollzug über EVEN.
+
+## Was ein Wärmeerzeuger-Ersatz über die Anlage hinaus auslöst — § 357 PBG (F244)
+Der Ersatz eines Wärmeerzeugers ist mehr als ein Kesseltausch: § 357 Abs. 4 PBG verlangt
+**soweit zumutbar** zusätzlich Instrumentierung (§ 24 BBV I), Warmwassertemperatur ≤ 60 °C
+(§ 26 BBV I), Dämmung von Verteilleitungen/Armaturen/Pumpen in unbeheizten Räumen, Stilllegung
+bestehender **Garagenheizungen** nichtgewerblicher Fahrzeugeinstellräume und Anpassung von
+Freiluftbad-/Aussenheizungen. Bei Arealüberbauungen **ab drei Baukörpern** kommt die Pflicht zur
+standortgerechten, gemeinsamen Heizzentrale hinzu (§ 295 Abs. 1 PBG) — Vorsorgepflicht für eine
+spätere Abwärme-/Fernwärmenutzung, aber keine Nutzungspflicht selbst (Abgrenzung zur echten
+Anschlussverpflichtung `[[fernwaerme-anschlusspflicht-zh]]`, § 295 Abs. 2 PBG).
+Quelle: `[[vollzugsordner-energie-zh-abschnitt4-1]]` (AWEL Vollzugsordner Energie ZH, Abschnitt
+4.1, Stand Juni 2013 — §§-Verweise gegen aktuelle Fassung nicht geprüft, nur Systematik belegt).
 
 ## Heizsystem-Wahl: WP ↔ Fernwärme ↔ Pellets (F6)
 Die **Jahresarbeitszahl (JAZ)** = gelieferte Wärme je kWh Strom übers Jahr ist die praxisrelevante

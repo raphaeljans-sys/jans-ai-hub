@@ -11,6 +11,16 @@ bkp: "281.0 (Estriche), Schnittstelle 242 Heizungsanlagen"
 
 # PAV-E 01:2008 — Spezielle Bedingungen für Heizestriche
 
+## Doppelführung (gesetzt 18.08.2026, Wissens-Chef Run 36)
+
+Dieselbe Empfehlung ist in der KB `planungsgrundlagen` destilliert:
+`wiki/recht-norm-arbeitshilfen-planungsdetails.md` §5. Dort wurde die PDF in Run 58
+**vollständig gelesen** und der Artikel trägt `status: established`; alle Kernwerte stimmen
+Zeile für Zeile mit diesem Destillat überein (50 °C Vorlauf CA/CAF, 6 m/8 m Feldgrössen,
+5-K-Schwelle, 21/7-Tage-Fristen). **Der `status: speculative` dieses Destillats kann bei einer
+Gegenprüfung der Fristen- und Temperaturwerte auf `established` angehoben werden** — bis dahin
+gilt Rule `normen-referenz` Ziff. 1b: nicht als alleinige Zitierquelle verwenden.
+
 ## Sachlage (S. 1)
 
 Die meisten schwimmenden Estriche in der Schweiz haben eine Fussbodenheizung. Die häufigsten

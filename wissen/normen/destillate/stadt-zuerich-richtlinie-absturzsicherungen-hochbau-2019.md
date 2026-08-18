@@ -39,6 +39,14 @@ links: [[REGISTER]]
 
 # Stadt Zürich, Amt für Baubewilligungen — Richtlinie «Absturzsicherungen im Hochbau» (1.6.2019)
 
+## Doppelführung (gesetzt 18.08.2026, Wissens-Chef Run 36)
+
+Dieselbe Richtlinie ist in der KB `planungsgrundlagen` unabhängig destilliert:
+`wiki/recht-norm-arbeitshilfen-planungsdetails.md` §3 (baupraktische Einordnung im
+JANS-Projektablauf). Inhaltlich deckungsgleich, kein Widerspruch. **Für die zitierfähige
+Fundstelle ist dieses Destillat führend** (zwei Lesedurchgänge, Abgleich mit SIA 358/bfu);
+für die Projekt-Einordnung der dortige Artikel.
+
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie des Amts für Baubewilligungen der Stadt Zürich konkretisiert für den Vollzug im Stadtgebiet, ab welcher Höhendifferenz (mehr als 1 m, Fussnote 1) und mit welchen Mindestmassen Geländer, Brüstungen und Handläufe auszuführen sind; sie stützt sich auf das PBG ZH, die BBV I des Kantons Zürich sowie fachlich auf SIA 358 und die bfu-Publikationen «Geländer und Brüstungen» und «Handbuch für Sicherheitsdelegierte» (Grundlagenliste S.4). Unbedingt, also für jedes neue Schutzelement, gelten nur die Höhen (100 cm Mindesthöhe, 90 cm bei festen Brüstungen mit oberem Abschluss von mindestens 20 cm Tiefe, 90 cm am Treppenlauf ab Stufenvorderkante), während alles Weitere an der Nutzung hängt und in zwei einander ausschliessende Fälle zerfällt: die Kugelprobe Ø 12 cm bis 75 cm Höhe (Ziffer 1.4) gilt nur, wo Kindersicherheit gefordert ist, das Lichtmass von 30 cm bei Spannseilen und vertikalen Stäben (Ziffer 1.3) nur, wo sie ausdrücklich nicht gefordert ist. Der eigenständige, über die bfu-Broschüre hinausgehende Fachwert dieser Richtlinie liegt in Ziffer 2 «Bestehende Schutzelemente»: einer konkreten, mit Zahlen unterlegten Vollzugspraxis für Umbauten (15-%-Toleranzschwelle, Anpassungspflicht bei Bestandeshöhen von weniger als 85 cm bzw. weniger als 77 cm, Fensterschere/Blindrosette bei nicht kindersicher nachrüstbaren Fensterbrüstungen), die so nicht in den bfu-Quellen steht.
 

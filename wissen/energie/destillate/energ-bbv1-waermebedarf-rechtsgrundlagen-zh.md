@@ -18,6 +18,15 @@ Die WDV 2022 (`[[waermedaemmvorschriften-zh-2022]]`) verweist auf diese vier Par
 
 Neubauten und Erweiterungen (Aufstockungen, Anbauten) müssen so gebaut und ausgerüstet werden, dass für Heizung, Warmwasser, Lüftung und Klimatisierung **möglichst wenig Energie** benötigt wird (Abs. 1). Die Verordnung (= BBV I) regelt Art und Umfang, unter Berücksichtigung von Wirtschaftlichkeit sowie besonderen Verhältnissen wie Verschattung oder Quartiersituation (Abs. 2). **§ 10a ist die gesetzliche Ermächtigungsnorm — die konkreten Grenzwerte stehen erst in § 47a BBV I.**
 
+## Gegenkante zur KB `baurecht` (gesetzt 18.08.2026, Wissens-Chef Run 36)
+
+Der PBG-/BBV-Verfahrenskontext dieser Paragraphen wird in der KB `baurecht` geführt:
+`wissen/baurecht/buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`, Abschnitt 17.8.
+**Für die Energiegrenzwerte selbst ist dieses Destillat führend, nicht das Buch-Destillat:**
+das Buch bildet den Rechtsstand der 6. Aufl. 2019 ab und beschreibt § 47a BBV I noch als
+80-%-Höchstanteil nicht erneuerbarer Energien — eine Fassung, die per 01.09.2022 durch die
+Grenzwerttabelle unten ersetzt wurde. Der dortige Fassungsstand-Vermerk verweist zurück hierher.
+
 ## § 47a BBV I — Grenzwerte gewichteter Energiebedarf (die eigentliche Zahlentabelle)
 
 Für den **gewichteten Energiebedarf pro Jahr** für Heizung, Warmwasser, Lüftung und Klimatisierung in Neubauten gelten je Gebäudekategorie folgende Grenzwerte (Abs. 1):

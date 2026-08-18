@@ -1,5 +1,28 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Pruefluecke im BBV-I-Bereich des Buch-Layers
+
+**T-09 · Sind weitere §§ 47b-47n BBV I bzw. EnerG-Paragraphen der 2021er-Novelle als geltend
+gefuehrt, obwohl sie ueberholt sind? — offen, Nachpruefung am amtlichen Volltext noetig.**
+Anlass: Befund M5-1 vom 18.08.2026. § 47a BBV I stand im Buch-Destillat
+`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` in der Fassung der 6. Aufl. 2019
+(80 % Hoechstanteil nicht erneuerbarer Energien) und damit drei Jahre nach seiner Ablosung noch
+als geltendes Recht. **Der Paragraph fiel durch beide bestehenden Prueframen:** der
+Volltextabgleich des Schwester-Destillats Teil 3 endet bei § 46a BBV I, der zu diesem Teil
+erfasst nur §§ 37-40 BBV I. Zwischen diesen beiden Rahmen liegt eine ungepruefte Zone.
+Zu pruefen: alle §§ des Bandbereichs zwischen 46a und dem Ende des BBV-I-Abschnitts gegen
+`raw/260607_amtlich_zh_bbv1.md`, ebenso die in der Novelle vom 19.04.2021 geaenderten
+EnerG-Paragraphen gegen `raw/260712_amtlich_zh_energ.md`.
+
+**T-10 · Braucht der Buch-Layer einen generellen Fassungsstand-Warnhinweis? — Strukturfrage
+an Raphael, kein Faktenmangel.** Das Standardwerk stammt von 2019, der Skill `baurecht`
+zitiert die Destillate als Top-Quelle Stufe 0b. Bisher wurden **vier** tote Rechtsstaende
+einzeln nachgetragen (KGSchV, § 42a, § 45 Abs. 3/§ 48 BBV I, jetzt § 47a). Ein Kopfvermerk in
+`buecher/CLAUDE.md` im Sinn von «Rechtsstand 2019 — jede §-Angabe vor Verwendung gegen den
+amtlichen Volltext in `raw/` pruefen» waere der billigere Schutz als der fuenfte Einzelnachtrag.
+Bewusst nicht selbst gesetzt: ein Kopfvermerk am Buch-Layer aendert die Beweislast fuer jede
+Zitierung aus diesem Layer und ist damit eine Grundsatzentscheidung, keine Korrektur.
+
 ## 2026-08-17 (Buch-Run 74, Korpus-Batch T4) — Klammer-Falle, Anpassungsfrist, Wegabstand
 
 **T-08 · Welche Höhenzahl gilt bei Kleinbauten in Thalwil — 2,50 m oder 3 m? — offen,

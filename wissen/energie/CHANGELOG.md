@@ -1,5 +1,37 @@
 # CHANGELOG
 
+## 2026-08-18 (Nachtschicht Mac Mini, 23:30-Zyklus) — Run 141 fortgesetzt über Graph-Weg/Drive-ID: Abschnitt 4.1 Heizungsanlagen gelesen
+
+Fortsetzung des am 02:30/13:32 stehen gebliebenen Fadens über den bereits identifizierten Weg
+(`m365 request` gegen Graph-Drive-ID `02_Recht_Norm`, `@microsoft.graph.downloadUrl` + `curl`,
+kein OneDrive-Mount berührt). Ganzes Werk (200 PDF-Seiten) per `pdftotext -layout` vermessen:
+Abschnitt 4 (Heizungsanlagen) beginnt real bei **PDF-S. 69**, nicht S. 46 wie in
+`pdf-inventar.md` vermerkt (hiermit korrigiert). **Abschnitt 4.1** (PDF-S. 69-73, Juni 2013)
+vollständig gelesen → neues Destillat `[[vollzugsordner-energie-zh-abschnitt4-1]]`: Bewilligungspflicht
+im Anzeigeverfahren (§ 309 PBG/§ 14 lit. i BVV, 30-Tage-Frist), § 357 Abs. 4 PBG als mehrteilige
+Wärmeerzeuger-Ersatzpflicht (Instrumentierung/Warmwassertemperatur/Leitungsdämmung/Garagenheizungs-
+Stilllegung), § 295 PBG Heizzentralen-Pflicht für Überbauungen ab drei Baukörpern (deckt sich mit
+established `[[fernwaerme-anschlusspflicht-zh]]`). Neue FAQ **F244**; Artikel
+`[[heizleistung-und-waermeerzeuger]]` ergänzt; `vollzugsordner-energie-zh-abschnitt1-2` und
+`pdf-inventar.md` nachgeführt. **Offen:** Abschnitt 4.2-4.5 (PDF-S. 75-108) für die nächste
+Fortsetzung — bewusst nur ein Unterabschnitt in diesem Zyklus (Budgetdisziplin).
+
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Fuehrung fuer § 47a BBV I geklaert, Gegenkante zur KB `baurecht`
+
+- **Diese KB ist fachfuehrend fuer die Energiegrenzwerte.** Das gestern angelegte Destillat
+  `destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md` gibt § 47a BBV I korrekt in der
+  seit **01.09.2022** geltenden Fassung wieder (Grenzwerttabelle gewichteter Energiebedarf).
+  Die KB `baurecht` fuehrte im Buch-Destillat parallel die **abgeloeste** Fassung als geltendes
+  Recht (80 % Hoechstanteil nicht erneuerbarer Energien, Rechtsstand 6. Aufl. 2019) — dort
+  korrigiert, hier die Gegenkante gesetzt.
+- **Kein Befund gegen diese KB.** Der Melder verglich die §§ 10a, 10c und 11 Abs. 1-6 EnerG
+  sowie die Grenzwerttabelle § 47a Abs. 1-4 BBV I mit dem amtlichen Rohtext — wortgetreu, keine
+  Divergenz. Die von Buch-Run 74 gemeldete «Klammer-Falle kommunaler Verweise» (dreifach
+  abweichendes BBV-II-Zitat) hat sich in diesem Destillat **nicht** wiederholt.
+- Positiv vermerkt: Diese KB kennzeichnet ihre ueberholten Staende konsequent
+  (`waermedaemmvorschriften-zh-2009-historisch.md` traegt `status: superseded`) — genau die
+  Disziplin, deren Fehlen im Buch-Layer den Befund M5-1 ausgeloest hat.
+
 ## 2026-08-18 (Versuchs-Slot Mac-Mini-Nachtschicht 13:30) — Run 141 (02:30 delegiert) nie abgeschlossen: kein Ergebnis, kein Commit; PL-04-Mount strukturell nicht vorhanden
 
 **Loser Faden geschlossen, kein neuer Trainingslauf.** Der 02:30-Zyklus hatte Run 141

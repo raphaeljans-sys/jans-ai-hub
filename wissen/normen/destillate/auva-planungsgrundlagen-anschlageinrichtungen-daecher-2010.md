@@ -21,6 +21,15 @@ Herausgeber und Medieninhaber ist die **AUVA**, die österreichische Allgemeine 
 
 **Relativierung:** Die technischen Kernbegriffe und die meisten zitierten Prüfnormen sind **europäisch harmonisierte EN-Normen** (EN 795 Anschlageinrichtungen, EN 517 Sicherheitsdachhaken, EN 363:2008 persönliche Absturzschutzsysteme, EN 13374 Seitenschutz), die über die SN-EN-Reihe auch in der Schweiz als Produktprüfnormen gelten, und einer der sieben Autoren war zum Erscheinungszeitpunkt bei der Suva tätig (D-A-CH-S-Arbeitsgruppe, S.2). Die geometrischen Planungsgrundsätze (Randabstände, Pendelsturz-Freiraum, Gefahrenbereich 2 m) sind daher als **fachlich plausible, europäisch abgestimmte Orientierungswerte** zu verstehen — aber nicht als für ein Schweizer Bauprojekt verbindliche oder unbesehen übernehmbare Regel. Jede Übernahme in ein JANS-Erzeugnis für ein CH-Projekt ist gegen Suva 44066 / EKAS 6512 gegenzuprüfen und im Dokument als AUVA-Herkunft kenntlich zu machen.
 
+## Doppelführung (gesetzt 18.08.2026, Wissens-Chef Run 36)
+
+Dieselbe Quelle ist in der KB `planungsgrundlagen` destilliert:
+`wiki/recht-norm-arbeitshilfen-planungsdetails.md` §7. Dort stand die Ausstattungsklassen-Matrix
+bis zum 18.08.2026 als unqualifizierte Vorprojekt-Empfehlung («landet automatisch in Klasse 3»),
+obwohl die spätere Prüfung hier (Run 43, 03.08.2026) sie für die Schweiz als nicht validiert
+einstuft. **Der Vorbehalt ist dort inzwischen nachgezogen.** Führend für die CH-Anwendbarkeit
+ist dieses Destillat (jüngere, gezielt gegengeprüfte Fassung).
+
 ## Das Wichtigste in 3 Sätzen
 Die AUVA-Planungshilfe zeigt, wie permanente Anschlageinrichtungen auf Dächern (als Bestandteil persönlicher Absturzschutzsysteme, sekundär gegenüber Kollektivschutz wie Geländer/Attika) so positioniert werden, dass der Gefahrenbereich (2 m Randstreifen um jede Absturzkante) und insbesondere die «rote Zone» mit reinem Auffangsystem-Schutz möglichst klein bleiben; Leitwert ist ein Randabstand der Anschlageinrichtung von 2,5 m zur Absturzkante, bei grösseren Dächern ergänzt durch zusätzliche Einzelanschlagpunkte. Für Flachdächer wird ein umlaufendes Seilsystem mit 2,5 m Randabstand empfohlen (kleinste rote Zone im Rechenbeispiel: 5,36 m² bei 35 x 17 m), für Steildächer ein Rastermass von Sicherheitsdachhaken nach EN 517. ⚠ *korrigiert Run 43*: Das Raster **3,50 × 5,00 m gehört zum rutschUNsicheren Dach** (S.11) und **begleitet** die Dachauflegeleitern, statt sie zu ersetzen; bei ausreichender Rutschsicherheit (S.10) gelten horizontal ≤ 5,0 m und vertikal 2,5-5,0 m. Randmasse in beiden Fällen: am Ortgang ≤ 1,5 m, unter dem First ≤ 1,0 m. Die Mindestausstattung wird über eine Matrix aus Berufsgattung (Nutzungshäufigkeit/-intensität) und Nutzungskategorie (Wartungsintervall) in vier Ausstattungsklassen 1-4 hergeleitet — diese Klassierung selbst ist österreichisch geprägt (s. Warnhinweis oben) und dient hier nur als Orientierung für die Planungslogik, nicht als übernehmbares Klassierungsraster für ein Schweizer Projekt.
 

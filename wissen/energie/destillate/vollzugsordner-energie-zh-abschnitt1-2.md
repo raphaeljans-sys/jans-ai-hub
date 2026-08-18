@@ -74,6 +74,6 @@ Für eine aktuelle Beratung sind aus diesem Teildestillat vor allem **zwei struk
 
 ## Offene Punkte
 
-- **161 Seiten (Abschnitt 3-10) ungelesen** — siehe Tabelle oben, Priorität Abschnitt 4 (Heizungsanlagen) für den nächsten Lauf.
+- **Abschnitt 4.1 (Bewilligungspflicht Heizungen) inzwischen gelesen** (Nachtschicht Mac Mini, 18.08.2026) → [[vollzugsordner-energie-zh-abschnitt4-1]]. Weiterhin offen: 4.2-4.5 sowie Abschnitt 3, 5-10 (rund 155 Seiten) — siehe Tabelle oben, Priorität Abschnitt 4.2-4.5 für den nächsten Lauf.
 - Ob die kantonalen §§-Verweise (BBV I §§ 15-18/§ 357 PBG/§§ 255-281 PBG/§ 12 ABV) seit Juni 2013 geändert haben, ist **nicht geprüft** — nur über `baurecht` zu verifizieren, nicht durch diese KB.
 - Kein Abgleich, ob die Auskunftsstellen-Liste (1.4) und die Bezugsquellen (1.5) heute noch zutreffen (Kontaktpersonen/Telefonnummern von 2013 mit hoher Wahrscheinlichkeit veraltet).

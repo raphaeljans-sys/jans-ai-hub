@@ -16,7 +16,8 @@ paragraphen:
   - § 298 PBG (besondere Anforderungen Gebaeude > 6 anrechenbare Geschosse)
   - § 17 EnerG / EnerG (kantonales Energierecht)
   - § 15 BBV I / Anhang BBV I (Waermedaemmvorschriften)
-  - § 47a BBV I (Hoechstanteil nicht erneuerbarer Energien)
+  - § 47a BBV I (Hoechstanteil nicht erneuerbarer Energien) ⚠ Buchstand 2019, seit 01.09.2022
+    neu gefasst — siehe Fassungsstand-Vermerk in Abschnitt 17.8
   - Art. 45 EnG, Art. 73 BV (Bundes-Energierecht)
   - BehiG (Art. 1-12), BehiV, Art. 8 BV (behindertengerechtes Bauen)
   - § 239a, § 239b PBG (behindertengerechtes Bauen kantonal)
@@ -25,7 +26,7 @@ paragraphen:
   - StFV / § 239 PBG (Stoerfallvorsorge)
 status: established
 gelesen: 2026-06-29
-last_updated: 2026-07-14
+last_updated: 2026-08-18
 verifiziert: 2026-07-13 (Modell-D-Volltextabgleich §§ 295-298 PBG, Refutations-Pruefung: alle CONFIRMED, Luecke §§ 296-298 geschlossen); 2026-07-14 (Buch-Run 42 — § 4 ABV CONFIRMED gegen raw/260607_amtlich_zh_abv.md Z. 87-88; §§ 37/38/39/40 BBV I CONFIRMED gegen raw/260607_amtlich_zh_bbv1.md Z. 523-542 [Detailtext liegt in Teil 1]; § 239a/§ 239b PBG KORRIGIERT — Zuordnung > 8-WE-Schwelle war faelschlich § 239b statt § 239a Abs. 2 zugeordnet, siehe Abschnitt 17.5. Status emerging→established, keine offenen needs-verification-Punkte mehr.)
 ---
 
@@ -77,6 +78,30 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
   zulaessigen Waermebedarfs aus nicht erneuerbaren Energien (≥ 20 % erneuerbar bzw.
   reduzierter Bedarf); gilt fuer Neubauten und grosse Erweiterungen (≥ 50 m² bzw.
   > 1000 m² Geschossflaeche) (S. 1262-1263). Standardloesungen EnFK EN-1 (11 Varianten).
+
+  > **⚠ FASSUNGSSTAND — Wissens-Chef Run 36, 18.08.2026 (Befund M5-1, refutations-geprueft).
+  > Diese Buchaussage gibt den Rechtsstand der 6. Aufl. 2019 wieder und ist seit dem
+  > 01.09.2022 ueberholt. NICHT mehr als geltendes Recht zitieren.**
+  >
+  > - **§ 47a BBV I** wurde per RRB vom 14.07.2021 neu gefasst (in Kraft seit 01.09.2022,
+  >   Fussnote 79). Er traegt heute die **Grenzwerttabelle des gewichteten Energiebedarfs je
+  >   Gebaeudekategorie** (Wohnen MFH/EFH 35, Verwaltung 40, Schulen 35, Verkauf 40,
+  >   Restaurants 45, Versammlungslokale 40, Spitaeler 70, Industrie 20, Lager 20,
+  >   Sportbauten 25 kWh/m² EBF; Hallenbaeder keine Anforderung) samt Bagatellklausel bei
+  >   Erweiterungen. Eine 80-%-Regel und der Begriff «nicht erneuerbare Energien» kommen in
+  >   der geltenden Fassung **nicht** vor (verifiziert am amtlichen Volltext
+  >   `wissen/baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 686-742, Nachtrag 133).
+  > - **Materiell ersetzt, nicht bloss umnummeriert:** Fuer Neubauten gilt seit dem
+  >   01.09.2022 das **Fossilverbot** nach § 11 Abs. 1 EnerG (Waermebedarfsdeckung ohne
+  >   fossile Brennstoffe) — strenger als der alte 80-%-Riegel. Wer die 80 % als Toleranz
+  >   verwendet, arbeitet mit einem Spielraum, den es nicht mehr gibt.
+  > - **Fachfuehrend fuer Energiegrenzwerte ist die KB `energie`:**
+  >   `wissen/energie/destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`
+  >   (status `established`) sowie `wissen/energie/wiki/energienachweis-zh.md`.
+  >
+  > Der Buchwortlaut und die Seitenbelege oben bleiben bewusst stehen (Schreibregel
+  > Seitentreue, `buecher/CLAUDE.md`): das Destillat dokumentiert, was das Buch sagt;
+  > korrigiert wird durch Vermerk, nicht durch Loeschen.
 - **MuKEn** (Mustervorschriften der Kantone im Energiebereich) als gemeinsamer Nenner;
   ZH stufengerecht nach MuKEn 2008 umgesetzt (S. 1257).
 - **Minergie / Minergie-P / Minergie-A / Minergie-ECO:** freiwillige Baustandards,
@@ -192,6 +217,10 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
     (Projektierung/Dimensionierung); Bewilligung/Aufsicht AWEL (§ 36 KGSchV **[Fassungsstand Buch-Run 71: die KGSchV (LS 711.11) ist per 01.01.2022 AUFGEHOBEN (zhlex-Erlassseite LS 711.11, Staatskanzlei: Erlassdatum 22.01.1975, Inkraftsetzung 01.07.1975, Aufhebungsdatum 01.01.2022, letzte Fassung Nachtrag 099). Buchtext (6. Aufl. 2019) zitiert totes Recht; Nachfolgeerlass noch nicht belegt — die WsV LS 724.11 (in Kraft 01.06.2026) enthaelt keine Aufhebungsklausel zur KGSchV. Offen in QUESTIONS.md.]**) (S. 1303).
   - **Nutzung Erdwaerme/Luft/Wasser § 10a EnerG:** Neubau so ausruesten, dass ≤ 80 % des
     Waermebedarfs aus nicht erneuerbaren Energien (Querverweis § 47a BBV I) (S. 1302).
+    ⚠ **Buchstand 2019, ueberholt.** § 10a EnerG wurde per G vom 19.04.2021 (in Kraft
+    01.09.2022, Fussnote 33) neu gefasst und traegt heute nur noch den Grundsatz
+    sparsamer Energienutzung; massgebend fuer Neubauten ist das Fossilverbot nach
+    § 11 Abs. 1 EnerG. Siehe Fassungsstand-Vermerk in Abschnitt 17.8.
   - **Befoerderungsanlagen § 296 PBG (volltextverifiziert 13.07.2026, Modell D):** Aufzuege,
     Rolltreppen und andere Befoerderungsanlagen fuer Personen und Waren muessen
     zweckgerecht sein; sie sind fachgemaess zu erstellen, zu betreiben, zu unterhalten
@@ -214,7 +243,7 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 
 | Wert | Schwelle | Fundstelle |
 |---|---|---|
-| Hoechstanteil nicht erneuerbare Energie (Neubau) | ≤ 80 % des zul. Waermebedarfs | § 47a BBV I / § 10a EnerG, S. 1262/1302 |
+| Hoechstanteil nicht erneuerbare Energie (Neubau) ⚠ Buchstand 2019, seit 01.09.2022 ueberholt (Abschnitt 17.8) | ≤ 80 % des zul. Waermebedarfs | § 47a BBV I / § 10a EnerG, S. 1262/1302 |
 | Waermedaemmung Systemnachweis | ≥ 80 % der zul. Waermebedarfe gedeckt | SIA 380/1, S. 1260 |
 | Gesamtenergiedurchlassgrad Sonnenschutzglas (Einzelanf.) | < 0.3 | S. 1260 |
 | BehiG Wohngebaeude | 5-8 WE: 1 Geschoss zugaenglich + Inneres aller WE anpassbar (§ 239b PBG); > 8 WE: alle WE zugaenglich + Inneres anpassbar (§ 239a Abs. 2 PBG, korrigiert) | §§ 239a/239b PBG, S. 1276 |

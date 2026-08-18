@@ -163,8 +163,143 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 > **Regel: ein Struktur-Pruefer, der Feldnamen nicht von Feldwerten unterscheidet, erzeugt
 > Phantom-Artikel** und meldet sie anschliessend als Bestand. Verbleib des Stubs: offener Entscheid
 > fuer Raphael (Loeschung braucht Einzelfreigabe).
+| **Honorar-Phasenanteile und Baukosten-Prozentmethode** (Leistungsanteil q, Schwierigkeitsgrad n, Baukategorien I-VII) | **normen** (`sia-102-2014.md` Ziff. 7.6/7.7 — die Prozenttabelle steht ausschliesslich dort; `sia-102-2020.md` belegt, dass die Ausgabe 2020 nach Art. 6 endet und **keine** Baukosten-%-Methode mehr kennt) | `skills/honorarberechnung-sia102` fuehrt eine **buerointerne JANS-Konvention** mit abweichenden Werten — zulaessig, aber seit 18.08.2026 als solche gekennzeichnet und **nie** als SIA-102:2020-Fundstelle zu zitieren — NEU Run 36 |
+| **Doppel-Destillate aus `03_Arbeitshilfen`/`04_Merkblaetter`** (Absturzsicherungen Stadt ZH, PAVIDENSA-Estriche, AUVA-Anschlageinrichtungen, SIA 271/273 Balkone) | **normen** fuer die zitierfaehige Norm-Fundstelle | `planungsgrundlagen` (`recht-norm-arbeitshilfen-planungsdetails`) fuer die baupraktische Einordnung — **Doppelbewirtschaftung ist gewollt**, beide lesen dieselbe PDF mit verschiedener Absicht; die Landkarte steht seit 18.08.2026 am Artikelkopf — NEU Run 36 |
+| **Energiegrenzwerte Neubau ZH** (§ 47a BBV I Grenzwerttabelle, § 11 Abs. 1 EnerG Fossilverbot, Fassung seit 01.09.2022) | **energie** (`energ-bbv1-waermebedarf-rechtsgrundlagen-zh`) | `baurecht` fuehrt den PBG-/BBV-Verfahrenskontext und den **Erlasswortlaut** in `raw/`; der **Buch-Layer** (6. Aufl. 2019) gibt hier den abgeloesten 80-%-Stand wieder und traegt seit 18.08.2026 einen Fassungsstand-Vermerk — NEU Run 36 |
 
 ## Gepruefte Paare
+
+### skills ↔ normen (SIA 102 Honorarmethode) — eine Norm-Fundstelle, die es nicht gibt, in einem Erzeugnis mit Geldfolge — geprueft 2026-08-18 (Run 36)
+
+**Befund M1-1, BESTAETIGT nach sechs Widerlegungsversuchen.**
+`skills/honorarberechnung-sia102/SKILL.md` fuehrte eine Phasenanteils-Tabelle unter der
+Ueberschrift «SIA 102:2020 — Phasenanteile Grundleistungen» mit der Quellenzeile «SIA 102:2020,
+Anhang A». **Beides existiert nicht.** SIA 102:2020 endet mit Art. 6; ein Art. 7 und eine
+Anhang-A-Prozenttabelle gibt es in dieser Ausgabe nicht (fuenffach belegt in `wissen/normen`,
+Original S. 1-41 vollstaendig gelesen, Kernbefund in vier unabhaengigen Runden gegengeprueft).
+«Anhang A» ist zudem in **keiner** Ausgabe der Beleg-Ort — die 2014er-Werte stehen in Art. 7.7.
+
+**Die Warnung lag seit dem 14.07.2026 vor und war namentlich adressiert.** Das Destillat
+`sia-102-2020.md` sagt im Abschnitt «JANS-Praxis-Transfer» woertlich: «Skill
+`honorarberechnung-sia102` … **Achtung:** keine Baukosten-%-Tabelle in SIA 102:2020 — die
+Skill-eigene Phasenanteils-Tabelle muss gegen eine andere/aeltere Quelle verifiziert oder als
+buerointerne Konvention ausgewiesen werden.» Sie wurde nie in den Skill uebertragen. **Das ist
+die Figur aus Run 35, eine Schicht tiefer:** dort wusste die zuliefernde KB Bescheid und die
+fuehrende blieb falsch; hier weiss die fuehrende KB Bescheid und der **anwendende Skill** blieb
+falsch. Verschaerfend: Wissens-Chef Run 35 hat genau diese Datei am 17.08. angefasst (Pruefschritt
+aus einer projekt-lessons-Lehre) und die Fundstelle nicht bemerkt — wer einen Baustein anfasst,
+prueft nicht automatisch, was er behauptet.
+
+**Warum es zaehlt:** Der Skill formuliert Honorarofferten an Bauherrschaften, und der
+Mail-Baustein trug den Satz «Honorarofferte fuer <Phasen> (gestuetzt auf SIA 102:2020)» direkt
+ueber einer Rechnung nach aufwandbestimmender Bausumme und Schwierigkeitsgrad. Eine Offerte, die
+so argumentiert, behauptet eine normative Deckung, die es nicht gibt — angreifbar im Streitfall.
+
+**Ausgefuehrt (rein deklaratorisch, alle Zahlen unveraendert):** Ueberschrift und Quellenzeile
+auf «buerointerne JANS-Konvention» berichtigt, mit der echten 2014er-Tabelle als Herleitung
+danebengestellt; im Mail-Baustein «SIA 102:2020» durch den Platzhalter «SIA 102:<Ausgabe>» plus
+Entscheidungshinweis ersetzt; an der Kategorien-Tabelle ein Vorbehalt zu den drei belegten
+Abweichungen gesetzt.
+
+**Bewusst NICHT ausgefuehrt (offener Fachentscheid Raphael, siehe Bericht):** die Prozentwerte
+selbst (4/11/21/5/18/19/20/2 %) und die Kategorien-Skala. Sie sind Eigenkonvention, kein
+Abschreibfehler — Methode 3 des Skills rechnet mit 41 % = 4+11+21+5 konsistent auf ihnen auf.
+Sie mechanisch durch die Normwerte zu ersetzen waere ein Geschaeftsentscheid und genau der
+Fehlertyp des BKP-271.10-Falls (ersetzen statt Sachbezug pruefen).
+
+---
+
+### planungsgrundlagen ↔ normen (Cluster `recht-norm-arbeitshilfen-planungsdetails`) — Uebergabe-Auftrag 1 aus Run 35 erledigt — geprueft 2026-08-18 (Run 36)
+
+**Der Cluster ist gelesen und beschriftet.** Run 35 hatte 33 doppelt destillierte Quell-PDF und
+36 unverdrahtete KB-Paare gemessen und diesen Artikel als schaerfsten Einzelfall benannt (drei
+Doppel-Destillate, null Verweise). Ergebnis der Lesung: **fuenf der sieben Quellen** haben ein
+Gegenstueck in `normen`, zwei sind echte Alleinstellungen (2h-Schatten AfB, Post-Briefkastenanlage).
+
+**Statt sieben Einzelvermerken eine Landkarte am Artikelkopf** — der Melder hatte selbst
+eingewandt, Einzelvermerke seien kleinteilig, und er hatte recht. Die Tabelle nennt je Quelle das
+Gegenstueck und den Fuehrenden. Merksatz festgehalten: **die Doppelbewirtschaftung ist gewollt**
+(beide KBs lesen dieselbe PDF mit verschiedener Absicht — `normen` die zitierfaehige Fundstelle,
+`planungsgrundlagen` die baupraktische Einordnung); falsch waere nur, sie nicht aufzuschreiben.
+Gegenkanten in den drei betroffenen `normen`-Destillaten gesetzt.
+
+**Zwei inhaltliche Funde aus derselben Lesung**, die eine reine Verlinkungsuebung nicht ergeben
+haette: (1) die Fluchtwegtuer-Ausnahme ≤ 30 m²/≤ 6 Personen stand als geltende VKF-Regel, ist
+aber der Stand von 2003 — heute gilt VKF-BRL 16-15 Ziff. 2.5.5 mit max. 20 Personen ohne
+Flaechenkriterium (Fassungsvorbehalt gesetzt); (2) die AUVA-Ausstattungsklassen-Matrix stand als
+unqualifizierte Vorprojekt-Empfehlung, obwohl `normen` sie am 03.08. fuer die Schweiz als nicht
+validiert eingestuft hatte (Vorbehalt nachgezogen).
+
+**Nebenertrag zum Statusgefaelle:** Das PAV-E-01-Destillat in `normen` traegt `speculative`,
+waehrend `planungsgrundlagen` dieselbe PDF vollstaendig gelesen und als `established` gefuehrt
+hat — bei Zeile fuer Zeile identischen Kernwerten. Der Verifikationsvorsprung lag ungenutzt,
+weil keine Seite von der anderen wusste. Im Destillat vermerkt.
+
+---
+
+### energie ↔ baurecht (§ 47a BBV I) — die fuehrende KB hat recht, der Buch-Layer haengt drei Jahre zurueck — geprueft 2026-08-18 (Run 36)
+
+**Befund M5-1, BESTAETIGT.** Das Buch-Destillat `baurecht/buecher/band-2/17-…` fuehrte § 47a BBV I
+als 80-%-Hoechstanteil nicht erneuerbarer Energien — die Fassung der 6. Aufl. 2019. Seit dem
+**01.09.2022** traegt der Paragraph die Grenzwerttabelle des gewichteten Energiebedarfs, und fuer
+Neubauten gilt zusaetzlich das **Fossilverbot** nach § 11 Abs. 1 EnerG. Der alte Stand ist damit
+nicht bloss umnummeriert, sondern **materiell erledigt**: wer die 80 % als Toleranz verwendet,
+rechnet mit einem Spielraum, den es nicht mehr gibt.
+
+**Der Refuter fand fuenf Fundstellen statt der drei gemeldeten** — darunter den § 10a-EnerG-Absatz
+im Heizungs-Abschnitt, also genau die Stelle, die beim Heizungsersatz zuerst gelesen wird.
+Alle fuenf markiert; **Buchwortlaut und Seitenbelege bewusst stehen gelassen** (Schreibregel
+Seitentreue: das Destillat dokumentiert, was das Buch sagt).
+
+**Der Beinahe-Fehler, den die Refuter-Stufe verhindert hat:** In derselben Datei steht zwei
+Zeilen weiter eine **andere** 80-%-Zahl (Systemnachweis nach SIA 380/1), die unberuehrt gueltig
+ist. Ein globales Suchen-und-Ersetzen ueber «80 %» haette sie mitgerissen — Rule
+`auto-verbesserungen` 260811 in Reinform.
+
+**Kein Befund gegen die KB `energie`:** ihre §§ 10a/10c/11 EnerG und die § 47a-Tabelle stimmen
+wortgetreu mit dem amtlichen Rohtext ueberein. Die von Buch-Run 74 gemeldete «Klammer-Falle
+kommunaler Verweise» hat sich hier **nicht** wiederholt.
+
+**Struktureller Rest, als offene Frage eingetragen** (`baurecht/wiki/QUESTIONS.md` T-09/T-10):
+§ 47a fiel durch beide Prueframen (der eine endet bei § 46a, der andere erfasst nur §§ 37-40) —
+zwischen ihnen liegt eine ungepruefte Zone. Und der Buch-Layer traegt keinen generellen
+Fassungsstand-Hinweis, obwohl inzwischen **vier** tote Rechtsstaende einzeln nachgetragen wurden.
+
+---
+
+### Uebergabe-Auftrag 3 aus Run 35 (Dateinamen-Gegenprobe) — ABGESCHLOSSEN, kein weiterer Fall — geprueft 2026-08-18 (Run 36)
+
+**Negativbefund mit Wert.** Gesucht wurde die Wiederholung der Figur aus Run 35: ein
+`established`-Artikel, der eine **Norm-Ausgabe aus einem SharePoint-Dateinamen** statt aus dem
+Dokumentkopf uebernimmt (Anlass: `EN-102-d_Waermeschutz_3801_2009_2018Dez.pdf` fusst auf
+SIA 380/1:**2016**). Systematisch durchsucht wurden alle `wissen/*/wiki/` und
+`wissen/*/destillate/` auf Artikel mit `status: established`, deren `quelle:`/`sources:` einen
+Dateinamen mit eingebetteter Norm-Nummer und Jahreszahl traegt; je Treffer wurde die im
+Fliesstext genannte Ausgabe gegen die im Dateinamen gehaltene geprueft.
+
+**Ergebnis: kein weiterer Fall.** Die Figur war damit **kein systematisches Muster**, sondern
+zweimal derselbe Quellordner. Der Punkt ist geschlossen und muss nicht weiter rotieren.
+
+---
+
+### normen ↔ planungsgrundlagen (SIA 416/1, EBF-Schwelle) — das neue Destillat bestaetigt die Run-35-Aufloesung — geprueft 2026-08-18 (Run 36)
+
+**Gegenprobe bestanden.** Run 35 hatte den Streit «1,0 m gegen 1,5 m» so aufgeloest: SIA 416/1:2007
+Ziff. 3.2.2 (Figur 16) nennt **1,0 m**, die abweichenden 1,5 m stammen aus der RFB-Richtlinie V7.0
+der Stadt Zuerich auf Basis des **Entwurfs 3/05** und gelten je fuer sich; der Wert blieb
+unveraendert, nur ein Fassungsvorbehalt kam dazu. Am 18.08. hat `normen` (Run 56) dasselbe
+Destillat unabhaengig erweitert und am 300-dpi-Original nachgelesen — **der Wert 1,0 m steht
+unveraendert**, kein Widerspruch zur Aufloesung.
+
+**Ein Urteil aus einem frueheren Lauf, das eine unabhaengig nachgelesene Quelle spaeter
+bestaetigt, ist der beste verfuegbare Beleg dafuer, dass die Refuter-Stufe traegt.**
+
+**Kleiner Folgefehler behoben:** Der Verweis in `planungsgrundlagen` zeigte auf «Z. 232-233» des
+Destillats; nach dessen Wachstum steht der Wert auf Z. 267. Auf **Ziffer/Figur statt Zeilennummer**
+umgestellt — Ziffern sind stabil, Zeilennummern wandern bei jedem Zuwachs. Merkposten fuer
+kuenftige Kanten: nie auf Zeilennummern eines wachsenden Destillats verweisen.
+
+---
 
 ### Mehrfach-Destillation ueber KB-Grenzen — der ganze Korpus gemessen — Run 35 (17.08.2026)
 

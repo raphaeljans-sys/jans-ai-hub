@@ -1,3 +1,25 @@
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — drei Gegenkanten zur KB `planungsgrundlagen` gesetzt
+
+- **Doppelfuehrung beidseitig verdrahtet** (Uebergabe-Auftrag 1 aus Run 35). Drei Destillate
+  dieser KB werden von `planungsgrundlagen/wiki/recht-norm-arbeitshilfen-planungsdetails.md`
+  aus derselben Quell-PDF unabhaengig gefuehrt; die Kante fehlte in beide Richtungen:
+  `stadt-zuerich-richtlinie-absturzsicherungen-hochbau-2019.md` (§3),
+  `pav-e-01-2008-spezielle-bedingungen-heizestriche.md` (§5),
+  `auva-planungsgrundlagen-anschlageinrichtungen-daecher-2010.md` (§7). Gegenkante dort gesetzt.
+- **Statusrelevanter Nebenertrag:** Das PAV-E-01-Destillat traegt `status: speculative`,
+  waehrend `planungsgrundlagen` dieselbe PDF in Run 58 **vollstaendig gelesen** und als
+  `established` gefuehrt hat — bei Zeile-fuer-Zeile identischen Kernwerten (50 °C Vorlauf
+  CA/CAF, 6 m/8 m Feldgroessen, 5-K-Schwelle, 21/7-Tage-Fristen). Der Statusvorsprung lag
+  ungenutzt, weil keine Seite von der anderen wusste. Im Destillat vermerkt: der Status kann
+  bei Gegenpruefung der Fristen- und Temperaturwerte auf `established` angehoben werden.
+  Bis dahin gilt Rule `normen-referenz` Ziff. 1b unveraendert.
+- **`sia-416-1-2007.md` gegengeprueft, kein Befund:** Das in Run 56 gewachsene Destillat
+  **bestaetigt die Run-35-Aufloesung zur EBF-Schwelle vollstaendig** (Ziff. 3.2.2/Figur 16:
+  1,0 m, unveraendert). Die abweichenden 1,5 m in `planungsgrundlagen` bleiben als
+  RFB-Richtlinienstand (Entwurf 3/05) korrekt bestehen. Ein Urteil aus einem frueheren Lauf,
+  das eine unabhaengig destillierte Quelle spaeter bestaetigt, ist der beste Beleg dafuer,
+  dass die Refuter-Stufe traegt.
+
 ## 2026-08-18 Run 56 — N55-1 und N55-2 geschlossen; drei Kernbefunde in selbstgeprüftem Text
 
 - **`sia-416-1-2007.md`: unabhängige Refuter-Runde auf dem Run-54-Zuwachs der S. 4, 6, 9, 17,

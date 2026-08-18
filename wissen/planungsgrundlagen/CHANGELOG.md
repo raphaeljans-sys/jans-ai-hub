@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Fluchtwegtuer-Ausnahme auf VKF-Stand gebracht; Doppelfuehrungs-Landkarte gesetzt
+
+- **Befund M3-3 (teilweise bestaetigt).** `wiki/recht-norm-arbeitshilfen-planungsdetails.md` §4.2
+  gab die Ausnahme «Tueren zu Raeumen ≤ 30 m²/≤ 6 Personen» im Praesens als geltende VKF-Regel
+  wieder. Das ist der Stand der VKF-Generation 2003. Massgebend ist heute **VKF-BRL 16-15
+  «Flucht- und Rettungswege» Ziff. 2.5.5: Ausnahme fuer Raeume mit max. 20 Personen, ohne
+  Flaechenkriterium**. Fassungsvorbehalt gesetzt; das Merkblatt ist an dieser Stelle strenger
+  als das geltende Recht.
+- **Der Refuter korrigierte den Fehler-Ort des Melders:** gemeldet war Z. 183 (Tabellenzeile
+  «Zielgruppe»), die den Anwendungsbereich der Produktnorm SN EN 179 korrekt wiedergibt und
+  unveraendert bleiben musste. Der Fehler stand im Fliesstext darunter. Ausserdem verwarf er
+  den Belegvorschlag des Melders: der haette ein `speculative`-Destillat zur Belegquelle eines
+  `established`-Artikels gemacht (Rule `normen-referenz` Ziff. 1b). Verlinkt wurde stattdessen
+  auf `vkf-brl-16-15-flucht-rettungswege.md`.
+- **Uebergabe-Auftrag 1 aus Run 35 erledigt: der Cluster ist beschriftet.** Statt sieben
+  verstreuter Einzelvermerke traegt der Artikel jetzt am Kopf eine **Doppelfuehrungs-Landkarte**
+  ueber alle sieben Quellen: welche zusaetzlich in `wissen/normen/destillate/` liegt und wer
+  wofuer fuehrend ist. Merksatz festgehalten: die Doppelbewirtschaftung ist gewollt (beide KBs
+  lesen dieselbe PDF mit verschiedener Absicht — `normen` die zitierfaehige Fundstelle, dieser
+  Artikel die baupraktische Einordnung); falsch waere nur, sie nicht aufzuschreiben.
+  Zwei der sieben Quellen (2h-Schatten, Post-Briefkastenanlage) sind echte Alleinstellungen.
+- **Befund M3-4 (Stand nachgezogen):** Die AUVA-Ausstattungsklassen-Matrix stand in §7 als
+  unqualifizierte Vorprojekt-Empfehlung, obwohl die spaetere Pruefung in `normen` (Run 43,
+  03.08.2026) sie fuer die Schweiz als **nicht validiert** einstuft. Vorbehalt gesetzt, mit
+  Verweis auf Suva 44066/BauAV (Schwelle 3,0 m statt der AUVA-eigenen 5-m-Leiterregel).
+- **Befund M4-1:** Zeilenverweis auf `sia-416-1-2007.md` zeigte nach dessen Wachstum in Run 56
+  ins Leere. Auf **Ziffer/Figur statt Zeilennummer** umgestellt — Ziffern sind stabil,
+  Zeilennummern wandern bei jedem Destillat-Zuwachs.
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — EBF-Schwelle 1,5 m ist RFB-Stand, kein Fehler; zweiter Quellordner beschriftet
 
 - **Gemeldeter Widerspruch WIDERLEGT, Wert unveraendert:** Die EBF-Ausschlussgrenze «lichte

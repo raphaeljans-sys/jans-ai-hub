@@ -3,6 +3,36 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — § 47a BBV I im Buch-Destillat: Rechtsstand 2019 seit 01.09.2022 ueberholt
+
+- **Bestaetigter harter Befund M5-1** (gemeldet aus dem Paar `energie ↔ baurecht`, adversarial
+  gegengeprueft). `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` (status
+  `established`) beschrieb **§ 47a BBV I** als «Hoechstanteil nicht erneuerbarer Energien,
+  Neubau hoechstens 80 %». Diese Fassung gilt seit dem **01.09.2022** nicht mehr: § 47a wurde
+  per RRB vom 14.07.2021 neu gefasst und traegt heute die **Grenzwerttabelle des gewichteten
+  Energiebedarfs** (35/35/40/35/40/45/40/70/20/20/25 kWh/m² EBF). Verifiziert am amtlichen
+  Volltext `raw/260607_amtlich_zh_bbv1.md` Z. 686-742 (Nachtrag 133).
+- **Materiell ersetzt, nicht bloss umnummeriert:** Fuer Neubauten gilt heute das **Fossilverbot**
+  nach § 11 Abs. 1 EnerG — strenger als der alte 80-%-Riegel. Wer die 80 % als Toleranz
+  verwendet, arbeitet mit einem Spielraum, den es seit drei Jahren nicht mehr gibt.
+- **Der Refuter fand mehr Fundstellen als der Melder** (fuenf statt drei): zusaetzlich die
+  Frontmatter-Paragraphenliste Z. 19 und der § 10a-EnerG-Absatz im Heizungs-Abschnitt 17.9 —
+  letzterer ist die Stelle, die ein Bauleitungs-Anwender beim Heizungsersatz zuerst liest.
+  Alle fuenf markiert.
+- **Ausgefuehrt:** Fassungsstand-Vermerk in Abschnitt 17.8 plus vier Kurzmarker; `last_updated`
+  nachgefuehrt. **Buchwortlaut und Seitenbelege bewusst stehen gelassen** (Schreibregel
+  Seitentreue `buecher/CLAUDE.md`): das Destillat dokumentiert, was das Buch sagt; korrigiert
+  wird durch Vermerk, nicht durch Loeschen.
+- **Nicht angetastet:** Z. 218 traegt eine voellig andere 80-%-Zahl (Systemnachweis nach
+  SIA 380/1) und ist unberuehrt gueltig — kein globales Suchen-und-Ersetzen ueber «80 %»
+  (Rule `auto-verbesserungen` 260811). Ebenso alle uebrigen § 47a-Nennungen im Hub: sie sind
+  durchgaengig korrekt, die Fehlaussage war auf diese eine Datei begrenzt.
+- **Fuehrung geklaert:** fachfuehrend fuer Energiegrenzwerte ist die KB `energie`
+  (`destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`), beidseitig verdrahtet.
+- **Offen (Nebenbefund, in QUESTIONS):** Der Volltextabgleich der Schwester-Destillate endet
+  bei § 46a BBV I — ob §§ 47b-47n bzw. weitere EnerG-Paragraphen der 2021er-Novelle
+  unverifiziert als geltend gefuehrt werden, ist ungeprueft.
+
 ## 2026-08-17 (Buch-Run 74, Korpus-Batch T4) — Klammer-Falle kommunaler Verweise: § 18 Abs. 1 BBV II dreifach abweichend zitiert
 
 - **`wiki/gebaeudearten-und-abstandssystem.md`:** neue Gebäudeart **Gartenhaus/Schopf/

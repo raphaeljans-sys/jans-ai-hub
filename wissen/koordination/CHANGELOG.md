@@ -3,6 +3,69 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-18 — Wissens-Chef Run 36 (Abendlauf, 23,8 h nach Run 35)
+
+- **Bericht:** `outputs/2026-08-18_wissens-chef-run36.md`. Zuschnitt **5 Melder + 3 Refuter
+  (8 Agenten, 1'324'146 Token, 154 Werkzeugaufrufe, 10,1 Min)**; die Korpus-Messung auf der
+  Skills-Schicht fuhr der Hauptprozess deterministisch. Uhr-Kontrolle bestanden (Station
+  23:12:03 CEST gegen Synology 23:00:07, = HEAD `0fb9b72a`).
+- **9 Meldungen, davon 3 harte: 2 bestaetigt, 1 teilweise. Alle drei Uebergabe-Auftraege aus
+  Run 35 erledigt, zwei davon mit einem Negativbefund.**
+- **Kernbefund (skills ↔ normen), mit Geldfolge:** `skills/honorarberechnung-sia102` fuehrte
+  seine Phasenanteils-Tabelle unter «SIA 102:2020 — Anhang A». **Beides existiert nicht** —
+  die Ausgabe 2020 endet mit Art. 6 und kennt ueberhaupt keine Baukosten-Prozentmethode mehr
+  (fuenffach belegt, Original S. 1-41 gelesen); die Prozenttabelle steht in SIA 102:**2014**
+  Ziff. 7.7. **Die Warnung lag seit dem 14.07. im Destillat und nannte den Skill namentlich** —
+  sie wurde nie uebertragen. Das ist die Run-35-Figur eine Schicht tiefer: dort blieb die
+  fuehrende KB falsch, hier der anwendende Skill. Verschaerfend: Run 35 hat genau diese Datei
+  am 17.08. angefasst und die Fundstelle nicht bemerkt. **Wer einen Baustein anfasst, prueft
+  nicht automatisch, was er behauptet.** Der Mail-Baustein trug den Satz «gestuetzt auf
+  SIA 102:2020» direkt ueber einer Baukosten-Rechnung an Bauherrschaften.
+  **Korrektur rein deklaratorisch, keine Zahl angefasst** — die Werte sind Eigenkonvention
+  (Phase 52 mit 20 % gegen 29 % der Norm, rund CHF 47'000 bei CHF 600'000 Honorar), ihre
+  Aenderung waere ein Geschaeftsentscheid. Als E1 vorgelegt.
+- **Zweiter bestaetigter Befund (energie ↔ baurecht):** § 47a BBV I stand im Buch-Destillat
+  drei Jahre nach seiner Abloesung als geltendes Recht (80-%-Hoechstanteil statt der seit
+  01.09.2022 geltenden Grenzwerttabelle; fuer Neubauten gilt heute das Fossilverbot nach
+  § 11 Abs. 1 EnerG). Refuter fand **fuenf** Fundstellen statt der drei gemeldeten.
+  **Beinahe-Fehler verhindert:** zwei Zeilen weiter steht eine andere, gueltige 80-%-Zahl
+  (Systemnachweis SIA 380/1) — ein globales Ersetzen haette sie mitgerissen (Rule 260811).
+- **Dritter Befund, teilweise:** Fluchtwegtuer-Ausnahme «≤ 30 m²/≤ 6 Personen» als geltende
+  VKF-Regel gefuehrt (Stand 2003; heute VKF-BRL 16-15 Ziff. 2.5.5, max. 20 Personen ohne
+  Flaechenkriterium). **Der Refuter korrigierte den Melder zweimal:** falscher Fehler-Ort
+  (gemeldete Zeile war korrekt und musste bleiben) und regelwidriger Beleg (haette ein
+  `speculative`-Destillat zur Quelle eines `established`-Artikels gemacht, Rule
+  `normen-referenz` 1b).
+- **Uebergabe-Auftrag 1 erledigt:** Cluster `recht-norm-arbeitshilfen-planungsdetails` gelesen —
+  5 der 7 Quellen haben ein Gegenstueck in `normen`, 2 sind Alleinstellungen. **Statt sieben
+  Einzelvermerken eine Doppelfuehrungs-Landkarte am Artikelkopf** (Einwand des Melders
+  uebernommen). Drei Gegenkanten gesetzt. Die Lesung brachte zwei inhaltliche Funde, die eine
+  reine Verlinkungsuebung nicht ergeben haette.
+- **Uebergabe-Auftrag 2 erledigt (Skills-Messung):** 13 Skills tragen eine Norm-Strecke ≥ 3.
+  **Die erste Messung war zu grob und wurde verworfen** — sie meldete sechs unverankerte Skills,
+  die Gegenprobe auf indirekte Kanten ueber die jeweilige Fach-KB liess zwei uebrig:
+  `honorarberechnung-sia102` (M1-1) und `wettbewerb` (4× SIA 416, null Kanten, an Run 37).
+  Dasselbe Muster wie Run 35: eine Kennzahl ohne Kontext produziert Fehlalarme.
+- **Uebergabe-Auftrag 3 ABGESCHLOSSEN, Negativbefund:** die Dateinamen-Gegenprobe fand **keinen
+  weiteren Fall**. Die EN-102-Figur war kein systematisches Muster, sondern zweimal derselbe
+  Quellordner. Punkt geschlossen, rotiert nicht weiter.
+- **Zweiter Negativbefund:** das in `normen` Run 56 erweiterte `sia-416-1-2007.md` **bestaetigt
+  die Run-35-Aufloesung** zur EBF-Schwelle (1,0 m, am 300-dpi-Original nachgelesen). Ein Urteil,
+  das eine unabhaengig nachgelesene Quelle spaeter bestaetigt, ist der beste Beleg dafuer, dass
+  die Refuter-Stufe traegt. Folgefehler behoben: Verweis auf Ziffer/Figur statt Zeilennummer
+  umgestellt (Zeilennummern wandern bei jedem Destillat-Zuwachs).
+- **Schreib-Kontrolle** (Rule 260811, alle Werte per `--numstat` **nativ ueber ssh** gemessen,
+  nie git ueber SMB): Skill 41/4, Buch-Destillat 32/3, Arbeitshilfen 37/2, drei Gegenkanten
+  8/0 + 10/0 + 9/0, energie 9/0, AHB 4/1, flaechendefinitionen 1/1, Register +180.
+  Alle elf Loeschungen sind beabsichtigte Zeilenersetzungen; keine Datei hat Bestand verloren.
+  **Betriebsdetail:** der 15-Min-Selfcommit greift mitten in den Lauf — die vollstaendige
+  Messung braucht den Vergleich gegen den Stand **vor** dem Lauf, nicht nur `git diff`.
+- **Offene Entscheide:** E1 Honorar-Phasenanteile/Kategorien-Skala/Healthcare-Zuordnung (neu,
+  Geldfolge) · E2 Fassungsstand-Hinweis am Buch-Layer `baurecht` (neu, Strukturfrage) ·
+  E3 unveraendert (Du-Kontakte, SIA 382/2, `ausschreibung` Z. 109-113, T-Regelgeschoss, SYN-34).
+- **Keine Mail** (Loop still by default; die Entscheide gehen ueber das Tagesbriefing des
+  `hub-chef`, kein P1-Blocker).
+
 ## 2026-08-18 — Synergie-Lauf 11 (Tagestakt, 23,8 h nach Lauf 10)
 
 - **Bericht:** `outputs/2026-08-18_synergie-lauf-11.md`. Delta-Basis 17.08.2026 17:10,
