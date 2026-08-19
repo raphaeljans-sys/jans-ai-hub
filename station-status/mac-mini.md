@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 20:11:09
+Stand: 19.08.2026 20:21:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 19.08.2026 20:11:09
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 4da920f0 nas-selfcommit: 4 Datei(en) 2026-08-19 20:00
+- 3b90b2e7 tenant-hygiene 19.08.: Wachstum eskaliert auf 13.29 GB/Tag (99.8% Versionsverlauf JANS.PROJEKTE), Restlaufzeit 16 Tage; Report + Fristen-Nachtrag
