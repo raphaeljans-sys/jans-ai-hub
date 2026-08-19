@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 23:36:38
+Stand: 19.08.2026 23:57:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:36)
@@ -12,4 +12,4 @@ Stand: 19.08.2026 23:36:38
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- f096e355 Wissens-Chef Run 37: SIA-416/1-Rueckzug in vier KBs propagiert (11 Vermerke), zwei Melderbefunde adversarisch widerlegt, wettbewerb+flaechen-nachweis an normen-KB verankert
+- 937c5ee6 nas-selfcommit: 4 Datei(en) 2026-08-19 23:45
