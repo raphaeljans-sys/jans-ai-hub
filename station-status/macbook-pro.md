@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.08.2026 08:17:44
+Stand: 19.08.2026 08:28:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:11)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:26)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 08:17:44
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- d9648b6e fristen: Umlaute im Verzugscheck-Nachtrag 19.08. korrigiert (Umlaute-Konvention)
+- 90bc5b54 fristen: Nachtrag Hygiene-Lauf 19.08.2026 (bexio 401, neunter Tag blind, RE-00100 Frist morgen)
