@@ -4,6 +4,92 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
+
+Eintrag 19.08.2026, 06:55 (Logbuch-Radar — **ein neuer Punkt auf dem kritischen Pfad, der bei
+Raphael selbst liegt, und eine Behörden-Umstellung, die den offenen Baufreigabe-Strang trifft**):
+
+**NEU und der schärfste Punkt des Tages: die angepassten Prinzippläne der inneren Verglasung
+liegen seit dem 18.08. bei JANS zur Freigabe, und die Rückrechnung der Kette ist bereits
+überschritten.** L. Bajrami (Jegen AG) am **18.08.2026 11:09**: «Wie besprochen sende ich Ihnen
+die angepassten Pläne, zur Prüfung und Freigabe» — ein Anhang, `91161 KISPI Prinzippläne Innere
+Verglasung.zip`, 22.8 MB. RJ hat den Eingang **11:25** an die KISPI-Bauleitung weitergeleitet und
+**11:54** geantwortet, Cc Spahic, Würsch und Spörri; die Antwort liefert die Koordinaten der drei
+zuständigen KISPI-Stellen (Spahic Leitung, Spörri Lüftung, Würsch Elektro) und bittet **zweimal**
+um die Termineinladung für die Massaufnahme vor Ort («Danke für Ihre zeitnahe Zusenden der
+Termineinladung»), mit dem Vorbehalt, dass noch nicht alle rohen Lichtbaumasse aufgenommen werden
+können, für die Zimmer und die Therapieküche aber schon. **Die Freigabe selbst ist in dieser
+Antwort NICHT erteilt** — am Wortlaut geprüft, sie enthält keine Freigabeerklärung zu den Plänen.
+Damit liegen zwei Bälle gleichzeitig: die **Planfreigabe bei RJ**, der **Massaufnahme-Termin bei
+Jegen**. **Warum das terminlich zählt:** das Register führt für Los 274.01 Produktionsstart
+**01.09.** und Montagestart **12.10.**, bei einer belegten Lieferfrist von mindestens **acht
+Wochen ab Freigabe und erfolgter Massaufnahme**. Acht Wochen vor dem 12.10. ist der **17.08.** —
+der Stichtag ist also bereits verstrichen, und jeder weitere Tag ohne Freigabe **und** ohne
+stattgefundene Massaufnahme schiebt den Montagetermin. Nicht entschieden wird von hier, ob die
+Pläne inhaltlich freigabefähig sind; das ist die fachliche Prüfung und bleibt bei Raphael.
+**Randbedingung mit eigenem Datum:** Bajramis SharePoint-Gastzugriff auf die Projektsite läuft am
+**07.09.2026** ab (Tenant-Policy 60 Tage, Registereintrag 09.08.), also unmittelbar nach dem
+geplanten Produktionsstart. Status: **offen, Aktion Raphael — Pläne prüfen und freigeben, und den
+Massaufnahme-Termin nachfassen, falls Jegen die Einladung nicht von sich aus schickt.**
+| mail Bajrami 18.08. 11:09 und Antwort RJ 18.08. 11:54, beide am Original gelesen | 2619 KISPI,
+Los 274.01 | hoch | offen
+
+**NEU: eBaugesucheZH stellt die Anmeldung auf AGOV um, und ohne Migration entfällt der Zugriff
+auf die eigenen Projekte.** Systemmail `noreply@ebaugesuche.zh.ch` vom **18.08.2026 20:20** an
+`mail@raphaeljans.ch`: der bisherige ZHservices-Login mit dem Benutzernamen `Raphael_Jans` wird
+durch den Authentifizierungsdienst der Schweizer Behörden **AGOV** ersetzt; ein personengebundener
+Migrationslink samt Token liegt in der Mail. Wörtlich: «Damit Sie weiterhin Zugriff auf Ihre
+Projekte, Zustellbegehren oder Akteneinsichten haben, führen Sie bitte folgende Schritte aus.»
+**Ein Enddatum nennt die Mail nicht**, eine Frist wird deshalb hier nicht erfunden. **Warum der
+Punkt trotzdem operativ ist und nicht bloss IT-Hygiene:** der offene Antrag auf Baufreigabe vom
+14.08. verlangt ausdrücklich, dass die Ämter die Baufreigabe **auf eBaugesucheZH hochladen** —
+fällt der Zugang aus, ist das Ergebnis des kritischen Pfads nicht abrufbar. Zusätzlich hängt der
+Connector `connectors/ebaugesuche-zh.mjs` am ZHservices-Weg (Playwright-Login, Mobile ID) und wird
+nach der Umstellung neu aufgesetzt werden müssen; er meldet ohnehin seit dem 29.07. HTTP 401.
+**Die Migration führt Raphael selbst aus** — sie verlangt eine Anmeldung und gegebenenfalls die
+Erstellung eines Logins, und beides tut Claude nicht. Status: **offen, Aktion Raphael.**
+| mail noreply@ebaugesuche.zh.ch 18.08. 20:20, Konto mail@, am Original gelesen | 2619 KISPI +
+Werkzeug | mittel | offen
+
+**NACHTRAG zum Baufreigabe-Strang (bestehende Zeile vom 14.08., Status beobachten): RJ hat am
+18.08. nachgefasst, geantwortet hat bis heute 06:55 niemand.** Am Original gelesen, Mail rj@ vom
+**18.08.2026 09:55** an **L. Hansen (UGZ)** und **L. Furrer (AfB)**, Cc Spahic, Hayen, Schäfer und
+Kübler: «Haben Sie meine E-Mail gestern noch erhalten? Brauchen Sie noch Unterlagen von mir?
+Können Sie die Auflagepunkte als erfüllt vermerken? … Ansonsten bin ich für die Erteilung der
+Baufreigabe dankbar.» Die Erwartung der Bauherrschaft lag auf dem **17.08.**, sie ist damit
+zwei Tage überschritten. Im Fenster ist keine Antwort der drei Ämter eingegangen; **S. Zala (UGZ)
+ist per Abwesenheitsnotiz vom 17.08. bis zum 23.08. abwesend** (medizinischer Notfall), Hansen und
+Furrer sind davon nicht betroffen. Status: **unverändert beobachten, Nachfass ist erfolgt, keine
+weitere JANS-Aktion vor einer Antwort nötig.** | mail rj@ 18.08. 09:55 + Abwesenheitsnotiz Zala
+17.08. 16:10, beide am Original gelesen | 2619 KISPI | hoch | beobachten
+
+**NEU, privat und ohne Bezug zum Projektgeschäft: CSS-Prämienabrechnung CHF 295.10.** Systemmail
+myCSS vom **18.08.2026 18:28**: neue Rechnung, Freigabe im eBill-Postfach, sobald sie bei der Bank
+eingetroffen ist. Kein Fälligkeitsdatum in der Benachrichtigung. Zahlungen löst Claude nie aus.
+Status: **beobachten, Freigabe Raphael.** | mail myCSS 18.08. 18:28 (Konto iCloud)
+
+**Debitoren: bexio antwortet den zehnten Lauf in Folge mit HTTP 401, und morgen fällt die nächste
+Frist hinein.** `--verzug --json` heute erneut abgewiesen. Der Connector benennt die Lage
+inzwischen selbst präzise: der Token läuft **erst am 13.12.2026 ab**, ist also nicht abgelaufen —
+**die Session dahinter wurde beendet oder zurückgezogen**, ein Warten hilft nicht, nur ein neu
+ausgestellter Token. **RE-00100 (Nova, CHF 13'120) wird morgen, Donnerstag 20.08., fällig** und ist
+ohne Live-Stand nicht verifizierbar; RE-00101 (Tschopp, CHF 6'000, Mahnfrist 16.08. verstrichen)
+und RE-00098/RE-00099 (KISPI, Frist 12.08.) bleiben unverifiziert. Der Guard für A1 bleibt
+unerfüllt: **nichts gemahnt, nichts gebucht, nichts versendet.** Status: **überfällig, Aktion
+Raphael — neuen Personal Access Token ausstellen, in `~/.bexio.env` eintragen, danach
+Kontrolllauf.** | bexio-Connector 19.08. 06:5x, Fehlermeldung am Aussteller belegt
+
+**Konversations-Destillat: dritter Tag in Folge ohne echtes Gespräch, und der Messfehler der
+Extraktion bekommt seinen dritten Nachtrag.** Das Destillat 260819 hält fest, dass sämtliche
+`RAPHAEL:`-Zeilen im 26-h-Fenster automatisiert sind (Stop-Hook, Bild-Platzhalter, Dispatch-Text)
+und **21 von 39 MacBook-Sessions inhaltlich ausserhalb des Fensters liegen**. Neu gegenüber dem
+18.08. ist die Beobachtung, dass **zwei getrennte Mechanismen** wirken und nicht einer: der
+bekannte 05:15-Block (heute 8 Dateien, alle inhaltlich tatsächlich frisch) und ein zweiter,
+unbenannter Mechanismus, der gezielt dieselben zwei Altdateien `c5f3a9c1` und `28edb7fc`
+(letzte echte Nachricht 14.08.) täglich zu wandernden Zeiten anfasst. Dieser Nachtrag gehört zur
+bestehenden Zeile vom 17.08. («Die Konversations-Extraktion misst die Dateizeit statt der
+Gesprächszeit», offen) und eröffnet **keine neue Zeile**. Status: **unverändert offen.**
+| Destillat 260819-konversationen.md, gegen die JSONL-Zeitstempel geprüft
+
 Eintrag 19.08.2026, 01:4x (Normen-Nacht Run 57 — **keine Frist, aber eine Bring-Schuld mit
 Fehlerrisiko in ausgehenden Erzeugnissen**): **Die Norm SIA 416/1:2007 ist seit dem 31.03.2015
 zurueckgezogen** und seit 01.04.2015 ersetzt durch **SIA 380:2015 «Grundlagen fuer energetische

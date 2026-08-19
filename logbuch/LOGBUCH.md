@@ -4,6 +4,82 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
+
+## Radar-Briefing 19.08.2026 (06:55) — still ins Logbuch, kein Versand
+
+Der Hub-Chef-Lauf vom 18.08. hat stattgefunden und um 08:48 gesendet, es liegt kein Punkt vor,
+der vor 08:39 Handeln verlangt. Damit gilt der Regelfall: dieses Briefing geht nicht als Mail
+hinaus, sondern steht hier zur Übernahme in das eine Tagesbriefing.
+
+### Erledigt seit gestern
+
+Die Jegen-Antwort ist raus: RJ hat L. Bajrami am 18.08. um 11:54 die Koordinaten der drei
+zuständigen KISPI-Stellen geliefert (Spahic Leitung, Spörri Lüftung, Würsch Elektro) und um die
+Termineinladung für die Massaufnahme vor Ort gebeten.
+
+Der Nachfass zur Baufreigabe ist gesetzt: Mail vom 18.08. um 09:55 an L. Hansen (UGZ) und
+L. Furrer (AfB), Cc Spahic, Hayen, Schäfer und Kübler, mit der Bitte, die Auflagepunkte als
+erfüllt zu vermerken und die Baufreigabe zu erteilen.
+
+Der Türbuch-Termin von heute 15:00 ist vollständig besetzt und braucht keine weitere Abklärung.
+
+### Überfällig
+
+Die angepassten Prinzippläne der inneren Verglasung liegen seit dem 18.08. um 11:09 bei JANS zur
+Prüfung und Freigabe (Jegen, ZIP mit 22.8 MB), und die Freigabe ist in der Antwort von 11:54
+nicht erteilt worden. Bei Produktionsstart 01.09., Montagestart 12.10. und einer Lieferfrist von
+mindestens acht Wochen ab Freigabe und erfolgter Massaufnahme war der Stichtag der 17.08.; jeder
+weitere Tag ohne Freigabe und ohne stattgefundene Massaufnahme schiebt den Montagetermin. Der
+Massaufnahme-Termin liegt bei Jegen, die Planfreigabe bei Raphael.
+
+Die Baufreigabe der drei Ämter steht aus, die Erwartung der Bauherrschaft lag auf dem 17.08. Der
+Nachfass vom 18.08. ist unbeantwortet; S. Zala (UGZ) ist noch bis zum 23.08. abwesend, Hansen und
+Furrer sind es nicht.
+
+bexio antwortet den zehnten Lauf in Folge mit HTTP 401. Der Connector benennt die Lage jetzt
+selbst: der Token läuft erst am 13.12.2026 ab, die Session dahinter wurde beendet oder
+zurückgezogen. Ein neuer Personal Access Token in `~/.bexio.env` löst es, Warten hilft nicht. Bis dahin
+ist die ganze Debitorenseite blind, es wurde nichts gemahnt und nichts gebucht.
+
+### In den nächsten sieben Tagen
+
+Heute 15:00 bis 15:30 der Türbuch-Termin mit Merci, Hiltmann, Würsch und Otschkowski.
+
+Morgen Donnerstag 20.08. wird RE-00100 über CHF 13'120 (Nova) fällig, verifizieren lässt sich das
+ohne bexio-Zugang nicht. Am selben Tag von 13:00 bis 14:00 die Koordinationssitzung
+Gruner/Jans/KISPI.
+
+Freitag 21.08. von 10:00 bis 12:00 die Baustellenbegehung an der Lenggstrasse 28 mit N. Rothe
+(Röthlisberger).
+
+Samstag 22.08. endet das Probeabo Adobe Acrobat Premium, danach CHF 71.00 pro Jahr automatisch.
+
+Um den 23.08. läuft die Zahlungsfrist der Rechnung Gastro Online 26-08-0025 (CHF 4'250.50 brutto)
+ab; das Visum hängt weiterhin an der fehlenden Auftragsgrundlage für die 26 Stunden. Am 23.08.
+kehrt S. Zala (UGZ) zurück.
+
+Montag 24.08. von 09:00 bis 09:30 der Abgleich Status PPTS mit C. Schäfer.
+
+### In Beobachtung
+
+eBaugesucheZH stellt die Anmeldung von ZHservices auf AGOV um, der Migrationslink kam gestern um
+20:20 an mail@; ohne Migration entfällt der Zugriff auf Projekte und Zustellbegehren, und genau
+dort soll die Baufreigabe hochgeladen werden. Kein Enddatum genannt, Ausführung Raphael.
+
+Vier Entwürfe liegen unverändert im Exchange-Postfach, dazu neu die beiden identischen Entwürfe
+an M. Eren vom 18.08. 08:45 (Duplikat). Bajramis SharePoint-Gastzugriff läuft am 07.09. ab.
+CSS-Prämienabrechnung CHF 295.10 zur eBill-Freigabe. Thalwil Bohlweg 3 bleibt der älteste offene
+Punkt. Unverändert: der UGZ-Fachbefund zur Lüftung, die OneDrive-Quarantäne mit 2.8 GB seit dem
+08.08. unabgeglichen, die SwissSign-Rechnung mit der alten Adresse, die Beschaffung der
+SIA 380:2015 und der Messfehler der Konversations-Extraktion, der heute seinen dritten Nachtrag
+bekommen hat.
+
+### Token-Tempo
+
+Vortag 18.08.: MacBook Pro 123.0 Mio Tokens (104.83 USD), Mac Mini 33.1 Mio Tokens (11.22 USD),
+Summe 156.2 Mio Tokens und 116.05 USD Kostenäquivalent.
+
+---
 ## Hub-Chef 18.08.2026 (08:39 bis 08:55) — Tagesbriefing GESENDET (Regellauf)
 
 **Lage.** Der Radar hat um 06:55 sauber vorgelegt; mein Beitrag ist das Delta der neunzig
