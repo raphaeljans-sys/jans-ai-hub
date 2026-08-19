@@ -445,10 +445,13 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Anlass.** Belege unten.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818, Gegenprobe zu 260817):** acht
   Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
-  die Einzeladressierung nicht aus. Bei zwei Adressaten mit auseinandergehender Stufe: zwei Zeilen,
-  **Komma nur auf der ersten**. Dasselbe Paar wandert über Wochen — einzeilig («Sehr geehrter Herr
-  A, geschätzter Herr B») → zweizeilig, und beide Stufen steigen ins Vertrautere, solange kein
-  neuer Mitleser dazukommt.
+  die Einzeladressierung nicht aus. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
+  GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
+  trägt beide Stufen auf EINER Zeile mit einem Schlusskomma («Geschätzter Herr Kübler, werter Herr
+  Duran,», zwei Empfänger, kein Cc, vom Mobiltelefon); erst die gewichtige, förmliche Mail bricht
+  auf zwei Zeilen um, **Komma nur auf der ersten**. Dasselbe Paar wandert über Wochen — einzeilig
+  («Sehr geehrter Herr A, geschätzter Herr B») → zweizeilig, sobald die Sache schwerer wird, und
+  beide Stufen steigen ins Vertrautere, solange kein neuer Mitleser dazukommt.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
@@ -458,11 +461,10 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Stufe wirklich bewegt, ist der KANALWECHSEL:** nach dem ersten Telefonat springt er in einem
   Schritt von «Geschätzter Herr <Nachname>» auf «Hoi <Vorname>». **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
-  Nachnamen); **gehen die Stufen auseinander, steht jede Person auf eigener Zeile mit eigener
-  Stufe** («Sehr geehrter Herr <A>, / Geschätzter Herr <B>, / Werter <Vorname>» — die vertrauteste
-  Zeile zuletzt und ohne Schlusskomma), und angeredet werden die **Entscheidungsträger, nicht der
+  Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
+  (Gewicht entscheidet), und angeredet werden die **Entscheidungsträger, nicht der
   Verteiler**: ein Cc kann angeredet, ein anderer übergangen werden, und die Reihenfolge folgt
-  nicht dem To-Feld (korrigiert 260817, gemessener Fehlgriff des Zwillings)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
+  nicht dem To-Feld (korrigiert 260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
   am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
   nicht das singuläre «Dich».

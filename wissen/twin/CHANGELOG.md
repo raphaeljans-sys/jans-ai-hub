@@ -28,6 +28,31 @@ Sperrlisten-Disziplin nicht aufgenommen), 3 Fragen, 1 Negativbefund am Hub (Entw
 06:45:21/06:45:22). **Werkzeug:** `stilmetrik.py` erkennt neu «Lgr». **Registerkorrektur:** der
 DNA-Riegel steht gemessen bei **33430 B von 34000 B** — die Batches 93–97 nannten die alte
 Grenze 30000.
+## 2026-08-19 — Fidelity-Review (Fenster rj@ 30.06.–06.07.2026)
+
+Gesamt-Fidelity **33** auf zwei Goldproben; die dritte Kandidatin (01.07. 08:33 an die SBB) wurde
+vor der Wertung als **Hub-Erzeugnis** aussortiert — erster Fall, in dem die 14. Falle (Wrapper)
+schon im Auswahlschritt greift. Neuer, billiger Zweitmarker gefunden und in CLAUDE.md gesetzt:
+die **Signaturform** («Raphael Jans …/+41» = Generator · «**RAPHAEL JANS** …/0041» = Raphaels
+Outlook · nur «Raphael» = seine Apple-Mail-Kurzmail), sichtbar im Klartext der Suchtreffer-`summary`
+und damit vor jedem `read_resource`.
+
+Sechs Korrekturen an den Facetten: [[stimme]] Gruss folgt der Gattung, ein orientierender Cc hebt
+den Kurzgruss nicht auf (die bisherige Regel war falsch und hat den Zwilling in den Fehler geführt);
+[[beziehungsregister]] ein- oder zweizeilig gestapelt entscheidet das Gewicht der Mail, nicht die
+Stufendifferenz; [[arbeitsweise]] die rohe, absichtlich redundante Fragenliste ohne
+Aufzählungszeichen; [[haltung]] neuer Oberbegriff «der Bauherr entscheidet, Raphael bereitet vor»
+über acht Belege, mit der Grenze, was er sich selbst zusagt (Planleistung ja, Entscheid nein);
+[[fachsignatur]] Kontamination auch aus Nachbarmails desselben Fensters. Sechs neue Selbstfragen
+in [[QUESTIONS]] 260819b.
+
+**Kompilier-Riegel:** Block lag mit den Korrekturen zunächst bei 36'165 B (Abbruch, rc=3);
+kompiliert nach sieben Verdichtungsschritten nach Option (a) bei **33'993 B von 34'000 B, 7 B
+Reserve**, rc=0. Zusammengelegt wurden ausschliesslich Doppelungen (Stapelregel in Do und Don't,
+drei «abschreibfertig»-Marker, zwei identische Rechtsauskunft-Regeln, vier überlagerte
+Gruss-Korrekturen) — keine Regel gelöscht. Die Verdichtungsreserve ist damit erschöpft; die
+Verfallsregel ([[QUESTIONS]] 260818b #7 / 260819b #1) ist Voraussetzung des nächsten Laufs.
+
 ## 2026-08-18 — Fidelity-Review (Fenster rj@ 22.–29.06.2026), Gesamt-Fidelity 31
 
 Drei Goldproben im Volltext (Abgebot Jegen · Brandlast ELE · Baulinie Giebelweg), alle

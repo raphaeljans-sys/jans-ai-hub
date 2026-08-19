@@ -506,6 +506,36 @@ erzeugen** — die Restunsicherheit «setzt er je selbst Text als Block ein?» i
 logisch ausgeschlossen, aber sie hat jetzt zwei Gegenbelege statt keinen. Der Marker bleibt
 Lokalisator; er ist als solcher aber deutlich belastbarer geworden.
 
+**Das sauberste Kontrollpaar zum Wrapper, und ein zweiter, kostenloser Diskriminator: die
+SIGNATURFORM (neu 19.08.2026, Fidelity-Review).** Der Vorgang «2414 Thalwil / Näherbaurecht
+Vordach» liefert innerhalb EINES Fadens zwei Mails aus Raphaels Konto, beide über **Apple Mail**
+gesendet (`<UUID@raphaeljans.ch>`), drei Tage auseinander — und sie trennen mechanisch:
+
+| | 01.07. 08:33 an die SBB | 02.07. 09:45 an den Du-Bauherrn |
+|---|---|---|
+| Wrapper / `padding-right:inherit` | **ja**, Container-`div` + jeder Absatz | **nein**, nackte `<div>` + `id="lineBreakAtBeginningOfMessage"` |
+| Fehler | **0** auf 5 Absätze | telegraphisch, knapp |
+| Halbgeviertstrich in Zahlbereichen | «KM 11.310**–**11.350», «1.0**–**2.0 m» | keiner |
+| Signatur | «Raphael Jans, Founder I MD» · «**+41** 79 846 11 65» · nicht fett | nur «**Raphael**» |
+| Urteil | **Hub-Erzeugnis**, nicht Gold | **handgetippt**, Gold |
+
+Der **Container-Wrapper** ist eine Variante des 14.-Fallen-Musters: die Klasse sitzt hier auf dem
+umschliessenden `div`, nicht auf jedem `<p>` — beim Zurückzitieren durch Outlook erscheint dafür
+`padding-right:inherit;padding-left:inherit` auf **jedem** Absatz. Beide Formen zählen.
+
+**Die Signaturform ist der billigste bisher gefundene Diskriminator**, weil sie ohne Markup-Analyse
+im Klartext sichtbar ist. Drei Formen, sauber getrennt:
+
+- **Hub-`osascript`:** «Raphael Jans, Founder I MD» / «MSc ETH I SIA» / «+41 79 846 11 65» — Grossbuchstaben-Name **nicht** fett, internationales Rufnummernformat.
+- **Raphaels Outlook (Web/Mobile):** «**RAPHAEL JANS** Founder I MD» fett, «MSc ETH I SIA I rj@…», «**0041** 79 846 11 65», Container `id="ms-outlook-mobile-signature"`.
+- **Raphaels eigene Apple-Mail-Kurzmail:** gar kein Block, nur «Raphael».
+
+Wer die `0041`-Schreibweise trägt, hat in Outlook getippt. Wer `+41` **und** den nicht fetten Namen
+trägt, kommt aus dem Generator. Das ist wie der Wrapper ein **Lokalisator**, aber er kostet nichts:
+er steht in jeder `summary` des Suchergebnisses, also **vor** dem ersten `read_resource`.
+**Konsequenz für die Materialwahl: die Signaturform wird ab sofort schon bei der Gold-Auswahl
+geprüft, nicht erst bei der Echtheitsprüfung danach.**
+
 **`rgb(252,252,251)`: dritte Gegenprobe, und sie fällt gegen den Kandidaten aus.** Der Wert kommt
 in **keiner** der 16 gelesenen Mails vor — auch **nicht in den beiden Hub-Erzeugnissen**. Ein
 Muster, das in bewiesenem Zwillingstext fehlt, taugt nicht als Zwillings-Detektor. Er bleibt bei

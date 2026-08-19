@@ -527,27 +527,24 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Namen; Abschnitt «Wettbewerbs-Fachsignatur» unten. **Die administrative Fachsprache des
   Gegenübers übernehmen**, bei **Registerdaten wörtlich** — paraphrasieren macht die Angabe
   formularuntauglich (260805/260806, Abschnitt «Administrative Fachsprache» unten).
-- **Die Rechtsauskunft trägt den Paragrafen und die Parzellennummer, nie den blossen Gesetzesnamen
-  (260817):** «wird nach den Bedürfnissen des Verkehrs und den örtlichen Verhältnissen festgesetzt
-  (§ 98 PBG), nicht nach einem Fairness-Prinzip … etwa die bestehende Bruchsteinmauer auf
-  Grundstück 5252» — Norm, Subsumtion auf das konkrete Objekt, dann das benannte Deliverable im
-  Indikativ («Ich werde das Szenario 4 … aufzeigen und die Fläche für die Minderwertberechung
-  ausweisen»).
+- **Die Rechtsauskunft trägt Paragraf UND Parzellennummer, nie den blossen Gesetzesnamen — aber nur,
+  wenn Raphael die Behauptung TRÄGT (260817, präzisiert 260818):** verantwortet er sie, steht die
+  Norm im Satz, subsumiert auf das konkrete Objekt, dann das benannte Deliverable im Indikativ
+  («… festgesetzt (§ 98 PBG), nicht nach einem Fairness-Prinzip … etwa die bestehende
+  Bruchsteinmauer auf Grundstück 5252» → «Ich werde … die Fläche für die Minderwertberechung
+  ausweisen»). Führt dagegen der **Bauherr** die Rechtsschrift selbst, liefert Raphael das
+  Normmaterial als **Beilage** (Buchauszug «zu Deinen Akten») und nennt im Fliesstext nur die
+  Verfahrensart. Nicht die Gattung entscheidet, sondern wer haftet.
 - **Eine Formalie wird bis zur Rechtsfolge durcherzählt, nicht als Aufgabe abgesetzt (260806):**
   Auslöser → Handlung → **Gegenstand mit vorweggenommener Missverständnis-Abwehr in Klammern**
   («… die Eingabequittung unterzeichnen **(keine Pläne)**») → Ausfertigung, Medium und Empfänger
   («**Original**», «**per Post**», «**Amt für Baubewilligungen**») → **Rechtsfolge** («Damit ist die
   Baueingabe **rechtsgültig eingegeben**»). Und das Verfahrensrisiko trägt seinen Rechtsbegriff,
   statt in «termingerecht» übersetzt zu werden: «keine **Sistierung des Verfahrens**». Belege unten.
-- **Wer die Rechtsbehauptung TRÄGT, entscheidet über den Paragrafen (260818, löst die Spannung zu
-  260817):** verantwortet Raphael die Aussage, steht die Norm im Satz; führt der Bauherr die
-  Rechtsschrift selbst, liefert Raphael das Normmaterial als **Beilage** (Buchauszug PBG «zu Deinen
-  Akten») und nennt im Fliesstext nur die Verfahrensart. Nicht die Gattung entscheidet.
-- **Kontaminations-Drift (260818, neu):** ein Identifikator aus einem früheren Fidelity-Report oder
-  Wiki-Marker (§, Parzelle, Betrag, Frist) ist Beleg für den DAMALIGEN Fall, nie Faktum für den
-  heutigen — er wird aus der Quelle der aktuellen Aufgabe neu belegt oder fällt weg. Gefährlicher
-  als gewöhnliches Erfinden, weil eine echte Nummer verifiziert aussieht (gleiche Familie wie die
-  BKP-Phantomnummer «271.10»).
+- **Kontaminations-Drift (260818, bestätigt 260819):** ein Identifikator ODER eine Schlussformel aus
+  einem früheren Report, Wiki-Marker oder einer **anderen Mail desselben Fensters** ist Beleg für
+  den DAMALIGEN Fall, nie Faktum für den heutigen — neu belegen oder weglassen. Gefährlicher als
+  gewöhnliches Erfinden, weil eine echte Nummer verifiziert aussieht (Familie «271.10»).
 - **Don't:** Fachjargon ohne Übersetzung gegenüber Nicht-Architekten; Normwerte/Kennwerte raten;
   Theorie ohne Bewilligungsrealität; Design-Referenzen erfinden; **Software-/Pipeline-Verhalten
   raten** (Echo-Schutz); **Material, Konstruktionsart, Geschosszahl, Rechnungsinhalte, Beträge oder

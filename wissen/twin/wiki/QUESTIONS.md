@@ -3702,3 +3702,66 @@ Kompilier-Riegel des DNA-Auto-Blocks mit «29973 B von 30000 B». Der Fidelity-L
 `MAX_AUTO_BYTES` auf **34000** angehoben (siehe 260818b #7). Gemessen am 19.08.2026:
 **33430 B von 34000 B, 570 B Reserve.** Der Riegel steht also weiterhin knapp, aber die in den
 Batch-Notizen genannte Zahl war einen Lauf alt.
+
+## 260819b — Fidelity-Review (Fenster rj@ 30.06.–06.07.2026, Golds Private Kontrolle / Naeherbaurecht)
+
+Quelle: Drift-Report `outputs/2026-08-19_fidelity.md`. Gesamt-Fidelity 33 auf zwei statt drei
+Proben — die dritte Kandidatin war ein **Hub-Erzeugnis** und wurde vor der Wertung aussortiert.
+
+**#1 (Harness · Entscheid Raphael · VORAUSSETZUNG des naechsten Laufs) — die Verfallsregel
+muss jetzt entschieden werden.** Der Vorlauf hat `MAX_AUTO_BYTES` auf 34'000 B angehoben und
+damit genau einen Lauf gekauft. Dieser Lauf lag mit sechs Korrekturen zunaechst bei **36'165 B**
+(Abbruch, rc=3) und kompilierte erst nach sieben Verdichtungsschritten bei **33'993 B — 7 B
+Reserve**. *Warum das kein weiterer Aufschub sein kann: beide Mittel sind aufgebraucht. Die
+Grenzanhebung war einmalig, und die aufgeraeumten Doppelungen (Stapelregel, drei
+«abschreibfertig»-Marker, zwei identische Rechtsauskunft-Regeln, vier Gruss-Korrekturen) gibt es
+kein zweites Mal. Der naechste Lauf kann nicht kompilieren, ohne dass entweder die Verfallsregel
+gilt oder Regeln geloescht werden — und Regeln zu loeschen war der Punkt, an dem der Riegel
+schadet statt schuetzt. Vorschlag unveraendert: ein Marker, der seit **10 Laeufen** weder
+verletzt noch bestaetigt wurde, wandert aus dem Do/Don't-Block in den Artikelkoerper zurueck.
+Nichts geht verloren. Ein Wort von Dir genuegt: «ja, N=10».*
+
+**#2 (Stimme · Bestaetigung erbeten) — der Cc hebt den Kurzgruss NICHT auf, richtig?** In der
+Weiterleitung an Stefan Tschopp (02.07. 09:45) sitzt die SBB-Gegenseite im Cc, und Du schliesst
+trotzdem mit «Lieber Gruss / Raphael», ohne Signaturblock. Die **Anrede** dagegen ist wegen des
+Cc von Deinem Routine-«Hoi Stefan» auf «Geschaetzter Stefan» gestiegen. *Warum wir fragen: das
+Gehirn sagte bisher «sobald ein Cc dabei ist, ohnehin FG+Block» — der Zwilling hat die Regel
+korrekt angewandt und dadurch falsch geschrieben. Wir haben sie zu «der Gruss folgt der GATTUNG,
+der Mitleser bewegt allein die ANREDE» korrigiert. Stimmt diese Zweiteilung, oder haengt der
+Kurzgruss hier daran, dass Wiedmer den Faden ohnehin kennt?*
+
+**#3 (Arbeitsweise · Entscheid Raphael) — soll der Zwilling Deine Fragenlisten roh lassen?**
+Gold B stellt unter «Fragen sind:» vier Fragen ohne Aufzaehlungszeichen, die alle **dieselbe**
+Unsicherheit umkreisen (wer beauftragt die Private Kontrolle, wurde sie beauftragt, von wem,
+durch wen). Der Zwilling hat daraus drei saubere, trennscharfe, bebulletete Fragen gemacht —
+und musste dafuer Inhalt erfinden. *Warum das mehr ist als Kosmetik: wir lesen die Redundanz als
+Botschaft («ich weiss nicht, wer zustaendig ist, antwortet mir aus irgendeinem Winkel») und haben
+sie so ins Wiki gesetzt. Ist das Deine Absicht — oder ist die rohe Liste bloss das Ergebnis davon,
+dass Du sie auf dem Handy getippt hast, und der Zwilling darf sie am Rechner ordnen?*
+
+**#4 (Beziehungsregister · Bestaetigung erbeten) — einzeilig oder zweizeilig gestapelt: haengt es
+am Gewicht?** Gold B redet zwei Fachplaner mit auseinandergehenden Stufen **einzeilig** an
+(«Geschaetzter Herr Kuebler, werter Herr Duran,»), waehrend das Gehirn seit 260818 «je eigene
+Zeile» verlangte. *Warum wir das so aufgeloest haben: im 260818-Material stand dasselbe Paar
+Grob/Arter am 18.05. einzeilig und am 12.06. zweizeilig, als die Sache schwerer wurde. Wir lesen
+daraus: nicht die Stufendifferenz entscheidet, sondern das Gewicht der Mail. Trifft das zu, oder
+ist der Unterschied schlicht Handy gegen Rechner?*
+
+**#5 (Echo-Schutz · an den Harness, billig geworden) — wie viele als Gold verbuchte Mails tragen
+die Generator-Signatur?** Neu belegt: Hub-Entwuerfe signieren «Raphael Jans, Founder I MD» mit
+nicht fettem Namen und «**+41** 79 846 11 65», Deine eigene Outlook-Signatur dagegen fett und mit
+«**0041** 79 846 11 65». *Warum das die Planung aendert: anders als Wrapper und CSS steht die
+Signatur im Klartext und damit in der `summary` jedes Suchtreffers — der als unbezahlbar
+verworfene Bestands-Sweep (260818 #3, 260819 #1) wird damit auf einem anderen Weg moeglich, ohne
+ein `read_resource` je Mail. Vorschlag: ein Rueckwaerts-Sweep ab Mai 2026 rein auf der
+Signaturform, bevor weitere Datumsfenster vorwaerts gezogen werden.*
+
+**#6 (Haltung · Bestaetigung erbeten, beantwortet 260818b #2 teilweise) — Du gibst Dir die
+Planarbeit, aber nie den Entscheid.** Gold C zeigt beides in zwei Zeilen: Du sagst die eigene
+Leistung im Nebensatz zu («… unterstuetzen und die noetigen Plangrundlagen erstellen») und
+fragst im naechsten Satz zurueck («Fuer Dein finales Go bezueglich Vorgehen bin ich Dir
+dankbar»). Der Zwilling uebersprang das Go und instruierte die Gegenseite direkt. *Warum wir
+nachfragen: wir haben daraus die Linie «der Bauherr entscheidet, Raphael bereitet vor» als
+Oberbegriff ueber acht Belege gesetzt und die Grenze so gezogen — Zeichnen darfst Du zusagen,
+den Entscheid und die Rechtsschrift der Gegenseite nicht. Gibt es einen Fall, in dem Du den
+Entscheid bewusst vorwegnimmst, weil Warten teurer waere?*
