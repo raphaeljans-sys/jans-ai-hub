@@ -258,3 +258,21 @@ ist `mas` erst zu installieren. **OneDrive nicht während eines laufenden Syncs 
 
 Verwandt: `connectors/README.md` (Werkzeug-Index), Rule `wege-und-vollmachten.md`,
 `logbuch/AKTIONS-WHITELIST.md` (was ohne Rückfrage getan werden darf).
+
+## Nachtrag 19.08.2026 — eBaugesucheZH wechselt von ZHservices auf AGOV
+
+Der Login-Weg des Connectors `ebaugesuche-zh.mjs` (Zeile 51 der Tabelle) **ist im Umbau**.
+Systemmail `noreply@ebaugesuche.zh.ch` vom 18.08.2026 20:20 an `mail@raphaeljans.ch`: der
+bisherige ZHservices-Zugang mit dem Benutzernamen `Raphael_Jans` wird durch den
+Authentifizierungsdienst der Schweizer Behörden **AGOV** ersetzt; ohne Migration entfällt der
+Zugriff auf Projekte, Zustellbegehren und Akteneinsichten. Ein Enddatum nennt die Mail nicht.
+
+Konsequenz für den Connector: der bisherige Playwright-Weg (idp.zh.ch DXA, ZHservices,
+Mobile ID am Handy, Session rund zehn Tage) trägt nach der Umstellung nicht mehr. Er meldet
+ohnehin seit dem 29.07.2026 durchgehend HTTP 401. **Vor dem nächsten Reparaturversuch am
+alten Weg zuerst klären, ob die Migration vollzogen ist** — sonst wird eine bereits
+abgeschaltete Anmeldung debuggt.
+
+Die Migration selbst führt Raphael aus (personengebundener Token, Anmeldung und allenfalls
+Erstellung eines Logins; Claude erstellt keine Konten und authentifiziert sich nicht).
+Beleg und Registerzeile: `logbuch/fristen.md`, Eintrag 19.08.2026 06:55.
