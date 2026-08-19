@@ -86,7 +86,17 @@ Zeilennummer zitiert, weil das Destillat wächst; Ziffer und Figur sind stabil, 
 Gegengeprüft am 18.08.2026, Wissens-Chef Run 36: der Wert 1,0 m steht dort unverändert).
 **Für einen Energienachweis gilt 1,0 m** —
 dort wäre der RFB-Wert der falsche Nenner der Energiekennzahl. Kein Fehler in diesem Artikel,
-sondern zwei verschiedene, je für sich gültige Fassungen. Bei
+sondern zwei verschiedene, je für sich gültige Fassungen.
+⚠ **Nachtrag Wissens-Chef Run 37 (19.08.2026) — nur zur publizierten Fassung, nicht zum
+Entwurf 3/05:** Die **publizierte SIA 416/1:2007 ist zurückgezogen** (gültig 01.07.2007 bis
+31.03.2015, seit 01.04.2015 ersetzt durch **SIA 380:2015**, SN 504380:2015; zwei Primärquellen,
+Normen-Nacht Run 57). Damit stützt sich der Satz «für einen Energienachweis gilt 1,0 m» auf eine
+**archivierte Ausgabe** — der Wert selbst ist am Original belegt und bleibt der plausible
+Energienachweis-Wert, aber **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`) und ist nicht
+daraufhin geprüft, ob sie die 1,0 m unverändert führt. Bis dahin: den Wert nicht mit
+Normfundstelle in ein Aussendokument setzen. **Unberührt bleibt der RFB-/Entwurfs-3/05-Wert
+1,5 m** — ein Entwurf von 2005 ist vom Rückzug der Publikation 2007 nicht betroffen und über den
+AHB-Honorarvertrag weiterhin bindend. Bei
 Doppelfassaden/hinterlüfteten Fassaden mit Luftraum >10 cm gilt die **innere** Begrenzung des
 Luftraums als Aussenabmessung der thermischen Hülle (bei <10 cm die äusserste Bauteilebene) — eine
 in der Energie-KB bislang nicht so präzise dokumentierte Messregel, Ergänzung zu

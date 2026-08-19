@@ -89,7 +89,10 @@ Quelle: Definition Energiebezugsflaeche.pdf (BaFa, 10.06.2005), Auszug wörtlich
   Widerspruch**, sondern ein Prüfauftrag aus zwei Gründen: die Liste hier stammt aus dem
   BaFa-Merkblatt von 2005 (Bezug SIA 180/4), die Gegenregel aus der Nachfolgenorm — und das
   Ziel-Destillat trägt `status: speculative` und ist nach Rule `normen-referenz` Ziff. 1b eine
-  **Warnkarte, keine Zitierquelle**. Vor jeder Verwendung am Original SIA 416/1:2007 nachlesen.
+  **Warnkarte, keine Zitierquelle**. Vor jeder Verwendung am Original SIA 416/1:2007 nachlesen —
+  und dabei beachten (**Nachtrag Run 37, 19.08.2026**): diese Ausgabe ist seit dem 31.03.2015
+  **zurückgezogen** (Ersatz SIA 380:2015, nicht im Haus). Als Prüfauftrag bleibt die Gegenregel
+  gültig; als **Fundstelle für ein Aussendokument** taugt sie nicht mehr.
 - **Korrekturfaktoren in speziellen Fällen** (komplexe Gebäudenutzungstypen, gemischte
   Nutzung): Teilzeit-Korrekturfaktor fz, Temperatur-Korrekturfaktor ft, Raumhöhen-
   Korrekturfaktor fh. Bei ganzjährig belegten reinen Wohnbauten sowie bei Schulen,
@@ -188,6 +191,19 @@ Primärquelle der Norm.
   `normen-referenz` Ziff. 1b eine Warnkarte, keine Zitierquelle; und die EBF-Grunddefinition
   weiter oben in diesem Destillat (Z. 70 ff.) ist **noch nicht** gegen Ziff. 3.2 abgeglichen —
   das ist ein offener Punkt, keine bestätigte Übereinstimmung.
+  **⚠⚠ Nachtrag Wissens-Chef Run 37 (19.08.2026) — die Handlungsanweisung oben ist überholt.**
+  Die Kaskade geht eine Stufe weiter, als hier steht: **auch SIA 416/1:2007 ist zurückgezogen**
+  (gültig 01.07.2007 bis 31.03.2015). Die Anweisung «beim Zitat in einem Aussendokument ist statt
+  der zurückgezogenen Norm die Nachfolgenorm zu nennen» trägt SIA 416/1:2007 damit seit über zehn
+  Jahren als vermeintlich geltende Fundstelle **aktiv in JANS-Aussendokumente hinein** — sie ist
+  bis zur Klärung **nicht zu befolgen**. Belegt an zwei Primärquellen (Normen-Nacht Run 57,
+  19.08.2026): SIA-Shop-Produktdatenblatt («archivierter Titel», mit Enddatum) und das Titelblatt
+  der **SIA 380:2015** «Grundlagen für energetische Berechnungen von Gebäuden» (SN 504380:2015),
+  das wörtlich «Ersatz für SIA 416/1:2007» trägt. **SIA 380:2015 liegt nicht im Haus** und ist
+  nicht destilliert (Ticket `N57-2` in `wissen/normen/wiki/QUESTIONS.md`) — die Nachfolgenorm ist
+  hier deshalb **nicht** einfach einsetzbar. Bis zu ihrer Beschaffung gilt: für Bestandes- und
+  Altfälle die verwendete Ausgabe **mit Jahr und Fassungsvermerk** nennen; für ein neues
+  Aussendokument keine der beiden zurückgezogenen Ausgaben als geltende Fundstelle setzen.
 - **Alter der EBF-Quelle:** Definition Energiebezugsflaeche.pdf datiert vom 10.06.2005 und
   damit deutlich vor SIA 380/1:2009 und :2016. Ob die Raum-Zugehörigkeitsliste (Ziffer 2 32/2
   33) seither unverändert übernommen wurde oder in neueren SIA-380/1-Ausgaben abweicht, ist mit

@@ -159,7 +159,10 @@ Elektrizität (BFE 1993, S. 14, Tabellen 1 und 2):
 > Punkt 1).
 > **(b) Beide Bezugsgrössen sind zurückgezogen.** SIA 116:1952 (umbauter Raum) und SIA 180/4:1982
 > (EBF) führt die KB `normen` als zurückgezogen (`wissen/normen/wiki/REGISTER.md` Z. 52/108/300);
-> Nachfolge SIA 416:2003 bzw. SIA 416/1:2007. Die Übertragbarkeit dieser m³-Kennwerte auf ein
+> Nachfolge SIA 416:2003 bzw. SIA 416/1:2007 *(Nachtrag Run 37, 19.08.2026: die Kaskade geht eine
+> Stufe weiter — **SIA 416/1:2007 ist selbst seit dem 31.03.2015 zurückgezogen**, Ersatz
+> SIA 380:2015, nicht im Haus, Ticket `N57-2`. **SIA 416:2003 ist unberührt gültig.**)*.
+> Die Übertragbarkeit dieser m³-Kennwerte auf ein
 > **GV nach SIA 416** ist nicht geprüft — vor jeder Hochrechnung Bezugsgrösse klären.
 
 - **Sollwerte Sanierung:** kleines Bad 240 MJ/m³a (67 kWh/m³a); mittleres Bad 220 MJ/m³a

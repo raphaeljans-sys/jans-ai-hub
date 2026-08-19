@@ -28,7 +28,8 @@ description: >-
   Finale Abgabe-PDFs in `11_Abgabe`; Output-Kopie nach SharePoint `30 JANS AI HUB OUTPUT`.
 - **Abhaengige Rules:** dateinamen-konvention, dokument-layout-standard, umlaute-konvention,
   identifikatoren-verifizieren (Projektnr./Adresse/Parzelle/Termine), bkp-2017-referenz,
-  auftrags-dekomposition; **Korrektur-Pflicht** (jeder Abgabetext via Skill `korrektur`).
+  auftrags-dekomposition, **normen-referenz** (Fundstellen-Pflicht SIA/VKF); **Korrektur-Pflicht**
+  (jeder Abgabetext via Skill `korrektur`).
 - **Vorgelagert:** planungsgrundlagen (Geodaten), machbarkeit/baurecht (Rahmen) — soweit
   vorhanden; sonst startet der Harness mit dem Programm-PDF.
 - **Nachgelagert:** volumenstudie (Volumen/STL), grobkosten-onepager (Kennzahl),
@@ -138,6 +139,14 @@ Bueroname/Logo).
   (Rule `identifikatoren-verifizieren`) — Abgabetermine sind hart, nie raten.
 - Geometrie-Parameter (Grenzabstand/Hoehe/Geschosse) sind Inputs; baurechtlich verbindliche
   Werte liefert `machbarkeit`/`baurecht`. `volumenstudie` rechnet nur die Geometrie.
+- **Flaechen-Nachweis** (`flaechen-nachweis`): GF/NGF/HNF/NNF/VF/FF/KF und GV nach
+  **SIA 416:2003** rechnen, Bezugsgroessen nie mischen — Fundstelle
+  `wissen/normen/destillate/sia-416-2003.md` (Rule `normen-referenz`). SIA 416 definiert
+  die baurechtlichen Groessen (anrechenbare Geschossflaeche, Baumassenziffer) **nicht**
+  (Ziff. 0.1) — die kommen aus `baurecht`/`machbarkeit`. **Nicht verwechseln mit
+  SIA 416/1:2007** (Kennzahlen fuer die Gebaeudetechnik) — das ist eine andere Norm und
+  sie ist seit 31.03.2015 zurueckgezogen; fuer den Flaechennachweis ist sie ohnehin nicht
+  einschlaegig.
 - STL fuers Situationsmodell: aus den `volumenstudie`-OBJ/`situationsmodell.py`-Outputs;
   Druckvorbereitung (Wandstaerke/Skalierung Einsatzmodell) als eigener, markierter Schritt.
 

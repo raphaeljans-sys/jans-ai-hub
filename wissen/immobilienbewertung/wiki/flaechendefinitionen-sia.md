@@ -12,6 +12,14 @@ Saubere Flaechenbegriffe sind die Basis jeder Bewertung — Neuwert, Mietertrag 
 Verkaufspreis haengen an der richtigen Bezugsflaeche. Massgebend ist **SIA 416** (Flaechen
 und Volumen von Gebaeuden); fuer Flaechenbedarf/Programm ergaenzend SIA 416/1 und SIA 2024.
 
+> ⚠ **Fassungsvermerk (Wissens-Chef Run 37, 19.08.2026), nur zum Glied «SIA 416/1»:** diese
+> Ergaenzungsnorm (**SIA 416/1:2007**, «Kennzahlen fuer die Gebaeudetechnik») ist **zurueckgezogen**
+> — gueltig 01.07.2007 bis 31.03.2015, ersetzt durch **SIA 380:2015**, die nicht im Haus liegt
+> (Ticket `N57-2`, Normen-Nacht Run 57, zwei Primaerquellen). **Die massgebende SIA 416:2003 ist
+> davon nicht betroffen und gilt** — die gesamte Hierarchie unten bleibt unveraendert gueltig.
+> Fuer Flaechenbedarf/Raumprogramm ist ohnehin **SIA 2024** die einschlaegige Quelle; SIA 416/1
+> regelt gebaeudetechnische Kennzahlen (EBF), nicht den Flaechenbedarf.
+
 ## Kernbegriffe — kanonische SIA-416-Hierarchie (Norm 416:2003, S. 8-13)
 
 Massgebend ist die **SN 504 416, SIA 416:2003 «Flaechen und Volumen von Gebaeuden»**

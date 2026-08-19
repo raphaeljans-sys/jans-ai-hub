@@ -12,14 +12,26 @@ mit Projektbeleg** — im Einzelfall an BZO-Definition und Bestand anpassen.
 Flächenauszug-Pläne werden mit Norm-Vermerk **"SIA 416"** beschriftet.
 
 ## JANS-Flächenfaktoren (Beleg: Ebmatingen "2412 Flächenkonzeption Wohnen")
+
+> **Bezugsgrösse immer mitlesen (Vermerk Wissens-Chef Run 37, 19.08.2026).** Die Tabelle führt
+> drei verschiedene HNF/GF-Quotienten, die sich nur im **Perimeter** unterscheiden: oberirdisch
+> 0.80, ganzes Gebäude inkl. TG/UG 0.50, Wohn-Regelgeschoss 0.75. Alle drei sind wortgetreue
+> Abschrift des Beleg-Dokuments (Im Grossacher 2, 8123 Ebmatingen, R. Jans 26.11.2024) und
+> **projektgemessen, nicht normativ**. Sie widersprechen den Werten der KB
+> `wissen/immobilienbewertung/wiki/flaechendefinitionen-sia.md` (0.60 ganzes Gebäude) **nicht** —
+> jene stammen aus einem anderen Projekt (Haselstudstrasse 12, Wald) und aus einem Perimeter
+> **ohne** Tiefgarage; rechnet man Ebmatingens TG (211 m² GF, HNF 0) heraus, ergibt sich
+> 500/787 = 0.635. Für die m²↔m³-Kostenbrücke gilt weiterhin der triangulierte Wert 0.60 aus
+> `wissen/grobkosten/wiki/kennwerte.md`. **Offen (Fachentscheid Raphael):** 0.70 gegen 0.75 fürs
+> Regelgeschoss, Ticket `T-Regelgeschoss` in `wissen/immobilienbewertung/wiki/wissensluecken.md`.
 | Faktor | Wert | Bedeutung |
 |---|---|---|
 | aGF → GF Regelgeschoss | **1.10** | +10 % Fassaden-/Konstruktionszuschlag |
 | Vollgeschoss-Faktor | **3.00** | VGZ+1 (DG/Attika zählt dazu) |
-| HNF → GF | **0.80** | (Spanne 0.77–0.84) |
+| HNF → GF **oberirdisch (oi)** | **0.80** | nur oberirdische Wohn-GF (Original: «HNF zu GF oi»; 500/640 = 0.78). Die Spanne 0.77–0.84 mischt zwei Quotienten — 0.84 ist HNF/aGF je Regelgeschoss |
 | HNF → aGF | **1.25** | Kehrwert ≈ 0.80 |
 | GF → GV (Baumasse) | **0.33** | grob GV = GF/0.33 ≈ ×3 |
-| HNF / GF ganzes Gebäude | **0.50** | inkl. Sockel/Attika/Technik |
+| HNF / GF ganzes Gebäude | **0.50** | **inkl. Tiefgarage/UG**, Sockel/Attika/Technik |
 | HNF / GF nur Wohn-Regelgeschosse | **0.75** | reine Wohngeschosse |
 | Fensterquotient FF/FAW | **~0.30** | guter Wert (WOMA) |
 

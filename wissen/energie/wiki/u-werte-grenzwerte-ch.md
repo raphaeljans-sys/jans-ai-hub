@@ -140,6 +140,8 @@ Schächte/Abstellräume < 10 m². **Nicht dazu:** Garagen/Fahrzeugflächen, Schu
 betriebstechnische Räume, Abstellräume (auch wenn beheizt). Wer die EBF falsch abgrenzt, rechnet
 Q_H, Minergie-Kennzahl **und** PV-Pflicht (10 W/m² EBF) falsch. Detail → `[[enfk-en-02-waermeschutz-2013]]`.
 
+⚠ **Fassungsvermerk (Wissens-Chef Run 37, 19.08.2026):** **SIA 416/1:2007 ist zurückgezogen** (gültig 01.07.2007 bis 31.03.2015), ersetzt durch **SIA 380:2015** (SN 504380:2015). Belegt an zwei Primärquellen (SIA-Shop-Produktdatenblatt «archivierter Titel»; Titelblatt der SIA 380:2015 «Ersatz für SIA 416/1:2007»), Normen-Nacht Run 57. **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`). Der EBF-**Begriff** lebt in der Nachfolgenorm weiter — überholt ist die **Fundstelle**, nicht zwingend die Abgrenzung. Ob der kantonale Vollzug (EVEN/EnFK) seinen statischen Verweis nachgeführt hat, ist **nicht geprüft**.
+
 ## ⚠ Versionsabgleich EN-2 (2013, SIA 380/1:2009) ↔ EN-102 (2018)
 Zwischen den EnFK-Vollzugshilfen-Ausgaben gibt es Abweichungen — für den Nachweis gilt die im
 Kanton aktuell verbindliche Ausgabe (ZH heute SIA 380/1:2016 / EVEN):

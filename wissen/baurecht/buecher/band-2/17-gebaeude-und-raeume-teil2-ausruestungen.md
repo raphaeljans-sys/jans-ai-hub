@@ -71,6 +71,14 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
   Warnkarte, keine Zitierquelle; vor jeder Verwendung am Original nachlesen. Fuer den
   **kantonalen Vollzug** bleibt die hier zitierte Vollzugshilfe EN-2 massgebend; die beiden
   Definitionen sind nicht ungeprueft gleichzusetzen.)*
+  *(⚠ Nachtrag Wissens-Chef Run 37, 19.08.2026 — ebenfalls rein additiv, Buchinhalt und
+  Seitenbelege unveraendert: die oben als «normative Fundstelle» bezeichnete **SIA 416/1:2007
+  ist selbst zurueckgezogen** — gueltig 01.07.2007 bis 31.03.2015, seit 01.04.2015 ersetzt durch
+  **SIA 380:2015** (SN 504380:2015). Belegt an zwei Primaerquellen (Normen-Nacht Run 57,
+  19.08.2026): SIA-Shop-Produktdatenblatt «archivierter Titel» und Titelblatt der SIA 380:2015
+  «Ersatz fuer SIA 416/1:2007». **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`). Damit ist
+  hier keine geltende Norm-Fundstelle mehr benannt; der Satz oben zum Vorrang der
+  **Vollzugshilfe EN-2 fuer den kantonalen Vollzug** bleibt davon unberuehrt richtig.)*
 - **Nachweis Waermedaemmung:** System-/Mindestanforderung nach SIA 380/1 (≥ 80 % der
   zulaessigen Waermebedarfe gedeckt) ODER Einzelbauteil-Nachweis (Grenzwerte je Bauteil)
   (S. 1260). **§ 18 BBV I:** «andere Vorkehren» zur Waermedaemmung moeglich.
