@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.08.2026 07:26:20
+Stand: 19.08.2026 07:36:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:58)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 07:26:20
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b6a254f2 vollgas-fruehwarnung 19.08.2026: Logeintrag (Verbrauch tiefster Tag der Reihe, Destillat-Korpus ohne Taktgeber)
+- de7b2a18 nas-selfcommit: 2 Datei(en) 2026-08-19 07:30

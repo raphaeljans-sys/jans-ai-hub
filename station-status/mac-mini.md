@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 07:28:10
+Stand: 19.08.2026 07:38:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 07:28:10
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- b6a254f2 vollgas-fruehwarnung 19.08.2026: Logeintrag (Verbrauch tiefster Tag der Reihe, Destillat-Korpus ohne Taktgeber)
+- de7b2a18 nas-selfcommit: 2 Datei(en) 2026-08-19 07:30
