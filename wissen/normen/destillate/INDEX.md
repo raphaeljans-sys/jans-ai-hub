@@ -8,8 +8,17 @@ Aufbau je Destillat: «Das Wichtigste in 3 Sätzen» · Geltungsbereich · Kernz
 Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begriffe ·
 **JANS-Praxis-Transfer** (welcher Skill nutzt was) · offene Punkte.
 
+> ⚠ **VKF-Fassungsstand (Sweep Run 58, 20.08.2026).** Der VKF-Publikationsindex ist erstmals
+> abgeglichen worden. **23 VKF-Destillate beruhen auf einer überholten Fassung** und tragen
+> seither einen Warnkasten sowie den Status `superseded` — die Statusspalte unten kann bei
+> VKF-Zeilen älter sein als die Datei. Massgebend ist die Matrix in
+> `training/n58-vkf-fassungsmatrix-260820.md` und `wiki/REGISTER.md`, Abschnitt D.
+> Besonders: **BRL 12-15 und 26-15 gelten in der Fassung 01.04.2026** (Teilrevision, destilliert
+> in `vkf-teilrevision-2026-pyrotechnik.md`), **BRL 103-15 ist zurückgezogen**.
+
 | Destillat | Norm | Ausgabe | Status |
 |---|---|---|---|
+| `vkf-teilrevision-2026-pyrotechnik.md` | VKF-Teilrevision 2026 (BRL 12-15 + 26-15), Pyrotechnik | in Kraft 01.04.2026 | speculative (Erstdestillat Run 58, Wortlaut-Diff beider Fassungen; keine Refuter-Runde) |
 | `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | established (verifiziert 260714, Stichprobe 13 Normen-Nummern, 1 Fehler in REGISTER.md korrigiert) |
 | `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | established (verifiziert 260714, Volltextabgleich) |
 | `sia-102-2020.md` | SIA 102 Leistungen + Honorare Architekten | 2020 | established, vollständig verifiziert 260714 (71 Aussagen, 0 Fehler, Art. 5 + Teilphasen 4.3/4.4/4.53/4.6 ergänzt) |

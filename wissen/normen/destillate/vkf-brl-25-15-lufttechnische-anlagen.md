@@ -5,13 +5,24 @@ ausgabe: "VKF-BRL 25-15 Lufttechnische Anlagen, 01.01.2015"
 ersetzt: ""
 gelesen: "S. 1-29 (komplett: Titelblatt, Inhaltsverzeichnis, Ziff. 1-8, kompletter Anhang inkl. Legende)"
 datenstand: "2015 (in Kraft 01.01.2015)"
-status: established (verifiziert)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 80aabbf40ca5c555f8e8cf5fc206d368). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 29/29 Seiten, keine Sachfehler gefunden, 1 Praezisierung Sicherheitsabstaende Ziff. 4.3.1 Anhang S. 27)"
 links: [[vkf-brandschutznorm-2015]] [[vkf-brl-16-15-flucht-rettungswege]] [[vkf-brl-verwendung-baustoffe]] [[vkf-brl-nachweisverfahren]] [[REGISTER]]
 ---
 
 # VKF-BRL 25-15 — Lufttechnische Anlagen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `80aabbf40ca5c555f8e8cf5fc206d368`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Brandschutzrichtlinie 25-15 regelt Aufstellung und Betrieb lufttechnischer Anlagen (Lüftung/Klima), damit sie im Störungsfall keine Brand-/Rauchausbreitung über Brandabschnitte hinweg verursachen: Kernwerkzeuge sind Baustoffanforderungen an Leitungen/Apparate (RF1/RF3), Brandschutzklappen (EI 30-S) bzw. Absperrvorrichtungen an Brandabschnittsgrenzen sowie eine Brandfallsteuerung, die die Anlage bei Ansprechen von Brandmelde-/Löschanlagen selbsttätig ausschaltet (Ziff. 1-3, S. 4-8). Für Sonderfälle (erhöhte Lufttemperatur ≥85°C, feuer-/explosionsgefährdete Bereiche, aggressive Medien, Fluchtwege, Küchen, Schutzbauten) gelten verschärfte Zusatzanforderungen (Ziff. 4, S. 9-11). Der umfangreiche Anhang (S. 12-29) übersetzt die Richtlinie in Regelbeispiele (Einfamilienhaus, Mehrfamilienhaus, Schulbauten, Beherbergungsbetriebe, Gebäude mit gemischter Nutzung) mit der Kernregel, wann Brandschutzklappen zwingend sind (Lüftungsabschnitts-Flächengrenzen 600 m²/1'200 m² je Nutzung).

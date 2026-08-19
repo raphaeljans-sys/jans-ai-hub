@@ -4,12 +4,23 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 106-15de"
 gelesen: "S. 1-14 komplett (inkl. Anhang mit Prinzipschemata)"
 datenstand: "2015"
-status: established (verifiziert 260714)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 adc9e5a34e15655ae65a7c324b5f3e9a). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]]
 ---
 
 # VKF-Brandschutzerläuterung 106-15 Pelletsfeuerungen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `adc9e5a34e15655ae65a7c324b5f3e9a`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 

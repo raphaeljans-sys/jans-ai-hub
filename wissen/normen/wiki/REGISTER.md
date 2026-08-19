@@ -372,7 +372,44 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
 ## D) Nicht-SIA-Familien (Gültigkeit)
 
 - **VKF:** Bestand = **Brandschutzvorschriften 2015** (Norm 1-15 + Richtlinien/Erläuterungen 2015,
-  inkl. Änderungen 2016/2017). Aktuellere BSV (Revision) nur auf Zuruf beschaffen — offene Frage.
+  inkl. Änderungen 2016/2017). ⚠ **Dieser Satz war seit Run 5 unvollständig und ist am
+  20.08.2026 überholt worden** — siehe die Fassungsmatrix unmittelbar darunter.
+
+  ### ✅ VKF-Fassungsmatrix — Publikationsindex erstmals abgeglichen (Run 58, 20.08.2026)
+
+  **Damit ist der Auftrag N27-1 erfüllt.** Der VKF-Publikationsindex ist erstmals abgefragt
+  worden, nicht nur für 22-15, sondern für alle 35 Publikationen mit KB-Destillat. Ergebnis:
+  **23 Destillate beruhten auf einer überholten Fassung, ohne die geltende irgendwo zu führen**;
+  der KB fehlten die Fassungsstufen **2019, 2020, 2022, 2025 und 2026** vollständig.
+
+  **Die vollständige Matrix mit Dokumentnummern, Fassungsdaten und MD5 steht in
+  `training/n58-vkf-fassungsmatrix-260820.md`** — dort nachschlagen, nicht neu beschaffen.
+  Die 23 betroffenen Destillate tragen seit dem 20.08.2026 einen Fassungs-Warnkasten und den
+  Status `superseded`.
+
+  Die vier gewichtigsten Einzelbefunde:
+
+  | Publikation | geltend | Bedeutung |
+  |---|---|---|
+  | **BRL 12-15** Brandverhütung/organisat. Brandschutz | **01.04.2026** | Teilrevision IOTH 06.03.2026, Pyrotechnik neu geordnet — destilliert in `destillate/vkf-teilrevision-2026-pyrotechnik.md` |
+  | **BRL 26-15** Gefährliche Stoffe | **01.04.2026** | dieselbe Teilrevision; **F1-Feuerwerk in öffentlich zugänglichen Räumen neu verboten** |
+  | **BRL 103-15** Cheminées | 01.01.2017, **zurückgezogen 31.08.2025** | die KB führte sie als `established`; Nachfolgeregelung nicht ermittelt (N58-2) |
+  | **BRL 10-15** Begriffe und Definitionen | **01.01.2019** | Grundlagenrichtlinie — Definitionsänderungen wirken auf alle übrigen Richtlinien |
+
+  Ferner geltend, aber in der KB nicht destilliert: **11-15** (01.01.2019), **40-15**
+  (11.06.2025), **104-15** (01.12.2022), **108-15** (01.01.2020) sowie 17-15, 18-15, 20-15,
+  21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15
+  (alle 01.01.2017).
+
+  ⚠ **Zwei Werkzeug-Fallen, in diesem Lauf belegt.** (1) Der REST-Index der VKG ist ohne
+  API-Key nicht abrufbar (HTTP 400); frei ist nur der Dokument-Content — der Index kommt über
+  die HTML-Seite `bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015`. (2) Das Feld
+  `vkgPubSamStatus` steht bei **allen** Einträgen auf «aktuell», auch bei der zurückgezogenen
+  103-15; es bedeutet «aktuell publiziert», **nicht «in Kraft»**. Die Gültigkeitsaussage steht
+  allein im Titelfeld.
+
+  **Was der Sweep NICHT geleistet hat:** Er stellt fest, *dass* eine jüngere Fassung gilt, nicht
+  *was* sie ändert. Ausser für die Teilrevision 2026 ist kein Fassungs-Delta destilliert.
 
   **VKF-BRL 22-15de «Blitzschutzsysteme» — Fassungsstand (Zeile nachgetragen im Cross-KB-Lauf
   Run 27, 06.08.2026; das Register führte bis dahin gar keine Zeile zu 22-15, obwohl das
@@ -494,7 +531,7 @@ Gültigkeitsangaben direkt aus dem Titelblatt/Vorwort des jeweiligen Destillats 
 | SIA 112 | 2014 (SN 509 112:2014, gültig ab 2014-11-01) | SIA 112:2001 | gilt; Verständigungsnorm «Modell Bauplanung» |
 | SIA 416 | 2003 | SIA 416:1993 + SIA 116:1952 | gilt (bestätigt Register-Abschnitt B «116→416») |
 | SIA 451 | 1992 | SIA 451:1989 | gilt; technisch (LV-Datenformate), Kontext CRB/NPK |
-| VKF 1-15 Brandschutznorm | 2015 (in Kraft 01.01.2015) | BSN 2003 | gilt; BSV 2015 rechtsgültig (BSV 2026 frühestens nach IOTH-Plenum 03/2027, siehe QUESTIONS) |
+| VKF 1-15 Brandschutznorm | 2015 (in Kraft 01.01.2015) | BSN 2003 | gilt; BSV 2015 rechtsgültig (BSV 2026 frühestens nach IOTH-Plenum 03/2027, siehe QUESTIONS). **Ergänzt Run 58 (20.08.2026):** Die Brandschutznorm selbst trägt weiterhin die Fassung 01.01.2015 (am Titelblatt abgelesen, MD5 `9774b4dbb936`). Die **Richtlinien** dagegen sind vielfach jünger — 2017, 2019, 2020, 2022, 2025 und zuletzt die Teilrevision 01.04.2026. «BSV 2015» bezeichnet das Vorschriftenwerk, **nicht den Fassungsstand seiner Teile**; diese Verwechslung ist die Wurzel des Run-58-Befunds |
 | VKF-BRL 16-15 Flucht-/Rettungswege | Ausgabe 2015, Fassung 01.01.2017 mit Zusatzvermerk **«Stand 01.12.2022»** (Änderungsstufen: ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022 — alle drei laut Änderungsliste S. 2 «im Anhang») | BRL 16-03 | gilt; **Fassungs-Deltas geprüft Run 22 (260725), Datei `PL - 03 Brandschutz/…/BSPUB-1394520214-85.pdf`.** Ziff. 3.7 Schleusenpflicht Einstellräume: Bezugsgrösse **Brandabschnittsfläche > 1'200 m²**, in BEIDEN Fassungen wortidentisch (Haupttext S. 12) — die Meldung aus `planungsgrundlagen`, die Bezugsfläche sei von «Geschossfläche» geändert worden, betrifft nur die erläuternde Anhang-Einleitungszeile S. 33 und ist als materielle Änderung **widerlegt**. ⚠ ABER: die Personenbelegung Verkauf (Ziff. 3.5.2, Anhang S. 24) ist eine **materielle Kennwert-Änderung** — dort trägt allein der Anhang die Zahlen (Haupttext sagt nur «flächenbezogene Annahmen»): «Verkaufsgeschäfte 0.5/0.35/0.25» ersetzt durch «Fachmärkte 0.1/0.1, Supermärkte 0.38/0.15, hochfrequentierte Supermärkte 0.45/0.21» + neue Fussnote. Ferner ABSV-Änderung auch auf S. 16 (Bildlegenden von «Horizontaler Fluchtweg» auf «Gesamtlänge von Fluchtwegen» umbenannt) |
 | VKF-BRL 14-15 Verwendung von Baustoffen | Ausgabe 2015; **geltende Fassung 01.01.2017** (IOTH-Beschluss 22.09.2016) | BRL 13-03/14-03 (RF-Klassen) | gilt; **Fassung 2017 nachgetragen Run 22 (260725)** aus `PL - 03 Brandschutz/…/BSPUB-1394520214-77.pdf` — Destillat beruhte bis dahin auf der überholten Fassung 01.01.2015. 13 materielle Änderungen, u.a. neuer neunteiliger cr-Ausnahmekatalog (Ziff. 2 Abs. 3, zuvor nur drei Ausnahmen), Wegfall der Hochhaus-Sonderanforderung für Rohrleitungen/-dämmungen (Ziff. 5.1.2: einheitlich RF3/cr statt RF1/RF2 an Hochhäusern), Wegfall der RF1-Gehäusepflicht für Rauminformationssysteme in vertikalen Fluchtwegen (Ziff. 5.3). Delta Run 23 (260725) adversarial geprüft BEANSTANDET, 5 lokale Korrekturen eingearbeitet (Ziff.2 Abs.8 + Ziff.3.2.3 Abs.1 ergänzt, Fussnote[2]/[7]-Fehler korrigiert, SN-EN-60065-Fassung); die drei Kernbefunde bestätigt korrekt. Run 24 (260725) Re-Verifikation dieser 5 Korrekturen: 4/5 wortgetreu bestätigt, 1/5 (Ziff.3.2.3 Abs.1) präzisiert — einzige echte Neuerung ist der Zusatz "bzw. flächige Schichten", "Aussenwandbekleidungen" stand bereits 2015. Delta-Sorgfaltsstufe weiterhin speculative bis nächste saubere Runde; Anhang der Fassung 2017 nicht ausgewertet |
 | VKF-BRL 13-15 Baustoffe und Bauteile — Klassifikation | Ausgabe 2015; **geltende Fassung 01.01.2017** (IOTH-Beschluss 22.09.2016: Ziff. 2.4.1 Tabelle S. 8, Anhang zu Ziff. 3.4 S. 24) | — | gilt; **Fassung 2017 nachgetragen Run 22 (260725)** aus `PL - 03 Brandschutz/…/BSPUB-1394520214-71.pdf` — Destillat beruhte bis dahin auf der überholten Fassung 01.01.2015. Materiell: die EN-Klassen **E/E-d2 und EL/EL-d2 sind von RF4 auf RF3 (cr) umgestuft**, RF4 hat 2017 kein SN-EN-13501-1-Äquivalent mehr. Ausserhalb der amtlichen Änderungsliste zusätzlich gefunden: EN-Normzitate in Ziff. 2.2.6 mit Ausgabejahr versehen. Delta Run 23 (260725) adversarial geprüft **BESTANDEN** (0 Befunde), auf established gehoben |

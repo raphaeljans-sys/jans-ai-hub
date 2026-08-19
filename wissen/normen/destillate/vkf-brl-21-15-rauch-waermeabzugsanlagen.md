@@ -5,13 +5,24 @@ ausgabe: "VKF-Brandschutzrichtlinie 21-15de, Ausgabe 01.01.2015"
 ersetzt: "unbekannt (im Dokument nicht vermerkt, vermutlich Vorgänger-BSR zu Rauch-/Wärmeabzugsanlagen der VKF-Reihe vor 2015)"
 gelesen: "S. 1-17 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-9, Anhang)"
 datenstand: "2015"
-status: established (verifiziert)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 ef46ada4e9f12eb3b48401374127d625). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 17/17 Seiten gegengeprueft; 3 Praezisierungen: Ziff. 3.1 Bandbreite, Anhang S.14 Ersteller-/Hersteller-Vorgaben ergaenzt, Urheberrechts-Vermerk praezisiert)"
 links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-nachweisverfahren]]
 ---
 
 # VKF-BRL 21-15de:2015 — Rauch- und Wärmeabzugsanlagen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `ef46ada4e9f12eb3b48401374127d625`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie legt fest, in welchen Bauten und Anlagen Massnahmen für den Abzug von Rauch und Wärme sowie für die Rauchfreihaltung im Brandfall vorzukehren sind, und regelt die Grundsätze und Anforderungen bei der Planung solcher Anlagen (Ziff. 1, S. 4). Sie unterscheidet zwei Anlagekategorien: Anlagen ohne Leistungsnachweis (Feuerwehr-Lüfter LRWA, maschinelle MRWA oder natürliche NRWA mit festgelegten Luftwechselraten resp. Zu-/Abluftflächen) und Anlagen mit Leistungsnachweis, deren Wirksamkeit gemäss der Brandschutzrichtlinie «Nachweisverfahren im Brandschutz» nachzuweisen ist (Ziff. 2, S. 4). Separat geregelt sind Rauchschutz-Druckanlagen (RDA) zur Rauchfreihaltung von Flucht- und Rettungswegen mittels Druckkaskade, die für ihren Wirknachweis ebenfalls einen Leistungsnachweis nach derselben Nachweis-Richtlinie benötigen (Ziff. 2.5, S. 4).

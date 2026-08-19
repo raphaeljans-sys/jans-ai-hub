@@ -61,7 +61,21 @@ Bei jeder Brandschutz-Anfrage sind diese beiden Quellen primaer auszuwerten — 
 - `00 Brandschutznachweis.ch/` — Online-Tool Brandschutznachweise (Snapshots, Logins)
 - `00 Brandschutzplaene bsvonline.ch/` — Online-Tool Brandschutzplaene (BSV)
 - `01 Brandschutznorm 2015/` — VKF-Brandschutznorm 2015 (Stammdokument)
-- `02 Brandschutzrichtlinien 2015-17-22/` — alle VKF-BSR inkl. Aktualisierungen 2017/2022 (z.B. BSR 13-15 Baustoffe und Bauteile, BSR 14-15 Flucht- und Rettungswege, BSR 16-15 Brandschutzabschluesse)
+- `02 Brandschutzrichtlinien 2015-17-22/` — VKF-Brandschutzrichtlinien, Hausbestand (z.B. BSR 13-15 Baustoffe und Bauteile, **BSR 14-15 Verwendung von Baustoffen**, **BSR 15-15 Brandschutzabstaende/Tragwerke/Brandabschnitte**, **BSR 16-15 Flucht- und Rettungswege**)
+  ⚠ **Zwei Korrekturen am 20.08.2026 (Normen-Run 58), belegt am amtlichen VKF-Publikationsindex:**
+  (1) Die Nummernzuordnung war vertauscht — hier stand «BSR 14-15 Flucht- und Rettungswege» und
+  «BSR 16-15 Brandschutzabschluesse»; richtig ist 14-15 = Verwendung von Baustoffen und
+  16-15 = Flucht- und Rettungswege. Eine BSR «Brandschutzabschluesse» gibt es im Verzeichnis nicht.
+  (2) **Der Ordnername ist irrefuehrend: der Hausbestand ist ganz ueberwiegend die Fassung
+  01.01.2015.** Der Abgleich des VKF-Publikationsindex hat ergeben, dass **23 Richtlinien in einer
+  juengeren Fassung gelten** (2017, 2019, 2020, 2022, 2025 und die Teilrevision **01.04.2026**).
+  **Vor jeder normativen Auskunft die geltende Fassung pruefen:** Matrix mit Dokumentnummern und
+  Fassungsdaten in `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`, Bezug der geltenden
+  PDFs ueber `https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-<NR>.pdf/content`.
+  Besonders: **BSR 103-15 «Cheminées» ist am 31.08.2025 zurueckgezogen**, und **Pyrotechnik/Feuerwerk
+  ist seit 01.04.2026 neu geregelt** (Destillat `wissen/normen/destillate/vkf-teilrevision-2026-pyrotechnik.md`:
+  F1-Feuerwerk in oeffentlich zugaenglichen Raeumen neu verboten, die Auskunft «Kategorie 1 ist
+  ausgenommen» ist seither falsch).
 - `03 Verzeichnisse Brandschutz 2015/` — VKF-Verzeichnisse anerkannter Produkte
 - `04 Erlaeuterungen Brandschutz 2015/` — VKF-Erlaeuterungen
 - `05 Arbeitshilfen Brandschutz 2015/` — VKF-Arbeitshilfen / Pruefraster

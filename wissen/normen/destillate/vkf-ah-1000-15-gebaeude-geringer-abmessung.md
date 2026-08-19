@@ -4,12 +4,23 @@ herausgeber: "VKF (Vereinigung Kantonaler Feuerversicherungen)"
 ausgabe: "01.01.2015 / 1000-15de, genehmigt durch die Technische Kommission VKF am 23.09.2014"
 gelesen: "S. 1-20 komplett (inkl. Anhang mit Fluchtweg-Schemaplänen)"
 datenstand: "2015"
-status: established (verifiziert 260714)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 d422de8958ebfc3f2fd0484295a76c22). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]]
 ---
 
 # VKF-Arbeitshilfe 1000-15: Gebäude mit geringen Abmessungen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `d422de8958ebfc3f2fd0484295a76c22`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 

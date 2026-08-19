@@ -5,13 +5,24 @@ ausgabe: "VKF-BRL 18-15de, 01.01.2015"
 ersetzt: "unbekannt (Vorgänger-Ausgabe nicht im Bestand geprüft)"
 gelesen: "S. 1-10 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-8, Anhang)"
 datenstand: "2015"
-status: established (verifiziert)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 77ca901487d6cc418c64c22861ccd5db). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro — alle Ziffern/Kennwerte gegen Original S. 1-10 gegengeprüft, eine Ungenauigkeit in Anhang-Tabelle S. 8 korrigiert"
 links: [[REGISTER]]
 ---
 
 # VKF-BRL 18-15de — Löscheinrichtungen (01.01.2015)
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `77ca901487d6cc418c64c22861ccd5db`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Brandschutzrichtlinie 18-15 «Löscheinrichtungen» legt fest, welche allgemeinen Anforderungen Löschgeräte (Handfeuerlöscher, Wasserlöschposten), Trockenlöschanlagen, spezielle Kühl- und Löschanlagen sowie Löschleitungen mit Innenhydranten erfüllen müssen und wo/wann sie in Bauten und Anlagen bereitzustellen sind (Ziff. 1, S. 4). Die Notwendigkeit von Löscheinrichtungen richtet sich nach Personenbelegung, Bauart, Lage, Ausdehnung und Nutzung; der Anhang (S. 8) enthält eine Tabelle mit Wasserlöschposten (WLP)/Handfeuerlöscher (HFL)-Pflicht je Nutzungskategorie. Kernanforderungen betreffen Standort/Zugänglichkeit/Anzahl der Löschgeräte (max. 40 m Gehweglinie), Ausführung der Wasserlöschposten (DN 32, 3 bar Ruhedruck, 16 l/min) und der Löschleitungen für Hochhäuser (16 bar, DN 80, Steigleitung nass/trocken).

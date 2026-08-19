@@ -4,12 +4,23 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 20-15de, 01.01.2015"
 gelesen: "S. 1-15 (komplett: Ziff. 1-7 vollstaendig, Anhang S. 13-15 vollstaendig)"
 datenstand: "2015"
-status: established
-last_updated: 2026-07-13
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 db5fb1aae72b280456547fd2232d90bd). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]]
 ---
 
 # VKF-BRL 20-15de:2015 — Brandmeldeanlagen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `db5fb1aae72b280456547fd2232d90bd`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie legt fest, welche allgemeinen Anforderungen Brandmeldeanlagen (BMA) erfüllen müssen und wo/wann Bauten und Anlagen mit einer BMA zu überwachen sind (Ziff. 1); Detailanforderungen an Planung, Einbau, Betrieb und Wartung sind explizit nicht Gegenstand der Richtlinie, sondern richten sich nach dem Stand der Technik (VKF-anerkannte technische Spezifikationen, Ziff. 3.8.1). Kernpunkte sind die Notwendigkeitskriterien je Nutzung (Ziff. 2, insbesondere Beherbergungsbetriebe mit fixen Personen-/Geschosszahlen), der Überwachungsumfang inkl. abschliessender Liste ausgenommener Bereiche (Ziff. 3.2), die Anforderungen an Alarmierung/Meldergruppen/Dokumentation (Ziff. 3.3-3.8) sowie das Projekt-/Kontroll-/Beurteilungsverfahren über VKF-Formulare (Ziff. 4, inkl. periodische Beurteilung nach 15 Jahren Betriebsdauer).

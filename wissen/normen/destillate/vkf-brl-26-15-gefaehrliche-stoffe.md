@@ -4,13 +4,24 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 26-15de: 01.01.2015"
 gelesen: "vollstaendig, S. 1-26 (Ziff. 1-13 + Anhang zu Ziff. 1, 2, 3.6.1, 3.6.2, 5.2, 8.2, 10.1, 11)"
 datenstand: "2015"
-status: "established (verifiziert)"
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.04.2026, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.04.2026 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 90813af41a3cc2e663a6815cc6e96eb5). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 26/26 Seiten, 2 Luecken ergaenzt: Ziff. 5.2.1 Heizraum-Kleintanks + Anhang Ziff. 5.2 Verkaufsraum-Sonderregel)"
 links: [[REGISTER]]
 ---
 
 # VKF-BRL 26-15de — Gefährliche Stoffe
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.04.2026**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `90813af41a3cc2e663a6815cc6e96eb5`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie regelt die brandschutzrelevanten Anforderungen an Lagerung und Umgang mit gefährlichen Stoffen und Zubereitungen ab einer Menge von 100 kg, sofern nicht explizit andere Mengen genannt sind (Ziff. 1, S. 5). Sie klassiert die Stoffe nach dem GHS-System (Global Harmonisiertes System, H-Sätze) und legt darauf aufbauend zulässige Lagermengen je Brandabschnitt, bauliche/technische/betriebliche Anforderungen sowie stoffspezifische Zusatzanforderungen fest (Gase, brennbare Flüssigkeiten, oxidierende Stoffe, Stoffe mit besonderem Brandverhalten, Reifen, Zapfstellen Benzin, Hochregallager, pyrotechnische Gegenstände) (Ziff. 2-11, S. 5-18). Verbindlich erklärt durch das IVTH-Organ am 18.09.2014, in Kraft seit 1.1.2015, gilt für alle Kantone (Ziff. 13, S. 18).

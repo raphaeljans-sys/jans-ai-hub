@@ -5,13 +5,24 @@ ausgabe: "VKF-Brandschutzrichtlinie 12-15de, Fassung 01.01.2015"
 ersetzt: "unbekannt (im PDF nicht vermerkt)"
 gelesen: "S. 1-16 (komplett: Titelblatt, Inhaltsverzeichnis, Ziff. 1-9, Anhang)"
 datenstand: "2015-01-01"
-status: established (verifiziert)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.04.2026, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.04.2026 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 393cccfa865bdc4c854d2357d0c05f09). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 16/16 Seiten, keine Abweichungen gefunden)
 links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
 ---
 
 # VKF-BRL 12-15de — Brandverhütung und organisatorischer Brandschutz
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.04.2026**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `393cccfa865bdc4c854d2357d0c05f09`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie regelt die allgemeine und nutzungsbezogene Brandverhütung, den organisatorischen Brandschutz (Instandhaltung, Sicherheitsbeauftragte, Dekorationen), den Brandschutz auf Baustellen sowie die Sicherheitsorganisation Brandschutz und Brandbekämpfung in Betrieben (Ziff. 1, S. 4). Sie ist primär eine Pflichten- und Organisationsnorm (wer muss was tun), nicht eine bauteilbezogene Anforderungsnorm wie die Brandschutznorm oder die Nachweisverfahren-Richtlinie. In Kraft seit 1. Januar 2015, interkantonal verbindlich erklärt durch das IVTH-Organ am 18.09.2014 (Ziff. 9, S. 12).

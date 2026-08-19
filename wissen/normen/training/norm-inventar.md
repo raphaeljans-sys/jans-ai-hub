@@ -1030,6 +1030,22 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 
 ## VKF (49 Dateien)
 
+> ⚠⚠ **FASSUNGSSTAND — Sweep Run 58 (20.08.2026).** Die Abhaken-Spalte dieses Abschnitts sagt,
+> dass die **Hausbestand-Datei** destilliert ist. Sie sagt **nicht**, dass es die geltende
+> Fassung war. Der erstmalige Abgleich des VKF-Publikationsindex hat ergeben: **23 der
+> destillierten VKF-Publikationen sind ueberholt**, der Hausbestand ist ganz ueberwiegend die
+> Fassung 01.01.2015. Fehlende Stufen in der KB: **2019, 2020, 2022, 2025, 2026**.
+>
+> **Massgebend ist ab sofort `training/n58-vkf-fassungsmatrix-260820.md`** (Dokumentnummern,
+> Fassungsdaten, MD5, Zugangsweg) und `wiki/REGISTER.md`, Abschnitt D. Besonders:
+> **BRL 12-15 und 26-15 gelten in der Fassung 01.04.2026** (Teilrevision IOTH 06.03.2026,
+> destilliert), **BRL 103-15 «Cheminées» ist am 31.08.2025 zurueckgezogen**.
+>
+> **Ein `[x]` in diesem Abschnitt ist damit ein Beleg fuer geleistete Destillierarbeit, kein
+> Gueltigkeitsnachweis.** Die Fassungs-Deltas sind bis auf die Teilrevision 2026 nicht
+> destilliert (QUESTIONS N58-1).
+
+
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |
 |---|---|---|---|---|---|
 | [x] 260712 | P1 | `01_Brandschutznorm 2015/1-15_Brandschutznorm.pdf` |  |  |  |

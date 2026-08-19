@@ -5,12 +5,23 @@ ausgabe: "VKF-Brandschutzrichtlinie 24-15de, 01.01.2015"
 ersetzt: "keine Angabe im Dokument; Titelblatt ohne Revisionsvermerk (im Unterschied zu BRL 16-15, die 2016 revidiert wurde)"
 gelesen: "S. 1-42 (komplett: Ziff. 1-9 vollständig, Anhang S. 18-42 komplett inkl. aller Tabellen/Klassifizierungen)"
 datenstand: "2015, in Kraft 01.01.2015"
-status: established
-last_updated: 2026-07-13
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 379a079b9c8fe4fd74146cc41de0d82a). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]]
 ---
 
 # VKF-BRL 24-15de:2015 — Wärmetechnische Anlagen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `379a079b9c8fe4fd74146cc41de0d82a`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie regelt Aufstellung und Betrieb von wärmetechnischen Anlagen (Wärmeerzeugungsaggregate wie Feuerungen, Wärmepumpen, Kachel-/Speicheröfen, Cheminées, Kochherde) sowie die damit verbundene Ableitung der Abgase und Lagerung von Brennstoffen (Ziff. 1). Kernanforderungen sind die Feuerwiderstände der Aufstellräume/Heizräume nach Nennwärmeleistung (EI 30 bis 70 kW, EI 60 über 70 kW, Ziff. 3.3), die Sicherheitsabstände zu brennbarem Material nach Oberflächentemperatur (0.1/0.2/0.4 m, Ziff. 3.11) sowie die Klassifizierung und der feuerwiderstandsgerechte Einbau von Abgasanlagen (Ziff. 5, Anhang S. 27-28). Die Richtlinie enthält im Anhang umfangreiche, urheberrechtlich geschützte Prinzipzeichnungen und Tabellen zur praktischen Anwendung, die hier nur sinngemäss zusammengefasst sind.

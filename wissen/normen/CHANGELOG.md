@@ -1,3 +1,39 @@
+## 2026-08-20 (Normen-Nacht Run 58, MacBook Pro) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate ueberholt
+
+- **N27-1 GESCHLOSSEN.** Der seit Run 27 (06.08.2026) offene Auftrag «VKF-Publikationsindex
+  abfragen» ist erfuellt, und zwar breiter als beauftragt: nicht nur fuer BRL 22-15, sondern
+  fuer **alle 35 VKF-Publikationen mit KB-Destillat**. Zugangsweg gefunden und belegt: der
+  REST-Index der VKG ist ohne API-Key gesperrt (HTTP 400), der Index kommt ueber den
+  Astro-JSON-Payload der Seite `bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015`
+  (83 deutschsprachige Eintraege), die Dokumente frei ueber den `services.vkg.ch`-Endpunkt.
+- **Kernbefund: 23 Destillate beruhten auf einer ueberholten Fassung**, ohne die geltende
+  irgendwo zu fuehren. Der KB fehlten die Fassungsstufen **2019, 2020, 2022, 2025 und 2026**
+  vollstaendig. Alle 23 tragen seither einen Fassungs-Warnkasten, das Frontmatter-Feld
+  `gueltigkeit` und den Status **`superseded`** statt `established` (Diff gemessen: 23 Dateien,
+  +301/-46; alle 46 Loeschungen sind die je Datei ersetzten Zeilen `status:` und
+  `last_updated:`, kein fremder Inhalt — Rule 260811).
+- **Die Teilrevision 2026 war der KB voellig unbekannt.** Das IOTH hat am **06.03.2026**
+  Aenderungen an BRL 12-15 und 26-15 genehmigt, **in Kraft seit 01.04.2026**. Neues Destillat
+  `destillate/vkf-teilrevision-2026-pyrotechnik.md` mit dem Wortlaut-Diff beider Fassungen:
+  Bühnenpyrotechnik **T1-T2** bleibt bewilligungspflichtig, Feuerwerk **F1-F4** richtet sich neu
+  allein nach BRL 26-15 Ziff. 11.1.3 — und dort ist **F1 in oeffentlich zugaenglichen Raeumen
+  neu verboten**, im privaten Bereich ausdruecklich erlaubt. Die frueher gaengige Auskunft
+  «Kategorie 1 ist ausgenommen» ist seit dem 01.04.2026 falsch.
+- **BRL 103-15 «Cheminées» ist am 31.08.2025 zurueckgezogen worden** — die KB fuehrte sie als
+  `established`. Belegqualitaet ausdruecklich ausgewiesen: der Rueckzug steht nur in der
+  Portal-Annotation, das PDF selbst traegt keinen Vermerk (N58-2).
+- **Werkzeug-Falle festgehalten:** das Indexfeld `vkgPubSamStatus` steht bei **allen** 83
+  Eintraegen auf «aktuell», auch bei der zurueckgezogenen 103-15. Es bedeutet «aktuell
+  publiziert», **nicht «in Kraft»**. Wer darauf baut, haelt eine zurueckgezogene Richtlinie
+  fuer geltend.
+- **Nachgefuehrt:** `wiki/REGISTER.md` (Abschnitt D um die Fassungsmatrix erweitert, Zeile
+  VKF 1-15 praezisiert — «BSV 2015» bezeichnet das Vorschriftenwerk, nicht den Fassungsstand
+  seiner Teile), `destillate/INDEX.md` (Warnblock + neues Destillat), `wiki/QUESTIONS.md`
+  (N27-1 geschlossen, **N58-1 bis N58-4** neu), `training/n58-vkf-fassungsmatrix-260820.md`
+  (neu — die Matrix mit Dokumentnummern, Fassungsdaten und MD5, damit kuenftige Laeufe nicht neu
+  beschaffen muessen), Lauf-Report `outputs/2026-08-20_normen-nacht-run58.md`.
+- **Stationssplit eingehalten:** nur SIA/VKF; DIN, VSS und RAL nicht angefasst.
+
 ## 2026-08-19 (Normen-Nacht Run 57, MacBook Pro) — N56-1 geschlossen; SIA 416/1:2007 ist zurueckgezogen
 
 - **N56-1 GESCHLOSSEN.** Refuter-Runde auf den fuenf zuletzt offenen Seiten von

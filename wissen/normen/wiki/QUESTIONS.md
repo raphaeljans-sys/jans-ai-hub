@@ -1,5 +1,77 @@
 # Offene Fragen — KB Normen
 
+## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt
+
+**N27-1 — GESCHLOSSEN.** Der seit Run 27 (06.08.2026) offene Auftrag «VKF-Publikationsindex
+abfragen» ist erfüllt, und zwar breiter als beauftragt: nicht nur für BRL 22-15, sondern für
+**alle 35 VKF-Publikationen mit KB-Destillat**. Zugangsweg, Matrix und Belege in
+`training/n58-vkf-fassungsmatrix-260820.md`; Zusammenfassung in `wiki/REGISTER.md`, Abschnitt D.
+Für 22-15 selbst lautet die Antwort: **01.01.2017 ist die jüngste Fassung**, damit ist die
+Frontmatter-Aussage des Destillats nachträglich belegt.
+
+---
+
+### ⚠⚠ N58-1 — Die Fassungs-Deltas der 23 überholten VKF-Destillate sind nicht destilliert
+
+**Der gewichtigste offene Posten dieses Laufs.** Der Sweep hat festgestellt, *dass* 23 Destillate
+auf einer überholten Fassung beruhen — **nicht, was die jüngeren Fassungen ändern**. Die
+Destillate sind seit dem 20.08.2026 durch einen Warnkasten und den Status `superseded` gegen
+falsche Verwendung geschützt, aber der Wissensstand fehlt.
+
+**Ausgenommen und bereits erledigt** ist allein die Teilrevision 2026 (BRL 12-15 und 26-15),
+destilliert in `destillate/vkf-teilrevision-2026-pyrotechnik.md`.
+
+**Vorschlag zur Reihenfolge** (nach Wirkung auf laufende Projekte, nicht nach Aufwand):
+
+| Rang | Publikation | geltend | Begründung |
+|---|---|---|---|
+| 1 | **BRL 10-15** Begriffe und Definitionen | 01.01.2019 | Grundlagenrichtlinie; Definitionsänderungen wirken auf **alle** übrigen Richtlinien und auf jede Auslegung |
+| 2 | **BRL 40-15** Weitere Bestimmungen | 11.06.2025 | jüngste Fassung nach 2026; Inhalt bisher unbekannt |
+| 3 | **BRL 108-15** Betriebsbereitschaft BFS | 01.01.2020 | Brandfallsteuerungen, unmittelbar ausführungsrelevant |
+| 4 | **BRL 11-15** Qualitätssicherung | 01.01.2019 | QSS-Stufen; der Skill `brandschutz` zieht sie im Modus B |
+| 5 | 17-15, 18-15, 20-15, 21-15, 23-15, 24-15, 25-15, 100-15 bis 107-15, 1000-15, 1002-15 | 01.01.2017 | Sammelposten; die Änderungen 2017 sind für 13-15/14-15/15-15/16-15/22-15 bereits erfasst, für diese noch nicht |
+
+---
+
+### ⚠ N58-2 — BRL 103-15 «Cheminées» ist zurückgezogen; Nachfolgeregelung unbekannt
+
+Der VKF-Publikationsindex führt die Erläuterung als **«103-15 Cheminées (zurückgezogen am
+31.08.2025)»** (Indexeintrag zuletzt geändert 30.01.2026, Abruf 20.08.2026). Die KB führte das
+Destillat bis zu diesem Lauf als `established`, also nach Rule `normen-referenz` Ziff. 1b «ohne
+Gegenlesen zitierfähig». Es ist auf `superseded` herabgestuft und trägt einen Warnkasten.
+
+**Belegqualität ausdrücklich ausgewiesen:** Der Rückzug steht **nur in der Portal-Annotation**.
+Die ausgelieferte Datei selbst trägt keinen Rückzugsvermerk und weiterhin die Fassung 01.01.2017.
+**Offen:** (a) eine zweite unabhängige Bestätigung des Rückzugsdatums, (b) ob und wohin die
+Cheminée-Anforderungen überführt wurden — naheliegend ist die BRL 24-15 «Wärmetechnische
+Anlagen», das ist aber **nicht geprüft** und darf nicht angenommen werden.
+
+---
+
+### N58-3 — BRL 27-15: Titelblatt und Änderungsliste widersprechen sich
+
+Das Titelblatt trägt **01.01.2015**, die Hinweisseite nennt aber einen **ABSV-Beschluss vom
+22.03.2017**. Entweder wurde das Fassungsdatum nicht nachgeführt, oder die Änderung betrifft nur
+den Anhang und löst nach VKF-Praxis keine neue Fassungsbezeichnung aus. **In diesem Lauf nicht
+geklärt.** Praktische Folge: das Destillat `vkf-brl-nachweisverfahren.md` steht weiterhin auf
+`established`, was bei ungeklärtem Fassungsstand womöglich zu hoch ist. Billig zu klären: die
+betroffene Anhangstelle gegen die Fassung von 2015 diffen.
+
+---
+
+### N58-4 — Der Sweep deckt 35 von 83 Indexeinträgen ab
+
+Ausgewiesen nach der Methoden-Lehre: geprüft wurden nur die Publikationen, zu denen die KB ein
+Destillat führt. **Nicht angesehen** sind die übrigen 48 deutschsprachigen Einträge —
+IOTH-Beschlüsse, Verzeichnisse, Formulare, Checklisten, Musterweisungen, Reglemente. Darunter
+sind mindestens zwei Klassen, die eigene Destillate verdienen könnten: die **IOTH-Beschlüsse zur
+temporären Unterbringung von Asylsuchenden** (fortlaufend bis 2025-09-18) und die
+**Arbeitshilfen/Merkblätter der 2000er-Reihe**, von denen die KB nur 2001-15 und 2005-15 führt.
+Ebenfalls ungeprüft: die französischen und italienischen Fassungen sowie die **Anhänge** aller
+Richtlinien mit neuer Fassung.
+
+---
+
 ## Normen-Lauf Run 57 (19.08.2026) — N56-1 geschlossen; die Norm ist zurückgezogen
 
 **N56-1 — GESCHLOSSEN.** Die Refuter-Runde auf den fünf zuletzt offenen Seiten von
@@ -641,7 +713,7 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
 
 ## Cross-KB-Lauf Run 27 (06.08.2026) — zwei neue Bring-Schulden
 
-- **N27-1 — VKF-Publikationsindex für 22-15de abfragen (Fassungsstand Blitzschutz).**
+- **N27-1 — ✅ GESCHLOSSEN am 20.08.2026 (Run 58, Fassungs-Sweep über alle 35 VKF-Publikationen; Antwort für 22-15: 01.01.2017 IST die jüngste Fassung). Ursprünglicher Auftrag:** VKF-Publikationsindex für 22-15de abfragen (Fassungsstand Blitzschutz).
   Das Destillat `destillate/vkf-brl-22-15-blitzschutzsysteme.md` behauptete im Frontmatter,
   die Ausgabe 01.01.2017 sei «aktuell … am VKF-Endpunkt verifiziert». Belegt ist aber nur der
   **Live-Abruf des 2017er-PDF** am 05.08.2026 und der vollständige Diff gegen 2015 — **nicht**

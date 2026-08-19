@@ -4,12 +4,23 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzerläuterung 100-15de, 01.01.2015 (genehmigt TK VKF 23.09.2014)"
 gelesen: "S. 1-26 (komplett: Ziff. 1-7 vollständig, Anhang zu Ziff. 2.1/2.4/3.1/3.2/3.3/3.4/4.1/4.2/4.3/4.4/5.1/5.2/5.3 vollständig, Legende); Merge zweier Destillat-Fassungen am 13.07.2026, Kontrolle am Original-PDF S. 10-13"
 datenstand: "2015"
-status: established
-last_updated: 2026-07-13
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 bd5d8ec274d152460d9f387f67f1f2cb). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]]
 ---
 
 # VKF-BRL 100-15de:2015 — Brandmauern (Brandschutzerläuterung)
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `bd5d8ec274d152460d9f387f67f1f2cb`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Erläuterung zeigt auf, wie Brandmauern brandschutztechnisch sicher erstellt werden, und spezifiziert die Bestimmungen der Brandschutznorm und der Brandschutzrichtlinien (Ziff. 1, S. 4; grau hinterlegte Passagen im Original sind direkte Norm-/Richtlinien-Zitate). Brandmauern trennen Gebäude oder Gebäudeteile mit ungenügender Brandabschnittsbildung sowie Nutzungen mit grosser Brandbelastung/-risiko und werden je nach Fall mit Feuerwiderstand REI 180, REI 90 oder REI 60 ausgeführt (Ziff. 2, S. 4). Zentral sind Ausmass/Anordnung, Feuerwiderstand/Materialisierung (Baustoffe RF1), Standfestigkeit, die konsequente Unterbrechung brennbarer Bauteile beim Anschluss an Aussenwand/Dach sowie die Einschränkungen für Gebäudetechnik-Durchdringungen (Ziff. 3-5, S. 4-8); der Anhang (S. 9-26) konkretisiert die einzelnen Ziffern mit Konstruktionszeichnungen (urheberrechtlich geschützt, hier nur sinngemäss wiedergegeben).

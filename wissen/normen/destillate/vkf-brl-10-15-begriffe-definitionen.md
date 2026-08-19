@@ -5,12 +5,23 @@ ausgabe: "VKF-BRL 10-15:2015 (01.01.2015)"
 ersetzt: "unbekannt (keine Vorgänger-Ausgabe im Dokument genannt)"
 gelesen: "Vollstaendig, S. 1-36 (Titelblatt, Impressum, Inhaltsverzeichnis, Begriffsliste A-Z, Inkrafttreten, Anhang)"
 datenstand: "2015"
-status: established
-last_updated: 2026-07-13
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2019, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2019 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 63d4e6017e1292849802a5ad8894674c). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
 ---
 
 # VKF-BRL 10-15:2015 — Begriffe und Definitionen
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2019**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `63d4e6017e1292849802a5ad8894674c`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Brandschutzrichtlinie «Begriffe und Definitionen» (10-15de) ist das verbindliche

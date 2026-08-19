@@ -5,13 +5,24 @@ ausgabe: "VKF-Brandschutzrichtlinie 11-15de, 01.01.2015"
 ersetzt: unbekannt (keine Vorgaenger-Angabe im Dokument gefunden)
 gelesen: "S. 1-29 (komplett, deutscher Normteil vollstaendig: Titelblatt, Inhaltsverzeichnis, Ziff. 1-8, Anhang inkl. aller Organigramme und Leistungsbilder QSS 1-4)"
 datenstand: "2015, in Kraft seit 01.01.2015"
-status: established (verifiziert)
-last_updated: 2026-07-14
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2019, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2019 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 6338ef4c5b296d61e6ba4a2cbc7c7910). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro
 links: [[REGISTER]]
 ---
 
 # VKF-BRL 11-15de:2015 — Qualitätssicherung im Brandschutz
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2019**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `6338ef4c5b296d61e6ba4a2cbc7c7910`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Richtlinie definiert die minimalen Massnahmen zur Qualitätssicherung im Brandschutz über den gesamten Lebenszyklus einer Baute oder Anlage, regelt die Prozesse und die Zusammenarbeit zwischen allen Beteiligten und der Brandschutzbehörde (Ziff. 1, S. 5). Kernstück ist die Einteilung jedes Bauvorhabens in eine von vier Qualitätssicherungsstufen (QSS 1-4), die sich nach Nutzung, Gebäudegeometrie, Bauweise und besonderen Brandrisiken richtet und die Anforderungen an Projektorganisation, Fachpersonen (QS-Verantwortlicher, Fachplaner, Kontrollorgan) und Dokumentation bestimmt (Ziff. 2.3 und 3.3/3.4, S. 5-8). Die Brandschutzbehörde legt die QSS verbindlich fest und kann sie bei gravierenden Gründen oder Projektänderungen anpassen (Ziff. 2.3 Abs. 4, S. 5).

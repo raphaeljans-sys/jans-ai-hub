@@ -5,12 +5,23 @@ ausgabe: "VKF-BRL 23-15de, 01.01.2015"
 ersetzt: "unbekannt (nicht im Dokument vermerkt)"
 gelesen: "S. 1-19 (komplett: Titelblatt, Impressum, Inhaltsverzeichnis, Ziff. 1-8, Anhang mit Skizzen/Piktogramm)"
 datenstand: "2015 (in Kraft seit 01.01.2015, Beschluss IVTH 18.09.2014)"
-status: established (verifiziert)
-last_updated: 2026-07-31
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 ac539bd2c1eb88127779150f8b5b9fe8). Nicht als geltende Fundstelle zitieren."
+last_updated: 2026-08-20
 links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]], [[bkp-261-aufzuege]], [[vkf-brl-aenderungen-2017]]
 ---
 
 # VKF-BRL 23-15 — Beförderungsanlagen (Brandschutzrichtlinie)
+
+> ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
+> Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
+> abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
+> (Abruf 20.08.2026, MD5 `ac539bd2c1eb88127779150f8b5b9fe8`). **Das Fassungs-Delta ist nicht destilliert.**
+> Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
+> für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
+> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
+> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+
 
 ## Das Wichtigste in 3 Sätzen
 Die Brandschutzrichtlinie 23-15 «Beförderungsanlagen» regelt die brandschutztechnischen Anforderungen an Aufzugsanlagen, Feuerwehraufzüge sowie Fahrtreppen/Fahrsteige und Spezialförderanlagen (Ziff. 1, S. 4) und ist seit 1. Januar 2015 in allen Kantonen verbindlich (Ziff. 8, S. 11). Kernaussage: normale Aufzüge dürfen im Brandfall grundsätzlich nicht benützt werden (Brandfallsteuerung fährt sie in die Hauptzugangsebene und blockiert sie), während eigens dafür gebaute und ausgerüstete Feuerwehraufzüge der Feuerwehr für Einsatz und Evakuierung zur Verfügung stehen (Ziff. 3.7 und Ziff. 4, S. 5-6). Hochhäuser müssen zwingend mit Feuerwehraufzügen ausgerüstet sein (Ziff. 4.11, S. 9), mit eigenem, gegen Rauch geschütztem Schacht (Ziff. 4.1.3, S. 6), Schutz gegen Löschwasser (Ziff. 4.2, S. 7) und definierten Feuerwehrsteuerungs-Phasen 1/2 (Ziff. 4.7-4.8, S. 8-9, 18).
