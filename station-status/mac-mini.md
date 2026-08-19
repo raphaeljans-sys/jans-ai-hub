@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 13:09:56
+Stand: 19.08.2026 13:20:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 19.08.2026 13:09:56
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- dde6348a vollgas-radar 19.08. 12:57: Latenz-Reihe widerlegt (8s), Rueckstand -19.7 Punkte, vier KBs mit Delta
+- 8b2d8ff9 nas-selfcommit: 3 Datei(en) 2026-08-19 13:15
