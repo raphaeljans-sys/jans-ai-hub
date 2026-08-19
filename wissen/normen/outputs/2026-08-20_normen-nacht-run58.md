@@ -91,7 +91,7 @@ Vollständige Matrix mit Dokumentnummern, Fassungsdaten und MD5:
 `training/n58-vkf-fassungsmatrix-260820.md`. Sie ist der Beleg und macht jeden künftigen Lauf
 billig — dieselbe Rolle wie `l41-seiteninventur.md` für Lignum 4.1.
 
-## 5. Die vier gewichtigsten Befunde
+## 5. Die fünf gewichtigsten Befunde
 
 ### Befund 1 — eine Teilrevision, seit vier Monaten in Kraft, der KB unbekannt
 
@@ -213,6 +213,21 @@ Arbeitszeit. Das macht N58-1 zum lohnendsten offenen Posten dieser KB.
   keine Gültigkeit
 - `wiki/QUESTIONS.md` — **N27-1 geschlossen**, N58-1 bis N58-4 neu
 - `CHANGELOG.md` — Eintrag
+- `skills/brandschutz/SKILL.md` — **ausserhalb der KB**: zwei falsche Richtliniennummern korrigiert, Fassungswarnung und Bezugsweg der geltenden PDFs ergänzt
+
+### Befund 5 — der Skill `brandschutz` führte zwei falsche Richtliniennummern
+
+Beim Prüfen der Reichweite zeigte sich ein Fehler ausserhalb der KB. `skills/brandschutz/SKILL.md`
+beschrieb den Hausbestand mit «BSR 13-15 Baustoffe und Bauteile, **BSR 14-15 Flucht- und
+Rettungswege**, **BSR 16-15 Brandschutzabschluesse**». Nur die erste Zuordnung stimmt. Am
+amtlichen Index: **14-15 = Verwendung von Baustoffen**, **15-15 = Brandschutzabstände/Tragwerke/
+Brandabschnitte**, **16-15 = Flucht- und Rettungswege**. Eine Richtlinie «Brandschutzabschlüsse»
+existiert im Verzeichnis nicht.
+
+Das ist dieselbe Klasse wie der BKP-«271.10»-Fall aus Run 43: eine Hub-eigene Schnellreferenz
+führt eine Nummer, die es so nicht gibt, und sieht dabei verifiziert aus. **Korrigiert**, samt
+Hinweis, dass der Ordnername «2015-17-22» über den tatsächlichen Fassungsstand des Hausbestands
+täuscht, und mit dem Verweis auf die Matrix und die Teilrevision 2026.
 
 ## 9. Offen — Übergabe
 

@@ -59,6 +59,18 @@ betroffene Anhangstelle gegen die Fassung von 2015 diffen.
 
 ---
 
+### N58-5 — ✅ ERLEDIGT: falsche Richtliniennummern im Skill `brandschutz`
+
+`skills/brandschutz/SKILL.md` führte «BSR 14-15 Flucht- und Rettungswege» und «BSR 16-15
+Brandschutzabschluesse». Richtig ist 14-15 = Verwendung von Baustoffen, 16-15 = Flucht- und
+Rettungswege; eine BSR «Brandschutzabschlüsse» gibt es nicht. **Am 20.08.2026 korrigiert**,
+zusammen mit einer Fassungswarnung zum Ordner «02 Brandschutzrichtlinien 2015-17-22», dessen
+Name über den tatsächlichen Bestand (überwiegend 2015) täuscht. Gleiche Klasse wie der
+BKP-«271.10»-Fall aus Run 43. **Offen bleibt:** ob weitere Fach-Skills VKF-Nummern oder
+-Fassungen führen — nicht geprüft.
+
+---
+
 ### N58-4 — Der Sweep deckt 35 von 83 Indexeinträgen ab
 
 Ausgewiesen nach der Methoden-Lehre: geprüft wurden nur die Publikationen, zu denen die KB ein
