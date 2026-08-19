@@ -7060,3 +7060,28 @@ KB `energie` nachgeführt. Offen fuer Run 143: Vollzugsordner Abschnitt 5-10 (PD
 groesster Rest). Priorisierungs-Checks 1-3 (remote-tasks/sync-tasks leer, Synobsis Stufe 2
 gesaettigt seit 24.07., Fristen-Radar nur Entscheide-Raphael-Punkte ohne Draft-Bedarf) vorab
 durchlaufen, ohne Befund.
+
+## 2026-08-19 08:06 Verzugscheck (bexio 401, achter Lauf; RE-00100 Frist morgen 20.08.)
+
+Regellauf `mahnwesen-verzugscheck`, **nicht durchführbar**. `node connectors/bexio.mjs --verzug
+--json`, die Gegenprobe am Aussteller (`auth.bexio.com/.../userinfo`) und die Direktprobe an
+`api.bexio.com/2.0/kb_invoice` liefern je **HTTP 401**; `~/.bexio.env` unverändert vom
+13.06.2026 11:05. Achter Verzugscheck-Lauf in Folge ohne Datengrundlage, blind ist der Zugang
+seit dem 09.08. Letzter verifizierter Zahlstatus 08.08. 08:36, das sind elf Kalendertage.
+
+**Einzige Verschärfung gegenüber gestern: RE-00100 (Swiss Central City Real Estate Fund,
+CHF 13'120.00) erreicht morgen Donnerstag 20.08. das Ende der Zahlungserinnerungsfrist** und
+verfällt ohne neuen Token unverifiziert. Eine Eskalation ist dort ohnehin gesperrt, solange die
+Fälligkeit in bexio (30.07.) nicht auf den belegten Zustelltermin 03.08. nachgezogen ist; dieser
+Sachmangel steht seit 31.07. offen. RE-00098/99 (KISPI, Frist 12.08.) nun acht Tage überfällig,
+unverifiziert; RE-00101 (Tschopp, CHF 6'000) am dritten Werktag nach Fristablauf, Mahnschritt
+weiterhin gesperrt wegen der ungeprüften Tx 3630 über exakt CHF 6'000; RE-00087 unverändert in
+der Duplikatsklärung mit C. Schäfer.
+
+Aktion Raphael unverändert seit 13.08.: neuen bexio-Token ausstellen und in `~/.bexio.env` als
+`BEXIO_API_TOKEN` eintragen, danach Kontrolllauf `node scripts/bexio-vorfilter.mjs --voll
+--trocken`. Zweite, davon unabhängige Aktion: Fälligkeit RE-00100 auf den 03.08. nachziehen.
+
+Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260819_Verzugscheck.md`. Fristen-Register um einen
+datierten Nachtrag an der bestehenden Zeile ergänzt (Append, per Diff verifiziert: genau eine
+Zeile geändert, keine Löschung). Es wurde nichts gemahnt, nichts gebucht und nichts versendet.
