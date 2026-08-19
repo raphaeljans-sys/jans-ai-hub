@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.08.2026 17:15:14
+Stand: 19.08.2026 17:25:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:15)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:19)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 19.08.2026 17:15:14
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- eda03310 nas-selfcommit: 4 Datei(en) 2026-08-19 17:15
+- 97334da2 synergie-lauf 12: SYN-36 — Kategorie-Wert im Praxis-Transfer von sia-102-2014 auf Kat. V berichtigt (systematischer Teil verwarf VI seit 14.07.), erledigte Pruefauflage zu SIA 102:2020 durch das Ergebnis von Run 36 ersetzt
