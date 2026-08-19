@@ -2441,3 +2441,16 @@ Neuer Folgepunkt **E-R140-1 (P2):** Gebäudekategorie-Einstufung für Healthcare
 **Nächste Priorität:** 1. Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80). 2. Die rund 19
 echten Restwerke aus der 24er-Liste (`pdf-inventar.md`). 3. E-R140-1 bei Bezug zu einem
 konkreten Healthcare-Fall klären.
+
+## Run 142 (19.08.2026, Nachtschicht Mac Mini 05:30) — Vollzugsordner Abschnitt 4.2-4.5 destilliert
+
+Fortsetzung von Run 141 (Abschnitt 4.1). Vollständig gelesen: Abschnitt 4.2 Heizung/Warmwasser
+(inkl. Vollzugshilfe EN-3), 4.3 Feuerungen Öl/Gas/Holz, 4.4 WKK/Elektrizitätserzeugung (inkl.
+EN-9), 4.5 VHKA (inkl. EN-14) — PDF-S. 75-108. Neues Destillat
+`vollzugsordner-energie-zh-abschnitt4-2-4-5`, status emerging. Zentraler Fund: ZH markiert die
+EN-3-Ausnahme für den Ersatz dezentraler Elektroheizungen ohne Wasserverteilsystem als NICHT
+anwendbar (strenger als das EnFK-Muster) — Artikel `heizleistung-und-waermeerzeuger` um diesen
+Abschnitt sowie die WKK-Standardlösung 11 (70-%-Deckungsschwelle) ergänzt.
+
+**Nächste Priorität:** Abschnitt 5-10 (PDF-S. 109-199, ~90 S.) — grösster verbliebener
+PL-02-Einzelbrocken.

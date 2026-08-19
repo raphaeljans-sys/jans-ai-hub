@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2026-08-19 (Nachtschicht Mac Mini, 05:30-Zyklus) — Run 142: Vollzugsordner Abschnitt 4.2-4.5 destilliert
+
+Fortsetzung von Run 141 über denselben Graph-Weg/Drive-ID (lokale Arbeitskopie via
+`@microsoft.graph.downloadUrl` + curl, kein OneDrive-Mount berührt). Vollständig gelesen:
+Abschnitt 4.2 Heizung/Warmwasser (inkl. Vollzugshilfe EN-3), 4.3 Feuerungen Öl/Gas/Holz, 4.4
+Wärmekraftkopplung/Elektrizitätserzeugung (inkl. EN-9), 4.5 VHKA (inkl. EN-14) — PDF-S. 75-108
+von 200. Neues Destillat `[[vollzugsordner-energie-zh-abschnitt4-2-4-5]]`, status **emerging**.
+Zentraler Fund: der Kt. Zürich markiert die EN-3-Ausnahme für den Ersatz dezentraler
+Elektroheizungen ohne Wasserverteilsystem als **nicht anwendbar** — strenger als das
+schweizweite EnFK-Muster. Artikel `[[heizleistung-und-waermeerzeuger]]` um diesen Abschnitt
+sowie die WKK-Standardlösung 11 (70-%-Deckungsschwelle für den Höchstanteil-Nachweis nach
+§ 12b EnerG) ergänzt. `training/pdf-inventar.md`, `training/curriculum.md`,
+`destillate/INDEX.md` nachgeführt. **Offen:** Abschnitt 5-10 (PDF-S. 109-199, ~90 S.) — der
+grösste verbliebene PL-02-Einzelbrocken, nächste Priorität für Run 143.
+
 ## 2026-08-18 (Nachtschicht Mac Mini, 23:30-Zyklus) — Run 141 fortgesetzt über Graph-Weg/Drive-ID: Abschnitt 4.1 Heizungsanlagen gelesen
 
 Fortsetzung des am 02:30/13:32 stehen gebliebenen Fadens über den bereits identifizierten Weg

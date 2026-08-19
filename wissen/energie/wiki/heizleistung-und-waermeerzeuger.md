@@ -1,7 +1,7 @@
 ---
 title: Heizleistung & Wärmeerzeuger-Dimensionierung
 status: established
-last_updated: 2026-08-18 (Nachtschicht Mac Mini — § 357 PBG Wärmeerzeuger-Ersatzpflicht + Heizzentralen Überbauungen ergänzt, F244)
+last_updated: 2026-08-19 (Nachtschicht Mac Mini — ZH-Elektroheizungsersatz-Sondermarkierung + WKK-Standardlösung 11 ergänzt)
 sources: [destillate/raumtemperatur-richtlinie-stadt-zuerich-2006.md, destillate/bfe-waermeerzeugerleistung-2015.md, destillate/sia-380-1-standardnutzungswerte-tab24-25.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/wta-formular-zh-waermetechnische-anlagen.md, destillate/waermepumpe-systemvergleich.md, destillate/fawa-jaz-feldanalyse-waermepumpen.md, destillate/wpz-buchs-feldmessung-jaz-2016-2019.md, destillate/cop-scop-jaz-waermepumpe-gruenenwald.md, destillate/sia-384-3-wpesti-jaz-methode.md, destillate/heizsysteme-vollkostenvergleich-energieschweiz.md, destillate/kaeltemittel-r290-waermepumpen-ch.md, destillate/erdwaermesonden-bewilligung-zh-sz.md, destillate/waermepumpen-system-modul-wpsm-heizkoerper-altbau.md, destillate/vollzugshilfe-en10-heizungen-im-freien.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[wta-formular-zh-waermetechnische-anlagen]]
 ---
@@ -264,3 +264,13 @@ Ein eigener Fall, weil hier die Grundregel **umgekehrt** zur normalen Heizungsdi
 **Für die Gastronomie-/Aussenraumplanung heisst das:** eine dauerhafte Terrassenheizung ist mit einer normalen Ausnahmebewilligung kaum zu begründen — «es ist kalt draussen» erfüllt keine der drei Voraussetzungen. Ein Restaurant-Projekt mit ganzjährig genutzter Aussenterrasse plant die Beheizung von Beginn weg auf Holz-, Solar- oder Abwärmebasis, nicht auf eine spätere Ausnahme. Bei Tiefgaragen-Rampenheizungen ist früh zu prüfen, ob Gefälle- oder Überdachungsalternativen möglich sind, weil der Unzumutbarkeitsnachweis bereits im Baugesuch geführt werden muss. **Nicht bewilligungspflichtig** ist dagegen ein Heizpilz für eine kurze Veranstaltung von wenigen Tagen im Jahr.
 
 **Quelle:** EnFK, «Vollzugshilfe EN-10 — Heizungen im Freien», Ausgabe Juli 2009, vollständig gelesen (Run 138) → [[vollzugshilfe-en10-heizungen-im-freien]]. ⚠ 17 Jahre alt, ZH-Verfahrensteil (Formular EN-10, heute EVEN) nicht mitgelesen.
+
+## Elektroheizungsersatz im Kt. Zürich — strenger als das EnFK-Muster (Ergänzung 19.08.2026)
+
+Die allgemeine EnFK-Vollzugshilfe EN-3 erlaubt den Ersatz einer defekten **dezentralen** elektrischen Widerstandsheizung, wenn kein Wasserverteilsystem besteht. **Der Kanton Zürich markiert genau diese Ausnahme als nicht anwendbar** (Vollzugsordner Abschnitt 4.2, ZH-Sondermarkierung im Ordnerregister): auch der Ersatz einer dezentralen Elektroheizung ohne Wasserverteilsystem ist im Kt. ZH nicht zulässig. Neuinstallationen und der Ersatz zentraler Elektroheizungen bleiben ohnehin verboten (§ 10b EnerG); ausgenommen sind nur Reparaturen (nicht Ersatz) bestehender Elektrospeicherheizungen mit Wasserverteilsystem.
+
+**Für die Beratung heisst das:** wer im Kt. ZH eine defekte Elektroheizung ohne Wasserverteilsystem ersetzen will, kann sich nicht auf das schweizweite EN-3-Muster berufen — im Kanton Zürich braucht dieser Fall zwingend den Umstieg auf ein anderes System (i. d. R. Wärmepumpe oder Anschluss an ein bestehendes Wasserverteilsystem).
+
+**WKK-Standardlösung 11 (Höchstanteil-Nachweis):** eine Wärmekraftkopplungsanlage mit elektrischem Wirkungsgrad ≥ 30 % und Deckung von mindestens 70 % des Wärmebedarfs für Heizung/Warmwasser erfüllt automatisch die gesetzliche Höchstanteil-Vorgabe (§ 12b EnerG) — praktikabler Dimensionierungs-Richtwert für WKK-Projekte, ohne Einzelfallnachweis.
+
+**Quelle:** Vollzugsordner Energie Kt. ZH, Abschnitt 4.2-4.5 (Stand Juni 2013), inkl. eingehefteter Vollzugshilfen EN-3/EN-9/EN-14 → [[vollzugsordner-energie-zh-abschnitt4-2-4-5]]. ⚠ 13 Jahre alt, §§-Stand nicht gegen `baurecht` geprüft.
