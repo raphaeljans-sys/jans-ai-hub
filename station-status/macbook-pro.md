@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.08.2026 12:58:18
+Stand: 19.08.2026 13:08:34
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 12:58)
@@ -19,4 +19,4 @@ Stand: 19.08.2026 12:58:18
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0b71ad58 nas-selfcommit: 3 Datei(en) 2026-08-19 12:45
+- dde6348a vollgas-radar 19.08. 12:57: Latenz-Reihe widerlegt (8s), Rueckstand -19.7 Punkte, vier KBs mit Delta
