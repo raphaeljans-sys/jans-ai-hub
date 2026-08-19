@@ -47,6 +47,42 @@ verschärfen, nicht darunter bleiben.
 | Appenzell Ausserrhoden (seit 1.1.2023) | Eigenstromerzeugungspflicht alle Neubauten: **10 W/m² EBF, max. 30 kW** (Art. 19a bis kEnV amtlich; 30 W/m² ohne Deckel bei Gemeinschaftsanlage) |
 | Appenzell Innerrhoden | **Widerspruch aufgelöst (Run 61)**: Eigenstromerzeugungspflicht besteht seit 1.4.2020 (Art. 7a EnerG/Art. 16a EnerV) — die frühere «nur Melde-/Bewilligungspflicht»-Lesart bezog sich auf die falsche Rechtsgrundlage (jene regelt nur das Bewilligungsverfahren der Anlage, nicht die Installationspflicht selbst); keine Ersatzabgabe möglich, Minergie befreit nicht automatisch |
 
+## Bewilligungsweg Kt. Zürich — Meldeverfahren statt Baubewilligung (ergänzt Run 143, 19.08.2026)
+
+Die Pflicht, eine Anlage zu bauen, und das Verfahren, sie bewilligen zu lassen, sind zwei
+getrennte Fragen. Für den Kanton Zürich ist das Verfahren in der Bauverfahrensverordnung
+(BVV, LS 700.6, Fassung Nachtrag 133, Druckstand 1.7.2026) geregelt und läuft heute in drei Stufen:
+
+| Fall | Verfahren | Fundstelle |
+|---|---|---|
+| Steckerfertige Solaranlage bis 4 m² | weder Bewilligung noch Meldung | § 1 lit. j BVV |
+| Dachanlage, nach Art. 32a RPV genügend angepasst | **Meldepflicht** | § 2a Abs. 1 lit. a BVV |
+| Fassadenanlage in Bauzone (reflexionsarm, kompakt, parallel, Überstand ≤ 20 cm) | Meldepflicht | § 2a Abs. 1 lit. b BVV |
+| Freistehende Anlage in Bauzone bis 20 m² | Meldepflicht | § 2a Abs. 1 lit. c BVV |
+| Industrie-/Gewerbezone: Dach-, Fassaden- und freistehende Anlagen | Meldepflicht, Dachanlagen auch ohne Art.-32a-RPV-Anpassung | § 2a Abs. 1 lit. d, e BVV |
+| **Kernzone, Ortsbild-/Denkmalschutzinventar, denkmalpflegerische Schutzanordnung** | **sämtliche Solaranlagen bewilligungspflichtig** | § 2a Abs. 2 BVV |
+
+Ablauf im Meldeverfahren: Meldung samt Unterlagen spätestens **30 Tage vor Baubeginn** elektronisch
+als PDF über die kantonale Plattform bei der örtlichen Baubehörde (§ 2d Abs. 1); das Bauamt
+bestätigt den Eingang und nennt das Fristende (Abs. 2); die **Behandlungsfrist beträgt 30 Tage**,
+bei erhöhtem Aufwand verlängerbar (Abs. 3). Das Bauamt kann ein Bewilligungsverfahren anordnen, um
+öffentliche Interessen oder Rechte Dritter zu wahren (Abs. 4), die Bauherrschaft kann umgekehrt
+freiwillig das ordentliche Verfahren verlangen (Abs. 5). Teilt die Behörde innert 30 Tagen nichts
+mit, darf ausgeführt werden (§ 2e). Pflichtbeilagen nach § 2c Abs. 1: Situationsplan 1:500/1:1000
+mit rot eingetragener Anlage, Dachaufsicht, Giebel- und Trauffassade, Produktbeschrieb und
+Modulabbildungen, **Orientierungsplan nach VKF-Brandschutzmerkblatt «Solaranlagen»**, bei
+Fassadenanlagen zusätzlich der Nachweis nach VKF-Richtlinien 14-15 und 15-15. Materiell bleibt
+§ 238 Abs. 4 PBG massgebend: sorgfältig in Dach- oder Fassadenfläche integrierte Anlagen sind zu
+bewilligen, sofern nicht überwiegende öffentliche Interessen entgegenstehen.
+
+⚠ **Überholt:** Die noch verbreitete Faustregel «Dachanlage bis 35 m² zusammenhängend, Überstand
+≤ 20 cm, bewilligungsfrei» stammt aus § 1 lit. k BVV alter Fassung (so abgedruckt im
+AWEL-Vollzugsordner Energie, Stand Juni 2013). Sie gilt nicht mehr und führt in der Planung zur
+falschen Annahme, es brauche gar keine Eingabe. Beleg des Altstands:
+`[[vollzugsordner-energie-zh-abschnitt6]]` Abschnitt 6.4. Wortlautverifikation der geltenden
+Fassung: `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]` (status established) und der
+amtliche BVV-Volltext in der Schwester-KB `baurecht`. → FAQ `F245`.
+
 ## Bauherren-Transfer
 Standort- und gemeindespezifisch prüfen — Bund ist nur das Minimum, die tatsächliche Pflicht kann
 strenger sein und innerhalb eines Kantons je Gemeinde variieren (SG/AG/BL geben Gemeinden eigene

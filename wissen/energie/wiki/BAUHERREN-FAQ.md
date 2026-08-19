@@ -7804,6 +7804,30 @@ Nachweis SIA 380/4 Beleuchtung», Version 1.0 vom 07.01.2009, vollständig geles
 ⚠ Die Quelle selbst ist Stand 2009; die Aussage über den heute geltenden Nachweisweg stützt sich auf
 die genannten KB-Artikel, nicht auf sie. Status **emerging**.
 
+**Nachtrag Run 143 (19.08.2026) — woher die alten Zahlen kamen, und was davon bleibt.** Die
+Zielwerte, gegen die früher gerechnet wurde, liegen jetzt im Volltext vor: der AWEL-Vollzugsordner
+enthält als Abschnitt 6.3 die EnFK-Vollzugshilfe EN-12 (Ausgabe Juni 2011) mit **zwei
+unterschiedlichen Tabellen** — Einzelanforderung als spezifische Leistung p_Li in W/m² und
+Systemanforderung als Jahresbedarf E'_Li in kWh/m², beide je Raumnutzung. Die beiden Tabellen sind
+**nicht identisch** (Beispiel Bettenzimmer: 3,0 W/m² Einzelanforderung gegenüber 4,5 W/m²
+Systemanforderung), was beim Lesen alter Nachweise regelmässig zu Verwechslungen führt: es sind zwei
+Nachweiswege, nicht zwei Schreibweisen desselben Werts. Die Nachweisschwelle von 1'000 m²
+Energiebezugsfläche für Nichtwohnbauten (Gebäudekategorien III-XII) stammt ebenfalls von dort.
+Getrennt davon zu halten sind die **lichttechnischen** Anforderungen: Beleuchtungsstärke E_m und
+Blendwert UGR nach SN EN 12464-1 (Büro und Sitzungszimmer 500 lx / UGR 19, Korridor und Treppenhaus
+100 lx / UGR 28, Bettenzimmer 100 lx mit 300 lx im Lesebereich, Behandlungsraum 500 lx). Diese
+sagen, wie hell und blendfrei ein Raum sein muss, und werden vom Energienachweis **nicht** ersetzt —
+ein Projekt kann den Energiegrenzwert einhalten und trotzdem lichttechnisch ungenügend sein.
+⚠⚠⚠ Die p_Li/E'_Li-Werte hängen an SIA 380/4:2006 und sind damit **für einen laufenden Nachweis
+nicht verwendbar** (heute SIA 387/4, Vollzug über EN-111/EVEN); sie taugen als historische
+Referenzgrösse, etwa um einen Bestandesbau seiner Bewilligungszeit zuzuordnen. Die
+lx/UGR-Werte stammen aus einer AHB-Übersichtstabelle vom 19.01.2007, die **keine Normfassung
+nennt** — die Fassungsführung von SN EN 12464-1 liegt bei der KB `normen` (Rule
+`normen-referenz`), die Werte sind dort vor Projektverwendung zu verifizieren.
+Belege: `[[vollzugsordner-energie-zh-abschnitt6]]` (EN-12-Tabellen, status emerging) und
+`[[ahb-zuerich-uebersichtstabelle-beleuchtung-en12464]]` (lx/UGR, status **speculative** — reine
+Wertetabelle ohne Herleitung und ohne Normfassung).
+
 ## F230 — «Muss ich für jeden Raum einzeln festlegen, was die Gebäudetechnik können soll?»
 
 **Kurz:** Nicht für jeden Raum, aber für jeden **Raumtyp**. Die Stadt Zürich macht das seit über
@@ -8310,3 +8334,27 @@ zu belegen, und dürfen nicht als geltende Anforderung verwendet werden.
 **Bauherren-Transfer:** Bei jedem Heizungsersatz lohnt sich vor der Devis-Erstellung ein Blick auf diese Nebenpflichten — insbesondere die Leitungsdämmung und die Garagenheizungs-Stilllegung werden in der Praxis oft übersehen, weil sie nicht am neuen Gerät selbst sichtbar sind. Bei einer Arealüberbauung ist die Heizzentralen-Standortfrage ein eigener Planungsschritt vor der Gebäudetechnik-Vertiefung.
 
 **Quelle:** AWEL Vollzugsordner Energie Kt. ZH, Abschnitt 4.1, Stand Juni 2013, vollständig gelesen (Nachtschicht Mac Mini, 18.08.2026) → `[[vollzugsordner-energie-zh-abschnitt4-1]]`, status emerging. ⚠ Die zitierten PBG-/BVV-/BBV-I-Paragraphen sind gegen die heute geltende Fassung nicht geprüft — vor Verwendung über `baurecht` verifizieren. Themenartikel [[heizleistung-und-waermeerzeuger]] geschärft.
+
+## F245 — «Braucht meine Solaranlage auf dem Dach eine Baubewilligung, oder reicht eine Meldung?»
+
+**Kurz:** Im Kanton Zürich ist eine gut angepasste Dach-Solaranlage in der Regel **meldepflichtig, nicht bewilligungspflichtig**: Meldung spätestens 30 Tage vor Baubeginn elektronisch beim örtlichen Bauamt, danach 30 Tage Behandlungsfrist. Ohne Gegenbescheid darf gebaut werden. **Ausnahme mit Gewicht:** in einer Kernzone, im Geltungsbereich eines Ortsbild- oder Denkmalschutzinventars oder einer denkmalpflegerischen Schutzanordnung braucht **jede** Solaranlage ein ordentliches Baubewilligungsverfahren.
+
+**Fachlich:** Massgebend ist die Bauverfahrensverordnung ZH (BVV, LS 700.6) in der Fassung Nachtrag 133. Der Meldepflicht unterliegen nach § 2a Abs. 1: Dach-Solaranlagen, soweit sie nach Art. 32a der Raumplanungsverordnung (RPV) genügend angepasst sind (lit. a); Fassadenanlagen in Bauzonen, wenn sie reflexionsarm nach Stand der Technik ausgeführt, kompakt angeordnet, parallel zur Fassade geführt sind, nicht über die Fassadenfläche hinausragen und diese im rechten Winkel um höchstens 20 cm überragen (lit. b); freistehende Anlagen in Bauzonen bis 20 m² (lit. c); in Industrie- und Gewerbezonen auch Dachanlagen ohne die Anpassungsanforderung von Art. 32a RPV sowie Fassaden- und freistehende Anlagen (lit. d und e). **Ganz bewilligungs- und meldefrei** ist nur die steckerfertige Solaranlage bis 4 m² (§ 1 lit. j BVV) — und auch die nicht in Kernzone/Inventar/Schutzanordnung. Der Meldung sind nach § 2c Abs. 1 beizulegen: Situationsplan 1:500 oder 1:1000 mit rot eingetragener Anlage, Darstellung der Dachaufsicht, der Giebel- und der Trauffassade, Produktbeschrieb und Abbildungen der Module, **Orientierungsplan nach dem VKF-Brandschutzmerkblatt «Solaranlagen»** und bei Fassadenanlagen zusätzlich der Nachweis nach den VKF-Brandschutzrichtlinien 14-15 und 15-15. Das Bauamt kann die Behandlungsfrist bei erhöhtem Aufwand verlängern und jederzeit ein Bewilligungsverfahren anordnen, um öffentliche Interessen oder Rechte Dritter zu wahren (§ 2d Abs. 3 und 4); umgekehrt kann die Bauherrschaft freiwillig das ordentliche Verfahren verlangen (§ 2d Abs. 5). Muss ein Bewilligungsverfahren durchgeführt werden, teilt die Baubehörde das innert 30 Tagen über die Plattform mit — andernfalls darf ausgeführt werden (§ 2e). Unabhängig vom Verfahren gilt § 238 Abs. 4 PBG: sorgfältig in Dach- oder Fassadenfläche integrierte Solaranlagen **sind** zu bewilligen, sofern nicht überwiegende öffentliche Interessen entgegenstehen; private Interessen Dritter dürfen ihnen nicht entgegengehalten werden.
+
+**Bauherren-Transfer:** Die erste Abklärung ist nicht die Anlagengrösse, sondern die **Lage** — Kernzone, Ortsbild- oder Denkmalschutzinventar, Schutzanordnung. Das entscheidet zwischen «Meldung, 30 Tage, gebaut» und «ordentliches Verfahren mit öffentlicher Auflage und Verbandsbeschwerderecht», also zwischen wenigen Wochen und mehreren Monaten Vorlauf. Diese Abklärung kostet einen Anruf beim örtlichen Bauamt und gehört ins Vorprojekt, nicht in die Ausführungsplanung: eine nachträgliche Verweigerung führt über § 341 PBG zur Wiederherstellung des rechtmässigen Zustandes. Zweiter Praxispunkt: der Orientierungsplan nach VKF-Brandschutzmerkblatt ist ein Pflichtbestandteil der Meldung, kein Nice-to-have — er wird in der Praxis oft vergessen und kostet dann eine Nachforderung mit neuer Frist (Details [[F16]] und [[swissolar-stp-vkf-brandschutz-solaranlagen]]).
+
+⚠ **Vorsicht bei alten Merkblättern:** Die im Umlauf befindliche Faustregel «bis 35 m² zusammenhängend und 20 cm Überstand bewilligungsfrei» stammt aus § 1 lit. k BVV in der bis Anfang der 2010er-Jahre geltenden Fassung (so noch im AWEL-Vollzugsordner von 2013 abgedruckt) und ist **überholt**. Wer heute danach plant, geht von einer Bewilligungsfreiheit aus, die es so nicht mehr gibt, und übersieht die Meldepflicht samt Unterlagen.
+
+**Quelle:** Bauverfahrensverordnung Kt. ZH (BVV, LS 700.6), Fassung Nachtrag 133, Druckstand 1.7.2026, amtlicher Volltext §§ 1, 2a-2e — geführt in der Schwester-KB `baurecht` (`raw/260607_amtlich_zh_bvv.md`, abgerufen 07.06.2026) und für § 2a wortlautverifiziert in `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]`, status **established**. Der überholte Altstand ist als solcher dokumentiert in `[[vollzugsordner-energie-zh-abschnitt6]]`, Abschnitt 6.4 (AWEL, Stand Juni 2013). Verfahrensvergleich zu Wärmepumpen/Erdsonden: [[F71]], [[F77]]. Aufgenommen Run 143, 19.08.2026.
+
+## F246 — «Wir ersetzen die Lüftungsanlage im Geschäftshaus. Was verlangt der Kanton energetisch?»
+
+**Kurz:** Bei einer neuen Anlage mit Aussen- und Fortluft ist eine **Wärmerückgewinnung faktisch Pflicht**; als Stand der Technik gilt ein Temperaturänderungsgrad von 70 % oder ein Jahresnutzungsgrad von mindestens 75 %. Auch eine reine Abluftanlage kommt nicht darum herum, sobald sie mehr als 1'000 m³/h fördert und länger als 500 Betriebsstunden pro Jahr läuft. Dazu kommen Obergrenzen für die Luftgeschwindigkeit in den Kanälen — das ist die Anforderung, die am häufigsten Platz im Rohbau kostet.
+
+**Fachlich:** Die EnFK-Vollzugshilfe EN-4 «Lüftungstechnische Anlagen» konkretisiert die WRG-Pflicht über SIA 382/1: Temperaturänderungsgrad 70 % nach Ziffer 5.10.4 oder Jahresnutzungsgrad ≥ 75 % nach Ziffer 5.10.3 (alternativ herleitbar über Deckungsgrad und elektrothermischen Verstärkungsfaktor). Für einfache Abluftanlagen aus beheizten Räumen greift die Pflicht zur kontrollierten Ersatzluftzuführung mit WRG oder zur Abluftwärmenutzung ab **mehr als 1'000 m³/h Abluftvolumenstrom und mehr als 500 h/a Betriebsdauer**; mehrere getrennte einfache Abluftanlagen im selben Gebäude gelten dabei ausdrücklich als **eine** Anlage — das Aufteilen in kleine Einzelanlagen umgeht die Pflicht also nicht. Die Luftgeschwindigkeit darf in Apparaten 2 m/s (bezogen auf die Anströmfläche) und im massgebenden Kanalstrang 3 m/s bis 1'000 m³/h, 4 m/s bis 2'000 m³/h, 5 m/s bis 4'000 m³/h und gestaffelt bis 7 m/s über 10'000 m³/h nicht überschreiten; höhere Werte sind zulässig bei nachgewiesen nicht erhöhtem Energieverbrauch, bei weniger als 1'000 Jahresbetriebsstunden oder bei einzelnen unvermeidbaren räumlichen Hindernissen. Bei Nachrüstungen an Altanlagen lag der Zielwert historisch tiefer (Deckungsgrad 55 % statt 70/75 % bei Neuanlagen).
+
+**Bauherren-Transfer:** Die Geschwindigkeitsgrenzen sind eine **Rohbau-Anforderung, keine Haustechnik-Anforderung** — sie bestimmen den Kanalquerschnitt und damit die lichte Höhe des Steigschachts und der abgehängten Decke. Wer sie erst in der Ausführungsplanung liest, zahlt sie in Geschosshöhe oder in einer Ausnahmebegründung. Zweiter Punkt für die Kostenseite: die 1'000-m³/h-Schwelle bei Abluftanlagen trifft in der Praxis typische Gastro-, Labor- und Werkstattabsaugungen; die Zusammenrechnungsregel macht aus mehreren kleinen Absaugungen eine pflichtige Gesamtanlage. Beides gehört in die Vorprojekt-Abstimmung mit dem HLK-Planer, nicht in die Devis-Phase.
+
+⚠ **Datenstand:** Die Zahlenwerte stammen aus EN-4, Ausgabe Januar 2009, abgedruckt im AWEL-Vollzugsordner Stand Juni 2013 — also aus dem Alterskorpus. Die Grössenordnung deckt sich mit den in dieser KB unabhängig geführten SIA-382/1-Werten ([[komfortlueftung-wrg-sia382-luftwechsel]]), die konkrete Ziffer ist aber vor einer Nachweisverwendung gegen die geltende SIA-382/1-Fassung und das EVEN-Formular zu prüfen. Der Papierweg über die EN-Formulare selbst ist im Kt. Zürich seit 1.1.2026 durch EVEN abgelöst ([[energienachweis-zh]]).
+
+**Quelle:** AWEL Vollzugsordner Energie Kt. ZH, Abschnitt 5 mit den eingehefteten EnFK-Vollzugshilfen EN-4 (Januar 2009), EN-5 (Januar 2010) und EN-13 (September 2012), PDF-Seiten 109-138 vollständig gelesen (Run 143, 19.08.2026) → `[[vollzugsordner-energie-zh-abschnitt5]]`, status emerging. Die zitierten WRG-Grenzwerte, die 1'000-m³/h-/500-h/a-Schwelle und die Geschwindigkeitsstaffel wurden im selben Lauf am Quell-PDF nachgeprüft. Themenartikel [[komfortlueftung]] geschärft.

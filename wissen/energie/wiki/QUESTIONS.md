@@ -3474,3 +3474,26 @@ durchfuehrbar.
 - [ ] **E-R134-4 (P4): Existiert eine MFH- oder Zweckbau-Fassung des EFH-Bauteilvergleichs?** Das
   Blatt gilt laut eigener Fussnote ausdrücklich nur für «Wohnen Einfamilienhaus». Die KB deckt
   MFH über die Kennzahlen ab, aber nicht auf derselben Bauteilebene.
+
+## 2026-08-19 (Run 143) — Vollzugsordner abgeschlossen bis auf eine neu vermessene Lücke
+
+- [ ] **E-R143-1 (P1, neu): Vollzugsordner Energie Kt. ZH, PDF-S. 43-68 — Abschnitt 2.3-2.6 und
+  Abschnitt 3.1/3.2 mit der Vollzugshilfe EN-1 «Höchstanteil an nichterneuerbaren Energien bei
+  Neubauten» (13 Seiten).** In Run 143 durch Seitenkopf-Screening aufgedeckt: die Buchung von
+  Run 138 («S. 7-45 gelesen = Abschnitt 1.1-1.5 + 2.1-2.2») reichte drei Seiten zu weit — S. 43-45
+  tragen bereits den Kopf «Abschnitt 2.4». Alle übrigen Abschnitte (4-10) sind erschlossen, diese
+  Lücke ist der letzte und zugleich inhaltlich wertvollste Rest des Werks: der Höchstanteil-
+  Nachweis mit seinen Standardlösungen ist eine der meistgestellten Bauherren-Fragen.
+  **Priorität 1 für Run 144.** Quelle liegt über M365-CLI/Graph bereit (Drive `02_Recht_Norm`,
+  `01_Gesetze/02_Zuerich/Energie/Vollzugsordner Energie Kanton ZH.pdf`).
+- [x] **Solar-Bewilligungsweg ZH geklärt (Run 143).** Der im Vollzugsordner-Abschnitt 6.4
+  abgedruckte Stand (§ 1 lit. k BVV alter Fassung, Dachanlagen bis 35 m² bewilligungsfrei) wurde
+  am geltenden BVV-Volltext (Nachtrag 133, KB `baurecht`) gegengeprüft und als überholt markiert:
+  heute Meldepflicht nach § 2a BVV, bewilligungsfrei nur steckerfertige Anlagen bis 4 m².
+  Ergebnis in FAQ **F245** und im Artikel `[[solarpflicht-schweiz-kantone]]`. Kein offener Rest.
+- [ ] **E-R143-2 (P3, neu): Selbstwiderspruch in der AHB-Beleuchtungstabelle.** Turnhalle
+  «Wettkampfsport» steht in der Tabellenspalte mit 500 lx, in Fussnote 4 mit 750 lx
+  (`[[ahb-zuerich-uebersichtstabelle-beleuchtung-en12464]]`, Dokument vom 19.01.2007). Bewusst
+  unverändert übernommen, nicht aufgelöst — die Klärung geht nur über die geltende
+  SN-EN-12464-1-Fassung und gehört damit zur KB `normen` (Rule `normen-referenz`). Geringe
+  Dringlichkeit, da das Destillat ohnehin `speculative` ist.

@@ -116,6 +116,41 @@ Fenster unterlaufen.
 
 → FAQ `F232`.
 
+## Vollzug Kt. Zürich — was die Behörde an einer Lüftungsanlage prüft (ergänzt Run 143, 19.08.2026)
+
+Bisher beschrieb dieser Artikel vor allem Auslegung, Komfort und Betrieb. Der kantonale Vollzug
+setzt daneben eigene, harte Grenzen — sie stammen aus der EnFK-Vollzugshilfe **EN-4
+«Lüftungstechnische Anlagen»**, wie sie der AWEL-Vollzugsordner als Abschnitt 5.1 einheftet:
+
+- **Wärmerückgewinnung, Neuanlagen:** «Stand der Technik» ist in der Regel ein
+  **Temperaturänderungsgrad von 70 %** (SIA 382/1 Ziffer 5.10.4) oder ein **Jahresnutzungsgrad
+  von mindestens 75 %** (Ziffer 5.10.3); alternativ herleitbar über Deckungsgrad und
+  elektrothermischen Verstärkungsfaktor.
+- **Wärmerückgewinnung, einfache Abluftanlagen:** Pflicht zur kontrollierten Ersatzluftzuführung
+  mit WRG oder zur Abluftwärmenutzung, sobald der Abluftvolumenstrom **> 1'000 m³/h** und die
+  Betriebsdauer **> 500 h/a** beträgt. Mehrere getrennte einfache Abluftanlagen im selben Gebäude
+  gelten dabei ausdrücklich **als eine Anlage** — Aufteilen umgeht die Pflicht nicht.
+- **Luftgeschwindigkeit:** in Apparaten 2 m/s (auf die Anströmfläche bezogen), im massgebenden
+  Kanalstrang 3 m/s bis 1'000 m³/h, 4 m/s bis 2'000 m³/h, 5 m/s bis 4'000 m³/h, gestaffelt bis
+  7 m/s über 10'000 m³/h. Höhere Werte nur mit Energieverbrauchsrechnung, bei weniger als 1'000
+  Jahresbetriebsstunden oder bei einzelnen unvermeidbaren räumlichen Hindernissen.
+- **Nachrüstung von Altanlagen:** historisch tieferer Zielwert (Deckungsgrad 55 %) als bei
+  Neuanlagen.
+- **Dämmung:** Kanäle, bei denen die Wärmeübertragung im Stillstand vernachlässigbar ist und die
+  500 h/a nicht überschreiten (z. B. Cheminée-Zuluft, Entrauchungskanäle), müssen nicht gedämmt
+  werden.
+
+**Planerische Konsequenz:** Die Geschwindigkeitsgrenzen sind faktisch eine Rohbau-Anforderung —
+sie bestimmen Kanalquerschnitt, Schachtgrösse und lichte Höhe der abgehängten Decke. Sie gehören
+in die Vorprojekt-Abstimmung, nicht in die Devis-Phase.
+
+⚠ **Datenstand:** EN-4 Ausgabe Januar 2009, abgedruckt im AWEL-Vollzugsordner Stand Juni 2013 —
+Alterskorpus. Die Grössenordnung deckt sich mit den hier unabhängig geführten SIA-382/1-Werten
+(`[[komfortlueftung-wrg-sia382-luftwechsel]]`), die konkrete Ziffer ist vor einer
+Nachweisverwendung gegen die geltende SIA-382/1-Fassung zu prüfen; der Papierweg über die
+EN-Formulare ist im Kt. Zürich seit 1.1.2026 durch EVEN abgelöst (`[[energienachweis-zh]]`).
+Beleg: `[[vollzugsordner-energie-zh-abschnitt5]]`, status emerging. → FAQ `F246`.
+
 ## Offene Punkte
 - CHF-Kosten aus neutraler/amtlicher Quelle statt Installateur-Schätzung (weiterhin offen).
 - SIA-180-Volltext selbst nicht eingesehen (kostenpflichtig, Zahlen aus Sekundärquelle).

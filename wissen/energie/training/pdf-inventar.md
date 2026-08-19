@@ -892,7 +892,7 @@ lokale Arbeitskopie vor Zuteilung — Standardvorgehen seit Run 122).
 |---|---|---|
 | [x] `WDV2009 mpw.pdf` + `Zusammenstellung Änderungen.pdf` | 2026-08-17 (beide vollst., 12 + 2 S. → `waermedaemmvorschriften-zh-2009-historisch`, status **superseded**; ⚠⚠⚠ Kreuzabgleich mit KB `baurecht` belegt: heute gilt WDV vom 8.6.2022, LS 700.211 — hier NICHT vorliegend, neuer Offen-Punkt E-R138-1) |
 | [x] `VoHi_EN10_de.pdf` | 2026-08-17 (vollst., 2 S., EnFK Juli 2009 → `vollzugshilfe-en10-heizungen-im-freien`; FAQ **F243**) |
-| [~] `Vollzugsordner Energie Kanton ZH.pdf` (199 S. gesamt) | 2026-08-17 (S. 7-45 gelesen: Abschnitt 1.1-1.5 + 2.1-2.2 → `vollzugsordner-energie-zh-abschnitt1-2`; **161 S. offen** (Abschnitt 3-10), Priorität Abschnitt 4 Heizungsanlagen für Fortsetzung. Grösster verbliebener PL-02-Einzelbrocken). **Fortsetzung 18.08.2026** (Nachtschicht Mac Mini): Abschnitt 4.1 gelesen (PDF-S. 69-73) → `vollzugsordner-energie-zh-abschnitt4-1`. **Fortsetzung 19.08.2026** (Nachtschicht Mac Mini): Abschnitt 4.2-4.5 gelesen (PDF-S. 75-108) → `vollzugsordner-energie-zh-abschnitt4-2-4-5`; Abschnitt 3 sowie 5-10 (PDF-S. 109-199, ~90 S.) weiterhin offen, grösster Rest |
+| [~] `Vollzugsordner Energie Kanton ZH.pdf` (199 S. gesamt) | 2026-08-17 (S. 7-45 gelesen: Abschnitt 1.1-1.5 + 2.1-2.2 → `vollzugsordner-energie-zh-abschnitt1-2`; **161 S. offen** (Abschnitt 3-10), Priorität Abschnitt 4 Heizungsanlagen für Fortsetzung. Grösster verbliebener PL-02-Einzelbrocken). **Fortsetzung 18.08.2026** (Nachtschicht Mac Mini): Abschnitt 4.1 gelesen (PDF-S. 69-73) → `vollzugsordner-energie-zh-abschnitt4-1`. **Fortsetzung 19.08.2026** (Nachtschicht Mac Mini): Abschnitt 4.2-4.5 gelesen (PDF-S. 75-108) → `vollzugsordner-energie-zh-abschnitt4-2-4-5`. **ABGESCHLOSSEN 19.08.2026 (Run 143):** Abschnitt 5 (PDF-S. 109-138) → `vollzugsordner-energie-zh-abschnitt5`, Abschnitt 6 (PDF-S. 139-156) → `vollzugsordner-energie-zh-abschnitt6`, Abschnitte 7-10 (PDF-S. 157-199) → `vollzugsordner-energie-zh-abschnitt7-10`. Damit sind die Abschnitte 1, 2.1-2.2 und 4-10 erschlossen. **⚠ Verbliebene Lücke, in Run 143 durch Seitenkopf-Screening exakt vermessen: PDF-S. 43-68** — Abschnitt 2.3-2.6 (u. a. Vollzugshilfe EN-6 «Kühlräume», Januar 2009) und **Abschnitt 3.1/3.2 mit der 13-seitigen Vollzugshilfe EN-1 «Höchstanteil an nichterneuerbaren Energien bei Neubauten»** (PDF-S. 53-67). Run 138 hatte S. 7-45 als «Abschnitt 1.1-1.5 + 2.1-2.2» verbucht, die Seiten 43-45 tragen aber bereits den Kopf «Abschnitt 2.4». Der EN-1-Block ist inhaltlich der wertvollste verbliebene Rest des Werks (Höchstanteil-Nachweis, Standardlösungen) — **Priorität 1 für Run 144**. Status deshalb weiterhin [~], nicht [x] |
 | [-] `730.1_19.6.83_85.pdf` (EnerG-Konsolidierung, Nachtrag 85/1.7.2014) | 2026-08-17 (geprüft: **veralteter Rechtsstand** — die KB `baurecht` führt EnerG ZH bereits als primäre, laufend fassungsgeprüfte Quelle auf **Nachtrag 129/1.7.2025** (`raw/260712_amtlich_zh_energ.md`); dieser Snapshot ist 44 Nachträge/11 Jahre älter. Bewusst **nicht destilliert** (Rule «Verlinken statt doppeln»), stattdessen Cross-Link in `vollzugsordner-energie-zh-abschnitt1-2` gesetzt) |
 
 **E-R137-1 gelöst (Zähler zum Nenner 131 bestimmt).** Unabhängige Neumessung über vollständigen
@@ -934,9 +934,9 @@ vermerkt, kein Blocker für die tägliche Arbeit.**
 | 154'383 | `/04_Merkblätter/eco/6.26Literatur_1-2005.pdf` | vermutlich Literaturverzeichnis, `[-]`-Kandidat |
 | 133'739 | `/06_Richtlinien/Minergie/SIA380_1_Energie_im_Hochbau/25.04.10 Kursausschreibung SIA380-1.pdf` | Kursausschreibung, `[-]`-Kandidat |
 | 82'157 | `/06_Richtlinien/Minergie/Energiegesetz/730.1_19.6.83_72.pdf` | weiterer alter EnerG-Snapshot (Nachtrag 72) — wie `730.1_19.6.83_85.pdf` behandeln (Verlinken statt doppeln) |
-| 79'932 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation E.pdf` | ungeprüft |
-| 77'259 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation H L S.pdf` | ungeprüft |
-| 72'880 | `.../14.3-Richtlinien/Uebersichtstabelle_Beleuchtung_EN12464-1.pdf` | ungeprüft, evtl. Ergänzung zu `ahb-zuerich-gt-rl8-beleuchtung` |
+| 79'932 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation E.pdf` | **[x] destilliert 19.08.2026 (Run 143)** → `ahb-zuerich-richtlinie-anlagedokumentation` (gemeinsam mit der HLS-Schwesterdatei); Version 1.0, Dokumentdatum 19.07.2006 |
+| 77'259 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation H L S.pdf` | **[x] destilliert 19.08.2026 (Run 143)** → `ahb-zuerich-richtlinie-anlagedokumentation` (gemeinsam mit der Elektro-Schwesterdatei); Version 1.0, Dokumentdatum 19.07.2006 |
+| 72'880 | `.../14.3-Richtlinien/Uebersichtstabelle_Beleuchtung_EN12464-1.pdf` | **[x] destilliert 19.08.2026 (Run 143)** → `ahb-zuerich-uebersichtstabelle-beleuchtung-en12464`, status **speculative** (Wertetabelle E_m/UGR ohne Normfassung, Fassungsführung bei KB `normen`); die vermutete Ergänzung zu `ahb-zuerich-gt-rl8-beleuchtung` hat sich bestätigt |
 | 69'755 | `/04_Merkblätter/eco/7.17Fachstellen.pdf` | vermutlich Verzeichnis, `[-]`-Kandidat |
 | 57'018 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/1.13.C Zielvereinbarungen-SIA112_1.pdf` | **belegte Nicht-Dublette** zu `1.13.C Zielvereinbarungen SIA112_1.pdf` (Run 123, andere Grösse) |
 | 49'339 | `/04_Merkblätter/eco/6.16Eidg.Gesetze_Verordnungen_1-2005.pdf` | vermutlich Verzeichnis/Gesetzesliste, `[-]`-Kandidat |
@@ -954,3 +954,17 @@ und `5.26PflanzenamBau.pdf`.
 **Nächste Priorität:** 1. WDV 8.6.2022 (LS 700.211) beschaffen — E-R138-1, höchster Bauherren-Wert.
 2. Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80). 3. Die rund 19 echten Restwerke oben,
 mit `Richtlinie_Anlagedokumentation E/H L S` und `Uebersichtstabelle_Beleuchtung_EN12464-1` zuerst.
+
+### Nachtrag 19.08.2026 (Run 143) — Fortschrittsstand zum Nenner 131
+
+Drei der 24 Restwerke sind erledigt (`Richtlinie_Anlagedokumentation E`, `… H L S`,
+`Uebersichtstabelle_Beleuchtung_EN12464-1`). Damit sind **110 von 131** kanonischen Werken in
+`destillate/`+`_INGESTED.md` nachweisbar (107 nach Run 138 plus drei). Der ehrliche Kern der
+Restliste sinkt von rund 19 auf **rund 16 tatsächlich unbearbeitete Werke**; die fünf
+Mess-Artefakte und der P3-Pflegepunkt E-R138-2 bleiben unverändert bestehen.
+
+**Nächste Priorität:** 1. **Vollzugsordner PDF-S. 43-68** — Abschnitt 2.3-2.6 (EN-6 Kühlräume) und
+Abschnitt 3.1/3.2 mit der 13-seitigen **Vollzugshilfe EN-1 «Höchstanteil an nichterneuerbaren
+Energien bei Neubauten»**; in Run 143 als bisher unbemerkte Lücke aufgedeckt und der wertvollste
+verbliebene Rest des Werks. 2. `5.26PflanzenamBau.pdf` (5,2 MB, grösster Einzelposten der
+Restliste). 3. E-R138-2 (P3, Pflege).

@@ -2454,3 +2454,36 @@ Abschnitt sowie die WKK-Standardlösung 11 (70-%-Deckungsschwelle) ergänzt.
 
 **Nächste Priorität:** Abschnitt 5-10 (PDF-S. 109-199, ~90 S.) — grösster verbliebener
 PL-02-Einzelbrocken.
+
+## Run 143 (19.08.2026, Tagesslot MacBook Pro) — Vollzugsordner Abschnitte 5-10 abgeschlossen, drei AHB-Restwerke, Solar-Bewilligungsweg korrigiert
+
+**Transfer (5 Werke, Sparbetrieb-Rahmen 3-5):** Vollzugsordner Energie Kt. ZH Abschnitt 5
+(PDF-S. 109-138, EN-4/EN-5/EN-13), Abschnitt 6 (S. 139-156, EN-11/EN-10/EN-12), Abschnitte 7-10
+(S. 157-199, Merkblätter 1-6 Private Kontrolle, Kantonsübersichten SG/AR/GL/SZ, EN-15
+Grossverbraucher) sowie die drei AHB-Restwerke `Richtlinie_Anlagedokumentation E` + `H L S`
+(→ ein gemeinsames Destillat) und `Uebersichtstabelle_Beleuchtung_EN12464-1`. Zugang wie in den
+Vorläufen über M365-CLI/Graph (Drive `02_Recht_Norm`), lokale Arbeitskopie vor Zuteilung; die
+mechanische Destillation lief auf vier parallelen Sonnet-Subagenten, Verifikation und Verdichtung
+im Hauptmodell (Modell-Politik 19.07.2026).
+
+**Verdichtung:** neue FAQ **F245** (Bewilligungsweg Solaranlagen ZH) und **F246** (energetische
+Anforderungen beim Lüftungsersatz); **F229** um die Herkunft der alten Beleuchtungs-Zielwerte und
+die Trennung Energie-/Lichttechnik geschärft. Artikel `solarpflicht-schweiz-kantone` um einen
+Verfahrensabschnitt mit Fallunterscheidungstabelle gewachsen, `komfortlueftung` um einen
+Vollzugsabschnitt.
+
+**Zentraler Befund:** Der Vollzugsordner-Abschnitt 6.4 nennt die Bewilligungsfreiheit von
+Dach-Solaranlagen bis 35 m² (§ 1 lit. k BVV alter Fassung). Der Gegenabgleich am geltenden
+BVV-Volltext (Nachtrag 133, geführt in der KB `baurecht`) zeigt: **überholt**. Heute gilt die
+Meldepflicht nach § 2a BVV; bewilligungsfrei ist nur noch die steckerfertige Anlage bis 4 m².
+Der Befund wurde nicht als «ungeprüft» stehengelassen, sondern im Destillat korrigiert und in
+FAQ/Artikel als geltende Aussage aufgebaut.
+
+**Zweiter Befund (Messfehler im Bestand):** Beim Seitenkopf-Screening zeigte sich, dass die
+Buchung von Run 138 («S. 7-45 = Abschnitt 1.1-1.5 + 2.1-2.2») zu weit reichte — S. 43-45 tragen
+bereits den Kopf «Abschnitt 2.4». Offen bleiben damit **PDF-S. 43-68**: Abschnitt 2.3-2.6
+(EN-6 Kühlräume) und Abschnitt 3.1/3.2 mit der 13-seitigen Vollzugshilfe **EN-1 «Höchstanteil an
+nichterneuerbaren Energien bei Neubauten»**. Das ist inhaltlich der wertvollste verbliebene Rest.
+
+**Nächste Priorität:** 1. Vollzugsordner PDF-S. 43-68 (EN-1 Höchstanteil zuerst). 2.
+`5.26PflanzenamBau.pdf` (5,2 MB). 3. E-R138-2 (P3, `_INGESTED.md`-Pflege).
