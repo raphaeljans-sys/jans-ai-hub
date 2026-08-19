@@ -866,6 +866,31 @@ Dienstag bis Freitag zeigen, ob 3.27 GB/Tag das Normalmass ist oder ein Nachhole
 Report: `tenant-hygiene/reports/260817-hygiene.md`. Status: **Punkt 2 offen und ab heute
 belegt, Entscheid Raphael (Admin Center).**
 
+**Nachtrag 19.08.2026, 20:10 (tenant-hygiene-Lauf — Punkt 2 eskaliert, die Reihenfolge der
+Massnahmen dreht sich um):** Der dritte Werktag in Folge misst dieselbe Ursache, aber mit
+stark steigender Rate. Der Tenant ist in exakt 24 Stunden von 831.26 auf **844.56 GB**
+gestiegen (**+13.29 GB/Tag**, nach +3.27 am 17.08. und +5.02 am 18.08.); Auslastung
+**80.1 %**, freier Puffer **209.4 GB**. Positionsgenau belegt: JANS.PROJEKTE
+Versionsverlauf 63.00 → **76.27 GB** (+13.27 GB), tenantweit 73.56 → 86.83 GB — der
+Zuwachs tenantweit ist identisch mit dem der einen Site, keine andere Site hat Versionen
+gebildet. Rechnet man den Verlauf heraus, sind die **Nutzdaten um 0.02 GB gewachsen**;
+99.8 % des Tageszuwachses sind reiner Versionsverlauf ueber bestehendem Inhalt. Vom Trim
+des 13.08. (106 GB) sind in sechs Tagen bereits **22.7 GB zurueckgekehrt**.
+**Restlaufzeit 16 Tage** (etwa 4. September), gegenueber 44 Tagen gestern; die
+**88-%-Marke ist rund 6 Tage entfernt** (etwa 25. August). **Die Reihenfolge der beiden
+Massnahmen kehrt sich damit um:** bisher stand der Versions-Trim vorn und die
+Limit-Umstellung daneben. Bei 13.29 GB/Tag kauft ein Trim von rund 60 GB nur noch
+**viereinhalb Tage** und waere nach drei Wochen aufgezehrt — er ist keine Loesung mehr,
+sondern eine Verzoegerung, die wie eine Behandlung aussieht. **Zuerst Admin Center →
+Einstellungen → Versionsverlauf-Limits → «Automatisch», danach trimmen.** Neu als dritter
+Punkt aufgenommen: die Ursache des Sprungs auf JANS.PROJEKTE gehoert geklaert (Sync-Client,
+Autospeichern-Zyklus oder eine wiederholt ueberschriebene grosse CAD-/Render-/Archivdatei) —
+eine Diagnose, kein Ersatz fuer die Limit-Umstellung. Papierkoerbe: alle zweiten Stufen
+tenantweit leer (elfter Lauf in Folge), keine Auto-Bereinigung, 0 GB; erste Stufen
+469 Objekte / 1.49 GB unangetastet. Report:
+`tenant-hygiene/reports/260819-hygiene.md`. Status: **Punkt 2 offen und dringend, Entscheid
+Raphael (Admin Center) — der Puffer traegt beim heutigen Tempo noch rund 16 Tage.**
+
 Eintrag 13.08.2026 (Hub-Chef 08:39, Regellauf — **ein neuer Vorgang seit dem Radar, und die
 vier Entwuerfe liegen um 08:45 immer noch unversendet**):
 
