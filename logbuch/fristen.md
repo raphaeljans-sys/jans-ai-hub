@@ -4,6 +4,21 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
+**NEU 20.08.2026, 00:57 (Vollgas-Radar) — Tailscale ist auf dem Mac Mini gestoppt; der native
+NAS-Committer und jeder Fernzugriff auf die Always-On-Station laufen ins Leere.** Gemessen auf dem
+Mini: `Tailscale is stopped`, und `diskstation918.tail8265aa.ts.net` loest nicht auf (NXDOMAIN,
+ping «Unknown host»). Aufgefallen ist es an den Nachtschicht-Laeufen vom 19.08. (02:30 und 23:36),
+die beide melden, der native NAS-Commit sei am DNS-Namen gescheitert. **Kein Datenverlust:** das
+NAS ist ueber LAN erreichbar (192.168.1.10, 0.4 ms) und der 15-Minuten-Selfcommit-Cron laeuft
+lueckenlos weiter (00:15 / 00:30 / 00:45 belegt) — die Schreibvorgaenge werden also aufgefangen,
+nur eben mit bis zu 15 Minuten Latenz statt sofort. **Was tatsaechlich ausfaellt:** `nas-commit-now.sh`
+auf dem Mini (das Script zielt in Zeile 23 auf den Tailscale-Namen, ueberschreibbar via
+`JANS_NAS_SSH`), der Dispatch-Weg vom Handy und der remote-tasks-Weg von claude.ai/code — alles,
+was den Mini von ausserhalb des LAN erreicht. **Der Radar hat nicht eingegriffen:** Systemdienste
+sind Klasse 4 der Rule `interaktive-eingriffe`, und dieser Lauf ist unbeaufsichtigt. Behebung
+Raphael, ein Befehl auf dem Mini: `/Applications/Tailscale.app/Contents/MacOS/Tailscale up`.
+| eigene Messung 20.08.2026 00:57 per ssh mini; Laufbelege `logbuch/laeufe/260819-laeufe.jsonl` | Hub-Infrastruktur | mittel | offen
+
 
 Eintrag 19.08.2026, 06:55 (Logbuch-Radar — **ein neuer Punkt auf dem kritischen Pfad, der bei
 Raphael selbst liegt, und eine Behörden-Umstellung, die den offenen Baufreigabe-Strang trifft**):
