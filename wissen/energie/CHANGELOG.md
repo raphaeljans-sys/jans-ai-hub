@@ -1,5 +1,48 @@
 # CHANGELOG
 
+## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — SIA 416/1:2007 als zurueckgezogen gekennzeichnet; eine Handlungsanweisung fuer Aussendokumente gestoppt
+
+**Vier Fassungsvermerke gesetzt, fuenf geplante Stellen nach adversarischer Pruefung bewusst NICHT
+angefasst.** Belegt an zwei Primaerquellen (Normen-Nacht Run 57, 19.08.2026): SIA-Shop-Produktdatenblatt
+(«archivierter Titel», mit Enddatum) und Titelblatt der **SIA 380:2015** (SN 504380:2015),
+das woertlich «Ersatz fuer SIA 416/1:2007» traegt. **SIA 380:2015 liegt nicht im Haus** —
+Beschaffung ist Bring-Schuld (Ticket `N57-2` in `wissen/normen/wiki/QUESTIONS.md`); die
+Fundstellen sind deshalb **nicht** umgehaengt, sondern nur mit Fassungsvermerk versehen.
+
+- **`destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` (der schwerste Fall):** Die Datei
+  trug in der Normbezeichnungs-Klaerung eine **aktive Handlungsanweisung** — «beim Zitat in einem
+  Aussendokument ist statt der zurueckgezogenen Norm die Nachfolgenorm zu nennen», wobei die
+  «Nachfolgenorm» SIA 416/1:2007 war. Diese Anweisung trug seit ihrer Formulierung eine seit 2015
+  archivierte Ausgabe **aktiv in JANS-Aussendokumente hinein**. Nachtrag gesetzt: bis zur Klaerung
+  **nicht befolgen**; die Kaskade SIA 180/4:1982 → SIA 416/1:2007 geht eine Stufe weiter, als dort
+  stand. Zusaetzlich der bestehende Rueckausnahme-Vorbehalt (Run 34) um den Rueckzugs-Fakt ergaenzt
+  (Einschub, kein zweiter Block).
+- **`wiki/u-werte-grenzwerte-ch.md`** (EBF-Abschnitt, `status: established`) und
+  **`destillate/enfk-en-02-waermeschutz-2013.md`** (Kapitel «EBF — Definition (SIA 416/1:2007)»):
+  Fassungsvermerk gesetzt; fuer den Stand 2013 war die Angabe korrekt, die Quellentreue bleibt.
+- **`destillate/vollzugsordner-energie-zh-abschnitt6.md`:** Vermerk **neben** den quellentreuen
+  Absatz gesetzt, nicht hinein — der Satz gibt den Wortlaut der EnFK-Vollzugshilfe EN-12 wieder.
+  Der Vermerk laesst ausdruecklich offen, ob der ZH-Vollzug seinen statischen Verweis nachgefuehrt
+  hat («nicht geprueft», nicht «gilt nicht mehr»).
+- **`destillate/therapiebad-hallenbad-energie-pflegeheim.md`:** nur ein Klammerzusatz hinter
+  «SIA 416/1:2007» — im selben Satz steht **SIA 416:2003**, die gilt, und zwei Zeilen weiter «GV
+  nach SIA 416». Ein Absatzvermerk haette eine gueltige Norm als zurueckgezogen ausgewiesen.
+- **Bewusst NICHT angefasst** (adversarisch ausgeschlossen): `enfk-fensterblatt.md:109` und
+  `systemnachweis-kurs-zh-2009.md:51,55` (Verweise ohne Ausgabejahr, Frontmatter warnt bereits
+  pauschal) · `vollzugsordner-energie-zh-abschnitt4-2-4-5.md:57` (thermische Huellflaeche ist
+  genuine 416/1-Domaene, ohne Ausgabejahr; die VHKA-75-%-Schwelle nach § 9 EnerG aendert sich nicht) ·
+  `vollzugsordner-energie-zh-abschnitt6.md:64` **inhaltlich** (die EBF-Zuordnung zu 416/1 Ziff. 3.2
+  ist doppelt korrekt) und **:122** (NGF-Zuordnung — siehe naechster Punkt).
+- **Widerlegter Befund, dokumentiert:** Gemeldet war, `vollzugsordner-energie-zh-abschnitt6.md:122`
+  ordne die **Nettogeschossflaeche** faelschlich der SIA 416/1 statt der SIA 416:2003 zu. Der
+  Refuter ging ans Original-PDF (Vollzugsordner Energie Kt. ZH, AWEL, Stand Juni 2013, S. 139-156):
+  die Quelle schreibt selbst woertlich «Die Nettogeschossflaeche gemaess Norm **SIA 416/1** ist der
+  Teil der Geschossflaeche zwischen den umschliessenden oder innenliegenden Konstruktionsbauteilen
+  … vereinfachend auch mit 90 % der Bruttogeschossflaeche». Das Destillat ist **satzidentisch
+  quellentreu**; eine Korrektur haette dem AWEL einen Wortlaut unterschoben, den es nie schrieb.
+  Auch sachlich waere der Befund hoechstens «unpraeziser» gewesen: SIA 416/1 Ziff. 1.1.1 uebernimmt
+  die Geschossflaechen-Definitionen aus SIA 416 und praezisiert sie. **Nicht geaendert.**
+
 ## 2026-08-19 (Tagesslot MacBook Pro) — Run 143: Vollzugsordner Abschnitte 5-10 destilliert, Solar-Bewilligungsweg korrigiert, drei AHB-Restwerke geschlossen
 
 Fünf Werke über den Graph-Weg (M365-CLI, Drive `02_Recht_Norm`, lokale Arbeitskopie), mechanische

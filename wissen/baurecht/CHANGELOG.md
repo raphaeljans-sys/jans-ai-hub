@@ -3,6 +3,30 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — die als «normative Fundstelle» benannte SIA 416/1:2007 ist selbst zurueckgezogen
+
+- **`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`:** Die Cross-Ref-Anmerkung aus
+  Run 33 wies `SIA 416/1:2007` als «die **normative** Fundstelle von Symbol und Berechnungsgrundlage
+  der EBF/AE» aus und nannte sie «Nachfolgenorm der zurueckgezogenen SIA 180/4:1982». Die Kaskade
+  geht eine Stufe weiter: **auch SIA 416/1:2007 ist zurueckgezogen** (gueltig 01.07.2007 bis
+  31.03.2015). Belegt an zwei Primaerquellen (Normen-Nacht Run 57, 19.08.2026): SIA-Shop-Produktdatenblatt
+(«archivierter Titel», mit Enddatum) und Titelblatt der **SIA 380:2015** (SN 504380:2015),
+das woertlich «Ersatz fuer SIA 416/1:2007» traegt. **SIA 380:2015 liegt nicht im Haus** —
+Beschaffung ist Bring-Schuld (Ticket `N57-2` in `wissen/normen/wiki/QUESTIONS.md`); die
+Fundstellen sind deshalb **nicht** umgehaengt, sondern nur mit Fassungsvermerk versehen.
+
+  Damit ist an dieser Stelle **keine geltende Norm-Fundstelle mehr benannt**.
+- **Seitentreue gewahrt.** Der Eingriff traf ausschliesslich die kursiv gesetzte, als «rein additiv»
+  markierte Anmerkung (Run 33), **nicht** den Buchwortlaut: die EBF-Definition nach Vollzugshilfe
+  EN-2 (S. 1259) und alle Seitenbelege stehen unveraendert. Der Nachtrag ist als eigener datierter
+  Kursivblock angefuegt, nichts ersetzt.
+- **Unberuehrt richtig geblieben:** der Satz, wonach fuer den **kantonalen Vollzug** die
+  Vollzugshilfe EN-2 massgebend bleibt — der Norm-Rueckzug beruehrt ihn nicht.
+- Die gestrige § 47a-Korrektur (Run 36) wurde in diesem Lauf unabhaengig gegen die KB `energie`
+  geprueft: `energie/destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md` fuehrt **exakt
+  dieselben** Grenzwerte (35/35/40/35/40/45/40/70/20/20/25 kWh/m² EBF) plus Fossilverbot
+  § 11 Abs. 1 EnerG. **Bestaetigt konsistent, nichts zu tun.**
+
 ## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — § 47a BBV I im Buch-Destillat: Rechtsstand 2019 seit 01.09.2022 ueberholt
 
 - **Bestaetigter harter Befund M5-1** (gemeldet aus dem Paar `energie ↔ baurecht`, adversarial

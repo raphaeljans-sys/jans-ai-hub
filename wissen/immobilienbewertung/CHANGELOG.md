@@ -2,6 +2,29 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — Fassungsvermerk zum Glied «SIA 416/1»; die massgebende SIA 416:2003 bleibt unberuehrt
+
+- **`wiki/flaechendefinitionen-sia.md`:** Der Satz «Massgebend ist **SIA 416** …; fuer
+  Flaechenbedarf/Programm ergaenzend SIA 416/1 und SIA 2024» hat einen Fassungsvermerk erhalten,
+  der **ausschliesslich** das Glied «SIA 416/1» betrifft: diese Ergaenzungsnorm ist zurueckgezogen
+  (gueltig 01.07.2007 bis 31.03.2015). Belegt an zwei Primaerquellen (Normen-Nacht Run 57, 19.08.2026): SIA-Shop-Produktdatenblatt
+(«archivierter Titel», mit Enddatum) und Titelblatt der **SIA 380:2015** (SN 504380:2015),
+das woertlich «Ersatz fuer SIA 416/1:2007» traegt. **SIA 380:2015 liegt nicht im Haus** —
+Beschaffung ist Bring-Schuld (Ticket `N57-2` in `wissen/normen/wiki/QUESTIONS.md`); die
+Fundstellen sind deshalb **nicht** umgehaengt, sondern nur mit Fassungsvermerk versehen.
+
+- **Bewusst eng gehalten.** Kein Vermerk im Frontmatter-Titel (Z. 2) — ein Titel ist kein
+  Fundstellenort, und er nennt beide Normen in einem Atemzug. Die gesamte SIA-416:2003-Hierarchie
+  des Artikels (GSF/GF/NGF/NF/HNF/NNF/VF/FF/KF, Volumen GV/NGV/KV/AKV) ist **unberuehrt gueltig**
+  und wurde nicht angefasst; ein globales Ersetzen auf «SIA 416» waere hier der Fehlertyp aus Rule
+  `auto-verbesserungen` 260811 gewesen (~25 Zeilen der Datei handeln von der gueltigen Norm).
+- **Nebenbefund, nicht geaendert:** «fuer Flaechenbedarf/Programm ergaenzend SIA 416/1» ist auch
+  fachlich schief — SIA 416/1 fuehrt «Kennzahlen fuer die Gebaeudetechnik»; Raumnutzungsdaten
+  liefert **SIA 2024**. Im Vermerk benannt, der Satz selbst unveraendert.
+- **Kontext:** Der am 18.08. von Run 36 gesetzte Backlink auf `[[sia-416-1-2007]]` zeigte seit dem
+  19.08. auf ein Destillat mit Rueckzugs-Warnkasten. Der Backlink bleibt richtig — er fuehrt jetzt
+  zur Warnung statt an ihr vorbei.
+
 ## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Backlink auf das SIA-416/1-Destillat gesetzt
 
 - `wiki/flaechendefinitionen-sia.md` nannte **SIA 416/1** im Fliesstext, ohne auf die

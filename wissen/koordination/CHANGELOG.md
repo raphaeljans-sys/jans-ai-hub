@@ -3,6 +3,36 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-19 — Wissens-Chef Run 37 (Abendlauf)
+
+**Zuschnitt:** 5 Melder (sonnet) + 3 Refuter (Hauptmodell), 8 Agenten, 1'386'907 Token,
+141 Werkzeugaufrufe, 8,8 Min. Korpus-Messung und alle Aktionen im Hauptkontext.
+**Uhr-Kontrolle bestanden:** Station 23:15:32 CEST gegen Synology-Selfcommit 23:15:01/06
+(HEAD `34a3ce10`), konsistent mit dem 15-Min-Takt, kein Datumssprung.
+
+**Ergebnis:** Der Rueckzug von SIA 416/1:2007 (Normen-Nacht Run 57, heute 01:42) wurde in die
+vier abnehmenden KBs propagiert. **Beide harten Melderbefunde wurden widerlegt** — der
+Refuter-Stufe ist zu verdanken, dass zwei Dateien nicht falsch geaendert wurden.
+
+- **11 Fassungsvermerke/Aenderungen gesetzt** in `energie` (4), `immobilienbewertung` (1),
+  `planungsgrundlagen` (1), `baurecht` (1), `skills/wettbewerb` (1), `agents/flaechen-nachweis`
+  (1), `skills/machbarkeit` (1) — Details in den KB-CHANGELOGs.
+- **Sieben geplante Eingriffe adversarisch ausgeschlossen**, darunter einer, der eine **gueltige**
+  Norm (SIA 416:2003) als zurueckgezogen ausgewiesen haette, und einer auf eine Zeile, die
+  ueberhaupt keinen Normbezug traegt (`systemnachweis-kurs-zh-2009.md:47` fuehrt die
+  Energiebilanz-Formel) — dort waere fremder Text getroffen worden.
+- **Reichweite gemessen, nicht geschaetzt:** `grep` ueber `skills/ agents/ rules/ references/`
+  findet **keine einzige** Nennung von «416/1». Der Rueckzug erreicht die Skills-Schicht nicht.
+  Die dort breit verwendete **SIA 416:2003 ist eine andere, gueltige Norm**.
+- **Zwei Widerlegungen** (Belege im Laufbericht): (a) NGF-Zuordnung im ZH-Vollzugsordner —
+  die Quelle schreibt selbst «SIA 416/1», das Destillat ist quellentreu; (b) HNF/GF 0,50 gegen
+  0,60 in `skills/machbarkeit` — verschiedene Projekte, verschiedener Perimeter (Tiefgarage),
+  beide Werte wortgetreue Abschrift ihrer Primaerquelle.
+- **Uebergabe-Auftrag 1 aus Run 36 erledigt:** `skills/wettbewerb` und `agents/flaechen-nachweis`
+  an `wissen/normen/destillate/sia-416-2003.md` verankert; beide fuehren jetzt Rule
+  `normen-referenz` in den abhaengigen Rules (sie fehlte, obwohl die Rule den Skill in ihrem
+  eigenen Geltungsbereich nennt).
+
 ## 2026-08-19 — Synergie-Lauf 12 (Tagestakt)
 
 - **Bericht:** `outputs/2026-08-19_synergie-lauf-12.md`. Delta-Basis 18.08.2026 17:10,

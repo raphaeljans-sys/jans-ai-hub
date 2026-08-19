@@ -2,6 +2,26 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — Rueckzugs-Nachtrag an der publizierten SIA 416/1; der Entwurf 3/05 bleibt unberuehrt
+
+- **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`:** Der Fassungsvorbehalt (Run 35,
+  ergaenzt Run 36) hat einen datierten Nachtrag erhalten — und zwar **an der richtigen Stelle**.
+  Betroffen ist allein die **publizierte** SIA 416/1:2007 (Ziff. 3.2.2/Figur 16, 1,0 m) und der
+  daraus abgeleitete Satz «Fuer einen Energienachweis gilt 1,0 m»: dieser stuetzt einen aktuellen
+  Nachweiswert auf eine **archivierte Ausgabe**. Belegt an zwei Primaerquellen (Normen-Nacht Run 57, 19.08.2026): SIA-Shop-Produktdatenblatt
+(«archivierter Titel», mit Enddatum) und Titelblatt der **SIA 380:2015** (SN 504380:2015),
+das woertlich «Ersatz fuer SIA 416/1:2007» traegt. **SIA 380:2015 liegt nicht im Haus** —
+Beschaffung ist Bring-Schuld (Ticket `N57-2` in `wissen/normen/wiki/QUESTIONS.md`); die
+Fundstellen sind deshalb **nicht** umgehaengt, sondern nur mit Fassungsvermerk versehen.
+
+- **Ausdruecklich NICHT angefasst: der Entwurf 3/05** (Z. 30, 72 und der Entwurfs-Satz im
+  Vorbehalt). Ein Entwurf von 2005 ist vom Rueckzug der Publikation 2007 nicht betroffen und ueber
+  den AHB-Honorarvertrag der Stadt Zuerich weiterhin bindend; der RFB-Wert **1,5 m** bleibt gueltig.
+  Die urspruenglich geplante Zielzeile lag genau auf diesem Entwurfs-Satz und wurde durch die
+  adversarische Pruefung um die richtige Anzahl Zeilen verschoben — ohne sie waere der Vermerk auf
+  den einzigen Satz des Absatzes gefallen, den er nicht betrifft.
+- Ebenfalls unberuehrt: alle SIA-416:2003-Nennungen der Datei (Z. 27, 30-Teil, 38, 575, 715, 1270).
+
 ## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Fluchtwegtuer-Ausnahme auf VKF-Stand gebracht; Doppelfuehrungs-Landkarte gesetzt
 
 - **Befund M3-3 (teilweise bestaetigt).** `wiki/recht-norm-arbeitshilfen-planungsdetails.md` §4.2

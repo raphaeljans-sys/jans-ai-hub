@@ -282,6 +282,40 @@ zweimal derselbe Quellordner. Der Punkt ist geschlossen und muss nicht weiter ro
 
 ---
 
+### normen → energie ↔ immobilienbewertung ↔ planungsgrundlagen ↔ baurecht (Rueckzug SIA 416/1:2007) — geprueft 2026-08-19 (Run 37)
+
+**Der erste Fall im Register, in dem nicht ein Wert, sondern die GUELTIGKEIT einer ganzen Norm
+propagiert werden musste.** Normen-Nacht Run 57 (19.08., 01:42) belegte an zwei Primaerquellen,
+dass **SIA 416/1:2007 «Kennzahlen fuer die Gebaeudetechnik» seit dem 31.03.2015 zurueckgezogen**
+ist (Ersatz SIA 380:2015, SN 504380:2015, **nicht im Haus** — Ticket `N57-2`). Die KB `normen`
+fuehrte ihr eigenes Register nach und meldete die Fremd-KBs bewusst nur, ohne sie anzufassen.
+Run 37 hat die Propagation gefahren.
+
+- **Fuehrung:** unveraendert `normen` fuer Norm-Fundstellen **und neu ausdruecklich fuer den
+  Gueltigkeitsstand**. Die abnehmenden KBs fuehren keinen eigenen Fassungsstand fort, sondern
+  tragen einen datierten Fassungsvermerk mit Verweis auf die zwei Primaerquellen.
+- **Nicht umgehaengt, nur vermerkt.** Solange SIA 380:2015 nicht im Haus liegt, ist eine
+  Umhaengung der Fundstelle nicht belegbar. Ein Vermerk, der «heute gilt SIA 380:2015» behauptet
+  haette, waere eine unbelegte Aussage gewesen.
+- **Die entscheidende Trennlinie:** **SIA 416:2003 «Flaechen und Volumen von Gebaeuden» ist eine
+  andere Norm und unberuehrt gueltig.** Sie wird im Hub breit verwendet (kostenschaetzung,
+  kostenkontrolle, machbarkeit, immobilienbewertung, grobkosten-onepager, wettbewerb, drei
+  Agenten). Jede Vermischung haette eine gueltige Norm entwertet — der Fehlertyp aus Rule
+  `bkp-2017-referenz` («Sachbezug pruefen, nicht mechanisch ersetzen»). Ebenso unberuehrt: der
+  **Entwurf 3/05** der SIA 416/1, ueber den AHB-Honorarvertrag der Stadt Zuerich bindend.
+- **Reichweite gemessen:** 11 Stellen in vier KBs betroffen; **null** in `skills/`, `agents/`,
+  `rules/`, `references/`. Von 15 geplanten Zielzeilen hielten nach adversarischer Pruefung 6
+  voll, 2 nur als eingeschobene Klammer, 7 wurden ausgeschlossen.
+- **Neuer Registerpunkt (offen):** Sobald SIA 380:2015 beschafft und destilliert ist, sind die
+  11 Vermerke auf die Nachfolgenorm zu pruefen — **sachbezogen**, nicht mechanisch. Der Begriff
+  Energiebezugsflaeche AE lebt in SIA 380:2015 weiter; ueberholt ist die Fundstelle, nicht
+  zwingend die Abgrenzung.
+- **Lehre fuers Register:** Eine KB kann den Gueltigkeitsstand einer Norm nachfuehren und dabei
+  korrekt melden, dass Fremd-KBs betroffen sind — die Meldung allein bewegt nichts. Zwischen
+  Run 57 (01:42) und Run 37 (23:15) hat `energie` im Lauf 143 (10:39) **neue** Zitate derselben
+  zurueckgezogenen Norm geschrieben, ohne die neun Stunden alte Meldung zu kennen. Der
+  Meldeweg von KB zu KB fuehrt ueber diesen Loop, nicht von selbst.
+
 ### normen ↔ planungsgrundlagen (SIA 416/1, EBF-Schwelle) — das neue Destillat bestaetigt die Run-35-Aufloesung — geprueft 2026-08-18 (Run 36)
 
 **Gegenprobe bestanden.** Run 35 hatte den Streit «1,0 m gegen 1,5 m» so aufgeloest: SIA 416/1:2007
