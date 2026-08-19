@@ -1,5 +1,51 @@
 # CHANGELOG
 
+## 2026-08-19 (Tagesslot MacBook Pro) — Run 143: Vollzugsordner Abschnitte 5-10 destilliert, Solar-Bewilligungsweg korrigiert, drei AHB-Restwerke geschlossen
+
+Fünf Werke über den Graph-Weg (M365-CLI, Drive `02_Recht_Norm`, lokale Arbeitskopie), mechanische
+Destillation auf vier parallelen Sonnet-Subagenten, Verifikation und Verdichtung im Hauptmodell.
+Neu: `[[vollzugsordner-energie-zh-abschnitt5]]` (PDF-S. 109-138, EN-4/EN-5/EN-13),
+`[[vollzugsordner-energie-zh-abschnitt6]]` (S. 139-156, EN-11/EN-10/EN-12),
+`[[vollzugsordner-energie-zh-abschnitt7-10]]` (S. 157-199, Merkblätter 1-6 Private Kontrolle,
+Kantonsübersichten SG/AR/GL/SZ, EN-15 Grossverbraucher),
+`[[ahb-zuerich-richtlinie-anlagedokumentation]]` (Elektro + HLS, Dokumentdatum 19.07.2006) und
+`[[ahb-zuerich-uebersichtstabelle-beleuchtung-en12464]]` (19.01.2007, bewusst **speculative**).
+
+**Zentraler Befund — eine überholte Faustregel aus dem Verkehr gezogen.** Abschnitt 6.4 druckt
+§ 1 lit. k BVV alter Fassung ab (Dach-Solaranlagen bis 35 m² bewilligungsfrei). Der Gegenabgleich
+am geltenden BVV-Volltext (Nachtrag 133, KB `baurecht`; § 2a wortlautverifiziert in
+`[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]`, established) zeigt eine andere Systematik:
+bewilligungsfrei ist heute nur die steckerfertige Anlage bis 4 m² (§ 1 lit. j), Dachanlagen nach
+Art. 32a RPV sind **meldepflichtig** (§ 2a Abs. 1 lit. a), und in Kernzone/Inventar/Schutzanordnung
+bleibt jede Anlage bewilligungspflichtig (§ 2a Abs. 2). Im Destillat korrigiert statt als
+«ungeprüft» stehengelassen — Lehre Run 122 angewandt. Neue FAQ **F245** mit dem vollständigen
+Verfahrensweg; Artikel `[[solarpflicht-schweiz-kantone]]` um einen Abschnitt mit
+Fallunterscheidungstabelle gewachsen.
+
+**Zweiter Befund — Messfehler im eigenen Bestand.** Das Seitenkopf-Screening zeigt, dass die
+Run-138-Buchung «S. 7-45 = Abschnitt 1.1-1.5 + 2.1-2.2» drei Seiten zu weit reichte (S. 43-45
+tragen bereits «Abschnitt 2.4»). Offen bleiben **PDF-S. 43-68**: Abschnitt 2.3-2.6 (EN-6
+Kühlräume) und Abschnitt 3.1/3.2 mit der 13-seitigen Vollzugshilfe **EN-1 «Höchstanteil an
+nichterneuerbaren Energien bei Neubauten»** — der inhaltlich wertvollste Rest des Werks. Status
+deshalb weiterhin `[~]`, nicht `[x]`; neuer P1-Punkt **E-R143-1**.
+
+**Verifikation:** vier tragende Zahlen der Subagenten im Hauptmodell direkt am Quell-PDF
+nachgelesen (WRG 70 %/≥ 75 %, Abluftschwelle > 1'000 m³/h **und** > 500 h/a mit
+Zusammenrechnungsregel, Luftgeschwindigkeits-Staffel 3-7 m/s, Grossverbraucher > 5 GWh Wärme oder
+> 0,5 GWh Elektrizität) — **alle vier bestätigt, keine Beanstandung**. Aktualitätsprüfung auf den
+Solar-Verfahrensteil angesetzt: eine Beanstandung, korrigiert. Kein Status auf `established`
+gehoben.
+
+**Weitere Verdichtung:** neue FAQ **F246** (energetische Anforderungen beim Lüftungsersatz),
+**F229** um die Herkunft der alten Beleuchtungs-Zielwerte und die Trennung Energie-/Lichttechnik
+geschärft, Artikel `[[komfortlueftung]]` um einen ZH-Vollzugsabschnitt gewachsen. Register:
+`destillate/INDEX.md`, `raw/_INGESTED.md`, `training/pdf-inventar.md`, `training/curriculum.md`,
+`wiki/QUESTIONS.md`, `wiki/INDEX.md`. Fortschritt PL-02: **110 von 131**.
+
+**Betriebsnotiz:** Die Voraussetzungszeile des Scheduled Task nennt weiterhin den OneDrive-Pfad
+`PL - 04 Energie`, der auf dieser Station strukturell nicht existiert; ein wörtlicher Abbruch wäre
+ein Fehlalarm. Der belegte Regelweg ist Graph/M365-CLI — Task-File entsprechend umschreiben.
+
 ## 2026-08-19 (Nachtschicht Mac Mini, 05:30-Zyklus) — Run 142: Vollzugsordner Abschnitt 4.2-4.5 destilliert
 
 Fortsetzung von Run 141 über denselben Graph-Weg/Drive-ID (lokale Arbeitskopie via
