@@ -699,6 +699,17 @@ Das ist die Antwort-Klasse der Claude-Weboberflaeche und ein deutlich sprechende
 Tailwind-Utilities des ersten Belegs. **Beide Belege zusammen ergeben die Suchmenge fuer einen
 Sweep:** `font-claude-response-body` und `text-[var(--accent)]`.
 
+**⚠ Der in Batch 97 empfohlene Token-SWEEP ist mit `outlook_email_search` NICHT moeglich —
+gemessen am 19.08.2026 (Batch 98).** Der Suchindex indexiert **kein Markup**. Kontrollprobe im
+selben Ordner: ein Wort, das ausschliesslich im Body steht («Cleanwall»), liefert Treffer;
+`font-claude-response-body` und `xapple-mail-urlsharewrapperclass` liefern **null**, obwohl
+mindestens einer der beiden nachweislich im Bestand liegt. **Ein leeres Suchergebnis auf ein
+Markup-Token ist damit eine Aussage ueber den Index, nie ueber den Bestand** (gleiche Familie
+wie die `grep`-Falle in `rules/auto-verbesserungen` 260730b). Der Sweep ist nur ueber **gelesene
+Bodies** moeglich, rund ein `read_resource` je Mail. **Verbindlich ab Batch 98:** jede in einem
+Lauf ohnehin gelesene Mail wird auf beide Web-Tokens geprueft — das kostet nichts extra und
+schliesst die Luecke fortlaufend statt in einem unbezahlbaren Einmal-Lauf.
+
 Zwei Dinge macht dieser Beleg haerter als der erste:
 
 1. **Er widerlegt die Kanal-Tabelle der vierzehnten Falle ausdruecklich.** Dort steht

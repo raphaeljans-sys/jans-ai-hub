@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 gewichtung: authentisch
-sources: [260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2329,3 +2329,38 @@ Sämtliche Regeln stehen unverändert im Do-Block, die Belege in den Abschnitten
   hatte im Entwurf gar keinen Teilnehmerblock. Zweck ist die **nachvollziehbare Runde**: wer
   spaeter das Protokoll liest, sieht, wer zugesagt hat und fuer wen er spricht.
   Quelle: 17.08.2026, korrektur-delta.
+
+## Batch 98 (17.–19.08.2026, Sent Items `rj@`)
+
+- **Die Devis-Position wandert ROH in die Mail, nicht paraphrasiert.** Der Duschwannen-Typ steht
+  im Mailkoerper als woertlicher Block aus dem Leistungsverzeichnis — Artikelnummer, Typenkuerzel,
+  Masse, Ablaufloch, Alternativfabrikate, samt der Zeilenumbrueche des LV mitten im Satz. Kein
+  Fliesstext, keine Glaettung. **Die Spezifikation muss identisch bleiben, damit der Unternehmer
+  sie gegen sein Angebot legen kann** — jede Umformulierung waere ein Risiko. Zweiter Beleg
+  derselben Gattung im selben Fenster: die Kontaktkoordinaten der Bauleitung (unten,
+  [[arbeitsweise]]). Quelle: 17.08.2026, authentisch.
+
+- **Die Buchstabenliste A) B) C) ist Raphaels eigene Listenform.** Im rohen Body steht
+  `list-style-type:"A) "` / `"B) "` / `"C) "` — er setzt die Marken von Hand, statt die
+  Standardnummerierung zu nehmen. Bestaetigt den Befund der fuenfzehnten Falle (Listenform immer
+  am `body.content` pruefen, nie am `bodyPreview`, der «1./2./3.» daraus macht). Der
+  Zwillings-Entwurf desselben Threads loest die Liste in Fliesstext auf. Quelle: 17.08.2026,
+  authentisch.
+
+- **Jede Position traegt ihren Grund in Klammern direkt an der Stelle.** «… erhalten eine
+  Duschwanne Aufsatzmontage **(Grund: Ziel keine Verletzung der Bodenheizung»)**. Die Begruendung
+  steht nicht in einem Absatz darunter, sondern an der Entscheidung, zu der sie gehoert.
+  Quelle: 17.08.2026, authentisch.
+
+- **Der Aufbau wird in Millimetern durchgerechnet, bevor das Fabrikat genannt wird.**
+  «Der Unterlagsboden ist 85mm. Der Deckbelag jetzt 5mm Bolon also bis zur Trittschalldaemung
+  regulaer eine Aufbauhoehe von 90mm. Wir haben einen Bodenaufbauhoehe von 70mm nach Vertiefung
+  beim Bodenablauf …» — die Restriktion steht als Zahlenkette da, das Produkt muss sich ihr
+  fuegen. **Die bindende Restriktion zuerst, das Fabrikat danach.** Alle Masse ohne Leerschlag
+  zwischen Zahl und Einheit ([[stimme]]). Quelle: 17.08.2026, authentisch.
+
+- **Das Fachwissen kommt als Fragesatz an den Spezialisten, nicht als Behauptung.** «Wuerde das
+  System <Fabrikat> besser funktionieren mit der Einbauloesung <Fabrikat> in der Vormauerung
+  positioniert, wuerde das gehen?» Er kennt das Produkt, nennt es beim Namen, ueberlaesst die
+  Beurteilung aber dem Fachplaner — und liefert im selben Atemzug den nackten Link auf die
+  Herstellerseite, direkt unter der Anrede. Quelle: 17.08.2026, authentisch.

@@ -1389,3 +1389,81 @@ authentisch gewichtet. Zu greifen ist nach `font-claude-response-body` und
 **Erst danach** sequenziell weiter: `rj@` 18.–24.08.2026, sowie die verbleibenden 84 ungelesenen
 Entwuerfe mit Drittempfaengern. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten —
 Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 98 (19.08.2026) — Sent Items + `Drafts` `rj@`, Fenster 17.–19.08.2026
+
+**Erhoben:** Sent Items 17.–19.08.2026 vollstaendig (`totalResultCount` **20**; der 19.08. trug
+zum Laufzeitpunkt 04:00 noch nichts), `Drafts` Seite 1 (12 von **112**; am 18.08. waren es 109,
+am 17.08. 103). **8 Volltexte gelesen** (6 gesendete Eigentexte, 2 Entwuerfe).
+**6 `authentisch` · 2 `claude-aera` (Negativmaterial) · 0 `korrektur-delta`.** 14 Marker in allen
+sechs Facetten, 1 Detektor-Kandidat, 3 Fragen, 1 Werkzeug-Verbesserung. Rohdatei
+`260819-mailbatch-98.md`.
+
+**Kernbefund 1 — die Vorrangaufgabe aus Batch 97 ist erledigt, aber anders als geplant: der
+Token-Sweep ist keine Suche.** `outlook_email_search` **indexiert kein Markup**. Kontrollprobe im
+selben Ordner: «Cleanwall» (steht nur im Body) liefert 2 Treffer, `font-claude-response-body` und
+`xapple-mail-urlsharewrapperclass` liefern **null** — obwohl der zweite nachweislich im Bestand
+liegt (die Entwuerfe dieses Batches tragen ihn). **Ein leeres Suchergebnis auf ein Markup-Token
+ist eine Aussage ueber den Index, nicht ueber den Bestand.** In `CLAUDE.md` bei der fuenfzehnten
+Falle nachgetragen, samt der neuen verbindlichen Praxis: **jede in einem Lauf ohnehin gelesene
+Mail wird auf beide Web-Tokens geprueft** — kostenlos, und schliesst die Luecke fortlaufend statt
+in einem unbezahlbaren Einmal-Lauf. In diesem Batch erstmals durchgefuehrt: **8 von 8 Bodies
+sauber**, das Fenster 17.–19.08. traegt keinen Web-Token.
+
+**Kernbefund 2 — Raphaels Hand gegen den Zwilling im SELBEN Thread, an denselben Empfaenger.**
+Konzeptmail 17.08. 13:04 (Exchange, eigene Hand) gegen Hub-Entwurf 18.08. 06:45 (Apple Mail,
+`xapple-mail-urlsharewrapperclass`): Liste **A) B) C)** mit handgesetzter `list-style-type` gegen
+Fliesstext; **Frist «heute bis 17:00 Uhr» mit Zweckbegruendung** gegen «sagen Sie mir bitte, bis
+wann»; «70mm» gegen «70 **mm**»; dichte Fehler («folgende Konzept», «ausgeplaettlete»,
+«waagrech», «Ich Bitte Sie») gegen null Fehler auf 158 Woerter; kein Bild gegen «das eigentliche
+Nadeloehr». **Die Richtung des Batch-97-Befunds dreht sich:** dort baute der Zwilling Druck auf,
+wo Raphael eine Bruecke baute — hier setzt Raphael die harte Frist und der Zwilling fragt
+hoeflich nach. Nicht der Zwilling ist generell fordernder oder weicher, **er trifft die
+Adressaten-Achse nicht**: Fachplaner in der Bringschuld bekommt die Frist, der Partner, den man
+um einen Termin bittet, bekommt die Bruecke.
+
+**Kernbefund 3 — «Geschaetzter» ist eine GEWICHTS-, keine Distanzstufe, und das gilt auch im
+Sie.** Zwei unabhaengige Belege im selben Fenster: derselbe Fachplaner in **105 Minuten**
+«Geschaetzter Herr <Name>» (Konzept mit Freigabe-Frist) → «Sehr geehrter Herr <Name>»
+(technische Rueckfrage); derselbe Werkplaner in **27 Stunden** «Guten Tag Herr <Name>» + «Lgr»
+(Einzeiler) → «Geschaetzter Herr <Name>» + voller Block (Substanzmail). Damit ist die
+Anlassgewicht-Klausel aus `rules/anrede-kontakte.md` (29.07.2026) **erstmals im Sie-Register
+belegt**; bisher trug sie nur Du-Belege. Stufenfolge nach Gewicht:
+`Guten Tag` < `Sehr geehrter Herr` < `Geschaetzter Herr`.
+
+**Neu: «Lgr».** Erster Beleg einer abgekuerzten Grussformel, ohne Namen und ohne Block, am Ende
+einer dreizeiligen Mail — **an einen Sie-Kontakt**. Die Gruss-Stufe folgt der Kuerze und
+Dringlichkeit der Mail, nicht dem Anrede-Register. `stilmetrik.py` kannte die Form nicht und
+wurde in diesem Lauf ergaenzt.
+
+**Detektor-Kandidat (nicht aufgenommen): die Einheiten-Schreibweise.** Raphael schreibt Masse
+**ohne** Leerschlag («85mm», «5mm», «90mm», «70mm», «2cm»; 5 von 5), der Zwilling schreibt
+denselben Wert im selben Vorgang **mit** («70 mm»). Nach Sperrlisten-Disziplin reicht ein Beleg
+auf der Zwillingsseite nicht — die Gold-Seite ist aber eindeutig. Kein Widerspruch zur DNA-Regel
+«% mit Leerschlag».
+
+**Negativbefund am Hub, nicht am Zwilling:** zwei **wortgleiche Entwuerfe** derselben Mail,
+angelegt am 18.08. um **06:45:21 und 06:45:22**, unterschiedlich nur im Verteiler (2 gegen 5
+Empfaenger) und in der HTML-Absatzbildung; beide am Folgetag ungesendet. Beide sind Typ 1 der
+vierzehnten Falle und damit Negativmaterial ([[QUESTIONS]] 260819 #2).
+
+**Mikro-Metrik** (`stilmetrik.py`, Gold 368 W aus sechs Eigentexten ohne Signatur-, Fremd- und
+Devis-Bloecke, Zwilling 158 W aus dem Entwurfspaar): Tausender-Apostroph 0/0; Ellipsen 0/0;
+Satzlaenge ø **17.5 gegen 19.8 W** (Zwilling in diesem Batch **laenger** als Raphael, anders als
+in 96/97; weiterhin unbelastbar, [[QUESTIONS]] 260814 #3). **Die Du-Gross-Quote ist in diesem
+Fenster nicht messbar** — ausser der Anrede «Hoi <Name>» enthaelt der Korpus keine Du-Form; die
+ausgegebene 0.0 auf beiden Seiten ist ein Nenner-Artefakt und **kein Befund**.
+
+**⚠ Gehirn NICHT neu kompiliert, jetzt sechster Batch in Folge — mit korrigierter Zahl.** Die
+Batches 93–97 nennen «29973 B von 30000 B». **Der Fidelity-Lauf vom 18.08. hat `MAX_AUTO_BYTES`
+auf 34000 angehoben** (QUESTIONS 260818b #7). Gemessen am 19.08.2026 im Auto-Block von
+`rules/jans-dna-facetten.md`: **33430 B von 34000 B, 570 B Reserve** — der Riegel steht also
+weiterhin knapp, die bisher fortgeschriebene Zahl war einen Lauf alt. Die Marker dieses Batches
+wirken ueber die Twin-Agenten, die die Facetten-Artikel direkt lesen. Der Entscheid ueber die
+Verfallsregel fuer alte Do/Don't-Marker liegt bei Raphael (QUESTIONS 260818b #7).
+
+**Naechstes Fenster:** (1) sequenziell `rj@` **19.–25.08.2026**; (2) der Token-Sweep laeuft ab
+jetzt **mitlaufend** an jeder gelesenen Mail, zusaetzlich ein Rueckwaerts-Tag ab Mai 2026 je
+Lauf; (3) `Drafts` bleibt ergiebig — 112 Eintraege, rund 65 mit Drittempfaengern, gelesen sind 9.
+**Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
+Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 gewichtung: authentisch
-sources: [260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1259,3 +1259,30 @@ Quelle: 30.07.2026, `claude-aera` (Negativmaterial, nie versendet).
   beim Amt abgelegt und spaeter ohne die Mail-Umgebung gelesen — ein Verweis auf «oben» ist dort
   wertlos. Deckt sich mit Rule `identifikatoren-verifizieren`. Quelle: 17.08.2026,
   korrektur-delta.
+
+## Batch 98 (17.–19.08.2026, Sent Items `rj@`)
+
+- **Hoeflicher Druck ohne Aufforderung: «bin ich Ihnen dankbar».** Zweimal in vier Zeilen
+  gegenueber einer Amtsstelle — «bin ich Ihnen fuer eine E-Mail dankbar», «bin ich fuer die
+  Erteilung der Baufreigabe dankbar». Er bittet nicht und fordert nicht, er **bedankt sich fuer
+  das noch nicht Getane**. Das ist die hoechstmoegliche Verbindlichkeit, die ohne
+  Rangueberschreitung gegenueber einer Behoerde moeglich ist. Quelle: 18.08.2026, authentisch.
+
+- **Die Bitte wird gerahmt, nicht wiederholt.** In derselben Mail steht die zentrale Bitte
+  zweimal: vorn als Imperativ («Schicken Sie uns bitte Ihre Termineinladung fuer die
+  Massaufnahme vor Ort.»), hinten als vorweggenommener Dank («Danke fuer Ihre zeitnahe Zusenden
+  der Termineinladung …»). Die Wiederholung ist keine Unachtsamkeit, sondern eine Klammer um den
+  Sachteil — **wer nur den Anfang oder nur das Ende liest, hat die Bitte trotzdem.**
+  Quelle: 18.08.2026, authentisch.
+
+- **Die eigene Grenze offen benennen, statt sie zu verstecken.** «Wie besprochen koennen noch
+  nicht ganz alle rohen Lichtbaumasse aufgenommen werden **jedoch** fuer die Zimmer und
+  Therapiekueche koennen die Masse aufgenommen werden.» Erst was nicht geht, dann was geht —
+  in einem Satz, ohne Entschuldigung und ohne Beschoenigung. Quelle: 18.08.2026, authentisch.
+
+- **Nachfassen ohne Vorwurf.** Der Nachfass ans Amt am naechsten Morgen beginnt nicht mit dem
+  Ausbleiben der Antwort als Versaeumnis, sondern mit einer Frage, die dem Empfaenger den
+  Ausweg offen laesst: «Haben Sie meine E-Mail gestern noch erhalten?» Gegenprobe aus Batch 97:
+  dort strich Raphael dem Zwilling genau den Satz, der das Ausbleiben der Gegenleistung
+  feststellte. **Zweiter Beleg derselben Haltung, jetzt aus eigener Hand statt als Korrektur.**
+  Quelle: 18.08.2026, authentisch.

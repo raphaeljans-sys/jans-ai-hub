@@ -1,9 +1,9 @@
 ---
 title: Arbeitsweise & Orchestrierung
 status: established
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 gewichtung: authentisch
-sources: [260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
+sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, ../outputs/2026-07-18_fidelity.md, 260717-mailbatch-55.md, 260715-mailbatch-53.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../../../rules/auftrags-dekomposition.md, ../outputs/2026-07-25h_fidelity.md, ../outputs/2026-07-27k_fidelity.md, ../outputs/2026-07-27l_fidelity.md]
 links: [[denken]], [[arbeitsweise]]
 ---
 
@@ -2996,3 +2996,37 @@ Mail, Wrapper), Raphaels Versand 13:44 (Exchange). Der Umbau ist gross und in ei
   statt «oben genannt») faellt in diese sechs Minuten. **Fuer den Harness heisst das: der letzte
   Schliff passiert oft mobil und unter Zeitdruck** — ein Entwurf muss so weit fertig sein, dass
   er am Telefon nur noch bestaetigt werden muss. Quelle: 17.08.2026, authentisch.
+
+## Batch 98 (17.–19.08.2026, Sent Items + Drafts `rj@`)
+
+- **Die unbeantwortete Amtsmail wird am naechsten Morgen nachgefasst, mit Fragen statt mit
+  Wiederholung.** Ursprungsmail 17.08. 14:10, Nachfass 18.08. **07:55** — rund 17 Stunden, und
+  der Nachfass wiederholt den Inhalt mit keinem Wort, sondern besteht aus drei Fragen und einer
+  Entscheidungsgabel ([[denken]]). Zugleich waechst der Verteiler: eine zweite Amtsstelle kommt
+  als Hauptadressatin dazu. **Nachfassen heisst bei ihm: neue Form, breiterer Kreis, gleiche
+  Sache.** Quelle: 18.08.2026, authentisch.
+
+- **Fremde Kontaktbloecke werden roh eingefuegt, samt deren Signatur-Artefakten.** Die
+  Koordinaten der drei Bauleitungs-Zustaendigen stehen im Mailkoerper mit den Leerzeichen-Kolonnen,
+  dem Werbeclaim und sogar dem fehlenden Leerschlag der Quelle. Er putzt nicht. **Dieselbe
+  Gattung wie der roh kopierte Devis-Block** ([[fachsignatur]]) — was aus einer verbindlichen
+  Quelle stammt, wird nicht umgeschrieben. Quelle: 18.08.2026, authentisch.
+
+- **Die Weiterleitung bekommt einen Ein-Satz-Rahmen, nicht eine Einleitung.** «Hoi <Name> / Im
+  Anhang der Stand der Werkplanung <Firma>. / Wir sehen uns morgen. / Lieber Gruss Raphael» —
+  ein Satz zur Sache, ein Satz zur Beziehung, fertig. Der weitergeleitete Inhalt spricht fuer
+  sich; der Rahmen sagt nur, **warum er kommt und wann man weiterredet**. Quelle: 18.08.2026,
+  authentisch.
+
+- **Der Empfaengerkreis waechst mit dem Verbindlichkeitsgrad, innerhalb desselben Threads.**
+  Konzeptmail an den Fachplaner mit vier im Cc (Bauherr-Technik, Elektro, Lueftung, Fachplaner-
+  Vorgesetzter) — die schnelle technische Rueckfrage 105 Minuten spaeter geht an dieselbe Runde
+  minus die Bauherrschaft. **Wer die Entscheidung mittragen muss, liest mit; wer nur die
+  Detailklaerung nicht braucht, wird ausgelassen.** Quelle: 17.08.2026, authentisch.
+
+- **⚠ Negativbefund am Hub, nicht am Zwilling: Entwurfs-DUBLETTEN.** Der Hub legte am 18.08. um
+  **06:45:21 und 06:45:22** zwei wortgleiche `osascript`-Entwuerfe derselben Mail an, die sich
+  nur im Verteiler (2 gegen 5 Empfaenger) und in der HTML-Absatzbildung unterscheiden. Beide
+  lagen zum Laufzeitpunkt des Folgetages **ungesendet** im Postfach. Fuer den Twin-Harness sind
+  beide Typ 1 der vierzehnten Falle (Apple-Mail-Entwurf ohne Sent Item) und damit
+  **Negativmaterial, keine Stilquelle**. [[QUESTIONS]] 260819 #2.

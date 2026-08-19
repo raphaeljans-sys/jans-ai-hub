@@ -3662,3 +3662,43 @@ ein Marker, der seit N Laeufen weder **verletzt** noch **bestaetigt** wurde, wan
 Do/Don't-Block zurueck in den Artikelkoerper und wird nicht mehr mitkompiliert — der Block traegt
 dann, was der Zwilling HEUTE falsch macht, statt das Gesamtarchiv des Gelernten. Nichts geht
 verloren, der Artikel behaelt alles. Offene Groesse: wie viele Laeufe sind «N»? Vorschlag 10.*
+
+## 260819 — Batch 98 (Sent Items + Drafts `rj@` 17.–19.08.2026)
+
+**#1 (Harness · Methodik · loest die Vorrangaufgabe aus Batch 97 auf) — der Token-Sweep ist
+keine Suche, er ist Lesearbeit.** Batch 97 stellte einen gezielten Sweep auf
+`font-claude-response-body` und `text-[var(--accent)]` vor jedes Datumsfenster. In diesem Lauf
+ausgefuehrt und **negativ beschieden**: `outlook_email_search` indexiert **kein Markup**.
+Kontrollprobe im selben Ordner: ein Wort, das nur im Body steht («Cleanwall»), liefert Treffer,
+beide Markup-Tokens liefern **null** — obwohl mindestens einer nachweislich im Bestand liegt.
+*Warum das die Planung aendert: ein Einmal-Sweep ueber den Bestand ab Mai 2026 kostet rund ein
+`read_resource` je Mail und ist so nicht bezahlbar. Vorschlag, in diesem Lauf schon umgesetzt:
+(a) ab sofort jede in einem Batch ohnehin gelesene Mail auf beide Tokens pruefen — das kostet
+nichts extra; (b) zusaetzlich ein Rueckwaerts-Fenster ab Mai 2026 in Tagesportionen, parallel
+zum sequenziellen Vorwaerts-Fenster. Offene Groesse: wie viele Rueckwaerts-Tage je Lauf, ohne
+den regulaeren Batch zu verdraengen? Vorschlag: einer.*
+
+**#2 (Harness · Befund am Hub, nicht am Zwilling) — der Entwurfs-Generator legt DUBLETTEN an.**
+Am 18.08.2026 um **06:45:21 und 06:45:22** entstanden zwei wortgleiche `osascript`-Entwuerfe
+derselben Mail, unterschiedlich nur im Verteiler (2 gegen 5 Empfaenger) und in der
+HTML-Absatzbildung (`<br/>` gegen `<p>`). Beide lagen am Folgetag noch ungesendet im Postfach.
+*Warum das den Zwilling betrifft: fuer den Doppelabgleich zaehlt ein Paar aus Entwurf und Sent
+Item. Eine Dublette ohne Sent Item erzeugt zwei Negativ-Eintraege statt einem und verzerrt die
+Zaehlung des Entwurfsordners (112 Eintraege, davon nun mindestens ein Duplikat-Paar). Frage an
+den Betrieb, nicht an Raphael persoenlich: welcher Lauf hat am 18.08. um 06:45 zweimal
+geschrieben, und soll der Generator vor dem Anlegen auf einen bestehenden Entwurf gleichen
+Betreffs pruefen?*
+
+**#3 (Beziehungsregister · Bestaetigung erbeten) — «Herr <Vorname>» als stehende Anrede.**
+Raphael spricht einen Fachplaner in zwei Mails desselben Tages mit «Geschaetzter Herr
+<Vorname>» bzw. «Sehr geehrter Herr <Vorname>» an — konstant der Vorname an der Stelle des
+Nachnamens. *Warum wir fragen: der Zwilling wuerde das «korrigieren» und damit eine gewachsene,
+moeglicherweise im Projekt eingespielte Anrede zerstoeren. Ist das Deine bewusste Form fuer
+diesen Kontakt (weil er sich so vorstellt), oder soll der Zwilling hier auf den Nachnamen
+gehen?*
+
+**Registerkorrektur nebenbei (gemessen, nicht uebernommen):** die Batches 93–97 fuehren den
+Kompilier-Riegel des DNA-Auto-Blocks mit «29973 B von 30000 B». Der Fidelity-Lauf vom 18.08. hat
+`MAX_AUTO_BYTES` auf **34000** angehoben (siehe 260818b #7). Gemessen am 19.08.2026:
+**33430 B von 34000 B, 570 B Reserve.** Der Riegel steht also weiterhin knapp, aber die in den
+Batch-Notizen genannte Zahl war einen Lauf alt.

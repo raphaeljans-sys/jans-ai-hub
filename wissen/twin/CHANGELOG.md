@@ -4,6 +4,30 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-19 — Batch 98: Sent Items + `Drafts` `rj@` (Fenster 17.–19.08.2026)
+
+20 Sent Items gelistet, `Drafts` Seite 1 von 112, **8 Volltexte gelesen**: 6 `authentisch`,
+2 `claude-aera` (Negativmaterial), 0 `korrektur-delta`.
+
+**Die Vorrangaufgabe aus Batch 97 ist erledigt und negativ beschieden:** der Token-Sweep ist mit
+`outlook_email_search` unmoeglich — der Suchindex **indexiert kein Markup** (Kontrollprobe im
+selben Ordner belegt es: Body-Prosa wird gefunden, beide Markup-Tokens liefern null). Stattdessen
+neue verbindliche Praxis, in `CLAUDE.md` bei der fuenfzehnten Falle nachgetragen: **mitlaufende
+Body-Pruefung an jeder ohnehin gelesenen Mail** — in diesem Lauf 8 von 8 sauber.
+
+**Kernbefunde:** (1) Raphaels Hand gegen den Zwilling im **selben Thread an denselben
+Empfaenger** — Frist mit Zweckbegruendung gegen hoefliche Terminfrage, handgesetzte
+A)/B)/C)-Liste gegen Fliesstext, «70mm» gegen «70 mm», dichte Fehler gegen null Fehler; die
+Richtung des Batch-97-Befunds dreht sich, der Zwilling trifft nicht den Adressatentyp.
+(2) **«Geschaetzter» ist eine Gewichts-, keine Distanzstufe — erstmals im Sie-Register belegt**
+(zwei unabhaengige Belege, 105 Minuten bzw. 27 Stunden). (3) **«Lgr»** als knappste Gruss-Stufe,
+erster Beleg, an einem Sie-Kontakt.
+
+14 Marker in allen sechs Facetten, 1 Detektor-Kandidat (Einheiten-Leerschlag, nach
+Sperrlisten-Disziplin nicht aufgenommen), 3 Fragen, 1 Negativbefund am Hub (Entwurfs-Dubletten
+06:45:21/06:45:22). **Werkzeug:** `stilmetrik.py` erkennt neu «Lgr». **Registerkorrektur:** der
+DNA-Riegel steht gemessen bei **33430 B von 34000 B** — die Batches 93–97 nannten die alte
+Grenze 30000.
 ## 2026-08-18 — Fidelity-Review (Fenster rj@ 22.–29.06.2026), Gesamt-Fidelity 31
 
 Drei Goldproben im Volltext (Abgebot Jegen · Brandlast ELE · Baulinie Giebelweg), alle

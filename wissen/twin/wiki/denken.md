@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-18
+last_updated: 2026-08-19
 gewichtung: authentisch
-sources: [260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -910,3 +910,31 @@ mit Herr ». Die 19 Minuten später gesendete Fassung führt denselben Satz zu E
   Termin vorschlagen und uns einladen?») und legt Einladung und Terminwahl in die Hand des
   Empfaengers. Die eigenen Optionen bleiben als **Angebot** stehen, nicht als Rueckfallkette.
   Quelle: 17.08.2026, korrektur-delta.
+
+## Batch 98 (17.–19.08.2026, Sent Items `rj@`)
+
+- **Das konditionale Paar «Wenn … / Ansonsten …», beide Zweige mit derselben Dankesformel
+  geschlossen.** Nachfass an eine Amtsstelle: «Wenn Sie noch zusaetzliche Unterlagen benoetigen
+  bin ich Ihnen fuer eine E-Mail dankbar. / **Ansonsten** bin ich fuer die Erteilung der
+  Baufreigabe dankbar.» Zwei Zeilen, zwei Ausgaenge, **kein dritter**. Die Konstruktion laesst
+  dem Empfaenger keine Antwortmoeglichkeit, die nicht zugleich den Vorgang weiterbewegt — und
+  sie bleibt dabei formal hoeflich. Reife Form der laengst belegten Wenn-dann-Beratung: hier
+  nicht als Beratung, sondern als **Entscheidungsgabel**. Quelle: 18.08.2026, authentisch.
+
+- **Die Fragenkette vor der Gabel.** Derselben Mail gehen drei Fragen in drei eigenen Zeilen
+  voraus: «Haben Sie meine E-Mail gestern noch erhalten? / Brauchen Sie noch Unterlagen von mir?
+  / Koennen Sie die Auflagepunkte als erfuellt vermerken?» Sie steigen vom Belanglosen zum
+  Eigentlichen — die letzte Frage ist die, um die es geht. **Raphael stellt die Zielfrage nie
+  zuerst**, aber immer im selben Atemzug. Quelle: 18.08.2026, authentisch.
+
+- **Die Folge im Praesens als Begruendung, nicht der Vorwurf.** Statt zu mahnen, dass der
+  Heizkreis stillzulegen sei, steht das Schadensszenario als Tatsachensatz: «Wird das Wasser
+  nicht aus dem Heizkreis entzogen entsteht ein Wasserschaden **in dem Moment wo** fuer den
+  Bodenablauf … eine Heizschlaufe getroffen wird.» Kein Konjunktiv, kein Adressat, keine
+  Schuldzuweisung — nur die Kausalkette. Quelle: 17.08.2026, authentisch.
+
+- **Die Frist traegt ihren Zweck mit.** «… und mir **heute bis 17:00 Uhr** zur Finale
+  Raumplaene-Erstellung freizugeben.» Nicht «bis 17:00 Uhr», sondern «bis 17:00 Uhr **wofuer**».
+  Der Zwillings-Entwurf desselben Threads setzt an dieser Stelle gar keine Frist, sondern fragt
+  «sagen Sie mir bitte, bis wann». Quelle: 17.08.2026 authentisch gegen 18.08.2026
+  `claude-aera`.

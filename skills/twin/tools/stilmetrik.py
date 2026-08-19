@@ -26,7 +26,9 @@ DU_FORMS = ["Du", "Dich", "Dir", "Dein", "Deine", "Deiner", "Deinem", "Deinen", 
 ANREDEN = [r"Hoi\s+\w+", r"Geschaetzter?\s+\w+", r"Gesch[aä]tzte?r?\s+\w+",
            r"Guten\s+Morgen\s+\w+", r"Sehr\s+geehrte[rs]?\s+\w+", r"Liebe[rs]?\s+\w+"]
 GRUESSE = [r"Freundliche\s+Gr[uü]sse", r"Lieber\s+Gruss", r"Liebe\s+Gr[uü]sse",
-           r"Viele\s+Gr[uü]sse", r"Beste\s+Gr[uü]sse"]
+           r"Viele\s+Gr[uü]sse", r"Beste\s+Gr[uü]sse",
+           # Kurzformen, belegt Batch 98 (17.08.2026): «Lgr» als knappste Gruss-Stufe
+           r"\bLgr\b", r"\bLG\b"]
 
 
 def measure(text: str) -> dict:
