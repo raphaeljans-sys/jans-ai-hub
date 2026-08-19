@@ -398,3 +398,47 @@ damit selbst. Zweimal nachgemessen: zuerst notiert war die Zwischenmessung nach 
 allein (+1/0, 346/347), dann der Stand vor diesem Absatz (51/0, 346/397). Keine Datei hat Bestand verloren; die zwei Loeschungen in
 `ausschreibung` sind beabsichtigte Zeilenersetzungen und mit `git diff --numstat` gemessen,
 nicht geschaetzt. Laufbericht: `outputs/2026-08-18_synergie-lauf-11.md`.
+
+Lauf 12: 19.08.2026 17:10–17:35 (Tagestakt, Delta-Basis 18.08.2026 17:10, Fenster 23,8
+Stunden, 109 Commits). Uhr-Check bestanden: Station 17:10 CEST gegen Synology-Log 17:00:06
+(`selfcommit-202608.log`, native Zeit, = HEAD `86936dbc`). Gegenprobe der gefilterten
+Commit-Zahl bestanden: neuester Treffer `86936dbc` ist zugleich der tatsaechliche HEAD,
+aeltester Treffer `b25de279` (18.08. 17:15) schliesst luckenlos an die Delta-Basis an.
+Strukturelles Delta: **0 neue Skills/Agenten/Connectoren/Commands/Services/Rules** (die
+einzige neue Datei unter den Baustein-Pfaden ist
+`skills/wissens-destillat/training/buero-projekte-lauf-20260819-1331.md`, ein
+Trainings-Laufprotokoll, kein Baustein), **4 geaenderte Bausteine**. Der Frueh-Ausstieg
+griff nicht. Thema des Fensters: **eine Korrektur, die den systematischen Teil heilte und
+die Abschrift in derselben Datei stehenliess.**
+
+Neu: SYN-36 (`sia-102-2014.md` Z. 91 trug den Kategorie-Wert weiter, den Z. 65 seit dem
+14.07. ausdruecklich verwirft; umgesetzt). Geprueft und **kein Befund**: (1) Die Kante
+`honorarberechnung-sia102` ↔ KB `normen` ist nach Run 36 **beidseitig** verdrahtet — der
+Skill nennt seit den Commits `a41e5ad0`/`895e7cb1` beide Destillate mitsamt `status`-Angabe,
+beide Destillate nennen den Skill im Abschnitt «JANS-Praxis-Transfer» (`sia-102-2020.md`
+Z. 447, `sia-102-2014.md` Z. 91). Die Rueckkante, die dieser Skill sonst am haeufigsten
+vermisst, war hier vorhanden; der Fehler sass **innerhalb** eines Knotens, nicht zwischen
+zweien. (2) `rules/jans-dna-facetten.md` (`48d9afa7`, 76/72) ist erneut ueber den
+Kompilierweg entstanden, nicht von Hand: derselbe Commit aendert alle sechs Quell-Artikel
+unter `wissen/twin/wiki/` sowie `wissen/twin/CHANGELOG.md` — gleiche Pruefung wie in Lauf 11,
+gleiches Ergebnis. (3) `skills/synergie-orchestrator/SKILL.md` (`b58bf082`, +8/0) und
+`skills/ausschreibung/SKILL.md` (`b25de279`, 2/2) sind die eigenen Schreibvorgaenge und der
+Nachlauf von Lauf 11; nicht neu aufgerollt. Die dort verankerte Lehre wurde in diesem Lauf
+zum ersten Mal angewandt: **erst die Registerzeile SYN-36 geschrieben, dann die ID im
+Destillat zitiert.** Nicht neu aufgerollt (Compounding, kein Beteiligter bewegt): SYN-01 bis
+SYN-35. Kein neuer Service-ENTWURF, kein Katalog-Bezug.
+
+**Bewusst nicht angefasst:** die Kategorien-Zuordnung **im Skill** (`honorarberechnung-sia102`
+fuehrt Pflegeheim bei III-IV, die Norm bei V). Sie liegt Raphael seit Run 36 als E1 vor und
+ist ein Geschaeftsentscheid mit Honorarfolge, kein Registerbefund. Dieser Lauf hat allein die
+KB-interne Widerspruechlichkeit geheilt — die Quelle sagt dort eindeutig V, und zwar in
+derselben Datei zwei Mal.
+
+Schreib-Kontrolle nach Rule `auto-verbesserungen` 260811: Destillat
+`wissen/normen/destillate/sia-102-2014.md` **1/1** (eine beabsichtigte Zeilenersetzung,
+Z. 91), Zeilenzahl 100/100; Gegenprobe am Objekt: der alte Wert «Alters-/Pflegeeinrichtungen
+VI» kommt nur noch als Zitat im Korrekturvermerk vor, die geltende Aussage lautet V, und
+Z. 65 ist unberuehrt. Register **1/0** fuer die SYN-Zeile (reines Anhaengen, null
+Loeschungen), Zeilenzahl 399/400 und **35/36 Tabellenzeilen**; diese Fussnote haengt
+zusaetzlich an. Alle Werte mit `git diff --numstat` gemessen, nicht geschaetzt. Laufbericht:
+`outputs/2026-08-19_synergie-lauf-12.md`.

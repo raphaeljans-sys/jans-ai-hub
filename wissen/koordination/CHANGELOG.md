@@ -3,6 +3,35 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-19 — Synergie-Lauf 12 (Tagestakt)
+
+- **Bericht:** `outputs/2026-08-19_synergie-lauf-12.md`. Delta-Basis 18.08.2026 17:10,
+  Fenster 23,8 h, 109 Commits. Uhr-Kontrolle bestanden (Station 17:10 CEST gegen Synology
+  17:00:06, = HEAD `86936dbc`); Gegenprobe der Commit-Zahl bestanden.
+- **0 neue Bausteine, 4 geaenderte.** Frueh-Ausstieg griff nicht.
+- **Neu: SYN-36 — die Korrektur heilte den systematischen Teil, nicht die Abschrift in
+  derselben Datei.** `wissen/normen/destillate/sia-102-2014.md` Z. 65 verwirft seit dem
+  14.07.2026 ausdruecklich die Zuordnung «Altersheime Kat. VI» (Original S. 45: beide
+  Bauwerksarten Spalte V); der Abschnitt «JANS-Praxis-Transfer» derselben Datei trug in Z. 91
+  weiterhin «Alters-/Pflegeeinrichtungen **VI**». Geldfolge: ein Schritt im Schwierigkeitsgrad
+  `n` (1.1 gegen 1.2), rund 9 % Honorar, im Healthcare-Kerngeschaeft. Dieselbe Figur wie BKP
+  «271.10»: der systematische Teil schlaegt die Schnellreferenz. Z. 91 auf V berichtigt, mit
+  Ruecklink auf Z. 65 (active-with-flagging).
+- **Zweiter Punkt derselben Zeile:** die Auflage «gegen SIA 102:2020 verifizieren (Art. 6/7
+  dort noch nicht gelesen)» war durch Wissens-Chef Run 36 erfuellt (Original S. 1-41 gelesen,
+  Ausgabe endet mit Art. 6, kein Art. 7) — eine stehengebliebene Pruefauflage laedt zur
+  zweiten Durchfuehrung derselben Verifikation ein. Durch das Ergebnis ersetzt.
+- **Kein Befund:** die Kante `honorarberechnung-sia102` ↔ KB `normen` ist nach Run 36
+  **beidseitig** verdrahtet — der Fehler sass innerhalb eines Knotens, nicht zwischen zweien.
+  `rules/jans-dna-facetten.md` erneut ueber den Kompilierweg entstanden (alle sechs
+  Quell-Artikel im selben Commit).
+- **Bewusst nicht angefasst:** die Kategorien-Zuordnung im Skill selbst — liegt Raphael seit
+  Run 36 als E1 vor, Geschaeftsentscheid mit Honorarfolge.
+- **Erstanwendung der Lehre aus Lauf 11:** erst die Registerzeile geschrieben, dann die
+  SYN-ID im Baustein zitiert.
+- Schreib-Kontrolle: Destillat 1/1 (Zeilenersetzung, 100/100), Register 44/0 (reines
+  Anhaengen, 35/36 Tabellenzeilen). Keine Datei hat Bestand verloren.
+
 ## 2026-08-18 — Wissens-Chef Run 36 (Abendlauf, 23,8 h nach Run 35)
 
 - **Bericht:** `outputs/2026-08-18_wissens-chef-run36.md`. Zuschnitt **5 Melder + 3 Refuter
