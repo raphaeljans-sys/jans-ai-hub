@@ -1,18 +1,18 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 10:35:48
+Stand: 19.08.2026 10:56:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 10:33)
+- Developer/jans/ai/hub  (letzte Aktivitaet 10:48)
 
 ## Laufende Arbeits-Prozesse
 - keine
 
 ## Projektordner-Aktivitaet (OneDrive, letzte 12 h)
+- 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 03 Studien / .849C9593-D756-4E56-8D6E-42412F2A707B
 - 1 Datei(en): AR - 02 Wettbewerbe / .849C9593-D756-4E56-8D6E-42412F2A707B
-- 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0ba589c3 nas-selfcommit: 1 Datei(en) 2026-08-19 10:30
+- 434a8314 energie-KB Run 143: Vollzugsordner Abschnitte 5-10, Solar-Bewilligungsweg ZH korrigiert, 3 AHB-Restwerke

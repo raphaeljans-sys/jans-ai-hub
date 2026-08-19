@@ -1,9 +1,10 @@
 # Stations-Status: macbook-pro
 
-Stand: 19.08.2026 10:44:41
+Stand: 19.08.2026 10:54:57
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/activity/display/performance/386804  (letzte Aktivitaet 10:30)
+- Developer/jans/ai/hub//claude/worktrees/normen/destillat/p1/a19385  (letzte Aktivitaet 10:47)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +20,4 @@ Stand: 19.08.2026 10:44:41
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 0ba589c3 nas-selfcommit: 1 Datei(en) 2026-08-19 10:30
+- 434a8314 energie-KB Run 143: Vollzugsordner Abschnitte 5-10, Solar-Bewilligungsweg ZH korrigiert, 3 AHB-Restwerke
