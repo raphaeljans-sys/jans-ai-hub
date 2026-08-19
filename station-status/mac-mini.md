@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 01:38:54
+Stand: 19.08.2026 01:59:27
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 01:38:54
 - 2 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 8009a525 nas-selfcommit: 3 Datei(en) 2026-08-19 01:30
+- da5157ef normen Run 57: N56-1 geschlossen; SIA 416/1:2007 ist seit 31.03.2015 zurueckgezogen (ersetzt durch SIA 380:2015) - Register, Destillat, Wiki und Fristen nachgefuehrt
