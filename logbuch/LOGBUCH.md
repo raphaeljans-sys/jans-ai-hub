@@ -80,6 +80,71 @@ Vortag 18.08.: MacBook Pro 123.0 Mio Tokens (104.83 USD), Mac Mini 33.1 Mio Toke
 Summe 156.2 Mio Tokens und 116.05 USD Kostenäquivalent.
 
 ---
+## Hub-Chef 19.08.2026 (08:39 bis 09:20) — Tagesbriefing GESENDET (Regellauf)
+
+**Lage.** Der Radar hat um 06:55 sauber vorgelegt; mein Beitrag ist das Delta der zwei Stunden
+danach, und dieses Delta trägt den grössten Punkt des Tages: **Raphael hat um 08:26 selbst ans
+UGZ eskaliert** und eine Frist auf **heute 12:00** gesetzt, mit angedrohtem Sitzungsantrag für
+Donnerstag 20.08. 10:00. Der Radar konnte das um 06:55 noch nicht sehen.
+
+**Der eigene Befund dieses Laufs.** Die Frist ruht auf genau einer Person, und deren Zeitfenster
+schliesst um 10:00. Am Original nachgemessen: die Mail ging an acht Adressaten (To: S. Zala,
+L. Hansen, **T. Stubbe**, C. Duran und B. Kübler (Gruner), M. Spörri, A. Spahic, L. Merci (KISPI);
+Cc: L. Furrer (UGZ), C. Schäfer (KISPI)), der Verteiler ist also richtig gewählt und Stubbe ist
+drin. Von den drei UGZ-Adressaten liest heute aber nur er mit: **L. Hansen** hat um **08:26:38**
+automatisch geantwortet (abwesend, zurück **20.08.**, Stellvertretung Stubbe 044 412 43 73 und
+Petitpierre 044 412 44 18, telefonisch Mo bis Fr 08:30 bis 10:00, ausdrücklich «Achtung: Ihr Mail
+wird nicht umgeleitet»), **S. Zala** ist seit 17.08. wegen eines medizinischen Notfalls bis
+**23.08.** abwesend, ebenso ausdrücklich «Ihr E-Mail wird in diesem Zeitraum nicht gelesen,
+bearbeitet oder weitergeleitet». Empfohlener Schritt an Raphael: **Stubbe vor 10:00 anrufen**,
+sonst verstreicht die selbst gesetzte Frist ungelesen.
+
+**Korrektur am Radar-Befund (handlungsrelevant, deshalb gesendet).** Der Radar schrieb heute früh,
+Zala sei abwesend, «Hansen und Furrer sind es nicht». Hansens eigene Autoreply von 08:26:38
+widerlegt das für Hansen. Genau auf dieser Annahme ruhte die Erwartung, dass heute jemand am UGZ
+entscheiden kann.
+
+**Eigene Fehlmessung, hier festgehalten statt gemeldet.** Ein Zwischenstand dieses Laufs hielt
+fest, der Radar habe seit dem 17.08. keinen Abschnitt mehr ins LOGBUCH geschrieben. Das war
+falsch und ein reines Werkzeug-Artefakt: gesucht wurde nach `^## 2026-08-1x … Radar`, der Radar
+schreibt seine Überschrift aber als `## Radar-Briefing <Datum>` ohne Datums-Präfix und **oben** in
+die Datei, während die Nachtschicht-Läufe unten anhängen. Die Abschnitte vom 17., 18. und 19.08.
+liegen vollständig vor. Gegengeprüft vor dem Versand, nichts davon ist ins Briefing gelangt
+(Rule `wege-und-vollmachten`: ein leeres Suchergebnis ist zuerst eine Aussage über das Werkzeug).
+
+**Erledigt autonom.**
+- **A4 — Fristen-Register nachgeführt**, eine Zeile (UGZ-Strang). Sie führte den Vorgang als
+  «steht bis 23.08. still, Bringschuld JANS erfüllt»; das trifft nicht mehr zu, der Strang steht
+  unter Frist. Nachtrag mit beiden Autoreply-Belegen und dem vollständigen Verteiler gesetzt,
+  Prio `mittel` → `hoch`, Status neu «offen, Frist heute 12:00, Anruf T. Stubbe vor 10:00».
+  Umfang nativ gemessen: `1 1`, also dieselbe Zeile, keine Löschung (Rule `auto-verbesserungen`
+  260811).
+
+**Bewusst NICHT getan.** Kein Mail-Entwurf ans UGZ. Die Adressaten haben Raphaels Mail bereits,
+ein zweiter Text erreicht dieselben abwesenden Postfächer; der einzige heute noch tragende Weg
+ist das Telefon. Ein fünfter unversendeter Entwurf im Postfach hätte den Stapel verlängert, ohne
+etwas zu bewegen.
+
+**Versand verifiziert.** Mail «Hub-Chef 19.08.26: die 12:00-Frist ans UGZ …» um 08:55 an
+rj@raphaeljans.ch, Aptos 12 pt. Gegenprobe am **gesendeten** Objekt: **4492 Zeichen**, Textanfang
+gelesen. QS vorher gelaufen: `rechtschreibung` (ein unvollständiges Prädikat ergänzt, dazu ein
+Sachhinweis auf eine widersprüchlich formulierte Messangabe, übernommen) und `layout`
+(Positionskopf 01 vereinheitlicht, Ampel grün); Betrag RE-00100 auf die belegte Form
+CHF 13'120.00 gezogen.
+
+**Messhinweis zum offenen Punkt «Mail-Entwürfe ohne Text».** Der Zeichenzähler auf dem
+`outgoing message`-Objekt liefert im Exchange-Konto **immer 1**, auch bei vollem Body; dasselbe
+zeigt jeder Entwurf im Postfach. Die Zahl ist also **kein** Beleg für einen leeren Text und darf
+nicht als solcher gelesen werden. Belastbar ist allein die Messung am Objekt im Ordner «Gesendete
+Elemente» nach dem Versand, wie heute durchgeführt. Das erklärt zugleich, warum die bisherige QS
+den Leer-Draft-Fehler nicht sehen konnte.
+
+**Guards.** A1 gesperrt, neunter Tag HTTP 401 gegen bexio; nichts gemahnt, nichts gebucht, nichts
+versendet ausser dem Briefing. Sync-, Remote- und Freigabe-Queues auf beiden Stationen leer.
+Kalender am Graph-Original gegengelesen (vier Termine bis 24.08.); der lokale Apple-Kalender
+«Arbeit» ist für diese Termine leer, führend ist Exchange.
+
+---
 ## Hub-Chef 18.08.2026 (08:39 bis 08:55) — Tagesbriefing GESENDET (Regellauf)
 
 **Lage.** Der Radar hat um 06:55 sauber vorgelegt; mein Beitrag ist das Delta der neunzig
