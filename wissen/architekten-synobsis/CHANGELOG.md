@@ -4,6 +4,29 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-19 (Mac Mini Nachtschicht) — Fuenf weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung: Prioritaeten 1-3 des Nachtschicht-Auftrags leer/gesaettigt (bestaetigt durch die
+Laeufe 02:30/05:30 desselben Tages); Synobsis Stufe 2 weiterhin deaktiviert (853/853, kein neuer
+Stoff seit 02.07.2026, Task seit 28.07. auf `enabled: false`); der KB-Vergleich ueber alle
+wiki-fuehrenden KBs zeigt architekten-synobsis mit der aeltesten juengsten Artikel-Aenderung
+(24.07.2026, `RAUMTYPOLOGIEN.md`) — Tiebreaker fuer Prioritaet 5/6 (`kunde-bopp` wurde bereits im
+02:30-Lauf abgearbeitet). Fortsetzung des Rechercheformats vom 27.07.2026 (kleiner,
+budgetdisziplinierter Block, kein Fan-out, direkt im Hauptkontext).
+
+Fuenf oeffentlich recherchierbare Fragen aus `wiki/QUESTIONS.md` per WebSearch geklaert (alle mit
+Quellenangabe direkt an der jeweiligen Frage ergaenzt, keine Ordnerumbenennung vorgenommen — braucht
+Freigabe): **Kapfinger_Otto** (bestaetigt: oesterreichischer Architekturpublizist, *1949 Wien),
+**Krokodil** (bestaetigt: Planergemeinschaft/Interessengruppe von rund 17 Zuercher BSA-Bueros fuer
+die Verdichtung Glattal, kein Einzelarchitekt), **MPP** (Vermutung erhaertet, nicht abschliessend
+belegt: vermutlich «Meili, Peter & Partner Architekten AG», Gruendung 1987, Sitz Gartenhofstrasse 15
+Zuerich — Ordner-Impressum bleibt der harte Beleg), **Meili Partner** (keine eigenstaendige Firma
+getrennt von MPP gefunden, bleibt ungeklaert ob Teilarchiv oder Verwechslung), **Menz_Sascha**
+(bestaetigt: Sacha Menz, ETH-Professor Architektur und Bauprozess seit 2004, reiner Lehre-Merkposten).
+Keine Frage bewusst ausgelassen ausser den personenbezogenen «Wer ist X im JANS-Kontext»-Fragen, die
+nur Raphael beantworten kann (z.B. Maibach/Melly/Mueller/Malvez/Meier). Keine Aenderung an
+`catalog/` oder Quellordnern. Budget ca. 0.90 USD von 5 USD (Anteil dieses Nachtschicht-Zyklus).
+
 ## 2026-08-11 (Mac Mini Nachtschicht 13:30-Slot) — KORRIGIERT: kein neuer Stoff, Doppelarbeit
 
 **Korrektur eines eigenen Fehlbefunds im selben Lauf.** Erster Eindruck: `vectors.npz`

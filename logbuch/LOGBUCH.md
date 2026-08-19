@@ -7150,3 +7150,20 @@ Aktion Raphael unverändert seit 13.08.: neuen bexio-Token ausstellen und in `~/
 Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260819_Verzugscheck.md`. Fristen-Register um einen
 datierten Nachtrag an der bestehenden Zeile ergänzt (Append, per Diff verifiziert: genau eine
 Zeile geändert, keine Löschung). Es wurde nichts gemahnt, nichts gebucht und nichts versendet.
+
+## 2026-08-19 23:31 Nachtschicht Mac Mini — Synobsis-QUESTIONS: fuenf Identitaetsfragen recherchiert
+
+Prioritaeten 1-3 wie in den Vorlaeufen des Tages leer/gesaettigt (keine pending remote-/sync-Tasks;
+Synobsis Stufe 2 deaktiviert seit 28.07., 853/853, kein neuer Stoff; Fristen-Register durch
+Radar 06:55 und Hub-Chef 08:39 tagesaktuell — die verbleibenden `offen`-Punkte sind entweder
+Entscheidungsfragen an Raphael ohne Draft-Bedarf oder bereits laufende AKTION-JANS-Punkte).
+Priolitaet 4 fuer diesen Zyklus entfaellt: die KB `energie` (bislang letztes freies Trainingsziel)
+wurde soeben vom eigenstaendigen Scheduled Task `energie-training` auf dem MacBook Pro mit Run 143
+bedient (Output-Zeitstempel praktisch deckungsgleich mit Zyklusbeginn) — ein eigener Lauf haette
+Doppelarbeit auf demselben Werk bedeutet. Stattdessen KB-weiter Aeltestlauf-Vergleich (analog
+02:30-Lauf): `architekten-synobsis` traegt mit 24.07.2026 die aelteste juengste Wiki-Artikel-
+Aenderung aller wiki-fuehrenden KBs (`kunde-bopp` bereits im 02:30-Lauf abgearbeitet). Fuenf
+oeffentlich recherchierbare Identitaetsfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert
+(Kapfinger_Otto, Krokodil, MPP, Meili Partner, Menz_Sascha) — Fortsetzung des Formats vom
+27.07.2026. Details und Quellen: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-19. Keine
+Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
