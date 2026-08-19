@@ -5,6 +5,152 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-19 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 19.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 446 Dateien im 9-Tage-Fenster MacBook Pro / 128 Mac Mini, Zeilenfilter
+je `timestamp[:10]`.
+
+### Verbrauch beide Stationen (Mio Tokens, teuer = in + cache_creation + out)
+
+| Tag | MBP teuer | MBP total | Mini teuer | Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | 28.39 |
+| 13.08. | 12.73 | 276.76 | 4.56 | 112.30 | 17.29 |
+| 14.08. | 8.55 | 163.91 | 3.07 | 75.38 | 11.62 |
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 8.40 | 170.91 | 2.41 | 73.54 | 10.81 |
+| 17.08. | 10.23 | 254.85 | 2.30 | 66.25 | 12.53 |
+| 18.08. | 5.22 | 119.87 | 1.09 | 33.12 | 6.31 |
+| 19.08. (bis 07:15) | 1.87 | 49.43 | 0.70 | 11.78 | 2.57 |
+
+**Der 18.08. ist der tiefste Tag der laufenden Reihe** (6.31 kombiniert teuer, gegen
+12.53 am Vortag). Sieben Tage nach der Spitze vom 12.08. liegt der Verbrauch damit auf
+rund einem Fünftel. Der Mac Mini war wieder über den Dual-Pfad-Alias `mini` messbar.
+
+### Blockade-Status: FREI
+
+Strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` / `message.type=="error"`
+/ `apiErrorStatus==429` mit Limit-Bezug im Text: **0 echte Limit-Fehlerereignisse** im
+26-Stunden-Fenster (44 Dateien). Keine blockierte interaktive Sitzung, kein erschöpftes
+Wochenlimit. Kontrollprobe des Suchmusters bestanden: 37 der 44 Dateien enthalten den
+String `scheduled-task` überhaupt, das escapte Muster `name=\"<task>\"` trifft.
+
+### Operative Briefings: `logbuch-radar` durchgelaufen, die übrigen drei ohne Aussage
+
+`logbuch-radar` hat heute um 05:15/07:05 gearbeitet, 176 Zeilen, und sein Deliverable
+erreicht: Registereintrag (Jegen-Planfreigabe, AGOV-Migration, Baufreigabe-Nachfass)
+plus Briefing-Abschnitt, belegt durch Commit `d25f9969`.
+
+`hub-chef-taeglich` (08:39), `mahnwesen-verzugscheck` (08:14) und
+`zahlungsabgleich-check` (09:07) haben ihre Slots **nach** dem Messzeitpunkt 07:15 —
+dazu also keine Aussage und kein Befund. Ihre letzten Läufe am 18.08. waren vollständig
+(245 / 109 / 63 Zeilen, kein Abbruch).
+
+### Radar-Herzschlag: INTAKT
+
+Beide Signale frisch: RADAR.md jüngster Eintrag (erste `## `-Überschrift, nicht der
+Dateikopf) **19.08. 00:57**, mtime 01:01; dazu zwei Radar-Sessions heute um 05:15.
+Der Radar meldet Ampel **FREI** mit 6.3 % verbraucht bei 22.0 % verstrichener Woche,
+Vorsprung **−15.7 Punkte** — der grösste bisher gemessene Rückstand, passend zum
+tiefsten Verbrauchstag der Reihe.
+
+### Liefer-Delta der Lern-Loops: liefert, mit einem Fehlschlag
+
+Die fünf Nachtschicht-Läufe vom 18./19.08. endeten viermal mit rc=0 und jeweils
+belegtem Delta: `entwurfs-referenzen` (neuer Artikel `trennung-kunst-funktion-judd`),
+`energie` zweimal (Vollzugsordner ZH, Artikel `heizleistung-und-waermeerzeuger` ergänzt,
+neue FAQ F244), `kunde-bopp` (Wissenscheck Phase 1 mit Report).
+
+**Muster (a), ein Fall:** der Lauf vom 18.08. 02:36 endete mit rc=1 nach 364 s,
+`terminal_reason: budget_exhausted`, 5.02 von 5 USD verbraucht — Tokenverbrauch ohne
+Liefer-Delta. Kein Dauerbefund (Einzelfall in sieben Läufen), aber der zweite dieser Art
+nach dem 15.08. 13:40. Für den Radar vermerkt.
+
+### Destillat-Aufsicht — Front und Ertrag stehen beide still, ohne dass Tokens flossen
+
+- **Fortschritt: keiner.** Korpus 2 `buero-projekte` aktiv, Ziel-KB `projekt-lessons`.
+  `inventar.sh --stand` meldet 21/21 Sektionen, 813 inventarisiert, **706 offen** —
+  exakt der Wert von gestern. Die Front steht seit **Run 1 am 17.08. 07:20** still,
+  also 48 Stunden. Spec `buero-projekte-spec.md` (16.08.) liegt vor, das Spec-Gate
+  hängt nicht.
+- **Ertrag: keiner in der Ziel-KB.** `projekt-lessons` unverändert bei 7 Artikeln
+  (3 emerging, 4 established), jüngster **17.08. 23:31**. Über alle KBs unverändert
+  **288 Artikel** (gestern ebenfalls 288); die Arbeit des Tages floss ausschliesslich
+  in bestehende Artikel anderer KBs.
+- **Delta-Null-Serie: keine.** Die Reports unter `wissen/projekt-lessons/outputs/`
+  tragen keinen Delta-Null-Vermerk; der einzige Treffer stammt aus einem Health-Check
+  vom 22.07.
+- **Stückkosten 18.08.:** kombiniert teuer 6.31 Mio auf **14 Artikel** (git-gezählt)
+  = **0.45 Mio je Artikel**; ohne die sechs Twin-Facetten 8 Artikel = **0.79 Mio**.
+  Beste Werte der bisherigen Reihe (17.08.: 0.63 bzw. 0.89).
+
+**Kriterium (f) ist NICHT erfüllt — und der Grund dafür ist der eigentliche Befund.**
+Front und Ertrag stehen still, aber der Destillat-Loop hat dafür **keine Tokens
+verbrannt**: seine eigene Task-Session datiert vom **14.08. 00:07**, seither keine.
+Es liegt also kein Aufwand ohne Wissenszuwachs vor, sondern schlicht kein Lauf.
+
+### Strukturbefund für den Radar: der Destillat-Loop hat faktisch keinen Taktgeber
+
+Die Frontmatter von `~/.claude/scheduled-tasks/wissens-destillat/SKILL.md` sagt
+«AD-HOC (kein Cron) … getaktet wird der Loop ausschliesslich von der
+Mac-Mini-NACHTSCHICHT». Die Prioritätenliste der Nachtschicht
+(`scripts/nachtschicht-run.sh`, Zeilen 122–127) führt den Destillat-Korpus jedoch an
+**keiner** ihrer sechs Prioritäten. Zusätzlich schliesst Priorität 4 die Ziel-KB
+ausdrücklich aus: «RÜCKNAHME 05.08.2026 … `projekt-lessons` ist als freies Ziel
+AUSGESETZT» (Leerlauf-Wächter nach drei Delta-Null-Läufen).
+
+Der Korpus ist damit doppelt blockiert: er steht in keiner Prioritätenliste, und seine
+Ziel-KB steht auf der Ausschlussliste. Run 1 am 17.08. war ein Ad-hoc-Lauf, kein
+getakteter. **Ohne Eingriff bleiben die 706 offenen Dateien beliebig lange liegen** —
+und zwar lautlos, weil kein Leerlauf-Signal entsteht, wo gar nichts läuft.
+
+Das ist kein Meldegrund nach den Kriterien (a) bis (g) und wird deshalb nicht gemailt.
+Es ist aber genau die Sorte stiller Befund, für die Schritt 5b existiert, und gehört
+dem Radar vorgelegt: entweder die Aussetzung von `projekt-lessons` aufheben (die
+Begründung von damals — erschöpftes Material auf den durchsuchten Pfaden — ist durch
+den neuen Korpus mit 706 offenen Dateien überholt) und den Korpus in die
+Nachtschicht-Prioritäten aufnehmen, oder den Korpus bewusst als ad-hoc-only führen und
+die Frontmatter-Aussage «getaktet von der Nachtschicht» korrigieren, damit die
+Frühwarnung nicht weiter einen Takt beaufsichtigt, den es nicht gibt.
+
+### Versuchs-Slot 13:30 — nach einer Woche: er liefert
+
+Der am 29.07. befristet eingeführte Mittags-Slot hat in den sieben Tagen 12.–18.08.
+**sechsmal mit rc=0 geliefert** (12., 13., 14., 16., 17., 18.08., Laufzeiten 236–473 s,
+je ein belegtes Delta) und **einmal mit rc=1** geendet (15.08., Budgetdeckel 5 USD).
+Am 15.08. fiel er zusätzlich aus dem Journal-Muster, ist aber im Gate-Log ohne
+Abweisung. **Das Lauf-Gate hat ihn seit dem 09./10.08. nie mehr abgewiesen** — die
+damaligen vier Abweisungen betrafen alle Slots gleichermassen und lagen am
+Wochenkontingent (85 %), nicht am Mittags-Slot. Grundlage für Raphaels Entscheid:
+der Slot rechtfertigt sich.
+
+### Meldeentscheid: STILL (keine Mail)
+
+Kein Kriterium erfüllt. (a) keine blockierte interaktive Sitzung, (b) höchster Tag der
+Reihe ist der 12.08. mit 28.39 Mio kombiniert — unter 35, und sieben Tage her; kein
+Paar Folgetage über je 18, (c) Wochenkontingent bei 6.3 % nach 22.0 % der Woche,
+(d) `logbuch-radar` durchgelaufen, die übrigen Slots liegen nach dem Messzeitpunkt,
+(e) Radar-Herzschlag intakt, (f) Destillat-Loop hat keine Tokens verbraucht — Stillstand
+ohne Aufwand, kein Meldegrund, (g) Queue nicht komplett (Korpus 2 von 4).
+
+Letzte Mail dieser Frühwarnung: **08.08.2026 07:29**.
+
+### Offene Beobachtungen (kein Meldegrund, für den Radar)
+
+- **Destillat-Korpus ohne Taktgeber** — siehe Strukturbefund oben. Wichtigster offener
+  Punkt dieses Laufs.
+- **PATH-Fensterprobe wird langsamer.** Der Radar misst eine klare Reihe: 39 s
+  (18.08. 00:58) → 76 s (18.08. 12:57) → über 120 s (19.08. 00:57). Noch rc=0, aber
+  der Trend zeigt in eine Richtung. Vom Radar bereits erfasst, hier nur bestätigt.
+- **Nativer NAS-Commit scheiterte am 18.08. 23:36 am Tailscale-DNS-Fehler**; der
+  15-Minuten-Cron hat gesichert (SSD-Klon-Stand 19.08. 07:15). Gleiche Familie wie der
+  seit dem 17.08. defekte Tailscale-Rückweg zum Mac Mini — die Tailscale-Ebene ist der
+  wiederkehrende Schwachpunkt, das LAN trägt derzeit alles.
+- **`energie-training-vollgas`** (Mac Mini): seit dem defekten Lauf vom 17.08. 07:11
+  (rc=1, «Not logged in») weiterhin kein erneuter Lauf im Journal. Dritter Tag ohne
+  Bestätigung oder Behebung. Bleibt beim Radar.
+
 ## 2026-08-18 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 18.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive

@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 19.08.2026 07:07:37
+Stand: 19.08.2026 07:17:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 19.08.2026 07:07:37
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 41d92d8c WEGE: eBaugesucheZH wechselt auf AGOV (Login-Weg im Umbau)
+- 9f8c957f nas-selfcommit: 2 Datei(en) 2026-08-19 07:15
