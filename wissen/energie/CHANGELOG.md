@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-08-20 (Run 144, Nachtschicht Mac Mini) — Vollzugsordner Energie ZH vollständig erschlossen (letzte Lücke PDF-S. 43-68)
+
+Priorität-4-Trainingslektion: bauprodukte/grobkosten/projekt-lessons/immobilienbewertung/spec
+sind alle als ungültiges Ziel geführt (erledigt bzw. Ereignis-Trigger), baurecht/normen/
+planungsgrundlagen/wettbewerbs-dna haben eigene Taktgeber — `energie` bleibt der einzige gültige
+Nachtschicht-Ziel-KB. Darin die klar benannte P1-Lücke aus Run 143 geschlossen: PDF `Vollzugsordner
+Energie Kanton ZH.pdf` (AWEL, Stand Juni 2013) über M365-CLI (`spo file get`, Fallback wegen
+Bibliotheks-Umbenennung `02_Recht_Norm` → intern `PL  Immobilienpreise`) frisch geladen, PDF-S.
+43-68 gelesen.
+
+Zwei neue Destillate: `[[vollzugsordner-energie-zh-abschnitt2-4-2-6]]` (Wintergärten-Ausnützungs-
+bonus, Spezialfälle, EN-6 Kühlräume 5 W/m², emerging) und
+`[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]` (§ 10a EnerG, 11 EN-1-Standardlösungen
+Höchstanteil nichterneuerbare Energien, bewusst `speculative`). **Damit ist der gesamte
+199-seitige Vollzugsordner (Abschnitt 1-10) erstmals vollständig gelesen** — QUESTIONS.md
+E-R143-1 geschlossen, neuer Folgepunkt E-R144-1: die 11 EN-1-Standardlösungen (2009) sind
+auffällig zahlengleich mit den 11 Standardlösungen der heute geltenden WDV 2022 § 10, eine
+Nachfolgebeziehung ist aber nicht geprüft — beide Destillate tragen diesen Vorbehalt explizit
+und verweisen auf [[energienachweis-zh]]/[[waermedaemmvorschriften-zh-2022]] als vorrangige
+aktuelle Quelle. `destillate/INDEX.md` und `training/pdf-inventar.md` nachgeführt.
+
+**Nebenfund, nicht weiterverfolgt (Budget):** im OneDrive-Projektordner 2407 Regensdorf liegen
+zwei Kopien einer **neueren Ausgabe** (`Vollzugsordner_energie_kanton-zh_Ausgabe_1_2023.pdf`,
+4.03.2025 abgelegt) — beide als OneDrive-Platzhalter nicht lesbar («Resource deadlock avoided»,
+On-Demand-Datei nicht materialisiert). Ein Abgleich der 2023er- gegen die hier destillierte
+2013er-Fassung wäre die sauberste Antwort auf den ⚠⚠⚠-Alterskorpus-Vorbehalt dieser gesamten
+Werkgruppe — offener Punkt für einen Folgelauf mit Materialisierung durch Raphael (Rule
+`interaktive-eingriffe`, Cloud-Sync-Klasse) oder erneutem M365-Zugriff auf die kanonische
+PL-02-Fassung, falls sie dort ebenfalls aktualisiert wurde.
+
 ## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — SIA 416/1:2007 als zurueckgezogen gekennzeichnet; eine Handlungsanweisung fuer Aussendokumente gestoppt
 
 **Vier Fassungsvermerke gesetzt, fuenf geplante Stellen nach adversarischer Pruefung bewusst NICHT

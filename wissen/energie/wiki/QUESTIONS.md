@@ -3477,15 +3477,16 @@ durchfuehrbar.
 
 ## 2026-08-19 (Run 143) — Vollzugsordner abgeschlossen bis auf eine neu vermessene Lücke
 
-- [ ] **E-R143-1 (P1, neu): Vollzugsordner Energie Kt. ZH, PDF-S. 43-68 — Abschnitt 2.3-2.6 und
-  Abschnitt 3.1/3.2 mit der Vollzugshilfe EN-1 «Höchstanteil an nichterneuerbaren Energien bei
-  Neubauten» (13 Seiten).** In Run 143 durch Seitenkopf-Screening aufgedeckt: die Buchung von
-  Run 138 («S. 7-45 gelesen = Abschnitt 1.1-1.5 + 2.1-2.2») reichte drei Seiten zu weit — S. 43-45
-  tragen bereits den Kopf «Abschnitt 2.4». Alle übrigen Abschnitte (4-10) sind erschlossen, diese
-  Lücke ist der letzte und zugleich inhaltlich wertvollste Rest des Werks: der Höchstanteil-
-  Nachweis mit seinen Standardlösungen ist eine der meistgestellten Bauherren-Fragen.
-  **Priorität 1 für Run 144.** Quelle liegt über M365-CLI/Graph bereit (Drive `02_Recht_Norm`,
-  `01_Gesetze/02_Zuerich/Energie/Vollzugsordner Energie Kanton ZH.pdf`).
+- [x] **E-R143-1 GESCHLOSSEN (Run 144, 20.08.2026, Nachtschicht Mac Mini): Vollzugsordner Energie
+  Kt. ZH, PDF-S. 43-68 gelesen.** PDF-S. 43-52 (Abschnitt 2.4 Wintergärten, 2.5 Spezialfälle,
+  2.6/EN-6 Kühlräume) → `[[vollzugsordner-energie-zh-abschnitt2-4-2-6]]`; PDF-S. 53-67
+  (Abschnitt 3.1 Grundsätze + 3.2/EN-1 Höchstanteil nichterneuerbare Energien, 11 Standard-
+  lösungen) → `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]` (bewusst `speculative`).
+  **Damit ist der 199-seitige Vollzugsordner vollständig erschlossen.** Neuer Folgepunkt
+  **E-R144-1 (P2): die 11 EN-1-Standardlösungen (2009) gegen die 11 Standardlösungen der
+  WDV 2022 § 10 (`[[waermedaemmvorschriften-zh-2022]]`) abgleichen** — auffällige Koinzidenz der
+  Anzahl, Nachfolgebeziehung nicht bestätigt. Quelle für einen Vollabgleich: WDV-2022-Volltext
+  bereits im Wiki verlinkt, EN-1 hier vollständig destilliert.
 - [x] **Solar-Bewilligungsweg ZH geklärt (Run 143).** Der im Vollzugsordner-Abschnitt 6.4
   abgedruckte Stand (§ 1 lit. k BVV alter Fassung, Dachanlagen bis 35 m² bewilligungsfrei) wurde
   am geltenden BVV-Volltext (Nachtrag 133, KB `baurecht`) gegengeprüft und als überholt markiert:
