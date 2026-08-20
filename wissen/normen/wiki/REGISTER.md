@@ -12,6 +12,32 @@ links: [[sia-register-2013]]
 > ist ersetzt/zurückgezogen, und was liegt im JANS-Bestand. Belegt aus den amtlichen
 > SIA-Verzeichnissen; **nichts erfunden**.
 
+## ⚠ FRISCH GEMELDET — vor dem Schreiben lesen
+
+> **Wer eine Norm zitiert oder ein Destillat schreibt, liest zuerst diese Liste.** Sie führt die
+> Rückzüge und Fassungssprünge der letzten Läufe, bevor sie in den systematischen Teil weiter
+> unten eingearbeitet sind. 337 Destillate dieser KB verweisen auf [[REGISTER]] — dies ist die
+> Stelle, an der eine frische Meldung alle erreicht.
+>
+> Eingerichtet am 20.08.2026 (Wissens-Chef Run 38) auf Übergabe-Auftrag 1 aus Run 37. Anlass waren
+> zwei Fälle derselben Art: (a) `normen` belegte am 19.08. um 01:42 den Rückzug der SIA 416/1,
+> **`energie` schrieb um 10:39 neue Zitate derselben Norm**, weil der Lauf die neun Stunden alte
+> Meldung nicht kannte; (b) umgekehrt lag die geltende Fassung der BRL 26-15 seit dem 25.07. in
+> `energie`, während `normen` sie am 20.08. als «völlig unbekannt» meldete. Beide Male fehlte
+> nicht das Wissen, sondern der Meldeweg.
+>
+> **Pflege:** neueste Meldung zuoberst; ein Eintrag wandert hier heraus, sobald er im
+> systematischen Teil steht **und** die abnehmenden KBs nachgeführt sind.
+
+| Gemeldet | Norm | Meldung | Abnehmer nachgeführt? |
+|---|---|---|---|
+| 20.08.2026 (Run 58) | **VKF BRL 103-15 «Cheminées»** | **am 31.08.2025 zurückgezogen**, keine Nachfolge-Erläuterung bekannt (`N58-2`). Nicht mehr als Fundstelle zitieren | ✅ `planungsgrundlagen` §5ai (Run 38). `skills/brandschutz` trug es bereits |
+| 20.08.2026 (Run 58) | **VKF BRL 12-15 / 26-15** | Teilrevision **01.04.2026** in Kraft: Feuerwerk **F1 in öffentlich zugänglichen Räumen neu verboten**; «Kategorie 1 ist ausgenommen» ist falsch. Delta in [[vkf-teilrevision-2026-pyrotechnik]] | ✅ beidseitige Kante zu `energie` gesetzt (Run 38) |
+| 20.08.2026 (Run 58) | **VKF BRL 17-15**, Ziff. 3.2.2 | Die **15-Sekunden-Frist der Sicherheitsbeleuchtung ist mit der Fassung 01.01.2017 entfallen** («Stand der Technik»). Keine feste Zahl mehr zitierbar | ✅ `planungsgrundlagen` §5r (Run 38) |
+| 20.08.2026 (Run 58) | **23 VKF-Publikationen** | beruhten auf überholter Fassung, jetzt `superseded`; geltende Fassungen in `training/n58-vkf-fassungsmatrix-260820.md`. Grösster Sprung: **BRL 40-15 → 11.06.2025** | teilweise — `planungsgrundlagen` §5f/§5l/§5q (Run 38); übrige Abnehmer offen |
+| 19.08.2026 (Run 57) | **SIA 416/1:2007** | seit **31.03.2015 zurückgezogen**; Nachfolgenorm SIA 380:2015 **nicht im Haus** (`N57-2`). Betrifft NICHT die gültige SIA 416:2003 | ✅ vier KBs nachgeführt (Run 37) |
+| 29.07.2026 (Run 37) | **SIA 271/2:1994** | ersetzt durch **SIA 312:2013 «Begrünung von Dächern»**. ⚠ **SIA 271:2007 selbst gilt** — die beiden nicht verwechseln (genau dieser Irrtum trat am 20.08. in `energie` auf) | ✅ `energie` nachgeführt (Run 38) |
+
 ## Quellen & Datenstand (wichtig)
 
 | Quelle | Art | Datenstand | Aussagekraft |

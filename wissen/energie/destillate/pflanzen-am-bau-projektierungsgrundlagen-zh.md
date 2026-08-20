@@ -3,11 +3,11 @@ quelle: "Stadt Zürich, Amt für Hochbauten / Bauamt II, Dokumentation «Bauen u
 herausgeber: "Hochbauinspektorat/Bauamt II der Stadt Zürich, Amtshaus III, Lindenhofstrasse 21, 8021 Zürich"
 ausgabe: "Blätter datiert Februar 1994 / Dezember 1991 (Aussenraum 5.3-5.4); Gesamtausgabe zuletzt nachgeführt 11.97 (Fussnote jedes Blatts der Kapitel 2/8)"
 gelesen: "2026-08-20 (Mac Mini Nachtschicht 05:30), 42/42 Seiten vollständig"
-datenstand: "1991-1997 ⚠⚠ 29-35 Jahre alt. Reine Konstruktionsprinzipien (Schichtaufbauten, Pflanzengruppen-Systematik, Kletterpflanzen-Typologie) sind zeitlos und bauherrenrelevant. NICHT mehr zitierfähig ohne Gegenprüfung: alle SIA-Fundstellen (SIA 271/271-1/271-2 von 2007 zurückgezogen, siehe [[sia-271-2007]] bei KB `normen`), Primärenergiegehalte der Dämmstoffe (Kapitel 7, MJ/R-Werte von ca. 1994), Recyclingprodukt-Empfehlungen und die Materialbewertung PVC/HFCKW (fachlich damals aktuell, heute Stand der Technik überholt)."
+datenstand: "1991-1997 ⚠⚠ 29-35 Jahre alt. Reine Konstruktionsprinzipien (Schichtaufbauten, Pflanzengruppen-Systematik, Kletterpflanzen-Typologie) sind zeitlos und bauherrenrelevant. NICHT mehr zitierfähig ohne Gegenprüfung: alle SIA-Fundstellen (die in der Quelle zitierten Ausgaben SIA 271:1986 / 271/1:1991 / 271/2:1994 sind durch SIA 271:2007 abgelöst, siehe [[sia-271-2007]] bei KB `normen`; für Dachbegrünung gilt seit 01.11.2013 die Spezialnorm [[sia-312-2013]]), Primärenergiegehalte der Dämmstoffe (Kapitel 7, MJ/R-Werte von ca. 1994), Recyclingprodukt-Empfehlungen und die Materialbewertung PVC/HFCKW (fachlich damals aktuell, heute Stand der Technik überholt)."
 status: speculative
 last_updated: "2026-08-20"
 pfad_quelle: "PL - 02_Recht_Norm (SharePoint intern «PL Immobilienpreise»)/04_Merkblätter/eco/5.26PflanzenamBau.pdf"
-links: [[dachbegruenung-gruendach]], [[dachbegruenung-checkliste-stadt-zh]], [[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]], [[sia-271-2007]]
+links: [[dachbegruenung-gruendach]], [[dachbegruenung-checkliste-stadt-zh]], [[fassadenbegruenung-hitzeschutz-pv-zielkonflikt]], [[sia-271-2007]], [[sia-312-2013]]
 ---
 
 ⚠ **Beschaffungsweg:** Datei lag als unmaterialisierter OneDrive-Platzhalter (Sparse-Datei,
@@ -116,9 +116,20 @@ SIA 118 (allg. Bedingungen Bauarbeiten) · SIA 123 (Spenglerarbeiten) · SIA 160
 (Einwirkungen auf Tragwerke) · SIA 170 (plastische Dachbeläge) · SIA 270 (Abdichtungen) ·
 **SIA 271/271-1/271-2 (Flachdächer/Wärmedämmstoffe/Begrünung)** · SIA 279
 (Wärmedämmstoffe) · SIA 280/281 (Dichtungsbahnen) · SIA 318 (Garten-/Landschaftsbau) ·
-SIA 380/1 (Energie im Hochbau) · SN 592 000 (Liegenschaftsentwässerung). ⚠ SIA 271:2007 ist
-laut KB `normen` zurückgezogen (Nachfolgenorm ungeklärt, siehe [[sia-271-2007]]) — vor
-Zitat in einem Aussendokument dort gegenprüfen, nicht aus dieser Quelle.
+SIA 380/1 (Energie im Hochbau) · SN 592 000 (Liegenschaftsentwässerung).
+
+⚠ **Berichtigt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB).** Hier stand zuvor, SIA 271:2007
+sei «laut KB `normen` zurückgezogen (Nachfolgenorm ungeklärt)». Das ist falsch und wurde der
+führenden KB zu Unrecht zugeschrieben: **SIA 271:2007 «Abdichtungen von Hochbauten» gilt**
+([[sia-271-2007]] trägt `status: established`; `wissen/normen/wiki/REGISTER.md` Z. 223 und 595
+führen sie als gültig). Zurückgezogen ist allein die **Teilnorm SIA 271/2:1994 «Flachdächer zur
+Begrünung»** — und ihre Nachfolge ist nicht ungeklärt, sondern seit dem 29.07.2026 am Titelblatt
+verifiziert und destilliert: **SIA 312:2013 «Begrünung von Dächern» (SN 564312)**, siehe
+[[sia-312-2013]] und REGISTER Z. 237. Die Verwechslung stammt erkennbar aus dem
+Fassungsvermerk-Muster, das Run 37 korrekt zu **SIA 416/1** gesetzt hatte.
+
+Für ein Aussendokument gilt deshalb: Abdichtung aus SIA 271:2007 zitieren, Begrünung aus
+SIA 312:2013 — nicht aus dieser Quelle von 1991-1997.
 
 ## 7. Baustoff-Bewertungstabelle (Kap. 7) — nur als historischer Zeitstand
 
@@ -140,7 +151,7 @@ Werk die **Systematik** (welcher Dachaufbau bei welcher Sanierungsausgangslage, 
 Kletterpflanzentyp bei welchem Fassadenuntergrund) nach wie vor unverändert brauchbar —
 sie ist eine Frage der Bauphysik, nicht der Norm-Jahreszahl. Für **Zahlen** (SIA-Fundstellen,
 Gewichtsansätze im Detail, Dämmstoff-Primärenergie, zulässige Materialien) gilt zwingend der
-heutige Stand: SIA 271-Nachfolge bei `normen` prüfen, aktuelle Belastungsansätze beim
+heutige Stand: für Begrünung [[sia-312-2013]] statt der Altausgaben, aktuelle Belastungsansätze beim
 Bauingenieur, aktuelle Ökobilanz-Daten bei KBOB/ecoBKP ([[ecobkp-2026-gebaeudehuelle]]).
 Für die rechtliche Begrünungspflicht der Stadt Zürich (BZO Art. 11) ist ausschliesslich
 [[dachbegruenung-gruendach]] massgeblich, nicht dieses Konstruktions-Merkblatt.
@@ -149,5 +160,8 @@ Für die rechtliche Begrünungspflicht der Stadt Zürich (BZO Art. 11) ist aussc
 
 - Zwei mögliche PL-02-Dubletten mit anderem Basenamen ungeprüft (vgl. `pdf-inventar.md`
   Nachtrag 15.08., «Mess-Artefakt»-Familie): keine weitere in diesem Baum bekannt.
-- SIA-271-Nachfolgenorm weiterhin ungeklärt (Bring-Schuld Ticket N57-2, KB `normen`) —
-  betrifft auch dieses Destillat.
+- ~~SIA-271-Nachfolgenorm weiterhin ungeklärt (Bring-Schuld Ticket N57-2, KB `normen`)~~ —
+  **gegenstandslos, gestrichen 20.08.2026 (Wissens-Chef Run 38).** Der Punkt beruhte auf zwei
+  Irrtümern: SIA 271:2007 ist nicht zurückgezogen, und Ticket N57-2 betrifft **SIA 416/1:2007**,
+  nicht SIA 271 (`wissen/normen/wiki/QUESTIONS.md` Z. 100). Die Begrünungs-Nachfolgenorm
+  SIA 312:2013 liegt destilliert vor.

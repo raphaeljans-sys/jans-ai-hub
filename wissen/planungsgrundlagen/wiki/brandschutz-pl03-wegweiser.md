@@ -1366,6 +1366,10 @@ bei weiterem Bildmaterial im Ordner `07 Blaues Buch/` nachziehen.
 
 Quelle: `PL - 03 Brandschutz/03 Verzeichnisse Brandschutz 2015/40-15_Weitere Bestimmungen.pdf`
 (VKF/AEAI, Stand 01.01.2015, «in Überarbeitung»-Wasserzeichen im vorliegenden Exemplar).
+⚠ **Geltend ist die Fassung 11.06.2025** (Vermerk 20.08.2026, Wissens-Chef Run 38; Beleg
+`wissen/normen/training/n58-vkf-fassungsmatrix-260820.md` — der grösste Fassungssprung der ganzen
+Matrix). Das Hausexemplar ist zehn Jahre alt und trug schon damals den Überarbeitungsvermerk; die
+Konkordanztabelle unten deshalb vor Gebrauch neu beziehen, nicht aus diesem Exemplar zitieren.
 
 Das Verzeichnis ist eine reine **Konkordanz-/Zuordnungstabelle**: es listet zu jeder der **19
 VKF-Brandschutzrichtlinien (BSR 10-15 bis 28-15)** und jeder der **9 VKF-Brandschutzerläuterungen
@@ -1453,6 +1457,17 @@ Verkaufsgeschäfte pauschal ab **600 m²** unabhängig von einer Löschanlage.
 überholten 2003er-Parkhaus-Arbeitshilfe (RWA-Schwellen 600/3'600 m² unter Terrain, 2'400/4'800 m²
 über Terrain) — die Werte stammen direkt aus **BSR 21-15 Ziff. 3.1** und sind die massgebende
 Grundlage für laufende Bewilligungsverfahren.
+
+> ⚠ **Fassungsvermerk, gesetzt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB).** Dieser Abschnitt
+> beruht auf der Fassung **01.01.2015**; geltend ist seit **01.01.2017** (VKF-Publikationsindex,
+> Abruf 20.08.2026, `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`). Das Destillat
+> [[vkf-brl-21-15-rauch-waermeabzugsanlagen]] trägt seither `status: superseded`.
+>
+> **Die oben genannten Schwellenwerte bleiben gültig.** Die amtliche Änderungsliste 2017 führt für
+> BRL 21-15 ausschliesslich Ziff. 3.4.1 und den Anhang zu Ziff. 3.2 auf — **Ziff. 3.1 ist nicht
+> darunter** (`wissen/normen/destillate/vkf-brl-aenderungen-2017.md`, Abschnitt «Rauch- und
+> Wärmeabzugsanlagen»). Zu berichtigen ist die Fassungsangabe, nicht die Zahl. Für Ziffern
+> **ausserhalb** von 3.1 vor dem Zitat gegen die Fassung 2017 prüfen.
 
 ---
 
@@ -1604,6 +1619,25 @@ Volltext-Ziffern siehe `wissen/normen/destillate/vkf-brl-18-15-loescheinrichtung
 Quelle `PL-03/02 Brandschutzrichtlinien 2015-17-22/Löscheinrichtungen.pdf` +
 `Beförderungsanlagen.pdf`).
 
+> ⚠ **Fassungsvermerk, gesetzt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB, selbst nachgeprüft).**
+> Für **beide** Richtlinien gilt seit **01.01.2017** eine neuere Fassung als die hier verwendete
+> 2015er (`wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`); beide Destillate tragen
+> seither `status: superseded`.
+>
+> **Die unten genannten Healthcare-Kennzahlen sind davon nach heutigem Beleg nicht betroffen.**
+> Am 2017er-Änderungsdelta nachgeprüft (`wissen/normen/destillate/vkf-brl-aenderungen-2017.md`):
+> für **Beförderungsanlagen** listet es allein die neue Ziff. 3.6 Abs. 2 (Aufzüge, die nur in ein
+> einzelnes Untergeschoss führen, dürfen direkt in eine Nutzungseinheit münden, wenn die
+> Schachttüren den Feuerwiderstand nach Ziff. 3.4 Abs. 2 haben) und die cr-Kennzeichnung in
+> Ziff. 5.1 — **die Feuerwehraufzug-Ziffern 4.5.1/4.3 und die Brandfallsteuerung Ziff. 3.7 sind
+> nicht darunter**. **Löscheinrichtungen (18-15) kommen in der Änderungsübersicht überhaupt nicht
+> vor**; sie deckt 14 Themenbereiche ab, dieser gehört nicht dazu.
+>
+> ⚠ Diese Übersicht ist eine **Drittanbieter-Schulungsunterlage** (AFC Basel), nicht die amtliche
+> Änderungsliste. Für 18-15 ist damit belegt, dass **kein Delta bekannt** ist — nicht, dass keines
+> existiert. Vor der nächsten Spital-/Pflegeheim-Vorprojektierung, die auf diesen Zahlen aufbaut,
+> die Fassung 2017 beider Richtlinien am Original gegenlesen (offener Punkt, siehe unten).
+
 **Löscheinrichtungen — Kernzahlen:** HFL Richtwert **1 je 600 m²**; WLP max. Gehweglinie **40 m**,
 Ruhedruck **3 bar**; Wasserlöschposten sind in Sicherheitstreppenhäusern **explizit NICHT
 zulässig** (Ziff. 3.1.1) — Präzisierung zur Fluchtweg-Systematik (§4b/§5).
@@ -1626,9 +1660,35 @@ Volltext-Ziffern siehe `wissen/normen/destillate/vkf-brl-17-15-kennzeichnung-flu
 (VKF-BSR 17-15de, 01.01.2015, vollständig destilliert; Quelle `PL-03/02 Brandschutzrichtlinien
 2015-17-22/Kennzeichnung von Fluchtwegen.pdf`).
 
-**Kernzahlen:** Sicherheitsbeleuchtung wirksam spätestens **15 Sekunden** nach Störung (Ziff.
-3.2.2.1), Betriebsdauer mind. **30 Minuten** (Ziff. 3.2.1.2), Beleuchtungsstärke in Fluchtwegen
-mind. **1 Lux** (Ziff. 3.2.4).
+**Kernzahlen:** ~~Sicherheitsbeleuchtung wirksam spätestens **15 Sekunden** nach Störung (Ziff.
+3.2.2.1)~~ **entfallen, siehe Warnkasten**, Betriebsdauer mind. **30 Minuten** (Ziff. 3.2.1.2),
+Beleuchtungsstärke in Fluchtwegen mind. **1 Lux** (Ziff. 3.2.4).
+
+> ⚠⚠ **Die 15-Sekunden-Frist gibt es seit dem 01.01.2017 nicht mehr.** Berichtigt am 20.08.2026
+> (Wissens-Chef Run 38, Cross-KB, am 2017er-Änderungsdelta selbst nachgeprüft).
+>
+> Dieser Abschnitt beruht auf der Fassung **01.01.2015**; geltend ist **01.01.2017**
+> (`wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`), Destillat
+> [[vkf-brl-17-15-kennzeichnung-fluchtwege]] seither `status: superseded`. Die Teilrevision 2017
+> hat Ziff. 3.2.2 **materiell geändert** (`wissen/normen/destillate/vkf-brl-aenderungen-2017.md`,
+> Abschnitt «Kennzeichnung von Fluchtwegen, Sicherheitsbeleuchtung, Sicherheitsstromversorgung»,
+> S. 24 der Gegenüberstellung):
+>
+> - **2015:** «Die Sicherheitsbeleuchtung muss bei Störung der allgemeinen Stromversorgung
+>   spätestens **nach 15 Sekunden** wirksam sein.»
+> - **2017:** «… muss … entsprechend **dem Stand der Technik** wirksam werden.»
+>
+> **Für die Praxis heisst das: es gibt keine feste Zahl mehr zu zitieren.** Wer in einem
+> Aussendokument «15 Sekunden nach VKF» schreibt, zitiert eine seit neun Jahren gestrichene
+> Anforderung. Stattdessen auf den Stand der Technik zum Prüfzeitpunkt abstellen und die
+> einschlägige Fachnorm (SN EN 1838 / SN EN 50172) heranziehen — deren Fundstelle liegt in der
+> KB `normen` noch nicht destilliert vor und ist vor dem ersten Zitat zu beschaffen.
+>
+> Die beiden anderen Kernzahlen (30 Minuten, 1 Lux) sind in der Änderungsliste 2017 **nicht**
+> aufgeführt und bleiben unverändert. Ebenfalls 2017 geändert, hier bisher nicht geführt:
+> Ziff. 3.3.2 grenzt den zu schützenden Abschnitt der Anschlussleitung neu «innerhalb des
+> Gebäudes bis zum Brandabschnitt Technikraum Sicherheitsstromversorgung» ab (2015: «bis zur
+> Sicherheitszuleitung»).
 
 **Healthcare-relevant:** Beherbergungsbetriebe (explizit «Krankenhäuser, Alters- und Pflegeheime»,
 Anhang zu Ziff. 2.2) verlangen die höchste Anforderungsstufe der Nutzungstabelle — zwingend
@@ -2168,6 +2228,25 @@ Spänefeuerungen, 105-15 Schnitzelfeuerungen, 106-15 Pelletsfeuerungen) sind jet
 volltextlich erschlossen, siehe §5ai-§5al unten.
 
 ## 5ai · Cheminées — VKF-Erläuterung 103-15de (Run 45, 2026-07-14)
+
+> ⚠⚠ **ZURÜCKGEZOGEN — Vermerk gesetzt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB).**
+> Die VKF-Erläuterung **103-15 «Cheminées» ist am 31.08.2025 zurückgezogen** worden; es steht
+> derzeit **keine VKF-Erläuterung zu diesem Gegenstand mehr in Kraft**. Belegt im
+> VKF-Publikationsindex, abgerufen am 20.08.2026 (Normen-Nacht Run 58,
+> `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`); Destillat
+> [[vkf-brl-103-15-cheminees]] trägt seither `status: superseded`.
+> **Belegqualität ausdrücklich:** der Rückzug steht allein in der Portal-Annotation, das PDF
+> selbst trägt keinen Vermerk (Ticket `N58-2` in `wissen/normen/wiki/QUESTIONS.md`).
+> Dieser Abschnitt wurde am 14.07.2026 verfasst, also **elf Monate nach dem Rückzug**, und wertete
+> die Erläuterung bis heute als aktive Fachgrundlage aus.
+>
+> **Konsequenz für die Praxis:** Der unten abgeleitete JANS-Praxis-Transfer für
+> `ankaufspruefung`/`machbarkeit` (Sicherheitsabstand 0.8 m als häufige Ankaufs-Beanstandung)
+> bleibt als **Erfahrungswissen** brauchbar, ist aber **keine zitierfähige Fundstelle mehr**.
+> In einem Aussendokument nicht auf «VKF-Erläuterung 103-15» berufen; die Anforderungen an
+> handbeschickte Feuerstellen über die geltende BRL 24-15 «Wärmetechnische Anlagen» und die
+> kantonale Feuerpolizei abstützen. Welche Regelung an die Stelle der 103-15 getreten ist, ist
+> offen (`N58-2`).
 
 Vollständig gelesene VKF-Brandschutzerläuterung «Cheminées» (Stand 01.01.2015, genehmigt
 23.09.2014, 14 S.) — regelt handbeschickte, fest mit dem Gebäude verbundene offene und

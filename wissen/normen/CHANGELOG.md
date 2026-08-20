@@ -1,3 +1,39 @@
+## 2026-08-20 (Wissens-Chef Run 38, Cross-KB) — der Meldeweg: BRL 26-15 war nicht unbekannt, sondern unverbunden; REGISTER bekommt einen Meldekopf
+
+- **Kernbefund, adversarial bestätigt.** Run 58 meldete die **Teilrevision 2026 der BRL 26-15 als
+  «der KB völlig unbekannt»**. Dieselbe Publikation — **identische Dokumentnummer
+  `BSPUB-1394520214-125`** — lag jedoch seit dem **25.07.2026** in der KB `energie` destilliert
+  vor, mit der Ausgabe **01.04.2026** und dem Änderungsvermerk «IOTH 06.03.2026» im Frontmatter
+  (`wissen/energie/destillate/vkf-richtlinie-gefaehrliche-stoffe.md` Z. 4, 11, 109-111). Die
+  Information war 26 Tage im Haus; es fehlte allein die Kante zwischen den beiden Dateien.
+- **Beidseitige Querverlinkung gesetzt** und die Rollenteilung ausdrücklich benannt: dieses
+  Destillat führt Fundstelle, Ziffern und Fassungsstand, das energie-Destillat die **Anwendung**
+  im Batteriespeicher-/Gefahrstoff-Kontext (Ziff. 3.5.3). `destillate/vkf-brl-26-15-gefaehrliche-stoffe.md`
+  16/1, Gegenstück 16/0.
+- **`wiki/REGISTER.md`: Meldekopf «⚠ FRISCH GEMELDET» eingerichtet** (Übergabe-Auftrag 1 aus
+  Wissens-Chef Run 37). 337 Destillate dieser KB verweisen auf `[[REGISTER]]` — das ist die
+  Stelle, an der eine frische Rückzugs- oder Fassungsmeldung alle Abnehmer erreicht, bevor sie im
+  systematischen Teil eingearbeitet ist. Sechs Meldungen eingetragen (BRL 103-15, Teilrevision
+  2026, BRL 17-15 Ziff. 3.2.2, der 23er-Sweep, SIA 416/1, SIA 271/2 → SIA 312) je mit der Spalte
+  «Abnehmer nachgeführt?».
+  **Anlass sind zwei Fälle derselben Mechanik in zwei Tagen:** am 19.08. schrieb `energie` um
+  10:39 neue SIA-416/1-Zitate, neun Stunden nachdem `normen` den Rückzug belegt hatte; am 20.08.
+  lief es umgekehrt. Beide Male fehlte nicht das Wissen, sondern der Meldeweg.
+- **Eine Meldung gegen den Skill `brandschutz` widerlegt.** Gemeldet war, die QSS-Tabelle
+  BSR 11-15 Ziff. 3.3.1 in `skills/brandschutz/SKILL.md` sei durch die Fassung 01.01.2019
+  überholt. Die amtliche Änderungsliste 2019 nennt ausschliesslich Ziff. 4.1.1/4.1.3-4.1.7 und
+  Anhang-Positionen — **Ziff. 3.3 ist nicht darunter**, die Tabelle ist wortgleich; der Skill
+  trägt den Fassungsvorbehalt zudem bereits, gesetzt heute um 17:23 durch Synergie-Lauf 13
+  (SYN-37, Commit `a3793804`) gegen genau diese Fassungsmatrix. Nicht angefasst.
+- **Damit ist der offene Teil von `N58-5` beantwortet** («ob weitere Fach-Skills VKF-Nummern oder
+  -Fassungen führen — nicht geprüft»). Gemessen über `skills/ agents/ rules/ references/`:
+  **42 Dateien** nennen VKF-nahe Begriffe (weites Muster inkl. EI30/RF1/Cheminée/Pyrotechnik;
+  mit dem engen Muster «VKF/BRL/BSR» sind es 28). Davon trifft **genau eine** eigene
+  VKF-Sachaussagen mit Richtliniennummern — `skills/brandschutz/SKILL.md`, und die ist seit heute
+  17:23 nachgeführt. Alle übrigen nennen VKF als Fachbegriff, Router-Verweis oder Übungstext ohne
+  eigene Norminhalt-Behauptung. **Der Sweep hat die Skills-Schicht nicht beschädigt** — anders als
+  beim SIA-416/1-Fall aus Run 37, wo die Skills-Schicht den Rückzug gar nicht erst erreichte.
+
 ## 2026-08-20 (Normen-Nacht Run 58, MacBook Pro) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate ueberholt
 
 - **N27-1 GESCHLOSSEN.** Der seit Run 27 (06.08.2026) offene Auftrag «VKF-Publikationsindex

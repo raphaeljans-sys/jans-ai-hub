@@ -111,3 +111,19 @@ Volltext gezogen — offener Punkt (siehe unten).
   Zitate stets gegen `https://www.bsvonline.ch/de` auf Aktualität prüfen.
 
 **Backlinks:** Wirtschaftlichkeit/Dimensionierung Batteriespeicher [[batteriespeicher-heimspeicher-pv-ch]].
+
+⚠ **Rückkante zur führenden KB gesetzt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB).**
+Fundstelle, Ziffern und Fassungsstand der BRL 26-15 führt die KB `normen`:
+[[vkf-brl-26-15-gefaehrliche-stoffe]] (Volltext-Destillat der Bestandsfassung 01.01.2015) und
+[[vkf-teilrevision-2026-pyrotechnik]] (materielles Delta der geltenden Fassung 01.04.2026).
+Dieses Destillat bleibt führend für die **Anwendung** im Batteriespeicher-/Gefahrstoff-Kontext.
+
+Der oben notierte Änderungsvermerk «IOTH 06.03.2026, betrifft Ziffer 11.1.3» ist inzwischen
+aufgelöst: die Teilrevision setzt **Feuerwerk F1 in öffentlich zugänglichen Räumen neu ausser
+Kraft** (verboten; im privaten Bereich ausdrücklich erlaubt), womit die früher gängige Auskunft
+«Kategorie 1 ist ausgenommen» seit dem 01.04.2026 falsch ist. Der hier gehaltene Befund zu
+Ziff. 3.5.3 ist davon **nicht** berührt.
+
+Zur Chronik: dieses Destillat führte die geltende Ausgabe 01.04.2026 seit dem 25.07.2026,
+während die KB `normen` sie erst am 20.08.2026 entdeckte und dabei als «völlig unbekannt» meldete.
+Beide Aussagen waren richtig; es fehlte nur diese Verlinkung.

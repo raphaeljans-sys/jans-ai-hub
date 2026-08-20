@@ -3,7 +3,7 @@ title: Dachbegrünung (Gründach) — Vorgaben und PV-Synergie
 status: emerging
 last_updated: "2026-08-15 (Mac Mini Nachtschicht 05:30, Run 133)"
 sources: [destillate/dachbegruenung-checkliste-stadt-zh.md]
-links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]]
+links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[sia-312-2013]], [[pflanzen-am-bau-projektierungsgrundlagen-zh]]
 ---
 
 # Dachbegrünung (Gründach) — Vorgaben und PV-Synergie
@@ -63,6 +63,24 @@ bauphysikalischen Kennwerte und die PV-Kombination.
 
 Referenz: Gründachrichtlinie Teil I+II (Schweizerische Fachvereinigung Gebäudebegrünung SFG),
 FLL-Dachbegrünungsrichtlinie 2008, ECO-BKP 224.
+
+⚠ **Massgebende Fachnorm ergänzt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB).** Die Tabelle
+oben stammt aus der Quelle von 2009 und nennt als Referenz nur die Gründachrichtlinie SFG. Das
+Feld ist seit dem **01.11.2013 normativ neu besetzt: SIA 312:2013 «Begrünung von Dächern»
+(SN 564312)**, siehe [[sia-312-2013]] bei der führenden KB `normen`; sie ersetzt laut ihrem
+Vorwort (S. 4) die Empfehlung SIA 271/2:1994. Dieselbe KB hatte das am 04.08.2026 bereits belegt
+(`destillate/eco-bau-merkblaetter-bkp-2008-huelle.md` Z. 274, `destillate/ecobkp-2026-gebaeudehuelle.md`
+Z. 185) — die Erkenntnis hatte diesen Artikel nur nie erreicht.
+
+Zwei Folgen für die Anwendung: (1) Die **Gründachrichtlinie SFG ist unter SIA 312 kein
+Qualitätsstandard mehr, sondern Prüfverfahren** (Ziff. 2.5.5, 4.3.2, informativer Anhang C, nur
+Teil 1). (2) SIA 312 führt die Mindest-Schichtdicke **standortabhängig nach Jahresniederschlag**
+(110 bis 80 mm, Wasserrückhalt 55 bis 40 l/m², nutzbare Feldkapazität 27,5 bis 20,0 l/m²) statt
+als den einen Pauschalwert der Tabelle. Vor Zitat in einem Aussendokument deshalb SIA 312
+heranziehen, nicht diese Tabelle.
+
+Die Abstimmungsregeln des folgenden Abschnitts «PV-Synergie» stammen ebenfalls aus der Quelle von
+2009; SIA 312 regelt die Koexistenz Begrünung/Solarmodul in Ziff. 2.12.1-2.12.3 normativ.
 
 ## PV-Synergie
 Begrünung kühlt PV-Panels über Verdunstung (ertragsrelevant). Abstimmungsregeln:

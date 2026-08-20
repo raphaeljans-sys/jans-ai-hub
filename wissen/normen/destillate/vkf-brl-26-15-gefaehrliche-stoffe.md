@@ -8,10 +8,25 @@ status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung ver
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.04.2026 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 90813af41a3cc2e663a6815cc6e96eb5). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 26/26 Seiten, 2 Luecken ergaenzt: Ziff. 5.2.1 Heizraum-Kleintanks + Anhang Ziff. 5.2 Verkaufsraum-Sonderregel)"
-links: [[REGISTER]]
+links: [[REGISTER]], [[vkf-teilrevision-2026-pyrotechnik]]
 ---
 
 # VKF-BRL 26-15de — Gefährliche Stoffe
+
+> ⚠ **Querverweis gesetzt am 20.08.2026 (Wissens-Chef Run 38, Cross-KB): die Teilrevision 2026
+> war nicht «unbekannt», sie war unverbunden.** Der Fassungs-Sweep Run 58 hat die geltende Ausgabe
+> 01.04.2026 heute erstmals in dieser KB geführt. Dieselbe Publikation — identische Dokumentnummer
+> `BSPUB-1394520214-125` — lag jedoch **seit dem 25.07.2026** in der KB `energie` destilliert vor,
+> mit der Ausgabe 01.04.2026 und dem Änderungsvermerk «IOTH 06.03.2026» im Frontmatter:
+> `wissen/energie/destillate/vkf-richtlinie-gefaehrliche-stoffe.md`. Die Information war 26 Tage
+> im Haus, ohne dass die führende KB davon wusste — es fehlte allein die Kante zwischen den beiden
+> Dateien.
+>
+> **Rollenteilung ab hier:** dieses Destillat führt Fundstelle, Ziffern und Fassungsstand
+> (Rollen-Matrix `wissen/koordination/QUERBEZUEGE.md`); das energie-Destillat führt die
+> **Anwendung** im Batteriespeicher-/Gefahrstoff-Kontext (Ziff. 3.5.3) und bleibt dort gültig.
+> Das materielle Delta der Fassung 2026 (Pyrotechnik, Ziff. 11.1.3) steht in
+> [[vkf-teilrevision-2026-pyrotechnik]].
 
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.04.2026**,

@@ -1,5 +1,45 @@
 # CHANGELOG
 
+## 2026-08-20 (Wissens-Chef Run 38, Cross-KB) — SIA 271 mit SIA 271/2 verwechselt; die Begrünungs-Nachfolgenorm lag seit dem 29.07. destilliert vor
+
+- **Bestätigter harter Befund, adversarial gegengeprüft.** Das heute früh (Run 145, 05:36)
+  angelegte `destillate/pflanzen-am-bau-projektierungsgrundlagen-zh.md` behauptete an vier
+  Stellen, **SIA 271:2007 sei «laut KB `normen`» zurückgezogen** und die Nachfolgenorm
+  «ungeklärt». Beides falsch, und beides der führenden KB zu Unrecht zugeschrieben:
+  `normen/destillate/sia-271-2007.md` trägt `status: established`, `normen/wiki/REGISTER.md`
+  Z. 223 und 595 führen die Norm als gültig. Zurückgezogen ist allein die **Teilnorm
+  SIA 271/2:1994 «Flachdächer zur Begrünung»**, und deren Nachfolge ist seit dem 29.07.2026 am
+  Titelblatt verifiziert und destilliert: **SIA 312:2013 (SN 564312)**, REGISTER Z. 237.
+- **Herkunft des Irrtums benannt:** das Fassungsvermerk-Muster, das Wissens-Chef Run 37 am
+  19.08. korrekt zu **SIA 416/1** in vier energie-Dateien gesetzt hatte, wurde hier auf die
+  falsche Norm übertragen — samt Ticketbezug: der angerufene Vorgang `N57-2` betrifft
+  SIA 416/1, nicht SIA 271. Der Spiegelstrich unter «Offene Punkte» war damit gegenstandslos
+  und ist gestrichen.
+- **Vier Zeilen zeilenexakt berichtigt** (Frontmatter `datenstand`, Abschnitt 6, Bauherren-
+  Transfer, Offene Punkte), Backlink `[[sia-312-2013]]` gesetzt. **Bewusst NICHT angefasst:**
+  die quellentreuen Nennungen «Definition (SIA 271, historisch)» und die Systemtabelle — ein
+  globales Ersetzen auf «SIA 271» hätte sie beschädigt (Rule `auto-verbesserungen` 260811).
+  Die Frontmatter-Zeile wurde **präzisiert statt gestrichen**: in der Lesart «durch die Ausgabe
+  2007 abgelöst» war sie sachlich richtig, nur missverständlich. Schreib-Kontrolle 22/8, alle
+  acht Löschungen sind die je ersetzten Zeilen.
+- **`wiki/dachbegruenung-gruendach.md`:** Der Artikel bezeichnet sich selbst als führend für
+  Substrat- und Qualitätsstandard, nannte aber im ganzen Text **kein einziges Mal SIA 312:2013**
+  und stützte die Kennwerte-Tabelle allein auf die Gründachrichtlinie SFG von 2009. Dieselbe KB
+  hatte am 04.08.2026 bereits belegt, dass das Feld normativ neu besetzt ist und die
+  Gründachrichtlinie dort **nur noch Prüfverfahren** ist
+  (`destillate/eco-bau-merkblaetter-bkp-2008-huelle.md` Z. 274,
+  `destillate/ecobkp-2026-gebaeudehuelle.md` Z. 185) — die Erkenntnis hatte den am 15.08.
+  geschriebenen Artikel nie erreicht. Referenzzeile ergänzt, Backlinks gesetzt. 19/1.
+- **Bewusst nicht geändert, obwohl gemeldet:** der Abschnitt «Konstruktive Anforderungen»
+  (Gefälle < 1,5 %, SIA 271/2007 Ziff. 2.2.1.1/2.6.1.1/5.1.4). Er ist quellentreu **und**
+  sachlich richtig — SIA 312 kennt kein Mindestgefälle. Der Melder hatte genau diesen Abschnitt
+  als Ziel genannt; der Refuter hat den Eingriff dort verhindert.
+- **`destillate/vkf-richtlinie-gefaehrliche-stoffe.md`:** Rückkante zur führenden KB gesetzt
+  (`[[vkf-brl-26-15-gefaehrliche-stoffe]]`, `[[vkf-teilrevision-2026-pyrotechnik]]`) und der
+  offene Änderungsvermerk «IOTH 06.03.2026, Ziff. 11.1.3» aufgelöst: **Feuerwerk F1 ist in
+  öffentlich zugänglichen Räumen seit 01.04.2026 verboten**. Der eigene Befund zu Ziff. 3.5.3
+  bleibt unberührt. 16/0 (append-only). Näheres im Eintrag der KB `normen`.
+
 ## 2026-08-20 (Run 145, Nachtschicht Mac Mini 05:30-Fortsetzung) — Grösster Restposten `5.26PflanzenamBau.pdf` destilliert
 
 Priorität-4-Fortsetzung nach Run 144 (energie bleibt die einzige gültige Nachtschicht-Ziel-KB;

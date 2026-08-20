@@ -2,6 +2,50 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-20 (Wissens-Chef Run 38, Cross-KB) — VKF-Fassungs-Sweep angekommen: eine zurückgezogene Erläuterung, eine gestrichene Kennzahl, drei Fassungsvermerke
+
+Der Wegweiser `wiki/brandschutz-pl03-wegweiser.md` ist mit 48 VKF-Nennungen der grösste Abnehmer
+der Brandschutzrichtlinien im Hub. Die KB `normen` hat heute Nacht (Run 58) alle 35 destillierten
+VKF-Publikationen erstmals gegen den amtlichen Publikationsindex abgeglichen und **nur ihr eigenes
+Register** nachgeführt. Fünf Stellen dieses Artikels sind dadurch überholt. Alle Eingriffe sind
+additive Warnkästen; **kein Fachinhalt wurde entfernt**. Schreib-Kontrolle 82/3, die drei
+Löschungen sind die ersetzten Zeilen der Kernzahlen-Zeile in §5r.
+
+- **§5ai Cheminées — die Grundlage existiert nicht mehr.** Die VKF-Erläuterung **103-15 ist am
+  31.08.2025 zurückgezogen** worden; es steht keine Erläuterung zu diesem Gegenstand mehr in
+  Kraft. Der Abschnitt wurde am 14.07.2026 verfasst, also **elf Monate nach dem Rückzug**, und
+  wertete sie bis heute als aktive Fachgrundlage aus, samt abgeleitetem Praxis-Transfer für
+  `ankaufspruefung`/`machbarkeit`. Rückzugs-Warnkasten gesetzt: der 0.8-m-Erfahrungswert bleibt
+  brauchbar, ist aber **keine zitierfähige Fundstelle mehr**; Anforderungen über die geltende
+  BRL 24-15 und die kantonale Feuerpolizei abstützen. Belegqualität ausdrücklich vermerkt — der
+  Rückzug steht allein in der Portal-Annotation, das PDF trägt keinen Vermerk (`N58-2`).
+- **§5r Sicherheitsbeleuchtung — die 15-Sekunden-Frist gibt es seit 01.01.2017 nicht mehr.**
+  Vom Melder als «weich» eingestuft, im Hauptkontext am 2017er-Änderungsdelta selbst nachgeprüft
+  und dabei **auf hart hochgestuft**: die Teilrevision ersetzt «spätestens nach 15 Sekunden» durch
+  «entsprechend dem Stand der Technik» (`normen/destillate/vkf-brl-aenderungen-2017.md`, S. 24 der
+  Gegenüberstellung). Es gibt keine feste Zahl mehr zu zitieren. Die Zahl war hier als geltende
+  Kernzahl geführt und wäre so in ein Vorprojekt gewandert. Zusätzlich die 2017er-Änderung an
+  Ziff. 3.3.2 nachgetragen. **30 Minuten und 1 Lux stehen nicht in der Änderungsliste und bleiben.**
+- **§5l RWA (BRL 21-15)** — Fassungsvermerk 2015 → geltend 01.01.2017. **Die Schwellenwerte
+  600/3'600 bzw. 2'400/4'800 m² bleiben gültig:** die Änderungsliste 2017 führt für 21-15 nur
+  Ziff. 3.4.1 und den Anhang zu Ziff. 3.2, **Ziff. 3.1 ist nicht darunter**. Zu berichtigen war
+  die Fassungsangabe, nicht die Zahl.
+- **§5q Löscheinrichtungen/Beförderungsanlagen (18-15/23-15)** — Fassungsvermerk 2015 → 2017.
+  Selbst nachgeprüft: die **Feuerwehraufzug-Kennzahlen** (Kabine 1.1 × 2.1 m, 1'000 kg, Schleuse
+  2.4 × 2.4 m, Brandfallsteuerung Ziff. 3.7) sind in der Änderungsliste **nicht** aufgeführt; für
+  23-15 stehen dort nur die neue Ziff. 3.6 Abs. 2 und die cr-Kennzeichnung in Ziff. 5.1.
+  **Löscheinrichtungen kommen in der Übersicht überhaupt nicht vor.** Ausdrücklich vermerkt, dass
+  diese Übersicht eine Drittanbieter-Schulungsunterlage ist: für 18-15 ist damit belegt, dass
+  **kein Delta bekannt** ist, nicht dass keines existiert.
+- **§5f Verzeichnis 40-15** — geltend ist **11.06.2025**, der grösste Fassungssprung der ganzen
+  Matrix; das Hausexemplar von 2015 trug schon damals ein «in Überarbeitung»-Wasserzeichen.
+  Konkordanztabelle vor Gebrauch neu beziehen.
+- **Geprüft, kein Befund:** BRL 2001-15 Solaranlagen (führt korrekt 01.01.2022), BRL 16-15
+  (korrekt 01.12.2022), BRL 2005-15 Lithium-Ionen (korrekt 01.06.2021),
+  `wiki/recht-norm-arbeitshilfen-planungsdetails.md` (Fassungsvorbehalt bereits explizit),
+  `wiki/energie-pv-brandschutz.md` und `wiki/energie-pv-eignung-typenwahl.md` (nennen VKF nur im
+  Swissolar-Kontext ohne eigene Fassungsangabe).
+
 ## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — Rueckzugs-Nachtrag an der publizierten SIA 416/1; der Entwurf 3/05 bleibt unberuehrt
 
 - **`wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`:** Der Fassungsvorbehalt (Run 35,
