@@ -3,6 +3,40 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 20.08.2026, 06:15 (Konversations-Log) — Die Honorarofferten von JANS stützen sich auf eine
+SIA-102-Fundstelle, die es nicht gibt; welche Grundlage künftig gilt, ist ein Geschäftsentscheid und
+liegt bei Raphael.** Der Wissens-Chef (Run 36, 18.08. abends) und der Synergie-Lauf 12 (19.08. 15:10)
+haben denselben Strang unabhängig aufgedeckt. Der Skill `honorarberechnung-sia102` führte seine
+Phasenanteils-Tabelle unter «SIA 102:2020, Anhang A» — **beides existiert nicht**: die Ausgabe 2020
+endet mit Art. 6 und kennt die Baukosten-Prozentmethode überhaupt nicht mehr, die Tabelle steht in
+SIA 102:**2014** Ziff. 7.7. Die Warnung lag seit dem 14.07. im Destillat und nannte den Skill
+namentlich. **Was bereits geschehen ist:** die Herkunftsangabe ist korrigiert und ein Vorbehalt
+gesetzt, **keine einzige Zahl wurde angetastet** — die Werte sind Eigenkonvention, ihr Ersatz wäre
+ein Geschäftsentscheid und genau der BKP-271.10-Fehlertyp. Ebenfalls korrigiert: im Destillat
+`wissen/normen/destillate/sia-102-2014.md` stand der Praxis-Transfer 26 Zeilen unter der eigenen
+Korrektur weiter auf «Alters-/Pflegeeinrichtungen VI», wo Z. 65 seit dem 14.07. Kategorie **V**
+festhält. **Geldfolge:** V gegen VI ist ein Schritt im Schwierigkeitsgrad n (1.1 gegen 1.2), rund
+**9 % Honorar**. **AKTION Raphael:** entscheiden, auf welche Grundlage sich die Phasenanteile künftig
+berufen (SIA 102:2014 Ziff. 7.7 zitieren oder als JANS-Eigenkonvention deklarieren). Betroffen ist
+auch ein Mail-Baustein, der dieselbe Behauptung an Bauherrschaften trägt. Kein Termindruck, aber die
+Aussage geht mit jeder Honorarofferte nach aussen.
+| Lauf-Reports `wissen/koordination` Run 36 + Synergie-Lauf 12 (SYN-36); Destillat `logbuch/konversationen/260820-konversationen.md` | Geschäft/Honorar | mittel | offen
+
+
+**NACHTRAG 20.08.2026, 06:15 (Konversations-Log) zum Register-Punkt «SharePoint-Speicherpool läuft
+voll» (Eintrag 13.08.) — die Restlaufzeit ist von 50 auf 16 Tage gefallen, die Hochrechnung dort ist
+überholt.** Die Tenant-Hygiene vom 19.08. 18:08 misst **844.56 GB von rund 1'054 GB (80.1 %)**, freier
+Puffer 209.4 GB, Wachstum **plus 13.29 GB in 24 Stunden** — das Vierfache der Meldeschwelle und der
+dritte Werktag mit steigender Rate (3.27 / 5.02 / 13.29 GB pro Tag). **99.8 % davon sind reiner
+Versionsverlauf** über bestehenden Dateien auf einer einzigen Site: JANS.PROJEKTE (Versionsverlauf
+63.00 → 76.27 GB); die echten Nutzdaten wuchsen um 0.02 GB, also gar nicht. Neue Hochrechnung: voller
+Pool **etwa 4. September 2026**, die 88-Prozent-Marke **etwa 25. August**. Auto-Bereinigung bringt
+nichts mehr (0 GB, alle zweiten Papierkorbstufen leer, elfter Lauf in Folge, zwei Sites zur Kontrolle
+selbst nachgemessen). Der Hebel bleibt unverändert der, den der Eintrag vom 13.08. benennt — das
+Versions-Trimming auf JANS.PROJEKTE. Er ist jetzt nur noch rund zwei Wochen weit entfernt statt sieben.
+| Report `wissen`-unabhängig: Tenant-Hygiene-Lauf 19.08.2026 18:08 (Summe 864'825 MB doppelt verifiziert) | Infrastruktur/Speicher | hoch | offen
+
+
 
 **NEU 20.08.2026, 00:57 (Vollgas-Radar) — Tailscale ist auf dem Mac Mini gestoppt; der native
 NAS-Committer und jeder Fernzugriff auf die Always-On-Station laufen ins Leere.** Gemessen auf dem
