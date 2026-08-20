@@ -53,6 +53,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Git auf dem NAS | `scripts/nas-commit-now.sh` | 15-Min-Cron abwarten | | |
 | Mac-App-Store-Updates | `mas outdated` / `mas upgrade` | | | App Store (GUI) |
 | Hersteller-CAD Sanitaerapparat (DWG/Massblatt) | Produktseite des Herstellers, Download-Tabelle auslesen; KWC/DELABIE offen unter `kwc-professional.com/assets-original/products/<ArtNr>/` (belegt 20.08.2026, BS302) | Fachhandel-Portal (Sanitas Troesch, heinze.de, ais-online.de) | BIM-Portale (bimobject) | Anfrage beim Lieferanten |
+| Hersteller-CAD Armatur LAUFEN/Similor (2D+3D, Massblatt, Produktblatt) | Produktseite `laufen.ch/produkte/<slug>-<ArtNr>`, dann die `LaufenResourceServlet`-Links aus dem Quelltext ziehen (belegt 20.08.2026, CITYPRO HF500922100000) | Download Center `laufen.ch/download-centre` (Login erst ab 10 Dateien) | Handelsnummer beim Fachhandel in die Herstellernummer aufloesen | Anfrage bei LAUFEN |
 | CAD: Vektor-PDF oder Fremd-DXF nach DWG | Skill `pdf2dwg` (venv `~/.venvs/pdf2dwg`, ezdxf + LibreDWG) | | | Original-DXF unverändert weitergeben |
 | CAD: 3D-Hersteller-DWG (ACIS) nach 2D-Plan (Grundriss/Ansicht/Schnitt) | **Rhino 8 an der besetzten Station**, Import + `Make2D` (4 Ansichten Europa) + `SimplifyCrv`/`Join` + Export R2013 | Rhino skriptgesteuert via `rhinocode` an der besetzten Station (belegt 20.08.2026, ein Dialogklick beim Erstimport) | Massbild aus dem Hersteller-Datenblatt nachzeichnen | Massblatt beim Lieferanten anfordern |
 
@@ -119,6 +120,29 @@ skriptgesteuert, nicht von Hand:
   Mac Mini. Für eine DWG-Kontrolle auf dieser Station taugen zwei Ersatzwege: Rückimport nach
   Rhino (zeigt Geometrietypen, Layer und Bounding-Box) und die Formatkennung direkt aus dem
   Dateikopf, `head -c 6 datei.dwg` (`AC1021` = 2007, `AC1027` = 2013, `AC1032` = 2018).
+
+**Nachtrag Mesh statt ACIS (belegt 20.08.2026, LAUFEN CITYPRO HF500922100000, 2619 KISPI).**
+Nicht jede Hersteller-DWG ist ACIS. Armaturen kommen haeufig als **triangulierter Mesh**
+(hier 552 Meshes, 29'451 Flaechen). Der Weg bleibt derselbe, drei Punkte kommen dazu:
+
+- **Ohne Schweissen ist die Projektion unbrauchbar.** Roh liefert die Ansicht 1130 sichtbare
+  und 3292 verdeckte Kurven, weil jede Dreieckskante als Kante gilt. Nach `Mesh.Append` aller
+  Teile, `Vertices.CombineIdentical`, `Normals.ComputeNormals` und `Weld(35 Grad)` sind es
+  114 sichtbare Kurven, und die Zeichnung sieht aus wie ein Hersteller-Massbild. **Der
+  entscheidende Schritt ist `CombineIdentical`**, nicht der Schweisswinkel: 25, 35 und 45 Grad
+  lieferten identische Ergebnisse.
+- **Fuer den Schnitt `Mesh.Split(Plane)` und `Intersection.MeshPlane`**, nicht `Brep.Trim`.
+  Dieselbe Fallunterscheidung ueber die Bounding-Box wie bei Breps ist noetig, weil Teile ganz
+  vor oder ganz hinter der Ebene liegen koennen.
+- **Eine Mesh-Ableitung hat keine Boegen.** Der Export liefert ausschliesslich Polylinien;
+  Kreise sind feine Vielecke. Fuer den Plan ohne Folgen, fuer eine Bemassung am
+  Kreismittelpunkt nicht. Beim BS302 (ACIS) entstanden dagegen 191 echte Boegen.
+
+**Herstellermodelle stehen in der Zeichnungslage, nicht in der Einbaulage.** Beim CITYPRO lag
+die Wandachse auf Z. Die Einbaulage (X entlang Wand, Y aus der Wand, Z nach oben) entstand
+ueber die Drehung (x,y,z) auf (-x,z,y); die naheliegende Zuordnung (x,z,y) ist eine
+**Spiegelung** (Determinante -1) und waere falsch. Vor dem Zeichnen pruefen, ob die
+Determinante der Transformation +1 ist.
 
 ---
 

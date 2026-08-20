@@ -1,5 +1,15 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-20 (2)
+
+- Report `outputs/2026-08-20_wandmischer-laufen-citypro-cad-und-mesh-ableitung.md` angelegt:
+  Nummernkette Sanitas Troesch / LAUFEN / Similor fuer den Wandmischer CITYPRO, offener
+  Download-Weg ueber `laufen.ch` und `LaufenResourceServlet`, sowie die vier Befunde zur
+  2D-Ableitung aus einem **Mesh**-Herstellermodell (Schweissen, Mesh.Split statt Brep.Trim,
+  keine Boegen, Zeichnungslage gegen Einbaulage). Anwendungsfall 2619 KISPI, LOS 260.03.
+- Wege-Register `connectors/WEGE.md` um die Zeile «Hersteller-CAD Armatur LAUFEN/Similor»
+  und den Nachtragsblock «Mesh statt ACIS» ergaenzt.
+
 ## 2026-08-20 (MacBook Pro, interaktiv) — Ausgussbecken KWC/Franke SIRIUS BS302: Identifikation und CAD-Beschaffungsweg
 
 Neuer Output-Report `outputs/2026-08-20_ausgussbecken-kwc-sirius-bs302-cad-beschaffung.md`
