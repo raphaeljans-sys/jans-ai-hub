@@ -512,19 +512,8 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   MwSt.», Geltungsdauer), warm gerahmt. Bei der Weitergabe einer **Behörden-Auflage an die
   Bauherrschaft** deren materiellen Wortlaut übernehmen statt zu paraphrasieren und jeden Punkt
   seiner **namentlichen Amtsstelle** zuordnen (Liste unten). Bei einer **Korrektur-/Planlieferung**
-  die Plan-Metadaten ausweisen. **In der Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der
-  konkreten Gemeinde rechnen, nicht die generische Ausnützungsziffer (260801):** wo die BZO mit der
-  **Baumassenziffer** arbeitet, die Kette «W2.2 = Grundstücksfläche × 2.2, **+ 0.3 für die
-  Arealüberbauung**» → Volumen / Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3.
-  **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie rein typologisch.
-  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803)** —
-  Ortsverträglichkeit entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm
-  wörtlich zitieren. **Aussenraum ist eigene Fachsprache (260803)**, Kopplungen **Aussicht an
-  Himmelsrichtung**, **Lagequalität an Ausnützung**, Mehrkosten als Prozent-Bandbreite; Vokabular
-  im Abschnitt unten.
-  **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (260804)** — benannte
-  Konstruktion mit Zahl, Gestaltbegriffe an der Konstruktion festgemacht, Pflanzen mit botanischem
-  Namen; Abschnitt «Wettbewerbs-Fachsignatur» unten. **Die administrative Fachsprache des
+  die Plan-Metadaten ausweisen. **Studien-, Zonen- und Wettbewerbs-Fachsignatur** (Baumassenziffer-Kette, Kernzone,
+  Aussenraum-Vokabular, Abgabetext): Abschnitt «Gattungsregeln ausserhalb der Mail» unten. **Die administrative Fachsprache des
   Gegenübers übernehmen**, bei **Registerdaten wörtlich** — paraphrasieren macht die Angabe
   formularuntauglich (260805/260806, Abschnitt «Administrative Fachsprache» unten).
 - **Die Rechtsauskunft trägt Paragraf UND Parzellennummer, nie den blossen Gesetzesnamen — aber nur,
@@ -551,6 +540,28 @@ Schwelle (B2C vs. B2B/Amt) → [[QUESTIONS]] 260727d.
   Stückzahlen erfinden**, um einen Beschrieb oder eine Mail zu füllen (Drift 260804/260805) —
   fehlt die Angabe, bleibt sie offen, wird als Annahme markiert oder es steht nur die
   **Belegnummer**, nie ein erfundener Inhalt dazu.
+
+## Gattungsregeln ausserhalb der Mail (ausgelagert 20.08.2026, nicht kompiliert)
+
+Diese Regeln gelten unveraendert. Sie stehen hier statt im Do/Don't-Block, weil das
+Fidelity-Messverfahren seit Wochen ausschliesslich **Mails** prueft: eine Studien- oder
+Wettbewerbstext-Regel kann dort per Konstruktion weder bestaetigt noch verletzt werden.
+Vor dem Schreiben einer Machbarkeits-/Verdichtungsstudie oder eines Abgabetextes hier
+nachschlagen.
+
+- **In der Verdichtungs-/Machbarkeitsstudie die Zonenmechanik der
+  konkreten Gemeinde rechnen, nicht die generische Ausnützungsziffer (260801):** wo die BZO mit der
+  **Baumassenziffer** arbeitet, die Kette «W2.2 = Grundstücksfläche × 2.2, **+ 0.3 für die
+  Arealüberbauung**» → Volumen / Baumassenreserve / **stille Reserven** / Total, jede Zahl in m3.
+  **Jede entwerferische Frage an eine Rechts- oder Schutzgrösse koppeln**, nie rein typologisch.
+  **Kernzone: die Grundmasse gelten weiter, verhandelt wird die Einordnung (260803)** —
+  Ortsverträglichkeit entsteht über **Lösungsvorschläge**, nicht über Verzicht auf Baumasse; Norm
+  wörtlich zitieren. **Aussenraum ist eigene Fachsprache (260803)**, Kopplungen **Aussicht an
+  Himmelsrichtung**, **Lagequalität an Ausnützung**, Mehrkosten als Prozent-Bandbreite; Vokabular
+  im Abschnitt unten.
+  **Wettbewerbs-/Abgabetext: Masse und Produkte statt Materialstimmung (260804)** — benannte
+  Konstruktion mit Zahl, Gestaltbegriffe an der Konstruktion festgemacht, Pflanzen mit botanischem
+  Namen; Abschnitt «Wettbewerbs-Fachsignatur» unten.
 
 ## Präzises Rechtsgrundlagen-Zitat auch ausserhalb Baurecht + Bau-Vokabular (belegt Mailbatch 15, authentisch)
 - **Gesetzesartikel präzise in eigener Verwaltungssache:** In der MWST-Abmeldung ans Bundesamt

@@ -3779,6 +3779,8 @@ an den naechsten Lauf: die als `claude-aera` verworfenen Apple-Mail-Mails jener 
 `contentType` nachpruefen, bevor weitere Fenster vorwaerts gezogen werden. Ein faelschlich
 verworfener Gold-Text ist teurer als ein fehlendes Fenster.*
 
+**#2 — BEANTWORTET am selben Tag (Fidelity-Review 20.08.), der Marker ist eingegrenzt statt aufgenommen: die Gegenprobe (Outlook-Mail vollstaendig eigener Hand, 08.07. 08:00) traegt die Eigenschaft NIRGENDS, die Hub-Mail desselben Fensters auf jedem Textabsatz — aber eine handgetippte Apple-Mail-Mail traegt sie im SIGNATUR-Container. Er zaehlt nur auf Textabsaetzen. Details in [[CLAUDE]].**
+
 **#2 (Echo-Schutz · Kandidat, nicht aufgenommen) — traegt `text-transform:none` als Klebe-Marker
 eingefuegter Bloecke?** In der 10:53-Mail vom 19.08. steht die Eigenschaft auf **jedem** Absatz
 des Hub-Blocks 01–04 und **auf keinem** der zwei handgetippten Schlussabsaetze. *Warum wir ihn
@@ -3805,3 +3807,47 @@ gewollter Gebrauch ist, sollte er den Beziehungssatz und den Anhangshinweis kuen
 mehr selbst formulieren, sondern die Stelle offen lassen. Wenn Du ihn dagegen nur deshalb
 ergaenzt hast, weil der Entwurf ihn vergessen hatte, ist es ein Fidelity-Mangel und gehoert
 behoben.*
+
+
+## 260820b (Fidelity-Review, Fenster 07.–13.07.2026) — fuenf Fragen
+
+**#1 (Stimme · Bestaetigung erbeten) — setzt Du bei «Darf ich Dich Bitten …» bewusst nie ein
+Fragezeichen?** Zweimal am selben Tag belegt: «Daher Bitte ich Dich uns der Typ dieser
+Rolladensteuerung anzugeben.» und «Darf ich Dich Bitten dies in das Angebot zu integrieren und
+eher die allgemeinen Arbeiten auf das absolut noetigste zu reduzieren.» — beide auf Punkt.
+*Warum das den Zwilling naeher an Dich bringt: er setzt reflexhaft ein Fragezeichen und macht
+damit aus Deiner hoeflich gerahmten Anweisung eine echte Frage, die der Empfaenger verneinen
+kann. Wenn der Punkt Absicht ist, ist es eine der billigsten und sichtbarsten Korrekturen
+ueberhaupt.*
+
+**#2 (Haltung · Bestaetigung erbeten) — ist «Sehe ich das Richtig: …?» Deine Standardform fuer
+einen Offert-Mangel?** In der Nachforderung an den Sanitaer legst Du die fehlenden Positionen
+nicht als Befund vor, sondern als moegliche eigene Fehlsicht. *Warum wir fragen: der Zwilling
+formuliert an dieser Stelle «Bei der Durchsicht sind mir folgende Punkte aufgefallen» und macht
+aus Deiner Frage ein Attest. Wenn die Frageform Absicht ist (Deutungshoheit beim Unternehmer,
+Spitze raus ohne Weichspuelen), gehoert sie als feste Form in die Offertpruefung — und dann auch
+in den Skill `offertenpruefung`, nicht nur in den Zwilling.*
+
+**#3 (Haltung · Abgrenzung erbeten) — wo verlaeuft die Linie zwischen «melde ich Dir» und «hole
+ich Dein Go ein»?** Am 07.07. meldest Du dem Bauherrenvertreter die gescheiterte Erstofferte und
+setzt den naechsten Schritt ohne jede Rueckfrage; am 01.07. bittest Du denselben Typ Gegenueber
+ausdruecklich um «Dein finales Go». Unsere Lesart: die Go-Frage haengt an der **Bindung** (eine
+Vereinbarung bindet, eine Abgebotsrunde praejudiziert nichts). *Warum das zaehlt: der Zwilling
+hat bisher entweder immer gefragt oder nie — mit der Bindungs-Linie koennte er es zum ersten Mal
+richtig entscheiden. Stimmt die Linie, oder entscheidet bei Dir eher die Hoehe des Betrags?*
+
+**#4 (Arbeitsweise · Bestaetigung erbeten) — begruendest Du eine Vergabe-Empfehlung an den
+Bauherrn absichtlich NICHT?** «Ich wuerde nun vorschlagen mit TeKoSi ohne Konkurenzofferte eine
+Abgebotsrunde durchzufuehren.» steht ohne ein Wort Begruendung, obwohl es der heikelste Satz der
+Mail ist (Verzicht auf Konkurrenz). *Warum wir fragen: der Zwilling schiebt automatisch ein
+Argument nach («TeKoSi kennt das System bereits») und erfindet es damit. Ist die Kuerze
+Vertrauen in eine muendlich laengst geteilte Lage — dann muss er schweigen — oder war es an dem
+Abend nur schnell?*
+
+**#5 (Stimme · leicht zu beantworten) — oeffnest und schliesst Du bewusst mit derselben
+Dankformel?** Die Mail an den Sanitaer beginnt mit «Danke fuer Dein Angebot.» und endet mit
+«Besten Dank fuer Dein Angebot.» *Warum das den Zwilling naeher an Dich bringt: er verschmilzt
+die beiden reflexhaft zu einem einzigen, aufgewerteten Dank, weil die Wiederholung wie ein
+Versehen aussieht. Wir lesen sie als Rahmen um die Nachforderung — dieselbe Familie wie die
+absichtlich redundante Fragenliste vom 30.06. Wenn das stimmt, hoert der Zwilling auf zu
+glaetten.*

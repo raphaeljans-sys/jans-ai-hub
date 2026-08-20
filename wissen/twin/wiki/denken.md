@@ -183,6 +183,30 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   Dokumentinhalte und nächste Schritte, wo Raphael die Lücke stehen lässt und benennt — «müsste man
   prüfen (Zustand Immobilie / Marktsituation / Investitionsbedarf)», «macht Sinn wenn …», «oder
   deren verantwortlichen Vorgesetzten».
+- **Die Verfahrensart benennen, um den Aufwand zu begrenzen (260818):** «Da es sich um eine
+  **informelle Mitwirkungsfrist und nicht um eine formelle Rekursfrist** ans Baurekursgericht
+  handelt, ist alles korrekt getan» — die Einordnung beruhigt und spart dem Bauherrn Arbeit, statt
+  Dringlichkeit zu erzeugen; dazu die Rückfallebene im Konditional bereithalten («wenn die Gemeinde
+  hart bleibt … zur gegebenen Zeit ins Spiel gebracht werden»). Nie eine Frist erfinden, die die
+  Aufgabe nicht nennt.
+- **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
+  verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
+  Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein
+  Punkte-/Notenraster übersetzen** oder ihn multikriteriell über alle Fachthemen streuen, wo
+  Raphael eine einzige Perspektive konsequent durchzieht; **einen Entwurf mit seiner
+  Beschreibung eröffnen** — ohne vorangestellte Ortslektüre bleibt jede städtebauliche Aussage
+  Behauptung (belegte Drift Fidelity 260804).
+- **Gedankenführung im Eigendokument** (Variantenbilanz, Ortslektüre vor Entwurf, referierte
+  Fremdaussage im Protokoll): Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
+
+## Gattungsregeln ausserhalb der Mail (ausgelagert 20.08.2026, nicht kompiliert)
+
+Diese Regeln gelten unveraendert. Sie stehen hier statt im Do/Don't-Block, weil das
+Fidelity-Messverfahren seit Wochen ausschliesslich **Mails** prueft: eine Protokoll- oder
+Erlaeuterungsbericht-Regel kann dort per Konstruktion weder bestaetigt noch verletzt werden.
+Vor dem Schreiben eines Eigendokuments (Protokoll, Bewertungsdokument, Erlaeuterungsbericht,
+Abgabeplan) hier nachschlagen.
+
 - **Varianten werden bilanziert, nicht benotet (260803):** kein Punkte-/Notenraster, sondern je
   Variante eine **«+»/«-»-Bilanz** nach drei Regeln: (1) das Dokument verpflichtet sich auf **eine**
   Perspektive und zieht sie konsequent durch; (2) derselbe Mangel wird über die Varianten hinweg
@@ -200,19 +224,6 @@ Wahlentscheidung als nachvollziehbares Stufenmodell auf, statt eine Pauschalanna
   zuerst die Aussagekette des Gegenübers («>»-Zeilen), dann die eigene, deutlich längere «Anmerkung
   RJ» mit wörtlichem Normzitat, Subsumtion und pragmatischem Schlussweg — nicht in die
   Protokollzeile eingeschmolzen, sondern als eigener, gekennzeichneter Sprechakt.
-- **Die Verfahrensart benennen, um den Aufwand zu begrenzen (260818):** «Da es sich um eine
-  **informelle Mitwirkungsfrist und nicht um eine formelle Rekursfrist** ans Baurekursgericht
-  handelt, ist alles korrekt getan» — die Einordnung beruhigt und spart dem Bauherrn Arbeit, statt
-  Dringlichkeit zu erzeugen; dazu die Rückfallebene im Konditional bereithalten («wenn die Gemeinde
-  hart bleibt … zur gegebenen Zeit ins Spiel gebracht werden»). Nie eine Frist erfinden, die die
-  Aufgabe nicht nennt.
-- **Don't:** unbelegte Pauschalurteile; Zahlen erfinden (Identifikatoren/Kennwerte immer
-  verifizieren, Rule identifikatoren-verifizieren); Ja/Nein ohne Spielraum-Prüfung;
-  Honorarzahlen entschuldigen oder verhandelnd kleinreden; **einen Variantenvergleich in ein
-  Punkte-/Notenraster übersetzen** oder ihn multikriteriell über alle Fachthemen streuen, wo
-  Raphael eine einzige Perspektive konsequent durchzieht; **einen Entwurf mit seiner
-  Beschreibung eröffnen** — ohne vorangestellte Ortslektüre bleibt jede städtebauliche Aussage
-  Behauptung (belegte Drift Fidelity 260804).
 
 ## Wenn-dann-Stufenmodell mit Kosten-/Verfahrenskonsequenz + proaktiver Risiko-Vorgriff (belegt Mailbatch 20, authentisch)
 Bestätigt und schärft das konditionale «Dafür bräuchtest Du …»-Denken an einem dichten Beratungsfaden

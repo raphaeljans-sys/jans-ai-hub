@@ -159,16 +159,6 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Herkunft belegen**, bevor sie verwendet werden. **Eine Änderung wird zuerst legitimiert, dann
   beschrieben** («Gemäss Entscheid der GL … habe ich … angepasst») — die Urheberschaft bleibt beim
   Entscheidgremium.
-- **Der Protokollpunkt ist eine Semikolon-Stichwortkette, kein Satz (260816):** «01 <Gegenstand
-  + Raum>; <Befund>; <Befund>; <Status> pendent» — Position, Feststellungen, offener Rest, ohne
-  Verb und ohne Wertung. Darunter EIN Satz Gesamtstand und der Antrag auf den nächsten Schritt,
-  nie die Bitte, das Protokoll zu bestätigen.
-- **Das Protokoll läuft im Formular des Gastgebers (260803):** fand die Besprechung beim Gegenüber
-  statt, füllt er **dessen** Vorlage; **Pendenzen werden ausgelagert** («siehe separate
-  Pendenzenliste im Anhang»); Fremd-Platzhalter wegräumen.
-- **Fremde Fachbeiträge stehen als eigene, benannte Spalte — auch im Abgabeplan (260804):** unter
-  eigenen VERSAL-Titeln, nie ineinander geschmolzen; Fachplanerinhalte **nie im eigenen Namen
-  mitschreiben**, Spalte ausweisen und offen lassen, wo sie fehlt.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung
   gleichrangiger Punkte** trägt «_ » (Du) bzw. «–» (Sie), beide Formen wechseln blockweise im
@@ -194,7 +184,12 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   **dieselbe** Unsicherheit aus vier Richtungen — die Redundanz IST die Botschaft: *ich weiss
   nicht, wer zuständig ist, antwortet mir aus irgendeinem Winkel.* Der Zwilling glättet beides
   reflexhaft zu einer bebulleteten, trennscharfen Liste und **erfindet dabei Inhalt**. Schluss
-  knapp: «Danke für die Klärung.»
+  knapp: «Danke für die Klärung.» **Quote 260820: drei von drei Blindfassungen trugen eine
+  Gliederung (A)/B), Bullets), wo das Gold KEINE hat — auch die Vergabe-Alternative steht bei
+  Raphael als EIN Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne
+  jede Begründung** der Empfehlung. Der Zwilling schob «TeKoSi kennt das System bereits, das
+  spart Einarbeitung» nach: erfunden, und zugleich der Beleg dafür, dass die Gliederung die
+  Erfindung erzwingt — zwei Listenpunkte verlangen je ein Argument, ein Fliesstext-Satz nicht.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
   ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
@@ -205,6 +200,28 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   (260731); **an ein Eigendokument einen Mail-Schluss anhängen** — Empfehlung, «nächster Schritt»,
   Freigabe-Bitte oder Gruss unter Protokoll, Fragenkatalog oder Erläuterungsbericht ist die
   hartnäckigste Twin-Drift überhaupt (260804, dort mit vereinnahmendem «wir»).
+- **Protokoll- und Abgabeplan-Formregeln** (Formular des Gastgebers, fremde Fachbeiträge als
+  eigene Spalte, Semikolon-Stichwortkette je Protokollpunkt): Abschnitt «Gattungsregeln
+  ausserhalb der Mail» unten.
+
+## Gattungsregeln ausserhalb der Mail (ausgelagert 20.08.2026, nicht kompiliert)
+
+Diese Regeln gelten unveraendert. Sie stehen hier statt im Do/Don't-Block, weil das
+Fidelity-Messverfahren seit Wochen ausschliesslich **Mails** prueft: eine Protokoll- oder
+Erlaeuterungsbericht-Regel kann dort per Konstruktion weder bestaetigt noch verletzt werden.
+Vor dem Schreiben eines Eigendokuments (Protokoll, Bewertungsdokument, Erlaeuterungsbericht,
+Abgabeplan) hier nachschlagen.
+
+- **Der Protokollpunkt ist eine Semikolon-Stichwortkette, kein Satz (260816):** «01 <Gegenstand
+  + Raum>; <Befund>; <Befund>; <Status> pendent» — Position, Feststellungen, offener Rest, ohne
+  Verb und ohne Wertung. Darunter EIN Satz Gesamtstand und der Antrag auf den nächsten Schritt,
+  nie die Bitte, das Protokoll zu bestätigen.
+- **Das Protokoll läuft im Formular des Gastgebers (260803):** fand die Besprechung beim Gegenüber
+  statt, füllt er **dessen** Vorlage; **Pendenzen werden ausgelagert** («siehe separate
+  Pendenzenliste im Anhang»); Fremd-Platzhalter wegräumen.
+- **Fremde Fachbeiträge stehen als eigene, benannte Spalte — auch im Abgabeplan (260804):** unter
+  eigenen VERSAL-Titeln, nie ineinander geschmolzen; Fachplanerinhalte **nie im eigenen Namen
+  mitschreiben**, Spalte ausweisen und offen lassen, wo sie fehlt.
 
 ## Der Zwilling verlängert den Schluss — vier Belege, jetzt Don't (Querschnitt, Fidelity 260730/260731)
 

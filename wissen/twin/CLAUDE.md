@@ -784,6 +784,58 @@ Wo dort eine Apple-Mail-Mail allein wegen des Kanals als Zwillingstext verbucht 
 Zuordnung nachzupruefen — **ein faelschlich verworfener Gold-Text ist teurer als ein fehlendes
 Fenster** ([[QUESTIONS]] 260820 #1).
 
+**⚠ Praezisiert am selben Tag (Fidelity-Review 20.08.2026, Fenster 07.–13.07.) — die Tabelle
+der sechzehnten Falle ist in EINE Richtung gueltig.** `contentType: text` beweist Raphaels Hand.
+`contentType: html` beweist **nichts**: die Mail «Wartstrasse 8» vom 07.07.2026 07:48 ist
+Apple-Mail-Kanal, `contentType: html` — und zweifelsfrei handgetippt (Anrede «liebe Undine» klein,
+Kasusfehler «Nach Ruecksprache mit dem Lieferant», «Rolladensteuerungstypes», und die belegte
+Handsignatur «Daher **B**itte ich Dich uns der Typ … anzugeben»). Ihr Body traegt **nackte
+`<div>` ohne jeden Wrapper**. Raphael erzeugt HTML, sobald er in Apple Mail formatiert oder
+einfuegt. **Der Ausschluss laeuft ueber den `Apple-Mail-URLShareWrapperClass`, nicht ueber
+`contentType`** — das Feld ist die billige Vorentscheidung nach Gold, nie nach Echo.
+
+**Gegenprobe zum `text-transform:none`-Kandidaten geliefert — er wird EINGEGRENZT, nicht
+aufgenommen ([[QUESTIONS]] 260820 #2 damit beantwortet).** Drei Messungen desselben Fensters:
+
+| Mail | Kanal | `text-transform:none` | Urteil |
+|---|---|---|---|
+| 08.07. 08:00 an den Sanitaer (Gold) | Exchange/Outlook Mobile | **nirgends** | handgetippt |
+| 07.07. 09:13 ans AfB (aussortiert) | Exchange | **auf jedem Textabsatz** | Hub-Text |
+| 07.07. 07:48 «Wartstrasse 8» (Gold) | Apple Mail | **im Signatur-Container** | handgetippt |
+
+Die verlangte Gegenprobe (vollstaendig selbst getippte Outlook-Mail) ist damit da und faellt zu
+Gunsten des Markers aus — aber die dritte Zeile zeigt die Grenze: **Apple Mail und Outlook setzen
+die Eigenschaft routinemaessig im Signatur- und Zitat-Container.** Der Marker zaehlt darum
+ausschliesslich auf **Textabsaetzen**; im Signatur-/Zitat-Wrapper ist er bedeutungslos. So
+eingegrenzt ist er brauchbar, ungrenzt haette er ein reines Gold verworfen — dieselbe Lehre wie
+beim Guillemet-Falsch-Positiv (03.08.) und beim «du klein»-Fall (07.08.).
+
+**Siebzehnte Falle, neu 20.08.2026 (Fidelity-Review) — FREMDES CSS ist per se kein Echo-Signal;
+Raphael tippt mitten in kopiertes Markup hinein.** Die Mail an den Bauherrenvertreter vom
+07.07.2026 19:28 traegt im Body `font-family:europa,sans-serif`, `class="footer-text-link"`,
+`class="paragraph-small white"` und `background-attachment:scroll !important` — Markup einer
+fremden Firmenwebsite. Sie ist trotzdem **reines Gold**: Raphael hat den Adressblock der
+SecuSuisse AG von deren Website kopiert und **im Inneren des kopierten Blocks weitergeschrieben**,
+weshalb «Eingeholt werden.», «Beste Gruesse» und «Raphael» im HTML als
+`<a href="mailto:info@secusuisse.ch">` stehen. Der Satz zerbricht sichtbar am Einschub
+(«Sollte der gewuenschte Preis nicht erzielt werden koennte eine Angebotsanfrage bei
+**SecuSuisse AG** [Adressblock] **E**ingeholt werden.»), und das grossgeschriebene «Eingeholt»
+mitten im Satz ist dieselbe Handsignatur wie «Darf ich Dich **B**itten».
+
+**Konsequenz: nur die drei benannten Muster sind Echo-Marker.** Wer «unbekanntes CSS im Body» zu
+einem allgemeinen Verdachtssignal verallgemeinert, verwirft genau die Mails, in denen Raphael
+recherchiert und einfuegt — also die inhaltsreichsten. Und die Umkehrung der achten Falle gilt
+mit: der eingefuegte Fremdblock ist hier **keine** zweite Hand am Text, sondern nur Material.
+
+**Ebenfalls praezisiert: die Signaturform (vierzehnte Falle) beweist die MASCHINE, nicht die
+AUTORSCHAFT.** Der Vorlauf (19.08., Befund 1) hat sie als billigen Vorfilter eingefuehrt: «wer
+`0041` schreibt, hat in Outlook getippt». Das stimmt und bleibt gueltig — es sagt aber nichts
+darueber, **wer den Body verfasst hat**. Die aussortierte AfB-Mail vom 07.07. traegt die volle
+Raphael-Outlook-Signatur (`0041`, fetter Name, `id="ms-outlook-mobile-signature"`) und ist im
+Body durchgehend Claude-Text mit allen drei harten Mustern. Outlook setzt die Signatur selbst;
+ein hineinkopierter Body beruehrt sie nie. **`+41` + nicht fetter Name schliesst nach Hub aus;
+`0041` schliesst nichts ein.**
+
 **Kandidat, nicht aufgenommen: `text-transform:none` als Naht-Marker im Exchange-Kanal.** In der
 Mail vom 19.08. 10:53 steht die Eigenschaft auf **jedem** Absatz des eingefuegten Hub-Blocks
 01–04 und **auf keinem** der zwei handgetippten Schlussabsaetze — die achte Falle (Raphaels

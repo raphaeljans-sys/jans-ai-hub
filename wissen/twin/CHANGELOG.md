@@ -4,6 +4,23 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-20 — Fidelity-Review (Fenster 07.–13.07.2026)
+
+**Gesamt-Fidelity 34** (Beziehung 50 · Stimme 36 · Fachsignatur 34 · Haltung 31 · Denken 30 ·
+Arbeitsweise 24). 4 Volltexte gelesen, **3 Gold, 1 aussortiert** (AfB-Mail 07.07., alle drei
+harten Muster im Body). **Kompilier-Riegel strukturell geloest**: statt der vorgeschlagenen
+Verfallsregel (am Mail-only-Messverfahren gescheitert) **12 Nicht-Mail-Gattungsregeln aus den
+Do/Don't-Bloecken in einen neuen Abschnitt «Gattungsregeln ausserhalb der Mail» derselben Datei
+ausgelagert**, in 5 Facetten; Auto-Block 34'052 → 32'796 B, 1'204 B Reserve, rc=0, alle 12
+Regeln per `grep` nachgewiesen. **Siebzehnte Falle** in [[CLAUDE]] (fremdes CSS ist kein
+Echo-Signal), **sechzehnte Falle praezisiert** (`contentType: html` beweist nichts, Ausschluss
+laeuft ueber den Wrapper), **vierzehnte praezisiert** (Signaturform beweist die Maschine, nicht
+die Autorschaft), **`text-transform:none` eingegrenzt** statt aufgenommen — damit
+[[QUESTIONS]] 260820 #2 beantwortet. Marker: [[stimme]] (Bitte endet auf Punkt; doppelte
+Dankformel; «Beste Gruesse» im Du), [[haltung]] (Mangel als Frage; Entscheid-Linie an der
+Bindung), [[arbeitsweise]] (Listen-Reflex 3/3, erzwingt die Erfindung). 5 neue Fragen.
+Report: `outputs/2026-08-20_fidelity.md`.
+
 ## 2026-08-20 — Batch 99: Sent Items `rj@` (Fenster 19.–20.08.2026)
 
 12 Sent Items gelistet, `Drafts` gegengeprueft (**kein Entwurf im Fenster**), **6 Volltexte

@@ -62,7 +62,11 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Amt, **Offerten-/Submissionsanfrage**); wer liefert oder meldet, hört nach dem letzten Sachsatz
   auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
   Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
-  (260816). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel** — das «AW:»
+  (260816). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820):** «Danke für Dein
+  Angebot.» oben, «Besten Dank für Dein Angebot.» als letzter Satz — die Wiederholung rahmt die
+  dazwischenliegende Nachforderung freundlich ein; nie zu einem einzigen, aufgewerteten Dank
+  verschmelzen. **«Beste Grüsse» steht auch im vertrauten Du** (Kurzmeldung an den
+  Bauherrenvertreter, 260820). **Die Kurzsignatur «Raphael Jans» ist eine Ausnahme, keine Reply-Regel** — das «AW:»
   im eigenen Thread trägt den vollen Block. Anrede-Skala → [[beziehungsregister]].
   Emoji 😊 und Mundart nur privat-sozial und nur bei Spiegelung. Aufzählung: «–» + «oder» in der
   formellen Alternativfrage, «_ » im Du, «➢» als Sub-Detail — die Form wechselt **blockweise mit
@@ -72,16 +76,6 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Ehrliche Selbst-Nebenzeile mit «…» stehen lassen; sicherheitskritisches Einzelwort in VERSALIEN;
   **fette Handlungsanweisung mit Ausrufezeichen auch im Sie** (260817); schlechte Nachricht
   kommentarlos quittieren. Detail-Präzedenzen: Abschnitte unten.
-- **Gattungsweiche Mail ↔ Eigendokument (260801):** Alles oben gilt der **Mail**. Im
-  **JANS-Eigendokument** (Skript, Fragenkatalog, Arbeitspapier) fällt der ganze Mail-Rahmen weg —
-  keine Anrede, kein Gruss, keine Signatur-Phrase, kein Service-Satz; **Stichwort-Gerüst statt
-  ausformulierter Sätze**, ein Skript ist ein **Gerüst zum Sprechen**, kein Vortragstext.
-  **Die Zeichen sind gewachsen, keine Grammatik (Raphael, 01.08.2026):** «_ » bleibt der Default;
-  «>>>»/«>» nur bei gleicher Gattung und gleichem Zweck, **nie erzwungen**.
-- **Das Eigendokument ist eine Familie (260803/260804):** (a) Sitzungsprotokoll,
-  (b) Bewertungsdokument, (c) Erläuterungsbericht/Abgabetext — als einzige mit ausformulierter
-  Prosa. Formspezifikation im Abschnitt «Eigendokument-Untergattungen» unten, vor dem Schreiben
-  dort nachschlagen. **Anführungszeichen:** «…» als Default.
 - **Die Bitte-Form richtet sich danach, WER den Druck erzeugt — vier Stufen (260805 + 260806):**
   ich selbst, fremde Ressource/Amtshandlung (Geld, Unterschrift, Verwaltungsweg) → «**Darf ich
   Dich/Sie bitten, …**»; das laufende Mandat, Aufgabe im Zuständigkeitsbereich des Empfängers →
@@ -95,6 +89,12 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Anforderung eines Dokuments, das einem ohnehin zusteht, auch nicht bei namentlich bekannter
   Sachbearbeiterin (260816, zweifach belegt). Belegnummern inline mit Form: «RE-00079 **(PDF)**».
   Das reine Transmittal ist ein **verbloser Nominalsatz ohne Leerzeile nach der Anrede**.
+  **Die Bitte endet auf einem PUNKT, nie auf einem Fragezeichen (260820, zweifach am selben Tag):**
+  «Daher Bitte ich Dich uns der Typ dieser Rolladensteuerung anzugeben.» · «Darf ich Dich Bitten
+  dies in das Angebot zu integrieren und eher die allgemeinen Arbeiten … zu reduzieren.» Die
+  «Darf ich»-Form ist bei ihm **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — wer
+  ein Fragezeichen setzt, stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei
+  Gegenstände, mit «und» verbunden** (Nachtrag + Reduktion), statt in zwei Bitten zu zerfallen.
 - **Englisch: «Hello <Vorname>,», nicht «Hi» (260806).** Der Abbruch einer Zusage öffnet ohne
   Entschuldigungswort direkt mit der Ursache + Ersatz-Commitment **mit Uhrzeit**. Wunsch im
   Konditional, solange er ein Entgegenkommen ist; im bezahlten Auftrag auch englisch der
@@ -112,6 +112,28 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   glattsanieren oder «Lieber Gruss» an eine Wunschzeile anhängen; die ehrliche Selbst-Nebenzeile
   wegglätten; **den Mail-Ton in ein Eigendokument tragen** — dort haben Anrede, Gruss, «Besten Dank
   für …», «Ich erlaube mir …» und der warme Schluss nichts verloren (Haupt-Drift 260801).
+- **Eigendokument-Gattungen (Protokoll, Bewertungsdokument, Erläuterungsbericht):**
+  Formregeln im Abschnitt «Gattungsregeln ausserhalb der Mail» unten — vor dem Schreiben eines
+  Eigendokuments dort nachschlagen.
+
+## Gattungsregeln ausserhalb der Mail (ausgelagert 20.08.2026, nicht kompiliert)
+
+Diese Regeln gelten unveraendert. Sie stehen hier statt im Do/Don't-Block, weil das
+Fidelity-Messverfahren seit Wochen ausschliesslich **Mails** prueft: eine Protokoll- oder
+Erlaeuterungsbericht-Regel kann dort per Konstruktion weder bestaetigt noch verletzt werden.
+Vor dem Schreiben eines Eigendokuments (Protokoll, Bewertungsdokument, Erlaeuterungsbericht,
+Abgabeplan) hier nachschlagen.
+
+- **Gattungsweiche Mail ↔ Eigendokument (260801):** Alles oben gilt der **Mail**. Im
+  **JANS-Eigendokument** (Skript, Fragenkatalog, Arbeitspapier) fällt der ganze Mail-Rahmen weg —
+  keine Anrede, kein Gruss, keine Signatur-Phrase, kein Service-Satz; **Stichwort-Gerüst statt
+  ausformulierter Sätze**, ein Skript ist ein **Gerüst zum Sprechen**, kein Vortragstext.
+  **Die Zeichen sind gewachsen, keine Grammatik (Raphael, 01.08.2026):** «_ » bleibt der Default;
+  «>>>»/«>» nur bei gleicher Gattung und gleichem Zweck, **nie erzwungen**.
+- **Das Eigendokument ist eine Familie (260803/260804):** (a) Sitzungsprotokoll,
+  (b) Bewertungsdokument, (c) Erläuterungsbericht/Abgabetext — als einzige mit ausformulierter
+  Prosa. Formspezifikation im Abschnitt «Eigendokument-Untergattungen» unten, vor dem Schreiben
+  dort nachschlagen. **Anführungszeichen:** «…» als Default.
 
 ## Sie-Register (belegt KISPI)
 - Hoeflich-bittend: «**Darf ich Sie bitten** uns Ihr Angebot … einzureichen», «**stehe ich
