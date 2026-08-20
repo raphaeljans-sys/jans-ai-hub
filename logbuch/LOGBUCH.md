@@ -5,6 +5,35 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Verzugscheck 20.08.2026 (08:06) — still ins Logbuch, kein Versand
+
+Der Regellauf der Scheduled Task `mahnwesen-verzugscheck` konnte zum **neunten Mal in Folge**
+keinen Verzugsstand messen. `node connectors/bexio.mjs --verzug --json`, die Gegenprobe am
+Aussteller (`auth.bexio.com/.../userinfo`) und die Direktprobe an `api.bexio.com/2.0/company_profile`
+liefern je **HTTP 401**; `~/.bexio.env` ist weiterhin auf dem Stand vom 13.06.2026 11:05. Blind
+ist der Zugang seit dem 09.08., letzter verifizierter Zahlstatus 08.08. 08:36, das sind zwölf
+Kalendertage. Es wurde nichts gemahnt und nichts versendet.
+
+**Operativ neu, für das Tagesbriefing:** die gestern angekündigte Verschärfung ist eingetreten.
+**RE-00100 (Swiss Central City Real Estate Fund, CHF 13'120.00) erreicht heute das Ende der
+Zahlungserinnerungsfrist** und verfällt ohne neuen Token unverifiziert. Eine Eskalation ist dort
+ohnehin gesperrt, solange die Fälligkeit in bexio (30.07.) nicht auf den belegten Zustelltermin
+03.08. nachgezogen ist — der Punkt steht seit dem 31.07. offen und ist mit dem heutigen
+Fristablauf terminwirksam geworden.
+
+Unverändert daneben: RE-00098/99 (KISPI, zusammen CHF 17'280.00) neun Tage über der Mahnfrist,
+unverifiziert; RE-00101 (Tschopp, CHF 6'000) am vierten Werktag nach Fristablauf, Mahnschritt
+gesperrt, weil die Bankbewegung Tx 3630 über exakt CHF 6'000 seit dem 13.08. ungeprüft ist;
+RE-00087 (KISPI, CHF 15'000) unverändert in der Duplikatsklärung mit C. Schäfer.
+
+**Aktion Raphael, unverändert seit 13.08.:** neuen bexio-Token ausstellen, in `~/.bexio.env` als
+`BEXIO_API_TOKEN` eintragen, danach Kontrolllauf
+`node /Volumes/daten/jans-ai-hub/scripts/bexio-vorfilter.mjs --voll --trocken`. Zweite, davon
+unabhängige Aktion: Fälligkeit von RE-00100 in bexio auf den 03.08.2026 nachziehen.
+
+Bericht: `30 JANS AI HUB OUTPUT/mahnwesen/2026/260820_Verzugscheck.md`. Nachtrag im Register
+`logbuch/fristen.md` an der bestehenden Zeile «bexio-Zugang tot» ergänzt.
+
 ## Radar-Briefing 20.08.2026 (06:55) — still ins Logbuch, kein Versand
 
 Der Hub-Chef-Lauf vom 19.08. hat stattgefunden und um 08:55 gesendet, und es liegt kein Punkt vor,
