@@ -930,7 +930,7 @@ vermerkt, kein Blocker für die tägliche Arbeit.**
 | 594'295 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Infobrochuren/MFH.pdf` | **bereits destilliert** als `heizungsersatz-groessere-mfh-stweg` (Run 125) — Basenamen-Abgleich zu kurz («MFH»), Mess-Artefakt, nicht real offen |
 | 434'310 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf` | laut Run 129 bereits geprüft, kein Bauherren-Fakt — `[-]`-Kandidat |
 | 173'047 | `/04_Merkblätter/eco/4.26Asbest.pdf` | Schadstoffthema, evtl. `[-]` wie `4.16Gebaudescreening.pdf` |
-| 170'762 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.27.I Bodenbelaege(KBOB2000_1).pdf` | ungeprüft |
+| 170'762 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.27.I Bodenbelaege(KBOB2000_1).pdf` | **[x] destilliert 2026-08-20 (Run 146, Mac Mini Nachtschicht 13:30-Slot)** → `bodenbelaege-buerobau-kbob-vergleich-50-jahre` (KBOB/IPB 2000/1, 5 S. vollst.; via M365-CLI beschafft) |
 | 154'383 | `/04_Merkblätter/eco/6.26Literatur_1-2005.pdf` | vermutlich Literaturverzeichnis, `[-]`-Kandidat |
 | 133'739 | `/06_Richtlinien/Minergie/SIA380_1_Energie_im_Hochbau/25.04.10 Kursausschreibung SIA380-1.pdf` | Kursausschreibung, `[-]`-Kandidat |
 | 82'157 | `/06_Richtlinien/Minergie/Energiegesetz/730.1_19.6.83_72.pdf` | weiterer alter EnerG-Snapshot (Nachtrag 72) — wie `730.1_19.6.83_85.pdf` behandeln (Verlinken statt doppeln) |
@@ -938,10 +938,10 @@ vermerkt, kein Blocker für die tägliche Arbeit.**
 | 77'259 | `.../14.3-Richtlinien/Richtlinie_Anlagedokumentation H L S.pdf` | **[x] destilliert 19.08.2026 (Run 143)** → `ahb-zuerich-richtlinie-anlagedokumentation` (gemeinsam mit der Elektro-Schwesterdatei); Version 1.0, Dokumentdatum 19.07.2006 |
 | 72'880 | `.../14.3-Richtlinien/Uebersichtstabelle_Beleuchtung_EN12464-1.pdf` | **[x] destilliert 19.08.2026 (Run 143)** → `ahb-zuerich-uebersichtstabelle-beleuchtung-en12464`, status **speculative** (Wertetabelle E_m/UGR ohne Normfassung, Fassungsführung bei KB `normen`); die vermutete Ergänzung zu `ahb-zuerich-gt-rl8-beleuchtung` hat sich bestätigt |
 | 69'755 | `/04_Merkblätter/eco/7.17Fachstellen.pdf` | vermutlich Verzeichnis, `[-]`-Kandidat |
-| 57'018 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/1.13.C Zielvereinbarungen-SIA112_1.pdf` | **belegte Nicht-Dublette** zu `1.13.C Zielvereinbarungen SIA112_1.pdf` (Run 123, andere Grösse) |
+| 57'018 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/1.13.C Zielvereinbarungen-SIA112_1.pdf` | **[-] geprüft 2026-08-20 (Run 146):** inhaltlich deckungsgleich mit dem destillierten `[[eco-bau-zielvereinbarungen-sia112-1]]` (gleicher Titel, gleiche Gliederung, Copyright 2004), nur mit vier Nummerierungs-Tippfehlern (1.4.5 doppelt, 2.1.2 doppelt, «2.2.21», «3.3.3-3.3.5» statt «3.4.1-3.4.3») als unkorrigierte Layout-Variante. Kein eigenständiges Destillat (Rule «Verlinken statt doppeln»), Fund dokumentiert im bestehenden Destillat |
 | 49'339 | `/04_Merkblätter/eco/6.16Eidg.Gesetze_Verordnungen_1-2005.pdf` | vermutlich Verzeichnis/Gesetzesliste, `[-]`-Kandidat |
 | 32'982 | `.../Weg_zum_Minergiezertifikat/_Archiv/230525_Minergiezertifikat_rj.pdf` | **bereits [-] geprüft** (Run 135, Vorstufe zu `weg-zum-minergiezertifikat-ablauf`) — Mess-Artefakt (`_INGESTED.md` nicht nachgeführt) |
-| 32'274 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.39.I Recyclingprodukte.pdf` | ungeprüft |
+| 32'274 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.39.I Recyclingprodukte.pdf` | **[x] destilliert 2026-08-20 (Run 146, Mac Mini Nachtschicht 13:30-Slot)** → `eco-bau-recyclingprodukte-anbieter-informationsstellen` (Stadt Zürich AHB, Informationsblatt 5.6, 6 S. vollst.; via M365-CLI beschafft) |
 | 27'875 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/3.15.C Checkliste Baustellenkontrolle.pdf` | vermutlich Dublette zu `eco-bau-devis-und-baustellenkontrolle` (Run 123), nicht per Hash bestätigt |
 | 21'516 | `.../Weg_zum_Minergiezertifikat/_Archiv/230107_Lieferschein_Vorlage_rj.pdf` | **bereits [-] geprüft** (Run 135, JANS-Lieferschein fremdes Projekt) — Mess-Artefakt |
 | 19'378 | `/04_Merkblätter/eco/0Inhaltsverzeichnis.pdf` | **bereits [-] geprüft** (Run 126, reines Inhaltsverzeichnis) — Mess-Artefakt |
@@ -954,6 +954,15 @@ und `5.26PflanzenamBau.pdf`.
 **Nächste Priorität:** 1. WDV 8.6.2022 (LS 700.211) beschaffen — E-R138-1, höchster Bauherren-Wert.
 2. Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80). 3. Die rund 19 echten Restwerke oben,
 mit `Richtlinie_Anlagedokumentation E/H L S` und `Uebersichtstabelle_Beleuchtung_EN12464-1` zuerst.
+
+### Nachtrag 20.08.2026 (Run 146) — drei kleine Restwerke abgeschlossen
+
+Zwei der 24 Restwerke destilliert (`3.27.I Bodenbelaege(KBOB2000_1).pdf` →
+`[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]`, `3.39.I Recyclingprodukte.pdf` →
+`[[eco-bau-recyclingprodukte-anbieter-informationsstellen]]`), ein drittes geprüft und als
+inhaltlicher Nicht-Zugewinn dokumentiert (`1.13.C Zielvereinbarungen-SIA112_1.pdf`, siehe Fussnote
+in `[[eco-bau-zielvereinbarungen-sia112-1]]`). Nächste Priorität unverändert die grösseren
+Restwerke unten (`Allgemeines_Uebersicht.pdf`, Kursflyer-/Verzeichnis-Kandidaten).
 
 ### Nachtrag 19.08.2026 (Run 143) — Fortschrittsstand zum Nenner 131
 

@@ -5,7 +5,7 @@ ausgabe: "Kein eigenständiges Ausgabedatum der Checkliste im Dokument gedruckt.
 gelesen: "Seite 1 (vollständig), 2026-08-04"
 datenstand: "2008 (Fussstempel) bzw. 2004 (Copyright-Vermerk Checklisten-Inhalt) ⚠ Alterskorpus PL-02 — bezieht sich auf SIA 112/1 in der damaligen Fassung"
 status: emerging
-last_updated: "2026-08-04 (Run 123)"
+last_updated: "2026-08-20 (Run 146, Dritte Dateivariante geprüft)"
 ---
 
 # Destillat — Zielvereinbarungen SIA-Empfehlung 112/1 Nachhaltiges Bauen – Hochbau, Checkliste 1.13 (Stadt Zürich AfB)
@@ -105,6 +105,24 @@ Eine einseitige Checkliste des Amts für Hochbauten Stadt Zürich, die das Ziels
 - ~~Eintrag in `wissen/normen/wiki/QUESTIONS.md`: aktuelle Fassung von SIA 112/1 «Nachhaltiges Bauen – Hochbau» beschaffen und mit diesem Alt-Kriterienkatalog abgleichen.~~
   **Gegenstandslos seit 13.08.2026** — normen Run 48 (08.08.2026) hat die Fassung beschafft und
   destilliert, bevor die Bring-Schuld eingetragen wurde. Kein Nachtrag mehr nötig.
+
+## Dritte Dateivariante geprüft, nicht separat destilliert (Run 146, 20.08.2026)
+
+`.../02 Checklisten/1.13.C Zielvereinbarungen-SIA112_1.pdf` (57'018 Bytes, mit Bindestrich vor
+SIA112_1) war seit Run 123 als **belegte Nicht-Dublette** zu diesem Destillat geführt (andere
+Bytegrösse als die hier destillierte Quelle), aber selbst noch nicht gelesen. Gelesen und
+verglichen: **inhaltlich dieselbe Checkliste** — identischer Titel, identische Bereichs-/
+Themengliederung (1 Gesellschaft/2 Wirtschaft/3 Umwelt, 12 Themenfelder), identischer
+Copyright-Vermerk «© 2004 by SIA Zürich», identische Zielvereinbarungstexte je Kriterium.
+
+**Einziger Unterschied, für sich genommen informativ:** Diese Dateivariante trägt vier
+Nummerierungsfehler, die in der hier destillierten Fassung korrekt sind — 1.4.5 doppelt vergeben
+(«Sommerlicher Wärmeschutz» UND «Lärm, Erschütterungen», sollte 1.4.5/1.4.6 sein), 2.1.2 doppelt
+vergeben (sollte 2.1.2/2.1.3 sein), «2.2.21 Finanzierung» (sollte 2.2.2 heissen) und die Zeilen
+unter «3.4 Infrastruktur» fälschlich mit «3.3.3»–«3.3.5» statt «3.4.1»–«3.4.3» nummeriert. Das
+deutet auf eine unkorrigierte frühere Layout-Fassung derselben Checkliste hin, nicht auf einen
+inhaltlichen Unterschied. Kein eigenständiges Destillat angelegt (Schreibregel «Verlinken statt
+doppeln»); in `training/pdf-inventar.md` als `[-]` mit Verweis hierher geführt.
 
 ## Aktualitaetspruefung Run 123 (04.08.2026) — verifiziert im Hauptmodell
 

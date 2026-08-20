@@ -1,7 +1,7 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-16 (Run 137: Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; zuvor 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
+last_updated: "2026-08-20 (Run 146: zwei neue Quellen zu Materiallebenszyklus verlinkt — Bodenbeläge-Vergleich, Recyclingprodukte-Rangordnung; zuvor 2026-08-16 Run 137 Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
 sources:
   - "[[ecobkp-editionskette-2006-2009]] — Editions-Abgleich der drei Altausgaben 09/2006, 2008 und 2009 desselben Werks (Run 137)"
   - "[[ecobkp-2009-merkblaetter-nach-bkp]] — Verein eco-bau c/o KBOB, «ECO-BKP 2009», Ausgabe 2009, 51 S. vollständig gelesen"
@@ -14,6 +14,8 @@ sources:
   - "[[kbob-oekobilanzdaten-baubereich-2007]] — KBOB/eco-bau/IPB, Empfehlung 2007/1 «Ökobilanzdaten im Baubereich», Datenstand Dezember 2006"
   - "[[ahb-zuerich-massstaebe-nachhaltiges-bauen]] — Stadt Zürich AHB, «Massstäbe für Umwelt- und energiegerechtes Bauen», Mai 2006"
   - "[[haushaltgeraete-effizienz-beschaffung-topten]] — «Professionelle Beschaffung: Haushaltgeräte», Januar 2008"
+  - "[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]] — KBOB/IPB, Empfehlung 2000/1 «Bodenbeläge im Bürobau — Vergleich über 50 Jahre», vollständig gelesen 20.08.2026"
+  - "[[eco-bau-recyclingprodukte-anbieter-informationsstellen]] — Stadt Zürich AHB, Informationsblatt 5.6 «Recyclingprodukte», 1999-2001, vollständig gelesen 20.08.2026"
   - "Aktualitätsprüfung ecoBKP 2026 / SIA-Normstände: siehe outputs/2026-08-04_energie-run123.md"
 links:
   - "[[gebaeudetechnik-pflichtenheft]]"
@@ -166,7 +168,12 @@ alterungsbeständige Gehalt des Instruments:
    formaldehydarmen Holzwerkstoffen.
 3. **Trennbarkeit und Entsorgung:** Lässt sich das Bauteil sortenrein zurückbauen, und was
    kostet die Entsorgung? Hier setzt die Weiterentwicklung zur **Rückbaubarkeit** an, die in
-   ecoBKP 2026 neu aufgenommen wurde.
+   ecoBKP 2026 neu aufgenommen wurde. Die zeitlose Rangordnung dahinter — Wiederverwendung vor
+   stofflicher Verwertung vor Entsorgung, Planung nach SIA 430, Ausschreibung via eco-devis/NPK 117
+   — steht in `[[eco-bau-recyclingprodukte-anbieter-informationsstellen]]` (Stadt Zürich AHB, 1999).
+   Für den Ausbau ergänzt `[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]` (KBOB/IPB 2000/1) die
+   Erkenntnis, dass beim Bodenbelag die **Betriebs-/Reinigungskosten** (60-80 % der Jahreskosten),
+   nicht nur die Herstellungsenergie, über die 50-Jahres-Bilanz entscheiden.
 4. **Altlastenrisiko im Bestand:** Welche Schadstoffe sind je Baujahr zu erwarten? (siehe
    `[[gebaeudeschadstoffe]]`)
 

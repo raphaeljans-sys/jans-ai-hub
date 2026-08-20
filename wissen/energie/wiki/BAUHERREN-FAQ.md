@@ -8358,3 +8358,39 @@ zu belegen, und dürfen nicht als geltende Anforderung verwendet werden.
 ⚠ **Datenstand:** Die Zahlenwerte stammen aus EN-4, Ausgabe Januar 2009, abgedruckt im AWEL-Vollzugsordner Stand Juni 2013 — also aus dem Alterskorpus. Die Grössenordnung deckt sich mit den in dieser KB unabhängig geführten SIA-382/1-Werten ([[komfortlueftung-wrg-sia382-luftwechsel]]), die konkrete Ziffer ist aber vor einer Nachweisverwendung gegen die geltende SIA-382/1-Fassung und das EVEN-Formular zu prüfen. Der Papierweg über die EN-Formulare selbst ist im Kt. Zürich seit 1.1.2026 durch EVEN abgelöst ([[energienachweis-zh]]).
 
 **Quelle:** AWEL Vollzugsordner Energie Kt. ZH, Abschnitt 5 mit den eingehefteten EnFK-Vollzugshilfen EN-4 (Januar 2009), EN-5 (Januar 2010) und EN-13 (September 2012), PDF-Seiten 109-138 vollständig gelesen (Run 143, 19.08.2026) → `[[vollzugsordner-energie-zh-abschnitt5]]`, status emerging. Die zitierten WRG-Grenzwerte, die 1'000-m³/h-/500-h/a-Schwelle und die Geschwindigkeitsstaffel wurden im selben Lauf am Quell-PDF nachgeprüft. Themenartikel [[komfortlueftung]] geschärft.
+
+## F247 — «Welcher Bodenbelag rechnet sich im Bürobau über die Lebensdauer, nicht nur beim Einkauf?»
+
+**Kurz:** Nicht der Anschaffungspreis pro m² entscheidet, sondern die Reinigungskosten — sie machen
+über die Nutzungsdauer eines Bürobaus **60 bis 80 % der Jahreskosten** eines Bodenbelags aus, obwohl
+es sich dabei zu über 90 % um Personalkosten handelt. Elastische Beläge (insbesondere Linoleum)
+schneiden in Büros bei Investition und Jahreskosten meist am günstigsten ab; Steinbeläge lohnen sich
+über sehr lange Nutzungsdauer besonders auf Verkehrsflächen; Teppich ist wegen kürzerer
+Nutzungsdauer wirtschaftlich und ökologisch meist im Nachteil, ausser wenn Schallschutzgründe ihn
+verlangen.
+
+**Fachlich:** Die KBOB/IPB-Empfehlung 2000/1 «Bodenbeläge im Bürobau — Vergleich über 50 Jahre»
+vergleicht vier Belagsgruppen (elastisch: Linoleum/Polyolefine/Kautschuk/PVC; Holz: Hartholz
+versiegelt/geölt; Teppich: Rips/Velours/Nadelfilz; Stein: Granit/Kalk/Kunststein/Hartkeramik) über
+die AFB-Nutzungszeit von Bürobauten (50 Jahre) je 1 m² Regelquerschnitt nach vier Kriterien:
+Baukosten (Erstbelag + Ersatz), Jahreskosten (Bau- und Betriebsanteil getrennt für Büro- und
+Verkehrsflächen), Graue Energie (MJ/m²a für Bau und Betrieb) und einer vierstufigen qualitativen
+Ökobilanz (Herstellung/Verarbeitung/Nutzung/Entsorgung) gestützt auf SIA-493-Deklaration und die
+Umweltbelastungsklasse (UBK) der Reinigungsprodukte. Bauliche Voraussetzungen für eine günstige
+Unterhaltsreinigung (Schmutzschleusen, gut platzierte Reinigungsräume) beeinflussen die Kostenseite
+mit.
+
+**Bauherren-Transfer:** Die Denkfigur bleibt richtig, auch wenn die Quelle 26 Jahre alt ist: bei der
+Bodenbelagswahl für Büro-/Verkehrsflächen lohnt sich die Rückfrage an den Reinigungsdienst oder
+Facility Manager, wie aufwendig ein Belag über die Nutzungsdauer wirklich zu unterhalten ist — nicht
+nur der m²-Preis in der Devisposition. Für eine belastbare Ausschreibung sind präzise Deklarationen
+nach (der heute geltenden Nachfolgeregelung von) SIA 493 für Belag, Kleber und Spachtel zu verlangen.
+⚠ Alle Franken- und MJ-Absolutwerte der Quelle sind Preisstand 2000 und **nicht mehr zitierfähig** —
+für aktuelle Kostenkennwerte ist der Skill `kostenschaetzung` bzw. eine aktuelle
+Herstellerkalkulation heranzuziehen.
+
+**Quelle:** KBOB/IPB, «Bodenbeläge im Bürobau — Vergleich über 50 Jahre», Empfehlung Nachhaltiges
+Bauen 2000/1, 1. Auflage April 2000, vollständig gelesen (Run 146, 20.08.2026) →
+`[[bodenbelaege-buerobau-kbob-vergleich-50-jahre]]`, status speculative (Alterskorpus, Methodik
+übertragbar, Zahlen nicht). Verwandtes Thema Materialbeschaffung/Ausschreibung:
+`[[oekologische-materialvorgaben-beschaffung]]`.
