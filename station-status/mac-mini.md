@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 20.08.2026 01:39:55
+Stand: 20.08.2026 01:50:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 01:39:55
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 49b4d4de nas-selfcommit: 4 Datei(en) 2026-08-20 01:30
+- 637b49f3 normen-run58: VKF-Fassungs-Sweep — N27-1 geschlossen, 23 Destillate ueberholt (superseded), Teilrevision 01.04.2026 destilliert, BRL 103-15 zurueckgezogen, Skill brandschutz korrigiert
