@@ -14,6 +14,22 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260820 — Abklärungen kurz halten: drei Sätze plus Erklärskizze statt Fliesstext-Dossier
+- **Regel:** Das Ergebnis einer **Abklärung** (Montagehöhe, Mass, Apparatewahl, Zuordnung,
+  einzelne Fachfrage) wird **kurz** ausgegeben: rund **drei Sätze** mit Empfehlung, Herleitung
+  und Vorbehalt, dazu **eine bemasste Erklärskizze**, welche die Zahlen trägt. **Die Skizze
+  ersetzt den Text, sie ergänzt ihn nicht.** Keine Kapitelgliederung, keine
+  Ausgangslage-Abschnitte, keine Quellenkapitel; Belege gehören als Fussnotenzeile unter die
+  Skizze oder in die interne Notiz. Vorgabe Raphael 20.08.2026 zum Erzeugnis
+  «Montagehöhe Wandmischbatterie 2619 KISPI», das als zweiseitiges Dossier zu lang geriet:
+  die Abklärung selbst war richtig, die Ausführung zu lang.
+- **Abgrenzung:** Studien, Berichte, Gutachten, Offerten und Protokolle bleiben ausführlich.
+  Kurz ist die **Abklärung**, also die Antwort auf eine einzelne Frage. Die ausführliche
+  Herleitung darf weiterhin entstehen, aber als **interne Notiz beim Apparat**, nicht als
+  ausgehendes Erzeugnis.
+- **Gilt für:** alle Abklärungen und Fachauskünfte mit Dokument-Output, alle Projekte,
+  alle Stationen. Ergänzt `dokument-layout-standard.md` (Form) um die Länge.
+
 ## 260814b — Modellwahl interaktiv: Opus 5 als Standard, Fable 5 nur punktuell auf Zuruf
 - **Regel:** Interaktive Sessions laufen standardmaessig auf **Opus 5** (Entscheid Raphael
   14.08.2026). **Fable 5** wird nur punktuell eingesetzt, wenn die Aufgabe den hoeheren
