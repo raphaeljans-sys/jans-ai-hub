@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.08.2026 10:33:22
+Stand: 20.08.2026 10:43:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/ausgussbecken/plangrundlagen/67c545  (letzte Aktivitaet 10:33)
+- Developer/jans/ai/hub//claude/worktrees/ausgussbecken/plangrundlagen/67c545  (letzte Aktivitaet 10:41)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 10:33:22
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- edd19dd8 nas-selfcommit: 4 Datei(en) 2026-08-20 10:30
+- 8552ac0b Bauprodukte-KB: Ausgussbecken KWC/Franke SIRIUS BS302 - Nummernkette, offener CAD-Beschaffungsweg beim Hersteller, Abgrenzung zum Spital-Ausguss (Fall 2619 KISPI)
