@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 20.08.2026 17:55:58
+Stand: 20.08.2026 18:06:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 17:55:58
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- c6d9e7f9 Korrektur-Harness: echte Umlaute im KB-Report bauprodukte und im neuen WEGE-Block (Eigenname Troesch und Quelltext unveraendert)
+- b8ffd9dd nas-selfcommit: 4 Datei(en) 2026-08-20 18:00
