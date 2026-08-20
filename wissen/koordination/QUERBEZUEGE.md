@@ -169,6 +169,101 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen → planungsgrundlagen · energie · Skills-Schicht (VKF-Fassungs-Sweep Run 58) — geprueft 2026-08-20 (Run 38)
+
+**Anlass.** Normen-Nacht Run 58 (20.08.2026, 01:41) glich erstmals alle 35 destillierten
+VKF-Publikationen gegen den amtlichen Publikationsindex ab: **23 Destillate beruhten auf einer
+ueberholten Fassung** (jetzt `superseded`), **BRL 103-15 «Cheminées» ist am 31.08.2025
+zurueckgezogen**, und die **Teilrevision 2026** (BRL 12-15/26-15, in Kraft seit 01.04.2026) war
+der KB unbekannt. Die KB `normen` fuehrte ausdruecklich nur ihr eigenes Register nach. Fassungs-
+matrix als Wahrheitsquelle: `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`.
+
+**Reichweite, deterministisch im Hauptkontext gemessen (vor dem Fan-out).** VKF-Nennungen
+ausserhalb `wissen/normen`: `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` **48** (der
+mit Abstand groesste Abnehmer), `energie` 5 eigene VKF-Destillate, `baurecht` 2 Dateien,
+`bauprodukte` 1, Skills-Schicht 42 Dateien (weites Muster) bzw. 28 (enges Muster).
+
+**Befund 1 — `planungsgrundlagen` §5ai: die Fachgrundlage existiert nicht mehr. BESTAETIGT.**
+Der Abschnitt wertete die VKF-Erlaeuterung 103-15 als aktive Grundlage aus und leitete daraus
+einen Praxis-Transfer fuer `ankaufspruefung`/`machbarkeit` ab. Er wurde am **14.07.2026** verfasst
+— **elf Monate nach dem Rueckzug** vom 31.08.2025. Rueckzugs-Warnkasten gesetzt; der
+0.8-m-Erfahrungswert bleibt brauchbar, ist aber keine zitierfaehige Fundstelle mehr.
+
+**Befund 2 — `planungsgrundlagen` §5r: eine Kennzahl, die es seit neun Jahren nicht mehr gibt.
+BESTAETIGT, vom Hauptkontext auf hart hochgestuft.** Der Melder stufte den Punkt als weich ein
+(«Kernzahlen im Sweep nicht als veraendert vermerkt»). Die Gegenprobe am 2017er-Aenderungsdelta
+zeigt das Gegenteil: die Teilrevision ersetzt in Ziff. 3.2.2 «Sicherheitsbeleuchtung … spaetestens
+**nach 15 Sekunden**» durch «entsprechend **dem Stand der Technik**». Der Wegweiser fuehrte die
+**15 Sekunden** als geltende Kernzahl — eine Zahl, die so in ein Vorprojekt gewandert waere.
+**Es gibt keine feste Zahl mehr zu zitieren.** 30 Minuten und 1 Lux stehen nicht in der
+Aenderungsliste und bleiben.
+
+**Befund 3 — `normen` ↔ `energie`, BRL 26-15: nicht unbekannt, sondern unverbunden. BESTAETIGT.**
+Run 58 meldete die Teilrevision 2026 als «der KB voellig unbekannt». Dieselbe Publikation
+(**identische Dokumentnummer `BSPUB-1394520214-125`**) lag seit dem **25.07.2026** in
+`energie/destillate/vkf-richtlinie-gefaehrliche-stoffe.md` mit der Ausgabe 01.04.2026 und dem
+Vermerk «IOTH 06.03.2026». **Die Information war 26 Tage im Haus.** Beidseitige Kante gesetzt,
+Rollenteilung benannt (`normen` = Fundstelle/Fassung, `energie` = Anwendung Ziff. 3.5.3).
+
+**Befund 4 — `energie`: das richtige Muster auf die falsche Norm uebertragen. BESTAETIGT.**
+Das am selben Tag um 05:36 angelegte `pflanzen-am-bau-projektierungsgrundlagen-zh.md` behauptete
+an vier Stellen, **SIA 271:2007 sei «laut KB `normen`» zurueckgezogen** und die Nachfolgenorm
+ungeklaert. Die fuehrende KB sagt an beiden massgeblichen Stellen das Gegenteil
+(`sia-271-2007.md` `status: established`; REGISTER Z. 223/595). Zurueckgezogen ist allein die
+**Teilnorm SIA 271/2:1994**, deren Nachfolge **SIA 312:2013** seit dem 29.07.2026 destilliert
+vorliegt. Auch der Ticketbezug war falsch: `N57-2` betrifft SIA 416/1. **Herkunft belegt:** das
+Fassungsvermerk-Muster, das Run 37 am 19.08. korrekt zu SIA 416/1 in vier energie-Dateien setzte.
+Damit ist dieser Loop selbst die Quelle des Irrtums — die naechste Runde muss ein gesetztes
+Muster gegen die Norm pruefen, an die es weitergereicht wird.
+
+**Befund 5 — `energie/wiki/dachbegruenung-gruendach.md`: die eigene KB wusste es besser.
+BESTAETIGT, vom Refuter praezisiert.** Der Artikel bezeichnet sich als fuehrend fuer
+Substrat-/Qualitaetsstandard, nannte aber **kein einziges Mal SIA 312:2013** und stuetzte die
+Kennwerte auf die Gruendachrichtlinie SFG von 2009. Dieselbe KB hatte am 04.08.2026 belegt, dass
+das Feld normativ neu besetzt und die SFG-Richtlinie dort **nur noch Pruefverfahren** ist. Der
+Melder zielte auf den Abschnitt «Konstruktive Anforderungen» — **dort haette der Eingriff
+geschadet**: die Zeile zum Gefaelle < 1,5 % ist quellentreu und richtig, SIA 312 kennt kein
+Mindestgefaelle. Korrigiert wurde stattdessen die Referenzzeile des Mindeststandards.
+
+**Zwei Meldungen WIDERLEGT — beide haetten gesunde Dateien getroffen.**
+- `skills/brandschutz/SKILL.md` Z. 222-231 (QSS-Tabelle BSR 11-15 Ziff. 3.3.1 angeblich durch die
+  Fassung 2019 ueberholt): die Aenderungsliste 2019 nennt ausschliesslich Ziff. 4.1.1/4.1.3-4.1.7
+  und Anhang-Positionen — **Ziff. 3.3 ist nicht darunter**, die Tabelle ist wortgleich. Der Skill
+  trug den Fassungsvorbehalt zudem bereits seit 17:23 desselben Tages (SYN-37).
+- `bauprodukte/wiki/bkp-261-aufzuege.md` Z. 161-164 («BRL 23-15 in Kraft seit 01.01.2015»):
+  quellentreu und **anderer Perimeter** — «in Kraft seit» bezeichnet das Inkrafttreten der
+  Richtlinie, nicht ihre Ausgabe. Das Destillat selbst fuehrt diesen Satz als Norm-Aussage.
+
+**Status.** `planungsgrundlagen` §5ai/§5r/§5l/§5q/§5f nachgefuehrt · `energie` 3 Dateien ·
+`normen` BRL 26-15 verlinkt + Meldekopf im REGISTER · `bauprodukte`, `baurecht`, Skills-Schicht
+unveraendert (kein bestaetigter Befund). **Offen:** BRL 22-15 Doppelspurigkeit (siehe unten),
+Fassungs-Deltas der 23 Destillate (`N58-1`), Nachfolge der BRL 103-15 (`N58-2`).
+
+---
+
+### normen ↔ energie (BRL 22-15 Blitzschutz) — Doppelspurigkeit gemessen, Fuehrung ungeklaert — geprueft 2026-08-20 (Run 38)
+
+**Gemessen, nicht entschieden** (weich, nicht adversarial geprueft — die Refuter-Stufe war auf die
+zwei haertesten Befunde je Melder begrenzt).
+
+Beide KBs fuehren ein **volles Fundstellen-Destillat derselben VKF-Richtlinie 22-15
+«Blitzschutzsysteme»**: `normen/destillate/vkf-brl-22-15-blitzschutzsysteme.md` und
+`energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md`. Nach der Rollen-Matrix fuehrt
+`normen` die Fundstelle.
+
+**Die Auffaelligkeit: die Rollen sind invertiert.** Das energie-Destillat fuehrt im Frontmatter die
+**geltende Fassung 01.01.2017** (nebst GVZ-Weisung 20.06 und GVB-Merkblatt 09/2024), waehrend das
+normen-Destillat in der Fassungsmatrix als **(FM)** gefuehrt wird — Frontmatter veraltet, geltende
+Fassung nur im Fliesstext. Die zuliefernde KB ist an der Fundstelle also genauer als die fuehrende.
+
+**Kein Eingriff in diesem Lauf.** Ein Merge oder eine Umwidmung ist destruktiv und braucht nach
+Rule `wissens-bibliothekar` Raphaels Freigabe; ausserdem ist ungeprueft, ob die beiden Destillate
+inhaltlich auseinanderlaufen oder nur unterschiedlich tief sind. Gehoert zusammen mit dem seit
+Run 26 parkierten Duplikat-Merge der Solaranlagen-Destillate (`vkf-brm-2001-15` /
+`vkf-merkblatt-2001-15`) entschieden.
+
+---
+
 ### skills ↔ normen (SIA 102 Honorarmethode) — eine Norm-Fundstelle, die es nicht gibt, in einem Erzeugnis mit Geldfolge — geprueft 2026-08-18 (Run 36)
 
 **Befund M1-1, BESTAETIGT nach sechs Widerlegungsversuchen.**

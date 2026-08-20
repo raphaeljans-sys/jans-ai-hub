@@ -3,6 +3,51 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-20 — Wissens-Chef Run 38 (Abendlauf)
+
+**Zuschnitt:** 5 Melder (`model: sonnet`) + 7 Refuter (Hauptmodell) = 12 Agenten, 1'911'831 Token,
+151 Werkzeugaufrufe, 6,0 Min. Reichweiten-Messung, eine eigene Verifikation, alle Aktionen und die
+Registerpflege im Hauptkontext. **Uhr-Kontrolle bestanden:** Station 23:11 CEST gegen
+Synology-Selfcommit 23:00:09 (HEAD `1c4b5ff2`), konsistent mit dem 15-Min-Takt, kein Datumssprung.
+
+**Ergebnis:** Der VKF-Fassungs-Sweep aus Normen-Nacht Run 58 ist in die abnehmenden KBs
+propagiert. **13 Befunde gemeldet, 7 hart adversarisch geprueft, 5 bestaetigt, 2 widerlegt** —
+beide Widerlegungen haetten gesunde Dateien getroffen.
+
+- **Die schaerfste Stelle fand nicht der Fan-out, sondern die eigene Gegenprobe.** Ein als «weich»
+  gemeldeter Punkt (BRL 17-15) wurde im Hauptkontext am 2017er-Aenderungsdelta nachgeprueft und
+  **auf hart hochgestuft**: die **15-Sekunden-Frist der Sicherheitsbeleuchtung ist seit dem
+  01.01.2017 ersatzlos entfallen** («Stand der Technik»), stand im meistgelesenen
+  Brandschutz-Artikel des Hub aber als geltende Kernzahl. Eine Zahl, die so in ein Vorprojekt
+  gewandert waere.
+- **BRL 103-15 «Cheminées»:** der `planungsgrundlagen`-Wegweiser wertete die am 31.08.2025
+  zurueckgezogene Erlaeuterung als aktive Fachgrundlage aus — in einem Abschnitt, der **elf Monate
+  nach dem Rueckzug** geschrieben wurde. Warnkasten gesetzt.
+- **BRL 26-15 war nicht «unbekannt», sondern unverbunden.** Die von Run 58 als der KB voellig
+  unbekannt gemeldete Teilrevision 2026 lag seit dem 25.07.2026 in `energie` — dieselbe
+  Dokumentnummer `BSPUB-1394520214-125`. **26 Tage im Haus, ohne Kante.** Beidseitig verlinkt.
+- **Dieser Loop war selbst die Fehlerquelle.** Das Fassungsvermerk-Muster, das Run 37 am 19.08.
+  korrekt zu **SIA 416/1** setzte, wurde von einem energie-Lauf am 20.08. auf **SIA 271**
+  uebertragen — eine gueltige Norm wurde damit als zurueckgezogen ausgewiesen, die Nachfolge als
+  «ungeklaert», obwohl **SIA 312:2013** seit dem 29.07. destilliert vorliegt. Vier Zeilen
+  berichtigt. **Lehre: ein gesetztes Muster ist gegen die Norm zu pruefen, an die es weiterwandert.**
+- **Uebergabe-Auftrag 1 aus Run 37 erledigt:** `wissen/normen/wiki/REGISTER.md` hat einen
+  Meldekopf **«⚠ FRISCH GEMELDET»** mit sechs Eintraegen und der Spalte «Abnehmer nachgefuehrt?».
+  337 Destillate verweisen auf `[[REGISTER]]` — das ist die Stelle, an der eine frische Meldung
+  alle erreicht, bevor sie im systematischen Teil steht.
+- **`N58-5` (offener Teil) beantwortet:** von 42 VKF-nennenden Dateien in
+  `skills/ agents/ rules/ references/` trifft genau eine eigene VKF-Sachaussagen, und die ist
+  nachgefuehrt. **Der Sweep hat die Skills-Schicht nicht beschaedigt** — anders als der
+  SIA-416/1-Fall aus Run 37, den sie gar nicht erst erreichte.
+- **Schreib-Kontrolle** (nativ per ssh, nie `git` ueber SMB): `brandschutz-pl03-wegweiser` 82/3,
+  `pflanzen-am-bau` 22/8, `dachbegruenung-gruendach` 19/1, `vkf-brl-26-15` 16/1,
+  `vkf-richtlinie-gefaehrliche-stoffe` 16/0. Alle 13 Loeschungen sind die je ersetzten Zeilen,
+  kein fremder Inhalt (Rule `auto-verbesserungen` 260811).
+- **Offen fuer Raphael:** BRL 22-15 wird von beiden KBs voll destilliert, mit invertierten Rollen
+  (die zuliefernde KB fuehrt die genauere Fassung). Merge/Umwidmung ist destruktiv und braucht
+  Freigabe. Laufbericht `outputs/2026-08-20_wissens-chef-run38.md`.
+
+
 ## 2026-08-20 — Synergie-Lauf 13 (Tagestakt)
 
 Delta-Basis 19.08.2026 17:10, Fenster 23,8 h, 109 Commits. Uhr-Check gegen den nativen
