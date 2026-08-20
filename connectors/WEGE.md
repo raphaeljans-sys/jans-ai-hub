@@ -54,6 +54,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Mac-App-Store-Updates | `mas outdated` / `mas upgrade` | | | App Store (GUI) |
 | Hersteller-CAD Sanitaerapparat (DWG/Massblatt) | Produktseite des Herstellers, Download-Tabelle auslesen; KWC/DELABIE offen unter `kwc-professional.com/assets-original/products/<ArtNr>/` (belegt 20.08.2026, BS302) | Fachhandel-Portal (Sanitas Troesch, heinze.de, ais-online.de) | BIM-Portale (bimobject) | Anfrage beim Lieferanten |
 | CAD: Vektor-PDF oder Fremd-DXF nach DWG | Skill `pdf2dwg` (venv `~/.venvs/pdf2dwg`, ezdxf + LibreDWG) | | | Original-DXF unverändert weitergeben |
+| CAD: 3D-Hersteller-DWG (ACIS) nach 2D-Plan (Grundriss/Ansicht/Schnitt) | **Rhino 8 an der besetzten Station**, Import + `Make2D` (4 Ansichten Europa) + `SimplifyCrv`/`Join` + Export R2013 | Rhino skriptgesteuert via `rhinocode` (nur wenn dialogfrei, siehe unten) | Massbild aus dem Hersteller-Datenblatt nachzeichnen | Massblatt beim Lieferanten anfordern |
 
 **Zu Zeile «CAD»:** die belegten Sackgassen und die Verifikations-Falle dieses Wegs stehen
 vollständig in `skills/pdf2dwg/SKILL.md` (Abschnitt «Grenzen») und werden hier bewusst nicht
@@ -61,6 +62,29 @@ kopiert — kurz: LibreDWGs DXF-Reader scheitert an SPLINE/HATCH (`READ ERROR 0x
 vorher mit ezdxf abflachen), ein 3DSOLID (ACIS) übersteht die Konvertierung nicht, und
 `dwg2SVG` zeigt für korrekte DWGs 1e20-Koordinaten (Render-Bug, nicht Datenfehler — Prüfung
 via `dwg2dxf`-Roundtrip). Belegt am Fall Schmidlin, 13.08.2026.
+
+**Zu Zeile «3D-Hersteller-DWG nach 2D-Plan»** (belegt 20.08.2026, KWC Sirius BS302, 2619 KISPI):
+Hersteller-DWGs aus Revit enthalten oft **ausschliesslich ACIS-Volumenkörper** und keine einzige
+2D-Linie. Beim BS302 waren es 17 3DSOLID auf einem Layer plus rund 300 AEC-Darstellungsobjekte.
+Ein 2D-Plan entsteht dort nur durch Projektion (Make2D), nicht durch Konvertieren, und dafür
+braucht es einen ACIS-fähigen Kern: von den vorhandenen Werkzeugen kann das nur Rhino 8.
+Sackgassen: LibreDWG liest sauber, lässt ACIS aber ACIS; `pdf2dwg` über das Datenblatt greift
+nicht, weil die Massbilder dort Rasterbilder sind (BS302-Datenblatt Seite 1: 74 Vektorpfade,
+im Wesentlichen Layout-Rahmen).
+
+**Rhino via `rhinocode` (belegt 20.08.2026, Mac Mini):** Die CLI liegt unter
+`/Applications/Rhino 8.app/Contents/Resources/bin/rhinocode`. Sie braucht eine laufende Instanz
+**mit geöffnetem Dokument**, sonst ist `scriptcontext.doc` gleich `None` und jedes Skript stirbt
+an `'NoneType' object has no attribute 'Objects'`; die Spalte DOC in `rhinocode list` zeigt es
+an. Ein leeres Dokument lässt sich mit `rhino3dm` (venv `~/.venvs/volumen3d`) schreiben und mit
+`open -a "Rhino 8" arbeit.3dm` öffnen. Die Instanz-ID gehört explizit an den Aufruf
+(`rhinocode -r <ID> script <datei.py>`). **Läufe sind asynchron**: der Aufruf kehrt sofort
+zurück, `print` landet in der Rhino-Konsole, Ergebnisse deshalb in eine Log-Datei schreiben und
+darauf warten. **Die belegte Grenze:** `doc.Import()` auf eine DWG liefert `False` und schliesst
+danach das Dokument, weil Rhino den modalen Dialog «AutoCAD Import Options» zeigt. Auf dem Mac
+Mini ist der nicht bedienbar, da die Shell dort keine Bildschirmaufnahme hat (`screencapture`
+scheitert mit «could not create image from display»). **Rhino-Arbeit an Hersteller-DWGs gehört
+deshalb an die Station, an der jemand sitzt.**
 
 ---
 
