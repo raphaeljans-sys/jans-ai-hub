@@ -1,5 +1,21 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-20 (MacBook Pro, interaktiv) — Ausgussbecken KWC/Franke SIRIUS BS302: Identifikation und CAD-Beschaffungsweg
+
+Neuer Output-Report `outputs/2026-08-20_ausgussbecken-kwc-sirius-bs302-cad-beschaffung.md`
+aus dem Anwendungsfall 2619 KISPI (Umbau PPTS). Drei belegte Befunde:
+
+- **Nummernkette:** Sanitas-Troesch-Handelsnummer 7362 111.000.000 = KWC-Artikel
+  207.0000.057 (mit Klapprost) bzw. 2000090080 (ohne). Marke heute DELABIE | KWC
+  Professional, nicht mehr Franke Water Systems.
+- **Beschaffungsweg:** KWC Professional legt DWG, Datenblatt, Massblatt und
+  Montageanleitung offen unter `kwc-professional.com/assets-original/products/<ArtNr>/`
+  ab, ohne Login. DWG kommt als AutoCAD 2013-2017, in ArchiCAD direkt lesbar.
+  Muster auf andere KWC/DELABIE-Apparate übertragbar.
+- **Abgrenzung:** Der KISPI-Neubau setzt im Ausgussraum Apparatetyp 7.1 «Ausguss mit
+  Ringspülung und Pumpe», nicht ein einfaches Wandausgussbecken. Vor jeder
+  Ausschreibung klären, welchen Typ der Nutzer verlangt.
+
 ## 2026-08-15 (Mac Mini Nachtschicht 23:30) — Inventar komplett: letzte zwei offene Positionen geschlossen
 
 Die beiden letzten offenen Zeilen des Gesamtinventars (`skills/wissens-destillat/training/bauprodukte-inventar.md`)

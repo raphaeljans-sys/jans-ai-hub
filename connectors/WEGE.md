@@ -52,6 +52,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Geodaten ZH und SZ | `connectors/geo-zh.mjs`, `geo-sz.mjs` | | | Kartenportale |
 | Git auf dem NAS | `scripts/nas-commit-now.sh` | 15-Min-Cron abwarten | | |
 | Mac-App-Store-Updates | `mas outdated` / `mas upgrade` | | | App Store (GUI) |
+| Hersteller-CAD Sanitaerapparat (DWG/Massblatt) | Produktseite des Herstellers, Download-Tabelle auslesen; KWC/DELABIE offen unter `kwc-professional.com/assets-original/products/<ArtNr>/` (belegt 20.08.2026, BS302) | Fachhandel-Portal (Sanitas Troesch, heinze.de, ais-online.de) | BIM-Portale (bimobject) | Anfrage beim Lieferanten |
 | CAD: Vektor-PDF oder Fremd-DXF nach DWG | Skill `pdf2dwg` (venv `~/.venvs/pdf2dwg`, ezdxf + LibreDWG) | | | Original-DXF unverändert weitergeben |
 
 **Zu Zeile «CAD»:** die belegten Sackgassen und die Verifikations-Falle dieses Wegs stehen
