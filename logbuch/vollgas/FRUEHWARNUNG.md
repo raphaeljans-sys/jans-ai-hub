@@ -5,6 +5,119 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-20 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
+
+Messzeitpunkt 20.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 482 Dateien im 9-Tage-Fenster MacBook Pro / 139 Mac Mini, Zeilenfilter
+je `timestamp[:10]`. Mac Mini über den Dual-Pfad-Alias `mini` gemessen (Skript via scp).
+
+### Verbrauch beide Stationen (Mio Tokens, teuer = in + cache_creation + out)
+
+| Tag | MBP teuer | MBP total | Mini teuer | Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 12.08. | 23.17 | 436.21 | 5.22 | 151.88 | 28.39 |
+| 13.08. | 12.73 | 276.76 | 4.56 | 112.30 | 17.29 |
+| 14.08. | 8.55 | 163.91 | 3.07 | 75.38 | 11.62 |
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 8.40 | 170.91 | 2.41 | 73.54 | 10.81 |
+| 17.08. | 10.23 | 254.85 | 2.30 | 66.25 | 12.53 |
+| 18.08. | 5.22 | 119.87 | 1.09 | 33.12 | 6.31 |
+| 19.08. | 6.29 | 133.47 | 3.04 | 41.98 | 9.33 |
+| 20.08. (bis 07:15) | 1.23 | 36.74 | 0.54 | 17.43 | 1.77 |
+
+Alle Tageswerte 12.–18.08. reproduzieren den gestrigen Eintrag exakt. Der **19.08.
+schliesst mit 9.33 kombiniert teuer** — der zweittiefste Tag der laufenden Reihe nach
+dem 18.08. (6.31). Zum Vortag zugelegt hat vor allem der Mac Mini (1.09 auf 3.04,
+davon 1.68 Subagenten). Schwelle (b) 35 Mio an einem Tag bzw. 18 Mio an zwei Folgetagen:
+in beiden Formen deutlich unterschritten.
+
+### Blockade-Status: FREI
+
+Strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` / `message.type=="error"`
+/ `apiErrorStatus==429` mit Limit-Bezug im Text: **0 echte Limit-Fehlerereignisse** im
+26-Stunden-Fenster (45 Dateien). Keine blockierte interaktive Sitzung, kein erschöpftes
+Wochenlimit. Kontrollprobe des Suchmusters bestanden: 38 der 45 Dateien enthalten den
+String `scheduled-task` überhaupt, das escapte Muster `name=\"<task>\"` trifft.
+
+Kontingentstand aus `kontingent-budget.sh --json` (nativ auf dem Mini gemessen):
+Ampel **FREI**, 22.01 von 167.0 Mio verbraucht = **13.2 % bei 40.1 % verstrichener
+Woche**, Vorsprung **−26.9 Punkte** — erneut der grösste je gemessene Rückstand.
+
+### Operative Briefings: `logbuch-radar` durchgelaufen, die übrigen drei ohne Aussage
+
+`logbuch-radar` hat heute um 06:20 und 07:06 gearbeitet (272 Zeilen) und sein Deliverable
+erreicht: Radar-Briefing im Logbuch, Registerpflege mit `--numstat`-Nachmessung
+(Logbuch +118/−0, Register +40/−4, die vier Löschungen erklärt), Commit `b76826ee`
+nativ auf der Synology, gepusht.
+
+`hub-chef-taeglich` (08:39), `mahnwesen-verzugscheck` (08:14) und
+`zahlungsabgleich-check` (09:07) haben ihre Slots **nach** dem Messzeitpunkt 07:15 —
+dazu keine Aussage und kein Befund. Ihre Läufe vom 19.08. waren vollständig
+(248 / 79 / 54 Zeilen); beim Hub-Chef ist der Mailversand belegt (28 osascript-Aufrufe,
+15 Treffer `com.apple.mail`).
+
+### Radar-Herzschlag: INTAKT
+
+Beide Signale frisch: RADAR.md jüngster Eintrag (erste `## `-Überschrift, nicht der
+Dateikopf) **20.08. 00:57**, mtime 01:01; dazu eine Radar-Session heute um 01:02.
+Der Radar meldet Ampel FREI und einen Infrastruktur-Befund (Tailscale auf dem Mini
+gestoppt), keine Waisen, kein Loop ohne Ertrag.
+
+### Liefer-Delta der Lern-Loops: liefert
+
+Sechs Nachtschicht-Läufe 19./20.08., **alle rc=0**, kein Fehlschlag:
+19.08. 02:41 (698 s) · 05:37 (419 s) · 13:31 (110 s) · 23:36 (391 s) ·
+20.08. 02:39 (587 s) · 05:36 (407 s). Belegte Liefer-Deltas heute Nacht: drei neue
+Destillate (`pflanzen-am-bau-projektierungsgrundlagen-zh`,
+`vollzugsordner-energie-zh-abschnitt3-1-3-2-en1` in `energie`,
+`vkf-teilrevision-2026-pyrotechnik` in `normen`), der Wiki-Artikel
+`dachbegruenung-gruendach` erweitert, Register und CHANGELOGs nachgeführt.
+
+**Einordnung des Mittags-Slots 13:30 (Versuch seit 29.07.):** der Lauf vom 19.08. endete
+zwar mit rc=0, aber nach nur 110 s und mit einem Ergebnistext, der auf eine
+Hintergrund-Task wartet («I'll wait for that notification») — im Zeitfenster 13:20–15:30
+steht kein Commit ausser den 15-Minuten-Selfcommits. Der Slot hat an diesem Tag also
+Tokens verbraucht, ohne ein eigenes Delta zu hinterlassen. Einzelbefund, kein Muster;
+zur Beobachtung an den Radar.
+
+### Destillat-Aufsicht
+
+- **Fortschritt (a): unverändert.** `inventar.sh buero-projekte --stand` meldet 21/21
+  Sektionen, 813 inventarisiert, **706 offen** — exakt der gestrige Wert. Die Front des
+  aktiven Korpus steht damit den **zweiten Tag** still; die Nachtschicht arbeitet
+  stattdessen an anderen KBs (Prioritätenlogik weicht auf `energie`/`normen` aus).
+- **Ertrag (b): bewegt.** 288 Wiki-Artikel gesamt (unverändert), aber 15 Artikel am
+  19.08. berührt (git-gezählt, ohne INDEX/QUESTIONS), heute bis 07:15 drei neue
+  Destillate und ein erweiterter Artikel. `projekt-lessons` steht weiter bei 7 Artikeln.
+- **Delta-Null-Serie: keine.** Die jüngsten Reports unter `wissen/energie/outputs/`
+  (run143, run138, run137) tragen keinen Delta-Null-Vermerk.
+- **Stückkosten 19.08.:** kombiniert teuer 9.33 Mio auf **15 Artikel** = **0.62 Mio je
+  Artikel**; ohne die sechs Twin-Facetten 9 Artikel = **1.04 Mio**. Zum Vergleich 18.08.:
+  0.45 bzw. 0.79 Mio.
+- **Spec-Gate: in Ordnung.** Für den aktiven Korpus liegt
+  `specs/buero-projekte-spec.md` (16.08.2026) vor. Queue nicht komplett (Position 2 von 4
+  aktiv), Kriterium (g) also nicht erfüllt.
+- **Lauf-Gate Mac Mini — nachgeprüft, kein Defekt.** `gate-Macmini.log` schreibt seit
+  15.08. 23:30 nicht mehr, was zunächst nach einem stillen Ausfall aussah. Nachgemessen
+  nativ per ssh: das Gate läuft (rc=0), protokolliert eine Freigabe aber **absichtlich
+  nur, wenn es eng war** (`AKTIV > 0` oder frei < 2 × Mindestwert, Zeile 223). Der Mini
+  hat 11'800 MB frei und 0 aktive Läufe, deshalb schweigt das Log. **Der Mittags-Slot
+  wurde vom Gate nie abgewiesen** — die letzte Abweisung stammt vom 10.08.
+  (Drosselschwelle Wochenkontingent).
+
+### Meldeentscheid: STILL (keine Mail)
+
+Keines der sieben Kriterien erfüllt: (a) 0 Limit-Ereignisse · (b) 9.33 Mio kombiniert
+teuer am 19.08., weit unter 35 bzw. 2 × 18 Mio · (c) Wochenkontingent bei 13.2 % ·
+(d) das einzige vor 07:15 fällige Briefing ist durchgelaufen · (e) Radar frisch ·
+(f) Ertrag bewegt sich, obwohl die Korpus-Front steht · (g) Queue nicht komplett.
+
+Zwei Punkte zur Beobachtung an den Radar, beide unterhalb der Meldeschwelle: die
+stehende Front des aktiven Korpus (zweiter Tag) und der ertraglose Mittags-Slot
+vom 19.08.
+
+Letzte Mail dieser Frühwarnung: **08.08.2026 07:29**.
+
 ## 2026-08-19 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 19.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
