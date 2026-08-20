@@ -19,7 +19,7 @@ description: >-
 - **Trigger:** Greift bei brandschutztechnischen Fragen (VKF) zu Umbau/Umnutzung — Ertüchtigung von Bestand-Wänden auf EI30-RF1, Brandabschnitts-Grenzen, EI-/RF-Klassen, Reaktion-auf-Feuer von Bodenbelägen, Prüfung von DoP/Leistungserklärungen und Erstellung von Factsheets/Memos/LV-Beilagen.
 - **Inputs:** Brandschutzplan/Brandschutzkonzept, Bestandsangaben (Wandaufbauten, Geschoss, Nutzung), Produktunterlagen (DoP, VKF-Anerkennung), betroffene BKP-Codes und die konkrete Fragestellung.
 - **Output-Ablage:** `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken-JANS/AD - 01 Geschaeftsfuerung/JANS AI/30 JANS AI HUB OUTPUT/brandschutz/<Projektnr>/` als DOCX + PDF, Namensschema `YYMMDD-<Projektnr>-Brandschutz-<Thema>.docx`; bei reiner Beratung: kein Datei-Output (nur Antwort), ausser explizit ein Dokument verlangt.
-- **Abhaengige Rules:** bkp-2017-referenz (jede BKP-Nummer), dokument-layout-standard, umlaute-konvention, dateinamen-konvention, identifikatoren-verifizieren (Projektnr./Adresse); Korrektur-Pflicht via Skill `korrektur` vor Ausgabe.
+- **Abhaengige Rules:** bkp-2017-referenz (jede BKP-Nummer), **normen-referenz** (jede VKF-/SIA-Aussage mit Fundstelle Norm/Ausgabe/Ziffer aus `wissen/normen/destillate/`, und vor dem Zitieren das Feld `status:` des Destillats lesen; ergaenzt 20.08.2026, Synergie-Lauf 13 — der Skill war als einziger der elf in der Rule genannten Abnehmer ohne dieses Pflichtfeld, siehe SYN-37), dokument-layout-standard, umlaute-konvention, dateinamen-konvention, identifikatoren-verifizieren (Projektnr./Adresse); Korrektur-Pflicht via Skill `korrektur` vor Ausgabe.
 - **Vorgelagert:** wettbewerb / machbarkeit / studien-generator (Modus B liefert dort den Brandschutz-Teil des Erlaeuterungsberichts)
 - **Nachgelagert:** ausschreibung (Brandschutz-Grundlage/Beilage geht ins LV, z.B. BKP 271.1 Trockenbauarbeiten)
 
@@ -48,7 +48,15 @@ Bei Unsicherheit nachschlagen — nie raten. Siehe Rule `bkp-2017-referenz.md`.
 
 ## Verbindliche Kontextquellen (immer konsultieren)
 
-Bei jeder Brandschutz-Anfrage sind diese beiden Quellen primaer auszuwerten — sie sind die JANS-eigene Wissensbasis und gehen vor allgemeinen Internetquellen. Beide liegen in SharePoint via OneDrive-Sync und sind auf allen Stationen mit OneDrive-Sync verfuegbar.
+Bei jeder Brandschutz-Anfrage sind diese Quellen primaer auszuwerten — sie sind die JANS-eigene Wissensbasis und gehen vor allgemeinen Internetquellen. Die Rangfolge lautet **destilliert vor roh**: zuerst die Normen-KB (0), dann die beiden SharePoint-Bibliotheken (1 und 2); letztere liegen via OneDrive-Sync auf allen Stationen mit OneDrive-Sync.
+
+### 0) Normen-KB — die destillierte VKF-Schicht (zuerst lesen)
+
+`wissen/normen/destillate/` fuehrt rund 50 VKF-Destillate mit Ziffern-Fundstelle, Fassungsangabe und `status:`-Feld (u.a. `vkf-brandschutznorm-1-15de-bspub57.md`, `vkf-brl-13-15-baustoffe-bauteile.md`, `vkf-brl-verwendung-baustoffe.md` = BSR 14-15, `vkf-brl-15-15-brandschutzabstaende-tragwerke.md`, `vkf-brl-16-15-flucht-rettungswege.md`). Sie nennen diesen Skill ihrerseits als Abnehmer.
+
+- **Fassungsstand zuerst pruefen:** `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md` (83 Publikationen, Dokumentnummern und Fassungsdaten) bzw. `wissen/normen/wiki/REGISTER.md` Abschnitt D — nicht neu beschaffen.
+- **Warum diese Rangfolge (ergaenzt 20.08.2026, Synergie-Lauf 13, SYN-37):** Die Destillate tragen die richtige BSR-Nummernzuordnung seit dem 25.07.2026. Dieser Skill fuehrte die vertauschte Zuordnung bis zum 20.08.2026 (Commit `865d1df3`) weiter, weil er die KB nur im Modus B nannte und den primaeren Blick auf die Rohbibliothek lenkte — 26 Tage, in denen der belegte Wert im selben Repo lag.
+- Die Rohbibliotheken unten bleiben unverzichtbar fuer Volltexte, Anhang-Tabellen und Matrix-Zellen (die Destillate weisen dort selbst auf ihre Grenze hin) sowie fuer alles, was noch nicht destilliert ist.
 
 ### 1) Bueroweite Brandschutz-Wissensbasis
 
@@ -373,7 +381,8 @@ Die exakte Zuordnung ist im jeweils gueltigen VKF-Brandschutzdokument "Brandverh
 
 - Spitaeler = Beherbergungsbetriebe a (Personen ohne Selbstrettungsfaehigkeit).
 - Fluchtwege haben erhoehte Anforderungen — typisch RF1 oder mindestens RF2 mit Zusatzanforderung s1 (geringe Rauchentwicklung).
-- Die konkrete Anforderung ergibt sich aus dem projektspezifischen **Brandschutzkonzept** und der **VKF-Brandschutzrichtlinie 13-15** (Baustoffe und Bauteile, Reaktion auf Feuer).
+- Die konkrete **Anforderung** (welche RF-Klasse an welchem Einbauort) ergibt sich aus dem projektspezifischen **Brandschutzkonzept** und der **VKF-Brandschutzrichtlinie 14-15 «Verwendung von Baustoffen»**, Ziff. 2 und Ziff. 3 (Gebaeudeausbau: Innenwaende, Decken, Boeden, Fluchtwege) — Destillat `wissen/normen/destillate/vkf-brl-verwendung-baustoffe.md` (`status: established`, Haupttext auf Fassung 01.01.2017 nachgefuehrt). **BSR 13-15 «Baustoffe und Bauteile» ist die Klassifikationsquelle**, nicht die Anforderungsquelle: sie definiert die RF-Klassen und die EN-Umrechnung (Ziff. 2.4.1), die 14-15 als Anforderung nur zitiert. Fuer die Umrechnungstabelle oben ist 13-15 also richtig, fuer den Satz «was muss im Fluchtweg erfuellt sein» die 14-15. ⚠ **Berichtigt 20.08.2026 (Synergie-Lauf 13, SYN-37)** — hier stand die 13-15 als Anforderungsquelle; das war die Nachwirkung der am selben Tag korrigierten BSR-Nummernvertauschung (siehe Abschnitt «Verbindliche Kontextquellen»).
+- **Offener Pruefpunkt aus der KB, hier noch nicht angewandt:** Das Destillat `vkf-brl-verwendung-baustoffe.md` (Delta-Abschnitt, Ziff. 2 Abs. 3 lit. a-i, neu mit Fassung 01.01.2017) adressiert diesen Skill namentlich: cr-Baustoffe sind in neun Anwendungsbereichen ohne Abdeckung zulaessig, darunter **Bodenbelaege ausserhalb der Fluchtwege**. Wer nach dem Stand 2015 ausgeschrieben hat, hat dort tendenziell zu streng geplant. **Fuer den Fluchtweg selbst aendert das nichts** — die Ausnahme nimmt Fluchtwege ausdruecklich aus; der Spielraum liegt in den angrenzenden Flaechen. Vor Anwendung im Einzelfall die Originaltabelle konsultieren.
 - **Bfl-s1 kann je nach Brandschutzkonzept im Fluchtweg eines Spitals akzeptiert sein** — die abschliessende Beurteilung liegt aber stets beim Brandschutz-Fachplaner mit Visumshoheit, der die Einordnung mit der zustaendigen Feuerpolizei abstimmt.
 
 ### Workflow "Nachweis statt Neuausschreibung" bei bereits verlegtem Belag

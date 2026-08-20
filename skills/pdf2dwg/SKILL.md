@@ -61,6 +61,16 @@ Referenzfall 2619 KISPI: 240'414 Striche → ~14'500 Entities
 
 ## Grenzen (dem Benutzer transparent machen)
 
+> **Gegenstueck im Wege-Register (ergaenzt 20.08.2026, Synergie-Lauf 13, SYN-38).**
+> `connectors/WEGE.md` erklaert diesen Abschnitt zum kanonischen Ort der CAD-Sackgassen
+> («werden hier bewusst nicht kopiert») und fuehrt zugleich zwei Angaben, die hier fehlen:
+> **(a) Stationsverfuegbarkeit** — LibreDWG und das venv `~/.venvs/pdf2dwg` gibt es nur auf
+> dem Mac Mini, nicht auf dem MacBook Pro; zur DWG-Kontrolle auf dieser Station taugen der
+> Rueckimport nach Rhino und die Formatkennung `head -c 6 datei.dwg` (`AC1021` = 2007,
+> `AC1027` = 2013, `AC1032` = 2018). **(b) Der Nachbarweg** fuer 3D-Hersteller-DWG (ACIS
+> oder Mesh) nach 2D-Plan laeuft ueber Rhino an der besetzten Station, nicht ueber diesen
+> Skill. Vor jedem CAD-Auftrag beide Seiten lesen (Rule `wege-und-vollmachten`).
+
 - **Rasterbilder im PDF** (Fotos, gerenderte Ansichten, Logos) werden NICHT
   uebernommen — nur Vektoren und Text.
 - Koordinaten sind **Papier-mm**: Massstab beim ArchiCAD-Import setzen oder

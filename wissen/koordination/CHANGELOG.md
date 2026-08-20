@@ -3,6 +3,33 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-20 — Synergie-Lauf 13 (Tagestakt)
+
+Delta-Basis 19.08.2026 17:10, Fenster 23,8 h, 109 Commits. Uhr-Check gegen den nativen
+Synology-Log bestanden, Commit-Gegenprobe bestanden. Strukturelles Delta: 0 neue Bausteine,
+6 geaenderte. Kein Frueh-Ausstieg.
+
+- **SYN-37 neu, umgesetzt** (active-with-flagging): `skills/brandschutz` band die Normen-KB
+  nur im Modus B ein — Modus A und der Bodenbelag-Praxisteil kannten sie nicht, weshalb die
+  vertauschte BSR-Nummernzuordnung 26 Tage ueberlebte, obwohl die Destillate sie seit dem
+  25.07. richtig fuehren und den Skill namentlich als Abnehmer nennen. Dazu die Fehl-Fundstelle
+  13-15 statt 14-15 fuer die **Anforderung** an Bodenbelaege im Fluchtweg. Umgesetzt:
+  Normen-KB als Abschnitt 0 (Rangfolge destilliert vor roh), `normen-referenz` ins
+  Contract-Feld, Sachverweis sachbezogen berichtigt, cr-Pruefauftrag aus dem Destillat als
+  markierter offener Punkt uebernommen.
+- **SYN-38 neu, umgesetzt**: `connectors/WEGE.md` erklaert `skills/pdf2dwg` zum kanonischen
+  Ort der CAD-Grenzen und legte im Fenster selbst zwei neue Grenzen ab; Register nennt den
+  Skill 4x, Skill nennt das Register 0x. Verweis-Block im Abschnitt «Grenzen» gesetzt, ohne
+  den Registerinhalt zu kopieren.
+- Geprueft, kein Befund: `wettbewerb` + `flaechen-nachweis` (beidseitig sauber),
+  `jans-dna-facetten` (Kompilierweg), `anrede-kontakte` (Beleg genannt). Eine Hypothese
+  adversarial widerlegt (die VKF-Fassungsmatrix in `training/` ist vollstaendig registriert).
+- Gemessen, bewusst nicht aufgerollt: vier weitere Skills ohne `normen-referenz` im Contract
+  — SYN-24 hat die Grundsatzfrage anders entschieden, und keiner der vier hat sich bewegt.
+- Schreib-Kontrolle: `brandschutz` 12/3, `pdf2dwg` 10/0, Register 61/0 (Tabellenzeilen 36/38).
+  Laufbericht `outputs/2026-08-20_synergie-lauf-13.md`.
+
+
 ## 2026-08-19 — Wissens-Chef Run 37 (Abendlauf)
 
 **Zuschnitt:** 5 Melder (sonnet) + 3 Refuter (Hauptmodell), 8 Agenten, 1'386'907 Token,
