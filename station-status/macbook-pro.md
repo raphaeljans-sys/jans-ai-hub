@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.08.2026 00:36:30
+Stand: 21.08.2026 00:57:04
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/gipskarton/dusche/beplanung/a991e3  (letzte Aktivitaet 00:13)
+- Developer/jans/ai/hub//claude/worktrees/screensaver/without/sleep/39a31d  (letzte Aktivitaet 00:56)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.08.2026 00:36:30
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- deedbe89 nas-selfcommit: 4 Datei(en) 2026-08-21 00:30
+- 90026ebf nas-selfcommit: 2 Datei(en) 2026-08-21 00:45
