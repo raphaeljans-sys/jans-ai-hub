@@ -54,7 +54,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Mac-App-Store-Updates | `mas outdated` / `mas upgrade` | | | App Store (GUI) |
 | Hersteller-CAD Sanitaerapparat (DWG/Massblatt) | Produktseite des Herstellers, Download-Tabelle auslesen; KWC/DELABIE offen unter `kwc-professional.com/assets-original/products/<ArtNr>/` (belegt 20.08.2026, BS302) | Fachhandel-Portal (Sanitas Troesch, heinze.de, ais-online.de) | BIM-Portale (bimobject) | Anfrage beim Lieferanten |
 | CAD: Vektor-PDF oder Fremd-DXF nach DWG | Skill `pdf2dwg` (venv `~/.venvs/pdf2dwg`, ezdxf + LibreDWG) | | | Original-DXF unverändert weitergeben |
-| CAD: 3D-Hersteller-DWG (ACIS) nach 2D-Plan (Grundriss/Ansicht/Schnitt) | **Rhino 8 an der besetzten Station**, Import + `Make2D` (4 Ansichten Europa) + `SimplifyCrv`/`Join` + Export R2013 | Rhino skriptgesteuert via `rhinocode` (nur wenn dialogfrei, siehe unten) | Massbild aus dem Hersteller-Datenblatt nachzeichnen | Massblatt beim Lieferanten anfordern |
+| CAD: 3D-Hersteller-DWG (ACIS) nach 2D-Plan (Grundriss/Ansicht/Schnitt) | **Rhino 8 an der besetzten Station**, Import + `Make2D` (4 Ansichten Europa) + `SimplifyCrv`/`Join` + Export R2013 | Rhino skriptgesteuert via `rhinocode` an der besetzten Station (belegt 20.08.2026, ein Dialogklick beim Erstimport) | Massbild aus dem Hersteller-Datenblatt nachzeichnen | Massblatt beim Lieferanten anfordern |
 
 **Zu Zeile «CAD»:** die belegten Sackgassen und die Verifikations-Falle dieses Wegs stehen
 vollständig in `skills/pdf2dwg/SKILL.md` (Abschnitt «Grenzen») und werden hier bewusst nicht
@@ -85,6 +85,40 @@ danach das Dokument, weil Rhino den modalen Dialog «AutoCAD Import Options» ze
 Mini ist der nicht bedienbar, da die Shell dort keine Bildschirmaufnahme hat (`screencapture`
 scheitert mit «could not create image from display»). **Rhino-Arbeit an Hersteller-DWGs gehört
 deshalb an die Station, an der jemand sitzt.**
+
+**Nachtrag MacBook Pro (belegt 20.08.2026, derselbe Fall BS302, Ableitung erfolgreich
+abgeschlossen).** Der Weg ist an der besetzten Station vollständig gangbar, und zwar
+skriptgesteuert, nicht von Hand:
+
+- **Die CLI startet zuerst gar nicht.** `rhinocode` ruft eine `RhinoCode.dll` auf, die
+  `Microsoft.NETCore.App 7.0.0` verlangt; mitgeliefert ist nur 8.0.14. Der Aufruf endet mit
+  «You must install or update .NET». Abhilfe ohne jede Installation: `DOTNET_ROLL_FORWARD=Major`
+  vor den Aufruf setzen. Ohne diese Variable sieht der Weg tot aus, obwohl er offen ist.
+- **Der Import-Dialog kommt nur beim Erstkontakt.** Nach einer einzigen Bestätigung von Hand
+  liefen alle weiteren `_-Import`- und `_-Export`-Aufrufe im Dash-Modus dialogfrei. Die
+  Sackgasse vom Mac Mini betrifft also den ersten Import, nicht den Weg an sich.
+- **`doc.Import()` meiden.** Stattdessen
+  `Rhino.RhinoApp.RunScript('_-Import "<pfad>" _Enter', True)`. Dieser Weg schliesst das
+  Dokument nicht, anders als die RhinoCommon-Methode auf dem Mac Mini.
+- **Make2D über die API statt über den Befehl.** `Rhino.Geometry.HiddenLineDrawing` mit
+  `HiddenLineDrawingParameters` liefert die Projektion samt Sichtbarkeitsklassifikation
+  (`Visible`, `Hidden`, `Duplicate`, `Projecting`) und über `hld.WorldToHiddenLine` die
+  Projektionsmatrix, mit der sich Schnittkurven in dieselbe Zeichenebene bringen lassen.
+  Dialogfrei und vollständig steuerbar. Zwei Fallen dabei: `Flatten = True` entfernt die
+  Tiefe **nicht** (zusätzlich `Transform.PlanarProjection` anwenden), und
+  `Brep.Trim(Plane, tol)` liefert für Körper, welche die Ebene gar nicht schneiden, ein
+  **leeres** Ergebnis statt des Körpers selbst. Wer im Schnitt nur trimmt, verliert damit
+  still alles, was vollständig hinter der Ebene liegt.
+- **Export ohne Schemawahl schreibt AutoCAD 2007 (`AC1021`), nicht R2013.** Der Dash-Befehl
+  nimmt kommentarlos das Schema «Standard». Für den Zweck genügt das: die Prüfung ergab
+  191 Bögen, 233 Linien, 62 Polylinien und nur 12 NURBS-Kurven, ArchiCAD liest 2007 ebenso
+  zuverlässig. Wer R2013 braucht, ruft `Export` ohne Bindestrich auf und wählt im Dialog.
+  Der Dash-Prompt bietet die Option an (`Datei anhand Schema "Standard" schreiben
+  ( Schema AusIni )`); die gültigen Schemanamen liessen sich auf der Platte nicht finden.
+- **LibreDWG und das venv `~/.venvs/pdf2dwg` gibt es auf dem MacBook Pro nicht**, nur auf dem
+  Mac Mini. Für eine DWG-Kontrolle auf dieser Station taugen zwei Ersatzwege: Rückimport nach
+  Rhino (zeigt Geometrietypen, Layer und Bounding-Box) und die Formatkennung direkt aus dem
+  Dateikopf, `head -c 6 datei.dwg` (`AC1021` = 2007, `AC1027` = 2013, `AC1032` = 2018).
 
 ---
 
