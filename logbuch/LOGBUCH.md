@@ -5,6 +5,124 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Radar-Briefing 20.08.2026 (06:55) — still ins Logbuch, kein Versand
+
+Der Hub-Chef-Lauf vom 19.08. hat stattgefunden und um 08:55 gesendet, und es liegt kein Punkt vor,
+der vor 08:39 Handeln verlangt. Damit gilt der Regelfall: dieses Briefing geht nicht als Mail
+hinaus, sondern steht hier zur Übernahme in das eine Tagesbriefing.
+
+### Erledigt seit gestern
+
+**Die Baufreigabe für das KISPI PPTS ist erteilt.** RJ hat am 19.08. um 09:59 an Spahic, Würsch und
+Spörri den Verlaufsauszug der eBaugesucheZH-Plattform weitergeleitet: Entscheid positiv, Datum des
+Entscheides 19.08.2026, Entscheidbehörde AfB Baubewilligungen. Der Weg dahin ist lückenlos belegt,
+vom Ultimatum um 08:26 über die Mail ans AfB um 08:48 und 08:57 bis zur Meldung um 09:59.
+
+T. Stubbe (UGZ) hat am 19.08. um 17:53 die Auflagenerfüllung BE 1171/26 Ziffer II.1.c) schriftlich
+bestätigt und hält den Sitzungswunsch für heute 10:00 selbst für hinfällig. Er nennt als Grund, man
+habe den Sachverhalt am Vormittag telefonisch geklärt. Der gestern empfohlene Anruf vor 10:00 hat
+also stattgefunden und gewirkt.
+
+Der Türbuch-Termin vom 19.08. 15:00 ist gehalten, F. Würsch hatte um 09:18 zugesagt. Das Ergebnis
+ist bereits weitergetragen: RJ hat um 16:02 an L. Hiltmann (TeKoSi) die Grundlagen gesendet und die
+Zusendung des korrigierten Türkonzepts bis Montag 24.08. verlangt.
+
+Die offene Bringschuld beim Estermann-Termin ist erfüllt. Stadelmann hat sich bei Spörri gemeldet,
+und Spörri hatte den Auftrag für die Abbrucharbeiten schon am 18.08. um 09:16 erteilt.
+
+Der Brandschutz-Strang Trennwand Speiseraum ist auf die Bauleitung übergeben: RJ hat am 19.08. um
+10:53 nach Rücksprache mit J. Ziegel vier Punkte an M. Spörri gesetzt, vom Verfüllen der
+Halfenschienen-Hohlräume bis zum Nachweis durch Estermann.
+
+### Aus unseren Gesprächen
+
+Den vierten Tag in Folge liegt kein echtes Gespräch im Fenster; alle Sitzungen sind Routineläufe.
+Drei ihrer Befunde sind trotzdem operativ.
+
+**Honorarofferten.** Der Skill für die SIA-102-Honorarberechnung berief sich auf eine Fundstelle,
+die es nicht gibt. Die Herkunftsangabe ist korrigiert, keine einzige Zahl wurde angetastet. Offen
+und bei Raphael: auf welche Grundlage sich JANS künftig beruft, entweder SIA 102:2014 Ziffer 7.7
+oder die ausdrückliche Deklaration als JANS-Eigenkonvention. Betroffen ist auch ein Mail-Baustein,
+der dieselbe Behauptung an Bauherrschaften trägt.
+
+**Brandschutz, sofort wirksam.** Von 35 VKF-Publikationen mit Destillat beruhten 23 auf einer
+überholten Fassung. Bis zur Nachführung ist jede VKF-Aussage gegenzulesen. Konkret geändert hat
+sich unter anderem die Teilrevision der Richtlinien 12-15 und 26-15, in Kraft seit 01.04.2026.
+
+**SharePoint-Speicher.** Die Restlaufzeit bis zum vollen Pool ist in sechs Tagen von 50 auf rund
+16 Tage gefallen, Stand 80.1 Prozent. Der Zuwachs von 13.29 GB in 24 Stunden ist zu 99.8 Prozent
+reiner Versionsverlauf auf einer einzigen Site. Der Hebel bleibt derselbe wie am 13.08.: das
+Tenant-Versionslimit im Admin Center auf «Automatisch» stellen.
+
+### Überfällig
+
+Die Planfreigabe der Jegen-Prinzippläne liegt weiterhin bei Raphael. Bei acht Wochen Lieferfrist ab
+Freigabe und erfolgter Massaufnahme war der Stichtag der 17.08.; jeder weitere Tag schiebt den
+Montagestart vom 12.10.
+
+Die UBS-Kapitaleinzahlung auf das Konto der Raphael Jans AG steht unverändert aus und hält die
+ganze Kette aus Bescheinigung, Notariat, Handelsregistereintrag und operativem Konto auf.
+
+Die Debitoren-Aufsicht ist den zehnten Tag blind, bexio antwortet mit HTTP 401. RE-00100 über
+CHF 13'120.00 erreicht heute das Ende der Zahlungserinnerungsfrist und verfällt damit unverifiziert.
+RE-00098 und RE-00099 über zusammen CHF 17'280 sind seit dem 12.08. überfällig. Ein neuer Personal
+Access Token in `~/.bexio.env` löst es, Warten hilft nicht.
+
+### In den nächsten 7 Tagen
+
+Heute Donnerstag 20.08., 13:00 bis 14:00: Koordinationssitzung Gruner / Jans / KISPI. Dort steht die
+Standmeldung zur Leitungsversetzung an, die RJ selbst erbeten hat.
+
+Morgen Freitag 21.08., ab 06:30: Estermann bringt die RHS ins OG1 ein, die langen Elemente mit
+5400 und 4400 mm über das runde Treppenhaus. Vorarbeiter vor Ort ist T. Tus, 079 487 50 10. Am
+selben Tag folgen Detailanzeichnung und Rückbauvorbereitung. Das Register führte diesen Termin
+bisher auf dem 31.08., das war falsch.
+
+Freitag 21.08., 10:00: Baustellenbegehung Kispi Zürich.
+
+Montag 24.08., 09:00: Abgleich und Status PPTS. Am selben Montag läuft die von RJ gesetzte Frist
+für die Zusendung des korrigierten Türkonzepts durch TeKoSi ab.
+
+Dienstag oder Mittwoch, 25./26.08.: effektiver Rückbau der Leichtbauwände samt Abschaltung der
+Brandmeldeanlage.
+
+Mittwoch 26.08., 13:00: PPTS Treffen mit O. Stadelmann auf der Baustelle, von RJ bereits zugesagt.
+
+Um den 25.08. herum reisst der SharePoint-Speicher voraussichtlich die 88-Prozent-Marke.
+
+### In Beobachtung
+
+Von den vier Punkten des Halfenschienen-Auftrags blockiert einer die eigene Arbeit: ohne die genaue
+Position des LBS-Unterzugs kann der Anschluss nicht festgelegt werden. Ebenfalls ausstehend sind
+Spörris Terminvorschläge für die Baustellenbesichtigung mit Ziegel.
+
+Stubbe erwartet eine Teams-Einladung, falls das Gespräch von heute 10:00 trotz erteilter Freigabe
+geführt werden soll. Ohne Einladung entfällt es stillschweigend.
+
+Auf dem Mac Mini ist Tailscale gestoppt. Damit fallen der Dispatch-Weg vom Handy, der
+remote-tasks-Weg von claude.ai/code und der sofortige NAS-Commit aus; der 15-Minuten-Cron fängt die
+Schreibvorgänge auf. Ein Befehl auf dem Mini behebt es.
+
+Unverändert offen und ohne neues Datum: die SVA-Mahnung im AHVeasy-Portal, die OneDrive-Quarantäne
+auf dem Mac Mini, der Kürzungs-Entwurf für CLAUDE.md, der Normen-Kaufentscheid und die
+Thalwiler Stränge Bohlweg 3.
+
+### Vorschlag Kalendereinträge
+
+Freitag 21.08., 06:30 bis 08:00: RHS-Anlieferung Estermann, KISPI OG1, Kontakt T. Tus
+079 487 50 10. Der Termin steht in keinem Kalender.
+
+Montag 24.08., ganztägig: Frist TeKoSi, korrigiertes Türkonzept z.H. Bauherrschaft.
+
+Dienstag 25.08., ganztägig: Beginn Rückbau Leichtbauwände und Abschaltung Brandmeldeanlage.
+
+### Token-Tempo
+
+Vortag 19.08.: MacBook Pro 131.3 Mio Tokens (109.75 USD API-Äquivalent), Mac Mini 42.2 Mio Tokens
+(27.51 USD), zusammen 173.5 Mio Tokens und 137.26 USD.
+
+---
+
 ## Radar-Briefing 19.08.2026 (06:55) — still ins Logbuch, kein Versand
 
 Der Hub-Chef-Lauf vom 18.08. hat stattgefunden und um 08:48 gesendet, es liegt kein Punkt vor,
