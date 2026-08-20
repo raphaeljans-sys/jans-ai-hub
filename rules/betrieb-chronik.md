@@ -1745,3 +1745,22 @@ trinkt.
 
 Die uebrigen Aufsichts-Takte bleiben unveraendert; `vollgas-fruehwarnung` (taeglich 06:25)
 ist weiterhin der Kanal, wenn das Kontingent kippt.
+
+## 260821 — MacBook Pro: Bildschirmschoner-Waechter trotz Universal-Control-Assertion
+
+Der Bildschirmschoner startete nie, obwohl `idleTime` korrekt auf 3600 s stand: Universal
+Control haelt dauerhaft eine `PreventUserIdleDisplaySleep`-Assertion
+(`com.apple.universalcontrol.preventDisplaySleep`, laufend erneuert), die neben der
+Display-Abschaltung auch den Schoner-Start unterdrueckt. Universal Control abzuschalten kam
+nicht in Frage (Entscheid Raphael 21.08.2026: die zusammenhaengenden Bildschirme sind wichtiger).
+
+Eingriff: LaunchAgent `ch.jans.screensaver-idle` (StartInterval 60) ruft
+`~/bin/screensaver-idle-watchdog.sh`; das Script liest die Leerlaufgrenze aus den
+Systemeinstellungen (`defaults -currentHost read com.apple.screensaver idleTime`), misst
+`HIDIdleTime` und startet bei Erreichen der Grenze die `ScreenSaverEngine` direkt. Damit ist der
+Schoner unabhaengig vom unterdrueckten Idle-Timer. Ruhemodus bleibt unangetastet
+(`SleepDisabled 1`), laufende Prozesse werden nicht beruehrt. Log:
+`~/Library/Logs/screensaver-idle.log`.
+
+Rueckbau: `launchctl bootout gui/$(id -u)/ch.jans.screensaver-idle`, danach Plist und Script
+loeschen. Nur MacBook Pro; Mac Mini nicht ausgerollt.
