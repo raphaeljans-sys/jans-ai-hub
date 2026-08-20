@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.08.2026 16:12:38
+Stand: 20.08.2026 16:22:55
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub//claude/worktrees/2d/plans/sink/bs302/0e523d  (letzte Aktivitaet 16:12)
+- Developer/jans/ai/hub//claude/worktrees/2d/plans/sink/bs302/0e523d  (letzte Aktivitaet 16:21)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 16:12:38
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- d5b2ab46 nas-selfcommit: 5 Datei(en) 2026-08-20 16:00
+- 06df323b WEGE-Register CAD: 3D-Hersteller-DWG nach 2D-Plan an der besetzten Station belegt gangbar (Fall BS302, 2619 KISPI) - rhinocode braucht DOTNET_ROLL_FORWARD, Import-Dialog nur beim Erstkontakt, HiddenLineDrawing-API statt Make2D-Befehl, Fallen bei Flatten und Brep.Trim, Export schreibt AC1021, LibreDWG fehlt auf dem MacBook
