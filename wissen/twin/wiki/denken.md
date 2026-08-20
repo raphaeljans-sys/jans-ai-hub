@@ -1,9 +1,9 @@
 ---
 title: Denken & Argumentation
 status: established
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 gewichtung: authentisch
-sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
+sources: [260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260725-mailbatch-64.md, 260723-nachtrag-batch50.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714-mailbatch-48.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-32.md, 260607-seed-korpus-mails.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260621-mailbatch-12.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260706-mailbatch-26.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-07-14h_fidelity.md]
 links: [[fachsignatur]], [[arbeitsweise]], [[haltung]]
 ---
 
@@ -938,3 +938,25 @@ mit Herr ». Die 19 Minuten später gesendete Fassung führt denselben Satz zu E
   Der Zwillings-Entwurf desselben Threads setzt an dieser Stelle gar keine Frist, sondern fragt
   «sagen Sie mir bitte, bis wann». Quelle: 17.08.2026 authentisch gegen 18.08.2026
   `claude-aera`.
+
+- **Die Folge wird nicht angedroht, sondern terminiert.** «Wenn bis heut 12:00 Uhr keine
+  Baufreigabe erteilt wird, beantrage ich **jetzt** eine Sitzung mit <Amtsleitung> sowie
+  Vertretter der Bauherrschaft. **Terminvorschlag: Donnerstag, 20.08.26 10:00 Uhr.**» Datum und
+  Uhrzeit der Eskalationsstufe stehen fest, bevor die Frist ueberhaupt ablaeuft. Das «jetzt»
+  macht den Antrag zur bereits vollzogenen Handlung, nicht zur Moeglichkeit. **Schaerfste
+  bisher belegte Form der Entscheidungsgabel** (vgl. den Marker vom 18.08.): hier hat auch der
+  unerwuenschte Ausgang schon einen Kalendereintrag. Quelle: 19.08.2026, authentisch.
+
+- **Der Vorwurf steht als Satzpaar vor der Frist, nicht als Adjektiv darin.** «Sie haben mir
+  versprochen die Baufreigabe zu erteilen. Dies ist bis dato nicht erfolgt.» Zwei nackte
+  Tatsachensaetze, Zusage und Ausbleiben, ohne ein einziges wertendes Wort. Gleiche Bauart wie
+  «Die Folge im Praesens als Begruendung» (17.08.): **die Wertung entsteht aus der Reihenfolge,
+  nicht aus dem Vokabular.** Quelle: 19.08.2026, authentisch.
+
+- **Die Frist wird von hinten hergeleitet, in drei Tatsachensaetzen.** Nach der Bitte um
+  Zusendung «bis am Montag den 24.08.26» folgt kein Nachdruck, sondern die Rechnung: «Das
+  Tuerkonzept ist integraler Werkplan-Bestandteil des Tuerbauers <Firma>. / Die Lieferfristen
+  dieser Unternehmer sind 8 Wochen nach *Gut zur Ausfuehrung*. / Das Projekt wird im 2026
+  fertiggestellt und bezogen.» Der Empfaenger rechnet selbst nach und kommt auf dieselbe Frist.
+  Dritter unabhaengiger Beleg des Markers «Die Frist traegt ihren Zweck mit». Quelle:
+  19.08.2026, authentisch.

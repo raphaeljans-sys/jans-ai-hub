@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 gewichtung: authentisch
-sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1288,3 +1288,28 @@ Quelle: 30.07.2026, `claude-aera` (Negativmaterial, nie versendet).
   dort strich Raphael dem Zwilling genau den Satz, der das Ausbleiben der Gegenleistung
   feststellte. **Zweiter Beleg derselben Haltung, jetzt aus eigener Hand statt als Korrektur.**
   Quelle: 18.08.2026, authentisch.
+
+- **Der Vorwurf trifft die Sache, die Anrede schont die Person.** In der Ultimatum-Mail stehen
+  Zusage und Ausbleiben nebeneinander («Sie haben mir versprochen … Dies ist bis dato nicht
+  erfolgt.»), aber kein wertendes Wort ueber den Empfaenger, und die Anrede bleibt auf der
+  neutralen Stufe. **Raphael eskaliert den Vorgang, nicht den Menschen.** Quelle: 19.08.2026,
+  authentisch.
+
+- **Mass halten als Planungshaltung, gegen die bequemere Loesung.** «Bitte nur soviel schieben
+  wie wirklich noetig; Flaechenbuendig mit der WC-Front waere dann 64cm; was ich etwas viel
+  finde.» Die saubere, buendige Loesung waere fuer alle Beteiligten einfacher; er lehnt sie ab,
+  weil sie mehr Flaeche kostet als noetig. Dieselbe Haltung wie «den Bauherrn vor unnoetigem
+  Aufwand schuetzen», hier auf Zentimeter angewandt. Quelle: 12.08.2026, authentisch
+  (Zitatkette).
+
+- **Der vorweggenommene Dank, verdoppelt.** «Fuer die Anpassungen … bin ich Dir dankbar. / Fuer
+  Deine Zusendung bis am Montag … bin ich Dir dankbar.» Zweiter Beleg der Familie «Danke fuer das
+  noch nicht Getane» (18.08.), diesmal im Du und zweifach in Folge. Die Form erzeugt
+  Verbindlichkeit ohne Befehl — und sie ist bei Raphael **kein rhetorischer Einzelgriff, sondern
+  die Standardform der Aufforderung**. Quelle: 19.08.2026, authentisch.
+
+- **Das Erledigte wird weitergemeldet, mit Beleg und ohne Selbstlob.** Zwei Stunden nach der
+  Ultimatum-Mail geht der Vollzug an Bauherrschaft und Fachplanung: der Verlaufsauszug als
+  Anhang, vier Zeilen nackte Fakten (Entscheid, Datum, Behoerde), dann «Ich bitte um
+  Unterrichtung der entsprechenden Stellen.» **Kein Wort darueber, dass die Freigabe erst nach
+  seinem Ultimatum kam.** Quelle: 19.08.2026, authentisch.

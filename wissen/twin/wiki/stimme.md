@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-19
+last_updated: 2026-08-20
 gewichtung: authentisch
-sources: [260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -3941,3 +3941,45 @@ vierzehnte Falle). Die folgenden Marker sind deshalb nicht erschlossen, sondern 
   gegen 17.5 W), anders als in den Batches 96/97; die Satzlaenge bleibt unbelastbar
   ([[QUESTIONS]] 260814 #3). Werkzeug in diesem Lauf ergaenzt: `stilmetrik.py` kannte «Lgr»
   nicht.
+
+- **Die Eskalation aendert den Ton, nicht die Anrede.** Die haerteste Ausgangsmail des Korpus
+  (Ultimatum an ein Amt, Vorgesetzte und Bauherrschaft im Verteiler) beginnt mit «Guten Tag Herr
+  <Vorname> <Nachname>» — der **niedrigsten** Gewichtsstufe der Skala — und endet mit
+  «Freundliche Gruesse / Raphael Jans», ohne Signaturblock. Dazwischen stehen Vorwurf, Frist und
+  terminierte Folge. **Der Rahmen bleibt neutral, waehrend der Kern zuschlaegt.** Quelle:
+  19.08.2026, authentisch.
+
+- **«Lgr», zweiter Beleg — und die Gruss-Stufe folgt der Kuerze, nicht dem Register.** Batch 98
+  belegte die Kurzform an einem **Sie**-Kontakt, hier steht sie am Ende einer Mail an einen
+  **Du**-Kontakt, direkt nach einem einzeiligen Nachsatz. Beide Male ist die Mail an dieser
+  Stelle kurz und operativ. Quelle: 19.08.2026, authentisch.
+
+- **Der Vorschussdank, zweimal unmittelbar hintereinander.** «Fuer die Anpassungen … **bin ich
+  Dir dankbar**. / Fuer Deine Zusendung bis am Montag den 24.08.26 … **bin ich Dir dankbar**.»
+  Zwei Bitten in derselben Konstruktion, ohne Variation. Ein geglaetteter Text wuerde die zweite
+  umformulieren — Raphael nicht. Vgl. [[haltung]] «Danke fuer das noch nicht Getane». Quelle:
+  19.08.2026, authentisch.
+
+- **Die Fehlerdichte ist die zuverlaessigste Handsignatur, und sie ist hoch.** Gold dieses
+  Fensters: «bis **heut** 12:00 Uhr», «**Vertretter** der Bauherrschaft», die Namensinversion
+  «<Nachname> <Vorname>» beim Amtsleiter, «mit **Herr** <Name>» statt «Herrn» (2×),
+  «eBaugesuchZH **Platform**», «bis **am** Montag den 24.08.26». Rund **2.9 Auffaelligkeiten je
+  100 Woerter**; im Kontroll-Gold der Zitatkette (12./13.08.) sind es **5.7**. Der
+  Zwillings-Block derselben Mail: **0.0 auf 200 Woerter**. Quelle: 19.08.2026, Gold gegen
+  `claude-aera`.
+
+- **Mikro-Metrik Batch 99** (`stilmetrik.py`; Gold 210 W, Zwilling-Verdacht 200 W, Kontroll-Gold
+  265 W):
+
+  | | Gold 19.08. | Zwilling | Kontroll-Gold 12./13.08. |
+  |---|---|---|---|
+  | Satzlaenge oe | 14.0 W | 14.3 W | 16.6 W |
+  | Du-Gross-Quote | 1.0 | 1.0 | 1.0 |
+  | Tausender-Apostroph | 0 | 0 | 0 |
+  | Ellipsen /1000 W | 0 | 0 | 0 |
+  | Gruesse | «Freundliche Gruesse» 2x, **«Lgr» 1x** | keiner | «Lieber Gruss» 1x |
+  | **Fehler je 100 W** | **2.9** | **0.0** | **5.7** |
+
+  **Satzlaenge und Du-Gross-Quote trennen in diesem Fenster nichts** (14.0 gegen 14.3, 1.0 gegen
+  1.0) — beide bleiben unbelastbar ([[QUESTIONS]] 260814 #3). Der einzige quantitative
+  Diskriminator ist die Fehlerdichte.

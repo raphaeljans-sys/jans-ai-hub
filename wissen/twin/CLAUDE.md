@@ -753,6 +753,44 @@ Zwei Dinge macht dieser Beleg haerter als der erste:
    genannten Projekt» → «im Projekt <Nummer> <Bezeichnung>») samt nachgetragenem Betreff. Das ist
    `korrektur-delta` im engsten Sinn und als solches verbucht — **nicht** als Gold.
 
+**Sechzehnte Falle, neu 20.08.2026 (Batch 99) — der billigste Diskriminator des ganzen Korpus
+steht in den METADATEN: `body.contentType` trennt Raphaels Apple-Mail-Hand vom Hub-Draft.**
+Die vierzehnte Falle ordnet den Apple-Mail-Kanal (`<UUID@raphaeljans.ch>`) pauschal dem
+Hub-`osascript`-Draft zu. Dieses Fenster widerlegt das dokumentarisch: die zwei schaerfsten
+Gold-Mails des 19.08. (08:26 Ultimatum ans Amt, 08:48 an den Kreisarchitekten) tragen
+Apple-Mail-Message-IDs und sind zweifelsfrei Raphaels eigene Hand — **das Sendejournal desselben
+Vormittags nennt sie ausdruecklich** («er stammt aus **Deiner eigenen** Mail von 08:26», «**Du
+hast** um 08:26 an acht Adressaten geschrieben»). Beweis ausserhalb des Textes, kein Stilurteil.
+
+Der trennende Marker ist nicht die Message-ID, sondern das Feld daneben:
+
+| | Kanal | `body.contentType` | Body |
+|---|---|---|---|
+| **Raphael in Apple Mail** | `<UUID@raphaeljans.ch>` | **`text`** | reiner Plaintext, keine Markup-Huelle |
+| **Hub-`osascript`-Draft** | `<UUID@raphaeljans.ch>` | **`html`** | `Apple-Mail-URLShareWrapperClass` auf jedem `<p>` |
+
+**Der Hub kann `contentType: text` nicht erzeugen** — der `osascript`-Draft setzt immer HTML mit
+Wrapper. Das Feld steht in jedem `read_resource`-Ergebnis, kostet keine Body-Analyse und ist
+nicht faelschbar. Belege: drei auf der Gold-Seite (19.08. 08:26, 08:48, 08:57), einer auf der
+Zwillingsseite (19.08. 06:55), dazu alle Wrapper-Belege der Batches 95–98 rueckwirkend als
+Gegenprobe.
+
+**Reichweite: Mail, und ausschliesslich fuer den Apple-Mail-Kanal.** Ueber Exchange gesendete
+Mails sind immer HTML — dort trennt `contentType` nichts, und es bleibt bei den Markern der
+vierzehnten (Signaturform) und fuenfzehnten Falle (Web-Tokens).
+
+**⚠ Konsequenz fuer den Bestand, offen:** in den Batches 95 bis 98 wurde das Feld nie gelesen.
+Wo dort eine Apple-Mail-Mail allein wegen des Kanals als Zwillingstext verbucht wurde, ist die
+Zuordnung nachzupruefen — **ein faelschlich verworfener Gold-Text ist teurer als ein fehlendes
+Fenster** ([[QUESTIONS]] 260820 #1).
+
+**Kandidat, nicht aufgenommen: `text-transform:none` als Naht-Marker im Exchange-Kanal.** In der
+Mail vom 19.08. 10:53 steht die Eigenschaft auf **jedem** Absatz des eingefuegten Hub-Blocks
+01–04 und **auf keinem** der zwei handgetippten Schlussabsaetze — die achte Falle (Raphaels
+Rahmen um ein eingesetztes Fragment) waere damit erstmals mechanisch lokalisierbar, auch ohne
+Wrapper. Nach Sperrlisten-Disziplin reicht ein Beleg nicht; Gegenprobe gegen eine vollstaendig
+selbst getippte Outlook-Mail steht aus ([[QUESTIONS]] 260820 #2).
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

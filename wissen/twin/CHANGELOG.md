@@ -4,6 +4,31 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-20 — Batch 99: Sent Items `rj@` (Fenster 19.–20.08.2026)
+
+12 Sent Items gelistet, `Drafts` gegengeprueft (**kein Entwurf im Fenster**), **6 Volltexte
+gelesen**: 4 `authentisch`, 1 `claude-aera`, 1 `gemischt` (achte Falle). Token-Sweep mitlaufend:
+**6 von 6 Bodies sauber**. 22 Marker in allen sechs Facetten, 4 Fragen, 3 Kontakt→Register-Paare.
+
+**Kernbefunde:** (1) **Sechzehnte Falle — `body.contentType` schlaegt die Message-ID.** Raphael
+tippt in Apple Mail `text` (Plaintext), der Hub-`osascript`-Draft erzeugt immer `html` mit
+Wrapper. Damit ist die pauschale Kanal-Zuordnung der vierzehnten Falle widerlegt — belegt durch
+das Sendejournal desselben Vormittags, nicht durch Stilurteil. Billigster Diskriminator des
+Korpus, steht in jedem `read_resource`-Ergebnis. **Vorrangige Folgeaufgabe:** die
+Apple-Mail-Zuordnungen der Batches 95–98 nachpruefen, dort wurde das Feld nie gelesen.
+(2) **Selbst-Delta-Vollendung nach acht Tagen, woertlich** — der am 11.08. bei «Nach Ruecksprache
+mit Herr » abgebrochene Entwurf wird am 19.08. exakt so fortgesetzt; der Abbruch war das Warten
+auf den Beleg, nicht die Verwerfung des Satzes. (3) **Die Anrede misst das Gewicht der Beziehung,
+nicht die Schaerfe des Anliegens** — die haerteste Mail des Korpus beginnt mit der untersten
+Stufe «Guten Tag»; eskaliert wird ueber den Verteiler. (4) Der einzige quantitative
+Diskriminator ist die **Fehlerdichte** (2.9 Gold / 0.0 Zwilling / 5.7 Kontroll-Gold je 100 W);
+Satzlaenge und Du-Gross-Quote trennen in diesem Fenster nichts.
+
+**Register gepflegt:** `rules/anrede-kontakte.md` um drei belegte Kontakte ergaenzt (Spoerri Du,
+Ziegel Du, Hansen Sie). **⚠ Gemessen, nicht fortgeschrieben:** der DNA-Auto-Block steht bei
+**33993 B von 34000 B (Reserve 7 B)** — der naechste Fidelity-Lauf mit neuem Do/Don't-Marker
+bricht am Riegel ab; Entscheid liegt bei Raphael (QUESTIONS 260818b #7).
+
 ## 2026-08-19 — Batch 98: Sent Items + `Drafts` `rj@` (Fenster 17.–19.08.2026)
 
 20 Sent Items gelistet, `Drafts` Seite 1 von 112, **8 Volltexte gelesen**: 6 `authentisch`,

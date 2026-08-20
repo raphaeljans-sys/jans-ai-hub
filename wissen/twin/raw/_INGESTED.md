@@ -1467,3 +1467,88 @@ jetzt **mitlaufend** an jeder gelesenen Mail, zusaetzlich ein Rueckwaerts-Tag ab
 Lauf; (3) `Drafts` bleibt ergiebig — 112 Eintraege, rund 65 mit Drittempfaengern, gelesen sind 9.
 **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND die
 Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 99 (20.08.2026) — Sent Items `rj@`, Fenster 19.–20.08.2026
+
+**Erhoben:** Sent Items 19.–20.08.2026 vollstaendig (`totalResultCount` **12**; der 20.08. trug
+zum Laufzeitpunkt 03:40 noch nichts), `Drafts` Seite 1 von **112** gegengeprueft — **kein
+einziger Entwurf im Fenster**, der neueste stammt vom 18.08. 06:48. **6 Volltexte gelesen**
+(5 gesendete Eigentexte, 1 Selbstmail als Sendejournal), dazu die Zitatkette der 10:53-Mail als
+Kontrollgruppe. **4 `authentisch` · 1 `claude-aera` · 1 `gemischt` (achte Falle).** 22 Marker in
+allen sechs Facetten, 1 neue Falle, 1 Detektor-Kandidat, 4 Fragen, 3 Kontakt→Register-Paare.
+Rohdatei `260820-mailbatch-99.md`.
+
+**Token-Sweep mitlaufend (Praxis seit Batch 98): 6 von 6 Bodies sauber.** Weder
+`font-claude-response-body` noch `text-[var(--accent)]`, weder `Anthropic Sans` noch
+`rgb(253,253,252)` oder `class="text-body"`.
+
+**Kernbefund 1 — die sechzehnte Falle: `body.contentType` schlaegt die Message-ID, und das ist
+der billigste Diskriminator des ganzen Korpus.** Die beiden schaerfsten Gold-Mails des 19.08.
+(08:26 Ultimatum ans Amt, 08:48 an den Kreisarchitekten) tragen **Apple-Mail**-Message-IDs — nach
+der vierzehnten Falle also Hub-Kanal — und sind zweifelsfrei Raphaels eigene Hand: **das
+Sendejournal desselben Vormittags nennt sie ausdruecklich** («er stammt aus Deiner eigenen Mail
+von 08:26»). Der trennende Marker ist `body.contentType`: Raphael tippt in Apple Mail
+**`text`** (reiner Plaintext), der Hub-`osascript`-Draft erzeugt immer **`html`** mit
+`Apple-Mail-URLShareWrapperClass`. Drei Gold-Belege gegen einen Zwillingsbeleg, plus alle
+Wrapper-Belege der Batches 95–98 rueckwirkend. Das Feld steht in jedem `read_resource`-Ergebnis
+und kostet keine Body-Analyse. **Offen und vorrangig:** in den Batches 95–98 wurde es nie
+gelesen — wo dort eine Apple-Mail-Mail allein wegen des Kanals verworfen wurde, ist die
+Zuordnung nachzupruefen ([[QUESTIONS]] 260820 #1). Volle Fassung in `CLAUDE.md`, sechzehnte Falle.
+
+**Kernbefund 2 — die Selbst-Delta-Vollendung nach acht Tagen, woertlich.** Die vierzehnte Falle
+dokumentiert einen abgebrochenen Exchange-Entwurf vom 11.08.2026, stehengeblieben bei «Nach
+Ruecksprache mit Herr ». Am 19.08. 08:48 geht an denselben Empfaenger: «Nach Ruecksprache mit
+Herr <Name> sind die UGZ Auflagepunkte erledigt.» **Der Abbruch war keine Verwerfung der
+Formulierung, sondern das Warten auf den Beleg** — die Autoritaetskette wird erst genannt, wenn
+sie belegt ist, und dann exakt so, wie sie acht Tage zuvor angesetzt war. Einzige bisher belegte
+Quelle fuer Revisionsverhalten ueber Tage.
+
+**Kernbefund 3 — das schaerfste Kontrollpaar steht in EINER Mail, und die Naht ist im CSS
+sichtbar.** Die 10:53-Mail traegt den Hub-Block «01 / 01.1 Ausgangslage / 01.2 Massnahme / 01.3
+Ziel / 01.4 Nachweis» (woertlich die Regel `dokument-layout-standard.md` vom 14.08.), **0 Fehler
+auf 200 W**, `text-transform:none` auf jedem Absatz — und darunter zwei handgetippte Absaetze
+(«Ich habe Dir noch den Werkplan … beigelegt.» / «Lgr») **ohne** diese Eigenschaft. In der
+Zitatkette derselben Mail steht Raphaels eigene Hand vom 12./13.08. mit **5.7 Fehlern je 100 W**
+und einer springenden Liste («1.», dann «C)», «D)»). `text-transform:none` als Naht-Detektor ist
+**Kandidat, nicht aufgenommen** (ein Beleg, Sperrlisten-Disziplin, [[QUESTIONS]] 260820 #2).
+
+**Kernbefund 4 — die Anrede misst das Gewicht der BEZIEHUNG, nicht die Schaerfe des Anliegens.**
+Praezisiert die Gewichtsstufen-Klausel aus Batch 98: die haerteste Mail des Korpus (Ultimatum,
+terminierte Eskalation, Vorgesetzte und Bauherrschaft im Verteiler) beginnt mit «Guten Tag Herr
+<Vorname> <Nachname>», der **untersten** Stufe. Im Konflikt greift Raphael nicht nach oben;
+«Geschaetzter» bleibt der Waerme vorbehalten. **Eskaliert wird ueber den Verteiler, nicht ueber
+die Sprache** ([[QUESTIONS]] 260820 #3 stellt die Gegenlesart zur Bestaetigung).
+
+**Kernbefund 5 — drei neue Kontakt→Register-Paare**, alle aus Raphaels eigener Hand: Michael
+Spoerri (Du, «Hoi Michi» routinemaessig, «Geschaetzter Michael» bei Substanz — vierter
+unabhaengiger Beleg der Anlassgewicht-Klausel **im Du**), Jens Ziegel (Du), Lars Hansen (Sie,
+auch im Konflikt). In `rules/anrede-kontakte.md` nachgetragen.
+
+**Mikro-Metrik** (`stilmetrik.py`; Gold 210 W, Zwilling-Verdacht 200 W, Kontroll-Gold 265 W):
+Satzlaenge oe **14.0 / 14.3 / 16.6 W**, Du-Gross-Quote **1.0 / 1.0 / 1.0**, Tausender-Apostroph
+0/0/0, Ellipsen 0/0/0. **Satzlaenge und Du-Gross-Quote trennen in diesem Fenster nichts** und
+bleiben unbelastbar ([[QUESTIONS]] 260814 #3). **Der einzige quantitative Diskriminator ist die
+Fehlerdichte: 2.9 / 0.0 / 5.7 je 100 Woerter.** Zweiter «Lgr»-Beleg des Korpus, diesmal an einen
+**Du**-Kontakt — die Gruss-Stufe folgt der Kuerze der Mail, nicht dem Register.
+
+**⚠ Gehirn NICHT neu kompiliert, jetzt siebter Batch in Folge — und der Riegel ist erreicht.**
+Batch 98 schrieb «33430 B, 570 B Reserve» fort. **Selbst gemessen am 20.08.2026 zwischen den
+Markern von `rules/jans-dna-facetten.md`: 33993 B von 34000 B, Reserve 7 B.** Der Fidelity-Lauf
+vom 19.08. 05:56 hat den Block um 563 B wachsen lassen; die fortgeschriebene Zahl war wieder
+einen Lauf alt — **dieselbe Falle, die Batch 98 selbst angeprangert hat.** Praktische Folge:
+**der naechste `twin-fidelity-review`, der einen Do/Don't-Marker ergaenzt, bricht am Riegel ab**
+(`build_dna.py` kuerzt bewusst nichts von selbst, er verlangt eine Entscheidung). Der Entscheid
+ueber Verdichtung, Verfallsregel oder erneutes Anheben liegt bei Raphael (QUESTIONS 260818b #7,
+mit dieser Messung geschaerft). Die Marker dieses Batches wirken derweil ueber die Twin-Agenten,
+die die Facetten-Artikel direkt lesen — sie sind vom Riegel nicht betroffen.
+
+**Lehre fuer dieses Trainingsprogramm:** die Blockgroesse wird **in jedem Lauf gemessen**, nie
+aus dem Vorbatch uebernommen. Messbefehl (misst zwischen den Markern, wie `build_dna.py`):
+`python3 -c "import io;t=io.open('/Volumes/daten/jans-ai-hub/rules/jans-dna-facetten.md',encoding='utf-8').read();print(len(t.split('<!-- BEGIN AUTO: facetten -->',1)[1].split('<!-- END AUTO: facetten -->',1)[0].strip().encode()))`
+
+**Naechstes Fenster:** (1) **Vorrangig** die `contentType`-Nachpruefung der Batches 95–98,
+**vor** dem naechsten Datumsfenster. (2) Danach sequenziell `rj@` 20.–26.08.2026. (3) Token-Sweep
+weiter mitlaufend. (4) `Drafts` bleibt ergiebig (112 Eintraege, gelesen sind 9) — **die Liste
+zeigt jetzt, dass dort auch versendete Hub-Chef-Selbstmails als Kopie liegen**; beim naechsten
+Zug nach Kanal UND Drittempfaenger filtern. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
+auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

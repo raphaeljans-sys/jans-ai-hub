@@ -3765,3 +3765,43 @@ nachfragen: wir haben daraus die Linie «der Bauherr entscheidet, Raphael bereit
 Oberbegriff ueber acht Belege gesetzt und die Grenze so gezogen — Zeichnen darfst Du zusagen,
 den Entscheid und die Rechtsschrift der Gegenseite nicht. Gibt es einen Fall, in dem Du den
 Entscheid bewusst vorwegnimmst, weil Warten teurer waere?*
+
+## 260820 (Batch 99) — vier Fragen, drei davon an den Harness
+
+**#1 (Echo-Schutz · an den Harness, dringend) — muessen die Apple-Mail-Zuordnungen der Batches
+95 bis 98 rueckwirkend geprueft werden?** In Batch 99 ist belegt: **`body.contentType`
+unterscheidet Raphaels Apple-Mail-Hand (`text`) vom Hub-`osascript`-Draft (`html` + Wrapper)** —
+drei Gold-Belege gegen einen Zwillingsbeleg, extern bestaetigt durch das Sendejournal desselben
+Vormittags. *Warum das die Planung aendert: das Feld steht in jedem `read_resource`-Ergebnis und
+wurde in den Batches 95 bis 98 schlicht nie gelesen. Die vierzehnte Falle hat den Apple-Mail-Kanal
+dort ueber die Message-ID zugeordnet — bei einer Plaintext-Mail ist diese Zuordnung falsch. Frage
+an den naechsten Lauf: die als `claude-aera` verworfenen Apple-Mail-Mails jener Batches auf
+`contentType` nachpruefen, bevor weitere Fenster vorwaerts gezogen werden. Ein faelschlich
+verworfener Gold-Text ist teurer als ein fehlendes Fenster.*
+
+**#2 (Echo-Schutz · Kandidat, nicht aufgenommen) — traegt `text-transform:none` als Klebe-Marker
+eingefuegter Bloecke?** In der 10:53-Mail vom 19.08. steht die Eigenschaft auf **jedem** Absatz
+des Hub-Blocks 01–04 und **auf keinem** der zwei handgetippten Schlussabsaetze. *Warum wir ihn
+nicht aufgenommen haben: ein Beleg, und die Sperrlisten-Disziplin (nach dem Guillemet-Fall
+03.08. und dem «du klein»-Fall 07.08.) verlangt eine Gegenprobe gegen die eigene Hand, bevor ein
+Signal echtes Gold abwerten darf. Konkret zu pruefen: traegt eine Mail, die Raphael in Outlook
+komplett selbst tippt, die Eigenschaft irgendwo? Faellt die Gegenprobe aus, ist es der erste
+mechanische Naht-Detektor INNERHALB des Exchange-Kanals.*
+
+**#3 (Beziehungsregister · Bestaetigung erbeten) — greifst Du im Konflikt bewusst zur neutralen
+Anrede?** Deine haerteste Mail des Korpus (Ultimatum ans Amt, Vorgesetzte und Bauherrschaft im
+Verteiler, 19.08. 08:26) beginnt mit «Guten Tag Herr <Vorname> <Nachname>» — der untersten Stufe
+Deiner Skala. *Warum wir nachfragen: wir haben daraus die Linie gezogen, dass die Anrede das
+Gewicht der BEZIEHUNG misst und nicht die Schaerfe des Anliegens, und dass «Geschaetzter» der
+Waerme vorbehalten bleibt. Die Gegenlesart waere: die neutrale Stufe ist hier ein bewusster
+Entzug von Waerme, also selbst ein Eskalationsmittel. Beide Lesarten fuehren zu verschiedenem
+Zwillingsverhalten, wenn er Dir kuenftig eine Mahnung entwirft.*
+
+**#4 (Arbeitsweise · Bestaetigung erbeten) — ist die Arbeitsteilung «Zwilling liefert die Sache,
+Du haengst die Beziehung an» gewollt?** Die 10:53-Mail traegt den Hub-Block 01–04 unveraendert;
+Deine Hand kommt erst in den letzten zwei Zeilen dazu («Ich habe Dir noch den Werkplan von
+<Firma> … beigelegt.» / «Lgr»). *Warum das den Zwilling naeher an Dich bringt: wenn das Dein
+gewollter Gebrauch ist, sollte er den Beziehungssatz und den Anhangshinweis kuenftig gar nicht
+mehr selbst formulieren, sondern die Stelle offen lassen. Wenn Du ihn dagegen nur deshalb
+ergaenzt hast, weil der Entwurf ihn vergessen hatte, ist es ein Fidelity-Mangel und gehoert
+behoben.*
