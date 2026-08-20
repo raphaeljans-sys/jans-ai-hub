@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 21.08.2026 01:07:29
+Stand: 21.08.2026 01:28:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 00:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 01:21)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.08.2026 01:07:29
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 520c49e0 Betriebs-Chronik 260821: Bildschirmschoner-Waechter MacBook Pro (Universal-Control-Assertion)
+- 7851cdfe nas-selfcommit: 2 Datei(en) 2026-08-21 01:15
