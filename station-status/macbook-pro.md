@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.08.2026 21:41:41
+Stand: 20.08.2026 21:51:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/kwc/sirius/bs302/kispi/cd9dd1  (letzte Aktivitaet 21:29)
@@ -12,4 +12,4 @@ Stand: 20.08.2026 21:41:41
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- dbcb0bf1 nas-selfcommit: 4 Datei(en) 2026-08-20 21:30
+- 4d8fd604 nas-selfcommit: 2 Datei(en) 2026-08-20 21:45
