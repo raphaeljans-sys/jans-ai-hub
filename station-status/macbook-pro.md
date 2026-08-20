@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 20.08.2026 03:42:12
+Stand: 20.08.2026 03:52:29
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:42)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:52)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 03:42:12
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 936b4d1f nas-selfcommit: 4 Datei(en) 2026-08-20 03:30
+- 16d7d6e3 twin-mail-training Batch 99: Fenster 19.-20.08.2026 (16. Falle: body.contentType als Kanal-Diskriminator)
