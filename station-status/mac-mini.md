@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 20.08.2026 08:10:21
+Stand: 20.08.2026 08:20:37
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 08:10:21
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 6f96b22f verzugscheck 20.08.: bexio weiterhin 401 (9. Lauf), RE-00100 Frist heute abgelaufen
+- 271f51a9 nas-selfcommit: 2 Datei(en) 2026-08-20 08:15
