@@ -7167,3 +7167,4 @@ oeffentlich recherchierbare Identitaetsfragen aus `wiki/QUESTIONS.md` per WebSea
 (Kapfinger_Otto, Krokodil, MPP, Meili Partner, Menz_Sascha) — Fortsetzung des Formats vom
 27.07.2026. Details und Quellen: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-19. Keine
 Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+- **2026-08-20 05:47 (Mac Mini Nachtschicht, Run 145):** KB `energie` — grösster Restposten `5.26PflanzenamBau.pdf` (Stadt Zürich, Pflanzen am Bau, 42 S.) destilliert; OneDrive-Platzhalter via M365-CLI-Zweitweg umgangen (zweite unabhängige Bestätigung dieses Fallbacks). Neues Destillat `pflanzen-am-bau-projektierungsgrundlagen-zh`, verlinkt in `dachbegruenung-gruendach`. Details: wissen/energie/CHANGELOG.md.

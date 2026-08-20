@@ -1,5 +1,35 @@
 # CHANGELOG
 
+## 2026-08-20 (Run 145, Nachtschicht Mac Mini 05:30-Fortsetzung) — Grösster Restposten `5.26PflanzenamBau.pdf` destilliert
+
+Priorität-4-Fortsetzung nach Run 144 (energie bleibt die einzige gültige Nachtschicht-Ziel-KB;
+bauprodukte seit 15.08. erledigt, grobkosten seit 13.08. erledigt, projekt-lessons seit 05.08.
+ausgesetzt). Nächste Priorität aus `pdf-inventar.md`: der grösste Einzelposten der Restliste,
+`5.26PflanzenamBau.pdf` (5,2 MB, Stadt Zürich, «Bauen und Oekologie», Projektierungsgrundlagen
+Pflanzen am Bau, 42 S.).
+
+**Beschaffungsproblem gelöst:** Datei lag als unmaterialisierter OneDrive-Platzhalter vor
+(Sparse-Datei, reine Nullbytes) — nicht durch Claude materialisierbar (Rule
+`interaktive-eingriffe`). Über den bereits in Run 144 genutzten Zweitweg beschafft: M365-CLI
+(`m365 spo file get`, Site `sites/PL`, Bibliothek `PL  Immobilienpreise` = intern die als
+«02_Recht_Norm» geführte Quelle). Damit ist dieser Weg jetzt zweimal unabhängig bestätigt als
+Fallback für OneDrive-blockierte PL-02-Dateien.
+
+Ein neues Destillat: `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]` — sechs extensive
+Flachdach-Begrünungssysteme (Warmdach/Verbunddach/Umkehrdach/Duodach/Plusdach/Doppeldach/
+Kaltdach) im Schichtaufbau, vier Kletterpflanzen-Typen (Schlinger/Ranker/Wurzelkletterer/
+Spreizklimmer) mit Untergrund-Eignung und Schadenverhütung, versickerungsfähige
+Aussenraumbeläge (Schotterrasen/Rasengittersteine/Steinpflaster), Baustoff-Bewertungstabelle.
+Status bewusst `speculative`: Quelle 1991-1997, Konstruktionsprinzipien zeitlos, aber alle
+SIA-Fundstellen (SIA 271 zurückgezogen, siehe `[[sia-271-2007]]`) und Primärenergie-/
+Materialwerte veraltet — im Destillat als Vorbehalt markiert. Verlinkt im bestehenden
+Wiki-Artikel `[[dachbegruenung-gruendach]]` als Konstruktions-Vertiefung. `pdf-inventar.md`
+und `destillate/INDEX.md` nachgeführt.
+
+**Rest der «19 echten Restwerke» unverändert offen** (18 nach diesem Lauf), grösster
+verbleibender Einzelposten `4.910998` Bytes `Allgemeines_Uebersicht.pdf` (laut Run 137 nur
+1 S., dann `06_Richtlinien/Minergie/` P1-Block).
+
 ## 2026-08-20 (Run 144, Nachtschicht Mac Mini) — Vollzugsordner Energie ZH vollständig erschlossen (letzte Lücke PDF-S. 43-68)
 
 Priorität-4-Trainingslektion: bauprodukte/grobkosten/projekt-lessons/immobilienbewertung/spec

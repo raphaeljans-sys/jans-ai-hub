@@ -922,7 +922,7 @@ vermerkt, kein Blocker für die tägliche Arbeit.**
 
 | Bytes | Pfad (PL-02) | Einordnung (ungeprüft, aus Dateiname/Grösse) |
 |---|---|---|
-| 5'235'353 | `/04_Merkblätter/eco/5.26PflanzenamBau.pdf` | grösster Restposten, Fachinhalt unbekannt |
+| 5'235'353 | `/04_Merkblätter/eco/5.26PflanzenamBau.pdf` | **[x] destilliert 20.08.2026 (Mac Mini Nachtschicht)** → `pflanzen-am-bau-projektierungsgrundlagen-zh` (Scan-PDF, 42 S. vollst.; OneDrive-Platzhalter blockiert, via M365-CLI `m365 spo file get` beschafft) |
 | 4'910'998 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Allgemeines_Uebersicht.pdf` | laut Run-137-Fund nur 1 S. (Faltblatt-Deckblatt GT_RL1-9) |
 | 1'389'823 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Kursunterlagen_SIA/FEZ_Kursprogramm_Herbst_Winter_2023.pdf` | vermutlich Kursflyer, `[-]`-Kandidat |
 | 1'206'301 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf` | echte Variante zu `haushaltgeraete-effizienz-beschaffung-topten`, nicht Dublette (Run 123 belegt) |

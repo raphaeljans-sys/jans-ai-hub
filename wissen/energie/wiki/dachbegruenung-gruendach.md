@@ -87,3 +87,7 @@ prüfen, ob eine vergleichbare Begrünungspflicht besteht.
 
 ## Verwandt
 `[[pv-solar-technologien]]` (PV-Grundlagen), Bauherren-FAQ **F236**.
+
+**Konstruktions-Vertiefung (Schichtaufbauten, Fassadenbegrünung, versickerungsfähige
+Beläge):** `[[pflanzen-am-bau-projektierungsgrundlagen-zh]]` (Stadt Zürich, 1994/97,
+⚠ Prinzipien zeitlos, Norm-/Zahlenangaben nicht ungeprüft übernehmen).
