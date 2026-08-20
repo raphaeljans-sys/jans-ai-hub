@@ -2,6 +2,34 @@
 
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
+
+**NEU 20.08.2026, 08:39 (Hub-Chef) — Das NAS-Volume steht bei 93 Prozent und hat damit erstmals
+eine eigene Schwelle erreicht, unabhängig vom SharePoint-Pool.** Eigene Messung im Lauf:
+`//raphaeljans@daten` 6.0 TiB gesamt, 5.6 TiB belegt, **473 GiB frei (93 Prozent)**; die lokale
+Systemplatte ist mit 11 Prozent unkritisch. Das ist ein anderer Speicher als der Tenant-Pool des
+Registereintrags von 06:15 und wird von keinem Loop überwacht: der `heartbeat` prüft Disk Space,
+meldet aber gegen eine tiefere Schwelle. **Warum es zählt:** auf diesem Volume liegen das
+Archiv, die Bürodaten und die kanonische Skill-Bibliothek samt NAS-Repo; läuft es voll, stehen
+der 15-Minuten-Selfcommit und jede Loop-Ablage still. Keine Aktion im Lauf ausgeführt, weil
+Aufräumen auf dem NAS Löschen bedeutet und Löschen der Whitelist ausdrücklich entzogen ist.
+**Aktion Raphael:** entscheiden, ob und wo auf `/Volumes/daten` Platz geschaffen wird.
+| eigene Messung `df -h` 20.08.2026 08:40 im Hub-Chef-Lauf | Hub-Infrastruktur/Speicher | mittel | offen
+
+**NEU 20.08.2026, 08:39 (Hub-Chef) — Der `ag-gruendung-monitor` ist zum zweiten Mal ohne Ergebnis
+geblieben; damit ist der UBS- und Notariatsstrang der AG-Gründung seit zwei Tagen unbeaufsichtigt.**
+Der Lauf vom 19.08. 05:47 brach mit «issue with the selected model (haiku-4-5)» ab; im heutigen
+Datumsblock des Logbuchs fehlt der Abschnitt «AG-Gruendung 20.08.2026» erneut, und das Lauf-Journal
+`260820-laeufe.jsonl` führt für ihn keinen Eintrag. **Ursache gemessen, nicht vermutet:** die
+Frontmatter der Task trägt `model: haiku-4-5`, und diese Kennung ist keine gültige Modell-ID
+(gültig wäre `haiku` bzw. `claude-haiku-4-5-20251001`). **Warum das operativ ist und nicht bloss
+Hub-Interna:** dieser Monitor ist laut eigener Aufgabenbeschreibung der einzige Kanal, der den
+UBS-Strang im Postfach `mail@raphaeljans.ch` liest — der M365-Connector hat dort keinen
+Delegate-Zugriff und liefert still eine leere Antwort statt eines Fehlers. Eine eingetroffene
+Kapitalbescheinigung würde derzeit von niemandem bemerkt. **Die Reparatur wurde im Lauf versucht
+und vom Auto-Mode-Klassifikator blockiert**, der über der Whitelist liegt und nicht umgangen wird;
+der fertige Befehl liegt im Tagesbriefing.
+| eigene Messung 20.08.2026 08:40 (Frontmatter `~/.claude/scheduled-tasks/ag-gruendung-monitor/SKILL.md`, Lauf-Journal, Logbuch-Datumsblock); Vorbefund Konversations-Destillat 20.08. Abschnitt 07 | AG-Gründung/Aufsicht | mittel | offen
+
 **NEU 20.08.2026, 06:55 (Logbuch-Radar) — Die Baufreigabe KISPI PPTS ist erteilt; der gestern
 gesetzte Sitzungsantrag für heute 10:00 ist gegenstandslos.** Gemessen am eigenen Beleg: RJ hat
 am **19.08.2026 09:59** an A. Spahic, F. Würsch und M. Spörri (KISPI) den Verlaufsauszug der

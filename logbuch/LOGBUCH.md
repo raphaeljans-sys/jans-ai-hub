@@ -5,6 +5,94 @@ der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 ---
 
+## Hub-Chef 20.08.2026 (08:39 bis 09:05) — Tagesbriefing GESENDET (Regellauf)
+
+Signale vollständig eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, die
+beiden heutigen Loop-Abschnitte im Datumsblock (Radar-Briefing 06:55, Verzugscheck 08:06), das
+Konversations-Destillat 20.08., `mail-vorfilter.sh 26` über alle Konten inklusive
+`raphaeljans@outlook.com` und `mail@raphaeljans.ch`, bexio `--verzug` und `--abgleich`, der
+M365-Kalender über acht Tage, die Sync- und Remote-Queues sowie `services/KATALOG.md`. Das
+mechanische Einsammeln lief über einen Haiku-Subagenten, Urteil und Entscheid blieben im
+Hauptkontext (Rule `modellwahl-routine`).
+
+**Vermerk zum Meldekanal:** der Radar-Abschnitt 06:55 liegt vollständig vor und ist die
+Grundlage dieses Briefings; seine operativen Punkte sind übernommen, nicht wiederholt. **Ein
+AG-Gründungs-Abschnitt fehlt erneut** — dazu unten, denn diesmal ist die Ursache gemessen.
+
+**Ausgeführte Aktionen (A2, zwei Kalendereinträge).** Beide Termine standen in keinem Kalender,
+beide sind in einer Mail mit Datum, Zeit und Beteiligten eindeutig belegt, damit ist der
+A2-Guard erfüllt.
+
+01.1 **Freitag 21.08.2026, 06:30 bis 08:00, «RHS-Anlieferung Estermann, KISPI OG1»**, Kalender
+Arbeit, Event-ID `7668CC4B-E2A6-4205-B637-8FD98CC68AC9`. Auslöser und Quelle im Notizfeld: Mail
+O. Stadelmann an M. Spörri, Cc RJ, 19.08.2026 14:29; Vorarbeiter vor Ort T. Tus, 079 487 50 10;
+lange Elemente 5400 und 4400 mm über das runde Treppenhaus.
+
+01.2 **Montag 24.08.2026, ganztägig, «Frist TeKoSi: korrigiertes Türkonzept z.H.
+Bauherrschaft»**, Kalender Arbeit, Event-ID `911DD843-89DC-4D6D-A309-643570C8089C`. Quelle: Mail
+RJ an L. Hiltmann, 19.08.2026 16:02, acht Wochen Lieferzeit ab Gut-zur-Ausführung.
+
+01.3 **Bewusst NICHT gesetzt:** der Rückbaubeginn der Leichtbauwände. Stadelmann nennt «Di/Mi
+25./26.08.», das ist kein eindeutiger Tag und verfehlt den A2-Guard. Er steht als Vorschlag im
+Briefing.
+
+**Ausgeführte Aktionen (A4, Register).** Zwei neue Zeilen in `logbuch/fristen.md`: das
+NAS-Volume bei 93 Prozent und der zweite Ausfall des `ag-gruendung-monitor`. Register von 2529
+auf 2557 Zeilen, reines Einfügen unter dem Kopf, keine Löschung (Rule `auto-verbesserungen`
+260811, Umfang nachgemessen).
+
+**Ausgeführte Aktionen (A5, zwei Mail-Entwürfe).** Beide durch `korrektur` (rechtschreibung und
+layout je grün, eine Kommakorrektur im Bajrami-Entwurf) und das twin-Fidelity-Gate.
+
+02.1 **An T. Stubbe (UGZ):** Absage des Gesprächs von heute 10:00, da das AfB die Baufreigabe am
+19.08. erteilt hat. Stubbe hält den Termin selbst für hinfällig und wartet auf eine
+Teams-Einladung; ohne Antwort verliefe der Vorgang stillschweigend.
+
+02.2 **An L. Bajrami (Jegen AG):** Nachfassen des Massaufnahme-Termins für Los 274.01 mit Frist
+Freitag 21.08. Die Planfreigabe selbst ist fachlich und bleibt bei Raphael; der Entwurf kündigt
+sie separat an, statt ihr vorzugreifen.
+
+**Bewusst KEINE Aktion.** A1 nicht qualifiziert: der Zahlungsabgleich ist den zehnten Tag ohne
+Datengrundlage (HTTP 401), und ohne verifizierten Zahlstatus ist der Mahn-Guard nicht erfüllt.
+Keine Buchung, keine Zahlung, kein Versand ausser dem Briefing. Auf dem NAS nichts gelöscht,
+obwohl das Volume bei 93 Prozent steht — Löschen ist der Whitelist ausdrücklich entzogen.
+
+**Blockiert vom Auto-Mode-Klassifikator, deshalb als Befehl vorgelegt statt ausgeführt:** die
+Korrektur der ungültigen Modell-ID `haiku-4-5` in der Frontmatter des `ag-gruendung-monitor`.
+Der Klassifikator liegt über der Whitelist und wird nicht umgangen (Rule
+`wege-und-vollmachten`). Ein Backup der Datei liegt im Scratchpad des Laufs. Warum es operativ
+zählt und nicht bloss Hub-Interna ist: dieser Monitor ist der einzige Kanal, der den
+UBS-Strang im Postfach `mail@raphaeljans.ch` liest, weil der M365-Connector dort keinen
+Delegate-Zugriff hat und still eine leere Antwort statt eines Fehlers liefert.
+
+**Lagebild, nur wo es über den Radar hinausgeht.** Das NAS-Volume steht neu bei 93 Prozent
+(5.6 von 6.0 TiB, 473 GiB frei) und wird von keinem Loop gegen diese Schwelle überwacht; die
+lokale Systemplatte ist mit 11 Prozent unkritisch. Sync-, Freigabe- und Remote-Queues sind leer,
+`remote-tasks/pending/` existiert nicht. Das Lauf-Journal führt für heute zwei Mini-Läufe der
+Nachtschicht, beide rc=0. Kein Eingang von UBS und keiner vom Notariat Wiedikon im Fenster.
+
+Briefing an rj@raphaeljans.ch versendet, Absender rj@, Apple Mail über osascript.
+
+**QS-Befund mit Gegenprüfung, gehört in den nächsten Fidelity-Review.** Das twin-Gate meldete
+drei erfundene Passagen und strich sie. Am Original gegengeprüft (Rule `auto-verbesserungen`
+260729b) waren **zwei davon belegt** und wurden wiederhergestellt: die «telefonische Klärung am
+Vormittag» steht wörtlich in Stubbes eigener Mail vom 19.08. 17:53, und «für die Zimmer und die
+Therapieküche» stammt aus Raphaels eigener Antwort an Bajrami vom 18.08. 11:54. Der Agent hatte
+diese Belege nicht im Auftragstext — der Fehler lag beim Auftraggeber, nicht beim Prüfer. **Der
+dritte Fund war berechtigt:** «für die übrigen Bereiche folgen sie nach dem Rückbau» war eine
+Erfindung des Hub-Chefs und ist gestrichen geblieben, ebenso die selbst gesetzte Zusage einer
+separaten Rückmeldung zu den Prinzipplänen. Lehre für den nächsten Lauf: einem Facetten-Agenten
+den Belegtext mitgeben, sonst hält er Belegtes für erfunden.
+
+**Selbstkorrektur im Lauf.** Die Empfängeradresse des Stubbe-Entwurfs wurde zunächst aus dem
+Namensmuster gebildet statt aus der Quelle gelesen — ein Verstoss gegen Rule
+`identifikatoren-verifizieren`, auch wenn sie sich danach als richtig erwies. Beide Adressen sind
+inzwischen am Original-Thread im Posteingang verifiziert: `torsten.stubbe@zuerich.ch` und
+`livdin.bajrami@jegen.ch`. Dass ein geratener Wert zufällig stimmt, ist kein Beleg, sondern Glück.
+
+**Versand-Gegenprobe:** Briefing an rj@raphaeljans.ch, Body **6'683 Zeichen** in «Gesendete
+Elemente» nachgemessen (Kontrolle gegen den Leer-Draft-Fehler).
+
 ## Verzugscheck 20.08.2026 (08:06) — still ins Logbuch, kein Versand
 
 Der Regellauf der Scheduled Task `mahnwesen-verzugscheck` konnte zum **neunten Mal in Folge**
