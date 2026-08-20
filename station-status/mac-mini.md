@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 20.08.2026 16:23:30
+Stand: 20.08.2026 16:44:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:55)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 20.08.2026 16:23:30
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 06df323b WEGE-Register CAD: 3D-Hersteller-DWG nach 2D-Plan an der besetzten Station belegt gangbar (Fall BS302, 2619 KISPI) - rhinocode braucht DOTNET_ROLL_FORWARD, Import-Dialog nur beim Erstkontakt, HiddenLineDrawing-API statt Make2D-Befehl, Fallen bei Flatten und Brep.Trim, Export schreibt AC1021, LibreDWG fehlt auf dem MacBook
+- 910476cd nas-selfcommit: 3 Datei(en) 2026-08-20 16:30
