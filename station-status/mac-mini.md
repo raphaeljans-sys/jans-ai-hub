@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.08.2026 08:29:19
+Stand: 21.08.2026 08:39:36
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.08.2026 08:29:19
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ed054faf fristen: Nachtrag bexio-Hygiene 21.08. (elfter Lauf blind, 401)
+- 2f144f99 nas-selfcommit: 3 Datei(en) 2026-08-21 08:30

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.08.2026 08:29:33
+Stand: 21.08.2026 08:39:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:25)
+- Developer/jans/ai/hub  (letzte Aktivitaet 08:39)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -19,4 +19,4 @@ Stand: 21.08.2026 08:29:33
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ed054faf fristen: Nachtrag bexio-Hygiene 21.08. (elfter Lauf blind, 401)
+- 2f144f99 nas-selfcommit: 3 Datei(en) 2026-08-21 08:30
