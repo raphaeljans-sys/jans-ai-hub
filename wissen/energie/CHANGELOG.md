@@ -1,5 +1,41 @@
 # CHANGELOG
 
+## 2026-08-21 (Run 149) — PV-Spezialmodule (SI-Saphir/Megasol) destilliert; Sunskin-Montagedetail ergänzt
+
+- **Neues Destillat `[[pv-spezialmodule-transparent-bifazial-datenblaetter]]`** (status
+  `established`): zwei vollständig gelesene Moduldatenblätter für architektonisch anspruchsvolle
+  PV-Flächen. **SI-Saphir M175-M180** (SI Module GmbH, Stand 06/2015) — teiltransparentes
+  Doppelglasmodul, 40 % Lichtdurchlass laut Hersteller, 175-180 Wp, DIBt-Zulassung Z-70.3-204.
+  **Megasol M385-HC120-b BF GG U30b** (Version 10/2022) — bifaziales Glas-Glas-Premiummodul mit
+  Full-Black-Optik, 385 Wp, Bifazialitätsfaktor ≥ 90 %, Mehrertrag 5-35 % je nach
+  Untergrundreflexion, IEC/EN 61215/61730.
+- **Dateinamen-Vermutung geprüft und widerlegt:** Die Artikelnummer «0322.1580» im Megasol-Dateinamen
+  ist **kein** Datumscode («0322 = März 2022»), sondern Teil der Artikelbezeichnung. Das tatsächliche
+  Ausgabedatum steht separat im Dokument als «Version: 10/2022» (Fussnote, DIN-EN-50380-Bezug) —
+  Oktober 2022. Beleg für die KB-Regel «Datierung immer am Dokument selbst prüfen, nie aus dem
+  Dateinamen ableiten».
+- **Dublettenprüfung `sunskin-roof-indach-planung`:** die dritte Quelle (`c-sunskin.pdf`, S. 17
+  «Latteneinteilung/Plattenauflager») ist dieselbe Ausgabe (Rev. 01.2022/web) wie das bereits
+  bestehende Destillat `[[sunskin-roof-indach-planung]]` (bisher S. 1-14 gelesen) — **kein neues
+  Destillat**, stattdessen den bestehenden Artikel um einen Abschnitt «Montagedetail
+  Latteneinteilung (S. 17)» ergänzt und Frontmatter (`gelesen`, `last_updated`) nachgeführt. Status
+  bleibt `emerging` (weiterhin nur Teilseiten der Gesamtdoku gelesen).
+- **Brandschutz-Detailtiefe bewusst nicht ausgebaut:** beide Moduldatenblätter zitieren
+  Brandverhalten/Schutzklasse nur wörtlich und verweisen auf `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`
+  und Skill `brandschutz` (Rule «Verlinken statt doppeln»).
+- **Sechs kleine PDFs gesichtet, kein neues Destillat, ein Nachtrag:** `[[minergie-fallstudie-maison-climat]]`
+  um ein Objektbeschrieb-Poster von Bürgi Schärer Architekten AG ergänzt (Bauteilaufbauten
+  Aussenwand/Steildach Mansarde/Geschossdecke, Kosten BKP 1-9 Fr. 7,64 Mio., Planungsteam,
+  Mobilitätskonzept) — schliesst die im Artikel selbst vermerkte Lücke «exakte U-Werte/Aufbauten
+  hier nicht belegt» teilweise. **Vier reine `[-]`-Fälle:** eine zweite Maison-Climat-Datei war nur
+  ein unbeschrifteter Schnittplan (Dublette, kein Zusatzwissen); die PREFA-Farbkarte 2024 enthält
+  keine solartechnischen Kennwerte, nur RAL-Farbmuster; der solarapp.ch-Belegungsplan Basel
+  (Projekt APP22-66497) ist eine reine Dublette des bereits destillierten `[[solarreport-solarapp-basel-2022]]`
+  (identische kWp-/kWh-Werte, gleiches Montagesystem); das AWEL-Formular «Gesuch zur Versickerung
+  von Regenwasser» ist ein Gewässerschutz-Formular ohne Energiebezug (die einzige energienahe
+  Erwähnung ist eine PV-Anlage-Checkbox bei den entwässerten Flächen) und gehört fachlich nicht in
+  diese KB. Der FEZ-Kursflyer Frühling/Sommer 2023 bleibt beim bekannten Muster `[-]` Kursflyer.
+
 ## 2026-08-21 (Run 148, Mac Mini) — E-R144-1 geschlossen: die «11 gegen 11» sind ein falscher Freund; PL-02-Restliste vollständig abgearbeitet
 
 - **Der Urteilsbefund.** Die elf Standardlösungen der EnFK-Vollzugshilfe **EN-1 (Januar 2009)**

@@ -1,11 +1,19 @@
 ---
-quelle: "Fallstudie «Maison Climat» — Minergie Nachweiskurs 2023 (Teil 2)"
-herausgeber: Minergie WISSEN / Verein Minergie Schweiz
-ausgabe: "25.09.2023, Version 1"
-gelesen: 2026-06-17 (S. 1-12, Projektbeschrieb + Aufgabe 1 Nachweis + Aufgabe 2 Optimierung; Beilagen/Plaene nicht im Dokument)
-datenstand: "⚠ Kennzahlen fuer die Uebung teilweise angepasst, nicht durchwegs reale Werte; SIA 380/1:2016"
+quelle: "Fallstudie «Maison Climat» — Minergie Nachweiskurs 2023 (Teil 2); ergaenzt um das
+  Objektbeschrieb-Poster «Maison Climat Seelandweg — Biel/Bienne» (Bauherrenschrieb/Praesentations-
+  tafel von Buergi Schaerer Architekten AG, Bern, publiziert auf wissen.minergie.ch, Ordner
+  Maison_Climat, hash-benannte Datei; vollstaendig gelesen 2026-08-21)"
+herausgeber: Minergie WISSEN / Verein Minergie Schweiz; Objektbeschrieb-Poster von Buergi Schaerer
+  Architekten AG, Bern
+ausgabe: "25.09.2023, Version 1 (Nachweiskurs); Objektbeschrieb-Poster undatiert, Bautermine darin
+  Planung 2020-2021 / Ausfuehrung 2021-2022"
+gelesen: 2026-06-17 (S. 1-12, Projektbeschrieb + Aufgabe 1 Nachweis + Aufgabe 2 Optimierung;
+  Beilagen/Plaene nicht im Dokument); 2026-08-21 (Objektbeschrieb-Poster, 1 S., vollstaendig)
+datenstand: "⚠ Kennzahlen fuer die Uebung teilweise angepasst, nicht durchwegs reale Werte; SIA
+  380/1:2016. Nachtrag 2026-08-21 aus dem Objektbeschrieb-Poster: Bauteilaufbauten und Projektfakten
+  ohne diesen Vorbehalt, stammen direkt vom Architekturbuero."
 status: emerging
-last_updated: 2026-06-17
+last_updated: 2026-08-21
 ---
 
 # Fallstudie «Maison Climat» — gebautes Plusenergie-MFH (Minergie-A)
@@ -80,6 +88,47 @@ Ersatzneubau Biel 2022) zeigt am konkreten Nachweis, dass ein klimafreundliches 
   eigenem PV-Strom (vgl. Nachweiskurs, Kuehlung ≤ 12 W_el/m² pauschal).
 - **E-Mobilitaet vorbereiten:** Leerrohre/Verkabelung bis zu allen Stellplaetzen ist heute Standard und
   spaeter nicht nachruestbar zu vernuenftigen Kosten.
+
+## Nachtrag 2026-08-21 — Bauteilaufbauten und Projektfakten (Objektbeschrieb-Poster)
+
+Das Objektbeschrieb-Poster von Buergi Schaerer Architekten AG schliesst genau die im Abschnitt
+«Offene Punkte» unten vermerkte Luecke («exakte U-Werte/Aufbauten hier nicht belegt») teilweise:
+Schichtaufbauten sind jetzt belegt, ein rechnerischer U-Wert steht aber weiterhin nicht drin.
+
+**Aufbau Aussenwand** (aussen → innen): Schalung vertikal N+K 24 mm · Hinterlueftungsrost 2× 30 mm ·
+Fassadenbahn · Flumroc Dissco 60 mm · Konstruktion 180 mm (Gefach gedaemmt) · Flumroc DP1 ·
+OSB/3 als Luftdichtigkeitsschicht 15 mm · Installationsrost 50 mm mit Flumroc DP1 dazwischen ·
+Gipsfaserplatte 12,5 mm innen. Gedaemmte Dicke der Konstruktionsebene rund 240 mm (60 + 180 mm),
+zzgl. 50 mm gedaemmter Installationsebene.
+
+**Aufbau Steildach Mansarde**: Ondapress 36 (Faserzement) mit integrierter PV · Querlattung 60 mm ·
+Konterlattung 60 mm · Unterdachfolie · Flumroc Dissco 60 mm zwischen Sparren · Konstruktion 220 mm
+mit Daemmung dazwischen · OSB/3 Luftdichtigkeitsschicht 15 mm · Dreischichtplatte 19 mm innen.
+
+**Aufbau Geschossdecke** (Holz-Massivdecke): Bodenbelag 15 mm · Unterlagsboden 80 mm ·
+Trittschalldaemmung PS81 20 mm + Mineralwolle 30 mm · gebundene Schuettung 85 mm · Massivholz
+140-200 mm.
+
+**Projektfakten**: Architektur Buergi Schaerer Architekten AG, Bern; Bauherrschaft privat;
+Adresse gemaess Poster **Seelandweg 17**, 2503 Biel/Bienne (⚠ die Fallstudie oben nennt
+Seelandweg 15 — vermutlich dasselbe Bauareal, zwei durch Brand baufaellige Mehrfamilienhaeuser
+im Madretsch-Quartier wurden ersetzt; Adresse nicht abschliessend geklaert). Planung 2020-2021,
+Ausfuehrung 2021-2022. Label Minergie-A. **Kosten BKP 1-9 rund Fr. 7,64 Mio.** Totalunternehmer/
+oertliche Bauleitung BEER HOLZHAUS, Ostermundigen; Bauingenieur Nydegger+Finger, Bern;
+Holzbauingenieur/Brandschutz BauHolz Wenger, Laengenbuehl; Energieplaner Energie hoch 3, Bern;
+HLS Gruetter Gebaeudetechnik, Boenigen; Heizung/Lueftung Zurfluh Lottenbach, Luzern; Elektro
+Fux & Sarbach Engineering, Bern; Landschaft bbz Landschaftsarchitekten, Bern.
+
+**Mobilitaet**: 0,5 Parkplaetze pro Wohnung, alle mit Elektroanschluss ausgeruestet; grosser
+ueberdeckter Bereich fuer 50 Velos.
+
+**PV-Integration**: flaechenbuendig auf dem Mansardendach sowie auf Teilen der Suedfassade
+integriert (dunkle Faserzementeindeckung der Mansarden und die Farbgebung der PV-Module sind
+aufeinander abgestimmt). Ergaenzend: Erdwaermesonde als Waermequelle (deckt sich mit den 750 m
+Erdsonden-Laenge oben), Sicker- und retensionsfaehige Boeden im Aussenraum.
+
+**Weiterhin offen**: kein rechnerischer U-Wert der Bauteile im Poster; Zuordnung Seelandweg
+15 vs. 17 ungeklaert.
 
 ## Offene Punkte / Caveats
 - ⚠ Kennzahlen **fuer die Uebung teilweise angepasst** — nicht als reale Projektwerte zitieren, sondern
