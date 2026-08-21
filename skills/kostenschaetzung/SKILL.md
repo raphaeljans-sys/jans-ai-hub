@@ -50,6 +50,13 @@ Quelle: `referenzen/20260302-Kostenkennwerte-Healthcare-Neubau-Umbauten.pdf`
 | Rehazentrum | 5'839 | 4'789 - 7'541 |
 | Healthcare gesamt | 8'282 | 5'253 - 12'406 |
 
+> **Andere Bezugsgroesse, andere fuehrende Quelle (gesetzt 21.08.2026, Wissens-Chef Run 39).** Die Baender
+> oben sind **CHF/m² NF** (Wueest Partner) — dafuer fuehrt dieser Skill. Fuer **CHF/m³ GV** und **CHF je
+> Pflegeplatz** fuehrt `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (Rollen-Matrix
+> `wissen/koordination/QUERBEZUEGE.md`); die KB `grobkosten` ist fuer Healthcare ausdruecklich **nicht**
+> zustaendig und untersagt ihre m³-Wohnbauwerte dafuer. ⚠ Beim Weiterreichen des dortigen Bandes: **826-1'420**
+> ist das Gesamtband der acht Objekte, **1'053-1'420** gilt nur fuer die sechs Neubauten ab 2019.
+
 #### Reduktionsfaktoren Umbau/Sanierung (% der Neubaukosten)
 | Eingriffstiefe | Faktor |
 |---|---|
@@ -105,7 +112,7 @@ Quelle: `referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` (aufbereit
 Academy P23D S. 32–34, Wüest Dimensions 2022 + SIA 2020 + BfS). Fuer **Wohnbau** (nicht Healthcare):
 - **Median Erstellungskosten BKP 1–5 ≈ CHF 4'360/m² HNF** (Wüest 2022); inkl. Teuerung mind. **4'800/m² HNF**.
 - Quantile Q1.0–Q5.0 fuer BKP 1–5 und BKP 2, je m² HNF und m² GF — siehe Referenz.
-- Bauweise: Massivbau 2023 Median ≈ 4'500, Holzbau ≈ 5'400 CHF/m² HNF (Holz +10–20 %).
+- Bauweise: Massivbau 2023 Median ≈ 4'500, Holzbau ≈ 5'400 CHF/m² HNF. Aufpreis Holz **nicht pauschal**: +10.9 % unteres / **+21.7 % gesamt (Median)** / +44.8 % oberes Preissegment — Quantile in der Referenz, Abschnitt 3 (die frühere Pauschale «+10–20 %» unterschlägt das obere Segment; berichtigt 21.08.2026).
 - JANS-Richtwert Wohnen MFH Neubau: **≈ 4'800 CHF/m² HNF** (Massiv), **≈ 5'400** (Holz); GF ≈ 3'100.
 - Teuerung-Pflicht: aeltere Benchmarks +10 %; +10–15 % hoehere Standards; ZH-Neubau +8.3 % (21/22).
 

@@ -2,6 +2,29 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-21 (Wissens-Chef Run 39, Cross-KB) — ein Zuercher Gesetz stand in der Bundeserlass-Tabelle
+
+- **`wiki/recht-norm-quellenlandkarte.md` Z. 68 berichtigt.** Die Datei `730.1_19.6.83_*` stand unter
+  der Ueberschrift «Bundeserlasse — SR-Nummer → fedlex» als «Energie-Verordnung, historische Fassung
+  1983» mit dem Nachfolgeverweis «EnV SR 730.01 = cc/2017/763». Beides falsch: es ist das
+  **Energiegesetz (EnerG) des Kantons Zuerich vom 19.06.1983**, Zuercher Gesetzessammlung **LS 730.1** —
+  kein Bundeserlass, keine SR-Nummer, nicht auf fedlex. Belegt am Primaertext (8 S. vollstaendig
+  gelesen, energie-Lauf 148 vom selben Tag): `wissen/energie/destillate/energ-zh-nachtrag72-2011-historisch.md`
+  Z. 2-3. Zusaetzlich erhaertet: ein Bundesgesetz zur Energie existierte 1983 verfassungsrechtlich noch
+  nicht (Energieartikel erst 1990).
+- **Korrigiert statt geloescht**, weil zwei der vier Exemplare tatsaechlich in `01_Gesetze/01_Bund`
+  liegen — eine Fehlablage in der Quelle und die Ursache der Fehlidentifikation. Die Zeile benennt die
+  Falle jetzt ausdruecklich.
+- **`wiki/recht-norm-hindernisfreies-bauen-zh.md` Z. 6:** das UGZ-Merkblatt stand in den Quellen als
+  «ohne Datum», waehrend der eigene Fliesstext und das fuehrende Destillat
+  `normen/destillate/ugz-hindernisfreie-aufzuege-2010.md` «Version Maerz 2010» belegen. Angeglichen.
+- **Drei Rueckkanten gesetzt** (die Hinkanten hatte `energie` am 21.08. bereits): zum neuen Artikel
+  `energie/wiki/energienachweis-zh` samt Rollenteilung (dort die materiellen Nachweiswege, hier die
+  Formular-/EVEN-Bedienung), zur SolarApp-Basel-Zeile in `energie-pv-eignung-typenwahl` und zum
+  Maison-Climat-Destillat.
+
+Bericht: `../koordination/outputs/2026-08-21_wissens-chef-run39.md`.
+
 ## 2026-08-20 (Wissens-Chef Run 38, Cross-KB) — VKF-Fassungs-Sweep angekommen: eine zurückgezogene Erläuterung, eine gestrichene Kennzahl, drei Fassungsvermerke
 
 Der Wegweiser `wiki/brandschutz-pl03-wegweiser.md` ist mit 48 VKF-Nennungen der grösste Abnehmer

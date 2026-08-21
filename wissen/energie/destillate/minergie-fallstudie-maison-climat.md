@@ -16,6 +16,13 @@ status: emerging
 last_updated: 2026-08-21
 ---
 
+> **Querbezug KB `planungsgrundlagen` (gesetzt 21.08.2026, Wissens-Chef Run 39):** Dasselbe Projekt wird
+> dort seit dem 13.07.2026 als Referenzprojekt gefuehrt —
+> `wissen/planungsgrundlagen/wiki/energie-minergie-referenzprojekt-maison-climat` (status established).
+> ⚠ **Die beiden Artikel nennen unterschiedliche Adressen:** dort «Seelandweg 15», hier «Seelandweg 17»
+> (gemaess Objektbeschrieb-Poster). Die Abweichung ist bisher in beiden KBs getrennt offen und gehoert
+> **einmal** geklaert, nicht zweimal.
+
 # Fallstudie «Maison Climat» — gebautes Plusenergie-MFH (Minergie-A)
 
 ## Das Wichtigste in 1 Satz

@@ -91,7 +91,7 @@ Warum dieselbe Stichprobe je nach Bezugsgrösse so weit auseinanderläuft, ist a
 | Anwendung | Richtwert | Bemerkung |
 |---|---|---|
 | Wohnen MFH Neubau, Massivbau | ≈ 4'800 CHF/m² HNF | BKP 1–5; Band 3'500–6'000 |
-| Wohnen MFH Neubau, Holzbau | ≈ 5'400 CHF/m² HNF | Massivbau + 10–15 % |
+| Wohnen MFH Neubau, Holzbau | ≈ 5'400 CHF/m² HNF | = Holzbau-Median Abschnitt 3 (5'466), gerundet. Aufpreis auf den Massivbau-Median 4'492: **+10.9 % unteres / +21.7 % gesamt / +44.8 % oberes Preissegment**. ⚠ Hier stand bis 21.08.2026 «Massivbau + 10–15 %» — das ist die aus dem Spread abgelesene Näherung von Run 21, die Abschnitt 3 seit dem 31.07.2026 ausdrücklich als überholt bezeichnet (Wissens-Chef Run 39) |
 | Bezug Geschossflaeche | ≈ 3'100 CHF/m² GF | BKP 1–5; Median + Teuerung |
 | Umrechnung | HNF ≈ 0.70 × GF | HNF-Effizienz Wohnbau — ⚠ **Bezugsgrösse fehlt, vor Gebrauch prüfen** (Vermerk 05.08.2026) |
 

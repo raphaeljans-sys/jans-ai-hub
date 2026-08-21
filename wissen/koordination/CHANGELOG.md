@@ -3,6 +3,44 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-21 — Wissens-Chef Run 39 (Abendlauf)
+
+**Zuschnitt:** 5 Melder (`model: sonnet`) + 6 Refuter (Hauptmodell) = 11 Agenten, 1'803'560 Token,
+161 Werkzeugaufrufe, 6,2 Min. **Uhr-Kontrolle bestanden:** Station 23:15:29 CEST gegen
+Synology-Selfcommit 23:15:06, kein Datumssprung.
+
+**Sechs Befunde geprueft, fuenf bestaetigt, einer widerlegt** — der schwerste sitzt nicht in einer
+Wissensbasis, sondern in einer Rule.
+
+- **Die Nivellier-Klausel weist seit dem 25.07. falsch an.** `rules/anrede-kontakte.md` Z. 14 verlangt,
+  bei mehreren Empfaengern auf die hoeflichste Stufe zu nivellieren; der Korpus belegt **sechsmal** das
+  Gegenteil, zuletzt drei Register in einer einzigen Mail (20.08. 22:40). Weil die Rule in jede Session
+  importiert und **vor** dem Wiki gelesen wird, nivelliert der Zwilling seit sechs Tagen entgegen der
+  Evidenz. Vermerk gesetzt (Hinweis, nicht Regel); den Wortlaut aendert Claude nicht — **Entscheid E1**.
+- **Ein Zuercher Gesetz stand in der Bundeserlass-Tabelle.** `planungsgrundlagen` fuehrte die Datei
+  `730.1_19.6.83_*` als eidgenoessische Energie-Verordnung mit fedlex-Verweis; es ist das kantonale
+  **EnerG ZH, LS 730.1**. Korrigiert statt geloescht — die Ursache ist eine Fehlablage in `01_Bund`.
+- **Der Holzbau-Aufpreis widersprach sich in derselben Datei, mit Geldfolge.** Abschnitt 3 erklaerte am
+  31.07. «+11 % / +38 %» fuer ueberholt und setzte +10.9/+21.7/+44.8 %; Zeile 94 derselben Datei und
+  `SKILL.md:108` fuehrten drei Wochen weiter «+10–15 %» bzw. «+10–20 %». Der Refuter hat den Eingriff
+  erst sauber gemacht: **der Richtwert 5'400 ist richtig** (gerundeter Holzbau-Median 5'466), falsch war
+  allein das Prozent-Etikett. Kein Zahlenentscheid durch Claude.
+- **Der Wettbewerbs-Harness lief ohne die eigene Wettbewerbserfahrung.** `wettbewerbs-dna` erklaert sich
+  woertlich zur Grundlage des Skills `wettbewerb`; der Skill nannte keine der Entwurfs-KBs. Verdrahtet —
+  eingegrenzt auf die zwei KBs, die sich tatsaechlich so deklarieren (`architekten-synobsis` nicht).
+- **Widerlegt, und die Widerlegung ist das Ergebnis:** Uebergabe-Auftrag 1 (Meldekopf messen) laesst sich
+  so nicht einloesen. **Der Meldekopf verlangt Lesen, nicht Zitieren — ein trefferloser Lesevorgang
+  hinterlaesst keine Spur.** Seine Wirksamkeit ist strukturell nur negativ messbar, ueber Verstoesse.
+- **Zwei Fortschreibungsfehler in der eigenen Uebergabe.** Levi Hiltmann stand seit dem 17.08. als
+  Tabellenzeile, wurde aber weiter als fehlend gefuehrt; das Blitzschutz-Doppeldestillat ist beidseitig
+  verbunden, offen ist nur der Merge. **Ab Run 40 wird jeder fortgeschriebene offene Punkt vor dem
+  Fortschreiben am Original geprueft.**
+
+Zehn Aktionen gesetzt, jede einzeln gegen eine Sicherungskopie gemessen (Rule `auto-verbesserungen`
+260811): die additiven Eingriffe zeigen 0 geloeschte Zeilen, die vier Ersetzungen genau eine.
+
+Bericht: `outputs/2026-08-21_wissens-chef-run39.md`.
+
 ## 2026-08-21 — Synergie-Lauf 14 (Tagestakt)
 
 Delta-Basis 20.08.2026 17:10, Fenster 24,0 Stunden, **107 Commits**, 0 neue Bausteine,

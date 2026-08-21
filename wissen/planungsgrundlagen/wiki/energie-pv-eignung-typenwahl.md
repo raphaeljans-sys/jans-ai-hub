@@ -214,6 +214,12 @@ SolarApp-Vorprojekten (PVGIS-basiert) bzw. realer ewz-Korrespondenz — vor Zita
 | **EFH Baujahr 1957** (Etappensanierung) | 2019 | **PV + Batterie 11.5 kWh + WW-WP-Boiler** (gebündelt) | 14 kWp | — | — | 36'000 gebündelt | **_nicht isolierbar_** (Paket 36'000, −15'000 Förderung/Steuer → ~7 J Amortisation) | `_Betriebsenergie/` (reale Betriebskosten, → [[energie-betriebsenergie-pv-wirtschaftlichkeit]]) |
 | **EFH Diemtigen** (EnergieSchweiz-Solarrechner-Musterbericht) | 2023 | **E/Aufdach** Standardmodul, 26° Neigung/−24° Ausrichtung | 6.0 kWp (32 m²) | — | **1'025** (6'148 kWh/a) | 19'140 **schlüsselfertig** | **≈ 3'190 CHF/kWp installiert** | `Solaranlage/energieschweiz.ch/Diemtigen/Photovoltaik-Report_3753_1-24_26_6.0kW.pdf` |
 
+> **Rueckkante KB `energie` (gesetzt 21.08.2026, Wissens-Chef Run 39):** Die Zeile «MFH Basel» oben beruht
+> auf demselben SolarReport, den `energie` am 21.08.2026 unabhaengig destilliert hat —
+> `wissen/energie/destillate/solarreport-solarapp-basel-2022.md`. Dort stehen zusaetzlich drei
+> Inkonsistenzen **im Quelldokument selbst** (Modulzahl 162 gegen 90+72, Stromverbrauch 42'000 gegen
+> 48'000 kWh, CO2 21'716 gegen 22'351 kg) — wer die Kennzahlen der Zeile weiterverwendet, liest sie dort nach.
+
 **Neu belegt (E34/Run 40): erster installierter System-CHF/kWp-Wert.** Der Diemtigen-Bericht ist
 kein realer JANS-Installateur-Schlussbeleg, sondern ein **EnergieSchweiz-Solarrechner-Musterbericht**
 ("Schlüsseldaten rund um meine Solaranlage", 02.07.2023) — aber mit einer expliziten

@@ -8,6 +8,14 @@ status: emerging
 last_updated: 2026-08-21
 ---
 
+> **Querbezug KB `planungsgrundlagen` (gesetzt 21.08.2026, Wissens-Chef Run 39):** Derselbe SolarReport
+> ist dort seit dem 25.07.2026 als Tabellenzeile gefuehrt —
+> `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl` (MFH Basel, 59.93 kWp, 162 Module,
+> CHF 135'257, ca. 2'255 CHF/kWp). Beide Destillationen entstanden unabhaengig voneinander aus derselben
+> Quelle. **Dieses Destillat fuehrt die Detailauswertung** samt der drei Inkonsistenzen im Quelldokument
+> selbst (Modulzahl 162 gegen 90+72, Stromverbrauch 42'000 gegen 48'000 kWh, CO2 21'716 gegen 22'351 kg);
+> `planungsgrundlagen` fuehrt die Zeile im Typenvergleich.
+
 # Destillat — SolarReport SolarApp: Fallbeispiel PV-Vorprojekt Schliengerweg, Basel
 
 > Automatisiert erzeugtes PV-Vorprojekt (Richtofferte + Wirtschaftlichkeit + Statik-Vorcheck) der

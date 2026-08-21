@@ -6,6 +6,12 @@ sources: [PL - 04 Energie/_Formulare Kanton ZH Baueingabe (EN-ZH.pdf Version Jul
 links: [[energie-uebersicht]], [[u-werte-grenzwerte-ch]], [[recht-norm-quellenlandkarte]], [[energie-pv-eignung-typenwahl]], [[energie-pv-brandschutz]], [[energie-private-kontrolle-zh]]
 ---
 
+> **Rueckkante KB `energie` (gesetzt 21.08.2026, Wissens-Chef Run 39):** Die KB `energie` hat am
+> 21.08.2026 den Artikel `wissen/energie/wiki/energienachweis-zh.md` angelegt (Run 148: Nachweiswege je
+> Gebaeudekategorie, § 8 Rechenweg, «11 gegen 11»-Falle) und **von dort aus** eine Kante hierher gesetzt.
+> Die Rueckrichtung fehlte. **Rollenteilung:** `energie` fuehrt die materiellen Nachweiswege und den
+> Rechenweg, dieser Artikel fuehrt die **Formular-/EVEN-Bedienung** und den Ordnerkontext.
+
 # Energienachweis Kt. ZH — Fachformular-Liste (EN-ZH) & EVEN-Plattform
 
 Beantwortet **D4** (QUESTIONS): die vollständige Liste der EN-Fachnachweise je Fachbereich,

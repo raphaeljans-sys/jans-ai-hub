@@ -32,6 +32,11 @@ description: >-
   (jeder Abgabetext via Skill `korrektur`).
 - **Vorgelagert:** planungsgrundlagen (Geodaten), machbarkeit/baurecht (Rahmen) — soweit
   vorhanden; sonst startet der Harness mit dem Programm-PDF.
+- **Wissensbasen (ergaenzt 21.08.2026, Wissens-Chef Run 39):** `wissen/wettbewerbs-dna/wiki/muster/`
+  fuehrt die Jury-Erfolgsfaktoren je Bauaufgabe (`jury-argumente-<bauaufgabe>.md`) aus zwoelf eigenen
+  Teilnahmen; `wissen/entwurfs-referenzen/` fuehrt die Parameter-Sets. Die KB `wettbewerbs-dna`
+  deklariert sich selbst als Wissensgrundlage genau dieses Skills — die Kante fehlte hier bis heute,
+  der Harness lief also ohne die eigene Wettbewerbserfahrung.
 - **Nachgelagert:** volumenstudie (Volumen/STL), grobkosten-onepager (Kennzahl),
   honorarberechnung-sia102 (bei Auftrag nach Gewinn).
 
@@ -96,6 +101,9 @@ als **offen/Hand** markiert.
    unklar ist, als **Rueckfrage an die Wettbewerbsausschreiber** vermerken.
 3. **Parti setzen (Human Gate)** — der Architekt gibt die Entwurfsidee/Varianten vor.
    Erst danach Geometrie: `volumenstudie` (Baufeld, Volumen, Situationsmodell-STL).
+   **Vor dem Gate:** den passenden Artikel aus `wissen/wettbewerbs-dna/wiki/muster/` lesen
+   (jury-argumente-healthcare / -schulbauten / -wohnungsbau je nach Bauaufgabe) — er nennt, woran
+   frueherere Beitraege bei der Jury gewonnen und verloren haben.
 4. **Nachweise** — `flaechen-nachweis` (SIA 416 Soll/Ist), Bericht/Schemas (Roadmap).
 5. **Konformitaets-Schleife** — Agent `programm-pruefer` ampelt jede Vorgabe; bei Rot
    zurueck in Phase 3/4, bis alles gruen oder als bewusste Abweichung begruendet ist.

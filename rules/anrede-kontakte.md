@@ -12,6 +12,17 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 - Bei Mails, Briefen, Memo-Begleittexten immer zuerst hier nachschlagen.
 - Wenn die Anrede unklar ist: nachfragen, nicht raten.
 - Bei mehreren Empfängern im Cc/An: höflichste Anrede wählen, sofern nicht alle per Du sind.
+- ⚠ **Die Nivellier-Zeile darüber ist durch den Korpus widerlegt — Entscheid Raphael ausstehend.**
+  Sechs unabhängige authentische Belege zeigen das Gegenteil: Raphael gleicht **nicht** auf die höflichste
+  Stufe an, er redet jede Person **einzeln in ihrer eigenen Stufe** an; bis zu drei Wärmestufen stehen ohne
+  Angleichung nebeneinander, teils in derselben Anredezeile («Geschätzter Herr X, werter Herr Y», dazu ein
+  eigener Absatz «Hoi Z»; 20.08.2026 22:40). Belege: `wissen/twin/wiki/beziehungsregister.md`, Batches 94,
+  95, 96, 97/98 und 100. **Bis zum Entscheid gilt die Nivellier-Zeile als Hinweis, nicht als Regel** — im
+  Zweifel gestaffelt anreden und nachfragen. Der Zwilling fragt seit dem 15.08.2026 nach dem Entscheid
+  (`wissen/twin/wiki/QUESTIONS.md` 260815 #4, 260816 #1, zuletzt Z. 3494-3503); der dort vorgeschlagene
+  Wortlaut behält das Nivellieren ausdrücklich «bei grossen oder unbekannten Verteilern» bei. Die Zeile ist
+  also **zu grob, nicht schlicht falsch** — sie gehört eingegrenzt, nicht gestrichen. Vermerk gesetzt vom
+  Wissens-Chef Run 39 (21.08.2026); Claude ändert den Wortlaut einer Rule nicht selbst.
 - **Gewicht des Anliegens schlägt den Routine-Default** (Freigabe Raphael 29.07.2026): Die
   Notiz-Spalte nennt den **Routine-Default**. Die Anrede-Stufe folgt zusätzlich dem **Gewicht des
   konkreten Anliegens** — ein verbindliches Ergebnis oder eine folgenreiche Bitte zieht
@@ -53,7 +64,7 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 | Michael Spörri | Universitäts-Kinderspital Zürich, Teamleiter HLKKS / Stv. Leiter Techn. Dienst | 2619 KISPI | **Du** | «Hoi Michi» routinemaessig (12.08.2026), «Geschätzter Michael» bei Substanz/Veranlassungsauftrag (19.08.2026); Gegenseite «Hoi Raphael». Vierter unabhängiger Beleg der Anlassgewicht-Klausel **im Du**. Nachgetragen 20.08.2026 |
 | Felix Stählin | **Elektro Stählin AG**, Zürich (Elektroinstallationen, BKP 230) | 2620 Albertstrasse 7 | **Du** | «Hoi Felix» / «Lieber Gruss», trotz Unternehmer-Rolle; bei gewichtigem Anlass «Geschätzter Felix». **Firma korrigiert 29.07.2026 durch Raphael** — die Liste führte bis dahin «Karl Wächter AG» (Fehlannotation; Karl Wächter AG ist ein anderer Betrieb, Ansprechpartner dort Mario Di Capua), das twin-Wiki «Stählin AG Sanitär» (falsches Gewerk). Belegt: `f.staehlin@staehlin-ag.ch`, Elektro Stählin AG, Bolleystrasse, 8006 Zürich |
 | Roman Steinmann | Nova Property Fund Management AG, Asset Manager | 2620 Albertstrasse 7 | **Du** | «Salut Roman» warm; faellt bei Mahn-/Geldkontext auf «Guten Tag» zurueck |
-| Igor Suljanovic | Universitaets-Kinderspital Zuerich, Bauherrenseite | 2619 KISPI | Sie | «werter Herr Suljanovic» — erster Beleg der Stufe «werter» im **Sie**-Register, in derselben Anredezeile neben «Geschätzter». Beleg 20.08.2026 22:40. Nachgetragen 21.08.2026 |
+| Igor Suljanovic | Universitaets-Kinderspital Zuerich, Bauherrenseite | 2619 KISPI | Sie | «werter Herr Suljanovic» — Stufe «werter» im **Sie**-Register, in derselben Anredezeile neben «Geschätzter». Beleg 20.08.2026 22:40. Nachgetragen 21.08.2026. ⚠ **Kein Erstbeleg** (berichtigt 21.08.2026, Wissens-Chef Run 39): hier stand «erster Beleg der Stufe «werter» im Sie-Register» — die Form ist im Sie schon deutlich früher belegt, siehe `wissen/twin/wiki/beziehungsregister.md` (Fidelity 260821 und die dort genannten älteren Fundstellen) |
 | Stefan Tschopp | Bauherr-Partner | 2414 Thalwil | **Du** | «Hoi Stefan» routinemaessig; «Geschaetzter Stefan» bei gewichtigem/verbindlichem Ergebnis |
 | Yorck von Dietze | 3D-Freelancer | diverse Visualisierungen | **Du** | Skala Hey/Hoi/Hallo/Lieber je nach Anlass |
 | Peter Weisser | dasBaumanagement.ch, Baumanagement-Partner | diverse | **Du** | «Hoi Peter»/«Guten Morgen Peter» operativ; bei rein privatem Anlass (Event-Einladung) voller Mundart-Ton, z.B. «Hey Peter, weich wie cool wenn Du au chiemsch?» (belegt 08.04.2026) |
@@ -66,6 +77,11 @@ Widerspruch zur gelebten Praxis: Raphael korrigiert direkt hier, Twin-Wiki wird 
 Quelle der Ergänzungen vom 20.08.2026 (Hansen, Spörri, Ziegel): `twin-mail-training` Batch 99,
 je aus Raphaels **eigener Hand** im Fenster 12.–19.08.2026 belegt (nicht aus einem
 Claude-Erzeugnis). Beleg: `wissen/twin/raw/260820-mailbatch-99.md`, Kernbefund 6.
+
+Quelle der Ergänzungen vom 21.08.2026 (Guerini, Suljanovic, Eren sowie die Treffen-Klausel):
+`twin-mail-training` Batch 100, `wissen/twin/raw/260821-mailbatch-100.md`, verdichtet in
+`wissen/twin/wiki/beziehungsregister.md`, Abschnitt «Batch 100 (20.–21.08.2026)». Nachgetragen vom
+Wissens-Chef Run 39 (21.08.2026), damit diese Zeilen dieselbe Belegkante tragen wie die Batch-99-Zeilen darüber.
 
 ## Wie neuen Eintrag aufnehmen
 

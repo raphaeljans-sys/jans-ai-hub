@@ -169,6 +169,157 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### rules ↔ twin (Nivellier-Klausel und «werter»-Datierung) — die Rule weist gegen den eigenen Korpus an — geprueft 2026-08-21 (Run 39)
+
+**Status:** ein Befund bestaetigt und annotiert (Entscheid Raphael offen, **E1**), einer bestaetigt und
+berichtigt, ein Quellenvermerk ergaenzt.
+
+`rules/anrede-kontakte.md` Z. 14 verlangt seit dem 25.07.2026, bei mehreren Empfaengern auf die
+hoeflichste Stufe zu nivellieren. `wissen/twin/wiki/beziehungsregister.md` belegt **sechsmal** das
+Gegenteil (Batches 94, 95, 96, 97/98, 100): Raphael redet jede Person einzeln in ihrer eigenen Stufe
+an, bis zu drei Waermestufen ohne Angleichung, teils in derselben Anredezeile. Zuletzt 20.08.2026
+22:40, Sammelmail an acht Empfaenger.
+
+**Warum das schwerer wiegt als ein Wiki-Widerspruch:** die Rule wird per `@`-Import in **jede** Session
+geladen und laut eigener Konvention **vor** dem Wiki gelesen. Der Zwilling nivelliert also bei jeder
+Sammelmail, waehrend der Korpus staffelt. Die twin-KB fragt seit dem 15.08.2026 nach dem Entscheid
+(`QUESTIONS.md` 260815 #4, 260816 #1) — sechs Tage.
+
+**Gesetzt:** Vermerk unter Z. 14 (Zeile gilt bis zum Entscheid als Hinweis, nicht als Regel, mit allen
+sechs Belegen). **Nicht gesetzt:** der neue Wortlaut — Claude aendert eine Rule nicht selbst. Der
+Refuter hat zusaetzlich praezisiert, dass die Zeile **zu grob, nicht schlicht falsch** ist: der
+Wiki-Vorschlag behaelt das Nivellieren «bei grossen oder unbekannten Verteilern» bei.
+
+**Zweiter Befund, berichtigt:** Z. 56 fuehrte «werter Herr Suljanovic» als «erster Beleg der Stufe
+«werter» im Sie-Register» — das twin-Wiki hatte diese Datierung im **selben** Batch-100-Update bereits
+zurueckgenommen. Der Refuter hat dabei eine zweite Falle abgefangen: die vorgeschlagene Ersatzzahl
+«Erstbeleg 14.07.2026» waere wieder falsch gewesen (nur der aelteste zufaellig im Blick stehende
+Beleg). Zeile jetzt **belegneutral**, ohne neue Datumsbehauptung. **Lehre: eine Datumskorrektur, die
+ein neues Datum behauptet, ist selbst wieder eine Behauptung.**
+
+**Dritter Punkt:** die Batch-100-Nachtraege (Guerini, Suljanovic, Eren, Treffen-Klausel) trugen keinen
+Quellenverweis, anders als die Batch-99-Zeilen darueber. Belegkante ergaenzt.
+
+---
+
+### energie ↔ planungsgrundlagen (Laeufe 148/149) — ein Zuercher Gesetz in der Bundeserlass-Tabelle — geprueft 2026-08-21 (Run 39)
+
+**Status:** ein harter Befund bestaetigt und korrigiert, zwei Doppelspurigkeiten beidseitig verbunden,
+eine Rueckkante nachgezogen.
+
+**Hart:** `planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md` Z. 68 fuehrte die Datei
+`730.1_19.6.83_*` unter «Bundeserlasse — SR-Nummer → fedlex» als «Energie-Verordnung, historische
+Fassung 1983», Nachfolger «EnV SR 730.01 = cc/2017/763». Es ist das **Energiegesetz (EnerG) des
+Kantons Zuerich vom 19.06.1983, LS 730.1** — kein Bundeserlass. Belegt am Primaertext im
+energie-Destillat `energ-zh-nachtrag72-2011-historisch.md` Z. 2-3 (8 S. vollstaendig gelesen, Run 148
+desselben Tages). Erhaertend: der Energieartikel der Bundesverfassung stammt von 1990.
+**Korrigiert statt geloescht** — zwei der vier Exemplare liegen tatsaechlich in `01_Gesetze/01_Bund`;
+diese Fehlablage ist die Ursache und steht jetzt als Warnung in der Zeile.
+
+**Bemerkenswert an der Richtung:** die zuliefernde KB hat die fuehrende korrigiert, und zwar mit einem
+Destillat, das als **historisch/superseded** angelegt ist. Ein Destillat ohne eigenen Anwendungswert
+hat hier einen Fehler in einer aktiven Wegweiser-Datei aufgeloest.
+
+**Zwei Doppelspurigkeiten vom selben Tag, beide beidseitig verbunden:**
+- SolarReport MFH Basel (05.11.2022) — `planungsgrundlagen/wiki/energie-pv-eignung-typenwahl` Z. 211
+  (seit 25.07.) gegen `energie/destillate/solarreport-solarapp-basel-2022.md` (neu 21.08.).
+  Rollenteilung: `energie` fuehrt die Detailauswertung samt drei Inkonsistenzen **im Quelldokument
+  selbst**, `planungsgrundlagen` die Zeile im Typenvergleich.
+- Fallstudie «Maison Climat» Biel — beide KBs fuehren das Projekt eigenstaendig, mit **abweichender
+  Adresse** (Seelandweg 15 gegen 17). Jetzt einmal statt zweimal offen, Raphael vorgelegt (**E3**).
+
+**Rueckkante:** `energie/wiki/energienachweis-zh.md` (neu, Run 148) hatte die Hinkante zu
+`planungsgrundlagen/wiki/energie-energienachweis-zh-formulare.md` selbst gesetzt; die Rueckrichtung
+fehlte. Gesetzt, mit Rollenteilung: `energie` fuehrt die materiellen Nachweiswege und den Rechenweg,
+`planungsgrundlagen` die Formular-/EVEN-Bedienung.
+
+---
+
+### grobkosten ↔ immobilienbewertung ↔ skills/kostenschaetzung — ein Widerspruch INNERHALB einer Datei, mit Geldfolge — geprueft 2026-08-21 (Run 39)
+
+**Status:** ein harter Befund bestaetigt und berichtigt, eine Bezugsgroessen-Kante gesetzt.
+
+`skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md` setzte am
+31.07.2026 (Run 22) die exakten Quantile ein und erklaerte die frueheren Naeherungswerte
+«+11 % / +38 %» in einer Fussnote **ausdruecklich fuer ueberholt**. Belegt sind seither: Aufpreis
+Holzbau gegen den Massivbau-Median 4'492 = **+10.9 % unteres / +21.7 % gesamt / +44.8 % oberes
+Preissegment**. Zeile 94 **derselben Datei** fuehrte drei Wochen weiter «Massivbau + 10–15 %»,
+`SKILL.md` Z. 108 «Holz +10–20 %».
+
+**Der Refuter hat den Eingriff erst sauber gemacht.** Der naheliegende Schluss — der Richtwert
+5'400 CHF/m² HNF sei zu tief — ist falsch: 5'400 ist der gerundete **Holzbau-Median 5'466** aus
+Abschnitt 3 und damit korrekt. Falsch war allein das Prozent-Etikett daneben, das rechnerisch auf der
+ueberholten Zahl sass. Beide Stellen tragen jetzt die belegten Quantile, der Richtwert blieb
+unberuehrt. **Lehre: eine Zahl, die neben einer falschen Herleitung steht, ist nicht automatisch
+selbst falsch — sonst korrigiert man einen gesunden Wert kaputt.**
+
+**Kante gesetzt:** `kostenschaetzung/SKILL.md` fuehrt fuer Healthcare nur CHF/m² NF (Wueest) und nannte
+die fuehrende Quelle fuer **CHF/m³ GV** und **CHF je Pflegeplatz** nicht.
+`immobilienbewertung/wiki/realwert-sachwert.md` benennt die Rollenteilung seit Run 16 korrekt, aber nur
+von seiner Seite. Hinkante ergaenzt, samt Warnung: **826-1'420** ist das Gesamtband der acht Objekte,
+**1'053-1'420** gilt nur fuer die sechs Neubauten ab 2019.
+
+---
+
+### wettbewerbs-dna ↔ entwurfs-referenzen ↔ skills/wettbewerb (Rotationspaar) — der Harness kannte die eigene Erfahrung nicht — geprueft 2026-08-21 (Run 39)
+
+**Status:** bestaetigt und verdrahtet, eingegrenzt gegenueber der Meldung.
+
+`wissen/wettbewerbs-dna/CLAUDE.md` erklaert sich woertlich zur Wissensgrundlage des Skills
+`wettbewerb` («Sie speist den Skill `wettbewerb` (Agenten programm-leser, programm-pruefer,
+bericht-autor)»). `skills/wettbewerb/SKILL.md` — 183 Zeilen, mit ausdruecklichen Abschnitten
+«Vorgelagert» und «Nachgelagert» — nannte **keine** der Entwurfs-KBs. Zwoelf ausgewertete Teilnahmen,
+darunter die beiden zweiten Plaetze als Goldstandard, standen dem Harness formal nicht zur Verfuegung.
+
+**Eingegrenzt durch den Refuter:** `architekten-synobsis` gehoert nicht dazu — die KB deklariert sich
+nirgends als Grundlage dieses Skills (null Treffer auf «wettbewerb» in ihrer CLAUDE.md). Verdrahtet
+wurden deshalb nur `wettbewerbs-dna` und `entwurfs-referenzen`, im Contract und als Lesepflicht vor
+dem Human Gate «Parti setzen».
+
+**Damit ist das Rotationspaar erstmals mit einem Ergebnis abgeschlossen** — Run 35 hatte es als «nur
+teilweise pruefbar» zurueckgestellt.
+
+---
+
+### normen (Meldekopf «FRISCH GEMELDET») — Uebergabe-Auftrag 1 aus Run 38: WIDERLEGT als Testfrage — geprueft 2026-08-21 (Run 39)
+
+**Status:** kein Befund. Die Messung ist gefahren, das Testkriterium taugt nicht.
+
+Doppelt gemessen (Melder und Hauptkontext unabhaengig): **keines** der zehn am 21.08. neu
+geschriebenen `energie`-Destillate beruehrt eine der sechs im Meldekopf gefuehrten Normen; kein Lauf
+nennt das REGISTER als gelesene Quelle.
+
+**Der Refuter hat den daraus gebauten Befund zurueckgewiesen, mit dem entscheidenden Argument:
+der Meldekopf verlangt LESEN, nicht ZITIEREN — ein trefferloser Lesevorgang hinterlaesst keine Spur.**
+Wirksamkeit ueber Erwaehnungsspuren zu messen, misst das Falsche.
+
+**Folge fuer die Methode:** die Wirksamkeit des Meldekopfs ist **strukturell nur negativ messbar** —
+sichtbar wird allein der Verstoss, nie die Befolgung. Rule `auto-verbesserungen` 260807 («erst messen,
+dann glauben») laesst sich hier mit dem Run-38-Kriterium nicht einloesen. Ein belastbarer Nachweis
+braeuchte eine Pflichtzeile «REGISTER gelesen, Stand <Datum>» im Laufbericht jeder destillierenden
+Task — rund ein Dutzend Task-Prompts, kein Alleingang dieses Loops (**E5**).
+
+---
+
+### Zwei fortgeschriebene offene Punkte, die es nicht mehr waren — gemessen 2026-08-21 (Run 39)
+
+Beim Nachmessen der Uebergabe aus Run 38:
+
+- **Levi Hiltmann** wurde als «steht weiterhin nur im Fliesstext, nicht als Tabellenzeile» gefuehrt.
+  Er steht seit dem **17.08.2026** als Tabellenzeile in `rules/anrede-kontakte.md` Z. 49.
+- **E1 Blitzschutz-Doppeldestillat** las sich als offene Doppelspurigkeit mit invertierten Rollen.
+  Beide Seiten sind laengst verbunden: `normen` fuehrt seit dem 05.08. ein Feld `nachfolge_ausgabe:`
+  auf die energie-Datei, `energie` traegt umgekehrt eine ausdrueckliche Rollenteilung (Z. 97-98,
+  237-239). Offen ist allein die Merge-Frage.
+
+**Lehre, ab Run 40 verbindlich fuer diesen Loop:** eine Liste offener Punkte ist eine Behauptung ueber
+den **heutigen** Zustand und faellt damit unter dieselbe Regel wie jede andere Zustandsbehauptung
+(`auto-verbesserungen` 260730b Ziff. 3). Jeder fortgeschriebene Punkt wird vor dem Fortschreiben am
+Original geprueft. Zwei von sieben waren heute ueberholt — das ist keine Ausnahmequote.
+
+---
+
+
 ### normen → planungsgrundlagen · energie · Skills-Schicht (VKF-Fassungs-Sweep Run 58) — geprueft 2026-08-20 (Run 38)
 
 **Anlass.** Normen-Nacht Run 58 (20.08.2026, 01:41) glich erstmals alle 35 destillierten

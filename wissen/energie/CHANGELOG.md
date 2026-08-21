@@ -1,5 +1,23 @@
 # CHANGELOG
 
+## 2026-08-21 (Wissens-Chef Run 39, Cross-KB) — zwei Doppel-Destillationen vom selben Tag verbunden
+
+- **`destillate/solarreport-solarapp-basel-2022.md`** und **`destillate/minergie-fallstudie-maison-climat.md`**
+  (beide neu am 21.08., Run 148/149) behandeln Quellen, die `planungsgrundlagen` seit dem 25.07. bzw.
+  13.07.2026 bereits fuehrt — unabhaengig destilliert, ohne Kante. Beidseitig verbunden.
+  Rollenteilung: diese KB fuehrt die Detailauswertung (samt der drei Inkonsistenzen **im
+  SolarReport selbst**: Modulzahl 162 gegen 90+72, Verbrauch 42'000 gegen 48'000 kWh, CO2 21'716 gegen
+  22'351 kg), `planungsgrundlagen` die Zeile im Typenvergleich.
+- ⚠ **Maison Climat: Adress-Abweichung** «Seelandweg 15» (planungsgrundlagen) gegen «Seelandweg 17»
+  (hier, gemaess Objektbeschrieb-Poster). Bisher in beiden KBs getrennt offen — jetzt einmal gefuehrt
+  und Raphael vorgelegt.
+- **Das Destillat `energ-zh-nachtrag72-2011-historisch.md` hat einen Fremdbefund getragen:** seine
+  Primaerlesung war der Beleg, mit dem die Fehlidentifikation desselben Erlasses in
+  `planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md` Z. 68 aufgeloest werden konnte. Ein
+  historisches Destillat, das seinen Nutzen ausserhalb der eigenen KB entfaltet.
+
+Bericht: `../koordination/outputs/2026-08-21_wissens-chef-run39.md`.
+
 ## 2026-08-21 (Run 149) — PV-Spezialmodule (SI-Saphir/Megasol) destilliert; Sunskin-Montagedetail ergänzt
 
 - **Neues Destillat `[[pv-spezialmodule-transparent-bifazial-datenblaetter]]`** (status

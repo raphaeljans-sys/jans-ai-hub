@@ -3,7 +3,7 @@ title: Recht & Norm — Hindernisfreies Bauen Stadt ZH (Aufzüge + Wohnungsbau a
 status: established
 last_updated: 2026-07-25 (Run 64)
 sources: [
-  "PL-02/04_Merkblätter/UGZ_Hindernisfreie_Aufzuege.pdf .pdf (Stadt Zürich, Umwelt- und Gesundheitsschutz, Energietechnik und Bauhygiene, ohne Datum)",
+  "PL-02/04_Merkblätter/UGZ_Hindernisfreie_Aufzuege.pdf .pdf (Stadt Zürich, Umwelt- und Gesundheitsschutz, Energietechnik und Bauhygiene, Version März 2010)",
   "PL-02/04_Merkblätter/UGZ_Wohnungsbau_hindernisfrei.pdf (Stadt Zürich, Umwelt- und Gesundheitsschutz, Bau und Energieeffizienz, «Wohnungsbau hindernisfrei – anpassbar», Merkblatt November 2014)",
   "SR 151.3 BehiG (Behindertengleichstellungsgesetz, 13.12.2002) / BehiV (19.11.2003)",
   "PBG ZH §§ 239a/239b (LS 700.1)",

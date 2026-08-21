@@ -6,6 +6,11 @@ sources: [wissen.minergie.ch, Projektseite "Maison Climat" (PL-04/wissen.minergi
 links: [[energie-uebersicht]], [[minergie-standards]], [[energie-heizwaermebedarf-waermeerzeugerleistung]], [[energie-private-kontrolle-zh]]
 ---
 
+> **Rueckkante KB `energie` (gesetzt 21.08.2026, Wissens-Chef Run 39):** Dasselbe Projekt ist dort seit
+> dem 21.08.2026 als Destillat gefuehrt — `wissen/energie/destillate/minergie-fallstudie-maison-climat.md`
+> (Nachweiskurs-Fallstudie plus Objektbeschrieb-Poster). ⚠ **Adress-Abweichung:** hier «Seelandweg 15»,
+> dort «Seelandweg 17» gemaess Poster. Einmal klaeren, nicht in beiden KBs getrennt offen lassen.
+
 # Minergie-Referenzprojekt "Maison Climat" Biel (Holzbau, Minergie-A)
 
 Reales, auf `wissen.minergie.ch` publiziertes Referenzprojekt (Minergie-Projektdatenbank,
