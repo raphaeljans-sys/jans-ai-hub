@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.08.2026 12:56:48
+Stand: 21.08.2026 13:07:05
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:00)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 21.08.2026 12:56:48
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 6addd657 nas-selfcommit: 3 Datei(en) 2026-08-21 12:45
+- c07bb021 vollgas-radar 21.08. 12:57: Fenster frei, drei KBs mit Delta, Rueckstand -36.8, bexio-401 zwoelfter Lauf
