@@ -1,8 +1,8 @@
 ---
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
-last_updated: 2026-08-17 (Run 140)
-sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md, destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md]
+last_updated: 2026-08-21 (Run 148 — Nachweiswege je Gebäudekategorie, § 8 Rechenweg, «11 gegen 11»-Falle, E-R140-1 als Normfrage geschärft)
+sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md, destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md, destillate/vollzugsordner-energie-zh-abschnitt3-1-3-2-en1.md, destillate/energ-zh-nachtrag72-2011-historisch.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]]
 ---
 
@@ -114,6 +114,23 @@ Die heute massgebliche Fassung ist **WDV vom 8. Juni 2022, LS 700.211**, in Kraf
 
 ## Rechtsgrundlagen hinter der WDV — EnerG §§ 10a/10c/11 + BBV I § 47a (Ergänzung Run 140, 2026-08-17)
 Die WDV verweist auf diese vier Paragraphen, enthält sie aber nicht selbst — jetzt primärquellenbelegt aus bereits vorhandenem `baurecht`-Rohmaterial (kein neuer Web-Abruf nötig) → [[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]] (status `established`). Kernpunkt: **§ 47a BBV I** trägt die eigentliche Grenzwerttabelle des gewichteten Energiebedarfs je Gebäudekategorie (Wohnen 35 kWh/m², Spitäler 70 kWh/m², Industrie/Lager 20 kWh/m², Hallenbäder keine Anforderung) inkl. Bagatellklausel bei Erweiterungen (< 50 m² bzw. ≤ 20 % / max. 1'000 m² der Bestands-EBF); **EnerG § 10a** ist die Ermächtigungsnorm dazu, **§ 10c** regelt die Eigenstromerzeugungspflicht (Kompensation bei Unterschreitung der Mindestanforderungen möglich), **§ 11 Abs. 1-4** das Fossilverbot Neubau plus die 90-%-Auffangregel beim Wärmeerzeugerersatz (massgebender Energiebedarf 100 kWh/m²/Jahr, Umsetzungsfrist 3 Jahre). ⚠ Neu aufgeworfen: für Healthcare-Projekte (Pflegeheim/Altersheim) ist unklar, ob Kat. I (Wohnen, 35 kWh/m²) oder Kat. VIII (Spitäler, 70 kWh/m²) gilt — Definition nicht in § 47a selbst, offener Punkt E-R140-1. **Weiterhin offen: SIA 380/1:2016 selbst** (Geldentscheid, `logbuch/fristen.md` seit Run 98).
+
+## Welcher Nachweisweg für welches Gebäude — und die «11 gegen 11»-Falle (Ergänzung Run 148, 2026-08-21)
+
+Mit dem Abschluss von E-R144-1 ist die Nachweislandschaft für den Neubau vollständig auseinandergezogen. Massgebend ist zuerst die **Gebäudekategorie**, nicht die Gebäudegrösse:
+
+| Fall | Weg | Grundlage |
+|---|---|---|
+| Neubau Wohnen, Kat. I/II | eine der **vier** Standardlösungen (Hülle + nicht-fossiler Erzeuger, keine fossile Spitzendeckung) — oder Rechennachweis | § 9 WDV 2022 |
+| Neubau Wohnen, einfache Bauten Kat. I/II | zusätzlich zulässig: Nachweistool **EN-101c** | § 8 Abs. 7 WDV 2022 |
+| Neubau Kat. III-XII (Verwaltung, Schulen, Verkauf, Restaurants, Versammlung, **Spitäler**, Industrie, Lager, Sport, Hallenbäder) | **kein Standardlösungsweg** — rechnerischer Nachweis des gewichteten Energiebedarfs zwingend | § 8 WDV 2022 gegen § 47a BBV I |
+| Wärmeerzeugerersatz im Bestand, alle Kategorien | eine der **elf** Standardlösungen — oder Nachweis 10 % Verbrauchsminderung bei wesentlich abweichender Nutzung | § 10 WDV 2022 (§ 11 Abs. 4 EnerG) |
+
+**Der Rechenweg (§ 8 WDV):** Nutzwärmebedarf Heizung Q_H,eff und Warmwasser Q_W geteilt durch die Nutzungsgrade der gewählten Wärmeerzeugung, multipliziert mit dem Gewichtungsfaktor des Energieträgers (EnDK-/BFE-Faktoren), zuzüglich des gewichteten Elektrizitätsaufwands für Lüftung und Klimatisierung. Heizwärmebedarf nach SIA 380/1:2016, Warmwasser nach Tabelle 27 der Norm. Nicht eingerechnet: nutzungsabhängige Prozessenergien und Eigenstrom (ausser aus WKK). Raumhöhenkorrektur auf 3 m bei Kat. III-XII; Kühlungs-Freibetrag von 5 kWh/m² bei Kat. I, II und IV gegen zusätzliche PV.
+
+⚠ **Die Falle, vor der dieser Abschnitt warnt:** Es gibt heute elf Standardlösungen und es gab 2009 elf Standardlösungen — beide Listen haben nichts miteinander zu tun. Die alten elf (EnFK-Vollzugshilfe EN-1, Januar 2009) bedienten den **Neubau**-Höchstanteil von 80 % nichterneuerbarer Energie nach § 10a EnerG alter Fassung; diese Anforderung ist per 01.09.2022 aufgehoben, die Liste ersatzlos entfallen. Die heutigen elf (§ 10 WDV) gelten dem **Heizungsersatz im Bestand**. Wer sie gleichsetzt, überträgt eine Bestandesregel auf einen Neubau. Belegt am Paragraphenwortlaut in [[energ-zh-nachtrag72-2011-historisch]] (§ 10a trug 2011 noch die 80-%-Formel, § 11 hiess «Klimaanlagen», § 10c existierte nicht), aufgearbeitet in [[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]] (`superseded`). Siehe [[BAUHERREN-FAQ]] F248 und F249.
+
+**E-R140-1 geschärft:** Die Gebäudekategorien I-XII sind die **Standardnutzungen der Norm SIA 380/1** — § 8 Abs. 2 und § 10 Abs. 2 WDV verweisen dafür ausdrücklich auf die Norm. Die offene Einstufungsfrage für Healthcare (Pflegeheim als Kat. I oder Kat. VIII, 35 gegen 70 kWh/m²) ist damit als **Normfrage** identifiziert und nicht über eine kantonale Vollzugshilfe zu klären; sie hängt am selben Normkauf-Entscheid wie die U-Wert-Tabellen (`logbuch/fristen.md` seit Run 98). Für JANS ist das der teuerste offene Einzelpunkt dieser KB, weil er bei jedem Pflegeprojekt den Grenzwert verdoppelt oder halbiert.
 
 ## Quelle / Abgrenzung
 EN-ZH-005 (Baudirektion ZH/AWEL, Juli 2022) → `[[en-zh-nachweis-uebersicht]]`; EVEN-Stand via

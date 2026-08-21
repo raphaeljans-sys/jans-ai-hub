@@ -3509,3 +3509,62 @@ durchfuehrbar.
   `[[haushaltgeraete-effizienz-beschaffung-topten]]`, FAQ F210). Vermutete Ursache: geänderte
   Strompreis-Annahme zwischen 2004 und 2008, nicht verifiziert. Geringe Dringlichkeit — beide
   Zahlen sind 2026 ohnehin nicht mehr zitierfähig, nur das Gesamtkosten-Prinzip trägt.
+
+## 2026-08-21 (Run 148) — E-R144-1 geschlossen; der Korpus ist erschöpft, der Engpass ist ein Normkauf
+
+- [x] **E-R144-1 (P2) GESCHLOSSEN am 21.08.2026 (Run 148): die «11 gegen 11» sind ein falscher
+  Freund, keine Nachfolgebeziehung.** Geprüft am amtlichen WDV-Volltext (zh.ch, §§ 7-12 im
+  Original nachgelesen) und an zwei `established`-Destillaten der KB. Ergebnis: die elf
+  Standardlösungen der EnFK-Vollzugshilfe **EN-1 (Januar 2009)** konkretisierten den
+  **Neubau**-Höchstanteil von 80 % nichterneuerbarer Energie nach § 10a EnerG **alter Fassung**;
+  diese Anforderung ist per **01.09.2022** aufgehoben und durch die Grenzwerttabelle des
+  gewichteten Energiebedarfs (§ 47a BBV I) ersetzt. Die elf Standardlösungen der **WDV 2022 § 10**
+  erfüllen dagegen **§ 11 Abs. 4 EnerG**, also die 90-%-Auffangregel beim **Wärmeerzeugerersatz im
+  Bestand**. Der Neubau-Nachfolger von EN-1 ist **§ 9 WDV mit VIER Standardlösungen, und nur für
+  die Gebäudekategorien I und II**. Wer die Listen gleichsetzt, überträgt eine Bestandesregel auf
+  einen Neubau. Belegt am Paragraphenwortlaut durch das in diesem Lauf neu destillierte
+  `[[energ-zh-nachtrag72-2011-historisch]]` (§ 10a trug 2011 wörtlich die 80-%-Formel, § 11 hiess
+  «Klimaanlagen», § 10c fehlte). Umsetzung: `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]`
+  auf `superseded` gesetzt und mit Aktualitätsprüfung versehen,
+  `[[waermedaemmvorschriften-zh-2022]]` um § 8 und die § 10-Kategorienspalte gewachsen, FAQ
+  **F248** und **F249** neu, Artikel `[[energienachweis-zh]]` um die Nachweiswege-Tabelle
+  gewachsen.
+
+- [x] **Selbstkorrektur im selben Zug:** das Destillat
+  `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]` behauptete in der Fassung von Run 144,
+  «§ 10a EnerG gilt unverändert». Das war falsch und ist berichtigt. Die Lehre ist allgemeiner
+  Natur und über diese KB hinaus gültig: **eine fortbestehende Paragraphennummer ist kein
+  fortbestehender Rechtssatz.** § 10a und § 11 EnerG tragen heute beide einen anderen
+  Regelungsgegenstand als vor der Revision. Wer eine ältere Fundstelle übernimmt, muss den
+  Wortlaut nachlesen, nicht die Nummer.
+
+- [ ] **E-R148-1 (P1, neu): SIA 380/1:2016 ist der einzige verbliebene echte Engpass dieser KB —
+  und er blockiert jetzt nachweislich zwei Dinge, nicht eines.** Bisher war der Normkauf
+  (`logbuch/fristen.md` seit Run 98) als Frage der U-Wert- und Q_H,li-Tabellenwerte geführt. In
+  diesem Lauf ist am WDV-Original belegt, dass auch die **Gebäudekategorien I-XII die
+  Standardnutzungen dieser Norm** sind (§ 8 Abs. 2 und § 10 Abs. 2 WDV verweisen ausdrücklich
+  darauf). Damit hängt die Healthcare-Einstufungsfrage **E-R140-1** an derselben Norm — sie ist
+  keine Vollzugshilfe-Frage und über eine kantonale Quelle nicht lösbar. Für JANS ist das der
+  teuerste offene Punkt der KB: die Einstufung eines Pflegeheims als Kat. I (35 kWh/m²) oder
+  Kat. VIII (70 kWh/m²) verdoppelt oder halbiert den Grenzwert bei jedem Healthcare-Projekt.
+  **Nächster Schritt ist eine Entscheidung, keine Recherche** — Normkauf vorlegen, sonst bleibt
+  der Punkt beliebig lange offen.
+
+- [ ] **E-R148-2 (P2, neu): der Loop braucht eine neue Steuerungsgrösse, weil der Korpus PL-02
+  erschöpft ist.** Die 24er-Restliste ist mit diesem Lauf vollständig entschieden (7 destilliert,
+  8 als `[-]` geprüft, 5 Mess-Artefakte, 3 aus Run 143; `training/pdf-inventar.md`, Nachtrag
+  21.08.2026). Der Ertrag der letzten Läufe ist entsprechend gefallen: in Run 147 war eine von
+  fünf Positionen eine echte Destillation, in Run 148 eine von sieben. Ein Loop, der weiter über
+  die Dateiliste gesteuert wird, produziert ab jetzt überwiegend Registerpflege. Vorschlag zur
+  Entscheidung durch Raphael (nicht eigenmächtig umsetzen, Lehre 25.07.2026): den täglichen Takt
+  auf **fragengetrieben** umstellen — Steuerungsgrösse ist dann die FAQ-Backlog- und
+  QUESTIONS-Liste statt `pdf-inventar.md`, mit Web-/Normquellen statt PL-02 als Rohstoff. Der
+  Alternativvorschlag wäre eine Rücktaktung auf wöchentlich.
+
+- [ ] **E-R148-3 (P3, neu): die Auswertungs-Mechanik der Baustellenkontrolle 2005 ist ein
+  brauchbares Werkzeug ohne Heimat.** «Ausgangslage 100 %, jede Nein-Antwort −10 %, Resultat in %»
+  macht aus einer Ja/Nein-Checkliste eine über mehrere Kontrollgänge vergleichbare Kennzahl und
+  zitiert weder Norm noch Produkt, altert also nicht. Sie steht derzeit nur in
+  `[[eco-bau-devis-und-baustellenkontrolle]]`. Prüfen, ob sie in den Skill `unternehmerkontrolle`
+  gehört (Ausmass/Abnahme) — dort wäre sie ein Werkzeug, hier ist sie eine Fussnote. Geringe
+  Dringlichkeit, aber billig umzusetzen.

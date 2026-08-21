@@ -5,7 +5,7 @@ ausgabe: "Wärmedämmvorschriften (WDV) vom 8. Juni 2022, LS 700.211, in Kraft a
 gelesen: "vollständig, 2026-08-17 (Run 139, Versuchs-Slot Nachtschicht Mac Mini)"
 datenstand: "2026-08-17 — dies ist die AKTUELL GELTENDE Fassung (löst die Ausgabe 2009 ab, siehe [[waermedaemmvorschriften-zh-2009-historisch]], status superseded)"
 status: established
-last_updated: "2026-08-17 (Run 139)"
+last_updated: "2026-08-21 (Run 148: § 8 Berechnungsverfahren vollständig nachgetragen, § 10 um Gebäudekategorien-Spalte und Abs. 2 ergänzt, Abgrenzung zur EN-1-Liste von 2009 gesetzt — Original zh.ch erneut gelesen, §§ 7-12)"
 ---
 
 # Destillat — Wärmedämmvorschriften Kt. Zürich, Fassung vom 8. Juni 2022 (LS 700.211, geltend)
@@ -54,6 +54,18 @@ g-Wert-, Steuerungs- und Windfestigkeitsanforderungen an Sonnenschutz nach Stand
 
 Gilt für Betriebstemperaturen bis 90 °C; Reduktion in begründeten Fällen (Kreuzungen, Durchbrüche, Vorlauf ≤ 30 °C, Armaturen/Pumpen) möglich.
 
+### § 8 Berechnungsverfahren gewichteter Energiebedarf (nachgetragen 21.08.2026, Run 148, Original erneut gelesen)
+
+Dieser Paragraph fehlte in der ersten Fassung des Destillats und ist der eigentliche Rechenweg hinter dem Grenzwert des § 47a BBV I:
+
+- **Abs. 1 — die Formel:** Nutzwärmebedarf Heizung Q_H,eff und Warmwasser Q_W werden durch die **Nutzungsgrade η der gewählten Wärmeerzeugungen** dividiert, mit dem **Gewichtungsfaktor g des eingesetzten Energieträgers** multipliziert und um den ebenfalls mit g gewichteten **Elektrizitätsaufwand für Lüftung und Klimatisierung (E_LK)** ergänzt.
+- **Abs. 2 — Normbezug:** Heizwärmebedarf nach **SIA 380/1, Ausgabe 2016**; für den Warmwasserbedarf gelten die **Standardnutzungswerte nach Tabelle 27** der Norm.
+- **Abs. 3 — was NICHT eingerechnet wird:** a. nutzungsabhängige Prozessenergien, b. Elektrizität aus Eigenstromerzeugung, **ausgenommen von WKK-Anlagen**.
+- **Abs. 4 — Gewichtungsfaktoren:** die von der EnDK und dem BFE definierten nationalen Faktoren.
+- **Abs. 5 — Raumhöhenkorrektur:** bei Räumen über 3 m Raumhöhe in Gebäuden der Kategorien **III-XII** darf mit Bezugshöhe 3 m korrigiert werden.
+- **Abs. 6 — Kühlungs-Freibetrag:** bei den Kategorien **I, II und IV** muss der Bedarf zur Deckung der Kühlung im Umfang von **höchstens 5 kWh/m²** nicht eingerechnet werden, wenn die dafür benötigte Elektrizität mit einer **zusätzlich zu § 10c EnerG** installierten Photovoltaikanlage im Umfang der elektrischen Leistung für die Kälteerzeugung produziert wird.
+- **Abs. 7 — vereinfachter Nachweis:** für die Kategorien **I und II** kann der Nachweis der Anforderung nach § 10a EnerG auch mit dem **Energienachweistool für einfache Bauten (EN-101c)** erbracht werden.
+
 ### § 9 Standardlösungen Neubau (Gebäudekategorien I/II — Wohnen MFH/EFH)
 
 | SL | Opake Bauteile aussen | Fenster | zusätzlich | Wärmeerzeugung (Auswahl) |
@@ -66,6 +78,12 @@ Gilt für Betriebstemperaturen bis 90 °C; Reduktion in begründeten Fällen (Kr
 Voraussetzung: keine Spitzendeckung mit fossilen Brennstoffen. KWL-Wirkungsgrad ≥ 80 %, ≥ 90 % EBF versorgt. Fernwärme anrechenbar nur wenn ≥ 70 % der Wärme ohne CO₂-Emissionen aus fossilen Brennstoffen (§ 47g BBV I).
 
 ### § 10 Standardlösungen Wärmeerzeugerersatz (Bauherren-relevant bei Heizungssanierung, alle Gebäudekategorien I–XII ausser wo vermerkt)
+
+⚠ **Nicht mit den elf Standardlösungen der EnFK-Vollzugshilfe EN-1 (2009) verwechseln** — jene bedienten den Neubau-Höchstanteil von 80 % nach § 10a EnerG alter Fassung und sind mit dessen Aufhebung per 01.09.2022 ersatzlos entfallen; der Neubau-Nachfolger sind die **vier** Standardlösungen des § 9 oben. Die Gleichzahl «11» ist Zufall. Vollständige Gegenüberstellung: [[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]] (`superseded`), Beleg des Paragraphenwandels: [[energ-zh-nachtrag72-2011-historisch]]. (Nachgetragen 21.08.2026, Run 148.)
+
+**Geltungsbereich je Standardlösung** (Spalte «Gebäudekategorie» der Originaltabelle, nachgetragen Run 148): SL 1-6 und SL 8-10 gelten für **I-XII**; **SL 7** (Warmwasserwärmepumpe mit Photovoltaikanlage) nur für **I, II, IV, VI, VIII, XI, XII**; **SL 11** (Kontrollierte Wohnungslüftung) nur für **I-II**.
+
+**§ 10 Abs. 2 — Ausweichweg bei abweichender Nutzung:** weicht die individuelle Nutzung wesentlich von den Standardnutzungen I-XII gemäss Norm SIA 380/1 ab, kann anstelle der Umsetzung einer Standardlösung eine **Verbrauchsminderung von 10 %** nachgewiesen werden.
 
 11 Standardlösungen, u.a.: 1 Thermische Solaranlage (≥2 % EBF Apertur), 2 Holzfeuerung als Hauptwärmeerzeuger, 3 Wärmepumpe Erdsonde/Wasser/Aussenluft, 4 Erdgas-Wärmepumpe (Wirkungsgrad ≥120 %), 5 Fernwärmeanschluss, 6 WKK (elektr. Wirkungsgrad ≥25 %, ≥60 % Wärmebedarf), 7 WW-Wärmepumpe + PV (nur Kategorien I, II, IV, VI, VIII, XI, XII, ≥5 Wp/m² EBF), **8 Fensterersatz** (U-Wert Glas neue Fenster ≤ 0,7 W/(m²·K) bei bestehenden Fenstern ≥ 2,0 W/(m²·K)), **9 Fassaden-/Dachdämmung** (U-Wert neu ≤ 0,20 W/(m²·K), Fläche ≥ 0,5 m² pro m² EBF, bestehend ≥ 0,6 W/(m²·K)), 10 erneuerbarer Grundlast-Wärmeerzeuger + fossiler Spitzenlastkessel, 11 KWL-Neueinbau (nur Kategorien I–II, WRG-Wirkungsgrad ≥70 %). Alternative: Nachweis Verbrauchsminderung 10 % bei wesentlich abweichender Nutzung.
 

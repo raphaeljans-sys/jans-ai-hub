@@ -1002,3 +1002,37 @@ Abschnitt 3.1/3.2 mit der 13-seitigen **Vollzugshilfe EN-1 «Höchstanteil an ni
 Energien bei Neubauten»**; in Run 143 als bisher unbemerkte Lücke aufgedeckt und der wertvollste
 verbliebene Rest des Werks. 2. `5.26PflanzenamBau.pdf` (5,2 MB, grösster Einzelposten der
 Restliste). 3. E-R138-2 (P3, Pflege).
+
+### Nachtrag 2026-08-21 (Run 148, Mac Mini) — die 24er-Restliste ist inhaltlich abgearbeitet
+
+Sieben Positionen bearbeitet, alle über M365-CLI beschafft (Site `/sites/PL`, Bibliothek intern
+`PL  Immobilienpreise` = `02_Recht_Norm`). Der SharePoint-Mount wurde nicht angefasst — der im
+Task genannte Pfad `OneDrive-FreigegebeneBibliotheken–JANS/PL - 04 Energie` existiert auf dieser
+Station strukturell nicht (Befund seit Run 126, bestätigt Run 143).
+
+| Status | Quelle (PL-02) | KB-Datenstand |
+|---|---|---|
+| [x] `730.1_19.6.83_72.pdf` (82 KB, EnerG Nachtrag 72, 1.4.2011) | 2026-08-21 (8 S. vollst.) → `energ-zh-nachtrag72-2011-historisch`, **superseded**. ⚠ **Abweichung vom `[-]`-Entscheid zum Schwester-Snapshot `730.1_19.6.83_85.pdf` (Run 138) ist beabsichtigt:** Nachtrag 85 wurde als blosse Doppelung eines jüngeren Rechtsstands verworfen, Nachtrag 72 trägt dagegen den **älteren, inhaltlich abweichenden § 10a** (80-%-Regel im Wortlaut) und ist damit ein Beleg, den keine geltende Fassung liefert |
+| [x] `3.15.C Checkliste Baustellenkontrolle.pdf` (27'875 B) | 2026-08-21 (2 S. vollst.) — **Dubletten-Annahme widerlegt**: ältere Auflage 2005 (Fusszeile «AHBPROJ/08.10.2005»), nicht Kopie der 2006er-Fassung (70'322 B). Deltas in `eco-bau-devis-und-baustellenkontrolle` eingearbeitet, dessen Frontmatter-Quellenangabe korrigiert. Kein eigenes Destillat (Verlinken statt doppeln, aber ausdrücklich **nicht** als Dublette geführt) |
+| [-] `6.16Eidg.Gesetze_Verordnungen_1-2005.pdf` (49 KB) | 2026-08-21 (2 S. vollst.) — bestätigte reine Fundstellenliste (24 Bundeserlasse mit SR-Nummern), keine Fachaussage; Standvermerke bis 21 Jahre alt |
+| [-] `6.26Literatur_1-2005.pdf` (154 KB) | 2026-08-21 (12 S. vollst.) — bestätigte Bibliografie in 16 Themenkapiteln, ausschliesslich Titelnennungen |
+| [-] `7.17Fachstellen.pdf` (70 KB) | 2026-08-21 (1 S. vollst.) — Fachstellen-/Meilensteinmatrix «ÖKO 7.17.I», Fusszeile 29.08.2006, ausdrücklich «Nur für städtische Bauprojekte»; nicht auf private Bauherrschaften übertragbar |
+| [-] `25.04.10 Kursausschreibung SIA380-1.pdf` (134 KB) | 2026-08-21 (2 S. vollst.) — Kursflyer mit Anmeldetalon (Termine Mai/Juni 2010, Fr. 550.-), kein zitierfähiger Fachinhalt; belegt nur den damaligen Normstand SIA 380/1:2009 |
+| [-] `Standards_Kennzeichnungssystem_V2.2.pdf` (434 KB) | Registerpflege 2026-08-21: der `[-]`-Entscheid aus Run 129 ist jetzt auch in `raw/_INGESTED.md` gespiegelt (Teilerledigung E-R138-2), keine neue Prüfung |
+
+**Stand der Restliste: vollständig abgearbeitet.** Positionsweise durchgezählt sind alle Zeilen
+der 24er-Restliste jetzt entschieden — 7 destilliert (Runs 143, 145, 146, 147, 148), 8 am Original
+geprüft und als `[-]` entschieden (Runs 146, 147, 148, dazu der nachgetragene Run-129-Entscheid),
+5 als Mess-Artefakte aufgelöst (bereits früher destillierte Werke, die der Basenamen-Abgleich
+nicht gefunden hatte), sowie die drei AHB-Werke aus Run 143. **Keine Position der Liste ist mehr
+ungeprüft.** Der inhaltliche Ertrag ist damit ausgeschöpft: von den sieben hier bearbeiteten
+Positionen trug genau eine (EnerG Nachtrag 72) neuen Fachwert, eine korrigierte eine falsche
+Bestandsannahme (Baustellenkontrolle), fünf waren bestätigte Nicht-Zugewinne. Das ist der
+erwartbare Ertragsverlauf am Ende eines Korpus und der sachliche Grund, den Loop nicht mehr über
+die Dateiliste zu steuern.
+
+**Nächste Priorität ist nicht mehr die Restliste.** Der Korpus PL-02 ist erschöpft; der
+werthaltigste offene Punkt der KB ist der **Normkauf SIA 380/1:2016** (`logbuch/fristen.md` seit
+Run 98). Er blockiert zwei Dinge gleichzeitig: die U-Wert-/Q_H,li-Tabellenwerte und — seit Run 148
+belegt — die Gebäudekategorien-Definition, an der die Healthcare-Einstufung E-R140-1 hängt
+(Kat. I mit 35 gegen Kat. VIII mit 70 kWh/m²).

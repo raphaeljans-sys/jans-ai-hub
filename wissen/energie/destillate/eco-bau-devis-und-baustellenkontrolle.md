@@ -1,5 +1,5 @@
 ---
-quelle: "Zwei Checklisten: Checkliste Deviskontrolle (ÖKO 3.14.C) und Checkliste Baustellenkontrolle (ÖKO 3.15.C) (SharePoint: PL - 02_Recht_Norm/04_Merkblätter/eco/3.14Deviskontrolle.pdf und .../eco/3.15Baustellenkontrolle.pdf, byte-identische Dubletten unter .../eco/Nachhaltiges Bauen/02 Checklisten/)"
+quelle: "Zwei Checklisten: Checkliste Deviskontrolle (ÖKO 3.14.C) und Checkliste Baustellenkontrolle (ÖKO 3.15.C) (SharePoint: PL - 02_Recht_Norm/04_Merkblätter/eco/3.14Deviskontrolle.pdf und .../eco/3.15Baustellenkontrolle.pdf). ⚠ Korrigiert 2026-08-21 (Run 148): die frühere Angabe «byte-identische Dubletten unter .../eco/Nachhaltiges Bauen/02 Checklisten/» gilt nur für die Deviskontrolle (beide 64'309 Bytes). Bei der Baustellenkontrolle sind es ZWEI VERSCHIEDENE AUFLAGEN: .../eco/3.15Baustellenkontrolle.pdf (70'322 B, Fassung 2006, «_neu», Grundlage dieses Destillats) und .../02 Checklisten/3.15.C Checkliste Baustellenkontrolle.pdf (27'875 B, ältere Fassung 2005) — siehe Abschnitt «Ältere Auflage 2005»"
 herausgeber: "Stadt Zürich, Amt für Hochbauten (beide Dokumente)"
 ausgabe: "Deviskontrolle (ÖKO 3.14.C): Dokumenteigner-Feld „POM, 11.08.06“; Fusszeile „29.08.2006/Öko 3.14.C Deviskontrolle.doc“. Baustellenkontrolle (ÖKO 3.15.C): Dokumenteigner-Feld „POM, 11.08.06“; Fusszeile „11.08.2006/Öko 3.15.C Baustellenkontrolle_neu.doc“. ⚠ PDF-Metadaten-Erstellung als Hilfsindiz (nicht am Dokument selbst ablesbar): Deviskontrolle 29.08.2006 (deckt sich mit der Fusszeile), Baustellenkontrolle 11.03.2008 (weicht von der gedruckten Fusszeile 11.08.2006 ab — vermutlich spätere Dateibearbeitung des „_neu.doc“ ohne Nachführung der Fusszeile; im Zweifel gilt die neuere Metadaten-Zeitangabe als Hinweis auf eine überarbeitete Fassung)."
 gelesen: "Deviskontrolle S. 1 (vollständig) und Baustellenkontrolle S. 1-2 (vollständig), 2026-08-04"
@@ -134,3 +134,47 @@ LV-Position im Devis?) und Baustellenkontrolle waehrend der Ausfuehrung (wurde d
 Produkt auch verbaut?), samt der Regel, dass die internen Merkblaetter **nicht** der Submission
 beigelegt werden und nur die daraus abgeleiteten LV-Positionen vertragswirksam sind. Diese
 Konstruktion ist vom Alter der zitierten Normen unabhaengig.
+
+## Ältere Auflage 2005 der Baustellenkontrolle — und was sie mehr konnte (Nachtrag Run 148, 21.08.2026)
+
+Die Datei `.../eco/Nachhaltiges Bauen/02 Checklisten/3.15.C Checkliste Baustellenkontrolle.pdf`
+(27'875 B) war im Inventar als vermutete Dublette geführt. Sie ist keine: es ist die **ältere
+Auflage von 2005** (Fusszeile wörtlich «AHBPROJ/08.10.2005/POM/H.FST00400.11.0/Öko 3.15.C
+Baustellenkontrolle.doc», dazu ein rotierter Vorlagenstempel «03.2003» am linken Blattrand;
+Briefkopf noch «Amt für Hochbauten der Stadt Zürich, Amtshaus III, Lindenhofstr. 21»). Beide
+Auflagen haben 2 Seiten, dieselbe Gliederung und dieselbe Materialliste auf der Rückseite.
+Am Original gegengelesen 21.08.2026, S. 1 vollständig.
+
+**Drei belegte Abweichungen 2005 → 2006:**
+
+1. **Die Auswertungs-Mechanik ist in der Neufassung ersatzlos verschwunden.** Die Fassung 2005
+   trägt unter «Auswertung» wörtlich: «Ausgangslage 100 %, jede Abweichung (nein-Antwort) ergibt
+   eine Reduktion um 10 %» samt Formularfeld «Resultat: ___ %». Die Fassung 2006 hat weder
+   Auswertung noch Resultatfeld.
+2. **Ein Kontrollpunkt wurde ausgetauscht.** 2005 in der Gruppe «Lösemittel, Emissionen»:
+   «Fugendichtungsmassen, Primer, Reiniger: lösemittelfrei (0 % Lösemittel)». An derselben Stelle
+   steht 2006: «Dieselbetriebene Baumaschinen mit Leistung über 18 kW mit Partikelfilter» — ein
+   Wechsel vom Baustoff- zum Baumaschinen-Emissionsthema.
+3. **Wortwahl und Schärfe der Vorgehensschritte.** 2005 «Materialien prüfen/beurteilen» und
+   «Ergebnisse kommentieren/protokollieren»; 2006 «**Ökologische und toxikologische
+   Eigenschaften** der Materialien prüfen/beurteilen» und «… **Bei Abweichungen schriftliche
+   Stellungnahme von Bauleitung / Unternehmern verlangen**». Ebenso «Keine **Ortschäume**
+   eingesetzt» (2005) gegen «Keine **Montageschäume** eingesetzt» (2006), und die
+   Tabellenüberschrift «Checkliste (Richtschnur allgemeine bauökologische
+   Submissionsbedingungen)» gegen «Kontrollpunkte».
+
+**Bauherren-Transfer des Nachtrags — die verlorene Mechanik ist der interessante Teil.** Die
+2005er-Auswertung macht aus einer Ja/Nein-Liste eine **Kennzahl**, die sich in einem
+Bauleitungs-Protokoll oder gegenüber einer Bauherrschaft überhaupt berichten und über mehrere
+Kontrollgänge vergleichen lässt («Baustellenkontrolle 2: 80 %»). Wer die Zwei-Stufen-Mechanik
+dieses Destillats heute in einem JANS-Projekt einsetzt, kann diese Prozentlogik übernehmen; sie
+kostet nichts und ist der einzige Teil der beiden Formulare, der ohne Aktualitätsprüfung trägt,
+weil er keine Norm und kein Produkt zitiert. Die Punktwerte selbst (10 % je Abweichung) sind
+eine Setzung des Herausgebers ohne Begründung im Dokument, also frei anpassbar.
+
+**Keine Nachfolgebeziehung bei den Kontrollpunkten unterstellen:** dass 2006 der
+Lösemittel-Punkt zugunsten des Partikelfilter-Punkts gestrichen wurde, heisst nicht, dass die
+Lösemittelfreiheit von Fugendichtungsmassen entfallen wäre — sie ist in der Neufassung nur nicht
+mehr als eigener Kontrollpunkt geführt. Beide Anforderungen sind vor Verwendung gegen die
+geltenden Fassungen zu prüfen (ecoBKP 2026, Rule `normen-referenz`), wie oben für EC1/GEV-EMICODE
+bereits vermerkt.
