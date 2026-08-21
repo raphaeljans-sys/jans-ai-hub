@@ -3,6 +3,97 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+
+## Radar-Briefing 21.08.2026 (06:55) — für das Tagesbriefing des Hub-Chef
+
+**Erledigt seit gestern**
+
+Die Bringschuld aus dem Duschwannen-Strang ist geliefert: Raphael hat um 00:40 die überarbeiteten
+Nasszellenpläne 1:20 an R. Guerini und I. Suljanovic versandt, Cc Eren, Spahic, Spörri, Würsch,
+Ziegel und Stadelmann, mit PDF und DWG. Der seit dem 17.08. geführte Registerpunkt «Duschwannen /
+Aufbauhöhe» ist damit geschlossen.
+
+Die Wandleuchte ist erledigt: F. Würsch hat am 20.08. 13:59 das Datenblatt Artemide Discouri 14
+geschickt, Raphael hat um 14:47 quittiert.
+
+Für das KISPI-Nasszellenblatt liegt seit heute Nacht eine gerechnete Honorarposition vor
+(Erstblatt CHF 18'720.00 inklusive Nebenkosten), abgelegt im Projektordner unter
+`00_Admin/1 Angebote/260821-2619-Honorar-Nasszellenplan/`.
+
+**Aus unseren Gesprächen**
+
+Honorar Nasszellen-Ausbauplan: gerechnet auf dem eigenen KISPI-Ansatz vom 08.05.2026
+(CHF 135.00/Std, 134 Stunden), Erstblatt pauschal CHF 18'000.00 plus 4 % Nebenkosten, Folgeblatt
+CHF 8'500.00, je Nasszellentyp CHF 2'600.00 beziehungsweise CHF 1'300.00 im Folgetyp, Bandbreite
+CHF 15'000.00 bis 21'500.00. Zwei Dinge stehen aus und liegen bei Dir: die im Quercheck
+angenommene Bausumme von CHF 380'000.00 ist nicht belegt und muss vor jeder Verwendung nach aussen
+verifiziert werden, und das Blatt ist eine Kalkulation, keine Offerte — der Ausbau zur formellen
+Honorarofferte ist angeboten, nicht beschlossen.
+
+Aus der 2D-Ableitung des KWC-Ausgussbeckens ist der Weg «3D-Hersteller-DWG nach 2D-Plan» als
+belegte Rangfolge in `connectors/WEGE.md` eingetragen; der Fall kostet beim nächsten Mal Minuten
+statt Stunden.
+
+**Überfällig**
+
+Zwei Entwürfe an Dritte liegen unversendet im Postfach, und einer davon setzt selbst eine Frist auf
+heute: der Entwurf an L. Bajrami (Jegen) zum Massaufnahme-Termin Los 274.01, bereitgestellt am
+20.08. 08:52, ist unverändert Entwurf. Damit ist die Massaufnahme den vierten Tag nicht terminiert,
+und der Stichtag für den Montagestart vom 12.10. bleibt seit dem 17.08. überschritten. Der zweite
+Entwurf an T. Stubbe (UGZ) sagt ein Gespräch ab, das inzwischen vergangen ist — er darf im
+vorliegenden Wortlaut nicht mehr hinausgehen.
+
+bexio antwortet den zwölften Lauf mit HTTP 401. RE-00100 (Nova Property Fund, CHF 13'120.00) hat
+gestern das Ende der Zahlungserinnerungsfrist erreicht und ist unverifiziert verfallen; RE-00098
+und RE-00099 (KISPI, zusammen CHF 17'280.00) sind seit dem 12.08. überfällig, RE-00101 (Tschopp,
+CHF 6'000.00) bleibt mit der ungeprüften Bankbewegung Tx 3630 offen. Nichts gemahnt, nichts
+gebucht, nichts versendet. Der Zugang lässt sich nur durch einen neu ausgestellten Personal Access
+Token wiederherstellen.
+
+**In den nächsten 7 Tagen**
+
+Heute 10:00 Baustellenbegehung KISPI Zürich; die RHS-Anlieferung Estermann lief heute um 06:30 an,
+Vorarbeiter vor Ort T. Tus, 079 487 50 10.
+
+Montag 24.08. läuft die Frist für TeKoSi, das korrigierte Türkonzept zuhanden der Bauherrschaft
+vorzulegen; gleichentags 09:00 Abgleich und Status PPTS.
+
+Dienstag und Mittwoch 25./26.08. der effektive Rückbau der Leichtbauwände samt Abschaltung der
+Brandmeldeanlage. Mittwoch 26.08. 13:00 PPTS-Treffen mit O. Stadelmann auf der Baustelle.
+
+Stefan Tschopp wartet seit heute 05:51 auf drei Antworten zum Garten Bohlweg 3: ob der
+finalisierte Projektbeschrieb so an die Gemeinde geht und ob die Pflanzliste mitgeht, ob die
+Dachplatanen zusammen mit dem bestehenden Quittenbaum die Pflichtbäume der Gemeinde bereits
+erfüllen, und wie das weitere Vorgehen mit der SBB vereinbart war. Keine Frist gesetzt, aber der
+Begleitbeschrieb ist derselbe, dessen Ziffer 4.5 am 06.08. als fehlerhaft gemeldet wurde — die
+Korrekturfassung gehört vor dem Gang zur Gemeinde dagegengehalten.
+
+**In Beobachtung**
+
+Rückmeldung von Guerini und Suljanovic zu den Nasszellenplänen sowie Erens Auflistung der
+EI30-Durchdringungen; sie ist die Grundlage der Estermann-Gewährleistung und wird vor dem Rückbau
+am 25./26.08. gebraucht. · Die Lüftungspläne brauchen aus Brandschutzsicht Anpassungen, zuständig
+ist B. Kübler (Gruner), zurück am Montag 24.08.; JANS nur im Cc. · Planfreigabe der
+Jegen-Prinzippläne, fachlich bei Raphael. · SharePoint-Speicherpool, 88-Prozent-Marke um den
+25.08. · NAS-Volume bei 93 Prozent. · Tailscale auf dem Mac Mini gestoppt. ·
+`ag-gruendung-monitor` defekt, damit UBS-Strang unbeaufsichtigt. · Anmeldung Berufsinfotag bis
+Ende September 2026. · ewz-Rechnung CHF 85.75 und CSS-Prämienabrechnung CHF 295.10, beide privat
+und ohne Fälligkeitsangabe. · SIA-102-Grundlage der Honorarofferten, Entscheid Raphael. ·
+SIA 416/1 zurückgezogen, Beschaffung SIA 380:2015. · eBaugesucheZH-Migration auf AGOV.
+
+**Vorschlag Kalendereinträge**
+
+Dienstag 25.08. und Mittwoch 26.08., Rückbau Leichtbauwände inklusive Abschaltung der
+Brandmeldeanlage: die beiden Tage stehen in keinem Kalender, obwohl sie den Rückbau samt
+Anlagenabschaltung tragen. Nicht eingetragen, Entscheid Raphael.
+
+**Token-Tempo**
+
+Vortag 20.08.: MacBook Pro 216.99 Mio Tokens (USD 186.51), Mac Mini 38.97 Mio Tokens (USD 18.25),
+zusammen 255.96 Mio Tokens und ein API-Kostenäquivalent von USD 204.76.
+
+---
+
 ---
 
 ## Hub-Chef 20.08.2026 (08:39 bis 09:05) — Tagesbriefing GESENDET (Regellauf)
