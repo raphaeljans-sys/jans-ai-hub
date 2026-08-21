@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.08.2026 17:13:21
+Stand: 21.08.2026 17:23:38
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:08)
@@ -12,4 +12,4 @@ Stand: 21.08.2026 17:13:21
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b78b9e7c nas-selfcommit: 3 Datei(en) 2026-08-21 17:00
+- fd717f2c Synergie-Lauf 14 (21.08.2026): SYN-39 Bildschirmschoner-Waechter lag als einziger von fuenf Stations-Waechtern ausserhalb des Repos - Script nach scripts/ gesichert, launchd bewusst nicht angefasst (unbeaufsichtigter Lauf); SYN-40 Querverweis von dokument-layout-standard auf die neue Laengenregel 260820
