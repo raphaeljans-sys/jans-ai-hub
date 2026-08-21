@@ -112,7 +112,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Betrix_Consolaschio_Erlbenbach** — korrekt Betrix & Consolascio, Erlenbach (zwei Fehler im Slug).
 - **Bow_How** — gemeint ist Atelier Bow-Wow (Tsukamoto/Kaijima). Slug normieren?
 - **Brotzki** — gemeint ist Alexander Brodsky. Slug normieren?
-- **Bomarozzo** — vermutlich der Ort Bomarzo (Sacro Bosco), kein Architekt. Umwidmen oder loeschen?
+- **Bomarozzo** — vermutlich der Ort Bomarzo (Sacro Bosco), kein Architekt. Umwidmen oder loeschen? **RECHERCHIERT 21.08.2026 (Nachtschicht Mac Mini, 13:30-Slot):** bestaetigt. Gemeint ist der Sacro Bosco di Bomarzo («Parco dei Mostri»/Park der Ungeheuer), ab Mitte des 16. Jh. von Pier Francesco «Vicino» Orsini in Auftrag gegeben; der Entwurf wird dem Architekten Pirro Ligorio zugeschrieben, die Skulpturen Simone Moschino. Kein Architekten-Ordner im engeren Sinn, sondern ein Orts-/Projekt-Merkposten (analog Villerauxban) — Umwidmung auf Ligorio_Pirro oder Beibehaltung als Projekt-Merkposten ist Ermessensfrage, keine weitere Sachaufklaerung noetig. Quellen: sacrobosco.eu/history, en.wikipedia.org/wiki/Gardens_of_Bomarzo.
 - **Boehm_Domenicus** — korrekt Dominikus Boehm. Umbenennung?
 - **Bucher_Bruendler** — das Buero schreibt sich Buchner Bruendler. Umbenennung?
 - **Buenzli_Covasier_Architekten** — korrekt wohl Buenzli & Courvoisier. Umbenennung?
@@ -121,7 +121,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Da_Rocha_Eduardo_Mendes** — gemeint ist Paulo Mendes da Rocha; Vorname «Eduardo» falsch. Umbenennung?
 - **Dieste_Elado** — korrekt Eladio Dieste. Umbenennung?
 - **Durisch_Noelli** — das Buero schreibt sich Durisch + Nolli. Umbenennung? (Nicht verwechseln mit Azzola_Durrisch.)
-- **Danzeisen_Voser_Hossorf** — Text belegt Danzeisen und Voser (St. Gallen); Zusatz «Hossorf» ungeklaert (Hosdorf?).
+- **Danzeisen_Voser_Hossorf** — Text belegt Danzeisen und Voser (St. Gallen); Zusatz «Hossorf» ungeklaert (Hosdorf?). **RECHERCHIERT 21.08.2026 (Nachtschicht Mac Mini, 13:30-Slot):** Buero-Identitaet bestaetigt: Heinrich Danzeisen und Hans Voser gruendeten 1950 in St. Gallen das Buero Danzeisen + Voser (bis 1986 aktiv, rund 1'000 Wohneinheiten, u.a. Spitaeler/Schulhaeuser/die MoMA-dokumentierte Sheddachhalle Gummibandweberei Gossau). Der Zusatz «Hossorf» bleibt ungeklaert — keine Quelle nennt ihn als Projekt, Ort oder Partner; vermutlich ordnerinhalt-spezifisch (Projekt- oder Ortsname), Ordnerinhalt sichten noetig, nicht websuchbar. Quellen: eberhard-baukultur.ch/projekt/danzeisenvoser, scope.staatsarchiv.sg.ch/detail.aspx?ID=475473.
 - **Du_rr_Otto und Boulle_e_Etienne_Louis_1728_1799** — Katalog-Slugs aus Umlaut-/Akzent-Zerlegung (Duerr, Boullee). Fuer Verlinkung stoerend; Normierung der Quellordner oder Slug-Mapping im Scanner?
 - **Brown_Lancelot_ Capability_1716_1783** — Leerzeichen im Quellordnernamen (Katalogdatei mit Doppel-Unterstrich).
 - **DeKlerk / DeFinetti / BischoffKopp / Dierendonckblanche** — CamelCase-Slugs ohne Unterstrich-Konvention; Normierung pruefen.
@@ -224,7 +224,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Sauerbruch_Hotton_Architekten** — korrekt Sauerbruch Hutton. Umbenennung? Der Merkposten Kiel_Andrew (Charge 3, Projektleiter Sauerbruch Hutton) koennte hierhin.
 - **Sauvage_Henrry** — korrekt Henri Sauvage. Umbenennung?
 - **Schader_Kt_Freudenberg** — Slug mischt Person und Projekt; korrekt Jacques Schader, Kantonsschule Freudenberg. Umbenennung in Schader_Jacques mit Projektordner?
-- **Schultes_Frank** — vermutlich das Buero Axel Schultes und Charlotte Frank (Slug liest sich wie Nachname_Vorname). Klaeren und praezisieren?
+- **Schultes_Frank** — vermutlich das Buero Axel Schultes und Charlotte Frank (Slug liest sich wie Nachname_Vorname). Klaeren und praezisieren? **RECHERCHIERT 21.08.2026 (Nachtschicht Mac Mini, 13:30-Slot):** bestaetigt, «Frank» ist kein Vorname. Buero Schultes Frank Architekten, Berlin (Luetzowplatz 7): gegruendet Anfang 1992 von Axel Schultes (*1943 Dresden) mit Charlotte Frank (*1959 Kiel) und Christoph Witt als «Axel Schultes Architekten», seit 2006 unter «Schultes Frank Architekten» firmierend. Bekanntestes Werk das Bundeskanzleramt Berlin (Deutscher Architekturpreis 2003 fuer Frank). Slug ist also Nachname_Nachname (beide Partner-Nachnamen), keine Umbenennung noetig, nur Praezisierung der Lesart. Quellen: de.wikipedia.org/wiki/Axel_Schultes, schultesfrank.de, nextroom.at/actor.php?id=94473.
 - **Scott_Baillie** — korrekt M. H. Baillie Scott (Slug verdreht/verkuerzt). Umbenennung?
 - **Sebrowitz_Jurkovic_Dusan_Sebrowitz** — Dusan Jurkovic; «Sebrowitz» doppelt und ungeklaert. Slug bereinigen?
 - **Seilerlinhard_Architekten** — korrekt Seiler Linhart (Luzern), CamelCase ohne t. Umbenennung?
@@ -248,7 +248,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Speer_Alfred** — korrekt Albert Speer. Umbenennung?
 - **Spielmann_Echsel** — vermutlich Spillmann Echsle (Zuerich). Umbenennung?
 - **Stauffer_Hasler** — das Buero schreibt sich Staufer & Hasler (ein f). Umbenennung?
-- **Strnad_Lurje** — Wiener Duo Oskar Strnad und Viktor Lurje; Zuordnung des Hauses Hock klaeren.
+- **Strnad_Lurje** — Wiener Duo Oskar Strnad und Viktor Lurje; Zuordnung des Hauses Hock klaeren. **RECHERCHIERT 21.08.2026 (Nachtschicht Mac Mini, 13:30-Slot):** bestaetigt. Haus Hock, Cobenzlgasse 71, Wien 19 (1910/1912-14), entstand nach Plaenen von Oskar Strnad gemeinsam mit Viktor Lurje und Oskar Wlach — Strnads erster bedeutender Bau, damals als «skandaloes» wahrgenommen (u.a. wegen des gewundenen Zugangswegs von der Strasse zu den Hauptraeumen). Quellen fuehren das Gebaeude teils als «Haus Hoch», teils als «Haus Hock» (Wien Geschichte Wiki, MAK-Sammlung) — dieselbe Adresse/dasselbe Bauwerk, keine zwei Objekte. Quellen: geschichtewiki.wien.gv.at/Haus_Hock, sammlung.mak.at, researchgate.net (Abb. mit Bildunterschrift «Haus Hoch»).
 - **Tessar_Heinz** — korrekt Heinz Tesar. Umbenennung?
 - **Trachsel_Hofmann** — das Buero schreibt sich Trachsler Hoffmann (Weblinks im Ordner belegen es). Umbenennung?
 - **Tschumi_Bernhard** — korrekt Bernard Tschumi. Umbenennung?

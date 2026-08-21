@@ -4,6 +4,29 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-21 (Mac Mini Nachtschicht, 13:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung wie im 05:33-Lauf desselben Tages gegengeprueft und bestaetigt: Prioritaeten 1-4
+leer (keine pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin deaktiviert 853/853; kein
+KB mit freiem `training/PROGRAMM.md`; `vollgas-radar` 12:57 bestaetigt energie/twin/synobsis als
+die drei KBs mit heutigem Delta, alle drei ueber eigene Taktgeber bzw. den 05:33-Lauf). Auf
+Prioritaet 5 ausgewichen, vier weitere offene Fragen aus `wiki/QUESTIONS.md` per WebSearch
+geklaert (andere als im 05:33-Lauf):
+
+- **Schultes_Frank** → bestaetigt: Schultes Frank Architekten, Berlin (Axel Schultes + Charlotte
+  Frank, seit 1992 als Buero, seit 2006 unter diesem Namen). Slug ist Nachname_Nachname, keine
+  Umbenennung noetig.
+- **Bomarozzo** → bestaetigt: Sacro Bosco di Bomarzo («Parco dei Mostri»), Auftraggeber Vicino
+  Orsini, Entwurf Pirro Ligorio. Orts-/Projekt-Merkposten, kein Architekten-Ordner.
+- **Danzeisen_Voser_Hossorf** → Buero-Identitaet bestaetigt (Heinrich Danzeisen + Hans Voser,
+  St. Gallen, 1950-1986); Zusatz «Hossorf» bleibt ungeklaert, nicht websuchbar.
+- **Strnad_Lurje** → bestaetigt: Haus Hock, Cobenzlgasse 71 Wien (1910/1912-14), Oskar Strnad
+  mit Viktor Lurje und Oskar Wlach.
+
+Details je Frage in `wiki/QUESTIONS.md`, Sektion 2. Keine Ordnerumbenennung (Freigabesache
+Raphael), kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses
+Zyklus: siehe Logbuch-Journal.
+
 ## 2026-08-21 (Mac Mini Nachtschicht) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung: Prioritaeten 1-3 des Nachtschicht-Auftrags leer/gesaettigt (keine pending remote-/

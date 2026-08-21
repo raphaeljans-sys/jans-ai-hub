@@ -7626,3 +7626,24 @@ die drei beabsichtigten Zeilenersetzungen (+3/-3) — keine ungewollte Loeschung
 (`diskstation918.tail8265aa.ts.net` nicht aufloesbar); der 15-Min-Cron faengt die Edits auf. Nichts
 versendet, nichts gebucht, keine destruktive Aktion, keine Ordnerumbenennung (bleibt Freigabesache
 Raphael). Budget: rund 2.9 von 5 USD.
+
+## 2026-08-21 13:30 Nachtschicht Mac Mini (Versuchs-Slot) — Prioritaeten 1-4 weiterhin gesaettigt, Prioritaet 5: vier weitere Identitaetsfragen architekten-synobsis
+
+Prioritaeten 1-4 gegen den 05:47-Lauf desselben Tages nachgeprueft, unveraendert leer: keine
+pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin 853/853 mit eigenem Taktgeber; kein KB mit
+freiem `training/PROGRAMM.md` (auflagebereinigung/claude-code/entwurfs-referenzen/firmengruendung-ch/
+kunde-bopp ohne training/-Verzeichnis, `spec` auf Ereignis-Trigger). Der Commit `c07bb021`
+(`vollgas-radar` 12:57) bestaetigt unabhaengig: heute Delta nur in energie/twin/architekten-synobsis,
+alle drei bereits ueber eigenen Taktgeber bzw. den 05:47-Lauf bedient.
+
+Auf Prioritaet 5 ausgewichen, vier weitere offene Identitaetsfragen aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert — andere als im 05:47-Lauf
+desselben Tages: Schultes_Frank → Schultes Frank Architekten Berlin (Axel Schultes + Charlotte
+Frank, Slug ist Nachname_Nachname); Bomarozzo → Sacro Bosco di Bomarzo/Parco dei Mostri, Entwurf
+Pirro Ligorio, Orts-/Projekt-Merkposten statt Architekten-Ordner; Danzeisen_Voser_Hossorf →
+Buero-Identitaet Danzeisen + Voser (St. Gallen 1950-1986) bestaetigt, Zusatz «Hossorf» bleibt
+ungeklaert; Strnad_Lurje → Haus Hock Wien, Oskar Strnad mit Viktor Lurje und Oskar Wlach bestaetigt.
+Details + Quellen: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-21 (13:30-Slot).
+
+Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung, keine
+destruktive Aktion. Budget dieses Zyklus: rund 3.0 von 5 USD.
