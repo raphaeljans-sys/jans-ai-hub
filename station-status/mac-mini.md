@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.08.2026 13:06:45
+Stand: 21.08.2026 13:27:18
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 21.08.2026 13:06:45
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c07bb021 vollgas-radar 21.08. 12:57: Fenster frei, drei KBs mit Delta, Rueckstand -36.8, bexio-401 zwoelfter Lauf
+- 3e1ffa8e nas-selfcommit: 2 Datei(en) 2026-08-21 13:15
