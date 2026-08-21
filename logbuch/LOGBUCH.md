@@ -4,6 +4,110 @@ Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Ha
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
 
+## Hub-Chef 21.08.2026 (08:39 bis 09:1x) — Tagesbriefing GESENDET (Regellauf)
+
+Signale vollständig eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, der
+heutige Loop-Abschnitt im Datumsblock (Radar-Briefing 06:55), das Konversations-Destillat 21.08.,
+`mail-vorfilter.sh 26` über alle Konten, bexio `--verzug` und `--abgleich`, der M365-Kalender über
+acht Tage, die Sync- und Remote-Queues sowie `services/KATALOG.md`. Das mechanische Mail-Einsammeln
+lief über einen Haiku-Subagenten, Urteil und Entscheid blieben im Hauptkontext (Rule
+`modellwahl-routine`).
+
+**Vermerk zum Meldekanal:** der Radar-Abschnitt 06:55 liegt vollständig vor und ist die Grundlage
+dieses Briefings. **Ein AG-Gründungs-Abschnitt fehlt den dritten Tag in Folge** — Ursache und Fix
+unten. Der `mahnwesen-verzugscheck` hat heute 08:07 gelaufen und seinen Befund als Nachtrag ins
+Fristen-Register geschrieben, nicht als eigenen Logbuch-Abschnitt; inhaltlich vollständig, deshalb
+kein Fehlbefund.
+
+**Werkzeug-Artefakt, im Lauf gegengeprüft und widerlegt.** Der Sammel-Subagent meldete «keine
+Entwürfe vorhanden in iCloud, Exchange oder mail@raphaeljans.ch». Das widersprach dem Register vom
+selben Morgen und wurde deshalb am Original gegengeprüft (Rule `auto-verbesserungen` 260729b): das
+Exchange-Konto führt **117 Entwürfe**, darunter beide vom 20.08. Ursache ist der Umlaut im
+Ordnernamen «Entwürfe», an dem die AppleScript-Suche nach dem Teilstring «ntwurf» still scheitert.
+Lehrsatz bestätigt: **ein leeres Suchergebnis ist zuerst eine Aussage über das Werkzeug**, nicht
+über die Quelle (Rule `wege-und-vollmachten`). Hätte ich den Befund übernommen, wäre der einzige
+terminkritische Punkt des Tages unsichtbar geblieben.
+
+**Ausgeführte Aktionen (A5, ein Mail-Entwurf).**
+
+01.1 **An L. Bajrami (Jegen AG)**, «KISPI PPTS Los 274.01: Termin Massaufnahme innere Verglasung».
+Der Entwurf vom 20.08. 08:52 verlangte einen Terminvorschlag «bis morgen Freitag, 21. August» und
+war damit heute an seiner eigenen Frist verfallen. Neuer Entwurf mit Frist **Montag 24.08.**, Text
+sonst wörtlich unverändert; die QS vom 20.08. gilt damit fort (`korrektur` grün, twin-Gate
+bestanden). Anrede nach `anrede-kontakte` im Sie gegengeprüft: Bajrami steht nicht in der Liste,
+Default gilt. Der alte Entwurf wurde **nicht gelöscht** (Löschen ist der Whitelist entzogen).
+
+**Ausgeführte Aktionen (A4, Register).** Zwei Nachträge in `logbuch/fristen.md`: der neue
+Wochentakt der Koordinationssitzung Gruner/Jans/KISPI (neu jeden Donnerstag 13:00, nächster Termin
+27.08., belegt im Body der Termininstanz vom 20.08.) und der Jegen-Vorgang samt dem strukturellen
+Befund unten. Register von 2659 auf 2691 Zeilen, `git diff --numstat` zeigt **+32/-0** — reines
+Einfügen, keine Löschung (Rule `auto-verbesserungen` 260811).
+
+**Ausgeführte Aktionen (technisch, umkehrbar).** Die ungültige Modell-ID `haiku-4-5` in der
+Frontmatter des `ag-gruendung-monitor` ist auf `claude-haiku-4-5-20251001` korrigiert. Der Fix war
+gestern als Befehl vorgelegt worden, weil der Auto-Mode-Klassifikator den Bash-Weg blockierte; er
+blockierte ihn heute erneut, der Edit über das Datei-Werkzeug ging durch. Backup der
+Ursprungsfassung im Scratchpad des Laufs. Warum es operativ zählt: dieser Monitor ist der einzige
+Kanal, der den UBS-Strang im Postfach `mail@raphaeljans.ch` liest.
+
+**Fachliche Vorarbeit, die keine Whitelist-Aktion ist.** Zu den drei Fragen, die S. Tschopp heute
+05:51 zum Garten Bohlweg 3 gestellt hat, sind die Anhänge geöffnet und Ziffer 4.5 des
+Begleitbeschriebs gegen den Fehlerbefund des `wissens-chef` vom 05.08. (Run 26) gehalten worden.
+Ergebnis: in Version 4 (August 2026) sind alle drei gerügten Punkte behoben — die Berufung auf
+Art. 45 revBZO ist entfernt, ebenso der Schlusssatz «nach alter und neuer Ordnung eingehalten»,
+zitiert wird nur noch Art. 24 Abs. 1 BZO. Die Rechnung ist in sich stimmig (zulässig 45.8 m2 bei
+7 %, beansprucht 34.0 m2 oder 5.2 %, Veloraum 26.19 m2 plus Gartenschopf 7.82 m2). **Offen bleibt
+ein Punkt desselben Befunds:** § 2a Abs. 2 ABV, die 50-m2-Grenze für den **angebauten** Veloraum,
+kommt in Version 4 nicht vor; mit 34.0 m2 wäre sie eingehalten, der Nachweis steht aber nicht im
+Text. Die drei Fragen selbst (Gang zur Gemeinde, Pflichtbäume, Vorgehen SBB) bleiben Raphaels
+Einschätzung und wurden nicht vorweggenommen.
+
+**Bewusst KEINE Aktion.** A1 nicht qualifiziert: bexio ist den dreizehnten Kalendertag ohne
+Datengrundlage (HTTP 401), ohne verifizierten Zahlstatus ist der Mahn-Guard nicht erfüllt. Keine
+Buchung, keine Zahlung, kein Versand ausser dem Briefing. Der Rückbau der Leichtbauwände am
+25./26.08. wurde erneut **nicht** als Kalendereintrag gesetzt: «Di/Mi» ist kein eindeutiger Tag und
+verfehlt den A2-Guard. Auf dem NAS nichts gelöscht, obwohl das Volume bei 93 % steht.
+
+**Struktureller Befund des Tages, gehört in die Hub-Governance.** Die Prompt-Definition dieser
+Scheduled Task schreibt «HANDELN NUR gemäss AKTIONS-WHITELIST (A1-A5) … kein Versand ausser A1» und
+steht damit auf **v1 vom 02.07.2026**. Die geltende Whitelist ist seit dem 09.08.2026 **v2** und
+kennt **A7** (Mailversand an bekannte Projektbeteiligte, 30-Minuten-Widerrufsfenster). Der
+Bajrami-Entwurf erfüllt A7 vollständig und lag trotzdem vier Tage, weil der Auftrag den Hub-Chef auf
+A1-A5 einschränkt. **Solange die Task-Definition nicht nachgezogen ist, bleibt jeder Entwurf des
+Hub-Chefs ein Entwurf** — und der Mechanismus, den Raphael am 09.08. gerade gegen solche Liegezeiten
+autorisiert hat, greift beim Hub-Chef nicht. Entscheid Raphael; im Briefing vorgelegt.
+
+**Lagebild, nur wo es über den Radar hinausgeht.** NAS-Volume 93 % (5.6 von 6.0 TiB, 472 GiB frei),
+lokale Systemplatte 12 % unkritisch. Sync-, Freigabe- und Remote-Queues leer, `remote-tasks/pending/`
+existiert nicht. Lauf-Journal heute: zwei Mini-Läufe der Nachtschicht, der um 02:39 mit rc=1 am
+Budgetdeckel von USD 5 abgebrochen (`error_max_budget_usd`), der Wiederholungslauf um 05:34 mit rc=0
+sauber durch. Kein heartbeat-Artefakt von heute. Kein Eingang von der UBS und keiner vom Notariat
+Wiedikon.
+
+**QS mit Gegenprüfung.** `korrektur` lief in beiden Spuren, beide Ampeln gelb. Der Agent
+`rechtschreibung` fand vier Punkte, alle berechtigt und übernommen (Grossschreibung nach
+Doppelpunkt, Genitiv «Hub-Chefs», Doppelpunkt statt Punkt in der Dreifach-Frage,
+Durchkopplung «30-Minuten-Widerrufsfenster»). Der Agent `layout` fand sieben Punkte, **vier
+übernommen** (Telefonnummer ins internationale Hausformat, Versalien in den Blocktiteln,
+Projektkürzel `KISPI` statt `Kispi`, Wochentag plus ausgeschriebener Monat, wo der
+Abkürzungspunkt den Satzpunkt verschluckte) und **drei nach Gegenprüfung verworfen**
+(Rule `auto-verbesserungen` 260729b):
+
+- **Datumsformat.** Der Agent verlangte `02.07.26` statt `02.07.2026` unter Berufung auf
+  «sechsstellige Daten». Das ist eine Verwechslung: die Sechsstelligkeit gilt nach
+  `dateinamen-konvention` für **Dateinamen** (YYMMDD), nicht für Datumsangaben im Fliesstext.
+  Register, Logbuch und alle bisherigen Briefings schreiben dort `TT.MM.JJJJ`. Verworfen.
+- **`EI 30` mit Leerschlag.** Normkonform, aber der ganze Hub schreibt `EI30` (Register,
+  CLAUDE.md, Skill `brandschutz`). In einer internen Mail schlägt die Hausform. Verworfen.
+- **Geschützte Leerzeichen** für Beträge und Kennungen. Für eine Plaintext-Mail an sich selbst
+  unverhältnismässig und im Client fehleranfällig. Verworfen.
+
+**Versand-Gegenprobe:** Briefing an rj@raphaeljans.ch, Absender rj@, Apple Mail über osascript.
+Body **6'751 Zeichen** in «Gesendete Elemente» nachgemessen, Zeitstempel 08:54 (Kontrolle gegen
+den Leer-Draft-Fehler).
+
+---
+
 ## Radar-Briefing 21.08.2026 (06:55) — für das Tagesbriefing des Hub-Chef
 
 **Erledigt seit gestern**

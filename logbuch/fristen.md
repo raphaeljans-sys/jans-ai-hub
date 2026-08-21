@@ -3,6 +3,38 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 21.08.2026, 08:5x (Hub-Chef) — Die Koordinationssitzung Gruner/Jans/KISPI läuft neu WÖCHENTLICH,
+jeden Donnerstag 13:00 bis 14:00. Nächster Termin Donnerstag 27.08.2026, Teams.** Belegt im Body der
+Termininstanz vom 20.08.2026 (Organisatorin M. Valentin, KISPI): «Die Sitzung findet **neu jeden
+Donnerstag** jeweils von 13:00 bis 14:00 Uhr statt» — die ältere Instanz trug noch «im
+Zwei-Wochen-Rhythmus». Der Takt hat sich also verdoppelt, ohne dass das irgendwo im Register stand.
+**Warum das terminlich zählt:** im Verteiler stehen **L. Hiltmann (TeKoSi)** und **M. Eren (Gruner)**.
+Damit ist der 27.08. der erste Ort, an dem beide offenen Bringschulden zusammenkommen — das von
+TeKoSi bis **Montag 24.08.** verlangte korrigierte Türkonzept und Erens Auflistung der
+EI30-Durchdringungen, die vor dem Rückbau am 25./26.08. gebraucht wird. Ebenfalls im Verteiler:
+J. Ziegel und B. Kübler, bei denen die Brandschutz-Anpassungen der Lüftungspläne liegen.
+| Kalender-Body der Termininstanz 20.08.2026 am Original gelesen (M365) | 2619 KISPI | mittel | beobachten
+
+**NEU 21.08.2026, 08:5x (Hub-Chef) — Der Jegen-Entwurf ist an seiner eigenen Frist verfallen; ein
+korrigierter Entwurf liegt bereit, und der strukturelle Grund für die Liegezeit ist benannt.** Der am
+20.08. 08:52 bereitgestellte Entwurf an livdin.bajrami@jegen.ch verlangte einen Terminvorschlag «bis
+morgen Freitag, 21. August» — dieser Tag ist heute, der Wortlaut damit unbrauchbar. Am Entwurfsordner
+des Exchange-Kontos nachgemessen: beide Entwürfe vom 20.08. (Bajrami 08:52, Stubbe 08:51) liegen
+unverändert dort, in «Gesendete Elemente» erscheint keiner. **Neuer Entwurf mit Frist Montag 24.08.
+angelegt**, Text sonst unverändert (QS vom 20.08. gilt fort: `korrektur` grün, twin-Gate bestanden).
+Der alte Entwurf wurde nicht gelöscht (Löschen ist der Whitelist entzogen) und ist zu verwerfen.
+**Der strukturelle Befund, der über diesen Einzelfall hinausgeht:** die Prompt-Definition der
+Scheduled Task `hub-chef-taeglich` schreibt «HANDELN NUR gemäss AKTIONS-WHITELIST (A1-A5) … kein
+Versand ausser A1». Sie steht damit auf **Version v1** der Whitelist vom 02.07.2026. Die geltende
+Whitelist ist seit dem 09.08.2026 **v2** und kennt **A7 (Mailversand an bekannte Projektbeteiligte
+mit 30-Minuten-Widerrufsfenster)** — genau den Mechanismus, den Raphael autorisiert hat, damit ein
+fertiger Entwurf nicht liegen bleibt. Der Bajrami-Entwurf erfüllt A7 vollständig (belegter Thread,
+QS bestanden, Anrede nach `anrede-kontakte` im Sie, da Bajrami nicht in der Liste steht). Er lag
+trotzdem vier Tage, weil die Task-Definition den Hub-Chef auf A1-A5 einschränkt. **Solange die
+Task-Definition nicht auf v2 nachgezogen ist, bleibt jeder Entwurf des Hub-Chef ein Entwurf** —
+Entscheid Raphael.
+| Entwurfs- und Gesendet-Ordner Exchange am Original nachgemessen 21.08.2026 + `logbuch/AKTIONS-WHITELIST.md` v2 + Prompt der Scheduled Task | 2619 KISPI Los 274.01 / Hub-Governance | hoch | offen
+
 **NEU 21.08.2026, 06:55 (Logbuch-Radar) — Die Bringschuld aus dem Duschwannen-Strang ist erfüllt:
 RJ hat die überarbeiteten Nasszellenpläne 1:20 in der Nacht versandt.** Am eigenen Beleg gelesen,
 Mail rj@ **21.08.2026 00:40**, Betreff «KISPI PPTS: Sanitärpläne», an **R. Guerini** und
