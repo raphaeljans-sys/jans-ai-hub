@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-20
+last_updated: 2026-08-21
 gewichtung: authentisch
-sources: [260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4005,3 +4005,50 @@ vierzehnte Falle). Die folgenden Marker sind deshalb nicht erschlossen, sondern 
   **Satzlaenge und Du-Gross-Quote trennen in diesem Fenster nichts** (14.0 gegen 14.3, 1.0 gegen
   1.0) — beide bleiben unbelastbar ([[QUESTIONS]] 260814 #3). Der einzige quantitative
   Diskriminator ist die Fehlerdichte.
+
+## Batch 100 (20.–21.08.2026, Sent Items + `Drafts` `rj@`)
+
+- **Erstes Emoticon des Korpus — und es ist vertippt.** Die Antwort auf eine zugesandte
+  Produktunterlage lautet vollstaendig: «**Danke:=)**». Keine Anrede, kein Gruss, kein Block,
+  zwei Zeichen Emoticon in der falschen Form (`:=)` statt `:-)`). Damit ist die Skala der
+  Kurzreply nach unten offen: `Danke:=)` < `Lgr` < «Lieber Gruss Raphael». **Kein Widerspruch
+  zur DNA-Regel «keine dekorativen Symbole»** — die gilt fuer Dokumente und Praesentationen,
+  nicht fuer die Zweiwort-Antwort an einen vertrauten Kontakt. **Als Kandidat gefuehrt, nicht
+  aufgenommen** (ein Beleg, Sperrlisten-Disziplin). Quelle: 20.08.2026 12:47, authentisch.
+
+- **Der Nominalblock frisst das Praedikat.** «… bin ich Dir für die **S**tichwortartige
+  Auflistung der Anzahl Durchdringung EI30 LBW von Sanitärinstallationen sowie Leitungsführungen
+  parallel zur EI30 Wand als Grundlage für die Unternehmer Gewährleistung EI30 LBW <Firma>.» —
+  «dankbar» fehlt ersatzlos. Sobald die Fachkette laenger wird als der Satzbogen, faellt das
+  Verb heraus. Verwandt mit der belegten Subjektauslassung («Habe Ihnen noch die PDF's …
+  beigelegt»), aber am anderen Ende des Satzes. Quelle: 20.08.2026 22:40, authentisch.
+
+- **Grossschreibungs-Ausrutscher am Adjektiv, ohne Bitt-Kontext.** «die **Ü**berarbeiteter
+  Raumpläne», «die **S**tichwortartige Auflistung». Die neunte Falle beschreibt die
+  Bitt-Reflex-Grossschreibung am betonten Verb; hier trifft dieselbe Mechanik ein Adjektiv im
+  Nominalblock. Der Reflex haengt an der **Betonung**, nicht an der Wortart. Quelle: 20.08.2026
+  22:40, authentisch.
+
+- **Nachtarbeit am Telefon, und man sieht es dem Text an.** Die einzige substanzielle Fachmail
+  des Fensters geht um **00:40 Ortszeit** hinaus, Body mit
+  `id="ms-outlook-mobile-body-separator-line"`. Fehlerdichte **4.1 je 100 W** — mitten im
+  belegten Gold-Band. Der Kontextmarker gehoert zum Fehlerbefund: die dichtesten Eigentexte
+  entstehen spaet und mobil. Quelle: 20.08.2026 22:40, authentisch.
+
+- **Mikro-Metrik Batch 100** (`stilmetrik.py`; Gold 97 W aus zwei Eigentexten, Zwilling 1117 W
+  aus drei Automatentexten):
+
+  | | Gold (Raphael) | Zwilling |
+  |---|---|---|
+  | **Fehler je 100 W** | **4.1** | **0.0** |
+  | Du-Gross-Quote | 1.0 | 1.0 |
+  | Tausender-Apostroph | 0 | 4 |
+  | Ellipsen /1000 W | 0 | 0 |
+  | Satzlaenge ø | 24.2 W | 12.8 W |
+  | Anreden | «Geschaetzter Herr» 1× · «werter Herr» 1× · «Hoi <Vorname>» 1× | «Guten Morgen Raphael» 1× |
+
+  **Nur die Fehlerdichte trennt — zum dritten Mal in Folge** (Batches 98, 99, 100). Die uebrigen
+  Zeilen sind hier **nicht** belastbar: 97 W Basis auf der Gold-Seite, Satzlaenge misst
+  Interpunktion ([[QUESTIONS]] 260814 #3), und die vier Tausender-Apostrophe stammen aus den
+  Betragslisten eines Statusberichts, dem auf der Gold-Seite keine Gattung entspricht —
+  **Gattungsunterschied, kein Stilbefund.**

@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-20
+last_updated: 2026-08-21
 gewichtung: authentisch
-sources: [260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -2784,3 +2784,51 @@ im Cc stand Furrer (AfB, Kreisarchitekt).
 - **«Lgr» steht auch im Du.** Batch 98 belegte die Kurzform an einem Sie-Kontakt; hier schliesst
   sie eine Du-Mail ab. Die Gruss-Stufe haengt an der Kuerze der Mail, nicht am Register
   ([[stimme]]). Quelle: 19.08.2026, authentisch.
+
+## Batch 100 (20.–21.08.2026) — das persoenliche Treffen hebt das Register (zweiter Beleg)
+
+- **Drei Register in EINER Mail, gestaffelt nach Adressat.** Sammelmail an acht Empfaenger
+  (3 An, 5 Cc): «**Geschätzter Herr <Nachname>, werter Herr <Nachname>**» — zwei Waermestufen
+  in derselben Anredezeile —, danach ein eigener Absatz mit dem Mention-Anker
+  `@<Vorname Nachname>`, darunter «**Hoi <Vorname>**» und dessen Auftrag. **Sechster Beleg
+  gegen die Nivellier-Klausel**: Raphael gleicht nicht auf die hoeflichste Stufe an, er
+  adressiert jeden einzeln in seiner Stufe. Quelle: 20.08.2026 22:40, authentisch.
+
+- **«werter Herr <Nachname>» — erster Beleg im SIE-Register.** Bisher kannte der Korpus nur
+  «Werter Albin, Nesa und Peter» im Du (Batch 84). Die Form sitzt zwischen «Sehr geehrter» und
+  «Geschaetzter» und erscheint hier als **zweite** Stufe neben einer ersten, nicht allein.
+  Erweiterte Stufenfolge im Sie: `Guten Tag` < `Sehr geehrter Herr` < `werter Herr` <
+  `Geschaetzter Herr`. Quelle: 20.08.2026 22:40, authentisch.
+
+- **⭐ Das persoenliche Treffen hebt das Register — zweiter unabhaengiger Beleg, damit belegt
+  statt vermutet.** Derselbe Fachplaner (Gruner, Sanitaer) wird am **18.08.** im Thread laut
+  Sendejournal «durchgehend «Herr <Vorname>»» angesprochen, also im Sie. Am **20.08.** findet
+  die Koordinationssitzung statt (13:00–14:00, Serie im Zwei-Wochen-Rhythmus, im Kalender
+  belegt). Um **22:40** desselben Tages schreibt Raphael «**Hoi <Vorname>, wie an der Sitzung
+  besprochen …**» — Du. Erster Beleg derselben Mechanik war Batch 97: derselbe Tuer-Fachplaner
+  bekommt um 15:02 «Lieber Levi», **nach einem Telefonat**, waehrend die Mails desselben
+  Vormittags noch anders lagen.
+
+  **Die Regel dahinter:** nicht die Zeit und nicht der Verteiler heben das Register, sondern
+  der **persoenliche Kontakt** — Sitzung oder Telefonat. Danach bleibt die neue Stufe.
+  **Konsequenz fuer den Zwilling:** er muss vor jeder Mail an einen Fachplaner den Kalender des
+  laufenden Tages lesen. Hat ein Treffen stattgefunden, ist die Anrede des letzten Threads
+  ueberholt. Bisher hat er sie fortgeschrieben (Beleg unten).
+
+- **Kontakt → Register, neu belegt (alle aus Raphaels eigener Hand, 20.08.2026):**
+
+  | Kontakt | Rolle | Register | Beleg |
+  |---|---|---|---|
+  | Mustafa Eren | Gruner AG, Sanitaerplanung, KISPI | **Du**, «Hoi Mustafa» — **seit der Sitzung vom 20.08.**; davor im Sie | 20.08. 22:40 |
+  | Riccardo Guerini | Kinderspital, Bauherrenseite | Sie, «Geschätzter Herr Guerini» | 20.08. 22:40 |
+  | Igor Suljanovic | Kinderspital, Bauherrenseite | Sie, «werter Herr Suljanovic» | 20.08. 22:40 |
+
+  **Nicht eingetragen, weil unbelegt:** Fabian Würsch (Kinderspital, Technischer Dienst). Die
+  Gegenseite schreibt «Hallo Raphael» und «Grüsse», Raphaels Antwort ist «Danke:=)» — **ohne
+  Anrede**. Das legt Du nahe, belegt es aber nicht. Nicht raten ([[QUESTIONS]] 260821 #2).
+
+- **⚠ Fidelity-Mangel, belegt:** der Hub-Entwurf vom 18.08. an denselben Fachplaner schrieb
+  «**Sehr geehrter Herr <Vorname>**» — falsche Stufe (Sie statt des sich anbahnenden Du) **und**
+  falsche Form (Herr + Vorname). Die falsche Form war bewusst aus dem Thread uebernommen und im
+  Sendejournal gemeldet (siehe [[haltung]] und [[CLAUDE]], achtzehnte Falle); die Stufe war
+  schlicht nicht nachgezogen.

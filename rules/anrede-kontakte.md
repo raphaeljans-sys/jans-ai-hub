@@ -22,6 +22,18 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   «Geschätzter Besnik» + direkten FG-Block zeigt. Die Klausel heilt alle Zeilen zugleich; die
   Einzelnotizen bleiben als Routine-Default gültig und müssen dafür nicht angepasst werden.
 
+- **Ein persoenliches Treffen kann das Register heben (belegt, Bestaetigung ausstehend).**
+  Zwei unabhaengige Belege aus Raphaels eigener Hand: der Sanitaer-Fachplaner wird am 18.08.2026
+  im Thread durchgehend im Sie angesprochen und am 20.08.2026, **nach der Koordinationssitzung
+  desselben Tages**, mit «Hoi <Vorname>»; der Tuer-Fachplaner bekommt am 18.08.2026 um 15:02
+  «Lieber Levi», **nach einem Telefonat**. Die Lesart: nicht die Zeit und nicht der Verteiler
+  heben die Stufe, sondern der **persoenliche Kontakt** — und die neue Stufe bleibt danach.
+  **Praktische Folge:** vor einer Mail an einen Fachplaner den Kalender des laufenden Tages
+  pruefen; hat ein Treffen stattgefunden, ist die Anrede des letzten Threads ueberholt. Die
+  Klausel ist **noch nicht durch Raphael bestaetigt** (`wissen/twin/wiki/QUESTIONS.md` 260821
+  #1) und gilt bis dahin als Hinweis, nicht als Regel — im Zweifel die belegte Zeile der
+  Tabelle.
+
 ## Kontaktliste
 
 | Name | Funktion / Organisation | Projekt(e) | Anrede | Notiz |
@@ -30,7 +42,9 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 | Besnik | fsgbau, Bauunternehmer | 2620 Albertstrasse 7 | **Du** | Informell, nackter Vorname-Opener ohne Anrede-Formel |
 | Beson | fsgbau, Bauunternehmer | Wartstrasse 8 | Sie | Gleicher Betrieb wie Besnik, anderer Ansprechpartner → Sie |
 | Christoph Bopp | WOMA, Geschäftspartner | kunde-bopp | **Du** | «Geschätzter Christoph» bei Offerte/Gewicht, sonst Hoi/Lieber |
+| Mustafa Eren | Gruner AG, Sanitaerplanung | 2619 KISPI | **Du** | «Hoi Mustafa» seit der Koordinationssitzung vom 20.08.2026; **davor im Sie**. Beleg 20.08.2026 22:40 aus Raphaels eigener Hand. ⚠ Der Thread trug bis dahin die Form «Herr Mustafa» (Herr + **Vorname**) — der Nachname ist Eren; die falsche Form nicht fortschreiben. Nachgetragen 21.08.2026 |
 | Guido Giacometti | Steinmann AG, Werkplaner Fenster | Wartstrasse 8 | Sie | Warm-Sie, eingespielte Zusammenarbeit |
+| Riccardo Guerini | Universitaets-Kinderspital Zuerich, Bauherrenseite | 2619 KISPI | Sie | «Geschätzter Herr Guerini», Beleg 20.08.2026 22:40. Nachgetragen 21.08.2026 |
 | Lars Hansen | Stadt Zuerich, UGZ (Umwelt- und Gesundheitsschutz) | 2619 KISPI | Sie | «Guten Tag Herr Lars Hansen» — **auch im Konflikt**: die Eskalationsmail vom 19.08.2026 (Ultimatum, Vorgesetzte und Bauherrschaft im Verteiler) bleibt auf dieser Stufe. Raphael greift im Konflikt nicht nach «Geschaetzter»; eskaliert wird ueber den Verteiler, nicht ueber die Anrede. Nachgetragen 20.08.2026 aus authentischem Beleg |
 | Levi Hiltmann | TeKoSi AG, Türen/System | 2619 KISPI, Los 231.10 | **Du** | «Geschätzter Levi» + «Lieber Gruss» in der Einladung vom 14.08.2026 (Raphaels eigene Hand, Kalendereintrag rj@); nachgetragen 17.08.2026. Kollege Roman Otschkowski (TeKoSi) hat **kein belegtes Register** — dort nicht raten |
 | Angela Hottinger | Stadt Zürich, Kreisarchitektin AfB | Wartstrasse 8 u.a. | Sie | Warm-formell «Geschätzte Frau Hottinger», seit Erstkontakt 2025 eingespielt |
@@ -39,6 +53,7 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
 | Michael Spörri | Universitäts-Kinderspital Zürich, Teamleiter HLKKS / Stv. Leiter Techn. Dienst | 2619 KISPI | **Du** | «Hoi Michi» routinemaessig (12.08.2026), «Geschätzter Michael» bei Substanz/Veranlassungsauftrag (19.08.2026); Gegenseite «Hoi Raphael». Vierter unabhängiger Beleg der Anlassgewicht-Klausel **im Du**. Nachgetragen 20.08.2026 |
 | Felix Stählin | **Elektro Stählin AG**, Zürich (Elektroinstallationen, BKP 230) | 2620 Albertstrasse 7 | **Du** | «Hoi Felix» / «Lieber Gruss», trotz Unternehmer-Rolle; bei gewichtigem Anlass «Geschätzter Felix». **Firma korrigiert 29.07.2026 durch Raphael** — die Liste führte bis dahin «Karl Wächter AG» (Fehlannotation; Karl Wächter AG ist ein anderer Betrieb, Ansprechpartner dort Mario Di Capua), das twin-Wiki «Stählin AG Sanitär» (falsches Gewerk). Belegt: `f.staehlin@staehlin-ag.ch`, Elektro Stählin AG, Bolleystrasse, 8006 Zürich |
 | Roman Steinmann | Nova Property Fund Management AG, Asset Manager | 2620 Albertstrasse 7 | **Du** | «Salut Roman» warm; faellt bei Mahn-/Geldkontext auf «Guten Tag» zurueck |
+| Igor Suljanovic | Universitaets-Kinderspital Zuerich, Bauherrenseite | 2619 KISPI | Sie | «werter Herr Suljanovic» — erster Beleg der Stufe «werter» im **Sie**-Register, in derselben Anredezeile neben «Geschätzter». Beleg 20.08.2026 22:40. Nachgetragen 21.08.2026 |
 | Stefan Tschopp | Bauherr-Partner | 2414 Thalwil | **Du** | «Hoi Stefan» routinemaessig; «Geschaetzter Stefan» bei gewichtigem/verbindlichem Ergebnis |
 | Yorck von Dietze | 3D-Freelancer | diverse Visualisierungen | **Du** | Skala Hey/Hoi/Hallo/Lieber je nach Anlass |
 | Peter Weisser | dasBaumanagement.ch, Baumanagement-Partner | diverse | **Du** | «Hoi Peter»/«Guten Morgen Peter» operativ; bei rein privatem Anlass (Event-Einladung) voller Mundart-Ton, z.B. «Hey Peter, weich wie cool wenn Du au chiemsch?» (belegt 08.04.2026) |

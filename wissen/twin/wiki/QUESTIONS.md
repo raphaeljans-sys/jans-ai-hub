@@ -3768,6 +3768,13 @@ Entscheid bewusst vorwegnimmst, weil Warten teurer waere?*
 
 ## 260820 (Batch 99) — vier Fragen, drei davon an den Harness
 
+**#1 — BEANTWORTET am 21.08.2026 (Batch 100), Ergebnis ENTLASTUNG: alle sieben
+Apple-Mail-Kandidaten der Batches 95–98 nachgeprueft, **kein einziger traegt `contentType:
+text`**. Es ist kein Gold zurueckzuholen, die Zuordnungen jener Batches bleiben gueltig — der
+Ausschluss lief dort ohnehin ueber den `Apple-Mail-URLShareWrapperClass`, nicht ueber den Kanal.
+Die Nachpruefung bestaetigt damit die Methode, nicht nur das Einzelurteil. Nebenertrag: zwei
+neue Detektoren und eine neue Falle (achtzehnte, [[CLAUDE]]).**
+
 **#1 (Echo-Schutz · an den Harness, dringend) — muessen die Apple-Mail-Zuordnungen der Batches
 95 bis 98 rueckwirkend geprueft werden?** In Batch 99 ist belegt: **`body.contentType`
 unterscheidet Raphaels Apple-Mail-Hand (`text`) vom Hub-`osascript`-Draft (`html` + Wrapper)** —
@@ -3851,3 +3858,39 @@ die beiden reflexhaft zu einem einzigen, aufgewerteten Dank, weil die Wiederholu
 Versehen aussieht. Wir lesen sie als Rahmen um die Nachforderung — dieselbe Familie wie die
 absichtlich redundante Fragenliste vom 30.06. Wenn das stimmt, hoert der Zwilling auf zu
 glaetten.*
+## 260821 (Batch 100) — vier Fragen, zwei davon leicht zu beantworten
+
+**#1 (Beziehungsregister · Bestaetigung erbeten, wichtigste Frage dieses Batches) — stellst Du
+nach einer Sitzung oder einem Telefonat bewusst auf Du um?** Zwei unabhaengige Belege: der
+Sanitaer-Fachplaner wird am 18.08. im Thread noch durchgehend im Sie angesprochen, am 20.08.
+findet die Koordinationssitzung statt, und um 22:40 desselben Tages schreibst Du «**Hoi
+<Vorname>, wie an der Sitzung besprochen …**». Zweiter Beleg ist der Tuer-Fachplaner aus Batch
+97, der um 15:02 **nach einem Telefonat** «Lieber Levi» bekommt. *Warum das den Zwilling naeher
+an Dich bringt: er hat bisher die Anrede des letzten Threads fortgeschrieben und deshalb am
+18.08. «Sehr geehrter Herr <Vorname>» entworfen — falsche Stufe und falsche Form zugleich. Wenn
+die Linie stimmt, muss er kuenftig vor jeder Fachplaner-Mail den Kalender des laufenden Tages
+lesen: hat ein Treffen stattgefunden, ist die Anrede des Threads ueberholt. Das waere eine der
+wenigen Regeln, die er ohne Rueckfrage richtig anwenden koennte.*
+
+**#2 (Beziehungsregister · leicht zu beantworten) — bist Du mit dem Technischen Dienst des
+Kinderspitals (Fabian Würsch) per Du?** Die Gegenseite schreibt «Hallo Raphael» und «Grüsse»,
+Deine Antwort ist «Danke:=)» — **ohne Anrede**, also ohne Beleg. *Warum wir fragen statt zu
+raten: `rules/anrede-kontakte.md` fuehrt fuer dieses Projekt bereits vier Du-Kontakte; die
+Wahrscheinlichkeit ist hoch, aber der Harness traegt nur Belegtes ein. Ein Wort von Dir, und die
+Zeile steht.*
+
+**#3 (Arbeitsweise · Abgrenzung erbeten) — wann Frist, wann Konditional?** In derselben Woche
+zwei entgegengesetzte Formen: an den Fachplaner in der Bringschuld «heute bis 17:00 Uhr» mit
+Zweckbegruendung (17.08.), an die Bauherrenseite «**Sobald** ich die Rückmeldung von Herr <A>
+und Herr <B> erhalten habe, **werde ich** … final hochladen» (20.08.) — ganz ohne Termin.
+Unsere Lesart: **die Frist gilt der Bringschuld des anderen, der Konditional der eigenen**, und
+der Druck entsteht aus der sichtbaren Abhaengigkeit. *Warum das zaehlt: der Zwilling setzt
+derzeit entweder ueberall eine Frist oder nirgends. Mit dieser Linie traefe er zum ersten Mal
+die Adressaten-Achse, an der er nach Batch 97/98 nachweislich scheitert.*
+
+**#4 (Stimme · leicht zu beantworten) — ist «Danke:=)» Deine uebliche Kurzform, und ist das
+Emoticon Absicht?** Erstes Emoticon des ganzen Korpus, in vertippter Form (`:=)` statt `:-)`).
+*Warum wir fragen: der Zwilling schreibt an dieser Stelle reflexhaft «Besten Dank fuer die
+Unterlagen. Freundliche Gruesse» plus Signaturblock und macht aus zwei Zeichen eine
+Geschaeftsmail. Wenn die Zweiwort-Antwort mit Emoticon bei vertrauten Kontakten Deine Form ist,
+gehoert sie als unterste Stufe in die Gruss-Skala — heute steht dort «Lgr».*

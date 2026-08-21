@@ -1552,3 +1552,101 @@ weiter mitlaufend. (4) `Drafts` bleibt ergiebig (112 Eintraege, gelesen sind 9) 
 zeigt jetzt, dass dort auch versendete Hub-Chef-Selbstmails als Kopie liegen**; beim naechsten
 Zug nach Kanal UND Drittempfaenger filtern. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
 auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 100 (21.08.2026) — `contentType`-Nachpruefung 95–98 + Fenster `rj@` 20.–21.08.2026
+
+**Zweiteilig, der Vorrangaufgabe aus Batch 99 gefolgt.** Rohdatei `260821-mailbatch-100.md`.
+
+**Teil A — die Vorrangaufgabe ist erledigt, Ergebnis ENTLASTUNG.** Sieben Apple-Mail-Kandidaten
+der Batches 95–98 erhoben und gelesen (2 Sent Items, 5 Entwuerfe): **kein einziger traegt
+`contentType: text`**, alle `html` mit `Apple-Mail-URLShareWrapperClass`. **Es ist kein Gold
+zurueckzuholen**, die Zuordnungen jener Batches bleiben unveraendert gueltig. [[QUESTIONS]]
+260820 #1 damit beantwortet. Das Ergebnis war erwartbar — die sechzehnte Falle ist seit dem
+20.08. ausdruecklich nur in EINE Richtung gueltig, und der Ausschluss lief in 95–98 ohnehin
+ueber den Wrapper —, aber die Pruefung bestaetigt damit **die Methode**, nicht nur das
+Einzelurteil. Kosten: ein Subagentenlauf, kein Fenster verloren (Teil B lief parallel).
+
+**Teil B — Fenster 20.–21.08.2026.** Sent Items vollstaendig (`totalResultCount` **3**, selbst
+gegengeprueft; der 21.08. trug zum Laufzeitpunkt 03:43 nichts), `Drafts` desselben Fensters
+(`totalResultCount` **3**). **5 Volltexte gelesen: 2 `authentisch` · 3 `claude-aera`.**
+**Token-Sweep mitlaufend: 12 von 12 Bodies sauber** (5 aus Teil B, 7 aus Teil A).
+**Sendejournal ausgewertet, Entlastungsbefund:** die beiden vom Hub-Chef angekuendigten
+Entwuerfe liegen zum Laufzeitpunkt noch als `isDraft: true` — im Fenster ging kein Automatentext
+an Dritte. 17 Marker in allen sechs Facetten, 1 neue Falle, 1 neuer Detektor, 1 Anti-Marker,
+4 Fragen, 3 Kontakt→Register-Paare.
+
+**Kernbefund 1 — die achtzehnte Falle: der Zwilling repliziert Raphaels Fehler ABSICHTLICH und
+sagt es dazu.** Das Sendejournal vom 18.08. 06:48 protokolliert zu einem selbst erzeugten
+Entwurf woertlich: «Du schreibst in diesem Thread durchgehend «Herr <Vorname>», das ist aber
+sein Vorname … **Ich habe Deinen Wortlaut stehen lassen, damit der Thread nicht bricht.**» Damit
+ist ein Entwurf, der bis in den Anredefehler hinein authentisch **wirkt**, dokumentarisch als
+Hub-Text belegt. **Die Fehlerdichte misst, ob ein Text Fehler ENTHAELT, nicht ob er sie selbst
+erzeugt hat.** Reichweite bewusst eng gehalten, sonst faellt der beste Diskriminator des Korpus:
+betroffen sind nur **uebernommene, thread-getragene Einzelformen** (Anrede, Eigenname, stehende
+Wendung) — **Praxis: die Anrede- und Eigennamenzeile aus der Fehlerzaehlung herausnehmen, den
+Rest weiter zaehlen.** Der zweite Wert des Belegs liegt beim **Verhalten**: erkennen, melden,
+nicht eigenmaechtig heilen — Gegenstueck zum Drift-Muster aus Batch 95 (stille Ausbesserung
+eines Tippfehlers). Als Marker in [[haltung]].
+
+**Kernbefund 2 — neuer, billiger Detektor: das ENTWURFS-DUPLIKAT (aufgenommen).** Zwei
+wortgleiche Entwuerfe im **selben Sekundenfenster** mit unterschiedlichem Verteiler sind ein
+Hub-`osascript`-Lauf. Drei unabhaengige Belege ueber zwoelf Tage: 06.08. 13:17 (2×, Gruppe gegen
+Einzel), 17.08. 06:48:34/35 (3 gegen 2 Empfaenger), 18.08. 06:45:21/22 (2 gegen 5). Selbst
+gegengeprueft am 18.08.-Paar. **Ein Mensch erzeugt das nicht** — er aendert den Verteiler im
+offenen Entwurf. Der Marker steht bereits in der Trefferliste (`sentDateTime` + `recipients`),
+kostet kein `read_resource` und ueberlebt jede Body-Analyse. Batch 98 hatte das Muster einmal
+gesehen; mit drei Belegen ist es aufgenommen.
+
+**Kernbefund 3 — ⭐ das persoenliche Treffen hebt das Register, zweiter unabhaengiger Beleg.**
+Der Sanitaer-Fachplaner wird am 18.08. im Thread durchgehend im Sie angesprochen; am 20.08.
+findet die Koordinationssitzung statt; um 22:40 desselben Tages schreibt Raphael «**Hoi
+<Vorname>, wie an der Sitzung besprochen …**». Erster Beleg war Batch 97 («Lieber Levi» nach
+einem Telefonat). **Nicht die Zeit und nicht der Verteiler heben die Stufe, sondern der
+persoenliche Kontakt** — und sie bleibt danach. **Zugleich ein belegter Fidelity-Mangel:** der
+Hub-Entwurf vom 18.08. schrieb «Sehr geehrter Herr <Vorname>» und schrieb damit die Stufe des
+letzten Threads fort. Praktische Folge fuer den Zwilling: vor einer Fachplaner-Mail den Kalender
+des laufenden Tages lesen. In `rules/anrede-kontakte.md` als Hinweis eingetragen, **Bestaetigung
+durch Raphael ausstehend** ([[QUESTIONS]] 260821 #1).
+
+**Kernbefund 4 — Anti-Marker: das `x_`-Praefix ist ein Ordner-Artefakt.** Gesendete Mails tragen
+`x_Apple-Mail-URLShareWrapperClass` mit 3–4 leeren Wrapper-`div`, Entwuerfe die Klasse ohne
+Praefix und je genau 1×. Das korreliert mit **Sent gegen Draft** (Graph normalisiert beim
+Versand-Roundtrip), **nicht mit Autorschaft**. Weder Praefix noch Wrapper-ZAHL als Signal
+verwenden; nur das Vorhandensein zaehlt.
+
+**Inhaltlich staerkster Fund:** die Sanitaerplan-Mail vom 20.08. 22:40 — **drei Register in
+EINER Mail**, gestaffelt nach Adressat: «Geschätzter Herr <A>, werter Herr <B>» (zwei
+Waermestufen in einer Zeile, **«werter» erstmals im Sie belegt**), dann ein eigener Absatz mit
+dem Mention-Anker `@<Name>`, darunter «Hoi <Vorname>». **Sechster Beleg gegen die
+Nivellier-Klausel.** Dazu: die Fachanforderung wird auf die **Gewaehrleistung** hin begruendet,
+nicht auf die Norm; PDF und DWG derselben Zeichnung gehen zugleich hinaus; der eigene naechste
+Schritt haengt **konditional ohne Frist** am fremden («Sobald ich die Rückmeldung von Herr <A>
+und Herr <B> erhalten habe, werde ich …»).
+
+**⚠ Korrektur an der Erhebung, selbst gegengeprueft:** die Gold-Mail traegt im Body
+`id="ms-outlook-mobile-body-separator-line"` — sie entstand **am Telefon um 00:40 Ortszeit**,
+nicht am Desktop. Der Befund traegt die Fehlerdichte von 4.1 je 100 W mit.
+
+**Mikro-Metrik** (`stilmetrik.py`; Gold 97 W aus zwei Eigentexten, Zwilling 1117 W aus drei
+Automatentexten): Fehler je 100 W **4.1 gegen 0.0** · Du-Gross 1.0/1.0 · Apostroph 0/4 ·
+Ellipsen 0/0 · Satzlaenge ø 24.2/12.8 W. **Nur die Fehlerdichte trennt, zum dritten Mal in
+Folge** (98, 99, 100). Die uebrigen Zeilen sind hier **nicht** belastbar: 97 W Basis, Satzlaenge
+misst Interpunktion ([[QUESTIONS]] 260814 #3), und die vier Apostrophe stammen aus den
+Betragslisten eines Statusberichts, dem auf der Gold-Seite keine Gattung entspricht —
+**Gattungsunterschied, kein Stilbefund.**
+
+**⚠ Gehirn NICHT neu kompiliert, achter Batch in Folge — Reserve aber entspannt.** **Selbst
+gemessen am 21.08.2026** zwischen den Markern von `rules/jans-dna-facetten.md`: **32'796 B von
+34'000 B, 1'204 B Reserve** (`MAX_AUTO_BYTES = 34000`, im Script verifiziert). Der
+Fidelity-Lauf vom 20.08. hat den Riegel strukturell geloest, indem er 12 Nicht-Mail-Gattungsregeln
+aus den Do/Don't-Bloecken auslagerte. Die 17 Marker dieses Batches sind Marker-Prosa und landen
+**ausserhalb** des kompilierten Blocks; sie wirken ueber die Twin-Agenten, die die
+Facetten-Artikel direkt lesen. Kein Handlungsbedarf in diesem Lauf. **Die Zahl ist gemessen,
+nicht aus dem Vorbatch fortgeschrieben** — Batch 99 hat genau diese Falle dokumentiert.
+
+**Naechstes Fenster:** (1) sequenziell `rj@` **21.–27.08.2026**; (2) **`Drafts` bleibt der
+ergiebigste Strang und ist es jetzt doppelt** — 112 Eintraege, rund 65 mit Drittempfaengern,
+gelesen sind 16, und mit dem Entwurfs-Duplikat-Detektor lassen sich Hub-Laeufe **aus der
+Trefferliste** aussortieren, bevor ein Volltext gelesen wird; (3) Token-Sweep weiter mitlaufend
+an jeder ohnehin gelesenen Mail. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten
+— Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

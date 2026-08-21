@@ -843,6 +843,63 @@ Rahmen um ein eingesetztes Fragment) waere damit erstmals mechanisch lokalisierb
 Wrapper. Nach Sperrlisten-Disziplin reicht ein Beleg nicht; Gegenprobe gegen eine vollstaendig
 selbst getippte Outlook-Mail steht aus ([[QUESTIONS]] 260820 #2).
 
+**Achtzehnte Falle, neu 21.08.2026 (Batch 100) — der Zwilling repliziert Raphaels Fehler
+ABSICHTLICH, und die Fehlerdichte hat dadurch ein Loch an genau einer Stelle.** Bisher galt:
+Fehler im Text sprechen fuer Raphaels Hand, Fehlerfreiheit fuer die Maschine — der einzige
+quantitative Diskriminator, der die Batches 98–100 ueberstanden hat. Das Sendejournal vom
+18.08.2026 06:48 belegt die Ausnahme woertlich, zu einem selbst erzeugten Entwurf:
+
+> «Du schreibst in diesem Thread durchgehend «Herr <Vorname>», das ist aber sein Vorname, der
+> Nachname ist <Nachname>. **Ich habe Deinen Wortlaut stehen lassen, damit der Thread nicht
+> bricht.**»
+
+Damit ist ein Entwurf, der bis in den Anredefehler hinein authentisch **wirkt**, dokumentarisch
+als Hub-Erzeugnis belegt — ohne jedes Stilurteil. **Die Fehlerdichte misst, ob ein Text Fehler
+ENTHAELT, nicht ob er sie selbst erzeugt hat.** Ein Zwilling, der aus dem Thread abschreibt,
+erbt die Hand des Originals.
+
+**Reichweite bewusst eng, sonst zerstoert die Falle den besten Diskriminator, den der Korpus
+hat:** betroffen sind **uebernommene, thread-getragene Einzelformen** — Anrede, Eigenname,
+stehende Wendung, Betreffzeile. Nicht betroffen ist die Fehlerdichte im Fliesstext: die sechs
+Eigentexte von Batch 98 lagen ueber den ganzen Text bei 2.9–5.7 je 100 W, der hier untersuchte
+Hub-Entwurf bei ~0 mit **einem** geerbten Fehler an der Anredestelle. **Praxis: die Anrede- und
+Eigennamenzeile aus der Fehlerzaehlung herausnehmen, den Rest weiter zaehlen.**
+
+**Der zweite Wert dieses Belegs liegt nicht beim Detektor, sondern beim Verhalten:** der
+Zwilling hat den Fehler erkannt, gemeldet und trotzdem nicht eigenmaechtig korrigiert. Das ist
+die richtige Reihenfolge und steht als Marker in [[haltung]] — Gegenstueck zum Drift-Muster aus
+Batch 95, wo er einen Tippfehler stillschweigend ausbesserte. **Verbindlich: erkannte Fehler des
+Originals werden gemeldet, nie stillschweigend geheilt und nie stillschweigend fortgeschrieben.**
+
+**Dazu ein neuer, billiger und aufgenommener Detektor: das ENTWURFS-DUPLIKAT.** Legt der Ordner
+`Drafts` **zwei wortgleiche Entwuerfe im selben Sekundenfenster** mit unterschiedlichem
+Verteiler ab, ist das ein Hub-`osascript`-Lauf. Drei unabhaengige Belege ueber zwoelf Tage:
+
+| Tag | Zeitstempel | Verteiler |
+|---|---|---|
+| 06.08.2026 | 13:17 (2×) | Gruppe gegen Einzelempfaenger |
+| 17.08.2026 | 06:48:34 / 06:48:35 | 3 gegen 2 Empfaenger |
+| 18.08.2026 | 06:45:21 / 06:45:22 | 2 gegen 5 Empfaenger |
+
+**Ein Mensch erzeugt das nicht** — er aendert den Verteiler im offenen Entwurf, statt binnen
+einer Sekunde eine zweite Fassung anzulegen. Der Marker steht bereits in der **Trefferliste**
+(`sentDateTime` + `recipients`), kostet kein `read_resource` und ueberlebt jede Body-Analyse.
+Batch 98 hatte das Muster einmal gesehen und als Einzelfall notiert; mit drei Belegen ist es
+aufgenommen.
+
+**⚠ Und ein Anti-Marker aus demselben Lauf: das `x_`-Praefix ist ein Ordner-Artefakt.** Die
+gesendeten Mails tragen die Klasse als `x_Apple-Mail-URLShareWrapperClass` mit mehreren leeren
+Wrapper-`div` (3–4×), die Entwuerfe ohne Praefix und je genau 1×. Das korreliert mit **Sent
+gegen Draft** (Graph normalisiert Klassennamen beim Versand-Roundtrip), **nicht mit
+Autorschaft**. Weder das Praefix noch die Wrapper-ZAHL als Signal verwenden — nur ihr
+Vorhandensein zaehlt.
+
+**Ergebnis der Vorrangaufgabe aus [[QUESTIONS]] 260820 #1, im selben Lauf erledigt:** alle
+sieben Apple-Mail-Kandidaten der Batches 95–98 nachgeprueft, **kein einziger traegt
+`contentType: text`**. Es ist kein Gold zurueckzuholen; die Zuordnungen jener Batches bleiben
+gueltig. Der Ausschluss lief dort ohnehin ueber den Wrapper, nicht ueber den Kanal — die
+Nachpruefung bestaetigt damit die Methode, nicht nur das Einzelurteil.
+
 ## Schreibregeln für dieses Wiki
 
 - Artikel-Frontmatter gemäss `WISSEN-CLAUDE.md` (title/status/last_updated/sources/links),

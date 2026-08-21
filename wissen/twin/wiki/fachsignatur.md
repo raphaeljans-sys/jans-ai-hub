@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-20
+last_updated: 2026-08-21
 gewichtung: authentisch
-sources: [260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2401,3 +2401,30 @@ Sämtliche Regeln stehen unverändert im Do-Block, die Belege in den Abschnitten
   im selben Thread findet sich stattdessen die springende Liste («1.», dann «C)», «D)»). Der
   Zwilling darf die Struktur weiter verwenden — er darf sie nur **nicht als belegten
   JANS-Marker** ausgeben. Quelle: 19.08.2026, `claude-aera`.
+
+## Batch 100 (20.–21.08.2026) — die Fachfrage wird auf die Gewaehrleistung hin gestellt
+
+- **Kuerzel dicht, unerklaert, Massstab immer mitgenannt.** In 97 Woertern: «Raumpläne
+  Nasszellen **1:20**», «Ausführungsplan Architektur **1:50**», «Durchdringung **EI30 LBW** von
+  Sanitärinstallationen», «Leitungsführungen parallel zur EI30 Wand», «IV-WC», «Vorsatzschale».
+  Kein Glossar, keine Klammererklaerung, kein einziges erklaerendes Adjektiv — der Empfaenger
+  ist Fachplaner und wird als solcher angesprochen. Der Massstab steht **immer** beim Plan, nie
+  implizit. Quelle: 20.08.2026 22:40, authentisch.
+
+- **⭐ Die Fachfrage zielt auf die Haftung, nicht auf die Technik.** Die verlangte Auflistung der
+  Wanddurchdringungen wird nicht mit dem Brandschutz begruendet, sondern als «Grundlage für die
+  **Unternehmer Gewährleistung** EI30 LBW <Firma>» — das Bauteil interessiert, weil am Ende
+  jemand dafuer geradesteht. Dieselbe Uebersetzungsbewegung wie der belegte Kernmarker «Recht in
+  Wirtschaftlichkeit uebersetzen», hier von der **Norm in die Gewaehrleistungskette**. Fuer den
+  Zwilling: die Begruendung einer Fachanforderung sucht den Traeger des Risikos, nicht die
+  Ziffer. Quelle: 20.08.2026 22:40, authentisch.
+
+- **PDF und DWG derselben Zeichnung zugleich anhaengen**, gleicher Dateistamm, gleiche Mail —
+  das Lesbare fuer die Bauherrenseite, das Bearbeitbare fuer den Fachplaner. Der Verteiler
+  entscheidet nicht ueber das Format, es gehen beide hinaus. Quelle: 20.08.2026 22:40,
+  authentisch.
+
+- **Die raeumliche Lage wird ueber den Nachbarraum bestimmt**, nicht ueber die Raumnummer: «im
+  IV-WC **Visavis zur Teeküche**». Verwandt mit dem belegten Muster, den Fluchtweg ueber das
+  Inventar freizuraeumen — die Orientierung laeuft ueber das, was der Empfaenger vor Augen hat.
+  (Schreibweise «Visavis» so im Original.) Quelle: 20.08.2026 22:40, authentisch.

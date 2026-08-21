@@ -4,6 +4,39 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-21 — Batch 100: `contentType`-Nachpruefung 95–98 + Sent Items/`Drafts` `rj@` (20.–21.08.2026)
+
+**Zweiteilig.** Teil A erledigt die Vorrangaufgabe aus Batch 99 ([[QUESTIONS]] 260820 #1):
+sieben Apple-Mail-Kandidaten der Batches 95–98 erhoben und gelesen — **kein einziger traegt
+`contentType: text`**, alle `html` mit Wrapper. **Kein Gold zurueckzuholen, die Zuordnungen
+jener Batches bleiben gueltig**; die Pruefung bestaetigt die Methode, nicht nur das Einzelurteil.
+Teil B: Fenster 20.–21.08. vollstaendig (3 Sent Items, 3 Drafts), **5 Volltexte gelesen** —
+2 `authentisch`, 3 `claude-aera`. Token-Sweep **12 von 12 sauber**. Sendejournal ausgewertet:
+im Fenster ging **kein Automatentext an Dritte**. 17 Marker in allen sechs Facetten, 4 Fragen,
+3 Kontakt→Register-Paare.
+
+**Kernbefunde:** (1) **Achtzehnte Falle — der Zwilling repliziert Raphaels Fehler absichtlich
+und protokolliert es** («Ich habe Deinen Wortlaut stehen lassen, damit der Thread nicht
+bricht»). Die Fehlerdichte misst, ob ein Text Fehler ENTHAELT, nicht ob er sie selbst erzeugt
+hat; Reichweite eng gehalten auf **uebernommene, thread-getragene Einzelformen** (Anrede,
+Eigenname), Praxis: die Anredezeile aus der Fehlerzaehlung herausnehmen. Zweiter Wert des
+Belegs: das **Verhalten** — erkennen, melden, nicht eigenmaechtig heilen (Marker in
+[[haltung]], Gegenstueck zur stillen Ausbesserung aus Batch 95). (2) **Neuer Detektor
+aufgenommen: das Entwurfs-Duplikat** — zwei wortgleiche Drafts im selben Sekundenfenster mit
+verschiedenem Verteiler sind ein Hub-Lauf; drei Belege (06.08., 17.08., 18.08.), steht in der
+Trefferliste, kostet kein `read_resource`. (3) **⭐ Das persoenliche Treffen hebt das
+Beziehungsregister** — zweiter unabhaengiger Beleg (Sitzung 20.08. → «Hoi <Vorname>» am Abend;
+Batch 97: Telefonat → «Lieber Levi»); zugleich ein belegter Fidelity-Mangel, weil der Hub die
+Stufe des letzten Threads fortschrieb. (4) **Anti-Marker:** das `x_`-Praefix am Wrapper und die
+Wrapper-ZAHL sind Sent-gegen-Draft-Artefakte, kein Autorschafts-Signal.
+
+**Register gepflegt:** `rules/anrede-kontakte.md` um drei belegte Kontakte ergaenzt (Eren **Du**
+seit der Sitzung, Guerini Sie, Suljanovic Sie, «werter Herr» erstmals im Sie belegt) plus die
+Treffen-Klausel als **Hinweis mit ausstehender Bestaetigung**. **⚠ Gemessen, nicht
+fortgeschrieben:** der DNA-Auto-Block steht bei **32'796 B von 34'000 B, 1'204 B Reserve** —
+kein Handlungsbedarf, die Marker dieses Batches sind Marker-Prosa ausserhalb des kompilierten
+Blocks. Rohdatei `raw/260821-mailbatch-100.md`.
+
 ## 2026-08-20 — Fidelity-Review (Fenster 07.–13.07.2026)
 
 **Gesamt-Fidelity 34** (Beziehung 50 · Stimme 36 · Fachsignatur 34 · Haltung 31 · Denken 30 ·
