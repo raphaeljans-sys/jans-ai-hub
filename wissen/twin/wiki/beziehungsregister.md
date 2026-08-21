@@ -467,7 +467,9 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   nicht dem To-Feld (korrigiert 260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
   am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
-  nicht das singuläre «Dich».
+  nicht das singuläre «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
+  zusammenziehen** — «Geschätzter Herr A, werter Herr B», nie «Sehr geehrte Herren A und B»
+  (gemessener Verstoss 260821, Marker seit 260714j).
 
 ## Gestapelte Anrede + kollektives «Euch» auch im harten Mahn-/Zahlungskontext (belegt Fidelity 260725b, authentisch)
 Bestätigt «Register-Mix in EINER Mail» und «Kollektives ‹Euren Einsatz› trotz gemischtem Sie/Du-
@@ -2832,3 +2834,35 @@ im Cc stand Furrer (AfB, Kreisarchitekt).
   falsche Form (Herr + Vorname). Die falsche Form war bewusst aus dem Thread uebernommen und im
   Sendejournal gemeldet (siehe [[haltung]] und [[CLAUDE]], achtzehnte Falle); die Stufe war
   schlicht nicht nachgezogen.
+
+## Fidelity 260821 — gemessener Verstoss: der Zwilling verschmilzt die gestapelte Anrede zur Sammelform
+
+**Der wichtigste Befund dieses Laufs, weil er ein Regressionstest ist.** Zwei der vier Golds
+(14.07.2026) waren bereits am 14.07.2026 durch Lauf 260714j destilliert; ihre Marker stehen seit
+fünf Wochen in diesem Artikel und in `rules/anrede-kontakte.md`. Gemessen wurde also nicht, ob der
+Zwilling die Marker findet, sondern ob sie **halten**.
+
+| Marker | Quelle | gehalten? |
+|---|---|---|
+| Felix Stählin → «Hoi Felix» + Du, obwohl Unternehmer | 260714j, Rule `anrede-kontakte` | **ja**, in beiden Fassungen |
+| «Du,»-Filler nach der Anrede (Einzelbeleg, ausdrücklich nicht aktiv setzen) | 260714j | **ja** — korrekt unterlassen |
+| «Geschätzter Herr X, werter Herr Y» statt «Sehr geehrte» im Projektteam | 260714j | **nein** |
+
+Der Zwilling schrieb «**Sehr geehrte Herren Vanvelsen und Manz**» — er hat die Stapelung erkannt
+und dann **zu einer kollektiven Sammelform zusammengezogen**, unter Verlust beider Wärmestufen.
+Gold: «**Geschätzter Herr Vanvelten, werter Herr Mans**», eine Zeile, kein Schlusskomma, zwei
+Anredewörter nebeneinander.
+
+**Die Lehre reicht über diesen Fall hinaus.** Was hielt, sind **Kontakt→Register-Zuordnungen**
+(eine Nachschlagefrage: wer ist Felix?) und ein **Unterlassungsgebot** (setze den Filler nicht).
+Was nicht hielt, ist eine **Formregel, die einen eigenen Vereinfachungsreflex unterdrücken muss**.
+Dieselbe Signatur zeigen der Listen-Reflex ([[arbeitsweise]]) und das Fragezeichen hinter der Bitte
+([[stimme]]): der Zwilling weiss die Regel und glättet trotzdem. **Die KB speichert Fakten
+zuverlässig und Inhibitionen nicht** — Marker, die etwas verbieten, was der Zwilling von sich aus
+gern täte, brauchen eine andere Form als Marker, die etwas nachschlagbar machen ([[QUESTIONS]]
+260821b #1).
+
+**Nebenbefund zur Datierung:** «werter Herr <Nachname>» im **Sie** ist damit nicht erst seit dem
+20.08.2026 belegt (so Batch 100), sondern seit dem **14.07.2026** — und zwar in derselben
+Doppel-Anredezeile-Konstruktion. Die Zeile in Batch 100 bleibt richtig, ihr «erstmals» nicht.
+Quelle: 14.07.2026 09:47, authentisch.

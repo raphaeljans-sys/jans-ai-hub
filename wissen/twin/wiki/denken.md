@@ -985,3 +985,33 @@ mit Herr ». Die 19 Minuten später gesendete Fassung führt denselben Satz zu E
   werde ich …»). Bestaetigt die Dramaturgie Grundlage → Auftrag → Ausblick an einem sehr kurzen
   Text: auch auf 97 Woertern faellt der letzte Absatz nicht weg. Quelle: 20.08.2026 22:40,
   authentisch.
+
+## Fidelity 260821 — die Sicherheits-Inversion: der Zwilling verunsichert das Sichere und versichert das Unsichere
+
+Der schärfste Denkbefund dieses Laufs steht in **einer** Mail (Preisrüge an den Elektriker,
+16.07.2026 05:54, authentisch) und betrifft **zwei benachbarte Sätze mit umgekehrtem
+Sicherheitsgrad**:
+
+| | Gold | Twin-Fassung |
+|---|---|---|
+| nachweisbarer Rechenfehler | «(**Du hast** den Totalpreis von REAP von 4Stk bei Dir als Einheitspreis ohne Rabatt **eingesetzt**)» — Aktiv, Zuschreibung, Klammer | «**Ich vermute**, dass der REAP-Totalpreis … eingesetzt **wurde**» — Passiv, Vermutung |
+| blosser Verdacht | «( **es scheint** das jetzt zweifach bis dreifach gerechnet wurde.)» | «**Nach meiner Durchsicht ist** sie zwei- bis dreifach gerechnet» |
+
+Raphael setzt den Sicherheitsgrad **an die Beweislage**: was er nachgerechnet hat, steht als
+Feststellung mit Urheber; was er nur sieht, bleibt «es scheint». Der Zwilling dreht beides um —
+er weicht der Zuschreibung aus, wo sie belegt ist, und behauptet, wo Raphael offen lässt. Das ist
+dieselbe Wurzel wie die seit 260817 gemessene Erfindungs-Drift (Leerstellen werden gefüllt), hier
+aber erstmals als **Paar in einem Text** messbar und damit sauber zu prüfen.
+
+Zwei Formmerkmale gehören dazu: die Zuschreibung steht **in Klammern**, also beiläufig statt
+vorwurfsvoll, und die Klammer trägt den Punkt **innen** samt Leerschlag nach der öffnenden
+Klammer («( es scheint … wurde.)»).
+
+**Zweiter Denkbefund, kleiner:** die Bedingungen werden **gereiht, nicht verschmolzen.** Gold C
+(Sie, private Lüftungskontrolle) trägt zweimal dieselbe Dankformel hintereinander — «Ich bin
+Ihnen dankbar für die prompte Erledigung und Freigabe. Sollten Sie keinen Zugriff … erhalten
+haben bitte ich Sie mir dies kurz mitzuteilen. **Weiter bin ich Ihnen dankbar** sollten Unterlagen
+für die Beurteilung fehlen mir dies mitzuteilen.» Der Zwilling zog beide Bedingungen in einen Satz
+mit «oder» zusammen. Verallgemeinert den Marker vom 260820 (dieselbe Dankformel darf öffnen und
+schliessen): **die wiederholte Formel ist bei Raphael ein Reihungsmittel**, nicht eine
+Nachlässigkeit, die man zusammenzieht. Quelle: 14.07.2026 09:47 und 16.07.2026 05:54, authentisch.

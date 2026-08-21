@@ -4,6 +4,43 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-21 — Fidelity-Review (Fenster 14.–20.07.2026): der erste Regressionstest
+
+Vier Golds, alle authentisch — und **zwei davon bereits von Lauf 260714j abgeerntet**, weil die
+Fidelity-Laeufe ab Juli 2026 im eigenen Korpus mitlaufen. Aus dem Sammel-Lauf wurde damit ein
+**Regressionstest**: dieselben Golds, fuenf Wochen spaeter, mit den daraus destillierten Markern
+im Gehirn. **Gesamt-Fidelity 34** (Beziehungsregister 48 · Fachsignatur 47 · Stimme 30 · Haltung
+30 · Denken 28 · Arbeitsweise 22).
+
+**Kernbefunde:** (1) **Marker halten nur, wenn sie nachschlagbar sind.** Die Zuordnung «Felix ist
+Du» und das Unterlassungsgebot zum «Du,»-Filler hielten; die **Inhibition** eines eigenen Reflexes
+(«die gestapelte Anrede nicht zur Sammelform verschmelzen») hielt nicht — der Zwilling schrieb
+«Sehr geehrte Herren Vanvelsen und Manz» statt «Geschätzter Herr Vanvelten, werter Herr Mans».
+Damit fallen die drei hartnaeckigsten Drifts (Listen-Reflex, Fragezeichen hinter der Bitte,
+Anrede-Verschmelzung) in **eine** Klasse; Formfrage an Raphael ([[QUESTIONS]] 260821b #1).
+(2) **Sicherheits-Inversion, neu in [[denken]]:** Raphael haengt den Sicherheitsgrad an die
+Beweislage — der nachgerechnete Fehler steht als Zuschreibung im Aktiv in Klammern, der blosse
+Verdacht bleibt «es scheint». Der Zwilling dreht beides um. (3) **Die Frageform des 260820-Markers
+eingegrenzt** ([[haltung]]): auslegbarer Mangel → Frage, arithmetisch nachweisbarer Fehler →
+beilaeufige Feststellung. (4) **Die Kurzzahl schlaegt den Apostroph im operativen Peer-Du**
+([[stimme]]): «CHF 40K mehr (von 120 auf 160)», «4Stk», «6x»; «Danke und Gruss» ist ein
+eigenstaendiger Kurzgruss, nicht ans Sie-Behoerdenregister gebunden. (5) **«werter Herr <Nachname>»
+im Sie ist seit 14.07.2026 belegt**, nicht erst seit 20.08. (Batch-100-Zeile bleibt richtig, ihr
+«erstmals» nicht).
+
+**Neunzehnte Falle** in [[CLAUDE]]: das Fenster kann abgeerntet sein — vor der Gold-Auswahl
+`ls outputs/ | grep <Datum>` und `grep` auf den Betreff. Solche Fenster **nicht meiden**, sondern
+bewusst als Regressionstest fahren.
+
+**⚠ Der Wachstums-Riegel schlug an (+491 B).** Angewandt wurde das wiederholbare Mittel vom 20.08.:
+Auslagerung der Studien-/Sitzungspraesentation aus [[arbeitsweise]] (331 B) und der zugehoerigen
+Haltung aus [[haltung]] (100 B), je mit Zeilenverweis, dazu 62 B eigene Kuerzung. **Kompiliert mit
+rc=0 bei 33'998 B — 2 B Reserve.** Der Auslagerungs-Vorrat ist damit weitgehend erschoepft; der
+naechste Lauf muss die Gegenfinanzierung **vor** dem Schreiben benennen ([[QUESTIONS]] 260821b #2).
+Gegenprobe nach Rule `auto-verbesserungen` 260811: alle ausgelagerten Regeln per `grep`
+nachweisbar, jede Datei gewachsen, keine geschrumpft. Report
+`outputs/2026-08-21_fidelity.md`.
+
 ## 2026-08-21 — Batch 100: `contentType`-Nachpruefung 95–98 + Sent Items/`Drafts` `rj@` (20.–21.08.2026)
 
 **Zweiteilig.** Teil A erledigt die Vorrangaufgabe aus Batch 99 ([[QUESTIONS]] 260820 #1):

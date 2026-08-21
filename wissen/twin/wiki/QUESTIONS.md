@@ -3894,3 +3894,57 @@ Emoticon Absicht?** Erstes Emoticon des ganzen Korpus, in vertippter Form (`:=)`
 Unterlagen. Freundliche Gruesse» plus Signaturblock und macht aus zwei Zeichen eine
 Geschaeftsmail. Wenn die Zweiwort-Antwort mit Emoticon bei vertrauten Kontakten Deine Form ist,
 gehoert sie als unterste Stufe in die Gruss-Skala — heute steht dort «Lgr».*
+
+## 260821b (Fidelity-Review, Fenster 14.–20.07.2026) — fuenf Fragen, zwei davon an den Harness
+
+**#1 — Brauchen Inhibitionsregeln eine andere Darreichungsform als Nachschlageregeln?**
+*(Facette: Harness / alle sechs · an Raphael, konzeptionell)*
+Der Regressionstest dieses Laufs (Report Befund 1) trennt die Marker sauber: **Zuordnungen**
+(«Felix ist Du») und **Unterlassungsgebote** («den ‹Du,›-Filler nicht setzen») haben nach fuenf
+Wochen gehalten; die **Inhibition eines eigenen Reflexes** («die gestapelte Anrede nicht zur
+Sammelform verschmelzen») hat nicht gehalten — und mit ihr fallen die drei hartnaeckigsten Drifts
+des Harness in dieselbe Klasse: Listen-Reflex, Fragezeichen hinter der Bitte, Anrede-Verschmelzung.
+Alle drei stehen als Satz im Fliesstext eines 6- bis 7-kB-Blocks. **Frage:** soll der Zwilling vor
+jeder Erzeugung eine kurze, separate **Negativliste** lesen (etwa acht bis zwoelf Zeilen «tu genau
+das nicht»), zusaetzlich zum Do/Don't-Block? *Warum das naeherbringt:* es ist die erste Hypothese,
+die drei gemessene Dauer-Drifts mit EINER Ursache erklaert, statt sie einzeln zu ermahnen. **Nicht
+eigenmaechtig gebaut**, weil es die Bauform des Gehirns und die Ladekosten jedes Texterzeugnisses
+aendert.
+
+**#2 — Wie geht es beim Wachstums-Riegel weiter? (Entscheid faellig, nicht dringlich)**
+*(Facette: Harness · an Raphael)*
+Der Block steht nach diesem Lauf bei **33'998 B von 34'000 B**. Das am 20.08. eingefuehrte,
+ausdruecklich wiederholbare Mittel (Auslagerung von Nicht-Mail-Gattungsregeln) wurde heute zum
+zweiten Mal gezogen und ist damit **weitgehend erschoepft** — uebrig ist im Wesentlichen die
+Nummerierungslogik im Dokument. **Empfehlung des Laufs:** die Grenze **nicht** erneut anheben (das
+waere die zweite Anhebung in vier Tagen und macht den Riegel zur Formalie), sondern die naechste
+Kollision fuer eine **Verdichtung von [[stimme]]** nutzen — 7'125 B, groesster Block, und er traegt
+sichtbar abgeloeste Zwischenregeln aus Juli. *Warum das naeherbringt:* nicht inhaltlich, sondern
+betrieblich — ohne Entscheid bricht der naechste Lauf im Kompilierschritt ab, wie dieser es tat.
+
+**#3 — Ist «Danke und Gruss» an die Bitte um Nacharbeit gebunden oder freier?**
+*(Facette: Stimme · leicht zu beantworten)*
+Das Gehirn fuehrte die Formel bisher nur als Vorsatz vor dem FG-Block in der **Sie-Behoerdenmail**.
+Gold D setzt sie im **vertrauten Du als alleinigen Gruss** (16.07., Preisruege an den Elektriker).
+Die Aufloesung dieses Laufs lautet: sie haengt an der **Gattung** — die Mail bittet um Nacharbeit,
+der Dank laeuft vorschuessig auf deren Erledigung. **Frage:** stimmt das, oder ist «Danke und
+Gruss» schlicht eine dritte freie Kurzgruss-Variante neben «Lieber Gruss» und «Lgr»? *Warum das
+naeherbringt:* der Gruss ist die sichtbarste Einzelentscheidung jeder Mail, und der Zwilling waehlt
+hier zum wiederholten Mal die falsche der drei Formen.
+
+**#4 — Gilt die Kurzzahl («40K», «4Stk», «6x») auch gegenueber Sie-Unternehmern?**
+*(Facette: Stimme / Fachsignatur · leicht zu beantworten)*
+Belegt ist sie im vertrauten Du. Der Apostroph ist belegt in Offerte, Dokument und foermlicher
+Mail. Unbesetzt bleibt das Feld dazwischen: die operative Preisrueckfrage an einen **Sie**-
+Unternehmer. **Frage:** schreibt Raphael dort «CHF 40K» oder «CHF 40'000»? *Warum das
+naeherbringt:* die Gattungsweiche aus Befund 5 hat genau an dieser Stelle noch keine Kante, und
+Zahlen stehen in fast jeder Unternehmermail.
+
+**#5 — Zweiter Beleg fuer den «Du,»-Filler weiterhin ausstehend**
+*(Facette: Stimme · Beobachtungsauftrag, keine Frage an Raphael)*
+Seit 260714j gilt: nicht aktiv setzen, bis ein zweiter Beleg vorliegt. Dieser Lauf hat den
+**ersten** Beleg erneut gelesen, aber keinen zweiten gefunden — auch die Preisruege an denselben
+Kontakt zwei Tage spaeter traegt ihn nicht. Der Marker bleibt Einzelbeleg; das Unterlassungsgebot
+hat gehalten (Befund 1) und bleibt in Kraft. *Warum das hier steht:* damit die naechste
+Batch-Runde weiss, dass die Suche im Juli-Fenster erfolglos war, und nicht dieselbe Kiste
+durchsucht.

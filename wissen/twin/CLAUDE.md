@@ -953,3 +953,24 @@ Grundkontexts erzeugt, kannte die KB nicht, die dieses Budget führt.)*
 ## Sync
 
 Kanonisch auf dem NAS (`sync-kanonische-quelle.md`). Nur hier editieren, dann committen.
+
+**Neunzehnte Falle, neu 21.08.2026 (Fidelity-Review) — das Fenster kann bereits abgeerntet sein,
+und ab Juli 2026 laeuft der Harness im eigenen Korpus mit.**
+
+Die stehende Empfehlung «Fenster weiterziehen» unterstellt unberuehrtes Material. Das trifft fuer
+Fenster **vor Juli 2026** zu. Ab Juli 2026 verwenden die Fidelity-Laeufe **tagesaktuelle** Mails:
+Lauf 260714j hat am 14.07.2026 die Mails vom 14.07.2026 destilliert (Golds Stählin/Waschtuerme und
+Vanvelten/Mans), die Laeufe 260713a–h und 260714b–i ebenso. Wer heute das Fenster 14.–20.07. zieht,
+greift in eine bereits durchsuchte Kiste.
+
+**Gegenmittel, zwei Sekunden, vor der Gold-Auswahl:**
+- `ls outputs/ | grep <Jahr-Monat-Tag-Praefix>` — lief an diesem Tag ein Fidelity-Lauf?
+- `grep -rn "<Betreff-Fragment>" wiki/` — steht die Mail schon als Marker im Wiki?
+
+**Was NICHT folgt: solche Fenster zu meiden.** Die Wiederholung war am 21.08. der ertragreichste
+Teil des Laufs, weil sie zum **Regressionstest** wurde — dieselben Golds, fuenf Wochen spaeter, mit
+den daraus destillierten Markern im Gehirn. Ergebnis: **Nachschlage- und Unterlassungsregeln
+hielten, die Inhibition eines eigenen Reflexes hielt nicht** (Report Befund 1, [[QUESTIONS]]
+260821b #1). Richtig ist also: die Wiederholung **erkennen** und dann bewusst als Regressionstest
+fahren, statt sie unerkannt als Neuland zu verbuchen — im zweiten Fall werden bereits belegte
+Marker ein zweites Mal als «neu» notiert, was die KB aufblaeht und die Belegzaehlung verfaelscht.

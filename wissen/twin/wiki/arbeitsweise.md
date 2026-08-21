@@ -154,11 +154,7 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   Formular die als Prosa gestellte Rückfrage als **«_ »-Feldraster Label: Wert** beantworten, ohne
   Anrede, mit FG+Block (260805); bei unklarer **Zuständigkeit** dieselbe Anfrage im selben Zug an
   zwei Kanäle derselben Organisation; vor jedem **Nachhaken** den eigenen Prüfschritt ausweisen.
-  **Die Studien-/Sitzungspräsentation beginnt mit der Agenda, nicht mit dem Inhalt (260801):**
-  nummerierte Kapitelliste → Zustimmung zur Agenda → erst dann sprechen; **Grundlagen mit ihrer
-  Herkunft belegen**, bevor sie verwendet werden. **Eine Änderung wird zuerst legitimiert, dann
-  beschrieben** («Gemäss Entscheid der GL … habe ich … angepasst») — die Urheberschaft bleibt beim
-  Entscheidgremium.
+  Studien-/Sitzungspräsentation: Abschnitt «Gattungsregeln ausserhalb der Mail» unten.
 - **Nummeriert wird nach der Sache, nicht nach der Gattung (260804):** nummeriert wird eine
   **geschlossene Aufzählung, auf die später zurückverwiesen wird**; eine **offene Sammlung
   gleichrangiger Punkte** trägt «_ » (Du) bzw. «–» (Sie), beide Formen wechseln blockweise im
@@ -190,6 +186,9 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   jede Begründung** der Empfehlung. Der Zwilling schob «TeKoSi kennt das System bereits, das
   spart Einarbeitung» nach: erfunden, und zugleich der Beleg dafür, dass die Gliederung die
   Erfindung erzwingt — zwei Listenpunkte verlangen je ein Argument, ein Fliesstext-Satz nicht.
+  **260821: vier von vier** — die Aufzählung steht bei Raphael auch mitten im Satz («… die
+  Türspezifikation Schiebetüren: / ST1: Motorisiert / ST2: Kabelzug / final per Mail zu
+  fixieren»), ohne Aufzählungszeichen, der Satz läuft über sie hinweg.
 - **Don't:** Empfehlung ohne Grundlage; Auftrag ohne Zerlegung «im Block» abarbeiten; offene Enden
   ohne nächsten Schritt **in der Mail**; eine Folge einzeln zu beantwortender Fragen als offene
   Bullet-Liste tarnen; **den Formalisierungs-Reflex ins engste Peer-Du tragen** (dort reflexhaft
@@ -3107,3 +3106,15 @@ Mail, Wrapper), Raphaels Versand 13:44 (Exchange). Der Umbau ist gross und in ei
 - **Der Arbeitstag endet um 00:40 und beginnt mit dem Briefing um 06:54.** Kontextmarker zur
   Arbeitsweise, nicht zum Stil: die Fachmail entsteht mobil nach Mitternacht, der Hub liefert
   gut sechs Stunden spaeter den Tagesstand. Quelle: 20.08.2026, authentisch bzw. `claude-aera`.
+
+### Studien-/Sitzungspraesentation (ausgelagert 21.08.2026, nicht kompiliert)
+
+**Die Studien-/Sitzungspräsentation beginnt mit der Agenda, nicht mit dem Inhalt (260801):**
+nummerierte Kapitelliste → Zustimmung zur Agenda → erst dann sprechen; **Grundlagen mit ihrer
+Herkunft belegen**, bevor sie verwendet werden. **Eine Änderung wird zuerst legitimiert, dann
+beschrieben** («Gemäss Entscheid der GL … habe ich … angepasst») — die Urheberschaft bleibt beim
+Entscheidgremium.
+
+Ausgelagert wie am 20.08.2026, aus demselben Grund: eine Präsentationsregel kann im
+Mail-Messverfahren weder bestätigt noch verletzt werden. Sie gilt unverändert; der Zwilling liest
+sie, bevor er eine Studien- oder Sitzungspräsentation aufbaut.
