@@ -7403,3 +7403,31 @@ oeffentlich recherchierbare Identitaetsfragen aus `wiki/QUESTIONS.md` per WebSea
 27.07.2026. Details und Quellen: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-19. Keine
 Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
 - **2026-08-20 05:47 (Mac Mini Nachtschicht, Run 145):** KB `energie` — grösster Restposten `5.26PflanzenamBau.pdf` (Stadt Zürich, Pflanzen am Bau, 42 S.) destilliert; OneDrive-Platzhalter via M365-CLI-Zweitweg umgangen (zweite unabhängige Bestätigung dieses Fallbacks). Neues Destillat `pflanzen-am-bau-projektierungsgrundlagen-zh`, verlinkt in `dachbegruenung-gruendach`. Details: wissen/energie/CHANGELOG.md.
+
+## 2026-08-21 05:47 Nachtschicht Mac Mini — Prioritaeten 1-4 gesaettigt, Prioritaet 5: vier Identitaetsfragen architekten-synobsis
+
+Prioritaeten 1-3 leer/gesaettigt: keine pending remote-/sync-Tasks (`remote-tasks/pending`,
+`sync-tasks/mac-mini` beide ohne Auftraege); Synobsis Stufe 2 vollstaendig und aktuell (853/853,
+`vectors.npz` vom 11.08., eigener aktiver Scheduled Task `synobsis-batch-nacht`) — kein offener
+Punkt, kein eigener Lauf noetig; Fristen-Register (2557 Zeilen) wird bereits taeglich vom
+`logbuch-radar` (06:55, in Kuerze) und `hub-chef` (08:39) bedient, ein eigener Full-Pass haette
+Doppelarbeit an einem grossen, aktiv gepflegten Register bedeutet und das Budget gesprengt.
+Prioritaet 4 gegengeprueft: `energie` hat einen eigenen aktiven Scheduled Task (zuletzt Run 145,
+20.08. 05:47, plus Wissens-Chef-Korrektur 20.08.), `bauprodukte`/`grobkosten` auf Bestaetigungstakt
+(Endbedingung erreicht), `baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` je mit eigenem
+Taktgeber, `projekt-lessons` ausgesetzt, `immobilienbewertung`/`spec` auf Ereignis-Trigger — keine
+KB mit `training/PROGRAMM.md` frei (deckt sich mit den unabhaengigen Befunden vom 18./19.08.).
+
+Auf Prioritaet 5 ausgewichen: vier offene, oeffentlich recherchierbare Identitaetsfragen aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert (Villerauxban → Môrice
+Leroux/Villeurbanne Gratte-Ciel; Zirau_Frank → Frank Zierau, BSA/SIA-Architekt Zuerich; Zuchi_Gino
+→ Cino Zucchi, Professor Politecnico di Milano; Erhard_Jann → Jann Erhard, Buero seit 2017, Projekt-
+bezug Kindergarten Scaletta Chur nicht abschliessend verifiziert). Details + Quellen:
+`wissen/architekten-synobsis/CHANGELOG.md` 2026-08-21. Schreib-Kontrolle vor dem Commit:
+`git diff --numstat` zeigte fuer CHANGELOG.md reinen Append (+29/-0) und fuer QUESTIONS.md exakt
+die drei beabsichtigten Zeilenersetzungen (+3/-3) — keine ungewollte Loeschung.
+
+`nas-commit-now.sh` scheiterte am selben Tailscale-DNS-Fehler wie in den Laeufen vom 18.08.
+(`diskstation918.tail8265aa.ts.net` nicht aufloesbar); der 15-Min-Cron faengt die Edits auf. Nichts
+versendet, nichts gebucht, keine destruktive Aktion, keine Ordnerumbenennung (bleibt Freigabesache
+Raphael). Budget: rund 2.9 von 5 USD.

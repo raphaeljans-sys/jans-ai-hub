@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 21.08.2026 05:24:33
+Stand: 21.08.2026 05:34:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub//claude/worktrees/2d/plans/sink/bs302/0e523d  (letzte Aktivitaet 05:15)
@@ -29,4 +29,4 @@ Stand: 21.08.2026 05:24:33
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- a6df6626 nas-selfcommit: 2 Datei(en) 2026-08-21 05:15
+- b8d88c17 energie Run 148: Fristenregister-Nachtrag zum Normkauf SIA 380/1 (blockiert neu auch die Healthcare-Gebaeudekategorie)

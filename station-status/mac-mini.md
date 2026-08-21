@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 21.08.2026 05:24:24
+Stand: 21.08.2026 05:34:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 05:15)
@@ -12,4 +12,4 @@ Stand: 21.08.2026 05:24:24
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- a6df6626 nas-selfcommit: 2 Datei(en) 2026-08-21 05:15
+- b8d88c17 energie Run 148: Fristenregister-Nachtrag zum Normkauf SIA 380/1 (blockiert neu auch die Healthcare-Gebaeudekategorie)
