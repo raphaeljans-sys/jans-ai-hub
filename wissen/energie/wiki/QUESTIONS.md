@@ -3568,10 +3568,12 @@ durchfuehrbar.
   QUESTIONS-Liste statt `pdf-inventar.md`, mit Web-/Normquellen statt PL-02 als Rohstoff. Der
   Alternativvorschlag wäre eine Rücktaktung auf wöchentlich.
 
-- [ ] **E-R148-3 (P3, neu): die Auswertungs-Mechanik der Baustellenkontrolle 2005 ist ein
-  brauchbares Werkzeug ohne Heimat.** «Ausgangslage 100 %, jede Nein-Antwort −10 %, Resultat in %»
-  macht aus einer Ja/Nein-Checkliste eine über mehrere Kontrollgänge vergleichbare Kennzahl und
-  zitiert weder Norm noch Produkt, altert also nicht. Sie steht derzeit nur in
-  `[[eco-bau-devis-und-baustellenkontrolle]]`. Prüfen, ob sie in den Skill `unternehmerkontrolle`
-  gehört (Ausmass/Abnahme) — dort wäre sie ein Werkzeug, hier ist sie eine Fussnote. Geringe
-  Dringlichkeit, aber billig umzusetzen.
+- [x] **E-R148-3 (P3) GESCHLOSSEN am 21.08.2026 (Nachtschicht Mac Mini, 23:30-Zyklus).** Die
+  Auswertungs-Mechanik der Baustellenkontrolle 2005 («Ausgangslage 100 %, jede Nein-Antwort
+  −10 %, Resultat in %») bleibt als Fussnote in `[[eco-bau-devis-und-baustellenkontrolle]]`
+  dokumentiert (sie zitiert weder Norm noch Produkt, altert also nicht und braucht keinen
+  eigenen Wiki-Artikel), ist aber zusätzlich im Skill `unternehmerkontrolle` als optionales
+  Werkzeug verankert: die Inputs-Zeile der `SKILL.md` verweist jetzt auf die Prozent-Auswertung
+  für die Berichterstattung mehrerer Kontrollgänge gegenüber der Bauherrschaft, mit Hinweis,
+  dass die Punktwerte eine freie Setzung ohne Normbezug sind. Kein Duplizieren des Inhalts,
+  nur ein Cross-Link vom Skill zur KB — die KB bleibt die einzige Quelle.

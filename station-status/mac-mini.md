@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 21.08.2026 23:23:15
+Stand: 21.08.2026 23:43:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:34)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 21.08.2026 23:23:15
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 1ffa1753 nas-selfcommit: 3 Datei(en) 2026-08-21 23:15
+- 66bcbd21 wissens-chef Run 39: Nivellier-Klausel gegen sechs Korpus-Belege annotiert (Entscheid Raphael), Zuercher EnerG aus der Bundeserlass-Tabelle geholt, ueberholte Holzbau-Pauschale durch belegte Quantile ersetzt, Wettbewerbs-Harness an wettbewerbs-dna verdrahtet, vier Cross-KB-Kanten gesetzt; Meldekopf-Test aus Run 38 als untauglich widerlegt

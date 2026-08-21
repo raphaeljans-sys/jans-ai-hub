@@ -1,5 +1,17 @@
 # CHANGELOG
 
+## 2026-08-21 (Nachtschicht Mac Mini, 23:30-Zyklus) — E-R148-3 geschlossen: Prozent-Auswertung Baustellenkontrolle 2005 im Skill `unternehmerkontrolle` verankert
+
+Priorität 4 (Trainingslektion) war heute bereits gesättigt (bauprodukte/grobkosten erledigt,
+PL-02-Korpus energie in Run 148 desselben Tages erschöpft, alle übrigen KBs auf
+Ereignis-Trigger); Priorität 3 (Fristen-Register) bereits von Radar/Hub-Chef bedient. Auf
+Priorität 5 ausgewichen: die in Run 148 offen gelassene Position **E-R148-3** («billig
+umzusetzen») bearbeitet. Die Prozent-Auswertung der Baustellenkontrolle 2005 («Ausgangslage
+100 %, je Nein-Antwort −10 %») bleibt Fussnote in `[[eco-bau-devis-und-baustellenkontrolle]]`,
+ist aber jetzt zusätzlich in `skills/unternehmerkontrolle/SKILL.md` (Inputs-Zeile) als
+optionales Berichts-Werkzeug für mehrere Kontrollgänge verlinkt — kein Duplikat, nur ein
+Cross-Link; die KB bleibt einzige Quelle. `wiki/QUESTIONS.md` E-R148-3 auf `[x]` gesetzt.
+
 ## 2026-08-21 (Wissens-Chef Run 39, Cross-KB) — zwei Doppel-Destillationen vom selben Tag verbunden
 
 - **`destillate/solarreport-solarapp-basel-2022.md`** und **`destillate/minergie-fallstudie-maison-climat.md`**

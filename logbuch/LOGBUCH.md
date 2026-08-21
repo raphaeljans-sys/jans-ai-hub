@@ -3,6 +3,16 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Nachtschicht Mac Mini 21.08.2026 (23:30-Zyklus) — E-R148-3 geschlossen, still beendet
+
+Prioritäten 1-4 gesättigt (keine Sync-/Remote-Tasks, Synobsis Stufe 2 unveraendert, Fristen-
+Register bereits von Radar/Hub-Chef bedient, alle Training-KBs entweder mit eigenem
+Taktgeber, auf Endbedingung oder heute bereits erschoepft — energie-PL-02-Korpus in Run 148
+desselben Tages geschlossen). Auf Prioritaet 5 ausgewichen: offene Position **E-R148-3** aus
+`wissen/energie/wiki/QUESTIONS.md` bearbeitet — die Prozent-Auswertung der Baustellenkontrolle
+2005 ist jetzt als optionales Werkzeug in `skills/unternehmerkontrolle/SKILL.md` verlinkt
+(Cross-Link, kein Duplikat). QUESTIONS.md und CHANGELOG der KB nachgefuehrt. Kein Versand,
+keine Buchung, keine Loeschung. Budget rund 2.5 von 5 USD.
 
 ## Hub-Chef 21.08.2026 (08:39 bis 09:1x) — Tagesbriefing GESENDET (Regellauf)
 
