@@ -3455,6 +3455,13 @@ durchfuehrbar.
   definiert ist (vermutlich SIA 380/1 Anhang oder ein EN-ZH-Formular, nicht in § 47a BBV I selbst
   enthalten) — bei nächster Gelegenheit mit Bezug zu einem konkreten Pflegeheim-Fall klären, sonst
   bleibt es akademisch. Quelle: `destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`.
+  **⚠ Präzisiert 21.08.2026 (Run 148):** die Vermutung «vermutlich SIA 380/1 Anhang oder ein
+  EN-ZH-Formular» ist zur Hälfte belegt und zur Hälfte ausgeschlossen. Am WDV-Original gelesen:
+  § 8 Abs. 2 und § 10 Abs. 2 WDV 2022 bezeichnen die Kategorien I-XII ausdrücklich als
+  **Standardnutzungen der Norm SIA 380/1**. Es ist also eine **Normfrage**; ein EN-ZH-Formular
+  oder eine kantonale Vollzugshilfe kann sie nicht beantworten. Damit hängt dieser Punkt am
+  Normkauf-Entscheid und ist nach **E-R148-1** verschoben — dort weiterverfolgen, hier nicht
+  mehr eigenständig recherchieren.
 - [ ] **E-R138-2 (P3, neu): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
   nachführen.** Der E-R137-1-Befund zeigt, dass mindestens 5 in `pdf-inventar.md` bereits geprüfte
   und bewusst nicht destillierte Werke (Run 126, 135) in `_INGESTED.md` fehlen und deshalb bei

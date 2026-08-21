@@ -254,7 +254,7 @@ Stand: 2026-07-03, Erstausgabe plus Chargen 1/6 bis 6/6 — Erstkuratierung komp
 - **Tschumi_Bernhard** — korrekt Bernard Tschumi. Umbenennung?
 - **Vaccini_Livio** — korrekt Livio Vacchini. Umbenennung?
 - **Vandenhove_Charsl** — korrekt Charles Vandenhove. Umbenennung?
-- **Villerauxban** — vermutlich der Ort Villeurbanne (Gratte-Ciel, Architekt Morice Leroux), kein Architekt; Ordner zudem ohne Dateien. Umwidmen oder loeschen?
+- **Villerauxban** — vermutlich der Ort Villeurbanne (Gratte-Ciel, Architekt Morice Leroux), kein Architekt; Ordner zudem ohne Dateien. Umwidmen oder loeschen? **RECHERCHIERT 21.08.2026 (Nachtschicht Mac Mini):** bestaetigt. Gemeint ist Villeurbanne bei Lyon und dessen Gratte-Ciel-Quartier (sechs Hochhaeuser 1927-1934, Palais du Travail 1930), Architekt ist **Môrice Leroux** (1896-1963, Autodidakt, Wettbewerbssieger 1928 im Auftrag von Buergermeister Lazare Goujon) — der im Ordnernamen genannte «Morice Leroux» ist eine Schreibvariante ohne den Zirkumflex. Kein Architekten-Ordner im engeren Sinn, sondern ein Orts-/Projekt-Merkposten. Quelle: fr.wikipedia.org/wiki/Môrice_Leroux, lerize.villeurbanne.fr.
 - **Webb_Philiph** — korrekt Philip Webb. Umbenennung?
 - **Wright_Frank_Lord_1867_1959** — korrekt Frank Lloyd Wright («Lord» statt «Lloyd»). Umbenennung?
 - **Zirau_Frank** — vermutlich Frank Zierau (Zuerich). Umbenennung?

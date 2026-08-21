@@ -2487,3 +2487,48 @@ nichterneuerbaren Energien bei Neubauten»**. Das ist inhaltlich der wertvollste
 
 **Nächste Priorität:** 1. Vollzugsordner PDF-S. 43-68 (EN-1 Höchstanteil zuerst). 2.
 `5.26PflanzenamBau.pdf` (5,2 MB). 3. E-R138-2 (P3, `_INGESTED.md`-Pflege).
+
+## Run 148 (21.08.2026, Nachtschicht/Frühslot Mac Mini) — E-R144-1 geschlossen: die «11 gegen 11» sind ein falscher Freund; PL-02-Restliste vollständig abgearbeitet
+
+**Transfer (7 Positionen, Sparbetrieb-Rahmen 3-5 überschritten, weil sechs davon Kurzprüfungen
+kleiner Werke waren):** `730.1_19.6.83_72.pdf` (EnerG Nachtrag 72, 8 S., destilliert),
+`3.15.C Checkliste Baustellenkontrolle.pdf` (2 S., Variantenabgleich, in bestehendes Destillat
+eingearbeitet), `6.16Eidg.Gesetze_Verordnungen_1-2005.pdf`, `6.26Literatur_1-2005.pdf`,
+`7.17Fachstellen.pdf`, `25.04.10 Kursausschreibung SIA380-1.pdf` (alle vier `[-]` am Original
+verifiziert) sowie die Registerpflege zu `Standards_Kennzeichnungssystem_V2.2.pdf`
+(Teilerledigung E-R138-2). Beschaffung durchgehend über M365-CLI (`spo file get`, Site
+`/sites/PL`, Bibliothek intern `PL  Immobilienpreise`); der OneDrive-Mount wurde nicht angefasst.
+Die mechanische Prüfung lief auf drei parallelen Sonnet-Subagenten, Urteil und Verdichtung im
+Hauptmodell (Modell-Politik 19.07.2026).
+
+**Verifikation — zwei verschiedene Typen, beide eingesetzt:**
+1. *Aktualitätsprüfung am amtlichen Volltext* für den Urteilsteil: die WDV vom 8. Juni 2022 wurde
+   direkt bei `zh.ch` bezogen und §§ 7-12 im Hauptmodell im Original nachgelesen, statt aus dem
+   eigenen Destillat zu schliessen.
+2. *Gegenprüfung eines Agentenbefunds am Original vor dem Dateieingriff* (Rule 260729b): der
+   Subagent meldete, die kleinere Baustellenkontrolle-Datei sei keine Dublette, sondern eine
+   ältere Auflage mit eigener Auswertungsmechanik. Der Befund führte zu einer Frontmatter-
+   Korrektur und wurde deshalb vor der Übernahme selbst am PDF nachgelesen — **bestätigt**,
+   wörtlich («Ausgangslage 100 %, jede Abweichung (nein-Antwort) ergibt eine Reduktion um 10 %»).
+
+**Der zentrale Fund:** E-R144-1 ist geschlossen, und zwar gegen die naheliegende Vermutung. Die
+elf EN-1-Standardlösungen von 2009 sind **nicht** die Vorgänger der elf WDV-§-10-Standardlösungen.
+EN-1 bediente den Neubau-Höchstanteil von 80 % (§ 10a EnerG alter Fassung, per 01.09.2022
+aufgehoben); § 10 WDV bedient den Wärmeerzeugerersatz im Bestand (§ 11 Abs. 4 EnerG). Der
+Neubau-Nachfolger ist § 9 WDV mit **vier** Standardlösungen, nur für die Gebäudekategorien I/II.
+Belegt am Paragraphenwortlaut über den neu destillierten EnerG-Snapshot von 2011.
+
+**Selbstkorrektur:** das eigene Destillat aus Run 144 behauptete «§ 10a EnerG gilt unverändert» —
+berichtigt. Lehre: eine fortbestehende Paragraphennummer ist kein fortbestehender Rechtssatz.
+
+**Verdichtung:** neue FAQ **F248** (Standardlösung oder Rechennachweis beim Neubau — mit der
+Kategorien-Schranke und dem Healthcare-Fall) und **F249** (gilt die 80-%-Regel noch); Artikel
+`[[energienachweis-zh]]` um eine Nachweiswege-Tabelle je Gebäudekategorie, den § 8-Rechenweg und
+den Falsche-Freunde-Warnblock gewachsen; `[[waermedaemmvorschriften-zh-2022]]` um § 8 und die
+§ 10-Kategorienspalte ergänzt; `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]` auf
+`superseded` gesenkt.
+
+**Nächste Priorität:** nicht mehr die Dateiliste — der Korpus PL-02 ist erschöpft. 1. **E-R148-1
+(P1):** Normkauf SIA 380/1:2016 vorlegen; er blockiert die U-Wert-Tabellen **und** die
+Healthcare-Gebäudekategorie (E-R140-1). 2. **E-R148-2 (P2):** Entscheid Raphaels, ob der Loop
+fragengetrieben weiterläuft oder wöchentlich getaktet wird. 3. E-R148-3 (P3).

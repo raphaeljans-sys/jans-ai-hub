@@ -1,5 +1,57 @@
 # CHANGELOG
 
+## 2026-08-21 (Run 148, Mac Mini) — E-R144-1 geschlossen: die «11 gegen 11» sind ein falscher Freund; PL-02-Restliste vollständig abgearbeitet
+
+- **Der Urteilsbefund.** Die elf Standardlösungen der EnFK-Vollzugshilfe **EN-1 (Januar 2009)**
+  sind **nicht** die Vorgänger der elf Standardlösungen der **WDV 2022 § 10**. EN-1
+  konkretisierte den **Neubau**-Höchstanteil von 80 % nichterneuerbarer Energie nach § 10a EnerG
+  alter Fassung — per **01.09.2022 aufgehoben** und durch die Grenzwerttabelle des gewichteten
+  Energiebedarfs (§ 47a BBV I) ersetzt. Die elf Standardlösungen der WDV § 10 erfüllen dagegen
+  **§ 11 Abs. 4 EnerG**, also die 90-%-Auffangregel beim **Wärmeerzeugerersatz im Bestand**. Der
+  Neubau-Nachfolger ist **§ 9 WDV mit VIER Standardlösungen, und nur für die Gebäudekategorien I
+  und II**. Wer die Listen gleichsetzt, überträgt eine Bestandesregel auf einen Neubau. Für
+  Kat. III-XII — **darunter Spitäler und damit der JANS-Healthcare-Bereich** — existiert beim
+  Neubau überhaupt kein Standardlösungsweg; der Rechennachweis nach § 8 WDV ist zwingend.
+- **Geprüft am amtlichen Volltext, nicht am eigenen Destillat:** WDV vom 8. Juni 2022 direkt bei
+  `zh.ch` bezogen, §§ 7-12 im Hauptmodell im Original nachgelesen.
+- **Der Beleg kam aus dem Transfer-Block desselben Laufs.** Neu destilliert:
+  `[[energ-zh-nachtrag72-2011-historisch]]` (`superseded`) — der EnerG-Snapshot vom 1.4.2011 zeigt
+  § 10a im damaligen Wortlaut («höchstens 80% des zulässigen Energiebedarfs»), § 11 noch mit
+  «Klimaanlagen» überschrieben und **ohne § 10c** (Eigenstromerzeugung existierte 2011 nicht).
+  Damit ist der Systemwechsel am Paragraphenwortlaut belegt statt erschlossen. Die scheinbar
+  wertloseste Position des Batches lieferte den tragenden Beleg — in Run 138 war der
+  Schwester-Nachtrag 85 noch als «Verlinken statt doppeln» verworfen worden.
+- **Selbstkorrektur:** `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]` behauptete in der
+  Fassung von Run 144 «§ 10a EnerG gilt unverändert». Berichtigt, Status auf **`superseded`**
+  gesenkt, Bauherren-Transfer neu geschrieben. Lehre über diese KB hinaus: **eine fortbestehende
+  Paragraphennummer ist kein fortbestehender Rechtssatz.**
+- **Zweiter Befund, eine falsche Bestandsannahme korrigiert.** `3.15.C Checkliste
+  Baustellenkontrolle.pdf` (27'875 B) war als Dublette geführt, ist aber die **ältere Auflage
+  2005**. Nur sie trägt die **Auswertungs-Mechanik** («Ausgangslage 100 %, jede Abweichung
+  (nein-Antwort) ergibt eine Reduktion um 10 %») und den Kontrollpunkt zur Lösemittelfreiheit von
+  Fugendichtungsmassen, den die Fassung 2006 durch den Partikelfilter-Punkt ersetzt hat. Der
+  Subagenten-Befund wurde **vor** dem Dateieingriff am Original gegengelesen (Rule 260729b) und
+  wörtlich bestätigt; `[[eco-bau-devis-und-baustellenkontrolle]]` um den Abschnitt «Ältere Auflage
+  2005» gewachsen, Frontmatter-Quellenangabe korrigiert — **ohne** die für die Deviskontrolle
+  zutreffende Dubletten-Aussage mitzureissen (dort sind beide Dateien 64'309 B).
+- **Transfer (7 Positionen, alle am Original gelesen, alle über M365-CLI beschafft):** EnerG
+  Nachtrag 72 (destilliert), Baustellenkontrolle 2005 (eingearbeitet),
+  `6.16Eidg.Gesetze_Verordnungen_1-2005`, `6.26Literatur_1-2005`, `7.17Fachstellen`,
+  `25.04.10 Kursausschreibung SIA380-1` (alle vier `[-]` am Original verifiziert), dazu die
+  Registerpflege zu `Standards_Kennzeichnungssystem_V2.2` (Teilerledigung E-R138-2).
+- **Verdichtung:** FAQ **F248** (Standardlösung oder Rechennachweis beim Neubau, mit
+  Kategorien-Schranke und Healthcare-Fall) und **F249** (gilt die 80-%-Regel noch) neu; Artikel
+  `[[energienachweis-zh]]` um Nachweiswege-Tabelle, § 8-Rechenweg und Warnblock gewachsen;
+  `[[waermedaemmvorschriften-zh-2022]]` um § 8 vollständig sowie § 10-Kategorienspalte und Abs. 2
+  ergänzt (bleibt `established`).
+- **Struktureller Befund:** die 24er-Restliste ist **vollständig entschieden** (7 destilliert,
+  8 als `[-]` geprüft, 5 Mess-Artefakte, 3 aus Run 143), der Korpus PL-02 ist erschöpft. Ertrag
+  Run 147: eine echte Destillation aus fünf Positionen; Run 148: eine aus sieben. Neue Punkte
+  **E-R148-1 (P1)** Normkauf SIA 380/1:2016 — er blockiert jetzt belegt auch die
+  Gebäudekategorien-Definition und damit E-R140-1 —, **E-R148-2 (P2)** Entscheid Raphaels über
+  fragengetriebenen Takt oder Rücktaktung, **E-R148-3 (P3)**. Report:
+  `outputs/2026-08-21_energie-run148.md`.
+
 ## 2026-08-20 (Wissens-Chef Run 38, Cross-KB) — SIA 271 mit SIA 271/2 verwechselt; die Begrünungs-Nachfolgenorm lag seit dem 29.07. destilliert vor
 
 - **Bestätigter harter Befund, adversarial gegengeprüft.** Das heute früh (Run 145, 05:36)
