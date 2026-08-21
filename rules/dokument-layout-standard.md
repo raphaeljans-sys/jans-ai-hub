@@ -40,6 +40,16 @@ Festgelegt 05.05.2026. Build-Workflow, Generator-Vorlage und DXA-Detailparameter
   Listen-Bullet. (Vorgabe 10.06.2026; gilt fuer Dokumente UND Praesentationen)
 - Anfuehrungszeichen «…» bzw. „…"
 
+## Laenge (nicht hier geregelt)
+
+Diese Rule regelt die **Form**, nicht den **Umfang**. Die Laenge einer **Abklaerung** (Antwort
+auf eine einzelne Fachfrage: Montagehoehe, Mass, Apparatewahl, Zuordnung) steht in Rule
+`auto-verbesserungen.md`, Eintrag **260820**: rund drei Saetze plus eine bemasste Erklaerskizze,
+welche die Zahlen traegt, ohne Kapitelgliederung und ohne Ausgangslage-Abschnitt. Studien,
+Berichte, Gutachten, Offerten und Protokolle bleiben ausfuehrlich. Der Eintrag benennt diese
+Datei als die von ihm ergaenzte Rule; der Querverweis steht hier, damit die Laengenvorgabe auch
+findet, wer vom Formstandard herkommt (Synergie-Lauf 14, 21.08.2026).
+
 ## Geltung
 
 Alle DOCX/PDF fuer JANS (Factsheets, Berichte, Briefe, Memos, interne Dokumente). NICHT bei

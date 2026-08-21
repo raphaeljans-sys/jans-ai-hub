@@ -3,6 +3,31 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-21 — Synergie-Lauf 14 (Tagestakt)
+
+Delta-Basis 20.08.2026 17:10, Fenster 24,0 Stunden, **107 Commits**, 0 neue Bausteine,
+7 geaenderte Strukturdateien. Uhr-Kontrolle bestanden (Station 17:10 CEST gegen
+Synology-Selfcommit 17:00:07, HEAD `b78b9e7c`).
+
+**Zwei Befunde, beide gesetzt (active-with-flagging):**
+
+- **SYN-39** — der Bildschirmschoner-Waechter aus Chronik-Eintrag 260821 lag als einziger von
+  fuenf Stations-Waechtern ausserhalb des Repos (`~/bin/`), waehrend alle vier vergleichbaren
+  LaunchAgents auf `~/Developer/jans-ai-hub/scripts/` zeigen. Identische Kopie nach
+  `scripts/screensaver-idle-watchdog.sh` gesichert; die Plist-Umstellung bewusst **nicht**
+  ausgefuehrt (launchd, Rule `interaktive-eingriffe`, unbeaufsichtigter Lauf), fertiger Befehl
+  liegt im Chronik-Nachtrag.
+- **SYN-40** — die neue Laengenregel 260820 «Abklaerungen kurz halten» benennt
+  `dokument-layout-standard.md` als die von ihr ergaenzte Datei und stand dort mit 0 Treffern.
+  Querverweis-Abschnitt gesetzt; **keine** Laengenpruefung im Agenten `layout` (siehe SYN-31).
+
+Kein Befund bei `brandschutz`/`pdf2dwg` (eigene Reparaturen aus Lauf 13), `WEGE.md` (reine
+Umlaut-Korrektur), `jans-dna-facetten.md` (Kompilierweg) und `anrede-kontakte.md` (Rueckkante
+beidseitig). Bewusst offen gelassen: die unbestaetigte Anrede-Klausel «persoenliches Treffen
+hebt das Register» nicht in `agents/email.md` verdrahtet, solange QUESTIONS 260821 #1 offen ist.
+
+Bericht: `outputs/2026-08-21_synergie-lauf-14.md`.
+
 ## 2026-08-20 — Wissens-Chef Run 38 (Abendlauf)
 
 **Zuschnitt:** 5 Melder (`model: sonnet`) + 7 Refuter (Hauptmodell) = 12 Agenten, 1'911'831 Token,

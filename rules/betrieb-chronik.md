@@ -1764,3 +1764,15 @@ Schoner unabhaengig vom unterdrueckten Idle-Timer. Ruhemodus bleibt unangetastet
 
 Rueckbau: `launchctl bootout gui/$(id -u)/ch.jans.screensaver-idle`, danach Plist und Script
 loeschen. Nur MacBook Pro; Mac Mini nicht ausgerollt.
+
+**Nachtrag 21.08.2026 (Synergie-Lauf 14, SYN-39).** Das Script lag ausschliesslich unter
+`~/bin/screensaver-idle-watchdog.sh` und war damit als einziger der fuenf Stations-Waechter
+nicht versioniert; alle uebrigen Plists (`speicher-waechter`, `nas-keepalive`,
+`station-status`, `synctask-runner`) zeigen auf `~/Developer/jans-ai-hub/scripts/`. Die
+identische Kopie liegt jetzt unter `scripts/screensaver-idle-watchdog.sh` (NAS kanonisch).
+**Der laufende Job zeigt weiterhin auf `~/bin/`** — die Umstellung fasst launchd an und
+gehoert damit nicht in einen unbeaufsichtigten Lauf (Rule `interaktive-eingriffe`, Klasse
+Persistenz/Autostart). Vorgelegter Befehl fuer den naechsten interaktiven Lauf:
+`plutil -replace ProgramArguments.1 -string "$HOME/Developer/jans-ai-hub/scripts/screensaver-idle-watchdog.sh" ~/Library/LaunchAgents/ch.jans.screensaver-idle.plist`
+danach `launchctl bootout gui/$(id -u)/ch.jans.screensaver-idle` und erneut `bootstrap`.
+Bis dahin ist die Repo-Kopie die Sicherung, nicht die laufende Fassung.
