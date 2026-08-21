@@ -4,6 +4,35 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-21 (Mac Mini Nachtschicht) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung: Prioritaeten 1-3 des Nachtschicht-Auftrags leer/gesaettigt (keine pending remote-/
+sync-Tasks; Synobsis Stufe 2 weiterhin komplett und deaktiviert, 853/853; Fristen-Register wird
+bereits taeglich vom `logbuch-radar` 06:55 und `hub-chef` 08:39 bedient, ein eigener Full-Pass
+haette Doppelarbeit an einem 2557-Zeilen-Register bedeutet). Prioritaet 4 gegengeprueft und
+bestaetigt leer: `energie` hat einen eigenen aktiven Scheduled Task (Runs 143/145 in den letzten
+zwei Tagen), `bauprodukte`/`grobkosten` sind auf Bestaetigungstakt (Endbedingung erreicht),
+`baurecht`/`normen`/`planungsgrundlagen`/`wettbewerbs-dna` haben je einen eigenen Taktgeber,
+`projekt-lessons`/`immobilienbewertung`/`spec` sind ausgesetzt bzw. auf Ereignis-Trigger — keine
+weitere KB mit `training/PROGRAMM.md` frei (deckt sich mit den Befunden der Laeufe vom 18./19.08.).
+
+Auf Prioritaet 5 ausgewichen, Fortsetzung des Rechercheformats vom 19.08.2026 (kleiner,
+budgetdisziplinierter Block, kein Fan-out, direkt im Hauptkontext): vier weitere offene
+Identitaetsfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert.
+
+- **Villerauxban** → Villeurbanne (Gratte-Ciel-Quartier), Architekt **Môrice Leroux** (1896-1963).
+  Ordnername ohne Zirkumflex, Orts-/Projekt-Merkposten statt Architekten-Ordner.
+- **Zirau_Frank** → **Frank Zierau** (*1961), BSA/SIA-Architekt Zuerich seit 1997, Dufourstrasse 35.
+  Schreibfehler-Vermutung bestaetigt.
+- **Zuchi_Gino** → **Cino Zucchi** (*1955 Mailand), Professor Politecnico di Milano, CZA-Gruender.
+  Doppelter Schreibfehler-Vermutung bestaetigt.
+- **Erhard_Jann** → **Jann Erhard**, eigenes Buero seit 2017, Zuerich (jannerhard.com). Teilweise
+  bestaetigt: Existenz und Buero-Zuordnung belegt, der konkrete Projektbezug zum Kindergarten
+  Scaletta Chur liess sich in der Websuche nicht direkt verifizieren (offen als Vermutung markiert).
+
+Details je Frage in `wiki/QUESTIONS.md`, Sektion 2/3. Keine Ordnerumbenennung (Umbenennungen bleiben
+Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+
 ## 2026-08-19 (Mac Mini Nachtschicht) — Fuenf weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung: Prioritaeten 1-3 des Nachtschicht-Auftrags leer/gesaettigt (bestaetigt durch die
