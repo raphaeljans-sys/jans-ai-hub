@@ -3,6 +3,29 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 21.08.2026, 06:10 (Konversations-Log) — Honorar für den KISPI-Nasszellen-Ausbauplan 1:20
+ist gerechnet und liegt als A4-Blatt im Projektordner, aber noch nicht als Offerte draussen.**
+Aus dem Gespräch Mac Mini 21.08. 00:58 bis 01:21: Raphael legte
+`2619_51_S-ARCJ_8640_DT00_01_NASSZELLEN-UMBAU.pdf` vor und verlangte einen realistischen Preis
+für die Bauherrschaft. Gerechnet auf seinem eigenen KISPI-Ansatz vom 08.05.2026 (CHF 135.00/Std
+exkl. MWSt, n 1.2, r 1.15, U 1.3, i 1.15, s 1.1, Nebenkosten 4 %), Aufwand 134 Stunden:
+**Erstblatt pauschal CHF 18'000.00 plus CHF 720.00 Nebenkosten, Total CHF 18'720.00**;
+Folgeblatt CHF 8'500.00, je Nasszellentyp CHF 2'600.00 (Erstaufbau) beziehungsweise
+CHF 1'300.00 (Folgetyp), Änderungen nach Freigabe in Regie CHF 135.00/Std. Bandbreite
+CHF 15'000.00 bis 21'500.00 bei 110 bis 160 Stunden. Deliverable in drei Fassungen (.md/.docx/.pdf)
+unter `AR - 01 Projekte/2619_KINDERSPITAL/00_Admin/1 Angebote/260821-2619-Honorar-Nasszellenplan/`.
+**Drei offene Enden:** (1) die im Quercheck angenommene **Bausumme CHF 380'000.00 ist nicht
+belegt** und im Dokument ausdrücklich als Annahme markiert — sie muss vor jeder Verwendung nach
+aussen verifiziert werden (Rule `identifikatoren-verifizieren`); (2) das Blatt ist ein
+Kalkulationsblatt, **keine formelle Honorarofferte** — der Ausbau dazu wurde angeboten, der
+Entscheid liegt bei Raphael; (3) das Planblatt selbst trägt den Stempel PROVISORISCH.
+**Zusammenhang:** betrifft den offenen Registerpunkt «KISPI Duschwannen / Aufbauhöhe»
+(17.08.2026), der als Bringschuld JANS den definitiven Schnittplan der Nasszellen inklusive
+Bodenaufbau an M. Eren (Gruner) führt — inhaltlich derselbe Gegenstand; ob das Blatt die
+Bringschuld erfüllt, ist am Plan zu prüfen und hier nicht behauptet. Kein Termindruck, aber
+eine bezifferte Position mit Aussenwirkung.
+| Gespräch Mac Mini 21.08.2026 (Destillat `logbuch/konversationen/260821-konversationen.md` Abschnitt 01) + Deliverable `260821-2619-Honorar-Nasszellenplan.md` am Original gelesen | 2619 KISPI, Honorar | mittel | offen
+
 **NEU 20.08.2026, 08:39 (Hub-Chef) — Das NAS-Volume steht bei 93 Prozent und hat damit erstmals
 eine eigene Schwelle erreicht, unabhängig vom SharePoint-Pool.** Eigene Messung im Lauf:
 `//raphaeljans@daten` 6.0 TiB gesamt, 5.6 TiB belegt, **473 GiB frei (93 Prozent)**; die lokale
