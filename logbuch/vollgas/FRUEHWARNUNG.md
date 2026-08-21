@@ -5,6 +5,134 @@ Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante 
 «total» ist von billigem cache_read dominiert).
 
 
+## 2026-08-21 07:15 — STILL (keine Mail)
+
+Messzeitpunkt 21.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 647 Dateien im 9-Tage-Fenster MacBook Pro / 166 Mac Mini, Zeilenfilter
+je `timestamp[:10]`. Mac Mini über den Dual-Pfad-Alias `mini` gemessen (Skript via scp).
+
+### Verbrauch beide Stationen (Mio Tokens, teuer = in + cache_creation + out)
+
+| Tag | MBP teuer | MBP total | Mini teuer | Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 14.08. | 8.55 | 163.91 | 3.07 | 75.38 | 11.62 |
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 8.40 | 170.91 | 2.41 | 73.54 | 10.81 |
+| 17.08. | 10.23 | 254.85 | 2.30 | 66.25 | 12.53 |
+| 18.08. | 5.22 | 119.87 | 1.09 | 33.12 | 6.31 |
+| 19.08. | 6.29 | 133.47 | 3.04 | 41.98 | 9.33 |
+| 20.08. | 8.68 | 209.49 | 1.90 | 51.42 | 10.58 |
+| 21.08. (bis 07:15) | 1.63 | 41.42 | 1.36 | 32.92 | 2.99 |
+
+Alle Tageswerte 14.–19.08. reproduzieren den gestrigen Eintrag exakt. Der **20.08.
+schliesst mit 10.58 kombiniert teuer**, im Mittelfeld der laufenden Reihe. Zugelegt hat
+der MacBook Pro (6.29 auf 8.68), der Mac Mini ging zurück (3.04 auf 1.90). Schwelle (b)
+35 Mio an einem Tag bzw. 18 Mio an zwei Folgetagen: in beiden Formen deutlich
+unterschritten.
+
+### Blockade-Status: FREI
+
+Strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` / `message.type=="error"`
+/ `apiErrorStatus==429` mit Limit-Bezug im Text: **0 echte Limit-Fehlerereignisse** in den
+letzten 24 Stunden, auf beiden Stationen. Keine blockierte interaktive Sitzung, kein
+erschöpftes Wochenlimit.
+
+Kontrollprobe des Suchmusters bestanden: 64 der 73 Dateien im 40-Stunden-Fenster
+enthalten den String `scheduled-task` überhaupt, das escapte Muster `name=\"<task>\"`
+trifft. Kontingentstand aus `kontingent-budget.sh --json` (nativ auf dem Mini gemessen):
+Ampel **FREI**, 33.34 von 167.0 Mio verbraucht = **20.0 % bei 54.4 % verstrichener
+Woche**, Vorsprung **−34.4 Punkte** — erneut der grösste je gemessene Rückstand.
+
+### Operative Briefings: `logbuch-radar` durchgelaufen, die übrigen drei noch nicht fällig
+
+`logbuch-radar` hat heute um 06:55 gearbeitet (221 Zeilen) und sein Deliverable erreicht:
+Radar-Briefing als Abschnitt «Radar-Briefing 21.08.2026» im Logbuch, still beendet ohne
+eigene Mail (der Chef-Lauf des Vortages ist gelaufen, kein Punkt verlangt Handeln vor
+08:39). Inhaltlich scharf: der Duschwannen-Strang ist geschlossen, neu benannt sind ein
+seit gestern 08:52 unversendeter Entwurf an Bajrami mit heute ablaufender Frist und ein
+durch Zeitablauf überholter Entwurf an Stubbe (UGZ).
+
+`mahnwesen-verzugscheck` (08:05), `zahlungsabgleich-check` (08:23) und
+`hub-chef-taeglich` (08:39) haben ihre Slots **nach** dem Messzeitpunkt 07:15 — dazu keine
+Aussage und kein Befund. Ihre Läufe vom 20.08. waren vollständig (76 / 51 / 294 Zeilen).
+
+### Radar-Herzschlag: INTAKT
+
+Beide Signale frisch: RADAR.md jüngster Eintrag (erste `## `-Überschrift, nicht der
+Dateikopf) **21.08. 00:57**, mtime 01:01; dazu eine Radar-Session heute um 00:57 CEST,
+rund 6.3 Stunden vor dieser Messung. Der Radar meldet Ampel FREI, fünf KBs mit
+Liefer-Delta, keine Waisen, kein Loop ohne Ertrag.
+
+### Liefer-Delta der Lern-Loops: liefert, mit zwei Abbrüchen ohne Schaden
+
+Vier Nachtschicht-Zyklen 20./21.08.: 20.08. 13:39 (rc=0) · 23:33 (rc=0) ·
+21.08. 02:39 (**rc=1**) · 05:34 (rc=0).
+
+**Der rc=1-Lauf ist ein Budgetdeckel, kein Defekt.** Der 02:30-Zyklus lief 567 s über
+27 Turns und endete mit `terminal_reason: budget_exhausted`, `subtype:
+error_max_budget_usd` («Reached maximum budget ($5)»), Kosten $5.03, 8.34 Mio cache_read
+auf `claude-sonnet-5`. **Das Liefer-Delta lag zu diesem Zeitpunkt bereits im Ziel:** der
+Selfcommit `7f8227ab` um 02:45 trägt das neue Destillat
+`haushaltgeraete-professionelle-beschaffung-2004-erstausgabe` in `energie`, dazu
+BAUHERREN-FAQ, QUESTIONS, destillate/INDEX, `_INGESTED` und das PDF-Inventar. Der Deckel
+hat also den Abschlussbericht gekappt, nicht die Arbeit. Zweiter Fall dieser Art im
+beobachteten Fenster (18.08. 02:30 ebenfalls Exit 1) — zur Beobachtung an den Radar,
+nicht meldewürdig.
+
+**`normen-training-nacht` wurde vom Lauf-Gate korrekt abgewiesen** (21.08. 01:28,
+zweimal gemessen: 2735 / 2718 MB verfügbar gegen Mindestwert 3000 MB, Speicherdruck 2,
+0 aktive Läufe). Der Lauf trat still zurück, ohne zu destillieren, ohne Register- oder
+Commit-Nebenwirkung — 39 Zeilen, das billigstmögliche Verhalten. Gemäss Rule 260728 kein
+Fehler und kein Retry-Fall. Speicher zum Messzeitpunkt wieder komfortabel: 5359 MB
+verfügbar, Druck 1.
+
+**Offen bleibt der Tailscale-DNS-Fehler auf dem Mac Mini** (vom Radar am 20.08. gemeldet):
+der 05:30-Zyklus konnte den nativen NAS-Commit nicht auslösen, der 15-Minuten-Selfcommit
+hat die Sicherung übernommen. Wirkung bisher nur Latenz, kein Datenverlust.
+
+### Destillat-Aufsicht
+
+- **Fortschritt (a): steht den dritten Tag.** `inventar.sh buero-projekte --stand` meldet
+  21/21 Sektionen, 813 inventarisiert, **706 offen** — unverändert seit dem 19.08. Die
+  Nachtschicht weicht durchgehend auf andere KBs aus (`energie`, `normen`,
+  `architekten-synobsis`); der 05:30-Lauf nennt den Grund selbst: Priorität 5 nach
+  Ausweichen, weil die vorderen Prioritäten keinen Taktgeber bzw. keine Endbedingung
+  tragen. **Aus dem Einzelbefund vom 19.08. ist damit ein Muster geworden** — der aktive
+  Korpus der Queue wird von der Prioritätenlogik der Nachtschicht faktisch nicht bedient.
+- **Ertrag (b): bewegt sich.** 288 Wiki-Artikel gesamt (unverändert), aber **11 Artikel
+  am 20.08.** git-gezählt (ohne INDEX/QUESTIONS), davon 5 ohne die sechs Twin-Facetten:
+  `dachbegruenung-gruendach`, `oekologische-materialvorgaben-beschaffung` und
+  BAUHERREN-FAQ in `energie`, REGISTER in `normen`,
+  `brandschutz-pl03-wegweiser` in `planungsgrundlagen`. Heute bis 07:15 bereits 8 Artikel
+  (2 ohne twin). `projekt-lessons` — das Ziel des aktiven Korpus — steht weiter bei
+  7 Artikeln.
+- **Delta-Null-Serie: keine.** Die acht jüngsten Reports unter `wissen/*/outputs/` tragen
+  keinen Delta-Null-Vermerk.
+- **Stückkosten 20.08.:** kombiniert teuer 10.58 Mio auf **11 Artikel** = **0.96 Mio je
+  Artikel**; ohne die sechs Twin-Facetten 5 Artikel = **2.12 Mio**. Zum Vergleich 19.08.:
+  0.62 bzw. 1.04 Mio, 18.08.: 0.45 bzw. 0.79 Mio. Die Reihe steigt den zweiten Tag.
+- **Spec-Gate: in Ordnung.** Für den aktiven Korpus liegt `specs/buero-projekte-spec.md`
+  (16.08.2026) vor. Queue nicht komplett (Position 2 von 4 aktiv), Kriterium (g) also
+  nicht erfüllt.
+- **Mittags-Slot 13:30:** der Lauf vom 20.08. dauerte 549 s und endete rc=0 — nach dem
+  ertraglosen Lauf vom 19.08. (110 s) wieder ein regulärer Zyklus. Kein Muster.
+
+### Meldeentscheid: STILL (keine Mail)
+
+Keines der sieben Kriterien erfüllt: (a) 0 Limit-Ereignisse auf beiden Stationen ·
+(b) 10.58 Mio kombiniert teuer am 20.08., weit unter 35 bzw. 2 × 18 Mio ·
+(c) Wochenkontingent bei 20.0 % gegen 54.4 % verstrichene Woche · (d) das einzige vor
+07:15 fällige Briefing ist durchgelaufen und hat sein Deliverable erreicht · (e) Radar
+frisch (00:57, 6.3 h) · (f) der Ertrag bewegt sich, obwohl die Korpus-Front steht ·
+(g) Queue nicht komplett.
+
+Drei Punkte zur Beobachtung an den Radar, alle unterhalb der Meldeschwelle: die
+**stehende Front des aktiven Korpus im dritten Tag** (das ist der einzige, der sich
+verhärtet), der zweite Budgetdeckel-Abbruch eines Nachtschicht-Zyklus binnen vier Tagen,
+und der weiterhin offene Tailscale-DNS-Fehler auf dem Mac Mini.
+
+Letzte Mail dieser Frühwarnung: **08.08.2026 07:29**.
+
 ## 2026-08-20 07:15 — Rohmessung (Bewertung folgt weiter unten im selben Block)
 
 Messzeitpunkt 20.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
