@@ -3498,3 +3498,14 @@ durchfuehrbar.
   unverändert übernommen, nicht aufgelöst — die Klärung geht nur über die geltende
   SN-EN-12464-1-Fassung und gehört damit zur KB `normen` (Rule `normen-referenz`). Geringe
   Dringlichkeit, da das Destillat ohnehin `speculative` ist.
+
+## 2026-08-21 (Run 147) — Zwei divergente Frankenbeträge in derselben Rechenbeispiel-Familie
+
+- [ ] **E-R147-1 (P3, neu): Wärmepumpen-Tumbler-Ersparnis 5'300 CHF (Nov. 2004) gegen 3'900 CHF
+  (Jan. 2008) ungeklärt.** Zwei Auflagen desselben Stadt-Zürich/ewz-Flyers «Professionelle
+  Beschaffung: Haushaltgeräte» rechnen dasselbe Beispiel (Wärmepumpen-Tumbler vs. Standardgerät,
+  15 Jahre Nutzungsdauer) mit unterschiedlichem Ergebnis vor
+  (`[[haushaltgeraete-professionelle-beschaffung-2004-erstausgabe]]` gegen
+  `[[haushaltgeraete-effizienz-beschaffung-topten]]`, FAQ F210). Vermutete Ursache: geänderte
+  Strompreis-Annahme zwischen 2004 und 2008, nicht verifiziert. Geringe Dringlichkeit — beide
+  Zahlen sind 2026 ohnehin nicht mehr zitierfähig, nur das Gesamtkosten-Prinzip trägt.

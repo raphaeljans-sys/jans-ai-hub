@@ -923,13 +923,13 @@ vermerkt, kein Blocker für die tägliche Arbeit.**
 | Bytes | Pfad (PL-02) | Einordnung (ungeprüft, aus Dateiname/Grösse) |
 |---|---|---|
 | 5'235'353 | `/04_Merkblätter/eco/5.26PflanzenamBau.pdf` | **[x] destilliert 20.08.2026 (Mac Mini Nachtschicht)** → `pflanzen-am-bau-projektierungsgrundlagen-zh` (Scan-PDF, 42 S. vollst.; OneDrive-Platzhalter blockiert, via M365-CLI `m365 spo file get` beschafft) |
-| 4'910'998 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Allgemeines_Uebersicht.pdf` | laut Run-137-Fund nur 1 S. (Faltblatt-Deckblatt GT_RL1-9) |
-| 1'389'823 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Kursunterlagen_SIA/FEZ_Kursprogramm_Herbst_Winter_2023.pdf` | vermutlich Kursflyer, `[-]`-Kandidat |
-| 1'206'301 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf` | echte Variante zu `haushaltgeraete-effizienz-beschaffung-topten`, nicht Dublette (Run 123 belegt) |
-| 705'390 | `/04_Merkblätter/eco/7.26Fachstellenecobau.pdf` | vermutlich Verzeichnis, `[-]`-Kandidat |
+| 4'910'998 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/Allgemeines_Uebersicht.pdf` | **[-] verifiziert 2026-08-21 (Run 147):** bestätigt reines 1-seitiges Faltblatt-Deckblatt «Allgemeines zu den Richtlinien Gebäudetechnik» (AHB, Fassung 28.09.2005), listet nur die Titel der GT_RL1-9-Reihe auf, kein eigener Fachinhalt. Nicht destilliert |
+| 1'389'823 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Kursunterlagen_SIA/FEZ_Kursprogramm_Herbst_Winter_2023.pdf` | **[-] verifiziert 2026-08-21 (Run 147):** Kursflyer «forum energie zürich», Herbst/Winter 2023, reine Kurstabelle (Titel/Datum/Ort/Preis), kein Fachinhalt. Nicht destilliert |
+| 1'206'301 | `/04_Merkblätter/eco/Nachhaltiges Bauen/02 Checklisten/2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf` | **[x] destilliert 2026-08-21 (Run 147)** → `haushaltgeraete-professionelle-beschaffung-2004-erstausgabe`, speculative; echte Variante zu `haushaltgeraete-effizienz-beschaffung-topten` bestätigt (Run 123-Vermutung zutreffend): früheste bekannte Ausgabe (Nov. 2004) mit eigenständigen Rechenbeispielen, siehe FAQ F210-Nachtrag |
+| 705'390 | `/04_Merkblätter/eco/7.26Fachstellenecobau.pdf` | **[-] verifiziert 2026-08-21 (Run 147):** zweisprachiges (D/F) Informationsblatt «Nachhaltigkeit im öffentlichen Bau», reines Verzeichnis der eco-bau-Planungswerkzeuge mit Links, kein eigener Fachinhalt über das bereits Destillierte hinaus. Nicht destilliert |
 | 594'295 | `/06_Richtlinien/Minergie/Nuetzliche Unterlagen/Infobrochuren/MFH.pdf` | **bereits destilliert** als `heizungsersatz-groessere-mfh-stweg` (Run 125) — Basenamen-Abgleich zu kurz («MFH»), Mess-Artefakt, nicht real offen |
 | 434'310 | `/04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.5-Standards/Standards_Kennzeichnungssystem_V2.2.pdf` | laut Run 129 bereits geprüft, kein Bauherren-Fakt — `[-]`-Kandidat |
-| 173'047 | `/04_Merkblätter/eco/4.26Asbest.pdf` | Schadstoffthema, evtl. `[-]` wie `4.16Gebaudescreening.pdf` |
+| 173'047 | `/04_Merkblätter/eco/4.26Asbest.pdf` | **Mess-Artefakt, aufgelöst 2026-08-21 (Run 147):** ist bereits seit Run 128 (12.08.2026) destilliert als `[[asbest-dimension-jenseits-spritzasbest]]` (status established) — Datei geladen und per Inhalt («UMWELTPRAXIS Nr. 41 / Juli 2005») zweifelsfrei zugeordnet, keine neue Arbeit nötig, nur Basenamen-Abgleich hatte den Treffer verpasst |
 | 170'762 | `/04_Merkblätter/eco/Nachhaltiges Bauen/03 Informationen/3.27.I Bodenbelaege(KBOB2000_1).pdf` | **[x] destilliert 2026-08-20 (Run 146, Mac Mini Nachtschicht 13:30-Slot)** → `bodenbelaege-buerobau-kbob-vergleich-50-jahre` (KBOB/IPB 2000/1, 5 S. vollst.; via M365-CLI beschafft) |
 | 154'383 | `/04_Merkblätter/eco/6.26Literatur_1-2005.pdf` | vermutlich Literaturverzeichnis, `[-]`-Kandidat |
 | 133'739 | `/06_Richtlinien/Minergie/SIA380_1_Energie_im_Hochbau/25.04.10 Kursausschreibung SIA380-1.pdf` | Kursausschreibung, `[-]`-Kandidat |
@@ -954,6 +954,31 @@ und `5.26PflanzenamBau.pdf`.
 **Nächste Priorität:** 1. WDV 8.6.2022 (LS 700.211) beschaffen — E-R138-1, höchster Bauherren-Wert.
 2. Vollzugsordner Abschnitt 4 (Heizungsanlagen, S. 46-80). 3. Die rund 19 echten Restwerke oben,
 mit `Richtlinie_Anlagedokumentation E/H L S` und `Uebersichtstabelle_Beleuchtung_EN12464-1` zuerst.
+
+### Nachtrag 2026-08-21 (Run 147, Mac Mini Nachtschicht)
+
+Fünf der verbliebenen Restwerke bearbeitet, alle über M365-CLI beschafft (Bibliothek intern
+`PL  Immobilienpreise` = `02_Recht_Norm`, Site `/sites/PL`).
+
+| Status | Quelle (PL-02) | KB-Datenstand |
+|---|---|---|
+| [x] `2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf` (1,2 MB, Nov. 2004) | 2026-08-21 (vollst., 4 S.) → `haushaltgeraete-professionelle-beschaffung-2004-erstausgabe`, speculative; echte, bisher unbelegte Variante bestätigt — eigenständige Rechenbeispiele (Wärmepumpen-Tumbler 5'300 CHF Ersparnis/15 J., Kühlgeräteklassen, Warmwasseranschluss, Stadt-Zürich-Statistik 2003); FAQ F210 um Divergenz-Nachtrag ergänzt |
+| [x] `4.26Asbest.pdf` (173 KB) | 2026-08-21 — **Mess-Artefakt aufgelöst:** bereits seit Run 128 als `[[asbest-dimension-jenseits-spritzasbest]]` (established) destilliert, Basenamen-Abgleich hatte den Treffer nicht gefunden. Keine neue Arbeit, nur Registerpflege |
+| [-] `Allgemeines_Uebersicht.pdf` (4,9 MB) | 2026-08-21 (vollst., 1 S.) — bestätigtes reines Deckblatt/Faltblatt, kein Fachinhalt |
+| [-] `FEZ_Kursprogramm_Herbst_Winter_2023.pdf` (1,4 MB) | 2026-08-21 (vollst., 3 S.) — bestätigter Kursflyer, kein Fachinhalt |
+| [-] `7.26Fachstellenecobau.pdf` (705 KB) | 2026-08-21 (vollst., 4 S., D/F) — bestätigtes Verzeichnis/Portal-Informationsblatt, kein Fachinhalt über bereits Destilliertes hinaus |
+
+**Ehrlicher Kern der «rund 16-19 echten Restwerke» sinkt weiter:** von den fünf hier geprüften
+Positionen war nur eine tatsächlich neue Fach-Destillation (Haushaltgeräte 2004), eine ein reiner
+Mess-Artefakt (Asbest, bereits erledigt) und drei bestätigte `[-]`-Kandidaten. Neuer offener Punkt
+E-R147-1 (P3): zwei Auflagen desselben Haushaltgeräte-Flyers nennen für dasselbe Rechenbeispiel
+unterschiedliche Frankenbeträge (5'300 gegen 3'900 CHF), Ursache nicht verifiziert.
+
+**Nächste Priorität:** WDV 8.6.2022 (LS 700.211) weiterhin höchster offener Bauherren-Wert
+(E-R138-1, seit mehreren Runs unverändert offen). Danach die verbliebenen kleineren Restwerke aus
+der 24er-Liste (`6.16Eidg.Gesetze_Verordnungen`, `6.26Literatur`, `7.17Fachstellen`,
+`3.15.C Checkliste Baustellenkontrolle` — vermutlich alle `[-]`-Kandidaten, aber noch nicht am
+Original verifiziert).
 
 ### Nachtrag 20.08.2026 (Run 146) — drei kleine Restwerke abgeschlossen
 

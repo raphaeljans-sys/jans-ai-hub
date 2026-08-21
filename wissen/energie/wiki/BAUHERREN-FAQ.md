@@ -7017,6 +7017,14 @@ Schema Spitze war, kann heute im Mittelfeld liegen. Eine Umrechnungsregel alt→
 bewusst **nicht** angegeben, weil sie in keiner geprüften Quelle steht — verlangen Sie die
 aktuelle Etikette, nicht eine Übersetzung.
 
+⚠ **Nachtrag 21.08.2026 (Run 147):** Die früheste bekannte Ausgabe desselben Flyers (November
+2004, `[[haushaltgeraete-professionelle-beschaffung-2004-erstausgabe]]`) nennt für dasselbe
+Wärmepumpen-Tumbler-Rechenbeispiel eine höhere Ersparnis von rund **5'300 Franken** über 15
+Jahre statt der hier zitierten 3'900 Franken (2008er-Ausgabe). Beide Zahlen sind quellentreu,
+die Differenz ist vermutlich auf unterschiedliche Strompreis-Annahmen zurückzuführen, aber nicht
+geklärt (offener Punkt in `wiki/QUESTIONS.md`). Für die Beratung heute ist ohnehin **keine** der
+beiden Zahlen mehr zitierfähig — tragend bleibt nur das Gesamtkosten-Prinzip.
+
 **Quelle:** Stadt Zürich AHB / eco-bau, «Professionelle Beschaffung: Haushaltgeräte», Zürich
 **Januar 2008 (2., revidierte Auflage)**, 2 Seiten vollständig gelesen →
 `[[haushaltgeraete-effizienz-beschaffung-topten]]`. Neuskalierung und Rechtsgrundlage EnEV
