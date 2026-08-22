@@ -250,8 +250,12 @@ Ruegefrist + 5 Jahre verdeckte Maengel» ohne Ausgabe, ohne Artikel, ohne den Hi
 **01.01.2026 zwingende 60-Tage-Ruegefrist** nach SIA 118-C1:2026 — Vertragsbedingungs-Text, der ueber
 Devis und LV nach aussen geht).
 
-**Erledigt und ausgetragen:** `skills/ausschreibung` Z. 109-113 (Praezisierung SIA 118/262) und
-`ugz-hindernisfreie-aufzuege-2010`.
+**Erledigt und ausgetragen:** `skills/ausschreibung` Z. 109-113 (Praezisierung SIA 118/262 — die
+Stelle traegt die berichtigte Lesart, die Gegenausnahme Ziff. 8.4.2.3 und den Vergleich zur
+Mauerwerk-ABB) · `ugz-hindernisfreie-aufzuege-2010` (die Abnehmerseite in
+`planungsgrundlagen/wiki/recht-norm-hindernisfreies-bauen-zh.md` Z. 73-82 traegt Link, Merkblatt-Datum
+Maerz 2010, Fassungsvorbehalt SN 521500/C4:2019 **und** die Sachwarnung zur Ueber-Eck-Kabine — heute
+nachgemessen, nachdem Run 39 den Punkt nur teilgeprueft hatte).
 
 ---
 
