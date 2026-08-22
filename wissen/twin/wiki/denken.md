@@ -1038,3 +1038,33 @@ Quelle: `260822-mailbatch-101.md`, Materialmail an die Bauherrschaft vom 21.08.2
   «… auch direkt ein DWG der Pläne mitzuschicken, das vereinfacht mir die Integration in die
   Ausführungsplanung Architektur.» Die Begründung macht das Zugeständnis leicht, statt es
   einzufordern.
+
+## Sicherheits-Inversion, dritte Messung: die Form folgt der Beweislage, nicht der Höflichkeit (belegt Fidelity 260822, authentisch)
+
+Der Lauf 260821 mass die Inversion erstmals als Paar in einem Text: der Zwilling **vermutet, wo
+er nachgerechnet hat, und behauptet, wo Raphael offen lässt**. Der Lauf 260822 misst sie erneut,
+und diesmal in **zwei verschiedenen Golds zugleich**, was die Diagnose von einem Einzelbefund zu
+einem stabilen Muster macht.
+
+| Gold | Beweislage | Raphael | Zwilling |
+|---|---|---|---|
+| B, 22.07. 18:19 | prüfbar (falsche Dokumentversion) | «**Du hast** eine alte … Version … **verwendet**» | «ist mir aufgefallen, dass … **referenziert ist**» |
+| C, 22.07. 18:40 | **nicht** prüfbar (fremde Plattenwahl) | «Ich denke dies wird durch Ihre verwendeten Platten erfüllt**?**» | «Ich **gehe davon aus, dass** … erfüllen.» |
+
+Beide Male dreht der Zwilling in dieselbe Richtung: **weg von der klaren Zuschreibung, hin zur
+mittleren Sicherheit.** Wo Raphael zuschreibt, weicht er ins Passiv aus; wo Raphael offen fragt,
+schliesst er die Frage zur Annahme. Das ist keine Höflichkeitsdifferenz, sondern ein
+Informationsverlust: Raphaels Form sagt dem Empfänger jedes Mal mit, **wie sicher die Sache ist**.
+
+### Die neue Form: «Ich denke <Aussage>?» — Aussagesatz mit Fragezeichen
+
+Gold C liefert eine zweite, bislang nicht beschriebene Gestalt der auslegbaren Rückfrage. Sie hat
+**Aussagesatz-Stellung** und wird allein durch das Fragezeichen zur Frage:
+
+> Ich denke dies wird durch Ihre verwendeten Platten erfüllt?
+
+Sie steht als **eigener Absatz**, getrennt von der Klärung darüber. Bekannt war bisher nur die
+Präfix-Form «Sehe ich das Richtig: …?» (260820). Beide lassen dem Gegenüber die Deutungshoheit
+über sein eigenes Material; die neue Form tut es knapper und ohne die Selbstbezichtigung einer
+möglichen Fehlsicht. **Nicht zu «Erfüllen Ihre Platten diesen Wert?» normalisieren** — die
+Aussagesatz-Stellung ist der Marker.

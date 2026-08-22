@@ -419,8 +419,7 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
   Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. Die
   triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die Kurzbitte «Bitte
-  veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz (die
-  «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Bitte, nicht dem Ein-Zeiler).
+  veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz.
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
@@ -437,13 +436,15 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   bei der Privatkundin im warmen Sie; dort trägt die laufende Zusammenarbeit die Anrede. Bei
   derselben Empfängerin läuft die Bewegung über die Monate **abwärts** ins Vertrautere. Belege unten.
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
-  (260805 + 260806, zwei kontrollierte Paare):** im **Sie** kippt die **Namensform** («Geschätzte
+  (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
   **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
-  monoton**; ein Rücksprung ist fast immer ein Cc. **Erst die Empfängerliste lesen, dann den
-  Anlass.** Belege unten.
-- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818, Gegenprobe zu 260817):** acht
+  monoton**; ein Rücksprung ist fast immer ein Cc. **Der Auslöser ist aber notwendig, nicht
+  hinreichend (260822, 3/3 verfehlt): Cc, Gewicht und Telefonat heben NICHT automatisch** — «Hoi
+  Albin» trotz zwei Cc, «Guten Abend Jens» trotz Mängelrüge, «Geschätzter Herr Stadelmann» trotz
+  Telefonat. Im Zweifel den belegten Opener desselben Kontakts halten. Belege unten.
+- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
   Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
   die Einzeladressierung nicht aus. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
@@ -456,15 +457,13 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
   «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des
-  Eingangs; **der Zwilling hat genau hier gemessen versagt, 260816**: er spiegelte «Lieber Herr
-  X»/«Liebe Grüsse», Raphael antwortete zwei Tage später mit «Geschätzter Herr X»/FG. **Was die
-  Stufe wirklich bewegt, ist der KANALWECHSEL:** nach dem ersten Telefonat springt er in einem
-  Schritt von «Geschätzter Herr <Nachname>» auf «Hoi <Vorname>». **Gestapelt wird nur bei
+  Eingangs; gemessener Verstoss 260816, Beleg im Artikel. **Der KANALWECHSEL bewegt die Stufe oft, aber
+  nicht immer:** nach dem ersten Telefonat springt er von «Geschätzter Herr <Nachname>» auf «Hoi
+  <Vorname>» — Gegenbeleg 260822. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
   Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
-  (Gewicht entscheidet), und angeredet werden die **Entscheidungsträger, nicht der
-  Verteiler**: ein Cc kann angeredet, ein anderer übergangen werden, und die Reihenfolge folgt
-  nicht dem To-Feld (korrigiert 260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
+  (Gewicht entscheidet); ein Cc kann angeredet, ein anderer übergangen werden, die
+  Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
   am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
   nicht das singuläre «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform
@@ -2891,3 +2890,53 @@ Quelle: `260822-mailbatch-101.md`, beide Texte **authentisch**.
 - **Der Du-Sammelkreis der KISPI-Bauherrschaft ist damit dreiköpfig belegt:** Spörri («Michi»),
   Spahic und neu Würsch, alle drei in einer Anredezeile. Ergänzt die Einzelbelege der Batches
   99 und 100.
+
+## Drei Hebe-Regeln, drei Fehlgriffe: die Stufe hebt seltener, als das Wiki behauptet (belegt Fidelity 260822, authentisch)
+
+Der Lauf vom 22.08.2026 mass drei Golds aus dem Fenster 22.07.2026 und verfehlte die Anrede in
+**allen dreien** — jedes Mal in dieselbe Richtung: der Zwilling **hob oder verschob** die Stufe,
+weil eine belegte Hebe-Regel ansprach, und Raphael tat es nicht.
+
+| Gold | Auslöser im Wiki | Zwilling | Raphael |
+|---|---|---|---|
+| 22.07. 08:24, Albin Spahic, zwei Cc | «der mitlesende Dritte formalisiert die Anrede» | «Geschätzter Albin,» | «**Hoi Albin,**» |
+| 22.07. 18:19, Jens Ziegel, Mängelrüge | «Gewicht des Anliegens hebt die Stufe» | «Geschätzter Jens,» | «**Guten Abend Jens,**» |
+| 22.07. 18:40, Othmar Stadelmann, nach Telefonat | «Kanalwechsel: nach dem Telefonat auf Hoi <Vorname>» | «Hoi Othmar,» | «**Geschätzter Herr Stadelmann,**» |
+
+Jede der drei Regeln ist für sich belegt. Keine trägt eine **Gegenbedingung**, und keine sagt, was
+gilt, wenn der schlichte Anlass-/Tageszeit-Opener und ein Hebe-Auslöser zugleich vorliegen. Der
+Zwilling löst diese Lage regelmässig zugunsten der Hebung auf, Raphael in diesen drei Fällen kein
+einziges Mal.
+
+**Die Wurzel ist ein Erhebungsartefakt, kein Widerspruch in den Belegen.** Die Hebe-Regeln
+entstanden je aus einem positiven Fall («hier hob er»). Der negative Raum wurde nie miterhoben:
+wie oft derselbe Auslöser vorlag und die Stufe **stehen blieb**. Damit liest der Zwilling einen
+Auslöser als hinreichend, obwohl er nur notwendig ist. Praktische Folge, bis das gemessen ist:
+**der Anlass-/Tageszeit-Opener ist der Default; eine Hebe-Regel schlägt ihn erst, wenn kein
+belegter Opener desselben Kontakts im selben Vorgang dagegensteht.**
+
+### Gegenbeleg zur Treffen-/Kanalwechsel-Klausel (Rule `anrede-kontakte`, Stand «unbestätigt»)
+
+Gold C ist ein sauberer Gegenfall zu der Klausel, nach der ein persönliches Gespräch das Register
+hebt. Der **Telefonanruf ist in der ersten Zeile ausdrücklich benannt** («Besten Dank für den
+Telefonanruf.») und die Anrede bleibt «Geschätzter Herr Stadelmann»: Sie, mit Nachname. Ein
+Erstkontakt ist es nicht, am Vormittag desselben Tages steht derselbe Mann als «@Othmar
+Stadelmann» im Fliesstext einer Sammelmail.
+
+Das widerlegt die Klausel nicht, sie ist am Sanitär- und am Türfachplaner belegt. Es zeigt aber,
+dass sie **nicht für jeden Fachplaner und nicht für jeden Kanalwechsel** gilt. Die Klausel steht
+in `rules/anrede-kontakte.md` ausdrücklich als «noch nicht durch Raphael bestätigt»; dieser
+Gegenbeleg gehört in denselben Entscheid. Vorgelegt als [[QUESTIONS]] 260822 #1 — Claude ändert
+den Wortlaut einer Rule nicht selbst.
+
+
+## Beleg zum Spiegel-Verbot: der gemessene Verstoss vom 260816 (ausgelagert 22.08.2026)
+
+Aus dem Do/Don't-Block in den Fliesstext verschoben, weil die Regel selbst dort mit zwei
+Beispielen vollstaendig steht und der Wachstums-Riegel 131 B verlangte (Fidelity 260822).
+Die Regel ist unveraendert in Kraft, nur ihr dritter Beleg steht jetzt hier.
+
+Der Zwilling **spiegelte** am 16.08.2026 den Opener des Gegenuebers: auf «Lieber Herr X» /
+«Liebe Gruesse» antwortete er in derselben Waermestufe. Raphael antwortete zwei Tage spaeter
+mit «Geschaetzter Herr X» und FG+Block. Nicht der Opener des Eingangs entscheidet, sondern
+Anlass, Tageszeit und Vertrautheit.

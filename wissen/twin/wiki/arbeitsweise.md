@@ -3143,3 +3143,28 @@ Quelle: `260822-mailbatch-101.md`.
   Entwürfe gleichen Betreffs an denselben Empfänger an aufeinanderfolgenden Tagen sind ein
   Hub-Duplikat und brauchen kein `read_resource` — sie lassen sich aus der Trefferliste
   aussortieren. Ergänzt den Entwurfs-Duplikat-Detektor aus Batch 100.
+
+## Der Listen-Reflex ist in Wahrheit ein NORMALISIERUNGS-Reflex — er schlägt in beide Richtungen (belegt Fidelity 260822, authentisch)
+
+Seit 260806 führt dieser Artikel den «Listen-Reflex» als hartnäckigste Drift: der Zwilling baut
+Listen, wo Raphael Fliesstext schreibt. Der Lauf 260822 misst zum ersten Mal **beide Richtungen im
+selben Lauf** und korrigiert damit die Diagnose.
+
+| Gold | Raphael | Zwilling | Richtung |
+|---|---|---|---|
+| B, Dateiverweise unter «wie folgt zu verweisen:» | zwei **nackte Zeilen**, kein Zeichen | «–»-Bullets ergänzt | Liste **erfunden** |
+| C, vier VKF-Typenwände | vertikale Liste «**-W320-00**» | Fliesstext mit Kommas und «und» | Liste **aufgelöst** |
+| A, dreizeiliges Telegramm | keine Leerzeile | Absätze eingezogen | Struktur **erfunden** |
+
+Der gemeinsame Nenner ist nicht «mehr Liste», sondern **die konventionelle Form**. Der Zwilling
+zieht jede Passage auf das, was in einer gepflegten Geschäftsmail üblich wäre: Aufzählungen
+bekommen Aufzählungszeichen, Aufzählungszeichen-Kolonnen werden zu ordentlichen Sätzen,
+Zeilenblöcke bekommen Absätze. Raphaels Form richtet sich statt dessen nach der **Sache**
+(geschlossene Aufzählung → Liste; angehängte Belege → nackte Zeilen; beiläufige Frage → Telegramm).
+
+**Das erklärt, warum die bisherige Gegenmassnahme nicht greift.** «Keine Liste, wo Raphael
+Fliesstext schreibt» ist eine Richtungsanweisung und deckt nur den halben Fehler ab; im
+Typenwand-Fall hätte sie ihn sogar **verstärkt**. Die richtige Anweisung ist eine Unterlassung:
+**die vorgefundene Form der Sache nicht in die erwartbare überführen** — weder nach oben noch nach
+unten. Das ist erneut eine Inhibitionsregel, also genau die Gattung, die nach dem Befund 260821
+in der aktuellen Darreichung nicht hält ([[QUESTIONS]] 260821b #1).

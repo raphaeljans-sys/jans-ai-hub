@@ -2453,3 +2453,32 @@ Quelle: `260822-mailbatch-101.md`, Materialmail vom 21.08.2026 15:45 und Sie-Mai
   Grundlage als Planungsreferenz des Gastroplaners. In diesem Umfang bitten wir Sie uns Ihre
   Planung zuzustellen.» — **die eigene Beilage definiert den geschuldeten Detaillierungsgrad**,
   statt ihn in Worten zu beschreiben.
+
+## Registerdaten wörtlich: gehalten — und die Listenform «-W320-00» (belegt Fidelity 260822, authentisch)
+
+Der Lauf 260822 ist der erste seit Wochen **ohne jede erfundene Angabe**. Der Zwilling übernahm
+in beiden fachlichen Golds die Identifikatoren wörtlich und vollständig:
+
+- die beiden Anhangs-Dateinamen samt Raumbezeichnungen in Klammern
+  («A3.1_Brandlastberechnung_Fluchtweg_A_(Raumbez. 0.034 + 0.302).pdf»),
+- die vier VKF-Typenwände W320-00, W340-00, W430-00, W440-00,
+- den Kennwert 800 kg/m3 als Rohdichte der Beplankung.
+
+Keine Nummer wurde geglättet, keine ergänzt, keine aus einem Nachbarfall übernommen. Die
+Kontaminations-Drift (260818/260819) trat nicht auf. Das ist der belastbarste Teil des Zwillings
+und darf als solcher stehen bleiben.
+
+**Verfehlt wurde allein die Form der Nachweisliste.** Raphael setzt die vier Typenwände als
+vertikale Liste, Bindestrich **direkt am Wert, ohne Leerschlag**, unter einen Doppelpunkt:
+
+```
+Besten Dank für die Zusendung der VKF-Nachweise für die Typenwände:
+-W320-00
+-W340-00
+-W430-00
+-W440-00
+```
+
+Der Zwilling zog sie in den Fliesstext zusammen («… für die Typenwände W320-00, W340-00, W430-00
+und W440-00»). Die geschlossene Aufzählung benannter Nachweise ist bei ihm **Liste**, nicht Prosa,
+und ihr Zeichen ist das enge «-», nicht das «–» der Sie-Aufzählung und nicht das «_ » des Du.

@@ -4129,3 +4129,34 @@ Quelle: `260822-mailbatch-101.md`, zwei Eigentexte (21.08.2026 15:45 mobil, Du �
   misst das Gerät und nennt es Register. Gilt ab sofort für jede Gruss-Erhebung; im
   Umkehrschluss ist das Fehlen von «Lieber Gruss» unter einer Du-Mail **kein** Befund, solange
   die Mail vom Telefon stammt.
+
+## «Lgr» nackt, und die Mail ohne jede Leerzeile (belegt Fidelity 260822, authentisch)
+
+Gold A (22.07.2026 08:24, an den Bauherrenvertreter, zwei Cc) ist vollständig **drei Zeilen** lang
+und trägt **keine einzige Leerzeile**:
+
+```
+Hoi Albin,
+Was denkst Du, wäre es gut TekoSi morgen zur Fachplanersitzung einzuladen um die Türfachplanung mit der Gruner AG Gebäudetechnikplanung zu koordinieren?
+Lgr
+```
+
+Zwei Marker, beide verfehlt:
+
+- **«Lgr» steht nackt** — ohne Punkt und **ohne Namenszeile**. Der Artikel führte bisher
+  «Lieber Gruss»/«Lgr.» und den erweiterten Kurzgruss mit «Raphael.»; die abgeschliffenste Stufe
+  ist die hier: drei Buchstaben, sonst nichts. Der Zwilling schrieb «Lieber Gruss» + «Raphael».
+- **Kein Absatzbau.** Anrede, Sachfrage und Gruss stehen als drei aufeinanderfolgende Zeilen. Der
+  Zwilling setzte die üblichen Leerzeilen und machte aus dem Telegramm eine kleine Mail. Die
+  Verdichtung ist Teil der Aussage: die Frage ist beiläufig, und die Form sagt das mit.
+
+## Zweistelliges Jahr im operativen Datum (belegt Fidelity 260822, authentisch)
+
+Gold B datiert dreimal «**17.06.26**», nie «17.06.2026». Der Zwilling schrieb durchgehend
+vierstellig aus. Das Kurzdatum gilt dem **Verweis im Fliesstext und im Dateibezug** der operativen
+Mail; die Dateinamen-Konvention (YYMMDD) und die ausgewiesene Datumsangabe im Dokument bleiben
+davon unberührt. Gleiche Gattungsweiche wie bei der Kurzzahl gegen den Tausender-Apostroph
+(260821): im operativen Register wird abgeschliffen, im ausgewiesenen ausgeschrieben.
+
+Dazu die Einheit ohne Leerschlag: «**800kg/m3**» (Gold C), wo der Zwilling «800 kg/m3» setzte.
+Die «%»-mit-Leerschlag-Regel überträgt sich **nicht** auf Masseinheiten.

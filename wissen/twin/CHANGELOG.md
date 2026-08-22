@@ -4,6 +4,28 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-22 — twin-fidelity-review (Fenster rj@ 22.07.2026, drei Register)
+
+- Drei Golds gelesen und gewichtet (22.07. 08:24 vertrautes Du · 18:19 Geschäfts-Du ·
+  18:40 Fachplaner-Sie), alle drei authentisch, keine neue Echo-Falle. Zwei Kandidaten vor
+  dem Lesen als bereits abgeerntet aussortiert (Vorlauf-Prüfschritt der 19. Falle, wirksam).
+- **Gesamt-Fidelity 30** (Vorlauf 34). Beziehungsregister **15** — drei von drei Anreden
+  verfehlt, alle in dieselbe Richtung; Fachsignatur **46**, erster Lauf seit Wochen ohne
+  jede erfundene Angabe.
+- Kernbefunde: die drei Hebe-Regeln (Cc · Gewicht · Kanalwechsel) sind **notwendig, nicht
+  hinreichend** — Erhebungsartefakt, der negative Raum wurde nie miterhoben · **Gegenbeleg
+  zur Treffen-/Kanalwechsel-Klausel** (Stadelmann bleibt nach dem Telefonat im Sie), trifft
+  eine offene Stelle in `rules/anrede-kontakte.md`, Rule-Wortlaut NICHT angetastet · das seit
+  260820 benannte Anti-Muster «Bei der Durchsicht …» wörtlich reproduziert, dritte Sprosse der
+  Ruege-Skala nach Beweislage · Sicherheits-Inversion erstmals in zwei Golds zugleich, neue
+  Form «Ich denke <Aussage>?» · der «Listen-Reflex» ist ein **Normalisierungs-Reflex** und
+  schlägt in beide Richtungen.
+- Sechs Artikel gewachsen (fünf rein anhängend, `-0`), [[QUESTIONS]] +5 Fragen (260822b).
+- **Wachstums-Riegel scharf getestet:** erster Compile 34'131 B → ABBRUCH, nichts geschrieben.
+  Nach Auslagerung von Beleg-Prosa und zwei echten Doppelungen kompiliert mit **rc=0 bei
+  33'900 B (100 B Reserve)** — 98 B mehr als übergeben, trotz neuem Marker. Nur ein Marker
+  wurde in den Block gehoben; die übrigen Befunde stehen im Artikel-Fliesstext.
+
 ## 2026-08-22 — twin-mail-training Batch 101 (Fenster 21.–22.08.2026)
 
 - Zwei Gold-Texte destilliert (21.08. Du/mobil, 07.08. Sie — letzterer aus dem **zitierten

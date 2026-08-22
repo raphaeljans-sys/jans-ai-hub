@@ -3995,3 +3995,56 @@ Vermutung aus 260819 #3, «–» gehoere ins Sie und «_ » ins operative Du, is
 **Frage:** wofuer setzt Raphael dann «–» — fuer schlichte Aufzaehlungen ohne Entscheidungsgehalt,
 oder ist die Wahl frei? *Warum das naeherbringt:* der Zwilling braucht eine Kante, sonst setzt er
 ueberall «_ » und trifft die Faelle mit «–» nie.
+
+## 260822b (Fidelity-Review, Fenster 22.07.2026) — fuenf Fragen, zwei davon entscheiden eine offene Rule
+
+**#1 — Warum bleibt Othmar Stadelmann nach dem Telefonat im Sie, wo der Sanitaer- und der Tuerfachplaner ins Du sprangen?**
+*(Facette: Beziehungsregister · leicht zu beantworten, entscheidet die offene Klausel in `rules/anrede-kontakte.md`)*
+Die Mail vom 22.07.2026 18:40 nennt den Anruf in der ersten Zeile («Besten Dank fuer den
+Telefonanruf.») und behaelt trotzdem «Geschaetzter Herr Stadelmann» — Sie, mit Nachname. Nach der
+Treffen-/Kanalwechsel-Klausel (belegt an Mustafa Eren und Levi Hiltmann, in der Rule ausdruecklich
+als «noch nicht bestaetigt» gefuehrt) haette die Stufe hier steigen muessen. **Frage:** liegt es an
+der **Rolle** (Unternehmer/Trockenbauer statt Fachplaner im Kernteam), an der **Firma** (Estermann
+als Ausfuehrende statt Planende), oder schlicht daran, dass der Anruf von ihm ausging? *Warum das
+naeherbringt:* die Klausel wird heute vom Zwilling als allgemeine Regel gelesen und hat in diesem
+Lauf einen von drei Anrede-Fehlgriffen verursacht. Mit Deiner Antwort bekommt sie eine Kante.
+
+**#2 — Gibt es eine Vorrangregel zwischen dem Anlass-Opener und den drei Hebe-Regeln?**
+*(Facette: Beziehungsregister · Grundsatzfrage, ein Satz genuegt)*
+Der Zwilling verfehlte in diesem Lauf **alle drei** Anreden, jedes Mal weil eine belegte
+Hebe-Regel ansprach und Du sie nicht angewandt hast: «Hoi Albin» trotz zwei Cc, «Guten Abend Jens»
+trotz Maengelruege, «Geschaetzter Herr Stadelmann» trotz Telefonat. Jede der drei Regeln ist fuer
+sich belegt, keine trennt den Fall, in dem sie **nicht** greift. **Frage:** ist der schlichte
+Anlass-/Tageszeit-Opener bei Dir der Default, den ein Cc oder ein Gewicht nur in Ausnahmefaellen
+hebt — oder entscheidest Du das jedes Mal frei nach Gefuehl? *Warum das naeherbringt:* wenn es
+einen Default gibt, ersetzt eine Zeile drei Einzelregeln und heilt die haeufigste Drift dieser
+Facette.
+
+**#3 — Ist «Folgende Bemerkung:» als Einzahl gemeint, auch wenn mehrere Punkte folgen?**
+*(Facette: Haltung / Arbeitsweise · leicht zu beantworten)*
+Die Ruege an den Brandschutzexperten (22.07. 18:19) kuendigt die Beanstandung mit einer eigenen,
+freistehenden Zeile an: «Folgende Bemerkung:» — Singular, obwohl darunter der falsche Dokumentstand,
+die fehlende Unterschrift und zwei Korrekturauftraege folgen. **Frage:** setzt Du den Singular
+bewusst, um die Sache klein zu halten und aus der Ruege keine Maengelliste zu machen — oder ist es
+beim Tippen so entstanden? *Warum das naeherbringt:* der Zwilling loest die Zeile reflexhaft in
+«Bei der Durchsicht sind mir folgende Punkte aufgefallen» auf, also genau in die Maengelliste, die
+Du vermeidest. Ist der Singular Absicht, wird daraus eine harte Formregel.
+
+**#4 — Der Aussagesatz mit Fragezeichen: eigene Form oder Tippgewohnheit?**
+*(Facette: Denken · leicht zu beantworten; ergaenzt 260820b, dort ging es um die BITTE, hier um die Rueckfrage)*
+An Stadelmann steht als eigener Absatz: «Ich denke dies wird durch Ihre verwendeten Platten
+erfuellt**?**» — Aussagesatz-Stellung, allein durch das Fragezeichen zur Frage gemacht. Bekannt war
+bisher nur die Praefix-Form «Sehe ich das Richtig: …?». **Frage:** ist das eine bewusste, weichere
+Art zu fragen (die Antwort ist eigentlich klar, Du laesst dem Gegenueber aber das letzte Wort) —
+oder waere «Erfuellen Ihre Platten das?» genauso richtig? *Warum das naeherbringt:* die Bitte endet
+bei Dir belegt auf dem **Punkt**, die Rueckfrage offenbar auf dem **Fragezeichen**; der Zwilling
+verwechselt beide bislang in beide Richtungen.
+
+**#5 — Zweistelliges Jahr: gilt «17.06.26» ueberall ausser im Dateinamen?**
+*(Facette: Stimme / Fachsignatur · leicht zu beantworten)*
+In der Brandschutz-Mail datierst Du dreimal «17.06.26», nie «17.06.2026». **Frage:** ist das Deine
+Form fuer jeden Datumsverweis im Fliesstext — auch in der foermlichen Sie-Mail, im Protokoll und in
+der Offerte — oder gilt sie nur der schnellen operativen Mail, waehrend das ausgewiesene Datum im
+Dokument vierstellig bleibt? *Warum das naeherbringt:* der Zwilling schreibt heute ausnahmslos
+vierstellig aus; ohne die Kante wuerde er die Kurzform sonst ueberall setzen und die Dokumente
+verderben.

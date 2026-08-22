@@ -221,8 +221,7 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   «Guten Tag»/«Grüezi», gewichtiges/rechtsbegründetes Ersuchen→«Sehr geehrte Damen und
   Herren» — dasselbe Postfach hebt mit dem Gewicht des Anliegens; gestapelt bei mehreren. Die
   triviale technische Service-Bitte an ein Sammelpostfach trägt NUR die Kurzbitte «Bitte
-  veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz (die
-  «Bitte-immer-mit-Begründung»-Regel gilt der substanziellen Bitte, nicht dem Ein-Zeiler).
+  veranlassen Sie …» + FG+Block, OHNE Begründung/Dank/Service-Satz.
   Anrede mit wachsender Vertrautheit nachziehen; Opener aus Anlass +
   Tageszeit + Vertrautheit (vormittags im operativen Du «Guten Morgen <Vorname>» als Default);
   vermittelte/warme Erstanfrage→«Geschätzte/r», das kalte «Sehr geehrte/r» nur für
@@ -239,13 +238,15 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   bei der Privatkundin im warmen Sie; dort trägt die laufende Zusammenarbeit die Anrede. Bei
   derselben Empfängerin läuft die Bewegung über die Monate **abwärts** ins Vertrautere. Belege unten.
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
-  (260805 + 260806, zwei kontrollierte Paare):** im **Sie** kippt die **Namensform** («Geschätzte
+  (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
   **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
-  monoton**; ein Rücksprung ist fast immer ein Cc. **Erst die Empfängerliste lesen, dann den
-  Anlass.** Belege unten.
-- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818, Gegenprobe zu 260817):** acht
+  monoton**; ein Rücksprung ist fast immer ein Cc. **Der Auslöser ist aber notwendig, nicht
+  hinreichend (260822, 3/3 verfehlt): Cc, Gewicht und Telefonat heben NICHT automatisch** — «Hoi
+  Albin» trotz zwei Cc, «Guten Abend Jens» trotz Mängelrüge, «Geschätzter Herr Stadelmann» trotz
+  Telefonat. Im Zweifel den belegten Opener desselben Kontakts halten. Belege unten.
+- **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
   Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
   die Einzeladressierung nicht aus. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
@@ -258,15 +259,13 @@ ausgelagert: 2026-08-03 (Grundkontext-Diaet Runde 2, Freigabe Raphael)
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
   «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des
-  Eingangs; **der Zwilling hat genau hier gemessen versagt, 260816**: er spiegelte «Lieber Herr
-  X»/«Liebe Grüsse», Raphael antwortete zwei Tage später mit «Geschätzter Herr X»/FG. **Was die
-  Stufe wirklich bewegt, ist der KANALWECHSEL:** nach dem ersten Telefonat springt er in einem
-  Schritt von «Geschätzter Herr <Nachname>» auf «Hoi <Vorname>». **Gestapelt wird nur bei
+  Eingangs; gemessener Verstoss 260816, Beleg im Artikel. **Der KANALWECHSEL bewegt die Stufe oft, aber
+  nicht immer:** nach dem ersten Telefonat springt er von «Geschätzter Herr <Nachname>» auf «Hoi
+  <Vorname>» — Gegenbeleg 260822. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
   Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
-  (Gewicht entscheidet), und angeredet werden die **Entscheidungsträger, nicht der
-  Verteiler**: ein Cc kann angeredet, ein anderer übergangen werden, und die Reihenfolge folgt
-  nicht dem To-Feld (korrigiert 260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
+  (Gewicht entscheidet); ein Cc kann angeredet, ein anderer übergangen werden, die
+  Reihenfolge folgt nicht dem To-Feld (260817)); bei einer Mahn-/Zahlungs- oder sonst geschäftskritischen Mail NUR den sichtbaren
   Haupt-Du-Empfänger adressieren, ohne die Cc-/Mitbeteiligten zu prüfen — sind mehrere Personen
   am Vorgang beteiligt (auch nur im Cc), gestapelte Anrede + kollektives «Euch»/«Ihr» setzen,
   nicht das singuläre «Dich»; **die gestapelte Anrede zu einer kollektiven Sammelform

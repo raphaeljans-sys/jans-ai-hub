@@ -1429,3 +1429,43 @@ Quelle: `260822-mailbatch-101.md`, Sie-Mail an den Küchenbauer vom 07.08.2026 1
 - **Die Nebenvariante wird angeboten, nicht empfohlen:** «Optional: Hauswirtschaftsraum auch in
   Linoleum» als eigener Schlussblock, ohne Frist und ohne Druck. Der Bauherr behält die Wahl,
   ohne dass die Empfehlung dadurch weicher wird.
+
+## «Folgende Bemerkung:» — der Rüge-Ankündiger, und der reflexhafte Weichzeichner des Zwillings (belegt Fidelity 260822, authentisch)
+
+Gold B (22.07.2026 18:19, an den Brandschutzexperten, Du) führt die Beanstandung mit einer
+**eigenen, zweiwortigen Ankündigungszeile** ein:
+
+```
+Danke für Deine Zusendung.
+
+Folgende Bemerkung:
+
+Du hast eine alte nicht unterzeichnet Version der Brandlastberchnung … verwendet …
+```
+
+Drei Dinge daran, alle drei verfehlt:
+
+1. **Der Ankündiger steht allein.** «Folgende Bemerkung:» ist eine eigene Zeile mit Leerzeile
+   davor und danach, keine Einleitung eines Satzes. Er kündigt **eine** Bemerkung an, im
+   Singular, und nimmt der Rüge damit den Charakter einer Mängelliste.
+2. **Die Feststellung steht im Aktiv, in der zweiten Person.** «**Du hast** … verwendet» — die
+   Zuschreibung wird nicht vermieden. Der Fehler ist belegbar (falsche Dokumentversion), also
+   wird er festgestellt, nicht vermutet.
+3. **Der Dank rahmt, er entschärft nicht.** «Danke für Deine Zusendung.» steht davor, ohne
+   Aufwertung und ohne Überleitung zur Kritik.
+
+Der Zwilling ersetzte alle drei durch eine einzige Wendung: «Bei der Durchsicht ist mir
+aufgefallen, dass in der Stellungnahme eine ältere Fassung referenziert ist.» Das ist **wörtlich
+die Formulierung, die dieser Artikel seit dem 260820 als Anti-Muster führt** («Der Zwilling
+glättet das reflexhaft zu ‹Bei der Durchsicht sind mir folgende Punkte aufgefallen› und macht aus
+der Frage einen Befund»). Der Marker stand im Wiki, im kompilierten Block, und hielt trotzdem
+nicht — zweite Messung nach der Regelsetzung.
+
+Damit sind es **drei** Rüge-Formen, nach Beweislage getrennt, und der Zwilling trifft die Wahl
+bislang in keinem Fall:
+
+| Beweislage | Form | Beleg |
+|---|---|---|
+| auslegbar (fehlende Position in fremdem Papier) | Frage: «Sehe ich das Richtig: …?» | 260820 |
+| arithmetisch nachrechenbar | beiläufige Feststellung in Klammern | 260821 |
+| **dokumentarisch prüfbar (falsche Version, falsches Datum)** | **Ankündiger + Feststellung im Aktiv, 2. Person** | **260822** |
