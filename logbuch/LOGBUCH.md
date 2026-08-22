@@ -7683,3 +7683,22 @@ Report: `wissen/immobilienbewertung/outputs/2026-08-22_health-check.md`.
 
 Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
 Budget dieses Zyklus: rund 3.8 von 5 USD.
+
+## 2026-08-22 05:30 Nachtschicht Mac Mini — Prioritaeten 1-4 gesaettigt, Prioritaet 6: Wissens-Health-Check claude-code
+
+Prioritaeten 1-4 gegengeprueft (kein neuer pending remote-/sync-Task seit dem 02:31-Lauf,
+Synobsis Stufe 2 unveraendert fertig, keine faellige Trainingslektion, Fristen-Register ohne
+neuen draftpflichtigen Punkt) — Befund des 02:31-Laufs bestaetigt, keine Doppelarbeit dort.
+Auf Prioritaet 6 ausgewichen (wissenscheck Phase 1, aelteste Audit-Gruppe 03.08.2026, anderes
+Ziel als der 02:31-Lauf): `claude-code` gewaehlt, Erst-Audit dieser KB (zwei Artikel seit dem
+letzten Sammellauf gewachsen).
+
+Ergebnis A0 · B0 · C1 · D0 · E0 · F1 · G0. Zwei Befunde: (1) praktisch die gesamte KB schreibt
+Umlaute als ASCII-Ersatz (ae/oe/ue) statt echter ä/ö/ü — byte-verifiziert, acht von neun
+Dateien betroffen, widerspricht der eigenen KB-Regel und der Rule `umlaute-konvention`;
+(2) `kontext-architektur.md` nennt veraltete Riegel-Zahlen fuer den Twin-DNA-Kompilierriegel
+(30'000/24'000 statt aktuell 34'000/30'000 seit 18.08.2026). Beides nicht selbst korrigiert
+(Phase 2 laeuft unbeaufsichtigt nicht). Report: `wissen/claude-code/outputs/2026-08-22_health-check.md`.
+
+Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+Budget dieses Zyklus: rund 2.0 von 5 USD.

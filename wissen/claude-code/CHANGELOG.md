@@ -2,6 +2,44 @@
 
 Neueste Eintraege zuoberst.
 
+## 2026-08-22 (Mac-Mini-Nachtschicht, 05:30-Slot) — Erst-Health-Check: 2 Findings (Umlaute KB-weit, Riegel-Zahlen veraltet)
+
+Prioritaeten 1-4 des Nachtschicht-Auftrags wie im 02:31-Lauf desselben Zyklus bestaetigt
+gesaettigt (keine pending Tasks, Synobsis Stufe 2 fertig, keine faellige Trainingslektion,
+Fristen-Register ohne neuen Punkt). Auf Prioritaet 6 ausgewichen (wissenscheck Phase 1,
+aelteste Audit-Gruppe 03.08.2026): `claude-code` gewaehlt, weil seit dem letzten
+Sammel-Audit zwei Artikel gewachsen sind (`kontext-architektur.md`, `methoden-register.md`)
+und noch kein eigener Health-Check-Report existierte (Erst-Audit dieser KB).
+
+Ergebnis A0 · B0 · C1 · D0 · E0 · F1 · G0:
+- **[BEFUND, gross] Audit F — praktisch die gesamte KB (CLAUDE.md, INDEX.md, alle vier
+  Wiki-Artikel, QUESTIONS.md, `raw/_INGESTED.md`) schreibt Umlaute konsequent als
+  ASCII-Ersatz (ae/oe/ue), nicht als echte ä/ö/ü.** Byte-verifiziert (grep auf UTF-8-Umlaut-
+  Sequenzen): 0 Treffer in acht von neun Dateien, nur `CHANGELOG.md` nutzt echte Umlaute.
+  Widerspricht der eigenen KB-Regel und der hub-weiten Rule `umlaute-konvention.md`
+  (Vorrang-Klausel). Kein Encoding-Problem (Dateityp bestaetigt UTF-8, `baurecht`-KB als
+  Vergleich zeigt echte Umlaute in dreistelliger Zahl je Artikel) — vermutlich Drift aus
+  den fruehen, schnellen Destillations-Laeufen direkt nach der Lecture vom 29.07.2026.
+  **Nicht selbst korrigiert** (Phase 2 laeuft unbeaufsichtigt nicht, Blind-Replace ueber
+  ~40 KB ohne Sichtkontrolle riskant) — Empfehlung: interaktiver Lauf oder `korrektur`
+  je Datei.
+- **[BEFUND] Audit C — `kontext-architektur.md` nennt veraltete Riegel-Zahlen.** Artikel
+  (Stand 06.08.2026) behauptet `MAX_AUTO_BYTES = 30'000` / `WARN_AUTO_BYTES = 24'000`;
+  tatsaechlich seit 18.08.2026 (Commit `42ced312`, Entscheid Raphael) `34'000` / `30'000`.
+  Nebenbefund unverifiziert: `rules/jans-dna-facetten.md` liegt aktuell bei 35'226 B, ueber
+  dem neuen Riegel — ob Frontmatter-Differenz oder echte Ueberschreitung, gehoert in die
+  Zustaendigkeit der KB `twin`, hier nur vermerkt.
+- **[sauber] Audit A/B/D/E/G ohne Befund:** keine Widersprueche, keine kaputten Backlinks
+  oder Orphans (inkl. Cross-KB-Link zu `spec/wiki/environment-jans-hub.md`, geprueft und
+  intakt), RAW-Coverage vollstaendig, kein Artikel ueber der 90-Tage-Staleness-Schwelle,
+  keine Promotion-Kandidaten (alle vier Artikel bereits `established`). QUESTIONS-Punkt 1
+  (Automatik `schutzmechanik-selbsttest.sh` in den heartbeat?) weiterhin unveraendert offen,
+  Entscheid bleibt bei Raphael — gegengeprueft, keine Drift seit 13.08.2026.
+
+Report: `wissen/claude-code/outputs/2026-08-22_health-check.md`. Keine Ordnerumbenennung,
+kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses
+Nachtschicht-Zyklus bis hierhin: rund 2 von 5 USD (Prioritaeten-1-5-Vorpruefung + dieser Audit).
+
 ## 2026-08-13 (methoden-radar, Lauf 02:11 aus dem Nachhol-Sturm) — Rotation `260725 Archetypen`: Aufsicht nie verdrahtet
 
 - **[kein Delta] Vorfilter Exit 0**, 8 Ordner unveraendert — Verifikations-Rotation statt
