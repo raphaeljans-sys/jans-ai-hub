@@ -3,6 +3,121 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 22.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET (Regellauf)
+
+Signale vollständig eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, der
+Radar-Abschnitt 06:55 im heutigen Datumsblock (vollständig vorhanden, Grundlage dieses Briefings),
+das Konversations-Destillat 22.08., `mail-vorfilter.sh 26` über alle Konten, bexio `--verzug` samt
+neuer Gegenprobe am Aussteller, der Outlook-Kalender über acht Tage, Entwurfs- und
+Gesendet-Ordner, Lauf-Journal, Sync- und Remote-Queues sowie `services/KATALOG.md`. Das
+mechanische Einsammeln lief über einen Haiku-Subagenten, Urteil und Entscheid blieben im
+Hauptkontext (Rule `modellwahl-routine`).
+
+**Vermerk zum Meldekanal:** Der Radar-Abschnitt liegt vollständig vor. **Ein AG-Gründungs-Abschnitt
+fehlt den vierten Tag in Folge**; der gestern korrigierte Modell-ID-Fix in der Frontmatter des
+`ag-gruendung-monitor` hat den Lauf bis heute nicht wieder in Gang gebracht. Ein
+Verzugscheck-Abschnitt fehlt heute ebenfalls, was bei durchgehendem HTTP 401 folgerichtig ist.
+
+**Zwei Subagenten-Befunde im Lauf gegengeprüft und widerlegt** (Rule `auto-verbesserungen` 260729b).
+Erstens meldete der Sammel-Subagent «kein neuer Eintrag im Lauf-Journal für heute» — tatsächlich
+führt `logbuch/laeufe/260822-laeufe.jsonl` zwei Mini-Läufe (02:38 und 05:38, beide rc=0). Zweitens
+meldete er den M365-Connector als «nicht vorhanden»; er heisst `m365-graph.mjs` und liegt am
+üblichen Ort. Beide Male hätte die Übernahme ein Loch ins Lagebild gerissen.
+
+**Ausgeführte Aktionen (A3, Ablage).** Das Factsheet `260821-2619-Bodenbelag-Index-FB50-FB51.pdf`
+ist um 08:42 in die für alle Projektbeteiligten sichtbare Bibliothek gespiegelt
+(`JANS - 2619-KISPI - Dokumente/2 Umbauprojekt Neu PPTS/33.04 BKP/LOS_281.00 Bodenbeläge
+Grundlagen/JANS Factsheet/`), ohne die MD-Datei, Grössenvergleich Quelle gegen Ziel identisch
+(52'216 Bytes), `cp -n`, nichts überschrieben. **Der Radar-Befund dazu war zu pauschal:** Raphael
+hatte gestern zwischen 16:00 und 17:45 bereits selbst gespiegelt (Adressblatt, Materialisierung,
+Bodenaufbauten, Fotos, ARCH-Pläne); nur dieses eine Factsheet fehlte. Nebenbefund für die
+Ablage-Regel: der gelebte Spiegel folgt einer eigenen Ordnerlogik (`KONTAKTE`, `ARCH Plan`,
+`JANS Factsheet`, `FOTOS`) statt dem Namensstamm-Spiegel der Rule, und die Dateinamen sind
+uneinheitlich. Im Briefing als Entscheid vorgelegt.
+
+**Ausgeführte Aktionen (A2, Kalender).** Ganztägiger Eintrag «Rueckbau Leichtbauwaende KISPI OG1 —
+Abschaltung Brandmeldeanlage» über Dienstag 25. und Mittwoch 26.08. im Kalender «Arbeit», Quelle
+und Vorarbeiterkontakt im Notizfeld. **Guard-Auslegung offengelegt:** A2 verlangt
+«Datum+Zeit+Teilnehmer»; eine Uhrzeit existiert nicht, weil es ein ganztägiges Bauablauf-Ereignis
+ist. Geraten wurde nichts. Die gestrige Verwerfung («Di/Mi ist kein eindeutiger Tag») war zu
+streng, der 25.08.2026 ist ein Dienstag und der 26.08. ein Mittwoch. Das Enddatum war im ersten
+Anlauf einen Tag zu weit gesetzt (macOS behandelt das Enddatum ganztägiger Events inklusiv) und
+wurde unmittelbar korrigiert; nachgemessen 25.08. 00:00 bis 26.08. 23:59.
+
+**Ausgeführte Aktionen (A4, Register).** Vier Nachträge in `logbuch/fristen.md`: Sitzungstakt der
+Koordinationssitzung an den Instanzen gemessen, Spiegelungs-Befund samt Ausführung, bexio-Ursache
+eingegrenzt, Kalendereintrag protokolliert. Register von 2818 auf 2876 Zeilen, Delta **+58/-0** —
+reines Einfügen, keine Löschung (Rule `auto-verbesserungen` 260811).
+
+**Ausgeführte Aktionen (Werkzeug-Register).** `connectors/WEGE.md` um den Nachtrag 22.08.2026
+ergänzt und die Kalender-Zeile der Fähigkeits-Matrix korrigiert (361 auf 393 Zeilen). Die
+Rangfolge stand falsch herum.
+
+**Fachlicher Befund des Tages: den Sitzungstakt an den Instanzen messen, nicht am Body.** Die
+Koordinationssitzung Gruner/JANS/KISPI läuft nachweislich **wöchentlich** — acht Instanzen, jeden
+Donnerstag 13:00 bis 14:00, vom 20.08. bis 08.10.2026. Der gestrige Registereintrag ist damit im
+Ergebnis bestätigt. **Der Begleittext widerspricht dem jedoch:** die Instanz vom 20.08. trägt «neu
+jeden Donnerstag», **jede spätere** trägt im selben Feld «im Zwei-Wochen-Rhythmus». Wer den Text
+liest statt den Kalender, plant jede zweite Sitzung weg — und an diesen Terminen hängen die
+Bringschulden von L. Hiltmann und M. Eren, die beide im Verteiler stehen.
+
+**Werkzeug-Befund, ins Register übernommen.** Der Kalender ist über `m365-graph.mjs` **nicht**
+lesbar: `/calendarView` antwortet **403**, der App-Registrierung fehlt `Calendars.Read`. Der
+Zertifikatsweg selbst ist intakt und trägt für SharePoint und Entra weiter. Tragfähig ist die
+MCP-Outlook-Suche `outlook_calendar_search`, die zusätzlich den Body der Einladung liefert — genau
+das Feld, an dem der Takt-Befund oben hing. Apple Calendar taugt hier nur zum Schreiben: auf dem
+MacBook Pro ist **kein Exchange-Konto** eingebunden, Teams-Einladungen sind dort unsichtbar.
+
+**Bewusst KEINE Aktion.** A1 nicht qualifiziert: bexio ist den 14. Kalendertag ohne Datengrundlage.
+Neu ist die Gegenprobe direkt am Aussteller (`auth.bexio.com/.../userinfo`), die ebenfalls **401**
+liefert — damit ist der Connector als Fehlerquelle ausgeschlossen und die Ursache auf die
+zurückgezogene Sitzung eingegrenzt. Der Token liefe erst am 13.12.2026 ab; Warten hilft nicht.
+Keine Buchung, keine Zahlung, kein Versand ausser dem Briefing. Nichts gelöscht.
+
+**Unverändert blockiert: der Jegen-Entwurf, sechster Tag.** Der gestern neu aufgesetzte Entwurf an
+L. Bajrami mit Frist **Montag 24.08.** liegt unverändert im Entwurfsordner (21.08. 08:47), in den
+Gesendeten erscheint er nicht. Da heute **Samstag** ist, bleiben ihm dieses Wochenende und ein
+Montagmorgen, sonst verfällt er wie sein Vorgänger. Der strukturelle Grund ist unverändert: die
+Prompt-Definition dieser Task steht auf Whitelist **v1** (A1-A5, kein Versand ausser A1), während
+die geltende Whitelist seit 09.08.2026 **v2** ist und mit **A7** genau diesen Versand deckt. Zum
+zweiten Mal im Briefing vorgelegt; Claude ändert die Zeile nicht selbst (Änderungen an den
+Schutzmechanismen sind der Whitelist entzogen).
+
+**Neu seit dem Radar.** Raphael hat heute **08:34** die Gartenmail von S. Tschopp an P. Weisser
+weitergeleitet, **ohne Begleittext**. Tschopp hat damit noch keine Antwort, und für Weisser ist
+ohne eine Zeile nicht erkennbar, was er tun soll. Die drei Fragen (Pflanzliste an die Gemeinde,
+Dachplatanen und Quittenbaum als Pflichtbäume, Vorgehen SBB) bleiben offen.
+
+**Lagebild, nur wo es über den Radar hinausgeht.** NAS-Volume 93 % (472 GiB frei), Systemplatte
+12 %. Sync-, Freigabe- und Remote-Queues leer, `remote-tasks/pending/` existiert nicht.
+Lauf-Journal heute: zwei Mini-Läufe der Nachtschicht (02:38 und 05:38), beide rc=0. Der
+NAS-Selfcommit läuft (Push 08:30 und 08:45 OK) und hat die Register-Änderung gesichert.
+
+**QS mit Gegenprüfung.** `korrektur` lief in beiden Spuren, beide Ampeln gelb. Der Agent
+`rechtschreibung` fand fünf harte Punkte, alle berechtigt und übernommen (viermal Grossschreibung
+nach Doppelpunkt vor vollständigem Satz, einmal Komma vor «und» in einfacher Aufzählung), dazu elf
+Stilpunkte, davon zehn übernommen. Der Agent `layout` fand elf Punkte, **neun übernommen** (langer
+Absatz mit vergrabener Bitte getrennt, Blocktitel aufs Label-Muster gekürzt, Namensformen auf
+Initial plus Nachname vereinheitlicht, Termin-Muster angeglichen, bexio-Absatz mit Anker versehen,
+Aufzählungsform vereinheitlicht, Bindestrich-Komposita mit Zahl umformuliert, «vierzehnten» auf
+«14.», Komma in der Anredezeile) und **zwei nicht** (Rule `auto-verbesserungen` 260729b):
+
+- **«C. Schaefer».** Beide Agenten hielten die ae-Schreibweise für prüfbedürftig. Der Kalender
+  belegt die Adresse `Cornelia.Schaefer@kispi.uzh.ch` — eine Mailadresse ist aber immer ASCII und
+  entscheidet die Eigenschreibweise **nicht**. Eigennamen werden nicht geraten und nicht
+  angetastet; unverändert gelassen.
+- **«Gruner, Jans und KISPI»** nur teilweise: das eigene Büro steht jetzt als «JANS» in Versalien,
+  «Gruner» bleibt im Sitzungsnamen ohne Rechtsform, weil das der Titel der Termininstanz ist.
+
+**Versand-Gegenprobe:** Briefing an rj@raphaeljans.ch, Absender rj@, Apple Mail über osascript,
+gesendet **09:02:39**. Body **8'616 Zeichen** in «Gesendete Elemente» nachgemessen, Postausgang
+leer (Kontrolle gegen den Leer-Draft-Fehler). Der erste Messversuch lief in einen
+osascript-Typfehler und meldete «nicht gefunden» — ein leeres Suchergebnis ist zuerst eine Aussage
+über das Werkzeug, nicht über die Quelle (Rule `wege-und-vollmachten`); die Gegenprobe über den
+Nachrichtenindex fand die Mail an Position 1.
+
+---
+
 ## Radar-Briefing 22.08.2026 (06:55) — für das Tagesbriefing des Hub-Chef
 
 **Erledigt seit gestern**
