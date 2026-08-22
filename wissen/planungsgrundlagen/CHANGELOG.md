@@ -2,6 +2,31 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-22 — Wissens-Chef Run 40 (Cross-KB): zwei VKF-Fassungs-Vorbehalte + Routing-Korrektur
+
+- `wiki/brandschutz-pl03-wegweiser.md` §5ag: **Fassungs-Vorbehalt** zur VKF-Erlaeuterung 108-15
+  gesetzt — der Abschnitt beschreibt die Fassung 01.01.2015, geltend ist 01.01.2020/Stand 01.08.2022;
+  namentlich ueberholt ist die Intervall-Aussage «durch die Brandschutzbehoerde festgelegt» (neu:
+  kodifiziertes Mindestraster nach Risikogruppe). Quelle
+  `wissen/normen/destillate/vkf-brl-108-15-fassung-2020-delta.md` (Run 59). **Zahlen bewusst nicht
+  uebernommen** — das Delta traegt `status: speculative` (Rule `normen-referenz` Ziff. 1b).
+- `wiki/brandschutz-pl03-wegweiser.md` Aenderungsliste 2015↔2017: die **Gesamthoehe am Flachdach** aus
+  der Aufzaehlung «durchgaengig redaktionelle Praezisierungen» herausgenommen und mit Vorbehalt
+  versehen; die Praxiskonsequenz «kein Korrekturbedarf an bestehenden Tabellen» auf die
+  **Tabellenwerte** eingegrenzt, mit ausdruecklicher Ausnahme fuer die Messweise, die in §4 die
+  Klassengrenzen 11 m / 30 m speist. Die §4-Schwellen selbst unangetastet.
+- `wiki/energie-pv-eignung-typenwahl.md`: **Rueckkante** zur KB `energie` gesetzt (Sunskin-Destillat
+  und PV-Spezialmodul-Datenblaetter, beide dieselbe Primaerquelle wie §1c bzw. die Typenzeilen 51/53).
+- `wiki/recht-norm-quellenlandkarte.md` Z. 394: Minergie-Routing zeigte noch auf «Skill
+  `planungsgrundlagen` (Energie)» — Stand vor der Verselbstaendigung des Skills `energie` am
+  03.08.2026. Auf `energie` korrigiert, amtlicher ZH-Nachweisweg ausdruecklich hier belassen.
+- `wiki/QUESTIONS.md`: Nachzug-Auftrag fuer beide Fassungs-Deltas eingetragen (materielle Uebernahme
+  erst, wenn die Destillate `established` sind — Arbeit der KB `normen`, nicht des Wartungslaufs).
+
+Alle Eingriffe gegen eine Sicherungskopie gemessen (Rule `auto-verbesserungen` 260811): QUESTIONS,
+Typenwahl und Quellenlandkarte-Tabellenzelle ohne unbeabsichtigte Loeschung; im Wegweiser genau die
+sechs ersetzten Zeilen, Inhalt in den neuen Fassungen erhalten.
+
 ## 2026-08-21 (Wissens-Chef Run 39, Cross-KB) — ein Zuercher Gesetz stand in der Bundeserlass-Tabelle
 
 - **`wiki/recht-norm-quellenlandkarte.md` Z. 68 berichtigt.** Die Datei `730.1_19.6.83_*` stand unter

@@ -3,6 +3,54 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-22 — Wissens-Chef Run 40 (Abendlauf)
+
+**Zuschnitt:** 5 Melder (`model: sonnet`) + 8 Refuter (Hauptmodell) = 13 Agenten, 2'331'133 Token,
+209 Werkzeugaufrufe, 7,9 Min, 0 Fehler. Uhr-Kontrolle bestanden (Station 23:12 CEST gegen
+Synology-Selfcommit 23:00:02, 15-Min-Takt konsistent). Delta 106 Commits seit Run 39.
+
+**Neun Befunde gemeldet, acht adversarisch geprueft, sechs bestaetigt, zwei widerlegt.** Dazu zwei
+eigene Funde im Hauptkontext.
+
+- **Der VKF-Fassungs-Sweep hatte einen zweiten, groesseren Abnehmer, den niemand angefasst hatte.**
+  Synergie-Lauf 15 propagierte die Deltas des Normen-Laufs 59 nach `skills/brandschutz`; der
+  **Brandschutz-Wegweiser der KB `planungsgrundlagen`** (2'200 Zeilen, `established`) fuehrt sie
+  weiterhin im Stand 2015. Zwei Stellen: die Pruefintervalle der integralen Tests (Behoerden-Ermessen
+  statt kodifiziertem Risikogruppen-Raster) und die Messweise der Gesamthoehe am Flachdach, die dort
+  ausdruecklich als «redaktionell, kein Korrekturbedarf» eingestuft ist, waehrend `normen` sie die
+  folgenreichste Aenderung des Glossars nennt. Beide mit Fassungs-Vorbehalt versehen.
+- **Der Refuter hat die Korrektur schaerfer gemacht als der Melder.** Der Melder wollte die
+  Risikogruppen-Zahlen (2/4/6 Jahre) einsetzen — abgelehnt, weil das Delta-Destillat
+  `status: speculative` traegt und nach Rule `normen-referenz` Ziff. 1b eine **Warnkarte, keine
+  Zitierquelle** ist. Gesetzt wurde nur der Vorbehalt. Ein zweiter Refuter verhinderte einen toten
+  Backlink (Kurzform `[[..]]` statt Vollpfad ueber KB-Grenzen).
+- **Dieselbe Quelle zweimal destilliert, viertes und fuenftes Vorkommen des Run-34-Musters:**
+  SI-Saphir/Megasol-Datenblaetter und die Eternit-Sunskin-Dokumentation liegen je zweimal im Hub,
+  in `energie` und `planungsgrundlagen`, mit deckungsgleichen Zahlen und ohne jede Kante. Beidseitig
+  verdrahtet.
+- **Eine Fassungsfrage, die als «geklaert» galt, ist es seit dem 20.08. nicht mehr.**
+  `bauprodukte/wiki/bkp-261-aufzuege.md` protokollierte am 31.07. die VKF-BRL-23-15-Fassungsfrage als
+  geklaert; der Sweep Run 58 stufte das zugrunde liegende normen-Destillat drei Wochen spaeter auf
+  `superseded` mit Zitierverbot herab. Vorbehalt gesetzt, der alte Befund als datierter Stand belassen.
+- **Eigener Fund: die Anrede-Rule hat eine zweite Klausel mit Gegenbeleg.** Strukturgleich zur
+  Nivellier-Klausel aus Run 39 (**E1**, weiterhin offen): die Treffen-/Kanalwechsel-Klausel bekam am
+  22.08. einen Gegenbeleg aus dem Fidelity-Review, der ihr einen von drei Anrede-Fehlgriffen anlastet.
+  Die eigene Gegenprobe verwarf dabei die naheliegende Erklaerung «Fachplaner gegen Unternehmer» —
+  der Korpus fuehrt Stadelmann selbst als Fachperson; die Trennlinie laeuft zwischen
+  **Waermestufe heben** und **Register wechseln**. Annotiert, Wortlaut unangetastet (**E1b**).
+- **Uebergabe-Auftrag 1 aus Run 39 eingeloest — mit Ertrag.** Von sieben fortgeschriebenen offenen
+  Punkten waren **zwei ueberholt** (`skills/ausschreibung` Z. 109-113 ist vollstaendig und korrekt;
+  das Solaranlagen-«Doppel-Destillat» ist kein Cross-KB-Fall mehr, sondern eine Doppelung **innerhalb**
+  von `normen`). Die Quote entspricht der von Run 39 gemessenen — der Nachmess-Schritt bleibt noetig.
+- **Zwei Befunde widerlegt**, beide haetten gesunde Dateien getroffen bzw. einen dreifach
+  fortgeschriebenen Punkt ein viertes Mal aufgewaermt.
+
+Sieben Aktionen gesetzt, jede gegen eine Sicherungskopie gemessen: fuenf rein additiv (**-0**),
+zwei Ersetzungen mit exakt den beabsichtigten Zeilen.
+
+Bericht: `outputs/2026-08-22_wissens-chef-run40.md`. Keine Mail (stiller Lauf,
+Rule `auto-verbesserungen` 260803).
+
 ## 2026-08-22 — Synergie-Lauf 15 (taeglich)
 
 **Delta-Basis** 21.08.2026 17:10, Fenster 24,0 Stunden, **105 Commits**. Uhr-Kontrolle bestanden

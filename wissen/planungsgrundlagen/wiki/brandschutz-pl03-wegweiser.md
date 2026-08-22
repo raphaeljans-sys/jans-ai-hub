@@ -1953,9 +1953,16 @@ volltextbelegt: die **Zahlenwerte/Schwellen bleiben unverändert** (Brandschutza
 bzw. 4/5/6 m, Fluchtweg-Kernzahlen, QSS-Tabelle strukturell gleich); die Änderungen 2017 sind
 durchgängig **redaktionelle Präzisierungen**:
 - neue/präzisierte **Begriffe**: Dachkonstruktion (von Bedachung getrennt), Einliegerwohnung,
-  Galerie (neu definiert), Gesamthöhe bei Flachdächern präzisiert («um die Dachfläche
-  beziehungsweise um den Dachflächenbereich über dem tiefst gelegenen Teil des massgebenden
-  Terrains» statt nur «um den Dachrand»);
+  Galerie (neu definiert);
+- ⚠ **Gesamthöhe bei Flachdächern — nicht bloss redaktionell** (eingegrenzt 22.08.2026,
+  Wissens-Chef Run 40). Der Messpunkt wechselt vom **Dachrand** auf «die Dachfläche
+  beziehungsweise den Dachflächenbereich über dem tiefst gelegenen Teil des massgebenden
+  Terrains». Die KB `normen` führt diese Änderung als Wechsel der **Messregel**, die am Hang und
+  bei hoher Attika die Zuordnung zu geringer Höhe / mittlerer Höhe / Hochhaus verschieben kann:
+  `wissen/normen/destillate/vkf-brl-10-15-fassung-2019-delta.md` (⚠ dort `status: speculative`,
+  vor Verwendung am Original gegenlesen). Die **Zahlenwerte** der Tabellen unten ändern sich
+  dadurch nicht, wohl aber die Grösse, die in sie eingesetzt wird. Nicht mit der baurechtlichen
+  Gesamthöhe verwechseln (Skill `massgebendes-terrain`);
 - **Nutzungseinheit:** Verschärfung von «sollen» auf **«müssen»** — Fluchtwege-relevante Räume
   innerhalb einer Nutzungseinheit müssen den Nutzern zwingend frei zugänglich sein (2015 nur
   Empfehlung, 2017 Pflicht);
@@ -1965,9 +1972,11 @@ durchgängig **redaktionelle Präzisierungen**:
   QSS-Tabelle 2017 führt die Zeile «Brandschutzfachmann VKF» neu separat von «QS Verantwortlicher
   Brandschutz» (2015 zusammengefasst).
 
-**Praxiskonsequenz für JANS:** der bestehende KB-Stand («2017 identisch in der Sache») bleibt für
-alle bereits dokumentierten Kernzahlen (§3/§4/§4b) **bestätigt** — kein Korrekturbedarf an
-bestehenden Tabellen. Bei Detailfragen zur exakten Wortlaut-Differenz 2015↔2017 (z. B. cr-Anwendung
+**Praxiskonsequenz für JANS:** die **Zahlenwerte** der bereits dokumentierten Kernzahlen
+(§3/§4/§4b) bleiben **bestätigt** — kein Korrekturbedarf an den Tabellenwerten.
+**Ausgenommen ist die Messweise der Gesamthöhe am Flachdach** (siehe Vorbehalt oben): sie speist
+die Klassengrenzen in §4 (bis 11 m / 11–30 m) und ist bei Hanglage oder hoher Attika je Objekt
+neu zu prüfen (eingegrenzt 22.08.2026, Wissens-Chef Run 40). Bei Detailfragen zur exakten Wortlaut-Differenz 2015↔2017 (z. B. cr-Anwendung
 bei Fassadenbekleidungen) liegt die Volltext-Quelle jetzt referenzierbar vor (Skill `brandschutz`
 für die Anwendung im Einzelfall).
 
@@ -2147,6 +2156,18 @@ Aufstockungen, Nebenbauten, kleine Gewerbebauten) als schlankeres Prüfregime ge
 Standardfall.
 
 ## 5ag · Betriebsbereitschaft von Brandfallsteuerungen (BFS) — VKF-Erläuterung 108-15de (Run 42, 2026-07-14)
+
+> ⚠ **Fassungs-Vorbehalt (nachgetragen 22.08.2026, Wissens-Chef Run 40).** Dieser Abschnitt
+> beschreibt die Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2020 / Stand 01.08.2022**.
+> **Namentlich überholt ist die Intervall-Aussage im Punkt «Betriebsphase» weiter unten:** das
+> Intervall der periodischen integralen Tests ist kein Ermessensentscheid der Brandschutzbehörde
+> mehr, sondern ein kodifiziertes Mindestraster nach Risikogruppe. Ebenfalls neu geregelt sind
+> Fernzugriff, Rückstellung, Anlageverantwortlicher sowie die Bewilligungspflicht für Stilllegung
+> und Rückbau. **Vor jeder Verwendung in Wartungsvertrag, Pflichtenheft oder Bauleitungs-Abnahme
+> die geltenden Werte aus der KB `normen` ziehen:**
+> `wissen/normen/destillate/vkf-brl-108-15-fassung-2020-delta.md` (Stand 22.08.2026
+> `status: speculative` — vor der Übernahme in ein Erzeugnis am Original gegenlesen, Rule
+> `normen-referenz` Ziff. 1b). Fundstelle und Fassungsstand führt `normen`, nicht dieser Wegweiser.
 
 Brandschutzerläuterung «Gewährleistung der Betriebsbereitschaft von Brandfallsteuerungen» (Stand
 01.01.2015, Kernteil 11 S. gelesen) — präzisiert, wie technische Brandschutzeinrichtungen

@@ -107,6 +107,16 @@ in einer frühen Studie oft übersehen werden, weil sie nicht in der Flächenlei
   Abrutschen von Schnee (Personenschutz) konstruktiv Rechnung zu tragen — Querbezug zu den
   Absturzsicherungs-Grundsätzen in `[[recht-norm-arbeitshilfen-planungsdetails]]` §3.
 
+> **Rückkante KB `energie` (führend für PV-Technologie):** Die Eckwerte dieses Abschnitts stammen
+> aus derselben Eternit-Dokumentation «Planung + Ausführung — Solarsystem Sunskin roof»
+> (Rev. 01.2022/web), die `energie` seit 19.06.2026 als
+> `wissen/energie/destillate/sunskin-roof-indach-planung.md` führt (am 21.08.2026 um S. 17,
+> Latteneinteilung, erweitert). Die Zahlen sind deckungsgleich; bei Abweichung geht das
+> energie-Destillat vor. Ebenso stehen die beiden Module der Typentabelle oben (SI-Saphir Typ C,
+> Megasol Typ A/E) vollständig in
+> `wissen/energie/destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md`.
+> Kante gesetzt 22.08.2026, Wissens-Chef Run 40.
+
 Diese Planungsgrenzwerte gelten spezifisch für das Sunskin-System, sind aber als **Grössenordnung
 für dachintegrierte Systeme generell** (10–60° Dachneigungsbereich, Hinterlüftung als Pflicht,
 Schneelast-Bezugshöhen-Abhängigkeit) übertragbar. Status: `established` (Hersteller-Fachdoku,

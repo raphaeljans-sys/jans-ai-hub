@@ -161,7 +161,14 @@ zwischen den Herstellern:
   **Verweis nachgetragen (Wissens-Chef Run 21, 30.07.2026):** Führend ist die KB
   `normen`. Die massgeblichen Anforderungen an Schacht, Türen, Kabine und
   Brandfallsteuerung stehen in [[vkf-brl-23-15-befoerderungsanlagen]] (VKF-BRL 23-15,
-  in Kraft seit 01.01.2015). **Fassungsfrage geklärt (31.07.2026):** die Teilrevision 2017
+  in Kraft seit 01.01.2015).
+  ⚠ **Fassungsvorbehalt (nachgetragen 22.08.2026, Wissens-Chef Run 40):** die KB `normen` hat
+  ihr Destillat `vkf-brl-23-15-befoerderungsanlagen` am 20.08.2026 im Fassungs-Sweep Run 58 auf
+  `status: superseded` herabgestuft — es bildet die Fassung 01.01.2015 ab, geltend ist die Fassung
+  01.01.2017, deren Delta **nicht destilliert** ist. **Nicht als geltende Fundstelle zitieren**;
+  offener Posten `wissen/normen/wiki/QUESTIONS.md` N58-1. Der Befund unten bleibt als Stand
+  31.07.2026 stehen, ist aber gegen die geltende Fassung ungeprüft.
+  **Fassungsfrage geklärt (Stand 31.07.2026, siehe Vorbehalt):** die Teilrevision 2017
   ([[vkf-brl-aenderungen-2017]]) ändert Ziff. 3.6 Abs. 2 materiell, Ziff. 5.1 dagegen nur
   kosmetisch (RF3 → RF3 (cr), keine inhaltliche Änderung). **Einschlägig wird die Neuerung
   bei der Einzel-Untergeschoss-Erschliessung** (z. B. Kellerabteil-/Lagerzugang); Wortlaut,

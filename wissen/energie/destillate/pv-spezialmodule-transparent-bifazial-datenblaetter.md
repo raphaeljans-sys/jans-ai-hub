@@ -110,6 +110,13 @@ sind reine Moduldatenblätter (kein Montagesystem), fachlich durch den gemeinsam
   Destillat ohne Verweis auf das jeweilige Datenblatt weiterverwenden — beide Hersteller behalten sich
   technische Änderungen ausdrücklich vor.
 
+> **Querbezug KB `planungsgrundlagen` (Typenwahl/Beschaffung):** Beide Module stehen dort als
+> Zeile im PV-Typenvergleich — `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md`
+> (SI-Saphir als Typ C «Transparent», Megasol als Typ A/E «Standard bifazial»), mit denselben
+> Datenblättern als Quelle. Dort steht die Einordnung in den Typenvergleich und die
+> Flächenleistung je Typ; hier stehen die vollständigen Modul-Kennwerte. Kante gesetzt
+> 22.08.2026, Wissens-Chef Run 40.
+
 ## Offene Punkte
 - SI-Saphir: **kein aktuelles Datenblatt vorhanden** (Stand 2015); vor Ausschreibung/Empfehlung prüfen,
   ob SI Module GmbH eine Nachfolgegeneration führt und ob die DIBt-Zulassung Z-70.3-204 noch gültig ist.

@@ -391,7 +391,7 @@ es zieht** (belegt aus dem Ordner, Stand 2026-06-20):
 | `BfU` | Bodenbeläge/Rutschsicherheit, Geländer & Brüstungen (2019), Glas in der Architektur, Sicherheit im Wohnungsbau, Treppen, Türen & Tore | **Absturz-/Rutsch-/Glassicherheit** im Entwurf & in der Baueingabe; Brüstungshöhen, Treppen, Geländer |
 | `_Stadt Zürich` | Absturzsicherungen Richtlinie 1.3.15 / 1.6.13, `RFB_Flaechenerfassung`, `UGZ_Merkblaetter` (Merkblatt Toiletten) | Stadt-ZH-Baueingabe: Absturzsicherung-Richtwerte, **RFB-Flächenerfassung** (anrechenbare Flächen Stadt ZH), UGZ-Merkblätter |
 | `_Kanton Zürich` | `AWEL`, Wintergarten_Recht_ZH-2009 | AWEL = Gewässer/Umwelt/Energie-Vollzug ZH; Wintergarten-Anrechnung |
-| `Minergie` | Energiegesetz, Merkblätter, Nachweisformulare, SIA 380/1, Tools, Vergleich | Minergie-Zertifizierung / Energiekonzept → Querbezug Energie-KB & Skill `planungsgrundlagen` (Energie) |
+| `Minergie` | Energiegesetz, Merkblätter, Nachweisformulare, SIA 380/1, Tools, Vergleich | Minergie-Zertifizierung / Energiekonzept → Skill `energie` (KB `wissen/energie`, eigenstaendig seit 03.08.2026); der amtliche ZH-Nachweisweg (EVEN, EN-Formulare, u.a. EN-101b) bleibt bei `planungsgrundlagen` (korrigiert 22.08.2026, Wissens-Chef Run 40) |
 | `GVZ` | KFPM30 (MFH nicht brennbar), Ausbau Grossraumbüro, RWA Parkhaus | **Brandschutz ZH (GVZ-Kennziffern)** → Skill `brandschutz` (kein Doppel) |
 | `2000 Watt` | Weissbuch, Modul Wand/Dach (XLS) | 2000-Watt-/Nachhaltigkeitsvorgaben (Stadt-ZH-Arealentwicklung) |
 | `Lignum Brandschutz` | Holzbau-Brandschutz | Holzbau → Skill `brandschutz` |

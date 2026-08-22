@@ -44,6 +44,16 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   Klausel ist **noch nicht durch Raphael bestaetigt** (`wissen/twin/wiki/QUESTIONS.md` 260821
   #1) und gilt bis dahin als Hinweis, nicht als Regel — im Zweifel die belegte Zeile der
   Tabelle.
+  ⚠ **Gegenbeleg 22.08.2026 (Fidelity-Review, Fenster 22.07.2026):** Othmar Stadelmann
+  (Estermann, Brandschutz-Fachperson) bleibt am 22.07.2026 18:40 **nach einem Telefonat** bei
+  «Geschätzter Herr Stadelmann» — Sie, mit Nachname; der Review führt auf diese Klausel einen
+  von drei Anrede-Fehlgriffen zurück. Die Belege trennen zwei Bewegungen, welche die Klausel
+  zusammenfasst: ein persönlicher Kontakt hebt die **Wärmestufe innerhalb** eines Registers
+  (Stadelmann selbst, 18.05.2026, kalt → «Geschätzter Herr»), er erzwingt aber **keinen Wechsel
+  Sie → Du** — den zeigen Eren und Hiltmann, Stadelmann nicht. Bis zum Entscheid Raphaels gilt
+  darum: den belegten Opener desselben Kontakts halten. Belege:
+  `wissen/twin/wiki/QUESTIONS.md` 260822b #1, `wissen/twin/wiki/beziehungsregister.md` Z. 445
+  und 1248. Nachgetragen vom Wissens-Chef Run 40.
 
 ## Kontaktliste
 

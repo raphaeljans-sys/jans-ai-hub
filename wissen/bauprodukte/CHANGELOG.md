@@ -1,5 +1,20 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-22 — Wissens-Chef Run 40 (Cross-KB): Fassungsvorbehalt VKF-BRL 23-15
+
+- `wiki/bkp-261-aufzuege.md` (Abschnitt Brandschutz): Der Vermerk «Fassungsfrage geklärt (31.07.2026)»
+  bekam einen **Fassungsvorbehalt**. Die fuehrende KB `normen` hat ihr Destillat
+  `vkf-brl-23-15-befoerderungsanlagen` am 20.08.2026 im Sweep Run 58 auf `status: superseded`
+  herabgestuft (geltend ist die Fassung 01.01.2017, deren Delta nicht destilliert ist) und mit
+  «Nicht als geltende Fundstelle zitieren» versehen; offener Posten `normen/wiki/QUESTIONS.md` N58-1.
+  Der Befund vom 31.07. bleibt als **datierter Stand** stehen, statt geloescht zu werden — er war
+  gegen die damals gefuehrte Fassung korrekt.
+- Gemessen: genau eine ersetzte Zeile, Inhalt erhalten.
+- **Offen (Uebergabe Run 41):** `wiki/cheminee-aufbau-hafnerarbeiten.md` verweist mehrfach auf die
+  «VKF-Zulassung» ohne Kante zu `normen`, wo die Erlaeuterung BRL 103-15 seit 31.08.2025 als
+  zurueckgezogen gefuehrt wird (Nachfolgeregelung offen, N58-2). Bewusst nicht gesetzt, solange die
+  Nachfolgeregelung unbekannt ist.
+
 ## 2026-08-20 (2)
 
 - Report `outputs/2026-08-20_wandmischer-laufen-citypro-cad-und-mesh-ableitung.md` angelegt:

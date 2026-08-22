@@ -1,5 +1,22 @@
 # CHANGELOG
 
+## 2026-08-22 — Wissens-Chef Run 40 (Cross-KB): zwei Kanten nach `planungsgrundlagen`
+
+Zwei Doppelspurigkeiten bestaetigt und beidseitig verdrahtet — in beiden Faellen destillierten beide
+KBs unabhaengig **dieselbe Primaerquelle**, mit deckungsgleichen Zahlen und ohne jede Kante (viertes
+und fuenftes Vorkommen des Musters, das die AHB-Zeile in `koordination/QUERBEZUEGE.md` seit Run 34
+beschreibt):
+
+- `destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md` (21.08.2026, Run 149) ↔
+  `planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md` Z. 51/53 (13./14.07.2026) — SI-Saphir
+  M175-M180 und Megasol M385-HC120-b, dieselben zwei Datenblaetter.
+- `destillate/sunskin-roof-indach-planung.md` (19.06.2026, am 21.08. um S. 17 erweitert) ↔ derselbe
+  pg-Artikel §1c (14.07.2026) — Eternit «Sunskin roof», Rev. 01.2022/web.
+
+Querbezug-Bloecke als **Vollpfad** gesetzt, nicht als `[[kurzform]]`: die Kurzform loest innerhalb der
+eigenen KB auf und haette einen toten Backlink erzeugt (Refuter-Befund). Fuehrung unveraendert —
+PV-Technologie hier, Typenvergleich/Beschaffung dort. Rein additiv, 0 geloeschte Zeilen.
+
 ## 2026-08-21 (Nachtschicht Mac Mini, 23:30-Zyklus) — E-R148-3 geschlossen: Prozent-Auswertung Baustellenkontrolle 2005 im Skill `unternehmerkontrolle` verankert
 
 Priorität 4 (Trainingslektion) war heute bereits gesättigt (bauprodukte/grobkosten erledigt,

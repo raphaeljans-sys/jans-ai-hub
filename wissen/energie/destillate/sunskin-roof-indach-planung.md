@@ -77,6 +77,13 @@ Bei exponierten Lagen / Uebergangszonen mit erhoehten Sog-/Windkraeften: Ruecksp
 - Fundstelle: «Planung | Einteilung», Solarsystem Sunskin roof, S. 17, Rev. 01.2022/web (identische
   Ausgabe wie S. 1-14, keine neue Version).
 
+> **Querbezug KB `planungsgrundlagen`:** Dieselbe Eternit-Dokumentation ist dort in
+> `wissen/planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md` §1c ein zweites Mal
+> destilliert (Dachneigung 10–60°, Bezugshöhe 2'000 m, Hinterlüftung 60 mm — deckungsgleich).
+> Dort steht die Einordnung in den Typenvergleich und die Beschaffungssicht, hier die
+> vollständigen Planungseckwerte inkl. der Latteneinteilung von S. 17. Führend für die
+> PV-Technologie ist nach Fuehrungs-Matrix diese KB. Kante gesetzt 22.08.2026, Wissens-Chef Run 40.
+
 ## Offene Punkte
 - Konkrete **technische Moduldaten** (Wp/Modul, Wirkungsgrad, Garantie) im separaten Datenblatt
   «Sunskin roof-Module» (nicht in dieser Doku). Detailseiten Montageablauf/Konstruktionsdetail

@@ -16,6 +16,19 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Beide nicht von Hand nachbauen — die eingebauten Extraktions- und Messfallen sind teuer
 > erkauft (E18).
 
+> **Nachzug aus dem VKF-Fassungs-Sweep (Wissens-Chef Run 40, 22.08.2026):** In
+> `wiki/brandschutz-pl03-wegweiser.md` sind zwei Fassungs-Vorbehalte gesetzt, aber **materiell
+> nicht nachgezogen** — beide Delta-Destillate tragen `status: speculative` und sind nach Rule
+> `normen-referenz` Ziff. 1b nicht ohne Gegenlesen zitierfähig.
+> (1) **BSE 108-15** §5ag: das Intervall der integralen Tests ist seit Fassung 2020/2022 ein
+> kodifiziertes Mindestraster nach Risikogruppe statt eines Behörden-Ermessens — Werte aus
+> `wissen/normen/destillate/vkf-brl-108-15-fassung-2020-delta.md` einsetzen, **sobald** dieses
+> `established` ist. (2) **BRL 10-15** Glossar: die Messweise der Gesamthöhe am Flachdach wechselt
+> vom Dachrand auf die Dachfläche über dem tiefstgelegenen Terrain und kann die Höhenklassen in
+> §4 verschieben — Quelle `wissen/normen/destillate/vkf-brl-10-15-fassung-2019-delta.md`.
+> Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
+> allein im Laufbericht verpufft.
+
 ## A — Kartenportale
 - [ ] **K68 (Wissens-Chef Run 25, 2026-08-04) — Genehmigung und Inkrafttreten der revBZO Thalwil:
   die Pendenz liegt in `baurecht`, den maschinellen Prüfweg führt diese KB.** Die KB `baurecht`

@@ -169,6 +169,82 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 
 ## Gepruefte Paare
 
+### normen ↔ planungsgrundlagen (VKF-Fassungs-Sweep Run 58/59) — der Wegweiser fuehrt zwei ueberholte Staende — geprueft 2026-08-22 (Run 40)
+
+**Status:** zwei Befunde bestaetigt und mit Fassungs-Vorbehalt versehen; Zahlen bewusst NICHT
+uebernommen (beide Delta-Destillate tragen `status: speculative`).
+
+- **BSE 108-15, Pruefintervalle der integralen Tests.** `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md`
+  §5ag (angelegt Run 42, 14.07.2026, Artikel `established`) gibt die Fassung 01.01.2015 wortgleich als
+  geltend wieder: «Intervall durch die Brandschutzbehoerde festgelegt». Nach
+  `normen/destillate/vkf-brl-108-15-fassung-2020-delta.md` (Run 59, 22.08.2026) ist genau diese
+  Ermessensregel durch ein **kodifiziertes Mindestraster nach Risikogruppe** ersetzt. Fassungs-Vorbehalt
+  gesetzt; die Zahlen bleiben draussen, bis das Delta `established` ist (Rule `normen-referenz` Ziff. 1b).
+- **BRL 10-15, Gesamthoehe am Flachdach.** Derselbe Artikel fuehrt den Wechsel des Messpunkts
+  (Dachrand → Dachflaeche ueber dem tiefstgelegenen Terrain) in der Aufzaehlung «durchgaengig
+  **redaktionelle** Praezisierungen» und schliesst mit «kein Korrekturbedarf an bestehenden Tabellen».
+  `normen/destillate/vkf-brl-10-15-fassung-2019-delta.md` nennt dieselbe Aenderung «die folgenreichste
+  Einzelaenderung dieses Glossars», weil sie die Zuordnung zu geringer/mittlerer Hoehe/Hochhaus
+  verschieben kann. **Aufloesung (Hauptkontext-Gegenprobe):** beide Seiten haben in ihrem Sinn recht —
+  die **Tabellenwerte** aendern sich nicht, wohl aber die **Groesse, die in sie eingesetzt wird**;
+  §4 desselben Artikels (Z. 486-488) knuepft die reduzierten Brandschutzabstaende genau an die
+  Schwellen 11 m / 30 m. Der pauschale Satz ist eingegrenzt, die Kante gesetzt, die §4-Schwellen
+  unangetastet.
+- **Nachzug protokolliert** in `planungsgrundlagen/wiki/QUESTIONS.md`, damit die Uebergabe nicht
+  allein im Laufbericht steht (Rule `auto-verbesserungen` 260805).
+
+### energie ↔ planungsgrundlagen (PV-Module und Sunskin) — dieselbe Quelle zweimal destilliert, ohne Kante — geprueft 2026-08-22 (Run 40)
+
+**Status:** zwei Doppelspurigkeiten bestaetigt, beidseitig verdrahtet; keine Zahlenaenderung.
+
+Dritter und vierter Fundort desselben Musters wie die AHB-Zeile aus Run 34: **zwei KBs destillieren
+unabhaengig dieselbe Primaerquelle und wissen nichts voneinander.**
+- **SI-Saphir M175-M180 + Megasol M385-HC120-b:** `planungsgrundlagen/wiki/energie-pv-eignung-typenwahl.md`
+  Z. 51/53 seit 13./14.07.2026 als Typenzeilen, `energie/destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md`
+  am 21.08.2026 (Run 149) nochmals vollstaendig aus denselben Datenblaettern. Zahlen deckungsgleich.
+- **Eternit «Sunskin roof», Rev. 01.2022/web:** `energie/destillate/sunskin-roof-indach-planung.md`
+  (19.06.2026, am 21.08. um S. 17 erweitert) und `planungsgrundlagen/…/energie-pv-eignung-typenwahl.md`
+  §1c (14.07.2026, `established`). Dieselben Eckwerte 10-60°, 2'000 m, 60 mm.
+- **Kantenform:** ueber KB-Grenzen hinweg **Vollpfad im Querbezug-Block**, nicht `[[kurzform]]` — die
+  Kurzform loest innerhalb der eigenen KB auf und haette einen toten Backlink erzeugt (Refuter-Befund).
+- Fuehrung unveraendert: PV-Technologie bei `energie`, Typenvergleich/Beschaffung bei `planungsgrundlagen`.
+
+### bauprodukte ↔ normen (Rotationspaar, seit Run 34 nicht mehr an der Reihe) — geprueft 2026-08-22 (Run 40)
+
+**Status:** ein Befund bestaetigt und korrigiert, einer als weich stehen gelassen.
+
+- **BKP 261 Aufzuege.** `bauprodukte/wiki/bkp-261-aufzuege.md` Z. 163 fuehrte seit dem 31.07.2026
+  «**Fassungsfrage geklärt**» zur VKF-BRL 23-15. Der Fassungs-Sweep der KB `normen` (Run 58,
+  20.08.2026 — also **nach** dem letzten bauprodukte-Update) hat das zugrunde liegende Destillat auf
+  `status: superseded` herabgestuft, mit ausdruecklichem «Nicht als geltende Fundstelle zitieren»
+  (geltend ist 01.01.2017, Delta nicht destilliert, offener Posten N58-1). Fassungsvorbehalt gesetzt;
+  der Befund vom 31.07. bleibt als datierter Stand stehen, statt geloescht zu werden.
+- **Praezisierung des Refuters:** zu korrigieren war der **eigene Fassungsvermerk**, nicht das Wort
+  «geklaert» — dieses steht identisch in der fuehrenden KB und waere dort mitzukorrigieren.
+- **Weich, nicht gesetzt:** `bauprodukte/wiki/cheminee-aufbau-hafnerarbeiten.md` verweist mehrfach auf
+  die «VKF-Zulassung» des Kamins ohne Kante zu `normen`, wo die einschlaegige Erlaeuterung BRL 103-15
+  seit dem 31.08.2025 als **zurueckgezogen** gefuehrt wird (Nachfolgeregelung offen, N58-2). Nicht
+  gesetzt, weil die Nachfolgeregelung selbst unbekannt ist — ein Verweis auf eine zurueckgezogene
+  Erlaeuterung ohne Nachfolger nuetzt dem Leser wenig. **Uebergabe an Run 41.**
+
+### rules ↔ twin (Treffen-/Kanalwechsel-Klausel) — die Klausel hat seit dem 22.08. einen Gegenbeleg — geprueft 2026-08-22 (Run 40, Hauptkontext)
+
+**Status:** bestaetigt und annotiert; Entscheid Raphael bleibt offen (**E1b**).
+
+Strukturgleich zur Nivellier-Klausel aus Run 39, nur eine Klausel weiter unten in derselben Rule.
+`rules/anrede-kontakte.md` traegt seit dem 21.08.2026 die Klausel «ein persoenliches Treffen kann das
+Register heben», belegt an zwei Faellen (Eren 20.08., Hiltmann 18.08.). Der Fidelity-Review vom
+22.08.2026 (`wissen/twin/wiki/QUESTIONS.md` 260822b #1) liefert einen **Gegenbeleg**: Othmar Stadelmann
+bleibt am 22.07.2026 nach einem Telefonat bei «Geschaetzter Herr Stadelmann», und der Review fuehrt auf
+diese Klausel **einen von drei Anrede-Fehlgriffen** zurueck.
+
+**Was die eigene Gegenprobe korrigiert hat:** die naheliegende Erklaerung «Fachplaner gegen Unternehmer»
+traegt **nicht** — `wissen/twin/wiki/beziehungsregister.md` Z. 1248 fuehrt Stadelmann selbst als
+«Brandschutz-Fachperson». Die Belege trennen vielmehr zwei Bewegungen, welche die Klausel zusammenfasst:
+ein persoenlicher Kontakt hebt die **Waermestufe innerhalb** eines Registers (Stadelmann 18.05.2026,
+kalt → «Geschaetzter Herr»), erzwingt aber **keinen Wechsel Sie → Du**. Gegenbeleg additiv vermerkt,
+Wortlaut der Klausel unangetastet.
+
 ### rules ↔ twin (Nivellier-Klausel und «werter»-Datierung) — die Rule weist gegen den eigenen Korpus an — geprueft 2026-08-21 (Run 39)
 
 **Status:** ein Befund bestaetigt und annotiert (Entscheid Raphael offen, **E1**), einer bestaetigt und
