@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 20:08:08
+Stand: 22.08.2026 20:28:42
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 22.08.2026 20:08:08
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 72f944ea nas-selfcommit: 3 Datei(en) 2026-08-22 20:00
+- 6109cb16 tenant-hygiene: Report 22.08.2026 auf echte Umlaute korrigiert (Rule umlaute-konvention)

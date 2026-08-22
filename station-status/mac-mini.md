@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.08.2026 20:06:25
+Stand: 22.08.2026 20:26:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 22.08.2026 20:06:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 72f944ea nas-selfcommit: 3 Datei(en) 2026-08-22 20:00
+- 6109cb16 tenant-hygiene: Report 22.08.2026 auf echte Umlaute korrigiert (Rule umlaute-konvention)
