@@ -44,7 +44,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Entra, Gäste, Gruppen | `m365 entra` | Graph via `m365 request` | | Admin Center |
 | Mail senden | Apple Mail (osascript) | Graph `Mail.Send` | `icloud-mail.py` | |
 | Mail lesen, durchsuchen | Apple Mail (osascript) | Graph `/messages` | MCP Outlook | |
-| Kalender | Apple Calendar (osascript) | Graph `/events` | | |
+| Kalender | MCP Outlook `outlook_calendar_search` | Apple Calendar (osascript, **nur iCloud-Kalender**) | ~~Graph `/events`~~ Sackgasse, 403 | Outlook Web |
 | Buchhaltung, Debitoren | `connectors/bexio.mjs` | | | bexio-Weboberfläche |
 | Handelsregister | `connectors/zefix.mjs` | | | zefix.admin.ch |
 | Projektraum Truninger | `connectors/truninger-ds3.mjs` | | | ds3.data-share.ch |
@@ -359,3 +359,35 @@ abgeschaltete Anmeldung debuggt.
 Die Migration selbst führt Raphael aus (personengebundener Token, Anmeldung und allenfalls
 Erstellung eines Logins; Claude erstellt keine Konten und authentifiziert sich nicht).
 Beleg und Registerzeile: `logbuch/fristen.md`, Eintrag 19.08.2026 06:55.
+
+## Nachtrag 22.08.2026 — Kalender: der Graph-Connector traegt nicht, die MCP-Outlook-Suche schon
+
+Gemessen im Hub-Chef-Lauf vom 22.08.2026. Die Rangfolge der Kalender-Zeile war falsch herum.
+
+**Weg 1, traegt: MCP Outlook `outlook_calendar_search`.** Liefert den Geschaeftskalender von
+`rj@raphaeljans.ch` vollstaendig, inklusive Organisator, Teilnehmerliste, Teams-Link, Serien-
+Instanzen und **Body-Text der Einladung**. Der Body ist der Grund, warum dieser Weg die anderen
+schlaegt: Terminaenderungen stehen dort und nirgends sonst. Zeitangaben kommen als
+`{dateTime, timeZone}`, im gemessenen Fall durchgehend **UTC** — also nicht als Ortszeit lesen,
+sondern umrechnen (13:00 CEST erscheint als 11:00 UTC).
+
+**Weg 2, traegt nur halb: Apple Calendar via osascript.** Auf dem MacBook Pro sind die Kalender
+Privat, Arbeit, Kultur, Freunde, Sport, Haushalt, Kalender, brunnengold@gmail.com und die
+Feiertags-/Geburtstagskalender eingebunden — **kein Exchange-Konto**. Geschaeftstermine, die per
+Teams-Einladung kommen, sind hier also **nicht sichtbar**, auch wenn einzelne davon in einem
+iCloud-Kalender liegen. Zum **Schreiben** eigener Eintraege ist es weiterhin der richtige Weg
+(A2), zum **Lesen** des Geschaeftskalenders taugt es nicht.
+
+**Sackgasse: eigener Graph-Connector `m365-graph.mjs`.**
+`--get "/users/rj@raphaeljans.ch/calendarView?..."` antwortet **403 «Access is denied»**. Die
+App-Registrierung hat keine `Calendars.Read`-Berechtigung; die Zertifikats-Anmeldung selbst ist
+intakt und traegt fuer SharePoint und Entra weiterhin. Nicht erneut debuggen — der Weg ist nicht
+kaputt, er ist nicht berechtigt. Wer ihn oeffnen will, ergaenzt die Application Permission
+`Calendars.Read` in der App-Registrierung samt Admin Consent; solange das nicht geschehen ist,
+gilt Weg 1.
+
+**Fallstrick beim Auswerten, im selben Lauf belegt.** Der Body einer Serien-Instanz traegt
+mitunter einen **ueberholten** Text: die Koordinationssitzung Gruner/Jans/KISPI liegt
+nachweislich woechentlich (acht Instanzen, jeden Donnerstag 20.08. bis 08.10.2026), waehrend der
+Body ab der Instanz vom 27.08. weiterhin «im Zwei-Wochen-Rhythmus» sagt. **Den Takt an den
+Instanzen messen, nicht am Text.** Beleg: `logbuch/fristen.md`, Nachtrag 22.08.2026.

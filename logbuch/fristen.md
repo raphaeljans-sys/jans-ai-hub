@@ -3,6 +3,64 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+
+**NACHTRAG 22.08.2026, 08:4x (Hub-Chef) zur Koordinationssitzung: die Termine liegen wöchentlich,
+der Begleittext der Einladung sagt ab dem 27.08. das Gegenteil.** Die Serie ist heute an den
+Termininstanzen selbst gemessen worden, nicht am Text: acht Instanzen, alle Donnerstag 13:00 bis
+14:00, lückenlos wöchentlich vom **20.08.** über den 27.08., 03.09., 10.09., 17.09., 24.09.,
+01.10. bis **08.10.2026**. Der gestrige Registereintrag «neu wöchentlich» ist damit bestätigt.
+**Der Widerspruch sitzt im Body:** die Instanz vom 20.08. trägt «Die Sitzung findet **neu jeden
+Donnerstag** jeweils von 13:00 bis 14:00 Uhr statt», **jede spätere Instanz** trägt im selben Feld
+«Die Sitzung findet **im Zwei-Wochen-Rhythmus** jeweils von 13:00 bis 14:00 Uhr statt» — offenbar
+der alte Einladungstext, der bei der Umstellung nicht durchgehend nachgeführt wurde. **Warum das
+zählt:** wer den Begleittext liest statt den Kalender, plant jede zweite Sitzung weg. Im Verteiler
+stehen L. Hiltmann und M. Eren, an deren Terminen beide offenen Bringschulden hängen. Massgeblich
+sind die Instanzen, nicht der Text. Keine neue Zeile, Nachtrag zur bestehenden. Status:
+**Termine gültig, Text widersprüchlich — bei Bedarf durch M. Valentin richtigstellen lassen.**
+| Acht Termininstanzen im Outlook-Kalender rj@ am Original gemessen 22.08.2026 08:4x (Organisatorin M. Valentin) | 2619 KISPI, Koordination | mittel | beobachten
+
+**NACHTRAG 22.08.2026, 08:4x (Hub-Chef) — Die Spiegelung in die geteilte Bibliothek war zur
+Hälfte bereits erfolgt; die fehlende Hälfte ist jetzt gesetzt.** Der Radar meldete heute früh, die
+nach Rule `projekt-ablage-stand` (260813) verlangte Spiegelung ohne MD-Datei sei «für beide
+gestrigen Deliverables nicht ausgeführt». Am Zielordner nachgemessen stimmt das so nicht: Raphael
+hat gestern zwischen **16:00 und 17:45** selbst gespiegelt — `2619 Adressblatt-Bodenbelaege-Inevo.pdf`
+nach `KONTAKTE/`, `260821-2619-Materialisierung-Nasszellen-Therapiekueche-Blatt.pdf` und
+`2619 Bodenaufbauten-Nasszellen-Kueche-Bolon.pdf` nach `JANS Factsheet/`, dazu die Fotos und die
+ARCH-Pläne. **Nicht gespiegelt war einzig das Factsheet `260821-2619-Bodenbelag-Index-FB50-FB51`**;
+es ist heute 08:42 als PDF nachgezogen worden (52'216 Bytes, Grössenvergleich Quelle gegen Ziel
+identisch, nichts überschrieben, MD-Datei bewusst nicht mitkopiert). **Zwei Beobachtungen für die
+Ablage-Regel:** der gelebte Spiegel folgt einer eigenen Ordnerlogik (`KONTAKTE`, `ARCH Plan`,
+`JANS Factsheet`, `FOTOS`) statt dem Namensstamm-Spiegel, den die Rule beschreibt, und die
+Dateinamen sind uneinheitlich (teils mit, teils ohne Datums-Prefix). Das ist kein Fehler, aber die
+Rule und die Praxis sagen Verschiedenes. Status: **erledigt für das Factsheet; Abgleich Rule gegen
+gelebte Ordnerlogik = Entscheid Raphael.**
+| Zielbibliothek `JANS - 2619-KISPI - Dokumente/2 Umbauprojekt Neu PPTS/33.04 BKP/LOS_281.00 Bodenbeläge Grundlagen` am Original gemessen und ergänzt 22.08.2026 08:42 | 2619 KISPI, Ablage | tief | erledigt |
+
+**NACHTRAG 22.08.2026, 08:4x (Hub-Chef) zum bexio-Strang: der Token ist nicht abgelaufen, die
+Sitzung dahinter ist zurückgezogen — vierzehnter Tag ohne Datengrundlage.** Heute erstmals die vom
+Connector vorgeschlagene **Gegenprobe direkt am Aussteller** gefahren:
+`auth.bexio.com/realms/bexio/protocol/openid-connect/userinfo` antwortet mit demselben **HTTP 401**
+wie die API. Damit ist ausgeschlossen, dass der Fehler im Connector oder in einer einzelnen
+Ressource sitzt; die Zugangsdaten selbst werden abgelehnt. Der Token läuft laut Connector erst am
+**13.12.2026** ab, ist also nicht verfallen — Warten hilft nicht. `~/.bexio.env` ist unverändert
+vom **13.06.2026**. Folge unverändert: kein Verzugscheck, kein Abgleich, kein A1-Guard, nichts
+gemahnt, nichts gebucht; alle fünf Positionen stehen jenseits ihrer Frist. Keine neue Zeile, dies
+ist der Nachtrag zur bestehenden. Status: **offen, Aktion Raphael — neuen Personal Access Token in
+bexio ausstellen und in `~/.bexio.env` eintragen.**
+| `node connectors/bexio.mjs --verzug` und curl-Gegenprobe am Keycloak-Endpunkt, beide 22.08.2026 08:4x | Buchhaltung/Debitoren | hoch | offen
+
+**NEU 22.08.2026, 08:4x (Hub-Chef) — Kalendereintrag Rückbau Leichtbauwände gesetzt (A2).** Der
+Radar hat den Eintrag zweimal vorgeschlagen, gestern war er mit der Begründung «Di/Mi ist kein
+eindeutiger Tag» verworfen worden. Das war zu streng: der **25.08.2026 ist ein Dienstag, der
+26.08.2026 ein Mittwoch**, die Tage sind seit der Estermann-Terminkorrektur eindeutig. Gesetzt ist
+ein **ganztägiger Eintrag über beide Tage** im Kalender «Arbeit», Titel «Rueckbau Leichtbauwaende
+KISPI OG1 — Abschaltung Brandmeldeanlage», mit Quelle und Vorarbeiterkontakt im Notizfeld.
+**Offengelegte Guard-Auslegung:** A2 verlangt «Datum+Zeit+Teilnehmer klar». Eine Uhrzeit gibt es
+nicht und kann es nicht geben, weil es ein ganztägiges Bauablauf-Ereignis ist; geraten wurde
+nichts. Das Enddatum war im ersten Anlauf einen Tag zu weit gesetzt und ist unmittelbar korrigiert
+worden (nachgemessen: 25.08. 00:00 bis 26.08. 23:59). Status: **erledigt.**
+| Beleg Mail O. Stadelmann an M. Spörri, Cc RJ, 19.08.2026 14:29 + Auftrag M. Spörri 18.08.2026 09:16 | 2619 KISPI OG1, Leichtbauwände | mittel | erledigt |
+
 **NEU 22.08.2026, 06:55 (Logbuch-Radar) — Der Bodenbelagsvorschlag PPTS ist raus und beruft sich
 auf die Therapieküchen als Referenz; genau dort ist der Belag aber ungeklärt.** Am eigenen Beleg
 gelesen, Mail rj@ **21.08.2026 17:45** an M. Spörri, Anrede «Hoi Michi & Fabian & Albin»: Vorschlag
