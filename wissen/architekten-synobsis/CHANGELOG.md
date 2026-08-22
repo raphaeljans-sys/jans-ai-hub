@@ -4,6 +4,29 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-22 (Mac Mini Nachtschicht, 23:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung: Prioritaeten 1-4 wie im 13:30-Lauf desselben Tages leer/gesaettigt (keine
+pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin deaktiviert 853/853, `vectors.npz`
+letztmalig 13:31 Uhr geschrieben, kein neuer Stoff seit 02.07.2026; keine freie KB mit
+`training/PROGRAMM.md`, Begruendung siehe 13:30-Eintrag). Auf Prioritaet 5 ausgewichen,
+Fortsetzung desselben Rechercheformats: vier weitere offene Identitaetsfragen aus
+`wiki/QUESTIONS.md` per WebSearch geklaert.
+
+- **Muzio Lorenzo** → bestaetigt: Sohn von Giovanni Muzio (1893-1982), Vater-Sohn-Zusammenarbeit
+  im gemeinsamen Studio Mailand belegt (u.a. Turmbau Castello-Quartier 1960).
+- **Klint_Peder_Kaare / Jensen_Klint** → bestaetigt: P.V. Jensen-Klint (1853-1930, Grundtvigskirche
+  Kopenhagen) und Sohn Kaare Klint (1888-1954), der den Bau nach dem Tod des Vaters vollendete;
+  sogar Enkel Esben Klint wirkte mit.
+- **Reidy Alfonso / Reidy_Eduardo** → bestaetigt: beide Ordner betreffen denselben Affonso Eduardo
+  Reidy (1909-1964), Pedregulho-Siedlung und MAM Rio de Janeiro; keine zwei Personen.
+- **Kahn_Adam** → bestaetigt: Buero schreibt sich Adam Khan Architects, London, gegruendet 2006
+  von Adam Khan (zuvor Caruso St John Architects).
+
+Details je Frage in `wiki/QUESTIONS.md`, Sektion 2, mit Quellenangabe direkt an der jeweiligen
+Frage. Keine Ordnerumbenennung vorgenommen (Umbenennungen bleiben Freigabesache Raphael), kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+
 ## 2026-08-22 (Mac Mini Nachtschicht, 13:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung: Prioritaeten 1-3 leer/nicht zutreffend (keine pending remote-/sync-Tasks;
