@@ -3,6 +3,114 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Radar-Briefing 22.08.2026 (06:55) — für das Tagesbriefing des Hub-Chef
+
+**Erledigt seit gestern**
+
+Kein Registerpunkt liess sich heute belegt schliessen. Was tatsächlich hinausging, sind zwei
+eigene Lieferungen: der Vorschlag für die Bodenbeläge PPTS an M. Spörri, F. Würsch und A. Spahic
+(21.08. 17:45, Küche Linoleum Forbo, Bad Steinzeug 50x50 mm, optional Hauswirtschaftsraum
+ebenfalls Linoleum), und die Weiterleitung der zwölf Klärungspunkte des Küchenbauers an dieselben
+drei (21.08. 09:54). Beide erzeugen Gegenerwartungen, keine Abschlüsse.
+
+**Aus unseren Gesprächen**
+
+Bodenbelags-Index FB50/FB51: FB50 ist der Normalfall, FB51 gilt nur dort, wo der Boden Ladung
+gegen Erde ableiten muss. Der Punkt für die Ausschreibung LOS 281.21 ist, dass FB51 kein Belag
+ist, sondern ein System aus leitfähigem Kleber, eingelegtem Kupferband, Erdungsanschluss durch den
+Elektriker und Widerstandsmessung nach Verlegung. Zwei Angaben fehlen und wurden bewusst nicht
+geraten: die verbindliche Normfundstelle für die medizinisch genutzten Raumgruppen ist bei der
+Gruner AG einzuholen, und die raumweise Freigabeliste FB51 muss von Elektroplanung und
+Medizintechnik bestätigt werden. Ohne diese Liste ist der Mengenanteil FB51 im LV nicht
+bestimmbar. Beides ist der Ausschreibung vorgelagert und liegt bei Dritten.
+
+Der Linoleum-Unternehmer heisst seit dem Rebranding INEVO AG, vormals Pfister Professional AG;
+Ansprechperson Mischa Baldauf, mischa.baldauf@inevo.ch, +41 44 517 50 81. Die alten
+Pfister-Adressen und die Nummer 044 823 95 35 sind tot, stehen aber noch in Ordnernamen.
+
+Küchenboden: im Ausführungsgrundriss OG1 vom 17.08. trägt der Küchenbereich den Plattenaufbau
+FB70, nicht Linoleum; der Linoleum-Aufbau steht nur als Katalogvariante FB50/FB51. Das ist vor
+der Ausschreibung zu entscheiden, und es ist seit gestern Abend dringlicher geworden: der
+Bodenbelagsvorschlag PPTS beruft sich ausdrücklich auf «Farbe & Material wie Therapieküchen
+KISPI» — die Referenz ist nach aussen gegangen, bevor intern geklärt ist, was dort gilt. Zweiter
+Vorbehalt aus demselben Blatt: die Belagszone ist im Katalog mit 5 mm angesetzt, bei der
+spezifizierten 6.5-mm-Fliese ist die Estrichdicke anzupassen.
+
+Der Küchenbauer Röthlisberger hat zwölf Punkte offen. Die nutzungsbezogenen sind mit der
+Weiterleitung bei der Bauherrschaft; vier bleiben bei Dir, weil sie Architektenentscheide sind:
+Frontdekor, Griffleiste, Vollkerndekor für Sockel und Leiste sowie Überstand und Finish der
+Arbeitsplatte. Die Küchenpläne als DWG kommen erst in einigen Wochen, und zu den bauseitigen
+Geräten kennt Röthlisberger nur Dimensionen, keine Anschlusswerte.
+
+Beschafft und abgelegt: 72 Revisionsgrundrisse 1:50 Akutspital Süd, 414 MB, gegen die Planliste
+verifiziert, keine Fehldownloads. Die Dachaufsicht 1:50 existiert im Projektraum nicht, dort liegt
+nur eine 1:200-Übersicht.
+
+Die nach der Ablage-Regel verlangte Spiegelung ohne MD-Datei in die für alle Projektbeteiligten
+sichtbare Bibliothek ist für beide gestrigen Deliverables nicht ausgeführt.
+
+**Überfällig**
+
+Der Massaufnahme-Termin für die innere Verglasung ist den fünften Tag nicht terminiert. Der
+gestern neu aufgesetzte Entwurf an L. Bajrami mit der Frist Montag 24.08. liegt unverändert im
+Entwurfsordner, die Gegenprobe an den Gesendeten über 48 Stunden zeigt ihn nicht. Er trägt
+dieselbe Bauart wie sein Vorgänger: geht er bis Montag nicht hinaus, verfällt auch er an seiner
+eigenen Frist. Der Stichtag der Rückrechnung, 17.08. für den Montagestart am 12.10. bei acht
+Wochen Lieferfrist, bleibt überschritten. Daneben liegen unverändert der überholte Jegen-Entwurf
+vom 20.08. und der Stubbe-Entwurf, dessen Termin vergangen ist.
+
+bexio antwortet den vierzehnten Kalendertag mit HTTP 401; alle fünf Positionen stehen weiterhin
+jenseits ihrer Frist, nichts gemahnt, nichts gebucht. Unverändert seit gestern, Aktion ist ein neu
+ausgestellter Personal Access Token.
+
+**In den nächsten 7 Tagen**
+
+Montag 24.08., 09:00: Abgleich und Status PPTS, Teams, mit C. Schaefer, C. Allerkamp und
+A. Spahic.
+
+Montag 24.08.: Frist für das von TeKoSi zugesagte korrigierte Türkonzept; am selben Tag ist
+B. Kübler zurück und übernimmt die brandschutzbedingten Anpassungen der Lüftungspläne.
+
+Dienstag und Mittwoch 25./26.08.: effektiver Rückbau der Leichtbauwände samt Abschaltung der
+Brandmeldeanlage. Beide Tage stehen in keinem Kalender.
+
+Um den 25.08. erreicht der SharePoint-Speicherpool nach der letzten Hochrechnung die
+88-Prozent-Marke; der Hebel bleibt das Versions-Trimming auf JANS.PROJEKTE.
+
+Mittwoch 26.08., 13:00: PPTS-Treffen mit O. Stadelmann auf der Baustelle.
+
+Donnerstag 27.08., 13:00: Koordinationssitzung Gruner, Jans und KISPI, Teams. Im Verteiler stehen
+L. Hiltmann und M. Eren, damit ist es der erste Ort, an dem beide offenen Bringschulden
+zusammenkommen.
+
+**In Beobachtung**
+
+Rückmeldung von R. Guerini und I. Suljanovic zu den Nasszellenplänen sowie die von M. Eren
+erbetene Auflistung der EI30-Durchdringungen, gebraucht vor dem Rückbau. Korrigiertes Türkonzept
+TeKoSi. Lüftungsplan-Anpassungen bei Gruner. Die zwei FB51-Zulieferungen von Gruner und
+Medizintechnik. Rückmeldung zum Bodenbelagsvorschlag PPTS. Bei Dir liegen unverändert: der
+Küchenbelag-Entscheid, die vier Materialisierungsentscheide der Küche, die drei Gartenfragen von
+S. Tschopp, die Planfreigabe Jegen, die Grundlage der SIA-102-Phasenanteile, das Honorarblatt
+Nasszellen samt der unbelegten Bausumme, die Bewerbung um die Lehrstelle Zeichner EFZ 2027 und die
+Anmeldung zum Berufsinfotag bis 30.09. Neu und ohne Termindruck: der Anlass ETH Alumni Campus
+Hönggerberg am 23.09., Anmeldung über MyAlumni. Infrastruktur unverändert offen: NAS-Volume bei
+93 Prozent, Tailscale auf dem Mac Mini gestoppt, bexio-Token.
+
+**Vorschlag Kalendereinträge**
+
+Dienstag 25.08. und Mittwoch 26.08., je ganztägig: Rückbau Leichtbauwände KISPI OG1, Abschaltung
+Brandmeldeanlage. Die Tage sind seit der Estermann-Terminkorrektur eindeutig; bisher steht keiner
+davon im Kalender.
+
+Mittwoch 23.09., 16:45 bis 21:00: ETH Alumni, Campus Hönggerberg, falls Du teilnehmen willst.
+
+**Token-Tempo**
+
+Vortag 21.08.: MacBook Pro 132.4 Mio Token, USD 114.26; Mac Mini 93.9 Mio Token, USD 66.14;
+zusammen 226.3 Mio Token, USD 180.40 Kostenäquivalent.
+
+---
+
 ## Nachtschicht Mac Mini 21.08.2026 (23:30-Zyklus) — E-R148-3 geschlossen, still beendet
 
 Prioritäten 1-4 gesättigt (keine Sync-/Remote-Tasks, Synobsis Stufe 2 unveraendert, Fristen-

@@ -3,6 +3,77 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 22.08.2026, 06:55 (Logbuch-Radar) — Der Bodenbelagsvorschlag PPTS ist raus und beruft sich
+auf die Therapieküchen als Referenz; genau dort ist der Belag aber ungeklärt.** Am eigenen Beleg
+gelesen, Mail rj@ **21.08.2026 17:45** an M. Spörri, Anrede «Hoi Michi & Fabian & Albin»: Vorschlag
+Küche **Linoleum Forbo in Bahnen, Stösse verschweisst, «Farbe & Material wie Therapieküchen
+KISPI»**, Bad **Steinzeug 50x50 mm «wie Nasszellen KISPI»** (z.B. Mosa Colors Plan Olive Green 1670,
+Cornsil 18950, Beach 20960), optional Hauswirtschaftsraum ebenfalls Linoleum; Begründung Küche
+«Bodenaufbau gleich wie ehemaliger Bodenbelag Bolon», Bad «einheitliche KISPI Nasszellenausführung,
+ergo Ausgleichsschicht wegspitzen lassen, mit Unternehmer vor Ort abklären, Schwellenanschlüsse
+beachten». **Warum das den offenen Küchenboden-Entscheid schärft:** die heute früh eingetragene
+Diskrepanz besagt, dass der Ausführungsgrundriss OG1 vom 17.08.2026 für den Küchenbereich den
+**Plattenaufbau FB70** trägt, während Linoleum dort nur als Katalogvariante FB50/FB51 existiert.
+Die Referenz «wie Therapieküchen KISPI» ist damit nach aussen gegangen, bevor intern geklärt ist,
+was in den Therapieküchen tatsächlich gilt. Das macht den Entscheid nicht dringlicher im Sinne
+einer Frist, aber er ist jetzt in einer versandten Empfehlung verankert. Status: **beobachten
+(Rückmeldung Spörri/Würsch/Spahic), Entscheid Küchenbelag weiterhin Raphael.**
+| Mail rj@ Gesendet 21.08.2026 17:45 am Original gelesen | 2619 KISPI PPTS, Bodenbeläge | mittel | beobachten
+
+**NEU 22.08.2026, 06:55 — Der Küchenbauer hat zwölf Klärungspunkte gestellt; die Hälfte davon
+sind Architektenentscheide und liegen bei JANS, nicht beim Nutzer.** T. Inniger (Röthlisberger AG /
+Emmeküche) hatte am **08.08.2026 14:50** zur Therapieküche geantwortet; RJ hat die Mail am
+**21.08.2026 09:54** an F. Würsch, M. Spörri und A. Spahic (KISPI) weitergeleitet. Inniger nennt
+zwölf Punkte: abschliessbarer Schrank Spülmittelkanister GWA (Boden CDF), Beckengrösse neben
+Combi-Dämpfer (340 mm), Grösse Kompostabwurf Blanco Solon-IF, Steckdosenpositionen, Oberschrank
+über Arbeitsplatte Tiefkühlschrank, Schubladen- und Innenausstattung, **Typenbezeichnungen und
+Einbauskizzen der bestehenden Geräte**, **Auswahl Frontdekor**, **Auswahl Griffleiste**, **Auswahl
+Vollkerndekor Sockel und Leiste**, **Überstand der Arbeitsplatte**, **Finish der Arbeitsplatte**.
+Er bittet zusätzlich darum, einzelne Punkte direkt mit den Nutzern besprechen zu dürfen. **Was die
+Weiterleitung leistet und was nicht:** die nutzungsbezogenen Punkte sind damit bei der Bauherrschaft;
+die vier Materialisierungsentscheide (Frontdekor, Griffleiste, Vollkerndekor, Arbeitsplatte) sind
+Architektenentscheide und bleiben bei JANS. Zwei Randbedingungen aus derselben Mail: **die
+Küchenpläne als DWG kommen erst «in ein paar Wochen»**, wenn Projektleiter N. Rothe die CAD-Planung
+gefahren hat, und zu den bauseitigen Geräten kennt Röthlisberger nur Dimensionen, keine
+Anschlusswerte. **Zusammenhang:** derselbe Raum wie der offene Küchenboden-Entscheid FB70 gegen
+Linoleum. Keine Frist genannt. Status: **offen, Aktion Raphael für die Materialisierungsentscheide;
+Nutzerpunkte beobachten.**
+| Mail Inniger 08.08.2026 14:50 und Weiterleitung rj@ 21.08.2026 09:54, beide am Original gelesen | 2619 KISPI, Therapieküche | mittel | offen
+
+**NACHTRAG 22.08.2026, 06:55 zum Jegen-Vorgang: der neu aufgesetzte Entwurf liegt weiterhin
+unversandt, damit ist der Massaufnahme-Termin den fünften Tag nicht terminiert.** Am Entwurfs-
+ordner des Exchange-Kontos nachgemessen: der gestern 08:47 erstellte Entwurf «KISPI PPTS Los 274.01:
+Termin Massaufnahme innere Verglasung» mit der Frist **Montag 24.08.** steht unverändert dort,
+daneben unverändert der überholte vom 20.08. 08:52 und der ebenfalls überholte Stubbe-Entwurf
+«AW: Baufreigabe KISPI PPTS - BE 1171/26» vom 20.08. 08:51. Die Gegenprobe an den Gesendeten über
+48 Stunden zeigt keinen von ihnen. **Der neue Entwurf trägt dieselbe Bauart des Problems wie der
+alte:** setzt er eine Frist auf Montag und geht bis Montag nicht hinaus, verfällt auch er an sich
+selbst. Der Stichtag der Rückrechnung (17.08. für Montagestart 12.10. bei acht Wochen Lieferfrist)
+bleibt überschritten. Keine neue Zeile, dies ist der Nachtrag zur bestehenden. Status: **offen,
+Aktion Raphael — senden oder verwerfen.**
+| Entwurfs- und Gesendet-Ordner Exchange am Original nachgemessen 22.08.2026 06:5x | 2619 KISPI, Los 274.01 | hoch | offen
+
+**NEU 22.08.2026, 06:55 — Eine Bewerbung um eine Lehrstelle Zeichner EFZ 2027 liegt im Postfach und
+hängt am selben Entscheid wie der Berufsinfotag.** N. Germani (Dietikon) am **21.08.2026 15:32** an
+mail@, fünf Anhänge (Bewerbungsbrief, Lebenslauf, Zeugnisse 2024-2026, Schnupperbeurteilungen,
+Schnupper-Projekte). Die Frage ist ausdrücklich vorgeschaltet: «ob Sie eine Zeichner/in EFZ
+Lehrstelle in 2027 öffnen werden» — die Kandidatur folgt nur für den Fall, dass ja. **Zusammenhang:**
+derselbe Entscheid trägt den Registerpunkt Berufsinfotag vom 21.08. (Anmeldung als
+Ausbildungsbetrieb bis **30.09.2026**, Anlass 28.01.2027). Eine Bewerbung mit fünf sorgfältig
+zusammengestellten Dokumenten verdient eine Antwort, auch wenn sie negativ ausfällt. Keine Frist
+genannt. Status: **offen, Aktion Raphael — Antwort an den Bewerber.**
+| Mail Germani 21.08.2026 15:32, Konto mail@, samt Anhangsliste am Original gelesen | Geschäft/Ausbildung | tief | offen
+
+**NEU 22.08.2026, 06:55 — Anlass ETH Alumni, Campus Hönggerberg, Mittwoch 23.09.2026 16:45 bis
+21:00.** M. Prencipe leitet am **21.08.2026 14:04** an das iCloud-Konto die Einladung der Ortsgruppe
+Zürich weiter: Präsentation durch ETH Real Estate Management zur städtebaulichen Entwicklung
+(inklusive laufender Bauvorhaben, z.B. Physikgebäude HPQ), anschliessend Führung in Gruppen,
+Apero Riche in der Alumni Lounge. Treffpunkt Hörsaal HIL E 4, Stefano-Franscini-Platz 5.
+**Anmeldung über MyAlumni; ein Anmeldeschluss steht nicht in der Mail und wird hier nicht
+erfunden.** Ein späteres Anschliessen an die Führung ist ausgeschlossen. Status: **offen,
+Entscheid Raphael (Teilnahme und Anmeldung).**
+| Mail Prencipe 21.08.2026 14:04, Konto iCloud, am Original gelesen | Geschäft/Netzwerk | tief | offen — Anlass 23.09.2026
+
 **NEU 22.08.2026, 06:2x (Konversations-Log) — FB51 im KISPI ist ohne zwei Zulieferungen Dritter
 nicht ausschreibbar; beide sind bisher nirgends als Bringschuld geführt.** Aus dem Gespräch
 Mac Mini 21.08. 16:46 bis 17:08: Der Index FB51 bezeichnet kein Belagsprodukt, sondern ein
