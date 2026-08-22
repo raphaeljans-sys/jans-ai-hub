@@ -224,6 +224,21 @@ nichts versendet.** Keine neue Zeile, dies ist der Nachtrag zur bestehenden. Sta
 Aktion Raphael — neuen Personal Access Token ausstellen und in `~/.bexio.env` eintragen.**
 | eigene Messung bexio-Connector 21.08.2026 06:5x
 
+**NACHTRAG 22.08.2026, 08:2x zum Debitoren-Punkt: dreizehnter Lauf, HTTP 401 unverändert.**
+Eigene Messung heute: `bexio-vorfilter.mjs --voll` bricht mit Exit 2 ab, Gegenprobe am Aussteller
+(`auth.bexio.com/.../userinfo`) ebenfalls **HTTP 401**. `~/.bexio.env` steht unverändert auf dem
+Stand vom **13.06.2026 11:05**, es wurde kein neuer Token eingetragen. Letzter verifizierter
+Zahlstatus: **08.08.2026 08:36 — vierzehn Kalendertage her.** Der Tagessnapshot wurde erneut
+bewusst nicht fortgeschrieben, damit das aufgelaufene Delta beim ersten Lauf nach dem
+Tokenwechsel vollständig sichtbar wird. Verzugsstand unverändert und unverifiziert: RE-00100
+(Nova, CHF 13'120.00) seit dem 20.08. verfallen, RE-00098/RE-00099 (KISPI, zusammen
+CHF 17'280.00) seit dem 12.08. überfällig, RE-00101 (Tschopp, CHF 6'000.00) wegen der
+ungeprüften Tx 3630 gesperrt, RE-00087 (KISPI, CHF 15'000.00) weiter in der Duplikatsklaerung.
+Nichts gemahnt, nichts gebucht, nichts abgeglichen, nichts versendet. Keine neue Zeile, dies ist
+der Nachtrag zur bestehenden. Status: **überfällig, Aktion Raphael — neuen Personal Access
+Token ausstellen und in `~/.bexio.env` eintragen.**
+| eigene Messung bexio-Vorfilter 22.08.2026 08:2x
+
 
 **NEU 21.08.2026, 06:10 (Konversations-Log) — Honorar für den KISPI-Nasszellen-Ausbauplan 1:20
 ist gerechnet und liegt als A4-Blatt im Projektordner, aber noch nicht als Offerte draussen.**
