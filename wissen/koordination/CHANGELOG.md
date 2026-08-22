@@ -3,6 +3,38 @@
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-22 — Synergie-Lauf 15 (taeglich)
+
+**Delta-Basis** 21.08.2026 17:10, Fenster 24,0 Stunden, **105 Commits**. Uhr-Kontrolle bestanden
+(Station 17:10 CEST gegen Synology-Push `11a6af91` um 17:00:06), Gegenprobe zur Delta-Messung
+bestanden (HEAD identisch, aeltester Treffer `fbc5511f` schliesst lueckenlos an). Strukturelles
+Delta: 0 neue Bausteine, 8 geaenderte Struktur-Dateien, davon 2 eigene Edits aus Lauf 14.
+
+**Zwei neue Befunde, beide umgesetzt (active-with-flagging).** **SYN-41** (Typ 1): die fuenf
+VKF-Fassungs-Deltas des Normen-Laufs 59 erreichten `skills/brandschutz/SKILL.md`, aber nicht
+`wissen/normen/wiki/synthese-sia-vkf-fachskills.md` — den `established`-Artikel zwischen
+Destillat und Fach-Skills, der damit ohne Gegenlesen zitierfaehig ist und an zwei Stellen die
+ueberholte Fassung fuehrt (Hoehenklassifikation ueber die Gesamthoehe, Fluchtweg-Erleichterung
+fuer ueberhohe Raeume). Fassungs-Vorbehalt gesetzt, 16/0; die Nachfuehrung der Tabellen bleibt
+Arbeit der KB `normen`. **SYN-42** (Typ 6): die Statuszelle in `wissen/normen/wiki/REGISTER.md`
+Z. 37 meldete die Bringschuld an `brandschutz` als offen, obwohl derselbe Commit `69027822` sie
+erfuellte; zeilenindiziert korrigiert, 1/1.
+
+**Vier Kandidaten adversarial verworfen:** die Gesamthoehe in `skills/massgebendes-terrain`
+(§ 281 nPBG, anderes Rechtsregime), die QSS-Stelle in `skills/auflagebereinigung`
+(projektbezogener Befund, deckungsgleich mit dem Delta), die fehlende Rueckbenennung in den
+Delta-Destillaten (3 von 376 bzw. 5 von 325 Destillaten tragen ueberhaupt einen
+Abnehmer-Vermerk — Konvention, nicht Luecke) und die 4'800-m²-Treffer ausserhalb `brandschutz`
+(Parking-Brandabschnittsflaeche, anderer Sachverhalt).
+
+**Kein Befund** bei den vier uebrigen echten Aenderungen: `wettbewerb` und `kostenschaetzung`
+tragen beidseitige Kanten, `unternehmerkontrolle` nennt ein existierendes Ziel,
+`jans-dna-facetten` ist zum fuenften Mal in Folge der Kompilierweg. `rules/anrede-kontakte.md`
+bewusst nicht verdrahtet (Entscheid Raphael ausstehend). `wissen/claude-code/` als vermeintlich
+neue KB geprueft und entkraeftet (angelegt 29.07.2026).
+
+Report: `outputs/2026-08-22_synergie-lauf-15.md`. Keine Mail (stiller Lauf).
+
 ## 2026-08-21 — Wissens-Chef Run 39 (Abendlauf)
 
 **Zuschnitt:** 5 Melder (`model: sonnet`) + 6 Refuter (Hauptmodell) = 11 Agenten, 1'803'560 Token,

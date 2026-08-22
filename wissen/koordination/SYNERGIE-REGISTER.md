@@ -49,6 +49,8 @@ Neueste Laeufe ergaenzen unten je Eintrag; abgeschlossene Eintraege bleiben steh
 | SYN-38 | connectors/WEGE.md · skills/pdf2dwg · Rule wege-und-vollmachten | 1 | **Das Register erklaert den Skill zum kanonischen Ort der Grenzen und legt dann eine Grenze bei sich selbst ab.** `connectors/WEGE.md` Z. 60-61 sagt woertlich, die CAD-Sackgassen stuenden «vollstaendig in `skills/pdf2dwg/SKILL.md` (Abschnitt Grenzen)» und wuerden «hier bewusst nicht kopiert». Im Fenster dieses Laufs wuchs das Register um vier Commits auf der CAD-Achse (`8552ac0b`, `d5b2ab46`, `06df323b`, `652a565d`, zusammen +84/-1) und trug dabei zwei Angaben ein, die im Skill fehlen: die **Stationsverfuegbarkeit** (LibreDWG und das venv `~/.venvs/pdf2dwg` existieren nur auf dem Mac Mini, nicht auf dem MacBook Pro, samt zwei Ersatz-Pruefwegen) und den **Nachbarweg** 3D-Hersteller-DWG nach 2D-Plan ueber Rhino an der besetzten Station. Gemessen: `WEGE.md` nennt `pdf2dwg` **4 Mal**, `skills/pdf2dwg/SKILL.md` nennt das Register **0 Mal** — die haeufigste Figur dieses Skills (SYN-10, SYN-14, SYN-16, SYN-20), hier mit dem Zusatz, dass der Zulieferer die Kanonizitaet selbst behauptet. | Verweis-Block an den Anfang des Abschnitts «Grenzen» gesetzt, der beide Angaben nennt und auf das Register zurueckzeigt. Bewusst **kein** Kopieren des Registerinhalts in den Skill — das erzeugte genau die Divergenz, die das Register mit seinem Satz vermeiden will. | umgesetzt (active-with-flagging, Lauf 13) |
 | SYN-39 | rules/betrieb-chronik.md (Eintrag 260821) · scripts/ · skills/workstation-setup · launchd `ch.jans.screensaver-idle` | 1 | **Der einzige Stations-Waechter, dessen Script ausserhalb des Repos liegt — die Chronik dokumentiert den Eingriff vollstaendig, aber nicht, dass er nirgends gesichert ist.** Der neue Eintrag `rules/betrieb-chronik.md` 260821 (Commit `520c49e0`, 19/0) beschreibt den Bildschirmschoner-Waechter gegen die Universal-Control-Assertion sauber samt Rueckbauweg und nennt als Programm `~/bin/screensaver-idle-watchdog.sh`. Gegenprobe ueber die vier vergleichbaren LaunchAgents mit `plutil -extract ProgramArguments`: `ch.jans.speicher-waechter`, `com.jans.nas-keepalive`, `com.jans.station-status` und `ch.jans.synctask-runner` zeigen **alle vier** auf `~/Developer/jans-ai-hub/scripts/` (der `speicher-waechter` zusaetzlich mit NAS-Fallback), und alle sieben Waechter-Scripts des Hub (`nas-keepalive`, `speicher-waechter`, `stationen-watchdog`, `kontingent-waechter`, `sync-task-guard`, `umlaut-guard`, `mail-draft-guard`) liegen versioniert unter `scripts/`. `~/bin/` enthaelt ausser diesem Script nur den persoenlichen Shortcut `mini`. **Folge, nicht vermutet:** das Script ist nicht im Backup, ueberlebt keine Neuaufsetzung, und `skills/workstation-setup` kann es nicht ausrollen (0 Treffer auf `screensaver`). Der Rueckbau-Satz der Chronik («Plist und Script loeschen») zeigt damit auf einen Pfad, den kein zweiter Rechner hat. **Adversariale Gegenpruefung:** Das einzige denkbare Gegenargument — der Waechter sei stationsspezifisch — traegt nicht: `nas-keepalive.sh` ist ebenfalls nur auf dem MacBook Pro im Einsatz und liegt trotzdem im Repo. Stationsspezifisch ist die **Aktivierung**, nicht die **Sicherung**. | Identische Kopie nach `scripts/screensaver-idle-watchdog.sh` gelegt (NAS kanonisch, `diff` gegen das Original leer). Der laufende Job wurde **bewusst nicht umgestellt**: das fasst launchd an und gehoert nach Rule `interaktive-eingriffe` (Klasse Persistenz/Autostart) nicht in einen unbeaufsichtigten Lauf. Der fertige `plutil`-Umstellungsbefehl liegt als Nachtrag im Chronik-Eintrag und wartet auf einen interaktiven Lauf. | umgesetzt bis zur Sicherung (active-with-flagging, Lauf 14); Plist-Umstellung offen, interaktiv |
 | SYN-40 | rules/auto-verbesserungen.md (Eintrag 260820) · rules/dokument-layout-standard.md · agents/layout | 3 | **Die neue Laengenregel benennt die Datei, die sie ergaenzt — und steht dort mit null Treffern.** Der Eintrag 260820 «Abklaerungen kurz halten» (Commit `0d5c11fa`, 16 Zeilen, Vorgabe Raphael zum Erzeugnis «Montagehoehe Wandmischbatterie 2619 KISPI») schliesst woertlich mit «Ergaenzt `dokument-layout-standard.md` (Form) um die Laenge». Gegenprobe in `rules/dokument-layout-standard.md`: 0 Treffer auf «Laenge», «Abklaerung», «kurz». Auch `agents/layout.md` — der mechanische Formpruefer, der genau gegen diesen Standard prueft — hat 0 Treffer. Die haeufigste Figur dieses Skills (SYN-10, SYN-14, SYN-16, SYN-20, SYN-38), hier wieder mit dem Zusatz, dass der Zulieferer die Kante selbst behauptet. **Ehrliche Abgrenzung, darum Typ 3 und nicht Typ 1:** beide Rules sind importierter Grundkontext, die Laengenregel erreicht also jede Session ohnehin — es gibt keine harte Kappung. Verschoben hat sich der Auffindeweg: wer vom Formstandard herkommt (Generator-Vorlage `templates/dokument-layout/`, Korrektur-Harness, Agent `dokument`), findet dort Schrift, Raender, Tabellen und Listen, aber nichts zur Laenge. **Kein Konflikt mit SYN-24:** dort wurde entschieden, einen Vorbehalt nicht in elf Skill-Kopien zu schreiben; hier geht es um einen Querverweis zwischen zwei Rules, den die eine Seite bereits behauptet. | Kurzer Abschnitt «Laenge (nicht hier geregelt)» in `rules/dokument-layout-standard.md` gesetzt, der auf den Eintrag 260820 zeigt und die Abgrenzung (Abklaerung kurz, Studien/Berichte/Offerten/Protokolle ausfuehrlich) mitnennt. Bewusst **kein** Kopieren des Regeltextes und **keine** Laengenpruefung in `agents/layout.md` — die Vorgabe ist inhaltlich («drei Saetze plus Skizze»), nicht mechanisch messbar, und ein Pruefer, der Laenge zaehlt, erzeugt genau die Fehlbefunde aus SYN-31. | umgesetzt (active-with-flagging, Lauf 14) |
+| SYN-41 | wissen/normen (5 Fassungs-Delta-Destillate · wiki/synthese-sia-vkf-fachskills · wiki/REGISTER) · skills/brandschutz | 1 | **Der Skill wurde nachgezogen, die `established`-Synthese zwischen Destillat und Skill nicht — und genau sie traegt das Guetesiegel, das ohne Gegenlesen zitierfaehig macht.** Der Normen-Lauf 59 destillierte am 22.08.2026 fuenf VKF-Fassungs-Deltas (Commits `d4f0e294`, `69027822`). `skills/brandschutz/SKILL.md` ist im selben Commit `69027822` nachgezogen (+25/0, Pflichtlektuere-Block: Gesamthoehe am Flachdach, QSS-Tabelle, ueberhohe Raeume, neue Begriffe). `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` wurde im ganzen Fenster **null Mal** angefasst (gemessen `git log --since` = 0 Commits), steht auf `last_updated: 2026-07-17` und traegt die Ueberschrift «## 4. Skill `brandschutz` — VKF-Brandschutzvorschriften **2015**». Zwei Stellen widersprechen dem Delta konkret: Z. 269-271 klassifiziert geringe/mittlere Hoehe/Hochhaus ueber die **Gesamthoehe**, deren Messweise am Flachdach mit der Fassung 01.01.2019 gewechselt hat (neu ab Dachflaeche ueber dem tiefstgelegenen massgebenden Terrain); Z. 331 gewaehrt die Fluchtweg-Erleichterung «bei ueberhohen Raeumen … bis 50 m», waehrend dieselbe Fassung das Flaechenkriterium > 4'800 m² fuer «ueberhohe Raeume» **gestrichen** hat (es genuegt Raumhoehe > 6.0 m) — die Erleichterung erfasst damit ein Vielfaches an Raeumen. Der Artikel ist `status: established`, also nach Rule `normen-referenz` Ziff. 1b ohne Gegenlesen zitierfaehig, und wird ueber `wissen/koordination/QUERBEZUEGE.md` sowie zwei normen-Wiki-Artikel referenziert. **Adversariale Gegenpruefung:** Der naheliegende Einwand, der Artikel sei als 2015-Korpus-Schnappschuss gemeint, traegt nicht — er fuehrt bereits vier eigene Fassungs-Annotationen inline (Z. 303, 316, 323, 329, 332) und wurde laut `wissen/normen/CHANGELOG.md` Z. 3763 bei einer frueheren Fassungsaenderung (Personenbelegung Verkauf, Stand 01.12.2022) genau so nachgefuehrt. Nachfuehren ist hier die Konvention, nicht die Ausnahme. **Zweiter gepruefter, aber verworfener Kandidat:** die naheliegende Forderung, jedes der fuenf Delta-Destillate solle `brandschutz` als Abnehmer zurueckbenennen, ist **kein** Befund — gemessen tragen nur 3 von 376 normen-Destillaten und 5 von 325 energie-Destillaten ueberhaupt einen Abnehmer-Vermerk; die Rueckkante liegt in dieser Architektur bewusst im REGISTER, nicht im Destillat. | Fassungs-Vorbehalt an den Anfang von Abschnitt 4 gesetzt (16 Zeilen), der die fuenf Delta-Destillate namentlich nennt, die beiden beruehrten Stellen benennt und ausdruecklich festhaelt, dass der `status: established` sie **nicht** ohne Gegenlesen zitierfaehig macht. Bewusst **keine** Korrektur der Tabellenwerte selbst: das verlangt das Original-PDF und ist Arbeit der KB `normen` (Run 59 fuehrt sie unter «18 der 23 bleiben offen»), nicht eines Aufsichtslaufs. | umgesetzt bis zum Vorbehalt (active-with-flagging, Lauf 15); Nachfuehrung der Tabellen offen bei `normen` |
+| SYN-42 | wissen/normen/wiki/REGISTER.md (Zeile 37) · skills/brandschutz | 6 | **Die Statuszelle war schon in dem Commit ueberholt, der sie schrieb.** `wissen/normen/wiki/REGISTER.md` Z. 37 (Run 59, 22.08.2026) fuehrte die fuenf Fassungs-Deltas mit dem Status «offen — die Abnehmer-Skills sind noch nicht nachgezogen (v.a. `brandschutz`: QSS-Tabelle, Gesamthoehe, BFS-Pruefintervalle)». Gegenprobe am Commit-Inhalt: `git show 69027822 --name-only` enthaelt **sowohl** `wissen/normen/wiki/REGISTER.md` **als auch** `skills/brandschutz/SKILL.md` (+25/0, exakt die drei genannten Punkte). Der Zulieferer meldete also eine Bringschuld als offen, die er im selben Zug erfuellt hatte. Folge: der naechste Leser — Mensch wie Loop — haelt den Skill fuer veraltet und zieht ihn ein zweites Mal nach, oder er misstraut ihm ohne Anlass. **Kein Vorwurf an den Lauf:** ein Selfcommit buendelt 15 Minuten Dateiarbeit, die Reihenfolge innerhalb des Bundles ist nicht sichtbar; genau deshalb gehoert der Status am Ende des Laufs gegen den eigenen Arbeitsstand geprueft und nicht beim Schreiben der Zeile gesetzt. | Statuszelle zeilenindiziert korrigiert (1/1, keine Zeile verloren, kein globales Ersetzen): «teilweise erledigt», Commit-Hash genannt, und der real verbliebene offene Rest benannt — der Synthese-Artikel aus SYN-41. | umgesetzt (active-with-flagging, Lauf 15) |
 
 Erstlauf: 15.07.2026 (Lauf 01, Session Synergie-Orchestrator-Einrichtung).
 Lauf 02: 25.07.2026 (monatlicher Lauf, vorgezogen auf den Task-Termin; Delta-Basis Git-Log +
@@ -563,3 +565,75 @@ an einem eindeutigen Anker, kein globales Ersetzen), 49/59; Register **2/0** fue
 SYN-Zeilen, **38/40 Tabellenzeilen**, 505/507, diese Fussnote haengt zusaetzlich an;
 `scripts/screensaver-idle-watchdog.sh` neu angelegt, `diff` gegen `~/bin/`-Original leer.
 Keine Datei hat Zeilen verloren. Laufbericht: `outputs/2026-08-21_synergie-lauf-14.md`.
+
+
+---
+
+Lauf 15: 22.08.2026 17:10-17:35 (Tagestakt, Delta-Basis 21.08.2026 17:10, Fenster 24,0
+Stunden, 105 Commits). Uhr-Check bestanden: Stationsuhr 17:10 CEST, juengster nativer
+Synology-Push `11a6af91` um 17:00:06 — Abweichung im Minutenbereich, kein Umdatieren noetig.
+Gegenprobe zur Delta-Messung bestanden: HEAD des SSD-Klons ist derselbe Commit `11a6af91`,
+und der aelteste Treffer im Fenster (`fbc5511f`, 21.08. 17:15) schliesst lueckenlos an die
+Delta-Basis an. Strukturelles Delta: **0 neue** Skills/Agenten/Connectoren/Commands/Services/
+Rules, **8 geaenderte** Struktur-Dateien — davon zwei (`rules/dokument-layout-standard.md`,
+`rules/betrieb-chronik.md`) die eigenen Edits aus Lauf 14 und deshalb nicht aufgerollt.
+Schritt 2 (Frueh-Ausstieg) griff wegen der sechs echten Aenderungen nicht.
+
+**Neu: SYN-41** (die fuenf VKF-Fassungs-Deltas erreichten `skills/brandschutz/SKILL.md`, aber
+nicht den `established`-Synthese-Artikel `wissen/normen/wiki/synthese-sia-vkf-fachskills.md`,
+der zwischen Destillat und Skill sitzt und ohne Gegenlesen zitierfaehig ist; Fassungs-Vorbehalt
+gesetzt) und **SYN-42** (die Statuszelle in `wissen/normen/wiki/REGISTER.md` Z. 37 meldete die
+Bringschuld an `brandschutz` als offen, obwohl derselbe Commit `69027822` sie erfuellte;
+korrigiert).
+
+Geprueft und **kein Befund**: (1) `skills/wettbewerb/SKILL.md` (`66bcbd21`, 8/0) verdrahtet den
+Harness an `wissen/wettbewerbs-dna/wiki/muster/jury-argumente-*.md` — alle drei Zieldateien
+existieren, und die Rueckkante ist **beidseitig**: die KB nennt den Skill in `CLAUDE.md`,
+`CHANGELOG.md` und drei Muster-Artikeln. (2) `skills/kostenschaetzung/SKILL.md` (`66bcbd21`, 8/1)
+setzt die Bezugsgroessen-Abgrenzung CHF/m² NF ↔ CHF/m³ GV; `wissen/immobilienbewertung/wiki/
+realwert-sachwert.md` nennt `kostenschaetzung` an fuenf Stellen zurueck, `wissen/koordination/
+QUERBEZUEGE.md` fuehrt die Rollen-Matrix — Kante beidseitig, nichts zu setzen. (3)
+`skills/unternehmerkontrolle/SKILL.md` (`14bd91de`, 1/1) nimmt die Prozent-Auswertung der
+Auflage 2005 auf; das Zieldestillat existiert, und die fehlende Rueckbenennung ist nach der
+oben gemessenen Konvention (5 von 325 energie-Destillaten) **kein** Befund. (4)
+`rules/jans-dna-facetten.md` (`aa2e8ef5`, 12/13) ist zum **fuenften** Mal in Folge ueber den
+Kompilierweg entstanden: derselbe Commit aendert alle sechs Quell-Artikel unter
+`wissen/twin/wiki/` samt QUESTIONS und CHANGELOG — gleiche Pruefung wie in Lauf 11 bis 14,
+gleiches Ergebnis. (5) `rules/anrede-kontakte.md` (`66bcbd21`, 17/1) annotiert die
+Nivellier-Klausel gegen sechs Korpus-Belege und markiert sie ausdruecklich als
+«Entscheid Raphael ausstehend» — dieselbe Lage wie in Lauf 14: einen unbestaetigten Hinweis in
+einen ausfuehrenden Agenten zu schreiben wuerde ihn zur Regel machen, bevor Raphael entschieden
+hat. Wieder aufzurollen, sobald `wissen/twin/wiki/QUESTIONS.md` 260821 #1 beantwortet ist.
+
+**Adversarial gegengeprueft und bewusst verworfen:** (a) `skills/massgebendes-terrain/SKILL.md`
+nennt die **Gesamthoehe** und sah damit wie der naechste Abnehmer der geaenderten
+VKF-Messweise aus. Am Objekt gelesen (Z. 108-110) fuehrt der Skill die Gesamthoehe nach
+**§ 281 nPBG** — Zuercher Planungs- und Baurecht, ein anderes Rechtsregime als die
+VKF-Brandschutz-Gesamthoehe. Gleiches Wort, andere Norm, kein Konflikt. (b)
+`skills/auflagebereinigung/SKILL.md` nennt **QSS** und verweist auf
+`wissen/auflagebereinigung/wiki/brandschutz-auflagen-qss.md`; die 2019er-Fassung hat die
+QSS-Schwelle fuer den Brandschutzkonzept-Bericht von 3 auf 4 gehoben und die
+Uebereinstimmungserklaerung auf den QS-Verantwortlichen verengt. Am Objekt gelesen behauptet der
+Artikel **keine** allgemeine Schwelle, sondern haelt die QSS-Stufe 3 als projektbezogenen Befund
+aus dem Bauentscheid 2619 KISPI fest, und fuehrt die Uebereinstimmungserklaerung bereits als
+«QS-unterzeichnet» — beides deckungsgleich mit dem Delta. Kein Befund. (c) Die
+4'800-m²-Treffer in `skills/kostenschaetzung` und `wissen/normen/wiki/synthese-...` sind zur
+Haelfte die **Parking-Brandabschnittsflaeche** (BRL 15-15 Ziff. 3.7.11) und nicht das
+gestrichene Kriterium fuer ueberhohe Raeume — dieselbe Zahl, anderer Sachverhalt; nur der
+Treffer an Z. 331 (Fluchtweg) traegt und ist in SYN-41 eingegangen.
+
+**Gemessen, aber nicht aufgerollt:** reine KB-Inhaltsarbeit ohne neue Bausteine in `twin` (19),
+`normen` (17), `energie` (12), `planungsgrundlagen` (6), `immobilienbewertung` (2),
+`architekten-synobsis` (2) — nach Schritt 2 kein Grund fuer eine Aufrollung, soweit nicht wie
+bei `normen` ein offener Register-Eintrag den Partner nennt. `wissen/claude-code/` ist **keine**
+neue KB (angelegt `fe6f1150`, 29.07.2026). Nicht neu aufgerollt (Compounding, kein Beteiligter
+bewegt): SYN-01 bis SYN-40. Kein neuer Service-ENTWURF, kein Katalog-Bezug.
+
+Schreib-Kontrolle nach Rule `auto-verbesserungen` 260811, alle Werte mit `git diff --numstat`
+gemessen: `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` **16/0** (reines Einsetzen an
+einem eindeutigen Anker, Trefferzahl vor dem Schreiben auf 1 geprueft), Zeilenzahl 549/565;
+`wissen/normen/wiki/REGISTER.md` **1/1** (zeilenindizierte Ersetzung nur der Statuszelle, Praefix
+und Suffix vorher assertiert), Zeilenzahl 741/741; Register **2/0** fuer die beiden SYN-Zeilen,
+**40/42 Tabellenzeilen**, 565/567, diese Fussnote haengt zusaetzlich an. Kein globales
+Suchen-und-Ersetzen, keine Datei hat Zeilen verloren. Laufbericht:
+`outputs/2026-08-22_synergie-lauf-15.md`.

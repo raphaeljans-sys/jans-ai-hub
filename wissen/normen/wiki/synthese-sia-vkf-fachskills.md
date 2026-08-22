@@ -243,6 +243,22 @@ deutscher Kostenreferenz die Flächendefinition immer explizit ausweisen.
 
 ## 4. Skill `brandschutz` — VKF-Brandschutzvorschriften 2015
 
+⚠ **Fassungs-Vorbehalt, gesetzt 22.08.2026 (Synergie-Lauf 15) — vor jeder Verwendung dieses
+Abschnitts lesen.** Die Tabellen unten stehen auf der Ausgabe **2015**. Am 22.08.2026 hat der
+Normen-Lauf 59 fuenf Fassungs-Deltas destilliert (`destillate/vkf-brl-10-15-fassung-2019-delta.md`,
+`vkf-brl-11-15-fassung-2019-delta.md`, `vkf-brl-108-15-fassung-2020-delta.md`,
+`vkf-brl-104-15-fassung-2022-delta.md`, `vkf-verz-40-15-fassung-2025-delta.md`); `skills/brandschutz/SKILL.md`
+wurde im selben Commit (`69027822`) nachgezogen, **dieser Artikel nicht**. Zwei Stellen hier sind
+davon unmittelbar beruehrt: (1) die Hoehenklassifikation geringer / mittlerer Hoehe / Hochhaus in
+Abschnitt 4.1 misst die **Gesamthoehe**, deren Messweise am Flachdach mit der Fassung 01.01.2019
+geaendert hat (neu ab Dachflaeche ueber dem **tiefstgelegenen** massgebenden Terrain statt ab
+Dachrand); (2) die Fluchtweg-Erleichterung «bei ueberhohen Raeumen … bis 50 m» in Abschnitt 4.4
+haengt am Begriff **ueberhohe Raeume**, dessen Flaechenkriterium > 4'800 m² mit derselben Fassung
+**entfallen** ist (es genuegt eine Raumhoehe > 6.0 m), womit die Erleichterung ein Vielfaches an
+Raeumen erfasst. Bis zur Nachfuehrung gilt fuer diese beiden Punkte das Delta-Destillat, nicht die
+Tabelle. Der `status: established` dieses Artikels bezieht sich auf den 2015-Bestand; er macht die
+beiden genannten Stellen **nicht** ohne Gegenlesen zitierfaehig (Rule `normen-referenz` Ziff. 1b).
+
 **Systematik zuerst:** Brandschutzvorschriften = **Brandschutznorm (Dachnorm) + Brandschutz-
 richtlinien**; die VKF gibt zusätzlich Erläuterungen/Arbeitshilfen für den Vollzug heraus
 (VKF 1-15:2015, Art. 4-6). Die **Zahlenwerte stehen in den Richtlinien, nicht in der Norm.**
