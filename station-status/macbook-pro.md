@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 07:06:35
+Stand: 22.08.2026 07:16:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:03)
@@ -12,4 +12,4 @@ Stand: 22.08.2026 07:06:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ba6dfe63 logbuch: Radar-Briefing 22.08.2026 + 5 Registerzeilen (Bodenbelaege PPTS, Kueche Roethlisberger, Jegen-Nachtrag, Lehrstelle, ETH-Anlass)
+- 1bfcf581 nas-selfcommit: 2 Datei(en) 2026-08-22 07:15

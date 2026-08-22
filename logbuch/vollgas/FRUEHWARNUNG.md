@@ -4,6 +4,161 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-22 07:15 — STILL (keine Mail)
+
+Messzeitpunkt 22.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 545 Dateien im 9-Tage-Fenster MacBook Pro / 147 Mac Mini, Zeilenfilter
+je `timestamp[:10]`. Mac Mini über den Dual-Pfad-Alias `mini` gemessen (Skript via scp),
+Antwort sofort.
+
+### Verbrauch beide Stationen (Mio Tokens, teuer = in + cache_creation + out)
+
+| Tag | MBP teuer | MBP total | Mini teuer | Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 8.40 | 170.91 | 2.41 | 73.54 | 10.81 |
+| 17.08. | 10.23 | 254.85 | 2.30 | 66.25 | 12.53 |
+| 18.08. | 5.22 | 119.87 | 1.09 | 33.12 | 6.31 |
+| 19.08. | 6.29 | 133.47 | 3.04 | 41.98 | 9.33 |
+| 20.08. | 8.68 | 209.49 | 1.90 | 51.42 | 10.58 |
+| 21.08. | 7.07 | 175.25 | 3.56 | 81.37 | 10.63 |
+| 22.08. (bis 07:15) | 1.11 | 31.98 | 0.58 | 12.51 | 1.69 |
+
+Alle Tageswerte 15.–20.08. reproduzieren den gestrigen Eintrag exakt. Der **21.08.
+schliesst mit 10.63 kombiniert teuer**, praktisch deckungsgleich mit dem 20.08. (10.58)
+und im Mittelfeld der laufenden Reihe. Der Mac Mini legte zu (1.90 auf 3.56), der
+MacBook Pro ging zurück (8.68 auf 7.07) — die Verschiebung folgt der Nachtschicht, nicht
+einem neuen Verbraucher. Schwelle (b) 35 Mio an einem Tag bzw. 18 Mio an zwei Folgetagen:
+in beiden Formen deutlich unterschritten.
+
+### Blockade-Status: FREI
+
+Strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` / `message.type=="error"`
+/ `apiErrorStatus==429` mit Limit-Bezug im Text: **0 echte Limit-Fehlerereignisse** im
+72-Stunden-Fenster, auf beiden Stationen. Keine blockierte interaktive Sitzung, kein
+erschöpftes Wochenlimit.
+
+Kontingentstand aus `kontingent-budget.sh --json` (nativ auf dem Mini gemessen): Ampel
+**FREI**, 42.94 von 167.0 Mio verbraucht = **25.7 % bei 68.6 % verstrichener Woche**,
+Rückstand **−42.9 Punkte** — der achte wachsende Rückstand in Folge und erneut der
+grösste je gemessene. Verteilung MacBook Pro 32.32 / Mac Mini 10.61 Mio, beide Stände
+frisch.
+
+### Messmuster: Kontrollprobe hat einen Fehlbefund abgefangen
+
+Die erste Suche nach den Task-Openern lieferte **«KEINE Session» für alle sechs
+beobachteten Tasks** — ein Ergebnis, das die Kriterien (d) und (e) gleichzeitig ausgelöst
+und eine Mail über einen Totalausfall erzeugt hätte, den es nicht gab. Die vorgeschriebene
+Kontrollprobe widerlegte es sofort: `scheduled-task` kommt in **109 von 126** Dateien vor.
+
+Ursache und Ergänzung zum Messhinweis vom 18.08.: **welche Schreibweise richtig ist, hängt
+davon ab, ob roher Dateitext oder dekodiertes JSON durchsucht wird.** Im Dateitext stehen
+die Anführungszeichen escaped, dort greift nur das escapte Muster. Wer die Zeile dagegen
+mit `json.loads` dekodiert und im Feld `message.content` sucht, hat **einfache**
+Anführungszeichen vor sich; das escapte Muster trifft dann NIE. Genau dieser Fall lag
+heute vor. Beide Formen mit `or` zu prüfen ist der sichere Weg.
+
+Zweite Falle im selben Schritt: eine Suche über die **ganze** Datei statt über die erste
+User-Eingabe meldete den Radar-Task mit der Session dieser Frühwarnung — der Task-Prompt
+zitiert das Muster im Messhinweis selbst. Getypt wird ausschliesslich über die **erste**
+User-Eingabe.
+
+### Operative Briefings: Radar durchgelaufen, die übrigen drei noch nicht fällig
+
+Der Logbuch-Radar hat heute um 07:03 gearbeitet (193 Zeilen) und sein Deliverable
+erreicht: Commit `ba6dfe63` trägt «Radar-Briefing 22.08.2026 + 5 Registerzeilen»
+(Bodenbeläge PPTS, Küche Röthlisberger, Jegen-Nachtrag, Lehrstelle, ETH-Anlass), still
+beendet ohne eigene Mail.
+
+Verzugscheck (08:10), Zahlungsabgleich (08:25) und das Chef-Briefing (08:55) haben ihre
+Slots **nach** dem Messzeitpunkt 07:15 — dazu keine Aussage und kein Befund. Ihre Läufe
+vom 21.08. waren vollständig (78 / 70 / 352 Zeilen); beim Chef-Briefing ist der Versand
+belegt (17 Treffer `com.apple.mail`, 26 `osascript` in der Session).
+
+### Radar-Herzschlag: INTAKT
+
+Beide Signale frisch: RADAR.md jüngster Eintrag (erste `## `-Überschrift, nicht der
+Dateikopf) **22.08. 00:58**; dazu eine Radar-Session um 01:01 CEST, rund 6.3 Stunden vor
+dieser Messung. Elf Radar-Sessions im 4-Tage-Fenster. Der Radar meldet Ampel FREI, vier
+KBs mit Liefer-Delta, keine Waisen, kein Loop ohne Ertrag.
+
+### Liefer-Delta der Lern-Loops: liefert
+
+Sechs Nachtschicht-Zyklen 21./22.08.: 21.08. 02:39 (rc=1, Budgetdeckel, im gestrigen
+Eintrag geklärt) · 05:34 · 13:34 · 23:34 · 22.08. 02:38 · 05:38, alle übrigen rc=0. Das
+Gate hat seit dem 15.08. keinen Lauf mehr abgewiesen (`gate-Macmini.log`).
+
+Belegtes Delta der letzten 24 Stunden, alles im NAS-Repo:
+
+Die Normen-KB lieferte Run 59 — fünf VKF-Fassungs-Deltas destilliert (BRL 10-15/11-15 auf
+2019, 108-15 auf 2020 Stand 2022, 104-15 auf 2022, VERZ 40-15 auf 2025), neun
+Destillat-Dateien, Register, Fassungsmatrix, QUESTIONS und der Brandschutz-Skill
+nachgeführt.
+Der Zwilling lieferte Batch 101 — Sent Items und Drafts 21./22.08., zwei neue Marker
+(Unterstrich-Bullet gilt auch im Sie, Sammelanrede mit «&»), `stilmetrik.py` erweitert;
+dazu der tägliche Fidelity-Review über alle sechs Facetten.
+Der Wissens-Chef lieferte Run 39 — Nivellier-Klausel in `anrede-kontakte.md` gegen sechs
+Korpus-Belege annotiert, Zürcher EnerG in die Erlass-Tabelle, überholte Holzbau-Pauschale
+durch belegte Quantile ersetzt, vier Cross-KB-Kanten.
+Die KBs Energie, Immobilienbewertung und Claude-Code lieferten Health-Checks mit
+CHANGELOG-Eintrag.
+
+**Delta-Null-Serien: keine.** Von je drei jüngsten Reports in den sechs geprüften KBs
+trägt keiner einen Delta-Null-Marker.
+
+**Mittags-Slot 13:30 (befristeter Versuch seit 29.07.):** an sechs von sieben Tagen der
+Woche gelaufen (16.–21.08. je ein Lauf, rc=0; am 22.08. noch nicht fällig), vom Gate nie
+abgewiesen. Der Lauf vom 21.08. hat geliefert — Commit `1c7f1454` trägt CHANGELOG und
+QUESTIONS der Synobsis-KB. Der Slot rechtfertigt sich damit; die Entscheidung über seinen
+Verbleib bleibt bei Raphael.
+
+### Destillat-Aufsicht: Front steht seit fünf Tagen still — aber ohne Tokenverbrauch
+
+(a) **Fortschritt** Korpus 2 in die KB `projekt-lessons`: 21 von 21 Sektionen
+inventarisiert, 813 Dateien erfasst, **706 offen**. Der Stand ist gegenüber dem
+Queue-Eintrag vom 16.08. (807 offen) um 101 Dateien vorgerückt, aber diese Bewegung
+stammt vollständig aus Run 1 vom 17.08. **Seit dem 17.08. 23:39 hat kein Lauf die Front
+bewegt.**
+
+(b) **Ertrag** `wissen/projekt-lessons/wiki/`: 9 Artikel, davon 4 `established` und
+3 `emerging`; jüngstes mtime **17.08. 23:31**. Ein einziger Lauf-Report liegt vor
+(`2026-08-17_destillat-...-run1.md`).
+
+(c) **Delta-Null-Serie: nicht anwendbar** — es gibt keine drei Reports in Folge, sondern
+nur einen einzigen.
+
+(d) **Stückkosten** (kombiniert teuer je an dem Tag geschriebenem oder erweitertem
+Wiki-Artikel, Artikelzahl über `git log --name-only`, ohne INDEX/QUESTIONS):
+19.08. 9.33/15 = **0.62 Mio** (ohne die sechs Twin-Facetten 9.33/9 = 1.04) ·
+20.08. 10.58/11 = **0.96 Mio** (ohne Twin 10.58/5 = 2.12) ·
+21.08. 10.63/13 = **0.82 Mio** (ohne Twin 10.63/7 = 1.52). Die Reihe bleibt stabil im
+Band der Vorwoche; der Twin-Fidelity-Review fasst weiterhin täglich sechs Dateien an und
+verbessert den Rohwert um rund den Faktor 1.7.
+
+**Kriterium (f) ist NICHT erfüllt, und das ist der wichtige Teil des Befunds.** Die Regel
+greift bei Tokenverbrauch **ohne** Bewegung. Hier ist es umgekehrt: der Destillat-Loop hat
+in den letzten 96 Stunden auf diesem Korpus überhaupt nicht gearbeitet — keine Session der
+beiden Stationen nennt ihn. Die Nachtschicht fährt derzeit Normen, Zwilling, Energie und
+Wissens-Chef. Das ist **Leerstand, nicht Verschwendung**, und damit Sache des Radars,
+nicht dieser Mail: die Triage Phase 1 mit 706 offenen Dateien steht seit fünf Tagen ohne
+Bearbeiter. Eine Spec liegt seit dem 16.08. vor, das Spec-Gate hängt also nicht.
+
+(g) **Korpus-Queue nicht komplett:** Korpus 1 (Bauprodukte) erledigt, Korpus 2 aktiv,
+Korpus 3 und 4 warten. Kein Entscheid Raphaels fällig.
+
+### Meldeentscheid: STILL
+
+Keines der Kriterien (a) bis (g) ist erfüllt. Verbrauch im Mittelfeld, Kontingent bei
+25.7 % nach 68.6 % der Woche, kein Limit-Ereignis, alle fälligen Briefings mit
+Deliverable, Radar-Herzschlag frisch, Lern-Loops mit belegtem Delta, Queue nicht komplett.
+Keine Mail.
+
+**Zur Beobachtung an den Radar:** stillstehende Destillat-Front bei Korpus 2 seit 17.08.
+(706 Dateien offen, kein Lauf in 96 h) und der wachsende Kontingent-Rückstand von
+−42.9 Punkten, der achte in Folge.
+
+**Zuletzt gemailt:** 08.08.2026 07:29. Seither still.
+
 
 ## 2026-08-21 07:15 — STILL (keine Mail)
 
