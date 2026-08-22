@@ -7,7 +7,7 @@ datenstand: "2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2020, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2020 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 9cfedaf550e2c31e01aaced8fbe0ec64). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
-links: [[REGISTER]]
+links: [[REGISTER]], [[vkf-brl-108-15-fassung-2020-delta]]
 ---
 
 # VKF-Brandschutzerläuterung 108-15: Gewährleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)
@@ -15,7 +15,7 @@ links: [[REGISTER]]
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2020**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `9cfedaf550e2c31e01aaced8fbe0ec64`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `9cfedaf550e2c31e01aaced8fbe0ec64`). **~~Das Fassungs-Delta ist nicht destilliert.~~ **ERLEDIGT 22.08.2026 (Run 59): das Fassungs-Delta auf die geltende Fassung 01.01.2020 / Stand 01.08.2022 ist destilliert in [[vkf-brl-108-15-fassung-2020-delta]] — dort zuerst nachlesen.**
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
@@ -80,6 +80,11 @@ BFS sind auf Basis des Brandschutzkonzepts zu planen, dokumentieren, erstellen, 
 - Interne Kontrollen und Wartungsarbeiten an angesteuerten Komponenten nach festgelegtem Plan und Herstellervorgaben (Ziff. 9.2).
 - Berechtigungen und Prozesse für Arbeiten an der BFS sind zu definieren (Ziff. 9.3).
 - Integrale Tests müssen in der Betriebsphase in regelmässigen Intervallen durchgeführt und protokolliert werden; das Intervall ergibt sich aus der Komplexität des Gesamtsystems und wird durch die Brandschutzbehörde festgelegt; kürzere Intervalle sind aufgrund Herstellerangaben möglich (Ziff. 9.4).
+  ⚠ **AB 01.01.2020 ERSETZT — das ist heute falsch.** Das Intervall ist kein Ermessensentscheid
+  der Brandschutzbehörde mehr, sondern ein festes Mindestraster nach Risikogruppe (Ziff. 7.4
+  Abs. 2): **Risikogruppe 1 mindestens alle 2 Jahre** (RWA mit Leistungsnachweis, RDA),
+  **Risikogruppe 2 mindestens alle 4 Jahre** (Beherbergungsbetriebe Typ [a]/[b], RWA ohne
+  Leistungsnachweis), **Risikogruppe 3 mindestens alle 6 Jahre** (alle übrigen). Siehe [[vkf-brl-108-15-fassung-2020-delta]]
 
 ### Gültigkeit (Ziff. 11, S. 11)
 Gilt ab 1. Januar 2015; genehmigt durch die Technische Kommission VKF am 23. September 2014.

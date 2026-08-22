@@ -37,8 +37,8 @@ Fliesstext geführt (kein Sachbefund) · **✓** = übereinstimmend.
 | BRL | Titel | geltend | KB vorher | Befund | Dok.-Nr. | MD5 (gekürzt) |
 |---|---|---|---|---|---|---|
 | 1-15 | Brandschutznorm | 01.01.2015 | 2015 | ✓ | 57 | `9774b4dbb936` |
-| 10-15 | Begriffe und Definitionen | **01.01.2019** | 2015 | **✗** | 2768 | `63d4e6017e12` |
-| 11-15 | Qualitätssicherung im Brandschutz | **01.01.2019** | 2015 | **✗** | 2706 | `6338ef4c5b29` |
+| 10-15 | Begriffe und Definitionen | **01.01.2019** | 2015 | **✗ → Δ** | 2768 | `63d4e6017e12` |
+| 11-15 | Qualitätssicherung im Brandschutz | **01.01.2019** | 2015 | **✗ → Δ** | 2706 | `6338ef4c5b29` |
 | 12-15 | Brandverhütung und organisat. Brandschutz | **01.04.2026** | 2015 | **✗** | 1545 | `393cccfa865b` |
 | 13-15 | Baustoffe und Bauteile | 01.01.2017 | 2015 | (FM) | 71 | `5dc4d5989c41` |
 | 14-15 | Verwendung von Baustoffen | 01.01.2017 | 2015 | (FM) | 77 | `bebf8a418e97` |
@@ -56,21 +56,32 @@ Fliesstext geführt (kein Sachbefund) · **✓** = übereinstimmend.
 | 26-15 | Gefährliche Stoffe | **01.04.2026** | 2015 | **✗** | 125 | `90813af41a3c` |
 | 27-15 | Nachweisverfahren im Brandschutz | 01.01.2015 | 2015 | ✓ ⚠ | 127 | `72e31ae5a6e7` |
 | 28-15 | Anerkennungsverfahren | 01.01.2015 | 2015 | ✓ | 133 | `304d843c9853` |
-| 40-15 | Weitere Bestimmungen | **11.06.2025** | 2015 | **✗** | 137 | `64a96d9cca14` |
+| 40-15 | Weitere Bestimmungen | **11.06.2025** | 2015 | **✗ → Δ** | 137 | `64a96d9cca14` |
 | 100-15 | Brandmauern | 01.01.2017 | 2015 | **✗** | 141 | `bd5d8ec274d1` |
 | 101-15 | Bauten mit Atrien und Innenhöfen | 01.01.2017 | 2015 | **✗** | 145 | `d4d2cfacaa3e` |
 | 102-15 | Bauten mit Doppelfassaden | 01.01.2017 | 2015 | **✗** | 149 | `43a8e5474278` |
 | 103-15 | Cheminées | 01.01.2017, **zurückgezogen 31.08.2025** | 2015 | **✗✗** | 3181 | `b5092d51280c` |
-| 104-15 | Spänefeuerungen | **01.12.2022** | 2015 | **✗** | 157 | `5a24599ab088` |
+| 104-15 | Spänefeuerungen | **01.12.2022** | 2015 | **✗ → Δ** | 157 | `5a24599ab088` |
 | 105-15 | Schnitzelfeuerungen | 01.01.2017 | 2015 | **✗** | 161 | `17f9eb64d937` |
 | 106-15 | Pelletsfeuerungen | 01.01.2017 | 2015 | **✗** | 165 | `adc9e5a34e15` |
 | 107-15 | Temporäre Flüssiggasanlagen | 01.01.2017 | 2015 | **✗** | 169 | `6347ae95b95b` |
-| 108-15 | Betriebsbereitschaft BFS | **01.01.2020** | 2015 | **✗** | 3017 | `9cfedaf550e2` |
+| 108-15 | Betriebsbereitschaft BFS | **01.01.2020, Stand 01.08.2022** ⚠ | 2015 | **✗ → Δ** | 3017 | `9cfedaf550e2` |
 | 1000-15 | Gebäude mit geringen Abmessungen | 01.01.2017 | 2015 | **✗** | 181 | `d422de8958eb` |
 | 1001-15 | Wohnbauten | 01.01.2017 | 2015/2017 | (FM) | 185 | `19e8b1a5942d` |
 | 1002-15 | Schulbauten | 01.01.2017 | 2015 | **✗** | 189 | `42a46e50bde0` |
 | 2001-15 | Solaranlagen (Merkblatt) | 01.01.2022 | 2022 | ✓ | 197 | `a17958fdf95c` |
 | 2005-15 | Lithium-Ionen-Batterien (Merkblatt) | 01.06.2021 | 2021 | ✓ | 3688 | `d80a21d7dbbc` |
+
+**⚠ Nachtrag Run 59 (22.08.2026) — zwei Korrekturen an dieser Matrix.**
+
+1. **108-15 trägt zwei Daten.** Das Titelblatt nennt die Fassung «01.01.2020 / 108-15de» **und
+   darunter «Stand 01.08.2022»**; die Änderungsliste weist den TKB-Beschluss vom 08.06.2022 aus.
+   Die Matrix führte nur «01.01.2020». **Merksatz:** bei den VKF-Erläuterungen ist das
+   Fassungsdatum nicht immer der aktuelle Stand — beide Zeilen des Titelblatts lesen.
+2. **Spalte «Befund», neuer Wert «✗ → Δ».** Er bedeutet: das Destillat beruhte auf der
+   überholten Fassung **und** das Fassungs-Delta ist inzwischen destilliert. Betroffen sind
+   **10-15, 11-15, 40-15, 104-15 und 108-15** (Run 59, Auftrag N58-1). Die übrigen 18 stehen
+   unverändert auf **✗**.
 
 **⚠ zu 27-15:** Das Titelblatt trägt 01.01.2015, die Hinweisseite nennt aber einen
 **ABSV-Beschluss vom 22.03.2017**. Fassungsdatum und Änderungsliste widersprechen sich; ob das

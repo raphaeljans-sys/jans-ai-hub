@@ -16,8 +16,21 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 > Besonders: **BRL 12-15 und 26-15 gelten in der Fassung 01.04.2026** (Teilrevision, destilliert
 > in `vkf-teilrevision-2026-pyrotechnik.md`), **BRL 103-15 ist zurückgezogen**.
 
+> ✅ **Fortschritt Run 59 (22.08.2026, Auftrag N58-1).** Für **fünf** der 23 überholten
+> Destillate ist das Fassungs-Delta jetzt destilliert: **10-15** (Glossar → 01.01.2019),
+> **11-15** (QS → 01.01.2019), **108-15** (BFS → 01.01.2020/Stand 01.08.2022), **104-15**
+> (Spänefeuerungen → 01.12.2022) und **40-15** (Weitere Bestimmungen → 11.06.2025). Die
+> Bestandsdestillate bleiben `superseded`, verweisen aber am Warnkasten und an den
+> betroffenen Stellen **inline** auf das jeweilige Delta-Destillat. Die restlichen 18
+> (überwiegend Fassung 2017) sind weiterhin offen.
+
 | Destillat | Norm | Ausgabe | Status |
 |---|---|---|---|
+| `vkf-brl-10-15-fassung-2019-delta.md` | **Fassungs-Delta** VKF-BRL 10-15 Begriffe und Definitionen, 2015 → **01.01.2019** (IOTH 22.09.2016 + 20.09.2018) | 01.01.2019 | speculative (Run 59, 22.08.2026, Hauptprozess-Destillat; sechs neue Begriffe, vier geänderte, einer umbenannt; Anhang S. 40/41/42/48 gerendert und abgelesen; vollständiger Wort-Diff über den Korpus, keine unangekündigte materielle Abweichung. Keine unabhängige Refuter-Runde) |
+| `vkf-brl-11-15-fassung-2019-delta.md` | **Fassungs-Delta** VKF-BRL 11-15 Qualitätssicherung im Brandschutz, 2015 → **01.01.2019** | 01.01.2019 | speculative (Run 59, 22.08.2026; Übereinstimmungserklärung vollständig auf den QS-Verantwortlichen übergegangen; **Brandschutzkonzept-Bericht neu erst ab QSS 4 erforderlich, bei QSS 3 nur empfehlenswert** — QSS-Tabelle beider Fassungen bei 190 dpi gerendert und vom Hauptprozess nachgelesen) |
+| `vkf-brl-108-15-fassung-2020-delta.md` | **Fassungs-Delta** VKF-BSE 108-15 Betriebsbereitschaft Brandfallsteuerungen, 2015 → **01.01.2020 / Stand 01.08.2022** | 01.01.2020, Stand 01.08.2022 | speculative (Run 59, 22.08.2026; **vollständige Neufassung, die sich als kleine Korrektur ausgibt** — die Änderungsliste dokumentiert nur 2020→2022. Prüfintervalle neu kodifiziert 2/4/6 Jahre nach Risikogruppe statt Behördenermessen; Fernzugriff, Rückstellung, Anlageverantwortlicher, Bewilligungspflicht für Rückbau neu) |
+| `vkf-brl-104-15-fassung-2022-delta.md` | **Fassungs-Delta** VKF-BSE 104-15 Spänefeuerungen, 2015 → **01.12.2022** | 01.12.2022 | speculative (Run 59, 22.08.2026; Silo-Baustoff RF1 → RF3 (cr), neu automatisches mechanisches Austragungssystem ab 45 m², Entstauber-Bemessung auf SN EN 16770 umgestellt. **Bildvergleich-Befund:** die Masse 1.2 × 2.0 m und 0.8 × 0.8 m stehen nicht mehr im Fliesstext, gelten aber laut Anhang-Skizze fort) |
+| `vkf-verz-40-15-fassung-2025-delta.md` | **Fassungs-Delta** VKF-Verzeichnis 40-15 Weitere Bestimmungen, 2015 → **11.06.2025** | 11.06.2025 | speculative (Run 59, 22.08.2026; **die Ausgabejahre der SN-/DIN-Referenzen sind entfallen**, dafür SIA-Parallelnummern; neu Eurocode-Serie Brandfall, Abschnitt 2.18 Nachweisverfahren-Literatur, Merkblätter 2001-15/2008-15/2011-15, Kategorie 3.10. Kap. 2.7-2.12, 2.15-2.19 und 3.1-3.5 nur textuell geprüft) |
 | `vkf-teilrevision-2026-pyrotechnik.md` | VKF-Teilrevision 2026 (BRL 12-15 + 26-15), Pyrotechnik | in Kraft 01.04.2026 | speculative (Erstdestillat Run 58, Wortlaut-Diff beider Fassungen; keine Refuter-Runde) |
 | `sia-register-2013.md` | SIA Rückzugs-/Ersatz-Register | Stand 25.02.2013 | established (verifiziert 260714, Stichprobe 13 Normen-Nummern, 1 Fehler in REGISTER.md korrigiert) |
 | `sia-gesamtverzeichnis-2002.md` | SIA Produkt-/Preiskatalog | ~2002 (historisch) | established (verifiziert 260714, Volltextabgleich) |

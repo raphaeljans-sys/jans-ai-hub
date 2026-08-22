@@ -57,6 +57,31 @@ Bei jeder Brandschutz-Anfrage sind diese Quellen primaer auszuwerten — sie sin
 - **Fassungsstand zuerst pruefen:** `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md` (83 Publikationen, Dokumentnummern und Fassungsdaten) bzw. `wissen/normen/wiki/REGISTER.md` Abschnitt D — nicht neu beschaffen.
 - **Warum diese Rangfolge (ergaenzt 20.08.2026, Synergie-Lauf 13, SYN-37):** Die Destillate tragen die richtige BSR-Nummernzuordnung seit dem 25.07.2026. Dieser Skill fuehrte die vertauschte Zuordnung bis zum 20.08.2026 (Commit `865d1df3`) weiter, weil er die KB nur im Modus B nannte und den primaeren Blick auf die Rohbibliothek lenkte — 26 Tage, in denen der belegte Wert im selben Repo lag.
 - Die Rohbibliotheken unten bleiben unverzichtbar fuer Volltexte, Anhang-Tabellen und Matrix-Zellen (die Destillate weisen dort selbst auf ihre Grenze hin) sowie fuer alles, was noch nicht destilliert ist.
+- **Fassungs-Deltas (ergaenzt 22.08.2026, Normen-Run 59):** Fuer fuenf VKF-Publikationen ist das
+  Delta auf die geltende Fassung destilliert und **vor jeder Aussage dieses Skills zu lesen**:
+  `vkf-brl-10-15-fassung-2019-delta.md` (Begriffe), `vkf-brl-11-15-fassung-2019-delta.md` (QS),
+  `vkf-brl-108-15-fassung-2020-delta.md` (Brandfallsteuerungen),
+  `vkf-brl-104-15-fassung-2022-delta.md` (Spaenefeuerungen),
+  `vkf-verz-40-15-fassung-2025-delta.md` (Weitere Bestimmungen). Drei davon beruehren diesen Skill
+  unmittelbar:
+  - **Gesamthoehe am Flachdach** (BSR 10-15, Fassung 01.01.2019): gemessen wird neu ab der
+    Dachflaeche bzw. dem Dachflaechenbereich ueber dem **tiefstgelegenen** Teil des massgebenden
+    Terrains, nicht mehr ab dem Dachrand. Kann die Einstufung geringer / mittlerer Hoehe / Hochhaus
+    verschieben — also Stufe 2 der Modus-B-Checkliste unten.
+  - **QSS-Tabelle** (BSR 11-15, Fassung 01.01.2019): ein eigenstaendiger **Brandschutzkonzept-Bericht
+    ist erst ab QSS 4 erforderlich**, bei QSS 1 bis 3 nur empfehlenswert (2015: ab QSS 3
+    erforderlich). Unveraendert bleibt: Brandschutzkonzept unter Anwendung von Nachweisverfahren ist
+    in QSS 1 und 2 nicht zulaessig, ab QSS 3 zulaessig. Ebenfalls neu: die **Uebereinstimmungserklaerung
+    unterzeichnet allein der QS-Verantwortliche Brandschutz**, nicht mehr die Eigentuemerschaft, und
+    nur noch ueber die ihm auferlegten QS-Massnahmen.
+  - **«Ueberhohe Raeume»** (BSR 10-15): das Flaechenkriterium > 4'800 m² ist **entfallen**, es genuegt
+    eine Raumhoehe > 6.0 m. Der Begriff erfasst damit ein Vielfaches an Raeumen; er steht im Glossar
+    neu unter Ü statt unter G.
+  - **Neue Begriffe mit Planungswirkung** (BSR 10-15): **Galerie** (Luftraum > 50 % der
+    Raumgrundflaeche), **Raum** (Galerien und untergeordnete abgetrennte Bereiche sind keine
+    eigenstaendigen Raeume), **Einliegerwohnung**, **Verkaufsraeume** (es gelten die Anforderungen an
+    Gewerbe und Industrie), **Dachkonstruktionen** — und fuer **Kindertagesstaetten** gelten neu
+    ausdruecklich die nutzungsbezogenen Anforderungen an **Schulen**.
 
 ### 1) Bueroweite Brandschutz-Wissensbasis
 

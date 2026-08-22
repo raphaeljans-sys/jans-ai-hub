@@ -7,7 +7,7 @@ datenstand: "2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 11.06.2025, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 11.06.2025 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 64a96d9cca14529109948b79282d5641). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
-links: [[REGISTER]]
+links: [[REGISTER]], [[vkf-verz-40-15-fassung-2025-delta]]
 ---
 
 # VKF-Verzeichnis 40-15 "Weitere Bestimmungen"
@@ -15,7 +15,7 @@ links: [[REGISTER]]
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **11.06.2025**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `64a96d9cca14529109948b79282d5641`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `64a96d9cca14529109948b79282d5641`). **~~Das Fassungs-Delta ist nicht destilliert.~~ **ERLEDIGT 22.08.2026 (Run 59): das Fassungs-Delta auf die geltende Fassung 11.06.2025 ist destilliert in [[vkf-verz-40-15-fassung-2025-delta]] — dort zuerst nachlesen.**
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den

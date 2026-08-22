@@ -1042,8 +1042,13 @@ korrigiert. Pfade unten relativ zu `PL - 02_Recht_Norm/02_Normen/SIA_Norm/`.
 > destilliert), **BRL 103-15 «Cheminées» ist am 31.08.2025 zurueckgezogen**.
 >
 > **Ein `[x]` in diesem Abschnitt ist damit ein Beleg fuer geleistete Destillierarbeit, kein
-> Gueltigkeitsnachweis.** Die Fassungs-Deltas sind bis auf die Teilrevision 2026 nicht
-> destilliert (QUESTIONS N58-1).
+> Gueltigkeitsnachweis.**
+>
+> ✅ **Stand nach Run 59 (22.08.2026): 5 der 23 Fassungs-Deltas sind destilliert** —
+> **10-15** (→ 01.01.2019), **11-15** (→ 01.01.2019), **108-15** (→ 01.01.2020, Stand
+> 01.08.2022), **104-15** (→ 01.12.2022), **40-15** (→ 11.06.2025); je ein eigenes
+> `…-fassung-<jahr>-delta.md` in `destillate/`. **18 bleiben offen**, ganz ueberwiegend die
+> Fassung 01.01.2017 (QUESTIONS N58-1, Rang 5).
 
 
 | Status | Prio | Datei | Norm-Nr | Jahr | Bemerkung |

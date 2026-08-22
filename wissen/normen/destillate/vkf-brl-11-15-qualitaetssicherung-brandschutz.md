@@ -9,7 +9,7 @@ status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung ver
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2019 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 6338ef4c5b296d61e6ba4a2cbc7c7910). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
 verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro
-links: [[REGISTER]]
+links: [[REGISTER]], [[vkf-brl-11-15-fassung-2019-delta]]
 ---
 
 # VKF-BRL 11-15de:2015 — Qualitätssicherung im Brandschutz
@@ -17,7 +17,7 @@ links: [[REGISTER]]
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2019**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `6338ef4c5b296d61e6ba4a2cbc7c7910`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `6338ef4c5b296d61e6ba4a2cbc7c7910`). **~~Das Fassungs-Delta ist nicht destilliert.~~ **ERLEDIGT 22.08.2026 (Run 59): das Fassungs-Delta auf die geltende Fassung 01.01.2019 ist destilliert in [[vkf-brl-11-15-fassung-2019-delta]] — dort zuerst nachlesen.**
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
@@ -77,6 +77,13 @@ Ziff. 1 (S. 5): Gilt für alle Neubau-, Mieterausbau-, Umbau-, Sanierungs- und U
 - **QSS-Bestimmungstabelle nach Nutzung** (Ziff. 3.3.1, S. 7): 3 Nutzungsgruppen x 3 Gebäudehöhenkategorien → QSS 1 bis 3, siehe Kernziffern oben für die Zuordnungslogik (Zahlenwerte hier nicht als Vollzitat wiedergegeben).
 - **QSS-Bestimmungstabelle nach besonderen Brandrisiken** (Ziff. 3.4.1, S. 8): 6 Risikogruppen x 3 Gebäudehöhenkategorien → QSS 1 bis 3, inkl. Fussnoten [1] (bei Hochhäusern BRL «Verwendung von Baustoffen» massgebend statt QSS-Tabelle) und [2] (objektspezifisch durch Behörde).
 - **Umsetzungs-Matrix Anhang** (S. 19-20): listet rund 43 Elemente (Rollen, Dokumente, Kontrollarten) je QSS 1-4 mit Symbolik "erforderlich" (●) / "empfehlenswert" (○) — z.B. Brandschutzfachmann VKF nur ab QSS 2 erforderlich, Brandschutzexperte VKF ab QSS 3, Kontrollorgan Brandschutz erforderlich nur QSS 4 (empfehlenswert QSS 3), Brandschutzkonzept unter Nachweisverfahren nicht zulässig in QSS 1/2, zulässig ab QSS 3; Gebäudekontrollbuch ab QSS 2 erforderlich (QSS 1 empfehlenswert). Fussnote [7] (Flucht- und Rettungswegepläne "○" ab QSS 2): "erforderlich bei Beherbergungsbetrieben".
+  ⚠ **2019 GEÄNDERT, zwei Stellen dieser Matrix:** (1) Die Zeile heisst neu «Brandschutzkonzept
+  **(Bericht)**» und steht bei QSS 1 bis 3 auf ○ (empfehlenswert), nur bei QSS 4 auf ● — 2015 war
+  sie ab **QSS 3 erforderlich**. Entfallen ist die Pflicht zum Bericht, nicht die zum Konzept.
+  (2) Fussnote [7] lautet neu «Erforderlich **auf Verlangen der Brandschutzbehörde** (z.B.
+  Beherbergungsbetriebe)» — aus dem Automatismus wird ein Behördenentscheid. Unverändert:
+  Brandschutzkonzept unter Nachweisverfahren bleibt in QSS 1/2 unzulässig, ab QSS 3 zulässig.
+  Siehe [[vkf-brl-11-15-fassung-2019-delta]]
 - **Leistungsbilder QSS 1-4** (Anhang S. 21-29): je Stufe Übliche Grundleistungen und Besondere Leistungen des QS-Verantwortlichen Brandschutz, konkret QSS 1: 14 Grundleistungen (S. 21-22) + 12 besondere Leistungen (S. 22-23); QSS 2: 15 Grundleistungen (S. 24-25) + 15 besondere Leistungen (S. 25); QSS 3: 19 Grundleistungen (S. 26-27) + 10 besondere Leistungen (S. 28); QSS 4 verweist vollständig auf die Grund- und besonderen Leistungen von QSS 3, kein eigenes Leistungsbild (S. 29). Positionen umfassen u.a. Bedürfnisformulierung/Machbarkeit, Vorprojekt-Erstellung, QS-Konzept, Baubewilligungsunterlagen, Ausschreibungsprüfung, Terminprogramm, Bauausführungskontrolle, Inbetriebnahme/Abnahmen, Übereinstimmungserklärung; Detailtext nicht wörtlich wiedergegeben (Urheberrecht, S. 29 ausdrücklich vermerkt).
 
 ## Begriffe
@@ -86,6 +93,12 @@ Ziff. 1 (S. 5): Gilt für alle Neubau-, Mieterausbau-, Umbau-, Sanierungs- und U
 - **Fachplaner technischer Brandschutz**: plant Einrichtungen des technischen/abwehrenden Brandschutzes (z.B. BMA, SPA), teils VKF-Anerkennung nötig (Ziff. 3.2.4)
 - **Kontrollorgan Brandschutz**: rechtlich unabhängige, sachverständige Person/Stelle, die im Auftrag der Behörde (v.a. QSS 4) die Brandsicherheit prüft (Ziff. 5.4.5, mit Verweis auf Brandschutznorm Art. 3)
 - **Übereinstimmungserklärung Brandschutz**: gestufte Bestätigungskette (Errichter → Fachplaner → QS-Verantwortlicher → Eigentümerschaft → Brandschutzbehörde) über die vollständige/mängelfreie Umsetzung der Brandschutzmassnahmen; kann sich auf Werkvertrag, VKF-Anerkennungen, Installations-Attest stützen (Anhang zu Ziff. 4.1.1 Bst. e, S. 18-19)
+  ⚠ **2019 GRUNDLEGEND GEÄNDERT:** Die gestufte Bestätigungskette ist **abgeschafft**. Ziff. 4.1.1
+  lit. e (Unterschrift der Eigentümerschaft) wurde ersatzlos gestrichen; die Erklärung gibt neu
+  allein der **QS-Verantwortliche Brandschutz** ab, und zwar nur noch über die ihm durch die
+  Brandschutzvorschriften auferlegten **Qualitätssicherungsmassnahmen**, nicht mehr über die
+  vollständige und mängelfreie Umsetzung aller Massnahmen. Der Anhang steht neu bei Ziff. 4.1.3.
+  Siehe [[vkf-brl-11-15-fassung-2019-delta]]
 - **Revisionsunterlagen Brandschutz**: nachgeführte Dokumentation (Pläne, Nachweise) zur Wahrung der Unterhaltspflicht der Eigentümerschaft; spätestens 3 Monate nach Bezug vollständig zu übergeben (Ziff. 4.1.3 Bst. j, Anhang S. 20)
 - **Gebäudekontrollbuch**: Dokumentation der Funktionskontrollen/Tests/Wartung/Instandsetzung von Einrichtungen des baulichen/technischen/abwehrenden Brandschutzes über die Nutzungsdauer (Ziff. 4.1.1 Bst. h, Anhang S. 20 ab QSS 2 erforderlich)
 

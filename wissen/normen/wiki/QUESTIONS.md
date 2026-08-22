@@ -11,7 +11,16 @@ Frontmatter-Aussage des Destillats nachträglich belegt.
 
 ---
 
-### ⚠⚠ N58-1 — Die Fassungs-Deltas der 23 überholten VKF-Destillate sind nicht destilliert
+### ⚠ N58-1 — Die Fassungs-Deltas der überholten VKF-Destillate: 5 von 23 erledigt, 18 offen
+
+> ✅ **Teilerledigung Run 59 (22.08.2026).** Die vier vorrangig genannten Publikationen **und**
+> zusätzlich 104-15 sind destilliert: `vkf-brl-10-15-fassung-2019-delta.md`,
+> `vkf-brl-11-15-fassung-2019-delta.md`, `vkf-brl-108-15-fassung-2020-delta.md`,
+> `vkf-brl-104-15-fassung-2022-delta.md`, `vkf-verz-40-15-fassung-2025-delta.md`.
+> **Offen bleibt Rang 5**, der Sammelposten der Fassungen 01.01.2017: 17-15, 18-15, 20-15,
+> 21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15,
+> 1002-15 — plus 103-15 (zurückgezogen, siehe N58-2) und 27-15 (siehe N58-3). Alle Quellen
+> frei zugänglich, kein Beschaffungsaufwand.
 
 **Der gewichtigste offene Posten dieses Laufs.** Der Sweep hat festgestellt, *dass* 23 Destillate
 auf einer überholten Fassung beruhen — **nicht, was die jüngeren Fassungen ändern**. Die
@@ -25,11 +34,70 @@ destilliert in `destillate/vkf-teilrevision-2026-pyrotechnik.md`.
 
 | Rang | Publikation | geltend | Begründung |
 |---|---|---|---|
-| 1 | **BRL 10-15** Begriffe und Definitionen | 01.01.2019 | Grundlagenrichtlinie; Definitionsänderungen wirken auf **alle** übrigen Richtlinien und auf jede Auslegung |
-| 2 | **BRL 40-15** Weitere Bestimmungen | 11.06.2025 | jüngste Fassung nach 2026; Inhalt bisher unbekannt |
-| 3 | **BRL 108-15** Betriebsbereitschaft BFS | 01.01.2020 | Brandfallsteuerungen, unmittelbar ausführungsrelevant |
-| 4 | **BRL 11-15** Qualitätssicherung | 01.01.2019 | QSS-Stufen; der Skill `brandschutz` zieht sie im Modus B |
-| 5 | 17-15, 18-15, 20-15, 21-15, 23-15, 24-15, 25-15, 100-15 bis 107-15, 1000-15, 1002-15 | 01.01.2017 | Sammelposten; die Änderungen 2017 sind für 13-15/14-15/15-15/16-15/22-15 bereits erfasst, für diese noch nicht |
+| ✅ 1 | **BRL 10-15** Begriffe und Definitionen | 01.01.2019 | Grundlagenrichtlinie; Definitionsänderungen wirken auf **alle** übrigen Richtlinien und auf jede Auslegung |
+| ✅ 2 | **BRL 40-15** Weitere Bestimmungen | 11.06.2025 | jüngste Fassung nach 2026; Inhalt bisher unbekannt |
+| ✅ 3 | **BRL 108-15** Betriebsbereitschaft BFS | 01.01.2020 | Brandfallsteuerungen, unmittelbar ausführungsrelevant |
+| ✅ 4 | **BRL 11-15** Qualitätssicherung | 01.01.2019 | QSS-Stufen; der Skill `brandschutz` zieht sie im Modus B |
+| 5 (offen; 104-15 in Run 59 vorgezogen und erledigt) | 17-15, 18-15, 20-15, 21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15 | 01.01.2017 | Sammelposten; die Änderungen 2017 sind für 13-15/14-15/15-15/16-15/22-15 bereits erfasst, für diese noch nicht |
+
+---
+
+### ⚠ N59-1 — Was bedeutet der Zusatz «(cr)» bei RF3 in der BRL 104-15?
+
+Die Fassung 01.12.2022 der Spänefeuerungs-Erläuterung senkt die Baustoffanforderung an
+freistehende Silos und offene Lagerbehälter von **RF1** auf **mindestens RF3 (cr)** (Ziff. 5.2
+und 5.4, gedruckte S. 5, am Original nachgelesen). Der Klassierungszusatz **«(cr)»** ist im
+Fassungs-Delta **nicht aufgelöst**; er wurde nicht in der BRL 13-15 «Baustoffe und Bauteile»
+und nicht gegen SN EN 13501-1 nachgeschlagen. Solange das offen ist, ist der Satz «Lockerung
+von RF1 auf RF3 (cr)» richtig, aber nicht vollständig verstanden — und eine Aussage darüber,
+welches Bauprodukt die neue Anforderung erfüllt, ist **nicht** belegt möglich. Beim nächsten
+Lauf mit der 13-15 zusammen aufzulösen. Aufgeworfen Run 59 (22.08.2026).
+
+---
+
+### N59-2 — Der Hausbestand 40-15:2015 trägt das Wasserzeichen «in Überarbeitung»
+
+Die im Haus liegende Fassung 01.01.2015 des Verzeichnisses «Weitere Bestimmungen»
+(SharePoint `PL - 03 Brandschutz/03 Verzeichnisse Brandschutz 2015/`) trägt auf mindestens
+S. 2 und 3 ein diagonales Wasserzeichen **«in Überarbeitung»**. Ob es ein Vorschau-Marker
+eines internen VKF-Freigabelaufs ist oder ob die Hauskopie nie die finale Druckfassung war,
+liess sich am Dokument nicht klären. **Praktische Folge:** das Bestands-Destillat
+`vkf-verz-40-15-weitere-bestimmungen.md` beruht auf einem als Entwurf markierten Exemplar.
+Da die geltende Fassung 11.06.2025 inzwischen destilliert ist, ist der Punkt nachrangig —
+er bleibt offen, weil er die **Belegqualität rückwirkend** betrifft. Aufgeworfen Run 59.
+
+> ⚠ **Werkzeug-Lehre aus demselben Befund, wichtiger als der Befund selbst.** Das Wasserzeichen
+> ist **weder im Textlayer** (`grep` auf «Überarbeitung»: null Treffer) **noch über
+> `pdfimages -list`** (nur ein Bildobjekt auf S. 1-3, das VKF-Logo) auffindbar. Zwei
+> unabhängige Werkzeugprüfungen lieferten negativ, was im 110-dpi-Rendering sofort sichtbar
+> ist; der Hauptprozess hatte den Agentenbefund auf dieser Grundlage zunächst als Fehlalarm
+> verworfen und musste sich am Rendering korrigieren. **Ein Wasserzeichen ist ein Grafikobjekt
+> und für beide Werkzeuge unsichtbar** — wer eine Quelle auf Entwurfsmarker prüft, muss
+> rendern. Vgl. Rule `auto-verbesserungen` 260730b und `wege-und-vollmachten` Ziff. 5.
+
+---
+
+### N59-3 — Kap. 2.17 «Gefährliche Stoffe» des Verzeichnisses 40-15 ist nur textuell geprüft
+
+Der Abschnitt hat im Delta 2015 → 2025 den stärksten Umbau erfahren (2015 neun fragmentierte
+«zu Ziffer»-Blöcke mit mehrfach duplizierten Einträgen, 2025 eine konsolidierte Liste). Er
+wurde **nicht am Rendering gegengelesen**, entgegen Methodik-Pflicht 8. Die im Delta-Destillat
+`vkf-verz-40-15-fassung-2025-delta.md` unter «neu» und «entfallen» geführten Positionen aus
+2.17 sind vor verbindlicher Verwendung am Bild zu bestätigen. Gleiches gilt, schwächer, für
+Kap. 2.7 bis 2.12, 2.15/2.16, 2.18/2.19 und 3.1 bis 3.5. Aufgeworfen Run 59 (22.08.2026).
+
+---
+
+### N59-4 — Gab es Zwischenausgaben von 40-15 und 108-15?
+
+Beide Dokumente sind über einen langen Zeitraum gesprungen (40-15: 2015 → 2025; 108-15:
+2015 → 2020 → 2022), und beide nennen sich selbst als periodisch aktualisiert bzw. tragen
+eine Änderungsliste, die nur den letzten Schritt dokumentiert. Ob dazwischen weitere
+Fassungen erschienen sind, ist **nicht geprüft**. Für 108-15 ist die Folge konkret: der
+Wortlaut der unrevidierten 2020-Fassung von Ziff. 5.3 Abs. 4/6 lag nicht vor, der amtlich
+angekündigte Teilschritt 2020 → 2022 liess sich deshalb nicht isoliert ausweisen. Der
+VKG-Publikationsindex führt nur die jeweils geltende Fassung; ein Archivzugang ist nicht
+bekannt. Aufgeworfen Run 59 (22.08.2026).
 
 ---
 

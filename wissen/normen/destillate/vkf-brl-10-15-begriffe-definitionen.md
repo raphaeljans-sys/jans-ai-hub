@@ -8,7 +8,7 @@ datenstand: "2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2019, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2019 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 63d4e6017e1292849802a5ad8894674c). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
-links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
+links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]], [[vkf-brl-10-15-fassung-2019-delta]]
 ---
 
 # VKF-BRL 10-15:2015 — Begriffe und Definitionen
@@ -16,7 +16,7 @@ links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettun
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2019**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `63d4e6017e1292849802a5ad8894674c`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `63d4e6017e1292849802a5ad8894674c`). **~~Das Fassungs-Delta ist nicht destilliert.~~ **ERLEDIGT 22.08.2026 (Run 59): das Fassungs-Delta auf die geltende Fassung 01.01.2019 ist destilliert in [[vkf-brl-10-15-fassung-2019-delta]] — dort zuerst nachlesen.**
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
@@ -97,6 +97,10 @@ Definitionen, chronologisch nach Seitenzahl:
   Terrain; bei Giebeldächern = Firsthöhe, bei Flachdächern = Dachrand; technisch
   bedingte Dachaufbauten (Lift-/Treppenaufbauten, Lüftungs-/Abgas-/Solaranlagen)
   können den höchsten Punkt überragen, gemäss IVHB
+  — ⚠ **2019 GEÄNDERT:** bei Flachdächern ist der Messpunkt nicht mehr der Dachrand,
+  sondern die Dachfläche bzw. der Dachflächenbereich über dem **tiefstgelegenen** Teil des
+  massgebenden Terrains. Kann die Zuordnung zu Gebäude geringer/mittlerer Höhe bzw. Hochhaus
+  verschieben. Siehe [[vkf-brl-10-15-fassung-2019-delta]]
 - **Geschossfläche** (S. 22) — allseitig umschlossene und überdeckte Grundrissfläche
   der Geschosse in ihren Aussenmassen, ohne Balkone und Terrassen (VKF-eigene
   Definition, abweichend von SIA 416 — s. Abgrenzung unten)
@@ -106,6 +110,10 @@ Definitionen, chronologisch nach Seitenzahl:
   Vollgeschosse
 - **Grossflächige, überhohe Räume** (S. 22) — z.B. Ausstellungs-, Industrie-,
   Produktionshallen mit Grundfläche > 4'800 m² und Raumhöhe > 6.0 m
+  — ⚠ **2019 GEÄNDERT, Anwendungsbereich stark erweitert:** der Begriff heisst neu
+  «Überhohe Räume» (S. 34, alphabetisch von G nach Ü gewandert) und verlangt **nur noch**
+  Raumhöhe > 6.0 m; das Flächenkriterium > 4'800 m² ist **entfallen**.
+  Siehe [[vkf-brl-10-15-fassung-2019-delta]]
 - **Hochhäuser** (S. 22) — Bauten mit Gesamthöhe von mehr als 30 m
 - **Hochregallager** (S. 22, grau/Norm-Zitat) — Räume zur Lagerung von Gütern in
   Regalen, in Regalgassen angeordnet, mit Lagerhöhe über 7.50 m (Fussboden bis
@@ -126,6 +134,9 @@ Definitionen, chronologisch nach Seitenzahl:
   notwendigen Räume innerhalb der Nutzungseinheit sollen frei zugänglich sein, so
   dass Nutzer die Nutzungseinheit über den Fluchtweg verlassen können; innerhalb
   einer Nutzungseinheit können einzelne Räume als Brandabschnitte ausgebildet sein
+  — ⚠ **2019 GEÄNDERT:** neu kann **ein einzelner Raum** eine Nutzungseinheit bilden, und
+  die freie Zugänglichkeit der für die Flucht notwendigen Räume ist von «sollen» auf
+  «**müssen**» verschärft. Siehe [[vkf-brl-10-15-fassung-2019-delta]]
 - **Parking** (S. 28, grau/Norm-Zitat) — Grundfläche von mehr als 600 m²
 - **Räume mit grosser Personenbelegung** (S. 29, grau/Norm-Zitat) — mehr als 300
   Personen, insbesondere Mehrzweck-, Sport- und Ausstellungshallen, Säle, Theater,
@@ -159,7 +170,9 @@ S. 10-35 Volltext); zusätzlich zu den unter «Kernziffern» ausgeführten Begri
 sind u.a. destilliert (Kurzform, ohne Fundstelle-Wiederholung — alle S. 10-35):
 Abgasanlagen, Absauganlagen, Abwehrender Brandschutz, Abweichungen, Akkreditierung,
 Aktivierungsgefahr, Anerkannte Konstruktionen, Anlagen, Anwender, Bauliches Konzept,
-Bauprodukte, Bauten und Anlagen, Bedachungen, Beförderungsanlagen, Behälterarten,
+Bauprodukte, Bauten und Anlagen, Bedachungen (⚠ 2019 aufgeteilt in «Bedachung» = nur noch
+Bekleidungs-/Abdichtungssystem und den neuen Begriff «Dachkonstruktionen»; siehe
+[[vkf-brl-10-15-fassung-2019-delta]]), Beförderungsanlagen, Behälterarten,
 Behälterlager, Behindertenaufzüge, Bemessungsbrand, Bemessungsbrandszenario,
 Blitzschutzsysteme, Blocklager, Brandabschnittsbildende Wände und Decken,
 Brandfallsteuerung, Brandgefahr, Brandgefährdung, Brandmauern, Brandmeldeanlagen
@@ -199,7 +212,10 @@ Schüttgutlager, Schutzziele, Separatlagerung, SiBe Brandschutz, Sicherer Ort im
 Freien, Sicherer Ort im Gebäude, Sicherheitsbeleuchtung, Sicherheitsstromversorgung,
 Spezielle Kühl- und Löschanlagen, Sprinkleranlagen (SPA), Spüllüftung, Standard-
 konzept, Stoffe, System-Abgasanlagen, Tagesbedarf, Tanklager, Treppenanlagen,
-Übereinstimmungserklärung Brandschutz, Umgang mit gefährlichen Stoffen, Unsicherheit
+Übereinstimmungserklärung Brandschutz (⚠ 2019 umbenannt in «Übereinstimmungserklärung» und
+inhaltlich umgestellt: neu erklärt der **QS-Verantwortliche Brandschutz** gegenüber
+Eigentümerschaft und Brandschutzbehörde, nicht mehr der Eigentümer; siehe
+[[vkf-brl-10-15-fassung-2019-delta]]), Umgang mit gefährlichen Stoffen, Unsicherheit
 und Fehleranalyse, Verbindungsrohre, Verkehrswege, Verqualmungsgefahr, Versand- und
 Verpackungseinheiten, Vertikale Fluchtwege, VKF-Brandschutzregister, Vorhang-
 fassaden, Wärmedämmverbundsysteme, Wärmetechnische Anlagen, Wartung, Wasserlösch-

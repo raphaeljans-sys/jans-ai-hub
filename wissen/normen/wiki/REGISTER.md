@@ -34,6 +34,7 @@ links: [[sia-register-2013]]
 | 20.08.2026 (Run 58) | **VKF BRL 103-15 «Cheminées»** | **am 31.08.2025 zurückgezogen**, keine Nachfolge-Erläuterung bekannt (`N58-2`). Nicht mehr als Fundstelle zitieren | ✅ `planungsgrundlagen` §5ai (Run 38). `skills/brandschutz` trug es bereits |
 | 20.08.2026 (Run 58) | **VKF BRL 12-15 / 26-15** | Teilrevision **01.04.2026** in Kraft: Feuerwerk **F1 in öffentlich zugänglichen Räumen neu verboten**; «Kategorie 1 ist ausgenommen» ist falsch. Delta in [[vkf-teilrevision-2026-pyrotechnik]] | ✅ beidseitige Kante zu `energie` gesetzt (Run 38) |
 | 20.08.2026 (Run 58) | **VKF BRL 17-15**, Ziff. 3.2.2 | Die **15-Sekunden-Frist der Sicherheitsbeleuchtung ist mit der Fassung 01.01.2017 entfallen** («Stand der Technik»). Keine feste Zahl mehr zitierbar | ✅ `planungsgrundlagen` §5r (Run 38) |
+| 22.08.2026 (Run 59) | **5 VKF-Fassungs-Deltas** | 10-15 → 01.01.2019 · 11-15 → 01.01.2019 · 108-15 → 01.01.2020/Stand 01.08.2022 · 104-15 → 01.12.2022 · 40-15 → 11.06.2025; je eigenes Delta-Destillat, Bestandsdestillate inline markiert. **18 der 23 bleiben offen** | offen — die Abnehmer-Skills sind noch nicht nachgezogen (v.a. `brandschutz`: QSS-Tabelle, Gesamthöhe, BFS-Prüfintervalle) |
 | 20.08.2026 (Run 58) | **23 VKF-Publikationen** | beruhten auf überholter Fassung, jetzt `superseded`; geltende Fassungen in `training/n58-vkf-fassungsmatrix-260820.md`. Grösster Sprung: **BRL 40-15 → 11.06.2025** | teilweise — `planungsgrundlagen` §5f/§5l/§5q (Run 38); übrige Abnehmer offen |
 | 19.08.2026 (Run 57) | **SIA 416/1:2007** | seit **31.03.2015 zurückgezogen**; Nachfolgenorm SIA 380:2015 **nicht im Haus** (`N57-2`). Betrifft NICHT die gültige SIA 416:2003 | ✅ vier KBs nachgeführt (Run 37) |
 | 29.07.2026 (Run 37) | **SIA 271/2:1994** | ersetzt durch **SIA 312:2013 «Begrünung von Dächern»**. ⚠ **SIA 271:2007 selbst gilt** — die beiden nicht verwechseln (genau dieser Irrtum trat am 20.08. in `energie` auf) | ✅ `energie` nachgeführt (Run 38) |
@@ -412,6 +413,24 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   `training/n58-vkf-fassungsmatrix-260820.md`** — dort nachschlagen, nicht neu beschaffen.
   Die 23 betroffenen Destillate tragen seit dem 20.08.2026 einen Fassungs-Warnkasten und den
   Status `superseded`.
+
+  ### ✅ Fassungs-Deltas destilliert — 5 von 23 (Run 59, 22.08.2026, Auftrag N58-1)
+
+  | Publikation | geltende Fassung | Delta-Destillat | Kern der Änderung |
+  |---|---|---|---|
+  | **BRL 10-15** Begriffe und Definitionen | 01.01.2019 | `vkf-brl-10-15-fassung-2019-delta.md` | sechs neue Begriffe (Raum, Galerie, Überhohe Räume, Verkaufsräume, Einliegerwohnung, Dachkonstruktionen), vier geänderte, einer umbenannt. **Gesamthöhe am Flachdach neu ab Dachfläche über dem tiefstgelegenen Terrain statt ab Dachrand**; «Überhohe Räume» **ohne** das frühere Flächenkriterium 4'800 m² |
+  | **BRL 11-15** Qualitätssicherung | 01.01.2019 | `vkf-brl-11-15-fassung-2019-delta.md` | Übereinstimmungserklärung vollständig beim **QS-Verantwortlichen**, Eigentümer-Unterschrift gestrichen, Bestätigungsumfang auf die eigenen QS-Massnahmen verengt. **Brandschutzkonzept-Bericht erst ab QSS 4 erforderlich** (2015: ab QSS 3) |
+  | **BSE 108-15** Betriebsbereitschaft BFS | 01.01.2020, **Stand 01.08.2022** | `vkf-brl-108-15-fassung-2020-delta.md` | vollständige Neufassung; Prüfintervalle neu **2 / 4 / 6 Jahre nach Risikogruppe** statt Behördenermessen; Fernzugriff, Rückstellung, Anlageverantwortlicher, **Bewilligungspflicht für Stilllegung/Rückbau** neu |
+  | **BSE 104-15** Spänefeuerungen | 01.12.2022 | `vkf-brl-104-15-fassung-2022-delta.md` | Silo-Baustoff **RF1 → RF3 (cr)**; neu **automatisches mechanisches Austragungssystem** (Verzicht nur bis 45 m²); Entstauber-Bemessung auf **SN EN 16770** umgestellt (8'000 m³/h bzw. 3.5 m³ Rohluftbereich) |
+  | **Verz. 40-15** Weitere Bestimmungen | 11.06.2025 | `vkf-verz-40-15-fassung-2025-delta.md` | **die Ausgabejahre der SN-/DIN-Referenzen sind entfallen**, dafür SIA-Parallelnummern; neu Eurocode-Serie Brandfall und Abschnitt 2.18 (Literaturbasis Nachweisverfahren); Aufzugs- und Druckgeräteverordnung neu **SR 930.112 / 930.114** |
+
+  **Offen bleiben 18 Destillate**, ganz überwiegend die Fassung 01.01.2017 (17-15, 18-15, 20-15,
+  21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15),
+  dazu 103-15 (zurückgezogen, N58-2) und 27-15 (N58-3). Alle Quellen frei zugänglich.
+
+  ⚠ **Korrektur an der Matrix aus Run 58:** 108-15 trägt auf dem Titelblatt **zwei** Daten —
+  Fassung 01.01.2020 **und** «Stand 01.08.2022». Die Matrix führte nur das erste. Bei den
+  VKF-Erläuterungen sind **beide Zeilen des Titelblatts** zu lesen.
 
   Die vier gewichtigsten Einzelbefunde:
 

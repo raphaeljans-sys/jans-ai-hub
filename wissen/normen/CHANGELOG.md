@@ -1,3 +1,43 @@
+## 2026-08-22 — Run 59: fuenf VKF-Fassungs-Deltas destilliert (Auftrag N58-1)
+
+**Neu (5 Destillate):** `vkf-brl-10-15-fassung-2019-delta.md` · `vkf-brl-11-15-fassung-2019-delta.md` ·
+`vkf-brl-108-15-fassung-2020-delta.md` · `vkf-brl-104-15-fassung-2022-delta.md` ·
+`vkf-verz-40-15-fassung-2025-delta.md`. Alle `status: speculative` (kein unabhaengiger Refuter-Lauf).
+
+**Geaendert (Inline-Korrekturen nach Methodik-Pflicht 9):** die fuenf zugehoerigen
+Bestands-Destillate — Warnkasten auf «Delta erledigt» umgestellt, Delta-Link in `links:`, und an
+den materiell betroffenen Stellen **inline markiert** (10-15: Gesamthoehe, Grossflaechige/ueberhohe
+Raeume, Nutzungseinheit, Bedachungen, Uebereinstimmungserklaerung · 11-15: QSS-Matrix und
+Uebereinstimmungskette · 104-15: sechs Stellen · 108-15: Pruefintervall).
+
+**Register:** `destillate/INDEX.md` (Warnblock + 5 Zeilen) · `wiki/REGISTER.md` (neuer Abschnitt
+«Fassungs-Deltas destilliert» + Chronikzeile) · `training/n58-vkf-fassungsmatrix-260820.md`
+(Befundwert «✗ → Δ», Korrektur 108-15 «Stand 01.08.2022») · `training/norm-inventar.md` ·
+`wiki/QUESTIONS.md` (N58-1 teilerledigt; N59-1 bis N59-4 neu).
+
+**Ausserhalb der KB:** `skills/brandschutz/SKILL.md` um einen Fassungs-Delta-Block ergaenzt
+(Gesamthoehe am Flachdach, QSS-Tabelle/Uebereinstimmungserklaerung, «Ueberhohe Raeume» ohne
+Flaechenkriterium, fuenf neue Begriffe).
+
+**Die gewichtigsten Sachbefunde.** BSE 108-15 ist zwischen 2015 und 2020 **vollstaendig neu
+redigiert** worden, ohne dass die Aenderungsliste das ausweist — sie dokumentiert nur den Schritt
+2020 → 2022; die Pruefintervalle der integralen Tests sind neu **kodifiziert (2 / 4 / 6 Jahre nach
+Risikogruppe)** statt Behoerdenermessen. BRL 11-15: der **Brandschutzkonzept-Bericht ist erst ab
+QSS 4 erforderlich** (2015: ab QSS 3), und die Uebereinstimmungserklaerung ist vollstaendig auf den
+QS-Verantwortlichen uebergegangen. BRL 10-15: **«Ueberhohe Raeume» ohne das Flaechenkriterium
+4'800 m²**, geaenderte Messregel der **Gesamthoehe am Flachdach**, sechs neue Begriffe.
+Verz. 40-15: **die Ausgabejahre der SN-/DIN-Referenzen sind entfallen**.
+
+**Methodisch.** Zwei Faelle, in denen nur das Rendering den Befund trug: die Anhang-Skizze der
+104-15 fuehrt die Masse 1.2 × 2.0 m und 0.8 × 0.8 m fort, die der Fliesstext gestrichen hat (ein
+reiner Text-Diff haette sie als entfallen gemeldet); und die Bildunterschrift der 10-15 auf S. 40
+wechselt von «Verwendung **brennbarer** Baustoffe» auf «Verwendung **von** Baustoffen», im
+Textlayer unsichtbar. Dazu ein Werkzeug-Befund gegen den eigenen Prozess: das Wasserzeichen «in
+Ueberarbeitung» auf dem Hausbestand 40-15:2015 ist weder per `grep` im Textlayer noch per
+`pdfimages -list` auffindbar — der Hauptprozess hatte den Agentenbefund deshalb zunaechst
+faelschlich als Fehlalarm verworfen (QUESTIONS N59-2).
+
+
 ## 2026-08-20 (Wissens-Chef Run 38, Cross-KB) — der Meldeweg: BRL 26-15 war nicht unbekannt, sondern unverbunden; REGISTER bekommt einen Meldekopf
 
 - **Kernbefund, adversarial bestätigt.** Run 58 meldete die **Teilrevision 2026 der BRL 26-15 als
