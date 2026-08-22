@@ -7925,3 +7925,17 @@ Dateien betroffen, widerspricht der eigenen KB-Regel und der Rule `umlaute-konve
 
 Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
 Budget dieses Zyklus: rund 2.0 von 5 USD.
+
+## 2026-08-22 13:30 Nachtschicht Mac Mini (Versuchs-Slot) — Prioritaeten 1-4 gesaettigt, Prioritaet 5: architekten-synobsis QUESTIONS.md
+
+Remote-/Sync-Task-Queues leer, Synobsis Stufe 2 weiterhin komplett (853/853, kein neuer Stoff
+seit 02.07.2026). Prioritaet 4 gegengeprueft: `bauprodukte` traegt seit 15.08. Status ERLEDIGT/
+Bestaetigungstakt, alle uebrigen KBs mit `training/PROGRAMM.md` haben einen eigenen Taktgeber
+oder sind ausgesetzt/auf Ereignis-Trigger — keine freie KB. Auf Prioritaet 5 ausgewichen: vier
+weitere offene Identitaetsfragen aus `wissen/architekten-synobsis/wiki/QUESTIONS.md` per
+WebSearch geklaert (Aillaud, Gessner vs Gessner_Albert, Meili Armin, Gaertner) — alle bestaetigt,
+mit Quellenangabe direkt an der jeweiligen Frage. Details: `wissen/architekten-synobsis/CHANGELOG.md`
+2026-08-22.
+
+Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
+keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.

@@ -4,6 +4,39 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-22 (Mac Mini Nachtschicht, 13:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung: Prioritaeten 1-3 leer/nicht zutreffend (keine pending remote-/sync-Tasks;
+Synobsis Stufe 2 weiterhin deaktiviert 853/853, kein neuer Stoff seit 02.07.2026). Prioritaet 4
+gegengeprueft: `bauprodukte` traegt seit 15.08.2026 den Status ERLEDIGT/Bestaetigungstakt
+(Inventar 0 offen/0 triagiert), `energie`/`baurecht`/`normen`/`planungsgrundlagen`/
+`wettbewerbs-dna` haben je einen eigenen aktiven Taktgeber, `grobkosten` hat die Endbedingung
+erreicht (13.08.), `immobilienbewertung`/`spec`/`projekt-lessons` sind auf Ereignis-Trigger
+bzw. ausgesetzt — keine freie KB fuer Prioritaet 4 (deckt sich mit den Befunden der Laeufe
+02:31 und 05:30 desselben Tages, die dort auf Prioritaet 6 auswichen).
+
+Auf Prioritaet 5 ausgewichen, Fortsetzung des Rechercheformats vom 19./21.08.2026 (kleiner,
+budgetdisziplinierter Block, kein Fan-out, direkt im Hauptkontext): vier weitere offene
+Identitaetsfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert.
+
+- **Aillaud** → bestaetigt: Emile Aillaud (1902-1988), franzoesischer Architekt, Hauptwerke
+  Les Courtilieres Pantin, La Grande Borne Grigny. Slug-Praezisierung auf Aillaud_Emile moeglich.
+- **Gessner vs Gessner_Albert** → bestaetigt: beide Ordner gehoeren zu Albert Gessner
+  (1868-1953), Berliner Miethaus-Architekt («Das deutsche Miethaus», 1909). Zusammenfuehren
+  moeglich.
+- **Meili Armin** → bestaetigt als eigenstaendige historische Person (1892-1981, Kultur- und
+  Kongresshaus Luzern, Landesausstellung 1936-40), zeitlich/personell unabhaengig von
+  Meili_Partner/MPP (Marcel Meili/Markus Peter). Keine Zusammenfuehrung noetig, drei Ordner
+  bleiben korrekt getrennt.
+- **Gaertner** → bestaetigt: Friedrich von Gaertner (1791-1847), Erbauer der Hofbibliothek
+  (heute Bayerische Staatsbibliothek) Muenchen. Slug-Praezisierung auf Gaertner_Friedrich_von
+  moeglich.
+
+Details je Frage in `wiki/QUESTIONS.md`, Sektion 2, mit Quellenangabe direkt an der jeweiligen
+Frage. Keine Ordnerumbenennung vorgenommen (Umbenennungen bleiben Freigabesache Raphael), kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus ca.
+1.6 USD von 5 USD.
+
 ## 2026-08-21 (Mac Mini Nachtschicht, 13:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung wie im 05:33-Lauf desselben Tages gegengeprueft und bestaetigt: Prioritaeten 1-4
