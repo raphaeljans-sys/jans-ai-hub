@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.08.2026 23:42:09
+Stand: 22.08.2026 23:52:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:32)
@@ -12,4 +12,4 @@ Stand: 22.08.2026 23:42:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 6234895c wissens-chef Run 40: VKF-Fassungs-Sweep in planungsgrundlagen nachgezogen (2 Vorbehalte), PV-Doppelspur beidseitig verdrahtet, BKP-261-Fassungsvorbehalt, Gegenbeleg Treffen-Klausel; Register + Bericht
+- 41a3cef4 nas-selfcommit: 7 Datei(en) 2026-08-22 23:45
