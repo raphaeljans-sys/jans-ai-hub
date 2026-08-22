@@ -10,7 +10,15 @@ links: [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vk
 last_updated: "2026-07-21"
 ---
 
+
 # VKF Teilrevision 2017 — Änderungsübersicht Brandschutzrichtlinien 2015 → 2017
+
+> ⚠ **Doppelbestand — festgestellt am 23.08.2026 (Run 60).** Dieselbe Quelle ist in dieser KB
+> **zweimal** destilliert: hier und in [[vkf-aenderungen-brandschutzrichtlinien-2017]]. Beide
+> haben dieselben vierzehn Abschnitte und dieselben Seitenbezuege; sie entstanden unabhaengig
+> voneinander am 13.07. und am 21.07.2026. **Dieses Destillat ist bis zum Entscheid ueber die
+> Zusammenlegung das fuehrende** (umfangreicher, an den geprueften Stellen genauer). Der
+> Entscheid liegt bei Raphael (`wiki/QUESTIONS.md`, N60-1).
 
 ## Das Wichtigste in 3 Sätzen
 Diese Präsentation der AFC Basel (Autorin Lisa Hugenschmidt) stellt für 14 Themenbereiche (mit Anhängen) der VKF-Brandschutzrichtlinien (Begriffe, Baustoffe/Bauteile, Verwendung von Baustoffen, Brandschutzabstände/Tragwerke/Brandabschnitte, Flucht-/Rettungswege, Sicherheitsbeleuchtung, Brandmeldeanlagen, RWA, Blitzschutz, Beförderungsanlagen, Lufttechnik, Gefährliche Stoffe) den Wortlaut 2015 dem Wortlaut 2017 in Spalten gegenüber und markiert die geänderten Textstellen gelb (durchgängig). Es handelt sich NICHT um eine eigene VKF-Norm, sondern um eine Drittanbieter-Schulungsunterlage; sie ist aber die einzige im Bestand vorhandene systematische Quelle für die Delta zwischen den BRL-Ausgaben 2015 und 2017 und ergänzt damit die bereits destillierten Einzelrichtlinien (`vkf-brandschutznorm-2015`, `vkf-brl-16-15-flucht-rettungswege`, `vkf-brl-verwendung-baustoffe`). Durchgehendes Muster der Revision: Einführung der einheitlichen Kennzeichnung „(cr)" für Baustoffe mit kritischem Verhalten überall dort, wo 2015 nur „RF2"/„RF3" ohne cr-Zusatz stand (u. a. S. 6, 8-12, 29-31), Begriffswechsel „Bedachung" → „Dachkonstruktion"/„Bedachung" differenzierter (S. 3-4, 9-10, 16-19, 20-21), sowie mehrere materielle Änderungen (u. a. Sicherheitsbeleuchtung ohne feste 15-s-Frist, Blitzschutz Hochhäuser verschärft, Gefährliche Stoffe konkretisiert, vertikale Fluchtwege differenziert).

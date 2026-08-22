@@ -1,3 +1,41 @@
+## 2026-08-23 — Run 60: zwei VKF-Fassungs-Deltas (13-15, 17-15) per Rendering geprueft
+
+**Neu:** `vkf-brl-17-15-fassung-2017-delta.md` (`status: speculative`) — schliesst die von Run 58
+offen gelassene Luecke (Warnkasten «Delta NICHT destilliert» im Bestandsdestillat). Drei materielle
+Aenderungen: die feste **15-Sekunden-Frist** der Sicherheitsbeleuchtung (Ziff. 3.2.2 Abs. 1, S. 6)
+ist entfallen, ersetzt durch «entsprechend dem Stand der Technik»; die Nutzungskategorie
+**«Verkaufsraeume»** ist im Anhang zu Ziff. 2.2 (S. 9) aus der Pflichtzeile («Raeume mit grosser
+Personenbelegung») in die Empfehlungszeile («Industrie- und Gewerbebauten») verschoben; die
+Schutzstrecke der Anschlussleitung ist im Anhang zu Ziff. 3.3.2 (S. 12) neu bis zum Brandabschnitt
+«Technikraum Sicherheitsstromversorgung» statt bis zur Sicherheitszuleitung definiert. Alle drei
+Tabellen-/Textstellen am 200-dpi-Rendering beider Fassungen gegengelesen (Methodik-Pflicht 8).
+
+**Neu (Gegenprobe, kein neuer Sachbefund):** `vkf-brl-13-15-fassung-2017-delta.md`
+(`status: speculative`) — unabhaengig von diesem Lauf per Rendering neu erstellt, bestaetigt
+deckungsgleich den bereits am 25.07.2026 (Run 23) inline im Bestandsdestillat
+`vkf-brl-13-15-baustoffe-bauteile.md` erfassten und dort `established` gefuehrten Befund (E, E-d2,
+EL, EL-d2 von RF4(cr) nach RF3(cr) verschoben, Ziff. 2.4.1 S. 8; drei Bezeichnungsaenderungen im
+Anhang zu Ziff. 3.4 S. 24). **Struktur-Befund:** fuer 13-15 existieren die Delta-Informationen nun
+an zwei Orten (inline + eigene Datei) — abweichend von der seit Run 59 gefuehrten Konvention einer
+eigenen Delta-Datei je Publikation. Nicht konsolidiert; siehe `wiki/QUESTIONS.md`.
+
+**Geaendert:** `vkf-brl-17-15-kennzeichnung-fluchtwege.md` (Warnkasten auf «Delta destilliert»
+umgestellt, Delta-Link in `links:`) · `wiki/REGISTER.md` (Tabelle «Fassungs-Deltas destilliert»
+5→6, 17-15 aus den offenen Listen entfernt, Duplikat-Hinweis zu 13-15 ergaenzt, neue Meldezeile im
+Abschnitt «Frisch gemeldet»).
+
+**Zusatzauftrag N59-1 beantwortet:** «(cr)» = kritisches Verhalten (comportement critique) nach
+Ziff. 2.1 Abs. 2 (S. 5, wortgleich 2015/2017) — ein Anwendungsbeschraenkungs-Flag innerhalb einer
+RF-Gruppe, keine eigene Stufe. Klassiert wird je nach Produktkategorie nach SN EN 13501-1:2009
+(Bauprodukte/Bodenbelaege/Rohrdaemmungen), -5:2009 (Bedachungen) oder -6:2014 (Kabel). Die
+KB-Behauptung einer RF4(cr)→RF3(cr)-Verschiebung von E/E-d2/EL/EL-d2 ist am Rendering **bestaetigt**
+(Praezisierung: betrifft nicht die Bodenbelaege-Spalte, dort war Efl schon 2015 bei RF3(cr)).
+
+**Drittquellen-Behauptung zu 17-15 geprueft:** die feste 15-Sekunden-Frist der Sicherheitsbeleuchtung
+ist **bestaetigt entfallen** (Fundstelle Ziff. 3.2.2 Abs. 1, S. 6) — deckt sich mit der bereits am
+20.08.2026 (Run 58) in `wiki/REGISTER.md` gemeldeten Kurzfassung, jetzt mit vollem Delta-Destillat
+unterlegt.
+
 ## 2026-08-22 — Run 59: fuenf VKF-Fassungs-Deltas destilliert (Auftrag N58-1)
 
 **Neu (5 Destillate):** `vkf-brl-10-15-fassung-2019-delta.md` · `vkf-brl-11-15-fassung-2019-delta.md` ·

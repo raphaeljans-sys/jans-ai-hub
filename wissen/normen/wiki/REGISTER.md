@@ -31,6 +31,7 @@ links: [[sia-register-2013]]
 
 | Gemeldet | Norm | Meldung | Abnehmer nachgeführt? |
 |---|---|---|---|
+| 23.08.2026 (Run 60) | **VKF BRL 17-15, 13-15** | 17-15: Delta 01.01.2015→01.01.2017 destilliert (`vkf-brl-17-15-fassung-2017-delta.md`), drei materielle Punkte — 15-s-Frist Ziff. 3.2.2 entfallen, «Verkaufsräume» Anhang zu Ziff. 2.2 in die Empfehlungszeile verschoben, Schutzstrecke Anhang zu Ziff. 3.3.2 neu bis Brandabschnitt «Technikraum Sicherheitsstromversorgung». 13-15: unabhängige Gegenprobe des bereits bestehenden Delta (Run 23, 25.07.2026) bestätigt dessen Befund (E/E-d2/EL/EL-d2 RF4(cr)→RF3(cr)); **die beiden Delta-Orte für 13-15 sind dupliziert (inline im Bestandsdestillat UND eigene Datei), nicht konsolidiert** | offen — Skill `brandschutz`/`ausschreibung` (feste 15-s-Prüfgrösse Sicherheitsbeleuchtung, Verkaufsräume-Einstufung) noch nicht auf die 17-15-Änderung geprüft |
 | 20.08.2026 (Run 58) | **VKF BRL 103-15 «Cheminées»** | **am 31.08.2025 zurückgezogen**, keine Nachfolge-Erläuterung bekannt (`N58-2`). Nicht mehr als Fundstelle zitieren | ✅ `planungsgrundlagen` §5ai (Run 38). `skills/brandschutz` trug es bereits |
 | 20.08.2026 (Run 58) | **VKF BRL 12-15 / 26-15** | Teilrevision **01.04.2026** in Kraft: Feuerwerk **F1 in öffentlich zugänglichen Räumen neu verboten**; «Kategorie 1 ist ausgenommen» ist falsch. Delta in [[vkf-teilrevision-2026-pyrotechnik]] | ✅ beidseitige Kante zu `energie` gesetzt (Run 38) |
 | 20.08.2026 (Run 58) | **VKF BRL 17-15**, Ziff. 3.2.2 | Die **15-Sekunden-Frist der Sicherheitsbeleuchtung ist mit der Fassung 01.01.2017 entfallen** («Stand der Technik»). Keine feste Zahl mehr zitierbar | ✅ `planungsgrundlagen` §5r (Run 38) |
@@ -414,7 +415,7 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   Die 23 betroffenen Destillate tragen seit dem 20.08.2026 einen Fassungs-Warnkasten und den
   Status `superseded`.
 
-  ### ✅ Fassungs-Deltas destilliert — 5 von 23 (Run 59, 22.08.2026, Auftrag N58-1)
+  ### ✅ Fassungs-Deltas destilliert — 6 von 23 (Run 59 + Run 60, 22.-23.08.2026)
 
   | Publikation | geltende Fassung | Delta-Destillat | Kern der Änderung |
   |---|---|---|---|
@@ -423,8 +424,16 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   | **BSE 108-15** Betriebsbereitschaft BFS | 01.01.2020, **Stand 01.08.2022** | `vkf-brl-108-15-fassung-2020-delta.md` | vollständige Neufassung; Prüfintervalle neu **2 / 4 / 6 Jahre nach Risikogruppe** statt Behördenermessen; Fernzugriff, Rückstellung, Anlageverantwortlicher, **Bewilligungspflicht für Stilllegung/Rückbau** neu |
   | **BSE 104-15** Spänefeuerungen | 01.12.2022 | `vkf-brl-104-15-fassung-2022-delta.md` | Silo-Baustoff **RF1 → RF3 (cr)**; neu **automatisches mechanisches Austragungssystem** (Verzicht nur bis 45 m²); Entstauber-Bemessung auf **SN EN 16770** umgestellt (8'000 m³/h bzw. 3.5 m³ Rohluftbereich) |
   | **Verz. 40-15** Weitere Bestimmungen | 11.06.2025 | `vkf-verz-40-15-fassung-2025-delta.md` | **die Ausgabejahre der SN-/DIN-Referenzen sind entfallen**, dafür SIA-Parallelnummern; neu Eurocode-Serie Brandfall und Abschnitt 2.18 (Literaturbasis Nachweisverfahren); Aufzugs- und Druckgeräteverordnung neu **SR 930.112 / 930.114** |
+  | **BRL 17-15** Kennzeichnung Fluchtwege/Sicherheitsbeleuchtung | 01.01.2017 | `vkf-brl-17-15-fassung-2017-delta.md` (Run 60, 23.08.2026) | **15-Sekunden-Frist der Sicherheitsbeleuchtung (Ziff. 3.2.2) entfallen**, ersetzt durch «Stand der Technik»; Nutzungskategorie **«Verkaufsräume» von der Pflichtzeile in die Empfehlungszeile verschoben** (Anhang zu Ziff. 2.2); Schutzstrecke der Anschlussleitung neu **bis zum Brandabschnitt «Technikraum Sicherheitsstromversorgung»** statt bis zur Sicherheitszuleitung (Anhang zu Ziff. 3.3.2) |
 
-  **Offen bleiben 18 Destillate**, ganz überwiegend die Fassung 01.01.2017 (17-15, 18-15, 20-15,
+  **BRL 13-15** Baustoffe und Bauteile (01.01.2017) ist **nicht** Teil dieser 23er-Zählung — ihr
+  Delta wurde bereits am 25.07.2026 (Run 23, vor dieser Zählung) inline im Bestandsdestillat
+  `vkf-brl-13-15-baustoffe-bauteile.md` erfasst und dort auf `established` gehoben. Run 60
+  (23.08.2026) hat dasselbe Delta zusätzlich unabhängig als eigene Datei
+  `vkf-brl-13-15-fassung-2017-delta.md` nachgebaut (Gegenprobe, deckungsgleiches Ergebnis) —
+  **die beiden Orte sind damit dupliziert und noch nicht konsolidiert**, siehe Meldung unten.
+
+  **Offen bleiben 17 Destillate**, ganz überwiegend die Fassung 01.01.2017 (18-15, 20-15,
   21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15),
   dazu 103-15 (zurückgezogen, N58-2) und 27-15 (N58-3). Alle Quellen frei zugänglich.
 
@@ -441,8 +450,9 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   | **BRL 103-15** Cheminées | 01.01.2017, **zurückgezogen 31.08.2025** | die KB führte sie als `established`; Nachfolgeregelung nicht ermittelt (N58-2) |
   | **BRL 10-15** Begriffe und Definitionen | **01.01.2019** | Grundlagenrichtlinie — Definitionsänderungen wirken auf alle übrigen Richtlinien |
 
-  Ferner geltend, aber in der KB nicht destilliert: **11-15** (01.01.2019), **40-15**
-  (11.06.2025), **104-15** (01.12.2022), **108-15** (01.01.2020) sowie 17-15, 18-15, 20-15,
+  Ferner geltend, aber in der KB nicht destilliert (⚠ dieser Absatz ist seit Run 59 nicht mehr
+  vollständig nachgeführt — 11-15/40-15/104-15/108-15/17-15 sind laut Tabelle oben inzwischen
+  destilliert; massgeblich ist die Tabelle, nicht dieser Absatz): 18-15, 20-15,
   21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15
   (alle 01.01.2017).
 

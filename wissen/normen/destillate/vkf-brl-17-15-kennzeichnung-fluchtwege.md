@@ -4,10 +4,10 @@ herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
 ausgabe: "VKF-Brandschutzrichtlinie 17-15de, 01.01.2015"
 gelesen: "S. 1-15 (komplett, inkl. Anhang)"
 datenstand: "2015, in Kraft 01.01.2015"
-status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
-gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 ab2103c387a446c929579b1bb0c4cc1d). Nicht als geltende Fundstelle zitieren."
-last_updated: 2026-08-20
-links: [[REGISTER]]
+status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta destilliert in [[vkf-brl-17-15-fassung-2017-delta]], Run 60, 23.08.2026)
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 ab2103c387a446c929579b1bb0c4cc1d). Nicht als geltende Fundstelle zitieren; das Delta steht in [[vkf-brl-17-15-fassung-2017-delta]]."
+last_updated: 2026-08-23
+links: [[vkf-brl-17-15-fassung-2017-delta]], [[REGISTER]]
 ---
 
 # VKF-BRL 17-15de:2015 — Kennzeichnung von Fluchtwegen, Sicherheitsbeleuchtung, Sicherheitsstromversorgung
@@ -15,11 +15,15 @@ links: [[REGISTER]]
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `ab2103c387a446c929579b1bb0c4cc1d`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `ab2103c387a446c929579b1bb0c4cc1d`). **Das Fassungs-Delta ist seit
+> 23.08.2026 destilliert: [[vkf-brl-17-15-fassung-2017-delta]]** (drei materielle Änderungen:
+> entfallene 15-Sekunden-Frist der Sicherheitsbeleuchtung Ziff. 3.2.2, umgeordnete
+> Nutzungskategorie «Verkaufsräume» im Anhang zu Ziff. 2.2, geänderte Schutzstrecke der
+> Anschlussleitung im Anhang zu Ziff. 3.3.2).
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
-> Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
-> VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
+> Fassung samt Delta-Destillat beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026),
+> der erstmals den VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
 
 
 ## Das Wichtigste in 3 Sätzen

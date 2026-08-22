@@ -9,7 +9,18 @@ last_updated: 2026-07-13
 links: [[REGISTER]]
 ---
 
+
 # VKF — Änderungen Brandschutzrichtlinien 2017 vs. 2015 (Teilrevision)
+
+> ⚠ **Doppelbestand — festgestellt am 23.08.2026 (Run 60).** Dieselbe Quelle ist in dieser KB
+> **zweimal** destilliert: hier und in [[vkf-brl-aenderungen-2017]]. Beide Destillate haben
+> dieselben vierzehn Abschnitte und dieselben Seitenbezuege; sie entstanden unabhaengig
+> voneinander am 13.07. und am 21.07.2026. **Bis zum Entscheid ueber die Zusammenlegung gilt
+> [[vkf-brl-aenderungen-2017]] als die fuehrende Fassung:** sie ist rund 40 % umfangreicher und
+> an den geprueften Stellen genauer. Namentlich die Definition der **Gesamthoehe** stand hier bis
+> zum 23.08.2026 falsch (siehe die Korrektur unten), dort von Anfang an richtig. Der
+> Zusammenlegungs-Entscheid liegt bei Raphael (`wiki/QUESTIONS.md`, N60-1); Claude legt Artikel
+> nicht selbstaendig zusammen.
 
 ## Das Wichtigste in 3 Sätzen
 Diese Präsentation der AFC Basel (Autorin Lisa Hugenschmidt) stellt die Teilrevision 2017 der VKF-Brandschutzrichtlinien Seite-für-Seite gegen die Ausgabe 2015, gegliedert nach 12 Richtlinien-Themen (Begriffe/Definitionen, Qualitätssicherung, Brandverhütung, Baustoffe/Bauteile, Verwendung von Baustoffen, Brandschutzabstände/Tragwerke/Brandabschnitte, Flucht- und Rettungswege, Kennzeichnung/Sicherheitsbeleuchtung, Brandmeldeanlagen, Rauch- und Wärmeabzugsanlagen, Blitzschutzanlagen, Beförderungsanlagen, Lufttechnische Anlagen, Gefährliche Stoffe). Materiell am wichtigsten ist die präzisierte Definition von cr-Baustoffen (Baustoffe mit "kritischem Verhalten"): 2017 wird differenziert erlaubt, cr-Baustoffe in bestimmten Anwendungen (Bodenbeläge, Membranfassaden, Kabel/Elektrorohre, reaktive Brandschutzbeschichtungen, Fugen, Dämmschichten, Rohrummantelungen ≤ 0.6 mm) ohne Abdeckung einzusetzen, während 2015 den Einsatz grundsätzlich nur mit hohlraumfreier Abdeckung zuliess (Verwendung von Baustoffen, Ziff. 2, S. 8). Für den JANS-Skill `brandschutz` bleibt die inhaltliche Kernaussage, dass die Richtlinie "Verwendung von Baustoffen" (aktuell konsultiertes Destillat) zwingend gegen den 2017er-Stand verifiziert werden muss, da die 2015-Fassung an mehreren Stellen (cr-Zuordnung, Terrassenböden, Rohrleitungsbezeichnung) materiell überholt ist.
@@ -22,7 +33,7 @@ Vergleichspräsentation ohne eigenen normativen Geltungsbereich; sie dokumentier
 ### Begriffe und Definitionen (S. 2-4)
 - Neu 2017: Begriffe **Dachkonstruktionen**, **Einliegerwohnung**, **Galerie** eingeführt (S. 2)
 - **Bedachung**: 2017 präziser definiert als "Bekleidungs- und Abdichtungssystem eines Gebäudes... um die Wetterdichtheit sicherzustellen" (2015: reine Neigungs-Definition, S. 2)
-- **Gesamthöhe**: bei Flachdächern 2017 präzisiert auf "um den Dachrand beziehungsweise um den Dachflächenbereich über dem tiefst gelegenen Teil des massgebenden Terrains" (2015 nur "um den Dachrand", S. 2)
+- **Gesamthöhe**: bei Flachdächern ist der höchste Punkt 2017 neu **die Dachfläche** beziehungsweise der Dachflächenbereich über dem **tiefst gelegenen** Teil des massgebenden Terrains; 2015 war es **der Dachrand** (S. 2). ⚠ **Inline korrigiert am 23.08.2026 (Run 60).** Diese Zeile gab die Fassung 2017 bis dahin als «um den Dachrand beziehungsweise um den Dachflächenbereich …» wieder und behielt damit den Begriff der Fassung 2015 im Satz der Fassung 2017. Am gelb markierten Original beidseitig abgelesen (Rendering 200 dpi, Folie 2): 2015 «bei Flachdächern um den Dachrand.», 2017 «bei Flachdächern um die Dachfläche beziehungsweise um den Dachflächenbereich über dem tiefst gelegenen Teil des massgebenden Terrains.» Der Unterschied ist materiell: an der Gesamthöhe hängt die Einstufung geringe / mittlere Höhe / Hochhaus und damit das ganze Anforderungsprofil. Das Parallel-Destillat [[vkf-brl-aenderungen-2017]] führte die Stelle von Anfang an richtig.
 - **Kindertagesstätten**: 2017 ergänzt "Für Kindertagesstätten gelten die nutzungsbezogenen Anforderungen an Schulen" (S. 2)
 - **Nutzungseinheit**: Fluchtwege-Zugänglichkeit von "sollen" (2015) auf "müssen" (2017) verschärft (S. 2)
 - Neue Begriffe **Raum**, **Überhohe Räume**, **Verkaufsräume** 2017 eingeführt (S. 2)

@@ -62,6 +62,32 @@ aufnehmbar).
 
 ● erforderlich · ○ empfehlenswert · leer = nicht vorgesehen
 
+> **Praezisierung vom 23.08.2026 (Run 60) — die beiden Aenderungen stammen aus VERSCHIEDENEN
+> Fassungsschritten.** Dieses Destillat vergleicht die Endpunkte 2015 und 2019 und laesst offen,
+> wann innerhalb dieser vier Jahre was geschah. Die Zuordnung ist jetzt belegt:
+>
+> | Zeile / Zelle | geaendert mit Fassung | Beschluss |
+> |---|---|---|
+> | **Brandschutzkonzept bei QSS 3: ● → ○** | **01.01.2017** | IOTH 22.09.2016 |
+> | Brandschutzkonzept bei QSS 1: *leer* → ○, Umbenennung in «Brandschutzkonzept **(Bericht)**» | 01.01.2019 | IOTH 20.09.2018 |
+>
+> **Zwei unabhaengige Belege.** Erstens weist die Aenderungsliste der Fassung 01.01.2019 auf S. 2
+> die beiden Beschluesse getrennt aus und fuehrt die QSS-Tabelle **zweimal**: «Aenderung im Anhang
+> vom **22. September 2016**: zu Ziffer 5, Tabelle (Seite 19)» und daneben «Aenderungen im Anhang
+> vom **20. September 2018**: … zu Ziffer 5 (Seiten 18 und 19)». Zweitens zeigt die synoptische
+> Gegenueberstellung 2015 ↔ 2017 im Hausbestand (`Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf`,
+> Folie 5) die vollstaendige QSS-Tabelle beider Fassungen nebeneinander; die **einzige** dort gelb
+> markierte Aenderung ist die Zelle Brandschutzkonzept / QSS 3, 2015 ● gegen 2017 ○. Alle uebrigen
+> Zellen sind in beiden Fassungen identisch. Am 130-dpi-Rendering abgelesen — die Tabelle traegt
+> in dieser Quelle **keinen Textlayer** und ist per Textextraktion ueberhaupt nicht aufnehmbar
+> (Methodik-Pflicht 8).
+>
+> **Warum das zaehlt.** Wer die Lockerung dem Schritt 2019 zuschreibt, haelt ein Projekt, das
+> zwischen dem 01.01.2017 und dem 31.12.2018 bewilligt wurde, faelschlich fuer verpflichtet, bei
+> QSS 3 einen eigenstaendigen Brandschutzkonzept-Bericht vorzulegen. Die Pflicht war zu diesem
+> Zeitpunkt bereits eine Empfehlung. Umgekehrt gilt die Umbenennung in «(Bericht)» — und damit die
+> Klarstellung, dass nur der **Bericht** entfaellt, nicht das Konzept — erst ab 2019.
+
 **Zwei Aenderungen in einer Zeile.** Erstens die Lockerung bei QSS 3: der eigenstaendige Bericht
 ist dort nicht mehr erforderlich, sondern empfohlen. Zweitens die Umbenennung der Zeile in
 «Brandschutzkonzept **(Bericht)**» — und erst sie macht die Lockerung verstaendlich: entfallen ist
