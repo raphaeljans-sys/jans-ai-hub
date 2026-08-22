@@ -233,7 +233,7 @@ bewusst nicht fortgeschrieben, damit das aufgelaufene Delta beim ersten Lauf nac
 Tokenwechsel vollständig sichtbar wird. Verzugsstand unverändert und unverifiziert: RE-00100
 (Nova, CHF 13'120.00) seit dem 20.08. verfallen, RE-00098/RE-00099 (KISPI, zusammen
 CHF 17'280.00) seit dem 12.08. überfällig, RE-00101 (Tschopp, CHF 6'000.00) wegen der
-ungeprüften Tx 3630 gesperrt, RE-00087 (KISPI, CHF 15'000.00) weiter in der Duplikatsklaerung.
+ungeprüften Tx 3630 gesperrt, RE-00087 (KISPI, CHF 15'000.00) weiter in der Duplikatsklärung.
 Nichts gemahnt, nichts gebucht, nichts abgeglichen, nichts versendet. Keine neue Zeile, dies ist
 der Nachtrag zur bestehenden. Status: **überfällig, Aktion Raphael — neuen Personal Access
 Token ausstellen und in `~/.bexio.env` eintragen.**
