@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 03:51:13
+Stand: 22.08.2026 04:11:47
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 03:51)
@@ -12,4 +12,4 @@ Stand: 22.08.2026 03:51:13
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 56d34506 twin-mail-training Batch 101: Sent Items + Drafts rj@ 21.-22.08.2026 (Unterstrich-Bullet gilt auch im Sie, Sammelanrede mit &, Wir/Ich-Teilung, zwei Anti-Marker; stilmetrik.py um werter + unterstrich_bullets erweitert)
+- e8e25cd3 nas-selfcommit: 2 Datei(en) 2026-08-22 04:00
