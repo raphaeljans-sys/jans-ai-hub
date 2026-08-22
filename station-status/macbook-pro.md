@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 03:40:56
+Stand: 22.08.2026 03:51:13
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:40)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:51)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 22.08.2026 03:40:56
 - 1 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- ea51dcc6 nas-selfcommit: 3 Datei(en) 2026-08-22 03:30
+- 56d34506 twin-mail-training Batch 101: Sent Items + Drafts rj@ 21.-22.08.2026 (Unterstrich-Bullet gilt auch im Sie, Sammelanrede mit &, Wir/Ich-Teilung, zwei Anti-Marker; stilmetrik.py um werter + unterstrich_bullets erweitert)
