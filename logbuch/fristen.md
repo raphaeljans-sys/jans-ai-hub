@@ -3,6 +3,46 @@
 Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert nach Frist
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
+**NEU 22.08.2026, 06:2x (Konversations-Log) — FB51 im KISPI ist ohne zwei Zulieferungen Dritter
+nicht ausschreibbar; beide sind bisher nirgends als Bringschuld geführt.** Aus dem Gespräch
+Mac Mini 21.08. 16:46 bis 17:08: Der Index FB51 bezeichnet kein Belagsprodukt, sondern ein
+System aus leitfähigem Kleber, eingelegtem Kupferband im Raster, Anschluss an die Erdungsschiene
+durch den Elektriker und Widerstandsmessung nach Verlegung (R < 100 MΩ). **Zwei Angaben fehlen
+und wurden bewusst nicht gesetzt statt geraten:** (1) die verbindliche **Normfundstelle für die
+medizinisch genutzten Raumgruppen** ist beim Elektroplaner **Gruner AG** einzuholen — nichts im
+Hub belegt sie; (2) die **raumweise Freigabeliste FB51** ist durch Elektroplanung und
+Medizintechnik KISPI zu bestätigen. Ohne (2) ist der Mengenanteil FB51 im LV nicht bestimmbar,
+ohne (1) fehlt dem Kriterium die Grundlage. Beides ist der Ausschreibung **LOS 281.21**
+vorgelagert. Zwei weitere Punkte aus demselben Gespräch: der Linoleum-Unternehmer heisst seit
+dem Rebranding 2022/23 **INEVO AG** (vormals Pfister Professional AG), Ansprechperson
+**Mischa Baldauf**, mischa.baldauf@inevo.ch, +41 44 517 50 81 — die alten Pfister-Adressen und
+die Nummer 044 823 95 35 sind tot und stehen noch in Ordnernamen; und die nach Rule
+`projekt-ablage-stand` (260813) verlangte **Spiegelung ohne MD-Datei** in die für alle
+Projektbeteiligten sichtbare Bibliothek `JANS - 2619-KISPI - Dokumente` ist für beide gestrigen
+Deliverables **nicht ausgeführt**. **Zusammenhang:** betrifft den Registerpunkt «Garantie
+Bodenbeläge Linoleum/Kautschuk 2619 KISPI (Los 281.21, Inevo AG)» vom 31.07.2029, der den
+Unternehmer noch unter dem alten Namen führt. Kein Termindruck von aussen, aber zwei
+Zulieferungen Dritter, die nachgefasst werden müssen. Status: **offen, Nachfass JANS an
+Gruner AG und Medizintechnik KISPI.**
+| Gespräch Mac Mini 21.08.2026 (Destillat `logbuch/konversationen/260822-konversationen.md` Abschnitt 01) + Deliverable `260821-2619-Bodenbelag-Index-FB50-FB51` am Original gelesen | 2619 KISPI, Ausschreibung | mittel | offen
+
+**NEU 22.08.2026, 06:2x (Konversations-Log) — Der Küchenboden im KISPI-Umbau 1. OG trägt im
+Plan einen anderen Belag als in der Anfrage angenommen; das ist vor der Ausschreibung zu
+entscheiden.** Aus dem Gespräch Mac Mini 21.08. 14:02 bis 14:17: Raphael fragte nach dem
+Bodenaufbau der **Therapieküchen mit Linoleum**. Am Original gelesen trägt der Küchenbereich im
+**Ausführungsgrundriss OG1 vom 17.08.2026 den Plattenaufbau FB70** (Steinzeug 100×100, R10/R10b,
+Hohlkehlsockel), nicht Linoleum; der Linoleum-Aufbau steht im Bauteilkatalog nur als Variante
+FB50/FB51. Welcher Stand gilt, ist offen und betrifft Mengen und Preis im LV. Zweiter Vorbehalt
+aus demselben Blatt: die Belagszone ist im Katalog mit **5 mm** angesetzt, bei der tatsächlich
+spezifizierten **6.5 mm** Fliese ist die Estrichdicke anzupassen. Die belegten Produktangaben
+aller drei Aufbauten (Nasszellen Agrob Buchtal Chroma Plural Non-Slip Sandgrau, Fugen Mapei
+Kerapoxy Design 111 Silbergrau; Bolon BKB Sisal Plain Sand, Bfl-s1 nach EN 13501-1,
+DoP 0402-CPR-419004) liegen als vier bemasste Erklärskizzen 1:2 unter
+`2619_KINDERSPITAL/09_Dokumente/CLAUDE/03_Bodenaufbauten/260821-2619-Bodenaufbauten-Nasszellen-Kueche-Bolon/`.
+**Zusammenhang:** derselbe Gegenstand wie der offene Registerpunkt «KISPI Duschwannen /
+Aufbauhöhe» (17.08.2026). Status: **offen, Entscheid Raphael vor Ausschreibung LOS 281.21.**
+| Gespräch Mac Mini 21.08.2026 (Destillat `logbuch/konversationen/260822-konversationen.md` Abschnitt 02) + Deliverable `260821-2619-Bodenaufbauten-Nasszellen-Kueche-Bolon.pdf` am Original gelesen | 2619 KISPI, Ausschreibung | mittel | offen
+
 **NEU 21.08.2026, 08:5x (Hub-Chef) — Die Koordinationssitzung Gruner/Jans/KISPI läuft neu WÖCHENTLICH,
 jeden Donnerstag 13:00 bis 14:00. Nächster Termin Donnerstag 27.08.2026, Teams.** Belegt im Body der
 Termininstanz vom 20.08.2026 (Organisatorin M. Valentin, KISPI): «Die Sitzung findet **neu jeden
