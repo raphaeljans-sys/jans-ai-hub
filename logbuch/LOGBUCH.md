@@ -7657,3 +7657,29 @@ Details + Quellen: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-21 (13:30-
 
 Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung, keine
 destruktive Aktion. Budget dieses Zyklus: rund 3.0 von 5 USD.
+
+## 2026-08-22 02:31 Nachtschicht Mac Mini — Prioritaeten 1-4 gesaettigt, Prioritaet 6: Wissens-Health-Check immobilienbewertung
+
+Prioritaeten 1-4 geprueft, alle leer/gesaettigt: keine pending remote-/sync-Tasks (mac-mini-Ordner
+nur leeres `scripts/`); Synobsis Stufe 2 seit 03.07.2026 fertig, `vectors.npz` 853x768 aktuell,
+kein offener Rest; keine faellige Trainingslektion (bauprodukte seit 15.08. ERLEDIGT, energie
+PL-02-Korpus laut eigenem CHANGELOG 21.08. 23:30-Zyklus erschoepft/0 offene PDFs, grobkosten
+seit 13.08. ausgesetzt, baurecht/normen/planungsgrundlagen/wettbewerbs-dna haben eigene
+Taktgeber, immobilienbewertung/spec auf Ereignis-Trigger, projekt-lessons ausgesetzt); Fristen-
+Register (`logbuch/fristen.md`) durchgesehen, juengste Eintraege bereits vom Radar/Hub-Chef
+gepflegt, kein neuer draftpflichtiger Punkt (Adobe-Abo-Entscheid und SIA-416/1-Statusfrage sind
+Raphaels Entscheidungen, keine Mail-Entwuerfe faellig).
+
+Auf Prioritaet 6 ausgewichen (wissenscheck Phase 1, aeltestes Audit-Datum): fast alle KBs teilen
+sich den Sammellauf 03.08.2026; `immobilienbewertung` gewaehlt, weil sie seit 26.07. auf
+Ereignis-Trigger steht. Ergebnis A1·B0·C0·D3·E1·F2·G1 — kein neuer materieller Befund, T-Regelgeschoss
+und T-Umlaut (jetzt mit Datei-Verteilung: ertragswert-dcf.md 56 Belege, realwert-sachwert.md 31)
+bleiben bekannt-offen; drei Backlink-Verdachtsfaelle eines mechanischen Subagenten-Passes als
+falsch-positiv verifiziert und verworfen (Unterordner-Pfad `marktdaten-gemeinden/README`,
+Cross-KB-Link `sia-416-1-2007`, faelschlich gemeldeter Orphan). Einziger neuer Punkt: Register-
+Nachzug faellig (`wissensluecken.md` D1 haelt "Langnau am Albis fehlt" faelschlich offen, Artikel
+existiert bereits established) — nicht selbst ausgefuehrt, Phase 2 laeuft unbeaufsichtigt nicht.
+Report: `wissen/immobilienbewertung/outputs/2026-08-22_health-check.md`.
+
+Keine Ordnerumbenennung, kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+Budget dieses Zyklus: rund 3.8 von 5 USD.

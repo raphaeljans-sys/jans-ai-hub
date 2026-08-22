@@ -2,6 +2,18 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-22 (Wissens-Health-Check, Nachtschicht Mac Mini, Phase 1) — A1 · B0 · C0 · D3 · E1 · F2 · G1
+
+Erster systematischer 7-Audit-Check seit dem Sammellauf 03.08.2026 (Prioritaet 6, da alle
+Nachtschicht-Prioritaeten 1-4 gesaettigt waren). Kein neuer materieller Befund: T-Regelgeschoss
+(A) und T-Umlaut (F, jetzt mit Datei-Verteilung lokalisiert: ertragswert-dcf.md 56 / realwert-
+sachwert.md 31 / weitere) bleiben bekannt-offen. Drei Backlink-/Orphan-Verdachtsfaelle eines
+mechanischen Erstpasses als falsch-positiv verworfen (Unterordner-Pfade, Cross-KB-Links).
+Einzig neuer Punkt: D1 in `wissensluecken.md` haelt "Langnau am Albis fehlt" faelschlich offen,
+obwohl der Fact-Sheet-Artikel seit laengerem existiert und established ist — Registerpflege,
+nicht selbst ausgefuehrt (Phase 2 unbeaufsichtigt nicht gelaufen). Voller Report:
+`outputs/2026-08-22_health-check.md`.
+
 ## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — Fassungsvermerk zum Glied «SIA 416/1»; die massgebende SIA 416:2003 bleibt unberuehrt
 
 - **`wiki/flaechendefinitionen-sia.md`:** Der Satz «Massgebend ist **SIA 416** …; fuer
