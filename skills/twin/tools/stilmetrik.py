@@ -9,6 +9,7 @@ Gemessen:
   - Tausender-Apostroph: Treffer von  \\d'\\d  (Schweizer Schreibweise)
   - "%"-mit-Leerschlag-Quote
   - Ellipsen "…" / ".."  je 1000 Woerter
+  - Unterstrich-Bullets "_ " am Zeilenanfang (Raphaels eigenes Aufzaehlungszeichen)
   - Anreden / Gruesse (erkannt, mit Haeufigkeit)
   - durchschnittliche Satzlaenge (Woerter)
 
@@ -24,7 +25,10 @@ from collections import Counter
 
 DU_FORMS = ["Du", "Dich", "Dir", "Dein", "Deine", "Deiner", "Deinem", "Deinen", "Euch", "Euer", "Eure"]
 ANREDEN = [r"Hoi\s+\w+", r"Geschaetzter?\s+\w+", r"Gesch[aä]tzte?r?\s+\w+",
-           r"Guten\s+Morgen\s+\w+", r"Sehr\s+geehrte[rs]?\s+\w+", r"Liebe[rs]?\s+\w+"]
+           r"Guten\s+Morgen\s+\w+", r"Sehr\s+geehrte[rs]?\s+\w+", r"Liebe[rs]?\s+\w+",
+           # «werter» — eigene Waermestufe im Sie-Register, belegt Batches 100 und 101
+           # (21.08.2026); stand bis dahin nicht im Muster und blieb ungezaehlt.
+           r"[Ww]erte[rs]?\s+\w+"]
 GRUESSE = [r"Freundliche\s+Gr[uü]sse", r"Lieber\s+Gruss", r"Liebe\s+Gr[uü]sse",
            r"Viele\s+Gr[uü]sse", r"Beste\s+Gr[uü]sse",
            # Kurzformen, belegt Batch 98 (17.08.2026): «Lgr» als knappste Gruss-Stufe
@@ -45,6 +49,11 @@ def measure(text: str) -> dict:
 
     ellipsen = text.count("…") + len(re.findall(r"(?<!\.)\.\.(?!\.)", text))
 
+    # Unterstrich-Bullet «_ Kueche: …» — Raphaels eigenes Aufzaehlungszeichen (Batch 101,
+    # 21.08.2026: in zwei Gattungen desselben Fensters belegt, mit und ohne Leerschlag).
+    # Der Zwilling setzt es nie; damit ist die Luecke messbar statt nur beschrieben.
+    unterstrich_bullets = len(re.findall(r"(?m)^\s*_\s?\S", text))
+
     anreden = Counter()
     for pat in ANREDEN:
         for m in re.findall(pat, text):
@@ -63,6 +72,7 @@ def measure(text: str) -> dict:
         "tausender_apostroph_treffer": apostroph,
         "prozent_mit_leerschlag_quote": round(prozent_space / max(prozent_total, 1), 3) if prozent_total else None,
         "ellipsen_pro_1000w": round(ellipsen / nwords * 1000, 2),
+        "unterstrich_bullets": unterstrich_bullets,
         "anreden": dict(anreden.most_common()),
         "gruesse": dict(gruesse.most_common()),
         "satzlaenge_woerter_avg": avg_sent,
