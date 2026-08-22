@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 13:06:28
+Stand: 22.08.2026 13:27:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 13:06)
+- Developer/jans/ai/hub  (letzte Aktivitaet 13:07)
 - /Volumes/daten/jans/ai/hub  (letzte Aktivitaet 13:03)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 22.08.2026 13:06:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c86c392d vollgas-radar 22.08. 12:58: Fenster frei ueber Rueckfallweg (app-CLI 2.1.237, 72s), PATH-CLI 2.1.231 gewedgt (rc=137) — Rueckfallweg in SKILL.md wieder Pflichtweg; vier KBs mit Delta, Speicherdruck Level 2 gemeldet, Rueckstand -45.7
+- 88f58663 nas-selfcommit: 1 Datei(en) 2026-08-22 13:15
