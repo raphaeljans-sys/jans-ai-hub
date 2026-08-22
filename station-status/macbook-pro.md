@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 08:28:50
+Stand: 22.08.2026 08:39:07
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 08:27)
@@ -12,4 +12,4 @@ Stand: 22.08.2026 08:28:50
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7b0b07a2 fristen.md: Umlaut-Korrektur im bexio-Nachtrag 22.08.
+- 3e117876 nas-selfcommit: 3 Datei(en) 2026-08-22 08:30
