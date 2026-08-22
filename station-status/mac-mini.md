@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.08.2026 07:15:51
+Stand: 22.08.2026 07:26:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 22.08.2026 07:15:51
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1bfcf581 nas-selfcommit: 2 Datei(en) 2026-08-22 07:15
+- 90966141 vollgas-fruehwarnung 22.08. 07:15: STILL — 21.08. kombiniert 10.63 Mio teuer, Kontingent 25.7 % bei 68.6 % Woche, keine Blockade, Radar-Herzschlag intakt; Fehlbefund im Opener-Muster durch Kontrollprobe abgefangen; Destillat-Front Korpus 2 seit 17.08. ohne Lauf (Leerstand, kein Verbrauch)
