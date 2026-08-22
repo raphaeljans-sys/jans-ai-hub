@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-21
+last_updated: 2026-08-22
 gewichtung: authentisch
-sources: [260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4099,3 +4099,33 @@ Beide Befunde stammen aus der Preisrüge und **korrigieren je eine kompilierte R
   ungebeugte Stichwortkette. Der Zwilling baute daraus einen grammatisch sauberen Satz und liess
   das «usw.» weg; damit verschwand die Aussage «und noch einiges mehr». Quelle: 14.07.2026 07:03
   und 10:16, 16.07.2026 05:54, alle authentisch.
+
+## Batch 101 (21.–22.08.2026) — «_ » gilt auch im Sie, «&» in der Sammelanrede, und ein Gruss, der keiner ist
+
+Quelle: `260822-mailbatch-101.md`, zwei Eigentexte (21.08.2026 15:45 mobil, Du · 07.08.2026
+10:25, Sie), beide **authentisch**.
+
+- **Das «_ »-Bullet ist nicht ans operative Du gebunden — es steht auch in der formellen
+  Sie-Mail.** Zwei Gattungen desselben Fensters: Materialliste im Du («_ Küche: …» / «_ Bad: …»)
+  und **Anhangs-Dateiliste in der Sie-Mail an den Küchenbauer** («_ 25-122-01.3_… .pdf»). Das
+  beantwortet [[QUESTIONS]] 260819 #3 in eine Richtung: die Wahl «–» gegen «_ » folgt **nicht**
+  der Register-Grenze. Gemessen: 6 Unterstrich-Bullets auf 195 Wörter Gold, 0 beim Zwilling.
+- **Der Leerschlag nach «_» ist frei.** Dieselbe Liste enthält «_ Bad:» und «_Küche:». Nicht als
+  Regel lesen und im Zwilling nicht vereinheitlichen — die Varianz gehört zum Bild.
+- **Sammelanrede mit «&» statt Komma oder «und»:** «Hoi <Kurzform> & <Vorname> & <Vorname>» für
+  drei Du-Kontakte der Bauherrschaft, ohne Komma und ohne abschliessendes «und». Die Reihenfolge
+  folgt **nicht** der To/CC-Verteilung (To trug den ersten Namen, CC die beiden übrigen in
+  umgekehrter Folge) → [[beziehungsregister]].
+- **Eröffnungswärme mit Wochentagsnennung:** «Ich wünsche Ihnen einen schönen Freitag.» als
+  eigener Absatz zwischen Anrede und Sachbitte, in der Sie-Mail an den Unternehmer.
+- **Die Bitte in Frageform, mit dem eigenen Nutzen begründet:** «Darf ich Sie bitten mir morgen
+  … auch direkt ein DWG der Pläne mitzuschicken, das vereinfacht mir die Integration in die
+  Ausführungsplanung Architektur.» Wieder **ohne** Fragezeichen (vgl. Marker 260820) und ohne
+  Komma vor «mir morgen» — die Bitte endet auf dem Punkt, die Begründung hängt als Hauptsatz an.
+- **⚠ Anti-Marker, methodisch: der Gruss aus der Handy-Signatur ist kein Registersignal.** Die
+  Du-Mail vom 21.08. endet auf «Freundliche Grüsse» — aber innerhalb des Blocks
+  `id="ms-outlook-mobile-signature"`, also als **fester Signaturbestandteil**, nicht als
+  gewählter Gruss. Wer den Gruss aus dem Mailende liest, ohne den Signaturblock abzuschneiden,
+  misst das Gerät und nennt es Register. Gilt ab sofort für jede Gruss-Erhebung; im
+  Umkehrschluss ist das Fehlen von «Lieber Gruss» unter einer Du-Mail **kein** Befund, solange
+  die Mail vom Telefon stammt.

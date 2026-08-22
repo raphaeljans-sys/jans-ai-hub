@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-21
+last_updated: 2026-08-22
 gewichtung: authentisch
-sources: [260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2428,3 +2428,28 @@ Sämtliche Regeln stehen unverändert im Do-Block, die Belege in den Abschnitten
   IV-WC **Visavis zur Teeküche**». Verwandt mit dem belegten Muster, den Fluchtweg ueber das
   Inventar freizuraeumen — die Orientierung laeuft ueber das, was der Empfaenger vor Augen hat.
   (Schreibweise «Visavis» so im Original.) Quelle: 20.08.2026 22:40, authentisch.
+
+## Batch 101 (21.–22.08.2026) — Materialentscheid aus dem Bestand, Produkte mit Farbnummer
+
+Quelle: `260822-mailbatch-101.md`, Materialmail vom 21.08.2026 15:45 und Sie-Mail vom
+07.08.2026 10:25, beide **authentisch**.
+
+- **Der Bodenbelag wird über den vorhandenen Bodenaufbau und die Hausnorm entschieden.**
+  «Linoleum … in Bahnen verlegt, Stösse verschweisst» für die Küche, weil der «Bodenaufbau
+  gleich wie ehemaliger Bodenbelag» ist und «weniger abschleifen als mit Keramikplatten»
+  anfällt; Steinzeug im Bad, weil die «Einheitliche <Haus>-Nasszellenausführung» gilt und
+  «ergo Ausgleichsschicht wegspitzen lassen» folgt. **Der Vorteil wird als vermiedener Aufwand
+  am Bestand benannt, nicht als Materialqualität.**
+- **Produkte stehen konkret: Hersteller, Verlegeart, Format und Farbnummer** («Mosa Colors …
+  Plan Olive Green 1670, Cornsil 18950, Beach 20960»). Kein «hochwertiger Plattenbelag» —
+  entweder die Kennwerte oder gar keine Aussage. Die Farbwahl bleibt dabei offen im Sinne von
+  «z.B.», die **Referenz** ist verbindlich («wie Nasszellen <Haus>»).
+- **Die Ausführungsrisiken werden benannt und dem Ausführenden übergeben:**
+  «Schwellenanschlüsse beachten», «mit Unternehmer vor Ort abklären» → [[haltung]].
+- **In der Sie-Mail an den Küchenbauer: DWG zusätzlich zum PDF verlangen, mit dem eigenen
+  Integrationsbedarf begründet.** «… auch direkt ein DWG der Pläne mitzuschicken, das
+  vereinfacht mir die Integration in die Ausführungsplanung Architektur.» Dazu wird der
+  Umfang der eigenen Vorleistung ausdrücklich als Massstab gesetzt: «Wir senden Ihnen diese
+  Grundlage als Planungsreferenz des Gastroplaners. In diesem Umfang bitten wir Sie uns Ihre
+  Planung zuzustellen.» — **die eigene Beilage definiert den geschuldeten Detaillierungsgrad**,
+  statt ihn in Worten zu beschreiben.

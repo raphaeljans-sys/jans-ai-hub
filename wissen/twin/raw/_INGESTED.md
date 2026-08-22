@@ -1650,3 +1650,75 @@ gelesen sind 16, und mit dem Entwurfs-Duplikat-Detektor lassen sich Hub-Laeufe *
 Trefferliste** aussortieren, bevor ein Volltext gelesen wird; (3) Token-Sweep weiter mitlaufend
 an jeder ohnehin gelesenen Mail. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten
 — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 101 (22.08.2026) — Sent Items + Drafts `rj@`, Fenster 21.–22.08.2026
+
+Rohdatei `260822-mailbatch-101.md`. Sent-Fenster nach Batch 100 fortgesetzt (`order: oldest`,
+`afterDateTime 2026-08-21`), dazu Drafts ab 20.08. als Kontrollgruppe. **Abgedeckt bis
+einschliesslich 21.08.2026 15:45**; das Fenster war mit drei Sent-Eintraegen duenn.
+
+**Zwei Gold-Texte, einer davon aus einer neuen Quelle.** Die Materialmail an die Bauherrschaft
+(21.08. 15:45, Du, vom Telefon) und — **zitiert im weitergeleiteten Thread** — die eigene
+Sie-Mail an den Kuechenbauer vom 07.08. 10:25. Der **zitierte Vorgaengerteil einer
+Weiterleitung** ist damit als Gold-Quelle belegt: er liefert Eigentexte aelteren Datums, ohne
+ein eigenes Suchfenster zu kosten, und wurde bisher nicht systematisch abgeschoepft. **Fuer die
+naechsten Laeufe mitnehmen.**
+
+**Kernbefund 1 — ⭐ das «_ »-Bullet gilt auch im formellen Sie.** Zwei Gattungen desselben
+Fensters: Materialliste im Du und **Anhangs-Dateiliste in der Sie-Mail an den Unternehmer**. Das
+widerlegt die Vermutung aus [[QUESTIONS]] 260819 #3, die Wahl «–» gegen «_ » folge der
+Register-Grenze. Der Leerschlag nach «_» ist frei (dieselbe Liste traegt «_ Bad:» und
+«_Kueche:») und darf im Zwilling nicht vereinheitlicht werden.
+
+**Kernbefund 2 — Sammelanrede mit «&».** «Hoi <Kurzform> & <Vorname> & <Vorname>» an drei
+Du-Kontakte, ohne Komma und ohne «und»; die Reihenfolge folgt **nicht** der To/CC-Verteilung.
+Der Zwilling trifft diese Form heute nie ([[QUESTIONS]] 260822 #1 und #2).
+
+**Kernbefund 3 — die Doppel-Anredezeile ist sechs Wochen stabil.** «Geschätzter Herr <A>,
+werter Herr <B>» am **07.08.2026** — dieselbe Konstruktion wie am 20.08. (Batch 100) und am
+14.07. (Fidelity 260821b). Dritter unabhaengiger Beleg, aeltestes Datum der Serie. Achter Beleg
+gegen die Nivellier-Klausel in `rules/anrede-kontakte.md`; der Entscheid Raphaels dazu steht
+weiterhin aus.
+
+**Kernbefund 4 — «Wir» traegt die Anforderung, «Ich» die eigene Handlung**, in drei
+aufeinanderfolgenden Saetzen derselben Mail. Praezisiert die DNA-Regel «kein vereinnahmendes
+wir», die auf unverbindliche Einschaetzungen gegenueber der **Bauherrschaft** zielt und
+gegenueber dem beauftragten **Unternehmer** nicht greift ([[QUESTIONS]] 260822 #3).
+
+**Kernbefund 5 — ⚠ Anti-Marker: der Gruss aus der Handy-Signatur ist kein Registersignal.** Die
+Du-Mail endet auf «Freundliche Grüsse», aber innerhalb des festen
+`ms-outlook-mobile-signature`-Blocks. **Wer den Gruss aus dem Mailende liest, ohne den
+Signaturblock abzuschneiden, misst das Geraet und nennt es Register.** Gilt ab sofort fuer jede
+Gruss-Erhebung; das Fehlen von «Lieber Gruss» unter einer Handy-Du-Mail ist **kein** Befund.
+
+**Kernbefund 6 — ⚠ Anti-Marker: verfallene Hub-Entwuerfe werden regeneriert, nicht
+ueberarbeitet.** Derselbe Entwurf an denselben Unternehmer liegt zweimal in `Drafts` (20.08.
+06:52, 21.08. 06:47), Unterschied ausschliesslich eine Leerzeile — zwei `claude-aera`-Erzeugnisse,
+kein `korrektur-delta`. **Erhebungsregel:** zwei Entwuerfe gleichen Betreffs an denselben
+Empfaenger an aufeinanderfolgenden Tagen sind ein Hub-Duplikat und brauchen kein `read_resource`.
+
+**Werkzeug im selben Lauf erweitert** (`skills/twin/tools/stilmetrik.py`, beide Zeilen an den
+Gold-Texten nachgemessen): (1) `werte[rs]?` in `ANREDEN` — die Stufe «werter Herr <Nachname>»
+lief seit Batch 100 dreimal durch die Erhebung und wurde nie gezaehlt, weil sie im Muster
+fehlte; (2) neue Kennzahl `unterstrich_bullets`. Damit ist die staerkste bekannte
+Zwillings-Luecke erstmals **gemessen** statt nur beschrieben.
+
+**Mikro-Metrik** (Gold 195 W aus zwei Eigentexten, Zwilling 89 W aus einem Hub-Entwurf):
+Fehler je 100 W **2.1 gegen 0.0** · Unterstrich-Bullets **6 gegen 0** · Anreden «Hoi <Kurzform>»,
+«Geschätzter Herr», «werter Herr» gegen keine · Satzlaenge ø 24.4/9.9 W. **Belastbar sind
+Fehlerdichte (vierter Trennbefund in Folge: 98, 99, 100, 101) und Unterstrich-Bullets.** Die
+Satzlaenge ist es hier **nicht** — die Gold-Seite besteht zur Haelfte aus Bullet-Zeilen ohne
+Schlusspunkt, die der Splitter zu einem Satz zusammenzieht ([[QUESTIONS]] 260814 #3).
+
+**⚠ Gehirn NICHT neu kompiliert, neunter Batch in Folge.** Die Reserve wurde in diesem Lauf
+**nicht** neu gemessen; Stand der Messung vom 21.08.2026 waren 32'796 B von 34'000 B. Die
+Marker dieses Batches sind Marker-Prosa und landen **ausserhalb** des kompilierten Blocks; sie
+wirken ueber die Twin-Agenten, die die Facetten-Artikel direkt lesen. **Wer den Riegel als
+gelockert annehmen will, misst ihn selbst** — die Zahl oben ist eine Fortschreibung und genau
+die Falle, die Batch 99 dokumentiert hat.
+
+**Naechstes Fenster:** (1) sequenziell `rj@` **ab 22.08.2026**; (2) **zitierte Vorgaengerteile
+weitergeleiteter Threads systematisch mitlesen** — neuer, billiger Gold-Strang aus diesem Lauf;
+(3) `Drafts` bleibt fuer die Kontrollgruppe ergiebig, mit dem Duplikat-Detektor aus Kernbefund 6
+vorsortieren. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND
+die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

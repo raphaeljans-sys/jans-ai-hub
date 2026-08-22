@@ -1,9 +1,9 @@
 ---
 title: Haltung & Werte
 status: established
-last_updated: 2026-08-21
+last_updated: 2026-08-22
 gewichtung: authentisch
-sources: [260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260727-mailbatch-72.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260719-mailbatch-57.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-47.md, 260713-mailbatch-44.md, 260607-behoerden-korpus.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260609-mailbatch-01.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260624-mailbatch-15.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260709-mailbatch-29.md, ../outputs/2026-06-16_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -1404,3 +1404,28 @@ letzter Traktandenpunkt und erklärtes «eigentliches Ziel»; Agenda vor dem Sta
 
 Gehört sachlich zur ausgelagerten Präsentationsregel in [[arbeitsweise]] (dort die Form, hier die
 Haltung dahinter). Gilt unverändert; im Mail-Messverfahren nicht prüfbar.
+
+## Batch 101 (21.–22.08.2026) — «Wir» trägt die Anforderung, «Ich» die eigene Handlung
+
+Quelle: `260822-mailbatch-101.md`, Sie-Mail an den Küchenbauer vom 07.08.2026 10:25,
+**authentisch**.
+
+- **Der Wechsel geschieht innerhalb von drei aufeinanderfolgenden Sätzen** und ist kein Zufall
+  der Formulierung: «**Wir** senden Ihnen diese Grundlage als Planungsreferenz des
+  Gastroplaners.» / «In diesem Umfang bitten **wir** Sie uns Ihre Planung zuzustellen.» /
+  «**Ich** werde diese mit der Gebäudetechnik-Fachplanung koordinieren.» Das Büro-«Wir» steht
+  dort, wo eine **Vorgabe an den Unternehmer** formuliert wird und Verbindlichkeit braucht; das
+  «Ich» bleibt bei Zusage, Dienstleistung und eigener Arbeit.
+- **Das präzisiert die DNA-Regel «kein vereinnahmendes wir», ohne ihr zu widersprechen.** Jene
+  Regel zielt auf die **unverbindliche Einschätzung gegenüber der Bauherrschaft** — dort
+  unterstellt ein «wir» eine Zusammenarbeit, die noch nicht besteht. Gegenüber dem beauftragten
+  Unternehmer ist das «Wir» dagegen die **Bauleitung als Instanz** und trägt die Anforderung.
+  Reiht sich zum institutionellen «Wir» der Angebots- und Mahnkontexte ([[stimme]] 260817) und
+  zum offenen Punkt Mahn-«Wir» in [[QUESTIONS]].
+- **Die Verifikation bleibt beim Ausführenden, nicht beim Architekten:** «mit Unternehmer vor
+  Ort abklären; Schwellenanschlüsse beachten». Raphael entscheidet das Material und gibt die
+  Prüfung der Ausführbarkeit an den ab, der sie schuldet — dieselbe Haltung wie beim Schutz des
+  Bauherrn vor unnötigem Aufwand, hier nach unten statt nach oben.
+- **Die Nebenvariante wird angeboten, nicht empfohlen:** «Optional: Hauswirtschaftsraum auch in
+  Linoleum» als eigener Schlussblock, ohne Frist und ohne Druck. Der Bauherr behält die Wahl,
+  ohne dass die Empfehlung dadurch weicher wird.

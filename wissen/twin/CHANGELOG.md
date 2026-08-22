@@ -4,6 +4,19 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-22 — twin-mail-training Batch 101 (Fenster 21.–22.08.2026)
+
+- Zwei Gold-Texte destilliert (21.08. Du/mobil, 07.08. Sie — letzterer aus dem **zitierten
+  Vorgaengerteil** einer Weiterleitung, neuer Gold-Strang); 17 Marker in alle sechs Facetten.
+- Kernbefunde: «_ »-Bullet gilt auch im formellen Sie (widerlegt QUESTIONS 260819 #3) ·
+  Sammelanrede mit «&» · Doppel-Anredezeile «Geschätzter/werter» seit 14.07. dreifach belegt ·
+  «Wir» traegt die Anforderung, «Ich» die eigene Handlung.
+- Zwei Anti-Marker: der Gruss aus der Handy-Signatur ist **kein** Registersignal · verfallene
+  Hub-Entwuerfe werden regeneriert, nicht ueberarbeitet (kein `korrektur-delta`).
+- `skills/twin/tools/stilmetrik.py` erweitert: «werter» in `ANREDEN`, neue Kennzahl
+  `unterstrich_bullets` (Gold 6, Zwilling 0) — die staerkste bekannte Luecke ist jetzt gemessen.
+- Fuenf neue Fragen in `wiki/QUESTIONS.md` (260822 #1–#5). Rohdatei `raw/260822-mailbatch-101.md`.
+
 ## 2026-08-21 — Fidelity-Review (Fenster 14.–20.07.2026): der erste Regressionstest
 
 Vier Golds, alle authentisch — und **zwei davon bereits von Lauf 260714j abgeerntet**, weil die

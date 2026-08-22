@@ -3948,3 +3948,50 @@ Kontakt zwei Tage spaeter traegt ihn nicht. Der Marker bleibt Einzelbeleg; das U
 hat gehalten (Befund 1) und bleibt in Kraft. *Warum das hier steht:* damit die naechste
 Batch-Runde weiss, dass die Suche im Juli-Fenster erfolglos war, und nicht dieselbe Kiste
 durchsucht.
+
+---
+
+## 260822 — Batch 101 (Fenster 21.–22.08.2026)
+
+**#1 — Steht das «&» in der Sammelanrede fuer eine Regel oder ist es Tippkomfort am Telefon?**
+*(Facette: Stimme / Beziehungsregister · leicht zu beantworten)*
+Belegt ist «Hoi <Kurzform> **&** <Vorname> **&** <Vorname>» an drei Du-Kontakte, ohne Komma und
+ohne abschliessendes «und», geschrieben am Telefon. **Frage:** setzt Raphael das «&» bewusst als
+seine Form der Mehrfachanrede — auch am Desktop und auch im Sie —, oder ist es die kuerzeste
+Eingabe auf der Handytastatur und am Rechner staende dort «Hoi A, B und C»? *Warum das
+naeherbringt:* der Zwilling schreibt heute reflexartig «Hoi A, Hoi B, Hoi C» oder eine
+Team-Sammelanrede und trifft die belegte Form nie.
+
+**#2 — Nach welchem Kriterium ordnest Du die Namen in der Sammelanrede?**
+*(Facette: Beziehungsregister · leicht zu beantworten)*
+Die Reihenfolge folgt **nicht** der To/CC-Verteilung: der To-Empfaenger stand vorn, die beiden
+CC-Empfaenger dahinter in **umgekehrter** Reihenfolge zur Kopfzeile. **Frage:** ordnest Du nach
+Naehe, nach Zustaendigkeit fuer das Thema, nach Hierarchie — oder gar nicht? *Warum das
+naeherbringt:* der Zwilling uebernimmt heute stumpf die Empfaengerreihenfolge des Kopfes und
+erzeugt damit eine Rangfolge, die Raphael so nicht gesetzt haette.
+
+**#3 — Ist die Teilung «Wir» fuer die Anforderung / «Ich» fuer die eigene Handlung bewusst?**
+*(Facette: Haltung · Grundsatzfrage, ein Satz genuegt)*
+Drei aufeinanderfolgende Saetze derselben Mail an den Unternehmer: «**Wir** senden Ihnen …» /
+«… bitten **wir** Sie uns Ihre Planung zuzustellen.» / «**Ich** werde diese … koordinieren.»
+**Frage:** ist das Bueros-«Wir» dort gesetzt, wo eine Vorgabe Verbindlichkeit braucht, waehrend
+das «Ich» die eigene Leistung traegt — oder ist der Wechsel unbeabsichtigt? *Warum das
+naeherbringt:* die DNA-Regel «kein vereinnahmendes wir» ist bisher pauschal formuliert; mit
+dieser Bestaetigung bekaeme sie eine saubere Kante (unverbindliche Einschaetzung gegenueber der
+Bauherrschaft: nie «wir» · Anforderung an den beauftragten Unternehmer: «wir»).
+
+**#4 — Der Gruss unter einer Handy-Mail: bewusst oder Signatur-Automatik?**
+*(Facette: Stimme · Beobachtungsauftrag mit Rueckfrage)*
+Die Du-Mail vom 21.08. endet auf «Freundliche Gruesse», aber innerhalb des festen
+`ms-outlook-mobile-signature`-Blocks. **Frage:** stoert es Raphael, dass die Handy-Signatur im
+vertrauten Du den formellen Gruss setzt — oder ist ihm der Gruss dort schlicht gleichgueltig?
+*Warum das naeherbringt:* davon haengt ab, ob der Zwilling bei Handy-Gattungen den Gruss
+ueberhaupt waehlen soll, und ob eine Korrektur der Signatur eine Verbesserung waere.
+
+**#5 — «_ » im Sie ist belegt; bleibt «–» damit ohne Anwendungsfall?**
+*(Facette: Stimme · praezisiert 260819 #3)*
+Batch 101 zeigt das «_ »-Bullet in der **formellen Sie-Mail** (Anhangs-Dateiliste). Die
+Vermutung aus 260819 #3, «–» gehoere ins Sie und «_ » ins operative Du, ist damit widerlegt.
+**Frage:** wofuer setzt Raphael dann «–» — fuer schlichte Aufzaehlungen ohne Entscheidungsgehalt,
+oder ist die Wahl frei? *Warum das naeherbringt:* der Zwilling braucht eine Kante, sonst setzt er
+ueberall «_ » und trifft die Faelle mit «–» nie.
