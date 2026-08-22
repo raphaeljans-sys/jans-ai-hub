@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.08.2026 09:08:53
+Stand: 22.08.2026 09:29:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 22.08.2026 09:08:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- a2b02e37 nas-selfcommit: 5 Datei(en) 2026-08-22 09:00
+- bf068cdb hub-chef 22.08.: Briefing gesendet, Spiegelung + Kalendereintrag ausgefuehrt, Sitzungstakt gemessen, Kalenderweg im WEGE-Register korrigiert
