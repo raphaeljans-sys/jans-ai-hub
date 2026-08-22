@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 09:20:14
+Stand: 22.08.2026 09:40:48
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 09:11)
@@ -12,4 +12,4 @@ Stand: 22.08.2026 09:20:14
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bf068cdb hub-chef 22.08.: Briefing gesendet, Spiegelung + Kalendereintrag ausgefuehrt, Sitzungstakt gemessen, Kalenderweg im WEGE-Register korrigiert
+- 6042a346 nas-selfcommit: 3 Datei(en) 2026-08-22 09:30
