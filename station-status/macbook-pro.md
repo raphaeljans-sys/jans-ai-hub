@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 22.08.2026 07:27:09
+Stand: 22.08.2026 07:37:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 07:03)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:23)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 22.08.2026 07:27:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 90966141 vollgas-fruehwarnung 22.08. 07:15: STILL — 21.08. kombiniert 10.63 Mio teuer, Kontingent 25.7 % bei 68.6 % Woche, keine Blockade, Radar-Herzschlag intakt; Fehlbefund im Opener-Muster durch Kontrollprobe abgefangen; Destillat-Front Korpus 2 seit 17.08. ohne Lauf (Leerstand, kein Verbrauch)
+- ffe3ba12 nas-selfcommit: 3 Datei(en) 2026-08-22 07:30
