@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 22.08.2026 06:55:18
+Stand: 22.08.2026 07:05:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 22.08.2026 06:55:18
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5d209bea nas-selfcommit: 3 Datei(en) 2026-08-22 06:45
+- ba6dfe63 logbuch: Radar-Briefing 22.08.2026 + 5 Registerzeilen (Bodenbelaege PPTS, Kueche Roethlisberger, Jegen-Nachtrag, Lehrstelle, ETH-Anlass)
