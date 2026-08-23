@@ -208,6 +208,22 @@ nach Projektbedarf.
 > bei den eigentlichen drei Fragen (Rückzugsbegründung SIA 422/2025, Ablösungsformel
 > SIA 405:2025). Report: `outputs/2026-08-23_sia-sweep-sechste-fortsetzung.md`.
 
+> **Nachtrag 23.08.2026 (siebte Fortsetzung) — Cloud-weite Dateinamenssuche geprüft, ebenfalls
+> Sackgasse; Empfehlung: Fragen nicht weiter mit Web-Mitteln wiederholen.** Bisher war nur der
+> SharePoint-Ordner `SIA_Norm/` gegen die 55 Blindzone-Nummern geprüft (fünfte Fortsetzung).
+> Neu per `mdfind` geprüft, ob eine der sechs Normen (422, 2021, 2025, 405, 2016, 2045) zufällig
+> anderswo im Haus liegt: gesamtes NAS (`/Volumes/daten`) und alle gemounteten Cloud-Laufwerke
+> (`$HOME/Library/CloudStorage`: beide OneDrive-Bibliotheken, Dropbox, vier GoogleDrive-Accounts).
+> **0 echte Treffer** — die 3 Namenstreffer auf den Cloud-Laufwerken (zwei SIA-Mitgliedschafts-
+> rechnungen unter den Buchhaltungsjahren 2021/2025, kein Bezug zur Normnummer) sind
+> false positives und geprüft verworfen. Damit sind jetzt **sieben** unabhängige Quellenarten
+> für N-SIASWEEP-2/3/4 erschöpft (Shop-Produktseite, zwei amtliche SIA-Kataloge, Espazium,
+> SIA-Webinar-Seite, SNV-Arbeitsprogramm, Wayback Machine, Cloud-weite Dateisuche). **Empfehlung
+> an künftige Läufe:** diese drei Fragen nicht mit denselben oder ähnlichen Web-/Dateisystem-
+> Mitteln erneut angehen — die Grenze der frei zugänglichen Quellen ist erreicht. Fortschritt
+> nur noch über Kauf (`shop.sia.ch`, Bring-Schuld Raphael) oder direkte Anfrage an die
+> SIA-Zentralkommission möglich. Report: `outputs/2026-08-23_sia-sweep-siebte-fortsetzung.md`.
+
 ---
 
 ## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt
@@ -389,6 +405,21 @@ bekannt. Aufgeworfen Run 59 (22.08.2026).
 > keine, beweist aber auch keine Abwesenheit (das Archiv könnte lückenhaft sein).
 > **Nächster Schritt bei Bedarf:** dieselbe Archivseiten-Technik auf weitere Delta-Destillate
 > mit grossen Fassungssprüngen anwenden.
+
+> **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung, sechster Lauf): 40-15 erneut geprüft, jetzt mit
+> strukturierter Feldauswertung statt Text-Grep — Befund unverändert, Beleg jetzt belastbarer.**
+> Dieselbe Archivseite (`archiv-bsv-2015`) per `curl -sL -A "Mozilla/5.0"` neu abgerufen und der
+> eingebettete JSON-Payload strukturiert nach dem Feld `"title"` durchsucht (nicht nur nach dem
+> Text-String «40-15», der auch in Registerbezeichnungen/Metadaten ohne eigenen Archiveintrag
+> vorkommen kann). Ergebnis: **genau ein** Titel-Treffer, «40-15 Weitere Bestimmungen» — kein
+> zweiter, mit «(gültig bis …)» betitelter Eintrag wie bei 108-15. Die frühere Einschätzung
+> «diese eine Quelle zeigt keine, beweist aber auch keine Abwesenheit» bleibt in der Substanz
+> richtig (ein fehlender Archiveintrag ist kein Beweis der Nichtexistenz einer Zwischenausgabe),
+> aber die Methode selbst ist jetzt sauberer: der erste Check hätte bei einem reinen
+> Text-Treffer in einer Fussnote oder einem Fremdverweis falsch positiv sein können, der
+> strukturierte Titel-Match schliesst das aus. **Für 40-15 bleibt die Zwischenausgaben-Frage
+> offen**, weitere freie Quellen dafür sind nicht ersichtlich — kein neuer Web-Recherche-Anlauf
+> mehr gerechtfertigt (gleiche Erschöpfungslogik wie N-SIASWEEP oben).
 
 ---
 
@@ -634,6 +665,16 @@ aus). **Nachrangig geworden:** solange die Norm archiviert ist und die Nachfolge
 eine weitere Runde auf der Altnorm der geringere Ertrag. Erst nach Entscheid zu N57-2 sinnvoll.
 
 ### N57-3 — Korrigenda-Liste weiterhin nicht eingesehen (gering)
+
+> ✅ **Für SIA 416/1:2007 GEGENSTANDSLOS (23.08.2026, QUESTIONS-Abarbeitung, sechster Lauf).**
+> N57-2 (oben) hat primärquellenfest belegt: die Norm ist seit 31.03.2015 archiviert, ersetzt
+> durch SIA 380:2015. Eine Korrigenda-Prüfung dient dazu, den geltenden Normtext einer Norm
+> nachzuführen — für eine seit über zehn Jahren archivierte Ausgabe ohne praktische Wirkung,
+> solange die Nachfolgenorm nicht selbst geprüft wird. Kein neuer Rechercheaufwand gerechtfertigt.
+> **Bleibt wie ursprünglich vermerkt gültig:** bei der Beschaffung/Destillation von
+> **SIA 380:2015** (Bring-Schuld Raphael, siehe N57-2) ist deren eigene Korrigenda-Fundstelle
+> auf dem Titelblatt mitzuprüfen — das ist kein Rückstand dieser Frage, sondern Teil der
+> normalen Destillations-Checkliste für jede neue Norm.
 
 Der SIA führt Korrekturen unter `www.sia.ch/korrigenda`; die Seite liefert ohne JavaScript
 keinen Inhalt. Bei einer archivierten Ausgabe nachrangig. Der Hinweis auf die Fundstelle steht
@@ -1725,16 +1766,30 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **S41-7 Impulsventilatoren (Jet-Fan, Ziff. 2.5.3) fehlen** — heute die übliche Bauart in
   Tiefgaragen; Funktionsnachweis mittels Simulation zwingend.
 - **S41-8** Ob die französische Parallelfassung von der deutschen abweicht — nicht gediffed.
-- **S41-9 (P2, Korrektur 01.08.2026, Ultra-Code-Review): Grenzfall exakt 100 m² ungeklärt.**
-  `outputs/2026-07-31_normen-nacht-run40.md` (Abschnitt 3.2) und das Destillat selbst formulieren
-  den Anwendungsbereich als «gilt ab 100 m²» / «Kleingaragen unter 100 m² gilt sie nicht»,
-  während dieselbe Quelle die Garagentypen als «Kleingarage bis 100 m², Mittelgarage
-  100-1'000 m², Grossgarage über 1'000 m²» definiert (Ziff. 1.1.1). Bei exakt 100 m² ist damit
-  unklar, ob die Richtlinie greift (Kleingarage «bis 100 m²» wäre eingeschlossen) oder nicht
-  (Anwendungsbereich «ab 100 m²» wäre ebenfalls eingeschlossen — beide Lesarten kollidieren).
-  Diese Session hat keinen Zugriff auf das Original (SWKI VA 103-1, OneDrive PL-02, Ziff. 0.1.2/
-  1.1.1) und entscheidet den Grenzfall NICHT selbst. Am Original zu klären, dann Destillat und
-  Run-40-Report-Verweis hier schliessen.
+- **S41-9 (P2, Korrektur 01.08.2026, Ultra-Code-Review): Grenzfall exakt 100 m².**
+
+  > ✅ **GESCHLOSSEN 23.08.2026.** Original beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,
+  > `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`, per
+  > M365-Graph-Connector geladen; Datei ist ein Scan ohne Textlayer, per `pdftoppm -r 200`
+  > gerendert und visuell gelesen — Druckseite 5 = PDF-Seite 7, Druckseite 10 = PDF-Seite 12,
+  > Versatz +2 wie im Destillat dokumentiert). Beide Fundstellen wörtlich geprüft: **Ziff. 0.1.2
+  > «Anwendungsbereich» (Druckseite 5)** sagt «Die Richtlinie gilt für Mittel- und Grossgaragen
+  > **ab 100 m²** …» und separat «Für Kleingaragen **unter 100 m²** wird empfohlen …». «Ab» (≥)
+  > und «unter» (<) grenzen lückenlos und überschneidungsfrei aneinander — eine Garage von genau
+  > 100 m² fällt unter «ab 100 m²», die Richtlinie **gilt** dafür (Mittelgarage). **Kap. 1.1.1
+  > «Begriffe, Definitionen» (Druckseite 10)** formuliert dieselbe Grenze dagegen unpräzise:
+  > «Kleingarage … bis 100 m²» und «Mittelgarage … von 100 m² bis 1'000 m²» — dort gehört der
+  > Wert 100 m² wortwörtlich zu beiden Kategorien. Das ist ein Redaktionsversehen im
+  > informellen Glossar, nicht in der operativen Anwendungsbereichs-Klausel; Ziff. 0.1.2 ist die
+  > für die Frage «greift die Richtlinie» massgebliche Stelle und dort eindeutig. Nachgetragen
+  > in `destillate/swki-va103-01-2017.md` (Abschnitt «Geltungsbereich» und «Begriffe/
+  > Garagentypen»).
+  >
+  > **Ursprungswortlaut (unverändert dokumentiert):** `outputs/2026-07-31_normen-nacht-run40.md`
+  > (Abschnitt 3.2) und das Destillat formulierten den Anwendungsbereich als «gilt ab 100 m²» /
+  > «Kleingaragen unter 100 m² gilt sie nicht», während dieselbe Quelle die Garagentypen als
+  > «Kleingarage bis 100 m², Mittelgarage 100-1'000 m², Grossgarage über 1'000 m²» definiert
+  > (Ziff. 1.1.1) — ohne Zugriff auf das Original schien beides zu kollidieren.
 
 ### Hindernisfreies Bauen (neu aufgenommener Bestand)
 - **H41-1** Schlagen § 239 PBG und § 34 BBV I heute auf **SIA 500:2009** durch, oder verweist
@@ -3507,14 +3562,47 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
 - [ ] **Wegleitung zu SIA 271 (Abdichtungen) liegt nur als 2-Seiten-Auszug vor.** Das PDF enthält
   ausschliesslich Deckblatt und Buchseite 64 (Ziff. 5.10.3-5.10.5). Destillat `sia-271-wegleitung.md`
   ist deshalb `speculative` und im Inventar als `[~]` teil-destilliert geführt. Volltext beschaffen.
-- [ ] **Gültigkeitsstand der Merkblatt-Serie 2000er ist ungeklärt.** SIA-Merkblätter sind laut
-  eigenem Vorspann nur **drei Jahre gültig**, verlängerbar um je drei Jahre. Bei praktisch allen
-  destillierten Merkblättern (2001:2005, 2003:1996, 2004:1992, 2006, 2007, 2008, 2015:2005,
-  2016:2005, 2017:2000, 2018:2004, 2022, 2026:2006, 2027:2006) geht aus dem PDF NICHT hervor, ob
-  sie verlängert, abgelöst oder zurückgezogen wurden. **Konsequenz für die Fach-Skills:** Vor jeder
-  Fundstelle aus einem 2000er-Merkblatt in einem ausgehenden JANS-Dokument ist der aktuelle
-  Gültigkeitsstand am SIA-Normenregister zu prüfen — die Destillate belegen den Inhalt, nicht die
-  heutige Geltung.
+- [x] **Gültigkeitsstand der Merkblatt-Serie 2000er — GEKLÄRT (23.08.2026, QUESTIONS-Abarbeitung).**
+
+  > SIA-Merkblätter sind laut eigenem Vorspann nur **drei Jahre gültig**, verlängerbar um je drei
+  > Jahre. Bei praktisch allen destillierten Merkblättern (2001:2005, 2003:1996, 2004:1992, 2006,
+  > 2007, 2008, 2015:2005, 2016:2005, 2017:2000, 2018:2004, 2022, 2026:2006, 2027:2006) ging aus
+  > dem PDF NICHT hervor, ob sie verlängert, abgelöst oder zurückgezogen wurden.
+  >
+  > **Jede der 13 Nummern einzeln am Herausgeber geprüft** (Produktseite `shop.sia.ch`, Muster
+  > `shop.sia.ch/normenwerk/architekt/sia%20<nr>/d/D/Product`, alle abgerufen 23.08.2026 — sechs
+  > davon bereits im selben Tag vom SIA-Sweep in `wiki/REGISTER.md` geklärt, sieben hier neu
+  > geprüft und dort nachgetragen):
+  >
+  > | Nr. | Bestand (Haus) | Heutiger Status | Nachfolger |
+  > |---|---|---|---|
+  > | 2001 | 2005 (Vorstufe) | seit 2018 vollständig retiriert | **SIA 279:2018** (im Haus, established) |
+  > | 2003 | 1996 | archiviert seit 31.03.2022 | keiner genannt |
+  > | 2004 | 1992 | bereits als «alle zurückgezogen» bekannt | — |
+  > | 2006 | 1993 (Vorstufe) | Ausgabe 2013 archiviert seit 31.10.2023 | **SIA 4018:2023** |
+  > | 2007 | — (kein Volltext im Haus) | Ausgabe 2001 weiterhin **aktuell** | — |
+  > | 2008 | 1994 | bereits als «alle zurückgezogen» bekannt | — |
+  > | 2015 | 2005 (Vorstufe) | Ausgabe 2012 archiviert seit 31.07.2025 | **SIA 405:2025** (Konsolidierung GEO405-Familie, dritter unabhängiger Beleg) |
+  > | 2016 | 2005 (Vorstufe) | Ausgabe 2012 archiviert seit 31.07.2025 | **SIA 405:2025** |
+  > | 2017 | 2000 | weiterhin **aktuell**, kein Rückzug | — |
+  > | 2018 | 2004 | archiviert seit 30.11.2017 | **SIA 269/8:2017** «Erhaltung von Tragwerken — Erdbeben» |
+  > | 2022 | 2003 | archiviert seit 30.06.2021 | keiner genannt |
+  > | 2026 | 2006 | zweifach veraltet: Zwischenausgabe 2017 archiviert seit 31.07.2026 | **SIA 4020:2026**, gültig ab 01.08.2026 |
+  > | 2027 | — (kein Volltext im Haus) | Ausgabe 2006 archiviert seit 31.10.2014 | **SIA 103:2014** (Inhalt in Honorarordnung integriert) |
+  >
+  > **Ergebnis: nur 2 der 13 Bestandsausgaben (2007, 2017) sind heute noch die aktuell gültige
+  > Fassung** — bei 2004/2008 ist die Nummer bereits vollständig zurückgezogen, bei den übrigen
+  > neun ist der Bestand entweder eine überholte Zwischenausgabe oder unter einer neuen Nummer
+  > fortgeführt. **Konsequenz für die Fach-Skills bleibt bestehen und wird durch den Befund
+  > verschärft:** vor jeder Fundstelle aus einem 2000er-Merkblatt in einem ausgehenden
+  > JANS-Dokument ist die Gültigkeit zu prüfen — die Destillate belegen den historischen Inhalt,
+  > nicht zwangsläufig die heutige Geltung. Volltexte der neun Nachfolgenormen (SIA 279:2018 und
+  > 405:2025 sind bereits im Haus) liegen für SIA 4018:2023, SIA 269/8:2017, SIA 4020:2026 nicht
+  > vor — Beschaffung Bring-Schuld, in `wiki/REGISTER.md` je Zeile vermerkt.
+  >
+  > Belege: `wiki/REGISTER.md`, Abschnitt A, Zeilen SIA 2003/2006/2015/2017/2018/2022/2026
+  > (nachgeführt 23.08.2026) sowie die bereits am selben Tag durch den SIA-Sweep geklärten Zeilen
+  > SIA 2001/2007/2016/2027/2045.
 - [ ] **`SIA_Leistungsmodell.pdf` ist gar kein SIA-Dokument.** Der Verifier hat festgestellt: es ist
   ein Merkblatt der **KUNDERT PLANER AG** zur SIA-Ordnung, nicht eine SIA-Publikation. Das Inventar
   führte es als «Hilfsmittel Leistungsmodell». Als Sekundärquelle behandeln, nie als Norm zitieren.
@@ -3774,6 +3862,19 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Herkunft: Refuter-Run 49 (13.08.2026), Nebenbefund zu `destillate/sia-382-2-2011.md`; geschlossen durch Run 52 (15.08.2026), hier nachgetragen 23.08.2026.
 
 ## 260823 — VKF BRL 13-15: Delta 2015→2017 liegt an zwei Orten (Duplikat, nicht konsolidiert)
+
+> ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, sechster Lauf), ohne Löschen/Mergen.**
+> Kanon-Frage per vorhandenem, nicht-arbiträrem Kriterium entschieden: der `established`-Status
+> schlägt `speculative` (Rule `normen-referenz` Ziff. 1b) — das Inline-Delta in
+> `vkf-brl-13-15-baustoffe-bauteile.md` (adversarial gegengeprüft Run 23, established) ist damit
+> die kanonische Fundstelle, `vkf-brl-13-15-fassung-2017-delta.md` (speculative) die
+> Redundanz-/Gegenprobe-Fassung. Beide Dateien tragen jetzt einen gegenseitig verlinkten
+> Kanon-Hinweis im Fliesstext (nicht nur im Frontmatter). **Keine Datei geloescht oder
+> zusammengelegt** — Rule `wissens-bibliothekar` verlangt dafuer eine Rueckfrage, hier genuegte
+> eine nicht-destruktive Klarstellung. Dieselbe Methode (established > speculative als
+> Tie-Breaker) laesst sich auf N60-1 (AFC-Synopse-Duplikat) NICHT uebertragen, da dort beide
+> Destillate `established` sind — dort bleibt der Entscheid bei Raphael.
+
 - Frage: `vkf-brl-13-15-baustoffe-bauteile.md` traegt seit 25.07.2026 (Run 23) einen eigenen,
   `established` gefuehrten Inline-Abschnitt «Fassung 01.01.2017 — Delta». Run 60 (23.08.2026) hat
   unabhaengig davon, gemaess der seit Run 59 gefuehrten Konvention (eigene Delta-Datei je
@@ -3784,10 +3885,6 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Warum das zaehlt: zwei Orte fuer denselben Sachverhalt driften bei der naechsten Aenderung
   auseinander, wenn nur einer nachgefuehrt wird.
 - Herkunft: Run 60, Auftrag «VKF-Fassungs-Deltas 01.01.2015 → 01.01.2017», Publikation 13-15.
-- Naechster Schritt: Entscheiden, ob der Inline-Abschnitt in `vkf-brl-13-15-baustoffe-bauteile.md`
-  auf eine kurze Verweiszeile zur neuen Delta-Datei gekuerzt wird (Konsistenz mit 10-15/11-15/
-  104-15/108-15/40-15/17-15), oder ob die neue Datei wieder entfernt und stattdessen der bestehende
-  Inline-Abschnitt als Referenz aus dem Register verlinkt wird.
 
 ## 260823 — VKF BRL 17-15: Begriffe «Verkaufsraeume» und «Technikraum Sicherheitsstromversorgung» nicht in dieser Richtlinie definiert
 

@@ -1,5 +1,41 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (achte Fortsetzung, Run 153): E-R140-1 geschlossen — Healthcare-Gebäudekategorie war im eigenen Bestand bereits beantwortet
+
+Fortsetzung der sieben vorangehenden Interaktiv-Sessions desselben Tages. Run 152 hatte den
+Bestand für reine Rechercheaufträge als erschöpft erklärt; dieser Lauf hat das an einem
+konkreten Punkt gegengeprüft statt übernommen. **E-R140-1 (Healthcare-Gebäudekategorie
+Pflegeheim/Altersheim) war seit Run 148 als „hängt am Normkauf SIA 380/1" geführt** — zu Unrecht:
+`[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, seit 26.07.2026 im Bestand (`emerging`,
+Quelle SIA-Statusbericht «Harmonisierung SIA-Standardwerte und Gebäudekategorien» 2019, von der
+SIA-Kommission 2024 selbst verfasst), beantwortet die Frage bereits wörtlich: «Die
+Gebäudekategorie VIII Spital wird unterteilt in VIII.1 Spital … und VIII.2 Pflege (**Pflegeheim,
+Altersheim**, Rehabilitation, psychiatrische Klinik).» Zusätzlich reproduziert dieselbe Quelle die
+amtliche SIA-380/1-Gebäudekategorien-Tabelle (Ziff. 1.1.1, Tab. 1) wörtlich: Kat. I nennt nur
+«Alterssiedlungen/-wohnungen», Kat. VIII nennt «Altersheime» namentlich.
+
+**Ergebnis: ein Pflegeheim/Altersheim mit Betreuung/Pflege gehört zu Kat. VIII Spitäler
+(70 kWh/m² nach § 47a BBV I), nicht zu Kat. I Wohnen MFH (35 kWh/m²).** Reines Betreutes Wohnen
+ohne Pflegeleistung fällt eher unter Kat. I. Eingeschränkt bleibt: die Quelle ist ein
+nicht-normativer SIA-Statusbericht, der den Normtext zitiert, keine eigene Lektüre von
+SIA 380/1:2016 Anhang A selbst — für die formell zitierfähige Fundstelle (Rule
+`normen-referenz`) bleibt der Normkauf (E-R148-1) offen, die Sachfrage gilt aber als geklärt.
+
+**Fund über den Einzelpunkt hinaus (Cross-Check gegen KB `normen`):** das dortige Destillat
+`sia-380-1-2016.md` führt seit dem 17.07.2026 einen Querverweis auf eine bereits `established`
+Interims-Wertquelle in der eigenen KB `energie` (EnFK EN-102, U-Werte + Q_H,li-Grenzwerte je
+Gebäudekategorie) — ein Hinweis, den die Runs 148/149/150 beim Formulieren von E-R148-1 nicht
+aufgegriffen hatten. E-R148-1s Framing in `QUESTIONS.md` entsprechend präzisiert: offen bleibt nur
+noch die zitierfähige Primärnorm-Fundstelle, nicht mehr die praktischen Werte oder die
+Kategorien-Zuordnung.
+
+Register: `wiki/QUESTIONS.md` (E-R140-1 ✓, neuer Run-153-Abschnitt, E-R148-1-Framing korrigiert),
+`destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md` (Offene-Punkte-Abschnitt aufgelöst),
+`destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` (Backlink ergänzt). Output:
+`outputs/2026-08-23_questions-nachlauf-achte-fortsetzung.md`. Nach jedem Schreibvorgang
+`git diff --numstat` geprüft, ausschliesslich additiv (bis auf die erwarteten Checkbox-/
+Abschnitt-Ersetzungen).
+
 ## 2026-08-23 — Interaktive Session (siebte Fortsetzung, Run 152): E-R138-2 geschlossen, Bestand gegengeprüft — keine weitere reine Recherchefrage offen
 
 Fortsetzung der sechs vorangehenden Interaktiv-Sessions desselben Tages. Gesamten `QUESTIONS.md`-

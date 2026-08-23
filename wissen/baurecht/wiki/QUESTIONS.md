@@ -39,18 +39,35 @@ oft in mehreren Kapiteln.
 Gebäude» — Fussnote mit beiden Fundstellen ergänzt.
 Quelle: `outputs/2026-08-23_buch-run80.md`. Ursprüngliche Frage: `outputs/2026-08-23_buch-run79.md`, Ziffer 2.
 
-## 2026-08-23 (Buch-Run 78, T7 Archiv-Sichtung) — StraG/StraV SZ noch nicht als Connector-Volltext gezogen
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 81) — StraG/StraV SZ noch nicht als Connector-Volltext gezogen
 
-Der neue Artikel [[strassenabstand-zufahrten-vorteilsabgabe-sz]] stützt sich auf den im
-Merkblatt Tiefbauamt SZ (Formular Z15) wörtlich zitierten Gesetzesauszug (§§ 38/40/41/42/47/58
-StraG SRSZ 442.110, §§ 25/28 StraV SRSZ 442.111) — nicht auf einen vollständigen, aktuell
-gezogenen Volltext. Der bestehende SZ-Track des Connectors `recht-ch.mjs` zieht bislang nur
-kommunale Baureglemente (`oereblex.sz.ch`), keine kantonalen Erlasse wie StraG/StraV. **Offen:**
-Connector um den kantonalen SZ-Erlass-Bezug erweitern (analog zum ZH-PBG/ABV-Bezug) und den
-Artikel gegen den vollständigen, aktuellen Wortlaut verifizieren (Status von `emerging` auf
-`established` heben), bevor die Vorteilsabgabe-Sätze in einer Kundenberatung verbindlich
-zitiert werden. Nachgeordnet, kein akuter Fall (kein laufendes SZ-Projekt mit Zufahrt an
-Kantonsstrasse aktuell bekannt).
+**War offen seit Buch-Run 78 (T7 Archiv-Sichtung).**
+
+Ursprüngliche Frage: [[strassenabstand-zufahrten-vorteilsabgabe-sz]] stützte sich nur auf den
+im Merkblatt Tiefbauamt SZ (Formular Z15) wörtlich zitierten Gesetzesauszug, nicht auf einen
+vollständigen, aktuell gezogenen Volltext — Status blieb `emerging`.
+
+**Antwort:** Der vollständige amtliche Volltext wurde direkt von `sz.ch` bezogen (SRSZ-Stand
+1.2.2025) und liegt neu als `raw/260823_amtlich_sz_strassengesetz.md` (StraG, 69 Paragraphen)
+und `raw/260823_amtlich_sz_strassenverordnung.md` (StraV, 31 Paragraphen + Anhang) vor. Alle
+acht im Artikel zitierten Paragraphen (§§ 38/40/41/42/47/58 StraG, §§ 25/28 StraV) wortlautgeprüft.
+**Ergebnis: 2 echte Korrekturen** (die Erstfassung hatte beim Verdichten aus dem
+Merkblatt-Auszug zwei bereits dort vorhandene Nuancen verloren, keine Fehler der Primärquelle):
+1. **§ 41 Abs. 1 lit. a StraG** staffelt den Strassenabstand nach Strassenkategorie
+   (6.00 m Hauptstrassen / 4.00 m Verbindungs-/Groberschliessungsstrassen / 3.00 m
+   Nebenstrassen, § 4 StraG) — der Artikel führte nur «6.00 m» als generellen Wert.
+2. **§ 28 Abs. 1/2 StraV** fixiert die Vorteilsabgabe-Staffelung (3/4.5/5 %) nur **an
+   Hauptstrassen**; für Verbindungs-/Nebenstrassen legt der Bezirksrat/Gemeinderat die Höhe
+   selbst fest (§ 28 Abs. 3 StraV, kein kantonal fixierter Satz) — der Artikel präsentierte
+   die Tabelle ohne diesen Vorbehalt.
+
+Status **`emerging` → `established`** angehoben (`wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md`,
+neues `verifiziert`-Feld). Der Connector `skills/baurecht/connectors/recht-ch.mjs` zieht für SZ
+weiterhin nur kommunale Baureglemente — die Connector-Erweiterung um kantonale SZ-Erlasse bleibt
+ein separates, nachgeordnetes Vorhaben, ist aber keine Voraussetzung mehr für die Zitierfähigkeit
+dieses Artikels, da der Volltext jetzt direkt in `raw/` vorliegt.
+
+Quelle: `outputs/2026-08-23_buch-run81.md`.
 
 ## 2026-08-23 (Recherche-Agent) — Frage A geklärt, Frage B bleibt offen: § 15 Abs. 3 / § 36 Abs. 2 EG GSchG (Nachtrag zu 2026-08-03, Buch-Run 71)
 

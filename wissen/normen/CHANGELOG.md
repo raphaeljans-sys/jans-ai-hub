@@ -1,3 +1,145 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung, sechster Lauf: BRL-13-15-Doppelbestand kanonisiert (established > speculative), N57-3 gegenstandslos, N59-4 methodisch nachgeschärft
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopfeintrag, damals «fünfter Lauf») sowie die drei SIA-Sweep-Fortsetzungen
+desselben Tages oben in `QUESTIONS.md` — deren letzter Stand (siebte Fortsetzung) erklärt
+N-SIASWEEP-2/-3/-4 für über freie Quellen erschöpft; dort deshalb bewusst **nicht** weiter
+recherchiert. Eigener Prozess bestätigt (`ps aux`): parallel läuft ein Scheduled-Task-Prozess mit
+identischem Auftragstext — das ist gemäss Anweisung der eigene Lauf, kein Konkurrent. Nach jedem
+Schreiben `git diff --numstat` nativ per `ssh raphaeljans@192.168.1.10` geprüft (Tailscale-Hostname
+von dieser Station aus nicht auflösbar, LAN-IP funktioniert); alle Löschungen geprüft — 4 Zeilen
+eigene, gewollte Ersetzung, der Rest bereits vor Sessionstart durch den fünften Lauf erledigt.
+
+**1. BRL 13-15 Doppelbestand (260823) — GESCHLOSSEN, ohne Löschen/Mergen.** Zwei Destillate
+trugen dasselbe Delta 2015→2017 (`vkf-brl-13-15-baustoffe-bauteile.md`, established, adversarial
+gegengeprüft Run 23; `vkf-brl-13-15-fassung-2017-delta.md`, speculative, Run 60). Kanon-Frage
+über ein bereits vorhandenes, nicht-arbiträres Kriterium entschieden: established schlägt
+speculative (Rule `normen-referenz` Ziff. 1b). Beide Dateien tragen jetzt einen gegenseitig
+verlinkten Kanon-Hinweis im Fliesstext (nicht nur im Frontmatter); keine Datei geändert im
+Sinne von Inhalt gelöscht. Dieselbe Methode ist auf N60-1 (AFC-Synopse, beide Destillate
+established) nicht übertragbar — dort bleibt der Entscheid bei Raphael.
+
+**2. N57-3 (Korrigenda-Liste SIA 416/1:2007) — logisch geschlossen.** N57-2 hat bereits belegt,
+dass die Norm seit 31.03.2015 archiviert ist (ersetzt durch SIA 380:2015). Eine
+Korrigenda-Prüfung einer über zehn Jahre archivierten Ausgabe hat keine praktische Wirkung mehr;
+kein neuer Rechercheaufwand gerechtfertigt. Die Alt-Anforderung (Korrigenda-Fundstelle bei
+SIA 380:2015 mitprüfen, sobald beschafft) bleibt unverändert als Teil der normalen
+Destillations-Checkliste stehen, nicht als eigener Rückstand.
+
+**3. N59-4 (40-15 Zwischenausgaben) — Methode nachgeschärft, Befund unverändert offen.**
+Archivseite `archiv-bsv-2015` erneut abgerufen, diesmal mit strukturierter Feldauswertung des
+JSON-Payloads (`"title"`-Feld) statt Text-Grep — schliesst False Positives durch Text-Treffer in
+Fussnoten/Fremdverweisen aus. Ergebnis unverändert: genau ein Titel-Treffer für 40-15, kein
+zweiter mit «(gültig bis …)» wie bei 108-15. Frage bleibt für 40-15 offen (keine freie Quelle
+liefert eine Antwort), aber der Beleg für die Abwesenheit ist jetzt belastbarer.
+
+**Nicht weiterverfolgt (bewusst):** N-SIASWEEP-1 bis -4 (heute bereits siebenfach über
+unterschiedliche Quellenarten erschöpft — neuer Anlauf hätte keinen Grenzertrag), N59-2
+(Wasserzeichen, bereits nachrangig und werkzeugseitig dokumentiert), N58-4 (Scope-Notiz, keine
+offene Sachfrage), N60-1/N60-2 (Freigabe Raphael ausstehend, nicht selbständig zu entscheiden),
+260731 NIN-Geschirrspüler (Web-Recherche bereits zweifach erschöpft, Zugang kostenpflichtig).
+
+Report: `outputs/2026-08-23_questions-abarbeitung5.md`.
+
+## 2026-08-23 — QUESTIONS-Abarbeitung, fünfter Lauf: S41-9 (SWKI VA103-01 Grenzfall 100 m²) geschlossen, Merkblatt-Serie-2000er-Gültigkeitsstand für alle 13 Nummern geklärt
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopfeintrag, damals «SIA-Sweep, sechste Fortsetzung») und
+`outputs/2026-08-23_questions-abarbeitung4.md` (letzter Lauf dieser Reihe). Während des Laufs
+lief parallel ein weiterer, eigenständiger Prozess (Auftrag «SIA-Sweep … fortsetzen», eigener
+Lauf-Name, kein Konkurrent im Sinne der Anweisung, aber ein echter zweiter Schreiber auf
+denselben Dateien) — vor jedem Edit die Zielzeile frisch gelesen, nach jedem Schreiben
+`git diff --numstat` geprüft, keine fremden Ergänzungen überschrieben.
+
+**1. S41-9 (SWKI VA103-01, Grenzfall exakt 100 m²) — GESCHLOSSEN.** Original beschafft
+(SharePoint Site PL, Drive `02_Recht_Norm`, `06_Richtlinien/SWKI/SWKI VA 103-1
+Lüftungsanlagen für Parkhäuser.pdf`, per `connectors/m365-graph.mjs` geladen — Scan ohne
+Textlayer, `pdftoppm -r 200` + visuell gelesen). Ziff. 0.1.2 «Anwendungsbereich» (Druckseite 5)
+ist eindeutig: «ab 100 m²» (Richtlinie gilt) gegen «unter 100 m²» (nur Empfehlung) schliessen
+lückenlos aneinander — bei genau 100 m² GILT die Richtlinie. Das informelle Begriffe-Kapitel
+1.1.1 (Druckseite 10) formuliert dieselbe Grenze zwar unpräzise («bis»/«von…bis», beide
+Kategorien überlappend), ist aber nicht die operative Klausel. Nachgetragen in
+`destillate/swki-va103-01-2017.md` (Abschnitte «Geltungsbereich» und «Begriffe/Garagentypen»).
+
+**2. Gültigkeitsstand der Merkblatt-Serie 2000er (Run-16-Punkt, seit 19.07.2026 offen) —
+GEKLÄRT.** Alle 13 seinerzeit genannten Nummern (2001, 2003, 2004, 2006, 2007, 2008, 2015,
+2016, 2017, 2018, 2022, 2026, 2027) einzeln über die Produktseite `shop.sia.ch` geprüft (sechs
+davon bereits durch den parallel laufenden SIA-Sweep in `wiki/REGISTER.md` erledigt, sieben
+hier neu: 2003, 2006, 2015, 2017, 2018, 2022, 2026). **Ergebnis: nur 2 der 13 Bestandsausgaben
+(2007, 2017) sind noch die aktuell gültige Fassung.** Neue Nachfolgenormen-Funde: SIA 4018:2023
+(löst SIA 2006 ab), SIA 269/8:2017 (löst SIA 2018 ab, für Healthcare-Bestandesbauten relevant),
+SIA 4020:2026 (löst SIA 2026 ab, gültig erst seit 01.08.2026 — die Umnummerierung ist Wochen
+alt). Zusätzlich ein dritter unabhängiger Beleg für die bereits vermutete GEO405-Konsolidierung
+in SIA 405:2025: auch SIA 2015 endet exakt am 31.07.2025, wie zuvor schon SIA 2016 und 2045.
+Tabelle mit allen 13 Zeilen in `wiki/QUESTIONS.md` beim Run-16-Eintrag; Einzelbelege in
+`wiki/REGISTER.md`, Abschnitt A. Keine der genannten Nachfolgenormen (4018/269-8/4020) liegt
+im Haus — Beschaffung bleibt Bring-Schuld, je Register-Zeile vermerkt.
+
+**Verifikation:** `git diff --numstat -- wissen/normen/` nach jedem Schreibvorgang geprüft.
+`destillate/swki-va103-01-2017.md` 17/8 (gezielte Abschnittsersetzung, kein globales Suchen/
+Ersetzen). `wiki/QUESTIONS.md` und `wiki/REGISTER.md`: vor jedem Edit die Zielzeile frisch
+gegrept (der Vorlauf-Hinweis «Datei wurde seit dem letzten Lesen verändert» erschien mehrfach
+wegen des parallelen SIA-Sweep-Prozesses); jede eigene Zeile traf beim erneuten Lesen
+unverändert an, kein alter oder fremder Text wurde ersetzt oder gelöscht — beide Dateien
+zeigen zusätzliche additive Zeilen aus dem parallelen Prozess, die hier weder verändert noch
+autoritativ referenziert wurden.
+
+**Nicht geleistet:** kein Normtext gekauft; die drei N-SIASWEEP-Fragen, N60-1, N60-2, das
+BRL-13-15-Duplikat und die NIN-Frage bewusst nicht angefasst (Entscheid-/Freigabepunkte bzw.
+kostenpflichtiger Zugang, siehe Vorläufer-Reports).
+
+Report: `outputs/2026-08-23_questions-abarbeitung5.md`.
+
+---
+
+## 2026-08-23 — SIA-Sweep, siebte Fortsetzung: Cloud-weite Dateinamenssuche als letzter ungeprüfter Weg für N-SIASWEEP-2/3/4 erschöpft
+
+**Auftrag Raphael:** SIA-Sweep der KB fortsetzen — Register-Zeilen ohne Datei im Haus,
+Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen. Vorlauf gelesen: dieser CHANGELOG (Kopf «SIA-Sweep, sechste Fortsetzung») und
+`outputs/2026-08-23_sia-sweep-sechste-fortsetzung.md`.
+
+**1. Sweep-Status geprüft, unverändert vollständig.** Der Vorlauf hatte den Sweep bereits
+unabhängig reverifiziert (0 von 187 aktiven Abschnitt-A-Zeilen mit leerer Bestand-Abgleich-
+Zelle). `ps aux` zeigt für diesen Lauf ausschliesslich den eigenen Prozess (PID 75710, Kommando
+identisch mit dem eigenen Auftragstext) — kein Konkurrent an dieser KB.
+
+**2. Neuer Weg für die drei verbliebenen offenen Fragen (N-SIASWEEP-2/3/4: SIA 422, SIA 2021/
+2025, GEO405-Familie) geprüft: Cloud-weite Dateinamenssuche.** Bisher war nur der SharePoint-
+Ordner `SIA_Norm/` gegen die 55 Blindzone-Nummern geprüft (fünfte Fortsetzung). Per `mdfind`
+zusätzlich geprüft, ob eine der sechs Normen zufällig anderswo im Haus liegt: gesamtes NAS
+(`/Volumes/daten`, ausserhalb `SIA_Norm/`) und alle gemounteten Cloud-Laufwerke (`$HOME/Library/
+CloudStorage`: beide OneDrive-Bibliotheken, Dropbox, vier GoogleDrive-Accounts). **Ergebnis: 0
+echte Treffer.** Drei Namenstreffer auf den Cloud-Laufwerken geprüft und als false positives
+verworfen (zwei SIA-Mitgliedschaftsrechnungen unter den Buchhaltungsjahren 2021/2025 — Treffer
+kam vom Jahr im Pfad, nicht von der Normnummer). Damit sind jetzt **sieben** unabhängige
+Quellenarten für diese drei Fragen erschöpft (Shop-Produktseite, zwei amtliche SIA-Kataloge,
+Espazium, SIA-Webinar-Seite, SNV-Arbeitsprogramm, Wayback Machine, Cloud-weite Dateisuche).
+**Empfehlung an künftige Läufe:** diese drei Fragen nicht mit denselben oder ähnlichen Web-/
+Dateisystem-Mitteln erneut angehen — Fortschritt nur noch über Kauf oder direkte SIA-Anfrage.
+
+**Nebenbefund (nicht selbst verursacht):** eine parallele Session hat während dieses Laufs in
+`wiki/QUESTIONS.md` die Frage S41-9 (SWKI VA 103-1, Grenzfall 100 m²) geschlossen und in
+`wiki/REGISTER.md` mehrere Merkblatt-Zeilen (SIA 2003, 2015, 2017, 2018, 2022) um einen
+Abschnitt «Aktueller Geltungsstand geklärt» ergänzt — geprüft, gehört nicht zu diesem Auftrag,
+inhaltlich eine reine Erweiterung (kein Textverlust), nicht angefasst.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/QUESTIONS.md`
+additiv (eigener Nachtrag am Ende des N-SIASWEEP-Abschnitts, bestehender Text unverändert; die
+übrigen im Diff sichtbaren Änderungen stammen aus der oben genannten fremden Parallelsession),
+`wiki/REGISTER.md` additiv (eigene neue Zeile in der „FRISCH GEMELDET"-Tabelle; übrige
+Diff-Zeilen ebenfalls die fremde Parallelsession, geprüft, kein Textverlust).
+
+**Nicht geleistet:** kein Normtext gekauft; N-SIASWEEP-2/3/4 bleiben offen, jetzt mit sieben
+statt sechs erschöpften Quellenarten dokumentiert. Der eigentliche Sweep-Auftrag bleibt bei
+0 von 187 offenen Blindzone-Zeilen — unverändert vollständig.
+
+Report: `outputs/2026-08-23_sia-sweep-siebte-fortsetzung.md`.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, sechste Fortsetzung: Vollständigkeit unabhängig reverifiziert, Wayback Machine als neuer Weg für N-SIASWEEP-2/3/4 erschöpft
 
 **Auftrag Raphael:** SIA-Sweep der KB fortsetzen — Register-Zeilen ohne Datei im Haus,

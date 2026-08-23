@@ -369,7 +369,8 @@ Für einen Bauherrn/Betreiber eines Pflegeheims oder Spitals in ZH/SZ heisst das
 
 **Backlinks:** [[u-werte-grenzwerte-ch]] · [[energienachweis-zh]] ·
 [[komfortlueftung-wrg-sia382-luftwechsel]] · [[sia-380-1-standardnutzungswerte-tab24-25]] ·
-[[en-zh-nachweis-uebersicht]]
+[[en-zh-nachweis-uebersicht]] · [[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]] (die VIII.1/VIII.2-
+Unterteilung hier löst dessen Gebäudekategorie-Einstufungsfrage, energie Run 153)
 
 **Backlink (Run 99):** [[betonkernaktivierung-tabs-energieeffizienz]] — genau diese Nutzungs-
 randbedingungen (interne Lasten, Betriebszeiten) je Raumtyp entscheiden, ob ein Raum TABS-tauglich

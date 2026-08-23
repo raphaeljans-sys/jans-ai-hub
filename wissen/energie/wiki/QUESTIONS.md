@@ -3625,7 +3625,27 @@ durchfuehrbar.
   offen bleibt SIA 380/1:2016 selbst** — das ist der tatsächliche Geldentscheid (Normkauf,
   `logbuch/fristen.md` seit Run 98) und war der eigentlich teure Teil dieses Punktes, nicht die
   BBV-I/EnerG-Paragraphen. Neuer Folgepunkt E-R140-1 unten.
-- [ ] **E-R140-1 (P2, neu): Gebäudekategorie-Einstufung Healthcare (Pflegeheim/Altersheim) für
+- [x] **E-R140-1 (P2) — GESCHLOSSEN 23.08.2026 (energie Run 153): die Kategorie-Zuordnung war im
+  eigenen Bestand bereits beantwortet, nur nicht mit diesem Punkt verlinkt.**
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` (seit 26.07.2026 im Hub, `emerging`,
+  Quelle SIA-Statusbericht «Harmonisierung SIA-Standardwerte und Gebäudekategorien» 2019, von der
+  SIA-Kommission 2024 selbst verfasst) zitiert wörtlich: «Die Gebäudekategorie VIII Spital wird
+  unterteilt in VIII.1 Spital (Akutspital, Universitätsspital, Klinik) und VIII.2 Pflege
+  (**Pflegeheim, Altersheim**, Rehabilitation, psychiatrische Klinik).» Zusätzlich reproduziert
+  dieselbe Quelle die amtliche SIA-380/1-Gebäudekategorien-Tabelle (Ziff. 1.1.1, Tabelle 1)
+  wörtlich: Kat. I nennt nur «Alterssiedlungen/-wohnungen», Kat. VIII nennt «Altersheime»
+  namentlich. **Ergebnis: ein Pflegeheim/Altersheim mit Betreuung/Pflege gehört zu Kat. VIII
+  Spitäler (70 kWh/m² nach § 47a BBV I), nicht zu Kat. I Wohnen MFH (35 kWh/m²).** Abgrenzung:
+  reines **Betreutes Wohnen ohne Pflegeleistung** (eigener Haushalt) fällt eher unter Kat. I;
+  ein Betrieb mit dominierendem Bettenzimmer-Anteil (Statusbericht Tab. 5: 50 % bei VIII.2) unter
+  Kat. VIII. **Einschränkung, die den Punkt nicht wieder öffnet:** die Quelle ist ein von der
+  SIA-Kommission verfasster, aber nicht-normativer Statusbericht, der die Normtabelle zitiert —
+  keine eigene Lektüre des Normtexts SIA 380/1:2016 Anhang A selbst. Für die formell zitierfähige
+  Fundstelle (Rule `normen-referenz`) bleibt der Normkauf nötig (s. E-R148-1), die **Sachfrage**
+  ist damit aber geklärt. Eingearbeitet in
+  `destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`. Ursprünglicher Wortlaut zur
+  Nachvollziehbarkeit:
+- [~] **E-R140-1 (P2, neu): Gebäudekategorie-Einstufung Healthcare (Pflegeheim/Altersheim) für
   § 47a BBV I ungeklärt.** Die Grenzwerttabelle unterscheidet Kat. I «Wohnen MFH» (35 kWh/m²) von
   Kat. VIII «Spitäler» (70 kWh/m², Faktor 2). Für JANS-Healthcare-Projekte (Pflegeplätze,
   Betreutes Wohnen) ist unklar, welche Kategorie zutrifft und wo diese Einstufung amtlich
@@ -4069,3 +4089,34 @@ E-R148-1 (Normkauf SIA 380/1:2016, blockiert seit Run 98 U-Wert-/Q_H,li-Werte UN
 Healthcare-Gebäudekategorien-Einstufung E-R140-1), E-R148-2 (Takt-Entscheid fragengetrieben statt
 dateilistengetrieben) und E-R149-4 (Freigabe für den Edit an
 `~/.claude/scheduled-tasks/energie-training/SKILL.md`, Ersatztext liegt vor).
+
+## Run 153 (23.08.2026, achte interaktive Fortsetzung desselben Tages) — E-R140-1 geschlossen: der Korpus war nicht erschöpft, nur unverlinkt
+
+Run 152 hatte den Bestand für reine Rechercheaufträge als erschöpft erklärt. Diese Session hat
+das an EINEM konkreten Punkt gegengeprüft, statt es zu übernehmen: **E-R140-1** (Healthcare-
+Gebäudekategorie) war seit Run 148 als «hängt am Normkauf SIA 380/1» geführt. Cross-Check gegen
+die KB `normen` (Destillat `sia-380-1-2016.md`) zeigte dort einen Querverweis vom 17.07.2026
+auf eine bereits `established` **Interims-Wertquelle** in der eigenen KB (EnFK EN-102) — ein
+Hinweis, den Run 148/149/150 nicht aufgegriffen hatten. Bei der Suche nach der Kategorien-
+**Definition** selbst (nicht nur den Zahlenwerten) fand sich ein zweiter, noch direkterer
+Treffer: `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`, seit 26.07.2026 im Bestand,
+beantwortet die Frage bereits wörtlich («Pflegeheim, Altersheim» → Kat. VIII.2). **E-R140-1
+geschlossen** (siehe oben). Kein neuer Web- oder PL-02/PL-04-Zugriff nötig — reine
+Bestandsprüfung nach dem in Run 150 («Falle Nr. 12») und Run 149 (F250-Selbstkorrektur) bereits
+dokumentierten Fehlertyp: eine Lücke wird angenommen, ohne zuerst das eigene Register zu
+durchsuchen.
+
+**Korrektur an E-R148-1s Framing:** der Punkt bleibt offen (Normkauf ist weiterhin
+Raphaels Entscheid), aber er ist kleiner als zuletzt beschrieben. Nicht mehr offen sind: die
+**praktischen Werte** (U-Werte, Q_H,li-Grenzwerte je Kategorie — `[[enfk-en-102-waermeschutz-2018]]`,
+established) und jetzt auch die **Kategorien-Zuordnung für Healthcare** (dieser Lauf). Was
+bleibt, ist ausschliesslich die **formell zitierfähige Primärquellen-Fundstelle** im SIA-380/1-
+Normtext selbst (Rule `normen-referenz`) — für LV-Texte, Energienachweis-Formulare und jede
+Aussage, die eine Norm-Ziffer nennen muss. Für die Bauherren-Beratung und die interne
+JANS-Praxis sind die Werte und die Einstufung damit bereits nutzbar, mit dem Vorbehalt
+`emerging`/Sekundärquelle statt `established`/Primärnorm.
+
+**Kein weiterer Punkt bearbeitet** — die übrigen von Run 151/152 als blockiert dokumentierten
+Positionen (E-R148-1 Normkauf selbst, E-R148-2 Takt, E-R149-4 Dateifreigabe, E-R150-3,
+E-R134-3, E-R132-4, E-WC32-1, E-R129-5) sind durch diesen Fund nicht berührt und bleiben aus
+denselben Gründen offen wie zuvor dokumentiert.

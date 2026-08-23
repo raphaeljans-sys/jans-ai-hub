@@ -86,5 +86,26 @@ Keiner der vier Paragraphen enthält U-Wert- oder QH,li-Zahlenwerte — die WDV 
 
 ## Offene Punkte
 
-- **Gebäudekategorie-Einstufung Healthcare** (neu, aus diesem Lauf): ob ein Pflegeheim/Altersheim als Kat. I (Wohnen MFH, 35 kWh/m²) oder Kat. VIII (Spitäler, 70 kWh/m²) gilt, ist in § 47a BBV I nicht selbst definiert — die Gebäudekategorien-Definition liegt vermutlich in einer separaten Vollzugshilfe/Norm (evtl. SIA 380/1 Anhang oder EN-ZH-Formular). Nicht recherchiert in diesem Lauf, siehe Folgepunkt.
-- SIA 380/1:2016 Volltext (Geldentscheid, s.o.).
+- **Gebäudekategorie-Einstufung Healthcare — GESCHLOSSEN 23.08.2026 (energie Run 153).** Die Frage
+  war im eigenen Bestand bereits beantwortet, nur nicht verlinkt: `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`
+  (Quelle: SIA-Statusbericht «Harmonisierung SIA-Standardwerte und Gebäudekategorien», 2019, Grundlage
+  der späteren SIA-2024:2021-Revision) zitiert die Norm-Begründung wörtlich: «Die Gebäudekategorie
+  VIII Spital wird unterteilt in VIII.1 Spital (Akutspital, Universitätsspital, Klinik) und VIII.2
+  Pflege (**Pflegeheim, Altersheim**, Rehabilitation, psychiatrische Klinik).» Damit gilt: **ein
+  Pflegeheim/Altersheim mit Betreuung/Pflege läuft normativ unter Kat. VIII «Spitäler» (70 kWh/m²),
+  nicht unter Kat. I «Wohnen MFH» (35 kWh/m²).** Bestätigt zusätzlich durch die in derselben Quelle
+  wörtlich reproduzierte SIA-380/1-Tabelle 1 (Gebäudekategorien-Definition selbst, Ziff. 1.1.1):
+  Kat. I nennt ausdrücklich nur «Alterssiedlungen/-wohnungen» (Alterswohnungen ohne Betreuung/Pflege),
+  Kat. VIII nennt ausdrücklich «Altersheime» namentlich. **Abgrenzung für JANS-Projekte:** reines
+  **Betreutes Wohnen ohne Pflegeleistung** (Bewohner führen einen eigenen Haushalt) fällt damit
+  eher unter Kat. I; ein **Pflegeheim mit Betreuung/Pflege** (dominierender Bettenzimmer-Anteil,
+  50 % gemäss Statusbericht Tab. 5) eindeutig unter Kat. VIII — dort gilt der doppelte Grenzwert
+  gewichteter Energiebedarf (70 statt 35 kWh/m²). Diese Kategorien-Definition ist eine Quellenlage
+  zweiter Hand (ein von der SIA-Kommission 2024 selbst verfasster, aber nicht normativer
+  Statusbericht, der die Normtabelle wörtlich zitiert) — für die formell zitierfähige Fundstelle
+  bleibt der Volltext SIA 380/1:2016 Anhang A Tabelle 1 weiterhin die Bring-Schuld (s.u.), die
+  Sachfrage selbst gilt aber als geklärt.
+- SIA 380/1:2016 Volltext (Geldentscheid, s.o.) — bleibt offen für die formal zitierfähige
+  Norm-Fundstelle; die praktischen Werte (U-Werte, Q_H,li, Gebäudekategorien-Zuordnung) sind über
+  die established-Destillate `[[enfk-en-102-waermeschutz-2018]]` und
+  `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` bereits im Hub verfügbar.

@@ -13,6 +13,15 @@ links: [[vkf-brl-13-15-baustoffe-bauteile]], [[REGISTER]]
 
 # VKF BRL 13-15 — Fassungs-Delta 01.01.2015 → 01.01.2017
 
+> **Doppelbestand, entschieden 23.08.2026 (QUESTIONS.md 260823).** Dasselbe Delta steht bereits
+> als `established`-Abschnitt «Fassung 01.01.2017 — Delta» in
+> [[vkf-brl-13-15-baustoffe-bauteile]] (adversarial gegengeprüft Run 23, 25.07.2026). **Jenes
+> Basis-Destillat ist die kanonische Fundstelle** — established schlägt speculative (Rule
+> `normen-referenz` Ziff. 1b). Dieses Destillat wird nicht gelöscht (Rule `wissens-bibliothekar`:
+> Löschen/Mergen ist destruktiv und bräuchte Rückfrage), bleibt aber `speculative` und dient nur
+> als Redundanz-/Gegenprobe-Fassung. Künftige Fassungsänderungen zuerst im established Destillat
+> nachführen; dieses hier nur nachziehen, wenn ein Diff hier zuerst gefunden wird.
+
 > **Was dieses Destillat ist.** Nur das Delta zwischen der Fassung 01.01.2015 und der geltenden
 > Fassung 01.01.2017. Die vollstaendige Richtlinie (Geltungsbereich, Ziff. 2-6, Begriffe,
 > Praxis-Transfer) steht unveraendert in [[vkf-brl-13-15-baustoffe-bauteile]]. Wer eine RF-Klasse

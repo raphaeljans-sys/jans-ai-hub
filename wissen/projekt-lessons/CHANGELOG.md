@@ -3,6 +3,47 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (siebte Fortsetzung) — Erneut geprüft: Korpus weiterhin vollständig, kein Zeilenverlust seit sechster Fortsetzung
+
+- **Getan:** Neuer, unabhängiger Fortsetzungsauftrag («Triage des Korpus `buero-projekte`
+  weiterführen») erhalten, mit dem veralteten Zwischenstand «807 Positionen» (das war die
+  Zeilenzahl nach Inventar-Phase 0, vor der Triage) — vor jeder Handlung Bestand geprüft statt
+  dem Auftragstext zu folgen.
+- **[Verifikation]** `buero-projekte-inventar.md` erneut ausgezählt: 822 Zeilen gesamt, davon
+  0 `[ ]` offen, 0 `[t]` triagiert, 757 `[-]` übersprungen, 56 `[x]` destilliert — identisch zum
+  Stand der sechsten Fortsetzung. `KORPUS-QUEUE.md` führt den Korpus weiterhin als **erledigt**
+  (23.08.2026). Zusätzlich geprüft, was die sechste Fortsetzung nicht explizit tat: die
+  Quelle `/Volumes/daten/04_Buero/02_Projekte` selbst auf Dateien neuer als den
+  Inventarabschluss durchsucht (`find -newermt "2026-08-23 16:00"`) — **0 Treffer**, also kein
+  Material nach Abschluss des Inventars nachgereicht worden, das eine Neuöffnung rechtfertigen
+  würde. Laufender `claude`-Prozess mit demselben Auftragstext identifiziert als der eigene
+  Lauf dieser Session (kein Parallelbetrieb).
+- **[Pflicht-Zusatzauftrag]** `wissen/bauprodukte/wiki/bevorzugte-systeme-jans.md` weiterhin
+  nicht angelegt (Datei existiert nicht) — unverändert korrekt, da der Korpus seit der fünften
+  Fortsetzung keine zusätzliche projektübergreifende System-/Unternehmer-Wiederholung
+  hervorgebracht hat.
+- **Kein neuer Destillat-/Triage-Schritt ausgeführt.** Dieser Eintrag ist bewusst kurz gehalten
+  (Rule `wissens-ruecklauf`: kein Pflicht-Rauschen) und dokumentiert nur die erfolgte
+  Gegenprüfung, damit ein künftiger Fortsetzungsauftrag zu diesem Korpus nicht ein drittes Mal
+  denselben vollständigen Bestand nachzählt.
+
+## 2026-08-23 (sechste Fortsetzung) — Fortsetzungsauftrag geprüft: Korpus bereits vollständig, kein weiterer Lauf nötig
+
+- **Getan:** Auftrag «Triage des Korpus `buero-projekte` fortsetzen» erhalten, vor Beginn den
+  Bestand gegen `skills/wissens-destillat/training/buero-projekte-inventar.md` und den
+  Eintrag in `skills/wissens-destillat/KORPUS-QUEUE.md` geprüft.
+- **[Befund]** Das Inventar (813 Sachzeilen, Kopfzeile ausgenommen) enthält **keine** einzige
+  offene `[ ]`- oder triagierte `[t]`-Zeile mehr (`grep -n '^| \[ \]\|^| \[t\]'` ohne Treffer):
+  757 `[-]` bewusst übersprungen, 56 `[x]` destilliert. Der vorangegangene Lauf vom selben
+  Tag («fünfte Fortsetzung», 18:56 Uhr) hat die Kurator-Verifikation aller fünf neuen/
+  aktualisierten Artikel bereits abgeschlossen und den Pflicht-Zusatzauftrag
+  `bevorzugte-systeme-jans.md` erneut geprüft (weiterhin korrekt offen mangels
+  projektübergreifender System-Wiederholung).
+- **Kein neuer Destillat-/Triage-Schritt ausgeführt** — es gibt nichts mehr zu triagieren.
+  Dieser Eintrag dokumentiert die Verifikation, damit ein künftiger Fortsetzungsauftrag zum
+  selben Korpus nicht erneut denselben (bereits vollständigen) Bestand durchsucht, sondern
+  direkt hier ansetzt und stattdessen den offenen Pflicht-Zusatzauftrag prüft.
+
 ## 2026-08-23 (fünfte Fortsetzung) — Kurator-Verifikation `buero-projekte` abgeschlossen, Pflicht-Zusatzauftrag weiterhin mangels Wiederholung offen
 
 - **Getan:** Eigener Auftrag traf beim Einstieg auf einen bereits laufenden Parallellauf

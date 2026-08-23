@@ -1,9 +1,10 @@
 ---
 title: Strassenabstand, Zufahrten und Vorteilsabgabe an Kantonsstrassen — Kanton Schwyz
-status: emerging
+status: established
 last_updated: 2026-08-23
+verifiziert: 2026-08-23 (Buch-Run 81, Modell D, vollstaendiger amtlicher Volltext StraG/StraV)
 kanton: SZ
-sources: ["§ 38 StraG SZ", "§ 40 StraG SZ", "§ 41 StraG SZ", "§ 42 StraG SZ", "§ 47 StraG SZ", "§ 58 StraG SZ", "§ 25 StraV SZ", "§ 28 StraV SZ", "VSS SN 640 050", "VSS SN 640 273a", "VSS SN 640 561", "VSS SN 640 568", "VGE 717/03 vom 14.11.2003 E. 3", "raw/260823_amtlich_sz_merkblatt-z15-strassenabstand-zufahrten.md"]
+sources: ["§ 2 StraG SZ", "§§ 4-7 StraG SZ", "§ 38 StraG SZ", "§ 40 StraG SZ", "§ 41 StraG SZ", "§ 42 StraG SZ", "§ 47 StraG SZ", "§ 58 StraG SZ", "§ 25 StraV SZ", "§ 28 StraV SZ", "VSS SN 640 050", "VSS SN 640 273a", "VSS SN 640 561", "VSS SN 640 568", "VGE 717/03 vom 14.11.2003 E. 3", "raw/260823_amtlich_sz_merkblatt-z15-strassenabstand-zufahrten.md", "raw/260823_amtlich_sz_strassengesetz.md", "raw/260823_amtlich_sz_strassenverordnung.md"]
 links: [[baulinien-und-abstandslinien]], [[fahrzeugabstellplaetze-und-parkierung]]
 ---
 
@@ -49,9 +50,21 @@ kein Artikel zum SZ-Strassenrecht bestand.
 ## 2. Strassenabstand (§§ 40-42 StraG)
 
 - Wird primär mit **Baulinien** festgelegt (§ 40 StraG); fehlen diese, gelten die
-  **gesetzlichen Regelabstände § 41 StraG**: Gebäude/ähnlich wirkende Anlagen
-  **6.00 m an Hauptstrassen**, Bäume 2.50 m, Sträucher/Lebhäge 50 % der Höhe (min.
-  1.00 m), sonstige Einfriedungen/Mauern/Böschungen 50 % der Höhe (min. 0.50 m).
+  **gesetzlichen Regelabstände § 41 Abs. 1 StraG**, gestaffelt nach Strassenkategorie
+  (§ 4 StraG: Hauptstrassen · Verbindungsstrassen · Nebenstrassen — **nicht** eine
+  einheitliche Zahl für alle «Kantonsstrassen»):
+  - Gebäude und ähnlich wirkende Anlagen: **6.00 m an Hauptstrassen**, **4.00 m an
+    Verbindungsstrassen und an Groberschliessungsstrassen** nach § 23 PBG SZ,
+    **3.00 m an Nebenstrassen**;
+  - Bäume 2.50 m; Sträucher/Lebhäge 50 % der Höhe (min. 1.00 m); sonstige
+    Einfriedungen/Abschlussmauern/Böschungen 50 % der Höhe (min. 0.50 m).
+  - **Korrektur 23.08.2026 (Buch-Run 81):** die Erstfassung dieses Artikels führte nur
+    «6.00 m an Hauptstrassen», weil das zugrunde liegende Merkblatt (Formular Z15) im
+    Gesetzesauszug nur diese Kategorie zitierte. Der frisch bezogene vollständige
+    StraG-Volltext (`raw/260823_amtlich_sz_strassengesetz.md`) zeigt: § 41 Abs. 1 lit. a
+    StraG nennt alle drei Kategorien nebeneinander. Bei einem Bauvorhaben an einer
+    Verbindungs- oder Nebenstrasse (die grosse Mehrheit der SZ-Kantonsstrassen ausserhalb
+    der Hauptachsen) gilt **nicht** der 6-m-Wert.
 - **Ausnahme (§ 42 StraG):** nur bei besonderen Verhältnissen (Vermeidung
   unzumutbarer Härtefälle, Ortsbildschutz) **und** wenn die Verkehrssicherheit nicht
   gefährdet wird. **Wirtschaftliche Gründe (z.B. höhere Ausnützung) genügen
@@ -61,17 +74,32 @@ kein Artikel zum SZ-Strassenrecht bestand.
 ## 3. Vorteilsabgabe (§ 58 StraG / § 28 StraV) — Institut ohne ZH-Pendant
 
 Der Strassenträger erhebt eine Vorteilsabgabe sowohl für die Unterschreitung des
-Strassenabstands als auch für Zufahrten/Zugänge zu Kantonsstrassen — maximal **5 %**
-des Verkehrswerts (Schätzung der kantonalen Güterschatzungskommission), gestaffelt
-nach Nutzungsart:
+Strassenabstands als auch für Zufahrten/Zugänge zu Strassen — maximal **5 %**
+des Verkehrswerts (Schätzung der kantonalen Güterschatzungskommission, § 58 Abs. 3
+StraG, § 28 Abs. 4 StraV).
 
-| Fall | Ansatz | Bemessungsgrundlage |
+**Die feste Prozent-Staffelung gilt gesetzlich nur an Hauptstrassen** (§ 28 Abs. 1/2
+StraV, wörtlich «... zu Hauptstrassen»). Für Verbindungs- und Nebenstrassen legt
+**der Bezirksrat bzw. der Gemeinderat die Höhe selbst fest** (§ 28 Abs. 3 StraV) — es
+gibt dort **keinen** kantonal fixierten Prozentsatz:
+
+| Fall (an Hauptstrassen, § 28 Abs. 1/2 StraV) | Ansatz | Bemessungsgrundlage |
 |---|---|---|
 | Zufahrt/Zugang, Einfamilienhaus | 3 % | effektiv bebaute Nutzfläche (Grundriss inkl. Tiefgarage/Parkfelder, **ohne** Zufahrtsfläche selbst) |
 | Zufahrt/Zugang, Mehrfamilienhaus/mehrere EFH | 4.5 % | wie oben |
 | Zufahrt/Zugang, erheblicher Auto-/Publikumsverkehr oder Parkplatzanlage | 5 % | wie oben |
-| Unterschreitung Strassenabstand | 5 % | Verkehrswert der je Geschoss innerhalb des Strassenabstands beanspruchten Fläche (inkl. Neben-/Vorbauten, Balkone; bereits Bebautes bei Umbauten abgezogen) |
+| Unterschreitung Strassenabstand (an Hauptstrassen) | 5 % | Verkehrswert der je Geschoss innerhalb des Strassenabstands beanspruchten Fläche (inkl. Neben-/Vorbauten, Balkone; bereits Bebautes bei Umbauten abgezogen) |
+| Zufahrt/Zugang ODER Unterschreitung an Verbindungs-/Nebenstrassen | **nicht kantonal fixiert** | Höhe legt der Bezirksrat/Gemeinderat fest (§ 28 Abs. 3 StraV) — vor Kostenschätzung bei der zuständigen Gemeinde-/Bezirksstelle erfragen |
 
+- **Korrektur 23.08.2026 (Buch-Run 81):** die Erstfassung präsentierte die
+  3/4.5/5-%-Tabelle ohne den Hauptstrassen-Vorbehalt und ohne § 28 Abs. 3 StraV — beides
+  stand bereits im Merkblatt-Gesetzesauszug, ging aber bei der Verdichtung ins Wiki
+  verloren. Am amtlichen StraV-Volltext (`raw/260823_amtlich_sz_strassenverordnung.md`)
+  gegengelesen: § 28 Abs. 1 «Die Vorteilsabgabe beträgt beim Unterschreiten des
+  Abstandes **zu Hauptstrassen** 5 Prozent», Abs. 2 Ingress «... bei Zufahrten und
+  privaten Zugängen **zu Hauptstrassen**». **Praktische Folge:** bei einem SZ-Projekt an
+  einer Verbindungs- oder Nebenstrasse (nicht Hauptstrasse) taugt die Tabelle nicht als
+  Kostenschätzung — der Satz ist Verhandlungssache mit der Gemeinde/dem Bezirk.
 - **Gebäudeteile bis 1.50 m Vorsprung** über die Fassade (Dachvorsprünge, Balkone,
   Erker) sind **nicht** vorteilsabgabepflichtig und brauchen keine Ausnahmebewilligung.
 - **Keine Abgabe**, wenn die Erschliessung über eine Feinerschliessungsstrasse
@@ -109,9 +137,15 @@ nach Nutzungsart:
 - **Verkehrsgutachten-Schwelle** (> 50 PP / > 600 Fz/Tag) und die Sichtweiten-Tabelle
   sind für die Erschliessungsplanung/Einfahrts-Situierung bei jedem SZ-Projekt an
   einer Kantonsstrasse relevant, unabhängig vom konkreten Bauvorhaben.
-- **Offen/nicht verifiziert:** dieser Artikel stützt sich auf den im Merkblatt
-  wörtlich zitierten Gesetzesauszug (§§ 38/40/41/42/47/58 StraG, §§ 25/28 StraV),
-  nicht auf einen vollständigen, aktuell gezogenen Connector-Volltext von StraG/
-  StraV SZ. Vor einer verbindlichen Kundenaussage den aktuellen Fassungsstand über
-  `oereblex.sz.ch` bzw. die kantonale Gesetzessammlung SZ gegenprüfen (Status
-  bewusst `emerging`, nicht `established`).
+- **Verifiziert 23.08.2026 (Buch-Run 81), Status `established`:** alle zitierten
+  Paragraphen (§§ 38/40/41/42/47/58 StraG, §§ 25/28 StraV) wortlautgeprüft gegen den
+  vollständigen amtlichen Volltext (sz.ch, SRSZ-Stand 1.2.2025 —
+  `raw/260823_amtlich_sz_strassengesetz.md`, `raw/260823_amtlich_sz_strassenverordnung.md`).
+  **2 Korrekturen** (Strassenabstand-Staffelung 6/4/3 m je Strassenkategorie statt nur
+  6 m; Vorteilsabgabe-Prozentsatz gesetzlich nur an Hauptstrassen fixiert, siehe oben),
+  alle übrigen Paragraphen **CONFIRMED wortgleich** mit dem Merkblatt-Gesetzesauszug.
+  Der Connector `skills/baurecht/connectors/recht-ch.mjs` zieht für SZ weiterhin nur
+  kommunale Baureglemente (`oereblex.sz.ch`), keine kantonalen Erlasse wie StraG/StraV
+  — eine Connector-Erweiterung bleibt ein separates, nachgeordnetes Vorhaben (kein
+  Hindernis mehr für die Zitierfähigkeit dieses Artikels, da der Volltext jetzt direkt
+  vorliegt).

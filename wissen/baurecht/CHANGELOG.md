@@ -3,7 +3,40 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 80: QUESTIONS-Restposten geklärt — BEZ 1996 Nr. 30 gilt auch für besondere Gebäude (Phase 3, nach Abschluss der Reglemente-Queue)
+
+- **Ausgangslage:** Mit Run 79 ist die Korpus-Queue 2414 Thalwil (T1-T8) vollständig
+  abgearbeitet und der Buch-Transfer war bereits seit Run 49 komplett («TRANSFER
+  ABGESCHLOSSEN»). Laut `training/PROGRAMM.md` sind künftige Läufe **Phase 3**:
+  QUESTIONS-Restposten, Modell-D-Volltextverifikationen, Aktualitäts-Checks. Dieser Lauf nimmt
+  den jüngsten offenen Punkt aus `wiki/QUESTIONS.md` auf (Run 79, T8 Gegenlesen).
+- **Frage:** Gilt die 10°-Schrägdach-Schwelle BEZ 1996 Nr. 30 (belegt für die
+  Firsthöhen-Berechnung § 281 PBG, Kap. 16) auch für die 4-m/5-m-Höhengrenze der besonderen
+  Gebäude (§ 49 Abs. 3/§ 273 PBG)? Run 79 hatte nur den Kap.-16-Destillat geprüft und die
+  Übertragung offen gelassen.
+- **Geklärt ohne neue Quellenbeschaffung, durch grep über den bestehenden `buecher/`-Bestand:**
+  `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (Kap. 15, nicht Kap. 16) zitiert BEZ 1996
+  Nr. 30 bereits **zweifach und eigenständig** im § 49 Abs. 3/§ 273-PBG-Kontext — Z. 101-103
+  (S. 1095, Abschnitt 15.8.9.3) und Z. 221-226 (S. 1108, Abschnitt 15.9.2.3). Kein unbelegter
+  Analogieschluss nötig: das Standardwerk selbst führt denselben Entscheid eigenständig für
+  beide Anwendungsfälle.
+- **Methodik-Lehre:** Run 79 prüfte nur das inhaltlich naheliegendste Kapitel (Kap. 16) und
+  übersah den älteren, bereits vorhandenen Kap.-15-Destillat, der die Antwort längst enthielt.
+  Vor jeder «offenen Frage ans Original» zuerst über den **gesamten** bestehenden
+  `buecher/`-Bestand greppen, nicht nur über das naheliegende Kapitel.
+- **GESCHÄRFT** [[gebaeudearten-und-abstandssystem]] (weiterhin `established`, reine
+  Ergänzung): Tabellenzeile «Besonderes Gebäude» um Fussnote ⁴ mit beiden Fundstellen ergänzt;
+  neuer Verifikations-Eintrag im Frontmatter; `sources` erweitert.
+- **`wiki/QUESTIONS.md`:** Eintrag als ✅ GEKLÄRT markiert (Auflösung dokumentiert, alter
+  Wortlaut nicht gelöscht).
+- Kein neuer `raw/`-Volltext, kein neuer Wiki-Artikel, kein Eintrag in `raw/_INGESTED.md`.
+- Report `outputs/2026-08-23_buch-run80.md`.
+
 ## 2026-08-23 — Buch-Run 79: Korpus-Queue Batch T8 (Gegenlesen der Claude-Factsheets) erledigt — Reglemente-Queue 2414 Thalwil vollständig abgearbeitet
+
+**Korrekturvermerk 2026-08-23 (Buch-Run 80):** Die im Bericht offen gelassene Frage
+(Ziffer «NEU offene Frage», BEZ 1996 Nr. 30 auch für besondere Gebäude?) ist geklärt — siehe
+Eintrag Buch-Run 80 oben. Der ursprüngliche Run-79-Eintrag unten bleibt unverändert stehen.
 
 - **Letzter Batch der Queue.** Gegengelesen: die beiden verbliebenen datierten Claude-Factsheets
   vom 03.07.2026 (`260703-Baurecht-Gartenmauern-Thalwil`, `260703-Baurecht-Besondere-Gebaeude-

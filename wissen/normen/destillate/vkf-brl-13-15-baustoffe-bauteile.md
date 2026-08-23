@@ -118,6 +118,13 @@ Die Anhang-Tabelle zu Ziff. 3.4 (S. 24-25, Stand Fassung 01.01.2017) listet für
 
 ## Fassung 01.01.2017 — Delta zur Fassung 01.01.2015
 
+> **Kanon-Hinweis (entschieden 23.08.2026, QUESTIONS.md 260823).** Dieser Abschnitt ist die
+> kanonische Fundstelle für das Delta 2015→2017 (established, adversarial gegengeprüft). Run 60
+> hat unabhängig davon zusätzlich [[vkf-brl-13-15-fassung-2017-delta]] angelegt (speculative,
+> inhaltlich deckungsgleich) — dort steht der Kanon-Verweis hierher. Beide Dateien bleiben
+> bestehen (kein Löschen/Mergen ohne Rückfrage, Rule `wissens-bibliothekar`); künftige
+> Fassungsänderungen zuerst hier nachführen.
+
 **Dieses Destillat deckt mit diesem Nachtrag (25.07.2026) die geltende Fassung 01.01.2017 ab** (zusätzlich zur bisher gelesenen Fassung 01.01.2015). Statusanhebung auf `established` erfolgt NICHT durch diesen Nachtrag, sondern durch den separaten Richter-Lauf.
 
 > **Verifikationsstand dieses Nachtrags (Run 23, 25.07.2026): adversarial gegengeprüft per Seitenbildvergleich (alle in diesem Abschnitt zitierten Seiten 1, 2, 8, 9, 10-11, 12, 19, 24, 25 beider Fassungen), Verdikt BESTANDEN — keine einzige Abweichung gefunden.** Der Delta-Abschnitt (inkl. der neu zugeordneten RF3(cr)-Einordnung der Klassen E/E-d2 und EL/EL-d2, Ziff. 2.4.1) ist damit ebenso verifiziert wie das Basis-Destillat der Fassung 2015. Status auf `established` gehoben.
