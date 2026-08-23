@@ -2,9 +2,13 @@
 title: Zonenkonformität & BZO-Systematik — Kanton Zürich
 status: established
 last_updated: 2026-08-23
-sources: [260602_docs-baurecht-bzo-zh.md, 260602_docs-baurecht-begriffe.md, "Art. 13 BZO Zürich (Stadt)", "Art. 14 BZO Zürich (Stadt)", "Art. 18 BZO Zürich (Stadt)", 260607_amtlich_zh_bzo-zurich-stadt.md, "Art. 3 BZO Thalwil", "Art. 20a BZO Thalwil", 260607_amtlich_zh_bzo-thalwil.md, 260823_amtlich_zh_bzo-thalwil-grundmasse.md, "Art. 25 BZO Thalwil", "[[kap16-10_gebaeudedimensionen-harmonisierung]]"]
+sources: [260602_docs-baurecht-bzo-zh.md, 260602_docs-baurecht-begriffe.md, "Art. 13 BZO Zürich (Stadt)", "Art. 14 BZO Zürich (Stadt)", "Art. 18 BZO Zürich (Stadt)", 260607_amtlich_zh_bzo-zurich-stadt.md, "Art. 3 BZO Thalwil", "Art. 6 BZO Thalwil", "Art. 20a BZO Thalwil", 260607_amtlich_zh_bzo-thalwil.md, 260823_amtlich_zh_bzo-thalwil-grundmasse.md, "Art. 25 BZO Thalwil", "§ 293 PBG", "[[kap16-10_gebaeudedimensionen-harmonisierung]]"]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren]], [[gebaeudearten-und-abstandssystem]]
 verifiziert:
+  - datum: 2026-08-23b
+    methode: "Screenshot-Gegenprobe (Korpus-Queue Batch T6, Ordner «03 PBG Zuerich» + «Anrechenbares Untergeschoss Abgrabunge») gegen raw/260607_amtlich_zh_bzo-thalwil.md Z. 874-908, Buch-Run 77"
+    umfang: "Art. 6 BZO Thalwil (Bauweise: Grenzbau, Gebäudelängen-Überschreitung, anrechenbares UG am Hang) — bislang nicht im Wiki erfasst, obwohl im Raw bereits vollständig vorhanden"
+    ergebnis: "Wortgleich CONFIRMED, neue Sektion ergänzt. Kein neuer raw/-Ingest nötig."
   - datum: 2026-07-25
     methode: "Modell-D-Volltextabgleich, Buch-Run 56, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md) — Original-PDF (oerebdocs.zh.ch/getDoc?docid=6) neu mit pdftotext -layout extrahiert, da die bestehende raw-Datei die mehrspaltige Grundmasse-Tabelle linearisiert und dadurch Spalten verschoben hatte"
     umfang: "Art. 13 (Wohnzonen W2-W6, Grundmasse), Art. 14 (Mehrlaengenzuschlag), Art. 18 (Zentrumszonen Z5-Z7) BZO Zuerich Stadt, Stand 29.05.2024, gegen raw/260607_amtlich_zh_bzo-zurich-stadt.md + frisch extrahiertes PDF-Layout"
@@ -118,6 +122,37 @@ Sonderregelung gelten (Voraussetzungen beachten, keine Automatik):
   Zimmerzahl (1,5-Zimmer 50 m² bis 6-Zimmer 132 m², ohne Überschreitungsspielraum).
 - **Ausschluss:** nicht kombinierbar mit Arealüberbauung (Art. 21/22) oder untereinander
   kumulierbar.
+
+### Bauweise Thalwil (Art. 6 BZO) — Grenzbau, Gebäudelänge, anrechenbares UG am Hang
+
+Amtlich verifiziert gegen Art. 6 BZO Thalwil (`raw/260607_amtlich_zh_bzo-thalwil.md`
+Z. 874-908) und gegen einen unabhängigen Screenshot derselben Erlassseite (Korpus-Queue
+Batch T6, «Anrechenbares Untergeschoss Abgrabunge»/Art. 6.4-5) — wortgleich, CONFIRMED.
+
+- **Abs. 1 — geschlossene Überbauung** ist zulässig (keine eigene Voraussetzung genannt).
+- **Abs. 2 — Grenzbau** ist in allen Wohnzonen gestattet, wenn an ein bestehendes Gebäude
+  angebaut wird **oder** der Nachbar schriftlich zustimmt (Alternative, keine Kumulation).
+- **Abs. 3 — Gebäudelängen-Überschreitung bei Grenzbau:** bei gleichzeitigem Grenzbau oder
+  Anbau an ein bestehendes Gebäude darf die Gesamtlänge die zonengemässe maximale
+  Gebäudelänge (Art. 3, siehe Tabelle oben) um höchstens **10,00 m** überschreiten —
+  Kann-Vorschrift, gebunden an Quartiercharakter, Baumassenverteilung, Hauptgesimshöhe und
+  Dachprofil («gute Lösung»), keine automatische Zusatzlänge.
+- **Abs. 4/5 — anrechenbares Untergeschoss an Hanglagen** (Falllinie an der Fassade
+  **min. 10 %**): ist ein anrechenbares UG grundsätzlich zulässig (siehe Grundmasse-Tabelle
+  oben, Spalte «anr. UG max.»), gilt zusätzlich:
+  - **Talseits** (Voll- und Untergeschosse zusammengerechnet): höchstens **ein Geschoss
+    mehr sichtbar** über dem gestalteten Terrain als die nach Art. 3 zulässige
+    Vollgeschosszahl.
+  - **Bergseits:** anrechenbare Untergeschosse dürfen um höchstens **1,50 m** freigelegt
+    werden, und **nur zur Belichtung von Nebenräumen** (Küche, Bad, WC, Abstellräume u.ä.)
+    — kein bergseitiger Hauptraum-Ausbau.
+  - **In jedem Fall** ist die Freilegung anrechenbarer Untergeschosse auf den **halben
+    Gebäudeumfang** beschränkt (Abs. 5), unabhängig von Tal-/Bergseite.
+  - **Einordnung:** Art. 6 Abs. 4/5 BZO ist eine **kommunale Ausführungsbestimmung** zum
+    kantonalen Freilegungsregime des § 293 PBG (nicht anrechenbares UG, max. 1,5 m über
+    gestaltetem Boden, Gemeinde kann die Freilegung näher — auch strenger — regeln, § 293
+    Abs. 4 PBG, siehe [[abstaende-und-hoehen]]) — betrifft aber, anders als § 293, die
+    **anrechenbaren** UG und die Geschosszahl-Wirkung am Hang, nicht die Abstandsfrage.
 
 ### Attikageschosse Thalwil — ungeharmonisiert (Art. 25 BZO), Kreuzprobe Buch-Run 76
 

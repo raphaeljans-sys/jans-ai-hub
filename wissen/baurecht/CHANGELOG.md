@@ -3,6 +3,45 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (Buch-Run 77) — Korpus-Queue Batch T6 (PBG-Screenshots + Näherbaurecht NBR2008) erledigt
+
+- [confirm] **§ 293 Abs. 1/2/4 PBG** (Screenshot «ANRECHENBARES UNTERGESCHOSS») CONFIRMED gegen
+  Bestand [[abstaende-und-hoehen]] — wortgleich, bereits seit Buch-Run 32 (Modell-D)
+  verifiziert, kein Edit nötig.
+- [confirm] **§ 260 Abs. 3/4 PBG** (drei Vordach-Screenshots): harmonisierte Fassung (Abs. 4
+  Minibau) CONFIRMED seit Buch-Run 59; alte/Anhang-Fassung Abs. 3 («2 m Vorsprung-Tiefe, Erker/
+  Balkone 1/3 Fassadenlänge») wortgleich mit `raw/260607_amtlich_zh_pbg.md` Z. 4342-4343,
+  bereits korrekt in [[baulinien-und-abstandslinien]] geführt.
+- [add] `wiki/abstaende-und-hoehen.md` — Abschnitt «Abstandsprivilegierte Bauteile»: neue
+  Klarstellung, dass **«Vordach» im PBG/ABV keine eigene Legaldefinition** ist (grep-geprüft,
+  0 Treffer in beiden Erlassen); fällt je nach Bauart unter die generischen Vorsprung-Regeln
+  (2 m Tiefe alt/Anhang § 260 Abs. 3, 1,3 m Höhe § 27 Abs. 1 ABV) oder das Minibau-Privileg
+  (§ 260 Abs. 4).
+- [add] `wiki/abstaende-und-hoehen.md` — Abschnitt «Näherbaurecht»: neuer Grundsatz «Näherbaurecht
+  ist objektbezogen, kein generelles Abstandsprivileg» mit Rechtsgrundlage **Art. 738 ZGB**
+  (bereits im Standardwerk-Destillat `buecher/band-2/22-privatrechtliche-bauvorschriften.md`
+  Kap. 22.9.3, S. 1534, belegt, aber bislang nicht mit diesem Artikel verlinkt — echte Lücke).
+  Quelle des Anstosses: Raphaels eigene Kurzanalyse `Näherbaurecht NBR2008/251121 NBR2008.pdf`
+  (Echo-Schutz-Klasse «authentisch», InDesign-Layout, keine Claude-Datumskennzeichnung).
+- [flag] Im selben Dokument die Aussage «Vordach > 1,0 m Tiefe abstandspflichtig gemäss
+  kantonaler ABV-Praxis» geprüft und **nicht übernommen** — weder § 260 Abs. 3 PBG (2 m Tiefe)
+  noch § 27 Abs. 1 ABV (1,3 m Höhe, anderer Regelungszweck) stützen den Wert 1,0 m. Als offene
+  Diskrepanz im Wiki vermerkt statt stillschweigend verworfen oder übernommen.
+- [add] `wiki/zonenkonformitaet.md` — **Kernbefund, nicht beauftragt:** neue Sektion «Bauweise
+  Thalwil (Art. 6 BZO)» — Art. 6 Abs. 1-5 BZO Thalwil (geschlossene Überbauung, Grenzbau,
+  Gebäudelängen-Überschreitung bei Grenzbau max. 10 m, anrechenbares Untergeschoss an
+  Hanglagen talseits/bergseits, Freilegung auf halben Gebäudeumfang beschränkt) fehlte
+  **vollständig** im Wiki, obwohl seit T3 in `raw/260607_amtlich_zh_bzo-thalwil.md`
+  Z. 874-908 vorhanden. Fund ausgelöst durch einen Screenshot aus dem Ordner «Anrechenbares
+  Untergeschoss Abgrabunge» (Top-Level des Reglemente-Ordners, nicht in der T6-Tabellenzeile
+  gelistet, aber beim Sichten des Ordnerbaums mitgefunden), wortgleich gegen Raw bestätigt.
+  Abgrenzung zu § 293 PBG (kantonales Freilegungsregime für **nicht-anrechenbare** UG)
+  explizit gemacht — Art. 6 BZO regelt die Geschosszahl-Wirkung **anrechenbarer** UG am Hang,
+  anderer Regelungsgegenstand.
+- [register] `training/KORPUS-QUEUE-thalwil-reglemente.md` (T6 erledigt, Erledigt-Sektion
+  ergänzt). Kein neuer `raw/`-Volltext nötig. Report `outputs/2026-08-23_buch-run77.md`.
+  Verbleibend: T7 (Archiv-Sichtung, 91 Dateien), T8 (Gegenlesen der drei Claude-Factsheets).
+
 ## 2026-08-23 (Buch-Run 76) — Korpus-Queue Batch T5 (Einzelthemen Thalwil) erledigt
 
 - [fix/confirm] **Kniestock-Ordner enthält kein Thalwiler Dokument**, sondern einen Scan der

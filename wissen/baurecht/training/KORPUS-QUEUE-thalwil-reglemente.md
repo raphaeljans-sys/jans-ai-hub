@@ -55,7 +55,7 @@ Klassen sauber trennen:
 | **T3** | **Grundmasse + SBV W3** | `02 BZO Thalwil/01 Grundmasse/`, `Sonderbauvorschrift W3/`, `Zonenplan/` | [[zonenkonformitaet]] + [[nutzungsziffern]] schärfen | **erledigt** (Run 75, 23.08.2026) |
 | **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | **erledigt** (Run 74, 17.08.2026) |
 | **T5** | **Einzelthemen** | `Kniestock/`, `Massgebendes Terrain/`, `Besonderes Gebäude/`, `Fahrzeugabstellplaetze/`, `Fensterflaechen/`, `Spiel und Ruheflaeche/`, `Baugespann/`, `Wohnungserhebung/` | je bestehender Wiki-Artikel | **erledigt** (Run 76, 23.08.2026) |
-| **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | offen |
+| **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | **erledigt** (Run 77, 23.08.2026) |
 | **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | offen |
 | **T8** | **Gegenlesen der Claude-Factsheets** | die drei datierten Factsheets (siehe Echo-Schutz) | Fehlerbericht in `outputs/`, keine Aufnahme als Quelle | offen |
 
@@ -217,6 +217,46 @@ Klassen sauber trennen:
   Einordnung: T5 bestätigt das Muster aus T2/T3/T4 — die grösste Ausbeute liegt nicht im
   Screenshot selbst, sondern im **Cross-Check gegen bereits gelesene, aber nicht vollständig
   ausgewertete Quellen** (Wegleitung 2020 zweimal angezapft, Standardwerk-Duplikat erkannt).
+
+### T6 — PBG-Screenshots + Näherbaurecht NBR2008 (Run 77, 23.08.2026)
+
+- **§ 293 Abs. 1/2/4 PBG** (Screenshot «ANRECHENBARES UNTERGESCHOSS», 700.1-Kopfzeile:
+  «Nicht anrechenbare Untergeschosse dürfen höchstens 1,5 m über dem gestalteten Boden in
+  Erscheinung treten», Ausnahme Haus-/Kellerzugänge/Garagen-Ein-/Ausfahrten, Gemeinde kann
+  strenger regeln) **CONFIRMED gegen Bestand** — bereits seit Buch-Run 32 (Modell-D) in
+  [[abstaende-und-hoehen]] verifiziert, wortgleich, kein Edit nötig.
+- **§ 260 Abs. 3/4 PBG** (zwei Vordach-Screenshots): Screenshots 1/2 zeigen die
+  **harmonisierte** Fassung (Abs. 4 Minibau-Privileg 1,5 m/2 m², bereits established seit
+  Buch-Run 59) — CONFIRMED. Screenshot 3 zeigt die **alte/Anhang**-Fassung von § 260 Abs. 3
+  («Einzelne Vorsprünge dürfen höchstens 2 m in den Abstandsbereich hineinragen, Erker,
+  Balkone … höchstens auf einem Drittel der betreffenden Fassadenlänge») — wortgleich mit
+  `raw/260607_amtlich_zh_pbg.md` Z. 4342-4343, bereits korrekt als «§ 260 Abs. 3 PBG
+  (alt/Anhang)» in [[baulinien-und-abstandslinien]] geführt. Neu ergänzt in
+  [[abstaende-und-hoehen]]: eine Klarstellung, dass **«Vordach» im PBG/ABV keine eigene
+  Legaldefinition** ist (grep-geprüft, 0 Treffer in beiden Erlassen) und je nach Bauart unter
+  die generischen Vorsprung- bzw. Minibau-Regeln fällt.
+- **Kernbefund, nicht beauftragt: Art. 6 BZO Thalwil (Bauweise) fehlte vollständig im Wiki**,
+  obwohl seit T3 bereits vollständig in `raw/260607_amtlich_zh_bzo-thalwil.md` (Z. 874-908)
+  vorhanden. Ein Screenshot aus dem zusätzlichen (nicht in der Queue-Tabelle gelisteten,
+  aber im selben Reglemente-Ordner liegenden) Top-Level-Ordner «Anrechenbares Untergeschoss
+  Abgrabunge» zeigt Art. 6 Abs. 4/5 (anrechenbares UG an Hanglagen, talseits/bergseits,
+  Freilegung auf halben Gebäudeumfang beschränkt) wortgleich — daraus die vollständigen
+  Abs. 1-5 (inkl. Grenzbau Abs. 2, Gebäudelängen-Überschreitung Abs. 3) neu in
+  [[zonenkonformitaet]] ergänzt.
+- **Näherbaurecht NBR2008** (`251121 NBR2008.pdf`, Raphaels eigene Kurzfassung, InDesign-
+  Layout, Echo-Schutz-Klasse «authentisch», nicht im Claude-Datumsschema): Kernaussage «das
+  Näherbaurecht ist objektbezogen, nicht generell» ist rechtsdogmatisch **bestätigt** — Art.
+  738 ZGB (Buch Bd 2 Kap. 22.9.3, S. 1534: Grundbucheintrag primär massgebend) trägt genau
+  diese Auslegung und war bislang **nicht** in [[abstaende-und-hoehen]] verankert, jetzt
+  ergänzt. **Eine Zahl im Dokument liess sich dagegen nicht verifizieren:** die Aussage
+  «Vordach > 1,0 m Tiefe ist abstandspflichtig gemäss kantonaler Praxis (ABV)» — weder § 260
+  Abs. 3 PBG (2 m Tiefe) noch § 27 Abs. 1 ABV (1,3 m, aber Höhe für Fassadenlängen-Anrechnung,
+  nicht Tiefe für Abstandsprivileg) stützen den Wert 1,0 m. **Nicht in die KB übernommen**,
+  im Wiki als offene Diskrepanz vermerkt.
+- **Kein neuer `raw/`-Volltext nötig** (alle Screenshot-Inhalte bereits im Bestand oder aus
+  bereits vorhandenem Raw belegbar). 2 Wiki-Artikel geschärft
+  ([[zonenkonformitaet]] neue Sektion, [[abstaende-und-hoehen]] zwei Ergänzungen). Report
+  `outputs/2026-08-23_buch-run77.md`.
 
 ## Arbeitsregeln je Batch
 
