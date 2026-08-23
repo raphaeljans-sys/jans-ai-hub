@@ -3,6 +3,75 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 100: [[bauausfuehrung-und-baukontrolle]] re-verifiziert — erstmals ZGB/BV/USG/LSV-Zitate gegen fedlex.data.admin.ch geprüft, 2 Korrekturen an den USG/LSV-Belegen
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (Batches T1-T8). Geprüft:
+  CHANGELOG bis Run 99 und der Report `outputs/2026-08-23_buch-run99.md`. Bestätigt: die Queue
+  selbst (T1-T9) ist seit Run 87 vollständig abgearbeitet; seit Run 90 läuft statt dessen die
+  Modell-D-Re-Verifikationskette der `established`-Artikel nach ältestem `verifiziert`-Datum.
+  Run 99 empfahl namentlich [[bauausfuehrung-und-baukontrolle]] (ältestes `last_updated`,
+  2026-07-12, nie vollständiger Fliesstext-Refresh). Vor dem ersten Edit `ps aux | grep claude`
+  geprüft: der einzige Prozess mit identischem Auftragstext ist der eigene `-p`-Prozess dieser
+  Session (PID 58531) — kein zweiter, mit `wissen/baurecht/` konfligierender Lauf (zwei weitere
+  `-p`-Prozesse bearbeiten unabhängig die KB `wissen/normen`).
+- **Auswahl:** [[bauausfuehrung-und-baukontrolle]] — Empfehlung Run 99 gefolgt.
+- **Bestandsaufnahme:** der Artikel trug bereits einen gründlichen PBG-/VRG-Wortlautabgleich
+  (Run 30/31/58/64), aber **keinen einzigen** der zitierten Bundesrechts-Artikel (Art. 8/679/684/836
+  ZGB, Art. 29a BV, Art. 32bbis USG, Art. 6 LSV) hatte je einen Volltextabgleich — gleiche Lücke wie
+  bei [[raumplanung-und-gestaltung]] (Run 97) und [[naturschutz-und-denkmalschutz]] (Run 99).
+- **Vorgehen:** amtliche Volltexte über `fedlex.data.admin.ch`/`www.fedlex.admin.ch` (Filestore-
+  Muster, Rule `docs/referenz/fedlex-volltexte.md`) bezogen: ZGB (SR 210, ELI `24/233_245_233`,
+  Stand 1.1.2026 — aktuellste Konsolidierung, `www`-Route funktionierte direkt), BV (SR 101, ELI
+  `1999/404`, Stand 1.1.2024, wie bereits in Run 97/99 verifiziert), USG (SR 814.01, ELI
+  `1984/1122_1122_1122`, Stand 1.1.2025) und LSV (SR 814.41, ELI `1987/338_338_338`, Stand
+  1.1.2025). Jeder zitierte Artikel per `id="art_N"`-Anker im HTML aufgesucht und wortgetreu gegen
+  den Wiki-Artikeltext gelesen.
+- **Ergebnis ZGB/BV — CONFIRMED wortgleich, 0 Korrekturen (5 Zitate):** Art. 8 ZGB (allgemeine
+  Beweislastregel, trägt die Wiki-Aussage «Beweislast für Bauschäden trägt der Geschädigte»);
+  Art. 679/684 ZGB (nachbarrechtliche Anspruchs-/Immissionsgrundlage, Wortlaut deckt die
+  Wiki-Charakterisierung); Art. 836 ZGB (gesetzliches Grundpfandrecht **des kantonalen Rechts** für
+  grundstücksbezogene Forderungen, Abs. 1 «Räumt das kantonale Recht dem Gläubiger …» — bestätigt
+  exakt die Wiki-Einordnung «kant. öffentlich-rechtliches Grundpfandrecht»); Art. 29a BV
+  (Rechtsweggarantie, trägt die Wiki-Aussage zum Anspruch auf eine anfechtbare Verfügung).
+- **Ergebnis USG/LSV — 2 echte Befunde, kein Fassungsstand-Drift:**
+  1. **Art. 32bbis USG ist inhaltlich richtig zitiert, aber unvollständig eingeordnet.** Der
+     Rückforderungsanspruch (2/3 der Mehrkosten für Aushubmaterial von belasteten Standorten) setzt
+     zusätzlich einen Grundstückserwerb zwischen dem 1.7.1972 und dem 1.7.1997 voraus (Abs. 1 lit. c)
+     und ist nach Abs. 3 **längstens bis zum 1.11.2021 geltend zu machen** — die Norm steht
+     unverändert im Gesetz (eingefügt 2006), der praktische Anwendungsfall ist heute aber verwirkt.
+     Im Wiki als Präzisierung ergänzt, nicht als Streichung (die Norm gilt weiter, nur der
+     Übergangsanspruch nicht mehr).
+  2. **Der Beleg «Art. 38 Abs. 2 USG» für das Vorsorgeprinzip der Baulärm-Richtlinie war falsch.**
+     Art. 38 USG regelt «Aufsicht und Koordination» des Bundesvollzugs, nicht die Vorsorge. Die
+     LSV nennt in ihrer Ermächtigungsklausel («gestützt auf die Artikel 5, 12 Abs. 2, 13 Abs. 1,
+     16 Abs. 2, 19, 21 Abs. 2, 23, 39 Abs. 1, 40 und 45 USG») Art. 38 nicht. Amtlich richtig: Art. 6
+     LSV trägt die Erlasskompetenz des BAFU für die Baulärm-Richtlinien selbst («Das Bundesamt für
+     Umwelt erlässt Richtlinien über bauliche und betriebliche Massnahmen zur Begrenzung des
+     Baulärms»); das Vorsorgeprinzip steht in Art. 11 Abs. 2 USG («im Rahmen der Vorsorge … soweit
+     technisch und betrieblich möglich und wirtschaftlich tragbar»). Zitat im Wiki korrigiert.
+- **PBG-Fassungsstand:** kein neuer Live-Abruf nötig — Run 94/96/98/99 haben Nachtrag 133 als
+  weiterhin geltend am selben Tag (23.08.2026) mehrfach bestätigt.
+- **In die KB eingearbeitet:**
+  - **GEÄNDERT** `wiki/bauausfuehrung-und-baukontrolle.md`: neuer `verifiziert`-Eintrag angehängt,
+    `last_updated: 2026-08-23`, `sources`/`paragraphen` um die fünf neu geprüften Bundesrechts-Zitate
+    ergänzt, zwei erläuternde Absätze im Fliesstext (Baustellenentsorgung/Bauemissionen) — bestehender
+    Text vollständig erhalten, nur der fehlerhafte Beleg «Art. 38 Abs. 2 USG» ersetzt.
+  - **GEÄNDERT** `training/PROGRAMM.md`: Tracker-Eintrag Run 100 angehängt, Frontmatter
+    `last_updated` auf Run 100 nachgeführt.
+  - **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md`: Fortsetzungs-Absatz um Run 100
+    ergänzt, «Runs 90-99» auf «Runs 90-100» erweitert.
+  - **Kein neuer `raw/`-Volltext** — gleiches Vorgehen wie Run 97/99: die frischen HTML/PDFs wurden
+    nur temporär in `/tmp` geladen, nicht Teil der KB; die Fundstellen sind über `sources`
+    referenziert.
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** vor dem ersten Edit `git status --short
+  wissen/baurecht/` geprüft (sauber, keine uncommittete Vorarbeit). Nach jedem Schreiben
+  `git diff --numstat` geprüft — alle vier Dateien rein additiv/ersetzend, keine Zeile verloren.
+- Report `outputs/2026-08-23_buch-run100.md`. **Nächster Schritt:** von den verbleibenden 6 Artikeln
+  ([[ausnahmebewilligung-und-bestandesschutz]], [[baulinien-und-abstandslinien]],
+  [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]) einen
+  unabhängigen Rechtsraum wählen.
+
 ## 2026-08-23 — Buch-Run 99: [[naturschutz-und-denkmalschutz]] re-verifiziert — erstmals die Bundesrechts-Zitate (BV/NHG/RPG) frisch gegen fedlex.data.admin.ch geprüft, CONFIRMED wortgleich, 0 Korrekturen
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: CHANGELOG bis
