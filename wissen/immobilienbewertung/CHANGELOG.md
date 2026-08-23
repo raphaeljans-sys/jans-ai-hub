@@ -2,6 +2,30 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 19 — Reihenfolge-Block im Luecken-Register)
+
+Das Register ist nach Nummern sortiert, nicht nach Dringlichkeit — mit **D15, D16 und D17** sind an
+einem Tag drei Punkte dazugekommen, davon zwei mit Prioritaet **hoch**. Ein Register, in dem der
+teuerste Punkt an zwoelfter Stelle steht, wird nicht gelesen.
+
+**Neu am Kopf von Abschnitt A: ein Reihenfolge-Block**, der Aufwand gegen Wirkung stellt:
+
+1. **D16** — ein Satz von Raphael, **rund 19 % auf jeden EFH-Neuwert** (am eigenen Rechenbeispiel
+   686'000 CHF).
+2. **D17** — CHF 185.–, loest **drei** Dinge auf einmal (Gutachten-Rahmen, Swiss Valuation
+   Standard, ueberarbeitete Lageklassifizierungsmethode).
+3. **D12 + D13 + D15 im Paket** — ein Entscheid fuer alle drei, sie betreffen dieselbe Tabelle.
+4. **D1** — Bestellreihenfolge steht: **Regensdorf zuerst**, dann Maur.
+5. **D10** — Original-Blatt bereinigen, jetzt **drei** betroffene Zellen.
+
+Dazu zwei Klarstellungen im Block: der **Rest von D2/D14 (Kanton Schwyz) ist nicht ueber offene
+Daten loesbar** — am 23.08.2026 geprueft, der Kanton publiziert nur Geodaten, keine Preisstatistik;
+es braucht Wuest/IAZI oder das kantonale Statistikamt. Und der **Methodenentscheid zur
+Lageklassen-Skala gehoert hinter D17**, sonst baut JANS nach, was der Standard moeglicherweise
+schon regelt.
+
+Geaenderte Dateien: `wiki/wissensluecken.md` (Reihenfolge-Block, rein additiv).
+
 ## 2026-08-23 (Vertiefungslauf 18 — Recompute-Sweep abgeschlossen: Bilanz ueber die ganze KB)
 
 Der Wangen-Fall (LB Bahnhofstrasse 27) ist das **Vorzeige-Rechenbeispiel** dieser KB und geht an

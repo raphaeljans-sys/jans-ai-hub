@@ -53,6 +53,27 @@ Frontmatter) · `wiki/kartenportale-denkmalschutz-isos.md` (Positivproben + `cat
 Frontmatter) · `wiki/QUESTIONS.md` (Laufeintrag) ·
 `outputs/2026-08-23_vertiefung-6-funktionale-endpunktpruefung.md`.
 
+## 2026-08-23 (Vertiefungslauf 6 Revendo) — C-BSP-2026: fertiger Ticket-Text zum Einsetzen vorbereitet
+
+Die Bring-Schuld an `normen` (VKF-Dokument «Brandschutzplatten») lag seit dem ersten Lauf als
+offener Punkt hier zwischengeparkt, weil `normen` am selben Tag auf dem Mac Mini bearbeitet wurde
+und ein Fremdschreiben dorthin die dortige Arbeit gekreuzt hätte.
+
+**Jetzt vorbereitet statt nur benannt:** in `wiki/QUESTIONS.md` steht ein **fertiger Ticket-Text
+`N-BSP-1`** zum Einsetzen in `wissen/normen/wiki/QUESTIONS.md` — mit Titel, Herausgeberin, Version
+1-0 vom 10.03.2026, verabschiedendem Gremium, Zuständigkeit, Umfang, Publikationsdatum,
+Dokument-ID und Bezugsweg; dazu der **wörtliche BSV-2026-Vorbehalt aus dem Dokument selbst** samt
+der Folgerung, das Destillat mit `status: speculative` zu führen, bis die BSV 2026 genehmigt ist
+(geplant 03/2027), und der Begründung, warum es gebraucht wird (der Wegweiser führt
+Brandschutzplatten heute über Register-Gruppe 231 und ein Dokument von 2017, das neue
+Nachweisverfahren fehlt).
+
+**Inhaltlich ist nichts mehr zu recherchieren** — nur einsetzen und die Zeile «Eingetragen durch»
+ergänzen. Damit ist die Abweichung von der F-UEBERGABE-Klausel so weit geheilt, wie es ohne
+Fremdschreiben in eine parallel bearbeitete KB möglich ist.
+
+Geänderte Dateien: `wiki/QUESTIONS.md` (Ticket-Entwurf unter C-BSP-2026).
+
 ## 2026-08-23 (Vertiefungslauf 5 Revendo) — Prüfregel angewendet: ein Richtwert wird von den eigenen Beispielen nicht getragen
 
 Die in `wissen/grobkosten` gewonnene Prüfregel — Zahlen gegen ihre eigene Grundlage zurückrechnen —

@@ -6,6 +6,26 @@ Neueste/wichtigste zuoberst. Erledigtes nach unten mit ✓ + Datum.
 
 ## A. Daten & Material, die DU (Raphael) bereitstellen/aktualisieren musst
 
+> ### Reihenfolge — was zuerst (Stand 23.08.2026)
+>
+> Das Register ist nach Nummern sortiert, nicht nach Dringlichkeit. Nach dem Vertiefungstag sind
+> drei Punkte dazugekommen; diese Reihenfolge bildet Aufwand gegen Wirkung ab:
+>
+> | Rang | Punkt | Dein Aufwand | Wirkung |
+> |---|---|---|---|
+> | **1** | **D16** BKP-2-Anteil 75 % gegen amtlich 89.4 % | **ein Satz** — Du bist Autor des Kalkulationsblatts | **rund 19 % auf jeden EFH-Neuwert**; am eigenen Rechenbeispiel 686'000 CHF |
+> | **2** | **D17** Schaetzerhandbuch 5. Auflage 2019 | **CHF 185.–**, Bestellung bei der SVKG | loest **drei** Dinge auf einmal: Gutachten-Rahmen, Swiss Valuation Standard, ueberarbeitete Lageklassifizierungsmethode |
+> | **3** | **D12 + D13 + D15** im Paket | **ein Entscheid** fuer alle drei | betreffen **dieselbe Tabelle**; einzeln nicht sinnvoll entscheidbar. Wirkung rund 10 % (Scope) plus 0.6 Prozentpunkte (Anker) |
+> | **4** | **D1** Fact Sheets neu bestellen | Bestellung | Reihenfolge steht: **Regensdorf zuerst** (liegt zu hoch, nicht zu tief), dann Maur; Waedenswil und Wald sind trotz ⚠ noch brauchbar |
+> | **5** | **D10** Original-Blatt «Kennwerte Altersheime» bereinigen | Blatt durchsehen | drei Zellen betroffen (Averecura, Vella, **neu Lanzeln CHF/PZ**); traegt den unteren Rand zweier gefuehrter Baender |
+> | — | **D2 / D14** Rest Kanton Schwyz | Beschaffung | **nicht ueber offene Daten loesbar** — geprueft 23.08.2026: der Kanton SZ publiziert nur Geodaten, keine Preisstatistik. Braucht Wuest/IAZI oder das kantonale Statistikamt direkt |
+> | — | D3 · D5 · D7 · D9 | Praxiswerte aus Deinem Kopf | niedrige Prioritaet, sammeln sich beilaeufig |
+>
+> **Nicht in dieser Tabelle, weil kein Datenpunkt, sondern ein Methodenentscheid:** ob die
+> Lageklassen-Skala einen eigenen kalibrierten Anteilsschluessel bekommt. **Erst nach D17
+> entscheiden** — die 5. Auflage hat die Methode ueberarbeitet, sonst baut JANS nach, was der
+> Standard moeglicherweise schon regelt ([[lageklasse-landwertanteil]]).
+
 | # | Luecke | Art | Prioritaet | Was konkret |
 |---|---|---|---|---|
 | D1 | **UBS Fact Sheets teils veraltet** — ⚠ **Registerpflege 23.08.2026:** der Klammerzusatz «Langnau am Albis ganz fehlend» war seit dem Anlegen von [[marktdaten-gemeinden/zh-langnau-am-albis-8135]] (established, Stand 12/2025) falsch und ist entfernt (Befund Health-Check 22.08.2026, hier ausgefuehrt) | D | hoch | ⚠ **Beziffert 23.08.2026 (Vertiefungslauf 4):** die kantonalen Reihen sagen jetzt, **wie weit** die Blaetter danebenliegen (3-Jahres-Pool auf dem Stand-Jahr gegen 2025-2023): **Regensdorf EFH −6.7 % / EW −5.7 %** — die Preise sind **gesunken**, wer dort mit dem 12/2023-Blatt bewertet, bewertet **zu hoch**, nicht zu tief; **Maur EFH +4.2 % / EW +7.3 %**; **Wald +2.1 % / +4.9 %**; **Waedenswil +2.1 % / +0.6 %**. **Priorisierung daraus: Regensdorf zuerst** (falsche Richtung), dann **Maur** (groesste Bewegung); **Waedenswil und Wald sind trotz ⚠-Flag praktisch noch brauchbar**. Rechnung, Fallzahlen und drei Vorbehalte (ueberlappende Pools, Totalpreis statt CHF/m2, Einzeljahre unbrauchbar) in [[amtliche-preisstatistik-zh]] Abschnitt 4b. Zu bestellen bleiben: Waedenswil (2022→jetzt 7/2024 ⚠), Einsiedeln/Regensdorf/Wald (weiterhin 12.2023 ⚠) neu bestellen; relevante Kerngemeinden ergaenzen (deine aktiven Maerkte) |

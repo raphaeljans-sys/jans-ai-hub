@@ -1,5 +1,24 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 10 Revendo) — Regel-Entwurf ausformuliert statt nur vorgeschlagen
+
+Der Vorschlag aus Lauf 7 (Scope-Disziplin für BKP-Kostenzahlen) lag bisher als Idee vor. Er ist
+jetzt **fertig ausformuliert** in `wiki/QUESTIONS.md` — sechs nummerierte Punkte, als Ergänzung von
+`rules/bkp-2017-referenz.md` geschrieben, zum direkten Einsetzen.
+
+Der Entwurf deckt **alle drei Muster** ab, die heute in den vier Wissensbasen aufgetaucht sind und
+dieselbe Form haben (nicht die Zahl ist falsch, sondern eine Angabe fehlt): fehlender **Scope**,
+fehlender **Preisstand**, fehlende **Auflage**. Dazu als Punkt 6 die **Rückrechnungs-Regel**, die
+heute zwei Fehler gefunden hat, die seit Juli beziehungsweise seit Run 14 unentdeckt lagen —
+inklusive der Begründung, warum eine in sich summenrichtige Tabelle **kein** Beleg dafür ist, dass
+sie das richtige Objekt beschreibt.
+
+**Weiterhin nicht selbst eingesetzt.** Die Rule gilt hub-weit für alle Skills, Agents und
+Stationen; die Punkte 4 bis 6 gehen zudem über den BKP hinaus und passten allenfalls in eine eigene
+Regel. Beides ist ein Zuschnitt-Entscheid, keine Bibliothekars-Arbeit.
+
+Geänderte Dateien: `wiki/QUESTIONS.md` (Regel-Entwurf unter dem Muster-Eintrag).
+
 ## 2026-08-23 (Vertiefungslauf 9 Revendo) — Prüfregel auf ALLE Einzelfälle angewendet: sieben von acht gehen exakt auf
 
 Die aus dem Reckholdern-Befund gewonnene Prüfregel — `Kosten ÷ Bezugsgrösse` selbst nachrechnen und

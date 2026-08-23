@@ -80,6 +80,53 @@ Agents und Stationen — eine Regeländerung dort ist keine Bibliothekars-Arbeit
 Dieselbe Zurückhaltung wie bei `wissen/tools/*.sh` (gemeinsame Infrastruktur) und bei der KB
 `normen` (andere Station).
 
+### Fertiger Regel-Entwurf (23.08.2026) — nur einsetzen, nichts mehr auszuformulieren
+
+Der Entwurf deckt **alle drei** Muster ab, die am 23.08.2026 in den vier bearbeiteten
+Wissensbasen aufgetaucht sind: fehlender **Scope**, fehlender **Preisstand**, fehlende **Auflage**.
+Sie haben dieselbe Form — nicht die Zahl ist falsch, sondern eine Angabe fehlt. Der Text ist als
+Ergänzung von `rules/bkp-2017-referenz.md` formuliert; die beiden letzten Punkte gehen über den
+BKP hinaus und könnten auch in eine eigene Regel, das ist Geschmackssache.
+
+---
+
+**## Scope-Disziplin bei Kostenzahlen (Ergänzung)**
+
+Die Regeln oben sichern die **Code**-Disziplin: nie eine BKP-Nummer erfinden, immer in der Liste
+nachschlagen. Sie sichern nicht die **Scope**-Disziplin. Vier Fälle am 23.08.2026 zeigen, dass dort
+die häufigere Fehlerquelle liegt — in allen vieren war die Zahl richtig und wurde trotzdem falsch
+verwendet.
+
+1. **Jede BKP-Kostenzahl trägt ihren Umfang mit**, ausgeschrieben: *BKP 2*, *BKP 1–5*, *BKP 1–9*.
+   Wo relevant zusätzlich den **MwSt-Status** und die **Bezugsgrösse** (m² GF, m² HNF, m² NF,
+   m³ GV). Eine Kostenzahl ohne diese Angaben ist unvollständig, nicht bloss unpräzis.
+2. **Kein Vergleich über die Scope-Grenze**, auch nicht überschlägig. Wer einen BKP-1–9-Wert gegen
+   einen BKP-1–5-Wert hält, erzeugt eine Differenz, die eine **Definitionsdifferenz** ist. Dasselbe
+   gilt für Bezugsgrössen: HNF gegen NF, GF gegen GV.
+3. **Nennt eine Fremdquelle keinen Umfang, wird das ausdrücklich als offen vermerkt** statt
+   stillschweigend angenommen. Auch dann, wenn die Quelle ein Erlass ist: Art. 32 Abs. 2 LSV
+   verlangt seit 01.04.2026 «1 % der Gebäudekosten nach Baukostenplan BKP» und nennt keinen
+   Umfang — der Unterschied beträgt dort rund ein Drittel des zumutbaren Budgets.
+4. **Jeder Kennwert trägt seinen Preisstand** (Monat/Jahr) und, wo er indexiert wurde, den
+   verwendeten **Index samt Bauwerksart und Region**. Ein Kennwert ohne Preisstand ist wie eine
+   BKP-Zahl ohne Umfang. Wird indexiert, dann **beidseitig oder gar nicht** — eine einseitige
+   Indexierung (nur Kosten, nicht Erträge) verzerrt stärker als keine.
+5. **Jedes Standardwerk trägt seine Auflage.** Beim Zitieren entweder die belegte Auflage nennen
+   oder das Jahr weglassen — aber **nie eine Seitenzahl**, die für die aktuelle Auflage nicht
+   geprüft ist. Seitenzahlen wandern zwischen Auflagen; das ist die häufigste stille
+   Falschzitierung. Prüfanlass ist die **Verwendung**, nicht der Kalender.
+6. **Rückrechnen statt übernehmen.** Bei jedem übernommenen Kennwert einmal selbst
+   `Kosten ÷ Bezugsgrösse` rechnen und gegen den in der Quelle genannten Kennwert halten. Stimmen
+   sie nicht überein, gehört mindestens eine der beiden Zahlen nicht zum Objekt. Eine in sich
+   summenrichtige Tabelle ist **kein** Beleg dafür, dass sie das richtige Objekt beschreibt — die
+   Zahlen einer Vorlage sind intern immer konsistent.
+
+*Anlass und Belege: `wissen/grobkosten/wiki/QUESTIONS.md` und `wissen/immobilienbewertung/CHANGELOG.md`,
+je Eintrag 23.08.2026. Punkt 6 hat am selben Tag zwei Fehler gefunden, die seit Juli unentdeckt waren.*
+
+---
+
+
 ## 2026-08-23 (Vertiefungslauf 3 Revendo) — die im Vorlauf eröffnete Frage ist geschlossen: verkettete BFS-Reihe gefunden, Holzbau-Zuschlag fortgeschrieben
 
 Der Eintrag unten hat eine neue offene Frage eröffnet («verkettete BFS-Reihe je Bauwerksart ab 2023
