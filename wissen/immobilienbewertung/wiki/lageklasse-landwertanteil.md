@@ -1,7 +1,7 @@
 ---
 title: Lageklasse und Landwertanteil
 status: established
-last_updated: 2026-08-23
+last_updated: 2026-08-23 (Vertiefungslauf 8: erste Spiegelung der Methode gegen amtliche Bodenpreise)
 sources: [Schaetzungsanleitung Teil III Kap. 5 (schaetzungsanleitung_kap5.pdf, Tab. 6/7 Lageklassenschluessel, Tab. 8 Landwertanteil; Methode Naegeli), IMMO-05 Bodenpreise, Statistik Stadt Zuerich / Open Data Zuerich «Liegenschaften-Markt Stadt Zuerich: Preisreihen und Anzahl Handaenderungen nach Bebauungsart» (od5144, CSV-Stand 05.02.2026, Daten 2008-2025, CC0 — ausgewertet 23.08.2026, Vertiefungslauf 2)]
 links: [[realwert-sachwert]], [[residualwertmethode]], [[vergleichswert-hedonisch]], [[datenquellen-registry]], [[erfolgsfaktoren-wettbewerb]]
 ---
@@ -218,7 +218,12 @@ Vergleichs- oder Residualwert bestimmt wird. Das ist ein Methodenentscheid, kein
 - ✓ 2026-06-10: LK→%-Tabelle (Tab. 8) und Lageklassenschluessel Wohnen/Gewerbe (Tab. 6/7)
   sauber extrahiert und belegt; Status speculative → established (T5 erfuellt).
 - LK-Beispielrechnung an einem realen JANS-Objekt gegen Bodenpreis-Vergleichswert spiegeln,
-  um die Methode zu kalibrieren. **Seit 23.08.2026 durchfuehrbar** fuer Objekte in der Stadt
+  um die Methode zu kalibrieren. — ✓ **Teil-erledigt 23.08.2026:** die Spiegelung ist **regional
+  ueber den ganzen Kanton** durchgefuehrt (Abschnitt «Erste Spiegelung der Methode gegen amtliche
+  Bodenpreise») und liefert einen materiellen Befund: fuer die **Stadt Zuerich sprengt der amtliche
+  Bodenpreis-Median die Tab.-8-Skala bei jeder Ausnuetzung**, und schon **gewoehnliche
+  Agglomerationsgemeinden landen bei LK 8**. Der objektscharfe Einzelfall bleibt offen.
+  **Seit 23.08.2026 durchfuehrbar** fuer Objekte in der Stadt
   Zuerich: die LIMA-Reihe oben liefert die quartierscharfe Bodenpreis-Evidenz, gegen die sich
   der aus Tab. 8 hergeleitete Landwertanteil spiegeln laesst. Nicht selbst ausgefuehrt — es
   fehlt ein JANS-Bewertungsfall in der Stadt Zuerich (juengster Fall ist Wangen SZ, 06.2026);

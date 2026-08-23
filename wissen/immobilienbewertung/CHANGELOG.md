@@ -2,6 +2,96 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 9 — Residualwertmethode: Preisstand ausgewiesen, Hebel gerechnet)
+
+Die Residualwertmethode war der einzige der vier Verfahrensartikel, der heute noch keine
+Nachfuehrung hatte. Befund: die Eingabegroessen und Tool-Defaults stammen aus dem **Wuest-Kurs
+06.2023**, ein **Preisstand-Vermerk fehlte** — die Werte lasen sich wie zeitlose Ansaetze.
+
+**Warum das hier mehr wiegt als anderswo — mit den Defaults der Seite selbst gerechnet:**
+Nettomiete Ø 266 CHF/m2 HNF/J, abzueglich 18.7 % Betriebskosten und Unterhalt, kapitalisiert mit
+2.5 % → **Endwert 8'650**; abzueglich Erstellungskosten Ø 5'680 und Risiko-/Gewinnanteil 7 %
+(398) → **Landwert roh 2'573 CHF/m2 HNF**, also rund **30 % des Endwerts**. Daraus der Hebel:
+
+- **1 % Veraenderung der Mieten bewegt den Landwert um 3.4 %** (Hebel 3.36×)
+- **1 % Veraenderung der Erstellungskosten bewegt den Landwert um 2.2 %** (Hebel 2.21×)
+
+**Konkret:** die Erstellungskosten sind seit April 2023 in der Grossregion Zuerich um **+2.78 %**
+gestiegen (BFS-Baupreisindex, verkettete Reihe). Wuerde man **nur** diese Seite nachfuehren, faellt
+der Landwert um **6.6 %**.
+
+**⚠ Deshalb ist eine einseitige Indexierung schlechter als gar keine.** Die Mieten sind seit 2023
+ebenfalls gestiegen (SMG-Mietindex Juli 2026 = 134, +2.4 % YoY); Kosten und Mieten wirken **in
+entgegengesetzter Richtung** auf den Landwert und heben sich teilweise auf. Wer nur die Baukosten
+aufindexiert, erzeugt einen systematisch **zu tiefen** Landwert.
+
+**Bewusst NICHT nachgefuehrt:** fuer eine saubere beidseitige Indexierung fehlt der
+**Mietindex-Stand zum Kursdatum 06.2023** — er ist in dieser KB nicht belegt, und ihn zu schaetzen
+waere genau das Raten, das die Belegpflicht ausschliesst. **Die Defaults bleiben unveraendert auf
+Preisstand 06.2023 stehen**, jetzt aber ausgewiesen.
+
+**Vier Anwendungsregeln im Artikel verankert:** den Preisstand 06.2023 mitgeben · **nie einseitig
+indexieren** · die Sensitivitaetsanalyse des Tools (Erstellungskosten ±10/20 %) deckt die
+aufgelaufene Drift von 2.78 % weit ab, die Defaults sind fuer eine **Vorpruefung** weiterhin
+brauchbar, fuer eine **Abgabe** gehoeren tagesaktuelle Werte eingesetzt · und die wichtigere Lehre:
+**der Hebel ist die Natur eines Residuums**, nicht eine Eigenheit des Beispiels — bei einem
+knapperen Projekt mit 15 % Landanteil waere er doppelt so hoch. **Die Sensitivitaetsrechnung ist
+beim Residual Pflicht, nicht Kuer.**
+
+Damit haben alle vier Verfahrensartikel (Realwert, Ertragswert/DCF, Vergleichswert,
+Residualwert) im Rahmen dieses Auftrags eine belegte Aktualitaets- und Belegstandpruefung erhalten.
+
+Geaenderte Dateien: `wiki/residualwertmethode.md` (neuer Abschnitt + `last_updated`).
+
+## 2026-08-23 (Vertiefungslauf 8 — die Lageklassenmethode gegen amtliche Bodenpreise gespiegelt)
+
+Der seit dem 10.06.2026 offene Punkt in [[lageklasse-landwertanteil]] lautete: «LK-Beispielrechnung
+an einem realen JANS-Objekt gegen Bodenpreis-Vergleichswert spiegeln, um die Methode zu
+kalibrieren.» Mit den amtlichen Bodenpreis-Medianen geht das jetzt — nicht an einem Objekt, sondern
+**regional ueber den ganzen Kanton**, was als Plausibilitaetspruefung der Skala mehr aussagt als
+ein Einzelfall.
+
+**Rechenweg:** die Formel des Artikels nach dem Landwertanteil aufgeloest und auf einen m2
+**Grundstueck** bezogen — `Anteil(LK) = Bodenpreis je m2 Grundstueck / (Neuwert je m2 GF x AZ)`.
+Neuwert-Ansatz **BKP 2, 4 + 5 = 3'542 CHF/m2 GF** (JANS-Kennwert BKP 2 = 3'365, umgerechnet ueber
+die BKP-Anteilsstruktur der ZIW-Revision 2025, Faktor 1.053) — das ist die Bezugsgroesse, auf die
+sich Tab. 8 tatsaechlich bezieht.
+
+**Zwei Befunde:**
+
+1. **Fuer die Stadt Zuerich sprengt der amtliche Bodenpreis die Skala — bei jeder Ausnuetzung.**
+   Selbst bei AZ 1.0 verlangt der Median (6'747 CHF/m2) einen Landwertanteil von **190 %**, waehrend
+   Tab. 8 bei **166.67 %** (LK 10) endet; bei AZ 0.6 sind es **317 %**, das Doppelte des
+   Skalenmaximums. **Die Lageklassenmethode kann Stadtzuercher Bodenpreise nicht abbilden.** Das
+   deckt sich mit dem Vorbehalt, der im Artikel schon stand, gibt ihm aber erstmals eine Zahl: es
+   ist **kein Genauigkeitsproblem, sondern ein Skalen-Anschlag**.
+2. **Die Verschiebung reicht weiter hinunter als erwartet.** Bei AZ 0.6 landen **gewoehnliche
+   Agglomerationsgemeinden bei LK 8.0** — genau dem Punkt, den der Artikel als «typisch fuer
+   zentrale Stadtlagen mit Ausnuetzungsreserven» beschreibt. Wer die LK nach den Kriterien von
+   Tab. 6 vergibt und fuer eine solche Gemeinde **LK 5 bis 6** einstuft, kommt auf **918 bis 1'211
+   CHF/m2** gegen einen amtlichen Median von **2'065** — **Faktor rund zwei**.
+
+**Ausdruecklich eine Sensitivitaetsrechnung, kein Kalibrierungsergebnis.** Vier Annahmen sind
+mitgeschrieben: die **AZ treibt das Ergebnis linear** (deshalb als Band 0.4-1.0 gefuehrt; nur der
+Stadt-Zuerich-Befund ist ueber das ganze Band robust) · der Neuwert-Kennwert ist ein **EFH/ZFH-Wert**
+und traegt selbst **D16** · es ist ein **Median-gegen-Median**-Vergleich ueber alle Zonen · die AZ
+bezieht sich auf die **anrechenbare** Geschossflaeche.
+
+**Was daraus folgt und was nicht.** Es folgt **nicht**, dass Tab. 8 falsch ist — die Tabelle bildet
+ein Verhaeltnis ab, das fuer ihre Entstehungszeit stimmig war. Es folgt, dass sie **im heutigen
+Zuercher Markt als eigenstaendige Landwertermittlung nicht taugt** und ein
+**Plausibilisierungsinstrument** bleibt, dessen Ergebnis in der richtigen Richtung zu lesen ist:
+liegt der aus Tab. 8 hergeleitete Landwert deutlich **unter** dem regionalen Bodenpreis-Median, ist
+das der **Normalfall und kein Warnsignal**.
+
+**Offen und an Raphael (Methodenentscheid, keine Recherche):** ob ein **eigener, kalibrierter
+Anteilsschluessel** sinnvoll waere (Tab. 8 nach oben verlaengert oder mit Regionalfaktor) — oder ob
+die Methode konsequent nur noch als Plausibilisierung gefuehrt und der Landwert grundsaetzlich ueber
+Vergleichs- oder Residualwert bestimmt wird.
+
+Geaenderte Dateien: `wiki/lageklasse-landwertanteil.md` (neuer Abschnitt, offener Punkt auf
+teil-erledigt, `last_updated`).
+
 ## 2026-08-23 (Vertiefungslauf 7 — acht Gemeinden ohne jede Preisbasis haben jetzt eine)
 
 Die KB fuehrt Marktdatenblaetter fuer sieben ZH-Gemeinden. Fuer **acht weitere

@@ -1,5 +1,34 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 6 Revendo) — Umbau/Sanierung bekommt den richtigen Teuerungs-Anker
+
+Der Abschnitt «Baupreisindex ZH» liefert Faktoren auf Basis des **ZIW** — und der ZIW misst den
+**Neubau** eines Mehrfamilienhauses. Für die Umbau-/Sanierungswerte der KB ist das der falsche
+Anker; der BFS führt **Renovation** als eigene Bauwerksart.
+
+| Reihe | Apr. 23 → Apr. 26 | Apr. 25 → Apr. 26 | Okt. 25 → Apr. 26 |
+|---|---|---|---|
+| Neubau MFH, Schweiz | **+2.35 %** | +1.0 % | +0.7 % |
+| Neubau MFH, Region Zürich | **+2.78 %** | — | — |
+| **Renovation MFH, Schweiz** | **+1.94 %** | **+0.6 %** | **+0.4 %** |
+| **Renovation MFH, Region Zürich** | **+1.94 %** | — | — |
+
+**Renovation liegt über drei Jahre 0.4 bis 0.8 Prozentpunkte unter dem Neubau-Anker**, und der
+Abstand geht **durchgehend in dieselbe Richtung** (Drei-Jahres-, Jahres- und Halbjahresvergleich).
+Wer Umbaufälle mit dem Neubau-Faktor normalisiert, **überzeichnet die Teuerung systematisch** —
+der Effekt ist klein, aber **einseitig**: er summiert sich über die Zeit, statt sich auszumitteln.
+
+**Neue Regel im Abschnitt «Umbau / Sanierung» verankert:** mit **Renovation Mehrfamilienhaus** der
+zutreffenden Grossregion indexieren, nicht mit dem ZIW und nicht mit dem Neubau-Anker.
+
+⚠ **Ausdrücklich abgegrenzt:** der Index misst die **Preisentwicklung** von Renovationsleistungen,
+nicht das **Niveau** von Umbaukosten. Der bestehende Befund — «Umbau/Sanierung braucht eigene,
+höhere Kennwerte statt eines simplen Reduktionsfaktors auf den Neubau-Wert» — bleibt **unberührt**
+und wird durch die Indexreihen weder gestützt noch widerlegt. Zwei verschiedene Fragen: wie hoch
+der Ausgangswert ist, und wie er fortzuschreiben ist.
+
+Geänderte Dateien: `wiki/kennwerte.md` (Abschnitt «Umbau / Sanierung»).
+
 ## 2026-08-23 (Vertiefungslauf 5 Revendo) — Regionenwahl beziffert: die Faktorentabelle ist ein Zürcher Index
 
 Der ZIW misst die Preise beim **Neubau eines Mehrfamilienhauses in der Stadt Zürich** — die

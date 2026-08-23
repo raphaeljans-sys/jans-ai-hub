@@ -486,6 +486,41 @@ BKP-Einzelposition-Referenz (KV Direktvermietung light, CHF 386'021 exkl. MwSt.,
 Bezugsgrösse) — nicht in Kennwerte-Tabelle übernommen, siehe `raw/2620-albertstrasse.md`
 Dokument 2.
 
+> ### Teuerungs-Anker für Umbau und Sanierung: **Renovation**, nicht Neubau (neu 23.08.2026)
+>
+> Der Abschnitt «Baupreisindex ZH» unten liefert Faktoren, die auf dem **ZIW** beruhen — und der
+> ZIW misst den **Neubau eines Mehrfamilienhauses**. Für die Umbau-/Sanierungswerte dieses
+> Abschnitts ist das der falsche Anker. Der BFS-Baupreisindex führt **Renovation** als eigene
+> Bauwerksart, und die Reihen laufen messbar auseinander:
+>
+> | Reihe | Apr. 23 → Apr. 26 | Apr. 25 → Apr. 26 | Okt. 25 → Apr. 26 |
+> |---|---|---|---|
+> | Neubau Mehrfamilienhaus, Schweiz | **+2.35 %** | +1.0 % | +0.7 % |
+> | Neubau Mehrfamilienhaus, Region Zürich | **+2.78 %** | — | — |
+> | **Renovation Mehrfamilienhaus, Schweiz** | **+1.94 %** | **+0.6 %** | **+0.4 %** |
+> | **Renovation Mehrfamilienhaus, Region Zürich** | **+1.94 %** | — | — |
+>
+> **Renovation liegt über drei Jahre 0.4 bis 0.8 Prozentpunkte unter dem Neubau-Anker** — und der
+> Abstand ist nicht die Schwankung eines Halbjahres, sondern durchgehend in dieselbe Richtung
+> (auch im Jahres- und im Halbjahresvergleich). Wer den Albertstrasse-Wert von 2'500 CHF/m³
+> (Preisstand 2026) oder künftige Umbaufälle mit dem Neubau-Faktor normalisiert, **überzeichnet
+> die Teuerung systematisch**.
+>
+> **Regel:** Umbau- und Sanierungskennwerte mit **Renovation Mehrfamilienhaus** der zutreffenden
+> Grossregion indexieren, nicht mit dem ZIW und nicht mit dem Neubau-Anker. Der Effekt ist klein
+> (bei drei Jahren rund 0.8 Prozentpunkte), aber er ist **einseitig** — er summiert sich über die
+> Zeit, statt sich auszumitteln.
+>
+> ⚠ **Was das nicht heisst.** Der Index misst die **Preisentwicklung** von Renovationsleistungen,
+> nicht das **Niveau** von Umbaukosten. Der Befund oben — «Umbau/Sanierung braucht eigene, höhere
+> Kennwerte statt eines simplen Reduktionsfaktors auf den Neubau-Wert» — bleibt davon **unberührt**
+> und wird durch die Indexreihen weder gestützt noch widerlegt. Zwei verschiedene Fragen: wie hoch
+> der Ausgangswert ist, und wie er über die Zeit fortzuschreiben ist.
+>
+> *Quelle: BFS, «Schweizerischer Baupreisindex — Entwicklung der Baupreise (Multibasen), Indexwerte
+> pro Grossregion und pro Objekttyp», XLSX über opendata.swiss, Datenstand 21.08.2026, sowie
+> Hauptresultate nach Bauwerksart, Stand April 2026. Ausgewertet 23.08.2026.*
+
 ## Baupreisindex ZH (Teuerungs-Normalisierung, Stufe 4)
 
 **Belegter, verketteter Index gefunden (Run 8, 27.07.2026):** Der «Zürcher Index der

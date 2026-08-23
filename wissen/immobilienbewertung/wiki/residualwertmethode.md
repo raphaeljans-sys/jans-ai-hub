@@ -1,7 +1,7 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-23 (Vertiefungslauf 9: Preisstand 06.2023 der Default-Parameter ausgewiesen, Residual-Hebel gerechnet)
 sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte]
 links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]]
 ---
@@ -197,6 +197,65 @@ Erstellungskosten je Nutzung** gerechnet (Zellformel `Nettomiete = Baukosten/m2 
 Erstellungskosten je Gewerbenutzung CHF/m2 HNF: Buero 3'700 · Industrie/Gewerbe 3'200 · Lager
 1'800 · Verkauf 4'500 · Gastronomie 5'500; HNF/GF-Effizienz Gewerbe 0.80-0.90. Damit ist die
 Gewerbe-Miete im Tool **kostengekoppelt** (5.5 % Bruttorendite-Ansatz auf die Investition).
+
+## ⚠ Preisstand der Default-Parameter — und warum er hier mehr wiegt als anderswo (neu 23.08.2026)
+
+Die Eingabegroessen und Tool-Defaults oben stammen aus dem **Wuest-Kurs 06.2023** und dem darauf
+kalibrierten JANS-Tool. **Ein Preisstand-Vermerk fehlte bisher** — die Werte lasen sich wie
+zeitlose Ansaetze. Sie sind es nicht, und bei einem Residuum wirkt sich das staerker aus als bei
+jedem anderen Verfahren dieser KB.
+
+### Der Hebel, gerechnet mit den Defaults dieser Seite
+
+| Position | Ansatz | CHF/m2 HNF |
+|---|---|---|
+| Nettomiete Beispielprojekt | Ø 266 CHF/m2 HNF/Jahr | 266 |
+| ./. Betriebskosten und Unterhalt | 18.7 % des Soll-Ertrags | 216 |
+| **Endwert** | kapitalisiert mit 2.5 % | **8'650** |
+| ./. Erstellungskosten | Ø 5'680 CHF/m2 HNF | 5'680 |
+| ./. Risiko-/Gewinnanteil | 7 % der Erstellungskosten | 398 |
+| **= Landwert (roh, vor Zeitwert-Abzinsung und Nebenkosten)** | | **2'573** |
+
+Der Landwert ist damit rund **30 % des Endwerts** — und genau daraus folgt der Hebel:
+
+- **1 % Veraenderung der Mieten bewegt den Landwert um 3.4 %** (Hebel 3.36×).
+- **1 % Veraenderung der Erstellungskosten bewegt den Landwert um 2.2 %** (Hebel 2.21×).
+
+**Konkret fuer den Preisstand 2023:** die Erstellungskosten sind seit April 2023 in der
+Grossregion Zuerich um **+2.78 %** gestiegen (BFS-Baupreisindex, Neubau Mehrfamilienhaus,
+verkettete Reihe — s. `wissen/grobkosten/wiki/kennwerte.md`). Wuerde man **nur** diese Seite
+nachfuehren und die Mieten stehen lassen, faellt der Landwert um **6.6 %**.
+
+> ⚠ **Genau deshalb ist eine einseitige Indexierung schlechter als gar keine.** Die Mieten sind
+> seit 2023 ebenfalls gestiegen (die Beobachtungsserie in [[investorenmarkt-makro]] fuehrt den
+> SMG-Mietindex Juli 2026 = 134 Punkte, +2.4 % YoY). Kosten und Mieten laufen also **in
+> entgegengesetzter Richtung auf den Landwert** und heben sich teilweise auf. Wer nur die
+> Baukosten aufindexiert, erzeugt einen systematisch **zu tiefen** Landwert.
+>
+> **Nicht nachgefuehrt, und zwar bewusst:** fuer eine saubere beidseitige Indexierung fehlt der
+> **Mietindex-Stand zum Kursdatum 06.2023** — er ist in dieser KB nicht belegt, und ihn zu
+> schaetzen waere genau das Raten, das die Belegpflicht dieser KB ausschliesst. **Die Defaults
+> oben bleiben deshalb unveraendert auf Preisstand 06.2023 stehen.**
+
+### Was das fuer die Anwendung heisst
+
+1. **Den Preisstand 06.2023 bei jeder Verwendung mitgeben.** Die Defaults sind belastbar, aber
+   nicht aktuell.
+2. **Nie einseitig indexieren.** Entweder beide Seiten (Mieten und Kosten) oder keine.
+3. **Die Sensitivitaetsanalyse des Tools deckt die Drift ab.** Sie rechnet ohnehin mit
+   Erstellungskosten ±10/20 % — die seit 2023 aufgelaufenen 2.78 % liegen weit innerhalb dieser
+   Bandbreite. Die Defaults sind fuer eine **Vorpruefung** damit weiterhin brauchbar; fuer eine
+   **Abgabe** gehoeren tagesaktuelle Mieten und Kosten eingesetzt.
+4. **Der Hebel selbst ist die wichtigere Lehre.** Er ist keine Eigenheit dieses Beispiels, sondern
+   die Natur eines Residuums: was uebrig bleibt, schwankt staerker als das, wovon es uebrig
+   bleibt. Bei einem Landanteil von 30 % liegt der Hebel auf den Mieten bei rund 3.4× — bei einem
+   knapperen Projekt mit 15 % Landanteil waere er doppelt so hoch. **Die Sensitivitaetsrechnung
+   ist beim Residual keine Kuer, sondern Pflicht.**
+
+*Belege: Erstellungskosten-Drift aus dem BFS-Baupreisindex (Multibasen-Reihe, Grossregion Zuerich,
+Neubau Mehrfamilienhaus, 01.04.2023 = 115.2 → 01.04.2026 = 118.4), ausgewertet 23.08.2026 und in
+`wissen/grobkosten/wiki/kennwerte.md` gefuehrt. Alle uebrigen Zahlen dieser Rechnung stammen aus
+den Default-Parametern dieser Seite (Wuest-Kurs 06.2023 / JANS-Tool).*
 
 ### B. «Pre-Check Tool» (zweiblaettrig, mit HNF-Herleitung — hier sitzt die JANS-Kalibrierung)
 
