@@ -40,7 +40,7 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
   (Art. 95 BGG), Sachverhalt nur bei Willkür (Art. 97 BGG); subsidiäre Verfassungsbeschwerde (Art. 113 BGG).
 - **Legitimation Privater** (§ 21 VRG / § 21b VRG bei Erlassanfechtung; für die Beschwerde ans
   Verwaltungsgericht § 49 VRG i.V.m. §§ 21-21b): berührt + **schutzwürdiges Interesse**; beim Nachbarn
-  **räumliche Beziehungsnaehe** (BGE 121 II 224). Baurechtliche Rekurs-/Beschwerdelegitimation zudem
+  **räumliche Beziehungsnähe** (BGE 121 II 224). Baurechtliche Rekurs-/Beschwerdelegitimation zudem
   **§ 338a PBG** (auch für die Anfechtung von Erlassen). **Behördenbeschwerde § 338c PBG** (die zuständige
   Direktion gegen kantonale Instanz aufhebende Rekursentscheide, zur Wahrung öffentlicher Interessen);
   **kantonale Verbandsbeschwerde § 338b PBG**; Verbandsbeschwerde Art. 12 NHG bei Bundesaufgabe.
@@ -89,7 +89,7 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
   Behörde (RB 2005 Nr. 12).
 - **Parteientschädigung** (§ 17 Abs. 2 VRG) nur angemessen, erfahrungsgemäss **~1'500-2'500 Fr.** (BEZ 2007
   Nr. 56); **obsiegendes Gemeinwesen nur ausnahmsweise** (§ 17 Abs. 3 VRG). Verzoegerungs-Mehrkosten →
-  Schadenersatz nur bei rechtsmissbraeuchlichem Rechtsmittel, Zivilgericht (§ 317/§ 339b PBG).
+  Schadenersatz nur bei rechtsmissbräuchlichem Rechtsmittel, Zivilgericht (§ 317/§ 339b PBG).
 - Unentgeltliche Rechtspflege (§ 16 VRG) juristischen Personen versagt; nicht für Baubewilligungswerber
   (BGer 1C_378/2012).
 
@@ -130,7 +130,7 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemäss.
   einstellt oder widerruft, (b) die Folgen widerrechtlicher Handlungen beseitigt, oder
   (c) die Widerrechtlichkeit von Handlungen feststellt (§ 10c Abs. 1 lit. a-c VRG). Die
   Behörde erlässt dazu eine **Anordnung** (§ 10c Abs. 2 VRG) — erst diese ist wieder
-  rekursfähig nach dem gewoehnlichen Instanzenzug (Abschnitt 2 oben).
+  rekursfähig nach dem gewöhnlichen Instanzenzug (Abschnitt 2 oben).
 - **Für die JANS-Praxis:** Akteneinsichtsgesuche im Baubewilligungs-/Rekursverfahren auf
   § 8 VRG stützen (schutzwürdiges Interesse an der Anordnung nachweisen); bei Verweigerung
   nach § 9 VRG die schriftliche Begründung einfordern und den mitgeteilten wesentlichen
@@ -170,7 +170,7 @@ und `raw/260607_amtlich_zh_pbg.md` (§ 317/§ 338/§ 339/§ 339b PBG).
 - **§ 338 PBG (Zeile 71, Gerichtsgebühr):** CONFIRMED wortwörtlich — Abs. 1 Bemessung nach Zeitaufwand/
   Schwierigkeit/Streitwert; Abs. 2 «Die Gerichtsgebühr beträgt in der Regel Fr. 500 bis Fr. 50 000.»
 - **§ 317 PBG + § 339b PBG (Zeile 77, Schadenersatz/Zivilgericht):** CONFIRMED im Ergebnis, Zusammenhang
-  präzisiert. § 339b PBG: «Schadenersatzansprüche wegen rechtsmissbraeuchlicher und treuwidriger
+  präzisiert. § 339b PBG: «Schadenersatzansprüche wegen rechtsmissbräuchlicher und treuwidriger
   Erhebung eines Rechtsmittels sind nach dem **jeweiligen Verfahrensrecht** geltend zu machen» — nennt
   selbst nicht wörtlich «Zivilgericht». Das Zivilgericht als Forum ergibt sich erst aus § 317 PBG («Die
   Wahrung anderer Ansprüche richtet sich inhaltlich nach dem Privatrecht und für das Verfahren nach dem
@@ -232,7 +232,7 @@ Fedlex-Snapshot über `www.fedlex.admin.ch`, 20220101 lieferte 503'394 Byte PDF 
   Art. 103 selbst enthalte eine Antrags-Ausnahme. Tatsächlich trägt **Art. 104 BGG** («Andere vorsorgliche
   Massnahmen») die Antrags-Möglichkeit: «Der Instruktionsrichter oder die Instruktionsrichterin kann von
   Amtes wegen oder auf Antrag einer Partei vorsorgliche Massnahmen treffen, um den bestehenden Zustand zu
-  erhalten oder bedrohte Interessen einstweilen sicherzustellen.» Auffaellig: eine Fussnote zu Art. 103 Abs. 2
+  erhalten oder bedrohte Interessen einstweilen sicherzustellen.» Auffällig: eine Fussnote zu Art. 103 Abs. 2
   vermerkt, ein früherer Bestandteil sei «aufgehoben durch Anhang 1 Ziff. II 2 der Zivilprozessordnung ...,
   mit Wirkung seit 1. Jan. 2011» — die genaue frühere Fassung wurde nicht weiter zurückverfolgt (ausserhalb
   des Verifikationsauftrags), das aktuelle Zusammenspiel Art. 103/104 BGG ist aber eindeutig. Korrigiert im
@@ -256,7 +256,7 @@ BGG). Damit ist der Artikel nun auch auf Bundesrechts-Ebene vollständig Wortlau
 
 ## 7. Für die JANS-Praxis
 - Bei unbefriedigendem Entscheid **immer parallel fristwahrend rekurrieren**, auch wenn man mit der Behörde
-  verhandelt — Wiedererwägung/Gespraech hemmt die 30-Tage-Frist nicht.
+  verhandelt — Wiedererwägung/Gespräch hemmt die 30-Tage-Frist nicht.
 - Bei Nachbarrekurs gegen einen abtrennbaren Teil → **Teilfreigabe** nach § 339 PBG beantragen, Rohbau läuft
   weiter.
 - Kostenrisiko ehrlich rechnen: eigener Aufwand bleibt grossteils an einem hängen, gegen die Gemeinde gibt es

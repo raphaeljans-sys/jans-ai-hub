@@ -3,6 +3,35 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 (zwölfte Fortsetzung) — Siebter Folgeauftrag ohne neuen Sachverhalt: keine weitere Prüfhandlung, nur diese Notiz
+
+- **Getan:** Siebter Fortsetzungsauftrag in Folge («Triage des Korpus `buero-projekte`
+  weiterführen», erneut mit dem veralteten Zwischenstand «807 Positionen»/Verweis auf
+  `projekt-triage2`) erhalten. Vor jeder Handlung Spec, diesen CHANGELOG (elfte Fortsetzung)
+  und `KORPUS-QUEUE.md` gelesen.
+- **[Verifikation]** Eigene, unabhängige Nachzählung von
+  `skills/wissens-destillat/training/buero-projekte-inventar.md`: 813 Sachzeilen (56 `[x]`
+  destilliert, 757 `[-]` verworfen), 0 `[ ]` offen, 0 `[t]` hängend triagiert — unverändert
+  seit der neunten Fortsetzung. `KORPUS-QUEUE.md` führt den Korpus weiterhin als **erledigt**
+  (23.08.2026). Laufende `claude`-Prozesse geprüft: der einzige Prozess mit demselben
+  Auftragstext wie diese Session ist der eigene Lauf (kein Konkurrent).
+- **Kein Destillat-/Triage-Schritt ausgeführt, bewusst.** Die einzige zuvor noch prinzipiell
+  auflösbare Frage (Nerves-Pentagon/Alpiq-Wertdifferenz) wurde in der elften Fortsetzung
+  bereits als aus dem vorliegenden Korpus grundsätzlich unauflösbar dokumentiert (kein
+  weiterer Beleg im Ordner `Nerves_Binz_DatenMisc` vorhanden). Damit gibt es seit der zehnten
+  Fortsetzung keinen im Korpus selbst noch auflösbaren offenen Punkt mehr. Eine achte reine
+  Nachzähl-Bestätigung ohne neues Quellmaterial hätte gegen Rule `wissens-bibliothekar`
+  («kein Rücklauf ohne Beleg», sinngemäss: kein Report ohne Erkenntnisgewinn) verstossen —
+  darum nur dieser knappe Änderungsvermerk, kein neuer Output-Report.
+- **Kein sonstiger Schritt.** Der Pflicht-Zusatzauftrag `bevorzugte-systeme-jans.md` bleibt aus
+  denselben, mehrfach dokumentierten Gründen offen (keine projektübergreifende
+  System-Wiederholung im Korpus belegt) und gehört ohnehin zur KB `wissen/bauprodukte`, nicht
+  zu `projekt-lessons`. **An wen auch immer den nächsten gleichlautenden Fortsetzungsauftrag
+  erteilt:** der Korpus `buero-projekte` ist abgeschlossen. Echte offene Arbeit im
+  Wissens-Destillat-Prozess liegt bei den Korpora `buero-referenzen` und `archiv-fachwissen`
+  (Ziel-KB `wissen/architektur-fachwissen`, Spec dort jeweils noch offen, Inventar Phase 0 am
+  23.08.2026 begonnen) — dorthin sollte ein Fortsetzungsauftrag als Nächstes zielen.
+
 ## 2026-08-23 (elfte Fortsetzung) — Korpus bestätigt vollständig; letzte offene Wertdifferenz als aus diesem Korpus unauflösbar markiert
 
 - **Getan:** Sechster Fortsetzungsauftrag in Folge («Triage des Korpus `buero-projekte`

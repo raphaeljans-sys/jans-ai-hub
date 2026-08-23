@@ -9,11 +9,6 @@
   dieser Erhebung den aktuellen Gründungsstand dort prüfen, nicht annehmen.
 
 ## needs-verification (zentral)
-- [[nachgruendung-anmeldungen]]: Wortlaut Art. 68 UVG (freie Versichererwahl, genaue
-  Anmeldefrist bei Nicht-Suva-Betrieben) und Art. 66 MWSTG (Anmeldefrist-Wortlaut) sind
-  am Fedlex-Volltext noch nicht gegengelesen — der Filestore-Abgleich brach beide Male
-  vor dem Textende ab (Dokumentlänge, geprüft 23.08.2026). Die übrigen Fristen des
-  Artikels (AHVG, BVG, UVG Art. 1a/59/66, MWSTG Art. 10) sind verifiziert.
 - Beratungs-/Notarkosten ([[rechtsform-vergleich]], [[kosten-und-zeit]]) bleiben
   Marktrichtwerte ohne amtlichen Tarif (Notariate ZH sind frei erwerbend) — vor einer
   realen Gründung aktuelle Offerte einholen. Die Handelsregistergebühr-Hälfte dieser Frage
@@ -25,6 +20,34 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **[[nachgruendung-anmeldungen]]: UVG Art. 68/69 und MWSTG Art. 66 am Fedlex-PDF-
+  Volltext gegengelesen, needs-verification vollständig aufgelöst (23.08.2026, dritter
+  Lauf desselben Tages):** Die HTML-Filestore-Route lieferte für UVG (SR 832.20) und
+  MWSTG (SR 641.20) bei langen Konsolidierungen nur eine JavaScript-App-Hülle statt
+  Text (77'151 Byte, unabhängig vom Datum) — derselbe Fehlertyp wie im Nachtrag
+  23.08.2026 zu `docs/referenz/fedlex-volltexte.md`, dort aber für andere Erlasse
+  behoben durch die `de/pdf-a`-Route auf `fedlex.data.admin.ch`. Dieser Lauf hat
+  denselben Ausweichweg für UVG/MWSTG genutzt (ELI via WebSearch ermittelt: UVG
+  `eli/cc/1982/1676_1676_1676`, MWSTG `eli/cc/2009/615`; PDF lokal mit `pypdf`
+  extrahiert statt WebFetch/HTML, weil WebFetch bei diesen langen Dokumenten die
+  KI-Zusammenfassung vor dem Zielartikel abbrach). **Zwei Befunde:**
+  (1) **Korrektur:** Die «freie Versichererwahl» steht nicht in Art. 68 UVG (der regelt
+  nur, WER als Versicherer zugelassen ist, plus dessen Registerpflicht beim Bundesamt
+  für Gesundheit), sondern in **Art. 69 UVG** («Wahl des Versicherers»: Arbeitgeber
+  sorgt für Versicherung bei einem Art.-68-Versicherer, Arbeitnehmer haben
+  Mitbestimmungsrecht). (2) **Bestätigung:** Art. 66 Abs. 1 MWSTG nennt wörtlich die
+  30-Tage-Frist «unaufgefordert innert 30 Tagen nach Beginn ihrer Steuerpflicht» — die
+  bisherige Artikeldarstellung war inhaltlich korrekt. **Zusätzlich geklärt:** das UVG
+  nennt für den Vertragsschluss mit einem Nicht-Suva-Versicherer keine gesetzliche
+  Frist (Art. 59 Abs. 2 UVG: Versicherungsverhältnis entsteht durch Vertrag, ohne
+  Datumsangabe); Auffangnorm ist Art. 59 Abs. 3 UVG (Ersatzkasse leistet bei fehlender
+  Deckung im Unfallzeitpunkt, entlastet den Arbeitgeber aber nicht von Nachforderungen).
+  Damit ist die zuvor offene Fristfrage nicht nur unbeantwortet geblieben, sondern
+  positiv geklärt: es gibt keine Norm-Frist, nur Sorgfaltspraxis. Konsolidierungen:
+  UVG 01.01.2026, MWSTG 01.01.2025 (spätere MWSTG-Snapshots 2025/2026 lieferten beim
+  Test der Kandidatendaten die App-Hülle statt PDF, 01.01.2025 war der letzte treffende
+  Kandidat). `git diff --numstat` nach dem Schreiben gegen
+  `wiki/nachgruendung-anmeldungen.md` geprüft (+30/-16, keine unbeabsichtigte Löschung).
 - **[[nachgruendung-anmeldungen]]: BVG-Auffangfrist und UVG-Anmeldefrist am Fedlex-
   Volltext korrigiert (23.08.2026, Pflegelauf gegen den aktuellen Stand):** Der Artikel
   trug seit dem 22.07.2026 zwei unbelegte Fristangaben, die sich beim direkten

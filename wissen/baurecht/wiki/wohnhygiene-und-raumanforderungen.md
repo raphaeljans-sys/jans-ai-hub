@@ -37,7 +37,7 @@ interesse allein genügt nicht**.
 
 ### 2. Mindestfläche (§ 303 PBG, § 36 BBV I)
 - Räume **≥ 10 m²**.
-- Kuechen **4 m²** (Einzimmer-) / **6 m²** (Mehrzimmerwohnung); Wohnkueche ohne Abtrennung nur
+- Küchen **4 m²** (Einzimmer-) / **6 m²** (Mehrzimmerwohnung); Wohnküche ohne Abtrennung nur
   bei wirksamem Brandschutz + einwandfreier Lüftung (§ 306 PBG).
 - In Dachgeschossen zählen Raumteile **< 1,2 m Höhe nicht** mit (BEZ 2011 Nr. 15).
 
@@ -46,7 +46,7 @@ interesse allein genügt nicht**.
 - Punktuelle Unterschreitung durch technisch bedingte Bauteile (Balken, Lüftungsrohre) zulässig.
 - **Dachräume:** Mindesthöhe muss über der **halben Bodenfläche** vorhanden sein; als
   «Bodenfläche» zählt dabei nur die Fläche mit Höhe **≥ 1,2 m**.
-- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstaetten, Räume mit grosser
+- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstätten, Räume mit grosser
   Personenbelegung): statt fixer Höhe ein **bodenflächenabhängiger Rauminhalt** —
   **2,40 m³/m²** bis 200 m², **+ 0,002 m³ je zusätzlichem m²**, ab 500 m² konstant
   **3,0 m³/m²** (§ 10 Abs. 1 BBV II); die erforderliche mittlere Höhe muss über
@@ -69,9 +69,9 @@ interesse allein genügt nicht**.
   Nachtrag 133, `raw/260607_amtlich_zh_bbv1.md` Z. 536-542).
 
 ## Geltungsbereich-Ausnahme (§ 32 ABV)
-Die §§ 303-305 PBG gelten **nicht** für Einfamilienhaeuser und vergleichbare Wohnungsarten
+Die §§ 303-305 PBG gelten **nicht** für Einfamilienhäuser und vergleichbare Wohnungsarten
 (kein gemeinsames Treppenhaus + eigener Zugang ins Freie + tritt als EFH in Erscheinung;
-§ 32 ABV). Kuechen-Anforderungen sind separat geregelt (§ 306 PBG / § 36 BBV I).
+§ 32 ABV). Küchen-Anforderungen sind separat geregelt (§ 306 PBG / § 36 BBV I).
 
 ## Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV (Modell D, adversarial, 2026-07-13)
 

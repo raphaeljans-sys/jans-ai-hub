@@ -19,7 +19,7 @@
 ### Nach der Gründung
 - [[nachgruendung-anmeldungen]] — AHV-Ausgleichskasse, BVG-Anschluss, UVG-Versicherer,
   MWST-Registrierung: wer/Frist/Schwelle je Anmeldung, Reihenfolge in der Praxis · *established*
-  (needs-verification bei Fristen-Details/Kanton-Spezifika, Sekundärquellen)
+  (alle Fristen/Artikelnummern am Fedlex-Volltext verifiziert, zuletzt 23.08.2026)
 
 ### Kapital & Organe
 - [[kapital-und-liberierung]] — Mindestkapital, Bar-/Sacheinlage, Sperrkonto, Emissionsabgabe · *established*
@@ -53,7 +53,8 @@ Coverage-Lücken mehr registriert.
 - Outputs: 8 (neue-ag-gruenden_vorgehen 260602, steuern-sparen-ag-inhaber 260702,
   kapitalband-fremdwaehrung 260729, Health-Checks 260701/260721/260725/260801/260803)
 - Letzter Health-Check: 2026-08-03 (Wissenscheck-Sammellauf, sauberste KB des Wissens-Layers)
-- Verbleibende needs-verification-Punkte: Beratungs-/Notarkosten (kein amtlicher Tarif),
-  [[nachgruendung-anmeldungen]] nur noch bei Art. 68 UVG/Art. 66 MWSTG (Fedlex-Volltext
-  wegen Dokumentlänge nicht auslesbar; die übrigen Fristen dort am 23.08.2026 am
-  Fedlex-Volltext verifiziert, zwei Fehler dabei korrigiert — siehe [[QUESTIONS]]).
+- Verbleibende needs-verification-Punkte: nur noch Beratungs-/Notarkosten (kein
+  amtlicher Tarif, Notariate ZH sind frei erwerbend). [[nachgruendung-anmeldungen]] ist
+  seit 23.08.2026 (dritter Lauf) vollständig am Fedlex-Volltext verifiziert — dabei
+  wurden insgesamt drei Fehler korrigiert (BVG-Frist, UVG-Nachmeldefrist,
+  Art.-68/69-UVG-Zuordnung), siehe [[QUESTIONS]].

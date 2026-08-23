@@ -49,14 +49,14 @@ Byte-/Token-Werte führt ab jetzt [[kontext-architektur]]; die laufende Nachfüh
 Zählstände dieses Artikels gehört als Bring-Schuld in `wissen/spec/wiki/QUESTIONS.md`
 (noch offen, siehe Rückmeldung dieses Laufs).
 
-## Nachmessung 2026-08-24 (Trainingslauf 39, Verifikationslauf) — F-ENV1 an diesem Artikel geloest
+## Nachmessung 2026-08-24 (Trainingslauf 39, Verifikationslauf) — F-ENV1 an diesem Artikel gelöst
 
 Reale Anwendung der Regel, die dieser Artikel selbst seit Run 20 als offene Bring-Schuld
-fuehrt (F-ENV1, unten in [[QUESTIONS]]) und die [[anwendung-jans]] Schritt 2 als fuenften
-Alterungsmodus verallgemeinert hat: **Zaehlstaende gehoeren nicht als eingefrorene Zahl in
+führt (F-ENV1, unten in [[QUESTIONS]]) und die [[anwendung-jans]] Schritt 2 als fünften
+Alterungsmodus verallgemeinert hat: **Zählstände gehören nicht als eingefrorene Zahl in
 den bindenden Text, sondern brauchen einen reproduzierbaren Messweg.** Nachgemessen heute mit
-denselben vier Kennzahlen wie in der Korrektur vom 29.07., Messweg wortwoertlich angegeben,
-damit jeder kuenftige Leser selbst nachmisst statt eine der Zahlen hier fortzuschreiben:
+denselben vier Kennzahlen wie in der Korrektur vom 29.07., Messweg wörtlich angegeben,
+damit jeder künftige Leser selbst nachmisst statt eine der Zahlen hier fortzuschreiben:
 
 | Kennzahl | Befehl | Stand 24.08.2026 | Stand 29.07.2026 |
 |---|---|---|---|
@@ -66,24 +66,24 @@ damit jeder kuenftige Leser selbst nachmisst statt eine der Zahlen hier fortzusc
 | davon @-importiert | `grep -c "^@/Volumes/daten/jans-ai-hub/rules/" CLAUDE.md` | **24** | 20 |
 | `CLAUDE.md` | `wc -c CLAUDE.md` | **19'014 B** | 17'899 B |
 
-Alle fuenf Werte sind in 26 Tagen gewachsen — das bestaetigt die F-ENV1-These direkt am
+Alle fünf Werte sind in 26 Tagen gewachsen — das bestätigt die F-ENV1-These direkt am
 eigenen Artikel: eine kopierte Zahl ist in diesem Hub binnen weniger Wochen falsch. **Fix
-dieses Laufs:** die aelteren Zaehlstand-Absaetze unten bleiben als datierter historischer
-Beleg stehen (sie zeigen die Wachstumskurve); ab hier gilt fuer diesen Artikel die
-Alterungsmodus-5-Regel woertlich — wer den aktuellen Stand braucht, fuehrt die fuenf Befehle
+dieses Laufs:** die älteren Zählstand-Absätze unten bleiben als datierter historischer
+Beleg stehen (sie zeigen die Wachstumskurve); ab hier gilt für diesen Artikel die
+Alterungsmodus-5-Regel wörtlich — wer den aktuellen Stand braucht, führt die fünf Befehle
 oben aus, statt eine der hier notierten Zahlen weiterzutragen. Byte-/Token-Budget des
-Grundkontexts fuehrt unveraendert [[kontext-architektur]] (KB `claude-code`) mit eigenem,
-dort dokumentiertem Messweg. Damit ist **F-ENV1 fuer diesen Artikel exemplarisch geloest**
+Grundkontexts führt unverändert [[kontext-architektur]] (KB `claude-code`) mit eigenem,
+dort dokumentiertem Messweg. Damit ist **F-ENV1 für diesen Artikel exemplarisch gelöst**
 (Messweg dokumentiert + reproduzierbar); die Bring-Schuld in `wiki/QUESTIONS.md` ist erledigt.
 
-Kein neuer Fund bei den beiden anderen offenen Faeden dieses Laufs (Verifikationslauf, keine
-neue reale Spec seit Lauf 38 am 30.07.): **F1** (Ueberdehnungs-Gegentest) bleibt unbelegt,
+Kein neuer Fund bei den beiden anderen offenen Fäden dieses Laufs (Verifikationslauf, keine
+neue reale Spec seit Lauf 38 am 30.07.): **F1** (Überdehnungs-Gegentest) bleibt unbelegt,
 kein genervter Mittelfall in `outputs/`. **F3** (Marketing/Text als letzte offene
-Verifier-Zeile) bleibt offen — Suche ueber `skills/marketing/`, `wissen/koordination/` und
+Verifier-Zeile) bleibt offen — Suche über `skills/marketing/`, `wissen/koordination/` und
 alle `*_spec.md` im Hub ergab keinen belegten Fall. **SYN-02** (Reue-Check gegen
 `wissen/koordination/SYNERGIE-REGISTER.md`, dort Stand 13.08.2026): MVP-Codeseite
-weiterhin unveraendert (`volumen_generator.py` liest kein Parameter-Set) — kein neuer
-Fund fuer diese KB, das Mandat liegt beim Synergie-Orchestrator.
+weiterhin unverändert (`volumen_generator.py` liest kein Parameter-Set) — kein neuer
+Fund für diese KB, das Mandat liegt beim Synergie-Orchestrator.
 
 ## Environment-Audit Trainingslauf 8 (2026-07-13) — Befund: Rule-Datei existiert, ist aber nicht verdrahtet
 

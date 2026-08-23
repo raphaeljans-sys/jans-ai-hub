@@ -44,8 +44,8 @@ kommunalen Erlass.
     vorschriften (**Art. 12 Abs. 1 lit. c USG**) sind direkt anwendbar.
   - **Wegleitung der Baudirektion Oktober 1997** «Wegleitung zur Regelung des Parkplatz-Bedarfs
     in kommunalen Erlassen» (ersetzte die Vorgängerfassung Juni 1990; gemäss Massnahme PV2 des
-    Luft-Programms 1996): richtunggebend, als «sachverstaendige Stellungnahme» zu berücksichtigen
-    (BGE 124 II 272); Gemeindetypisierung **Typ 1** (laendlich, ohne ausgepraegte Zielgebiete, nur
+    Luft-Programms 1996): richtunggebend, als «sachverständige Stellungnahme» zu berücksichtigen
+    (BGE 124 II 272); Gemeindetypisierung **Typ 1** (ländlich, ohne ausgeprägte Zielgebiete, nur
     Reduktion/Minimalbedarf, 130 von 171 Gemeinden) / **Typ 2** (Zentrums-/Arbeitsplatzgemeinden,
     zusätzlich Maximalbedarf, 41 Gemeinden). Vorgehen: (1) Grenzbedarf nach Nutzungsart
     (**Tabelle 1**, bezogen auf massgebliche Geschossfläche mGF, z.B. Wohnen 1 PP/80 m² mGF oder
@@ -86,13 +86,13 @@ kommunalen Erlass.
   Leitfaden 2024 des Tiefbauamts bezogen (`raw/260713_amtlich_zh_ppv-stadt-zuerich.md`) —
   Kernaussage **CONFIRMED**, Fassungsstand **korrigiert**: die allgemein verlinkte PPV-PDF
   (Änderung 7. Juli 2010) zeigt diese Absätze noch NICHT; sie wurden erst mit einer späteren
-  Revision eingefuegt (Fassungsstand laut Leitfaden 2024: «PPV vom 11. Dezember 1996 mit
+  Revision eingefügt (Fassungsstand laut Leitfaden 2024: «PPV vom 11. Dezember 1996 mit
   Änderungen bis 16. Dezember 2015»).
   **Verifiziert 2026-07-25 (Buch-Run 54):** die amtliche Primärquelle dieser Fassung (PPV-PDF
   «mit Änderungen bis 16. Dezember 2015», Stadt Zürich, Art. 8 Abs. 5-8 in Kraft seit
   12.09.2016) wurde jetzt lokalisiert und direkt gepruft (nicht mehr nur über den Leitfaden
   als Sekundaerquelle) — Wortlaut **CONFIRMED**, 0 Korrekturen. Einzige Differenz: der Leitfaden
-  fuegt in Abs. 6 stilistisch «dabei» ein, das im Gesetzeswortlaut fehlt (keine materielle
+  fügt in Abs. 6 stilistisch «dabei» ein, das im Gesetzeswortlaut fehlt (keine materielle
   Abweichung). Der Fassungsstand ist damit direkt am Erlass, nicht mehr nur am Leitfaden
   verifiziert.
 - **Fahrtenmodell**: kant. Recht erlaubt anstelle einer Parkplatzzahl eine **Begrenzung der
@@ -108,7 +108,7 @@ Verkehrsbedürfnissen. Bei lit. b/c nur der **Mehrbedarf**; die Nutzungsänderun
 lit. i PBG). Im **geltenden** Recht (Volltext-Abgleich 2026-07-12): **§ 243 Abs. 2 PBG** =
 antragsgebundene **tiefere** Platzzahl (wenn öffentlicher Grund nicht übermässig beansprucht
 wird); **§ 243 Abs. 3 PBG** = auch ohne Umbau kann die Schaffung/Aufhebung von Plätzen verlangt
-werden (Verkehrsstoerungen, oder Beschäftigtenparkplätze über der Gesamtzahl) — nicht bei
+werden (Verkehrsstörungen, oder Beschäftigtenparkplätze über der Gesamtzahl) — nicht bei
 Wohnungs-/Besucher-/Kundenparkplätzen. *(Das Buch 6. Aufl. 2019 führt die letztere Regel noch
 als Abs. 2; die aktuelle §-Zählung für Reverse/Bewilligungen ist Abs. 3.)*
 
@@ -136,7 +136,7 @@ als Abs. 2; die aktuelle §-Zählung für Reverse/Bewilligungen ist Abs. 3.)*
   Parkierungsanlagen für Personenwagen und Motorräder» (Ausgabe 2021) — Nachfolgenorm der
   früher unter «SN 640 291a» geführten Fassung (identischer Regelungsgegenstand, seither
   mehrfach revidiert und umnummeriert; nächste Teilrevision laut VSS-Fachplanung 2025
-  angekuendigt). Der Normtext ist urheberrechtlich geschützt; in ausgehende Dokumente gehört nur
+  angekündigt). Der Normtext ist urheberrechtlich geschützt; in ausgehende Dokumente gehört nur
   die sinngemässe Kurzangabe mit Fundstelle (Rule `normen-referenz`). Die Ausgabe 2021 liegt im
   JANS-Normenbestand vor (`PL - 02_Recht_Norm/02_Normen/VSS_Norm/VSS 40 291 Parkieren 2021.pdf`)
   und ist vollständig destilliert:
@@ -188,7 +188,7 @@ Einheitswert bekannt).
   zuvor im Wiki als dritte **Veloabstellplatz-Bedarfsnorm** genannte **SN 640 060** war falsch
   zugeordnet — sie ist keine Abstellplatz-/Bedarfsnorm und erscheint deshalb nicht in der
   VSS-Parkierungsnormen-Struktur (ParkingSwiss ParkingGuideline 05-V1.2025, Stand Juni 2025).
-  Die Norm **existiert jedoch** als eigenstaendige Grundlagennorm **«SN 640 060 – Leichter
+  Die Norm **existiert jedoch** als eigenständige Grundlagennorm **«SN 640 060 – Leichter
   Zweiradverkehr, Grundlagen»** (VSS, genehmigt November 1994; Netzplanung, Routengeometrie,
   Sichtweiten) und wird vom Standardwerk (Bd. 2, S. 914-915) neben SN 640 065/066 als ergänzende,
   nicht verbindliche Zweiradverkehrsnorm geführt (BEZ 2013 Nr. 15). Für den Abstellplatz-**Bedarf**
@@ -227,9 +227,9 @@ Einheitswert bekannt).
 
 ## Spiel- und Ruheflächen (§ 248 PBG)
 
-Bei **Mehrfamilienhaeusern** sind in angemessenem Umfang Kinderspiel-/Ruheflächen oder
-Gaerten zu erstellen (nur MFH — nicht EFH, Altersheim, Gewerbe). Nachweis via **Umgebungsplan**
-(VB.2007.00385), Anmerkung im Grundbuch § 321 PBG; Kinderspielplätze auf **Flachdaechern**
+Bei **Mehrfamilienhäusern** sind in angemessenem Umfang Kinderspiel-/Ruheflächen oder
+Gärten zu erstellen (nur MFH — nicht EFH, Altersheim, Gewerbe). Nachweis via **Umgebungsplan**
+(VB.2007.00385), Anmerkung im Grundbuch § 321 PBG; Kinderspielplätze auf **Flachdächern**
 zulässig. Detailfrage, im Zweifel nachträgliches Verfahren.
 
 ## Bezug zum JANS-Alltag
@@ -242,7 +242,7 @@ bei Wohn- und Healthcare-Projekten in guter OEV-Lage (Grundbuch-Anmerkung als Au
 **35-47 kFr.** ist eine **Verhältnismässigkeits-Schwelle der Rechtsprechung** zu § 244 Abs. 3
 PBG (ab wann Mehrkosten der Unterflur-Anordnung noch zumutbar sind) und **kein Kalkulations-
 kennwert**: der Grobkosten-Kennwert je Parkplatz wird in `wissen/grobkosten/wiki/kennwerte.md`
-geführt und ist eine andere Groesse (andere BKP-Abgrenzung, andere Herkunft). Die beiden
+geführt und ist eine andere Grösse (andere BKP-Abgrenzung, andere Herkunft). Die beiden
 Zahlen dürfen nicht gegeneinander gerechnet oder wechselseitig ersetzt werden.
 
 Siehe auch [[baureife-und-erschliessung]] (Zugänglichkeit) und [[nutzungsziffern]] (anrechenbare

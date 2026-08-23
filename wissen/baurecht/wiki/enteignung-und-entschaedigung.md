@@ -28,7 +28,7 @@ Zwei Grundfiguren: **formelle Enteignung** (Rechtsentzug) und **materielle Entei
 ## 2. Formelle Enteignung
 Voraussetzungen kumulativ (Art. 36 BV): **gesetzliche Grundlage** + **öffentlicher Zweck** + **Verhältnismässigkeit**
 (geeignet/notwendig/zumutbar, nur so lange wie nötig). Enteignungsfähig sind dingliche Rechte, Nachbarrechte
-(Immissionsabwehr Art. 679/684 ZGB), obligatorische Rechte von Mietern/Paechtern und wohlerworbene Rechte.
+(Immissionsabwehr Art. 679/684 ZGB), obligatorische Rechte von Mietern/Pächtern und wohlerworbene Rechte.
 Auch die **Belastung mit einer Dienstbarkeit** (Wegrecht, Überflugrecht) ist formelle Enteignung.
 
 **Flughafen-Sonderfall** (praxisrelevant Kloten): Trennung **Lärmimmission** ↔ **direkter Überflug**.
@@ -54,7 +54,7 @@ Nutzung zählt nur bei **hoher Wahrscheinlichkeit in naher Zukunft**.
 | **Befristete Bauverbote (5-10 J.)** | nein | § 122 (5 J.) / § 235 (3 J.) / § 346 Planungszone (3+2 J.) |
 
 **Abzonungs-Zahlenwerk (Praxis, S. 321):** ~16 % Nutzflächenverlust und 29 % (unter einem Drittel)
-entschädigungslos; 35-45 % bzw. 40 % (Burghoelzlihuegel) entschädigungspflichtig. Massgebend ist
+entschädigungslos; 35-45 % bzw. 40 % (Burghölzlihügel) entschädigungspflichtig. Massgebend ist
 aber die **Intensität + Sonderopfer**, nicht die blosse Prozentzahl.
 
 ## 4. Weitere Instrumente
@@ -66,15 +66,15 @@ aber die **Intensität + Sonderopfer**, nicht die blosse Prozentzahl.
 - **Vorkaufsrecht (§ 64 PBG):** an Freihalte-/Erholungszonen-Grundstücken; Vorkaufsfall Art. 216c OR.
 - **Treu und Glauben (Art. 9 / Art. 5 Abs. 3 BV):** Ersatz nutzlos gewordener Projektierungskosten
   (Architektenhonorare), wenn die Behördenabsicht nicht vorhersehbar war.
-- **Mehrwertabschoepfung (Art. 5 RPG, kantonal konkretisiert im MAG, LS 700.9):** Kehrseite der
-  Entschädigung — planungsbedingte **Vorteile** abschoepfen. **Kantonaler Mehrwertausgleich**
+- **Mehrwertabschöpfung (Art. 5 RPG, kantonal konkretisiert im MAG, LS 700.9):** Kehrseite der
+  Entschädigung — planungsbedingte **Vorteile** abschöpfen. **Kantonaler Mehrwertausgleich**
   (§§ 2/4 MAG): fixer Satz **20 %** des Mehrwerts, erhoben NUR bei **Einzonung** und **Umzonung
   einer Zone für öffentliche Bauten** (§ 2 Abs. 1 lit. a/b MAG) — allgemeine Auf-/Umzonungen
   lösen **keine kantonale** Abgabe aus; Freibetrag Mehrwert **< 30'000 Fr.** (§ 4 Abs. 2 MAG).
   **Kommunaler Mehrwertausgleich** (§ 19 MAG): die Gemeinden regeln Auf-/Umzonungen selbst in der
   BZO, höchstens **40 %** des um **100'000 Fr.** gekürzten Mehrwerts (§ 19 Abs. 3 MAG),
   zusätzliche Freiflächen-Schwelle **1'200-2'000 m²** je Gemeinde (§ 19 Abs. 2 MAG). Alternativ
-  staedtebauliche Verträge (§§ 21-22 MAG). Verknuepft mit [[raumplanung-und-gestaltung]].
+  städtebauliche Verträge (§§ 21-22 MAG). Verknüpft mit [[raumplanung-und-gestaltung]].
 
 ## 5. Verfahren & Höhe (Kt. ZH)
 - **Schätzungsverfahren:** Anmeldung mat. Enteignung innert **10 Jahren** (§ 183ter EG ZGB, sonst verwirkt);

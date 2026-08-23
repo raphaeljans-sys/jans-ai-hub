@@ -1,8 +1,8 @@
 ---
 title: Projekt Giebelweg 12, Langnau a/A
 status: emerging
-last_updated: 2026-07-30
-sources: [PROJEKT-STAND.md im Projektordner (Stand 16.06.2026), Deliverable 260612_Hangschnitt-Nachweis_Giebelweg-12.pdf (Inhalt Version 3, 13.06.2026), Korrespondenzordner 02_BH_Bopp_Christoph (Dateien bis 30.06.2026), outputs/2026-07-24_giebelweg12-projektstand.md]
+last_updated: 2026-08-24
+sources: [PROJEKT-STAND.md im Projektordner (Stand 16.06.2026), Deliverable 260612_Hangschnitt-Nachweis_Giebelweg-12.pdf (Inhalt Version 3, 13.06.2026), Korrespondenzordner 02_BH_Bopp_Christoph (Dateien bis 30.06.2026, letzter Ordner "260630 Schreiben von Bopp an Gemeinde"), outputs/2026-07-24_giebelweg12-projektstand.md, Verifikation 2026-08-24 (Projektordner erneut auf neuere Dateien geprueft)]
 links: [[profil-christoph-bopp]]
 ---
 
@@ -48,3 +48,11 @@ Baulinien-Festsetzung an `bauamt@langnau.ch` eingereicht — Verzicht auf die Ba
 
 Sobald die Gemeinde entscheidet: PROJEKT-STAND.md im Projektordner und dieser Artikel
 nachführen (Ausgang direkt bestimmend für die realisierbare Baumasse).
+
+**Verifiziert 2026-08-24:** Im Projektordner (`02_Korrespondenz/02_BH_Bopp_Christoph/`) ist
+seit dem 30.06.2026 kein neuer Ordner/keine neue Datei hinzugekommen; auch PROJEKT-STAND.md
+im Projektordner trägt weiterhin den Stand vom 16.06.2026. Eine Antwort der Gemeinde
+Langnau a/A liegt JANS demnach per heutigem Datum **noch nicht vor** (kein neuer Fund, nicht
+nur keine neuere Quelle geprüft). Nächster Schritt bleibt unverändert: bei Gelegenheit
+(nächster Bopp-Kontakt) aktiv nachfragen, da die Antwort die realisierbare Baumasse direkt
+bestimmt.

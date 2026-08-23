@@ -30,7 +30,7 @@ Voranfrage ersetzt ihn **nicht**.
 der Baubehörde mit **auf drei Jahre befristeter Wirksamkeit**, die in einem förmlichen Verfahren
 ergeht und die Prüfung des späteren Baugesuchs in einem Teilumfang **rechtsverbindlich
 vorwegnimmt**. Solche Vorentscheide sind hinsichtlich grundlegender Fragen **gleich verbindlich
-wie baurechtliche Bewilligungen** (§ 324 Abs. 1 PBG). **Zweck = oekonomisch:** Klarheit über die
+wie baurechtliche Bewilligungen** (§ 324 Abs. 1 PBG). **Zweck = ökonomisch:** Klarheit über die
 Rechtslage, **bevor** mit erheblichen Kosten ein vollständiges Projekt ausgearbeitet wird
 (BEZ 2014 Nr. 34). Den **Gegenstand** bestimmt primär der Bauwillige.
 
@@ -76,7 +76,7 @@ tatsächlichen Verhältnisse** anfechten (§ 324 PBG).
 ## Die blosse Auskunft (Treu und Glauben)
 
 Behörden handeln nach **Treu und Glauben** (Art. 5 Abs. 3 BV, Art. 2 Abs. 3 KV). Eine **falsche
-Auskunft** bindet nur **ausnahmsweise** — und zwar **kumulativ** (Haefelin/Mueller/Uhlmann
+Auskunft** bindet nur **ausnahmsweise** — und zwar **kumulativ** (Häfelin/Müller/Uhlmann
 Rz. 667 ff.):
 
 1. konkrete Situation mit Bezug auf **bestimmte Personen**;

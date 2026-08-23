@@ -23,8 +23,8 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
   Nach dem **geltenden § 326 PBG** darf mit der Ausführung nur begonnen werden, wenn **(lit. a)** alle
   nötigen baurechtlichen Bewilligungen **rechtskräftig** erteilt und alle **auf den Baubeginn** gestellten
   Nebenbestimmungen erfüllt sind, **oder (lit. b)** die zuständige Behörde den **vorzeitigen Baubeginn
-  elektronisch über die Plattform** erlaubt hat (amtlicher Wortlaut; Plattform-Regime der juengeren
-  Revision). Die früher gebraeuchliche schriftliche **«Baufreigabe»** ist die **praktische Bestätigung**
+  elektronisch über die Plattform** erlaubt hat (amtlicher Wortlaut; Plattform-Regime der jüngeren
+  Revision). Die früher gebräuchliche schriftliche **«Baufreigabe»** ist die **praktische Bestätigung**
   dieses Zustands, kein eigener Wortlaut-Begriff des heutigen § 326 (Modell-D-Fassungshinweis Run 30).
   → Nebenbestimmungen: [[nebenbestimmungen-und-reverse]].
 - **Baubeginn = Aushub** (oder Abbruch, wo vorausgesetzt) mit ernsthaftem Ausführungswillen
@@ -35,14 +35,14 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 - **Vorzeitiger Baubeginn (§ 326 lit. b PBG):** ausnahmsweise, von der zuständigen Behörde
   **elektronisch über die Plattform** erlaubt (früher: schriftlich, «besondere Gründe»); die
   Bauherrschaft trägt das Risiko späterer Änderungen.
-- **Elektronische Verfahrensführung (§ 328a PBG, juengere Revision):** das baurechtliche Verfahren
+- **Elektronische Verfahrensführung (§ 328a PBG, jüngere Revision):** das baurechtliche Verfahren
   wird grundsätzlich **elektronisch über die Plattform** geführt; Akten, die sich dafür nicht
   eignen, werden physisch geführt. *(Im Buch 6. Aufl. 2019 noch nicht enthalten — Nachtrag Run 30;
   §§ 328b–328g regeln Signatur/Akteneinsicht/Mitteilung/Fristen elektronisch.)*
 
 ## 2. Meldepflichten (§ 327 Abs. 1 PBG)
 
-- **Rechtzeitig anzuzeigen:** Baubeginn, wesentliche Zwischenstaende (**Schnurgerüst, Kanalisations-
+- **Rechtzeitig anzuzeigen:** Baubeginn, wesentliche Zwischenstände (**Schnurgerüst, Kanalisations-
   grundleitungen, Rohbauvollendung, Bezugsbereitschaft**) und Bauvollendung (§ 327 Abs. 1 PBG, § 23 BVV).
 - **Gebäudeabbruch:** bewilligungspflichtig **nur in Kernzonen** (§ 309 Abs. 1 lit. c PBG), sonst nur
   **meldepflichtig**; im Lichte § 239 PBG (Sicherheit, Entsorgung Abbruchmaterial).
@@ -66,8 +66,8 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 ## 4. Bezugsbewilligung und Schlusskontrolle
 
 - **Bezugsbewilligung** (§ 327 Abs. 1 PBG, § 23 BVV): erteilt, wenn die Baute den Geboten der **Wohn-/
-  Arbeitshygiene** entspricht (§ 12a BBV II). Geprüft: **genuegende Austrocknung** (SIA-Norm 180),
-  **Benutzbarkeit Sanitaereinrichtungen** (§ 12a BBV I), **energetische Anforderungen** (§ 239 Abs. 3 PBG;
+  Arbeitshygiene** entspricht (§ 12a BBV II). Geprüft: **genügende Austrocknung** (SIA-Norm 180),
+  **Benutzbarkeit Sanitäreinrichtungen** (§ 12a BBV I), **energetische Anforderungen** (§ 239 Abs. 3 PBG;
   Formulare awel.zh.ch), **Sicherheit** Geländer/Brüstungen (SIA-Norm 358; § 239 Abs. 1 PBG).
   → Wohnhygiene-Mindestmasse: [[wohnhygiene-und-raumanforderungen]].
 - **Schlusskontrolle:** Übereinstimmung Ausführung ↔ bewilligte Pläne. **Vertrauensschutz begrenzt:**
@@ -82,10 +82,10 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
   in einem **Missverhältnis** zu Volumen/Aufgabe steht (VB.2014.00026; BEZ 2014 Nr. 46). «Längere Zeit»
   = Einzelfall, **ausser bei Arealüberbauungen: höchstens 2 Jahre** (§ 328 Abs. 1 PBG).
 - **Rechtsfolgen:** (1) zwingende **Aufforderung** zur Beendigung innert nützlicher Frist; (2) **Androhung**
-  im Saeumnisfall (§ 328 Abs. 2, amtlicher Wortlaut): **Fertigstellung durch Ersatzvornahme (lit. a)**;
+  im Säumnisfall (§ 328 Abs. 2, amtlicher Wortlaut): **Fertigstellung durch Ersatzvornahme (lit. a)**;
   **Förderung/Weiterführung der Bauarbeiten durch die Gemeinde, soweit es die Sicherheit von Personen
   und Sachen oder der Natur- und Heimatschutz erfordern (lit. b** — **nicht** «Abbruch»!); **Einebnung der
-  bereits erstellten Bauteile und Wiederherstellung des ordentlichen Gelaendestandes (lit. c)**; bei
+  bereits erstellten Bauteile und Wiederherstellung des ordentlichen Geländestandes (lit. c)**; bei
   Arealüberbauung **Dahinfallen der Bewilligung nach 2 Jahren (lit. d)**; (3) **Kostentragung durch den
   Grundeigentümer** (§ 328 **Abs. 3** PBG). Durchgesetzt wird die angedrohte Massnahme via **Ersatzvornahme
   § 30 VRG** (Dreiteilung Schuldbetreibung/Ersatzvornahme/unmittelbarer Zwang, § 30 Abs. 1 VRG
@@ -98,21 +98,21 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 ## 6. Sicherheit der Baustelle (§ 239 PBG)
 
 Bauten/Anlagen müssen nach **Fundation, Konstruktion, Material** den **anerkannten Regeln der Baukunde**
-entsprechen und dürfen Personen/Sachen nicht gefaehrden (§ 239 Abs. 1 PBG; Bewilligungsvoraussetzung,
+entsprechen und dürfen Personen/Sachen nicht gefährden (§ 239 Abs. 1 PBG; Bewilligungsvoraussetzung,
 VB.2016.00551). Behördenaufgabe im Bewilligungsverfahren (§ 3 BVV) und während der Bauarbeiten; primäre
 Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-ausfuehrung-teil2-baustellensicherheit]].
 
 - **Schutz benachbarten Grundeigentums (§ 239 Abs. 1 PBG):** Die Behörde kann zum Schutz Dritter
   eingreifen (VB.2016.00551). Bei riskanten Bauvorhaben wird vor Baubeginn ein **Rissprotokoll** des
   Nachbargebäudes aufgenommen — ein **privatrechtlicher Rechtsbehelf**; das Baurekursgericht ist dafür
-  **nicht** zuständig (BEZ 2016 Nr. 15). **Beweislast für Bauschaeden trägt der Geschaedigte** (Art. 8
+  **nicht** zuständig (BEZ 2016 Nr. 15). **Beweislast für Bauschäden trägt der Geschädigte** (Art. 8
   ZGB), Beweissicherung auf eigene Kosten; nachbarrechtliche Grundlage Art. 679/684 ZGB, Inanspruchnahme
   Nachbargrundstück §§ 229 ff. PBG (Hammerschlagsrecht → [[11-allgemeine-bestimmungen-baupolizeirecht]]).
-- **Feuerpolizei auf der Baustelle:** seit 2015 Brandschutzrichtlinie «Brandverhuetung/organisator.
+- **Feuerpolizei auf der Baustelle:** seit 2015 Brandschutzrichtlinie «Brandverhütung/organisator.
   Brandschutz» (Art. 58 BSN; VKF-BRL 12-15, Norm-Destillat
   `wissen/normen/destillate/vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz`) — Detail
   **nicht hier**, Skill `brandschutz`.
-- **Arbeitnehmerschutz:** Bundesrecht **VUV** (Unfallverhuetung) + **BauAV** (Bauarbeiten); Asbestsanierung
+- **Arbeitnehmerschutz:** Bundesrecht **VUV** (Unfallverhütung) + **BauAV** (Bauarbeiten); Asbestsanierung
   nur durch anerkannte Spezialfirmen mit **SUVA-Meldung** (Art. 60a/60b BauAV). Vollzug SUVA/kant.
   Arbeitsinspektorat, nicht die Baubehörde.
 - **Baustellenentsorgung:** **Entsorgungskonzept** einzureichen ab voraussichtlich **> 200 m³ Bauabfällen**
@@ -138,7 +138,7 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
 ## JANS-Bezug
 
 - Bauleitung: Baufreigabe vor Aushub einplanen (→ `unternehmerkontrolle`, `kostenkontrolle`); die «vor
-  Baubeginn» faelligen Auflagen sind die auf den Baubeginn gestellten **Nebenbestimmungen nach § 321 PBG**,
+  Baubeginn» fälligen Auflagen sind die auf den Baubeginn gestellten **Nebenbestimmungen nach § 321 PBG**,
   deren Erfüllung § 326 lit. a PBG zur Voraussetzung des Baubeginns macht — ihre rechtliche Qualifikation
   führt die [[nebenbestimmungen-und-reverse]]-Linie, die operative Abarbeitung der Skill
   `auflagebereinigung`; die Frist-Zuteilung (vor Baubeginn/Arbeitsvergabe/Inbetriebnahme) führt der

@@ -1,23 +1,23 @@
 # CHANGELOG — KB Spec (neueste zuoberst)
 
-## 2026-08-24 — Trainingslauf 39 (Verifikationslauf): F-ENV1 exemplarisch geloest
-- **Kein neuer realer Fall seit Lauf 38 (30.07., Korpus-Spec `bauprodukte`):** ueber alle
-  `*_spec.md` im Hub geprueft, juengstes Datum unveraendert 28.07. Legitimer Verifikationslauf
+## 2026-08-24 — Trainingslauf 39 (Verifikationslauf): F-ENV1 exemplarisch gelöst
+- **Kein neuer realer Fall seit Lauf 38 (30.07., Korpus-Spec `bauprodukte`):** über alle
+  `*_spec.md` im Hub geprüft, jüngstes Datum unverändert 28.07. Legitimer Verifikationslauf
   ohne erfundenes Refinement.
-- **F-ENV1 geloest, exemplarisch am eigenen Artikel:** die seit Run 20 (29.07.) offene
-  Bring-Schuld «Zaehlstand-Nachfuehrung» ist eingeloest. `wiki/environment-jans-hub.md` traegt
-  jetzt einen datierten Nachmessungs-Abschnitt mit fuenf Kennzahlen (Skills 51, KBs 20,
+- **F-ENV1 gelöst, exemplarisch am eigenen Artikel:** die seit Run 20 (29.07.) offene
+  Bring-Schuld «Zählstand-Nachführung» ist eingelöst. `wiki/environment-jans-hub.md` trägt
+  jetzt einen datierten Nachmessungs-Abschnitt mit fünf Kennzahlen (Skills 51, KBs 20,
   Rule-Dateien 29 davon 24 @-importiert, CLAUDE.md 19'014 B) **plus dem exakten, reproduzierbaren
-  Befehl je Kennzahl** statt einer eingefrorenen Zahl. Alle fuenf Werte sind seit der letzten
-  Korrektur (29.07.) gewachsen — belegt die F-ENV1-These direkt am eigenen Text. Aeltere
-  Zaehlstand-Absaetze bleiben als datierter historischer Beleg stehen, gelten aber nicht mehr
+  Befehl je Kennzahl** statt einer eingefrorenen Zahl. Alle fünf Werte sind seit der letzten
+  Korrektur (29.07.) gewachsen — belegt die F-ENV1-These direkt am eigenen Text. Ältere
+  Zählstand-Absätze bleiben als datierter historischer Beleg stehen, gelten aber nicht mehr
   als Ist-Stand.
-- **Reue-Checks ohne neuen Fund:** F1 (Ueberdehnungs-Gegentest) weiterhin unbelegt; F3
-  (Marketing/Text als letzte offene Verifier-Domaene) weiterhin kein realer Fall trotz gezielter
+- **Reue-Checks ohne neuen Fund:** F1 (Überdehnungs-Gegentest) weiterhin unbelegt; F3
+  (Marketing/Text als letzte offene Verifier-Domäne) weiterhin kein realer Fall trotz gezielter
   Suche; SYN-02-Codeseite laut `wissen/koordination/SYNERGIE-REGISTER.md` (Stand 13.08.2026)
-  unveraendert offen, Mandat beim Synergie-Orchestrator.
-- Geaendert: `wiki/environment-jans-hub.md`, `wiki/QUESTIONS.md` (F-ENV1 geloest, F1 + F3
-  Reue-Check-Stand ergaenzt). Bericht: `outputs/2026-08-24_training-run39.md`.
+  unverändert offen, Mandat beim Synergie-Orchestrator.
+- Geändert: `wiki/environment-jans-hub.md`, `wiki/QUESTIONS.md` (F-ENV1 gelöst, F1 + F3
+  Reue-Check-Stand ergänzt). Bericht: `outputs/2026-08-24_training-run39.md`.
 
 ## 2026-08-03 (Wissenscheck, Sammellauf Phase 1) — A0 · B0 · C0 · D0 · E0 · F1 · G2
 

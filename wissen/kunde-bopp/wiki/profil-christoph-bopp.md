@@ -1,9 +1,9 @@
 ---
 title: Profil Christoph Bopp
 status: emerging
-last_updated: 2026-07-21
-sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), moneyhouse.ch Personensuche, northdata.com Feag Facility Engineering AG UID CHE-108.531.313, Stand 2026-07-21]
-links: [[auftrags-muster-bopp]], [[zusammenarbeit-lessons-bopp]]
+last_updated: 2026-08-24
+sources: [Apple-Mail-Archiv 25 Mails 2025-06 bis 2026-06, christoph.bopp@woma-maur.ch, christoph.bopp@novaproperty.ch, christoph.bopp@bluewin.ch, Zefix/Handelsregister ZH (woma-maur.ch/organisation.php, novaproperty.ch/en/team/christoph-bopp, zh.chregister.ch UID CHE-403.795.970), moneyhouse.ch Personensuche, northdata.com Feag Facility Engineering AG UID CHE-108.531.313, Stand 2026-07-21, Projektordner 2412 Ebmatingen und 2513 BAAR (Dateisystem-Verifikation 2026-08-24)]
+links: [[projekt-giebelweg12]], [[auftrags-muster-bopp]] (geplant), [[zusammenarbeit-lessons-bopp]] (geplant)
 ---
 
 # Profil Christoph Bopp
@@ -48,10 +48,13 @@ als weitere Organe. Quelle: `outputs/2026-07-21_drittes-kmu-mandat.md`.
 Siehe [[auftrags-muster-bopp]]. Drei wiederkehrende Cluster:
 
 1. **Stockwerkeigentum (STWEG)** — Begründung, Wertquoten, Aufteilungsplan, Reglement →
-   Skill `stockwerkeigentum`. Sein **häufigstes** Thema (Ebmatingen 113/115 mit
-   Notariatstermin 15.12.2025; Romanshorn Hafenstrasse 46).
+   Skill `stockwerkeigentum`. Sein **häufigstes** Thema (Ebmatingen 113/115: Notariatstermin
+   15.12.2025, Schlusslieferung Teilungspläne + Wertquotenberechnung beider Liegenschaften
+   18.12.2025, verifiziert 24.08.2026; Romanshorn Hafenstrasse 46).
 2. **Technische Due Diligence / Ankaufsprüfung (TDD)** — Liegenschaft vor Kauf beurteilen →
-   Skill `ankaufspruefung` (Baar Zugerstrasse 49, Hochhaus, Ankaufsprüfung 06/2025).
+   Skill `ankaufspruefung` (Baar Zugerstrasse 49, Hochhaus, Ankaufsprüfung 06/2025, letztes
+   Dokument im Projektordner die Honorarschlussrechnung vom 08.07.2025 — der Kaufentscheid
+   selbst ist im JANS-Ordner nicht dokumentiert, siehe [[QUESTIONS]]).
 3. **Machbarkeits-/Potenzialstudie** — Baurecht + Volumen + Wirtschaftlichkeit →
    Skill `machbarkeit` (Giebelweg 12 Langnau Revision BZO/Baulinie 06/2026; WALD Pflegeheim,
    Regensdorf Verdichtung).
@@ -61,18 +64,19 @@ Siehe [[auftrags-muster-bopp]]. Drei wiederkehrende Cluster:
 | Projekt | Rolle/Eigentümerschaft | Studientyp / Leistung | Skill |
 |---|---|---|---|
 | 2306 WOMA Maur | BH Bopp / WOMA | Machbarkeitsstudie + Residualwert + Regelgrundriss | `machbarkeit` (Typ A+B) |
-| 2412 Ebmatingen (Zürichstr. 113/115, Im Grossacher 2) | WOMA / Bopp | Potenzialstudie + Marktwert/Residualwert + Ankaufsprüfung; danach STWEG | `machbarkeit`, `stockwerkeigentum` |
-| 2513 Baar (Zugerstrasse 49) | Nova Property | TDD/Zustandsanalyse Hochhaus (HLSE-Restnutzungsdauer, Brandschutz) | `ankaufspruefung` (Typ C) |
+| 2412 Ebmatingen (Zürichstr. 113/115, Im Grossacher 2) | WOMA / Bopp | Potenzialstudie + Marktwert/Residualwert + Ankaufsprüfung; danach STWEG, Schlusslieferung 18.12.2025 | `machbarkeit`, `stockwerkeigentum` |
+| 2513 Baar (Zugerstrasse 49) | Nova Property | TDD/Zustandsanalyse Hochhaus (HLSE-Restnutzungsdauer, Brandschutz), letzte Aktivität im Ordner 08.07.2025 | `ankaufspruefung` (Typ C) |
 | 2407 Regensdorf (Holenbachstr. 45–55) | BH Bopp | Verdichtungs-/Baumassenreserve-Studie (Villa-Parzelle 8'995 m²) | `machbarkeit` (Typ A) |
 | 2410 WALD (Grünegg, Haselstudstr. 12) | Nova Property Fund (SenioResidenz/Tertianum) | Healthcare-Machbarkeit Pflegeheim + Investitionskosten + Rentabilität | `machbarkeit` (Typ A+B), Healthcare |
 
 → Bopp/Nova ist der **wichtigste Studien-Kunde** von JANS (5 von 16 Archiv-Studien). Nova
 Property Fund Management AG ist auch die Bauherrschaft des Bauleitungs-Projekts 2620 Albertstrasse
-(Memory [[project_2620_bauherrschaft]]).
+(siehe Memory `project_2620_bauherrschaft`, kein Wiki-Artikel).
 
-## Aktuell offen (Stand 2026-06-03)
+## Laufende Projekte
 
-- **Giebelweg 12, 8135 Langnau a/A** — Auftrag erteilt (Pauschale CHF 1'000): strategische
-  Machbarkeit, wieviel kleiner die mögliche Baute durch die angepassten Baulinien ausfällt;
-  Dienstbarkeit gegenüber Nachbarparzelle 3339 zu berücksichtigen. Besichtigung gewünscht
-  (Randzeit). → Skill `machbarkeit`, Agent `dienstbarkeiten-pruefer` für das Servitut.
+Siehe [[projekt-giebelweg12]] für den aktuellen Stand (Machbarkeit gelöst, Baulinien-Einwendung
+bei der Gemeinde hängig, Stand 24.08.2026). Der frühere Abschnitt «Aktuell offen (Stand
+2026-06-03)» beschrieb den Auftrag noch im Erstauftrags-Stadium und ist durch den Projekt-
+Detailartikel überholt (bereinigt 2026-08-24, siehe `outputs/2026-08-19_health-check.md`
+Audit A).

@@ -55,7 +55,7 @@ zwischen **Fassade** und **massgebender Grenzlinie** (§ 260 Abs. 1 PBG). Detail
   selbständige Fassadenteile, **< 2G** = unbeachtlich (§ 24 Abs. 2 ABV; BEZ 2002 Nr. 6).
   **Vorentwurf (noch KEINE Rechtswirkung):** die Revision «Erleichtertes Bauen im Bestand»
   sieht die **ersatzlose Aufhebung** von §§ 21 Abs. 2/23/24 ABV vor (Mehrlängenzuschlag
-  entfaellt); Verfahrensstand 24.07.2026 noch ohne Kantonsratsvorlage — geltendes Recht wie
+  entfällt); Verfahrensstand 24.07.2026 noch ohne Kantonsratsvorlage — geltendes Recht wie
   oben bleibt bis Inkrafttreten massgebend. Details: KB `planungsgrundlagen`,
   `wiki/recht-norm-pbg-revision-bauen-im-bestand.md`; Cross-KB-Befund Wissens-Chef Run 15
   (25.07.2026) damit geschlossen.

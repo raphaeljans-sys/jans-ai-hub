@@ -3,6 +3,49 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (dritter Lauf desselben Tages) — needs-verification zu UVG Art. 68/69 und MWSTG Art. 66 vollständig aufgelöst
+- **Auftrag:** Pflegelauf gegen den Stand der Raphael Jans AG; die beiden vom Lauf um
+  17:19 offen gelassenen needs-verification-Punkte in [[nachgruendung-anmeldungen]]
+  abarbeiten (UVG Art. 68 Wortlaut, MWSTG Art. 66 Wortlaut), da der Fedlex-Filestore-
+  Zugriff dort beide Male an der Dokumentlänge scheiterte. Eigener, unabhängiger
+  Prozess (eigener Lauf-Name) — keine Fortsetzung des 17:19-Laufs.
+- **Ausweichweg gefunden:** Die `www.fedlex.admin.ch`-HTML-Filestore-Route liefert für
+  UVG (SR 832.20) und MWSTG (SR 641.20) bei jedem Konsolidierungsdatum nur die
+  77'151-Byte-JavaScript-App-Hülle, kein Text (bestätigt per `curl`, mehrere
+  User-Agents/Header ohne Wirkung). Die vollen ELI wurden per WebSearch ermittelt
+  (UVG `eli/cc/1982/1676_1676_1676`, MWSTG `eli/cc/2009/615`); über
+  `fedlex.data.admin.ch` (ohne `www`) mit `de/pdf-a`-Suffix liefern beide echte PDFs
+  (UVG Konsolidierung 20260101, MWSTG 20250101 — bei MWSTG waren 20250401/20250701/
+  20251001/20260101 allesamt ungültige Kandidaten, App-Hülle statt PDF). Text lokal mit
+  `pypdf` (venv `/tmp/pdfvenv`, kein Systemeingriff) extrahiert, da WebFetch bei diesen
+  langen Konsolidierungen die KI-Zusammenfassung vor dem Zielartikel abbricht (derselbe
+  Fehlertyp wie im Nachtrag 23.08.2026 zu `docs/referenz/fedlex-volltexte.md`, dort für
+  andere Erlasse bereits als PDF-Route dokumentiert — hier zusätzlich die
+  lokale-Extraktion-statt-WebFetch-Lehre ergänzt).
+- **Zwei inhaltliche Befunde:** (1) **Korrektur:** Die freie Wahl des
+  Unfallversicherers steht nicht in Art. 68 UVG (der nur regelt, WER als Versicherer
+  zugelassen ist plus dessen Registerpflicht), sondern in **Art. 69 UVG** («Wahl des
+  Versicherers»). Artikel entsprechend präzisiert. (2) **Bestätigung:** Art. 66 Abs. 1
+  MWSTG trägt wörtlich die 30-Tage-Frist «unaufgefordert innert 30 Tagen nach Beginn
+  ihrer Steuerpflicht» — die bisherige Darstellung war korrekt, jetzt mit Zitat belegt.
+  **Zusätzlich geklärt:** das UVG nennt für den Vertragsschluss mit einem
+  Nicht-Suva-Versicherer keine gesetzliche Frist; Auffangnorm ist Art. 59 Abs. 3 UVG
+  (Ersatzkasse). Die bisherige Praxis-Empfehlung «vor dem ersten Arbeitstag» bleibt
+  richtig, ist aber Sorgfaltspraxis, keine Normfrist.
+- **Register:** `wiki/nachgruendung-anmeldungen.md` (Frontmatter + UVG-Abschnitt +
+  Reihenfolge- und MWST-Abschnitt), `wiki/QUESTIONS.md` (needs-verification-Punkt
+  entfernt, neuer Archiv-Eintrag), `wiki/INDEX.md` (Artikel- und Statistikzeile). `git
+  diff --numstat` nach jedem Schreibvorgang geprüft: `nachgruendung-anmeldungen.md`
+  +30/-16, `QUESTIONS.md` +28/-5, `INDEX.md` +6/-5 — keine unbeabsichtigte Löschung.
+  Kein neuer Artikel, kein Fan-out, kein commit/push (Auftrag ausdrücklich ohne).
+- **Damit sind in [[nachgruendung-anmeldungen]] keine needs-verification-Punkte mehr
+  offen.** Verbleibender needs-verification-Punkt der ganzen KB: nur noch
+  Beratungs-/Notarkosten (kein amtlicher Tarif). Die Coverage-Lücke 1e-/Kaderplan bleibt
+  offen, weil sie den tatsächlichen HR-Eintrag der Raphael Jans AG voraussetzt — Stand
+  laut `logbuch/fristen.md` unverändert 14.08.2026 (AG noch nicht eingetragen, der
+  automatisierte `ag-gruendung-monitor` seit ca. 19.08.2026 ausgefallen); kein neuerer
+  Stand im Register gefunden. Nichts geraten, nichts übernommen ohne Beleg.
+
 ## 2026-08-23 (zweiter Lauf, 17:19) — Fedlex-Gegenprobe auf [[nachgruendung-anmeldungen]]: zwei Fristen korrigiert
 - **Auftrag:** identisch zum Lauf von 17:05 desselben Tages (paralleler Prozess,
   `scripts/claude-run.sh --name vollschub1`) — Verfahrensschritte/Fristen/

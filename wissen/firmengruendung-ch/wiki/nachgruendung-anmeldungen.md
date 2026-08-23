@@ -1,7 +1,7 @@
 ---
 title: Nach der Gründung — Pflicht-Anmeldungen (AHV, BVG, UVG, MWST)
 status: established (keine needs-verification mehr bei den Fristen/Artikelnummern —
-  UVG Art. 68/69 und MWSTG Art. 66 am 23.08.2026 zweiter Lauf per PDF-Volltext
+  UVG Art. 68/69 und MWSTG Art. 66 am 23.08.2026 dritter Lauf per PDF-Volltext
   nachgeprüft, siehe Vermerk unten. Offen bleiben nur die Marktrichtwerte
   Beratungs-/Notarkosten, siehe [[QUESTIONS]])
 last_updated: 2026-08-23
@@ -13,7 +13,7 @@ sources: ["Art. 5/12 AHVG", "Art. 66 AHVV", "Art. 2/11 BVG", "Art. 1a/59/66/68/6
   UVG, Art. 10 MWSTG am Fedlex-Filestore-Volltext direkt verifiziert (Konsolidierungen
   AHVG 01.01.2026 · BVG 01.01.2025 · UVG 01.01.2026 · MWSTG 01.01.2025, Rule
   `auto-verbesserungen.md` 260721, Prüflauf 23.08.2026); Art. 68/69 UVG (Konsolidierung
-  01.01.2026) und Art. 66 MWSTG (Konsolidierung 01.01.2025) am 23.08.2026 (zweiter Lauf)
+  01.01.2026) und Art. 66 MWSTG (Konsolidierung 01.01.2025) am 23.08.2026 (dritter Lauf)
   per direktem PDF-Download ab `fedlex.data.admin.ch/filestore/.../de/pdf-a/...`
   wörtlich gegengelesen (Ausweichweg zur HTML-Filestore-Route, die bei diesen beiden
   Erlassen die App-Hülle statt Text lieferte — Workaround analog
@@ -97,7 +97,7 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
   Versicherungsunternehmen nach VAG, einer öffentlichen Unfallversicherungskasse oder
   einer Krankenkasse mit UVG-Zulassung versichert werden; diese Versicherer müssen
   sich zusätzlich in ein öffentliches Register beim Bundesamt für Gesundheit eintragen
-  (Art. 68 Abs. 2 UVG). ⚠ **Präzisiert 23.08.2026 (zweiter Lauf):** Die eigentliche
+  (Art. 68 Abs. 2 UVG). ⚠ **Präzisiert 23.08.2026 (dritter Lauf):** Die eigentliche
   **Wahlnorm** steht nicht in Art. 68, sondern im unmittelbar folgenden **Art. 69 UVG**
   («Wahl des Versicherers»): «Der Arbeitgeber sorgt dafür, dass seine Arbeitnehmer bei
   einem Versicherer nach Artikel 68 versichert sind. Die Arbeitnehmer haben bei der
@@ -120,15 +120,23 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
 - **JANS-Bezug:** Als Bürobetrieb (Architektur/Planung) fällt die Raphael Jans AG nicht
   unter die in Art. 66 UVG genannten Suva-pflichtigen Betriebsarten (u.a. industrielle
   Betriebe nach Art. 5 Arbeitsgesetz, Bau- und Installationsgewerbe, Forstbetriebe,
-  Verkehrs-/Transportbetriebe) — freie Wahl eines anderen zugelassenen Versicherers
-  oder einer Kasse (Art. 58/59 Abs. 2 UVG), meist gebündelt mit der
-  Krankentaggeldversicherung beim selben Anbieter offeriert. **needs-verification:**
-  Für den genauen spätesten Zeitpunkt vor dem ersten Stellenantritt, bis zu dem dieser
-  Vertrag abgeschlossen sein muss, hat dieser Lauf keine explizite UVG-Fristnorm
-  gefunden — der einschlägige Abschnitt zur freien Versichererwahl liegt im
-  UVG-Volltext hinter Art. 66 und liess sich über den Fedlex-Filestore wegen der
-  Dokumentlänge nicht mehr vollständig auslesen (23.08.2026). Praktisch empfiehlt sich
-  der Vertragsschluss in jedem Fall vor dem ersten effektiven Arbeitstag.
+  Verkehrs-/Transportbetriebe) — freie Wahl eines nach Art. 68 UVG zugelassenen
+  Versicherers oder einer Kasse (Art. 69 UVG), meist gebündelt mit der
+  Krankentaggeldversicherung beim selben Anbieter offeriert.
+- **Kein gesetzliches Fristdatum für den Vertragsschluss (geklärt 23.08.2026, dritter
+  Lauf):** Das UVG selbst nennt für Betriebe ausserhalb der Suva-Pflicht **keine**
+  Anmelde- oder Abschlussfrist. Art. 59 Abs. 2 UVG hält nur fest, dass das
+  Versicherungsverhältnis bei den «andern Versicherern» durch **Vertrag** zwischen
+  Arbeitgeber und Versicherer oder durch Kassenzugehörigkeit begründet wird — ohne
+  Datumsangabe. Die einzige Auffangregel im Gesetz ist Art. 59 Abs. 3 UVG: Ist ein dem
+  Obligatorium unterstehender Arbeitnehmer im Unfallzeitpunkt **nicht** versichert (weil
+  noch kein Vertrag geschlossen wurde), erbringt die **Ersatzkasse** die gesetzlichen
+  Leistungen an den Geschädigten — das schützt den Arbeitnehmer, entlastet den
+  Arbeitgeber aber nicht von einer nachträglichen Prämien- bzw. Regressforderung. Die
+  bisherige Praxis-Empfehlung «Vertragsschluss vor dem ersten effektiven Arbeitstag»
+  bleibt damit richtig, ist aber **Sorgfaltspraxis, keine Fristnorm** — dieser Punkt ist
+  jetzt geklärt und nicht mehr needs-verification. (Art. 59, 68, 69 UVG wörtlich am
+  Fedlex-PDF-Volltext, Konsolidierung 01.01.2026, gelesen.)
 
 ## 4. MWST-Registrierung (ESTV)
 
@@ -140,10 +148,16 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
   innerhalb der folgenden 12 Monate erreicht wird (Art. 10 Abs. 2 Bst. a i.V.m.
   Abs. 1 MWSTG) — Grundlage ist eine plausible Umsatzschätzung im Gründungszeitpunkt,
   keine abgewartete Ist-Zahl.
-- **Anmeldefrist:** 30 Tage ab Erreichen bzw. absehbarem Erreichen der Schwelle;
-  bei absehbarem Überschreiten schon bei Gründung **30 Tage ab Gründungsdatum**
-  (Art. 66 MWSTG, Anmeldepflicht). Anmeldung online bei der ESTV (Fragebogen zur
-  Feststellung der Steuerpflicht), MWST-Nummer wird darauf zugeteilt.
+- **Anmeldefrist:** Art. 66 Abs. 1 MWSTG wörtlich (Fedlex-PDF-Volltext, Konsolidierung
+  01.01.2025, gelesen 23.08.2026, dritter Lauf): «Personen, die nach Artikel 10
+  steuerpflichtig werden, haben sich unaufgefordert innert 30 Tagen nach Beginn ihrer
+  Steuerpflicht bei der ESTV schriftlich anzumelden.» Massgebend ist also der **Beginn
+  der Steuerpflicht** nach Art. 10 MWSTG, nicht das Gründungsdatum als solches — bei
+  absehbarem Überschreiten der Umsatzschwelle bereits zum Zeitpunkt der
+  Geschäftsaufnahme fallen beide Zeitpunkte in der Praxis zusammen (Gründung =
+  Aufnahme der unternehmerischen Tätigkeit), sodass die 30 Tage faktisch ab
+  Gründungsdatum laufen. Anmeldung online bei der ESTV (Fragebogen zur Feststellung
+  der Steuerpflicht), MWST-Nummer wird darauf zugeteilt.
 - **Freiwillige Unterstellung:** Auch unterhalb der Schwelle kann sich ein
   unternehmerisch tätiger Rechtsträger freiwillig registrieren lassen (frühestens
   auf Beginn einer laufenden Steuerperiode) — z.B. um Vorsteuer auf
@@ -155,9 +169,9 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
 1. **Sofort nach HR-Eintrag:** MWST-Einschätzung vornehmen (Umsatzprognose) und bei
    absehbarem Überschreiten innert 30 Tagen bei der ESTV anmelden.
 2. **Vor der ersten Lohnzahlung:** UVG-Versicherer wählen und Vertrag abschliessen
-   (spätestens vor dem ersten effektiven Arbeitstag, siehe needs-verification oben zum
-   genauen Fristmass), BVG-Vorsorgeeinrichtung aktiv anschliessen (nicht erst auf die
-   2-Monats-Ultimatumsfrist der Ausgleichskasse warten).
+   (spätestens vor dem ersten effektiven Arbeitstag als Sorgfaltspraxis — das UVG selbst
+   nennt hierfür keine Frist, siehe Abschnitt 3 oben), BVG-Vorsorgeeinrichtung aktiv
+   anschliessen (nicht erst auf die 2-Monats-Ultimatumsfrist der Ausgleichskasse warten).
 3. **Parallel/reaktiv:** AHV-Ausgleichskasse meldet sich nach SHAB-Publikation von
    sich aus — Fragebogen zeitnah zurücksenden, bei Ausbleiben proaktiv nachfragen.
 4. **Ergänzend, nicht Teil dieses Artikels:** Betriebs-/Berufshaftpflichtversicherung

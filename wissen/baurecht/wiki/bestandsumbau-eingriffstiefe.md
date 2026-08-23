@@ -43,7 +43,7 @@ reinen Planungsaufwand):
   klassen, Ausgabe und Fassungsstand ist nach der Führungs-Matrix die KB `wissen/normen`
   (Rule `normen-referenz`): vor jeder Verwendung in einer Stellungnahme dort die geltende
   Fassung und die Zuordnung zur Gebäudegeometrie holen — dieser Artikel schreibt den
-  VKF-Wortlaut bewusst nicht fort. Der Wert oben ist die baurechtliche Merkgroesse, nicht die
+  VKF-Wortlaut bewusst nicht fort. Der Wert oben ist die baurechtliche Merkgrösse, nicht die
   Fundstelle.
 - **Schallschutz / Akustik (SIA 181):** Zwischen getrennten Wohneinheiten gelten erhöhte
   Anforderungen an Luft- und Trittschall (Trenndecken, Trennwände); Altbau erfüllt diese
