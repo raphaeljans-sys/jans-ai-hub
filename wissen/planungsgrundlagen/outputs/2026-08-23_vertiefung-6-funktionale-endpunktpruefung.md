@@ -46,6 +46,14 @@ die richtige Parzelle trifft.
 **Korrektur:** `geo-zh.mjs`, Funktion `bauzonenMap`, eine Zeile, mit Belegkommentar. Vorher/Nachher
 am selben Connector-Aufruf gemessen: `4 KB, 100 % transparent` → **`28 KB`, 51.8 % Zonenfläche**.
 
+**Ist der leere Platzhalter in ein reales Erzeugnis gelangt?** Der Connector legt die Kachel als
+`Bauzonen-CH_<BFS>_<Parzelle>_<JJJJ-MM-TT>.png` ab. Eine Spotlight-Suche über die indexierten
+lokalen Ablagen (inkl. der synchronisierten OneDrive-/SharePoint-Bibliotheken) findet **keine
+einzige Datei dieses Musters** — das Produkt wurde offenbar nur in Benchmarks benutzt, nicht in
+einem ausgelieferten Dossier. Ein vollständiger Durchlauf über den NAS-Baum lief über SMB in der
+Laufzeit nicht zu Ende und ist **nicht abgeschlossen**; die Aussage stützt sich deshalb auf den
+Spotlight-Index, nicht auf eine erschöpfende Suche.
+
 ## 2 · Berichtigt — «Achsen unkritisch, weil quadratische BBOX» ist falsch
 
 In `kartenportale-zonenplan-zh.md` stand zum ZH-OGD-WFS, die Achsenreihenfolge sei unkritisch, weil
