@@ -805,7 +805,32 @@ Vorbehalte (BSE 108-15, BRL 10-15), der auf `established`-Destillate aus `normen
   Unterschutzstellung bevorzugt, Gemeinden bleiben zuständig. **LSV-Novelle:** USG und LSV per
   **01.04.2026** geändert (bauen-im-laerm.ch), inhaltliche Details noch offen → beide in
   [[recht-norm-quellenlandkarte]] neue Abschnitte. **Offen:** Kantonsratsbeschluss Denkmalschutz-
-  Vorlage verfolgen; LSV-Novelle-Details bei realem Fall vertiefen.
+  Vorlage verfolgen. — ✓ **LSV-Novelle-Details geschlossen 23.08.2026 (Vertiefungslauf 2 Revendo),
+  nicht erst bei einem realen Fall:** an der amtlichen UVEK-Quelle «Erläuterungen zur Revision der
+  Lärmschutz-Verordnung (LSV; SR 814.41)», 25.02.2026, 21 S., im Volltext gelesen. Betroffen sind
+  die LSV-Artikel **29, 30, 31, 31a, 1, 32, 34, 39, 41**. Kernpunkte, die die bisherige
+  WebSearch-Zusammenfassung nicht hatte: **Art. 31a (Fluglärm) und Art. 30 (Erschliessung) sind
+  AUFGEHOBEN** — für die Flughafenregion Zürich unmittelbar relevant; **Ausnahmequote maximal
+  10 %** der Wohneinheiten grosser Wohnüberbauungen (eine pro zehn), nur mit Zustimmung einer
+  kantonalen Behörde; **Verhältnismässigkeitsschwelle für verschärften baulichen Mindestschutz =
+  1 % der Gebäudekosten nach BKP (SN 506 500)**; **neue Nachweispflicht im Baugesuch** (Art. 34
+  Abs. 1 lit. a — die geprüften Massnahmen sind aufzuzeigen); **Ermittlungsort privat nutzbarer
+  Aussenraum 1.5 m über Boden**, und der **IGW gilt auf der GESAMTEN Fläche** dieses Aussenraums
+  (kein ruhiger Eckpunkt mehr — schlägt auf Balkontiefe und Grundriss durch); KWL-Stand der Technik
+  normativ hinterlegt (**SIA 382/1:2025 Tab. 18 / 382/5:2021 · SIA 180:2014 Fig. 4 · SIA 380/2:2022
+  Ziff. 3.2.4 · SIA 181:2020 Tab. 2**) samt drei Warnungen der Quelle (Luftdurchlässe schwächen die
+  Hüllen-Schalldämmung · Anlagengeräusche · **KWL ist nicht für Nachtauskühlung ausgelegt**). Für die
+  Nutzungsplanung neu konkretisiert: Freiraum-Erreichbarkeit **ca. 300-500 m, hindernisfrei**, keine
+  Mindestgrösse einzelner Freiräume (Vernetzung zählt, SIA-Merkblatt 2066), und die akustische
+  Wohnqualität als **Verbesserung gegenüber dem Status quo** mit Begründungspflicht für nicht
+  umgesetzte Massnahmen. Voll eingearbeitet in [[recht-norm-quellenlandkarte]], Abschnitt
+  «LSV-Novelle 01.04.2026 — Details geschlossen an der Primärquelle».
+  **Rest offen (klein):** der **amtliche Verordnungswortlaut** ist nicht gegengelesen — fedlex ist
+  eine JS-Anwendung ohne Rohabruf des Artikeltexts, der `admin.ch/opc`-Spiegel antwortet 403; die
+  Erläuterungen sind die amtliche Begründung, nicht der Normtext. Bei einem realen Fall gegenlesen.
+  Ebenfalls offen: die beiden Fachberichte hinter der Revision (OST/IRAP «Bauzonen in lärmbelasteten
+  Gebieten», Krass et al. 2025; FHNW/INEB «Auslegeordnung KWL in lärmbelasteten Gebieten», Hall
+  2025) sind **nicht beschafft**.
 - [x] **R9** Tiefgarage-/Parkierungserschliessung (VSS 640 050/281/291a) als beschaffbare
   Planungsgrundlage — Rampenneigung, Parkfeld-/Fahrgassenmasse, Wendehammer. ✓ **2026-07-13
   (Run 21):** NEU [[recht-norm-tiefgarage-erschliessung]] — Zufahrtstyp A/B/C (VSS 640 050),

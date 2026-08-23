@@ -2,6 +2,63 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 2 Revendo) — LSV-Novelle 01.04.2026 an der Primärquelle vertieft, offener Punkt geschlossen
+
+Zweite Runde. Angesetzt am einzigen inhaltlichen Punkt, der ohne neues Projektmaterial und ohne
+Raphaels Zutun schliessbar war: die **LSV-Novelle per 01.04.2026** stand seit Run 23 (13.07.2026)
+mit «inhaltliche Details noch offen». Geschlossen an der amtlichen **«Erläuterungen zur Revision
+der Lärmschutz-Verordnung (LSV; SR 814.41)»**, UVEK, 25.02.2026, **21 Seiten, Volltext gelesen**
+(bisher stützte sich die KB auf eine WebSearch).
+
+**Rahmen:** das Parlament beschloss die USG-Änderung am 27.09.2024; sie trat grösstenteils am
+01.04.2025 in Kraft — **ausser Art. 22 und 24 revUSG**, die bewusst zurückgestellt wurden, um
+gleichzeitig mit den Verordnungsbestimmungen zu greifen. Genau das ist am 01.04.2026 geschehen.
+Betroffen: **LSV-Artikel 29, 30, 31, 31a sowie 1, 32, 34, 39, 41**.
+
+**Was die bisherige Zusammenfassung nicht hatte:**
+- **Art. 31a LSV (Fluglärm) und Art. 30 LSV (Erschliessung) sind AUFGEHOBEN.** Baubewilligungen
+  bei Fluglärm laufen künftig über Art. 22 Abs. 2 revUSG — **für die Flughafenregion Zürich
+  unmittelbar relevant**; wer noch mit Art. 31a argumentiert, argumentiert mit aufgehobenem Recht.
+  Die Aufhebung von Art. 30 lässt die Sanierungspflicht unberührt (Art. 13 Abs. 4 LSV gilt weiter).
+- **Ausnahmequote maximal 10 %** der Wohneinheiten grosser Wohnüberbauungen (eine pro zehn), nur
+  bei überwiegendem Interesse **und mit Zustimmung einer kantonalen Behörde** (Art. 31 Abs. 2 neu).
+- **Verhältnismässigkeitsschwelle für den verschärften baulichen Mindestschutz: 1 % der
+  Gebäudekosten**, ermittelt **nach Baukostenplan BKP (SN 506 500, CRB)** — ein rechnerischer
+  Schwellenwert, direkt an die BKP-Systematik und damit an `wissen/grobkosten` anschlussfähig
+  (Art. 32 Abs. 2).
+- **Neue Nachweispflicht im Baugesuch:** die Bauherrschaft muss die nach Art. 31 Abs. 1 geprüften
+  Massnahmen **aufzeigen** — es genügt nicht, sie umzusetzen (Art. 34 Abs. 1 lit. a).
+- **Privat nutzbarer Aussenraum:** Ermittlungsort **1.5 m über Boden** (Art. 39 Abs. 4 neu), und
+  der **IGW gilt auf der GESAMTEN Fläche** (Art. 41 Abs. 2bis neu) — **kein ruhiger Eckpunkt mehr**,
+  das schlägt direkt auf Balkontiefe, Brüstung und Grundriss durch.
+- **KWL-Erleichterung gilt nur für Neubauten oder die wesentliche Änderung** bestehender
+  Wohnbauten (Art. 31 Abs. 1bis neu), und der «Stand der Technik» ist normativ hinterlegt:
+  **SIA 382/1:2025 Tab. 18 (IDA 2) bzw. SIA 382/5:2021 Ziff. 5.2.4 · SIA 180:2014 Fig. 4 ·
+  SIA 380/2:2022 Ziff. 3.2.4 · SIA 181:2020 Tab. 2**, ergänzt um das Produktreglement
+  Gebäudestandards Minergie.
+- **Drei Warnungen aus derselben Quelle**, die beim Verkauf der KWL-Lösung mitgehören:
+  Luftdurchlässe bei Fenstern oder Fassade **schwächen die Schalldämmung der Hülle**; die Anlagen
+  können **selbst stören**; **KWL ist grundsätzlich nicht für die Nachtauskühlung ausgelegt**, und
+  Einzelraum-Klimageräte sind ausdrücklich unerwünscht. Die Erleichterung ist kein Freipass — sie
+  verschiebt die Nachweislast von der Fassadenöffnung auf die Haustechnik samt sommerlichem
+  Wärmeschutz.
+- **Für die Nutzungsplanung** (Art. 29 Abs. 2/3 neu): Freiräume **ca. 300-500 m Distanz**, zu Fuss
+  und **hindernisfrei** erreichbar, **keine Mindestgrösse** einzelner Freiräume (Vernetzung zählt),
+  Bezug **SIA-Merkblatt 2066**, Bevölkerungsentwicklung einzubeziehen; akustische Wohnqualität als
+  **Verbesserung gegenüber dem Status quo**, wobei **nicht umgesetzte Massnahmen zu begründen
+  sind** und die genannten Hebel unmittelbar Entwurfsarbeit sind (Gebäudeform/-stellung,
+  Nutzungsverteilung im Gebäude, Bespielung der Erdgeschosse, Erschliessungsanlagen).
+
+**Belegstatus offen gehalten:** alles stammt aus der **amtlichen Begründung**, nicht aus dem
+Verordnungstext. Der Wortlaut auf fedlex war nicht extrahierbar (JS-Anwendung ohne Rohabruf; der
+`admin.ch/opc`-Spiegel antwortet 403) — **bei einem realen Fall gegenlesen**. Die beiden
+Fachberichte hinter der Revision (OST/IRAP «Bauzonen in lärmbelasteten Gebieten», Krass et al.
+2025; FHNW/INEB «Auslegeordnung KWL in lärmbelasteten Gebieten», Hall 2025) sind **nicht
+beschafft** und deshalb nicht zitiert.
+
+Geänderte Dateien: `wiki/recht-norm-quellenlandkarte.md` (neuer Abschnitt + `last_updated`),
+`wiki/QUESTIONS.md` (Punkt geschlossen, Restumfang benannt).
+
 ## 2026-08-23 (Vertiefungslauf Revendo) — Endpunkte/Links/Connectoren verifiziert: keine Erosion, zwei neue Messbefunde, ein neues VKF-Dokument
 
 Auftrag Raphael: Endpunkte, Links und Connector-Wege verifizieren. Werkzeugkasten **benutzt statt

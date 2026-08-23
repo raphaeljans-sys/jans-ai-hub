@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Quellenlandkarte (PL-02)
 status: established
-last_updated: 2026-08-01 (Wartungslauf 02: Zitierregel zh.ch — www.-Falle in beide Richtungen)
+last_updated: 2026-08-23 (Vertiefungslauf 2 Revendo: LSV-Novelle 01.04.2026 an der UVEK-Primaerquelle vertieft, Details geschlossen)
 sources: [PL - 02_Recht_Norm (SharePoint), fedlex.admin.ch, zh.ch (RPG 2 / Klima-PBG / Denkmalschutz-Medienmitteilung 02.07.2026 / kantonaler Richtplan «Laufende Verfahren» TR2022 Vorlagen 6012/6013/6013a, abgerufen 2026-07-24), kantonsrat.zh.ch, espace-suisse.ch, are.admin.ch, sz.ch (PBG 400.100 Stand 1.2.2025 / PBV 400.111 Stand 1.2.2026 / Vollzugsverordnungs-Vorlage), bauen-im-laerm.ch, stadt-zürich.ch (§ 49b PBG + UmV-Volksabstimmung 14.06.2026), admin.ch/bauimmorecht.ch (LSV-Novelle 01.04.2026), vzgv.ch (Vorentwurf + erläuternder Bericht PBG "Erleichtertes Bauen im Bestand" 07.08.2025, abgerufen 2026-07-19), zh.ch Denkmalschutz-Medienmitteilung Refresh (WebSearch+WebFetch Run 90, 2026-07-26, unverändert)]
 links: [[kartenportale-oereb-egrid-bezug]], [[recht-norm-dispensrecht]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-baurechtsanalysen-benchmarks]], [[recht-norm-raumprogramm-referenzwerke]], [[recht-norm-pbg-revision-bauen-im-bestand]], [[machbarkeit]]
 ---
@@ -284,6 +284,100 @@ koordinieren. **JANS-Relevanz:** direkt einschlägig für Innenentwicklungsproje
 verkehrsexponierten Lagen (z. B. Hauptstrassen/Bahnlinien) — KWL-Nachweis als Alternative zum
 klassischen Lärmschutzfenster-Konzept prüfen. Primärquelle noch nicht als PDF im PL-02-Ordner
 abgelegt (nur Web); bei realem Fall den amtlichen LSV-Text (SR 814.41) auf fedlex gegenprüfen.
+
+### LSV-Novelle 01.04.2026 — Details geschlossen an der Primärquelle (Vertiefungslauf 2 Revendo, 23.08.2026)
+
+Der Eintrag oben stützte sich auf eine WebSearch und liess «inhaltliche Details noch offen»
+(so auch in `wiki/QUESTIONS.md`, Abschnitt B). Jetzt geschlossen an der amtlichen
+**«Erläuterungen zur Revision der Lärmschutz-Verordnung (LSV; SR 814.41)»**, UVEK, Bern,
+**25.02.2026, 21 Seiten**, im Volltext gelesen. Die bisherige Zusammenfassung ist richtig, aber
+zu grob — sie nennt weder die aufgehobenen Artikel noch die konkreten Schwellenwerte.
+
+**Gesetzgeberischer Rahmen.** Das Parlament beschloss die USG-Änderung am **27.09.2024**; sie trat
+grösstenteils am **01.04.2025** in Kraft — **ausser** den Lärmschutz-Bestimmungen
+**Art. 22 und 24 revUSG**, die bewusst zurückgestellt wurden, um gleichzeitig mit den
+konkretisierenden Verordnungsbestimmungen in Kraft zu treten. Genau das ist am **01.04.2026**
+geschehen. Betroffen sind die **LSV-Artikel 29, 30, 31 und 31a sowie 1, 32, 34, 39 und 41**.
+
+#### Was für ein Baugesuch praktisch zählt
+
+| Bestimmung | Neuerung | Praxisfolge JANS |
+|---|---|---|
+| **Art. 31 Abs. 1bis LSV (neu)** | Wohngebäude dürfen mit **geschlossenen Fassaden** erstellt werden, wenn sie über **kontrollierte Wohnraumlüftung und Kühlsystem** nach Art. 22 Abs. 2 lit. a revUSG verfügen. **Nur für Neubauten oder die wesentliche Änderung bestehender Wohnbauten.** | Das Lüftungsfenster-Konzept ist nicht mehr der einzige Weg — aber die Erleichterung gilt **nicht** für gewöhnliche Umbauten unterhalb der Schwelle «wesentliche Änderung». |
+| **Art. 31a LSV — AUFGEHOBEN** | Die Fluglärm-Sonderregelung entfällt. Baubewilligungen bei Fluglärm werden **nicht mehr nach Art. 31a LSV** geprüft, sondern nach Art. 22 Abs. 2 revUSG samt dessen Ausnahmeregelung. | **Für die Flughafenregion Zürich unmittelbar relevant.** Wer noch mit Art. 31a argumentiert (automatisch schliessende Fenster, Raumklima-Anforderungen), argumentiert mit aufgehobenem Recht. |
+| **Art. 30 LSV — AUFGEHOBEN** | Die lärmschutzrechtlichen Vorschriften zur **Erschliessung von Bauzonen** entfallen **ersatzlos**. | Die Sanierungspflicht bleibt unberührt: **Art. 13 Abs. 4 LSV gilt unverändert** — für alle Bauzonen, die nach dem USG-Inkrafttreten (01.01.1985) erschlossen wurden, müssen wie bisher keine Sanierungen getroffen werden. |
+| **Art. 31 Abs. 2 LSV (neu)** | Ausnahme bei Fluglärm **oder** für einen kleinen Anteil der Wohneinheiten grosser Wohnüberbauungen. Der Bundesrat präzisiert «kleiner Anteil» auf **maximal zehn Prozent** — **eine Ausnahme pro zehn Wohneinheiten**. | Harte, planbare Quote. Voraussetzung bleiben ein **überwiegendes Interesse** am Bauvorhaben (z. B. Innenentwicklung, tiefe Leerstandsquote) **und die Zustimmung einer kantonalen Behörde**. |
+| **Art. 32 Abs. 2 LSV** | Die nach Art. 22 Abs. 2 lit. b revUSG verlangte Verschärfung des **baulichen Mindestschutzes** ist **in der Regel verhältnismässig, wenn die Kosten 1 % der Gebäudekosten nicht überschreiten**. Gebäudekosten **nach Baukostenplan BKP (SN 506 500, CRB)**. | ★ **Ein rechnerischer Schwellenwert für die Verhältnismässigkeit** — direkt an die BKP-Systematik gebunden und damit an `wissen/grobkosten` anschlussfähig. Zugleich hält die Quelle fest: den Anlagenbetreibern erwächst aus einem dadurch ungenügenden Schallschutz **kein Nachteil in späteren Verfahren**. |
+| **Art. 34 Abs. 1 lit. a LSV (Änderung)** | Die Bauherrschaft muss **mit dem Baugesuch** die nach Art. 31 Abs. 1 **geprüften Massnahmen aufzeigen**. | **Neue Nachweispflicht in der Baueingabe.** Es genügt nicht, Massnahmen umzusetzen — die Prüfung selbst (Anordnung lärmempfindlicher Räume, Abschirmung des Gebäudes) ist zu dokumentieren. Ergänzt das Formular S → [[energie-baueingabe-zusatzformulare]]. |
+| **Art. 39 Abs. 4 LSV (neu)** | Ermittlungsort der Lärmimmissionen beim **privat nutzbaren Aussenraum**: **1.5 m über dem Boden des Aussenraums**. | Bisher galten für solche Aussenräume keine Belastungsgrenzwerte, es musste also gar nicht ermittelt werden. Neu nötig, sobald ein privat nutzbarer Aussenraum als Bewilligungsbegründung beansprucht wird. |
+| **Art. 41 Abs. 2bis LSV (neu)** | Der Immissionsgrenzwert gilt **auf der gesamten Fläche** des privat nutzbaren Aussenraums. | **Kein «ruhiger Eckpunkt» mehr.** Ein Balkon oder eine Terrasse muss auf ganzer Fläche einhalten — das schlägt direkt auf Grundriss, Balkontiefe und Brüstungsausbildung durch. |
+
+#### Anforderungen an die kontrollierte Wohnraumlüftung — der Stand der Technik ist normativ hinterlegt
+
+Art. 31 Abs. 1bis LSV verlangt, dass KWL und Kühlanlagen in lärmbelasteten Gebieten **dem Stand der
+Technik entsprechen**. Die Erläuterungen konkretisieren das über SIA-Normen:
+
+| Aspekt | Massgebender Standard |
+|---|---|
+| **Frischluftzufuhr** | Raumluftqualität **IDA 2** nach **SIA 382/1:2025, Tabelle 18** oder **SIA 382/5:2021, Ziff. 5.2.4** |
+| **Temperatur** | **SIA 180:2014, Figur 4** («Anforderungen an Räume mit natürlicher oder mechanischer Lüftung, während diese beheizt oder maschinell gekühlt sind») sowie hohe sommerliche Raumtemperaturen nach **SIA 380/2:2022, Ziff. 3.2.4** |
+| **Lärm** | Anforderungen aus **SIA 181:2020, Tabelle 2** |
+
+Die Quelle verweist ergänzend auf das **Produktreglement Gebäudestandards Minergie**.
+
+> ⚠ **Drei Warnungen, die in derselben Quelle stehen und beim Verkauf der KWL-Lösung mitgehören:**
+> 1. **Luftdurchlässe bei Fenstern oder Fassade schwächen die Schalldämmung der Gebäudehülle** —
+>    die Lüftungslösung kann den Schallschutz, den sie ermöglichen soll, teilweise wieder
+>    aufzehren.
+> 2. **Die Anlagen selbst können störende Geräusche erzeugen.**
+> 3. **Kontrollierte Wohnraumlüftungen sind grundsätzlich nicht für eine Nachtauskühlung
+>    ausgelegt**, und Einzelraum-Klimageräte sind wegen ihres hohen Energieverbrauchs
+>    ausdrücklich nicht erwünscht. Die Quelle verlangt, durch **geeignete Auslegung und
+>    Kombination der Systeme** ein angemessenes Raumklima sicherzustellen.
+>
+> Für die Projektarbeit heisst das: die KWL-Erleichterung ist **kein Freipass**, sondern verschiebt
+> die Nachweislast von der Fassadenöffnung auf die Haustechnik samt sommerlichem Wärmeschutz.
+
+#### Für die Nutzungsplanung: Art. 29 Abs. 2 und 3 LSV (neu)
+
+Wo eine Ein-, Um- oder Aufzonung die Belastungsgrenzwerte nicht einhalten kann, verlangt
+**Art. 24 Abs. 3 revUSG** drei Nachweise; zwei davon konkretisiert die LSV.
+
+- **Nachweis 2 — Freiräume für die Erholung (Art. 29 Abs. 2 LSV).** Anforderungen an
+  Freiraumqualität, Zugänglichkeit und Grösse. Konkret aus den Erläuterungen: **maximale Distanz
+  ca. 300 bis 500 m**, **zu Fuss und hindernisfrei** erreichbar; **ein einzelner Freiraum braucht
+  keine Mindestgrösse** — entscheidend ist die Erholungseignung, und die notwendige Fläche darf
+  über **mehrere vernetzte kleinere Freiräume** erreicht werden. Nicht anrechenbar sind Flächen
+  ohne Erholungsnutzen. Bezugsdokument: **SIA-Merkblatt 2066** «Freiräume nachhaltig planen, bauen
+  und pflegen». Die **Bevölkerungsentwicklung** ist einzubeziehen.
+- **Nachweis 3 — akustische Wohnqualität (Art. 29 Abs. 3 LSV).** Verlangt ist eine **Verbesserung
+  gegenüber dem Status quo**, und zwar entweder durch Begrenzung der Lärmemissionen oder durch
+  Minderung der Störung des Wohlbefindens auf andere Weise. **Nicht umgesetzte Massnahmen sind zu
+  begründen.** Genannte Hebel, die unmittelbar Entwurfsarbeit sind: **Gebäudeform, -stellung,
+  Dimensionierung und Ausrichtung**; **Nutzungsverteilung im Gebäude** (lärmempfindliche Räume auf
+  die lärmabgewandte Seite); **Bespielung der Erdgeschosse** (laute Nutzungen wie Läden und Cafés
+  gezielt gegen leise wie Wohnen, Ateliers, Büros); Erschliessungsanlagen (Anlieferung, Zufahrten,
+  Lage der Parkplätze); im Aussenraum zeitliche Begrenzung lauter Nutzungen. Bemerkenswert: solche
+  Massnahmen **sollen auch dann realisiert werden, wenn damit keine Grenzwerte eingehalten werden
+  können**, sofern trotzdem eine Verbesserung entsteht.
+
+**Fachlicher Unterbau der Revision:** Fachbericht der OST «Bauzonen in lärmbelasteten Gebieten»
+(Krass et al., 2025, IRAP Rapperswil) und Hall, 2025, «Auslegeordnung zur kontrollierten
+Wohnraumlüftung in lärmbelasteten Gebieten» (FHNW, Institut Nachhaltigkeit und Energie am Bau).
+Beide **nicht beschafft** — als mögliche Vertiefung vermerkt, nicht zitiert.
+
+> **Belegstatus.** Alles oben stammt aus den **Erläuterungen des UVEK**, also aus der amtlichen
+> Begründung, nicht aus dem Verordnungstext selbst. Der **amtliche LSV-Text auf fedlex** (SR
+> 814.41) war am Prüftag nicht extrahierbar — die Fedlex-Seite ist eine JavaScript-Anwendung und
+> liefert im Rohabruf keinen Artikeltext, der Spiegel auf `admin.ch/opc` antwortet mit 403.
+> **Bei einem realen Fall ist der Verordnungswortlaut gegenzulesen**; die Erläuterungen sind für
+> die Auslegung massgebend, aber nicht der Normtext. Der Hinweis oben, die Primärquelle sei noch
+> nicht im PL-02-Ordner abgelegt, gilt unverändert — das PDF der Erläuterungen wäre dort
+> abzulegen.
+
+*Quelle: UVEK, «Erläuterungen zur Revision der Lärmschutz-Verordnung (LSV; SR 814.41)»,
+Bern, 25.02.2026, 21 S., Volltext gelesen 23.08.2026 (bafu.admin.ch, Beilage 03 zum
+Bundesratsantrag).*
 
 ## § 49b PBG — Preisgünstiger Wohnraum bei Mehrausnützung (NEU + Korrektur, Run 53, 2026-07-19)
 
