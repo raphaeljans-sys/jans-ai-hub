@@ -473,6 +473,10 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   vs. 0,080 in Halmrichtung, Feuerwiderstand verputzt 30–90 Min., **kein CH-VKF-Registereintrag
   auffindbar**) → `[[strohdaemmung-bemessungswert-brandschutz]]`, FAQ F34 geschärft. **E12 damit
   weitgehend geschlossen**, offen bleibt nur noch das Solarsplit-/Areal-PV-Rechtsmodell.
+  ✓ **E12 vollständig geschlossen 23.08.2026 (Run 154):** das Solarsplit-/EVG-Vertragsmodell ist
+  als vZEV-mit-VNB-Vollservice eingeordnet (kein eigener EnG-Begriff, Grenze = gemeinsamer
+  Netzanschlusspunkt) → `[[evg-eigenverbrauchsgemeinschaft-solarsplit]]` (neu, `emerging`,
+  Web-Sekundärquellen), FAQ **F256** neu.
 
 - [x] **E32** **SIA-2060-Kosten Ladeinfrastruktur — Primärquelle vertieft** belegt ✓ 2026-07-13
   → `[[sia-2060-kosten-ladeinfrastruktur-vertiefung]]`, FAQ F39 geschärft. Kanton-ZH-AWEL-Infoblatt
@@ -4120,3 +4124,55 @@ JANS-Praxis sind die Werte und die Einstufung damit bereits nutzbar, mit dem Vor
 Positionen (E-R148-1 Normkauf selbst, E-R148-2 Takt, E-R149-4 Dateifreigabe, E-R150-3,
 E-R134-3, E-R132-4, E-WC32-1, E-R129-5) sind durch diesen Fund nicht berührt und bleiben aus
 denselben Gründen offen wie zuvor dokumentiert.
+
+## Run 154 (23.08.2026, neunte interaktive Fortsetzung desselben Tages) — E12 (Solarsplit/Areal-PV) geschlossen, gesamter `- [ ]`-Bestand einzeln gegengeprüft
+
+Auftrag: den Bestand offener Fragen abarbeiten, dort weitermachen, wo Run 153 aufgehört hat.
+Erster Schritt war eine **vollständige, unabhängige Durchsicht aller verbliebenen `- [ ]`/`- [~]`-
+Zeilen** der Datei (nicht nur der Runs-151/152/153-Prosa vertrauen) — Ergebnis: der Bestand ist
+tatsächlich bis auf einen einzigen Punkt erschöpft, aus denselben Gründen wie von Run 152/153
+dokumentiert:
+
+- **E103** (Pflegeplatz-Flächenkennwert) und **E94** (CHF/m² Innendämmung): beide **explizit
+  «Entscheid Raphael nötig»** (JANS-eigene Projektdaten auswerten, ja/nein) — nicht ohne Freigabe
+  autonom zu lösen.
+- **E-S1** (eigener Skill `energie`?), **E-R148-1** (Normkauf SIA 380/1:2016), **E-R148-2**
+  (Loop-Taktsteuerung): alle drei Entscheidungen, die bei Raphael liegen, keine Rechercheaufgaben.
+- **E-R149-4**: Dateifreigabe für eine geschützte Systemdatei ausserhalb der Session-Berechtigung.
+- **E-R134-3** (Lambda-Tippfehler-Verdacht im Faustregel-Merkblatt), **E-R129-5**
+  (Kennzeichnungssystem bei künftigem Submetering-Thema neu bewerten), **E-WC32-1**
+  (Arbeitsanweisung/Prozessnotiz für künftige Läufe): bewusst offen gelassene Merkposten, keine
+  auflösbaren Fragen.
+- Die beiden Fernwärme-kW-Zeilen (Zeile 1348 «290-kW-Ausreisser nachverdichten», Zeile 1428
+  «Objektgrössen-Verweigerung 10-kW-Fenster») **und** E-R134-4 (MFH-Fassung EFH-Bauteilvergleich)
+  sind bereits an späterer Stelle derselben Datei explizit geschlossen (Run 84/85/96 bzw. Run 151)
+  — die `[ ]`-Zeichen dort sind der in dieser KB durchgängig verwendete «Ursprünglicher
+  Wortlaut»-Rest zur Nachvollziehbarkeit, keine tatsächlich offenen Punkte.
+
+**Einzig echter, unblockierter Rest war E12** (Zeile 455, Abschnitt «Inhaltliche Lücken»):
+«Solarsplitvertrag/ZEV-Vertragsmodell rechtlich vertiefen», offen seit 13.07.2026, Anlass
+`[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`. Per WebSearch/WebFetch geklärt (vier unabhängige
+Quellen, stromwerk.ch/ews-energie.ch/energie-experten.ch/ewz.ch-Produktteaser, keine amtliche
+Primärquelle für den Begriff «EVG» selbst gefunden): **«Solarsplit»/EVG ist kein eigenes
+EnG-Instrument**, sondern ein **vZEV mit VNB-Vollservice** (Netzbetreiber übernimmt Messung/
+Abrechnung/Auszahlung, Teilnehmer bleiben VNB-Kunde statt eigener ZEV-Gesellschaft beizutreten).
+Es gilt dieselbe Grenze wie beim vZEV: nur bei **gemeinsamem Netzanschlusspunkt** — für ein Areal
+mit mehreren eigenständigen Hausanschlüssen ungeeignet, dort bleiben klassischer ZEV oder (ab
+1.1.2026) LEG die richtigen Instrumente. Neues Destillat `[[evg-eigenverbrauchsgemeinschaft-
+solarsplit]]` (`emerging`, Web-Sekundärquellen, Einschränkung explizit im Artikel benannt), FAQ
+**F256** neu, Backlinks in `[[zev-eigenverbrauch-mfh-her-2025]]`, `[[leg-lokale-
+elektrizitaetsgemeinschaft-2026]]` und `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` ergänzt.
+
+**Ergebnis für den nächsten Lauf:** nach dieser Schliessung ist der `QUESTIONS.md`-Bestand an
+reinen, ohne Raphaels Entscheid oder externe Freigabe lösbaren Rechercheaufträgen **tatsächlich
+auf null** — nicht nur laut Selbsteinschätzung eines Laufs, sondern nach zeilenweiser Prüfung
+durch zwei unabhängige Läufe in Folge (Run 152 und dieser). Der nächste sinnvolle Schritt ist
+entweder eine der oben gelisteten Raphael-Entscheidungen einzuholen, oder ein neues Themenfeld
+per freier Wahl zu erschliessen (Muster aus Run 96 ff.), sofern PL-02/PL-04 weiterhin ohne neue
+Datei bleiben.
+
+Register: `wiki/QUESTIONS.md` (E12 ✓, neuer Run-154-Abschnitt), `wiki/BAUHERREN-FAQ.md` (F256 neu),
+`destillate/evg-eigenverbrauchsgemeinschaft-solarsplit.md` (neu), `destillate/INDEX.md` (+1 Zeile),
+`destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md`, `destillate/zev-eigenverbrauch-mfh-her-2025.md`,
+`destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md` (je Backlink ergänzt). Nach jedem
+Schreibvorgang `git diff --numstat` geprüft, ausschliesslich additiv.

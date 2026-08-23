@@ -250,6 +250,7 @@ Fundstellen · zentrale Tabellen/Kennwerte (sinngemäss, nicht kopiert) · Begri
 | `sia-203-1997.md` | SIA 203 Deponiebau (Abfalldeponien) | 1997 | established (verifiziert 260713) |
 | `sia-272-1980.md` | SIA 272 Grundwasserabdichtungen | 1980 | established (verifiziert 260713) |
 | `sia-405-1998.md` | SIA 405 GEO405: Geoinformationen unterird. Leitungen (Leitungskataster) | 1998 | established VOLLSTAENDIG (Run 19 260724, Vertiefung Stufe a — Medien-Datenkataloge 3.33-3.39 + Anh. A3/A4/A6, 44 Aussagen, 3 Befunde korr.) |
+| `sia-405-2025-vorwort.md` | SIA 405:2025 Geodaten zu Ver-/Entsorgungsleitungen — NUR Vorwort/Frontmatter (Leseprobe), ersetzt SIA 405/2015/2016/2045:2012 | 2025 | established, NUR Frontmatter (SIA-Sweep achte Fortsetzung, 23.08.2026, N-SIASWEEP-4 geschlossen; Fachkapitel 0-7/Anh. A/B nicht im Haus) |
 | `sia-431-1997.md` | SIA 431 Entwässerung von Baustellen | 1997 | established (verifiziert 260713) |
 | `sia-450-1993.md` | SIA 450 Informatik: Kosteninformationen im Bauwesen | 1993 | established (verifiziert 260713) |
 | `sia-480-2004.md` | SIA 480 Wirtschaftlichkeitsrechnung Investitionen Hochbau | 2004 | established (verifiziert 260713) |

@@ -19,6 +19,40 @@ https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/<ELI>/<JJJJMMT
 - Artikel sind per `<article id="art_NNN">` extrahierbar; Buchstaben-Artikel tragen einen
   Unterstrich, z.B. `art_777_c`.
 
+## Nachtrag 23.08.2026 (Buch-Run 82) — Domain `www.fedlex.admin.ch` liefert bei manchen Erlassen nur noch die App-Huelle
+
+Seit der Fedlex-Neugestaltung (Last-Modified der betroffenen Ressourcen 21.08.2026) liefert die
+Domain **`www.fedlex.admin.ch`** das Filestore-Muster oben fuer **manche** Erlasse nur noch als
+JavaScript-App-Huelle (konstant 77'151 Byte, textlos, unabhaengig von Datum/Format `de/html` vs.
+`de/pdf-a`) — beobachtet an der GSchV (SR 814.201, ELI `1998/2863_2863_2863`) und am GSchG-Haupttext
+(SR 814.20, ELI `1992/1860_1860_1860`, dort zusaetzlich nur bis Konsolidierungsdatum 01.01.2022
+funktionsfaehig). Andere Erlasse (getestet: OR, SR 220, ELI `27/317_321_377`) liefern ueber dieselbe
+`www`-Domain weiterhin den vollen Text — der Fehler ist **erlass-/routenspezifisch**, kein
+genereller Fedlex-Ausfall.
+
+**Funktionierender Ausweichweg:** dieselbe Filestore-URL, aber auf der Subdomain
+**`fedlex.data.admin.ch`** (ohne `www`) statt `www.fedlex.admin.ch` — identischer Pfad, liefert bei
+den betroffenen Erlassen ein echtes PDF (`de/pdf-a`-Suffix bevorzugen, `de/html` liefert bei GSchV/
+GSchG ebenfalls nur die App-Huelle). Beispiel (funktioniert): `https://fedlex.data.admin.ch/filestore/
+fedlex.data.admin.ch/eli/cc/1998/2863_2863_2863/20251201/de/pdf-a/fedlex-data-admin-ch-eli-cc-1998-
+2863_2863_2863-20251201-de-pdf-a.pdf`.
+
+**Konsolidierungsdatum ist nicht frei waehlbar.** Anders als bei der `www`-Route (die bei
+funktionierenden Erlassen jedes `01.01.JJJJ` akzeptiert) verlangt die `fedlex.data.admin.ch`-Route
+ein Datum, das **exakt** einem tatsaechlichen Snapshot entspricht — ein falsches Datum liefert
+still die 77'151-Byte-App-Huelle statt eines Fehlercodes (HTTP 200 in beiden Faellen, nur
+`Content-Type`/Groesse unterscheiden). Praktisch: mehrere Kandidatendaten durchprobieren (typisch
+der 1. Januar mehrerer Jahre sowie das zuletzt bekannte Aenderungsdatum) und per
+`curl -so /dev/null -w "%{content_type} %{size_download}"` verifizieren, dass `application/pdf`
+zurueckkommt und die Groesse deutlich über 77'151 Byte liegt, bevor der Volltext als beschafft
+gilt. Fuer die GSchV war `20251201` (Stand 1.12.2025) der erste treffende Kandidat.
+
+**Praxisregel:** bei einem GSchV/GSchG-artigen Fehlschlag (App-Huelle statt Text) NICHT vorschnell
+als «Anhang nicht online lesbar» verbuchen (das war die urspruengliche Fehleinschaetzung, siehe
+`wissen/baurecht/wiki/QUESTIONS.md`, Frage B, Nachtrag Buch-Run 82) — zuerst die `fedlex.data.admin.ch`-
+Route mit mehreren Konsolidierungsdaten probieren. Betrifft potenziell jede KB, die Bundesrecht per
+Filestore zitiert (`normen`, `baurecht`, `energie`, `firmengruendung-ch`).
+
 ## Verwandt
 
 - Rule `normen-referenz.md` — Fundstellenpflicht bei Normen (importiert).

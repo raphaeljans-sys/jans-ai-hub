@@ -152,7 +152,7 @@ Quellen: `https://cms.sia.ch/sites/default/files/2024-04/SIA-Publikationen.pdf` 
 27.10.2023), `https://cms.sia.ch/sites/default/files/2024-05/Inhaltsverzeichnis_Normenwerk.pdf`
 (Stand 03.01.2024).
 
-### N-SIASWEEP-4 — GEO405-Familie: SIA 2016 UND SIA 2045 nennen beide SIA 405:2025 als Nachfolgenorm
+### N-SIASWEEP-4 — GESCHLOSSEN 23.08.2026 (achte Fortsetzung) — GEO405-Familie: SIA 405:2025 ersetzt SIA 405/2015/2016/2045:2012, primärquellenbelegt
 
 Zwei unabhängig recherchierte Zeilen (SIA 2016 «Datenmodelle Ver-/Entsorgungsleitungen» und
 SIA 2045 «Geodienste») führen beide **SIA 405:2025** als Nachfolgenorm. Vermutung: SIA 405:2025
@@ -223,6 +223,54 @@ nach Projektbedarf.
 > Mitteln erneut angehen — die Grenze der frei zugänglichen Quellen ist erreicht. Fortschritt
 > nur noch über Kauf (`shop.sia.ch`, Bring-Schuld Raphael) oder direkte Anfrage an die
 > SIA-Zentralkommission möglich. Report: `outputs/2026-08-23_sia-sweep-siebte-fortsetzung.md`.
+
+> **Nachtrag 23.08.2026 (achte Fortsetzung) — N-SIASWEEP-4 GESCHLOSSEN: Primärquelle gefunden.**
+> Neuer, achter Weg geprüft: der SNV-Webshop `connect.snv.ch` (dieselbe Quelle, die diese KB
+> bereits für SN EN 12193 nutzt). Direkter Treffer: die Produktseite `shop.sia.ch/normenwerk/
+> ingenieur/405_2025_d/D/Product` verlinkt einen kostenlosen Leseproben-PDF-Download
+> (`shop.sia.ch/<uuid>/D/DownloadAnhang`, 76 KB, per `curl -L` geladen, `pdftotext -layout`
+> gelesen). Diese Leseprobe enthält Titelblatt, Inhaltsverzeichnis, das vollständige Vorwort
+> sowie den Abschnitt **„Genehmigung und Gültigkeit"** im Originalwortlaut: **«Die
+> Zentralkommission für Informationsmanagement des SIA hat die vorliegende Norm SIA 405 am
+> 25. Juni 2025 genehmigt. Sie ist gültig ab 1. August 2025. Sie ersetzt die Norm SIA 405
+> Geodaten zu Ver- und Entsorgungsleitungen, sowie die Merkblätter SIA 2015 Objekt- und
+> Darstellungskataloge zu Ver- und Entsorgungsleitungen, SIA 2016 Datenmodelle zu Ver- und
+> Entsorgungsleitungen und SIA 2045 Geodienste, alle Ausgabe 2012.»** Damit ist die seit
+> Fortsetzung 2 vermutete Konsolidierung **explizit primärquellenbelegt** (nicht mehr nur über
+> Sekundärquellen/Webinar-Vorwissen erschlossen) — alle vier Vorgänger (alte SIA 405, SIA 2015,
+> SIA 2016, SIA 2045, alle Ausgabe 2012) sind benannt. Das Vorwort erklärt zusätzlich den
+> sachlichen Grund: die Merkblatt-Inhalte wurden entweder in die revidierte Norm SIA 405 oder
+> die neue Wegleitung **SIA 4008** überführt (neue Bring-Schuld: SIA 4008 ist bisher nicht in
+> dieser KB geführt). Unabhängig **zweitbestätigt** über `connect.snv.ch/de/sn-532405-2025`:
+> Status «Aktuell/gültig», gültig ab 01.08.2025, «Ersetzt» SN 532405:2012, SIA 2015/2016/2045
+> MERKBLATT:2012 — deckungsgleich mit dem Primärtext. Die frühere Editionsjahr-Abweichung
+> (Fortsetzung 3: Kataloge nennen SIA 405 mit Jahr 2012, nicht 2015 wie die Webinar-Seite)
+> ist damit implizit aufgelöst: die aktuelle Leseprobe selbst spricht nur von «der Norm SIA 405»
+> ohne Jahrzahl in der Ersetzt-Klausel, die 2012er-Zuordnung der Kataloge war korrekt. **Kein
+> Volltext der Fachkapitel 0-7/Anhang A/B gelesen** (die Leseprobe enthält nur das Frontmatter
+> bis Seite 4 plus die Genehmigungsseite) — ein Fachdestillat des materiellen Norminhalts bleibt
+> offen. Neues Destillat `destillate/sia-405-2025-vorwort.md` (nur Frontmatter/Ersetzt-Klausel,
+> `established`, klar als Auszug gekennzeichnet). **N-SIASWEEP-2 und N-SIASWEEP-3 bleiben
+> offen:** derselbe SNV-Webshop wurde auch für SIA 422 (`sn-513422-2009`), SIA 2021
+> (`sia-2021-merkblatt-2002`) und SIA 2025 (`sia-2025-merkblatt-2012`) geprüft — alle drei
+> bestätigen unabhängig exakt dieselben Metadaten wie `shop.sia.ch` (archiviert, kein
+> Nachfolger benannt), **keine neue Substanz**. Einzige neue Randnotiz: SNV nennt für SIA
+> 2025:2012 „Valid From: 1 April 2012", das Register/shop.sia.ch nannte bisher 01.06.2012 —
+> kleine, ungeklärte Datumsdifferenz ohne Einfluss auf die eigentliche Frage (Nachfolger
+> weiterhin nicht benannt), nicht weiter verfolgt. Damit ist der SNV-Webshop die **achte**
+> geprüfte Quellenart für N-SIASWEEP-2/3, weiterhin ohne Fortschritt bei diesen beiden.
+> Report: `outputs/2026-08-23_sia-sweep-achte-fortsetzung.md`.
+
+> **Nachtrag 23.08.2026 (achte Fortsetzung) — SharePoint-Ordner unverändert seit fünfter
+> Fortsetzung, keine neuen Dateien.** Frischer Abgleich von `SIA_Norm/SIA_Normen/alle/` (Drive
+> `02_Recht_Norm`, Site PL) plus der sieben norm-eigenen Unterordner (SIA 102/112/118/282/
+> 380_1_2016/385_1/416) sowie `Gesamtverzeichnis`: exakt **140 Dateien** in `alle/` (identisch
+> zum Stand der fünften Fortsetzung) und unverändert 4+3+2+1+1+2+1+2 = 16 Dateien in den
+> Unterordnern. Jüngste Änderung in `alle/` laut Graph-Metadaten `lastModifiedDateTime`:
+> 07.08.2026 (vor dem fünften-Fortsetzung-Scan vom 23.08.2026); alle Unterordner-Dateien
+> zeigen 18.03.2025. Kein neuer Volltext für SIA 380:2015, SIA 269/8:2017, SIA 4018:2023,
+> SIA 4020:2026 oder eine der 25 in der vierten Fortsetzung genannten Nachfolgenormen —
+> ehrlicher Negativbefund, keine weitere Zeit auf Spekulation verwendet.
 
 ---
 

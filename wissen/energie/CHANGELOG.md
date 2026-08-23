@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (neunte Fortsetzung, Run 154): E12 geschlossen (Solarsplit/EVG als vZEV-Vollservice eingeordnet), gesamter offene-Fragen-Bestand einzeln gegengeprüft
+
+Fortsetzung der acht vorangehenden Interaktiv-Sessions desselben Tages. Auftrag: weitere offene
+Fragen aus `wiki/QUESTIONS.md` abarbeiten, belegt, dort weitermachen, wo Run 153 aufgehört hat.
+
+Erster Schritt war eine **eigene, vollständige Durchsicht aller verbliebenen `- [ ]`/`- [~]`-
+Zeilen** der Datei, statt Run 152/153s Schluss («Bestand für reine Recherche erschöpft») ungeprüft
+zu übernehmen. Ergebnis: die Einschätzung trifft zu, bis auf einen Punkt — **E12** («Solarsplit-/
+ZEV-Vertragsmodell rechtlich vertiefen», offen seit 13.07.2026, Anlass
+`[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`, Grubenstrasse-29-Praxisbeispiel mit obligatorischem
+Solarsplitvertrag fürs Areal-«Arealkraftwerk»). Alle übrigen offenen Zeilen sind entweder explizit
+als «Entscheid Raphael nötig» geführt (E103 Pflegeplatz-Kennwert, E94 CHF/m² Innendämmung, E-S1
+Skill-Struktur, E-R148-1 Normkauf SIA 380/1:2016, E-R148-2 Loop-Takt), durch eine Dateifreigabe
+ausserhalb der Session blockiert (E-R149-4), bewusst offen gelassene Merkposten ohne
+Rechercheauftrag (E-R134-3 Lambda-Verdacht, E-R129-5 Kennzeichnungssystem, E-WC32-1
+Prozessnotiz) oder bereits an späterer Stelle derselben Datei geschlossen und nur als
+«Ursprünglicher Wortlaut» stehen geblieben (die beiden Fernwärme-kW-Zeilen aus Run 83/85, gelöst
+in Run 84/96; E-R134-4, gelöst in Run 151).
+
+**E12 per WebSearch/WebFetch geklärt** (vier unabhängige Quellen: stromwerk.ch, ews-energie.ch,
+energie-experten.ch, ewz.ch-Produktteaser — keine amtliche EnG/EnV-Primärquelle für den Begriff
+«EVG» selbst gefunden, Status bewusst `emerging`): «Solarsplit»/«EVG» (Eigenverbrauchsgemeinschaft)
+ist **kein eigenes Instrument des Energiegesetzes**, sondern ein **vZEV mit VNB-Vollservice** —
+der Verteilnetzbetreiber übernimmt Messung/Abrechnung/Auszahlung, die Teilnehmer bleiben
+VNB-Kunden statt einer eigenen ZEV-Gesellschaft beizutreten (eine Beitrittserklärung genügt). Es
+gilt dieselbe Grenze wie beim vZEV: nur bei **gemeinsamem Netzanschlusspunkt** — für ein Areal mit
+mehreren eigenständigen Hausanschlüssen ungeeignet; dort bleiben der klassische ZEV (private
+Verkabelung) oder ab 1.1.2026 die **LEG** die passenden Instrumente. Das ordnet auch den
+Werkhof29-Fall plausibel ein: das gemeinsame Sheddach übers ganze Areal («Arealkraftwerk») deutet
+auf einen gemeinsamen Anschlusspunkt hin, das Dossier selbst nennt aber keine Vertragsdetails —
+die Zuordnung bleibt eine plausible Einordnung, kein Beleg am Vertrag.
+
+Neues Destillat `[[evg-eigenverbrauchsgemeinschaft-solarsplit]]` (emerging, Einschränkungen und
+offene Punkte explizit benannt), FAQ **F256** neu, Backlinks ergänzt in
+`[[zev-eigenverbrauch-mfh-her-2025]]`, `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]` und
+`[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (dessen «offene Punkte»-Abschnitt entsprechend
+geschlossen, dort zugleich nachgetragen, dass die Stroh-Bemessungswert-Lücke bereits seit
+13.07.2026 über `[[strohdaemmung-bemessungswert-brandschutz]]` besteht — im Artikel selbst noch
+nicht nachgezogen gewesen).
+
+**Ergebnis für den nächsten Lauf:** der Bestand an reinen, ohne Raphaels Entscheid oder externe
+Freigabe lösbaren Rechercheaufträgen ist nach zwei unabhängigen zeilenweisen Prüfungen in Folge
+(Run 152 und dieser) tatsächlich auf null. Register: `wiki/QUESTIONS.md` (E12 ✓, neuer
+Run-154-Abschnitt), `wiki/BAUHERREN-FAQ.md` (F256), `destillate/evg-eigenverbrauchsgemeinschaft-
+solarsplit.md` (neu), `destillate/INDEX.md` (+1 Zeile), drei bestehende Destillate (Backlink-
+Ergänzung). Output: `outputs/2026-08-23_questions-nachlauf-neunte-fortsetzung.md`. Nach jedem
+Schreibvorgang `git diff --numstat` geprüft, ausschliesslich additiv.
+
 ## 2026-08-23 — Interaktive Session (achte Fortsetzung, Run 153): E-R140-1 geschlossen — Healthcare-Gebäudekategorie war im eigenen Bestand bereits beantwortet
 
 Fortsetzung der sieben vorangehenden Interaktiv-Sessions desselben Tages. Run 152 hatte den

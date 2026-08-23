@@ -3,6 +3,51 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 82: QUESTIONS-Frage B (Grundbuch-Institut GSchV Anhang 4) geklärt — Fedlex-Zugangsweg für GSchV/GSchG-Familie repariert (Phase 3, Fortsetzung nach Run 81)
+
+- **Ausgangslage:** Reglemente-Queue 2414 Thalwil (T1-T8) bleibt seit Run 79 vollständig
+  abgearbeitet. Run 80/81 haben bereits Phase 3 (QUESTIONS-Restposten, Modell-D-
+  Volltextverifikationen) begonnen. Dieser Lauf nimmt den nächsten offenen Punkt: Frage B
+  aus dem QUESTIONS-Eintrag «2026-08-23 (Recherche-Agent)» — enthält GSchV Anhang 4
+  Ziff. 12/13 (Grundwasserschutzzonen/-areale) ein Gegenstück zur Grundbuch-Anmerkung nach
+  § 36 Abs. 2 EG GSchG (ZH)? War offen, weil der Anhang beim ersten Versuch über die
+  Fedlex-HTML-Extraktion nicht lesbar war.
+- **Werkzeugbefund zuerst:** die Filestore-Domain `www.fedlex.admin.ch` liefert für die
+  GSchV (SR 814.201) und den GSchG-Haupttext (SR 814.20) nur noch die JavaScript-App-Hülle
+  der neu gestalteten Fedlex-Seite (konstant 77'151 Byte, textlos, unabhängig von Format
+  und Datum) — ein anderer Erlass (OR) funktioniert über dieselbe Domain weiterhin
+  einwandfrei, der Fehler ist also erlass-/routenspezifisch. **Funktionierender
+  Ausweichweg:** dieselbe Filestore-URL über die Subdomain `fedlex.data.admin.ch` (ohne
+  `www`), mit einem Konsolidierungsdatum, das exakt einem echten Snapshot entspricht (für
+  die GSchV: `20251201`). Dokumentiert in `docs/referenz/fedlex-volltexte.md` — cross-KB
+  relevant für `normen`, `energie`, `firmengruendung-ch`.
+- **Befund zur Sachfrage:** Volltextsuche («Grundbuch») über den gesamten 76-seitigen
+  konsolidierten GSchV-Erlass (alle Artikel, Anhang 4 UND 4a) ergibt **null Treffer**.
+  Anhang 4 Ziff. 12 (Grundwasserschutzzonen S1-S3, Sh/Sm, vollständig 121-125) und
+  Ziff. 13 (Grundwasserschutzareale) regeln ausschliesslich die fachliche Ausscheidung/
+  Dimensionierung, keine grundbuchliche Sicherung. Auch der GSchG-Haupttext (Stand
+  1.1.2022, ältere aber verlässlich lesbare Fassung) enthält kein «Grundbuch». **Frage B
+  damit abschliessend geklärt:** § 36 Abs. 2 EG GSchG war ein rein kantonales
+  Grundbuch-Anmerkungsinstitut ohne Pendant im Bundesrecht — ergänzt die bereits am
+  23.08.2026 dokumentierte Erkenntnis, dass auch WsG/WsV kein wortwörtliches Gegenstück
+  führen.
+- **NEU** `raw/260823_amtlich_ch_gschv-anhang4.md` (Anhang 4 GSchV, Ziff. 1/11 Titelstruktur
+  + Ziff. 12/13 vollständig, treu abgeschrieben, Quelle/Datum/Fundweg dokumentiert).
+- **GEÄNDERT** `wiki/QUESTIONS.md`: Frage-B-Eintrag als ✅ GEKLÄRT markiert, Nachtrag mit
+  Befund + offener Anschlussfrage (WsG-Nachfolge des Instituts, separat zu prüfen bei
+  konkretem Bedarf) ergänzt, alter Wortlaut nicht gelöscht.
+- **GEÄNDERT** `docs/referenz/fedlex-volltexte.md`: Nachtrag zur Domain-Divergenz
+  `www.fedlex.admin.ch` vs. `fedlex.data.admin.ch` samt Praxisregel (mehrere
+  Konsolidierungsdaten durchprobieren, Content-Type/Grösse verifizieren, nicht auf HTTP 200
+  allein vertrauen — beide Fälle liefern 200).
+- **Register:** `raw/_INGESTED.md` (neue Zeile). Kein neuer Wiki-Artikel nötig (reines
+  Negativergebnis, keine Sachaussage, die einen Artikel trägt).
+- Report `outputs/2026-08-23_buch-run82.md`.
+- **Diff-Kontrolle (Rule 260811):** nach jedem Schreibvorgang `git diff --numstat` geprüft —
+  eine neue Datei, drei rein additive Ergänzungen an gewachsenen Registern (QUESTIONS.md
+  33+/5-, die 5 Minus sind der ersetzte, nicht gelöschte Zwischentext derselben Aussage;
+  fedlex-volltexte.md 34+/0-; _INGESTED.md 1+/0-), keine Massenlöschung.
+
 ## 2026-08-23 — Buch-Run 81: SZ-Strassenrecht volltextverifiziert (StraG/StraV), Artikel auf `established` — Reglemente-Queue 2414 Thalwil bleibt vollständig abgearbeitet, Fortsetzung Phase 3
 
 - **Ausgangslage:** Die Korpus-Queue 2414 Thalwil (T1-T8) ist seit Run 79 vollständig

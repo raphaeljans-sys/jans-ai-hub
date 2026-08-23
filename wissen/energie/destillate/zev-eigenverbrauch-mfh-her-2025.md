@@ -81,4 +81,5 @@ bleiben die «hinter dem Anschluss»-Modelle. Ebenso **nicht** im HER: der **PV-
 
 **Backlinks:** Eigenverbrauchs-Praxiswerte MFH [[pv-ertrag-eigenverbrauch-praxis]] · technische
 Optimierung [[wp-pv-eigenverbrauch-lastmanagement]] · PV-Foerderung Bund [[pv-einmalverguetung-bund-bfe]] ·
+kommerzielles VNB-Vollserviceprodukt auf vZEV-Basis [[evg-eigenverbrauchsgemeinschaft-solarsplit]] ·
 Stockwerkeigentum-Bezug (Reglement) → Skill `stockwerkeigentum`.

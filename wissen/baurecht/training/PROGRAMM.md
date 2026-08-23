@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-04 (Run 72)
+last_updated: 2026-08-23 (Run 82)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -314,6 +314,39 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     belegt sie aber nicht. An zhlex LS 711.11 prüfen. **Drittkanal (andere KB, nur melden):**
     `planungsgrundlagen/wiki/kartenportale-oereb-kataster-system-zh.md` Z. 32/34 führt «LS 711.1
     §§ 3/34/37» als geltende ÖREB-Rechtsgrundlage der Themen 130/132 — dort mitzuziehen.
+  - **Run 81 (2026-08-23, Phase 3, QUESTIONS-Restposten, kein Agent-Fan-out):** Korpus-Queue
+    2414 Thalwil (T1-T8) bleibt vollständig abgearbeitet (Run 79/80); dieser Lauf klärt den
+    obersten verbleibenden QUESTIONS-Punkt (Run 78, T7): [[strassenabstand-zufahrten-
+    vorteilsabgabe-sz]] stützte sich nur auf einen Merkblatt-Gesetzesauszug. Amtlicher
+    Volltext StraG (SRSZ 442.110) + StraV (SRSZ 442.111) direkt von `sz.ch` bezogen
+    (SRSZ-Stand 1.2.2025), alle 8 zitierten Paragraphen wortlautgeprüft. **2 Korrekturen**
+    (beide bereits im Merkblatt-Auszug korrekt, bei der ersten Wiki-Verdichtung verloren):
+    § 41 Abs. 1 lit. a StraG staffelt den Strassenabstand ohne Baulinie nach Strassenkategorie
+    (6.00/4.00/3.00 m Haupt-/Verbindungs-/Nebenstrassen, § 4 StraG), nicht ein genereller
+    6-m-Wert; § 28 Abs. 1/2 StraV fixiert die Vorteilsabgabe-Staffelung 3/4.5/5 % nur an
+    Hauptstrassen, für Verbindungs-/Nebenstrassen legt der Bezirksrat/Gemeinderat die Höhe
+    selbst fest (§ 28 Abs. 3 StraV). 6 von 8 Paragraphen CONFIRMED. Status
+    **`emerging` → `established`**. **0 Halluzinationen, 2 echte Korrekturen, 1
+    Statuserhöhung.** Report `outputs/2026-08-23_buch-run81.md`. **Nächster Schritt:**
+    weitere QUESTIONS-Restposten (Frage B § 36 Abs. 2 EG GSchG, GSchV Anhang 4 Ziff. 12/13
+    direkt am PDF lesen) oder Modell-D-Verifikation der ältesten `verifiziert`-Daten unter
+    den `established`-Artikeln.
+  - **Run 82 (2026-08-23, Phase 3, QUESTIONS-Restposten, kein Agent-Fan-out):** klärt Frage B
+    aus Run 81s Vorschlag ab: enthält GSchV Anhang 4 Ziff. 12/13 ein Gegenstück zur
+    Grundbuch-Anmerkung nach § 36 Abs. 2 EG GSchG? **Werkzeugbefund zuerst:** die
+    Filestore-Domain `www.fedlex.admin.ch` liefert für GSchV/GSchG nur noch die
+    JavaScript-App-Hülle (77'151 Byte, textlos) statt Volltext; funktionierender Ausweichweg
+    ist dieselbe URL über `fedlex.data.admin.ch` (ohne `www`) mit einem exakt treffenden
+    Konsolidierungsdatum — dokumentiert in `docs/referenz/fedlex-volltexte.md`, cross-KB
+    relevant für `normen`/`energie`/`firmengruendung-ch`. **Sachbefund:** Volltextsuche
+    «Grundbuch» über den gesamten 76-seitigen GSchV-Erlass (alle Artikel + Anhänge) ergibt
+    null Treffer — Anhang 4 Ziff. 12/13 regelt nur die fachliche Zonen-/Areal-Ausscheidung,
+    keine grundbuchliche Sicherung. Frage B damit abschliessend geklärt: § 36 Abs. 2 EG GSchG
+    war ein rein kantonales Institut ohne Bundesrechtswurzel. Neuer Rohtext
+    `raw/260823_amtlich_ch_gschv-anhang4.md`, kein neuer Wiki-Artikel (reines
+    Negativergebnis). Report `outputs/2026-08-23_buch-run82.md`. **Nächster Schritt:**
+    nächster offener QUESTIONS-Punkt ist «2026-08-18 (Wissens-Chef Run 36) — Prüflücke im
+    BBV-I-Bereich des Buch-Layers».
   - **Run 74 (2026-08-17, Festigungsmodus, Priorität (d) Korpus-Queue Batch T4 + Priorität (b),
     kein Agent-Fan-out):** **Batch T4 (Merkblätter/Wegleitungen) erledigt** — auf Vorschlag von
     Run 73 vor T3 gezogen, weil in diesem Ordner ungeklärter Rechtscharakter steckt. Der Vorschlag

@@ -69,7 +69,7 @@ dieses Artikels, da der Volltext jetzt direkt in `raw/` vorliegt.
 
 Quelle: `outputs/2026-08-23_buch-run81.md`.
 
-## 2026-08-23 (Recherche-Agent) — Frage A geklärt, Frage B bleibt offen: § 15 Abs. 3 / § 36 Abs. 2 EG GSchG (Nachtrag zu 2026-08-03, Buch-Run 71)
+## ✅ GEKLÄRT 2026-08-23 (Recherche-Agent + Buch-Run 82) — Frage A geklärt, Frage B jetzt ebenfalls geklärt: § 15 Abs. 3 / § 36 Abs. 2 EG GSchG (Nachtrag zu 2026-08-03, Buch-Run 71)
 
 Vertiefte Recherche zu den beiden am 03.08.2026 offen gebliebenen Punkten (dort nur WsG/WsV
 durchsucht, kein Treffer). Diesmal zusätzlich beschafft: der amtliche Volltext des **EG GSchG
@@ -111,10 +111,38 @@ verwandt: **Art. 20 Abs. 2 lit. b GSchG** verpflichtet Inhaber von Grundwasserfa
 erforderlichen dinglichen Rechte» zu erwerben (Fedlex-Volltext gegengelesen) — das ist aber ein
 anderes Institut (Dienstbarkeit/Eintragung nach ZGB Art. 730 ff., nicht die kantonale
 «Anmerkung» nach ZGB Art. 962) und ersetzt § 36 Abs. 2 EG GSchG nicht wortgleich.
-**Nicht abschliessend geprüft:** GSchV Anhang 4 Ziff. 12/13 (Grundwasserschutzzonen-Ausscheidung) —
-der Annex-Inhalt liess sich über die Fedlex-HTML-Extraktion nicht auslesen (nur der Haupttext von
-Art. 29 GSchV war zugänglich). Vor einer abschliessenden Aussage müsste der Anhang direkt am
-PDF-Volltext gelesen werden. Bis dahin bleibt Frage B offen; kein Rate-Ersatz eingesetzt.
+**Nicht abschliessend geprüft (Stand 2026-08-23, Recherche-Agent):** GSchV Anhang 4 Ziff. 12/13
+(Grundwasserschutzzonen-Ausscheidung) — der Annex-Inhalt liess sich über die Fedlex-HTML-Extraktion
+nicht auslesen (nur der Haupttext von Art. 29 GSchV war zugänglich). Vor einer abschliessenden
+Aussage müsste der Anhang direkt am PDF-Volltext gelesen werden. Bis dahin bleibt Frage B offen;
+kein Rate-Ersatz eingesetzt.
+
+**Nachtrag Buch-Run 82 (23.08.2026) — Frage B jetzt abschliessend geklärt.** Der PDF-Volltext liess
+sich doch beschaffen: die vorher verwendete Filestore-Domain `www.fedlex.admin.ch` liefert für
+diesen Erlass (getestet: mehrere Konsolidierungsdaten, sowohl `de/html` als auch `de/pdf-a`) nur
+noch die JavaScript-App-Hülle der neu gestalteten Fedlex-Seite (77'151 Byte, textlos) — derselbe
+Erlass ist aber über die Subdomain **`fedlex.data.admin.ch`** (ohne `www`) mit identischem Pfad als
+echtes PDF abrufbar (927 KB, 76 Seiten, Stand 1.12.2025). Volltext gesichert in
+`raw/260823_amtlich_ch_gschv-anhang4.md`. **Befund: Anhang 4 Ziff. 12/13 enthält kein
+Grundbuch-Institut.** Eine Volltextsuche («Grundbuch») über den gesamten 76-seitigen konsolidierten
+Erlass (alle Artikel, Anhang 4 UND Anhang 4a) ergibt null Treffer. Ziff. 12 (Grundwasserschutzzonen
+S1-S3, Sh/Sm, vollständig 121-125) und Ziff. 13 (Grundwasserschutzareale) regeln ausschliesslich die
+fachliche Ausscheidung/Dimensionierung, keine grundbuchliche Sicherung.
+
+**Damit ist die Frage abschliessend beantwortet:** § 36 Abs. 2 EG GSchG (und die beiden Parallelstellen
+§ 8 Abs. 2 / § 37 Abs. 1 EG GSchG) begründeten ein rein **kantonales** Grundbuch-Anmerkungsinstitut
+ohne Pendant im Bundesrecht (weder GSchG-Haupttext noch GSchV inkl. Anhang 4) — und, wie bereits am
+selben Tag recherchiert, auch ohne wortwörtliches Pendant im heute geltenden WsG/WsV. Ob dieses
+Institut mit der EG-GSchG-Aufhebung per 01.06.2026 (siehe [[baureife-und-erschliessung]], Fassungsstand-
+Korrektur Wissens-Chef Run 17) im WsG/WsV ersatzlos entfiel oder unbenannt in einer generischen
+WsG-Bestimmung aufgeht, ist eine eigenständige neue Frage — **nicht** Gegenstand dieser Klärung, ggf.
+separat zu prüfen, falls ein Thalwiler oder anderes Projekt eine grundbuchliche Sicherung einer
+Grundwasserschutzzone konkret braucht.
+
+**Zweiter Befund, cross-KB-relevant:** die Domain-Divergenz (`www.fedlex.admin.ch` liefert für diesen
+Erlass nur die App-Hülle, `fedlex.data.admin.ch` liefert echten Volltext) betrifft potenziell jeden
+Fedlex-Zugriff der KBs `normen`, `energie`, `firmengruendung-ch`. Nachgetragen in
+`docs/referenz/fedlex-volltexte.md`.
 
 Quellen: `raw/260823_amtlich_zh_eg-gschg.md` (neu, EG GSchG Nachtrag 099 vollständig),
 `raw/260803_amtlich_zh_wsg.md`, `raw/260803_amtlich_zh_wsv.md`, Fedlex GSchG (SR 814.20, ELI

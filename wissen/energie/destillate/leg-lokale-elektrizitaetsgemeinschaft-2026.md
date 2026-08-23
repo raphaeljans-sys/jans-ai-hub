@@ -171,4 +171,5 @@ solange der Speicherbetreiber die Bilanz-Bedingung einhält:
 **Backlinks:** ZEV/vZEV hinter dem Anschluss [[zev-eigenverbrauch-mfh-her-2025]] · ZEV-Mieterpreis
 [[zev-mieter-strompreis-eigenverbrauch]] · Themenartikel [[pv-eigenverbrauch-zev]] · PV-Ertrag/EV-Praxis
 [[pv-ertrag-eigenverbrauch-praxis]] · Batteriespeicher [[batteriespeicher-heimspeicher-pv-ch]] ·
+EVG/Solarsplit-Abgrenzung (Areal mit getrennten Anschlusspunkten) [[evg-eigenverbrauchsgemeinschaft-solarsplit]] ·
 Energierecht → Skill `baurecht`.

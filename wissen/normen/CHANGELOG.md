@@ -1,3 +1,49 @@
+## 2026-08-23 — SIA-Sweep, achte Fortsetzung: N-SIASWEEP-4 geschlossen (SIA 405:2025 ersetzt SIA 405/2015/2016/2045:2012, primärquellenbelegt), SharePoint-Bestand unverändert
+
+**Auftrag Raphael:** SIA-Sweep fortsetzen — zwei neue Wege: (1) SNV-Webshop `connect.snv.ch`
+für die drei verbliebenen offenen Fragen N-SIASWEEP-2/3/4 (SIA 422, SIA 2021/2025, GEO405-
+Familie), (2) frischer SharePoint-Abgleich gegen den 140-Dateien-Stand der fünften
+Fortsetzung. Vorlauf gelesen: dieser CHANGELOG (Kopf: sechster QUESTIONS-Lauf) sowie die
+siebte SIA-Sweep-Fortsetzung, die sieben unabhängige Web-/Dateisystem-Quellenarten für
+N-SIASWEEP-2/3/4 bereits als erschöpft dokumentiert hatte.
+
+**1. N-SIASWEEP-4 GESCHLOSSEN — echter Primärquellenfund.** Die Produktseite `shop.sia.ch/
+normenwerk/ingenieur/405_2025_d/D/Product` verlinkt eine kostenlose Leseprobe (PDF), deren
+Abschnitt „Genehmigung und Gültigkeit" im Originalwortlaut bestätigt: SIA 405:2025 (genehmigt
+25.06.2025, gültig ab 01.08.2025) ersetzt gleichzeitig die alte Norm SIA 405 sowie die
+Merkblätter SIA 2015, SIA 2016 und SIA 2045, alle Ausgabe 2012. Damit ist die seit der
+zweiten Fortsetzung nur über Sekundärquellen vermutete GEO405-Konsolidierung erstmals am
+Original selbst belegt (nicht nur Webinar-Vorwissen/Fachartikel), unabhängig zweitbestätigt
+über `connect.snv.ch/de/sn-532405-2025`. Neuer Fund aus dem Vorwort: die Merkblatt-Inhalte
+gingen in SIA 405 oder die **neue Wegleitung SIA 4008** über — SIA 4008 ist erstmals bekannt,
+aber noch nicht in der KB erfasst (neue Bring-Schuld). Neues Destillat
+`destillate/sia-405-2025-vorwort.md` (nur Frontmatter/Vorwort/Genehmigungstext, `established`
+für das Gelesene; die materiellen Fachkapitel 0-7/Anhang A/B sind ausdrücklich als nicht im
+Haus gekennzeichnet).
+
+**2. N-SIASWEEP-2/3 bleiben offen — SNV-Webshop als achte Quellenart ohne Fortschritt.**
+`connect.snv.ch` für SIA 422, SIA 2021 und SIA 2025 direkt abgerufen: bestätigt unabhängig
+exakt dieselben Metadaten wie `shop.sia.ch` (archiviert, kein Nachfolger benannt). Einzige
+Randnotiz: SNV nennt für SIA 2025:2012 ein abweichendes Gültig-ab-Datum (01.04. statt
+01.06.2012) — kleine, ungeklärte Differenz ohne Einfluss auf die eigentliche Frage.
+
+**3. SharePoint-Bestand `SIA_Norm/` unverändert.** Frischer Vollabgleich per
+`connectors/m365-graph.mjs` gegen den Stand der fünften Fortsetzung: `alle/` weiterhin exakt
+140 Dateien (Namensabgleich), die sieben norm-eigenen Unterordner weiterhin 16 Dateien;
+jüngste Änderung 07.08.2026, vor dem letzten Scan. Kein neuer Volltext für SIA 380:2015,
+SIA 269/8:2017, SIA 4018:2023, SIA 4020:2026 oder eine der 25 in der vierten Fortsetzung
+genannten Nachfolgenormen — ehrlicher Negativbefund.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreiben geprüft — `wiki/QUESTIONS.md`
+49/1 (die eine entfernte Zeile ist die selbst editierte N-SIASWEEP-4-Überschrift, ersetzt
+durch erweiterte Fassung, kein Inhaltsverlust), `wiki/REGISTER.md` 10/7 (sieben entfernte
+Zeilen sind exakt die sieben eigenen Zeilen-Erweiterungen SIA 405/2015/2016/2045/422/2021/
+2025, Inhalt vollständig erhalten und ergänzt), `destillate/INDEX.md` 1/0 additiv.
+
+Report: `outputs/2026-08-23_sia-sweep-achte-fortsetzung.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung, sechster Lauf: BRL-13-15-Doppelbestand kanonisiert (established > speculative), N57-3 gegenstandslos, N59-4 methodisch nachgeschärft
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

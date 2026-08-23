@@ -53,11 +53,15 @@ Aufstockung). Zwei Stossrichtungen:
 
 ## Offene Punkte / nicht im Dossier
 - Keine U-Werte, kein λ fuer Stroh, keine Minergie-/EN-Kennzahlen — reines Vermarktungsdossier.
-- Strohdaemmung: eigene belegte Quelle (Bemessungswert, Brandschutz RF, Feuchteverhalten) waere fuer
-  die KB wertvoll → QUESTIONS.
-- «Solarsplitvertrag» / ZEV-Vertragsmodell: rechtlich/wirtschaftlich vertiefen (→ Skill `baurecht`
-  fuer Energierecht, ZEV/vZEV nach EnG).
+- Strohdaemmung: eigene belegte Quelle (Bemessungswert, Brandschutz RF, Feuchteverhalten) ist seit
+  13.07.2026 vorhanden → `[[strohdaemmung-bemessungswert-brandschutz]]`.
+- ✓ **«Solarsplitvertrag» eingeordnet (23.08.2026):** technisch ein **EVG/vZEV-Vertragsmodell**
+  (Verteilnetzbetreiber übernimmt Messung/Abrechnung/Auszahlung, Teilnehmer bleiben VNB-Kunde,
+  gemeinsamer Netzanschlusspunkt vorausgesetzt) — kein eigener Rechtsbegriff des EnG. Details,
+  Quellen und Einschränkungen (Web-Sekundärquellen, `emerging`) in
+  `[[evg-eigenverbrauchsgemeinschaft-solarsplit]]`.
 
 ## Backlinks
 [[graue-energie-betriebsenergie]] · [[graue-energie]] · [[daemmstoffe-lambda]] ·
-[[clt-schallschutz-stora-enso]] · [[holzbau-bauphysik-clt]] · PV-Pflicht/ZEV → FAQ F10 / Skill `baurecht`
+[[clt-schallschutz-stora-enso]] · [[holzbau-bauphysik-clt]] ·
+[[evg-eigenverbrauchsgemeinschaft-solarsplit]] · PV-Pflicht/ZEV → FAQ F10 / Skill `baurecht`

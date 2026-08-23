@@ -22,6 +22,7 @@ jeder Eintrag von mindestens einem Wiki-Artikel zitiert wird.
 | 260823_amtlich_zh_formulare-laermschutz-fals-formularS.md | 260823 | Kt. ZH Fachstelle Lärmschutz + Formular S (Struktur-Extrakt aus amtlichen Formularen im Projektordner 2414 Thalwil) | [[laermschutz-und-nichtionisierende-strahlung]] | eingearbeitet |
 | 260823_amtlich_sz_strassengesetz.md | 260823 | sz.ch (SRSZ 442.110, amtlich, direkt bezogen, SRSZ-Stand 1.2.2025) | [[strassenabstand-zufahrten-vorteilsabgabe-sz]] | eingearbeitet, Primärquelle-Volltext (gemeinfrei) — Direktkonsultation, ersetzt die bisherige Sekundärquelle (Merkblatt-Auszug) |
 | 260823_amtlich_sz_strassenverordnung.md | 260823 | sz.ch (SRSZ 442.111, amtlich, direkt bezogen, SRSZ-Stand 1.2.2025) | [[strassenabstand-zufahrten-vorteilsabgabe-sz]] | eingearbeitet, Primärquelle-Volltext (gemeinfrei) — Direktkonsultation, ersetzt die bisherige Sekundärquelle (Merkblatt-Auszug) |
+| 260823_amtlich_ch_gschv-anhang4.md | 260823 | Fedlex (SR 814.201, ELI 1998/2863_2863_2863, Stand 1.12.2025), direkt bezogen über `fedlex.data.admin.ch`-Filestore | `wiki/QUESTIONS.md` (Frage B geklärt, keine Wiki-Absorption nötig — reines Negativergebnis) | eingearbeitet, Primärquelle-Volltext (gemeinfrei Art. 5 URG) — Direktkonsultation |
 
 **Hinweis Primärquelle-Volltexte (`*_amtlich_*`):** amtliche, konsolidierte Gesetzes-Volltexte
 (gemeinfrei nach Art. 5 URG), gezogen mit `skills/baurecht/connectors/recht-ch.mjs`. Sie sind die
