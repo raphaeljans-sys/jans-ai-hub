@@ -178,6 +178,21 @@ Dachfläche statt 5 bis 6, 504 Montagehaken, und rund CHF 5'900 grössenunabhän
 (Gerüst/Absturzsicherung, Projektleitung, Blitzschutz, Überwachung, Inbetriebnahme), die bei einer
 Kleinanlage 10 % der Investition ausmachen. Einzelfall, keine Marktstatistik — aber vor dem
 Systementscheid zu nennen. → [[BAUHERREN-FAQ]] F253/F254, `[[pv-ertrag-eigenverbrauch-praxis]]`.
+**Zweite Quelle geprüft und schliesst E-R150-2 mit einer wichtigen Unterscheidung (23.08.2026):**
+Die amtlichen BFE-Preisbeobachtungsstudien Photovoltaikmarkt 2022/2023 (Planair SA für
+EnergieSchweiz, 181 integrierte Anlagen, pubdb.bfe.admin.ch/de/publication/download/11449) und
+2024 (dieselben Autoren, download/12226) beziffern **integrierte/Indach-Anlagen allgemein** mit
+**13 bis 28 % Mehrkosten** gegenüber Aufdach (Median je Leistungsbereich, Jahrgang 2022/23;
+Unterkonstruktion/Spenglerarbeiten nicht eingerechnet, reale Mehrkosten eher höher), Jahrgang 2024
+zeigt keinen signifikanten Unterschied mehr. **Keramische Solarziegel im engeren Sinn** (wie
+MATCH tile) werden in beiden Studien nur einmal qualitativ als Beispiel für architektonische
+Sonderwünsche mit «erheblichen Mehrkosten» genannt, ohne CHF/kWp-Zahl. Die Faustregel «~doppelt»
+ist damit für die **breitere Indach-Kategorie amtlich zu hoch** (13-28 % ist belegt, nicht 100 %),
+bleibt aber für **Solarziegel im engeren Sinn unbelegt** — der Willerzell-Einzelfall (130-210 %
+Mehrpreis) liegt deutlich über beiden BFE-Bandbreiten und spiegelt vermutlich die Sonderstellung
+eines diskreten keramischen Produkts, nicht der breiteren Indach-Kategorie. Bis eine amtliche
+Solarziegel-Zahl vorliegt: «~doppelt» als unbelegte Faustregel für Solarziegel im engeren Sinn
+kennzeichnen, für Indach allgemein den belegten BFE-Wert (13-28 %) nennen.
 **Mittlere Lebensdauer 33 Jahre** (Swissolar); Batteriespeicher 10–15 kWh ~6'000–10'000 CHF
 (42 % der neuen Wohnanlagen bauen einen). Stellschrauben statt absoluter Zahlen: PV rechnet sich, wenn
 die Amortisation **unter der Lebensdauer** liegt — Förderung (Bundes-Einmalvergütung ~3'600 CHF/10 kWp

@@ -283,11 +283,16 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
 
 > Die folgenden Punkte sind **JANS-Arbeitshypothesen**, nicht Buchtext.
 
-- **Heizungsersatz im Bestand (§§ 295-298 PBG):** Bei Heizungssanierungen den
-  Hoechstanteil-80%-Riegel (§ 47a BBV I / § 10a EnerG) **frueh** mit dem Bauherrn klaeren —
-  reiner Kesseltausch ist oft nur attestpflichtig, ein Systemwechsel aber
-  bewilligungspflichtig. Relevant fuer `ankaufspruefung` (CapEx Heizung) und
-  `energie-berater`.
+- **Heizungsersatz im Bestand (§§ 295-298 PBG):** Bei Heizungssanierungen das **Fossilverbot
+  fuer Waermeerzeuger (§ 11 Abs. 1 EnerG)** samt Ersatzpflicht/Lebenszykluskosten-Vorbehalt fuer
+  Bestandesbauten (§ 11 Abs. 2-4 EnerG, seit 1.9.2022) **frueh** mit dem Bauherrn klaeren
+  ⚠ *(korrigiert 2026-08-23: den bis dahin hier genannten «Hoechstanteil-80%-Riegel § 47a BBV I /
+  § 10a EnerG» gibt es seit 1.9.2022 nicht mehr — § 10a EnerG ist heute der allgemeine
+  Neubau-Grundsatz, § 47a BBV I traegt die Grenzwerttabelle fuer Neubauten; der Bestandesfall
+  laeuft ueber § 11 EnerG. Beleg: `raw/260607_amtlich_zh_bbv1.md` Z. 687 ff.,
+  `raw/260712_amtlich_zh_energ.md`, Wissens-Chef-Befund T-09 260823.)* — reiner Kesseltausch ist
+  oft nur attestpflichtig, ein Systemwechsel aber bewilligungspflichtig. Relevant fuer
+  `ankaufspruefung` (CapEx Heizung) und `energie-berater`.
 - **Energieplan-Anschlusspflicht (§ 71 / § 295 Abs. 2 PBG):** vor jeder Machbarkeit/TDD in
   ZH-Gemeinden pruefen, ob die Parzelle in einem **Fernwaerme-/Energieplangebiet** liegt —
   das kann die Waermeerzeugung praedeterminieren. → `planungsgrundlagen` / OEREB.

@@ -144,12 +144,49 @@
 > direkt auf V3 zu wechseln** — nicht ein duenner Lauf als voller ausweisen. Die
 > Endbedingung der Etappe gilt unveraendert.
 >
-> **Fuer V3 vorgemerkt:** die Zusammenfuehrung von H8 (Healthcare) und S7 (Schulbau) — zwei
-> verwandte, nicht deckungsgleiche Beobachtungen zur Frage, an welcher Kennzahl Jurys
-> Wirtschaftlichkeit messen. Ausserdem die differenzierte Umschrift der Kopfzeile von
-> Abschnitt 2.5 und die Frage an Raphael, ob ein sechster Subtyp «ambulante Praxis-/
-> Ambulatoriumsbauten» eroeffnet werden soll (das braeuchte neues Quellmaterial und
-> widerspraeche der Etappen-4-Vorgabe — **Entscheid Raphael, nicht durch den Loop**).
+> **Fuer V3 vorgemerkt (offen geblieben, siehe unten):** die Zusammenfuehrung von H8
+> (Healthcare) und S7 (Schulbau) — zwei verwandte, nicht deckungsgleiche Beobachtungen zur
+> Frage, an welcher Kennzahl Jurys Wirtschaftlichkeit messen. Ausserdem die differenzierte
+> Umschrift der Kopfzeile von Abschnitt 2.5 und die Frage an Raphael, ob ein sechster Subtyp
+> «ambulante Praxis-/Ambulatoriumsbauten» eroeffnet werden soll (das braeuchte neues
+> Quellmaterial und widerspraeche der Etappen-4-Vorgabe — **Entscheid Raphael, nicht durch
+> den Loop**).
+>
+> ---
+>
+> ### STAND 23.08.2026 nach Lauf 04: **V2 WOHNUNGSBAU ALS UNBAUBAR BESTAETIGT, V3 GELIEFERT —
+> ETAPPE 4 INHALTLICH ABGESCHLOSSEN**
+>
+> **Quellenlage-Vorpruefung (Pflicht) durchgefuehrt und bestaetigt die Vorwarnung aus Lauf 03:**
+> 2207 Schliengerweg hat keinen Jurybericht im Archiv; 2503 Glockenacker hat ausser drei
+> ArchiCAD-Transferdateien keine Unterlagen (kein Programm, kein Jurybericht, keine
+> Abgabe-PDFs); 2205 Guggerbach ist bereits in Lauf 03 unter Healthcare-Subtyp 2.5 ausgewertet.
+> **Kein substanzieller V2-Wohnungsbau-Lauf bildbar** — gemaess Endbedingung direkt auf V3
+> gewechselt, kein duenner Lauf als voller ausgewiesen.
+>
+> **V3 Verdichtung geliefert:** `wiki/muster/delta-zum-ersten-rang.md` erhaelt einen neuen
+> Abschnitt «Priorisierte Liste — was kostet am haeufigsten den Sieg», der die 12 Verlust-Befunde
+> (Befund 1 als konstante Staerke ausgenommen) nach Haeufigkeit ueber die 7 Verfahren mit
+> Jury-Delta stuft: **Stufe A (>=3/7, haeufigster Kostenfaktor):** Befund 2 Betrieb/Nutzerlogik
+> (5/7), Befund 3 Gesten ohne Nutzen (3/7), Befund 5 Koerper-Gliederung (3/7). **Stufe B (2/7):**
+> Befund 4, 6, 8, 9. **Stufe C (1/7, Einzelbeleg):** Befund 7, 10, 11, 12, 13 — ausdruecklich als
+> Haeufigkeits-, nicht Schweregrad-Metrik markiert. Ein unabhaengiger Refuter hat alle 12
+> Verfahrenszaehlungen geprueft, **VERDIKT BESTANDEN**, eine stilistische Praezisierung
+> eingearbeitet. Report `outputs/2026-08-23_etappe4-vertiefung-04.md`.
+>
+> **Damit sind alle drei Bausteine der Etappe 4 (V1 Tiefen-Angleich, V2 Rueckkopplung, V3
+> Verdichtung) bearbeitet bzw. auf das strukturelle Maximum der vorhandenen Quellenlage
+> gebracht — die Etappe gilt als inhaltlich abgeschlossen.** Kein weiterer Baustein offen.
+> Verbleibend sind Nebenaufgaben, keine Etappen-Bausteine: die vorgemerkte Zusammenfuehrung
+> H8/S7 zur Wirtschaftlichkeits-Kennzahl, die Volltext-Umlaut-Sanierung von
+> `delta-zum-ersten-rang.md` (QUESTIONS.md, bewusst als eigener mechanischer Lauf zurueckgestellt),
+> der raumweise Kennwert-Quervergleich 2408 aus der Planbeilage, sowie der weiterhin ausstehende
+> Jurybericht 2501 Steinfabrik (waechst das Delta-Muster automatisch, sobald er eintrifft).
+>
+> **Empfehlung fuer den Takt:** `wettbewerbs-dna-training` von aktiver Vertiefung auf
+> Beobachtungstakt zuruecknehmen (analog dem Beobachtungsmuster vor Etappe 3), bis entweder ein
+> neuer Jurybericht eintrifft oder Raphael eine neue Richtung entscheidet (Etappe 5 oder erneute
+> Reaktivierung). Entscheid ueber den Takt bleibt bei Raphael.
 
 Loop: `wettbewerbs-dna-training` · Station: **MacBook Pro** (Zuteilung 12.07.2026;
 OneDrive-Archiv hier lesbar, TCC geprueft). Takt **historisch** (bis 27.07.2026): taeglich
@@ -192,6 +229,9 @@ je Ziel-Bauaufgabe) — Bauaufgaben-Prioritaeten vorher bei Raphael abholen (QUE
 | 5 | 13.07.2026 (5. Lauf) | **Letzter offener Endbedingung-Punkt Etappe 2 erledigt: Bild-/Referenz-Katalog `_Admin/03_Referenzen_WB_Abgaben` indexiert** — neuer established-Artikel `wiki/referenz-katalog.md` (~250 Dateien, 10 Themen-Ordner je speisendem Agenten zugeordnet: schema-zeichner/plakat-setzer/flaechen-nachweis/grobkosten-onepager/volumenstudie). Reines Direkt-Inventar, per Ordner-Listing verifiziert. Zusaetzlich 5. Beobachtung 2501/2507: lokal unveraendert (2501 19.03.2026, 2507 12.11.2025), extern konkurado.ch fuer 2501 weiter ohne downloadbaren Jurybericht — kein neues Material | erledigt (Katalog indexiert, Endbedingung Etappe 2 nun auch im Deliverable-Teil vollstaendig) |
 | Beobachtung 6 | 20.07.2026 (Dauerschicht-Zyklus 15) | **BEFUND: 2507 Halden entschieden** — Sieger «ZVIERI» (Richter Tobler GmbH, Basel), einstimmig, 51 Beitraege; Medienmitteilung stadt.sg.ch 02.04.2026; **Jurybericht-PDF (Stand 14.04.2026) auf stadt.sg.ch publiziert** (>10 MB, Download braucht Freigabe). espazium war >3 Monate veraltet → Methoden-Lehre: Ausloberin-Website mitpruefen (QUESTIONS). 2501 unveraendert (konkurado, 6. Pruefung); lokal beide Ordner ohne neue Dateien. **Naechste Lektion: Jurybericht beschaffen + destillieren (Dossier-Ergebnisteil, Rang LIMO, Delta-Muster, Refuter)** | erledigt (Blocker 2507 GELOEST, Destillation faellig) |
 | **E4-01** | **03.08.2026** | **Etappe 4, Baustein V1 — Vertiefung 2408 BIWAK/Grassen.** Quellenlage-Pruefung vorab: nur 1 der 5 V1-Teilnahmen hat einen Jurybericht → V1 nach diesem Lauf erschoepft, Ausgangsbefund der Etappe als Quellenlage-Messung korrigiert. Inhalt: Befunde 12+13 neu, Befunde 2/3/6 geschaerft, 2 Kurzschluesse korrigiert (Fuenfeck-Referenz und Standorttreue trennten NICHT), Faktenkorrektur 68 Projekteingaben. 2 unabhaengige Refuter, beide NICHT BESTANDEN, 9 Beanstandungen eingearbeitet; Refuter-Dissens zur Seitenzahl selbst am Original entschieden. Report `outputs/2026-08-03_etappe4-vertiefung-01.md` | erledigt |
+| **E4-02** | **13.08.2026** | **Etappe 4, Baustein V2 Schulbau.** 3 Schulbau-Beitraege (2102/2103/2206) gegen alle 12 Siegargumente aus `jury-argumente-schulbauten.md` gestellt, neuer Abschnitt 7 (3x12-Matrix). Refuter NICHT BESTANDEN, 7 Beanstandungen eingearbeitet. Report `outputs/2026-08-13_etappe4-vertiefung-02.md` | erledigt |
+| **E4-03** | **17.08.2026** | **Etappe 4, Baustein V2 Healthcare.** Quellenlage-Vorpruefung findet zusaetzlich 2205 Guggerbach; 2 Beitraege (2101/2205) gegen `jury-argumente-healthcare.md`-Katalog gestellt, neuer Abschnitt 7 (2x12-Matrix, 2 neue Codes). Refuter NICHT BESTANDEN, 8 Beanstandungen eingearbeitet. Report `outputs/2026-08-17_etappe4-vertiefung-03.md` | erledigt |
+| **E4-04** | **23.08.2026** | **Etappe 4, Baustein V2 Wohnungsbau (unbaubar bestaetigt) + Baustein V3 Verdichtung.** Quellenlage-Vorpruefung bestaetigt: 2207 kein Jurybericht, 2503 keine Unterlagen ausser CAD, 2205 bereits in E4-03 verarbeitet → kein V2-Lauf bildbar, direkt V3. Neuer Abschnitt in `delta-zum-ersten-rang.md`: 12 Verlust-Befunde nach Haeufigkeit ueber 7 Verfahren gestuft (Stufe A >=3/7: Befund 2/3/5; Stufe B 2/7: Befund 4/6/8/9; Stufe C 1/7: Befund 7/10/11/12/13). Refuter BESTANDEN, 1 stilistische Praezisierung eingearbeitet. **Damit alle drei Etappen-4-Bausteine (V1/V2/V3) auf strukturellem Maximum — Etappe 4 inhaltlich abgeschlossen.** Report `outputs/2026-08-23_etappe4-vertiefung-04.md` | erledigt |
 | Nachbrenner-Fix | 13.07.2026 | **`muster/jury-argumente-schulbauten.md` von draft auf established gehoben:** die 10 Korrekturauflagen aus dem durchgefallenen Refuter-Erstlauf (Fehlzuordnungen Fermate/Froeschmatt/Merian-LINK/Muhen/Sandgruben/Merian-COMEPURE, uebertriebene Quellenzahl, dekorative Steinhof/Schoental-Verlinkung) einzeln gegen die Rohquellen in `raw/` korrigiert und mit Zitat/Seite belegt. Fokussierter Zweitlauf (unabhaengiger Refuter-Agent) prueft alle 10 Punkte gegen die Originaltexte: 9/10 sofort bestaetigt, 1 Praezisierung (Heilpaed.-Bern-Ausschluss gehoert zum Abschnitt «Ausschluss von der Preiserteilung», nicht «2. Wertungsrundgang») nachgezogen und selbst verifiziert. Status jetzt `established` | erledigt |
 
 **Endbedingung Etappe 2 VOLLSTAENDIG ERREICHT (13.07.2026):** alle 11 destillierbaren

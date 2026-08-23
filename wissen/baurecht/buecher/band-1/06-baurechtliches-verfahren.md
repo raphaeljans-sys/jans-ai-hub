@@ -114,9 +114,14 @@ das, verwirkt er den spaeteren Rekurs.
     Neu-/Umbauten **rot**, abzubrechende Teile **gelb** (§ 3 Abs. 1 lit. a BVV; RB 1987 Nr. 12; bei
     Umbauten Klarheit ueber Gegenstand des Gesuchs/der Bewilligung). (S. 378)
   - Angaben zu Materialien/Farben (in Kernzonen/bei schuetzenswerten Objekten rechtsrelevant);
-    Plan der Liegenschaftsentwaesserung; **Energiebedarfsdeckung-Nachweis** (§ 10a EnerG: Neubauten
-    duerfen hoechstens 80 % der zulaessigen Energiebedarfs fuer Heizung/Warmwasser mit nicht
-    erneuerbaren Energien decken); Berechnung der erforderlichen Fahrzeugabstellplaetze;
+    Plan der Liegenschaftsentwaesserung; **Energiebedarfsdeckung-Nachweis** ⚠ *(korrigiert
+    2026-08-23: der hier genannte «80-%-Riegel § 10a EnerG» existiert seit 1.9.2022 nicht mehr —
+    § 10a EnerG ist heute der allgemeine Neubau-Grundsatz sparsamer Energienutzung, die konkrete
+    Anforderung fuer Neubauten ist die **Grenzwerttabelle des gewichteten Energiebedarfs je
+    Gebaeudekategorie in § 47a BBV I** (z.B. Wohnen MFH/EFH 35 kWh/m²) samt Fossilverbot
+    § 11 Abs. 1 EnerG. Beleg: `raw/260607_amtlich_zh_bbv1.md` Z. 687 ff.,
+    `raw/260712_amtlich_zh_energ.md`, Wissens-Chef-Befund T-09 260823)*; Berechnung der
+    erforderlichen Fahrzeugabstellplaetze;
     **Laermgutachten**, Emissionserklaerung, Umweltvertraeglichkeitsbericht (§ 310 Abs. 1 PBG);
     bei Unterschreitung des nachbarlichen Grenzabstandes der **Nachweis des Naeherbaurechts**
     (§ 5 lit. l BVV; vgl. [[abstaende-und-hoehen]]); aktuelle Fotos des Zustands. (S. 378-379)
@@ -227,7 +232,7 @@ das, verwirkt er den spaeteren Rekurs.
 | Vorpruefung — Ergaenzungsfrist (Ordnungsfrist) | **21 Tage / 3 Wochen** seit Einreichung | § 313 Abs. 1 PBG; § 11 BVV; S. 391 |
 | Solaranlage — Einspruch ordentliches Verfahren | **30 Tage** seit Eingang der Anzeige | Art. 18a RPG; § 24 BVV; S. 341 |
 | Temporaere Baute bewilligungspflichtig ab | Praxis **30 Tage** Dauer (Stadt ZH/AfB) | RB 1996 Nr. 83; S. 346 |
-| Energiebedarf nicht erneuerbar (Neubau) | hoechstens **80 %** | § 10a EnerG; S. 378 |
+| Energiebedarf nicht erneuerbar (Neubau) | ⚠ **ueberholt seit 1.9.2022** — heute Grenzwerttabelle je Gebaeudekategorie | § 47a BBV I (statt § 10a EnerG); Buchstand S. 378 war 2019 korrekt, korrigiert 2026-08-23 |
 | Planfarben Situationsplan | bleibend **schwarz** / neu **rot** / Abbruch **gelb** | § 3 Abs. 1 lit. a BVV; S. 378 |
 | Zweifel an Bewilligungspflicht | im Zweifel **bejahen** | § 309 PBG; BEZ 2016 Nr. 42; S. 342 |
 | Aussteckung — Dauer | mind. bis Abschluss der oeffentlichen Auflage | § 311 Abs. 2 PBG; S. 396 |

@@ -95,11 +95,28 @@ Recht** — es gibt drei Stufen:
    > [[laermschutz-und-nichtionisierende-strahlung]].
    >
    > Norm-Destillat `wissen/normen/destillate/sia-181-2006`; ⚠ neuere Ausgabe SIA 181:2020,
-   > Re-Destillat in `normen` ausstehend. **Offen:** die im Buch (S. 85) genannte
-   > Teilverbindlichkeit von **SIA 380/1** «Thermische Energie im Hochbau» ist am geltenden
-   > BBV-I-Anhang ebenfalls nicht mehr belegbar (dort nur die Wärmedämmvorschriften der
-   > Baudirektion, Ziff. 1.11) — der energierechtliche Weg läuft heute über EnerG/BEN;
-   > als offene Frage in `QUESTIONS.md` geführt, nicht geraten.
+   > Re-Destillat in `normen` ausstehend. **SIA 380/1 geklärt (2026-08-23):** die im Buch
+   > (S. 85) genannte Teilverbindlichkeit von **SIA 380/1** «Thermische Energie im Hochbau»
+   > ist am geltenden BBV-I-Anhang tatsächlich nicht mehr belegbar (dort nur noch Ziff. 1.11
+   > «Wärmedämmvorschriften der Baudirektion», Ziff. 1.12/1.2/1.21 aufgehoben per 1.9.2022,
+   > `raw/260607_amtlich_zh_bbv1.md` Z. 1005-1012/1387-1390) — der Name «SIA 380/1» kommt im
+   > gesamten BBV-I-Volltext nicht mehr vor. Die Verbindlichkeit läuft heute **mittelbar über
+   > die Wärmedämmvorschriften der Baudirektion (WDV, LS 700.211, RRB 8.6.2022)**: § 2 WDV
+   > («Wärmeschutz der Gebäudehülle») und § 8 Abs. 2 WDV verweisen wörtlich auf **SIA 380/1,
+   > Ausgabe 2016** als Nachweisgrundlage (Cross-KB-Beleg, nicht baurecht-eigen:
+   > `wissen/energie/destillate/waermedaemmvorschriften-zh-2022.md`,
+   > `wissen/energie/destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`). SIA 380/1:2016
+   > bleibt die aktuell geltende Ausgabe, keine Nachfolgeausgabe 2023-2025
+   > (`wissen/energie/destillate/sia-380-1-aktualitaets-check-2026.md`). Materiell ändert sich
+   > damit nichts an der Buch-Aussage — die Norm ist weiterhin verbindlich —, nur der
+   > Rechtsweg hat sich verschoben: nicht mehr direkte BBV-I-Anhangnennung, sondern
+   > EnerG § 10a → BBV I § 47a (Grenzwerttabelle) → WDV § 2/§ 8 → SIA 380/1:2016. Die im Buch
+   > verwendete Normbezeichnung «Thermische Energie im Hochbau» ist zudem der Titel der
+   > **Ausgabe 2009**; seit Ausgabe 2016 heisst die Norm «Heizwärmebedarf» — spricht dafür,
+   > dass die Buchstelle (6. Aufl. 2019) einen älteren Anhang-Stand vor der Novelle vom
+   > 8.6.2022 spiegelt. Offen bleibt nur, ob vor 1.9.2022 tatsächlich eine direkte
+   > SIA-380/1-Nennung in Ziff. 1.2 BBV I stand — die Vorgängerfassung liegt im Hub nicht vor,
+   > diese Rekonstruktion ist plausibel, aber unbelegt.
 2. **Beachtliche Normen** — vom Regierungsrat für massgeblich erklärt (§ 2 lit. a /
    **§ 360 Abs. 3 PBG**); **Abweichung nur «aus wichtigen Gründen»** (S. 85).
 3. **Weitere Normen** — ohne ausdrückliche Verbindlichkeit (SIA 358 «Geländer und

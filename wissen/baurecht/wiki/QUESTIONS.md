@@ -124,9 +124,25 @@ Abschnitt 2026-07-15) stützte sich unter anderem auf die «VSS-Rampen-/Parkieru
 Korrekturvermerk gesetzt. Der Vorschlag als solcher wird durch diesen Lauf weder erneuert noch
 zurückgezogen — das entscheidet Raphael.
 
-## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — OFFEN: Absturzsicherung im Bestand, und die SIA-358-Ausgabe
+## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — Frage 1 ✅ ERLEDIGT 2026-08-23, Frage 2 bereits GESCHLOSSEN (Run 24)
 
-**Frage 1 — Bestandesschutz und Absturzsicherung.** Wie verhält sich § 357 PBG (nach diesem KB
+**Frage 1 — geschlossen 2026-08-23.** Die drei Aussagen widersprechen sich nicht, sie betreffen
+verschiedene Normstufen. Die Richtlinie Stadt Zürich «Absturzsicherungen im Hochbau» (aktuell
+Merkblatt vom 1.1.2024, löst 1.6.2019 ab, inhaltlich zur 15-%-Frage unverändert) nennt in ihrer
+eigenen Grundlagenliste § 239 Abs. 1, **§ 357 Abs. 4**, § 358 PBG und § 20 BBV I — sie schafft
+damit **keine eigene Rechtsgrundlage** über Abs. 4 hinaus. Die 15-%-Schwelle konkretisiert
+ausschliesslich den unbestimmten Rechtsbegriff «zumutbar» in Abs. 4 (Verbesserungspflicht bei
+laufender Bewilligung), nicht die «keine feste Quote»-Doktrin von Abs. 1. Für erhebliche
+polizeiliche Missstände greift zusätzlich § 358 PBG als eigenständiger, vom Bewilligungsverfahren
+unabhängiger Track (Behebung von Amtes wegen). Die bfu-Aussage ist keine PBG-Auslegung, sondern
+eine unverbindliche Fachmeinung, begrifflich näher an der Abs.-1-Logik als an der Abs.-4/15-%-
+Praxis — nicht gleichsetzen. Eingearbeitet in [[ausnahmebewilligung-und-bestandesschutz]]. Offen
+bleibt nur: BEZ 2019 Nr. 5 (Entscheidtext ungelesen) und ob die 15-%-Schwelle je durch das
+Baurekursgericht ZH bestätigt wurde (eigene Rechtsprechungsrubrik, nicht ausgewertet) — beides
+nicht deskrecherchierbar aus dem Hub-Bestand.
+
+**Ursprüngliche Frage 1 (referenzhalber) — Bestandesschutz und Absturzsicherung.** Wie verhält
+sich § 357 PBG (nach diesem KB
 **kein** numerischer Schwellenwert, Grenze im Einzelfall bei der neubauähnlichen Umgestaltung) zur
 **15-%-Anpassungsschwelle** der Richtlinie Stadt Zürich «Absturzsicherungen im Hochbau» (1.6.2019)
 und zur bfu-Aussage, bestehende Bauten genössen «in der Regel zwar einen Bestandesschutz, dies gilt
@@ -194,9 +210,23 @@ geändert** — nur die Frage angemeldet; führend für Ausgabe und Kennwert ist
 > stichprobenweise gegen die Buchseiten gegenzulesen, bevor ihr Status `established` fortgeführt
 > wird. *(Aufgenommen Run 24.)*
 
-## 2026-07-29 (Wissens-Chef Run 20) — P1: der Wasserversorgungsteil des WsG (§§ 95-100) ist im ganzen Hub unverarbeitet
+## 2026-07-29 (Wissens-Chef Run 20) — ✅ ERLEDIGT 2026-08-23: der Wasserversorgungsteil des WsG (§§ 93-101) ist jetzt destilliert
 
-**Befund.** Der WsG-Volltext liegt seit dem 28.07.2026 im Haus
+**Geschlossen 2026-08-23.** §§ 93-101 WsG und § 178 WsV vollständig gelesen und in
+[[baureife-und-erschliessung]], Abschnitt «Versorgung & Entsorgung (§ 236 PBG)», eingearbeitet.
+Kernaussagen mit Fundstelle: **Bezugspflicht** der Grundeigentümer im Einzugsbereich einer
+Wasserversorgungsanlage, sofern keine andere Versorgung mit einwandfreier Qualität/Menge/Druck
+besteht (§ 97 Abs. 1 WsG, `raw/260803_amtlich_zh_wsg.md` Z. 1363-1367); auf Verordnungsebene
+konkretisiert als **Anschlusspflicht** mit näher definierter Ausnahme (§ 178 Abs. 1/3 WsV,
+`raw/260803_amtlich_zh_wsv.md` Z. 2090-2105); **Regenwasser als Brauchwasser** in getrennten
+Systemen zulässig und gebührenfrei (§ 97 Abs. 3 WsG, Z. 1374-1376); Messpflicht (§ 98 WsG),
+Übernahme privater Leitungen (§ 99 WsG), Finanzierung sinngemäss nach §§ 61 f. WsG (§ 100 WsG);
+Träger/Aufsicht Gemeinden/Baudirektion (§§ 94/95 WsG, Zweck § 93 WsG). Damit kann `energie` vom
+SVGW-Merkblatt 2001 auf die kantonale Norm umstellen (Cross-KB-Hinweis bereits in energie-Destillat/
+FAQ F186 gesetzt, Run 20). Offen bleibt nur die praktisch irrelevante 1:1-Zuordnung der einzelnen
+Buch-zitierten WWG-Bestimmungen (§ 27 WWG) — der Zweckartikel § 93 WsG trägt dieselbe Substanz.
+
+**Ursprünglicher Befund (referenzhalber).** Der WsG-Volltext liegt seit dem 28.07.2026 im Haus
 (`raw/260803_amtlich_zh_wsg.md`, LS 724.1, Nachtrag 133, in Kraft seit 01.06.2026), aber der
 **6. Abschnitt Wasserversorgung** ist nie destilliert worden. Gegenprobe des Verifikations-Agenten:
 `grep` nach «Bezugspflicht», «Anschlusspflicht Wasser» und «§ 178 WsV» über `wiki/` und `buecher/`
@@ -305,15 +335,27 @@ damit ohne Nachfolgezeiger für die Periode 2022–2026. Indiz, nicht Beleg: die
 Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich» — am Volltext bestätigt).
 Nächster Schritt: OS-Band der Jahre 2021/2022 nach dem aufhebenden RRB durchsuchen.
 
-## 2026-08-03 (Buch-Run 71) — Ist SIA 380/1 noch «teilverbindlich»?
+## 2026-08-03 (Buch-Run 71) — ✅ ERLEDIGT 2026-08-23: Ist SIA 380/1 noch «teilverbindlich»?
 
-Das Standardwerk (Bd 1, S. 85) nennt SIA 380/1 «Thermische Energie im Hochbau» als
-teilverbindlich erklärte Norm. Am geltenden **Anhang Ziff. 1 BBV I** (Nachtrag 133) ist das
-**nicht mehr belegbar**: dort steht als einzige verbindliche Verordnungsbestimmung noch
-Ziff. 1.11 «Wärmedämmvorschriften der Baudirektion»; Ziff. 1.2/1.21 sind per 01.09.2022
-aufgehoben (RRB 08.06.2022, OS 77, 378). Zu klären ist, ob und über welche Norm des EnerG bzw.
-der BEN die SIA 380/1 heute verbindlich wirkt — Cross-KB-Frage an `energie` und `normen`.
-Bis dahin im Wiki als offen markiert, nicht behauptet.
+**Geschlossen.** Ja, SIA 380/1:2016 wirkt weiterhin verbindlich, aber nicht mehr über eine
+direkte Nennung im BBV-I-Anhang, sondern mittelbar: EnerG § 10a → BBV I § 47a (Grenzwerttabelle)
+→ **Wärmedämmvorschriften der Baudirektion (WDV, LS 700.211, RRB 8.6.2022)** → SIA 380/1:2016.
+§ 2 und § 8 Abs. 2 WDV verweisen wörtlich auf «SIA 380/1, Ausgabe 2016» als Nachweisgrundlage
+(Cross-KB-Beleg `wissen/energie/destillate/waermedaemmvorschriften-zh-2022.md`,
+`energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md`, `sia-380-1-aktualitaets-check-2026.md`).
+Der Name «SIA 380/1» selbst kommt im amtlichen BBV-I-/EnerG-Volltext (`raw/260607_amtlich_zh_bbv1.md`,
+`raw/260712_amtlich_zh_energ.md`) nicht mehr vor — das bestätigt den Ausgangsbefund, dass die
+Buch-Aussage (Bd. 1, S. 85, Normtitel «Thermische Energie im Hochbau» = Ausgabe-2009-Titel, seit
+2016 «Heizwärmebedarf») einen älteren, vor der Novelle 8.6.2022 liegenden Rechtsstand spiegelt.
+Eingearbeitet in [[grundlagen-planungs-baurecht]]. Offen bleibt nur die unbelegte, aber plausible
+Frage, ob vor 1.9.2022 tatsächlich eine direkte SIA-380/1-Nennung in Ziff. 1.2 BBV I stand — die
+Vorgängerfassung liegt im Hub nicht vor.
+
+**Ursprüngliche Frage (referenzhalber).** Das Standardwerk (Bd 1, S. 85) nennt SIA 380/1
+«Thermische Energie im Hochbau» als teilverbindlich erklärte Norm. Am geltenden **Anhang
+Ziff. 1 BBV I** (Nachtrag 133) ist das **nicht mehr belegbar**: dort steht als einzige
+verbindliche Verordnungsbestimmung noch Ziff. 1.11 «Wärmedämmvorschriften der Baudirektion»;
+Ziff. 1.2/1.21 sind per 01.09.2022 aufgehoben (RRB 08.06.2022, OS 77, 378).
 
 ## 2026-07-27 (Wissens-Chef Run 18) — P1: der geltende Erlass WsG (LS 724.1) liegt nirgends im Hub
 
@@ -1487,9 +1529,20 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Aufzugspflicht § 40 BBV I (> 5 Geschosse, krankentransporttauglich 2,1 × 1,1 m), Geltungs-
   bereich-Ausnahme EFH § 32 ABV — distilliert [[17-gebaeude-und-raeume]] (S. 1241-1255), neuer
   Wiki-Artikel [[wohnhygiene-und-raumanforderungen]].
-- **§ 10 BBV II Rauminhalt-Staffelung offen:** Die m³/m²-Staffel für Räume mit grosser Belegung
+- ~~**§ 10 BBV II Rauminhalt-Staffelung offen:** Die m³/m²-Staffel für Räume mit grosser Belegung
   (Buch: 2,4 m³/m² bis 200 m², Anstieg «0.002 m²» wirkt wie OCR-Verzerrung, ab 500 m² konstant
-  3 m³/m²) am amtlichen BBV-II-Volltext (raw/) gegenprüfen — Zwischenwerte unklar.
+  3 m³/m²) am amtlichen BBV-II-Volltext (raw/) gegenprüfen — Zwischenwerte unklar.~~ →
+  **erledigt 2026-07-14 (Modell D), Markierung hier nachgezogen 2026-08-23.** Amtlicher Wortlaut
+  § 10 Abs. 1 BBV II (`raw/260607_amtlich_zh_bbv2.md` Z. 97-101): «... Dieser beträgt 2,40 m³ je
+  Quadratmeter für Bodenflächen bis zu 200 m² und erhöht sich um 0,002 m³ für jeden zusätzlichen
+  Quadratmeter; ab 500 m² Bodenfläche bleibt der Mindestinhalt von 3,0 m³ je Quadratmeter konstant.»
+  Die Staffel ist **linear** (kein Stufensprung): Zuwachs 0,002 m³ je zusätzlichem m² Bodenfläche
+  zwischen 200 und 500 m². Rechenprobe: 2,40 + (500−200) × 0,002 = 3,00 m³/m² bei 500 m² — stimmt
+  exakt. Beispiel 350 m²: 2,40 + 150 × 0,002 = 2,70 m³/m². Der vermutete OCR-Fehler existiert im
+  amtlichen Text **nicht** — dort steht korrekt «0,002 m³» (Volumen-Inkrement), der «0,002 m²»-
+  Verschrieb stammte aus einer früheren KB-Wiedergabe und war bereits behoben (Destillat
+  `buecher/band-2/17-gebaeude-und-raeume.md` Z. 269-283 bestätigt denselben Befund unabhängig).
+  Die Buch-Wiedergabe war inhaltlich korrekt, keine Korrektur nötig.
 - ~~**Kap. 17 Ausrüstungen-Teil offen:** Heizungs-/Klima-/Elektroanlagen, Beförderungsanlagen,
   Briefkästen (§ 4 ABV), §§ 295-298 PBG sowie Einstellräume-Detail (Garagenlüftung, §§ 37 ff. BBV I)~~
   → **erledigt 2026-07-11** (Run 27): [[17-haustechnische-anlagen-teil3]] (S. 1304-1319) —

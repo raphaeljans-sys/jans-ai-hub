@@ -195,7 +195,7 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 199 | 1998 | 1998✓ | Bestand 1998 = gueltig 2013 ✓ |
 | SIA 203 | 1997 | 1997✓ | Bestand 1997 = gueltig 2013 ✓ |
 | SIA 205 | 2003 | 2003✓ · 1984✗ |  | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 532205), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2003 (gültig ab 01.01.2003) ist weiterhin **aktuell**. Titel «Verlegung von unterirdischen Leitungen». Löst N52-5-Teilfrage (SIA 205 selbst war dort nicht Thema, aber Nachbarposten 242/274). Nur Metadaten, kein Volltext gelesen |
-| SIA 215 | 1978 | 1978✓ |  |
+| SIA 215 | 1978 | 1978✓ |  | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 551215), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 1978 ist **archiviert seit 30.06.2014**, ersetzt durch **SIA 242.002:2008 «Gipsbinder und Gipstrockenmörtel, Teil 1: Begriffe und Anforderungen»**. Titel «Mineralische Bindemittel». ⚠ **Korrigiert offene Frage aus `wiki/QUESTIONS.md` (Zeilen 480-487):** dort stand «formell zurückgezogen ist SIA 215:1978 nicht» — das ist überholt, die Norm ist seit 2014 archiviert, zumindest der Gips-Teil hat mit SIA 242.002:2008 einen benannten Nachfolger. Ob auch für hydraulischen Kalk/Weisskalk eine Nachfolgenorm existiert, bleibt offen. Nur Metadaten, kein Volltext gelesen — Beschaffung Bring-Schuld |
 | SIA 220 | —(alle zurueckgezogen) | 1992✗ |  |
 | SIA 221 | —(alle zurueckgezogen) | 1992✗ |  |
 | SIA 222 | —(alle zurueckgezogen) | 1990✗ |  |
@@ -205,8 +205,8 @@ SIA 2003:1996, SIA 2014:1996) — dort ist eine zwischenzeitliche Revision am wa
 | SIA 230 | —(alle zurueckgezogen) | 1979✗ |  |
 | SIA 231 | —(alle zurueckgezogen) | 1989✗ |  |
 | SIA 232 | —(alle zurueckgezogen) | 2000✗ | Bestand 2000; 2013 kein gueltiger Eintrag |
-| SIA 232/1 | 2011 | 2011✓ |  |
-| SIA 232/2 | 2011 | 2011✓ |  |
+| SIA 232/1 | 2011 | 2011✓ |  | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 564232/1), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2011 (gültig ab 01.08.2011) ist weiterhin **aktuell**, ersetzt SIA 232:2000. Titel «Geneigte Dächer». Nur Metadaten, kein Volltext gelesen |
+| SIA 232/2 | 2011 | 2011✓ |  | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 564232/2), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2011 (gültig ab 01.08.2011) ist weiterhin **aktuell**, ersetzt SIA 233:2000. Titel «Hinterlüftete Bekleidungen von Aussenwänden». Nur Metadaten, kein Volltext gelesen |
 | SIA 233 | —(alle zurueckgezogen) | 2000✗ |  |
 | SIA 234 | —(alle zurueckgezogen) | 1997✗ |  |
 | SIA 235 | —(alle zurueckgezogen) | 1997✗ |  |

@@ -60,7 +60,7 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
 ## 2026-08-04 (Wissens-Chef Run 25, Cross-KB) — Dachbegrünung, Asbest-Meldepflicht, VVEA-Nachlauf
 
-- [ ] **E-R25-1 (P2): Heutiger Bestand von SFG, Gründachrichtlinie und SFG-Label nicht
+- [x] **E-R25-1 (P2): Heutiger Bestand von SFG, Gründachrichtlinie und SFG-Label nicht
   verifiziert.** Das Destillat `[[eco-bau-merkblaetter-bkp-2008-huelle]]` (BKP 224,
   Dachbegrünung) trägt seit 04.08.2026 den belegten Vermerk, dass seit **01.11.2013 SIA
   312:2013 «Begrünung von Dächern» (SN 564312)** mit ABB **SIA 118/312** das Feld besetzt und
@@ -73,6 +73,13 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Zusatzanforderung genannt wird. Führend für den Normstand ist die KB `normen`
   (`sia-312-2013`), für Systeme und Schichtaufbau die KB `bauprodukte`
   (`dachbegruenung-systeme`).
+  ✓ **ERLEDIGT 23.08.2026:** SFG (bilingual SFG/ASVE, Sitz Thun) besteht heute unverändert,
+  sfg-gruen.ch aktuell abgerufen (Jubiläumstagung 2026 angekündigt); das SFG-Label wird
+  weiterhin für Begrünungssubstrate vergeben — «SFG-Label» darf im JANS-LV weiter als
+  freiwillige Zusatzanforderung genannt werden. **Rest offen:** exaktes Ausgabejahr der
+  aktuellen SFG-Gründachrichtlinie selbst nicht eindeutig auf der Publikationsseite verifiziert
+  (nachrangig, da SIA 312:2013 sie ohnehin nur als Prüfverfahren referenziert). Beleg in
+  `[[eco-bau-merkblaetter-bkp-2008-huelle]]`.
 - [ ] **E-R25-2 (P2): Asbest-Meldepflicht bei Abbruch fehlt in diesem Artikel.** Der
   Bauherren-Artikel `[[gebaeudeschadstoffe]]` beschreibt die **Abklärungspflicht** vor dem
   Umbau, nennt aber keine **Meldepflicht** gegenüber der Behörde bzw. der Suva bei
@@ -116,13 +123,21 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 Angemeldet beim Nachziehen der Bauherren-Seite der Befunde BES01/BES05/BES06/BES08. Was mit
 Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
 
-- [ ] **E-R20-1 (P1): AWEL-Vollzugspraxis fuer Waermeentzug/Waermeeintrag im Erdreich in den
+- [x] **E-R20-1 (P1): AWEL-Vollzugspraxis fuer Waermeentzug/Waermeeintrag im Erdreich in den
   Grundwasserschutzzonen S1/S2.** Die Bewilligungspflicht selbst ist belegt (§ 92 Abs. 1 WsV,
   § 44 Abs. 1 lit. a Ziff. 3 WsG, Fassung Nachtrag 133 ab 01.06.2026). Nicht belegt ist, wie das
   AWEL einen geschlossenen, unisolierten Eisspeicher in S1/S2 behandelt. Die Zuordnung des
   Eisspeichers unter § 92 WsV ist eine **eigene Subsumtion dieser KB am Wortlaut, nicht amtlich
   bestaetigt** (so in FAQ F187 gekennzeichnet). Naechster Schritt: AWEL-Fachstelle direkt anfragen
   oder eine AWEL-Praxishilfe zum Waermeeintrag beschaffen; solange bleibt F187 auf **emerging**.
+  ✓ **Recherchiert 23.08.2026, ehrlicher Negativbefund — als Recherche geschlossen, materiell
+  weiterhin offen:** Weder die AWEL-Webseiten zu Erdwärmesonden/Energienutzung aus Untergrund und
+  Wasser noch das AWEL-Formular «Oberflächennahe Erdwärme» noch die BAFU-Vollzugshilfe
+  «Wärmenutzung aus Boden und Untergrund» (2009, Geltungsbereich abschliessend auf fünf andere
+  Anlagetypen begrenzt) erwähnen den Eisspeicher. Es gibt keine öffentlich zugängliche
+  AWEL-Vollzugspraxis dazu — die einzige verbleibende Klärung ist eine direkte, projektbezogene
+  Anfrage bei der AWEL-Fachstelle, kein weiterer Rechercheweg. Beleg in
+  `[[eisspeicher-waermepumpe-latentwaermespeicher]]`, FAQ F187 bleibt auf `emerging`.
 - [ ] **E-R20-2 (P2): Fassungsstand der GebV UR (LS 710.2) verifizieren.** Der Deckel CHF 25'000
   (§ 10 GebV UR) und die Aufwandgebuehr (§ 5 GebV UR) werden aus einer Fassung «Stand 1.1.12 /
   Nachtrag 75» zitiert, also aus einem vier Jahre alten Stand. Vor der naechsten Verwendung in
@@ -3725,7 +3740,7 @@ durchfuehrbar.
   Autarkie-Angaben ergab **keine weiteren Treffer** — betroffen war ausschliesslich das aus
   SolarApp-Reports abgeleitete Material.
 
-- [ ] **E-R150-2 (P2): die KB-Faustregel «kleinteilige Solarziegel ~doppelt» ist zu tief.** Der
+- [x] **E-R150-2 (P2): die KB-Faustregel «kleinteilige Solarziegel ~doppelt» ist zu tief.** Der
   Themenartikel `pv-solar-technologien` führt für Solarziegel gegenüber Standardmodulen den Faktor
   «~doppelt». Der belegte Einzelfall Willerzell (7,90 kWp MATCH tile, 09.01.2024) liegt mit rund
   **CHF 7'370/kWp** beim **2,3- bis 3,1-Fachen** des KB-Marktbands für dieselbe Grössenklasse
@@ -3733,6 +3748,15 @@ durchfuehrbar.
   ist im Artikel vorerst als **untere Grenze** markiert. Zu tun: eine zweite Quelle beiziehen
   (BFE-Preisbeobachtungsstudie, Swissolar-Marktumfrage oder eine echte Offerte aus einem
   JANS-Projekt) und die Faustregel danach beziffern statt schätzen.
+  ✓ **ERLEDIGT 23.08.2026:** BFE-Preisbeobachtungsstudien Photovoltaikmarkt 2022/2023 (181
+  integrierte Anlagen) und 2024 gefunden und ausgewertet. Sie beziffern **Indach/integrierte
+  Anlagen allgemein** mit 13-28 % Mehrkosten ggü. Aufdach (2022/23), 2024 kein signifikanter
+  Unterschied mehr — die «~doppelt»-Faustregel ist für diese breitere Kategorie amtlich zu hoch.
+  Für **keramische Solarziegel im engeren Sinn** (MATCH tile o.ä.) liefern beide Studien weiterhin
+  keine Zahl, nur eine qualitative Erwähnung «erhebliche Mehrkosten» — hier bleibt der
+  Willerzell-Einzelfall (130-210 %) die einzige Zahl, keine Marktstatistik. Artikel
+  `[[pv-solar-technologien]]` unterscheidet jetzt beide Kategorien. Beleg: BFE-Publikationen
+  pubdb.bfe.admin.ch/de/publication/download/11449 (2022/23) und /12226 (2024).
 
 - [ ] **E-R150-3 (P3, nicht auflösbar, dokumentiert): zwei Widersprüche im Willerzell-Bericht
   bleiben offen.** Der Verbrauch steht als 7'000 kWh im Input-Anhang und als 14'500 kWh in

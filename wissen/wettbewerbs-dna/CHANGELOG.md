@@ -1,5 +1,30 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-23 — ETAPPE 4, VERTIEFUNGSLAUF 04 (V2 Wohnungsbau geprueft, V3 Verdichtung) — ETAPPE 4 ABGESCHLOSSEN
+
+- **[befund]** **V2 Wohnungsbau als strukturell unbaubar bestaetigt** (Vorwarnung aus
+  `training/PROGRAMM.md` 17.08.2026 verifiziert, nicht nur uebernommen): 2207 Schliengerweg hat
+  keinen Jurybericht im Archiv, 2503 Glockenacker hat ausser drei ArchiCAD-Transferdateien keine
+  Unterlagen, 2205 Guggerbach ist bereits in Lauf 03 unter Healthcare-Subtyp 2.5 ausgewertet.
+  Kein Rueckkopplungs-Abschnitt an `jury-argumente-wohnungsbau.md` moeglich.
+- **[inhalt]** **`wiki/muster/delta-zum-ersten-rang.md`:** neuer Abschnitt «Priorisierte Liste —
+  was kostet am haeufigsten den Sieg» (Baustein V3), vor Befund 1 eingefuegt, Befunde 1-13
+  unveraendert als Belegkette erhalten. Die 12 Verlust-Befunde (Befund 1 als konstante Staerke
+  ausgenommen) sind nach Haeufigkeit ueber die 7 Verfahren mit Jury-Delta gestuft: **Stufe A
+  (>=3/7):** Befund 2 Betrieb/Nutzerlogik (5/7 — mit Abstand haeufigster Kostenfaktor), Befund 3
+  Gesten ohne Nutzen (3/7), Befund 5 Koerper-Gliederung (3/7). **Stufe B (2/7):** Befund 4
+  Kennwert-Extremwerte, Befund 6 Ersatz statt Weiterbauen, Befund 8 Terrain ignoriert, Befund 9
+  Bestandeseingriffe. **Stufe C (1/7, Einzelbeleg):** Befund 7, 10, 11, 12, 13. Ausdruecklicher
+  Hinweis: Haeufigkeits-, keine Schweregrad-Metrik — Befund 11 (K.-o. statt Punktabzug) ist die
+  haerteste Sanktion aller 12 Befunde, steht aber in Stufe C, weil nur einmal belegt.
+- **Verifikation:** ein unabhaengiger Refuter-Agent hat alle 12 Verfahrenszaehlungen Zeile fuer
+  Zeile gegen die Befund-Texte geprueft. **VERDIKT BESTANDEN**, eine stilistische Praezisierung
+  (Kategorisierung 2101 KSSG als «klinisch-betrieblich» statt «pflegerisch») eingearbeitet.
+- **Etappen-Stand:** Mit diesem Lauf sind alle drei Bausteine (V1 Tiefen-Angleich, V2
+  Rueckkopplung, V3 Verdichtung) bearbeitet bzw. auf strukturelles Maximum gebracht — **Etappe 4
+  gilt als inhaltlich abgeschlossen** (Details `training/PROGRAMM.md`).
+- Report: `outputs/2026-08-23_etappe4-vertiefung-04.md`.
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — Abnehmer-Vermerk in `jury-argumente-healthcare`
 
 - **`wiki/muster/jury-argumente-healthcare.md`:** Abnehmer-Vermerk gesetzt (analog Run 16). Der

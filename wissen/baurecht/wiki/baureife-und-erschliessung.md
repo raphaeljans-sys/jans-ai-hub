@@ -217,12 +217,36 @@ Sicherung:
 Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S. 751–769):
 
 - **Wasserversorgung:** die Gemeinde stellt Trinkwasser in einwandfreier Qualität, genügendem Druck
-  und ausreichender Menge bereit (§ 27 WWG). ⚠ **Aktualitäts-Flag (Wissens-Chef Run 5, 2026-07-15):**
-  das ZH **Wasserwirtschaftsgesetz WWG (LS 724.11, 1991)** *(⚠ die Nummer LS 724.11 traegt seit dem 01.06.2026 die **Wasserverordnung WsV**; fuer den Zeitraum bis 31.05.2026 ist die Zuordnung zum WWG korrekt)* wurde per **1.6.2026 durch das neue
-  Wassergesetz WsG vom 12.12.2022 abgelöst** (§ 126 WsG, explizite Aufhebung; primärquellen-belegt in
-  `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`). Die hier aus dem Standardwerk
-  (6. Aufl. 2019) übernommenen WWG-§§ sind auf ihre WsG-Entsprechung zu prüfen; das §-Mapping ist noch
-  offen (WsG-/WsV-Volltext). **Löschwasser** ist eine Erschliessungs-Teilanforderung:
+  und ausreichender Menge bereit (§ 27 WWG, Buchstand 2019). Das ZH **Wasserwirtschaftsgesetz WWG
+  (LS 724.11, 1991)** *(die Nummer LS 724.11 traegt seit dem 01.06.2026 die **Wasserverordnung WsV**;
+  fuer den Zeitraum bis 31.05.2026 ist die Zuordnung zum WWG korrekt)* wurde per **1.6.2026 durch das
+  neue Wassergesetz WsG vom 12.12.2022 abgelöst** (§ 126 WsG, explizite Aufhebung; primärquellen-belegt
+  in `wissen/energie` → `grundwasserwaermenutzung-bewilligung-zh-sz`).
+  **✅ WsG-Mapping des Wasserversorgungsabschnitts (§§ 93-101 WsG) belegt, 2026-08-23 (Wissens-Chef):**
+  Zweck der öffentlichen Wasserversorgung ist die Bereitstellung/Lieferung von Wasser in einwandfreier
+  Qualität, ausreichender Menge und genügendem Druck zu Trink-, Brauch- und Löschzwecken (§ 93 WsG).
+  Träger sind die Gemeinden — GWP-Pflicht (Generelles Wasserversorgungsprojekt), Ausbau, Betrieb,
+  Notlagenkonzept (§ 95 WsG) — unter kantonaler Aufsicht der Baudirektion (§ 94 WsG). **Bezugspflicht:**
+  Grundeigentümer im Einzugsbereich einer Wasserversorgungsanlage sind verpflichtet, das Wasser aus
+  dieser Anlage zu beziehen, sofern keine andere Versorgung mit einwandfreier Qualität, ausreichender
+  Menge und genügendem Druck besteht (§ 97 Abs. 1 WsG); für Liegenschaften/Weiler ausserhalb der Bauzone
+  entfällt sie unter engen Voraussetzungen (§ 97 Abs. 2 WsG). Auf Verordnungsebene konkretisiert
+  **§ 178 Abs. 1 WsV** dieselbe Pflicht als physische **Anschlusspflicht**; Abs. 3 definiert
+  «einwandfreie Wasserqualität» als Ausnahmegrund näher (Trinkwasserstandard der Lebensmittel-
+  gesetzgebung **und** eine durch Schutzzonen oder auf andere Weise geschützte Fassungsanlage).
+  **Regenwasser als Brauchwasser** in getrennten Systemen ist ausdrücklich zulässig und gebührenfrei
+  (§ 97 Abs. 3 WsG) — relevant für Grauwasser-/Regenwasserkonzepte in der Vorprojektphase. Wasser wird
+  in der Regel nur über Messeinrichtungen (Wasserzähler) abgegeben und ist sparsam zu verwenden (§ 98
+  WsG). Private Versorgungsleitungen können von den Gemeinden übernommen werden (§ 99 WsG). Die
+  **Finanzierung** folgt sinngemäss den Grundsätzen der Siedlungsentwässerung (§ 100 Abs. 1 WsG i.V.m.
+  §§ 61 f. WsG: kostendeckend, verursachergerecht), mit Abfederungsmöglichkeit bei unverhältnismässiger
+  Belastung (§ 100 Abs. 2 WsG). Fundstelle: `raw/260803_amtlich_zh_wsg.md` Z. 1297-1403 (§§ 93-100),
+  `raw/260803_amtlich_zh_wsv.md` Z. 2090-2105 (§ 178). **JANS-Anwendung:** bei der Erschliessungsprüfung
+  nach § 236 PBG die Bezugs-/Anschlusspflicht als Regelfall ansetzen; ein Verzicht (eigene Quelle,
+  Grundwasser) ist nur mit Trinkwasserqualitätsnachweis und Schutzzonenkonzept durchsetzbar und daher
+  früh mit der Gemeinde zu klären. Offen bleibt nur die 1:1-Zuordnung der übrigen, buchseitig zitierten
+  WWG-Einzelbestimmungen (§ 27 WWG selbst) — ohne praktische Relevanz, da der Zweckartikel § 93 WsG die
+  gleiche Substanz trägt. **Löschwasser** ist eine Erschliessungs-Teilanforderung:
   Hydranten so, dass jedes Gebäude mit **max. 100 m Schlauch** erreicht wird; in Wohn-/Arbeitszonen
   einmaschig zulässig, dann **max. 60 m**; in Gewerbe-/Industriezonen ist einmaschig unzulässig
   (§ 16 FeuerwehrV, S. 751 f.). In **Grundwasserschutzzonen S1/S2/S3** gelten Nutzungs-

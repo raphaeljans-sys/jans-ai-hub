@@ -1,11 +1,13 @@
 # Offene Fragen — KB Normen
 
-## SIA-Sweep, interaktive Session (23.08.2026) — 65 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
+## SIA-Sweep, interaktive Session (23.08.2026) — 69 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
 
 **Auftrag:** die im REGISTER.md, Abschnitt A geführten SIA-Zeilen ohne Datei im Haus
 ("Blindzone") abarbeiten — Produktdatenblätter mit gültig-ab/gültig-bis beschaffen (nur die
-frei zugängliche Shop-Metadatenseite, **kein Kauf**), Register nachführen. 66 aktive Zeilen
-identifiziert (Gültig-2013-Spalte ≠ «—», Bestand-Abgleich-Spalte leer).
+frei zugängliche Shop-Metadatenseite, **kein Kauf**), Register nachführen. 69 aktive Zeilen
+identifiziert (Gültig-2013-Spalte ≠ «—», Bestand-Abgleich-Spalte leer; erster Scan fand 66,
+ein Nachtrag deckte drei weitere auf: SIA 215, 232/1, 232/2). Alle 69 sind jetzt nachgeführt,
+kein aktiver SIA-Eintrag in Abschnitt A hat mehr eine leere Bestand-Abgleich-Spalte.
 
 **13 Zeilen intern gelöst** — Bestandsangaben lagen bereits an anderer Stelle im Register
 (Merkblatt-Tabelle Run 16, Run-5-Präzisierungen), waren aber nie in Abschnitt A gespiegelt:
@@ -16,19 +18,20 @@ Beleg nötig, reiner internal-consistency-Fix.
 belegt: SIA 242:2012 ist weiterhin aktuell (kein Beschaffungsdruck bzgl. Aktualität, Volltext
 bleibt Bring-Schuld); SIA 274:2010 ist archiviert seit 31.10.2021, ersetzt durch SIA 274:2021.
 
-**52 Zeilen extern recherchiert** (shop.sia.ch Produktseite, WebSearch+WebFetch, abgerufen
-23.08.2026, sechs parallele Recherche-Läufe). Ergebnis in `wiki/REGISTER.md`, Abschnitt A,
-je Zeile mit Quelle. Verteilung:
+**55 Zeilen extern recherchiert** (shop.sia.ch Produktseite, WebSearch+WebFetch, abgerufen
+23.08.2026, sieben parallele Recherche-Läufe — sechs Batches à ~9 Normen plus ein Nachtrag für
+die drei anfangs übersehenen Zeilen). Ergebnis in `wiki/REGISTER.md`, Abschnitt A, je Zeile mit
+Quelle. Verteilung:
 
-- **25 Normen weiterhin aktuell** auf der 2013-gültigen Ausgabe (kein Aktualitätsproblem,
+- **27 Normen weiterhin aktuell** auf der 2013-gültigen Ausgabe (kein Aktualitätsproblem,
   Volltext bleibt Bring-Schuld): SIA 113, 118/232, 118/240, 118/242, 118/251, 118/252,
-  118/318, 118/331, 118/342, 118/343, 118/380, 122, 124, 205, 242, 269, 269/1, 269/3, 269/4,
-  269/5, 269/7, 283, 2007, 2028, 2029.
-- **23 Normen archiviert, Nachfolgenorm benannt** (neue Bring-Schuld: Beschaffung der
+  118/318, 118/331, 118/342, 118/343, 118/380, 122, 124, 205, 232/1, 232/2, 242, 269, 269/1,
+  269/3, 269/4, 269/5, 269/7, 283, 2007, 2028, 2029.
+- **25 Normen archiviert, Nachfolgenorm benannt** (neue Bring-Schuld: Beschaffung der
   aktuellen Ausgabe, Raphael/SIA-Shop, Claude tätigt keine Käufe): SIA 106, 118/222, 118/243,
-  118/253, 118/329, 118/370, 123, 190, 243, 269/2, 274, 284, 384/1, 384/6, 2001, 2016, 2031,
-  2035, 2036, 2039, 2042, 2044, 2045. Details je Norm (Gültig-bis-Datum, Nachfolgenorm) in
-  REGISTER.md Abschnitt A.
+  118/253, 118/329, 118/370, 123, 190, 215, 243, 269/2, 274, 284, 384/1, 384/6, 2001, 2016,
+  2027, 2031, 2035, 2036, 2039, 2042, 2044, 2045. Details je Norm (Gültig-bis-Datum,
+  Nachfolgenorm) in REGISTER.md Abschnitt A.
 - **4 Normen archiviert, KEIN Nachfolger auf der Produktseite genannt** — echte offene Fragen,
   siehe unten (N-SIASWEEP-1 bis -3).
 

@@ -53,8 +53,9 @@ oder Rangverlust-Grund belegt ist.
 
 1. **Befund 2 — Betrieb/Nutzerlogik statt reiner Architektur (5/7: Muttenz, Schoental, 2101
    KSSG, Guggerbach, BIWAK).** Der mit Abstand haeufigste Verlustgrund ueber alle Bauaufgaben
-   hinweg — unabhaengig davon, ob die betriebliche Zielvorgabe paedagogisch, betrieblich-alpin
-   oder pflegerisch gefasst ist.
+   hinweg — unabhaengig davon, ob die betriebliche Zielvorgabe paedagogisch (Muttenz, Schoental),
+   klinisch-betrieblich (2101 KSSG), pflegerisch-sozial (Guggerbach) oder alpin-betrieblich
+   (BIWAK) gefasst ist.
 2. **Befund 3 — Raeumliche Gesten ohne nachweisbaren Nutzen bzw. mit ueberhoehter
    Sonderloesungsdichte (3/7: Muttenz, Guggerbach, BIWAK).**
 3. **Befund 5 — Koerper-Gliederung falsch zur Programm-Homogenitaet gewaehlt (3/7: Muttenz,

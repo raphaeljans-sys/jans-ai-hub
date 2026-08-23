@@ -126,9 +126,33 @@ werden, die **im oeffentlichen Interesse** liegen und **nach den Umstaenden zumu
 Anpassung; Grenze = Zumutbarkeit als Teil der Verhaeltnismaessigkeit).
 Konkretisierung in der Stadt Zuerich fuer Absturzsicherungen: Anpassungspflicht ab mehr als 15 %
 Abweichung von den geltenden Massvorschriften, darunter blosse Empfehlung unter Hinweis auf
-Art. 58 OR (Richtlinie Stadt Zuerich «Absturzsicherungen im Hochbau», 1.6.2019 — Destillat
-`wissen/planungsgrundlagen/wiki/recht-norm-arbeitshilfen-planungsdetails.md` §3). Ausserhalb der
-Stadt Zuerich nicht ohne weiteres uebertragbar.
+Art. 58 OR (Richtlinie Stadt Zuerich «Absturzsicherungen im Hochbau», aktuell Merkblatt vom
+1.1.2024 — loest die Fassung vom 1.6.2019 ab, Ziff. 2 inhaltlich unveraendert, Ziff. 1.5 leicht
+revidiert; abgerufen von stadt-zuerich.ch/content/dam/web/de/planen-bauen/baubewilligungen/
+dokumente/bewilligungsprozess/dokumente/merkblatt-absturzsicherungen-hochbau.pdf — Destillat
+noch auf Fassung 1.6.2019: `wissen/planungsgrundlagen/wiki/recht-norm-arbeitshilfen-planungsdetails.md`
+§3, Nachfuehrung offen). Ausserhalb der Stadt Zuerich nicht ohne weiteres uebertragbar.
+
+**Verhaeltnis zur Bestandesgarantie (geklaert 2026-08-23):** Die Richtlinie schafft **keine eigene
+Rechtsgrundlage** ueber Abs. 4 hinaus — ihre eigene Grundlagenliste nennt ausdruecklich § 239
+Abs. 1, § 357 Abs. 4, § 358 PBG und § 20 BBV I. Die 15-%-Schwelle konkretisiert damit ausschliesslich
+den unbestimmten Rechtsbegriff «zumutbar» in **Abs. 4** (Verbesserungspflicht bei einer ohnehin
+laufenden Bewilligung), nicht die «keine feste Quote»-Doktrin von **Abs. 1**: Ob ein Umbau oder
+eine Nutzungsaenderung ueberhaupt unter die erweiterte Bestandesgarantie faellt, bleibt eine
+Einzelfallwuerdigung ohne Prozentgrenze; die 15-%-Zahl bestimmt erst nachgelagert, ab welcher
+Abweichung Gelaender/Bruestungen im Rahmen des Baugesuchs nachgeruestet werden muessen. Fuer
+erhebliche polizeiliche Missstaende (instabile oder absolut unzureichende Absturzsicherungen)
+greift zusaetzlich **§ 358 PBG** (Z. 3778) als eigenstaendiger, vom Bewilligungsverfahren und von
+der 15-%-Schwelle unabhaengiger Track (Behebung von Amtes wegen, auch ausserhalb eines Baugesuchs).
+Die verbreitete bfu-Aussage, wonach der Bestandesschutz bei «umfangreichen, baubewilligungspflichtigen
+Sanierungsarbeiten» entfalle (`wissen/normen/destillate/bfu-gelaender-und-bruestungen.md` Z. 92-97),
+ist keine PBG-Auslegung, sondern eine unverbindliche Fachpublikations-Meinung, die begrifflich naeher
+an der Abs.-1-Logik (neubauaehnliche Umgestaltung laesst den Bestandesschutz insgesamt entfallen)
+liegt als an der Abs.-4/15-%-Praxis der Stadt Zuerich (punktuelle Nachruestauflage, Gebaeude bleibt
+im Bestandesschutz) — in der Beratung nicht gleichsetzen. **Offen:** BEZ 2019 Nr. 5 («Nachruestung
+Altbau Absturzsicherung», Buch Bd. 2 S. 1291) ist nur als Buchzitat erfasst, der Entscheidtext selbst
+ungelesen; ebenso unverifiziert, ob die 15-%-Schwelle je durch das Baurekursgericht ZH bestaetigt
+wurde (eigene Rechtsprechungsrubrik «Absturzsicherungen» vorhanden, nicht ausgewertet).
 
 **Milderung von Bauvorschriften (§ 357 Abs. 5 PBG):** Wortlaut (amtlicher PBG-Volltext
 verifiziert, raw/260607_amtlich_zh_pbg.md Z. 3770-3773, Modell-D-Refuter 2026-07-13):

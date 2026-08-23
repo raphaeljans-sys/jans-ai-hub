@@ -1,4 +1,4 @@
-## 2026-08-23 — SIA-Sweep (interaktive Session): 66 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
+## 2026-08-23 — SIA-Sweep (interaktive Session): 69 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
 
 **Auftrag Raphael:** die im REGISTER.md, Abschnitt A geführten SIA-Zeilen ohne Datei im Haus
 abarbeiten — Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen.
@@ -8,13 +8,17 @@ abarbeiten — Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Regis
 Tabelle Run 16, Run-5-Präzisierungen), waren nie in Abschnitt A gespiegelt — reiner
 Konsistenz-Fix, kein neuer Beleg nötig.
 
-**52 Zeilen extern recherchiert** über sechs parallele Recherche-Läufe (shop.sia.ch
-Produktseite, frei zugänglich, **kein Kauf**, abgerufen 23.08.2026): 25 weiterhin aktuell auf
-der 2013-gültigen Ausgabe, 23 archiviert mit benannter Nachfolgenorm (neue Bring-Schulden für
-Raphael), 4 archiviert ohne benannten Nachfolger (offene Fragen N-SIASWEEP-1 bis -4,
-`wiki/QUESTIONS.md`). **N52-5 geschlossen** (SIA 242/274-Beschaffungsposten). Auffälligster
-Nebenbefund: SIA 2016 und SIA 2045 nennen unabhängig dieselbe Nachfolgenorm SIA 405:2025 —
-mögliche Konsolidierung der GEO405-Familie (N-SIASWEEP-4, nicht am Original verifiziert).
+**55 Zeilen extern recherchiert** über sieben parallele Recherche-Läufe (shop.sia.ch
+Produktseite, frei zugänglich, **kein Kauf**, abgerufen 23.08.2026; drei Zeilen — SIA 215,
+232/1, 232/2 — waren im ersten Scan übersehen und wurden per Nachtrag ergänzt): 27 weiterhin
+aktuell auf der 2013-gültigen Ausgabe, 25 archiviert mit benannter Nachfolgenorm (neue
+Bring-Schulden für Raphael), 4 archiviert ohne benannten Nachfolger (offene Fragen
+N-SIASWEEP-1 bis -4, `wiki/QUESTIONS.md`). **N52-5 geschlossen** (SIA 242/274-
+Beschaffungsposten). Auffälligster Nebenbefund: SIA 2016 und SIA 2045 nennen unabhängig
+dieselbe Nachfolgenorm SIA 405:2025 — mögliche Konsolidierung der GEO405-Familie
+(N-SIASWEEP-4, nicht am Original verifiziert). Nebenbefund 2: SIA 215:1978 korrigiert eine
+bestehende Aussage in `wiki/QUESTIONS.md` (Zeilen 480-487) — die Norm gilt dort fälschlich als
+«nicht formell zurückgezogen», ist aber seit 30.06.2014 archiviert.
 
 **Keine Destillate angelegt** — für reine Shop-Metadaten (ohne Volltext) gibt es nichts zu
 destillieren; die Fundstelle steht direkt in der Register-Zeile, wie bei den Präzedenzfällen

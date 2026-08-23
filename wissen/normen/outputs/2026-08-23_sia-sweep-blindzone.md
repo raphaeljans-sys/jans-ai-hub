@@ -6,19 +6,20 @@
   Register nachführen, Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) beachten.
 - **Ausgangslage:** Register führte per Run 37 (29.07.2026) 102 Blindzone-Zeilen von 177 aktiven
   SIA-Positionen (58 %). Seither hatten einzelne Runs (45, 48, 53, 58-60) Teile davon geschlossen.
-  Dieser Lauf hat den vollständigen Rest-Bestand von Abschnitt A neu ausgezählt: **66 aktive
-  SIA-Zeilen mit leerer Bestand-Abgleich-Spalte.**
+  Dieser Lauf hat den vollständigen Rest-Bestand von Abschnitt A neu ausgezählt: **69 aktive
+  SIA-Zeilen mit leerer Bestand-Abgleich-Spalte** (66 im ersten Scan, 3 weitere — SIA 215,
+  232/1, 232/2 — per Nachtrag gefunden, als der erste Scan gegengeprüft wurde).
 
 ## Was gemacht wurde
 
 1. **Vollständiger Scan** von Abschnitt A (Zeile 97-359) gegen die Bestand-Abgleich-Spalte →
-   66 Kandidaten identifiziert (Gültig-2013-Spalte ≠ "—", Bestand-Abgleich leer).
+   69 Kandidaten identifiziert (Gültig-2013-Spalte ≠ "—", Bestand-Abgleich leer).
 2. **Kreuzabgleich gegen den Rest des Registers** (Abschnitte B-D, Run-2/-3/-5/-16-Tabellen,
    Merkblatt-Tabelle) vor jeder externen Recherche — Prinzip: erst intern prüfen, dann extern
    beschaffen. **13 Treffer:** Bestandsangaben lagen bereits vor, waren aber nie in Abschnitt A
    gespiegelt (SIA 282, 380/1, 382/1, 2003, 2006, 2014, 2015, 2017, 2018, 2022, 2023, 2026,
    2040). Direkt in Abschnitt A nachgetragen, kein neuer Beleg nötig.
-3. **52 verbleibende Zeilen** über sechs parallele `recherche`-Agentenläufe (WebSearch +
+3. **55 verbleibende Zeilen** über sieben parallele `recherche`-Agentenläufe (WebSearch +
    WebFetch auf `shop.sia.ch`) recherchiert — ausschliesslich die **freie Produktseiten-
    Metadaten** (Titel, SN-Nummer, Status, Gültig-ab/-bis, Nachfolgenorm), **kein Kauf, kein
    Volltext gelesen**. Jede Zeile in Abschnitt A mit Quelle (URL) und Abrufdatum ergänzt.
@@ -31,17 +32,18 @@
 | Kategorie | Anzahl | Bedeutung |
 |---|---|---|
 | Intern gelöst (Bestandsangabe lag bereits vor) | 13 | Kein Handlungsbedarf |
-| Extern: weiterhin aktuell auf 2013-gültiger Ausgabe | 25 | Kein Aktualitätsproblem; Volltext bleibt Bring-Schuld |
-| Extern: archiviert, Nachfolgenorm benannt | 23 | **Neue Bring-Schulden** — Beschaffung der aktuellen Ausgabe bei Bedarf |
+| Extern: weiterhin aktuell auf 2013-gültiger Ausgabe | 27 | Kein Aktualitätsproblem; Volltext bleibt Bring-Schuld |
+| Extern: archiviert, Nachfolgenorm benannt | 25 | **Neue Bring-Schulden** — Beschaffung der aktuellen Ausgabe bei Bedarf |
 | Extern: archiviert, KEIN Nachfolger auf der Produktseite | 4 | Offene Fragen N-SIASWEEP-1 bis -4 |
-| **Total abgearbeitet** | **65** | von 66 Kandidaten — SIA 2016 mit korrigierter alter Ausgaben-Kette nachgetragen |
+| **Total abgearbeitet** | **69** | von 69 Kandidaten — vollständig |
 
-## Die 23 neuen Bring-Schulden (archiviert, Nachfolgenorm bekannt)
+## Die 25 neuen Bring-Schulden (archiviert, Nachfolgenorm bekannt)
 
 SIA 106→2019, 118/222→2024, 118/243→2026, 118/253→2024, 118/329→2020, 118/370→2016,
-123→2021, 190→2017, 243→2026, 269/2→2025, 274→2021, 284→2021 (aufgegangen in 274:2021),
-384/1→2022, 384/6→2021, 2001→2013, 2016→SIA 405:2025, 2031→2016, 2035→SIA 4013:2021,
-2036→SIA 4013:2021, 2039→2016, 2042→2022, 2044→2019, 2045→SIA 405:2025.
+123→2021, 190→2017, 215→SIA 242.002:2008 (nur Gips-Teil belegt), 243→2026, 269/2→2025,
+274→2021, 284→2021 (aufgegangen in 274:2021), 384/1→2022, 384/6→2021, 2001→2013,
+2016→SIA 405:2025, 2027→SIA 103:2014, 2031→2016, 2035→SIA 4013:2021, 2036→SIA 4013:2021,
+2039→2016, 2042→2022, 2044→2019, 2045→SIA 405:2025.
 
 Details (Gültig-bis-Datum, SN-Nummer, Quelle) je Zeile in `wiki/REGISTER.md`, Abschnitt A.
 Priorisierung nach Projektbedarf, Beschaffung ist Raphaels Entscheid (Rule
