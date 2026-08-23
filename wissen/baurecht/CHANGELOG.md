@@ -3,6 +3,70 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 99: [[naturschutz-und-denkmalschutz]] re-verifiziert — erstmals die Bundesrechts-Zitate (BV/NHG/RPG) frisch gegen fedlex.data.admin.ch geprüft, CONFIRMED wortgleich, 0 Korrekturen
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: CHANGELOG bis
+  Run 98 und der Report `outputs/2026-08-23_buch-run98.md`. Bestätigt: die Queue selbst ist seit
+  Run 87 vollständig T1-T9 abgearbeitet; seit Run 90 läuft statt dessen die von den Läufen selbst
+  vorgeschlagene Fortsetzung — die Modell-D-Re-Verifikationskette der `established`-Artikel. Run 98
+  benannte 8 verbleibende Kandidaten und empfahl namentlich [[naturschutz-und-denkmalschutz]]
+  (eigener Quellenkreis NHG/KNHV) oder [[bauausfuehrung-und-baukontrolle]] (ältestes `last_updated`).
+  Vor dem ersten Edit `ps aux | grep claude` geprüft: kein zweiter, mit `wissen/baurecht/`
+  konfligierender Prozess (nur eigene Session sowie unabhängige `normen`-Läufe, andere KB).
+- **Auswahl:** [[naturschutz-und-denkmalschutz]] — eigener Quellenkreis (NHG/KNHV/BV), unabhängig
+  von den zuletzt bearbeiteten Themen (Vorentscheid, Raumplanung, Enteignung/Mehrwertausgleich).
+- **Buch-Destillat zuerst geprüft:** `buecher/band-1/04-natur-und-heimatschutz.md` (Bd 1, Kap. 4,
+  S. 268-309) gelesen — keine neue Diskrepanz zum bestehenden Artikeltext.
+- **Bestandsaufnahme:** der Artikel trug bereits einen sehr gründlichen PBG-/KNHV-Wortlautabgleich
+  (Run 31/33/61, zuletzt 2026-07-27), aber **keinen einzigen** der neun zitierten Bundesrechts-
+  Artikel (Art. 78 BV; Art. 2/3/5/7/8/13/17/17a/25 NHG) sowie Art. 17 RPG hatte je einen
+  Volltextabgleich — genau die gleiche Lücke, die Run 97 bei [[raumplanung-und-gestaltung]] fand.
+- **Vorgehen:** amtliche Volltexte über `fedlex.data.admin.ch` (Filestore-Muster, Rule
+  `docs/referenz/fedlex-volltexte.md`) bezogen. NHG (SR 451, ELI `1966/1637_1694_1679`): die
+  `www`-Route lieferte für mehrere Kandidatendaten nur die App-Hülle; über `fedlex.data.admin.ch`
+  funktionierte `20250801` (414'927 Byte PDF, Stand 1. August 2025 — aktuellste konsolidierte
+  Fassung). RPG (SR 700, ELI `1979/1573_1573_1573`, Stand 1.7.2026) und BV (SR 101, ELI `1999/404`,
+  Stand 1.1.2024) wie in Run 97 bereits verifiziert bezogen. Alle drei mit `pdftotext -layout`
+  extrahiert; jeder zitierte Artikel einzeln im Volltext aufgesucht und wortgetreu gegen den
+  Artikeltext gelesen.
+- **Ergebnis: CONFIRMED wortgleich, 0 Korrekturen — an allen zehn Bundesrechts-Zitaten.** Art. 78
+  Abs. 1 BV («Für den Natur- und Heimatschutz sind die Kantone zuständig») bestätigt exakt die
+  Artikel-Aussage «weist ihn primär den Kantonen zu». Art. 2/3 NHG (Bundesaufgaben-Definition,
+  Pflichten von Bund/Kantonen), Art. 5 NHG (Bundesinventare), Art. 7/8/17a NHG (Begutachtung durch
+  Kommission, fakultative/besondere Gutachten), Art. 13 NHG (Finanzhilfen — «Der Bund KANN …
+  gewähren», bestätigt «freiwillig, kein Anspruch»), Art. 25 NHG (Organisation der Kommission[en] =
+  ENHK/EKD-Apparat) und Art. 17 RPG (Schutzzonen als Planungsrecht-Instrument, parallel zu § 205
+  lit. a PBG) — alle wortgleich mit der bisherigen Artikel-Darstellung. Kein Fassungsstand-Drift,
+  keine Bedeutungsverschiebung. Anders als bei Run 97/98 diesmal **keine** Korrektur nötig — ein
+  legitimes Verifikations-Ergebnis (gleiche Kategorie wie Run 96).
+- **PBG-Fassungsstand:** kein neuer Live-Abruf nötig — Run 94/96/98 haben Nachtrag 133 als
+  weiterhin geltend am selben Tag mehrfach bestätigt (Nachtrag 134 amtlich publiziert, aber erst
+  per 1.10.2026 in Kraft); ob er die hier zitierten §§ 203-217/50/76/238a/338b PBG betrifft, bleibt
+  bis dahin unerheblich und ungeprüft (wie in den Vorläufen).
+- **In die KB eingearbeitet:** `wiki/naturschutz-und-denkmalschutz.md` (neuer `verifiziert`-Eintrag
+  an den bestehenden Run-61-Eintrag angehängt, `last_updated: 2026-08-23`, neuer erläuternder
+  Absatz nach der KNHV-Passage — bestehender Text vollständig erhalten, keine Zeile entfernt),
+  `training/PROGRAMM.md` (Tracker-Eintrag Run 99), `training/KORPUS-QUEUE-thalwil-reglemente.md`
+  (Fortsetzungs-Absatz um Run 98/99 ergänzt). **Kein neuer `raw/`-Volltext** (gleiches Vorgehen wie
+  Run 97 — die frischen PDFs wurden nur temporär geladen, Fundstellen über `sources` referenziert,
+  Sources-Liste des Artikels enthielt die Zitate bereits). Report `outputs/2026-08-23_buch-run99.md`.
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** `git status --short wissen/baurecht/`
+  nativ per SSH (LAN-IP `192.168.1.10` — `diskstation918.tail8265aa.ts.net` in dieser Session nicht
+  auflösbar, DNS-Fehler) vor dem ersten Edit geprüft: sauber, keine uncommittete Vorarbeit. Nach
+  dem Schreiben erneut geprüft und `git diff --numstat` gegengelesen: alle Änderungen an den drei
+  bearbeiteten Dateien rein additiv.
+- **Konkurrenz-Check:** `ps aux | grep claude` zu Beginn geprüft — der eigene `-p`-Prozess dieser
+  Session sowie mehrere unabhängige, nicht mit `wissen/baurecht/` konfligierende Läufe (KB `normen`,
+  eigener Wrapper-Prozess derselben Session) — kein Konflikt.
+- **Nächster Schritt (Vorschlag, nicht ausgeführt):** von den verbleibenden 7 Artikeln
+  ([[ausnahmebewilligung-und-bestandesschutz]], [[bauausfuehrung-und-baukontrolle]],
+  [[baulinien-und-abstandslinien]], [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]) einen
+  unabhängigen Rechtsraum wählen. Empfehlung: [[bauausfuehrung-und-baukontrolle]] — mit
+  `last_updated: 2026-07-12` weiterhin das älteste Aktualisierungsdatum aller `established`-
+  Artikel, nie Gegenstand eines vollständigen Fliesstext-Refresh (nur punktuelle Fassungsstand-
+  Nachträge Run 58/64).
+
 ## 2026-08-23 — Buch-Run 98: ZH-Mehrwertausgleich (MAG) erstmals als raw/-Volltext beschafft — 2 echte Korrekturen (kant. fix 20 % statt 5 %, kommunal max. 40 % statt 15 %), letzter offener Punkt in [[enteignung-und-entschaedigung]] geschlossen
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue

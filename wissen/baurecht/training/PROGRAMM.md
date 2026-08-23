@@ -1549,6 +1549,25 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   unabhaengigen Rechtsraum waehlen — Empfehlung [[naturschutz-und-denkmalschutz]] (eigener
   Quellenkreis NHG/KNHV) oder [[bauausfuehrung-und-baukontrolle]] (aeltestes `last_updated`
   2026-07-12, nie vollstaendiger Fliesstext-Refresh).
+- **Buch-Run 99 (2026-08-23):** Empfehlung Run 98 gefolgt. [[naturschutz-und-denkmalschutz]]
+  gewaehlt (eigener Quellenkreis NHG/KNHV/BV). Buch-Destillat [[04-natur-und-heimatschutz]]
+  gegengelesen, keine neue Diskrepanz. Der Artikel trug bereits einen gruendlichen PBG-/KNHV-
+  Wortlautabgleich (Run 31/33/61), aber **keinen einzigen** der neun zitierten Bundesrechts-
+  Artikel hatte je einen Volltextabgleich — gleiche Luecke wie bei [[raumplanung-und-gestaltung]]
+  (Run 97). Art. 78 Abs. 1 BV (Stand 1.1.2024), Art. 2/3/5/7/8/13/17/17a/25 NHG (Stand 1.8.2025 —
+  `www`-Route lieferte App-Huelle, `fedlex.data.admin.ch` mit Datum 20250801 funktionierte) und
+  Art. 17 RPG (Stand 1.7.2026) frisch bezogen und Artikel fuer Artikel wortgetreu geprueft —
+  **CONFIRMED wortgleich, 0 Korrekturen** an allen zehn Zitaten (anders als Run 97/98 diesmal
+  keine Korrektur noetig). PBG-Fassungsstand nicht erneut geprueft (Run 94/96/98 haben Nachtrag
+  133 am selben Tag mehrfach bestaetigt). Kein neuer `raw/`-Volltext (gleiches Vorgehen wie
+  Run 97). Report `outputs/2026-08-23_buch-run99.md`. **Naechster Schritt fuer einen kuenftigen
+  Lauf:** von den verbleibenden 7 Artikeln ([[ausnahmebewilligung-und-bestandesschutz]],
+  [[bauausfuehrung-und-baukontrolle]], [[baulinien-und-abstandslinien]],
+  [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]) einen
+  unabhaengigen Rechtsraum waehlen — Empfehlung [[bauausfuehrung-und-baukontrolle]] (aeltestes
+  `last_updated` 2026-07-12, nie vollstaendiger Fliesstext-Refresh, nur punktuelle Fassungsstand-
+  Nachtraege Run 58/64).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

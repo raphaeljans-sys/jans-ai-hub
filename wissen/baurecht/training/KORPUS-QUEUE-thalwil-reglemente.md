@@ -360,10 +360,18 @@ entfallen) haben je einen aus dieser Queue offen gelassenen Punkt in
 
 **Fortsetzung ab Run 90 (ausserhalb dieser Queue, gleiche KB):** seit der Queue-Abarbeitung läuft
 die von den Läufen selbst vorgeschlagene Modell-D-Re-Verifikationskette der `established`-Artikel
-nach ältestem `verifiziert`-Datum (Runs 90-97, siehe CHANGELOG). Run 97 (2026-08-23) hat
+nach ältestem `verifiziert`-Datum (Runs 90-99, siehe CHANGELOG). Run 97 (2026-08-23) hat
 [[raumplanung-und-gestaltung]] re-verifiziert — erstmals die Bundesrechts-Zitate (RPG/RPV/BV)
 frisch gegen `fedlex.data.admin.ch` geprüft, 2 Korrekturen (15-Jahre-Regel korrekt Art. 15 Abs. 1
 RPG allein zugeordnet; Art. 15 Abs. 4 lit. e ergänzt). Report `outputs/2026-08-23_buch-run97.md`.
+Run 98 hat statt eines weiteren Re-Verifikationslaufs den seit Run 68 offenen Punkt zum
+ZH-Mehrwertausgleich (MAG) in [[enteignung-und-entschaedigung]] geschlossen — MAG erstmals als
+`raw/`-Volltext beschafft, 2 echte Korrekturen (kant. Satz fix 20 % statt Entwurfs-5 %, kommunaler
+Höchstsatz 40 % statt Entwurfs-15 %). Report `outputs/2026-08-23_buch-run98.md`. Run 99 hat die
+Kette fortgesetzt: [[naturschutz-und-denkmalschutz]] re-verifiziert — gleiche Lücke wie bei
+Run 97 (Bundesrechts-Zitate, hier Art. 78 BV + neun NHG-Artikel + Art. 17 RPG, noch nie am
+Wortlaut geprüft), diesmal **CONFIRMED wortgleich, 0 Korrekturen**. Report
+`outputs/2026-08-23_buch-run99.md`.
 
 ## Arbeitsregeln je Batch
 

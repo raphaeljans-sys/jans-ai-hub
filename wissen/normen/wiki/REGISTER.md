@@ -241,6 +241,17 @@ oben belegt. Sechs Zeilen als gegenstandslos markiert (Norminhalt bereits über 
 Bestandsquelle abgedeckt: SIA 381/3, 2001, 2027, 2035, 2036, 422). Report:
 `outputs/2026-08-23_sia-sweep-vierundzwanzigste-fortsetzung.md`.
 
+**SIA-Abo-Weg geprüft und geschlossen, 23.08.2026 (SIA-Sweep, fünfundzwanzigste Fortsetzung).**
+Die einzige noch ungeprüfte Beschaffungsoption der P1-Bring-Schulden (SIA 380/1, 385/1, 266/1) war
+das im Bestand liegende iNorm-Abonnement (`SIA_Abo/Korrespondenz/180208_INorm-Abo_2018_Login.pdf`).
+Geprüft: das Dokument ist auf **Meili, Peter & Partner Architekten AG** ausgestellt, nicht auf JANS —
+ein fremdes Dokument, vermutlich bei der SharePoint-Migration vom 18.03.2025 fehlabgelegt. Kein
+Login-Versuch, keine Übernahme der Zugangsdaten in die KB. Zusätzlich der gesamte SharePoint-Drive
+`02_Recht_Norm` per Volltextsuche nach `380_1`/`385_1`/`266_1` durchsucht: keine bisher unentdeckten
+Volltexte gefunden (nur bereits bekannte Vorschauen/Altfassungen/Sprachvarianten). Die drei P1-Zeilen
+sind damit endgültige Bring-Schulden — nur über einen eigenen SIA-Normen-Kauf schliessbar. Details:
+`wiki/QUESTIONS.md` bei den drei Bring-Schuld-Einträgen.
+
 **Verbindliche Regel (angepasst 23.08.2026).** Eine Zeile mit **leerer Bestand-Spalte**
 existiert in Abschnitt A nicht mehr. Bei einer Zeile, deren Bestand-Abgleich **«Kein Volltext
 im Haus»** vermerkt, gilt weiterhin: das Ausgabejahr aus der Shop-Metadatenzeile ist die

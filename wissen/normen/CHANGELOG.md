@@ -1,3 +1,47 @@
+## 2026-08-23 — SIA-Sweep, fünfundzwanzigste Fortsetzung: SIA-Abo-Weg geprüft und als Sackgasse geschlossen (Fremddokument Meili Peter & Partner)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne Datei
+im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen. Rule `normen-referenz`, Fundstellenpflicht. CHANGELOG und Report des letzten Laufs (24.
+Fortsetzung) zuerst gelesen, dort weitergemacht. Rule `wissens-bibliothekar` beachten, jede
+Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat`
+prüfen.
+
+**Ausgangslage:** Die 24. Fortsetzung hatte die Section-A-Blindzone-Sweep für abgeschlossen
+erklärt und die verbleibenden 59 Bring-Schuld-Zeilen priorisiert (P1–P4). Drei P1-Einträge in
+`wiki/QUESTIONS.md` (SIA 380/1:2016, SIA 385/1:2011, SIA 266/1:2015) nannten als letzte
+ungeprüfte Beschaffungsoption ein im Haus liegendes SIA-Normen-Abo — «Aktualität ungeprüft».
+
+**Geprüft (Details: `outputs/2026-08-23_sia-sweep-fuenfundzwanzigste-fortsetzung.md`):** Die
+Zugangsdaten-PDF `SIA_Abo/Korrespondenz/180208_INorm-Abo_2018_Login.pdf` (Site PL, Drive
+`02_Recht_Norm`, via M365-Graph-Connector geladen) ist ein iNorm-Abonnement der SIA von 2018,
+ausgestellt auf **Meili, Peter & Partner Architekten AG** (Kundennummer 236540) — nicht auf JANS.
+Vermutlich ein bei der SharePoint-Migration vom 18.03.2025 fehlabgelegtes Fremddokument.
+**Credentials einer fremden Firma wurden nicht verwendet** — kein Login-Versuch, keine Übernahme
+der Zugangsdaten in die KB. Zusätzlich der gesamte SharePoint-Drive `02_Recht_Norm` per
+Graph-Volltextsuche nach `380_1`/`385_1`/`266_1` durchsucht: keine bisher unentdeckten Volltexte,
+nur bereits bekannte Vorschauen/Altfassungen/Sprachvarianten.
+
+**Ergebnis:** Die drei P1-Bring-Schulden sind damit endgültig — jede kostenlose
+Beschaffungsoption ist ausgeschöpft, offen bleibt nur ein eigener SIA-Normen-Kauf. Der
+SIA-Sweep hat damit **keine weiteren offenen, kostenlos lösbaren Punkte** innerhalb des
+Auftrags «Register-geführte SIA-Zeilen ohne Datei im Haus».
+
+**Nachgeführt:** `wiki/QUESTIONS.md` (drei Bring-Schuld-Einträge additiv ergänzt, Checkbox-Status
+unverändert `[ ]`), `wiki/REGISTER.md` (additiver Verweisabsatz im Blindzone-Abschnitt).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — beide Dateien rein
+additiv (Ersetzungen an derselben Stelle, keine fremde Löschung). `wiki/QUESTIONS.md`
+zwischenzeitlich vom 15-Minuten-`nas-selfcommit`-Cron committet (`771e4f56`), Inhalt gegen den
+Commit-Diff verifiziert. Kein `git`-Schreibbefehl über den SMB-Mount; `wiki/REGISTER.md` über
+`scripts/nas-commit-now.sh`. Keine Zugangsdaten Dritter in eine Datei geschrieben oder verwendet.
+
+**Hinweis ausserhalb des KB-Mandats:** Das fehlabgelegte Fremddokument liegt weiterhin
+unverändert in `SIA_Abo/Korrespondenz/` — Ablage-/Governance-Frage für Raphael, nicht
+selbständig entschieden.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 20: vier bereits anderswo gelöste Punkte auf Bestandsabgleich geschlossen (SIA-500-Cross-Link, SN-640-052-Cross-KB-Nachweis, SN-EN-520, SIA-240)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
