@@ -727,7 +727,7 @@ Gültigkeit/«ersetzt» direkt aus Titelblatt/Vorwort des jeweiligen PDF belegt 
 | SIA 265 | 2003 | mit SIA 265/1 die SIA 164:1981/92 + SIA 164/1:1986 | gilt; Holzbau |
 | SIA 266 | 2003 | mit SIA 266/1 die Empf. SIA V177:1995 | gilt; Mauerwerk (γM=2,0, Brand Tab. 10) |
 | SIA 267 | 2003 | Empf. SIA V191:1995, V192:1996, Vornorm SIA 191/1:2001, Merkbl. SIA 2009:1996 | gilt; Geotechnik |
-| SIA 500 | 2009 | SN 521500:1988 (Behindertengerechtes Bauen) | gilt; Hindernisfreie Bauten — Kernnorm Healthcare/öffentliche Bauten |
+| SIA 500 | 2009 | SN 521500:1988 (Behindertengerechtes Bauen) | gilt; Hindernisfreie Bauten — Kernnorm Healthcare/öffentliche Bauten. Korrigenda C3:2013 und C4:2019 seit 23.08.2026 vollständig im Destillat `sia-500-2009` ausgewertet (~27 geänderte Ziffern, u.a. Rollstuhlgewicht Ziff. 1.2 250→300 kg); C1/C2 weiterhin nur sekundär belegt |
 | SIA 358 | 2010 | SIA 358:1996 | gilt; Geländer und Brüstungen (Absturzsicherung) |
 | SIA 251 | 2008 | Empf. SIA V251/1:1998 | gilt; Schwimmende Estriche im Innenbereich |
 | SIA 252 | 2002 | techn. Teil SIA 252:1988 | gilt; Fugenlose Industriebodenbeläge |

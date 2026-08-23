@@ -1,3 +1,110 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung, siebter Lauf: SIA 500 Korrigenda C3/C4 vollständig ausgewertet, VKF 12-15-Querverweis nachgetragen
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopf: sechster Lauf) und `outputs/2026-08-23_questions-abarbeitung5.md`.
+
+**Grösster Befund: SIA 500 Korrigenda C3:2013 und C4:2019 waren nur zu 2 von rund 27 Stellen
+im Destillat nachgeführt — jetzt vollständig.** Der Run-19-Auftrag vom 28.07.2026 («P1: SIA 500
+Korrigenda-Nachzug, ~20 Stellen offen») war seither unbearbeitet liegen geblieben. Beide
+Korrigenda am amtlichen Wortlaut beschafft (SIA-Shop-Produktseiten `sia%20500-c3`/`sia%20500-c4`,
+freier `DownloadAnhang`, 0.00 CHF, `curl -L` + `pdftotext -layout`) und vollständig gelesen: **C4:2019
+ändert 7 Ziffern** (3.4.1, Tabelle 4/3.7.3, 3.7.4, 3.7.6, 3.7.7, 3.7.8, 6.2.2), **C3:2013 über 20**
+(u.a. 1.2, 3.3.3, 3.3.6.2, 3.6.4.1, 3.7.2, 3.8.5, 4.4, 7.7.2+A.8.2, 8.2.2, 9.1.1/9.1.5/9.2.4/9.5.1,
+A.8.7, D.1.1.3, 0.3). Alle mit Seiten-/Ziffernangabe und korrigiertem Wortlaut in
+`destillate/sia-500-2009.md` nachgeführt (ACHTUNG-KORRIGENDA-Marker, Begriffe-Abschnitt, Zentrale
+Tabellen, Offene Punkte). **Sicherheitsrelevantester Einzelfund:** das Referenzgewicht des
+Innenraum-Rollstuhls (Ziff. 1.2) ist seit C3:2013 **300 kg, nicht 250 kg** — dieselbe Korrektur
+betrifft die Treppenlift-Nennlast (Ziff. 3.8.5) und war bislang in keinem KB-Artikel vermerkt,
+obwohl [[bkp-261-aufzuege]] auf dieses Destillat referenziert. Zwei Detailpunkte bleiben offen,
+weil die zugehörigen Anhänge B/D nicht im Volltext gelesen sind (nur A und E vollständig) —
+klar als Vorbehalt vermerkt, nicht verschwiegen. `wiki/QUESTIONS.md` (Run-19-Abschnitt) und
+`wiki/REGISTER.md` (SIA-500-Zeile) nachgeführt. Report:
+`outputs/2026-08-23_sia500-korrigenda-c3-c4-vollstaendig.md`.
+
+**VKF BRL 12-15 — fehlender Querverweis zur Teilrevision 2026 nachgetragen.** N58-1 (offener
+Sonderfall «12-15/26-15») geprüft: `vkf-teilrevision-2026-pyrotechnik.md` ersetzt die
+Bestandsdestillate nicht, ergänzt sie nur für die vier vom IOTH-Beschluss vom 06.03.2026
+geänderten Absätze. Dabei echten Bestandsfehler gefunden: `vkf-brl-26-15-gefaehrliche-stoffe.md`
+verlinkt die Teilrevision seit Run 58 in Frontmatter und Fliesstext,
+`vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md` verlinkte sie **nirgends** —
+dieselbe Ausgangslage, ungleich behandelt. Nachgetragen (Frontmatter-Link + Fliesstext-Box
+analog zum 26-15-Vorbild). N58-1 in `QUESTIONS.md` als geschlossen markiert.
+
+**Verifikationsstand:** Beide Korrigenda-PDFs primärquellenfest (offizielle SIA-Shop-Domain,
+Preisgruppe 0/freier Download, Dateigrösse deckt sich mit den Shop-Metadaten). VKF-Befund ist
+reine Konsistenzkorrektur zwischen zwei bereits primärquellenfest belegten KB-Dateien, kein
+neuer Fachinhalt destilliert. Nach jedem Schreiben `git diff --numstat` geprüft — keine
+Bestandslöschung, alle Änderungen reine Ergänzungen.
+
+**Bewusst nicht weiterverfolgt:** N-SIASWEEP-1 bis -4, N59-2, N59-4, N60-1, N60-2 — laut Vorlauf
+bereits erschöpft bzw. Freigabe Raphael ausstehend (nicht selbständig zu entscheiden). Kein
+Doppelaufwand zur parallel laufenden SIA-Sweep-Fortsetzung (eigener `claude`-Prozess, anderer
+Auftrag, anderer Abschnitt der KB — per `ps aux` bestätigt kein Konflikt).
+
+---
+
+## 2026-08-23 — SIA-Sweep, neunte Fortsetzung: vier 4000er-/269-8-Neuzugänge mit Produktdatenblatt belegt (SIA 4008/4018/4020, SIA 269/8), SIA-2006-Zeile nachgeführt
+
+**Auftrag Raphael:** SIA-Sweep der KB fortsetzen — Register-geführte SIA-Zeilen ohne Datei im
+Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen. Rule `normen-referenz` (Fundstellenpflicht) und `wissens-bibliothekar` beachten, jede
+Aussage belegen, nichts raten. Vorlauf gelesen: dieser CHANGELOG (Kopf: achte Fortsetzung) und
+`outputs/2026-08-23_sia-sweep-achte-fortsetzung.md`.
+
+**Ausgangslage.** Der eigentliche Sweep-Auftrag (leere Bestand-Abgleich-Zellen in Abschnitt A)
+ist seit dem sechsten/siebten Fortsetzungslauf bei 0 von 187 aktiven Zeilen — vollständig,
+mehrfach reverifiziert, in diesem Lauf nicht neu gescannt. Die drei N-SIASWEEP-Fragen (SIA 422,
+SIA 2021, SIA 2025) waren nach acht erschöpften Quellenarten unverändert offen; die achte
+Fortsetzung empfahl ausdrücklich, sie nicht mit denselben Mitteln erneut anzugehen. Stattdessen
+aufgegriffen: eine von der achten Fortsetzung selbst offen gelassene Bring-Schuld (SIA 4008,
+aus dem Vorwort von SIA 405:2025) sowie drei bereits an anderer Stelle im Register erwähnte,
+aber nie mit einer eigenen, produktdatenblattbelegten Zeile geführte Nachfolgenormen: SIA
+269/8:2017 (löst SIA 2018:2004 ab), SIA 4018:2023 (löst SIA 2006:2013 ab, bisher an der
+SIA-2006-Zeile gar nicht vermerkt gewesen) und SIA 4020:2026 (löst SIA 2026:2017 ab).
+
+**Vier Produktseiten direkt von `shop.sia.ch` gelesen (WebFetch, nicht nur Suchtreffer):**
+- **SIA 4008:2025** «Leitungskataster — Wegleitung zur Norm SIA 405», gültig ab 01.08.2025
+  (identisch mit SIA 405:2025 selbst), aktuell, 200.00 CHF. Dokumentart Wegleitung, kein
+  normativer Charakter; kein Vorgänger-Dokument auf der Produktseite genannt.
+- **SIA 269/8:2017** «Erhaltung von Tragwerken — Erdbeben», gültig ab 01.12.2017, aktuell,
+  52 S., 190.00 CHF, mit Korrigenda C1:2022. Ersetzt Merkblatt SIA 2018:2004 (dort gültig bis
+  30.11.2017). Für JANS mit Healthcare-Bestandesbauten direkt relevant.
+- **SIA 4018:2023** «Planung, Durchführung und Interpretation der Potenzialmessung an
+  Stahlbetonbauten», gültig ab 01.11.2023, aktuell, 32 S., 140.00 CHF. Ersetzt SIA 2006:2013
+  (archiviert seit 31.10.2023) samt Korrigendum SIA 2006-C1:2016.
+- **SIA 4020:2026** «Effizienter Einsatz von Trinkwasser in Gebäuden», gültig ab 01.08.2026
+  (wenige Wochen alt), aktuell, 32 S., 120.00 CHF. Ersetzt SIA 2026:2017 (archiviert seit
+  31.07.2026), die ihrerseits SIA 2026:2006 (Bestand im Haus) abgelöst hatte.
+
+Alle vier bleiben **reine Metadaten-Zeilen** — kein Volltext gekauft oder gelesen, Beschaffung
+bleibt Bring-Schuld. Kein neues Destillat angelegt (Konvention der KB: keine Destillate ohne
+Volltext, siehe alle vergleichbaren „Kein Volltext im Haus"-Zeilen im Register).
+
+**Register nachgeführt:** `wiki/REGISTER.md` — neue Zeile SIA 269/8 direkt nach SIA 269/7 im
+systematischen Teil; neuer Unterabschnitt „4000er-Reihe — Neuzugänge nach 2013" am Ende von
+Abschnitt A mit den drei Zeilen SIA 4008/4018/4020; die bestehende SIA-2006-Zeile um den bisher
+fehlenden Verweis auf SIA 4018:2023 ergänzt. `wiki/QUESTIONS.md`: Nachtrag am Ende des
+N-SIASWEEP-Abschnitts (SIA 4008 metadatenbelegt geschlossen, drei weitere Zeilen ergänzt).
+
+**Verifikation:** `git diff --numstat -- wissen/normen/` nach jedem Schreibvorgang geprüft —
+`wiki/REGISTER.md` 17/1 (die eine Löschung ist die selbst editierte SIA-2006-Zeile, um den
+SIA-4018-Verweis erweitert, kein Inhaltsverlust), `wiki/QUESTIONS.md` 17/0 rein additiv (die
+Datei wurde während des Laufs von einem parallelen Prozess verändert — vor dem Edit die Zielzeile
+frisch geprüft, nach dem Edit per numstat bestätigt: keine fremde Ergänzung überschrieben). Kein
+`git` über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:** kein Volltext von SIA 4008/4018/4020/269-8
+gekauft — alle vier bleiben Beschaffungs-Bring-Schulden. N-SIASWEEP-2 (SIA 422) und
+N-SIASWEEP-3 (SIA 2021/2025) bewusst nicht erneut angegangen (Empfehlung der achten Fortsetzung
+befolgt — acht Quellenarten bereits erschöpft). Der eigentliche SIA-Sweep-Auftrag (Blindzone-
+Zeilen) bleibt bei 0 von 187 offenen Zeilen — unverändert vollständig, in diesem Lauf nicht neu
+gescannt.
+
+Report: `outputs/2026-08-23_sia-sweep-neunte-fortsetzung.md`.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, achte Fortsetzung: N-SIASWEEP-4 geschlossen (SIA 405:2025 ersetzt SIA 405/2015/2016/2045:2012, primärquellenbelegt), SharePoint-Bestand unverändert
 
 **Auftrag Raphael:** SIA-Sweep fortsetzen — zwei neue Wege: (1) SNV-Webshop `connect.snv.ch`

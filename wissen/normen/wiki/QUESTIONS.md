@@ -272,6 +272,23 @@ nach Projektbedarf.
 > SIA 4020:2026 oder eine der 25 in der vierten Fortsetzung genannten Nachfolgenormen —
 > ehrlicher Negativbefund, keine weitere Zeit auf Spekulation verwendet.
 
+> **Nachtrag 23.08.2026 (neunte Fortsetzung) — SIA 4008 metadatenbelegt geschlossen; drei
+> weitere „nicht im Haus"-Nachfolgenormen aus dieser Liste bekommen eigene Register-Zeilen.**
+> Statt die Blindzone erneut zu scannen (unverändert 0/187) oder N-SIASWEEP-2/3 mit denselben
+> erschöpften Mitteln erneut anzugehen (Empfehlung der siebten Fortsetzung befolgt), wurden die
+> vier oben in derselben Zeile genannten Nachfolgenormen einzeln recherchiert: **SIA 4008**
+> (die von der achten Fortsetzung offen gelassene Bring-Schuld aus dem Vorwort von SIA 405:2025),
+> **SIA 269/8:2017**, **SIA 4018:2023**, **SIA 4020:2026** — alle vier Produktseiten direkt per
+> WebFetch von `shop.sia.ch` gelesen (nicht nur Suchtreffer-Snippets), Gültig-ab-/Gültig-bis-
+> Daten, Seitenzahl und Preisgruppe entnommen. Ergebnis: alle vier sind **aktuell** (keine
+> davon selbst schon wieder archiviert), SIA 4008 als reine Wegleitung ohne normativen
+> Ablösungsvermerk (vermutlich Erstausgabe), die anderen drei je mit explizit genannter
+> abgelöster Vorgängernorm (269/8 löst SIA 2018:2004 ab, 4018 löst SIA 2006:2013 ab, 4020 löst
+> SIA 2026:2017 ab). Details je Zeile in `wiki/REGISTER.md`, Abschnitt A (SIA 269/8 im
+> systematischen Teil, SIA 4008/4018/4020 im neuen Unterabschnitt „4000er-Reihe" am Ende von
+> Abschnitt A). **Kein Volltext gekauft** — alle vier bleiben reine Metadaten-Zeilen, Beschaffung
+> weiterhin Bring-Schuld. Report: `outputs/2026-08-23_sia-sweep-neunte-fortsetzung.md`.
+
 ---
 
 ## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt
@@ -3845,6 +3862,28 @@ Warmwasser-Ausnahmen (Restaurants/Sportbauten) und XII als Bade-/Duschwasser-Fal
 das geht nur bei korrekter Zuordnung auf.
 
 ## 2026-07-28 (Wissens-Chef Run 19) — P1: SIA 500 Korrigenda-Nachzug, ~20 Stellen offen
+
+> ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, siebter Lauf).** Beide Korrigenda
+> vollständig am amtlichen Wortlaut beschafft und ausgewertet: C4:2019 (SIA-Shop-Produktseite
+> `sia%20500-c4`, freier DownloadAnhang, 0.00 CHF, 4 S.) und C3:2013 (Produktseite `sia%20500-c3`,
+> freier DownloadAnhang, 0.00 CHF, 7 S.), beide per `curl -L` geladen und mit `pdftotext -layout`
+> vollständig gelesen — nicht nur die zwei bereits markierten Ziffern. **Ergebnis: C4:2019 ändert
+> 7 Stellen** (Ziff. 3.4.1, Tabelle 4/Ziff. 3.7.3, 3.7.4, 3.7.6, 3.7.7, 3.7.8, 6.2.2), **C3:2013
+> über 20 Stellen** (u.a. Ziff. 1.2 Rollstuhlgewicht 250→300 kg, 3.3.3, 3.3.6.2, 3.6.4.1, 3.7.2,
+> 3.8.5 Treppenlift-Nennlast 250→300 kg, 4.4, 7.7.2 + Anhang A.8.2, 8.2.2, 9.1.1/9.1.5/9.2.4/9.5.1,
+> Anhang A.8.7, Anhang D.1.1.3, Ziff. 0.3). Alle mit Fundstelle (Seite, Ziffer) im Destillat
+> `destillate/sia-500-2009.md` als ACHTUNG-KORRIGENDA-Marker mit korrigiertem Wortlaut
+> nachgeführt (Kernziffern-Bullets, Begriffe-Abschnitt, Zentrale-Tabellen-Abschnitt, Offene
+> Punkte aktualisiert). **Der gewichtigste Einzelfund:** das Referenzgewicht des Innenraum-
+> Rollstuhls (Ziff. 1.2, Begriffe) ist seit C3:2013 **300 kg statt 250 kg** — betrifft jede
+> Lastannahme, die davon ausgeht, u.a. die Treppenlift-Nennlast (Ziff. 3.8.5, dieselbe
+> Korrektur) und mittelbar `bkp-261-aufzuege.md`. **Nicht vollständig auflösbar bleiben** zwei
+> Detailpunkte, weil die zugehörigen Anhänge (B, D) in dieser KB nicht im Volltext gelesen sind
+> (nur Anhang A und E vollständig): die neue Bodenflächen-Anforderung «gemäss Anhang B» (Ziff.
+> 9.1.1) und die Neufassung von Tabelle 9 in Anhang D.1.1.3 sind aus der Korrigenda selbst
+> zitiert, nicht gegen den vollständigen Anhangstext geprüft — vermerkt in den Offenen Punkten
+> des Destillats. C1/C2 bleiben unverändert offen (nur sekundär über `sia-500-auslegung.md`
+> belegt). Report: `outputs/2026-08-23_sia500-korrigenda-c3-c4-vollstaendig.md`.
 
 **Was der Chef-Lauf geleistet hat.** Der Verifikator hat die Basisausgabe `500_2009.pdf` sowie die
 Korrigenda **C3:2013** und **C4:2019** am Original beschafft und ausgewertet (shop.sia.ch,
