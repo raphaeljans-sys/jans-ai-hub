@@ -1,14 +1,18 @@
 ---
 title: Nutzungsziffern (Mass der Nutzung) — Kanton Zürich
 status: established
-last_updated: 2026-07-25
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 253a PBG", "§ 254 PBG (Anhang)", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 259 PBG", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 17 ABV (aufgehoben)", "§ 52 PBG", "§ 276 PBG", "Buch Bd 2 Kap. 14 S. 919-992", 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_abv.md]
+last_updated: 2026-08-23
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§ 251 PBG", "§ 253a PBG", "§ 254 PBG (Anhang)", "§ 255 PBG", "§ 256 PBG", "§ 257 PBG", "§ 258 PBG", "§ 259 PBG", "§ 276 PBG", "§ 52 PBG", "§ 9 ABV", "§ 10 ABV", "§ 11 ABV", "§ 12 ABV", "§ 13 ABV", "§ 17 ABV (aufgehoben)", "Buch Bd 2 Kap. 14 S. 919-992", 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_abv.md, "PBG-Volltext amtlich Nachtrag 134 (frisch bezogen 2026-08-23, notes.zh.ch/appl/zhlex_r.nsf/WebView/BDFE23FD4AE7E6E6C1258E3D001CBB62/$File/700.1_7.9.75_134.pdf)"]
 links: [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[ausnuetzungsuebertragung]], [[14-nutzungsdichte-ausnuetzung]], [[geschosse-und-kniestock]]
 verifiziert:
   - datum: 2026-07-25
     methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 55, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md)"
     umfang: "§§ 251/253a/254-259 PBG + §§ 9-13/17 ABV gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md, Hauptteil UND Anhang je gegengelesen"
     ergebnis: "Fassungsstand-Umkehr KORRIGIERT (harmonisierte Fassung = geltender Hauptteil seit 2015/2017, nicht 'nPBG'-Vorlage; Anhang = altes Recht, nur bis BZO-Anpassung der Gemeinde); 3 Einzelkorrekturen: § 9 ABV 'UG mehrheitlich ueber gewachsenem Boden' ist nur Anhang-Recht, im Hauptteil gestrichen; § 10 lit. c ABV Energiespar-Nebenraeume aktuell 20% (nicht 10%); § 17 Abs. 2 ABV existiert nicht (seit 1.2.1992 aufgehoben) - Nutzweisen-Uebertragung beruht auf kommunalem Recht"
+  - datum: 2026-08-23
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 94, Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 93 — aeltestes verifiziert-Datum unter den established-Artikeln); Reglemente-Queue 2414 Thalwil ist seit Run 87 T1-T9 vollstaendig abgearbeitet, daher naechster Schritt aus der Kette gewaehlt"
+    umfang: "§§ 251/253a/254-260/276/52 PBG (Hauptteil UND Anhang) frisch von notes.zh.ch bezogen (amtliches PDF, aktueller Nachtrag 134) und mit pdftotext -layout extrahiert, Wort fuer Wort gegen raw/260607_amtlich_zh_pbg.md sowie gegen den Artikel-Wortlaut gegengelesen; ABV-Fassungsstand ueber die PDF-Fusszeile von raw/260607_amtlich_zh_abv.md verifiziert (kein neuer Bezug noetig)"
+    ergebnis: "CONFIRMED wortgleich, 0 Korrekturen an den bisherigen Zitaten. Genuiner Fund (kein Fehler im Artikel, aber Fassungsstand-relevant): das PBG traegt amtlich bereits Nachtrag 134 (zhlex.zh.ch, Publikation 01.08.2026) - bisher durchgaengig als 'Nachtrag 133, keine Drift' gefuehrt (zuletzt Buch-Run 93). Nachtrag 134 ist jedoch erst per 01.10.2026 IN KRAFT (Fusszeile des amtlichen PDF '1.10.26 - 134' gegenueber '1.7.26 - 133' im bestehenden Raw) - fuer die Rechtslage heute (23.08.2026) bleibt Nachtrag 133 massgebend, und Nachtrag 134 aendert an den hier geprueften Bestimmungen inhaltlich nichts (wortgleich). ABV bleibt unveraendert bei Nachtrag 127 (zhlex.zh.ch bestaetigt, keine Drift). Offen bleibt unveraendert die needs-verification-Frage zur Unterniveaubauten-Neuregelung bei der UeZ (Buch S. 990 f., am Gesetzeswortlaut § 256 PBG nicht woertlich bestaetigbar, siehe Buch-Destillat buecher/band-2/14-nutzungsdichte-ausnuetzung.md Z. 492 f.)."
 ---
 
 # Nutzungsziffern (Mass der Nutzung)
@@ -30,6 +34,13 @@ Baubewilligungsverfahren nachgewiesen (siehe [[baubewilligungsverfahren]]).
 > (Buch-Run 31) und [[geschosse-und-kniestock]] (Buch-Run 33/34) gefundenen Fassungsstand-Umkehr.
 > Unten korrigiert; **Grünflächenziffer (§ 257 PBG) ist die heute geltende Bezeichnung**, die
 > «Freiflächenziffer» nur noch Anhang-Recht nicht-harmonisierter Gemeinden.
+
+> **Nachtrag-Hinweis (Re-Verifikation Buch-Run 94, 23.08.2026):** Das PBG trägt amtlich bereits
+> **Nachtrag 134** (zhlex.zh.ch, publiziert 01.08.2026), der aber erst **per 01.10.2026 in Kraft
+> tritt** — heute (Stand dieser Prüfung) gilt weiterhin **Nachtrag 133**. Nachtrag 134 ändert an
+> den in diesem Artikel zitierten §§ 251/253a/254-260/276/52 PBG nichts (wortgleicher
+> Volltextabgleich). Für Prüfungen nach dem 01.10.2026 den dann geltenden Nachtrag am amtlichen
+> Volltext neu bestätigen.
 
 > **Querbezug KB normen:** Die Flächen-/Volumendefinitionen, auf denen aGF/GF/GV und die
 > anrechenbare Geschossfläche beruhen (GSF/GF/NGF/HNF/NNF/KF/AGF/GV), definiert die Norm

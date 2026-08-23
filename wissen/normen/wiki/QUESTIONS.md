@@ -786,6 +786,89 @@ Richtlinien mit neuer Fassung.
 > lokal unter `/tmp/vkf-2003-15.pdf` (73 S., 44 MB, aufwändigstes Dokument), `/tmp/vkf-2008-15.pdf`
 > (35 S.) und `/tmp/vkf-2011-15.pdf` (18 S.), nächster Schritt ist direktes Lesen ohne erneute
 > Recherche.
+>
+> ✅ **2008-15 (Brandverhütung auf Baustellen) destilliert 23.08.2026 (QUESTIONS-Abarbeitung 16).**
+> Original bezogen (`services2.vkf.ch/.../BSPUB-1394520214-3785.pdf`, 35 S. inkl. Anhang,
+> vollständig gelesen), 01.07.2022, Stand 11.05.2023 (Änderung nur im Anhang A1-A9). Kernstoff:
+> sechs Brandursachen-Gruppen mit Risiken/Massnahmen/Rechtsgrundlagen (Ziff. 6-12), tabellierte
+> Sicherheitsabstände 0.5-5.0 m für Feuerarbeiten (Ziff. 10.3), Funkenflug-Gefahrenbereich 10 m
+> und Zwei-Stunden-Limit vor Arbeitsende (Ziff. 11.3), Nachkontrollzeiten 2 h/4 h ohne
+> Wärmebildkamera, IP44 + Sicherheitsnachweis (SiNa) für provisorische Elektroinstallationen
+> (Ziff. 9.3). Neues Destillat
+> `destillate/vkf-merkblatt-2008-15-brandverhuetung-baustellen.md` (established), Register-Zeile
+> und INDEX-Zeile ergänzt.
+>
+> ✅ **2011-15 (Gebäudebegrünung) nachgetragen 23.08.2026 (QUESTIONS-Abarbeitung 16).** Das
+> Destillat `destillate/vkf-merkblatt-2011-15-gebaeudebeguenung.md` existierte bereits
+> (established, Stand 23.08.2026, vollständig gelesen 18 S.) aus einem vorangegangenen Lauf, der
+> aber vor Register-/INDEX-/CHANGELOG-Eintrag abgebrochen sein muss — der Fund lag ohne jede
+> Spur in `outputs/`, `CHANGELOG.md` oder `wiki/REGISTER.md`, nur `git log` zeigte einen
+> `nas-selfcommit` vom 23.08.2026 21:30. Register-Zeile und INDEX-Zeile in diesem Lauf ergänzt,
+> Inhalt selbst nicht neu verifiziert (nur quergelesen: Vier Grundtypen Fassadenbegrünung, QSS-
+> Einstufung nach Gebäudehöhe, vier gleichwertige Konstruktionsvarianten bei mittlerer Höhe,
+> RF1-Pflicht bei Hochhäusern schliesst Standardkonzept aus, 20-%-Schwelle organischer
+> Substratanteil für RF1 bei Dachbegrünung). **2003-15 bleibt offen** — das PDF liegt bereits
+> lokal unter `/tmp/vkf-2003-15.pdf` (73 S., 44 MB, mit Abstand aufwändigstes Dokument der
+> Vierergruppe), nächster Schritt ist direktes Lesen ohne erneute Recherche.
+>
+> ⚠ **Neuer Nebenbefund, nicht selbständig behoben:** der Dateiname
+> `vkf-merkblatt-2011-15-gebaeudebeguenung.md` trägt einen Tippfehler (fehlendes «r» —
+> richtig wäre `gebaeudebegruenung`). Nicht umbenannt, weil Umbenennen nach Rule
+> `wissens-bibliothekar` destruktiv ist und pausieren verlangt; alle Querverweise (REGISTER.md,
+> INDEX.md, Frontmatter-Links anderer Destillate) müssten beim Umbenennen mitgezogen werden.
+> **Vorschlag:** `git mv` auf den korrekten Namen plus Nachführung der drei Fundstellen, sobald
+> Raphael zustimmt.
+>
+> ✅ **2003-15 (Brandschutzpläne/Flucht- und Rettungswegpläne/Feuerwehrpläne) destilliert
+> 23.08.2026 (QUESTIONS-Abarbeitung 16) — vierte und letzte der vier priorisierten
+> Klasse-2-Lücken geschlossen.** Original bezogen (`services2.vkf.ch/.../BSPUB-1394520214-3749.pdf`,
+> 73 S., Haupttext Ziff. 1-6 + Anhang A1/A2-Struktur/C/D vollständig gelesen; Anhang A3-A5 und
+> B [Feuerwehrpläne-Mustervorlagen, S. 20-69] nicht gelesen). Kernstoff: vier Dokumenttypen mit
+> QSS-gestufter Notwendigkeit, Planniveau-Tabelle einfach/detailliert nach Nutzung × Höhe
+> (Ziff. 4.2.1), ISO 23601:2009 für Flucht-/Rettungswegpläne (Ziff. 4.3), Eigentümer-/
+> Nutzerschaft trägt Erstellung UND Nachführung mit zehn benannten Auslösern (Ziff. 5.3). Neues
+> Destillat `destillate/vkf-merkblatt-2003-15-brandschutzplaene.md` (established für den
+> gelesenen Teil), Register-Zeile und INDEX-Zeile ergänzt. **Nebenertrag:** Anhang A2 dieses
+> Merkblatts (Symbol-Legende, Blattdatum 16.12.2016) bestätigt strukturell den amtlichen
+> Ursprung des seit 27.07.2026 `speculative` geführten Legendenblatts
+> [[brandschutzplan-legende-symbole-2017]] — dessen Hauptoffenpunkt «Herausgeber nicht am
+> Dokument belegt» ist damit entschärft (Destillat dort nachgeführt); die pixelgenaue
+> RGB-Gegenprobe steht weiterhin aus, da die Text-Extraktion von Anhang A2 für Einzelwerte zu
+> unzuverlässig war (Spaltenversatz). **Von den zehn in N58-4 benannten Klasse-2-Lücken sind damit fünf destilliert**
+> (2006-15 aus einem früheren Lauf, 2009-15/2008-15/2011-15/2003-15 aus den QUESTIONS-
+> Abarbeitung-Läufen 15/16) — die übrigen fünf (2000-15, 2002-15, 2004-15, 2007-15, 2010-15)
+> bleiben unpriorisierte Bring-Schuld, kein Vorabruf in diesem Lauf.
+>
+> ✅ **Restliche fünf Klasse-2-Lücken GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 17) — damit
+> sind alle zehn in N58-4 benannten Lücken destilliert.** Alle fünf PDFs waren kompakt (7-16
+> Seiten) und über dieselbe Astro-JSON-Katalog-Methode (bsvonline.ch, Cache
+> `/tmp/normsweep-vorschriften2015.html`) mit korrekt zugeordneter `fileLeafRef`-ID beziehbar,
+> keine echte Bring-Schuld. Neue Destillate: **2000-15** Brandschutzanwendung im Einzelfall
+> (BSPUB-193, 8 S., vierstufige Nachweisstellen-Tabelle Ziff. 3.4), **2002-15** Zeltbauten für
+> temporäre Veranstaltungen (BSPUB-201, 12 S., Ausgangsbreiten-Formel 0.6 m/100 Personen ab
+> 200 Personen), **2004-15** Durchführungen durch brandabschnittbildende Bauteile (BSPUB-3116,
+> 12 S., zitiert VKF-BSR 15-15 Ziff. 3.5 im Wortlaut), **2007-15** Lagerung von Munition
+> (BSPUB-3749, 7 S., fünf Lagerklassen nach Bruttogewicht), **2010-15** Brandschutz in
+> Kompaktlagern (BSPUB-3935, 16 S., vierstufige Massnahmenkategorie nach Tabelle 1).
+>
+> **Nebenbefund und Korrektur beim Beschaffen von 2007-15:** die Dokument-ID
+> `BSPUB-1394520214-3749` war zuvor im Destillat `vkf-merkblatt-2003-15-brandschutzplaene.md`
+> und in der zugehörigen REGISTER-Zeile fälschlich für **2003-15** zitiert — ein reines
+> Zitierfehler-Artefakt aus einer früheren, zu naiven JSON-Extraktion (ein Feld aus dem
+> vorangehenden Katalog-Objekt wurde mitgenommen). Direkte Gegenprobe am Original bestätigt:
+> `BSPUB-1394520214-3749.pdf` ist das 7-seitige Merkblatt 2007-15 «Lagerung von Munition»;
+> `BSPUB-1394520214-203.pdf` ist das 73-seitige Merkblatt 2003-15 «Brandschutzpläne …», exakt
+> der Umfang, der im 2003-15-Destillat gelesen und beschrieben ist. Der **Inhalt** des
+> 2003-15-Destillats war die ganze Zeit korrekt — nur das Frontmatter-Feld `quelle` und die
+> REGISTER-Zeile trugen die falsche ID; beide in diesem Lauf korrigiert (nicht destruktiv,
+> reine Zitat-Berichtigung, keine Rückfrage nötig). **Lehre für künftige Astro-JSON-Käufe
+> dieser Art:** `fileLeafRef` und `title` gehören zwingend aus **demselben** JSON-Objekt
+> gelesen (Regex mit `.{1,N}?` zwischen beiden Feldern, nicht `find()`-Nachbarschaftssuche über
+> den rohen String) — sonst entsteht genau diese stille Verschiebung um ein Listenelement.
+>
+> Nachgeführt: fünf neue Destillate, fünf neue REGISTER-Zeilen, fünf neue INDEX-Zeilen, die
+> Korrektur an `vkf-merkblatt-2003-15-brandschutzplaene.md` und der zugehörigen REGISTER-Zeile.
+> Report: `outputs/2026-08-23_questions-abarbeitung17.md`.
 
 ---
 
@@ -4512,19 +4595,60 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 
 ## 260823 — N61: Cross-KB-Abgleich Primärenergiefaktoren `energie` ↔ SIA 2031-C1
 
-> Die kostenlose Korrigenda SIA 2031-C1:2009 (gültig ab 01.01.2010, Destillat
-> `destillate/sia-2031-korrigenda-c1.md`) führt eine vollständige Tabelle D.1 mit
-> Primärenergiefaktoren, erneuerbaren Primärenergieanteilen und Treibhausgasemissions-
-> Koeffizienten je Energieträger (Heizöl, Erdgas, Holz, Elektrizität CH-Verbrauchermix u.a.).
-> Die KB `wissen/energie` führt eigene Primärenergiefaktor-Angaben (u.a. in
-> `destillate/geak-klassengrenzen-relative-klassierung.md`,
-> `destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md`), aber kein dortiges Destillat
-> verweist bisher auf SIA 2031-C1 als Quelle. Ob die Werte übereinstimmen oder aus einer
-> neueren Quelle (z.B. KBOB-Ökobilanzdaten, SIA 380/1:2016-Fassung) stammen, ist ungeprüft.
+> ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 17).** Der ursprüngliche Fundvermerk nannte
+> zwei konkrete Destillate der KB `wissen/energie` als mutmassliche Fundstelle
+> (`geak-klassengrenzen-relative-klassierung.md`, `sia-380-1-2016-aenderungen-gegenueber-2009.md`)
+> — **beide enthalten bei direkter Prüfung (`grep -i "primärenergie"`) keinen einzigen Treffer**,
+> die Prämisse war falsch. Die tatsächlich einschlägige Fundstelle in `wissen/energie` ist
+> `destillate/geak-normierung-berechnungsmethodik.md` (Quelle: «Normierung des GEAK» Version
+> 2.1.0, EnDK/Verein GEAK-CECB-CECE, 30.03.2023, Tab. 35, S. 61), die dort **nationale
+> Gewichtungsfaktoren f_CH** je Energieträger für die GEAK-Gesamteffizienz-Etikette führt.
+>
+> **Ergebnis des Abgleichs: kein Fehler, sondern zwei verschiedene, beide korrekte Faktorsysteme
+> für zwei verschiedene Zwecke — die Zahlen sind bewusst nicht identisch und dürfen nicht
+> gegeneinander verrechnet werden.**
+>
+> | Energieträger | SIA 2031-C1:2009 Tab. D.1, Primärenergiefaktor (Energieausweis) | GEAK-Normierung 2.1.0 Tab. 35, S. 61, Gewichtungsfaktor f_CH (Etiketten-Gesamteffizienz) |
+> |---|---|---|
+> | Heizöl EL | 1,24 | 1,0 |
+> | Erdgas | 1,15 | 1,0 |
+> | Holz (Stückholz) | 1,06 | 0,5 |
+> | Elektrizität | 2,97 (CH-Verbrauchermix) | 2,0 (Bedarf UND Produktion je eigene Zeile) |
+>
+> Die Werte weichen für **jeden** verglichenen Energieträger deutlich voneinander ab — das ist
+> kein Qualitätsproblem einer der beiden Quellen, sondern zeigt, dass es sich um **begrifflich
+> unterschiedliche Grössen mit unterschiedlicher Herkunft** handelt: SIA 2031s
+> **Primärenergiefaktor** bildet den nicht erneuerbaren Primärenergieaufwand je Einheit
+> Endenergie ab (physikalisch/ökobilanziell hergeleitet, für den Energieausweis nach SIA 2031)
+> und trägt bei Elektrizität deshalb den hohen Wert 2,97. Der **GEAK-Gewichtungsfaktor f_CH**
+> nach Tab. 35 der GEAK-Normierung ist dagegen eine **energiepolitische Systemwahl-Gewichtung**
+> ohne physikalische Herleitung («die Normierung nennt diese Faktoren ohne eigene Begründung
+> und verweist auf die nationalen Gewichtungsfaktoren der EnDK», Destillat
+> `geak-normierung-berechnungsmethodik.md`, Abschnitt «Bauherren-Transfer») — sie dient
+> ausschliesslich dazu, im GEAK-Referenzvergleich (Projektwert E_P gegen Referenzwert E_P,ref,
+> Gl. 51/54) Strom rechnerisch doppelt so stark zu gewichten wie fossile Energieträger, unabhängig
+> vom tatsächlichen Primärenergiegehalt.
+>
+> **Kein Korrekturbedarf in `wissen/energie`:** Das Destillat `geak-normierung-berechnungsmethodik.md`
+> zitiert Tab. 35 bereits korrekt als «nationale Gewichtungsfaktoren» mit eigener Fundstelle (EnDK,
+> nicht SIA 2031) und verwechselt den Begriff an keiner Stelle mit einem Primärenergiefaktor. Die
+> ursprüngliche Vermutung, wonach ein Cross-KB-Abgleich nötig sei, ging von einer falschen
+> Faktenlage aus (die zwei genannten Destillate enthielten die Werte gar nicht); nach Korrektur
+> der Fundstelle zeigt der Abgleich, dass beide KBs bereits terminologisch sauber getrennt sind.
+> **Cross-KB-Bringschuld erfüllt** (Rule `wissens-bibliothekar`): dieser Klärungsabsatz ist im
+> selben Lauf zusätzlich als Fussnote in `wissen/energie/destillate/geak-normierung-berechnungsmethodik.md`
+> nachgetragen (Verweis auf SIA 2031-C1 als abzugrenzende Nachbargrösse), damit ein künftiger
+> Leser dieser Datei die Abgrenzung direkt vor Ort findet statt nur in dieser KB.
+>
+> Der Cross-KB-Hinweis im Destillat `wissen/normen/destillate/sia-2031-korrigenda-c1.md`
+> («Cross-KB-Abgleich bleibt offen») ist im selben Lauf auf das Ergebnis nachgeführt.
 
-- **Nicht selbst geprüft** (Zeitbudget SIA-Sweep, neunzehnte Fortsetzung, 23.08.2026) — reiner
-  Fundvermerk aus dem Lesen der Korrigenda, kein Abgleich der beiden KBs durchgeführt.
-- **Nächster Schritt (Vorschlag):** ein Lauf in `wissen/energie` prüft, ob die dort verwendeten
-  Primärenergiefaktoren mit Tabelle D.1 (SIA 2031-C1:2009, Stand 01.01.2010) übereinstimmen,
-  und trägt bei Abweichung die aktuellere Quelle (z.B. SIA 2031:2016, nicht im Haus) nach.
-- **Herkunft:** SIA-Sweep, neunzehnte Fortsetzung, 23.08.2026.
+- Frage (Ursprungswortlaut): Die kostenlose Korrigenda SIA 2031-C1:2009 (gültig ab 01.01.2010,
+  Destillat `destillate/sia-2031-korrigenda-c1.md`) führt eine vollständige Tabelle D.1 mit
+  Primärenergiefaktoren, erneuerbaren Primärenergieanteilen und Treibhausgasemissions-
+  Koeffizienten je Energieträger (Heizöl, Erdgas, Holz, Elektrizität CH-Verbrauchermix u.a.).
+  Die KB `wissen/energie` führt eigene Primärenergiefaktor-Angaben, aber kein dortiges
+  Destillat verweist bisher auf SIA 2031-C1 als Quelle. Ob die Werte übereinstimmen oder aus
+  einer neueren Quelle stammen, ist ungeprüft.
+- **Herkunft:** SIA-Sweep, neunzehnte Fortsetzung, 23.08.2026; geschlossen QUESTIONS-Abarbeitung
+  17, 23.08.2026.

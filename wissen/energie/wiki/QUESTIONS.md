@@ -1366,8 +1366,13 @@ Empfehlung). SharePoint PL-04 Energie erneut geprüft, keine neue Datei seit 14.
   Preisberechnung; zusätzlich Merksatz gefunden — die `?id=`-Pricing-Route braucht (anders als die
   `?q=`-Suchroute) **keinen** `HX-Request`-Header, sonst leerer 2-Byte-Rumpf →
   `[[fernwaerme-anschlusskosten-zh]]`.
-- [ ] **Neu:** 290-kW-Ausreisser (Galgenen Schulstrasse 1) mit weiteren Stützpunkten >200 kW
-  nachverdichten.
+- [x] **Nachgetragen 23.08.2026: durch Run 84/85/96 abgelöst, Checkbox stehen geblieben.**
+  Die Nachverdichtung ist erfolgt: Run 84 lieferte den Erklärungsrahmen
+  (Objektgrössen-Verweigerung, siehe Z. 1449 unten), Run 85 grenzte den Schwellenwert per
+  CO2-Proxy-Methode auf 290-407 kW ein, Run 96 (Z. 1755) verengte auf ca. 290-303 kW und
+  erklärte weitere automatische Recherche für nicht mehr angezeigt («weitere Verengung nur
+  per EASZ-Direktanfrage sinnvoll»). Der 290-kW-Punkt selbst bleibt bewusst Ausreisser
+  ausserhalb der Regression (`[[fernwaerme-anschlusskosten-zh]]`).
 - [x] **SIA-279-Bemessungswert-Zuschlagsformel Naturdämmstoffe** geschlossen ✓ 2026-07-21: kein
   fester Zuschlag, Einzelfallentscheid der SIA-279-Kommission (Ziff. 3.2.2.1/3.2.2.2) — Formel
   existiert bewusst nicht generisch.
@@ -1446,8 +1451,12 @@ Eintrag ist ein 63-Byte-OneDrive-Platzhalter, kein PDF). Reiner Verdichtungs-/Ve
   Quersubventionierung aus dem wachsenden Fonds, kein Fehler → `[[pv-entsorgung-recycling-lebensende-ch]]`
   auf established gehoben. EPBT-Primärquelle (treeze/Frischknecht 2020) gefunden. Offen: auditierte
   Gesamtrecyclingquote in %.
-- [ ] **Fernwärme Objektgrössen-Verweigerung** eingegrenzt auf 290-407 kW, exaktes 10-kW-Fenster
-  weiterhin offen (kein reales Objekt in der Lücke gefunden) → `[[fernwaerme-anschlusskosten-zh]]`.
+- [x] **Nachgetragen 23.08.2026: durch Run 96 abgelöst, Checkbox stehen geblieben.** Siehe
+  Z. 1760: Run 96 fand mit Tertianum Residenz Huob (Pfäffikon SZ) einen realen
+  Verweigerungsfall bei ≈303 kW und verengte das Fenster von 290-407 kW auf ca. 290-303 kW;
+  Reglements-Check (TAB V1.8 + AGB V5.0) bestätigt reine Tool-Logik ohne publizierte Formel.
+  Weitere Verengung ausdrücklich nur per EASZ-Direktanfrage sinnvoll, kein automatischer
+  Rechercheaufwand mehr angezeigt → `[[fernwaerme-anschlusskosten-zh]]`.
 - [x] **Neues Thema Heizöltank-Sanierung/Rückbau ZH+SZ** ✓ 2026-07-23 → `[[heizoeltank-sanierung-rueckbau-zh-sz]]`,
   established (Bund/ZH). Offen: SZ-Merkblatt im Volltext, Kostenrichtwerte.
 - [x] **Neues Thema Stromtarif-Modelle Wärmepumpen** ✓ 2026-07-23 → `[[stromtarife-waermepumpen-sperrzeiten-ch]]`,

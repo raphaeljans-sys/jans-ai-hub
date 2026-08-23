@@ -1,3 +1,343 @@
+## 2026-08-23 — SIA-Sweep, zweiundzwanzigste Fortsetzung: SIA-118/xxx-AVB-Restliste komplett auf Korrigenda-Methode geprüft (12 Nullbefunde)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` und `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat`
+prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md`-Kopf (einundzwanzigste Fortsetzung, 22:01 Uhr) und
+`outputs/2026-08-23_sia-sweep-einundzwanzigste-fortsetzung.md`. Dessen offen benannte
+Fortsetzungsempfehlung: die restlichen SIA-118/xxx-Vertragsbedingungen-Zeilen (118/222, 118/242,
+118/243, 118/251, 118/252, 118/253, 118/318, 118/329, 118/331, 118/342, 118/343, 118/370) —
+12 Zeilen, bis dahin nur mit Metadaten, noch nicht auf Korrigenda geprüft.
+
+**Kollisionsprüfung:** `ps aux | grep "claude -p"` beim Start geprüft — der eigene Prozess
+(PID 40119, dieser Auftrag) sowie zwei fremde Prozesse: ein Lauf an `wiki/QUESTIONS.md`
+derselben KB (PID 39144, andere Zeilen) und ein Lauf an der KB `wissen/baurecht` (PID 38964,
+fremde KB). `wiki/REGISTER.md` unmittelbar vor dem Schreiben frisch gelesen: der Absatz der
+einundzwanzigsten Fortsetzung war die aktuellste Ergänzung, kein neuer SIA-Sweep-Absatz eines
+Parallellaufs vorgefunden. Eigener Absatz direkt danach eingefügt.
+
+**Durchgeführt:** Alle 12 von der einundzwanzigsten Fortsetzung benannten SIA-118/xxx-Zeilen
+geprüft. Je Zeile die Produktseite per `curl -A "Mozilla/5.0"
+https://shop.sia.ch/normenwerk/architekt/{slug}/D/Product` abgerufen (Slug aus Normnummer +
+dem in der bestehenden Registerzeile bereits geführten Ausgabejahr, z.B. `118-222_2012_d`),
+den Titel gegen die erwartete Norm per Meta-Description-Tag verifiziert (diese Seiten führen
+kein `<title>`-Tag und kein befülltes `class="Titel"`-Feld — Abweichung zur bisherigen Methode
+notiert, Verifikation über die Meta-Description ebenso eindeutig), danach das Feld
+`lblAnhangBezeichnung` gezählt und ausgelesen.
+
+**Ergebnis: 12 von 12 Nullbefunde.** Jede der zwölf Produktseiten führt genau ein
+`lblAnhangBezeichnung`-Feld mit dem Wert «Inhaltsverzeichnis» — kein zusätzlicher, kostenloser
+Korrigenda-/Ergänzungs-Download vorhanden, unabhängig davon, ob die geprüfte Ausgabe inzwischen
+archiviert ist (118/222, 118/243, 118/253, 118/329, 118/370) oder weiterhin aktuell (118/242,
+118/251, 118/252, 118/318, 118/331, 118/342, 118/343). Damit ist die gesamte von der
+einundzwanzigsten Fortsetzung benannte SIA-118/xxx-Restliste auf die Korrigenda-Methode
+geprüft.
+
+**Nachgeführt:**
+
+- `wiki/REGISTER.md`: neuer Sammelabsatz «Korrigenda-Check-Sweep, 23.08.2026 (SIA-Sweep,
+  zweiundzwanzigste Fortsetzung)» im Blindzone-Abschnitt, direkt nach dem Absatz der
+  einundzwanzigsten Fortsetzung eingefügt (additiv, keine bestehende Zeile verändert).
+- Kein neues Destillat (reine Nullbefunde, Rule `wissens-bibliothekar`: kein Wiki-Artikel ohne
+  Inhalt).
+- `destillate/INDEX.md`: unverändert (kein neuer Eintrag nötig).
+- Dieser CHANGELOG-Eintrag; Report
+  `outputs/2026-08-23_sia-sweep-zweiundzwanzigste-fortsetzung.md`.
+
+**Verifikation** (`git diff --numstat` nach dem Schreibvorgang geprüft, Rule
+`auto-verbesserungen` 260811):
+
+| Datei | Befund |
+|---|---|
+| `wiki/REGISTER.md` | 73 Einfügungen / 5 Löschungen. Die 5 „Löschungen" stammen ausschliesslich aus einer bereits vor diesem Lauf uncommitteten Zeilenerweiterung eines Parallellaufs (SIA 232/1, 384/6, 2016, 2042, 2044 — Zeile durch längere Fassung ersetzt), nicht aus diesem Lauf selbst; gezielt geprüft, dass alle fünf Zeilen weiterhin vollständig vorhanden sind |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh` bzw. den 15-Minuten-`nas-selfcommit`-Cron).
+
+**Nicht geleistet / offene Bring-Schulden:**
+
+- Die von der einundzwanzigsten Fortsetzung offen belassenen fehlenden Registerzeilen
+  **SIA 384/6:2021** und **SIA 2042:2022** (aktuell gültige Nachfolgeausgaben ohne eigene Zeile)
+  wurden auch in diesem Lauf nicht angelegt.
+- Für die 23. Fortsetzung verbleiben die vier niedriger priorisierten, bereits vertieft
+  recherchierten Zeilen **SIA 381/3, SIA 422, SIA 2025, SIA 118/430** — bei allen vieren ist die
+  jeweilige Basisnorm selbst bereits archiviert/zurückgezogen, die Trefferwahrscheinlichkeit für
+  einen zusätzlichen Korrigenda-Download auf einer archivierten Produktseite ist entsprechend
+  geringer, aber ungeprüft. Danach ist keine offene Blindzone-Zeile aus der ursprünglichen
+  «Kein Volltext im Haus»-Restmenge mehr bekannt — die 23. Fortsetzung sollte vor einer weiteren
+  Kandidatenwahl per `grep "Kein Volltext im Haus" wiki/REGISTER.md` gegen alle bisherigen
+  Sweep-Absätze (7. bis 22. Fortsetzung) neu abgleichen, ob wirklich nichts mehr offen ist.
+- Bei keinem der 12 Kandidaten ein Cross-KB-Bezug oder eine neue offene Frage entstanden; kein
+  neuer `wiki/QUESTIONS.md`-Eintrag gesetzt.
+
+## 2026-08-23 — SIA-Sweep, einundzwanzigste Fortsetzung: SIA-269-Familie komplett auf Korrigenda-Methode geprüft (7 Nullbefunde)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` und `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat`
+prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md`-Kopf (zu Sessionbeginn: SIA-Sweep zwanzigste Fortsetzung
+ganz oben, 21:55 Uhr) und `outputs/2026-08-23_sia-sweep-zwanzigste-fortsetzung.md` (jüngster
+SIA-Sweep-Report). Dessen Empfehlung: keine vorgegebene Kandidatenliste mehr, sondern die
+verbleibenden ~25 ungeprüften Blindzone-Zeilen systematisch fortsetzen, dazu zwei fehlende
+Registerzeilen (SIA 384/6:2021, SIA 2042:2022) ergänzen — Letzteres in diesem Lauf nicht
+geleistet (siehe unten), da die Blindzone-Fortsetzung priorisiert wurde. `wiki/REGISTER.md`,
+Abschnitt A, per `grep "Kein Volltext im Haus"` auf die noch ungeprüfte Restmenge abgeglichen.
+
+**Kollisionsprüfung:** `ps aux` geprüft — beim Start dieses Laufs bereits ein
+`zwanzigste Fortsetzung`-Ergebnis im CHANGELOG vorgefunden (die eigene 20. Fortsetzung war
+also von einem parallelen Prozess mit identischem Lauf-Namen/Prompt bereits erledigt worden,
+bevor dieser Lauf zu schreiben begann) — deshalb gemäss Auftragsvorgabe als **einundzwanzigste**
+Fortsetzung weitergeführt. Ein weiterer paralleler `claude -p`-Lauf arbeitet an
+`wiki/QUESTIONS.md` derselben KB (fremder Auftrag, andere Zeilen) und ein dritter an der KB
+`wissen/energie` (fremde KB). Vor dem Schreiben `wiki/REGISTER.md` und `CHANGELOG.md.` jeweils
+frisch gelesen: `REGISTER.md` trug beim zweiten Lesen bereits die fünf inhaltlich erweiterten
+Zeilen der 20. Fortsetzung (uncommitteter Stand), `CHANGELOG.md` bereits einen neuen
+QUESTIONS-Abarbeitung-16-Eintrag über meinem zuerst gelesenen Kopf — beide additiv unangetastet
+gelassen, eigener Eintrag jeweils oben angefügt bzw. unmittelbar vor dem bestehenden Absatz
+eingefügt.
+
+**Durchgeführt:** Aus der Blindzone-Restmenge («Kein Volltext im Haus», noch nicht auf
+Korrigenda geprüft) die vollständige SIA-269-Familie («Erhaltung von Tragwerken») ausgewählt,
+soweit nicht bereits durch die siebzehnte Fortsetzung erledigt (269/3, 269/5, 269/8 dort schon
+mit Korrigenda-Fund abgeschlossen): **SIA 269, 269/1, 269/2, 269/4, 269/7**. Dazu zwei
+SIA-118/xxx-Vertragsbedingungen-Zeilen mit weiterhin aktueller (nicht archivierter) Basisnorm:
+**SIA 118/232, SIA 118/240**. Je Kandidat die Produktseite per
+`curl -A "Mozilla/5.0" https://shop.sia.ch/normenwerk/{ingenieur|architekt}/{slug}/D/Product`
+abgerufen, den Titel gegen die erwartete Norm verifiziert (z.B. „SIA 269 / 2011 d — Grundlagen
+der Erhaltung von Tragwerken (Normenwerk => Ingenieur)") und das Feld `lblAnhangBezeichnung`
+gezählt und ausgelesen.
+
+**Ergebnis: 7 von 7 Nullbefunde.** Jede der sieben Produktseiten führt genau ein
+`lblAnhangBezeichnung`-Feld mit dem Wert «Inhaltsverzeichnis» — kein zusätzlicher, kostenloser
+Korrigenda-/Ergänzungs-Download vorhanden. Damit ist die gesamte SIA-269-Familie (Basisnorm plus
+269/1 bis 269/8) jetzt vollständig auf die Korrigenda-Methode geprüft.
+
+**Nachgeführt:**
+
+- `wiki/REGISTER.md`: neuer Sammelabsatz «Korrigenda-Check-Sweep, 23.08.2026 (SIA-Sweep,
+  einundzwanzigste Fortsetzung)» im Blindzone-Abschnitt, direkt nach dem Absatz der zwanzigsten
+  Fortsetzung eingefügt (additiv, keine bestehende Zeile verändert).
+- Kein neues Destillat (reine Nullbefunde, Rule `wissens-bibliothekar`: kein Wiki-Artikel ohne
+  Inhalt).
+- `destillate/INDEX.md`: unverändert (kein neuer Eintrag nötig).
+- Dieser CHANGELOG-Eintrag; Report
+  `outputs/2026-08-23_sia-sweep-einundzwanzigste-fortsetzung.md`.
+
+**Verifikation** (`git diff --numstat` nach dem Schreibvorgang geprüft, Rule
+`auto-verbesserungen` 260811):
+
+| Datei | Befund |
+|---|---|
+| `wiki/REGISTER.md` | 41 Einfügungen / 5 Löschungen laut `git diff --numstat`; die 5 „Löschungen" sind ausschliesslich die bereits vor diesem Lauf (20. Fortsetzung) uncommitteten Zeilenerweiterungen zu SIA 232/1, 384/6, 2016, 2042, 2044 (Zeile durch längere Fassung ersetzt) — von diesem Lauf selbst stammt ausschliesslich der neue Absatz (`git diff \| grep einundzwanzigste` zeigt genau die zwei erwarteten neuen Zeilen, keine fremde Zeile berührt) |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh` bzw. den 15-Minuten-`nas-selfcommit`-Cron).
+
+**Nicht geleistet / offene Bring-Schulden:**
+
+- Die von der 20. Fortsetzung empfohlenen fehlenden Registerzeilen **SIA 384/6:2021** und
+  **SIA 2042:2022** (aktuell gültige Nachfolgeausgaben ohne eigene Zeile) wurden in diesem Lauf
+  nicht angelegt — Priorität lag auf der Blindzone-Fortsetzung. Nächster Lauf.
+- Von den ursprünglich rund 25 nach der 20. Fortsetzung verbleibenden ungeprüften
+  Blindzone-Zeilen sind mit diesem Lauf 7 abgearbeitet (SIA-269-Familie vollständig plus zwei
+  SIA-118/xxx). **Verbleibend für die 22. Fortsetzung:** die restlichen SIA-118/xxx-AVB-Zeilen
+  (118/242, 118/243, 118/251, 118/252, 118/253, 118/318, 118/329, 118/331, 118/342, 118/343,
+  118/370, 118/222) sowie die bereits als „archiviert ohne Nachfolger auf der Produktseite"
+  eingeordneten Zeilen SIA 381/3, SIA 422, SIA 2025 und SIA 118/430 — Letztere vier sind bereits
+  vertieft recherchiert (Nachfolge-/Rückzugsstatus geklärt bzw. als Bring-Schuld benannt), aber
+  noch nie gezielt auf einen zusätzlichen kostenlosen Korrigenda-Anhang der jeweiligen
+  Basisnorm-Produktseite geprüft — echte Trefferwahrscheinlichkeit dort unklar, da die
+  Basisnormen selbst bereits archiviert sind.
+- Bei keinem der 7 Kandidaten ein Cross-KB-Bezug oder eine neue offene Frage entstanden; kein
+  neuer `wiki/QUESTIONS.md`-Eintrag gesetzt.
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 16: letzte drei VKF-Merkblätter der Vierergruppe (2003-15, 2008-15, 2011-15 nachgetragen), Legendenblatt-Herausgeberfrage entschärft
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats vor Zitat lesen, nur `established`
+zitierfähig. CHANGELOG und Report des letzten Laufs zuerst lesen, dort weitermachen. Rule
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Kollisionsprüfung:** `ps aux` zu Sessionbeginn geprüft — parallel lief ein eigenständiger
+SIA-Sweep-Lauf (`mschub126`, andere Aufgabe: Register-Zeilen ohne Datei im Haus) auf derselben
+KB; dessen Änderungen an `REGISTER.md`/`CHANGELOG.md` wurden während der Session mehrfach
+sichtbar (Datei "seit dem letzten Lesen verändert"), alle eigenen Edits blieben rein additiv
+und string-verankert, keine Kollision. Der eigene CHANGELOG-Eintrag wird hier vor den zuletzt
+erschienenen SIA-Sweep-Eintrag («zwanzigste Fortsetzung») gesetzt, dieser bleibt unverändert.
+
+**Vorlauf gelesen:** `outputs/2026-08-23_questions-abarbeitung15.md` — dessen konkrete
+Empfehlung: drei VKF-Merkblatt-PDFs (2003-15, 2008-15, 2011-15) liegen bereits lokal unter
+`/tmp/`, direkter nächster Schritt ohne erneute Recherche.
+
+### Durchgeführt
+
+1. **2008-15 «Brandverhütung auf Baustellen» destilliert** (neu, `established`): Original per
+   `curl` + `pdftotext -layout` gelesen (35 S. inkl. Anhang, URL aus dem Astro-JSON-Cache
+   `/tmp/normsweep-vorschriften2015.html` rekonstruiert, `fileLeafRef` → BSPUB-1394520214-3785).
+   Sechs Brandursachen-Gruppen (Ziff. 6-12), Sicherheitsabstände Feuerarbeiten (Ziff. 10.3
+   Tab. 1, 0.5-5.0 m), Funkenflug-Gefahrenbereich 10 m + Zwei-Stunden-Limit vor Arbeitsende
+   (Ziff. 11.3), IP44 + SiNa für provisorische Elektroinstallationen (Ziff. 9.3).
+2. **2011-15 «Gebäudebegrünung» nachgetragen** — Destillat existierte bereits (`established`,
+   vollständig gelesen), aber ohne Register-/INDEX-/CHANGELOG-Eintrag: ein vorangegangener Lauf
+   muss vor diesen Schritten abgebrochen sein (nur `git log` zeigte einen `nas-selfcommit` vom
+   23.08.2026 21:30, kein `outputs/`-Report, kein CHANGELOG-Eintrag, keine Zeile in Register/
+   INDEX). Register- und INDEX-Zeile in diesem Lauf ergänzt, Inhalt nicht neu verifiziert.
+   Nebenbefund: Dateiname trägt einen Tippfehler (`gebaeudebeguenung` statt
+   `gebaeudebegruenung`) — nicht selbständig umbenannt (destruktiv), in QUESTIONS vermerkt.
+3. **2003-15 «Brandschutzpläne/Flucht- und Rettungswegpläne/Feuerwehrpläne» destilliert** (neu,
+   `established` für den gelesenen Teil): grösstes der vier PDFs (73 S., 44 MB), Haupttext
+   Ziff. 1-6 + Anhang A1 (Brandschutzkonzept-Checkliste) + Anhang A2-Struktur (Symbol-Legende)
+   + Anhang C/D vollständig gelesen; Anhang A3-A5 und B (Feuerwehrpläne-Mustervorlagen,
+   S. 20-69) bewusst nicht gelesen (überwiegend Musterpläne, wenig Fliesstext). Vier
+   Dokumenttypen mit QSS-gestufter Notwendigkeit (Ziff. 3), Planniveau-Tabelle einfach/
+   detailliert (Ziff. 4.2.1 Tab. 1), ISO 23601:2009 für Flucht-/Rettungswegpläne (Ziff. 4.3),
+   Eigentümer-/Nutzerschaft trägt Erstellung UND Nachführung (Ziff. 5, zehn Auslöser Ziff. 5.3).
+4. **Cross-Check-Ertrag:** Anhang A2 von 2003-15 (Symbol-Legende, Blattdatum 16.12.2016) trägt
+   dieselbe Gruppengliederung, denselben Wortlaut und dieselben Kennwerte (18 t / 11 m × 6 m)
+   wie das separat seit 27.07.2026 `speculative` geführte Legendenblatt
+   `brandschutzplan-legende-symbole-2017.md` — dessen Hauptoffenpunkt «Herausgeber nicht am
+   Dokument belegt» ist damit strukturell entschärft (Destillat nachgeführt, `links:` ergänzt).
+   Status bleibt `speculative`, weil die pdftotext-Extraktion von Anhang A2 für einzelne
+   RGB-Werte zu unzuverlässig war (ein Extraktionsversuch der Poller-Farben widersprach den dort
+   bereits pixelgenau verifizierten Werten) — bewusst NICHT übernommen, nur als offener Punkt
+   vermerkt.
+
+### Nachgeführt
+
+- `destillate/vkf-merkblatt-2008-15-brandverhuetung-baustellen.md` (neu, established)
+- `destillate/vkf-merkblatt-2003-15-brandschutzplaene.md` (neu, established für gelesenen Teil)
+- `destillate/brandschutzplan-legende-symbole-2017.md` (Offene-Punkte-Abschnitt + `links:` +
+  `last_updated` nachgeführt, Status unverändert `speculative`)
+- `wiki/REGISTER.md`: drei neue VKF-Merkblatt-Zeilen (2003-15, 2008-15, 2011-15-nachgetragen)
+- `destillate/INDEX.md`: drei neue Zeilen
+- `wiki/QUESTIONS.md`: additive ✅-Nachträge unter N58-4 (2008-15/2011-15/2003-15 je einzeln,
+  Gesamtstand «5 von 10 Klassen-2-Lücken destilliert»), Ursprungswortlaut unangetastet
+
+### Kollisionsprüfung und Verifikation
+
+`git diff --numstat` nach Abschluss aller Schreibvorgänge:
+
+| Datei | Befund |
+|---|---|
+| `destillate/vkf-merkblatt-2008-15-brandverhuetung-baustellen.md` | `??` (echte Neuanlage) |
+| `destillate/vkf-merkblatt-2003-15-brandschutzplaene.md` | `??` (echte Neuanlage) |
+| `destillate/brandschutzplan-legende-symbole-2017.md` | additiv (Offene-Punkte-Block erweitert, `links:`/`last_updated` geändert), kein Text gelöscht |
+| `wiki/REGISTER.md` | additiv, 20/5 im Gesamtdiff — die 5 Deletions sind Zeilen, die der parallele SIA-Sweep-Lauf zwischen Lesen und Schreiben bereits in-place erweitert hatte (kein eigener Verlust, per Diff-Inspektion bestätigt) |
+| `destillate/INDEX.md` | additiv, 3/0 |
+| `wiki/QUESTIONS.md` | additiv, reiner Nachtrag unter N58-4 |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh` bzw. den 15-Minuten-`nas-selfcommit`-Cron).
+
+### Nicht geleistet / weiterhin offen
+
+- **2000-15, 2002-15, 2004-15, 2007-15, 2010-15** — die restlichen fünf der zehn in N58-4
+  benannten Klasse-2-Lücken (2000er-Merkblätter), unpriorisierte Bring-Schuld.
+- **Anhang A3-A5 und B von 2003-15** (Feuerwehrpläne-Mustervorlagen inkl. eigenem
+  Symbolkatalog B12) nicht destilliert — Kandidat für einen künftigen Lauf bei konkretem
+  Feuerwehrplan-Bedarf.
+- Pixelgenaue RGB-Gegenprobe von Anhang A2 (2003-15) gegen das Legendenblatt weiterhin offen.
+- Unverändert offen: N58-1 (Systemaudit), N60-1/N60-2 (Entscheid Raphael), SVGW-Scope
+  (Entscheid Raphael), Bezahlschranken-Beschaffungen (Bring-Schuld Raphael),
+  IOTH-Asylsuchende-Reihe (bewusst zurückgestellt).
+
+## 2026-08-23 — SIA-Sweep, zwanzigste Fortsetzung: 5 Korrigenda-Funde (SIA 232/1, 384/6, 2016, 2042, 2044), 8 Nullbefunde — 13 von 19 empfohlenen Blindzone-Zeilen erledigt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` und `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat`
+prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md`-Kopf (zu Sessionbeginn: QUESTIONS-Abarbeitung 15) und
+`outputs/2026-08-23_sia-sweep-neunzehnte-fortsetzung.md` (jüngster SIA-Sweep-Report) — dessen
+explizite Empfehlung für die Fortsetzung: die Korrigenda-Check-Methode auf 19 noch ungeprüfte
+Blindzone-Zeilen ausweiten, Priorität SIA 215, SIA 232/1, SIA 232/2, SIA 274, SIA 283, SIA 284,
+SIA 384/6 (energie-relevant) sowie die 20xx-Merkblatt-Restmenge SIA 2016/2021/2027/2042/2044/2045.
+
+**Kollisionsprüfung:** `ps aux` zu Laufbeginn geprüft — eigener Prozess läuft unter Lauf-Name
+`mschub126` (PID 34047/34046/34039, Startprompt identisch zu diesem Auftrag). Zwei weitere
+parallele `claude -p`-Läufe: `mschub127` (KB `wissen/energie`, fremde KB) und `mschub123`
+(KB `wissen/baurecht`, fremde KB) — kein Konkurrent auf denselben Dateien.
+
+**Durchgeführt:** Alle 13 der oben genannten Kandidaten geprüft (URL-Muster
+`shop.sia.ch/normenwerk/architekt/{nr}_{jahr}_d/D/Product`, Slash-Nummern mit Bindestrich,
+z.B. `232-1_2011_d` — verifiziert am bereits bekannten Muster `118-232_2011_d`). Anhang-Labels
+(`lblAnhangBezeichnung`) automatisiert geprüft.
+
+**5 Treffer** (alle kostenlos, direkt heruntergeladen und vollständig mit `pdftotext -layout`
+gelesen):
+- **SIA 232/1-C1:2013** (gültig ab 01.10.2013, 3 S.): Materialdicken-Korrektur Aluminium-
+  Metalldeckung (1,0 mm→0,7 mm) + vier Kleinkorrekturen.
+- **SIA 384/6-Korrigenda** (Stand 04.02.2010, 1 S.): reine Grafik-Korrektur an drei Figuren,
+  kein Fliesstext.
+- **SIA 2016 Erläuterung (2018, mit SIA 2015) + Korrigenda C1:2018** (gültig ab 01.11.2018,
+  5 S.): Datenaustausch-/XTF-Details, Modellbenennungs-Korrektur SIA405/INTERLIS. Betrifft ein
+  bereits archiviertes Merkblatt (ersetzt durch SIA 405:2025, N-SIASWEEP-4 bereits geschlossen).
+- **SIA 2042 Korrigenda C1:2015/C2:2015/C3:2019** (C3 gültig ab 01.05.2019): **C3 ist der
+  praktisch wichtigste Fund dieses Laufs — Anhang F «Beton-Performance Prüfung» ist seit
+  01.05.2019 zurückgezogen, ersetzt durch Anhang G der Norm SIA 262/1** (bereits im Haus,
+  Nacht-Loop Run 3). Direkt relevant für `ausschreibung`/`unternehmerkontrolle` bei
+  AAR-Präventionsnachweisen im Betonbau.
+- **SIA 2044 Korrigenda C1/C2:2013** (C1 gültig ab 01.01.2013, C2 gültig ab 01.04.2013):
+  Formel-/Begriffskorrekturen am Berechnungsverfahren, Literaturverweis-Wechsel
+  SIA 416/1→SIA 384/3.
+
+**8 Nullbefunde** (nur reguläres Inhaltsverzeichnis, kein weiterer Anhang): SIA 215, SIA 232/2,
+SIA 274, SIA 283, SIA 284, SIA 2021, SIA 2027, SIA 2045 — auf die Korrigenda-Methode geprüft,
+kein erneuter Abruf nötig.
+
+**Nachgeführt:**
+
+- Fünf neue Destillate: `destillate/sia-232-1-korrigenda-c1.md`,
+  `destillate/sia-384-6-korrigenda.md`, `destillate/sia-2016-korrigenda-erlaeuterung.md`,
+  `destillate/sia-2042-korrigenda.md`, `destillate/sia-2044-korrigenda.md` (alle `established`).
+- `wiki/REGISTER.md`: fünf Zeilen inhaltlich ergänzt (SIA 232/1, 384/6, 2016, 2042, 2044) +
+  neuer Sammelabsatz «Korrigenda-Check-Sweep, 23.08.2026 (zwanzigste Fortsetzung)» im
+  Blindzone-Abschnitt (8 Nullbefund-Zeilen dokumentiert).
+- `destillate/INDEX.md`: fünf neue Zeilen.
+- Dieser CHANGELOG-Eintrag; Report `outputs/2026-08-23_sia-sweep-zwanzigste-fortsetzung.md`.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang geprüft, Rule
+`auto-verbesserungen` 260811):
+
+| Datei | Befund |
+|---|---|
+| `destillate/sia-232-1-korrigenda-c1.md` | `??` (echte Neuanlage) |
+| `destillate/sia-384-6-korrigenda.md` | `??` (echte Neuanlage) |
+| `destillate/sia-2016-korrigenda-erlaeuterung.md` | `??` (echte Neuanlage) |
+| `destillate/sia-2042-korrigenda.md` | `??` (echte Neuanlage) |
+| `destillate/sia-2044-korrigenda.md` | `??` (echte Neuanlage) |
+| `wiki/REGISTER.md` | je 1/1 für die fünf Einzelzeilen (gezielte Ersetzung), dann 18/5 für den Sammelabsatz (Netto 13 neue Zeilen) — ausschliesslich eigene Zeilen betroffen |
+| `destillate/INDEX.md` | 5/0, rein additiv |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh` bzw. den 15-Min-`nas-selfcommit`-Cron).
+
+**Nicht geleistet / offene Bring-Schulden:**
+
+- Alle fünf Basisnormen (SIA 232/1:2011, SIA 384/6:2010/2021, SIA 2016:2012, SIA 2042:2012/2022,
+  SIA 2044:2011/2019) bleiben kostenpflichtig und nicht im Haus — nur die kostenlosen
+  Korrigenda-/Ergänzungsdokumente sind erschlossen.
+- SIA 384/6:2021 und SIA 2042:2022 (aktuell gültige Ausgaben) tragen bislang keine eigene
+  Registerzeile in dieser KB — für einen künftigen Lauf: eigene Zeile anlegen und ebenfalls auf
+  Korrigenda prüfen.
+- Von den ursprünglich ~19 empfohlenen Kandidaten sind mit diesem Lauf 13 abgearbeitet (5
+  Treffer + 8 Nullbefunde). **Verbleibend für die nächste Fortsetzung:** die restlichen
+  Blindzone-Zeilen ausserhalb der P1-Prioritätenliste der neunzehnten Fortsetzung — ein
+  vollständiger Restabgleich aller ~55 Blindzone-Zeilen gegen die Korrigenda-Methode ist noch
+  nicht erfolgt, nur die mehrfach priorisierten Kandidaten.
+- Cross-KB-Hinweis SIA 2042/Anhang G↔SIA 262/1 nicht in einer eigenen QUESTIONS-Zeile verankert
+  (nur im Destillat und in der Register-Zeile) — geringe Priorität, da beide Normen bereits in
+  derselben KB liegen und der Verweis dort direkt auffindbar ist.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung, Fortsetzung nach Run 14: VKF-Merkblatt 2009-15 (Sicherheitsstromversorgung) destilliert
 
 **Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit Norm,

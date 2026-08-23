@@ -1,5 +1,43 @@
 # CHANGELOG
 
+## 2026-08-23 — Cross-KB-Nachtrag aus `wissen/normen` (N61): GEAK-Gewichtungsfaktor Tab. 35 gegen SIA-2031-Primärenergiefaktor abgegrenzt
+
+Fremder Lauf (QUESTIONS-Abarbeitung 17, KB `wissen/normen`) prüfte, ob die dort neu gelesenen
+Primärenergiefaktoren aus SIA 2031-C1:2009 Tab. D.1 mit Primärenergie-Angaben dieser KB
+übereinstimmen. Befund: die ursprünglich vermuteten Fundstellen
+(`geak-klassengrenzen-relative-klassierung.md`, `sia-380-1-2016-aenderungen-gegenueber-2009.md`)
+enthalten gar keine Primärenergiefaktoren; die tatsächlich einschlägige Stelle ist
+`destillate/geak-normierung-berechnungsmethodik.md`, Tab. 35 (S. 61) — dort werden **nationale
+Gewichtungsfaktoren f_CH** (EnDK/GEAK-Normierung 2.1.0) geführt, keine Primärenergiefaktoren.
+Beide Zahlenreihen weichen für jeden Energieträger deutlich voneinander ab (z.B. Elektrizität
+2,0 gegen 2,97), was **kein Fehler** ist, sondern zwei unterschiedliche, beide korrekt zitierte
+Grössen für unterschiedliche Zwecke (Etiketten-Systemwahl-Gewichtung vs. physikalischer
+Primärenergieaufwand für den Energieausweis). Nachgeführt: eine Abgrenzungs-Fussnote direkt bei
+Tab. 35 in `geak-normierung-berechnungsmethodik.md`, `last_updated` aktualisiert. Kein Fehler
+in dieser KB, keine Zahl geändert — reine Klarstellung, damit die beiden Begriffe künftig nicht
+verwechselt werden. Details: `wissen/normen/wiki/QUESTIONS.md`, N61;
+`wissen/normen/outputs/2026-08-23_questions-abarbeitung17.md`.
+
+## 2026-08-23 — Interaktive Session (vierzehnte Fortsetzung, Run 159): zwei stehen gebliebene Checkboxen geschlossen, E-R149-4-Fix neunter Fehlschlag (jetzt auch interaktiv, keine Session-Typ-Frage)
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo Run 158
+aufgehört hat. Eigene vollständige Durchsicht aller 15 verbliebenen `- [ ]`-Zeilen (nicht nur
+die letzte Aussage übernommen) fand zwei tatsächlich bereits gelöste, aber nie auf `[x]`
+gesetzte Punkte: Z. 1369 («290-kW-Ausreisser nachverdichten») und Z. 1454 («Fernwärme
+Objektgrössen-Verweigerung … 10-kW-Fenster offen») waren beide durch Run 96 (23.–25.07.2026)
+bereits gelöst (Fenster auf ca. 290-303 kW verengt, `[[fernwaerme-anschlusskosten-zh]]`), nur
+an der älteren Fundstelle nie nachgetragen — jetzt mit Querverweis geschlossen. Alle übrigen 13
+unchecked Zeilen sind keine offenen Rechercheaufträge, sondern bewusst stehen gelassene
+Original-Wortlaute, Prozessnotizen, «nicht auflösbar»-Dokumentationen oder an eine Entscheidung
+Raphaels gebundene Punkte (E103, E94, E-R148-1 Normkauf). **Neuer Befund zu E-R149-4:** der
+Edit-Versuch an `~/.claude/scheduled-tasks/energie-training/SKILL.md` wurde diesmal in einer
+**interaktiven** Session (nicht als Scheduled-Task-Subagent) unternommen und scheiterte
+identisch («sensitive file») — schliesst die Hypothese aus, die Sperre hänge am Session-Typ;
+sie greift unabhängig davon. Muss ausserhalb der Claude-Code-Session angewendet werden. Output:
+`outputs/2026-08-23_questions-nachlauf-vierzehnte-fortsetzung.md`. Nach dem Schreibvorgang
+`git diff --numstat` geprüft (13 Zeilen hinzugefügt, 4 entfernt — die vier entfernten sind die
+beiden gezielt ersetzten Alt-Einträge, keine fremde Löschung).
+
 ## 2026-08-23 — Interaktive Session (dreizehnte Fortsetzung, Run 158): sechste unabhängige Negativbestätigung, E-R149-4-Fix erneut an Werkzeuggrenze gescheitert
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo Run 157

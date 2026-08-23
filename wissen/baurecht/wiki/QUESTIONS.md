@@ -1,5 +1,27 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ⚠ BEOBACHTEN 2026-08-23 (Buch-Run 94) — PBG-Nachtrag 134 amtlich publiziert, tritt erst 01.10.2026 in Kraft
+
+**Kein Fehler, aber Fassungsstand-relevant fuer die ganze KB.** Bei der Re-Verifikation von
+[[nutzungsziffern]] (aeltestes `verifiziert`-Datum unter den established-Artikeln, Vorschlag
+Run 93) zeigte ein frisch von `notes.zh.ch` bezogenes amtliches PBG-PDF, dass das PBG bereits
+**Nachtrag 134** traegt (zhlex.zh.ch, Publikationsdatum 01.08.2026) — bisher durchgehend als
+«Nachtrag 133, keine Drift» gefuehrt (zuletzt Buch-Run 93, siehe auch die vielen Nachtrag-133-
+Zitate quer durch dieses Register). Die Fusszeile des amtlichen PDF zeigt jedoch
+**«1. 10. 26 - 134»** gegenueber **«1. 7. 26 - 133»** im bestehenden `raw/260607_amtlich_zh_pbg.md`
+— das heisst, **Nachtrag 134 tritt erst per 01.10.2026 in Kraft**. Heute (23.08.2026) gilt
+weiterhin Nachtrag 133; der bestehende Raw-Bestand ist also nicht veraltet.
+
+Fuer [[nutzungsziffern]] selbst ist die Frage geklaert: §§ 251/253a/254-260/276/52 PBG
+(Hauptteil UND Anhang) sind zwischen Nachtrag 133 und 134 wortgleich — Nachtrag 134 aendert an
+diesen Bestimmungen nichts. **Nicht gepruft: ob Nachtrag 134 andere, in dieser KB zitierte
+PBG-Paragraphen aendert**, die ausserhalb des in Buch-Run 94 gepruften Bereichs liegen.
+
+**Empfehlung fuer einen kuenftigen Lauf:** nach dem 01.10.2026 (sobald Nachtrag 134 tatsaechlich
+in Kraft ist) ein vollstaendiges Änderungsverzeichnis von Nachtrag 134 gegen zhlex.zh.ch ziehen
+und pruefen, ob eine der established-Artikel-Fundstellen betroffen ist — nicht erst warten, bis
+eine Einzelre-Verifikation zufaellig darueber stolpert.
+
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 91) — GG-Lücke aus Run 85 geschlossen: §§ 38-52 + 170-171 GG frisch bezogen, 1 Korrektur (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»)
 
 **War offen seit Buch-Run 85** (Zeile unten, «Offen bleibt … §§ 41/44/45/48/50/51 GG»).

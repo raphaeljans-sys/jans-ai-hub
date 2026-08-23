@@ -68,14 +68,21 @@ Fussnoten im Original: Brennwerte fest/Holz beziehen sich auf kg Trockensubstanz
 Weichholz = 140 kg TS; 1 Schütt-m³ Pellets = 660 kg TS); Gaswerte im Norm-Zustand
 (0 °C, 101'300 Pa); Biogas-Dichte/-Brennwert abhängig vom Methangehalt, Quelle SVGW G13.
 
-## Cross-KB-Hinweis (nicht selbst umgesetzt, Bring-Schuld)
+## Cross-KB-Hinweis (GEPRÜFT und GESCHLOSSEN 23.08.2026, QUESTIONS-Abarbeitung 17)
 
-Die KB `wissen/energie` führt bereits eigene Primärenergiefaktor-Destillate (u.a.
-`geak-klassengrenzen-relative-klassierung.md`, `sia-380-1-2016-aenderungen-gegenueber-2009.md`),
-aber kein Destillat verweist bisher explizit auf SIA 2031-C1 als Quelle der hier
-zitierten Werte. Ob die dort verwendeten Primärenergiefaktoren mit dieser Tabelle D.1
-übereinstimmen oder aus einer neueren Quelle (z.B. KBOB-Ökobilanzdaten) stammen, ist in
-diesem Lauf **nicht geprüft** — Cross-KB-Abgleich bleibt offen, siehe `wiki/QUESTIONS.md`.
+Die ursprüngliche Vermutung, zwei Destillate von `wissen/energie`
+(`geak-klassengrenzen-relative-klassierung.md`, `sia-380-1-2016-aenderungen-gegenueber-2009.md`)
+enthielten Primärenergiefaktor-Angaben, die gegen diese Tabelle D.1 abzugleichen wären, war
+falsch — beide Dateien enthalten keine Primärenergiefaktoren. Die tatsächlich einschlägige
+Fundstelle in `wissen/energie` ist `destillate/geak-normierung-berechnungsmethodik.md`
+(Tab. 35, S. 61 der GEAK-Normierung 2.1.0): dort werden **nationale Gewichtungsfaktoren f_CH**
+geführt (Heizöl/Erdgas/Kohle/Briketts 1,0; Holz 0,5; Elektrizität 2,0), die von den hier
+gelesenen SIA-2031-C1-Primärenergiefaktoren (Heizöl 1,24; Erdgas 1,15; Holz 1,06-1,22;
+Elektrizität 2,97) durchgehend abweichen. Das ist **kein Widerspruch**: die GEAK-Gewichtungs-
+faktoren sind eine energiepolitische Systemwahl-Gewichtung für die Etiketten-Gesamteffizienz
+(EnDK-Quelle), die SIA-2031-Primärenergiefaktoren dagegen der physikalisch/ökobilanziell
+hergeleitete Aufwand für den Energieausweis — beide KBs führen den jeweils richtigen Begriff
+bereits korrekt und sauber getrennt. Details und Herleitung: `wiki/QUESTIONS.md`, N61.
 
 ## Nicht geleistet / Grenzen dieses Destillats
 

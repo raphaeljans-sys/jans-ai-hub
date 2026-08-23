@@ -6,8 +6,8 @@ ersetzt: "vermutlich eine Fassung zur BSV-Ausgabe 01.01.2015 (nicht im Bestand, 
 gelesen: "2/2 Seiten (Textextrakt vollständig + Seitenbilder beider Blätter, Detailzoom Gruppe 2.1)"
 datenstand: "Blattdatum 16.12.2016, Geltung ab 01.01.2017"
 status: speculative
-last_updated: 2026-07-27
-links: [[brandschutzfachstellen-anleitung-brandschutznachweis-v3]], [[vkf-brl-13-15-baustoffe-bauteile]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-17-15-kennzeichnung-fluchtwege]], [[vkf-brl-21-15-rauch-waermeabzugsanlagen]], [[sia-400-2000]], [[REGISTER]]
+last_updated: 2026-08-23
+links: [[brandschutzfachstellen-anleitung-brandschutznachweis-v3]], [[vkf-brl-13-15-baustoffe-bauteile]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-17-15-kennzeichnung-fluchtwege]], [[vkf-brl-21-15-rauch-waermeabzugsanlagen]], [[sia-400-2000]], [[vkf-merkblatt-2003-15-brandschutzplaene]], [[REGISTER]]
 ---
 
 # Legendenblatt Brandschutzplan — Symbol- und Farbsystematik (Stand 16.12.2016 / gültig ab 01.01.2017)
@@ -78,7 +78,21 @@ Diese vier Regeln sind der eigentliche Wissenswert des Blattes; die exakten RGB-
 - Abgrenzung: Für die **Beschilderung im Gebäude** (Rettungszeichen, Grössen, Leuchtdichten) gilt nicht dieses Blatt, sondern `vkf-brl-17-15-kennzeichnung-fluchtwege.md`. Dieses Blatt regelt ausschliesslich die **Plandarstellung**.
 
 ## Offene Punkte
-- **Herausgeber und amtlicher Status sind nicht am Dokument belegt** — Hauptgrund für den Status `speculative`. Zu verifizieren am Original des VKF-Merkblatts 2003-15 «Brandschutzpläne, Flucht- und Rettungswegpläne, Feuerwehrpläne» (im Hub noch nicht destilliert, in der Normen-Bibliothek SharePoint zu suchen): Ist dieses Blatt der dort publizierte Symbolsatz, und ist seither eine neuere Fassung erschienen?
+- **Herausgeber und amtlicher Status — strukturell bestätigt 23.08.2026, RGB-Werte weiterhin offen.**
+  VKF-Merkblatt 2003-15 liegt seit dem QUESTIONS-Abarbeitung-16-Lauf als Destillat vor
+  ([[vkf-merkblatt-2003-15-brandschutzplaene]]), Original bezogen von der VKG-
+  Publikationsplattform. Dessen Anhang A2 «Übersicht Brandschutz-Symbole» trägt **exakt
+  dasselbe Blattdatum 16.12.2016** wie dieses Legendenblatt, dieselbe Gruppengliederung
+  1.0-7.0, denselben Wortlaut «(nicht Bestandteil der Brandschutzpläne)» bei Gruppe 2.3 und
+  dieselben Kennwerte Feuerwehrzufahrt/Stellfläche (18 t / 11 m × 6 m) — der amtliche VKF-
+  Ursprung dieses Blattes ist damit **strukturell bestätigt**, nicht mehr nur über den
+  indirekten Verweis in der Anleitung V.3 hergeleitet. **Bleibt offen:** die pdftotext-
+  Extraktion von Anhang A2 war für einzelne RGB-Werte zu unzuverlässig (Spaltenversatz in der
+  komplexen Tabelle) — ein Extraktionsversuch der Poller-Farben widersprach sogar den hier
+  pixelgenau verifizierten Werten (siehe Selbst-Gegenprobe unten), wurde aber wegen der
+  unzuverlässigen Quelle NICHT übernommen. Der Status bleibt deshalb `speculative`: die
+  Herausgeberfrage ist gelöst, eine pixelgenaue Gegenprobe der RGB-Tripel am Original von
+  Anhang A2 (nicht nur an diesem separaten Legendenblatt) steht noch aus.
 - Das Blatt ist auf die **BSV-Fassung 01.01.2017** ausgerichtet. Für die kommende Vorschriftengeneration (siehe `vkf-normkonzept-bsv-2026-entwurf.md`) ist ungeprüft, ob der Symbolsatz angepasst wird.
 - Die exakten RGB-Werte je Einzelsymbol sind hier bewusst **nicht** abgebildet (Urheberrecht/Katalogabzug). Bei konkretem CAD-Bedarf direkt am PDF ablesen — Pfad in der Frontmatter.
 - Nicht geklärt: ob und wie die Symbole auch für **Flucht- und Rettungswegpläne** sowie **Feuerwehrpläne** gelten; die Blattbeschriftung nennt ausschliesslich «Brandschutzplan», das referenzierte Merkblatt 2003-15 deckt dem Titel nach aber alle drei Plantypen ab.

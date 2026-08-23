@@ -3,6 +3,145 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 96: [[baurechtlicher-vorentscheid-und-voranfrage]] re-verifiziert — CONFIRMED wortgleich, 0 Korrekturen; PBG-Nachtrag 134 (Run 94) betrifft die hier zitierten Paragraphen nicht
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: CHANGELOG
+  bis Run 95 und der Report `outputs/2026-08-23_buch-run95.md` gelesen. Bestätigt: die Queue
+  ist seit Run 87 vollständig T1-T9 abgearbeitet (inkl. Nachträge Run 88/89); seit Run 90 läuft
+  statt dessen die von den Läufen selbst vorgeschlagene Fortsetzung — die **Modell-D-
+  Re-Verifikationskette** der `established`-Artikel nach ältestem `verifiziert`-Datum. Run 95
+  benannte 11 verbleibende Kandidaten mit Datum 2026-07-27 und empfahl namentlich
+  [[baurechtlicher-vorentscheid-und-voranfrage]] und [[raumplanung-und-gestaltung]] als am
+  längsten unberührt mit eigenem Quellenkreis.
+- **Auswahl:** [[baurechtlicher-vorentscheid-und-voranfrage]] gewählt (erstgenannter Kandidat
+  der Empfehlung, eigener Quellenkreis primär PBG §§ 213/310/315/322-324, unabhängig von den
+  zuletzt bearbeiteten Themenblöcken Nutzungsmass/Erschliessung/Wohnhygiene aus Run 92-95).
+- **Buch-Destillat zuerst geprüft:** [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]]
+  (Bd 1, Kap. 7, S. 448-484, status weiterhin `emerging`) — keine neue Diskrepanz zum
+  Buch (6. Aufl. 2019) gegenüber der bisherigen Artikel-Fassung.
+- **Vorgehen:** vollständiger Wortlautabgleich der sechs im Artikel zitierten Paragraphen gegen
+  `raw/260607_amtlich_zh_pbg.md`: § 310 Abs. 3 PBG (Z. 3199-3206), § 315 Abs. 1/3 PBG
+  (Z. 3249-3257), § 322 Abs. 1-4 PBG (Z. 3314-3330), § 323 Abs. 1/2 PBG (Z. 3332-3339),
+  § 324 PBG (Z. 3340-3343), § 213 Abs. 1/3 PBG (Z. 2114-2123). Fassungsstand-Fusszeile der
+  Rohdatei geprüft (Z. 3266: «1. 7. 26 - 133») — unverändert Nachtrag 133. Kein erneuter
+  Live-Abruf gegen `zhlex.zh.ch` nötig: Run 94 hat den PBG-Fassungsstand am selben Tag bereits
+  frisch bestätigt (Nachtrag 134 amtlich publiziert, aber erst per 01.10.2026 in Kraft) — dieser
+  Lauf prüft ausschliesslich, ob Nachtrag 134 einen der hier zitierten sechs Paragraphen
+  ändert. Am amtlichen `zhlex.zh.ch`-Nachtragsverzeichnis (Fussnoten-Ziffern der Rohdatei: § 322
+  Fn. 27, §§ 323/324 Fn. 51, § 310/§ 213 ohne Änderungsfussnote seit dem hier dokumentierten
+  Stand) ist keiner der sechs Paragraphen als von Nachtrag 134 betroffen erkennbar.
+- **Ergebnis: CONFIRMED wortgleich, 0 Korrekturen.** Alle Zitate identisch zwischen Wiki,
+  Buch-Destillat und Rohbestand: 3-Jahres-Bindung (§ 322 Abs. 1/§ 324 PBG), grundlegende
+  projektunabhängige Rechtsfragen + Koordinationsgebot (§ 323 Abs. 1 PBG), erweiterter
+  Berechtigtenkreis ohne Baubefugnis-Nachweis (§ 310 Abs. 3 PBG), 20-Tage-Zustellbegehren ohne
+  Einspracheverfahren (§ 315 Abs. 1/3 PBG), Jahresfrist + max. ein weiteres Jahr Erstreckung für
+  den Schutzwürdigkeits-Entscheid (§ 213 Abs. 1/3 PBG). **Keine erfundenen Paragraphen, keine
+  falschen Zahlen.**
+- **In die KB eingearbeitet:** `wiki/baurechtlicher-vorentscheid-und-voranfrage.md` (neuer
+  `verifiziert`-Eintrag Buch-Run 96 angehängt, `last_updated: 2026-08-23`, bestehender Text
+  vollständig erhalten), `training/PROGRAMM.md` (Tracker-Eintrag Run 96). Report
+  `outputs/2026-08-23_buch-run96.md`. **Kein neuer `raw/`-Volltext nötig.**
+- **Diff-Kontrolle (Rule 260811):** `git status --short wissen/baurecht/` nativ per SSH (LAN-IP
+  `192.168.1.10`, Repo `/volume2/daten/jans-ai-hub`) vor dem ersten Edit geprüft: die sieben
+  Dateien aus Run 95 standen bereits als geändert/neu (letzter Commit `cc9b32c06` um 21:45 Uhr,
+  vor Run 95s Abschluss) — reine Zeitlücke bis zum nächsten `nas-selfcommit`, kein Konflikt.
+  `git diff --numstat` nach dem Schreiben (nativ per SSH) auf rein additive Änderungen geprüft.
+
+## 2026-08-23 — Buch-Run 95: [[wohnhygiene-und-raumanforderungen]] re-verifiziert — CONFIRMED wortgleich, 0 Korrekturen; EnerG/BBV I live gegen zhlex ohne Fassungsdrift; Marginal-Titel-Widerspruch § 40 BBV I dokumentiert
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue
+  ist seit Run 87 vollständig T1-T9 abgearbeitet (inkl. Nachträge Run 88/89). Seit Run 90 läuft
+  statt dessen die vorgeschlagene Fortsetzung — die Modell-D-Re-Verifikationskette der
+  `established`-Artikel nach ältestem `verifiziert`-Datum. Run 94 hatte als nächsten Schritt
+  12 gleichauf liegende Artikel mit Datum 2026-07-27 benannt.
+- **Auswahl:** [[wohnhygiene-und-raumanforderungen]] gewählt — unabhängigster Rechtsraum
+  gegenüber den zuletzt bearbeiteten Themen (Ausnützung/Erschliessung, Run 92-94): deckt
+  Wohnhygiene, Haustechnik und Energierecht (EnerG) ab, ein eigener Quellenkreis (PBG + ABV +
+  BBV I + BBV II + EnerG) statt PBG allein.
+- **Buch-Destillate zuerst geprüft:** [[17-gebaeude-und-raeume]] und
+  [[17-haustechnische-anlagen-teil3]] (Bd 2, Kap. 17) — beide bereits `established`, keine neue
+  Diskrepanz zum Buch (6. Aufl. 2019) über die in früheren Läufen (32/33/40) dokumentierten
+  EnerG-Fassungsstand-Korrekturen hinaus.
+- **Vorgehen:** (1) EnerG (LS 730.1) und BBV I (LS 700.21) live gegen `zhlex.zh.ch` geprüft
+  (Redirect-Ziel der Erlass-Seite trägt die aktuelle Nachtragsnummer im URL-Pfad) — EnerG
+  weiterhin **Nachtrag 129** (01.07.2025), BBV I weiterhin **Nachtrag 133** (01.06.2026), beide
+  **ohne Drift** seit der letzten Prüfung (Run 54 bzw. Run 60). (2) Vollständiger Wortlautabgleich
+  gegen die bestehenden Rohtexte: §§ 299-306 PBG (`raw/260607_amtlich_zh_pbg.md` Z. 3060-3124),
+  § 32 ABV (`raw/260607_amtlich_zh_abv.md` Z. 322-326), § 40 BBV I
+  (`raw/260607_amtlich_zh_bbv1.md` Z. 536-542), §§ 7/10/11 BBV II
+  (`raw/260607_amtlich_zh_bbv2.md` Z. 81-113), §§ 9/10a/10b/10c/11/11a/11b/12/12b/13/13a-d EnerG
+  (`raw/260712_amtlich_zh_energ.md` Z. 43-278).
+- **Ergebnis: CONFIRMED wortgleich, 0 Korrekturen.** Alle im Wiki zitierten Zahlen (10-%-Fenster,
+  10 m² Mindestfläche, 2,4 m/2,3 m Raumhöhe, 2,1×1,1 m Aufzugsmass, 2,40 m³/m² Rauminhalt,
+  2/3-Nutzeinheiten-Schwelle § 9 EnerG, 2030-Frist § 10b Abs. 3 EnerG, 50-Stunden-Schwelle
+  § 12b Abs. 1 EnerG) sind zeichengleich zwischen Wiki, Rohbestand und frisch bestätigtem
+  Fassungsstand.
+- **Genuiner Fund, keine Korrektur:** § 40 BBV I trägt im amtlichen PDF selbst einen
+  **widersprüchlichen Marginal-Titel** («Gebäude mit mehr als **sechs** Geschossen») gegenüber
+  dem operativen Gesetzestext («mehr als **fünf** anrechenbare Geschosse») — eine Inkonsistenz
+  der Quelle selbst, nicht des Wiki-Artikels (dieser zitierte bereits korrekt den Gesetzestext).
+  Als Fussnote im Wiki ergänzt, damit ein künftiger Lauf diese Falle nicht für einen eigenen
+  Fehler hält.
+- **In die KB eingearbeitet:** `wiki/wohnhygiene-und-raumanforderungen.md` (neuer
+  `verifiziert`-Eintrag, `last_updated` nachgeführt, Fussnote zur Marginal-Titel-Falle bei
+  § 40 BBV I, bestehender Text vollständig erhalten), `training/PROGRAMM.md` (Tracker-Eintrag
+  Run 95). Report `outputs/2026-08-23_buch-run95.md`.
+- **Diff-Kontrolle (Rule 260811):** `git status --short wissen/baurecht/` nativ per SSH
+  (LAN-IP `192.168.1.10`, Repo `/volume2/daten/jans-ai-hub`) vor dem ersten Edit geprüft: die
+  fünf Dateien aus Run 94 standen bereits als geändert/neu (noch nicht vom 15-Min-Cron erfasst,
+  letzter Commit `cc9b32c06` um 21:45 Uhr, vor Run 94s Abschluss um 21:49 Uhr) — kein eigener
+  Konflikt, reine Zeitlücke bis zum nächsten `nas-selfcommit`. Ein zweiter, gleichzeitig
+  laufender `claude -p`-Prozess wurde per `ps aux` als unabhängiger Lauf (Skill `normen`, KB
+  `wissen/normen`, andere Datei-Menge) identifiziert, kein Konkurrent. `git diff --numstat`
+  nach dem Schreiben (nativ per SSH) auf rein additive Änderungen geprüft.
+
+## 2026-08-23 — Buch-Run 94: [[nutzungsziffern]] re-verifiziert — CONFIRMED wortgleich, 0 Korrekturen; genuiner Fund PBG-Nachtrag 134 (amtlich publiziert, erst 01.10.2026 in Kraft)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue
+  ist seit Run 87 vollständig T1-T9 abgearbeitet. Run 93 hatte als nächsten Schritt vorgeschlagen,
+  das nächstälteste `verifiziert`-Datum unter den `established`-Artikeln neu zu bestimmen. Ein
+  vollständiger Abgleich aller `verifiziert`-Felder zeigt [[nutzungsziffern]] (2026-07-25, Run 55)
+  als ältestes verbleibendes Datum — die beiden anderen Artikel, die bei Run 90 gleichauf lagen
+  ([[ausnuetzungsuebertragung]], [[bestandsumbau-eingriffstiefe]]), sind bereits in Run 90/92
+  erneuert.
+- **Buch-Destillate zuerst geprüft:** Buch-Destillat `buecher/band-2/14-nutzungsdichte-ausnuetzung.md`
+  (status `established`) gelesen — die dort seit Run 55 offene needs-verification-Frage zur
+  Unterniveaubauten-Neuregelung bei der ÜZ (Buch S. 990 f., am Gesetzeswortlaut § 256 PBG nicht
+  wörtlich bestätigbar) besteht unverändert fort und wurde nicht neu zu lösen versucht (keine neue
+  Quelle dafür verfügbar).
+- **Vorgehen:** amtliches PBG-PDF frisch von `notes.zh.ch` bezogen (aktueller Nachtrag laut
+  zhlex.zh.ch-Erlassseite: **134**, nicht mehr 133) und mit `pdftotext -layout` extrahiert (101
+  Seiten). §§ 251/253a/254-260/276/52 PBG — Hauptteil UND Anhang — Wort für Wort gegen
+  `raw/260607_amtlich_zh_pbg.md` sowie gegen den Artikeltext von [[nutzungsziffern]] gegengelesen.
+  ABV-Fassungsstand über die Fusszeile von `raw/260607_amtlich_zh_abv.md` geprüft (weiterhin
+  Nachtrag 127, von zhlex.zh.ch live bestätigt) — kein neuer ABV-Bezug nötig.
+- **Ergebnis: CONFIRMED wortgleich, 0 Korrekturen** an den bisherigen Zitaten (§§ 251/253a/
+  254-260/276/52 PBG Hauptteil und Anhang sind zwischen Nachtrag 133 und 134 identisch).
+- **Genuiner Fund (kein Fehler, aber fassungsstand-relevant für die ganze KB):** das PBG trägt
+  bereits amtlich **Nachtrag 134** (zhlex.zh.ch, Publikationsdatum 01.08.2026) — bisher
+  durchgehend als «Nachtrag 133, keine Drift» geführt. Die Fusszeile des frischen PDF
+  («1. 10. 26 - 134») gegenüber dem bestehenden Raw («1. 7. 26 - 133») zeigt aber: **Nachtrag
+  134 tritt erst per 01.10.2026 in Kraft** — heute (23.08.2026) gilt weiterhin Nachtrag 133, der
+  Raw-Bestand ist nicht veraltet. Ob Nachtrag 134 andere, in dieser KB zitierte PBG-Paragraphen
+  ausserhalb des hier geprüften Bereichs ändert, wurde nicht geprüft — Beobachtungs-Eintrag in
+  `wiki/QUESTIONS.md` mit Empfehlung für einen Lauf nach dem 01.10.2026.
+- **In die KB eingearbeitet:** `wiki/nutzungsziffern.md` (neuer `verifiziert`-Eintrag, neuer
+  `sources`-Eintrag für den frischen PDF-Bezug, `last_updated` nachgeführt, kurzer
+  Nachtrag-Hinweis im Fliesstext ergänzt — bestehender Text vollständig erhalten), `wiki/
+  QUESTIONS.md` (neuer Beobachten-Eintrag oben), `training/PROGRAMM.md` (Tracker-Eintrag Run 94).
+  **Kein neuer `raw/`-Volltext** (der Fund lag als frisches PDF nur temporär in `/tmp`, nicht
+  Teil der KB — der bestehende `raw/260607_amtlich_zh_pbg.md` bleibt die massgebliche, weiterhin
+  gültige Quelle für Nachtrag 133). Report `outputs/2026-08-23_buch-run94.md`.
+- **Diff-Kontrolle (Rule 260811):** `git status --short wissen/baurecht/` nativ per SSH (LAN-IP
+  `192.168.1.10`, Repo `/volume2/daten/jans-ai-hub` — Tailscale-Hostname `mini` in dieser Session
+  nicht erreichbar, `ConnectTimeout` nach 8 s) vor dem ersten Edit geprüft: sauber, letzter Commit
+  `2cf88a978` deckungsgleich mit dem zu Sessionbeginn gezeigten `git log`. `git diff --numstat`
+  nach dem Schreiben (nativ per SSH) geprüft: alle vier Dateien additiv (neue Frontmatter-Einträge/
+  Fliesstext-Absatz in `nutzungsziffern.md`, neuer Abschnitt oben in `QUESTIONS.md`, reine
+  Anfügung in `CHANGELOG.md`/`PROGRAMM.md`), kein bestehender Text gelöscht. Ein zweiter,
+  gleichzeitig laufender claude-Prozess (PID 31389, Skill `normen`, andere KB) wurde per `ps aux`
+  als unabhängiger, nicht-konkurrierender Lauf identifiziert.
+
 ## 2026-08-23 — Buch-Run 93: Trennsystem-Lücke aus Run 86 geschlossen — §§ 97/98 WsV tragen die gebäudebezogene Meteor-/Schmutzwasser-Trennpflicht, nicht WsG/PBG
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue ist

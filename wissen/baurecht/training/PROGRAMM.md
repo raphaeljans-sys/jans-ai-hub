@@ -1444,6 +1444,68 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   (Re-Verifikations-Kette fortsetzen) — mit Run 92/93 sind alle Artikel bis Datum 2026-07-25
   abgedeckt, als naechstes zu pruefen waeren Artikel mit `verifiziert`-Datum ab August 2026 oder
   ganz ohne `verifiziert`-Feld (Bestand einmal durchzaehlen).
+- **Buch-Run 94 (2026-08-23):** Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 93,
+  aeltestes `verifiziert`-Datum). Vollstaendiger Abgleich aller `verifiziert`-Felder unter den
+  `established`-Artikeln (Skript-Scan, nicht aus altem Ranking fortgeschrieben) bestaetigte
+  [[nutzungsziffern]] (2026-07-25, Run 55) als einzig verbliebenes aeltestes Datum — gewaehlt.
+  §§ 251/253a/254-260/276/52 PBG (Hauptteil UND Anhang) frisch von notes.zh.ch bezogen (aktueller
+  Nachtrag laut zhlex.zh.ch: **134**, nicht mehr 133) und Wort fuer Wort gegen
+  `raw/260607_amtlich_zh_pbg.md` und den Artikeltext gegengelesen — **CONFIRMED wortgleich, 0
+  Korrekturen**. Genuiner Fund (kein Fehler, aber fassungsstand-relevant fuer die ganze KB):
+  Nachtrag 134 ist amtlich publiziert (01.08.2026), tritt aber **erst per 01.10.2026 in Kraft**
+  (PDF-Fusszeile «1.10.26 - 134» vs. bestehend «1.7.26 - 133») — heute gilt weiterhin Nachtrag
+  133, kein Drift im Bestand. Ob Nachtrag 134 andere KB-Zitate aendert, ungeprueft — Beobachten-
+  Eintrag in `wiki/QUESTIONS.md` mit Empfehlung fuer einen Lauf nach dem 01.10.2026. ABV
+  unveraendert bei Nachtrag 127 (zhlex.zh.ch bestaetigt). Kein neuer `raw/`-Volltext (bestehender
+  Nachtrag-133-Raw bleibt gueltig). Report `outputs/2026-08-23_buch-run94.md`. **Naechster Schritt
+  fuer einen kuenftigen Lauf:** die 12 Artikel mit `verifiziert`-Datum 2026-07-27 (Festigungsmodus-
+  Batch: [[ausnahmebewilligung-und-bestandesschutz]], [[bauausfuehrung-und-baukontrolle]],
+  [[baulinien-und-abstandslinien]], [[baurechtlicher-vorentscheid-und-voranfrage]],
+  [[enteignung-und-entschaedigung]], [[geschosse-und-kniestock]], [[naturschutz-und-denkmalschutz]],
+  [[nebenbestimmungen-und-reverse]], [[raumplanung-und-gestaltung]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]],
+  [[wohnhygiene-und-raumanforderungen]]) sind jetzt gemeinsam die aeltesten — einen davon als
+  naechstes waehlen (unabhaengigster Rechtsraum/Themenblock bevorzugen, analog Run 90); danach
+  [[fahrzeugabstellplaetze-und-parkierung]] (2026-07-30) und [[grundlagen-planungs-baurecht]]
+  (2026-08-03). Zusaetzlich zu pruefen: die von Nachtrag 134 evtl. betroffenen Fundstellen nach
+  dessen Inkrafttreten (01.10.2026, siehe QUESTIONS.md Beobachten-Eintrag).
+- **Buch-Run 95 (2026-08-23):** Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 94, aus den
+  12 gleichauf liegenden Artikeln). [[wohnhygiene-und-raumanforderungen]] gewaehlt (unabhaengigster
+  Rechtsraum: Wohnhygiene/Haustechnik/Energie statt Ausnuetzung/Erschliessung). EnerG (Nachtrag 129)
+  und BBV I (Nachtrag 133) live gegen zhlex.zh.ch geprueft — **beide ohne Drift**. Vollstaendiger
+  Wortlautabgleich §§ 299-306 PBG, § 32 ABV, § 40 BBV I, §§ 7/10/11 BBV II,
+  §§ 9/10a/10b/10c/11/11a/11b/12/12b/13/13a-d EnerG — **CONFIRMED, 0 Korrekturen**. Genuiner Fund:
+  § 40 BBV I traegt im amtlichen PDF einen widerspruechlichen Marginal-Titel («mehr als sechs
+  Geschossen») gegenueber dem operativen Gesetzestext («mehr als fuenf») — als Fussnote im Wiki
+  dokumentiert, keine Wiki-Korrektur noetig (Zitat war bereits richtig). Report
+  `outputs/2026-08-23_buch-run95.md`. **Naechster Schritt fuer einen kuenftigen Lauf:** von den
+  verbleibenden 11 Artikeln mit `verifiziert`-Datum 2026-07-27 einen unabhaengigen Rechtsraum
+  waehlen ([[ausnahmebewilligung-und-bestandesschutz]], [[bauausfuehrung-und-baukontrolle]],
+  [[baulinien-und-abstandslinien]], [[baurechtlicher-vorentscheid-und-voranfrage]],
+  [[enteignung-und-entschaedigung]], [[geschosse-und-kniestock]], [[naturschutz-und-denkmalschutz]],
+  [[nebenbestimmungen-und-reverse]], [[raumplanung-und-gestaltung]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]); danach
+  [[fahrzeugabstellplaetze-und-parkierung]] (2026-07-30) und [[grundlagen-planungs-baurecht]]
+  (2026-08-03).
+- **Buch-Run 96 (2026-08-23):** Fortsetzung der Re-Verifikations-Kette (Empfehlung Run 95).
+  [[baurechtlicher-vorentscheid-und-voranfrage]] gewaehlt (eigener Quellenkreis §§ 213/310/315/
+  322-324 PBG, unabhaengig von den Themenbloecken Nutzungsmass/Erschliessung/Wohnhygiene aus
+  Run 92-95). Buch-Destillat [[07-vorentscheid-auskuenfte-besondere-zustaendigkeiten]] gegengelesen,
+  keine neue Diskrepanz. Vollstaendiger Wortlautabgleich aller sechs zitierten Paragraphen gegen
+  `raw/260607_amtlich_zh_pbg.md` — **CONFIRMED wortgleich, 0 Korrekturen**. Fassungsstand PBG
+  unveraendert Nachtrag 133; der am selben Tag in Run 94 festgestellte Nachtrag 134 (in Kraft erst
+  01.10.2026) betrifft keinen der hier zitierten Paragraphen. Report
+  `outputs/2026-08-23_buch-run96.md`. **Naechster Schritt fuer einen kuenftigen Lauf:** von den
+  verbleibenden 10 Artikeln mit `verifiziert`-Datum 2026-07-27 einen unabhaengigen Rechtsraum
+  waehlen ([[ausnahmebewilligung-und-bestandesschutz]], [[bauausfuehrung-und-baukontrolle]],
+  [[baulinien-und-abstandslinien]], [[enteignung-und-entschaedigung]], [[geschosse-und-kniestock]],
+  [[naturschutz-und-denkmalschutz]], [[nebenbestimmungen-und-reverse]],
+  [[raumplanung-und-gestaltung]], [[rechtsschutz-und-rechtsmittelverfahren]],
+  [[widerrechtliche-bauten-und-sanktionen]] — Run 95 hob [[raumplanung-und-gestaltung]] als
+  ebenfalls lange unberuehrt mit eigenem Quellenkreis hervor); danach
+  [[fahrzeugabstellplaetze-und-parkierung]] (2026-07-30) und [[grundlagen-planungs-baurecht]]
+  (2026-08-03). Unabhaengig davon: nach dem 01.10.2026 das vollstaendige Aenderungsverzeichnis
+  von PBG-Nachtrag 134 gegen `zhlex.zh.ch` ziehen (siehe `wiki/QUESTIONS.md`).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

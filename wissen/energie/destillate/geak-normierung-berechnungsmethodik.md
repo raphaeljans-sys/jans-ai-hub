@@ -5,7 +5,7 @@ ausgabe: Version 2.1.0, 30.3.2023
 gelesen: 2026-08-07 (vollständig, Seiten 1-79, in Blöcken 1-6 / 7-26 / 27-46 / 47-66 / 67-79)
 datenstand: 2023 (aktuell gültige Methodik-Fassung, Stand Juli/August 2026)
 status: established (zweite, unabhängige Prüfrunde Run 126 am 11.08.2026 bestanden: 10 von 13 wörtlich zitierten Aussagen ohne Beanstandung, 3 Beanstandungen geringer Tragweite — zwei Formulierungen und eine zusammengezogene Fundstelle — vom Hauptlauf am Original gegengeprüft und korrigiert; keine falsche Zahl, keine falsche Fundstelle)
-last_updated: 2026-08-11
+last_updated: 2026-08-23
 geltungsbereich: Kap. 2 Heizwärmebedarf (S.8-9) · Kap. 3 Heizung und Warmwasser (Wärmeerzeuger, Speichertypen, Verteil-/Speicherverluste, Hilfsenergie, Endenergie, S.10-33; ohne Kap. 3.6 Zuordnung der Speicherverluste auf Wärmeerzeuger, S.20-22, Gl. 9-12) · Kap. 4 Lüftung (S.34-41) · Kap. 5 PV/WKK-Anrechnung (S.42) · Kap. 6 Elektrizität Wohnen/Zweckbauten (S.43-59; ohne Kap. 6.2.5 Weitere Verbraucher WVA, S.49) · Kap. 7.1/7.2 Etikette, Projektwerte und Referenzwerte inkl. CO2/THGE (S.60-65) · Kap. 8 Beurteilung Gebäudehülle und Gebäudetechnik (S.68-71). Kap. 7.3 Kennwerte und Klassierung (Tab. 40/41, S.66-67) ist bereits im Bestandsdestillat [[geak-klassengrenzen-relative-klassierung]] erfasst und wird hier nur verlinkt, nicht wiederholt. Kap. 9 Literaturverzeichnis und Kap. 10 Symbolverzeichnis wurden gelesen, aber nicht inhaltlich destilliert (reine Nachschlagelisten).
 ---
 
@@ -190,6 +190,18 @@ angewendet wie für Erdgas, unabhängig davon, ob das Biogas zugekauft oder vor 
 (also 1,0). Jede reine Textextraktion (`pdftotext`) verliert die Durchstreichung und liest Biogas
 fälschlich als 0,5-Energieträger. Wer die Tabelle nur als Text prüft, erzeugt hier einen
 Scheinwiderspruch; massgebend ist das Seitenbild.
+
+⚠ **Nicht mit dem SIA-2031-Primärenergiefaktor verwechseln (Cross-KB-Abgleich `wissen/normen`
+N61, 23.08.2026):** Die Korrigenda SIA 2031-C1:2009 (Destillat
+`wissen/normen/destillate/sia-2031-korrigenda-c1.md`, Tab. D.1) führt für dieselben
+Energieträger andere, deutlich höhere Zahlen (Heizöl 1,24 statt 1,0; Erdgas 1,15 statt 1,0;
+Holz 1,06-1,22 statt 0,5; Elektrizität 2,97 statt 2,0). Das ist kein Fehler in einer der beiden
+Quellen, sondern zwei verschiedene Grössen: der **SIA-Primärenergiefaktor** bildet den nicht
+erneuerbaren Primärenergieaufwand je Einheit Endenergie ab (physikalisch/ökobilanziell
+hergeleitet, Grundlage für den Energieausweis nach SIA 2031); der hier verwendete
+**EnDK-Gewichtungsfaktor f_CH** (Tab. 35) ist dagegen eine rein energiepolitische
+Systemwahl-Gewichtung für die GEAK-Etiketten-Gesamteffizienz, ohne physikalische Herleitung.
+Beide Zahlenreihen dürfen nicht gegeneinander ausgetauscht oder verrechnet werden.
 
 Der Referenzwert E_P,ref (Gl. 54, S. 64; die Quelle selbst schreibt an zwei Stellen fälschlich
 «Gl. 53» — ein Tippfehler des Originals, da Gl. 53 die THGE bezeichnet, hier stillschweigend
