@@ -1,5 +1,27 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Interaktive Session, auf Auftrag Raphael) — QUESTIONS.md bearbeitet: zwei Fragen geschlossen, zwei mit Fortschritt, vier strukturelle Fragen an Raphael vorgelegt
+
+- **Geschlossen:** "Thalwil Bohlweg 1"-Projektidentität (eigenständiges reales Bewertungsprojekt
+  Parzelle 9568 identifiziert, Run 5); 01.04.2026-Baupreisindex-Stand bleibt unbestätigt, dafür
+  neuer Befund zum Publikationsrhythmus (mutmasslich jährlich, nicht halbjährlich — nächster
+  Termin ~Sommer 2027), Frage wird bis dahin nicht mehr aktiv nachverfolgt.
+- **Fortschritt:** CHF/m²-Einheitspreis Estrich/RF1-Bekleidung weiterhin nicht gefunden, aber
+  zwei echte KISPI-Devis (Estermann Gipserunternehmen AG) lokalisiert — nur Stk- statt
+  m²-bepreist; konkreter nächster Schritt (Detailofferte nachfordern) statt weiterem Archiv-Sweep
+  dokumentiert. HNF/GF-Gesamtgebäude-Faktor 0.60/0.61 hat jetzt korrekte Provenienz
+  (`flaechendefinitionen-sia.md`, vorher fälschlich `realwert-sachwert` zitiert) — Regelgeschoss-
+  Faktor 0.70 bleibt unbelegt (Quelle nennt 0.75), Ticket "T-Regelgeschoss" unverändert offen.
+- **Vier strukturelle Fragen direkt an Raphael gestellt** (BKP-1-9-vs-1-5-Scope im Pre-Check-Tool,
+  Standard-Label "norm, eloquent", Teuerungsanker 1.334 vs. 1.346, Doppelführung der
+  Neuwert-Richtwerttabelle) — alle seit Wochen als "nur durch Raphael lösbar" identifiziert,
+  keine autonome Entscheidung getroffen. Antwort steht bei Abfassung dieses Eintrags aus.
+- **Kein Kennwert promoviert, keine Median-Bildung** — bleibt an Frage 1/2 (BKP-Scope,
+  Standard-Klassifikation) hängen, unverändert seit Run 6.
+- Details: `wiki/QUESTIONS.md`, Eintrag 2026-08-23; `wiki/kennwerte.md` (vier Abschnitte
+  nachgetragen: HNF/GF-Provenienz, Baupreisindex-Nachtrag, Estrich/RF1-Fortschritt,
+  Bohlweg-1-Klärung).
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — diese KB fuehrt ab jetzt den ZIW-Indexstand; `links:` befuellt
 
 - **Fuehrungsfrage geklaert:** Den **Zuercher Index der Wohnbaupreise (ZIW)** — Indexstand,

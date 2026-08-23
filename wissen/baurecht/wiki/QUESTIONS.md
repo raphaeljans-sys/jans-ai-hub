@@ -106,19 +106,20 @@ die Klammer ist schlicht unrichtig). Hinzu kommt die abweichende **Messgrösse**
 in Projekten die strengere Annahme (2,50 m) rechnen und die Klärung als Vorbehalt setzen.
 Prüfweg: DLZ Bau, Energie und Umwelt Thalwil, Abt. Baubewilligungen. → [[gebaeudearten-und-abstandssystem]]
 
-**T-09 · Was folgt aus dem Ablauf der achtjährigen BZO-Anpassungsfrist am 01.03.2025? —
-offen, kantonsweite Tragweite.** Die Übergangsbestimmung zur PBG-Änderung vom 14.09.2015
-(OS 72, 52) lautet: «*Die Gemeinden passen ihre Bau- und Zonenordnungen bis spätestens acht
-Jahre ab Inkrafttreten dieses Gesetzes an*» — Inkrafttreten war der 01.03.2017, die Frist lief
-also am **01.03.2025** ab. Thalwils revBZO ist bis heute nicht in Kraft (→ T-01). Abs. 2
-derselben Bestimmung ordnet an, dass bis zur Anpassung die dort aufgezählten §§ in der alten
-Fassung anwendbar bleiben (Anhang PBG, Stand 28.02.2017), **ohne die Weitergeltung zeitlich zu
-befristen**. Naheliegend ist deshalb eine blosse **Ordnungsfrist**, deren Ablauf das
-Anhang-Regime nicht beendet — sonst entstünde ein Rechtsvakuum. **Belegt ist das nicht.**
-Zu klären an einem Entscheid oder einer Auskunft des ARE/der Baudirektion. Die Frage betrifft
-**jede noch nicht harmonisierte ZH-Gemeinde**, nicht nur Thalwil, und entscheidet mit, ob im
-Einzelfall gewachsener Boden/Gebäudehöhe (alt) oder massgebendes Terrain/Fassadenhöhe
-(harmonisiert) gilt → [[abstaende-und-hoehen]].
+**T-09 · 🟡 TEILWEISE ERLEDIGT 2026-08-23 — Auslegung belegt, amtliche/gerichtliche
+Letztbestätigung bleibt offen.** Was folgt aus dem Ablauf der achtjährigen BZO-Anpassungsfrist
+am 01.03.2025? Wortlaut- und Systematikanalyse (§ 342 Abs. 2 / § 344 PBG als Gegenbeweis: wo der
+Gesetzgeber eine Frist mit Sanktion belegen will, tut er das ausdrücklich — hier fehlt jede
+Konsequenzklausel) sowie die offizielle Kantonsseite zur Harmonisierung stützen übereinstimmend:
+**Ordnungsfrist ohne eigenständige Rechtsfolge**, das Anhang-Regime endet nicht automatisch mit
+dem Stichtag, massgebend bleibt, ob die konkrete Gemeinde tatsächlich harmonisiert hat. Weder
+Verwaltungs- noch Baurekursgericht ZH haben (soweit auffindbar) direkt dazu entschieden, und eine
+amtliche ARE-/Baudirektions-Auskunft wurde nicht gefunden — die Einschätzung ist rechtsmethodisch
+belegt, nicht amtlich letztbestätigt. **Ungeklärter Zusatzbefund:** vereinzelte Sekundärquellen
+behaupten eine bereits am 26.01.2026 beschlossene Fristverlängerung auf 29.02.2028; eine
+Primärquelle (Amtsblatt/OS) dafür fehlt, der amtliche PBG-Volltext (Fassungsstand 1.7.2026) zeigt
+weiterhin unverändert «acht Jahre». Volle Herleitung in [[abstaende-und-hoehen]], Abschnitt
+«Harmonisierungsvorlage». Betrifft jede noch nicht harmonisierte ZH-Gemeinde, nicht nur Thalwil.
 
 **T-10 · ✅ ERLEDIGT 2026-08-23 — Wegabstand 3,5 m und VB.2005.00017 am Urteilstext verifiziert.**
 Volltext frei zugänglich über entscheidsuche.ch (VGr ZH, 1. Abteilung/1. Kammer, Endentscheid

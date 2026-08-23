@@ -2,6 +2,67 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-23 (Interaktive Session, auf Auftrag Raphael) — vier Recherche-Punkte bearbeitet, vier strukturelle Punkte an Raphael zur Entscheidung vorgelegt
+
+**Auftrag:** die offenen Positionen dieser Datei durchgehen, belegte Antworten mit Quelle
+nachtragen, Kennwerte nie raten. Vier parallele, gezielte Recherchen durchgeführt (keine
+Wiederholung der bereits erschöpften Bibliotheks-Sweeps aus Run 1–16) plus vier strukturelle
+Entscheidfragen direkt an Raphael gestellt, da sie seit Wochen nur durch ihn lösbar sind
+(Antwort steht bei Abfassung dieses Eintrags noch aus, wird in einem Folge-Eintrag nachgetragen).
+
+**Geschlossen:**
+
+1. **«Thalwil Bohlweg 1»-Projektidentität (offen seit Run 5, 26.07.2026):** geklärt. Eigenständiges
+   reales Bewertungsprojekt "8800 Thalwil 9568 Bohlweg 1" (Parzelle 9568), nicht identisch mit
+   "2414 THALWIL Bohlweg 3". Details in `wiki/kennwerte.md`, Abschnitt "Run 5". Neuer Nebenfund
+   (nicht weiter verifiziert): beide Bohlweg-Liegenschaften scheinen dieselbe Projektnummer 2414
+   zu tragen — bei Gelegenheit via bexio/Kontaktabgleich zu prüfen, kein grobkosten-Thema.
+2. **01.04.2026-Indexstand (offen seit Run 16, 17.08.2026):** erneut an der Primärquelle
+   (Stadt Zürich, WebFetch) geprüft, weiterhin nicht bestätigbar. **Neuer Befund:** ein
+   URL-Muster-Test zeigt, dass die Stadt Zürich den ZIW mutmasslich **jährlich zum
+   Oktober-Stichtag** publiziert, nicht halbjährlich — der nächste reguläre Termin ist damit
+   voraussichtlich erst Sommer 2027 fällig. Diese Frage wird bis dahin **nicht mehr aktiv
+   nachverfolgt** (kein Sinn in wiederholten Checks vor dem erwarteten Publikationstermin).
+   Details in `wiki/kennwerte.md`, Abschnitt "Baupreisindex ZH".
+
+**Fortschritt, weiterhin offen:**
+
+3. **CHF/m²-Einheitspreis Estrich (BKP 281.0) / K30-RF1-K60-RF1-Bekleidung (BKP 271.1/225.4)
+   (Bring-Schuld aus `normen`, offen seit 30.07.2026):** kein sauberer CHF/m²-Wert gefunden, aber
+   ein konkreter Fortschritt statt eines weiteren Nullbefunds: zwei echte KISPI-Devis der
+   Estermann Gipserunternehmen AG liegen vor, nur pauschal je Stück statt je m² bepreist —
+   deshalb weiterhin nicht verwertbar. **Nächster Schritt (kein weiterer Archiv-Sweep mehr
+   sinnvoll):** eine m²-aufgeschlüsselte Detailofferte bei Estermann (Othmar Stadelmann) oder
+   Boediker Robert AG nachfordern — beide sind bereits reale KISPI-Vertragspartner. Der Versand
+   einer solchen Anfrage braucht Raphaels Freigabe (Rule `interaktive-eingriffe`/User-CLAUDE.md
+   "Grenzen"), wurde in diesem Lauf nicht ausgelöst. Details in `wiki/kennwerte.md`, Abschnitt
+   "Brandschutz-Mehraufwand RF1".
+4. **HNF/GF-Regelgeschoss-Faktor 0.70 ohne Quelle (Health-Check 21.07.2026, Ticket
+   "T-Regelgeschoss"):** der **Gesamtgebäude**-Faktor 0.60/0.61 hat jetzt eine nachgetragene,
+   korrekte Provenienz (`immobilienbewertung/wiki/flaechendefinitionen-sia.md`, "Flächenkonzeption
+   Wohnen" R. Jans 20.10.2024 — vorher fälschlich `realwert-sachwert` zitiert, korrigiert). Der
+   **Regelgeschoss**-Faktor 0.70 bleibt dagegen unbelegt: dieselbe Quelle nennt dort 0.75, nicht
+   0.70 — erneut bestätigt, keine dritte Quelle gefunden. Bleibt Fachentscheid Raphael (siehe
+   Frage 5 unten), nicht durch weitere Recherche lösbar.
+
+**Vier strukturelle Fragen direkt an Raphael gestellt (interaktive Session, Antwort steht aus):**
+
+5. **Frage 1 — BKP-Scope im Pre-Check-Tool:** Ist der Faktor 1.13 (Feld G47, "Faktor BKP 2 zu
+   BKP 1-5") tatsächlich als BKP2→BKP1-9 gemeint (Feldbeschriftung falsch), oder ist die Ausgabe
+   "Total BKP 1-9" in Wahrheit ein BKP-1-5-Total (Ausgabefeld-Beschriftung falsch)? Unverändert
+   seit Run 6/13 (27.07.2026) der Haupt-Blocker für eine MFH-Median-Bildung.
+6. **Frage 2 — Standard-Label "norm, eloquent":** Bestätigung, dass es sich um fixen
+   Dropdown-Vorlagentext handelt, keine bewusste Standard-Einschätzung je Projekt (Vermutung seit
+   Run 6, 27.07.2026).
+7. **Frage 3 — Teuerungsanker 1.334 vs. 1.346** (Neuwert-Richtwerttabelle, Wissens-Chef Run 25,
+   04.08.2026): Empfehlung 1.346 (Tabellenkopf trägt "Stand 2003") zur Bestätigung vorgelegt.
+8. **Frage 4 — Doppelführung der Neuwert-Richtwerttabelle** in `grobkosten` und
+   `immobilienbewertung`: Ersetzung durch reinen Verweis (Empfehlung) oder Beibehaltung?
+
+Sobald Raphaels Antworten vorliegen: T-Regelgeschoss-Entscheid und Frage 1/2/3/4 in einem
+Folge-Lauf umsetzen (Kennwerte-Tabelle entsprechend nachziehen, betroffene Einzelfälle aus Run
+6–9 neu bewerten, ggf. erste MFH-Median-Bildung). Bis dahin bleiben alle vier Fragen offen.
+
 ## 2026-08-17 (Run 16, unbeaufsichtigter Trainingsauftrag) — Endbedingung erneut bestätigt; ein neuer Punkt: 01.04.2026-Indexstand nicht verifizierbar
 
 **Sachstand:** Die am 13.08.2026 festgestellte Endbedingung (`training/quellen-inventar.md`

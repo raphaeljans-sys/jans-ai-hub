@@ -3,7 +3,7 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
-## 2026-08-23 (Wissens-Chef, QUESTIONS.md-Abarbeitung) — acht offene Fragen bearbeitet, davon sieben geschlossen
+## 2026-08-23 (Wissens-Chef, QUESTIONS.md-Abarbeitung) — zehn offene Fragen bearbeitet, acht geschlossen
 
 Systematische Abarbeitung von `wiki/QUESTIONS.md` (Rule 260629, Recherche-Agenten parallel,
 je Frage am amtlichen Volltext/Buch-Destillat verifiziert, nichts geraten). Details je Frage
@@ -35,6 +35,12 @@ direkt in QUESTIONS.md dokumentiert; hier nur die Kurzfassung:
 - [fix] **§ 15 Abs. 3 / § 36 Abs. 2 EG GSchG:** neuer amtlicher Volltext `raw/260823_amtlich_zh_eg-gschg.md`
   beschafft, § 15 Abs. 3 geklärt (Kanalisations-Nebenleitungen, Nachfolge §§ 53/56 WsG), § 36 Abs. 2
   bleibt begründet offen (keine wörtliche WsG/WsV-Entsprechung gefunden).
+- [add] **BZO-Anpassungsfrist 01.03.2025:** Wortlaut-/Systematikanalyse (§ 342/§ 344 PBG als
+  Gegenbeweis) ergibt Ordnungsfrist ohne eigenständige Rechtsfolge; amtliche/gerichtliche
+  Letztbestätigung fehlt weiterhin, ungeklärter Zusatzbefund zu einer behaupteten Fristverlängerung
+  vom 26.01.2026 ohne Primärquelle. Eingearbeitet in `wiki/abstaende-und-hoehen.md`, Abschnitt
+  Harmonisierungsvorlage. Status in QUESTIONS.md auf «teilweise erledigt» gesetzt, nicht auf
+  «erledigt» — bleibt zur amtlichen Bestätigung vorgemerkt.
 - [note] **T-01 (revBZO Thalwil):** erneut geprüft (thalwil.ch, Gesetzessammlung, Amtsblatt) —
   unverändert offen, kein neuer Stand. **T-10 (§ 10 BBV II Rauminhalt-Staffelung):** war bereits
   am 2026-07-14 geklärt, Markierung in QUESTIONS.md nachgezogen.

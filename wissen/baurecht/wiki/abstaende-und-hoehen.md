@@ -380,6 +380,29 @@ Höhen/Attika/Terrain-Umstellung [[kap16-10_gebaeudedimensionen-harmonisierung]]
 > Artikel ausführlich abbildet). Die reinen Zahlenwerte des Abstands-Zahlenwerks (3,5 m / 12 m /
 > 16,5 m / Summe der Grenzabstände §§ 270-271, Waldabstand 30 m § 262) sind in beiden Fassungen
 > gleich und am Volltext bestätigt.
+>
+> **Rechtsfolge des Fristablaufs 01.03.2025 (geklärt 2026-08-23, Auslegung belegt, amtliche
+> Letztbestätigung offen):** Die Übergangsbestimmung setzte den Gemeinden eine Achtjahresfrist ab
+> Inkrafttreten (01.03.2017) zur Anpassung, die am 01.03.2025 verstrich. Abs. 2 derselben
+> Bestimmung knüpft die Weitergeltung des Anhang-Regimes ausdrücklich an «bis zur Anpassung»,
+> **nicht** an einen Stichtag («längstens aber bis …» fehlt) — Wortlaut bestätigt
+> `raw/260607_amtlich_zh_pbg.md` Z. 3907-3914. Systematischer Gegenbeweis aus dem PBG selbst: wo
+> der Gesetzgeber eine Frist mit Sanktion versehen will, tut er das ausdrücklich (§ 342 Abs. 2:
+> Sicherung durch Planungszonen bei Fristversäumnis; § 344: vorläufige Regelung durch die
+> Direktion) — für die Achtjahresfrist fehlt jede solche Konsequenzklausel. Die offizielle
+> Kantonsseite (zh.ch, Harmonisierung der Baubegriffe) bestätigt dieselbe Lesart («soweit die
+> geänderten Bestimmungen noch nicht wirksam sind, gelten … die Anhänge») und der Regierungsrat
+> beantragte beim Kantonsrat eine ordentliche Fristverlängerung um drei Jahre (Stand Abruf
+> 23.08.2026: «noch in Beratung») statt einer Notmassnahme gegen ein Rechtsvakuum. **Fazit:
+> Ordnungsfrist ohne eigenständige Rechtsfolge** — für die konkrete Gemeinde bleibt massgebend,
+> ob sie tatsächlich harmonisiert hat, nicht ob der 01.03.2025 verstrichen ist. Weder Verwaltungs-
+> noch Baurekursgericht ZH haben dazu (soweit auffindbar) entschieden — die Einschätzung ist
+> rechtsmethodisch belegt, aber nicht amtlich/gerichtlich letztbestätigt. **Ungeklärter
+> Widerspruch:** vereinzelte Sekundärquellen behaupten eine bereits am 26.01.2026 beschlossene
+> Fristverlängerung auf 29.02.2028 — dafür liess sich keine Primärquelle (Amtsblatt/OS) finden,
+> und der amtliche PBG-Volltext (Fassungsstand 1.7.2026) zeigt weiterhin «acht Jahre» ohne neues
+> Datum. Bei einem konkreten Fall die Gemeinde-Website und die zh.ch-Harmonisierungsseite auf den
+> aktuellen Stand prüfen.
 
 - **Alles wird von der *projizierten Fassadenlinie* gemessen.** Drei neue Begriffe:
   **Fassadenflucht** = Mantelfläche aus den Lotgeraden durch die äussersten Baukörperpunkte

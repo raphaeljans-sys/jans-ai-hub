@@ -26,6 +26,19 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirku
 > Abs. 1, Abs. 3 aufgehoben. Die VVEA trägt zudem Änderungen per 01.12.2025 (AS 2025 745),
 > 01.01.2026 (AS 2025 799) und 01.08.2026 (AS 2026 357). **Führend für den Erlasswortlaut ist
 > die KB `baurecht`.**
+>
+> **Anhänge und Revisionen geprüft 23.08.2026 (E-R25-3, weitgehend geschlossen):** direkt am
+> Fedlex-Filestore-Volltext (Stand 01.08.2026) gelesen. **Anhang 3 VVEA** «Anforderungen an
+> Aushub- und Ausbruchmaterial» (Grenzwerte unverschmutzt/schwach verschmutzt, Einzelfallbeurteilung
+> ohne festgelegten Grenzwert) und **Anhang 5 VVEA** «Anforderungen an Abfälle zur Ablagerung»
+> (Deponietypen A-E) sind die bauabfallrelevanten Anhänge. Die drei Revisionen betreffen die hier
+> beschriebene Schadstoffabklärung **nicht**: AS 2025 745 (01.12.2025) regelt Phosphor-Rückgewinnung,
+> AS 2025 799 (01.01.2026) Holzasche-Deponierung — beide ohne Bezug zu Bauabfällen/Asbest. **AS 2026
+> 357** (01.08.2026, in Kraft) ändert Art. 3/10/12/13/14/14a/22/24/31/32/34/36 sowie **Anhang 5**
+> (neue Abfallhierarchie-Definitionen, höhere Energienutzungsquoten); ein Asbest-Bezug ist darin
+> nicht erkennbar, ein zeilengenauer Vorher-Nachher-Vergleich von Anhang 5 steht noch aus (Restpunkt).
+> Art. 16 VVEA selbst ist in keiner der drei Revisionslisten aufgeführt — die bereits am 04.08.2026
+> festgestellte materielle Unveränderung ist damit doppelt bestätigt.
 
 ## Das Wichtigste
 Wer ein Gebäude mit **Baujahr vor 1990 umbaut**, muss vor dem Bau eine **Schadstoffabklärung**

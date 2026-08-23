@@ -106,6 +106,14 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   der Revisionen AS 2025 745 (01.12.2025), AS 2025 799 (01.01.2026) und AS 2026 357
   (01.08.2026) auf Artikel, die diese KB nicht zitiert. Führend für den Erlasswortlaut ist die
   KB `baurecht`; dort ist die VVEA bisher **nicht** als `raw`-Volltext abgelegt.
+  ⚠ **Weitgehend erledigt 23.08.2026, ein Restpunkt bewusst offen gelassen (nicht geraten):** Am
+  Fedlex-Filestore-Volltext geprüft. Anhang 3 (Aushub-/Ausbruchmaterial) und Anhang 5
+  (Deponietypen A-E) sind die bauabfallrelevanten Anhänge. AS 2025 745 (Phosphor-Rückgewinnung)
+  und AS 2025 799 (Holzasche) betreffen Bauabfälle/Asbest **nicht**. AS 2026 357 (01.08.2026)
+  ändert u.a. **Anhang 5** (neue Abfallhierarchie-Definitionen) — ob das die Deponiezuordnung
+  mineralischer Bauabfälle materiell verändert, ist **nicht** abschliessend geprüft (dafür wäre
+  ein zeilengenauer Anhang-5-Vergleich vor/nach 01.08.2026 nötig, das sprengte den Rahmen dieser
+  Abklärung). Art. 16 VVEA selbst ist unverändert bestätigt. Beleg in `[[gebaeudeschadstoffe]]`.
 
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — fehlender Wiki-Themenartikel zur kommunalen Wärmeplanung
 
@@ -3330,12 +3338,16 @@ durchfuehrbar.
   Bezugsgrösse; SIA 2024 (Raumnutzungsdaten) wäre die naheliegende Quelle und ist in der KB noch
   nicht destilliert.
 
-- [ ] **E-R129-3 (P3): NIV-Fassung und Kontrollperioden verifizieren.**
+- [x] **E-R129-3 (P3): NIV-Fassung und Kontrollperioden verifizieren.**
   `[[ahb-merkblatt-sicherheitsnachweis-elektro]]` stützt sich auf die NIV vom 07.11.2001
   (SR 734.27) und nennt keine Artikelziffern. Die Verordnung wurde seither mehrfach revidiert.
   Vor jeder Verwendung in einem laufenden Mandat an der geltenden Fassung auf fedlex.admin.ch
   gegenlesen (Zugriffsmuster: Rule `auto-verbesserungen` 260721, Filestore-URL statt JS-Portal).
   Niedrige Priorität, weil der Sachbezug zur Energie-KB mittelbar ist.
+  ✓ **ERLEDIGT 23.08.2026:** Aktueller Stand NIV 31.10.2025, am Fedlex-Filestore gelesen. Art. 37
+  (Inhalt Sicherheitsnachweis), Art. 35 (Nachweis bei Übernahme), Art. 36 (periodische Nachweise)
+  sowie die Kontrollperioden nach Anhang jetzt im Destillat mit Fundstelle. Rest offen: exakte
+  artikelgenaue Änderungshistorie 2002-heute nicht zeilengenau nachvollzogen, nachrangig.
 
 - [ ] **E-R129-4 (P3): SIA 2024 als Quelle für Raumnutzungsdaten erschliessen.** Beide Raummodule
   arbeiten mit Belegungs-, Lasten- und Betriebszeitannahmen, ohne sie herzuleiten. SIA 2024 ist

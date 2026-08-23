@@ -171,10 +171,23 @@ Liegenschaftenverwaltung der Stadt Zürich.
 
 ## Offene Punkte
 
-- Keine einzelnen NIV-Artikelziffern im Dokument genannt — nur der Verordnungstitel und das
-  Inkrafttretensdatum. Für eine belastbare Zitierung sind die einschlägigen NIV-Artikel (Pflicht
-  zur periodischen Kontrolle, Fristen, Ausnahmen) an der aktuellen Fassung auf fedlex.admin.ch
-  zu verifizieren.
+- ✓ **NIV-Artikelziffern verifiziert 23.08.2026, schliesst E-R129-3 im Kern.** Aktueller
+  konsolidierter Stand der NIV (SR 734.27): **31.10.2025** (Berichtigung), am Fedlex-Filestore
+  gelesen — keine neuere Fassung gefunden. Einschlägige Artikel: **Art. 37** regelt den Inhalt
+  des Sicherheitsnachweises (Adresse, Beschreibung der Installation, angewendete Normen,
+  Kontrollperiode, Installateur, Kontrollergebnisse, Unterschrift der kontrollberechtigten
+  Person); **Art. 35** den Nachweis bei Übernahme (Abs. 1: 20-jährige Kontrollperiode →
+  Sicherheitsnachweis nach Art. 37 bei Übernahme; Abs. 3: Anlagen mit Netzverbindung oder
+  kürzerer Periode → Abnahmekontrolle durch unabhängiges Kontrollorgan/akkreditierte
+  Inspektionsstelle innert 6 Monaten); **Art. 36** die periodischen Nachweise (Aufforderung durch
+  Netzbetreiberin/Inspektorat vor Ablauf der Periode, Mindestfrist 6 Monate). **Kontrollperioden**
+  (Anhang, Auszug): jährlich Baustellen/Märkte/Spezialinstallationen; 3 Jahre Ex-Zonen 0/20 und
+  1/21; 5 Jahre u.a. Theater-Bühnen, E-Ladestationen, medizinische Räume, Zone 2/22; 10 Jahre
+  Gewerberäume/Bürogebäude/Kirchen/Landwirtschaft; 20 Jahre übrige Installationen. **Rest offen:**
+  die vollständige, artikelgenaue Änderungshistorie zwischen 2002 und heute wurde nicht
+  zeilengenau am Fedlex-Änderungsprotokoll nachvollzogen (nur punktuelle Sekundärquellen-Hinweise
+  auf zwei frühere Anpassungen, nicht amtlich verifiziert) — für dieses Merkblatt nachrangig, da
+  der Sachbezug zur Energie-KB ohnehin nur mittelbar ist.
 - Ob die genannten Kontrollperioden (1/5/10/20 Jahre) und die 6-Monats-Fristen in der heute
   (2026) geltenden NIV-Fassung unverändert gelten, ist nicht geprüft — reine Web-/Fedlex-Prüfung
   nötig, nicht Teil dieser Destillation.

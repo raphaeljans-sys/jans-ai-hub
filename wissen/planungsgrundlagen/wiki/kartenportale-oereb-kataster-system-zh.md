@@ -29,7 +29,7 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 | 73B | Nutzungsplanung: kommunale Bau- und Zonenordnung | SR 700 Art. 14/26, LS 700.1 §§ 2, 45–78, 88, 89 | Gemeinden (ARE) | Ja |
 | 76 | Planungszonen | SR 700 Art. 27, LS 700.1 § 346 | ARE | Ja |
 | 116 | Kataster der belasteten Standorte | SR 814.01 Art. 32c, SR 814.680 Art. 5, LS 712.1 § 30 | AWEL | Nein |
-| 130 | Gewässerschutzbereiche | SR 814.20 Art. 19, SR 814.201 Art. 29/30 Anh. 4, ~~LS 711.1 § 3~~ → **§ 45 WsG (LS 724.1)**, ~~LS 711.11 §§ 2/3~~ ⚠ aufgehoben 01.01.2022, Nachfolge unbelegt (s. Kasten) | AWEL | Ja |
+| 130 | Gewässerschutzbereiche | SR 814.20 Art. 19, SR 814.201 Art. 29/30 Anh. 4, ~~LS 711.1 § 3~~ → **§ 45 WsG (LS 724.1)**, ~~LS 711.11 §§ 2/3~~ → **§ 45 WsG** (s. Kasten, K61 geschlossen 2026-08-23) | AWEL | Ja |
 | 131 | Grundwasserschutzzonen | dito, kantonal **§ 46 WsG** (Festsetzung Gemeindevorstand, Genehmigung Direktion) | Gemeinden (AWEL) | Ja |
 | 132 | Grundwasserschutzareale | SR 814.20 Art. 19, ~~LS 711.1 §§ 3/34/37~~ → **§ 45 WsG (LS 724.1)** | AWEL | Ja |
 | 145 | Lärmempfindlichkeitsstufen | SR 814.41 Art. 43, LS 700.21 § 14 | Gemeinden (ARE) | Ja |
@@ -74,10 +74,22 @@ wiederkehren. Bundesrecht in Zuständigkeit Kanton/Gemeinde:
 > Nachtrag 099, «in Kraft bis 01.01.2022»); belegt von `baurecht` in Buch-Run 69
 > (`wissen/baurecht/wiki/QUESTIONS.md`, `wiki/baureife-und-erschliessung.md`). Die KGSchV war damit
 > **über vier Jahre früher totes Recht als das EG GSchG** — sie fiel 2022, das EG GSchG erst 2026.
-> **Welcher Erlass die KGSchV abgelöst hat, ist im Hub nicht belegt und wird hier nicht geraten**;
-> die WsV enthält keine Aufhebungsklausel zur KGSchV. Als Bring-Schuld in `wiki/QUESTIONS.md`
-> geführt, Nachweis-Pflicht bei `baurecht` (nächster Schritt dort: OS-Band 2021/2022 nach dem
-> aufhebenden RRB durchsuchen).
+> **✓ Nachfolgenorm geschlossen 2026-08-23 (K61).** §§ 2/3 KGSchV wiesen dem AWEL die
+> Festsetzung der Gewässerschutzbereiche Au/Ao und Zuströmbereiche Zu/Zo zu (§ 3 lit. v KGSchV,
+> Fassung Nachtrag 099, `notes.zh.ch/…/711.11_22.1.75_99.pdf`). Diese Kompetenz steht heute in
+> **§ 45 WsG** («Die Direktion setzt die Gewässerschutzbereiche und die Grundwasserschutzareale
+> nach Art. 19 und 21 GSchG fest») — deckungsgleich mit der bereits oben (Run 18) belegten
+> Nachfolge für Thema 130/132. § 2 lit. f/g KGSchV (Grundwasserschutzareale, Erdwärmebewilligung
+> > 1000 m) verteilt sich auf denselben § 45 WsG sowie **§ 92 WsV**.
+> ⚠ **Korrektur der Prämisse «aufgehoben 01.01.2022»** — `baurecht` hat den eigenen Befund am
+> selben Tag (2026-08-23, Buch-Run 71) berichtigt: die zhlex-Versionstabelle zu LS 711.11 zeigte
+> nur, dass Nachtrag 099 bis 01.01.2022 GALT, nicht dass die KGSchV DANN aufgehoben wurde — es
+> folgten Nachtrag 115 und 133, die KGSchV blieb durchgehend in Kraft und wurde erst **per
+> 01.06.2026 durch OS 81, 144 aufgehoben** (Nachfolgeerlass: **Wasserverordnung WsV, LS 724.11,
+> RRB Nr. 158/2026 vom 05.03.2026**), zeitgleich mit EG GSchG und WsG. Der «vier Jahre frühere
+> Wegfall» oben existierte nicht. Quelle: `wissen/baurecht/wiki/QUESTIONS.md`, Eintrag
+> «✅ ERLEDIGT 2026-08-23: KGSchV war NICHT bereits 2022 aufgehoben». Für die Nachfolgenorm-Frage
+> (K61) ändert das nichts: § 45 WsG/§ 92 WsV gelten so oder so ab 01.06.2026.
 >
 > **Warum der Run-18-Sweep daran vorbeilief — Lehre für jede künftige Erlass-Nachführung:**
 > gesucht wurde nach der Nummer **LS 711.1**, und `LS 711.11` enthält diese Zeichenfolge als
