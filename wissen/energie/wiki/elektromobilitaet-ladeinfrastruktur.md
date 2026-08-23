@@ -1,7 +1,8 @@
 ---
 title: Elektromobilität — Ladeinfrastruktur am Wohngebäude
 status: established
-last_updated: 2026-07-11
+last_updated: 2026-08-24
+datenstand: 2023 (Zogg 2023, Zusatzkosten stationärer Speicher)
 sources: [destillate/e-mobilitaet-ladeinfrastruktur-gebaeude-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/zev-eigenverbrauch-mfh-her-2025.md]
 links: [[wp-pv-eigenverbrauch-lastmanagement]], [[pv-eigenverbrauch-zev]], [[batteriespeicher]], [[BAUHERREN-FAQ]]
 ---
@@ -38,7 +39,7 @@ Ladestation oder mindestens deren Grundinstallation grundsätzlich empfohlen.
   `[[batteriespeicher]]`/`[[wp-pv-eigenverbrauch-lastmanagement]]` — das E-Auto ist der **flexibelste**
   Verbraucher, das EMS das Herzstück.
 - **Kosten:** Ladestation gebäudeseitig **ab CHF 1'000** — die grosse «Batterie» liefert das Auto gratis
-  mit, ungleich günstiger als ein stationärer Speicher (ab CHF 10'000 EFH / 20'000 MFH).
+  mit, ungleich günstiger als ein stationärer Speicher (ab CHF 10'000 EFH / 20'000 MFH, Zogg 2023).
 - **V2H/V2G** (Vehicle to Home/Grid, Rückspeisung ins Gebäude bzw. Netz): kommt «in naher Zukunft», heute
   noch nicht Standard — bei der Grunderschliessung mitdenken.
 

@@ -2,7 +2,7 @@
 title: Umgebungsgestaltung, Einfriedungen und Gartenmauern — die Vierebenen-Prüfung
 status: established
 last_updated: 2026-08-23
-sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 19 VErV", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§§ 10-12 StrAV (aufgehoben)", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260823_amtlich_zh_strav-1978.md, 260823_amtlich_zh_verv-erlaeuterungsbericht.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
+sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 19 VErV", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§§ 10-12 StrAV (aufgehoben)", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260823_amtlich_zh_strav-1978.md, 260823_amtlich_zh_verv-erläuterungsbericht.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]], [[raumplanung-und-gestaltung]], [[baubewilligungsverfahren]], [[grundlagen-planungs-baurecht]], [[zonenkonformitaet]], [[baulinien-und-abstandslinien]]
 verifiziert:
   - "2026-08-13 (Ersterstellung, Buch-Run 73, Batch T2) — sämtliche §§ wortgetreu gegen die amtlichen raw-Volltexte gegengelesen: § 238/§ 238a/§ 240/§ 257/§ 309 PBG gegen 260607_amtlich_zh_pbg.md; §§ 20/23/26-29 VErV gegen 260803_amtlich_zh_verkehrserschliessungsv.md; §§ 169-179 EG ZGB gegen 260725_amtlich_zh_egzgb.md und gegen das amtliche Merkblatt der Gemeinde Thalwil (Skizzenblatt, S. 1-2 und 4); Art. 27 BZO Thalwil und Art. 50 revBZO gegen die BZO- bzw. Synopsen-Volltexte. Die 1.40-m-Regel am Wortlaut der Wegleitung BZO Thalwil (Nachführung 2020) verifiziert — inklusive der davorstehenden Überschrift, die ihren Rechtscharakter bestimmt."
@@ -217,7 +217,7 @@ Abstandsmassen, soweit die Verkehrssicherheit gewährleistet ist.
 **Bepflanzungen** und sonstige Grundstücknutzungen darf weder der Verkehr behindert oder
 gefährdet noch Bestand und Sicherheit des Strassenkörpers beeinträchtigt werden.
 
-**Fassungsvorbehalt — ✅ geschlossen 2026-08-23 (Buch-Run 83):** die konsolidierte LS-Fassung
+**Fassungsvorbehalt — geschlossen 2026-08-23 (Buch-Run 83):** die konsolidierte LS-Fassung
 (zhlex, Nachtrag 127, Fassungsstand 1.1.2025, `raw/260823_amtlich_zh_verv.md`) wurde gegen die
 bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 VErV **CONFIRMED**, wortgleich,
 keine Nachträge. **§ 27/§ 27a VErV wurden per RRB vom 14.09.2022 geändert bzw. neu eingefügt (in
@@ -390,9 +390,9 @@ Herkunft schützt nicht vor Alterung.
 ## 7 · Offen
 
 - ~~Konsolidierte LS-Fassung der VErV (allfällige Nachträge seit 01.06.2020) —
-  Fassungsvorbehalt der raw-Datei.~~ **✅ geschlossen 2026-08-23 (Buch-Run 83),** siehe Ebene 2
+  Fassungsvorbehalt der raw-Datei.~~ **geschlossen 2026-08-23 (Buch-Run 83),** siehe Ebene 2
   oben (§ 27/§ 27a-Korrektur).
-- **✅ geschlossen 2026-08-23 (Buch-Run 89):** Vorsprünge, Türen und Tore an der
+- **geschlossen 2026-08-23 (Buch-Run 89):** Vorsprünge, Türen und Tore an der
   Strassengrenze (§§ 10-12 StrAV) haben in der VErV **keine** Entsprechung — amtlich belegt
   über den VErV-Erläuterungsbericht (jede übernommene StrAV-Norm wird dort einzeln
   zugeordnet, §§ 10-12 kommen nicht vor), siehe Ebene 2 oben, neuer Abschnitt «§§ 10-12
@@ -400,7 +400,7 @@ Herkunft schützt nicht vor Alterung.
   ersatzlose Streichung ist der Befund, nicht ein Rechercheversagen. Einziger verbleibender
   Anknüpfungspunkt: Generalklausel § 240 Abs. 1 PBG / § 19 VErV (Einzelfall-Ermessen, keine
   feste Masszahl mehr).
-- **✅ geschlossen 2026-08-23 (Buch-Run 88):** Rechtsprechungs-Register zu § 238 Abs. 1 PBG
+- **geschlossen 2026-08-23 (Buch-Run 88):** Rechtsprechungs-Register zu § 238 Abs. 1 PBG
   (Ebene 4), siehe Ziff. 4a. Offen bleibt darin nur ein echter Teilaspekt: Rechtsprechung zu
   **Materialien/Farben speziell an Einfriedungen und Gartenmauern** (die im Buch destillierte
   Sektion 13.2.6 behandelt nur Fassaden) — bei Bedarf gezielt im Register nachtragen, sobald

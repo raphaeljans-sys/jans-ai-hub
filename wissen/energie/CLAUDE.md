@@ -30,6 +30,16 @@ wissen/energie/
   bleibt `speculative` + Verifikationsvermerk (Rule `identifikatoren-verifizieren`).
 - **Datenstand zwingend:** jede Norm-/Grenzwert-/Foerderangabe mit Jahr/Version. Energierecht und
   Foerderung aendern schnell (MuKEn-Umsetzung ZH); >18 Mt. ohne Pruefung → ⚠ + QUESTIONS.
+- **Themenartikel-Frontmatter (verbindlich, Audit-Korrektur A-P2 02.17, 24.08.2026):** `title`,
+  `status`, `last_updated`, **`datenstand`**, `sources`, `links`. `last_updated` nennt den letzten
+  Bearbeitungszeitpunkt, **`datenstand` den ältesten Datenstand der zitierten Quellen** — nie das
+  Kompilierdatum. Trägt ein Artikel CHF-Werte, Tarife oder Fördersätze, gehört der Datenstand
+  zusätzlich in die Tabellenüberschrift bzw. die Wertzeile selbst, damit er beim Zitieren mitgeht.
+- **Statusaenderung wirkt an drei Orten:** Frontmatter, Register (`INDEX.md`, Statusspalte, nicht
+  nur die Begruendung), zitierender Wiki-Artikel. Eine Aenderung an nur einem Ort ist unvollstaendig.
+- **Established bleibt established, wenn primaerquellenbelegt** (Audit A-P2, Abschnitt 06):
+  established pauschal auf eine schwaechere Stufe zu senken, waere selbst ein Fehler — differenziert
+  wird stattdessen im Statusfeld/Vorbehalt (Vorbild F87), nicht durch pauschale Abwertung.
 - **Destillat-Treue:** das Destillat gibt die Quelle korrekt wieder, ergaenzt nichts Erfundenes;
   eigene Einordnung klar als solche markieren («Bauherren-Transfer»).
 - **Bauherren-Nutzen zuerst:** jede Erkenntnis auf «was heisst das fuer den Bauherrn» zuspitzen.

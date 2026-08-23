@@ -95,7 +95,7 @@ liefert den Rahmen (Datenstand 04.04.2025) → `[[kbob-graue-treibhausgasemissio
 - **Datenbasis:** KBOB-**Ökobilanzdaten im Baubereich v8.0 (20.02.2026)** — anerkannte Werte für
   GWP/Primärenergie/UBP je Baustoff; SIA-2032-Vorprojektwerte rechnen sie auf Bauteile herunter.
 - **Reduktionspotenzial bis 40 %** (MFH) durch Kombination baulicher Massnahmen. Die **9 Hebel**
-  (grösster Bauherren-Effekt zürst): **1 früh Ziele setzen · 2 Suffizienz (weniger bauen, wenig UG/
+  (grösster Bauherren-Effekt zuerst): **1 früh Ziele setzen · 2 Suffizienz (weniger bauen, wenig UG/
   Einstellhalle) · 3 Materialeffizienz (kompakt, Leichtbau, wenig Glas) · 4 Langlebigkeit/Umbau statt
   Ersatz · 5 biogene Baustoffe (Holz/Stroh/Lehm) · 6 kreislauffähig verbauen · 7 emissionsarme
   Materialien (Beton/Zement/Stahl) · 8 Kaskadennutzung · 9 NET prüfen.** Kernaussage: **Suffizienz +

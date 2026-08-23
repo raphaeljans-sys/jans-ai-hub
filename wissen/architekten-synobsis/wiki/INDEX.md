@@ -288,7 +288,7 @@ Stand: 2026-07-03 — Erstkuratierung komplett: 853/853 Ordner gescannt, 849 Kat
 - **Glaus_Otto** — Schweizer Nachkriegsarchitekt (gta-Nachlass); 4 Bilder, 1 Dokument.
 - **Gloor_Vera** — Zuercher Architektin (Hochparterre-Material); fast leer, 3 Bilder, 1 Dokument.
 - **Gmuer_Patrick** — Patrick Gmuer Zuerich mit Hochhaus Hardturm, James und Haus Steinhofweg Luzern; 4 Ordner, 87 Bilder.
-- **Gmu_r_Gschwentner** — Gmuer Gschwentner Zuerich (Umlaut-Slug) mit Bruederhofweg, Greencity/Maneg und Hardturm; Naehe zu Gmuer_Patrick pruefen; 3 Projekte, 18 Bilder, 19 Dokumente.
+- **Gmu_r_Gschwentner** — Gmuer Gschwentner Zuerich (Umlaut-Slug) mit Bruederhofweg, Greencity/Maneg und Hardturm; Patrick Gmuer war 1989-2009 im eigenen Buero, ab 2016 wieder Partner bei Gmür & Geschwentner (seit 2020 Steib Gmür Geschwentner Kyburz) — Naehe zu Gmuer_Patrick damit erklaert (Quelle: de.wikipedia.org/wiki/Patrick_Gmür); 3 Projekte, 18 Bilder, 19 Dokumente.
 - **Go_Hasegawa** — Go Hasegawa Tokio (Einordnung); 6 Bilder ohne Struktur.
 - **Gocar_Joseph** — Josef Gocar mit Haus zur schwarzen Muttergottes Prag 1910 (tschechischer Kubismus); 1 Projekt, 23 Bilder, 2 Dokumente.
 - **Goldfinger_Ernoe** — Ernoe Goldfinger London; nur generische Ablagestruktur, 1 Bild, 1 Dokument.
@@ -359,7 +359,7 @@ Stand: 2026-07-03 — Erstkuratierung komplett: 853/853 Ordner gescannt, 849 Kat
 - **Huber Waser Mühlebach** — Luzerner Buero mit Behindertenwerkstatt Rhyboot Altstaetten (Holzbau) und Schulanlage Meggen; 2 Projekte, 15 Bilder, 2 Dokumente.
 - **Huebsch_Heinrich** — Karlsruher Rundbogenstil-Baumeister mit Trinkhalle Baden-Baden und Kunsthalle Karlsruhe; 6 Ordner, 66 Bilder, 180 Dokumente.
 - **Hufnagel** — nur generische Ablagestruktur 00 bis 07; 2 Bilder; Zuordnung offen (Hufnagel Puetz Rafaelian?).
-- **Hugenberger_Fries_Arch** — Zuercher Buero huggenbergerfries (Slug-Schreibfehler) mit Limmat Tower und Genossenschaftsbauten; 4 Projekte, 42 Bilder, 16 Dokumente, 1 CAD.
+- **Hugenberger_Fries_Arch** — Zuercher Buero huggenbergerfries (Slug-Schreibfehler), gegruendet 2000 von Lukas Huggenberger und Erika Fries, mit Limmat Tower (2015, Dietikon Limmatfeld — Projektordner «Dietlikon» ist Ortsfehler, Quelle: hbf.ch) und Genossenschaftsbauten; 4 Projekte, 42 Bilder, 16 Dokumente, 1 CAD.
 - **Hustistein_Partner** — vermutlich Husistein & Partner Aarau (Slug-Schreibfehler); 6 Bilder ohne Struktur.
 - **IGUALGUGGENHEIM** — Doppelordner (Grossbuchstaben) zu Igual_Guggenheim; 1 Bild.
 - **Igual_Guggenheim** — Zuercher Buero Igual & Guggenheim mit Wettbewerbssieg Genossenschaftshaeuser Wetzikon; 1 Projekt, 4 Bilder, 1 Dokument.
@@ -629,7 +629,7 @@ Stand: 2026-07-03 — Erstkuratierung komplett: 853/853 Ordner gescannt, 849 Kat
 - **Rhytmeier_Furrer** — Winterthurer Buero Rittmeyer und Furrer (Slug-Schreibfehler) mit Wettbewerb Gross-Zuerich 1918; 3 Ordner, 1 Dokument.
 - **Richardson_Henry_Hobson_1838_86** — amerikanischer Romanik-Erneuerer mit Glessner House und Marshall Field's Chicago; 6 Ordner, 31 Bilder, 7 Dokumente.
 - **Ridolfi_Mario_1904_1984** — roemischer Neorealist mit INA-Casa und Torri Viale Etiopia; 11 Projekte, 22 Bilder, 5 Dokumente.
-- **Riehmer_Wilhelm_Bauherr** — Maurermeister-Bauherr des Riehmers Hofgarten Berlin (kein Architekten-Dossier im engeren Sinn); 1 Projekt, 2 Dateien.
+- **Riehmer_Wilhelm_Bauherr** — Wilhelm Riehmer (1830-1901), Maurermeister, Bautraeger und namensgebender Grundeigentuemer des Riehmers Hofgarten Berlin-Kreuzberg (ab 1880, mit Otto Mrosk als Architekt; kein Architekten-Dossier im engeren Sinn, Quelle: berlingeschichte.de/lexikon/frkr/r/riehmers_hofgarten.htm); 1 Projekt, 2 Dateien.
 - **Rietveld_Gery** — Gerrit Rietveld (Slug-Schreibfehler) mit Kroeller-Mueller-Pavillon Otterlo; fast leer, 3 Bilder.
 - **Rimini_Alessandro** — Mailaender Architekt (Einordnung); fast leer, 2 Bilder.
 - **Riphahn** — Koelner Wilhelm Riphahn (Slug ohne Vorname), Ausstellungsmaterial; 1 Ordner, 12 Bilder, 2 Dokumente.
@@ -699,7 +699,7 @@ Stand: 2026-07-03 — Erstkuratierung komplett: 853/853 Ordner gescannt, 849 Kat
 - **Schwippert_Hans** — deutscher Nachkriegsmoderner (Bonner Bundeshaus, Einordnung); 12 Bilder ohne Projekte.
 - **Schwitters_Kurt** — Dada-Kuenstler (Merzbau, kein Architekt im engeren Sinn); generische Struktur, 8 Bilder.
 - **Scott_Baillie** — M. H. Baillie Scott (Slug verdreht) mit Blackwell Windermere; 1 Projekt, 15 Bilder, 3 Dokumente.
-- **Sebrowitz_Jurkovic_Dusan_Sebrowitz** — Dusan Jurkovic, kryptischer Slug mit Doppelung; Projektordner Resek Landhaus, 0 Dateien.
+- **Sebrowitz_Jurkovic_Dusan_Sebrowitz** — Dušan Samo Jurkovič (1868-1947), slowakischer Architekt des Rondokubismus/Heimatstils; «Sebrowitz» ist der historische deutsche Name des Bruenner Vororts Žabovřesky, wo Jurkovič sein eigenes Landhaus baute (kein Doppelname/zweite Person, Quelle: bam.brno.cz/en/architect/387-dusan-samo-jurkovic), Slug-Doppelung bleibt Scan-Artefakt; Projektordner Resek Landhaus, 0 Dateien.
 - **Seddig** — Name ungeklaert; 2 Bilder.
 - **Seilerlinhard_Architekten** — Luzerner Buero Seiler Linhart (CamelCase-Slug) mit Wohnhaus Tschanz Sarnen; 1 Projekt, 12 Bilder.
 - **Semadenin Armon Architekten** — Zuercher Armon Semadeni (Slug verdreht und verschrieben) mit Oerlikon Tower; 1 Projekt, 3 Bilder.

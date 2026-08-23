@@ -4,8 +4,8 @@ herausgeber: u.a. EnergieSchweiz-/Branchenkontext, Vaillant CH, energie-experten
 ausgabe: Web-Stand Juni 2026
 gelesen: Web-Recherche 2026-06-18 (JAZ-Bandbreiten je WP-Typ, Heizsystem-Vergleich WP/Fernwaerme/Pellets)
 datenstand: 2026-06-18 (Richtwerte) · Feld-JAZ-Beleg ergaenzt 2026-06-27 (FAWA/BFE + EN 14825); exakte JAZ projekt-/geraeteabhaengig (WPesti)
-status: established
-last_updated: 2026-06-27
+status: emerging (Audit-Korrektur A-P2 02.12, 24.08.2026: Grundwasser-JAZ ~5 ist eine Web-Synthese ohne Schweizer Feldbeleg — BFE-Bandbreite 3,8-5,0 stammt von 2010, einzige Feldmessung ist die Fraunhofer-ISE-Studie DE mit 3,57-4,24; Luft/Sole-Zeilen bleiben feldbelegt und established)
+last_updated: 2026-08-24
 ---
 
 # Destillat — Waermepumpe vs. Fernwaerme vs. Pellets (Systemwahl + JAZ/COP)
@@ -43,7 +43,7 @@ gross ausgelegt** (Sicherheitszuschlaege vermeiden) → `[[fawa-jaz-feldanalyse-
 |---|---|---|---|
 | **Luft-Wasser** | Aussenluft | **~2,5-3,5** (moderne bis ~4,0) | guenstigste Investition, keine Bohrung/Bewilligung; tiefere JAZ bei Kaelte, Schall-/Standortthema |
 | **Sole-Wasser (Erdsonde)** | Erdreich | **~4,0-4,5** | hohe, stabile Effizienz; Bohrung + **Gewaesserschutz-Gesuch AWEL**, hoehere Investition |
-| **Wasser-Wasser (Grundwasser)** | Grundwasser | **~5** | hoechste Effizienz; nur wo Grundwasser nutzbar + bewilligt (AWEL); Brunnen/Unterhalt |
+| **Wasser-Wasser (Grundwasser)** | Grundwasser | Richtwert **~5** ⚠ nicht feldbelegt (BFE-Bandbreite 3,8-5,0 von 2010; einzige Feldmessung DE 3,57-4,24) | theoretisch hohe Effizienz; nur wo Grundwasser nutzbar + bewilligt (AWEL); Brunnen/Unterhalt |
 
 ⚠ Die Werte streuen je Quelle (z.B. Luft-Wasser «2,5-4,0»); fuer ein Projekt gilt der **WPesti-/
 SIA-384/3-Wert**, nicht die Faustzahl. Foerder-/Effizienz-**Mindest-JAZ** sind kantonsabhaengig — fuer

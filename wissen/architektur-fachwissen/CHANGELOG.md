@@ -1,5 +1,28 @@
 # CHANGELOG architektur-fachwissen
 
+## 2026-08-24 — Wissens-Chef Run 41 (Cross-KB, Erst-Pruefung dieser KB)
+
+Erste Cross-KB-Pruefung, einen Tag nach dem Anlegen. Drei additive Nachtraege in
+`wiki/QUESTIONS.md`, kein Eingriff in `raw/`:
+- **#4 (SIA-102-Phasenanteile) zur Haelfte beantwortet** — `wissen/normen/destillate/sia-102-2014.md`
+  (`established`, S. 1-58 komplett gelesen 14.07.2026), Ziff. 7.7 fuehrt genau diese sieben
+  Anteile. Offen bleibt nur «unveraendert gegenueber 2003» (`sia-102-2003` ist `speculative`).
+  Mit drei Vorbehalten: Fassungsstand 2020 kennt die Methode nicht mehr · **nicht** auf
+  `sia-102-2020.md` verweisen (belegt die Abwesenheit) · **nicht** auf
+  `skills/honorarberechnung-sia102` verweisen (fuehrt eine bueroeigene Konvention mit *anderen* Zahlen).
+- **#6 (Kennzahlenraster Leutschenbach) neu geschnitten** — die Schulbau-Kennwert-Achse existiert
+  bereits: `wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md` (`established`,
+  25 Quellen) und `wissen/entwurfs-referenzen/.../schule-volksschule-ch.json`. Beizusteuern ist
+  die **Methode**, nicht der Kennwert; fuer CHF/m³ bleibt `grobkosten` fuehrend.
+- **#3b neu — Phantom-BKP-Codes.** Die BGS-Honorarblatt-Tabelle (20.04.2005), in beiden
+  Inventaren als «unmittelbar uebertragbar» eingeleitet, nennt «019» fuer Abbruch (im BKP 2017
+  «Uebriges» unter 01 Grundstueckserwerb; Abbruch ist **112.1**) und «**071**», das es im
+  BKP 2017 gar nicht gibt. Jeder Code ist vor Uebernahme sachbezogen zu mappen.
+
+**Ausserhalb dieser KB:** die KB war in keinem Hub-Register eingetragen — nur in der
+`KORPUS-QUEUE.md` des Skills `wissens-destillat`. In `CLAUDE.md` nachgetragen, Fuehrungszeile in
+`wissen/koordination/QUERBEZUEGE.md` gesetzt (fuehrt Inventare; **keine** Kennwerte, BKP-Codes
+oder Norm-Fundstellen). Bericht: `wissen/koordination/outputs/2026-08-24_wissens-chef-run41.md`.
 ## 2026-08-23
 - KB angelegt (Vollgas-Lauf). Struktur raw/inventar, wiki, outputs.
 - Inventar Phase 0 abgeschlossen für 16 Sektionen: 12 aus `buero-referenzen`

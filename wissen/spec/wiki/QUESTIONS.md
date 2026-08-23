@@ -23,6 +23,18 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     Dateien). Die Regel ist damit dieselbe wie oben, nur an einem zweiten Ort belegt: **Zählstände
     gehören nicht in den bindenden Teil, sondern als Verweis auf das nachführende Artefakt** —
     ausformuliert in [[anwendung-jans]] Schritt 2 als fünfter Alterungsmodus.
+  - **GELÖST 2026-08-24 (Trainingslauf 39, exemplarisch am eigenen Artikel):** die
+    Bring-Schuld aus Run 20 («Zählstand-Nachführung noch offen») ist eingelöst. [[environment-
+    jans-hub]] trägt jetzt einen dedizierten Abschnitt «Nachmessung 2026-08-24» mit den fünf
+    Kennzahlen (Skills/KBs/Rule-Dateien/@-Importe/CLAUDE.md-Bytes) **plus dem exakten,
+    reproduzierbaren Befehl je Kennzahl** — Nachmessung 26 Tage nach der letzten Korrektur
+    zeigte alle fünf Werte gewachsen (51/20/29/24/19'014 B gegen 50/18/24/20/17'899 B), was die
+    F-ENV1-These direkt am eigenen Artikel bestätigt. Die älteren Zählstand-Absätze bleiben als
+    datierter historischer Beleg stehen (zeigen die Wachstumskurve), gelten aber nicht mehr als
+    aktueller Stand — wer den braucht, führt die Befehle aus. Byte-/Token-Budget bleibt bei
+    [[kontext-architektur]] (KB `claude-code`, eigener Messweg dort). F-ENV1 gilt für diesen
+    Artikel als geschlossen; die allgemeine Lehre (fünfter Alterungsmodus für Spec-Dokumente)
+    bleibt in [[anwendung-jans]] unverändert in Kraft und ist nicht Teil dieser Schliessung.
 
 ## Methodik
 - F1: Ab welcher Aufgabengrösse lohnt der Spec-Overhead wirklich? Schwelle anhand realer
@@ -102,6 +114,10 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     substanzielle Fund dieses Laufs liegt nicht bei der Schwelle, sondern bei der
     Kriterien-Wirkung (→ [[verifier]] «Ein Kriterienkatalog ist keine Prüfinstanz») und beim
     fünften Alterungsmodus (→ F-ENV1 oben, [[anwendung-jans]] Schritt 2).
+  - Stand 2026-08-24 (Lauf 39, Verifikationslauf): keine neue reale Spec seit Lauf 38
+    (30.07.) — geprüft über `find … -iname "*_spec.md"` im ganzen Hub, jüngstes Datum
+    unverändert 28.07. (Korpus-Spec `bauprodukte`, neunte Anwendung). Kein zehnter Fall.
+    Weiterhin **kein** Überdehnungs-Gegentest in `outputs/`. Schwelle unverändert.
 - F2: Wie kurz darf das Ziel-Interview sein, damit es hilft statt bremst? Optimal-Länge je
   Vorhabenstyp (Studie / Dokument / Mail / Strategie) sammeln.
   - Lektion AG-Gründung: das Interview muss die **Ausgangslage** explizit fixieren. Hier
@@ -321,6 +337,11 @@ Offene Punkte, die der Trainings-Loop und reale Anwendungen klären sollen.
     raum) — wäre die vierte Ausprägung des Musters «autoritative Instanz muss keine Behörde sein»
     (Behörde · Bauleitung · Jury · **büroeigener Entwerfer**). **Erst nach bestätigtem E5 als volle
     [[verifier]]-Zeile promovieren** — bis dahin nur als Pending-Notiz geführt (nichts erfinden).
+  - Stand 2026-08-24 (Lauf 39, Verifikationslauf): gezielt nach einer belegten
+    Marketing/Text-Anwendung gesucht (`grep`/`find` über `skills/marketing/`,
+    `skills/linkedin-*`, `wissen/koordination/` und alle `*_spec.md` im Hub) — kein
+    Treffer. F3 bleibt mit der offenen Zeile Marketing/Text die letzte Domänenlücke der
+    Verifier-Tabelle; nichts erfunden, weiterhin auf eine reale Anwendung warten.
 
 ## Belege / Quellen
 - F4: Originalquellen verlinken/ablegen — Karpathys "LLM Knowledge Bases"-Post und Boris

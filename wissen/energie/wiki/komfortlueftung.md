@@ -15,12 +15,23 @@ und schadstoffarme Luft** — beides ohne ständiges Fensteröffnen.
 
 ## Kernbotschaft
 - **Energie:** Komfortlüftung mit WRG → **Wärmeverluste über zwei Drittel tiefer als Handlüftung**
-  (EnergieSchweiz). Kanton ZH verlangt im Lüftungsnachweis **WRG ≥ 70 %** (→ `[[en-lueftung-kuehlung-zh]]`);
-  dezentrale Wand-Module erreichen **75–90 %**. Die Norm SIA 382/1:2025 selbst setzt als
-  Minimum **73 % Temperatur-WRG** (70 % bei Kreislaufverbundsystemen) — Minergie verlangt mit
-  ≥80 %/≥60 % deutlich mehr; Wärmetauscher-Bautyp entscheidet: Gegenstrom-/Rotationswärme-
-  tauscher ~80 %, einfacher Kreuzstrom-Typ nur 50–60 % (→ `[[komfortlueftung-wrg-sia382-luftwechsel]]`,
-  `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`).
+  (EnergieSchweiz). Kanton ZH verlangt im Lüftungsnachweis (Formular EN-105) einen
+  Temperatur-Änderungsgrad **≥ 70 %** (→ `[[en-lueftung-kuehlung-zh]]`). ⚠ **Das ist NICHT die
+  schärfste ZH-Anforderung** (Audit-Korrektur A-P2 02.3, 24.08.2026): wird ein Neubau der
+  Kategorien I/II über eine Standardlösung nach § 9 Abs. 1 der Wärmedämmvorschriften 2022
+  geführt, verlangt diese einen KWL-Wirkungsgrad von mindestens **80 %** bei Versorgung von
+  mindestens 90 % der EBF (→ F248). Die 70 % der Standardlösung 11 nach § 10 WDV gelten dagegen
+  nur beim Wärmeerzeugerersatz im Bestand. Für die Ausschreibung ist damit die 80-%-Schwelle
+  massgebend, sobald der Nachweis über eine Standardlösung laufen soll. Dezentrale Wand-Module
+  erreichen **75–90 %**. Die Norm SIA 382/1:2025 selbst setzt als
+  Minimum **73 % Temperatur-WRG** (70 % bei Kreislaufverbundsystemen). ⚠ **Korrektur
+  Kennzahlenvergleich (Audit A-P3 03.3, 24.08.2026):** Minergie verlangt beim **Temperatur-WRG**
+  ≥ 80 % — das ist mit den Norm-73 % vergleichbar und rund 7 Prozentpunkte schärfer. Die
+  zusätzlich verlangten ≥ 60 % beziehen sich dagegen auf die **Feuchterückgewinnung**, eine
+  eigene, in SIA 382/1 gar nicht als Grenzwert geführte Kenngrösse — die beiden Prozentwerte sind
+  nicht direkt vergleichbar, sondern zwei getrennte Anforderungen obendrauf. Wärmetauscher-Bautyp
+  entscheidet: Gegenstrom-/Rotationswärmetauscher ~80 %, einfacher Kreuzstrom-Typ nur 50–60 %
+  (→ `[[komfortlueftung-wrg-sia382-luftwechsel]]`, `[[bfe-komfortlueftung-dimensionierungshilfe-1]]`).
 - **Komfort/Gesundheit:** stetig gute Luftqualität (CO₂ unter ~1'000 ppm), **Schimmelprophylaxe**,
   **Pollen-/Staubfilter**, **Lärmschutz** (Frischluft bei geschlossenem Fenster).
 - **Zwei Mythen widerlegt:** Fenster **jederzeit öffnbar**; trockene Winterluft ist ein **Kälte-

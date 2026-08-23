@@ -8,19 +8,19 @@ verifiziert:
   - datum: 2026-07-13
     methode: "Modell-D-Volltextabgleich (adversarial)"
     umfang: "Anzeigeverfahren: § 325 PBG, § 325a PBG, §§ 13-15 BVV, §§ 4-7 BBV I"
-    ergebnis: "CONFIRMED mit Praezisierungen (Normhierarchie § 325 PBG/§ 13 BVV, Minergie-Vermutung § 4 Abs. 4 BBV I ergaenzt); Fassungsstand amtlicher Volltext 1.7.2026"
+    ergebnis: "CONFIRMED mit Präzisierungen (Normhierarchie § 325 PBG/§ 13 BVV, Minergie-Vermutung § 4 Abs. 4 BBV I ergänzt); Fassungsstand amtlicher Volltext 1.7.2026"
   - datum: 2026-07-20
-    methode: "Beschaffbare Luecke aus raw geschlossen (Buch-Run 50, Bring-Schuld Cross-KB Run 10)"
-    umfang: "Meldeverfahren §§ 2a-2e BVV (Tatbestaende/Rueckausnahme/Tragweite/Unterlagen/Einreichung/Baufreigabe) gegen raw/260607_amtlich_zh_bvv.md"
+    methode: "Beschaffbare Lücke aus raw geschlossen (Buch-Run 50, Bring-Schuld Cross-KB Run 10)"
+    umfang: "Meldeverfahren §§ 2a-2e BVV (Tatbestände/Rückausnahme/Tragweite/Unterlagen/Einreichung/Baufreigabe) gegen raw/260607_amtlich_zh_bvv.md"
     ergebnis: "als vierter Verfahrenstyp integriert; Fassungsstand 1.7.2026 Nachtrag 133; Flag-Notiz «§§ 2a-2c» auf §§ 2a-2e korrigiert (Typ spannt bis Baufreigabe § 2e)"
   - datum: 2026-08-23d
-    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 85, Phase 3 (aeltestes verifiziert-Datum unter den established-Artikeln; Reglemente-Queue 2414 Thalwil T1-T8 unveraendert vollstaendig abgearbeitet seit Run 79)"
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 85, Phase 3 (ältestes verifiziert-Datum unter den established-Artikeln; Reglemente-Queue 2414 Thalwil T1-T8 unverändert vollständig abgearbeitet seit Run 79)"
     umfang: "§§ 311/312/313/314/315/316/318/319/320/321/322/328/329 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133)"
-    ergebnis: "CONFIRMED mit 1 Korrektur: § 315 Abs. 1 PBG verlangt seit 1.4.2024 (G vom 23.10.2023, Fussnote 68) die Zustellbegehren-Geltendmachung elektronisch ueber die Plattform, nicht mehr schriftlich; Register-Sweep-Luecke zu [[bauausfuehrung-und-baukontrolle]] (dort fuer § 326 PBG bereits erfasst, Run 30) geschlossen. Uebrige Paragraphen wortgleich, 0 weitere Korrekturen. §§ 41/44/45/48/50/51 GG (Zustaendigkeits-Abschnitt) bleiben ausserhalb Scope, da GG nicht in raw/ vorliegt (Luecke in QUESTIONS.md vermerkt)."
+    ergebnis: "CONFIRMED mit 1 Korrektur: § 315 Abs. 1 PBG verlangt seit 1.4.2024 (G vom 23.10.2023, Fussnote 68) die Zustellbegehren-Geltendmachung elektronisch über die Plattform, nicht mehr schriftlich; Register-Sweep-Lücke zu [[bauausfuehrung-und-baukontrolle]] (dort für § 326 PBG bereits erfasst, Run 30) geschlossen. Uebrige Paragraphen wortgleich, 0 weitere Korrekturen. §§ 41/44/45/48/50/51 GG (Zuständigkeits-Abschnitt) bleiben ausserhalb Scope, da GG nicht in raw/ vorliegt (Lücke in QUESTIONS.md vermerkt)."
   - datum: 2026-08-23e
-    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 91, GG-Luecke aus Run 85 geschlossen (Reglemente-Queue 2414 Thalwil T1-T9 unveraendert vollstaendig abgearbeitet)"
-    umfang: "§§ 38-52 GG (Behoerden-Abschnitt) + §§ 170-171 GG (Neubeurteilung) frisch von zhlex bezogen (LS 131.1, Nachtrag 132, Stand 1.4.2026) gegen die Zustaendigkeits-Aufzaehlung im Abschnitt 'Zustaendigkeit: wer ist die Baubehoerde' gegengelesen"
-    ergebnis: "CONFIRMED mit 1 Korrektur: § 41 GG (Praesidialentscheide bei dringenden/geringfuegigen Angelegenheiten) traegt NICHT die Aussage 'Bauvorstand/einzelne Mitglieder' als eigener Delegationskanal; die Delegation an einzelne Mitglieder ODER Ausschuesse (z.B. Bauvorstand) steht einheitlich in § 44 GG. Begriff 'Bauvorstand' kommt im GG-Wortlaut nicht vor (0 Treffer), ist kommunale Bezeichnung. Uebrige Fundstellen (§ 48 Abs. 3, § 50, § 51, § 45, § 170 GG) CONFIRMED wortgleich. Neuer raw-Beleg raw/260823_amtlich_zh_gg.md."
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 91, GG-Lücke aus Run 85 geschlossen (Reglemente-Queue 2414 Thalwil T1-T9 unverändert vollständig abgearbeitet)"
+    umfang: "§§ 38-52 GG (Behörden-Abschnitt) + §§ 170-171 GG (Neubeurteilung) frisch von zhlex bezogen (LS 131.1, Nachtrag 132, Stand 1.4.2026) gegen die Zuständigkeits-Aufzählung im Abschnitt 'Zuständigkeit: wer ist die Baubehörde' gegengelesen"
+    ergebnis: "CONFIRMED mit 1 Korrektur: § 41 GG (Praesidialentscheide bei dringenden/geringfuegigen Angelegenheiten) trägt NICHT die Aussage 'Bauvorstand/einzelne Mitglieder' als eigener Delegationskanal; die Delegation an einzelne Mitglieder ODER Ausschuesse (z.B. Bauvorstand) steht einheitlich in § 44 GG. Begriff 'Bauvorstand' kommt im GG-Wortlaut nicht vor (0 Treffer), ist kommunale Bezeichnung. Uebrige Fundstellen (§ 48 Abs. 3, § 50, § 51, § 45, § 170 GG) CONFIRMED wortgleich. Neuer raw-Beleg raw/260823_amtlich_zh_gg.md."
 ---
 
 # Baubewilligungsverfahren
@@ -201,18 +201,18 @@ ggf. Lärm-/Altlastennachweis.
 
 ### Kommunale Anwendung: Unterlagenliste Thalwil (Buch-Run 76, T5, 23.08.2026)
 
-Wegleitung fuer das Baugesuch, Baukommission Thalwil, September 2004 (3 Seiten; bislang
-ungeprueftes Dokument im T5-Ordner «Baugespann», Aussteckungs-Passage wortgleich mit dem
-generischen § 311 PBG oben, keine abweichende Frist/Zahl). Ueber die kantonale Grundliste
-hinaus fuehrt Thalwil folgende **projektartabhaengige** Beilagen: **Formular Gebaeude- und
+Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004 (3 Seiten; bislang
+ungeprüftes Dokument im T5-Ordner «Baugespann», Aussteckungs-Passage wortgleich mit dem
+generischen § 311 PBG oben, keine abweichende Frist/Zahl). Über die kantonale Grundliste
+hinaus führt Thalwil folgende **projektartabhängige** Beilagen: **Formular Gebäude- und
 Wohnungserhebung** (1-fach, Pflichtbeilage bei jedem Baugesuch — Formularlink T5-Ordner
 «Wohnungserhebung» zeigt auf `www.zh.ch/.../formulare-baueingabe.html`, keine eigene
 Rechtsgrundlage, rein administrativ), **Parkplatzberechnung nach Art. 26 BZO** (2-fach, siehe
-[[fahrzeugabstellplaetze-und-parkierung]]), **Berechnung Spiel- und Ruheflaechen nach Art. 28
-BZO**, **Zustimmungserklaerung des Nachbarn** bei Grenzbau (§§ 287-289 PBG) und Naeherbau, und
+[[fahrzeugabstellplaetze-und-parkierung]]), **Berechnung Spiel- und Ruheflächen nach Art. 28
+BZO**, **Zustimmungserklärung des Nachbarn** bei Grenzbau (§§ 287-289 PBG) und Näherbau, und
 ein **Meldeblatt zu Bodenverschiebungen**. Illustriert, wie die generische kantonale
-Unterlagenliste (oben) sich in einer konkreten Gemeinde mit BZO-Artikelverweisen fuellt — als
-Vorlage fuer andere Gemeinden pruefbar, aber nicht 1:1 uebertragbar.
+Unterlagenliste (oben) sich in einer konkreten Gemeinde mit BZO-Artikelverweisen füllt — als
+Vorlage für andere Gemeinden prüfbar, aber nicht 1:1 übertragbar.
 
 ## Häufige Stolpersteine
 Unvollständige Unterlagen (Nachforderung mit Zeitverlust), Baugespann nicht

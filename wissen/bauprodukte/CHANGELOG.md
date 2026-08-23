@@ -1,5 +1,18 @@
 # CHANGELOG — KB `bauprodukte`
 
+## 2026-08-24 — Wissens-Chef Run 41: die zurueckgestellte Kante zu `normen` ist gesetzt
+
+`wiki/cheminee-aufbau-hafnerarbeiten.md` — Fassungs- und Norm-Kante additiv nachgetragen. Run 40
+hatte sie am 22.08.2026 bewusst **nicht** gesetzt, weil die Nachfolge der zurueckgezogenen
+VKF-Erlaeuterung **BRL 103-15 «Cheminées»** (zurueckgezogen 31.08.2025) unbekannt war
+(Ticket `N58-2`). `normen` hat das Ticket am 23.08.2026 geschlossen: Nachfolger ist das
+**feusuisse-Papier «Stand der Technik Teil B»**, ausdruecklich **nicht** die BRL 24-15.
+Die im Artikel mehrfach vorausgesetzte «VKF-Zulassung» ist damit einzuordnen; fuehrend fuer
+Fundstelle, Ausgabe und Fassungsstand bleibt `wissen/normen`, dieser Artikel fuehrt nur das
+Produkt-/Systemwissen nach BKP. **Die Zurueckstellung war richtig** — ein Verweis vier Tage
+frueher waere auf die falsche Nachfolgenorm gelaufen.
+
+Bericht: `wissen/koordination/outputs/2026-08-24_wissens-chef-run41.md`.
 ## 2026-08-22 — Wissens-Chef Run 40 (Cross-KB): Fassungsvorbehalt VKF-BRL 23-15
 
 - `wiki/bkp-261-aufzuege.md` (Abschnitt Brandschutz): Der Vermerk «Fassungsfrage geklärt (31.07.2026)»

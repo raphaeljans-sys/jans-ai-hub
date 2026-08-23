@@ -36,6 +36,11 @@ und gedeckelt auf **max. 30 %** der Referenz-Investitionskosten — abgewickelt 
 | **Angebaut / freistehend** ab 30 kWp | **300 CHF/kWp** |
 | **Integriert** (Indach, Doppelfunktion) | **400 CHF/kWp** (≈ angebaut **+10 %**) |
 
+⚠ Ob der integrierte Satz auch oberhalb 30 kWp bei 400 CHF/kWp bleibt oder wie die angebauten
+Anlagen (300 CHF/kWp) abgestuft wird, ist in dieser KB nicht abschliessend geklärt
+(Audit-Korrektur A-P2 02.18, 24.08.2026) — vor einer Wirtschaftlichkeitsrechnung über 30 kWp den
+Pronovo-Tarifrechner rechnen lassen (`pronovo.ch/de/services/tarifrechner/`).
+
 - Rechenbeispiel: **10 kWp angebaut → ~3'600 CHF**; **5 kWp integriert → 2'000 CHF**.
 - ⚠ Die Saetze werden **jaehrlich neu** festgelegt (sinkende Tendenz). Verbindlich rechnet der
   **Pronovo-Tarifrechner** (`pronovo.ch/de/services/tarifrechner/`); massgebend ist das Inbetriebnahme-Datum.
@@ -73,8 +78,11 @@ bei Grossanlagen ≥100 kW — das typische EFH/MFH ist nicht betroffen.
 - **PV-Foerderung kommt vom Bund, nicht vom Kanton ZH** — ueber die Pronovo-EIV. Fuer ein typisches EFH
   (5-15 kWp) sind das rund **360 CHF/kWp** (Indach 400), also bei 10 kWp ~**3'600 CHF**, gedeckelt auf
   30 % der Kosten. Dazu kommt der **Steuerabzug** und allenfalls **Gemeindebeitraege** (`energiefranken.ch`).
-- **Indach lohnt foerderseitig** (+10 % EIV) — ein Teil des Indach-Mehrpreises (~+60 %, vgl.
-  `[[pv-marktzahlen-kosten-ch-2025]]`) kommt ueber die hoehere Verguetung zurueck; der Rest ist Architektur.
+- **Indach lohnt foerderseitig** (+10 % EIV) — der Indach-Mehrpreis liegt real 2024 bei nur noch
+  **+0 bis +19 %** je Groessenklasse (BFE-Preisbeobachtungsstudie 2024, publ. 10.07.2025; die
+  fruehere Faustregel «+60 %» war undatiert und ist ueberholt, Audit-Korrektur A-P2 02.4,
+  24.08.2026, vgl. `[[pv-marktzahlen-kosten-ch-2025]]`) — foerderseitig liegt die integrierte
+  Anlage damit sogar vorn.
 - **Fassaden-/Steilanlagen** (≥75°) bekommen einen **Neigungsbonus** — der honoriert genau den
   **Winterstrom**, den eine flache Anlage nicht liefert (vgl. F26 Ausrichtung × Neigung).
 - **Wichtige Regel:** KLEIV-Gesuch **nach** Inbetriebnahme ueber das Pronovo-Kundenportal — anders als

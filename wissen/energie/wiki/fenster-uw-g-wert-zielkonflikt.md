@@ -77,9 +77,12 @@ bedingt. **Der Glas-g-Wert ist damit methodisch orientierungsunabhängig; orient
 ausschliesslich der zulässige g_tot-Grenzwert nach SIA 180** (Abschnitt 2). Das ist kein
 Datenmangel, sondern eine bewusste Konzeptentscheidung der Schweizer Nachweismethodik.
 
-**Belegte g-Wert-Bandbreiten je Verglasungstyp** (orientierungsunabhängig, vier unabhängige
+**Belegte g-Wert-Bandbreiten je Verglasungstyp** (orientierungsunabhängig, drei unabhängige
 CH-Quellen — BFE-Bauteilekatalog amtlich, Minergie-Broschüre «Sommerlicher Wärmeschutz» 2022,
-Minergie-Anwendungshilfe 2025-2, Flachglas-Schweiz-Herstellerdaten):
+Minergie-Anwendungshilfe 2025-2; dazu Herstellerangaben Flachglas Schweiz aus einer
+Suchmaschinen-Zusammenfassung, **needs-verification** — vor Projektverwendung das aktuelle
+Produktdatenblatt beim Hersteller anfordern oder GlasCalc nutzen; Audit-Korrektur A-P2 02.13,
+24.08.2026):
 
 | Verglasungstyp | g-Wert-Bandbreite | Quelle |
 |---|---|---|
@@ -87,7 +90,7 @@ Minergie-Anwendungshilfe 2025-2, Flachglas-Schweiz-Herstellerdaten):
 | 3-fach-Wärmeschutzglas, Standard | **45–55 %** (Markt), 45 % amtl. Fallback | BFE-Bauteilekatalog 2002 |
 | «Typisches» Wärmeschutzglas | **~50 %** bzw. Eingangsbereich **0,3–0,6** | Minergie-Anwendungshilfe 2025-2, Tab. 16/17 |
 | Sonnenschutzglas, 3-fach | **13–39 %** (Hohe Werte 39 % / Niedrig 13 % / High Performance 26 %) | Minergie-Broschüre 2022, S. 9 |
-| Sonnenschutzglas, 2-fach (vetroSol A70/A60/A50) | **0,37 / 0,33 / 0,28** | Flachglas (Schweiz) AG |
+| Sonnenschutzglas, 2-fach (vetroSol A70/A60/A50) | **0,37 / 0,33 / 0,28** ⚠ needs-verification | Suchmaschinen-Zusammenfassung Flachglas (Schweiz) AG — nicht am Datenblatt gelesen |
 
 **Praxisfolge:** eine Anfrage «welchen g-Wert soll ich für die Südfassade wählen» hat **keine
 einzelne Zahlen-Antwort nach Himmelsrichtung** — massgebend ist die Systemkombination aus Glas-g-Wert
@@ -199,6 +202,9 @@ g_tot-Nachweis nach SIA 180 zuständig (Abschnitt 2).
 Status: `established` (gehoben Run 93, 2026-07-25) — Kernaussagen (SIA-180-g_tot-Tabelle, Stunden-
 vs. Gradstunden-Unterscheidung, Sonnenschutzglas-vs-Storen-Tradeoff) sind primärquellenbelegt aus
 bereits `established` geführten KB-Destillaten; die zuvor offene Frage nach den Glas-g-Wert-
-Bandbreiten (Abschnitt 3) ist jetzt über vier unabhängige CH-Primärquellen (BFE, Minergie x2,
-Flachglas Schweiz) belegt, inkl. primärquellenbestätigtem Negativbefund zur Orientierungsfrage
-(`[[glas-g-wert-verglasungstypen-ch]]`).
+Bandbreiten (Abschnitt 3) ist über **drei** unabhängige CH-Primärquellen (BFE, Minergie x2) belegt,
+inkl. primärquellenbestätigtem Negativbefund zur Orientierungsfrage
+(`[[glas-g-wert-verglasungstypen-ch]]`). ⚠ **Korrektur 24.08.2026 (Audit A-P2 02.13):** die
+Flachglas-Schweiz-Herstellerwerte (vetroSol A70/A60/A50) stammen aus einer Suchmaschinen-
+Zusammenfassung, nicht aus dem primärquellengelesenen Produktdatenblatt, und sind als
+**needs-verification** gekennzeichnet — sie zählen nicht zu den vier tragenden Quellen.

@@ -2,6 +2,66 @@
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
 
+## 2026-08-24 — Wissens-Chef Run 41: eine KI-Rechnung als Benchmark, und eine KB ohne Register
+
+Lauffenster 23.08.2026 23:13 bis 24.08.2026 (Mitternacht ueberschritten). Delta-Basis
+22.08.2026 23:15, Fenster 24,0 Stunden, **182 Commits** — groesster Delta-Sprung der Reihe.
+Uhr-Kontrolle bestanden (23:13 CEST gegen Synology-Selfcommit `862aac83` 23:00:09).
+Zuschnitt: 6 Melder (`model: sonnet`) + 13 Refuter (Hauptmodell) = **19 Agenten**, 3'692'893
+Token, 409 Werkzeugaufrufe, 34,8 Min, 0 Fehler. **13 Befunde gemeldet, 11 bestaetigt, 2
+widerlegt**, dazu zwei eigene Funde im Hauptkontext.
+
+- **Der harte Befund: die Entwertung erreichte den Abnehmer nicht.** `energie` hat am 23.08.
+  (Lauf 161) zwei ChatGPT-Antworten in der JANS-Referenzablage als KI-Erzeugnis entlarvt und
+  sauber als Warnkarte erfasst — aber nicht geprueft, wohin die Zahlen schon geflossen sind.
+  `planungsgrundlagen/wiki/energie-uebersicht.md` (`established`) fuehrte denselben Wandaufbau
+  seit dem 13.07.2026 als «**Realer JANS-Benchmark — Biwak Grassen**». Falsch sind nicht die 8 %
+  λ-Delta, die Run 56 am 22.07. abgehakt hatte, sondern **drei Methodenfehler** (R_si/R_se fehlen ·
+  Luftschicht mit λ 0,15 statt Tabellen-R nach SN EN ISO 6946 · hinterlueftete Vorsatzschale
+  mitgerechnet). **Sie heben sich fast auf — darum hat die Plausibilitaetspruefung von Run 56
+  nichts gefunden.** Benchmark-Status aufgehoben, keine Zahl uebernommen, der Abschnitt bleibt
+  als Lehrbeispiel. **Muster-Umkehrung:** Run 38/39/40 fanden je eine *Herabstufung*, die den
+  Abnehmer nicht erreicht; hier hat die fuehrende KB eine Quelle *neu entwertet* und den Abnehmer
+  nicht gesucht.
+- **Erst-Pruefung der gestern angelegten KB `architektur-fachwissen`** — vier Befunde, alle
+  additiv geloest: SIA-102-Phasenanteile doppelt gefragt (von zwei Meldern unabhaengig gefunden,
+  im Hub seit 14.07. `established` beantwortet) · Schulbau-Kennwert-Achse existiert bereits in
+  `wettbewerbs-dna` · **Phantom-BKP-Codes** «019»/«071» aus einem Honorarblatt von 2005, die im
+  BKP 2017 nicht bzw. anders existieren (Familie «271.10») · **die KB stand in keinem
+  Hub-Register**, nur in der `KORPUS-QUEUE.md` ihres eigenen Skills; in `CLAUDE.md` nachgetragen.
+- **Der Refuter hat zweimal die Aktion korrigiert, nicht nur den Befund bestaetigt.** Beim
+  SIA-102-Punkt waren *beide* vom Melder genannten Ziele falsch (`sia-102-2020` belegt die
+  *Abwesenheit* der Methode; der Skill fuehrt *andere* Zahlen) — der Verweis haette exakt den
+  Fehler M1-1 wiederholt, den Run 36 behoben hat. Beim BKP-Punkt haette der Melder in `raw/`
+  geschrieben, wo nie editiert wird.
+- **Beide Uebergabe-Punkte aus Run 40 eingeloest.** `N58-2` (Cheminées) ist in `normen`
+  geschlossen — Nachfolger der BRL 103-15 ist das feusuisse-Papier «Stand der Technik Teil B»,
+  **nicht** die BRL 24-15; die zurueckgestellte Kante ist gesetzt und der Wegweiser-Warnkasten
+  §5ai, der noch auf die BRL 24-15 verwies, korrigiert. **Die Zurueckstellung war richtig.**
+  Wegweiser-Sweep fortgesetzt (§5ae AH 1002-15), aber nicht abgeschlossen: drei Stellen von
+  rund 2'200 Zeilen.
+- **normen ↔ baurecht:** SIA-500-Korrigendum C3:2013 — die Bring-Schuld ist eingeloest und die
+  Praemisse widerlegt (Korrigenda sind Preisgruppe 0, frei beziehbar) · EI30 ohne Norm-Kante ·
+  **VSS SN 640 273a fuehrt der Hub gar nicht**, obwohl ein neuer SZ-Artikel ihre Kennwerte
+  materiell zitiert (Bring-Schuld **N41-1** eingetragen).
+- **Zweiter eigener Fund, mit Geldfolge:** `skills/honorarberechnung-sia102` Z. 45 nennt fuer ein
+  Spital «Kategorie V (q=1.0-1.1)», die eigene Tabelle fuehrt Kategorie V mit **q 1.15-1.2**.
+  13-17 % zu tief, zulasten des eigenen Angebots. Run 36 hat die Tabelle geprueft, die Merkzeile
+  vier Zeilen darueber nicht.
+- **Rotationspaar `twin` ↔ `spec` als gesund gemessen:** beide Befunde widerlegt, beide haetten an
+  den bei Raphael parkierten Anrede-Klauseln gearbeitet.
+
+13 Aktionen, alle additiv, jede einzeln gegen eine Sicherungskopie gemessen — **alle Dateien −0**.
+*Zwei eigene Formatfehler im Lauf gefangen:* zwei Dateien zeigten zuerst **−1**, Ursache war
+jeweils mein **Anker**, der nicht auf einer Zeilengrenze endete und fremden Satztext abriss;
+zeilengenau repariert. Merksatz: ein Anker mitten in einer Zeile ist ein Eingriff in fremden
+Text, auch wenn er additiv gemeint war. *Betriebsnotiz:* der SMB-Mount fiel fuenfmal aus, jedes
+Mal per `ensure-nas-mounted.sh` behoben; der erste Ausfall haette beinahe einen Phantom-Befund
+erzeugt («die neue KB fehlt auf dem NAS» — sie war die ganze Zeit da).
+
+Nachmessung der acht fortgeschriebenen offenen Punkte: **einer erledigt** (Honorar-Phasenanteile),
+sieben unveraendert. Bericht: `outputs/2026-08-24_wissens-chef-run41.md`. Keine Mail (stiller
+Lauf, Rule `auto-verbesserungen` 260803).
 ## 2026-08-23 — Synergie-Lauf 16 (Tagestakt): SYN-43 Anrede-Divergenz, vier Kandidaten verworfen
 
 Delta-Basis 22.08.2026 17:10, Fenster 24,0 Stunden, 126 Commits. Uhr-Check bestanden (17:10 CEST

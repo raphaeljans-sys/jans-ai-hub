@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-24 — Wissens-Chef Run 41 (Cross-KB), 3 additive Eingriffe — darunter ein aufgehobener Benchmark
+
+- **`wiki/energie-uebersicht.md` — der Grassen-Biwak-Benchmark ist aufgehoben.** Der Abschnitt
+  «Realer JANS-Benchmark — Biwak Grassen» (seit 13.07.2026, Artikel `established`) beruht auf
+  einer **ChatGPT-Antwort**, die `wissen/energie` am 23.08.2026 (Lauf 161) als KI-Erzeugnis
+  belegt und vollstaendig nachgerechnet hat: `energie/destillate/ki-generierte-fachdokumente-
+  referenzablage.md`. Falsch sind nicht die «~8 % λ-Delta ohne Praxisrelevanz», die der
+  Run-56-Vermerk vom 22.07.2026 abgehakt hatte, sondern **drei Methodenfehler** — R_si/R_se
+  fehlen ganz · Luftschicht mit λ 0,15 statt Tabellen-R nach SN EN ISO 6946 · hinterlueftete
+  Vorsatzschale mitgerechnet. Korrigiert **0,374-0,389 W/m²K** statt «ca. 0,40».
+  **Die Fehler heben sich fast auf — darum sah das Ergebnis plausibel aus.** Der Abschnitt bleibt
+  als **Lehrbeispiel** stehen, ist aber in keinem Dokument als Benchmark oder Faustwert zu
+  verwenden. Fuehrend fuer die Fachphysik und fuer die Pruefmethode («vier Griffe», FAQ F257)
+  ist `wissen/energie`.
+- **`wiki/brandschutz-pl03-wegweiser.md` §5ai — Ticket `N58-2` geschlossen.** Der Warnkasten vom
+  20.08.2026 bleibt als datierter Stand; seine letzte Zeile («Nachfolge offen») ist ueberholt.
+  An die Stelle der zurueckgezogenen VKF-Erlaeuterung BRL 103-15 tritt das **feusuisse-Papier
+  «Stand der Technik Teil B»** — ausdruecklich **nicht** die BRL 24-15, auf die der Kasten
+  verweist (Beleg: `normen/wiki/QUESTIONS.md`, geschlossen 23.08.2026).
+- **`wiki/brandschutz-pl03-wegweiser.md` §5ae — Fassungsvorbehalt AH 1002-15.** Die
+  2'400-m²-Reduktionsklausel steht im Stand 01.01.2015; das Delta-Destillat
+  `normen/destillate/vkf-ah-1002-15-fassung-2017-delta.md` praezisiert sie materiell (nur
+  Geschosse ueber Terrain). **Keine Zahlenuebernahme** — das Delta traegt `status: speculative`
+  und ist nach Rule `normen-referenz` Ziff. 1b eine Warnkarte, keine Zitierquelle.
+  Der Fassungs-Sweep dieses Artikels ist damit bei drei von rund 2'200 Zeilen — **nicht
+  abgeschlossen**.
+
+Bericht: `wissen/koordination/outputs/2026-08-24_wissens-chef-run41.md`.
 ## 2026-08-23 (Vertiefungslauf 7 Revendo) — die vier bisher ungeprüften Connectoren; der OEREB-Auszug ist auch maschinenlesbar zu haben
 
 Lauf 6 hat die Nutzdaten von `geo-zh.mjs` und den Bund-Endpunkten gemessen. Die **vier anderen**

@@ -1,7 +1,8 @@
 ---
 title: Batteriespeicher (Heimspeicher) zur PV-Anlage
 status: established
-last_updated: 2026-07-10
+last_updated: 2026-08-24
+datenstand: 2025 (Swissolar Batteriemonitor Schweiz 2026, Mitgliederumfrage Nov. 2025, n=117)
 sources: [destillate/batteriespeicher-heimspeicher-pv-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-eigenverbrauch-praxis.md]
 links: [[pv-eigenverbrauch-zev]], [[wp-pv-eigenverbrauch-lastmanagement]], [[pv-solar-technologien]], [[BAUHERREN-FAQ]]
 ---
@@ -25,10 +26,11 @@ Er ist damit primär ein **Autarkie-/Komfort-Entscheid**, kein Renditeobjekt. An
 > **Wirtschaftlichkeits-Schwelle (EnergieSchweiz): ab ~35 % Eigenverbrauch** ist die PV-Anlage
 > wirtschaftlich — und diese 35 % sind **meist schon ohne Batterie** erreichbar.
 
-## Kosten & Dimensionierung (Swissolar, Stand 2026)
+## Kosten & Dimensionierung (Swissolar «Batteriemonitor Schweiz 2026» / BFE-Preisbeobachtung 2024)
 | Grösse | Wert |
 |---|---|
-| Preis | **CHF 600–900 / kWh** nutzbar, inkl. Wechselrichter + Installation (grösser = günstiger/kWh) |
+| Preis | **Median 2025: CHF 586/kWh** nutzbar (15-kWh-Speicher ⌀ CHF 8'850 installiert, Swissolar-Mitgliederumfrage Nov. 2025, n=117). Fallende Kurve: 2022: 827 · 2023: 846 · 2024: 708 · 2025: 586 CHF/kWh. Kleinere Speicher liegen darüber; die früher hier stehende Bandbreite **CHF 600–900/kWh** ist als **Obergrenze für die Offertenprüfung** zu lesen, nicht als Erwartungswert (Audit-Korrektur A-P2 02.5, 24.08.2026). Inkl. Wechselrichter + Installation |
+| Datenstand | 2025 (Swissolar-Erhebung Nov. 2025) |
 | Zusatzkosten stationär (Zogg 2023) | ab ~**CHF 10'000** EFH (~10 kWh) / ~**20'000** MFH (20–30 kWh) |
 | Faustregel 1 | PV-Leistung (kWp) **× 1,5** = Speicher (kWh) → 6 kWp ≈ 9 kWh |
 | Faustregel 2 | Jahresverbrauch (kWh) **/ 730** = Speicher (kWh) → 6'000 kWh ≈ 8,2 kWh |

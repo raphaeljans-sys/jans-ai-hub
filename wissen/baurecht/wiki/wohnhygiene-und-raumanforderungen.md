@@ -1,75 +1,75 @@
 ---
-beschreibung: Wohnhygienische Mindestanforderungen an Aufenthaltsraeume (ZH) — Belichtung/Belueftung (Fenster ≥ 1/10 Bodenflaeche, oeffenbar, ins Freie; § 302 PBG), Mindestflaeche ≥ 10 m² (§ 303), lichte Raumhoehe 2,4 m / Kernzone 2,3 m (§ 304), innere Erschliessung und Aufzugspflicht (§ 305 PBG / § 40 BBV I). Zusaetzlich Haustechnik-/Energie-Anschluss (§§ 21-46a BBV I, § 19a BBV II, EnerG) volltextverifiziert (Modell D, Buch-Run 32). Entscheidet die Wohn-/Arbeitsraum-Nutzbarkeit, gerade bei Umnutzung von UG-/Dach-/Sockelraeumen.
+beschreibung: Wohnhygienische Mindestanforderungen an Aufenthaltsräume (ZH) — Belichtung/Belüftung (Fenster ≥ 1/10 Bodenfläche, öffenbar, ins Freie; § 302 PBG), Mindestfläche ≥ 10 m² (§ 303), lichte Raumhöhe 2,4 m / Kernzone 2,3 m (§ 304), innere Erschliessung und Aufzugspflicht (§ 305 PBG / § 40 BBV I). Zusätzlich Haustechnik-/Energie-Anschluss (§§ 21-46a BBV I, § 19a BBV II, EnerG) volltextverifiziert (Modell D, Buch-Run 32). Entscheidet die Wohn-/Arbeitsraum-Nutzbarkeit, gerade bei Umnutzung von UG-/Dach-/Sockelräumen.
 title: Wohnhygiene und Raumanforderungen (ZH)
 status: established
 last_updated: 2026-08-23
 sources: [raw/260607_amtlich_zh_pbg.md, "[[17-gebaeude-und-raeume]] (Bd 2, Kap. 17, S. 1241-1255); [[17-haustechnische-anlagen-teil3]] (Bd 2, Kap. 17.9, S. 1304-1319)"]
-verifiziert: 2026-07-13 (Modell-D BBV II §§ 7/10/11 volltext + LRV/Kaminempfehlungen, Buch-Run 33; BBV I §§ 36/40 + Haustechnik-Run 32; PBG-Kern §§ 299-306 amtlich volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md, § 32/§ 4 ABV amtlich volltextverifiziert gegen raw/260607_amtlich_zh_abv.md — alle Kernaussagen CONFIRMED, siehe Abschnitt "Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV"); 2026-07-27 (Buch-Run 60, Festigungsmodus Prioritaet c, Stichproben-Re-Verifikation — aeltestes verifiziert-Datum: §§ 299-306 PBG erneut Wort fuer Wort gegen raw/260607_amtlich_zh_pbg.md Z. 3060-3124 gegengeprueft [Fassungsstand Nachtrag 133 bestaetigt], § 40 BBV I + § 32/§ 4 ABV ebenfalls Wort fuer Wort erneut geprueft [ABV Nachtrag 127, BBV I Nachtrag 133, beide ohne Drift] — CONFIRMED, 0 Korrekturen); 2026-08-23 (Buch-Run 95, Festigungsmodus Prioritaet c, Fortsetzung der Re-Verifikations-Kette [Vorschlag Run 94] — aeltestes verifiziert-Datum unter den 12 gleichauf liegenden established-Artikeln, gewaehlt als unabhaengigster Rechtsraum [Wohnhygiene/Haustechnik/Energie statt Ausnuetzung/Erschliessung]. Fassungsstand LIVE gegen zhlex.zh.ch geprueft: EnerG weiterhin Nachtrag 129 [01.07.2025], BBV I weiterhin Nachtrag 133 [01.06.2026], beide OHNE Drift. Vollstaendiger Wortlautabgleich §§ 299-306 PBG [Z. 3060-3124], § 32 ABV [Z. 322-326], § 40 BBV I [Z. 536-542], §§ 7/10/11 BBV II [Z. 81-113], §§ 9/10a/10b/10c/11/11a/11b/12/12b/13/13a-d EnerG [Z. 43-278] — alle CONFIRMED, 0 Korrekturen. Genuiner Fund, keine Korrektur: § 40 BBV I traegt im amtlichen PDF selbst einen widerspruechlichen Marginal-Titel ["Gebaeude mit mehr als sechs Geschossen"] gegenueber dem operativen Gesetzestext ["mehr als fuenf anrechenbare Geschosse"] — das Wiki zitierte bereits korrekt den Gesetzestext, jetzt als Fussnote gegen Verwechslung ergaenzt.)
+verifiziert: 2026-07-13 (Modell-D BBV II §§ 7/10/11 volltext + LRV/Kaminempfehlungen, Buch-Run 33; BBV I §§ 36/40 + Haustechnik-Run 32; PBG-Kern §§ 299-306 amtlich volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md, § 32/§ 4 ABV amtlich volltextverifiziert gegen raw/260607_amtlich_zh_abv.md — alle Kernaussagen CONFIRMED, siehe Abschnitt "Volltextverifikation §§ 299-306 PBG + § 32/§ 4 ABV"); 2026-07-27 (Buch-Run 60, Festigungsmodus Priorität c, Stichproben-Re-Verifikation — ältestes verifiziert-Datum: §§ 299-306 PBG erneut Wort für Wort gegen raw/260607_amtlich_zh_pbg.md Z. 3060-3124 gegengeprüft [Fassungsstand Nachtrag 133 bestätigt], § 40 BBV I + § 32/§ 4 ABV ebenfalls Wort für Wort erneut geprüft [ABV Nachtrag 127, BBV I Nachtrag 133, beide ohne Drift] — CONFIRMED, 0 Korrekturen); 2026-08-23 (Buch-Run 95, Festigungsmodus Priorität c, Fortsetzung der Re-Verifikations-Kette [Vorschlag Run 94] — ältestes verifiziert-Datum unter den 12 gleichauf liegenden established-Artikeln, gewählt als unabhängigster Rechtsraum [Wohnhygiene/Haustechnik/Energie statt Ausnützung/Erschliessung]. Fassungsstand LIVE gegen zhlex.zh.ch geprüft: EnerG weiterhin Nachtrag 129 [01.07.2025], BBV I weiterhin Nachtrag 133 [01.06.2026], beide OHNE Drift. Vollständiger Wortlautabgleich §§ 299-306 PBG [Z. 3060-3124], § 32 ABV [Z. 322-326], § 40 BBV I [Z. 536-542], §§ 7/10/11 BBV II [Z. 81-113], §§ 9/10a/10b/10c/11/11a/11b/12/12b/13/13a-d EnerG [Z. 43-278] — alle CONFIRMED, 0 Korrekturen. Genuiner Fund, keine Korrektur: § 40 BBV I trägt im amtlichen PDF selbst einen widersprüchlichen Marginal-Titel ["Gebäude mit mehr als sechs Geschossen"] gegenüber dem operativen Gesetzestext ["mehr als fünf anrechenbare Geschosse"] — das Wiki zitierte bereits korrekt den Gesetzestext, jetzt als Fussnote gegen Verwechslung ergänzt.)
 quelle_destillat: "[[17-gebaeude-und-raeume]] (Bd 2, Kap. 17, S. 1241-1255); [[17-haustechnische-anlagen-teil3]] (Bd 2, Kap. 17.9, S. 1304-1319)"
 paragraphen: ["§ 299 PBG", "§ 300 PBG", "§ 301 PBG", "§ 302 PBG", "§ 303 PBG", "§ 304 PBG", "§ 305 PBG", "§ 306 PBG", "§ 40 BBV I", "§ 36 BBV I", "§ 32 ABV", "§ 7 BBV II", "§ 10 BBV II", "§ 11 BBV II", "§ 21 BBV I", "§ 22 BBV I", "§ 23 BBV I", "§ 24 BBV I", "§ 26 BBV I", "§ 29 BBV I", "§ 30a BBV I", "§ 37 BBV I", "§ 42 BBV I", "§ 43 BBV I", "§ 44 BBV I", "§ 45 BBV I", "§ 45a BBV I", "§ 19a BBV II", "§ 9 EnerG", "§ 10a EnerG", "§ 10b EnerG", "§ 12 EnerG", "§ 12b EnerG", "§ 13 EnerG (aufgehoben)"]
 ---
 
 # Wohnhygiene und Raumanforderungen (ZH)
 
-Ob ein Raum als **Wohn- oder Arbeitsraum** genutzt werden darf, haengt im Kanton Zuerich nicht
+Ob ein Raum als **Wohn- oder Arbeitsraum** genutzt werden darf, hängt im Kanton Zürich nicht
 an der Zone allein, sondern an den **wohnhygienischen Mindestanforderungen** der **§§ 299-306 PBG**
-(konkretisiert in BBV I/II, ABV). Sie gelten fuer alle Raeume, die «dem Aufenthalt von Menschen»
-dienen — auch fuer Raeume, die nach Ausbau/Ausruestung dafuer **tauglich gemacht** werden koennen
+(konkretisiert in BBV I/II, ABV). Sie gelten für alle Räume, die «dem Aufenthalt von Menschen»
+dienen — auch für Räume, die nach Ausbau/Ausrüstung dafür **tauglich gemacht** werden können
 (§ 299 PBG). Das macht sie zum Kern-Filter jeder **Umnutzung** von Untergeschoss-, Sockel- oder
-Dachraeumen. Belegquelle: [[17-gebaeude-und-raeume]].
+Dachräumen. Belegquelle: [[17-gebaeude-und-raeume]].
 
 ## Die vier Stellschrauben
 
-### 1. Belichtung & Belueftung (§ 302 PBG)
-Wohn-/Schlafraeume brauchen Fenster, die kumulativ:
-- **ueber dem Erdboden** liegen,
-- **ins Freie** fuehren,
-- **in ausreichendem Mass geoeffnet** werden koennen (Belueftung; Fachstelle-Laermschutz-Soll
-  ~5 % der Bodenflaeche),
-- mindestens **1/10 (10 %) der Bodenflaeche** als aeusseres Lichtmass betragen.
+### 1. Belichtung & Belüftung (§ 302 PBG)
+Wohn-/Schlafräume brauchen Fenster, die kumulativ:
+- **über dem Erdboden** liegen,
+- **ins Freie** führen,
+- **in ausreichendem Mass geöffnet** werden können (Belüftung; Fachstelle-Lärmschutz-Soll
+  ~5 % der Bodenfläche),
+- mindestens **1/10 (10 %) der Bodenfläche** als aeusseres Lichtmass betragen.
 
-Das 10-%-Mass ist **notwendig, aber nicht hinreichend**: Fuehrt das Fenster nur in einen
-Lichtschacht (UG) oder ist der Luftraum verstellt, sind die Anforderungen trotz erfuelltem Mass
-**nicht** gegeben → keine Wohn-/Schlafnutzung (VB.2017.00452; BEZ 2001 Nr. 30). Dachflaechen-
-fenster sind dagegen zulaessig (Lichteinfall sogar besser; BEZ 2008 Nr. 27). Abweichungen unter
-10 % nur bei besonderen Verhaeltnissen (§ 302 Abs. 3 PBG, geht § 220 PBG vor); **Verdichtungs-
-interesse allein genuegt nicht**.
+Das 10-%-Mass ist **notwendig, aber nicht hinreichend**: Führt das Fenster nur in einen
+Lichtschacht (UG) oder ist der Luftraum verstellt, sind die Anforderungen trotz erfülltem Mass
+**nicht** gegeben → keine Wohn-/Schlafnutzung (VB.2017.00452; BEZ 2001 Nr. 30). Dachflächen-
+fenster sind dagegen zulässig (Lichteinfall sogar besser; BEZ 2008 Nr. 27). Abweichungen unter
+10 % nur bei besonderen Verhältnissen (§ 302 Abs. 3 PBG, geht § 220 PBG vor); **Verdichtungs-
+interesse allein genügt nicht**.
 
-### 2. Mindestflaeche (§ 303 PBG, § 36 BBV I)
-- Raeume **≥ 10 m²**.
+### 2. Mindestfläche (§ 303 PBG, § 36 BBV I)
+- Räume **≥ 10 m²**.
 - Kuechen **4 m²** (Einzimmer-) / **6 m²** (Mehrzimmerwohnung); Wohnkueche ohne Abtrennung nur
-  bei wirksamem Brandschutz + einwandfreier Lueftung (§ 306 PBG).
-- In Dachgeschossen zaehlen Raumteile **< 1,2 m Hoehe nicht** mit (BEZ 2011 Nr. 15).
+  bei wirksamem Brandschutz + einwandfreier Lüftung (§ 306 PBG).
+- In Dachgeschossen zählen Raumteile **< 1,2 m Höhe nicht** mit (BEZ 2011 Nr. 15).
 
-### 3. Lichte Raumhoehe (§ 304 PBG)
+### 3. Lichte Raumhöhe (§ 304 PBG)
 - **2,4 m**, in **Kernzonen 2,3 m**.
-- Punktuelle Unterschreitung durch technisch bedingte Bauteile (Balken, Lueftungsrohre) zulaessig.
-- **Dachraeume:** Mindesthoehe muss ueber der **halben Bodenflaeche** vorhanden sein; als
-  «Bodenflaeche» zaehlt dabei nur die Flaeche mit Hoehe **≥ 1,2 m**.
-- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstaetten, Raeume mit grosser
-  Personenbelegung): statt fixer Hoehe ein **bodenflaechenabhaengiger Rauminhalt** —
-  **2,40 m³/m²** bis 200 m², **+ 0,002 m³ je zusaetzlichem m²**, ab 500 m² konstant
-  **3,0 m³/m²** (§ 10 Abs. 1 BBV II); die erforderliche mittlere Hoehe muss ueber
-  wenigstens **einem Drittel** der Bodenflaeche eingehalten sein (§ 10 Abs. 2 BBV II).
-  «Grosse Personenbelegung» = i.d.R. **> 100 Personen** gleichzeitig, fuer Vorfuehrraeume
-  (Theater/Kino) und **Gastwirtschaftsraeume 50 Plaetze** (§ 7 BBV II). Abweichungen in
-  begruendeten Faellen, insbesondere wenn auf andere Weise einwandfreie Verhaeltnisse
+- Punktuelle Unterschreitung durch technisch bedingte Bauteile (Balken, Lüftungsrohre) zulässig.
+- **Dachräume:** Mindesthöhe muss über der **halben Bodenfläche** vorhanden sein; als
+  «Bodenfläche» zählt dabei nur die Fläche mit Höhe **≥ 1,2 m**.
+- Grosse Belegung (Verkaufsgeschaefte, Begegnungsstaetten, Räume mit grosser
+  Personenbelegung): statt fixer Höhe ein **bodenflächenabhängiger Rauminhalt** —
+  **2,40 m³/m²** bis 200 m², **+ 0,002 m³ je zusätzlichem m²**, ab 500 m² konstant
+  **3,0 m³/m²** (§ 10 Abs. 1 BBV II); die erforderliche mittlere Höhe muss über
+  wenigstens **einem Drittel** der Bodenfläche eingehalten sein (§ 10 Abs. 2 BBV II).
+  «Grosse Personenbelegung» = i.d.R. **> 100 Personen** gleichzeitig, für Vorführräume
+  (Theater/Kino) und **Gastwirtschaftsräume 50 Plätze** (§ 7 BBV II). Abweichungen in
+  begründeten Fällen, insbesondere wenn auf andere Weise einwandfreie Verhältnisse
   geschaffen werden (§ 11 BBV II). Volltextverifiziert 12.07./13.07.2026 (Modell D,
   `raw/260607_amtlich_zh_bbv2.md` §§ 7/10/11).
 
 ### 4. Innere Erschliessung & Aufzug (§ 305 PBG, § 40 BBV I)
-- Haustuer Lichtmass **1 m**; Treppen/Gaenge zu Aufenthaltsraeumen **1,2 m** (EFH/wohnungsintern
+- Haustuer Lichtmass **1 m**; Treppen/Gänge zu Aufenthaltsräumen **1,2 m** (EFH/wohnungsintern
   0,9 m).
-- **Aufzugspflicht:** ab **mehr als fuenf** anrechenbaren Geschossen ueber/unter dem
+- **Aufzugspflicht:** ab **mehr als fünf** anrechenbaren Geschossen über/unter dem
   Eingangsgeschoss ein **krankentransporttauglicher** Aufzug (lichte Innenmasse ≥ **2,1 m × 1,1 m**,
   Tuer ≥ 0,8 m); ab **mehr als neun** Geschossen zwei Aufzuege. ⚠ Der amtliche BBV-I-Volltext
-  traegt bei § 40 einen widerspruechlichen **Marginal-Titel** («Gebaeude mit mehr als **sechs**
-  Geschossen») gegenueber dem operativen Gesetzestext («mehr als **fuenf** anrechenbare
+  trägt bei § 40 einen widersprüchlichen **Marginal-Titel** («Gebäude mit mehr als **sechs**
+  Geschossen») gegenüber dem operativen Gesetzestext («mehr als **fünf** anrechenbare
   Geschosse»); massgebend ist der Gesetzestext, nicht die Randnotiz (Buch-Run 95, Fassungsstand
   Nachtrag 133, `raw/260607_amtlich_zh_bbv1.md` Z. 536-542).
 
 ## Geltungsbereich-Ausnahme (§ 32 ABV)
-Die §§ 303-305 PBG gelten **nicht** fuer Einfamilienhaeuser und vergleichbare Wohnungsarten
+Die §§ 303-305 PBG gelten **nicht** für Einfamilienhaeuser und vergleichbare Wohnungsarten
 (kein gemeinsames Treppenhaus + eigener Zugang ins Freie + tritt als EFH in Erscheinung;
 § 32 ABV). Kuechen-Anforderungen sind separat geregelt (§ 306 PBG / § 36 BBV I).
 
@@ -139,15 +139,15 @@ insgesamt bezieht) — das ist keine Diskrepanz, nur eine Ergänzung der Fundste
 
 ## JANS-Anwendung
 
-- **Umnutzung UG/Sockel zu Wohnen** ist der Klassiker, an dem die Wohnhygiene scheitert: Pruefe
-  **freien Lichteinfall** (nicht nur Fensterflaeche) und **lichte Hoehe ≥ 2,4 m** als
-  K.-o.-Kriterien, bevor Flaeche als aGF/Wohnflaeche eingerechnet wird. Vgl.
+- **Umnutzung UG/Sockel zu Wohnen** ist der Klassiker, an dem die Wohnhygiene scheitert: Prüfe
+  **freien Lichteinfall** (nicht nur Fensterfläche) und **lichte Höhe ≥ 2,4 m** als
+  K.-o.-Kriterien, bevor Fläche als aGF/Wohnfläche eingerechnet wird. Vgl.
   [[bestandsumbau-eingriffstiefe]].
 - **Healthcare:** Die Aufzug-Schwelle (> 5 Geschosse) und das Krankentransport-Mass
   **2,1 m × 1,1 m** sind bei Alters-/Pflegeheim und Klinik praktisch immer bindend (§ 40 BBV I) —
-  bei Aufstockung/Umbau im Bestand frueh die bestehende Anlage pruefen.
+  bei Aufstockung/Umbau im Bestand früh die bestehende Anlage prüfen.
 - **Dachausbau:** Greift ineinander mit [[geschosse-und-kniestock]] (Kniestock entscheidet
-  Vollgeschoss/Dachgeschoss) — hier entscheidet § 304 zusaetzlich, welche Dachflaeche ueberhaupt
+  Vollgeschoss/Dachgeschoss) — hier entscheidet § 304 zusätzlich, welche Dachfläche überhaupt
   als Aufenthaltsraum **nutzbar** ist.
 
 ## Haustechnik & Energie (§§ 21-46a BBV I, § 19a BBV II, EnerG) — volltextverifiziert 12.07.2026
@@ -251,8 +251,8 @@ Fassung (Nachtrag 129, publiziert 1.7.2025):
   ist bereits an die neue EnerG-Nummerierung angepasst**; nur das Buch (Stand
   2019) und das Destillat spiegeln noch die alte Nummerierung/Schwellenwerte.
 
-Neue Rohquelle: [[260712_amtlich_zh_energ]] (`raw/260712_amtlich_zh_energ.md`,
-§§ 9-14 EnerG volltext, Nachtrag 129, Stand Publikation 1.7.2025).
+Neue Rohquelle: `raw/260712_amtlich_zh_energ.md`
+(§§ 9-14 EnerG volltext, Nachtrag 129, Stand Publikation 1.7.2025).
 
 ### Ergänzung Kaminhöhen/LRV (Modell-D-Volltextabgleich, Buch-Run 33, 2026-07-13)
 

@@ -37,7 +37,7 @@ MAG-Umsetzungsfrist 1.3.2028 (§ 29 Abs. 4 MAG, geändert per G vom 26.1.2026) i
 frisch geladenen Volltext gegengelesen — unverändert korrekt, keine neue Korrektur nötig.
 
 **In die KB eingearbeitet:** `raw/260823_amtlich_zh_mag.md` (neu), `wiki/enteignung-und-
-entschaedigung.md` (Abschnitt 4 korrigiert, Offen-Punkt geschlossen, Frontmatter), `buecher/
+entschädigung.md` (Abschnitt 4 korrigiert, Offen-Punkt geschlossen, Frontmatter), `buecher/
 band-1/05-planung-und-entschaedigung.md` (Ziff. 3/5/6 annotiert, Buchtext selbst nicht
 gelöscht — bleibt als historischer Entwurfsstand belegtreu stehen).
 
@@ -48,25 +48,25 @@ gelöscht — bleibt als historischer Entwurfsstand belegtreu stehen).
 
 ## ⚠ BEOBACHTEN 2026-08-23 (Buch-Run 94) — PBG-Nachtrag 134 amtlich publiziert, tritt erst 01.10.2026 in Kraft
 
-**Kein Fehler, aber Fassungsstand-relevant fuer die ganze KB.** Bei der Re-Verifikation von
-[[nutzungsziffern]] (aeltestes `verifiziert`-Datum unter den established-Artikeln, Vorschlag
+**Kein Fehler, aber Fassungsstand-relevant für die ganze KB.** Bei der Re-Verifikation von
+[[nutzungsziffern]] (ältestes `verifiziert`-Datum unter den established-Artikeln, Vorschlag
 Run 93) zeigte ein frisch von `notes.zh.ch` bezogenes amtliches PBG-PDF, dass das PBG bereits
-**Nachtrag 134** traegt (zhlex.zh.ch, Publikationsdatum 01.08.2026) — bisher durchgehend als
-«Nachtrag 133, keine Drift» gefuehrt (zuletzt Buch-Run 93, siehe auch die vielen Nachtrag-133-
+**Nachtrag 134** trägt (zhlex.zh.ch, Publikationsdatum 01.08.2026) — bisher durchgehend als
+«Nachtrag 133, keine Drift» geführt (zuletzt Buch-Run 93, siehe auch die vielen Nachtrag-133-
 Zitate quer durch dieses Register). Die Fusszeile des amtlichen PDF zeigt jedoch
-**«1. 10. 26 - 134»** gegenueber **«1. 7. 26 - 133»** im bestehenden `raw/260607_amtlich_zh_pbg.md`
+**«1. 10. 26 - 134»** gegenüber **«1. 7. 26 - 133»** im bestehenden `raw/260607_amtlich_zh_pbg.md`
 — das heisst, **Nachtrag 134 tritt erst per 01.10.2026 in Kraft**. Heute (23.08.2026) gilt
 weiterhin Nachtrag 133; der bestehende Raw-Bestand ist also nicht veraltet.
 
-Fuer [[nutzungsziffern]] selbst ist die Frage geklaert: §§ 251/253a/254-260/276/52 PBG
-(Hauptteil UND Anhang) sind zwischen Nachtrag 133 und 134 wortgleich — Nachtrag 134 aendert an
+Für [[nutzungsziffern]] selbst ist die Frage geklärt: §§ 251/253a/254-260/276/52 PBG
+(Hauptteil UND Anhang) sind zwischen Nachtrag 133 und 134 wortgleich — Nachtrag 134 ändert an
 diesen Bestimmungen nichts. **Nicht gepruft: ob Nachtrag 134 andere, in dieser KB zitierte
-PBG-Paragraphen aendert**, die ausserhalb des in Buch-Run 94 gepruften Bereichs liegen.
+PBG-Paragraphen ändert**, die ausserhalb des in Buch-Run 94 gepruften Bereichs liegen.
 
-**Empfehlung fuer einen kuenftigen Lauf:** nach dem 01.10.2026 (sobald Nachtrag 134 tatsaechlich
-in Kraft ist) ein vollstaendiges Änderungsverzeichnis von Nachtrag 134 gegen zhlex.zh.ch ziehen
-und pruefen, ob eine der established-Artikel-Fundstellen betroffen ist — nicht erst warten, bis
-eine Einzelre-Verifikation zufaellig darueber stolpert.
+**Empfehlung für einen künftigen Lauf:** nach dem 01.10.2026 (sobald Nachtrag 134 tatsächlich
+in Kraft ist) ein vollständiges Änderungsverzeichnis von Nachtrag 134 gegen zhlex.zh.ch ziehen
+und prüfen, ob eine der established-Artikel-Fundstellen betroffen ist — nicht erst warten, bis
+eine Einzelre-Verifikation zufaellig darüber stolpert.
 
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 91) — GG-Lücke aus Run 85 geschlossen: §§ 38-52 + 170-171 GG frisch bezogen, 1 Korrektur (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»)
 
@@ -103,72 +103,72 @@ korrigiert (§ 44 GG deckt jetzt beide Formen ab, Korrektur-Vermerk im Fliesstex
 `verifiziert`-Eintrag. Neu: `raw/260823_amtlich_zh_gg.md`.
 Quelle: `outputs/2026-08-23_buch-run91.md`.
 
-## ✅ GEKLÄRT 2026-08-23 (Buch-Run 93) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 93) — welche Rechtsgrundlage trägt heute die gebäudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
 
 **War offen seit Buch-Run 86** (Zeile unten). Die Reglemente-Queue 2414 Thalwil ist seit Run 87
-vollstaendig T1-T9 abgearbeitet; als naechster Schritt aus dem von Run 92 vorgeschlagenen Zweier
-(Trennsystem-Frage recherchieren / naechstaeltestes `verifiziert`-Datum neu bestimmen) wurde diese
-Frage gewaehlt, weil sie konkret benannt und mit dem bereits vorhandenen Rohbestand loesbar war.
+vollständig T1-T9 abgearbeitet; als nächster Schritt aus dem von Run 92 vorgeschlagenen Zweier
+(Trennsystem-Frage recherchieren / nächstältestes `verifiziert`-Datum neu bestimmen) wurde diese
+Frage gewählt, weil sie konkret benannt und mit dem bereits vorhandenen Rohbestand lösbar war.
 
 **Fund:** `raw/260803_amtlich_zh_wsv.md` (WsV, LS 724.11, Nachtrag 133, RRB vom 2. Juli 2025, in
-Kraft seit 01.06.2026 — bereits am 03.08.2026 in Buch-Run 71 beschafft) enthaelt in Abschnitt
-«E. Siedlungsentwaesserung» (Z. 1074-1123) genau die gesuchte Norm: **§ 97 WsV** — Abs. 1: bei
-Neubauten und Umbauten mit erheblichen Eingriffen in die Liegenschaftsentwaesserung sind
-verschmutztes und nicht verschmutztes Abwasser **in getrennten Grundstuecksentwaesserungsanlagen**
+Kraft seit 01.06.2026 — bereits am 03.08.2026 in Buch-Run 71 beschafft) enthält in Abschnitt
+«E. Siedlungsentwässerung» (Z. 1074-1123) genau die gesuchte Norm: **§ 97 WsV** — Abs. 1: bei
+Neubauten und Umbauten mit erheblichen Eingriffen in die Liegenschaftsentwässerung sind
+verschmutztes und nicht verschmutztes Abwasser **in getrennten Grundstücksentwässerungsanlagen**
 abzuleiten; Abs. 2: das nicht verschmutzte Abwasser ist lokal zu versickern, zu verdunsten oder
 durch Pflanzen aufnehmen zu lassen; Abs. 3: der natuerliche lokale Wasserhaushalt ist zu erhalten
-oder wiederherzustellen. **§ 98 WsV** ergaenzt die Stufenfolge bei technischer Unmoeglichkeit
-(Regenabwasserkanalisation in ein oberirdisches Gewaesser, subsidiaer Anschluss an die zentrale
+oder wiederherzustellen. **§ 98 WsV** ergänzt die Stufenfolge bei technischer Unmöglichkeit
+(Regenabwasserkanalisation in ein oberirdisches Gewässer, subsidiär Anschluss an die zentrale
 Abwasserreinigungsanlage nach Gemeinde-Bewilligung).
 
-**Warum die fruehere Stichwortsuche (Run 86) nichts fand:** der Report von Run 86 vermerkte «0
-Treffer fuer getrennt/Meteorwasser/Niederschlagswasser/unverschmutzt» in beiden WsG-/WsV-Dateien.
-Ein erneuter `grep -n "getrennt"` gegen dieselbe, unveraendert vorliegende Datei
-`raw/260803_amtlich_zh_wsv.md` traf sofort auf Z. 1104 («… in getrennten Grundstuecksentwaesse-
-rungsanlagen …»). Die Datei war seit ihrem Bezug am 03.08.2026 nicht veraendert worden (kein
-Fassungsstand-Drift, nur eine treffsicherere Suche) — vermutlich eine unvollstaendige Voll-
+**Warum die frühere Stichwortsuche (Run 86) nichts fand:** der Report von Run 86 vermerkte «0
+Treffer für getrennt/Meteorwasser/Niederschlagswasser/unverschmutzt» in beiden WsG-/WsV-Dateien.
+Ein erneuter `grep -n "getrennt"` gegen dieselbe, unverändert vorliegende Datei
+`raw/260803_amtlich_zh_wsv.md` traf sofort auf Z. 1104 («… in getrennten Grundstücksentwaesse-
+rungsanlagen …»). Die Datei war seit ihrem Bezug am 03.08.2026 nicht verändert worden (kein
+Fassungsstand-Drift, nur eine treffsicherere Suche) — vermutlich eine unvollständige Voll-
 textsuche im vorangegangenen Lauf, nicht ein technisches Suchproblem. Als Lehre: eine
-Negativ-Meldung («0 Treffer») aus einem fruehen Lauf bei einem thematisch naheliegenden, bereits
-vorhandenen Rohbestand verdient vor der externen Neurecherche einen zweiten, unabhaengigen Versuch.
+Negativ-Meldung («0 Treffer») aus einem frühen Lauf bei einem thematisch naheliegenden, bereits
+vorhandenen Rohbestand verdient vor der externen Neurecherche einen zweiten, unabhängigen Versuch.
 
 **In die KB eingearbeitet:** [[baureife-und-erschliessung]], Abschnitt «Versorgung & Entsorgung»
-ergaenzt (Fundstelle nachgetragen, bestehender Text nicht geloescht), neuer `sources`-/
+ergänzt (Fundstelle nachgetragen, bestehender Text nicht gelöscht), neuer `sources`-/
 `verifiziert`-Eintrag. Quelle: `outputs/2026-08-23_buch-run93.md`.
 
-## OFFEN (archiviert) 2026-08-23 (Buch-Run 86) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
+## OFFEN (archiviert) 2026-08-23 (Buch-Run 86) — welche Rechtsgrundlage trägt heute die gebäudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
 
-**Fund im Zuge der Modell-D-Re-Verifikation von [[baureife-und-erschliessung]]** (zweitaeltestes
+**Fund im Zuge der Modell-D-Re-Verifikation von [[baureife-und-erschliessung]]** (zweitältestes
 `verifiziert`-Datum unter den `established`-Artikeln nach [[baubewilligungsverfahren]], Vorschlag
-aus dem Report von Buch-Run 85, da die Reglemente-Queue 2414 Thalwil T1-T8 seit Run 79 vollstaendig
+aus dem Report von Buch-Run 85, da die Reglemente-Queue 2414 Thalwil T1-T8 seit Run 79 vollständig
 abgearbeitet ist).
 
-Der Artikel zitierte im Abschnitt «Versorgung & Entsorgung» fuer die Pflicht, bei Erstellung/
-wesentlicher Aenderung Meteor-/unverschmutztes Wasser vom verschmutzten getrennt abzuleiten, die
-Fundstelle **«§ 232 PBG / Art. 11 GSchG»** (uebernommen aus dem Buch-Destillat
+Der Artikel zitierte im Abschnitt «Versorgung & Entsorgung» für die Pflicht, bei Erstellung/
+wesentlicher Änderung Meteor-/unverschmutztes Wasser vom verschmutzten getrennt abzuleiten, die
+Fundstelle **«§ 232 PBG / Art. 11 GSchG»** (übernommen aus dem Buch-Destillat
 `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`, S. 766). Beide Fundstellen tragen die
 Aussage nicht (mehr):
 
 - **§ 232 PBG** (amtlicher Wortlaut, `raw/260607_amtlich_zh_pbg.md` Z. 2320, Nachtrag 133) regelt
-  ausschliesslich die Duldungspflicht fuer geringfuegige oeffentliche Einrichtungen auf privatem
-  Grund — inhaltlich ohne jeden Bezug zur Abwassertrennung. Das PBG enthaelt im aktuellen Bestand
-  keine Kanalisations-/Abwasserbestimmung mehr (0 Treffer fuer «Kanalisation»/«Abwasser» im
+  ausschliesslich die Duldungspflicht für geringfuegige öffentliche Einrichtungen auf privatem
+  Grund — inhaltlich ohne jeden Bezug zur Abwassertrennung. Das PBG enthält im aktuellen Bestand
+  keine Kanalisations-/Abwasserbestimmung mehr (0 Treffer für «Kanalisation»/«Abwasser» im
   gesamten Erlasstext). Da das Buch 2019 erschien und die Zuordnung zu S. 766 damals plausibel war,
   liegt eine Fassungsstand-Drift nahe (Paragraf entweder umnummeriert oder ersatzlos aus dem PBG
   entfernt, vermutlich im Zug der Auslagerung des Abwasserrechts ins WsG per 1.6.2026) — **nicht
-  geraten**, ohne einen frueheren PBG-Stand (vor Nachtrag 133) gegenzupruefen nicht abschliessend
-  zu klaeren.
+  geraten**, ohne einen früheren PBG-Stand (vor Nachtrag 133) gegenzuprüfen nicht abschliessend
+  zu klären.
 - **Art. 11 GSchG** («Anschluss- und Abnahmepflicht», amtlicher Fedlex-Volltext SR 814.20,
   Konsolidierung 1.1.2022, frisch via `fedlex.data.admin.ch`-Route bezogen und mit `pdftotext`
-  extrahiert) regelt nur die Pflicht, verschmutztes Abwasser im Bereich oeffentlicher
-  Kanalisationen einzuleiten — keine Trennungspflicht. Der naeherliegende systemische Grundsatz
+  extrahiert) regelt nur die Pflicht, verschmutztes Abwasser im Bereich öffentlicher
+  Kanalisationen einzuleiten — keine Trennungspflicht. Der näherliegende systemische Grundsatz
   («Behandlung/Versickerung getrennt nach Verschmutzungsgrad») steht in **Art. 7 Abs. 1/2 GSchG**,
-  ist aber ebenfalls kein expliziter Gebaeude-Trennsystem-Befehl.
+  ist aber ebenfalls kein expliziter Gebäude-Trennsystem-Befehl.
 
-**Offene Frage fuer einen kuenftigen Lauf:** welche Norm traegt heute die konkrete, gebaeude-
-bezogene Pflicht (vermutet: WsG/WsV, da die verwandte Siedlungsentwaesserung inzwischen dort
-geregelt ist — vgl. bereits im selben Artikel dokumentierter Uebergang EG GSchG → WsG/WsV per
+**Offene Frage für einen künftigen Lauf:** welche Norm trägt heute die konkrete, gebäude-
+bezogene Pflicht (vermutet: WsG/WsV, da die verwandte Siedlungsentwässerung inzwischen dort
+geregelt ist — vgl. bereits im selben Artikel dokumentierter Übergang EG GSchG → WsG/WsV per
 1.6.2026 — oder eine VSA-Norm/SIA 190). `raw/260803_amtlich_zh_wsg.md` und
-`raw/260803_amtlich_zh_wsv.md` wurden bereits stichwortartig durchsucht (0 Treffer fuer
+`raw/260803_amtlich_zh_wsv.md` wurden bereits stichwortartig durchsucht (0 Treffer für
 «getrennt»/«Meteorwasser»/«Niederschlagswasser»/«unverschmutzt») — die Antwort liegt vermutlich in
 einem noch nicht ingestierten WsV-Abschnitt oder einer Norm ausserhalb des Gesetzestexts.
 **In die KB eingearbeitet:** [[baureife-und-erschliessung]], Abschnitt «Versorgung & Entsorgung»
@@ -362,33 +362,33 @@ Quellen: `raw/260823_amtlich_zh_eg-gschg.md` (neu, EG GSchG Nachtrag 099 vollst�
 im Hub abgelegt, nur Art. 20/29 zitiert). Korrigiert:
 `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (beide Stellen).
 
-## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Pruefluecke im BBV-I-Bereich des Buch-Layers
+## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Prüflücke im BBV-I-Bereich des Buch-Layers
 
 **T-09 · ✅ ERLEDIGT 2026-08-23.** Sind weitere §§ 47b-47n BBV I bzw. EnerG-Paragraphen der
-2021er-Novelle als geltend gefuehrt, obwohl sie ueberholt sind?
+2021er-Novelle als geltend geführt, obwohl sie überholt sind?
 
-**Befund.** Vollstaendiger Wortlautabgleich §§ 46a bis 52 BBV I gegen `raw/260607_amtlich_zh_bbv1.md`:
-**nur zwei Paragraphen im gepruefeten Bereich sind aufgehoben** — § 47 (bereits seit 1.10.1997,
-unabhaengig von der 2021er-Novelle) und § 48 (per 1.9.2022, RRB 14.7.2021, Z. 908/Fn. 80). Alle
+**Befund.** Vollständiger Wortlautabgleich §§ 46a bis 52 BBV I gegen `raw/260607_amtlich_zh_bbv1.md`:
+**nur zwei Paragraphen im geprüfeten Bereich sind aufgehoben** — § 47 (bereits seit 1.10.1997,
+unabhängig von der 2021er-Novelle) und § 48 (per 1.9.2022, RRB 14.7.2021, Z. 908/Fn. 80). Alle
 uebrigen — §§ 47a-47n, 48a-48c, 49, 50, 51, 52 — sind geltendes Recht. Die EnerG-Novelle vom
-19.04.2021 (OS 77, 363, in Kraft 1.9.2022) aenderte/ergaenzte §§ 10a, 10c, 11 Abs. 1, 11a, 11b, 12,
+19.04.2021 (OS 77, 363, in Kraft 1.9.2022) änderte/ergänzte §§ 10a, 10c, 11 Abs. 1, 11a, 11b, 12,
 13 (aufgehoben), 13c, 13d, 14 Abs. 1.
 
-**Fuenf konkrete veraltete Fundorte identifiziert und korrigiert (2026-08-23):**
+**Fünf konkrete veraltete Fundorte identifiziert und korrigiert (2026-08-23):**
 1. `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` (JANS-Anwendungstransfer): toter
    «80-%-Riegel § 47a BBV I / § 10a EnerG» ersetzt durch Fossilverbot § 11 Abs. 1 EnerG.
 2. `buecher/band-1/06-baurechtliches-verfahren.md` (Beilagenkatalog Baugesuch, Fliesstext): dieselbe
    veraltete 80-%-Aussage zu § 10a EnerG korrigiert, Verweis auf Grenzwerttabelle § 47a BBV I gesetzt.
 3. `buecher/band-1/06-baurechtliches-verfahren.md` (Schwellenwert-Tabelle): dieselbe Aussage,
    mit ⚠-Vermerk versehen.
-4. `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (kant. Zustaendigkeiten):
+4. `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (kant. Zuständigkeiten):
    «Grossfeuerung § 48 BBV I» — § 48 ist seit 1.9.2022 aufgehoben, mit ⚠-Vermerk versehen (heutige
-   Zustaendigkeit fuer Grossfeuerungen nicht recherchiert, nicht geraten).
+   Zuständigkeit für Grossfeuerungen nicht recherchiert, nicht geraten).
 5. `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (Tabelle 12.4): Zuordnung
-   §§ 9-13 EnerG durchgehend falsch (§ 10a fälschlich «Hoechstanteil nicht erneuerbar» statt
-   allgemeiner Grundsatz, § 10b fälschlich «Waermepumpen» statt Widerstandsheizungsverbot, § 11
-   fälschlich «Klimaanlagen» statt Waermeerzeuger-Fossilverbot, § 12a fälschlich «Abwaerme» statt
-   kompostierbare Abfaelle) — korrigiert mit ⚠-Vermerk.
+   §§ 9-13 EnerG durchgehend falsch (§ 10a fälschlich «Höchstanteil nicht erneuerbar» statt
+   allgemeiner Grundsatz, § 10b fälschlich «Wärmepumpen» statt Widerstandsheizungsverbot, § 11
+   fälschlich «Klimaanlagen» statt Wärmeerzeuger-Fossilverbot, § 12a fälschlich «Abwärme» statt
+   kompostierbare Abfälle) — korrigiert mit ⚠-Vermerk.
 
 Bereits korrekt und ohne Handlungsbedarf: `wiki/wohnhygiene-und-raumanforderungen.md`,
 `buecher/band-2/17-haustechnische-anlagen-teil3.md`, alle § 47g-Fundstellen.
@@ -398,8 +398,8 @@ an Raphael, kein Faktenmangel.** Das Standardwerk stammt von 2019, der Skill `ba
 zitiert die Destillate als Top-Quelle Stufe 0b. Bisher wurden **vier** tote Rechtsstaende
 einzeln nachgetragen (KGSchV, § 42a, § 45 Abs. 3/§ 48 BBV I, jetzt § 47a). Ein Kopfvermerk in
 `buecher/CLAUDE.md` im Sinn von «Rechtsstand 2019 — jede §-Angabe vor Verwendung gegen den
-amtlichen Volltext in `raw/` pruefen» waere der billigere Schutz als der fuenfte Einzelnachtrag.
-Bewusst nicht selbst gesetzt: ein Kopfvermerk am Buch-Layer aendert die Beweislast fuer jede
+amtlichen Volltext in `raw/` prüfen» wäre der billigere Schutz als der fünfte Einzelnachtrag.
+Bewusst nicht selbst gesetzt: ein Kopfvermerk am Buch-Layer ändert die Beweislast für jede
 Zitierung aus diesem Layer und ist damit eine Grundsatzentscheidung, keine Korrektur.
 
 ## 2026-08-17 (Buch-Run 74, Korpus-Batch T4) — Klammer-Falle, Anpassungsfrist, Wegabstand
@@ -856,7 +856,7 @@ Nutzung von Boden, Untergrund oder Abwasser zur Gewinnung von Energie oder zur K
 nicht mehr § 8 EG GSchG. Wer bis zum Abschluss des Nachzugs ein EG-GSchG-Zitat aus dieser KB in ein
 Gesuch oder eine Behördenkorrespondenz übernimmt, zitiert aufgehobenes Recht.
 
-## 2026-07-27 (Buch-Run 68, Festigungsmodus, Priorität c Erst-Verifikation) — enteignung-und-entschaedigung: 2× AbtrG-Zitierfehler + 1× EG-ZGB-Zitierfehler korrigiert, AbtrG erstmals live geprüft
+## 2026-07-27 (Buch-Run 68, Festigungsmodus, Priorität c Erst-Verifikation) — enteignung-und-entschädigung: 2× AbtrG-Zitierfehler + 1× EG-ZGB-Zitierfehler korrigiert, AbtrG erstmals live geprüft
 
 [[enteignung-und-entschaedigung]] (letzter der beiden nie durch den Modell-D-Loop
 gelaufenen `emerging`-Artikel, von Run 67 empfohlen) einem vollständigen Wortlautabgleich
@@ -1091,7 +1091,7 @@ unten). Ergebnis der Prüfung am eigenen `raw/260607_amtlich_zh_pbg.md` (Z. 2741
   Gebäude/§ 273 (nur reduzierter **Gebäudeabstand** 3,5 m, kein Grenzabstands-Privileg) —
   inklusive Praxishinweis Kleingeräte/Wärmepumpen-Aussengeräte.
 - **Echter Fund (nicht in der ursprünglichen Meldung benannt):** `buecher/band-2/15-lage-von-
-  gebaeuden-teil3-harmonisierung.md:72` zitierte Minibauten fälschlich mit **«§ 273 nPBG; § 2a
+  gebäuden-teil3-harmonisierung.md:72` zitierte Minibauten fälschlich mit **«§ 273 nPBG; § 2a
   nABV»** — genau die Verwechslung, vor der die energie-KB warnte, nur nicht im Wiki, sondern im
   Buch-Destillat. Korrigiert auf **§ 260 Abs. 4 nPBG / § 2 Abs. 2 ABV** (Anhang/übergangsrechtlich);
   Register-Sweep über `training/curriculum.md` negativ (dort bereits korrekt: «Minibaute §260
@@ -1139,7 +1139,7 @@ bereits vorhanden war.
   korrigierte Geisterbezeichnung **«Art. 32bis USG»** (existiert nicht; amtlich korrekt
   **Art. 32bbis USG**, Sequenz 32 → 32a → 32abis → 32b → 32bbis → 32c) überlebte an **3 von
   Run 47 nicht erfassten Fundorten**: `wiki/bauausfuehrung-und-baukontrolle.md` (Frontmatter-
-  Paragraphenliste + Fliesstext «Bauherren-Altlast»-Absatz), `buecher/band-1/08-ausfuehrung-
+  Paragraphenliste + Fliesstext «Bauherren-Altlast»-Absatz), `buecher/band-1/08-ausführung-
   teil2-baustellensicherheit.md` (5 Stellen: Frontmatter + Fliesstext-Abschnitt 8.4.2.3 +
   2 Tabellenzeilen + 2 JANS-Anwendungshinweise), `training/curriculum.md` (Kap.-8-Zeile).
   Alle 3 korrigiert. **Lehre bestätigt (Leitplanke Run 47/53):** ein Register-Sweep nach einer
@@ -1157,7 +1157,7 @@ bereits vorhanden war.
 
 ## 2026-07-25 (Buch-Run 57, Festigungsmodus, Priorität c: Stichproben-Re-Verifikation) — PBG SZ erstmals amtlich in der KB, Besitzstandsgarantie-Lücke geschlossen, neue offene Frage SZ-Übernutzungspraxis
 
-Run 56 empfahl als nächsten Priorität-(c)-Kandidaten entweder `bauausfuehrung-und-
+Run 56 empfahl als nächsten Priorität-(c)-Kandidaten entweder `bauausführung-und-
 baukontrolle.md`/`widerrechtliche-bauten-und-sanktionen.md` (laut Run 55 bereits in Run 30/31
 volltextverifiziert, nur `verifiziert`-Feld fehlt) oder `bestandsumbau-eingriffstiefe.md`
 (Kt. SZ, eigener Charakter, noch nie geprüft). Gewählt: **[[bestandsumbau-eingriffstiefe]]**,
@@ -1260,9 +1260,10 @@ last_updated je 2026-07-10 — vor der Entdeckung der Fassungsstand-Umkehr-Falle
   «Harmonisierungsvorlage/nPBG» im Futur) — analog bei der ABV (§§ 9-13, Änderung RRB 11.5.2016,
   in Kraft 1.3.2017).
 - **§ 9 ABV korrigiert:** «UG mehrheitlich über gewachsenem Boden = Vollgeschoss» ist nur
-  Anhang-Recht; im Hauptteil (geltend) gestrichen. Das Buch-Destillat [[14-nutzungsdichte-
-  ausnuetzung]] hatte dies bereits 2026-07-08 als needs-verification vermutet («in der IVHB-
-  angepassten neuen Fassung ist der Passus gestrichen») — jetzt am amtlichen Volltext bestätigt.
+  Anhang-Recht; im Hauptteil (geltend) gestrichen. Das Buch-Destillat
+  [[14-nutzungsdichte-ausnuetzung]] hatte dies bereits 2026-07-08 als needs-verification vermutet
+  («in der IVHB-angepassten neuen Fassung ist der Passus gestrichen») — jetzt am amtlichen
+  Volltext bestätigt.
 - **§ 10 lit. c ABV korrigiert:** aktuell **20 %** (nicht 10 %) der anrechenbaren Geschossfläche für
   energiesparende verglaste Balkone/Loggien/Wintergärten; 10 % + Begriff «Vorbauten» ist die
   Anhang-Fassung.
@@ -1334,7 +1335,7 @@ wurden.
 
 ~~**needs-verification — LSV-Novelle 01.04.2026 vs. Anhang 3/4/6 (Wissens-Chef Run 14,
 24.07.2026):** Die KB planungsgrundlagen führte einen Vorbehalt, dass USG und LSV per 01.04.2026
-geändert wurden (Sekundärquelle bauen-im-laerm.ch). Zu klären an der amtlichen Quelle: existiert
+geändert wurden (Sekundärquelle bauen-im-lärm.ch). Zu klären an der amtlichen Quelle: existiert
 eine Fedlex-Konsolidierung mit Inkrafttreten 20260401, und berührt ihr Änderungsanhang die
 Anhänge 3/4/6 (Belastungsgrenzwerte) oder nur Art. 31 ff.?~~
 
@@ -1352,7 +1353,7 @@ nur WebFetch-Zusammenfassung) — raw/260725_amtlich_ch_usg-lsv-novelle-20260401
   Wohnüberbauungen, kantonale Zustimmung + überwiegendes Interesse) integriert. Die KB zitierte
   Art. 31a an mehreren Fundorten als weiterhin geltendes Recht — korrigiert in
   [[laermschutz-und-nichtionisierende-strahlung]] (Wiki), `buecher/band-2/19-baulicher-
-  umweltschutz-teil2-laerm-nisv.md` (Destillat, mit Fassungsstand-Vermerk statt Umschreibung des
+  umweltschutz-teil2-lärm-nisv.md` (Destillat, mit Fassungsstand-Vermerk statt Umschreibung des
   Buchstands), `buecher/INDEX.md`, `wiki/INDEX.md`, `training/drills.md` (2 Karten).
 - **Art. 22 USG neu gefasst** (BG vom 27.9.2024, in Kraft seit 1.4.2026): drei alternative
   KWL-/Fenster-Wege je Wohneinheit (Abs. 2 lit. a Ziff. 1-3) + verschärfter Mindestschutz Art. 21
@@ -1367,41 +1368,41 @@ nur WebFetch-Zusammenfassung) — raw/260725_amtlich_ch_usg-lsv-novelle-20260401
   Ergänzungen (Art. 22/24 USG), 2 neue Drill-Karten (Modell A + D). Report
   `outputs/2026-07-25_buch-run52.md`.
 
-## 2026-07-22 (Wissens-Health-Check, Mac Mini Nachtschicht) — Umlaut-Bereinigung, Locale-Fix-Frage GEKLAERT (Mechanismus), Promotion-Kandidaten
-- **Flaechendeckende ae/oe/ue-statt-Umlaut-Verstoesse** (Audit F) quer durch praktisch alle
-  24 Wiki-Artikel (z.B. `abstaende-und-hoehen.md`: "gebaeuden", "Gewaesserraum",
-  "zonenkonformitaet", "traegt", "zusaetzlich", "zurueck", "praezisiert", "hoehen", "geprueft").
+## 2026-07-22 (Wissens-Health-Check, Mac Mini Nachtschicht) — Umlaut-Bereinigung, Locale-Fix-Frage GeklärT (Mechanismus), Promotion-Kandidaten
+- **Flächendeckende ae/oe/ue-statt-Umlaut-Verstoesse** (Audit F) quer durch praktisch alle
+  24 Wiki-Artikel (z.B. `abstaende-und-hoehen.md`: "gebäuden", "Gewässerraum",
+  "zonenkonformität", "trägt", "zusätzlich", "zurück", "präzisiert", "höhen", "geprüft").
   Details: Audit-F im Report `outputs/2026-07-22_health-check.md`.
 - **Teilschritt (1) verifiziert (~08:30-Lauf, Mac Mini):** Die im health-check vermutete
   Verbindung zum `dispatch-run.sh`-Locale-Fix vom 21.07. trifft NICHT zu. `baurecht-buch-training`
   (wie `energie-training`/`planungsgrundlagen-training`/`normen-training-mini`/
   `synobsis-batch-nacht`) ist ein natives Claude-Code-App-Scheduled-Task, Registry lokal je
   Station unter `~/.claude/scheduled-tasks/<name>/SKILL.md` (auf dem Mac Mini vorhanden, dort
-  aber `enabled: false` — "DEAKTIVIERT auf Mac Mini, laeuft exklusiv auf MacBook Pro",
+  aber `enabled: false` — "DEAKTIVIERT auf Mac Mini, läuft exklusiv auf MacBook Pro",
   Stations-Split Rule 260712). Dieser App-Scheduler ruft NICHT `scripts/dispatch-run.sh` auf
   (das bedient nur den Handy/Cowork-Dispatch-Kanal und die crontab-Zusatzlaeufe
-  `cron-training-mini.sh`) — der LANG/LC_ALL-Fix vom 21.07. kann diesen Ausfuehrungspfad
-  strukturell gar nicht erreichen. Das gilt fuer alle fuenf genannten Trainings-Tasks auf
+  `cron-training-mini.sh`) — der LANG/LC_ALL-Fix vom 21.07. kann diesen Ausführungspfad
+  strukturell gar nicht erreichen. Das gilt für alle fünf genannten Trainings-Tasks auf
   beiden Stationen, nicht nur Baurecht. Die MacBook-Pro-eigene Kopie der Registry
   (`~/.claude/scheduled-tasks/`) ist vom Mac Mini aus nicht erreichbar (kein Reverse-SSH,
-  kein Sync) — muss auf der Station selbst geprueft werden.
+  kein Sync) — muss auf der Station selbst geprüft werden.
 - **Root-Cause-Hypothese CONFIRMED (~19:00-Lauf, Mac Mini, dedizierte Verifikation):**
-  Alle fuenf Trainings-Tasks tragen seit 19.07.2026 denselben wortgleichen "Minimum Viable
+  Alle fünf Trainings-Tasks tragen seit 19.07.2026 denselben wortgleichen "Minimum Viable
   Model"-Anhang (mechanische Stufen an Haiku/Sonnet-Subagenten delegieren), OHNE die
   Umlaut-Regel (`umlaute-konvention.md`) an den delegierten Prompt weiterzugeben — Agent-
-  Aufrufe erben CLAUDE.md/Rules nicht automatisch. Empirisch bestaetigt: echte
-  `outputs/*.md` seit 19.07. auf ASCII-Ersatzformen (fuer/ueber/waere/moeglich/...)
-  durchsucht — **alle fuenf KBs sind betroffen** (baurecht, energie, planungsgrundlagen,
-  normen, architekten-synobsis), nicht nur baurecht. Die fruehere "Gegenprobe nicht rund"
+  Aufrufe erben CLAUDE.md/Rules nicht automatisch. Empirisch bestätigt: echte
+  `outputs/*.md` seit 19.07. auf ASCII-Ersatzformen (für/über/wäre/möglich/...)
+  durchsucht — **alle fünf KBs sind betroffen** (baurecht, energie, planungsgrundlagen,
+  normen, architekten-synobsis), nicht nur baurecht. Die frühere "Gegenprobe nicht rund"
   ist damit widerlegt: `normen-mini-run33` (20.07.) zeigt dieselben ASCII-Formen, war nur
-  noch nicht geprueft. Details/Tabelle: `outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
-  **Fix vorgeschlagen, NICHT autonom ausgefuehrt** (Config-Aenderung an lokalen
-  Scheduled-Task-Dateien = Infrastruktur-Aenderung, laut `logbuch/AKTIONS-WHITELIST.md`
-  verboten): allen fuenf "Modell-Politik"-Bloecken (beide Stationen) einen Satz ergaenzen,
-  dass delegierte Prompts die Umlaut-/Hochdeutsch-Kernregel explizit wiederholen muessen.
-  Naechstes hub-chef-Briefing bzw. Raphael direkt vorlegen.
-- **Teilschritt (2) unveraendert offen:** bestehende ae/oe/ue-Stellen im Wiki brauchen eine
-  eigene Bereinigung (13+ Treffer allein in einem Artikel) — zu gross fuer einen
+  noch nicht geprüft. Details/Tabelle: `outputs/2026-07-22_umlaut-bug-verifikation-nachtschicht.md`.
+  **Fix vorgeschlagen, NICHT autonom ausgeführt** (Config-Änderung an lokalen
+  Scheduled-Task-Dateien = Infrastruktur-Änderung, laut `logbuch/AKTIONS-WHITELIST.md`
+  verboten): allen fünf "Modell-Politik"-Bloecken (beide Stationen) einen Satz ergänzen,
+  dass delegierte Prompts die Umlaut-/Hochdeutsch-Kernregel explizit wiederholen müssen.
+  Nächstes hub-chef-Briefing bzw. Raphael direkt vorlegen.
+- **Teilschritt (2) unverändert offen:** bestehende ae/oe/ue-Stellen im Wiki brauchen eine
+  eigene Bereinigung (13+ Treffer allein in einem Artikel) — zu gross für einen
   Nachtschicht-Lauf, eigener Auftrag.
 - **4 Promotion-Kandidaten** (Audit G, `status: emerging`, inhaltlich reif wirkend, kein
   offener needs-verification-Flag gefunden): `baurechtlicher-vorentscheid-und-voranfrage`,
@@ -1437,96 +1438,96 @@ Fassungsstand 1.7.2026 Nachtrag 133). **Korrektur der Flag-Notiz:** der Typ span
 markiert. Arbeitsteilung: baurecht = Verfahrenstyp-Systematik (erledigt), energie = WP-Fachvertiefung
 (`bvv-zh-meldeverfahren-klimaanlagen-waermepumpen`). Bring-Schuld baurecht-Loop damit erledigt.
 
-## 2026-07-17 (Buch-Run 48, Modell-D — die drei «beschaffbaren» Luecken aus Run 47 geschlossen: 4 neue amtliche Volltexte)
+## 2026-07-17 (Buch-Run 48, Modell-D — die drei «beschaffbaren» Lücken aus Run 47 geschlossen: 4 neue amtliche Volltexte)
 
 Freigabe Raphael 17.07.2026 («so weiter verfahren wie es richtig ist»): erst die beschaffbaren
-Luecken schliessen, dann ruecktakten. **Jede der drei Luecken foerderte einen echten Fehler zutage** —
-das bestaetigt die Run-47-Lehre: was als «nicht belegbar» geflaggt ist, verdeckt oft einen Fehler.
+Lücken schliessen, dann rücktakten. **Jede der drei Lücken förderte einen echten Fehler zutage** —
+das bestätigt die Run-47-Lehre: was als «nicht belegbar» geflaggt ist, verdeckt oft einen Fehler.
 
 - **SCHWERSTER FUND — die HWSchV ZH ist seit dem 01.06.2026 AUFGEHOBEN** (OS 81, 144). Nachfolge:
-  **Wassergesetz WsG** (LS 724.1) + **Wasserverordnung WsV** (LS 724.11). Die KB fuehrte «§ 15x HWSchV»
+  **Wassergesetz WsG** (LS 724.1) + **Wasserverordnung WsV** (LS 724.11). Die KB führte «§ 15x HWSchV»
   durchgehend als geltendes Recht — sie zitierte damit seit sechs Wochen totes kantonales Recht, an
-  6 Fundorten (15-lage, abstaende-und-hoehen, baulinien-und-abstandslinien, 20-ausnahmen-teil2,
+  6 Fundorten (15-lage, abstände-und-höhen, baulinien-und-abstandslinien, 20-ausnahmen-teil2,
   buecher/INDEX ×2). Alle mit Aufhebungsvermerk + Nachfolgenorm nachgezogen. **Materielle Folge:**
-  § 24 WsV kennt **kein 11-m-Mindestmass** bei eingedolten Fliessgewaessern mehr (nur noch eine
+  § 24 WsV kennt **kein 11-m-Mindestmass** bei eingedolten Fliessgewässern mehr (nur noch eine
   Verringerungsregel) — die 11 m folgen heute allein aus Art. 41a Abs. 2 lit. a GSchV. Die
   Aussagerichtung kippt: ZH ist **nicht strenger** als der Bund, sondern nutzt den Verzichtsspielraum.
 - **§ 15m HWSchV stand auf dem Kopf.** [[15-lage-von-gebaeuden]] und [[abstaende-und-hoehen]]
-  behaupteten «§ 15m geht § 357 PBG vor» und «§ 307 PBG ist im Gewaesserraum nicht anwendbar». Der
-  Wortlaut sagt das **Gegenteil**: § 15m Abs. 1 erklaerte § 357 PBG fuer **anwendbar** (Verweis, kein
-  Vorrang), § 15m Abs. 2 liess das Brandstattrecht § 307 PBG **auch im Gewaesserraum** zu — die Norm
-  ist **beguenstigend, nicht einschraenkend** (heute § 20 WsG). **Interne Divergenz aufgeloest:**
+  behaupteten «§ 15m geht § 357 PBG vor» und «§ 307 PBG ist im Gewässerraum nicht anwendbar». Der
+  Wortlaut sagt das **Gegenteil**: § 15m Abs. 1 erklärte § 357 PBG für **anwendbar** (Verweis, kein
+  Vorrang), § 15m Abs. 2 liess das Brandstattrecht § 307 PBG **auch im Gewässerraum** zu — die Norm
+  ist **beguenstigend, nicht einschränkend** (heute § 20 WsG). **Interne Divergenz aufgelöst:**
   [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] hatte es die ganze Zeit **richtig** — die
   beiden anderen Fundorte widersprachen ihm.
-- **Renumbering uebersehen:** die HWSchV wurde 2017 (Nachtrag 95) durchnummeriert; die Buch-/KB-Nummern
+- **Renumbering übersehen:** die HWSchV wurde 2017 (Nachtrag 95) durchnummeriert; die Buch-/KB-Nummern
   stammen aus der Fassung von 2013. Richtig: Bemessung § 15d → **§ 15k**, Festlegung § 15b → **§ 15h**,
-  Besitzstand § 15g → **§ 15m**, Grundeigentuemerverbindlichkeit **§ 15 Abs. 1**. Der Beschaffungs-Agent
-  waere an der 2013er-Fassung beinahe zum Fehlschluss «§ 15m existiert nicht» gekommen — die
-  Nachtrag-95-Pruefung fing das ab (vgl. die Grep-Falle aus Run 47: Vorbefunde «existiert nicht» sind
-  ohne Fassungspruefung nicht belastbar).
+  Besitzstand § 15g → **§ 15m**, Grundeigentümerverbindlichkeit **§ 15 Abs. 1**. Der Beschaffungs-Agent
+  wäre an der 2013er-Fassung beinahe zum Fehlschluss «§ 15m existiert nicht» gekommen — die
+  Nachtrag-95-Prüfung fing das ab (vgl. die Grep-Falle aus Run 47: Vorbefunde «existiert nicht» sind
+  ohne Fassungsprüfung nicht belastbar).
 - **Uferstreifen-Masse CONFIRMED, Fundstellen durchwegs falsch verklebt:** «§ 15 HWSchV» war **nie**
   eine Uferstreifen-Norm. Richtig: 8 m + Gerinnesohle je Seite / 20 m bei Sohle > 12 m = **UebgBest.
-  GSchV-Aenderung 4.5.2011 Abs. 2 lit. a/b** (Bundesrecht!); 8 m um stehende Gewaesser bis 0,5 ha =
-  **UebgBest. zur HWSchV-Aenderung vom 13.12.2011 Abs. 1**, heute § 213 Abs. 1 WsV. Zudem misst die
-  Uebergangsbestimmung «auf einem beidseitigen Streifen entlang des Gewaessers», nicht «ab Uferlinie».
+  GSchV-Änderung 4.5.2011 Abs. 2 lit. a/b** (Bundesrecht!); 8 m um stehende Gewässer bis 0,5 ha =
+  **UebgBest. zur HWSchV-Änderung vom 13.12.2011 Abs. 1**, heute § 213 Abs. 1 WsV. Zudem misst die
+  Übergangsbestimmung «auf einem beidseitigen Streifen entlang des Gewässers», nicht «ab Uferlinie».
 - **LSV Art. 40 Abs. 2 — Additionsprinzip ohne seine Ausnahme.** Das Destillat gab den Grundsatz
-  wieder, aber nicht Satz 2: «Dies gilt **nicht** fuer die Planungswerte bei neuen ortsfesten Anlagen
+  wieder, aber nicht Satz 2: «Dies gilt **nicht** für die Planungswerte bei neuen ortsfesten Anlagen
   (Art. 7 Abs. 1).» Wer nach der KB-Fassung arbeitete, addierte genau dort, wo das Bundesrecht es
-  verbietet. **Luecke geschlossen:** Art. 40 Abs. 3 (fehlen Belastungsgrenzwerte → **Art. 15 USG**,
-  nicht Art. 14, unter Beruecksichtigung Art. 19/23 USG — relevant fuer Gastwirtschafts-/Sport-/
-  Freizeitlaerm, Glockengelaeut). **Anhang 3/4 beschafft:** Grenzwerttabellen wertidentisch
-  (ES II Tag PW 55 / IGW 60 / AW 70), Systematik PW < IGW < AW CONFIRMED. Neu erfasst: Bahnlaerm auf
-  Strassen → Anhang 3; Standseilbahnen/Eisenbahnwerkstaetten → Industrie-/Gewerbelaerm (Anhang 6);
-  Art. 42 LSV (+5 dB(A) in Betriebsraeumen ES I-III, JANS-relevant bei Healthcare-/Gewerbe-Mischnutzung).
-- **USG Art. 32e — VASA-Stichtag materiell falsch.** Das Destillat: «nur Abfaelle, die spaetestens
+  verbietet. **Lücke geschlossen:** Art. 40 Abs. 3 (fehlen Belastungsgrenzwerte → **Art. 15 USG**,
+  nicht Art. 14, unter Berücksichtigung Art. 19/23 USG — relevant für Gastwirtschafts-/Sport-/
+  Freizeitlärm, Glockengelaeut). **Anhang 3/4 beschafft:** Grenzwerttabellen wertidentisch
+  (ES II Tag PW 55 / IGW 60 / AW 70), Systematik PW < IGW < AW CONFIRMED. Neu erfasst: Bahnlärm auf
+  Strassen → Anhang 3; Standseilbahnen/Eisenbahnwerkstaetten → Industrie-/Gewerbelärm (Anhang 6);
+  Art. 42 LSV (+5 dB(A) in Betriebsräumen ES I-III, JANS-relevant bei Healthcare-/Gewerbe-Mischnutzung).
+- **USG Art. 32e — VASA-Stichtag materiell falsch.** Das Destillat: «nur Abfälle, die spätestens
   **Ende Januar 1996** dorthin gelangt sind». Amtlich **zweistufig**: **Berechtigung** = seit dem
-  **1.2.2001** keine Abfaelle mehr (Abs. 3 Bst. b); **Satz** = 40 % (seit 1.2.1996 nichts mehr) bzw.
-  **30 %** (bis laengstens 31.1.2001, Abs. 4 Bst. b). Das Wort «nur» war der Fehler: Standorte mit
+  **1.2.2001** keine Abfälle mehr (Abs. 3 Bst. b); **Satz** = 40 % (seit 1.2.1996 nichts mehr) bzw.
+  **30 %** (bis längstens 31.1.2001, Abs. 4 Bst. b). Das Wort «nur» war der Fehler: Standorte mit
   Ablagerung bis Ende Januar 2001 sind **nicht ausgeschlossen**, sondern zu 30 % abgegolten.
-  **Praezisiert:** das ZH-Verhandlungsverfahren ist kantonale Praxis; die **Hoehe der Bundesabgeltung
-  ist nicht verhandelbar** (fixe Saetze, Abs. 4). Der Grund fuer die Verfuegungspflicht steht in der
-  VASA: ueber CHF 250'000 nur mit **rechtskraeftiger Verfuegung** (Art. 11 Abs. 2 VASA), bis 250'000
-  genuegt eine sachgerechte Begruendung (Art. 10 Abs. 2 VASA). Sequenz geprueft: **kein Art. 32ebis**.
+  **Präzisiert:** das ZH-Verhandlungsverfahren ist kantonale Praxis; die **Höhe der Bundesabgeltung
+  ist nicht verhandelbar** (fixe Sätze, Abs. 4). Der Grund für die Verfügungspflicht steht in der
+  VASA: über CHF 250'000 nur mit **rechtskräftiger Verfügung** (Art. 11 Abs. 2 VASA), bis 250'000
+  genügt eine sachgerechte Begründung (Art. 10 Abs. 2 VASA). Sequenz geprüft: **kein Art. 32ebis**.
 
 **Neue amtliche Volltexte (4):** `raw/260717_amtlich_ch_lsv-anhang34.md` (Art. 40-42 + Anhang 3/4),
 `raw/260717_amtlich_ch_gschv-41c.md` (Art. 41c + UebgBest. 4.5.2011), `raw/260717_amtlich_zh_hwschv.md`
 (HWSchV §§ 15/15a-15n + UebgBest. 13.12.2011 **plus** Nachfolgerecht WsG § 20/21 + WsV §§ 11/22-25/213,
-inkl. Konkordanztabelle alt/neu), `raw/260717_amtlich_ch_usg-32e.md` (Art. 32e vollstaendig + VASA-Auszug).
+inkl. Konkordanztabelle alt/neu), `raw/260717_amtlich_ch_usg-32e.md` (Art. 32e vollständig + VASA-Auszug).
 
-**Bilanz:** 3 Luecken geschlossen, **5 echte Korrekturen** (HWSchV-Aufhebung, § 15m-Umkehrung,
+**Bilanz:** 3 Lücken geschlossen, **5 echte Korrekturen** (HWSchV-Aufhebung, § 15m-Umkehrung,
 Renumbering, Additionsprinzip-Ausnahme, VASA-Stichtag), **0 Halluzinationen**, ~15 Fundorte
 synchronisiert, 4 Drill-Karten.
 
 **needs-verification (neu/verbleibend):**
-- ~~**Anhang 6 LSV** (Industrie-/Gewerbelaerm) — nicht im raw, beschaffbar (Anhang 4 Ziff. 1 Abs. 3
-  verweist darauf).~~ → **✅ ERLEDIGT (Buch-Run 51, 2026-07-24):** Anhang 6 LSV vollstaendig via
+- ~~**Anhang 6 LSV** (Industrie-/Gewerbelärm) — nicht im raw, beschaffbar (Anhang 4 Ziff. 1 Abs. 3
+  verweist darauf).~~ → **✅ ERLEDIGT (Buch-Run 51, 2026-07-24):** Anhang 6 LSV vollständig via
   Fedlex-Filestore beschafft (`raw/260724_amtlich_ch_lsv-anhang6.md`, Stand 1.11.2023) —
   Geltungsbereich Ziff. 1, Grenzwerttabelle Ziff. 2 (**wertidentisch zu Anhang 3/4**,
   PW < IGW < AW CONFIRMED), Beurteilungspegel-Formel + Pegelkorrekturen K1/K2/K3 Ziff. 3.
   **0 Korrekturen** — kein Widerspruch zum bestehenden Destillat (`buecher/band-2/13-fahrzeug-
-  abstellplaetze-spielflaechen-teil3.md` zitierte Anhang 6 bereits korrekt). Neuer Wiki-Abschnitt
+  abstellplätze-spielflächen-teil3.md` zitierte Anhang 6 bereits korrekt). Neuer Wiki-Abschnitt
   «Industrie- und Gewerbelärm» in [[laermschutz-und-nichtionisierende-strahlung]].
 - ~~**Systematischer WsG/WsV-Nachzug:** die HWSchV-Aufhebung betrifft potenziell mehr Stellen als die
-  hier geprueften — ein KB-weiter Check aller kantonalen Gewaesser-/Hochwasser-Zitate gegen WsG/WsV
-  ist vorzumerken.~~ → **✅ ERLEDIGT (Buch-Run 50, 2026-07-20):** KB-weiter `grep -rniI "HWSchV"` ueber
-  wiki/buecher/training durchgefuehrt. Alle materiellen Aussagen tragen bereits den Aufhebungsvermerk
+  hier geprüften — ein KB-weiter Check aller kantonalen Gewässer-/Hochwasser-Zitate gegen WsG/WsV
+  ist vorzumerken.~~ → **✅ ERLEDIGT (Buch-Run 50, 2026-07-20):** KB-weiter `grep -rniI "HWSchV"` über
+  wiki/buecher/training durchgeführt. Alle materiellen Aussagen tragen bereits den Aufhebungsvermerk
   (01.06.2026 → WsG/WsV); **2 verbliebene veraltete Register-Stellen korrigiert:** (1) `training/drills.md`
   Z. 83 zitierte «§ 15d HWSchV / 11 m eingedolt» als geltendes Recht (dreifach falsch: Renumbering
   § 15d→§ 15k, HWSchV aufgehoben, § 24 WsV kennt KEIN Mindestmass mehr) → Karte auf aktuelle Rechtslage
   gesetzt; (2) `training/curriculum.md` Z. 74 «§ 15m HWSchV» ohne Aufhebungsvermerk → «(aufgehoben
-  01.06.2026 → § 20 WsG)» ergaenzt. § 183 lit. b WsV als Nachfolger von § 15h (Festlegung Baudirektion)
-  in baulinien-Tabelle als korrekt bestaetigt. **Generell:** kantonale Erlasse altern schneller als die
+  01.06.2026 → § 20 WsG)» ergänzt. § 183 lit. b WsV als Nachfolger von § 15h (Festlegung Baudirektion)
+  in baulinien-Tabelle als korrekt bestätigt. **Generell:** kantonale Erlasse altern schneller als die
   KB — der periodische Fassungsstand-Check (zhlex) bleibt Teil des Festigungsmodus (Leitplanke Run 48).
 - **VASA-Abgabesatz Art. 3** (5 Fr./t Deponietyp B, 16 Fr./t Typen C/D/E): nur Stand **1.1.2016**
-  beschaffbar (spaetere Konsolidierungen ueber den Fedlex-Datenspeicher nicht abrufbar) — mit
+  beschaffbar (spätere Konsolidierungen über den Fedlex-Datenspeicher nicht abrufbar) — mit
   Fassungsvermerk zitieren, nicht als «aktuell».
 - **HWSchV Nachtrag 133** (letzter Eintrag vor Aufhebung): kein PDF hinterlegt; Fassung Nachtrag 95
   (Stand 1.1.2017) als letzte materielle Fassung verwendet.
-- SIA 181 im Wortlaut (kostenpflichtig, via Skill `normen`), VSS-Normen, reines Fallrecht — unveraendert.
+- SIA 181 im Wortlaut (kostenpflichtig, via Skill `normen`), VSS-Normen, reines Fallrecht — unverändert.
 
 ## 2026-07-17 (Buch-Run 47, Modell-D — 4 Komplexe adversarial parallel via Agent-Fan-out: Gewässerraum GSchV, LSV-Schallschutz, Quartierplan PBG, USG-Altlasten-Nomenklatur)
 
-**Die Run-46-Meldung «VERIFIKATIONS-RUECKSTAND ABGEBAUT» war verfrüht.** Eine Gegenprobe über die
+**Die Run-46-Meldung «VERIFIKATIONS-RückSTAND ABGEBAUT» war verfrüht.** Eine Gegenprobe über die
 älteren QUESTIONS-Einträge fand **vier Flags, die am inzwischen vorhandenen amtlichen Volltext sehr
 wohl prüfbar waren** — sie standen nur weiter unten im Dokument und wurden vom Run-46-Sweep nicht
 erfasst. Lehre für den Loop: «kein offener Flag» darf nicht aus dem letzten Report übernommen werden,
@@ -1568,7 +1569,7 @@ Drei Komplexe, Modell-D-Volltextabgleich; zwei neue amtliche Volltexte beschafft
 - **Komplex 3 — Art. 43/44 LSV (Empfindlichkeitsstufen ES I-IV): beschafft + CONFIRMED.** Fedlex-Volltext beschafft (`raw/260715_amtlich_ch_lsv-es.md`, Stand 1.11.2023): ES I erhöhtes Lärmschutzbedürfnis/Erholungszonen, ES II keine störenden Betriebe/Wohnzonen + Zonen für öff. Bauten, ES III mässig störende Betriebe/Wohn-Gewerbe-Mischzonen + Landwirtschaftszonen, ES IV stark störende Betriebe/Industriezonen; Aufstufung nur ES I/II bei Vorbelastung (Art. 43 Abs. 2); Zuordnung durch Kantone Art. 44. Deckt sich mit dem Destillat [[19-baulicher-umweltschutz]] (dort generisch) — jetzt präzise Zonenzuordnung ergänzt + Wiki-`verifiziert`-Feld nachgezogen. Flag «Art. 43 LSV kein raw-Volltext» geschlossen.
 
 - **Status-Promotion:** [[rechtsschutz-und-rechtsmittelverfahren]] und [[09-rechtsschutz]] **emerging→established** (Gesetzeswortlaut-Ebene VRG/PBG-Rechtsschutz vollständig volltextverifiziert Run 32/44/46).
-- **✅ VERIFIKATIONS-RUECKSTAND ABGEBAUT:** Nach Schliessung dieser drei Flags sind **alle am Gesetzeswortlaut verifizierbaren** needs-verification-Komplexe abgearbeitet; die Drill-Abdeckung reicht über alle 23 Kapitel. **Verbleibend sind ausschliesslich Punkte, die per se NICHT am Gesetzeswortlaut belegbar sind:** ~~VSS-Rampen-/Parkierungsnormen (SN 640-Reihe — kostenpflichtig, dauerhaft nicht frei beschaffbar)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021-parkieren-anordnung-geometrie` (260714); § 357 Abs. 5 PBG Verordnungs-/Gerichtspraxis (Wortlaut verifiziert Run 34, nur Fallrecht offen); reine Fallrecht-/Kommentar-Belege (BGE/BGer/URP/BEZ/VB — jurisprudentiell). **→ Vorschlag an Raphael: Rücktaktung des Loops `baurecht-buch-training` von 2× täglich auf WÖCHENTLICH im Nachtfenster** (Rule 260712/260711); der Loop wechselt damit vom Verifikations- in den reinen Festigungs-/Pflegemodus (adversariale Re-Verifikation established-Bestände + Nachführung bei Rechtsänderungen).
+- **✅ VERIFIKATIONS-RückSTAND ABGEBAUT:** Nach Schliessung dieser drei Flags sind **alle am Gesetzeswortlaut verifizierbaren** needs-verification-Komplexe abgearbeitet; die Drill-Abdeckung reicht über alle 23 Kapitel. **Verbleibend sind ausschliesslich Punkte, die per se NICHT am Gesetzeswortlaut belegbar sind:** ~~VSS-Rampen-/Parkierungsnormen (SN 640-Reihe — kostenpflichtig, dauerhaft nicht frei beschaffbar)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021-parkieren-anordnung-geometrie` (260714); § 357 Abs. 5 PBG Verordnungs-/Gerichtspraxis (Wortlaut verifiziert Run 34, nur Fallrecht offen); reine Fallrecht-/Kommentar-Belege (BGE/BGer/URP/BEZ/VB — jurisprudentiell). **→ Vorschlag an Raphael: Rücktaktung des Loops `baurecht-buch-training` von 2× täglich auf WÖCHENTLICH im Nachtfenster** (Rule 260712/260711); der Loop wechselt damit vom Verifikations- in den reinen Festigungs-/Pflegemodus (adversariale Re-Verifikation established-Bestände + Nachführung bei Rechtsänderungen).
   - **Korrekturvermerk 2026-08-03 (Wissens-Chef Run 21):** Eine der drei Begründungen dieses Rücktaktungs-Vorschlags ist weggefallen — die VSS-Rampen-/Parkierungsnormen waren nicht «dauerhaft nicht frei beschaffbar», die Ausgabe 2021 lag bereits im JANS-Normenbestand und ist in `normen` destilliert (siehe Kopfeintrag 2026-08-03). Der Vorschlag stützt sich damit nur noch auf § 357 Abs. 5 PBG (Fallrecht) und die reinen Fallrecht-/Kommentar-Belege. Der Text oben bleibt als historischer Wortlaut stehen; über die Taktung entscheidet Raphael.
 
 ## 2026-07-15 (Buch-Run 45, Modell-D — 3 Komplexe adversarial parallel via Agent-Tool: § 218/219/220 PBG, KNHV §§ 13-22/29-32, USG-Altlasten Re-Verifikation)
@@ -1606,10 +1607,10 @@ Direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen para
 ## 2026-07-14 (Buch-Run 41, Modell-D §§ 295-298 PBG + § 48 BBV I CONFIRMED aufgehoben + KNHV-Divergenz-Cleanup INDEX/QUESTIONS)
 Drei Aufgaben, direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen parallel; Kollisionsvermeidung durch Fokus auf Rest-/Cleanup-Punkte, die keine andere Instanz bearbeitet).
 
-- **Komplex A — §§ 295-298 PBG (Kap. 17): Destillat↔Destillat-Divergenz geschlossen.** Das Destillat [[17-gebaeude-und-raeume]] führte §§ 295-298 PBG als «Detail offen», während das **Schwester-Destillat [[17-gebaeude-und-raeume-teil2-ausruestungen]]** sie **bereits seit 2026-07-13 Modell-D-volltextverifiziert** hatte (§ 296/297/298 dort ausdrücklich «volltextverifiziert 13.07.2026») — dieselbe Divergenz-Klasse wie die Wiki↔Destillat-Fälle aus Run 39/40, nur zwischen zwei Buch-Destillaten. Grundnorm-Kurzfassung in teil1 am strukturell richtigen Ort (vor §§ 299 ff.) ergänzt + auf teil2 als kanonische, vertiefte Fundstelle (inkl. § 71 PBG Energieplan-Anschlusspflicht/WKK) verlinkt; eigenständig gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057) gegengeprüft, alle **CONFIRMED**: § 295 (Waermeversorgung — standortgerechte Heizzentralen mit Abwaerme/erneuerbaren Abs. 1; **Fernwaerme-Anschluss- und Duldungspflicht** bei technisch/wirtschaftlich gleichwertigem Angebot Abs. 2), § 296 (Befoerderungsanlagen — zweckgerecht/fachgemaess, Anpassung an technische Entwicklung wo Sicherheit verlangt), § 297 (Nebenraeume in Wohnhaeusern — Trockenraeume/Einstellgelegenheiten, konkretisiert § 39 BBV I), § 298 (RR-Delegation für strengere Sicherheits-/Ausruestungsbestimmungen bei Gebaeuden > 6 anrechenbaren Geschossen). Eigener Abschnitt im Destillat ergänzt, Frontmatter-`verifiziert` nachgeführt. **Status bleibt `emerging`** (Ausruestungen-Teil § 4 ABV + Einstellraeume-Detail §§ 37-39 BBV I ab Shot 632 weiterhin ungelesen).
+- **Komplex A — §§ 295-298 PBG (Kap. 17): Destillat↔Destillat-Divergenz geschlossen.** Das Destillat [[17-gebaeude-und-raeume]] führte §§ 295-298 PBG als «Detail offen», während das **Schwester-Destillat [[17-gebaeude-und-raeume-teil2-ausruestungen]]** sie **bereits seit 2026-07-13 Modell-D-volltextverifiziert** hatte (§ 296/297/298 dort ausdrücklich «volltextverifiziert 13.07.2026») — dieselbe Divergenz-Klasse wie die Wiki↔Destillat-Fälle aus Run 39/40, nur zwischen zwei Buch-Destillaten. Grundnorm-Kurzfassung in teil1 am strukturell richtigen Ort (vor §§ 299 ff.) ergänzt + auf teil2 als kanonische, vertiefte Fundstelle (inkl. § 71 PBG Energieplan-Anschlusspflicht/WKK) verlinkt; eigenständig gegen `raw/260607_amtlich_zh_pbg.md` (Z. 3033-3057) gegengeprüft, alle **CONFIRMED**: § 295 (Wärmeversorgung — standortgerechte Heizzentralen mit Abwärme/erneuerbaren Abs. 1; **Fernwärme-Anschluss- und Duldungspflicht** bei technisch/wirtschaftlich gleichwertigem Angebot Abs. 2), § 296 (Beförderungsanlagen — zweckgerecht/fachgemäss, Anpassung an technische Entwicklung wo Sicherheit verlangt), § 297 (Nebenräume in Wohnhaeusern — Trockenräume/Einstellgelegenheiten, konkretisiert § 39 BBV I), § 298 (RR-Delegation für strengere Sicherheits-/Ausrüstungsbestimmungen bei Gebäuden > 6 anrechenbaren Geschossen). Eigener Abschnitt im Destillat ergänzt, Frontmatter-`verifiziert` nachgeführt. **Status bleibt `emerging`** (Ausrüstungen-Teil § 4 ABV + Einstellräume-Detail §§ 37-39 BBV I ab Shot 632 weiterhin ungelesen).
 - **Komplex B — § 48 BBV I CONFIRMED aufgehoben (schliesst Rest-Flag aus Run 40 Zeile 14):** amtlicher Volltext `raw/260607_amtlich_zh_bbv1.md` zeigt § 48 als leeren Paragraphen mit Fussnote 80 = **«Aufgehoben durch RRB vom 14. Juli 2021 (OS 77, 369; ABl 2021-07-23)»** (Z. 908 + Fussnote Z. 1383). Die Wiki-Aussage «§ 48 BBV I aufgehoben, Materie in § 12b EnerG» ist damit **präzise belegt**; §§ 48a/48b/48c BBV I (Grossverbraucher/Zielvereinbarung/Betriebsoptimierung) bleiben in Kraft (in § 48c CONFIRMED: Befreiung < 200'000 kWh/a bzw. bei Grossverbraucher-Zielvereinbarung). Flag geschlossen.
 - **Komplex C — KNHV-Divergenz-Cleanup (Wiki↔INDEX + QUESTIONS-Flag):** die von einer Parallelinstanz am 2026-07-14 vorgenommene KNHV-Klärung (KNHV NICHT aufgehoben, dieselbe LS 702.11, Nachtrag 130, RRB 15.01.2025 ändert nur § 3/§ 3a) war in Wiki [[naturschutz-und-denkmalschutz]] + Destillat [[04-natur-und-heimatschutz]] eingearbeitet, aber (1) `wiki/INDEX.md` führte beide Naturschutz-Artikel noch als `emerging`, obwohl beide seit 2026-07-13 (CHANGELOG) `established` sind → **korrigiert emerging→established** (Status-Divergenz); (2) der stehende «WICHTIGER FASSUNGSSTAND-BEFUND»-Block unten (Run 38) trug noch die widerlegte «per 01.08.2025 aufgehoben / Nachfolgeerlass ermitteln (hohe Prio)»-Aussage → **als geklärt umgeschrieben** (siehe unten). Beweis-Basis: `raw/260714_amtlich_zh_knhv.md` (Nachtrag 130).
-- **needs-verification (verbleibend):** Ausruestungen-Teil Kap. 17 (§ 4 ABV Heizung/Klima/Elektro/Briefkaesten + Einstellraeume-Detail §§ 37-39 BBV I, Shot 632 ff.) — [[17-gebaeude-und-raeume]] bleibt bis dahin `emerging`; ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen, Run 33)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege (nicht gesetzeswortlaut-verifizierbar).
+- **needs-verification (verbleibend):** Ausrüstungen-Teil Kap. 17 (§ 4 ABV Heizung/Klima/Elektro/Briefkaesten + Einstellräume-Detail §§ 37-39 BBV I, Shot 632 ff.) — [[17-gebaeude-und-raeume]] bleibt bis dahin `emerging`; ~~VSS-Rampen-/Parkierungsnormen (kostenpflichtig, dauerhaft offen, Run 33)~~ → **erledigt 2026-08-03 (Wissens-Chef Run 21)**, Destillat `vss-40291-2021` (260714); reine Fallrecht-/Kommentar-Belege (nicht gesetzeswortlaut-verifizierbar).
 
 ## 2026-07-14 (Buch-Run 40, Modell-D-Volltextabgleich BBV-I/BBV-II + Wiki→Destillat-Divergenz-Nachzug § 62 StrG)
 Zwei Komplexe geprüft, direkt (kein Agent-Fan-out — mehrere zeitgleiche VOLLGAS-Instanzen laufen parallel an KNHV/USG/VRG «Run 38»; Kollisionsvermeidung analog Run 39).
@@ -1656,7 +1657,7 @@ recherchiert. Betroffener Artikel: [[fahrzeugabstellplaetze-und-parkierung]] (bl
 - **✅ Wegleitung der Baudirektion Oktober 1997 «Parkplatz-Bedarf in kommunalen Erlassen»
   CONFIRMED, weiterhin geltend.** Amtlicher Volltext bezogen (Baudirektion Kt. ZH, PDF weiterhin
   unter zh.ch abrufbar). Tabelle 1 (Grenzbedarf je Nutzungsart, bezogen auf VSS-Norm SN 641 400)
-  und Tabelle 4 (massgeblicher Bedarf in % des Grenzbedarfs je OeV-Gueteklasse, Gemeindetyp 1/2)
+  und Tabelle 4 (massgeblicher Bedarf in % des Grenzbedarfs je OeV-Güteklasse, Gemeindetyp 1/2)
   im Wiki-Artikel korrekt wiedergegeben — keine Korrektur nötig. Eine formelle Nachfolge-Wegleitung
   oder -Verordnung wurde NICHT gefunden; eine Revision war 2018 in Vernehmlassung (Dokument
   `ktzh_bd_vd_pp_wegleitung_vernehmlassung_2018.pdf`), aber nicht nachweisbar in Kraft gesetzt.
@@ -1673,7 +1674,7 @@ recherchiert. Betroffener Artikel: [[fahrzeugabstellplaetze-und-parkierung]] (bl
   Wortlaut (Abs. 5-8), Kaskade Grundstück→Gemeinschaftsanlage/Zumietung (300 m)→Ersatzabgabe, und
   Abgrenzung zu Art. 8 Abs. 3 PPV (einfacheres Betriebskonzept ohne Mobilitätskonzept) ergänzt.
 - **✅ VSS-Veloabstellplatz-Normen ROLLEN-KORRIGIERT (Cross-KB Run 12, 2026-07-22).** Das Wiki
-  nannte bisher «SN 640 060/065/066» und ordnete **SN 640 060** faelschlich als dritte
+  nannte bisher «SN 640 060/065/066» und ordnete **SN 640 060** fälschlich als dritte
   Veloabstellplatz-**Bedarfsnorm** ein. Richtig: die Wegleitung 1997 stützt den Bedarf nur auf
   **SN 640 065** («Leichter Zweiradverkehr – Abstellanlagen, Bedarfsermittlung», Oktober 1996,
   amtlicher Volltext). **SN 640 060 existiert real**, aber als eigenstaendige Grundlagennorm
@@ -1860,7 +1861,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   neuer Wiki-Artikel [[ausnahmebewilligung-und-bestandesschutz]] (§ 220 PBG Ausnahmebewilligung +
   § 357 PBG Besitzstandsgarantie), distilliert aus [[20-ausnahmen-bestandesschutz]] (Kap. 20,
   S. 1433-1449). Kernaussage: § 220 nur kant./komm. Recht (nie Bundesrecht); § 357 erweiterte
-  Bestandesgarantie **ohne feste Quote** (Grenze neubauaehnliche Umgestaltung). Schaerft auch
+  Bestandesgarantie **ohne feste Quote** (Grenze neubauähnliche Umgestaltung). Schaerft auch
   [[bestandsumbau-eingriffstiefe]].
 - ~~**Gewässerabstand:** kein eigener Artikel~~ → **erledigt**: Gewässerraum in
   [[abstaende-und-hoehen]], die Linien (§ 67/§ 96 PBG) in [[baulinien-und-abstandslinien]] (2026-06-12).
@@ -2070,8 +2071,9 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Abweichung bei Umbau § 233 Abs. 2), distilliert [[12-baureife]] (S. 707-723). Speist
   [[baubewilligungsverfahren]] (Bewilligungsvoraussetzung) und ergänzt [[bestandsumbau-eingriffstiefe]].
 - ~~**Zugänglichkeit-Detail (Zugangskategorien/ZN-Masszahlen, Kehrplatz, Fussgängerschutz, OEV)**~~ →
-  **erledigt 2026-06-28 (Run 15):** Kap. 12 Teil 2 (S. 724-741) in [[12-baureife]]/[[baureife-und-
-  erschliessung]] distilliert — Zugangsarten + **Anhang-ZN-Tabelle** (Breiten/Radien je WE-Zahl),
+  **erledigt 2026-06-28 (Run 15):** Kap. 12 Teil 2 (S. 724-741) in
+  [[12-baureife]]/[[baureife-und-erschliessung]] distilliert — Zugangsarten +
+  **Anhang-ZN-Tabelle** (Breiten/Radien je WE-Zahl),
   Kehrplatz (SN 640 052), Fussgängerschutz (Bankett 30 cm/Trottoir 1 m), Erleichterungen (§ 11 ZN /
   § 360 Abs. 3 PBG / letzte Baulücke), Umweltschutzrecht-Erschliessung (Art. 24 USG/§ 128 PBG),
   Erreichbarkeit OEV (§ 237 Abs. 1 Satz 2 PBG, AngebotsV, 300-Personen-Schwelle).
@@ -2267,7 +2269,7 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   bewusst keine Norm-Kennwerte (Führungsmatrix `koordination/QUERBEZUEGE.md`).
 - ~~**needs-verification — LSV-Novelle 01.04.2026 vs. Anhang 3/4/6 (Wissens-Chef Run 14, 24.07.2026)**~~
   → **✅ ERLEDIGT (Buch-Run 52, 2026-07-25):** siehe geschlossener Eintrag oben (Kopf des Dokuments,
-  2026-07-25). Kurzfassung: Anhang 3/4/6 unveraendert; **Art. 31a LSV per 1.4.2026 aufgehoben**
+  2026-07-25). Kurzfassung: Anhang 3/4/6 unverändert; **Art. 31a LSV per 1.4.2026 aufgehoben**
   (Nachfolge Art. 31 Abs. 2 LSV), Art. 22/24 USG neu gefasst. Beleg
   `raw/260725_amtlich_ch_usg-lsv-novelle-20260401.md`.
 
@@ -2301,38 +2303,38 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Strang kennen, sobald er in die Vernehmlassung/Inkraftsetzung geht. Beim nächsten Buch-/Amts-Run
   aufnehmen; Querbezug ist in `planungsgrundlagen` bereits gesetzt (Run 15).
 
-## 2026-07-30 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenpruefung eines WIDERLEGTEN Cross-KB-Vorwurfs
+## 2026-07-30 (Wissens-Chef Run 19) — zwei Befunde aus der Gegenprüfung eines WIDERLEGTEN Cross-KB-Vorwurfs
 
 Beide fielen an, als ein Verifikator einen Vorwurf gegen `projekt-lessons` **kippte** — der Vorwurf
-war falsch, aber das Gegenlesen legte zwei echte Maengel in DIESER KB frei. Keiner wurde vom Chef
+war falsch, aber das Gegenlesen legte zwei echte Mängel in DIESER KB frei. Keiner wurde vom Chef
 selbst korrigiert (beide brauchen die Original-Screenshots bzw. eine KB-Entscheidung).
 
-**(a) P1 — drei Saetze im Destillat sind grammatisch zerstoert und damit nicht zitierfaehig.**
-In `buecher/band-2/15-lage-von-gebaeuden-teil2d.md`, Abschnitt C «Naeherbaurecht»
+**(a) P1 — drei Sätze im Destillat sind grammatisch zerstoert und damit nicht zitierfähig.**
+In `buecher/band-2/15-lage-von-gebaeuden-teil2d.md`, Abschnitt C «Näherbaurecht»
 (15.8.10, § 270 Abs. 3 PBG, Buch S. 1096-1103):
 - Z. 136-138: «Die Schriftlichkeit nach § 270 Abs. 3 PBG verlangt ist, sondern lediglich als
   Verfahrensbestimmung (§ 5 lit. l BVV) zu qualifizieren.» — **die Negation fehlt**; gemeint ist
   erkennbar, dass die Schriftlichkeit NICHT von § 270 Abs. 3 PBG verlangt wird.
-- Z. 139-142: «… das Gebaeude des Erstbauenden ist (infolge der nachbarlichen Zustimmung) zwar
+- Z. 139-142: «… das Gebäude des Erstbauenden ist (infolge der nachbarlichen Zustimmung) zwar
   nicht im abstandsrechtlicher Hinsicht baurechtskonform bewilligt …» — Sinn nicht rekonstruierbar.
 - Z. 142-143: «Bei der Realisierung eines Bauvorhabens unter generellem Grenzabstand einhalten
-  (BEZ 2010 Nr. 14; BEZ 1995 Nr. 17).» — Satz ohne Subjekt und Objekt, Aussage vollstaendig verloren.
-**Warum P1:** Genau dieser dritte Satz traegt die Frage, wie sich ein **generelles** Naeherbaurecht
+  (BEZ 2010 Nr. 14; BEZ 1995 Nr. 17).» — Satz ohne Subjekt und Objekt, Aussage vollständig verloren.
+**Warum P1:** Genau dieser dritte Satz trägt die Frage, wie sich ein **generelles** Näherbaurecht
 bei der Realisierung auswirkt — die praktisch entscheidende Aussage des Abschnitts. Der Artikel ist
 `status: emerging`, wird aber von `wiki/abstaende-und-hoehen.md` (`status: established`) als
 Detailquelle verlinkt. **Empfehlung:** S. 1099-1101 (Shots 547-570) neu destillieren und die drei
-Saetze am Original nachfuehren, bevor irgendeine Ableitung daraus in andere KBs wandert — im
-gepruueften Fall hat ein Lese-Agent genau daraus einen falschen Schluss gezogen.
+Sätze am Original nachführen, bevor irgendeine Ableitung daraus in andere KBs wandert — im
+geprüften Fall hat ein Lese-Agent genau daraus einen falschen Schluss gezogen.
 
 **(b) Nicht vollzogener Sweep in einem `established`-Artikel.** `wiki/abstaende-und-hoehen.md`
 zitiert die 1/3-/1.3-m-Vorsprungsregel weiterhin ungebrochen als «(§ 260 Abs. 3 PBG, § 27 Abs. 1
 ABV)», **ohne den Haupt-/Anhang-Vorbehalt**. Die KB hat diese Divergenz am 27.07.2026 (Buch-Run 62)
 selbst als offene Frage markiert (`QUESTIONS.md`, `baulinien-und-abstandslinien.md` Z. 99-110):
 im Hauptteil des geltenden PBG regelt § 260 Abs. 3 die **Getrenntmessung bei seitlich gegliederten
-Gebaeuden**; die Vorsprungsregel steht in der **Anhang**-Fassung und ist fuer den Grenzabstand nach
-eigener KB-Feststellung durch § 6c ABV abgeloest. **Der Vorbehalt ist im Schwester-Artikel gesetzt,
-im Leit-Artikel nicht** — wer ueber `abstaende-und-hoehen` einsteigt (der vorgesehene Weg), bekommt
-die ungebrochene Fassung. Das ist der ausbreitungsfaehige Teil: im gepruueften Fall hat genau diese
+Gebäuden**; die Vorsprungsregel steht in der **Anhang**-Fassung und ist für den Grenzabstand nach
+eigener KB-Feststellung durch § 6c ABV abgelöst. **Der Vorbehalt ist im Schwester-Artikel gesetzt,
+im Leit-Artikel nicht** — wer über `abstaende-und-hoehen` einsteigt (der vorgesehene Weg), bekommt
+die ungebrochene Fassung. Das ist der ausbreitungsfähige Teil: im geprüften Fall hat genau diese
 Stelle einen Lese-Agenten zu einer falschen Zitierempfehlung verleitet.
 
 ## 2026-07-31 — revBZO Thalwil: Wo ist die 50-m²-Grenze für Kleinbauten normiert? — ✅ BEANTWORTET 04.08.2026

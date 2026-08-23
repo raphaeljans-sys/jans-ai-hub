@@ -2,7 +2,7 @@
 title: Bestandsumbau — Eingriffstiefe, Baueingabe und Besitzstand (Grundprinzip)
 status: established
 last_updated: 2026-08-23
-verifiziert: 2026-07-25 (Buch-Run 57, Modell D, Stichproben-Re-Verifikation Prioritaet c — erster Modell-D-Lauf dieses Artikels seit Seed 2026-06-07; § 72 Abs. 1 PBG SZ amtlich beschafft und als SZ-Pendant zu § 357 PBG ZH bestaetigt, § 60 PBG SZ (Grenzabstand/Gebaeudehoehen-Ermittlung inkl. Attika-Ruecksprung Abs. 3 lit. c) volltextgeprueft — beide CONFIRMED, 0 Fehlzitate, aber echte Luecke geschlossen (§ 72 war zuvor gar nicht amtlich belegt)); 2026-08-23 (Buch-Run 90, Modell-D-Re-Verifikation, Phase 3, Prioritaet c — drittaeltestes `verifiziert`-Datum unter den established-Artikeln, Vorschlag Run 86: §§ 59-65 UND § 72 Abs. 1-4 PBG SZ vollstaendig Wort fuer Wort gegen ein frisch von sz.ch bezogenes PDF [400_100.pdf, Fusszeile "SRSZ 1.2.2025", mit pdftotext -layout extrahiert] abgeglichen — CONFIRMED wortgleich mit dem bestehenden `raw/260725_amtlich_sz_pbg.md`, 0 Korrekturen, kein Fassungsstand-Drift seit Run 57 [SRSZ-Stand unveraendert 1.2.2025]. Kein neuer raw-Bezug noetig, da zeichengleich)
+verifiziert: 2026-07-25 (Buch-Run 57, Modell D, Stichproben-Re-Verifikation Priorität c — erster Modell-D-Lauf dieses Artikels seit Seed 2026-06-07; § 72 Abs. 1 PBG SZ amtlich beschafft und als SZ-Pendant zu § 357 PBG ZH bestätigt, § 60 PBG SZ (Grenzabstand/Gebäudehöhen-Ermittlung inkl. Attika-Rücksprung Abs. 3 lit. c) volltextgeprüft — beide CONFIRMED, 0 Fehlzitate, aber echte Lücke geschlossen (§ 72 war zuvor gar nicht amtlich belegt)); 2026-08-23 (Buch-Run 90, Modell-D-Re-Verifikation, Phase 3, Priorität c — drittältestes `verifiziert`-Datum unter den established-Artikeln, Vorschlag Run 86: §§ 59-65 UND § 72 Abs. 1-4 PBG SZ vollständig Wort für Wort gegen ein frisch von sz.ch bezogenes PDF [400_100.pdf, Fusszeile "SRSZ 1.2.2025", mit pdftotext -layout extrahiert] abgeglichen — CONFIRMED wortgleich mit dem bestehenden `raw/260725_amtlich_sz_pbg.md`, 0 Korrekturen, kein Fassungsstand-Drift seit Run 57 [SRSZ-Stand unverändert 1.2.2025]. Kein neuer raw-Bezug nötig, da zeichengleich)
 sources: ["Praxisfall 2622 Bahnhofstrasse 27 Wangen SZ (Dachausbau Chaled)", "Art. 27/31/46/54 BauR Wangen SZ", "§§ 59-64 PBG SZ (SRSZ 400.100, Grenzabstand/Gebäudehöhen-Ermittlung)", "§ 72 Abs. 1 PBG SZ (SRSZ 400.100, Bestandesgarantie)", "SIA 181 (Schallschutz)", "VKF-Brandschutzvorschriften", "Bestandesschutz/Besitzstandsgarantie ZH: § 357 PBG ZH (siehe [[ausnahmebewilligung-und-bestandesschutz]])", "raw/260725_amtlich_sz_pbg.md"]
 links: [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[14-nutzungsdichte-ausnuetzung]], [[ausnahmebewilligung-und-bestandesschutz]]
 ---
@@ -39,10 +39,10 @@ reinen Planungsaufwand):
   Treppenhaus zum massgebenden Fluchtweg und Brandabschnitt — Wohnungsabschlüsse
   (Türen/Wände EI30), zweiter Rettungsweg, ggf. Sicherheitsbeleuchtung/Entrauchung.
   ⚠ **Norm-Kante nachgetragen 24.08.2026 (Wissens-Chef Run 41).** «EI30» ist hier eine
-  materielle VKF-Klassenangabe, keine blosse Norm-Nennung. Fuehrend fuer Brandwiderstands-
-  klassen, Ausgabe und Fassungsstand ist nach der Fuehrungs-Matrix die KB `wissen/normen`
+  materielle VKF-Klassenangabe, keine blosse Norm-Nennung. Führend für Brandwiderstands-
+  klassen, Ausgabe und Fassungsstand ist nach der Führungs-Matrix die KB `wissen/normen`
   (Rule `normen-referenz`): vor jeder Verwendung in einer Stellungnahme dort die geltende
-  Fassung und die Zuordnung zur Gebaeudegeometrie holen — dieser Artikel schreibt den
+  Fassung und die Zuordnung zur Gebäudegeometrie holen — dieser Artikel schreibt den
   VKF-Wortlaut bewusst nicht fort. Der Wert oben ist die baurechtliche Merkgroesse, nicht die
   Fundstelle.
 - **Schallschutz / Akustik (SIA 181):** Zwischen getrennten Wohneinheiten gelten erhöhte

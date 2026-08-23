@@ -4181,3 +4181,14 @@ Deine Geduld» nicht gewertet), aber das ist Disziplin, keine Mechanik. **Sauber
 Kandidaten kuenftig nur ueber Betreff, Empfaenger, Datum und Anhangsliste auszuwaehlen und das
 `summary`-Feld beim Zuschnitt gar nicht zu lesen** — technisch moeglich, weil die Auswahl diese
 Felder ohnehin nicht braucht.
+
+> ✅ **BEANTWORTET/UMGESETZT am 24.08.2026 (Vertiefungslauf) — der vorgeschlagene Fix ist als
+> verbindliche Praxis dokumentiert, kein weiterer Klaerungsbedarf.** Kein Mail-Korpuszugriff in
+> dieser Sitzung noetig, da die Frage nicht nach einem Fakt aus dem Korpus verlangt, sondern nach
+> einer Methodik-Entscheidung, die der Hub selbst treffen kann. Umgesetzt: **Zwanzigste Falle**
+> in `wissen/twin/CLAUDE.md` (Abschnitt «Sync») haelt fest, warum das `summary`-Feld die
+> Blindfassung kontaminiert, und schreibt das Gegenmittel fest — Kandidaten nur ueber Betreff,
+> Empfaenger, Datum und Anhangsliste waehlen, `summary` beim Zuschnitt nicht lesen, `read_resource`
+> erst nach Kandidatenwahl und Blindfassung oeffnen. Dieselbe Regel jetzt auch verfahrenswirksam
+> in `skills/twin/SKILL.md`, Workflow C Schritt 1, damit sie nicht nur dokumentiert, sondern vom
+> naechsten `twin-fidelity-review`-Lauf tatsaechlich gelesen wird. Nichts Bestehendes geloescht.

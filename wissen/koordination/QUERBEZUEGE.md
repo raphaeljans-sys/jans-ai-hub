@@ -31,7 +31,7 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | Produkt-/Systemwissen nach BKP (Bauteilaufbauten, Hersteller-/Systemtypen, Verarbeitungs- und Bemusterungspraxis, historische Angebots-/Preisstände als Zeitdokument) | **bauprodukte** | normen (Norm-Fundstellen), grobkosten/immobilienbewertung (Kennwerte), projekt-lessons (Einzelfall) — NEU Run 19 (Erst-Pruefung der KB) |
 | Norm-Fundstellen IN bauprodukte-Artikeln (SIA/VKF/SN EN — Ziffer, Ausgabe, Kennwert, Fassungsstand inkl. **Korrigenda**) | **normen** | bauprodukte verweist dorthin und schreibt Normwortlaut NICHT materiell fort (Rule `normen-referenz`) — NEU Run 19 |
 | Preise/Kennwerte IN bauprodukte-Artikeln | **grobkosten** (BKP-Kennwerte) bzw. **immobilienbewertung** (Ausbaustandard) | bauprodukte fuehrt KEINE Kennwerte fuer Kalkulationen; historische Herstellerpreise nur als **datierter Zeitstand** und nie als heutiger Ansatz — NEU Run 19 |
-| Wasserversorgung ZH: Bezugs-/Anschlusspflicht und **Brauchwassernutzung** (§§ 95-100 WsG, insb. § 97 Abs. 1/3, § 178 WsV, Gebührenkette § 100 i.V.m. §§ 61 ff.) | **baurecht** (Wortlaut/§§ — im Hub noch **unverarbeitet**, als P1 angemeldet) | energie (Anwendung/Gebäudetechnik), planungsgrundlagen (Verfahren/Meldung ans Wasserwerk) — NEU Run 20 |
+| Wasserversorgung ZH: Bezugs-/Anschlusspflicht und **Brauchwassernutzung** (§§ 93-101 WsG, insb. § 97 Abs. 1/3, § 178 WsV, Gebührenkette § 100 i.V.m. §§ 61 f.) | **baurecht** (`wiki/baureife-und-erschliessung.md`, Abschnitt «Versorgung & Entsorgung») | energie (Anwendung/Gebäudetechnik), planungsgrundlagen (Verfahren/Meldung ans Wasserwerk) — NEU Run 20. **P1 GESCHLOSSEN 23.08.2026** (baurecht selbst, ausserhalb der Buch-Run-Serie, Beleg `wiki/QUESTIONS.md` «✅ ERLEDIGT 2026-08-23»): §§ 93-101 WsG + § 178 WsV vollstaendig gelesen und eingearbeitet. Matrixzeile hier nachgezogen 24.08.2026 (`wissen/koordination`, interaktive Pruefung) — der Fachstand war seit einem Tag korrekt, nur diese Zeile hing zurueck |
 | Konzessions- und Sondernutzungsrecht **oberirdischer** Gewässer (Gewässerhoheit § 4, Konzession § 68 Abs. 1 lit. c / § 74 WsG; Sondernutzungs-Tatbestände § 119, Konzessionserfordernis § 120, **Konzessionsdauer § 121** WsV) | **baurecht** (Erlasswortlaut) | energie (angewandte Bewilligungs-/Konzessionspraxis je Wärmequelle), planungsgrundlagen (Formular-/Verfahrensseite) — NEU Run 20. **Merkposten:** eine WsV-Konkretisierung der gewässerschutzrechtlichen Bewilligung für oberirdische Gewässer fehlt (§ 92 WsV erfasst nur das Erdreich) — Zuordnungen dorthin sind KB-eigene Subsumtion und als solche zu kennzeichnen |
 | Gemessener Ist-Zustand des Arbeitsplatzes/Grundkontexts (Ladeschichten, Byte-/Token-Budget, @-Import-Bestand, Messweg) | **claude-code** (`kontext-architektur`) | spec (`environment-jans-hub`) führt das formale Layer-3-Modell und verweist für Zahlen dorthin — NEU Run 20 |
 | Amt, Adressat und **Kontaktperson** je Deliverable (Zuständigkeit, Direktnummern, Teamzuteilung) | **auflagebereinigung** (`aemter-stadt-zuerich`) | projekt-lessons liefert den **datierten, fall-/gebietsbezogenen** Einzelfall-Stand, nie eine generische Amtszuständigkeit; Kontaktpersonen haben ein Verfallsdatum — NEU Run 20 |
@@ -166,8 +166,101 @@ Neueste Pruefung zuoberst je Paar. Gefuehrt vom Wissens-Chef (`wissens-chef`).
 | **Honorar-Phasenanteile und Baukosten-Prozentmethode** (Leistungsanteil q, Schwierigkeitsgrad n, Baukategorien I-VII) | **normen** (`sia-102-2014.md` Ziff. 7.6/7.7 — die Prozenttabelle steht ausschliesslich dort; `sia-102-2020.md` belegt, dass die Ausgabe 2020 nach Art. 6 endet und **keine** Baukosten-%-Methode mehr kennt) | `skills/honorarberechnung-sia102` fuehrt eine **buerointerne JANS-Konvention** mit abweichenden Werten — zulaessig, aber seit 18.08.2026 als solche gekennzeichnet und **nie** als SIA-102:2020-Fundstelle zu zitieren — NEU Run 36 |
 | **Doppel-Destillate aus `03_Arbeitshilfen`/`04_Merkblaetter`** (Absturzsicherungen Stadt ZH, PAVIDENSA-Estriche, AUVA-Anschlageinrichtungen, SIA 271/273 Balkone) | **normen** fuer die zitierfaehige Norm-Fundstelle | `planungsgrundlagen` (`recht-norm-arbeitshilfen-planungsdetails`) fuer die baupraktische Einordnung — **Doppelbewirtschaftung ist gewollt**, beide lesen dieselbe PDF mit verschiedener Absicht; die Landkarte steht seit 18.08.2026 am Artikelkopf — NEU Run 36 |
 | **Energiegrenzwerte Neubau ZH** (§ 47a BBV I Grenzwerttabelle, § 11 Abs. 1 EnerG Fossilverbot, Fassung seit 01.09.2022) | **energie** (`energ-bbv1-waermebedarf-rechtsgrundlagen-zh`) | `baurecht` fuehrt den PBG-/BBV-Verfahrenskontext und den **Erlasswortlaut** in `raw/`; der **Buch-Layer** (6. Aufl. 2019) gibt hier den abgeloesten 80-%-Stand wieder und traegt seit 18.08.2026 einen Fassungsstand-Vermerk — NEU Run 36 |
+| **Korpus-Inventare der Bueroreferenzen und des Architektur-Archivs** (`buero-referenzen`, `archiv-fachwissen`: was liegt wo, Triage P1-P3, Sperren) | **architektur-fachwissen** (neu 23.08.2026) | fuehrt selbst **keine** Kennwerte, **keine** BKP-Codes und **keine** Norm-Fundstellen: Kosten CHF/m³ → `grobkosten`, Ausbaustandard CHF/m² → `immobilienbewertung`, Wuest-Benchmark → `skills/kostenschaetzung/referenzen`, Schulbau-Kennwerte → `wettbewerbs-dna` (`muster/kennwerte-schulbauten`) + `entwurfs-referenzen`, Norm/Ausgabe → `normen`, BKP-Codes → `references/bkp-2017` (Rule `bkp-2017-referenz`). Die Korpora enthalten die **BKP-Altausgaben 1989/97/2001** und Norm-Staende 2001-2015; beides ist nie Codequelle. **Dauerhaft ausgeschlossen** (Rule `auto-verbesserungen` 260823): Vertraege, Bewerbungen/Personaldossiers, Adressdaten — NEU Run 41 |
+| **U-Wert-Rechenwege und Bauteilaufbauten aus Fremd-/KI-Dokumenten** (Pruefung, Methodenfehler, Warnkarten) | **energie** (`destillate/ki-generierte-fachdokumente-referenzablage`, `wiki/u-werte-grenzwerte-ch` §«vier Griffe», FAQ F257) | `planungsgrundlagen` (`energie-uebersicht`) fuehrte den Fall Grassen-Biwak bis Run 41 als **Benchmark** und traegt seit 24.08.2026 den Ueberholt-Vermerk. **Merksatz aus dem Fall:** ein plausibles Ergebnis ist kein Beleg fuer eine richtige Rechnung — drei Methodenfehler hoben sich fast auf — NEU Run 41 |
 
 ## Gepruefte Paare
+
+### energie ↔ planungsgrundlagen (Grassen-Biwak: eine KI-Rechnung als Benchmark gefuehrt) — geprueft 2026-08-24 (Run 41)
+
+**Der schwerste Befund dieses Laufs.** `energie` hat am 23.08.2026 (Lauf 161) zwei als
+Fachdokument abgelegte **ChatGPT-Antworten** in der JANS-Referenzablage identifiziert und als
+Warnkarte erfasst (`destillate/ki-generierte-fachdokumente-referenzablage.md`, `established`).
+**Was der Lauf nicht geprueft hat: ob die Zahlen bereits abgeflossen sind.** Sie waren es.
+`planungsgrundlagen/wiki/energie-uebersicht.md` (`established`) fuehrt denselben Wandaufbau
+seit dem 13.07.2026 unter der Ueberschrift «**Realer JANS-Benchmark — Biwak Grassen**», samt
+dem halluzinierten λ 0,13 und dem Luftschicht-λ 0,15.
+
+- **Was falsch ist:** nicht nur das λ-Delta, das Run 56 am 22.07.2026 bereits als «~8 %, ohne
+  Praxisrelevanz» abgehakt hatte, sondern **drei Methodenfehler**: R_si/R_se fehlen ganz · die
+  luftgefuellte Unterkonstruktion mit λ 0,15 statt Tabellen-R nach SN EN ISO 6946 · die
+  hinterlueftete Vorsatzschale mitgerechnet statt weggelassen. Korrigiert 0,374-0,389 statt
+  «ca. 0,40 W/m²K».
+- **Warum es durchging:** die Fehler heben sich fast auf. Eine Plausibilitaetspruefung am
+  Ergebnis haette nichts gefunden — der Run-56-Vermerk ist genau daran gescheitert.
+- **Muster:** dies ist die Umkehrung des bisher bekannten Musters. Sonst erreicht eine
+  **Herabstufung** in der fuehrenden KB den Abnehmer nicht (Run 38 BRL 17-15, Run 39 Holzbau,
+  Run 40 BRL 23-15). Hier hat die fuehrende KB eine Quelle **neu** entwertet und den Abnehmer
+  nicht gesucht. Die Bringschuld nach Rule `wissens-bibliothekar` (Cross-KB, 23.08.2026) gilt
+  in beide Richtungen: wer eine Quelle entwertet, prueft, wer sie schon zitiert.
+- **Aktion:** Ueberholt-Vermerk gesetzt (20 Z., additiv), Benchmark-Status ausdruecklich
+  aufgehoben, der Abschnitt bleibt als **Lehrbeispiel** stehen. Keine Zahl uebernommen.
+- **Status:** erledigt. Fuehrung unveraendert bei `energie`.
+
+### architektur-fachwissen ↔ Kennwert-/Normachse (Erst-Pruefung der neuen KB) — geprueft 2026-08-24 (Run 41)
+
+Erste Cross-KB-Pruefung der am 23.08.2026 angelegten KB. Zwei Melder unabhaengig, vier
+bestaetigte Befunde, alle rein additiv geloest.
+
+- **SIA-102-Phasenanteile doppelt gefragt** (`wiki/QUESTIONS.md` #4, von beiden Meldern
+  gefunden): die KB reicht eine Frage an den Skill `normen` weiter, die
+  `normen/destillate/sia-102-2014.md` (`established`, S. 1-58 komplett gelesen 14.07.2026)
+  Ziff. 7.7 belegt beantwortet. **Der Refuter hat die Aktion korrigiert:** der Melder wollte auf
+  `sia-102-2020.md` und auf `skills/honorarberechnung-sia102` verweisen — beides falsch. Das
+  2020er-Destillat belegt die **Abwesenheit** der Methode, und der Skill fuehrt eine bueroeigene
+  Konvention mit **anderen** Zahlen. Nachtrag mit der richtigen Fundstelle und drei Vorbehalten.
+- **Schulbau-Kennwerte** (`QUESTIONS.md` #6, Report 05.6): die Achse existiert bereits
+  (`wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md`, `established`, 25 Quellen;
+  `entwurfs-referenzen`), und sie erklaert `grobkosten` fuer CHF/m³ als fuehrend. Querverweis
+  gesetzt, Frage neu geschnitten: beizusteuern ist die **Methode**, nicht der Kennwert.
+- **Phantom-BKP-Codes im BGS-Honorarblatt 2005** (neu **#3b**): «019» heisst im BKP 2017
+  «Uebriges» unter 01 Grundstueckserwerb, nicht Abbruch (das ist **112.1**); «**071**» existiert
+  im BKP 2017 gar nicht. Beide Inventardateien nennen den Aufbau «unmittelbar uebertragbar».
+  Neuer QUESTIONS-Punkt statt Eingriff in `raw/` (dort wird nie editiert).
+- **Registrierung:** die KB stand in **keinem** Hub-Register — nur in der eigenen
+  `KORPUS-QUEUE.md` des Skills `wissens-destillat`. In `CLAUDE.md` nachgetragen. Eine
+  `rollen-map.tsv`-Zeile ist **nicht** faellig: das Register fuehrt Skills, Tasks und Loops, und
+  fuer diese KB laeuft kein eigener Loop; `WISSEN-CLAUDE.md` ist Meta-Schema und fuehrt keine
+  KB-Liste — beides gepruefte Nullbefunde, keine Luecke.
+- **Status:** erledigt; Fuehrungszeile in der Matrix gesetzt.
+
+### normen ↔ baurecht (Delta 24 h, 432 Aenderungen) — geprueft 2026-08-24 (Run 41)
+
+- **SIA 500 C3:2013 — Bring-Schuld eingeloest und Praemisse widerlegt.**
+  `baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md` Z. 212-216 fuehrte das Korrigendum als
+  «dauerhaft offenen Punkt, weil SIA-Normen kostenpflichtig sind». `normen/destillate/sia-500-2009.md`
+  Z. 48 traegt es laengst, mit Zitierverbot fuer den Basiswert. **Korrigenda sind Preisgruppe 0 und
+  frei beziehbar** — die Kostenpflicht-Praemisse traegt fuer die Vollnorm, nicht fuer das Korrigendum.
+  Erledigt-Vermerk gesetzt, alter Stand als datierter Stand belassen.
+- **EI30 ohne Norm-Kante** in `baurecht/wiki/bestandsumbau-eingriffstiefe.md` Z. 38-39 (Artikel vom
+  23.08.2026): materielle VKF-Klassenangabe statt Norm-Nennung mit Verweis. Kante gesetzt.
+- **VSS SN 640 273a fehlt im Hub.** Der neue SZ-Artikel
+  `strassenabstand-zufahrten-vorteilsabgabe-sz.md` Z. 38-42 gibt Sichtweiten-Kennwerte materiell
+  wieder und schreibt sie einer Norm zu, die `normen` **gar nicht fuehrt** (einzige Fundstelle im
+  Bestand: eine Literaturangabe der Vorgaengernorm SN 640 273). Vorbehalt dort gesetzt
+  («Behoerdenwiedergabe, nicht VSS-Fundstelle»), Bring-Schuld **N41-1** in
+  `normen/wiki/QUESTIONS.md` eingetragen, Verweis auf das vorhandene `vss-640050-1993`.
+- **Status:** alle drei erledigt bzw. als Bring-Schuld gefuehrt.
+
+### bauprodukte ↔ normen (Uebergabe-Punkt 1 aus Run 40) — geprueft 2026-08-24 (Run 41), ERLEDIGT
+
+Run 40 hatte die Kante bewusst zurueckgestellt, weil die Nachfolge der zurueckgezogenen
+VKF-Erlaeuterung **BRL 103-15 «Cheminées»** unbekannt war (Ticket `N58-2`). **`normen` hat sie am
+23.08.2026 geschlossen:** Nachfolger ist das **feusuisse-Papier «Stand der Technik Teil B»**,
+ausdruecklich **nicht** die BRL 24-15. Die Bedingung ist entfallen, die Kante ist gesetzt — in
+`bauprodukte/wiki/cheminee-aufbau-hafnerarbeiten.md` (Fassungs- und Norm-Kante) und in
+`planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` §5ai, dessen Warnkasten vom 20.08.2026
+noch auf die BRL 24-15 verwies. **Bemerkenswert:** die Zurueckstellung war richtig — der Verweis
+haette dem Leser vier Tage lang nichts genuetzt und waere zudem auf die falsche Nachfolgenorm gelaufen.
+
+### planungsgrundlagen ↔ normen (Brandschutz-Wegweiser, Fortsetzung des Sweeps) — geprueft 2026-08-24 (Run 41)
+
+Fortsetzung von Uebergabe-Punkt 2 aus Run 40. Ein weiterer Fassungsbefund im 2'200-Zeilen-Artikel:
+**§5ae Schulbauten (AH 1002-15)** gibt die 2'400-m²-Reduktionsklausel im Stand 01.01.2015 ohne
+Fassungshinweis; das Delta-Destillat `vkf-ah-1002-15-fassung-2017-delta.md` praezisiert sie
+materiell (nur Geschosse ueber Terrain). Vorbehalt gesetzt — **ohne Zahlenuebernahme**, weil das
+Delta `status: speculative` traegt (Rule `normen-referenz` Ziff. 1b). Der Sweep ist damit **nicht
+abgeschlossen**; geprueft sind bisher drei Stellen von rund 2'200 Zeilen.
 
 ### normen ↔ planungsgrundlagen (VKF-Fassungs-Sweep Run 58/59) — der Wegweiser fuehrt zwei ueberholte Staende — geprueft 2026-08-22 (Run 40)
 

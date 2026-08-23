@@ -31,9 +31,11 @@ Das **Basisprodukt GEAK** zeigt drei grafisch klassierte Achsen (A = beste … G
 - Ausstellung **nur durch zertifizierte GEAK-Expert:innen**, über **Gebäudebegehung** + Datenaufnahme
   (geak.ch: neunstufiger Weg vom Handlungsbedarf bis zur Umsetzung).
 - **Kosten: kein amtlicher Fixpreis** — projektabhängig, mehrere Offerten einholen. **Marktrichtwerte**
-  (Sekundärquelle, nicht amtlich): GEAK EFH CHF 450–650, GEAK MFH CHF 500–800, **GEAK Plus EFH
-  CHF 1'400–2'100** (MFH grössenabhängig, keine feste Spanne publiziert); dazu amtliche
-  Zertifizierungsgebühren CHF 80 (GEAK) / CHF 190 (GEAK Plus) → `[[geak-kosten-efh-mfh]]`.
+  (drei unabhängige Marktquellen, nicht amtlich — Audit-Korrektur A-P2 02.6, 24.08.2026): GEAK EFH
+  CHF 450–750, GEAK MFH CHF 500–1'000 (3–10 WE); **GEAK Plus EFH CHF 1'400–2'700**, GEAK Plus MFH
+  bis CHF 2'800 (3–10 WE), ab 10 WE Offerte; dazu amtliche Zertifizierungsgebühren CHF 80 (GEAK) /
+  CHF 190 (GEAK Plus) → `[[geak-kosten-efh-mfh]]`, established (geak.ch/EnDK publizieren selbst
+  keine Preise).
 
 ## Bezug zur Förderung
 - **GEAK Plus obligatorisch ab CHF 10'000 Förderbeitrag** aus dem Gebäudeprogramm

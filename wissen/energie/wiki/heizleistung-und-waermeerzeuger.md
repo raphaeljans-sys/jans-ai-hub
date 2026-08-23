@@ -18,9 +18,12 @@ allein lässt sich die Leistung **nicht** genau ableiten — sie wird über die 
 (Neubau, SIA 384.201) oder den Verbrauch (Sanierung) bestimmt.
 
 ## Zwei Wege zur Leistung
-- **Sanierung (Verbrauchsmethode):** Φ = (man·GCV/tan)·(ηalt/ηneu)·ηneu.
-  Volllaststunden tan: **2300 h** (nur Heizung) bzw. **2700 h** (Heizung + Warmwasser), bis 800 m;
-  darüber +300 h. Gilt nur für **gleichartigen** Ersatz.
+- **Sanierung (Verbrauchsmethode):** Φ = (man·GCV/tan) · (ηan,alt/ηan,neu) · ηgen,neu. Dabei ist
+  ηan der Jahresnutzungsgrad (alt/neu) und ηgen,neu ≈ 0,5 · (1 + ηan,neu) der Erzeuger-Wirkungsgrad
+  — zwei verschiedene Grössen, die Formel kürzt sich nicht (Audit-Korrektur A-P2 02.10,
+  24.08.2026). Prozente als Dezimalzahl einsetzen (80 % = 0,80).
+  Volllaststunden tan: **2'300 h** (nur Heizung) bzw. **2'700 h** (Heizung + Warmwasser), bis
+  800 m ü. M.; darüber +300 h. Gilt nur für **gleichartigen** Ersatz.
 - **Neubau (Norm-Heizlast):** Φ = ΦHeizlast + ΦWarmwasser + Φverbundene Systeme.
   Warmwasser-Zuschlag: **MFH 3 / EFH 2 / Verwaltung 1 W/m²** EBF.
 
@@ -48,7 +51,7 @@ allein lässt sich die Leistung **nicht** genau ableiten — sie wird über die 
 - **Faustregel:** Neubau-EFH ~25–40 W/m² → 150 m² ≈ **4–6 kW**. Altbau locker das Doppelte.
 - **Nicht 1:1 ersetzen:** alte Kessel waren oft 1,5–2× zu gross; korrekt (knapp) dimensioniert
   läuft die neue Anlage effizienter und hält länger.
-- **Hülle zürst:** bessere Dämmung → kleinere Leistung → günstigerer Erzeuger; bei WP zudem
+- **Hülle zuerst:** bessere Dämmung → kleinere Leistung → günstigerer Erzeuger; bei WP zudem
   tiefere Vorlauftemperatur → höhere Jahresarbeitszahl.
 
 ## Heizungsersatz im Kt. ZH — Verfahren & Beilagen (Bewilligung)
@@ -89,7 +92,7 @@ mit Raumtemperatur-Aufschaltung +8 %, technische Speicher ohne JAZ-Nutzen, S/W o
 |---|---|---|
 | Luft-Wasser | ~2,5–3,5 (modern bis 4,0) | günstigste Investition; Schall/Nachbarschaft (LN-1a/1b) |
 | Sole-Wasser (Erdsonde) | ~4,0–4,5 | Bohrung + AWEL-Gesuch; höhere Förderung |
-| Wasser-Wasser (Grundwasser) | ~5 | nur wo Grundwasser bewilligt nutzbar |
+| Wasser-Wasser (Grundwasser) | Richtwert ~5 ⚠ nicht feldbelegt (BFE-Bandbreite 3,8-5,0 von 2010; einzige Feldmessung DE 3,57-4,24, Audit A-P2 02.12) | nur wo Grundwasser bewilligt nutzbar |
 
 Entscheidungslogik: **Fernwärmenetz da → Fernwärme** (kein Erzeuger/Unterhalt im Haus); **sonst
 Neubau → Luft-Wasser-WP** Standard, bei Budget/Platz **Erdsonden-WP** (höhere JAZ + Förderung);

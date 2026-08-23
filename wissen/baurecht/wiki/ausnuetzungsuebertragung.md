@@ -2,17 +2,17 @@
 title: Ausnützungsübertragung — Kanton Zürich
 status: established
 last_updated: 2026-08-23
-sources: ["§ 251 PBG", "§ 254 PBG", "§ 259 PBG", "§ 72 Abs. 3 PBG", "§ 17 ABV (aufgehoben seit 1.2.1992, keine Grundlage der Nutzweisen-Uebertragung)", "Art. 646 ZGB", "Buch Bd 2 Kap. 14.1.2.5 S. 928-935", "Buch Bd 2 Kap. 14.2.6 S. 987", "ZBl 1999 S. 218", "BGer 1P.256/2006", "BEZ 1996 Nr. 17", "Art. 40 BO Erlenbach (amtlich, oerebdocs.zh.ch docid=7864, frisch bezogen 2026-08-23)", "Art. 6 BZO Zürich-Stadt (amtlich, oerebdocs.zh.ch docid=6, frisch bezogen 2026-08-23)", 260607_amtlich_zh_abv.md, 260607_amtlich_zh_bzo-erlenbach-zh.md, 260607_amtlich_zh_bzo-zurich-stadt.md]
+sources: ["§ 251 PBG", "§ 254 PBG", "§ 259 PBG", "§ 72 Abs. 3 PBG", "§ 17 ABV (aufgehoben seit 1.2.1992, keine Grundlage der Nutzweisen-Übertragung)", "Art. 646 ZGB", "Buch Bd 2 Kap. 14.1.2.5 S. 928-935", "Buch Bd 2 Kap. 14.2.6 S. 987", "ZBl 1999 S. 218", "BGer 1P.256/2006", "BEZ 1996 Nr. 17", "Art. 40 BO Erlenbach (amtlich, oerebdocs.zh.ch docid=7864, frisch bezogen 2026-08-23)", "Art. 6 BZO Zürich-Stadt (amtlich, oerebdocs.zh.ch docid=6, frisch bezogen 2026-08-23)", 260607_amtlich_zh_abv.md, 260607_amtlich_zh_bzo-erlenbach-zh.md, 260607_amtlich_zh_bzo-zurich-stadt.md]
 links: [[nutzungsziffern]], [[14-nutzungsdichte-ausnuetzung]], [[zonenkonformitaet]]
 verifiziert:
   - datum: 2026-07-25
-    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 55, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md)"
-    umfang: "§ 17 Abs. 2 ABV (Nutzweisen-Uebertragung) gegen raw/260607_amtlich_zh_abv.md"
-    ergebnis: "KORRIGIERT: § 17 ABV seit 1.2.1992 aufgehoben (RRB 25.9.1991), enthaelt keinen Abs. 2 - Fundstelle nicht bestaetigbar; Nutzweisen-Uebertragung beruht nach geltendem Recht ausschliesslich auf kommunalem Recht. Kernaussagen zur Ausnuetzungsuebertragung selbst (§ 251/§ 254/§ 259/§ 72 Abs. 3 PBG) unveraendert CONFIRMED"
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 55, Stichproben-Re-Verifikation (Priorität c, PROGRAMM.md)"
+    umfang: "§ 17 Abs. 2 ABV (Nutzweisen-Übertragung) gegen raw/260607_amtlich_zh_abv.md"
+    ergebnis: "KORRIGIERT: § 17 ABV seit 1.2.1992 aufgehoben (RRB 25.9.1991), enthält keinen Abs. 2 - Fundstelle nicht bestätigbar; Nutzweisen-Übertragung beruht nach geltendem Recht ausschliesslich auf kommunalem Recht. Kernaussagen zur Ausnützungsübertragung selbst (§ 251/§ 254/§ 259/§ 72 Abs. 3 PBG) unverändert CONFIRMED"
   - datum: 2026-08-23
-    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 92, Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 91); Art. 40 BO Erlenbach und Art. 6 BZO Zuerich-Stadt frisch von oerebdocs.zh.ch bezogen (PyMuPDF, layout-treu) und gegen raw/ sowie den Wiki-Wortlaut gegengelesen"
-    umfang: "Zitat Art. 40 BO Erlenbach (Kommunaler Schwellenwert), Rechtsgrundlagen-Zuordnung § 254 vs. § 259 PBG, Zitat Art. 6 Abs. 3 BZO Zuerich-Stadt (Wohnanteil-Verlegung)"
-    ergebnis: "KORRIGIERT: das Wiki-Zitat von Art. 40 BO Erlenbach gab faelschlich eine direkte Grenznachbarschaft wieder - die amtliche Fassung verlangt nur raeumliche Naehe (deutlich weniger streng); zusaetzlich bestaetigt die amtliche Gemeinde-Wegleitung zu Art. 40 selbst '§ 259 Abs. 1 PBG' als kantonale Anknuepfungsnorm, nicht § 254 PBG (das im Hauptteil ohnehin nur Abschnittstitel ohne eigenen Absatz ist, siehe [[nutzungsziffern]] Run 55). CONFIRMED: Art. 6 Abs. 3 BZO Zuerich-Stadt (150 m/300 m-Verlegungsradius) trotz einer Absatz-Nummerierungsverschiebung in raw/260607_amtlich_zh_bzo-zurich-stadt.md wortgleich richtig zitiert."
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 92, Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 91); Art. 40 BO Erlenbach und Art. 6 BZO Zürich-Stadt frisch von oerebdocs.zh.ch bezogen (PyMuPDF, layout-treu) und gegen raw/ sowie den Wiki-Wortlaut gegengelesen"
+    umfang: "Zitat Art. 40 BO Erlenbach (Kommunaler Schwellenwert), Rechtsgrundlagen-Zuordnung § 254 vs. § 259 PBG, Zitat Art. 6 Abs. 3 BZO Zürich-Stadt (Wohnanteil-Verlegung)"
+    ergebnis: "KORRIGIERT: das Wiki-Zitat von Art. 40 BO Erlenbach gab fälschlich eine direkte Grenznachbarschaft wieder - die amtliche Fassung verlangt nur räumliche Naehe (deutlich weniger streng); zusätzlich bestätigt die amtliche Gemeinde-Wegleitung zu Art. 40 selbst '§ 259 Abs. 1 PBG' als kantonale Anknuepfungsnorm, nicht § 254 PBG (das im Hauptteil ohnehin nur Abschnittstitel ohne eigenen Absatz ist, siehe [[nutzungsziffern]] Run 55). CONFIRMED: Art. 6 Abs. 3 BZO Zürich-Stadt (150 m/300 m-Verlegungsradius) trotz einer Absatz-Nummerierungsverschiebung in raw/260607_amtlich_zh_bzo-zurich-stadt.md wortgleich richtig zitiert."
 ---
 
 # Ausnützungsübertragung (Kanton Zürich)

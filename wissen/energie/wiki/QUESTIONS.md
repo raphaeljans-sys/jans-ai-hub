@@ -294,6 +294,13 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
 ## Datenstand / Aktualisierung (hohe Prioritaet — altert schnell)
 - [x] **E-D5** U-Wert-Grenzwerte + Q_H,li belegt aus EN-102 (Dez 2018 / SIA 380/1:2009) ✓ 2026-06-06
   → `[[enfk-en-102-waermeschutz-2018]]`. Tab. 2/4/5 erfasst.
+  ⚠ **Korrektur 24.08.2026 (Audit A-P2 02.14):** Falsche Norm-Ausgabe und fehlende
+  ZH-Rechtsgrundlage in FAQ F3 — EN-102 rechnet gegen **SIA 380/1:2016**, nicht 2009 (die 2009er
+  ist Basis der Vorgänger-Vollzugshilfe EN-2); für den Kt. ZH operativ massgebend sind die
+  **Wärmedämmvorschriften vom 8.6.2022** (LS 700.211) mit § 47a BBV I, siehe FAQ F3 korrigierte
+  Quellenzeile und `[[waermedaemmvorschriften-zh-2022]]` / `[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`.
+  Die Zahlenwerte selbst (0,17/0,25/1,0) bleiben unverändert richtig (zweifach gegengeprüft,
+  u.a. an der Kt.-LU-KEnV 23.07.2026).
 - [x] **E-D6** MuKEn-Umsetzung Kt. ZH: EnerG seit 1.9.2022 (MuKEn 2014). **Vollzug seit 1.1.2026
   elektronisch ueber EVEN (energievollzug.ch), PDF-Formulare abgeloest** ✓ 2026-06-07
   → `[[energienachweis-zh]]`. **Inhalt der MuKEn 2025 selbst belegt ✓ 2026-07-12** → siehe **E26**
@@ -378,7 +385,9 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   ~CHF 2'250/kWp 2022) → `[[pv-ertrag-eigenverbrauch-praxis]]` Bsp. C, FAQ F18; konkrete Indach-Systeme
   (Alu-Solardachplatte 100/43 Wp, ab 17°) → `[[prefa-solar-indach-aluminium-dachplatte]]`, FAQ F4.
   **Aktuelle Marktpreise/Lebensdauer belegt ✓ 2026-06-23** (Aufdach 5–15 kWp 2'400–3'200 CHF/kWp,
-  Indach +60 %, Solarziegel ~2×, Lebensdauer 33 J, ~1'000 kWh/kWp; Swissolar-Faktenblatt Juli 2025 +
+  Indach +60 % ⚠ **korrigiert 24.08.2026 (Audit A-P2 02.4): real 2024 nur +0 bis +19 %**
+  (BFE-Preisbeobachtungsstudie 2024, publ. 10.07.2025), die «+60 %» war eine undatierte
+  CKW-Faustregel, Solarziegel ~2×, Lebensdauer 33 J, ~1'000 kWh/kWp; Swissolar-Faktenblatt Juli 2025 +
   CKW Herbst 2025) → `[[pv-marktzahlen-kosten-ch-2025]]`, FAQ F18 geschaerft.
   **Ertrag je Ausrichtung × Neigung belegt ✓ 2026-06-25** (CH-Richtwerte Basis Sued-30°=100 %:
   Flachdach ~90 %, Ost/West 90–95 %, Suedfassade senkrecht ~70 %, Nord steil ~40 %; ≤45° von Sueden
@@ -2592,7 +2601,11 @@ gestrichen — kein weiterer Handlungsbedarf von dieser KB aus.
   Buchs COP-Feldmessung EN 16147, FWS-Gütereglement 2022, EKZ-Förderprogramm 2026/2027): COP-Median
   2,84 (A15)/2,56-2,62 (A7) primärbelegt; wichtigste Klärung: weder ZH-AWEL noch Kt. SZ fördern den
   reinen Boiler-Tausch kantonal, nur befristetes EKZ-Programm CHF 800 (2026/2027, nur Kt. ZH) →
-  `[[warmwasser-waermepumpe-boiler-retrofit]]`, established, FAQ **F162** neu. **Tiefengeothermie
+  `[[warmwasser-waermepumpe-boiler-retrofit]]`, established, FAQ **F162** neu.
+  ⚠ **Korrektur 24.08.2026 (Audit A-P2 02.7):** Status ist **emerging**, nicht established (Register
+  stufte höher ein als das Destillat-Frontmatter); der Kt.-SZ-Teil der Aussage war zu stark — für
+  Kt. SZ ist der isolierte Boiler-Ersatz **nicht abschliessend geklärt**, nicht sicher ungefördert
+  (ZH-AWEL-Ausschluss bleibt gesichert). **Tiefengeothermie
   Schweiz** (Gesetz Nutzung Untergrund Kt. ZH seit 1.7.2023, Art. 27b/33 EnG, BFE-Statistik
   geothermische Nutzung 2024 vollständig gelesen): ehrliche Nicht-Relevanz-Einordnung für
   Einzelbauprojekte (Fernwärmenetz-/Kraftwerksmassstab, national nur 0,2-0,5 % der geothermischen

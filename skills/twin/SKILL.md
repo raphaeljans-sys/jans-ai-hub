@@ -69,7 +69,12 @@ Wissensbasis: `wissen/twin/` (sechs Facetten-Artikel + QUESTIONS + outputs). Geh
 ## Workflow C — Fidelity-Review (täglich 05:40, Scheduled `twin-fidelity-review`)
 
 1. `twin-chef` im Review-Modus: Selbsttest gegen echte Goldproben, Score je Facette,
-   Drift-Report nach `outputs/`.
+   Drift-Report nach `outputs/`. **Kandidaten-Zuschnitt blind halten (Zwanzigste Falle,
+   `wissen/twin/CLAUDE.md`):** Goldproben ausschliesslich über Betreff, Empfänger, Datum und
+   Anhangsliste auswählen; das `summary`-Feld des Suchtreffers (`outlook_email_search`) beim
+   Zuschnitt nicht lesen — es zeigt bereits Anrede und Eröffnungssatz und würde die
+   Blindfassung kontaminieren. Erst nach der Kandidatenwahl und der Blindfassung den Volltext
+   (`read_resource`) öffnen.
 2. Facetten-Agenten validieren sich gegenseitig (Widersprueche → QUESTIONS).
 3. `twin-fragesteller` haengt neue Fragen an `QUESTIONS.md`.
 4. Gehirn neu kompilieren: `python3 tools/build_dna.py` → `rules/jans-dna.md`. CHANGELOG.

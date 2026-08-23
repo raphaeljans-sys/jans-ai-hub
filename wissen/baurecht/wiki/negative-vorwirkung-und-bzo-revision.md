@@ -3,7 +3,7 @@ title: Negative Vorwirkung einer BZO-Revision — Mechanik und Fall Thalwil
 status: emerging
 last_updated: 2026-08-03
 sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 120 PBG", "Art. 27 RPG", "VB.2008.00044", "RB 1998 Nr. 113", "VB.2014.00627", "BGE 118 Ia 512", "BGE 116 Ia 453", "revBZO Thalwil Art. 31", "revBZO Thalwil Art. 50", "BZO Thalwil Art. 3", 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_bzo-thalwil.md, 260607_amtlich_zh_pbg.md, 12-baureife.md]
-links: [[baureife-und-erschliessung]], [[raumplanung-und-gestaltung]], [[zonenkonformitaet]], [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[12-baureife]], [[kartenportale-zonenplan-zh]] (KB planungsgrundlagen, Prüfweg Verfahrensstand), [[kartenportale-oereb-kataster-system-zh]] (KB planungsgrundlagen, ÖREB-Flag revision_laeuft)
+links: [[baureife-und-erschliessung]], [[raumplanung-und-gestaltung]], [[zonenkonformitaet]], [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[12-baureife]], [[kartenportale-zonenplan-zh]] (KB planungsgrundlagen, Prüfweg Verfahrensstand), [[kartenportale-oereb-kataster-system-zh]] (KB planungsgrundlagen, ÖREB-Flag revision_läuft)
 verifiziert:
   - "2026-08-03 (Ersterstellung, Buch-Run 72) — § 234/§ 235 PBG wortgetreu gegen raw/260607_amtlich_zh_pbg.md Z. 2362-2372 gegengelesen; Verfahrensdaten Thalwil (Auflage 16.05.-15.07.2025, Festsetzung Urne 14.06.2026, Genehmigung/Inkrafttreten noch offen) gegen thalwil.ch gegengelesen; die Grau-Markierung der Synopse maschinell aus dem PDF-Content-Stream extrahiert und am gerenderten Pixel (#D9D9D9) verifiziert"
 ---

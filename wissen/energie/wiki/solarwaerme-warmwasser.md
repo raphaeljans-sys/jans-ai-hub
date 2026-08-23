@@ -1,7 +1,8 @@
 ---
 title: Solarwärme, Warmwasser & die Entscheidung Solarthermie ↔ Photovoltaik
 status: established
-last_updated: 2026-08-11
+last_updated: 2026-08-24
+datenstand: 2020 (ältester zitierter Preisstand: hausinfo.ch 07.09.2020, Solarthermie-Investitionskosten — als Grössenordnung lesen, kein 2026er-Budget)
 sources: [destillate/solarthermie-vs-pv-warmwasser-ch.md, destillate/wp-pv-eigenverbrauch-lastmanagement.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/foerderprogramm-energie-zh-2026.md, destillate/foerderprogramm-energie-sz-2026.md, destillate/solarthermie-investitionskosten-ch.md, destillate/pvt-hybridkollektoren.md, destillate/ahb-zuerich-wassersparen.md]
 links: [[BAUHERREN-FAQ]], [[pv-eigenverbrauch-zev]], [[heizleistung-und-waermeerzeuger]], [[pv-solar-technologien]], [[ahb-zuerich-wassersparen]]
 ---

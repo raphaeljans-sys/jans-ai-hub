@@ -2369,6 +2369,14 @@ Kern-Dateien des Ordners `06_Richtlinien` (GVZ 3, Suva 4, Suissetec 2, VSA 3) so
 Routing des Rests ist im Inventar bereits entschieden (Minergie/eco → `energie`, Teilungsplan STWEG →
 Skill `stockwerkeigentum`, Projektadmin → keine Norm).
 
+**✅ Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung), nur nachgezogen — die Arbeit war längst getan:**
+Alle hier genannten Kern-Dateien sind laut `training/norm-inventar.md` seit Run 40-46
+(31.07.-07.08.2026) vollständig abgearbeitet — GVZ 3/3, Suva 4/4, Suissetec 2/2 (eine davon
+begründet als Dublette `[-]`), VSA 3/3, PAVIDENSA 9/9, BKZ 4/4, `09_Sanitaereinrichtung` 14/14
+(8 davon Dubletten `[-]`, seitengenau geprüft). Die «systematisch»-Frage ist damit faktisch mit
+Ja beantwortet, ohne dass hier je ein Entscheid protokolliert wurde. Einzig offen bleibt N-R21-2
+(VA 105-01:2015 Volltext, Kaufentscheid Raphael) — unverändert.
+
 ## Run 39 (MacBook Pro, 30.07.2026) — Abdeckung von `lignum-4-1` gemessen statt geschätzt
 
 **Auftrag.** Raphael hat am 30.07. die weitere Runde freigegeben, nachdem Run 38 seine eigene
@@ -2408,6 +2416,13 @@ Methodik-Pflicht 6 verankert: **eine fehlende Fundstelle ist ein Zeiger, kein Be
 3. **Die Seiten-Inventur ist ein wiederverwendbares Muster.** Sie liegt als
    `training/l41-seiteninventur.md` in der KB. Für jede weitere umfangreiche Publikation, deren
    Abdeckung belegt werden soll, ist derselbe Weg zu gehen — der OCR-Diff genügt nachweislich nicht.
+
+**✅ Beide Punkte 1 und 2 seither gelöst (Nachtrag 24.08.2026, QUESTIONS-Abarbeitung):** Die
+zehnte Lignatec-Runde (Run 41, 01.08.2026) hat erstmals den Fliesstext systematisch geprüft
+(6 Kernbefunde, 12 Nebenbefunde). Raphael hat den Vorrang-Auftrag am 17.08.2026 aus dem
+Scheduled Task `normen-training-nacht` gestrichen — erledigt seit Run 38, sechsfach als
+überholt zurückgemeldet (CHANGELOG 260817). `lignum-4-1` bleibt wie hier vorhergesagt
+ereignisgetrieben (keine neue Fassung gemeldet).
 
 
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — zwei Lücken neu gefasst
@@ -2925,6 +2940,13 @@ Wissens-Chef vermerkt, nicht selbststaendig loesbar aus dem Normen-Scope heraus.
 gegen PL-02 UND PL-03 geprueft (27.07.2026) — in keiner der beiden Ablagen vorhanden. Bleibt echte externe
 Bring-Schuld (SIA-Shop-Kauf durch Raphael noetig), kein Fall einer PL-03-Fehlklassierung wie bei den
 Brandschutz-Dokumenten in Run 22.
+
+**✅ Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** Befund 1 und 2 waren bereits mit ihrem eigenen
+Text erledigt, nur nie mit einem Schliess-Marker versehen. Befund 3 bleibt informativer Hinweis an
+den Wissens-Chef (keine statik-/erdbeben-bezogene KB vorhanden, kein Handlungsbedarf im Scope
+`normen`). Befund 4 (SIA 491, SN EN 12193) ist unveraendert in `training/norm-inventar.md` als
+Bring-Schuld gefuehrt (Preis/Bezugsweg dort seit Run 36 verifiziert) — keine neue Information seit
+27.07.2026.
 
 ## Run 27 (MacBook Pro, 25.07.2026) — Q&A-Selbstbefragung (Vertiefungsstufe c) fuer die 5 neu established Destillate
 
@@ -4971,7 +4993,15 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   betreffend — Korrektur eines Nullbefunds derselben Zeile aus der 19. Fortsetzung); Metadaten
   nachgetragen SIA-Sweep, dreissigste Fortsetzung, 23.08.2026.
 
-## N41-1 — VSS SN 640 273a «Sichtverhaeltnisse bei Knoten» fehlt im Bestand (Bring-Schuld, 24.08.2026)
+## N41-1 — VSS SN 640 273a «Sichtverhaeltnisse bei Knoten» fehlt im Bestand (Bring-Schuld, 24.08.2026) ✅ REGISTER/INVENTAR NACHGEFUEHRT, Beschaffung bleibt Bring-Schuld
+
+**Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** Registerzeile angelegt (`wiki/REGISTER.md`
+Abschnitt B, neue Zeile «SN 640 273a») und Bring-Schuld in `training/norm-inventar.md` als
+sechste Zeile der VSS/SIA-Kaufliste erfasst (bisher fünf: SIA 491, SN EN 12193, SN 640 052,
+SN 641 400, SIA 181:2020). Der «Zu tun»-Teil der Frage (Norm beschaffen, destillieren,
+Baurecht-Artikel gegenlesen) bleibt echte Bring-Schuld Raphaels — kein eigenmächtiger Kauf.
+Bis dahin gilt im baurecht-Artikel weiterhin der dort bereits gesetzte Vorbehalt
+(Behördenwiedergabe, keine verifizierte VSS-Fundstelle).
 
 - **Befund (Wissens-Chef Run 41, Cross-KB `normen` ↔ `baurecht`):** Der am 23.08.2026 neu
   angelegte Artikel `wissen/baurecht/wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md`

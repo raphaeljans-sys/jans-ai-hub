@@ -3,9 +3,9 @@ quelle: "PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Energie/Vollzugsordner Energie
 herausgeber: "AWEL Amt für Abfall, Wasser, Energie und Luft, Abteilung Energie, Kt. Zürich (Abschnitt 3.1); eingebundene EnFK-Vollzugshilfe EN-1 «Höchstanteil an nichterneuerbaren Energien bei Neubauten», Konferenz Kantonaler Energiefachstellen (Abschnitt 3.2)"
 ausgabe: "Vollzugsordner Energie, Abschnitt 3.1 «Grundsätze und Verfahren» (§ 10a EnerG) + Abschnitt 3.2 = EnFK-Vollzugshilfe EN-1, Ausgabe Januar 2009 (13 Seiten, Titelblatt gibt «Ausgabe Januar 2009» an)"
 gelesen: "PDF-Seiten 53-68 von 199 (Abschnitt 3.1 vollständig, Abschnitt 3.2 = Vollzugshilfe EN-1 vollständig inkl. aller 11 Standardlösungen und des Rechnerischen Nachweises; PDF-Seite 68 ist leer/Trennblatt zum Folgeabschnitt), 2026-08-19 (Run 144)"
-datenstand: "Juni 2013 (Vollzugsordner) / Januar 2009 (Vollzugshilfe EN-1) ⚠⚠⚠ Alterskorpus PL-02 (13 Jahre, Vollzugshilfe EN-1 sogar 17 Jahre) — die zitierten EnerG-/BBV-I-/PBG-Paragraphen sind gegen die heute geltende Fassung NICHT geprüft"
-status: emerging
-last_updated: "2026-08-19 (Run 144)"
+datenstand: "Juni 2013 (Vollzugsordner) / Januar 2009 (Vollzugshilfe EN-1) ⚠⚠⚠ ABGELÖST. Aktualitätsprüfung am amtlichen WDV-Volltext durchgeführt 2026-08-21 (Run 148, siehe Zwilling `[[vollzugsordner-energie-zh-abschnitt3-1-3-2-en1]]`): die 80-%-Regel des § 10a EnerG gilt seit 01.09.2022 nicht mehr; die elf Standardlösungen sind für Neubauten ersatzlos entfallen und durch VIER Standardlösungen in § 9 WDV 2022 ersetzt. Diese Datei ist historische Referenz, keine Planungsgrundlage."
+status: superseded
+last_updated: "2026-08-24 (Audit-Korrektur A-P2 02.16: Vollzugsordner-Zwilling ohne Register-Eintrag, siehe Warnblock unten)"
 links:
   - [[en-1b-hoechstanteil-berechnungsbeispiel]]
   - [[en-120-standardloesungen-waermeerzeugerersatz-zh]]
@@ -23,7 +23,7 @@ Neubauten (und gewisse Anbauten/Aufstockungen) im Kanton Zürich müssen so geba
 
 ## Abschnitt 3.1 — Grundsätze und Verfahren (ZH-Vollzugsordner)
 
-**Die Vorschrift (§ 10a EnerG):** Neubauten müssen so ausgerüstet werden, dass höchstens 80 % des zulässigen Energiebedarfs für Heizung und Warmwasser mit nichterneuerbaren Energien gedeckt werden. Dies kann durch verbesserte Wärmedämmung, den Einsatz von erneuerbaren Energien, durch Abwärmenutzung oder eine beliebige Kombination dieser Möglichkeiten realisiert werden.
+**Die Vorschrift (§ 10a EnerG):** Bis zur Revision per 01.09.2022 galt: Neubauten müssen so ausgerüstet werden, dass höchstens 80 % des zulässigen Energiebedarfs für Heizung und Warmwasser mit nichterneuerbaren Energien gedeckt werden. Dies kann durch verbesserte Wärmedämmung, den Einsatz von erneuerbaren Energien, durch Abwärmenutzung oder eine beliebige Kombination dieser Möglichkeiten realisiert werden.
 
 **Verhältnis zur Wärmeschutzvorschrift:** Die Einhaltung der System- oder Einzelanforderungen des Wärmeschutzes (Wärmedämmvorschriften Abschnitt II, Teil 1) ist **unabhängig** von der Einhaltung von § 10a EnerG (Wärmedämmvorschriften Abschnitt II, Teil 2) zu erfüllen. Die erste Bedingung betrifft die für die Beheizung benötigte Energie (genügende Wärmedämmung der Gebäudehülle), die zweite regelt die Bereitstellung dieser benötigten Energie. Beide Nachweise sind kumulativ zu erbringen, nicht alternativ.
 

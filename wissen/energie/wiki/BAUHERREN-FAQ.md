@@ -83,7 +83,7 @@ greifen genau an diesen Termen an:
   zu überhitzen.
 - **Kompakte Form** (wenig Hüllfläche je Energiebezugsfläche) senkt QT und QV zugleich.
 Technik (Wärmeerzeuger, PV) kommt danach — sie ist günstiger und kleiner, wenn die Hülle
-zürst stimmt.
+zuerst stimmt.
 
 **Quelle:** SIA 380/1 Heizwärmebedarf → `[[sia-380-1-heizwaermebedarf-berechnung]]`.
 
@@ -109,10 +109,23 @@ Wer ein einzelnes Bauteil nicht schafft (z.B. denkmalgeschützte Fassade), darf 
 Heizwärmebedarf-Grenzwert Q_H,li je Gebäudekategorie. Empfehlung (Zielwert-Niveau / Minergie):
 Dach 0,10–0,15, Wand ~0,15, Dreifach-Verglasung Fenster U_w ~0,7–1,0.
 
-**Quelle:** EnFK Vollzugshilfe EN-102 (Dez 2018, Basis SIA 380/1:2009) →
-`[[enfk-en-102-waermeschutz-2018]]`; Empfehlung Dämmstärke → `[[minergie-besser-planen-bauen]]`.
-⚠ Operative Basis Kt. ZH (EnerG seit 1.9.2022); MuKEn 2025 (EnDK 08/2025) noch nicht kantonal
-umgesetzt — vor dem Zitieren konkreter Grenzwerte aktuellen ZH-Stand prüfen.
+**Quelle (Audit-Korrektur A-P2 02.14, 24.08.2026):** Für den Kt. ZH massgebend sind die
+**Wärmedämmvorschriften vom 8.6.2022** (LS 700.211, in Kraft seit 01.09.2022), § 8
+(Einzelbauteil- und Systemnachweis) und § 9 (vier Standardlösungen für Wohnbauten), sowie die
+Grenzwerttabelle **§ 47a BBV I** → `[[waermedaemmvorschriften-zh-2022]]` /
+`[[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]]`, beide established, Originale nachgelesen
+21.08.2026 (→ F248). Die hier genannten Werte stimmen mit der EnFK/EnDK-Vollzugshilfe **EN-102
+«Wärmeschutz von Gebäuden» (Basis SIA 380/1:2016)** überein → `[[enfk-en-102-waermeschutz-2018]]`,
+Tab. 2 (Neubau) / Tab. 4 (Umbau); nicht mit der Vorgängerin **EN-2 (Feb. 2013, Basis
+SIA 380/1:2009)** verwechseln. Empfehlung Dämmstärke → `[[minergie-besser-planen-bauen]]`.
+⚠ **Drei Vorbehalte:** (1) § 8 WDV verweist für die Einzelanforderungen auf die **Tabellen 2/3/5
+der SIA 380/1:2016**, die dieser KB nicht im Volltext vorliegt — die Zahlen sind zweifach
+übereinstimmend belegt, aber nicht an der Norm selbst nachgeprüft. (2) Der Ausgabestand der
+EN-102 selbst ist in der KB nicht abgeglichen; die Zahlenwerte sind davon unberührt (Gegenprüfung
+an der Kt.-LU-KEnV, Anhang 1-3, 23.07.2026). (3) MuKEn 2025 ist in ZH **noch nicht umgesetzt**,
+ein Inkraftsetzungsdatum ist nicht bekannt. Für die Gebäudekategorien III–XII (Pflegeheim,
+Klinik, Verwaltung) gibt es **keine Standardlösung** — dort ist der Rechennachweis nach § 8 WDV
+zwingend. Datenstand ZH-Rechtslage: 21.08.2026.
 
 ---
 
@@ -294,7 +307,7 @@ EVEN-Stand auf `zh.ch` prüfen. Energierecht → Skill `baurecht`.
 **Kurz:** Der Kanton ZH zahlt 2026 **Pauschalen je Massnahme**: rund **CHF 2'900** für eine
 Luft-Wasser-Wärmepumpe, **CHF 6'800** für eine Erdsonden-/Grundwasser-WP, **CHF 5'200** für
 einen Fernwärme-Anschluss und **CHF 40 je m²** Dämmung (bei Vollsanierung +CHF 60/m² Bonus).
-**Wichtigste Regel: zürst das Gesuch, dann bauen** — wer zürst baut, verliert die Förderung.
+**Wichtigste Regel: zuerst das Gesuch, dann bauen** — wer zuerst baut, verliert die Förderung.
 
 **Fachlich (Förderprogramm Energie ZH 2026, Stand 01.01.2026):**
 
@@ -382,8 +395,14 @@ Antragsstopp auffindbar. Energierecht/Heizverbot → Skill `baurecht`.
 die Leistung seriös aus dem bisherigen Brennstoffverbrauch zurückrechnen.
 
 **Fachlich:** Es gibt zwei Wege. Bei der **Sanierung** rechnet man aus dem mehrjährigen
-Brennstoffverbrauch zurück (Φ = (man·GCV/tan)·(ηalt/ηneu)·ηneu; Volllaststunden 2300 h Heizung
-bzw. 2700 h mit Warmwasser). Beim **Neubau** über die Norm-Heizlast SIA 384.201
+Brennstoffverbrauch zurück: Φ = (man·GCV/tan) · (ηan,alt/ηan,neu) · ηgen,neu (ηan,neu und
+ηgen,neu sind zwei verschiedene Grössen; ηgen,neu ≈ 0,5 · (1 + ηan,neu) — Audit-Korrektur A-P2
+02.10, 24.08.2026). Volllaststunden tan 2'300 h nur Heizung bzw. 2'700 h mit Warmwasser für
+Standorte bis 800 m ü. M., darüber jeweils +300 h. Die Höhenkorrektur nicht übergehen: tan steht
+im Nenner, wer in Einsiedeln, Rothenthurm oder einer vergleichbaren Höhenlage mit den Talwerten
+rechnet, erhält eine um gut 10 % zu grosse Leistung — und baut genau die Überkapazität ein, vor
+der die nächste Zeile warnt. Kontrollbeispiel: 2'400 l Heizöl, GCV 10,5 kWh/l, 2'700 h, 0,78 auf
+0,90 ergibt 7,7 kW. Beim **Neubau** über die Norm-Heizlast SIA 384.201
 (Φ = ΦHeizlast + ΦWarmwasser + Φverbundene Systeme; WW-Zuschlag MFH 3 / EFH 2 W/m²). Kontrollwert
 ist die **spezifische Heizleistung** (W/m² EBF):
 
@@ -461,7 +480,7 @@ Verfahren); eingereicht wird **immer an die Gemeinde (zHd. Bauamt)**, beteiligt 
 Energierecht (Kt. ZH): **§ 11 Abs. 1 EnerG** — Neubau ohne fossile Brennstoffe; **§ 11 EnerG / EN-LCC-ZH**
 — fossiler Kessel im Bestand nur mit Lebenszykluskosten-Nachweis + Erneuerbar-Prüfung (EN-120);
 **§ 23 BBV I** — neue Heizflächen auf max. 35 °C Vorlauf auslegen (genau die Bedingung für eine
-effiziente Wärmepumpe). Tipp: **zürst Fördergesuch, dann bauen** (vgl. F7).
+effiziente Wärmepumpe). Tipp: **zuerst Fördergesuch, dann bauen** (vgl. F7).
 
 **Quelle:** Kanton ZH, Gesuch-/Meldeformular wärmetechnische Anlagen, Version 01-2024 →
 `[[wta-formular-zh-waermetechnische-anlagen]]`; Dimensionierung → `[[heizleistung-und-waermeerzeuger]]`.
@@ -709,7 +728,11 @@ abgleichen. CLT-Brandschutz im Detail → Skill `brandschutz`.
 **Kurz:** Im Neubau fast immer eine **Wärmepumpe** — oder **Fernwärme**, wenn ein Netz vor dem Haus
 liegt. **Luft-Wasser-WP** ist der günstige Standard (Faustwert **JAZ ~3**), die **Erdsonden-WP**
 braucht eine Bohrung, ist aber deutlich effizienter (**JAZ ~4,5**) und besser gefördert;
-**Grundwasser-WP** ist am effizientesten (**JAZ ~5**), wo Grundwasser bewilligt nutzbar ist.
+**Grundwasser-WP** gilt theoretisch als ebenbürtig oder besser, doch eine belegte Schweizer
+Feld-JAZ liegt dafür nicht vor — die einzige verfügbare Feldmessung (Fraunhofer ISE, vier Anlagen)
+ergibt 3,57–4,24, die Schweizer Feldmessung der Erdsonde 4,3–4,9 (Audit-Korrektur A-P2 02.12,
+24.08.2026). Sie lohnt sich deshalb vor allem bei grösseren Objekten und dort, wo Grundwasser
+ohnehin genutzt wird.
 **Pellets/Holz** sind die Wahl, wenn die WP technisch schlecht passt (sehr hohe Vorlauftemperatur im
 unsanierten Altbau, kein Erdsondenrecht). **Öl/Gas ist im Neubau verboten.**
 
@@ -721,7 +744,7 @@ Jahr (eine WP «macht aus 1 kWh Strom 3-5 kWh Wärme»). Sie steigt mit **tiefer
 |---|---|---|
 | Luft-Wasser | ~2,5-3,5 (moderne bis ~4) | tiefste Investition, keine Bohrung; Schall/Nachbarschaft (LN-1a/1b) |
 | Sole-Wasser (Erdsonde) | ~4,0-4,5 | Bohrung + AWEL-Gesuch; höhere Förderung (vgl. F7) |
-| Wasser-Wasser (Grundwasser) | ~5 | nur wo Grundwasser bewilligt nutzbar (AWEL) |
+| Wasser-Wasser (Grundwasser) | Richtwert ~5 ⚠ nicht feldbelegt (BFE-Bandbreite 3,8-5,0 von 2010; einzige Feldmessung DE 3,57-4,24) | nur wo Grundwasser bewilligt nutzbar (AWEL); Konzessionsverfahren, vgl. F77 |
 
 **Datenblatt richtig lesen — COP, SCOP, JAZ sind drei verschiedene Dinge:** Der **COP** auf dem
 Prospekt ist nur **ein Labor-Prüfpunkt** (z. B. A2/W35) und taugt **nicht** zum Maschinenvergleich.
@@ -830,8 +853,11 @@ Fläche siehe F4, PV-Pflicht/Grösse F10, Förderung F7, Indach-Integration
 `[[sunskin-roof-indach-planung]]` / `[[prefa-solar-indach-aluminium-dachplatte]]`. ⚠ **Datenstand 2026-06-23:**
 Erträge sind PVGIS-/Meteonorm-**Schätzungen**, keine Messwerte; spez. Ertrag ist standort-/
 ausrichtungsabhängig (projektgenau via `sonnendach.ch`/PVGIS). Preise Aufdach 5–15 kWp **2'400–3'200
-CHF/kWp** (CKW Herbst 2025), Indach +60 %; Vergütungstarife (Rückliefer-/Eigenverbrauch) sind
-netzbetreiber- und jahresabhängig — nicht beziffert belegt.
+CHF/kWp** (CKW Herbst 2025); Indach real 2024 je nach Grössenklasse **+0 bis +19 %**
+(BFE-Preisbeobachtungsstudie 2024, publ. 10.07.2025) — die frühere CKW-Faustregel «+60 %» ist
+überholt (Audit-Korrektur A-P2 02.4, 24.08.2026); förderseitig liegt die integrierte Anlage mit
+400 statt 360 CHF/kWp Einmalvergütung sogar vorn. Vergütungstarife (Rückliefer-/Eigenverbrauch)
+sind netzbetreiber- und jahresabhängig — nicht beziffert belegt.
 
 ---
 
@@ -1167,7 +1193,7 @@ erschöpfbar — vor Zusage am Standortkanton prüfen. Energierecht/Heizverbot �
 **Kurz:** Der Kanton SZ zahlt 2026 **fixe CHF-Sätze je Massnahme**: **CHF 60/m²** Dämmung (+40/m²
 bei Vollsanierung), eine **Luft-Wasser-Wärmepumpe CHF 3'200 + 120/kW_th**, eine **Erdsonden-/
 Grundwasser-WP CHF 4'800 + 360/kW_th**, einen **Fernwärme-Anschluss CHF 4'000 + 200/kW_th** und
-**Solarthermie CHF 2'400 + 1'000/kW_th**. **Gleiche Grundregel wie ZH: zürst das Gesuch, dann bauen.**
+**Solarthermie CHF 2'400 + 1'000/kW_th**. **Gleiche Grundregel wie ZH: zuerst das Gesuch, dann bauen.**
 
 **Fachlich (Förderprogramm Energie Kt. SZ, Stand 01.01.2026):**
 
@@ -1266,7 +1292,7 @@ Heizverbot → Skill `baurecht`.
 ## F30 — «Was kostet mich mein Heizsystem über die ganze Lebensdauer wirklich?»
 
 **Kurz:** Über die ganze Nutzungsdauer ist die **Wärmepumpe das günstigste** Heizsystem — trotz der
-höchsten Investition. Im EnergieSchweiz-Beispiel (EFH, 20 Jahre) kostet eine **Erdsonden-WP rund
+höchsten Investition. Im EnergieSchweiz-Beispiel (EFH-Beispiel) kostet eine **Erdsonden-WP rund
 CHF 4'090 pro Jahr** und eine **Luft-Wasser-WP CHF 4'344**, während **Öl (5'043), Fernwärme (4'940)
 und Pellets (5'052)** deutlich teurer laufen. **Vergleiche nie die Offerten-Investition allein, sondern
 die Vollkosten** (Investition + Förderung + Betrieb + Unterhalt + Energie).
@@ -1281,6 +1307,15 @@ Vollkosten ohne Steuerabzüge):**
 | Pelletheizung | CHF 34'000 | CHF 94'455 | CHF 5'052 |
 | Fernwärme-Anschluss | CHF 20'500 | CHF 94'818 | CHF 4'940 |
 | Ölheizung | CHF 23'000 | CHF 96'409 | CHF 5'043 |
+
+⚠ Die beiden rechten Spalten haben verschiedene Nenner und sind nicht ineinander umrechenbar
+(Audit-Korrektur A-P2 02.11, 24.08.2026). Die Jahreskosten beziehen sich auf die jeweils eigene
+Nutzungsdauer des Systems, nicht auf die 20 Jahre der mittleren Spalte — die Erdsondenbohrung
+hält länger als die Betrachtungsperiode und verteilt sich deshalb auf mehr Jahre. Daraus folgen
+zwei Rangfolgen: über 20 Jahre ist die Luft-Wasser-WP am günstigsten (79'908), pro Betriebsjahr
+die Erdsonde (4'090). Wer die Jahreskosten mit 20 multipliziert, erhält für die Erdsonde einen
+um rund CHF 7'000 zu tiefen Wert. Belastbar ist allein: beide Wärmepumpen liegen klar unter
+Pellets, Fernwärme und Öl.
 
 Drei Lehren für den Bauherrn: **(1) Investition ≠ Gesamtkosten.** Fernwärme hat die tiefste Investition
 (20'500), landet über 20 Jahre aber fast gleichauf mit Öl; die teuerste Investition (Erdsonde 50'000)
@@ -1572,8 +1607,10 @@ Gesamtenergieeffizienz, direkte CO₂-Emissionen). Der **GEAK Plus** kommt mit e
 und bis zu fünf Sanierungsvarianten** dazu — und ist **Pflicht, sobald Du über CHF 10'000 Fördergeld aus
 dem Gebäudeprogramm beziehst**. Er ist **bis zu 10 Jahre gültig** und wird nur von **zertifizierten
 GEAK-Expert:innen** ausgestellt. Einen amtlichen Fixpreis gibt es nicht — **mehrere Offerten einholen**;
-**Marktrichtwerte** liegen bei **CHF 450–650 (GEAK EFH)**, **CHF 500–800 (GEAK MFH)** und **CHF 1'400–
-2'100 (GEAK Plus EFH)**; in ZH und SZ zahlt der Kanton an den **GEAK Plus** (nicht an den Basis-GEAK)
+**Marktrichtwerte** (drei unabhängige Marktquellen, nicht amtlich) liegen bei **CHF 450–750
+(GEAK EFH)**, **CHF 500–1'000 (GEAK MFH, 3–10 WE)** und **CHF 1'400–2'700 (GEAK Plus EFH)**, GEAK
+Plus MFH bis CHF 2'800 (3–10 WE), ab 10 WE Offerte; in ZH und SZ zahlt der Kanton an den
+**GEAK Plus** (nicht an den Basis-GEAK)
 **CHF 1'000 (EFH/ZFH)** bzw. **CHF 1'500 (übrige Gebäudekategorien)** dazu — bei einem EFH-GEAK-Plus
 deckt die Förderung damit rund die Hälfte der Kosten. (⚠ Korrektur 2026-07-14: die Staffelung geht nach
 **Gebäudetyp**, nicht nach Produkt; der Basis-GEAK wird in ZH/SZ **nicht** gefördert.)
@@ -1595,7 +1632,7 @@ durch den Experten und wird in einer **zentralen Datenbank** erfasst (dort **bis
 demgegenüber ein **freiwilliges Ziellabel** mit Nachweis (→ F5). Und der GEAK klassiert das **ganze
 Gebäude**, die **Fenster-Energieetikette** nur das Bauteil Fenster (→ F35, `[[fenster-energieetikette-fea-bfe]]`).
 
-**Empfehlung:** Wer eine grössere Sanierung plant oder Fördergeld über 10k will, lässt **zürst einen
+**Empfehlung:** Wer eine grössere Sanierung plant oder Fördergeld über 10k will, lässt **zuerst einen
 GEAK Plus erstellen** — Fördergesuch immer **vor Baubeginn**.
 
 **Handänderung:** In der **Deutschschweiz (auch ZH/SZ) ist der GEAK beim Verkauf nicht Pflicht** —
@@ -1689,7 +1726,7 @@ Luftwechsel (SIA 382/1) projektabhängig prüfen.
 
 **Kurz:** Ein Batteriespeicher **erhöht Deine Unabhängigkeit spürbar** (selbst genutzter Solarstrom
 steigt von rund **30 % auf bis zu 70–90 %**), rechnet sich aber **meist gerade knapp** und **hilft im
-Winter praktisch nicht**. Deshalb zürst die **fast gratis Hebel** ausschöpfen — Verbrauch in die Sonne
+Winter praktisch nicht**. Deshalb zuerst die **fast gratis Hebel** ausschöpfen — Verbrauch in die Sonne
 schieben (Wärmepumpe, Warmwasser, E-Auto per Energiemanagement) — und die Batterie **bewusst als
 Komfort-/Autarkie-Entscheid** sehen, nicht als Sparbüchse.
 
@@ -2428,7 +2465,7 @@ aber nicht Minergie.
 **Fachlich:** Diese BFE-Faustregel stützt sich noch auf das 2021 zurückgezogene Merkblatt SIA
 2023 und weicht bei Küche/Bad leicht von der heute geltenden SIA-382/5-Tabelle ab (30/30/20 m³/h,
 siehe F43) — beide Quellen bestätigen aber dieselbe 30-m³/h-Zuluft-Faustregel und dieselbe
-Grössenordnung. Praktisch: bei ungleichem Zu-/Abluft-Total wird zürst der Küchenwert erhöht
+Grössenordnung. Praktisch: bei ungleichem Zu-/Abluft-Total wird zuerst der Küchenwert erhöht
 (bis ~60 m³/h), damit beide Seiten gleich gross werden (sonst Unter-/Überdruck-Risiko,
 Radon/Feuerungsstörung). Schallgrenze in Wohnräumen: 25 dBA. Türspalt als kostenloser
 Überström-Durchlass: 7 mm Spalthöhe genügt für ~30 m³/h.
@@ -2518,7 +2555,7 @@ Planungswert. Das **Vorsorgeprinzip** verlangt zusätzliche Massnahmen nur, wenn
 höchstens 1 % der Investitionskosten mindestens 3 dB Reduktion erzielen lässt — teure
 Schalldämmhauben oder Lärmschutzwände sind bei eingehaltenem Planungswert deshalb i.d.R. **nicht**
 verlangt (Lärmschutzwände zudem oft wirkungslos wegen tiefer Frequenzen). Praktische Reihenfolge:
-zürst Standort optimieren (Abstand/freistehend statt Wand), dann ein leises Modell wählen, erst
+zuerst Standort optimieren (Abstand/freistehend statt Wand), dann ein leises Modell wählen, erst
 danach bauliche Zusatzmassnahmen prüfen.
 
 **Die vier Planungswert-Stufen (Anhang 6 LSV, Nacht massgebend):** ES I (reine Wohn-/
@@ -2550,7 +2587,7 @@ ohne feste Schwelle. Weil einige Kantone (SG, AG, BL) den Gemeinden eigene Kompe
 kann die Vorgabe **innerhalb desselben Kantons von Gemeinde zu Gemeinde unterschiedlich** sein.
 
 **Bauherren-Transfer:** Nicht vom 300-m²-Bundesstandard ausgehen, sondern für den konkreten
-Standort **immer zürst die kantonale UND kommunale Regelung** prüfen (Bau- und Zonenordnung der
+Standort **immer zuerst die kantonale UND kommunale Regelung** prüfen (Bau- und Zonenordnung der
 Gemeinde) — ein Neubau-EFH in Luzern ist bereits heute solarpflichtig, in Zürich (noch) nicht.
 Umgekehrt gilt auch: nicht jeder Kanton verschärft automatisch. **Aargau** ist beim
 Bundesminimum geblieben — die zuständige Grossrats-Kommission hat eine eigene, strengere
@@ -2675,7 +2712,7 @@ Schallschutzfenster allein löst die Bewilligungsfrage nicht.
 
 **Fachlich:** Bei Grenzwertüberschreitung braucht es eine **Ausnahmebewilligung nach Art. 31
 Abs. 2 LSV** — nur möglich, wenn kumulativ raumplanerisch begründet UND «alle zumutbaren
-Lärmschutzmassnahmen ausgeschöpft» sind. Massgebend ist eine **Kaskade**: zürst Quelle
+Lärmschutzmassnahmen ausgeschöpft» sind. Massgebend ist eine **Kaskade**: zuerst Quelle
 (lärmarme Beläge/Tempo 30), dann Gebäudeplanung/Grundriss (Schlafräume lärmabgewandt), dann
 bauliche Massnahmen (Riegelbau, Balkone, Loggien als Puffer) — **Schallschutzfenster stehen erst
 am Schluss**. Die Praxis unterscheidet **gelbe Räume** (Lüftungsfenster ≥ 5 % der Bodenfläche hält
@@ -3108,7 +3145,11 @@ Netzverstärkung gefunden).
 CHF 31'000–32'000 plus laufend CHF 3'200–3'500/Jahr (exkl. CO2-Abgabe/MWST); für ein MFH
 entsprechend CHF 40'000–45'000 einmalig plus CHF 12'000–13'300/Jahr — die laufenden Betriebskosten
 liegen damit eher unter den bereits bekannten Wärmepumpen-Vollkosten (Erdsonde CHF 4'090/Jahr,
-Luft-WP CHF 4'344/Jahr), der Investitionsvergleich hängt aber stark vom Einzelfall ab.
+Luft-WP CHF 4'344/Jahr; Jahreskosten je eigene Nutzungsdauer, nicht Summe geteilt durch 20), der
+Investitionsvergleich hängt aber stark vom Einzelfall ab. ⚠ **Der Vergleich hinkt bewusst**
+(Audit A-P3 03.6, 24.08.2026): hier Betriebskosten ohne Abgaben, dort Vollkosten mit einem
+anderen Verbrauchsprofil — derselbe Rechner führt für Fernwärme CHF 4'940/Jahr Vollkosten. Für
+die MFH-Zahlen oben trägt der Vergleich nicht, das Quelldestillat vergleicht nur das EFH.
 
 **Fachlich:** Der Fernwärmetarif setzt sich aus Arbeitspreis (Rp./kWh), Grundpreis (CHF/kW·Jahr)
 und einmaligem Anschlussbeitrag zusammen. Nach der amtlichen ewz-Formel (2026) zahlt ein EFH mit
@@ -3324,7 +3365,7 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > **wirtschaftlich grenzwertig** und **hilft im Winter praktisch nicht**; Wirtschaftlichkeits-Schwelle
 > **ab ~35 % Eigenverbrauch (meist OHNE Batterie erreichbar)**; Kosten **CHF 600–900/kWh** inkl. WR+
 > Installation (Swissolar); Dimensionierung kWp×1,5 bzw. Jahresverbrauch/730; LFP ~80 %, Lebensdauer
-> 10–20 J; **Notstrom nur ~30 % der Systeme**; Reihenfolge der Hebel (EMS/Lastverschiebung zürst,
+> 10–20 J; **Notstrom nur ~30 % der Systeme**; Reihenfolge der Hebel (EMS/Lastverschiebung zuerst,
 > Batterie zuletzt) → `[[batteriespeicher-heimspeicher-pv-ch]]`, `[[batteriespeicher]]` (Swissolar/
 > EnergieSchweiz). Zugleich **F37 geschärft** um die normative KBOB/SIA-180-Aussage «aktive Befeuchtung
 > bei normalem Klima nicht nötig» → `[[behaglichkeit-raumklima-kbob-ipb]]`. Zuvor am 2026-07-09: **F37 ‹Brauche ich eine
@@ -3362,7 +3403,8 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > LEG ist separates Instrument → `[[zev-eigenverbrauch-mfh-her-2025]]`, VSE HER-CH 2025). Neuer Themenartikel
 > `[[pv-eigenverbrauch-zev]]`. Zuvor am 2026-07-03: **F30 ‹Was kostet mein
 > Heizsystem über die Lebensdauer wirklich?›** — EnergieSchweiz-Vollkosten EFH/20 J: Erdsonden-WP
-> CHF 4'090/Jahr < Luft-WP 4'344 < Fernwärme 4'940 < Öl 5'043 < Pellets 5'052; Investition ≠ Gesamtkosten
+> CHF 4'090/Jahr < Luft-WP 4'344 < Fernwärme 4'940 < Öl 5'043 < Pellets 5'052 (Jahreskosten je eigene
+> Nutzungsdauer, nicht Summe geteilt durch 20); Investition ≠ Gesamtkosten
 > → `[[heizsysteme-vollkostenvergleich-energieschweiz]]`. Zudem **F6 geschärft** mit **gemessenen modernen
 > Feld-JAZ** (WPZ Buchs/EnergieSchweiz 2017-2019, drehzahlvariabel: Luft/Wasser inkl. WW 3,5 Neubau,
 > Sole/Wasser 4,9; SWWP ~30 % Vorsprung) → `[[wpz-buchs-feldmessung-jaz-2016-2019]]` (löst die «FWS-
@@ -3387,7 +3429,8 @@ ursprünglich offenen Punkte am 2026-07-25 primärquellenverifiziert geschlossen
 > Vorteil). Zuvor **F25 Schallschutz/SIA 181:2020** (Wohnungstrennung Luftschall ≥52/56 dB, Trittschall
 > ≤53/49 dB, Haustechnik Schlafraum ≤28 dB(A); EFH/Reihen-EFH/STWEG = erhöhte Aussenlärm-Anforderung),
 > **F24 Regenwasser/Versickerung** (über 20 m² bewilligungspflichtig, Metallflächen Cu/Zn > 50 m² →
-> Adsorber) und **F18 Marktpreise 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach +60 %, 33 J). Offen:
+> Adsorber) und **F18 Marktpreise 2025** (Aufdach 2'400–3'200 CHF/kWp, Indach real +0 bis +19 %
+> ⚠ nicht mehr +60 %, 33 J). Offen:
 > kWh/kWp je Einzel-Orientierung exakt (sonnendach.ch/PVGIS), CHF-Sätze Solarthermie/Minergie-ECO ZH,
 > SIA-181-Flankendetails Holzbau (Lignum).
 
@@ -3780,7 +3823,7 @@ sind, eine Erleichterung **bis U 0,30** — das ist mit ca. 8-10 cm erreichbar. 
 **CHF 40.–/m² (Kt. ZH)** bzw. **CHF 60.–/m² (Kt. SZ)**; in der Stadt Zürich kommen für denkmal-
 geschützte Bauten ab 01.06.2026 zusätzlich CHF 60.–/m² Fassadenfläche dazu. Ohne Schutzstatus fällt
 die Innendämmung meist aus der Förderung — das sollten Sie wissen, bevor Sie damit rechnen. Wichtig
-in jedem Fall: **zürst das Gesuch, dann bauen** (Baubeginn = Anbringen der Dämmung), Gebäude mit
+in jedem Fall: **zuerst das Gesuch, dann bauen** (Baubeginn = Anbringen der Dämmung), Gebäude mit
 Baubewilligung vor 2000, mindestens 0,07 W/m²K Verbesserung, ab CHF 10'000 Beitrag ein GEAK Plus
 (dessen Datum in ZH vor der Gesuchseingabe liegen muss), max. 50 % der Investition.
 
@@ -3823,7 +3866,7 @@ die Klimaprämie mit **18 Rappen pro kWh** Jahresverbrauch. Die kolportierten «
 Klimaprämie sind nur eine Faustregel, kein zugesicherter Satz. Sie richtet sich primär an grössere
 Liegenschaften und setzt voraus, dass Ihr Projekt gegenüber einer rein fossilen Lösung als
 unwirtschaftlich eingestuft wird. Entscheidend ist in beiden Fällen: **das Gesuch muss vor der
-Auftragsvergabe eingereicht sein** — wer zürst bestellt, verliert den Anspruch ersatzlos.
+Auftragsvergabe eingereicht sein** — wer zuerst bestellt, verliert den Anspruch ersatzlos.
 
 **Fachliche Begründung:** Klimaprämie = Kompensationsprojekt Nr. 0228 (Renera AG / Energiezukunft
 Schweiz, Stiftung KliK), Fördersatz 18 Rp./kWh bzw. CHF 1.80 pro Liter ersetztes Heizöl. Drei
@@ -5754,8 +5797,11 @@ Energieplanung Kt. Schwyz (Amt für Umwelt und Energie, V01, 20.11.2024), Kap. 4
 
 **Kurzantwort:** Ja — ein Wärmepumpenboiler ersetzt ausschliesslich den Elektroboiler, braucht nur
 einen ausreichend grossen, nicht zu kalten Aufstellraum (Richtwert ~20 m³) und erfüllt damit auch
-die ZH-Ersatzpflicht für zentrale Elektro-Wassererwärmer bis 2030. Eine kantonale Förderung gibt
-es dafür aber nicht — nur im EKZ-Netzgebiet (Kt. ZH) befristet CHF 800 (1.5.2026–31.12.2027).
+die ZH-Ersatzpflicht für zentrale Elektro-Wassererwärmer bis 2030. Eine kantonale Förderung ist im
+Kt. ZH nicht vorgesehen (das AWEL fördert nur den Ersatz des ganzen Wärmeerzeugers); im
+EKZ-Netzgebiet gibt es befristet CHF 800 (1.5.2026–31.12.2027). Für den Kt. SZ ist der isolierte
+Boiler-Ersatz nicht geklärt (Audit-Korrektur A-P2 02.7, 24.08.2026) — vor dem Entscheid beim AfU
+nachfragen, das Gesuch kostet nichts ausser einem Telefon.
 
 **Fachliche Begründung:** Primärquellenbelegter COP-Median (BFE/WPZ Buchs, EN 16147) liegt bei
 2,84 (Prüfpunkt A15) bzw. 2,56–2,62 (A7, kälterer Fall) — Mindestwert für das FWS-Gütesiegel ist
@@ -8207,14 +8253,20 @@ technisch/wirtschaftlich unzumutbar oder das Dach wird als Terrasse genutzt. Mit
 Widerspruch: Dachbegrünung und Solaranlage ergänzen sich, wenn Substrattiefe und Panelabstand
 von Anfang an aufeinander abgestimmt werden.
 
-**Fachlich:** Mindeststandard Extensivbegrünung: Substrat-Schichtstärke ≥ 10 cm, gesamte
-Wasserrückhaltekapazität ≥ 45 l/m² (davon ≥ 25 l/m² pflanzenverfügbar). Dachbegrünungen halten
-40–90 % des Regenwassers zurück und wirken temperaturausgleichend (dichtes Graspolster λ = 0,17
-W/m²K). Bei gleichzeitiger PV: die Begrünung kühlt die Panels über Verdunstung (ertragsrelevant),
-bei Panelabstand unter 80 cm niedrig wachsende Samenmischung verwenden und Substrattiefe
-punktuell auf 5 cm absenken; unter der PV-Unterkonstruktion zusätzlich eine Bautenschutzmatte
-zum Schutz der Abdichtung einbauen. Bei Dachgefälle < 1,5 % braucht es konstruktive Massnahmen
-gegen Staunässe (SIA 271/2007).
+**Fachlich:** Massgebend ist **SIA 312:2013 «Begrünung von Dächern» (SN 564312, in Kraft seit
+01.11.2013)**; sie bemisst Schichtdicke und Wasserrückhalt **standortabhängig nach
+Jahresniederschlag** (110 bis 80 mm Schichtdicke, 55 bis 40 l/m² Wasserrückhalt, nutzbare
+Feldkapazität 27,5 bis 20,0 l/m²) statt pauschal. Die folgenden Werte stammen aus der
+Stadt-Zürcher Checkliste von 2009 und taugen zur ersten Grössenordnung, nicht zum Zitat in einem
+Aussendokument (Audit-Korrektur A-P2 02.15, 24.08.2026). Mindeststandard Extensivbegrünung
+(Checkliste 2009): Substrat-Schichtstärke ≥ 10 cm, gesamte Wasserrückhaltekapazität ≥ 45 l/m²
+(davon ≥ 25 l/m² pflanzenverfügbar). Dachbegrünungen halten 40–90 % des Regenwassers zurück und
+wirken temperaturausgleichend (dichtes Graspolster λ = 0,17 W/m²K). Bei gleichzeitiger PV: die
+Begrünung kühlt die Panels über Verdunstung (ertragsrelevant; die Koexistenz Begrünung/Solarmodul
+regelt SIA 312 Ziff. 2.12.1-2.12.3 normativ), bei Panelabstand unter 80 cm niedrig wachsende
+Samenmischung verwenden und Substrattiefe punktuell auf 5 cm absenken; unter der
+PV-Unterkonstruktion zusätzlich eine Bautenschutzmatte zum Schutz der Abdichtung einbauen. Bei
+Dachgefälle < 1,5 % braucht es konstruktive Massnahmen gegen Staunässe (SIA 271/2007).
 
 **Bauherren-Transfer:** Substrataufbau, Panelabstand und Bautenschutzmatte gemeinsam mit dem
 Solarplaner UND dem Gartenbauer planen, nicht nacheinander — Nachrüsten einer Bautenschutzmatte
@@ -8223,8 +8275,9 @@ BZO-Begrünungspflicht nicht automatisch — kommunale BZO der jeweiligen Gemein
 
 **Quelle:** Stadt Zürich, Amt für Hochbauten, Fachstelle nachhaltiges Bauen, «Vorgaben
 Dachbegrünung (Checkliste)», 16.02.2009, 2 S. vollständig gelesen (Run 133, 15.08.2026) →
-`[[dachbegruenung-gruendach]]`. Status **emerging** — Datenstand 2009, Rechtsbasis BZO Art. 11
-vor Zitat am aktuellen Stand verifizieren (KB `baurecht`); gilt nur für Stadt Zürich.
+`[[dachbegruenung-gruendach]]`. Fachnorm: `[[sia-312-2013]]` (führende KB `normen`). Status
+**emerging** — Datenstand 2009, Rechtsbasis BZO Art. 11 vor Zitat am aktuellen Stand
+verifizieren (KB `baurecht`); gilt nur für Stadt Zürich.
 
 ## F237 — «Minergie oder Minergie-P — was heisst der Unterschied konkret an meinem Einfamilienhaus?»
 
@@ -8534,6 +8587,11 @@ Bauen 2000/1, 1. Auflage April 2000, vollständig gelesen (Run 146, 20.08.2026) 
 | Angebaut / freistehend bis 30 kWp | **360 CHF/kWp** |
 | Angebaut / freistehend ab 30 kWp | **300 CHF/kWp** |
 | **Integriert** (Indach, Doppelfunktion) | **400 CHF/kWp** (rund **+10 %**) |
+
+⚠ Ob der integrierte Satz auch oberhalb 30 kWp bei 400 CHF/kWp bleibt oder wie die angebauten
+Anlagen abgestuft wird, ist in der KB nicht abschliessend geklärt (Audit-Korrektur A-P2 02.18,
+24.08.2026) — vor einer Wirtschaftlichkeitsrechnung über 30 kWp den Pronovo-Tarifrechner rechnen
+lassen (`pronovo.ch/de/services/tarifrechner/`), er ist ohnehin die verbindliche Grösse.
 
 Gedeckelt ist die EIV auf **maximal 30 %** der Referenz-Investitionskosten. Rechenbeispiele: 10 kWp angebaut ergeben rund **CHF 3'600**, 5 kWp integriert **CHF 2'000**. Die Sätze werden jährlich neu festgelegt. Der **Neigungswinkelbonus** (integriert 400, angebaut/freistehend 200 CHF/kW, erhöht per 01.01.2025) setzt eine **Modulneigung von mindestens 75 Grad** voraus — das ist Fassade oder Steilanlage, **nicht** ein normales Steildach. Der **Parkflächenbonus** von 250 CHF/kW gilt erst ab 100 kW auf dauerhaft unüberdachten Parkflächen. Der frühere **Höhenbonus** ist per 01.01.2026 durch den **Winterstrombonus** ersetzt und betrifft mit seiner 100-kW-Schwelle das typische EFH/MFH nicht.
 

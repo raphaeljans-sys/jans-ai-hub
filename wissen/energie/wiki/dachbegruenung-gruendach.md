@@ -1,7 +1,7 @@
 ---
 title: Dachbegrünung (Gründach) — Vorgaben und PV-Synergie
 status: emerging
-last_updated: "2026-08-15 (Mac Mini Nachtschicht 05:30, Run 133)"
+last_updated: "2026-08-24 (Audit-Nachtrag A-P2 02.15: FAQ F236 auf denselben SIA-312-Stand gebracht)"
 sources: [destillate/dachbegruenung-checkliste-stadt-zh.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[pv-solar-technologien]], [[sia-312-2013]], [[pflanzen-am-bau-projektierungsgrundlagen-zh]]
 ---

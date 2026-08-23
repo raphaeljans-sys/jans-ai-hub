@@ -2,7 +2,7 @@
 title: Strassenabstand, Zufahrten und Vorteilsabgabe an Kantonsstrassen — Kanton Schwyz
 status: established
 last_updated: 2026-08-23
-verifiziert: 2026-08-23 (Buch-Run 81, Modell D, vollstaendiger amtlicher Volltext StraG/StraV)
+verifiziert: 2026-08-23 (Buch-Run 81, Modell D, vollständiger amtlicher Volltext StraG/StraV)
 kanton: SZ
 sources: ["§ 2 StraG SZ", "§§ 4-7 StraG SZ", "§ 38 StraG SZ", "§ 40 StraG SZ", "§ 41 StraG SZ", "§ 42 StraG SZ", "§ 47 StraG SZ", "§ 58 StraG SZ", "§ 25 StraV SZ", "§ 28 StraV SZ", "VSS SN 640 050", "VSS SN 640 273a", "VSS SN 640 561", "VSS SN 640 568", "VGE 717/03 vom 14.11.2003 E. 3", "raw/260823_amtlich_sz_merkblatt-z15-strassenabstand-zufahrten.md", "raw/260823_amtlich_sz_strassengesetz.md", "raw/260823_amtlich_sz_strassenverordnung.md"]
 links: [[baulinien-und-abstandslinien]], [[fahrzeugabstellplaetze-und-parkierung]]
@@ -43,11 +43,11 @@ kein Artikel zum SZ-Strassenrecht bestand.
   Fahrbahn hindernisfrei bleiben (auch Bepflanzung, Schnee, parkierte Fahrzeuge).
   ⚠ **Norm-Kante und Beleg-Vorbehalt, nachgetragen 24.08.2026 (Wissens-Chef Run 41).**
   Diese Sichtweiten-Kennwerte sind materiell wiedergegebener VSS-Norminhalt. **`wissen/normen`
-  fuehrt SN 640 273a nicht** — weder im REGISTER noch als Destillat; die einzige Fundstelle im
-  ganzen normen-Bestand ist eine Literaturangabe der **Vorgaengernorm** SN 640 273. Die Werte
+  führt SN 640 273a nicht** — weder im REGISTER noch als Destillat; die einzige Fundstelle im
+  ganzen normen-Bestand ist eine Literaturangabe der **Vorgängernorm** SN 640 273. Die Werte
   oben stammen damit aus dem SZ-Merkblatt, nicht aus einer verifizierten Normfundstelle, und
-  sind bis zur Beschaffung als **Behoerdenwiedergabe** zu zitieren, nicht als «nach VSS SN 640
-  273a». Fuer den Zufahrtstyp und die Geometrie liegt dagegen ein verifiziertes Destillat vor:
+  sind bis zur Beschaffung als **Behördenwiedergabe** zu zitieren, nicht als «nach VSS SN 640
+  273a». Für den Zufahrtstyp und die Geometrie liegt dagegen ein verifiziertes Destillat vor:
   `wissen/normen/destillate/vss-640050-1993.md` (`established`). Bring-Schuld an `normen`
   eingetragen (SN 640 273a beschaffen und destillieren).
 - **Ausgestaltung:** Erschliessungsbreite im Einmündungsbereich 5.00 m (≤ 15

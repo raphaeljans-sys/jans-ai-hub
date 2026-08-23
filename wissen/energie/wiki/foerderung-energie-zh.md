@@ -94,7 +94,7 @@ Für ein heute eingereichtes Baugesuch ändert sich dadurch nichts — es gilt w
 
 ## Strategie für den Bauherrn
 1. **Erst Gesuch, dann bauen** — ausnahmslos.
-2. **Hülle vor Technik:** zürst (oder gleichzeitig) dämmen → WP wird kleiner und effizienter
+2. **Hülle vor Technik:** zuerst (oder gleichzeitig) dämmen → WP wird kleiner und effizienter
    (tiefere Vorlauftemperatur, höhere JAZ) und beide Fördertöpfe lassen sich kombinieren.
 3. **Gemeinde + Bund zusätzlich prüfen:** kommunale Beiträge + Energieversorger-Boni standortgenau
    über `energiefranken.ch` (PLZ eingeben → alle Ebenen) → `[[energiefranken-foerder-suchmaschine-ch]]`,

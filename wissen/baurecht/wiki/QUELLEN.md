@@ -1,7 +1,8 @@
 ---
-titel: Amtliche Quellen — Register
+title: Amtliche Quellen — Register
 status: established
-aktualisiert: 2026-06-07
+last_updated: 2026-08-24
+sources: ["skills/baurecht/connectors/recht-ch.mjs", "raw/_INGESTED.md"]
 ---
 
 # QUELLEN — Amtliche Gesetzes-Volltexte

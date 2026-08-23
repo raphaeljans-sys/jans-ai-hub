@@ -4,7 +4,7 @@ title: Nebenbestimmungen der Baubewilligung und Reverse — ZH
 status: established
 last_updated: 2026-08-07
 sources: [raw/260607_amtlich_zh_pbg.md, "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-443)"]
-verifiziert: "2026-07-27 (Buch-Run 67, Modell-D-Wortlautabgleich vollstaendig, PBG Nachtrag 133, VRG-Begruendungspflicht seit 1.1.2026 § 10b statt § 10a)"
+verifiziert: "2026-07-27 (Buch-Run 67, Modell-D-Wortlautabgleich vollständig, PBG Nachtrag 133, VRG-Begründungspflicht seit 1.1.2026 § 10b statt § 10a)"
 quelle_destillat: "[[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, Kap. 7, S. 437-443)"
 paragraphen: ["§ 321 PBG", "§ 326 PBG", "§§ 30/31 VRG", "§ 320 PBG", "§ 73 PBG", "§ 100 PBG", "§ 101 PBG", "§ 244 PBG", "§ 360 PBG", "§ 10b VRG", "§ 16 BBV I", "Art. 962 ZGB", "Art. 164 GBV"]
 links: [[baubewilligungsverfahren]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]]

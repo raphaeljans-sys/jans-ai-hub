@@ -1082,3 +1082,22 @@ hielten, die Inhibition eines eigenen Reflexes hielt nicht** (Report Befund 1, [
 260821b #1). Richtig ist also: die Wiederholung **erkennen** und dann bewusst als Regressionstest
 fahren, statt sie unerkannt als Neuland zu verbuchen — im zweiten Fall werden bereits belegte
 Marker ein zweites Mal als «neu» notiert, was die KB aufblaeht und die Belegzaehlung verfaelscht.
+
+**Zwanzigste Falle, neu 24.08.2026 (Vertiefungslauf) — der Blindfassungs-Test ist nicht blind,
+wenn die Trefferliste selbst schon den Anfang verraet.** Beleg: [[QUESTIONS]] 260823b #5
+(Fidelity-Review, Fenster 28.07.–03.08.2026). `outlook_email_search` liefert je Treffer ein
+`summary`-Feld mit den ersten drei bis vier Zeilen des Bodys — also Anrede und
+Eroeffnungssatz — **bevor** der Chef die Blindfassung schreibt. Wer beim Zuschnitt der
+Goldproben dieses Feld liest, kennt Anrede und Einstieg schon, wenn die Blindfassung entsteht,
+und die Stimme-Note misst dann teilweise ein Abschreiben statt eine echte Vorhersage. Der Lauf
+vom 23.08.2026 hat das selbst bemerkt und die betroffenen Treffer nicht gutgeschrieben (Anrede
+Furrer bewusst regelkonform statt leak-konform gesetzt, zwei Dankformeln nicht gewertet) — das
+ist Disziplin im Einzelfall, keine Mechanik, die den naechsten Lauf schuetzt.
+
+**Verbindliches Vorgehen ab sofort:** Kandidaten fuer eine Goldprobe werden ausschliesslich
+ueber **Betreff, Empfaenger, Datum und Anhangsliste** ausgewaehlt — Felder, die die Auswahl
+ohnehin nicht braucht, um zu entscheiden, ob eine Mail infrage kommt. Das `summary`-Feld des
+Suchtreffers wird beim Zuschnitt **nicht gelesen**; erst nach dem Festlegen der Kandidatenliste
+und dem Verfassen der Blindfassung wird der Volltext (`read_resource`) geoeffnet und die
+Bewertung vorgenommen. Damit ist der Test wirklich blind, ohne dass die Auswahl selbst
+aufwendiger wird — die Auswahlfelder waren immer schon ausreichend.

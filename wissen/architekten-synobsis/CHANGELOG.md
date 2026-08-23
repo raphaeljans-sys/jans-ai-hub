@@ -4,6 +4,35 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-24 (interaktive Session) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Fortsetzung des Rechercheformats der Nachtschicht-Laeufe (kein Fan-out, direkt im
+Hauptkontext, WebSearch): vier offene Identitaetsfragen aus `wiki/QUESTIONS.md`, Sektion 2,
+geklaert und in QUESTIONS.md sowie den betroffenen `wiki/INDEX.md`-Zeilen nachgetragen.
+
+- **Sebrowitz_Jurkovic_Dusan_Sebrowitz** → bestaetigt, anders als vermutet: «Sebrowitz» ist
+  keine zweite Person, sondern der historische deutsche Name des Bruenner Vororts Žabovřesky,
+  wo Dušan Samo Jurkovič (1868-1947) sein eigenes Landhaus errichtete («Mein Haus in Sebrowitz
+  bei Brünn»). Die Slug-Doppelung bleibt ein Ablage-/Scan-Artefakt.
+- **Hugenberger_Fries_Arch** → bestaetigt: Buero huggenbergerfries, Zuerich, gegruendet 2000
+  von Lukas Huggenberger und Erika Fries. Zusaetzlich Ortsfehler im Projektordner bestaetigt:
+  der Limmat Tower (2015) steht im Quartier Limmatfeld der Gemeinde **Dietikon**, nicht
+  «Dietlikon» wie im Ordnernamen.
+- **Gmür Gschwentner / Gmuer_Patrick** → Verhaeltnis geklaert: Patrick Gmür fuehrte 1989-2009
+  ein eigenes Buero, das ab 2010 unter seinem fruehren Partner Michael Geschwentner als
+  «Gmür & Geschwentner» weitergefuehrt wurde; per 01.10.2016 wurde Gmür dort wieder Partner
+  (seit 2020 «Steib Gmür Geschwentner Kyburz»). Erklaert die Ueberschneidung beim Projekt
+  Hardturm in beiden Ordnern.
+- **Riehmer_Wilhelm_Bauherr** → praezisiert: Wilhelm Riehmer (1830-1901) war nicht nur
+  Maurermeister/Bauherr, sondern zugleich Grundeigentuemer und Bautraeger des nach ihm
+  benannten Hofgarten-Ensembles (ab 1880, mit Otto Mrosk als Architekt) — vereint Bauherr,
+  Bautraeger und Mit-Entwerfer in einer Person.
+
+Details je Frage mit Quellenangabe direkt in `wiki/QUESTIONS.md`, Sektion 2. Keine
+Ordnerumbenennung vorgenommen (Freigabesache Raphael), kein Fan-out, kein Versand, keine
+Buchung, keine destruktive Aktion, keine Vertrags-/Bewerbungs-/Personal-/Adressdaten
+uebernommen. Kein Commit/Push (Auftrag interaktiv, Freigabe ausstehend).
+
 ## 2026-08-23 (Mac Mini Nachtschicht, 05:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung wie in den Vorlaeufen (Prioritaeten 1-4 leer/gesaettigt: keine pending remote-/

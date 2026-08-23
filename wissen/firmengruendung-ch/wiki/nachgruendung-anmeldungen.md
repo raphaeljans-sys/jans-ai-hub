@@ -1,17 +1,25 @@
 ---
 title: Nach der Gründung — Pflicht-Anmeldungen (AHV, BVG, UVG, MWST)
-status: established (needs-verification nur noch UVG Art. 68 Wortlaut und MWSTG Art. 66
-  Anmeldefrist — die Fedlex-Volltexte dieser beiden Artikel liessen sich wegen der
-  Dokumentlänge nicht vollständig auslesen, siehe Vermerk 23.08.2026)
+status: established (keine needs-verification mehr bei den Fristen/Artikelnummern —
+  UVG Art. 68/69 und MWSTG Art. 66 am 23.08.2026 zweiter Lauf per PDF-Volltext
+  nachgeprüft, siehe Vermerk unten. Offen bleiben nur die Marktrichtwerte
+  Beratungs-/Notarkosten, siehe [[QUESTIONS]])
 last_updated: 2026-08-23
-sources: ["Art. 5/12 AHVG", "Art. 66 AHVV", "Art. 2/11 BVG", "Art. 1a/59/66/68 UVG",
+sources: ["Art. 5/12 AHVG", "Art. 66 AHVV", "Art. 2/11 BVG", "Art. 1a/59/66/68/69 UVG",
   "Art. 10/66 MWSTG", kmu.admin.ch «Checkliste: Gründung eines Unternehmens»,
   sva-ag.ch «Anmelden nach Firmengründung», ahv-iv.ch Merkblatt 6.05 (UVG),
   estv.admin.ch «MWST-Steuerpflicht», koordination.ch Online-Handbuch BVG/UVG
   (Sekundärquellen, Web-Recherche 22.07.2026); Art. 5/12 AHVG, Art. 11 BVG, Art. 1a/59/66
   UVG, Art. 10 MWSTG am Fedlex-Filestore-Volltext direkt verifiziert (Konsolidierungen
   AHVG 01.01.2026 · BVG 01.01.2025 · UVG 01.01.2026 · MWSTG 01.01.2025, Rule
-  `auto-verbesserungen.md` 260721, Prüflauf 23.08.2026)]
+  `auto-verbesserungen.md` 260721, Prüflauf 23.08.2026); Art. 68/69 UVG (Konsolidierung
+  01.01.2026) und Art. 66 MWSTG (Konsolidierung 01.01.2025) am 23.08.2026 (zweiter Lauf)
+  per direktem PDF-Download ab `fedlex.data.admin.ch/filestore/.../de/pdf-a/...`
+  wörtlich gegengelesen (Ausweichweg zur HTML-Filestore-Route, die bei diesen beiden
+  Erlassen die App-Hülle statt Text lieferte — Workaround analog
+  `docs/referenz/fedlex-volltexte.md` Nachtrag 23.08.2026, hier zusätzlich PDF- statt
+  HTML-Suffix und lokale Textextraktion statt WebFetch, weil WebFetch bei den langen
+  Konsolidierungen vor dem Zielartikel abbrach)]
 links: [[ag-gruendungsablauf]], [[gmbh-gruendungsablauf]], [[kosten-und-zeit]],
   [[steuern-ag-inhaber]]
 ---
@@ -85,8 +93,17 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
   Betriebsarten mit erhöhtem Risiko, die zwingend bei der **Suva** versichert sein
   müssen (u.a. Bauhaupt-/Baunebengewerbe, Transport, Lebensmittelherstellung).
   Betriebe ausserhalb dieser Liste — dazu zählt ein **Architektur-/Planungsbüro als
-  Bürobetrieb** — fallen unter Art. 68 UVG: freie Wahl unter privaten Versicherern,
-  öffentlichen Unfallversicherungskassen oder Krankenkassen mit UVG-Zulassung.
+  Bürobetrieb** — dürfen laut Art. 68 Abs. 1 UVG bei einem privaten
+  Versicherungsunternehmen nach VAG, einer öffentlichen Unfallversicherungskasse oder
+  einer Krankenkasse mit UVG-Zulassung versichert werden; diese Versicherer müssen
+  sich zusätzlich in ein öffentliches Register beim Bundesamt für Gesundheit eintragen
+  (Art. 68 Abs. 2 UVG). ⚠ **Präzisiert 23.08.2026 (zweiter Lauf):** Die eigentliche
+  **Wahlnorm** steht nicht in Art. 68, sondern im unmittelbar folgenden **Art. 69 UVG**
+  («Wahl des Versicherers»): «Der Arbeitgeber sorgt dafür, dass seine Arbeitnehmer bei
+  einem Versicherer nach Artikel 68 versichert sind. Die Arbeitnehmer haben bei der
+  Wahl des Versicherers ein Mitbestimmungsrecht.» Art. 68 regelt nur, WER als Versicherer
+  überhaupt zugelassen ist und dessen Registerpflicht — nicht die Wahlfreiheit selbst.
+  Beide Artikel wörtlich am Fedlex-PDF-Volltext (Konsolidierung 01.01.2026) gelesen.
 - **Meldepflicht Suva-pflichtiger Betriebe:** Der Arbeitgeber eines nach Art. 66 UVG
   Suva-pflichtigen Betriebs muss der Suva **innert 14 Tagen** die Eröffnung oder
   Einstellung des Betriebs melden (Art. 59 Abs. 1 UVG) — die Frist läuft **ab dem

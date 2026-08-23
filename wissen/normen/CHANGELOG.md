@@ -1,3 +1,143 @@
+## 2026-08-24 — Wissens-Chef Run 41: Bring-Schuld `N41-1` (VSS SN 640 273a) eingetragen
+
+`wiki/QUESTIONS.md` um **N41-1** ergaenzt. Anlass: der am 23.08.2026 angelegte Artikel
+`wissen/baurecht/wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md` Z. 38-42 gibt
+Sichtweiten-Kennwerte **materiell** wieder und schreibt sie **VSS SN 640 273a** zu (gueltig seit
+1.8.2010). Diese KB fuehrt die Norm **gar nicht** — weder REGISTER-Zeile noch Destillat; die
+einzige Fundstelle im gesamten Bestand ist eine Literaturangabe der **Vorgaengernorm** SN 640 273.
+Zu tun: beschaffen (kostenpflichtig, gleiche Klasse wie die uebrigen SN-640-Zeilen), Register,
+Destillat, danach die Werte im baurecht-Artikel gegenlesen. Dort ist bis dahin der Vorbehalt
+«Behoerdenwiedergabe, nicht VSS-Fundstelle» gesetzt.
+
+Ausserdem in diesem Lauf **abgenommen**: das am 23.08.2026 hier geschlossene Ticket `N58-2`
+(Nachfolge BRL 103-15 = feusuisse «Stand der Technik Teil B») ist an seine beiden Abnehmer
+weitergereicht — `bauprodukte/wiki/cheminee-aufbau-hafnerarbeiten.md` und
+`planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md` §5ai (dort stand noch die BRL 24-15).
+
+Bericht: `wissen/koordination/outputs/2026-08-24_wissens-chef-run41.md`.
+## 2026-08-24 — QUESTIONS-Abarbeitung: N41-1 registriert (neue VSS-Bring-Schuld), drei stale Abschnitte nachgezogen
+
+**Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten. CHANGELOG-Kopf und Report des
+letzten QUESTIONS-Laufs (00:08 Uhr, `outputs/2026-08-24_questions-abarbeitung-n29-2-n29-3.md`)
+zuerst gelesen — der hatte «keine neuen Lücken» gemeldet. Eigene Gegenprobe per Skript-Filter
+über alle 58 `##`-Abschnitte auf Schliess-Marker (✅/GESCHLOSSEN/ERLEDIGT/bestätigt/geklärt/
+beantwortet/abgeschlossen/KOMPLETT/gelöst/geschlossen): 8 ohne Marker, davon 1 echt neu — N41-1
+war zwischen dem 00:08-Lauf und diesem Lauf durch Wissens-Chef Run 41 angelegt worden.
+
+**N41-1 bearbeitet (VSS SN 640 273a fehlt im Bestand).** Cross-KB-Fund `baurecht` ↔ `normen`:
+der neue baurecht-Artikel `strassenabstand-zufahrten-vorteilsabgabe-sz.md` zitiert Sichtweiten-
+Kennwerte materiell unter «VSS SN 640 273a», die KB führt dazu weder Registerzeile noch
+Destillat — nur eine Literaturangabe der Vorgängernorm SN 640 273 in `vss-640050-1993.md`.
+Beschaffung ist kostenpflichtig (VSS-Shop) und bleibt Bring-Schuld Raphaels; nachgeführt wurde
+nur die Verwaltung: `wiki/REGISTER.md` Abschnitt B neue Zeile, `training/norm-inventar.md`
+sechste Zeile der VSS/SIA-Kaufliste (bisher fünf: SIA 491, SN EN 12193, SN 640 052, SN 641 400,
+SIA 181:2020), QUESTIONS-Abschnitt mit Nachtrag versehen (nicht überschrieben).
+
+**Drei stale Abschnitte nachgezogen** (Lehre aus dem 00:08-Lauf bestätigt: bei dieser
+Bearbeitungsdichte liegt der Ertrag oft im Nachziehen längst erledigter, aber nie geschlossener
+Punkte):
+- **2026-07-31 Wissens-Chef Run 21 (SWKI):** Die dort offen gelassene Frage, ob die restlichen
+  Kern-Dateien von `06_Richtlinien`/`09_Sanitaereinrichtung` systematisch abgearbeitet werden,
+  war seit Run 40-46 (31.07.-07.08.2026) längst mit Ja beantwortet — GVZ/Suva/Suissetec/VSA/
+  PAVIDENSA/BKZ/Sanitaereinrichtung vollständig `[x]`/`[-]` im Inventar. Nur N-R21-2
+  (VA 105-01:2015 Volltext, Kaufentscheid Raphael) bleibt offen.
+- **Run 39 (30.07.2026, Lignatec/lignum-4-1):** Beide dort offenen Punkte gelöst — Run 41
+  (01.08.2026) hat den Fliesstext erstmals systematisch geprüft, Raphael hat den Vorrang-
+  Auftrag am 17.08.2026 aus dem Scheduled Task gestrichen (erledigt seit Run 38).
+- **Run 30 (27.07.2026, PL-03-Bookkeeping):** Befund 1/2 waren im eigenen Text bereits erledigt;
+  Befund 3 bleibt Hinweis ohne Handlungsbedarf im Scope `normen`; Befund 4 (SIA 491/SN EN 12193)
+  unverändert Bring-Schuld.
+
+**Nicht angefasst:** die verbleibenden Abschnitte ohne Schliess-Marker sind entweder
+kostenpflichtige Bring-Schulden (SIA 380/2:2022, SIA 384/4:2025, NIN-Volltextzugang, jetzt auch
+SN 640 273a) oder ausdrücklich Raphael zur Entscheidung vorgelegt (N60-1 Duplikat-Zusammenlegung,
+N60-2 Methodik-Pflicht-14) sowie eine reine Leitplanken-Notiz (2026-07-28, Gebäudekategorien
+I-XII) ohne offenen Handlungsbedarf.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreiben geprüft — `wiki/QUESTIONS.md` 31/1
+(die «1» ist die erweiterte N41-1-Überschriftzeile selbst, kein fremder Verlust),
+`wiki/REGISTER.md` neue Zeile rein additiv, `training/norm-inventar.md` 1/0. Kein fremder
+Abschnitt berührt (Volltext-Diff einzeln geprüft). Kollisionscheck vor Arbeitsbeginn (`ps aux`):
+eigener Prozess (PID 9367, Skript-Wrapper `mschub187`, exakt dieser Auftragstext); parallel
+`mschub186`-Nachfolgeprozesse (SIA-Sweep, Baurecht-Reglemente, `energie`-QUESTIONS) an anderen
+Dateien/Abschnitten, kein Konflikt. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+Report: `outputs/2026-08-24_questions-abarbeitung-n41-1.md`.
+
+## 2026-08-24 — SIA-Sweep, 31. Fortsetzung: Mandatsausweitung Suva-Gerüstbau-Reihe, 5 neue Destillate (44078/44046/84018/67038/67150)
+
+**Auftrag:** SIA-Sweep der KB fortsetzen. Die 30. Fortsetzung (23.08.2026) hatte die enge
+SIA/VKF-Blindzone (Register-Zeilen ohne Datei im Haus) als erschöpft bestätigt (dritter Lauf in
+Folge, 27./29./30. Fortsetzung) und zwei Wege für den nächsten Lauf benannt: Raphaels
+Kaufentscheide zu den verbliebenen kostenpflichtigen Bring-Schulden abwarten, oder eine
+Mandatsausweitung über SIA/VKF hinaus (Vorbild: die bfu-Publikationen der 28. Fortsetzung).
+Nachgeprüft: `training/norm-inventar.md` führt weiterhin nur 5 offene `[ ]`-Positionen, alle
+externe kostenpflichtige Bring-Schulden (SIA 491, SN EN 12193, SN 640 052, SN 641 400, SIA
+181:2020) — kein Kaufentscheid seit der 30. Fortsetzung gefallen, `logbuch/fristen.md` ohne
+neuen SIA-Bezug. Kollisionscheck: paralleler Lauf `mschub184` bearbeitet `wiki/QUESTIONS.md`
+(anderer Auftrag, andere Zeilen, kein Konflikt).
+
+**Mandatsausweitung gewählt:** `wiki/REGISTER.md` Abschnitt D listet unter der Suva-Publikation
+44077.d/44078.d eine Reihe von neun Gerüstbau-Publikationen als kostenlose, aber unerschlossene
+Bring-Schuld-Kandidaten. Fünf davon (44078.d, 44046.d, 84018.d, 67038.d, 67150.d) beschafft und
+vollständig gelesen:
+
+- **44078.d** «Fassadengerüste — Sicherheit bei der Montage und Demontage», Erstausgabe Dez.
+  2006, überarbeitete Ausgabe Januar 2022, 22 S. Ersteller-Perspektive, ergänzt 44077.d
+  (Planer-Perspektive). Fassadenabstand max. 30 cm, Sicherungspflicht ab 2,0 m Absturzhöhe,
+  betriebsinterne Rettungsfähigkeit 15-20 Min.
+- **44046.d** «Sicheres Arbeiten im Bereich von Liftschächten», Erstausgabe Juli 1993,
+  überarbeitete Ausgabe Januar 2022, 24 S. Liftschachtgerüst-Tragfähigkeit mind. 3,0 kN/m²
+  statisch, Wandabstand max. 30 cm, Seitenschutz bei gerüstloser Liftmontage max. 47 cm.
+- **84018.d** «Acht zentrale Fragen rund um das Rollgerüst», Erstausgabe Juni 1999,
+  überarbeitete Ausgabe November 2003, 10 S. (Faltprospekt). Standhöhe max. 8 m aussen/12 m
+  innen. ⚠ Älteste der fünf Publikationen, Aktualitäts-Check auf neuere Fassung nicht
+  durchgeführt (offener Punkt).
+- **67038.d** Checkliste «Fassadengerüste», Ausgabe Februar 2022, 4 S. 22-Fragen-Kontrollraster.
+- **67150.d** Checkliste «Rollgerüste», Ausgabe Juli 2026, 4 S. — jüngste Suva-Publikation
+  dieser KB. 19-Fragen-Kontrollraster, Standhöhe max. 8 m/12 m identisch mit 84018.d (23 Jahre
+  auseinander, wortgleicher Wert — Kennwert damit stabil belegt).
+
+**Werkzeug-Falle, in diesem Lauf entdeckt und umgangen:** Die Suva-Kurzlinks
+`www.suva.ch/waswo/<Nr>.D` liefern beim direkten `curl`-Abruf nicht zuverlässig die deutsche
+Fassung — bei 44078/44046/84018 kam per curl jeweils die FRANZÖSISCHE Publikation
+(Metadatentitel «44078.f», «44046.f», «Huit questions essentielles...»), obwohl der Pfad mit
+grossem `.D` endet. Die deutsche Fassung wurde erst über eine gezielte `WebFetch`-Abfrage der
+Produktseite («Finde den Download-Link für die DEUTSCHE PDF-Version») gefunden, die eine andere
+Content-ID lieferte; am PDF-Metadatentitel («44078.d - ... - Suva») verifiziert. Bei 67038/67150
+lieferte derselbe Kurzlink-Mechanismus direkt die korrekte deutsche Fassung — die Falle betrifft
+also nicht alle Suva-Publikationen gleichermassen und muss bei jedem künftigen Suva-Abruf per
+Metadaten-Check (nicht per URL-Vertrauen) geprüft werden.
+
+**Alle fünf Destillate:** vollständig gelesen (pymupdf-Textextraktion, PDF-Textlayer vorhanden,
+kein Scan), Status `established`, keine unabhängige Refuter-/Zweitrunde durchgeführt (offener
+Punkt in jedem Destillat vermerkt — Umfang des Laufs liess keine vollständige Adversarial-
+Verifikation aller fünf Publikationen zu). Neue Dateien: `destillate/suva-44078-2022-
+fassadengeruest-montage-demontage.md`, `destillate/suva-44046-2022-liftschachtgeruest.md`,
+`destillate/suva-84018-2003-rollgeruest-acht-fragen.md`, `destillate/suva-67038-2022-
+checkliste-fassadengeruest.md`, `destillate/suva-67150-2026-checkliste-rollgeruest.md`.
+
+**Nachgeführt:** `destillate/INDEX.md` (5 neue Zeilen nach `suva-67012`), `training/norm-
+inventar.md` (5 neue Zeilen `[x] 260824` nach der bestehenden 44077.d-Zeile), `wiki/REGISTER.md`
+Abschnitt D (5 neue Tabellenzeilen in der Suva-Publikationstabelle, Bring-Schuld-Liste auf die
+verbleibenden neun Factsheets 33001.d-33029.d reduziert und mit ✅-Vermerk versehen).
+
+**Offen für den nächsten Lauf:** Die neun Factsheets 33001.d/33017.d/33020.d/33021.d/
+33022.d-33025.d/33029.d (je 1-2 Seiten, alle kostenlos, alle über dieselbe
+`waswo/<Nr>.D`-Route bzw. Produktseiten-Fallback erreichbar) sind der nächste konkrete
+Fortsetzungspunkt derselben Mandatsausweitung. Danach bleibt wie in der 30. Fortsetzung
+festgehalten: entweder Raphaels Kaufentscheide zu den 5 kostenpflichtigen SIA/VKF-Bring-Schulden,
+oder eine weitere Nicht-SIA-Familie (z. B. der in `wiki/REGISTER.md` Abschnitt D erwähnte
+Rest-Check der übrigen bfu-Publikationen 2.003/2.005/2.027/2.032/2.034/2.075 auf neuere
+Fassungen, analog zum bereits erledigten Check von 2.006/2.007).
+
+## Verifikation
+`git diff --numstat` nach jedem Schreibvorgang geprüft: 5 neue Destillate (untracked, keine
+bestehende Datei berührt), `destillate/INDEX.md` 5/0, `training/norm-inventar.md` 5/0,
+`wiki/REGISTER.md` 7/7 (Block-Ersatz: 5 neue Tabellenzeilen + korrigierter Bring-Schuld-Absatz
+anstelle des alten 6-zeiligen Absatzes; Volltext-Diff geprüft, keine fremde Zeile berührt). Kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt; Commit über den 15-Minuten-`nas-selfcommit`-
+Cron bzw. `scripts/nas-commit-now.sh`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: N29-2 nachtraeglich geschlossen, N29-3 (SIA-180-Kapitel-Luecke) am Original ergaenzt
 
 **Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten (Rule `normen-referenz`: Fundstelle

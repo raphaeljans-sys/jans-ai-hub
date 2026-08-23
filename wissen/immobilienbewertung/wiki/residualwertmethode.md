@@ -1,9 +1,9 @@
 ---
 title: Residualwertmethode — Landwert aus der Projektentwicklung
 status: established
-last_updated: 2026-08-23 (Vertiefungslauf 9: Preisstand 06.2023 der Default-Parameter ausgewiesen, Residual-Hebel gerechnet)
-sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte]
-links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]]
+last_updated: 2026-08-24 (Querbezug Mehrwertabgabe ZH ↔ baurecht ergaenzt, `wissen/koordination`)
+sources: [Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1 Projektbewertung, L. Huesser; S. 13-72 vollstaendig eingearbeitet), IMMO-03 Folien DXMA Erfolgsfaktoren (Marktwertschaetzung A4-Blatt S. 34/35), IMMO-03 Residualwert Excel-Tools (WP + JANS: Pre-Check_Tool + Residualwert_Projektbewertung.xlsx — Zellformeln reverse-engineered Run 15 2026-07-08: Rechenkette, Default-Parameter, Gewerbe-5.5-%-Regel, HNF-Herleitung, JANS-Kalibrierung Pre-Check 12 %/2.45 %), IMMO-01 RW Residualwert-Projekte, wissen/baurecht/wiki/enteignung-und-entschaedigung.md (MAG LS 700.9, Buch-Run 98)]
+links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[investorenmarkt-makro]], [[realwert-sachwert]], [[nutzungskonzepte]], baurecht/[[enteignung-und-entschaedigung]]
 ---
 
 # Residualwertmethode — Landwert aus der Projektentwicklung
@@ -14,6 +14,21 @@ links: [[bewertungsverfahren-ueberblick]], [[ertragswert-dcf]], [[lageklasse-lan
 > m²↔m³-Bruecke gilt der bereits entschiedene Faktor **0.70 Regelgeschoss / 0.60–0.61
 > Gesamtgebaeude** (E1, konsistent in beiden KBs). Das DXMA-Beispiel hier rechnet mit ~1'000
 > CHF/m³ inkl. UG — bei aktuellen Projekten den grobkosten-Kennwert gegenpruefen.
+
+> **Querbezug KB baurecht (Mehrwertabgabe ZH, Mechanismus statt Pauschalquote):** Die
+> «20-40 % Ermessen der Gemeinde» unten (Abzuege-Abschnitt, Wuest-Kurs S. 25/60) ist eine
+> generische Kursangabe, kein ZH-spezifischer Mechanismus. Fuer den Kanton Zuerich fuehrt
+> `wissen/baurecht/wiki/enteignung-und-entschaedigung.md` (Abschnitt Mehrwertabschoepfung,
+> MAG LS 700.9, Volltext-verifiziert 23.08.2026) den erlassenen Wortlaut: **kantonal fix
+> 20 % des Mehrwerts** (kein Ermessen), aber nur bei **Einzonung** oder **Umzonung in eine
+> Zone fuer oeffentliche Bauten** (§ 2 Abs. 1, § 4 Abs. 1 MAG) — eine gewoehnliche
+> Auf-/Umzonung (z.B. Ausnuetzungserhoehung in der Wohnzone) loest beim Kanton **keine**
+> Abgabe aus. Zusaetzlich, nur wenn die Gemeinde ein eigenes Reglement erlassen hat: bis zu
+> **40 % des um Fr. 100'000 gekuerzten Mehrwerts**, nur bei Auf-/Umzonung, mit eigener
+> Flaechenschwelle 1'200-2'000 m² (§ 19 MAG). Vor einer ZH-Projektrechnung den tatsaechlichen
+> Auslloeser (Ein-/Um-/Aufzonung) und ein allfaelliges Gemeindereglement pruefen, statt die
+> 20-40-%-Bandbreite pauschal anzusetzen — beide Saetze koennen nebeneinander oder gar
+> nicht greifen. Querbezug NEU 24.08.2026 (`wissen/koordination`, interaktive Pruefung).
 
 Die **wichtigste Kennzahl der Projektevaluation** ist der **Landwert** — und der zentrale
 Lerninhalt des Wuest-Kurses: "Sie lernen den Landwert aus der Entwicklung eines typischen

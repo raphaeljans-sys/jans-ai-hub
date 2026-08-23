@@ -3,6 +3,25 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Wissens-Chef Run 41 (Cross-KB `normen` ↔ `baurecht`), 3 additive Eingriffe
+
+- `wiki/fahrzeugabstellplaetze-und-parkierung.md` Z. 212-216: **Bring-Schuld an `normen`
+  erledigt** — das SIA-500-Korrigendum C3:2013 zu Ziff. 9.7.2/9.7.3 fuehrt
+  `normen/destillate/sia-500-2009.md` ab Z. 48 samt Zitierverbot fuer den Basiswert. **Die
+  Praemisse «dauerhaft offen, weil kostenpflichtig» ist widerlegt:** SIA-Korrigenda sind
+  Preisgruppe 0 und frei beziehbar; die Aussage bleibt richtig fuer die Vollnorm. Alter Absatz
+  als datierter Stand belassen.
+- `wiki/bestandsumbau-eingriffstiefe.md` Z. 38-40: Norm-Kante zu **EI30** nachgetragen — eine
+  materielle VKF-Klassenangabe gehoert nach der Fuehrungs-Matrix mit Verweis auf `normen`
+  versehen (Rule `normen-referenz`), nicht materiell fortgeschrieben.
+- `wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md` Z. 38-42: **Beleg-Vorbehalt** — die
+  Sichtweiten-Kennwerte sind «VSS SN 640 273a» zugeschrieben, aber **`normen` fuehrt diese Norm
+  nicht** (weder Register noch Destillat; einzige Fundstelle im Bestand ist eine Literaturangabe
+  der Vorgaengernorm SN 640 273). Bis zur Beschaffung als **Behoerdenwiedergabe aus dem
+  SZ-Merkblatt** zu zitieren. Bring-Schuld `N41-1` in `normen/wiki/QUESTIONS.md` eingetragen;
+  Verweis auf das vorhandene `vss-640050-1993` (`established`) gesetzt.
+
+Bericht: `wissen/koordination/outputs/2026-08-24_wissens-chef-run41.md`.
 ## 2026-08-24 — Wissens-Health-Check (Phase 1): A0 B4 C0 D0 E0 F2 G0 — Top: Umlaut-Ersatzschreibung aus dem 01.08.-Befund weiterhin in ~340 Stellen (23/26 Artikel, Front- und Fliesstext), zwei liegen gebliebene Frontmatter-/Backlink-Befunde aus dem 03.08.-Report (rechtsschutz-und-rechtsmittelverfahren ohne title:, wohnhygiene-Konventionsfehler [[…]] auf raw/-Datei), sonst sehr guter Zustand nach der Bundesrechts-Re-Verifikationskette Runs 90-104 (0 Widersprüche, 0 unbelegte Claims, 0 RAW-Lücken, 0 veraltete Artikel, 0 fällige Promotion). Report outputs/2026-08-24_health-check.md. Nur-Audit, keine Aktionen.
 
 ## 2026-08-23 — Buch-Run 104: BEZ 2019 Nr. 5 (Absturzsicherung Altbau) erstmals im Volltext gelesen — § 358-PBG-Fall statt § 357, 15-%-Schwelle im Entscheid nicht erwähnt

@@ -4,6 +4,39 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-24 — Vertiefungslauf: Preview-Leak im Fidelity-Review formalisiert (Zwanzigste Falle)
+
+**Kein Zugriff auf den Mail-Korpus in dieser Sitzung** (M365-Zertifikat
+`~/.cli-m365-cert-combined.pem` in dieser Umgebung nicht vorhanden, `node
+connectors/m365-graph.mjs --selbsttest` bricht mit «Zertifikat fehlt» ab — derselbe Befund wie
+am 23.08.2026). Workflow B/C (Mail-Training, Fidelity-Review) damit nicht durchfuehrbar; erneut
+kein neuer Marker aus dem Korpus behauptet, stattdessen eine bereits offene, korpusunabhaengige
+Selbstfrage geloest.
+
+**Bearbeitet: [[QUESTIONS]] 260823b #5 (Preview-Leak verfaelscht die Stimme-Note).** Die Frage
+war als «Hub-intern, kein Handlungsbedarf fuer Raphael» eingestuft und enthielt den Fix bereits
+als Vorschlag — offen war nur, ihn zu uebernehmen. Geprueft: der Fix stand nirgends als
+verbindliche Praxis (`grep` auf `summary-Feld`/`Preview-Leak` in `CLAUDE.md`/`SKILL.md` lieferte
+nichts). Umgesetzt als **Zwanzigste Falle** in `wissen/twin/CLAUDE.md` (Abschnitt «Sync»): das
+`summary`-Feld von `outlook_email_search` zeigt vor der Blindfassung bereits Anrede und
+Eroeffnungssatz und darf beim Kandidaten-Zuschnitt nicht gelesen werden; Auswahl nur ueber
+Betreff, Empfaenger, Datum, Anhangsliste, `read_resource` erst nach Kandidatenwahl und
+Blindfassung. Dieselbe Regel zusaetzlich **verfahrenswirksam** in `skills/twin/SKILL.md`,
+Workflow C Schritt 1 ergaenzt, damit der naechste `twin-fidelity-review`-Lauf sie tatsaechlich
+liest und nicht nur die KB sie dokumentiert. QUESTIONS-Eintrag mit
+✅-BEANTWORTET/UMGESETZT-Block geschlossen.
+
+**Schreibkontrolle** (`git diff --numstat`, lokaler SSD-Klon): `CLAUDE.md` +19/-0,
+`skills/twin/SKILL.md` +6/-1 (die eine Loeschung ist der ersetzte Satzschluss derselben
+Aufzaehlungszeile, kein Bestandsverlust), `wiki/QUESTIONS.md` +11/-0. Kein `nas-commit-now.sh`
+in dieser Sitzung ausgefuehrt (Rule `sync-kanonische-quelle.md`: Commit/Push liegen ausserhalb
+dieses Auftrags — «kein commit, kein push»).
+
+**Nicht geleistet:** jede weitere offene Frage in `QUESTIONS.md`, die Korpuszugriff braucht (die
+grosse Mehrheit, u.a. alle mit «Frage an Raphael» markierten Eintraege aus Batch 102/260823b) —
+ausserhalb des Auftragsumfangs ohne Mail-Connector. Naechster Lauf mit Korpuszugriff sollte
+gemaess `raw/_INGESTED.md` («Naechstes Fenster» unter Batch 102) fortsetzen.
+
 ## 2026-08-23 — Vertiefungslauf: fehlende «Achte Falle» im Echo-Schutz-Katalog nachgetragen
 
 **Kein Zugriff auf den Mail-Korpus in dieser Sitzung** (`claude.ai Microsoft 365`-MCP nicht

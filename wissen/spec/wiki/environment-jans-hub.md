@@ -1,7 +1,7 @@
 ---
 title: Layer 3 — The Environment (= der JANS AI Hub)
 status: established
-last_updated: 2026-07-29
+last_updated: 2026-08-24
 sources: [260616_marchese_the-spec_karpathy-method_transkript.md, CLAUDE.md]
 links: [[the-spec]], [[verifier]], [[anwendung-jans]], [[kontext-architektur]] (KB claude-code — gemessener Ist-Zustand des Environments)
 ---
@@ -48,6 +48,42 @@ Eigene Messung am 29.07.2026, 23:39: `CLAUDE.md` **17'899 B** (nicht ~50k); der 
 Byte-/Token-Werte führt ab jetzt [[kontext-architektur]]; die laufende Nachführung der
 Zählstände dieses Artikels gehört als Bring-Schuld in `wissen/spec/wiki/QUESTIONS.md`
 (noch offen, siehe Rückmeldung dieses Laufs).
+
+## Nachmessung 2026-08-24 (Trainingslauf 39, Verifikationslauf) — F-ENV1 an diesem Artikel geloest
+
+Reale Anwendung der Regel, die dieser Artikel selbst seit Run 20 als offene Bring-Schuld
+fuehrt (F-ENV1, unten in [[QUESTIONS]]) und die [[anwendung-jans]] Schritt 2 als fuenften
+Alterungsmodus verallgemeinert hat: **Zaehlstaende gehoeren nicht als eingefrorene Zahl in
+den bindenden Text, sondern brauchen einen reproduzierbaren Messweg.** Nachgemessen heute mit
+denselben vier Kennzahlen wie in der Korrektur vom 29.07., Messweg wortwoertlich angegeben,
+damit jeder kuenftige Leser selbst nachmisst statt eine der Zahlen hier fortzuschreiben:
+
+| Kennzahl | Befehl | Stand 24.08.2026 | Stand 29.07.2026 |
+|---|---|---|---|
+| Skills | `find skills -maxdepth 1 -type d \| tail -n +2 \| wc -l` | **51** | 50 |
+| KBs (`wissen/`) | `find wissen -maxdepth 1 -type d \| tail -n +2 \| wc -l` | **20** | 18 |
+| Rule-Dateien | `find rules -maxdepth 1 -name "*.md" \| wc -l` | **29** | 24 |
+| davon @-importiert | `grep -c "^@/Volumes/daten/jans-ai-hub/rules/" CLAUDE.md` | **24** | 20 |
+| `CLAUDE.md` | `wc -c CLAUDE.md` | **19'014 B** | 17'899 B |
+
+Alle fuenf Werte sind in 26 Tagen gewachsen — das bestaetigt die F-ENV1-These direkt am
+eigenen Artikel: eine kopierte Zahl ist in diesem Hub binnen weniger Wochen falsch. **Fix
+dieses Laufs:** die aelteren Zaehlstand-Absaetze unten bleiben als datierter historischer
+Beleg stehen (sie zeigen die Wachstumskurve); ab hier gilt fuer diesen Artikel die
+Alterungsmodus-5-Regel woertlich — wer den aktuellen Stand braucht, fuehrt die fuenf Befehle
+oben aus, statt eine der hier notierten Zahlen weiterzutragen. Byte-/Token-Budget des
+Grundkontexts fuehrt unveraendert [[kontext-architektur]] (KB `claude-code`) mit eigenem,
+dort dokumentiertem Messweg. Damit ist **F-ENV1 fuer diesen Artikel exemplarisch geloest**
+(Messweg dokumentiert + reproduzierbar); die Bring-Schuld in `wiki/QUESTIONS.md` ist erledigt.
+
+Kein neuer Fund bei den beiden anderen offenen Faeden dieses Laufs (Verifikationslauf, keine
+neue reale Spec seit Lauf 38 am 30.07.): **F1** (Ueberdehnungs-Gegentest) bleibt unbelegt,
+kein genervter Mittelfall in `outputs/`. **F3** (Marketing/Text als letzte offene
+Verifier-Zeile) bleibt offen — Suche ueber `skills/marketing/`, `wissen/koordination/` und
+alle `*_spec.md` im Hub ergab keinen belegten Fall. **SYN-02** (Reue-Check gegen
+`wissen/koordination/SYNERGIE-REGISTER.md`, dort Stand 13.08.2026): MVP-Codeseite
+weiterhin unveraendert (`volumen_generator.py` liest kein Parameter-Set) — kein neuer
+Fund fuer diese KB, das Mandat liegt beim Synergie-Orchestrator.
 
 ## Environment-Audit Trainingslauf 8 (2026-07-13) — Befund: Rule-Datei existiert, ist aber nicht verdrahtet
 

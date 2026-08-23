@@ -813,13 +813,13 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | Checkliste Fassadengerüste | 67038.d | Ausgabe Februar 2022 | `suva-67038-2022-checkliste-fassadengeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** 22-Fragen-Kontrollraster, Gerüstgruppen-Nutzlasten identisch mit 44077.d |
 | Checkliste Rollgerüste | 67150.d | Ausgabe Juli 2026 | `suva-67150-2026-checkliste-rollgeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** Jüngste Suva-Publikation dieser KB. 19-Fragen-Kontrollraster, Standhöhe max. 8 m aussen/12 m innen (deckt sich mit 84018.d), Montage/Demontage ab 2,0 m gesichert (BauAV Art. 23) |
 
-✅ **Fünf der sieben in der Ziff.-5-Liste von 44077.d/44078.d genannten Bring-Schuld-Kandidaten
-sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** — Ausgangslage war die
-30. Fortsetzung (23.08.2026), die diese Liste als offenen Kandidaten für eine Mandatsausweitung
-über SIA/VKF hinaus benannt hatte. Nicht destilliert, weiterhin Bring-Schuld-Kandidaten (alle
-kostenlos, alle sehr kurz — 1-2 Seiten Factsheet-Format): 33001.d/33017.d/33020.d/33021.d/
-33022.d-33025.d/33029.d (Factsheets Auffangnetze, Seitenschutz, Gerüstbeläge,
-Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge, PSAgA).
+✅ **Alle fünf namentlich benannten Publikationen der Ziff.-5-Liste (44078.d, 44046.d, 84018.d,
+67038.d, 67150.d) sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** —
+Ausgangslage war die 30. Fortsetzung (23.08.2026), die diese Liste als offenen Kandidaten für
+eine Mandatsausweitung über SIA/VKF hinaus benannt hatte. Nicht destilliert, weiterhin
+Bring-Schuld-Kandidaten (alle kostenlos, alle sehr kurz — 1-2 Seiten Factsheet-Format):
+33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d (neun Factsheets: Auffangnetze,
+Seitenschutz, Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge, PSAgA).
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.
@@ -840,6 +840,7 @@ Titelblatt-Angaben (Ersatz für / Ausgabejahr) der jeweiligen Norm entnommen.
 | ZH 722.15 Verkehrssicherheitsverordnung | 15.06.1983 | — | gilt, geändert 05.10.1994 (in Kraft 01.01.1995) |
 | Stadt ZH Merkblatt Veloabstellplätze | 1996, überarb. 1998 | — | städtische Richtlinie, kein SNV-Normtext |
 | RAL-GZ 638 Gitterroste | September 2008 | keine ältere Ausgabe im Bestand | gilt; vollständig destilliert (S.1-24) |
+| SN 640 273a (VSS) Sichtverhältnisse bei Knoten | seit 01.08.2010 | SN 640 273 | **kein Bestand — Bring-Schuld (kostenpflichtig, VSS-Shop).** Zeile neu 24.08.2026 (QUESTIONS-Abarbeitung, N41-1): einzige Fundstelle im Haus ist eine Literaturangabe der Vorgängernorm SN 640 273 in `destillate/vss-640050-1993.md`. Anlass: `wissen/baurecht/wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md` Z. 38-42 zitiert Sichtweiten-Kennwerte materiell unter diesem Titel, ohne dass die KB sie verifizieren kann — dort bleibt der Vorbehalt «Behördenwiedergabe aus dem SZ-Merkblatt, nicht verifizierte VSS-Fundstelle» bis zur Beschaffung stehen. Kein Kauf ohne Raphaels Entscheid. |
 
 ## Run-2-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
 

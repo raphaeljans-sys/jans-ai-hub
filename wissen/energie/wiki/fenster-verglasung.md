@@ -1,7 +1,8 @@
 ---
 title: Fenster & Verglasung — Uw/Ug/Uf, g-Wert, Dreifachglas
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-08-24
+datenstand: 2002 (ältester zitierter Quellenstand: BFE-U-Wert-Bauteilekatalog Neubauten 2002, Uf-Fallbackwerte Kap. 5.1.2 — als Grössenordnung ohne Herstellerangabe, nicht für die Baueingabe)
 sources: [destillate/fenster-verglasung-uw-g-wert.md, destillate/fenster-energieetikette-fea-bfe.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/g-werte-verglasungstypen-ch.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md]
 links: [[INDEX]], [[u-werte-grenzwerte-ch]], [[sommerlicher-waermeschutz]], [[minergie-standards]], [[fenster-energieetikette-fea-bfe]], [[g-werte-verglasungstypen-ch]], [[BAUHERREN-FAQ]]
 ---
