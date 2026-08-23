@@ -106,10 +106,14 @@ const GEO_ADMIN = {
   stac: (coll, lon, lat, d = 0.0008) =>
     `https://data.geo.admin.ch/api/stac/v0.9/collections/${coll}/items`
     + `?bbox=${(lon - d).toFixed(5)},${(lat - d).toFixed(5)},${(lon + d).toFixed(5)},${(lat + d).toFixed(5)}`,
-  // Harmonisierte Bauzonen CH als PNG-Kartenausschnitt (WMS 1.3.0, EPSG:2056 => Achsen N,E)
+  // Harmonisierte Bauzonen CH als PNG-Kartenausschnitt (WMS 1.3.0, EPSG:2056 => Achsen E,N).
+  // KORRIGIERT 23.08.2026: stand bis dahin auf N,E und lieferte darum eine vollstaendig
+  // TRANSPARENTE Kachel (1000x1000 RGBA, 3957 Bytes, 100 % alpha=0) — HTTP 200, gueltiges PNG,
+  // kein Fehler im Log. Gegenprobe GetFeatureInfo: N,E => leere FeatureCollection, E,N =>
+  // BFS 136 Langnau am Albis, "Wohnzonen". EPSG:2056 ist als (E,N) definiert.
   bauzonenMap: (e, n, half = 200) =>
     `https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&LAYERS=ch.are.bauzonen`
-    + `&CRS=EPSG:2056&BBOX=${n - half},${e - half},${n + half},${e + half}`
+    + `&CRS=EPSG:2056&BBOX=${e - half},${n - half},${e + half},${n + half}`
     + `&WIDTH=1000&HEIGHT=1000&FORMAT=image/png&STYLES=`,
 };
 const STAC_COLL = {

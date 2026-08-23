@@ -1,12 +1,12 @@
 ---
 title: Bund-Geodaten je Parzelle — Höhe, Orthofoto, DTM, Bauzonen (geo.admin.ch)
 status: established
-last_updated: 2026-06-10
+last_updated: 2026-08-23
 sources:
-  - api3.geo.admin.ch (SearchServer, identify, height) — Stand 06/2026
-  - data.geo.admin.ch STAC v0.9 (swissimage-dop10, swissalti3d) — Stand 06/2026
-  - wms.geo.admin.ch WMS 1.3.0, Layer ch.are.bauzonen — Stand 06/2026
-  - Benchmark-Test Connector geo-zh.mjs, Parzelle Langnau a.A. 3338 (EGRID CH879777718909), 2026-06-10
+  - api3.geo.admin.ch (SearchServer, identify, height) — nachgemessen 23.08.2026
+  - data.geo.admin.ch STAC v0.9 (swissimage-dop10, swissalti3d) — nachgemessen 23.08.2026
+  - wms.geo.admin.ch WMS 1.3.0, Layer ch.are.bauzonen — nachgemessen 23.08.2026 (GetMap + GetFeatureInfo)
+  - Benchmark-Test Connector geo-zh.mjs, Parzelle Langnau a.A. 3338 (EGRID CH879777718909), 2026-06-10, funktional wiederholt 2026-08-23
 links: [[kartenportale-oereb-egrid-bezug]] [[kartenportale-geoportale-uebersicht]]
 ---
 
@@ -57,12 +57,39 @@ Item `swissalti3d_2020_2682-1238`. Für Schnitte/Aushub/Hangmodellierung.
 ```
 GET https://wms.geo.admin.ch/?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap
     &LAYERS=ch.are.bauzonen&CRS=EPSG:2056
-    &BBOX=<minN>,<minE>,<maxN>,<maxE>             # ACHTUNG WMS 1.3.0 + EPSG:2056 => Achse N,E!
+    &BBOX=<minE>,<minN>,<maxE>,<maxN>             # EPSG:2056 ist als (E,N) definiert
     &WIDTH=1000&HEIGHT=1000&FORMAT=image/png&STYLES=
 -> image/png
 ```
-Validiert: 1000×1000-PNG, ~4 KB. **Achsenreihenfolge-Falle:** WMS 1.3.0 mit EPSG:2056 erwartet die
-BBOX als **N,E,N,E** (Hoch-/Rechtswert), nicht E,N — sonst kommt eine leere/falsche Kachel.
+Validiert 23.08.2026 am Benchmark Kat. 3338: 1000×1000-PNG, **28 KB**, 51.8 % Flaeche
+`RGBA(255,166,0)` (Wohnzone).
+
+> ⚠ **Berichtigt 23.08.2026 — die Achsenreihenfolge stand hier verkehrt.** Der Artikel verlangte
+> bis dahin `BBOX=N,E,N,E` und nannte als Beleg «1000×1000-PNG, ~4 KB». Nachgemessen ist genau
+> diese 4-KB-Kachel das Fehlerbild: **1000×1000 RGBA, 3'957 Bytes, zu 100 % transparent** — ein
+> leeres Bild. Richtig ist **E,N** (EPSG:2056 ist mit Rechtswert zuerst definiert).
+>
+> **Der Fehler ist stumm, und das ist das eigentlich Gefaehrliche daran.** Die vertauschte
+> Anfrage liefert `HTTP 200`, `Content-Type: image/png` und ein formal gueltiges Bild in der
+> bestellten Groesse. Weder Statuscode noch Dateigroesse noch ein Link-Frischecheck schlagen an.
+> Auffallen kann es nur, wer den **Inhalt** prueft.
+>
+> **Unabhaengige Gegenprobe** (`REQUEST=GetFeatureInfo`, `INFO_FORMAT=application/json`, Pixel
+> `I=500&J=500`, gleiche BBOX): mit **E,N** kommt das Feature `bfs_no 136`, `name Langnau am
+> Albis`, `ch_bez_d Wohnzonen`, `ch_code_hn 11`, `flaeche 40583`, `kt_kz ZH`; mit **N,E** eine
+> **leere FeatureCollection**. Damit ist nicht nur belegt, dass die Kachel leer war, sondern
+> auch, dass die richtige Reihenfolge die richtige Parzelle trifft.
+>
+> **Folge im Connector:** `geo-zh.mjs` trug dieselbe vertauschte Reihenfolge
+> (`bauzonenMap`, seit 06/2026) und hat mit `--produkt bauzonen` **durchgehend leere PNG
+> abgelegt** — mit der Logzeile «bauzonen: … (4 KB)», die wie ein Erfolg aussieht. Korrigiert und
+> nachgemessen: derselbe Aufruf liefert jetzt 28 KB mit Zoneninhalt.
+>
+> **Merksatz fuer jede kuenftige Endpunktpruefung:** eine Kachel, ein PDF oder ein GeoJSON gilt
+> erst als geprueft, wenn der **Inhalt** gemessen ist. HTTP-Code und Bytezahl belegen, dass ein
+> Server geantwortet hat, nicht dass er das Bestellte geliefert hat. Dieselbe Falle steckte in
+> [[kartenportale-zonenplan-zh]] («Achsen unkritisch, weil quadratische BBOX») — auch dort
+> gemessen und berichtigt.
 
 > Abgrenzung: `ch.are.bauzonen` ist die **bundesweit harmonisierte Übersichts-Bauzone** (ARE) —
 > gut für den Schnellblick. Die **rechtsverbindliche kommunale Grundnutzung/BZO** des Kt. ZH gibt
