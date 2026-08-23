@@ -19,7 +19,24 @@
     ]
   },
   "flaechen": {
-    "hinweis": "Keine HNF/Pflegeplatz- oder NF/GF-Kennzahl aus B6 uebernommen: B6 Abschnitt 8 schliesst den Spital-Korridor 95-100 m2/Bett explizit aus (subtypfremd, doppelt abgeleitet) und weist NF/GF fuer Pflegeheim als nicht belegbar aus. Offener Punkt, siehe wissen/wettbewerbs-dna/wiki/QUESTIONS.md."
+    "einheit_bezeichnung": "Pflegeplatz (PZ), Pflegezimmer rund 24 m2",
+    "gf_pro_einheit_m2": [
+      90,
+      135
+    ],
+    "gf_pro_einheit_m2_median": 111,
+    "gv_pro_einheit_m3": [
+      289,
+      436
+    ],
+    "gv_pro_einheit_m3_median": 343,
+    "gv_gf_faktor": 3.2,
+    "gv_gf_faktor_band": [
+      3.06,
+      3.48
+    ],
+    "quelle": "Abgeleitet aus dem JANS-8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren» (WALD-2410-Arbeitsgrundlagen, R. Jans), gefuehrt in wissen/immobilienbewertung/wiki/realwert-sachwert.md (Run 14, established): acht reale CH-Alters-/Pflegeheime 2011-2025 mit GF, GV (SIA 416) und Bettzahl. Ableitung und Vorbehalte: Vertiefungslauf 2 vom 23.08.2026.",
+    "hinweis": "Keine HNF/Pflegeplatz- oder NF/GF-Kennzahl aus B6 uebernommen: B6 Abschnitt 8 schliesst den Spital-Korridor 95-100 m2/Bett explizit aus (subtypfremd, doppelt abgeleitet) und weist NF/GF fuer Pflegeheim als nicht belegbar aus. Offener Punkt, siehe wissen/wettbewerbs-dna/wiki/QUESTIONS.md. || NACHTRAG 23.08.2026 (Vertiefungslauf 2): der Block war bis dahin leer. Die B6-Sperre bleibt richtig und unberuehrt — der Spital-Korridor 95-100 m2/Bett ist weiterhin NICHT uebernommen (subtypfremd), und ein NF/GF-Faktor fuer Pflegeheime bleibt unbelegt. Neu gefuellt sind ausschliesslich Groessen, die sich aus einem Pflegeheim-eigenen Bestand ableiten lassen. VORBEHALTE: (1) Es sind IST-Werte realer Heime, keine Sollwerte. (2) Das Zentrum St. Anna LU ist bei GF/PZ (207 m2) und GV/PZ (715 m3) ein klarer Ausreisser und deshalb aus beiden Baendern ausgeschlossen — konsistent mit seinem CHF/PZ-Ausreisser von 780'000; beim GV/GF-Faktor ist es mit 3.45 dagegen unauffaellig, der Zentrumscharakter zeigt sich also in der Flaeche je Platz, nicht in der Hoehe. (3) Zwei Zeilen (Averecura, Vella) sind quellenintern inkonsistent (D10 in der fuehrenden KB; per Recompute BKP2/GV bestaetigt: 1'285 statt 1'420 bzw. 1'021 statt 845, die uebrigen sechs reproduzieren exakt). Ohne diese beiden Zeilen bleibt das GF/PZ-Band 90-135 unveraendert (Median sinkt auf 99), das GV/PZ-Band verengt sich auf 289-412 (Median 334), der GV/GF-Faktor bleibt unveraendert. (4) Der GV/GF-Faktor ist eine MITTLERE rechnerische Hoehe inkl. Unter- und Dachgeschossanteilen, NICHT die konstruktive Geschosshoehe."
   },
   "materialien": {
     "tragwerk": "Mischbauweise: Beton fuer Erschliessung/Gemeinschaft (Brand-/Schallschutz) + Holz fuer Zimmer (Wohnlichkeit) — Sihlsana S. 25-26, B4 Abschnitt 2.2",
@@ -36,6 +53,24 @@
       "25 Heizung",
       "27 Aufzuege"
     ],
+    "chf_m3_gv_band": [
+      826,
+      1420
+    ],
+    "chf_m3_gv_band_reproduzierbar": [
+      826,
+      1285
+    ],
+    "chf_m3_gv_median": 1100,
+    "chf_je_einheit": {
+      "einheit": "Pflegeplatz (PZ)",
+      "band": [
+        272780,
+        530000
+      ],
+      "umfang": "BKP 2 Gebaeude, reine Alters-/Pflegeheime, Pflegezimmer rund 24 m2. Das Zentrum St. Anna LU liegt mit 780'000 ausserhalb und ist bewusst nicht im Band — hoher Gemein-/Therapieflaechenanteil."
+    },
+    "bkp_scope": "BKP 2 (Gebaeude). Die Baender beziehen sich ausschliesslich darauf.",
     "quelle_kb": "wissen/immobilienbewertung/wiki/realwert-sachwert.md",
     "quelle_kb_m2_nf": "skills/kostenschaetzung/referenzen/ (Wueest-Healthcare-Kennwerte CHF/m2 NF)",
     "quelle_kb_nicht_anwendbar": "wissen/grobkosten/ — die KB untersagt ihre m3-Werte fuer Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis ausdruecklich (wiki/kennwerte.md, Abschnitt 'Healthcare / Spezialnutzung') und erklaert sich fuer Healthcare unzustaendig (CLAUDE.md); nicht als Quelle fuer dieses Set verwenden.",
@@ -43,7 +78,7 @@
     "preisstand": {
       "jahr": "2011-2025 (gemischt)",
       "teuerungsanker": "Keiner pauschal anwendbar. Der fuehrende Artikel (wissen/immobilienbewertung/wiki/realwert-sachwert.md) fuehrt die acht Objekte bereits teuerungsbereinigt auf einen gemeinsamen Index-Stand ~115; die Rohzeilen tragen dagegen ihre Einzel-Preisstaende 2011-2025. Wer aufindexiert, muss zuerst entscheiden, ob er vom Roh- oder vom bereinigten Band ausgeht — sonst wird doppelt indexiert.",
-      "hinweis": "GEMISCHTE PREISSTAENDE, das ist der wichtigste Vorbehalt dieses Blocks. Das Gesamtband 826-1'420 CHF/m3 GV spannt ueber 14 Jahre; das Teilband 1'053-1'420 gilt nur fuer die sechs Neubauten ab 2019. Der reproduzierbare Rohband liegt bei 826-1'285 (Averecura- und Vella-Zeile quellenintern nicht reproduzierbar, D10). Ein einzelner Punktwert aus diesem Band ohne sein Objektjahr ist nicht verwendbar. Preisstand-Feld nachgetragen 23.08.2026 — bis dahin stand die Zeitspanne nur in Prosa im Feld 'hinweis' und war maschinell nicht auswertbar."
+      "hinweis": "GEMISCHTE PREISSTAENDE, das ist der wichtigste Vorbehalt dieses Blocks. Das Gesamtband 826-1'420 CHF/m3 GV spannt ueber 14 Jahre; das Teilband 1'053-1'420 gilt nur fuer die sechs Neubauten ab 2019. Der reproduzierbare Rohband liegt bei 826-1'285 (Averecura- und Vella-Zeile quellenintern nicht reproduzierbar, D10). Ein einzelner Punktwert aus diesem Band ohne sein Objektjahr ist nicht verwendbar. Preisstand-Feld nachgetragen 23.08.2026 — bis dahin stand die Zeitspanne nur in Prosa im Feld 'hinweis' und war maschinell nicht auswertbar. || Nachtrag 23.08.2026: die Kostenbaender sind jetzt maschinenlesbar gefuehrt statt nur in Prosa. chf_m3_gv_band spiegelt den fuehrenden Artikel (826-1'420); chf_m3_gv_band_reproduzierbar (826-1'285) ist der beim Recompute bestaetigte Teil — welcher Band gilt, ist der offene Entscheid D10 bei Raphael, hier bewusst NICHT vorweggenommen, sondern beides sichtbar gemacht."
     }
   },
   "entwurfs_regeln": [

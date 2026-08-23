@@ -1,5 +1,55 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 2 Revendo) — Healthcare-Flächenblock gefüllt; die Geometrie-Brücke ist doch belegbar
+
+Zweite Runde, angesetzt an der grössten verbliebenen Lücke: der **`flaechen`-Block des
+Healthcare-Sets war vollständig leer** — er enthielt nur einen Hinweis, warum nichts drinsteht.
+
+- **Drei Flächen-Kennwerte aus dem JANS-8-Objekt-Referenzvergleich abgeleitet** (führender Artikel
+  `wissen/immobilienbewertung/wiki/realwert-sachwert.md`, Run 14, established — acht reale
+  CH-Alters-/Pflegeheime 2011–2025 mit GF, GV nach SIA 416 und Bettzahl in derselben Tabelle):
+  **GF je Pflegeplatz 90–135 m²** (Median 111) · **GV je Pflegeplatz 289–436 m³** (Median 343) ·
+  **GV/GF-Faktor 3.06–3.48** (Median **3.2**). Nichts geschätzt, alles gerechnet.
+- **Die B6-Sperre bleibt unberührt.** Der bisherige Hinweis ist **erhalten**: der Spital-Korridor
+  95–100 m²/Bett bleibt **nicht übernommen** (subtypfremd), ein **NF/GF-Faktor für Pflegeheime
+  bleibt unbelegt**. Gefüllt sind ausschliesslich Grössen aus einem pflegeheim-eigenen Bestand.
+- **Vier Vorbehalte im Set mitgeschrieben:** Ist-Werte statt Sollwerte · das **Zentrum St. Anna LU
+  ist ausgeschlossen** (207 m²/PZ, 715 m³/PZ, konsistent mit seinem CHF/PZ-Ausreisser 780'000),
+  beim **GV/GF-Faktor aber mit 3.45 unauffällig** — der Zentrumscharakter zeigt sich in der Fläche
+  je Platz, nicht in der Höhe · **zwei quellenintern inkonsistente Zeilen** (Averecura, Vella, D10),
+  beim Nachrechnen bestätigt (BKP 2/GV ergibt **1'285 statt 1'420** bzw. **1'021 statt 845**, die
+  übrigen **sechs reproduzieren exakt**); **ohne sie bleiben GF/PZ-Band und GV/GF-Faktor
+  unverändert**, GV/PZ verengt sich auf 289–412 — der Kernwert ist also gegen den bekannten
+  Quellenfehler robust · der **GV/GF-Faktor ist eine mittlere rechnerische Höhe** inkl. Unter- und
+  Dachgeschossanteilen, **nicht** die konstruktive Geschosshöhe.
+- **Fortschritt gegenüber dem eigenen Befund vom selben Tag.** Vertiefungslauf 1 hielt fest, die
+  Geometriefelder liessen sich «aus den Wettbewerbs-Quellen nicht seriös füllen». Das stimmt — hier
+  kommt die Quelle aus einer anderen Richtung: nicht aus Juryberichten, sondern aus dem **eigenen
+  JANS-Referenzblatt**. Der **GV/GF-Faktor ist die gesuchte Brücke zu `volumen_generator.py`**, denn
+  er ist die Grösse, mit der aus einer Geschossfläche ein Volumen wird. Bewusst **nicht** als
+  `gebaeude.geschosshoehe_m` eingetragen, sondern als neues Feld **`flaechen.gv_gf_faktor`** — das
+  Schema-Feld meint die konstruktive Geschosshöhe; sie gleichzusetzen wäre genau der stille Fehler,
+  den diese KB vermeiden soll.
+- **Die Entscheidfrage verschiebt sich damit:** nicht mehr «lässt sich Geometrie überhaupt
+  belegen», sondern **ob `volumen_generator.py` einen GV/GF-Faktor entgegennehmen soll statt einer
+  Geschosshöhe**. Schnittstellenfrage an Raphael, keine Recherche. Für Schule und Wohnen fehlt ein
+  vergleichbares Referenzblatt mit GF und GV derselben Objekte — dort bleibt die Lücke.
+- **Healthcare-Kostenbänder jetzt maschinenlesbar** statt nur in Prosa: `chf_m3_gv_band`
+  **[826, 1420]** (spiegelt den führenden Artikel), **`chf_m3_gv_band_reproduzierbar`
+  [826, 1285]** (neu deklariertes Feld, der beim Recompute bestätigte Teil), `chf_m3_gv_median`
+  1100, `chf_je_einheit` Pflegeplatz **272'780–530'000 CHF** (BKP 2; Zentrum St. Anna mit 780'000
+  bewusst ausserhalb), `bkp_scope`. **Welcher Band gilt, ist Entscheid D10 bei Raphael** — hier
+  nicht vorweggenommen, sondern **beides sichtbar gemacht**, statt einen Bandrand stillschweigend
+  mitwandern zu lassen.
+- **Vier neue Felddeklarationen im Schema** (`flaechen.gf_pro_einheit_m2`, `.gv_pro_einheit_m3`,
+  `.gv_gf_faktor`, `kosten_referenz.chf_m3_gv_band_reproduzierbar`), semantisch als **rein additiv**
+  verifiziert. Alle drei Sets nach jedem Schritt `validate.py --all`: **OK**. Am Healthcare-Set
+  sind gegenüber HEAD ausschliesslich **zwei `hinweis`-Felder verändert**, beide durch **Anhängen**
+  — die Originaltexte stehen vollständig darin.
+
+Geänderte Dateien: `parameter-schema/entwurfs-parameter.schema.json`,
+`wiki/parameter-sets/healthcare-neubau-zh.json`, `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf Revendo) — Schema-Deckungs-Audit, Preisstand maschinenlesbar, Kostenblock des Schul-Sets gefüllt
 
 Fortsetzung desselben Tages, Auftrag Raphael: Parameter-Sets prüfen und ausbauen. Erst gemessen,

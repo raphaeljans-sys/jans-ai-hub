@@ -261,3 +261,76 @@ Generator geschlossen werden soll, braucht es entweder (a) eigene JANS-Projektge
 **keine** Geometrie liefern und `volumen_generator.py` seine Geometrie weiterhin ausschliesslich
 aus dem Baufeld rechnet — dann wäre `geschosshoehe_m` aus dem Schema zu streichen statt leer
 mitzuführen. Beides ist ein Entscheid, keine Recherche.
+
+## Vertiefungslauf 2, 23.08.2026 (Revendo) — Healthcare-Flächenblock gefüllt; eine Geometrie-Brücke ist doch belegbar
+
+Zweite Runde. Angesetzt an der grössten verbliebenen Lücke: der **`flaechen`-Block des
+Healthcare-Sets war vollständig leer** — er enthielt nur einen Hinweis, warum nichts drinsteht.
+
+### Was gefüllt wurde und woher
+
+Der führende Artikel `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (established, Run 14)
+führt den **JANS-8-Objekt-Referenzvergleich** «Kennwerte Altersheime Gesundheitszentren»
+(WALD-2410-Arbeitsgrundlagen, R. Jans): acht reale CH-Alters-/Pflegeheime 2011–2025 mit
+**GF, GV nach SIA 416 und Bettzahl** in derselben Tabelle. Daraus lassen sich drei Flächen-Kennwerte
+**rechnerisch ableiten**, ohne irgendetwas zu schätzen:
+
+| Kennwert | Band (reine Heime) | Median |
+|---|---|---|
+| **GF je Pflegeplatz** | 90–135 m² | 111 m² |
+| **GV je Pflegeplatz** | 289–436 m³ | 343 m³ |
+| **GV/GF-Faktor** | 3.06–3.48 | **3.2** |
+
+### Die B6-Sperre bleibt unberührt
+
+Der bisherige Hinweis ist **erhalten und weiterhin gültig**: der Spital-Korridor 95–100 m²/Bett
+bleibt **nicht übernommen** (subtypfremd, doppelt abgeleitet), und ein **NF/GF-Faktor für
+Pflegeheime bleibt unbelegt**. Gefüllt sind ausschliesslich Grössen, die sich aus einem
+**pflegeheim-eigenen** Bestand ableiten.
+
+### Vier Vorbehalte, alle im Set mitgeschrieben
+
+1. **Ist-Werte realer Heime, keine Sollwerte.**
+2. **Das Zentrum St. Anna LU ist ausgeschlossen** — 207 m²/PZ und 715 m³/PZ, klarer Ausreisser,
+   konsistent mit seinem CHF/PZ-Ausreisser von 780'000. Beim **GV/GF-Faktor ist es mit 3.45
+   dagegen unauffällig**: der Zentrumscharakter zeigt sich in der Fläche je Platz, nicht in der
+   Höhe. Das ist ein innerer Konsistenzbefund, der die Ableitung stützt.
+3. **Zwei Zeilen sind quellenintern inkonsistent** (Averecura, Vella — D10 in der führenden KB).
+   Beim Nachrechnen bestätigt: BKP 2 / GV ergibt **1'285 statt 1'420** bzw. **1'021 statt 845**,
+   die übrigen **sechs reproduzieren exakt**. Ohne diese beiden Zeilen bleibt das GF/PZ-Band
+   **unverändert** 90–135 (Median sinkt auf 99), GV/PZ verengt sich auf 289–412 (Median 334), der
+   **GV/GF-Faktor bleibt unverändert**. Der Kernwert ist also gegen den bekannten Quellenfehler
+   robust.
+4. **Der GV/GF-Faktor ist eine mittlere rechnerische Höhe** inkl. Unter- und Dachgeschossanteilen,
+   **nicht** die konstruktive Geschosshöhe.
+
+### Fortschritt gegenüber dem eigenen Befund von heute Morgen
+
+Der Vertiefungslauf 1 hielt fest, die Geometriefelder liessen sich «aus den Wettbewerbs-Quellen
+nicht seriös füllen — Juryberichte belegen Regeln und Kosten, nicht Regelgeometrie», und die
+Entscheidfrage laute, ob man eigene JANS-Projektgeometrie erschliesse. **Genau das ist hier
+passiert**, nur aus einer anderen Richtung: nicht aus Wettbewerbsberichten, sondern aus dem
+**eigenen JANS-Referenzblatt**, das GF, GV und Bettzahl derselben Objekte nebeneinander führt.
+
+Der **GV/GF-Faktor ist die gesuchte Brücke zu `volumen_generator.py`** — er ist die Grösse, mit
+der aus einer Geschossfläche ein Volumen wird. Er ist bewusst **nicht** als
+`gebaeude.geschosshoehe_m` eingetragen, sondern als eigenes, neu deklariertes Feld
+`flaechen.gv_gf_faktor`: das Schema-Feld meint die konstruktive Geschosshöhe, der Faktor ist eine
+mittlere rechnerische Höhe. Sie gleichzusetzen wäre genau der stille Fehler, den diese KB
+vermeiden soll.
+
+**Damit verschiebt sich die Entscheidfrage aus Vertiefungslauf 1:** sie lautet nicht mehr «lässt
+sich Geometrie überhaupt belegen», sondern **ob `volumen_generator.py` einen GV/GF-Faktor
+entgegennehmen soll statt einer Geschosshöhe**. Das ist eine Schnittstellenfrage an Raphael, keine
+Recherche. Für Schule und Wohnen fehlt ein vergleichbares Referenzblatt mit GF und GV derselben
+Objekte — dort bleibt die Lücke.
+
+### Auch gefüllt: die Healthcare-Kostenbänder sind jetzt maschinenlesbar
+
+Sie standen bisher nur in Prosa im Feld `hinweis`. Neu: `chf_m3_gv_band` **[826, 1420]** (spiegelt
+den führenden Artikel), `chf_m3_gv_band_reproduzierbar` **[826, 1285]** (der beim Recompute
+bestätigte Teil, neu deklariertes Feld), `chf_m3_gv_median` 1100, `chf_je_einheit` Pflegeplatz
+**272'780–530'000 CHF** (BKP 2; das Zentrum St. Anna mit 780'000 bewusst ausserhalb) und
+`bkp_scope`. **Welcher Band gilt, ist der offene Entscheid D10 bei Raphael** — hier bewusst nicht
+vorweggenommen, sondern **beides sichtbar gemacht**, statt einen Rand stillschweigend mitwandern
+zu lassen.

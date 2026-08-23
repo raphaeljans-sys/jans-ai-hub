@@ -162,6 +162,30 @@
         "hinweis": {
           "type": "string",
           "description": "Freitext-Vorbehalte zu den Flaechenkennwerten. Wird bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026)."
+        },
+        "gf_pro_einheit_m2": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Geschossflaeche je typologischer Einheit [min, max] in m2, aus realen Objekten abgeleitet. Ergaenzt hnf_pro_einheit_m2 dort, wo die Quellen GF statt HNF belegen. Eingefuehrt 23.08.2026."
+        },
+        "gv_pro_einheit_m3": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Gebaeudevolumen je typologischer Einheit [min, max] in m3 (SIA 416). Eingefuehrt 23.08.2026."
+        },
+        "gv_gf_faktor": {
+          "type": "number",
+          "minimum": 1.5,
+          "maximum": 8.0,
+          "description": "★ Verhaeltnis Gebaeudevolumen zu Geschossflaeche (GV/GF), aus realen Objekten abgeleitet — die Groesse, mit der aus einer Geschossflaeche ein Volumen wird. Bewusst NICHT als gebaeude.geschosshoehe_m gefuehrt: GV nach SIA 416 enthaelt Unter- und Dachgeschossanteile, der Faktor ist deshalb eine MITTLERE rechnerische Hoehe und nicht die konstruktive oder lichte Geschosshoehe. Fuer volumen_generator.py ist er dennoch die sachlich richtige Groesse. Eingefuehrt 23.08.2026."
         }
       }
     },
@@ -333,6 +357,15 @@
         "hinweis": {
           "type": "string",
           "description": "Freitext-Vorbehalte zu den Kostenangaben. Wird bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026)."
+        },
+        "chf_m3_gv_band_reproduzierbar": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Der Teil des CHF/m3-GV-Bands, der beim Recompute gegen die Quellzahlen reproduziert. Getrennt gefuehrt, damit ein nicht reproduzierbarer Bandrand nicht stillschweigend mitwandert. Eingefuehrt 23.08.2026."
         }
       }
     },
