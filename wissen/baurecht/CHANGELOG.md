@@ -3,6 +3,67 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 97: [[raumplanung-und-gestaltung]] re-verifiziert — erstmals Bundesrecht (RPG/RPV/BV) frisch gegen fedlex.data.admin.ch geprüft; 2 echte Korrekturen, 1 klarstellende Fussnote
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: `CHANGELOG.md`
+  bis Run 96 und der Report `outputs/2026-08-23_buch-run96.md`. Die Reglemente-Queue selbst ist
+  seit Run 87 vollständig T1-T9 abgearbeitet; seit Run 90 läuft die von den Läufen selbst
+  vorgeschlagene Fortsetzung — die Modell-D-Re-Verifikationskette der `established`-Artikel nach
+  ältestem `verifiziert`-Datum. Run 95/96 hatten [[raumplanung-und-gestaltung]] neben dem in Run 96
+  bearbeiteten Artikel als ebenfalls am längsten unberührt mit eigenem Quellenkreis benannt.
+- **Auswahl:** [[raumplanung-und-gestaltung]] — einziger Kandidat des 2026-07-27-Batches, dessen
+  Quellenkreis primär **Bundesrecht** (RPG/RPV/BV) statt kantonalem PBG ist.
+- **Buch-Destillate zuerst geprüft:** `02-raumplanung-richtplanung-nutzungsplanung.md` und
+  `02-nutzungsplanung-zonenarten-teil2.md` (Bd 1, Kap. 2) gelesen — keine neue Diskrepanz zum
+  Buch; die Buch-eigene Zitierweise (getrennte Zuordnung von haushälterischer Nutzung, Bau-/
+  Nichtbaugebiet-Trennung und 15-Jahre-Regel auf je eigene Normen) diente als Vorlage für
+  Korrektur (1) unten.
+- **Genuiner Befund: sieben Bundesrechts-Zitate dieses Artikels (Art. 1/4/9/15/21/25a/26 RPG,
+  Art. 33 RPV, Art. 75 BV) waren in der Verifikationshistorie des Artikels noch nie gegen den
+  amtlichen Volltext geprüft** — nur die PBG-Paragraphen trugen einen Volltextabgleich-Vermerk
+  (Run 63). Frisch bezogen über `fedlex.data.admin.ch` (Filestore-Muster, Rule
+  `docs/referenz/fedlex-volltexte.md`): RPG SR 700 (ELI `1979/1573_1573_1573`, konsolidiert
+  01.07.2026 — neuere Fassung als die im bestehenden `raw/260714_amtlich_ch_rpg-erschliessung.md`
+  dokumentierte 01.04.2026), RPV SR 700.1 (ELI `2000/310`, konsolidiert 01.01.2026), BV SR 101
+  (ELI `1999/404`, konsolidiert 01.01.2024 — `www`-Route lieferte für 2025/2026 nur die
+  77'151-Byte-App-Hülle, Art. 75 seit 2024 unverändert).
+- **Ergebnis Bundesrecht:** Art. 1 Abs. 1, Art. 4 Abs. 2, Art. 9 Abs. 1, Art. 15 Abs. 1/2,
+  Art. 21 Abs. 1, Art. 25a, Art. 26 Abs. 3 RPG sowie Art. 75 Abs. 1 BV **CONFIRMED wortgleich**.
+  **2 echte Korrekturen:** (1) Der Artikel schrieb die 15-Jahre-Bauzonenregel gebündelt
+  Art. 15 Abs. 1 RPG, § 18 lit. b PBG und Art. 75 Abs. 1 BV zu — am amtlichen Wortlaut enthält
+  jedoch nur Art. 15 Abs. 1 RPG die Zahl («… dass sie dem voraussichtlichen Bedarf für 15 Jahre
+  entsprechen»); § 18 lit. b PBG trägt nur die allgemeine haushälterische-Nutzung-Formel, Art. 75
+  Abs. 1 BV nur den verfassungsrechtlichen Grundauftrag — genau wie das Buch-Destillat selbst die
+  drei Aussagen bereits getrennt führt (S. 114). Jetzt im Artikel entflochten. (2) Art. 15 Abs. 4
+  RPG hat **fünf** kumulative Neueinzonungs-Kriterien (lit. a–e), der Artikel führte nur lit. a–d
+  und liess lit. e (Umsetzung der Richtplan-Vorgaben) aus — ergänzt.
+- **1 klarstellende Fussnote (kein Fehler, gleiche Familie wie Run 95s Marginal-Titel-Fund):**
+  die «≥ 10 bewohnte Gebäude»-Schwelle der Weilerzone steht nicht im Verordnungswortlaut von
+  Art. 33 RPV (der nennt nur die Ermächtigung zu besonderen Zonen nach Art. 18 RPG, sofern der
+  kantonale Richtplan dies vorsieht) — die Zahl ist eine Buch-/Praxis-Konkretisierung (Bd 1,
+  Kap. 2, S. 165). Als Warnhinweis ergänzt, damit ein künftiger Lauf sie nicht für ein wörtliches
+  RPV-Zitat hält.
+- **PBG-Fassungsstand:** kein neuer Live-Abruf nötig, Run 94 hat Nachtrag 133 (weiterhin geltend
+  bis 01.10.2026) am selben Tag bereits bestätigt. Vollständiger Wortlautabgleich §§ 44a, 49b,
+  82-89, 238 PBG gegen `raw/260607_amtlich_zh_pbg.md` — **CONFIRMED wortgleich, 0 Korrekturen**.
+- **In die KB eingearbeitet:** `wiki/raumplanung-und-gestaltung.md` (2 Korrekturen im Fliesstext,
+  1 Fussnote, neuer `verifiziert`-Eintrag an den bestehenden Run-63-Eintrag angehängt, `sources`
+  um die drei frischen Fedlex-Belege ergänzt, `last_updated: 2026-08-23` — bestehender Text sonst
+  vollständig erhalten), `training/PROGRAMM.md` (Tracker-Eintrag Run 97). Report
+  `outputs/2026-08-23_buch-run97.md`. **Kein neuer `raw/`-Volltext** (die frischen RPG/RPV/BV-PDFs
+  wurden nur temporär für die Extraktion geladen, nicht Teil der KB — ihre Fundstellen sind über
+  `sources` referenziert).
+- **Diff-Kontrolle (Rule 260811):** `git status --short wissen/baurecht/` nativ per SSH (LAN-IP
+  `192.168.1.10`, Repo `/volume2/daten/jans-ai-hub` — Tailscale-Hostname in dieser Session nicht
+  erreichbar) vor dem ersten Edit geprüft: eine unabhängige, noch nicht committete Änderung aus
+  einem parallel laufenden `normen`-Lauf lag bereits vor (`wiki/baureife-und-erschliessung.md`,
+  additiv, Kehrplatz-Normfussnote) — nicht angerührt, kein Konflikt mit den hier bearbeiteten
+  Dateien. `git diff --numstat` nach dem Schreiben auf rein additive Änderungen an den eigenen
+  drei Dateien geprüft.
+- **Konkurrenz-Check:** `ps aux` zeigte den eigenen Lauf-Prozess (Name `mschub143`, Skill
+  `baurecht`) sowie zwei unabhängige, nicht-konkurrierende `normen`-Läufe (andere KB) — kein
+  Konflikt in `wissen/baurecht/`.
+
 ## 2026-08-23 — Buch-Run 96: [[baurechtlicher-vorentscheid-und-voranfrage]] re-verifiziert — CONFIRMED wortgleich, 0 Korrekturen; PBG-Nachtrag 134 (Run 94) betrifft die hier zitierten Paragraphen nicht
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: CHANGELOG

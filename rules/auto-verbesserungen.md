@@ -14,6 +14,31 @@ launchd-Jobs und Loop-Takten liegen in `rules/betrieb-chronik.md` (**nicht impor
 Wer an der Automatik arbeitet (Runner, Gate, Waechter, Takte, launchd), liest die Chronik
 zuerst.
 
+## 260823 — Massen-Sweeps über Geschäftsdaten: heikle Ordner vorher ausschliessen
+- **Regel:** Bevor ein Agenten-Fan-out, ein Lern-Loop oder ein Destillat-Lauf auf einen **ganzen
+  Geschäftsdaten-Baum** gerichtet wird (`/Volumes/daten/04_Buero`, `02_Architektur_Archiv`,
+  Projektordner, Mail-Archive), wird die Zielmenge **zuerst bereinigt** und die Ausschlussliste im
+  Auftrag ausdrücklich genannt: **Verträge, Bewerbungen und Personaldossiers, Adress- und
+  Kontaktsammlungen, Lohn- und Honorardaten, Gesundheits- und Privatunterlagen.** Diese Ordner
+  werden gar nicht erst besucht. **Ein Inventar ist keine Entschärfung** — es nennt Namen,
+  Beträge und Gegenparteien und ist damit selbst die Weitergabe. Was aus einem solchen Sweep
+  entsteht, gehört nie in ein versioniertes, automatisch gepushtes Repo.
+- **Warum, mit Beleg:** Am 23.08.2026 richtete ein 50-Agenten-Harness Inventarläufe auf die
+  beiden Korpora `buero-referenzen` und `archiv-fachwissen`. Der Sicherheits-Klassifikator stoppte
+  den Agenten für `23_Vertraege` mit der zutreffenden Begründung, Vertragsinhalte Dritter würden
+  in ein git-verfolgtes, gepushtes Repo gezogen, ohne dass der Auftrag das je benannt hatte.
+  **Was er nicht abfing, war `16_Portfolios`** — eine Ablage eingegangener Bewerbungsmappen
+  2007–2010; die Inventardatei nannte eine bewerbende Person namentlich und war binnen 15 Minuten
+  vom `nas-selfcommit` committet und gepusht (Commit `75d50502`). Die Datei wurde aus dem
+  Arbeitsbaum entfernt, die Historie bewusst **nicht** umgeschrieben (privates Repo, und ein
+  Force-Push gegen ein Repo, aus dem drei Stationen klonen, während Lern-Läufe hineinschreiben,
+  ist gefährlicher als der Befund). **Der Fehler lag im Entwurf, nicht am Klassifikator:** ein
+  breiter Auftrag wie «Vollgas, alle Stationen» ist keine Freigabe, Vertrags- und Bewerberdaten
+  zu erfassen. Wer den Sweep baut, verantwortet die Zielmenge.
+- **Gilt für:** alle Workflows und Agenten-Fan-outs, Skill `wissens-destillat`, alle Lern-Loops,
+  alle Stationen. Ergänzt `wissens-bibliothekar.md` (Umgang mit `raw/`) und die Grenzen der
+  User-CLAUDE.md.
+
 ## 260820 — Abklärungen kurz halten: drei Sätze plus Erklärskizze statt Fliesstext-Dossier
 - **Regel:** Das Ergebnis einer **Abklärung** (Montagehöhe, Mass, Apparatewahl, Zuordnung,
   einzelne Fachfrage) wird **kurz** ausgegeben: rund **drei Sätze** mit Empfehlung, Herleitung

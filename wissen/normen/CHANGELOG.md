@@ -1,3 +1,42 @@
+## 2026-08-23 — SIA-Sweep, vierundzwanzigste Fortsetzung: Bring-Schulden-Einkaufsliste (P1–P4) statt weiterer Beschaffung
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz`, Fundstellenpflicht. CHANGELOG und Report des letzten
+Laufs zuerst gelesen, dort weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Kollisionsprüfung:** eigener Prozess (identischer Auftragstext) sowie ein paralleler
+`QUESTIONS-Abarbeitung`-Lauf auf derselben KB (andere Datei) und ein `baurecht`-Lauf (andere KB)
+liefen laut `ps aux` gleichzeitig — kein Konflikt, `norm-inventar.md` und `REGISTER.md` unmittelbar
+vor dem eigenen Schreibvorgang frisch gelesen.
+
+**Befund:** Die 23. Fortsetzung hatte die Section-A-Sweep (SIA — Gültigkeit je Norm) für
+abgeschlossen erklärt. Eigene Verifikation bestätigt: `training/norm-inventar.md` führt 0 offene
+`[ ]`-Positionen in allen Familien; `wiki/REGISTER.md` Abschnitt A hat 59 SIA-Zeilen ohne Volltext
+im Haus, alle bereits mit Produktdatenblatt UND Corrigenda-Check belegt. Keine unbehandelte
+SIA-Zeile mehr offen — der einzig sinnvolle Beitrag innerhalb des SIA-Mandats ist die von der 23.
+Fortsetzung selbst vorgeschlagene Bring-Schulden-Priorisierung.
+
+**Geleistet:** Alle 59 Zeilen nach Bezug zu aktiven JANS-Fach-Skills in vier Prioritätsstufen
+sortiert (P1 `werkvertrag`/`energie`/Healthcare-Bestandsbauten-Kernnormen: SIA 118/430, SIA 380,
+SIA 384/1, SIA 269/8, SIA 243, SIA 384/6; P2 Ausschreibungs-AVB SIA 118/xxx + SIA 242/242.002;
+P3 Tragwerkserhaltung SIA-269-Familie + SIA 274; P4 geringe Relevanz) — reine Synthese bereits
+belegter Register-Zeilen, keine neue Web-Recherche. Sechs Zeilen als gegenstandslos markiert
+(Norminhalt bereits über eine andere Bestandsquelle abgedeckt: SIA 381/3, 2001, 2027, 2035, 2036,
+422). N-SIASWEEP-2/3 (SIA 422, SIA 2025) bewusst nicht erneut versucht — alle kostenlos
+zugänglichen Quellenarten laut Fortsetzungen 6–8 erschöpft (Rule `wege-und-vollmachten`: dieselbe
+Sackgasse nicht zweimal laufen). Abschnitt D (DIN/VSS/RAL) nicht geprüft — ausserhalb des auf SIA
+begrenzten Auftrags.
+
+**Nachgeführt:** `wiki/REGISTER.md` (additiver Verweisabsatz im Blindzone-Abschnitt, nach dem
+Absatz der 23. Fortsetzung, vor der «Verbindliche Regel»); kein neues Destillat (Liste enthält
+keine neue Norm-Aussage). Report: `outputs/2026-08-23_sia-sweep-vierundzwanzigste-fortsetzung.md`.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md` rein
+additiv (ein neuer Absatz), `CHANGELOG.md` rein additiv (dieser Eintrag oben eingefügt). Kein
+`git`-Schreibbefehl über den SMB-Mount; Commit über `scripts/nas-commit-now.sh`.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 19: SIA 2001/2024-Zeile geschlossen (Verweis auf bereits vorhandene REGISTER-Antwort + bestätigte Cross-KB-Bringschuld), SN 641 400 weiterer Anlauf ohne Ablösungsbeleg
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
