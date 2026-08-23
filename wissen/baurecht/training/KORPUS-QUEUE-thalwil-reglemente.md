@@ -384,7 +384,16 @@ Abs. 1 StGB (Vorsatz) ist seit 1.7.2023 Freiheitsstrafe bis **5** statt 3 Jahre 
 für Abs. 2, fahrlässig). **1 substanzieller Neubefund:** Art. 25 Abs. 5 RPG kodifiziert seit
 1.1.2026 die 30-Jahre-Verwirkung des Wiederherstellungsanspruchs erstmals bundesrechtlich, aber nur
 für Bauvorhaben ausserhalb der Bauzonen — innerhalb bleibt es bei der bisherigen kantonalen
-Praxis/Rechtsprechung (BGer 1C_726/2013). Report `outputs/2026-08-23_buch-run101.md`.
+Praxis/Rechtsprechung (BGer 1C_726/2013). Report `outputs/2026-08-23_buch-run101.md`. Run 102 hat
+Run 101s Empfehlung ([[nebenbestimmungen-und-reverse]]) zuerst widerlegt — der Artikel ist bereits
+seit Buch-Run 67 (27.07.2026) vollständig inkl. Art. 962 ZGB/Art. 164 GBV verifiziert — und statt
+dessen [[rechtsschutz-und-rechtsmittelverfahren]] gewählt (11 Bundesrechts-Zitate über 6 Erlasse
+BV/BGG/RPG/NHG/EMRK/ZPO, bislang keines geprüft). **10/11 CONFIRMED wortgleich, 1 Korrektur:**
+Art. 103 BGG trägt die bisherige Aussage «Bund: keine, ausser Antrag» nicht selbst — die
+Antrags-Möglichkeit für eine vorsorgliche Massnahme steht in **Art. 104 BGG**. Report
+`outputs/2026-08-23_buch-run102.md`. **Nächster Schritt:** [[ausnahmebewilligung-und-bestandesschutz]]
+ist der letzte verbleibende Kandidat mit echter Bundesrechts-Lücke (Art. 24c RPG, Art. 41c GSchV,
+Art. 26 BV, Art. 8 ZGB).
 
 ## Arbeitsregeln je Batch
 

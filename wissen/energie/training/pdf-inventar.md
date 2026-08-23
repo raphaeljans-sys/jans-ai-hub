@@ -1234,3 +1234,46 @@ eine JANS-eigene Produktnotiz (Inhalt oben vollständig gesichert).
 **Der PL-04-Bestand ist damit erstmals ohne Dateityp-Filter vollständig entschieden.** Die 76
 PNG-Screenshots und die 57 Nachweiskurs-Einzelseiten bleiben nach der Kopfregel bewusst
 ungeführt.
+
+## Nachtrag 2026-08-23 (siebzehnte Fortsetzung, interaktive Session): PL-02/PL-03/PL-05 filterlos gezählt (E-R161-3)
+
+Dieselbe filterlose Zählung wie Run 161 (oben), jetzt auf die drei übrigen PL-Bibliotheken
+angewendet. Eigenes Script `/tmp/pl-filterlos-260823-scan.mjs` (rekursiver Graph-Ordner-Walk,
+wiederverwendet die Zertifikats-Auth aus `m365-graph.mjs`), da die einzelnen `--get`-Aufrufe für
+einen Korpus dieser Grösse zu viele Einzelschritte gebraucht hätten.
+
+**Drive-IDs neu aufgelöst:**
+`03 Brandschutz` = `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfJ5dwcpvCsTY_mlEBr1EMe` ·
+`05 Planungsportale` = `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3ScqIKtsF0VuTLR9OLndo90m`.
+
+| Bibliothek | Dateien | Ordner | Zuständigkeit |
+|---|---|---|---|
+| PL-05 Planungsportale | **0** | 0 | leer, kein Klärungsbedarf |
+| PL-03 Brandschutz | **153** (105 PDF, 27 PNG, 11 docx, 7 JPEG, 1 EML, 1 ZIP, 1 ohne Endung) | 38 | ausserhalb `energie` (KB `brandschutz`), nicht inhaltlich geprüft |
+| PL-02 Recht_Norm | **2'551** (bisher nur 1'222 PDF im Register) | 403 | teilweise `energie`-relevant, siehe unten |
+
+**PL-02 im Detail:** 145 der "exotischen" Dateiendungen sind das MINERGIE-ECO-Rechentool selbst
+als komplettes macOS-App-Bundle (`06_Richtlinien/Minergie/Tool/Tool_MiEcoV23/MiEcoV23.app/`,
+72,9 MB) — kein Dokument. 57 weitere sind JANS-eigene CAD-Arbeitsdateien (`.dwg/.pln/.mpr/.ad4`
+u.a.), fehlplatziert in der Rechts-Bibliothek, ohne erkennbaren Energiebezug.
+
+Von den verbleibenden ~20 Energie-relevanten Nicht-PDF-Dateien (Ordner `06_Richtlinien/Minergie/`,
+`2000 Watt/`, `14-Energie-und Gebaeudetechnik/`) wurden fünf tatsächlich heruntergeladen und
+geöffnet (nicht nur am Dateinamen eingestuft):
+
+| Datei | Befund |
+|---|---|
+| `Nuetzliche Unterlagen/Verschattungs-Tool-Internet.doc` | toter Windows-Pfadverweis, kein Fliesstext (mit `textutil` geprüft) |
+| `SIA380_1_Energie_im_Hochbau/Energienachweise EnDk.ch.docx` | 2010er EnDK-Website-Screenshots (6 PNG), kein Fliesstext im XML, Inhalt durch `vollzugsordner-energie-zh-abschnitt*` überholt |
+| `14.3-Richtlinien/Verzeichnis_Vorschriften_Normen_Richtlinien.xls` | AHB-Rechtsmatrix, Stand 12.12.2006 — 20 Jahre veraltet, alle Erlassstände seither revidiert |
+| `ME-Antrag/GK3-2010ME1.xlsx` | leeres MINERGIE-Formular v11a, gültig bis 31.12.2010 |
+| `ME-Antrag/Beispiel 1 Pellets Solar.xls` | fiktives Lehrbeispiel ("Musterstrasse 99"), MINERGIE v11, keine reale Zahl |
+
+**Kein KI-generiertes Dokument in PL-02 gefunden** (anders als PL-04/Run 161) — die geöffneten
+Nicht-PDF-Quellen sind durchweg vordigitale Templates/Kursunterlagen 2006-2011. Details, die
+nicht einzeln geöffneten Dateien und der Cross-KB-Hinweis für die Baurecht-/SIA-/STWEG-docx in
+PL-02 sowie die Brandschutz-Dateien in PL-03: `wiki/QUESTIONS.md`, Eintrag E-R161-3.
+
+**PL-02 gilt damit für den Nicht-PDF-Anteil als filterlos gesichtet — für den PDF-Anteil bleibt
+der bekannte Fortschritt (Stand zuletzt 85 von 182 kuratierten Prioritäts-PDF) unverändert
+gültig**, das war nicht Gegenstand dieses Nachtrags.

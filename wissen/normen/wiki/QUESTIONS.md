@@ -3199,13 +3199,25 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 
 ### Neu offen (aus Run 22)
 
-- [ ] **VERIFIKATION AUSSTEHEND für vier heute erzeugte/erweiterte Artefakte.** Alle vier sind einfach
-  destilliert und noch nicht adversarial gegengeprüft; ihre Inhalte dürfen bis dahin nicht als belegte
-  Fundstelle in ausgehende Dokumente wandern:
-  `sia-266-1-2003.md` (nach Korrektur re-verifizieren), `sia-410-1986.md`,
-  sowie die **Fassungs-Deltas 2017** in `vkf-brl-13-15-baustoffe-bauteile.md` und
-  `vkf-brl-verwendung-baustoffe.md`, und `wiki/vkf-beherbergungskategorien.md` (nach Korrektur).
-  Das ist der nächste Lauf: Retro-Verifikation dieser fünf, bevor irgendeine neue Quelle angefasst wird.
+- [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung), nachtraeglich abgehakt.** Die Retro-Verifikation
+  aller fuenf hier genannten Artefakte hat noch am selben Tag (25.07.2026) stattgefunden, nur die
+  Checkbox wurde seither nie nachgezogen — gleiches Muster wie beim GESCHLOSSEN-Eintrag direkt darunter.
+  Beleg je Datei (Frontmatter-Felder `status`/`verifikation`, heute 23.08.2026 gegengelesen):
+  `sia-266-1-2003.md` durchlief FUENF Retro-Verifikationsrunden (Run 23-25, 25.07.2026; Runde 1
+  13+9 Befunde, Runde 2-4 je 1-2 Befunde, Runde 5 0 Befunde), Status seither `established` — die
+  heutige (23.08.) Ergaenzung ist nur der web-belegte `superseded`-Hinweis auf SIA 266/1:2015, keine
+  Aenderung an den verifizierten Ziffern. `sia-410-1986.md` adversarial geprueft Run 23 (BEANSTANDET,
+  korrigiert, auf `established` gehoben) plus Q&A-Selbstbefragung Run 27 (18 Fragen, 0 Widersprueche);
+  die heutige Ergaenzung ist ebenso nur der web-belegte `zurückgezogen`-Hinweis (suissetec.ch,
+  Ruecknahme per 01.01.2025), keine Aenderung am verifizierten Bestand. `vkf-brl-13-15-baustoffe-
+  bauteile.md`: Fassungs-Delta 2017 adversarial per Seitenbildvergleich gegengeprueft (Run 23,
+  Verdikt BESTANDEN, 0 Abweichungen), Status `established`. `vkf-brl-verwendung-baustoffe.md`:
+  Fassungs-Delta 2017 adversarial verifiziert (Run 23, BEANSTANDET, 5 Korrekturen eingearbeitet;
+  Run 24 unabhaengige Re-Verifikation, 4/5 bestaetigt, 1/5 praezisiert), Status `established`.
+  `wiki/vkf-beherbergungskategorien.md`: zwei unabhaengige Verifikationsrunden (Runde 1 BEANSTANDET,
+  12 Korrekturen; Runde 2 Run 23, alle 12 seitengenau bestaetigt plus 1 neuer Befund korrigiert),
+  Status `established`. Alle fuenf sind damit seit 25.07.2026 zitierfaehig; kein weiterer Lauf muss
+  diesen Punkt erneut aufgreifen.
 - [x] **GESCHLOSSEN (Run 24, 260725): P1-FOLGEARBEIT VKF-BRL 16-15 Ziff. 3.5.2 Personenbelegung —
   bereits vollständig nachgeführt, nur hier nicht abgehakt.** Geprüft: Das Destillat
   `vkf-brl-16-15-flucht-rettungswege.md` führt die Verkaufs-Tabelle (Fachmärkte 0.10/0.10,
@@ -3580,13 +3592,21 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   4 gelesenen Seiten hinaus (v. a. die vollständige Klassentabelle, Prüfverfahren-
   Anhänge, Ziff. 1-4) weiterhin die Vollnorm via Beuth-Verlag oder erneute
   SharePoint-/M365-Suche beschaffen. Notiert 13.07.2026 (normen-training-mini, Mac Mini).
-- [ ] **Schweizer Pendants zu deutschen Sonstiges-Destillaten fehlen noch (Mac Mini Run,
-  13.07.2026):** Beim Destillieren mehrerer deutscher Nicht-DIN-Dokumente (BauNVO, ArbStättV,
-  VStättVO Niedersachsen, DIN 18041 Hörsamkeit, Treppen-Lehrskript) fiel wiederholt auf, dass
-  die zugehörige Schweizer Grundlage in dieser KB noch fehlt: **SIA 500 "Hindernisfreie Bauten"**
-  (Pendant zu NBauO-Barrierefreiheit/ArbStättV §3a Abs.2), **SIA-Grundlagen Raumakustik**
-  (Pendant zu DIN 18041) und die **SIA 260er-Tragwerksnormen** (Pendant zu den Eurocodes,
-  DIN EN 1990-1999). Fuer den SIA/VKF-Loop (MacBook Pro) als Ergaenzungskandidaten vormerken.
+- [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 24). Schweizer Pendants zu deutschen
+  Sonstiges-Destillaten fehlen noch (Mac Mini Run, 13.07.2026)** — alle drei genannten
+  Ergaenzungskandidaten sind inzwischen im Bestand. **SIA 500 "Hindernisfreie Bauten"**
+  (Pendant zu NBauO-Barrierefreiheit/ArbStättV §3a Abs.2): `destillate/sia-500-2009.md`,
+  established, seit 23.08.2026 inkl. aller vier Korrigenda C1:2009-C4:2019 am amtlichen
+  Wortlaut ausgewertet (`wiki/REGISTER.md` Z. 921). **SIA-Grundlagen Raumakustik** (Pendant
+  zu DIN 18041): `destillate/sia-181-1-2026.md` — SIA 181/1:2026, SN 520181/1, gültig ab
+  01.02.2026, neue eigenständige Norm; Produktdatenblatt web-verifiziert 23.08.2026, Volltext
+  kostenpflichtig (110 CHF, Bring-Schuld Raphael) — schliesst die Lücke „keine
+  SIA-Raumakustik-Norm im Bestand" (`wiki/REGISTER.md` Z. 1575, Mini-Run 30). **Die
+  SIA 260er-Tragwerksnormen** (Pendant zu den Eurocodes DIN EN 1990-1999): vollstaendige
+  Serie `sia-260-2003.md`, `sia-261-2003.md`/`-1`, `sia-262-2003.md`/`-1`, `sia-263-2003.md`,
+  `sia-264-2003.md`/`-1`, `sia-265-2003.md`, `sia-266-2003.md`/`-1`, `sia-267-2003.md`/`-1`
+  im Destillat-Ordner, mehrere davon (261/1, 262/1, 264/1, 267/1) mit Refuter-Verifikation
+  260807 established. Kein weiterer Ergaenzungsbedarf aus diesem Punkt.
 - [ ] **DIN-Sonstiges-Ordner: gemischter Inhalt, nicht alles sind Normen.** Der Ordner
   `DIN_Norm/Sonstiges/` enthaelt neben echten DIN-Normen auch deutsche Landesrecht-Auszuege
   (NBauO/DVNBauO Niedersachsen), HOAI-Leistungsbild-Exzerpte und ein Lehrskript (HCU Hamburg
@@ -4108,11 +4128,24 @@ einzeln geprüft:
   Destillation, sondern der **Gültigkeitsstand** der 2000er-Serie (eigener Eintrag unten, Run 16).
 - [ ] **VKF-Normkonzept BSV 2026 (Stand 06.10.2022) neu im Inventar** — noch NICHT in Kraft, daher nie
   als geltendes Recht zitieren. Strategisch relevant als Vorschau auf die Abloesung der BSV 2015.
-- [ ] **Inventar-Scan haerten:** Der Scan vom 11.07.2026 hat nur `SIA_Normen/alle/` erfasst (58 Dateien
+- [~] **Inventar-Scan haerten:** Der Scan vom 11.07.2026 hat nur `SIA_Normen/alle/` erfasst (58 Dateien
   uebersehen) und Vorschau-PDFs nicht erkannt. Zwei Konsequenzen fuer den naechsten Scan: (1) rekursiv
   ab `02_Normen/` scannen, nicht ab einem Unterordner; (2) je PDF die tatsaechliche Seitenzahl gegen die
   auf dem Titelblatt deklarierte «Anzahl Seiten» pruefen — damit waeren beide Auszuege sofort aufgefallen.
   Gegenprobe Run 15: im uebrigen destillierten SIA-Bestand (`alle/`) gibt es **0 weitere Auszuege**.
+  > **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung 24): Punkt (1) substanziell erledigt, Punkt (2) bleibt
+  > offen.** Die SIA-Sweep-Fortsetzung „fünfte" (23.08.2026) hat mit funktionierendem Graph-API-Zugang
+  > ein vollstaendiges Listing von 140 Dateien aus `SIA_Norm/SIA_Normen/alle/` plus sieben norm-eigenen
+  > Unterordnern gegen die 55 Bestandslücken-Nummern gefahren — 0 Treffer, die Luecke ist real, kein
+  > Scan-Artefakt der urspruenglichen `alle/`-only-Erfassung (`outputs/2026-08-23_sia-sweep-fuenfte-
+  > fortsetzung-zugangsweg.md`). Damit ist der urspruengliche Verdacht «rekursiver Scan faende mehr»
+  > fuer den SIA-Bestand widerlegt, nicht nur fuer den Unterordner `alle/`. **Punkt (2) — Seitenzahl
+  > gegen Titelblatt-Deklaration je PDF — ist NICHT erneut gegen den seit Run 15 (Mitte Juli) massiv
+  > gewachsenen Destillat-Bestand (79+ SIA-Destillate, Stand 23.08.2026) gepruefft worden;** die
+  > „0 weitere Auszuege"-Aussage bezieht sich nachweislich nur auf den damaligen Bestand. Ein
+  > systematischer Seitenzahl-Audit-Lauf ueber den aktuellen Destillat-Bestand ist nicht erneut
+  > gefahren worden und bleibt als eigener, klar abgegrenzter Einzellauf offen — nicht spekulativ
+  > als «vermutlich weiterhin 0» geschlossen.
 
 ### Uebergabe an den Mac Mini (DIN/VSS/RAL — nicht MacBook-Scope, Stations-Split)
 

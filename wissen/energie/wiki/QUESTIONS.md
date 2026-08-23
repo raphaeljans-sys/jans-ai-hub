@@ -4317,11 +4317,93 @@ U-Wert-Rechenweg prüfen — vier Griffe» in `[[u-werte-grenzwerte-ch]]`.
     beiden Destillaten gekennzeichnet.
   Eingearbeitet in `[[clt-bauphysik-stora-enso]]` (Offene Punkte), `[[clt-bauteilkatalog-stora-enso]]`
   (Grundbausteine) und `BAUHERREN-FAQ.md` F15 (Präzisierung vom 23.08.2026 ersetzt/ergänzt).
-- [ ] **E-R161-3 — PL-02, PL-03 und PL-05 nicht auf KI-erzeugte Dokumente und Nicht-PDF-Quellen
+- [x] **E-R161-3 — PL-02, PL-03 und PL-05 nicht auf KI-erzeugte Dokumente und Nicht-PDF-Quellen
   gesichtet.** In PL-04 wurden jetzt alle 16 Nicht-Bild-Dateien geprüft; für die drei anderen
   Bibliotheken steht dieselbe filterlose Zählung aus. Konkret zu prüfen: Typenverteilung je
   Bibliothek, dann die Nicht-PDF-Quellen einzeln. Erwartungswert nach dem PL-04-Befund: überwiegend
   Link-Träger, aber die Trefferquote von 2/16 mit echtem (Warn-)Gehalt rechtfertigt den Durchgang.
+  ✓ **GESCHLOSSEN 23.08.2026 (interaktive Session, siebzehnte Fortsetzung).** Filterlose Zählung
+  aller drei Bibliotheken über den Graph-Connector (rekursiver Ordner-Walk, eigenes Script
+  `/tmp/pl-filterlos-260823-scan.mjs`, wiederverwendet dieselbe Zertifikats-Auth wie
+  `m365-graph.mjs`).
+  - **PL-05 Planungsportale:** **0 Dateien, 0 Ordner.** Vollständig leer — kein Klärungsbedarf.
+  - **PL-03 Brandschutz:** **153 Dateien** (105 PDF, 27 PNG, 11 docx, 7 JPEG, 1 EML, 1 ZIP, 1
+    Datei ohne Endung). Fällt **nicht in den Zuständigkeitsbereich dieser KB** (Skill/KB
+    `brandschutz`, nicht `energie`) — Typenverteilung dokumentiert, docx/EML inhaltlich nicht
+    geprüft (Cross-KB-Hinweis unten).
+  - **PL-02 Recht_Norm (grösster Korpus): 2'551 Dateien, 403 Ordner** — deutlich mehr als die
+    bisher bekannten 1'222 PDF. Typenverteilung zeigt zwei Ueberraschungen, die mit **KI-generierten
+    Dokumenten nichts zu tun haben**, aber die Zählung verzerrt hätten, wäre nicht filterlos
+    geprüft worden:
+    1. **App-Bundle `06_Richtlinien/Minergie/Tool/Tool_MiEcoV23/MiEcoV23.app/`** — ein komplettes
+       macOS-Programmpaket (145 Dateien, 72,9 MB: `.plist`, `.nib`, `.framework`, `.rsrc` etc.),
+       das MINERGIE-ECO-Rechentool selbst. Kein Dokument, keine Destillation möglich; erklärt
+       einen grossen Teil der "exotischen" Dateiendungen im Typen-Histogramm.
+    2. **57 CAD-/Layout-Dateien** (`.dwg .pln .mpr .ad4 .ctb .upr .stp .wld .cat` u.a.) verstreut
+       unter Baurecht-/SIA-/AHB-/Tiefgarage-Ordnern — JANS-eigene Projektarbeitsdateien
+       (ArchiCAD/Vectorworks), fehlplatziert in der Rechts-Bibliothek. Kein erkennbarer
+       Energiebezug, inhaltlich nicht geprüft (ausserhalb des Auftrags dieser KB).
+    
+    Von den **108 verbleibenden Nicht-PDF/Nicht-Bild/Nicht-Junk-Dateien** (docx/doc/dot/dotx/xls/
+    xlsx/xlt/indd/txt/htm/md/url) liegen **rund 20 in einem Energie-Kontext** (Ordner
+    `06_Richtlinien/Minergie/`, `06_Richtlinien/2000 Watt/`,
+    `04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/`); der Rest ist Baurecht/
+    SIA-Vertragsrecht/STWEG und damit ausserhalb dieser KB. Von den Energie-Kandidaten wurden
+    **fünf repräsentativ heruntergeladen und geöffnet** (nicht bloss anhand des Dateinamens
+    eingestuft):
+    - `Nuetzliche Unterlagen/Verschattungs-Tool-Internet.doc` (34 kB) — mit `textutil` geöffnet:
+      enthält nur einen toten Windows-Pfadverweis
+      (`C:\...\KursSIA380-1\PV potential estimation utility.mht`), **kein Fliesstext**. Löst die
+      seit Run 134 offene "nächste Priorität" mit einem Negativbefund auf.
+    - `SIA380_1_Energie_im_Hochbau/Energienachweise EnDk.ch.docx` (489 kB, Metadaten: Autorin
+      Ursula Buri, erstellt 18.04.2010 — **derselbe Tag** wie die Docx-Metadaten von
+      `faustregeln-energieeffizientes-gebaeude`, Indiz für denselben SIA-380/1-Kurs-Foliensatz)
+      — Fliesstext im `document.xml` ist nur "1"/"2" (Seitenzahlen), der gesamte Inhalt steckt in
+      6 eingebetteten PNG-Screenshots der EnDK-Website von 2010 (Kontaktdaten, EN-1-bis-EN-16-
+      Vollzugshilfen-Tabelle mit Ständen 2003-2010, Kantons-Uebersicht). Inhaltlich durch die
+      bereits vollständig gelesenen `vollzugsordner-energie-zh-abschnitt*`-Destillate (Run 143/144,
+      Stand 2026) überholt. Dokumentiert als überholte Quelle, **kein eigenes Destillat**.
+    - `04_Merkblätter/Projektadmin AHB/14-Energie-und Gebaeudetechnik/14.3-Richtlinien/
+      Verzeichnis_Vorschriften_Normen_Richtlinien.xls` (259 kB, mit `soffice --convert-to csv`
+      gelesen) — eine gut gebaute AHB-Rechtsmatrix (Gewerk × Erlass, mit SR-Nummer, Kurzinhalt,
+      Link), aber mit Eintragsdatum **12.12.2006** und Erlassständen 2000-2006 — 20 Jahre
+      veraltet, alle zitierten Fundstellen (EnG 2004, EnV 2006, PBG 2003 u.a.) seither revidiert.
+      Nach Rule `identifikatoren-verifizieren` kein zitierfähiger aktueller Rechtsstand.
+      Dokumentiert als historische Quelle, **kein Destillat**.
+    - `Nachweisformulare/ME-Antrag/GK3-2010ME1.xlsx` (518 kB) und `Beispiel 1 Pellets Solar.xls`
+      (1,1 MB, mit `soffice --convert-to csv` gelesen) — leeres MINERGIE-Nutzungsantragsformular
+      Version 11/11a (gültig bis 31.12.2010 bzw. 31.03.2009) bzw. ein **fiktives** Lehrbeispiel
+      ("Musterstrasse 99, Musterhausen"), keine reale Projektzahl. Bestätigt die bereits in
+      `training/pdf-inventar.md` (Run 134) notierte Einschätzung "keine eigenen Fachinhalte über
+      `minergie-reglement-wegleitung-2010-historisch` hinaus" — jetzt tatsächlich geöffnet statt
+      nur vermutet. Dieselbe Einordnung gilt plausibel für die übrigen, nicht einzeln geöffneten
+      Dateien derselben Formularfamilie (`GK3-2010ME.xlt`, `minergie11a.xlt`,
+      `Beispiel 2 Gas Solar.xls`, `NachweisVers11a.xls`, `MINERGIE_ECO_*.xls`-Tool-Formulare) —
+      **nicht einzeln verifiziert**, hier als Analogieschluss und nicht als Einzelbeleg
+      gekennzeichnet.
+    
+    **Nicht geöffnet** (aus Zeit-/Budgetgründen, niedrige erwartete Priorität): `Links/Links.docx`,
+    `Nuetzliche Unterlagen/Gebaeudehuellziffer/IMG_5910.docx`, `2000 Watt/Module_Wand_Dach.xls`,
+    `Nuetzliche Unterlagen/Gebaeudehuellziffer/19_sia_380-1_2016_-mac-10_1_12.xlsx` (SIA-380/1-
+    Rechentabelle, Mac-Version — potenziell wertvoll, aber ein Rechenwerkzeug statt Fliesstext und
+    daher kein Kandidat für eine schnelle Sichtung), die beiden `Weg_zum_Minergiezertifikat/*.indd`
+    (InDesign-Quelldateien der bereits destillierten PDF-Fassung, reine Layoutdateien).
+    **Kein KI-generiertes Dokument gefunden** (anders als in PL-04/Run 161) — alle geöffneten
+    Nicht-PDF-Quellen in PL-02 sind vordigitale bzw. Templates aus 2006-2011, keine
+    Chatbot-Artefakte.
+    
+    **Cross-KB-Hinweis (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld):** die 36 Baurecht-/
+    SIA-Vertragsrecht-/STWEG-docx in PL-02 (u.a. `08_Baurechtsanalysen/200508_BRA_Thalwil/**`,
+    `SIA_Vertraege/SIA1001.*`, `Teilungsplan Stockwerkeigentum Empfehlung/**`) sowie die 11
+    Brandschutz-docx/1 EML in PL-03 wurden von dieser Session **nicht geöffnet** — das liegt
+    ausserhalb der Energie-KB. Fundstelle für die KBs `baurecht`, `normen`, `stockwerkeigentum`
+    und `brandschutz`: dieser QUESTIONS-Eintrag plus die vollständigen JSON-Rohlisten unter
+    `/tmp/pl-filterlos-260823-*.json` (temporär, nicht versioniert — bei Bedarf neu erzeugen mit
+    dem oben genannten Script und den Drive-IDs unten).
+    
+    **Drive-IDs neu gesichert** (ergänzt die Zeile in `training/pdf-inventar.md`):
+    `03 Brandschutz` = `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfJ5dwcpvCsTY_mlEBr1EMe` ·
+    `05 Planungsportale` = `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3ScqIKtsF0VuTLR9OLndo90m`.
 
 ### Betriebsbefund: die alte VORAUSSETZUNG-Zeile hätte diesen Lauf abgebrochen (E-R149-4, parallel gelöst)
 

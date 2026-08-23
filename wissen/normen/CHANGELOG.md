@@ -1,3 +1,141 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 24: Schweizer-Pendants-Punkt geschlossen, Inventar-Scan-Härtung präzisiert
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established` ist
+zitierfähig. CHANGELOG und Report des letzten Laufs (Abarbeitung 23 / SIA-Sweep 27. Fortsetzung)
+zuerst gelesen, dort weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage belegen,
+nichts raten, CHANGELOG-Eintrag gesetzt, nach jedem Schreiben `git diff --numstat` geprüft.
+
+**Alle 37 zu Laufbeginn offenen `[ ]`-Zeilen gescreent** gegen drei Kategorien: bereits als
+Bring-Schuld/Strukturentscheid dokumentiert, inhaltlich unentscheidbar aus der Quelle, oder
+Bookkeeping-Rückstand (Arbeit anderswo in der KB längst erledigt, Checkbox nie nachgezogen).
+Zwei Treffer der dritten Kategorie gefunden und bearbeitet.
+
+**1. „Schweizer Pendants zu deutschen Sonstiges-Destillaten fehlen noch" (Mac Mini Run,
+13.07.2026) — GESCHLOSSEN.** Alle drei genannten Ergänzungskandidaten sind im Bestand:
+**SIA 500** (`destillate/sia-500-2009.md`, established, seit heute inkl. aller vier Korrigenda
+C1:2009–C4:2019 am amtlichen Wortlaut ausgewertet), **SIA-Grundlagen Raumakustik**
+(`destillate/sia-181-1-2026.md` — SIA 181/1:2026, SN 520181/1, gültig ab 01.02.2026,
+Produktdatenblatt web-verifiziert 23.08.2026, Volltext kostenpflichtig 110 CHF Bring-Schuld
+Raphael unverändert), **SIA-260er-Tragwerksnormen** (vollständige Serie 260–267 inkl. Beiblätter
+1 im Destillat-Ordner, vier davon mit Refuter-Verifikation 260807 `established`). Der in
+derselben historischen Passage mitgeführte, sachlich andere Fall „SWKI 99-3 als Pendant zu
+DIN 1946-4" bleibt unverändert bei seiner bereits am 30.07.2026 korrigierten Zeile (Nachfolger
+VA105-01:2015, Bring-Schuld unter N-R21-2 weiterhin offen) — keine Dopplung angelegt.
+
+**2. „Inventar-Scan haerten" (Run 15, Juli 2026) — teilweise präzisiert, nicht vollständig
+geschlossen.** Punkt (1) — rekursiv ab `02_Normen/` statt nur `SIA_Normen/alle/` scannen — ist
+durch die SIA-Sweep-Fortsetzung „fünfte" (23.08.2026) substanziell erledigt: vollständiges
+Listing von 140 Dateien plus sieben Unterordnern gegen die 55 Bestandslücken-Nummern, 0 Treffer,
+Lücke bestätigt real statt Scan-Artefakt. Punkt (2) — Seitenzahl gegen Titelblatt-Deklaration je
+PDF prüfen — bleibt bewusst offen: die zitierte „0 weitere Auszüge"-Gegenprobe von Run 15 bezog
+sich auf den damaligen Bestand (Mitte Juli), nicht auf den seither auf 79+ SIA-Destillate
+gewachsenen aktuellen Stand. Ohne erneuten Audit als erledigt zu markieren wäre eine Vermutung,
+keine Verifikation — Checkbox auf `[~]` statt `[x]` gesetzt.
+
+**Geprüft, kein neuer Ansatzpunkt:** die übrigen 35 Punkte (Bring-Schulden SIA 118:2013,
+380/1, 385/1, 266/1, Merkblatt SIA 2014, SIA 491, SN EN 12193, SN 640 052, SN 641 400,
+Wegleitung SIA 271, VA 105-01, Z1/Z2-Koeffizienten SIA 103; Strukturentscheide Duplikat-Merges,
+Fassungspflege, Cross-Contamination/doppelte Run-Nummer; inhaltlich unentscheidbar N-R40-7/
+N-R40-3) bleiben unverändert — bereits mehrfach belegt, kein neuer kostenloser Ansatzpunkt.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft; beide Edits
+ausschliesslich an den selbst editierten Stellen, keine fremde Zeile berührt (ein paralleler
+Prozess hatte zwischen Lesen und Schreiben unabhängig die „VERIFIKATION AUSSTEHEND"-Zeile
+geschlossen — kein eigener Edit dort, kein Konflikt). Report:
+`outputs/2026-08-23_questions-abarbeitung24.md`.
+
+---
+
+## 2026-08-23 — SIA-Sweep, siebenundzwanzigste Fortsetzung: Sweep bestätigt erschöpft, ein Kandidat gefunden und in Kollision mit paralleler Abarbeitung 23 wiedergefunden
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne Datei
+im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen. Rule `normen-referenz`, Fundstellenpflicht. CHANGELOG und Report des letzten Laufs (26.
+Fortsetzung) zuerst gelesen, dort weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag gesetzt, nach jedem Schreiben `git diff --numstat` geprüft.
+
+**Ausgangslage:** Die 26. Fortsetzung hatte den Section-A-Sweep im engeren Sinn bereits für
+erschöpft erklärt und als nächstwertigen Einzellauf die Retro-Verifikation der fünf in
+`wiki/QUESTIONS.md` Zeile 3202 ("VERIFIKATION AUSSTEHEND") genannten Artefakte empfohlen, ohne
+diese Zeile selbst zu prüfen.
+
+**Eigene Prüfung, zwei unabhängige Bestätigungen:**
+
+1. **`training/norm-inventar.md` erneut gezählt: 0 offene `[ ]`-Positionen.** Der Section-A-Sweep
+   (SIA-Zeilen ohne Volltext im Haus) bleibt bestätigt erschöpft — jede kostenlose
+   Beschaffungsoption ist ausgeschöpft. `wiki/REGISTER.md` stichprobenartig nach "nicht im Bestand"
+   in SIA-Zeilen durchsucht: alle verbleibenden Lücken (SIA 266/1:2015, SIA 380/2:2022, SIA
+   385/1:2011 Volltext, SIA 118:2013, SIA 181:2020) sind bereits als kostenpflichtige Bring-Schuld
+   Raphael dokumentiert, nicht als offene Recherche.
+2. **Die "VERIFIKATION AUSSTEHEND"-Zeile selbst geprüft, bevor an ihr gearbeitet wurde:** Frontmatter
+   aller fünf genannten Dateien gelesen (`status`/`verifikation`/`verification`-Felder). Ergebnis:
+   alle fünf waren bereits am 25.07.2026 (Run 23, adversariale Erstverifikation) und teils Run 24/25/27
+   (Q&A-Selbstbefragung, weitere Retro-Runden) vollständig gegengeprüft und `established` — bei
+   `sia-266-1-2003.md` und `sia-410-1986.md` inzwischen zusätzlich am 23.08.2026 web-verifiziert auf
+   den korrekten Endstatus `superseded` bzw. `zurückgezogen` gehoben. Die Zeile war ein reiner
+   Bookkeeping-Rückstand: die Verifikation hatte stattgefunden, nur die Checkbox war nie
+   nachgezogen worden. Beim Versuch, das im Rahmen dieses Laufs selbst zu schliessen (`Edit`-Tool),
+   meldete das System "Datei seit dem letzten Lesen verändert" — ein paralleler Prozess
+   (`QUESTIONS-Abarbeitung 23`, siehe Eintrag unmittelbar darunter) hatte dieselbe Zeile in der
+   Zwischenzeit bereits mit demselben Befund geschlossen. Kein eigener Edit nötig, kein Doppel
+   angelegt.
+
+**Ergebnis dieses Laufs: keine neue Quelle, kein neues Destillat.** Bei einer derart intensiv
+parallel bearbeiteten KB (heute allein 27 SIA-Sweep- und 23 QUESTIONS-Abarbeitung-Läufe) ist eine
+belegte Negativ-Bestätigung — der Sweep ist erschöpft, der einzige gefundene Kandidat war bereits
+von einem Parallellauf geschlossen — der ehrlichere Beitrag als ein erzwungenes, gering-wertiges
+Destillat nur um der Aktivität willen. Fortschritt im engeren SIA-Sweep braucht ab hier entweder
+Raphaels Kaufentscheid zu den dokumentierten Bring-Schulden, oder eine Ausweitung des Mandats über
+SIA/VKF hinaus (Abschnitt D, DIN/VSS/RAL) — beides ausserhalb dieses Laufs.
+
+**Verifikation:** `git diff --numstat` nach diesem Schreibvorgang geprüft — nur dieser CHANGELOG-
+Eintrag, additiv, keine fremde Zeile berührt. Kein `git`-Schreibbefehl über den SMB-Mount; Commit
+über den 15-Minuten-`nas-selfcommit`-Cron bzw. `scripts/nas-commit-now.sh`.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 23: „VERIFIKATION AUSSTEHEND"-Zeile (5 Artefakte) als längst erledigt geschlossen
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established` ist
+zitierfähig. CHANGELOG und Report des letzten Laufs (Abarbeitung 22) zuerst gelesen, dort
+weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag gesetzt, nach jedem Schreiben `git diff --numstat` geprüft.
+
+**Ausgangslage:** Abarbeitung 22 hatte die „VERIFIKATION AUSSTEHEND"-Zeile (Zeile ~3202, fünf
+Artefakte aus Run 22, 25.07.2026: `sia-266-1-2003.md`, `sia-410-1986.md`,
+`vkf-brl-13-15-baustoffe-bauteile.md`, `vkf-brl-verwendung-baustoffe.md`,
+`wiki/vkf-beherbergungskategorien.md`, alle als „noch nicht adversarial gegengeprüft" markiert)
+ausdrücklich als „ergiebigsten nächsten Einzellauf" benannt, aber aus Aufwandsgründen nicht
+begonnen.
+
+**Befund:** Der geforderte Einzellauf war bereits überflüssig. Alle fünf Dateien wurden noch am
+selben Tag (25.07.2026) durch die Runs 23-27 vollständig adversarial verifiziert — die
+Frontmatter-Felder `status`/`verifikation` jeder Datei belegen das lückenlos: `sia-266-1-2003.md`
+fünf Retro-Verifikationsrunden (established), `sia-410-1986.md` adversarial geprüft plus
+18-Fragen-Q&A (established), `vkf-brl-13-15-baustoffe-bauteile.md` Delta 2017 per
+Seitenbildvergleich verifiziert, Verdikt BESTANDEN (established), `vkf-brl-verwendung-baustoffe.md`
+Delta 2017 zweifach verifiziert, 5 Korrekturen eingearbeitet (established),
+`wiki/vkf-beherbergungskategorien.md` zwei unabhängige Runden, 12+1 Korrekturen (established). Die
+heutigen (23.08.) Ergänzungen an `sia-266-1-2003.md` und `sia-410-1986.md` (Status
+`superseded`/`zurückgezogen`) sind eigenständig web-belegt (SIA-Shop-Produktseite bzw.
+suissetec.ch-Meldung) und ändern nichts an den bereits verifizierten Ziffern — sie begründen also
+keine neue Retro-Verifikationspflicht. Die Zeile war schlicht seit vier Wochen nicht abgehakt
+worden, obwohl die Arbeit längst getan war — dasselbe Bookkeeping-Muster wie beim direkt
+darunterstehenden „GESCHLOSSEN (Run 24, 260725)"-Eintrag.
+
+**Geprüft, kein neuer Ansatzpunkt:** die übrigen 37 offenen Checkbox-Punkte wurden gegen die
+Kategorien Bring-Schuld (kostenpflichtig, Kaufentscheid Raphael), Raphael-Entscheid (Struktur/
+Beschaffung) und bereits erschöpfte Recherche gescreent — kein weiterer frei und kostenlos
+lösbarer Punkt gefunden (u.a. N-R40-3 EN-81-Reihe ausdrücklich „kein systematischer
+Nachzieh-Auftrag", N-R40-7 Grauton Lignatec-Tabelle ohne Legendenbezug nicht deutbar,
+BSV-2026-Überwachung erst nach der für März 2027 erwarteten IOTH-Entscheidung fällig).
+
+**Verifikation:** `wiki/QUESTIONS.md` +19/-7 (alleiniger gezielter Edit an der genannten Zeile,
+per `git diff` gegen die eigene Editierliste geprüft — keine fremden Zeilen berührt). Voller
+Report: `outputs/2026-08-23_questions-abarbeitung23.md`.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 22: DIN-EN-12101-2-Checkbox nachgezogen, SVAS↔VSA-Recherche negativ dokumentiert
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit

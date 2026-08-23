@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 101)
+last_updated: 2026-08-23 (Run 102)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -1606,6 +1606,24 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   fedlex geprueft) oder [[rechtsschutz-und-rechtsmittelverfahren]] (aeltestes `verifiziert`-Datum,
   2026-07-12, aber rein kantonales VRG/PBG ohne Bundesrechts-Luecke — geringere Prioritaet nach
   diesem Muster).
+- **Buch-Run 102 (2026-08-23):** Empfehlung Run 101 gegengeprueft statt blind befolgt —
+  [[nebenbestimmungen-und-reverse]] hat bereits seit Buch-Run 67 (27.07.2026) einen vollstaendigen
+  Modell-D-Wortlautabgleich aller 13 Fundstellen inkl. Art. 962 ZGB/Art. 164 GBV; die Run-101-
+  Einschaetzung «noch nie gegen fedlex geprueft» war falsch. Statt dessen
+  [[rechtsschutz-und-rechtsmittelverfahren]] gewaehlt (11 unverifizierte Bundesrechts-Zitate ueber
+  6 Erlasse BV/BGG/RPG/NHG/EMRK/ZPO — mehr als [[ausnahmebewilligung-und-bestandesschutz]] mit 4;
+  [[baulinien-und-abstandslinien]] und [[geschosse-und-kniestock]] haben keine Bundesrechts-Luecke
+  mehr). Konkurrenz-Check (`ps aux`) bestaetigt: nur der eigene `-p`-Prozess dieser Session bearbeitet
+  `wissen/baurecht/`. Alle 11 Zitate gegen frische fedlex-Volltexte geprueft (BV 1.1.2024, BGG
+  1.1.2025, RPG 1.7.2026, NHG 1.1.2022, EMRK 16.9.2022, ZPO 1.1.2025). **10/11 CONFIRMED wortgleich**
+  (Art. 29a/29 Abs. 2 BV, Art. 82/95/97/113 BGG, Art. 4 RPG, Art. 12 NHG, Art. 6 EMRK, Art. 213/214
+  ZPO). **1 Korrektur:** Art. 103 BGG traegt die bisherige Aussage «Bund: keine, ausser Antrag» nicht
+  selbst (Abs. 1/2 kennen keine Baustreitigkeits-Ausnahme) — die Antrags-Moeglichkeit steht in
+  **Art. 104 BGG** («Andere vorsorgliche Massnahmen»). Report `outputs/2026-08-23_buch-run102.md`.
+  **Naechster Schritt:** einziger verbleibender Kandidat mit echter Bundesrechts-Luecke ist
+  [[ausnahmebewilligung-und-bestandesschutz]] (Art. 24c RPG, Art. 41c GSchV, Art. 26 BV, Art. 8 ZGB).
+  **Methodischer Hinweis:** vor der Wahl eines Kandidaten aus einer Vorlauf-Empfehlung immer den
+  Zielartikel selbst lesen, nicht nur seine Paragraphenliste — die Empfehlung kann veraltet sein.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

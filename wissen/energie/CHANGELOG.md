@@ -1,5 +1,31 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (siebzehnte Fortsetzung): E-R161-3 abgeschlossen — PL-02/03/05 filterlos gezählt
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo die
+sechzehnte Fortsetzung aufgehört hat. Deren Bericht (`outputs/2026-08-23_questions-nachlauf-sechzehnte-fortsetzung.md`)
+liess noch **E-R161-3** offen: dieselbe filterlose Nicht-PDF-Zählung, die Run 161 für PL-04
+gefahren hatte, auf **PL-02, PL-03 und PL-05** ausgeweitet.
+
+Eigenes Script (`/tmp/pl-filterlos-260823-scan.mjs`, rekursiver Graph-Ordner-Walk über die
+Zertifikats-Auth aus `connectors/m365-graph.mjs`) zählte alle drei Bibliotheken vollständig:
+**PL-05 leer** (0 Dateien), **PL-03 Brandschutz 153 Dateien** (ausserhalb dieser KB, nicht
+inhaltlich geprüft), **PL-02 Recht_Norm 2'551 Dateien** (bisher nur 1'222 PDF im Register
+bekannt). In PL-02 stellten sich zwei grosse "exotische" Dateigruppen als harmlos heraus: ein
+komplettes MINERGIE-ECO-Tool als macOS-App-Bundle (145 Dateien, 72,9 MB) und 57 fehlplatzierte
+JANS-eigene CAD-Arbeitsdateien. Von den rund 20 verbleibenden Energie-relevanten Nicht-PDF-Dateien
+wurden fünf tatsächlich geöffnet (nicht nur am Namen eingestuft) — alle fünf sind Negativbefunde:
+ein toter Link, ein Screenshot-Dokument ohne Fliesstext (Inhalt bereits überholt), eine 20 Jahre
+alte Rechtsmatrix, ein leeres und ein fiktives MINERGIE-Formular. **Kein KI-generiertes Dokument**
+in PL-02 gefunden, anders als in PL-04 (Run 161). Details, Cross-KB-Hinweis für die Baurecht-/
+SIA-/STWEG-Dateien in PL-02 und die Brandschutz-Dateien in PL-03: `wiki/QUESTIONS.md` E-R161-3,
+`training/pdf-inventar.md` (Nachtrag 23.08.2026, siebzehnte Fortsetzung),
+`outputs/2026-08-23_questions-nachlauf-siebzehnte-fortsetzung.md`.
+
+**E-R161-3 damit vollständig geschlossen.** Verbleibend offen: E-R161-1 (Normkauf SN EN ISO 6946,
+Beschaffungsentscheid Raphaels), sowie die unverändert an Raphaels Entscheid gebundenen E103
+(Pflegeplatz-Flächenkennwert) und E94 (Innendämmungs-Kennwert aus JANS-Projektdaten).
+
 ## 2026-08-23 — Interaktive Session (sechzehnte Fortsetzung): E-R161-2 am Original geklärt, plus KB-weiter Korruptur-Fund (12 Dateien mit leaked Tool-Tags)
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo Run 161

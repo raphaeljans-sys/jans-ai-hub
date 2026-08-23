@@ -2,9 +2,9 @@
 name: rechtsschutz-und-rechtsmittelverfahren
 titel: Rechtsschutz & Rechtsmittelverfahren (Baurekurs bis Bundesgericht)
 status: established
-letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12); §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG (Buch-Run 44, Modell-D, 2026-07-14); §§ 19/20/21b/41/42/49/50/52 VRG + § 338a/338b/338c PBG (Buch-Run 46, Modell-D, 2026-07-15); VRG-Fassungsstand-Check Nachtrag 129→133 (Buch-Run 64, Modell D, 2026-07-27)"
-last_updated: 2026-07-27
-verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32); 2026-07-14 (Modell-D §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG, Buch-Run 44) — 6/8 CONFIRMED, 2 korrigiert (Replikrecht § 26b VRG, Nicht-Erstreckbarkeit § 26b/§ 58 VRG); 2026-07-15 (Modell-D §§ 19/20/21b/41/42/49/50/52 VRG + § 338a/338b/338c PBG, Buch-Run 46, gegen raw/260715_amtlich_zh_vrg_beschwerde.md + raw/260607_amtlich_zh_pbg.md) — die beiden letzten offenen Zitate KORRIGIERT: «§ 209f PBG (Behördenbeschwerde)» → **§ 338c PBG** (Legitimation § 338a, Verbandsbeschwerde § 338b; § 209 PBG = vorsorgliche Schutzmassnahmen, sachfremd); «§ 50a VRG (akzessorische Normenkontrolle)» → **existiert nicht**, prinzipale Normenkontrolle § 19 Abs. 1 lit. d/§ 20 Abs. 2/§ 21b VRG + § 41/§ 50 VRG, akzessorische = ungeschriebener Grundsatz. § 41/§ 50 Abs. 2 VRG (keine Angemessenheitskontrolle) CONFIRMED. Statute-level damit vollständig verifiziert → status emerging→established; 2026-07-27 (Buch-Run 64, Festigungsmodus, Prioritaet b Fassungsstand-Check + Prioritaet c Re-Verifikation) — **VRG-Fassungsstand-Drift entdeckt und geschlossen:** die Basisquelle `raw/260712_amtlich_zh_vrg.md` war seit der Beschaffung (12.07.2026) auf **Nachtrag 129** stehen geblieben, aktuell auf zhlex ist **Nachtrag 133**. Frisches PDF (Nachtrag 133) Wort fuer Wort gegen §§ 8/9/10c/15/29a/30/31 VRG geprueft — **CONFIRMED, 0 materielle Aenderung**. Adversarial nachgeprueft: § 26b Abs. 2 VRG (30-Tage-Vernehmlassungsfrist) i.V.m. § 12 Abs. 1 VRG (Fristerstreckung nur bei Tod/Handlungsunfaehigkeit) bestaetigt die Run-44-Korrektur zur Nicht-Erstreckbarkeit unveraendert bei Nachtrag 133. Fassungsstand-Vermerk in `raw/260712_amtlich_zh_vrg.md` ergaenzt.
+letzte_quelle: "Buch Band 1, Kap. 9, S. 537-606 (Teil 1 Run 8 2026-06-16, Teil 2 Run 22 2026-07-06); amtlicher Volltext §§ 8/9/10c/15 VRG (Buch-Run 32, Modell-D, 2026-07-12); §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG (Buch-Run 44, Modell-D, 2026-07-14); §§ 19/20/21b/41/42/49/50/52 VRG + § 338a/338b/338c PBG (Buch-Run 46, Modell-D, 2026-07-15); VRG-Fassungsstand-Check Nachtrag 129→133 (Buch-Run 64, Modell D, 2026-07-27); Art. 29/29a BV, Art. 82/95/97/103/104/113 BGG, Art. 4 RPG, Art. 12 NHG, Art. 6 EMRK, Art. 213/214 ZPO (Buch-Run 102, Modell-D, 2026-08-23)"
+last_updated: 2026-08-23
+verifiziert: 2026-07-12 (Modell-D §§ 8/9/10c/15 VRG, Buch-Run 32); 2026-07-14 (Modell-D §§ 25/26/26a-d/55/58/86-89 VRG + § 317/338/339/339b PBG, Buch-Run 44) — 6/8 CONFIRMED, 2 korrigiert (Replikrecht § 26b VRG, Nicht-Erstreckbarkeit § 26b/§ 58 VRG); 2026-07-15 (Modell-D §§ 19/20/21b/41/42/49/50/52 VRG + § 338a/338b/338c PBG, Buch-Run 46, gegen raw/260715_amtlich_zh_vrg_beschwerde.md + raw/260607_amtlich_zh_pbg.md) — die beiden letzten offenen Zitate KORRIGIERT: «§ 209f PBG (Behördenbeschwerde)» → **§ 338c PBG** (Legitimation § 338a, Verbandsbeschwerde § 338b; § 209 PBG = vorsorgliche Schutzmassnahmen, sachfremd); «§ 50a VRG (akzessorische Normenkontrolle)» → **existiert nicht**, prinzipale Normenkontrolle § 19 Abs. 1 lit. d/§ 20 Abs. 2/§ 21b VRG + § 41/§ 50 VRG, akzessorische = ungeschriebener Grundsatz. § 41/§ 50 Abs. 2 VRG (keine Angemessenheitskontrolle) CONFIRMED. Statute-level damit vollständig verifiziert → status emerging→established; 2026-07-27 (Buch-Run 64, Festigungsmodus, Prioritaet b Fassungsstand-Check + Prioritaet c Re-Verifikation) — **VRG-Fassungsstand-Drift entdeckt und geschlossen:** die Basisquelle `raw/260712_amtlich_zh_vrg.md` war seit der Beschaffung (12.07.2026) auf **Nachtrag 129** stehen geblieben, aktuell auf zhlex ist **Nachtrag 133**. Frisches PDF (Nachtrag 133) Wort fuer Wort gegen §§ 8/9/10c/15/29a/30/31 VRG geprueft — **CONFIRMED, 0 materielle Aenderung**. Adversarial nachgeprueft: § 26b Abs. 2 VRG (30-Tage-Vernehmlassungsfrist) i.V.m. § 12 Abs. 1 VRG (Fristerstreckung nur bei Tod/Handlungsunfaehigkeit) bestaetigt die Run-44-Korrektur zur Nicht-Erstreckbarkeit unveraendert bei Nachtrag 133. Fassungsstand-Vermerk in `raw/260712_amtlich_zh_vrg.md` ergaenzt. 2026-08-23 (Buch-Run 102, Modell-D, erster Bundesrechts-Wortlautabgleich): alle 11 Bundesrechts-Zitate (BV/BGG/RPG/NHG/EMRK/ZPO) erstmals gegen frische Fedlex-Volltexte geprueft (BV Stand 1.1.2024, BGG 1.1.2025, RPG 1.7.2026, NHG 1.1.2022, EMRK 16.9.2022, ZPO 1.1.2025) — **10/11 CONFIRMED wortgleich** (Art. 29a BV, Art. 29 Abs. 2 BV, Art. 82/95/97/113 BGG, Art. 4 RPG, Art. 12 NHG, Art. 6 EMRK, Art. 213/214 ZPO). **1 Korrektur:** Art. 103 BGG (Zeile 69, Fussnote «Bund: keine, ausser Antrag») traegt die «Antrag»-Aussage nicht selbst — Art. 103 regelt nur den gesetzlichen Automatismus (Abs. 1 Grundsatz keine aufschiebende Wirkung; Abs. 2 lit. a-d abschliessender Ausnahmekatalog fuer Zivil-/Straf-/Rechtshilfefaelle, keine oeffentlich-rechtliche Baustreitigkeit darunter). Die Moeglichkeit, auf Antrag eine vorsorgliche Massnahme (faktisch aufschiebende Wirkung) zu erwirken, steht separat in **Art. 104 BGG** («Andere vorsorgliche Massnahmen» — Instruktionsrichter kann von Amtes wegen oder auf Antrag einer Partei vorsorgliche Massnahmen treffen). Zitat ergaenzt/korrigiert im Fliesstext (Abschnitt 4.1).
 sources: ["raw/260712_amtlich_zh_vrg.md", "raw/260714_amtlich_zh_vrg_rechtsschutz2.md", "raw/260715_amtlich_zh_vrg_beschwerde.md", "raw/260607_amtlich_zh_pbg.md", "band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md", "band-1/09-rechtsschutz.md"]
 backlinks: ["[[band-1/09-rechtsschutz]]", "[[band-1/09-rechtsschutz-teil2-ablauf-kosten-revision]]", "[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
 links: ["[[baubewilligungsverfahren]]", "[[baurechtlicher-vorentscheid-und-voranfrage]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[baulinien-und-abstandslinien]]"]
@@ -66,7 +66,10 @@ Bundesrecht (BGG/ZPO/EMRK) nur sinngemaess.
 1. **Einleitung** — Eintretenspruefung; **vorsorgliche Massnahmen**, im Zentrum die **aufschiebende Wirkung**:
    § 25 Abs. 1 VRG (Grundsatz) ↔ **§ 339 PBG** (lex specialis: Hemmung nur soweit ausgangsrelevant; Praesident
    entscheidet ueber Umfang, Teilfreigabe moeglich, BEZ 2004 Nr. 43). Natur-/Heimatschutz: keine aufsch.
-   Wirkung (§ 211 Abs. 4 PBG). Bund: keine, ausser Antrag (Art. 103 BGG).
+   Wirkung (§ 211 Abs. 4 PBG). Bund: keine (Art. 103 Abs. 1 BGG; Abs. 2 lit. a-d nennt einen
+   abschliessenden, hier nicht einschlaegigen Ausnahmekatalog), vorsorgliche Massnahme
+   (faktisch aufschiebende Wirkung) auf Antrag einer Partei via **Art. 104 BGG** (amtlich
+   verifiziert Buch-Run 102, 2026-08-23 — nicht Art. 103 selbst, s. Abschnitt 6c).
 2. **Ermittlung** — Schriftenwechsel (Vernehmlassung § 26b Abs. 1-3 VRG, Zustellung an die uebrigen
    Verfahrensbeteiligten § 26b Abs. 4 VRG) + **Replikrecht** (Praxis/Rechtsprechung aus Art. 29 Abs. 2 BV
    i.V.m. der Zustellungspflicht nach § 26b Abs. 4 VRG, **kein eigener Gesetzeswortlaut** — amtlich
@@ -195,6 +198,61 @@ und `raw/260607_amtlich_zh_pbg.md` (§ 317/§ 338/§ 339/§ 339b PBG).
 nicht), 2 weitere Aussagen (§ 41, § 50 Abs. 2 VRG) CONFIRMED. Damit ist der Artikel auf Gesetzeswortlaut-Ebene
 vollständig verifiziert → **status emerging→established**. (Frühere Runde: 6/8 CONFIRMED, 2 korrigiert
 [Replikrecht § 26b VRG, Nicht-Erstreckbarkeit § 26b/§ 58 VRG].)
+
+## 6d. Verifikations-Notiz (Buch-Run 102, Modell-D, 2026-08-23) — erstmals alle Bundesrechts-Zitate geprueft
+
+Bislang war ausschliesslich die kantonale VRG/PBG-Ebene wortlautgeprueft (Run 32/44/46/64); die elf
+Bundesrechts-Zitate (BV, BGG, RPG, NHG, EMRK, ZPO) hatten noch nie einen Volltextabgleich. Frische
+Fedlex-Volltexte bezogen (Filestore-Muster, Rule `docs/referenz/fedlex-volltexte.md`): BV (SR 101, ELI
+`1999/404`, Stand 1.1.2024), BGG (SR 173.110, ELI `2006/218`, Stand 1.1.2025), RPG (SR 700, ELI
+`1979/1573_1573_1573`, Stand 1.7.2026), NHG (SR 451, ELI `1966/1637_1694_1679`, Stand 1.1.2022 — juengster
+Fedlex-Snapshot ueber `www.fedlex.admin.ch`, 20220101 lieferte 503'394 Byte PDF gegenueber 204'952 Byte bei
+20200401), EMRK (SR 0.101, ELI `1974/2151_2151_2151`, Stand 16.9.2022), ZPO (SR 272, ELI `2010/262`, Stand
+1.1.2025).
+
+- **Art. 29a BV** (Zeile 23, Dreistufiger Instanzenzug): CONFIRMED wortwoertlich — «Jede Person hat bei
+  Rechtsstreitigkeiten Anspruch auf Beurteilung durch eine richterliche Behoerde.»
+- **Art. 82 lit. a BGG** (Zeile 39, Beschwerde in oeff.-rechtl. Angelegenheiten): CONFIRMED — «Das
+  Bundesgericht beurteilt Beschwerden: a. gegen Entscheide in Angelegenheiten des oeffentlichen Rechts.»
+- **Art. 95 BGG** (Zeile 39, nur Bundesrechtsverletzung): CONFIRMED — «Mit der Beschwerde kann die Verletzung
+  geruegt werden von: a. Bundesrecht».
+- **Art. 97 BGG** (Zeile 40, Sachverhalt nur bei Willkuer): CONFIRMED im Ergebnis, Formulierung praezisiert —
+  der amtliche Wortlaut spricht von «offensichtlich unrichtig[er]» Sachverhaltsfeststellung, nicht woertlich
+  von «Willkuer»; nach konstanter Bundesgerichtspraxis (u. a. BGE 140 III 264 E. 2.3) ist «offensichtlich
+  unrichtig» mit «willkuerlich» gleichzusetzen — die Wiki-Kurzformel bleibt damit inhaltlich zutreffend,
+  keine Aenderung noetig.
+- **Art. 113 BGG** (Zeile 40, subsidiaere Verfassungsbeschwerde): CONFIRMED — «Das Bundesgericht beurteilt
+  Verfassungsbeschwerden gegen Entscheide letzter kantonaler Instanzen, soweit keine Beschwerde nach den
+  Artikeln 72-89 zulaessig ist» (= subsidiaer).
+- **Art. 103 BGG** (Zeile 69, aufschiebende Wirkung): **KORRIGIERT.** Abs. 1 CONFIRMED («Die Beschwerde hat
+  in der Regel keine aufschiebende Wirkung»), Abs. 2 lit. a-d CONFIRMED als abschliessender Ausnahmekatalog
+  (Zivilsachen/Gestaltungsurteil, Strafsachen/Freiheitsstrafe, internationale Rechtshilfe Strafsachen,
+  internationale Amtshilfe Steuersachen) — **keine dieser vier Ausnahmen betrifft eine oeffentlich-rechtliche
+  Baustreitigkeit.** Die bisherige Wiki-Formulierung «Bund: keine, ausser Antrag (Art. 103 BGG)» unterstellte,
+  Art. 103 selbst enthalte eine Antrags-Ausnahme. Tatsaechlich traegt **Art. 104 BGG** («Andere vorsorgliche
+  Massnahmen») die Antrags-Moeglichkeit: «Der Instruktionsrichter oder die Instruktionsrichterin kann von
+  Amtes wegen oder auf Antrag einer Partei vorsorgliche Massnahmen treffen, um den bestehenden Zustand zu
+  erhalten oder bedrohte Interessen einstweilen sicherzustellen.» Auffaellig: eine Fussnote zu Art. 103 Abs. 2
+  vermerkt, ein frueherer Bestandteil sei «aufgehoben durch Anhang 1 Ziff. II 2 der Zivilprozessordnung ...,
+  mit Wirkung seit 1. Jan. 2011» — die genaue fruehere Fassung wurde nicht weiter zurueckverfolgt (ausserhalb
+  des Verifikationsauftrags), das aktuelle Zusammenspiel Art. 103/104 BGG ist aber eindeutig. Korrigiert im
+  Fliesstext (Abschnitt 1).
+- **Art. 29 Abs. 2 BV** (Zeile 71/158, Replikrecht-Grundlage): CONFIRMED wortwoertlich — «Die Parteien haben
+  Anspruch auf rechtliches Gehoer.»
+- **Art. 4 RPG** (Zeile 103, Mitwirkungsverfahren): CONFIRMED — Marginalie «Information und Mitwirkung»,
+  Abs. 2 «Sie sorgen dafuer, dass die Bevoelkerung bei Planungen in geeigneter Weise mitwirken kann.»
+- **Art. 12 NHG** (Zeile 46, Verbandsbeschwerde bei Bundesaufgabe): CONFIRMED — Art. 12 steht systematisch im
+  2. Abschnitt «Schutz der Heimat und der Landschaft ... bei Erfuellung von Bundesaufgaben» (Art. 2 ff. NHG);
+  die Wiki-Einordnung «bei Bundesaufgabe» trifft die gesetzliche Systematik, nicht nur eine freie Interpretation.
+- **Art. 6 EMRK** (Zeile 76, oeffentliche Verhandlung): CONFIRMED — «Jede Person hat ein Recht darauf, dass
+  ueber Streitigkeiten in Bezug auf ihre zivilrechtlichen Ansprueche und Verpflichtungen ... oeffentlich ...
+  verhandelt wird.» Die Anwendung auf baurechtliche Verwaltungsverfahren folgt aus der EGMR-Praxis zum Begriff
+  der «zivilrechtlichen Ansprueche» (nicht Gegenstand dieser Pruefung, unveraendert uebernommen).
+- **Art. 213/214 ZPO** (Zeile 104, Mediation via Gerichtszuweisung): CONFIRMED — Art. 213 «Mediation statt
+  Schlichtungsverfahren», Art. 214 «Mediation im Entscheidverfahren» existieren wortgleich wie zitiert.
+
+**Ergebnis (Run 102):** 10/11 Bundesrechts-Zitate CONFIRMED, 1 korrigiert (Art. 103 → Art. 103 + Art. 104
+BGG). Damit ist der Artikel nun auch auf Bundesrechts-Ebene vollstaendig Wortlaut-verifiziert.
 
 ## 7. Fuer die JANS-Praxis
 - Bei unbefriedigendem Entscheid **immer parallel fristwahrend rekurrieren**, auch wenn man mit der Behoerde

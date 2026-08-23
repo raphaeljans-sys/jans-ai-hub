@@ -3,6 +3,63 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 102: [[rechtsschutz-und-rechtsmittelverfahren]] re-verifiziert — erstmals alle 11 zitierten Bundesrechts-Artikel (BV/BGG/RPG/NHG/EMRK/ZPO) gegen den amtlichen Wortlaut geprüft, 1 Korrektur (Art. 103 BGG traegt die «Antrag»-Ausnahme nicht selbst, das ist Art. 104 BGG); zudem Run-101-Fehlempfehlung korrigiert ([[nebenbestimmungen-und-reverse]] war bereits seit Run 67 vollstaendig verifiziert)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (Batches T1-T8). Geprüft:
+  CHANGELOG bis Run 101 und der Report `outputs/2026-08-23_buch-run101.md`. Bestätigt: die Queue
+  selbst (T1-T9) ist seit Run 87 vollständig abgearbeitet; seit Run 90 läuft statt dessen die
+  Modell-D-Re-Verifikationskette der `established`-Artikel. Vor dem ersten Edit `git status --short
+  wissen/baurecht/` geprüft (sauber) und `ps aux | grep "claude -p"`: der einzige Prozess mit
+  identischem Auftragstext ist der eigene `-p`-Prozess dieser Session (PID 76379) — kein Konflikt.
+- **Run-101-Empfehlung widerlegt, bevor sie befolgt wurde:** Run 101 empfahl
+  [[nebenbestimmungen-und-reverse]] (Art. 962 ZGB/Art. 164 GBV «noch nie gegen fedlex geprüft»).
+  Der Artikel selbst widerlegt das: sein `verifiziert`-Feld dokumentiert bereits einen
+  **vollständigen Modell-D-Wortlautabgleich aller 13 Fundstellen inkl. Art. 962 ZGB/Art. 164 GBV in
+  Buch-Run 67** (2026-07-27, dort sogar eine invertierte Polarität bei Art. 164 GBV gefunden und
+  korrigiert). Die Empfehlung beruhte offenbar auf der Paragraphenliste, nicht auf dem Artikeltext
+  selbst — Lehre für künftige Läufe im Report festgehalten.
+- **Auswahl:** [[rechtsschutz-und-rechtsmittelverfahren]] — von den 4 tatsächlich offenen
+  Kandidaten der Artikel mit den meisten unverifizierten Bundesrechts-Zitaten (11, über sechs
+  Erlasse BV/BGG/RPG/NHG/EMRK/ZPO), mehr als [[ausnahmebewilligung-und-bestandesschutz]] (4 Zitate).
+  [[baulinien-und-abstandslinien]] und [[geschosse-und-kniestock]] haben keine Bundesrechts-Lücke
+  mehr (rein kantonale Fundstellen).
+- **Vorgehen:** amtliche Volltexte ueber das Filestore-Muster bezogen: BV (SR 101, ELI `1999/404`,
+  Stand 1.1.2024, bereits bekannt), BGG (SR 173.110, ELI `2006/218`, Stand 1.1.2025, 484'480 Byte),
+  RPG (SR 700, ELI `1979/1573_1573_1573`, Stand 1.7.2026, bereits bekannt), NHG (SR 451, ELI
+  `1966/1637_1694_1679`, Stand 1.1.2022, 503'394 Byte — juengster funktionierender Snapshot), EMRK
+  (SR 0.101, ELI `1974/2151_2151_2151`, Stand 16.9.2022, 540'433 Byte), ZPO (SR 272, ELI `2010/262`,
+  Stand 1.1.2025, 1'220'738 Byte). ELIs fuer BGG/ZPO/NHG/EMRK per WebSearch ermittelt (erstmalig fuer
+  diesen Artikel), per `pdftotext -layout` extrahiert, Artikel fuer Artikel gegen den Wiki-Wortlaut
+  geprueft.
+- **Ergebnis: 10/11 CONFIRMED wortgleich.** Art. 29a BV (Rechtsweggarantie), Art. 82/95/113 BGG,
+  Art. 29 Abs. 2 BV (Replikrecht-Grundlage), Art. 4 RPG (Mitwirkung), Art. 12 NHG (Verbandsbeschwerde
+  bei Bundesaufgabe — systematisch bestaetigt), Art. 6 EMRK (oeffentliche Verhandlung), Art. 213/214
+  ZPO (Mediation). Art. 97 BGG im Ergebnis bestaetigt (amtlich «offensichtlich unrichtig» statt
+  woertlich «Willkuer», nach BGer-Praxis gleichbedeutend).
+- **1 Korrektur: Art. 103 BGG.** Der Artikel behauptete «Bund: keine, ausser Antrag (Art. 103 BGG)» —
+  Art. 103 selbst enthaelt aber keine Antrags-Ausnahme: Abs. 1 Grundsatz keine aufschiebende Wirkung,
+  Abs. 2 lit. a-d abschliessender Ausnahmekatalog (Zivil-/Straf-/Rechtshilfe-/Amtshilfefaelle, keine
+  Baustreitigkeit darunter). Die Antrags-Moeglichkeit steht separat in **Art. 104 BGG** («Andere
+  vorsorgliche Massnahmen» — Instruktionsrichter kann von Amtes wegen oder auf Antrag vorsorgliche
+  Massnahmen treffen). Zitat korrigiert und ergaenzt.
+- **In die KB eingearbeitet:**
+  - **GEÄNDERT** `wiki/rechtsschutz-und-rechtsmittelverfahren.md`: `last_updated` auf 2026-08-23,
+    `verifiziert`- und `letzte_quelle`-Feld ergaenzt, Fliesstext Abschnitt 1 korrigiert, neuer
+    Abschnitt 6d mit der vollstaendigen Verifikations-Notiz.
+  - **GEÄNDERT** `training/PROGRAMM.md`: Tracker-Eintrag Run 102, `last_updated` nachgefuehrt.
+  - **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md`: Fortsetzungs-Absatz um Run 102
+    ergaenzt.
+  - **Kein neuer `raw/`-Volltext** (gleiches Vorgehen wie Run 97/99/100/101).
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** `git status --short wissen/baurecht/` vor
+  dem ersten Edit geprueft (sauber). Nach jedem Schreiben `git diff --numstat` geprueft:
+  `wiki/rechtsschutz-und-rechtsmittelverfahren.md` 62/4 (die 4 geloeschten Zeilen sind exakt die 4
+  beabsichtigt ersetzten Felder/Saetze, per `git diff | grep "^-"` gegengeprueft).
+- Report `outputs/2026-08-23_buch-run102.md`. **Naechster Schritt:** von den verbleibenden Artikeln
+  mit tatsaechlicher Bundesrechts-Luecke bleibt nur noch
+  [[ausnahmebewilligung-und-bestandesschutz]] (4 Zitate: Art. 24c RPG, Art. 41c GSchV, Art. 26 BV,
+  Art. 8 ZGB) — Empfehlung fuer den naechsten Lauf.
+
+
 ## 2026-08-23 — Buch-Run 101: [[widerrechtliche-bauten-und-sanktionen]] re-verifiziert — erstmals alle 12 zitierten Bundesrechts-Artikel (RPG/BV/StGB/OR/ZGB/StPO) gegen den amtlichen Wortlaut geprüft, 1 echte Korrektur (Art. 229 StGB Strafrahmen), 1 substanzieller Neubefund (Art. 25 Abs. 5 RPG kodifiziert die 30-Jahre-Regel seit 1.1.2026)
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (Batches T1-T8). Geprüft:
