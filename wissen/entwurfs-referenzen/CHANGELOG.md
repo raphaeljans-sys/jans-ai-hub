@@ -1,5 +1,37 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 8 Revendo) — Querprobe zwischen den Feldern: die Sets sind in sich stimmig
+
+Die Prüfregel aus `wissen/grobkosten` in der hier passenden Form angewendet: **die Felder eines
+Sets müssen zueinander passen**, sonst beschreiben sie nicht dasselbe Gebäude.
+
+**Healthcare — die drei Flächenfelder gehen auf.** `gf_pro_einheit_m2` × `gv_gf_faktor` gegen
+`gv_pro_einheit_m3`: Bandunterkante 90 × 3.2 = 288 gegen 289 (**−0.3 %**), Bandoberkante
+135 × 3.2 = 432 gegen 436 (**−0.9 %**). Beim **Median** weicht es um +3.6 % ab — das ist **kein
+Fehler**, sondern erwartbar: der Median eines Verhältnisses ist nicht das Verhältnis der Mediane.
+**Lesehilfe daraus:** wer die drei Felder gegeneinander rechnet, nimmt die **Bandränder**, nicht
+die Mediane.
+
+**Schule — die zwei Kostenkennwerte aus verschiedenen Projekten sind miteinander vereinbar.**
+`chf_m2_gf_einzelwert` 4'250 (Wattwil) und `chf_je_einheit` 1.6–1.8 Mio. je Klassenzimmer (Hausen,
+Schöntal) implizieren zusammen **376–424 m² GF je Klasse**. Gegenprobe am Wattwil-Objekt selbst
+(14'100 m² GF, 720 Schüler): je nach Klassengrösse **352 / 392 / 431 / 470 m²** (bei 18/20/22/24
+Schülern). Das implizierte Fenster liegt **mitten darin**. ⚠ **Kein Beleg, eine Plausibilitätsprobe**
+— die Klassengrösse in Wattwil ist nicht bekannt und nur als Bandbreite unterstellt, und ein
+Kantonsschulbau hat einen anderen Flächenschlüssel als eine Primarschule. Die Probe hätte einen
+groben Widerspruch aufgedeckt (etwa 150 oder 900 m² je Klasse); den gibt es nicht.
+
+**Wohnen — abgeleitete Kosten je Wohnung als Lesehilfe:** 332'500–409'500 CHF je
+4.5-Zimmer-Wohnung auf Preisstand 2018/2019, indexiert **388'550–483'000 CHF**. ⚠ BKP 1–9 inkl.
+MwSt., exkl. Parkierung, aus einem **gemeinnützigen** Verfahren — eine Erstellungskosten-, keine
+Marktpreisgrösse und **nicht** mit Eigentumswohnungspreisen vergleichbar. **Nicht als Feld
+eingetragen**, weil es reine Multiplikation zweier bereits geführter Felder ist.
+
+**Ergebnis: kein Widerspruch zwischen den Feldern der drei Sets.** Dieselbe Probe hat bei den
+Projektbelegen in `wissen/grobkosten` einen echten Fehler gefunden — hier hält alles.
+
+Geänderte Dateien: `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf 7 Revendo) — Rückwirkung eines Quellenbefunds auf den eigenen Flächenblock
 
 In `wissen/immobilienbewertung` hat ein Recompute der Quelltabelle (JANS-8-Objekt-Referenzvergleich,

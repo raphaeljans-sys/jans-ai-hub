@@ -366,3 +366,58 @@ erst, wenn **opendata.swiss und der Publikationskatalog** der Stelle geprüft si
 ist kein Beleg für fehlende Daten. Dieselbe Lehre in anderer Form steht in
 `wissen/planungsgrundlagen/wiki/QUESTIONS.md` (eine Seite gilt erst als leer, wenn der Rohquelltext
 geprüft ist).
+
+## Vertiefungslauf 8, 23.08.2026 (Revendo) — Querprobe zwischen den Feldern: die Sets sind in sich stimmig
+
+Die in `wissen/grobkosten` gewonnene Prüfregel — Zahlen gegen ihre eigene Grundlage zurückrechnen —
+lässt sich hier in einer eigenen Form anwenden: **die Felder eines Sets müssen zueinander passen**,
+sonst beschreiben sie nicht dasselbe Gebäude.
+
+### Healthcare — die drei Flächenfelder passen zusammen
+
+`gf_pro_einheit_m2` × `gv_gf_faktor` muss `gv_pro_einheit_m3` ergeben:
+
+| | GF je Platz | × Faktor 3.2 | geführtes GV je Platz | Abweichung |
+|---|---|---|---|---|
+| Bandunterkante | 90 m² | 288 m³ | 289 | **−0.3 %** |
+| Bandoberkante | 135 m² | 432 m³ | 436 | **−0.9 %** |
+| Median | 111 m² | 355 m³ | 343 | +3.6 % |
+
+**Die Bandränder gehen praktisch exakt auf.** Beim Median ist die Abweichung erwartbar und kein
+Fehler: der Median eines Verhältnisses ist nicht das Verhältnis der Mediane — GF-Median, GV-Median
+und Faktor-Median stammen je aus einer anderen Rangfolge derselben acht Objekte. **Wer die drei
+Felder gegeneinander rechnet, muss die Bandränder nehmen, nicht die Mediane.** Als Hinweis im Set
+ist das nicht nötig, weil die Felder je einzeln belegt sind — es ist eine Lesehilfe für den
+Querbezug.
+
+### Schule — die zwei unabhängigen Kostenkennwerte sind miteinander vereinbar
+
+Das Set führt zwei Kostengrössen aus **verschiedenen Projekten**: `chf_m2_gf_einzelwert` 4'250
+(Kantonsschule Wattwil) und `chf_je_einheit` 1.6–1.8 Mio. je Klassenzimmer (Hausen, Schöntal).
+Zusammen implizieren sie eine Geschossfläche je Klasse von **376 bis 424 m² GF**.
+
+Gegenprobe am Wattwil-Objekt selbst (14'100 m² GF, 720 Schüler): je nach Klassengrösse ergeben sich
+**352 m² (bei 18)**, **392 m² (20)**, **431 m² (22)** oder **470 m² (24)** GF je Klasse. Das
+implizierte Fenster 376–424 liegt **mitten in diesem Bereich** — die beiden aus verschiedenen
+Projekten stammenden Kennwerte widersprechen sich also nicht, sondern beschreiben eine plausible
+gemeinsame Grössenordnung.
+
+⚠ **Was das nicht ist:** ein Beleg. Die Klassengrösse in Wattwil ist **nicht bekannt** und hier nur
+als Bandbreite unterstellt; und ein Kantonsschulbau hat einen anderen Flächenschlüssel als eine
+Primarschule. Es ist eine **Plausibilitätsprobe**, die bestanden ist — mehr nicht. Sie hätte einen
+groben Widerspruch aufgedeckt (etwa 150 oder 900 m² je Klasse); den gibt es nicht.
+
+### Wohnen — abgeleitete Kosten je Wohnung, als Lesehilfe
+
+`chf_m2_hnf_band` × `hnf_pro_einheit_m2` ergibt **332'500–409'500 CHF je 4.5-Zimmer-Wohnung** auf
+Preisstand 2018/2019, indexiert auf 01.04.2026 **388'550–483'000 CHF**. ⚠ Das ist **BKP 1–9 inkl.
+MwSt., exkl. Parkierung** und stammt aus einem **gemeinnützigen** Verfahren — es ist eine
+Erstellungskosten-, keine Marktpreisgrösse und **nicht** mit Eigentumswohnungspreisen vergleichbar
+(dort steckt Land, Marge und Vermarktung drin). Nicht als Feld eingetragen, weil es reine
+Multiplikation zweier bereits geführter Felder ist.
+
+### Ergebnis
+
+**Kein Widerspruch zwischen den Feldern der drei Sets.** Das ist die Probe, die bei den
+Projektbelegen in `wissen/grobkosten` einen echten Fehler gefunden hat (Vorlagen-Kontamination) —
+hier hält alles.

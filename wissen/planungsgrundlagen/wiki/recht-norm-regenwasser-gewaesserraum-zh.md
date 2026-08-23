@@ -1,7 +1,7 @@
 ---
 title: Recht & Norm — Regenwasserentsorgung und Gewässerraum-Festlegung Kt. ZH
 status: established
-last_updated: 2026-08-01 (Wartungslauf 02: gis.zh.ch + gewaesserschutzgesetz.zh.ch ohne www.)
+last_updated: 2026-08-23 (Vertiefungslauf 5 Revendo: Richtwert 5-10 % gegen die eigenen Beispiele geprueft)
 sources: [PL - 02_Recht_Norm/01_Gesetze/02_Zuerich/Wasser/Richtlinie_Regenwasserentsorgung_V2_2a.pdf (AWEL Kt. ZH, "Richtlinie und Praxishilfe Regenwasserentsorgung", 2005/Version 2.2 März 2006, 48 S., basiert auf VSA-Richtlinie 2002 + SN 592'000), .../Wasser/AWEL_Merkblatt_ Gewässerraum.pdf (AWEL/ARE Kt. ZH, "Festlegung des Gewässerraums bei nutzungsplanerischen Verfahren und bei Wasserbauprojekten", Juli 2014, 7 S.), PL - 02_Recht_Norm/04_Merkblätter/AWEL_Merkblatt_Versickerung.pdf (AWEL Kt. ZH, "Versickerung des Regenwassers — Grünflächen in Industrie- und Gewerbearealen doppelt nutzen", Reihe Umweltpraxis Entwässerung, Februar 2009, 12 S.)]
 links: [[recht-norm-quellenlandkarte]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[energie-baueingabe-zusatzformulare]], [[regenwasserbewirtschaftung-versickerung-zh]] (KB energie — aktuelle Bewilligungsschwellen + Schwammstadt)
 ---
@@ -268,7 +268,33 @@ wird **ohne Einlaufschächte/Sammelleitungen** entwässert (Regenwasser fliesst 
 Versickerungsmulde), damit ca. **CHF 30'000 Baukosten eingespart**. **Platzbedarf als Richtwert:
 5–10 % der entwässerten Fläche** für die Versickerungsanlage (Beispieltabelle: Prodega Dietikon
 8 %, TOI TOI Buchs 8 %, Post Paketsortierzentrum Schlieren 8 %, Stahl-Contor Embrach 7 %, Eishalle
-Deutweg Winterthur 3 %, Acifer Regensdorf 2 %). Weitere reale ZH-Beispiele: DHL Express
+Deutweg Winterthur 3 %, Acifer Regensdorf 2 %).
+
+> ### ⚠ Der Richtwert 5–10 % wird von den eigenen Beispielen nicht getragen (Prüfung 23.08.2026)
+>
+> Die sechs zitierten Beispiele liegen bei **2, 3, 7, 8, 8, 8 %** — beobachtete Spanne also
+> **2–8 %**, Median 7.5 %, Mittelwert 6 %. Der daneben genannte Richtwert **5–10 %** deckt sich
+> damit **an beiden Enden nicht**:
+>
+> - **Zwei der sechs Beispiele liegen unter der Untergrenze** (Eishalle Deutweg Winterthur 3 %,
+>   Acifer Regensdorf 2 %) — ein Drittel der Belege.
+> - **Kein einziges Beispiel erreicht die Obergrenze**; das Maximum ist 8 %.
+>
+> **Wie das zu lesen ist.** Der Richtwert stammt aus der Quelle und ist deshalb **nicht geändert**
+> — möglicherweise stützt er sich auf eine breitere Grundlage als die sechs hier abgedruckten
+> Fälle, oder die beiden tiefen Werte haben besondere Gründe (Dachwasser separat abgeführt,
+> Anschluss an ein Oberflächengewässer, vorbestehende Anlage). **Belegt ist das nicht.**
+>
+> **Für die Anwendung:** die Beispiele sind der härtere Beleg als der Richtwert, weil sie reale,
+> benannte Objekte sind. Für eine **Vorbemessung** ist **7–8 %** die von den Belegen getragene
+> Grössenordnung; die **10 %** taugen als Reserve, nicht als Erwartungswert. Und **unter 5 % ist
+> nachweislich möglich** — wer den Richtwert als Untergrenze liest, überdimensioniert die
+> Versickerungsfläche gegenüber zwei der sechs Referenzobjekte.
+>
+> ⚠ **Nicht geklärt und nicht geraten:** worin sich die beiden tiefen Fälle von den übrigen
+> unterscheiden. Das wäre am Original zu prüfen, bevor man einen Wert unter 5 % ansetzt.
+
+**Weitere reale ZH-Beispiele:** DHL Express
 Regensdorf (33'500 m² Grundstück, Grünflächen doppelt für Umgebungsgestaltung + Platz-/
 Dachwasser-Versickerung), Coop Megastore «Silbern» Dietikon (Parkplatz-Regenwasser direkt auf
 angrenzende Grünfläche).

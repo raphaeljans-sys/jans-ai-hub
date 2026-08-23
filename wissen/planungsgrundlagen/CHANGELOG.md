@@ -2,6 +2,38 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 5 Revendo) — Prüfregel angewendet: ein Richtwert wird von den eigenen Beispielen nicht getragen
+
+Die in `wissen/grobkosten` gewonnene Prüfregel — Zahlen gegen ihre eigene Grundlage zurückrechnen —
+auf die Kennwerte dieser KB angewendet. Sie führt fast nur Rechtsinhalte und Verfahren; der einzige
+Block mit eigener Zahlenbasis ist die Versickerungs-Kostentabelle in
+[[recht-norm-regenwasser-gewaesserraum-zh]]. Dort ein Befund.
+
+**Der Richtwert «Platzbedarf 5–10 % der entwässerten Fläche» deckt sich nicht mit den sechs
+Beispielen, die unmittelbar daneben stehen.** Diese liegen bei **2, 3, 7, 8, 8, 8 %** — Spanne
+**2–8 %**, Median 7.5 %, Mittelwert 6 %:
+
+- **Zwei von sechs liegen unter der Untergrenze** (Eishalle Deutweg Winterthur 3 %, Acifer
+  Regensdorf 2 %) — ein Drittel der Belege.
+- **Kein einziges erreicht die Obergrenze**; das Maximum ist 8 %.
+
+**Nicht geändert** — der Richtwert stammt aus der Quelle und stützt sich möglicherweise auf eine
+breitere Grundlage als die sechs abgedruckten Fälle, oder die beiden tiefen Werte haben besondere
+Gründe (Dachwasser separat, Anschluss an ein Oberflächengewässer, Bestandesanlage). **Belegt ist
+das nicht**, und geraten wird es nicht.
+
+**Für die Anwendung im Artikel verankert:** die Beispiele sind der härtere Beleg als der Richtwert,
+weil sie reale, benannte Objekte sind. Für eine **Vorbemessung** ist **7–8 %** die von den Belegen
+getragene Grössenordnung; die 10 % taugen als Reserve, nicht als Erwartungswert. Und **unter 5 %
+ist nachweislich möglich** — wer den Richtwert als Untergrenze liest, überdimensioniert die
+Versickerungsfläche gegenüber zwei der sechs Referenzobjekte.
+
+**Dasselbe Muster wie in den anderen Wissensbasen:** eine Bandbreite, die ihre eigene Evidenz nicht
+abbildet — hier nicht durch eine fehlende Angabe, sondern durch eine Spanne, die weder die
+beobachtete Streuung enthält noch von ihr gestützt wird.
+
+Geänderte Dateien: `wiki/recht-norm-regenwasser-gewaesserraum-zh.md` (⚠-Block + `last_updated`).
+
 ## 2026-08-23 (Vertiefungslauf 4 Revendo) — Werkzeug-Falle belegt: die Konsistenz-Werkzeuge messen die NAS-Kopie, nicht das lokale Repo
 
 Beim Abschluss-Konsistenzlauf über die vier bearbeiteten Wissensbasen ist eine Falle aufgefallen,
