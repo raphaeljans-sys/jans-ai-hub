@@ -3,6 +3,34 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (Buch-Run 75) — Korpus-Queue Batch T3 (Grundmasse Thalwil + SBV W3 + Zonenplan) erledigt
+
+- [ingest] `raw/260823_amtlich_zh_bzo-thalwil-grundmasse.md` — Art. 3 BZO Thalwil
+  (Grundmasse-Tabelle Wohnzonen W1-WG4) sauber mit `pdftotext -layout` neu extrahiert
+  (`oerebdocs.zh.ch/getDoc?docid=1296`, frisch bezogen), plus Cross-Check Art. 20a und
+  Zonenplan-Legende (Stand 01.06.2024).
+- [fix] **Dieselbe Linearisierungs-Falle wie beim Zürich-Stadt-Fall (Run 56, 25.07.2026)
+  ein zweites Mal bestätigt:** `raw/260607_amtlich_zh_bzo-thalwil.md` verschiebt die
+  Art.-3-Grundmasse-Tabelle von ihren Zonen-Spalten (Zeilen 682-918) — Zahlen wie «7.50»,
+  «10.50 10.50 13.50» standen dort ohne erkennbare Zonenzuordnung. Kein Inhalt fehlte, nur
+  die Extraktion war unbrauchbar; behoben durch dieselbe Layout-Neuextraktions-Methode.
+  Gegenprobe mit einer unabhängigen zweiten PDF-Quelle (Projektordner-Export vom
+  26.11.2024) bestätigt: zeichengleich trotz abweichender Gesamtseitenzahl (19 vs. 21
+  Seiten, reines PDF-Exportartefakt, keine Rechtsänderung).
+- [add] `wiki/zonenkonformitaet.md` — neue Sektion «Grundmasse BZO Thalwil», analog zur
+  bestehenden Zürich-Stadt-Sektion: vollständige Zonentabelle (Vollgeschosse, UG/DG,
+  Gebäudehöhe, Firsthöhe, Grundabstand, AZ, Gebäudelänge, Mehrlängenzuschlag), Sonderregel
+  Art. 20a (Aufwertung/Verdichtung W3/WG3: AZ 80 %, 4 VG ohne DG, GH 13,50 m, HNF-Deckel
+  nach SIA 416), Zonenarten-Legende aus dem Zonenplan.
+- [note] Art. 20a war im bestehenden Raw-Volltext bereits korrekt lesbar (nicht von der
+  Linearisierung betroffen) — reine Bestätigung, kein neuer Ingest nötig. Kein neuer
+  Wiki-Artikel angelegt, die Werte fügen sich in die bestehende [[zonenkonformitaet]]-
+  Struktur ein.
+- Korpus-Queue: `training/KORPUS-QUEUE-thalwil-reglemente.md` T3 auf «erledigt» gesetzt
+  (4 von 8 Batches). Nächster Vorschlag: **T5 Einzelthemen** (Kniestock, Massgebendes
+  Terrain, Besonderes Gebäude, Fahrzeugabstellplätze, Fensterflächen, Spiel-/Ruhefläche,
+  Baugespann, Wohnungserhebung). Report: `outputs/2026-08-23_buch-run75.md`.
+
 ## 2026-08-23 (Wissens-Chef, QUESTIONS.md-Abarbeitung) — zehn offene Fragen bearbeitet, acht geschlossen
 
 Systematische Abarbeitung von `wiki/QUESTIONS.md` (Rule 260629, Recherche-Agenten parallel,

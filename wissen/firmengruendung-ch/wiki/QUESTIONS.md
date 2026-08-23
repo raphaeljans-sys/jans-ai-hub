@@ -9,6 +9,11 @@
   dieser Erhebung den aktuellen Gründungsstand dort prüfen, nicht annehmen.
 
 ## needs-verification (zentral)
+- [[nachgruendung-anmeldungen]]: Wortlaut Art. 68 UVG (freie Versichererwahl, genaue
+  Anmeldefrist bei Nicht-Suva-Betrieben) und Art. 66 MWSTG (Anmeldefrist-Wortlaut) sind
+  am Fedlex-Volltext noch nicht gegengelesen — der Filestore-Abgleich brach beide Male
+  vor dem Textende ab (Dokumentlänge, geprüft 23.08.2026). Die übrigen Fristen des
+  Artikels (AHVG, BVG, UVG Art. 1a/59/66, MWSTG Art. 10) sind verifiziert.
 - Beratungs-/Notarkosten ([[rechtsform-vergleich]], [[kosten-und-zeit]]) bleiben
   Marktrichtwerte ohne amtlichen Tarif (Notariate ZH sind frei erwerbend) — vor einer
   realen Gründung aktuelle Offerte einholen. Die Handelsregistergebühr-Hälfte dieser Frage
@@ -20,6 +25,30 @@
 - Noch keine erfasst.
 
 ## Beantwortete Fragen (Archiv)
+- **[[nachgruendung-anmeldungen]]: BVG-Auffangfrist und UVG-Anmeldefrist am Fedlex-
+  Volltext korrigiert (23.08.2026, Pflegelauf gegen den aktuellen Stand):** Der Artikel
+  trug seit dem 22.07.2026 zwei unbelegte Fristangaben, die sich beim direkten
+  Fedlex-Filestore-Abgleich (Rule `auto-verbesserungen.md` 260721) als falsch erwiesen.
+  (1) **BVG:** Art. 11 BVG nennt für die zwangsweise Anmeldung eines säumigen
+  Arbeitgebers bei der Stiftung Auffangeinrichtung wörtlich eine Frist von **zwei
+  Monaten** (Abs. 5: „innerhalb von zwei Monaten"), nicht sechs; kontrollierende
+  Stelle ist die **Ausgleichskasse der AHV** (Abs. 4), nicht eine kantonale
+  BVG-Aufsichtsbehörde; korrekte Fundstelle ist Abs. 4–6, nicht Abs. 3/4 (Abs. 3/3bis/
+  3ter regeln die Auflösung/den Wiederanschluss, nicht die Kontrollfrist). (2) **UVG:**
+  Die in Art. 59 Abs. 1 UVG genannte 14-Tage-Frist ist keine allgemeine Anmeldefrist
+  «14 Tage vor Stellenantritt» bei einem beliebigen Versicherer, sondern die
+  **Nachmelde**-Frist der Betriebseröffnung/-einstellung an die Suva, und sie gilt nur
+  für nach Art. 66 UVG Suva-pflichtige Betriebe — für die Raphael Jans AG als
+  Bürobetrieb (freie Versichererwahl nach Art. 68 UVG) irrelevant. Beide Artikel-Texte
+  zweifach wörtlich am Fedlex-Filestore verifiziert (BVG-Konsolidierung 01.01.2025,
+  UVG-Konsolidierung 01.01.2026). **Neu offen (needs-verification, nicht geschlossen):**
+  der genaue Wortlaut von Art. 68 UVG (freie Versichererwahl) und von Art. 66 MWSTG
+  (Anmeldefrist) liess sich über den Fedlex-Filestore wegen der Dokumentlänge nicht
+  mehr lesen (das WebFetch-Tool bricht die Verarbeitung sehr langer HTML-Konsolidierungen
+  vor dem Textende ab) — für eine spätestens-Frist der UVG-Anmeldung bei freier
+  Versichererwahl bleibt daher offen, ob das Gesetz selbst eine Frist nennt oder nur
+  Praxis gilt. AHVG Art. 5/12, BVG Art. 2 und UVG Art. 1a/66 wurden im selben Lauf ohne
+  Beanstandung bestätigt.
 - **Handelsregistergebühr AG/GmbH: CHF 420 pauschal statt gestaffelt (08.08.2026,
   Nachtschicht-Zyklus Mac Mini):** [[kosten-und-zeit]] und [[rechtsform-vergleich]] führten
   seit dem EasyGov-Dossier 2022 eine kantonal gestaffelte Handelsregistergebühr (~CHF 600,

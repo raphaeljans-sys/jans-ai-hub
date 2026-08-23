@@ -1,3 +1,47 @@
+## 2026-08-23 — SIA-Sweep, zweite Fortsetzung: Blindzone-Statistik aktualisiert, N-SIASWEEP-1 geschlossen, -2/-3/-4 vertieft
+
+**Auftrag Raphael:** den SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im
+Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen; zuerst CHANGELOG und letzten Report lesen und dort weitermachen.
+
+**Befund vor der eigenen Arbeit:** die Blindzone (Abschnitt A) war bereits durch zwei
+Vorläufe desselben Tages vollständig geschlossen und verifiziert (eigene Gegenprobe:
+0 von 259 Zeilen/187 aktiven Normen mit leerer Bestand-Abgleich-Spalte). Kein
+konkurrierender `claude`-Prozess an derselben KB (`ps aux` geprüft).
+
+**Zwei echte Fortsetzungen geleistet, weil die Blindzone selbst schon zu war:**
+
+1. **Blindzone-Statistik in `wiki/REGISTER.md`** (Abschnitt «⚠ Die 2013-Blindzone —
+   beziffert») war seit Run 37 (29.07.2026) unverändert und zeigte nach dem Sweep falsche
+   Zahlen (102 von 177 «ohne Datei im Haus»). Aktualisiert mit Vorher/Nachher-Tabelle: 187
+   aktive Zeilen, 0 leere Zellen, aber weiterhin nur 131 mit echtem Volltext im Haus und 56
+   nur mit Shop-Metadaten (kein Volltext gelesen) — diese Unterscheidung war nach dem Sweep
+   sonst verschwunden.
+2. **Die vier offenen Fragen N-SIASWEEP-1 bis -4 vertieft** (WebSearch + WebFetch, frei
+   zugängliche Quellen, kein Kauf): **N-SIASWEEP-1 (SIA 381/3 Heizgradtage) geschlossen** —
+   Espazium-Artikel vom 08.05.2015 belegt Rückzug und Übergang des Fachinhalts in die
+   Corrigenda SIA 2028/C1:2015. **N-SIASWEEP-2 (SIA 422)** und die **SIA-2021-Hälfte von
+   N-SIASWEEP-3** bleiben offen, jetzt aber per direktem WebFetch der Shop-Produktseiten
+   bestätigt statt nur über Suchmaschinen-Synopsen. **SIA-2025-Hälfte von N-SIASWEEP-3**:
+   ein möglicher Rückzugsgrund gefunden (Espazium-Synopse), aber bewusst NICHT als Fundstelle
+   übernommen — Datum/Sitzung liessen sich nicht zuverlässig zuordnen (ein direkt geprüfter
+   Artikel gleichen Titels nannte ein abweichendes, vermutlich früheres Rückzugsdatum). **N-
+   SIASWEEP-4 (GEO405/SIA 405:2025)** bleibt offen, neu mit Gültig-ab-Datum 01.08.2025
+   (sogi.ch) und einem starken Indiz aus der offiziellen SIA-Webinar-Ankündigung (nennt alle
+   drei Vorgänger als Teilnahme-Vorwissen) — weiterhin keine explizite Primärquellen-Formel
+   zur Ablösung gefunden.
+
+**Keine neuen Destillate** — wie in den Vorläufen: kein Volltext vorhanden, nichts zu
+destillieren.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreiben (`REGISTER.md` 46+/30-,
+`QUESTIONS.md` 69+/13-), reine Erweiterungen an den editierten Stellen. Commit via
+`nas-commit-now.sh`, nicht per direktem `git` über den SMB-Mount.
+
+Report: `outputs/2026-08-23_sia-sweep-fortsetzung2.md`.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, Fortsetzung: Tabellen-Fehlformatierung der 69 Blindzone-Zeilen behoben, Vollständigkeit verifiziert
 
 **Auftrag Raphael:** den SIA-Sweep-Vorlauf (23.08. 15:57, 119 Turns, unten dokumentiert)

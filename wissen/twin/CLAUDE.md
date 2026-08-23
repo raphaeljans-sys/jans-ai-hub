@@ -139,11 +139,21 @@ in Kombination und nie fuer sich. Gleiche Lehre wie beim Guillemet-Falsch-Positi
 Signal, das echtes Gold abwerten kann, muss vor der Aufnahme gegen die eigene Hand gegengeprueft werden.**
 
 **BETREFF-PROBE, neu 23.08.2026 — der Betreff ist die verlaesslichste Gold-Probe einer Mail.**
-(⚠ Bewusst **ohne** Ordnungszahl gefuehrt: die Nummerierung dieses Katalogs ist im Bestand doppelt
-vergeben — «Siebte Falle» und «Neunte Falle» existieren je zweimal, mit verschiedenen Inhalten und
-Daten. Neue Eintraege bekommen darum einen **Namen**, keine Nummer; die bestehenden Doppelungen
-sind nicht angetastet, weil andere Stellen auf sie verweisen. Aufraeumvorschlag in [[QUESTIONS]]
-260823 #5.)
+(⚠ Bewusst **ohne** Ordnungszahl gefuehrt: die Nummerierung dieses Katalogs schien im Bestand
+doppelt vergeben — «Siebte Falle» und «Neunte Falle» je zweimal. Neue Eintraege bekommen darum
+einen **Namen**, keine Nummer; das bleibt so stehen. Aufraeumvorschlag in [[QUESTIONS]] 260823 #5.
+⚠ **Praezisiert 23.08.2026, Vertiefungslauf:** die Diagnose war falsch. Ein Grep auf das Muster
+`**<Ordnungszahl> Falle, neu` liefert fuer «Siebte» und «Neunte» je genau EINEN Treffer (Zeilen
+229 bzw. 259 des Bestands vor diesem Nachtrag); die weiteren Fundstellen (Tabellenzeile,
+Korrektur-Absatz, Nachtrag) sind Verweise auf dieselbe Definition, keine zweite. Tatsaechlich
+fehlte die **Achte Falle** — vierfach als bekannt referenziert (Zeilen vor diesem Nachtrag: die
+Tabelle mit der Hilti-Joch-Zeile, "Achte Falle, mustergueltig", zweimal im Fidelity-Abschnitt
+260814/260820), aber ohne eigenen Absatz; git-Historie der Datei bestaetigt, dass sie nie
+geschrieben stand. Jetzt nachgetragen, s. eigener Absatz "Achte Falle, neu 13.08.2026" oben in
+der chronologischen Reihenfolge zwischen Siebter und Neunter Falle. Die Nummerierung dieses
+Katalogs ist damit lueckenlos von der Dritten bis zur Neunzehnten Falle. Der Verzicht auf Nummern
+bei neuen Eintraegen (BETREFF-PROBE, diese Praezisierung) bleibt trotzdem sinnvoll, weil eine
+Nummer erst am Ende einer gewachsenen Notiz feststeht.)
 Die Behoerdenanfrage vom 20.11.2025 liegt **vor** dem Stichtag und waere nach Datum Gold. Ihr Body
 ist fehlerfrei, dicht fett ausgezeichnet, traegt einen Pfeil «→», einen doppelten Leerschlag vor
 dem Satzende (Rest einer entfernten Fussnotenmarke), „…" statt «…» und eine Zitierkette mit
@@ -255,6 +265,30 @@ Drei Konsequenzen, alle verbindlich:
 
 Erkennungsregel für die Gattung: **ein «`- `» mitten im Fliesstext, direkt hinter einem
 vollständigen Satz** ist in einer Mail mit Claude-CSS immer ein Raphael-Einschub, nie eine Liste.
+
+**Achte Falle, neu 13.08.2026 (Batch 92) — Raphaels Rahmen um ein eingesetztes Fragment: der
+Einleitungssatz trägt die Hand, der Block dahinter nicht.** Nachgetragen am 23.08.2026: diese
+Falle wurde ab dem 14.08.2026 mehrfach als bekannt referenziert (Fidelity 260814, s.u.; Batch 95,
+16.08.2026; Fidelity 260820), besass aber nie einen eigenen Absatz — die Prüfung von
+[[QUESTIONS]] 260823 #5 (Verdacht «Nummerierung doppelt vergeben») ergab stattdessen eine
+**fehlende** Definition; git-Historie der Datei bestätigt, dass «Achte Falle» ausser als Verweis
+nie geschrieben stand. Beleg, mustergültig (Batch 95, Fenster 13.08.2026): die Hilti-Joch-Mail
+um 18:57 an den zuständigen Fachplaner (Zimmertrennwand 2.300/2.301) besteht aus einem selbst
+getippten Einleitungssatz und einem in Apple Mail eingesetzten Block
+(`Apple-Mail-URLShareWrapperClass`, 4×, ~300 Wörter, Doppelpunkt-Blocktitel «Lösung:» /
+«Sicherheit bei der Montage:» / «Bohren und Tabuzonen, kurz:»). Der EINE Tippfehler des ganzen
+Textes («Wenn Jens kein **bessern** Vorschlag hat») steht im Rahmen, den Raphael selbst tippt,
+**vor** dem Block; der Block selbst ist fehlerfrei und im Urteil als `claude-aera`/Hub gewichtet,
+nicht als seine Stimme. Dieselbe Konfiguration mit dem Rahmen auf nur die Anrede geschrumpft:
+die Rollläden-Mail vom 01.06.2026 («**Geschätzer** Herr Battaglia» ausserhalb des Wrappers, s.
+Fidelity 260814 unten). **Erkennungsregel: die Handsignatur sitzt im Rahmen, nicht im
+Fragment** — wer den ganzen Text auf Fehlerdichte prüft statt ihn abschnittweise zu lesen,
+verpasst den Unterschied zwischen dem einen fehlerhaften Satz und den sauberen Wörtern danach.
+**Ausdrückliche Umkehrung, festgehalten bei der Siebzehnten Falle:** ein eingesetzter Fremdblock
+ist nicht automatisch eine zweite Hand am Text — er kann blosses Material sein, das Raphael
+selbst recherchiert und selbst einfügt. Die achte Falle gilt nur, wenn der eingesetzte Block
+tatsächlich fremder/Hub-Herkunft ist (hier belegt durch den Wrapper), nicht bei eigener
+Recherche ohne diesen Wrapper.
 
 **Neunte Falle, neu 14.08.2026 (Batch 93) — der mechanische Grep hat einen BLINDEN KANAL: was der
 Hub selbst als Apple-Mail-Entwurf sendet, trägt keines der drei Muster.** Die drei harten Muster

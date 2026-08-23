@@ -52,7 +52,7 @@ Klassen sauber trennen:
 |---|---|---|---|---|
 | **T1** | **BZO-Revision 2025** | `02 BZO Thalwil/_BZO-Revision 2025/`: `20250416-BZO-Vorschriften-Synopse.pdf`, `20250905-Auslegung-negative-Vorwirkung-BZO-Artikel.pdf` | neuer `raw/`-Volltext revBZO Thalwil + neuer Wiki-Artikel [[negative-vorwirkung-und-bzo-revision]] | **erledigt** (Run 72, 03.08.2026) |
 | **T2** | **Umgebungsgestaltung** | `02 BZO Thalwil/02 Umgebungsgestaltung/` (Gartenmauern, Vorgarten, Grünanteil) | Wiki [[umgebungsgestaltung-und-einfriedungen]] (neu) | **erledigt** (Run 73, 13.08.2026) |
-| **T3** | **Grundmasse + SBV W3** | `02 BZO Thalwil/01 Grundmasse/`, `Sonderbauvorschrift W3/`, `Zonenplan/` | [[zonenkonformitaet]] + [[nutzungsziffern]] schärfen | offen |
+| **T3** | **Grundmasse + SBV W3** | `02 BZO Thalwil/01 Grundmasse/`, `Sonderbauvorschrift W3/`, `Zonenplan/` | [[zonenkonformitaet]] + [[nutzungsziffern]] schärfen | **erledigt** (Run 75, 23.08.2026) |
 | **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | **erledigt** (Run 74, 17.08.2026) |
 | **T5** | **Einzelthemen** | `Kniestock/`, `Massgebendes Terrain/`, `Besonderes Gebäude/`, `Fahrzeugabstellplaetze/`, `Fensterflaechen/`, `Spiel und Ruheflaeche/`, `Baugespann/`, `Wohnungserhebung/` | je bestehender Wiki-Artikel | offen |
 | **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | offen |
@@ -136,6 +136,34 @@ Klassen sauber trennen:
   die Wegleitung BZO 2020 wurden bereits in Run 73 beigezogen; ungeprüft bleibt das Blatt
   «Gestaltung und Anordnung von Dachterrassen über Attikageschossen» (PNG) → sinnvoll bei T5
   zusammen mit Art. 25 BZO (Attikageschosse).
+
+### T3 — Grundmasse + Sonderbauvorschrift W3 + Zonenplan (Run 75, 23.08.2026)
+
+- **Kernbefund: die Art.-3-Grundmasse-Tabelle in `raw/260607_amtlich_zh_bzo-thalwil.md` ist
+  linearisiert und damit unbrauchbar** — dieselbe Fehlerfamilie wie beim Zürich-Stadt-Fall
+  (Buch-Run 56, 25.07.2026): die mehrspaltige Tabelle wurde beim ursprünglichen
+  PDF-zu-Markdown-Konvertieren in eine Zeilenkette ohne Spaltenzuordnung zerlegt (Zeilen
+  682-918, Zahlen wie «7.50», «10.50 10.50 13.50» ohne erkennbare Zone). Behoben nach
+  demselben Muster: `oerebdocs.zh.ch/getDoc?docid=1296` frisch bezogen und mit
+  `pdftotext -layout` neu extrahiert → `raw/260823_amtlich_zh_bzo-thalwil-grundmasse.md`.
+- **Doppelt gegengelesen:** die frische Extraktion wurde zusätzlich gegen die unabhängige
+  zweite Quelle im T3-Ordner selbst geprüft (`01 Grundmasse/…BZO-Seite5.pdf`, Projekt-Export
+  vom 26.11.2024) — beide Fassungen sind zeichengleich, obwohl die Gesamtseitenzahl
+  differiert (19 vs. 21 Seiten). Das ist ein PDF-Exportartefakt, keine Fassungsdivergenz.
+- **Art. 20a (SBV W3/WG3) war im bestehenden Raw bereits korrekt lesbar** — reine
+  Bestätigung, kein neuer Ingest nötig. Die Fussnote b) in Art. 3 («im Rahmen von Art. 20a
+  ersetzt ein Vollgeschoss das DG») verweist konsistent auf denselben Artikel, der bereits
+  in Run 74 für die Klammer-Falle-Analyse gelesen wurde.
+- **In die KB eingearbeitet:** `wiki/zonenkonformitaet.md` — neue Sektion «Grundmasse BZO
+  Thalwil», analog zur bestehenden Zürich-Stadt-Sektion (vollständige Zonentabelle W1-WG4,
+  Sonderbauvorschrift-Tabelle Art. 20a, Zonenarten-Legende aus dem Zonenplan).
+- **Zonenplan-PDF (`Zonenplan_20240601.pdf`):** die Geometrie selbst ist reine
+  Rastergrafik, nicht textuell extrahierbar; die textliche Legende (Zonenkürzel,
+  Empfindlichkeitsstufen LSV, Symbole) wurde vollständig übernommen und ist in
+  `raw/260823_amtlich_zh_bzo-thalwil-grundmasse.md` sowie der Wiki-Sektion dokumentiert.
+- **Kein neuer Wiki-Artikel nötig.** Die Werte fügen sich in die bestehende
+  [[zonenkonformitaet]]-Struktur (Zürich-Stadt-Muster) ein, [[nutzungsziffern]] bleibt
+  unverändert, da es die kantonale Systematik (nicht die kommunalen Zahlenwerte) behandelt.
 
 ## Arbeitsregeln je Batch
 

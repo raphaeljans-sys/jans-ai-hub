@@ -99,21 +99,23 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   (nicht die Bauherrschaft), die Sanierung mindestens 14 Tage vorher der **Suva** zu melden. «Art.
   3a ABV» war keine existierende Fundstelle. Ob die Stadt Zürich zusätzlich eine kommunale
   Meldung ans UGZ kennt, bleibt unverifiziert (kleiner Rest, nachrangig).
-- [ ] **E-R25-3 (P3): VVEA-Nachlauf — Anhänge und Folgeartikel nicht geprüft.** Für
-  `[[gebaeudeschadstoffe]]` wurde am 04.08.2026 die Rechtsbasis auf **Art. 16 VVEA
-  (SR 814.600)** verengt und am konsolidierten Fedlex-Volltext, Stand 01.08.2026, als materiell
-  unverändert bestätigt. **Nicht geprüft:** Anhang 3 und Anhang 5 VVEA sowie die Auswirkungen
-  der Revisionen AS 2025 745 (01.12.2025), AS 2025 799 (01.01.2026) und AS 2026 357
-  (01.08.2026) auf Artikel, die diese KB nicht zitiert. Führend für den Erlasswortlaut ist die
-  KB `baurecht`; dort ist die VVEA bisher **nicht** als `raw`-Volltext abgelegt.
-  ⚠ **Weitgehend erledigt 23.08.2026, ein Restpunkt bewusst offen gelassen (nicht geraten):** Am
-  Fedlex-Filestore-Volltext geprüft. Anhang 3 (Aushub-/Ausbruchmaterial) und Anhang 5
-  (Deponietypen A-E) sind die bauabfallrelevanten Anhänge. AS 2025 745 (Phosphor-Rückgewinnung)
-  und AS 2025 799 (Holzasche) betreffen Bauabfälle/Asbest **nicht**. AS 2026 357 (01.08.2026)
-  ändert u.a. **Anhang 5** (neue Abfallhierarchie-Definitionen) — ob das die Deponiezuordnung
-  mineralischer Bauabfälle materiell verändert, ist **nicht** abschliessend geprüft (dafür wäre
-  ein zeilengenauer Anhang-5-Vergleich vor/nach 01.08.2026 nötig, das sprengte den Rahmen dieser
-  Abklärung). Art. 16 VVEA selbst ist unverändert bestätigt. Beleg in `[[gebaeudeschadstoffe]]`.
+- [x] **E-R25-3 VOLLSTÄNDIG GESCHLOSSEN am 23.08.2026 (Nachmittagslauf): der Restpunkt (zeilengenauer
+  Anhang-5-Vergleich) ist durchgeführt.** Vorgeschichte: Für `[[gebaeudeschadstoffe]]` wurde am
+  04.08.2026 die Rechtsbasis auf **Art. 16 VVEA (SR 814.600)** verengt; Anhang 3 und Anhang 5 sowie
+  die Revisionen AS 2025 745/799/AS 2026 357 waren noch nicht geprüft. Vorgehen jetzt: beide
+  Fedlex-Filestore-Konsolidierungsstände der VVEA (ELI `eli/cc/2015/891`) geladen — Stand
+  01.01.2026 und Stand 01.08.2026 —, HTML zu Text bereinigt, Anhang 5 aus beiden extrahiert und
+  per `difflib.SequenceMatcher` wortweise verglichen. Ergebnis: **Ziffer 2.3 VVEA** (Deponietypen
+  A-E, mineralische Bauabfälle — die von `[[gebaeudeschadstoffe]]` zitierte Stelle) ist zwischen
+  beiden Ständen **wortidentisch**. AS 2026 357 (24.06.2026, in Kraft 01.08.2026) ändert in
+  Anhang 5 ausschliesslich die **Ziffern 3 und 4** (Rauchgasreinigungsrückstände, Filterasche,
+  Schlacke aus Verbrennungsanlagen) — dort wird viermal derselbe Klammerzusatz «nach Artikel 3
+  Buchstabe a Ziffern 1–3» bei «Siedlungsabfälle» eingefügt (Verweis-Präzisierung auf die
+  bestehende Legaldefinition), keine Grenzwertänderung. Auch **Art. 16 VVEA** wurde zwischen den
+  beiden Ständen zeichengenau verglichen und ist unverändert. Fundstelle:
+  `https://www.fedlex.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/2015/891/<JJJJMMTT>/de/html/…`
+  mit `<JJJJMMTT>` = 20260101 bzw. 20260801. Eingearbeitet in `[[gebaeudeschadstoffe]]`
+  (Frontmatter + Warnkasten). **Kein Rest offen.**
 
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — fehlender Wiki-Themenartikel zur kommunalen Wärmeplanung
 
@@ -243,14 +245,29 @@ scannte bis dahin nur `PL - 02_Recht_Norm/02_Normen/`; in den uebrigen Ordnern l
 weitere PDFs. Beim Aufteilen fielen **zwei Bestaende dieser KB zu** — sie sind KEINE Normen und
 werden darum bewusst NICHT im Normen-Inventar gefuehrt:
 
-- [ ] **E-PL02-1 (P2): `PL - 02_Recht_Norm/06_Richtlinien/Minergie/` — 79 PDF.** Gebaeudestandard
-  Minergie/-P/-A/ECO. Unbekannt ist, welche Fassungen dort liegen und ob sie den heutigen Stand
-  abbilden (Minergie 2023er-Reglemente). Zu pruefen: Deckt die KB `energie` die Minergie-Familie
-  bereits aus anderen Quellen ab, oder ist das ein echter Bestandszugang? Vor dem Destillieren
-  Fassungsstand am Titelblatt klaeren (Methodik-Pflicht: Fassungsstand vor Werteabgleich).
-- [ ] **E-PL02-2 (P3): `PL - 02_Recht_Norm/04_Merkblätter/eco/` — 55 PDF.** eco-bau-Merkblaetter
-  (Oekologie/Bauprodukte). Vermutlich mit dem eco-bau-Bestand verwandt, den diese KB schon kennt —
-  Ueberschneidung pruefen, statt doppelt zu destillieren.
+- [x] **E-PL02-1 GESCHLOSSEN am 23.08.2026 (Nachmittagslauf, Registerpflege): der Bestandszugang ist
+  laengst erschlossen, nur nie hier abgehakt.** Die gestellte Frage («deckt die KB die
+  Minergie-Familie schon ab, oder ist das ein echter Bestandszugang, Fassungsstand vor
+  Werteabgleich klaeren») ist durch die Laeufe 121/124/125/129/132/**134** faktisch beantwortet:
+  Run 134 hat den Ordner `06_Richtlinien/Minergie/` **vollstaendig rekursiv vermessen** (274
+  Dateien, davon 67 dokumentartig, 32 bereits ueber Basenamen-Abgleich in Destillaten gefuehrt, 35
+  echt offen — die «79 PDF» waren als Arbeitsvorrat irrefuehrend, weil sie 25 Seiten-Splits und
+  rund 30 laengst destillierte Quellen mitzaehlten) und den Rest in Runs 134/**135**
+  («Minergie-Restbestand: ME-Antrag, EN-1b-Rechenbeispiel, Archiv») abgearbeitet. Run 148
+  bestaetigt danach «Korpus PL-02 ist erschoepft» (`training/pdf-inventar.md`, Nachtrag
+  21.08.2026). Fassungsstand ist dabei durchgehend am Titelblatt geprueft worden (z. B.
+  `[[minergie-p-a-anwendungshilfe-2019]]` V2019.1, `[[minergie-fragenkatalog-mfh]]`), keine
+  Fassung wurde blind uebernommen. **Rest ohne Handlungsbedarf:** `06_Richtlinien/2000 Watt`
+  (1 PDF) und `06_Richtlinien/SECO` (1 PDF) sind weiterhin nicht einzeln destilliert — bewusst
+  zurueckgestellt («bei konkretem Bedarf einzeln nachziehen», unveraendert seit dem
+  27.07.-Eintrag), keine offene Recherche.
+- [x] **E-PL02-2 GESCHLOSSEN am 23.08.2026 (Nachmittagslauf, Registerpflege): die Ueberschneidung
+  mit dem bereits bekannten eco-bau-Bestand ist geprueft und dokumentiert.** `pdf-inventar.md`
+  haelt fest, dass die flachen Dateien direkt in `04_Merkblätter/eco/` **byte-identische Kopien**
+  von Dateien sind, die diese KB anderswo (Ordner `Nachhaltiges Bauen`, AHB-Korpus) bereits kennt
+  — keine doppelte Destillation. Der Ordner ist ueber die Laeufe **121, 123, 124, 127, 132**
+  (Backlink-Hygiene, ecoBKP 2026, KBOB-Merkblaetter, Elektrosmog-Dublettenpruefung) durchgearbeitet
+  und in der Erschoepfungs-Bestaetigung von Run 148 mit erfasst. Kein Rest offen.
 
 Nicht angemeldet, aber zur Kenntnis: `06_Richtlinien/2000 Watt` (1 PDF) und `06_Richtlinien/SECO`
 (1 PDF) liegen im selben Bestand und koennten hierher gehoeren; sie sind im Normen-Inventar als

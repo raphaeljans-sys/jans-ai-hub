@@ -1,12 +1,17 @@
 ---
 title: Nach der Gründung — Pflicht-Anmeldungen (AHV, BVG, UVG, MWST)
-status: established (needs-verification bei Fristen-Details und Kanton-Spezifika)
-last_updated: 2026-07-22
+status: established (needs-verification nur noch UVG Art. 68 Wortlaut und MWSTG Art. 66
+  Anmeldefrist — die Fedlex-Volltexte dieser beiden Artikel liessen sich wegen der
+  Dokumentlänge nicht vollständig auslesen, siehe Vermerk 23.08.2026)
+last_updated: 2026-08-23
 sources: ["Art. 5/12 AHVG", "Art. 66 AHVV", "Art. 2/11 BVG", "Art. 1a/59/66/68 UVG",
   "Art. 10/66 MWSTG", kmu.admin.ch «Checkliste: Gründung eines Unternehmens»,
   sva-ag.ch «Anmelden nach Firmengründung», ahv-iv.ch Merkblatt 6.05 (UVG),
   estv.admin.ch «MWST-Steuerpflicht», koordination.ch Online-Handbuch BVG/UVG
-  (Sekundärquellen, Web-Recherche 22.07.2026, kein Fedlex-Volltextabgleich)]
+  (Sekundärquellen, Web-Recherche 22.07.2026); Art. 5/12 AHVG, Art. 11 BVG, Art. 1a/59/66
+  UVG, Art. 10 MWSTG am Fedlex-Filestore-Volltext direkt verifiziert (Konsolidierungen
+  AHVG 01.01.2026 · BVG 01.01.2025 · UVG 01.01.2026 · MWSTG 01.01.2025, Rule
+  `auto-verbesserungen.md` 260721, Prüflauf 23.08.2026)]
 links: [[ag-gruendungsablauf]], [[gmbh-gruendungsablauf]], [[kosten-und-zeit]],
   [[steuern-ag-inhaber]]
 ---
@@ -51,14 +56,21 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
   Arbeitgeber (Art. 2 BVG).
 - **Anschlusspflicht:** Sobald ein Arbeitgeber obligatorisch zu versichernde
   Arbeitnehmende beschäftigt, muss er sich einer **registrierten Vorsorgeeinrichtung**
-  anschliessen (Art. 11 Abs. 1 BVG) — freie Wahl der Sammel-/Verbandsstiftung.
-  Kommt der Arbeitgeber dem nicht nach, meldet ihn die kantonale BVG-Aufsichtsbehörde
-  nach unbenütztem Ablauf einer 6-monatigen Frist zwangsweise und rückwirkend der
-  **Stiftung Auffangeinrichtung BVG** an (Art. 11 Abs. 3/4 BVG) — das ist der
-  Auffangfall, nicht der Regelweg.
+  anschliessen (Art. 11 Abs. 1 BVG) — freie Wahl der Sammel-/Verbandsstiftung. Die
+  Kontrolle liegt bei der **Ausgleichskasse der AHV**, nicht bei einer kantonalen
+  BVG-Aufsichtsbehörde: sie prüft die Anschlüsse der von ihr erfassten Arbeitgeber und
+  fordert einen säumigen Arbeitgeber auf, sich **innert zwei Monaten** einer
+  registrierten Vorsorgeeinrichtung anzuschliessen (Art. 11 Abs. 4/5 BVG); kommt er dem
+  nicht fristgerecht nach, meldet sie ihn rückwirkend der **Stiftung Auffangeinrichtung
+  BVG** an (Art. 11 Abs. 6 BVG i.V.m. Art. 60 BVG) — das ist der Auffangfall, nicht der
+  Regelweg. ⚠ Korrigiert 23.08.2026: der Artikel nannte hier zuvor eine sechsmonatige
+  Frist und die kantonale BVG-Aufsichtsbehörde als Kontrollinstanz; am Fedlex-Volltext
+  (Konsolidierung 01.01.2025, Filestore-Methode) sind es wörtlich zwei Monate
+  (Art. 11 Abs. 5: „innerhalb von zwei Monaten") und die Ausgleichskasse der AHV
+  (Abs. 4), nicht Abs. 3/4.
 - **Praxis-Empfehlung:** Anschluss **vor der ersten Lohnzahlung** aktiv selbst
-  organisieren (Offertvergleich Sammelstiftung), nicht auf die 6-Monats-Frist warten
-  — Prämien/Deckung laufen sonst rückwirkend unkoordiniert.
+  organisieren (Offertvergleich Sammelstiftung), nicht auf die 2-Monats-Frist der
+  Ausgleichskasse warten — Prämien/Deckung laufen sonst rückwirkend unkoordiniert.
 - **Koordinationsabzug 2026:** CHF 26'460 (7/8 der maximalen einfachen AHV-Rente) —
   relevant für die Berechnung des versicherten BVG-Lohns, nicht für die Eintrittspflicht
   selbst.
@@ -75,15 +87,31 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
   Betriebe ausserhalb dieser Liste — dazu zählt ein **Architektur-/Planungsbüro als
   Bürobetrieb** — fallen unter Art. 68 UVG: freie Wahl unter privaten Versicherern,
   öffentlichen Unfallversicherungskassen oder Krankenkassen mit UVG-Zulassung.
-- **Anmeldefrist:** Der Betrieb muss spätestens **14 Tage vor Stellenantritt** der
-  ersten versicherten Person beim gewählten Unfallversicherer angemeldet sein
-  (Art. 59 UVG). Bei Suva-pflichtigen Betrieben entsteht der Versicherungsschutz von
-  Gesetzes wegen automatisch (Art. 59 Abs. 1 UVG); bei Art.-68-Versicherern erst durch
-  Vertragsschluss bzw. Kassenbeitritt (Art. 59 Abs. 2 UVG) — die Anmeldung ist hier
-  also aktiv vorzunehmen, nicht nur Formsache.
-- **JANS-Bezug:** Als Bürobetrieb (Architektur/Planung) keine Suva-Pflicht — freie
-  Versichererwahl, meist gebündelt mit der Krankentaggeldversicherung beim selben
-  Anbieter offeriert.
+- **Meldepflicht Suva-pflichtiger Betriebe:** Der Arbeitgeber eines nach Art. 66 UVG
+  Suva-pflichtigen Betriebs muss der Suva **innert 14 Tagen** die Eröffnung oder
+  Einstellung des Betriebs melden (Art. 59 Abs. 1 UVG) — die Frist läuft **ab dem
+  Ereignis**, nicht davor; der Versicherungsschutz selbst entsteht dort von Gesetzes
+  wegen. Bei den übrigen Versicherern entsteht das Versicherungsverhältnis durch
+  Vertrag zwischen Arbeitgeber und Versicherer bzw. durch Kassenzugehörigkeit
+  (Art. 59 Abs. 2 UVG) — die Anmeldung ist hier aktiv vorzunehmen, nicht nur Formsache.
+  ⚠ Korrigiert 23.08.2026: der Artikel las die 14-Tage-Frist zuvor als generelle
+  Anmeldefrist «spätestens 14 Tage vor Stellenantritt» bei einem beliebigen
+  Versicherer. Am Fedlex-Volltext (Konsolidierung 01.01.2026, Filestore-Methode)
+  wörtlich verifiziert ist Art. 59 Abs. 1 UVG eine **Nachmelde**-Frist der
+  Betriebseröffnung/-einstellung an die Suva, und sie gilt nur für Suva-pflichtige
+  Betriebe.
+- **JANS-Bezug:** Als Bürobetrieb (Architektur/Planung) fällt die Raphael Jans AG nicht
+  unter die in Art. 66 UVG genannten Suva-pflichtigen Betriebsarten (u.a. industrielle
+  Betriebe nach Art. 5 Arbeitsgesetz, Bau- und Installationsgewerbe, Forstbetriebe,
+  Verkehrs-/Transportbetriebe) — freie Wahl eines anderen zugelassenen Versicherers
+  oder einer Kasse (Art. 58/59 Abs. 2 UVG), meist gebündelt mit der
+  Krankentaggeldversicherung beim selben Anbieter offeriert. **needs-verification:**
+  Für den genauen spätesten Zeitpunkt vor dem ersten Stellenantritt, bis zu dem dieser
+  Vertrag abgeschlossen sein muss, hat dieser Lauf keine explizite UVG-Fristnorm
+  gefunden — der einschlägige Abschnitt zur freien Versichererwahl liegt im
+  UVG-Volltext hinter Art. 66 und liess sich über den Fedlex-Filestore wegen der
+  Dokumentlänge nicht mehr vollständig auslesen (23.08.2026). Praktisch empfiehlt sich
+  der Vertragsschluss in jedem Fall vor dem ersten effektiven Arbeitstag.
 
 ## 4. MWST-Registrierung (ESTV)
 
@@ -109,8 +137,10 @@ anderen Angestellten (kein Sonderstatus als «Inhaber»).
 
 1. **Sofort nach HR-Eintrag:** MWST-Einschätzung vornehmen (Umsatzprognose) und bei
    absehbarem Überschreiten innert 30 Tagen bei der ESTV anmelden.
-2. **Vor der ersten Lohnzahlung:** UVG-Versicherer wählen und anmelden (14 Tage vor
-   Stellenantritt zwingend), BVG-Vorsorgeeinrichtung aktiv anschliessen.
+2. **Vor der ersten Lohnzahlung:** UVG-Versicherer wählen und Vertrag abschliessen
+   (spätestens vor dem ersten effektiven Arbeitstag, siehe needs-verification oben zum
+   genauen Fristmass), BVG-Vorsorgeeinrichtung aktiv anschliessen (nicht erst auf die
+   2-Monats-Ultimatumsfrist der Ausgleichskasse warten).
 3. **Parallel/reaktiv:** AHV-Ausgleichskasse meldet sich nach SHAB-Publikation von
    sich aus — Fragebogen zeitnah zurücksenden, bei Ausbleiben proaktiv nachfragen.
 4. **Ergänzend, nicht Teil dieses Artikels:** Betriebs-/Berufshaftpflichtversicherung

@@ -1,5 +1,27 @@
 # Offene Fragen — KB Normen
 
+## SIA-Sweep, Fortsetzung (23.08.2026, späterer Lauf) — N-SIASWEEP-1 geschlossen, -2/-3/-4 vertieft
+
+**Ausgangslage:** Abschnitt A der Blindzone war beim Start dieses Laufs bereits vollständig
+geschlossen (0 leere Zellen, verifiziert per Python-Scan über 259 Zeilen/187 aktive Normen —
+Stichprobe bestätigt: die 69 vom Vorlauf editierten Zeilen tragen ausnahmslos Inhalt). Der
+Lauf hat deshalb (a) die seit Run 37 (29.07.2026) stehende, nun veraltete
+«2013-Blindzone — beziffert»-Statistik in `wiki/REGISTER.md` (Zeilen 59ff.) auf den
+Nach-Sweep-Stand aktualisiert (0 Blindzone-Zeilen, aber weiterhin 56 von 187 aktiven Zeilen
+ohne echten Volltext im Haus, nur Shop-Metadaten — diese Unterscheidung war in der bisherigen
+Formulierung «Bestand-Abgleich nicht leer» nicht mehr sichtbar), und (b) die vier offenen
+Fragen N-SIASWEEP-1 bis -4 mit gezielter Web-Recherche vertieft.
+
+**N-SIASWEEP-1 GESCHLOSSEN** (siehe unten, per Espazium-Zweitquelle mit Datum belegt).
+**N-SIASWEEP-2 und die SIA-2021-Hälfte von N-SIASWEEP-3 bleiben offen**, aber jetzt per
+Direktabruf der Shop-Produktseite (nicht nur Suchmaschinen-Synopse) bestätigt — kein neuer
+Nachfolger gefunden, die Abwesenheit einer Nachfolgenorm ist damit belastbarer belegt.
+**N-SIASWEEP-4 bleibt offen**, neu mit Gültig-ab-Datum (01.08.2025) und einem starken, aber
+nicht-primärquellen-festen Indiz (SIA-Webinar-Vorwissen nennt explizit alle drei Vorgänger).
+Details je Frage unten; Fundstellen zusätzlich in `wiki/REGISTER.md` an der jeweiligen Zeile.
+
+---
+
 ## SIA-Sweep, interaktive Session (23.08.2026) — 69 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
 
 **Auftrag:** die im REGISTER.md, Abschnitt A geführten SIA-Zeilen ohne Datei im Haus
@@ -35,34 +57,68 @@ Quelle. Verteilung:
 - **4 Normen archiviert, KEIN Nachfolger auf der Produktseite genannt** — echte offene Fragen,
   siehe unten (N-SIASWEEP-1 bis -3).
 
-### N-SIASWEEP-1 — SIA 381/3 «Heizgradtage der Schweiz» archiviert seit 03.03.2015, kein Nachfolger benannt
+### N-SIASWEEP-1 — GESCHLOSSEN 23.08.2026 — SIA 381/3 «Heizgradtage der Schweiz» archiviert seit 03.03.2015
 
-Produktseite (SN 565381/3) nennt kein Nachfolgeprodukt. Vermutung (nicht belegt): die
-Heizgradtage sind in SIA 2028 «Klimadaten für Bauphysik, Energie- und Gebäudetechnik»
-aufgegangen (dort Korrigenda bis 2023 aktiv, thematisch angrenzend) — am Original nicht
-geprüft. Nächster Schritt: SIA 2028 (falls beschafft) auf ein Heizgradtage-Kapitel prüfen,
-oder direkt beim SIA nachfragen.
+Produktseite (SN 565381/3) nennt kein Nachfolgeprodukt. **Geklärt per Zweitquelle:**
+Espazium-Artikel «SIA: Neue Berechnung der Heizgradtage» (espazium.ch, publiziert 08.05.2015,
+revidiert 10.11.2015) — die Empfehlung SIA 381/3:1982 wurde auf Beschluss der
+Zentralkommission für Normen (Antrag der Kommission für Bautechnik und Energienormen, KGE)
+aus dem Normenwerk zurückgezogen. Der fachliche Inhalt (Heizgradtage) ging **nicht** in eine
+eigenständige Nachfolgenorm über, sondern in die **Corrigenda SIA 2028/C1:2015** zum
+bestehenden Merkblatt SIA 2028 «Klimadaten für Bauphysik, Energie- und Gebäudetechnik»: neue
+Methode nach EN ISO 15927-6 (in der Schweiz als SIA 381.206 geführt), «Accumulated
+Temperature Differences» (ATD) statt der klassischen Heizgradtage HGT 20/12; für eine
+Übergangsfrist blieben beide Kennwerte parallel verfügbar. **Weiterhin nicht am Original**
+(SIA 2028/C1:2015 liegt nicht im Haus) **verifiziert** — die Espazium-Meldung ist eine
+Fachpresse-Sekundärquelle, kein SIA-Primärdokument. Nachtrag in `wiki/REGISTER.md`, Zeile
+SIA 381/3. Nächster Schritt bei Bedarf: SIA 2028 samt Corrigendum C1 beschaffen und den
+Heizgradtage-Abschnitt am Original prüfen.
 
-### N-SIASWEEP-2 — SIA 422 «Bauzonenkapazität» archiviert seit 31.12.2024, kein Nachfolger benannt
+### N-SIASWEEP-2 — SIA 422 «Bauzonenkapazität» archiviert, gültig bis 31.12.2024, kein Nachfolger benannt
 
 Produktseite (SN 513422) nennt kein Nachfolgeprodukt — möglich, dass die Norm ersatzlos
 zurückgezogen wurde (Bauzonendimensionierung ist zunehmend kantonales/RPG-Recht statt
-SIA-Norm). Relevant für `machbarkeit`/`baurecht`, falls dort zitiert. Nicht weiter verfolgt.
+SIA-Norm). **Vertieft 23.08.2026:** die Produktseite wurde per direktem WebFetch erneut
+abgerufen (nicht nur über eine Suchmaschinen-Synopse) — Befund unverändert: archiviert,
+Nachfolgerfeld leer. Eine Sekundärquelle (SNV Swiss National Work Program, Stand 2019,
+`switec.info`, nicht am Original geprüft) führte SIA 422:2009 damals noch als «Standard to be
+revised», nicht als zurückgezogen — die angekündigte Revision scheint nicht abgeschlossen,
+sondern die Norm zwischen 2019 und 2024 ganz archiviert worden zu sein. Relevant für
+`machbarkeit`/`baurecht`, falls dort zitiert. Nicht weiter verfolgt (keine weitere freie Quelle
+gefunden).
 
 ### N-SIASWEEP-3 — SIA 2021 (Glasanteil) und SIA 2025 (Begriffe Bauphysik) archiviert, kein Nachfolger auf der Produktseite
 
 SIA 2021 «Gebäude mit hohem Glasanteil»: archiviert seit 30.11.2017; eine externe
 Sekundärquelle (espazium.ch/SIA-Fachinfo) deutet auf teilweise Integration in eine Wegleitung
 zu SIA 180:2014 hin — **nicht am Original verifiziert**, nicht ohne Gegenprüfung zitieren.
-SIA 2025 «Begriffe in Bauphysik, Energie- und Gebäudetechnik»: archiviert seit 31.12.2023,
-gar kein Hinweis auf eine Nachfolgeregelung gefunden.
+**Vertieft 23.08.2026:** die Shop-Produktseite selbst wurde per direktem WebFetch erneut
+gelesen (SN 592021) — bestätigt: Nachfolgerfeld auf der Primärquelle leer, kein Suchmaschinen-
+Artefakt. Die SIA-180:2014-Vermutung bleibt unbelegt.
+SIA 2025 «Begriffe in Bauphysik, Energie- und Gebäudetechnik»: archiviert, gültig
+01.06.2012 bis 31.12.2023, gar kein Hinweis auf eine Nachfolgeregelung gefunden. **Vertieft
+23.08.2026:** Produktseite (SN 592025) per direktem WebFetch bestätigt (Nachfolgerfeld leer).
+Eine Espazium-Fachartikelsynopse zu Beschlüssen der Zentralkommission für Normen nennt als
+möglichen Rückzugsgrund den fehlenden normativen Charakter einer reinen Begriffssammlung
+sowie einen Widerspruch der normativen Anhänge zu SIA 380:2022 — **die exakte Sitzung/das
+exakte Datum dieser Begründung liess sich nicht eindeutig einer Quelle zuordnen** (ein
+direkt abgerufener Espazium-Artikel zum selben Titel nannte einen abweichenden, offenbar
+früheren Rückzugsversuch mit Zieldatum Ende 2014 — vermutlich ein gescheiterter erster
+Anlauf, nicht dieselbe Sitzung wie der tatsächliche Rückzug per 31.12.2023). Nicht als
+Fundstelle zitierfähig, nur als Kontext vermerkt.
 
 ### N-SIASWEEP-4 — GEO405-Familie: SIA 2016 UND SIA 2045 nennen beide SIA 405:2025 als Nachfolgenorm
 
 Zwei unabhängig recherchierte Zeilen (SIA 2016 «Datenmodelle Ver-/Entsorgungsleitungen» und
 SIA 2045 «Geodienste») führen beide **SIA 405:2025** als Nachfolgenorm. Vermutung: SIA 405:2025
 konsolidiert die gesamte GEO405-Familie (alte SIA 405:1998/2012 Leitungskataster im Haus + die
-Merkblätter SIA 2015/2016 + SIA 2045) in einer einzigen neuen Norm. **Nicht am Original
+Merkblätter SIA 2015/2016 + SIA 2045) in einer einzigen neuen Norm. **Vertieft 23.08.2026:**
+gültig seit **01.08.2025** (Fachartikel sogi.ch, wörtlich «Die Norm ist seit 1. August 2025
+gültig und kann genutzt werden»). Die offizielle SIA-Webinar-Ankündigung zur neuen Norm
+(`norm-sia-405-2025.events.sia.ch`) nennt als Vorwissen für Teilnehmende ausdrücklich «die
+alte Norm SIA 405:2015 sowie die Merkblätter 2015, 2016, 2045 zumindest auszugsweise» — ein
+starkes, aber indirektes Indiz für die Konsolidierungsthese (Aufzählung der Vorgänger als
+Kursvoraussetzung, keine explizite Ablösungsformel). **Weiterhin nicht am Original
 verifiziert** — bei Beschaffung von SIA 405:2025 als erstes prüfen, ob sie tatsächlich alle drei
 Vorgänger ersetzt oder nur zwei von dreien.
 

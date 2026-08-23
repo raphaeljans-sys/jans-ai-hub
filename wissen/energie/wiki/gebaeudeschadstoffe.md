@@ -1,8 +1,8 @@
 ---
 title: Gebäudeschadstoffe beim Umbau (Kt. ZH)
 status: established
-last_updated: "2026-08-23 (E-R25-2 geschlossen: Meldepflicht bei Abbruch ergänzt, § 3a Abs. 1 AbfV ZH LS 712.11 + Art. 86 BauAV am Original verifiziert; zuvor 2026-08-16 Mac Mini Nachtschicht 13:30 — PCB-Prozess-Ergänzung)"
-sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md, destillate/kbob-pcb-fugendichtungsmassen-2004-4.md, "AbfV ZH LS 712.11 § 3a (zh.ch, Nachtrag 101, abgerufen 23.08.2026)", "BauAV SR 832.311.141 Art. 86 (Fedlex, Fassung 18.6.2021, abgerufen 23.08.2026)"]
+last_updated: "2026-08-23 (E-R25-3 vollständig geschlossen: Anhang 5 VVEA Ziffer 2.3 sowie Art. 16 VVEA per Fedlex-Filestore-Diff 01.01.2026 gegen 01.08.2026 als wortidentisch bestätigt; zuvor E-R25-2 Meldepflicht bei Abbruch ergänzt, § 3a Abs. 1 AbfV ZH LS 712.11 + Art. 86 BauAV am Original verifiziert; zuvor 2026-08-16 Mac Mini Nachtschicht 13:30 — PCB-Prozess-Ergänzung)"
+sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md, destillate/kbob-pcb-fugendichtungsmassen-2004-4.md, "AbfV ZH LS 712.11 § 3a (zh.ch, Nachtrag 101, abgerufen 23.08.2026)", "BauAV SR 832.311.141 Art. 86 (Fedlex, Fassung 18.6.2021, abgerufen 23.08.2026)", "VVEA SR 814.600 Art. 16 und Anhang 5 (Fedlex-Filestore, Konsolidierungsstände 01.01.2026 und 01.08.2026, Diff am 23.08.2026 durchgeführt)"]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]], [[asbest-dimension-jenseits-spritzasbest]], [[ahb-checkliste-schadstoffe-in-bauten]], [[kbob-pcb-fugendichtungsmassen-2004-4]]
 ---
 
@@ -27,18 +27,24 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirku
 > 01.01.2026 (AS 2025 799) und 01.08.2026 (AS 2026 357). **Führend für den Erlasswortlaut ist
 > die KB `baurecht`.**
 >
-> **Anhänge und Revisionen geprüft 23.08.2026 (E-R25-3, weitgehend geschlossen):** direkt am
-> Fedlex-Filestore-Volltext (Stand 01.08.2026) gelesen. **Anhang 3 VVEA** «Anforderungen an
-> Aushub- und Ausbruchmaterial» (Grenzwerte unverschmutzt/schwach verschmutzt, Einzelfallbeurteilung
-> ohne festgelegten Grenzwert) und **Anhang 5 VVEA** «Anforderungen an Abfälle zur Ablagerung»
-> (Deponietypen A-E) sind die bauabfallrelevanten Anhänge. Die drei Revisionen betreffen die hier
-> beschriebene Schadstoffabklärung **nicht**: AS 2025 745 (01.12.2025) regelt Phosphor-Rückgewinnung,
-> AS 2025 799 (01.01.2026) Holzasche-Deponierung — beide ohne Bezug zu Bauabfällen/Asbest. **AS 2026
-> 357** (01.08.2026, in Kraft) ändert Art. 3/10/12/13/14/14a/22/24/31/32/34/36 sowie **Anhang 5**
-> (neue Abfallhierarchie-Definitionen, höhere Energienutzungsquoten); ein Asbest-Bezug ist darin
-> nicht erkennbar, ein zeilengenauer Vorher-Nachher-Vergleich von Anhang 5 steht noch aus (Restpunkt).
-> Art. 16 VVEA selbst ist in keiner der drei Revisionslisten aufgeführt — die bereits am 04.08.2026
-> festgestellte materielle Unveränderung ist damit doppelt bestätigt.
+> **Anhänge und Revisionen geprüft 23.08.2026 (E-R25-3, jetzt vollständig geschlossen):** direkt am
+> Fedlex-Filestore-Volltext gelesen. **Anhang 3 VVEA** «Anforderungen an Aushub- und
+> Ausbruchmaterial» (Grenzwerte unverschmutzt/schwach verschmutzt, Einzelfallbeurteilung ohne
+> festgelegten Grenzwert) und **Anhang 5 VVEA** «Anforderungen an Abfälle zur Ablagerung»
+> (Deponietypen A-E, Ziffer 2.3 für mineralische Bauabfälle) sind die bauabfallrelevanten Anhänge.
+> Die drei Revisionen betreffen die hier beschriebene Schadstoffabklärung **nicht**: AS 2025 745
+> (01.12.2025) regelt Phosphor-Rückgewinnung, AS 2025 799 (01.01.2026) Holzasche-Deponierung —
+> beide ohne Bezug zu Bauabfällen/Asbest. **AS 2026 357** (01.08.2026, in Kraft) ändert auch
+> Anhang 5, aber **ausschliesslich dessen Ziffern 3 und 4** (Rauchgasreinigungsrückstände,
+> Filterasche, Schlacke aus der Verbrennung von Siedlungsabfällen): eine rein definitorische
+> Präzisierung («Siedlungsabfälle» neu mit dem Klammerzusatz «nach Artikel 3 Buchstabe a
+> Ziffern 1–3») ohne inhaltliche Änderung der Grenzwerte. **Ziffer 2.3 VVEA (Deponietypen A-E für
+> mineralische Bauabfälle, die hier zitierte Regelung) ist von AS 2026 357 nicht berührt** — Wort
+> für Wort identisch zwischen der Fassung vom 01.01.2026 und der vom 01.08.2026 (Fedlex-Filestore,
+> beide Konsolidierungsstände direkt verglichen, Diff durchgeführt 23.08.2026). Auch Art. 16 VVEA
+> selbst ist zwischen den beiden Ständen wortidentisch. Die bereits am 04.08.2026 festgestellte
+> materielle Unveränderung ist damit für alle in diesem Artikel zitierten Bestimmungen (Art. 16,
+> Anhang 3, Anhang 5 Ziffer 2.3) abschliessend bestätigt — kein Restpunkt mehr offen.
 
 ## Das Wichtigste
 Wer ein Gebäude mit **Baujahr vor 1990 umbaut**, muss vor dem Bau eine **Schadstoffabklärung**

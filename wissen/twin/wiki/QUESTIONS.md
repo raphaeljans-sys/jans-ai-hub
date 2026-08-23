@@ -4113,6 +4113,26 @@ einer gewachsenen, viel referenzierten Datei und faellt unter Rule 260811 (kein 
 Ersetzen); es braucht einen eigenen, bewusst gefuehrten Lauf mit `--numstat`-Kontrolle. **Bis
 dahin: neue Eintraege benennen, nicht nummerieren.**
 
+> ✅ **BEANTWORTET am 23.08.2026 (Vertiefungslauf) — die Diagnose war falsch, der Befund ein
+> anderer: nicht «Siebte» und «Neunte» sind doppelt, sondern die «Achte Falle» fehlte ganz.**
+> Ein Grep auf `**<Ordnungszahl> Falle, neu` in `wissen/twin/CLAUDE.md` liefert fuer «Siebte»
+> und «Neunte» je genau EINEN Treffer; die weiteren Fundstellen waren Verweise (Tabellenzeile,
+> Korrektur-Absatz), keine zweite Definition. Vier Stellen im Bestand referenzierten dagegen
+> eine **«achte Falle»** als bekannt («Achte Falle, mustergueltig» in der Hilti-Joch-Tabelle,
+> zwei Verweise im Fidelity-Abschnitt 260814/260820) — ohne dass sie je einen eigenen Absatz
+> bekommen hatte. `git log -p --all -- wissen/twin/CLAUDE.md` (lokaler SSD-Klon) bestaetigt: der
+> Text «Achte Falle» kommt in der gesamten Historie **nur als Verweis** vor, nie als eigene
+> Ueberschrift — kein geloeschter Absatz, sondern eine nie geschriebene Definition. Die Achte
+> Falle wurde jetzt an der chronologisch richtigen Stelle (zwischen Siebter und Neunter, beide
+> 13./14.08.2026) nachgetragen: «Raphaels Rahmen um ein eingesetztes Fragment», belegt an der
+> Hilti-Joch-Mail vom 13.08.2026 18:57 (Apple-Mail-Wrapper 4×, ~300 fehlerfreie Woerter im
+> eingesetzten Block, EIN Tippfehler im selbst getippten Einleitungssatz davor). Der Katalog ist
+> damit lueckenlos von der Dritten bis zur Neunzehnten Falle durchnummeriert; die Praxis, neue
+> Eintraege zu benennen statt zu nummerieren, bleibt trotzdem bestehen (eine Nummer steht erst
+> am Ende einer gewachsenen Notiz fest). `git diff --numstat` auf `wissen/twin/CLAUDE.md`:
+> 39 Einfuegungen, 5 Loeschungen — die 5 geloeschten Zeilen sind exakt die falsche Diagnose,
+> ersetzt durch ihre eigene Korrektur; kein Bestandsverlust.
+
 ## 260823b (Fidelity-Review, Fenster 28.07.–03.08.2026) — fuenf Fragen, die erste entscheidet dieselbe offene Rule wie 260822b
 
 **#1 — Wirkt der persoenliche Kontakt auf die Anrede SOFORT oder erst kumulativ?** Frage an

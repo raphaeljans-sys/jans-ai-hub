@@ -1,5 +1,41 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (Fortsetzung): E-R25-3 vollständig geschlossen, E-PL02-1/2 als Registerpflege geschlossen
+
+Fortsetzung der vorangehenden Interaktiv-Session desselben Tages (Eintrag unten), die
+E-R25-3 als «teilerledigt, bewusst offen gelassen» und E-PL02-1/E-PL02-2 als «nicht
+angefasst» (reine PDF-Sichtungsarbeit ohne neue Recherchefrage) auf dem Register belassen
+hatte. Zwei Punkte davon abgearbeitet:
+
+- **E-R25-3 vollständig geschlossen:** der offen gebliebene Restpunkt (materielle Wirkung von
+  AS 2026 357 auf Anhang 5 VVEA) verlangte einen zeilengenauen Vorher-Nachher-Vergleich — das war
+  in der vorigen Session nicht gemacht worden. Beide Fedlex-Filestore-Konsolidierungsstände der
+  VVEA (SR 814.600, ELI `eli/cc/2015/891`, Stand 01.01.2026 und 01.08.2026) geladen, Anhang 5 aus
+  beiden extrahiert, per `difflib` wortweise verglichen. Ergebnis: **Ziffer 2.3** (Deponietypen
+  A-E für mineralische Bauabfälle — die von `[[gebaeudeschadstoffe]]` zitierte Stelle) ist
+  wortidentisch; AS 2026 357 ändert in Anhang 5 nur die Ziffern 3/4 (Verbrennungsrückstände,
+  rein definitorische Präzisierung «Siedlungsabfälle nach Artikel 3 Buchstabe a Ziffern 1–3»,
+  keine Grenzwertänderung). Art. 16 VVEA selbst zwischen beiden Ständen ebenfalls zeichengenau
+  identisch. Eingearbeitet in `[[gebaeudeschadstoffe]]` (Frontmatter + Warnkasten) und
+  `wiki/QUESTIONS.md`.
+- **E-PL02-1/E-PL02-2 geschlossen (Registerpflege, keine neue Recherche):** geprüft, ob der
+  Cross-KB-Handover aus der KB `normen` (Minergie-Ordner 79 PDF, eco-bau-Ordner 55 PDF,
+  PL - 02_Recht_Norm) durch die längst gelaufene Korpusarbeit bereits erledigt ist. Belegt anhand
+  `training/pdf-inventar.md`: Run 134 hat den Minergie-Baum vollständig rekursiv vermessen (274
+  Dateien, 67 dokumentartig, davon 32 bereits über Basenamen-Abgleich erfasst, 35 real offen und
+  in den Runs 134/135 abgearbeitet), der eco-bau-Ordner ist über die Runs 121/123/124/127/132
+  durchgearbeitet (inkl. Befund «byte-identische Kopien» zum bereits bekannten Bestand), und Run
+  148 bestätigt «Korpus PL-02 ist erschöpft». Beide Fragen waren damit inhaltlich seit Wochen
+  beantwortet, nur nie auf die ursprüngliche Cross-KB-Frage zurückverlinkt — behoben in
+  `wiki/QUESTIONS.md`.
+
+**Nicht angefasst, unverändert:** E-R148-1 (Normkauf SIA 380/1:2016, Beschaffungsentscheid
+Raphaels), E-R149-4 (Voraussetzungszeile der Scheduled Task — Edit an
+`~/.claude/scheduled-tasks/energie-training/SKILL.md` von der Harness als sensible Datei
+blockiert, Wortlaut liegt weiterhin bereit), E-R150-3 (bewusst offen dokumentiert), sowie alle
+Punkte, die eine andere KB führt oder JANS-eigene Projektdaten brauchen (unverändert seit dem
+vorigen Eintrag).
+
 ## 2026-08-23 — Interaktive Session: QUESTIONS.md-Abarbeitung, 15 offene Fragen geschlossen
 
 Auf Auftrag Raphaels systematisch die offenen Fragen in `wiki/QUESTIONS.md` durchgearbeitet

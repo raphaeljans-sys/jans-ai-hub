@@ -54,5 +54,6 @@ Coverage-Lücken mehr registriert.
   kapitalband-fremdwaehrung 260729, Health-Checks 260701/260721/260725/260801/260803)
 - Letzter Health-Check: 2026-08-03 (Wissenscheck-Sammellauf, sauberste KB des Wissens-Layers)
 - Verbleibende needs-verification-Punkte: Beratungs-/Notarkosten (kein amtlicher Tarif),
-  [[nachgruendung-anmeldungen]] bei Fristen-Details/Kanton-Spezifika (Sekundärquellen) —
-  siehe [[QUESTIONS]].
+  [[nachgruendung-anmeldungen]] nur noch bei Art. 68 UVG/Art. 66 MWSTG (Fedlex-Volltext
+  wegen Dokumentlänge nicht auslesbar; die übrigen Fristen dort am 23.08.2026 am
+  Fedlex-Volltext verifiziert, zwei Fehler dabei korrigiert — siehe [[QUESTIONS]]).

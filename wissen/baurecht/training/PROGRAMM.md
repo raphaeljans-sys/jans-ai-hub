@@ -338,6 +338,23 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     Destillat [[15-lage-von-gebaeuden-teil2d]] (Abs. 1 fehlte, Abs. 2 war erfasst), 2 Drill-Karten,
     QUESTIONS T-08/T-09/T-10. **Kein neuer Wiki-Artikel und kein neuer `raw/`-Volltext nötig** —
     der Bestand trug den Befund. Report: `outputs/2026-08-17_buch-run74.md`.
+  - **Run 75 (2026-08-23, Festigungsmodus, Priorität (d) Korpus-Queue Batch T3, kein
+    Agent-Fan-out):** **Batch T3 (Grundmasse + SBV W3 + Zonenplan) erledigt.** Kernbefund:
+    die Art.-3-Grundmasse-Tabelle in `raw/260607_amtlich_zh_bzo-thalwil.md` ist **linearisiert
+    und unbrauchbar** (Zeilen 682-918, Zahlen von ihren Zonen-Spalten getrennt) — **dieselbe
+    Fehlerfamilie wie beim Zürich-Stadt-Fall Run 56.** Behoben nach demselben Muster:
+    `oerebdocs.zh.ch/getDoc?docid=1296` frisch bezogen, `pdftotext -layout` neu extrahiert →
+    `raw/260823_amtlich_zh_bzo-thalwil-grundmasse.md`, zusätzlich gegen die unabhängige
+    Projektordner-Kopie derselben Erlassseite (Export 26.11.2024) gegengelesen — zeichengleich
+    trotz abweichender Gesamtseitenzahl (19 vs. 21, reines PDF-Exportartefakt). Art. 20a
+    (SBV W3/WG3) war im bestehenden Raw bereits korrekt lesbar, nur bestätigt, kein neuer
+    Ingest. **Neue Sektion in [[zonenkonformitaet]]:** vollständige Thalwiler
+    Grundmasse-Tabelle (W1-WG4), Art.-20a-Sonderregelung, Zonenarten-Legende aus dem
+    Zonenplan (Rastergrafik selbst nicht textextrahierbar, Legende vollständig übernommen).
+    Kein neuer Wiki-Artikel nötig. **Methodenbestätigung, kein neuer Fund:** die
+    Linearisierungs-Falle aus Run 56 tritt an einer zweiten, unabhängigen Gemeinde-BZO auf —
+    stützt den Methodenhinweis, vor jedem «Wert nicht auffindbar» bei mehrspaltigen
+    Amtstabellen eine Layout-Neuextraktion zu versuchen. Report: `outputs/2026-08-23_buch-run75.md`.
   - **Run 73 (2026-08-13, Festigungsmodus, Priorität (d) Korpus-Queue Batch T2 + Priorität (b),
     kein Agent-Fan-out):** **Die grösste gemessene Lücke der Priorität (d) ist geschlossen.**
     Neuer Wiki-Artikel **[[umgebungsgestaltung-und-einfriedungen]]** — Thema Nr. 4 der neun

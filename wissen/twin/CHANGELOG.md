@@ -4,6 +4,54 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-23 — Vertiefungslauf: fehlende «Achte Falle» im Echo-Schutz-Katalog nachgetragen
+
+**Kein Zugriff auf den Mail-Korpus in dieser Sitzung** (`claude.ai Microsoft 365`-MCP nicht
+autorisiert, Zertifikat `~/.cli-m365-cert-combined.pem` in dieser Umgebung nicht vorhanden —
+`node connectors/m365-graph.mjs --selbsttest` bricht mit «Zertifikat fehlt» ab). Workflow B/C
+(Mail-Training, Fidelity-Review) waren damit nicht durchfuehrbar; es wurde **keine neue Mail
+gelesen und kein neuer Marker aus dem Korpus behauptet** — Echo-Schutz gilt auch fuer die
+Arbeitsweise dieses Laufs selbst: lieber ein bestehendes, belegtes Raetsel loesen als etwas ohne
+Quelle nachschieben. Stattdessen die offene Selbstfrage [[QUESTIONS]] 260823 #5 geprueft, die aus
+dem `Vertiefungslauf` desselben Tages stammt.
+
+**Befund: die Diagnose von 260823 #5 war falsch, das eigentliche Problem ein anderes.** Die
+Vermutung lautete, «Siebte Falle» und «Neunte Falle» im Echo-Schutz-Katalog
+(`wissen/twin/CLAUDE.md`) seien je doppelt vergeben. Ein Grep auf `**<Ordnungszahl> Falle, neu`
+zeigt fuer beide je genau EINEN Treffer. Tatsaechlich fehlte die **Achte Falle**: vier Stellen im
+Bestand referenzierten sie bereits als bekannt (Hilti-Joch-Tabelle «Achte Falle,
+mustergueltig», zwei Verweise im Fidelity-Abschnitt 260814/260820, ein Verweis in der
+Praezisierung vom selben Tag), aber nirgends stand ihre eigene Definition. `git log -p --all --
+wissen/twin/CLAUDE.md` (lokaler SSD-Klon) bestaetigt: «Achte Falle» kommt in der gesamten
+Datei-Historie nur als Verweis vor, nie als eigene Ueberschrift — keine geloeschte Zeile,
+sondern eine nie geschriebene Definition.
+
+**Nachgetragen:** ein eigener Absatz «Achte Falle, neu 13.08.2026 (Batch 92)» zwischen der
+Siebten und der Neunten Falle (chronologisch richtig, beide 13./14.08.2026), rekonstruiert aus
+den vier bereits vorhandenen Fundstellen, ohne neue, unbelegte Behauptung: «Raphaels Rahmen um
+ein eingesetztes Fragment» — die Handsignatur (hier ein Tippfehler, «bessern» statt «besseren»)
+sitzt im selbst getippten Einleitungssatz, der danach eingesetzte Apple-Mail-Block
+(`Apple-Mail-URLShareWrapperClass`, 4×, ~300 Woerter) ist fehlerfrei und Fremd-/Hub-Herkunft.
+Beleg: Hilti-Joch-Mail vom 13.08.2026 18:57 (bereits in der Zwoelften-Falle-Tabelle dokumentiert,
+Fenster Batch 95). Die falsche Diagnose an ihrer urspruenglichen Stelle **nicht geloescht,
+sondern per Praezisierungs-Absatz korrigiert** (Konvention dieser Datei, vgl. «⚠ Praezisiert
+23.08.2026» weiter unten im selben Dokument). [[QUESTIONS]] 260823 #5 mit
+✅-BEANTWORTET-Block geschlossen.
+
+**Ergebnis:** der Fallen-Katalog ist jetzt lueckenlos von der Dritten bis zur Neunzehnten Falle
+durchnummeriert (vorher: Dritte–Siebte, dann Neunte–Neunzehnte, Achte fehlend). Kein Bestand
+geloescht — `git diff --numstat` (lokaler SSD-Klon, nativ, kein SMB-`git`): `CLAUDE.md` 39
+Einfuegungen / 5 Loeschungen (die 5 sind die ersetzte Falschdiagnose), `wiki/QUESTIONS.md` 20
+Einfuegungen / 0 Loeschungen. Kein `nas-commit-now.sh` in dieser Sitzung ausgefuehrt (Aenderung
+liegt zur Pruefung bereit, Commit gemaess Rule `sync-kanonische-quelle.md` ueber den naechsten
+Sync-Lauf oder auf Zuruf).
+
+**Nicht geleistet:** jede weitere in `wiki/QUESTIONS.md` offene Frage, die Zugriff auf den
+Mail-Korpus braucht (die grosse Mehrheit) — ohne den Connector ausserhalb des Auftragsumfangs
+dieses Laufs. Naechster Lauf mit Korpuszugriff sollte gemaess `raw/_INGESTED.md`
+(«Naechstes Fenster» unter Batch 102) fortsetzen: Thread-Rueckgriff zuerst, dann sequenziell
+`rj@` ab 23.08.2026.
+
 ## 2026-08-23 — Vertiefungslauf: Echo-Katalog-Audit + Batch-102-Raetsel geloest (Kontext-Diaet-Fund)
 
 Vertiefung obendrauf auf die beiden heutigen Regellaeufe (Batch 102, Fidelity-Review Fenster
