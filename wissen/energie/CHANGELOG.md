@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session: QUESTIONS.md-Abarbeitung, 15 offene Fragen geschlossen
+
+Auf Auftrag Raphaels systematisch die offenen Fragen in `wiki/QUESTIONS.md` durchgearbeitet
+(sieben parallele `recherche`-Agenten für die extern verifizierbaren Rechts-/Marktfragen, Rest
+direkt gegen den KB-Bestand). Jede Antwort mit Quelle und Abrufdatum belegt; nichts geraten,
+Unklares blieb offen.
+
+**Geschlossen mit neuer, belegter Antwort:**
+- **E-R20-1** (AWEL/Eisspeicher S1/S2): ehrlicher Negativbefund — weder AWEL noch die
+  BAFU-Vollzugshilfe 2009 erwähnen Eisspeicher, Subsumtion bleibt eigene Auslegung.
+- **E-R20-2/E-R20-3** (GebV UR LS 710.2, Gebührenordnung 1966 LS 682, beide ZH): am
+  amtlichen zh.ch-Erlasstext verifiziert, beide unverändert aktuell (Nachtrag 075 bzw. 099); die
+  1966er-Ordnung hat einen eigenen, unabhängigen Gebührenrahmen.
+- **E-R20-4** (Regenwassernutzung SZ): Negativbefund, die fünf einschlägigen SZ-Erlasse regeln den
+  Gegenstand strukturell nicht.
+- **E-R20-5** (Konzessionsdauer Seewasser-Wärme SZ/ZG): SZ 20 Jahre (§ 45 Wasserverordnung SRSZ
+  451.111), ZG höchstens 30 Jahre (§ 43 Abs. 1 lit. b GewG BGS 731.1).
+- **E-R25-1** (SFG/Gründachrichtlinie/Label): SFG besteht 2026 unverändert, Label wird weiter
+  vergeben; exaktes Ausgabejahr der Richtlinie selbst bleibt kleiner Rest.
+- **E-R25-2** (Asbest-Meldepflicht Abbruch ZH): § 3a Abs. 1 AbfV ZH (Bauherrschaft → Gemeinde) plus
+  Art. 86 BauAV (Sanierungsunternehmen → Suva, 14 Tage vorher) — neuer Abschnitt in
+  `[[gebaeudeschadstoffe]]`.
+- **E-R129-3** (NIV-Fassung): aktueller Stand 31.10.2025, Art. 35/36/37 und Kontrollperioden jetzt
+  mit Fundstelle im Destillat.
+- **E-R132-1** (StRB 1094/2008 Stadt Zürich): abgelöst durch StRB 2932/2023 «Meilenschritte 23»,
+  FAQ F234 nachgeführt.
+- **E-R150-2** (Solarziegel-Kostenfaktor): BFE-Preisbeobachtungsstudien 2022/23 und 2024 beziffern
+  Indach allgemein mit 13-28 % Mehrkosten (nicht «~doppelt»); Solarziegel im engeren Sinn bleiben
+  ohne amtliche Zahl, Artikel unterscheidet jetzt beide Kategorien.
+- **E-R26-1** (`oekologische-materialvorgaben-beschaffung`): 11er-Positionsliste/Begriff
+  «Rückbaubarkeit» auf die belegten 18 Positionen/«Wiederverwendung von Bauteilen» korrigiert,
+  veralteter Offene-Punkte-Eintrag zur ecoBKP-2026-Destillation entfernt.
+
+**Nachgetragen — bereits erledigt, nur die Checkbox war stehen geblieben** (wiederkehrendes
+Muster: eine spätere «ERLEDIGT»-Notiz im selben Dokument wird nie auf die ursprüngliche Frage
+zurückverlinkt): E-R21-1, E-R131-1, E-R149-1, E-R149-3.
+
+**Teilerledigt, bewusst offen gelassen:** E-R25-3 (VVEA Anhang 3/5 und drei Revisionen geprüft,
+Art. 16 unverändert bestätigt; ob AS 2026 357 die Deponiezuordnung mineralischer Bauabfälle in
+Anhang 5 materiell ändert, bräuchte einen zeilengenauen Vorher-Nachher-Vergleich).
+
+**Nicht angefasst, mit Begründung:** Raphael-Entscheidungen (E-S1, E-R148-1, E-R148-2, E-R149-4);
+Fragen, die eine andere KB führt (E-R33-1/E-R129-1/E-R143-2/E-R129-4 → `normen`); reine
+PDF-Sichtungsarbeit ohne neue Recherchefrage (E-PL02-1/2, E-R131-2, E-R132-2/3/4, E-R138-2,
+E-WC32-1); Fragen, die JANS-eigene Projektdaten brauchen (E103, E94, Galgenen-Ausreisser,
+Fernwärme-Objektgrössen); bereits dokumentierte Nicht-Befunde (E-R129-2/5, E-R134-2/3/4, E-R147-1,
+E-R149-2, E-R150-3).
+
 ## 2026-08-23 — Run 150: PL-04 Restbestand abgeschlossen, Süd-Referenzpunkt gewonnen, Begriffsfalle Deckungsgrad/Autarkie KB-weit bereinigt, 3 FAQ neu
 
 Zwölf Positionen bearbeitet, damit ist der PL-04-Befund aus Run 149 vollständig entschieden.

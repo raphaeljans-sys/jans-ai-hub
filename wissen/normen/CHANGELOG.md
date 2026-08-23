@@ -1,3 +1,39 @@
+## 2026-08-23 — SIA-Sweep, Fortsetzung: Tabellen-Fehlformatierung der 69 Blindzone-Zeilen behoben, Vollständigkeit verifiziert
+
+**Auftrag Raphael:** den SIA-Sweep-Vorlauf (23.08. 15:57, 119 Turns, unten dokumentiert)
+fortsetzen — Ziel bleiben die im `wiki/REGISTER.md`, Abschnitt A geführten SIA-Zeilen ohne
+Datei im Haus.
+
+**Befund vor der Fortsetzung:** der Vorlauf hatte sein eigenes Ziel bereits vollständig
+erreicht (69 von 69 Kandidaten, eigener Report `outputs/2026-08-23_sia-sweep-blindzone.md`).
+Verifiziert per `awk`-Scan über Abschnitt A: **keine** aktive SIA-Zeile (Gültig-2013 ≠ "—")
+hat mehr eine leere Bestand-Abgleich-Spalte.
+
+**Gefundener und behobener Fehler:** alle 69 vom Vorlauf editierten Tabellenzeilen waren
+**fünfspaltig statt vierspaltig** geschrieben — die eigentliche Bestand-Abgleich-Zelle (Spalte
+4) blieb leer, der recherchierte Text landete in einer verwaisten fünften Spalte (Muster
+`| ... |  | Kein Volltext im Haus... |` statt `| ... | Kein Volltext im Haus... |`). Betraf
+alle 69 editierten Zeilen ausnahmslos. Ursache vermutlich: der Vorlauf hat pro Zeile eine neue
+Zelle angehängt statt die leere Zelle zu befüllen. Behoben per gezieltem Python-Fix, beschränkt
+auf Abschnitt A (Zeilen 100-361), der die leere vierte Zelle mit dem Inhalt der fünften
+zusammenführt. **`git diff --numstat`: 69 geändert, 69 hinzugefügt, 0 gelöscht** — reiner
+Zeilenersatz, kein Textverlust, Stichproben (SIA 106, 215, 232/1, 232/2, 282, 380/1) manuell
+gegengelesen. Datei-Zeilenzahl vor/nach identisch (780).
+
+**Register nachgeführt:** die «FRISCH GEMELDET»-Zeile zum SIA-Sweep zeigte noch die
+Vor-Nachtrag-Zahlen (66 Zeilen, 52 extern, 25/23/4-Aufteilung) statt der im CHANGELOG bereits
+korrekten Endzahlen (69 Zeilen, 56 extern, 27/25/4) — auf die CHANGELOG-Zahlen synchronisiert,
+plus Vermerk zur Formatkorrektur.
+
+**Nicht geleistet:** keine neuen Destillate (weiterhin nur Shop-Metadaten ohne Volltext, wie
+im Vorlauf begründet) und `wiki/QUESTIONS.md` bewusst nicht angefasst (parallele Kollision mit
+Lauf `normen-fragen` auf derselben Datei, Auftragslage). Die vier offenen Fragen N-SIASWEEP-1
+bis -4 bleiben dort unverändert stehen.
+
+Report: `outputs/2026-08-23_sia-sweep-blindzone.md` (Vorlauf, inhaltlich weiterhin gültig).
+
+---
+
 ## 2026-08-23 — SIA-Sweep (interaktive Session): 69 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
 
 **Auftrag Raphael:** die im REGISTER.md, Abschnitt A geführten SIA-Zeilen ohne Datei im Haus

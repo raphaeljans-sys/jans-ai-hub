@@ -222,8 +222,27 @@ Gegenlesen zitierfähig». Es ist auf `superseded` herabgestuft und trägt einen
 **Belegqualität ausdrücklich ausgewiesen:** Der Rückzug steht **nur in der Portal-Annotation**.
 Die ausgelieferte Datei selbst trägt keinen Rückzugsvermerk und weiterhin die Fassung 01.01.2017.
 **Offen:** (a) eine zweite unabhängige Bestätigung des Rückzugsdatums, (b) ob und wohin die
-Cheminée-Anforderungen überführt wurden — naheliegend ist die BRL 24-15 «Wärmetechnische
-Anlagen», das ist aber **nicht geprüft** und darf nicht angenommen werden.
+Cheminée-Anforderungen überführt wurden.
+
+> **Teilprüfung 23.08.2026 — die naheliegende Vermutung «BRL 24-15» präzisiert, nicht bestätigt.**
+> `destillate/vkf-brl-24-15-waermetechnische-anlagen.md` wurde gegen die Cheminée-Frage gelesen.
+> Ziff. 4.1 (S. 8-9) regelt Cheminées zwar direkt (Feuerraumwände/Unterbau/Sicherheitsabstände
+> «gemäss Leistungserklärung oder VKF-Technischer Auskunft»), verweist aber für «übrige
+> Cheminées» ausdrücklich auf **Ziff. 8 «Weitere Bestimmungen»** — und Ziff. 8 selbst ist bei
+> BRL 24-15 kein Sachinhalt, sondern nur ein Verweis auf das **periodisch aktualisierte
+> TKB-VKF-Verzeichnis** (www.praever.ch/de/bs/vs), dessen Inhalt nicht im PDF steht. Das heisst:
+> BRL 24-15 hat die detaillierten 103-15-Masse (0.12 m Wand/Unterbau, 0.1 m/0.8 m
+> Sicherheitsabstände, 0.4 m Vorbelag) **nicht selbst übernommen** — 103-15 war strukturell
+> vermutlich genau der Verzeichniseintrag, auf den Ziff. 8 zeigt(e). Die eigentliche Frage
+> verschiebt sich damit: **steht im aktuellen TKB-VKF-Verzeichnis noch ein
+> Cheminées-Eintrag, und wenn ja, welcher?** Ein WebFetch auf `www.praever.ch/de/bs/vs`
+> (23.08.2026) leitet auf dieselbe clientseitig gerenderte bsvonline.ch-Seite um, die schon bei
+> N58-3 den Astro-JSON-Payload nicht preisgibt — mit WebFetch nicht auflösbar, dieselbe
+> Werkzeug-Grenze. **Nächster Schritt:** die Verzeichnisseite mit einem JS-fähigen Abruf
+> (Playwright/Browser statt WebFetch) erneut prüfen, oder EN 13229 «Kamineinsätze» direkt
+> daraufhin prüfen, ob individuell erstellte (nicht typengeprüfte) Cheminées seit 2025 überhaupt
+> noch einen eigenen VKF-Pfad haben oder ausschliesslich auf EN-13229-Typenprüfung verwiesen
+> werden — beides in diesem Lauf nicht geleistet.
 
 ---
 
@@ -1660,6 +1679,14 @@ stellt sie richtig und ersetzt sie als aktuellen Stand.
    Fahrgassenbreite Gegenverkehr, Parkfeldmasse), damit `planungsgrundlagen` den planerischen
    Kontext auf der geltenden Ausgabe führen kann. Hier angemeldet, weil die Übergabe in die
    **Empfänger-KB** gehört und nicht nur beim Absender notiert werden darf.
+   **✓ GESCHLOSSEN 2026-08-23, ausgeführt von `planungsgrundlagen` (R74).** Nach 24 Tagen ohne
+   Delta-Artikel hier hat `planungsgrundlagen` die Rohdaten aus beiden bereits `established`
+   Destillaten dieser KB selbst synthetisiert (kein neues Norm-Lesen, nur Zusammenführung
+   verifizierter Werte) und [[recht-norm-tiefgarage-erschliessung]] Abschnitt 2 auf VSS 40 291:2021
+   umgestellt, samt Delta-Tabelle in neuem Abschnitt 2.8. Beleg:
+   `wissen/planungsgrundlagen/wiki/QUESTIONS.md`, Eintrag R74. Diese KB muss den Delta-Abgleich
+   nicht mehr nachliefern; bei Bedarf für einen eigenständigen `normen`-Artikel dort die Tabelle
+   aus Abschnitt 2.8 als Ausgangspunkt übernehmen.
 
 ## Run 38 (MacBook Pro, 30.07.2026) — Vorrang-Auftrag erfüllt, Quelle aber NICHT ausgereizt
 

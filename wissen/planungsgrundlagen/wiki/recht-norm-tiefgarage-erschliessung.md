@@ -1,7 +1,7 @@
 ---
 title: Tiefgarage/Parkierung — Erschliessungsgeometrie (VSS-Normen)
 status: established
-last_updated: 2026-07-30 (Wissens-Chef Run 21: Fassungs-Vorbehalt SN 640 291a:2005 → VSS 40 291:2021, Querbezug zu `normen` gesetzt; Inhalt Abschnitt 2 unveraendert, Stand Run 66 vom 2026-07-25)
+last_updated: 2026-08-23 (R74 geschlossen: Abschnitt 2 materiell auf VSS 40 291:2021 umgestellt, SN 640 291a:2005 als Abschnitt 2.8 für Bestandesanlagen 2006-2019 + Delta-Tabelle; Vorlauf Wissens-Chef Run 21, 2026-07-30, Fassungs-Vorbehalt)
 sources: [
   "VSS SN 640 050 «Grundstückzufahrten» (genehmigt Mai 1993, gültig, PL-02/Tiefgarage/1 VSS-Norm)",
   "VSS SN 640 291a «Parkieren — Anordnung und Geometrie der Parkierungsanlagen» (genehmigt Dez. 2005, gültig ab 1.2.2006, ersetzt SN 640 291+292 von 1982, PL-02/Tiefgarage/1 VSS-Norm) — FASSUNGS-VORBEHALT (Wissens-Chef Run 21, 2026-07-30): ABGELÖSTE AUSGABE. Laut der führenden KB `normen` (Destillat `vss-640291a-2005-parkieren-anordnung-geometrie`, Frontmatter-Status «established, aber HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden», Stand 14.07.2026) ist diese Ausgabe über VSS 40 291a:2019-03 durch VSS 40 291:2021-12 ersetzt; die Komfortstufen A/B/C sind entfallen. Alle in Abschnitt 2 tabellierten Werte stammen aus SN 640 291a:2005. Für laufende Projekte gilt die Ausgabe 2021, destilliert in `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`",
@@ -50,116 +50,109 @@ starkem Verkehr. Bauliche Hinweise: seitlich zusätzliche 20 cm lichte Breite en
 Befestigung auf mind. 5 m Tiefe ab Strassenrand (Verschmutzungsschutz), Entwässerung darf nicht auf
 die Strasse abfliessen.
 
-## 2. Geometrie der Parkierungsanlage (VSS 640 291a) — die zentrale Norm
+## 2. Geometrie der Parkierungsanlage (VSS 40 291:2021) — die zentrale Norm
 
-> **FASSUNGS-VORBEHALT (Wissens-Chef Run 21, 2026-07-30) — vor jeder Projektanwendung lesen.**
-> Sämtliche in diesem Abschnitt 2 tabellierten Werte stammen aus **SN 640 291a:2005**. Diese
-> Ausgabe ist laut der führenden KB `normen` (Destillat
-> `vss-640291a-2005-parkieren-anordnung-geometrie`, Frontmatter-Status «established, aber
-> HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden», Stand 14.07.2026) über
-> **VSS 40 291a:2019-03** durch **VSS 40 291:2021-12** ersetzt; die **Komfortstufen A/B/C sind
-> entfallen**, die geltende Ausgabe setzt einen einheitlichen Wertesatz. Für laufende Projekte
-> gilt die Ausgabe 2021, destilliert in
-> `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` — dort stehen die
-> heute massgebenden Werte und Fundstellen. Die Werte unten bleiben als Grundlage für die
-> **Beurteilung von Bestandesanlagen aus der Zeit 2006-2019** stehen; die materielle Umstellung
-> des Abschnitts auf die Ausgabe 2021 ist offen (→ `wiki/QUESTIONS.md`, R74).
+> **✓ Materiell umgestellt 2026-08-23 (R74, Wissens-Chef Run 21 → geschlossen).** Abschnitt 2
+> führt jetzt die Werte der **geltenden Ausgabe VSS 40 291:2021-12** (destilliert, `established`,
+> `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`). Die **Komfortstufen
+> A/B/C sind entfallen** — die Ausgabe 2021 setzt einen einheitlichen Wertesatz je Element. Die
+> abgelöste Ausgabe **SN 640 291a:2005** bleibt für die **Beurteilung von Bestandesanlagen aus der
+> Zeit 2006-2019** massgebend, dafür jetzt als eigener Abschnitt 2.8 geführt statt vermischt mit
+> den aktuellen Werten. Delta-Übersicht der wichtigsten Kennwerte am Ende von Abschnitt 2.8.
 
-Gilt für Parkierungsanlagen für Personenwagen und Lieferwagen bis 3.5 t, öffentlich wie privat.
-Definiert **drei Komfortstufen A/B/C** (A = grosszügig, C = minimal/eng) — die gewählte Stufe
-bestimmt praktisch alle Masse. JANS-Praxis (Benchmark Flurstrasse, siehe §5): **Komfortstufe B**
-ist der übliche Wohnbau-Standard.
+Gilt für Parkierungsanlagen für **Personenwagen und Motorräder** (Geltungsbereich 2021 — 2005 lautete
+noch «Personenwagen und Lieferwagen bis 3.5 t»), öffentlich wie privat. Ein **einheitlicher
+Wertesatz** ersetzt die früheren drei Komfortstufen; Abweichungen mit Nachweis nach Art. 11
+Brandschutznorm bzw. den in der Norm selbst genannten Reduktionsspielräumen möglich.
 
-### 2.1 Parkfelder (Tab. 2/3, Abb. 5/6)
+### 2.1 Parkfelder (Ziff. 11-14, Tab. 4-8)
 
-**Längsparkierung** (Tab. 2):
+**Längsparkfelder** (Ziff. 11, Abb. 5): Fahrgassenbreite F = 3.50 m; Parkfeldbreite B = 1.90 m;
+Parkfeldlänge L = 6.00 m; reduzierte Länge Lr = 5.00 m bei Manövrierbereichen ausserhalb der
+Parkfelder; Manövrierzuschlag zur Breite MB = 0.30 m, zur Länge ML = 1.00 m. F reduzierbar um
+max. 0.20 m bei engen Platzverhältnissen und geringen Geschwindigkeiten; Sicherheitsabstand
+Radstreifen ↔ Längsparkfeld mind. 0.70 m.
 
-| Komfortstufe | Länge Parkfeld L [m] | Länge Randparkfeld Lr1/Lr2 [m] | Breite Parkfeld b [m] | Breite Überhangstreifen U [m] | Breite Fahrgasse F [m] |
-|---|---|---|---|---|---|
-| A | 5.70 | 5.00 / 6.70 | 1.90 | 0.30 | 3.30 |
-| B | 6.00 | 5.00 / 7.00 | 1.90 | 0.30 | 3.50 |
-| C | 6.80 | 6.30 / 8.00 | 2.00 | 0.40 | 3.80 |
+**Schräg-/Senkrechtparkfelder** (Ziff. 12, Tab. 4): Werte je Winkel (F Fahrgasse / B Parkfeldbreite
+quer / b Parkfeldbreite entlang Fahrgasse / L Länge):
+90°: F 5.00-6.50 m, B 2.50-2.80 m, L 5.00 m · 75°: F 5.00/4.50 m, B 2.50/2.65 m, L 5.30 m ·
+70°: F 4.50/4.00 m, B 2.50/2.70 m, L 5.30 m · 60°: F 3.20-3.50 m, B 2.50-2.80 m, L 5.25 m ·
+45°: F 3.20 m, B 2.50 m, L 4.80 m · 30°: F 3.20 m, B 2.50 m, L 4.10 m. Zwischenmasse linear
+interpolierbar; B bei hohen Umschlagfrequenzen +0.10 m (Komfort) bzw. im Bestand -0.10 m möglich.
 
-**Schräg-/Senkrechtparkierung** (Tab. 3, Auszug 90°/Komfortstufe B, Einbahn-Fahrgasse):
-Breite Parkfeld b = 2.50 m, Länge L = 5.00 m, Fahrgasse F = 5.75 m, Fläche/Parkfeld ≈ 19.7 m².
-Bei 45° sinkt b auf 3.30 m (Winkel), F auf 3.00 m; bei 30° b = 4.70 m, F = 3.00 m. Volle
-Winkeltabelle (30°/45°/60°/75°/90° × Komfortstufe A/B/C) in Tab. 3 der Norm — **immer die
-Komfortstufe des Projekts explizit nennen**, sonst ist die Zahl nicht zuordenbar.
+**Fahrgassenbreite bei Gegenverkehr** (Ziff. 12, Tab. 5): Einbahnverkehr F = **3.20 m** (Kehren
+Fkm 4.00 m/Fkb 7.50 m); Gegenverkehr F = **5.50 m** (Kehren Fkm 6.50 m/Fkb 9.00 m), reduzierbar
+um max. 0.50 m bei geringem Verkehrsaufkommen. Bei hohen Fussgängerfrequenzen **Zuschlag von
+mindestens 0.80 m** empfohlen (Ergänzung Wissens-Chef Run 20 zum Destillat, S. 16).
 
-**Fahrgassenbreite bei Gegenverkehr** (Tab. 4): Komfortstufe A/B Einbahn 3.00 m / Gegenverkehr
-5.00 m (Kehren 3.40/5.40 m); Komfortstufe C Einbahn 3.30 m / Gegenverkehr 5.60 m.
+**Rollstuhlgerechte Parkfelder** (Ziff. 13, Abb. 7): Breite **3.50 m**, reduzierbar auf **2.50 m**,
+wenn seitlich auf ganzer Länge ein mind. **1.00 m** breiter niveaugleicher freier Bereich (BAS)
+vorhanden ist — ersetzt die frühere Flächenäquivalenz «3 Schrägparkfelder = 2 Behindertenparkfelder».
+Längsparkfelder 8.00 m lang (inkl. Ein-/Ausladezone BM 1.70 m).
 
-**Behindertenparkfelder** (§13): Breite 3.50 m bei Senkrechtparkierung; 3 normale Schrägparkfelder
-= 2 Behindertenparkfelder in der Flächenbilanz.
+**Kleinwagen** (Ziff. 14, Tab. 6-8): eigenes, kleineres Bemessungsfahrzeug (L 2.50 m, B 1.55 m,
+Wenderadius 4.35 m); Fahrgassen in Geraden/Kehren Einbahn F 3.00 m/Gegenverkehr F 4.60 m.
 
-**Kleinwagen** (§14, Tab. 5/6): eigene, kleinere Masse zulässig (Bezugsfahrzeug L 2.50 m, B
-1.52 m, Wendekreisradius 4.35 m) — z.B. Senkrecht 90°/Komfortstufe A: b = 2.10 m, F = 4.20 m.
+**Abstände zu Wänden/Stützen** (Ziff. 16, Tab. 10): bei Senkrechtparkierung 90° Abstand zur Wand
+Dw = 0.30 m (seitlich)/Dv = 1.20 m (stirnseitig); Abstand zur Stütze Ds1 = 0.00 m (bei Stütze am
+Feldrand) bzw. Ds2 = 0.30 m. **Praxis-Benchmark**: die reale JANS-Archiv-Notiz zur Tiefgarage
+Flurstrasse (Meili Peter/IBV, 17.04.2018, Fassung 2005) bemängelte «fehlender Abstand zwischen
+Parkfeldern und Stützen (im Idealfall 10 cm)» — deckt sich mit dem Norm-Minimum Ds1 = 0.00 m
+(0 cm zulässiges Minimum, 10 cm bereits ein Komfort-Vorschlag), Wert in der Ausgabe 2021
+unverändert gegenüber 2005.
 
-**Abstände zu Wänden/Stützen** (§15, Tab. 7): bei Senkrechtparkierung 90°/Komfortstufe B:
-Abstand zur Wand Dw = 0.30 m (seitlich) / Dv = 1.20 m (stirnseitig); Abstand zur Stütze Ds1 = 0.00
-(bei Stütze am Feldrand) bzw. Ds2 = 0.30 m, max. Stützenbreite Dh = 1.10 m. **Praxis-Benchmark**:
-die reale JANS-Archiv-Notiz zur Tiefgarage Flurstrasse (Meili Peter/IBV, 17.04.2018, Komfortstufe
-B) bemängelte genau diesen Punkt — «fehlender Abstand zwischen Parkfeldern und Stützen (im
-Idealfall 10 cm)» — deckt sich mit dem Norm-Minimum Ds1 = 0.00 m (0 cm zulässiges Minimum, 10 cm
-sind bereits ein Komfort-Vorschlag über dem Minimum).
+### 2.2 Lichte Höhe (Ziff. 17)
 
-### 2.2 Lichte Höhe (Tab. 8, §16)
+**Minimale lichte Höhe: einheitlich 2.30 m** (Fahrgassen/Fahrwege/Parkfelder — die frühere
+Differenzierung nach Komfortstufe/Nutzungsart entfällt). Gemessen von Fahrbahnoberfläche bis zum
+niedrigsten Element (Signal/Beleuchtung/Tragwerk); Höhenbegrenzung an der Einfahrt 0.05-0.10 m
+tiefer als die minimale lichte Höhe (Anfahrschutz). Bei Schräg-/Senkrechtparkfeldern siehe
+Quergefälle Ziff. 18.
 
-| Komfortstufe | Fahrgassen/Fahrwege | Parkfelder | Fussgängerwege |
-|---|---|---|---|
-| A, B | 2.30 m | 2.20 m | 2.20 m |
-| C | 3.00 m | 2.90 m | 2.20 m |
+### 2.3 Rampenneigung (Ziff. 20.5-20.6, Tab. 13) — die Kernfrage jeder Tiefgarage
 
-Gemessen von Fahrbahnoberfläche bis zum niedrigsten Element (Signal/Beleuchtung/Tragwerk);
-Höhenbegrenzung an der Einfahrt 0.05–0.10 m tiefer als die minimale lichte Höhe (Anfahrschutz).
+**Maximale Längsneigung: ungedeckte Rampen 15 %, gedeckte (oder beheizte) Rampen 18 %** —
+einheitlich, die frühere Differenzierung nach Komfortstufe (12 %/15 % bei B/C) entfällt zugunsten
+des grosszügigeren, früheren Stufe-A-Werts. Bezogen auf den steileren Fahrbahnrand (z. B.
+Kurveninnenseite). Gefällewechsel ohne Ausrundung max. 6 %. Minimale Ausrundungsradien: Kuppe
+Rv = 20 m (Abstand Neigungsknicke 2.00 m), Wanne Rv = 30 m (Abstand 3.00 m).
 
-### 2.3 Rampenneigung (Tab. 11/12, §18.4-18.6) — die Kernfrage jeder Tiefgarage
-
-| Komfortstufe | Ungedeckte Rampe | Gedeckte Rampe |
-|---|---|---|
-| A | 15 % | 18 % |
-| B, C | 12 % | 15 % |
-
-Rampenränder, die an Parkfelder grenzen, max. 6 % (§18.5). Neigungsänderungen brauchen
-Ausrundung ODER Neigungsknicke ≤ 6 %/Knick (§18.6, Tab. 12): Ausrundungsradius Kuppe/Wanne
-20 m (Komfortstufe A) bzw. 20 m/30 m (Komfortstufe B/C Kuppe/Wanne), Mindestabstand zwischen
-Neigungsknicken 2.00–3.00 m.
-
-**Reale ZH-Kantonspraxis (Ausfahrtstyp A, IBV Hüsler AG, 23.01.2017):** normiert den Übergang
-Strasse→Rampe in gestuften Neigungsknicken à 6 % bis zum Rampen-Endgefälle 18 % — z.B. Schnitt 1
-(mit Gegengefälle im Strassenbereich): 0–6 m ab Strassengrenze **max. ±5 %** (deckt sich mit VSS
-640 050 Typ-B/C-Wert), dann Knicke 10 %→16 %→18 %, minimale lichte Höhe 2.30 m (= Komfortstufe
-A/B nach Tab. 8). **Kernregel VSS 640 050 + kantonale Praxis deckungsgleich:** die ersten 5–6 m ab
-Strassenrand dürfen max. ±5 % Gefälle haben, der Gefällsbruch am Strassenrand max. 6–8 %.
+**Reale ZH-Kantonspraxis (Ausfahrtstyp A, IBV Hüsler AG, 23.01.2017, Fassung 2005):** normiert den
+Übergang Strasse→Rampe in gestuften Neigungsknicken à 6 % bis zum Rampen-Endgefälle 18 % — z.B.
+Schnitt 1 (mit Gegengefälle im Strassenbereich): 0-6 m ab Strassengrenze **max. ±5 %** (deckt sich
+mit VSS 640 050 Typ-B/C-Wert), dann Knicke 10 %→16 %→18 %. Das End-Gefälle 18 % deckt sich mit dem
+2021er-Wert für gedeckte Rampen — die kantonale Praxis bleibt anwendbar. **Kernregel VSS 640 050 +
+kantonale Praxis deckungsgleich:** die ersten 5-6 m ab Strassenrand dürfen max. ±5 % Gefälle haben,
+der Gefällsbruch am Strassenrand max. 6-8 %.
 
 **Praxis-Bestätigung Flurstrasse:** die reale Prüfnotiz vermerkt «Ausfahrt Tiefgarage: die letzten
-6 m bis zum Gehsteig können in einer Neigung von 3 % ausgeführt werden» — deckt sich mit VSS
-640 291a §19 («Längsneigung des Fahrweges im Bereich der Kontrolleinrichtungen max. 3 %»), nicht
-mit dem allgemeinen 5-%-Wert der 640 050 — die Kontrolleinrichtungs-Regel (Schranke/Automat) ist
-strenger und sticht, wenn eine Schrankenanlage vorhanden ist.
+6 m bis zum Gehsteig können in einer Neigung von 3 % ausgeführt werden» — deckt sich mit der
+Kontrolleinrichtungs-Regel (§2.5 unten, unverändert 2005→2021: max. 3 % im Kontrollbereich), nicht
+mit dem allgemeinen 5-%-Wert der 640 050 — die Kontrolleinrichtungs-Regel ist strenger und sticht,
+wenn eine Schrankenanlage vorhanden ist.
 
-### 2.4 Kurvenverbreiterung Fahrwege (§18.1-18.3, Tab. 9/10, Abb. 8/9)
+### 2.4 Kurvenverbreiterung Fahrwege (Ziff. 20.1-20.4, Tab. 11/12)
 
-Fahrwegbreite hängt vom Kurvenradius ab (enger Radius → breiterer Fahrweg). Komfortstufe A,
-Einbahnverkehr (Tab. 9): bei Ra = ∞ (Gerade) Fahrbahnbreite Fe = 2.50 m / lichte Breite We =
-2.90 m; bei Ra = 10 m steigt Fe auf 3.00 m / We auf 3.60 m; bei Ra = 7 m (engste tabellierte
-Kurve) Fe = 3.25 m / We = 4.00 m. Schrammborde 0.10 m hoch, 0.20 m breit (an Aussenkurven
-radiusabhängig breiter, Tab. 9 Spalte Sa).
+Lichte Breite = Fahrbahnbreite + beidseitige Schrammborde (0.10-0.12 m hoch, in Geraden/Innenkurve
+0.25 m breit, aussen radiusabhängig). Fahrwegbreite hängt vom Aussenradius Ra ab (enger Radius →
+breiterer Fahrweg), Einbahnverkehr: Ra = 7.50 m → Fahrbahnbreite Fe = 3.40 m/lichte Breite
+We = 4.30 m; Ra = 10.00 m → Fe = 3.15 m/We = 3.90 m; Ra ≥ 25.00 m → Fe = 2.70 m/We = 3.20 m. Bei
+Gegenverkehr entsprechend höhere Werte. Kehren mit Aussenradius unter 7.50 m sind zu vermeiden.
 
-### 2.5 Ein-/Ausfahrt mit Kontrolleinrichtungen (§19, Abb. 11/12)
+### 2.5 Ein-/Ausfahrt mit Kontrolleinrichtungen (Ziff. 21-22)
 
-Schranken/Automaten auf Geraden anordnen, mind. 5.00 m vor dem ersten Automaten beginnend und
-5.00 m nach der Schranke endend; Abstand zwischen den Kontrollelementen selbst 3.00 m (Fig. 11);
-Lage in Rechtskurven ist ungünstig — wenn unvermeidbar, Ra ≥ 7.00 m einhalten (Fig. 12).
-Längsneigung im Kontrollbereich max. 3 % (siehe §2.3 oben, Praxis-Deckung).
+Schranken/Automaten auf Geraden anordnen, mind. 5.00 m vor dem ersten Automaten beginnend und nach
+der Schranke endend. Längsneigung im Kontrollbereich max. 3 % — **unverändert gegenüber 2005**.
 
 ### 2.6 Weitere Elemente
 
 - **Fussgängerwege in Parkierungsanlagen** (§20): begehbare Bankette/markierte Flächen mind.
   1.20 m; Wege/Treppen mind. 1.50 m.
-- **Motorrad-Parkfelder** (§21): 2.20 m lang, 1.20 m breit (bis 1.50 m erweiterbar), Fahrgasse
-  mind. 3.00 m.
-- **Leichte Zweiräder** (§22): eigene Norm SN 640 065/640 066 — jetzt vertieft, siehe §6 unten.
+- **Motorrad-Parkfelder** (Ziff. 15, Tab. 9 — aktualisiert 2026-08-23, R74): je Winkel B/b/L/Fahrgasse;
+  90°: B/b 1.20 m, L **2.30 m** (2005: 2.20 m), Fahrgasse Einbahn Fe **3.00 m**, Gegenverkehr
+  Fg 4.00 m, Kehre 2.50 m; 0°/längs: B 1.20 m, L 2.50 m, Fe 2.00 m, Fg 4.00 m.
+- **Leichte Zweiräder** (Ziff. 22 der VSS-Systematik, eigene Norm SN 640 065/640 066) — vertieft,
+  siehe §6 unten.
 
 ### 2.7 Kt.-ZH-Zugangsnormalien 700.5 (Run 32, neu erschlossen)
 
@@ -181,6 +174,33 @@ Vorstufe zur VSS-640-050-Geometrie:
 **Relevanz JANS:** ergänzt die VSS-640-050-Zufahrtstypologie (§1 oben) um die kantonale
 Vorstufe «welche Zugangsart brauche ich überhaupt» — insbesondere bei Erschliessung mehrerer
 Parzellen/Etappen über denselben Zugang relevant.
+
+### 2.8 Historische Ausgabe SN 640 291a:2005 — nur für Bestandesanlagen 2006-2019 (R74, 2026-08-23)
+
+Die **Komfortstufen A/B/C** der Ausgabe 2005 sind seit VSS 40 291:2021 entfallen. Für die
+**Beurteilung einer bestehenden Anlage, die zwischen 2006 und 2019 nach dieser Ausgabe geplant
+wurde**, bleiben die damaligen Werte massgebend — Quelle:
+`wissen/normen/destillate/vss-640291a-2005-parkieren-anordnung-geometrie.md` (`established`,
+Frontmatter «HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden»).
+
+**Delta-Tabelle 2005 → 2021 (Kernwerte, Quelle: beide `established`-Destillate der KB `normen`,
+zusammengetragen 2026-08-23):**
+
+| Kennwert | SN 640 291a:2005 | VSS 40 291:2021 |
+|---|---|---|
+| Rampenneigung ungedeckt/gedeckt | Stufe A 15 %/18 % · Stufe B/C 12 %/15 % | einheitlich **15 %/18 %** |
+| Längsparkfeld F/B/L | Stufe A/B/C je 3.30-3.80 m / 1.90-2.00 m / 5.70-6.80 m | einheitlich **3.50 m / 1.90 m / 6.00 m** |
+| Fahrgasse Einbahn/Gegenverkehr | Stufe A/B 3.00 m/5.00 m · Stufe C 3.30 m/5.60 m | einheitlich **3.20 m/5.50 m** |
+| Lichte Höhe | Stufe A/B 2.30 m · Stufe C 3.00 m | einheitlich **2.30 m** |
+| Behinderten-/Rollstuhlparkfeld | 3.50 m; Flächenäquivalenz «3 Schräg = 2 Behindertenfelder» | **3.50 m**, reduzierbar auf **2.50 m** bei ≥ 1.00 m BAS; Äquivalenz entfallen |
+| Geltungsbereich | Personenwagen und Lieferwagen bis 3.5 t | Personenwagen **und Motorräder** |
+| Motorrad-Parkfeld 90° (L) | 2.20 m | **2.30 m** |
+| Komfortstufen A/B/C | massgebend für praktisch alle Masse | **entfallen**, einheitlicher Wertesatz |
+
+Alle Werte gegen den Volltext beider Destillate verifiziert (Ziffern/Tabellen-Fundstellen siehe
+Abschnitte 2.1-2.5 oben bzw. `vss-640291a-2005-parkieren-anordnung-geometrie.md`). Kein
+eigenständiger Delta-Artikel in `normen` — die Werte sind hier aus den beiden Primär-Destillaten
+synthetisiert, nicht neu aus der Norm gelesen.
 
 ## 6. Leichter Zweiradverkehr — Veloparkplätze (VSS SN 640 065/066, Run 32, neu erschlossen)
 

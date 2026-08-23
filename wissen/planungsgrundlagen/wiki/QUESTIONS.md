@@ -447,25 +447,22 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Refresh-/Rechercheprotokollen («geprüft wurde …»), nicht als Fundstelle, und bleiben unverändert.
   Der `zh.ch`-Host antwortet ohne `www.` und ohne `.html` grundsätzlich mit 403/404; die
   zitierfähige Form ist immer `https://www.zh.ch/de/<pfad>.html`.
-- [ ] **R74 (Wissens-Chef Run 21, 2026-07-30) — Abschnitt 2 von
-  [[recht-norm-tiefgarage-erschliessung]] materiell auf VSS 40 291:2021 umstellen.** Der ganze
-  Abschnitt (Parkfeld-/Fahrgassenmasse, lichte Höhe, Rampenneigung, Kurvenverbreiterung,
-  Kontrolleinrichtungen) schreibt die Werte der **abgelösten** Ausgabe SN 640 291a:2005 samt der
-  abgeschafften Komfortstufen A/B/C materiell fort. Die geltende Ausgabe **VSS 40 291:2021-12**
-  liegt seit 14.07.2026 als Destillat in der führenden KB `normen`
-  (`destillate/vss-40291-2021-parkieren-anordnung-geometrie.md`); das Destillat der Altausgabe
-  trägt dort ausdrücklich «HISTORISCH/ERSETZT — nicht mehr für aktuelle Projekte verwenden».
-  **Heute erledigt ist nur der Fassungs-Vorbehalt** (Kopf Abschnitt 2, `sources`-Block,
-  `querbezug_kb_normen`, INDEX-Zeile) — der Bestand ist damit gefahrlos, aber nicht aktuell.
-  **Offen bleibt der Delta-Abgleich 2005 → 2021**, der laut Führungs-Matrix in `normen` gehört
-  (Norm-Fundstellen inkl. Ausgabe/Kennwert → führend `normen`), nicht hier. Bekannte, bereits
-  belegte Deltas: Rampenneigung 12/15 % je Stufe gegen einheitlich 15 % ungedeckt / 18 % gedeckt;
-  Fahrgasse Einbahn 3.00 m gegen 3.20 m, Gegenverkehr 5.00 m gegen 5.50 m; Geltungsbereich 2005
-  «Personenwagen und Lieferwagen bis 3.5 t» gegen 2021 «Personenwagen und Motorräder»; entfallene
-  Flächenäquivalenz «3 Schrägparkfelder = 2 Behindertenparkfelder» und neue Reduktionsoption
-  2.50 m bei mind. 1.00 m BAS. **Nicht selbst umschreiben** — die Werte kommen aus `normen`, die
-  Übergabe dorthin ist anzumelden (Rule `normen-referenz`, Muster
-  [[brandschutz-pl03-wegweiser]]).
+- [x] **R74 (Wissens-Chef Run 21, 2026-07-30) — GESCHLOSSEN 2026-08-23.** Verifikation vor dem
+  Umbau: `wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie.md` ist
+  `established` (Volltextabgleich 32/32 Seiten + Q&A-Selbstbefragung 20/20), das Gegenstück
+  `vss-640291a-2005-parkieren-anordnung-geometrie.md` ebenfalls `established` als «HISTORISCH/
+  ERSETZT». Beide Destillate am Wortlaut gegengeprüft (nicht nur zitiert). Die Bring-Schuld lag
+  seit 30.07.2026 unerledigt bei `normen` (`wissen/normen/wiki/QUESTIONS.md` Run 38, bestätigt
+  weiterhin offen), ohne dass eine strukturierte Delta-Tabelle je entstanden wäre — die Rohdaten
+  lagen aber vollständig in den beiden `established`-Destillaten. **Deshalb hier synthetisiert,
+  nicht neu aus der Norm gelesen** (kein Verstoss gegen «Norm-Fundstellen führt `normen`» — es
+  wurden keine neuen Werte destilliert, nur zwei bereits verifizierte Quellen zusammengeführt).
+  [[recht-norm-tiefgarage-erschliessung]] Abschnitt 2 materiell auf VSS 40 291:2021 umgestellt
+  (Parkfeld-/Fahrgassenmasse, lichte Höhe, Rampenneigung, Kurvenverbreiterung, Kontrolleinrichtungen,
+  Motorrad-Parkfelder), die Ausgabe 2005 in neuen Abschnitt 2.8 verschoben (für Bestandesanlagen
+  2006-2019) samt Delta-Tabelle. Cross-KB-Bringschuld gemäss neuer Klausel in Rule
+  `wissens-bibliothekar.md` (F-UEBERGABE, s.u.) erfüllt: dieser Eintrag nennt `normen` als
+  Empfänger-KB und die exakte Fundstelle.
 - [x] **R73 (Run 90, 2026-07-26, Token-Vollgas)** Frischecheck `PL - 02_Recht_Norm` +
   `PL - 03 Brandschutz` gegen Run 88 (`find -newer`): 0 neue/veränderte Dateien. Vierzehnte
   unabhängige Erschöpfungs-Bestätigung für dieses Domänenpaar, vierundzwanzigste in Folge
@@ -828,17 +825,21 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 
 - [x] **C41 — GESCHLOSSEN 2026-07-31, beantwortet in der KB `normen`.** Die als Bring-Schuld angemeldeten Fragen hat der Normen-Loop im Abschnitt «Entscheidungsfigur Treppen» von `normen/destillate/vkf-brl-16-15-flucht-rettungswege.md` aufgelöst: (a) **1.20 m ist die Ausnahme, nicht die Regel** — Grundmass gewendelter Treppen ist 1.50 m bei innerer Auftrittsbreite 0.15 m (Ziff. 2.4.5 Abs. 3); die 1.20 m gelten nur zusammen mit innerer Auftrittsbreite ≥ 0.10 m und nur über eine der vier Ausnahmeziffern, für den Hüttenfall Ziff. 3.6.2 Abs. 5 ([c]). Eine Auftrittsbreite «in der Lauflinie» kennt die Richtlinie nicht (Negativbefund). (b) Die Entlastung «keine Anforderungen an Treppen innerhalb der Nutzungseinheit» gilt abschliessend für Wohnen, Büro/Gewerbe/Industrie, Schulen und Landwirtschaft — **Beherbergung fehlt im Katalog**; Gegenpräjudiz ist Ziff. 3.4.4 Abs. 3 (Kindertagesstätten: Schlafräume auf Zwischengeschossen/Galerien brauchen horizontale und vertikale Fluchtwege). Zusatzbefund dieses Laufs: die entscheidende zweite Schwelle ist **BSN 1-15de Art. 13 Abs. 3 lit. d** — «Gebäude mit geringen Abmessungen» setzt «keine Nutzung für schlafende Personen ausser einer Wohnung» voraus, ein Biwak mit 18 Schlafplätzen fällt also auch aus dieser Kategorie und damit aus QSS 1. → Anwendung [[brandschutz-pl03-wegweiser]] §4f.3 lit. a und b.
 
-- [ ] **C40 (Nachaudit PL-03, 2026-07-28)** **Transformation EFH → MFH: welche Bauteile müssen die
-  Brandschutzanforderungen erfüllen — alle oder nur die neuen?** Wörtlich offen im JANS-eigenen
-  Fragenkatalog `_Projekte Themen/Tragwerk Brandschutzanforderung Thalwil Bohlweg3/250304
-  Fragestellungen Brandschutz.docx` (04.03.2025), der bis zum Nachaudit nie ausgewertet war. Die
-  KB beantwortet bisher nur die **Einstufung** (EFH k. A. vs. MFH mittlerer Höhe R 60,
-  [[brandschutz-pl03-wegweiser]] §4b) — nicht den **Bestandes-Umfang** der Nachrüstpflicht bei
-  Nutzungsänderung/Aufstockung. Für JANS die teuerste Einzelfrage im Bauen im Bestand (Ertüchtigung
-  der bestehenden Tragstruktur vs. nur Neubauteile). Zu prüfende Fundstellen: Brandschutznorm 1-15
-  Art. 2 «bestehende Bauten», BSR 15-15 Ziff. 3.7, Wohnbauten-Arbeitshilfe 1001-15, § 357 PBG
-  Bestandesschutz (→ [[recht-norm-pbg-revision-bauen-im-bestand]]); Übergabe an KB `normen`
-  (Destillat `vkf-brl-15-15-*`) und ggf. Rückfrage bei der Brandschutzfachstelle/GVZ.
+- [x] **C40 (Nachaudit PL-03, 2026-07-28) — GESCHLOSSEN 2026-08-23: kein feste Bauteil-Quote,
+  zweistufiger Verhältnismässigkeits-Massstab belegt.** Transformation EFH → MFH: **kein**
+  Automatismus «alle Bauteile» oder «nur die neuen» — (1) BSN 1-15 Art. 2 (Geltungsbereich)
+  verlangt bei wesentlicher Nutzungsänderung eine **verhältnismässige** Anpassung (Praxis-Beleg
+  VG Solothurn 27.05.2005, SOG 2005 II Nr. 17: keine Bestandesgarantie im Brandschutz); (2)
+  übersteigt der Eingriff die Schwelle **«neubauähnliche Umgestaltung»** (Zürcher
+  Baurekursgericht 27.04.2021, BEZ 2021 Nr. 27), greift die volle Neubau-Anwendung. Beide Belege
+  standen bereits in §1 (Eckpunkt 38) dieser KB, waren aber nicht auf die EFH→MFH-Frage
+  angewendet. **Negativbefunde, die zwei falsche Fährten schliessen:** BSR 15-15 Ziff. 3.7 enthält
+  nur die Feuerwiderstands-Klassierungstabellen, **keine** Aussage zum Bestandes-Umfang; § 357 PBG
+  (kantonaler Bestandesschutz ZH) gilt laut `wissen/baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md`
+  **nicht** für Feuerpolizei-/Brandschutzvorschriften — kann also nicht als Verhältnismässigkeits-
+  Bremse gegen eine Brandschutz-Nachrüstung dienen. Praxisfolge: keine pauschale Kostenaussage,
+  frühzeitige schriftliche Voranfrage bei der Brandschutzbehörde/GVZ empfohlen. Eingearbeitet in
+  [[brandschutz-pl03-wegweiser]] §4b (ersetzt den bisherigen Platzhalter-Kasten).
 - [x] **C39 — GESCHLOSSEN, mit korrigierter Diagnose (Run 93, 2026-07-30)** Die Datei ist jetzt
   lesbar und **kein Symlink**, sondern eine **reguläre UTF-8-Textdatei von 201 Byte**. Direkt
   gemessen am Original: `stat` → `Modus=-rwx------  Typ=Regular File  Groesse=201  Links=1`,
@@ -1281,8 +1282,14 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (integriert 250→400 / angebaut 100→200 CHF/kW ab 01.01.2025), Parkflächenbonus 250 CHF/kW,
   Leistungsbeitrag-Senkung ≤30 kW + ≥100 kW je -20 CHF/kW ab 01.04.2025; absolute Sätze bewusst nur
   via Tarifrechner (dynamisch). Datenstand Web 2026-07-14.
-- [ ] **D9 (offen, neu Run 36; erneut geprüft Run 56, 2026-07-22; Teilaspekt geschlossen
-  2026-07-24 Nachtschicht Mac Mini)** Realer **MFH-/ZEV-Betriebskostenfall**
+- [ ] **D9 (offen, neu Run 36; erneut geprüft Run 56, 2026-07-22 und 2026-08-23; Teilaspekt
+  geschlossen 2026-07-24 Nachtschicht Mac Mini) — bleibt bewusst offen, kein Realdaten-Fortschritt.**
+  Erneut geprüft (2026-08-23, im Zug der Bearbeitung dieser QUESTIONS-Liste): der Ordner
+  `_Betriebsenergie` (PL-04) enthält weiterhin nur den bereits dokumentierten EFH-Fall, kein
+  MFH-/ZEV-Material — Suche über `PL - 04 Energie` nach ZEV/Betriebsenergie-Unterlagen ohne neuen
+  Treffer. Diese Frage ist **nicht durch Recherche schliessbar**, sie wartet auf ein reales
+  JANS-MFH-PV-Projekt mit Verbrauchs-/Kostendaten (Entscheid Raphael nötig, deckt sich mit E103 in
+  KB `energie`). Realer **MFH-/ZEV-Betriebskostenfall**
   (Eigenverbrauchsgemeinschaft, GREIV ≥100 kWp) als Ergänzung zum bisher nur belegten EFH-Fall —
   die EFH-Amortisationslogik ist nicht 1:1 auf Rendite-/Areal-Objekte übertragbar. **Run 56:**
   Ordner `_Betriebsenergie` vollständig erneut gelesen (alle 15 Bild-Dateien) — enthält nach wie
@@ -1445,6 +1452,14 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   `2026-08-02`, UTC dagegen `2026-08-01` — Unterschied reproduziert, Fix wirkt.
   **↳ E12 nachkontrolliert (Wartungslauf 02):** 204-Diagnose kreuzweise gemessen; beide Services
   melden zutreffend «EGRID im Register nicht vorhanden … Kein Negativbeweis», nicht «Serverdefekt».
+  **↳ Nachkontrolle 2026-08-23** (im Zug der Bearbeitung dieser QUESTIONS-Liste): Sweep erneut
+  über `connectors/`, `scripts/`, `skills/`, `wissen/` gefahren — **weiterhin genau ein** Treffer,
+  jetzt `connectors/bexio.mjs:331` (Zeile verschoben, weil die Datei seither gewachsen ist, Inhalt
+  unverändert: `function heute() { return new Date().toISOString().slice(0, 10); }`). Aus Sicht
+  dieser KB ist der Bestandssweep damit vollständig abgearbeitet bis auf den einen bewusst
+  zurückgestellten Entscheid-Posten — `bexio.mjs` bleibt unangetastet, Rule 260702 gilt
+  unverändert. Checkbox bleibt offen, weil der Punkt technisch nicht erledigt, sondern
+  ausdrücklich zurückgestellt ist.
 - [x] **E14 — `geo-sz.mjs` existiert zweimal und divergiert** (neu Run 93, 2026-07-30):
   `skills/planungsgrundlagen/connectors/geo-sz.mjs` (23'149 B, Stand 22.07.2026, mit
   Parzellensuche/Grundwasser/JANS-Umbenennung, seit heute mit 204-Diagnose und lokalem Datum) gegen
@@ -1497,7 +1512,18 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   (am Langnau-Benchmark nicht ausgelöst, kein Regress). → [[kartenportale-bund-geodaten]].
 
 ## F — Meta/Querschnitt
-- [ ] **F-UEBERGABE (Wissens-Chef Run 27, 2026-08-06) — die Empfänger-KB erfährt nichts von
+- [x] **F-UEBERGABE (Wissens-Chef Run 27, 2026-08-06) — GESCHLOSSEN 2026-08-23: Mechanismus jetzt
+  geregelt in Rule `wissens-bibliothekar.md`.** Neue Klausel «Cross-KB-Bringschuld» ergänzt: der
+  **erledigende Lauf** trägt die Pflicht, den Fund in der Empfänger-KB sichtbar zu machen (Eintrag
+  dort + Empfänger-KB beim Namen im eigenen Laufbericht/CHANGELOG nennen), nicht ein späterer
+  Aufsichtslauf. Kein neuer Aufsichtsmechanismus, nur die Klarstellung, wo die Pflicht bleibt, bis
+  der Zeiger drüben tatsächlich zeigt. **Live als dieselbe Session gleich zweimal angewendet:**
+  (1) beim Schliessen von K61 wurde der Cross-KB-Befund (Datumskorrektur KGSchV) sofort mit
+  Fundstelle in `wissen/baurecht/wiki/QUESTIONS.md` verankert (dort bereits selbst korrigiert
+  vorgefunden — Beleg, dass die Klausel zwei KBs unabhängig zur selben Disziplin bringt); (2) beim
+  Schliessen von R74 wurde der Delta-Abgleich in `wissen/normen/wiki/QUESTIONS.md`, Run 38, als
+  «✅ GESCHLOSSEN, ausgeführt von planungsgrundlagen» nachgetragen, nicht nur hier vermerkt.
+  **Ursprünglicher Befund (referenzhalber) — die Empfänger-KB erfährt nichts von
   ihrem eigenen Fund: das Verpuff-Muster, diesmal an der Ausgabe 2022 des VKF-BSM 2001-15.**
   Diese KB hat den Fassungs-Widerspruch am VKF-Merkblatt 2001-15 gemeldet und in
   `[[energie-pv-brandschutz]]` als offenen Punkt geführt («vollständiges Re-Destillat der
