@@ -5,7 +5,7 @@ ausgabe: "Kein explizites Ausgabedatum im Dokument. Fusszeile nennt nur die inte
 gelesen: "Seiten 1-4 (vollstaendig), 2026-08-04"
 datenstand: "vermutlich 2002-2008 (kein explizites Datum im Dokument, siehe Feld 'ausgabe') ⚠⚠ Alterskorpus PL-02, PV-Technik und PV-Foerderung altern besonders schnell"
 status: emerging
-last_updated: "2026-08-04 (Run 123)"
+last_updated: "2026-08-23 (Nachtrag: Verweis auf die spätere, datierte Revision 2008 im Ordner Projektadmin AHB, [[ahb-checkliste-solarstromanlagen-2008]]; zuvor 2026-08-04 Run 123)"
 ---
 
 # Destillat — Empfehlungen Solarstromanlage in Bauprojekten, Amt für Hochbauten Stadt Zürich
@@ -133,3 +133,15 @@ Strukturell auch heute gültig, unabhängig von Technik- und Fördermodell-Detai
 - Kein Bezug zu heutigen Förderinstrumenten (Einmalvergütung EIV, kantonale Förderprogramme,
   ZEV/LEG) — das Merkblatt ist rein planerisch/technisch und macht keine Wirtschaftlichkeits-
   aussage.
+
+## Jüngere Fassung 2008 im Ordner Projektadmin AHB (Nachtrag, 23.08.2026)
+
+Im Ordner `PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/
+18.2 Betriebsenergie/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf` liegt eine **spätere,
+datierte Revision** derselben AHB-Checkliste (Stempel «DokumenteignerIn FUY 25.09.2008»,
+gegenüber dieser undatierten Vorfassung, die sich nur indirekt auf 2002-2008 eingrenzen liess).
+Die Revision übernimmt Struktur und Grundmodell unverändert, ergänzt aber eine Rangfolge
+Solarthermie vor Photovoltaik, einen Ertragskennwert (900 kWh/kWp/a bei 20°/±0° Süd), eine
+konkrete Wirtschaftlichkeitsschwelle (15 kWp / 150-300 m²) und eine Baubewilligungsschwelle
+(>10 cm Aufbau, >35 m² Fläche). Volles Destillat samt Abgrenzung Punkt für Punkt:
+[[ahb-checkliste-solarstromanlagen-2008]].

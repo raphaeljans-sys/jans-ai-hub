@@ -5,7 +5,7 @@ ausgabe: "Zürich, Januar 2008 (2., revidierte Auflage)"
 gelesen: "Seiten 1-2 (vollständig), 2026-08-04"
 datenstand: "2008 ⚠⚠ Alterskorpus PL-02 — die EU-/CH-Energieetikette wurde 2021 vollständig neu skaliert, die hier genannten Klassen existieren so nicht mehr"
 status: emerging
-last_updated: "2026-08-04 (Run 123)"
+last_updated: "2026-08-23 (Nachtrag: Verweis auf die jüngere 3. Auflage November 2008 im Ordner Projektadmin AHB, [[topten-haushaltgeraete-liegenschaftenverwaltung]]; zuvor 2026-08-04 Run 123)"
 ---
 
 # Destillat — Professionelle Beschaffung: Haushaltgeräte, Zürich Januar 2008 (2., revidierte Auflage)
@@ -109,3 +109,14 @@ Die Neuskalierung der Energieetikette ist praezisiert und rechtlich verankert:
 15 Jahre** (Anschaffung + Energie) statt des Anschaffungspreises, Bezug auf eine **laufend
 gepflegte Bestenliste** statt auf eine fixe Klasse, und Offerten mit rabattierten Endpreisen.
 Genau diese Konstruktion macht das Merkblatt gegen die Etiketten-Reform robust.
+
+## Jüngere Fassung November 2008 im Ordner Projektadmin AHB (Nachtrag, 23.08.2026)
+
+Im Ordner `PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/
+18.2 Betriebsenergie/Topten_Haushaltgeraete_(Flyer).pdf` liegt die **3., revidierte Auflage
+November 2008** derselben Kampagne (diese Quelle ist die 2., revidierte Auflage Januar 2008) —
+als vierseitiger Bild-/Grafik-Flyer statt Textmerkblatt, mit denselben Rechenbeispielen und
+derselben Gesamtkosten-über-15-Jahre-Regel. Zwei sachliche Ergänzungen gegenüber dieser Fassung:
+eine eigene Tabellenzeile für Kaffeemaschinen sowie eine verschärfte Waschmaschinen-Klasse
+(«A+ oder A» statt nur «A»). Volles Destillat samt Abgrenzung Punkt für Punkt:
+[[topten-haushaltgeraete-liegenschaftenverwaltung]].

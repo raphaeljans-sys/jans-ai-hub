@@ -1,5 +1,33 @@
 # CHANGELOG
 
+## 2026-08-23 — Inventar-Reconciliation: 5 liegen gebliebene Stub-Zeilen nachgeführt, 3 Destillate um Vorwärts-Verweis ergänzt
+
+Auftrag war, 5 in `training/pdf-inventar.md` als offen geführte Restpositionen (Zeilen 267,
+584-587) zu destillieren: `Nuetzliche Unterlagen/Infobrochuren/MFH.pdf` sowie die vier
+2008er-Fassungen `18.2/Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf`,
+`18.2/Topten_Haushaltgeraete_(Flyer).pdf`, `18.3/Deviskontrolle_(Checkliste).pdf` und
+`18.3/Baustellenkontrolle_(Checkliste).pdf`. Gegenprüfung ergab: **alle 5 waren bereits
+vollständig destilliert** — MFH.pdf in Run 125 (07.08.2026, → `heizungsersatz-groessere-mfh-stweg`),
+die vier übrigen in Run 132 (14.08.2026, → `ahb-checkliste-solarstromanlagen-2008`,
+`topten-haushaltgeraete-liegenschaftenverwaltung`, `ahb-devis-und-baustellenkontrolle-2008`).
+Die als offen zugewiesenen Zeilen waren liegen gebliebene Stubs aus einem früheren, kleineren
+Lauf (Run 124/130), die nach der eigentlichen Destillation in einem späteren Run nie auf `[x]`
+nachgezogen wurden — reine Buchhaltungslücke im Inventar, kein fehlender Fachinhalt.
+
+Getan: (1) alle 5 Stub-Zeilen auf `[x]` gesetzt mit Verweis auf die tatsächliche Fundstelle im
+Inventar. (2) Die drei älteren Destillate `eco-bau-checkliste-solarstromanlagen.md`,
+`haushaltgeraete-effizienz-beschaffung-topten.md` und `eco-bau-devis-und-baustellenkontrolle.md`
+verlinkten bereits rückwärts korrekt zueinander (die jüngeren 2008er-Destillate zitieren sie via
+`[[...]]`), aber ohne Vorwärts-Verweis von alt nach neu — je einen kurzen Nachtrags-Abschnitt
+ergänzt, der auf die jüngere Fassung verweist (analog zum Stil der bereits vorhandenen "Ältere
+Auflage 2005"-Sektion in `eco-bau-devis-und-baustellenkontrolle.md`). Frontmatter `last_updated`
+je Datei nachgeführt. (3) `wiki/BAUHERREN-FAQ.md` und `wiki/INDEX.md` enthielten bereits
+Backlinks zu allen 5 Themen aus den ursprünglichen Läufen — keine FAQ-Änderung nötig, da diese
+drei Checklisten (Deviskontrolle/Baustellenkontrolle/Solarstromanlagen-Checkliste) reine
+AHB-Verwaltungsformulare der Stadt Zürich ohne neuen Bauherren-Nutzen gegenüber den bereits
+erfassten Vorfassungen sind; die Kaffeemaschinen-Zeile/verschärfte Waschmaschinen-Klasse im
+Topten-Flyer sind zu klein, um eine eigene FAQ-Antwort zu rechtfertigen.
+
 ## 2026-08-22 — Wissens-Chef Run 40 (Cross-KB): zwei Kanten nach `planungsgrundlagen`
 
 Zwei Doppelspurigkeiten bestaetigt und beidseitig verdrahtet — in beiden Faellen destillierten beide

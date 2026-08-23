@@ -8115,3 +8115,18 @@ Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, kei
 keine destruktive Aktion. Budget dieses Zyklus: rund 1.1 von 5 USD.
 
 - 2026-08-23 08:55 (Widerrufs-Queue) angemeldet 260823-085517-38206 — 3. Nachfassen Massaufnahme innere Verglasung, KISPI PPTS Los 274.01 (Frist Di 25.08.) (faellig 07:00)
+
+## Nachtschicht Mac Mini 23.08.2026 13:30-Slot
+
+Prioritaeten 1-3 leer (kein remote-task, kein sync-task mac-mini, keine Freigabe-Queue-Position).
+Prioritaet 4 (naechste faellige Trainingslektion): `bauprodukte` und `grobkosten` sind laut
+eigener PROGRAMM.md als erledigt/ausgesetzt markiert, `energie` blieb der einzige freie
+Kandidat (kein eigener Taktgeber — `energie-training` in der Registry ist `enabled: false`,
+ereignisgetriggert). Fuenf in `training/pdf-inventar.md` als offen gefuehrte Restpositionen
+(MFH.pdf + 4 AHB-Checklisten/Flyer 18.2/18.3) an einen Sonnet-Subagenten delegiert. Befund: alle
+5 waren bereits in frueheren Laeufen (Run 125, Run 132) vollstaendig destilliert — reine
+Buchhaltungsluecke im Inventar (Stub-Zeilen nie auf `[x]` nachgezogen), kein fehlender
+Fachinhalt. Behoben: 5 Inventar-Zeilen nachgefuehrt, 3 aeltere Destillate um Vorwaerts-Verweis
+auf die juengere Fassung ergaenzt, CHANGELOG-Eintrag. Keine FAQ-Aenderung noetig (reine
+Verwaltungs-Checklisten ohne zusaetzlichen Bauherren-Nutzen). Budget dieses Zyklus: rund 2.8
+von 5 USD. Kein Versand, keine Buchung, keine destruktive Aktion.

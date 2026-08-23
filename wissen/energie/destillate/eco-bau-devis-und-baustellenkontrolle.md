@@ -5,7 +5,7 @@ ausgabe: "Deviskontrolle (ÖKO 3.14.C): Dokumenteigner-Feld „POM, 11.08.06“;
 gelesen: "Deviskontrolle S. 1 (vollständig) und Baustellenkontrolle S. 1-2 (vollständig), 2026-08-04"
 datenstand: "2006-2008 ⚠ Alterskorpus PL-02 — Verweise auf Merkblätter, Normen und Recht vor Verwendung gegen die geltende Fassung prüfen"
 status: emerging
-last_updated: "2026-08-04 (Run 123; Wissens-Chef Run 25: Attributionsfehler SIA 118 benannt, Selbstwiderspruch im Bauherren-Transfer aufgelöst)"
+last_updated: "2026-08-23 (Nachtrag: Verweis auf die formal neu abgelegte, inhaltlich wortgleiche Fassung 2008/2009 im Ordner Projektadmin AHB, [[ahb-devis-und-baustellenkontrolle-2008]]; zuvor 2026-08-04 Run 123, Wissens-Chef Run 25)"
 ---
 
 # Destillat — Ökologische Devis- und Baustellenkontrolle (eco-bau), ÖKO 3.14.C (2006) und ÖKO 3.15.C (2006/2008)
@@ -178,3 +178,21 @@ Lösemittelfreiheit von Fugendichtungsmassen entfallen wäre — sie ist in der 
 mehr als eigener Kontrollpunkt geführt. Beide Anforderungen sind vor Verwendung gegen die
 geltenden Fassungen zu prüfen (ecoBKP 2026, Rule `normen-referenz`), wie oben für EC1/GEV-EMICODE
 bereits vermerkt.
+
+## Jüngere Fassung 2008 im Ordner Projektadmin AHB (Nachtrag, 23.08.2026)
+
+Im Ordner `PL - 02_Recht_Norm/04_Merkblätter/Projektadmin AHB/18-Nachhaltiges Bauen/
+18.3 Baustoffe (Bauoekologie & Stofffluesse)/` liegen `Deviskontrolle_(Checkliste).pdf` und
+`Baustellenkontrolle_(Checkliste).pdf` — eigene Dateien mit neuem Kopfzeilenlayout
+(«18.3_Deviskontrolle»/«18.3_Baustellenkontrolle» statt «ÖKO 3.14.C»/«ÖKO 3.15.C») und
+geschlechtergerechter Formulierung («Projektleitung Bauherrschaft» statt «Projektleitende
+Bauherr», «Bauleiterinnen/Bauleiter» statt «Bauleiter/Bauleiterinnen»). Am Original geprüft
+(Wort-Diff, nicht nur Zeilen-Diff — Lehre aus Run 130/132): **der Sachinhalt ist wortgleich**
+mit dem hier destillierten Stand von 2006, beide tragen denselben Dokumenteigner-Stempel
+«POM, 11.08.06». Es handelt sich um eine **formale Neuablage** derselben Formulare (PDF technisch
+neu erzeugt am 16.03.2009, Distiller 8.0), **keine inhaltliche Revision** — anders als die
+Solarstromanlagen-Checkliste im selben Zielordner, die dort tatsächlich eine spätere, inhaltlich
+erweiterte Fassung ist. Volles Destillat samt Fallenprotokoll (fremder Stempel, Zeilen- vs.
+Wort-Diff, Link-Stub-PDF): [[ahb-devis-und-baustellenkontrolle-2008]]. Für eine Bauherren- oder
+Projektarbeit sind beide Fassungen inhaltlich austauschbar; welche Datei referenziert wird, ist
+ohne Bedeutung.
