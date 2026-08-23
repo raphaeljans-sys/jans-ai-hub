@@ -60,6 +60,39 @@ die Luecke **D2** offen und unveraendert hoch priorisiert.
 | `_Kennwerte Jans.docx` | JANS-interne Kalkulationssammlung — **eingearbeitet (D8, Run 16):** aGF/GF-Faktor 0.8/0.9 → [[flaechendefinitionen-sia]], Wohn-Erstellungskosten-Kennwert EFH/ZFH indexiert (4'485 CHF/m2 GF BKP 1-5 / HNF-Faktor 7'350) + Thalwil-Bohlweg-Rechenbeispiel → [[realwert-sachwert]] | 2025 | ⭐ eingearbeitet |
 | `_Kennwerte_Links.docx` | JANS-Quellen-Linkliste (231229): ZH Wohnbaupreisindex, werk-material/CRB, keevalue.ch, BFS Baupreise/Mietwohnungen/Leerwohnungen/LIK, GIS-Browser ZH, comparis-Mashup, SNB-Statistik, Wuest Reports/Immo-Monitoring, immoverkauf24/immomapper | 2023 | Linkverzeichnis, in Nutzungsregel gespiegelt |
 
+## Standardwerke und Fachliteratur — Auflagen-Kontrolle (neu 23.08.2026)
+
+**Warum dieser Abschnitt entstanden ist.** Der Hub kontrolliert **Norm**-Fassungen systematisch:
+dafür gibt es die KB `wissen/normen`, die Rule `normen-referenz` und regelmässige Fassungs-Sweeps.
+Für **Fachbücher und Standardwerke** gibt es das **nicht** — und genau deshalb ist am 23.08.2026
+aufgefallen, dass der Gutachten-Standard dieser KB seit Jahren auf der Auflage **2012** des
+Schätzerhandbuchs steht, während seit **2019** die 5. Auflage gilt. Ein Fachbuch ist keine Norm,
+fällt also durch das Raster — und altert trotzdem.
+
+| Werk | Geführte Auflage | Aktuell | Status | Wo es trägt |
+|---|---|---|---|---|
+| **Schweizerisches Schätzerhandbuch** SVKG/SEK/SVIT | **2012** | **5. Auflage 2019** (CHF 185.–, `info@svkg.ch`) | ⚠ **überholt — [[wissensluecken]] D17** | [[svs-svkg-standard]] (Marktwert-Definition, Wording-Regel, SVS), [[lageklasse-landwertanteil]] (Lageklassifizierungsmethode) |
+| **Wüest-Kurs «Immobilien entwickeln»** (SIA inForm / Wüest Academy) | **06.2023** | nicht geprüft | Preisstand 06.2023 ausgewiesen, Kennwerte belegt | [[residualwertmethode]], [[ertragswert-dcf]], [[realwert-sachwert]], [[nutzungskonzepte]] |
+| **Schätzungsanleitung Teil III, Kap. 5** (Tabellenteil) | Stand **2003** | Kapitel 1–4 nicht im Bestand | ⚠ alt, Werte durchgehend indexiert geführt; BKP-Scope offen (**D13**) | [[realwert-sachwert]], [[lageklasse-landwertanteil]], [[ertragswert-dcf]] |
+| **CRB OAK / Objektarten-Katalog** | **2011** | nicht geprüft | ⚠ alt (bereits in der Tabelle oben vermerkt) | Kostengliederung, Spital-Referenzen |
+| **Naegeli, Lageklassenmethode** | über die Schätzungsanleitung 2003 | in der 5. Auflage des Schätzerhandbuchs überarbeitet | ⚠ **siehe D17** | [[lageklasse-landwertanteil]] |
+| ARTISET/Curaviva Betriebswirtschaft KVG | **2023** | nicht geprüft | aktuell genug | [[ertragswert-dcf]] (Healthcare-Ertragsseite) |
+| Obsan-Bericht «Bedarf Alters- und Langzeitpflege» | **03/2022** | nicht geprüft | ⚠ >18 Monate | [[investorenmarkt-makro]] |
+
+**Nutzungsregel 8 — Auflagen-Disziplin für Fachliteratur (neu 23.08.2026).**
+
+1. **Jedes Standardwerk wird mit Auflage bzw. Jahr geführt**, nicht nur mit dem Titel. Ein Werk
+   ohne Auflagenangabe ist wie ein Kennwert ohne Preisstand.
+2. **Beim Zitieren in einem Erzeugnis** entweder die belegte Auflage nennen oder das Auflagenjahr
+   weglassen — nie eine **Seitenzahl** angeben, die für die aktuelle Auflage nicht geprüft ist.
+   Seitenzahlen wandern zwischen Auflagen; sie sind die häufigste stille Falschzitierung.
+3. **Anlass zur Prüfung** ist nicht der Kalender, sondern die **Verwendung**: wer ein Werk für ein
+   Gutachten oder eine Regel heranzieht, prüft einmal, ob es noch die aktuelle Auflage ist. Ein
+   eigener Sweep wie bei den Normen lohnt sich bei sieben Werken nicht.
+4. **Was ohne das Buch nicht geht:** über den Inhalt einer nicht vorliegenden Auflage wird **keine
+   Aussage** getroffen — auch keine beruhigende. Verlagsbeschriebe sind Sekundärquellen und taugen
+   für Auflage, Jahr und Bezugsweg, nicht für Inhalt.
+
 ## Nutzungsregel
 
 1. Fuer Indizes/Trend: Wuest + BFS (aktuell) vor CRB 2011.

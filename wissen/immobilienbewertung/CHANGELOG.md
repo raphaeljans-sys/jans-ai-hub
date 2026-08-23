@@ -2,6 +2,69 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 13 — Selbst-Recompute: alle Zahlen des Tages gegen die Quelldateien nachgerechnet)
+
+Abschluss der Tagesarbeit mit einem **vollstaendigen Recompute** des groessten neuen Erzeugnisses:
+jede Zahl in [[amtliche-preisstatistik-zh]] und in der Lageklassen-Spiegelung maschinell gegen die
+am selben Tag heruntergeladenen **Quelldateien** nachgerechnet — nicht gegen eine Zwischennotiz,
+sodass ein Uebertragungsfehler beim Schreiben aufgefallen waere.
+
+| Geprueft | Umfang | Ergebnis |
+|---|---|---|
+| Bodenpreise nach Immobilienmarktregion | 6 Regionen × 6 Werte = **36** | ✓ identisch |
+| Bodenpreise Gemeindeebene (Modell + effektiv) | 16 Gemeinden × 2 + 2 = **34** | ✓ identisch |
+| EFH-/EW-Preise Gemeindeebene | 8 Gemeinden × 8 = **64** | ✓ identisch |
+| Implizite Flaechen (Gegencheck D14) | 7 Gemeinden × 2 = **14** | ✓ nachgerechnet |
+| Drift-Rechnung D1 | 4 Gemeinden × 6 = **24** | ✓ identisch |
+| Lageklassen-Spiegelung | Neuwert-Umrechnung + 6 × 4 = **25** | ✓ nachgerechnet |
+
+**Rund 196 gepruefte Zahlen, null Abweichungen.** Verifikationsvermerk im Artikel gesetzt.
+
+⚠ **Was die Verifikation nicht prueft:** ob die **Quelle** richtig liegt. Sie prueft die
+Uebertragung von der Quelle in den Artikel, nicht die Statistik selbst — die Vorbehalte des
+Artikels (provisorische Jahre, modellierte Gemeinde-Bodenpreise, Totalpreise statt CHF/m2) bleiben
+unberuehrt.
+
+Damit ist die Tagesarbeit an dieser KB abgeschlossen. Report ueber die Laeufe 7-12:
+`outputs/2026-08-23_vertiefung-7-bis-12-abschluss.md`.
+
+Geaenderte Dateien: `wiki/amtliche-preisstatistik-zh.md` (Verifikationsvermerk).
+
+## 2026-08-23 (Vertiefungslauf 12 — die strukturelle Luecke hinter D17: Fachbuecher haben keine Fassungskontrolle)
+
+D17 wirft eine Frage auf, die groesser ist als der Einzelfall: **warum ist niemandem aufgefallen,
+dass der Gutachten-Standard seit Jahren auf einer ueberholten Auflage steht?**
+
+**Die Antwort ist strukturell.** Der Hub kontrolliert **Norm**-Fassungen systematisch — dafuer gibt
+es die KB `wissen/normen`, die Rule `normen-referenz` und regelmaessige Fassungs-Sweeps (zuletzt am
+19.08.2026 der Befund zu SIA 416/1). Fuer **Fachbuecher und Standardwerke** gibt es das **nicht**.
+Ein Fachbuch ist keine Norm, faellt also durch das Raster — und altert trotzdem.
+
+**Neuer Abschnitt «Standardwerke und Fachliteratur — Auflagen-Kontrolle» in
+[[datenquellen-registry]]**, der die sieben Werke fuehrt, auf denen diese KB steht, je mit
+gefuehrter Auflage, aktuellem Stand und Fundstellen:
+
+| Werk | Gefuehrt | Aktuell | Status |
+|---|---|---|---|
+| Schweizerisches Schaetzerhandbuch SVKG/SEK/SVIT | 2012 | **5. Auflage 2019** | ⚠ **ueberholt (D17)** |
+| Wuest-Kurs «Immobilien entwickeln» | 06.2023 | nicht geprueft | Preisstand ausgewiesen |
+| Schaetzungsanleitung Teil III Kap. 5 | 2003 | Kap. 1-4 nicht im Bestand | ⚠ alt, indexiert gefuehrt |
+| CRB OAK / Objektarten-Katalog | 2011 | nicht geprueft | ⚠ alt |
+| Naegeli, Lageklassenmethode | ueber die Schaetzungsanleitung 2003 | in der 5. Auflage ueberarbeitet | ⚠ siehe D17 |
+| ARTISET/Curaviva KVG | 2023 | nicht geprueft | aktuell genug |
+| Obsan «Bedarf Alters- und Langzeitpflege» | 03/2022 | nicht geprueft | ⚠ >18 Monate |
+
+**Neue Nutzungsregel 8 (Auflagen-Disziplin fuer Fachliteratur):** jedes Standardwerk wird **mit
+Auflage bzw. Jahr** gefuehrt — ein Werk ohne Auflagenangabe ist wie ein Kennwert ohne Preisstand ·
+beim Zitieren entweder die belegte Auflage nennen oder das Jahr weglassen, aber **nie eine
+Seitenzahl**, die fuer die aktuelle Auflage nicht geprueft ist (Seitenzahlen wandern zwischen
+Auflagen — die haeufigste stille Falschzitierung) · **Anlass zur Pruefung ist die Verwendung, nicht
+der Kalender** (bei sieben Werken lohnt kein eigener Sweep wie bei den Normen) · und ueber den
+Inhalt einer nicht vorliegenden Auflage wird **keine Aussage** getroffen, auch keine beruhigende —
+Verlagsbeschriebe taugen fuer Auflage, Jahr und Bezugsweg, nicht fuer Inhalt.
+
+Geaenderte Dateien: `wiki/datenquellen-registry.md` (neuer Abschnitt + Nutzungsregel 8).
+
 ## 2026-08-23 (Vertiefungslauf 11 — D17: der Gutachten-Standard steht auf einer ueberholten Auflage)
 
 Der Artikel [[svs-svkg-standard]] — der **verbindliche Rahmen fuer jedes JANS-Bewertungsgutachten** —

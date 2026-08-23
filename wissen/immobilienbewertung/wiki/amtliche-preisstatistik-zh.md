@@ -262,6 +262,29 @@ ausgewichen werden. Das ist nicht mehr nötig — es gibt jetzt eine amtliche, g
 Preisbasis mit Fallzahlen. Sie **ersetzt kein Fact Sheet** (dort stehen CHF/m²-Quantile,
 Mietniveau und Angebotsdaten), aber sie schliesst die Lücke für den Niveau-Anker.
 
+## ✓ Verifikation aller Zahlen dieses Artikels (23.08.2026, Selbst-Recompute)
+
+Der Artikel ist am Tag seiner Entstehung vollständig gegengelesen worden — jede Zahl maschinell
+gegen die heruntergeladenen Quelldateien nachgerechnet, nicht stichprobenweise:
+
+| Geprüft | Umfang | Ergebnis |
+|---|---|---|
+| Bodenpreise nach Immobilienmarktregion (Abschnitt 1) | 6 Regionen × Median, Q10, Q25, Q75, Q90, Fallzahl = **36 Werte** | ✓ alle identisch |
+| Bodenpreise Gemeindeebene, Modell- und Effektivwerte (Abschnitt 2) | 16 Gemeinden × Modellwert und Fallzahl + 2 Effektivwerte = **34 Werte** | ✓ alle identisch |
+| EFH-/EW-Preise Gemeindeebene (Abschnitte 3 und 4c) | 8 Gemeinden × Q25, Median, Q75, Fallzahl für EFH und EW = **64 Werte** | ✓ alle identisch |
+| Implizite Flächen (Abschnitt 4) | 7 Gemeinden × EFH und EW = **14 Ableitungen** | ✓ alle nachgerechnet |
+| Drift-Rechnung D1 (Abschnitt 4b) | 4 Gemeinden × 4 Werte + 2 Prozentdeltas = **24 Werte** | ✓ alle identisch |
+| Lageklassen-Spiegelung (in [[lageklasse-landwertanteil]]) | Neuwert-Umrechnung + 6 Regionen × 4 Ausnützungen = **25 Werte** | ✓ alle nachgerechnet |
+
+**Summe rund 196 geprüfte Zahlen, null Abweichungen.** Verifiziert wurde gegen die am selben Tag
+heruntergeladenen Quelldateien (`…od5144`-CSV, die drei Gemeinde-JSON, die Regionen-CSV und die
+Zuteilungstabelle), nicht gegen eine Zwischennotiz — ein Übertragungsfehler beim Schreiben wäre
+damit aufgefallen.
+
+⚠ **Was diese Verifikation nicht prüft:** ob die **Quelle** richtig liegt. Sie prüft die
+Übertragung von der Quelle in den Artikel, nicht die Statistik selbst. Die Vorbehalte des nächsten
+Abschnitts bleiben davon unberührt.
+
 ## 5 · Vorbehalte der Quelle selbst
 
 1. **Die letzten drei Jahre und das laufende Jahr sind provisorisch.** Die Quelle nennt den Grund:
