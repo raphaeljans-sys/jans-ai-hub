@@ -433,33 +433,37 @@ geehrter Herr Gantenbein (SRZ)**». Zwei bisher unbelegte Marker:
   «Vorname Nachname · Kürzel · Firmenkürzel», die eigene Stimme nur als Kürzel («Anmerkung RJ»).
 - **Die Privatbauherrin trägt «Guten Tag», nicht «Geschätzte» (Drift 260804):** das Gewicht des
   Anliegens hebt die Stufe bei **Du-Kontakten und Behörden** (Rule `anrede-kontakte`), **nicht**
-  bei der Privatkundin im warmen Sie; dort trägt die laufende Zusammenarbeit die Anrede. Bei
-  derselben Empfängerin läuft die Bewegung über die Monate **abwärts** ins Vertrautere. Belege unten.
+  bei der Privatkundin im warmen Sie; dort trägt die laufende Zusammenarbeit die Anrede. Belege unten.
 - **Der mitlesende Dritte formalisiert die Anrede — über welche Achse, entscheidet das Register
   (260805/260806):** im **Sie** kippt die **Namensform** («Geschätzte
   <Vorname>» → «Geschätzte Frau <Nachname>», Wärmestufe unverändert); im **Du** kippt die
   **Wärmestufe** bei bleibendem Vornamen («Hoi/Salut <Vorname>» → «Geschätzter <Vorname>»). Beide
   zeigen in dieselbe Richtung, nur die Achse wechselt. Die Bewegung ins Vertrautere ist **nicht
   monoton**; ein Rücksprung ist fast immer ein Cc. **Der Auslöser ist aber notwendig, nicht
-  hinreichend (260822, 3/3 verfehlt): Cc, Gewicht und Telefonat heben NICHT automatisch** — «Hoi
-  Albin» trotz zwei Cc, «Guten Abend Jens» trotz Mängelrüge, «Geschätzter Herr Stadelmann» trotz
-  Telefonat. Im Zweifel den belegten Opener desselben Kontakts halten. Belege unten.
+  hinreichend (260822, 3/3 verfehlt): Cc, Gewicht und Telefonat heben IM SELBEN VORGANG nicht
+  automatisch** — «Hoi Albin» trotz zwei Cc, «Guten Abend Jens» trotz Mängelrüge. Belege unten.
+- **Die Stufe ist eine TRAJEKTORIE, kein Standbild (260823, zwei Golds):** über Wochen
+  wiederholten persönlichen Kontakts wandert dieselbe Beziehung kumulativ ins Vertrautere —
+  Furrer (Behörde) «Guten Tag Herr Furrer» 24.07. → «**Geschätzter Herr Furrer**» 28.07. nach der
+  Besprechung; Stadelmann (Unternehmer) «Geschätzter Herr Stadelmann» 22.07. **trotz** Telefonat
+  → «**Geschätzter Othmar**» 03.08. Der Kanalwechsel wirkt verzögert, nicht sofort, und bewegt die
+  **Wärmestufe innerhalb** des Registers (Sie/Nachname bzw. Vorname bleiben). Der belegte Opener
+  gilt **innerhalb** des Vorgangs, nicht über Wochen: eine Anrede braucht den Beleg UND sein
+  Datum. Wer nur statische Auslöser prüft, irrt beidseitig — 260822 dreimal zu hoch, 260823
+  zweimal zu tief. **«werter <Vorname>» steht dabei auch im Du** («Geschätzter Othmar, werter
+  Michael», zwei Wärmestufen, eine Zeile, **ohne Schlusskomma**): reine Abstufung, kein Sie-Marker.
 - **Gestapelt wird, wer HANDELN muss, nicht wer mitliest (260818):** acht
   Empfänger, einer zuständig → nur der Zuständige wird angeredet, mit Komma; der Verteiler-Cc hebt
   die Einzeladressierung nicht aus. **Ob ein- oder zweizeilig gestapelt wird, entscheidet das
   GEWICHT der Mail, nicht die Stufendifferenz (korrigiert 260819):** die kurze operative Frage
   trägt beide Stufen auf EINER Zeile mit einem Schlusskomma («Geschätzter Herr Kübler, werter Herr
   Duran,», zwei Empfänger, kein Cc, vom Mobiltelefon); erst die gewichtige, förmliche Mail bricht
-  auf zwei Zeilen um, **Komma nur auf der ersten**. Dasselbe Paar wandert über Wochen — einzeilig
-  («Sehr geehrter Herr A, geschätzter Herr B») → zweizeilig, sobald die Sache schwerer wird, und
-  beide Stufen steigen ins Vertrautere, solange kein neuer Mitleser dazukommt.
+  auf zwei Zeilen um, **Komma nur auf der ersten**.
 - **Don't:** «Hoi» an Unbekannte/Behörden; steifes Sie an vertraute Du-Kontakte; Register ohne
   Grund hochschrauben; den persönlichen Bezug weglassen; **das Anrede-Wort des Gegenübers
   spiegeln** (auf «Hallo Raphael» antwortet er «Guten Morgen Peter», auf «Grüezi Herr Jans»
   «Geschätzte Frau Frick» — Anlass/Tageszeit/Vertrautheit entscheiden, nie der Opener des
-  Eingangs; gemessener Verstoss 260816, Beleg im Artikel. **Der KANALWECHSEL bewegt die Stufe oft, aber
-  nicht immer:** nach dem ersten Telefonat springt er von «Geschätzter Herr <Nachname>» auf «Hoi
-  <Vorname>» — Gegenbeleg 260822. **Gestapelt wird nur bei
+  Eingangs; gemessener Verstoss 260816, Beleg im Artikel. **Gestapelt wird nur bei
   GLEICHER Stufe verkürzt** («Geschätzte Frau <A>, <B>, <C>» — ein Anredewort, dann die
   Nachnamen); bei auseinandergehenden Stufen gilt die Zeilenregel des Stapel-Markers oben
   (Gewicht entscheidet); ein Cc kann angeredet, ein anderer übergangen werden, die
@@ -2977,3 +2981,44 @@ nicht auf ein Treffen. Sie bleibt **innerhalb** des Sie-Registers; kein Wechsel 
 die Bewegung, welche der Gegenbeleg vom 22.08.2026 (Brandschutz-Fachperson, `rules/anrede-kontakte.md`)
 von der Treffen-Klausel bereits abgegrenzt hat: **persoenlicher Kontakt hebt die Waermestufe,
 er erzwingt keinen Registerwechsel.** Zweiter unabhaengiger Beleg fuer diese Trennung.
+
+## Die Anrede-Stufe ist eine Trajektorie, nicht ein Standbild (belegt Fidelity 260823, authentisch)
+
+Zwei Golds desselben Laufs bewegen die Stufe **gegenüber dem belegten Opener nach oben**, und beide
+Male ist der Zwilling zu tief geblieben, weil er die Regel von 260822 («im Zweifel den belegten
+Opener desselben Kontakts halten») auf einen Vorgang anwandte, der Wochen umspannt.
+
+| Kontakt | belegter Stand | Gold 260823 | dazwischen |
+|---|---|---|---|
+| Linus Furrer (AfB, Behörde) | «Guten Tag Herr Furrer (AfB)», 24.07.2026 | «**Geschätzter Herr Furrer**», 28.07. 09:24 | Besprechung am selben Morgen |
+| Othmar Stadelmann (Unternehmer LBW) | «Geschätzter Herr Stadelmann», 22.07. 18:40, **trotz** Telefonat | «**Geschätzter Othmar**», 03.08. 13:22 | zwölf Tage, laufende Ausführung, Baustellenkontakt |
+
+Der Fall Stadelmann löst die Spannung auf, die der Vorlauf offen liess. Am 22.07. bewegte das
+Telefonat die Stufe **nicht** — daraus schloss 260822, die Kanalwechsel-Klausel gelte für
+ausführende Unternehmer nicht. Zwölf Tage später ist derselbe Mann «Geschätzter Othmar». Die
+Klausel gilt also, **sie wirkt nur nicht sofort**: nicht das einzelne Ereignis hebt, sondern der
+angesammelte persönliche Kontakt. Furrer zeigt dieselbe Bewegung im Behörden-Sie, dort innerhalb
+von vier Tagen und über eine Besprechung.
+
+Beide Bewegungen bleiben **innerhalb des Registers**: Furrer behält Sie und Nachname und wechselt
+nur die Wärmestufe, Stadelmann behält Sie-freie Vornamen-Anrede ohne Du-Pronomen im Text. Das
+stützt die Trennung, die `rules/anrede-kontakte.md` als ⚠-Gegenbeleg vom 22.08. festhält: der
+persönliche Kontakt hebt die **Wärmestufe**, er erzwingt keinen Registerwechsel.
+
+Konsequenz für den Zwilling: eine Anrede-Entscheidung braucht **zwei** Eingaben, nicht eine — den
+belegten Opener UND sein Datum. Ein Beleg, der Wochen alt ist und zwischen dem eine Sitzung, ein
+Telefonat oder eine Baustellenwoche liegt, ist kein Standbild mehr. Wer nur statische Auslöser
+prüft, irrt in beide Richtungen: 260822 dreimal zu hoch, 260823 zweimal zu tief.
+
+## «werter <Vorname>» als zweite Stapelstufe im Du (belegt Fidelity 260823, authentisch)
+
+«**Geschätzter Othmar, werter Michael**» (03.08.2026 13:22, zwei Empfänger im To, kein Cc): ein
+Unternehmer und der Bauherrenvertreter, beide mit Vornamen, zwei verschiedene Wärmestufen auf
+**einer** Zeile — und **ohne Schlusskomma**, anders als der 260819-Beleg («… werter Herr Duran,»).
+
+Zweierlei ist neu. Erstens stand «werter» bisher ausschliesslich im Sie-Register und immer vor
+einem Nachnamen (Suljanovic, Kübler, Duran); hier trägt es einen Vornamen. Es ist damit **keine
+Sie-Form, sondern eine reine Wärme-Abstufung**, die in jedem Register unter «Geschätzter» liegt.
+Zweitens bestätigt der Beleg die Staffelung gegen das Nivellieren ein weiteres Mal: Raphael redet
+jede Person in ihrer eigenen Stufe an, auch wenn beide Vornamen tragen und die Mail vier Zeilen
+lang ist.

@@ -1085,3 +1085,23 @@ Festlegung** — was die Antwort verwertbar und die Planung belastbar macht.
 gegen Tippfehler im selbstgetippten Betreff, «→»-Pfeil, doppelter Leerschlag als Rest einer
 Fussnotenmarke — Batch 102, Kernbefund 2). Der Marker steht hier als **Kandidat**, nicht als
 Befund; er braucht einen zweiten Beleg aus unstrittig eigener Hand. [[QUESTIONS]] 260823 #2.
+
+## Die Auskunftsfrage an die Behörde ist ein einziger, indirekter Satz ohne Fragezeichen (belegt Fidelity 260823, authentisch)
+
+«**Ich wollte mich bei Ihnen erkundigen, wie koordinativ das beste Vorgehen ist um die
+Auflagenbereinigung bezüglich Brandschutzes/Feuerplolizei am besten zu bewerkstelligen ist.**»
+(28.07.2026 09:24, an das AfB). Ein Satz, indirekte Frage im Präteritum-Höflichkeitsrahmen, Punkt
+statt Fragezeichen — dieselbe Mechanik wie bei der Bitte (260820): die Form ist ein Rahmen um ein
+Anliegen, kein echtes Fragezeichen, das die Sache zur Disposition stellte.
+
+Bemerkenswert ist, was **nicht** dasteht. Raphael schlägt keine Varianten vor, zerlegt die Frage
+nicht in Teilfragen, nennt keine Fristen und begründet nichts. Er beschreibt die Lage nicht, die
+der Adressat aus der Besprechung desselben Morgens ohnehin kennt. Die Behörde soll den Weg nennen,
+nicht zwischen vorformulierten Wegen wählen — das Gegenstück zur geschlossenen Alternativfrage, mit
+der er die Behörde zur Wahl zwingt, wenn er die Auslegung einer strittigen Norm braucht
+([[fachsignatur]]). Wo er den Verfahrensweg selbst nicht kennt, fragt er offen und lässt die Lücke
+ausdrücklich offen, statt sie mit Plausiblem zu füllen.
+
+Der Zwilling baute an derselben Stelle drei ausformulierte Fragen, einen erklärenden Absatz zur
+Zuständigkeitsteilung SRZ/AfB und eine Fristfrage — alles drei erfunden, und alles drei nimmt der
+Behörde genau die offene Antwort weg, die Raphael haben will.

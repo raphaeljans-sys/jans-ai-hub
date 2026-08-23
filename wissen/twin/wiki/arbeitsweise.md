@@ -180,12 +180,10 @@ schliessen. Schwelle (Orts- vs. Themen-Header, ab wie vielen Projekten) → [[QU
   **dieselbe** Unsicherheit aus vier Richtungen — die Redundanz IST die Botschaft: *ich weiss
   nicht, wer zuständig ist, antwortet mir aus irgendeinem Winkel.* Der Zwilling glättet beides
   reflexhaft zu einer bebulleteten, trennscharfen Liste und **erfindet dabei Inhalt**. Schluss
-  knapp: «Danke für die Klärung.» **Quote 260820: drei von drei Blindfassungen trugen eine
-  Gliederung (A)/B), Bullets), wo das Gold KEINE hat — auch die Vergabe-Alternative steht bei
-  Raphael als EIN Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne
-  jede Begründung** der Empfehlung. Der Zwilling schob «TeKoSi kennt das System bereits, das
-  spart Einarbeitung» nach: erfunden, und zugleich der Beleg dafür, dass die Gliederung die
-  Erfindung erzwingt — zwei Listenpunkte verlangen je ein Argument, ein Fliesstext-Satz nicht.
+  knapp: «Danke für die Klärung.» **Auch die Vergabe-Alternative steht als EIN
+  Fliesstext-Absatz** (Absage → Vorschlag → Rückfallebene im Konditional), **ohne jede Begründung**
+  der Empfehlung: die Gliederung erzwingt die Erfindung — zwei Listenpunkte verlangen je ein
+  Argument, ein Fliesstext-Satz nicht (260820, drei von drei Blindfassungen).
   **260821: vier von vier** — die Aufzählung steht bei Raphael auch mitten im Satz («… die
   Türspezifikation Schiebetüren: / ST1: Motorisiert / ST2: Kabelzug / final per Mail zu
   fixieren»), ohne Aufzählungszeichen, der Satz läuft über sie hinweg.
@@ -3202,3 +3200,52 @@ Uebergabe; der Betreff und der Empfaenger tragen die ganze Information.
 Der Zwilling erfindet hier zwangslaeufig eine Begleitzeile und macht damit aus einer beilaeufigen
 Uebergabe einen Auftrag. Gattung noch nicht abgegrenzt (wann Nullform, wann Begleitzeile) —
 [[QUESTIONS]] 260823 #3.
+
+## Sechste Endform: die Verständnisbitte bei selbstverschuldeter Verzögerung (belegt Fidelity 260823, authentisch)
+
+Die Vertröstungsmail an den Türlieferanten (03.08.2026 13:06, «KISPI PPTS: Türbuch und
+Sicherheitskonzept; weiteres Vorgehen Freigabe») endet nicht auf einer der fünf bekannten
+Endformen, sondern auf einer sozialen Zeile: «**Ich hoffe, Du hast Verständnis für die
+Situation.**» Kein Service-Satz, keine Nachmelde-Zusage, kein nächster Schritt.
+
+Die Mail ist damit von **Dank gerahmt**: sie öffnet mit «Besten Dank für Deine Geduld in dieser
+Sache» und schliesst mit der Verständnisbitte. Dazwischen stehen sechs einzelne Sachabsätze
+(Rücksprache, Termin 15.08.26, bilateraler Kanal, eigene Kommunikationszusage an den Türbauer,
+die Folge für den Montagetermin, die eigene Wertung). Die Rahmung ist dieselbe Mechanik wie die
+Dank-Klammer um die Nachforderung (260820): der freundliche Rahmen trägt die unangenehme Mitte.
+
+Die Auslösebedingung ist eng: die Verzögerung stammt aus dem **eigenen Lager** (interne Abstimmung
+der Bauherrschaft, Ferienabwesenheit), und der Empfänger zahlt dafür mit einem verschobenen
+Montagetermin. Wo die Verzögerung von aussen kommt, steht diese Zeile nicht.
+
+## Fremdes Material bleibt roh: die Kontakt-Vermittlungsmail klebt Signaturblöcke ein (belegt Fidelity 260823, authentisch)
+
+«KISPI PPTS: Koordination Ausführung LBW» (03.08.2026 13:22) führt zwei Beteiligte zusammen und
+besteht in der Mitte aus **unbearbeitet eingeklebten Signaturblöcken**: der eine als
+Fliesstext-Zeile mit Adresse, «Direkt» und «Mobile» (beide Male dieselbe Nummer, unkorrigiert
+übernommen), der andere als fremdformatierter Absatzblock samt Fettungen, Leerabsätzen und dem
+Claim «DAS SPITAL DER ELEONORENSTIFTUNG». Gegliedert wird nur durch zwei nackte Gattungs-Labels,
+«Leichtbauwände» und «Und Bauleitung», ohne Doppelpunkt und ohne Aufzählungszeichen.
+
+Das ist der Normalisierungs-Reflex von 260822 in seiner dritten Gestalt: der Zwilling übersetzte
+dieselbe Aufgabe in erklärende Prosa («X führt aus, Y verantwortet den Zugang») und **erfand dabei
+Rollen und einen Anhangsinhalt**, den die Gold-Mail nicht hat. Raphael erklärt die Rollen nicht, er
+liefert die Kontaktdaten und überlässt die Deutung den beiden. Auch hier gilt die
+Registerdaten-Regel wörtlich: was aus einer fremden Signatur stammt, wird nicht geglättet.
+
+Der Schluss ist die vierte Endform, unverbunden und ohne Folgerung: «Othmar hat mir gesagt er komme
+am kommenden Mittwoch den 05.08.26 für die Ausmessung auf die Baustelle.» Indirekte Rede im
+Konjunktiv I, keine Bitte, kein Service-Satz.
+
+## Die Dokumentenliste steht als nackte Dateinamen-Zeilen unter einem verblosen Ankündiger (belegt Fidelity 260823, authentisch)
+
+Die Behördenmail an das AfB (28.07.2026 09:24) kündigt die zu überstellenden Unterlagen mit einem
+**verblosen Infinitivsatz** an — «Folgende Dokumente der Feuerpolizei zu überstellen:» — und listet
+darunter **zwölf vollständige Dateinamen als nackte Zeilen**, ohne Aufzählungszeichen, ohne
+Nummerierung, ohne Erläuterung, in der Reihenfolge der Aktenordnung (A1, A2, A3.1, A3.2, II.1b 01
+bis 06). Angehängt ist nur die Plan- und Dokumentenliste selbst; die elf weiteren Namen sind der
+Inhalt dieser Liste, nicht Anhänge.
+
+Damit gilt die Form «nackte Zeilen ohne Aufzählungszeichen», bisher an der Fragenliste (260819) und
+an Dateiverweisen (260822) belegt, auch für die **förmliche Dokumentenliste an eine Behörde**. Der
+Zwilling baute an derselben Stelle drei formulierte Fragen und einen erklärenden Absatz.

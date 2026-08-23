@@ -58,8 +58,9 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   Cc → «Lieber Gruss» + nur «Raphael»): der Mitleser bewegt allein die **Anrede** («Geschätzter
   Stefan» statt «Hoi») — zwei Achsen, nicht eine. **Der Service-Satz hängt an der
   GATTUNG, nicht am Empfänger (260807/260808):** wer für sich selbst etwas erbittet, hält den
-  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft ans
-  Amt, **Offerten-/Submissionsanfrage**); wer liefert oder meldet, hört nach dem letzten Sachsatz
+  Kanal offen (Rechnungs-/Schluss-Liefermail + Auftrags-Dank, beratende Du-Mail, Auskunft, die man
+  dem Amt GIBT, **Offerten-/Submissionsanfrage**); wer liefert, meldet oder **das Amt um Auskunft
+  ERSUCHT** (260823), hört nach dem letzten Sachsatz
   auf (Transmittal, Freigabe-Rückfrage an den durchleitenden Partner, Gesuch/Antrag,
   Verfahrens-/Statusmail, Nachlieferung). Er trägt sein Objekt, der Schlusspunkt schwankt
   (260816). **Dieselbe Dankformel darf die Mail öffnen UND schliessen (260820):** «Danke für Dein
@@ -95,7 +96,6 @@ Wie Raphael klingt — der hörbare Fingerabdruck. Belegt aus dem Seed-Korpus (2
   «Darf ich»-Form ist bei ihm **Höflichkeitsrahmen um eine Anweisung**, keine echte Frage — wer
   ein Fragezeichen setzt, stellt sie zur Disposition. Ebenso trägt **eine** Bitte gern **zwei
   Gegenstände, mit «und» verbunden** (Nachtrag + Reduktion), statt in zwei Bitten zu zerfallen.
-  *(260821: weiterhin verletzt, zwei von vier Fassungen.)*
 - **Im operativen Peer-Du gilt die Kurzzahl, nicht der Apostroph (260821):** Differenz zuerst,
   Absolutwerte einheitenlos in Klammern nach — «CHF **40K** mehr (von 120 auf 160)», «4Stk»,
   «6x». Der Apostroph gehört der ausgewiesenen Zahl in Offerte/Dokument/förmlicher Mail. Die
@@ -4196,3 +4196,20 @@ ist **ein einziger Satz mit 56 Woertern**, mit Kasusfehler und Modusbruch (Konju
 Indikativ) mitten darin — gegen 14.7 Woerter Satzschnitt im maschinell erzeugten Rest derselben
 Mail. Dieselbe Gattung wie der englische Lauf-Satz vom 15.04.2026 (KB-Schema, Fuenfte Falle).
 **Wo Raphael selbst tippt, wachsen die Saetze und die Fehlerdichte zugleich.**
+
+## Das Ersuchen AN das Amt trägt keinen Service-Satz (präzisiert Fidelity 260823, authentisch)
+
+Der Do/Don't-Block führte «Auskunft ans Amt» bislang unter den Gattungen, die den Kanal offen
+halten. Die Formulierung ist zweideutig, und der Zwilling hat sie an Gold A dieses Laufs falsch
+aufgelöst: die Behördenmail vom 28.07.2026 09:24 **erbittet** eine Auskunft (wie ist bei der
+Auflagenbereinigung koordinativ vorzugehen) und trägt **keinen** Service-Satz — nach der letzten
+Dateizeile folgt unmittelbar «Freundliche Grüsse» und der volle Block.
+
+Damit steht das Ersuchen ans Amt bei den Gattungen, die nach dem letzten Sachsatz aufhören, in
+einer Reihe mit Gesuch, Antrag und Verfahrensmail. Gemeint war die andere Richtung: die **Auskunft,
+die Raphael dem Amt gibt** und für die er anschliessend etwas erwartet, hält den Kanal offen. Der
+Merksatz bleibt derselbe — der Service-Satz hängt daran, ob Raphael **für sich** etwas erbittet,
+und ein Verfahrensweg, den die Behörde ohnehin vorgibt, ist nichts, was er für sich erbittet.
+
+Der Gruss ist in derselben Mail «Freundliche Grüsse», nicht das «Danke und Gruss», das die
+Sie-Behördenmail sonst davorsetzen kann — der Zwilling wählte «Danke und Gruss».

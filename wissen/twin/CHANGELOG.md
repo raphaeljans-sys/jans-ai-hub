@@ -4,6 +4,34 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-23 — twin-fidelity-review (Fenster 28.07.–03.08.2026)
+
+- Drei Golds gelesen (Behoerden-Sie · Du mit sieben Cc · gestapelt gemischt), **Gesamt-Fidelity 33**
+  nach 30 (22.08.). Report `outputs/2026-08-23_fidelity.md`.
+- **Kernbefund: die Anrede-Stufe ist eine Trajektorie, kein Standbild.** Zwei von drei Anreden zu
+  **tief** — Spiegelbild von 260822 (dort 3/3 zu hoch), verursacht durch den dortigen Marker. Der
+  Ausloeser hebt im selben Vorgang nicht, ueber Wochen persoenlichen Kontakts aber kumulativ:
+  Furrer «Guten Tag» → «Geschaetzter Herr» in vier Tagen, Stadelmann «Geschaetzter Herr
+  Stadelmann» → «Geschaetzter Othmar» in zwoelf. Damit faellt die 260822-Vermutung «Kernteam gegen
+  ausfuehrender Unternehmer» weg. Marker in [[beziehungsregister]] **und im kompilierten Block**.
+- Weitere Marker (nur Artikel-Fliesstext): «werter <Vorname>» auch im Du, reine Waermestufe ohne
+  Sie-Bindung ([[beziehungsregister]]) · sechste Endform «Ich hoffe, Du hast Verstaendnis fuer die
+  Situation.» bei selbstverschuldeter Verzoegerung ([[arbeitsweise]]) · zweite Achse der
+  Zuschreibungsschaerfe: eigenes Lager → unpersoenlich, fremdes → Aktiv 2. Person ([[haltung]]) ·
+  Dokumentenliste als nackte Dateinamen-Zeilen unter verblosem Ankuendiger ([[arbeitsweise]]) ·
+  fremde Signaturbloecke bleiben roh ([[arbeitsweise]]) · offene Auskunftsfrage an die Behoerde als
+  EIN indirekter Satz ohne Fragezeichen ([[denken]]).
+- **Regel entzweideutigt:** «Auskunft ans Amt» im Service-Satz-Marker meinte die Auskunft, die
+  Raphael dem Amt GIBT; das **Ersuchen** ans Amt traegt keinen Service-Satz (Gold A). Im Block
+  korrigiert ([[stimme]]).
+- Gehirn neu kompiliert: erster Versuch **34'568 B → ABBRUCH** (Riegel 34'000, zweiter scharfer
+  Test, nichts geschrieben); nach Verdichtung in vier Facetten **rc=0 bei 33'869 B, 131 B Reserve**.
+  `--numstat`-Gegenprobe nativ per ssh: alle Loeschungen zeilengenau die bewussten Ersetzungen,
+  keine Datei geschrumpft.
+- Fuenf neue Selbstfragen `QUESTIONS.md` 260823b; #1 gehoert in denselben Entscheid wie 260822b #1
+  und #2 (offene Klausel `rules/anrede-kontakte.md`). #5 ist Hub-intern: das `summary`-Feld der
+  Mail-Suche leakt Anrede und Eroeffnungssatz vor der Blindfassung.
+
 ## 2026-08-23 — twin-mail-training Batch 102 (Fenster 21.–23.08.2026 + Thread-Rueckgriff)
 
 - Sequenzielles Sent-Fenster **leer an Gold** (Wochenende: 2 Sent, davon 1 Hub-Chef; 9 Drafts,

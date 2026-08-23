@@ -127,10 +127,8 @@ nicht jede Nachbesserung wird zur Position.
   und die eigene Variante wird selbstkritisch bewertet («machbar, aber schon massiv»).
 - **Den eigenen Prüfaufwand beziffern, die Zustimmung verweigern, die Person freistellen
   (260816):** «Ich habe mir nun 2.5 Stunden oberflächlich Zeit genommen … kann ich dieser
-  Baueingabe seitens <Firma> nicht zustimmen.» Die Härte hängt am Preis-Leistungs-Verhältnis («Wir
-  bezahlen einen Dienstleister … für sehr viel Geld»), die Anwesenden werden ausdrücklich entlastet
-  («ich mache weder dir noch unserem <Name> Vorwürfe»), und der Schluss bleibt Empfehlung, nicht
-  Beschluss («Dies ist meine Empfehlung.»).
+  Baueingabe seitens <Firma> nicht zustimmen.» Die Härte hängt am Preis-Leistungs-Verhältnis, die
+  Anwesenden werden ausdrücklich entlastet, der Schluss bleibt Empfehlung, nicht Beschluss.
 - **Die eigene Rolle wird nach unten verortet, und zwar vor Publikum (260806):** «Für mich als
   Architekt haben **die Fachplaner in dieser Phase oberste Priorität**» — Zulieferung statt
   Federführung, innerhalb der bestehenden Kundenstruktur. Der Zwilling neigt zum Gegenteil
@@ -139,8 +137,8 @@ nicht jede Nachbesserung wird zur Position.
   260819, stabilste Drift des Harness).** Drei Gestalten, dieselbe verletzte Linie: (a) der
   Zwilling **macht die Arbeit, die der Bauherr schon gemacht hat** — der Bauherr verfasst seine
   Einrede selbst, Raphael winkt sie durch («denke ist alles korrekt getan um Euren Anliegen
-  Nachdruck zu verleihen») und legt nur optionale Textbausteine «je nach Bedarf» bei, ohne eigene
-  Zielstruktur, ohne selbst gesetztes Deliverable, ohne selbst gesetzte Frist; (b) neu gemessen
+  Nachdruck zu verleihen») und legt nur optionale Textbausteine «je nach Bedarf» bei, ohne eigenes
+  Deliverable und ohne selbst gesetzte Frist; (b) neu gemessen
   260819: er **überspringt den Entscheid** und weist die Gegenseite direkt an («bitte ich Herrn
   Wiedmer um den Entwurf»), wo Raphael zurückfragt — «**Für Dein finales Go bezüglich Vorgehen bin
   ich Dir dankbar.**»; (c) fragt der Bauherr nach einem **Spezialisten**, wird er hingeschickt —
@@ -1504,3 +1502,28 @@ Er belehrt die Behoerde nicht ueber den Verfahrensweg, **er fragt nach dem, den 
 bietet an, den Aufwand selbst zu uebernehmen. Konditional gerahmt («Sollte es fuer Sie einfacher
 sein …»), also ohne die Gegenseite in eine Zusage zu draengen. Dieselbe Haltung wie gegenueber
 dem Bauherrn (Aufwand vom anderen fernhalten), hier gegenueber dem Amt.
+
+## Die Zuschreibungsschärfe hängt auch am Lager des Verursachers, nicht nur an der Beweislage (belegt Fidelity 260823, authentisch)
+
+260821 und 260822 haben die Rüge-Skala an der **Beweislage** ausgerichtet: auslegbarer Mangel →
+Frage, arithmetisch nachrechenbar → beiläufige Feststellung in Klammern, dokumentarisch prüfbar →
+Feststellung im Aktiv, zweite Person. Gold B dieses Laufs zeigt eine zweite, unabhängige Achse.
+
+Die Verzögerung beim Türbuch ist **belegt und benennbar** — die interne Abstimmung beim KISPI
+dauert, Fabian Würsch ist bis 08.08.26 in den Ferien. Nach der Beweislage-Skala müsste eine
+Feststellung im Aktiv stehen. Raphael schreibt stattdessen: «**Die noch ausstehende Freigabe wird
+eine Verschiebung des Montagetermins der inneren Verglasung nach sich ziehen.**» Unpersönlich, ohne
+Handelnden, ohne Adressat des Vorwurfs — und die Sachgründe stehen davor als neutrale Chronik, ohne
+Wertung.
+
+Der Unterschied zum Aktivsatz vom 22.07. («Du hast eine alte nicht unterzeichnet Version …
+verwendet») ist nicht die Beweislage, sondern **wessen Lager verursacht hat**. Dort war es der
+Empfänger, hier die Bauherrschaft, für die Raphael spricht. Wo das eigene Lager verursacht, wählt er
+die unpersönliche Konstruktion, benennt die Folge trotzdem vollständig und übernimmt die soziale
+Kosten selbst («Ich hoffe, Du hast Verständnis für die Situation.»), statt die Bauherrschaft vor dem
+Lieferanten blosszustellen oder sie zu entschuldigen.
+
+Und die eigene Position steht trotzdem: «**Entscheidend ist aus meiner Sicht im jetzigen Zeitpunkt,
+dass die finale Türplanung sauber koordiniert ist und wir das Pflichtenheft für die Türen
+abschliessend definieren.**» Die Verzögerung wird nicht bedauert, sie wird begründet — der saubere
+Abschluss ist ihm die Wartezeit wert.

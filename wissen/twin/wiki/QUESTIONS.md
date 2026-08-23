@@ -4098,3 +4098,52 @@ ein weiterer). Batch 102 hat seine beiden Eintraege darum **benannt statt nummer
 einer gewachsenen, viel referenzierten Datei und faellt unter Rule 260811 (kein globales
 Ersetzen); es braucht einen eigenen, bewusst gefuehrten Lauf mit `--numstat`-Kontrolle. **Bis
 dahin: neue Eintraege benennen, nicht nummerieren.**
+
+## 260823b (Fidelity-Review, Fenster 28.07.–03.08.2026) — fuenf Fragen, die erste entscheidet dieselbe offene Rule wie 260822b
+
+**#1 — Wirkt der persoenliche Kontakt auf die Anrede SOFORT oder erst kumulativ?** Frage an
+Raphael, **entscheidet mit 260822b #1 zusammen die offene Klausel in `rules/anrede-kontakte.md`**.
+Facette [[beziehungsregister]]. Zwei Golds dieses Laufs heben die Waermestufe gegenueber dem
+belegten Opener: Linus Furrer (AfB) von «Guten Tag Herr Furrer» (24.07.) auf «Geschaetzter Herr
+Furrer» (28.07., nach der Besprechung desselben Morgens), und Othmar Stadelmann von «Geschaetzter
+Herr Stadelmann» (22.07., **trotz** Telefonat) auf «Geschaetzter Othmar» (03.08.). Damit ist der
+Gegenbeleg von 260822 erklaerbar, ohne die Klausel zu verwerfen: sie wirkt **verzoegert**.
+Konkret: **Hebt bei Dir ein einzelner Anlass die Stufe (Sitzung, Telefonat), oder braucht es
+mehrere Begegnungen — und faellt sie je wieder zurueck, wenn der Kontakt abreisst?** Bei
+«kumulativ» wird der Trajektorie-Marker von Kandidat auf belegt gehoben und der Zwilling rechnet
+kuenftig mit dem **Datum** des Belegs, nicht nur mit dem Beleg.
+
+**#2 — Ist «werter <Vorname>» eine bewusste Zwischenstufe?** Frage an Raphael. Facette
+[[beziehungsregister]]. «Geschaetzter Othmar, werter Michael» (03.08.2026 13:22) setzt «werter»
+erstmals vor einen **Vornamen** und in einem Du-Verhaeltnis; bisher war die Form nur im Sie und nur
+vor Nachnamen belegt (Suljanovic, Kuebler, Duran). Konkret: **Ist «werter» fuer Dich schlicht eine
+Stufe unter «geschaetzter» — unabhaengig von Sie und Du —, oder war es hier die Verlegenheitsform
+fuer zwei ungleiche Empfaenger in einer Zeile?** Die Antwort entscheidet, ob der Zwilling die Form
+frei staffeln darf oder nur im Stapel verwenden.
+
+**#3 — Traegt die Verzoegerungsmail immer eine Verstaendnisbitte?** Frage an Raphael. Facette
+[[arbeitsweise]] / [[haltung]]. Die Vertroestung an den Tuerlieferanten (03.08.2026 13:06) endet auf
+«Ich hoffe, Du hast Verstaendnis fuer die Situation.» — eine sechste Endform neben Bedingung,
+Nutzen, Nachmelde-Zusage, unverbundenen Fakten und vereinbartem naechstem Kontakt. Konkret:
+**Steht diese Zeile bei jeder Verzoegerung, die aus Deinem eigenen Lager kommt, oder haengt sie
+daran, dass der Empfaenger einen Termin verschieben muss und dafuer nichts kann?** Und: schreibst
+Du sie auch im Sie?
+
+**#4 — Warum benennst Du den Verursacher hier NICHT?** Frage an Raphael. Facette [[haltung]].
+Dieselbe Mail sagt «Die noch ausstehende Freigabe wird eine Verschiebung des Montagetermins nach
+sich ziehen» — unpersoenlich, obwohl die Ursache (interne Abstimmung der Bauherrschaft,
+Ferienabwesenheit) im selben Text namentlich steht. Am 22.07. schriebst Du demselben Personenkreis
+gegenueber «Du hast eine alte … Version verwendet», Aktiv, zweite Person. Die Lesart des Zwillings:
+**bei fremdem Verschulden Aktiv, beim eigenen Lager unpersoenlich.** Konkret: **Stimmt das, oder
+ist der Unterschied ein anderer** (Mangel gegen blosse Verzoegerung, Unternehmer gegen
+Bauherrschaft)?
+
+**#5 — Der Preview-Leak verfaelscht die Stimme-Note dieses Messverfahrens.** Offen, Hub-intern,
+kein Handlungsbedarf fuer Raphael. Die Mail-Suche liefert je Treffer ein `summary` mit den ersten
+drei bis vier Zeilen — also Anrede und Eroeffnungssatz — **bevor** die Blindfassung geschrieben
+wird. Dieser Lauf hat die betroffenen Treffer darum nicht gutgeschrieben (Anrede Furrer bewusst
+regelkonform statt leak-konform gesetzt, «Besten Dank fuer die Besprechung» und «Besten Dank fuer
+Deine Geduld» nicht gewertet), aber das ist Disziplin, keine Mechanik. **Sauber waere, die
+Kandidaten kuenftig nur ueber Betreff, Empfaenger, Datum und Anhangsliste auszuwaehlen und das
+`summary`-Feld beim Zuschnitt gar nicht zu lesen** — technisch moeglich, weil die Auswahl diese
+Felder ohnehin nicht braucht.
