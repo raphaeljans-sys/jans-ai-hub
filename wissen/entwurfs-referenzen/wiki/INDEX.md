@@ -35,7 +35,7 @@ oder aus Cross-KB-Funden, vgl. Domänen-INDEX + CHANGELOG)*
 **Notation (geklärt 23.08.2026):** Verweise auf die KB `wissen/architekten-synobsis` stehen als
 **Pfad**, nicht als `[[…]]`-Wiki-Link. Grund: jene KB führt **keinen `wiki/`-Ordner** (sie ist als
 `catalog/` plus Abfragewerkzeug gebaut), und `wissen/tools/wiki-konsistenz.sh` sucht Linkziele in
-`wiki/` und `destillate/`. Ein ``wissen/architekten-synobsis`` erzeugte deshalb bei **jedem**
+`wiki/` und `destillate/`. Ein `[[…]]`-Link auf diesen KB-Namen erzeugte deshalb bei **jedem**
 Konsistenzlauf einen Fehlalarm — es ist ein Verweis auf eine **KB**, nicht auf einen Artikel, und
 die Wiki-Link-Syntax ist dafür der falsche Ausdruck. Dieselbe Pfadnotation nutzt `wissen/grobkosten`
 aus einem verwandten Grund.

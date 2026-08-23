@@ -1,5 +1,34 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 4 Revendo) — Konsistenzlauf: der einzige echte Befund behoben
+
+Abschluss-Konsistenzlauf mit `wissen/tools/wiki-konsistenz.sh`. Einziger Befund dieser KB:
+**`[[architekten-synobsis]]` löst nirgends auf** — gemeldet, weil jene KB **keinen `wiki/`-Ordner**
+führt (sie ist als `catalog/` plus Abfragewerkzeug gebaut), das Werkzeug seine Ziele aber in
+`wiki/` und `destillate/` sucht. Der Punkt stand seit den Health-Checks vom 01.08. und 03.08.2026
+und war dort jeweils nur beschrieben, nicht behoben.
+
+**Behoben, nicht wegdefiniert:** in `wiki/INDEX.md` (4 Vorkommen) und in den vier
+Domänen-Sub-Indizes (`architekten/`, `entwurfsprinzipien/`, `materialien/`, `typologien/`, je 1)
+auf **Pfadnotation** `wissen/architekten-synobsis` umgestellt. Das ist nicht nur
+werkzeugfreundlich, sondern **sachlich richtiger**: der Verweis geht auf eine **KB**, nicht auf
+einen Artikel — die Wiki-Link-Syntax ist dafür der falsche Ausdruck. Dieselbe Pfadnotation nutzt
+`wissen/grobkosten` aus verwandtem Grund. Eine kurze Notationsnotiz im `wiki/INDEX.md` hält den
+Grund fest, damit die Umstellung nicht bei nächster Gelegenheit zurückgedreht wird.
+
+**In `raw/_INGESTED.md` steht dasselbe Muster und bleibt unangetastet** — `raw/` ist lesend.
+
+**Eigener Fehler, transparent:** der erste Korrekturversuch hat die Ersetzung zwar berechnet, aber
+nur die Erklärnotiz angehängt und den ersetzten Text nie zurückgeschrieben. Beim Nachmessen
+aufgefallen und im zweiten Anlauf korrekt ausgeführt.
+
+**Und ein Werkzeug-Befund**, der die Verwirrung erst erklärt: `wiki-konsistenz.sh` misst die
+**NAS-Kopie**, nicht das lokale Repo — voll dokumentiert in
+`wissen/planungsgrundlagen/wiki/QUESTIONS.md` (vierte Werkzeug-Falle) und im dortigen CHANGELOG.
+
+Geänderte Dateien: `wiki/INDEX.md`, `wiki/architekten/INDEX.md`,
+`wiki/entwurfsprinzipien/INDEX.md`, `wiki/materialien/INDEX.md`, `wiki/typologien/INDEX.md`.
+
 ## 2026-08-23 (Vertiefungslauf 3 Revendo) — Schul-Teuerungsanker geschlossen (Selbstkorrektur)
 
 - **Selbstkorrektur zu Vertiefungslauf 1:** der Teuerungsanker des Schul-Sets war offen gelassen

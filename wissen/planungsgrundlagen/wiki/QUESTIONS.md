@@ -15,6 +15,35 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Adressen) und `bash wissen/tools/wiki-konsistenz.sh planungsgrundlagen` (Struktur/Backlinks).
 > Beide nicht von Hand nachbauen — die eingebauten Extraktions- und Messfallen sind teuer
 > erkauft (E18).
+>
+> ⚠ **Vierte Falle, neu belegt 23.08.2026: beide Werkzeuge messen die NAS-Kopie, nicht das
+> lokale Repo.** `wiki-konsistenz.sh` und `link-frischecheck.sh` setzen intern
+> `HUB="/Volumes/daten/jans-ai-hub"` und wechseln dorthin (`cd "$WISSEN"`). Das ist ein
+> **eigener Git-Klon** mit eigenen `nas-selfcommit`-Commits, der die Arbeitsstation über
+> **GitHub** nachzieht — nicht die Arbeitskopie unter `~/Developer/jans-ai-hub`, in der
+> editiert wird.
+>
+> **Folge:** wer eine Fundstelle lokal korrigiert und das Werkzeug sofort erneut laufen lässt,
+> sieht **den alten Stand** und schliesst, die Korrektur habe nicht gegriffen. Am 23.08.2026
+> genau so passiert und dann nachgemessen: der NAS-Klon lag zum Prüfzeitpunkt **einen Commit
+> zurück** — nämlich exakt den mit der Korrektur. Die Kette ist
+> `lokal → GitHub → NAS-Klon`, der Versatz liegt im Minutenbereich (`git-auto-sync.sh` läuft
+> alle fünf Minuten).
+>
+> **Regel:** nach einer Korrektur entweder **einige Minuten warten**, bevor man das Werkzeug
+> erneut laufen lässt, oder direkt am NAS-Klon gegenprüfen
+> (`git -C /Volumes/daten/jans-ai-hub log --oneline -1` gegen den lokalen Stand). Ein
+> unverändertes Werkzeug-Ergebnis unmittelbar nach einem Edit ist **kein Befund**, sondern
+> Latenz.
+>
+> **Für die Messergebnisse selbst ist das unkritisch**, solange die geprüften Dateien in der
+> laufenden Sitzung nicht verändert wurden — der Endpunkt-Frischecheck vom selben Tag prüft
+> externe Adressen aus unverändertem Artikeltext und bleibt gültig.
+>
+> **Nicht selbst geändert:** die beiden Werkzeuge sind gemeinsam genutzte Infrastruktur, die
+> auch von den anderen Stationen aufgerufen wird. Ein Umbau auf einen konfigurierbaren
+> Hub-Pfad (etwa `HUB="${JANS_HUB:-/Volumes/daten/jans-ai-hub}"`) wäre naheliegend und
+> einzeilig, gehört aber zu Raphael.
 
 > **Nachzug aus dem VKF-Fassungs-Sweep (Wissens-Chef Run 40, 22.08.2026):** In
 > `wiki/brandschutz-pl03-wegweiser.md` sind zwei Fassungs-Vorbehalte gesetzt, aber **materiell

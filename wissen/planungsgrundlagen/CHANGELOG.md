@@ -2,6 +2,44 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 4 Revendo) — Werkzeug-Falle belegt: die Konsistenz-Werkzeuge messen die NAS-Kopie, nicht das lokale Repo
+
+Beim Abschluss-Konsistenzlauf über die vier bearbeiteten Wissensbasen ist eine Falle aufgefallen,
+die bisher nirgends dokumentiert war — und die mich selbst zweimal in die Irre geführt hat, bevor
+ich sie nachgemessen habe.
+
+**Der Befund.** `wiki/tools/wiki-konsistenz.sh` und `wiki/tools/link-frischecheck.sh` setzen intern
+`HUB="/Volumes/daten/jans-ai-hub"` und wechseln dorthin. Das ist ein **eigener Git-Klon** mit
+eigenen `nas-selfcommit`-Commits, der die Arbeitsstation über **GitHub** nachzieht — **nicht** die
+Arbeitskopie unter `~/Developer/jans-ai-hub`, in der editiert wird.
+
+**Wie es sich zeigt.** Eine Fundstelle wird lokal korrigiert, das Werkzeug sofort erneut laufen
+gelassen — und meldet denselben Befund. Der naheliegende Schluss («die Korrektur hat nicht
+gegriffen») ist falsch. Nachgemessen: der NAS-Klon lag zum Prüfzeitpunkt **einen Commit zurück**,
+nämlich exakt den mit der Korrektur. Die Kette ist `lokal → GitHub → NAS-Klon`, der Versatz liegt
+im Minutenbereich (`git-auto-sync.sh` läuft alle fünf Minuten).
+
+**Regel, im Werkzeugkasten-Block von `wiki/QUESTIONS.md` als vierte Falle verankert:** nach einer
+Korrektur einige Minuten warten oder direkt am NAS-Klon gegenprüfen
+(`git -C /Volumes/daten/jans-ai-hub log --oneline -1` gegen den lokalen Stand). **Ein unverändertes
+Werkzeug-Ergebnis unmittelbar nach einem Edit ist kein Befund, sondern Latenz.**
+
+**Für die Messergebnisse unkritisch**, solange die geprüften Dateien in der laufenden Sitzung nicht
+verändert wurden — der Endpunkt-Frischecheck vom selben Tag prüft externe Adressen aus
+unverändertem Artikeltext und bleibt gültig.
+
+**Nicht selbst geändert:** die beiden Werkzeuge sind gemeinsam genutzte Infrastruktur, die auch von
+den anderen Stationen aufgerufen wird. Ein Umbau auf einen konfigurierbaren Hub-Pfad (etwa
+`HUB="${JANS_HUB:-/Volumes/daten/jans-ai-hub}"`) wäre einzeilig und naheliegend, gehört aber zu
+Raphael.
+
+**Ergebnis des Konsistenzlaufs selbst:** `grobkosten` und `planungsgrundlagen` **ohne Befund**;
+`immobilienbewertung` nur die bekannten, im KB-`CLAUDE.md` als Schema-Abweichung dokumentierten
+Frontmatter-Meldungen zu `wissensluecken.md` plus ein Falsch-Positiv (ein in Backticks zitiertes
+Link-Beispiel); `entwurfs-referenzen` ein echter, jetzt behobener Punkt (s. dortiges CHANGELOG).
+
+Geänderte Dateien: `wiki/QUESTIONS.md` (vierte Werkzeug-Falle im Werkzeugkasten-Block).
+
 ## 2026-08-23 (Vertiefungslauf 3 Revendo) — Folgewirkung der LSV-Novelle im eigenen Bestand: Fassungsvermerk SIA 382/1
 
 Dritte Runde. Statt einer neuen Recherche die **Folgewirkung** der am selben Tag vertieften
