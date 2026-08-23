@@ -2,12 +2,13 @@
 title: Umgebungsgestaltung, Einfriedungen und Gartenmauern — die Vierebenen-Prüfung
 status: established
 last_updated: 2026-08-23
-sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
+sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 19 VErV", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§§ 10-12 StrAV (aufgehoben)", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260823_amtlich_zh_strav-1978.md, 260823_amtlich_zh_verv-erlaeuterungsbericht.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]], [[raumplanung-und-gestaltung]], [[baubewilligungsverfahren]], [[grundlagen-planungs-baurecht]], [[zonenkonformitaet]], [[baulinien-und-abstandslinien]]
 verifiziert:
   - "2026-08-13 (Ersterstellung, Buch-Run 73, Batch T2) — sämtliche §§ wortgetreu gegen die amtlichen raw-Volltexte gegengelesen: § 238/§ 238a/§ 240/§ 257/§ 309 PBG gegen 260607_amtlich_zh_pbg.md; §§ 20/23/26-29 VErV gegen 260803_amtlich_zh_verkehrserschliessungsv.md; §§ 169-179 EG ZGB gegen 260725_amtlich_zh_egzgb.md und gegen das amtliche Merkblatt der Gemeinde Thalwil (Skizzenblatt, S. 1-2 und 4); Art. 27 BZO Thalwil und Art. 50 revBZO gegen die BZO- bzw. Synopsen-Volltexte. Die 1.40-m-Regel am Wortlaut der Wegleitung BZO Thalwil (Nachführung 2020) verifiziert — inklusive der davorstehenden Überschrift, die ihren Rechtscharakter bestimmt."
   - "2026-08-23 (Buch-Run 83, Modell-D Fassungsstand-Check, Fassungsvorbehalt aus Run 73 geschlossen) — konsolidierte LS-Fassung der VErV frisch von zhlex bezogen (Connector recht-ch.mjs, Nachtrag 127, Fassungsstand 1.1.2025, raw/260823_amtlich_zh_verv.md) und §§ 20/23/26-29 VErV Wort für Wort gegen die bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 CONFIRMED, wortgleich. 1 echte Korrektur: § 27 VErV wurde per RRB vom 14.09.2022 (in Kraft seit 1.12.2024) neu gefasst (Innerorts-/Ausserorts-Split 2 m/4 m statt einheitlich 4 m) und um § 27a (Verringerung) ergänzt — im Artikel korrigiert. Status emerging → established."
   - "2026-08-23 (Buch-Run 88, Rechtsprechungs-Register Ebene 4 aufgebaut) — 15 Praxisfundstellen zu § 238 Abs. 1 PBG aus fünf bereits gelesenen Buch-Destillaten (Band 1 UND Band 2 geprüft) themenweise zusammengetragen: Massstab, Begründungspflicht/Beurteilungsspielraum, Verhinderungsverbot, Zonenzugehörigkeit/Verdichtung, Stützmauern/Einfriedungen/Umschwung (der für diesen Artikel direkt einschlägige Block), Sondernutzungsplanung, Randfall. Kein neuer PDF-Bezug nötig — alle Fundstellen stammen aus bereits `verified`/`established` Kapiteln (Kap. 13 Teil 1+2 Band 2, Kap. 1/2/6 Band 1)."
+  - "2026-08-23 (Buch-Run 89, letzter offener QUESTIONS-Punkt Ebene 2 geschlossen) — §§ 10-12 StrAV (Gestaltung/Vorsprünge/Türen-Tore/spitze Materialien) live gegen die amtliche StrAV-Fassung 069 (19.04.1978, frisch von zhlex bezogen, raw/260823_amtlich_zh_strav-1978.md) UND gegen den VErV-Erläuterungsbericht (Beilage 5542/2019, raw/260823_amtlich_zh_verv-erlaeuterungsbericht.md) geprüft. Befund: ersatzlos entfallen, kein Nachfolgeparagraph in der VErV — der Erläuterungsbericht ordnet jede übernommene StrAV-Norm einzeln zu, §§ 10-12 fehlen dort vollständig. Konkordanz-Tabelle und Abschnitt Ebene 2 ergänzt, Ziff. 7 geschlossen."
 ---
 
 # Umgebungsgestaltung, Einfriedungen und Gartenmauern
@@ -97,6 +98,49 @@ noch stimmt.
 | Lichtraumprofil | § 17 | **§ 20** | **nein** — Masse geändert |
 | Befreiung von festen Abstandsmassen | — | **§ 29** | neu gefasst |
 | Sichtbereiche freihalten | — | **§ 23** | neu gefasst |
+| Gestaltung/Konstruktion (§ 238 PBG-Verweis) | § 10 | — | **entfallen, siehe unten** |
+| Vorsprünge, Türen/Tore in den Abstandsbereich | § 11 | — | **entfallen, siehe unten** |
+| Spitze/scharfe Materialien bis 2,5 m | § 12 | — | **entfallen, siehe unten** |
+
+### §§ 10-12 StrAV — Gestaltung/Vorsprünge/gefährliche Materialien: ersatzlos entfallen (geklärt 23.08.2026, Buch-Run 89)
+
+Die alte StrAV regelte in einem eigenen Abschnitt «2. Gestaltung und Konstruktion» drei
+Vorschriften, die in der Konkordanz-Tabelle oben (Stand 13.08.2026) noch als offener Punkt
+standen:
+
+> **§ 10 StrAV:** Mauern und Einfriedigungen haben den Anforderungen von § 238 PBG zu genügen.
+> **§ 11 StrAV:** ¹ Auf der strassenzugewandten Seite dürfen Mauern und Einfriedigungen keine
+> vorspringenden Bestandteile aufweisen, welche die Verkehrssicherheit beeinträchtigen können.
+> ² Eingebaute Türen und Tore dürfen sich in der Regel nicht in den Abstandsbereich öffnen
+> lassen.
+> **§ 12 StrAV:** Die Verwendung von spitzen oder scharfen Materialien zur
+> Grundstückabgrenzung gegenüber Strassen ist bis zu einer Höhe von 2,5 m untersagt.
+
+(Wortlaut amtlich, `raw/260823_amtlich_zh_strav-1978.md`, StrAV-Fassung 069 vom 19.04.1978,
+frisch von zhlex bezogen und mit `pdftotext -layout` extrahiert.)
+
+**Die VErV enthält keine dieser drei Vorschriften** — weder in Abschnitt D (§§ 26-29, Abstände
+Mauern/Einfriedigungen/Pflanzen) noch anderswo im Erlass. Das ist am Volltext geprüft
+(`raw/260823_amtlich_zh_verv.md`, keine Treffer für «Tür», «Tor», «vorspring», «spitz»,
+«scharf»). **Kein stillschweigendes Aufgehen in einer Generalklausel unterstellt:** der
+amtliche Erläuterungsbericht des Regierungsrates zur VErV
+(`raw/260823_amtlich_zh_verv-erlaeuterungsbericht.md`, Beilage 5542/2019) ordnet jede
+übernommene StrAV-Bestimmung einzeln ihrer Nachfolgenorm zu — § 7 StrAV → § 26 VErV, §§ 14/15
+StrAV → § 27 VErV, § 8 StrAV → § 28 VErV, § 9 StrAV → § 29 VErV. **§§ 10, 11 und 12 StrAV
+werden im gesamten Bericht kein einziges Mal erwähnt**, anders als jede andere überführte
+Bestimmung. Das ist ein starkes Indiz für eine ersatzlose Streichung, nicht für ein Aufgehen
+in einer allgemeineren Norm.
+
+**Praktische Folge:** Wer heute eine vorspringende Mauerkante, ein sich in den Strassenraum
+öffnendes Gartentor oder eine scharfkantige Zaunspitze prüfen will, findet dafür **keine
+spezifische VErV-Norm** mehr. Der einzig verbleibende Anknüpfungspunkt ist die
+**Generalklausel § 240 Abs. 1 PBG** («weder der Verkehr behindert oder gefährdet noch der
+Bestand und die Sicherheit des Strassenkörpers beeinträchtigt») bzw. ihre verordnungsseitige
+Konkretisierung in **§ 19 VErV** («Zulässige Auswirkungen» — nicht abschliessende
+Interessenabwägung nach Strassenbedeutung, Signalisation, örtlichen Verhältnissen). Das ist
+aber eine **Einzelfall-Ermessensnorm**, keine feste Masszahl mehr — ein Bauprojekt lässt sich
+insofern nicht mehr mit einer 2,5-m-Grenze oder einem Öffnungsverbot als hartem Recht
+konfrontieren, sondern nur noch mit einer Gefährdungsprüfung im Einzelfall.
 
 ### § 26 VErV — Mauern und Einfriedigungen (Kernnorm)
 
@@ -348,8 +392,14 @@ Herkunft schützt nicht vor Alterung.
 - ~~Konsolidierte LS-Fassung der VErV (allfällige Nachträge seit 01.06.2020) —
   Fassungsvorbehalt der raw-Datei.~~ **✅ geschlossen 2026-08-23 (Buch-Run 83),** siehe Ebene 2
   oben (§ 27/§ 27a-Korrektur).
-- **Vorsprünge, Türen und Tore an der Strassengrenze** (bisher §§ 11/12 StrAV) haben in der
-  VErV keine erkennbare Entsprechung; Anschlussnorm in PBG/ABV suchen.
+- **✅ geschlossen 2026-08-23 (Buch-Run 89):** Vorsprünge, Türen und Tore an der
+  Strassengrenze (§§ 10-12 StrAV) haben in der VErV **keine** Entsprechung — amtlich belegt
+  über den VErV-Erläuterungsbericht (jede übernommene StrAV-Norm wird dort einzeln
+  zugeordnet, §§ 10-12 kommen nicht vor), siehe Ebene 2 oben, neuer Abschnitt «§§ 10-12
+  StrAV». Keine Anschlussnorm in PBG/ABV gefunden, weil keine gesucht werden musste: die
+  ersatzlose Streichung ist der Befund, nicht ein Rechercheversagen. Einziger verbleibender
+  Anknüpfungspunkt: Generalklausel § 240 Abs. 1 PBG / § 19 VErV (Einzelfall-Ermessen, keine
+  feste Masszahl mehr).
 - **✅ geschlossen 2026-08-23 (Buch-Run 88):** Rechtsprechungs-Register zu § 238 Abs. 1 PBG
   (Ebene 4), siehe Ziff. 4a. Offen bleibt darin nur ein echter Teilaspekt: Rechtsprechung zu
   **Materialien/Farben speziell an Einfriedungen und Gartenmauern** (die im Buch destillierte

@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 20:28:53
+Stand: 23.08.2026 20:39:10
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:13)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 20:28:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 082a30c1 wissen/baurecht: Buch-Run 88 - Rechtsprechungs-Register Paragraph 238 Abs. 1 PBG (Ebene 4) in umgebungsgestaltung-und-einfriedungen aufgebaut, Reglemente-Queue T1-T9 bleibt abgeschlossen
+- 630fc0be wissen/normen: QUESTIONS-Abarbeitung 10 - EN 13487/EN 12102-1 Ausgaben geklaert (Cross-KB energie Run 18), INDEX-Fehltitel SIA 2032 nachgezogen, SVGW-Scope-Frage vertagt

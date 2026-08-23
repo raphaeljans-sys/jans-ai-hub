@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 86)
+last_updated: 2026-08-23 (Run 89)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -233,9 +233,12 @@ Alle stammen aus der realen Eingabe; die Klammer nennt den Stand in der KB.
    Kurven-Aussenseite; Abs. 2 bis 0,5 m bei fehlendem Fussgängerschutz) · § 27 Abstände von
    Pflanzen (4 m Bäume, 0,5 m Sträucher/Hecken, Reduktion auf 2 m bei Quartierstrassen/Ortsbild) ·
    § 28 Innenseite von Kurven · § 29 Befreiungen.
-   **Offen und separat zu klären:** Vorsprünge, Türen/Tore und Materialien an der Strassengrenze
-   (bisher §§ 11/12 StrAV) haben in der VErV keine erkennbare Entsprechung — Anschlussnorm im
-   PBG/ABV suchen (§ 240 PBG, § 260 Abs. 3 PBG i.V.m. ABV). **Fassungsvorbehalt:** die raw-Datei
+   **✅ geschlossen (Run 89, 23.08.2026):** Vorsprünge, Türen/Tore und Materialien an der
+   Strassengrenze (§§ 10-12 StrAV) sind **ersatzlos entfallen**, keine VErV-Entsprechung —
+   amtlich belegt über den VErV-Erläuterungsbericht (jede übernommene StrAV-Norm wird dort
+   einzeln zugeordnet, §§ 10-12 fehlen). Einziger verbleibender Anknüpfungspunkt: Generalklausel
+   § 240 Abs. 1 PBG / § 19 VErV. Details: [[umgebungsgestaltung-und-einfriedungen]] Ziff. 2,
+   Abschnitt «§§ 10-12 StrAV». **Fassungsvorbehalt:** die raw-Datei
    ist die RRB-Erlassfassung, nicht die konsolidierte LS-Fassung; vor einem Zitat in einem
    ausgehenden Dokument gegen zhlex konsolidiert prüfen.
 

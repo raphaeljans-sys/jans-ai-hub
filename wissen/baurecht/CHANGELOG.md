@@ -3,6 +3,40 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 89: §§ 10-12 StrAV (Vorsprünge/Türen-Tore/spitze Materialien) ersatzlos entfallen — letzter offener Priorität-(d)-Restposten in [[umgebungsgestaltung-und-einfriedungen]] geschlossen
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Queue seit Run 87
+  vollständig T1-T9 abgearbeitet (Run 88 bestätigt erneut); statt Leerlauf der von Run 88 selbst
+  vorgeschlagene nächste Priorität-(d)-Punkt aufgegriffen: der seit Run 73 (13.08.2026) in
+  [[umgebungsgestaltung-und-einfriedungen]] Ziff. 7 offene Punkt «Vorsprünge, Türen und Tore an
+  der Strassengrenze (§§ 11/12 StrAV) haben in der VErV keine erkennbare Entsprechung».
+- **Buch-Destillate zuerst, beide Bände geprüft:** `buecher/band-2/13-weitere-grundanforderungen-teil2.md`
+  (S. 858-891) trug die Paraphrase bereits, nie am amtlichen Wortlaut oder gegen die
+  Nachfolgeverordnung geprüft. Band 1 durchsucht, keine Treffer.
+- **Befund: §§ 10-12 StrAV (Gestaltung/Konstruktion, Vorsprünge, Türen/Tore-Öffnungsverbot,
+  spitze/scharfe Materialien bis 2,5 m) sind mit der StrAV-Aufhebung per 01.06.2020 ersatzlos
+  entfallen, nicht in einer VErV-Norm aufgegangen.** Zwei unabhängige Belege: (1) der VErV-
+  Volltext (`raw/260823_amtlich_zh_verv.md`) enthält 0 Treffer für «Tür/Tor/vorspring/spitz/
+  scharf»; (2) der amtliche Regierungsrats-Erläuterungsbericht zur VErV (Beilage 5542/2019)
+  ordnet jede übernommene StrAV-Bestimmung einzeln ihrer Nachfolgenorm zu (§ 7→§ 26, §§ 14/15→
+  § 27, § 8→§ 28, § 9→§ 29) — §§ 10, 11, 12 StrAV kommen darin kein einziges Mal vor. Amtlicher
+  StrAV-Wortlaut (Fassung 069, 19.04.1978) frisch von zhlex bezogen, mit `pdftotext -layout`
+  extrahiert (Tool lag nicht im PATH, unter `/opt/homebrew/bin/pdftotext` gefunden). Einziger
+  verbleibender Anknüpfungspunkt: Generalklausel § 240 Abs. 1 PBG / § 19 VErV
+  (Einzelfall-Ermessen, keine feste Masszahl mehr).
+- **Nebenbefund:** ein bestehender `wiki/QUESTIONS.md`-Eintrag (2026-07-09, Run 24) hatte
+  §§ 11/12 StrAV fälschlich denselben Nachfolgeparagraphen zugeordnet wie §§ 7/8/14/16 StrAV —
+  Korrekturvermerk in-place gesetzt, nichts überschrieben.
+- **Neu:** `raw/260823_amtlich_zh_strav-1978.md` (StrAV-Volltext §§ 1-13, historischer Beleg),
+  `raw/260823_amtlich_zh_verv-erlaeuterungsbericht.md` (Beleg-Auszug Erläuterungsbericht).
+- **Register:** `wiki/umgebungsgestaltung-und-einfriedungen.md` (Konkordanz-Tabelle + neuer
+  Abschnitt Ebene 2 + Ziff. 7 geschlossen + Frontmatter), `wiki/QUESTIONS.md` (Korrekturvermerk),
+  `raw/_INGESTED.md` (2 neue Zeilen), Report `outputs/2026-08-23_buch-run89.md`.
+- **Diff-Kontrolle (Rule 260811):** `git diff --numstat` geprüft —
+  `umgebungsgestaltung-und-einfriedungen.md` 53+/3− (additiv, 3 gezielt ersetzte Frontmatter-/
+  Ziff.-7-Stellen), `QUESTIONS.md` 1+/1− (Zeile in-place ergänzt), `_INGESTED.md` 2+/0−
+  (reine Anfügung); beide neuen `raw/`-Dateien als `??` bestätigt, keine ungewollte Löschung.
+
 ## 2026-08-23 — Buch-Run 88: Rechtsprechungs-Register § 238 Abs. 1 PBG (Ebene 4) in [[umgebungsgestaltung-und-einfriedungen]] aufgebaut — Reglemente-Queue T1-T9 bleibt vollständig abgearbeitet, nächster offener Punkt aus Priorität (d) bearbeitet
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (`training/KORPUS-QUEUE-thalwil-reglemente.md`). Geprüft: die Queue ist bereits seit Run 87 (unmittelbar vor diesem Lauf committet) **vollständig T1-T9 abgearbeitet** — kein offener Batch mehr. Statt Leerlauf wurde der nächste noch offene Punkt derselben Priorität (d) aus `training/PROGRAMM.md` aufgegriffen: Thema 6 «Einordnung § 238 Abs. 1 PBG als Verteidigungslinie … Rechtsprechungs-Register aufbauen», das im Wiki-Artikel [[umgebungsgestaltung-und-einfriedungen]] seit dessen Ersterstellung (Run 73) als offener Punkt («Register im Aufbau») stand.

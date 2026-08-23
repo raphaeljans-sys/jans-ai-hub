@@ -1,3 +1,53 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 11: Verifikationslauf, kein neuer selbständig lösbarer Punkt gefunden
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage mit Norm, Ausgabe und Ziffer, Verifikationsstatus des Destillats vor Zitat lesen (nur
+`established` zitierfähig). CHANGELOG und Report des letzten Laufs zuerst lesen, dort
+weitermachen. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` prüfen. `ps aux` zu
+Laufbeginn geprüft: der einzige `claude`-Prozess mit demselben Startprompt (PID 7781, gestartet
+über `scripts/claude-run.sh --name mschub74`) ist dieser Lauf selbst (headless Invocation), kein
+Konkurrent.
+
+**Vorlauf gelesen:** dieser CHANGELOG (Kopf: QUESTIONS-Abarbeitung 10) und
+`outputs/2026-08-23_questions-abarbeitung10.md`. Dessen Schlussbefund («KB für
+Selbstläufer-Fragen ausgeschöpft, bis eine neue Bring-Schuld oder ein neuer Sweep-Fund
+entsteht») wurde nicht übernommen, sondern selbst nachgeprüft: alle `##`/`###`-Abschnitte in
+`wiki/QUESTIONS.md` (4351 Zeilen) systematisch gegen ihren aktuellen Status gelesen, dazu eine
+gezielte Cross-KB-Suche nach neuen, seit dem zehnten Lauf an `normen` übergebenen Bring-Schulden
+in `energie`, `baurecht`, `immobilienbewertung`, `koordination`, `planungsgrundlagen`,
+`grobkosten` (Suchmuster «Übergabe an KB … normen», «Bring-Schuld … normen», «→ normen»).
+
+**Ergebnis: Einschätzung des zehnten Laufs bestätigt, kein neuer Punkt gefunden.** Alle
+verbliebenen offenen Punkte fallen in eine von vier Klassen, keine davon durch weitere freie
+Recherche lösbar: (1) **Beschaffungs-Bring-Schulden hinter Bezahlschranke** — N-SIASWEEP-2/3
+(SIA 422, SIA 2021/2025; bereits über acht unabhängige freie Quellenarten erschöpft geprüft,
+siebte Fortsetzung empfiehlt ausdrücklich keinen weiteren Anlauf mit denselben Mitteln),
+SIA 380:2022 (N57-2), SIA 382/1:2025-Re-Destillat, EN 13487/EN 12102-1-Volltexte, NIN-Frage
+(Geschirrspüler-Stromkreis) — Claude tätigt keine Käufe (Rule `wege-und-vollmachten`); (2)
+**Entscheid-/Freigabe-Punkte für Raphael** — N60-1 (zwei `established`-Destillate zusammenlegen,
+destruktiv), N60-2 (Methodik-Pflicht-14-Vorschlag), SVGW-Scope-Frage; (3) **eigene
+Systemaudit-Projekte, kein Einzelpunkt** — N58-1 (Abdeckungsrichtung der VKF-Bestandsdestillate),
+N58-4 (Sweep deckt erst 35 von 83 Indexeinträgen ab); (4) **dieselbe Erschöpfungslogik wie
+N-SIASWEEP** — N59-2/N59-3/N59-4 (Restpunkte 40-15). Die einzige neu gefundene Cross-KB-Spur
+(SIA 382/1:2025-Bring-Schuld, gemeldet in `energie/wiki/QUESTIONS.md` Wissens-Chef Run 16) ist
+bereits auf `normen`-Seite in `wiki/REGISTER.md` (Zeilen 331, 812) und
+`destillate/sia-382-1-2014.md` identisch dokumentiert — nichts nachzuziehen.
+
+**`wiki/QUESTIONS.md` bewusst unverändert gelassen** — ein Änderungseintrag ohne inhaltliche
+Substanz würde die Datei nur verlängern (Rule `wissens-ruecklauf`: «Nichts Verallgemeinerbares →
+nichts ablegen»). Report mit der vollständigen Prüfliste: `outputs/2026-08-23_questions-abarbeitung11.md`.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben des Reports geprüft — reine Neuanlage
+(`??`), keine bestehende Datei verändert. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Empfehlung an den nächsten Lauf:** nicht erneut denselben Vollscan wiederholen, solange keine
+der vier Bring-Schulden erfüllt wurde und kein neuer Sweep-Fund vorliegt. Bei Kapazität eher
+N58-1 (Abdeckungsrichtung) oder N58-4 (Restindex) als eigenen, klar abgegrenzten Auftrag
+aufsetzen statt als Nebenprodukt einer QUESTIONS-Abarbeitung.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 10: EN 13487/EN 12102-1 Ausgaben geklärt (Cross-KB `energie` Run 18), INDEX-Fehltitel SIA 2032 nachgezogen, SVGW-Scope-Frage strukturiert vertagt
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

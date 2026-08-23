@@ -3903,6 +3903,15 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   befristet bis 31.12.2006) und SIA 2024 (Standard-Nutzungsbedingungen, Revision 2021 bekannt) ist
   der Bestand veraltet. SIA 2024 ist über die KB `energie` bereits teilweise erschlossen
   (Grundlagenbericht Revision 2021 + Korrigenda C1:2024, siehe CHANGELOG 2026-07-19 Wissens-Chef Run 9).
+  > **Nachtrag 23.08.2026 (SIA-Sweep, fünfzehnte Fortsetzung):** Gültig-ab-Datum (01.12.2021) jetzt
+  > direkt an der Produktseite `shop.sia.ch/normenwerk/architekt/sia%202024/d/2021/D/Product`
+  > (SN 592024) durch `normen` selbst verifiziert, nicht mehr nur über die `energie`-Sekundärquelle.
+  > **Neue Bring-Schuld dabei entdeckt:** die Produktseite führt neben der bisher bekannten
+  > Korrigenda C1:2024 eine weitere **Korrigenda C2**; Datum und Änderungsumfang von C2 sind auf
+  > der Produktseite nicht ausgewiesen und wurden nicht ermittelt. Vor jeder künftigen Verwendung
+  > der Kat.-VIII-Kennzahlen (Elektrizität Ziff. 4.2.1/4.2.3) prüfen, ob C2 diese betrifft. Der
+  > Volltext (inkl. Anhang A/F) bleibt unverändert nicht im Haus. Details:
+  > `wiki/REGISTER.md`, Zeile SIA 2024; neuer Metadaten-Stub `destillate/sia-2024-2021.md`.
 
 - [ ] **SN EN 520 (Gipsplatten — Begriffe, Anforderungen, Prüfverfahren) fehlt im Bestand.**
   Gebraucht für 2619 KISPI (Korrex Brandschutzexperte 21.07.2026: «Rohdichte Gipskartonplatten

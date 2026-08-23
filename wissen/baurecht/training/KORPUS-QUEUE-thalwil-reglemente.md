@@ -352,6 +352,12 @@ Klassen sauber trennen:
 **Damit ist die Reglemente-Queue 2414 Thalwil (T1-T9) vollständig abgearbeitet**, inklusive der
 erst nachträglich im Ordner aufgetauchten Restdateien.
 
+**Nachträge nach Queue-Abschluss (bleiben ausserhalb von T1-T9, gleiche Quelle/Themenfeld):**
+Run 88 (Rechtsprechungs-Register § 238 Abs. 1 PBG) und Run 89 (§§ 10-12 StrAV ersatzlos
+entfallen) haben je einen aus dieser Queue offen gelassenen Punkt in
+[[umgebungsgestaltung-und-einfriedungen]] nachträglich geschlossen — siehe CHANGELOG und
+`outputs/2026-08-23_buch-run88.md` / `outputs/2026-08-23_buch-run89.md`.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
