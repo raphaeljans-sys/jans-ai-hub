@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 08:59:23
+Stand: 23.08.2026 09:09:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 08:59)
+- Developer/jans/ai/hub  (letzte Aktivitaet 09:09)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 08:59:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- eb738713 nas-selfcommit: 4 Datei(en) 2026-08-23 08:45
+- a586e15a hub-chef 23.08.2026: Jegen-Versand terminiert (A7, faellig Mo 07:00), Gastablauf-Messung, versand-mail-senden.sh
