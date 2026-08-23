@@ -4071,6 +4071,23 @@ aus der Recht-KB hier angekommen.
 - [ ] **SN 641 400** (VSS, Grundlage der ZH-Parkplatzberechnung) — zitiert in
   `baurecht/wiki/fahrzeugabstellplaetze-und-parkierung.md:43`.
 
+> **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung).** Die vier Checkbox-Punkte oben sind bereits
+> mehrfach bearbeitet, in dieser Liste nur nie als erledigt markiert worden — Beleg
+> `training/norm-inventar.md` Zeilen 558-561: **SIA 491** und **SN EN 12193** wurden am
+> 27.07.2026 (Run 30) und erneut am 29.07.2026 (Run 36) in PL-02 UND PL-03 geprüft und sind
+> nachweislich **nicht im Haus**; beide sind kostenpflichtig (SIA 491: CHF 90.00, shop.sia.ch,
+> verifiziert 260729; SN EN 12193 aktuell gültige Ausgabe **2019**, nicht 2008 — die 2008er ist
+> abgelöst, verifiziert 260729 Run 36 —, CHF 134.00 PDF+Online bzw. 115.00 nur Online,
+> connect.snv.ch). **SN 640 052** und **SN 641 400** haben laut Inventar noch keinen
+> dokumentierten Bestands-Check und keine verifizierte Preisangabe; ein eigener Web-Recherche-
+> Anlauf heute (VSS-Shop `mobilityplatform.ch`) fand keine direkte Produktseite über die
+> Norm-Nummer — der Shop verlangt laut eigener Auskunft die Sucheingabe `*<letzte 5 Ziffern>`
+> (z.B. `*40052`), die als URL-Parameter nicht traf; kein Kauf/keine Anmeldung versucht. Alle
+> vier Punkte bleiben **externe Bring-Schulden Raphael** (SIA-Shop- bzw. VSS-Shop-Kauf); ein
+> weiterer eigener Beschaffungsversuch ohne Kaufberechtigung verspricht keinen Mehrwert. Die
+> Checkboxen sind bewusst nicht angehakt — «geprüft, extern zu beschaffen» ist nicht dasselbe wie
+> «erledigt».
+
 **Gegenrichtung, ebenfalls Run 15:** die hier geführte Bring-Schuld «Volltext SIA 380/1:2016
 beschaffen» (QUESTIONS `:558`) nennt als Adressaten nur `energie-berater`/`planungsgrundlagen` —
 `baurecht` führt SIA 380/1 jedoch ebenfalls und ist mit-adressiert.

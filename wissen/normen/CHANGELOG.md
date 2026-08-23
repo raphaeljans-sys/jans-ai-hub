@@ -1,3 +1,49 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung (siebter Lauf): SIA 430/118-430 Preise verifiziert und ins REGISTER nachgetragen, vier baurecht-Bring-Schulden als geprüfte externe Bring-Schulden markiert
+
+**Auftrag:** offene Fragen in `wiki/QUESTIONS.md` weiter abarbeiten (Fortsetzung der laufenden
+QUESTIONS-Abarbeitungs-Serie desselben Tages, sechster Lauf laut Eintrag `260823` VKF BRL 13-15).
+Parallel lief mindestens ein weiterer eigener Lauf an derselben KB (SIA-Sweep, siebzehnte
+Fortsetzung — Korrigenda-Funde SIA 269/3, 269/5, 269/8), kein Konkurrent, siehe Kollisionsprüfung
+unten.
+
+**Systematischer Scan statt Vollstrikte-Lektüre:** bei 4455 Zeilen wurde per Python-Script jeder
+`## `-Abschnitt auf die Marker GESCHLOSSEN/✅/ERLEDIGT geprüft (55 Abschnitte, 26 ohne Marker) und
+davon die jüngsten/am ehesten noch offenen Abschnitte gezielt gelesen, statt die ganze Historie
+linear zu lesen.
+
+**Zwei echte offene P1-Punkte bearbeitet, beide bleiben inhaltlich offen (Bring-Schuld
+Raphael), aber mit neuem Beleg verdichtet:**
+
+1. **SIA 430:2023 / SIA 118/430:2023** (aus Run 25, 04.08.2026): Preise am Herausgeber direkt
+   nachverifiziert (shop.sia.ch, Abruf 23.08.2026) — SIA 430:2023 CHF 90.00 (28 S., nur
+   Inhaltsverzeichnis kostenlos), SIA 118/430:2023 CHF 80.00 (16 S.). Die seit Run 25 bekannte
+   REGISTER-Lücke für SIA 118/430 geschlossen: neue Zeile in `wiki/REGISTER.md` angelegt, SIA
+   430 um die Preisangabe ergänzt. Kein kostenloser Volltextzugang gefunden — anders als bei der
+   SIA-2024-Korrigenda ist die Publikationsart hier «Norm»/«Allgemeine Bedingungen», regulär
+   kostenpflichtig. Nachtrag in `wiki/QUESTIONS.md` am bestehenden Eintrag.
+2. **Vier Bring-Schulden aus KB `baurecht`** (SIA 491, SN EN 12193, SN 640 052, SN 641 400,
+   angemeldet Wissens-Chef Run 15/16): Abgleich mit `training/norm-inventar.md` Zeilen 558-561
+   ergab, dass SIA 491 und SN EN 12193 bereits zweimal (Run 30, Run 36) in PL-02 UND PL-03
+   geprüft und als extern zu beschaffen bestätigt sind (Preise dort bereits vermerkt: CHF 90.00
+   bzw. 134.00/115.00) — in `QUESTIONS.md` stand das nur nie nachgezogen. Für SN 640 052/641 400
+   ein eigener VSS-Shop-Anlauf (`mobilityplatform.ch`) versucht, ohne Treffer (Norm-Nummer-Suche
+   erfordert laut Shop-Hinweis das Format `*<letzte 5 Ziffern>`, als direkter URL-Parameter
+   erfolglos) — kein Kauf/keine Anmeldung versucht. Nachtrag in `wiki/QUESTIONS.md` direkt bei
+   den vier Checkbox-Punkten, Checkboxen bewusst nicht angehakt (geprüft ≠ erledigt).
+
+**Kollisionsprüfung:** `ps aux` vor Beginn und vor jedem Schreibvorgang zeigte neben dem eigenen
+Prozess (`mschub89`) zwei weitere `claude-run.sh`-Läufe (`mschub86` SIA-Sweep-Fortsetzung an
+derselben KB, `mschub88` Baurecht-Reglemente-Queue, andere KB) — kein Namensgleicher, also kein
+eigener Lauf doppelt gestartet. `git diff --numstat` nach jedem Schreiben rein additiv (0
+Löschungen in beiden bearbeiteten Dateien); die im selben Diff sichtbaren REGISTER-Änderungen zu
+SIA 269/3, 269/5, 269/8 stammen vom parallelen `mschub86`-Lauf, nicht von diesem.
+
+**Nicht bearbeitet (bewusst):** N60-1 (AFC-Synopse-Duplikat) und N60-2 (Methodik-Pflicht-14-
+Vorschlag) warten explizit auf Raphaels Entscheid/Freigabe, nicht auf weitere Recherche. Die
+NIN-Geschirrspüler-Frage (260731) ist laut eigenem Vermerk bereits zweimal frei-web-recherchiert
+und eine echte Sackgasse (kostenpflichtiger NIN-Online-Zugang) — kein dritter Anlauf über
+dieselben Quellenarten.
+
 ## 2026-08-23 — SIA-Sweep, siebzehnte Fortsetzung: neue Sweep-Methode (freie Korrigenda-Downloads), drei Destillate SIA 269/3, 269/5, 269/8
 
 **Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
