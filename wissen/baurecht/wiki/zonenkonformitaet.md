@@ -2,7 +2,7 @@
 title: Zonenkonformität & BZO-Systematik — Kanton Zürich
 status: established
 last_updated: 2026-08-23
-sources: [260602_docs-baurecht-bzo-zh.md, 260602_docs-baurecht-begriffe.md, "Art. 13 BZO Zürich (Stadt)", "Art. 14 BZO Zürich (Stadt)", "Art. 18 BZO Zürich (Stadt)", 260607_amtlich_zh_bzo-zurich-stadt.md, "Art. 3 BZO Thalwil", "Art. 20a BZO Thalwil", 260607_amtlich_zh_bzo-thalwil.md, 260823_amtlich_zh_bzo-thalwil-grundmasse.md]
+sources: [260602_docs-baurecht-bzo-zh.md, 260602_docs-baurecht-begriffe.md, "Art. 13 BZO Zürich (Stadt)", "Art. 14 BZO Zürich (Stadt)", "Art. 18 BZO Zürich (Stadt)", 260607_amtlich_zh_bzo-zurich-stadt.md, "Art. 3 BZO Thalwil", "Art. 20a BZO Thalwil", 260607_amtlich_zh_bzo-thalwil.md, 260823_amtlich_zh_bzo-thalwil-grundmasse.md, "Art. 25 BZO Thalwil", "[[kap16-10_gebaeudedimensionen-harmonisierung]]"]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[baubewilligungsverfahren]], [[gebaeudearten-und-abstandssystem]]
 verifiziert:
   - datum: 2026-07-25
@@ -118,6 +118,21 @@ Sonderregelung gelten (Voraussetzungen beachten, keine Automatik):
   Zimmerzahl (1,5-Zimmer 50 m² bis 6-Zimmer 132 m², ohne Überschreitungsspielraum).
 - **Ausschluss:** nicht kombinierbar mit Arealüberbauung (Art. 21/22) oder untereinander
   kumulierbar.
+
+### Attikageschosse Thalwil — ungeharmonisiert (Art. 25 BZO), Kreuzprobe Buch-Run 76
+
+Die Rückversetzung von Attikageschossen folgt in Thalwil weiterhin der **alten**
+Drittelsregelung/45°-Systematik (Art. 25 Abs. 3 BZO Thalwil: «An die Drittelsregelung gemäss
+§ 292 PBG werden überdies nicht angerechnet …», `raw/260607_amtlich_zh_bzo-thalwil.md`
+Z. 1642-1648) — **nicht** der harmonisierten h/2-Regel (63,43°, § 275 Abs. 4 nPBG) aus dem
+Standardwerk-Kapitel [[kap16-10_gebaeudedimensionen-harmonisierung]] (Bd 2, S. 1230-1239, dort
+als Vergleichsmaterial im T5-Ordner «Kniestock» als Buchscan vorgefunden, wortgleich mit dem
+bestehenden Destillat gegengelesen — CONFIRMED, keine Korrektur). Massgebend für Thalwil bleibt
+also die **alte** Fassung, solange die BZO nicht harmonisiert ist (vgl. [[negative-vorwirkung-und-bzo-revision]]).
+Attikageschosse dürfen zudem weder 75 % der § 255 Abs. 2 PBG privilegierten Fläche noch 75 %
+der Bruttogeschossfläche des darunterliegenden Geschosses übersteigen (Art. 25 Abs. 1 BZO) und
+dürfen abweichend von § 292 PBG frei angeordnet werden, soweit sie nicht als Vollgeschoss in
+Erscheinung treten (Art. 25 Abs. 2 BZO).
 
 ### Zonenarten Thalwil (Zonenplan-Legende, Stand 01.06.2024)
 

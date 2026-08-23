@@ -298,12 +298,31 @@ er bleibt offen, weil er die **Belegqualität rückwirkend** betrifft. Aufgeworf
 
 ### N59-3 — Kap. 2.17 «Gefährliche Stoffe» des Verzeichnisses 40-15 ist nur textuell geprüft
 
-Der Abschnitt hat im Delta 2015 → 2025 den stärksten Umbau erfahren (2015 neun fragmentierte
-«zu Ziffer»-Blöcke mit mehrfach duplizierten Einträgen, 2025 eine konsolidierte Liste). Er
-wurde **nicht am Rendering gegengelesen**, entgegen Methodik-Pflicht 8. Die im Delta-Destillat
-`vkf-verz-40-15-fassung-2025-delta.md` unter «neu» und «entfallen» geführten Positionen aus
-2.17 sind vor verbindlicher Verwendung am Bild zu bestätigen. Gleiches gilt, schwächer, für
-Kap. 2.7 bis 2.12, 2.15/2.16, 2.18/2.19 und 3.1 bis 3.5. Aufgeworfen Run 59 (22.08.2026).
+> ✅ **Kap. 2.17 GESCHLOSSEN 23.08.2026.** Beide Fassungen unabhängig neu beschafft — Bestand
+> 2015 via M365-Graph-Connector (SharePoint Site PL, Drive `03 Brandschutz`,
+> `40-15_Weitere Bestimmungen.pdf`), Fassung 2025 direkt vom VKG-Publikationsportal
+> (`https://services.vkg.ch/rest/public/georg/bs/publikation/documents/
+> BSPUB-1394520214-137.pdf/content`) — und mit einer frischen `pdftotext`-Extraktion
+> unabhängig von der ursprünglichen Destillation geprüft. Alle in
+> `vkf-verz-40-15-fassung-2025-delta.md` unter «neu» und «entfallen» geführten 2.17-Positionen
+> per Volltextsuche bestätigt: **neu** vorhanden im 2025er-Extrakt — SUVA-Merkblätter 66122
+> (Gasflaschen) und 67068 (Checkliste Gasflaschen), das SUVA-Merkblatt zu
+> Flammendurchschlagsicherungen an Tankstellen, BAFU «Störfallvorsorge bei Lager für
+> ammoniumnitrathaltige Dünger», «Lagerung gefährlicher Stoffe, Leitfaden für die Praxis»
+> (Umweltfachstellen + GVZ), CARBURA-Richtlinien Teil F «Brandschutz und Löschwesen». **Entfallen**
+> bestätigt durch Null-Treffer im vollständigen 2025er-Extrakt — Sicherheitsdokument 1501-00,
+> VKF-Brandschutzrichtlinien Nr. 27-03/28-03 (alte Nummerierung), CARBURA-Richtlinien für
+> Tankanlagen (1974/Änderungen 1992), EKAS-Richtlinie Nr. 2387 (Destillationsanlagen). Zusätzlich
+> S. 18 (2025er-Fassung, Textanfang 2.17) als 150-dpi-Rendering gegen den Textlayer gelesen:
+> deckungsgleich, kein OCR-/Layout-Artefakt. Nachtrag im Destillat, Prüfstand-Tabelle.
+>
+> **Weiterhin offen:** Kap. 2.7 bis 2.12, 2.15/2.16, 2.18/2.19 und 3.1 bis 3.5 sind nach wie vor
+> nur per Textlayer geprüft (schwächerer Vorbehalt als 2.17, da textlich/listenartig wie 2.17,
+> aber nicht einzeln nachgezogen).
+
+**Ursprungswortlaut:** Der Abschnitt hat im Delta 2015 → 2025 den stärksten Umbau erfahren (2015
+neun fragmentierte «zu Ziffer»-Blöcke mit mehrfach duplizierten Einträgen, 2025 eine
+konsolidierte Liste). Aufgeworfen Run 59 (22.08.2026).
 
 ---
 
@@ -3605,10 +3624,36 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Naechster Schritt: NIN-Zugang (ninonline.electrosuisse.ch) oder Rueckfrage Elektroplaner; bei Antwort Destillat-Artikel anlegen.
 
 ## 260807 — Bezugsgroessen-Divergenz E_vm: SIA 2056 Tab. 42 gegen SIA 387/4 Tab. 4 (KB-intern)
-- Frage: Beide Destillate fuehren eine Groesse unter dem Namen **E_vm**, aber mit unterschiedlichem Bezug. `destillate/sia-592-056.md:84` (SIA 2056, Tab. 42) nennt Bettenzimmer **300 lx**; `destillate/sia-387-4-2017.md:61` (SIA 387/4, Tab. 4) nennt fuer dieselbe Nutzung **E_vm 100 lx** bei E_0 = 300 (ueber k_0 = 3). Welche Groesse traegt in `normen` kuenftig den Namen E_vm, und wie wird die jeweils andere gekennzeichnet?
-- Warum das zaehlt: Wer die Zahl ohne Klaerung uebernimmt, rechnet um den Faktor 3 falsch. Betroffen sind alle Abnehmer, die Beleuchtungsstaerken aus `normen` ziehen (Skill `energie`, `planungsgrundlagen`, Healthcare-Raumprogramme).
-- Herkunft: Cross-KB-Lauf Wissens-Chef Run 28, 07.08.2026, Feld F. Die Divergenz ist **KB-intern in `normen`** und ausdruecklich kein Cross-KB-Befund; sie ist deshalb hier und nicht im Koordinations-Register angemeldet.
-- Naechster Schritt: an den Originalen (SIA 2056 Tab. 42, S. 38-39; SIA 387/4 Tab. 4, S. 18-19) die Definitionszeile beider Tabellen lesen und im INDEX/REGISTER eine eindeutige Bezeichnerregel festhalten. Bis dahin gilt der Bezugsgroessen-Vorbehalt, der am 07.08.2026 in der Beleuchtungs-Zeile des Koordinations-Registers gesetzt wurde.
+
+> ✅ **GESCHLOSSEN 23.08.2026.** Beide Originale (SIA 2056 S. 38, SIA 387/4 S. 17-19) am
+> M365-Graph-Connector beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,
+> `SIA_Norm/SIA_Normen/alle/592056.pdf` bzw. `.../387_4_2017.pdf`) und gelesen — SIA 2056 ist
+> ein reiner Scan ohne Textlayer, S. 38 als 150-dpi-Rendering gegengelesen; SIA 387/4 hat
+> Textlayer (`pdftotext -layout`).
+>
+> **Ergebnis: kein Rechenfehler-Risiko, sondern zwei Normen belegen denselben Formelbuchstaben
+> mit unterschiedlichem Inhalt.** SIA 2056 Formel (18), S. 38: p_L = E_vm/(η_v,Lo·η_R·MF) — **ohne**
+> k_0-Term. SIA 387/4 Formel (2), S. 17: p_L = E_0/(MF·η_v,Lo·η_R) mit E_0 = k_0·E_vm. Das
+> SIA-2056-«E_vm» besetzt damit strukturell die Zählerposition, die SIA 387/4 «E_0» nennt — nicht
+> die Position, die SIA 387/4 «E_vm» nennt. Numerischer Beleg am Bettenzimmer: SIA 2056 Tab. 42
+> E_vm = 300 lx (S. 38) = SIA 387/4 Tab. 4 E_0 = k_0·E_vm = 3 × 100 lx = 300 lx (S. 18-19,
+> bereits vorher am Rendering verifiziert). SIA 387/4s eigenes E_vm (100 lx) ist eine andere,
+> kleinere, vorgelagerte Grösse (Wartungswert nach SN EN 12464-1 vor der k_0-Korrektur).
+>
+> **Bezeichnerregel:** für das vereinfachte Verfahren SIA 2056 gilt ausschliesslich dessen eigene
+> Tab. 42 (300 lx Bettenzimmer); Tab. 4 aus SIA 387/4 (100 lx) gehört zum detaillierten Verfahren
+> jener Norm. Beide Destillate tragen seit diesem Lauf eine gegenseitig verlinkte
+> Klärungsbox (`destillate/sia-592-056.md`, Abschnitt «Tab. 42-45»; `destillate/sia-387-4-2017.md`,
+> bei «Referenzbeleuchtungsstärke E_0») — eine Umbenennung im INDEX/REGISTER war dafür nicht
+> nötig, die Klarstellung sitzt an der Quelle der Verwechslungsgefahr. Der cross-KB
+> Bezugsgrössen-Vorbehalt vom 07.08.2026 (Koordinations-Register, ausserhalb dieser KB) kann mit
+> Verweis auf diesen Eintrag aufgelöst werden — dort nicht selbst editiert (fremdes Register).
+>
+> **Ursprungswortlaut:** Beide Destillate fuehren eine Groesse unter dem Namen **E_vm**, aber mit
+> unterschiedlichem Bezug. `destillate/sia-592-056.md:84` (SIA 2056, Tab. 42) nennt Bettenzimmer
+> **300 lx**; `destillate/sia-387-4-2017.md:61` (SIA 387/4, Tab. 4) nennt fuer dieselbe Nutzung
+> **E_vm 100 lx** bei E_0 = 300 (ueber k_0 = 3). Herkunft: Cross-KB-Lauf Wissens-Chef Run 28,
+> 07.08.2026, Feld F.
 
 ## 260813 — SIA 382/2:2011 verlinkt SIA 416:2003, zitiert aber SIA 416/1:2007 (fehlendes Destillat)
 
@@ -3654,8 +3699,28 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 > Punkte»; Tabellenvergleich vom Hauptprozess an eigenen Renderings (200 dpi, gedruckte S. 9)
 > unabhaengig nachgelesen.
 >
-> ⚠ **TEIL 2 (Technikraum Sicherheitsstromversorgung) bleibt offen.** Ob dieser Begriff im Glossar
-> BRL 10-15 gefuehrt wird, wurde in Run 60 nicht geprueft.
+> ✅ **TEIL 2 GESCHLOSSEN 23.08.2026.** «Technikraum Sicherheitsstromversorgung» ist in der BRL
+> 10-15 «Begriffe und Definitionen» **nicht als Glossarbegriff geführt** — weder als eigener
+> Eintrag noch als Unterfall von «Technikraum». Geprüft: (a) Hausbestand BRL 10-15, Fassung
+> 01.01.2015 (SharePoint-Original per M365-Graph-Connector geladen, `pdftotext -layout`
+> vollständig durchsucht) — kein Treffer auf «Technikraum», das Glossar definiert unter «S» nur
+> **«Sicherheitsstromversorgung»** allein (S. 31: «Die Sicherheitsstromversorgung … muss bei
+> einer Störung der allgemeinen Stromversorgung jederzeit wirksam sein und die erforderliche
+> Versorgungsdauer gewährleisten.»), keinen zusammengesetzten Raumbegriff. (b) Die
+> Fassungs-Delta-Kette bis 01.01.2019 (`vkf-brl-10-15-fassung-2019-delta.md`, Quelle
+> VKG-Publikationsportal BSPUB-1394520214-2768 gegen Hausbestand) listet erschöpfend alle elf
+> durch die Beschlüsse IOTH 22.09.2016 und 20.09.2018 neu gefassten oder neu eingeführten
+> Begriffe (Dachkonstruktionen, Einliegerwohnung, Galerie, Raum, Ueberhohe Raeume,
+> Verkaufsraeume, Bedachung, Gesamthoehe, Kindertagesstaetten, Nutzungseinheit,
+> Uebereinstimmungserklaerung) — «Technikraum» ist nicht darunter. Damit ist der Begriff in
+> **keiner** in der KB dokumentierten Fassung von BRL 10-15 (2015 bis 2019) definiert. Der
+> Ausdruck in BRL 17-15 (Anhang zu Ziff. 3.3.2) bezeichnet demnach einen **Brandabschnitt nach
+> allgemeinem Sprachgebrauch/projektspezifischem Brandschutzkonzept**, keinen normierten
+> VKF-Begriff — Planer können sich für die Anforderungen an diesen Raum nicht auf eine
+> BRL-10-15-Definition berufen, sondern müssen sie aus dem Zweck (Schutz der
+> Sicherheitsstromversorgung bis zur Brandabschnittsgrenze) selbst herleiten. Quelle:
+> `Begriffe & Definitionen.pdf` (SharePoint Site PL, Drive `02_Recht_Norm`, `VKF_Norm/
+> 02_Brandschutzrichtlinien 2015/`), per M365-Graph-Connector geladen, Abruf 23.08.2026.
 - Frage: Der Anhang zu Ziff. 2.2 (S. 9, Fassung 2017) fuehrt die Nutzungskategorie
   «Verkaufsraeume» neu getrennt von «Verkaufsgeschaefte», ohne beide Begriffe zu definieren. Der
   Anhang zu Ziff. 3.3.2 (S. 12) verlangt neu einen Brandabschnitt «Technikraum

@@ -2,8 +2,8 @@
 beschreibung: Pflicht-Fahrzeugabstellplaetze im Kt. ZH — Normbedarf, Reduktion/Maximum, autoarme Nutzungen, Realerfuellung vs. Ersatzabgabe/Parkplatzfonds, Velo- und Behindertenparkplaetze.
 title: Fahrzeugabstellplaetze und Parkierung (Pflichtparkplaetze ZH)
 status: established
-last_updated: 2026-07-30
-sources: [raw/260607_amtlich_zh_pbg.md, "Buch Band 1, Kap. 13, S. 900", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md"]
+last_updated: 2026-08-23
+sources: [raw/260607_amtlich_zh_pbg.md, "Buch Band 1, Kap. 13, S. 900", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md", "Wegleitung BZO Thalwil Nachführung 2020, Planungs- und Baukommission, 19.11.2020, Ziff. 6 S. 13"]
 verifiziert: 2026-07-12 (Modell-D §§ 242-249 PBG gegen amtl. Volltext; 2 Fassungsstand-Korrekturen); 2026-07-13 (Buch-Run 33, Modell-D: PPV Stadt Zuerich Art. 8 Abs. 5-8 wortlautbelegt/Fassungsstand korrigiert; Wegleitung 1997 als weiterhin geltend bestaetigt; VSS-Veloabstellplatz-Normbezug SN 640 065 statt SN 640 060/066 korrigiert; VSS-Rampenneigungsnorm auf aktuelle Nomenklatur VSS 40 291 [2021] praezisiert); 2026-07-25 (Buch-Run 54, Fassungsstand-Check: amtliche Primaerquelle der PPV-Fassung 16.12.2015 lokalisiert und Art. 8 Abs. 5-8 direkt am Gesetzeswortlaut CONFIRMED, ersetzt die bisherige Sekundaerquellen-Absicherung ueber den Leitfaden); 2026-07-27 (Buch-Run 60, Festigungsmodus Prioritaet a: Cross-KB-Frage Run 11 zum Behindertenparkplatz-Kennwert geklaert — Wert stammt woertlich aus dem Buch-Destillat [S. 900], das SN 521 500 Korrigendum C3 [1.10.2013] Ziff. 9.7.2/9.7.3 zitiert, nicht die SIA-500:2009-Basisausgabe; Norm-Wortlaut selbst kostenpflichtig/nicht frei verifizierbar, keine Korrektur noetig); 2026-07-30 (Buch-Run 70, vollstaendiger Modell-D-Wortlautabgleich §§ 242-248 PBG gegen raw/260607_amtlich_zh_pbg.md, Fassungsstand weiterhin Nachtrag 133 — 1 Korrektur: § 242 Abs. 2 PBG enthaelt keinen Interessen-Katalog, dieser steht in § 245 Abs. 2 lit. a PBG; Fehler war bereits im Buch-Destillat [[13-fahrzeugabstellplaetze-spielflaechen-teil3]] seit 2026-07-12 korrekt erfasst, aber nie in den Wiki-Artikel nachgezogen worden. § 243 Abs. 1-3, § 244 Abs. 1-4, §§ 245-248, § 309 Abs. 1 lit. b/i sonst CONFIRMED, 0 weitere Korrekturen); 2026-07-30 (Wissens-Chef Run 21, Cross-KB: der Status «needs-verification wegen Kostenpflicht» zu den VSS-40-291-Rampenkennwerten war ueberholt — die Ausgabe 2021 liegt seit 13.07.2026 im JANS-Normenbestand und ist in `normen` vollstaendig destilliert und dreifach verifiziert; Verweis auf die fuehrende Fundstelle gesetzt, keine Wertkopie in baurecht. Offen bleiben die maximale Laengsneigung von Parkfeldern [Norm regelt nur das Quergefaelle] und das SIA-500-Korrigendum C3)
 kanton: ZH
 quellen: ["[[13-fahrzeugabstellplaetze-spielflaechen-teil3]]", "raw/260607_amtlich_zh_pbg.md (§§ 242-249)", "raw/260713_amtlich_zh_ppv-stadt-zuerich.md (PPV Stadt Zuerich Art. 8 Abs. 5-8, amtliche Primaerquelle Fassung GRB 16.12.2015 + Leitfaden Tiefbauamt 09.07.2024)", "wissen/normen/destillate/vss-40291-2021-parkieren-anordnung-geometrie (fuehrende Fundstelle fuer Anordnung/Geometrie der Parkierungsanlagen)"]
@@ -148,6 +148,24 @@ als Abs. 2; die aktuelle §-Zaehlung fuer Reverse/Bewilligungen ist Abs. 3.)*
   Projektierung dort nachschlagen, nicht neu beschaffen. Nicht im Destillat enthalten und
   weiterhin offen ist eine maximale **Laengs**neigung von Parkfeldern (die Norm regelt in Ziff. 18
   nur das Quergefaelle); bei Bedarf am Original nachlesen.
+
+## Kommunale Anwendung: Zufahrtsneigung Thalwil (Buch-Run 76, T5, 23.08.2026)
+
+Neben der VSS-40-291-Geometrie fuer die Parkierungsanlage selbst (oben) regelt die Gemeinde
+Thalwil die **Zufahrt** separat: Wegleitung BZO Thalwil, Nachfuehrung 2020 (Planungs- und
+Baukommission, 19.11.2020), Ziff. 6 «Anforderungen an Bauten», S. 13 — **die Neigung von
+Garageausfahrten darf innerhalb von 6,0 m ab Strassengrenze hoechstens +3 % bzw. -5 %
+betragen**; im Uebrigen gelten fuer Gestaltung von Abstellplaetzen und Zufahrten **die
+VSS-Normen als Richtlinie** (deckungsgleich mit der oben gefuehrten VSS-40-291-Fundstelle).
+Als gesetzliche Grundlage nennt die Wegleitung **§§ 239 sowie 295 ff. PBG** und die Besondere
+Bauverordnung I/II — das sind **Grundnormen** (Baukunde/Sicherheit, Ausfuehrungsvorschriften),
+**nicht** der Wortlaut-Beleg der 3-%/5-%-Zahl selbst; diese ist **kommunale
+Vollzugspraxis/Verwaltungsverordnung** (bindet die Behoerde, nicht unmittelbar Private, vgl.
+[[baubewilligungsverfahren]]). Schliesst damit teilweise die dort offen gefuehrte Luecke zur
+**Laengsneigung von Parkfeldern/Zufahrten** — die VSS-40-291-Norm selbst regelt nur das
+Quergefaelle (Ziff. 18); fuer die **Ausfahrtsneigung an der Strassengrenze** liefert stattdessen
+die kommunale Wegleitung eine konkrete Zahl, die je Gemeinde zu pruefen ist (kein kantonaler
+Einheitswert bekannt).
 
 ## Velo- und Behindertenparkplaetze
 

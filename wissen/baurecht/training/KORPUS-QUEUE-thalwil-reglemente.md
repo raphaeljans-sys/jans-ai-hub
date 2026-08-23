@@ -54,7 +54,7 @@ Klassen sauber trennen:
 | **T2** | **Umgebungsgestaltung** | `02 BZO Thalwil/02 Umgebungsgestaltung/` (Gartenmauern, Vorgarten, Grünanteil) | Wiki [[umgebungsgestaltung-und-einfriedungen]] (neu) | **erledigt** (Run 73, 13.08.2026) |
 | **T3** | **Grundmasse + SBV W3** | `02 BZO Thalwil/01 Grundmasse/`, `Sonderbauvorschrift W3/`, `Zonenplan/` | [[zonenkonformitaet]] + [[nutzungsziffern]] schärfen | **erledigt** (Run 75, 23.08.2026) |
 | **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | **erledigt** (Run 74, 17.08.2026) |
-| **T5** | **Einzelthemen** | `Kniestock/`, `Massgebendes Terrain/`, `Besonderes Gebäude/`, `Fahrzeugabstellplaetze/`, `Fensterflaechen/`, `Spiel und Ruheflaeche/`, `Baugespann/`, `Wohnungserhebung/` | je bestehender Wiki-Artikel | offen |
+| **T5** | **Einzelthemen** | `Kniestock/`, `Massgebendes Terrain/`, `Besonderes Gebäude/`, `Fahrzeugabstellplaetze/`, `Fensterflaechen/`, `Spiel und Ruheflaeche/`, `Baugespann/`, `Wohnungserhebung/` | je bestehender Wiki-Artikel | **erledigt** (Run 76, 23.08.2026) |
 | **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | offen |
 | **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | offen |
 | **T8** | **Gegenlesen der Claude-Factsheets** | die drei datierten Factsheets (siehe Echo-Schutz) | Fehlerbericht in `outputs/`, keine Aufnahme als Quelle | offen |
@@ -164,6 +164,59 @@ Klassen sauber trennen:
 - **Kein neuer Wiki-Artikel nötig.** Die Werte fügen sich in die bestehende
   [[zonenkonformitaet]]-Struktur (Zürich-Stadt-Muster) ein, [[nutzungsziffern]] bleibt
   unverändert, da es die kantonale Systematik (nicht die kommunalen Zahlenwerte) behandelt.
+
+### T5 — Einzelthemen (Run 76, 23.08.2026)
+
+- **Ordner-Bestand deutlich dünner als die Queue-Beschreibung vermuten liess:** 6 der 8
+  Themenordner enthalten je nur 1-3 Screenshots/PDFs, «Besonderes Gebäude» ist **leer**. Kein
+  neuer `raw/`-Volltext nötig — jeder Fund liess sich gegen den bereits ingesteten Bestand
+  (`raw/260607_amtlich_zh_bzo-thalwil.md`, Standardwerk-Destillat
+  [[kap16-10_gebaeudedimensionen-harmonisierung]]) oder gegen ein bereits in T4 gelesenes,
+  aber nicht vollständig ausgewertetes Merkblatt verifizieren.
+- **Kniestock** (`SKM_C300i22100617000.pdf`, Scan): ist **keine Thalwiler Quelle**, sondern ein
+  Scan der Standardwerk-Seiten 1232 f. — exakt der Bereich, den
+  [[kap16-10_gebaeudedimensionen-harmonisierung]] bereits am 2026-06-13 destilliert hat.
+  Gegengelesen: wortgleich, **CONFIRMED, 0 Korrekturen**. Daraus ein Kreuzbefund: Thalwils
+  eigenes Art. 25 BZO folgt weiterhin der **alten** Drittel-/45°-Attikaregel (§ 292 PBG-Verweis
+  im Artikeltext selbst), nicht der harmonisierten h/2-Regel des Standardwerk-Kapitels — Beleg
+  jetzt in [[zonenkonformitaet]] nachgeführt.
+- **Massgebendes Terrain** (1 Screenshot): Ausschnitt aus dem bereits in T4 gelesenen
+  Gebäudehöhen-Messweise-Merkblatt (Gemeinde Thalwil, 20.01.2022) — dort aber nur
+  Gebäudehöhe/Firsthöhe/Gesamthöhe geprüft, **die Definition des «gewachsenen Bodens» selbst
+  (überbaute/nicht überbaute Grundstücke, DLZ-Interpolationsbefugnis bei Abgrabungen) fehlte
+  bislang im Wiki** — echte Lücke, jetzt in [[abstaende-und-hoehen]] nachgetragen.
+- **Besonderes Gebäude:** Ordner **leer**. Zum Abschluss des in T4 begonnenen Art.-24-Befunds
+  (dort nur Abs. 3, die Klammer-Falle) wurden Abs. 1 (7-%-Deckel) und Abs. 2 (6-m-Grenzbau ohne
+  Nachbarzustimmung) aus dem bereits vorhandenen Rohtext ergänzt —
+  [[gebaeudearten-und-abstandssystem]].
+- **Fahrzeugabstellplätze** (3 Screenshots): Art. 26 BZO **CONFIRMED** gegen Bestand
+  (zeichengleich). Ein Screenshot zeigt eine unbelegte private Web-Recherche zu
+  Fahrzeugbreiten (77 % > 2 m) — **nicht übernommen** (keine Quelle, keine Norm). Ein weiterer
+  Screenshot («6 Anforderungen an Bauten», S. 13) liess sich auf die bereits gelesene
+  Wegleitung BZO Thalwil Nachführung 2020 zurückführen und enthält eine **bislang nicht
+  erfasste Zahl**: Garageausfahrt-Neigung max. +3 %/-5 % innerhalb 6,0 m ab Strassengrenze,
+  dazu der generische VSS-Normen-Verweis — beides jetzt in
+  [[fahrzeugabstellplaetze-und-parkierung]].
+- **Fensterflächen** (1 Screenshot, Ausschnitt derselben Wegleitungs-Seite): «Fensterfläche
+  mind. 1/10 der Bodenfläche» — **CONFIRMED**, deckt sich wortgleich mit dem bereits als
+  § 302 PBG geführten Kennwert in [[wohnhygiene-und-raumanforderungen]]. Kein Wiki-Edit nötig.
+- **Spiel- und Ruhefläche** (1 PDF, BZO-Seite16): Art. 27-29 BZO (Umgebungsgestaltung,
+  Flachdachbegrünung, Spiel-/Ruheflächen, Abstellflächen Velo) **CONFIRMED** gegen Bestand,
+  zeichengleich mit `raw/260607_amtlich_zh_bzo-thalwil.md` Z. 1701-1737. Kein Edit nötig.
+- **Baugespann** (1 Screenshot): Ausschnitt aus der bislang ungeprüften «Wegleitung für das
+  Baugesuch» (Baukommission Thalwil, September 2004, 3 Seiten) — Aussteckungspflicht
+  wortgleich mit dem bereits generisch geführten § 311 PBG in [[baubewilligungsverfahren]],
+  keine abweichende Frist/Zahl. Das Dokument liefert aber eine **Thalwil-spezifische
+  Unterlagenliste** (Formular Gebäude-/Wohnungserhebung, Parkplatzberechnung Art. 26 BZO,
+  Spiel-/Ruheflächen-Berechnung Art. 28 BZO u.a.) — als konkretes Anwendungsbeispiel ergänzt.
+- **Wohnungserhebung** (1 Link-Dokument): reiner URL-Verweis auf das kantonale Online-Formular,
+  keine eigene Rechtsgrundlage — kein Ingest, im Unterlagenlisten-Beleg oben verlinkt.
+- **Kein neuer `raw/`-Volltext, keine neuen Wiki-Artikel, 5 bestehende Artikel geschärft**
+  ([[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[zonenkonformitaet]],
+  [[fahrzeugabstellplaetze-und-parkierung]], [[baubewilligungsverfahren]]). Methodische
+  Einordnung: T5 bestätigt das Muster aus T2/T3/T4 — die grösste Ausbeute liegt nicht im
+  Screenshot selbst, sondern im **Cross-Check gegen bereits gelesene, aber nicht vollständig
+  ausgewertete Quellen** (Wegleitung 2020 zweimal angezapft, Standardwerk-Duplikat erkannt).
 
 ## Arbeitsregeln je Batch
 

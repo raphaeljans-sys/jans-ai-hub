@@ -5,7 +5,7 @@ ausgabe: "Zürich, November 2004 (im Dokument selbst keine Auflagenzahl genannt)
 gelesen: "vollstaendig (4 Seiten), 2026-08-21"
 datenstand: "November 2004 ⚠⚠⚠ Alterskorpus PL-02 — 21 Jahre alt, Strompreis-Annahme 20 Rp./kWh und alte Energieetikette (A++ bis G) beide überholt"
 status: speculative
-last_updated: "2026-08-21 (Run 147 energie-training)"
+last_updated: "2026-08-23 (E-R147-1 nachgerechnet: Strompreis-Hypothese widerlegt)"
 ---
 
 # Destillat — Professionelle Beschaffung: Haushaltgeräte, Stadt Zürich/ewz, November 2004
@@ -25,7 +25,7 @@ Die Beschaffungs-Prioritätentabelle (Seite 4) ist inhaltlich fast identisch mit
 ### Wärmepumpen-Tumbler
 Ein üblicher Tumbler ist rund **900 Franken günstiger** in der Anschaffung als ein Gerät mit Wärmepumpe, braucht dafür aber **das Doppelte an Strom**. Über die Nutzungsdauer von **15 Jahren** gerechnet ergibt das eine Einsparung von rund **5'300 Franken** zugunsten des Wärmepumpen-Tumblers. Nebeneffekt laut Quelle: der Wärmepumpen-Tumbler schont die Wäsche und produziert wegen der tieferen Trocknungstemperatur weniger unerwünschte Abwärme.
 
-⚠ **Abweichung zur bestehenden FAQ F210:** Dort wird — gestützt auf die Januar-2008-Ausgabe — für dasselbe Rechenbeispiel eine Ersparnis von **rund 3'900 Franken** über 15 Jahre genannt. Beide Zahlen sind quellentreu aus ihrer jeweiligen Ausgabe übernommen; die Differenz (5'300 gegenüber 3'900 Franken) ist vermutlich auf unterschiedliche Strompreis-Annahmen zwischen 2004 und 2008 zurückzuführen, das ist aber **nicht geprüft** und wird als offener Punkt in `wiki/QUESTIONS.md` festgehalten. Für eine Bauherren-Antwort heute sind ohnehin beide Zahlen überholt.
+⚠ **Abweichung zur bestehenden FAQ F210:** Dort wird — gestützt auf die Januar-2008-Ausgabe — für dasselbe Rechenbeispiel eine Ersparnis von **rund 3'900 Franken** über 15 Jahre genannt. Beide Zahlen sind quellentreu aus ihrer jeweiligen Ausgabe übernommen. **Geklärt 23.08.2026 (E-R147-1):** Die vermutete Strompreis-Differenz ist widerlegt — beide Ausgaben rechnen mit 20 Rp./kWh. Die 2008er-Zahl rechnet exakt auf (5'000 kg/Jahr × 0,26 kWh/kg-Differenz × 20 Rp./kWh × 15 Jahre = 3'900 CHF); diese Ausgabe nennt für dieselbe Differenz nur die runde Faustregel «das Doppelte», ohne kWh/kg zu beziffern — die Differenz liegt vermutlich an einer abweichenden, gröber gerundeten Verbrauchsannahme, nicht am Strompreis. Endgültig nur mit den hier fehlenden Original-kWh/kg-Werten auflösbar, siehe Offene Punkte. Für eine Bauherren-Antwort heute sind ohnehin beide Zahlen überholt.
 
 ### Kühlgeräte-Klassen
 Klasse-A-Kühlschränke sind laut Quelle «keineswegs Spitze» — gute Geräte liegen bei A+ oder A++. Ein A+-Kühlgerät braucht **ein Viertel weniger Strom** als ein A-Gerät, ein A++-Gerät sogar **45 % weniger** als ein A-Kühlschrank.
@@ -51,4 +51,14 @@ Die konkreten Frankenbeträge dieser Ausgabe (900/5'300/3'900 Franken, 20 Rp./kW
 - `[[topten-haushaltgeraete-liegenschaftenverwaltung]]` — 3., revidierte Auflage November 2008 (jüngste bekannte Auflage)
 
 ## Offene Punkte
-- Differenz der Wärmepumpen-Tumbler-Ersparnis zwischen dieser Ausgabe (5'300 CHF) und der 2008er-Ausgabe (3'900 CHF laut FAQ F210) nicht ursächlich geklärt — vermutlich Strompreis-Annahme, nicht verifiziert.
+- **Differenz der Wärmepumpen-Tumbler-Ersparnis (5'300 CHF gegen 3'900 CHF, E-R147-1) — Strompreis-
+  Hypothese widerlegt, Ursache eingegrenzt (23.08.2026).** Beide Ausgaben rechnen mit demselben
+  Strompreis 20 Rp./kWh (diese Ausgabe: Zeile 43, Beispiel-Wohnung «3'300 kWh à 20 Rp./kWh»;
+  2008er-Ausgabe `[[haushaltgeraete-effizienz-beschaffung-topten]]`: dasselbe Tumbler-Beispiel
+  explizit «20 Rp./kWh Strom»). Die 2008er-Zahl rechnet exakt auf: 5'000 kg/Jahr ×
+  (0,60 − 0,34) kWh/kg × 20 Rp./kWh × 15 Jahre = 3'900 CHF. Diese Ausgabe nennt für denselben
+  Verbrauchsunterschied nur die Faustregel «das Doppelte an Strom», ohne die zugrundeliegenden
+  kWh/kg zu beziffern (im vorliegenden Fliesstext nicht extrahierbar) — die Differenz liegt damit
+  vermutlich an einer abweichenden, gröber gerundeten Verbrauchsannahme dieser Ausgabe (2008:
+  Verhältnis 0,60/0,34 ≈ 1,76, nicht exakt doppelt), nicht am Strompreis. Endgültig nur mit den
+  Original-kWh/kg-Werten dieser 2004er-Ausgabe auflösbar (nicht im Bestand).

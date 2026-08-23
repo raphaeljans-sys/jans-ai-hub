@@ -1,7 +1,7 @@
 ---
 title: Gebäudearten und Abstandssystem — Kanton Zürich
 status: established
-last_updated: 2026-08-17
+last_updated: 2026-08-23
 verifiziert:
   - datum: 2026-08-17
     methode: "Modell-D-Volltextabgleich, Buch-Run 74, Korpus-Queue Batch T4 (Merkblätter/Wegleitungen Thalwil) + zweiteiliger Fassungsstand-Check"
@@ -122,6 +122,19 @@ verwiesene kantonale Wortlaut (3 m) gilt, ist Auslegungsfrage und am Bauamt zu k
 `wiki/QUESTIONS.md`. **Sicher ist nur:** «keine Abstandsvorschriften» ist in jedem Fall zu
 weit, weil die BZO über privatrechtliche und strassenrechtliche Abstände nicht verfügen kann
 (Vierebenen-Prüfung → [[umgebungsgestaltung-und-einfriedungen]]).
+
+**Art. 24 Abs. 1/2 BZO Thalwil (vervollständigt Buch-Run 76, 23.08.2026, T5 «Besonderes
+Gebäude» — Ordner ohne eigenes Quellmaterial, direkt aus dem bereits ingesteten Bestand
+`raw/260607_amtlich_zh_bzo-thalwil.md` ergänzt, keine neue Divergenz):** Abs. 1 begrenzt
+Besondere Gebäude **gesamthaft auf 7 % der massgeblichen Grundfläche** (Fortführung von
+Art. 24 Abs. 1 auch nach Wegfall der revBZO-Bestimmung Art. 45, siehe
+[[negative-vorwirkung-und-bzo-revision]] und die Auflösung in
+`outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`). Abs. 2 erlaubt den
+**seitlichen und rückwärtigen Grenzbau ohne Nachbarzustimmung bis 6,00 m Gebäudelänge**,
+darüber hinaus gilt der reguläre Grenzabstand **3,50 m** (kantonaler Mindestgrenzabstand,
+oben). Beide Absätze sind reine Fliesstext-Bestimmungen ohne Tabellenstruktur und damit
+NICHT von der Linearisierungs-Falle betroffen (anders als die Grundmasse-Tabelle Art. 3,
+[[zonenkonformitaet]]).
 
 ## Anhang § 49 Abs. 3 PBG ist Ermächtigung, nicht Definition
 

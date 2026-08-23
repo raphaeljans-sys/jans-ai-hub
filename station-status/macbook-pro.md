@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 17:33:40
+Stand: 23.08.2026 17:54:16
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:33)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 17:33:40
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d7ee6005 nas-selfcommit: 2 Datei(en) 2026-08-23 17:30
+- 41c97ca4 wissens-destillat buero-projekte: Phase 2 Run 1 - Lesson 1318_Lorraine_Kueche destilliert, nerves-2015 auf established gehoben (Zweitbeleg)

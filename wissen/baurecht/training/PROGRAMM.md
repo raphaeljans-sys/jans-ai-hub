@@ -355,6 +355,31 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     Linearisierungs-Falle aus Run 56 tritt an einer zweiten, unabhängigen Gemeinde-BZO auf —
     stützt den Methodenhinweis, vor jedem «Wert nicht auffindbar» bei mehrspaltigen
     Amtstabellen eine Layout-Neuextraktion zu versuchen. Report: `outputs/2026-08-23_buch-run75.md`.
+  - **Run 76 (2026-08-23, Festigungsmodus, Priorität (d) Korpus-Queue Batch T5, kein
+    Agent-Fan-out):** **Batch T5 (Einzelthemen: Kniestock, Massgebendes Terrain, Besonderes
+    Gebäude, Fahrzeugabstellplätze, Fensterflächen, Spiel-/Ruhefläche, Baugespann,
+    Wohnungserhebung) erledigt — 4 von 8 T5-Ordnern lieferten CONFIRMED-Bestätigungen ohne
+    Wiki-Änderung, 4 lieferten echte Ergänzungen.** Kernbefund: das Kniestock-PDF ist kein
+    Thalwiler Dokument, sondern ein Scan der Standardwerk-Seiten 1232 f. — identisch mit dem
+    bereits am 2026-06-13 destillierten [[kap16-10_gebaeudedimensionen-harmonisierung]]
+    (CONFIRMED); daraus folgt der Kreuzbefund, dass Thalwils eigenes Art. 25 BZO weiterhin die
+    **alte** Drittel-/45°-Attikaregel führt, nicht die harmonisierte h/2-Regel — nachgetragen in
+    [[zonenkonformitaet]]. Zwei echte Lücken geschlossen: die **Gewachsener-Boden-Definition**
+    (überbaute/nicht überbaute Grundstücke, DLZ-Interpolationsbefugnis) aus dem bereits in
+    Run 74 gelesenen, aber nicht vollständig ausgewerteten Messweise-Merkblatt →
+    [[abstaende-und-hoehen]]; und die **Garageausfahrt-Neigung** (+3 %/-5 % innerhalb 6,0 m ab
+    Strassengrenze) aus der Wegleitung BZO Thalwil Nachführung 2020, Ziff. 6 — ebenfalls bereits
+    in Run 74 gelesen, dort aber nicht bis Ziff. 6 ausgewertet → [[fahrzeugabstellplaetze-und-parkierung]].
+    Art. 24 Abs. 1/2 BZO (7-%-Deckel, 6-m-Grenzbau) aus dem Bestand ergänzt, um den in Run 74
+    begonnenen Art.-24-Befund abzuschliessen → [[gebaeudearten-und-abstandssystem]]. Eine
+    Thalwil-spezifische Unterlagenliste (Wegleitung für das Baugesuch, September 2004, bislang
+    ungeprüft) als Anwendungsbeispiel → [[baubewilligungsverfahren]]. Eine unbelegte private
+    Web-Recherche zu Fahrzeugbreiten **nicht übernommen** (keine Quelle/Norm). **Methodische
+    Bestätigung:** wie in T2-T4 liegt die grösste Ausbeute im Cross-Check gegen bereits
+    gelesene, aber nicht vollständig ausgewertete Quellen, nicht im T5-Ordnermaterial selbst.
+    Kein neuer `raw/`-Volltext, kein neuer Wiki-Artikel, 5 bestehende Artikel geschärft.
+    Korpus-Queue steht bei 5 von 8 Batches (T1, T2, T3, T4, T5 erledigt); offen T6-T8.
+    Report: `outputs/2026-08-23_buch-run76.md`.
   - **Run 73 (2026-08-13, Festigungsmodus, Priorität (d) Korpus-Queue Batch T2 + Priorität (b),
     kein Agent-Fan-out):** **Die grösste gemessene Lücke der Priorität (d) ist geschlossen.**
     Neuer Wiki-Artikel **[[umgebungsgestaltung-und-einfriedungen]]** — Thema Nr. 4 der neun

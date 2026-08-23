@@ -3,6 +3,51 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (Buch-Run 76) — Korpus-Queue Batch T5 (Einzelthemen Thalwil) erledigt
+
+- [fix/confirm] **Kniestock-Ordner enthält kein Thalwiler Dokument**, sondern einen Scan der
+  Standardwerk-Seiten 1232 f. (Zürcher Planungs- und Baurecht Bd. 2, Kap. 16.10) — identisch
+  mit dem bereits am 2026-06-13 destillierten [[kap16-10_gebaeudedimensionen-harmonisierung]].
+  Gegengelesen: wortgleich, **CONFIRMED, 0 Korrekturen**.
+- [add] `wiki/zonenkonformitaet.md` — neue Sektion «Attikageschosse Thalwil — ungeharmonisiert
+  (Art. 25 BZO)»: Kreuzbefund aus dem Kniestock-Fund — Thalwil führt weiterhin die alte
+  Drittel-/45°-Attikaregel (Art. 25 Abs. 3 BZO verweist auf § 292 PBG alt), nicht die
+  harmonisierte h/2-Regel (63,43°) des Standardwerks; ergänzt um Art. 25 Abs. 1/2 (75-%-Deckel,
+  freie Anordnung).
+- [add] `wiki/abstaende-und-hoehen.md` — neue Passage «Gewachsener Boden —
+  Bezugspunkt-Bestimmung»: Definition nach dem Gemeinde-Merkblatt über die
+  Gebäudehöhen-Messweise (Thalwil, 20.01.2022) für nicht überbaute Grundstücke (Boden bei
+  Baugesuch), überbaute Grundstücke bei Anbau/Umbau (Boden bei Erstellung des Bestands) und
+  bei Abbruch/Neubau (heutiger Boden, bei starken partiellen Abgrabungen in Absprache mit dem
+  DLZ interpolierbar). Das Merkblatt war bereits in Run 74 (T4) gelesen, diese Definition aber
+  nicht ausgewertet — echte Lücke, kein neuer Ingest.
+- [add] `wiki/gebaeudearten-und-abstandssystem.md` — Musterfall Thalwil um Art. 24 Abs. 1
+  (Besondere Gebäude gesamthaft max. 7 % der massgeblichen Grundfläche) und Abs. 2 (Grenzbau
+  ohne Nachbarzustimmung bis 6,00 m Gebäudelänge, sonst 3,50 m Grenzabstand) ergänzt — schliesst
+  den in Run 74 auf Abs. 3 (Klammer-Falle) beschränkten Befund ab. Aus bereits vorhandenem
+  `raw/260607_amtlich_zh_bzo-thalwil.md` (T5-Ordner «Besonderes Gebäude» ist leer).
+- [add] `wiki/fahrzeugabstellplaetze-und-parkierung.md` — neue Sektion «Kommunale Anwendung:
+  Zufahrtsneigung Thalwil»: Garageausfahrt-Neigung max. +3 %/-5 % innerhalb 6,0 m ab
+  Strassengrenze, generischer VSS-Normen-Verweis für Abstellplätze/Zufahrten. Quelle:
+  Wegleitung BZO Thalwil Nachführung 2020, Ziff. 6 «Anforderungen an Bauten», S. 13 — bereits
+  in Run 74 gelesen, dort aber nicht bis Ziff. 6 ausgewertet. Als Verwaltungspraxis
+  eingeordnet, nicht als Wortlaut-Beleg der §§ 239/295 ff. PBG (die nur die Grundnorm tragen).
+- [add] `wiki/baubewilligungsverfahren.md` — neue Sektion «Kommunale Anwendung: Unterlagenliste
+  Thalwil»: aus der bislang ungeprüften «Wegleitung für das Baugesuch» (Baukommission Thalwil,
+  September 2004) — Formular Gebäude-/Wohnungserhebung, Parkplatzberechnung Art. 26 BZO,
+  Berechnung Spiel-/Ruheflächen Art. 28 BZO, Zustimmungserklärung Nachbar, Meldeblatt
+  Bodenverschiebungen. Aussteckungspflicht wortgleich mit dem bereits geführten § 311 PBG,
+  keine abweichende Zahl.
+- [confirm] Fahrzeugabstellplätze Art. 26 BZO, Spiel-/Ruheflächen Art. 27-29 BZO und
+  Fensterfläche 1/10 (deckt sich mit dem bereits als § 302 PBG geführten Kennwert in
+  [[wohnhygiene-und-raumanforderungen]]) **CONFIRMED** gegen Bestand, keine Wiki-Änderung nötig.
+- [flag] Ein Screenshot im Ordner «Fahrzeugabstellplätze» zeigt eine unbelegte private
+  Web-Recherche zu Fahrzeugbreiten (77 % > 2 m) — **nicht übernommen**, keine Quelle/Norm
+  auffindbar.
+- [register] `training/KORPUS-QUEUE-thalwil-reglemente.md` (T5 erledigt, Erledigt-Sektion
+  ergänzt), `training/PROGRAMM.md` (Tracker-Eintrag Run 76). Kein neuer `raw/`-Volltext, kein
+  neuer Wiki-Artikel — 5 bestehende Artikel geschärft. Report `outputs/2026-08-23_buch-run76.md`.
+
 ## 2026-08-23 (Buch-Run 75) — Korpus-Queue Batch T3 (Grundmasse Thalwil + SBV W3 + Zonenplan) erledigt
 
 - [ingest] `raw/260823_amtlich_zh_bzo-thalwil-grundmasse.md` — Art. 3 BZO Thalwil

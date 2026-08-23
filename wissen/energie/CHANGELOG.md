@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (dritte Fortsetzung): E-R129-1, E-R33-1 (Cross-KB) und E-R147-1 (Teil) bearbeitet
+
+Weitere Fortsetzung derselben Interaktiv-Session (zwei vorangehende Einträge unten). Drei
+Punkte aus `wiki/QUESTIONS.md` bearbeitet, alle KB-intern lösbar bzw. per gezieltem Web-Abruf,
+kein neuer PL-02/PL-04-Korpuszugriff nötig.
+
+- **E-R129-1 geschlossen (P2):** Der Raumschall-Grenzwert 25 dB(A) im AHB-Merkblatt Kontrollierte
+  Wohnungslüftung (2007) gegen SIA 181:2020 abgeglichen. Ergebnis: 25 dB(A) entspricht exakt der
+  heute geltenden **erhöhten** (Komfort-)Anforderung für Dauergeräusche in Wohnräumen mittlerer
+  Lärmempfindlichkeit (SIA-181-Kleinstwert), nicht der Mindestanforderung (28 dB(A)) — ein
+  Unterschied von 3 dB, der bei Übernahme in Ausschreibung/Werkvertrag zu benennen ist.
+  Eingearbeitet in `destillate/ahb-merkblatt-kontrollierte-wohnungslueftung.md` (Offene Punkte +
+  Frontmatter `datenstand` + Backlink zu `[[sia-181-schallschutz-anforderungswerte]]`).
+- **E-R33-1 geschlossen (P2, Cross-KB mit `normen`):** Die hausinterne Divergenz zur
+  SIA-387/4-Ausgabebezeichnung («2023» gegen «2017, aktualisiert 2023») war seit Run 33
+  (15.08.2026) offen, weil `normen` einen eigenen, datierten SIA-Shop-Abruf verlangte, den bis
+  heute niemand gemacht hatte. Direkter Abruf beider Produktseiten (23.08.2026):
+  **SIA 387/4:2017** gültig ab 01.05.2017, gültig bis 31.07.2023, archiviert (mit Korrigenda
+  C1 vom 01.04.2020); **SIA 387/4:2023** gültig ab 01.08.2023, aktiv, führt 2017 und C1:2020
+  ausdrücklich als archivierte Vorgänger. **Es ist eine eigenständige neue Ausgabe, keine
+  Aktualisierung** — die falsche Formulierung stand nur in
+  `destillate/aufzug-energieeffizienz-vdi4707.md` und ist dort korrigiert; die übrigen fünf
+  Fundstellen führten bereits korrekt «SIA 387/4:2023». Cross-KB-Bringschuld erfüllt: Nachtrag in
+  `wissen/normen/wiki/REGISTER.md` Zeile 315 und `wissen/normen/wiki/QUESTIONS.md` (N27-2).
+- **E-R147-1 teilweise geklärt (P3, bleibt `[~]`):** Die im Register vermutete Ursache für die
+  Differenz Wärmepumpen-Tumbler-Ersparnis 5'300 CHF (2004) gegen 3'900 CHF (2008) — geänderte
+  Strompreis-Annahme — ist widerlegt: beide Ausgaben rechnen mit 20 Rp./kWh. Die 2008er-Zahl
+  rechnet exakt auf (5'000 kg/Jahr × 0,26 kWh/kg-Differenz × 20 Rp./kWh × 15 Jahre = 3'900 CHF);
+  die 2004er-Ausgabe nennt für dieselbe Differenz nur die Faustregel «das Doppelte», ohne
+  kWh/kg zu beziffern. Wahrscheinlichste Ursache jetzt: abweichende, gröber gerundete
+  Verbrauchsannahme statt Strompreis — endgültig nur mit den fehlenden Original-kWh/kg-Werten
+  der 2004er-Ausgabe auflösbar. Eingearbeitet in
+  `destillate/haushaltgeraete-professionelle-beschaffung-2004-erstausgabe.md`.
+
+**Nicht angefasst:** E-R148-1 (Normkauf, Beschaffungsentscheid Raphaels), E-R149-4 (Task-Datei
+von der Harness blockiert), E-R150-3 (bewusst offen dokumentiert), E-R143-2 (gehört zu `normen`),
+E-R132-2/-3/-4, E-R131-2, E-R129-2/-4/-5, E-R134-2/-3/-4, E103, E94, E-R140-1, E-R138-2, E-S1
+(alle: Raphael-Entscheidung, Cross-KB-Zuständigkeit oder erneuter PL-02-Dateizugriff nötig).
+
 ## 2026-08-23 — Interaktive Session (Fortsetzung): E-R25-3 vollständig geschlossen, E-PL02-1/2 als Registerpflege geschlossen
 
 Fortsetzung der vorangehenden Interaktiv-Session desselben Tages (Eintrag unten), die

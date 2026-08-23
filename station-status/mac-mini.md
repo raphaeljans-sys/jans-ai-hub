@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 17:42:52
+Stand: 23.08.2026 17:53:08
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 17:37)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 17:42:52
 - keine
 
 ## Hub-Git-Stand (NAS)
-- ffe18448 wissen/normen: SIA-Sweep dritte Fortsetzung - N-SIASWEEP-2/-3 per offiziellen SIA-Publikationsverzeichnissen bracket-datiert
+- 41c97ca4 wissens-destillat buero-projekte: Phase 2 Run 1 - Lesson 1318_Lorraine_Kueche destilliert, nerves-2015 auf established gehoben (Zweitbeleg)

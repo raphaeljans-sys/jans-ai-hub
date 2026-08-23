@@ -3632,14 +3632,33 @@ durchfuehrbar.
 
 ## 2026-08-21 (Run 147) — Zwei divergente Frankenbeträge in derselben Rechenbeispiel-Familie
 
-- [ ] **E-R147-1 (P3, neu): Wärmepumpen-Tumbler-Ersparnis 5'300 CHF (Nov. 2004) gegen 3'900 CHF
-  (Jan. 2008) ungeklärt.** Zwei Auflagen desselben Stadt-Zürich/ewz-Flyers «Professionelle
-  Beschaffung: Haushaltgeräte» rechnen dasselbe Beispiel (Wärmepumpen-Tumbler vs. Standardgerät,
-  15 Jahre Nutzungsdauer) mit unterschiedlichem Ergebnis vor
+- [~] **E-R147-1 (P3): Wärmepumpen-Tumbler-Ersparnis 5'300 CHF (Nov. 2004) gegen 3'900 CHF
+  (Jan. 2008) — Strompreis-Hypothese widerlegt, Ursache eingegrenzt (23.08.2026).** Zwei
+  Auflagen desselben Stadt-Zürich/ewz-Flyers «Professionelle Beschaffung: Haushaltgeräte»
+  rechnen dasselbe Beispiel (Wärmepumpen-Tumbler vs. Standardgerät, 15 Jahre Nutzungsdauer) mit
+  unterschiedlichem Ergebnis vor
   (`[[haushaltgeraete-professionelle-beschaffung-2004-erstausgabe]]` gegen
-  `[[haushaltgeraete-effizienz-beschaffung-topten]]`, FAQ F210). Vermutete Ursache: geänderte
-  Strompreis-Annahme zwischen 2004 und 2008, nicht verifiziert. Geringe Dringlichkeit — beide
-  Zahlen sind 2026 ohnehin nicht mehr zitierfähig, nur das Gesamtkosten-Prinzip trägt.
+  `[[haushaltgeraete-effizienz-beschaffung-topten]]`, FAQ F210).
+  **Die im Register vermutete Ursache (geänderte Strompreis-Annahme) ist widerlegt:** beide
+  Ausgaben rechnen mit demselben Strompreis **20 Rp./kWh** — die 2008er-Ausgabe nennt ihn im
+  selben Rechenbeispiel explizit («0.34 bzw. 0.6 kWh/kg Wäsche, 20 Rp./kWh Strom»), die
+  2004er-Ausgabe nennt denselben Satz im direkt benachbarten Beispiel derselben Seite (Beispiel-
+  Wohnung, «Stromverbrauch 3'300 kWh à 20 Rp./kWh»). **Nachgerechnet stimmt die 2008er-Zahl exakt:**
+  5'000 kg/Jahr × (0,60 − 0,34) kWh/kg × 20 Rp./kWh × 15 Jahre = 3'900 CHF. **Die 2004er-Ausgabe
+  nennt für denselben Verbrauchsunterschied nur die runde Vereinfachung «das Doppelte an Strom»,
+  ohne die zugrundeliegenden Kilowattstunden je Kilogramm zu beziffern** (im Destillat dieser
+  Ausgabe nicht extrahierbar — Fliesstext, keine Tabelle). Damit ist der naheliegendste Grund für
+  die Differenz **nicht mehr der Strompreis, sondern eine unterschiedliche Verbrauchsannahme**:
+  die 2008er-Zahlen ergeben ein Verhältnis von 0,60/0,34 ≈ 1,76 (nicht exakt doppelt), während die
+  2004er-Ausgabe mit der runden Faustregel «doppelt» rechnet — bei einer höher angesetzten
+  Referenz (z. B. rund 0,35 statt 0,34 kWh/kg für den Wärmepumpen-Tumbler, exakt verdoppelt für
+  den Standardtumbler) ergäbe sich rechnerisch ein Wert nahe 5'300 CHF. **Endgültig auflösbar nur
+  mit den in dieser KB nicht vorliegenden Original-Verbrauchszahlen (kWh/kg) der 2004er-Ausgabe**
+  — die PDF-Textextraktion dieser Ausgabe hält laut Destillat nur die Faustregel «doppelt» fest,
+  keine Kilowattstunden-Zahl. Bleibt P3/offen für einen Lauf mit erneutem PDF-Zugriff; für die
+  Praxis unverändert: beide Zahlen sind 2026 nicht mehr zitierfähig, nur das
+  Gesamtkosten-Prinzip trägt. Eingearbeitet in
+  `destillate/haushaltgeraete-professionelle-beschaffung-2004-erstausgabe.md`.
 
 ## 2026-08-21 (Run 148) — E-R144-1 geschlossen; der Korpus ist erschöpft, der Engpass ist ein Normkauf
 

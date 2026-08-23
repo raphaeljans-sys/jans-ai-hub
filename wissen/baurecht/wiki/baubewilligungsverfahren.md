@@ -1,8 +1,8 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-07-20
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md]
+last_updated: 2026-08-23
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004"]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]]
 verifiziert:
   - datum: 2026-07-13
@@ -174,6 +174,21 @@ ggf. Lärm-/Altlastennachweis.
 > Namensgleichheit:** das hier gemeinte **§ 2a BVV** (Bauverfahrensverordnung LS 700.6) ist NICHT
 > das **§ 2a ABV** (Allgemeine Bauverordnung LS 700.2) für Klein-/Anbauten
 > (vgl. [[gebaeudearten-und-abstandssystem]]). Bring-Schuld baurecht-Loop damit **erledigt**.
+
+### Kommunale Anwendung: Unterlagenliste Thalwil (Buch-Run 76, T5, 23.08.2026)
+
+Wegleitung fuer das Baugesuch, Baukommission Thalwil, September 2004 (3 Seiten; bislang
+ungeprueftes Dokument im T5-Ordner «Baugespann», Aussteckungs-Passage wortgleich mit dem
+generischen § 311 PBG oben, keine abweichende Frist/Zahl). Ueber die kantonale Grundliste
+hinaus fuehrt Thalwil folgende **projektartabhaengige** Beilagen: **Formular Gebaeude- und
+Wohnungserhebung** (1-fach, Pflichtbeilage bei jedem Baugesuch — Formularlink T5-Ordner
+«Wohnungserhebung» zeigt auf `www.zh.ch/.../formulare-baueingabe.html`, keine eigene
+Rechtsgrundlage, rein administrativ), **Parkplatzberechnung nach Art. 26 BZO** (2-fach, siehe
+[[fahrzeugabstellplaetze-und-parkierung]]), **Berechnung Spiel- und Ruheflaechen nach Art. 28
+BZO**, **Zustimmungserklaerung des Nachbarn** bei Grenzbau (§§ 287-289 PBG) und Naeherbau, und
+ein **Meldeblatt zu Bodenverschiebungen**. Illustriert, wie die generische kantonale
+Unterlagenliste (oben) sich in einer konkreten Gemeinde mit BZO-Artikelverweisen fuellt — als
+Vorlage fuer andere Gemeinden pruefbar, aber nicht 1:1 uebertragbar.
 
 ## Häufige Stolpersteine
 Unvollständige Unterlagen (Nachforderung mit Zeitverlust), Baugespann nicht

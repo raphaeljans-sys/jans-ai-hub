@@ -1,3 +1,68 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung: drei offene Fragen geschlossen, neuer Zugangsweg SharePoint-Originale via M365-Graph-Connector
+
+Auftrag Raphael: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage
+(Norm, Ausgabe, Ziffer), Verifikationsstatus vor Zitat lesen. Vorlauf gelesen: dieser CHANGELOG
+und `outputs/2026-08-23_sia-sweep-fortsetzung3.md` (letzter Lauf desselben Tages).
+
+**Neuer Zugangsweg (Infrastruktur-Ertrag dieses Laufs):** Die SharePoint-Originale unter
+`PL - 02_Recht_Norm` und `PL - 03 Brandschutz` waren auf dieser Station (Mac Mini) über den
+Finder-Mount nicht erreichbar (OneDrive-Bibliothek nicht in diesem Konto gesynct/sichtbar,
+`ls`/`find` liefern nichts, ein Duplikat-Pfad unter `Group Containers` haengt uninterruptibel).
+Ausweg: der bereits vorhandene `connectors/m365-graph.mjs` (Zertifikats-Auth) kann per
+`--get "/sites/{id}/drives"` und `--get "/drives/{id}/root/search(q='…')"` jede Datei der
+SharePoint-Site **PL** unabhaengig vom lokalen Sync-Zustand auffinden. Da der Connector selbst
+keine Binaerdaten herunterlaedt, wurde ein Wegwerf-Hilfsscript (`/tmp/normen-dl.mjs`, dieselbe
+Zertifikats-Auth dupliziert, nicht ins Repo uebernommen) fuer `/content`-Downloads ergaenzt. Für
+den VKG-Publikationsportal-Weg (`BSPUB-1394520214-<NR>`, bereits aus fruehen Laeufen bekannt)
+gilt weiterhin einfacher `curl`. Kein Eingriff in Sync-Einstellungen (Rule
+`interaktive-eingriffe.md` Klasse 2 unberuehrt) — der Connector liest nur.
+
+**1. QUESTIONS 260807 (E_vm-Divergenz SIA 2056 Tab. 42 / SIA 387/4 Tab. 4) — GESCHLOSSEN.** Beide
+Originale gelesen (SIA 2056 S. 38 als Rendering, SIA 387/4 S. 17-19 per Textlayer). Ergebnis: kein
+Rechenfehler-Risiko, sondern zwei Normen belegen denselben Formelbuchstaben mit unterschiedlichem
+Inhalt — SIA 2056s «E_vm» (Formel 18, kein k_0-Term) besetzt strukturell die Position, die SIA
+387/4 «E_0» nennt (Formel 2, E_0 = k_0·E_vm); numerisch am Bettenzimmer bestaetigt: SIA 2056
+Tab. 42 E_vm = 300 lx = SIA 387/4 Tab. 4 E_0 = 3 × 100 lx. Klärung in beide Destillate eingetragen
+(`sia-592-056.md`, `sia-387-4-2017.md`, gegenseitig verlinkt), kein Umbenennen/Merge nötig.
+
+**2. QUESTIONS 260823 BRL 17-15 Teil 2 (Begriff «Technikraum Sicherheitsstromversorgung») —
+GESCHLOSSEN.** BRL 10-15 «Begriffe und Definitionen» (Fassung 01.01.2015, Volltext durchsucht)
+definiert den Begriff nicht; die vollstaendige Fassungs-Delta-Kette bis 01.01.2019
+(`vkf-brl-10-15-fassung-2019-delta.md`, alle elf 2016/2018 neu gefassten Begriffe) enthaelt ihn
+ebenfalls nicht. Der Ausdruck in BRL 17-15 bezeichnet damit einen projektspezifisch zu
+definierenden Brandabschnitt, keinen normierten VKF-Begriff. Nachtrag in
+`vkf-brl-17-15-fassung-2017-delta.md`.
+
+**3. QUESTIONS N59-3 (Kap. 2.17 «Gefaehrliche Stoffe» im Verzeichnis 40-15, nur Textlayer
+geprueft) — GESCHLOSSEN.** Beide Fassungen (2015 Hausbestand via SharePoint, 2025 direkt vom
+VKG-Portal) unabhaengig neu geladen und per frischer `pdftotext`-Extraktion gegengeprueft; alle im
+bestehenden Delta-Destillat (`vkf-verz-40-15-fassung-2025-delta.md`) gefuehrten «neu»- und
+«entfallen»-Positionen aus 2.17 per Volltextsuche im 2025er-Extrakt bestaetigt (u.a. SUVA 66122/
+67068 und CARBURA Teil F als neu; Sicherheitsdokument 1501-00 und VKF-BSR 27-03/28-03 alte
+Nummerierung als entfallen — Null-Treffer). Zusaetzlich S. 18 (2025) als Rendering gegen Textlayer
+gelesen, deckungsgleich. Kap. 2.7-2.12, 2.15/2.16, 2.18/2.19, 3.1-3.5 bleiben unveraendert offen
+(schwaecherer, nicht einzeln nachgezogener Vorbehalt).
+
+**Nicht geleistet:** die drei N-SIASWEEP-Fragen (bereits dreifach vertieft am selben Tag durch
+Vorlaeufer-Sessionen) wurden nicht erneut bearbeitet, um Doppelarbeit zu vermeiden. Report:
+`outputs/2026-08-23_questions-abarbeitung.md`.
+
+## 2026-08-23 — Cross-KB-Nachtrag aus `energie`: N27-2-Auftrag (SIA-387/4-Produktseite) erfüllt
+
+Die KB `energie` hat im Rahmen ihrer eigenen QUESTIONS-Abarbeitung (interaktive Session) den in
+`wiki/QUESTIONS.md` (N27-2, Cross-KB Wissens-Chef Run 28, 07.08.2026) hinterlegten Auftrag
+ausgeführt: den eigenen, datierten Abruf der SIA-387/4-Produktseite auf `shop.sia.ch`, den diese
+KB als Voraussetzung für eine Fassungsaussage verlangt hatte. Ergebnis (23.08.2026): **SIA
+387/4:2017** gültig ab 01.05.2017, gültig bis 31.07.2023, archiviert (mit Korrigenda C1 vom
+01.04.2020); **SIA 387/4:2023** gültig ab 01.08.2023, aktiv, führt 2017 und C1:2020 ausdrücklich
+als archivierte Vorgänger — **eine eigenständige neue Ausgabe, keine blosse Aktualisierung der
+2017er-Fassung.** Nachgetragen in `wiki/REGISTER.md` Zeile 315 und `wiki/QUESTIONS.md` (N27-2).
+Bestand im Haus bleibt weiterhin die 2017er-PDF; Beschaffung und Re-Destillat der 2023er-Ausgabe
+ist ein neuer, eigener Auftrag. Der ZH-Vollzugs-Vorbehalt (BBV I ZH nennt für EN-111 weiterhin die
+Ausgabe 2017 als beachtliche Richtlinie nach § 360 Abs. 3 PBG, Wissens-Chef Run 32) bleibt
+unverändert bestehen. Gegenrichtung: `wissen/energie/wiki/QUESTIONS.md` E-R33-1 geschlossen,
+`wissen/energie/destillate/aufzug-energieeffizienz-vdi4707.md` korrigiert.
+
 ## 2026-08-23 — SIA-Sweep, dritte Fortsetzung: N-SIASWEEP-2/-3 per offiziellen SIA-Publikationsverzeichnissen bracket-datiert
 
 **Auftrag Raphael:** den SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im

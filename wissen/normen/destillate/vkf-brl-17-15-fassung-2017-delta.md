@@ -188,8 +188,11 @@ Text-Diff unsichtbar geblieben und ist hier nicht ausgeschlossen.
   Tabellenvergleich vom Hauptprozess an eigenen Renderings beider Fassungen (200 dpi, gedruckte
   S. 9) unabhängig nachgelesen und bestätigt.
 - Der Begriff «Technikraum Sicherheitsstromversorgung» (neu in Ziff. 3.3.2-Anhang, S. 12) ist in
-  der BRL 17-15 nicht definiert; ob er im Glossar BRL 10-15 (Fassung 2017 oder 2019) auftaucht,
-  wurde in diesem Lauf nicht geprüft.
+  der BRL 17-15 nicht definiert. **Geprüft und geschlossen 23.08.2026** (`wiki/QUESTIONS.md`,
+  Eintrag 260823 BRL 17-15 Teil 2): er taucht auch im Glossar BRL 10-15 nicht auf, weder in der
+  Fassung 2015 (Volltext durchsucht) noch unter den elf durch die Fassung 2019 neu gefassten
+  Begriffen — kein normierter VKF-Begriff, sondern ein projektspezifisch zu definierender
+  Brandabschnitt.
 - Ob nach der Fassung 01.01.2017 weitere Fassungen existieren — nicht Gegenstand dieses Laufs,
   ausschliesslich 2015 vs. 2017 verglichen.
 - Das Bestandsdestillat [[vkf-brl-17-15-kennzeichnung-fluchtwege]] bleibt mit Status `superseded`
