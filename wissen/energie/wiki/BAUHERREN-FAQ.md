@@ -752,12 +752,14 @@ so viel wie im Winter** — den Winter-Heizstrom deckt PV nicht.
 | **Spez. Ertrag** | 981 kWh/kWp | ~1'025 kWh/kWp |
 | Jahresproduktion | 7'743 kWh | 6'148 kWh |
 | **Eigenverbrauch** (o. Speicher) | 44 % der Produktion | ~8 % |
-| **Autarkie/Unabhängigkeit** | 53 % | — (Single, kaum Tagslast) |
+| **Deckungsgrad** (im Bericht «Unabhängigkeit») | 53 % | — (Single, kaum Tagslast) |
+| **echte Autarkie** = Eigenverbrauch/Verbrauch | **23 %** (3'386/14'500) | — |
 | Sommer : Winter | ~3 : 1 | ~4 : 1 (771 vs. 188 kWh/Mt) |
 
 **Drittes Beispiel — grosses MFH/Gewerbe (Basel, 60 kWp Indach, 2022):** Produktion 49'579 kWh/a
-(~826 kWh/kWp Stadtlage), Verbrauch 48'000 kWh/a → **Eigenverbrauch 33 %**, Autarkie 103 % in der
-Jahresbilanz. Das füllt die Lücke zwischen Single (8 %) und WP-Haushalt (44 %): **je mehr
+(~826 kWh/kWp Stadtlage), Verbrauch 48'000 kWh/a → **Eigenverbrauch 33 %**, Deckungsgrad 103 % in
+der Jahresbilanz (⚠ **nicht** Autarkie — die beträgt 16'205/48'000 = **34 %**, Korrektur
+23.08.2026, Begriffsfalle in F255). Das füllt die Lücke zwischen Single (8 %) und WP-Haushalt (44 %): **je mehr
 Tagverbrauch (Gewerbe, mehrere Parteien), desto höher der Eigenverbrauch** — im MFH zusätzlich
 über **ZEV/Mieterstrom** hebbar.
 
@@ -934,6 +936,13 @@ ist mit **rund 85 %** zu rechnen. Der Vergleich 852 gegen 1'000 ist eine **Nähe
 Richtwert ist ein CH-Mittel, kein Basler Standortwert); projektgenau rechnet
 `[[tachion-solarrechner-energieschweiz]]` bzw. sonnendach.ch/PVGIS mit Azimut und Neigung als
 Parameter. → `[[solarreport-solarapp-basel-2022]]`, `[[pv-ertrag-eigenverbrauch-praxis]]`.
+
+**Nachtrag 23.08.2026 — der Vergleich steht jetzt auf einem gleichartigen Anker.** Ein zweites
+Vorprojekt **desselben Werkzeugs** liefert den Süd-Referenzpunkt: Willerzell SZ, Schrägdach Ziegel,
+**Ausrichtung −1 Grad Süd bei 30° Neigung**, spezifischer Ertrag **981 kWh/kWp**. Gegen diesen
+Wert liegt das Basler Ost-West-Satteldach mit 45° bei **84 bis 87 %** — gemessen wird damit die
+Ausrichtung und nicht der Unterschied zweier Rechenkerne. Die Zeile «gegen 85 % beim steilen
+Ost-West-Satteldach» ist damit belegt und nicht mehr nur genähert.
 
 **Quelle:** Swissolar «Anwendung Photovoltaik» (Maximum 115 % bei Süd 30°, Basis Horizontale; «≤45°
 von Süden besonders gut geeignet») + solar-ratgeber.ch «Dach-Ausrichtung» (CH-Prozentwerte je
@@ -8464,7 +8473,7 @@ Gedeckelt ist die EIV auf **maximal 30 %** der Referenz-Investitionskosten. Rech
 
 **Kurz:** Ja, und häufig sogar mit besserer Eigenverbrauchsquote als ein Süddach. Der Jahresertrag pro installiertem Kilowatt fällt gegenüber der Südausrichtung spürbar tiefer aus, dafür verteilt sich die Produktion über den Tag statt sich mittags zu bündeln. Weil selbst verbrauchter Strom deutlich mehr wert ist als eingespeister, gleicht das einen Teil des Ertragsverlusts wieder aus. Entscheidend ist nicht der spezifische Ertrag, sondern was am Ende im eigenen Haus bleibt.
 
-**Fachlich:** Ein belegtes Schweizer Fallbeispiel zeigt die Grössenordnung. Für ein Neubau-Mehrfamilienhaus am Schliengerweg in Basel weist ein PV-Vorprojekt vom 05.11.2022 zwei Dachflächen mit den Azimuten 89° und -90° zu Süd bei 45° Dachneigung aus, also ein reines Ost-West-Satteldach, und rechnet für 59.93 kWp mit einem spezifischen Ertrag von **827 bis 852 kWh/kWp** (die Bandbreite entsteht durch eine Inkonsistenz im Bericht selbst: die Teilflächentabelle summiert 51'029 kWh/a, die Wirtschaftlichkeitsrechnung fährt mit 49'579 kWh/a). Die Monatsanalyse desselben Berichts macht den Eigenverbrauchseffekt sichtbar: die Eigenverbrauchsquote schwankt zwischen 51 % im Januar und 26 % im Juli, im Jahresmittel 33 %, bei einem Selbstversorgungsgrad von 103 % übers Jahr. Der Wert des eigenverbrauchten Stroms liegt in der 40-Jahres-Rechnung mit CHF 178'700 deutlich über dem des eingespeisten mit CHF 115'015, obwohl mengenmässig mehr eingespeist als selbst verbraucht wird — 33'374 gegenüber 16'205 kWh im Jahr. Genau darin liegt der wirtschaftliche Hebel der Ost-West-Ausrichtung. ⚠ Eine belastbare **Schweizer** Primärquelle für das Ertragsverhältnis Ost-West zu Süd in Prozent liegt in der KB nicht vor; die kursierende Spanne von 80 bis 90 % stammt aus deutschen Anbieterportalen und ist nicht übernommen.
+**Fachlich:** Ein belegtes Schweizer Fallbeispiel zeigt die Grössenordnung. Für ein Neubau-Mehrfamilienhaus am Schliengerweg in Basel weist ein PV-Vorprojekt vom 05.11.2022 zwei Dachflächen mit den Azimuten 89° und -90° zu Süd bei 45° Dachneigung aus, also ein reines Ost-West-Satteldach, und rechnet für 59.93 kWp mit einem spezifischen Ertrag von **827 bis 852 kWh/kWp** (die Bandbreite entsteht durch eine Inkonsistenz im Bericht selbst: die Teilflächentabelle summiert 51'029 kWh/a, die Wirtschaftlichkeitsrechnung fährt mit 49'579 kWh/a). Die Monatsanalyse desselben Berichts macht den Eigenverbrauchseffekt sichtbar: die Eigenverbrauchsquote schwankt zwischen 51 % im Januar und 26 % im Juli, im Jahresmittel 33 %, bei einem vom Bericht ausgewiesenen «Unabhängigkeitswert» von 103 % übers Jahr — ⚠ **Korrektur 23.08.2026: das ist der Deckungsgrad (Produktion/Verbrauch), nicht der Selbstversorgungsgrad; die echte Autarkie beträgt 16'205/48'000 = 34 %, siehe F255.** Der Wert des eigenverbrauchten Stroms liegt in der 40-Jahres-Rechnung mit CHF 178'700 deutlich über dem des eingespeisten mit CHF 115'015, obwohl mengenmässig mehr eingespeist als selbst verbraucht wird — 33'374 gegenüber 16'205 kWh im Jahr. Genau darin liegt der wirtschaftliche Hebel der Ost-West-Ausrichtung. ⚠ Eine belastbare **Schweizer** Primärquelle für das Ertragsverhältnis Ost-West zu Süd in Prozent liegt in der KB nicht vor; die kursierende Spanne von 80 bis 90 % stammt aus deutschen Anbieterportalen und ist nicht übernommen.
 
 **Verhältnis zu F26 — und der Punkt, den F26 verschluckt:** F26 führt die CH-Richtwerte je
 Ausrichtung und nennt für **Ost oder West 90 bis 95 %** des Süd-Optimums. Das Basler Fallbeispiel
@@ -8490,3 +8499,69 @@ der Richtwert ein CH-Mittel und kein Basler Standortwert ist.)
 **Bauherren-Transfer:** Die Transparenz erkauft man mit Ertrag, denn jeder Prozentpunkt Lichtdurchlass ist Fläche, die keinen Strom macht. Das teiltransparente Modul rechnet sich deshalb nicht als Kraftwerk, sondern dort, wo es **ein Bauteil ersetzt**, das ohnehin gebaut und bezahlt würde: die Verglasung des Vordachs, die Überdachung des Sitzplatzes, die Pergola. Beim bifazialen Modul entscheidet der Untergrund über den Mehrertrag, und die Spanne von 5 bis 35 % ist entsprechend gross — heller Kies oder eine weisse Flachdachbahn liegen am oberen Rand, eine dunkle Bitumenbahn am unteren. Beide Angaben sind Herstellerangaben aus Datenblättern und gehören vor der Zusage an die Bauherrschaft mit einer Ertragssimulation für das konkrete Objekt hinterlegt. Für den Brandschutzanschluss ans Gebäude gilt unverändert der Stand der Technik von Swissolar, nicht das Modul-Datenblatt.
 
 **Quelle:** `[[pv-spezialmodule-transparent-bifazial-datenblaetter]]` (SI-Saphir M175-M180, Stand 06/2015, und Megasol M385-HC120, Version 10/2022, je 2 S. vollständig gelesen 21.08.2026). Indach-Montage: `[[sunskin-roof-indach-planung]]`, `[[prefa-solar-indach-aluminium-dachplatte]]`. Brandschutz: `[[swissolar-stp-vkf-brandschutz-solaranlagen]]` und Skill `brandschutz`. ⚠ Das SI-Saphir-Datenblatt ist elf Jahre alt; Lieferbarkeit und Kennwerte sind vor einer Ausschreibung beim Hersteller zu bestätigen. Aufgenommen Run 149, 23.08.2026.
+
+## F253 — «Was kostet eine Photovoltaik-Anlage pro Kilowatt — und warum ist die kleine Anlage so viel teurer?»
+
+**Kurz:** Zwei Dinge treiben den Kostenkennwert: die **Anlagengrösse** und das **Modulformat**. Der Marktrahmen 2025 liegt bei rund **CHF 2'400 bis 3'200 pro kWp** für Kleinanlagen von 5 bis 15 kWp und bei etwa **CHF 2'400** im Median für 10 bis 30 kWp. Ein belegtes Vorprojekt für ein **kleinteiliges Solarziegel-Indachsystem** sprengt diesen Rahmen deutlich: **rund CHF 7'370 pro kWp** — bei 7,9 kWp, also **in derselben Grössenklasse**, das Zwei- bis Dreifache des Marktbands. Wer die Anlage über Solarziegel ins Dachbild einbindet, zahlt diese Gestaltungsentscheidung im Kostenkennwert.
+
+**Fachlich:** Der Vergleich stammt aus zwei SolarApp-Vorprojekten in der Bürobibliothek.
+
+| | Willerzell SZ (09.01.2024) | Basel (05.11.2022) |
+|---|---|---|
+| Leistung | 7,90 kWp | 59,93 kWp |
+| Module | **252 Solarziegel** à 25/32/76 Wp (MATCH tile) | **162 Grossmodule** à 340 Wp (Glas-Glas, LEVEL) |
+| Belegte Dachfläche | 92 m² → **11,6 m²/kWp** | Grossmodul, rund 5 bis 6 m²/kWp |
+| Investition inkl. MwSt | CHF 58'198 | CHF 135'257 |
+| **Kostenkennwert** | **rund CHF 7'370/kWp** | **rund CHF 2'250/kWp** |
+| Einmalvergütung Bund | CHF 3'674 = **6,3 %** der Investition | CHF 22'861 = **16,9 %** |
+
+**Der aussagekräftigere Vergleich ist aber der innerhalb derselben Grössenklasse.** Willerzell hat 7,9 kWp und fällt damit genau in das Marktband für Kleinanlagen von 5 bis 15 kWp, das die KB mit **CHF 2'400 bis 3'200/kWp (Stand 2025)** führt. Mit rund CHF 7'370/kWp liegt die Anlage beim **2,3- bis 3,1-Fachen** dieses Bands — und zwar **ohne** dass die Anlagengrösse als Erklärung taugt, denn die ist dieselbe. ⚠ Das ist mehr, als die KB bisher annahm: Der Themenartikel führt kleinteilige Solarziegel bislang mit «~doppelt» gegenüber Standardmodulen. Dieser Einzelfall liegt darüber. Ein Einzelfall ist keine Marktstatistik, aber die Faustregel «doppelt» ist damit die **untere** Grenze, nicht der Erwartungswert.
+
+Drei Treiber stecken dahinter. **(1) Das Modulformat.** 252 Ziegel statt 162 Module heisst mehr Stück, mehr Haken (in Willerzell 504 Stück in drei Typen), mehr Steckverbindungen, mehr Montagezeit je Kilowatt — und die Ziegelfläche liefert je Quadratmeter weniger Leistung, weshalb 92 m² Dach für nur 7,9 kWp draufgehen. **(2) Die grössenunabhängigen Fixkosten.** In Willerzell summieren sich Absturzsicherung und Gerüst (CHF 2'950 für 29 m), Projektleitung und Meldungen (CHF 1'320), Blitz- und Überspannungsschutz (CHF 658), Überwachung (CHF 548) und Inbetriebnahme (CHF 419) auf rund **CHF 5'900** — bei der kleinen Anlage sind das gut **10 % der Gesamtinvestition**, bei einer dreimal grösseren Anlage fallen sie kaum stärker an und verteilen sich auf viel mehr Kilowatt. **(3) Die Förderung skaliert mit.** Weil die Einmalvergütung an der Leistung hängt, deckt sie bei der kleinen Anlage einen kleineren Anteil der Investition. ⚠ Bemerkenswert: **beide Anlagen bleiben unter der Faustregel «20 bis 30 % der Investitionskosten», die das Glossar des Berichts selbst nennt** — die Faustregel taugt für die Bauherren-Kommunikation nicht.
+
+**Bauherren-Transfer:** Die Frage im Vorprojekt lautet nicht «wie viele Kilowatt passen aufs Dach», sondern **«welches Modulformat verträgt das Dachbild»**. Auf einem Dach ohne gestalterische Auflage ist das grossformatige Indach- oder Aufdachmodul die klar günstigere Lösung. Wo die Ortsbild- oder Denkmalpflege ein durchgehendes Ziegelbild verlangt, ist das Solarziegel-System technisch richtig, kostet aber ein Mehrfaches je Kilowatt — und diese Differenz gehört **vor** dem Systementscheid auf den Tisch, nicht nachher in die Schlussabrechnung. Für die Kostenschätzung im Vorprojekt: mit **CHF 2'000 bis 2'500/kWp** für Grossmodul-Anlagen ab rund 30 kWp rechnen und mit einem **Mehrfachen** davon für kleinteilige Solarziegel-Systeme unter 10 kWp. ⚠ Beides sind Anbieter-Richtpreise aus Vorprojekten «ohne Gewähr», keine Marktstatistik; für eine Kostenschätzung mit Verbindlichkeit braucht es zwei bis drei echte Offerten.
+
+**Quelle:** `[[pv-ertrag-eigenverbrauch-praxis]]`, Beispiele A und C (SolarApp AG, Vorprojekte vom 09.01.2024 und 05.11.2022; Beispiel A S. 1-23 vollständig gelesen, Richtofferte S. 11 nachgerechnet 23.08.2026: Material 42'218.24 + Arbeit 11'619.17 + 8,1 % MwSt = CHF 58'198), `[[solarreport-solarapp-basel-2022]]`. Einmalvergütung und Tarife: `[[pv-einmalverguetung-bund-bfe]]` (F250). Kostenkennwerte aus anderer Quelle: `[[pv-kosten-amortisation-praxis-ewz]]`. ⚠ Datenstand 2022 und 2024, CHF-Werte marktabhängig. Aufgenommen Run 150, 23.08.2026.
+
+## F254 — «Kann sich eine Photovoltaik-Anlage auch nicht lohnen?»
+
+**Kurz:** Ja. Die Bürobibliothek enthält einen belegten Fall, in dem ein Anbieter-Vorprojekt selbst eine **Rendite von −2,02 % pro Jahr** ausweist und die Anlage über den ganzen Betrachtungszeitraum von 40 Jahren **nie den Break-even erreicht**. PV rechnet sich nicht automatisch — sie rechnet sich, wenn Kostenkennwert, Eigenverbrauchsanteil und der Abstand zum Netztarif zusammenpassen. Bei diesem Objekt tat keiner der drei Punkte das.
+
+**Fachlich:** Das Vorprojekt Willerzell SZ vom 09.01.2024 (7,90 kWp Solarziegel-Indach, Süddach 30°, Einfamilienhaus) rechnet mit vollständiger Eigenfinanzierung über 40 Jahre:
+
+| Position | Wert |
+|---|---|
+| Investition inkl. MwSt | CHF 58'198 |
+| − Einmalvergütung (Auszahlung nach 1 Jahr) | CHF 3'674 |
+| **Nettoinvestition** | **CHF 54'524** |
+| Bruttoertrag über 40 Jahre | CHF 56'031 |
+| − Unterhaltskosten | CHF 7'742.50 |
+| − Kapitalkosten | CHF 1'405.80 |
+| Nettoertrag | CHF 46'882.75 |
+| **Gewinn nach Abzug Baukosten** | **CHF −11'315.49** |
+| **Rendite pro Jahr** | **−2,02 %** |
+| Gestehungskosten PV-Strom gegen Netztarif | 22,56 gegen 24,00 Rp/kWh → **Kostenvorteil nur 6 %** |
+
+Der Vergleich mit dem Basler Objekt aus derselben Werkzeugfamilie zeigt, woran es liegt: dort 9,56 gegen 24,00 Rp/kWh, **Kostenvorteil 60 %**, Rendite +3,25 % pro Jahr, Amortisation nach 21 Jahren. Der Unterschied ist **nicht** die Sonne — Willerzell hat mit 981 kWh/kWp sogar den besseren spezifischen Ertrag, weil es ein Süddach mit 30° ist. Der Unterschied ist der **Kostenkennwert** (rund CHF 7'370 gegen 2'250 je kWp, F253) und die **Anlagengrösse**, an der auch die Förderquote hängt.
+
+**Bauherren-Transfer:** Aus dem Fall folgen vier Prüfpunkte, bevor eine PV-Anlage zugesagt wird. **(1) Gestehungskosten gegen Netztarif** — liegt der Abstand im einstelligen Prozentbereich, trägt die Anlage keinen Puffer für Strompreisschwankungen, Reparaturen oder einen früheren Wechselrichterersatz. **(2) Kostenkennwert je kWp** — das kleinteilige Ziegelsystem ist der teuerste Weg auf dasselbe Dach. **(3) Eigenverbrauchsanteil** — jede selbst verbrauchte Kilowattstunde ist beim heutigen Einspeisetarif von 7,50 Rp gegen 24,00 Rp Bezugstarif gut dreimal so viel wert; wer den Eigenverbrauch über Wärmepumpe, Warmwasser oder Ladestation hebt, kippt die Rechnung schneller als über zusätzliche Module. **(4) Was in der Rechnung fehlt** — dieses Modell unterstellt vollständige Eigenfinanzierung ohne Fremdkapital, rechnet keine Steuerersparnis auf den Unterhalt und schreibt den Strompreis mit nur 1 % pro Jahr fort; steigt der Netztarif stärker, verbessert sich das Ergebnis deutlich. **Die ehrliche Auskunft an die Bauherrschaft lautet deshalb nicht «PV lohnt sich nicht», sondern: «diese Anlage in dieser Ausführung rechnet sich knapp negativ, und hier sind die drei Stellschrauben».** Wer ein durchgehendes Ziegelbild aus gestalterischen Gründen will, trifft damit eine bewusste Entscheidung gegen die Rendite — das ist legitim, muss aber vorher gesagt sein.
+
+**Quelle:** `[[pv-ertrag-eigenverbrauch-praxis]]`, Beispiel A, S. 13-14 (SolarApp AG, Vorprojekt vom 09.01.2024, gelesen und nachgerechnet 23.08.2026), Gegenbeispiel `[[solarreport-solarapp-basel-2022]]`. Kostenkennwerte F253, Eigenverbrauchs-Hebel F18 und `[[pv-eigenverbrauch-zev]]`, Förderung F250. ⚠ Beides sind **unverbindliche Anbieter-Vorprojekte** «ohne Gewähr»; der Willerzell-Bericht trägt vier dokumentierte interne Widersprüche, darunter zwei, welche die absoluten Werte (Leistung und Jahresertrag) betreffen — die Aussage «rechnet sich knapp negativ» ist damit eine Grössenordnung, keine Bilanz. Datenstand Tarife 2024. Aufgenommen Run 150, 23.08.2026.
+
+## F255 — «In unserer Solar-Offerte steht ‹53 % Unabhängigkeit›. Heisst das, wir brauchen nur noch halb so viel Strom aus dem Netz?»
+
+**Kurz:** Nein. Die meisten Anbieter-Werkzeuge rechnen unter «Unabhängigkeit» den **Deckungsgrad**, also Jahresproduktion geteilt durch Jahresverbrauch. Das ist eine Jahresbilanz und sagt nichts darüber, wie viel Strom tatsächlich im Haus bleibt. Der Anteil, den Sie wirklich nicht mehr aus dem Netz beziehen, ist die **Autarkie** — und die liegt ohne Batteriespeicher regelmässig bei der **Hälfte oder einem Drittel** des ausgewiesenen Werts.
+
+**Fachlich:** Drei Kennzahlen werden laufend verwechselt, obwohl sie sich aus denselben vier Zahlen berechnen lassen:
+
+| Kennzahl | Rechnung | Was sie beantwortet |
+|---|---|---|
+| **Eigenverbrauchsquote** | Eigenverbrauch / **Produktion** | Wie viel des selbst erzeugten Stroms nutze ich selbst? |
+| **Autarkie / Selbstversorgungsgrad** | Eigenverbrauch / **Verbrauch** | Wie viel meines Bedarfs decke ich wirklich selbst? |
+| **Deckungsgrad** (oft «Unabhängigkeit» genannt) | **Produktion / Verbrauch** | Wie viel meines Jahresbedarfs erzeuge ich rechnerisch — unabhängig davon, wann? |
+
+Am belegten Fall Willerzell: Produktion 7'743 kWh, Verbrauch 14'500 kWh, Eigenverbrauch 3'386 kWh, Netzbezug 11'114 kWh. Der Bericht weist **53 % «Unabhängigkeit»** aus — nachgerechnet ist das 7'743 / 14'500, also der Deckungsgrad. Die **echte Autarkie beträgt 3'386 / 14'500 = 23 %**, die Eigenverbrauchsquote 3'386 / 7'743 = 44 %. Dass es sich um den Deckungsgrad handelt, bestätigt die Monatstabelle desselben Berichts zeilenweise: Januar 351 / 1'473 = 24 %, Juli 896 / 1'011 = 89 %, Dezember 299 / 1'444 = 21 % — jedes Mal Produktion durch Verbrauch, nie der Eigenverbrauchsanteil. Der zweite Bericht derselben Familie weist gar **103 %** aus; als Autarkie wäre das unmöglich, denn mehr als den eigenen Bedarf kann niemand selbst decken. Der Grund für die Lücke ist die **Gleichzeitigkeit**: PV produziert mittags und im Sommer, verbraucht wird morgens, abends und im Winter. Die Jahresbilanz kann aufgehen, während im Dezember trotzdem fast alles aus dem Netz kommt (Willerzell: Dezember-Deckungsgrad 21 %).
+
+**Bauherren-Transfer:** Verlangen Sie in jeder Solar-Offerte die **vier Grundzahlen** — Jahresproduktion, Jahresverbrauch, Eigenverbrauch in kWh und Netzbezug in kWh. Aus ihnen lassen sich alle drei Kennzahlen selbst nachrechnen, und die Begriffsfrage erledigt sich. Für die Erwartung: **eine Prozentzahl über 100 % ist immer ein Deckungsgrad**, nie eine Autarkie. Und für die Investitionsentscheidung zählt die Autarkie, denn nur der wirklich selbst verbrauchte Strom ersetzt teuren Netzbezug (24,00 gegen 7,50 Rp/kWh Einspeisung im Fallbeispiel). Wer die Autarkie heben will, verschiebt Lasten in die Produktionszeit (Warmwasser, Wärmepumpe, Ladestation tagsüber), prüft im Mehrfamilienhaus einen ZEV und erst danach den Batteriespeicher. **Ein Werbeversprechen «zu 53 % unabhängig» ist bei diesem Objekt das Doppelte des Wahren.**
+
+**Quelle:** `[[pv-ertrag-eigenverbrauch-praxis]]` (SolarApp-Berichte vom 09.01.2024 und 05.11.2022; Begriffskorrektur in der Verifikation vom 23.08.2026 am Original nachgerechnet, S. 3 und S. 5), Kennzahlen-Definitionen `[[pv-eigenverbrauch-zev]]`, Eigenverbrauchs-Hebel F18 und F31, ZEV F32. Aufgenommen Run 150, 23.08.2026.

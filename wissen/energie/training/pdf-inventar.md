@@ -1127,3 +1127,30 @@ Plan-Ablage, keine Wissensquelle.** Von zehn Dateien trug genau eine Fachinhalt,
 bereits erfasst. Bei künftigen `wissen.<plattform>`-Mappen zuerst die beschrifteten Dokumente
 (Poster, Beschriebe, Datenblätter) lesen und die reinen Planblätter als Block sichten — nicht
 umgekehrt.
+
+### Willerzell SZ — die Frage aus Run 149 stand bereits beantwortet in dieser Datei
+
+Run 149 hat als offenen Punkt notiert: «prüfen, ob zum solarapp-Projekt Willerzell ein SolarReport
+existiert; der wäre die aktuellere Kennwertquelle» (E-R149-1, auch in `curriculum.md` als
+Priorität 2 geführt). **Er existiert — und er stand seit dem 19.06.2026 als `[x]` in Zeile 52
+dieses Inventars**, rund 1'000 Zeilen über der Stelle, an der die Frage gestellt wurde, destilliert
+in `pv-ertrag-eigenverbrauch-praxis` als «Beispiel A».
+
+**Falle Nr. 12: die Antwort stand im selben Register wie die Frage.** Das ist die Umkehrung von
+Falle Nr. 11 (das Register misst sich selbst) und derselbe Fehlertyp wie die Selbstkorrektur zu
+F250 am Ende von Run 149 — aussen gesucht, statt innen nachzusehen. **Regel für die Folgeläufe:
+bevor eine Quelle als «zu prüfen, ob vorhanden» notiert wird, denselben Ordnernamen im eigenen
+Inventar und in `destillate/INDEX.md` suchen.** Ein `grep` über zwei Dateien hätte den Punkt gar
+nicht erst entstehen lassen.
+
+Bearbeitet wurde in diesem Lauf die **nie gelesene zweite Hälfte** (S. 13-23) sowie der
+Belegungsplan.
+
+| Status | Quelle (`/sites/PL/04 Energie/Solaranlage/solarapp.ch/Willerzell/`) | KB-Datenstand |
+|---|---|---|
+| [x] `2024-01-09 SolarReport Version 1.pdf`, **S. 13-23** | 2026-08-23 (Run 150; Erstlesung 19.06.2026 deckte S. 1-12). Neu belegt: **Ausrichtung −1 Grad Süd bei 30° Neigung** (Anhang 1) — damit ist Willerzell der **Süd-Referenzpunkt** der KB mit 981 kWh/kWp und das Basler Ost-West-Dach liegt bei 84 bis 87 % davon, gemessen mit demselben Rechenkern (schliesst E-R149-3). Wirtschaftlichkeit **Rendite −2,02 %/a, Gewinn nach Abzug Baukosten CHF −11'315 über 40 Jahre, kein Break-even**, Gestehungskosten 22,56 gegen 24,00 Rp/kWh. Richtofferte im Detail; Kostenkennwert **rund CHF 7'370/kWp**. Statikbericht SIA 261: S_k 4,83 kN/m² auf horizontalem Gelände, 5,80 kN/m² auf dem Dach inkl. SF 1,5 → **alle drei Montagezonen «erhöhte Ansprüche», allein wegen der Schneelast**. ⚠ **Vier interne Widersprüche** (Verbrauch 7'000 gegen 14'500 kWh · Leistung 7,90 gegen 8'424 Wp aus der eigenen Stückliste · erstes Betriebsjahr S. 13 gegen S. 5 · Glossar-Förderquote 20-30 % gegen tatsächliche 6,3 %) |
+| [x] `2024-01-09 Belegungsplan Version 1.pdf` | 2026-08-23 (Run 150; 2 S. vollst.) — **keine Dublette**, anders als das Basler Gegenstück: die zweite Seite trägt eine bemasste Verlegeplan-Grafik (Dachfläche 1'088 × 949 cm bzw. 1'082 × 940 cm, Kompassrose «0° Süd», Legende Standard-/Sondermodul/Verschattung), die im SolarReport an keiner Stelle vorkommt. Als Ausführungsgrundlage behalten |
+
+**Damit ist der PL-04-Restbestand aus dem Run-149-Befund vollständig entschieden.** Offen bleibt in
+diesem Ordner nichts, was der Basenamen-Abgleich findet; die 57 Nachweiskurs-Einzelseiten bleiben
+nach der Kopfregel bewusst ungeführt.

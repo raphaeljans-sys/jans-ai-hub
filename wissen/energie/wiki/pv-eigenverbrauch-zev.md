@@ -76,6 +76,16 @@ trägt. Zwei Hebel heben ihn — ein **technischer** (den Strom im eigenen Gebä
 | **Eigenverbrauchsgrad** R_eig = E_eig/E_prod | Anteil der PV-Produktion, der selbst genutzt wird |
 | **Autarkiegrad** R_aut = E_eig/E_ges | Unabhängigkeit vom Netz (nie 100 %) |
 | **Solarer Deckungsgrad WP** R_sol,WP = E_eig,WP/E_WP | PV-Optimierung der Wärmepumpe |
+| **Deckungsgrad** R_deck = E_prod/E_ges | Jahresbilanz Produktion gegen Verbrauch — **kann über 100 % liegen** |
+
+⚠ **Begriffsfalle, belegt 23.08.2026 (Run 150): Anbieter-Werkzeuge nennen den Deckungsgrad
+«Unabhängigkeit».** Beide SolarApp-Berichte der KB tun das, und beide Male wurde der Wert beim
+Destillieren als Autarkie geführt, obwohl die Definitionszeile darüber seit je richtig steht.
+Nachgerechnet am Fall Willerzell: ausgewiesene «Unabhängigkeit» 53 % = 7'743/14'500 (Deckungsgrad),
+echte Autarkie 3'386/14'500 = **23 %**; im Basler Fall 103 % gegen echte 34 %. **Prüfregel: jede
+Prozentzahl über 100 % ist ein Deckungsgrad, und jede Autarkieangabe aus einer Offerte wird aus
+den vier Grundzahlen (Produktion, Verbrauch, Eigenverbrauch, Netzbezug) selbst nachgerechnet.**
+→ [[BAUHERREN-FAQ]] F255, `[[pv-ertrag-eigenverbrauch-praxis]]`.
 
 ⚠ **Datenstand 2026-07-05:** vZEV/LEG-Regeln sind mit dem Stromgesetz frisch (EnG + EnV Stand 1.1.2025,
 LEG ab 1.1.2026) und

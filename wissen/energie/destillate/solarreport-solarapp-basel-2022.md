@@ -55,7 +55,12 @@ Fusszeile vermerkt.
 ### Eigenverbrauch und Unabhängigkeit (S. 3, 5)
 
 - Produktion: 49'579 kWh/a; Eigenverbrauch: 16'205 kWh/a (33 %); Stromverbrauch: 48'000 kWh/a
-- Unabhängigkeit (Selbstversorgungsgrad im Jahresmittel): 103 %
+- Unabhängigkeit im Jahresmittel: 103 % — ⚠ **Korrektur 23.08.2026 (Run 150): das ist der
+  Deckungsgrad (Produktion/Verbrauch = 49'579/48'000), NICHT der Selbstversorgungsgrad.** Die
+  Autarkie ist Eigenverbrauch/Verbrauch = 16'205/48'000 = **34 %** und kann 100 % nie
+  überschreiten. Der Begriff ist im Werkzeug SolarApp durchgehend so belegt, in beiden Berichten
+  der KB; am Schwesterbericht Willerzell zeilenweise an der Monatstabelle nachgewiesen.
+  → `[[pv-ertrag-eigenverbrauch-praxis]]`, FAQ F255
 - Bezug vom Stromnetz: 31'795 kWh/a; Einspeisung ins Stromnetz: 33'374 kWh/a
 - Monatswerte (Auszug Extremmonate): Januar Eigenverbrauchsquote 51 % (760 kWh), Juli 26 %
   (1'811 kWh); Unabhängigkeit reicht von 27 % (Dezember) bis 206 % (Juli)

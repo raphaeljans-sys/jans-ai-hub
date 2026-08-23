@@ -2562,3 +2562,32 @@ Schwyz einschlägige Kennwertquelle. 3. **E-R149-2 (P2)** — Pronovo-Richtlinie
 Energieförderungsverordnung ziehen, damit die EIV-Tariftabelle in CHF endlich belegt ist.
 4. **E-R149-4 (P2)** — Voraussetzungszeile der Task, Wortlaut liegt in QUESTIONS vor.
 5. Restblock Maison Climat (10 Plandateien) mit einer Sichtung abräumen.
+
+## Run 150 — 23.08.2026 (PL-04 Restbestand abgeschlossen)
+
+Bearbeitet: die nie gelesene zweite Hälfte des Willerzell-SolarReports (S. 13-23) samt
+Belegungsplan, dazu der Maison-Climat-Block (10 Planblätter, alle `[-]`). **Der PL-04-Befund aus
+Run 149 ist damit vollständig entschieden**; im Ordner bleibt nichts offen, was der
+Basenamen-Abgleich findet.
+
+Ertrag des Laufs: der **Süd-Referenzpunkt der KB** (−1 Grad Süd / 30° / 981 kWh/kWp, damit ist der
+Ausrichtungsvergleich zu Basel werkzeuggleich), ein belegter Fall **negativer PV-Wirtschaftlichkeit**
+(Rendite −2,02 %/a, kein Break-even in 40 Jahren), der Kostenkennwert **rund CHF 7'370/kWp** für ein
+Solarziegel-Indachsystem, und die KB-weit bereinigte **Begriffsverwechslung Deckungsgrad ↔ Autarkie**.
+Drei neue FAQ (F253 Kosten je kWp, F254 wann PV sich nicht rechnet, F255 «53 % unabhängig» richtig
+lesen), zwei geschärfte (F18, F26/F251), zwei gewachsene Themenartikel
+(`pv-solar-technologien`, `pv-eigenverbrauch-zev`).
+
+**Nächste Priorität:**
+1. **E-R148-1 (P1)** unverändert — Normkauf SIA 380/1:2016, Beschaffungsentscheid Raphaels.
+2. **E-R150-2 (P2)** — zweite Quelle für den Kostenaufschlag kleinteiliger Solarziegel, damit die
+   KB-Faustregel «~doppelt» beziffert statt geschätzt wird (BFE-Preisbeobachtung, Swissolar oder
+   eine echte Offerte aus einem JANS-Projekt).
+3. **E-R149-4 (P2, Betrieb)** — Voraussetzungszeile der Task, Wortlaut liegt vor; Site-URL-Korrektur
+   aus Run 150 mitnehmen.
+4. **Steuerungsfrage (aus E-R148-2, weiterhin unbeantwortet):** PL-02 und PL-04 sind beide
+   abgearbeitet. Der Loop braucht entweder einen neuen Korpus oder einen anderen Antrieb. Die zwei
+   Kandidaten, die dieser Lauf sichtbar gemacht hat, sind **fragengetrieben** (die offenen Punkte
+   in QUESTIONS abarbeiten statt Dateien) und **rücklaufgetrieben** (Kennwerte aus echten
+   JANS-Projektofferten in die KB heben, wie es E-R150-2 gerade verlangt). Beides braucht keinen
+   neuen Ordner, sondern eine Entscheidung.

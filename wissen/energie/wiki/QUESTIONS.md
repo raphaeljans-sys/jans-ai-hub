@@ -3673,3 +3673,66 @@ durchfuehrbar.
   Gebäudesimulation, ohne die Tabellenwerte wiederzugeben. Die Norm blockiert seit Run 98 die
   U-Wert-/Q_H,li-Werte und die Gebäudekategorien-Definition, an der die Healthcare-Einstufung
   E-R140-1 hängt. Es ist eine Beschaffungsentscheidung Raphaels, keine Recherche.
+
+## Run 150 — 23.08.2026
+
+- [x] **E-R149-1 erledigt, aber mit einem Befund über die KB selbst.** Die Frage lautete, ob zum
+  solarapp-Projekt Willerzell SZ ein SolarReport existiert. **Er existiert und stand seit dem
+  19.06.2026 als `[x]` in Zeile 52 von `training/pdf-inventar.md`**, destilliert in
+  `pv-ertrag-eigenverbrauch-praxis` als «Beispiel A» — rund 1'000 Zeilen über der Stelle, an der
+  Run 149 die Frage gestellt hat. Als **Falle Nr. 12** im Inventar vermerkt: *die Antwort stand im
+  selben Register wie die Frage.* Derselbe Fehlertyp wie die F250-Selbstkorrektur am Ende von
+  Run 149. **Regel für Folgeläufe: bevor eine Quelle als «zu prüfen, ob vorhanden» notiert wird,
+  denselben Ordnernamen im eigenen Inventar und in `destillate/INDEX.md` suchen.** Neu erschlossen
+  wurde in diesem Lauf die nie gelesene zweite Hälfte S. 13-23 samt Belegungsplan.
+
+- [x] **E-R149-3 erledigt: die Neigungsdifferenzierung für Ost/West steht jetzt in der Tabelle.**
+  FAQ F26 und der Themenartikel `pv-solar-technologien` führen «Ost oder West, flach geneigt
+  (Optimum ~15°) 90-95 %» und neu «Ost-West-Satteldach steil ~45° ~83-85 %» als eigene Zeilen; F26
+  trägt den Punkt zusätzlich in der Kurz-Antwort. **Der Vergleich ruht ausserdem nicht mehr auf
+  einem CH-Mittel aus fremder Quelle:** der Willerzell-Bericht liefert mit −1 Grad Süd bei 30° und
+  981 kWh/kWp den Süd-Referenzpunkt **aus demselben Rechenkern**, gegen den Basel bei 84 bis 87 %
+  liegt. Damit misst der Vergleich die Ausrichtung und nicht zwei Werkzeuge.
+
+- [x] **E-R150-1 im selben Lauf erledigt: die Begriffsverwechslung «Unabhängigkeit ↔ Autarkie» ist
+  KB-weit bereinigt.** Befund: beide SolarApp-Berichte nennen den **Deckungsgrad**
+  (Produktion/Verbrauch) «Unabhängigkeit», und beide Male wurde er beim Destillieren als Autarkie
+  geführt — obwohl die Definitionszeile in `pv-eigenverbrauch-zev` und
+  `wp-pv-eigenverbrauch-lastmanagement` seit je richtig steht («nie 100 %»). Nachgerechnet:
+  Willerzell echte Autarkie 23 % statt 53 %, Basel 34 % statt 103 %, zeilenweise an der
+  Monatstabelle bestätigt. Bereinigt in `pv-ertrag-eigenverbrauch-praxis`,
+  `solarreport-solarapp-basel-2022`, `destillate/INDEX.md`, `pv-eigenverbrauch-zev`, FAQ F18 und
+  F251; neue FAQ **F255** erklärt die drei Kennzahlen. Der Sweep über alle Destillate mit
+  Autarkie-Angaben ergab **keine weiteren Treffer** — betroffen war ausschliesslich das aus
+  SolarApp-Reports abgeleitete Material.
+
+- [ ] **E-R150-2 (P2): die KB-Faustregel «kleinteilige Solarziegel ~doppelt» ist zu tief.** Der
+  Themenartikel `pv-solar-technologien` führt für Solarziegel gegenüber Standardmodulen den Faktor
+  «~doppelt». Der belegte Einzelfall Willerzell (7,90 kWp MATCH tile, 09.01.2024) liegt mit rund
+  **CHF 7'370/kWp** beim **2,3- bis 3,1-Fachen** des KB-Marktbands für dieselbe Grössenklasse
+  (2'400 bis 3'200 CHF/kWp, Stand 2025). Ein Einzelfall ist keine Marktstatistik; die Faustregel
+  ist im Artikel vorerst als **untere Grenze** markiert. Zu tun: eine zweite Quelle beiziehen
+  (BFE-Preisbeobachtungsstudie, Swissolar-Marktumfrage oder eine echte Offerte aus einem
+  JANS-Projekt) und die Faustregel danach beziffern statt schätzen.
+
+- [ ] **E-R150-3 (P3, nicht auflösbar, dokumentiert): zwei Widersprüche im Willerzell-Bericht
+  bleiben offen.** Der Verbrauch steht als 7'000 kWh im Input-Anhang und als 14'500 kWh in
+  Kennzahlen und Monatsanalyse; die Leistung als 7,90 kWp in den Kennzahlen und als 8'424 Wp in
+  der eigenen Stückliste (Anhang 1 führt das Modul als «Unbekanntes Modul»). **Beides ist aus dem
+  Dokument nicht auflösbar** und nur beim Verfasser zu klären, wozu kein Anlass besteht. Festhalten
+  genügt: der **spezifische** Ertrag von 981 kWh/kWp überlebt beide Lesarten, die **absoluten**
+  Werte (Jahresertrag in kWh, CHF/kWp, Wirtschaftlichkeit) sind Grössenordnungen, keine Kennwerte.
+  Der Punkt bleibt offen, damit ihn niemand als Kennwert weiterreicht.
+
+- [ ] **E-R148-1 (P1) unverändert offen: Normkauf SIA 380/1:2016.** Von diesem Lauf nicht berührt.
+  Beschaffungsentscheid Raphaels, blockiert seit Run 98 die U-Wert-/Q_H,li-Tabellenwerte und die
+  Gebäudekategorien-Definition (Healthcare-Einstufung E-R140-1).
+
+- [ ] **E-R149-4 (P2, Betrieb) unverändert offen: die Voraussetzungszeile der Task ist sachlich
+  falsch.** Der vorgeschlagene Ersatztext steht in Run 149. Run 150 hat den Graph-Weg zum
+  **wiederholten Mal** benutzt und bestätigt (`m365 status` → Zertifikats-Auth aktiv, 325 Dateien
+  in `04 Energie` gelistet, 12 PDF heruntergeladen). Der lokale OneDrive-Pfad existiert weiterhin
+  nicht. **Ergänzung aus diesem Lauf: die in Run 149 notierte Site-URL ist zu prüfen** — die
+  Tenant-Adresse lautet `https://raphaeljans.sharepoint.com/sites/PL`, nicht
+  `raphaeljansarchitekten.sharepoint.com` (erster Versuch scheiterte an `ENOTFOUND`). Der
+  Ersatztext trägt bereits die richtige Form.

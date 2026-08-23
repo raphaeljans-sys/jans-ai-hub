@@ -95,6 +95,15 @@ Neigung als Parameter führt. Fallbeispiel und die vier internen Inkonsistenzen 
 Neigungsdifferenzierung steht jetzt als eigene Zeile in beiden Tabellen (hier und FAQ F26), und
 F26 trägt sie zusätzlich in der Kurz-Antwort — dort wird sie gelesen, nicht im Fliesstext darunter.
 
+**Der Vergleich ruht seit 23.08.2026 auf einem sauberen Anker.** Bis dahin wurde das Basler
+Ost-West-Dach gegen den KB-Richtwert von rund 1'000 kWh/kWp gehalten, also gegen ein CH-Mittel aus
+fremder Quelle. Der zweite SolarApp-Bericht der KB liefert nun den Süd-Referenzpunkt **aus
+demselben Rechenkern**: Willerzell SZ, Schrägdach Ziegel, **Ausrichtung −1 Grad Süd, Neigung 30°**
+(Anhang 1 des Berichts), **981 kWh/kWp**. Damit liegt Basel bei **84 bis 87 %** davon — der
+Vergleich misst jetzt die Ausrichtung und nicht zwei verschiedene Werkzeuge. Die
+Grössenordnung «gegen 85 % beim steilen Ost-West-Satteldach» ist damit bestätigt, nicht mehr nur
+genähert. Beide Berichte kommentieren ihre eigene Ausrichtung an keiner Stelle.
+
 ## Spezialmodule für sichtbare PV (transparent, bifazial)
 Neben dem schwarzen Standardmodul sind zwei Bauarten für architektonisch sichtbare Flächen
 relevant, beide als Serienprodukt mit Leistungsgarantie:
@@ -160,7 +169,15 @@ Details → [[BAUHERREN-FAQ]] F20/F21, `[[greenpv-fassade-pv-begruenung-hslu]]`,
 10–30 kWp ~2'400; typische 10-kWp-Anlage ~28'000 CHF vor Förderung. **Indach:** für Standard-Module (Typ E) laut
 BFE-Preisbeobachtungsstudie 2024 kein signifikanter Aufschlag mehr ggü. Aufdach (die alte
 CKW-Faustregel «+60 %» ist undatiert und relativiert — Detail `[[pv-marktzahlen-kosten-ch-2025]]`
-sowie pg `energie-pv-eignung-typenwahl`); nur kleinteilige Solarziegel ~doppelt.
+sowie pg `energie-pv-eignung-typenwahl`); nur kleinteilige Solarziegel ~doppelt. **⚠ Präzisierung
+23.08.2026 (Run 150): «~doppelt» ist die untere Grenze, nicht der Erwartungswert.** Ein belegtes
+Vorprojekt für ein MATCH-Tile-Solarziegel-Indachsystem (7,90 kWp, 252 Ziegel à 25/32/76 Wp,
+09.01.2024) kommt auf **rund CHF 7'370/kWp** — bei gleicher Grössenklasse das **2,3- bis
+3,1-Fache** des oben genannten Marktbands von 2'400 bis 3'200 CHF/kWp. Treiber: 11,6 m²/kWp
+Dachfläche statt 5 bis 6, 504 Montagehaken, und rund CHF 5'900 grössenunabhängige Fixkosten
+(Gerüst/Absturzsicherung, Projektleitung, Blitzschutz, Überwachung, Inbetriebnahme), die bei einer
+Kleinanlage 10 % der Investition ausmachen. Einzelfall, keine Marktstatistik — aber vor dem
+Systementscheid zu nennen. → [[BAUHERREN-FAQ]] F253/F254, `[[pv-ertrag-eigenverbrauch-praxis]]`.
 **Mittlere Lebensdauer 33 Jahre** (Swissolar); Batteriespeicher 10–15 kWh ~6'000–10'000 CHF
 (42 % der neuen Wohnanlagen bauen einen). Stellschrauben statt absoluter Zahlen: PV rechnet sich, wenn
 die Amortisation **unter der Lebensdauer** liegt — Förderung (Bundes-Einmalvergütung ~3'600 CHF/10 kWp
