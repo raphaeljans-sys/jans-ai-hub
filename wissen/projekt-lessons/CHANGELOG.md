@@ -3,6 +3,75 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (fünfte Fortsetzung) — Kurator-Verifikation `buero-projekte` abgeschlossen, Pflicht-Zusatzauftrag weiterhin mangels Wiederholung offen
+
+- **Getan:** Eigener Auftrag traf beim Einstieg auf einen bereits laufenden Parallellauf
+  (interaktive Session `projekt-triage2`), der den Rest-Bestand (72 P2/P3-Zeilen) noch
+  während dieser Session vollständig destillierte («vierte Fortsetzung» unten, drei
+  parallele Lese-Agenten dieser Session liefen zeitgleich auf denselben vier Clustern). Um
+  Doppelarbeit zu vermeiden: keine neuen Wiki-Artikel geschrieben, stattdessen die drei
+  unabhängig gelesenen Agentenberichte als Zweitquelle für die Kurator-Stufe (Spec-Pflicht,
+  «nie übersprungen») genutzt — jede nicht-triviale Aussage der fünf neuen/aktualisierten
+  Artikel gegen die eigene unabhängige Lektüre geprüft.
+- **[Verifikation]** Alle fünf Artikel (`nerves-2015-pentagon-systemwahl-streuung`,
+  `lorraine-kueche-1318-kuehlschrank-beschaffungsrisiko`,
+  `eh-europe-1527-mahnkaskade-unbezahlter-zusatzauftrag`, Update
+  `nerves-2015-kv-nebengewerke-unterschaetzt`, Update
+  `lorraine-kueche-maria-1318-kv-nebengewerke-abweichung`) stimmen mit der eigenen
+  unabhängigen Lektüre exakt überein — **keine Korrektur nötig**. Nebenbefund: der eigene
+  Agent zum Cluster `1527 EH Europe GmbH` hätte die dortige Mahnkaskaden-Lesson beinahe
+  übersehen (zu grobe Zusammenfassung einer 78-seitigen Sammelmappe) — der bestehende
+  Artikel liest bis zur relevanten Seite 76 und ist korrekt; Methodenhinweis für künftige
+  Leseaufträge im Bericht festgehalten.
+- **[Pflicht-Zusatzauftrag]** `bevorzugte-systeme-jans.md` nach vollständigem Korpus-Abschluss
+  erneut geprüft: alle belegten Unternehmer/Systeme (Schneider Hämmerli, binggeli-wbm,
+  Köfler, Goger, Atelier Seitz, Alpiq, Kälin, Fust, Sedus, Zemp) treten je nur in einem
+  einzigen der vier Projekte auf — keine projektübergreifende Wiederholung. Bleibt darum
+  bewusst offen (kein erfundenes Muster aus Einzelnennungen), bis ein weiterer Korpus oder
+  mehr laufende Projekte Wiederholung belegen.
+- Bericht: `wissen/projekt-lessons/outputs/2026-08-23_kurator-verifikation-buero-projekte.md`.
+
+## 2026-08-23 (vierte Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2/P2-P3-Abschluss: drei neue Artikel, zwei Nachträge, Inventar vollständig abgearbeitet
+
+- **Getan:** Vierter Destillat-Lauf auf den restlichen 72 `[t]`-Zeilen (46 P2 + 26 P3) des
+  Korpus, verteilt auf `00_Allgemein`, `1012_Ardez`, `1318_Lorraine_Kueche`,
+  `1527 EH Europe GmbH`. Vier parallele Lese-Agenten (nur lesend), sequenzielle Anwendung.
+- **[neu] `wiki/nerves-2015-pentagon-systemwahl-streuung.md`** (emerging): drei Unternehmer
+  offerierten für denselben freistehenden Besprechungsraum «Pentagon» drei fundamental
+  unterschiedliche Konstruktionssysteme (Vollholz-Ständerbau CHF 40'747, Trockenbau
+  CHF 19'235.47, Leichtbau-Vorfertigung EUR 16'987) — Faktor >2 Preisspanne. Verlinkt mit
+  [[nerves-2015-kv-nebengewerke-unterschaetzt]].
+- **[neu] `wiki/lorraine-kueche-1318-kuehlschrank-beschaffungsrisiko.md`** (emerging):
+  Bildbemusterung wechselt binnen drei Tagen (01.→04.08.2015) von freistehendem
+  SMEG-Retro-Kühlschrank zu Electrolux-Einbaumodell; dokumentierte Vorsichtsmassnahme
+  (Rückgabeoption, Kartonmodell-Prüfung) verschwindet mit dem Wechsel.
+- **[neu] `wiki/eh-europe-1527-mahnkaskade-unbezahlter-zusatzauftrag.md`** (emerging): ein
+  gelobter Möbel-Preisvergleich (CHF 1'500.-) blieb nach Verschiebung des Hauptprojekts
+  unbezahlt, drei Mahnstufen bis zur Betreibungsandrohung binnen fünfeinhalb Monaten;
+  verlinkt mit [[kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087]] (gleiche
+  strukturelle Ursache: fehlende schriftliche Auftragsgrundlage).
+- **[update] `wiki/nerves-2015-kv-nebengewerke-unterschaetzt.md`**: Baubeschrieb, Mietvertrag
+  und Schnittstellenbeschrieb (Juli 2015) belegen die Mietfläche als reinen Rohbau —
+  strukturelle Teilursache für die Nebengewerke-Abweichung (vollständiger MEP-Erstausbau
+  statt kleiner Mieterausbau-Anpassung).
+- **[update] `wiki/lorraine-kueche-maria-1318-kv-nebengewerke-abweichung.md`**: eigener
+  JANS-Werkplan vom 03.12.2015 spezifiziert für BKP 285 bereits Kalkputz statt einfachem
+  Neuanstrich — erklärt die Malerarbeiten-Abweichung teilweise aus der eigenen
+  Ausführungsplanung.
+- **[QUESTIONS]** zwei offene Fragen ergänzt (Pentagon-Vertragszuordnung ungeklärt,
+  Elektro-Offerte Alpiq widerspricht zitiertem Vertragswert) — bewusst nicht spekulativ im
+  Artikel aufgelöst.
+- **[Nullbefunde]** `1012_Ardez/.../beispiel/`-Ordner vollständig als fremdes
+  Referenzmaterial (Baueingabeplansatz Kerez-Büro, Thalwil 2010) identifiziert, keine Lesson;
+  Datenhygiene-Fund `1318_Lorraine_Kueche/.../2015-05-05_Bildbemusterung.pdf` gehört zu
+  fremdem Projekt (Villa Groth München).
+- **[INDEX]** drei neue Artikel registriert, Statistik auf 14 Artikel aktualisiert.
+- **[Inventar]** alle 72 Zeilen auf `[x]`/`[-]` gesetzt (Unicode-NFC/NFD-Normalisierungsfehler
+  beim ersten Skriptdurchlauf bemerkt und korrigiert, siehe Bericht) — **Korpus
+  `buero-projekte` damit inventarseitig vollständig: 0 `[ ]` offen, 0 `[t]` offen, 757 `[-]`,
+  56 `[x]` von 813 Zeilen.**
+- Bericht: `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-p2p3-run4.md`.
+
 ## 2026-08-23 (dritte Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2, P2-Start: neuer Artikel Vordach-Denkmalpflege 1011, Cluster 1602 St. Karli ohne Lesson
 
 - **Getan:** Erster Lauf auf den 91 offenen P2-Zeilen (nach Abschluss aller 62 P1-Zeilen in

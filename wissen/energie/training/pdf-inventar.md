@@ -5,6 +5,22 @@ Generiert 2026-06-05. Jede Quelle wird vom taeglichen Loop in ein lesbares
 [-] geprueft, nicht einzeln destilliert (Kursflyer/Rechnung/Datenblatt, keine Fachinhalte).
 Screenshots (PNG/JPG) und die Nachweiskurs-Einzelseiten werden NICHT einzeln destilliert.
 
+**⚠ Titel ist historisch zu eng (E-R138-2, geschlossen 23.08.2026, Run 152):** seit Run 123
+(04.08.2026) führt diese Datei zusätzlich den gesamten PL-02-Korpus (eco-bau/AHB/Minergie/
+Energierecht, SharePoint Site `/sites/PL`, Bibliothek `02_Recht_Norm`) mit denselben
+Status-Zeichen. **Diese Datei ist damit das kanonische Register für jede Einzelquellen-
+Entscheidung, auch `[-]`, für BEIDE Ordner** — `raw/_INGESTED.md` führt für PL-04 nur eine
+grobe Sammelzeile («PDF-Bestand erschoepft») und keine der einzelnen `[-]`-Entscheidungen.
+**Wer eine Quelle als «nie geprüft» einstuft, muss zuerst hier suchen (Dateiname UND
+Bytegrösse, nicht nur die Kopfzeile), bevor er sie neu beschafft** — die Mess-Artefakte
+Asbest (Run 147), `MFH.pdf` (Run 138), die beiden `_Archiv`-Dateien (Run 135) und der
+EnerG-Snapshot `730.1_19.6.83_85.pdf` (Run 138) sind alle daran gescheitert, dass ein
+Basenamen-Abgleich nur `destillate/`+`_INGESTED.md` prüfte, nicht dieses Inventar. Ein
+rückwirkendes Kopieren aller `[-]`-Zeilen nach `_INGESTED.md` (ursprünglicher Wortlaut von
+E-R138-2) wurde geprüft und verworfen: bei 76 Einzelentscheiden wäre das reine Duplikation
+ohne neuen Fachwert und ein zweites, driftgefährdetes Register. Diese Kopfnotiz plus der
+Gegenverweis in `raw/_INGESTED.md` sind die schlankere Lösung für dieselbe Ursache.
+
 **Stand 2026-07-14 (Run 65): Inventar vollstaendig abgearbeitet** — alle Quellen sind [x] oder [-];
 der einzige teilweise gelesene Eintrag (Bauteilekatalog Neubauten, Daecher/inhomogene Bauteile/
 Fenster+Tueren) wurde in Run 65 zu Ende gelesen (S. 1-80/80 vollstaendig).

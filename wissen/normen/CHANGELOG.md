@@ -1,3 +1,82 @@
+## 2026-08-23 — SIA-Sweep, sechste Fortsetzung: Vollständigkeit unabhängig reverifiziert, Wayback Machine als neuer Weg für N-SIASWEEP-2/3/4 erschöpft
+
+**Auftrag Raphael:** SIA-Sweep der KB fortsetzen — Register-Zeilen ohne Datei im Haus,
+Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen. Vorlauf gelesen: dieser CHANGELOG (Kopf «QUESTIONS-Abarbeitung, vierter Lauf») und
+`outputs/2026-08-23_sia-sweep-fuenfte-fortsetzung-zugangsweg.md`.
+
+**1. Sweep-Vollständigkeit unabhängig reverifiziert.** Eigener Python-Scan über
+`wiki/REGISTER.md`, Abschnitt A: 259 Zeilen, 187 aktiv (Gültig 2013 ≠ „—"), **0 davon mit
+leerer Bestand-Abgleich-Zelle.** Der ursprünglich beauftragte Sweep ist damit nicht nur laut
+den fünf Vorläufer-Reports, sondern messbar am aktuellen Dateiinhalt vollständig. Kein
+konkurrierender `claude`-Prozess an dieser KB (`ps aux` geprüft).
+
+**2. Neuer Weg für die drei verbliebenen offenen Fragen (N-SIASWEEP-2/3/4) versucht und
+erschöpft.** Fünf Quellenarten waren bereits ausgeschöpft (Shop-Produktseite, zwei offizielle
+`cms.sia.ch`-Kataloge, Espazium, SIA-Webinar-Seite, SNV-Arbeitsprogramm). Neu geprüft: Internet
+Archive Wayback Machine (`web.archive.org/cdx`, Domain-Suche `shop.sia.ch`) nach archivierten
+Snapshots der Produktseiten SIA 422, 2021, 2025, 405, 2016, 2045 — **0 Treffer für alle sechs
+Codes**, sowohl mit engem Code-Jahr-Muster als auch mit breiterem Ziffernmuster. Gegenprobe:
+dieselbe Domain-Suche ohne Code-Filter findet reichlich archivierte Seiten weiterhin aktueller
+SIA-Normen — die Domain wird also grundsätzlich gecrawlt, nur diese sechs Codes nie. Echte,
+dokumentierte Sackgasse.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/QUESTIONS.md`
+additiv (19 eigene Zeilen; die daneben sichtbaren 2 Löschungen/44 weiteren Zeilen stammen aus
+dem bereits vorher unveröffentlichten, hier gelesenen Vorläufer-Lauf `questions-abarbeitung4`,
+nicht aus dieser Session), `wiki/REGISTER.md` 1/0 (rein additive Zeile).
+
+**Nicht geleistet:** kein Normtext gekauft; N-SIASWEEP-2/3/4 bleiben offen. Kein weiterer neuer
+Quellentyp identifiziert.
+
+Report: `outputs/2026-08-23_sia-sweep-sechste-fortsetzung.md`.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung, vierter Lauf: N59-4 teilweise geschlossen (108-15-Archivgrenze belegt), N58-5 geschlossen, zwei Sackgassen dokumentiert
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopfeintrag, damals «Cross-KB-Nachtrag energie») und
+`outputs/2026-08-23_questions-abarbeitung3.md` (letzter Lauf desselben Tages). Die dort
+ausdrücklich als Entscheid-/Freigabepunkte markierten Fragen (drei N-SIASWEEP-Fragen, N60-1,
+N60-2, BRL-13-15-Duplikat, die NIN-Frage) wurden erneut bewusst nicht angefasst.
+
+**1. N59-4 (Zwischenausgaben 40-15/108-15) — TEILWEISE GESCHLOSSEN.** Per
+`curl -sL -A "Mozilla/5.0" https://www.bsvonline.ch/de/brandschutzvorschriften/archiv-bsv-2015`
+(Astro-JSON-Payload, gleiche Technik wie N58-3) einen bisher unbekannten Archivzugang
+gefunden: dort ist BRL 108-15 als **ein** Archiv-Dokument gelistet, betitelt «… (gültig bis
+31.12.2019)». Damit primärquellenfest belegt: die Fassung 01.01.2015 war lückenlos bis
+31.12.2019 gültig, die Fassung 01.01.2020 folgte nahtlos — **keine unveröffentlichte
+Zwischenausgabe**. Nachtrag in `destillate/vkf-brl-108-15-betriebsbereitschaft-bfs.md`
+(Frontmatter `gueltigkeit`, `last_updated`). Für 40-15 zeigte dieselbe Archivseite **keinen**
+zusätzlichen Eintrag — Frage bleibt für 40-15 offen (Abwesenheit nicht beweiskräftig). Der
+engere Teilschritt 2020 → 2022 bei 108-15 bleibt ebenfalls offen (kein eigenes Archivdokument
+dafür gefunden).
+
+**2. N58-5 (weitere Fach-Skills mit VKF-Nummern) — GESCHLOSSEN.** Grep über `skills/`,
+`agents/`, `commands/` ausserhalb von `skills/brandschutz/` nach BSR/BRL/VKF-Nummernmustern:
+0 Treffer. Kein weiterer Fach-Skill betroffen.
+
+**3. Zwei dokumentierte Sackgassen (kein Fund, aber Aufwand gespart für künftige Läufe):**
+(a) N53-3-Rest (Kalk-Nachfolgenorm zu SIA 215:1978): `shop.sia.ch` unter dem
+SIA-215-URL-Muster für «SN EN 459-1» liefert 404 — die Norm ist keine SIA-, sondern eine
+CEN/SNV-Publikation und über diesen Zugangsweg nicht erreichbar. (b) N58-2-Rest (zweite
+unabhängige Quelle für das Rückzugsdatum 31.08.2025 von BRL 103-15): zwei naheliegende
+bsvonline.ch/feusuisse.ch-Seiten geprüft, keine nennt das Datum. Beide Punkte bleiben mit
+diesem Vermerk offen, damit ein künftiger Lauf dieselben zwei Wege nicht wiederholt.
+
+**Verifikation:** `git diff --numstat -- wissen/normen/` nach jedem Schreibvorgang geprüft —
+`destillate/vkf-brl-108-15-betriebsbereitschaft-bfs.md` 2/2 (gezielte Feldersetzung),
+`wiki/QUESTIONS.md` additiv (Boxen ergänzt, keine fremde Zeile verändert oder gelöscht).
+
+**Nicht geleistet:** kein Normtext gekauft; die drei N-SIASWEEP-Fragen, N60-1, N60-2,
+BRL-13-15-Duplikat und die NIN-Frage unverändert offen (bewusst nicht angefasst, siehe oben).
+
+Report: `outputs/2026-08-23_questions-abarbeitung4.md`.
+
+---
+
 ## 2026-08-23 — Cross-KB-Nachtrag aus `energie`: SIA 2024:2006 Datenblatt 4.1 Schulzimmer ergänzt
 
 **Anlass:** KB `energie` bearbeitete E-R129-2 (Personenbelegung Klassenzimmer für eine

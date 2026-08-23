@@ -3,6 +3,10 @@ title: Gebäudearten und Abstandssystem — Kanton Zürich
 status: established
 last_updated: 2026-08-23
 verifiziert:
+  - datum: 2026-08-23
+    methode: "QUESTIONS-Restposten-Klärung, Buch-Run 80 (grep über bestehenden buecher/-Bestand statt neuer Quellenlektüre)"
+    umfang: "Offene Frage aus Buch-Run 79 (T8): gilt BEZ 1996 Nr. 30 (10°-Schrägdach-Schwelle) auch für die 4-m/5-m-Höhengrenze der besonderen Gebäude (§ 49 Abs. 3/§ 273 PBG), nicht nur für die Firsthöhen-Berechnung (§ 281 PBG, Kap. 16)?"
+    ergebnis: "GEKLÄRT, 0 Korrekturen: BEZ 1996 Nr. 30 ist im Standardwerk bereits zweifach und eigenständig für den § 49 Abs. 3/§ 273-PBG-Kontext belegt (Bd 2 S. 1095 und S. 1108, `buecher/band-2/15-lage-von-gebaeuden-teil2d.md`), unabhängig von der Kap.-16-Fundstelle. Tabellenzeile «Besonderes Gebäude» um Fussnote ⁴ mit beiden Fundstellen ergänzt."
   - datum: 2026-08-17
     methode: "Modell-D-Volltextabgleich, Buch-Run 74, Korpus-Queue Batch T4 (Merkblätter/Wegleitungen Thalwil) + zweiteiliger Fassungsstand-Check"
     umfang: "§ 18 Abs. 1 BBV II in BEIDEN Fassungen (geltend 097 gegen raw/260607_amtlich_zh_bbv2.md; Fassung 067 «in Kraft bis 01.03.2017» frisch von zhlex beschafft) · Anhang § 49 Abs. 3 und Anhang § 273 PBG gegen raw/260607_amtlich_zh_pbg.md · Art. 24 BZO Thalwil gegen raw/260607_amtlich_zh_bzo-thalwil.md · Gemeinde-Merkblatt über den Grenz-/Weg- und Strassenabstand (20.01.2022) als Prüfmaterial"
@@ -15,7 +19,7 @@ verifiziert:
     methode: "Modell-D-Volltextabgleich, Buch-Run 59, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md) — Kandidat mit aeltestem verifiziert-Datum ohne Rechecke seit Ersterfassung"
     umfang: "Privatrechtlicher Abschnitt: Art. 688 ZGB (Fedlex, konsolidiert Stand 1.1.2025) + §§ 168-179 EG ZGB (LS 230, zhlex Nachtrag 133/Stand 1.7.2026) frisch amtlich beschafft (bislang kein raw-Beleg in der KB vorhanden)"
     ergebnis: "LUECKE GESCHLOSSEN, 0 Korrekturen an bestehenden Aussagen: Art. 688 ZGB CONFIRMED als Delegationsnorm; §§ 169-174/177-179 EG ZGB (Straeucher 50 cm, Baeume 2-4 m/Rebland 8 m, Baumschule 1 m, Waldboden 50 cm, Verjaehrung 5 Jahre, Gruenhecken 50 cm bis 2 m/darueber hinaus proportional, andere Einfriedigungen 150 cm) vollstaendig erfasst und ins Kapitel 'Privatrechtliche Abstaende' integriert. Fallrecht BEZ 1989 Nr. 21/RB 1991 Nr. 84 (Zonengrenzen-Frage, anderes Thema) bleibt unbelegt — keine Gerichtsentscheid-Datenbank verfuegbar, weiterhin als offen ausgewiesen statt stillschweigend uebernommen"
-sources: ["§ 260 Abs. 1/4 PBG", "§ 261 PBG", "§ 269 PBG", "§ 270 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 3 PBG", "§ 2 ABV", "§ 2a ABV", "§ 2b ABV", "§ 2c ABV", "§ 21 ABV", "§ 25 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "§ 18 Abs. 1 BBV II (Fassung 097, geltend)", "§ 18 Abs. 1 BBV II (Fassung 067, in Kraft bis 01.03.2017)", "Art. 24 BZO Thalwil", "Art. 688 ZGB", "§§ 169-174/177-179 EG ZGB", "Buch Bd 2 S. 995-998", "raw/260607_amtlich_zh_abv.md", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_bvv.md", "raw/260607_amtlich_zh_bbv2.md", "raw/260607_amtlich_zh_bzo-thalwil.md", "raw/260725_amtlich_zh_egzgb.md", "zhlex LS 700.22 Fassungsgeschichte (abgerufen 2026-08-17)"]
+sources: ["§ 260 Abs. 1/4 PBG", "§ 261 PBG", "§ 269 PBG", "§ 270 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 3 PBG", "§ 2 ABV", "§ 2a ABV", "§ 2b ABV", "§ 2c ABV", "§ 21 ABV", "§ 25 ABV", "§ 28 Abs. 1 ABV", "§ 1 lit. a BVV", "§ 18 Abs. 1 BBV II (Fassung 097, geltend)", "§ 18 Abs. 1 BBV II (Fassung 067, in Kraft bis 01.03.2017)", "Art. 24 BZO Thalwil", "Art. 688 ZGB", "§§ 169-174/177-179 EG ZGB", "Buch Bd 2 S. 995-998", "raw/260607_amtlich_zh_abv.md", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_bvv.md", "raw/260607_amtlich_zh_bbv2.md", "raw/260607_amtlich_zh_bzo-thalwil.md", "raw/260725_amtlich_zh_egzgb.md", "zhlex LS 700.22 Fassungsgeschichte (abgerufen 2026-08-17)", "Buch Bd 2 S. 1095/1108 (BEZ 1996 Nr. 30)", "buecher/band-2/15-lage-von-gebaeuden-teil2d.md"]
 links: [[abstaende-und-hoehen]], [[15-lage-von-gebaeuden]], [[baubewilligungsverfahren]], [[geschosse-und-kniestock]], [[umgebungsgestaltung-und-einfriedungen]], [[negative-vorwirkung-und-bzo-revision]]
 ---
 
@@ -32,7 +36,7 @@ Bd 2, Kap. 15, S. 995-998 → [[15-lage-von-gebaeuden]].
 |---|---|---|---|---|
 | **Minibau** | ≤ 1,5 m Höhe UND ≤ 2 m² Boden | keiner | frei | § 260 Abs. 4 PBG (harm.) / § 2 Abs. 2 ABV (übergangsr.); § 1 lit. a BVV |
 | **Bewilligungsfreie Baute** | ≤ 2,5 m Höhe UND ≤ 6 m² Boden | ab 1,5 m / 2 m² abstandspflichtig | frei¹ | § 1 lit. a BVV |
-| **Besonderes Gebäude** (harm.: Kleinbau/Anbau) | grösste Höhe ≤ 4 m (Schrägdach ≤ 5 m), kein Daueraufenthalt | **reduziert** | pflichtig | § 49 Abs. 3 / § 273 PBG (harm.: § 2a ABV) |
+| **Besonderes Gebäude** (harm.: Kleinbau/Anbau) | grösste Höhe ≤ 4 m (Schrägdach ≤ 5 m)⁴, kein Daueraufenthalt | **reduziert** | pflichtig | § 49 Abs. 3 / § 273 PBG (harm.: § 2a ABV) |
 | **Abstandsfreies Gebäude** | überragt Boden ≤ 50 cm, keine Öffnungen z. Nachbarn | keiner² | pflichtig | § 269 PBG i.V.m. § 2c ABV |
 | **Gartenhaus / Schopf / Gartensitzplatz** | ≤ 10 m² Grundfläche UND ≤ 6 m Fassadenlänge (inkl. Pergolen) UND ≤ 3 m Gesamthöhe, kein Daueraufenthalt | **nur** der Abstand gegenüber **grundstückinternen** Gebäuden entfällt³ | pflichtig | § 18 Abs. 1 BBV II |
 | **Hauptgebäude** | alle übrigen | **voll** (BZO + PBG) | pflichtig | § 260 PBG |
@@ -50,6 +54,11 @@ Abstandsvorschriften» liest, stellt das Gartenhaus an die Nachbargrenze — und
 widerrechtlich. Der Zusatz «überdeckte, seitlich mindestens zur Hälfte der Abwicklung offene
 Gartensitzplätze» ist Teil desselben Absatzes; die 6-m-Fassadenlänge zählt **einschliesslich
 allfälliger Pergolen**.
+⁴ Die 5-m-Schwelle gilt nur, wenn das Schrägdach mindestens **10° Neigung** aufweist (BEZ 1996
+Nr. 30) — im Standardwerk **zweifach** belegt, unabhängig für beide Normkontexte: § 49 Abs. 3
+PBG (Bd 2, S. 1095, `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` Z. 101-103) und § 273 PBG
+(Bd 2, S. 1108, ebd. Z. 221-226). Geklärt Buch-Run 80, 23.08.2026 (`wiki/QUESTIONS.md`, vormals
+offene Frage aus Buch-Run 79).
 
 **Unterscheidung Nutzung vs. Mass:** Beim «besonderen Gebäude» ist die **Nutzung**
 (kein Daueraufenthalt) qualifizierend; bei Mini-/abstandsfreien Bauten allein das **Mass**.

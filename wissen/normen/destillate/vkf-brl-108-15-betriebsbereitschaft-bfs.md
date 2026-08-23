@@ -5,8 +5,8 @@ ausgabe: "01.01.2015 / 108-15de, genehmigt durch die Technische Kommission VKF a
 gelesen: "S. 1-29 komplett (Haupttext S. 5-11, Anhänge 1-9 S. 12-29)"
 datenstand: "2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2020, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
-gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2020 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 9cfedaf550e2c31e01aaced8fbe0ec64). Nicht als geltende Fundstelle zitieren."
-last_updated: 2026-08-20
+gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2020 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 9cfedaf550e2c31e01aaced8fbe0ec64). Nicht als geltende Fundstelle zitieren. Gueltig-bis der 2015er-Fassung primaerquellenbelegt 31.12.2019 (bsvonline.ch/de/brandschutzvorschriften/archiv-bsv-2015, Archiv-Eintrag BSPUB-1394520214-3144.pdf, Titel woertlich 'gueltig bis 31.12.2019', Abruf 23.08.2026) — kein Hinweis auf eine unveroeffentlichte Zwischenausgabe zwischen 2015 und 2020."
+last_updated: 2026-08-23
 links: [[REGISTER]], [[vkf-brl-108-15-fassung-2020-delta]]
 ---
 

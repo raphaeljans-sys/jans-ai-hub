@@ -230,9 +230,29 @@ Nachbar-KB (Cross-KB-Output, keine Ausnahme von der Ziel-KB-Zuordnung des Korpus
       Offen: 46 P2-Zeilen (`00_Allgemein` 17, `1318_Lorraine_Kueche` 28, `1527 EH Europe
       GmbH` 3) und 26 P3-Zeilen (`1012_Ardez` 19, `00_Allgemein` 3, `1527 EH Europe GmbH` 2)
       — nächster Lauf.
+- [x] **Vierter Destillat-Lauf Phase 2 abgeschlossen (23.08.2026, P2/P3-Abschluss):** die
+      restlichen 72 `[t]`-Zeilen (46 P2 + 26 P3) gelesen (vier parallele Lese-Agenten je
+      Projektcluster: `00_Allgemein`, `1012_Ardez`, `1318_Lorraine_Kueche`,
+      `1527 EH Europe GmbH`). Drei neue Artikel
+      ([[nerves-2015-pentagon-systemwahl-streuung]], [[lorraine-kueche-1318-kuehlschrank-beschaffungsrisiko]],
+      [[eh-europe-1527-mahnkaskade-unbezahlter-zusatzauftrag]]), zwei Nachträge an
+      bestehenden Artikeln (Rohbau-Mietfläche als Ursache im Nerves-Artikel, Kalkputz-Vorgabe
+      im Lorraine-Malerarbeiten-Befund), zwei offene Fragen in QUESTIONS.md. Cluster
+      `1012_Ardez/beispiel` erwies sich als fremdes Referenzmaterial ohne Lesson. Inventar:
+      alle 72 Zeilen `[t]`→`[x]`/`[-]`. **Der Korpus ist damit inventarseitig vollständig
+      abgearbeitet: 0 `[ ]` offen, 0 `[t]` offen, 757 `[-]`, 56 `[x]` von 813 Zeilen.**
+      Bericht: `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-p2p3-run4.md`.
 - [ ] Parallel dazu, sobald genug Material aus mehreren Projekten vorliegt: Entwurf
-      `bevorzugte-systeme-jans.md` gemäss Pflicht-Zusatzauftrag oben anstossen.
-- [ ] Kurator-Stufe (Opus, jede Sitzung) je Lauf gemäss SKILL.md Schritt 4.
+      `bevorzugte-systeme-jans.md` gemäss Pflicht-Zusatzauftrag oben anstossen. **Nach
+      vollständigem Korpus-Abschluss erneut geprüft (23.08.2026, fünfte Fortsetzung):
+      weiterhin keine projektübergreifende Wiederholung eines Unternehmers/Systems belegt —
+      bleibt offen, bis ein weiterer Korpus oder mehr laufende Projekte Wiederholung zeigen.**
+- [x] **Kurator-Stufe (23.08.2026, fünfte Fortsetzung) abgeschlossen:** die fünf
+      neuen/aktualisierten Artikel aus Run 4 gegen drei unabhängig gelesene Agentenberichte
+      geprüft — keine Korrektur nötig. Bericht:
+      `wissen/projekt-lessons/outputs/2026-08-23_kurator-verifikation-buero-projekte.md`.
+      Künftige Läufe: Kurator-Stufe bleibt Pflicht je Lauf (SKILL.md Schritt 4), dieser
+      Eintrag deckt nur Run 4 ab.
 
 Diese Spec ist bindend für alle Folgeläufe des Korpus `buero-projekte`, bis ein Entscheid
 Raphaels sie ändert (`KORPUS-QUEUE.md`: «Änderungen an dieser Reihenfolge/Spec sind ein

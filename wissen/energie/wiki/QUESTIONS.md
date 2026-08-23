@@ -3639,19 +3639,23 @@ durchfuehrbar.
   oder eine kantonale Vollzugshilfe kann sie nicht beantworten. Damit hängt dieser Punkt am
   Normkauf-Entscheid und ist nach **E-R148-1** verschoben — dort weiterverfolgen, hier nicht
   mehr eigenständig recherchieren.
-- [ ] **E-R138-2 (P3): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
-  nachführen. Umfang präzisiert 23.08.2026 (Run 151) — grösser als angenommen.** Der
-  ursprüngliche E-R137-1-Befund nannte «mindestens 5» fehlende Einträge. Ein skriptgestützter
-  Abgleich aller Dateinamen aus `[-]`-Zeilen in `pdf-inventar.md` (76 gefunden) gegen den Volltext
-  von `_INGESTED.md` ergibt **64 ohne String-Treffer**. Das ist eine **Obergrenze, kein
-  bereinigter Wert**: ein Teil dürfte an Schreibvarianten desselben Dateinamens liegen (z.B.
-  `4.16Gebaudescreening.pdf` vs. `4.16.C Gebudescreening.pdf`, Leerzeichen-/Umlaut-Transkription),
-  die ein reiner String-Match nicht erkennt — der Fehlertyp, den `E-WC32-1` bereits für die
-  INDEX-Volltextsuche notiert hat, gilt hier ebenso. **Kein Blocker, aber grösser als ein
-  Nebenschritt:** vor der eigentlichen Nachführung erst eine bereinigte Ist-Liste erzeugen
-  (Basenamen normalisieren, dann erst abgleichen), sonst werden bereits erfasste Werke doppelt
-  eingetragen. Kandidatenliste weiterhin in `pdf-inventar.md`, Nachtrag 17.08.2026 (Spalte
-  «Einordnung»).
+- [x] **E-R138-2 (P3) — GESCHLOSSEN 23.08.2026 (Run 152): nicht durch Kopieren, sondern durch
+  Gegenverweis gelöst.** Der ursprünglich vorgesehene Weg (alle 76 `[-]`-Zeilen aus
+  `pdf-inventar.md` einzeln nach `_INGESTED.md` kopieren) wurde geprüft und verworfen: reine
+  Duplikation ohne Fachwert, zusätzlich ein zweites driftgefährdetes Register (dieselbe Sorge,
+  die `E-WC32-1` für den INDEX schon notiert). **Stattdessen zwei Kopfnotizen ergänzt:**
+  `pdf-inventar.md` hält jetzt ausdrücklich fest, dass es seit Run 123 auch den gesamten
+  PL-02-Korpus führt und damit das kanonische Register für **jede** Einzelquellen-Entscheidung
+  ist, nicht nur für PL-04; `_INGESTED.md` verweist umgekehrt dorthin und macht klar, dass seine
+  eigene PL-04-Zeile nur eine grobe Sammelangabe ist. **Damit ist die eigentliche Ursache
+  behoben, nicht nur ihr Symptom:** die wiederkehrenden Mess-Artefakte (Asbest Run 147,
+  `MFH.pdf` Run 138, EnerG-Snapshot Run 138, beide `_Archiv`-Dateien Run 135) entstanden alle,
+  weil ein Basenamen-Abgleich nur `destillate/`+`_INGESTED.md` durchsuchte und `pdf-inventar.md`
+  überging — die neue Kopfnotiz in `_INGESTED.md` macht diesen Fehlgriff für den nächsten Lauf
+  weniger wahrscheinlich, ohne dass ein 76-Zeilen-Duplikat gepflegt werden muss. Die
+  string-basierte 64er-Zahl aus Run 151 bleibt damit unkorrigiert stehen (sie war ohnehin nur
+  eine Obergrenze mit Schreibvarianten-Rauschen) und wird nicht weiterverfolgt, weil der Zweck
+  des Punkts — künftige Doppelarbeit vermeiden — auf dem schlankeren Weg erreicht ist.
 - [x] **E-R134-2 (P3) — GESCHLOSSEN 23.08.2026: Bezugsfläche der Energiekennzahl 38/30 kWh/m² im
   EFH-Vergleichsblatt systemisch geklärt.** Auf der Grafik steht nur «kWh/m²»; EBF war naheliegend,
   aber am Dokument selbst nicht belegt. Der Minergie-Glossar (minergie.ch, Eintrag
@@ -4040,3 +4044,28 @@ Freigabe nötig), E103/E94 (Entscheid Raphaels zu JANS-eigenen Projektdaten), E-
 tatsächlich erschöpft** — der von Run 148/149 skizzierte Takt-Entscheid (E-R148-2: fragengetrieben
 statt dateilistengetrieben) ist jetzt der naheliegendste nächste Schritt, keine weitere
 Bestandsprüfung.
+
+## Run 152 (23.08.2026, siebte interaktive Fortsetzung desselben Tages) — E-R138-2 geschlossen, Bestand unabhängig gegengeprüft
+
+Eigenständig gegen den vollständigen `- [ ]`/`- [~]`-Bestand geprüft, ob Run 151s Schlussfolgerung
+(«Korpus für reine Recherche erschöpft») noch zutrifft — unabhängig von dessen Kontext, allein am
+aktuellen Dateistand. **Bestätigt:** jeder verbleibende Punkt hängt entweder an einer
+Beschaffungs-/Datenentscheidung Raphaels (E-R148-1 Normkauf, E103/E94 JANS-Projektdaten,
+E-S1 Skill-Struktur, E-R148-2 Takt), an einer Dateifreigabe ausserhalb der Session-Berechtigungen
+(E-R149-4), ist als am Quelldokument selbst nicht auflösbar dokumentiert (E-R150-3, E-R134-3,
+E-R132-4) oder ist ein Prozess-Merksatz ohne Sachfrage (E-WC32-1). Kein neuer Web- oder
+PL-02/PL-04-Rechercheauftrag verfügbar, ohne diese Blocker zu wiederholen.
+
+**Einzig E-R138-2 war noch echt bearbeitbar** — geschlossen, siehe oben. Gewählt wurde der
+Gegenverweis statt der ursprünglich skizzierten 76-Zeilen-Kopie, weil eine Kopie hier
+selbst wieder ein Register-Drift-Risiko geschaffen hätte, genau die Fehlerklasse, die dieser
+Punkt eigentlich beheben sollte. Keine weitere Position bearbeitet, um keine bereits als
+nicht-recherchierbar dokumentierten Punkte ein siebtes Mal zu wiederholen (das wäre reine
+Beschäftigung, keine Wissensarbeit — Rule `wissens-ruecklauf`: kein Rücklauf ohne Beleg, auch
+keiner ohne Erkenntnisgewinn).
+
+**Für Raphael, nicht recherchierbar:** die drei Punkte mit dem grössten Hebel sind unverändert
+E-R148-1 (Normkauf SIA 380/1:2016, blockiert seit Run 98 U-Wert-/Q_H,li-Werte UND die
+Healthcare-Gebäudekategorien-Einstufung E-R140-1), E-R148-2 (Takt-Entscheid fragengetrieben statt
+dateilistengetrieben) und E-R149-4 (Freigabe für den Edit an
+`~/.claude/scheduled-tasks/energie-training/SKILL.md`, Ersatztext liegt vor).

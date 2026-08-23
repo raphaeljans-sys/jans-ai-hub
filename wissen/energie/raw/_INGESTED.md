@@ -4,6 +4,14 @@ Primaere Rohquelle ist der SharePoint-Ordner **PL - 04 Energie** (nicht hierher 
 Loop liest ihn direkt, Konvertierungsstand in `training/pdf-inventar.md`). `raw/` sammelt
 zusaetzliche Dumps (Mailauskuenfte, Notizen, Web-Clips).
 
+**⚠ Für Einzelquellen-Entscheide (auch `[-]`, auch PL-02) ist `training/pdf-inventar.md` die
+kanonische Quelle, nicht diese Tabelle** (E-R138-2, geschlossen 23.08.2026, Run 152). Diese
+Datei führt PL-04 nur als grobe Sammelzeile unten; die rund 100 `[-]`-Einzelentscheide
+(Kursflyer, Datenblätter, Verzeichnisse) stehen ausschliesslich dort. Ein Basenamen-Abgleich
+«ist diese Quelle schon geprüft?» muss deshalb **beide** Dateien durchsuchen — mehrere frühere
+Läufe (Asbest Run 147, `MFH.pdf` Run 138, EnerG-Snapshot Run 138) haben Quellen fälschlich als
+ungeprüft gemeldet, weil nur hier gesucht wurde.
+
 | Quelle | Ort | Status | Bemerkung |
 |---|---|---|---|
 | PL - 04 Energie (120 PDF + 12 DOCX) | SharePoint (OneDrive-JANS) | **PDF-Bestand erschoepft** | 40 Destillate; jeder substanzielle PDF destilliert — lokale Reste nur noch Datenblaetter (SI-Saphir/megasol/PREFA-Farben/Usermanual) + FEZ-/Kursflyer + Maison-Climat-Plaene (geringe Uebertragbarkeit, nicht einzeln); **Loop primaer Web** (offen: Swissolar Solarmonitor CHF/kWp je Groesse, kg-CO₂ Bauteil KBOB v8.0/SIA-2032, Lignum-Flanke, Bundes-Gebaeudeprogramm) |

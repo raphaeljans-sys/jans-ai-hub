@@ -1,5 +1,27 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (siebte Fortsetzung, Run 152): E-R138-2 geschlossen, Bestand gegengeprüft — keine weitere reine Recherchefrage offen
+
+Fortsetzung der sechs vorangehenden Interaktiv-Sessions desselben Tages. Gesamten `QUESTIONS.md`-
+Bestand offener Punkte unabhängig durchgesehen und Run 151s Schluss («Korpus für reine Recherche
+erschöpft») bestätigt: jeder verbleibende P1-P4-Punkt hängt an einer Entscheidung Raphaels
+(Normkauf SIA 380/1:2016 E-R148-1, JANS-Projektdaten E103/E94, Skill-Struktur E-S1, Takt-Umstellung
+E-R148-2), an einer Dateifreigabe ausserhalb der Session (E-R149-4) oder ist bereits als am
+Quelldokument nicht auflösbar dokumentiert (E-R150-3, E-R134-3, E-R132-4, E-WC32-1 Prozessnotiz).
+
+**E-R138-2 geschlossen** (Registerpflege, kein neuer Fachinhalt): statt der ursprünglich
+skizzierten 76-Zeilen-Kopie aller `[-]`-Entscheide aus `training/pdf-inventar.md` nach
+`raw/_INGESTED.md` (verworfen — reine Duplikation, zweites driftgefährdetes Register) je eine
+Kopfnotiz in beiden Dateien ergänzt: `pdf-inventar.md` hält fest, dass es seit Run 123 auch den
+PL-02-Korpus führt und für **jede** Einzelquellen-Entscheidung kanonisch ist; `_INGESTED.md`
+verweist dorthin zurück. Behebt die eigentliche Ursache der wiederkehrenden Mess-Artefakte
+(Asbest Run 147, `MFH.pdf`/EnerG-Snapshot Run 138, `_Archiv`-Dateien Run 135 — alle entstanden,
+weil ein Basenamen-Abgleich `pdf-inventar.md` überging), ohne ein zweites Register zu pflegen.
+
+Register: `training/pdf-inventar.md` (+16/0), `raw/_INGESTED.md` (+8/0), `wiki/QUESTIONS.md`
+(E-R138-2 ✓, neuer Run-152-Abschnitt, +42/-13, Löschungen ausschliesslich der ersetzte
+E-R138-2-Block selbst). Output: `outputs/2026-08-23_questions-nachlauf-siebte-fortsetzung.md`.
+
 ## 2026-08-23 — Interaktive Session (sechste Fortsetzung): E-R147-1 und E-R134-4 geschlossen, Registerpflege-Umfang E-R138-2 vermessen
 
 Fortsetzung der fünf vorangehenden Interaktiv-Sessions desselben Tages, Station Mac Mini.

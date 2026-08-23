@@ -1,19 +1,43 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
-## 2026-08-23 (Buch-Run 79, T8 Gegenlesen) — Gilt die 10°-Schrägdach-Schwelle (BEZ 1996 Nr. 30) auch für die 4-m/5-m-Grenze der besonderen Gebäude?
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 80) — Gilt die 10°-Schrägdach-Schwelle (BEZ 1996 Nr. 30) auch für die 4-m/5-m-Grenze der besonderen Gebäude?
 
-Beim Gegenlesen des Factsheets `260703-Baurecht-Besondere-Gebaeude-Thalwil` fiel die Aussage
-«Ein Schrägdach im Sinne der 5-m-Grenze liegt ab rund 10° Dachneigung vor (BEZ 1996 Nr. 30)»
-auf. Das Standardwerk (Bd. 2, Kap. 16, S. 1185, `buecher/band-2/16-gebaeudedimensionen-teil2-
-hoehen-dach.md` Z. 138-140) belegt BEZ 1996 Nr. 30 tatsächlich für die 10°-Schwelle
-Flachdach/Schrägdach — aber ausdrücklich im Kontext der **Firsthöhen-Berechnung nach § 281
-PBG**, nicht für die 4-m/5-m-Höhengrenze der besonderen Gebäude nach § 49 Abs. 3 / § 273 PBG.
-Beide Kontexte verwenden denselben Rechtsbegriff «Schrägdach»; ob dieselbe 10°-Schwelle auch
-dort gilt (naheliegend, aber im Standardwerk nicht ausdrücklich für diesen zweiten Kontext
-bestätigt), ist offen. **Offen:** am Original (Fritzsche/Bösch/Wipf/Kunz, Kap. 15, Abschnitt
-besondere Gebäude) prüfen, ob dort ein eigener Beleg für die Schrägdach-Schwelle bei § 49
-Abs. 3 PBG steht, bevor die Übertragung in einer Kundenberatung als gesichert zitiert wird.
-Quelle: `outputs/2026-08-23_buch-run79.md`, Ziffer 2.
+**War offen seit Buch-Run 79 (T8 Gegenlesen), geklärt im selben Tag durch Buch-Run 80.**
+
+Ursprüngliche Frage: Beim Gegenlesen des Factsheets `260703-Baurecht-Besondere-Gebaeude-Thalwil`
+fiel die Aussage «Ein Schrägdach im Sinne der 5-m-Grenze liegt ab rund 10° Dachneigung vor
+(BEZ 1996 Nr. 30)» auf. Run 79 hatte nur den Kap.-16-Beleg (Bd. 2, S. 1185, Firsthöhen-
+Berechnung § 281 PBG) geprüft und die Übertragung auf § 49 Abs. 3 PBG als unbestätigt offen
+gelassen.
+
+**Antwort: Ja, direkt bestätigt — und zwar bereits im bestehenden Destillat, nicht erst durch
+neue Lektüre.** `buecher/band-2/15-lage-von-gebaeuden-teil2d.md` (Kap. 15, nicht Kap. 16!)
+zitiert BEZ 1996 Nr. 30 an **zwei Stellen ausdrücklich im Kontext des Besonderen Gebäudes**:
+
+1. Z. 101-103 (S. 1095, Abschnitt 15.8.9.3 «Besondere Gebäude im Grenzabstand», § 49 Abs. 3
+   PBG): «ein Besonderes Gebäude darf im Sinne von § 49 Abs. 3 PBG eine grösste Höhe von 5 m
+   aufweisen, wenn es mit einem mindestens 10° geneigten Schrägdach überdeckt ist (BEZ 1996
+   Nr. 30)».
+2. Z. 221-226 (S. 1108, Abschnitt 15.9.2.3 «Weitere Voraussetzungen», § 273 PBG): «Die
+   5-m-Begrenzung gilt nur, wenn das Schrägdach mindestens 10° Neigung aufweist (BEZ 1996
+   Nr. 30)».
+
+Das Standardwerk führt den Entscheid also für **beide** Normkontexte separat: einmal für die
+Firsthöhen-Berechnung (Kap. 16, S. 1182 ff.), einmal für die Höhengrenze des Besonderen
+Gebäudes (Kap. 15, S. 1095 und S. 1108). Es ist derselbe Entscheid BEZ 1996 Nr. 30, aber vom
+Buch selbst zweifach und eigenständig für beide Anwendungsfälle zitiert — keine unbelegte
+Übertragung nötig.
+
+**Methodik-Lehre:** Run 79 prüfte nur den naheliegendsten Fundort (Kap. 16, wo die
+Firsthöhen-Regel steht) und übersah, dass der bereits vorhandene Kap.-15-Destillat
+(`15-lage-von-gebaeuden-teil2d.md`, angelegt vor T3/T4/T6) die Antwort längst enthielt. Vor
+einer «offenen Frage ans Original» zuerst **grep über den gesamten bestehenden `buecher/`-
+Bestand**, nicht nur über das naheliegende Kapitel — das Standardwerk wiederholt Fundstellen
+oft in mehreren Kapiteln.
+
+**In die KB eingearbeitet:** [[gebaeudearten-und-abstandssystem]], Tabellenzeile «Besonderes
+Gebäude» — Fussnote mit beiden Fundstellen ergänzt.
+Quelle: `outputs/2026-08-23_buch-run80.md`. Ursprüngliche Frage: `outputs/2026-08-23_buch-run79.md`, Ziffer 2.
 
 ## 2026-08-23 (Buch-Run 78, T7 Archiv-Sichtung) — StraG/StraV SZ noch nicht als Connector-Volltext gezogen
 

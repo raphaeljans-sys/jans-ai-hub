@@ -190,6 +190,24 @@ nach Projektbedarf.
 > SharePoint-Zugang prüfen, nur noch kaufen (Bring-Schuld Raphael) oder auf Sekundärquellen
 > ausweichen.
 
+> **Nachtrag 23.08.2026 (sechste Fortsetzung) — Wayback Machine geprüft, echte Sackgasse.**
+> Vor Fortsetzung dieses Laufs zuerst unabhängig nachgerechnet: Abschnitt A zählt 259 Zeilen,
+> davon 187 mit Gültig-2013 ≠ «—» (aktiv) — **0 davon mit leerer Bestand-Abgleich-Zelle**
+> (Python-Scan über die Rohdatei). Der ursprünglich beauftragte Sweep (Produktdatenblätter
+> für Register-Zeilen ohne Datei im Haus) ist damit bestätigt vollständig; kein Fach-Prozess
+> läuft parallel an dieser KB (`ps aux` zeigt nur den eigenen Lauf). Für die drei verbliebenen
+> N-SIASWEEP-Fragen ein bisher nicht genutzter Weg versucht: **Internet Archive Wayback
+> Machine** (`web.archive.org/cdx/search/cdx`, Domain-Suche `shop.sia.ch` mit Regex-Filter auf
+> die jeweiligen Produktcodes `422_YYYY_*`, `2021_YYYY_*`, `2025_YYYY_*`, `405_YYYY_*`,
+> `2016_YYYY_*`, `2045_YYYY_*` sowie eine breitere, ungebundene Ziffernsuche) — **0 Treffer für
+> alle sechs Codes**, sowohl mit engem als auch mit breitem Muster. Die Wayback Machine hat
+> diese Produktseiten nie gecrawlt (andere, weiterhin aktive Shop-Produktseiten wie SIA 102,
+> 105, 380 etc. sind dagegen zahlreich archiviert — die Domain wird also grundsätzlich
+> gecrawlt, nur diese sechs Codes nicht). Echte, dokumentierte Sackgasse: ein künftiger Lauf
+> muss die Wayback Machine für diese sechs Codes nicht erneut prüfen. Kein neuer Fortschritt
+> bei den eigentlichen drei Fragen (Rückzugsbegründung SIA 422/2025, Ablösungsformel
+> SIA 405:2025). Report: `outputs/2026-08-23_sia-sweep-sechste-fortsetzung.md`.
+
 ---
 
 ## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt
@@ -347,6 +365,31 @@ angekündigte Teilschritt 2020 → 2022 liess sich deshalb nicht isoliert auswei
 VKG-Publikationsindex führt nur die jeweils geltende Fassung; ein Archivzugang ist nicht
 bekannt. Aufgeworfen Run 59 (22.08.2026).
 
+> ✅ **Archivzugang gefunden, 108-15 TEILWEISE GESCHLOSSEN (23.08.2026, QUESTIONS-Abarbeitung,
+> vierter Lauf).** Entgegen der Annahme oben existiert doch ein Archivzugang:
+> `https://www.bsvonline.ch/de/brandschutzvorschriften/archiv-bsv-2015` (per `curl -sL -A
+> "Mozilla/5.0"`, Astro-JSON-Payload wie bei N58-3, Abruf 23.08.2026). Dort ist für 108-15
+> genau **ein** archiviertes Dokument gelistet, wörtlich betitelt «108-15 Gewährleistung der
+> Betriebsbereitschaft von Brandfallsteuerungen (BFS) **(gültig bis 31.12.2019)**»
+> (`BSPUB-1394520214-3144.pdf`), neben dem aktuellen Dokument (`…-837.pdf`) und einem
+> FAQ-Eintrag (`…-1255.pdf`). Das belegt primärquellenfest: die Fassung 01.01.2015 war
+> **lückenlos bis 31.12.2019** gültig, die Fassung 01.01.2020 trat nahtlos an — **keine
+> unveröffentlichte Zwischenausgabe zwischen 2015 und 2020.** Nachtrag in
+> `destillate/vkf-brl-108-15-betriebsbereitschaft-bfs.md` (Frontmatter `gueltigkeit`).
+>
+> **Nicht geklärt bleibt** der ursprünglich engere Teilschritt 2020 → 2022 (reine
+> Ziff.-5.3-Korrektur, kein Fassungswechsel — bereits in
+> `vkf-brl-108-15-fassung-2020-delta.md` als „isolierter Teilschritt 2020 → 2022 nicht
+> geprüft" ausgewiesen): das Archiv listet dafür **kein** eigenes „gültig bis"-Dokument, d.h.
+> entweder wurde die 2020-Fassung vor der 2022-Korrektur nie separat archiviert (die
+> geltende Datei trägt beide Stände in einem PDF), oder das Archiv erfasst nur den letzten
+> Sprung vor der aktuellen BSV-2015-Ära. Für **40-15** ergab dieselbe Archivseite **keinen**
+> zusätzlichen, mit „gültig bis" betitelten Eintrag (nur zwei Treffer, beide das aktuelle
+> Dokument) — die Zwischenausgaben-Frage bleibt für 40-15 offen, diese eine Quelle zeigt
+> keine, beweist aber auch keine Abwesenheit (das Archiv könnte lückenhaft sein).
+> **Nächster Schritt bei Bedarf:** dieselbe Archivseiten-Technik auf weitere Delta-Destillate
+> mit grossen Fassungssprüngen anwenden.
+
 ---
 
 ### ✅ N58-2 — GESCHLOSSEN 23.08.2026: BRL 103-15 «Cheminées» zurückgezogen, Nachfolger ist das feusuisse-Papier «Stand der Technik Teil B», nicht BRL 24-15
@@ -408,6 +451,13 @@ Cheminée-Anforderungen überführt wurden.
 > **Offen bleibt nur** die zweite unabhängige Bestätigung des Rückzugsdatums 31.08.2025
 > (bisher ein Beleg, VKF-Primärquelle, aber eine einzige Seite) — nachrangig, da die
 > Primärquelle selbst (nicht nur eine Portal-Annotation) den Rückzug samt Grund nennt.
+>
+> **Weitere Suche ergebnislos (23.08.2026, QUESTIONS-Abarbeitung, vierter Lauf).** Gezielt
+> nach einer zweiten, unabhängigen Quelle für exakt das Datum 31.08.2025 gesucht: die
+> bsvonline.ch-Seite `aktuell/stp-feusuisse-2025` nennt die neuen feusuisse-STP-Papiere,
+> aber kein Rückzugsdatum der 103-15; `feusuisse.ch/stand-der-technik-papiere` nennt Preise
+> und Update-Fristen, aber weder ein Publikations- noch ein Rückzugsdatum. Kein Fund — echte
+> Sackgasse über frei zugängliche Quellen. Bleibt wie vermerkt nachrangig offen.
 
 ---
 
@@ -503,8 +553,14 @@ Brandschutzabschluesse». Richtig ist 14-15 = Verwendung von Baustoffen, 16-15 =
 Rettungswege; eine BSR «Brandschutzabschlüsse» gibt es nicht. **Am 20.08.2026 korrigiert**,
 zusammen mit einer Fassungswarnung zum Ordner «02 Brandschutzrichtlinien 2015-17-22», dessen
 Name über den tatsächlichen Bestand (überwiegend 2015) täuscht. Gleiche Klasse wie der
-BKP-«271.10»-Fall aus Run 43. **Offen bleibt:** ob weitere Fach-Skills VKF-Nummern oder
--Fassungen führen — nicht geprüft.
+BKP-«271.10»-Fall aus Run 43.
+
+> ✅ **Restfrage GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, vierter Lauf).** Grep über
+> `skills/`, `agents/`, `commands/` (Muster BSR/BRL/VKF gefolgt von zwei- bis vierstelliger
+> Nummer plus «-15») ausserhalb von `skills/brandschutz/`: **0 Treffer.** Kein weiterer
+> Fach-Skill führt eine VKF-Richtlinien-Nummer oder -Fassung. Die vier Zufallstreffer aus dem
+> breiteren Muster (offertenpruefung, wissens-destillat) sind Prozentangaben bzw.
+> Dateinamen-Fragmente ohne VKF-Bezug, geprüft und verworfen.
 
 ---
 
@@ -778,6 +834,13 @@ formelle Frage ist beantwortet, die fachliche Detailfrage zu Kalk bleibt offen.
 > **Nächster Schritt bei Bedarf:** SN EN 459-1 auf shop.sia.ch direkt suchen (eigene
 > Produktseite, nicht über SIA-215-Verweis erreichbar) oder Kalk-Frage an Raphael/
 > Fachplaner zurückgeben, falls ein Projekt sie konkret braucht.
+>
+> **Vorgeschlagener nächster Schritt geprüft, ohne Erfolg (23.08.2026, QUESTIONS-Abarbeitung
+> vierter Lauf):** `https://shop.sia.ch/normenwerk/ingenieur/sn%20en%20459-1/d/D/Product`
+> liefert 404 «Produkt nicht gefunden» — SN EN 459-1 ist eine CEN-Norm (SNV-Vertrieb), keine
+> SIA-Publikation, und liegt nicht unter dem SIA-Shop-URL-Muster. Echte Sackgasse für diesen
+> Zugangsweg; ein Fund verlangt entweder den SNV-Shop (nicht geprüft, kostenpflichtig) oder
+> die Kalk-Frage bleibt Bring-Schuld Raphael/Fachplaner.
 
 ## Normen-Nacht Run 52 (15.08.2026) — die Gegenprobe zweiter Ordnung ist gefahren; eine Fehlerklasse bleibt unerkannt
 
