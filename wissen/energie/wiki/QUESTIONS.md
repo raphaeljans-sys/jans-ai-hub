@@ -3414,12 +3414,24 @@ durchfuehrbar.
   Klassenzimmer: AHB-Wert (25 m³/h/P) und SIA-2024-Auslegungswert (25 m³/(h·P)) stimmen exakt
   überein → E-R129-2 geschlossen. Büro: AHB-Wert (25 m³/h/P) und SIA-2024-Auslegungswert
   (36 m³/(h·P)) weichen um rund 30 % voneinander ab, Ursache nicht geklärt (Details und
-  Hypothesen in `[[ahb-raummodul-buero]]`, Offene Punkte). **Bleibt offen, weil die
-  Büro-Diskrepanz eine eigene Klärung braucht** (Standardwert- statt Auslegungswert-Verwechslung
-  der Stadt Zürich 2008? andere Quellnorm?) und weil noch nicht auf «eine heute gültige
-  Bezugsgrösse gehoben» wurde — dafür wäre SIA 2024:2021 statt der hier verwendeten Ausgabe 2006
-  zu prüfen. Über die zwei bearbeiteten Blätter hinaus bleiben 39 der 44 SIA-2024-Datenblätter
-  ungelesen.
+  Hypothesen in `[[ahb-raummodul-buero]]`, Offene Punkte).
+  **Teilbefund 23.08.2026 (Fortsetzung, interaktive Session): eine der drei Hypothesen am
+  Original widerlegt.** SIA-2024:2006-PDF direkt geladen (M365-Graph-Connector, Site PL,
+  `SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf`) und Tabellenzeile «Aussenluftvolumenstrom pro
+  Person» auf S. 34 im Rohtext geprüft: die Zeile führt **nur** den Auslegungswert 36, die
+  Spalten Standardwert/Bereich sind für genau diese Grösse leer. Die Hypothese «Stadt Zürich hat
+  2008 mit dem SIA-2024-Standardwert gerechnet» ist damit widerlegt — einen solchen Wert gibt es
+  in der Quelle nicht. Der Definitionstext (Kap. 2, S. 15) ordnet die 36 zudem dem allgemeinen
+  **SIA-380/4**-Ansatz zu, nicht den IDA-Kategorien von SIA 382/1. **Bleibt offen, weil die
+  beiden verbleibenden Hypothesen (ältere/abweichende SIA-380/4-Fassung; eigene städtische
+  Wirtschaftlichkeitsabwägung der AHB-Fachstelle) beide nicht mehr aus frei zugänglichen Quellen
+  klärbar sind** — SIA 380/4 liegt weder im NAS- noch im SharePoint-Bestand vor und ist
+  kostenpflichtig (gleiche Blockade wie E-R148-1 beim Normkauf SIA 380/1:2016); eine eigene
+  städtische Abwägung wäre nur bei der AHB-Fachstelle Energie und Gebäudetechnik direkt zu
+  erfragen, nicht recherchierbar. Ebenfalls weiterhin unklar: ob auf «eine heute gültige
+  Bezugsgrösse gehoben» werden kann — dafür wäre SIA 2024:2021 statt der hier verwendeten
+  Ausgabe 2006 zu prüfen, ebenfalls nicht im freien Bestand vorhanden. Über die zwei bearbeiteten
+  Blätter hinaus bleiben 39 der 44 SIA-2024-Datenblätter ungelesen.
 
 - [ ] **E-R129-5 (P4): `Standards_Kennzeichnungssystem_V2.2.pdf` bei einem Betriebsoptimierungs-
   oder Submetering-Thema neu bewerten.** In diesem Lauf begründet als `[-]` abgelegt (reine

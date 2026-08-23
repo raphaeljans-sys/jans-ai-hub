@@ -1,5 +1,46 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (zehnte Fortsetzung, Run 155): E-R129-4 Teilbefund — Standardwert-Hypothese am SIA-2024-Original widerlegt
+
+Fortsetzung der neun vorangehenden Interaktiv-Sessions desselben Tages. Auftrag: weitere offene
+Fragen aus `wiki/QUESTIONS.md` abarbeiten, belegt, dort weitermachen, wo Run 154 aufgehört hat.
+
+Eigene zeilenweise Prüfung aller verbliebenen `- [ ]`/`- [~]`-Zeilen (dritte unabhängige Prüfung
+in Folge nach Run 152 und 154) bestätigte Run 154s Befund: alle klassifizierten Punkte (E103,
+E94, E-S1, E-R148-1, E-R148-2, E-R149-4, E-R134-3, E-R129-5, E-WC32-1, die beiden
+Fernwärme-Altzeilen, E-R134-4) sind tatsächlich blockiert oder bereits gelöst. **Eine Zeile war
+in Run 154s Aufzählung nicht erfasst: E-R129-4** («SIA 2024 als Quelle für Raumnutzungsdaten
+erschliessen», Teilbefund vom selben Tag, offen wegen der Büro-Diskrepanz AHB 25 m³/h/Person vs.
+SIA-2024-Auslegungswert 36 m³/(h·P)) — ein echter, noch nicht vollständig erschöpfter
+Recherchestrang.
+
+**SIA 2024:2006-Original direkt gegengelesen** (M365-Graph-Connector, Site PL, Drive
+`02_Recht_Norm`, `SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf`, per Zertifikats-Token geladen
+und mit `pdftotext -layout` extrahiert, S. 14-16 + 34): die Tabellenzeile «Aussenluftvolumenstrom
+pro Person, Nichtraucher, V'e,P, m³/(hP)» auf S. 34 trägt **nur** den Auslegungswert 36 — die
+Spalten Standardwert und Bereich sind für diese Grösse leer. Die bisherige Hypothese «Stadt
+Zürich hat 2008 mit dem SIA-2024-Standardwert statt dem Auslegungswert gerechnet» ist damit
+**widerlegt**, einen solchen Wert gibt es in der Quelle nicht. Der Definitionstext (Kap. 2, S. 15)
+ordnet die 36 zudem dem allgemeinen **SIA-380/4**-Ansatz zu («… wie z.B. Büronutzung wird im
+Allgemeinen mit 36 m³/h pro Person gerechnet»), nicht den IDA-Luftqualitätskategorien von
+SIA 382/1 (die im selben Kapitel nur für die Ventilatorsteuerung herangezogen werden).
+
+**Ergebnis:** von drei ursprünglichen Erklärungshypothesen ist eine widerlegt, zwei bleiben
+offen und sind beide nicht mehr aus frei zugänglichen Quellen klärbar — SIA 380/4 liegt weder im
+NAS- noch im SharePoint-Bestand vor und ist kostenpflichtig (gleiche Blockade wie E-R148-1 beim
+Normkauf SIA 380/1:2016), eine eigene städtische Wirtschaftlichkeitsabwägung wäre nur bei der
+AHB-Fachstelle Energie und Gebäudetechnik direkt zu erfragen. E-R129-4 bleibt daher offen, wandert
+aber inhaltlich in dieselbe Kategorie wie E-R148-1: ohne Normkauf oder Fachstellen-Rückfrage nicht
+weiter recherchierbar. Register: `wiki/QUESTIONS.md` (E-R129-4 Teilbefund nachgetragen),
+`destillate/ahb-raummodul-buero.md` (Nachtrag präzisiert, Frontmatter `last_updated`),
+`destillate/INDEX.md` (Zeile `ahb-raummodul-buero` nachgezogen). Output:
+`outputs/2026-08-23_questions-nachlauf-zehnte-fortsetzung.md`. Nach jedem Schreibvorgang
+`git diff --numstat` geprüft, ausschliesslich additiv.
+
+**Bestand für den nächsten Lauf:** nach dieser Prüfung ist kein weiterer ohne Raphaels Entscheid,
+externe Freigabe oder Normkauf lösbarer Rechercheauftrag mehr auffindbar — die Einschätzung aus
+Run 154 gilt mit dem einen ergänzten Teilbefund weiterhin.
+
 ## 2026-08-23 — Interaktive Session (neunte Fortsetzung, Run 154): E12 geschlossen (Solarsplit/EVG als vZEV-Vollservice eingeordnet), gesamter offene-Fragen-Bestand einzeln gegengeprüft
 
 Fortsetzung der acht vorangehenden Interaktiv-Sessions desselben Tages. Auftrag: weitere offene
