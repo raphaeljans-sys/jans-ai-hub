@@ -90,6 +90,15 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   Achtung, das dort verwendete Siglum «Art. 3a ABV» ist nach dem Run-25-Befund unzutreffend —
   einschlägig dürfte **§ 3a Abs. 2 AbfV ZH (LS 712.11)** sein. Erst nach belegter Fundstelle in
   diesen Artikel übernehmen.
+  ✓ **ERLEDIGT 23.08.2026:** Am Original (zh.ch, AbfV ZH LS 712.11, Nachtrag 101) verifiziert und
+  in `[[gebaeudeschadstoffe]]` (neuer Abschnitt «Meldepflicht bei Abbruch») ergänzt. Die
+  Vermutung war fast richtig, aber um einen Absatz verschoben: die **Vorab-Meldepflicht** steht in
+  **§ 3a Abs. 1** AbfV ZH (Bauherrschaft → Gemeinde, vor Abbruchbeginn, Inhalt nach Art. 16 Abs. 1
+  VVEA); Abs. 2 regelt nur den nachträglichen Entsorgungsnachweis auf Verlangen. Zusätzlich, mit
+  anderem Adressat: Art. 86 BauAV (SR 832.311.141) verpflichtet das Asbestsanierungsunternehmen
+  (nicht die Bauherrschaft), die Sanierung mindestens 14 Tage vorher der **Suva** zu melden. «Art.
+  3a ABV» war keine existierende Fundstelle. Ob die Stadt Zürich zusätzlich eine kommunale
+  Meldung ans UGZ kennt, bleibt unverifiziert (kleiner Rest, nachrangig).
 - [ ] **E-R25-3 (P3): VVEA-Nachlauf — Anhänge und Folgeartikel nicht geprüft.** Für
   `[[gebaeudeschadstoffe]]` wurde am 04.08.2026 die Rechtsbasis auf **Art. 16 VVEA
   (SR 814.600)** verengt und am konsolidierten Fedlex-Volltext, Stand 01.08.2026, als materiell
@@ -164,7 +173,7 @@ Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
   Hinweis zur Zustaendigkeit: die Wasserversorgungsparagraphen §§ 95-100 WsG (Bezugspflicht,
   Brauchwasser, Gebuehren) sind hub-weit unverarbeitet; die Bring-Schuld liegt bei `baurecht`
   (Erlasswortlaut) und `planungsgrundlagen` (Recht/Verfahren), nicht hier.
-- [ ] **E-R20-5 (P3): Konzessionsgrundlage und Konzessionsdauer fuer Seewasser-Waermenutzung in
+- [x] **E-R20-5 (P3): Konzessionsgrundlage und Konzessionsdauer fuer Seewasser-Waermenutzung in
   SZ und ZG.** Fuer ZH ist die Regeldauer 15-30 Jahre am Gesetzestext geklaert
   (`[[grundwasserwaermenutzung-bewilligung-zh-sz]]`); fuer Schwyz und Zug stuetzt sich der Bestand
   auf die interkantonale AKV-Richtlinie und eine Webseiten-Kurzdarstellung, ohne dass die
@@ -3365,7 +3374,7 @@ durchfuehrbar.
   Nicht-Dubletten bestätigt, aber noch nicht destilliert (Budget dieses Laufs reichte nur für
   eine Einheit, `Richtlinie_7-Meilenschritte`). Nächster kleiner Umfang für Run 132.
 
-- [ ] **E-R132-1 (P2): Gilt der Stadtratsbeschluss Nr. 1094/2008 noch?** Die Frage trägt jetzt
+- [x] **E-R132-1 (P2): Gilt der Stadtratsbeschluss Nr. 1094/2008 noch?** Die Frage trägt jetzt
   mehr Gewicht als vor Run 132, weil der Fassungsvergleich Mai 2006 gegen September 2008 belegt,
   **wie schnell sich diese Vorgaben ändern** (erneuerbare Energien am Wärmebedarf von Neubauten
   25 % → 40 % in gut zwei Jahren). FAQ F234 antwortet deshalb bewusst mit «lesen Sie Ihren
@@ -3373,6 +3382,15 @@ durchfuehrbar.
   Weg zur Auflösung führt über die Stadt Zürich (Beschlusssammlung / Amt für Hochbauten), nicht
   über eine weitere PL-02-Datei. Sobald geklärt: F234 von `emerging` heben und den Zielwert
   benennen.
+  ✓ **ERLEDIGT 23.08.2026: nein, abgelöst.** StRB Nr. 1094/2008 ist durch **StRB Nr. 2932/2023 vom
+  25.10.2023 («Meilenschritte 23»)** ausdrücklich abgelöst (Dispositiv Ziff. 1, am Original-PDF
+  gelesen, stadt-zuerich.ch); dazwischen war STRB 722/2014 eine letzte Aktualisierung der alten
+  Fassung. Die Meilenschritte 23 decken vier Themenfelder ab (nicht mehr nur Energie), der
+  konkrete 40-%-Zielwert ist damit überholt, ein Nachfolgewert wurde nicht beziffert (dafür wäre
+  die Beilage zu STRB 2932/2023 selbst zu beschaffen). Seit März 2024 ergänzt die
+  «Nachhaltigkeitsstrategie Immobilien Stadt Zürich» (STRB 1207/2024) die Meilenschritte 23. FAQ
+  F234 entsprechend nachgeführt, bleibt aber `emerging`, weil der Beschluss selbst (nur der
+  Verweis darauf) nicht im Volltext in der KB liegt.
 
 - [ ] **E-R132-2 (P3): `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (18.3, 2.0 MB) im Detail
   gegen die 2008er-Destillate prüfen.** Run 130 hat einen deutlich abweichenden Textumfang

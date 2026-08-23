@@ -569,13 +569,44 @@ Abklärungsweg zeigen:
    nur als Ergebnis genannten «k. A. vs. R 60».
 4. `250305 Factsheet Brandschutzanforderung Tragwerk.pdf` — das Ergebnisblatt (oben ausgewertet).
 
-> **Offene Fachfrage aus dem Fragenkatalog (2026-07-28 neu erfasst, siehe QUESTIONS C40):** «Müssen
-> bei einer Transformation EFH → MFH **alle** Bauteile die Brandschutzanforderungen erfüllen oder
-> **nur die neuen**?» — dazu enthält weder dieser Artikel noch die KB `normen` bisher eine belegte
-> Antwort. Die Frage ist für JANS-Aufstockungen/Umnutzungen im Bestand die teuerste Einzelfrage
-> (Ertüchtigung der bestehenden Tragstruktur vs. nur Neubauteile) und wartet auf eine Fundstelle
-> (Kandidaten: Brandschutznorm 1-15 Art. 2 Abs. 3 «bestehende Bauten», BSR 15-15 Ziff. 3.7 sowie
-> § 357 PBG Bestandesschutz → [[recht-norm-pbg-revision-bauen-im-bestand]]).
+> **✓ Beantwortet 2026-08-23 (C40).** «Müssen bei einer Transformation EFH → MFH **alle**
+> Bauteile die Brandschutzanforderungen erfüllen oder **nur die neuen**?» — **keine feste
+> Bauteil-Quote, sondern ein zweistufiger Verhältnismässigkeits-Massstab:**
+> 1. **Grundsatz: kein Bestandesschutz im Brandschutz.** BSN 1-15 Art. 2 (Geltungsbereich):
+>    bestehende Bauten sind **verhältnismässig anzupassen**, wenn eine wesentliche bauliche
+>    oder betriebliche Veränderung/Nutzungsänderung vorliegt (Quelle
+>    `wissen/normen/destillate/vkf-brandschutznorm-1-15de-bspub57.md`, Abschnitt
+>    «Geltungsbereich»). Eine EFH→MFH-Umnutzung (zusätzliche Wohneinheiten, höhere
+>    Personenbelegung) ist unstrittig «wesentlich» — die Anpassungspflicht wird ausgelöst,
+>    ihr **Umfang** bleibt aber eine Verhältnismässigkeitsfrage, kein Automatismus auf jedes
+>    unveränderte Bauteil. Praxis-Beleg: VG Solothurn 27.05.2005 (SOG 2005 II Nr. 17)
+>    «Unter brandschutzrechtlichen Aspekten gibt es Bestandesgarantie in diesem Sinne
+>    nicht» (bereits oben §1, Eckpunkt 38 zitiert).
+> 2. **Kippschwelle: «neubauähnliche Umgestaltung».** Übersteigt der Eingriff diese Schwelle
+>    (Zürcher Baurekursgericht 27.04.2021, BEZ 2021 Nr. 27), greift die **volle
+>    Neubau-Anwendung** — dann de facto alle betroffenen Bauteile auf MFH-Standard. Eine
+>    EFH→MFH-Transformation mit zusätzlichen Wohneinheiten liegt oft nahe an dieser
+>    Schwelle; der Einzelfall entscheidet (Kriterien u. a. Umbausumme im Verhältnis zum
+>    Gebäudeversicherungswert, Eingriffstiefe ins Tragwerk).
+> 3. **§ 357 PBG (kantonaler Bestandesschutz ZH) hilft hier NICHT.** Nach
+>    `wissen/baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md`, Abschnitt § 357 PBG,
+>    gelten Feuerpolizei-/Brandschutzvorschriften **nicht** als «Bauvorschrift» im Sinn von
+>    § 357 — der kantonale Bestandesschutz kann also nicht gegen eine Brandschutz-Nachrüstung
+>    angerufen werden. Die ursprünglich vermutete «Verhältnismässigkeitsklausel analog § 357»
+>    existiert für den Brandschutz nicht eigenständig; Verhältnismässigkeit kommt ausschliesslich
+>    aus BSN Art. 2 selbst (Punkt 1).
+> 4. **Negativbefund BSR 15-15 Ziff. 3.7:** enthält ausschliesslich die Feuerwiderstands-
+>    Klassierungstabellen (siehe Tabelle oben) — **keine** Aussage zum Bestandes-Umfang. Der
+>    ursprünglich vermutete Fundort ist damit widerlegt, nicht bestätigt. Ebenso kein Treffer
+>    in der Wohnbauten-Arbeitshilfe 1001-15 (reine Einstufungstabelle EFH/MFH, kein
+>    Umnutzungs-Passus).
+> 5. **Praxisfolge für JANS:** keine pauschale Kostenaussage möglich (keine feste
+>    Bauteil-Quote belegt); bei EFH→MFH-Mandaten **frühzeitig eine schriftliche Voranfrage
+>    bei der Brandschutzbehörde/GVZ** stellen, die den Umfang der Nachrüstung im Einzelfall
+>    festlegt. Die künftige BSV 2026 will laut Eckpunkt 38 (§1 oben) eine feste «rote Linie»
+>    definieren — bis dahin bleibt es Einzelfallprüfung.
+> → Verlinkt: [[recht-norm-pbg-revision-bauen-im-bestand]] existiert im Hub noch nicht als
+> eigener Artikel; massgeblich ist stattdessen `wissen/baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md`.
 
 ### Treppen innerhalb der Nutzungseinheit (Zusatzfund, BSR 16-15 «Flucht- und Rettungswege»)
 

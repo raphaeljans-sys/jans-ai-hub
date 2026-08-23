@@ -21,6 +21,51 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260823c — Triage-Lauf editierte den SSD-Klon statt der NAS-Quelle, Auto-Sync-Stash-Pop hinterliess Konfliktmarker im Commit
+
+**Vorfall:** Interaktive Session auf dem Mac Mini fuehrte die Triage Phase 1 des Korpus
+`buero-projekte` (706 Inventarzeilen, acht parallele Haiku-Subagenten, Ergebnisse per Python-Skript
+zeilenweise angewendet). Die Schreiboperation lief gegen den relativen Pfad
+`skills/wissens-destillat/training/buero-projekte-inventar.md` unter dem cwd `~/Developer/jans-ai-hub`
+— also den **SSD-Klon**, nicht `/Volumes/daten/jans-ai-hub/...` (Verstoss gegen Rule
+`sync-kanonische-quelle.md`: geteilte Inhalte nur auf dem NAS-Pfad editieren). Waehrend die acht
+Chargen sequenziell angewendet wurden, griff ein automatischer Sync-Mechanismus auf derselben
+Station in denselben SSD-Klon ein (Commit `6517d3df6 auto-sync [Macmini]: skills/wissens-destillat/
+training/buero-projekte-inventar.md` — vermutlich `git-auto-sync.sh`/launchd, nicht eine zweite
+Claude-Session): er stashte die lokal noch unfertigen Aenderungen, pullte, versuchte den Stash
+zurueckzuspielen, geriet in Konflikt und **committete die Datei MIT unaufgeloesten
+`<<<<<<< Updated upstream` / `=======` / `>>>>>>> Stashed changes`-Markern** — 1515 statt 822
+Zeilen. Der naechste `nas-selfcommit`-Lauf (native, auf der Synology, Commit `8569ca861`) uebernahm
+diesen kaputten Stand unbesehen in die **kanonische NAS-Quelle**, weil `nas-selfcommit.sh` keine
+Pruefung auf verbliebene Konfliktmarker faehrt.
+
+**Erkannt durch:** die Pflichtpruefung `git diff --numstat` nach dem Schreiben (Rule
+`auto-verbesserungen` 260811) fiel zunaechst unauffaellig aus (706/706), aber eine anschliessende
+Kontroll-`wc -l` zeigte 1515 statt der erwarteten 822 Zeilen — das war der erste Hinweis.
+
+**Reparatur:** Die vier Konfliktbloecke enthielten auf der `Updated upstream`-Seite durchgehend den
+alten unklassifizierten `[ ]`-Stand, auf der `Stashed changes`-Seite exakt die eigene, gerade
+angewendete Triage — beides per `git stash show -p` gegengeprueft, nicht geraten. Ein Python-Skript
+loeste alle vier Bloecke auf (Stashed-Seite behalten, Rest verwerfen), **erst auf dem SSD-Klon,
+dann identisch auf dem kanonischen NAS-Pfad** (Diff der beiden reparierten Fassungen: 0). Der
+verwaiste `autostash` wurde nach Gegenpruefung seines Inhalts (`git stash show -p`, identisch mit
+der bereits eingearbeiteten Reparatur) gedroppt — sonst haette ihn ein kuenftiger Sync-Lauf erneut
+gegen die schon reparierte Datei zu poppen versucht und denselben Konflikt reproduziert. Beide
+Commits (SSD `3faa643f3`, NAS nativ ueber `nas-commit-now.sh`) sind identisch und gegengeprueft
+(0 Konfliktmarker, 813 Tabellenzeilen, keine Duplikate in der Datei-Spalte, 0 offene `[ ]`).
+
+**Lehre:** (1) Bei Arbeit an Dateien unter `skills/`/`rules/`/`wissen/`/`docs/` **immer** den
+absoluten NAS-Pfad `/Volumes/daten/jans-ai-hub/...` verwenden, nie den relativen Pfad unter dem
+SSD-Klon-cwd — auch wenn beide Pfade denselben Dateinamen zeigen, sind es zwei getrennte
+Git-Arbeitsbaeume mit eigener Sync-Automatik. (2) Nach jedem Schreiben nicht nur `git diff
+--numstat` auf Zeilenanzahl pruefen, sondern bei einer Tabelle/einem strukturierten Format
+zusaetzlich `wc -l` gegen die erwartete Gesamtzeilenzahl und `grep -c '^<<<<<<<'` auf
+Konfliktmarker — beides kostet eine Zeile und haette den Fehler frueher gefangen. (3)
+`nas-selfcommit.sh` traegt aktuell keine Schutzpruefung gegen das Committen unaufgeloester
+Konfliktmarker; das ist eine offene Haerteluecke im nativen Committer, nicht in dieser Session
+behoben (ausserhalb des Auftrags, der diesen Vorfall ausloeste — als eigener Punkt vormerken, wenn
+naechstens an `scripts/nas-selfcommit.sh` gearbeitet wird).
+
 ## 260823 — ⚠ Tailscale auf dem Mac Mini ist GESTOPPT — die Always-On-Station ist von aussen blind
 
 **Das ist die korrigierte Fassung des Eintrags direkt darunter.** Der erste Befund lautete, der

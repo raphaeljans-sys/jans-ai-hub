@@ -152,7 +152,11 @@
           "name": { "type": "string" },
           "jans_nr": { "type": ["string", "null"], "description": "JANS-Projektnummer oder null bei externen" },
           "architekt": { "type": "string", "description": "Architekt (bei externen Referenzen)" },
-          "relevanz": { "type": "string" }
+          "relevanz": { "type": "string" },
+          "synobsis_slug": {
+            "type": "string",
+            "description": "Optionaler Verweis auf den Katalog-Slug in wissen/architekten-synobsis/catalog/<slug>.json (Feld 'slug' dort), NUR setzen wenn das im Feld 'architekt' genannte Büro dort eindeutig als eigener Katalogeintrag existiert. Bei mehreren im Feld 'architekt' genannten Büros nicht setzen, wenn nicht alle einen Katalogeintrag haben (kein Teil-Match vortäuschen)."
+          }
         },
         "required": ["name", "relevanz"]
       }

@@ -8084,16 +8084,27 @@ Energienachweis nicht vorkommen: der **Elektrizitätsbedarf der Prozesse** (Küc
 bei grösseren Nichtwohnbauten bereits in der Planung auszuweisen und zu optimieren, und die
 **graue Energie** ist in der Planung zu ermitteln, nicht erst im Betrieb zu bilanzieren.
 
-⚠ **Beide Fassungen sind alt** (Mai 2006 und September 2008). Ob StRB 1094/2008 noch in dieser
-Form gilt oder durch einen späteren Beschluss abgelöst wurde, ist aus diesen Quellen **nicht**
-zu beantworten. Auch der zitierte Referenzwert SIA 380/1:2007 ist überholt (heute SIA 380/1:2016).
+⚠ **Beide Fassungen sind alt** (Mai 2006 und September 2008) — und **überholt**, verifiziert
+23.08.2026 (schliesst E-R132-1). Der Stadtratsbeschluss Nr. 1094/2008 ist durch **Stadtratsbeschluss
+Nr. 2932/2023 vom 25.10.2023 («Meilenschritte 23»)** ausdrücklich abgelöst: dessen Dispositiv
+Ziff. 1 lautet «Die Meilenschritte 2023 werden gemäss Beilage verabschiedet. Sie ersetzen die
+7 Meilenschritte zum umwelt- und energiegerechten Bauen.» (dazwischen war STRB Nr. 722/2014 eine
+letzte Aktualisierung der alten 7 Meilenschritte). Die Meilenschritte 23 decken laut demselben
+Beschluss vier Themenfelder ab (klimaneutrale Stadt, intelligente Ressourcennutzung, gesundes
+Stadtklima, vernetzte Stadtnatur) statt nur Energie — der konkrete 40-%-Zielwert aus der Tabelle
+oben ist damit **nicht mehr die aktuelle Vorgabe**, ein Nachfolgewert wurde in dieser Recherche
+nicht beziffert. Seit März 2024 ergänzt die «Nachhaltigkeitsstrategie Immobilien Stadt Zürich»
+(Beilage zu STRB Nr. 1207/2024) die Meilenschritte 23 um übergeordnete Portfolio-Ziele, ersetzt
+sie aber nicht. Publiziert unter stadt-zuerich.ch/meilenschritte (Amt für Hochbauten). Auch der
+zitierte Referenzwert SIA 380/1:2007 ist überholt (heute SIA 380/1:2016).
 
 **Bauherren-Transfer:** Behandeln Sie diese Vorgaben wie eine Vertragsklausel, nicht wie eine
 Empfehlung. Drei Schritte: den Baurechtsvertrag auf einen Verweis auf die städtischen
-Nachhaltigkeitsvorgaben prüfen, beim Amt für Hochbauten den **heute geltenden Stand** schriftlich
-bestätigen lassen, und erst dann mit der Bauherrschaft den Zielstandard festlegen. Wer den
-Standard vor dieser Abklärung festlegt, riskiert eine Nachforderung in der Bewilligungsphase, die
-das Projekt an der teuersten Stelle trifft: an der Gebäudehülle und an der Wärmeerzeugung.
+Nachhaltigkeitsvorgaben prüfen, beim Amt für Hochbauten den **heute geltenden Stand** (Meilenschritte
+23 / STRB 2932/2023, ergänzt durch STRB 1207/2024) schriftlich bestätigen lassen, und erst dann mit
+der Bauherrschaft den Zielstandard festlegen. Wer den Standard vor dieser Abklärung festlegt,
+riskiert eine Nachforderung in der Bewilligungsphase, die das Projekt an der teuersten Stelle
+trifft: an der Gebäudehülle und an der Wärmeerzeugung.
 
 **Quelle:** Stadt Zürich, Amt für Hochbauten, «Nachhaltiges Bauen — Massstäbe für Umwelt- und
 energiegerechtes Bauen»: Fassung **Mai 2006** (2 S.) und **Stadtratsbeschluss Nr. 1094 vom

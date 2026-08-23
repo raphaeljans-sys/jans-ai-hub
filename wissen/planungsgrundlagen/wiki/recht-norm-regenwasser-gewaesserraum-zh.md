@@ -136,7 +136,8 @@ bisher vollständig (Cross-KB-Befund `energie` → `planungsgrundlagen`, adversa
 - **Kantonale Rechtsgrundlage ZH:** In ZH ausdrücklich gesetzlich **zulässig und gebührenfrei in
   getrennten Systemen** (**§ 97 Abs. 3 WsG**, LS 724.1, in Kraft seit **01.06.2026**, Nachtrag 133).
   Wortlaut nicht hier fortschreiben, sondern in der führenden KB nachlesen:
-  `wissen/baurecht/raw/260730_amtlich_zh_wsg.md:1374`. Für andere Kantone **nicht geprüft**.
+  `wissen/baurecht/raw/260803_amtlich_zh_wsg.md:1374` (Dateiname korrigiert 2026-08-23 — der
+  Bestand hiess bis 03.08.2026 `260730_amtlich_zh_wsg.md`). Für andere Kantone **nicht geprüft**.
 - **⚠ Reichweite der Gebührenfreiheit, hier wird am häufigsten zu günstig gerechnet.** Gebührenfrei
   ist die **Verwendung des eigenen Regenwasservolumens**; bezogen wird nichts. Unberührt bleiben: die
   **Bezugs-/Anschlusspflicht** an die öffentliche Wasserversorgung (§ 97 Abs. 1 WsG, Randtitel
@@ -144,7 +145,7 @@ bisher vollständig (Cross-KB-Befund `energie` → `planungsgrundlagen`, adversa
   der für die Finanzierung sinngemäss auf §§ 61 ff. WsG verweist) sowie die
   **Abwassergebühren**: § 111 Abs. 2 WsV verlangt ausdrücklich, dass die Gemeinden bei der Grundgebühr
   «sowohl den Schmutz- als auch den Regenwasseranfall» berücksichtigen
-  (`wissen/baurecht/raw/260730_amtlich_zh_wsv.md:1240-1244`). **Praxisfolge:** Eine Zisterne ersetzt
+  (`wissen/baurecht/raw/260803_amtlich_zh_wsv.md:1240-1244`). **Praxisfolge:** Eine Zisterne ersetzt
   den Anschluss an die öffentliche Wasserversorgung nicht.
 - **Technische Kernregeln und der Meldeschritt** (strikte Netztrennung vom Trinkwassernetz,
   Kennzeichnung der Leitungen/Entnahmestellen, Meldung der Anlage ans Wasserwerk als eigener,
@@ -155,9 +156,13 @@ bisher vollständig (Cross-KB-Befund `energie` → `planungsgrundlagen`, adversa
 - **Abgrenzung zu Teil A:** Nutzung und Entsorgung sind zwei Verfahren. Die Brauchwassernutzung
   entlastet die Entsorgungsseite nicht von den Versickerungs-/Einleitungsregeln (Art. 7 Abs. 2 GSchG,
   Kaskade), und umgekehrt sagt die Versickerungsbewilligung nichts über die Zulässigkeit der Nutzung.
-- **Offen, siehe unten:** die Fundstelle **§ 97 Abs. 3 WsG** ist im Hub bisher nur im amtlichen
-  `baurecht/raw/`-Volltext vorhanden; die Wasserversorgungsparagraphen **§§ 95-100 WsG** und
-  **§ 178 WsV** sind in keinem Wiki und keinem Destillat verarbeitet.
+- **✓ Geschlossen 2026-08-23 (K62).** Die Wasserversorgungsparagraphen sind inzwischen von
+  `baurecht` destilliert: `wissen/baurecht/wiki/QUESTIONS.md` führt den Punkt (dort als K20,
+  Wissens-Chef Run 20) als «✅ ERLEDIGT 2026-08-23» — die §§ 93-101 WsG und § 178 WsV sind seither
+  in [[baureife-und-erschliessung]], Abschnitt «Versorgung & Entsorgung (§ 236 PBG)», Zeile
+  215-249 eingearbeitet, inkl. § 97 Abs. 3 WsG (Zeile 237/238). Die Meldepflicht ans Wasserwerk
+  (SVGW TPW 2001/1) bleibt bei `energie` verankert (siehe oben) — sie ist eine gebäudetechnische,
+  keine kantonalrechtliche Pflicht. Verlinkung ergänzt: [[baureife-und-erschliessung]].
 
 ## B) Verfahren zur Gewässerraum-Festlegung (AWEL/ARE Merkblatt Juli 2014)
 

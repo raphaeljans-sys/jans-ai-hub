@@ -410,11 +410,21 @@ SZ, Vierwaldstättersee im Kt. SZ/LU/UR/OW/NW) bedeutet dieser Rechercheausstand
   § 44 Abs. 1 lit. a Ziff. 1 WsG nur eine **eigene Subsumtion**, keine amtlich benannte Fundstelle;
   eine WsV-Konkretisierung für oberirdische Gewässer fehlt (§ 92 WsV erfasst nur Erdreich). Beim
   AWEL bestätigen lassen, bevor die Nummer in ein Kundendokument wandert.
-- **Konzessionsdauer ausserhalb des Kantons Zürich nicht belegt** (Stand Run 20, 29.07.2026): Die
-  15 bis 30 Jahre stammen aus § 121 Abs. 1 lit. b WsV und gelten nur für ZH. Für SZ (WRG SRSZ
-  451.100) liegt im Hub kein amtlicher Volltext vor, für ZG und die übrigen Vierwaldstättersee-
-  Kantone ebenfalls nicht; dort ist die Dauer bei der kantonalen Fachstelle zu erfragen und darf
-  nicht mit dem ZH-Wert gefüllt werden.
+- ✓ **Konzessionsdauer SZ und ZG verifiziert 23.08.2026, schliesst E-R20-5:** **Kanton Schwyz**:
+  § 45 «Konzessionsdauer», Wasserverordnung vom 23.06.2020 (SRSZ 451.111) — «Konzessionen … für die
+  übrigen Nutzungen, mit Ausnahme der Wasserkraftnutzung, [werden] für eine Dauer von 20 Jahren
+  verliehen» (Regeldauer 30 Jahre nur für öffentliche Wasserversorgung). Der Betrieb von
+  Wärmepumpen ist in § 11 Abs. 2 lit. b WRG (SRSZ 451.100) ausdrücklich als konzessionspflichtige
+  Sondernutzung genannt und fällt damit unter «übrige Nutzungen» → **in der Regel 20 Jahre**.
+  **Kanton Zug**: § 43 Abs. 1 lit. b Gesetz über die Gewässer (GewG, BGS 731.1) — Konzessionsdauer
+  «für andere Nutzungen in der Regel 30 Jahre nicht überschreiten soll» (Wasserkraft bis 80 Jahre).
+  Wärme-/Kältenutzung aus Oberflächengewässern stützt sich laut der amtlichen Zuger Fachseite
+  (zg.ch/de/planen-bauen/.../waerme-und-kuehlnutzung-aus-oberflaechengewaessern) auf dieses Gesetz
+  → **in der Regel höchstens 30 Jahre**. Vorbehalt: der aktuellste Fassungsstand des GewG ZG war
+  wegen einer JS-basierten Gesetzesdatenbank nicht direkt an bgs.zg.ch verifizierbar; zwei
+  unabhängig geladene Fassungen (2013/heute) zeigen aber identischen Wortlaut in § 43, eine
+  angekündigte Teilrevision ohne bekanntes Inkrafttretensdatum wurde nicht auf eine Änderung
+  dieses Paragrafen hin geprüft. Für ein konkretes Mandat vor Zitat gegenlesen.
 - **Dauer der Seefassungs-/Seeleitungskonzession nicht amtlich zugeordnet** (Stand Run 20,
   29.07.2026): Die Seefassung ist eine eigene Sondernutzung nach § 119 Abs. 2 lit. e WsV, für die
   § 121 Abs. 1 keine eigene Litera nennt. Die Zuordnung zu lit. d (15–40 Jahre) ist eigene

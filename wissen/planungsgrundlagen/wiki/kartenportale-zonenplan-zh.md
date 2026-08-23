@@ -144,6 +144,26 @@ node geo-zh.mjs --adresse "<Adr Stadt-naehere Gde>" --produkt zonenplan
   rechtskräftig **K Kernzone** (`inKraft`); **proj-Layer aktiv** → `laufendeAenderung.Festsetzung`,
   `Aenderung_Bauordnung_Zonenplan`, Auflage **01.11.2024**, mit Dokument-Link auf
   oerebdocs.zh.ch. Beweist die End-to-End-Erkennung einer laufenden Revision durch den Connector.
+- **Thalwil, Bohlweg 3, Kat. 6289** (EGRID CH634177628504, BFS 141) — Benchmark für K68
+  (gemessen 2026-08-23): rechtskräftig **W3** (`inKraft`, AZ 60/3VG, ES_III, festgesetzt
+  10.12.2003/genehmigt 22.02.2005); **proj-Layer aktiv** → `laufendeAenderung.Festsetzung`,
+  Revisionsart **`Aenderung_Bauordnung`** (reiner BZO-Text, keine Geometrieänderung), Auflage
+  **16.05.2026**, `genehmigung`/`inkraftsetzung` beide leer. **Löst Teilfrage (a) von K68:** der
+  Lese-Hinweis oben sagt für `Aenderung_Bauordnung`, die proj-Attribute «können … leer sein» —
+  hier sind sie es nicht: `ausnuetzungsziffer_max`/`vollgeschosse_max` sind bestückt (identisch
+  zum rechtskräftigen Stand, weil die BZO-Revision hier nur den Text, nicht die Dichtewerte
+  dieser Zone ändert). Der proj-Layer ist also auch bei reinen Bauordnungs-Revisionen **nicht
+  grundsätzlich leer** — Leerfelder sind fallabhängig, kein verlässliches Ausschlusskriterium.
+  **Teilfrage (b) bleibt offen:** Die Parzelle ist der reale Fall hinter der von `baurecht`
+  geführten Überwachungs-Pendenz T-01 (revBZO Thalwil, Volksentscheid 14.06.2026, Stand
+  04.08.2026 «weder genehmigt noch in Kraft»). Der hier gemessene Stand (`Festsetzung`, beide
+  Datumsfelder leer) ist am 23.08.2026 deckungsgleich mit T-01 — die Revision hat die
+  `.Genehmigung`-Phase noch nicht erreicht, der Statuswechsel ist also noch nicht beobachtbar.
+  **Konkreter nächster Schritt statt weiterer Theorie:** denselben Connector-Aufruf
+  (`--adresse "Bohlweg 3, Thalwil" --produkt zonenplan`) erneut fahren, sobald `baurecht`
+  (T-01) die kommunale Publikation der Genehmigung meldet, und den Zeitpunkt des Feldwechsels
+  `rechtsstatus` → `.Genehmigung` gegen das Publikationsdatum vergleichen. Erst dieser Vergleich
+  beantwortet, ob der Layer als Frühwarnung taugt oder nur bestätigt.
 
 ## Realer Gestaltungsplan-Registerauszug: Gemeinde Maur (K59, Run 67)
 
