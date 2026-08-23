@@ -277,6 +277,48 @@
             "hinweis": {
               "type": "string",
               "description": "Vorbehalte zum Preisstand, z.B. gemischte Staende innerhalb eines Bands"
+            },
+            "indexiert": {
+              "type": "object",
+              "description": "Auf einen spaeteren Stichtag aufindexierte Fassung der Kostenangaben — ausdruecklich eine GEKENNZEICHNETE ABLEITUNG, kein belegter Kennwert. Die Rohbaender bleiben unveraendert auf ihrem Quell-Preisstand stehen, damit die Belegkette lesbar bleibt. Nur setzen, wenn der Teuerungsanker regional und sachlich zur Bauaufgabe passt; sonst weglassen statt raten. Eingefuehrt 23.08.2026.",
+              "properties": {
+                "stichtag": {
+                  "type": "string",
+                  "description": "Stichtag der Indexierung, Format JJJJ-MM-TT"
+                },
+                "chf_m2_hnf_band": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "chf_m2_gf_einzelwert": {
+                  "type": "number"
+                },
+                "chf_m3_gv_band": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "faktor_band": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 2,
+                  "maxItems": 2,
+                  "description": "Verwendete Teuerungsfaktoren [min, max], wenn der Stuetzpunkt nicht eindeutig ist"
+                },
+                "stand_der_ableitung": {
+                  "type": "string",
+                  "description": "Wann die Ableitung gerechnet wurde, Format JJJJ-MM-TT"
+                }
+              }
             }
           }
         },

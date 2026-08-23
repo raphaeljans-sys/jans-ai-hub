@@ -19,7 +19,10 @@
     ]
   },
   "flaechen": {
-    "hnf_pro_einheit_m2": [95, 105],
+    "hnf_pro_einheit_m2": [
+      95,
+      105
+    ],
     "einheit_bezeichnung": "Wohnung (4.5-Zimmer, HNF gemäss SIA 416)",
     "hinweis": "Referenzband aus zwei unabhängigen, praktisch deckungsgleichen Programm-Wohnungsspiegeln (Seebahn-Höfe Zürich, Brisgi-Areal Baden) — B6 Abschnitt 4c, der einzige über mehrere Quellen gestützte Absolut-Flächenwert des Bestandes. NF/GF-Faktor bewusst NICHT gesetzt: der einzige Beleg der Sammlung ist ein Einzelwert (Projekt Edward, Seebahn-Höfe, HNF/GF 66 %, kein Siegerprojekt) — B6 Abschnitt 5 schliesst ausdrücklich aus, ihn als Regelwert zu verwenden. Offener Punkt, siehe wissen/wettbewerbs-dna/wiki/QUESTIONS.md."
   },
@@ -27,11 +30,34 @@
     "tragwerk": "Kein einheitliches Tragwerk-Muster belegt, trägertyp-abhängig: der stadt-gemeindliche Sieger milet (Reichenbachstrasse) ist reine Massivbauweise mit Betonelement-Fassade; bei genossenschaftlichen Trägern ist ein durchgehender, wirtschaftlich vorfabrizierbarer Holzbau ein eigenständiges, breit geprüftes Wirtschaftlichkeits-/Nachhaltigkeitskriterium (Industriestrasse: bei allen 13 Projekten geprüft, kein 'Gesamtsieger' im Verfahren, S. 29/49/59-60/69; Walkeweg: am 3.-Rang-Projekt WALKIE TALKIE gelobt, S. 36 — NICHT am Sieger Werden & Wandeln belegt); Brisgi (privat-institutionell/Stiftung, Sieger Kandalama) ist Hybridbau — Mischbauweise ist verbreitet, aber KEIN Sieg-Kriterium — B4 Abschnitt 2.2, Abschnitt 3 (Siegargumente 9/12), Abschnitt 5"
   },
   "kosten_referenz": {
-    "chf_m2_hnf_band": [3500, 3900],
+    "chf_m2_hnf_band": [
+      3500,
+      3900
+    ],
     "chf_m2_hnf_bkp_scope": "BKP 1–9, inkl. MwSt., exkl. Parkierung",
-    "bkp_schwerpunkte": ["1–9 Gesamterstellung (Koch-Areal-Kostenbenchmark CHF/m² HNF)", "1–5 Baukosten (Reichenbachstrasse-Kostenziel CHF/m² GF, andere Bezugsgrösse)"],
+    "bkp_schwerpunkte": [
+      "1–9 Gesamterstellung (Koch-Areal-Kostenbenchmark CHF/m² HNF)",
+      "1–5 Baukosten (Reichenbachstrasse-Kostenziel CHF/m² GF, andere Bezugsgrösse)"
+    ],
     "quelle_kb": "wissen/grobkosten/",
-    "hinweis": "B6 Abschnitt 0/3a (27.07.2026, established): kein einziger der 8 Wohnungsbau-Juryberichte nennt ein Gebäudevolumen (GV) in m³ — CHF/m³ GV bleibt strukturell unbelegt (gleicher Befund wie Schulbau/Healthcare), führend dafür bleibt wissen/grobkosten/. Das CHF/m²-HNF-Band 3'500–3'900 (BKP 1–9, inkl. MwSt., exkl. Parkierung) stammt aus zwei unabhängigen Baufeldern (B und C) DERSELBEN Auslobung Koch-Areal Zürich 2018/2019 mit gemeinsamer Vorprüfung — als städtischer Zürcher Referenzwert 2018/2019 verwendbar, NICHT als schweizweiter Median; ein zweiter unabhängiger Wettbewerb mit publiziertem CHF/m²-HNF-Wert würde die Basis härten (offener Punkt in kennwerte-wohnungsbau.md). Alternativ dokumentiert Reichenbachstrasse Bern ein Kostenziel 3'800 CHF/m² GF (BKP 1–5, andere Bezugsgrösse, nicht direkt vergleichbar) mit enger Vorprüfungs-Toleranz −4 % bis +7 %."
+    "hinweis": "B6 Abschnitt 0/3a (27.07.2026, established): kein einziger der 8 Wohnungsbau-Juryberichte nennt ein Gebäudevolumen (GV) in m³ — CHF/m³ GV bleibt strukturell unbelegt (gleicher Befund wie Schulbau/Healthcare), führend dafür bleibt wissen/grobkosten/. Das CHF/m²-HNF-Band 3'500–3'900 (BKP 1–9, inkl. MwSt., exkl. Parkierung) stammt aus zwei unabhängigen Baufeldern (B und C) DERSELBEN Auslobung Koch-Areal Zürich 2018/2019 mit gemeinsamer Vorprüfung — als städtischer Zürcher Referenzwert 2018/2019 verwendbar, NICHT als schweizweiter Median; ein zweiter unabhängiger Wettbewerb mit publiziertem CHF/m²-HNF-Wert würde die Basis härten (offener Punkt in kennwerte-wohnungsbau.md). Alternativ dokumentiert Reichenbachstrasse Bern ein Kostenziel 3'800 CHF/m² GF (BKP 1–5, andere Bezugsgrösse, nicht direkt vergleichbar) mit enger Vorprüfungs-Toleranz −4 % bis +7 %.",
+    "preisstand": {
+      "jahr": "2018/2019",
+      "teuerungsanker": "Zuercher Index der Wohnbaupreise (ZIW), Statistik Stadt Zuerich — regional passend, weil das Band aus der Auslobung Koch-Areal Zuerich stammt. Stuetzstellen (Basis 1939=100): 01.04.2018 = 1036.8 · 01.04.2019 = 1046.3 · 01.04.2025 = 1210.4; 01.04.2026 ≈ 1221.3 (verkettet ueber die publizierte Jahresteuerung +0.9 %). Faktor auf 01.04.2026 damit 1.167 (Stuetzpunkt 2019) bis 1.178 (Stuetzpunkt 2018).",
+      "hinweis": "Nicht indexiert im Feld chf_m2_hnf_band gefuehrt — das Band bleibt auf seinem Quell-Preisstand 2018/2019 stehen, damit die Belegkette lesbar bleibt. Der indexierte Wert ist eine gekennzeichnete Ableitung, kein neuer belegter Kennwert; er traegt die Bandbreite der beiden Stuetzpunkte und ist auf 10er gerundet. Preisstand und Faktoren verifiziert 23.08.2026 gegen die amtliche ZIW-Reihe und die ZIW-Indextabelle Stichtag 01.04.2026 (siehe wissen/grobkosten/wiki/kennwerte.md, Abschnitt 'Baupreisindex ZH').",
+      "indexiert": {
+        "stichtag": "2026-04-01",
+        "chf_m2_hnf_band": [
+          4090,
+          4600
+        ],
+        "faktor_band": [
+          1.167,
+          1.178
+        ],
+        "stand_der_ableitung": "2026-08-23"
+      }
+    }
   },
   "entwurfs_regeln": [
     "Grundtypologie aus Trägertyp/Betriebslogik UND Kontext herleiten, nicht wählen — B4 Abschnitt 2, Übergreifende Regel",
@@ -72,7 +98,11 @@
     }
   ],
   "rendering": {
-    "farbpalette": ["#FFFFFF", "#F5F5F0", "#C8C0B8"],
+    "farbpalette": [
+      "#FFFFFF",
+      "#F5F5F0",
+      "#C8C0B8"
+    ],
     "stil": "weissmodell"
   }
 }

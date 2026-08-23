@@ -18,10 +18,15 @@
       "Sichtbezug Lernlandschaft <-> Klassenzimmer sicherstellen (2206 Schoental: fehlende Transparenz war K.o.-Beleg gegen den eigenen Beitrag)",
       "Erdgeschoss oeffentlich/belebt; Freiraum zonieren in oeffentlichen Vorplatz (Quartier-Adresse) + baulich gefassten, geschuetzten Schulfreiraum",
       "Bei Dorf-/Landkontext flacher (ein-/zweigeschossig) statt kompakter Solitaer — Geschossigkeit aus Ort/Bestand/Betrieb herleiten (Grossaffoltern: mehrgeschossig hier funktional nachteilig)"
-    ]
+    ],
+    "lichte_raumhoehe_m": 3.0,
+    "hinweis": "lichte_raumhoehe_m 3.00 m ist die belegte MINDEST-Raumhoehe des Klassenzimmers (2206 Schoental, Programm; kennwerte-schulbauten.md Abschnitt 4). Daraus wird ausdruecklich KEIN geschosshoehe_m abgeleitet — zwischen lichter Raumhoehe und Geschosshoehe liegen Decken- und Bodenaufbau, und keine Quelle des Korpus nennt eine Schul-Geschosshoehe. Ein Umrechnen waere Raten. geschosshoehe_m bleibt deshalb leer, obwohl es das einzige Geometriefeld ist, das volumen_generator.py lesen koennte (siehe wiki/QUESTIONS.md, Befund 23.08.2026 zur beidseitig leeren Verdrahtung)."
   },
   "flaechen": {
-    "hnf_pro_einheit_m2": [64, 75],
+    "hnf_pro_einheit_m2": [
+      64,
+      75
+    ],
     "einheit_bezeichnung": "Klassenzimmer (Planungswert 75 m2; 64 m2 belegter unterer Rand Mittelstufe)",
     "nf_gf_faktor": 0.53
   },
@@ -34,8 +39,27 @@
     "innenausbau_standard": "mittel"
   },
   "kosten_referenz": {
-    "bkp_schwerpunkte": ["2 Gebaeude", "4 Umgebung"],
-    "quelle_kb": "wissen/grobkosten/"
+    "bkp_schwerpunkte": [
+      "2 Gebaeude",
+      "4 Umgebung"
+    ],
+    "quelle_kb": "wissen/grobkosten/",
+    "chf_m2_gf_einzelwert": 4250,
+    "chf_je_einheit": {
+      "einheit": "Klassenzimmer",
+      "band": [
+        1600000,
+        1800000
+      ],
+      "umfang": "Regelschul-Neubau, Kosten der GESAMTANLAGE je Klassenzimmer (nicht der Raum). Sonderschule liegt rund 50 % darueber (rund 2.5 Mio., Einzelfall Heilpaed. Schule Bern). Sanierungs-/Erweiterungsfaelle bewusst nicht umgerechnet — dort bezieht sich das Kostendach auf die Gesamtanlage inkl. Bestand."
+    },
+    "preisstand": {
+      "jahr": "2021 (chf_m2_gf_einzelwert) · 2012-2026 (chf_je_einheit, Korpus-Spanne)",
+      "stichtag": "2021-04-29",
+      "teuerungsanker": "Offen und bewusst nicht gesetzt. Das Objekt liegt im Kanton St. Gallen; der in dieser Hub-Umgebung verifizierte Bauteuerungsanker ist der Zuercher Index der Wohnbaupreise (regional unpassend) bzw. der BFS-Baupreisindex, fuer den in den Hub-KBs derzeit nur die Basis Oktober 2025 = 100 mit dem Stand April 2026 belegt ist — keine bis 2021 zurueckreichende verkettete Reihe. Eine Aufindexierung waere damit geraten und unterbleibt.",
+      "hinweis": "chf_m2_gf_einzelwert ist ein ABGELEITETER EINZELWERT aus einem Kostenziel, kein Ist-Kostenwert und kein Band: Kantonsschule Wattwil, max. 60 Mio. CHF Anlagekosten inkl. Umgebung exkl. MWST / 14'100 m2 GF. Es ist der einzige Fall des Korpus, in dem Kosten und GF aus derselben Quelle stammen. Bericht des Preisgerichts 29.04.2021 (genehmigt 30.04.2021) — der Ordnername '2025' im Referenzarchiv taeuscht ein juengeres Datum vor."
+    },
+    "hinweis": "Dieser Block war bis 23.08.2026 leer (nur bkp_schwerpunkte und quelle_kb) — obwohl die im Feld 'quellen' bereits zitierte Quelle wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md (established, 25 Quellen, refuter-bestaetigt) belegte Kostenkennwerte fuehrt. Beim Vertiefungslauf 23.08.2026 nachgetragen. WICHTIG: CHF/m3 GV bleibt strukturell unbelegt — kein einziger der Schul-Juryberichte nennt ein Gebaeudevolumen (derselbe Befund wie bei Healthcare und Wohnungsbau); chf_m3_gv_band bleibt deshalb bewusst leer, fuehrend dafuer ist wissen/grobkosten/. Die zehn Kostendach-/Zielkostenwerte des Korpus haben unterschiedlichen BKP-Umfang und unterschiedlichen MwSt-Status und sind untereinander NICHT direkt vergleichbar — sie sind hier nur ueber die zwei abgeleiteten Orientierungsgroessen eingeflossen, nicht als Rohtabelle."
   },
   "entwurfs_regeln": [
     "GF je Geschoss unter 900 m2 halten: unterhalb dieser Schwelle genuegt ein Fluchttreppenhaus, was Erschliessungsflaeche spart und direkt auf die HNF/GF-Effizienz einzahlt (2102 Muttenz + Oberstufe Steffisburg, 2 Kantone) — erklaert, warum im knappen Areal der kompakte, hoehere Solitaer gewinnt (Stapeln statt Ausbreiten)",
@@ -86,7 +110,11 @@
     }
   ],
   "rendering": {
-    "farbpalette": ["#FFFFFF", "#F5F5F0", "#C8C0B8"],
+    "farbpalette": [
+      "#FFFFFF",
+      "#F5F5F0",
+      "#C8C0B8"
+    ],
     "stil": "weissmodell"
   }
 }

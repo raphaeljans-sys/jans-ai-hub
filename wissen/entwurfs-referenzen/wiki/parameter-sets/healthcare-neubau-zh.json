@@ -30,11 +30,21 @@
     ]
   },
   "kosten_referenz": {
-    "bkp_schwerpunkte": ["2 Gebaeude", "23 Elektro", "25 Heizung", "27 Aufzuege"],
+    "bkp_schwerpunkte": [
+      "2 Gebaeude",
+      "23 Elektro",
+      "25 Heizung",
+      "27 Aufzuege"
+    ],
     "quelle_kb": "wissen/immobilienbewertung/wiki/realwert-sachwert.md",
     "quelle_kb_m2_nf": "skills/kostenschaetzung/referenzen/ (Wueest-Healthcare-Kennwerte CHF/m2 NF)",
     "quelle_kb_nicht_anwendbar": "wissen/grobkosten/ — die KB untersagt ihre m3-Werte fuer Spital, Klinik, Alters-/Pflegeheim, Reha, Praxis ausdruecklich (wiki/kennwerte.md, Abschnitt 'Healthcare / Spezialnutzung') und erklaert sich fuer Healthcare unzustaendig (CLAUDE.md); nicht als Quelle fuer dieses Set verwenden.",
-    "hinweis": "B6 Abschnitt 0/8 (25.07.2026, established): kein einziger der 11 externen Healthcare-Juryberichte nennt einen projektspezifischen CHF/m2- oder CHF/m3-Kennwert; der einzige CHF/m3-Datenpunkt der Sammlung (eigene Teilnahme 2101, rund 916 CHF/m3) ist Soll-Kosten gegen Ist-Volumen einer ausgeschiedenen Abgabe und nicht benchmarkfaehig. Fuer CHF/m3 GV und CHF je Pflegeplatz fuehrend ist wissen/immobilienbewertung/wiki/realwert-sachwert.md (8-Objekt-Referenzvergleich CH 2011-2025: CHF/m3 GV 826-1'420, Median rund 1'100 BKP 2; das Teilband 1'053-1'420 gilt nur fuer die sechs Neubauten ab 2019), fuer CHF/m2 NF der Skill kostenschaetzung (Wueest Partner). Quellenzuweisung korrigiert Wissens-Chef Run 16, 26.07.2026 — zuvor zeigte quelle_kb auf wissen/grobkosten/, das genau diese Verwendung untersagt. ACHTUNG beim Weiterreichen des oberen Endpunkts (Vorbehalt nachgetragen Cross-KB-Lauf Run 27, 06.08.2026): der obere Endpunkt 1'420 (Averecura) und die Vella-Zeile sind quellenintern nicht reproduzierbar (recompute 1'285 bzw. 1'021 CHF/m3 GV), die uebrigen sechs Zeilen reproduzieren exakt. Der reproduzierbare Rohband liegt bei 826-1'285 CHF/m3 GV; das ist ausdruecklich der reproduzierbare ROHBAND und NICHT ein neuer geltender Band, der Entscheid darueber liegt bei Raphael und haengt an der Bereinigung des JANS-Original-Blatts. Bis dahin das Band nur mit diesem Vorbehalt weitergeben (Verifikationsnotiz Run 18 im fuehrenden Artikel, wissen/immobilienbewertung/wiki/wissensluecken.md D10). Ebenfalls mitfuehren: die Baender sind auf BKP 2 (Gebaeude) bezogen."
+    "hinweis": "B6 Abschnitt 0/8 (25.07.2026, established): kein einziger der 11 externen Healthcare-Juryberichte nennt einen projektspezifischen CHF/m2- oder CHF/m3-Kennwert; der einzige CHF/m3-Datenpunkt der Sammlung (eigene Teilnahme 2101, rund 916 CHF/m3) ist Soll-Kosten gegen Ist-Volumen einer ausgeschiedenen Abgabe und nicht benchmarkfaehig. Fuer CHF/m3 GV und CHF je Pflegeplatz fuehrend ist wissen/immobilienbewertung/wiki/realwert-sachwert.md (8-Objekt-Referenzvergleich CH 2011-2025: CHF/m3 GV 826-1'420, Median rund 1'100 BKP 2; das Teilband 1'053-1'420 gilt nur fuer die sechs Neubauten ab 2019), fuer CHF/m2 NF der Skill kostenschaetzung (Wueest Partner). Quellenzuweisung korrigiert Wissens-Chef Run 16, 26.07.2026 — zuvor zeigte quelle_kb auf wissen/grobkosten/, das genau diese Verwendung untersagt. ACHTUNG beim Weiterreichen des oberen Endpunkts (Vorbehalt nachgetragen Cross-KB-Lauf Run 27, 06.08.2026): der obere Endpunkt 1'420 (Averecura) und die Vella-Zeile sind quellenintern nicht reproduzierbar (recompute 1'285 bzw. 1'021 CHF/m3 GV), die uebrigen sechs Zeilen reproduzieren exakt. Der reproduzierbare Rohband liegt bei 826-1'285 CHF/m3 GV; das ist ausdruecklich der reproduzierbare ROHBAND und NICHT ein neuer geltender Band, der Entscheid darueber liegt bei Raphael und haengt an der Bereinigung des JANS-Original-Blatts. Bis dahin das Band nur mit diesem Vorbehalt weitergeben (Verifikationsnotiz Run 18 im fuehrenden Artikel, wissen/immobilienbewertung/wiki/wissensluecken.md D10). Ebenfalls mitfuehren: die Baender sind auf BKP 2 (Gebaeude) bezogen.",
+    "preisstand": {
+      "jahr": "2011-2025 (gemischt)",
+      "teuerungsanker": "Keiner pauschal anwendbar. Der fuehrende Artikel (wissen/immobilienbewertung/wiki/realwert-sachwert.md) fuehrt die acht Objekte bereits teuerungsbereinigt auf einen gemeinsamen Index-Stand ~115; die Rohzeilen tragen dagegen ihre Einzel-Preisstaende 2011-2025. Wer aufindexiert, muss zuerst entscheiden, ob er vom Roh- oder vom bereinigten Band ausgeht — sonst wird doppelt indexiert.",
+      "hinweis": "GEMISCHTE PREISSTAENDE, das ist der wichtigste Vorbehalt dieses Blocks. Das Gesamtband 826-1'420 CHF/m3 GV spannt ueber 14 Jahre; das Teilband 1'053-1'420 gilt nur fuer die sechs Neubauten ab 2019. Der reproduzierbare Rohband liegt bei 826-1'285 (Averecura- und Vella-Zeile quellenintern nicht reproduzierbar, D10). Ein einzelner Punktwert aus diesem Band ohne sein Objektjahr ist nicht verwendbar. Preisstand-Feld nachgetragen 23.08.2026 — bis dahin stand die Zeitspanne nur in Prosa im Feld 'hinweis' und war maschinell nicht auswertbar."
+    }
   },
   "entwurfs_regeln": [
     "Pflegeplaetze je Neubau-Haus: Referenzband 96-136 — drei unabhaengige Quellen (Thurgauerstrasse min. 96, Widnau 108, Adliswil 136); Demenz-Spezialheim Bombach mit 40 Plaetzen bewusst ausserhalb dieses Bandes, eigener Subtyp (B6 Abschnitt 1c/8)",
@@ -65,7 +75,11 @@
     }
   ],
   "rendering": {
-    "farbpalette": ["#FFFFFF", "#F5F5F0", "#C8C0B8"],
+    "farbpalette": [
+      "#FFFFFF",
+      "#F5F5F0",
+      "#C8C0B8"
+    ],
     "stil": "weissmodell"
   }
 }
