@@ -1,5 +1,31 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 5 Revendo) — Scope-Warnung beim Wohnen-Kostenband
+
+Beim Versuch, das indexierte CHF/m²-HNF-Band des Wohnen-Sets gegen die Kennwerte der
+Nachbar-KBs zu spiegeln, ist aufgefallen, dass der Vergleich **gar nicht zulässig ist** — und
+dass das nirgends stand.
+
+**Der Befund.** Das Band **3'500–3'900 CHF/m² HNF** lautet auf **BKP 1–9 inkl. MwSt., exkl.
+Parkierung** (Koch-Areal Zürich 2018/2019). Die Kostenkennwerte von `wissen/grobkosten` und der
+JANS-Wohn-Kennwert in `wissen/immobilienbewertung` lauten dagegen auf **BKP 1–5**. Der Unterschied
+sind BKP 3 (Betriebseinrichtungen), 6–8 (Reserve) und vor allem **9 (Ausstattung)**.
+
+**Wie gross der Unterschied ist, ist in diesem Hub nicht belegt.** Die einzige aktuelle amtliche
+BKP-Struktur — die ZIW-Revision 2025 aus 54 realen Zürcher MFH-Kostenvoranschlägen — deckt nur
+**BKP 1, 2, 4 und 5** ab und schweigt zu 3 und 9. Ein Zahlenvergleich über die Scope-Grenze hinweg
+ist deshalb **nicht zulässig, auch nicht überschlägig**: er erzeugte eine Differenz, die in
+Wahrheit eine **Definitionsdifferenz** ist.
+
+**Warnung im Feld `chf_m2_hnf_bkp_scope` verankert**, damit sie mitwandert, wenn das Band zitiert
+wird. Es ist dieselbe Falle wie beim BKP-Scope der Neuwert-Richtwerte
+(`immobilienbewertung` D13 / `grobkosten` Frage 1) und bei der 1-%-Regel von Art. 32 Abs. 2 LSV —
+**dreimal am selben Tag in drei verschiedenen Zusammenhängen aufgetaucht.** Das ist kein Zufall,
+sondern ein Muster: **BKP-Zahlen ohne Scope-Angabe sind im Hub die häufigste stille Fehlerquelle.**
+
+Geänderte Dateien: `wiki/parameter-sets/wohnen-mfh-urban.json` (nur das Feld
+`kosten_referenz.chf_m2_hnf_bkp_scope`, durch Anhängen; `validate.py --all`: OK).
+
 ## 2026-08-23 (Vertiefungslauf 4 Revendo) — Konsistenzlauf: der einzige echte Befund behoben
 
 Abschluss-Konsistenzlauf mit `wissen/tools/wiki-konsistenz.sh`. Einziger Befund dieser KB:

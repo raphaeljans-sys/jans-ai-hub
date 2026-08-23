@@ -2,6 +2,43 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 10 — warum es fuer den risikofreien Basiszins keine maschinenlesbare Reihe mehr gibt)
+
+[[investorenmarkt-makro]] fuehrt seit dem 20.08.2026 einen offenen Punkt: die Recherche zur Rendite
+der 10-jaehrigen Eidgenossen lieferte nur **undatierte Live-Snapshots (~0.42-0.51 %)**, weshalb der
+KB-Wert (0.32-0.40 %, Juni 2026) korrekt stehen gelassen wurde. **Der Grund ist jetzt gefunden — er
+liegt nicht an der Recherche.**
+
+**Die maschinenlesbare Primaerquelle ist eingefroren.** Das SNB-Datenportal fuehrt die
+Obligationenrenditen in `rendoblim` (monatlich) und `rendoblid` (taeglich). Beide liefern am
+23.08.2026 **PublishingDate 01.09.2025** und enden bei **Juli 2025** (10 J: 0.378 %). Zum Vergleich:
+der Wuerfel `zimoma` (Geldmarktsaetze) derselben Schnittstelle ist mit PublishingDate **03.08.2026**
+und Daten bis **Juli 2026** tagesaktuell. **Es ist also kein Portalausfall** — die beiden
+Renditen-Wuerfel werden unter den bekannten IDs seit einem Jahr nicht mehr fortgeschrieben. Ein
+Nachfolge-Wuerfel liess sich nicht ermitteln: der Katalog ist nur ueber die JavaScript-Anwendung
+erreichbar, die `warehouse/cubes`-Schnittstelle liefert im Rohabruf die Programmhuelle.
+
+**Drei Folgerungen, im Artikel [[ertragswert-dcf]] verankert:**
+1. **Die Zurueckhaltung der KB war richtig** und hat jetzt einen Grund — es gibt keine
+   maschinenlesbare, datierte Reihe mehr, in die man einen Snapshot einordnen koennte.
+2. **Der verbleibende datierte Primaerweg ist das SNB-Quartalsheft** (Kapitel «Geld- und
+   Kapitalmarktzinsen»). Heft **2/2026** (publ. 24.06.2026) traegt den gefuehrten Wert **0.39 %
+   Mitte Juni 2026**; Heft **3/2026** ist **Ende September 2026** zu erwarten — **der naechste
+   Termin, an dem dieser Anker ueberhaupt belegt fortgeschrieben werden kann.**
+3. **Die praktische Tragweite ist klein und beziffert:** selbst bei einem Niveau von ~0.5 % stiege
+   der bottom-up-Basiszins um rund **0.2 Prozentpunkte**; die Diskont-Zeilen liegen ohnehin am
+   **unteren Rand** ihrer Baender und wuerden sich nicht verschieben. **Keine Anpassung noetig** —
+   aber bei einer Bewertung mit Diskontsatz am unteren Bandrand ist der Vorbehalt mitzugeben.
+
+⚠ **Ausdruecklich nicht belegt:** ob die SNB die Reihe eingestellt, umbenannt oder verschoben hat.
+Gemessen ist nur, dass die **bekannten IDs** seit dem 01.09.2025 nicht mehr fortgeschrieben werden.
+
+Damit hat auch [[ertragswert-dcf]] — der letzte der vier Verfahrensartikel ohne eigene Vertiefung —
+einen belegten Befund erhalten.
+
+Geaenderte Dateien: `wiki/ertragswert-dcf.md` (neuer Block bei der Diskontsatz-Herleitung,
+`last_updated`).
+
 ## 2026-08-23 (Vertiefungslauf 9 — Residualwertmethode: Preisstand ausgewiesen, Hebel gerechnet)
 
 Die Residualwertmethode war der einzige der vier Verfahrensartikel, der heute noch keine

@@ -2,6 +2,40 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 6 Revendo) — Muster erkannt: BKP-Zahlen ohne Scope sind die häufigste stille Fehlerquelle im Hub
+
+**Vorschlag an Raphael, nicht selbst ausgeführt.** Im Lauf dieses Tages ist **viermal unabhängig**
+dieselbe Fehlerquelle aufgetaucht — eine BKP-Zahl ohne Angabe ihres Umfangs:
+
+| # | Fall | Fehlende Angabe | Materielle Folge |
+|---|---|---|---|
+| 1 | Neuwert-Richtwerte Tab. 2 (Schätzungsanleitung) | BKP 2 allein oder BKP 1–9? | **rund 10 %** — offen als **Frage 1** / `immobilienbewertung` **D13**, seit 01.08.2026 |
+| 2 | JANS-Kalkulationsblatt, Umrechnung BKP 2 → BKP 1–5 | Anteil 75 % gegen amtlich 89.4 % | **rund 19 %** auf jeden EFH-Neuwert — neu als **D16** |
+| 3 | **Art. 32 Abs. 2 LSV** (seit 01.04.2026 geltendes Recht) | «Gebäudekosten nach BKP» — **kein Umfang genannt** | **rund ein Drittel** des zumutbaren Schallschutz-Budgets |
+| 4 | Kostenband `wohnen-mfh-urban.json` | BKP 1–9 gegen BKP 1–5 der Nachbar-KBs | Vergleich **unzulässig**, Definitions- statt Sachdifferenz |
+
+**Das ist kein Zufall, sondern ein Muster.** Vier Fälle, vier verschiedene Quellenarten (eine
+Fachtabelle, ein internes Kalkulationsblatt, ein Bundeserlass, ein Wettbewerbs-Kennwert) — und in
+jedem einzelnen entsteht der Fehler nicht durch eine falsche Zahl, sondern durch eine **fehlende
+Angabe**. Das macht ihn besonders tückisch: die Zahl ist richtig, sieht richtig aus, wird korrekt
+zitiert — und ist trotzdem falsch verwendet.
+
+**Vorschlag:** die Rule `rules/bkp-2017-referenz.md` regelt heute die **Code-Disziplin** (nie eine
+BKP-Nummer erfinden, immer in der Liste nachschlagen). Sie regelt **nicht** die
+**Scope-Disziplin**. Eine Ergänzung im Sinne von
+
+> «Jede BKP-**Kostenzahl** trägt ihren Umfang mit (z. B. *BKP 2*, *BKP 1–5*, *BKP 1–9*) und, wo
+> relevant, den MwSt-Status. Zahlen ohne Umfangsangabe werden nicht über die Scope-Grenze hinweg
+> verglichen, auch nicht überschlägig. Nennt eine **Fremdquelle** keinen Umfang, wird das
+> ausdrücklich als offen vermerkt statt stillschweigend angenommen.»
+
+würde alle vier Fälle abdecken und kostet in der Anwendung nichts.
+
+**Bewusst nicht selbst gemacht:** `rules/bkp-2017-referenz.md` gilt hub-weit für alle Skills,
+Agents und Stationen — eine Regeländerung dort ist keine Bibliothekars-Arbeit, sondern Deine.
+Dieselbe Zurückhaltung wie bei `wissen/tools/*.sh` (gemeinsame Infrastruktur) und bei der KB
+`normen` (andere Station).
+
 ## 2026-08-23 (Vertiefungslauf 3 Revendo) — die im Vorlauf eröffnete Frage ist geschlossen: verkettete BFS-Reihe gefunden, Holzbau-Zuschlag fortgeschrieben
 
 Der Eintrag unten hat eine neue offene Frage eröffnet («verkettete BFS-Reihe je Bauwerksart ab 2023

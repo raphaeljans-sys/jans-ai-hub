@@ -1,5 +1,31 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 7 Revendo) — Muster erkannt: BKP-Zahlen ohne Scope; Regel-Vorschlag an Raphael
+
+Im Lauf dieses Tages ist **viermal unabhängig** dieselbe Fehlerquelle aufgetaucht — eine BKP-Zahl
+ohne Angabe ihres Umfangs: **(1)** Neuwert-Richtwerte Tab. 2 (BKP 2 oder 1–9? rund 10 %, Frage 1 /
+D13) · **(2)** JANS-Umrechnung BKP 2 → BKP 1–5 mit 75 % gegen amtlich 89.4 % (rund 19 % auf jeden
+EFH-Neuwert, neu D16) · **(3)** **Art. 32 Abs. 2 LSV**, seit 01.04.2026 geltendes Recht, nennt
+«Gebäudekosten nach BKP» **ohne Umfang** (rund ein Drittel des zumutbaren Schallschutz-Budgets) ·
+**(4)** das Kostenband `wohnen-mfh-urban.json` auf BKP 1–9 gegen BKP 1–5 der Nachbar-KBs
+(Vergleich unzulässig).
+
+**Vier Fälle, vier verschiedene Quellenarten** — eine Fachtabelle, ein internes Kalkulationsblatt,
+ein Bundeserlass, ein Wettbewerbs-Kennwert. In jedem entsteht der Fehler nicht durch eine falsche
+Zahl, sondern durch eine **fehlende Angabe**; das macht ihn tückisch, weil die Zahl richtig ist,
+richtig aussieht und korrekt zitiert wird — und trotzdem falsch verwendet.
+
+**Regel-Vorschlag in `wiki/QUESTIONS.md` hinterlegt:** `rules/bkp-2017-referenz.md` regelt heute die
+**Code**-Disziplin, nicht die **Scope**-Disziplin. Eine Ergänzung («jede BKP-Kostenzahl trägt ihren
+Umfang und den MwSt-Status mit; kein Vergleich über die Scope-Grenze; nennt eine Fremdquelle keinen
+Umfang, wird das ausdrücklich als offen vermerkt») würde alle vier Fälle abdecken und kostet in der
+Anwendung nichts.
+
+**Bewusst nicht selbst gemacht** — die Rule gilt hub-weit für alle Skills, Agents und Stationen.
+Dieselbe Zurückhaltung wie bei `wissen/tools/*.sh` und bei der KB `normen`.
+
+Geänderte Dateien: `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf 6 Revendo) — Umbau/Sanierung bekommt den richtigen Teuerungs-Anker
 
 Der Abschnitt «Baupreisindex ZH» liefert Faktoren auf Basis des **ZIW** — und der ZIW misst den

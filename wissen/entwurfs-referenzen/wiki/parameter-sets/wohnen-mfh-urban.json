@@ -34,7 +34,7 @@
       3500,
       3900
     ],
-    "chf_m2_hnf_bkp_scope": "BKP 1–9, inkl. MwSt., exkl. Parkierung",
+    "chf_m2_hnf_bkp_scope": "BKP 1–9, inkl. MwSt., exkl. Parkierung || ⚠ NICHT mit BKP-1-5-Kennwerten vergleichbar (Vermerk 23.08.2026). Die Kostenkennwerte von wissen/grobkosten und der JANS-Wohn-Kennwert in wissen/immobilienbewertung lauten auf **BKP 1-5**; dieses Band lautet auf **BKP 1-9** und enthaelt damit zusaetzlich BKP 3 (Betriebseinrichtungen), 6-8 (Reserve) und **9 (Ausstattung)**. Wie gross der Unterschied ist, ist in diesem Hub NICHT belegt: die einzige aktuelle amtliche BKP-Struktur (ZIW-Revision 2025, 54 reale Zuercher MFH-Kostenvoranschlaege) deckt nur BKP 1, 2, 4 und 5 ab und schweigt zu 3 und 9. Ein Zahlenvergleich ueber die Scope-Grenze hinweg ist deshalb **nicht zulaessig, auch nicht ueberschlaegig** — er wuerde eine Differenz erzeugen, die in Wahrheit eine Definitionsdifferenz ist. Dieselbe Falle wie beim BKP-Scope der Neuwert-Richtwerte (wissen/immobilienbewertung D13 / wissen/grobkosten Frage 1) und bei der 1-%-Regel von Art. 32 Abs. 2 LSV.",
     "bkp_schwerpunkte": [
       "1–9 Gesamterstellung (Koch-Areal-Kostenbenchmark CHF/m² HNF)",
       "1–5 Baukosten (Reichenbachstrasse-Kostenziel CHF/m² GF, andere Bezugsgrösse)"

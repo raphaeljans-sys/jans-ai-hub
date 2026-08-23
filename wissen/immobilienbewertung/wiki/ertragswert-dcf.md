@@ -1,7 +1,7 @@
 ---
 title: Ertragswert / DCF — Kapitalisierung und Diskontierung
 status: established
-last_updated: 2026-08-13
+last_updated: 2026-08-23 (Vertiefungslauf 10: SNB-Renditenreihe als eingefroren belegt, Fallback und naechster Termin benannt)
 sources: [Crivelli/Filippini/Lunati 2001 «Effizienz der Pflegeheime in der Schweiz» (SECO/USI Lugano, 835 Heime — Skalenertraege/optimale Betriebsgroesse 70-80 Betten, Median 52/Ø 62, Run 14 2026-07-06), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Modul 1/3, S. 51-70 + 196-215 eingearbeitet), Schaetzungsanleitung Kap. 5 (Tab. 14/15 Mietwert-Korrekturfaktoren, Tab. 21/23 Kapitalisierungssatz, Tab. 25-28 Gastgewerbe), IMMO-03 Abzinsung/Disskontierung (231231_Residualwert und Diskontierung.docx, R. Jans 31.12.2023 — Diskontsatz-Dekomposition 2.0+0.5 %, Betriebskosten-Pauschale 5x0.5 %, Rechenkaskade + Abzinsungsformel, Run 10; Disskontierung.docx — Healthcare-Diskontsatz-Anker 4-8 %, Run 10), IMMO-03 Residualwert (Kursnotizen IMG_7064-67, Run 10), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Annuitaets-Finanzierungsmodell CURAVIVA 33 J / BWO-Referenzzins 1.25 %, Hotellerie-Taxe, KVG-Restfinanzierung; ARTISET Betriebswirtschaftliche Instrumente KVG 17.04.2023 — KoRe-Kostentraeger LZP/ToNs/AUEP, Run 12; SenioResidenz AG Geschaeftsbericht 2017 19.02.2018 — Healthcare-Investoren-Fall impl. Brutto-Yield ~5.3 %, WP-DCF-Bewertung, Finanzierungsstruktur, Run 13; BFS «Indikatoren der Pflegeheime 2019-2021» Mai 2023 BFS-Nr. 1552-2100 — Beherbergungskosten 10'035 CHF/Mt, Ertrags-/Finanzierungsstruktur, Belegung/Defizitquote, Run 13; NZZ/Curaviva Pflegekosten 13.11.2023 — Kostenstruktur Pension/KVG-Pflege/Betreuung, Run 13), IMMO-01 reale LB/MA-Faelle (Thalwil 9568 LB 250328 + MA 241126, Ebmatingen 3932 LB, Wangen 2622) — JANS-Bewertungskonvention Run 5; LB Wangen Bahnhofstr. 27 (260609) — Ertragswert-Band/Kaufpreispruefung/Ausbau-Rendite-Impact Run 6; IAZI/CIFI DCF-Methodik (Web 2026) + Marktkontext-Zinsumfeld 06.2026 (SNB 0.00 % / Referenzzins 1.25 %) — Diskontsatz-Methodik D3 Run 7; 10-j Bundesobligation Jahresmittel ~0.24-0.40 % (tradingeconomics/SNB-Datenportal, Web 06.2026) — risikofreies Basisniveau + konsolidierte JANS-Diskontsatz-Tabelle D3 Run 9/11; WP-Segment-Prognose Geschaeftsflaechen 2026 (Buero +0.5 %/Detailhandel −1.5 %, Web 07.2026) — Gewerbe-Feinabstufung D3-Rest Run 13]
 links: [[residualwertmethode]], [[bewertungsverfahren-ueberblick]], [[investorenmarkt-makro]], [[vergleichswert-hedonisch]], [[flaechendefinitionen-sia]]
 ---
@@ -197,6 +197,50 @@ Quelle: tradingeconomics/SNB-Datenportal, Web 06.2026, Stand Run 11 2026-06-30) 
 null, aehnlich/tiefer als im WP-Kursstand Sommer 2023. Das stuetzt die WP-2023-Anker und legt
 sie umso klarer ans **untere Band**. Der weitere Rueckgang aendert die belegten Diskont-Zeilen
 nicht (sie liegen ohnehin am unteren Rand), bestaetigt aber die Tieflage des Zinsumfelds.
+
+> ### Warum es fuer den risikofreien Basiszins keine maschinenlesbare Reihe mehr gibt (belegt 23.08.2026)
+>
+> Die Zeile «Risikofreier Basiszins (10-j Eidgenoss)» traegt den Zusatz «bei Anwendung Tagesstand
+> pruefen», und [[investorenmarkt-makro]] fuehrt seit dem 20.08.2026 einen offenen Punkt: die
+> Recherche lieferte nur **undatierte Live-Snapshots (~0.42-0.51 %)**, weshalb der KB-Wert
+> (0.32-0.40 %, Juni 2026) korrekt stehen gelassen wurde. **Der Grund dafuer ist jetzt gefunden,
+> und er liegt nicht an der Recherche.**
+>
+> **Die maschinenlesbare Primaerquelle ist eingefroren.** Das SNB-Datenportal fuehrt die
+> Obligationenrenditen in zwei Wuerfeln — `rendoblim` (monatlich) und `rendoblid` (taeglich).
+> Beide liefern am 23.08.2026:
+>
+> | Wuerfel | Inhalt | PublishingDate | letzter Datenpunkt |
+> |---|---|---|---|
+> | `rendoblim` | Renditen Eidgenossen 1-30 J, monatlich | **01.09.2025** | **07.2025** (10 J: 0.378 %) |
+> | `rendoblid` | Kassazinssaetze/Schuldnerkategorien, taeglich | **01.09.2025** | **31.07.2025** |
+> | `zimoma` | Geldmarktsaetze (SARON u. a.) | 03.08.2026 | 07.2026 |
+>
+> **Es ist also kein Portalausfall**: ein vergleichbarer Wuerfel derselben Schnittstelle ist
+> tagesaktuell, die beiden Renditen-Wuerfel sind es seit einem Jahr nicht. Unter den bekannten IDs
+> werden sie **nicht mehr fortgeschrieben**. Ein Nachfolge-Wuerfel liess sich nicht ermitteln — der
+> Katalog des Portals ist nur ueber dessen JavaScript-Anwendung erreichbar, die
+> `warehouse/cubes`-Schnittstelle liefert im Rohabruf die Programmhuelle.
+>
+> **Was daraus folgt.**
+> 1. **Die Zurueckhaltung der KB war richtig** und hat jetzt einen Grund: es gibt keine
+>    maschinenlesbare, datierte Reihe mehr, in die man einen Snapshot einordnen koennte.
+> 2. **Der verbleibende datierte Primaerweg ist das SNB-Quartalsheft** — Kapitel «Geld- und
+>    Kapitalmarktzinsen». Das Heft **2/2026** (publ. 24.06.2026) traegt den in dieser KB
+>    gefuehrten Wert **0.39 % Mitte Juni 2026** (0.34 % Mitte Maerz). Das naechste Heft **3/2026**
+>    ist Ende September 2026 zu erwarten — **das ist der naechste Termin, an dem dieser Anker
+>    ueberhaupt belegt fortgeschrieben werden kann.**
+> 3. **Die praktische Tragweite ist klein und beziffert.** Selbst wenn die undatierten Snapshots
+>    stimmen und das Niveau bei ~0.5 % laege, stiege der bottom-up-Basiszins um rund
+>    **0.2 Prozentpunkte**. Die Diskont-Zeilen der Tabelle unten liegen ohnehin am **unteren Rand**
+>    ihrer Baender; sie wuerden sich dadurch nicht verschieben, sondern nur weniger Luft nach unten
+>    haben. **Keine Anpassung noetig, aber bei einer Bewertung mit Diskontsatz am unteren Bandrand
+>    ist der Vorbehalt mitzugeben.**
+>
+> ⚠ **Was ausdruecklich NICHT belegt ist:** ob die SNB die Reihe eingestellt, umbenannt oder unter
+> eine neue ID verschoben hat. Gemessen ist nur, dass die **bekannten IDs** seit dem 01.09.2025
+> nicht mehr fortgeschrieben werden. Wer den Anker maschinell braucht, muss den Nachfolger im
+> SNB-Portal von Hand suchen — oder auf das Quartalsheft ausweichen.
 
 **Additive Herleitung (bottom-up, Modell S. 54):**
 
