@@ -4,6 +4,34 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-23 — twin-mail-training Batch 102 (Fenster 21.–23.08.2026 + Thread-Rueckgriff)
+
+- Sequenzielles Sent-Fenster **leer an Gold** (Wochenende: 2 Sent, davon 1 Hub-Chef; 9 Drafts,
+  alle Hub; keine Inbox-Zitate). Ertrag vollstaendig aus dem in Batch 101 empfohlenen Strang
+  **zitierte Vorgaengerteile** — EIN Thread (2414 Thalwil) trug vier Eigentexte ueber zehn Monate
+  in zwei Registern. **Strang bestaetigt; kuenftig VOR dem sequenziellen Fenster abschoepfen.**
+- **Erstes `korrektur-delta` im Inneren eines gesendeten Hub-Erzeugnisses**, erkannt allein an der
+  Fehlerinsel (Kasusfehler + Modusbruch + 56-Woerter-Lauf-Satz in 515 sonst fehlerfreien Woertern).
+  Inhalt: Raphael ersetzte die **Ankuendigung** des Vorgehens durch eine **Weiche mit Vorrang fuer
+  den Bauherrn**. Marker in `wiki/haltung.md`.
+- **Neue Echo-Probe im KB-Schema: der BETREFF.** Er wird immer selbst getippt, auch wenn der Body
+  eingefuegt wird, und steht bereits in der Trefferliste — billigster bekannter Detektor, kostet
+  kein `read_resource`. Ein Text von 2025 damit als Recherche-/KI-Paste verworfen.
+- Facetten ergaenzt: `stimme` (registerneutrale Sendeformel · Signaturblock auch am Desktop ·
+  Lauf-Satz als Eigenhand-Signal), `beziehungsregister` («Geschätzter <Vorname>,» im Du, **fuenfter**
+  Beleg → Anlassgewicht-Klausel `established` · Anrede-Komma ist kein Signal · Waermehebung ohne
+  Registerwechsel), `arbeitsweise` (Blockliste als Antwortformular · kommentarlose Weiterleitung),
+  `haltung` (Weiche vor der Ankuendigung · Huerde bei der Behoerde senken), `fachsignatur`
+  (Klammer-Kurzverweis · «im Auftrage der Bauherrschaft» · Verfahrenskanal erfragen), `denken`
+  (Doppel-Alternative an die Behoerde, als **Kandidat**, Quelle verworfen).
+- `CLAUDE.md`: zwei Eintraege im Echo-Katalog — **BETREFF-PROBE** und **Nachtrag zur siebten Falle**
+  (Einschub ohne typografische Marke; Fehlerdichte **absatzweise** messen). ⚠ Bewusst **benannt statt
+  nummeriert**: die Ordnungszahlen des Katalogs sind im Bestand doppelt vergeben.
+- `QUESTIONS.md`: fuenf neue Fragen (#1 Bullet-Widerspruch zu Batch 101, **nicht geglaettet** ·
+  #2 Doppel-Alternative an Raphael · #3 Nullform-Weiterleitung · #4 gezielte Delta-Suche, Freigabe
+  Raphael noetig · #5 Katalog-Nummerierung).
+- Gehirn **nicht** neu kompiliert (zehnter Batch in Folge, Reserve in diesem Lauf nicht gemessen).
+
 ## 2026-08-22 — twin-fidelity-review (Fenster rj@ 22.07.2026, drei Register)
 
 - Drei Golds gelesen und gewichtet (22.07. 08:24 vertrautes Du · 18:19 Geschäfts-Du ·

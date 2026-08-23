@@ -1,9 +1,9 @@
 ---
 title: Beziehungsregister
 status: established
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 gewichtung: authentisch
-sources: [260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
+sources: [260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-79.md, 260727-mailbatch-76.md, 260727-mailbatch-74.md, 260727-mailbatch-73.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, ../outputs/2026-07-26_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-63.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-07-14d_fidelity.md, ../outputs/2026-07-14h_fidelity.md, ../outputs/2026-07-25f_fidelity.md, ../../../rules/anrede-kontakte.md]
 links: [[stimme]], [[haltung]]
 ---
 
@@ -2940,3 +2940,40 @@ Der Zwilling **spiegelte** am 16.08.2026 den Opener des Gegenuebers: auf «Liebe
 «Liebe Gruesse» antwortete er in derselben Waermestufe. Raphael antwortete zwei Tage spaeter
 mit «Geschaetzter Herr X» und FG+Block. Nicht der Opener des Eingangs entscheidet, sondern
 Anlass, Tageszeit und Vertrautheit.
+
+## «Geschätzter <Vorname>,» im Du bei gewichtigem Anliegen — fuenfter unabhaengiger Beleg (Batch 102)
+
+30.07.2026, an den Bauherrn eines laufenden Bewilligungsverfahrens (Du-Kontakt, Routine-Opener
+«Hoi <Vorname>»): **«Geschätzter Stefan,»** — Anlass ist die Uebergabe der ueberarbeiteten
+Plangrundlagen **zur Freigabe** plus die Bitte um eine unterzeichnete Naeherbaurechtsvereinbarung.
+Zwei verbindliche Handlungen in vier Zeilen. Der Faden faellt danach wieder auf den
+Routine-Opener zurueck: derselbe Empfaenger traegt am 16.07. «Hoi <Vorname>».
+
+Bestaetigt die Anlassgewicht-Klausel in `rules/anrede-kontakte.md` ein fuenftes Mal unabhaengig
+(nach Tschopp, Besnik/fsgbau, Hiltmann, Spoerri). **Die Klausel ist damit `established`** und
+sollte in der Rule nicht mehr als Einzelfall-Ergaenzung gelesen werden.
+
+## Das Komma nach der Anrede schwankt — und ist kein Registersignal (Batch 102)
+
+Vier Eigentexte desselben Threads, zwei Register:
+
+| Datum | Anrede | Komma |
+|---|---|---|
+| 30.07.2026 | «Geschätzter Stefan**,**» (Du) | ja |
+| 09.07.2026 | «Geschätzte Frau <Nachname>**,**» (Sie) | ja |
+| 08.04.2026 | «Geschätzte Frau <Nachname>» (Sie, **derselbe Empfaenger**) | nein |
+| 20.11.2025 | «Sehr geehrte Frau <Nachname>» (Sie) | nein |
+
+Derselbe Empfaenger, dieselbe Anredestufe, einmal mit und einmal ohne Komma. **Das Komma traegt
+keine Bedeutung und darf im Zwilling nicht als Register- oder Waermesignal gelesen werden** —
+gleiche Gattung wie der freie Leerschlag nach dem «_ »-Bullet (Batch 101). Vereinheitlichen waere
+eine Glaettung, die es im Korpus nicht gibt.
+
+## Die Bausekretaerin der Gemeinde: warmes Sie mit «Geschätzte» (Batch 102, authentisch)
+
+Erstkontakt 20.11.2025 «Sehr geehrte Frau <Nachname>», ab 08.04.2026 durchgehend
+«**Geschätzte** Frau <Nachname>» — die Hebung folgt hier auf mehrere beantwortete Fachanfragen,
+nicht auf ein Treffen. Sie bleibt **innerhalb** des Sie-Registers; kein Wechsel ins Du. Das ist
+die Bewegung, welche der Gegenbeleg vom 22.08.2026 (Brandschutz-Fachperson, `rules/anrede-kontakte.md`)
+von der Treffen-Klausel bereits abgegrenzt hat: **persoenlicher Kontakt hebt die Waermestufe,
+er erzwingt keinen Registerwechsel.** Zweiter unabhaengiger Beleg fuer diese Trennung.

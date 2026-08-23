@@ -1722,3 +1722,79 @@ weitergeleiteter Threads systematisch mitlesen** — neuer, billiger Gold-Strang
 (3) `Drafts` bleibt fuer die Kontrollgruppe ergiebig, mit dem Duplikat-Detektor aus Kernbefund 6
 vorsortieren. **Vor der Lektuere zwingend BEIDE Teile dieser Datei auswerten — Batch-Tabelle UND
 die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**
+
+## Batch 102 (23.08.2026) — Sent Items + Drafts + Inbox `rj@`, Fenster 21.–23.08.2026
+
+Rohdatei `260823-mailbatch-102.md`. Sent-Fenster nach Batch 101 fortgesetzt (`order: oldest`,
+`afterDateTime 2026-08-21T16:00`). **Abgedeckt bis einschliesslich 23.08.2026**; das sequenzielle
+Fenster war **leer an Gold** — zwei Sent-Eintraege (einer davon Hub-Chef an sich selbst), neun
+Drafts (alle Hub), keine Inbox-Mail mit zitiertem Eigentext. Wochenende.
+
+**Der Ertrag stammt vollstaendig aus dem in Batch 101 empfohlenen zweiten Strang: den zitierten
+Vorgaengerteilen weitergeleiteter Threads.** Ein einziger Thread (Projekt 2414 Thalwil,
+Projektaenderung Umgebung) trug gestaffelt **vier Eigentexte ueber zehn Monate in zwei Registern**,
+dazu ein `korrektur-delta` und einen Echo-Verdachtsfall. **Der Strang ist damit bestaetigt und
+sollte kuenftig VOR dem sequenziellen Fenster abgeschoepft werden**, nicht danach: er liefert
+aelteres Gold in hoeherer Dichte und kostet ein `read_resource` statt einer Suchrunde.
+
+**Kernbefund 1 — ⭐ `korrektur-delta` mitten im Hub-Erzeugnis, erkannt an der Fehlerinsel.** Eine
+gesendete Mail vom 16.07.2026 (Du, an die Bauherrschaft) ist auf 515 Woerter fehlerfrei — bis auf
+**einen** Absatz mit Kasusfehler, Modusbruch und einem **56-Woerter-Lauf-Satz** gegen 14.7 Woerter
+Satzschnitt im Rest. Raphael hat den Schlussabsatz vor dem Senden selbst ueberschrieben. Inhaltlich
+ist es der staerkste Marker des Batches: der Zwilling **kuendigte** das Vorgehen an, Raphael setzte
+eine **Weiche mit Vorrang fuer den Bauherrn** davor («Nenne mir Deine Gedanken … in welche Richtung
+Du es gerne haettest; **ansonsten** wuerde ich …»). Katalogisiert als «Nachtrag zur siebten Falle»
+in `CLAUDE.md`, Marker in [[haltung]].
+
+**Kernbefund 2 — ⭐ der BETREFF ist die verlaesslichste Gold-Probe.** Ein Text von 2025 (also vor
+dem Stichtag) hat einen fehlerfreien, fett ausgezeichneten Body mit «→»-Pfeil und
+Fussnoten-Leerschlagrest — und einen **Tippfehler im Betreff** («abstandspriviligiertes»). Der
+Betreff wird immer selbst getippt, auch wenn der Body eingefuegt wird, und **steht schon in der
+Trefferliste**. Damit ist er die billigste Echo-Probe, die der Korpus kennt: **kuenftig vor jedem
+Volltext den Betreff gegen den Body-Preview halten.** Der Text wurde verworfen.
+
+**Kernbefund 3 — die registerneutrale Sendeformel.** «Im Anhang sende ich **Dir/Ihnen** … **mit der
+Bitte um** <Handlung>» traegt Du und Sie unveraendert; nur das Pronomen wechselt. Der Nachsatz nennt
+immer die **erwartete Handlung**, nie «zur Information».
+
+**Kernbefund 4 — der Signaturblock traegt «Freundliche Grüsse» auch am Desktop**, nicht nur am
+Handy (Batch 101 Kernbefund 5 damit auf beide Geraeteklassen erweitert).
+
+**Kernbefund 5 — die Blockliste als Antwortformular.** Fette Buchstabenbloecke «A – Vordach» …
+«F – Wandstueck» mit Unterpositionen A1/A2/A3; die Behoerde hat **inline hineingeantwortet**
+(«ok», «korrekt», «Ja»). **Die nummerierten Positionen aus `rules/dokument-layout-standard.md`
+(14.08.2026) sind damit als Raphaels eigene Praxis seit mindestens April 2026 belegt**, nicht als
+Hub-Konvention.
+
+**Kernbefund 6 — «Geschätzter <Vorname>,» im Du bei Gewicht, fuenfter unabhaengiger Beleg.** Die
+Anlassgewicht-Klausel in `rules/anrede-kontakte.md` ist damit `established`. Zusaetzlich: **das
+Komma nach der Anrede schwankt beim selben Empfaenger** und ist **kein** Registersignal.
+
+**Kernbefund 7 — ⚠ Anti-Marker: die kommentarlose Weiterleitung.** An den eingespielten
+Baumanagement-Partner ging ein Thread **ohne einen einzigen eigenen Satz**. Der Zwilling erfindet
+hier immer eine Begleitzeile ([[QUESTIONS]] 260823 #3).
+
+**Kernbefund 8 — ⚠ Widerspruch zur Bullet-Messung aus Batch 101, nicht geglaettet.** Die Metrik
+misst die «_ »-Bullets diesmal **umgekehrt**: Gold 0, Hub-Erzeugnis **8**. Das Hub-Erzeugnis vom
+16.07. beherrscht das Zeichen, der Hub-Entwurf vom 20./21.08. nicht. **Erhebungsregel:** «Zwilling
+0 Bullets» ist nur ein Befund, wenn im **selben Fenster** Gold mit Bullets vorliegt — sonst misst
+die Kennzahl die Gattung, nicht die Faehigkeit ([[QUESTIONS]] 260823 #1).
+
+**Mikro-Metrik** (Gold 332 W aus drei Eigentexten · Delta 56 W · Kontrollgruppe 515 W):
+Fehler je 100 W **0.9 / 3.6 / 0.0** · Satzlaenge ø **16.6 / 56.0 / 14.7** W · Unterstrich-Bullets
+**0 / 0 / 8**. **Belastbar sind Fehlerdichte und Satzlaenge, und zwar in beide Richtungen** — der
+`korrektur-delta`-Absatz ist der roheste Text des Fensters und genau dadurch als eigene Hand
+ausgewiesen. **Fuenfter Trennbefund in Folge** (98, 99, 100, 101, 102).
+
+**⚠ Gehirn NICHT neu kompiliert, zehnter Batch in Folge.** Die Reserve wurde in diesem Lauf
+**nicht** gemessen; letzter gemessener Stand 21.08.2026 (32'796 B von 34'000 B). Die Marker dieses
+Batches sind Marker-Prosa und wirken ueber die Twin-Agenten, die die Facetten-Artikel direkt lesen.
+**Wer den Riegel als gelockert annehmen will, misst ihn selbst** — die Zahl oben ist eine
+Fortschreibung (Falle aus Batch 99).
+
+**Naechstes Fenster:** (1) **zuerst** den Thread-Rueckgriff: einen laufenden Projekt-Thread per
+`query` ziehen und die zitierten Vorgaengerteile abschoepfen — dieser Lauf hat gezeigt, dass EIN
+Thread ergiebiger ist als eine leere Woche; (2) sequenziell `rj@` ab 23.08.2026; (3) Betreff-Probe
+(Kernbefund 2) an jeder Trefferliste **vor** dem `read_resource` anwenden; (4) Drafts mit dem
+Duplikat-Detektor aus Batch 101 vorsortieren. **Vor der Lektuere zwingend BEIDE Teile dieser Datei
+auswerten — Batch-Tabelle UND die Gold-Verbrauch-Abschnitte der Fidelity-Laeufe.**

@@ -1,9 +1,9 @@
 ---
 title: Fachsignatur
 status: established
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 gewichtung: authentisch
-sources: [260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
+sources: [260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260730-mailbatch-82.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, 260727-mailbatch-73.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-23_fidelity.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-50.md, 260713-mailbatch-37.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260612-mailbatch-04.md, 260615-mailbatch-07.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260619-mailbatch-11.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-16_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../../../skills/marketing/SKILL.md]
 links: [[denken]], [[stimme]]
 ---
 
@@ -2482,3 +2482,34 @@ Besten Dank für die Zusendung der VKF-Nachweise für die Typenwände:
 Der Zwilling zog sie in den Fliesstext zusammen («… für die Typenwände W320-00, W340-00, W430-00
 und W440-00»). Die geschlossene Aufzählung benannter Nachweise ist bei ihm **Liste**, nicht Prosa,
 und ihr Zeichen ist das enge «-», nicht das «–» der Sie-Aufzählung und nicht das «_ » des Du.
+
+## Der Klammer-Kurzverweis auf das Bauteil (belegt Batch 102, authentisch)
+
+30.07.2026, an den Bauherrn: «die unterzeichnete **Näherbaurechtsvereinbarung mit der SBB (Neu
+Vordach)**». Die Klammer benennt **welches Bauteil** die Vereinbarung ausloest — zwei Woerter
+statt eines Nebensatzes. Dasselbe Muster in der Aenderungsliste vom 08.04.2026: «2.60 m
+Auskragung zur SBB-Seite – wird analog dem Naeherbaurecht **fuer die Wendeltreppe** bilateral
+mit der SBB durch ein Naeherbaurecht geregelt» — der Verweis auf den **bereits geregelten
+Praezedenzfall im selben Projekt** traegt die Begruendung, nicht eine Rechtsnorm.
+
+**Do:** die Rechtsfigur an das konkrete Bauteil und an den vorhandenen Praezedenzfall im Projekt
+binden. **Don't:** die Figur allgemein erklaeren.
+
+## «im Auftrage der Bauherrschaft» — die Vertretungsrolle wird ausgesprochen (Batch 102)
+
+09.07.2026, an die Gemeinde: «Im Anhang sende ich Ihnen **im Auftrage der Bauherrschaft** die
+Projektaenderungsplaene …». Gehobene, bewusst altertuemliche Form. Sie macht gegenueber dem Amt
+klar, **wer das Begehren stellt und wer es einreicht** — der Architekt vertritt, er begehrt nicht
+selbst. Dieselbe Trennung, welche die DNA-Regel «kein vereinnahmendes wir» im Verhaeltnis zum
+Bauherrn zieht, hier im Verhaeltnis zur Behoerde.
+
+Ergaenzt den Befund aus Batch 101 (Kernbefund 4: «Wir» traegt die Anforderung, «Ich» die eigene
+Handlung) um die dritte Person im Spiel: **die Bauherrschaft wird benannt, nicht eingemeindet.**
+
+## Den Verfahrenskanal erfragen statt raten (Batch 102, authentisch)
+
+«**Soll ich die Plaene auf eBaugesucht.ch hochladen?**» (09.07.2026) und, in der Aenderungsliste,
+«Ich bitte Sie um eine Einschaetzung zur baurechtlichen Machbarkeit **sowie um Vorschlaege zum
+Eingabeprozedere**» (08.04.2026). Der Eingabeweg ist fuer ihn eine **Frage an das Amt**, kein
+Wissensbestand. Behoerden-/Verfahrensrealismus: die Praxis der einzelnen Gemeinde schlaegt die
+allgemeine Regel, und man erfaehrt sie, indem man fragt.

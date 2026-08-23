@@ -138,6 +138,38 @@ kommen streichen» — gross und klein **im selben Satz**. Das Signal ist damit 
 in Kombination und nie fuer sich. Gleiche Lehre wie beim Guillemet-Falsch-Positiv vom 03.08.2026: **ein
 Signal, das echtes Gold abwerten kann, muss vor der Aufnahme gegen die eigene Hand gegengeprueft werden.**
 
+**BETREFF-PROBE, neu 23.08.2026 — der Betreff ist die verlaesslichste Gold-Probe einer Mail.**
+(⚠ Bewusst **ohne** Ordnungszahl gefuehrt: die Nummerierung dieses Katalogs ist im Bestand doppelt
+vergeben — «Siebte Falle» und «Neunte Falle» existieren je zweimal, mit verschiedenen Inhalten und
+Daten. Neue Eintraege bekommen darum einen **Namen**, keine Nummer; die bestehenden Doppelungen
+sind nicht angetastet, weil andere Stellen auf sie verweisen. Aufraeumvorschlag in [[QUESTIONS]]
+260823 #5.)
+Die Behoerdenanfrage vom 20.11.2025 liegt **vor** dem Stichtag und waere nach Datum Gold. Ihr Body
+ist fehlerfrei, dicht fett ausgezeichnet, traegt einen Pfeil «→», einen doppelten Leerschlag vor
+dem Satzende (Rest einer entfernten Fussnotenmarke), „…" statt «…» und eine Zitierkette mit
+Entscheid-Nummern. Der Gegenbeweis steht im **Betreff derselben Mail**:
+«Bewilligungspraxis max. Ausladung Vordach bez. **abstandspriviligiertes** Bauteil» — Tippfehler
+und Kurzform «bez.».
+
+**Der Betreff wird immer selbst getippt, auch wenn der Body eingefuegt wird.** Er entkommt keinem
+Chat-Fenster und keiner Rechtschreibhilfe. Damit ist er die billigste Probe auf die eigene Hand,
+die der Korpus kennt — und sie kostet **keinen `read_resource`**, weil der Betreff schon in der
+Trefferliste steht. Praktische Folge: **vor jedem Volltext den Betreff gegen den Body-Preview
+halten.** Ein rauer Betreff ueber einem glatten Body ist der Verdachtsfall; ein rauer Betreff
+ueber einem rauen Body ist Gold; ein glatter Betreff allein beweist nichts.
+
+**Nachtrag zur siebten Falle (Batch 92), neu 23.08.2026 — der Einschub muss NICHT markiert sein;
+dann ist die Fehlerdichte das einzige Signal.** Die siebte Falle beschreibt Raphaels Einschuebe im
+Claude-Text an ihrer typografischen Marke («`- `» vor dem Satz). Batch 102 zeigt denselben Vorgang
+**ohne jede Marke**: Ein
+gesendetes Hub-Erzeugnis ist nicht als Ganzes `claude-aera`. Belegt am 23.08.2026: eine Mail vom
+16.07.2026, 515 Woerter ohne einen Fehler, enthaelt **einen** Absatz mit Kasusfehler, Modusbruch
+und einem 56-Woerter-Lauf-Satz gegen 14.7 Woerter Satzschnitt im Rest. Das ist der Absatz, den
+Raphael vor dem Senden selbst ueberschrieben hat — ein `korrektur-delta` und damit das
+zweitstaerkste Lernsignal der KB. **Die Fehlerdichte darum absatzweise messen, nicht je Dokument.**
+Dieselbe Lehre wie die Vierte Falle (zwei Haende in einem Dokument), nur seitenverkehrt: dort
+verriet die **Sauberkeit** den Fachplaner, hier verraet die **Rohheit** Raphael.
+
 **Sechste Falle, neu 13.08.2026 — der Echo-Detektor ist jetzt mechanisch: `Anthropic Sans` im
 HTML.** Die bisherigen Signale (En-/Em-Strich, Fehlerdichte, idiomatische Glätte, CSS
 `rgb(253,253,252)`) sind Indizien und brauchen eine Gegenprobe. Der Fidelity-Lauf 260813 hat den

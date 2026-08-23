@@ -1,9 +1,9 @@
 ---
 title: Stimme & Ton
 status: established
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 gewichtung: authentisch
-sources: [260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
+sources: [260823-mailbatch-102.md, 260822-mailbatch-101.md, 260821-mailbatch-100.md, 260820-mailbatch-99.md, 260819-mailbatch-98.md, 260818-mailbatch-97.md, ../outputs/2026-08-15_fidelity.md, 260813-mailbatch-91.md, 260808-mailbatch-90.md, 260805-mailbatch-87.md, 260804-mailbatch-86.md, 260803-mailbatch-85.md, 260801-mailbatch-84.md, 260731-mailbatch-83.md, 260730-mailbatch-82.md, 260729-mailbatch-81.md, 260727-mailbatch-80.md, 260727-mailbatch-79.md, ../outputs/2026-07-27j_fidelity.md, 260727-mailbatch-76.md, ../outputs/2026-07-27g_fidelity.md, 260727-mailbatch-74.md, 260727-mailbatch-72.md, ../outputs/2026-07-27d_fidelity.md, ../outputs/2026-07-27b_fidelity.md, ../outputs/2026-07-27_fidelity.md, 260725-mailbatch-65.md, 260725-mailbatch-64.md, 260725-mailbatch-62.md, ../outputs/2026-07-25b_fidelity.md, 260723-nachtrag-batch50.md, 260722-mailbatch-45.md, 260721-mailbatch-58.md, 260719-mailbatch-57.md, 260717-mailbatch-55.md, ../outputs/2026-07-15_fidelity.md, 260715-mailbatch-54.md, 260715-mailbatch-53.md, 260714-mailbatch-52.md, 260714-mailbatch-51.md, 260714-mailbatch-50.md, 260714i-live-applemail.md, 260714-mailbatch-49.md, 260714-mailbatch-48.md, 260714-mailbatch-47.md, 260713-mailbatch-37.md, ../outputs/2026-07-13f_fidelity.md, 260713-mailbatch-44.md, 260713-mailbatch-42.md, 260713-mailbatch-41.md, 260713-mailbatch-40.md, 260713-mailbatch-39.md, 260713-mailbatch-38.md, 260713-mailbatch-36.md, 260712-mailbatch-35.md, 260712-mailbatch-34.md, 260712-mailbatch-33.md, 260712-mailbatch-32.md, 260711-mailbatch-31.md, 260607-seed-korpus-mails.md, 260607-kispi-korpus.md, 260607-behoerden-korpus.md, 260609-mailbatch-01.md, 260610-mailbatch-02.md, 260611-mailbatch-03.md, 260612-mailbatch-04.md, 260614-mailbatch-06.md, 260615-mailbatch-07.md, 260616-mailbatch-08.md, 260617-mailbatch-09.md, 260618-mailbatch-10.md, 260621-mailbatch-12.md, 260622-mailbatch-13.md, 260623-mailbatch-14.md, 260624-mailbatch-15.md, 260625-mailbatch-16.md, 260626-mailbatch-17.md, 260627-mailbatch-18.md, 260628-mailbatch-19.md, 260629-mailbatch-20.md, 260701-mailbatch-21.md, 260702-mailbatch-22.md, 260703-mailbatch-23.md, 260704-mailbatch-24.md, 260705-mailbatch-25.md, 260706-mailbatch-26.md, 260707-mailbatch-27.md, 260708-mailbatch-28.md, 260709-mailbatch-29.md, 260710-mailbatch-30.md, ../outputs/2026-06-09_fidelity.md, ../outputs/2026-06-12_fidelity.md, ../outputs/2026-06-14_fidelity.md, ../outputs/2026-06-18_fidelity.md, ../outputs/2026-06-26_fidelity.md, ../outputs/2026-07-02_fidelity.md, ../outputs/2026-07-06_fidelity.md, ../outputs/2026-07-08_fidelity.md, ../outputs/2026-07-10_fidelity.md, ../outputs/2026-07-12_fidelity.md, ../outputs/2026-07-25h_fidelity.md]
 links: [[beziehungsregister]], [[denken]], [[arbeitsweise]]
 ---
 
@@ -4160,3 +4160,39 @@ davon unberührt. Gleiche Gattungsweiche wie bei der Kurzzahl gegen den Tausende
 
 Dazu die Einheit ohne Leerschlag: «**800kg/m3**» (Gold C), wo der Zwilling «800 kg/m3» setzte.
 Die «%»-mit-Leerschlag-Regel überträgt sich **nicht** auf Masseinheiten.
+
+## Die registerneutrale Sendeformel (belegt Batch 102, 23.08.2026, authentisch)
+
+Derselbe Satzkoerper traegt Du und Sie; **nur das Pronomen wechselt**:
+
+- Bauherr (Du, 30.07.2026): «Im Anhang sende ich **Dir** die ueberarbeiteten Plangrundlagen
+  **mit der Bitte um** Durchsicht und Freigabe.»
+- Behoerde (Sie, 09.07.2026): «Im Anhang sende ich **Ihnen** im Auftrage der Bauherrschaft die
+  Projektaenderungsplaene **mit der Bitte um** Kontrolle und Bewilligung.»
+- Behoerde (Sie, 08.04.2026): «Im Anhang sende ich **Ihnen** die gewuenschten Aenderungen der
+  Bauherrschaft gegenueber der Baueingabe:»
+
+Das Register sitzt in **Anrede und Gruss**, nicht im Satzkoerper. Der Nachsatz benennt dabei
+**immer die erwartete Handlung** («Durchsicht und Freigabe», «Kontrolle und Bewilligung»), nie
+bloss «zur Information» oder «zur Kenntnis».
+
+**Do:** die Schablone stehen lassen und nur das Pronomen tauschen.
+**Don't:** den Sendesatz je Register neu formulieren und variieren — das ist die Zwillings-Neigung.
+
+## Der Signaturblock traegt «Freundliche Grüsse» AUCH am Desktop (Batch 102, ⭐ erweitert)
+
+Batch 101 (Kernbefund 5) stellte fuer die **Handy**-Signatur fest, dass der Gruss im festen Block
+kein Registersignal ist. Batch 102 zeigt dasselbe am **Desktop**: der Fliesstext einer Du-Mail
+endet auf «**Lieber Gruss Raphael**» — in EINER Zeile, ohne Komma zwischen Gruss und Namen —,
+darunter beginnt der unveraenderliche Block «Freundliche Grüsse / RAPHAEL JANS Founder I MD / …».
+
+**Wer den Gruss aus dem Mailende liest, ohne den Signaturblock abzuschneiden, misst die Vorlage
+und nennt es Register.** Gilt fuer beide Geraeteklassen. Der echte Gruss steht **ueber** dem Block.
+
+## Der Lauf-Satz als Signal der eigenen Hand (Batch 102)
+
+Der von Raphael selbst ueberschriebene Absatz eines Hub-Entwurfs (16.07.2026, `korrektur-delta`)
+ist **ein einziger Satz mit 56 Woertern**, mit Kasusfehler und Modusbruch (Konjunktiv →
+Indikativ) mitten darin — gegen 14.7 Woerter Satzschnitt im maschinell erzeugten Rest derselben
+Mail. Dieselbe Gattung wie der englische Lauf-Satz vom 15.04.2026 (KB-Schema, Fuenfte Falle).
+**Wo Raphael selbst tippt, wachsen die Saetze und die Fehlerdichte zugleich.**

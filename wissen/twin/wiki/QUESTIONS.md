@@ -4048,3 +4048,53 @@ der Offerte — oder gilt sie nur der schnellen operativen Mail, waehrend das au
 Dokument vierstellig bleibt? *Warum das naeherbringt:* der Zwilling schreibt heute ausnahmslos
 vierstellig aus; ohne die Kante wuerde er die Kurzform sonst ueberall setzen und die Dokumente
 verderben.
+
+## 260823 — Batch 102 (Fenster 21.–23.08.2026 sequenziell + Thread-Rueckgriff 2414 Thalwil)
+
+**#1 — Warum setzt der Zwilling das «_ »-Bullet mal und mal nicht?** Offen. Facette
+[[stimme]] / [[arbeitsweise]]. Ein Hub-Erzeugnis vom **16.07.2026** (Du, an die Bauherrschaft)
+traegt **acht** «_ »-Bullets, ein Hub-Entwurf vom **20./21.08.2026** (Sie, an einen Unternehmer)
+**keines** — obwohl Batch 101 das Fehlen dort als groesste Zwillings-Luecke gemessen hat. Ein
+Rueckschritt ueber fuenf Wochen ist unplausibel. Vermutungen, keine davon geprueft: (a)
+verschiedene Erzeuger (Skill gegen Agent) mit verschiedenem Zugriff auf die Facetten-Artikel;
+(b) Registerabhaengigkeit (Du-Bauherr gegen Sie-Unternehmer); (c) Gattungsabhaengigkeit
+(Massnahmenpaket gegen Anhangs-Dateiliste). **Nicht geglaettet.** Zu klaeren durch Vergleich der
+erzeugenden Laeufe, nicht durch weitere Korpusarbeit — das ist eine Frage an den Hub, nicht an
+Raphael.
+
+**#2 — Stellt Raphael zwei Rechtsauffassungen selbst gegeneinander, oder war das eine
+Recherche-Einfuegung?** Frage an Raphael. Facette [[denken]] / [[fachsignatur]]. Die
+Behoerdenanfrage vom 20.11.2025 legt kantonalen Leitfaden und Kommentarliteratur als zwei
+ausformulierte Alternativen nebeneinander und laesst die Gemeinde waehlen. Die Denkfigur passt
+zum belegten Varianten- und Spielraumdenken, **der Text ist aber als Stilquelle verworfen**
+(Kernbefund 2: fehlerfreier Body gegen Tippfehler im selbstgetippten Betreff, «→»-Pfeil,
+Fussnoten-Leerschlagrest). Konkret: **Ist die Doppel-Alternative Deine eigene Anfragetechnik,
+oder kam sie aus einem Recherchewerkzeug?** Bei «eigene Technik» wird der Marker in [[denken]]
+von Kandidat auf belegt gehoben.
+
+**#3 — Wann traegt eine Weiterleitung gar keinen eigenen Satz?** Frage an Raphael. Facette
+[[arbeitsweise]] / [[beziehungsregister]]. Am 22.08.2026 ging ein Bauherren-Thread samt zwei
+Anhaengen **kommentarlos** an den Baumanagement-Partner — keine Anrede, keine Zeile, kein Gruss.
+Der Zwilling erfindet in dieser Lage immer eine Begleitzeile und macht aus einer beilaeufigen
+Uebergabe einen Auftrag. **Gilt die Nullform generell im eingespielten Du-Verhaeltnis, oder
+haengt sie daran, dass der Betreff die Sache schon vollstaendig benennt?** Und: gibt es
+Empfaenger, bei denen eine kommentarlose Weiterleitung unhoeflich waere?
+
+**#4 — Soll der Zwilling Deine Aenderungen an seinen Entwuerfen erfahren?** Frage an Raphael,
+**betrifft die Lernmechanik, nicht den Stil**. Facette alle. Batch 102 hat erstmals ein
+`korrektur-delta` **im Inneren** eines gesendeten Hub-Erzeugnisses gefunden — ein Schlussabsatz,
+den Du selbst ueberschrieben hast (16.07.2026), erkennbar nur an der Fehlerdichte. Das ist das
+zweitstaerkste Lernsignal der KB, und es liegt heute **zufaellig** im Korpus: der Zwilling findet
+es nur, wenn ein Batch zufaellig in dieser Mail landet. **Waere es Dir recht, wenn ein Lauf
+gezielt nach diesem Muster sucht** (gesendete Mails mit Fehlerinseln in sonst sauberem Text)?
+Der Ertrag waere hoch, der Aufwand gering — aber es hiesse, dass ein Loop systematisch nach
+Deinen Korrekturen an Claude-Texten sucht.
+
+**#5 — Die Fallen-Nummerierung im Echo-Schutz-Katalog (`wissen/twin/CLAUDE.md`) ist doppelt
+vergeben.** Offen, Hub-intern, kein Handlungsbedarf fuer Raphael. «Siebte Falle» existiert zweimal
+(13.08.2026 Batch 92 und der Mischfall-Block), «Neunte Falle» ebenfalls (14.08.2026 Batch 93 und
+ein weiterer). Batch 102 hat seine beiden Eintraege darum **benannt statt nummeriert**
+(«BETREFF-PROBE», «Nachtrag zur siebten Falle»). Ein Aufraeumen waere ein Umschreiben mitten in
+einer gewachsenen, viel referenzierten Datei und faellt unter Rule 260811 (kein globales
+Ersetzen); es braucht einen eigenen, bewusst gefuehrten Lauf mit `--numstat`-Kontrolle. **Bis
+dahin: neue Eintraege benennen, nicht nummerieren.**
