@@ -1,5 +1,46 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 3 Revendo) — eigene offene Frage geschlossen: verkettete BFS-Reihe gefunden, Holzbau-Zuschlag fortgeschrieben
+
+Der Lauf unten hat eine offene Frage eröffnet (verkettete BFS-Reihe je Bauwerksart ab 2023) und die
+geprüften Sackgassen genannt. Am selben Tag geschlossen — **der zuvor geprüfte Weg war der
+falsche**: die Reihe liegt nicht in der PX-Web-Schnittstelle und nicht auf der Indexseite, sondern
+als **Publikationstabelle im BFS-Datenkatalog**: «Schweizerischer Baupreisindex — Entwicklung der
+Baupreise (Multibasen), Indexwerte pro Grossregion und pro Objekttyp», XLSX über opendata.swiss,
+Datenstand 21.08.2026, Blatt «2020» (Basis Oktober 2020 = 100, verkettet, Halbjahresschritte ab
+1998, je Grossregion und Objekttyp). **Methodenhinweis für künftige Läufe:** BFS-Reihen zuerst über
+**opendata.swiss** suchen, nicht über die PX-Web-API — die Preisstatistiken liegen dort als XLSX,
+nicht als Cube.
+
+**Ergebnis — der Zuschlag ist erstmals unabhängig fortgeschrieben.** April 2023 (Indexstand der
+Ausgangsstudie) bis April 2026: Schweiz Neubau MFH **+2.35 %** gegen Neubau MFH **aus Holz
++1.97 %**; Region Zürich **+2.78 %** gegen **+1.88 %**. **Der Holzbau ist langsamer gestiegen** —
+schweizweit um 0.38, in der **Grossregion Zürich um 0.90 Prozentpunkte**. Der Zuschlag hat sich
+also **nicht ausgeweitet, sondern leicht verengt**: +13 % (2023, oberes Segment) wird zu
+**+12.6 % (CH)** bzw. **+12.0 % (Region Zürich)**; das untere Segment bleibt praktisch bei Parität.
+
+**Der Kennwert wird NICHT geändert** — 0.4 bis 0.9 Prozentpunkte über drei Jahre liegen deutlich
+innerhalb der Ableseunschärfe der Ausgangsstudie (Diagramm-Ablesung, ca.-Werte). Die Fortschreibung
+ist als **Kontrolle** geführt, nicht als neuer Wert; ihr Ergebnis lautet: *der Zuschlag von 2023
+ist drei Jahre später immer noch tragfähig.* Zwei Annahmen sind benannt: der Zuschlag ist ein
+**Kosten**verhältnis, der Index misst **Preis**entwicklung; und die Bewegung ist kleiner als die
+Unschärfe der Quelle.
+
+**Drei Nebenbefunde:**
+1. **Vorzeichenwechsel** — auf Basis Okt-2020 startet Holz 2023 **über** Massiv (116.5 gegen
+   114.9): von 2020 bis 2023 stieg Holz **stärker**, seit 2023 **schwächer**. Der Kostendruck hat
+   sich umgekehrt; das stützt die Studie in ihrem Zeitfenster und warnt davor, ihren Zuschlag
+   unbesehen weit zu verlängern.
+2. **Renovation bestätigt sich über drei Jahre** — Renovation MFH **+1.94 %** gegen Neubau MFH
+   **+2.35 % (CH)** bzw. **+2.78 % (ZH)**. Umbaukennwerte mit dem Neubau-Anker zu indexieren
+   überzeichnet die Teuerung **systematisch**, nicht nur zufällig in einem Halbjahr.
+3. **Der ZIW ist unabhängig bestätigt** — Region Zürich «Neubau MFH» Okt-2025 → Apr-2026 **+0.59 %**,
+   im Jahr **+0.85 %**; der ZIW meldet **+0.6 %** und **+0.9 %**. Praktisch deckungsgleich, genau wie
+   es der ZIW-Methodenbericht beschreibt. Der Nachtrag im Abschnitt «Baupreisindex ZH» ist damit an
+   einer zweiten, unabhängig gezogenen Quelle bestätigt.
+
+Geänderte Dateien: `wiki/kennwerte.md` (Nachtrag 2 beim Holzbau-Zuschlag), `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf 2 Revendo) — Holzbau-Zuschlag: amtlicher Index gefunden, Anwendungsgrenze belegt
 
 Zweite Runde, angesetzt beim **Holzbau-Zuschlag** — dem einzigen Kennwert dieser KB, der an

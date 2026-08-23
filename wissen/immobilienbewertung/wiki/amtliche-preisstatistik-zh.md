@@ -182,6 +182,42 @@ die implizite Fläche dort kleiner aus. Die beiden niedrigsten EFH-Werte der Tab
 138 m²) sind deshalb wahrscheinlich ein Altersartefakt der UBS-Seite, kein Flächenbefund — ein
 weiteres Argument für die Neubestellung dieser Fact Sheets.
 
+## 4b · Wie veraltet sind die Fact Sheets wirklich? (D1 beziffert, 23.08.2026)
+
+[[wissensluecken]] **D1** führt vier Fact Sheets mit ⚠ «veraltet», ohne zu sagen, **wie weit** sie
+danebenliegen. Mit den kantonalen Reihen lässt sich das beziffern: für jede Gemeinde der
+3-Jahres-Pool, der auf dem Jahr des Fact-Sheet-Stands endet, gegen den aktuellen Pool 2025–2023.
+
+| Gemeinde | UBS-Stand | Vergleichspool | EFH damals → heute | Δ | EW damals → heute | Δ |
+|---|---|---|---|---|---|---|
+| Wädenswil | 7/2024 | 2024–2022 | 2'105'000 → 2'150'000 | **+2.1 %** | 1'468'000 → 1'476'500 | **+0.6 %** |
+| Maur | 2024-Q1 | 2024–2022 | 2'020'000 → 2'105'000 | **+4.2 %** | 1'305'000 → 1'400'000 | **+7.3 %** |
+| Regensdorf | 12/2023 | 2023–2021 | 1'532'500 → 1'430'000 | **−6.7 %** | 965'000 → 910'000 | **−5.7 %** |
+| Wald | 12/2023 | 2023–2021 | 1'075'000 → 1'097'500 | **+2.1 %** | 740'000 → 776'500 | **+4.9 %** |
+
+Fallzahlen je Pool: EFH 38–95, EW 99–258 — tragfähig.
+
+> **Der wichtigste Befund kehrt die Intuition um: «veraltet» heisst nicht «zu tief».** In
+> **Regensdorf** liegen die kantonalen Mediane heute **rund 6 % unter** dem Stand, auf dem das
+> Fact Sheet vom 12/2023 beruht — wer dort mit dem alten Blatt bewertet, bewertet **zu hoch**, nicht
+> zu tief. In Wädenswil und Wald ist die Bewegung dagegen mit rund 2 % kleiner als die übliche
+> Bandbreite einer Bewertung, in Maur beim EW mit +7.3 % am grössten.
+>
+> **Priorisierung der Neubestellung** ergibt sich daraus direkt: **Regensdorf zuerst** (falsche
+> Richtung, materiell), dann **Maur** (grösste Bewegung), **Wädenswil und Wald** sind trotz
+> ⚠-Flag praktisch noch brauchbar.
+
+⚠ **Drei Vorbehalte zu dieser Rechnung.**
+1. **Die Pools überlappen.** «2023–2021» und «2025–2023» teilen sich das Jahr 2023; die ausgewiesenen
+   Deltas sind deshalb **gedämpft** — die tatsächliche Bewegung zwischen den Randjahren ist grösser.
+2. **Es sind Totalpreis-Mediane, nicht CHF/m².** Verschiebt sich die Grösse der gehandelten Objekte,
+   wandert der Median mit, ohne dass sich das Preisniveau je m² geändert hätte. Für einen
+   Niveauvergleich mit den Fact Sheets ist das die bekannte Grenze (Abschnitt 4).
+3. **Einzeljahre taugen nicht.** Die ungepoolten Reihen schwanken wild: Wädenswil EFH liegt bei
+   2'060 (2021) · 2'120 (2022) · 1'640 (2023) · 2'500 (2024) · 2'195 (2025) Tausend CHF bei
+   n = 26–33 pro Jahr. In Regensdorf sind 2021–2023 gar nicht publiziert (n = 12–13, unter der
+   Publikationsschwelle). **Immer den 3-Jahres-Pool verwenden**, nie ein Einzeljahr.
+
 ## 5 · Vorbehalte der Quelle selbst
 
 1. **Die letzten drei Jahre und das laufende Jahr sind provisorisch.** Die Quelle nennt den Grund:

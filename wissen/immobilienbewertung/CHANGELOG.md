@@ -2,6 +2,43 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 4 — D1 beziffert: «veraltet» heisst nicht «zu tief»)
+
+Dritte Runde. D1 fuehrte vier UBS-Fact-Sheets seit Monaten mit einem ⚠ «veraltet», **ohne zu sagen,
+wie weit sie danebenliegen**. Mit den in Vertiefungslauf 3 erschlossenen kantonalen Reihen ist das
+jetzt beziffert: je Gemeinde der 3-Jahres-Pool, der auf dem Jahr des Fact-Sheet-Stands endet, gegen
+den aktuellen Pool 2025-2023.
+
+| Gemeinde | UBS-Stand | EFH | EW |
+|---|---|---|---|
+| Waedenswil | 7/2024 | **+2.1 %** | **+0.6 %** |
+| Maur | 2024-Q1 | **+4.2 %** | **+7.3 %** |
+| **Regensdorf** | 12/2023 | **−6.7 %** | **−5.7 %** |
+| Wald | 12/2023 | **+2.1 %** | **+4.9 %** |
+
+Fallzahlen je Pool: EFH 38-95, EW 99-258 — tragfaehig.
+
+**Der Befund kehrt die Intuition um: «veraltet» heisst nicht «zu tief».** In **Regensdorf** liegen
+die kantonalen Mediane heute **rund 6 % UNTER** dem Stand, auf dem das Blatt vom 12/2023 beruht —
+wer dort mit dem alten Fact Sheet bewertet, bewertet **zu hoch**. In Waedenswil und Wald ist die
+Bewegung mit rund 2 % kleiner als die uebliche Bandbreite einer Bewertung, in Maur beim EW mit
++7.3 % am groessten.
+
+**Priorisierung der Neubestellung, direkt daraus:** **Regensdorf zuerst** (falsche Richtung,
+materiell), dann **Maur** (groesste Bewegung); **Waedenswil und Wald sind trotz ⚠-Flag praktisch
+noch brauchbar**. Das ist der erste Fall, in dem D1 eine Reihenfolge statt einer Sammelwarnung
+hat.
+
+**Drei Vorbehalte mitgeschrieben:** (1) die Pools **ueberlappen** im Jahr 2023, die Deltas sind
+deshalb **gedaempft**; (2) es sind **Totalpreis-Mediane, nicht CHF/m2** — eine Verschiebung der
+gehandelten Objektgroessen wandert mit; (3) **Einzeljahre taugen nicht**: Waedenswil EFH schwankt
+ungepoolt zwischen 1'640 und 2'500 Tausend CHF bei n = 26-33 pro Jahr, und in Regensdorf sind
+2021-2023 gar nicht publiziert (n = 12-13, unter der Publikationsschwelle). **Immer den
+3-Jahres-Pool verwenden.**
+
+Geaenderte Dateien: `wiki/amtliche-preisstatistik-zh.md` (neuer Abschnitt 4b),
+`wiki/wissensluecken.md` (D1 beziffert samt Priorisierung).
+
 ## 2026-08-23 (Vertiefungslauf 3 — kantonale Handaenderungsstatistik: D14 beantwortet, D2 fuer Kt. ZH geschlossen)
 
 Zweite Runde durch die vier Wissensbasen, Start bei dieser KB. Angesetzt beim wertvollsten noch
