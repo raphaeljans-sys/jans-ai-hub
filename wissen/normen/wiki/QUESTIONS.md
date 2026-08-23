@@ -3953,8 +3953,13 @@ einzeln geprüft:
   (6 von 60 Seiten). Bis dahin sind Q_H-Grenz-/Zielwerte, U-Wert-Grenzwerte und Gebaeudekategorien
   **nicht belegbar** und duerfen von Agent `energie-berater` / Skill `planungsgrundlagen` NICHT
   genannt werden. Falle: `alle/xalt/neu/380_1_d_2001.pdf` ist Volltext, aber zweifach ueberholt
-  (2001→2009→2016) — kein Ersatz. Beschaffung via SIA-Normen-Abo (Zugangsdaten unter
-  `SIA_Abo/Korrespondenz/`, Aktualitaet ungeprueft) oder Kauf.
+  (2001→2009→2016) — kein Ersatz. **SIA-Normen-Abo-Weg GEPRÜFT 23.08.2026 (SIA-Sweep,
+  fünfundzwanzigste Fortsetzung) — Sackgasse:** `SIA_Abo/Korrespondenz/180208_INorm-Abo_2018_Login.pdf`
+  ist ein iNorm-Abonnement der SIA von 2018, ausgestellt auf **Meili, Peter & Partner Architekten AG**
+  (Kundennummer 236540), nicht auf JANS — vermutlich ein bei der SharePoint-Migration 18.03.2025
+  fehlabgelegtes Fremddokument. Credentials einer fremden Firma werden nicht verwendet (kein
+  Login-Versuch unternommen, keine Zugangsdaten in diese KB übernommen). Beschaffung bleibt nur
+  über einen eigenen, aktuellen SIA-Normen-Kauf möglich.
 - [ ] **BRING-SCHULD P1 — Volltext SIA 385/1:2011 beschaffen** (6 von 28 Seiten im Bestand). Die
   praxisrelevanteste Frage (Legionellen-Temperaturen, Ziff. 3.1/3.2, Normseite 13) ist bis dahin
   aus dieser Norm nicht beantwortbar. ~~Vor einem Normkauf zuerst pruefen, ob die franzoesische
@@ -3964,12 +3969,18 @@ einzeln geprüft:
   Nummer 385/1 wurde 2011 für «Anlagen für Trinkwarmwasser in Gebäuden» wiederverwendet; die
   Schwimmbad-Materie ging in **385/9** auf. Kein Ersatz, auch nicht teilweise — die Legionellen-Angaben
   der 2000er betreffen Beckenwasser und Duschen. Die Bring-Schuld bleibt somit vollumfänglich offen und
-  ist nur über SIA-Abo/Kauf schliessbar.
+  ist nur über Kauf schliessbar — der vermeintliche SIA-Abo-Weg ist eine Sackgasse (siehe Begründung
+  bei SIA 380/1 oben: die einzigen im Haus liegenden Abo-Zugangsdaten gehören einer fremden Firma).
 - [ ] **NEU 23.08.2026 — BRING-SCHULD P1 — Volltext SIA 266/1:2015 beschaffen.** Aus dem
   Web-verifizierten Rückzug der Ausgabe 2003 (siehe oben, Eintrag «SIA 266/1: neuere Ausgabe»)
   folgt: die geltende Fassung ist im Bestand nicht vorhanden. 16 Seiten, CHF 30.-, SIA-Shop
   (shop.sia.ch/normenwerk/ingenieur/266-1_2015_d). Bis zur Beschaffung ist die Prüf-/
-  Deklarationsnorm zu SIA 266 nur in der überholten 2003er-Fassung belegt.
+  Deklarationsnorm zu SIA 266 nur in der überholten 2003er-Fassung belegt. **SIA-Abo-Weg ebenfalls
+  Sackgasse** (siehe Begründung bei SIA 380/1 oben, geprüft 23.08.2026, SIA-Sweep fünfundzwanzigste
+  Fortsetzung); auf Volltextsuche im gesamten SharePoint-Drive `02_Recht_Norm` nach `266_1`/`266.1`
+  wurde zusätzlich kein weiterer, bisher unentdeckter Bestandstreffer gefunden (nur bereits bekannte
+  Dateien: die 2003er-Fassung `alle/i/266_1_d.pdf`, Sprachvarianten `_f`/`_i`/`_e` und die
+  artfremden AVB-Normen SIA 118/266-1 und 118/266-2).
 - [~] **TEIL (1) GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung).** Aktualität von SIA 400:2000
   gegen den suissetec-Hinweis geprüft: `shop.sia.ch/normenwerk/architekt/400_2000_d/D/Product`
   (`curl -A "Mozilla/5.0"`, Abruf 23.08.2026) führt SIA 400 D-400, Jahr 2000, gültig ab
