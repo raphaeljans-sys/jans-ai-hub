@@ -78,4 +78,18 @@ Stand 01.10.2025 (Stadt Zürich direkt statt nur HEV-SZ-Kopie) in `kennwerte.md`
 auf bestehende Einzelfälle unter Rundungsgenauigkeit. Kein neuer Projekt-Kennwert. Details
 `../outputs/2026-08-17_grobkosten-run16.md`.
 
+Vertiefungslauf 23.08.2026 (Station Revendo, Auftrag Raphael): kein neuer Projekt-Kennwert,
+aber zwei substanzielle Ergänzungen in `kennwerte.md` und eine Korrektur. **(1)** Der am selben
+Tag geschlossene Punkt «ZIW publiziert mutmasslich jährlich, 01.04.2026-Stand unbestätigt» ist
+an den Primärquellen **widerlegt**: der Rhythmus ist halbjährlich (BFS: Erhebung April/Oktober,
+Publikation Juni/Dezember), der Stand **01.04.2026 = 100.6 (Basis Okt-2025 = 100, Jahresteuerung
++0.9 %)** ist amtlich publiziert (08.07.2026), und es **gab** eine Revision 2025 mit Basiswechsel
+und vollständig neuer Gewichtung. Die Faktorentabelle ist auf 01.04.2026 fortgeschrieben.
+**(2)** Neuer Abschnitt «BKP-Anteilsstruktur MFH Stadt Zürich, Stand 2025» — amtliche
+BKP-Gewichte aus 54 realen Kostenvoranschlägen Zürcher MFH-Neubauten 2020–2024
+(ZIW-Methodenbericht), mit Vergleich gegen die 1985er-Struktur der Schätzungsanleitung.
+Nebenbefund: der BKP-2-Anteil bestätigt sich unabhängig (89.4 % gegen 90.6 % aus Tab. 3).
+Frage 1 (BKP-Scope Tab. 2) bleibt davon unberührt offen. Details
+`../outputs/2026-08-23_grobkosten-vertiefung-ziw-bkp-struktur.md`.
+
 Offene Fragen / Lücken: siehe [QUESTIONS.md](QUESTIONS.md).

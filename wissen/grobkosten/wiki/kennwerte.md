@@ -418,6 +418,97 @@ Deckt sich grössenordnungsmässig mit dem bereits geführten BFS-Baupreisindex-
 > **unbestätigt und wird nicht mehr aktiv nachverfolgt** — der nächste reguläre
 > Publikationstermin ist voraussichtlich Sommer 2027 (für Oktober-2026-Daten). Bis dahin bleibt
 > 01.10.2025 = 116.1 der aktuelle, belegte Stand.
+>
+> ---
+>
+> ### ⚠ Korrektur und Nachtrag 23.08.2026 (Vertiefungslauf Revendo, alles an Primärquellen)
+>
+> Der Nachtrag vom selben Tag (oben) ist in **drei Punkten zu berichtigen**. Der URL-Muster-Test,
+> auf dem er beruht, ist eine Heuristik über Nachrichten-Slugs — kein Beleg über den
+> Publikationsrhythmus. Die Primärquellen sagen anderes:
+>
+> **1. Der Rhythmus ist halbjährlich, nicht jährlich.** Der ZIW folgt seit der Revision 2020 dem
+> BFS-Baupreisindex, und für diesen hält die BFS-Indexseite wörtlich fest: «Der Baupreisindex wird
+> **halbjährlich** berechnet (April und Oktober) und die Ergebnisse im **Juni und Dezember**
+> publiziert.» Der ZIW selbst erscheint mit leichtem Versatz — die Oktober-Mitteilung im Januar,
+> die April-Mitteilung im Juli. Der Schluss «nächster Termin voraussichtlich Sommer 2027» war um
+> rund ein Jahr zu pessimistisch; korrekt ist: **nächster ZIW-Stichtag 01.10.2026, Publikation
+> ~Januar 2027**.
+>
+> **2. Der 01.04.2026-Stand ist publiziert, nicht kolportiert.** Die amtliche Indextabelle auf
+> `stadt-zuerich.ch/ziw` (abgerufen 23.08.2026) führt zum Stichtag **01.04.2026**:
+>
+> | Reihe | April 2026 | Oktober 2025 | April 2025 | Jahresteuerung |
+> |---|---|---|---|---|
+> | **Total (BKP 1, 2, 4, 5)** | **100.6** | 100 | 99.7 | **+0.9 %** |
+> | Vorbereitung (BKP 1) | 102.2 | 100 | — | +2.2 % |
+> | **Gebäude (BKP 2)** | **100.4** | 100 | — | **+0.4 %** |
+> | Umgebung (BKP 4) | 100.7 | 100 | — | +0.7 % |
+> | Baunebenkosten (BKP 5) | 101.0 | 100 | — | +1.0 % |
+>
+> Publikationsdatum **08.07.2026** (Medienmitteilung, Reproduktion nau.ch — als Sekundärquelle
+> gekennzeichnet; die Zahlen selbst stammen aus der amtlichen Tabelle).
+>
+> **3. «Kein Hinweis auf Rebasierung/neue Gewichtung» ist widerlegt — es gab eine Revision.** Der
+> **Methodenbericht Revision 2025** (Statistik Stadt Zürich, Juni 2026, PDF
+> `2026-07-07_Methodenbericht-ZIW.pdf`, 16 Seiten, hier im Volltext gelesen) dokumentiert:
+> - **Basismonat von April auf Oktober umgestellt** — neue Basis **Oktober 2025 = 100**, damit
+>   derselbe Basismonat wie beim BFS-Baupreisindex.
+> - **Gewichtung vollständig neu** aus **54 verwertbaren realen Kostenvoranschlägen** Zürcher
+>   MFH-Neubauten 2020–2024 (aus 210 angefragten Projekten), aggregiert über einen **L1-Ansatz**
+>   (median-artig, robust gegen Ausreisser statt arithmetisches Mittel), plausibilisiert in zwei
+>   Workshops mit acht Bauexpertinnen und -experten; eine manuelle Korrektur (2 Prozentpunkte von
+>   BKP 531 nach BKP 29).
+> - **Positionsauswahl vom BFS übernommen**, dadurch sind **BKP-1-Positionen wieder aufgenommen**.
+> - **Honorare nicht mehr aus KBOB**, sondern mit der BAP-Veränderungsrate fortgeschrieben — die
+>   KBOB-Werte erschienen zwei Jahre in Folge verspätet. (Relevant auch für JANS-Honorarrechnungen,
+>   die sich auf KBOB stützen.)
+> - **Verkettung amtlich gedeckt:** «Die alten und die neuen Indexreihen werden über das Basisjahr
+>   verkettet, sodass trotz der methodischen Anpassungen eine durchgehende und vergleichbare lange
+>   Zeitreihe bestehen bleibt.» Die Faktorentabelle dieser KB darf also über die Revision hinweg
+>   fortgeschrieben werden.
+>
+> **Faktoren fortgeschrieben auf 01.04.2026.** Der letzte Schritt ist **kein Kettenglied, sondern
+> die publizierte Jahresteuerung** (100.6 / 99.7 = **1.009**); die früheren Stützpunkte bleiben
+> unverändert und werden mit diesem Faktor multipliziert:
+>
+> | Von (Preisstand) | Bis 01.04.2025 | Bis 01.04.2026 | Zuschlag bis 2026 |
+> |---|---|---|---|
+> | 01.04.2004 | 1.3336 | **1.3457** | +34.6 % |
+> | 01.04.2020 | 1.1580 | **1.1685** | +16.8 % |
+> | 01.04.2022 | 1.0720 | **1.0817** | +8.2 % |
+> | 01.04.2023 | 1.0160 | **1.0252** | +2.5 % |
+> | 01.04.2024 | 1.0110 | **1.0201** | +2.0 % |
+> | 01.04.2025 | — | **1.0090** | +0.9 % |
+>
+> ⚠ **Achtung, Zahlenkollision:** der Faktor 01.04.2004 → 01.04.2026 ist **1.3457** und damit
+> numerisch fast identisch mit dem *anderen* Anker **1.346** (01.04.2003 → 01.04.2025, geführt in
+> `immobilienbewertung`). Das ist Zufall, keine Konvergenz der beiden Lesarten — der
+> Stützpunktstreit 1.334 gegen 1.346 bleibt unberührt offen. Bei jeder Verwendung Stützpunkt
+> **und** Zieldatum ausschreiben.
+>
+> **Namensklärung (löst eine wiederkehrende Verwechslungsgefahr).** Diese KB führt die Reihe unter
+> «Zürcher Index der **Wohnbaukosten**», Statistik Stadt Zürich nennt sie «Zürcher Index der
+> **Wohnbaupreise** (ZIW)». Es ist **derselbe Index**, nicht zwei: die HEV-Schwyz-Reproduktion
+> trägt den Titel «Wohnbaukosten», nennt aber in der Quellenzeile ausdrücklich «Quelle: Zürcher
+> Index der Wohnbaupreise | Stadt Zürich»; archis.ch publiziert dieselbe Reihe ebenfalls als
+> «Wohnbaukosten» mit dem Vermerk «zusammengestellt aufgrund der Mitteilungen des Statistischen
+> Amtes der Stadt Zürich» und identischen Werten (01.04.2025: 143.4 Basis 1998 / 116.1 Basis 2010 /
+> 115.8 Basis 2020 — deckungsgleich mit der HEV-Tabelle). Die Verbände führen den historischen
+> Namen weiter, das Amt den heutigen. Beide Bezeichnungen sind zulässig, **die Basis muss aber
+> immer mitgenannt werden.**
+>
+> ⚠ **Zweite Zahlenkollision, direkt aus dieser Namensfrage:** der Wert **116.1** kommt in dieser
+> Indexfamilie **zweimal mit verschiedener Bedeutung** vor — **01.04.2025 auf Basis 1.4.2010 = 100**
+> (HEV-/archis-Tabelle) und **01.10.2025 auf Basis April 2020 = 100** (Medienmitteilung Stadt
+> Zürich, Grundlage des Run-16-Nachtrags oben). Beide sind korrekt. Wer 116.1 ohne Basisangabe
+> übernimmt, verschiebt den Stichtag stillschweigend um ein halbes Jahr.
+>
+> *Quellen: Statistik Stadt Zürich, ZIW-Indextabelle `stadt-zuerich.ch/ziw` (abgerufen 23.08.2026)
+> · Statistik Stadt Zürich, «Methodenbericht Revision 2025 — Zürcher Index der Wohnbaupreise»,
+> Juni 2026, Volltext · BFS, Baupreisindex, Indexseite (abgerufen 23.08.2026) · HEV Schwyz,
+> verkettete Reihe 1939–2025, Publikationsstand 01.01.2026, Volltext · archis.ch, Baukostenindex
+> (abgerufen 23.08.2026).*
 
 **Anwendung (ab sofort möglich, in diesem Lauf noch nicht auf alle Einzelfälle angewendet):**
 Die in dieser KB geführten Einzelfälle mit Preisstand vor 2025 (z.B. Reckholdern 12/2023,
@@ -545,6 +636,108 @@ unterhalb des in dieser KB geführten MFH-gehoben-Seed-Bands (850–1'050 CHF/m�
 der Annahme, dass die Neuwert-Richtwerte BKP 2 allein abbilden (ein BKP-1–5-Wert läge über einem
 reinen BKP-2-Wert). Stützt die bestehende Seed-Bandbreite eher, als ihr zu widersprechen; hebt
 aber keinen Wert auf `belegt`.
+
+## BKP-Anteilsstruktur MFH Stadt Zürich, Stand 2025 (amtlich, neu 23.08.2026)
+
+**Was das ist.** Statistik Stadt Zürich hat für die **Revision 2025** des Zürcher Index der
+Wohnbaupreise die Gewichtung der BKP-Positionen erstmals **direkt aus realen Kostenvoranschlägen
+Zürcher Bauprojekte** abgeleitet und im Methodenbericht (Juni 2026) vollständig publiziert. Damit
+liegt eine **aktuelle, amtliche, quellenoffene BKP-Kostenstruktur eines typischen Zürcher
+Mehrfamilienhaus-Neubaus** vor — der moderne Gegenpart zu der in Run 12 geführten Tabelle 3 der
+Schätzungsanleitung (MFH mittlerer Standard, **Baujahr 1985**).
+
+**Erhebungsbasis (Methodenbericht, Kap. 2.2/2.3):** im Juni 2025 wurden 210 realisierte
+Bauprojekte angefragt, **54 verwertbare Kostenvoranschläge** aus dem Zeitraum **2020–2024** flossen
+ein. Kriterien: Neubau (keine Sanierung/Umbau), reines Wohn-Mehrfamilienhaus, mindestens
+2 Wohnungen, 1–9 Gebäude, **keine Tiefgarage**. Aggregation über einen **L1-Ansatz** (lineares
+Optimierungsproblem, Lösung entspricht einem Median und ist robust gegen Ausreisser — bewusst
+nicht das arithmetische Mittel), unter Einhaltung der BKP-Hierarchie-Summenbedingungen.
+Plausibilisiert in zwei Workshops mit acht Bauexpertinnen und -experten; **eine manuelle
+Korrektur**: 2 Prozentpunkte von BKP 531 nach BKP 29.
+
+**Gewichte in Prozent der Gesamtkosten (BKP 1 + 2 + 4 + 5 = 100 %).** BKP-Nummern und
+Bezeichnungen gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft (Rule `bkp-2017-referenz`);
+wo der Methodenbericht abweichend beschriftet, steht die BKP-2017-Bezeichnung in Klammern.
+
+| BKP | Bezeichnung | Revision 2020 | **Revision 2025** |
+|---|---|---|---|
+| 1 | Vorbereitungsarbeiten | — | **5.924** |
+| 13 | Gemeinsame Baustelleneinrichtung | — | 1.668 |
+| 17 | Spezialtiefbau *(Bericht: «Fundation, Sicherung, Abdichtung»)* | — | 4.256 |
+| **2** | **Gebäude** | 90.553 | **89.374** |
+| 20 | Baugrube | 1.387 | 3.416 |
+| 21 | Rohbau 1 | 29.452 | 23.508 |
+| 22 | Rohbau 2 | 9.373 | 12.489 |
+| 23 | Elektroanlagen | 3.041 | 4.466 |
+| 24 | HLK-Anlagen *(BKP 2017: HLK-Anlagen, Gebäudeautomation)* | 4.608 | 4.710 |
+| 25 | Sanitäranlagen | 8.557 | 8.874 |
+| 26 | Transportanlagen *(BKP 2017: Transportanlagen, Lageranlagen)* | 1.910 | 1.124 |
+| 27 | Ausbau 1 | 9.499 | 7.037 |
+| 28 | Ausbau 2 | 6.034 | 5.774 |
+| 29 | Honorare (Gebäude) | 16.694 | 17.976 |
+| **4** | **Umgebung** | 4.109 | **2.808** |
+| 41 | Rohbau- und Ausbauarbeiten (Umgebung) | 0.361 | 0.224 |
+| 42 | Gartenanlagen | 2.620 | 2.584 |
+| 44 | Installationen (Umgebung) | 0.086 | — |
+| 45 | Leitungen innerhalb Grundstück | 1.043 | — |
+| 49 | Honorare (Umgebung) | 1.043 | — |
+| **5** | **Baunebenkosten** | 5.338 | **1.894** |
+| 53 | Versicherungen | 0.266 | 0.156 |
+| 54 | Finanzierung ab Baubeginn | 5.072 | 1.738 |
+
+### Vergleich mit der Struktur von 1985 (Tab. 3 Schätzungsanleitung), beide auf BKP 2 = 100 % normiert
+
+| BKP | Bezeichnung | 1985 (Tab. 3) | **2025 (ZIW)** | Delta |
+|---|---|---|---|---|
+| 20 | Baugrube | 2.73 % | 3.82 % | +1.1 Pp |
+| 21 | Rohbau 1 | **35.95 %** | **26.30 %** | **−9.7 Pp** |
+| 22 | Rohbau 2 | 9.42 % | 13.97 % | +4.6 Pp |
+| 23 | Elektroanlagen | 4.63 % | 5.00 % | +0.4 Pp |
+| 24 | HLK-Anlagen | 4.10 % | 5.27 % | +1.2 Pp |
+| 25 | Sanitäranlagen | 8.16 % | 9.93 % | +1.8 Pp |
+| 26 | Transportanlagen | 0.56 % | 1.26 % | +0.7 Pp |
+| 27 | Ausbau 1 | 12.60 % | 7.87 % | −4.7 Pp |
+| 28 | Ausbau 2 | 9.30 % | 6.46 % | −2.8 Pp |
+| 29 | Honorare (Gebäude) | **12.55 %** | **20.11 %** | **+7.6 Pp** |
+| | Summe | 100.0 % | 100.0 % | |
+
+**Lesart.** Die beiden auffälligen Bewegungen sind **Rohbau 1 −9.7 Pp** und **Honorare +7.6 Pp**;
+Rohbau 2 (Fenster, Bedachung, Aussenwandbekleidung) gewinnt, die Ausbaugewerbe verlieren. Das ist
+plausibel — höhere Planungs- und Fachplanerdichte, mehr Gebäudehülle und Haustechnik, weniger
+Anteil des reinen Rohbaus — und die Honorar-Bewegung ist innerhalb des ZIW selbst konsistent
+(auf BKP 2 normiert: 18.4 % in der Revision 2020, 20.1 % in der Revision 2025).
+
+⚠ **Kein Like-for-like-Delta — vier Gründe, warum die rechte Spalte die linke nicht «korrigiert»:**
+1. **Andere Grundgesamtheit.** Links ein **einzelnes Referenzobjekt** (MFH mittlerer Standard,
+   Baujahr 1985, gesamtschweizerische Schätzungsanleitung), rechts ein **robuster Median über
+   54 Zürcher Projekte 2020–2024**. Der Stadt-Zürcher Honoraranteil ist strukturell höher als der
+   schweizerische — der Methodenbericht hält selbst fest, die nicht regionalisierten BFS-Gewichte
+   seien «besonders im Fall der Honorare für die Region Zürich unrealistisch».
+2. **Definitorische Verschiebung.** Die Revision 2025 hat die Positionsauswahl des BFS übernommen
+   und BKP-1-Positionen wieder aufgenommen; die Honorare werden neu über die BAP-Veränderungsrate
+   statt über KBOB fortgeschrieben. Ein Teil der Honorar-Bewegung ist Methodik, nicht Marktpreis.
+3. **Indexgewichte, nicht Vollkostenrechnung.** Es sind die Gewichte einer **Preiserhebung**; der
+   BFS erhebt rund 20 % der Positionen, die rund 80 % der Kosten abdecken. Die Anteile sind aus
+   vollständigen Kostenvoranschlägen berechnet und auf 100 % normiert, bilden aber nicht jede
+   Einzelposition eines KV ab.
+4. **Kein Tiefgaragen-Anteil.** Die Erhebung schliesst Projekte mit Tiefgarage aus. Für ein
+   JANS-Projekt **mit** Tiefgarage verschiebt sich die Struktur (mehr Baugrube/Rohbau 1).
+
+**Wofür das in dieser KB taugt.**
+- Als **Plausibilisierung einer BKP-Aufteilung**, wenn nur eine Gesamtsumme vorliegt (z. B. eine
+  Grobkostenschätzung auf BKP-Hauptgruppen herunterbrechen).
+- Als **Umrechnungsfaktor BKP 2 → Gesamtkosten**: der ZIW-2025-Anteil **BKP 2 = 89.4 %** liegt
+  nahe an den aus Tab. 3 abgeleiteten **90.6 %** — zwei unabhängige Quellen, 40 Jahre
+  auseinander, mit 1.2 Prozentpunkten Abstand. Das ist eine **echte Bestätigung der
+  Grössenordnung** (anders als bei zwei Werten aus derselben Quellenfamilie).
+- **Nicht** als Auflösung der offenen **Frage 1** (welchen BKP-Scope die Neuwert-Richtwerte der
+  Schätzungsanleitung meinen). Die Frage betrifft, was in den m³-Werten von Tab. 2 steckt; die
+  Struktur hier sagt darüber nichts aus. Frage 1 bleibt unverändert offen.
+
+*Quelle: Statistik Stadt Zürich, «Methodenbericht Revision 2025 — Zürcher Index der
+Wohnbaupreise», Juni 2026, Tabellen T-1 und T-3, PDF `2026-07-07_Methodenbericht-ZIW.pdf`,
+16 Seiten, im Volltext gelesen und ausgewertet 23.08.2026. BKP-Codes gegen BKP 2017 (CRB)
+geprüft.*
 
 ## Umrechnung Baumasse → Gebäudevolumen
 

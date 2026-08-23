@@ -2,6 +2,88 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 2 — Teuerungsanker, ZIW-Revision 2025, Bodenpreis-Quelle)
+
+Fortsetzung desselben Auftrags am selben Tag, Schwerpunkt **Belegstand der Anker**, an denen die
+Rechenketten haengen, statt eines weiteren Recomputes der Ketten selbst. Vier Befunde, alle an
+Primaerquellen gegengelesen. **Kein Kennwert der KB ist geaendert.**
+
+**1. Die seit Run 31 offene ZIW-Nachfuehrung ist faellig und einloesbar.** Der Artikel
+[[realwert-sachwert]] trug «naechste Publikation ~04-06/2026 nachziehen»; publiziert wurde am
+**08.07.2026** zum Stichtag **01.04.2026**: Total (BKP 1, 2, 4, 5) **100.6**, Basis
+**Oktober 2025 = 100**, April 2025 = 99.7, **Jahresteuerung +0.9 %**. Erstmals mit
+**BKP-Teilindizes**: Vorbereitung (BKP 1) 102.2 / +2.2 %, **Gebaeude (BKP 2) 100.4 / +0.4 %**,
+Umgebung (BKP 4) 100.7 / +0.7 %, Baunebenkosten (BKP 5) 101.0 / +1.0 %. Quelle: amtliche
+ZIW-Indextabelle (`stadt-zuerich.ch/ziw`), abgerufen 23.08.2026.
+
+**2. Der Klammersatz «nicht mit dem BFS-Baupreisindex zu verwechseln, der eine andere
+Basis/Methodik hat» ist fuer die Reihe ab 2021 ueberholt.** Der **Methodenbericht Revision 2025**
+(Statistik Stadt Zuerich, Juni 2026, 16 S., Volltext gelesen) haelt fest: die eigenstaendige
+Zuercher Baupreiserhebung wurde **2020 nach 100 Jahren eingestellt**; seither «entspricht der ZIW
+ab Basisjahr 2020 dem BFS-Baupreisindex ‹Neubau Mehrfamilienhaus› der Region Zuerich …
+Anpassungen … lediglich bei der **Gewichtung**». Zwei uebereinstimmende Werte von ZIW und BFS sind
+damit **keine gegenseitige Bestaetigung** — dieselbe Logik wie beim UBS-FS/Wuest-Befund.
+Der Vermerk ist **nicht gestrichen, sondern auf die Vor-2021-Reihe eingegrenzt**: dort (Offerten-
+methode, ~200 Bauunternehmen, eigenes Zuercher Indexhaus) liegt der Stuetzpunkt 01.04.2003 = 899.2,
+der den Faktor 1.346 traegt.
+
+**3. Die 1939er-Verkettung ist amtlich gedeckt.** Derselbe Bericht: «Die alten und die neuen
+Indexreihen werden ueber das Basisjahr verkettet, sodass … eine durchgehende und vergleichbare
+lange Zeitreihe bestehen bleibt.» Die Sorge, die Revision 2025 entwerte den 1.346-Faktor, ist
+ausgeraeumt. Rechnerische Fortschreibung (**als Verkettung gekennzeichnet, kein publizierter
+Wert**): 1'213.5 × 1.006 ≈ **1'220.8**, Faktor 2003→2026 ≈ **1.358**. Nebenbefund: die
+HEV-Schwyz-Reproduktion der verketteten Reihe wurde erstmals im **Volltext** gelesen statt nur
+zitiert und bestaetigt **beide** strittigen Stuetzpunkte des Doppelfuehrungs-Befunds
+(**899.2** und **907.6**) — der Streit 1.346 vs. 1.334 ist also eine echte Stuetzpunktwahl und
+kein Lesefehler einer Seite.
+
+**4. BFS-Teuerungsanker nach Bauwerksart eingearbeitet** (Basis Okt-2025 = 100, Stand April 2026,
+primaerverifiziert): die Bauwerksarten laufen um bis zu **1.1 Prozentpunkte** auseinander —
+Neubau MFH/EFH +1.0 %, **Renovation MFH +0.6 %**, Tiefbau +1.2 %, **Neubau Buerogebaeude −0.1 %
+im Halbjahr**. Praxisfolge als **Nutzungsregel 7** in [[datenquellen-registry]] verankert:
+Umbau-/Sanierungskennwerte mit **Renovation** indexieren, nicht mit Neubau oder Total.
+Publikationsrhythmus primaerverifiziert (Erhebung April/Oktober, **Publikation Juni/Dezember**)
+— der notierte naechste Termin **Dez-2026** ist damit bestaetigt, nicht geschaetzt.
+
+**Neue Entscheidfrage D15 (statt eigenmaechtiger Umstellung).** Fuer die Indexierung der
+Tab.-2-Neuwert-Richtwerte liegen jetzt **drei** belegte Anker vor, die 2025/26 um **0.6 Prozent-
+punkte** auseinanderliegen: ZIW-Total +0.9 %, **ZIW-Gebaeude BKP 2 +0.4 %**, BFS Neubau MFH +1.0 %.
+Sachlich naechster Anker fuer einen reinen Gebaeude-Neuwert ist der **BKP-2-Teilindex** (die
+Richtwerte sind Baukosten je m3 umbauter Raum; das Total wurde vor allem von BKP 1 mit +2.2 %
+gehoben). Nicht umgestellt — der Entscheid gehoert zusammen mit **1.346 vs. 1.334** zu Raphael.
+
+**D2 (Bodenpreise) fuer die Stadt Zuerich geschlossen.** Statistik Stadt Zuerich publiziert die
+**LIMA-Handaenderungsstatistik als offenes CSV unter CC0**
+(`bau_hae_lima_preise_anzahl_hae_art_bebauung_jahr_od5144`, Stand 05.02.2026, Daten 2008-2025,
+9'908 Zeilen, 47 Gebiete bis auf Quartiersebene, mit **Fallzahlen**). Entscheidend ist die Reihe
+**«Preis pro m2 Grundstuecksflaeche abzgl. Versicherungswert»** — eine Bodenpreis-Naeherung, die
+methodisch die Umkehrung der Realwert-Formel ist. Heruntergeladen, ausgewertet und mit **vier
+Vorbehalten** in [[lageklasse-landwertanteil]] eingearbeitet (Stadt 2025: EFH 4'879 / MFH 6'627
+CHF/m2 bei 110/165 Handaenderungen; Quartiersspreizung Fluntern EFH 7'726 gegen Affoltern 2'483,
+Faktor rund 3). **Ausserhalb der Stadt bleibt D2 offen und hoch** — die JANS-Kerngemeinden liegen
+am Seeufer, im Bezirk Horgen und in SZ. Nebenwirkung: der seit 06.2026 offene Punkt
+«LK-Beispielrechnung gegen Bodenpreis-Vergleichswert spiegeln» ist fuer Stadtzuercher Objekte
+jetzt durchfuehrbar (nicht ausgefuehrt — es fehlt ein JANS-Fall in der Stadt Zuerich).
+
+**Geprueft, kein Befund:** Ertragswert/DCF (Marktanker aktuell; der ⚠-Vermerk zum Basiszinssatz
+bleibt bewusst als Anwendungsvorbehalt stehen — der SNB-Datenwuerfel fuer Hypothekarzinssaetze war
+ueber die geprueften Cube-IDs nicht auffindbar, geraten wird nicht), Vergleichswert/hedonisch
+(Anker frisch seit 13.08.2026), Residualwertmethode (Methodenartikel, marktsensitive Inputs haengen
+an den beiden anderen Artikeln und sind dort geprueft).
+
+**Bewusst nicht angefasst:** T-Regelgeschoss (Fachentscheid Raphael), T-Umlaut (review-pflichtig,
+kein Massenersatz — neu geschriebener Text dieses Laufs verwendet echte Umlaute), Neurechnung der
+Richtwerte-Tabelle auf 1.358 (haengt an D15).
+
+**Werkzeug-Befund Station Revendo:** pdftotext/poppler fehlen; die PDF-Belege waren zunaechst
+unlesbar. Behelf: `pypdf` in einem Scratchpad-venv — flüchtig. Empfehlung `brew install poppler`;
+nicht selbst installiert (Systemaenderung).
+
+Geaenderte Dateien: `wiki/realwert-sachwert.md`, `wiki/lageklasse-landwertanteil.md`,
+`wiki/datenquellen-registry.md`, `wiki/wissensluecken.md` (D15 neu, D2 teilweise geschlossen,
+Run-Eintrag). Report:
+`outputs/2026-08-23_vertiefungslauf-2-teuerungsanker-ziw-bfs.md`.
+
 ## 2026-08-23 (Vertiefungslauf Kennwerte/Verfahren, Auftrag Raphael)
 
 Auftrag: die vier Verfahrensartikel (Realwert, Ertragswert/DCF, Vergleichswert/hedonisch,
