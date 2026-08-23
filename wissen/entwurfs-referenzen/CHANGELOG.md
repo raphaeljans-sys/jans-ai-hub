@@ -1,5 +1,85 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf Revendo) — Schema-Deckungs-Audit, Preisstand maschinenlesbar, Kostenblock des Schul-Sets gefüllt
+
+Fortsetzung desselben Tages, Auftrag Raphael: Parameter-Sets prüfen und ausbauen. Erst gemessen,
+dann ergänzt; jeder Schreibvorgang mit `validate.py --all` gegengelesen und **semantisch** gegen
+die Vorversion auf rein additiv geprüft (JSON-Baumvergleich — bei JSON verschiebt schon eine
+Reformatierung den Zeilen-Diff, ein `--numstat` allein trägt hier nicht).
+
+- **Schema-Deckungs-Audit:** feldweiser Abgleich Schema gegen alle drei Sets ergab **sieben
+  benutzte, aber nicht deklarierte Felder** (`scope_hinweis`, `flaechen.hinweis`,
+  `kosten_referenz.chf_m2_hnf_band`, `.chf_m2_hnf_bkp_scope`, `.hinweis`, `.quelle_kb_m2_nf`,
+  `.quelle_kb_nicht_anwendbar`). Sie validierten nur, weil `additionalProperties` offen steht —
+  ein konsumierendes Werkzeug hatte für sie keinen Vertrag, obwohl sie tragend sind
+  (`quelle_kb_nicht_anwendbar` verhindert im Healthcare-Set eine falsche Kostenquelle). Alle
+  sieben nachträglich deklariert. **`additionalProperties` bleibt bewusst offen** — ein Umstellen
+  auf `false` würde künftige Belegfelder blockieren.
+- **Konstruktionsbefund:** `kosten_referenz.chf_m3_gv_band` ist deklariert und in **keinem** Set
+  gesetzt — kein Jurybericht der Feeder-Quelle nennt ein Gebäudevolumen (dreimal unabhängig
+  belegt: Healthcare, Schulbau, Wohnungsbau). Das faktisch benutzte `chf_m2_hnf_band` war dagegen
+  undeklariert. Das Schema war am CHF/m³-Denken von `volumen_generator.py` gebaut, die
+  Quellenlage liefert m²- und Einheitswerte. Neu deklariert und in Gebrauch:
+  **`chf_m2_gf_einzelwert`** (getrennt vom Band, damit ein Einzelfall nicht als Band gelesen wird)
+  und **`chf_je_einheit`**. `chf_m3_gv_band` bleibt deklariert und leer, führend ist
+  `wissen/grobkosten/`.
+- **★ Preisstand-Lücke geschlossen.** Alle Kostenangaben trugen ihren Preisstand bisher **nur in
+  Prosa** — für eine KB, deren Zweck maschinenlesbare Parameter sind, ein echter Defekt. Neu:
+  **`kosten_referenz.preisstand`** (`jahr`, optional `stichtag`, `teuerungsanker`, `hinweis`,
+  optional `indexiert`), in allen drei Sets befüllt:
+  - `wohnen-mfh-urban`: **2018/2019** (Koch-Areal Zürich), Anker **ZIW** (regional passend),
+    Stützstellen 1036.8 / 1046.3 / 1210.4 (Basis 1939 = 100), 01.04.2026 ≈ 1221.3 verkettet über
+    die publizierte Jahresteuerung +0.9 % → Faktor **1.167–1.178**, indexiert rund
+    **4'090–4'600 CHF/m² HNF**. Das **Rohband 3'500–3'900 bleibt unverändert stehen**; der
+    indexierte Wert steht separat im Block `indexiert` als **gekennzeichnete Ableitung**.
+  - `healthcare-neubau-zh`: **2011–2025, gemischt**, **kein pauschaler Anker** — das Band spannt
+    über 14 Jahre und der führende Artikel führt die Objekte bereits teuerungsbereinigt
+    (Index-Stand ~115); wer das übersieht, indexiert doppelt. Genau das steht jetzt im Feld.
+  - `schule-volksschule-ch`: **2021** (m²-Wert) bzw. 2012–2026 (Einheitswerte), **Anker bewusst
+    offen** — St. Galler Objekt, der verifizierte Anker ist der Zürcher ZIW (regional unpassend),
+    und für den BFS-Baupreisindex liegt keine bis 2021 zurückreichende verkettete Reihe vor.
+    Indexierung wäre geraten und unterbleibt.
+- **Kostenblock des Schul-Sets war leer und ist gefüllt.** `schule-volksschule-ch.json` trug nur
+  `bkp_schwerpunkte` und `quelle_kb` — obwohl die im eigenen `quellen`-Feld zitierte Quelle
+  `wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md` (established, refuter-bestätigt)
+  Werte führt. Nachgetragen: **`chf_m2_gf_einzelwert: 4250`** (Kantonsschule Wattwil, 60 Mio.
+  Anlagekosten inkl. Umgebung exkl. MWST / 14'100 m² GF — abgeleiteter **Einzelwert aus einem
+  Kostenziel**, kein Ist-Wert, kein Band) und **`chf_je_einheit`** Klassenzimmer
+  **1.6–1.8 Mio. CHF** (Regelschul-Neubau, **Gesamtanlage** je Klassenzimmer). Preisstand-Nebenbefund:
+  der Bericht des Preisgerichts datiert **29.04.2021** — der Ordnername «2025» im Referenzarchiv
+  täuscht ein jüngeres Datum vor.
+- **Verdrahtungs-Befund präzisiert: die Brücke zum Generator ist BEIDSEITIG leer.** Der Eintrag
+  unten hält fest, `machbarkeit` referenziere die Sets mit 0 Treffern. Die Feldmessung zeigt:
+  **`geschosshoehe_m` ist in keinem einzigen Set gesetzt** — genau das Feld, das
+  `volumen_generator.py` lesen könnte. `gebaeude` enthält bei Healthcare und Wohnen
+  **ausschliesslich** `orientierung_regeln`, beim Schul-Set zusätzlich `geschosse_min/max` und
+  `erschliessung`. Selbst wenn `machbarkeit` die Sets morgen läse, käme in zwei von drei Fällen
+  kein Geometriewert an.
+- **Bewusst nicht gefüllt — Belegdisziplin:** (a) Schule: belegt ist die **lichte Raumhöhe
+  Klassenzimmer ≥ 3.00 m** (2206 Schöntal), neu als **`gebaeude.lichte_raumhoehe_m`** eingetragen
+  mit ausdrücklichem Vermerk, dass daraus **kein** `geschosshoehe_m` abgeleitet wird (dazwischen
+  liegen Decken- und Bodenaufbau; keine Quelle nennt eine Schul-Geschosshöhe). (b) Healthcare:
+  `kennwerte-healthcare.md` führt breit belegte Raster (7.5/8.0/8.1/8.4/10.8 m) und Geschosshöhen
+  (3.60 m Soll) — **alle aus Akutspital und Psychiatrie**; dieses Set ist auf Pflegeheim/
+  Alterszentrum begrenzt und B6 verbietet die Quer-Übertragung zwischen Subtypen. Nichts
+  übernommen. (c) Wohnen: ein einziger Rasterwert im Korpus (3.20 m Holzbau, «kein
+  Vergleichswert») — taugt nicht als typologisches `fassaden_raster_m`.
+- **Entscheidfrage an Raphael:** die Geometriefelder sind aus Wettbewerbs-Quellen nicht seriös
+  füllbar (Juryberichte belegen Regeln und Kosten, nicht Regelgeometrie). Entweder (a) eigene
+  JANS-Projektgeometrie als Quelle erschliessen, oder (b) entscheiden, dass die Sets bewusst keine
+  Geometrie liefern — dann gehörte `geschosshoehe_m` aus dem Schema gestrichen statt leer
+  mitgeführt. Beides Entscheid, keine Recherche.
+- **`wissen/wettbewerbs-dna` nur gelesen, nicht verändert** (Stationsteilung 23.08.2026: die KB
+  wird parallel auf einer anderen Station bearbeitet).
+- Validierung nach jedem Schritt: alle drei Sets **OK**. Ein Zwischenstand mit `stichtag: null`
+  wurde vom Validator korrekt abgewiesen und auf «Feld weglassen» korrigiert — eine Lücke wird
+  nicht als `null` geschrieben.
+
+Geänderte Dateien: `parameter-schema/entwurfs-parameter.schema.json` (12 neue Felddeklarationen,
+semantisch als rein additiv verifiziert), alle drei Sets in `wiki/parameter-sets/`,
+`wiki/parameter-sets/INDEX.md`, `wiki/QUESTIONS.md`. Report:
+`outputs/2026-08-23_vertiefungslauf-parameter-sets.md`.
+
 ## 2026-08-23 — Die sechs offenen Fragen (Parameter-Sets + Integration) beantwortet; Schema um `synobsis_slug` vertieft
 
 - **`wiki/QUESTIONS.md`, Abschnitte «Parameter-Sets» und «Integration» (6 Positionen):** alle

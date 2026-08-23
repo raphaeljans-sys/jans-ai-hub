@@ -148,9 +148,22 @@ dienen primaer der **Sachwert-Plausibilisierung** und der Einordnung der Bauqual
 >    Anpassungen eine durchgehende und vergleichbare lange Zeitreihe bestehen bleibt.» Die
 >    Verkettung ueber die Revisionen 2020 und 2025 hinweg ist damit die amtlich vorgesehene
 >    Lesart und kein Behelf dieser KB. **Rechnerische Fortschreibung** (als Verkettung
->    gekennzeichnet, **kein publizierter Wert**): 01.10.2025 ≈ 1'213.5 (Wissens-Chef Run 35)
->    × 1.006 ≈ **1'220.8** auf Basis 1939 = 100 → Faktor 2003→2026 ≈ **1.358**. Der amtliche
->    1939-Wert zum 01.04.2026 ist damit **nicht** belegt; die HEV-Schwyz-Reproduktion der
+>    gekennzeichnet, **kein publizierter Wert**): **01.04.2026 ≈ 1'221.3** auf Basis 1939 = 100
+>    → Faktor 2003→2026 ≈ **1.358**. Gerechnet aus dem amtlich publizierten 1939-Wert
+>    **01.04.2025 = 1210.4** mal der **publizierten Jahresteuerung +0.9 %** (100.6/99.7 = 1.009) —
+>    also **ein** publizierter Stand mal **eine** publizierte Rate, ohne Zwischenkettung.
+>
+>    > **Korrektur am selben Tag (Vertiefungslauf 3).** Die erste Fassung dieses Absatzes rechnete
+>    > ueber den Zwischenstand 01.10.2025 ≈ 1'213.5 (Wissens-Chef Run 35) × 1.006 und kam auf
+>    > **1'220.8**. Beide Wege sind zulaessig, der Unterschied betraegt 0.04 % und aendert den
+>    > gerundeten Faktor **1.358 nicht**. Massgebend ist ab jetzt der **kuerzere Weg (1'221.3)**,
+>    > weil er nur einen einzigen Kettenschritt enthaelt; `wissen/grobkosten` fuehrt seine
+>    > Faktorentabelle auf demselben Weg. **Zwei Zahlen fuer denselben Stichtag in zwei KBs sind
+>    > genau die Divergenz, vor der der Doppelfuehrungs-Befund oben warnt** — deshalb hier
+>    > vereinheitlicht statt stehengelassen. Der Weg ueber 1'213.5 bleibt als Gegenprobe
+>    > brauchbar (er bestaetigt die Groessenordnung), ist aber nicht mehr der gefuehrte Wert.
+>
+>    Der amtliche 1939-Wert zum 01.04.2026 ist damit **nicht** belegt; die HEV-Schwyz-Reproduktion der
 >    verketteten Reihe (Publikationsstand 01.01.2026, im Volltext geprueft 23.08.2026) endet bei
 >    **01.04.2025 = 1210.4** und bestaetigt zugleich beide strittigen Stuetzpunkte des
 >    Doppelfuehrungs-Befunds oben: **01.04.2003 = 899.2** und **01.04.2004 = 907.6**.
