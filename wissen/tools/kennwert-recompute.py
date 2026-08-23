@@ -145,22 +145,25 @@ PFEIL = re.compile(
 
 
 def pfeil_pruefung(text, rel, melden, tol):
-    dekl = {zahl(m.group(2)) for m in GV_DEKL.finditer(text)}
-    dekl = {d for d in dekl if d and d > 50}
-    if len(dekl) != 1:
+    """Deklariert ein Dokument mehrere Bezugsgroessen, wird gegen JEDE geprueft und nur
+    gemeldet, wenn die Behauptung gegen KEINE aufgeht. Ein zu strenger Guard (nur bei genau
+    einer Deklaration pruefen) haette den Reckholdern-Fall verschluckt — dort stehen zwei
+    Gebaeudevolumen im selben Dokument, und genau das ist Teil des Befunds."""
+    dekl = sorted({zahl(m.group(2)) for m in GV_DEKL.finditer(text)} - {None})
+    dekl = [d for d in dekl if d > 50]
+    if not dekl or len(dekl) > 4:
         return
-    gv = dekl.pop()
     for i, z in enumerate(text.split("\n"), 1):
         for m in PFEIL.finditer(z):
             kosten, soll = zahl(m.group(1)), zahl(m.group(2))
             if not kosten or not soll or kosten < 1000:
                 continue
-            ist = kosten / gv
-            if passt(ist, soll, tol):
+            if any(passt(kosten / gv, soll, tol) for gv in dekl):
                 continue
+            varianten = " · ".join(f"/{fmt(gv)} = {fmt(kosten / gv)}" for gv in dekl)
             melden(rel, i,
-                   f"Bezugsgroesse im Dokument: {fmt(gv)} m3 · {fmt(kosten)} / {fmt(gv)} = {fmt(ist)}"
-                   f" — behauptet {fmt(soll)}  (Abweichung {abs(ist / soll - 1) * 100:.1f} %)"
+                   f"behauptet {fmt(soll)} je m3 — geht gegen KEINE der im Dokument genannten "
+                   f"Bezugsgroessen auf: {fmt(kosten)} {varianten}"
                    f"   \u00ab{m.group(0).strip()[:70]}\u00bb")
 
 

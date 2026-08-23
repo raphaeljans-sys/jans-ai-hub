@@ -1,5 +1,42 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 11 Revendo) — neues Prüfwerkzeug `kennwert-recompute.sh`
+
+Die heute gewonnene Prüfregel — `Kosten ÷ Bezugsgrösse` selbst nachrechnen und gegen den
+behaupteten Kennwert halten — ist als Werkzeug mechanisiert: **`wissen/tools/kennwert-recompute.sh`**
+(dünner Wrapper) plus **`kennwert-recompute.py`** (Kern), dazu ein neues
+**`wissen/tools/README.md`**, das alle drei Prüfwerkzeuge des Wissens-Layers gegeneinander stellt
+(Form · Zugang · Inhalt).
+
+**Es prüft dreierlei:** Rechenbehauptungen im Fliesstext (`a / b = c`), **Markdown-Tabellen**
+(Kostenspalte ÷ Mengenspalte gegen die Je-Einheit-Spalte) und **Pfeil-Behauptungen**
+(`1'903'000 → CHF 698.-/GV`) gegen die im selben Dokument deklarierten Bezugsgrössen.
+
+**Abnahmetest bestanden:** es findet **beide** Fehler wieder, die am selben Tag von Hand entdeckt
+wurden — die Vorlagen-Kontamination in `grobkosten` (Reckholdern, +59 %) und die Einzelzelle in
+`immobilienbewertung` (Lanzeln, 12.6 %) — bei **null Fehlalarmen** im Volllauf über **alle**
+Wissensbasen.
+
+**Zwei Entwurfsfehler, die den Test erst brauchbar gemacht haben, sind im README festgehalten:**
+der erste Entwurf meldete **Prozentrechnungen** als 99-%-Abweichung (`129'000 / 3'100'000 = 4.2`
+ist eine Rendite, kein Quotient) — jetzt werden Prozent- und Promille-Lesarten erkannt; und ein zu
+strenger Guard (nur prüfen, wenn ein Dokument **genau eine** Bezugsgrösse deklariert) hätte
+ausgerechnet den Reckholdern-Fall verschluckt, weil dort **zwei** Volumen im selben Dokument
+stehen — und genau das ist Teil des Befunds. Neu wird gegen **jede** deklarierte Grösse geprüft
+und nur gemeldet, wenn es gegen **keine** aufgeht.
+
+**Bewusst anders als die beiden Schwester-Werkzeuge:** die setzen den Hub-Pfad fest auf das NAS und
+messen deshalb nie die lokale Arbeitskopie. Das neue Werkzeug nimmt den Hub, **in dem es selbst
+liegt**, lässt ihn per `--hub` überschreiben und **schreibt ihn in die erste Zeile der Ausgabe**.
+Ein Umbau der beiden älteren auf dasselbe Muster wäre einzeilig, greift aber in Werkzeuge ein, die
+alle Stationen aufrufen — **nicht selbst gemacht**, Entscheid Raphaels; im README als Vorschlag
+festgehalten.
+
+**Für diese KB meldet es im Volllauf **keine Befunde**; mit `--raw` die zwei bekannten Reckholdern-Zeilen, die den Anlass gaben.**
+
+Geänderte Dateien: `wissen/tools/kennwert-recompute.sh` (neu), `wissen/tools/kennwert-recompute.py`
+(neu), `wissen/tools/README.md` (neu).
+
 ## 2026-08-23 (Vertiefungslauf 10 Revendo) — Regel-Entwurf ausformuliert statt nur vorgeschlagen
 
 Der Vorschlag aus Lauf 7 (Scope-Disziplin für BKP-Kostenzahlen) lag bisher als Idee vor. Er ist

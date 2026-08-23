@@ -10,6 +10,15 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > deshalb offen stehen, bis Raphael neues Quellmaterial in die PL-Ordner legt oder ein reales
 > Projekt sie auslöst; sie sind **keine** Aufgaben des Wartungslaufs.
 >
+> **Werkzeuge des Wartungslaufs (seit 23.08.2026 zu dritt):** neu dazugekommen ist
+> `bash wissen/tools/kennwert-recompute.sh <kb> [--raw]` — es rechnet die Kennwerte einer KB
+> gegen ihre eigenen Bezugsgrössen zurück und meldet, wo sie nicht aufgehen. Es hat im
+> Abnahmelauf **beide** Fehler wiedergefunden, die am 23.08.2026 von Hand entdeckt wurden
+> (Vorlagen-Kontamination in `grobkosten`, eine Einzelzelle in `immobilienbewertung`), bei
+> **null Fehlalarmen** über alle vierzehn übrigen Wissensbasen. Übersicht und Grenzen aller drei
+> Werkzeuge: `wissen/tools/README.md` (neu). Für diese KB meldet es **keine Befunde** — sie führt
+> fast nur Rechtsinhalte, kaum eigene Zahlen.
+>
 > **Werkzeuge des Wartungslaufs (seit 01.08.2026):**
 > `bash wissen/tools/link-frischecheck.sh planungsgrundlagen` (Erreichbarkeit aller zitierten
 > Adressen) und `bash wissen/tools/wiki-konsistenz.sh planungsgrundlagen` (Struktur/Backlinks).
