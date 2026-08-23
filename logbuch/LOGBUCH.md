@@ -47,6 +47,25 @@ alten Max Plan (Register-Zeilen 735 und 1714 ff.). Keine neue Pendenz angelegt, 
 bereits. Bei GRÜN sieht der Check keinen Registereintrag vor; nur gelesen und rapportiert, keine
 Änderung an Takten, Flags oder Runner-Zuständen.
 
+**Nachtrag aus dem Commit-Schritt, betrifft alle schreibenden Loops: `nas-commit-now.sh` hat
+keinen LAN-Fallback.** Der erste Commit-Versuch scheiterte mit `Could not resolve hostname
+diskstation918.tail8265aa.ts.net` (rc=255). Ursache gemessen: **Tailscale ist gestoppt**
+(`tailscale status` sagt «Tailscale is stopped»), während das NAS im LAN einwandfrei erreichbar
+ist (`ping 192.168.1.10` OK). Das Script trägt den Tailscale-Namen als einzigen Default
+(`NAS_SSH="${JANS_NAS_SSH:-raphaeljans@diskstation918.tail8265aa.ts.net}"`, Zeile 23) — anders als
+`ssh mini`, das seit 30.07. einen Dual-Pfad LAN vor Tailscale fährt. Der Commit gelang im zweiten
+Anlauf über den vom Script selbst vorgesehenen Override `JANS_NAS_SSH=raphaeljans@192.168.1.10`.
+
+Das ist mehr als ein Einzelfall dieses Laufs: **solange Tailscale steht, fällt jeder Zuruf-Commit
+im Büro-LAN in den Fallback «der 15-Min-Cron fängt die Edits auf»** — er scheitert also nicht laut,
+sondern verzögert still. Für Läufe, die nach dem Commit im Ziel verifizieren, ist das sichtbar;
+für alle anderen nicht. **Bewusst nicht selbst behoben:** dieser Check ist read-only («nur lesen
+und rapportieren»), und ein Dual-Pfad im kanonischen Committer ist eine Infrastruktur-Änderung,
+die nicht nebenbei in einen Abo-Check gehört. Naheliegende Behebung wäre die Match-exec-Logik von
+`ssh mini` auf `nas-commit-now.sh` zu übertragen (LAN 192.168.1.10 mit 1-s-Probe, sonst Tailscale
+100.92.246.28) — Entscheid Raphael. Zweite, unabhängige Frage: warum Tailscale auf dem Mac Mini
+gestoppt ist, der als Always-On-Station gilt.
+
 ## Hub-Chef 23.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, Jegen-Versand terminiert (A7)
 
 Signale eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, der Radar-Abschnitt
