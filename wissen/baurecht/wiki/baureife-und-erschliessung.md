@@ -272,14 +272,15 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   (Art. 10/11 GSchG); eine **Baubewilligung** für Neu-/Umbauten ergeht nur bei gewährleisteter
   Abwasserbeseitigung — über die **Kanalisationsanschlussbewilligung** der Gemeinde (Art. 17 GSchG,
   S. 766). Die Gemeinden führen einen **Generellen Entwässerungsplan (GEP)** (§ 8 KGSchV —
-  ⚠ **Fassungsstand, Buch-Run 71**: die **KGSchV (LS 711.11) ist per 01.01.2022 aufgehoben**,
-  amtlich belegt an der zhlex-Erlassseite LS 711.11 der Staatskanzlei [Erlassdatum 22.01.1975,
-  Inkraftsetzung 01.07.1975, **Aufhebungsdatum 01.01.2022**; letzte Fassung Nachtrag 099, «in
-  Kraft bis 01.01.2022»]. Der Buchtext [6. Aufl. 2019] zitiert also **totes Recht**. Welcher
-  Erlass die KGSchV per 01.01.2022 abgelöst hat, ist **noch nicht belegt** — die WsV
-  [LS 724.11, RRB 02.07.2025, in Kraft 01.06.2026, OS 81, 182] enthält **keine**
-  Aufhebungsklausel zur KGSchV, was mit dem vier Jahre früheren Wegfall konsistent ist.
-  Offen geführt in `QUESTIONS.md`, nicht geraten). Bei
+  ✅ **Fassungsstand korrigiert 2026-08-23 (frühere Fehlannahme Buch-Run 71):** die **KGSchV
+  (LS 711.11) blieb entgegen der früheren Annahme bis 01.06.2026 in Kraft** — Nachtrag 099 lief
+  nur bis 01.01.2022, danach folgten **Nachtrag 115 und Nachtrag 133** bis zur Aufhebung durch
+  **OS 81, 144** per 01.06.2026 (zhlex-Erlassseite LS 711.11, Staatskanzlei, Versionstabelle). Der
+  Buchtext (6. Aufl. 2019) zitierte damit zum Zeitpunkt seines Erscheinens **noch geltendes Recht**.
+  Nachfolgeerlass ist die **Wasserverordnung WsV** (LS 724.11, RRB Nr. 158/2026 vom 05.03.2026, in
+  Kraft seit 01.06.2026) — lückenloser Übergang am selben Stichtag, keine vierjährige
+  Regelungslücke (die ursprüngliche KB-Annahme war ein Fehlschluss aus dem «gültig bis
+  01.01.2022»-Vermerk der Fassung Nachtrag 099, ohne die Nachfolgenachträge zu beachten). Bei
   Erstellung/wesentlicher Änderung ist Meteor-/unverschmutztes Wasser vom verschmutzten **getrennt**
   abzuleiten (§ 232 PBG / Art. 11 GSchG, S. 766). Finanzierung über Anschluss-/Kanalisationsgebühren
   nach Verursacher-, Äquivalenz- und Kostendeckungsprinzip (S. 767 ff.).

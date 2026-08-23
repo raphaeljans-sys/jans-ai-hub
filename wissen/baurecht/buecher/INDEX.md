@@ -234,8 +234,9 @@ Trainingslauf (`../training/PROGRAMM.md`).
   Schlauch / einmaschig 60 m** § 16 FeuerwehrV; Grundwasserschutzzonen S1/S2/S3), **Energieversorgung**
   (zwingende Erschliessungsvoraussetzung Art. 19 RPG; Energieplanung §§ 8a/9-13 EnerG), **12.5
   Abwasserbeseitigung** (Trenn-/Mischsystem § 232 PBG/Art. 11 GSchG, **Kanalisationsanschluss-
-  bewilligung** Art. 17 GSchG, GEP § 8 KGSchV **[KGSchV LS 711.11 per 01.01.2022 aufgehoben,
-  Nachfolgeerlass noch nicht belegt — Buch-Run 71]**, Anschlussgebuehren). 14 Doppelseiten. Status:
+  bewilligung** Art. 17 GSchG, GEP § 8 KGSchV **[korrigiert 2026-08-23: KGSchV LS 711.11 blieb
+  entgegen frueherer Fehlannahme bis 01.06.2026 in Kraft, dann aufgehoben durch OS 81, 144;
+  Nachfolgeerlass WsV LS 724.11, in Kraft seit 01.06.2026]**, Anschlussgebuehren). 14 Doppelseiten. Status:
   `emerging` (Rest 12.5 Gebuehren + Abfall/Kehricht + Altlasten Art. 32c USG, S. 770-809 → Teil 4
   offen). Speist [[baureife-und-erschliessung]].
 - [[12-baureife-teil4-gebuehren-abfall-altlasten]] — Kap. 12 Teil 4 / **Schluss** (S. 770-807):

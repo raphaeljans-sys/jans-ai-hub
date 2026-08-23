@@ -189,7 +189,13 @@ Nachbar-KB (Cross-KB-Output, keine Ausnahme von der Ziel-KB-Zuordnung des Korpus
       `1527_EH Europe GmbH` (229 Dateien), `1012_Ardez` (82 Dateien), `1011_Lorrainestr_4`
       (71 Dateien) — Reihenfolge nach Dateizahl ist kein Ertragsindikator, Triage Phase 1
       klärt das erst.
-- [ ] Triage Phase 1 (Haiku) je inventarisiertem Projekt/Ordnerklasse.
+- [x] **Triage Phase 1 abgeschlossen (23.08.2026):** alle 706 verbliebenen offenen Zeilen
+      klassifiziert (P1/P2/P3/`-`, acht parallele Haiku-Subagenten je Zeilenbereich, sequenziell
+      angewendet). Inventar-Endstand: 813 Zeilen, 0 offen, 632 `[-]` uebersprungen, 179 `[t]`
+      (62 P1, 91 P2, 26 P3), 2 bereits `[x]` destilliert. Schwerpunkt P1: `1318_Lorraine_Kueche`
+      (48/62) mit dichter Kosten-Ist/Soll- und Offertenpruefungs-Kette ueber mehrere Gewerke.
+      Bericht: `wissen/projekt-lessons/outputs/2026-08-23_triage-buero-projekte-phase1-vollstaendig.md`,
+      Protokoll: `training/buero-projekte-triage-20260823-1546.md`.
 - [ ] Erster Destillat-Lauf Phase 2 (Sonnet) auf dem ergiebigsten bereits inventarisierten
       Projekt mit echtem Entscheidungs-/Konfliktgehalt.
 - [ ] Parallel dazu, sobald genug Material aus mehreren Projekten vorliegt: Entwurf

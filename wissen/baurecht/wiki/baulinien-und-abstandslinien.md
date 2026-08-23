@@ -133,6 +133,22 @@ Regelabstand des § 265 PBG:
 - **Balkon/Vorsprung:** keine eigene Erleichterung in § 265 PBG, aber § 260 Abs. 3 PBG gilt
   sinngemäss (VB.2013.00324). Der frühere § 51 Abs. 2 PBG («subsidiärer 6-m-Abstand») ist der
   kommunale Auffangtatbestand zu diesem System.
+- **Schmale Wege ohne Baulinie, Grenzabstand über den Weg hinweg — geklärt 2026-08-23
+  (VGr ZH VB.2005.00017 vom 01.06.2005, publ. BEZ 2006 Nr. 7, RB 2005 Nr. 71/72,
+  Volltext entscheidsuche.ch):** Der 3,5-m-Wegabstand nach § 265 Abs. 1 PBG «tritt generell an
+  die Stelle der gegenüber Nachbargrundstücken zu beachtenden Grenzabstände» — gilt aber nur bei
+  Wegen **ab ca. 3 m Breite**. Das Gericht präzisiert wörtlich: «Die Praxis, wonach der
+  Grenzabstand zum gegenüberliegenden Grundstück auch über öffentliche Wege, die nicht durch
+  Baulinien gesichert sind, hinweg einzuhalten sei, wollte das Gericht somit auf Wege beschränken,
+  deren Breite weniger als 3 m beträgt.» Bei schmaleren Wegen gilt der **ordentliche
+  Grenzabstand über den Weg hinweg, ohne Mehrlängenzuschlag, gedeckelt auf höchstens 6,5 m**
+  («Die Rechtsprechung ist daher zu präzisieren und festzuhalten, dass über einen nicht durch
+  Baulinien gesicherten, öffentlichen Weg zum gegenüberliegenden Grundstück der Grenzabstand,
+  höchstens aber 6,5 m, einzuhalten ist.»). Herleitung der 6,5 m: Gleichstellung mit dem Fall
+  eines 3 m breiten Wegs (3,5 m Wegabstand + 3 m Wegbreite = 6,5 m) — schmalere Wege sollen das
+  gegenüberliegende Grundstück nicht besserstellen. Deckt die im Thalwiler Merkblatt über
+  Grenz-/Weg-/Strassenabstand (20.01.2022) zitierten Zahlen vollständig ab — damit nicht mehr nur
+  merkblatt-, sondern urteilsbelegt.
 
 → Details + Fallrecht: [[15-lage-von-gebaeuden-teil2b]] (Buch Bd 2 S. 1048-1061).
 

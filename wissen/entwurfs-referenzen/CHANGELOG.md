@@ -1,5 +1,52 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 — Die sechs offenen Fragen (Parameter-Sets + Integration) beantwortet; Schema um `synobsis_slug` vertieft
+
+- **`wiki/QUESTIONS.md`, Abschnitte «Parameter-Sets» und «Integration» (6 Positionen):** alle
+  sechs gegen den tatsächlichen Code-/KB-Bestand geprüft und beantwortet, nicht geraten:
+  1. Rendering-Vorgaben (Kamerawinkel/Lichtstimmung) gehören NICHT ins Parameter-Set — Beleg
+     `skills/volumenstudie/tools/c4d_szene.py` (Kamera/Licht werden pro Lauf aus der Geometrie
+     berechnet bzw. im Code gesetzt) und `axo_render.py` (`--azimut`/`--elevation` sind bereits
+     eigene, situative CLI-Flags, nicht typologiegebunden).
+  2. Fassaden-Granularität ist bereits korrekt gelöst — Beleg: `healthcare-neubau-zh.json`
+     mischt Material und belegte Detaillierungsregeln (Fensteranteil-Schwellen), das Schema
+     schränkt `fassade` nicht auf reine Materialnamen ein; die Belegpflicht selbst reguliert
+     die Granularität.
+  3. Kein Sanierungs-/Umbau-Set vorgezogen — Beleg: die Feeder-Quelle `wissen/wettbewerbs-dna`
+     enthält 0 Treffer für „sanierung"/„umbau" (ausschliesslich Neubau-Wettbewerbe); Sanierung
+     wird bereits von `kostenschaetzung` (Reduktionsfaktoren) und `ankaufspruefung` (CapEx
+     Bestand) geführt, die kein geometrisches Parzelle→Volumen-Set brauchen.
+  4. Kein `--parameter-set`-Flag in `volumen_generator.py` — Beleg: das Skript kennt nur vier
+     rein geometrische Variantenschlüssel und deckt laut Docstring bewusst keine Fachlogik ab;
+     eigentlicher Befund ist, dass `machbarkeit`/`machbarkeit-studio` diese Parameter-Sets
+     heute mit 0 Treffern gar nicht referenzieren — die Verdrahtung fehlt im aufrufenden Skill,
+     nicht im Generator.
+  5. Rückkopplung läuft über Output-Compounding (Rule `wissens-ruecklauf.md` +
+     `wissens-bibliothekar.md` + diese `CLAUDE.md` Abschnitt «Compounding-Logik»), bereits
+     mehrfach an dieser KB durch `wissens-chef`-Läufe vorgemacht (CHANGELOG Run 15/16/27/35);
+     offene Lücke ist nicht der Mechanismus, sondern dass die Rückkopplung mangels
+     Konsument (Punkt 4) noch nie aus einem echten Machbarkeits-Lauf zurückgeflossen ist.
+  6. Kein eigener Scheduled Task nötig — zwei bestehende generische Tasks
+     (`wettbewerbs-dna-training`, wöchentlich; `wissens-chef`, täglich) bedienen diese KB
+     bereits de facto; sie taucht in `logbuch/rollen/rollen-map.tsv` konsequent nicht als
+     eigener Registereintrag auf.
+- **`parameter-schema/entwurfs-parameter.schema.json`:** optionales Feld `synobsis_slug` in
+  `referenz_projekte.items.properties` ergänzt — nachgetragener Bau-Punkt aus Wissens-Chef Run
+  15 (25.07.2026, CHANGELOG-Eintrag unten), bis heute offen geblieben. Rein additiv, keine
+  bestehenden Felder verändert.
+- **`wiki/parameter-sets/healthcare-neubau-zh.json`:** `synobsis_slug: "Boltshauser_Architekten"`
+  beim Referenzprojekt Alterszentrum Hottingen ergänzt — gegen `wissen/architekten-synobsis/
+  catalog/Boltshauser_Architekten.json` (Feld `slug`) verifiziert, eindeutiger Treffer.
+  **Bewusst NICHT ergänzt:** `wohnen-mfh-urban.json` (Kandalama/Brisgi-Areal, „Müller Sigrist
+  Architekten / Meier Leder Architekten" — im Katalog nur `Mueller_Sigrist.json` vorhanden, für
+  Meier Leder kein Eintrag; ein Teil-Slug hätte einen vollständigeren Treffer vorgetäuscht) und
+  „Harder Spreyermann Architekten" (Pinarello/Seebahn-Höfe, kein Katalog-Treffer).
+- Beide Parameter-Sets nach den Edits mit `validate.py --all` geprüft: alle drei weiterhin
+  schema-valide (OK). `git diff --numstat` nach jedem Schreibvorgang geprüft: rein additive
+  Zeilen, keine Löschung fremden Inhalts.
+- Keine neue Feldrecherche, keine geschätzten Kennwerte — reine Klärung/Dokumentation
+  bestehender Architektur-Entscheide plus eine verifizierte Katalog-Verlinkung.
+
 ## 2026-08-18 (Nachtschicht Mac Mini) — Erster Artikel in `entwurfsprinzipien/`: Donald Judd, Trennung Kunst/Funktion
 
 - **Neuer Artikel `wiki/entwurfsprinzipien/trennung-kunst-funktion-judd.md`:** kompiliert aus

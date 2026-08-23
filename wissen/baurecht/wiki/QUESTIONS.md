@@ -120,14 +120,19 @@ Zu klären an einem Entscheid oder einer Auskunft des ARE/der Baudirektion. Die 
 Einzelfall gewachsener Boden/Gebäudehöhe (alt) oder massgebendes Terrain/Fassadenhöhe
 (harmonisiert) gilt → [[abstaende-und-hoehen]].
 
-**T-10 · Wegabstand 3,5 m und VB.2005.00017 — nicht am Urteilstext verifiziert.** Das
-Thalwiler Merkblatt über den Grenz-/Weg- und Strassenabstand (20.01.2022) unterscheidet bei
-Wegen ohne Baulinie: ab 3 m Breite gilt ein Wegabstand von **3,5 m**; bei schmaleren Wegen der
-ordentliche Grenzabstand ohne Mehrlängenzuschlag über den Weg hinaus, **maximal 6,5 m**, unter
-Berufung auf **VB.2005.00017**. Beide Zahlen sind bislang nur merkblatt-belegt; eine
-Gerichtsentscheid-Datenbank steht der KB weiterhin nicht zur Verfügung (gleiche Lage wie bei
-BEZ 1989 Nr. 21 / RB 1991 Nr. 84). Nicht als gesicherte Regel zitieren, bis der Urteilstext
-oder eine Norm-Grundlage vorliegt.
+**T-10 · ✅ ERLEDIGT 2026-08-23 — Wegabstand 3,5 m und VB.2005.00017 am Urteilstext verifiziert.**
+Volltext frei zugänglich über entscheidsuche.ch (VGr ZH, 1. Abteilung/1. Kammer, Endentscheid
+01.06.2005, VB.2005.00017, rechtskräftig, publ. BEZ 2006 Nr. 7, RB 2005 Nr. 71/72). Beide vom
+Thalwiler Merkblatt (20.01.2022) zitierten Zahlen sind wörtlich bestätigt: Wegabstand 3,5 m
+(§ 265 Abs. 1 PBG) gilt bei Wegen ab ca. 3 m Breite; bei schmaleren Wegen gilt der ordentliche
+Grenzabstand über den Weg hinweg, ohne Mehrlängenzuschlag, gedeckelt auf höchstens 6,5 m. Wörtliche
+Zitate und Fundstelle siehe [[baulinien-und-abstandslinien]], Abschnitt 2. Damit nicht mehr nur
+merkblatt-, sondern urteilsbelegt.
+
+**Ursprüngliche Frage (referenzhalber).** Das Thalwiler Merkblatt über den Grenz-/Weg- und
+Strassenabstand (20.01.2022) unterscheidet bei Wegen ohne Baulinie: ab 3 m Breite gilt ein
+Wegabstand von 3,5 m; bei schmaleren Wegen der ordentliche Grenzabstand ohne Mehrlängenzuschlag
+über den Weg hinaus, maximal 6,5 m, unter Berufung auf VB.2005.00017.
 
 ## 2026-08-03 (Buch-Run 72, Korpus-Batch T1) — revBZO Thalwil: Verfahrensstand und ein Zitat-Flag
 
@@ -140,6 +145,11 @@ Kraft seit 31.08.2024**. Damit gilt die alte BZO, überlagert von der negativen 
 ist der ganze Artikel Abschnitt 4-6 überholt** und die revBZO wird zur allein massgebenden
 Fassung. Prüfweg: thalwil.ch/bzorevision und Gesetzessammlung SR 700.1. Kein Ratedatum
 setzen — das Inkrafttreten hängt an Rekursen, deren Zahl nicht publiziert ist.
+⚠ **Nachgeprüft 2026-08-23, unverändert offen:** thalwil.ch/bzorevision/71413, die
+Gesetzessammlung SR 700.1 und das Amtsblatt Kanton Zürich zeigen keinen neuen Stand — weiterhin
+keine publizierte Genehmigung der Baudirektion, kein Inkrafttretensdatum. Massgebend bleibt
+unverändert die alte BZO (11.12.2019, in Kraft seit 31.08.2024). Weiterhin zu überwachen, nicht
+zu erraten.
 
 **T-02 · Gibt es eine aktualisierte Vorwirkungs-Synopse nach der Festsetzung?**
 Die ausgewertete Fassung datiert vom **05.09.2025**, also aus der Zeit **vor** der
@@ -389,20 +399,31 @@ Chef-Bericht übernommene Aufhebung des EG GSchG ist damit KB-intern belegt.
    Grundbuchmeldung nach *Landumlegung*. Eine Entsprechung für die Schutzzonen-Anmerkung ist
    nicht auffindbar.
 
-## 2026-08-03 (Buch-Run 71) — KGSchV (LS 711.11) ist aufgehoben; Nachfolgeerlass noch unbelegt
+## 2026-08-03 (Buch-Run 71) — ✅ ERLEDIGT 2026-08-23: KGSchV war NICHT bereits 2022 aufgehoben — Prämisse korrigiert
 
-**Bring-Schuld aus dem PROGRAMM-Tracker beantwortet, aber nur zur Hälfte.** Die zhlex-Erlassseite
-der Staatskanzlei zu LS 711.11 weist amtlich aus: Erlassdatum 22.01.1975, Inkraftsetzung
-01.07.1975, **Aufhebungsdatum 01.01.2022**; letzte Fassung Nachtrag 099, «in Kraft bis
-01.01.2022». Die **KGSchV ist damit seit dem 01.01.2022 totes Recht** — über vier Jahre vor dem
-EG GSchG (01.06.2026). Alle KGSchV-Zitate der KB (§ 8 GEP, § 9 Abs. 3, § 9a, § 35, § 36) tragen
-jetzt einen Aufhebungsvermerk.
+**Korrektur der ursprünglichen Prämisse.** Der Buch-Run-71-Befund war ein Fehlschluss: Die
+zhlex-Versionstabelle zu LS 711.11 zeigt, dass Nachtrag 099 nur **bis** 01.01.2022 galt, danach
+aber **Nachtrag 115 und Nachtrag 133** folgten — die KGSchV blieb durchgehend in Kraft und wurde
+erst **per 01.06.2026 durch OS 81, 144 aufgehoben**, zeitgleich mit dem EG GSchG. Der «vier Jahre
+frühere Wegfall» existierte nicht; es war ein Lesefehler des «gültig bis 01.01.2022»-Vermerks der
+damaligen Fassung, ohne die Nachfolgenachträge zu prüfen (gleiche Fehlerfamilie wie die
+Nachtragsnummer-Drift-Fälle in dieser KB).
 
-**Offen:** welcher Erlass die KGSchV per 01.01.2022 abgelöst hat. Die WsV (LS 724.11) enthält
-**keine** Aufhebungsklausel zur KGSchV — konsistent mit dem vier Jahre früheren Wegfall, aber
-damit ohne Nachfolgezeiger für die Periode 2022–2026. Indiz, nicht Beleg: die Materie des
-§ 35 KGSchV (Erdwärmenutzung) steht heute in **§ 92 WsV** («Einer Bewilligung bedürfen: a. der
-Entzug von Erdwärme, b. der Eintrag von Wärme in das Erdreich» — am Volltext bestätigt).
+**Nachfolgeerlass:** Wasserverordnung WsV (LS 724.11), RRB Nr. 158/2026 vom 05.03.2026 (offizielle
+Kantonsmeldung «Neue Inkraftsetzung von Wassergesetz und Wasserverordnung»), in Kraft seit
+01.06.2026 — lückenloser Übergang am selben Stichtag wie EG GSchG/WsG. Passt konsistent zum
+bereits belegten Indiz, dass § 35 KGSchV (Erdwärmenutzung) materiell in § 92 WsV weiterlebt.
+
+**Korrigiert:** alle sieben Fundorte mit dem fehlerhaften «01.01.2022 aufgehoben»-Warnvermerk —
+`wiki/baureife-und-erschliessung.md`, `buecher/INDEX.md`, `buecher/band-2/12-baureife-teil3-
+versorgung-entsorgung.md` (3×), `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`,
+`buecher/band-2/17-haustechnische-anlagen-teil3.md`.
+
+**Ursprünglicher Befund (referenzhalber, überholt).** Bring-Schuld aus dem PROGRAMM-Tracker
+beantwortet, aber nur zur Hälfte. Die zhlex-Erlassseite der Staatskanzlei zu LS 711.11 weist
+amtlich aus: Erlassdatum 22.01.1975, Inkraftsetzung 01.07.1975, «Aufhebungsdatum 01.01.2022»;
+letzte Fassung Nachtrag 099, «in Kraft bis 01.01.2022». Die KGSchV sei damit seit dem 01.01.2022
+totes Recht — über vier Jahre vor dem EG GSchG (01.06.2026).
 Nächster Schritt: OS-Band der Jahre 2021/2022 nach dem aufhebenden RRB durchsuchen.
 
 ## 2026-08-03 (Buch-Run 71) — ✅ ERLEDIGT 2026-08-23: Ist SIA 380/1 noch «teilverbindlich»?

@@ -3,6 +3,20 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Triage Phase 1 des Korpus `buero-projekte` vollständig abgeschlossen
+
+- **Getan:** Alle 706 verbliebenen offenen Inventarzeilen (Sektion+Dateiname-basierte
+  Klassifikation P1/P2/P3/`-`, keine Quelldateien geöffnet) trianiert. Inventar-Stand danach:
+  813 Zeilen, 0 offen, 632 übersprungen, 179 für Phase 2 vorgemerkt (62 P1, 91 P2, 26 P3),
+  2 bereits destilliert (Run 1, 17.08.). Report: `outputs/2026-08-23_triage-buero-projekte-phase1-vollstaendig.md`.
+- **Kein neuer Wiki-Artikel** — reine Triage-Stufe, kein Destillat. Nächster Lauf: Phase 2
+  auf den 62 P1-Zeilen, Schwerpunkt `1318_Lorraine_Kueche` (48/62 P1-Treffer, dichte
+  Kosten-Ist/Soll- und Offertenprüfungs-Kette).
+- **Zwischenfall dokumentiert, nicht hier:** ein Sync-Konflikt beim Anwenden der Triage
+  (Schreibung versehentlich gegen den SSD-Klon statt NAS-Quelle) hinterliess kurzzeitig
+  Git-Konfliktmarker in der Inventar-Datei — vollständig repariert, siehe
+  `rules/betrieb-chronik.md` Eintrag 260823c.
+
 ## 2026-08-17 (Wissens-Chef Run 35, Cross-KB) — beide neuen Lessons sind in den Skills angekommen
 
 - **Befund:** `grep` ueber **alle** `skills/*/SKILL.md` nach «projekt-lessons» ergab **null

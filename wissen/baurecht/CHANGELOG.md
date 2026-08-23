@@ -3,6 +3,42 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (Wissens-Chef, QUESTIONS.md-Abarbeitung) — acht offene Fragen bearbeitet, davon sieben geschlossen
+
+Systematische Abarbeitung von `wiki/QUESTIONS.md` (Rule 260629, Recherche-Agenten parallel,
+je Frage am amtlichen Volltext/Buch-Destillat verifiziert, nichts geraten). Details je Frage
+direkt in QUESTIONS.md dokumentiert; hier nur die Kurzfassung:
+
+- [fix] **KGSchV (LS 711.11) war NICHT bereits 2022 aufgehoben** — Korrektur einer Fehlannahme aus
+  Buch-Run 71: Nachtrag 099 lief nur bis 01.01.2022, danach folgten Nachtrag 115/133 bis zur
+  tatsächlichen Aufhebung durch OS 81, 144 per 01.06.2026 (Nachfolge: WsV LS 724.11). Sieben
+  Fundorte mit dem fehlerhaften Vermerk korrigiert (`wiki/baureife-und-erschliessung.md`,
+  `buecher/INDEX.md`, `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` 3×,
+  `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`,
+  `buecher/band-2/17-haustechnische-anlagen-teil3.md`).
+- [fix] **T-09 (BBV-I/EnerG-Novelle 2021):** fünf veraltete Fundorte («80-%-Riegel § 10a EnerG»,
+  «§ 48 BBV I» als geltend, falsche §§-Zuordnung EnerG) korrigiert in
+  `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`,
+  `buecher/band-1/06-baurechtliches-verfahren.md` (2×),
+  `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md`,
+  `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`.
+- [add] **WsG Wasserversorgung §§ 93-101 + § 178 WsV** destilliert und in
+  `wiki/baureife-und-erschliessung.md` eingearbeitet (Bezugs-/Anschlusspflicht,
+  Regenwassernutzung, Finanzierung).
+- [add] **Absturzsicherung vs. Bestandesschutz (§ 357 PBG vs. 15-%-Richtlinie Stadt Zürich):**
+  Verhältnis geklärt und in `wiki/ausnahmebewilligung-und-bestandesschutz.md` eingearbeitet.
+- [add] **SIA 380/1 Teilverbindlichkeit heute:** Verweiskette EnerG § 10a → BBV I § 47a → WDV →
+  SIA 380/1:2016 geklärt (Cross-KB-Beleg `energie`), eingearbeitet in
+  `wiki/grundlagen-planungs-baurecht.md`.
+- [add] **Wegabstand VB.2005.00017:** Urteilstext gefunden (entscheidsuche.ch), wörtlich in
+  `wiki/baulinien-und-abstandslinien.md` eingearbeitet.
+- [fix] **§ 15 Abs. 3 / § 36 Abs. 2 EG GSchG:** neuer amtlicher Volltext `raw/260823_amtlich_zh_eg-gschg.md`
+  beschafft, § 15 Abs. 3 geklärt (Kanalisations-Nebenleitungen, Nachfolge §§ 53/56 WsG), § 36 Abs. 2
+  bleibt begründet offen (keine wörtliche WsG/WsV-Entsprechung gefunden).
+- [note] **T-01 (revBZO Thalwil):** erneut geprüft (thalwil.ch, Gesetzessammlung, Amtsblatt) —
+  unverändert offen, kein neuer Stand. **T-10 (§ 10 BBV II Rauminhalt-Staffelung):** war bereits
+  am 2026-07-14 geklärt, Markierung in QUESTIONS.md nachgezogen.
+
 ## 2026-08-23 (Recherche-Agent) — EG GSchG-Volltext beschafft; § 15 Abs. 3 geklärt, § 36 Abs. 2 bleibt offen
 - [ingest] `raw/260823_amtlich_zh_eg-gschg.md` — Einführungsgesetz zum Gewässerschutzgesetz (EG
   GSchG, LS 711.1), letzte Fassung Nachtrag 099 vor der Aufhebung per 01.06.2026, vollständig von

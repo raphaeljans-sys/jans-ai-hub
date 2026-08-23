@@ -138,16 +138,31 @@ destilliert in `destillate/vkf-teilrevision-2026-pyrotechnik.md`.
 
 ---
 
-### ⚠ N59-1 — Was bedeutet der Zusatz «(cr)» bei RF3 in der BRL 104-15?
+### ✅ N59-1 — GESCHLOSSEN: Was bedeutet der Zusatz «(cr)» bei RF3 in der BRL 104-15?
 
-Die Fassung 01.12.2022 der Spänefeuerungs-Erläuterung senkt die Baustoffanforderung an
-freistehende Silos und offene Lagerbehälter von **RF1** auf **mindestens RF3 (cr)** (Ziff. 5.2
-und 5.4, gedruckte S. 5, am Original nachgelesen). Der Klassierungszusatz **«(cr)»** ist im
-Fassungs-Delta **nicht aufgelöst**; er wurde nicht in der BRL 13-15 «Baustoffe und Bauteile»
-und nicht gegen SN EN 13501-1 nachgeschlagen. Solange das offen ist, ist der Satz «Lockerung
-von RF1 auf RF3 (cr)» richtig, aber nicht vollständig verstanden — und eine Aussage darüber,
-welches Bauprodukt die neue Anforderung erfüllt, ist **nicht** belegt möglich. Beim nächsten
-Lauf mit der 13-15 zusammen aufzulösen. Aufgeworfen Run 59 (22.08.2026).
+> **Aufgelöst durch Run 60 (23.08.2026)** im «Zusatzauftrag N59-1» von
+> `destillate/vkf-brl-13-15-fassung-2017-delta.md`, Ziff. 116-154 (Status des Destillats:
+> `speculative`, Klassierungsmechanik am gerenderten Original geprüft, Ziff. 2.1 Abs. 2 und
+> Ziff. 2.2.6, S. 5-6, sowie die Zuordnungstabellen S. 8-11). Eigene Gegenprüfung 23.08.2026:
+> **«(cr)» = «comportement critique»/kritisches Verhalten**, ein Anwendungsbeschränkungs-Flag
+> innerhalb einer RF-Gruppe, keine eigenständige fünfte RF-Stufe (SIA/VKF-Terminologie
+> BRL 13-15 Ziff. 2.1 Abs. 2, S. 5). Klassiert wird je nach Produktkategorie nach SN EN
+> 13501-1:2009 (Bauprodukte, Bodenbeläge, Rohrisolierungen, Ziff. 2.4.1, S. 8), SN EN
+> 13501-5:2009 (Bedachungen, Ziff. 2.4.2, S. 9) oder SN EN 13501-6:2014 (Kabel, Ziff. 2.4.3,
+> S. 10-11). Praktische Folge fuer die Ursprungsfrage: eine Anforderung «RF3» ohne Zusatz
+> lässt nur den cr-freien Teilbereich der RF3-Zeile zu; «RF3 (cr)» schliesst zusätzlich den
+> cr-markierten Teilbereich ein, seit der Fassung 2017 einschliesslich Klasse E/E-d2 (2015 nur
+> RF4 (cr)). Ein Produkt der Klasse E/E-d2 erfüllt daher **nie** eine blanke «RF3»-Anforderung.
+> Die BRL 104-15-Lockerung selbst (RF1 → mind. RF3 (cr)) bleibt damit vollständig verstanden;
+> **offen bleibt nur**, welches konkrete Bauprodukt die neue Anforderung erfüllt — das ist eine
+> produktspezifische Frage, keine Norm-Auslegungsfrage, und gehört bei Bedarf in ein
+> projektbezogenes Brandschutz-Factsheet, nicht in diese KB.
+
+**Ursprungswortlaut (Run 59, 22.08.2026):** Die Fassung 01.12.2022 der Spänefeuerungs-Erläuterung
+senkt die Baustoffanforderung an freistehende Silos und offene Lagerbehälter von **RF1** auf
+**mindestens RF3 (cr)** (Ziff. 5.2 und 5.4, gedruckte S. 5, am Original nachgelesen). Der
+Klassierungszusatz **«(cr)»** war im Fassungs-Delta nicht aufgelöst; er wurde nicht in der
+BRL 13-15 «Baustoffe und Bauteile» und nicht gegen SN EN 13501-1 nachgeschlagen.
 
 ---
 
@@ -3343,10 +3358,17 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Naechster Schritt: an den Originalen (SIA 2056 Tab. 42, S. 38-39; SIA 387/4 Tab. 4, S. 18-19) die Definitionszeile beider Tabellen lesen und im INDEX/REGISTER eine eindeutige Bezeichnerregel festhalten. Bis dahin gilt der Bezugsgroessen-Vorbehalt, der am 07.08.2026 in der Beleuchtungs-Zeile des Koordinations-Registers gesetzt wurde.
 
 ## 260813 — SIA 382/2:2011 verlinkt SIA 416:2003, zitiert aber SIA 416/1:2007 (fehlendes Destillat)
-- Frage: `destillate/sia-382-2-2011.md` referenziert in Ziff. 0.2.1 und Kap. 5 durchgehend **SIA 416/1:2007** «Kennzahlen für die Gebäudetechnik» (Bezugsflächen, Tabellenschema Tabellen 1-3). Im Frontmatter `links` steht dagegen `[[sia-416-2003]]`, also SIA 416:2003 «Flächen und Volumen von Gebäuden» — eine andere Norm mit ähnlicher Nummer. Ein Destillat zu SIA 416/1:2007 liegt im Bestand nicht vor.
-- Warum das zaehlt: Jeder Abnehmer, der über den Link auf SIA 416 in 382/2 nachschlaegt, landet auf der falschen Norm (Flaechen/Volumen statt Gebaeudetechnik-Kennzahlen).
-- Herkunft: Refuter-Run 49 (13.08.2026), Nebenbefund zu `destillate/sia-382-2-2011.md`.
-- Naechster Schritt: SIA 416/1:2007 aus dem Original destillieren (falls im Bestand PL-02_Recht_Norm vorhanden) und den Link in `sia-382-2-2011.md` umhaengen.
+
+> ✅ **GESCHLOSSEN (nachgetragen 23.08.2026).** War in `destillate/sia-382-2-2011.md` bereits seit
+> Run 52 (15.08.2026) als erledigt vermerkt (Zeile 17 und 210), aber hier nie nachgezogen. Das
+> Destillat `destillate/sia-416-1-2007.md` (Status `speculative`) existiert; der Frontmatter-Link
+> von `sia-382-2-2011.md` führt seither `[[sia-416-1-2007]]` vor `[[sia-416-2003]]` (Zeile 12).
+> Quelle des Nachfolgedestillats: `alle/xalt/neu/SIA 416_1_2007.pdf`. Eigene Gegenprüfung am
+> Destillat 23.08.2026 (Sitzung QUESTIONS-Abarbeitung) bestätigt beide Fundstellen.
+
+- Frage (Ursprungswortlaut): `destillate/sia-382-2-2011.md` referenziert in Ziff. 0.2.1 und Kap. 5 durchgehend **SIA 416/1:2007** «Kennzahlen für die Gebäudetechnik» (Bezugsflächen, Tabellenschema Tabellen 1-3). Im Frontmatter `links` stand dagegen nur `[[sia-416-2003]]`, also SIA 416:2003 «Flächen und Volumen von Gebäuden» — eine andere Norm mit ähnlicher Nummer. Ein Destillat zu SIA 416/1:2007 lag im Bestand nicht vor.
+- Warum das zaehlte: Jeder Abnehmer, der über den Link auf SIA 416 in 382/2 nachschlaegt, wäre auf der falschen Norm gelandet (Flaechen/Volumen statt Gebaeudetechnik-Kennzahlen).
+- Herkunft: Refuter-Run 49 (13.08.2026), Nebenbefund zu `destillate/sia-382-2-2011.md`; geschlossen durch Run 52 (15.08.2026), hier nachgetragen 23.08.2026.
 
 ## 260823 — VKF BRL 13-15: Delta 2015→2017 liegt an zwei Orten (Duplikat, nicht konsolidiert)
 - Frage: `vkf-brl-13-15-baustoffe-bauteile.md` traegt seit 25.07.2026 (Run 23) einen eigenen,

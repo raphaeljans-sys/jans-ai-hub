@@ -1,7 +1,7 @@
 ---
 title: Grobkosten-Kennwerte (CHF/m³ GV, BKP 1–5)
 status: emerging
-last_updated: 2026-08-17 (Run 16)
+last_updated: 2026-08-23 (Run 17, offene Fragen bearbeitet)
 sources: [skills/kostenschaetzung/referenzen/20260607-Wuest-Kostenbenchmarks-Wohnen-CHF-m2.md, wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, raw/2414-thalwil.md, raw/2518-grubenackerstrasse.md, raw/2515-wartstrasse.md, raw/2202-ackersteinstrasse.md, raw/2304-reckholdern.md, raw/kennwerte-jans-referenzdokument.md, raw/8155-niederhasli-seestrasse64.md, raw/2001-haus-deuber-thalwil.md, raw/2411-wald-haselstudstrasse.md, raw/2412-ebmatingen-grossacher.md, raw/2305-waedenswil-precheck.md, raw/2620-albertstrasse.md, raw/zuercher-index-wohnbaukosten-1939-2025.md, raw/zuercher-index-wohnbaupreise-2025-10-update.md, raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md, raw/2304-waedenswil-residualwert-zwei-varianten.md]
 links: [wissen/immobilienbewertung/wiki/realwert-sachwert, wissen/immobilienbewertung/wiki/investorenmarkt-makro, wissen/immobilienbewertung/wiki/flaechendefinitionen-sia, wissen/immobilienbewertung/wiki/wissensluecken]
 ---
@@ -60,10 +60,20 @@ Region Zürich / Zentralschweiz. Preisstand 2026. Immer als Grobschätzung ±25 
 > (kanonisch):** Der oben verwendete Wert **HNF ≈ 0.70 × GF** gilt für das **Regelgeschoss**
 > (effizientes Wohngeschoss). Für Umrechnungen über das **ganze Gebäude** (Gesamtkosten und GV
 > decken auch Sockel, Attika und Untergeschoss mit tieferem HNF-Anteil) gilt der triangulierte
-> **Gesamtgebäude-Faktor ≈ 0.60–0.61** aus `wissen/immobilienbewertung/wiki/realwert-sachwert`.
+> **Gesamtgebäude-Faktor ≈ 0.60–0.61**. Provenienz nachgetragen (23.08.2026, gezielte
+> Recherche): belegt in `wissen/immobilienbewertung/wiki/flaechendefinitionen-sia.md`, Abschnitt
+> «JANS-Flächenfaktoren Wohnen (belegt)», aus der Quelle «Flächenkonzeption Wohnen» (IMMO-06
+> WOHNEN Baumasse, R. Jans, 20.10.2024, Fallbeispiel Haselstudstrasse 12 Wald,
+> STWE-Volumenstudie): HNF/Baumasse = 0.20 und GF/Baumasse = 0.33 ergeben rechnerisch
+> HNF/GF = 0.61, konsistent mit dem dort separat angegebenen Gesamtgebäude-Wert 0.60 — eine
+> reale Fallstudie mit interner Gegenrechnung, keine Norm-Vorgabe (nicht `realwert-sachwert`,
+> wie zuvor hier fälschlich zitiert).
 > Für die **m²↔m³-Kostenbrücke** (Gesamtkosten ↔ GV) ist daher der **Gesamtgebäude-Wert 0.60
 > massgebend**, nicht 0.70. Die obige ≈ 1'020 CHF/m³-Ankopplung bleibt gültig, weil sie direkt
 > auf dem GV/HNF-Verhältnis 4.7 (Gesamtgebäude) beruht; das 0.70 dient nur als Geschoss-Kennwert.
+> Der Regelgeschoss-Wert **0.70** selbst bleibt unbelegt: dieselbe Quelle nennt dort **0.75**
+> (Band 0.73–0.80), nicht 0.70 (erneut bestätigt 23.08.2026, keine dritte Quelle gefunden) —
+> weiterhin Fachentscheid Raphael, siehe Vorbehalt unten.
 >
 > ⚠ **needs-decision — Wissens-Chef Run 15 (25.07.2026), adversarial verifiziert (BESTAETIGT):**
 > Der letzte Halbsatz hält nicht nach. Die 4.7 ist rechnerisch **3.3 / 0.70 = 4.71**, also
@@ -167,10 +177,23 @@ geführt:
 | Tiefgarage (Zuschlag, separat) | — | 42'000 CHF/Parkplatz (BKP 1-5) | aus demselben Referenzblatt, Rechenbeispiel 8 SP | JANS-Referenzwert, Einzelbeleg |
 
 Vollständige Herleitung inkl. Rechenbeispiel "Thalwil Bohlweg 1" (950 m² GF, CHF 4.6 Mio,
-HNF-Kennwert CHF 7'350.-/HNF): `raw/kennwerte-jans-referenzdokument.md`. **Wichtig:** das
-Rechenbeispiel bezieht sich mutmasslich NICHT auf das bereits in dieser KB geführte Projekt
-"2414 THALWIL Bohlweg 3" (andere Hausnummer, ca. 10x grösseres Volumen) — nicht gleichgesetzt,
-offene Frage in `wiki/QUESTIONS.md`.
+HNF-Kennwert CHF 7'350.-/HNF): `raw/kennwerte-jans-referenzdokument.md`. Das Rechenbeispiel
+bezieht sich NICHT auf das bereits in dieser KB geführte Projekt "2414 THALWIL Bohlweg 3"
+(andere Hausnummer, ca. 10x grösseres Volumen).
+
+**Nachtrag 23.08.2026 (gezielte Recherche, Identität geklärt):** Es handelt sich um ein
+eigenständiges, reales Projekt: "8800 Thalwil 9568 Bohlweg 1" (9568 = Parzellennummer, Gemeinde
+Thalwil), eine Liegenschaftsbewertung (LB/RW/MA gemäss Skill `immobilienbewertung`) unter
+`IMMO - 01 Projekte/01 BEWERTUNG PROJEKTE/8800 Thalwil 9568 Bohlweg 1 …/`, Stand 25.–28.03.2025.
+Das Bewertungs-PDF (`250328 JANS Bewertung 9568 Thalwil.pdf`) bestätigt das Zahlenbild fast
+exakt: Grundstück 821 m², Zone W3, aGF 657 m², Geschossfläche 1'140 m² (950 m² GF exkl. TG), 8
+Parkplätze, HNF 580 m², BKP 1–5 inkl. TG ≈ 4.5 Mio, 7'750.-/HNF bzw. **1'315.-/Vm³**. **Kein
+neuer Kennwert-Eintrag in dieser Tabelle**, weil «Vm³» im Quelldokument nicht als SIA-416-GV
+ausgewiesen ist (gleiche Vorbehaltsfamilie wie Frage 1/BKP-Scope oben — Volumenbasis vor
+Übernahme klären) — als Kandidat für einen künftigen Lauf vorgemerkt. Nebenbefund: Die
+RW-/MA-Dateien in diesem Ordner tragen selbst das Präfix "2414" — dieselbe Projektnummer scheint
+für Bohlweg 1 UND Bohlweg 3 verwendet worden zu sein (nicht weiter verifiziert, z.B. via bexio
+möglich).
 
 Weitere in derselben Quelle geprüfte Dokumente (Link-Sammlung, Drittsoftware-Handbuch BBase
 Grobkosten 2012, Büro-Marktmietanalyse hbre) liefern keine verwertbaren JANS-Kostendaten —
@@ -288,6 +311,20 @@ Anwendungsgrenze oben liefern unterschiedlich weit tragfähige Grössen:
   (`/Volumes/daten/03 Bauprodukte_BKP`) enthält Produktunterlagen, keine Devis oder
   Unternehmerofferten. Nächster Schritt ist deshalb ein reales Devis aus dem
   `ausschreibung`-/`offertenpruefung`-Bestand, statt einen Satz zu schätzen.
+
+  **Nachtrag 23.08.2026 (gezielte Recherche, Fortschritt, weiterhin kein CHF/m²-Kennwert):**
+  Zwei echte, unterschriebene Kostenvoranschläge der Estermann Gipserunternehmen AG (Othmar
+  Stadelmann) vom 21.05. und 01.06.2026 liegen auf SharePoint vor (`AR - 01 Projekte/
+  2619_KINDERSPITAL/03_BKP/LOS_271.10 Gipserarbeiten ESTERMANN/271.10 04 Offerte UN/`), BKP
+  271.1, Therapiestation OG1, Position «Wände/Decken gemäss W340/W320 … Brandschutz und
+  Ertüchtigung»: 36 Stk. à CHF 2'500.00 bzw. 25 Stk. à CHF 2'800.00. **Nicht verwertbar**, weil
+  pauschal je Wandabschnitt/Raum bepreist (Einheit «Stk»), ohne Flächen- oder Wandtypangabe je
+  Position — kein CHF/m²-Rückschluss möglich. `LOS_281.03 Estriche` (Boediker Robert AG)
+  enthält nur Architektur-Detailpläne ohne Devis; `LOS_225.40 Brandabschottungen` (AGI AG) nur
+  einen Screenshot ohne Preise. **Konkreter nächster Schritt statt weiterer Archiv-Suche:** eine
+  m²-aufgeschlüsselte Detailofferte bei einem der beiden bereits realen KISPI-Vertragspartner
+  nachfordern (Estermann Gipserunternehmen AG, Othmar Stadelmann,
+  othmar.stadelmann@estermann.ch, oder Boediker Robert AG) — Versand braucht Freigabe Raphael.
   *(Die Zuordnung «BKP 214/271» weiter oben für zusätzliche **Bauteilstärken und
   Bekleidungsflächen im Holzbau** bleibt richtig — 214.1/214.3 Montagebau in Holz, 271.1
   Trockenbau; nur der Estrich war dort falsch einsortiert.)*
@@ -367,8 +404,20 @@ Deckt sich grössenordnungsmässig mit dem bereits geführten BFS-Baupreisindex-
 > Anker hier nur vermerkt, damit er beim nächsten grösseren Publikationssprung (z.B. April-2026-
 > Stand) als Zwischenstützstelle zur Verfügung steht. Details: `raw/zuercher-index-wohnbaupreise-
 > 2025-10-update.md`. Ein kolportierter 01.04.2026-Stand (aus einer KI-Suchzusammenfassung, nicht
-> aus der Primärquelle direkt bestätigt) wurde bewusst **nicht** übernommen — offener Punkt für
-> einen künftigen Lauf, siehe `wiki/QUESTIONS.md`.
+> aus der Primärquelle direkt bestätigt) wurde bewusst **nicht** übernommen.
+>
+> **Nachtrag 23.08.2026 (gezielte Recherche, Frage geschlossen):** Erneuter Verifikationsversuch
+> an der Primärquelle (`stadt-zuerich.ch`, Medienmitteilung «Zürcher Index der Wohnbaupreise
+> Oktober 2025», WebFetch) bestätigt unverändert 01.10.2025 = 116.1 Punkte, kein Hinweis auf
+> Rebasierung/neue Gewichtung. Das Datenportal `stadt-zuerich.ch/ziw` sowie der offene Datensatz
+> `data.stadt-zuerich.ch` liefern keine zusätzlichen Zahlenwerte (clientseitig gerendert bzw.
+> HTTP 500/nicht mehr indexiert). **Neuer Befund:** ein URL-Muster-Test (8 Kombinationen,
+> Publikationsjahre 2024–2027 × April/Oktober) zeigt nur Treffer für die beiden bekannten
+> Oktober-Mitteilungen — die Stadt Zürich publiziert den ZIW mutmasslich **jährlich zum
+> Oktober-Stichtag**, nicht halbjährlich. Der kolportierte 01.04.2026-Stand bleibt damit
+> **unbestätigt und wird nicht mehr aktiv nachverfolgt** — der nächste reguläre
+> Publikationstermin ist voraussichtlich Sommer 2027 (für Oktober-2026-Daten). Bis dahin bleibt
+> 01.10.2025 = 116.1 der aktuelle, belegte Stand.
 
 **Anwendung (ab sofort möglich, in diesem Lauf noch nicht auf alle Einzelfälle angewendet):**
 Die in dieser KB geführten Einzelfälle mit Preisstand vor 2025 (z.B. Reckholdern 12/2023,

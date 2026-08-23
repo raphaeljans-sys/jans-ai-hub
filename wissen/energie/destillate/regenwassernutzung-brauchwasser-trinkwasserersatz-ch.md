@@ -147,11 +147,18 @@ nicht als belegter Kennwert zu verstehen (Rule `identifikatoren-verifizieren`).
   eigene, tiefere Recherche (eigenes Destillat).
 - **Kantonale/kommunale Förderung** einer Regenwassernutzungsanlage (analog Solarförderung) nicht
   geprüft — offen für eine spätere Vertiefung.
-- **Gesetzliche Grundlage der Brauchwassernutzung in den übrigen Kantonen nicht geprüft** (Stand
-  Run 20, 29.07.2026): belegt ist bisher nur § 97 Abs. 3 WsG für den Kanton Zürich (siehe
-  Korrekturkasten oben). Für SZ, ZG und die weiteren JANS-Projektkantone ist offen, ob ein
-  vergleichbarer Erlass die Zulässigkeit und die Gebührenfreiheit ausdrücklich regelt; dort trägt
-  bis auf Weiteres allein das SVGW-Merkblatt plus die kommunale Praxis des Wasserwerks.
+- ✓ **Kanton Schwyz geprüft 23.08.2026, schliesst E-R20-4 als Recherche (Negativbefund):** die
+  fünf einschlägigen SZ-Erlasse (Wasserrechtsgesetz SRSZ 451.100, Wasserverordnung SRSZ 451.111,
+  Einführungsgesetz zum Gewässerschutzgesetz SRSZ 712.110, Planungs- und Baugesetz SRSZ 400.100,
+  Planungs- und Bauverordnung SRSZ 400.111) wurden im Volltext nach «Regenwasser»/
+  «Niederschlagswasser»/«Meteorwasser» durchsucht — **keine Erwähnung**. Das ist kein Zufall,
+  sondern strukturell: das SZ-Wasserrechtsgesetz regelt die Sondernutzung **öffentlicher**
+  Gewässer (Konzessionspflicht bei Entnahme), während die Nutzung von auf dem eigenen Dach
+  gesammeltem Regenwasser (WC/Waschmaschine/Garten) diesen Regelungsgegenstand gar nicht berührt
+  — anders als in ZH, wo die Regelung im **Wasserversorgungsteil** des Wassergesetzes steht. Für
+  SZ bleibt damit weiterhin nur das SVGW-Merkblatt TPW 2001/1 als schweizweite Aussage; ein
+  allfälliges Gemeinde-Wasserversorgungsreglement (30 Gemeinden, kein zentrales Register) wurde
+  nicht geprüft und bleibt ein möglicher, aber nicht durchsuchter Weg für ein konkretes Mandat.
 - **Wasserversorgungsteil des ZH-Wassergesetzes (§§ 95-100 WsG, § 178 WsV) im Hub unverarbeitet:**
   Bezugs-/Anschlusspflicht, Brauchwassernutzung und Gebührensystematik sind bisher nur im
   amtlichen Rohtext vorhanden, nicht destilliert. Die Destillation gehört in die führende KB

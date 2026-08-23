@@ -166,13 +166,22 @@ Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
   CHF 50-6'000 speziell für Bewilligungen/Konzessionen. § 209 WsV verweist damit auf zwei
   Gebührengrundlagen nebeneinander; welche die AWEL-Praxis im Einzelfall anwendet, bleibt für ein
   konkretes Mandat zu klären. Beleg in `[[erdwaermesonden-bewilligung-zh-sz]]`.
-- [ ] **E-R20-4 (P2): Regenwassernutzung ausserhalb ZH.** § 97 Abs. 3 WsG (zulaessig und
+- [x] **E-R20-4 (P2): Regenwassernutzung ausserhalb ZH.** § 97 Abs. 3 WsG (zulaessig und
   gebuehrenfrei in getrennten Systemen) gilt nur im Kanton Zuerich und erst seit 01.06.2026; das
   Destillat ist CH-weit angelegt. Fuer SZ und die uebrigen Kantone ist die Rechtslage nicht
   geprueft — bis dahin traegt nur das SVGW-Merkblatt TPW 2001/1 die schweizweite Aussage (FAQ F186).
   Hinweis zur Zustaendigkeit: die Wasserversorgungsparagraphen §§ 95-100 WsG (Bezugspflicht,
   Brauchwasser, Gebuehren) sind hub-weit unverarbeitet; die Bring-Schuld liegt bei `baurecht`
   (Erlasswortlaut) und `planungsgrundlagen` (Recht/Verfahren), nicht hier.
+  ✓ **ERLEDIGT 23.08.2026, ehrlicher Negativbefund:** die fünf einschlägigen SZ-Erlasse
+  (Wasserrechtsgesetz SRSZ 451.100, Wasserverordnung SRSZ 451.111, EG zum GSchG SRSZ 712.110, PBG
+  SRSZ 400.100, PBV SRSZ 400.111) wurden im Volltext durchsucht — keine Erwähnung von
+  Regenwasser/Niederschlagswasser. Strukturell erklärbar: das SZ-Wasserrecht regelt die
+  Sondernutzung öffentlicher Gewässer, nicht die Nutzung von Dach-Regenwasser im Gebäude — anders
+  als das ZH-Wassergesetz, das dies im Wasserversorgungsteil regelt. Für SZ bleibt bis auf
+  Weiteres nur das SVGW-Merkblatt TPW 2001/1 als schweizweite Aussage; Gemeinde-
+  Wasserversorgungsreglemente (30 SZ-Gemeinden) wurden nicht geprüft. Beleg in
+  `[[regenwassernutzung-brauchwasser-trinkwasserersatz-ch]]`.
 - [x] **E-R20-5 (P3): Konzessionsgrundlage und Konzessionsdauer fuer Seewasser-Waermenutzung in
   SZ und ZG.** Fuer ZH ist die Regeldauer 15-30 Jahre am Gesetzestext geklaert
   (`[[grundwasserwaermenutzung-bewilligung-zh-sz]]`); fuer Schwyz und Zug stuetzt sich der Bestand
@@ -182,6 +191,12 @@ Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
   WsG-Paragraphennummer der Wassernutzungskonzession fuer Seen/Fluesse in ZH ist dort noch
   offen — vor jeder Paragraphenangabe in einem Kundendokument am WsG-Volltext in `baurecht`
   abgleichen (FAQ F188).
+  ✓ **ERLEDIGT 23.08.2026:** Beide kantonalen Gesetzestexte am Original verifiziert. **SZ:**
+  § 45 Wasserverordnung (SRSZ 451.111) — Regeldauer **20 Jahre** für Wärmepumpen als «übrige
+  Nutzung» (§ 11 Abs. 2 lit. b WRG SRSZ 451.100). **ZG:** § 43 Abs. 1 lit. b GewG (BGS 731.1) —
+  Regeldauer **höchstens 30 Jahre**; Aktualitätsvorbehalt, weil bgs.zg.ch die neuste Fassung nicht
+  direkt lieferte (JS-Datenbank), zwei unabhängige ältere Fassungen zeigen aber identischen
+  Wortlaut. Beleg und Restpunkt in `[[seewasser-waermenutzung-aquathermie-zh-sz]]`.
 
 ## 2026-07-29 (Cross-KB normen → energie, Normen-Run 36) — 134 nie erfasste PDFs liegen in PL-02 und gehoeren hierher
 
