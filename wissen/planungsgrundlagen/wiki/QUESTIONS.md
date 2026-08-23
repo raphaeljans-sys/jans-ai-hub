@@ -30,7 +30,22 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > allein im Laufbericht verpufft.
 
 ## A — Kartenportale
-- [ ] **K68 (Wissens-Chef Run 25, 2026-08-04) — Genehmigung und Inkrafttreten der revBZO Thalwil:
+- [x] **K68 (Wissens-Chef Run 25, 2026-08-04) — TEILWEISE GESCHLOSSEN 2026-08-23: (a) beantwortet,
+  (b) mangels Statuswechsel noch nicht beobachtbar, Monitoring-Punkt aufgesetzt.** Live-Messung am
+  Referenzfall (`--adresse "Bohlweg 3, Thalwil" --produkt zonenplan`, 2026-08-23): proj-Layer aktiv,
+  `rechtsstatus=laufendeAenderung.Festsetzung`, `revisionsart=Aenderung_Bauordnung`, Auflage
+  16.05.2026, `genehmigung`/`inkraftsetzung` leer — UND die Dichtewerte (AZ 60/3VG) sind trotz
+  `Aenderung_Bauordnung` **bestückt**, nicht leer. **(a) damit widerlegt/präzisiert:** der Lese-
+  Hinweis «proj-Attribute können bei Aenderung_Bauordnung leer bleiben» stimmt als Möglichkeit,
+  ist aber kein verlässliches Ausschlusskriterium — hier ist ein realer `Aenderung_Bauordnung`-Fall
+  vollständig bestückt. **(b) bleibt offen:** die Revision steht am 23.08.2026 weiterhin nur in
+  `Festsetzung` (deckungsgleich mit `baurecht` T-01, dort seit 04.08.2026 unverändert «weder
+  genehmigt noch in Kraft») — der Statuswechsel auf `.Genehmigung` ist am Referenzfall noch nicht
+  eingetreten und daher nicht beobachtbar. **Nächster Schritt statt weiterer Theorie:** denselben
+  Connector-Aufruf wiederholen, sobald `baurecht`/T-01 die kommunale Publikation meldet, und den
+  Zeitpunkt des Feldwechsels gegen das Publikationsdatum vergleichen. → [[kartenportale-zonenplan-zh]]
+  §A6 (neuer Benchmark-Eintrag Thalwil).
+  **Ursprünglicher Befund (referenzhalber) — Genehmigung und Inkrafttreten der revBZO Thalwil:
   die Pendenz liegt in `baurecht`, den maschinellen Prüfweg führt diese KB.** Die KB `baurecht`
   führt als **T-01** eine Überwachungs-Pendenz (`wissen/baurecht/wiki/QUESTIONS.md`, Kopfeintrag
   2026-08-03): die Revision der BZO Thalwil wurde am **14.06.2026** an der Urne festgesetzt
@@ -127,27 +142,31 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   Keine Endpunkt-Erosion seit Run 54 (20.07.2026). **Methodenhinweis für künftige Checks:** ein
   Endpunkt-Test braucht einen **belegten** EGRID — ein erfundener liefert dasselbe HTTP 204 wie ein
   toter Server und beweist nichts (→ E12).
-- [ ] **K62 (Wissens-Chef Run 20, 2026-07-29) — Regenwasser: die NUTZUNGSseite fehlt in dieser KB
-  ganz.** Die Führungs-Matrix teilt Regenwasser gespalten zu: Recht und Verfahren führt
-  `planungsgrundlagen`, die Bewilligungsschwellen im Baugesuch führt `energie`. Der eigene Artikel
-  [[recht-norm-regenwasser-gewaesserraum-zh]] deckt aber nur die **Entsorgungsseite** ab
-  (Gewässerraum, Versickerung, Siedlungsentwässerung); «Brauchwasser», «Zisterne» und «Nutzung von
-  Regenwasser» kommen dort nicht vor. Die kantonale Grundlage der Nutzung ist **§ 97 Abs. 3 WsG**
-  («zulässig und gebührenfrei in getrennten Systemen», LS 724.1, Fassung ab 01.06.2026) — der
-  Wortlaut wird von `baurecht` geführt und ist dort als P1 angemeldet (Destillation der §§ 95-100
-  WsG). Sobald `baurecht` destilliert hat: die Verfahrensseite hier aufnehmen (Meldung ans
-  Wasserwerk als eigener gebäudetechnischer Schritt neben der Baueingabe) und den Verweis auf
-  `energie/destillate/regenwassernutzung-brauchwasser-trinkwasserersatz-ch` setzen.
-- [ ] **K61 (Wissens-Chef Run 20, 2026-07-29) — Nachfolgeerlass der KGSchV (LS 711.11) für
-  OEREB-Thema 130.** Die Rechtsgrundlagen-Spalte von Thema 130 in
-  [[kartenportale-oereb-kataster-system-zh]] nannte bis heute ungeflaggt **LS 711.11 §§ 2/3**
-  (KGSchV), amtlich **aufgehoben per 01.01.2022** (zhlex-Erlassseite LS 711.11, Nachtrag 099;
-  belegt von `baurecht` Buch-Run 69). Jetzt als aufgehoben markiert; **die Nachfolge ist im Hub
-  nicht belegt und wurde nicht geraten**. Damit steht in der Angabe, die aus dieser KB in
-  Behördenschreiben ans AWEL wandert, weiter eine unbelegte Lücke — nicht mehr ein falsches Zitat,
-  aber auch noch keine tragfähige Grundlage. Nachweis-Pflicht liegt bei `baurecht` (dort als offene
-  Frage geführt, nächster Schritt: OS-Band 2021/2022 nach dem aufhebenden RRB). Sobald belegt: hier
-  und in der Tabellenzeile eintragen. Führend für den Erlassstand bleibt `baurecht`.
+- [x] **K62 (Wissens-Chef Run 20, 2026-07-29) — GESCHLOSSEN 2026-08-23: Nutzungsseite war bereits
+  in Teilen abgedeckt, jetzt vollständig verlinkt.** Bei der Bearbeitung zeigte sich: Der Abschnitt
+  «A.2) Nutzungsseite» in [[recht-norm-regenwasser-gewaesserraum-zh]] bestand bereits (Wissens-Chef
+  Run 20, 29.07.2026) mit § 97 Abs. 1/3 WsG, § 178 WsV, § 100 Abs. 1 WsG, § 111 Abs. 2 WsV und dem
+  Verweis auf die SVGW-Meldepflicht in `energie/destillate/
+  regenwassernutzung-brauchwasser-trinkwasserersatz-ch`. Offen war nur die dort selbst vermerkte
+  Abhängigkeit: `baurecht` hatte §§ 95-100 WsG noch nicht destilliert. **Das ist jetzt geschehen**
+  (`wissen/baurecht/wiki/QUESTIONS.md`, Eintrag K20 «✅ ERLEDIGT 2026-08-23», §§ 93-101 WsG + § 178
+  WsV eingearbeitet in [[baureife-und-erschliessung]] §«Versorgung & Entsorgung»). Nachgezogen:
+  Raw-Dateinamen im Artikel korrigiert (`260730_` → `260803_amtlich_zh_wsg/wsv.md`, der Bestand war
+  zwischenzeitlich umbenannt worden) und der «Offen»-Absatz am Artikelende durch einen
+  Verlinkungs-Verweis auf [[baureife-und-erschliessung]] ersetzt. Die Meldepflicht ans Wasserwerk
+  bleibt bewusst bei `energie` (gebäudetechnisch, nicht kantonalrechtlich).
+- [x] **K61 (Wissens-Chef Run 20, 2026-07-29) — GESCHLOSSEN 2026-08-23: Nachfolgenorm belegt,
+  plus Datumskorrektur aus `baurecht` übernommen.** §§ 2/3 KGSchV wiesen dem AWEL die Festsetzung
+  der Gewässerschutzbereiche Au/Ao und Zuströmbereiche Zu/Zo zu (§ 3 lit. v KGSchV, Fassung
+  Nachtrag 099) — diese Kompetenz steht heute in **§ 45 WsG**, deckungsgleich mit der bereits für
+  Thema 130/132 belegten Nachfolge (Wissens-Chef Run 18). § 2 lit. f/g KGSchV (Grundwasserschutz-
+  areale, Erdwärmebewilligung > 1000 m) verteilt sich auf § 45 WsG sowie **§ 92 WsV**. Tabellenzeile
+  und Kasten in [[kartenportale-oereb-kataster-system-zh]] nachgeführt. **Zusatzbefund:** `baurecht`
+  hat am selben Tag (Buch-Run 71) die eigene Prämisse «KGSchV aufgehoben 01.01.2022» als Lesefehler
+  korrigiert — die KGSchV blieb bis **01.06.2026** in Kraft (Nachfolge: WsV, RRB Nr. 158/2026), der
+  «vier Jahre frühere Wegfall» existierte nicht. In den Kasten übernommen, ändert aber nichts an der
+  hier belegten Nachfolgenorm (§ 45 WsG/§ 92 WsV gelten so oder so ab 01.06.2026). Führend für den
+  Erlassstand bleibt `baurecht`.
 - [x] **K59 (Run 67, 2026-07-25, Token-Vollgas)** Dateinamens-/Grössen-basierter Scout (statt
   begriffsbasiert, Lehre aus Run 65 E45) findet die bisher nie gelesene 37-MB-Rasterdatei
   `geoglatt.ch/Maur/Zonenplan.pdf` — amtlicher Zonenplan Gemeinde Maur, genehmigt 27.02.2012,

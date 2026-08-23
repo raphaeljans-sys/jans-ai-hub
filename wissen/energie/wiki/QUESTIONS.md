@@ -117,7 +117,7 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
 ## 2026-07-30 (Wissens-Chef Run 21, Cross-KB) — fehlender Wiki-Themenartikel zur kommunalen Wärmeplanung
 
-- [ ] **E-R21-1 (P2): Wiki-Themenartikel «Kommunale Wärmeplanung ZH/SZ» fehlt.** Der Slug
+- [x] **E-R21-1 (P2): Wiki-Themenartikel «Kommunale Wärmeplanung ZH/SZ» fehlt.** Der Slug
   `waermeplanung-kommunal-zh-sz` existiert ausschliesslich unter `destillate/`; in `wiki/` gibt es
   keinen entsprechenden Themenartikel. Das Freienbach-Destillat geht in seinem Abschnitt «Bezug zum
   Wiki» von einem «bestehenden wiki-Artikel» aus — diese Prämisse trifft nicht zu, und der

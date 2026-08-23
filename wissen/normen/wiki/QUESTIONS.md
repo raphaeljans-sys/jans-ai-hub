@@ -227,14 +227,44 @@ Anlagen», das ist aber **nicht geprüft** und darf nicht angenommen werden.
 
 ---
 
-### N58-3 — BRL 27-15: Titelblatt und Änderungsliste widersprechen sich
+### ⚠ N58-3 — BRL 27-15: Titelblatt und Änderungsliste widersprechen sich (Teilerledigung 23.08.2026)
 
-Das Titelblatt trägt **01.01.2015**, die Hinweisseite nennt aber einen **ABSV-Beschluss vom
-22.03.2017**. Entweder wurde das Fassungsdatum nicht nachgeführt, oder die Änderung betrifft nur
-den Anhang und löst nach VKF-Praxis keine neue Fassungsbezeichnung aus. **In diesem Lauf nicht
-geklärt.** Praktische Folge: das Destillat `vkf-brl-nachweisverfahren.md` steht weiterhin auf
-`established`, was bei ungeklärtem Fassungsstand womöglich zu hoch ist. Billig zu klären: die
-betroffene Anhangstelle gegen die Fassung von 2015 diffen.
+**Ursprüngliche Frage:** Das Titelblatt trägt **01.01.2015**, die Hinweisseite nennt aber einen
+**ABSV-Beschluss vom 22.03.2017**. Entweder wurde das Fassungsdatum nicht nachgeführt, oder die
+Änderung betrifft nur den Anhang und löst nach VKF-Praxis keine neue Fassungsbezeichnung aus.
+Praktische Folge: das Destillat `vkf-brl-nachweisverfahren.md` steht auf `established`, was bei
+ungeklärtem Fassungsstand womöglich zu hoch ist.
+
+> **Teilerledigung 23.08.2026:** der billige Teil des Auftrags («die betroffene Anhangstelle
+> gegen die Fassung von 2015 diffen») ist erledigt — mit einem Ergebnis, das die Frage verengt
+> statt schliesst. Das PDF `PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien
+> 2015/Nachweisverfahren im Brandschutz.pdf` wurde **vollständig** gelesen (alle 15 Seiten,
+> nicht nur die im Destillat vermerkten S. 1-14). Ergebnis: **kein 2017-Inhalt vorhanden.**
+> Titelblatt (S. 1) trägt ausschliesslich «01.01.2015 / 27-15de»; Ziff. 10 «Inkrafttreten»
+> (S. 8) nennt ausschliesslich den **IVTH-Beschluss vom 18. September 2014**, in Kraft ab
+> 1. Januar 2015 — kein ABSV, kein 22.03.2017, an keiner der 15 Seiten. Der ganze Anhang
+> (S. 9-15, Ziff. 3.2.2/5/8.2) ist inhaltlich in sich konsistent mit der 2015er-Fassung, keine
+> erkennbare Nachtragsstelle.
+>
+> **Damit ist geklärt:** das lokal im Bestand liegende PDF ist durchgehend die Fassung
+> 01.01.2015 ohne 2017er-Beimischung — der Verdacht «Fassungsdatum nicht nachgeführt, Anhang
+> aber schon 2017» trifft **nicht** zu, denn es gibt keine 2017-Anhangstelle zum Diffen. Die
+> `established`-Einstufung des Destillats ist damit für **dieses Dokument** nicht zu hoch.
+>
+> **Nicht geklärt bleibt**, was der ABSV-Beschluss vom 22.03.2017 selbst bedeutet — die Angabe
+> stammt laut `training/n58-vkf-fassungsmatrix-260820.md` Z. 86 von der Portal-«Hinweisseite»
+> auf bsvonline.ch, nicht aus dem PDF. Ein WebFetch auf
+> `https://www.bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015` (23.08.2026) liefert
+> nur die Navigationsstruktur zurück, nicht den Astro-JSON-Payload mit den Metadatenfeldern —
+> die Seite ist clientseitig gerendert und für eine einfache Markdown-Konvertierung nicht
+> zugänglich (gleiche Werkzeug-Falle wie bei Fedlex, vgl. Rule `fedlex-volltexte.md`). Zwei
+> Lesarten bleiben offen: (a) der ABSV-Beschluss betrifft eine reine Wiedergenehmigung/
+> Verlängerung ohne Inhaltsänderung (VKF-Praxis kennt das, vgl. 108-15 mit zwei Titelblatt-
+> Daten in derselben Matrix), oder (b) er gehört zu einer anderen, nicht heruntergeladenen
+> Fassung dieser Publikation. Nächster Schritt bei Bedarf: die BSPUB-Dokument-URL aus der
+> Matrix-Zeile (`.../BSPUB-1394520214-127.pdf/content`) direkt erneut abrufen und mit der im
+> Bestand liegenden Prüfsumme `72e31ae5a6e7` vergleichen, oder das Portal mit einem
+> JS-faehigen Abruf statt WebFetch prüfen.
 
 ---
 

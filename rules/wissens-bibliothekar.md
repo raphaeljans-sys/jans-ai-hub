@@ -33,6 +33,21 @@ Wenn Raphael eine inhaltliche Frage an einen KB stellt:
 
 So macht jede Frage die Wissensbasis besser, statt dass die Antwort verpufft.
 
+**Cross-KB-Bringschuld (ergänzt 2026-08-23, F-UEBERGABE aus `planungsgrundlagen`).** Löst ein
+Lauf einen Punkt, den eine ANDERE KB als offene Frage an ihn übergeben hat (Formulierung
+«→ Übergabe an KB X» / «Bring-Schuld bei KB X» in einer `QUESTIONS.md`), trägt **derselbe Lauf**
+die Pflicht, das der Empfänger-KB sichtbar zu machen — nicht ein späterer Aufsichtslauf. Konkret:
+1. Den Fund direkt in der `QUESTIONS.md`/im betroffenen Wiki-Artikel der Empfänger-KB nachtragen
+   (wenn Schreibzugriff besteht), oder mindestens eine grep-fähige Zeile dort hinterlassen.
+2. Den eigenen Laufbericht/CHANGELOG-Eintrag mit der **Empfänger-KB beim Namen** schreiben
+   («→ übergeben an `wissen/<kb>`»), nicht nur mit dem Sachverhalt — ein Aufsichtslauf kann nach
+   KB-Namen greppen, nicht nach Bedeutung.
+3. Wer eine offene Cross-KB-Übergabe bei sich selbst schliesst, prüft im selben Zug, ob die
+   ursprünglich anfragende KB inzwischen woanders bereits denselben Punkt gelöst hat (Race
+   zwischen zwei KBs) — dann beide Fundstellen gegenlesen statt eine zu überschreiben.
+Kein neuer Aufsichtsmechanismus, keine neue Pflicht-Meldung — nur die Klarstellung, dass die
+Bringschuld beim erledigenden Lauf bleibt, bis der Zeiger drüben tatsächlich zeigt.
+
 ## Artikel-Format
 
 Jeder `wiki/`-Artikel trägt Frontmatter (`title`, `status`, `last_updated`, `sources`,
