@@ -80,7 +80,7 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   aktuellen SFG-Gründachrichtlinie selbst nicht eindeutig auf der Publikationsseite verifiziert
   (nachrangig, da SIA 312:2013 sie ohnehin nur als Prüfverfahren referenziert). Beleg in
   `[[eco-bau-merkblaetter-bkp-2008-huelle]]`.
-- [ ] **E-R25-2 (P2): Asbest-Meldepflicht bei Abbruch fehlt in diesem Artikel.** Der
+- [x] **E-R25-2 (P2): Asbest-Meldepflicht bei Abbruch fehlt in diesem Artikel.** Der
   Bauherren-Artikel `[[gebaeudeschadstoffe]]` beschreibt die **Abklärungspflicht** vor dem
   Umbau, nennt aber keine **Meldepflicht** gegenüber der Behörde bzw. der Suva bei
   Abbruch-/Rückbauarbeiten mit Asbestverdacht. Der Punkt ist hier **bewusst nicht materiell

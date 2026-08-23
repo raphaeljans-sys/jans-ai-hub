@@ -1,5 +1,58 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-08-23 (Recherche-Agent) — Frage A geklärt, Frage B bleibt offen: § 15 Abs. 3 / § 36 Abs. 2 EG GSchG (Nachtrag zu 2026-08-03, Buch-Run 71)
+
+Vertiefte Recherche zu den beiden am 03.08.2026 offen gebliebenen Punkten (dort nur WsG/WsV
+durchsucht, kein Treffer). Diesmal zusätzlich beschafft: der amtliche Volltext des **EG GSchG
+selbst** (lag trotz rund sechs Zitaten in `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`
+bisher nirgends im Hub — gleiche Lückenart wie die WsG/WsV-Lücke aus Wissens-Chef Run 18), letzte
+Fassung Nachtrag 099 vor der Aufhebung, direkt von `notes.zh.ch` bezogen und per `pdftotext -layout`
+gelesen. Neu abgelegt: `raw/260823_amtlich_zh_eg-gschg.md`.
+
+**Frage A — ✅ GEKLÄRT, Prämisse war unpräzise.** § 15 EG GSchG steht im Abschnitt «II. Ableitung
+und Reinigung der Abwässer», Randtitel «Baupflicht und Unterhalt» — nicht im Gewässer-/
+Grundwasserschutzbereich. Abs. 3 lautet wörtlich: «*Nebenleitungen aus den Quartieren zur
+öffentlichen Kanalisation können durch die Gemeinde, ganz oder teilweise auf Kosten der
+Eigentümer der anzuschliessenden Grundstücke, erstellt werden. Die Nebenleitungen sind mit der
+Abnahme in das Eigentum der Gemeinde zu überführen.*» Es geht um Kanalisations-**Nebenleitungen**
+(Hausanschlussleitungen), nicht um «Nebenanlagen»; eine Meterangabe («40 m») steht im Gesetzestext
+nicht — weder in Nachtrag 85 noch in der letzten Fassung Nachtrag 099. Die «ca. 40 m» im
+Buch-Destillat sind eine praktische Angabe des Standardwerks, kein Gesetzeszitat.
+**Nachfolgeregelung im WsG** (inhaltlich fast wortgleich, zwei Normen): § 53 Abs. 3 WsG
+(Kostentragung durch Eigentümer neu anzuschliessender Grundstücke) + § 56 Abs. 1/2 WsG
+(Eigentumsübernahme durch die Gemeinde mit der Abnahme). Wortlaut gegengeprüft an
+`raw/260803_amtlich_zh_wsg.md`. Destillat korrigiert (siehe unten).
+
+**Frage B — bleibt offen, jetzt aber präziser begründet.** § 36 Abs. 2 EG GSchG (Abschnitt «V.
+Grundwasserschutz», Randtitel «b. Schutzvorschriften») lautet wörtlich: «*Der Gemeindevorstand
+ordnet die erforderlichen Schutzmassnahmen nach Massgabe der bundesrechtlichen Vorschriften sowie
+der örtlichen Bedürfnisse im Einzelfall an. Die Direktion erlässt die notwendigen Richtlinien.
+Rechtskräftig verfügte Anordnungen können im Grundbuch angemerkt werden.*» Dieselbe Klausel
+(«... können im Grundbuch angemerkt werden») steht im EG GSchG **noch zweimal**: § 8 Abs. 2
+(generelle Bewilligungspflicht) und § 37 Abs. 1 (Grundwasserschutzareale) — es war also ein
+wiederkehrendes Institut, nicht eine Einzelbestimmung.
+
+Im WsG/WsV **wortwörtlich kein Gegenstück gefunden** (gesucht: § 46 WsG Festsetzung
+Grundwasserschutzzonen, §§ 90/91 WsV Festsetzung/vorläufiger Schutz, § 207 WsV — keines mit
+Grundbuch-Klausel). § 119 WsG («Anmerkung im Grundbuch») ist strukturell zu eng: er verbindet nur
+eine **Konzession oder Bewilligung** mit einem **bestimmten** Grundstück — das deckt sich eher mit
+dem alten § 8 Abs. 2 EG GSchG (generelle Bewilligung) als mit § 36/§ 37 (flächige
+Zonen-/Areal-Anordnungen, die viele Grundstücke gleichzeitig betreffen). Bundesrechtlich einzig
+verwandt: **Art. 20 Abs. 2 lit. b GSchG** verpflichtet Inhaber von Grundwasserfassungen, «die
+erforderlichen dinglichen Rechte» zu erwerben (Fedlex-Volltext gegengelesen) — das ist aber ein
+anderes Institut (Dienstbarkeit/Eintragung nach ZGB Art. 730 ff., nicht die kantonale
+«Anmerkung» nach ZGB Art. 962) und ersetzt § 36 Abs. 2 EG GSchG nicht wortgleich.
+**Nicht abschliessend geprüft:** GSchV Anhang 4 Ziff. 12/13 (Grundwasserschutzzonen-Ausscheidung) —
+der Annex-Inhalt liess sich über die Fedlex-HTML-Extraktion nicht auslesen (nur der Haupttext von
+Art. 29 GSchV war zugänglich). Vor einer abschliessenden Aussage müsste der Anhang direkt am
+PDF-Volltext gelesen werden. Bis dahin bleibt Frage B offen; kein Rate-Ersatz eingesetzt.
+
+Quellen: `raw/260823_amtlich_zh_eg-gschg.md` (neu, EG GSchG Nachtrag 099 vollständig),
+`raw/260803_amtlich_zh_wsg.md`, `raw/260803_amtlich_zh_wsv.md`, Fedlex GSchG (SR 814.20, ELI
+1992/1860_1860_1860) und GSchV (SR 814.201, ELI 1998/2863_2863_2863) direkt gegengelesen (nicht
+im Hub abgelegt, nur Art. 20/29 zitiert). Korrigiert:
+`buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (beide Stellen).
+
 ## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Pruefluecke im BBV-I-Bereich des Buch-Layers
 
 **T-09 · ✅ ERLEDIGT 2026-08-23.** Sind weitere §§ 47b-47n BBV I bzw. EnerG-Paragraphen der

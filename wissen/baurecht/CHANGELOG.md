@@ -3,6 +3,26 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (Recherche-Agent) — EG GSchG-Volltext beschafft; § 15 Abs. 3 geklärt, § 36 Abs. 2 bleibt offen
+- [ingest] `raw/260823_amtlich_zh_eg-gschg.md` — Einführungsgesetz zum Gewässerschutzgesetz (EG
+  GSchG, LS 711.1), letzte Fassung Nachtrag 099 vor der Aufhebung per 01.06.2026, vollständig von
+  `notes.zh.ch` beschafft und per `pdftotext -layout` gelesen. Schliesst eine Lücke derselben Art
+  wie Wissens-Chef Run 18 (WsG fehlte trotz Zitierung) — das EG GSchG wurde in
+  `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` rund sechsmal zitiert, ohne dass der
+  Volltext je im Hub lag.
+- [fix] `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`, zwei Stellen korrigiert: (1)
+  § 15 Abs. 3 EG GSchG betrifft Kanalisations-**Nebenleitungen** (Hausanschlüsse), nicht
+  «Nebenanlagen» im Gewässer-/Grundwasserschutzbereich, und enthält keine 40-m-Angabe im
+  Gesetzestext (die «ca. 40 m» war eine Buch-eigene Praxisangabe); Nachfolge im WsG jetzt korrekt
+  auf § 53 Abs. 3 + § 56 Abs. 1/2 WsG belegt (vormals fälschlich § 52 lit. b WsG vermutet). (2)
+  § 36 Abs. 2 EG GSchG (Grundbuch-Anmerkung von Grundwasserschutzmassnahmen) am Volltext
+  bestätigt; weiterhin keine wörtliche WsG/WsV-Nachfolgeregelung auffindbar, jetzt aber mit
+  präziserer Begründung (§ 119 WsG zu eng, Art. 20 Abs. 2 lit. b GSchG strukturell anderes
+  Institut) statt offener Vermutung.
+- [flag] `wiki/QUESTIONS.md`: Frage A aus dem Eintrag 2026-08-03 (Buch-Run 71) geschlossen, Frage
+  B bleibt offen (GSchV Anhang 4 Ziff. 12/13 nicht abschliessend geprüft — Annex-Inhalt über
+  Fedlex-HTML-Extraktion nicht zugänglich).
+
 ## 2026-08-19 (Wissens-Chef Run 37, Cross-KB) — die als «normative Fundstelle» benannte SIA 416/1:2007 ist selbst zurueckgezogen
 
 - **`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`:** Die Cross-Ref-Anmerkung aus
