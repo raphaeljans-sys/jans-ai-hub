@@ -2,6 +2,57 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf Kennwerte/Verfahren, Auftrag Raphael)
+
+Auftrag: die vier Verfahrensartikel (Realwert, Ertragswert/DCF, Vergleichswert/hedonisch,
+Residual-Landwert) auf Aktualität und Belegstand prüfen, offene Fragen wo belegbar schliessen,
+Bring-Schulden klar markiert offen halten statt raten.
+
+**Befund vorab:** die KB ist durch die Runs 1-52, mehrere Wissens-Chef-Cross-KB-Läufe und den
+Health-Check vom 22.08.2026 bereits sehr weit verifiziert — alle tragenden Rechenketten der vier
+Verfahrensartikel wurden in den Runs 18-22 per Modell-D-Recompute gegen die Primärquellen
+gegengelesen und bestanden. Ein weiterer Vollverifikations-Pass ohne neues Rohmaterial wäre
+Wiederholung; die Prüfung dieses Laufs hat sich deshalb auf (a) Marktanker-Aktualität, (b) eine
+gezielte Stichprobe bei einer der als "hängig" geführten Rechtsgrundlagen und (c) Registerpflege
+konzentriert.
+
+**Neu belegt:**
+- **SMG/Homegate-Mietindex Juli 2026 = 134 Punkte** (0 % MoM, +2.4 % YoY, publ. 13.08.2026) —
+  erster MoM-Rückgang in 15 von 26 Kantonen seit Beginn der in [[investorenmarkt-makro]]
+  geführten Beobachtungsserie (Run 51); mit einem Datenpunkt nicht als Trendwende zu werten,
+  aber als möglicher Frühindikator vermerkt. Primärquelle direkt gegengelesen.
+- **Zollikon-BZO-Teilrevision materiell weiterentwickelt:** die Gemeindeversammlung hat die
+  Revision am 03.12.2025 mit Änderung angenommen (bisheriger KB-Stand: "Gemeinderat-Beschluss
+  20.08.2025, noch nicht in Kraft" — das war der Stand vor der Volksabstimmung). Die amtliche
+  Rechtssammlung der Gemeinde führt zum Web-Check-Zeitpunkt (23.08.2026) weiterhin **Stand
+  5.4.2013** als gültig — Rechtskraft/kantonale Genehmigung ist damit weiterhin offen, die in
+  [[az-gfz-kennwerte]] hinterlegte Grundmass-Tabelle bleibt unverändert korrekt. Nur der
+  Zwischenstand ist nachgeführt, keine Kennwerte geändert.
+
+**Registerpflege (kein neuer Fachbefund):** die vom Health-Check 22.08.2026 gemeldete veraltete
+Klammer-Angabe in [[wissensluecken]] D1 ("Langnau am Albis ganz fehlend") ist entfernt — der
+Fact-Sheet-Artikel [[marktdaten-gemeinden/zh-langnau-am-albis-8135]] existiert seit Längerem und
+ist `established` (Stand 12/2025).
+
+**Geprüft, kein neuer Fund:** BWO-Referenzzinssatz (nächste Publikation 01.09.2026, turnusgemäss
+noch nicht fällig), BFS-Baupreisindex (nächste Erhebung 01.10.2026, halbjährlich, noch nicht
+fällig), SNB-Leitzins (nächster Entscheid 24.09.2026). Kein neuer JANS-Bewertungsfall — der
+IMMO-01-Projektordner enthält zwar einen zuvor in dieser KB nicht erwähnten Ordner "8155
+Niederhasli … CS Controlling Sensitivität", dessen Dateien datieren aber auf 11.08.2025 (älter
+als der bekannte jüngste Fall Wangen 8855, 06.2026) — kein neuer, sondern ein bereits
+bestehender Altfall.
+
+**Bewusst nicht angefasst:** T-Regelgeschoss (Fachentscheid Raphael 0.70 vs. 0.75, needs-decision-
+Box in [[realwert-sachwert]] unverändert in Kraft) und T-Umlaut (KB-weite ae/oe/ue-Schreibung,
+review-pflichtig, dedizierter wissenscheck-Phase-2-Lauf nötig — kein blinder Massenersatz). Alle
+Bring-Schulden D1 (teilw. geschlossen s.o.)/D2/D5/D7/D9/D10/D12/D13/D14 bleiben unverändert als
+solche markiert offen — keine davon ist ohne Material/Zugang von Raphael autonom schliessbar.
+
+Geänderte Dateien: `wiki/investorenmarkt-makro.md` (SMG-Update, `last_updated`/Quellen
+nachgeführt), `wiki/az-gfz-kennwerte.md` (Zollikon-Zwischenstand, `last_updated` nachgeführt),
+`wiki/wissensluecken.md` (D1-Korrektur, neuer Run-Eintrag). Report:
+`outputs/2026-08-23_vertiefungslauf-kennwerte-verfahren.md`.
+
 ## 2026-08-22 (Wissens-Health-Check, Nachtschicht Mac Mini, Phase 1) — A1 · B0 · C0 · D3 · E1 · F2 · G1
 
 Erster systematischer 7-Audit-Check seit dem Sammellauf 03.08.2026 (Prioritaet 6, da alle

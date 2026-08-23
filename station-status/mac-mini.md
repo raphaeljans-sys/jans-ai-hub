@@ -1,10 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 16:09:12
+Stand: 23.08.2026 16:20:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 15:55)
-- /Users/raphaeljans  (letzte Aktivitaet 15:43)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -13,4 +12,4 @@ Stand: 23.08.2026 16:09:12
 - keine
 
 ## Hub-Git-Stand (NAS)
-- c64a27f9 vollgas-radar: Stand 16:40 - 9 Laeufe rotierend, Kollisionsprobe bestanden
+- be5e60fa wissen/immobilienbewertung: Vertiefungslauf 23.08.2026 - Marktpuls SMG Mietindex 07/2026, Zollikon BZO-Status nachgefuehrt, D1-Registerpflege

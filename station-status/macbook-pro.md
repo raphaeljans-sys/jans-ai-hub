@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 16:11:23
+Stand: 23.08.2026 16:21:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 16:09)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 16:11:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- bc57ff7a wissens-destillat buero-projekte: Triage Phase 1 abgeschlossen (706 Zeilen klassifiziert, 62 P1/91 P2/26 P3, 632 uebersprungen), KORPUS-QUEUE + Spec-Plan + CHANGELOG projekt-lessons nachgefuehrt
+- be5e60fa wissen/immobilienbewertung: Vertiefungslauf 23.08.2026 - Marktpuls SMG Mietindex 07/2026, Zollikon BZO-Status nachgefuehrt, D1-Registerpflege

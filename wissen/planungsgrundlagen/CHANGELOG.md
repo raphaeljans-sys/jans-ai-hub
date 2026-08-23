@@ -2,6 +2,48 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 — QUESTIONS.md-Abarbeitung: neun offene Positionen bearbeitet, sieben geschlossen
+
+- **K68** (revBZO Thalwil, proj-Layer-Verhalten): Live-Connector-Test am Referenzfall Bohlweg 3
+  Thalwil (Parz. 6289) — Teilfrage (a) beantwortet (proj-Attribute bei `Aenderung_Bauordnung`
+  koennen bestueckt sein, kein verlaessliches Ausschlusskriterium), Teilfrage (b) mangels
+  Statuswechsel noch nicht beobachtbar. Neuer Benchmark-Eintrag in
+  `wiki/kartenportale-zonenplan-zh.md` §A6.
+- **K62** (Regenwasser-Nutzungsseite): bereits grossteils vorhandener Abschnitt A.2 in
+  `wiki/recht-norm-regenwasser-gewaesserraum-zh.md` verifiziert, Raw-Dateinamen korrigiert
+  (`260730_` → `260803_amtlich_zh_wsg/wsv.md`), Verlinkung zu `baurecht`s inzwischen erfolgter
+  Destillation ([[baureife-und-erschliessung]]) nachgezogen.
+- **K61** (KGSchV-Nachfolgeerlass OEREB-Thema 130): Nachfolgenorm belegt (§ 45 WsG, § 92 WsV),
+  Tabellenzeile und Kasten in `wiki/kartenportale-oereb-kataster-system-zh.md` nachgefuehrt;
+  Datumskorrektur aus `baurecht` (KGSchV nicht 2022, sondern erst 01.06.2026 aufgehoben)
+  uebernommen.
+- **R74** (VSS-Tiefgarage-Geometrie 2005→2021): `wiki/recht-norm-tiefgarage-erschliessung.md`
+  Abschnitt 2 materiell auf VSS 40 291:2021 umgestellt (Parkfeld-/Fahrgassenmasse, lichte Hoehe,
+  Rampenneigung, Kurvenverbreiterung, Motorrad-Parkfelder), Ausgabe 2005 in neuen Abschnitt 2.8
+  fuer Bestandesanlagen 2006-2019 verschoben samt Delta-Tabelle. Werte aus zwei bereits
+  `established` Destillaten der KB `normen` synthetisiert (keine neue Norm-Lektuere). Cross-KB-
+  Ruecklauf in `wissen/normen/wiki/QUESTIONS.md` Run 38 nachgetragen.
+- **C40** (Brandschutz EFH→MFH-Nachruestpflicht): zweistufiger Verhaeltnismaessigkeits-Massstab
+  belegt (BSN 1-15 Art. 2 + Schwelle «neubauaehnliche Umgestaltung»), zwei falsche Faehrten
+  widerlegt (BSR 15-15 Ziff. 3.7 ohne Bestandes-Aussage, § 357 PBG gilt nicht fuer Brandschutz).
+  Eingearbeitet in `wiki/brandschutz-pl03-wegweiser.md` §4b.
+- **F-UEBERGABE** (Cross-KB-Bringschuld-Mechanismus): neue Klausel in Rule
+  `wissens-bibliothekar.md` ergaenzt — der erledigende Lauf traegt die Pflicht, den Fund in der
+  Empfaenger-KB sichtbar zu machen. Live an K61 und R74 angewendet.
+- **F-LINKS-REST** (vier gealterte Fundstellen): zwei quellenbehaftete Faelle (eco-bau.ch,
+  energieheld.ch) mit «Quelle nennt X, heute Y»-Vermerk in `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+  §6.5 und `wiki/energie-pv-eignung-typenwahl.md` nachgetragen.
+- **D9** (MFH-/ZEV-Betriebskostenfall) und **E13** (bexio.mjs UTC-Datumsfalle) bleiben bewusst
+  offen — beide sind nicht durch Recherche schliessbar (D9 wartet auf ein reales Projekt, E13 auf
+  Raphaels Einzelfreigabe nach Rule 260702); Re-Verifikation 2026-08-23 dokumentiert, kein neuer
+  Rueckstand.
+
+Alle Eingriffe nach Rule `auto-verbesserungen` 260811 per `git diff --numstat` (nativ via ssh)
+gegen den Sessionstand geprueft: nur Ergaenzungen/gezielte Ersetzungen, keine unbeabsichtigten
+Loeschungen; die grossen Nachbar-Diffs in `wissen/baurecht/wiki/QUESTIONS.md` und
+`wissen/normen/wiki/QUESTIONS.md` stammen von parallel laufenden Loops (eigene Commits,
+verifiziert), nicht von dieser Bearbeitung.
+
 ## 2026-08-22 — Wissens-Chef Run 40 (Cross-KB): zwei VKF-Fassungs-Vorbehalte + Routing-Korrektur
 
 - `wiki/brandschutz-pl03-wegweiser.md` §5ag: **Fassungs-Vorbehalt** zur VKF-Erlaeuterung 108-15

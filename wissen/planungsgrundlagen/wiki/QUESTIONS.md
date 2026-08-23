@@ -1557,23 +1557,22 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
   den grower stillzulegen, bleibt richtig; **keine Reaktivierung** zu prüfen. Nächste Prüfung im
   nächsten Wartungslauf — legt Raphael zwischenzeitlich Material ab, meldet ohnehin der
   `wissens-trigger`.
-- [ ] **F-LINKS-REST (Wartungslauf 01, 2026-07-30 · nachgemessen Wartungslauf 02, 2026-08-01) —
-  vier Adressen mit gealterter, aber nicht toter Fundstelle.** **Stand 01.08.2026:** alle vier
-  erneut gemessen, **unverändert**; bleibt offen, weil die Korrektur je einen inhaltlichen
-  Anlass braucht und keinen mechanischen Austausch. `energieheld.ch` ist inzwischen zusätzlich
-  **522** auf dem blanken Namen (mit `www.` 200) — der Anbieterwechsel zu `ckw.ch` ist damit
-  auch technisch sichtbar. Beim Frischecheck aufgefallen, bewusst **nicht** eigenmächtig
-  umgeschrieben, weil sie in der Sache noch tragen und teils als Zitat aus einer Quelle stehen:
+- [x] **F-LINKS-REST (Wartungslauf 01, 2026-07-30 · nachgemessen Wartungslauf 02, 2026-08-01 ·
+  GESCHLOSSEN 2026-08-23) — vier Adressen mit gealterter, aber nicht toter Fundstelle.** Die
+  Bearbeitung dieser QUESTIONS-Liste ist der «inhaltliche Anlass», auf den die beiden
+  quellenbehafteten Fälle warteten — dort nachgetragen, die zwei Nicht-Defekte bleiben unverändert
+  dokumentiert, nichts mechanisch ausgetauscht:
   - `www.eco-bau.ch/index.cfm?Nav=15&ID=16` (**404**, alte CFM-Struktur) in
     [[recht-norm-ahb-stadt-zuerich-projektstandards]] — die Organisation firmiert heute unter
-    **`ecobau.ch`** (`eco-bau.ch` leitet dorthin, 200). Der Artikel führt die Adresse ausdrücklich
-    als «bewusste Verweis-Platzhalter» aus dem AHB-Quelldokument; ein stiller Austausch würde das
-    Zitat verfälschen. Beim nächsten inhaltlichen Anlass sauber als «Quelle nennt X, heute Y» führen.
+    **`ecobau.ch`** (`eco-bau.ch` leitet dorthin, 200). **Nachgetragen als «Quelle nennt X, heute
+    Y»-Vermerk direkt im Artikel** (§6.5), Zitat aus dem AHB-Quelldokument selbst unverändert.
   - `energieheld.ch` in [[energie-pv-eignung-typenwahl]] leitet heute auf **`ckw.ch`** weiter
-    (Anbieter übernommen) — die Fundstelle zeigt nicht mehr auf den zitierten Inhalt.
-  - `map.apps.be.ch` (Kt. Bern) antwortet **nur über `http://`**, nicht über `https://`.
-  - `daten.geo.lu.ch/download/` liefert ohne Parameter 404; der Host selbst ist live (200) — das ist
-    erwartetes Verhalten eines Download-Endpunkts, kein Defekt, hier nur zur Abgrenzung notiert.
+    (Anbieter übernommen). **Nachgetragen als Vermerk im Artikel** (§ zu den Run-65-Nicht-Delta-
+    Funden) — der Ordnername bleibt Provenienz-Vermerk, kein aktiver Verweis.
+  - `map.apps.be.ch` (Kt. Bern) antwortet **nur über `http://`**, nicht über `https://` — kein
+    Defekt, bereits korrekt dokumentiert, keine Änderung nötig.
+  - `daten.geo.lu.ch/download/` liefert ohne Parameter 404; der Host selbst ist live (200) —
+    erwartetes Verhalten eines Download-Endpunkts, kein Defekt, keine Änderung nötig.
 - [x] **F-KONSISTENZ (Nachaudit 2026-07-28) — GESCHLOSSEN, Fehlalarm korrigiert.** Der Audit
   meldete zunächst «sieben Phantom-Backlinks auf nie geschriebene Artikel»
   (`[[u-werte-grenzwerte-ch]]`, `[[graue-energie]]`, `[[minergie-standards]]`,
