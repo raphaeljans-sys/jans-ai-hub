@@ -5,7 +5,7 @@ ausgabe: "Version 1.1, Juli 2008 (Titelblatt S. 1 verifiziert; ursprüngliche Fr
 gelesen: "2026-08-13 (vollst., 11 S.)"
 datenstand: "2008, ⚠ Alterskorpus — 18 Jahre alt. Die Systematik des Raummodul-Ansatzes (Sollzustand je Raumtyp, klare Ein-/Ausschaltkriterien, Rollenteilung Planer/Betreiber/Nutzende) trägt heute noch; die konkreten Zahlenwerte, Geräte- und Verkabelungsannahmen sind Stand 2008 und nicht ungeprüft auf 2026 übertragbar (siehe Bauherren-Transfer)"
 status: emerging
-last_updated: "2026-08-23 (E-R129-4 Diskrepanz zu SIA 2024 nachgetragen)"
+last_updated: "2026-08-23 (E-R129-4 Diskrepanz zu SIA 2024 nachgetragen; Original-PDF gegengelesen, Standardwert-Hypothese widerlegt)"
 ---
 
 # Destillat — Raummodul Büro — Standard Gebäudetechnik (Stadt Zürich AHB)
@@ -119,14 +119,30 @@ Ergänzend zeigt das vorgelagerte Schema «Abhängigkeiten in einem Büro» (S. 
 - Unklar, ob nach Juli 2008 (V1.1) eine neuere Fassung des Raummoduls Büro freigegeben wurde; nicht Teil dieser Quelle, bei Bedarf bei der AHB-Fachstelle Energie und Gebäudetechnik zu verifizieren.
 - Unklar, ob und wie die im Dokument erwähnten «Richtlinien GT» (Beleuchtung, Elektroanlagen, Lüftungsanlagen, Heizungsanlagen, Kommunikationsverkabelung Verwaltungsgebäude) mit den bereits destillierten `ahb-zuerich-gt-rl*`-Dokumenten in dieser KB identisch sind oder eigene, separate Dokumente bilden — Abgleich nicht Teil dieses Laufs.
 - **Nachtrag 23.08.2026 (E-R129-4, `wiki/QUESTIONS.md`): Diskrepanz zur Primärquelle SIA 2024
-  gefunden, nicht aufgelöst.** SIA 2024:2006, Datenblatt 3.1 «Einzel-, Gruppenbüro» (KB `normen`,
+  gefunden, Hypothese «Standardwert statt Auslegungswert» am Original widerlegt, Ursache
+  weiterhin ungeklärt.** SIA 2024:2006, Datenblatt 3.1 «Einzel-, Gruppenbüro» (KB `normen`,
   `[[sia-mb-2024-2006]]`, Original S. 34) nennt für den **Auslegungswert** einen
   Aussenluftvolumenstrom von **36 m³/(h·Person)** — dieses AHB-Raummodul (2008) gibt für dieselbe
   Nutzung nur **25 m³/h pro Person**, also rund 30 % weniger. Beim Schwesterdokument
   `[[ahb-raummodul-klassenzimmer]]` stimmte derselbe Vergleich exakt überein (beide 25 m³/(h·P));
-  beim Büro tut er das nicht. Mögliche Erklärungen (keine geprüft): die Stadt Zürich könnte 2008
-  bewusst mit dem SIA-2024-**Standardwert** statt dem Auslegungswert gerechnet haben, oder eine
-  ältere SIA-380/4-Vorgabe herangezogen haben, oder die Zahl stammt aus einer eigenen
-  städtischen Wirtschaftlichkeitsabwägung. Vor Verwendung in einem aktuellen Devis ist der
-  massgebende Wert über SIA 382/1:2025 (IDA-Kategorien) zu bestimmen, nicht eine der beiden
-  Altzahlen fortzuschreiben.
+  beim Büro tut er das nicht.
+  **Original-PDF direkt gegengelesen (23.08.2026, M365-Graph-Connector, Site PL,
+  `SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf`, S. 34, Zeile «Aussenluftvolumenstrom pro
+  Person, Nichtraucher, V'e,P, m³/(hP)»):** die Zeile trägt in der Tabelle **nur einen Wert, 36,
+  in der Auslegungs-Spalte — die Spalten «Standardwert» und «Bereich» sind für genau diese
+  Zeile leer.** Die Hypothese «Stadt Zürich hat 2008 mit dem SIA-2024-Standardwert statt dem
+  Auslegungswert gerechnet» ist damit **widerlegt**: einen solchen alternativen Standardwert
+  gibt es in der Quelle schlicht nicht. Der Definitionstext von SIA 2024:2006 (Kap. 2, S. 15)
+  erklärt zudem, dass 36 m³/h pro Person der **allgemeine SIA-380/4-Ansatz** für Nutzungen mit
+  permanenter Personenbelegung ist («… wie z.B. Büronutzung wird im Allgemeinen mit 36 m³/h pro
+  Person gerechnet») — die IDA-Luftqualitätskategorien von SIA 382/1 werden an dieser Stelle nur
+  für die **Ventilatorsteuerung**, nicht für die Bemessung des Aussenluftvolumenstroms selbst
+  herangezogen. Damit bleiben von den ursprünglich drei Hypothesen nur zwei offen, und beide sind
+  ohne weitere Quelle nicht mehr aufklärbar: eine **ältere SIA-380/4-Fassung mit einem
+  abweichenden Zahlenwert** (SIA 380/4 selbst liegt weder im NAS- noch im SharePoint-Bestand vor,
+  kostenpflichtig wie SIA 380/1:2016 unter E-R148-1) oder eine **eigene städtische
+  Wirtschaftlichkeitsabwägung** der AHB-Fachstelle Energie und Gebäudetechnik, die in keiner der
+  beiden gelesenen Quellen dokumentiert ist. Vor Verwendung in einem aktuellen Devis bleibt der
+  massgebende Wert über SIA 382/1:2025 (IDA-Kategorien, `[[komfortlueftung-wrg-sia382-luftwechsel]]`)
+  zu bestimmen, nicht eine der drei Altzahlen (36 SIA 2024:2006 / 25 AHB 2008 / IDA 2025)
+  fortzuschreiben.
