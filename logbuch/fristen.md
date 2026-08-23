@@ -480,6 +480,19 @@ was den Mini von ausserhalb des LAN erreicht. **Der Radar hat nicht eingegriffen
 sind Klasse 4 der Rule `interaktive-eingriffe`, und dieser Lauf ist unbeaufsichtigt. Behebung
 Raphael, ein Befehl auf dem Mini: `/Applications/Tailscale.app/Contents/MacOS/Tailscale up`.
 | eigene Messung 20.08.2026 00:57 per ssh mini; Laufbelege `logbuch/laeufe/260819-laeufe.jsonl` | Hub-Infrastruktur | mittel | offen
+**Nachtrag 23.08.2026, 14:5x (energie-training Run 150, laufend auf dem Mac Mini): unveraendert
+offen, jetzt seit drei Tagen.** Erneut gemessen, diesmal lokal auf dem Mini statt per ssh:
+`Tailscale status` → `Tailscale is stopped`. Der Ausfall ist damit zum vierten Mal belegt (Runs
+vom 19.08., 20.08., Run 149 heute Mittag, jetzt Run 150) und faellt weiterhin nur auf, wenn ein
+Lauf den Sofort-Commit versucht — im LAN ist alles normal. **Neu bestaetigt: der im Eintrag
+genannte Umweg funktioniert.** `JANS_NAS_SSH="raphaeljans@192.168.1.10" bash
+scripts/nas-commit-now.sh "<Message>"` hat den Commit 9a611e7d sauber nativ ausgeloest, inkl. Push
+und Nachziehen des SSD-Klons. **Das ist ein Notbehelf, keine Behebung:** er hilft nur einem Lauf,
+der ohnehin im LAN sitzt, und aendert nichts daran, dass der Mini von ausserhalb des Bueros
+unerreichbar bleibt (kein `ssh mini` unterwegs, kein Dispatch vom Handy, kein remote-tasks-Weg von
+claude.ai/code). Behebung unveraendert Raphael, ein Befehl auf dem Mini:
+`/Applications/Tailscale.app/Contents/MacOS/Tailscale up`. | eigene Messung 23.08.2026 auf dem Mac
+Mini | Hub-Infrastruktur | mittel | offen
 
 
 Eintrag 19.08.2026, 06:55 (Logbuch-Radar — **ein neuer Punkt auf dem kritischen Pfad, der bei
