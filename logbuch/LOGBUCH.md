@@ -3,6 +3,57 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Hub-Chef 23.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, Jegen-Versand terminiert (A7)
+
+Signale eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, der Radar-Abschnitt
+06:55 (vollständig vorhanden, Grundlage dieses Briefings), Konversations-Destillat 23.08.,
+`mail-vorfilter.sh 26` über alle Konten, bexio `--verzug` und `--abgleich`, Entwurfs- und
+Gesendet-Ordner, Lauf-Journal, Sync-, Freigabe- und Remote-Queues (alle leer), `services/KATALOG.md`.
+Das mechanische Einsammeln lief über einen Haiku-Subagenten, Urteil und Entscheid blieben im
+Hauptkontext (Rule `modellwahl-routine`). **Ein AG-Gründungs-Abschnitt fehlt den fünften Tag in
+Folge**; ein Verzugscheck-Abschnitt fehlt bei durchgehendem HTTP 401 folgerichtig.
+
+**Subagenten-Befund gegengeprüft und widerlegt** (Rule `auto-verbesserungen` 260729b). Der
+Sammel-Subagent meldete den Apple-Mail-Entwurfsordner als «leere Ausgabe». Eigene Messung: 30+
+Entwürfe, darunter der Jegen-Entwurf vom 21.08. 08:47 und zwei ältere Fassungen desselben
+Vorgangs. Wäre der Befund übernommen worden, hätte der Tag den wichtigsten offenen Punkt verloren.
+
+**Ausgeführte Aktion (A7, Mailversand mit Widerrufsfenster).** Die dritte Nachfassung an
+L. Bajrami (Jegen AG) zur Massaufnahme der inneren Verglasung, Los 274.01, ist als Vorgang
+**260823-085517-38206** in der Widerrufs-Queue angemeldet, **fällig Montag 24.08.2026 07:00**
+(Fälligkeit an der Task-Datei nachgemessen), Veto per «STOP 260823-085517-38206». Guards erfüllt:
+bestehende Korrespondenz belegt (Bajrami 17.08. und 18.08., Antwort RJ 18.08. 11:54), kein
+Erstkontakt, Anrede nach `anrede-kontakte` Default Sie, QS bestanden — `rechtschreibung` grün,
+`twin-chef` **BESTANDEN, Fidelity 87**. Geändert wurde einzig die Frist (Montag 24.08. auf
+Dienstag 25.08.), weil eine Frist am Tag des Zugangs nicht trägt. Der Layout-Befund (Signatur
+umstellen, Daten sechsstellig) wurde nach Gegenprüfung **nicht** übernommen: er würde die gelebte
+Signatur und den belegten Mail-Fliesstext-Stil umbauen, und die sechsstellige Konvention gilt für
+Dateinamen, nicht für Mail-Fliesstext.
+
+**Werkzeug-Lücke geschlossen.** Die Widerrufs-Queue war seit dem 09.08. ausschliesslich mit
+`echo`-Kommandos erprobt; das in ihrer eigenen Hilfe genannte `scripts/versand-draft-senden.sh`
+hat nie existiert. Neu angelegt: **`scripts/versand-mail-senden.sh`** (Betreff, Body-Datei,
+Adresse, `--trocken`), mit Schutz gegen den Leer-Draft-Fehler (Body unter 50 Bytes bricht ab) und
+Protokoll nach `logbuch/widerruf/versand.log`. Im Trockenlauf geprüft **und** im Echtlauf belegt:
+das heutige Briefing ist über dieses Script gegangen (4'673 Bytes, Logzeile 09:05). Damit ist der
+osascript-Pfad verifiziert; **offen bleibt allein, ob Apple Mail sich morgen 07:00 aus dem
+launchd-Kontext steuern lässt** — im Briefing offengelegt, mit Rückfallanweisung.
+
+**Ausgeführte Aktion (A4, Register).** Zwei Nachträge in `logbuch/fristen.md` (terminierter
+Jegen-Versand, vollständige Gastablauf-Messung), Delta **+33/-0**, reines Einfügen (Rule
+`auto-verbesserungen` 260811).
+
+**Fachlicher Befund des Tages: der ablaufende Gastzugriff betrifft zwei Personen, nicht eine.**
+`m365 request` auf `sites/kispi/_api/web/siteusers` zeigt **19 externe Gäste, davon genau zwei mit
+Ablaufdatum**: Bajrami 07.09.2026 (Systemmail 02:28) und **L. Hiltmann 22.09.2026, bisher nirgends
+gemeldet**. Es sind die zwei Externen, an denen die beiden offenen Bringschulden hängen. Nicht
+selbständig verlängert: A6 würde es decken, aber ein belegter Schreibweg auf das Feld `Expiration`
+steht weder in `connectors/WEGE.md` noch in der Betriebs-Chronik, und ohne Termindruck rechtfertigt
+nichts einen ungetesteten Schreibeingriff in Berechtigungen. Im Briefing vorgelegt.
+
+**Briefing gesendet** 09:05 an rj@raphaeljans.ch, Body **4'673 Zeichen nachgemessen** (Gegenprobe
+zum Leer-Draft-Fehler). Kein Versand an Dritte in diesem Lauf, keine Buchung, keine Löschung.
+
 ## Logbuch-Radar 23.08.2026 (06:55, planmässig, Sonntag; ein neuer Befund, sonst still)
 
 Quellen vollständig abgeklopft: Register und Journal, Konversations-Destillat 23.08.,

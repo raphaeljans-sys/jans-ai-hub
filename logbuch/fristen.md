@@ -4,6 +4,39 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
+**NEU 23.08.2026, 08:5x (Hub-Chef) — Der Jegen-Entwurf ist zum Versand terminiert; er geht Montag
+07:00 automatisch hinaus, wenn kein Veto kommt.** Der Entwurf zur Massaufnahme der inneren
+Verglasung lag den dritten Tag unversandt im Postfach und wäre morgen zum dritten Mal an seiner
+eigenen Frist verfallen. Ausgeführt wurde deshalb **A7 (Mailversand an bekannte Projektbeteiligte)
+mit Widerrufsfenster**: Vorgang **260823-085517-38206**, fällig **Montag 24.08.2026 07:00**, Veto
+per Mailantwort «STOP 260823-085517-38206». Der Text ist Raphaels Substanz vom 18.08., geändert
+wurde einzig die Frist von Montag 24.08. auf **Dienstag 25.08.**, weil eine Frist am Tag des
+Zugangs nicht trägt. QS bestanden: `rechtschreibung` grün, `twin-chef` **BESTANDEN, Fidelity 87**;
+der Befund des Agenten `layout` (Signatur umstellen, Daten sechsstellig) wurde nach Gegenprüfung
+**nicht** übernommen, weil er die gelebte Signatur und den belegten Mail-Fliesstext-Stil umbauen
+würde. **Nebenbefund zur Mechanik:** die Widerrufs-Queue war seit dem 09.08. nur mit
+`echo`-Kommandos getestet, das in ihrer Hilfe genannte Versandscript existierte nie; es ist heute
+als `scripts/versand-mail-senden.sh` angelegt und im Trockenlauf geprüft worden. Scheitert die
+Ausführung morgen an der Mail-Automation aus launchd, steht nichts in
+`logbuch/widerruf/versand.log` und nichts in den Gesendeten — dann von Hand senden. Status:
+**terminiert, Widerruf offen bis Montag 07:00.**
+| Entwurf Apple Mail Exchange 21.08.2026 08:47 im Original gelesen; Queue-Eintrag und Fälligkeit an der Task-Datei nachgemessen 23.08.2026 08:55 | 2619 KISPI, Los 274.01 | hoch | terminiert
+
+**NEU 23.08.2026, 09:0x (Hub-Chef) — Nicht nur Bajrami: der Gastzugriff von L. Hiltmann läuft am
+22.09.2026 ebenfalls ab, und es sind genau diese zwei von neunzehn.** Am Original gemessen über
+`m365 request` auf `/_api/web/siteusers` der Site `sites/kispi`: **19 externe Gäste**, davon tragen
+**genau zwei ein Ablaufdatum** — **Bajrami Livdin, 07.09.2026** (die Systemmail von heute 02:28)
+und **Levi Hiltmann, 22.09.2026** (bisher nirgends gemeldet, weil noch keine Systemmail dazu kam).
+Die übrigen siebzehn, darunter alle Gruner-Leute, O. Stadelmann und die KISPI-Seite, haben kein
+Ablaufdatum; die Reparatur vom 09.08. hat für sie Bestand. **Warum das zusammen gehört:** es sind
+ausgerechnet die zwei Externen, an denen die beiden offenen Bringschulden des Projekts hängen, der
+Massaufnahme-Termin bei Bajrami und das korrigierte Türkonzept bei Hiltmann. Die Verlängerung ist
+von A6 gedeckt und umkehrbar, ein belegter Schreibweg auf das Feld `Expiration` steht aber weder in
+`connectors/WEGE.md` noch in der Betriebs-Chronik; der Weg der Systemmail («Zugriff verwalten»)
+dauert Sekunden. Nicht selbständig ausgeführt, weil ein ungetesteter Schreibweg auf Berechtigungen
+ohne Termindruck kein Anlass ist. Status: **offen, Aktion Raphael, ohne Eile bis Anfang September.**
+| `m365 request` auf `sites/kispi/_api/web/siteusers?$filter=IsShareByEmailGuestUser` am Original gemessen 23.08.2026 09:0x | 2619 KISPI, Zugriffe | mittel | offen
+
 **NEU 23.08.2026, 06:55 (Logbuch-Radar) — Der SharePoint-Zugriff auf die KISPI-Projektsite läuft
 für L. Bajrami am 07.09.2026 ab; es ist derselbe Mann, dessen Termin seit sieben Tagen im
 Entwurfsordner hängt.** Systemmail SharePoint Online, heute **02:28**, genau
