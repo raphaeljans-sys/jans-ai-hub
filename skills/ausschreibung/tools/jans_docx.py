@@ -194,7 +194,7 @@ def build_anschreiben(path, *, empfaenger, betreff, anrede, absatz_einleitung,
 
 def build_lv(path, *, projekt, los_titel, bauherr_zeilen, positionen,
              einleitung=None, bauseits=None, datum_ort="Zürich, 1. Juni 2026",
-             anbieter_zeilen=None):
+             anbieter_zeilen=None, hinweise=None):
     """Baut ein Leistungsverzeichnis (DOCX) mit leeren Preisspalten fuer den Anbieter.
 
     projekt:         z.B. "2620 Albertstrasse 7, 8008 Zürich"
@@ -254,8 +254,13 @@ def build_lv(path, *, projekt, los_titel, bauherr_zeilen, positionen,
 
     if bauseits:
         h2(d, "Bauseitige Leistungen (nicht im Auftrag enthalten)")
-        for b in bauseits:
-            para(d, "- " + b, size=10)
+        for i, b in enumerate(bauseits, 1):
+            para(d, f"{i:02d}   {b}", size=10)
+
+    if hinweise:
+        h2(d, "Hinweise und Vorbehalte")
+        for i, hnw in enumerate(hinweise, 1):
+            para(d, f"{i:02d}   {hnw}", size=10)
 
     para(d, "Gleichwertige Produkte sind zugelassen, sofern die technischen "
             "Spezifikationen vollumfänglich erfüllt werden.", size=10, before=10)

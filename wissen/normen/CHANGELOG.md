@@ -1,3 +1,45 @@
+## 2026-08-23 — SIA-Sweep, neunundzwanzigste Fortsetzung: Korrigenda SIA 384/1-C1:2025 gefunden, neue Norm SIA 384/4:2025 entdeckt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht).
+
+**Ausgangslage eigenständig geprüft:** Die 27. Fortsetzung hatte den engeren SIA-Blindzonen-Sweep
+für erschöpft erklärt (`training/norm-inventar.md`: 0 offene Positionen; unabhängig
+nachgemessen). **Nummernkollision festgestellt:** parallel zu diesem Lauf hatte ein anderer
+Prozess bereits eine «achtundzwanzigste Fortsetzung» geschrieben (bfu-Treppen/-Glas 12.2020,
+kostenlos beschafft). Eigene Artefakte nachträglich auf «neunundzwanzigste Fortsetzung»
+umbenannt, bevor sie geschrieben wurden — kein Dateikonflikt, reiner Bezeichner-Fix.
+
+**Durchgeführt:** Die von der 24. Fortsetzung erstellte P1-Bring-Schulden-Liste war nicht
+vollständig auf die seit der 19. Fortsetzung etablierte Methode «freier Korrigenda-/
+Zusatz-Download neben dem kostenpflichtigen Volltext?» geprüft. 6 P1-Zeilen nachgeholt: 5
+Nullbefunde (SIA 380:2022, 384/6:2021, 269/8:2017-Basisnorm, 243:2026, 118/430:2023 —
+Re-Bestätigung eines bereits dokumentierten Nullbefunds), **1 Treffer: SIA 384/1:2022**.
+Kostenlose Korrigenda **SIA 384/1-C1:2025** (genehmigt 11.02.2025, gültig ab 01.03.2025, 3 S.)
+per WebFetch geladen und vollständig gelesen (`pdftotext -layout unter /opt/homebrew/bin`, im
+PATH dieser Shell nicht verlinkt). Einzige Korrektur: Anhang E («Kälteverteilung», S. 63-67) wird
+durch die neue, eigenständige Norm **SIA 384/4:2025 «Klimakälteanlagen in Gebäuden — Grundlagen
+und Anforderungen»** ersetzt.
+
+**Zwei Nebenbefunde:** (1) Die 19. Fortsetzung hatte SIA 384/1 im selben Korrigenda-Check-Sweep
+bereits als Nullbefund protokolliert — bei heutiger Prüfung war der Download-Link vorhanden;
+Ursache offen (Ergänzung nach dem 19.-Fortsetzung-Abruf oder damals übersehen), als Korrektur
+vermerkt. (2) SIA 384/4:2025 war in dieser KB bislang komplett unbekannt — die Nummer 384/4 war
+nur als 1987 zurückgezogene, sachlich unverwandte Altnorm geführt. Nur aus dem Korrigenda-Zitat
+bekannt; eigenständige Metadaten-Recherche ist neue Bring-Schuld.
+
+**Nachgeführt:** neues Destillat `destillate/sia-384-1-korrigenda-c1.md` (established); Register-
+Zeilen SIA 384/1 und SIA 384/4; `wiki/QUESTIONS.md` neue Bring-Schuld-Sektion; `destillate/
+INDEX.md` neue Zeile. Report: `outputs/2026-08-23_sia-sweep-neunundzwanzigste-fortsetzung.md`.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md`
+13/8 (zwei Zeilen erweitert, keine fremde Zeile gestrichen), `wiki/QUESTIONS.md` 39/0 (reine
+Ergänzung), `destillate/INDEX.md` 6/3 (eine neue Zeile, keine gelöscht), neues Destillat additiv.
+Kein `git`-Schreibbefehl über den SMB-Mount; Commit über den 15-Minuten-`nas-selfcommit`-Cron
+bzw. `scripts/nas-commit-now.sh`.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 25 (Cross-Check-Lauf): Ziffer-für-Ziffer-Abgleich SIA 266/267 gegen DIN 1053-1/1054, Scope-Klärung SIA 262 ↔ DIN 1045-2
 
 **Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten (Rule `wissens-bibliothekar`,

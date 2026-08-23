@@ -534,7 +534,20 @@ Abschnitt 2026-07-15) stützte sich unter anderem auf die «VSS-Rampen-/Parkieru
 Korrekturvermerk gesetzt. Der Vorschlag als solcher wird durch diesen Lauf weder erneuert noch
 zurückgezogen — das entscheidet Raphael.
 
-## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — Frage 1 ✅ ERLEDIGT 2026-08-23, Frage 2 bereits GESCHLOSSEN (Run 24)
+## 2026-08-03 (Wissens-Chef Run 21, Cross-KB) — Frage 1 ✅ VOLLSTÄNDIG ERLEDIGT 2026-08-23 (Buch-Run 104), Frage 2 bereits GESCHLOSSEN (Run 24)
+
+**Frage 1, Rest-Punkt — geschlossen 2026-08-23 (Buch-Run 104).** Die beiden am 2026-08-23
+(Erstbearbeitung) offen gelassenen Punkte sind jetzt beantwortet: BEZ 2019 Nr. 5 (BRGE III
+Nr. 0170/2018) wurde im Volltext von der Entscheiddatenbank des Baurekursgerichts ZH bezogen
+(bislang nur Buchzitat). Der Entscheid ist ein **§ 358-PBG-Fall** (baupolizeiliche Kontrolle
+ausserhalb eines Baugesuchs wegen fehlender Handläufe in einem Treppenhaus) — **§ 357 PBG wird
+darin nirgends zitiert**, die Besitzstandsgarantie wird direkt aus Art. 26 BV hergeleitet. Die
+**15-%-Schwelle der Stadt-Zürcher Richtlinie kommt im Entscheid nicht vor** — in der
+einschlägigen Entscheiddatenbank-Rubrik «Absturzsicherungen» ist dies zudem der **einzige**
+publizierte Entscheid (Stand 23.08.2026, Seite 1/1), die Schwelle ist damit weder bestätigt noch
+verworfen, sondern schlicht unbelegt durch Rechtsprechung. Beleg: neuer `raw/260823_amtlich_zh_
+brge-iii-0170-2018_bez-2019-nr5.md`, eingearbeitet in [[ausnahmebewilligung-und-bestandesschutz]].
+Report `outputs/2026-08-23_buch-run104.md`.
 
 **Frage 1 — geschlossen 2026-08-23.** Die drei Aussagen widersprechen sich nicht, sie betreffen
 verschiedene Normstufen. Die Richtlinie Stadt Zürich «Absturzsicherungen im Hochbau» (aktuell

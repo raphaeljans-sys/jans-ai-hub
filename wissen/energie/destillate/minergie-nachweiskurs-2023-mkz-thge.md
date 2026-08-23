@@ -5,8 +5,8 @@ autoren: Maximilian Schaffrinna, Robert Minovsky
 ausgabe: "25.09.2023 (Tabellen-Stand 13.09.2023); Bezug: Produktreglement Minergie-Gebaeudestandards Version 2023.1"
 gelesen: 2026-06-17 (S. 1-42, Teil 1 Anforderungen + Nachweisfuehrung MKZ; Teil 2/3 Label-Plattform-Tool offen)
 datenstand: "⚠ Minergie 2023 / MuKEn 2014; periodisch revidiert — Limiten auf minergie.ch pruefen"
-status: established
-last_updated: 2026-07-21
+status: established (Rechenbeispiel-Nenner am 23.08.2026 korrigiert, Audit 01.1)
+last_updated: 2026-08-23
 verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement Gebaeudestandards MINERGIE/-P/-A,
   Version 2026.1 (Ausgabe 08.01.2026, gueltig ab 01.01.2026, minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf).
   Ergebnis: THGE-Grenzwerte je Gebaeudekategorie SEIT Kursstand 2023 revidiert (siehe Abschnitt 2 +
@@ -48,7 +48,9 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
 - Grenzwert in **kg CO₂-eq je m² EBF und Jahr**; **gleiche Berechnungsmethodik wie Minergie-ECO**;
   der gespeicherte Kohlenstoff (z. B. im Holz) wird ausgewiesen.
 - **Basisgrenzwerte je Gebaeudekategorie** (fuer Anteil EBF/GF = 80 %) **— Stand Kursunterlage 2023
-  / Produktreglement 2023.1, seither REVIDIERT, siehe ⚠ Verifikations-Update unten:**
+  / Produktreglement 2023.1, seither REVIDIERT, siehe ⚠ Verifikations-Update unten. GF-gewichtetes
+  Mittel bei EBF/GF = 80 %, kg CO2-eq/m2 GF·a — ⚠ NICHT je m2 EBF; Basiswert GW_EBF und Objektwert
+  siehe unten.**
 
 | Kat | Gebaeudekategorie | Grenzwert kg CO₂-eq/m² EBF·a (Stand 2023) |
 |---|---|---|
@@ -65,10 +67,12 @@ gewichteter Endenergie gebildete Gesamtenergiebilanz abzueglich Eigenproduktion.
 | XI | Sportbauten | 15 |
 | XII | Hallenbaeder | 15 |
 
-- Objektwert: GW_OBJ = (GW_EBF·EBF + GW_(GF−EBF)·(GF−EBF))/EBF. **Rechenbeispiel MFH (Stand 2023):
-  12,4 kg·80 % + 5,5 kg·20 % = 11 kg** (warmer EBF-Anteil teurer, kalter GF-Anteil guenstiger). Die
-  Formel/Systematik gilt unveraendert auch im Produktreglement 2026.1 (Anhang G) — nur die
-  GW_EBF-Werte je Kategorie wurden angepasst, siehe Verifikations-Update.
+- Objektwert: GW_OBJ = (GW_EBF·EBF + GW_(GF−EBF)·(GF−EBF))/EBF. **Rechenbeispiel MFH bei
+  EBF/GF = 80 %: (12,4·EBF + 5,5·0,25·EBF)/EBF = 13,8 kg CO2-eq/(m2 EBF·a).** ⚠ Korrektur
+  23.08.2026: die frueher hier stehende Rechnung 12,4·80 % + 5,5·20 % = 11 kg dividiert durch GF
+  statt durch EBF und liefert einen um 25 % zu tiefen Wert. Die Formel/Systematik gilt unveraendert
+  auch im Produktreglement 2026.1 (Anhang G) — nur die GW_EBF-Werte je Kategorie wurden angepasst,
+  siehe Verifikations-Update.
 - **Zum Vergleich:** Klimapfad-Norm **SIA 390/1** (damals in Vernehmlassung) fordert fuer Kat. I–VI
   **9 kg/m²·a inkl. PV/Erdsonde/Solarthermie** — strenger als der Minergie-Basisgrenzwert.
 - **THGE-Logik (3 Schichten):** Betrieb *im Gebaeude* → 0 (Fossilverbot, ausser Spitzenlast);
@@ -143,8 +147,8 @@ frisch abgerufen 2026-07-21):
 | Kennzahl | Kursunterlage 2023 | Produktreglement 2026.1 | Verdikt |
 |---|---|---|---|
 | Wetterdaten-Bezugsjahr sommerlicher Wärmeschutz | 2035 (DRY), max. 100 h > 26,5 °C | Kap. 7, S. 13: «Für den Nachweis sind die Wetterdaten für den Zeitraum 2035 (DRY) von Meteo Schweiz zu verwenden» — unverändert | **bestätigt** |
-| THGE-Grenzwert Wohnen MFH (Kat. I) | 11 kg CO₂-eq/m²·a (Objektwert-Beispiel bei 80/20-Split, aus GW_EBF≈12,4 + GW_GF-EBF 5,5) | Anhang G, S. 43: GW_EBF = **11,5** kg CO₂-eq/(m²EBF·a); GW_GF-EBF weiterhin 5,5. Bei identischem 80/20-Split ergibt sich neu ≈ **10,3 kg CO₂-eq/m²·a** (eigene Berechnung nach der im Reglement selbst angegebenen Formel, gleiche Methodik wie im 2023er-Rechenbeispiel) | **abweichend/aktualisiert** — Wert im Reglement 2026.1 revidiert (in der Quelle blau als Neuerung ggü. Version 2025.1 markiert) |
-| THGE-Grenzwert Spitäler (Kat. VIII) | 17 kg CO₂-eq/m²·a | Anhang G: GW_EBF Spital = **18,5** kg CO₂-eq/(m²EBF·a); bei 80/20-Split ≈ **15,9 kg CO₂-eq/m²·a** (eigene Berechnung, gleiche Methodik) | **abweichend/aktualisiert** |
+| THGE-Grenzwert Wohnen MFH (Kat. I) | 11 kg CO₂-eq/m²·a (Objektwert-Beispiel bei 80/20-Split, aus GW_EBF≈12,4 + GW_GF-EBF 5,5) | Anhang G, S. 43: GW_EBF = **11,5** kg CO₂-eq/(m²EBF·a); GW_GF-EBF weiterhin 5,5. Bei identischem 80/20-Split ergibt sich neu ≈ **12,9 kg CO₂-eq/m²·a** (eigene Berechnung nach der im Reglement selbst angegebenen Formel, gleiche Methodik wie im 2023er-Rechenbeispiel) (GW_EBF + 5,5 · 0,25; die frueher genannten 10,3 bzw. 15,9 waren durch GF statt durch EBF dividiert) | **abweichend/aktualisiert** — Wert im Reglement 2026.1 revidiert (in der Quelle blau als Neuerung ggü. Version 2025.1 markiert) |
+| THGE-Grenzwert Spitäler (Kat. VIII) | 17 kg CO₂-eq/m²·a | Anhang G: GW_EBF Spital = **18,5** kg CO₂-eq/(m²EBF·a); bei 80/20-Split ≈ **19,9 kg CO₂-eq/m²·a** (eigene Berechnung, gleiche Methodik) (GW_EBF + 5,5 · 0,25; die frueher genannten 10,3 bzw. 15,9 waren durch GF statt durch EBF dividiert) | **abweichend/aktualisiert** |
 | MKZ-Fixwerte 51/46/29 kWh/m² (Wohnen MFH Neubau) | *(nicht in diesem Kursdestillat enthalten — stammt aus `[[minergie-besser-planen-bauen]]`, Tabelle 1 der Planungsbroschüre)* | Anhang B2, S. 33: «Da verschiedene Anforderungen an die Minergie-Kennzahl projektabhängig sind, ist die Kennzahl **nicht als fixer Wert definiert**, sondern wird für jedes Projekt individuell ermittelt» (Grundlage «Tabelle 6», Klimazuschläge, Dachfläche, Wohnungsgrösse etc.) | **nicht abschliessend verifizierbar als Fixwert** — Reglement selbst nennt keine pauschale MFH-Zahl; 51/46/29 ist ein illustrativer Richtwert der Planungsbroschüre, keine harte Reglement-Schwelle. Prüfung im zugehörigen Destillat `[[minergie-besser-planen-bauen]]` nachzuholen |
 
 **Neue Volltext-Grenzwerttabelle THGE-Erstellung (Anhang G, Produktreglement 2026.1, Neubauten,

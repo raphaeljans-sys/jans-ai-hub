@@ -3,10 +3,10 @@ beschreibung: Die zwei kantonalen Werkzeuge fuer vorschriftswidrige Bauten im Kt
 title: Ausnahmebewilligung (§ 220) und Bestandesschutz (§ 357) — ZH
 status: established
 last_updated: 2026-08-23
-sources: [raw/260607_amtlich_zh_pbg.md, "§ 220 PBG", "§ 357 PBG", "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)", "Art. 24c RPG (SR 700)", "Art. 41c GSchV (SR 814.201)", "Art. 26 BV (SR 101)", "Art. 8 ZGB (SR 210)"]
-verifiziert: "Buch-Run 103 (2026-08-23): erstmals alle vier Bundesrechts-Zitate im Abschnitt «Abgrenzungen» gegen den amtlichen fedlex-Wortlaut geprueft (Filestore-Muster, Rule docs/referenz/fedlex-volltexte.md) — Art. 24c RPG (SR 700, ELI 1979/1573_1573_1573, Stand 1.7.2026, www-Route), Art. 41c GSchV (SR 814.201, ELI 1998/2863_2863_2863, Stand 1.12.2025, fedlex.data.admin.ch-Route noetig), Art. 26 BV (SR 101, ELI 1999/404, Stand 1.1.2024, www-Route; 1.1.2025/1.1.2026 liefern nur die App-Huelle) und Art. 8 ZGB (SR 210, ELI 24/233_245_233, Stand 1.1.2026, www-Route). **4/4 CONFIRMED**, inhaltlich korrekt zugeordnet: Art. 24c RPG regelt altrechtliche Bauten ausserhalb der Bauzonen (eigenes Bundesrechts-Kapitel, hier nur Abgrenzungs-Verweis, keine Detailpruefung noetig); Art. 41c Abs. 1/2 GSchV traegt im Gewaesserraum eine dem § 357 PBG analoge Bestandesschutz-Klausel («in ihrem Bestand grundsaetzlich geschuetzt, sofern rechtmaessig erstellt und bestimmungsgemaess nutzbar»); Art. 26 BV («Das Eigentum ist gewaehrleistet») traegt die im Artikeltext behauptete Herleitung «Ausfluss von Eigentumsgarantie»; Art. 8 ZGB (allgemeine Beweislastregel) traegt die Anwendung «Beweislast traegt, wer sich auf den Bestandesschutz beruft». **Nebenbefund (kein Korrekturbedarf in diesem Artikel):** Art. 24c RPG Abs. 1 wurde per 1.1.2026 materiell revidiert (BG vom 29.9.2023) und traegt seither den neuen Titel «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige Bauten und Anlagen ausserhalb der Bauzonen»); der genaue Aenderungsumfang wurde nicht rekonstruiert, da eine Vorfassung ueber die www-Route fuer dieses Datum nicht mehr abrufbar war (durchgehend App-Huelle 77'151 Byte fuer 1.1.2024/1.1.2025/1.7.2025) und der Artikel Art. 24c nur als Abgrenzungs-Verweis fuehrt, nicht destilliert. Damit ist die von Buch-Run 102 benannte letzte Bundesrechts-Luecke der Re-Verifikationskette (Runs 90-102) geschlossen — kein Wiki-Artikel der Kette hat mehr ein ungeprueftes Bundesrechts-Zitat offen. Report outputs/2026-08-23_buch-run103.md."
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md, "§ 220 PBG", "§ 357 PBG", "§ 358 PBG", "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)", "Art. 24c RPG (SR 700)", "Art. 41c GSchV (SR 814.201)", "Art. 26 BV (SR 101)", "Art. 8 ZGB (SR 210)", "BRGE III Nr. 0170/2018 (BEZ 2019 Nr. 5)"]
+verifiziert: "Buch-Run 104 (2026-08-23): BEZ 2019 Nr. 5 (BRGE III Nr. 0170/2018) erstmals im Volltext gelesen (zuvor nur Buchzitat, Bd. 2 S. 1291) — bezogen von der Entscheiddatenbank des Baurekursgerichts ZH, Rubrik «Absturzsicherungen» (dort einziger Treffer). Ergebnis: der Entscheid ist ein § 358-PBG-Fall (baupolizeiliche Kontrolle ausserhalb eines Baugesuchs), zitiert § 357 PBG nirgends und die 15-%-Schwelle der Stadt-Zuercher Richtlinie ebenfalls nicht — sie wird vom Baurekursgericht in der einschlaegigen Rubrik weder bestaetigt noch verworfen. Schliesst beide in Wissens-Chef Run 21 (03.08.2026) offen gelassenen Punkte. Report outputs/2026-08-23_buch-run104.md. Vorherige Verifikation — Buch-Run 103 (2026-08-23): erstmals alle vier Bundesrechts-Zitate im Abschnitt «Abgrenzungen» gegen den amtlichen fedlex-Wortlaut geprueft (Filestore-Muster, Rule docs/referenz/fedlex-volltexte.md) — Art. 24c RPG (SR 700, ELI 1979/1573_1573_1573, Stand 1.7.2026, www-Route), Art. 41c GSchV (SR 814.201, ELI 1998/2863_2863_2863, Stand 1.12.2025, fedlex.data.admin.ch-Route noetig), Art. 26 BV (SR 101, ELI 1999/404, Stand 1.1.2024, www-Route; 1.1.2025/1.1.2026 liefern nur die App-Huelle) und Art. 8 ZGB (SR 210, ELI 24/233_245_233, Stand 1.1.2026, www-Route). **4/4 CONFIRMED**, inhaltlich korrekt zugeordnet: Art. 24c RPG regelt altrechtliche Bauten ausserhalb der Bauzonen (eigenes Bundesrechts-Kapitel, hier nur Abgrenzungs-Verweis, keine Detailpruefung noetig); Art. 41c Abs. 1/2 GSchV traegt im Gewaesserraum eine dem § 357 PBG analoge Bestandesschutz-Klausel («in ihrem Bestand grundsaetzlich geschuetzt, sofern rechtmaessig erstellt und bestimmungsgemaess nutzbar»); Art. 26 BV («Das Eigentum ist gewaehrleistet») traegt die im Artikeltext behauptete Herleitung «Ausfluss von Eigentumsgarantie»; Art. 8 ZGB (allgemeine Beweislastregel) traegt die Anwendung «Beweislast traegt, wer sich auf den Bestandesschutz beruft». **Nebenbefund (kein Korrekturbedarf in diesem Artikel):** Art. 24c RPG Abs. 1 wurde per 1.1.2026 materiell revidiert (BG vom 29.9.2023) und traegt seither den neuen Titel «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige Bauten und Anlagen ausserhalb der Bauzonen»); der genaue Aenderungsumfang wurde nicht rekonstruiert, da eine Vorfassung ueber die www-Route fuer dieses Datum nicht mehr abrufbar war (durchgehend App-Huelle 77'151 Byte fuer 1.1.2024/1.1.2025/1.7.2025) und der Artikel Art. 24c nur als Abgrenzungs-Verweis fuehrt, nicht destilliert. Report outputs/2026-08-23_buch-run103.md."
 quelle_destillat: "[[20-ausnahmen-bestandesschutz]] (Bd 2, Kap. 20, S. 1433-1455)"
-paragraphen: ["§ 218 PBG", "§ 219 PBG", "§ 220 PBG", "§ 220 Abs. 2 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
+paragraphen: ["§ 218 PBG", "§ 219 PBG", "§ 220 PBG", "§ 220 Abs. 2 PBG", "§ 357 PBG", "§ 357 Abs. 4 PBG", "§ 357 Abs. 5 PBG", "§ 358 PBG", "§ 307 PBG", "§ 321 PBG", "§ 238 PBG", "§ 49 Abs. 3 PBG", "§ 101 PBG", "§ 318 PBG", "§ 320 PBG", "Art. 24c RPG", "Art. 41c GSchV", "Art. 26 BV", "Art. 8 ZGB"]
 links: [[bestandsumbau-eingriffstiefe]], [[baubewilligungsverfahren]], [[baulinien-und-abstandslinien]], [[zonenkonformitaet]], [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
 ---
 
@@ -149,10 +149,26 @@ Sanierungsarbeiten» entfalle (`wissen/normen/destillate/bfu-gelaender-und-brues
 ist keine PBG-Auslegung, sondern eine unverbindliche Fachpublikations-Meinung, die begrifflich naeher
 an der Abs.-1-Logik (neubauaehnliche Umgestaltung laesst den Bestandesschutz insgesamt entfallen)
 liegt als an der Abs.-4/15-%-Praxis der Stadt Zuerich (punktuelle Nachruestauflage, Gebaeude bleibt
-im Bestandesschutz) — in der Beratung nicht gleichsetzen. **Offen:** BEZ 2019 Nr. 5 («Nachruestung
-Altbau Absturzsicherung», Buch Bd. 2 S. 1291) ist nur als Buchzitat erfasst, der Entscheidtext selbst
-ungelesen; ebenso unverifiziert, ob die 15-%-Schwelle je durch das Baurekursgericht ZH bestaetigt
-wurde (eigene Rechtsprechungsrubrik «Absturzsicherungen» vorhanden, nicht ausgewertet).
+im Bestandesschutz) — in der Beratung nicht gleichsetzen.
+
+**BEZ 2019 Nr. 5 gelesen und eingeordnet (Buch-Run 104, 2026-08-23):** Volltext bezogen
+(`raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md`, direkt von der Entscheiddatenbank
+des Baurekursgerichts ZH, Rubrik «Absturzsicherungen» — dort der **einzige** publizierte
+Entscheid, Stand 23.08.2026). Der Fall (BRGE III Nr. 0170/2018 vom 21.11.2018) ist **kein**
+Anwendungsfall von § 357 PBG: eine baupolizeiliche Kontrolle stellte ausserhalb jedes Baugesuchs
+fehlende Handlaeufe in einem 80-jaehrigen Treppenhaus fest; das Gericht stuetzt die Anordnung auf
+**§ 358 PBG** (Behebung erheblicher polizeilicher Missstaende unabhaengig von Aenderungsbegehren)
+und leitet die Besitzstandsgarantie direkt aus **Art. 26 BV** her — **§ 357 PBG wird im
+publizierten Auszug an keiner Stelle zitiert.** Materiell wendet das Gericht **SIA 358:2010**
+(Ziff. 2.2.1 f., 3.1.5, 3.1.6) unmittelbar als anerkannte Regel der Baukunde an (§ 239 Abs. 1
+PBG, § 2/§ 20 BBV I) und prueft die Verhaeltnismaessigkeit **Fall fuer Fall** (einseitiger
+Handlauf zur Kellertreppe genuegt, beidseitiger bei der Fluchttreppe zwingend) — **ohne jede
+Prozentschwelle**. Damit sind beide offenen Punkte beantwortet: (1) BEZ 2019 Nr. 5 ist ein
+§ 358-Fall, kein § 357-Fall, und bestaetigt die «keine feste Quote»-Doktrin **zusaetzlich** aus
+einer zweiten, unabhaengigen Rechtsgrundlage; (2) die **15-%-Schwelle der Stadt-Zuercher
+Richtlinie wird vom Baurekursgericht in diesem — einzigen einschlaegigen — Entscheid weder
+erwaehnt noch bestaetigt noch verworfen**, sie kommt darin schlicht nicht vor. Eine Bestaetigung
+der 15-%-Zahl durch die Rechtsprechung bleibt damit unbelegt.
 
 **Milderung von Bauvorschriften (§ 357 Abs. 5 PBG):** Wortlaut (amtlicher PBG-Volltext
 verifiziert, raw/260607_amtlich_zh_pbg.md Z. 3770-3773, Modell-D-Refuter 2026-07-13):

@@ -77,7 +77,8 @@ def build_paket(cfg, versand_dir, make_pdf=True):
         jd.build_lv(lv, projekt=projekt, los_titel=los_titel, bauherr_zeilen=bauherr,
                     positionen=positionen, einleitung=cfg.get("lv_einleitung"),
                     bauseits=bauseits, datum_ort=datum_ort,
-                    anbieter_zeilen=ab.get("empfaenger", ab.get("zeilen", [kurz])))
+                    anbieter_zeilen=ab.get("empfaenger", ab.get("zeilen", [kurz])),
+                    hinweise=cfg.get("lv_hinweise"))
         created.append(lv)
 
         # 2) Antwortformular (identisch)

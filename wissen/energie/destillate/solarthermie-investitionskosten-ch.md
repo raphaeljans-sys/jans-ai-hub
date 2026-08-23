@@ -5,7 +5,7 @@ ausgabe: hausinfo.ch 07.09.2020; Meier Tobler ohne explizites Datum (Web-Stand 2
 gelesen: 2026-07-12 (Web via WebSearch/WebFetch)
 datenstand: 2020 (hausinfo) / 2026 (Meier Tobler) — ⚠ Baukosten seither gestiegen, vor Zitat prüfen
 status: emerging
-last_updated: 2026-07-12
+last_updated: 2026-08-23
 ---
 
 # Solarthermie-Investitionskosten EFH (Schweiz)
@@ -17,6 +17,9 @@ Kombianlage (Warmwasser + Heizungsunterstützung) ist die Bandbreite **unsichere
 nennt selbst harte CHF-Zahlen.
 
 ## Kosten — zwei Sekundärquellen, keine amtliche Bestätigung
+⚠ **Preisstand 2020** — die Schweizer Baukosten sind seither gestiegen, ein 2026er-Preis ist in
+dieser KB nicht belegt. Als Groessenordnung lesen, nicht als Budget.
+
 | Anlagentyp | Kosten installiert | Quelle |
 |---|---|---|
 | Reine WW-Kompaktanlage (2 Kollektoren) | CHF 15'000–20'000 | Meier Tobler AG |
@@ -32,14 +35,16 @@ bleiben speculative**, reine WW-Anlage gilt als emerging.
 - Wartungsvertrag ca. CHF 100/Jahr (hausinfo.ch).
 - Amortisation reine WW-Anlage gegenüber Elektro-/Ölheizung ca. 15 Jahre, Förderbeiträge/
   Steuerabzüge bereits eingerechnet (hausinfo.ch, 2020 — Marktzahlen, vor Zitat aktualisieren).
-- Nationale Einmalvergütung kann bis zu 30 % der Investitionskosten decken, zusätzlich kantonale
-  Förderung/Steuerabzüge möglich (mehrere Quellen übereinstimmend, keine CH-weite Einheitszahl je
-  Kanton). Konkrete Sätze: siehe [[foerderung-energie-zh]] (Solarthermie 2'400 + 1'000/kWth) /
-  [[foerderung-energie-sz]] (identische Sätze SZ).
+- ⚠ **Korrektur 23.08.2026:** Die frueher hier stehende Angabe «Nationale Einmalverguetung kann bis
+  zu 30 % der Investitionskosten decken» ist falsch — die Einmalverguetung (EIV/KLEIV/GREIV/HEIV,
+  Pronovo) ist eine reine **Photovoltaik**-Foerderung (→ [[pv-einmalverguetung-bund-bfe]],
+  established). Solarthermie wird ausschliesslich **kantonal** gefoerdert: 2'400 + 1'000/kWth
+  (ZH wie SZ, min. 2 kWth, Kollektor auf kollektorliste.ch, Gesuch vor Baubeginn). Konkrete Sätze:
+  siehe [[foerderung-energie-zh]] / [[foerderung-energie-sz]].
 
 ## Bauherren-Transfer
 Für die typische Kompaktanlage (reine Warmwassererzeugung, 4–6 m² / 450–600 l) mit
-CHF 15'000–20'000 installiert rechnen; nach Förderabzug (bis 30 % national plus Kanton) sinkt der
+CHF 15'000–20'000 installiert rechnen; nach kantonalem Förderabzug sinkt der
 Nettoaufwand spürbar. Für eine Kombianlage ist die Spanne unsicherer (grob CHF 22'000–40'000) —
 hier lohnt sich eine Vor-Ort-Offerte, keine Pauschalzusage im Erstgespräch.
 

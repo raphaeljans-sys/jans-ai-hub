@@ -306,7 +306,12 @@ bedeutet dieser Rechercheausstand konkret:
    an Vor-/Rücklauf und repräsentativen Räumen — das ist ein gemeinsames Konzept von Elektro-
    und HLK-Planer, das die Gebäudeautomation/BUS-Topologie von Anfang an mitdenken muss. Wird
    das erst bei Inbetriebnahme oder gar erst für die Betriebsoptimierung (Punkt (b)) nachgerüstet,
-   ist es regelmässig erheblich teurer als eine von Beginn an integrierte Zählerstruktur.
+   ist es regelmässig erheblich teurer als eine von Beginn an integrierte Zählerstruktur. **Für
+   die technische Adressierung dieser Zähler-/Automations-Datenpunkte** (nicht für die
+   rechtlichen Schwellen selbst) liefert `[[stadt-zuerich-kennzeichnungssystem-gebaeudetechnik-2007]]`
+   ein einsatzbereites, DIN-basiertes Vorbild — verbindlich nur für städtische Bauten, aber frei
+   referenzierbar für jedes Projekt, das eine einheitliche Bezeichnungslogik zwischen
+   Dokumentation, Gebäudeautomation und Vor-Ort-Beschriftung sucht.
 3. **Die beiden Pflichten (a) und (b) sind technisch verzahnt, auch wenn rechtlich getrennt:**
    Die Betriebsoptimierung (b) braucht verlässliche, granulare Verbrauchsdaten der ersten zwei
    Betriebsjahre (§ 48c Abs. 3 BBV I) — genau diese Daten liefert im Idealfall dieselbe
@@ -396,4 +401,5 @@ bedeutet dieser Rechercheausstand konkret:
 ## Backlinks
 
 [[muken-2025-modul-7-betriebsoptimierung-hlkkse]] · [[grossverbraucherartikel-zielvereinbarung-zh-sz]] ·
-[[sia-386-bacs-gebaeudeautomation]] · [[en-zh-nachweis-uebersicht]] · [[muken-2025-verabschiedet]]
+[[sia-386-bacs-gebaeudeautomation]] · [[en-zh-nachweis-uebersicht]] · [[muken-2025-verabschiedet]] ·
+[[stadt-zuerich-kennzeichnungssystem-gebaeudetechnik-2007]]

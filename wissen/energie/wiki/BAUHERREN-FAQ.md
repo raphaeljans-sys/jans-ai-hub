@@ -160,8 +160,21 @@ deckt den Strombedarf selbst (Plusenergie), **ECO** = zusätzlich gesund/ökolog
 |---|---|---|---|
 | Minergie-Kennzahl | 51 kWh/m² | 46 kWh/m² | 29 kWh/m² |
 | Heizwärmebedarf | 90 % MuKEn 2014 | 70 % MuKEn 2014 | 90 % MuKEn 2014 |
-| THGE Erstellung (graue Energie) | 11 kg CO₂/m²·a | 11 | 11 |
+| THGE Erstellung (Treibhausgas, nicht graue Energie in MJ) | **12,4 kg CO₂-eq/m² EBF·a** ⚠ | 12,4 | 12,4 |
 | Luftdichtheit q_a50 | 1,2 | 0,8 (gemessen) | 0,8 (gemessen) |
+
+⚠ **Korrektur 23.08.2026 (Audit 01.1) — der THGE-Grenzwert stand mit der falschen Bezugsfläche
+und 25 % zu tief in dieser KB.** Massgebend ist der Basisgrenzwert **GW_EBF je m² EBF**: Wohnen MFH
+**12,4** (MuKEn 2025 / Minergie 2023) bzw. **11,5** (Minergie 2026.1), Spital **19,9** bzw. **18,5**.
+Der objektspezifische Grenzwert ist GW_OBJ = [GW_EBF·EBF + 5,5·(GF−EBF) + Zuschläge] / EBF und
+beträgt bei EBF/GF = 80 % rund **13,8** bzw. 12,9 (MFH) und **21,3** bzw. 19,9 (Spital). Die früher
+hier geführten **11 (MFH) und 17 (Spital) sind GF-gewichtete Mittel und gelten je m² Geschossfläche,
+nicht je m² EBF** — wer sie als EBF-Zielwert einsetzt, plant gegen einen um ein Viertel zu strengen
+Wert und damit gegen Tragwerk, Untergeschoss und Materialkonzept, also gegen die früh gefällten und
+teuren Entscheide. Zuschläge: Erdsonde +0,3, PV +7,1 je m² Panelfläche, Solarthermie +5,6 je m²
+Kollektorfläche. Nachweise nach Version 2025.1 sind noch bis 31.12.2026 einreichbar.
+Beleg: `[[minergie-produktreglement-2026-1-muken-vergleich]]` (Anhang G im Volltext),
+`[[minergie-nachweiskurs-2023-mkz-thge]]` (Rechenbeispiel dort am 23.08.2026 korrigiert).
 
 Immer dabei: kontrollierte Lufterneuerung, **klimaangepasster sommerlicher Wärmeschutz (Wetterdaten
 2035)**, keine fossilen Brennstoffe, **Dach voll mit PV** (Neubau ≥ 60 % der Dachfläche), Leerrohre
@@ -473,8 +486,11 @@ Innenausbau 7–9 %, Baustelle 4–9 %. Absolut hat der **Holzleichtbau die tief
 also ~**5–7,5 % der Totalenergie**. Ein Lehrbeispiel zeigt den Hebel: **20 MJ/m²·a mehr graue
 Energie in der Hülle können 180 MJ/m²·a Gesamtenergie sparen (≈ 1 : 9)**. Beim sehr guten
 Standard kehrt sich das Gewicht um — weil der Betrieb fast nichts mehr braucht, wird die graue
-Energie der dominierende Hebel. Genau dort setzt **Minergie seit 2023 mit dem Grenzwert
-THGE 11 kg CO₂/m²·a für die Erstellung** an. **Sanieren vor Neubau:** der Erhalt von Tragstruktur
+Energie der dominierende Hebel. Genau dort setzt **Minergie mit dem THGE-Grenzwert für die
+Erstellung** an: Basiswert **GW_EBF 12,4 kg CO₂-eq je m² EBF und Jahr** für Wohnen MFH (Minergie
+2023 / MuKEn 2025) bzw. **11,5** nach Minergie 2026.1 — ⚠ **je m² EBF, nicht je m² Geschossfläche**;
+die früher hier stehenden «11 kg» waren ein GF-gewichtetes Mittel (Korrektur 23.08.2026, Herleitung
+und Objektwerte bei F4). **Sanieren vor Neubau:** der Erhalt von Tragstruktur
 und Rohbau spart genau den grössten graue-Energie-Posten — ein starkes Argument für den Umbau,
 sofern die Substanz es zulässt. Das KBOB-Faktenblatt (Bund, 04.04.2025) nennt dafür die Grösse
 **«Restwert Bestandsbauten» [kg CO₂-eq/m² EBF]** und beziffert das Potenzial: durch Kombination
@@ -1207,8 +1223,15 @@ Rechtsanspruch) — vor Zusage Aktual-/Budgetstand auf `sz.ch` prüfen. Energier
 BFE, kostenlos) ein — die Suchmaschine zeigt **alle** dort verfügbaren Programme von **Bund, Kanton,
 Gemeinde, Energieversorger und Stiftungen** auf einen Blick. Genau die **Gemeinde-** und **Energie-
 versorger-Beiträge**, die in den Kantons-Tabellen (F7 ZH / F28 SZ) **nicht** stehen, kommen oft
-**on-top**. Beim **Heizungsersatz** zusätzlich die **Klimaprämie** (Stiftung KliK, **ca. CHF 360/kW**,
-keine Obergrenze) prüfen — aber Achtung: meist **alternativ** zur Kantonsförderung, nicht zusätzlich.
+**on-top**. Beim **Heizungsersatz** zusätzlich die **Klimaprämie** prüfen (Stiftung KliK; Fördersatz
+**18 Rp./kWh Jahresverbrauch** bzw. CHF 1.80 je Liter ersetztes Heizöl — die kursierenden
+~CHF 360/kW sind eine daraus abgeleitete Faustregel bei rund 2'000 Volllaststunden, kein
+zugesicherter Satz) — aber Achtung: meist **alternativ** zur Kantonsförderung, nicht zusätzlich.
+⚠ **Beim Wärmepumpen-Ersatz gilt eine Mindestleistung von 40 kW, und der Heizungsersatz in
+Einfamilienhäusern ist ausdrücklich ausgeschlossen** (Förderkriterien Wärmepumpen, Version
+26.03.2026, Ziff. 1). Für ein EFH ist die Klimaprämie damit kein Weg — dort den kantonalen Beitrag
+ohne Alternativrechnung und **vor Baubeginn** beantragen. (Korrektur 23.08.2026, Audit 01.3: die
+Ausschlüsse standen in F92 und F94 richtig, hier fehlten sie.)
 
 **Fachlich — die Förderung ist ein Stapel, kein einzelner Topf:**
 
@@ -1218,14 +1241,15 @@ keine Obergrenze) prüfen — aber Achtung: meist **alternativ** zur Kantonsför
 | **Kanton** (Gebäudeprogramm) | Dämmung, Heizungsersatz, Solarthermie, Minergie | **VOR** Baubeginn |
 | **Gemeinde/Stadt** | on-top, je Gemeinde verschieden | je Programm |
 | **Energieversorger/EWU** | PV-Einspeisung, WP-Boni, Beratung | je Angebot |
-| **Klimaprämie (Stiftung KliK)** | fossiler Heizungsersatz → WP/Holz, ~360/kW | bei Ersatz, via klimaprämie.ch |
+| **Klimaprämie (Stiftung KliK)** | fossiler Heizungsersatz → WP/Holz, **ab 40 kW, nicht im EFH**; 18 Rp./kWh Jahresverbrauch | bei Ersatz, via klimaprämie.ch |
 
 **Reihenfolge/Heuristik:** *Hülle & Heizung → Kanton (vor Baubeginn). PV → Bund/Pronovo (nach IBN).
 Heizungsersatz fossil → Klimaprämie prüfen (meist statt Kanton). Gemeinde/EWU → `energiefranken.ch`.*
-**Heizungsersatz konkret:** Kantonsbeitrag (z. B. SZ Luft/Wasser-WP 3'200 + 120/kW_th, F28) **gegen**
-Klimaprämie (~360/kW) rechnen und die **höhere** Variante nehmen — **nicht addieren**, wo der Kanton
-die Kombination ausschliesst (Kt. SZ: «Klimaprämie + kantonale Beiträge nicht kombinierbar»). PV
-bleibt davon unberührt.
+**Heizungsersatz konkret:** **Ab 40 kW** (also MFH oder Verwaltung, **nicht EFH**) den
+Kantonsbeitrag (z. B. SZ Luft/Wasser-WP 3'200 + 120/kW_th, F28) **gegen** die Klimaprämie rechnen
+und die **höhere** Variante nehmen — **nicht addieren**, wo der Kanton die Kombination ausschliesst
+(Kt. SZ: «Klimaprämie + kantonale Beiträge nicht kombinierbar»). **Im Einfamilienhaus entfällt
+dieser Vergleich, dort gilt allein die Kantonsförderung.** PV bleibt davon unberührt.
 
 **Quelle:** energiefranken.ch (© 2026 EnergieSchweiz/BFE) + Klimaprämie Stiftung KliK / GebäudeKlima
 Schweiz → `[[energiefranken-foerder-suchmaschine-ch]]`; **Klimaprämie im Detail** →
@@ -1894,12 +1918,21 @@ Swissolar) nennt selbst harte CHF-Zahlen, nur Installateur-/Beratungsportale.
 
 **Fachlich:** Zwei Sekundärquellen (hausinfo.ch 2020, Meier Tobler AG) überlappen sich bei der
 reinen Warmwasser-Anlage (CHF 15'000–20'000 gemeinsame Schnittmenge), widersprechen sich aber bei
-der Kombianlage deutlich. Wartungsvertrag ca. CHF 100/Jahr; nationale Einmalvergütung bis 30 % der
-Investition, zusätzlich kantonale Förderung (Solarthermie CHF 2'400 + 1'000/kWth in ZH/SZ).
+der Kombianlage deutlich. Wartungsvertrag ca. CHF 100/Jahr. Gefördert wird die thermische Anlage
+**kantonal**: CHF 2'400 + 1'000/kWth (ZH wie SZ, min. 2 kWth, Kollektor auf kollektorliste.ch,
+Gesuch vor Baubeginn) — eine 6-kWth-Anlage erhält also 2'400 + 6 × 1'000 = **rund CHF 8'400**.
+⚠ **Eine Einmalvergütung des Bundes gibt es dafür nicht** (Korrektur 23.08.2026, Audit 01.2): die
+EIV bei Pronovo ist eine reine **Photovoltaik**-Förderung, und der 30-Prozent-Deckel gehört zu ihr.
+Hier stand bis zum 23.08.2026 «nationale Einmalvergütung bis 30 % der Investition» — das sind rund
+CHF 4'500 bis 6'000, die es nicht gibt, und sie kippen die Variantenrechnung Solarthermie gegen PV
+oder Wärmepumpenboiler in die Richtung, von der derselbe Themenartikel abrät. → F250,
+`[[pv-einmalverguetung-bund-bfe]]`.
 
 **Quelle:** hausinfo.ch (07.09.2020) + Meier Tobler AG →
 `[[solarthermie-investitionskosten-ch]]`. ⚠ Status emerging, Kombianlagen-Kosten speculative
-(widersprüchliche Quellen); vor Projektzusage Vor-Ort-Offerte einholen.
+(widersprüchliche Quellen); vor Projektzusage Vor-Ort-Offerte einholen. ⚠ **Preisstand 2020** —
+die Schweizer Baukosten sind seither gestiegen, ein 2026er-Preis ist in dieser KB **nicht belegt**.
+Als Grössenordnung lesen, nicht als Budget.
 
 ---
 

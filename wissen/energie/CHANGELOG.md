@@ -1,5 +1,56 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (neunzehnte Fortsetzung): E-R129-5 geschlossen, KKS-analoges Kennzeichnungssystem der Stadt Zürich destilliert
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die achtzehnte
+Fortsetzung (`outputs/2026-08-23_questions-nachlauf-achtzehnte-fortsetzung.md`). Vollständige
+Durchsicht aller verbleibenden unerledigten Punkte zeigt: fast alle sind entweder bereits als
+`[x]` geschlossen (mit stehen gelassenem Original-Wortlaut, KB-eigenes Muster) oder echte
+Sackgassen bzw. Beschaffungsentscheide Raphaels (E-R148-1 Normkauf SIA 380/1:2016, E103/E94
+Freigabe eigener Projektdaten, E-R134-3 Quelle ohne Herausgeber/Datum, E-R150-3
+Widerspruch im Originaldokument selbst nicht auflösbar). Der einzige Punkt mit echtem, aus
+eigener Kraft lösbarem Recherchepotenzial war **E-R129-5** (P4): das PDF
+`Standards_Kennzeichnungssystem_V2.2.pdf` sollte laut eigener Notiz aus Run 129 (13.08.2026)
+neu bewertet werden, «sobald die KB das Thema Zählerstruktur/Submetering vertieft» — das ist
+mit dem seit Run 117 (27.07.2026) `established` Destillat
+`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]` der Fall.
+
+**Ergebnis:** Das PDF (24 S., Stadt Zürich AHB, V2.2, Dokumentdatum 1.9.2007) über die
+M365-CLI erneut beschafft (`spo file get --asFile`) und vollständig mit PyMuPDF gelesen. Der
+frühere Befund bleibt richtig — **keine energetischen Kennwerte** —, aber das Dokument definiert
+eine DIN-basierte (DIN EN 6779/61346, KKS-analoge) hierarchische Adressierung für
+Gebäudetechnik-Anlagen und Automations-Datenpunkte (Standort→Gebäude→Raum→Anlage→Komponente→
+Signal), inkl. eigenem Signaltyp **`Z` = Zählwert** und explizitem Bezug zum städtischen
+Energie-/Anlagenmonitoring («IMMO-Box», S. 3) — damit die technische Brücke zum
+Submetering-Datenpunktkonzept, das der Bauherren-Transfer-Abschnitt des Submetering-Destillats
+bereits qualitativ beschreibt, aber ohne konkretes Adressierungswerkzeug. Neues Destillat
+`[[stadt-zuerich-kennzeichnungssystem-gebaeudetechnik-2007]]` (status `emerging`, 19 Jahre alt,
+Revisionstabelle im Exemplar leer, Aktualität ungeklärt), verlinkt in
+`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]` (Bauherren-Transfer Punkt 2 +
+Backlinks).
+
+Register nachgeführt: `destillate/INDEX.md` (+1 Zeile), `training/pdf-inventar.md`
+(`[-]` → `[x]`, ein Zeilentausch), `raw/_INGESTED.md` (Nachtragszeile, historische Zeile
+unangetastet), `wiki/QUESTIONS.md` (E-R129-5 als `[x]` geschlossen, Original-Wortlaut darunter
+belassen, KB-Muster).
+
+Alle Schreibvorgänge geprüft (`git diff --numstat` nativ per ssh, Rule `sync-kanonische-quelle`,
+da `git status` über den SMB-Mount hängt): `destillate/INDEX.md` +1/-0,
+`destillate/energiemonitoring-submetering-grossverbraucher-zh-sz.md` +8/-2 (beide Loeschzeilen
+sind die eigene ersetzte Backlink-/Absatzformulierung, keine fremde Kürzung),
+`raw/_INGESTED.md` +1/-0, `training/pdf-inventar.md` +1/-1 (Statuszeile ersetzt),
+`wiki/QUESTIONS.md` +15/-0. **Nebenbefund:** `wiki/BAUHERREN-FAQ.md` zeigt einen unabhängigen
++14/-1-Diff, der von dieser Session nicht verursacht wurde — läuft eine parallele Session am
+selben KB (Muster wie Run 160/161 am 23.08.2026), nicht angerührt.
+
+**Verbleibend offen (unverändert seit der achtzehnten Fortsetzung, keine neuen Ansätze in
+diesem Lauf):** E-R148-1 (P1, Normkauf SIA 380/1:2016 — Beschaffungsentscheid Raphaels),
+E103/E94 (Freigabe eigener JANS-Projektdaten — Entscheid Raphaels), E-R134-3 (Lambda-Anomalie,
+Quelle ohne Herausgeber/Datum, kein weiterer Recherche-Ansatz), E-R150-3 (Widerspruch im
+Willerzell-Originaldokument, nicht auflösbar), die «schwach belüftete» Luftschicht-Zwischenstufe
+aus E-R161-1 (Normkauf SN EN ISO 6946, gleiche Klasse wie E-R148-1). Bericht:
+`outputs/2026-08-23_questions-nachlauf-neunzehnte-fortsetzung.md`.
+
 ## 2026-08-23 — Interaktive Session (achtzehnte Fortsetzung): E-R161-1 geschlossen (ruhende Luftschicht), E-R148-1-Framing nachgeführt
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die siebzehnte

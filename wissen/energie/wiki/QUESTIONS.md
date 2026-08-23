@@ -3459,6 +3459,21 @@ durchfuehrbar.
   Ausgabe 2006 zu prüfen, ebenfalls nicht im freien Bestand vorhanden. Über die zwei bearbeiteten
   Blätter hinaus bleiben 39 der 44 SIA-2024-Datenblätter ungelesen.
 
+- [x] **E-R129-5 GESCHLOSSEN 23.08.2026 (interaktive Session, neunzehnte Fortsetzung):
+  Kennzeichnungssystem doch destilliert.** Die Bedingung des ursprünglichen Punkts («sobald die
+  KB das Thema Zählerstruktur/Submetering vertieft») ist eingetreten —
+  `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]` ist seit Run 117 (27.07.2026)
+  `established`. Das PDF (24 S.) über die M365-CLI erneut beschafft und vollständig mit PyMuPDF
+  gelesen: es bleibt richtig, dass es **keine energetischen Kennwerte** enthält — aber es
+  definiert genau die Adressierungslogik (Standort→Gebäude→Raum→Anlage→Komponente→Signal), mit
+  der ein Submetering-/Automations-Datenpunktkonzept technisch umgesetzt wird, inkl. eigenem
+  Signaltyp **`Z` = Zählwert** (S. 14) und explizitem Bezug zum städtischen
+  Energie-/Anlagenmonitoring («IMMO-Box», S. 3). Neues Destillat
+  `[[stadt-zuerich-kennzeichnungssystem-gebaeudetechnik-2007]]` (status `emerging`, 19 Jahre alt,
+  Revisionstabelle im Exemplar leer), verlinkt in `[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`
+  (Bauherren-Transfer Punkt 2 + Backlinks). Register nachgeführt: `destillate/INDEX.md`,
+  `training/pdf-inventar.md` (Status `[-]` → `[x]`), `raw/_INGESTED.md` (Nachtrag statt
+  Überschreiben). Ursprünglicher Wortlaut zur Nachvollziehbarkeit:
 - [ ] **E-R129-5 (P4): `Standards_Kennzeichnungssystem_V2.2.pdf` bei einem Betriebsoptimierungs-
   oder Submetering-Thema neu bewerten.** In diesem Lauf begründet als `[-]` abgelegt (reine
   Anlagenkennzeichnungs-Systematik ohne energetische Kennwerte). Sobald die KB das Thema

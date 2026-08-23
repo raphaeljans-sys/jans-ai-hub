@@ -5,7 +5,7 @@ ausgabe: laufendes Förderprogramm (kein fixes Versionsdatum), Programmseiten te
 gelesen: 2026-07-02 (Web via WebFetch gebaeudeklima-schweiz.ch + holzfeuerungen-schweiz.ch; WebSearch foerderplattform.ch/ee-news zu Laufzeit); 2026-07-17 (Ziff.-7-Klausel + ZH-Bezug, Run T6: Primärdokumente Förderkriterien WP/Holz + EnerG § 11 im Volltext gelesen)
 datenstand: 2026-07-02 — ca. CHF 360/kW; Laufzeit «voraussichtlich bis spätestens Ende 2027» (aktuelle Programmführung); ⚠ ältere Partnerseiten nennen noch «bis 2025» (veralteter Seiteninhalt). 2026-07-17 — Ziff. 7 Förderkriterien (Version 26.03.2026 WP / 19.01.2024 Holz) und § 11 EnerG ZH (Stand 1.10.2023) im Volltext verifiziert.
 status: established (Kernprogramm); Ziff.-7/ZH-Bezug emerging (Wortlaut belegt, Einzelfall-Anwendung nicht abschliessend geklärt)
-last_updated: 2026-07-17
+last_updated: 2026-08-23
 ---
 
 # Klimaprämie Heizungsersatz (Stiftung KliK) — die schweizweite Wechselprämie
