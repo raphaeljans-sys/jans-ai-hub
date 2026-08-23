@@ -1,5 +1,79 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## OFFEN 2026-08-23 (Buch-Run 86) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
+
+**Fund im Zuge der Modell-D-Re-Verifikation von [[baureife-und-erschliessung]]** (zweitaeltestes
+`verifiziert`-Datum unter den `established`-Artikeln nach [[baubewilligungsverfahren]], Vorschlag
+aus dem Report von Buch-Run 85, da die Reglemente-Queue 2414 Thalwil T1-T8 seit Run 79 vollstaendig
+abgearbeitet ist).
+
+Der Artikel zitierte im Abschnitt «Versorgung & Entsorgung» fuer die Pflicht, bei Erstellung/
+wesentlicher Aenderung Meteor-/unverschmutztes Wasser vom verschmutzten getrennt abzuleiten, die
+Fundstelle **«§ 232 PBG / Art. 11 GSchG»** (uebernommen aus dem Buch-Destillat
+`buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md`, S. 766). Beide Fundstellen tragen die
+Aussage nicht (mehr):
+
+- **§ 232 PBG** (amtlicher Wortlaut, `raw/260607_amtlich_zh_pbg.md` Z. 2320, Nachtrag 133) regelt
+  ausschliesslich die Duldungspflicht fuer geringfuegige oeffentliche Einrichtungen auf privatem
+  Grund — inhaltlich ohne jeden Bezug zur Abwassertrennung. Das PBG enthaelt im aktuellen Bestand
+  keine Kanalisations-/Abwasserbestimmung mehr (0 Treffer fuer «Kanalisation»/«Abwasser» im
+  gesamten Erlasstext). Da das Buch 2019 erschien und die Zuordnung zu S. 766 damals plausibel war,
+  liegt eine Fassungsstand-Drift nahe (Paragraf entweder umnummeriert oder ersatzlos aus dem PBG
+  entfernt, vermutlich im Zug der Auslagerung des Abwasserrechts ins WsG per 1.6.2026) — **nicht
+  geraten**, ohne einen frueheren PBG-Stand (vor Nachtrag 133) gegenzupruefen nicht abschliessend
+  zu klaeren.
+- **Art. 11 GSchG** («Anschluss- und Abnahmepflicht», amtlicher Fedlex-Volltext SR 814.20,
+  Konsolidierung 1.1.2022, frisch via `fedlex.data.admin.ch`-Route bezogen und mit `pdftotext`
+  extrahiert) regelt nur die Pflicht, verschmutztes Abwasser im Bereich oeffentlicher
+  Kanalisationen einzuleiten — keine Trennungspflicht. Der naeherliegende systemische Grundsatz
+  («Behandlung/Versickerung getrennt nach Verschmutzungsgrad») steht in **Art. 7 Abs. 1/2 GSchG**,
+  ist aber ebenfalls kein expliziter Gebaeude-Trennsystem-Befehl.
+
+**Offene Frage fuer einen kuenftigen Lauf:** welche Norm traegt heute die konkrete, gebaeude-
+bezogene Pflicht (vermutet: WsG/WsV, da die verwandte Siedlungsentwaesserung inzwischen dort
+geregelt ist — vgl. bereits im selben Artikel dokumentierter Uebergang EG GSchG → WsG/WsV per
+1.6.2026 — oder eine VSA-Norm/SIA 190). `raw/260803_amtlich_zh_wsg.md` und
+`raw/260803_amtlich_zh_wsv.md` wurden bereits stichwortartig durchsucht (0 Treffer fuer
+«getrennt»/«Meteorwasser»/«Niederschlagswasser»/«unverschmutzt») — die Antwort liegt vermutlich in
+einem noch nicht ingestierten WsV-Abschnitt oder einer Norm ausserhalb des Gesetzestexts.
+**In die KB eingearbeitet:** [[baureife-und-erschliessung]], Abschnitt «Versorgung & Entsorgung»
+korrigiert (die falsche Fundstelle entfernt, der Befund dokumentiert, Frage offen gelassen statt
+geraten). Quelle: `outputs/2026-08-23_buch-run86.md`.
+
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 85) — § 315 Abs. 1 PBG: «schriftlich» war veraltet, Register-Sweep-Lücke zu [[bauausfuehrung-und-baukontrolle]]
+
+**Kein vorher offen markierter QUESTIONS-Punkt — Fund im Zuge der Modell-D-Re-Verifikation des
+ältesten `verifiziert`-Datums unter den `established`-Artikeln** (Vorschlag aus dem Report von
+Buch-Run 84, da die Reglemente-Queue 2414 Thalwil T1-T8 seit Run 79 vollständig abgearbeitet
+ist und Run 84 keinen selbständig lösbaren Restposten mehr fand).
+
+[[baubewilligungsverfahren]] (verifiziert zuletzt 2026-07-13, ältestes Datum aller
+`established`-Artikel) nannte im Abschnitt «Fristen» für das Zustellbegehren nach § 315 Abs. 1
+PBG die Geltendmachung **«schriftlich bei der örtlichen Baubehörde»**. Der amtliche Volltext
+(`raw/260607_amtlich_zh_pbg.md`, Z. 3249-3252) verlangt dagegen **«elektronisch über die
+Plattform»** — Fussnote 68 (Z. 4096-4097) datiert diese Fassungsänderung auf das Gesetz vom
+23. Oktober 2023, in Kraft seit 1. April 2024. Derselbe Fassungswechsel (schriftlich →
+elektronisch über die Plattform) ist für die inhaltlich verwandte Baufreigabe nach § 326 PBG
+bereits seit Buch-Run 30 in [[bauausfuehrung-und-baukontrolle]] korrekt erfasst — die Korrektur
+wurde aber nie zu [[baubewilligungsverfahren]] gesweept, obwohl beide Artikel densel­ben
+Fassungsänderungs-Schub (G vom 23.10.2023) betreffen. Gleiche Fehlerfamilie wie der
+Register-Sweep-Nachzug in [[baulinien-und-abstandslinien]] (Run 62, dort § 253a PBG statt
+§ 33a ABV).
+
+**In die KB eingearbeitet:** [[baubewilligungsverfahren]], Abschnitt «Fristen» korrigiert plus
+Querverweis auf die bereits etablierte Destillation der elektronischen Verfahrensführung
+(§§ 328a-328g PBG) in [[bauausfuehrung-und-baukontrolle]]. Bei derselben Gelegenheit
+§§ 311/312/313/314/315/316/318/319/320/321/322/328/329 PBG vollständig gegen den amtlichen
+Volltext gegengelesen — sonst CONFIRMED, 0 weitere Korrekturen.
+
+**Offen bleibt (nicht Teil dieses Laufs, kein Ingest möglich):** die im selben Artikel
+(Abschnitt «Zuständigkeit») zitierten §§ 41/44/45/48/50/51 des Gemeindegesetzes (GG) sind
+**nicht** Modell-D-verifizierbar, weil das GG bislang nicht in `raw/` liegt und der
+Connector `recht-ch.mjs` das GG (LS 131.1) nicht als Erlass-Key kennt (`--list` geprüft,
+23.08.2026). Bei einem künftigen Lauf: GG-Volltext frisch von zhlex beschaffen (analog VErV
+in Run 83) und die dortigen §-Zitate gegenlesen.
+Quelle: `outputs/2026-08-23_buch-run85.md`.
+
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 80) — Gilt die 10°-Schrägdach-Schwelle (BEZ 1996 Nr. 30) auch für die 4-m/5-m-Grenze der besonderen Gebäude?
 
 **War offen seit Buch-Run 79 (T8 Gegenlesen), geklärt im selben Tag durch Buch-Run 80.**
@@ -212,11 +286,31 @@ Konsequenzklausel) sowie die offizielle Kantonsseite zur Harmonisierung stützen
 dem Stichtag, massgebend bleibt, ob die konkrete Gemeinde tatsächlich harmonisiert hat. Weder
 Verwaltungs- noch Baurekursgericht ZH haben (soweit auffindbar) direkt dazu entschieden, und eine
 amtliche ARE-/Baudirektions-Auskunft wurde nicht gefunden — die Einschätzung ist rechtsmethodisch
-belegt, nicht amtlich letztbestätigt. **Ungeklärter Zusatzbefund:** vereinzelte Sekundärquellen
-behaupten eine bereits am 26.01.2026 beschlossene Fristverlängerung auf 29.02.2028; eine
-Primärquelle (Amtsblatt/OS) dafür fehlt, der amtliche PBG-Volltext (Fassungsstand 1.7.2026) zeigt
-weiterhin unverändert «acht Jahre». Volle Herleitung in [[abstaende-und-hoehen]], Abschnitt
-«Harmonisierungsvorlage». Betrifft jede noch nicht harmonisierte ZH-Gemeinde, nicht nur Thalwil.
+belegt, nicht amtlich letztbestätigt.
+
+**Zusatzbefund · ✅ GEKLÄRT 2026-08-23 (Buch-Run 84) — Quellenverwechslung, nicht dieselbe Frist.**
+Der ursprüngliche Verdacht («vereinzelte Sekundärquellen behaupten eine bereits am 26.01.2026
+beschlossene Fristverlängerung auf 29.02.2028») bezieht sich auf ein **anderes Geschäft**, nicht
+auf die IVHB-Baubegriffe-Harmonisierung. Primärquellenprüfung 23.08.2026: (1) Die offizielle
+Kantonsseite «Harmonisierung der Baubegriffe» (zh.ch, live abgerufen 23.08.2026) sagt zur
+IVHB-Anpassungsfrist wörtlich weiterhin: «*Der Regierungsrat hat beim Kantonsrat beantragt, diese
+Frist um drei Jahre zu verlängern. Das Geschäft ist aktuell noch in Beratung im Kantonsrat.*» —
+**unverändert nicht beschlossen**, konsistent mit dem PBG-Volltext (Fassungsstand 1.7.2026,
+weiterhin «acht Jahre»). (2) Das tatsächliche Datum 26.01.2026 mit neuer Frist **1. März 2028**
+(nicht 29.02.2028) betrifft die **Umsetzung des Mehrwertausgleichsgesetzes (MAG)** in den
+Gemeinden — ein eigenständiges Gesetz zum Planungsmehrwert (Grundstückgewinn durch Um-/Aufzonung),
+sachlich und rechtlich unabhängig von der IVHB-Begriffsharmonisierung. Beleg: HEV Kanton Zürich,
+Meldung vom 26.01.2026, wörtlich: «Die heute vom Kantonsrat beschlossene Fristverlängerung zur
+Umsetzung des kantonalen Mehrwertausgleichsgesetzes (MAG) in den Gemeinden» von ursprünglich
+1.3.2025 auf neu **1.3.2028**; zum Meldezeitpunkt hatten erst 93 von 160 Gemeinden das MAG
+umgesetzt. Die beiden Fristen (IVHB-Harmonisierung vs. MAG-Umsetzung) laufen beide ab demselben
+Ausgangsdatum (1.3.2025) und betreffen beide alle ZH-Gemeinden — daher die Verwechslung in
+Sekundärquellen, aber keine Sachidentität. **Der ursprüngliche Hauptbefund bleibt unverändert
+offen** (IVHB-Fristverlängerung selbst weiterhin nicht beschlossen); nur der Zusatzbefund zur
+angeblichen Primärquelle ist jetzt aufgeklärt, nicht bestätigt. Quelle: `outputs/2026-08-23_buch-run84.md`.
+
+Volle Herleitung in [[abstaende-und-hoehen]], Abschnitt «Harmonisierungsvorlage». Betrifft jede
+noch nicht harmonisierte ZH-Gemeinde, nicht nur Thalwil.
 
 **T-10 · ✅ ERLEDIGT 2026-08-23 — Wegabstand 3,5 m und VB.2005.00017 am Urteilstext verifiziert.**
 Volltext frei zugänglich über entscheidsuche.ch (VGr ZH, 1. Abteilung/1. Kammer, Endentscheid

@@ -1,8 +1,12 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-08-23b
-verifiziert: 2026-08-23b (Buch-Run 77, Korpus-Queue Batch T6: Näherbaurecht «objektbezogen»
+last_updated: 2026-08-23c
+verifiziert: 2026-08-23c (Buch-Run 84, Phase 3: Zusatzbefund «26.01.2026 Fristverlängerung
+29.02.2028» im Abschnitt Harmonisierungsvorlage aufgeklärt — Quellenverwechslung mit dem
+Mehrwertausgleichsgesetz [MAG], nicht der IVHB-Baubegriffe-Harmonisierung; Primärquellen zh.ch
+und HEV Kanton Zürich live geprüft. IVHB-Fristverlängerung selbst weiterhin unbeschlossen.
+Bericht `outputs/2026-08-23_buch-run84.md`.) — vorher: 2026-08-23b (Buch-Run 77, Korpus-Queue Batch T6: Näherbaurecht «objektbezogen»
 ergänzt (Art. 738 ZGB, Buch Bd 2 Kap. 22.9.3, S. 1534 — echte Lücke, bislang nicht im Artikel),
 «Vordach»-Klarstellung ergänzt (keine PBG-/ABV-Legaldefinition, grep-geprüft; unsourced
 1,0-m-Tiefenwert aus Projektunterlage NBR2008 NICHT übernommen). § 293 Abs. 1/2/4 PBG
@@ -437,12 +441,22 @@ Höhen/Attika/Terrain-Umstellung [[kap16-10_gebaeudedimensionen-harmonisierung]]
 > Ordnungsfrist ohne eigenständige Rechtsfolge** — für die konkrete Gemeinde bleibt massgebend,
 > ob sie tatsächlich harmonisiert hat, nicht ob der 01.03.2025 verstrichen ist. Weder Verwaltungs-
 > noch Baurekursgericht ZH haben dazu (soweit auffindbar) entschieden — die Einschätzung ist
-> rechtsmethodisch belegt, aber nicht amtlich/gerichtlich letztbestätigt. **Ungeklärter
-> Widerspruch:** vereinzelte Sekundärquellen behaupten eine bereits am 26.01.2026 beschlossene
-> Fristverlängerung auf 29.02.2028 — dafür liess sich keine Primärquelle (Amtsblatt/OS) finden,
-> und der amtliche PBG-Volltext (Fassungsstand 1.7.2026) zeigt weiterhin «acht Jahre» ohne neues
-> Datum. Bei einem konkreten Fall die Gemeinde-Website und die zh.ch-Harmonisierungsseite auf den
-> aktuellen Stand prüfen.
+> rechtsmethodisch belegt, aber nicht amtlich/gerichtlich letztbestätigt.
+>
+> **Widerspruch geklärt (2026-08-23, Buch-Run 84): Quellenverwechslung, keine echte
+> Fristverlängerung der IVHB-Harmonisierung.** Die zunächst unbelegte Behauptung «26.01.2026
+> beschlossene Fristverlängerung auf 29.02.2028» betrifft ein **anderes** Geschäft. Primärquellen
+> live geprüft: (1) zh.ch, Seite «Harmonisierung der Baubegriffe» (Abruf 23.08.2026), wörtlich:
+> «Der Regierungsrat hat beim Kantonsrat beantragt, diese Frist um drei Jahre zu verlängern. Das
+> Geschäft ist aktuell noch in Beratung im Kantonsrat.» — die IVHB-Fristverlängerung ist also
+> weiterhin **nicht beschlossen**. (2) Das reale Datum 26.01.2026 mit der Zahl **1.3.2028** (nicht
+> 29.02.2028) gehört zur Umsetzungsfrist des **Mehrwertausgleichsgesetzes (MAG)** — einem
+> eigenständigen Gesetz zum Planungsmehrwert, sachlich unabhängig von der Baubegriffe-
+> Harmonisierung, aber mit demselben Ausgangsdatum 1.3.2025 und derselben Gemeinde-Zielgruppe
+> (Beleg: HEV Kanton Zürich, Meldung 26.01.2026). Für Thalwil und jede andere ZH-Gemeinde gilt
+> daher unverändert: die IVHB-Achtjahresfrist ist Ordnungsfrist ohne Sanktion (siehe oben), eine
+> Verlängerung ist beim Kantonsrat hängig, aber noch nicht beschlossen — bei einem konkreten Fall
+> weiterhin die zh.ch-Harmonisierungsseite auf den aktuellen Stand prüfen.
 
 - **Alles wird von der *projizierten Fassadenlinie* gemessen.** Drei neue Begriffe:
   **Fassadenflucht** = Mantelfläche aus den Lotgeraden durch die äussersten Baukörperpunkte

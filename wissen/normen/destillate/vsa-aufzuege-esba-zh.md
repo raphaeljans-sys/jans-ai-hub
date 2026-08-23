@@ -4,8 +4,8 @@ herausgeber: "VSA – Verband Schweizerischer Aufzugsunternehmen (Verbands-Zusam
 ausgabe: "Webseiten-Ausdruck der VSA-Website, Rubrik «Bestehende Anlagen» → «ESBA Kanton Zürich»; © 2011 VSA, als PDF archiviert (Safari-Druck) am 13.07.2012. Zusammengefasste Richtlinie: ESBA-Richtlinie der Baudirektion Kanton Zürich, in Kraft gesetzt 2008"
 gelesen: "1 Seite vollständig"
 datenstand: "2011/2012 (VSA-Zusammenfassung); zugrundeliegende Richtlinie in Kraft seit 2008"
-status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~13 Einzelaussagen, VERDIKT BEANSTANDET mit 1 Kernbefund — korrigiert und am Zieldestillat nachgeprueft: Definition (Ziff. 3.4) und Zahlenwert +/- 10 mm (Ziff. 5.2.2) waren zu EINER Fundstelle verschmolzen.)"
-last_updated: 2026-07-31
+status: "established (Run 40, 31.07.2026: unabhaengiger Refuter, ~13 Einzelaussagen, VERDIKT BEANSTANDET mit 1 Kernbefund — korrigiert und am Zieldestillat nachgeprueft: Definition (Ziff. 3.4) und Zahlenwert +/- 10 mm (Ziff. 5.2.2) waren zu EINER Fundstelle verschmolzen. 23.08.2026, QUESTIONS-Abarbeitung 8: die 7 Kriterien zusaetzlich direkt gegen den amtlichen ESBA-Originaltext der Baudirektion ZH verifiziert, keine Abweichung — siehe Offene-Punkte-Nachtrag.)"
+last_updated: 2026-08-23
 links: [[REGISTER]]
 ---
 # ESBA — Erhöhung der Sicherheit bestehender Aufzüge, Kanton Zürich
@@ -104,3 +104,35 @@ Richtlinien-Originaltext (der hier nicht vorliegt):
   Kantons seither aktualisiert wurde, ist ungeprüft.
 - Keine Rechtsgrundlage (Gesetzes-/Verordnungsartikel) benannt, auf der die ESBA-Richtlinie
   beruht — für eine Baurecht-Einschätzung separat zu klären.
+
+**Alle vier Punkte oben geklärt (23.08.2026, QUESTIONS-Abarbeitung 8, N-R40-2).** Der
+ESBA-Originaltext ist öffentlich auf `zh.ch` beschafft (kein Kauf nötig, kein
+Beschaffungs-Bring-Schuld mehr):
+`zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/hochbau/planungsgrundlagen/
+gebaeudetechnik/dokumente-aufzugsanlagen/200409_rl-bd_erhoehung_der_sicherheit_best_aufzuege_
+2008.pdf`, per `pdftotext -layout` vollständig gelesen (6 S.). Titelblatt: «Richtlinie der
+Baudirektion über die Erhöhung der Sicherheit an bestehenden Aufzügen (ESBA-Richtlinie),
+Stand 15. Juli 2008», Version V 1.4, rev. 14.01.2020 (nur grafische Überarbeitung, Inhalt
+unverändert).
+
+- **Die sieben Kriterien oben sind wortgleich mit dem Original** (Ziff. 2.2, Tabelle S. 5) —
+  keine Abweichung zur VSA-Kurzfassung.
+- **ESBA ↔ SN EN 81-80 jetzt belegt, keine Vermutung mehr.** Ziff. 1.4/2.1: die 74
+  Gefährdungspunkte der SN EN 81-80:2003 werden nach fünf Kriterien gefiltert (Ziff. 2.1:
+  Sicherheit im Mittelpunkt, wirtschaftlich vertretbar, technisch realisierbar, vernünftiger
+  Zeitrahmen, SIA-Wegleitung 370/101 (1985) grundsätzlich bereits erfüllt). Ziff. 2.2 nennt
+  die explizite Zuordnungstabelle ESBA-Nr. → EN-81-80-Nr.: **1 → 3 (teilweise), 2 → 27,
+  3 → 38, 4 → 40, 5 → 46, 6 → 56, 7 → 71.**
+- **Rechtsgrundlage:** Besondere Bauverordnung I (BBV I) vom 06.05.1981, letzte Änderung
+  12.12.2001 (Ziff. 1.1) — §§ 32/33 (periodische Kontrollen, Anpassung bestehender
+  Aufzugsanlagen bei Feststellungen der Kontrolle), § 3 (Ausnahmebewilligung, Ziff. 3.5).
+  Vor 2001 erklärte die BBV I die SIA-Wegleitung 370/101 (1985) für verbindlich (Anhang);
+  mit der Änderung 2001 fiel dieser Anhang ersatzlos weg (Ziff. 1.2-1.3), wodurch eine Lücke
+  entstand — die ESBA-Richtlinie 2008 füllt sie, indem sie die SNEL-Norm SN EN 81-80:2003
+  kantonal umsetzt (Ziff. 1.3-1.4). Für den Umbau zur Behebung der 7 Punkte ist gemäss
+  Ziff. 3.4 ein Baugesuch mit technischen Unterlagen nach BBV I § 32 einzureichen.
+  Ziel-Zeithorizont im Original: ca. 2018 (10 Jahre nach 2008), unverändert gegenüber der
+  VSA-Zusammenfassung.
+- Quelle des Originals selbst weiterhin nicht im JANS-Ordner `06_Richtlinien/VSA/` abgelegt
+  (nur online beschafft für diesen Lauf) — bei Bedarf für einen dauerhaften Bestand
+  nachziehen.

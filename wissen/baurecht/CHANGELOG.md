@@ -3,6 +3,130 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 86: Modell-D-Re-Verifikation [[baureife-und-erschliessung]] — §§ 233-237 PBG CONFIRMED, falsche Fundstelle «§ 232 PBG / Art. 11 GSchG» für die Trennsystem-Pflicht korrigiert (Phase 3, Fortsetzung nach Run 85)
+
+- **Ausgangslage:** Reglemente-Queue 2414 Thalwil (T1-T8) bleibt seit Run 79 vollständig
+  abgearbeitet. Run 85 schlug als nächsten Schritt die Re-Verifikation des zweitältesten
+  `verifiziert`-Datums unter den `established`-Artikeln vor: [[baureife-und-erschliessung]]
+  (2026-07-14, nach [[baubewilligungsverfahren]] 2026-07-13).
+- **Vorgehen:** §§ 232-237 PBG (Grundanforderungen/Baureife-Kern) einzeln gegen
+  `raw/260607_amtlich_zh_pbg.md` (Nachtrag 133) gegengelesen.
+- **CONFIRMED wortgetreu:** § 233 Abs. 1/2, § 234, § 235, § 236 Abs. 1, § 237 Abs. 1 Satz 2,
+  § 237 Abs. 2, § 237 Abs. 4 PBG (inkl. der bereits früher gesetzten Präzisierungen «Behandlung
+  nicht Beseitigung» und «Gemeindevorstand, nicht eine Behörde schlechthin»). § 236 Abs. 2/3
+  und § 237 Abs. 3 PBG sind im Artikel nicht behandelt — geringe praktische Relevanz, kein
+  Ergänzungsbedarf in diesem Lauf.
+- **1 echte Korrektur (Fassungsstand/Fehlzitat):** die Fundstelle «§ 232 PBG / Art. 11 GSchG»
+  für die gebäudebezogene Pflicht, Meteor-/unverschmutztes Wasser vom verschmutzten getrennt
+  abzuleiten, trägt diese Aussage nicht (mehr). § 232 PBG regelt nur eine Duldungspflicht für
+  geringfügige öffentliche Einrichtungen auf privatem Grund, ohne jeden Bezug zur
+  Abwassertrennung; das PBG enthält im aktuellen Bestand keine Kanalisationsbestimmung mehr
+  (0 Treffer für «Kanalisation»/«Abwasser»). Art. 11 GSchG («Anschluss- und Abnahmepflicht»,
+  amtlicher Fedlex-Volltext SR 814.20, Konsolidierung 1.1.2022, frisch bezogen über die
+  `fedlex.data.admin.ch`-Route und mit `pdftotext -layout` extrahiert) regelt nur die
+  Anschlusspflicht ans öffentliche Kanalisationsnetz, keine Trennung. Der systemische Grundsatz
+  liegt näher bei Art. 7 Abs. 1/2 GSchG. Die übrigen Fundstellen desselben Abschnitts
+  (Art. 10/11/17 GSchG für Kanalisationserstellung, Anschlusspflicht, Baubewilligungsvoraussetzung)
+  wurden gegen denselben frisch bezogenen Fedlex-Volltext geprüft und sind CONFIRMED.
+- **Nicht geraten:** die exakte heutige Rechtsgrundlage der gebäudebezogenen Trennsystem-Pflicht
+  (vermutet WsG/WsV oder eine VSA-Norm) bleibt offen — neuer Eintrag in `wiki/QUESTIONS.md`
+  statt stillschweigender Ersatz-Fundstelle.
+- **Register:** `wiki/baureife-und-erschliessung.md` (Korrektur + neuer `verifiziert`-Eintrag +
+  `last_updated`), `wiki/QUESTIONS.md` (neuer OFFEN-Eintrag), `training/PROGRAMM.md`
+  (Tracker-Eintrag Run 86 + Nächster-Schritt-Zeiger), Report `outputs/2026-08-23_buch-run86.md`.
+- **Diff-Kontrolle (Rule 260811):** nach jedem Schreibvorgang `git diff --numstat` geprüft —
+  alle Änderungen rein additiv, keine ungewollte Löschung.
+
+## 2026-08-23 — Buch-Run 85: Register-Sweep-Lücke in [[baubewilligungsverfahren]] geschlossen — § 315 Abs. 1 PBG «schriftlich» war veraltet (Modell-D-Re-Verifikation des ältesten `established`-Artikels, Phase 3, Fortsetzung nach Run 84)
+
+- **Ausgangslage:** Die Reglemente-Queue 2414 Thalwil (T1-T8) bleibt seit Run 79 vollständig
+  abgearbeitet; Run 84 fand keinen selbständig lösbaren QUESTIONS-Restposten mehr und schlug
+  als nächsten sinnvollen Schritt vor: **Modell-D-Re-Verifikation des ältesten
+  `verifiziert`-Datums unter den `established`-Artikeln**. Ein Abgleich aller `verifiziert`-Felder
+  zeigte [[baubewilligungsverfahren]] (2026-07-13) als ältesten Stand, vor
+  [[baureife-und-erschliessung]] (2026-07-14).
+- **Vorgehen:** §§ 311/312/313/314/315/316/318/319/320/321/322/328/329 PBG Wort für Wort gegen
+  `raw/260607_amtlich_zh_pbg.md` (Fassungsstand Nachtrag 133) gegengelesen.
+- **1 echte Korrektur (Fassungsstand-Drift):** § 315 Abs. 1 PBG verlangt die
+  Zustellbegehren-Geltendmachung seit dem Gesetz vom 23. Oktober 2023 (in Kraft seit
+  1. April 2024, Fussnote 68 im amtlichen Volltext) **elektronisch über die Plattform** — der
+  Artikel führte noch «schriftlich bei der örtlichen Baubehörde». Derselbe Fassungswechsel ist
+  für § 326 PBG (Baufreigabe) bereits seit Buch-Run 30 in [[bauausfuehrung-und-baukontrolle]]
+  korrekt erfasst, wurde aber nie zu [[baubewilligungsverfahren]] gesweept — gleiche
+  Fehlerfamilie wie der Register-Sweep-Nachzug in [[baulinien-und-abstandslinien]] (Run 62).
+- **Restbestand CONFIRMED, keine weiteren Korrekturen:** §§ 311/312/313/314/316/318/319/320/
+  321/322/328/329 PBG wortgleich gegenüber dem amtlichen Volltext; § 318 PBG in der bisherigen
+  Wiki-Paraphrase inhaltlich deckungsgleich (Wortumstellung, keine Sachabweichung).
+- **GEÄNDERT** `wiki/baubewilligungsverfahren.md`: Abschnitt «Fristen» korrigiert
+  (schriftlich → elektronisch über die Plattform, mit Fundstellenbeleg), neuer Querverweis auf
+  die bereits etablierte Destillation der elektronischen Verfahrensführung (§§ 328a-328g PBG)
+  in [[bauausfuehrung-und-baukontrolle]] ergänzt (kein Doppelaufbau); Frontmatter
+  (`verifiziert`-Historie um Eintrag 2026-08-23d ergänzt).
+- **GEÄNDERT** `wiki/QUESTIONS.md`: neuer ✅-GEKLÄRT-Eintrag mit vollem Befund; darin auch die
+  offene Restlücke vermerkt — §§ 41/44/45/48/50/51 GG (Abschnitt «Zuständigkeit» desselben
+  Artikels) sind nicht Modell-D-verifizierbar, weil das Gemeindegesetz weder in `raw/` liegt
+  noch als Erlass-Key im Connector `recht-ch.mjs --list` registriert ist — für einen künftigen
+  Lauf vorgemerkt, nicht geraten.
+- **Kein neuer `raw/`-Volltext nötig** (Beleg liegt bereits im vorhandenen PBG-Volltext,
+  Fussnote 68).
+- Report `outputs/2026-08-23_buch-run85.md`.
+- **Diff-Kontrolle (Rule 260811):** nach jedem Schreibvorgang `git diff --numstat` geprüft —
+  `wiki/baubewilligungsverfahren.md` 24+/4- (der veraltete Fristensatz wurde durch die
+  korrigierte, länger belegte Fassung ersetzt, keine Sachaussage ersatzlos entfernt),
+  `wiki/QUESTIONS.md` 59+/5- (reine Anfügung eines neuen Eintrags oben, die 5 Minus sind der
+  Zeilenumbruch der bisherigen Kopfzeile beim Einfügen). `git diff` (nicht nur `--numstat`)
+  für beide Dateien visuell gegengeprüft — keine Massenlöschung, keine fremde Zeile betroffen.
+  Weitere zum Zeitpunkt dieses Laufs unbestätigte Änderungen an `CHANGELOG.md`/`PROGRAMM.md`
+  (Run 84, noch nicht vom 15-Minuten-Selfcommit erfasst) sowie an `wissen/energie/`,
+  `wissen/normen/`, `wissen/projekt-lessons/` stammen von anderen, parallel laufenden Loops —
+  nicht von diesem Lauf berührt.
+
+## 2026-08-23 — Buch-Run 84: QUESTIONS-Zusatzbefund T-09 geklärt — die «26.01.2026-Fristverlängerung auf 29.02.2028» ist eine Quellenverwechslung mit dem Mehrwertausgleichsgesetz, nicht der IVHB-Baubegriffe-Harmonisierung (Phase 3, Fortsetzung nach Run 83)
+
+- **Ausgangslage:** Die Reglemente-Queue 2414 Thalwil (T1-T8) bleibt seit Run 79 vollständig
+  abgearbeitet; Run 80-83 haben Phase 3 (QUESTIONS-Restposten, Modell-D-Fassungsstand-Checks)
+  fortgesetzt. Der letzte verbliebene `emerging`-Artikel [[negative-vorwirkung-und-bzo-revision]]
+  hängt an einem noch nicht erfolgten behördlichen Akt (Genehmigung/Inkrafttreten revBZO Thalwil,
+  T-01 in `wiki/QUESTIONS.md`, zuletzt am 23.08.2026 selbst erneut ergebnislos geprüft) und ist
+  damit kein Fall für Volltextverifikation. Dieser Lauf nimmt stattdessen den in T-09
+  (`wiki/QUESTIONS.md`, Eintrag 2026-08-17/23) offen gelassenen «Ungeklärten Zusatzbefund»:
+  vereinzelte Sekundärquellen behaupteten eine am 26.01.2026 beschlossene Fristverlängerung der
+  IVHB-Baubegriffe-Anpassungsfrist auf 29.02.2028, wofür bislang keine Primärquelle auffindbar war.
+- **Vorgehen:** Live-Abfrage der offiziellen Kantonsseite «Harmonisierung der Baubegriffe» (zh.ch)
+  sowie gezielte Websuche nach dem Datum 26.01.2026 und der Zahl 29.02.2028.
+- **Befund: Quellenverwechslung, keine echte IVHB-Fristverlängerung.** (1) Die offizielle
+  Kantonsseite (Abruf 23.08.2026) sagt zur IVHB-Anpassungsfrist wörtlich weiterhin: «Der
+  Regierungsrat hat beim Kantonsrat beantragt, diese Frist um drei Jahre zu verlängern. Das
+  Geschäft ist aktuell noch in Beratung im Kantonsrat.» — unverändert **nicht beschlossen**,
+  konsistent mit dem PBG-Volltext (Fassungsstand 1.7.2026, weiterhin «acht Jahre»). (2) Das reale
+  Ereignis vom 26.01.2026 mit neuer Frist **1.3.2028** (nicht 29.02.2028) betrifft die
+  **Umsetzung des Mehrwertausgleichsgesetzes (MAG)** in den Gemeinden — ein eigenständiges Gesetz
+  zum Planungsmehrwert, sachlich unabhängig von der Baubegriffe-Harmonisierung. Beleg: HEV Kanton
+  Zürich, Meldung 26.01.2026, wörtlich: «Die heute vom Kantonsrat beschlossene Fristverlängerung
+  zur Umsetzung des kantonalen Mehrwertausgleichsgesetzes (MAG) in den Gemeinden» von 1.3.2025 auf
+  neu 1.3.2028; zum Meldezeitpunkt hatten erst 93 von 160 Gemeinden das MAG umgesetzt. Beide
+  Fristen starten am selben Datum (1.3.2025) und betreffen dieselbe Zielgruppe (alle ZH-Gemeinden)
+  — daraus erklärt sich die Verwechslung in Sekundärquellen, ohne dass es sich um dieselbe Norm
+  handelt.
+- **Der ursprüngliche Hauptbefund von Run 71/T-09 bleibt unverändert:** die IVHB-Achtjahresfrist
+  ist eine Ordnungsfrist ohne eigenständige Rechtsfolge, ihre Verlängerung ist beim Kantonsrat
+  hängig, aber weiterhin nicht beschlossen. Es wurde nichts korrigiert, was vorher falsch im
+  Wiki stand — der Zusatzbefund war bereits als offen/unbestätigt markiert; er ist jetzt
+  aufgeklärt statt offen.
+- **GEÄNDERT** `wiki/abstaende-und-hoehen.md`: Abschnitt «Harmonisierungsvorlage», Absatz
+  «Ungeklärter Widerspruch» durch die Aufklärung ersetzt (alter Wortlaut nicht ersatzlos
+  gelöscht, sondern durch die präzisere Fassung abgelöst, Rule 260811); Frontmatter
+  `last_updated`/`verifiziert` auf 2026-08-23c fortgeschrieben.
+- **GEÄNDERT** `wiki/QUESTIONS.md`: T-09-Zusatzbefund als ✅ GEKLÄRT markiert, Auflösung mit
+  beiden Primärbelegen ergänzt (alter Wortlaut nicht gelöscht).
+- **Kein neuer `raw/`-Volltext nötig** (beide Belege sind live-Webquellen, keine Erlasstexte;
+  Zitate mit Quelle/Datum im Wiki-Artikel dokumentiert statt als Ingest).
+- Report `outputs/2026-08-23_buch-run84.md`.
+- **Diff-Kontrolle (Rule 260811):** nach jedem Schreibvorgang `git diff --numstat` geprüft —
+  `wiki/QUESTIONS.md` 25+/5-, `wiki/abstaende-und-hoehen.md` 22+/8- (in beiden Fällen: der
+  offene Vorbehalt wurde durch die längere, geklärte Fassung ersetzt, keine Sachaussage
+  ersatzlos entfernt, `git diff` visuell gegengeprüft).
+
 ## 2026-08-23 — Buch-Run 83: Fassungsvorbehalt [[umgebungsgestaltung-und-einfriedungen]] geschlossen — § 27/§ 27a VErV seit 1.12.2024 geändert, `emerging` → `established` (Phase 3, Fortsetzung nach Run 82)
 
 - **Ausgangslage:** Die Reglemente-Queue 2414 Thalwil (T1-T8) bleibt vollständig abgearbeitet

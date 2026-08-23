@@ -96,7 +96,14 @@ Energienachweis-Wert, aber **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`)
 daraufhin geprüft, ob sie die 1,0 m unverändert führt. Bis dahin: den Wert nicht mit
 Normfundstelle in ein Aussendokument setzen. **Unberührt bleibt der RFB-/Entwurfs-3/05-Wert
 1,5 m** — ein Entwurf von 2005 ist vom Rückzug der Publikation 2007 nicht betroffen und über den
-AHB-Honorarvertrag weiterhin bindend. Bei
+AHB-Honorarvertrag weiterhin bindend.
+
+⚠ **KORREKTUR 23.08.2026 (`normen`, SIA-Sweep, elfte Fortsetzung) — die oben zitierte Nachfolgenorm
+SIA 380:2015 ist selbst seit 31.10.2022 archiviert.** Aktuell gültig ist **SIA 380:2022**
+«Grundlagen für energetische Berechnungen von Gebäuden», gültig ab 01.11.2022 (Produktseite
+`shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026: «die 2015er-Version ist
+archiviert, gültig bis 31.10.2022»). Die Bring-Schuld `N57-2` zielt jetzt auf SIA 380:2022; ob
+diese den 1,0-m-Wert unverändert führt, bleibt ebenso ungeprüft wie zuvor bei 2015. Bei
 Doppelfassaden/hinterlüfteten Fassaden mit Luftraum >10 cm gilt die **innere** Begrenzung des
 Luftraums als Aussenabmessung der thermischen Hülle (bei <10 cm die äusserste Bauteilebene) — eine
 in der Energie-KB bislang nicht so präzise dokumentierte Messregel, Ergänzung zu

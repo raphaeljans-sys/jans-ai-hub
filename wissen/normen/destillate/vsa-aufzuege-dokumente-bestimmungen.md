@@ -121,6 +121,17 @@ Feuerpolizei).
   «Beförderungsanlagen» (2015) abgelöst wurde, ist eine Vermutung aus der
   Themen-/Namensnähe, nicht am Original beider Dokumente geprüft — als offene Frage
   in `wiki/QUESTIONS.md` erfasst.
+  **Geklärt (23.08.2026, QUESTIONS-Abarbeitung 8, N-R40-1):** Das Original ist als
+  **VKF-BRL 24-03d «Aufzugsanlagen», Ausgabe 26.03.2003, Stand 20.10.2008** identifiziert
+  (nicht im JANS-Bestand, aber öffentlich auf dem VKF-Publikationsportal:
+  `services2.vkf.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-1714.pdf/
+  content`, per `pdftotext -layout` gelesen). Ziff. 1 Geltungsbereich ist wortgleich mit
+  Ziff. 1 der VKF-BRL 23-15 (S. 4 in beiden Dokumenten: «…gilt für die Erstellung und den
+  Betrieb von Beförderungsanlagen sowie Feuerwehraufzügen»); die VKF-Übersicht
+  `Zusammenfassung der Änderungen der teilrevidierten Brandschutzvorschriften VKF, Ausgabe
+  2015` (VKF, 18.01.2017) bestätigt die systematische Neunummerierung der ganzen BRL-Serie in
+  der Ausgabe 2015 auf das Schema `NN-15`. Ablösung damit belegt (established). Details:
+  `wiki/QUESTIONS.md` N-R40-1, `destillate/vkf-brl-23-15-befoerderungsanlagen.md`.
 - Die zehn nicht destillierten Teile der EN-81-Reihe (81-1, -2, -3, -11, -21, -70, -71,
   -72, -73, 115-1, 115-2) liegen nicht im aktuellen JANS-Bestand-Inventar dieser KB
   identifiziert vor; ob die Originale überhaupt beschafft sind, ist ungeprüft.

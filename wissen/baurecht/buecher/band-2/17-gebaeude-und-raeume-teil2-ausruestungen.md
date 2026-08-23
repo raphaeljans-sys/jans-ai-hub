@@ -79,6 +79,11 @@ unter Beachtung von Normen, die nur **subsidiaer** als anerkannte Regeln gelten.
   «Ersatz fuer SIA 416/1:2007». **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`). Damit ist
   hier keine geltende Norm-Fundstelle mehr benannt; der Satz oben zum Vorrang der
   **Vollzugshilfe EN-2 fuer den kantonalen Vollzug** bleibt davon unberuehrt richtig.)*
+  *(⚠ KORREKTUR 23.08.2026, `normen` SIA-Sweep elfte Fortsetzung, rein additiv: **SIA 380:2015
+  ist selbst seit 31.10.2022 archiviert.** Aktuell gueltig ist **SIA 380:2022** (gueltig ab
+  01.11.2022, Produktseite `shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026:
+  «die 2015er-Version ist archiviert, gueltig bis 31.10.2022»). Bring-Schuld `N57-2` zielt jetzt
+  auf SIA 380:2022; auch diese liegt nicht im Haus.)*
 - **Nachweis Waermedaemmung:** System-/Mindestanforderung nach SIA 380/1 (≥ 80 % der
   zulaessigen Waermebedarfe gedeckt) ODER Einzelbauteil-Nachweis (Grenzwerte je Bauteil)
   (S. 1260). **§ 18 BBV I:** «andere Vorkehren» zur Waermedaemmung moeglich.

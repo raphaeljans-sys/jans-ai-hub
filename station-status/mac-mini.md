@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 19:35:55
+Stand: 23.08.2026 20:06:50
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:35)
+- Developer/jans/ai/hub  (letzte Aktivitaet 19:56)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 19:35:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 5feaa3f1 wissen/energie: QUESTIONS-Nachlauf zehnte Fortsetzung (Run 155) - E-R129-4 Teilbefund, SIA-2024-Original gegengelesen, Standardwert-Hypothese widerlegt
+- 3032ab5e nas-selfcommit: 16 Datei(en) 2026-08-23 19:45

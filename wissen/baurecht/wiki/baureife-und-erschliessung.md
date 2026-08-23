@@ -1,11 +1,12 @@
 ---
 title: Baureife & Erschliessung — Kanton Zürich
 status: established
-last_updated: 2026-07-14
+last_updated: 2026-08-23
 sources: ["§ 233 PBG", "§ 234 PBG", "§ 235 PBG", "§ 236 PBG", "§ 237 PBG", "§ 237 Abs. 4 PBG", "§ 232 PBG", "§ 105 PBG", "§ 346 PBG", "§ 150 PBG", "§ 264 PBG", "§ 360 PBG", "§§ 90-95 PBG", "§ 93 PBG", "§§ 114-119 PBG", "§§ 120-122 PBG", "§§ 125 ff. PBG", "§ 160a PBG", "§ 160b PBG", "§ 81 PBG", "§ 129 PBG", "§ 62 StrG", "Art. 19 RPG", "Art. 22 RPG", "Art. 4 WEG", "Art. 5 WEG", "Art. 24 USG", "Art. 27 RPG", "Art. 14 USG", "Art. 30 LSV", "Art. 10 GSchG", "Art. 11 GSchG", "Art. 17 GSchG", "Art. 694 ZGB", "§ 16 FeuerwehrV", "§ 27 WWG", "§ 8 KGSchV", "§ 236 EnerG", "Art. 15 WaG", "ZN", "EV", "VSiV", "StrAV", "AngebotsV", "§ 18 PVG", 12-baureife.md, 12-baureife-teil3-versorgung-entsorgung.md, 03-erschliessung-landsicherung-teil1.md, 03-quartierplan-landumlegung-teil2.md, 260714_amtlich_ch_rpg-erschliessung.md, 260714_amtlich_ch_weg.md]
 links: [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[ausnahmebewilligung-und-bestandesschutz]], [[bestandsumbau-eingriffstiefe]], [[baulinien-und-abstandslinien]], [[raumplanung-und-gestaltung]], [[12-baureife]], [[12-baureife-teil3-versorgung-entsorgung]], [[03-erschliessung-landsicherung-teil1]]
 verifiziert:
   - "2026-07-14 (Modell-D Art. 19/22/27 RPG + WEG-Klaerung, Buch-Run 44, gegen neu beschafften Fedlex-Volltext) — Art. 19 Abs. 1/3 RPG und Art. 22 Abs. 2 lit. b RPG CONFIRMED wortgetreu; Art. 19 Abs. 2 RPG KORRIGIERT (enthaelt keine feste 15-Jahres-Frist, diese stammt aus Art. 5 Abs. 1 WEG nur fuer Wohnbauland); Art. 27 RPG CONFIRMED (5 Jahre Bundesmaximum, PBG § 346 konkretisiert kantonal mit 3+2 Jahren, nicht wortgleich aber deckungsgleich); Art. 4 Abs. 1/2 WEG und Art. 5 Abs. 1 WEG CONFIRMED wortgetreu; WEG-Abkuerzung geklaert als Bundesgesetz ueber die Wohnbau- und Eigentumsfoerderung SR 843, keine Verwechslung mit kant. WWG"
+  - "2026-08-23 (Modell-D Re-Verifikation Grundanforderungen §§ 232-237 PBG, Buch-Run 86, gegen raw/260607_amtlich_zh_pbg.md Nachtrag 133 sowie den amtlichen Fedlex-Volltext GSchG SR 814.20 Konsolidierung 1.1.2022) — §§ 233 Abs. 1/2, 234, 235, 236 Abs. 1, 237 Abs. 1 Satz 2, 237 Abs. 2, 237 Abs. 4 PBG CONFIRMED wortgetreu (inkl. bereits fruehere Praezisierungen 'Behandlung nicht Beseitigung' und 'Gemeindevorstand'); § 236 Abs. 2/3 und § 237 Abs. 3 PBG bislang nicht im Artikel behandelt (Ergaenzungs-, kein Fehlerbefund, geringe praktische Relevanz, nicht nachgetragen). KORRIGIERT: die Fundstelle '§ 232 PBG / Art. 11 GSchG' fuer die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten) traegt die Aussage nicht mehr - § 232 PBG regelt nur die Duldungspflicht fuer geringfuegige oeffentliche Einrichtungen auf privatem Grund, das PBG enthaelt keine Kanalisationsbestimmung mehr; Art. 11 GSchG regelt nur die Anschlusspflicht ans oeffentliche Kanalisationsnetz, nicht die Trennung. Der systemische Grundsatz liegt naeher bei Art. 7 Abs. 1/2 GSchG; die exakte gebaeudebezogene Rechtsgrundlage bleibt offen (wiki/QUESTIONS.md). CONFIRMED dagegen Art. 10/11/17 GSchG fuer die uebrigen Aussagen dieses Abschnitts (Kanalisationserstellungspflicht Gemeinde, Anschlusspflicht, Baubewilligungsvoraussetzung)."
 ---
 
 # Baureife & Erschliessung
@@ -282,8 +283,24 @@ Die zweite Hälfte der **technischen Erschliessung** (§ 236 Abs. 1 PBG; Bd 2 S.
   Regelungslücke (die ursprüngliche KB-Annahme war ein Fehlschluss aus dem «gültig bis
   01.01.2022»-Vermerk der Fassung Nachtrag 099, ohne die Nachfolgenachträge zu beachten). Bei
   Erstellung/wesentlicher Änderung ist Meteor-/unverschmutztes Wasser vom verschmutzten **getrennt**
-  abzuleiten (§ 232 PBG / Art. 11 GSchG, S. 766). Finanzierung über Anschluss-/Kanalisationsgebühren
-  nach Verursacher-, Äquivalenz- und Kostendeckungsprinzip (S. 767 ff.).
+  abzuleiten. **Fassungsstand-Befund 2026-08-23 (Modell-D, Buch-Run 86):** die bisherige Fundstelle
+  **«§ 232 PBG»** trägt diese Aussage **nicht mehr**. Der amtliche Wortlaut von § 232 PBG (Nachtrag
+  133, `raw/260607_amtlich_zh_pbg.md`, Z. 2320) regelt ausschliesslich die Duldungspflicht für
+  geringfügige öffentliche Einrichtungen auf privatem Grund («das Gemeinwesen ist berechtigt, …
+  im öffentlichen Interesse liegende Einrichtungen von geringfügiger Einwirkung … unentgeltlich
+  anzubringen») — ohne jeden inhaltlichen Bezug zur Abwassertrennung; das PBG enthält im aktuellen
+  Bestand `raw/260607_amtlich_zh_pbg.md` keine Kanalisations-/Abwasserbestimmung mehr (0 Treffer für
+  «Kanalisation»/«Abwasser»). Die zweite bisherige Fundstelle **Art. 11 GSchG** trägt die Aussage
+  ebenfalls nicht: Art. 11 GSchG («Anschluss- und Abnahmepflicht», gegen den amtlichen Fedlex-Volltext
+  SR 814.20, Konsolidierung 1.1.2022, geprüft) regelt nur die Pflicht, verschmutztes Abwasser im
+  Bereich öffentlicher Kanalisationen einzuleiten, keine Trennungspflicht. Der systemische Grundsatz
+  «Behandlung/Versickerung getrennt nach Verschmutzungsgrad» steht stattdessen in **Art. 7 Abs. 1/2
+  GSchG** («Verschmutztes Abwasser muss behandelt werden … Nicht verschmutztes Abwasser ist nach den
+  Anordnungen der kantonalen Behörde versickern zu lassen»). Die exakte kantonale/kommunale
+  Rechtsgrundlage für eine **gebäudebezogene** Trennsystem-Pflicht (vermutlich WsG/WsV oder eine
+  VSA-Norm, nicht mehr im PBG) ist damit **offen** — nicht geraten, siehe `wiki/QUESTIONS.md`.
+  Finanzierung über Anschluss-/Kanalisationsgebühren nach Verursacher-, Äquivalenz- und
+  Kostendeckungsprinzip (S. 767 ff.).
 - **Abfall/Kehricht & belastete Standorte / Altlasten** (Bd 2 S. 783–807; Detail
   [[12-baureife-teil4-gebuehren-abfall-altlasten]]): Die einwandfreie **Abfallbeseitigung** ist Teil
   der Erschliessung (§ 236 Abs. 1 PBG); Siedlungsabfall wird über die **kommunale Kehrichtabfuhr**

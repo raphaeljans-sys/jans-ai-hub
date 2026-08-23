@@ -19,6 +19,14 @@ und Volumen von Gebaeuden); fuer Flaechenbedarf/Programm ergaenzend SIA 416/1 un
 > davon nicht betroffen und gilt** — die gesamte Hierarchie unten bleibt unveraendert gueltig.
 > Fuer Flaechenbedarf/Raumprogramm ist ohnehin **SIA 2024** die einschlaegige Quelle; SIA 416/1
 > regelt gebaeudetechnische Kennzahlen (EBF), nicht den Flaechenbedarf.
+>
+> ⚠ **KORREKTUR 23.08.2026 (`normen`, SIA-Sweep, elfte Fortsetzung) — Nachfolgeziel war falsch.**
+> **SIA 380:2015 ist selbst seit 31.10.2022 archiviert.** Aktuell gueltig ist **SIA 380:2022**
+> «Grundlagen fuer energetische Berechnungen von Gebaeuden», gueltig ab 01.11.2022 (Produktseite
+> `shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026, bestaetigt woertlich: «die
+> 2015er-Version ist archiviert, gueltig bis 31.10.2022»). Beschaffungs-/Destillations-Bring-
+> Schuld (`N57-2`, `wissen/normen/wiki/QUESTIONS.md`) zielt jetzt auf SIA 380:2022, nicht mehr
+> auf SIA 380:2015. Auch die 2022er-Ausgabe liegt nicht im Haus.
 
 ## Kernbegriffe — kanonische SIA-416-Hierarchie (Norm 416:2003, S. 8-13)
 

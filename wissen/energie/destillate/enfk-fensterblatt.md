@@ -107,6 +107,12 @@ Für die Berechnung der solaren Wärmegewinne im Systemnachweis sind massgeblich
   - **FS2 Überhang:** berücksichtigt auskragende Elemente (Balkonplatten, Vordächer);
     fensterweise bestimmt. Ab Leibungstiefe > 30 cm ist die Verschattung einzurechnen (Bezug:
     Messebene SIA 416/1, 2.3.4).
+    ⚠ **Fassungsvermerk (`normen` SIA-Sweep, elfte Fortsetzung, 23.08.2026):** SIA 416/1:2007 ist
+    seit 31.03.2015 zurückgezogen, ersetzt durch SIA 380:2015 — die ihrerseits seit 31.10.2022
+    archiviert ist. Aktuell gilt **SIA 380:2022** (gültig ab 01.11.2022, Produktseite
+    `shop.sia.ch/normenwerk/architekt/380_2022_d`). Keine der drei Ausgaben liegt im Haus
+    (Bring-Schuld `N57-2`, `wissen/normen/wiki/QUESTIONS.md`); ob die Messebenen-Definition
+    Ziff. 2.3.4 unverändert übernommen wurde, ist ungeprüft.
   - **FS3 Seitenblende:** seitliche Verschattungen (nach innen versetzte Balkone,
     Fassadenrücksprünge), ebenfalls fensterweise; bei beidseitigen Blenden gegen Süden werden
     die Werte multipliziert. Beispieltabelle (Tabelle 5) nach Leibungstiefe/Fensterbreite/

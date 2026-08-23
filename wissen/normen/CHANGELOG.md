@@ -1,3 +1,244 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 8: N-R40-1/N-R40-2 (Aufzugs-Cluster) über öffentliche Behörden-/Verbandsquellen geschlossen
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopf: QUESTIONS-Abarbeitung 7) und
+`outputs/2026-08-23_questions-abarbeitung7.md`. Ein parallel laufender `claude`-Prozess mit
+demselben Auftragstext ist dieser Lauf selbst; ein zweiter, unabhängiger Prozess ("SIA-Sweep
+der KB wissen/normen fort") läuft echt parallel auf derselben KB — beide Prozesse identifiziert
+(`ps aux`), unterschiedliche Themenzweige gewählt, um Kollision zu vermeiden.
+
+**Ausgangslage:** Die drei zuletzt gemeldeten P1-Bring-Schulden (SIA 380/1, SIA 385/1,
+VKF-BRL-16-15) waren entweder bereits gelöst (16-15, Run 7) oder blockiert durch den seit
+mehreren Läufen defekten zweiten OneDrive-Mount (`PL - 02_Recht_Norm/02_Normen/` liefert
+weiterhin `fts_read: Operation timed out`, in diesem Lauf erneut geprüft, unverändert). Dieser
+Zweig wird vom parallel laufenden SIA-Sweep-Prozess bearbeitet. Stattdessen zwei tragfähige P3
+-Punkte aus dem Aufzugs-Cluster (Run 40, 31.07.2026) angegangen, die keinen SharePoint-Zugriff
+brauchen, sondern über öffentlich zugängliche Behörden-/Verbandsquellen lösbar waren.
+
+**N-R40-1 geschlossen:** Ob VKF-RL «Aufzugsanlagen, Ausgabe 2003» durch VKF-BRL 23-15
+«Beförderungsanlagen» (2015) abgelöst wurde, war bisher nur Themen-Vermutung. Das
+2003er-Original ist nicht im JANS-Bestand, aber auf dem aktuellen VKF-Publikationsportal
+öffentlich abrufbar (`services2.vkf.ch/rest/public/georg/bs/publikation/documents/
+BSPUB-1394520214-1714.pdf/content`, per `pdftotext -layout` gelesen: **VKF-BRL 24-03d
+«Aufzugsanlagen», Ausgabe 26.03.2003, Stand 20.10.2008**). Ziff. 1 Geltungsbereich ist
+wortgleich mit Ziff. 1 der 23-15; die VKF-Übersicht `Zusammenfassung der Änderungen der
+teilrevidierten Brandschutzvorschriften VKF, Ausgabe 2015` (18.01.2017) belegt zusätzlich die
+systematische Neunummerierung der ganzen BRL-Serie in der Ausgabe 2015. Befund: established.
+Additive Nachträge in `destillate/vkf-brl-23-15-befoerderungsanlagen.md` und
+`destillate/vsa-aufzuege-dokumente-bestimmungen.md`.
+
+**N-R40-2 geschlossen:** ESBA-Originaltext der Baudirektion Kanton Zürich beschafft — öffentlich
+auf `zh.ch` (`.../dokumente-aufzugsanlagen/200409_rl-bd_erhoehung_der_sicherheit_best_aufzuege_
+2008.pdf`, 6 S. vollständig gelesen). Die sieben ESBA-Kriterien in `vsa-aufzuege-esba-zh.md`
+stimmen wortgleich mit dem Original überein. Neu belegt: die explizite Zuordnungstabelle
+ESBA-Nr. → SN-EN-81-80-Nr. (1→3, 2→27, 3→38, 4→40, 5→46, 6→56, 7→71, Ziff. 2.2) sowie die
+Rechtsgrundlage (Besondere Bauverordnung I vom 06.05.1981, §§ 32/33/3, Änderung 12.12.2001).
+Damit auch der bisher als «unbelegte Vermutung» geführte Zusammenhang ESBA ↔ SN EN 81-80
+(SNEL) geklärt. Additiver Nachtrag in `destillate/vsa-aufzuege-esba-zh.md` inkl.
+Status-/Datumsfeld im Frontmatter.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft. Eigene Dateien rein
+additiv (`vkf-brl-23-15-befoerderungsanlagen.md` 13/0, `vsa-aufzuege-dokumente-bestimmungen.md`
+11/0, `vsa-aufzuege-esba-zh.md` 34/2 — die 2 Löschzeilen sind die bewusste
+Frontmatter-Feld-Ersetzung `status`/`last_updated`, per `git diff` gegengelesen). In
+`wiki/QUESTIONS.md` stammen von den insgesamt 12 entfernten Zeilen nur 2 aus diesem Lauf
+(`[ ]`→`[x]` bei N-R40-1/N-R40-2, technisch als Zeilenersatz gezählt); die übrigen 10 Löschungen
+sind Schliessungen des parallelen SIA-Sweep-Prozesses (SIA 266/1, SIA 410) aus demselben
+Zeitfenster, per `git diff` (nicht nur `--numstat`) gegengelesen — keine Kollision, kein
+Textverlust. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / weiterhin offen:** Die P1-Bring-Schulden SIA 380/1, SIA 385/1, SIA 266/1,
+SIA-410-Nachfolgewerke bleiben beim parallel laufenden SIA-Sweep-Prozess bzw. sind
+Kaufentscheide Raphaels. N-R40-3 (P4, EN-81-Reihe) bewusst nicht bearbeitet (ausdrücklich «kein
+systematischer Nachzieh-Auftrag»). N-R40-4 (P4, SVAS↔VSA) unverändert offen, keine neue Quelle
+gefunden. Der «Dateiname/Inhalt-Mismatch»-Punkt (`vkf-merkblatt-brandschutzklassifikation-
+bauteile.md`) blieb ungeprüft — Quelldatei liegt nur unter dem defekten zweiten Mount, auch
+`mdfind` fand keinen lokalen Treffer.
+
+Report: `outputs/2026-08-23_questions-abarbeitung8.md`.
+
+---
+
+## 2026-08-23 — SIA-Sweep, zwölfte Fortsetzung: SIA 385/9-Fassungssprung (2011 → 2023) am Original bestätigt, P1-Bring-Schuld aus Run 18 geschlossen
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und `wissens-bibliothekar`
+beachten, jede Aussage belegen, nichts raten. Vorlauf gelesen: dieser CHANGELOG (Kopf: elfte
+Fortsetzung) und `outputs/2026-08-23_sia-sweep-elfte-fortsetzung.md`.
+
+Die drei zuletzt als erschöpft/bewusst-ausgesetzt vermerkten Zweige (Register-Vervollständigung,
+Blindzone-Sweep, N-SIASWEEP-2/3) wurden nicht erneut angegangen. Stattdessen ein neuer Zweig:
+Register-Zeilen, deren Bring-Schuld nur auf einer **Sekundärquelle** (Meldung einer anderen KB)
+beruht statt auf einer eigenen Direktprüfung der SIA-Shop-Produktseite. Fund: **SIA 385/9**
+(`wiki/QUESTIONS.md`, Run 18, 27.07.2026, P1) — das REGISTER führte «2011 | 2011✓», die Meldung
+«SIA-Shop weist Ausgabe 2023 aus» stammte von der KB `energie` und wurde nie selbst durch `normen`
+an der Produktseite nachvollzogen.
+
+**Direktprüfung 23.08.2026:** `shop.sia.ch/normenwerk/architekt/385-9_2023_d/D/Product` per
+WebFetch abgerufen (URL per WebSearch ermittelt, da mehrere andere Produktseiten-URLs am selben
+Tag mit HTTP 500 scheiterten — siehe Sackgassen-Hinweis im Report). Bestätigt: **SIA 385/9:2023**,
+SN 546385/9, gültig ab **01.08.2023**, 84 S., 200.00 CHF, ersetzt SIA 385/9:2011 (archiviert seit
+31.07.2023). `wiki/REGISTER.md` Zeile SIA 385/9 nachgeführt (Fassungssprung im Zeilenkopf markiert)
+sowie FRISCH-GEMELDET-Tabelle ergänzt; `wiki/QUESTIONS.md` P1-Punkt aus Run 18 mit ✅-Nachtrag
+geschlossen (additiv, Originaltext unangetastet). Cross-KB-Abnehmer
+`wissen/energie/destillate/therapiebad-hallenbad-energie-pflegeheim.md` Abschn. 7 im selben Lauf
+nachgeführt (Rule `wissens-bibliothekar`). Weder 2011 noch 2023 liegen als Volltext im Haus —
+Beschaffung bleibt Bring-Schuld, Sache Raphaels.
+
+**Sackgasse notiert:** drei zuvor erfolgreich abgerufene shop.sia.ch-Produktseiten (SIA 380:2022,
+SIA 4013:2021, SIA 242.002:2008) lieferten bei erneutem Abruf HTTP 500/404 — vermutlich temporäre
+Serverinstabilität, kein toter Pfad (dieselbe Domain antwortete im selben Lauf für die
+385-9-Produktseite sofort und vollständig). Für künftige Läufe: bei HTTP 500 zweiten Anlauf über
+WebSearch statt Wiederholung derselben URL.
+
+**Zwei parallele Claude-Prozesse derselben Station** liefen während dieses Laufs an derselben KB
+(QUESTIONS-Abarbeitung `mschub54`, u.a. SIA 266/1 und SIA 410/410-1/2 web-verifiziert) bzw. an
+einer anderen KB (Baurecht-Reglemente `mschub53`). Nach jedem eigenen Schreibvorgang `git diff`
+gegengelesen: alle Fremdänderungen additiv oder sauber als `[ ]`→`[x]` mit erhaltenem
+Ursprungswortlaut, keine Kollision mit den eigenen Edits.
+
+Report: `outputs/2026-08-23_sia-sweep-zwoelfte-fortsetzung.md`.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 7: VKF-BRL 16-15 P1 nachgezogen (bereits geloest, nie geschlossen)
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopf: SIA-Sweep elfte Fortsetzung) und
+`outputs/2026-08-23_questions-abarbeitung-sia266-1-sia410-web-verifiziert.md`.
+
+**SharePoint gemischt erreichbar:** Der Hauptmount (`OneDrive-FreigegebeneBibliotheken–JANS`)
+antwortet wieder, der zweite, praefixkollidierende Mount mit `PL - 02_Recht_Norm/02_Normen/`
+(dort liegen `SIA_Normen/alle/` und `SIA_Abo/`) weiterhin nicht (`fts_read: Operation timed out`,
+zweifach geprueft) — die P1-Bring-Schulden SIA 380/1 und SIA 385/1 bleiben deshalb blockiert.
+
+**VKF-BRL 16-15 «Stand 01.12.2022» — P1-Eintrag war bereits geloest, nur nie geschlossen.**
+Die Datei (`BSPUB-1394520214-85.pdf`, 35 S.) lag ueber den Hauptmount erreichbar
+(`AR - 01 Projekte/2619_KINDERSPITAL/06_Reglemente/Brandschutz Normen Auszug/`, per `mdfind`
+gefunden). Das Destillat `destillate/vkf-brl-16-15-flucht-rettungswege.md` enthaelt seit
+Run 22/23 (25.07.2026) einen vollstaendigen Abschnitt «Fassung 01.12.2022 — Delta zur Fassung
+01.01.2017», der beide in `QUESTIONS.md` als offen gefuehrten Punkte (ABSV-Aenderung Ziff.
+2.4.3/2.4.4, materielle Personenbelegungs-Aenderung Ziff. 3.5.2) bereits abschliessend loest.
+Eigene Gegenpruefung per `pdftotext -layout` auf S. 1-3 und S. 14-17: Wortlaut deckt sich
+vollstaendig mit dem im Destillat dokumentierten Befund, kein Widerspruch. `wiki/QUESTIONS.md`
+P1-Eintrag als `[x]` geschlossen (additiver Nachtrag, Original-Auftragstext bleibt stehen).
+
+**Zweiter Punkt geschlossen:** «Folgepruefung zur 2015er-BRL-Serie» (Run 15, 17.07.2026) ist
+durch den seither gelaufenen VKF-Fassungs-Sweep (N27-1/N58-1, Run 58-60, 20.-23.08.2026)
+erledigt — dessen Rang-5-Tabelle bestaetigt ausdruecklich, dass die Aenderungen 2017 fuer
+13-15/14-15/15-15/16-15/22-15 bereits erfasst sind. Additiver Nachtrag, `[x]` geschlossen.
+
+**Verifikation:** `git diff --numstat -- wiki/QUESTIONS.md` zeigte 77/10 — die 10 Loeschzeilen
+stammen aus parallel laufenden Prozessen derselben Station (SIA-266/1-/SIA-410-Schliessung,
+SIA-380-Nachtrag), per `git diff` gegengelesen: die drei eigenen Bloecke dieses Laufs sind reine
+`+`-Hunks. Kein `git`-Schreibbefehl ueber SMB. Kein neuer Fachinhalt destilliert — beide
+Schliessungen sind Nachtraege zu bereits erledigter Arbeit.
+
+Report: `outputs/2026-08-23_questions-abarbeitung7.md`.
+
+---
+
+## 2026-08-23 — SIA-Sweep, elfte Fortsetzung: erweiterter Nachfolgenorm-Scan ohne neuen Treffer, Cross-KB-Bringschuld N57-2 vollständig geschlossen (8 Dateien in 4 KBs)
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und `wissens-bibliothekar`
+beachten, jede Aussage belegen, nichts raten. Vorlauf gelesen: dieser CHANGELOG (Kopf: zehnte
+Fortsetzung) und `outputs/2026-08-23_sia-sweep-zehnte-fortsetzung.md`.
+
+**Erweiterter Nachfolgenorm-Scan (von der zehnten Fortsetzung als nächster Schritt vorgeschlagen):**
+der bisherige Python-Abgleich suchte nur das Muster `ersetzt durch **SIA <Nummer>`. Dieser Lauf hat
+den Scan auf vier weitere Formulierungen ausgedehnt (`löst … ab`, `Nachfolgenorm:`, `abgelöst
+durch`, `Nachfolger:`) und erneut gegen alle 264 vorhandenen Zeilenköpfe in Abschnitt A geprüft
+(inkl. der drei in der zehnten Fortsetzung neu angelegten Zeilen SIA 380/4013/242.002). **0 neue
+Treffer** — die bereits erfassten 25 Nachfolge-Verweise decken sich vollständig mit den
+vorhandenen Zeilen. Der in der zehnten Fortsetzung offen gelassene Punkt («andere Formulierungen
+nicht vollständig durchgekämmt») ist damit erledigt: der Register-Vervollständigungs-Zweig des
+Sweeps liefert mit dieser breiteren Methode keinen weiteren Fund.
+
+**Schwerpunkt des Laufs: die von der zehnten Fortsetzung offen gelassene Cross-KB-Bringschuld aus
+N57-2 vollständig abgearbeitet.** N57-2 hatte belegt, dass die Bring-Schuld zur Nachfolgenorm von
+SIA 416/1:2007 nicht auf SIA 380:2015 zielen darf (selbst archiviert seit 31.10.2022), sondern auf
+**SIA 380:2022**. Die zehnte Fortsetzung hatte nur `energie/wiki/u-werte-grenzwerte-ch.md`
+nachgeführt; acht weitere in der N57-2-Tabelle genannte Dateien blieben offen. Alle acht in diesem
+Lauf korrigiert:
+
+- `wissen/immobilienbewertung/wiki/flaechendefinitionen-sia.md`
+- `wissen/planungsgrundlagen/wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md`
+- `wissen/baurecht/buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md`
+- `wissen/energie/destillate/gebaeudehuellziffer-ebf-flaechendefinition.md` (zwei Fundstellen)
+- `wissen/energie/destillate/enfk-en-02-waermeschutz-2013.md`
+- `wissen/energie/destillate/therapiebad-hallenbad-energie-pflegeheim.md`
+- `wissen/energie/destillate/enfk-fensterblatt.md` (hatte bisher **keinen** Fassungsvermerk zu
+  SIA 416/1 — neu gesetzt, direkt auf SIA 380:2022 zielend)
+- `wissen/energie/destillate/systemnachweis-kurs-zh-2009.md` (ebenfalls ohne bisherigen
+  Fassungsvermerk — neu gesetzt)
+
+Jede Datei bekam einen additiven Korrektur-Warnkasten (Quelle: `shop.sia.ch/normenwerk/architekt/
+380_2022_d`, abgerufen 23.08.2026, bestätigt wörtlich «die 2015er-Version ist archiviert, gültig
+bis 31.10.2022»), Originaltext unangetastet. `wissen/normen/wiki/QUESTIONS.md` N57-2 um einen
+Abschluss-Nachtrag ergänzt, der alle neun nachgeführten Dateien (die acht hier plus die bereits
+in der zehnten Fortsetzung erledigte `u-werte-grenzwerte-ch.md`) benennt.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — sieben Dateien rein
+additiv, zwei (`therapiebad-hallenbad-energie-pflegeheim.md`,
+`recht-norm-ahb-stadt-zuerich-projektstandards.md`) mit je einer Löschzeile, beide per `git diff`
+gegengelesen: reiner Zeilenumbruch-Verschub eines Wortes beim Einfügen eines neuen Absatzes, kein
+Textverlust. `wissen/normen/wiki/QUESTIONS.md` zeigte beim Schreiben Änderungen eines **parallelen**
+Prozesses derselben Station (eigener Lauf «QUESTIONS-Abarbeitung», SIA 266/1 und SIA 410/410-1/2) im
+selben Zeitfenster — vor dem eigenen Edit die Zielstelle frisch gelesen (unverändert seit dem
+Vorlauf-Read), nach dem Edit per `git diff` geprüft: die fremden Ergänzungen an anderer Stelle der
+Datei vollständig erhalten, keine Kollision. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:** kein Volltext von SIA 380:2022 (oder 2015), SIA 4013,
+SIA 242.002 gekauft — bleiben Beschaffungs-Bring-Schulden. N-SIASWEEP-2 (SIA 422) und N-SIASWEEP-3
+(SIA 2021/2025) weiterhin bewusst nicht erneut angegangen (Empfehlung der achten/neunten
+Fortsetzung, neun unabhängige Quellenarten bereits erschöpft). Der Blindzone-Sweep bleibt bei
+0 von 187 offenen Zeilen, in diesem Lauf nicht neu gescannt.
+
+Report: `outputs/2026-08-23_sia-sweep-elfte-fortsetzung.md`.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung: SIA 266/1 (superseded, aktuell 2015) und SIA 410/410-1/2 (zurückgezogen 01.01.2025) web-verifiziert
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus vor Zitat lesen. Vorlauf gelesen:
+dieser CHANGELOG (Kopf: zehnte SIA-Sweep-Fortsetzung) und `outputs/2026-08-23_questions-abarbeitung6.md`.
+SharePoint/OneDrive war während des Laufs nicht erreichbar (`fts_read: Operation timed out`
+auf allen drei Mounts) — die drei SharePoint-abhängigen P1-Bring-Schulden (SIA 380/1, SIA
+385/1, VKF-BRL-16-15-Vollfassung) blieben deshalb unbearbeitet; stattdessen zwei über
+öffentliche Web-Quellen abschliessend klärbare Fragen bearbeitet.
+
+**SIA 266/1: geltende Ausgabe ist 2015, nicht 2003.** SIA-Shop-Produktseite
+(`shop.sia.ch/normenwerk/ingenieur/266-1_2015_d`, WebFetch 23.08.2026) bestätigt wörtlich
+«SIA 266/1:2015 ... Ersetzt Norm SIA 266/1:2003», gültig ab 01.07.2015, 16 Seiten, CHF 30.-.
+Destillat `sia-266-1-2003.md` von `established` auf `superseded` umgestellt (Warnblock im
+Fliesstext, Textwiedergabe der 2003er-Fassung bleibt als historische Dokumentation korrekt);
+REGISTER.md und INDEX.md nachgeführt; neue Bring-Schuld P1 «Volltext 2015 beschaffen» in
+QUESTIONS.md.
+
+**SIA 410 UND SIA 410/1+410/2 sind seit 01.01.2025 zurückgezogen.** suissetec-Meldung
+(`suissetec.ch/de/news-detail/rueckzug-normen-sia-410-1986-und-sia-410-1-2-1981.html`, WebFetch
+23.08.2026) benennt im Titel ausdrücklich beide in der KB destillierten Dokumente. Begründung:
+Aussparungen neu ausschliesslich in SIA 400 «Planbearbeitung im Hochbau», HLKS-Symbole/Farbcode
+neu über die suissetec-Planungsrichtlinien. Beide Destillate (`sia-410-1986.md`,
+`sia-410-1-2-1981.md`) von `established` auf `zurückgezogen` umgestellt (Warnblock im
+Fliesstext, Textwiedergabe bleibt korrekt dokumentiert); REGISTER.md und INDEX.md nachgeführt;
+neue Bring-Schuld P2 «Nachfolgewerke beschaffen» in QUESTIONS.md.
+
+**Verifikation:** beide Web-Belege sind Primärquellen des jeweiligen Herausgebers/Verbands,
+vollständig per WebFetch abgerufen (nicht nur Suchergebnis-Snippets). Nach jedem Schreiben
+`git diff --numstat` geprüft: `sia-266-1-2003.md` 12/3, `sia-410-1986.md` 13/3,
+`sia-410-1-2-1981.md` 13/3, `destillate/INDEX.md` 3/3, `wiki/REGISTER.md` 2/2,
+`wiki/QUESTIONS.md` 33/10 — alle Diffs Erweiterungen an den editierten Stellen, kein
+Datenverlust. Kein `git` über SMB ausgeführt.
+
+Report: `outputs/2026-08-23_questions-abarbeitung-sia266-1-sia410-web-verifiziert.md`.
+
 ## 2026-08-23 — SIA-Sweep, zehnte Fortsetzung: drei fehlende Register-Zeilen (SIA 380, SIA 4013, SIA 242.002) nachgetragen, dabei falsches Bring-Schuld-Ziel N57-2 korrigiert (SIA 380:2015 ist selbst archiviert, aktuell gilt SIA 380:2022)
 
 **Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen

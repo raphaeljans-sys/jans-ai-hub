@@ -79,6 +79,12 @@ Q_h,li-Grenzwerte zwischen den Vollzugshilfen-Ausgaben 2013↔2018 nicht geaende
 
 ⚠ **Fassungsvermerk (Wissens-Chef Run 37, 19.08.2026):** **SIA 416/1:2007 ist zurückgezogen** (gültig 01.07.2007 bis 31.03.2015), ersetzt durch **SIA 380:2015** (SN 504380:2015). Belegt an zwei Primärquellen (SIA-Shop-Produktdatenblatt «archivierter Titel»; Titelblatt der SIA 380:2015 «Ersatz für SIA 416/1:2007»), Normen-Nacht Run 57. **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`). Der EBF-**Begriff** lebt in der Nachfolgenorm weiter — überholt ist die **Fundstelle**, nicht zwingend die Abgrenzung. Ob der kantonale Vollzug (EVEN/EnFK) seinen statischen Verweis nachgeführt hat, ist **nicht geprüft**. Fuer den Stand 2013 war die Angabe korrekt; das Destillat bleibt quellentreu.
 
+⚠ **KORREKTUR 23.08.2026 (`normen` SIA-Sweep, elfte Fortsetzung):** SIA 380:2015 ist selbst seit
+31.10.2022 archiviert; aktuell gilt **SIA 380:2022** (gültig ab 01.11.2022, Produktseite
+`shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026: «die 2015er-Version ist
+archiviert, gültig bis 31.10.2022»). Bring-Schuld `N57-2` zielt jetzt auf SIA 380:2022, ebenfalls
+nicht im Haus.
+
 - **EBF = Summe aller ober-/unterirdischen Geschossflaechen, deren Nutzung Beheizen oder Klimatisieren
   erfordert**, **brutto** (Aussenmasse) gemessen; lichte Raumhoehe < 1,0 m zaehlt nicht.
 - **Dazu zaehlen** (auch unbeheizt, falls innerhalb der therm. Huelle): HNF, Verkehrsflaechen

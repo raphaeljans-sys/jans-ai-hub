@@ -13,6 +13,10 @@ verifiziert:
     methode: "Beschaffbare Luecke aus raw geschlossen (Buch-Run 50, Bring-Schuld Cross-KB Run 10)"
     umfang: "Meldeverfahren §§ 2a-2e BVV (Tatbestaende/Rueckausnahme/Tragweite/Unterlagen/Einreichung/Baufreigabe) gegen raw/260607_amtlich_zh_bvv.md"
     ergebnis: "als vierter Verfahrenstyp integriert; Fassungsstand 1.7.2026 Nachtrag 133; Flag-Notiz «§§ 2a-2c» auf §§ 2a-2e korrigiert (Typ spannt bis Baufreigabe § 2e)"
+  - datum: 2026-08-23d
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 85, Phase 3 (aeltestes verifiziert-Datum unter den established-Artikeln; Reglemente-Queue 2414 Thalwil T1-T8 unveraendert vollstaendig abgearbeitet seit Run 79)"
+    umfang: "§§ 311/312/313/314/315/316/318/319/320/321/322/328/329 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133)"
+    ergebnis: "CONFIRMED mit 1 Korrektur: § 315 Abs. 1 PBG verlangt seit 1.4.2024 (G vom 23.10.2023, Fussnote 68) die Zustellbegehren-Geltendmachung elektronisch ueber die Plattform, nicht mehr schriftlich; Register-Sweep-Luecke zu [[bauausfuehrung-und-baukontrolle]] (dort fuer § 326 PBG bereits erfasst, Run 30) geschlossen. Uebrige Paragraphen wortgleich, 0 weitere Korrekturen. §§ 41/44/45/48/50/51 GG (Zustaendigkeits-Abschnitt) bleiben ausserhalb Scope, da GG nicht in raw/ vorliegt (Luecke in QUESTIONS.md vermerkt)."
 ---
 
 # Baubewilligungsverfahren
@@ -131,13 +135,29 @@ Ausnützung/Höhen/Abstände, die ein Gestaltungsplan festlegt, sind **im Planau
 9. Baubeginn nach Rechtskraft, innert 3 Jahren (§ 322 PBG)
 
 ## Fristen
-- **Zustellbegehren / Wahrung Rekursrecht: 20 Tage** ab öffentlicher Bekanntmachung, schriftlich
-  bei der örtlichen Baubehörde (§§ 315/316 PBG) — Prozessvoraussetzung; versäumt = Rekursrecht
-  verwirkt (formelle Beschwer, beurteilt durch die Rekursinstanz).
+- **Zustellbegehren / Wahrung Rekursrecht: 20 Tage** ab öffentlicher Bekanntmachung,
+  **elektronisch über die Plattform** bei der örtlichen Baubehörde (§ 315 Abs. 1 PBG) —
+  Prozessvoraussetzung; versäumt = Rekursrecht verwirkt (formelle Beschwer, beurteilt durch die
+  Rekursinstanz).
   - *Korrektur 2026-07-02 (Modell D):* früher hier «Auflage-/Einsprachefrist 30 Tage» — nach
     § 315 Abs. 1 PBG sind es **20 Tage** für das Zustellbegehren (Beleg [[06-baurechtliches-verfahren]]
     + [[06-baurechtliches-verfahren-teil2]], VB.2015.00248); die 30-Tage-Frist gilt für den **Rekurs**
-    und für die Nachbaranzeige im **Anzeigeverfahren**. Am amtlichen PBG-Volltext gegengeprüft halten.
+    und für die Nachbaranzeige im **Anzeigeverfahren**.
+  - *Korrektur 2026-08-23 (Buch-Run 85, Modell-D-Wortlautabgleich, Register-Sweep):* «schriftlich
+    bei der örtlichen Baubehörde» war veraltet. § 315 Abs. 1 PBG verlangt seit der Revision (G vom
+    23. Oktober 2023, in Kraft seit 1. April 2024, Fussnote 68 im amtlichen Volltext) die
+    Geltendmachung **elektronisch über die Plattform**; die Adressierung an die örtliche
+    Baubehörde selbst bleibt unverändert. Derselbe Fassungswechsel ist für § 326 PBG
+    (Baufreigabe) bereits in [[bauausfuehrung-und-baukontrolle]] (Run 30) erfasst, war aber nie
+    hierher gesweept worden — gleiche Fehlerfamilie wie der Register-Sweep-Nachzug in
+    [[baulinien-und-abstandslinien]] (Run 62). Quelle: `raw/260607_amtlich_zh_pbg.md`, § 315
+    Abs. 1 (Z. 3249-3252) + Fussnote 68 (Z. 4096-4097: «Fassung gemäss G vom 23. Oktober 2023
+    [...] In Kraft seit 1. April 2024»).
+  - **Querbezug elektronische Verfahrensführung (§§ 328a-328g PBG):** das gesamte
+    baurechtliche Verfahren läuft grundsätzlich elektronisch über die kantonale Plattform
+    (Eingaben, Akteneinsicht, Mitteilung von Anordnungen, Fristenwahrung bei
+    Nichterreichbarkeit der Plattform § 328f). Vollständig destilliert und volltextverifiziert
+    in [[bauausfuehrung-und-baukontrolle]] — hier nur Querverweis, kein Doppelaufbau.
 - Anzeigeverfahren — Nachbaranzeige-/Einwendungsfrist: 30 Tage (§§ 13-15 BVV)
 - Rekursfrist: 30 Tage ab Zustellung
 - **Baubeginn: 3 Jahre nach Rechtskraft (§ 322 Abs. 1 PBG) — Verwirkungsfrist, NICHT

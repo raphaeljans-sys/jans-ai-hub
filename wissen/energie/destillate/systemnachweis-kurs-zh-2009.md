@@ -52,6 +52,15 @@ vollständigen Fallbeispiel-Einfamilienhaus (S. 9, 17).
   Pufferräume») können wahlweise ein- oder ausgeschlossen werden, wenn dies die
   Hüllfläche verkleinert oder Wärmebrücken vermeidet (S. 10-11).
 
+⚠ **Fassungsvermerk (`normen` SIA-Sweep, elfte Fortsetzung, 23.08.2026), zu allen SIA-416/1-
+Verweisen in diesem Destillat:** SIA 416/1:2007 ist seit 31.03.2015 zurückgezogen, ersetzt durch
+SIA 380:2015 — die ihrerseits seit 31.10.2022 archiviert ist. Aktuell gilt **SIA 380:2022**
+«Grundlagen für energetische Berechnungen von Gebäuden», gültig ab 01.11.2022 (Produktseite
+`shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026). Keine der drei Ausgaben
+liegt im Haus (Bring-Schuld `N57-2`, `wissen/normen/wiki/QUESTIONS.md`); dieser Kurs von 2009 gibt
+den damaligen Stand quellentreu wieder, für ein neues Aussendokument nicht ungeprüft als geltende
+Fundstelle setzen.
+
 ## Energiebezugsfläche (EBF) — was zählt, was nicht (S. 15, Norm SIA 416/1)
 
 - Zur EBF gehören die Geschossflächen der Hauptnutzflächen (HNF: Wohnen/Aufenthalt,

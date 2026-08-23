@@ -3,6 +3,34 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (neunte Fortsetzung) — Vierte Folgeprüfung ohne Befund: Korpus abgeschlossen, keine fünfte Prüfung mehr sinnvoll
+
+- **Getan:** Vierter unabhängiger Fortsetzungsauftrag in Folge («Triage des Korpus
+  `buero-projekte` weiterführen», erneut mit dem veralteten Zwischenstand «807 Positionen»)
+  erhalten. Vor jeder Handlung Spec (`skills/wissens-destillat/specs/buero-projekte-spec.md`),
+  diesen CHANGELOG und `KORPUS-QUEUE.md` gelesen.
+- **[Verifikation]** Eigene, von den drei Vorläufen unabhängige Nachzählung:
+  `buero-projekte-inventar.md` zeigt unverändert 822 Zeilen, 56 `[x]` + 757 `[-]` = 813
+  Sachzeilen, 0 `[ ]`/`[t]`. `find -newermt "2026-08-23 16:00" -type f` auf
+  `/Volumes/daten/04_Buero/02_Projekte` erneut 0 Treffer. Laufende `claude`-Prozesse geprüft:
+  einer trägt denselben Auftragstext wie diese Session (eigener Prozess der `-p`-Ausführung,
+  kein Konkurrent), ein zweiter bearbeitet die KB `normen` (anderer Korpus, kein Konflikt).
+- **[Pflicht-Zusatzauftrag]** `wissen/bauprodukte/wiki/bevorzugte-systeme-jans.md` weiterhin
+  nicht angelegt — unverändert korrekt, keine neue projektübergreifende Wiederholung seit der
+  fünften Fortsetzung.
+- **Kein neuer Destillat-/Triage-Schritt ausgeführt.** Dies ist die vierte identische
+  Folgebestätigung in Serie (fünfte bis achte Fortsetzung kamen bereits zum selben Ergebnis).
+  **Hinweis für künftige Fortsetzungsaufträge an diesen Korpus:** eine weitere reine
+  Bestandsprüfung ohne neues Quellmaterial bringt keinen Erkenntnisgewinn mehr (Rule
+  `wissens-ruecklauf`, kein Pflicht-Rauschen) — bitte direkt hier ansetzen, nicht erneut
+  nachzählen. Tatsächlich offene Arbeit im Wissens-Destillat-Prozess liegt in
+  `KORPUS-QUEUE.md` bei zwei anderen Korpora mit abgeschlossenem Inventar, aber offener
+  Destillat-Phase und fehlender Spec: `buero-referenzen` (12/32 Sektionen, P1 44/P2 124,
+  Ziel-KB `wissen/architektur-fachwissen`) und `archiv-fachwissen` (4/23 Sektionen, P1 69/
+  P2 507, gleiches Ziel-KB). Ein Wechsel der Korpus-Reihenfolge ist laut `KORPUS-QUEUE.md`
+  ein Entscheid Raphaels, kein Loop-Entscheid — darum hier nur als Hinweis, nicht als
+  eigenmächtige Umschaltung.
+
 ## 2026-08-23 (achte Fortsetzung) — Dritte Folgeprüfung ohne Befund: Korpus bleibt abgeschlossen, kein weiterer Lauf ausgelöst
 
 - **Getan:** Dritter unabhängiger Fortsetzungsauftrag in Folge («Triage des Korpus

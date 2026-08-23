@@ -161,7 +161,11 @@ Elektrizität (BFE 1993, S. 14, Tabellen 1 und 2):
 > (EBF) führt die KB `normen` als zurückgezogen (`wissen/normen/wiki/REGISTER.md` Z. 52/108/300);
 > Nachfolge SIA 416:2003 bzw. SIA 416/1:2007 *(Nachtrag Run 37, 19.08.2026: die Kaskade geht eine
 > Stufe weiter — **SIA 416/1:2007 ist selbst seit dem 31.03.2015 zurückgezogen**, Ersatz
-> SIA 380:2015, nicht im Haus, Ticket `N57-2`. **SIA 416:2003 ist unberührt gültig.**)*.
+> SIA 380:2015, nicht im Haus, Ticket `N57-2`. **SIA 416:2003 ist unberührt gültig.**)*
+> *(⚠ KORREKTUR 23.08.2026, `normen` SIA-Sweep elfte Fortsetzung: SIA 380:2015 ist selbst seit
+> 31.10.2022 archiviert; aktuell gilt **SIA 380:2022** (gültig ab 01.11.2022, Produktseite
+> `shop.sia.ch/normenwerk/architekt/380_2022_d`). Bring-Schuld `N57-2` zielt jetzt auf 2022,
+> ebenfalls nicht im Haus.)*.
 > Die Übertragbarkeit dieser m³-Kennwerte auf ein
 > **GV nach SIA 416** ist nicht geprüft — vor jeder Hochrechnung Bezugsgrösse klären.
 
@@ -267,6 +271,12 @@ zitierten Dalton-Formel — **kein Zitat einer Quelle, die Therapiebäder selbst
   aus («Wasser und Wasseraufbereitungsanlagen in öffentlich zugänglichen Schwimmbädern und ähnlichen
   Einrichtungen», ersetzt 385/9:2011). Vor einem Zitat mit Ausgabejahr ist die geltende Fassung
   darum in `normen` zu verifizieren (dort als Prüfauftrag angemeldet).
+  ✅ **Verifiziert 23.08.2026 (KB `normen`, SIA-Sweep, zwölfte Fortsetzung):** die Produktseite
+  `shop.sia.ch/normenwerk/architekt/385-9_2023_d/D/Product` wurde direkt abgerufen und bestätigt
+  **SIA 385/9:2023**, gültig ab 01.08.2023, 84 S., ersetzt SIA 385/9:2011 (archiviert seit
+  31.07.2023). Für Zitate mit Ausgabejahr gilt jetzt **385/9:2023**, nicht mehr 2011. Weder 2011
+  noch 2023 liegen als Volltext im Haus (Beschaffungs-Bring-Schuld, Kauf ist Sache Raphaels).
+  Details: `wissen/normen/wiki/REGISTER.md` Zeile SIA 385/9.
 - **Praktische Konsequenz für die Bauherrschaft:** Ein Therapiebad im Raumprogramm eines
   Pflegeheims oder Spitals ist mit hoher Wahrscheinlichkeit eine energetische **Sondernutzung**,
   die gesondert von der übrigen Wohn-/Pflegenutzung zu betrachten ist — schon weil öffentliche

@@ -114,6 +114,19 @@ Ziff. 1 (S. 4): Gilt für Erstellung und Betrieb von Beförderungsanlagen (Aufzu
 ## Offene Punkte
 - Norm-Nr./Titel im Inventar unbekannt gewesen; jetzt geklärt: VKF-BRL 23-15de «Beförderungsanlagen», Stand 01.01.2015
 - Keine Angabe im Dokument, ob/welche Vorgänger-Ausgabe diese BRL ersetzt (anders als bei 16-15, wo «rev2016» im Dateinamen steht) — Register (`ersetzte_normen.pdf`) bei Bedarf gegenprüfen
+  **Geklärt (23.08.2026, QUESTIONS-Abarbeitung 8, N-R40-1):** Vorgänger ist **VKF-BRL 24-03d
+  «Aufzugsanlagen», Ausgabe 26.03.2003, Stand 20.10.2008** — nicht im JANS-Bestand, aber
+  öffentlich auf dem VKF-Publikationsportal abrufbar
+  (`services2.vkf.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-1714.pdf/
+  content`, per `pdftotext -layout` gelesen). Deren Ziff. 1 Geltungsbereich («Diese
+  Brandschutzrichtlinie gilt für die Erstellung und den Betrieb von Beförderungsanlagen sowie
+  Feuerwehraufzügen», S. 4) ist wortgleich mit Ziff. 1 dieser BRL (oben, S. 4). Die
+  VKF-Übersicht `Zusammenfassung der Änderungen der teilrevidierten Brandschutzvorschriften
+  VKF, Ausgabe 2015` (VKF, 18.01.2017, Inhaltsverzeichnis S. 2) bestätigt zusätzlich, dass die
+  gesamte BRL-Serie in der Ausgabe 2015 systematisch von der alten Nummerierung auf das neue
+  Schema `NN-15` umgestellt wurde. Ablösung damit durch Wortlaut- und Themenidentität sowie
+  die Systematik der 2015er-Neunummerierung belegt (established), keine einzelne
+  Ablösungsformel im Original gefunden. Details: `wiki/QUESTIONS.md` N-R40-1.
 - **Geklärt (31.07.2026):** Änderungsdokument `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf`
   ist als [[vkf-brl-aenderungen-2017]] destilliert und betrifft diese BRL an zwei Stellen (Ziff.
   3.6 Abs. 2 neu, Ziff. 5.1 cr-Kennzeichnung, siehe oben). Die Quelle ist eine

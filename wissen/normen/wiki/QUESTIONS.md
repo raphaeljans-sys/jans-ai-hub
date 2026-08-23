@@ -732,6 +732,17 @@ gewichtiger als jede weitere Runde auf der Altnorm.
 > fünf in der Tabelle oben genannten Fremd-KBs sind über diese Korrektur **noch nicht** informiert
 > (Cross-KB-Bringschuld weiterhin offen, jetzt mit korrigiertem Ziel); `energie/wiki/u-werte-
 > grenzwerte-ch.md` in diesem Lauf als einzige bereits nachgeführt (dringlichster Abnehmer).
+>
+> ⚠ **Nachtrag 23.08.2026 (SIA-Sweep, elfte Fortsetzung) — Cross-KB-Bringschuld erledigt.** Alle
+> acht in der Tabelle oben genannten Dateien (fünf `energie`, je eine `immobilienbewertung`,
+> `planungsgrundlagen`, `baurecht`) plus das bereits erledigte `energie/wiki/u-werte-grenzwerte-
+> ch.md` tragen jetzt den korrigierten Verweis auf **SIA 380:2022** statt SIA 380:2015 (additiver
+> Korrektur-Warnkasten je Datei, Originaltext unangetastet). Die zwei Dateien `enfk-fensterblatt.md`
+> und `systemnachweis-kurs-zh-2009.md` hatten bisher **gar keinen** Fassungsvermerk zu SIA 416/1 —
+> dort neu gesetzt, direkt auf SIA 380:2022 zielend. Verifiziert per `git diff --numstat`: sieben
+> Dateien rein additiv, zwei mit einer Löschzeile (reiner Zeilenumbruch-Verschub beim Einfügen
+> eines Absatzes, kein Textverlust, gegengeprüft). Beschaffung von SIA 380:2022 selbst bleibt
+> Bring-Schuld Raphael — Claude tätigt keine Käufe.
 
 **Reichweite über die KB hinaus — bitte prüfen, hier nur gemeldet.** Das Register `wissen/normen`
 ist nachgeführt (REGISTER, INDEX, Inventar, Destillat, Wiki-Artikel). **Nicht angefasst** sind
@@ -2029,13 +2040,61 @@ mit dem Fund prominent in Frontmatter, Titel und eigenem Abschnitt jeder Datei:
 `vsa-aufzuege-snel.md`. Keine erfundene Brücke zu SN 592 000 hergestellt.
 
 **Offene Punkte aus den drei Destillaten:**
-- [ ] **N-R40-1 (P3):** Prüfen, ob VKF-RL «Brandschutzrichtlinie Aufzugsanlagen, Ausgabe
+- [x] **N-R40-1 (P3):** Prüfen, ob VKF-RL «Brandschutzrichtlinie Aufzugsanlagen, Ausgabe
   2003» (in `vsa-aufzuege-dokumente-bestimmungen.md` referenziert) durch die im Bestand
   vorhandene `vkf-brl-23-15-befoerderungsanlagen.md` (2015) abgelöst wurde — bisher nur
   Vermutung aus Themennähe, nicht an beiden Originalen geprüft.
-- [ ] **N-R40-2 (P3):** ESBA-Originaltext der Baudirektion Kanton Zürich beschaffen und
+  **Geschlossen (23.08.2026, QUESTIONS-Abarbeitung 8):** Das Original der 2003er-Richtlinie
+  ist nicht im JANS-Bestand, aber auf dem aktuellen VKF-Publikationsportal noch öffentlich
+  abrufbar: `services2.vkf.ch/rest/public/georg/bs/publikation/documents/
+  BSPUB-1394520214-1714.pdf/content` (PDF-Metadaten: Ursprungsdatei «24-03de.docx»,
+  Erstellungsdatum 09.03.2011). Titelblatt und Kolophon per `pdftotext -layout` gelesen:
+  **VKF-BRL 24-03d «Aufzugsanlagen», Ausgabe 26.03.2003, Stand 20.10.2008**, © VKF/AEAI/AICAA.
+  Ziff. 1 Geltungsbereich lautet dort wortgleich (bis auf einen Klammerzusatz) wie Ziff. 1 in
+  `vkf-brl-23-15-befoerderungsanlagen.md`: «Diese Brandschutzrichtlinie gilt für die
+  Erstellung und den Betrieb von Beförderungsanlagen sowie Feuerwehraufzügen» (24-03d, S. 4)
+  gegen «Gilt für Erstellung und Betrieb von Beförderungsanlagen (Aufzugsanlagen, Fahrtreppen
+  und dergleichen) sowie Feuerwehraufzügen» (23-15, Ziff. 1, S. 4). Zusätzlich bestätigt die
+  Inhaltsübersicht von `Zusammenfassung der Änderungen der teilrevidierten
+  Brandschutzvorschriften VKF, Ausgabe 2015` (VKF, 18.01.2017, S. 2; öffentlich unter
+  `services2.vkf.ch/.../BSPUB-1394520214-245.pdf/content`), dass die gesamte BRL-Serie in der
+  Ausgabe 2015 systematisch von der alten Nummerierung (u.a. `24-03`) auf das neue Schema
+  `NN-15` umgestellt wurde (10-15, 12-15, 13-15, …, 23-15 Beförderungsanlagen, 25-15, 26-15).
+  **Befund: 24-03d wurde durch die Ausgabe 2015 als 23-15 «Beförderungsanlagen» abgelöst** —
+  gleicher Herausgeber, wortgleicher Geltungsbereich, Teil derselben systematischen
+  Neunummerierung. Kein Einzeldokument mit einer expliziten Formel «24-03 wird durch 23-15
+  ersetzt» gefunden (die 2017er-Zusammenfassung listet nur die neue Nummerierung, keine
+  Alt-Neu-Tabelle) — die Zuordnung stützt sich auf Wortlaut- und Themenidentität, nicht auf
+  einen einzelnen Ablösungssatz; als **established** einzustufen, da zwei unabhängige
+  Primärquellen (Originaltext 2003/2008 + VKF-Aenderungsuebersicht 2017) übereinstimmen.
+  In `destillate/vkf-brl-23-15-befoerderungsanlagen.md` und
+  `destillate/vsa-aufzuege-dokumente-bestimmungen.md` je einen additiven Nachtrag ergänzt.
+- [x] **N-R40-2 (P3):** ESBA-Originaltext der Baudirektion Kanton Zürich beschaffen und
   gegen die VSA-Kurzfassung (7 Kriterien) verifizieren; Rechtsgrundlage (Gesetzes-/
   Verordnungsartikel) klären.
+  **Geschlossen (23.08.2026, QUESTIONS-Abarbeitung 8):** Originaltext öffentlich auf
+  `zh.ch` beschafft (kein Beschaffungs-Bring-Schuld, kein Kauf nötig):
+  `zh.ch/content/dam/zhweb/bilder-dokumente/themen/planen-bauen/hochbau/planungsgrundlagen/
+  gebaeudetechnik/dokumente-aufzugsanlagen/200409_rl-bd_erhoehung_der_sicherheit_best_aufzuege_
+  2008.pdf`, per `pdftotext -layout` gelesen (6 S., vollständig). Titelblatt: «Richtlinie der
+  Baudirektion über die Erhöhung der Sicherheit an bestehenden Aufzügen (ESBA-Richtlinie),
+  Stand 15. Juli 2008», Version V 1.4, rev. 14.01.2020 (nur grafische Überarbeitung, Inhalt
+  unverändert seit 2008).
+  **Sieben Kriterien wortgleich verifiziert** (Ziff. 2.2, Tabelle S. 5) — VSA-Kurzfassung in
+  `vsa-aufzuege-esba-zh.md` stimmt für alle 7 Punkte exakt mit dem Original überein, keine
+  Abweichung.
+  **Verhältnis ESBA ↔ SN EN 81-80 (SNEL) jetzt belegt, nicht mehr Vermutung:** das Original
+  enthält die explizite Zuordnungstabelle (Ziff. 2.2, S. 5) ESBA-Nr. → EN-81-80-Nr.: 1→3
+  (teilweise), 2→27, 3→38, 4→40, 5→46, 6→56, 7→71 — die 7 ESBA-Punkte sind eine kantonale
+  Filterung aus den 74 Gefährdungspunkten der SN EN 81-80:2003 (Ziff. 1.4/2.1).
+  **Rechtsgrundlage geklärt (Ziff. 1.1, 3.4, 3.5, 4.1):** Besondere Bauverordnung I (BBV I)
+  vom 06.05.1981, letzte Änderung 12.12.2001 — §§ 32/33 (periodische Kontrollen, Anpassung
+  bestehender Aufzugsanlagen), § 3 (Ausnahmebewilligung). Vor 2001 erklärte die BBV I die
+  SIA-Wegleitung 370/101 (1985) für verbindlich; mit der Änderung 2001 fiel dieser Anhang
+  weg, die ESBA-Richtlinie 2008 füllt seither die entstandene Lücke, indem sie SN EN 81-80
+  auf kantonale Ebene umsetzt.
+  In `destillate/vsa-aufzuege-esba-zh.md` additiv nachgetragen (Zuordnungstabelle,
+  Rechtsgrundlage, Quelle).
 - [ ] **N-R40-3 (P4):** Zehn nicht destillierte Teile der EN-81-Reihe (81-1, -2, -3, -11,
   -21, -70, -71, -72, -73, 115-1, 115-2) — nur bei konkretem Projektbedarf (Aufzugsthema
   in Ankaufsprüfung/Ausschreibung) destillieren, kein systematischer Nachzieh-Auftrag.
@@ -2477,6 +2536,14 @@ Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel au
    `wissen/energie/destillate/therapiebad-hallenbad-energie-pflegeheim.md` Abschn. 7.
    *Strukturbefund dahinter:* dieselbe 2013er-Bestandsgrenze betrifft potenziell jede nach 2013
    revidierte Norm im Register — eine Stichprobe wäre wertvoller als der Einzelfall.
+   ✅ **GESCHLOSSEN 23.08.2026 (SIA-Sweep, zwölfte Fortsetzung):** Produktseite
+   `shop.sia.ch/normenwerk/architekt/385-9_2023_d/D/Product` direkt per WebFetch abgerufen (nicht
+   nur Shop-Snippet) — bestätigt SIA 385/9:2023, SN 546385/9, gültig ab 01.08.2023, 84 S.,
+   200.00 CHF, ersetzt SIA 385/9:2011 (archiviert seit 31.07.2023). REGISTER.md Z. 337
+   nachgeführt. Abnehmer `therapiebad-hallenbad-energie-pflegeheim.md` Abschn. 7 im selben Lauf
+   korrigiert (additiver Hinweis, Fassung jetzt bestätigt statt offen). Weder 2011 noch 2023
+   liegen als Volltext im Haus — Beschaffungs-Bring-Schuld bleibt bestehen, ist aber Sache
+   Raphaels (Kauf), nicht mehr eine offene Verifikationsfrage.
 2. **EN 13487 fehlt ganz (P2).** `grep "13487"` über die ganze KB = 0 Treffer. Die Norm wird in
    `wissen/energie/destillate/rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md:273-275` als
    Herstellernorm für Rückkühler-Schalldruckpegel zitiert — **ohne Ausgabejahr**, und von dort ins
@@ -2907,16 +2974,25 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
 - [x] **GESCHLOSSEN (Run 24, 260725): METHODIK-PFLICHT pdfimages-Bildvergleich bereits in
   `training/PROGRAMM.md` verankert.** Steht dort seit 25.07.2026 als Methodik-Pflicht 4
   («Bildvergleich-Pflicht bei Normen mit Prinzipskizzen»). Keine weitere Aktion nötig.
-- [ ] **SIA 266/1: neuere Ausgabe abklären.** Das Vorwort kündigt kurze Revisionszyklen an; parallel zur
-  Revision von SIA 266 ist eine Ausgabe 2015 plausibel, am 12-seitigen Original aber nicht verifizierbar.
-  Ein `established`-Status für die Fassung 2003 wäre ohne diese Abklärung irreführend. Bring-Schuld
-  (SIA-Normenverzeichnis / Abo).
-- [ ] **SIA 410: Aktualität und SIA 410/1.** Der Hauptteil ist von 1978/1986, Kap. 6 von 1993 — eine
-  zwischenzeitliche Revision oder Ablösung ist plausibel, aber unbelegt; vor projektbezogener Verwendung
-  am SIA-Normenverzeichnis prüfen. **SIA 410/1** (der eigentliche Farbcode, in Ziff. 2.5.7 S. 17
-  referenziert) ist **seit 07.08.2026 im Bestand** (410/1+410/2:1981 deutsch,
-  `alle/410_1_2_1981_d.pdf`; Destillat offen, Aktualität der 1981er-Ausgabe ungeprüft). Ebenfalls ausserhalb des Geltungsbereichs und nicht recherchiert:
-  die SEV-Sinnbilder für Elektro.
+- [x] **GEKLÄRT 23.08.2026 (QUESTIONS-Lauf): SIA 266/1 hat eine neuere Ausgabe — 2015.** Web-Beleg
+  shop.sia.ch/normenwerk/ingenieur/266-1_2015_d (SIA-Shop-Produktseite, geprüft 23.08.2026):
+  «SIA 266/1:2015 Bauwesen 505 266/1 Ersetzt Norm SIA 266/1:2003», gültig ab 01.07.2015, 16 Seiten,
+  CHF 30.-. Bestätigt: parallel zur Revision von SIA 266 selbst (ebenfalls 2015). Die Ausgabe 2015
+  liegt NICHT im Bestand (neue Bring-Schuld: SIA-Abo/Kauf). Destillat `sia-266-1-2003.md` von
+  `established` auf `superseded` umgestellt (Frontmatter + Warnhinweis im Fliesstext), REGISTER.md
+  Zeile SIA 266/1 nachgeführt.
+- [x] **GEKLÄRT 23.08.2026 (QUESTIONS-Lauf): SIA 410 UND SIA 410/1/2 sind zurückgezogen — per
+  01.01.2025.** Web-Beleg suissetec.ch/de/news-detail/rueckzug-normen-sia-410-1986-und-sia-410-1-2-1981.html
+  (geprüft 23.08.2026), Begründung wörtlich: «die Darstellung von Aussparungen [ist] nun
+  ausschliesslich in der Norm SIA 400 «Planbearbeitung im Hochbau» abgebildet»; für die
+  HLKS-Symbole (Heizung, Lüftung/Klima, Sanitär) gelten neu die suissetec-Planungsrichtlinien als
+  umfassendere, aktuelle Quelle. Der Rückzug betrifft ausdrücklich BEIDE hier destillierten
+  Dokumente (Hauptteil 1986 und das Farbcode-/Aussparungs-Doppelheft 410/1+410/2:1981). Beide
+  Nachfolgewerke (SIA 400, suissetec-Planungsrichtlinien) liegen nicht im Bestand (neue
+  Bring-Schuld). Destillate `sia-410-1986.md` und `sia-410-1-2-1981.md` von `established` auf
+  `zurückgezogen` umgestellt (Frontmatter + Warnhinweis im Fliesstext, Textwiedergabe selbst bleibt
+  als historische Dokumentation korrekt); REGISTER.md Zeile SIA 410 nachgeführt. Ebenfalls
+  ausserhalb des Geltungsbereichs und weiterhin nicht recherchiert: die SEV-Sinnbilder für Elektro.
 - [x] **ENTSCHIEDEN 26.07.2026 (Raphael): PL-03 wird ins Inventar aufgenommen.** Umgesetzt am
   26.07.2026: `training/norm-inventar.md` fuehrt PL-03 als gleichrangige Quelle (Erst-Scan, 116
   Dateien, Ordner-Tabelle mit Relevanz/Status, Fassungs-Befund-Tabelle aus dem Mapping-Report);
@@ -3534,6 +3610,17 @@ einzeln geprüft:
   Inkraftsetzung Ziff. 5: Beschluss IVTH 18.09.2014, in Kraft 01.01.2015 — ein Inkrafttreten 2017
   existiert im Dokument nicht). «2017» ist das Fassungs-, nicht das Ausgabedatum. Zitierform:
   «VKF-BRL 16-15de, Ausgabe 2015, Fassung 01.01.2017».
+- [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung).** Die Folgepruefung ist inzwischen
+  systematisch geleistet worden, nur nicht unter diesem Titel: der **VKF-Fassungs-Sweep**
+  (N27-1/N58-1, Normen-Lauf Run 58-60, 20.-23.08.2026) hat den Zugangsweg fuer **alle 35**
+  VKF-Publikationen mit KB-Destillat geklaert (`training/n58-vkf-fassungsmatrix-260820.md`,
+  Zusammenfassung `wiki/REGISTER.md` Abschnitt D) und fuer die 01.01.2017er-Fassungswelle
+  15 von 15 Delta-Destillaten erstellt (Run 60, 23.08.2026). Fuer die hier namentlich
+  betroffene BRL-Familie bestaetigt die Rang-5-Tabelle in N58-1 (`## Normen-Lauf Run 58`
+  oben) ausdruecklich: «die Aenderungen 2017 sind fuer 13-15/14-15/15-15/16-15/22-15 bereits
+  erfasst» — exakt die hier befuerchtete systematische Verwechslung Fassungsdatum ↔
+  Ausgabejahr wurde damit fuer die ganze revidierte Serie durchgesehen, nicht nur fuer 16-15.
+  Ursprungswortlaut bleibt unten stehen, damit die urspruengliche Vermutung nachvollziehbar ist:
 - [ ] **Folgepruefung zur 2015er-BRL-Serie:** Dieselbe Verwechslung Fassungsdatum ↔ Ausgabejahr duerfte
   bei den uebrigen revidierten VKF-Richtlinien systematisch auftreten (deren Fassungsdaten sind
   ebenfalls 2016/2017). REGISTER und Destillate der ganzen Serie darauf durchsehen.
@@ -3547,6 +3634,28 @@ einzeln geprüft:
   materielle Kennwert-Änderung der Personenbelegung Ziff. 3.5.2 (Anhang S. 24) ist nur teilweise
   nachgeführt, und die ABSV-Änderung auf S. 16 (umbenannte Bildlegenden) fehlt noch. Ursprünglicher
   Auftragstext zur Nachvollziehbarkeit:
+- [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung).** Beide oben als offen benannten Punkte
+  sind laengst im Destillat geloest, nur die Checkbox hier wurde nie nachgezogen: Der Abschnitt
+  «Fassung 01.12.2022 — Delta zur Fassung 01.01.2017» in
+  `destillate/vkf-brl-16-15-flucht-rettungswege.md` (dort seit Run 22/23, 25.07.2026) behandelt
+  **beide** offenen Punkte abschliessend — (1) die ABSV-Aenderung vom 22.03.2017 zu Ziff.
+  2.4.3/2.4.4: Run 23 hat die urspruengliche Fehldiagnose («Vertauschung Ziff. 2.4.3/2.4.4»,
+  «S. 16») per `pdftotext`-Volltextabgleich beider Fassungen widerlegt und richtiggestellt —
+  reine Umbenennung einer Anhang-Bildunterschrift auf S. 15, keine Vertauschung, kein
+  Zahlenwert betroffen (Delta-Punkt 2 im Destillat); (2) die materielle Personenbelegungs-
+  Aenderung Ziff. 3.5.2 (TKB-Beschluss 09.06.2021, Anhang S. 24): am Original der Fassung
+  Stand 01.12.2022 nochmals gegengelesen, die bereits seit Wissens-Chef Run 8 (18.07.2026)
+  im Destillat gefuehrte 3-zeilige Matrix (Fachmaerkte/Kaufhaeuser/Einkaufszentren 0.10/0.10,
+  Supermaerkte 0.38/0.15, Hochfrequentierte Supermaerkte 0.45/0.21 Personen/m2) stimmt
+  wortgetreu mit dem Original ueberein — «kein weiterer Korrekturbedarf» (Delta-Punkt 3).
+  Eigene Gegenpruefung dieses Laufs (23.08.2026): `BSPUB-1394520214-85.pdf` (35 S., Titel
+  «16-15 Flucht- und Rettungswege», SharePoint `AR - 01 Projekte/2619_KINDERSPITAL/
+  06_Reglemente/Brandschutz Normen Auszug/`) per `pdftotext -layout` erneut gelesen (Titelseite
+  S. 1-2 Aenderungsliste, Anhang S. 14-17), Wortlaut deckt sich vollstaendig mit dem im
+  Destillat dokumentierten Befund. Einzig **Delta-Punkt 1** (Fehlerkorrektur 01.12.2022,
+  Ziff. 3.7 Bildunterschrift «Geschossflaeche» → «Brandabschnittsflaeche», S. 33) war im
+  Original-Auftragstext unten bereits vorweggenommen richtig geloest (Run 22) und nie strittig.
+  Ursprungswortlaut bleibt unten stehen, damit die Abarbeitung nachvollziehbar ist:
 - [ ] **P1 — Fassung «Stand 01.12.2022» der VKF-BRL 16-15 vollstaendig destillieren.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026); der Uebergabe-Flag stand seit Run 52 nur
   in `planungsgrundlagen` und war hier nie angekommen.* Im Bestand liegt
@@ -3588,6 +3697,20 @@ einzeln geprüft:
   Schwimmbad-Materie ging in **385/9** auf. Kein Ersatz, auch nicht teilweise — die Legionellen-Angaben
   der 2000er betreffen Beckenwasser und Duschen. Die Bring-Schuld bleibt somit vollumfänglich offen und
   ist nur über SIA-Abo/Kauf schliessbar.
+- [ ] **NEU 23.08.2026 — BRING-SCHULD P1 — Volltext SIA 266/1:2015 beschaffen.** Aus dem
+  Web-verifizierten Rückzug der Ausgabe 2003 (siehe oben, Eintrag «SIA 266/1: neuere Ausgabe»)
+  folgt: die geltende Fassung ist im Bestand nicht vorhanden. 16 Seiten, CHF 30.-, SIA-Shop
+  (shop.sia.ch/normenwerk/ingenieur/266-1_2015_d). Bis zur Beschaffung ist die Prüf-/
+  Deklarationsnorm zu SIA 266 nur in der überholten 2003er-Fassung belegt.
+- [ ] **NEU 23.08.2026 — BRING-SCHULD P2 — Nachfolgewerke des zurückgezogenen SIA 410/410-1/2
+  beschaffen.** Aus dem Web-verifizierten Rückzug (siehe oben) folgt Bedarf an zwei
+  Nachfolgequellen: (1) **SIA 400 «Planbearbeitung im Hochbau»** für die Aussparungsdarstellung
+  (ersetzt SIA 410/2) — bereits im REGISTER als `sia-400-2000` verlinkt, Aktualität dieser
+  Ausgabe gegen den suissetec-Hinweis noch nicht geprüft; (2) die **suissetec-Planungsrichtlinien**
+  (Heizung, Lüftung/Klima, Sanitär) für Farbcode/Sinnbilder (ersetzt SIA 410 + 410/1) — als
+  Ordner/E-Books im suissetec-Shop erhältlich, bisher nicht im Bestand und nicht in dieser KB
+  erschlossen. Niedrigere Priorität als die SIA-266/1-Bring-Schuld, da SIA 410 nur Empfehlungscharakter
+  hatte und die JANS-Praxis bereits grösstenteils auf Fachplaner-eigene Pläne abstellt.
 - [ ] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
   («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`

@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 82)
+last_updated: 2026-08-23 (Run 86)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -331,6 +331,20 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     weitere QUESTIONS-Restposten (Frage B § 36 Abs. 2 EG GSchG, GSchV Anhang 4 Ziff. 12/13
     direkt am PDF lesen) oder Modell-D-Verifikation der ältesten `verifiziert`-Daten unter
     den `established`-Artikeln.
+  - **Run 84 (2026-08-23, Phase 3, QUESTIONS-Zusatzbefund, kein Agent-Fan-out):** klärt den in
+    T-09 offen gelassenen «Ungeklärten Zusatzbefund» (behauptete IVHB-Fristverlängerung
+    26.01.2026 → 29.02.2028, keine Primärquelle auffindbar). Live-Primärquellenprüfung:
+    zh.ch-Harmonisierungsseite sagt weiterhin unverändert «Geschäft noch in Beratung im
+    Kantonsrat» (IVHB-Verlängerung **nicht beschlossen**); das reale Ereignis 26.01.2026 mit
+    Zahl **1.3.2028** (nicht 29.02.2028) betrifft die **Umsetzung des Mehrwertausgleichsgesetzes
+    (MAG)** in den Gemeinden — anderes Gesetz, gleiches Ausgangsdatum 1.3.2025, gleiche
+    Zielgruppe, daher die Verwechslung in Sekundärquellen. Der ursprüngliche Hauptbefund
+    (Ordnungsfrist ohne Sanktion) bleibt unverändert. `wiki/abstaende-und-hoehen.md` und
+    `wiki/QUESTIONS.md` T-09 ergänzt. Report `outputs/2026-08-23_buch-run84.md`. **Nächster
+    Schritt:** kein QUESTIONS-Restposten mehr ohne Raphael-Entscheid (T-08/T-10) oder externen
+    behördlichen Akt (T-01 revBZO); alternativ Modell-D-Re-Verifikation der ältesten
+    `verifiziert`-Daten unter den `established`-Artikeln, oder Rückkehr zum Standardwerk-
+    Curriculum (P1-Restschuld gemäss `curriculum.md`).
   - **Run 83 (2026-08-23, Phase 3, Modell-D Fassungsstand-Check, kein Agent-Fan-out):** schliesst
     den Fassungsvorbehalt aus Run 73: [[umgebungsgestaltung-und-einfriedungen]] war gegen die
     2019er-RRB-Erlassfassung der VErV verifiziert, nicht gegen die konsolidierte LS-Fassung.
@@ -1343,6 +1357,31 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Ruecktaktung auf woechentlich (Phase 3) ist seit Run 48 VORGESCHLAGEN — Entscheid Raphael.
 - Detailstand: `buecher/seiten-inventar.md` (Shots) + `buecher/INDEX.md` (Abdeckung) +
   `curriculum.md` (Kapitel).
+- **Buch-Run 85 (2026-08-23):** Reglemente-Queue 2414 Thalwil (T1-T8) weiterhin vollstaendig
+  abgearbeitet seit Run 79, keine offenen QUESTIONS mehr ohne Raphael-Entscheid/externen Akt
+  (Run 84). Fortsetzung Phase 3 mit dem von Run 84 vorgeschlagenen Schritt: Modell-D-Re-
+  Verifikation des aeltesten `verifiziert`-Datums unter den `established`-Artikeln —
+  [[baubewilligungsverfahren]] (2026-07-13). Fund: § 315 Abs. 1 PBG «schriftlich» war seit
+  1.4.2024 durch «elektronisch ueber die Plattform» ersetzt, Register-Sweep-Luecke zu
+  [[bauausfuehrung-und-baukontrolle]] (dort fuer § 326 PBG bereits erfasst) geschlossen.
+  **Naechster Schritt fuer einen kuenftigen Lauf:** zweitaeltestes Datum
+  [[baureife-und-erschliessung]] (2026-07-14) re-verifizieren; oder die in Run 85 offen
+  gelassene GG-Luecke (§§ 41/44/45/48/50/51 Gemeindegesetz, nicht in `raw/`, kein Erlass-Key
+  im Connector `recht-ch.mjs`) durch frischen zhlex-Bezug schliessen (Muster: VErV in Run 83).
+- **Buch-Run 86 (2026-08-23):** Modell-D-Re-Verifikation von [[baureife-und-erschliessung]]
+  (zweitaeltestes `verifiziert`-Datum, Vorschlag Run 85) — §§ 233-237 PBG (Grundanforderungen/
+  Baureife-Kern) gegen `raw/260607_amtlich_zh_pbg.md` (Nachtrag 133) gegengelesen, CONFIRMED
+  wortgetreu (inkl. der bereits fruehere Praezisierungen «Behandlung nicht Beseitigung» und
+  «Gemeindevorstand»). **Fund:** die Fundstelle «§ 232 PBG / Art. 11 GSchG» fuer die
+  gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten) traegt die
+  Aussage nicht mehr — § 232 PBG regelt nur eine Duldungspflicht fuer geringfuegige oeffentliche
+  Einrichtungen, das PBG enthaelt keine Kanalisationsbestimmung mehr; Art. 11 GSchG regelt nur die
+  Anschlusspflicht, nicht die Trennung (amtlicher Fedlex-Volltext SR 814.20, frisch bezogen ueber
+  die `fedlex.data.admin.ch`-Route, Konsolidierung 1.1.2022). Falsche Fundstelle entfernt, Befund
+  dokumentiert, exakte heutige Rechtsgrundlage als offene Frage in `wiki/QUESTIONS.md` vermerkt
+  (nicht geraten). **Naechster Schritt fuer einen kuenftigen Lauf:** drittaeltestes
+  `verifiziert`-Datum unter den `established`-Artikeln pruefen; oder die GG-Luecke aus Run 85;
+  oder die offene Trennsystem-Frage durch WsV-/VSA-Norm-Recherche schliessen.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

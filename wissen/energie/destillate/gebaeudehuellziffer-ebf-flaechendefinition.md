@@ -93,6 +93,10 @@ Quelle: Definition Energiebezugsflaeche.pdf (BaFa, 10.06.2005), Auszug wörtlich
   und dabei beachten (**Nachtrag Run 37, 19.08.2026**): diese Ausgabe ist seit dem 31.03.2015
   **zurückgezogen** (Ersatz SIA 380:2015, nicht im Haus). Als Prüfauftrag bleibt die Gegenregel
   gültig; als **Fundstelle für ein Aussendokument** taugt sie nicht mehr.
+  ⚠ **KORREKTUR 23.08.2026 (`normen` SIA-Sweep, elfte Fortsetzung):** SIA 380:2015 ist selbst seit
+  31.10.2022 archiviert; aktuell gilt **SIA 380:2022** (gültig ab 01.11.2022, Produktseite
+  `shop.sia.ch/normenwerk/architekt/380_2022_d`). Bring-Schuld `N57-2` zielt jetzt auf 2022,
+  ebenfalls nicht im Haus.
 - **Korrekturfaktoren in speziellen Fällen** (komplexe Gebäudenutzungstypen, gemischte
   Nutzung): Teilzeit-Korrekturfaktor fz, Temperatur-Korrekturfaktor ft, Raumhöhen-
   Korrekturfaktor fh. Bei ganzjährig belegten reinen Wohnbauten sowie bei Schulen,
@@ -204,6 +208,13 @@ Primärquelle der Norm.
   hier deshalb **nicht** einfach einsetzbar. Bis zu ihrer Beschaffung gilt: für Bestandes- und
   Altfälle die verwendete Ausgabe **mit Jahr und Fassungsvermerk** nennen; für ein neues
   Aussendokument keine der beiden zurückgezogenen Ausgaben als geltende Fundstelle setzen.
+  ⚠ **KORREKTUR 23.08.2026 (`normen` SIA-Sweep, elfte Fortsetzung) — auch SIA 380:2015 ist
+  inzwischen zurückgezogen.** Seit 31.10.2022 archiviert, aktuell gilt **SIA 380:2022** (gültig ab
+  01.11.2022, Produktseite `shop.sia.ch/normenwerk/architekt/380_2022_d`, abgerufen 23.08.2026:
+  «die 2015er-Version ist archiviert, gültig bis 31.10.2022»). Die Bring-Schuld `N57-2` zielt
+  jetzt auf SIA 380:2022; drei zurückgezogene Ausgaben (416/1:2007, 380:2015, 380:2022 fehlt noch
+  im Haus) — für ein neues Aussendokument bleibt: keine davon als geltende Fundstelle setzen, bis
+  SIA 380:2022 vorliegt.
 - **Alter der EBF-Quelle:** Definition Energiebezugsflaeche.pdf datiert vom 10.06.2005 und
   damit deutlich vor SIA 380/1:2009 und :2016. Ob die Raum-Zugehörigkeitsliste (Ziffer 2 32/2
   33) seither unverändert übernommen wurde oder in neueren SIA-380/1-Ausgaben abweicht, ist mit
