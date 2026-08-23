@@ -4,6 +4,22 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
+**NEU 23.08.2026, 06:55 (Logbuch-Radar) — Der SharePoint-Zugriff auf die KISPI-Projektsite läuft
+für L. Bajrami am 07.09.2026 ab; es ist derselbe Mann, dessen Termin seit sieben Tagen im
+Entwurfsordner hängt.** Systemmail SharePoint Online, heute **02:28**, genau
+ein Name: **Bajrami Livdin, Ablauf 07.09.2026**, Site «JANS - 2619-KISPI». Der Vorgang ist neu und
+nicht identisch mit dem Ablauf vom 08.08.2026, der sieben Personen betraf (B. Kübler, Y. Cetin,
+C. Duran, J. Ziegel, F. Würsch, M. Spörri, M. Schwander) und über die M365-CLI verlängert wurde.
+**Warum das zusammenhängt:** L. Bajrami ist der Ansprechpartner der Jegen AG für den Türbau
+Los 274.01. An ihn ist seit dem 17.08. der Entwurf zur Massaufnahme der inneren Verglasung
+gerichtet, der unversendet liegt. Verliert er den Zugriff, bevor der Termin überhaupt steht, fehlt
+ihm zusätzlich die Plangrundlage, auf der die Massaufnahme aufbaut. Die Verlängerung ist ein
+Vorgang von Sekunden («Zugriff verwalten» in der Systemmail oder die M365-CLI, Weg im Register
+`connectors/WEGE.md`), aber sie braucht Raphael. Es besteht kein Termindruck vor dem 07.09.;
+sinnvoll ist, sie gemeinsam mit dem Massaufnahme-Termin zu erledigen. Status: **offen, Aktion
+Raphael.**
+| Systemmail SharePoint Online 23.08.2026 02:28 im Original gelesen | 2619 KISPI, Zugriffe | mittel | offen
+
 **NACHTRAG 22.08.2026, 08:4x (Hub-Chef) zur Koordinationssitzung: die Termine liegen wöchentlich,
 der Begleittext der Einladung sagt ab dem 27.08. das Gegenteil.** Die Serie ist heute an den
 Termininstanzen selbst gemessen worden, nicht am Text: acht Instanzen, alle Donnerstag 13:00 bis

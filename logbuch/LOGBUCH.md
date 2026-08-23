@@ -3,6 +3,88 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Logbuch-Radar 23.08.2026 (06:55, planmässig, Sonntag; ein neuer Befund, sonst still)
+
+Quellen vollständig abgeklopft: Register und Journal, Konversations-Destillat 23.08.,
+`mail-vorfilter.sh 26` über alle Apple-Mail-Konten (iCloud, Exchange rj@, mail@,
+raphaeljans@outlook.com), bexio `--verzug`, Outlook-Kalender über acht Tage, Entwurfsordner,
+Lauf-Journal sowie Sync-, Freigabe- und Remote-Queues, alle drei leer. Die eine sachrelevante
+Mail wurde danach im Original gelesen. Das Fenster war das ruhigste seit Wochen: acht Mails,
+davon sieben Systemmeldungen, Abobestätigungen und Newsletter. Der Mac Mini durchlief fünf
+Nachtschicht-Zyklen, alle mit rc=0.
+
+### Radar-Briefing 23.08.2026
+
+**Erledigt seit gestern.** Der Kalendereintrag «Rueckbau Leichtbauwaende KISPI OG1» steht seit
+gestern im Kalender «Arbeit», ganztägig über Dienstag 25.08. und Mittwoch 26.08., mit Quelle und
+Vorarbeiterkontakt im Notizfeld. Zudem ist das Factsheet
+`260821-2619-Bodenbelag-Index-FB50-FB51` gestern um 08:42 in die für alle Projektbeteiligten
+sichtbare KISPI-Bibliothek gespiegelt worden, ohne die MD-Datei; damit ist die gestrige
+Spiegelungslücke geschlossen.
+
+**Aus unseren Gesprächen.** Es gab im Fenster kein einziges echtes Gespräch, alle 22 Sessions
+beider Stationen waren Scheduled-Task-Läufe. Zwei davon legen Dir aber etwas vor.
+
+Der Normen-Lauf 60 hat einen Auswertungsfehler abgefangen, der beinahe mit umgekehrtem Vorzeichen
+ins Register gegangen wäre. Die VKF-Arbeitshilfe «Schulbauten» nennt in der Fassung 2015 zwei
+Auslöser für zwei vertikale Fluchtwege: Geschossfläche über 900 m² und Räume mit über
+100 Personen. Die Fassung 2017 nennt nur noch die Fläche, und der Agent meldete das als
+Lockerung. Die Gegenprüfung an der Mutterrichtlinie BRL 16-15, Fassung 01.01.2017,
+Ziff. 2.4.2 Abs. 2, zeigt, dass die Anforderung unverändert in Kraft ist. Ein Planer, der sich
+auf die Arbeitshilfe allein gestützt hätte, hätte bei einer Aula oder Mehrzweckhalle einen
+zweiten Fluchtweg weggelassen. Damit liegen zwei Entscheide bei Dir: **N60-2**, die
+Methodik-Pflicht, eine verlorene Anforderung erst dann als Lockerung zu protokollieren, wenn die
+Mutterrichtlinie in derselben Fassung nachgelesen ist, und **N60-1**, das Zusammenlegen zweier
+identischer Destillate derselben VKF-Quelle. Beides ist nicht selbständig umgesetzt worden, das
+eine wegen des Entscheids vom 17.08., das andere, weil Zusammenlegen destruktiv ist. Kein
+Termindruck, aber es ist dieselbe Familie wie der seit dem 17.08. offene Punkt zum
+Abbruchkriterium der KB `normen`, und die Stapel wachsen.
+
+Der zweite Punkt ist betrieblich. Zwei der fünf Mac-Mini-Nachtschicht-Zyklen konnten ihren
+nativen NAS-Commit nicht auslösen, weil der Tailscale-Hostname vom LAN aus nicht aufgelöst werden
+konnte. Verloren ging nichts, der 15-Minuten-Selfcommit hat die Edits eingesammelt. Beide Punkte
+stehen im Register.
+
+**Überfällig.** Der Entwurf an L. Bajrami (Jegen AG) zum Termin der Massaufnahme der inneren
+Verglasung liegt unverändert seit dem 21.08. um 08:47 im Entwurfsordner, in den Gesendeten
+erscheint er nicht. Gerechnet ab dem Stichtag der Rückrechnung, dem 17.08., ist heute der siebte
+Tag ohne Termin, und die eigene Frist des Entwurfs ist **morgen, Montag 24.08.** Sein Vorgänger
+vom 20.08. ist bereits an der eigenen Frist verfallen. Geht dieser nicht bis morgen früh hinaus,
+stehen wir zum dritten Mal am selben Punkt. Der Stichtag 17.08. für den Montagestart am 12.10.
+bei acht Wochen Lieferfrist liegt ohnehin hinter uns.
+
+Bei bexio ist heute der 15. Kalendertag ohne Datengrundlage. Der Befund von gestern gilt
+unverändert: Auch der Aussteller-Endpunkt antwortet mit 401, der Token ist nicht abgelaufen,
+sondern die Sitzung dahinter wurde zurückgezogen. Alle fünf überfälligen Positionen bleiben
+ungemahnt, weil der A1-Guard ohne verifizierten Zahlstatus nicht greift.
+
+**In den nächsten sieben Tagen.** Montag 24.08., 09:00 bis 09:30, Teams: Abgleich und Status PPTS
+mit C. Schaefer, C. Allerkamp und A. Spahic. Am selben Montag endet die Frist des von TeKoSi
+zugesagten korrigierten Türkonzepts zuhanden der Bauherrschaft; der Ball liegt bei L. Hiltmann,
+JANS hat geliefert. Dienstag 25.08. bis Mittwoch 26.08., ganztägig: Rückbau der Leichtbauwände im
+OG1 mit Abschaltung der Brandmeldeanlage. Mittwoch 26.08., 13:00 bis 14:00, auf der Baustelle
+ASS.B PPTS: Treffen mit O. Stadelmann, M. Spörri, F. Würsch, S. Gerber und A. Spahic, sachlich
+derselbe Vorgang wie der Rückbau. Donnerstag 27.08., 13:00 bis 14:00, Teams: Koordinationssitzung
+Gruner, JANS und KISPI; die Serie läuft wöchentlich, auch wenn der Einladungstext ab dieser
+Instanz weiterhin von einem Zwei-Wochen-Rhythmus spricht.
+
+**In Beobachtung.** Neu ist der SharePoint-Zugriff auf die Site «JANS - 2619-KISPI», der für
+L. Bajrami am **07.09.2026** abläuft (Systemmail heute 02:28, ein einziger Name). Es ist derselbe
+Mann, dessen Massaufnahme-Termin seit dem 17.08. nicht zustande kommt; verliert er den Zugriff,
+fehlt ihm zusätzlich die Plangrundlage. Die Verlängerung dauert Sekunden und lässt sich mit dem
+Termin zusammen erledigen. Unverändert weiter läuft der Küchenbodenentscheid FB70 gegen Linoleum
+vor der Ausschreibung LOS 281.21, verschärft dadurch, dass sich der Vorschlag vom 21.08. nach
+aussen auf die Therapieküchen beruft. Ebenso die vier Materialisierungsentscheide des
+Küchenbauers, also Frontdekor, Griffleiste, Vollkerndekor für Sockel und Leiste sowie Überstand
+und Finish der Arbeitsplatte. Dazu die unbeantwortete Gartenmail von S. Tschopp, gestern um 08:34
+ohne Begleittext an P. Weisser weitergeleitet. Und der M365-Speicher bei 81.84 % mit
+rechnerischem Vollstand um den 25.09. sowie der bexio-Token.
+
+**Token-Tempo.** Vortag 22.08.: MacBook Pro 167.3 Mio. Token (rund USD 124 API-Äquivalent), Mac
+Mini 20.2 Mio. (rund USD 8), zusammen 187.5 Mio. Token und rund USD 132.
+
+---
+
 ## Hub-Chef 22.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET (Regellauf)
 
 Signale vollständig eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, der
