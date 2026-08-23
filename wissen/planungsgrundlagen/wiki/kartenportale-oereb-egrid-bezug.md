@@ -1,7 +1,7 @@
 ---
 title: OEREB-Auszug und EGRID beziehen (Kt. ZH)
 status: established
-last_updated: 2026-08-01 (Wartungslauf 02: Connector-Benchmark 5 von 5 gruen, Pfad-Warnung)
+last_updated: 2026-08-23 (Vertiefungslauf Revendo: Connector-Benchmark 9/9 grün, zwei neue Endpunkt-Befunde)
 sources: [GIS-Helpdesk Kt. ZH (Hannah Gies, 2026), api3.geo.admin.ch, maps.zh.ch/oereb/v2, map.geo.sz.ch/oereb, eigene Endpunkt-Messungen 30.07.2026 (Training Run 93)]
 links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-kataster-system-zh]]
 ---
@@ -147,6 +147,84 @@ Wartungslauf 01** (30.07.2026), also keine Endpunkt-Erosion und kein Revisions-D
 > ⚠ **Der Endpunkt `geoservices.zh.ch/geoshopapi/v1` antwortet auf die blanke Basis mit 404.**
 > Das ist **kein** Defekt, sondern REST-Normalverhalten — `…/v1/products` liefert 200. Ein
 > Frischecheck, der nur die Basis-URL misst, meldet hier sonst einen Phantom-Ausfall.
+
+## Connector-Benchmark 23.08.2026 (Vertiefungslauf Revendo) — 9 von 9 grün, zwei neue Endpunkt-Befunde
+
+Der letzte Benchmark stammt vom 01.08.2026 (Wartungslauf 02). Drei Wochen später alle Connectoren
+erneut am selben JANS-Benchmark gemessen — **jeder Wert identisch**, keine Endpunkt-Erosion, kein
+Revisions-Delta.
+
+| Test | Ergebnis 23.08.2026 | gegen 01.08.2026 |
+|---|---|---|
+| `geo-zh` Adresse → EGRID (Giebelweg 12, 8135 Langnau a.A.) | EGRID **CH879777718909** · Parz. **3338** · BFS **136**, E 2682864.25 / N 1238219.125 | identisch |
+| `geo-zh --produkt zonenplan` | **W/1.5 (W1) · BMZ 1.5 · GH 4.5 · ES_II · inKraft** | identisch |
+| `geo-zh --produkt baulinien` | 7 Baulinien (nächste **116.2 m**) + 1 Waldgrenze (**105.6 m**) | identisch |
+| `geo-zh --oereb` | PDF **908'398 Bytes = 887 KB**, Dateiname `Oereb-Auszug_136_3338_2026-08-23.pdf` | 889 KB → 887 KB (Datumsstempel im Auszug, **kein** Inhaltsdelta) |
+| `geo-sz --parzelle "Einsiedeln 3301" --oereb` | EGRID **CH527708492462** · Parz. **3301** · BFS **1301**, PDF **2'076 KB** | EGRID identisch; PDF 2'005 → 2'076 KB (s. Hinweis unten) |
+| `gwr-bund --egid 302064023` (KISPI) | EGRID **CH267999915472** · Parz. **RI5416** · «Kinderspital», Stand 2026-08-23 | identisch |
+| `geoshop-zh --list` | **247 Zeilen** Produkt-/Formatliste live | identisch |
+| `behoerden-zh --check` | **33 von 33 abrufbar · 0 TOT** | 0 TOT identisch (Statuszählung s. ⚠ unten) |
+| `maps.zh.ch/wfs/OGDZHWFS` GetCapabilities | **200 · 825'474 Bytes XML** | 849 KB → 825 KB (Layer-Katalog, laufend gepflegt) |
+
+> **Hinweis zu den PDF-Grössen.** ÖREB-Auszüge tragen Erstellungsdatum und Vollzugsstand; kleine
+> Grössenschwankungen sind normal und **kein** Erosionssignal. Der ZH-Auszug ist um 2 KB kleiner,
+> der SZ-Auszug um 71 KB grösser als am 01.08.2026. Erosion zeigt sich an HTTP-Codes und am
+> Fehlen von Nutzdaten, nicht an Bytezahlen.
+
+> ⚠ **`behoerden-zh --check` meldet stationsabhängig — die Statuszahlen sind nicht vergleichbar,
+> die TOT-Zahl schon.** Der Wartungslauf 02 protokollierte «**33 aktuell** · 0 geändert · 0 neu ·
+> 0 TOT»; dieser Lauf misst «0 aktuell · 0 geändert · **33 neu** · 0 TOT». Das ist **kein**
+> Änderungsbefund: der SHA-Vergleichsstand liegt im Manifest unter
+> `skills/planungsgrundlagen/behoerden-dokumente/`, und dieser Pfad steht in `.gitignore`
+> (Zeile `**/behoerden-dokumente/`). Er wandert also **nie** zwischen den Stationen. Auf einer
+> Station, die noch nie `--sync` gelaufen ist, fehlt der Vergleichsstand, und jedes Dokument gilt
+> zwangsläufig als «neu».
+> **Praxisregel:** aus diesem Connector ist stationsübergreifend nur **`TOT`** aussagekräftig —
+> es misst die Erreichbarkeit der 33 hinterlegten Behörden-URLs und ist unabhängig vom Manifest.
+> «aktuell/geändert/neu» sind nur **innerhalb derselben Station über die Zeit** zu lesen. Wer
+> «33 neu» als 33 geänderte Behördendokumente liest, jagt ein Phantom.
+> *(Befund 23.08.2026, an `.gitignore` und am Quelltext `behoerden-zh.mjs` Z. 56/98/160-166
+> nachgeprüft.)*
+
+### Zwei neue Endpunkt-Befunde (beide gemessen, nicht abgeleitet)
+
+**1 · `maps.zh.ch/wms/NaturgefahrenZH` ist HTTP-Basic-geschützt — jetzt hart gemessen.** Der
+Wegweiser [[kartenportale-naturgefahren-objektschutz]] führt diesen Pfad seit Run 54 als
+«geratener, login-pflichtiger WMS-Pfad, irrelevant/Sackgasse». Das war eine Annahme; sie ist
+jetzt belegt: die Antwort lautet **`HTTP/2 401` mit dem Body `HTTP Basic: Access denied.`**, und
+zwar auch auf ein korrekt geformtes `?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0` — es
+liegt also kein Parameterfehler vor, sondern eine Zugangsschranke. Der offene Weg zu denselben
+Daten bleibt der **WFS `maps.zh.ch/wfs/OGDZHWFS`** (GetCapabilities 200), Gefahrenkarte unter der
+AWEL-Themengruppe 44. **Praxisfolge:** diesen WMS nicht in QGIS/AutoCAD einbinden — er fragt nach
+einem Passwort, das JANS nicht hat.
+
+**2 · `gis.zh.ch` scheitert an TLS, obwohl der Host lebt — und der bisher notierte Grund stimmt
+nicht.** Gemessen am 23.08.2026:
+- `gis.zh.ch` ist ein **CNAME auf `maps.zh.ch`** (193.246.69.8) — der Host existiert.
+- `https://gis.zh.ch` bricht mit **`SSL: no alternative certificate subject name matches target
+  host name`** ab. Grund: der Geodienst-Server liefert ein Zertifikat **`CN=maps.zh.ch`
+  (O=Kanton Zürich)** mit einer **expliziten Liste von 19 SANs** — `maps.zh.ch`, `wms.zh.ch`,
+  `map.zh.ch`, `geolion.zh.ch`, `oerebdocs.zh.ch`, `geo.zh.ch`, die `ktzh.ch`-Varianten und die
+  `www.`/`web.`-Formen davon. **`gis.zh.ch` steht nicht darin.**
+- `http://gis.zh.ch` (ohne TLS) leitet dagegen sauber weiter auf
+  **`https://www.zh.ch/de/planen-bauen/geoinformation.html`** (HTTP 200).
+
+> ⚠ **Präzisierung der dokumentierten `*.zh.ch`-Falle.** Der Kopf von
+> `wissen/tools/link-frischecheck.sh` erklärt Fehler dieser Art mit «das Wildcard-Zertifikat
+> `*.zh.ch` deckt nur eine Label-Ebene». Für die Staatskanzlei-Server stimmt das — `www.zh.ch`
+> und `zh.ch` liefern tatsächlich ein echtes Wildcard **`CN=*.zh.ch`, SAN `*.zh.ch` + `zh.ch`**
+> (gemessen 23.08.2026). **Unter `.zh.ch` gibt es aber zwei Zertifikatswelten:** die Geodienste
+> laufen auf einem eigenen Server **ohne** Wildcard, mit der oben genannten SAN-Liste. Ein
+> `<thema>.zh.ch`-Name kann dort also selbst auf **einer** Label-Ebene an TLS scheitern, wenn er
+> nicht namentlich in der SAN-Liste steht. Der Frischecheck-Befund `ERR60` bei `gis.zh.ch` ist
+> deshalb **kein toter Host**, sondern eine SAN-Lücke.
+>
+> **Zitierregel daraus:** `gis.zh.ch` nicht mehr als `https://`-Adresse zitieren. Kanonisch sind
+> **`www.zh.ch/de/planen-bauen/geoinformation.html`** (Einstieg) und **`maps.zh.ch`**
+> (Kartendienst).
+
+*Messungen: `curl` mit Browser-User-Agent, `dig`, `openssl s_client`, alle am 23.08.2026;
+Connectoren lokal ausgeführt (node v22.11.0).*
 
 ## Connector
 

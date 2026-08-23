@@ -29,6 +29,84 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
 > allein im Laufbericht verpufft.
 
+## Lauf 2026-08-23 (Vertiefungslauf Revendo, Auftrag Raphael) — Endpunkte/Links/Connectoren verifiziert, ein neuer offener Punkt
+
+**Auftrag:** Endpunkte, Links und Connector-Wege verifizieren, offene Fragen schliessen. Der
+Wartungslauf-Werkzeugkasten (`link-frischecheck.sh`, Connectoren) wurde benutzt statt nachgebaut
+(Regel E18).
+
+### Ergebnis in einem Satz
+
+**Keine Endpunkt-Erosion.** Alle 9 Connector-Messungen am JANS-Benchmark sind identisch zum
+Wartungslauf 02 (01.08.2026), alle 33 Behörden-URLs erreichbar (0 TOT), und **jeder** der 68
+Verdachtsfälle des Frischechecks ist entweder ein bereits dokumentierter Prosa-Artefakt oder ein
+bereits korrekt als tot/umgezogen vermerkter Altbestand. Dazu zwei **neue** Messbefunde und ein
+fälliger Checkpoint.
+
+### Neu gemessen (beides in [[kartenportale-oereb-egrid-bezug]] eingearbeitet)
+
+1. **`maps.zh.ch/wms/NaturgefahrenZH` — Login-Pflicht von «vermutet» auf «gemessen» gehoben.**
+   `HTTP/2 401`, Body `HTTP Basic: Access denied.`, auch auf ein korrekt geformtes
+   `GetCapabilities`. Der Run-54-Befund («geratener, login-pflichtiger WMS-Pfad») ist damit
+   belegt. Offener Weg bleibt der WFS `maps.zh.ch/wfs/OGDZHWFS` (200, 825 KB XML).
+   Nachgetragen auch in [[kartenportale-naturgefahren-objektschutz]].
+2. **`gis.zh.ch` ist kein toter Host, sondern eine SAN-Lücke — und der dokumentierte Grund für
+   solche Fehler ist zu präzisieren.** `gis.zh.ch` ist ein CNAME auf `maps.zh.ch` (193.246.69.8);
+   `https://` scheitert, weil der **Geodienst-Server ein eigenes Zertifikat ohne Wildcard**
+   ausliefert (`CN=maps.zh.ch`, 19 explizite SANs, `gis.zh.ch` nicht darunter), während
+   `www.zh.ch`/`zh.ch` ein echtes Wildcard `CN=*.zh.ch` führen. **Unter `.zh.ch` gibt es zwei
+   Zertifikatswelten.** `http://gis.zh.ch` leitet sauber auf
+   `www.zh.ch/de/planen-bauen/geoinformation.html` (200). Zitierregel: `gis.zh.ch` nicht mehr als
+   `https://`-Adresse führen.
+
+### Werkzeug-Fallstrick dokumentiert (wichtig für jeden künftigen Wartungslauf)
+
+**`behoerden-zh --check` meldet stationsabhängig.** Wartungslauf 02: «33 aktuell · 0 neu».
+Dieser Lauf: «0 aktuell · **33 neu**». Kein Änderungsbefund — der SHA-Vergleichsstand liegt in
+`skills/planungsgrundlagen/behoerden-dokumente/`, und dieser Pfad steht in `.gitignore`, wandert
+also nie zwischen den Stationen. **Stationsübergreifend ist aus diesem Connector nur `TOT`
+aussagekräftig** (0 von 33 — alle URLs leben); «aktuell/geändert/neu» sind nur innerhalb
+derselben Station über die Zeit zu lesen.
+
+### Fälliger Checkpoint geprüft: BSV 2026, politische Vernehmlassung 08/2026
+
+Der Wegweiser hatte «⚠ Nächster Check bei Start politische Vernehmlassung (08/2026)» gesetzt.
+Geprüft: **keine Startmeldung publiziert**; die Seite «Information BSV 2026» ist im Wortlaut
+unverändert, und die Aktuell-Seite von bsvonline.ch endet am **07.05.2026**. Das ist ein Indiz,
+**kein Beleg** für eine weitere Verschiebung. Für JANS unverändert: **BSV 2015/17/22 gilt**, keine
+antizipierten Erleichterungen einplanen. Nächster Check: **Ende 11/2026** oder sobald ein
+Aktuell-Eintrag erscheint. Eingearbeitet in [[brandschutz-pl03-wegweiser]].
+
+### C-BSP-2026 — NEUER OFFENER PUNKT (Bring-Schuld an `normen`, hier zwischengeparkt)
+
+Am **07.05.2026** hat die VKF ein Fachdokument publiziert, das diese KB noch nicht kennt:
+**«Brandschutzplatten — Grundlagen, Nachweis und Anwendung»**, Version **1-0 vom 10.03.2026**,
+verabschiedet durch die Technische Kommission Brandschutz, Zuständigkeit Fachkommission
+Bautechnik, 9 Seiten, Dokument-ID `BSPUB-1394520214-3201` (Bezug über
+`services2.vkf.ch/rest/public/georg/bs/publikation/documents/<ID>.pdf/content`). Es beschreibt ein
+**neues Nachweisverfahren** für Brandschutzplatten und dessen Anwendungsbereich — der Wegweiser
+führt BSP heute über die Register-Gruppe 231 und das Dokument «Allgemein anerkannte …» (2017).
+
+⚠ **Das Dokument trägt einen BSV-2026-Vorbehalt aus eigener Feder** («Einige Textteile wurden mit
+dem Wissen aus dem Projekt BSV 2026 erstellt … werden mit der vom IOTH genehmigten BSV 2026
+überprüft und falls erforderlich angepasst») — es ist teilweise vorgreifend und fällt unter die
+Regel, keine antizipierten BSV-2026-Inhalte einzuplanen.
+
+**Was offen ist:** das Destillat. VKF-Primärdokumente führt nach Rule `normen-referenz` die KB
+`normen`. **Der Eintrag dort ist in diesem Lauf bewusst unterblieben** — `normen` wird am
+23.08.2026 parallel auf dem Mac Mini bearbeitet, ein Fremdschreiben würde die dortige Arbeit
+kreuzen. Das weicht von der F-UEBERGABE-Klausel ab und ist hier begründet festgehalten; die
+Übergabe ist Raphael in der Laufzusammenfassung gemeldet. **Nächster Schritt:** Ticket in
+`wissen/normen/wiki/QUESTIONS.md` eröffnen (Destillat «Brandschutzplatten 1-0/10.03.2026»,
+`status: speculative` bis zur BSV-2026-Genehmigung), danach §5 des Wegweisers auf das Destillat
+verlinken.
+
+### Nicht angetastet
+
+Die inhaltlichen K/R/C/D-Punkte bleiben offen — sie sind laut Zuständigkeitsvermerk oben **keine**
+Aufgabe eines Endpunkt-/Link-Laufs. Ebenso unverändert: der Nachzug der beiden VKF-Fassungs-
+Vorbehalte (BSE 108-15, BRL 10-15), der auf `established`-Destillate aus `normen` wartet.
+
 ## A — Kartenportale
 - [x] **K68 (Wissens-Chef Run 25, 2026-08-04) — TEILWEISE GESCHLOSSEN 2026-08-23: (a) beantwortet,
   (b) mangels Statuswechsel noch nicht beobachtbar, Monitoring-Punkt aufgesetzt.** Live-Messung am

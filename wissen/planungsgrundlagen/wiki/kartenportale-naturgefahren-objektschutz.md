@@ -1,7 +1,7 @@
 ---
 title: Naturgefahrenkarte & Objektschutzkonzept — Gefahrenstufen, Schutzziele, Bezugswege ZH/SZ
 status: established
-last_updated: 2026-07-23 (Run 57, Registerpflege)
+last_updated: 2026-08-23 (WMS-401 hart gemessen; Run 57 Registerpflege)
 sources:
   - opendata.swiss CKAN-API (`package_show?id=gefahrenkarte1`, Amt für Geoinformation Kt. SZ) —
     liefert die realen Service-URLs hinter dem bisher nur als manuellem WebGIS-Link bekannten
@@ -499,7 +499,12 @@ beantwortet hatte (Registerlücke, kein neuer Rechercheaufwand).
   "naturgefahr") war korrekt, aber eine **Stichwort-**, keine Vollständigkeitssuche — die
   Gefahrenkarte liegt im selben `maps.zh.ch/wfs/OGDZHWFS`, nur unter der AWEL-Themengruppe 44
   "Gewässer/Wasserbau" statt unter einem Naturgefahren-Stichwort (der geratene login-pflichtige
-  WMS-Pfad `maps.zh.ch/wms/NaturgefahrenZH` bleibt irrelevant/Sackgasse). Volle Herleitung,
+  WMS-Pfad `maps.zh.ch/wms/NaturgefahrenZH` bleibt irrelevant/Sackgasse — **die Login-Pflicht ist
+  seit 23.08.2026 hart gemessen statt vermutet: `HTTP/2 401`, Body `HTTP Basic: Access denied.`,
+  auch auf ein korrekt geformtes `?SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0`; kein
+  Parameterfehler, sondern eine Zugangsschranke. Diesen WMS nicht in QGIS/AutoCAD einbinden — er
+  fragt nach einem Passwort, das JANS nicht hat. Messung und Kontext:
+  [[kartenportale-oereb-egrid-bezug]], Abschnitt «Connector-Benchmark 23.08.2026»**). Volle Herleitung,
   Layer-Liste, Attribute und Positiv-/Negativ-Benchmark: Abschnitt 8a. Dieser Punkt stand nach
   Run 54 noch drei Tage als "offen" im Register, obwohl Abschnitt 8a bereits die Lösung enthielt —
   reine Registerpflege-Lücke, kein neuer Rechercheaufwand in Run 57.
