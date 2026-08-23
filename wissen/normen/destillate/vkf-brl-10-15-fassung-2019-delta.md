@@ -8,7 +8,7 @@ datenstand: "Abruf 22.08.2026, MD5 63d4e6017e1292849802a5ad8894674c"
 status: speculative
 gueltigkeit: "Beschreibt die GELTENDE Fassung 01.01.2019. Die Bestandsfassung 01.01.2015 ist in [[vkf-brl-10-15-begriffe-definitionen]] destilliert und dort als superseded gefuehrt."
 last_updated: 2026-08-22
-links: [[vkf-brl-10-15-begriffe-definitionen]], [[REGISTER]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-11-15-qualitaetssicherung-brandschutz]], [[vkf-ah-1001-15-wohnbauten]]
+links: [[vkf-brl-10-15-begriffe-definitionen]], [[REGISTER]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-11-15-qualitaetssicherung-brandschutz]], [[vkf-ah-1001-15-wohnbauten]], [[vkf-brl-17-15-fassung-2017-delta]]
 ---
 
 # VKF-BRL 10-15 — Fassungs-Delta 01.01.2015 → 01.01.2019
@@ -105,6 +105,11 @@ nicht mehr blosse Abweichung von einer Empfehlung.
 | **Verkaufsraeume** | 35 | Raeume fuer den Warenverkauf, die **weder** unter «Raeume mit grosser Personenbelegung» **noch** unter «Verkaufsgeschaefte» fallen; **es gelten die nutzungsbezogenen Anforderungen an Gewerbe und Industrie** | schliesst die Luecke zwischen den beiden bisherigen Kategorien und weist sie ausdruecklich zu |
 | **Einliegerwohnung** | 19 | zusaetzliche Wohnung im Einfamilienhaus, gegenueber der Hauptwohnung **untergeordnet**; braucht **nicht zwingend** einen direkten Wohnungszugang vom Freien | entscheidet ueber die Fluchtwegfuehrung im EFH mit zweiter Wohnung |
 | **Dachkonstruktionen** | 18 (Anhang S. 42) | Flach-, Steil-, Kuppel-, Tonnendaecher usw., deren Neigung um mehr als 10° von der Vertikalen abweicht; bestehen aus dem **Dach** und der darauf angebrachten **Bedachung** | traegt die geometrische Definition, die 2015 unter «Bedachungen» stand — siehe unten |
+
+**Praktischer Anschluss «Verkaufsraeume»:** dieselbe IOTH-Sitzung vom 22.09.2016, die diese
+Definition einfuehrt, verschiebt am selben Tag in der BRL 17-15 (Anhang zu Ziff. 2.2) die
+Nutzungskategorie «Verkaufsraeume» in eine Zeile mit geringerer Sicherheitsbeleuchtungs-Pflicht —
+Vollzug der Definition, keine isolierte Lockerung. Details und Beleg: [[vkf-brl-17-15-fassung-2017-delta]].
 
 ## Die Umdefinition von «Bedachung» und die neue Schichtenzuordnung (S. 13, Anhang S. 41 und 42)
 

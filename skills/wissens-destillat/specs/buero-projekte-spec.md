@@ -204,6 +204,18 @@ Nachbar-KB (Cross-KB-Output, keine Ausnahme von der Ziel-KB-Zuordnung des Korpus
       `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run1.md`.
       Rest des Clusters (46 P1-Zeilen) sowie übrige P1/P2/P3-Zeilen offen — weitere
       Destillat-Läufe folgen.
+- [x] **Zweiter Destillat-Lauf Phase 2 abgeschlossen (23.08.2026, Fortsetzung):** die
+      restlichen 46 P1-Zeilen (42 aus `1318_Lorraine_Kueche`, je 1 aus `1011_Lorrainestr_4`/
+      `1115_Kostenberechnung`, 2 aus `1603_Steinhof`) gelesen. Update an
+      `lorraine-kueche-maria-1318-kv-nebengewerke-abweichung` (Wandbeläge +177 %,
+      Malerarbeiten +696 bis +935 %, Metallbau bleibt offen, BKP-Fehler 223/224/225 korrigiert
+      auf 232/242/251-254). Zwei neue Artikel: `lorraine-kueche-1318-elektro-nachtrag-
+      anschlusswerte-kuechenbauer` (Ausführungs-Nachtrag +54 %) und `dachstock-lorrainestrasse4-
+      1011-denkmalpflege-foerderkombination-2003` (Fremdmandat, Denkmalpflege/Förderung 2003/04).
+      Damit ist `1318_Lorraine_Kueche` P1-seitig vollständig abgearbeitet. Inventar: 46 Zeilen
+      `[t]`→`[x]`/`[-]` (18/28). Bericht:
+      `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run2.md`.
+      Offen: die 91 P2- und 26 P3-Zeilen des Gesamtkorpus (alle 22 Projekte) — nächster Lauf.
 - [ ] Parallel dazu, sobald genug Material aus mehreren Projekten vorliegt: Entwurf
       `bevorzugte-systeme-jans.md` gemäss Pflicht-Zusatzauftrag oben anstossen.
 - [ ] Kurator-Stufe (Opus, jede Sitzung) je Lauf gemäss SKILL.md Schritt 4.

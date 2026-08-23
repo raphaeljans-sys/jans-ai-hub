@@ -3,6 +3,50 @@
 Append-only Journal der Kontroll-Schicht. Neueste Eintraege zuoberst. Nie von Hand kuerzen;
 der Agent `logbuch` schreibt, der Radar ergaenzt taeglich.
 
+## Abo-Auslastung 23.08.2026 (18:07, wöchentlicher Check Mac Mini) — GRÜN, 42 %, Tempo 0.47
+
+**Der Lauf hat stattgefunden.** Letzter Lauf 16.08. 18:06, Abstand genau 7 Tage — kein
+übersprungener Takt, der Ausfall-Zähler bleibt auf 0. Die Vorwochen-Bemerkung hatte genau das als
+Prüfpunkt gesetzt (bliebe der Lauf aus, wäre es der zweite Ausfall in Folge und die Mail-Eskalation
+hätte gegriffen). Gleichstand NAS gegen Stationskopie der Task-Datei geprüft, `diff` ohne
+Abweichung.
+
+**Gemessenes Konto: `raphaeljans`** (Keychain-Feld `acct`, Service «Claude Code-credentials») —
+das private Max-20x-Konto. **Team-Seat 1: noch nicht eingerichtet. Team-Seat 2: noch nicht
+eingerichtet.** Der Connector liest weiterhin nur das eine aktive Stations-Token; eine
+Konto-Auswahl ist nicht gebaut.
+
+**Messwerte** (ein einziger Connector-Lauf, Rule gegen Zweitlauf beachtet):
+
+Woche alle Modelle 42 %, Reset 24.08.2026 12:00. Fensterstart damit 17.08. 12:00, verstrichen
+89.36 %, **Tempo-Faktor 0.47**. Hochrechnung Fensterende rund 47 %; 100 % wären erst bei 213 %
+Fensterzeit erreicht und sind in diesem Fenster rechnerisch nicht erreichbar. Fünf-Stunden-Fenster
+21 % (Reset 23.08. 21:40). Woche Fable 0 %, `nimbus_quill` 0 %. Extra Usage: der Connector hat
+keine Zeile ausgegeben, daraus der Indizschluss keine Extra-Kosten — nicht als gemessene 0.00 USD
+zu lesen.
+
+**Ampel GRÜN**, beide Bedingungen erfüllt (unter 50 % und Tempo unter 1.15). Gegenüber der Vorwoche
+ist der Verbrauch von 51 % auf 42 % gesunken, das Tempo von 0.57 auf 0.47. Fable fiel von 30 % auf
+0 % und liegt damit klar innerhalb der 50-%-Schranke aus Rule `auto-verbesserungen` 260814b.
+
+**Betriebszustand gemessen, und er widerspricht dem ersten Anschein.** Die STOP-Flags
+`STOP-Macmini` und `STOP-Macbookpro` liegen unverändert seit 29.07. 02:51 — trotzdem zeigt `ps`
+**28 claude-Prozesse und drei aktive Lernläufe** (`claude-run.sh --name mschub10`, `mschub12`,
+`mschub13`, gestartet 17:47, 17:59 und 18:05; bei der Gegenmessung Minuten später noch mschub10 und
+mschub13). Das ist kein Defekt: die Flags stoppen den VOLLGAS-Endlos-Runner, und der ist seit
+29.07. ausgebaut. Die heutige Last kommt von `ch.jans.wissens-trigger` und `ch.jans.nachtschicht`,
+und `wissens-trigger.sh` enthält **keinen einzigen STOP-Bezug** (grep-Zähler 0) — es liest die
+Flags gar nicht. **Folge für die Bewertung:** die 42 % sind bei laufendem Lernbetrieb gemessen,
+nicht bei Stillstand. Der Wert ist damit unauffällig, während derselbe Wert bei echtem Stillstand
+ein Warnsignal wäre. Wer die Flags künftig als Beleg für «Hub steht» liest, misst das falsche
+System.
+
+**Die beiden offenen Entscheide sind weiterhin offen** und durch diesen Lauf nicht berührt: der
+Grundverbrauch-Entscheid aus dem 03.08.-Check und die Zeile vom 13.08. zum Auto-Top-Up auf dem
+alten Max Plan (Register-Zeilen 735 und 1714 ff.). Keine neue Pendenz angelegt, die Zeilen stehen
+bereits. Bei GRÜN sieht der Check keinen Registereintrag vor; nur gelesen und rapportiert, keine
+Änderung an Takten, Flags oder Runner-Zuständen.
+
 ## Hub-Chef 23.08.2026 (08:39 bis 09:0x) — Tagesbriefing GESENDET, Jegen-Versand terminiert (A7)
 
 Signale eingesammelt: Fristen-Register und Logbuch mit Sieben-Tage-Horizont, der Radar-Abschnitt

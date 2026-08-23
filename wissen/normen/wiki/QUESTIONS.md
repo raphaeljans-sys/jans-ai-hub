@@ -3733,9 +3733,20 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   Verkaufsraum (Empfehlungszeile) oder Verkaufsgeschaeft (Pflichtzeile)» nicht aus der KB
   beantwortbar.
 - Herkunft: Run 60, Delta-Destillat `vkf-brl-17-15-fassung-2017-delta.md`.
-- Naechster Schritt: `vkf-brl-10-15-fassung-2019-delta.md` und `vkf-brl-17-15-fassung-2017-delta.md`
-  gegenseitig verlinken und pruefen, ob die 2019er-Begriffsdefinition rueckwirkend auf die
-  2017er-Tabelle anwendbar ist (unterschiedliche Fassungsdaten derselben Fragestellung).
+
+> ✅ **NAECHSTER SCHRITT VOLLSTAENDIG ERLEDIGT (23.08.2026, QUESTIONS-Abarbeitung).** Beide
+> Teilschritte waren bereits in den Destillaten selbst erledigt, hier nur nachgezogen: (1) die
+> Gegenseitig-Verlinkung fehlte einseitig — `vkf-brl-17-15-fassung-2017-delta.md` verlinkte
+> bereits auf `vkf-brl-10-15-fassung-2019-delta.md` (Frontmatter + «Offene Punkte», belegt mit
+> Seitenangabe 35), der Rueckweg fehlte im Frontmatter der 10-15-Delta-Datei und wurde ergaenzt.
+> (2) Die vermeintliche Rueckwirkungsfrage stellt sich nicht: «Verkaufsraeume» ist **kein**
+> 2019er-Begriff, sondern gehoert zu den zehn Begriffen des IOTH-Beschlusses vom **22.09.2016**
+> (Fassung **01.01.2017**) — demselben Beschluss, der die BRL-17-15-Tabellenaenderung traegt.
+> Beide Aenderungen sind am selben Tag beschlossen; die Tabellenverschiebung ist Vollzug der
+> Definition, keine zeitversetzte Anwendung. Ein erklaerender Querverweis wurde zusaetzlich in
+> `vkf-brl-10-15-fassung-2019-delta.md` (nach der Sechs-Begriffe-Tabelle) ergaenzt. Kein
+> Widerspruch zur TEIL-1-Schliessung oben — deckungsgleiches Ergebnis, hier nur die beiden
+> Datei-Querverweise nachgezogen.
 
 
 ---

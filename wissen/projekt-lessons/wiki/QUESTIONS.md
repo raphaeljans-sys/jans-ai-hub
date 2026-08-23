@@ -4,15 +4,21 @@ Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel.
 
 ## Offene Wissenslücken (Coverage-Gaps)
-- **Wissens-Destillat `buero-projekte` Phase 2, erster Lauf (23.08.2026):** aus den 62 P1-Zeilen
-  des Inventars wurden 16 Quelldateien des Clusters `1318_Lorraine_Kueche` gelesen und daraus
-  [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]] destilliert (zugleich zweiter Beleg
-  für [[nerves-2015-kv-nebengewerke-unterschaetzt]], dort auf `established` gehoben). Die
-  restlichen rund 46 P1-Zeilen desselben Projekts (Metallbau BKP 272, Wandbeläge BKP 282,
-  Malerarbeiten BKP 285, Elektroschemata dreier Teilprojekte 1321/1508/1543) sind weiterhin
-  `[t]` und nicht gelesen — möglicher nächster Fokus, da im selben Projektordner. Ausserdem
-  weiterhin offen: die 91 P2- und 26 P3-Zeilen sowie die restlichen P1-Zeilen aus
-  `1603_Steinhof`, `1011_Lorrainestr_4`, `1115_Kostenberechnung`.
+- **Wissens-Destillat `buero-projekte` Phase 2, zweiter Lauf (23.08.2026, Fortsetzung):** die
+  restlichen 46 P1-Zeilen aus dem ersten Lauf sind jetzt gelesen und trianiert. Ergebnis: Update
+  an [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]] (Wandbeläge +177 %, Malerarbeiten
+  +696 bis +935 %, Metallbau bleibt ohne gültigen Vergleichswert, BKP-Zuordnung Heizung/Sanitär/
+  Elektro korrigiert — interne LV-Nummern der Kostenschätzungssoftware 223/224/225 waren
+  fälschlich als BKP-Codes übernommen worden), plus zwei neue Artikel:
+  [[lorraine-kueche-1318-elektro-nachtrag-anschlusswerte-kuechenbauer]] (Elektro-Endrechnung
+  +54 % durch ungeklärte Küchenbauer-Anschlusswerte) und
+  [[dachstock-lorrainestrasse4-1011-denkmalpflege-foerderkombination-2003]] (Fremdmandat,
+  Denkmalpflege-Verhandlung + Förderkombination 2003/2004). Damit ist das Projekt
+  `1318_Lorraine_Kueche` inventarseitig vollständig abgearbeitet (alle P1-Zeilen `[x]`/`[-]`).
+  **Weiterhin offen:** die 91 P2- und 26 P3-Zeilen des Gesamtkorpus (alle Projekte) — nächster
+  Fokus für Phase 2, da `1318_Lorraine_Kueche` als bisher einziger vollständig gesichteter
+  P1-Cluster keine Aussage über den Ertrag der übrigen 21 Projektordner erlaubt.
+  Bericht: `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run2.md`.
 - **Fokus-Bereich «Bauen im Betrieb» weiterhin ohne Kandidat (05.08.2026, Nachtschicht Mac
   Mini) — dritte Quelle (Truninger-DS3) gemäss Empfehlung geprüft, wieder Nullbefund.**
   Projektraum-Baum systematisch nach den plausibelsten Fundorten durchsucht: Volltextsuche

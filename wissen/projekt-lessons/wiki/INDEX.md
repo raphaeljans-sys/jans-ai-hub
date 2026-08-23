@@ -20,12 +20,13 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 
 ### Behörden & Bewilligungen
 - [[sbb-naeherbaurecht-thalwil-2414-vordach]] — Thalwil 2414: ein 12.76 m² Vordach im SBB-Näherbaurechtsperimeter löst eine eigene, erweiternde Vereinbarung aus, die zur JANS-Bringschuld in der Auflagebereinigung wird; Lesson: bei jeder Projektänderung im Näherbaurechtsperimeter frühzeitig aktiv die SBB-Vereinbarung erweitern lassen, nicht erst reaktiv
+- [[dachstock-lorrainestrasse4-1011-denkmalpflege-foerderkombination-2003]] — Dachstocksanierung Lorrainestrasse 4 (Projekt 1011, 2003/2004, Fremdmandat Architektin Monika Wyss): protokollierte Denkmalpflege-Begehung erzielt bezifferte Zugeständnisse (hälftige Mehrkosten bei Naturschiefer, 10-12 cm Dachüberhöhungs-Toleranz), Denkmalpflege- und Minergie-Förderbeitrag gleichzeitig bewilligt, Kosten zusätzlich in Unterhalt/Wertvermehrung gegliedert; Lesson: Denkmalpflege-Begehungen früh protokollieren, Förderinstrumente auf Kombinierbarkeit prüfen, bei vermieteten Einheiten von Anfang an Unterhalt/Wertvermehrung trennen
 
 ### Koordination & Kommunikation
 - [[kispi-behoerden-zustaendigkeitswechsel-1171-26]] — KISPI 1171/26: UGZ- und AFB-Zuständigkeiten wechseln mitten im Verfahren (Fallgrösse bzw. Gebiets-/Team-Zuteilung), ohne Mitteilung ans Projekt; Lesson: bei länger laufenden Verfahren die aktuelle Zuständigkeit aktiv verifizieren statt am zuletzt bekannten Kontakt festzuhalten
 
-## Statistik (Stand 2026-08-23)
-- Artikel im Wiki: 8 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26, nerves-2015-kv-nebengewerke-unterschaetzt — status established; kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087, lorrainestrasse-2011-realisierungsphase-honorar-unpreist, lorraine-kueche-maria-1318-kv-nebengewerke-abweichung — status emerging)
+## Statistik (Stand 2026-08-23, Fortsetzung)
+- Artikel im Wiki: 10 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26, nerves-2015-kv-nebengewerke-unterschaetzt — status established; kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087, lorrainestrasse-2011-realisierungsphase-honorar-unpreist, lorraine-kueche-maria-1318-kv-nebengewerke-abweichung, lorraine-kueche-1318-elektro-nachtrag-anschlusswerte-kuechenbauer, dachstock-lorrainestrasse4-1011-denkmalpflege-foerderkombination-2003 — status emerging)
 - Letzter Health-Check: 2026-07-25 (siehe outputs/2026-07-25_health-check.md)
 
 > Befüllung: Roh-Material in `raw/` ablegen → kompilieren lassen. Siehe `CLAUDE.md`.

@@ -3,6 +3,59 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (weitere Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2, zweiter Destillat-Lauf: Update an bestehendem Artikel, zwei neue Artikel, BKP-Korrektur
+
+- **Getan:** Die restlichen 46 (von ursprünglich 62) P1-Zeilen aus dem Cluster
+  `1318_Lorraine_Kueche` sowie vier weitere P1-Zeilen aus `1011_Lorrainestr_4`,
+  `1115_Kostenberechnung` und `1603_Steinhof` gelesen (zwei Subagenten, Read-Tool, nur lesend
+  im Archiv). Referenzquelle für LV-Schätzwerte: `150916_Kostenanschlag_dreistellig_Kueche_Maria.pdf`.
+- **[Update]** `wiki/lorraine-kueche-maria-1318-kv-nebengewerke-abweichung.md`: drei
+  Ergänzungen. (1) Wandbeläge (LV CHF 1'300) vs. real (Fliesen bezahlt CHF 2'305.60 +
+  Verlegung CHF 1'296.00) = **+177,0 %, Faktor ≈ 2,77** — inkl. dokumentiertem
+  GBP/CHF-Verhandlungsproblem (Raphael forderte CHF, Anbieterin lieferte durchgehend GBP).
+  (2) Malerarbeiten (LV CHF 560) vs. zwei vollständigen Konkurrenzofferten: OptiMaler
+  CHF 5'799.03 (**+935,5 %, Faktor ≈ 10,36**), Edulu CHF 4'458.50 unvollständig ohne
+  Weissputz-Position (**+696,2 %**, real höher) — die grösste Einzelabweichung im ganzen
+  Cluster. (3) Metallbau (BKP 272) bleibt **ohne gültigen Vergleichswert** — die im
+  gleichnamigen Ordner abgelegten Offerten (Weibel, Franke) betreffen sachlich andere
+  Leistungen; die Franke-CNS-Abdeckung und die Dunstabzugshaube-Offerte gehören laut LV zu
+  BKP 273 (Positionen 273.2.1/273.3.5), nicht 272 — Ordner-BKP-Diskrepanz als eigener
+  Verfahrensbefund festgehalten. Zusätzlich nuanciert: auch innerhalb des insgesamt gut
+  geschätzten Hauptgewerks Schreinerarbeiten weichen dessen technische Apparate-
+  Unterpositionen (+54 % bis +178 %) im selben Muster ab wie eigenständige Nebengewerke.
+- **[BKP-Korrektur]** Derselbe Artikel übernahm in Run 1 für Heizung/Sanitär/Elektro
+  unkommentiert die **internen LV-Nummern der Kostenschätzungssoftware** (223/224/225) als
+  BKP-Codes. Gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft: 223 ist dort
+  «Blitzschutzanlagen», 224 «Bedachungsarbeiten», 225 «Spezielle Dichtungen und Dämmungen» —
+  keines passt zur beschriebenen Leistung. Korrigiert auf 242 (Heizungsanlagen), 251/254
+  (Sanitäranlagen), 232 (Starkstrominstallationen — deckt sich mit der bereits korrekten
+  Verwendung in [[nerves-2015-kv-nebengewerke-unterschaetzt]]). Gleiche Fehlerfamilie wie die
+  dokumentierte «271.10»-Korrektur, Rule `bkp-2017-referenz`.
+- **[neu]** `wiki/lorraine-kueche-1318-elektro-nachtrag-anschlusswerte-kuechenbauer.md`
+  (status emerging): Elektro-Endrechnung desselben Projekts übersteigt die Ausgangsofferte um
+  **+54,2 %** (CHF 4'272.55 → CHF 6'588.15), weil die Anschlusswerte des Backofens erst
+  während der Ausführung beim Küchenbauer geklärt werden konnten (Rechnung nennt die Ursache
+  im Wortlaut). Eigenständiger Ausführungs-/Nachtrags-Befund, kein KV-Schätzungsfehler wie
+  der Hauptartikel — daher separater Artikel, verlinkt.
+- **[neu]** `wiki/dachstock-lorrainestrasse4-1011-denkmalpflege-foerderkombination-2003.md`
+  (status emerging): Fremdmandat (Architektin Monika Wyss, Miteigentümergemeinschaft),
+  eingegangene Korrespondenz bei Maria Jans. Dachstocksanierung Lorrainestrasse 4, Bern,
+  2003/2004 — protokollierte Denkmalpflege-Begehung mit bezifferten Zugeständnissen (hälftige
+  Mehrkosten bei Naturschiefer, 10-12 cm Dachüberhöhungs-Toleranz, differenzierte
+  Erhaltungspflicht), gleichzeitig bewilligte Förderung durch Denkmalpflege UND Minergie für
+  dieselbe Massnahme, plus eigene Unterhalt-/Wertvermehrungs-Gliederung für die Mietzins-
+  anpassung. Über 20 Jahre alt, Verhandlungsmuster übertragbar, Zahlen nicht.
+- **[INDEX]** Neue Einträge unter Bauleitung/Ausführung und Behörden & Bewilligungen, Eintrag
+  Kosten & Termine für `lorraine-kueche-maria-1318` nachgeführt, Statistik auf 10 Artikel
+  (5 established, 5 emerging).
+- **[QUESTIONS]** Coverage-Gap-Eintrag aktualisiert: `1318_Lorraine_Kueche` P1-seitig
+  vollständig abgearbeitet, 91 P2/26 P3-Zeilen des Gesamtkorpus bleiben offen.
+- **[Inventar]** `skills/wissens-destillat/training/buero-projekte-inventar.md`: 46 Zeilen von
+  `[t]` auf `[x]` (18, mit Backlink) bzw. `[-]` (28, mit Begründung — Duplikate, Blanko-
+  Formulare, reine Pläne/CAD-Exporte, Scope-Mismatches) gesetzt. Zeilenzahl unverändert (822),
+  `git diff --numstat` nach dem Schreiben geprüft: 46/46 (Rule `auto-verbesserungen` 260811).
+- Bericht: `outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run2.md`.
+
 ## 2026-08-23 (Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2, erster Destillat-Lauf: neuer Artikel + Zweitbeleg hebt bestehenden Artikel auf `established`
 
 - **Getan:** 16 der 62 P1-Zeilen aus dem Cluster `1318_Lorraine_Kueche` gelesen (Subagent,

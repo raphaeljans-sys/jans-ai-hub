@@ -3474,11 +3474,20 @@ durchfuehrbar.
   `[[ahb-checkliste-raumluftmessungen]]` und `[[gebaeudeschadstoffe]]`). Erst listen und gegen
   den Bestand diffen, dann entscheiden.
 
-- [ ] **E-R132-4 (P4): Gibt es Auflagen des Topten-Merkblatts nach November 2008?** Die KB führt
-  nun die 2. Auflage (Januar 2008) und die 3. Auflage (November 2008) desselben Werks. Ob eine
-  vierte existiert, ist offen. Geringe Priorität: alle Effizienzklassen der Reihe sind durch die
+- [~] **E-R132-4 (P4): Gibt es Auflagen des Topten-Merkblatts nach November 2008? Teilbefund
+  23.08.2026, nicht primärquellenbelegt, bleibt offen markiert.** Die KB führt die 2. Auflage
+  (Januar 2008) und die 3. Auflage (November 2008) desselben Werks. Mehrere unabhängige
+  Websuchen nennen übereinstimmend eine «4., überarbeitete Auflage, Oktober 2012»
+  (gleiche Herausgeberschaft: Amt für Hochbauten Stadt Zürich, ewz, Topten Schweiz) — aber kein
+  geprüfter Kandidaten-Link (`stadt-zuerich.ch`, `topten.ch`, Kanton Aargau) lieferte das
+  Original-PDF (404/403). Zusätzlich gefunden: eine eigenständig gebrandete
+  EnergieSchweiz-Nachfolgebroschüre «Haushaltgeräte professionell beschaffen»
+  (PDF-Metadaten-Erstellungsdatum 15.04.2015), die auf einen Trägerwechsel von der
+  Stadt-Zürich/ewz/Topten-Reihe zu einer national verlegten EnergieSchweiz-Publikation ab ca.
+  2015 hindeutet. Geringe Priorität unverändert: alle Effizienzklassen der Reihe sind durch die
   Neuskalierung der Energieetikette 2021 ohnehin überholt, brauchbar ist nur die
-  Beschaffungsmechanik (Gesamtkosten über 15 Jahre).
+  Beschaffungsmechanik (Gesamtkosten über 15 Jahre). Eingearbeitet in
+  `destillate/topten-haushaltgeraete-liegenschaftenverwaltung.md`.
 
 - [ ] **E-WC32-1 (P3): Vor jeder «Quelle nie eingelesen»-Aussage: Verzeichnisliste `destillate/`
   gegen den Linknamen prüfen, nicht nur INDEX-Volltextsuche.** Anlass: Run 132 hat ein seit zehn
@@ -3592,11 +3601,18 @@ durchfuehrbar.
   einem künftigen Namensabgleich fälschlich als „unbearbeitet“ erscheinen. Kein Blocker, aber ein
   Pflegeaufwand, der die nächste Zähler-Messung wieder sauberer macht. Kandidatenliste in
   `pdf-inventar.md`, Nachtrag 17.08.2026 (Spalte «Einordnung»).
-- [ ] **E-R134-2 (P3): Bezugsfläche der Energiekennzahl 38/30 kWh/m² im EFH-Vergleichsblatt nicht
-  ausgeschrieben.** Auf der Grafik steht nur «kWh/m²»; EBF ist naheliegend, aber nicht belegt.
-  Nur von historischem Interesse (der Wert selbst ist überholt), aber ein sauberes Beispiel für
-  die Bezugsflächen-Falle, die schon bei EBF↔NWF im Passivhaus-Vergleich zugeschlagen hat
-  (`[[minergie-p-genese-passivhaus-vergleich-2002]]`).
+- [x] **E-R134-2 (P3) — GESCHLOSSEN 23.08.2026: Bezugsfläche der Energiekennzahl 38/30 kWh/m² im
+  EFH-Vergleichsblatt systemisch geklärt.** Auf der Grafik steht nur «kWh/m²»; EBF war naheliegend,
+  aber am Dokument selbst nicht belegt. Der Minergie-Glossar (minergie.ch, Eintrag
+  «Energiekennzahl», abgerufen 23.08.2026) definiert die Minergie-Energiekennzahl unabhängig vom
+  Einzeldokument als stets EBF-bezogen («Mass für die gesamte, einem Gebäude während eines Jahres
+  netto gelieferte Energie, bezogen auf die Energiebezugsfläche»). Die Annahme «EBF» ist damit
+  systemisch bestätigt, bleibt aber eine Ableitung aus der allgemeinen Systematik, kein Zitat aus
+  dem Quelldokument selbst — dieses nennt die Bezugsfläche weiterhin nicht namentlich. Nur von
+  historischem Interesse (der Wert selbst ist überholt), aber ein sauberes Beispiel für die
+  Bezugsflächen-Falle, die schon bei EBF↔NWF im Passivhaus-Vergleich zugeschlagen hat
+  (`[[minergie-p-genese-passivhaus-vergleich-2002]]`). Eingearbeitet in
+  `destillate/minergie-me-vs-me-p-vergleich.md`.
 - [ ] **E-R134-3 (P3): Lambda-Anomalie im Faustregeln-Merkblatt.** Regel 03 nennt «verbesserter
   Lambda-Wert λ 0,3 W/(m·K)» — für einen Dämmstoff physikalisch unplausibel (üblich 0,03 bis
   0,04). Vermutlich fehlende Null im Original. **Bewusst nicht korrigiert, nur markiert** — das

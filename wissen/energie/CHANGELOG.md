@@ -1,5 +1,38 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (vierte Fortsetzung): E-R134-2 geschlossen, E-R132-4 als unverifizierter Websuchbefund markiert
+
+Fortsetzung der drei vorangehenden Interaktiv-Sessions desselben Tages. Diese Session ohne
+Node/M365-CLI und ohne gemountete PL-02/PL-04-Pfade begonnen — die vom letzten Lauf empfohlenen
+Kandidaten (E-R132-2/-3, E-R129-2/-4, kWh/kg-Werte zu E-R147-1) verlangen alle Dateisichtung im
+SharePoint-Korpus und waren damit nicht erreichbar. Stattdessen zwei P3/P4-Punkte per KB-internem
+Abgleich bzw. WebSearch/WebFetch bearbeitet.
+
+- **E-R134-2 geschlossen (P3):** Die Bezugsfläche der Energiekennzahl 38/30 kWh/m² im
+  undatierten Minergie/Minergie-P-Vergleichsblatt (`[[minergie-me-vs-me-p-vergleich]]`) war am
+  Dokument selbst nicht ausgeschrieben. Der Minergie-Glossar (minergie.ch, abgerufen
+  23.08.2026) definiert die Minergie-Energiekennzahl systemisch als stets EBF-bezogen — die
+  Annahme «EBF» ist damit bestätigt, bleibt aber eine Ableitung aus der allgemeinen Systematik,
+  kein Zitat aus der Quelle selbst. Eingearbeitet in
+  `destillate/minergie-me-vs-me-p-vergleich.md`.
+- **E-R132-4 (P4) mit Teilbefund, bewusst `[~]` statt `[x]`:** Ob nach der 3. Auflage (November
+  2008) des Stadt-Zürich/ewz/Topten-Merkblatts «Professionelle Beschaffung: Haushaltgeräte»
+  weitere Auflagen existieren, bleibt **nicht primärquellenbelegt**. Mehrere unabhängige
+  Websuchen nennen übereinstimmend eine «4., überarbeitete Auflage, Oktober 2012», aber jeder
+  geprüfte Kandidaten-Link (stadt-zuerich.ch, topten.ch, Kanton Aargau) lieferte 404/403 statt
+  des Original-PDFs. Zusatzfund: eine eigenständig gebrandete EnergieSchweiz-Nachfolgebroschüre
+  (PDF-Metadaten-Erstellungsdatum 15.04.2015) deutet auf einen Trägerwechsel ab ca. 2015 hin,
+  ebenfalls nicht abschliessend verifiziert. Bewusst als offener Rechercheansatz, nicht als
+  Faktum festgehalten. Eingearbeitet in
+  `destillate/topten-haushaltgeraete-liegenschaftenverwaltung.md`.
+
+**Nicht angefasst:** alle Punkte mit PL-02/PL-04-Dateisichtungsbedarf (technisch nicht
+erreichbar in dieser Session), E-R148-1 (Normkauf, Entscheid Raphael), E-R149-4
+(harness-blockiert), E-R150-3 (bewusst offen dokumentiert), E-R140-1 (hängt am Normkauf),
+E-R143-2 (gehört zur KB `normen`), E-R134-3 (bewusst nicht korrigiert), E103/E94 (Entscheid
+Raphael zu Projektdaten), E-S1 (Struktur-, keine Recherchefrage), Fernwärme-
+Objektgrössen-Verweigerung (braucht interaktive Rechner-Abfragen).
+
 ## 2026-08-23 — Interaktive Session (dritte Fortsetzung): E-R129-1, E-R33-1 (Cross-KB) und E-R147-1 (Teil) bearbeitet
 
 Weitere Fortsetzung derselben Interaktiv-Session (zwei vorangehende Einträge unten). Drei
