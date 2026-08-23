@@ -3,6 +3,50 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Pflegelauf gegen den aktuellen Stand: Provenienz korrigiert, Register nachgeführt
+- **Auftrag:** Verfahrensschritte/Fristen/Belegpflichten auf Aktualität prüfen, offene
+  Fragen wo belegbar schliessen, Unbelegtes offen lassen (Rules `wissens-bibliothekar`,
+  `identifikatoren-verifizieren`).
+- **Rechts-/Verfahrensstand:** keine Änderung nötig. Der Health-Check vom 2026-08-03
+  bestätigt 15/15 Artikel `established`, alle zentralen OR-Artikel zuletzt am
+  Fedlex-Volltext (Konsolidierung 01.01.2026) verifiziert; seither keine neue
+  Gesetzesänderung bekannt. Stichprobe auf Rest-Referenzen der am 08.08.2026 korrigierten
+  Handelsregistergebühr (CHF 420 pauschal) in allen Artikeln sauber.
+- **⚠ Provenienz-Korrektur (wichtigster Fund):** `CLAUDE.md` behauptete, die KB sei „aus
+  dem realen Gründungsdossier der Raphael Jans AG (2022)" entstanden — das war ungenau
+  und teils unbelegt. Gegenprüfung am OneDrive-Archiv
+  (`AD - 06 Unternehmung/_Archiv/10_Gruendung`) ergibt: (1) Es gab 2022 real einen ersten
+  Gründungsanlauf (Statuten-Entwurf `221206_Raphael_Jans_AG_Statuten.pdf`,
+  Notariats-Screenshots vom 03.12.2022) — dieser wurde damals **nicht** zu Ende geführt,
+  keine HR-Eintragung. (2) Die tatsächlich in `raw/` ingestierten sechs Quellen (alle
+  260602) sind ausschliesslich **generische amtliche Merkblätter/Checklisten**
+  (HRA-ZH, KMU-Checkliste, EasyGov, Opting-out-Formular), nicht die realen
+  2022er-Dokumente — die liegen laut `raw/_INGESTED.md` unverändert nur im
+  OneDrive-Archiv, nie eingearbeitet. (3) Die Gründung ist **kein abgeschlossener
+  Vorgang**, sondern seit 2026-06-02 ein laufender, zweiter Anlauf (Name zunächst
+  „JANS AG", seit 27.06.2026 „Raphael Jans AG"), operativ getrackt in
+  `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md` und `logbuch/fristen.md` — beim
+  letzten dort bestätigten Stand (14.08.2026) war die AG weiterhin **nicht** im
+  Handelsregister eingetragen (Notariat prüft Urkunde/Statuten, HR-Anmeldedatum muss
+  Raphael korrigieren, UBS-Kapitalbescheinigung steht aus); der automatisierte
+  `ag-gruendung-monitor` ist seither (ca. 19.08.2026) ausgefallen, ein späterer Stand ist
+  nicht verifiziert. `CLAUDE.md` entsprechend präzisiert (Abschnitt „Was das ist" +
+  Quellen-Hierarchie Punkt 5), inkl. Verweis auf die beiden operativen Dateien als
+  massgebliche Quelle für den aktuellen Fallstand — diese KB bleibt allgemeines
+  Referenzwissen und bildet den Fallverlauf bewusst nicht ab.
+- **Register nachgeführt:** `wiki/INDEX.md` Statistik war seit 29.07.2026 veraltet
+  (zeigte 14 statt 15 Artikel, 3 statt 8 Outputs, Health-Check-Datum 21.07. statt
+  03.08.); korrigiert. Ebenso eine stehengebliebene needs-verification-Klammer bei
+  [[gmbh-gruendungsablauf]] (Artikel wurde bereits am 21.07.2026 amtlich verifiziert,
+  der INDEX-Eintrag war nicht nachgezogen worden). `wiki/QUESTIONS.md`: den
+  1e-/Kaderplan-Punkt um die Abhängigkeit vom tatsächlichen HR-Eintrag präzisiert (kann
+  erst erhoben werden, wenn die AG existiert und einen eigenen Vorsorgeplan hat); den
+  Notarkosten-Punkt gegen den aktuellen Fallstand geprüft — weiterhin keine bezifferte
+  Offerte vorhanden, bleibt offen, nichts geraten.
+- Keine neuen Artikel, keine Löschung, kein Fan-out. Quellen dieses Laufs: `find`/`grep`
+  über das OneDrive-Archiv, `logbuch/fristen.md`, `wissen/spec/outputs/2026-06-21_ag-gruendung_spec.md`,
+  `logbuch/konversationen/260813-*.md` und `260815-*.md`, `260821-*.md`.
+
 ## 2026-08-08 (Nachtschicht-Zyklus Mac Mini, 05:30) — Handelsregistergebühr AG/GmbH korrigiert: CHF 420 pauschal statt gestaffelt
 - [[kosten-und-zeit]] und [[rechtsform-vergleich]] führten seit dem EasyGov-Dossier 2022
   eine kantonal gestaffelte Handelsregistergebühr (~CHF 600, + 0,2 ‰ auf Kapital über

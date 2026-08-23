@@ -23,6 +23,17 @@
       "ssh_alias": "macbook",
       "besonderheit": "Mobil, kann schlafen/offline sein — direkte SSH-Anfragen nie garantiert, asynchron via sync-tasks"
     },
+    "macbook-revendo": {
+      "rolle": "Dritte Arbeitsstation, seit 23.08.2026 im Vollgas-/Lern-Betrieb. 32 GB RAM, 12 Kerne, praktisch unbelastet — traegt mehr gleichzeitige Laeufe als die beiden anderen.",
+      "lan_ip": "unbekannt (bisher nur ueber Tailscale angebunden)",
+      "tailscale_ip": "100.96.212.110",
+      "tailscale_name": "macbook-pro-von-revendo",
+      "hostname": "MacBookPro",
+      "benutzer": "revendo",
+      "ssh_alias": "kein Alias — direkt: ssh -o IdentitiesOnly=yes -i ~/.ssh/id_ed25519 revendo@100.96.212.110",
+      "claude_cli": "KEIN Homebrew-claude. Nur die app-gebuendelte CLI unter $HOME/Library/Application Support/Claude/claude-code/<version>/claude.app/Contents/MacOS/claude",
+      "besonderheit": "⚠ ZWEI FALLEN. (1) NAMENSKOLLISION: hostname -s liefert 'MacBookPro' und unterscheidet sich vom Haupt-MacBook 'Macbookpro' NUR in der Gross-/Kleinschreibung; das NAS-Dateisystem unterscheidet die nicht. Stationsdateien und jede andere nach hostname benannte Datei wuerden sich still gegenseitig ueberschreiben. Deshalb IMMER STATION=Macbookrevendo setzen (kontingent-budget.sh nimmt die Variable seit 23.08.2026 entgegen). (2) KEIN OAUTH-TOKEN in ~/.jans-dispatch.env: die CLI ist nur ueber den GUI-Login am Schluesselbund angemeldet, und darauf kommt eine SSH-Sitzung NICHT. Ferngestartete Laeufe scheitern deshalb mit 'Not logged in'. Laeufe muessen LOKAL auf der Maschine gestartet werden, oder Raphael hinterlegt dort einen Token. Lesende SSH-Befehle funktionieren uneingeschraenkt."
+    },
     "nas-ds918": {
       "rolle": "Datei-Server + kanonische Skill-/Wissens-Bibliothek + nativer Git-Committer",
       "lan_ip": "192.168.1.10",
@@ -32,8 +43,14 @@
       "mount_extern": "osascript -e 'mount volume \"smb://diskstation918.tail8265aa.ts.net/daten\"'",
       "besonderheit": "NIE git ueber SMB auf das NAS-Repo — nur nas-commit-now.sh (Rule 260726)"
     },
-    "opnsense": { "rolle": "Firewall/Router", "lan_ip": "192.168.1.1" },
-    "drucker": { "rolle": "Konica Minolta bizhub c300i", "lan_ip": "im LAN" }
+    "opnsense": {
+      "rolle": "Firewall/Router",
+      "lan_ip": "192.168.1.1"
+    },
+    "drucker": {
+      "rolle": "Konica Minolta bizhub c300i",
+      "lan_ip": "im LAN"
+    }
   },
   "verbindungswege": {
     "macbook_zu_mini": {
@@ -53,7 +70,9 @@
       "weg": "claude.ai/code hat KEIN LAN/Tailscale -> remote-tasks/pending/<station>/*.sh via git push, Ergebnis via remote-tasks/results/",
       "latenz": "~5-10 Min"
     },
-    "handy": { "weg": "Dispatch/Cowork -> scripts/dispatch-run.sh auf dem Mac Mini" },
+    "handy": {
+      "weg": "Dispatch/Cowork -> scripts/dispatch-run.sh auf dem Mac Mini"
+    },
     "lastverteilung": {
       "weg": "bash scripts/arbeits-weiche.sh [--wo] <name> [<prompt>] — RAM-intensive Auftraege auf die optimale Station",
       "politik": "Default Mini; MacBook nur Aushilfe (LAN+Netzteil+frei+idle); nie absagen, notfalls Mini-Queue",

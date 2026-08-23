@@ -14,7 +14,7 @@
 ### GmbH-Gründungsprozess
 - [[gmbh-gruendungsablauf]] — Master-Ablauf als Pendant zur AG (12 Schritte + Delta-Tabelle
   Kapital/Organe/Öffentlichkeit/Übertragbarkeit/Revision/Nachschusspflicht) · *established*
-  (Artikelnummern über Sekundärquellen plausibilisiert, needs-verification am Fedlex-Volltext)
+  (Artikelnummern am Fedlex-Volltext verifiziert, 21.07.2026)
 
 ### Nach der Gründung
 - [[nachgruendung-anmeldungen]] — AHV-Ausgleichskasse, BVG-Anschluss, UVG-Versicherer,
@@ -46,9 +46,13 @@
 Siehe [[QUESTIONS]] — Backlog-Punkt «Verwaltungsrat» am 25.07.2026 geschlossen, keine offenen
 Coverage-Lücken mehr registriert.
 
-## Statistik (Stand 2026-07-29)
-- Artikel im Wiki: 14
+## Statistik (Stand 2026-08-23)
+- Artikel im Wiki: 15 (alle *established*)
 - Offene Coverage-Lücken: 0 (Verwaltungsrat am 25.07.2026 geschlossen; Steuern bei Gründung am
   24.07.2026; Kapitalband/Fremdwährung needs-verification am 29.07.2026 geschlossen)
-- Outputs: 3 (neue-ag-gruenden_vorgehen, health-check 2026-07-01, steuern-sparen-ag-inhaber)
-- Letzter Health-Check: 2026-07-21 (Mac Mini Nachtschicht)
+- Outputs: 8 (neue-ag-gruenden_vorgehen 260602, steuern-sparen-ag-inhaber 260702,
+  kapitalband-fremdwaehrung 260729, Health-Checks 260701/260721/260725/260801/260803)
+- Letzter Health-Check: 2026-08-03 (Wissenscheck-Sammellauf, sauberste KB des Wissens-Layers)
+- Verbleibende needs-verification-Punkte: Beratungs-/Notarkosten (kein amtlicher Tarif),
+  [[nachgruendung-anmeldungen]] bei Fristen-Details/Kanton-Spezifika (Sekundärquellen) —
+  siehe [[QUESTIONS]].

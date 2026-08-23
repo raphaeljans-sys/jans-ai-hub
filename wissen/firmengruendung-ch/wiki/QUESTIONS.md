@@ -2,13 +2,19 @@
 
 ## Offene Wissenslücken (Coverage-Gaps)
 - **1e-/Kaderplan + Einkaufspotenzial** der Raphael Jans AG konkret erheben
-  (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel.
+  (Vorsorgeausweis, Schwellenwert 1e) — Grundlage für den PK-Hebel. **Setzt voraus, dass
+  die AG tatsächlich im Handelsregister eingetragen ist** und einen eigenen Vorsorgeplan
+  hat (BVG-Anschluss erst nach Gründung, siehe [[nachgruendung-anmeldungen]]); beim
+  Stand 14.08.2026 (Quelle `logbuch/fristen.md`) war das noch nicht der Fall — vor
+  dieser Erhebung den aktuellen Gründungsstand dort prüfen, nicht annehmen.
 
 ## needs-verification (zentral)
 - Beratungs-/Notarkosten ([[rechtsform-vergleich]], [[kosten-und-zeit]]) bleiben
   Marktrichtwerte ohne amtlichen Tarif (Notariate ZH sind frei erwerbend) — vor einer
   realen Gründung aktuelle Offerte einholen. Die Handelsregistergebühr-Hälfte dieser Frage
-  ist geschlossen, siehe Archiv 08.08.2026.
+  ist geschlossen, siehe Archiv 08.08.2026. Im laufenden realen Gründungsfall (Notariat
+  Wiedikon, Stand 14.08.2026) liegt noch keine bezifferte Honorarofferte vor, mit der sich
+  dieser Punkt schliessen liesse (geprüft 23.08.2026, `logbuch/fristen.md`).
 
 ## Cross-Article-Spannungen (worth resolving)
 - Noch keine erfasst.

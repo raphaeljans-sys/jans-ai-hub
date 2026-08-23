@@ -163,7 +163,7 @@ fi
 # --- 8. Checkliste ----------------------------------------------------------
 echo ""
 echo "============================================================"
-echo -e "  ${GREEN}Station «$STATION» ist eingebunden.${NC}"
+echo -e "  ${GREEN}Station «${STATION}» ist eingebunden.${NC}"
 echo "============================================================"
 echo ""
 echo "  Automatisch aktiv:"
