@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 07:04:02
+Stand: 23.08.2026 07:14:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 07:04:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f985776a nas-selfcommit: 2 Datei(en) 2026-08-23 07:00
+- cf43d039 logbuch-radar 23.08.2026: Radar-Briefing im Logbuch, SharePoint-Zugriff Bajrami neu im Register
