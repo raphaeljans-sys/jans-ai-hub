@@ -19,6 +19,17 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 2026-08-23 16:23 — stale `.git/index.lock` auf der Synology, per `mv` beseitigt
+
+Waehrend der QUESTIONS.md-Abarbeitung in `planungsgrundlagen` blieb `nas-commit-now.sh` mehrfach
+ohne Wirkung; `sync-tasks/log/selfcommit-202608.log` zeigte ab 16:22:12 wiederholt
+«index.lock aktiv (Ns) — skip» mit wachsendem N. Gegengeprueft: `ps aux | grep git` auf der
+Synology zeigte **keinen** laufenden Git-Prozess, die Lock-Datei war leer (0 Byte) und stammte
+aus 16:21:54 — klassisches Verwaisungsmuster wie am 12.08.2026 (siehe Abschnitt dort). Umkehrbar
+behoben: `mv .git/index.lock /tmp/index.lock.stale-20260823-1623` (nicht geloescht, liegt dort
+weiterhin abrufbar), danach lief `nas-commit-now.sh` sofort durch. Ergebnis: Commit `4570c209`
++ alle seither aufgelaufenen Aenderungen (planungsgrundlagen, immobilienbewertung) gepusht.
+
 ---
 
 ## 260823c — Triage-Lauf editierte den SSD-Klon statt der NAS-Quelle, Auto-Sync-Stash-Pop hinterliess Konfliktmarker im Commit
