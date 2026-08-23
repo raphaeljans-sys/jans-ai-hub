@@ -129,6 +129,28 @@ und traegt die Zahlenwerte der Querschnitts-Synthese
 `wiki/abb-reihe-verguetungs-und-ausmassgrenzen.md`, die bis dahin ausdruecklich Warnkarte und
 nicht Zitierquelle ist), dann 382/2 und 380/3 (Energie), zuletzt die Tunnel- und Aufzugsnormen.
 
+- **Run 60 (MacBook Pro, 260823) — der VKF-Jahrgang 01.01.2017 vollstaendig destilliert;
+  N58-1 bis auf drei Sonderfaelle erledigt.**
+  Sechzehn Fassungspaare 2015 gegen 2017 beschafft (alle MD5 deckungsgleich mit der Matrix aus
+  Run 58, Fassungsdaten am gedruckten Titelblatt abgelesen), amtliche Aenderungsliste je
+  Publikation ausgelesen, Volltext-Diff als Kontrolle darueber gelegt, jede gelistete Tabelle und
+  Zeichnung gerendert statt extrahiert. **Fuenfzehn neue Delta-Destillate** (17-15, 18-15, 20-15,
+  21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15)
+  plus 13-15 als Gegenprobe; alle sechzehn Bestands-Destillate nachgefuehrt. Alle neuen
+  Destillate `speculative` — die Abdeckungsrichtung ist auf keinem gelaufen (Methodik-Pflicht 13).
+  **N59-1 beantwortet:** «(cr)» ist ein Anwendungsbeschraenkungs-Flag innerhalb einer RF-Gruppe;
+  E/E-d2 und EL/EL-d2 wandern 2017 von RF4 (cr) nach RF3 (cr), die RF4-Zeile ist seither leer.
+  **Drei Befunde in der KB selbst:** die AFC-Synopse ist doppelt destilliert und die aeltere
+  Fassung gab die Gesamthoehe falsch wieder (inline korrigiert, Entscheid N60-1 bei Raphael); die
+  QSS-Lockerung bei QSS 3 ist neu auf den Beschluss 22.09.2016 datiert; und bei AH 1002-15
+  Schulbauten wurde ein Agentenbefund **umgekehrt** — das Kriterium «>100 Personen → zwei
+  vertikale Fluchtwege» ist aus der Arbeitshilfe verschwunden, gilt aber nach BRL 16-15
+  Ziff. 2.4.2 Abs. 2 unveraendert weiter. Daraus die zur Freigabe vorgelegte Methodik-Pflicht 14
+  (N60-2). Zweiter belegter Fall einer unvollstaendigen Aenderungsliste (BSE 107-15), mit
+  Gegenbeleg (BRL 24-15, Verdacht geprueft und widerlegt). Elf Nachpruefungen des Hauptprozesses,
+  davon zwei Widerlegungen und eine Umkehrung. Report
+  `outputs/2026-08-23_normen-nacht-run60.md`.
+
 - **Run 39 (MacBook Pro, 260730) — Abdeckung von `lignum-4-1` GEMESSEN statt geschaetzt
   (Freigabe Raphael). Vollstaendige Seiten-Inventur aller 40 A3-Blaetter, 5 parallele
   Aufnahme-Agenten.** Kein neues Grunddestillat.
