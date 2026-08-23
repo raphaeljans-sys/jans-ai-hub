@@ -78,7 +78,7 @@ Die Arbeitshilfe fasst die im Normalfall geltenden brandschutztechnischen Standa
 
 ### Fluchtwege (Ziff. 7, S. 18-23)
 - Gesamte Fluchtweglänge = Fluchtweglänge in der Nutzungseinheit (Luftlinie) + Fluchtweglänge im Korridor (Gehweglinie) (S. 18, Ziff. 7.2 A1).
-- Bauten mit Geschossfläche > 900 m² benötigen mind. zwei vertikale Fluchtwege; ebenso Räume mit Personenbelegung > 100 Personen (S. 19, Ziff. 7.3.2).
+- Bauten mit Geschossfläche > 900 m² benötigen mind. zwei vertikale Fluchtwege; ebenso Räume mit Personenbelegung > 100 Personen (S. 19, Ziff. 7.3.2). ⚠ **Zitierhinweis, ergänzt 23.08.2026 (Run 60):** Die **Fassung 01.01.2017 dieser Arbeitshilfe gibt den zweiten Halbsatz nicht mehr wieder** — sie nennt nur noch das Flächenkriterium und zitiert nur noch «BSR16-15, Z.2.4.2, A1». **Die Anforderung gilt gleichwohl unverändert weiter**, unmittelbar nach [[vkf-brl-16-15-flucht-rettungswege]], Ziff. 2.4.2 Abs. 2 (dort am Original der Fassung 01.01.2017 nachgelesen). Für ein laufendes Projekt deshalb **die Richtlinie zitieren, nicht die Arbeitshilfe**; Einzelheiten in [[vkf-ah-1002-15-fassung-2017-delta]].
 - Gesamtlänge von Fluchtwegen: max. 35 m, wenn sie nur zu einem vertikalen Fluchtweg/Ausgang führen; max. 50 m, wenn sie zu mind. zwei voneinander entfernten vertikalen Fluchtwegen/Ausgängen führen (S. 19, Ziff. 7.3.3).
 - Fluchtweglänge innerhalb der Nutzungseinheit: max. 35 m (bei überhohen Räumen in Absprache mit der Brandschutzbehörde max. 50 m bei mehreren Fluchtrichtungen) (S. 19, Ziff. 7.3.4).
 - Horizontale Fluchtwege: Mindestbreite 1.2 m; Türen lichte Durchgangsbreite mind. 0.9 m, lichte Höhe 2.0 m (Türen) bzw. 2.1 m (horizontale Fluchtwege) (S. 19-20, Ziff. 7.3.5).
