@@ -1,5 +1,55 @@
 # CHANGELOG
 
+## 2026-08-23/24 — Qualitaets-Audit: 47 belegte Befunde, drei P1 korrigiert, zwei neue Pruefwerkzeuge im Wissens-Layer
+
+Multiagenten-Audit auf Zuruf Raphaels («das Wissen auf ein neues Level heben»): 13 Agenten, sechs
+Pruefdimensionen (Rechenpruefung, Statuskette, Aktualitaet, Widersprueche, Begriffsdisziplin,
+Belegkante), jeder Befund anschliessend von einem eigenen Gegenpruefer am Original zu **widerlegen**
+versucht. **Von 49 Befunden halten 47 stand** (3 P1, 18 P2, 26 P3), 2 wurden widerlegt; Abschnitt 06
+des Arbeitspapiers fuehrt zusaetzlich elf geprueft-entkraeftete Vorwuerfe, damit sie niemand erneut
+aufnimmt. Arbeitspapier: `outputs/2026-08-23_energie-audit-qualitaetsoffensive.md`.
+
+**Der zentrale Satz: kein einziger Befund stammt aus einer externen Quelle.** Alle sind KB-intern
+belegt — die KB widerspricht sich selbst. Die Arithmetik ist dabei gesund (alle 18 nachgerechneten
+PV-Werte, alle 14 Foerder-Rechenbeispiele stimmen); falsch wird es bei der **Bezugsgroesse** einer
+richtig gerechneten Zahl und bei der **Weitergabe** eines bereits erkannten Vorbehalts vom Destillat
+ins Bauherren-Erzeugnis.
+
+**Die drei P1 sind korrigiert.** (1) **THGE-Grenzwert Minergie**: das Rechenbeispiel dividierte seit
+2023 durch GF statt durch EBF und lieferte einen um **25 % zu strengen** Zielwert — in einem zweimal
+verifizierten established-Destillat; massgebend ist GW_EBF je m2 EBF (MFH 12,4 bzw. 11,5 nach 2026.1,
+Spital 19,9 bzw. 18,5), die frueheren 11 und 17 waren GF-gewichtete Mittel. Korrigiert in
+`minergie-nachweiskurs-2023-mkz-thge`, FAQ, `graue-energie`, `minergie-standards`, `wiki/INDEX`.
+(2) **Solarthermie**: FAQ F42 versprach eine «nationale Einmalverguetung bis 30 %» — die
+Einmalverguetung ist eine reine **PV**-Foerderung; rund CHF 4'500 bis 6'000, die es nicht gibt, seit
+2020 unveraendert. (3) **Klimapraemie**: der Ausschluss von Einfamilienhaeusern und Anlagen unter
+40 kW fehlte an vier Stellen, obwohl er in F92 und F94 die ganze Zeit richtig stand — der Fehler
+kostet Geld an einer nicht heilbaren Frist (Gesuch vor Baubeginn). Zusaetzlich: die kursierenden
+«~360 CHF/kW» sind eine aus 18 Rp./kWh abgeleitete Faustregel bei rund 2'000 Volllaststunden, kein
+zugesicherter Satz.
+
+**Zwei neue Werkzeuge im Wissens-Layer** (`wissen/tools/`, KB-uebergreifend, Exit 1 bei Befunden):
+`bezugsgroessen-check.py` fragt nach dem **Nenner** (traegt jede Quote ihre Bezugsgroesse, ist der
+Wert ueberhaupt moeglich, hat eine Tabelle je Zeile denselben impliziten Nenner) und
+`datenstand-waechter.py` nach dem **Alter** (Pflichtfeld `datenstand`, Geld- und Marktzahlen ueber
+der Schwelle, verstrichene selbst gesetzte Pruefstichtage — auch in abgehakten Eintraegen). Beide
+haben im Selbsttest die Ausloeser des Audits selbstaendig wiedergefunden: die 103-%-«Autarkie» an
+acht Stellen und den verstrichenen Stichtag vom 17.08.2026.
+
+⚠ **Eine Selbstkorrektur gehoert dazu.** Zuerst entstand ein KB-lokales Prueflaufscript, das Form,
+Nenner und Alter in einem prueft — ohne vorher in `wissen/tools/README.md` nachzusehen. Dort standen
+bereits vier Werkzeuge, zwei davon vom selben Tag. Der Link-Check des eigenen Scripts meldete **24**
+tote Links, wo das bestehende `wiki-konsistenz.sh` **7** findet: genau der KB-uebergreifende
+Fehlalarm, vor dem dessen Kopfkommentar seit dem 28.07.2026 warnt. Das Script wurde verworfen und
+auf die zwei Fragen reduziert, die wirklich fehlten. **Derselbe Fehlertyp, den das Audit beschreibt,
+diesmal im eigenen Vorgehen: aussen gebaut, statt innen nachgesehen.** Als Warnung im
+Werkzeug-README vermerkt.
+
+**Folge fuer den Loop:** der Antrieb wechselt von der Dateiliste zur **Pruefwarteschlange**
+(`wiki/QUESTIONS.md`, Abschnitt «Audit 23.08.2026»). Kein Befund lag am Rand des Korpus, alle lagen
+im Bestand — ein Mengenlauf haette in derselben Zeit das 325. PDF destilliert und beide P1
+unberuehrt gelassen.
+
 ## 2026-08-23 — Interaktive Session (zwanzigste Fortsetzung): Vollständige Verifikation — kein neuer Rechercheansatz mehr offen
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die neunzehnte

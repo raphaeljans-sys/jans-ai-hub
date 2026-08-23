@@ -37,7 +37,7 @@ verifikation: "Adversarial Verify 2026-07-21 gegen Produktreglement MINERGIE/-P/
 |---|---|---|---|
 | Minergie-Kennzahl ⚠ Richtwert, siehe Hinweis | 51 kWh/m² | 46 | 29 |
 | Heizwärmebedarf | 90 % MuKEn 2014 | 70 % MuKEn | 90 % MuKEn |
-| **THGE Erstellung (graue Energie)** ⚠ seit 2026.1 revidiert | 11,5 kg CO₂/m²·a (GW_EBF) | 11,5 | 11,5 |
+| **THGE Erstellung** (Treibhausgasemissionen, **nicht** graue Energie in MJ) ⚠ seit 2026.1 revidiert | 11,5 kg CO₂-eq **je m² EBF**·a (GW_EBF) | 11,5 | 11,5 |
 | Luftdichtheit q_a50 | 1,2 | 0,8 (gemessen) | 0,8 (gemessen) |
 Immer: Komfortlüftung, **sommerl. Wärmeschutz auf Wetterdaten 2035**, keine fossilen Brennstoffe,
 **Dach voll mit PV** (Neubau ≥ 60 % Dachfläche), Leerrohre E-Mobilität. Detail/Erneuerungswerte →

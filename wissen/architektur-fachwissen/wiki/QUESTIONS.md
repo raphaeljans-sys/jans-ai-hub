@@ -29,6 +29,17 @@ Das Blatt führt GF, HNF, GV nach SIA 416 und RI nach SIA 116 konsequent gegen B
 BKP 1 bis 9 und ist damit strenger als das dort heute verwendete Format. Die Frage stellt
 bereits das Inventar `archiv-fachwissen__03_Bauprozesse_I_II.md` (offene Frage 5) und markiert
 sie als Entscheid Raphael.
+> **Nachtrag Wissens-Chef Run 41, 23./24.08.2026 — die Schulbau-Kennwert-Achse existiert bereits.**
+> Vor einer Destillation des Leutschenbach-Rasters (Report 05.6) sind zwei bestehende Bestände
+> gegenzulesen, sonst entsteht dasselbe Wissen ein drittes Mal:
+> `wissen/wettbewerbs-dna/wiki/muster/kennwerte-schulbauten.md` (`established`, 20.07.2026,
+> 25 belegte Quellen) und `wissen/entwurfs-referenzen/wiki/parameter-sets/schule-volksschule-ch.json`.
+> Der erstgenannte Artikel hält ausdrücklich fest, dass für **CHF/m³** die KB
+> `wissen/grobkosten` führend bleibt. Die Frage «ersetzt das Raster jenes in `grobkosten`?» ist
+> damit falsch geschnitten: zu entscheiden ist, ob das Leutschenbach-Blatt die **Methode**
+> (Kostenermittlungskreislauf, Gliederung gegen BKP 2 und BKP 1-9) beisteuert — Kennwerte
+> selbst bleiben bei den in der Fuehrungs-Matrix genannten KBs.
+
 
 **#15 Aufbewahrung der Bewerbungsunterlagen 2007 bis 2010.** In `16_Portfolios` und in
 `02_Bibliothek/06_Portfolios/` liegen Bewerbungsdossiers Dritter mit Geburtsdaten,
@@ -44,6 +55,19 @@ Referenzenbibliothek in die Werk- und Portfolio-Ablage gehört.
 
 ### B Beleglücken, vor jeder Zitierung nach aussen zu schliessen
 
+**#3b Die BGS-Honorarblatt-Tabelle (20.04.2005) enthält BKP-Codes, die es im BKP 2017 nicht
+gibt — Wissens-Chef Run 41, 23./24.08.2026.** Die Inventare
+`raw/inventar/buero-referenzen__18_Projektkostenplanung.md` und
+`raw/inventar/archiv-fachwissen__03_Bauprozesse_I_II.md` führen dieselbe Tabelle und leiten sie
+mit «der Aufbau ist unmittelbar übertragbar» ein. Gegen `references/bkp-2017/BKP-2017-Liste.md`
+gemessen: **«019»** heisst dort «Übriges» unter 01 Grundstücks-/Baurechtserwerb, nicht Abbruch
+(Abbruch ist **112.1**); ein Code **«071» existiert im BKP 2017 überhaupt nicht**. Die Codes
+stammen aus einer BKP-Altausgabe. Vor jeder Übernahme in einen Honorar- oder Kostenkontext ist
+jeder Code einzeln gegen die BKP-2017-Liste zu mappen — sachbezogen nach der bezeichneten
+Leistung, nicht mechanisch (Rule `bkp-2017-referenz`, Korrektur 04.08.2026). Die Inventardateien
+selbst bleiben unangetastet (`raw/` wird nie editiert).
+
+
 **#3 Bibliografische Fundstelle der Genauigkeitstabelle.** Belegt ist die Buchseite 148 mit
 Abb. 8.4 «Kostenermittlungskreislauf» und der Kurzbeleg «PM Ruosch Brandenberger» aus dem
 Dateinamen. Ausgabe und Erscheinungsjahr des Werks sind aus dem Bestand nicht belegbar. Die
@@ -55,6 +79,26 @@ Rechenwerke belegen dieselben Anteile (Vorprojekt 9 Prozent, Bauprojekt 21, Bewi
 Ausschreibung 18, Ausführungsplanung 16, Ausführung 29, Abschluss 4,5), beide nach Ausgabe
 2003. Ob die Anteile in SIA 102:2014 unverändert gelten, sagt keine Datei beider Korpora. Am
 Original prüfen über den Skill `normen`, bevor sie in eine Honorarofferte fliessen.
+> **Nachtrag Wissens-Chef Run 41, 23./24.08.2026 — zur Hälfte beantwortet, ohne neue Beschaffung.**
+> Der Fragetext bleibt stehen; er ist als Aussage über die zwei Korpora korrekt. Im Hub ist die
+> operativ entscheidende Hälfte aber belegt: `wissen/normen/destillate/sia-102-2014.md`
+> (`status: established`, verifiziert 260714, S. 1-58 komplett gelesen), **Ziff. 7.7**, führt
+> genau diese sieben Anteile — Vorprojekt 9 %, Bauprojekt 21 %, Bewilligungsverfahren 2,5 %,
+> Ausschreibung 18 %, Ausführungsprojekt 16 %, Ausführung 29 %, Abschluss 4,5 %, Basis
+> Phasen 3+4+5 = 100 %. Die Ausgabe **2014 führt sie also**; ein zweiter Verifikationslauf
+> gegen dasselbe PDF ist nicht nötig.
+> **Drei Vorbehalte, die mitwandern müssen:**
+> (1) Offen bleibt die andere Hälfte der Frage — «unverändert gegenüber 2003». Das Destillat
+> `sia-102-2003.md` trägt `status: speculative` und kann die Kontinuitätsaussage nicht stützen.
+> (2) SIA 102:2014 ist durch **SIA 102:2020** abgelöst, und 2020 kennt die
+> Baukosten-Prozentmethode nicht mehr (die Ordnung endet nach Art. 6). Eine Verwendung ist
+> immer als «nach SIA 102:2014, Ziff. 7.7» oder als bürointerne Konvention auszuweisen —
+> **nie** als SIA-102:2020-Fundstelle.
+> (3) **Nicht** auf `skills/honorarberechnung-sia102` verweisen: dessen Haupttabelle führt eine
+> bürointerne JANS-Konvention mit **abweichenden** Werten (Vorprojekt 11 %, Bewilligung 5 %,
+> Ausführungsprojekt 19 %, Ausführung 20 %, dazu Vorstudien 4 % innerhalb der 100 %). Führend
+> ist nach der Fuehrungs-Matrix (`wissen/koordination/QUERBEZUEGE.md`) allein `normen`.
+
 
 **#5 Es fehlt ein belegter Indexpfad auf heute.** Sämtliche Kostenkennwerte beider Korpora
 haben Preisstände zwischen 1985 und 2012. Keine Sektion enthält einen Indexpfad. Ohne ihn

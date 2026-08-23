@@ -4517,3 +4517,56 @@ formelle Anhang-A-Fundstelle), E103 (Pflegeplatz-Flächenkennwert, Entscheid Rap
 Datum, kein weiterer Recherche-Ansatz), die «schwach belüftete» Luftschicht-Zwischenstufe (neuer
 kleiner Teilaspekt aus diesem Lauf, gleiche Klasse wie E-R148-1), sowie die bereits mehrfach
 bestätigten, nicht erneut geprüften Negativbefunde (E-S1, E-R129-5, E-WC32-1, E-R150-3).
+
+## Audit 23.08.2026 — die Pruefwarteschlange (ersetzt die Dateiliste als Antrieb)
+
+Quelle aller Punkte: `outputs/2026-08-23_energie-audit-qualitaetsoffensive.md`. Sechs
+Pruefdimensionen haben die KB lesend durchsucht, jeder Befund wurde adversarial gegengeprueft;
+von 49 halten 47 stand. **Abschnitt 06 des Arbeitspapiers fuehrt elf gepruefte und entkraeftete
+Vorwuerfe — die sind NICHT erneut aufzunehmen.** Kein Befund stammt aus einer externen Quelle:
+die KB widerspricht sich selbst.
+
+- [x] **A-P1-1 THGE-Grenzwert Minergie: falsche Bezugsflaeche, 25 % zu streng.** Erledigt
+  23.08.2026: Destillat `minergie-nachweiskurs-2023-mkz-thge` (Rechenbeispiel auf EBF-Nenner,
+  Tabellenkopf, Verifikations-Update), FAQ F4 und F16-Umfeld, `graue-energie`,
+  `minergie-standards`, `wiki/INDEX`. Massgebend ist GW_EBF je m2 EBF; die frueheren 11 (MFH)
+  und 17 (Spital) waren GF-gewichtete Mittel. **Offen als Restpunkt:** den Nenner ein zweites
+  Mal an Anhang G des Produktreglements 2026.1 gegenlesen — dieser Anhang wurde seinerzeit ohne
+  Refuter-Panel destilliert.
+- [x] **A-P1-2 Solarthermie: eine Bundesfoerderung, die es nicht gibt.** Erledigt 23.08.2026 in
+  FAQ F42 und `solarthermie-investitionskosten-ch`. Die Einmalverguetung ist eine reine
+  PV-Foerderung; Solarthermie wird ausschliesslich kantonal gefoerdert (2'400 + 1'000/kWth).
+  Der Satz stand seit 2020 unveraendert und versprach rund CHF 4'500 bis 6'000, die es nicht gibt.
+- [x] **A-P1-3 Klimapraemie: Ausschluss von EFH und Anlagen unter 40 kW fehlte.** Erledigt
+  23.08.2026 in FAQ F29 (Kurzantwort, Tabellenzeile, Rechenbeispiel), `foerderung-energie-zh`,
+  `foerderung-energie-sz`, `wiki/INDEX`, dazu der Faustregel-Vorbehalt zu den «~360 CHF/kW» im
+  Destillat. In F92 und F94 stand der Ausschluss die ganze Zeit richtig.
+
+- [ ] **A-P2 (18 Punkte, Arbeitspapier Abschnitt 02): die Warteschlange fuer die naechsten
+  Laeufe.** Je Punkt liegt die Korrektur im Wortlaut vor, mit Datei und Stelle. Reihenfolge nach
+  Zahlfolge fuer die Bauherrschaft: 02.1 Blower-Door n50 gegen qE50 · 02.4 Indach-Aufschlag
+  «+60 %» an fuenf Stellen weiter, obwohl in derselben Antwort achtzehn Zeilen frueher widerrufen ·
+  02.5 Batteriepreise oberhalb des eigenen neueren Medians · 02.11 Vollkostentabelle F30 mit zwei
+  Nennern · 02.12 Grundwasser-WP «JAZ ~5» unbelegt · 02.6 GEAK-Kosten, die FAQ widerspricht sich
+  in derselben Antwort · 02.2 Waermebruecke Fensteranschlag, Grenzwert um Faktor zwei · 02.3
+  Komfortlueftung, die schaerfere ZH-Anforderung fehlt · 02.13 g-Werte needs-verification nicht
+  weitergereicht · 02.14 F3 falsche Norm-Ausgabe · 02.15 F236 Dachbegruenung ohne SIA 312 · 02.7
+  F162 · 02.8 Foerderbefristung ZH (erledigt 23.08.) · 02.16 verwaister Vollzugsordner-Zwilling ·
+  02.17 Pflichtfeld `datenstand` (Werkzeug gebaut, Nachruestung offen) · 02.18 Einmalverguetung
+  integriert ueber 30 kWp · 02.9 KRNr 6064 (in `logbuch/fristen.md` eingetragen).
+- [ ] **A-P3 (17 Punkte, Arbeitspapier Abschnitt 03): Sammellauf, keine Einzeleinsaetze.**
+  Sie aendern keine Zahl, die eine Bauherrschaft in eine Rechnung stellt, oder sind Hausordnung
+  (Registerhygiene, tote Verweise, Statuswerte ausserhalb der Skala, ein Tippfehler in Z. 84).
+
+- [ ] **A-BLIND (P1 fuer die Methode): keine der sechs Dimensionen hat eine Originalquelle
+  geoeffnet.** Das Audit sagt, dass die KB sich selbst widerspricht — es sagt nicht, ob ein
+  Destillat sein PDF richtig wiedergibt. Diese Blindstelle ist gross und gehoert quartalsweise
+  fuer die zwanzig meistzitierten Destillate geschlossen. Exemplarisch: welcher Psi-Grenzwert im
+  BFE-Waermebrueckenkatalog 2002 wirklich steht, ist ohne das Original nicht entscheidbar (02.2).
+
+- [ ] **A-WERKZEUG: die zwei neuen Pruefwerkzeuge sind gebaut, ihre Trefferlisten nicht
+  abgearbeitet.** `wissen/tools/bezugsgroessen-check.py` (120 Kandidaten fuer energie) und
+  `wissen/tools/datenstand-waechter.py` (76). Beide melden Kandidaten, keine Urteile — ein
+  geprueft-unbedenklicher Treffer gehoert mit einer Zeile Begruendung hierhin, damit ihn der
+  naechste Lauf nicht erneut aufgreift. Der Waechter hat den verstrichenen Pruefstichtag vom
+  17.08.2026 (Z. 1399/1439) selbstaendig gefunden — er funktioniert.
