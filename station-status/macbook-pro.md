@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 01:57:45
+Stand: 23.08.2026 02:08:02
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 01:57)
+- Developer/jans/ai/hub  (letzte Aktivitaet 02:03)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -18,4 +18,4 @@ Stand: 23.08.2026 01:57:45
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- ee30fd7d nas-selfcommit: 22 Datei(en) 2026-08-23 01:45
+- a2e1f63b normen run60 Nachtrag: Zitierhinweis in vkf-ah-1002-15-schulbauten — die Fassung 2017 der Arbeitshilfe gibt das Kriterium >100 Personen nicht mehr wieder, es gilt nach BRL 16-15 Ziff. 2.4.2 Abs. 2 weiter; Hub-Sweep zeigt keine Ausbreitung des Fehlers
