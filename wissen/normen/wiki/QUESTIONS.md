@@ -586,6 +586,16 @@ mitzuprüfen.
 
 ### N57-4 — Gültigkeit von SIA 416:2003 nicht primärverifiziert (gering, billig)
 
+> ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, dritter Lauf).** Primärquelle erreicht:
+> `shop.sia.ch`, Produktseite SN 504416, `http://shop.sia.ch/normenwerk/architekt/sia%20416/dfi/D/Product`
+> (Abruf 23.08.2026, per WebSearch gefunden — die vorher geratene URL hatte den falschen
+> Pfad; korrekt ist der Slug `sia%20416/dfi/D/Product`). Bestätigt: SIA 416:2003 **aktuell**,
+> gültig ab 01.10.2003, kein Gültig-bis-Datum, Vorgängerausgabe SIA 416:1993 gültig bis
+> 30.09.2003. Deckt sich mit der bisherigen Sekundärquelle. Eingetragen in
+> `destillate/sia-416-2003.md`, neuer Abschnitt «Gültigkeit (primärverifiziert 23.08.2026)»,
+> `last_updated` nachgezogen. Status bleibt `established` (Norminhalt war bereits primär
+> gelesen; ergänzt wurde nur der Gültigkeitsstatus).
+
 Das Destillat stützt sich durchgehend auf **SIA 416:2003** als geltende Bezugsnorm. Nach
 Sekundärquelle ist sie weiterhin in Kraft (gültig ab 01.10.2003; archiviert ist die Ausgabe
 1993), **das Produktdatenblatt selbst wurde aber nicht erreicht** — die geratene Shop-URL lief
@@ -747,13 +757,27 @@ Statusfrage ohne Vorbehalt zu beantworten. Nach Methodik-Pflicht 11 ist neu zuge
 Text genauso ein Entwurf wie ein Erstdestillat — eine Hebung jetzt würde Vollständigkeit mit
 Richtigkeit verwechseln.
 
-**N53-3 — OFFEN, aus dem Kalk/Gips-Punkt zu N52-4 herausgelöst: die formelle Frage zu
-SIA 215:1978.** Fachlich sind die Zement-Kapitel durch SIA 215.002/215.003 (EN 197-1/-2,
-gültig ab 01.01.2002) überholt. **Formell ist SIA 215:1978 nicht zurückgezogen** — das
-REGISTER führt sie als 1978✓ geltend, und keines der beiden EN-Titelblätter erwähnt sie.
-Vor einem Zitat als geltende Norm extern zu prüfen (SIA-Normenverzeichnis/-Shop). Für Kalk
-und Gips ist zusätzlich ungeklärt, ob SN EN 459-1 bzw. SN EN 13279-1 an ihre Stelle getreten
-sind; beide sind nicht im Bestand.
+**N53-3 — TEILWEISE GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, dritter Lauf).** Die
+formelle Frage ist beantwortet, die fachliche Detailfrage zu Kalk bleibt offen.
+
+> ✅ **Formeller Status geklärt.** Primärquelle `shop.sia.ch`, Produktseite SN 551215
+> (`https://shop.sia.ch/normenwerk/ingenieur/sia%20215/d/D/Product`, Abruf 23.08.2026):
+> SIA 215:1978 ist **archiviert seit 30.06.2014** — die frühere Aussage «formell nicht
+> zurückgezogen» ist damit überholt. Genannter Nachfolgestandard: **SIA 242.002:2008
+> «Gipsbinder und Gipstrockenmörtel, Teil 1: Begriffe und Anforderungen»** (einziger auf
+> der Produktseite geführter Nachfolger). Deckt sich mit dem bereits am selben Tag von
+> der interaktiven SIA-Sweep-Session eingetragenen Befund in `wiki/REGISTER.md`, Abschnitt
+> A, Zeile SIA 215 (unabhängig zweite Fundstelle derselben Seite, kein Zirkelschluss).
+> Frontmatter-Feld `ersetzt_durch` in `destillate/sia-215-1978.md` korrigiert.
+>
+> **Weiterhin offen: Kalk (hydraulischer Kalk, Weisskalk).** Die Produktseite nennt
+> ausschliesslich den Gips-Nachfolger; für Kalk ist kein Nachfolgestandard verzeichnet.
+> SN EN 459-1 «Baukalk» bleibt eine unbelegte Vermutung, nicht im Haus, nicht auf der
+> Shop-Seite als Nachfolger genannt. Zement bleibt wie bisher separat über SIA 215.002/
+> 215.003 referenziert (kein Widerspruch, andere Referenzierungsart, s. Destillat).
+> **Nächster Schritt bei Bedarf:** SN EN 459-1 auf shop.sia.ch direkt suchen (eigene
+> Produktseite, nicht über SIA-215-Verweis erreichbar) oder Kalk-Frage an Raphael/
+> Fachplaner zurückgeben, falls ein Projekt sie konkret braucht.
 
 ## Normen-Nacht Run 52 (15.08.2026) — die Gegenprobe zweiter Ordnung ist gefahren; eine Fehlerklasse bleibt unerkannt
 
@@ -3475,6 +3499,13 @@ aus der Recht-KB hier angekommen.
   (SharePoint PL-02), Ausgabe verifizieren, Destillat anlegen.
 - [ ] **SN EN 12193:2008** (Licht und Beleuchtung — Sportstaettenbeleuchtung) — selbe Fundstelle.
   Bestand prüfen; Nachfolgeausgabe abklären (EN 12193 wurde nach 2008 revidiert).
+  **Zweiter Anwendungsfall nachgetragen 23.08.2026 (aus KB `energie`):** genau diese Norm würde
+  einen dokumentierten Selbstwiderspruch in einer AHB-Beleuchtungstabelle auflösen (Turnhalle
+  «Wettkampfsport»: Tabellenwert 500 lx gegen Fussnotenwert 750 lx, Dokument 19.01.2007).
+  SIA 387/4:2017 (Tab. 4, hier bereits destilliert) bestätigt nur den 500-lx-Wert für die
+  allgemeine Turnhallennutzung, führt aber keine eigene Wettkampf-Zeile. Details und
+  Sekundärquellen-Einordnung (nicht zitierfähig): `wissen/energie/wiki/QUESTIONS.md`, Eintrag
+  **E-R143-2**; Destillat `wissen/energie/destillate/ahb-zuerich-uebersichtstabelle-beleuchtung-en12464.md`.
 - [ ] **SN 640 052** (VSS, Kehrplatz/Kehrmöglichkeit bei Stichstrassen) — zitiert in
   `baurecht/wiki/baureife-und-erschliessung.md:76`. Reiht sich in den VSS-Parkierungs-/
   Erschliessungsblock ein, der in Run 11/12/13 dreimal korrigiert werden musste.

@@ -3,6 +3,61 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (dritte Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2, P2-Start: neuer Artikel Vordach-Denkmalpflege 1011, Cluster 1602 St. Karli ohne Lesson
+
+- **Getan:** Erster Lauf auf den 91 offenen P2-Zeilen (nach Abschluss aller 62 P1-Zeilen in
+  den beiden vorigen Läufen). Zwei parallele Lese-Agenten (nur lesend im Archiv, kein
+  Schreibzugriff): Projekt `1011_Lorrainestr_4` (20 Zeilen: 18 P2 + 2 P3) und Projekt
+  `1602_St_Karli_11` (25 Zeilen P2, Systemvergleich Metallfenster BKP 221).
+- **[Neuer Artikel]** `wiki/vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010.md`
+  (status emerging): eigenes JANS-Mandat 2010 (nicht das Fremdmandat 2003/2004 im selben
+  Gebäude), Erneuerung des Vordachs Wellplatte→Glasbaustein. Belegte Kette aus fünf Dateien:
+  historische Baubewilligung des Vordachs (1963/64) vorab beschafft, Checkliste vor der
+  Denkmalpflege-Besprechung (26.05.2010), quantifizierte Materialstudie mit Stückzahlen und
+  Fotomontage (16./28.08.2010), Bauherren-Kostendach (CHF 30'000.- exkl. Eigenleistungen,
+  03.09.2010) **danach** fixiert, eigene Fach-Empfehlung «möglichst wenige, schlichte
+  Materialien» an die Miteigentümerin (20.09.2010). Ausgang (Bewilligung/Realisierung) nicht
+  belegt — als Einschränkung im Artikel vermerkt. Bidirektional mit
+  [[dachstock-lorrainestrasse4-1011-denkmalpflege-foerderkombination-2003]] verlinkt (`links`-Feld
+  dort ergänzt, vorher `[]`).
+- **[Datenhygiene-Befund, kein Artikel]** Im selben Unterordner
+  (`12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstocksanierung_Pläne_Oktober2003.pdf`)
+  trägt eine Plandatei einen irreführenden Namen: Dateiname nennt «Oktober 2003», die
+  Planstempel zeigen effektiv **24.01./29.05.1988** (Architekt W. Kulik, Nasszellen-Einbau
+  4. OG) — ein drittes, eigenständiges Fremdmandat, weder mit dem neuen Vordach-Artikel noch
+  mit dem bestehenden Dachstock-2003/2004-Artikel zu verwechseln. In beiden betroffenen
+  Artikeln als Warnhinweis vermerkt. Ausserdem: `04_Kosten/00_Offerten/PDF/111122_Projektbeschrieb.pdf`
+  im Projektordner 1011 ist ein fehlabgelegtes Fremddokument (Text über eine Kirchenfassade,
+  kein Bezug zu Lorrainestrasse) — als `[-]` im Inventar vermerkt, keine weitere Aktion nötig.
+- **[Cluster ohne Lesson]** `1602_St_Karli_11`: 24 von 25 Dateien sind unkommentierte
+  Hersteller-Prospekte/-kataloge (Forster, Jansen, MHB, Mira Contour, Schweizer, Wicona) zu
+  Metallfenstersystemen BKP 221 — ohne JANS-eigenen Vermerk, gehören allenfalls in
+  `wissen/bauprodukte`, nicht hierher. Einzige Datei mit JANS-eigenem Entscheidungskontext:
+  ein Fragenkatalog an Metallbauer Hirt (Systemwahl Janisol/MHB, Hochwasserschutz-Rolltor)
+  — aber ohne dokumentierte Antwort. Eigene Nachprüfung (Orchestrator-Session, gezielte
+  Ordnersuche, kein neuer Agent): die drei Korrespondenzordner zu den tatsächlichen
+  Endanbietern (Jansen, «Wigona»/Wicona, Naef Holz-Metall) im Projekt sind angelegt, aber
+  **leer** — kein Entscheiddokument im gesamten Projektordner 1602 auffindbar. Als offene
+  Frage in `wiki/QUESTIONS.md` festgehalten (auch als möglicher Datenpunkt für den
+  Pflicht-Zusatzauftrag `bevorzugte-systeme-jans.md`).
+- **Inventar:** 45 Zeilen `[t]`→`[x]`/`[-]` (5 `[x]`, 40 `[-]`, exakt per Dateipfad-Anker
+  gesetzt, kein Blanket-Replace, Rule `auto-verbesserungen` 260811). Zähler danach: 822
+  Zeilen gesamt, 700 `[-]`, 72 `[t]` (46 P2, 26 P3), 41 `[x]`, 9 sonstige Kopfzeilen.
+- **INDEX.md**: neuer Eintrag unter «Behörden & Bewilligungen», Statistik auf 11 Artikel.
+- **Verifikation:** jede Zahl/jedes Zitat gegen den Original-Wortlaut des jeweiligen
+  Agentenberichts geprüft (keine Interpolation); die 1602-Nachprüfung (leere
+  Korrespondenzordner) selbst am Dateisystem verifiziert, nicht nur aus dem Agentenbericht
+  übernommen. Nach jedem Schreibvorgang `git diff --numstat` geprüft: Inventar exakt 45/45
+  geändert, keine Fremdänderung; die Wiki-Änderungen wurden zwischenzeitlich vom laufenden
+  15-Minuten-NAS-Selfcommit (Commit `e14bc048`, gemeinsam mit unabhängiger Fremdarbeit an
+  `wissen/normen` aus einer anderen Session) sauber miterfasst — Stat-Diff der Wiki-Dateien in
+  diesem Commit geprüft und deckt sich exakt mit den beabsichtigten Änderungen.
+- **Offen / nächster Schritt:** 46 P2-Zeilen (`00_Allgemein` 17, `1318_Lorraine_Kueche` 28,
+  `1527 EH Europe GmbH` 3) sowie 26 P3-Zeilen (`1012_Ardez` 19, `00_Allgemein` 3,
+  `1527 EH Europe GmbH` 2, `1011_Lorrainestr_4` bereits erledigt) — nächster Lauf.
+  Pflicht-Zusatzauftrag `bevorzugte-systeme-jans.md` weiterhin nicht begonnen.
+  Bericht: `outputs/2026-08-23_destillat-buero-projekte-p2-run3.md`.
+
 ## 2026-08-23 (weitere Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2, zweiter Destillat-Lauf: Update an bestehendem Artikel, zwei neue Artikel, BKP-Korrektur
 
 - **Getan:** Die restlichen 46 (von ursprünglich 62) P1-Zeilen aus dem Cluster

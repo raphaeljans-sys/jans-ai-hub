@@ -18,6 +18,8 @@ jeder Eintrag von mindestens einem Wiki-Artikel zitiert wird.
 | 260607_amtlich_zh_bbv2.md | 260607 | ZH-Lex LS 700.22 (amtlich, via Connector) | direkt konsultiert | Primärquelle-Volltext (gemeinfrei) — Direktkonsultation |
 | 260607_amtlich_zh_bzo-*.md (44 Dateien) | 260607 | oerebdocs.zh.ch (BZO je Gemeinde, via Connector) | direkt konsultiert | Kommunale BZO-Volltexte ZH (gemeinfrei) — Direktkonsultation; Register siehe [[QUELLEN]] |
 | 260607_amtlich_sz_baur-*.md (4 Dateien) | 260607 | oereblex.sz.ch (Baureglement je Gemeinde, via Connector) | direkt konsultiert | Kommunale Baureglemente SZ (gemeinfrei); Wollerau = OCR-Pendenz (Bild-PDF) |
+| 260823_amtlich_sz_merkblatt-z15-strassenabstand-zufahrten.md | 260823 | Tiefbauamt SZ, Merkblatt Formular Z15 (fehlabgelegt im ZH-Projektordner 2414 Thalwil, Ordner "05 VSS NORM") — Gesetzesauszug StraG/StraV SZ wörtlich zitiert | [[strassenabstand-zufahrten-vorteilsabgabe-sz]] | eingearbeitet, Sekundärquelle (kein vollständiger Connector-Volltext StraG/StraV SZ) |
+| 260823_amtlich_zh_formulare-laermschutz-fals-formularS.md | 260823 | Kt. ZH Fachstelle Lärmschutz + Formular S (Struktur-Extrakt aus amtlichen Formularen im Projektordner 2414 Thalwil) | [[laermschutz-und-nichtionisierende-strahlung]] | eingearbeitet |
 
 **Hinweis Primärquelle-Volltexte (`*_amtlich_*`):** amtliche, konsolidierte Gesetzes-Volltexte
 (gemeinfrei nach Art. 5 URG), gezogen mit `skills/baurecht/connectors/recht-ch.mjs`. Sie sind die

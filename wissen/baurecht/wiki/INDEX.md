@@ -21,6 +21,9 @@ oder umbenannten Artikel aktualisieren.
 - [[15-lage-von-gebaeuden-teil2c]] (Destillat Bd 2, Kap. 15 Teil 2c) — Buchsynthese **Grenzabstand-Zahlenwerk** §§ 269-270 PBG / §§ 21-28 ABV (Mehrhöhen-/Mehrlängenzuschlag, Hauptwohnseite, Vorsprünge), Belegquelle · *emerging*
 - [[15-lage-von-gebaeuden-teil2d]] (Destillat Bd 2, Kap. 15 Teil 2d) — Buchsynthese **Gebäudeabstand §§ 271-273 PBG** (Summe der Grenzabstände, Verkehrsräume § 272, Besondere Gebäude § 273/§ 49 Abs. 3), Näherbaurecht § 270 Abs. 3, Vorsprünge-Messweise, Aussenisolation § 253a; **schliesst Kap. 15**, Belegquelle · *emerging*
 
+### Kanton Schwyz — Strassenrecht (eigenständiges System, kein PBG-Pendant)
+- [[strassenabstand-zufahrten-vorteilsabgabe-sz]] — **Strassengesetz/-verordnung SZ (StraG/StraV SRSZ 442.110/.111)**: Zufahrten/Zugänge bewilligungspflichtig (§ 47 StraG/§ 25 StraV, Verkehrsgutachten ab > 50 PP/> 600 Fz/Tag, Sichtweiten VSS SN 640 273a), Strassenabstand ohne Baulinie **6.00 m Hauptstrassen** (§ 41 StraG), Ausnahme nur bei besonderen Verhältnissen **nie wirtschaftlich begründbar** (§ 42), **Vorteilsabgabe bis 5 % des Verkehrswerts** (§ 58 StraG/§ 28 StraV, gestaffelt 3/4.5/5 % je Nutzungsart, Ausnahme bei gemeinschaftlicher Feinerschliessung VGE 717/03) — ein in ZH so nicht existierendes Institut · *emerging* (Quelle: Merkblatt Tiefbauamt SZ, Gesetzesauszug wörtlich zitiert, kein vollständiger Connector-Volltext)
+
 ### Gebäudedimensionen
 - [[geschosse-und-kniestock]] — Voll-/Dach-/Untergeschoss (§ 275 PBG), Anrechenbarkeit (§ 276 PBG), **Kniestock**: 0,9 m / Bestand 1,3 m (vor 1.7.1978), Messweise 0,4 m hinter Fassade · *emerging*
 - [[16-gebaeudedimensionen]] (Destillat Bd 2, Kap. 16 Teil 1) — Buchsynthese Geschosse + Kniestock, Belegquelle · *emerging*

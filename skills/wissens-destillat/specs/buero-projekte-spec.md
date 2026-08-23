@@ -216,6 +216,20 @@ Nachbar-KB (Cross-KB-Output, keine Ausnahme von der Ziel-KB-Zuordnung des Korpus
       `[t]`→`[x]`/`[-]` (18/28). Bericht:
       `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run2.md`.
       Offen: die 91 P2- und 26 P3-Zeilen des Gesamtkorpus (alle 22 Projekte) — nächster Lauf.
+- [x] **Dritter Destillat-Lauf Phase 2 abgeschlossen (23.08.2026, P2-Start):** erste zwei
+      Cluster der 91 P2-Zeilen gelesen (zwei parallele Lese-Agenten): `1011_Lorrainestr_4`
+      (20 Zeilen) und `1602_St_Karli_11` (25 Zeilen). Neuer Artikel
+      `vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010` (emerging, eigenes
+      JANS-Mandat 2010, bidirektional mit dem Dachstock-2003/2004-Artikel desselben Gebäudes
+      verlinkt). Cluster `1602_St_Karli_11` ergab **keine** Lesson (24/25 Dateien reines
+      Herstellermaterial BKP 221; einziger JANS-Entscheidungskontext — Fragenkatalog an
+      Metallbauer Hirt — ohne dokumentierte Antwort; Korrespondenzordner zu den drei
+      Endanbietern im Projekt leer, kein Entscheiddokument auffindbar, als offene Frage in
+      QUESTIONS.md vermerkt). Inventar: 45 Zeilen `[t]`→`[x]`/`[-]` (5/40). Bericht:
+      `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-p2-run3.md`.
+      Offen: 46 P2-Zeilen (`00_Allgemein` 17, `1318_Lorraine_Kueche` 28, `1527 EH Europe
+      GmbH` 3) und 26 P3-Zeilen (`1012_Ardez` 19, `00_Allgemein` 3, `1527 EH Europe GmbH` 2)
+      — nächster Lauf.
 - [ ] Parallel dazu, sobald genug Material aus mehreren Projekten vorliegt: Entwurf
       `bevorzugte-systeme-jans.md` gemäss Pflicht-Zusatzauftrag oben anstossen.
 - [ ] Kurator-Stufe (Opus, jede Sitzung) je Lauf gemäss SKILL.md Schritt 4.

@@ -5,7 +5,7 @@ ausgabe: "Version 2.1, Juli 2008 (Dateistempel Fusszeile 15.07.2008 / Raummodul_
 gelesen: "2026-08-13 (vollst., 10 S.)"
 datenstand: "2008, ⚠ Alterskorpus rund 18 Jahre — Systematik (Raummodul-Ansatz, Belegungs-/CO2-Logik, Präsenz-/Tageslichtsteuerung) trägt weiterhin, konkrete Zahlenwerte (25 m³/h/Person, CO2-Grenzwert 1500 ppm) sind gegen die heute geltende SIA 382/1:2025 zu prüfen, siehe Bauherren-Transfer"
 status: emerging
-last_updated: 2026-08-13
+last_updated: "2026-08-23 (E-R129-2 geschlossen, SIA-2024-Datenblatt 4.1 nachgetragen)"
 ---
 
 # Destillat — Raummodul Klassenzimmer — Standard Gebäudetechnik (Stadt Zürich AHB)
@@ -109,6 +109,13 @@ Speicherwirkung Beton und Reflexionsgrade der Oberflächen werden im Schema «Pr
 
 Das Dokument enthält **keine** Angaben zu Raumakustik/Schallschutz, zur Personenbelegung eines Klassenzimmers (Anzahl Schüler/innen) oder zur Fläche pro Person. Diese Grössen sind für die vollständigen 25 m³/h/Person- und CO2-Werte zwar die implizite Grundlage, werden im Standard selbst aber nicht beziffert.
 
+**Nachtrag 23.08.2026 (E-R129-2, `wiki/QUESTIONS.md`): Bezugsgrösse bei der Primärquelle SIA 2024:2006 nachgelesen.** Datenblatt 4.1 «Schulzimmer» (Original, M365-CLI, Site `/sites/PL`, Drive `02_Recht_Norm`, `.../SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf`, S. 42-43, hier erstmals gelesen — im bestehenden KB-`normen`-Destillat [[sia-mb-2024-2006]] war dieses Blatt noch nicht erschlossen) liefert exakt die fehlende Bezugsgrösse:
+- **Personenfläche (Netto) A_p: Auslegungswert 3,0 m²/Person**, Standardwert 4,0 m²/Person (Symbol A_p).
+- **Typischer Raum (Netto-Abmessungen): 10 m Länge × 7 m Tiefe × 3,0 m Höhe = 70 m²** — daraus rechnerisch **rund 23 Personen** beim Auslegungswert (70 / 3,0) bzw. rund 17-18 beim Standardwert (70 / 4,0).
+- **Aussenluftvolumenstrom pro Person (Nichtraucher): 25 m³/(h·P)** — deckt sich zahlengleich mit dem AHB-Wert dieses Dokuments (S. 10). Der AHB-Standard von 2008 übernimmt die Lüftungsauslegung damit **direkt aus SIA 2024**, nicht aus einer eigenen Herleitung.
+- Nutzungsdaten desselben Datenblatts: Nutzungsstunden 10,0 h/d, Volllaststunden 5,0 h/d, 261 Nutzungstage/a.
+**Einschränkung:** SIA 2024:2006 ist die Erstausgabe (2006), heute gilt SIA 2024:2021 inkl. Korrigenda C1:2024 (bereits an anderer Stelle der KB `energie` für die Healthcare-EBF-Schwelle verifiziert, `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`) — ob die Personenfläche-Werte für Schulzimmer zwischen den Ausgaben 2006 und 2021 unverändert blieben, ist hier **nicht geprüft**. Für eine verbindliche Bauherren-Antwort mit heutigem Normstand wäre das Datenblatt 4.1 der Ausgabe 2021 zu prüfen.
+
 ## Bauherren-Transfer
 
 - **Der Raummodul-Ansatz als Systematik trägt heute weiterhin**: ein Raumtyp wird ganzheitlich über Kunstlicht, Beschattung, Elektro, Lüftung, Heizung und übergeordnete Funktionen spezifiziert, mit klarer Trennung Pflicht/Option und einem Prinzip-Schema, das alle Gewerke auf einen Blick zusammenführt (S. 10). Dieses Vorgehen eignet sich unverändert als Vorlage für ein JANS-internes Raummodul-Pflichtenheft bei Schul-, Kita- oder vergleichbaren Bildungsbauten — unabhängig vom Alter der hier hinterlegten Zahlenwerte.
@@ -121,7 +128,7 @@ Das Dokument enthält **keine** Angaben zu Raumakustik/Schallschutz, zur Persone
 
 ## Offene Punkte
 
-- Keine Angabe im Dokument zur Personenbelegung eines Klassenzimmers (Anzahl Schüler/innen) und zur Fläche pro Person — für eine vollständige Herleitung der 25 m³/h-Aussenluftrate wäre dieser Wert nötig, ist aber nicht Teil der Quelle.
+- ~~Keine Angabe im Dokument zur Personenbelegung eines Klassenzimmers (Anzahl Schüler/innen) und zur Fläche pro Person~~ — **geschlossen 23.08.2026** über SIA 2024:2006, Datenblatt 4.1 (siehe Abschnitt oben): Personenfläche 3,0 m²/P (Auslegung), typischer Raum 70 m² ⇒ rund 23 Personen; Aussenluftrate 25 m³/(h·P) deckungsgleich mit diesem AHB-Dokument bestätigt. Offen bleibt der Ausgabenvergleich 2006 gegen 2021.
 - Kein WRG-Wirkungsgrad in der Quelle genannt (siehe Bauherren-Transfer) — bei aktuellen Projekten zwingend gegen SIA 382/1:2025 und EN-105/EVEN zu ergänzen.
 - Keine Angabe zu sommerlichem Wärmeschutz im Sinn einer rechnerischen Nachweispflicht (SIA 382/1) — nur qualitative Anforderungen an den Sonnenschutz (Tageslichtdurchlässigkeit, Windsicherheit).
 - Keine Akustik-/Schallschutzangaben.

@@ -1,3 +1,50 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung, dritter Lauf: N57-4 geschlossen (SIA 416:2003 primärverifiziert), N53-3 teilweise geschlossen (SIA 215:1978 archiviert)
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus vor Zitat lesen. Vorlauf gelesen: dieser
+CHANGELOG (Kopfeintrag «SIA-Sweep, fünfte Fortsetzung») und
+`outputs/2026-08-23_questions-abarbeitung2.md` (letzter Lauf desselben Tages). Die N-SIASWEEP-
+Fragen, N60-1, N60-2 und der NIN-Punkt waren laut Vorlauf bereits dreifach vertieft bzw.
+ausdrücklich Entscheid-/Beschaffungspunkte — nicht erneut angefasst, stattdessen zwei kleinere,
+selbständig abschliessbare Punkte aus älteren Run-Abschnitten bearbeitet.
+
+**1. N57-4 (SIA 416:2003, «gering, billig») — GESCHLOSSEN.** Die bisher geratene Shop-URL lief
+ins Leere; per `WebSearch` die korrekte Produktseite gefunden
+(`http://shop.sia.ch/normenwerk/architekt/sia%20416/dfi/D/Product`, SN 504416) und per
+`WebFetch` gelesen: SIA 416:2003 ist **aktuell**, gültig ab 01.10.2003, kein Gültig-bis-Datum;
+Vorgängerausgabe SIA 416:1993 war gültig bis 30.09.2003. Deckt sich mit der bisherigen
+Sekundärquelle. Neuer Abschnitt «Gültigkeit (primärverifiziert 23.08.2026)» in
+`destillate/sia-416-2003.md`, `last_updated` nachgezogen, Status bleibt `established`.
+
+**2. N53-3 (SIA 215:1978, Kalk/Gips-Nachfolgenormen) — TEILWEISE GESCHLOSSEN.** Per `WebSearch`
++ `WebFetch` (`https://shop.sia.ch/normenwerk/ingenieur/sia%20215/d/D/Product`, SN 551215)
+bestätigt: SIA 215:1978 ist **archiviert seit 30.06.2014** — die im Destillat bis heute
+geführte Aussage «formell nicht zurückgezogen» war überholt. Genannter Nachfolgestandard:
+**SIA 242.002:2008** (Gipsbinder/Gipstrockenmörtel). Deckt sich unabhängig mit dem bereits am
+selben Tag von der interaktiven SIA-Sweep-Session in `wiki/REGISTER.md` (Abschnitt A, Zeile
+SIA 215) eingetragenen Befund derselben Quelle — zweite, unabhängige Fundstelle, kein
+Zirkelschluss. Frontmatter-Feld `ersetzt_durch` in `destillate/sia-215-1978.md` korrigiert.
+**Kalk (hydraulischer Kalk, Weisskalk) bleibt offen** — die Produktseite nennt keinen
+Kalk-Nachfolger; SN EN 459-1 bleibt unbelegte Vermutung.
+
+**Nebenbefund (nicht selbst verursacht):** eine parallele Session (Cross-KB `energie` →
+`normen`) hat während dieses Laufs `destillate/sia-mb-2024-2006.md` (Datenblatt 4.1
+Schulzimmer nachgetragen) und einen Eintrag in `wiki/QUESTIONS.md` (SN EN 12193, zweiter
+Anwendungsfall) additiv ergänzt — geprüft, gehört nicht zu diesem Auftrag, nicht angefasst
+(Hinweis aus dem Auftrag: ein `claude`-Prozess mit fremdem Lauf-Namen ist kein Konkurrent).
+
+**Verifikation:** `git diff --numstat -- wissen/normen/` nach jedem Schreibvorgang geprüft;
+eigene Edits rein additiv bzw. gezielte Ersetzung des eigenen Fragetexts (N53-3), keine fremde
+Zeile verändert oder gelöscht.
+
+**Nicht geleistet:** kein Normtext gekauft; die Kalk-Nachfolgenorm-Frage (N53-3-Rest), die drei
+N-SIASWEEP-Fragen, N60-1/N60-2 (Entscheid Raphael) und die NIN-Frage (kostenpflichtiger Zugang)
+bleiben unverändert offen.
+
+Report: `outputs/2026-08-23_questions-abarbeitung3.md`.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, fünfte Fortsetzung: SharePoint-Zugangsweg verifiziert + in WEGE.md dokumentiert, Bestandslücke der 55 Blindzone-Zeilen am vollständigen Listing bestätigt
 
 **Auftrag Raphael:** SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im Haus,

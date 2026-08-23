@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 18:13:41
+Stand: 23.08.2026 18:23:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:13)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:14)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 18:13:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 83770637 abo-check 23.08. Nachtrag: nas-commit-now.sh ohne LAN-Fallback, Tailscale gestoppt — Zuruf-Commits fallen im LAN still in den 15-Min-Cron
+- e14bc048 wissen/normen: SIA-Sweep fuenfte Fortsetzung - SharePoint-Zugangsweg via m365-graph.mjs verifiziert und in WEGE.md dokumentiert, Bestandsluecke der 55 Blindzone-Zeilen am vollstaendigen Listing bestaetigt

@@ -68,25 +68,25 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/01_Adressen/Saxer.pdf | projekt-lessons | Adressmaterial |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/02_Ordnerregister/110827_Ordnerregister.pdf | projekt-lessons | Ordnerregister |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/01_Projekthandbuch/03_Ordnerruecken/110827_Ordnerruecken_Organisation_Plaene_Bilder.pdf | projekt-lessons | Ordnerorganisation |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | P2 · Projektaufgabenstellung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | Projektbriefing-Text, keine Entscheidung |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/01_Projektbeschrib/Sicherungskopie von 110705_Aufgabenstellung_Projektbeschrib_Lorrainenstrasse_4.docx | projekt-lessons | Duplikat Backup |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | P2 · Konzept-Prämissen |
+| [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | → 2026-08-23 [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]] |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/100903_Praemissen_Projekt_Loraine.pdf | projekt-lessons | PDF-Duplikat |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/110819_Konzept für den Wohnungsausbau Lorrainenstrasse 4.pdf | projekt-lessons | P2 · Diverse |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/PDF/110819_Konzept für den Wohnungsausbau Lorrainenstrasse 4.pdf | projekt-lessons | Abstrakter Ideentext, keine Entscheidung/Ergebnis |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/03_Projektbeschrieb/02_Konzept/Sicherungskopie von 100903_Praemissen_Projekt_Loraine.docx | projekt-lessons | Duplikat-Backup |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | P2 · Projektfragebogen |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | Leeres Fragebogen-Template, nicht ausgefüllt |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/PDF/110817_Fragebogen_Dachwohnung_Lorrainestrasse.pdf | projekt-lessons | PDF-Duplikat |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/00_Grundlagen/04_Fragebogen/Sicherungskopie von 110817_Fragebogen_Dachwohnung_Lorrainestrasse.docx | projekt-lessons | Duplikat-Backup |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Unterlagen.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100831_Sammelmappe1.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/einzel/100831_A4_Bildmontage.pdf | projekt-lessons | P2 · Besprechnungsmaterial |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | Reine Fotoseiten, kein Begleittext |
+| [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100816_Unterlagen.pdf | projekt-lessons | → 2026-08-23 [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]] |
+| [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/100831_Sammelmappe1.pdf | projekt-lessons | → 2026-08-23 [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]] (Hauptbeleg) |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/100831_Besprechung_Kotnik/einzel/100831_A4_Bildmontage.pdf | projekt-lessons | Duplikat/Auszug aus Sammelmappe1 |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101103_Schnitte_Treppenhaus_50.pdf | projekt-lessons | Reine Vermassungszeichnung (Schnitt, Kotenwerte), keine Entscheid-/Fehler-Story |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101103_Schnitte_Wohnung_50.pdf | projekt-lessons | Reine Vermassungszeichnung (Schnitt, Kotenwerte), keine Entscheid-/Fehler-Story |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/02_Berichte/110104_Vermassungsgrundlage/101110_Grundrissmasse_50.pdf | projekt-lessons | Reine Vermassungszeichnung (Grundriss, Kotenwerte), keine Entscheid-/Fehler-Story |
 | [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/111118_Offerte_Jans_Back.docx | projekt-lessons | P1 · Offertekalkulation → 2026-08-17 [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]] |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111118_Offerte_Jans_Back.pdf | projekt-lessons | PDF-Duplikat |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111122_Projektbeschrieb.pdf | projekt-lessons | P2 · Projektbeschreibung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/00_Offerten/PDF/111122_Projektbeschrieb.pdf | projekt-lessons | Fehlabgelegtes Fremddokument (Kirchenfassade), kein Bezug zu Lorrainestrasse |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/Baubeschrib_Beispiel/100218_Baubeschrieb.pdf | projekt-lessons | Norm-Referenz |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/CRB/890101_CRB_1989_SN_506_500.pdf | projekt-lessons | Norm-Referenz |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/BKP/PDF/CRB/gesamt/BKP.pdf | projekt-lessons | Norm-Referenz |
@@ -100,21 +100,21 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.docx | projekt-lessons | Norm-Referenz |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/04_Kosten/Referenzen_Baukostenplan/Fachbegriffe/100122_Fachbegriffe_Baunebenkosten.pdf | projekt-lessons | Norm-Referenz |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/090909_DOK_Vermietung_Ladenlokal_Lorrainestr_4.pdf | projekt-lessons | Reine Vermietungsbroschüre (Objektbeschrieb/Fotos/Nutzungsvorschläge), keine Entscheid-/Fehler-Story |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | P2 · Schriftverkehr |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen_komp.pdf | projekt-lessons | P2 · Schriftverkehr |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen.pdf | projekt-lessons | P2 · Schriftverkehr |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100919_Skizze_Maria.pdf | projekt-lessons | P2 · Schriftverkehr |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Brandschutz_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Technik_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Merkblatt_Baueingabe.pdf | projekt-lessons | P2 · Baueingabe |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Lorrainestrasse_Bilder_Vordach_pdf.pdf | projekt-lessons | Korrespondenz-Duplikat der Fotoseiten |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen_komp.pdf | projekt-lessons | Inhaltsgleich (komprimiert) mit 02_Berichte/100816_Unterlagen.pdf |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100816_Unterlagen.pdf | projekt-lessons | Korrespondenzkopie von 02_Berichte/100816_Unterlagen.pdf |
+| [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/100919_Skizze_Maria.pdf | projekt-lessons | → 2026-08-23 [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]] |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Brandschutz_Formular_leer.pdf | projekt-lessons | Leeres amtliches Formular |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Formular_leer.pdf | projekt-lessons | Leeres amtliches Formular |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Technik_Formular_leer.pdf | projekt-lessons | Leeres amtliches Formular |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Merkblatt_Baueingabe.pdf | projekt-lessons | Generisches Merkblatt, keine Fallsubstanz |
 | [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstock_Baugesuch_Kostenaufstellung_Kontakte_Okt2003.pdf | projekt-lessons | P1 · Dachstock-Kostenaufstellung → 2026-08-23 [[dachstock-lorrainestrasse4-1011-denkmalpflege-foerderkombination-2003]] |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstocksanierung_Pläne_Oktober2003.pdf | projekt-lessons | P2 · Dachstocksanierung-Pläne |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstocksanierung_Pläne_Oktober2003.pdf | projekt-lessons | Reine Plangrafik; Dateiname irreführend – Planstempel 1988 (Arch. W. Kulik), drittes eigenständiges Fremdmandat, weder mit diesem noch dem Dachstock-2003-Artikel verwechseln |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos_Okt08.pdf | projekt-lessons | Reine Bildablage |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos.pdf | projekt-lessons | Duplikat Bildablage |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110416_Maria_Grundrisse/Dachstock_Plan_16.04.11.pdf | projekt-lessons | Reine Planzeichnung |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/out/100903_hello_maria.docx | projekt-lessons | Triviale private Nachricht |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/out/100920_ich kann mir vorstellen was du auf der skizze terrasse darstellen möchtest.docx | projekt-lessons | P3 · Entwurfsdiskussion Terrasse |
+| [x] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/out/100920_ich kann mir vorstellen was du auf der skizze terrasse darstellen möchtest.docx | projekt-lessons | → 2026-08-23 [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]] |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1437_Ansicht_Sandstein.pdf | projekt-lessons | Reine Planzeichnung |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1500_Grundriss_1OG_100.pdf | projekt-lessons | Reine Planzeichnung |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1505_SN_Wohnen_100.pdf | projekt-lessons | Reine Planzeichnung |
@@ -130,7 +130,7 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/godzilla_04.html — archimaera.pdf | projekt-lessons | Verwaistes Referenzmaterial |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/http.docx | projekt-lessons | URL-Datei Boilerplate |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Kaufmann_Herrmann/Architekten Hermann Kaufmann ZT GmbH.pdf | projekt-lessons | Architektur-Referenzobjekt |
-| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/SAGEN.at - BRAUCHTUM UND VOLKSKULTUR IN TIROL, Schöpferisches Gestalten, Kunst, Schnitzer, Handarbeiten.pdf | projekt-lessons | P3 · Kulturhistorische Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/SAGEN.at - BRAUCHTUM UND VOLKSKULTUR IN TIROL, Schöpferisches Gestalten, Kunst, Schnitzer, Handarbeiten.pdf | projekt-lessons | Externe Stimmungsreferenz, kein Projektbezug |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-045.pdf | projekt-lessons | Hersteller-Referenzobjekte |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-047.pdf | projekt-lessons | Duplikat Referenzobjekt |
 | [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-054.pdf | projekt-lessons | Referenzobjekt-Variante |
@@ -728,47 +728,47 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/crittall-windows/Crittall-Steel-Brochure.pdf | projekt-lessons | Werbeprospekt, Herstellerangaben |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/crittall-windows/NBS-Homelight-Specification-Master.doc | projekt-lessons | Werbeprospekt, Herstellerangaben |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/908336_Bro_Imagebroschuere_Profile_DE_01-15.pdf | projekt-lessons | Werbeprospekt, Herstellerangaben |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/CD_Verarbeitung_fuego_light_03-15/pdf/Forster_fuego_light_1.pdf | projekt-lessons | P2 · Herstellerprospekt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/CD_Verarbeitung_fuego_light_03-15/pdf/Forster_fuego_light_2.pdf | projekt-lessons | P2 · Herstellerprospekt |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/CD_Verarbeitung_fuego_light_03-15/pdf/Forster_fuego_light_1.pdf | projekt-lessons | Herstellerdoku Forster (Stahl-Brandschutzprofile), ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/CD_Verarbeitung_fuego_light_03-15/pdf/Forster_fuego_light_2.pdf | projekt-lessons | Herstellerdoku Forster, ohne JANS-Vermerk |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/CD_Verarbeitung_fuego_light_03-15/Start.txt | projekt-lessons | Generischer Dateiname |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/forster Rahmenprofile/verarbeitung_unico_HS.pdf | projekt-lessons | Herstellerdatenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Greutol Fensterbank/PDF_Detail_2001_D_0112.pdf | projekt-lessons | Detail-Datenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Greutol Gewaendeelement/PDF_Detail_3007_D_0112.pdf | projekt-lessons | Datenblatt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Hirt (Metallbauer)/Fragen an Herr Hirt Metallbauer bezüglich.docx | projekt-lessons | P2 · Fachfrage Metallbau |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Hirt (Metallbauer)/Fragen an Herr Hirt Metallbauer bezüglich.docx | projekt-lessons | JANS-Fragenkatalog Systemwahl (Janisol/MHB, Hochwasserschutz-Rolltor), aber ohne dokumentierte Antwort/Entscheid im Projekt – offen in QUESTIONS.md vermerkt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Hirt (Metallbauer)/Sicherungskopie von Fragen an Herr Hirt Metallbauer bezüglich.docx | projekt-lessons | Sicherungskopie |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Hueck Aluminium/complete.pdf | projekt-lessons | Herstellerdatenblatt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/00_Referenzen/Seiten aus Objekte_Tueren-Fenster-waermegedaemmt-A-2.pdf | projekt-lessons | P2 · Referenzobjekte |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/00_Referenzen/Seiten aus Objekte_Tueren-Fenster-waermegedaemmt-A-3.pdf | projekt-lessons | P2 · Referenzobjekte |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/00_Referenzen/Seiten aus Objekte_Tueren-Fenster-waermegedaemmt-A.pdf | projekt-lessons | P2 · Referenzobjekte |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/201407_Prospekt_Fenster_JanisolArte.pdf | projekt-lessons | P2 · Prospekt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/201409_Archkat_TuereFenster_waermegedaemt_Objekte.pdf | projekt-lessons | P2 · Objektkatalog |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/00_Referenzen/Seiten aus Objekte_Tueren-Fenster-waermegedaemmt-A-2.pdf | projekt-lessons | Herstellerkatalog Jansen, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/00_Referenzen/Seiten aus Objekte_Tueren-Fenster-waermegedaemmt-A-3.pdf | projekt-lessons | Herstellerkatalog Jansen, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/00_Referenzen/Seiten aus Objekte_Tueren-Fenster-waermegedaemmt-A.pdf | projekt-lessons | Herstellerkatalog Jansen, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/201407_Prospekt_Fenster_JanisolArte.pdf | projekt-lessons | Herstellerprospekt Jansen, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/201409_Archkat_TuereFenster_waermegedaemt_Objekte.pdf | projekt-lessons | Herstellerkatalog Jansen, ohne JANS-Vermerk |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/4-2_Janisol_Fenster.pdf | projekt-lessons | Datenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/InForm_Janisol_Arte.pdf | projekt-lessons | Herstellerdatenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/Janisol-Arte-B_03.pdf | projekt-lessons | Herstellerdatenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/Lieferprogramm_Janisol_Tueren.pdf | projekt-lessons | Lieferprogramm |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/Objekte_Tueren-Fenster-waermegedaemmt-A.pdf | projekt-lessons | P2 · Objektkatalog |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/Objekte_Tueren-Fenster-waermegedaemmt-A.pdf | projekt-lessons | Herstellerkatalog Jansen, ohne JANS-Vermerk |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Jansen (Metallfenster)/Waermegedaemmte-Tueren-und-Fenster-P.pdf | projekt-lessons | Herstellerdatenblatt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB  filigrane thermisch getrennte Stahlfenster türen  fassaden.pdf | projekt-lessons | P2 · Referenzobjekte |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB Classic-ISO Look & feel brochure - German- 31-10-2014.pdf | projekt-lessons | P2 · Prospekt |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB  filigrane thermisch getrennte Stahlfenster türen  fassaden.pdf | projekt-lessons | Herstellerprospekt MHB, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB Classic-ISO Look & feel brochure - German- 31-10-2014.pdf | projekt-lessons | Herstellerprospekt MHB, ohne JANS-Vermerk |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB Insulated  Slim Line Technical documentation - A3 Low Resolution.pdf | projekt-lessons | Herstellerdatenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB Insulated  Slim Line Technical documentation - single pages - print.pdf | projekt-lessons | Herstellerdatenblatt |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB Insulated Slim Line Technical documentation - HIGH RESOLUTION - offstet.pdf | projekt-lessons | Herstellerdatenblatt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB SL30-ISO look and feel brochure DUITS  28-10-2014.pdf | projekt-lessons | P2 · Prospekt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/00_FENBAUAG/prospekt.pdf | projekt-lessons | P2 · Prospekt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/3.805  Vertikalschnitt oben unten 3 fach Vergl.pdf | projekt-lessons | P2 · Konstruktionsschnitt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/3.810 Horizontal re mi li.pdf | projekt-lessons | P2 · Konstruktionsschnitt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/MIRA-contour-02-2013.pdf | projekt-lessons | P2 · Prospekt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/Schnitte.pdf | projekt-lessons | P2 · Konstruktionsschnitte |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/MHB (Metallfenster)/MHB SL30-ISO look and feel brochure DUITS  28-10-2014.pdf | projekt-lessons | Herstellerprospekt MHB, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/00_FENBAUAG/prospekt.pdf | projekt-lessons | Herstellerprospekt Mira Contour, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/3.805  Vertikalschnitt oben unten 3 fach Vergl.pdf | projekt-lessons | Konstruktionsschnitt Mira Contour, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/3.810 Horizontal re mi li.pdf | projekt-lessons | Konstruktionsschnitt Mira Contour, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/MIRA-contour-02-2013.pdf | projekt-lessons | Herstellerprospekt Mira Contour, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Mira_Contour (Holz-Metall-Fenster)/Schnitte.pdf | projekt-lessons | Konstruktionsschnitte Mira Contour, ohne JANS-Vermerk |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Raico Metallprofile/03_K_2011_STAHL_Anwendungen_S-I.pdf | projekt-lessons | Herstellerdatenblatt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Schweizer (Alufenster)/Alu_Fenster_IS4_d_20140110.pdf | projekt-lessons | P2 · Detailzeichnungen |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Schweizer (Alufenster)/Detail-Profil-Seiten aus Alu_Fenster_IS4_d_20140110.pdf | projekt-lessons | P2 · Detailschnitt |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Schweizer (Alufenster)/Alu_Fenster_IS4_d_20140110.pdf | projekt-lessons | Herstellerprospekt Schweizer IS4, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Schweizer (Alufenster)/Detail-Profil-Seiten aus Alu_Fenster_IS4_d_20140110.pdf | projekt-lessons | Detailschnitt Schweizer, ohne JANS-Vermerk |
 | [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Stamisol/16864.pdf | projekt-lessons | Herstellerdatenblatt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/00_Konstruktionsschnitt/BKP 221 Wicona _ Unabhängig.pdf | projekt-lessons | P2 · Konstruktionsschnitt |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/Bautiefe 65 mm.pdf | projekt-lessons | P2 · Detailzeichnung |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/d03_wtec_50hi_passivhausfassade.pdf | projekt-lessons | P2 · Technische Doku |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/referenzen_d_en.pdf | projekt-lessons | P2 · Referenzobjekte |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/wicline_fenster.pdf | projekt-lessons | P2 · Produktdokumentation |
-| [t] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/wicline-77hi-plus_3.pdf | projekt-lessons | P2 · Produktdokumentation |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/00_Konstruktionsschnitt/BKP 221 Wicona _ Unabhängig.pdf | projekt-lessons | Konstruktionsschnitt Wicona, ohne JANS-Vermerk; kein Entscheiddokument im Projekt auffindbar (QUESTIONS.md) |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/Bautiefe 65 mm.pdf | projekt-lessons | Herstellerdoku Wicona, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/d03_wtec_50hi_passivhausfassade.pdf | projekt-lessons | Herstellerdoku Wicona, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/referenzen_d_en.pdf | projekt-lessons | Referenzkatalog Wicona, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/wicline_fenster.pdf | projekt-lessons | Herstellerprospekt Wicona, ohne JANS-Vermerk |
+| [-] | 1602_St_Karli_11 | 1602_St_Karli_11/13_Recherche_BKP/221 Fenster Aussentueren Tore/Wicona Alufenster (Marunic Daniel)/wicline-77hi-plus_3.pdf | projekt-lessons | Herstellerprospekt Wicona, ohne JANS-Vermerk |
 | [-] | 1603_Steinhof | 1603_Steinhof/Skizzen/GR100.pdf | projekt-lessons | Skizze |
 | [-] | 1603_Steinhof | 1603_Steinhof/Skizzen/Scan 1.pdf | projekt-lessons | Skizze |
 | [-] | 1603_Steinhof | 1603_Steinhof/Skizzen/Scan 2.pdf | projekt-lessons | Skizze |

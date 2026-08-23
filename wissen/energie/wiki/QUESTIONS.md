@@ -3371,12 +3371,22 @@ durchfuehrbar.
   `datenstand` + Backlink). Ausgaben-Vorbehalt der Quelle (Büro-Zusammenfassung SIA 181:2020,
   nicht Originalnorm) bleibt unverändert bestehen.
 
-- [ ] **E-R129-2 (P2): Personenbelegung eines Klassenzimmers fehlt — die 25 m³/h pro Person sind
+- [x] **E-R129-2 (P2): Personenbelegung eines Klassenzimmers fehlt — die 25 m³/h pro Person sind
   ohne sie nicht in eine Anlagengrösse übersetzbar.** `[[ahb-raummodul-klassenzimmer]]` nennt
   weder Personenzahl je Klassenzimmer noch Fläche pro Person, obwohl es die Aussenluftrate
   personenbezogen vorgibt. Für eine belastbare Bauherren-Antwort zu Schulbauten fehlt diese
   Bezugsgrösse; SIA 2024 (Raumnutzungsdaten) wäre die naheliegende Quelle und ist in der KB noch
   nicht destilliert.
+  ✓ **ERLEDIGT 23.08.2026.** Korrektur zur ursprünglichen Notiz: SIA 2024:2006 war in der KB
+  `normen` bereits als `[[sia-mb-2024-2006]]` destilliert, nur das konkrete Schulzimmer-Datenblatt
+  (4.1) noch nicht gelesen. Original beschafft (M365-CLI, Site `/sites/PL`, Drive
+  `02_Recht_Norm`, `.../SIA_Merkblaetter/MERKBLAETTER/2024_2006_d.pdf`, S. 42-43) und nachgetragen
+  in beiden KBs. Ergebnis: **Personenfläche (Netto) 3,0 m²/Person (Auslegungswert)**, typischer
+  Raum 10 × 7 m = 70 m² NGF ⇒ **rund 23 Personen**; **Aussenluftvolumenstrom 25 m³/(h·Person)
+  deckt sich zahlengleich** mit dem AHB-Wert — die Stadt-Zürcher Vorgabe von 2008 übernimmt SIA
+  2024 direkt, keine eigene Herleitung. Eingearbeitet in `[[ahb-raummodul-klassenzimmer]]` (Abschnitt
+  «Akustik, Belegung, Personenzahl», Offene Punkte) und `[[sia-mb-2024-2006]]` (KB `normen`).
+  Einschränkung: Ausgabenvergleich 2006 gegen die heute geltende SIA 2024:2021 nicht geprüft.
 
 - [x] **E-R129-3 (P3): NIV-Fassung und Kontrollperioden verifizieren.**
   `[[ahb-merkblatt-sicherheitsnachweis-elektro]]` stützt sich auf die NIV vom 07.11.2001
@@ -3389,11 +3399,23 @@ durchfuehrbar.
   sowie die Kontrollperioden nach Anhang jetzt im Destillat mit Fundstelle. Rest offen: exakte
   artikelgenaue Änderungshistorie 2002-heute nicht zeilengenau nachvollzogen, nachrangig.
 
-- [ ] **E-R129-4 (P3): SIA 2024 als Quelle für Raumnutzungsdaten erschliessen.** Beide Raummodule
+- [~] **E-R129-4 (P3): SIA 2024 als Quelle für Raumnutzungsdaten erschliessen. Teilbefund
+  23.08.2026, ein Ergebnis überraschend, bleibt offen markiert.** Beide Raummodule
   arbeiten mit Belegungs-, Lasten- und Betriebszeitannahmen, ohne sie herzuleiten. SIA 2024 ist
   die Norm, die genau das liefert, und würde die Raummodul-Werte von 2008 auf eine heute gültige
   Bezugsgrösse heben. Wäre der sachlich nächste Schritt nach diesem Lauf; Zugang über den Skill
   `normen` bzw. SharePoint PL - 02_Recht_Norm.
+  **Beide SIA-2024:2006-Datenblätter (3.1 Büro, 4.1 Schulzimmer) am Original gelesen und in
+  `[[sia-mb-2024-2006]]` (KB `normen`) nachgetragen — mit gegensätzlichem Ergebnis:**
+  Klassenzimmer: AHB-Wert (25 m³/h/P) und SIA-2024-Auslegungswert (25 m³/(h·P)) stimmen exakt
+  überein → E-R129-2 geschlossen. Büro: AHB-Wert (25 m³/h/P) und SIA-2024-Auslegungswert
+  (36 m³/(h·P)) weichen um rund 30 % voneinander ab, Ursache nicht geklärt (Details und
+  Hypothesen in `[[ahb-raummodul-buero]]`, Offene Punkte). **Bleibt offen, weil die
+  Büro-Diskrepanz eine eigene Klärung braucht** (Standardwert- statt Auslegungswert-Verwechslung
+  der Stadt Zürich 2008? andere Quellnorm?) und weil noch nicht auf «eine heute gültige
+  Bezugsgrösse gehoben» wurde — dafür wäre SIA 2024:2021 statt der hier verwendeten Ausgabe 2006
+  zu prüfen. Über die zwei bearbeiteten Blätter hinaus bleiben 39 der 44 SIA-2024-Datenblätter
+  ungelesen.
 
 - [ ] **E-R129-5 (P4): `Standards_Kennzeichnungssystem_V2.2.pdf` bei einem Betriebsoptimierungs-
   oder Submetering-Thema neu bewerten.** In diesem Lauf begründet als `[-]` abgelegt (reine
@@ -3434,12 +3456,18 @@ durchfuehrbar.
   Bedingungen für Werkleistungen). **Offen bleibt allein**
   `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (2.0 MB) — sie gehört in die planmässige
   Destillation des BKP-Merkblattwerks, nicht in einen Aufräumlauf. Ursprünglicher Wortlaut:
-- [ ] **E-R131-2 (P3): Restliche vier `18-Nachhaltiges Bauen`-Formulare aus Run 130 noch offen.**
+- [x] **E-R131-2 (P3): Restliche vier `18-Nachhaltiges Bauen`-Formulare aus Run 130 noch offen.**
   `Solarstromanlagen_in_Bauprojekten_(Checkliste).pdf`, `Topten_Haushaltgeraete_(Flyer).pdf`,
   `Deviskontrolle_(Checkliste).pdf`, `Baustellenkontrolle_(Checkliste).pdf` und
   `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` sind laut `pdf-inventar.md` als
   Nicht-Dubletten bestätigt, aber noch nicht destilliert (Budget dieses Laufs reichte nur für
   eine Einheit, `Richtlinie_7-Meilenschritte`). Nächster kleiner Umfang für Run 132.
+  ✓ **Nachgetragen 23.08.2026: bereits erledigt, nur die Checkbox war stehen geblieben.** Run 132
+  destillierte vier der fünf Formulare (Devis-/Baustellenkontrolle gemeinsam als
+  `ahb-devis-und-baustellenkontrolle-2008`, Bedingungen für Werkleistungen; Solarstromanlagen und
+  Topten-Haushaltgeräte waren laut Run-132-Notiz bereits vorher erledigt), das fünfte
+  (`Richtlinie_ECO-BKP…`) folgte in Run 137 als `ecobkp-2009-merkblaetter-nach-bkp`. Beleg:
+  `training/pdf-inventar.md` Nachtrag Run 132 (Zeile 614-617) und Run 137 (Zeile 588).
 
 - [x] **E-R132-1 (P2): Gilt der Stadtratsbeschluss Nr. 1094/2008 noch?** Die Frage trägt jetzt
   mehr Gewicht als vor Run 132, weil der Fassungsvergleich Mai 2006 gegen September 2008 belegt,
@@ -3459,20 +3487,36 @@ durchfuehrbar.
   F234 entsprechend nachgeführt, bleibt aber `emerging`, weil der Beschluss selbst (nur der
   Verweis darauf) nicht im Volltext in der KB liegt.
 
-- [ ] **E-R132-2 (P3): `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (18.3, 2.0 MB) im Detail
+- [x] **E-R132-2 (P3): `Richtlinie_ECO-BKP_(Merkblaetter_nach_BKP).pdf` (18.3, 2.0 MB) im Detail
   gegen die 2008er-Destillate prüfen.** Run 130 hat einen deutlich abweichenden Textumfang
   gegenüber `[[eco-bau-merkblaetter-bkp-2008-huelle]]`/`[[eco-bau-merkblaetter-bkp-2008-technik-ausbau]]`
   belegt (3'234 Diff-Zeilen), ohne den Grund zu klären. ⚠ Nach der Lehre dieses Laufs (Falle
   Nr. 9) ist die Diff-Zeilenzahl allein **kein** Beleg für einen Sachunterschied — vor der
   Destillation ein **Wort-Diff** fahren. Wenn er einen echten Umfangsunterschied bestätigt,
   gehört die Datei in die planmässige BKP-Destillation, nicht in einen Aufräumlauf.
+  ✓ **Nachgetragen 23.08.2026: bereits erledigt, nur die Checkbox war stehen geblieben.** Run 137
+  hat die Datei als `ecobkp-2009-merkblaetter-nach-bkp` (Ausgabe 2009, 51 S. vollständig gelesen)
+  destilliert und ausdrücklich gegen die 2008er-Destillate verglichen: identische 23 BKP-Positionen,
+  die Seitendifferenz erklärt sich durch den Wegfall des Quellen-/Abkürzungsverzeichnisses in der
+  2009er-Ausgabe, dazu 13 konkrete Sachänderungen dokumentiert (u.a. BKP 221
+  Fensterrahmen-Priorität, BKP 211 Abwasserrohr-Grenzmass). Beleg: `training/pdf-inventar.md`
+  Zeile 588.
 
-- [ ] **E-R132-3 (P3): Ordner `18.4 Wohlbefinden (Innenraumklima)` (7 Dateien, 3.6 MB), `18.5
+- [x] **E-R132-3 (P3): Ordner `18.4 Wohlbefinden (Innenraumklima)` (7 Dateien, 3.6 MB), `18.5
   Boden Landschaft` (1 Datei) und `18.6 Organisation` (2 Dateien) sind nie gesichtet.** Sie
   standen in keiner der Dublettenlisten aus Run 128/130, weil die Listen nur 18.1 bis 18.3
   abdeckten. `18.4` ist der inhaltlich naheliegendste Rest (Anschluss an
   `[[ahb-checkliste-raumluftmessungen]]` und `[[gebaeudeschadstoffe]]`). Erst listen und gegen
   den Bestand diffen, dann entscheiden.
+  ✓ **Nachgetragen 23.08.2026: bereits erledigt, nur die Checkbox war stehen geblieben.** Run 133
+  (Nachtschicht 15.08.2026) hat alle drei Ordner gesichtet: zwei echte Destillate
+  (`holzwerkstoffe-innenraeume-formaldehyd` aus 18.4, `dachbegruenung-checkliste-stadt-zh` aus
+  18.5), fünf Dubletten in 18.4 gegen bereits destilliertes eco-Material bestätigt (Elektrosmog,
+  Gebäudescreening, Innenraumklima-Empfehlung, Schadstoff-Checkliste, Vorgehen-bei-Beschwerden),
+  zwei Organisationsflyer aus 18.6 geprüft und bewusst nicht destilliert (kein übertragbarer
+  Bauherren-Fakt). Eine Restdatei (`18.4/PCB_in_Fugendichtung…pdf`, vermutliche Dublette zu
+  `4.27Fugendichtungsmassen.pdf`) blieb aus Budgetgründen offen, ist aber nachrangig. Beleg:
+  `training/pdf-inventar.md` Zeile 673-693.
 
 - [~] **E-R132-4 (P4): Gibt es Auflagen des Topten-Merkblatts nach November 2008? Teilbefund
   23.08.2026, nicht primärquellenbelegt, bleibt offen markiert.** Die KB führt die 2. Auflage
@@ -3639,12 +3683,43 @@ durchfuehrbar.
   am geltenden BVV-Volltext (Nachtrag 133, KB `baurecht`) gegengeprüft und als überholt markiert:
   heute Meldepflicht nach § 2a BVV, bewilligungsfrei nur steckerfertige Anlagen bis 4 m².
   Ergebnis in FAQ **F245** und im Artikel `[[solarpflicht-schweiz-kantone]]`. Kein offener Rest.
-- [ ] **E-R143-2 (P3, neu): Selbstwiderspruch in der AHB-Beleuchtungstabelle.** Turnhalle
+- [~] **E-R143-2 (P3, neu): Selbstwiderspruch in der AHB-Beleuchtungstabelle. Teilbefund
+  23.08.2026, nicht abschliessend aufgelöst, bleibt offen markiert.** Turnhalle
   «Wettkampfsport» steht in der Tabellenspalte mit 500 lx, in Fussnote 4 mit 750 lx
   (`[[ahb-zuerich-uebersichtstabelle-beleuchtung-en12464]]`, Dokument vom 19.01.2007). Bewusst
   unverändert übernommen, nicht aufgelöst — die Klärung geht nur über die geltende
   SN-EN-12464-1-Fassung und gehört damit zur KB `normen` (Rule `normen-referenz`). Geringe
   Dringlichkeit, da das Destillat ohnehin `speculative` ist.
+  **Zwei Teilbefunde, keiner löst den Widerspruch definitiv auf:**
+  1. **Primärquelle gelesen (M365-CLI, Site `/sites/PL`, Drive `02_Recht_Norm`):** SIA
+     387/4:2017, Tabelle 4 (S. 18, Zeile 11.1 «Turnhalle», selbst am PDF nachgelesen) nennt
+     E_vm = 300 lx, k_0 = 1,67, **E_0 = 500 lx**, UGR 22 — also für die allgemeine
+     Turnhallennutzung denselben Wert wie die AHB-Tabellenspalte (500 lx), **nicht** den
+     Fussnotenwert (750 lx). SIA 387/4 führt aber keine eigene Zeile «Wettkampfsport
+     national/international» — die Norm regelt nur die allgemeine Nutzung, nicht die
+     Wettkampfklassen. Kein Widerspruch zur AHB, aber auch keine Auflösung: SIA 387/4 (2017,
+     zehn Jahre jünger als das AHB-Dokument) bestätigt nur den unteren der beiden AHB-Werte.
+  2. **Sekundärquellen (WebSearch, nicht die Norm selbst, nur zur Einordnung):** Die
+     einschlägige Fachnorm für Wettkampf-Sportstättenbeleuchtung ist **nicht** SN EN 12464-1
+     (Arbeitsstätten allgemein), sondern **SN EN 12193 «Sportstättenbeleuchtung»** — separat
+     genormt, in der KB `normen` als offene Bring-Schuld geführt
+     (`wissen/normen/wiki/QUESTIONS.md`, Abschnitt «Bring-Schulden aus der KB `baurecht`»,
+     Zeile 3476: «Bestand prüfen; Nachfolgeausgabe abklären»), im PL-02-Bestand nicht
+     aufgefunden (Graph-Volltextsuche nach «12193»/«12464» ohne Treffer auf die Norm selbst).
+     Kommerzielle Sekundärquellen (licht.de, lightrechner.de, nicht die Norm selbst, daher
+     nicht zitierfähig für einen Bauherren- oder Vertragskontext) beschreiben EN 12193
+     **Beleuchtungsklasse I** (Wettkampf/Leistungssport mit Zuschauern) mit einer Bandbreite
+     von **500 bis 750 lx je nach Sportart**, nicht mit einem fixen Einzelwert — was beide
+     AHB-Werte als plausible Punkte **innerhalb derselben Klasse** einordnen würde (z.B.
+     Ballsport-Grundwert gegen präzisionskritische Sportart), aber ohne die Norm selbst nicht
+     bewiesen ist.
+  **Fazit: kein Redaktionsfehler nachweisbar, aber auch keine Auflösung — beide Werte bleiben
+  wie bisher unverändert nebeneinander stehen.** Endgültig klärbar erst mit SN EN 12193 im
+  Original (Bring-Schuld liegt bei `normen`, dort bereits vermerkt, hier nicht doppelt
+  eingetragen). Beleg SIA 387/4: `/tmp`-Arbeitskopie dieses Laufs, PDF-S. 18, Tabelle 4, Zeile
+  11.1 (Datei war nicht in dieser KB, sondern in `normen/destillate/sia-387-4-2017.md` bereits
+  destilliert — dortiger Auszug führte die Turnhallen-Zeile nicht namentlich, deshalb neu am
+  Original nachgelesen statt aus dem Destillat übernommen).
 
 ## 2026-08-21 (Run 147) — Zwei divergente Frankenbeträge in derselben Rechenbeispiel-Familie
 
