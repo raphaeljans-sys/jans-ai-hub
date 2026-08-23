@@ -77,3 +77,12 @@ Original oder beim Kaminhersteller nachgefragt werden.
 - Keine Angabe zur Nennwärmeleistung des Einsatzes oder zur erforderlichen
   Mindestdicke der Brandschutzschicht nach heute gültiger Norm — dieser Plan
   zeigt nur die damals gewählte Ausführung, keine Bemessungsregel.
+- ⚠ **Fassungs- und Norm-Kante, nachgetragen 24.08.2026 (Wissens-Chef Run 41).** Die oben
+  mehrfach vorausgesetzte «VKF-Zulassung» beruht auf einem Regelwerk, das es so nicht mehr gibt:
+  die VKF-Brandschutzerläuterung **BRL 103-15 «Cheminées» ist seit dem 31.08.2025
+  zurückgezogen**. Die Nachfolge ist seit dem 23.08.2026 geklärt — an ihre Stelle tritt das
+  **feusuisse-Papier «Stand der Technik Teil B»**, nicht die BRL 24-15 (Beleg:
+  `wissen/normen/wiki/QUESTIONS.md`, Ticket `N58-2` geschlossen; `wissen/normen/wiki/REGISTER.md`).
+  Führend für Fundstelle, Ausgabe und Fassungsstand ist `wissen/normen`; dieser Artikel führt
+  nach der Fuehrungs-Matrix nur das Produkt- und Systemwissen (BKP) und schreibt den
+  VKF-/feusuisse-Wortlaut nicht fort. In einem Aussendokument nicht auf «BRL 103-15» berufen.

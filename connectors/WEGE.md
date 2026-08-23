@@ -565,3 +565,18 @@ der KISPI-Projektordner ist hier leer synchronisiert und die Bibliothek
 dieser Station liegt nicht in den `authorized_keys` der Synology. Der 15-Minuten-Cron
 `nas-selfcommit.sh` fängt die Edits auf, der Sofort-Commit ist von hier aus schlicht nicht
 verfügbar. Kein Ersatzweg suchen, sondern den Cron abwarten.
+
+**Vierte Falle, belegt beim zweiten Durchgang derselben Nacht:** nach einem harten Beenden
+antwortet Word auf `open <pfad>` aus AppleScript heraus gar nicht mehr, `get name of every
+document` liefert dann `missing value` und jeder Exportversuch scheitert. Der Ausweg ist, das
+Öffnen dem Finder zu überlassen und Word erst danach anzusprechen:
+
+```bash
+open -a "Microsoft Word" ~/Documents/tmp.docx && sleep 10
+osascript -e 'tell application id "com.microsoft.Word" to save as document "tmp.docx" ¬
+  file name "…/tmp.pdf" file format format PDF'
+```
+
+Das Dokument über seinen Namen adressieren (`document "tmp.docx"`), nicht über `active
+document`. Vor dem nächsten Lauf Word regulär beenden, nie mit `pkill` — sonst beginnt das
+Spiel von vorn.

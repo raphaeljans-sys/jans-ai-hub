@@ -2186,7 +2186,16 @@ Bauaufgabe). Gliedert sich analog «Wohnbauten» (§ Abschnitt 5), mit schulspez
 - **Tragwerk/Brandabschnitte (Standardlösungstabelle):** Gebäude geringer Höhe (≤ 11 m) baulich
   R30/EI30/EI30/REI30, Löschanlagenkonzept keine Anforderung an Tragwerk; Gebäude mittlerer Höhe
   (≤ 30 m) baulich R60/REI60/EI30/REI60, Löschanlage R30/REI30/EI30/REI30. Reduktion um 30 Min.
-  bei zweigeschossigen Bauten mit Gesamt-Geschossfläche ≤ 2'400 m². **Zusammenhängende
+  bei zweigeschossigen Bauten mit Gesamt-Geschossfläche ≤ 2'400 m².
+  ⚠ **Fassungsvorbehalt, nachgetragen 24.08.2026 (Wissens-Chef Run 41).** Der Abschnitt
+  beschreibt die Fassung **01.01.2015**; die KB `wissen/normen` führt ein Delta-Destillat zur
+  Fassung **01.01.2017** (`destillate/vkf-ah-1002-15-fassung-2017-delta.md`), in dem die
+  2'400-m²-Klausel (Fussnote zu Ziff. 6.3.1 Abs. 2) **materiell präzisiert** wird — unter
+  anderem zählen nur Geschosse über Terrain mit. Die Zahl oben ist daher vor jeder Verwendung
+  an der geltenden Fassung zu prüfen. **Der Delta-Artikel trägt `status: speculative` und ist
+  nach Rule `normen-referenz` Ziff. 1b eine Warnkarte, keine Zitierquelle** — seine Werte
+  werden hier bewusst nicht übernommen; die geltende Formulierung ist am VKF-Original
+  einzuholen (Arbeit der KB `normen`). **Zusammenhängende
   Brandabschnittsfläche ohne Nachweis max. 3'600 m²** (grösser als der generische Wert bei
   anderen Nutzungen). Schulbetrieb-eigene Nutzungen (Schulzimmer, Gruppenräume, Lehrerzimmer,
   Aufenthalts-/Ruheräume, Archive, Serverräume, Putzräume) dürfen im gleichen Brandabschnitt
@@ -2366,6 +2375,14 @@ volltextlich erschlossen, siehe §5ai-§5al unten.
 > handbeschickte Feuerstellen über die geltende BRL 24-15 «Wärmetechnische Anlagen» und die
 > kantonale Feuerpolizei abstützen. Welche Regelung an die Stelle der 103-15 getreten ist, ist
 > offen (`N58-2`).
+>
+> **Nachtrag 24.08.2026 (Wissens-Chef Run 41) — `N58-2` ist geschlossen.** Der Warnkasten
+> darüber bleibt als datierter Stand vom 20.08.2026 stehen; seine letzte Zeile ist überholt.
+> Die Nachfolge ist geklärt: an die Stelle der BRL 103-15 tritt das **feusuisse-Papier «Stand
+> der Technik Teil B»** — ausdrücklich **nicht** die BRL 24-15, auf die der Absatz darüber
+> verweist. Beleg und Fassungsstand führt `wissen/normen` (`wiki/QUESTIONS.md`, Ticket `N58-2`,
+> geschlossen 23.08.2026; `wiki/REGISTER.md`). Vor einer Aussendokument-Verwendung dort die
+> geltende Fundstelle holen.
 
 Vollständig gelesene VKF-Brandschutzerläuterung «Cheminées» (Stand 01.01.2015, genehmigt
 23.09.2014, 14 S.) — regelt handbeschickte, fest mit dem Gebäude verbundene offene und

@@ -71,6 +71,26 @@ duplizieren:
   Praxisrelevanz für das Ergebnis, aber ein Beleg-Bruch; der Fall bleibt als reales
   Planungsbeispiel dokumentiert, ist aber selbst **nicht** als belegter Kennwert zu zitieren.
 
+  ⚠⚠ **Der Run-56-Vermerk darüber ist überholt — Wissens-Chef Run 41, 24.08.2026.** Die
+  Einstufung «Delta ~8 %, ohne Praxisrelevanz für das Ergebnis» trifft nicht zu. Die KB
+  `wissen/energie` hat die Quelle dieses Falls am 23.08.2026 (Lauf 161) identifiziert und
+  vollständig nachgerechnet: es ist eine **ChatGPT-Antwort**, abgelegt in der JANS-Referenzablage
+  (`PL-04/U Wert berechnung/Grassen Biwak/…docx`), belegt als KI-Erzeugnis. Destillat und
+  Warnkarte: `wissen/energie/destillate/ki-generierte-fachdokumente-referenzablage.md`
+  (`established`). Sie enthält **drei Methodenfehler**, nicht bloss ein λ-Delta:
+  R_si/R_se fehlen ganz · die luftgefüllte Unterkonstruktion ist mit λ 0,15 gerechnet statt mit
+  dem Tabellen-R nach SN EN ISO 6946 · die hinterlüftete Vorsatzschale (Schutzblech) ist
+  mitgerechnet statt weggelassen. Dazu das oben schon vermerkte unbelegte λ 0,13.
+  **Die Fehler heben sich gegenseitig fast auf — genau darum sieht das Ergebnis plausibel aus.**
+  Korrigiert liegt der Aufbau bei **0,374 (λ 0,110) bis 0,389 (λ 0,12) W/m²K**.
+  **Folgen für diesen Artikel:** Der Wandaufbau und die Zahlen oben sind **kein Benchmark** und
+  in keinem Dokument als solcher zu verwenden — auch nicht intern als Faustwert; die Bezeichnung
+  «Realer JANS-Benchmark» in der Abschnittsüberschrift ist damit hinfällig. Führend für die
+  Fachphysik ist nach der Fuehrungs-Matrix `wissen/energie`; die Prüfmethode steht dort in
+  `wiki/u-werte-grenzwerte-ch` («Einen fremden U-Wert-Rechenweg prüfen — vier Griffe») und in
+  FAQ F257. Der Abschnitt bleibt als **Lehrbeispiel für eine plausibel aussehende Falschrechnung**
+  stehen, nicht als Kennwertquelle.
+
 ## Betriebsenergie — reales Sanierungs-Fallbeispiel EFH (PL-04/`_Betriebsenergie`)
 
 > Abgrenzung: **Betriebsenergie** meint hier den effektiven Jahresverbrauch/-kosten eines

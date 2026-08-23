@@ -4,30 +4,35 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
-**NEU 24.08.2026, 00:0x (Session Ausschreibung) — Das LV Plattenarbeiten Nasszellen liegt fertig
-vor, ist aber ohne vier Zulieferungen nicht versandfaehig; eine Los-Nummer hat es noch nicht.**
-Auf Auftrag Raphaels entstand das Leistungsverzeichnis fuer die Plattenarbeiten der Nasszellen
-(**BKP 281.6 Bodenbelaege aus Platten / BKP 282.4 Wandbekleidungen aus Platten**), als
-**Ausmass-LV** nach seiner Wahl: 49 Positionen in zehn Bereichen, Mengen vom Unternehmer nach
-Massaufnahme einzutragen, Abrechnung nach effektivem Ausmass. Die Materialangaben stammen aus dem
-belegten Bauteilkatalog-Aufbau **B338.H.FB71** (Agrob Buchtal Chroma Plural Non-Slip Sandgrau,
-100x100x6.5 mm bzw. 50x50x6.5 mm im Duschbereich, R10/B, Epoxidharzfugen Mapei Kerapoxy Design 111
-Silbergrau, Fluessigfolie zweilagig, Gefaelle 2 %). **Vier offene Punkte, alle im LV als Vorbehalt
-benannt und keiner geraten:** (1) die **buerointerne Los-Nummer** ist nicht vergeben — das LV
-traegt darum nur den echten BKP-2017-Code; (2) die **Bemusterung des Wandbelags** (Serie, Format,
-Farbton) fehlt, das LV verweist auf ein nachzureichendes Bemusterungsprotokoll; (3) die
-**Beanspruchungsklasse** ist auf II nach SIA 248:2006 Anhang A gesetzt, fuer Raeume mit
-Nasstherapie oder aggressiven Reinigungsmitteln waere Klasse IV zu bezeichnen — welche Raeume das
-sind, ist offen; (4) die **Aufbauhoehe**: der Katalog setzt die Belagszone mit 5 mm an, das
-spezifizierte Material misst 6.5 mm, die Estrichdicke ist anzupassen — derselbe Vorbehalt wie im
-Bodenaufbau-Blatt vom 21.08.2026. Dazu die Termine (Eingabefrist, Besichtigung, Massaufnahme,
-Ausfuehrung), die als Platzhalter offen stehen. **Ablage:** wie beim Los 281.21 hat die Station
-macbook-revendo keinen Schreibweg in die Projektstruktur; das Paket liegt auf dem NAS unter
-`/Volumes/daten/04_Buero/_claude-transfer/260823-2619-LV-Plattenarbeiten-Nasszellen/` und der
-Sync-Task `20260824-000021_Ablage-LV-Plattenarbeiten-Nasszellen-KISPI.md` legt es ab, sobald der
-Mini laeuft. Gleicher Vorgang, gleiche Ursache wie der Eintrag darunter. Keine Frist von aussen.
-Status: **offen, Aktion Raphael — Los-Nummer, Bemusterung Wandbelag, Raumliste Klasse IV, Termine.**
-| LV am Original erzeugt und Layout am gerenderten PDF gegengelesen 24.08.2026 00:0x; Materialangaben aus `logbuch/konversationen/260822-konversationen.md` Abschnitt 02; Norm-Fundstellen aus `wissen/normen/destillate/sia-248-2006.md` (status established) | 2619 KISPI, Plattenarbeiten Nasszellen | mittel | offen
+**NEU 24.08.2026, 00:1x (Session Ausschreibung) — Das LV Plattenarbeiten Nasszellen liegt fertig
+vor; drei der vier Vorbehalte hat der Parallellauf noch in derselben Nacht aufgelöst, einer ist
+neu entstanden.** Auf Auftrag Raphaels entstand das Leistungsverzeichnis für die Plattenarbeiten
+der Nasszellen (**BKP 281.6 Bodenbeläge aus Platten / BKP 282.4 Wandbekleidungen aus Platten**),
+als **Ausmass-LV** nach seiner Wahl: 49 Positionen in zehn Bereichen, Mengen vom Unternehmer nach
+Massaufnahme einzutragen, Abrechnung nach effektivem Ausmass. Materialangaben aus dem belegten
+Bauteilkatalog-Aufbau **B338.H.FB71**, Norm-Fundstellen aus dem Destillat SIA 248:2006 (Status
+established). **Was der Parallellauf beisteuerte:** die Ergänzung an der Projekt-Stammdatei
+`skills/ausschreibung/projekte/2619-kispi.md` nennt die **Räume der FB71-Nasszellen (2.332, 2.333,
+2.334, 2.335, 2.336, 2.337)**, das bereits bestehende Los **`LOS_281.63 Plattenarbeiten Süd AG
+Keramik GmbH`** samt der am Original gemessenen Phasenordner-Schreibweise ohne
+Projektnummer-Präfix, sowie die FB70-Räume 2.035 und 2.036 (WC D/H). Alle drei sind ins LV
+eingearbeitet. **Der neue, offene Punkt ist ein Formatwiderspruch:** das Konversationsdestillat
+vom 22.08. führt für FB71 «100 × 100 × 6.5 mm beziehungsweise 50 × 50 × 6.5 mm im Duschbereich im
+Gefälle», die Stammdaten-Ergänzung dagegen FB71 durchgehend als 50 × 50 mm im Gefälle und 100 × 100
+mm allein für FB70. Beide leiten aus derselben Abklärung vom 21.08.2026 ab; das Original liegt im
+Projektordner und ist von dieser Station nicht lesbar. **Im LV ist deshalb keine der beiden
+Lesarten gewählt**, sondern beide Formate stehen als getrennte Positionen mit ausdrücklichem
+Vorbehalt. **Weiterhin offen:** ob das Nasszellen-LV in das bestehende Los 281.63 gehört oder ein
+eigenes wird; die Bemusterung des Wandbelags (Serie, Format, Farbton); die Raumliste für
+Beanspruchungsklasse IV nach SIA 248:2006 Anhang A, falls Nasstherapie oder aggressive
+Reinigungsmittel dazukommen; die Aufbauhöhe (Katalog 5 mm Belagszone gegen 6.5 mm Material, gleiche
+Diskrepanz wie beim Los 281.21); und die Termine, die als Platzhalter offen stehen. **Ablage:** wie
+beim Los 281.21 hat die Station macbook-revendo keinen Schreibweg in die Projektstruktur; das Paket
+liegt auf dem NAS unter `/Volumes/daten/04_Buero/_claude-transfer/260823-2619-LV-Plattenarbeiten-Nasszellen/`,
+der Sync-Task `20260824-000021_Ablage-LV-Plattenarbeiten-Nasszellen-KISPI.md` legt es ab, sobald
+der Mini läuft. Keine Frist von aussen. Status: **offen, Aktion Raphael — Loszuordnung 281.63,
+Formatentscheid FB70/FB71, Bemusterung Wandbelag, Raumliste Klasse IV, Termine.**
+| LV am Original erzeugt und Layout am gerenderten PDF gegengelesen 24.08.2026 00:0x; Räume, Los 281.63 und Phasenordner-Schreibweise aus der Stammdaten-Ergänzung des Parallellaufs (dort belegt am Planblatt S-ARC_1341, Stand 17.08.2026); Formatwiderspruch gegen `logbuch/konversationen/260822-konversationen.md` Abschnitt 02 gemessen | 2619 KISPI, Plattenarbeiten Nasszellen | mittel | offen
 
 **NEU 23.08.2026, 23:5x (Session Ausschreibung) — Das Submissionsdossier LOS 281.21 Linoleum
 Therapiekueche ist fertig, liegt aber noch NICHT in der Projektstruktur; Eingabefrist 11.09.2026.**

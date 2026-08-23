@@ -38,6 +38,13 @@ reinen Planungsaufwand):
 - **Brandschutz / Treppenhaus (VKF):** Bei mehreren Wohneinheiten wird das gemeinsame
   Treppenhaus zum massgebenden Fluchtweg und Brandabschnitt — Wohnungsabschlüsse
   (Türen/Wände EI30), zweiter Rettungsweg, ggf. Sicherheitsbeleuchtung/Entrauchung.
+  ⚠ **Norm-Kante nachgetragen 24.08.2026 (Wissens-Chef Run 41).** «EI30» ist hier eine
+  materielle VKF-Klassenangabe, keine blosse Norm-Nennung. Fuehrend fuer Brandwiderstands-
+  klassen, Ausgabe und Fassungsstand ist nach der Fuehrungs-Matrix die KB `wissen/normen`
+  (Rule `normen-referenz`): vor jeder Verwendung in einer Stellungnahme dort die geltende
+  Fassung und die Zuordnung zur Gebaeudegeometrie holen — dieser Artikel schreibt den
+  VKF-Wortlaut bewusst nicht fort. Der Wert oben ist die baurechtliche Merkgroesse, nicht die
+  Fundstelle.
 - **Schallschutz / Akustik (SIA 181):** Zwischen getrennten Wohneinheiten gelten erhöhte
   Anforderungen an Luft- und Trittschall (Trenndecken, Trennwände); Altbau erfüllt diese
   meist nicht → bauliche Ertüchtigung.

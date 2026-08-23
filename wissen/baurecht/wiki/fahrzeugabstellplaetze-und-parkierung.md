@@ -215,6 +215,16 @@ Einheitswert bekannt).
   Destillat `sia-500-2009` deckt nur die Basisausgabe ab, nicht das Korrigendum C3 (1.10.2013),
   das fuer Ziff. 9.7.2/9.7.3 offenbar abweichenden Wortlaut traegt.
 
+  > **Erledigt 24.08.2026 (Wissens-Chef Run 41, Cross-KB).** Der Absatz darueber bleibt als
+  > datierter Stand stehen; sein Befund ist inzwischen eingeloest. `normen` fuehrt das
+  > Korrigendum: `wissen/normen/destillate/sia-500-2009.md` traegt ab Z. 48 den Warnblock
+  > «ACHTUNG-KORRIGENDA C3:2013 — der Wert der Basisausgabe darf NICHT mehr verwendet werden»
+  > und gibt Ziff. 9.7.2/9.7.3 in der seit 1.10.2013 geltenden Fassung wieder.
+  > **Die Praemisse «dauerhaft offener Punkt, weil kostenpflichtig» traegt hier nicht** —
+  > SIA-Korrigenda sind separat und frei beziehbar; die Aussage bleibt richtig fuer die
+  > Vollnormen SIA 500 und VSS SN 640, nicht fuer das Korrigendum. Fuer den Kennwert selbst gilt
+  > ab hier das normen-Destillat (Fuehrungs-Matrix: Norm-Fundstellen fuehrt `normen`).
+
 ## Spiel- und Ruheflaechen (§ 248 PBG)
 
 Bei **Mehrfamilienhaeusern** sind in angemessenem Umfang Kinderspiel-/Ruheflaechen oder

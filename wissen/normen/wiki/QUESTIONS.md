@@ -1539,11 +1539,39 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
   werden (viertes Struktur-Muster, Run 25). Eigener Befund, noch nicht ausgefuehrt; bewusst nicht
   im selben Zug erledigt, weil er einen eigenen Herausgeber-Beleg braucht.
 
+  > ✅ **GESCHLOSSEN, nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung).** War bereits erledigt, nur
+  > hier nie geschlossen: die Stichtags-Zeile (jetzt `wiki/REGISTER.md` Zeile 465, Zeilennummern
+  > haben sich seit 13.08. durch Zwischeneinträge verschoben) trägt seit dem 23.08.2026 exakt die
+  > verlangte, nicht-ueberschreibende Bemerkung «⚠ Bereits an anderer Stelle belegt, hier
+  > nachgeführt (23.08.2026): siehe Run-5-Zeile unten — Bestand 2014 … Nach 2013 selbst ersetzt:
+  > SIA 382/1:2025, in Kraft seit 01.02.2025 …». Eigene Gegenprobe 24.08.2026: der 2013-Stichtagwert
+  > «2007» in Spalte 2 ist unveraendert stehen geblieben (nicht ueberschrieben), REGISTER Zeile 982
+  > (Run-5-Zeile) fuehrt den Stand 2014→2025 bereits seit dem 14.07.2026 konsistent dazu. Kein
+  > eigener Herausgeber-Beleg mehr noetig, da die Bemerkung ausschliesslich auf bereits im Hub
+  > vorhandene, verifizierte Fundstellen verweist (Destillat-Frontmatter `ausgabe_ueberholt`,
+  > REGISTER Zeile 982), keine neue Norm-Aussage macht. Herkunft der Korrektur: vermutlich SIA-Sweep
+  > desselben Tages (23.08.2026, Fortsetzungsserie), CHANGELOG nennt diesen konkreten Edit nicht
+  > namentlich — Fund ueber direkten Zeilenvergleich, nicht ueber einen Laufbericht.
+
 - **N29-3 — `status: VOLLSTAENDIG` hat im SIA-180-Destillat eine Kapitel-Luecke nicht verhindert.**
   `destillate/sia-180-2014.md` fehlen Ziff. 2.4.1.3 (Figur 6 gilt fuer 30-70 % r.F., Kapitel
   thermische Behaglichkeit) und Ziff. 6.4.4 (Bereich ohne aktive Be-/Entfeuchtung einzuhalten),
   obwohl das Destillat sich als vollstaendig destilliert ausweist. Gefunden ueber Feld A des
   Cross-KB-Laufs, als eine `energie`-Aussage gegengelesen wurde. Ergaenzen, nicht ueberschreiben.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Original `180_2014.pdf` (14,5 MB, SN
+  > 520180:2014) per M365-Graph-Connector beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,
+  > Pfad `02_Normen/SIA_Norm/SIA_Normen/alle/180_2014.pdf`) und mit `pdftotext -layout` vollständig
+  > gelesen. Beide fehlenden Ziffern am Original bestätigt und **ergänzt, nichts überschrieben**:
+  > **Ziff. 2.4.1.3** («Der Figur 6 ist der Bereich der empfundenen Temperatur … zu entnehmen …
+  > Sie gilt auch für eine relative Luftfeuchte zwischen 30 % und 70 %», Quelle der Figur SN EN ISO
+  > 7730) als neue Bullet-Zeile in Kapitel 2 zwischen Ziff. 2.3.6 und Ziff. 2.5 eingefügt; **Ziff.
+  > 6.4.4** («Der zulässige Bereich der relativen Raumluftfeuchte ist ohne aktive Befeuchtung und
+  > ohne Entfeuchtung einzuhalten, ausser wenn die in 3.5.1.3 und 3.5.1.4 aufgeführten Massnahmen
+  > nicht ausreichen») als neue Bullet-Zeile nach Ziff. 6.4.1-6.4.3 in Kapitel 6 eingefügt. Frontmatter
+  > `status`/`last_updated` in `destillate/sia-180-2014.md` entsprechend nachgeführt. `git diff
+  > --numstat` nach dem Schreiben: 4 Zeilen hinzugefügt, 2 ersetzt (Frontmatter-Zeile), keine
+  > bestehende Kernziffer verändert oder entfernt.
 
 ## Normen-Nacht Run 46 (07.08.2026) — ein neuer Auftrag, ein Rückstand richtiggestellt
 

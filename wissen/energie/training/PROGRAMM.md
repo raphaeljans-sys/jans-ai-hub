@@ -109,3 +109,63 @@ Energie 6-10 PDFs, Planungsgrundlagen 2 Domaenen + 10-16 Fragen, Baurecht 4-6
 Verifikations-Komplexe), Workflow-Parallelisierung als Standard. Ab 11.08.2026
 (5x-Abo) gelten wieder die urspruenglichen Richtwerte und der Sparbetrieb; die
 Ruecktaktung erledigt der One-Time-Task `token-drosselung-100810`.
+
+---
+
+## Neuer Antrieb ab 24.08.2026: Pruefwarteschlange statt Dateiliste
+
+**Warum der Wechsel.** PL-02 und PL-04 sind abgearbeitet (Runs 148 bis 150, nachgezaehlt statt
+aus dem Register geglaubt). Das Qualitaets-Audit vom 23.08.2026
+(`outputs/2026-08-23_energie-audit-qualitaetsoffensive.md`) hat 47 belegte Befunde ergeben —
+**kein einziger am Rand des Korpus, alle im Bestand.** Der schwerste betrifft ein zweimal
+verifiziertes established-Destillat, dessen Rechenbeispiel seit 2023 durch die falsche Flaeche
+dividierte; der zweitschwerste eine Foerderung, die es nicht gibt, in einer Antwort, die seit
+2020 unveraendert stand. **Ein Mengenlauf haette in derselben Zeit das 325. PDF destilliert und
+beide unberuehrt gelassen.** Was ein qualitaetsgetriebener Loop findet und ein mengengetriebener
+nicht, ist genau dies: den Widerspruch zwischen zwei bereits vorhandenen Dateien.
+
+**Die Warteschlange** speist sich aus drei Quellen, in dieser Rangfolge: (1) die offenen Punkte
+des Audits in `wiki/QUESTIONS.md`, Abschnitt «Audit 23.08.2026»; (2) die uebrigen offenen Punkte
+in QUESTIONS; (3) die Treffer der Pruefwerkzeuge. Ein Lauf nimmt so viele Positionen, wie er
+**sauber mit Beleg schliessen** kann. Neue Quellen werden weiterhin destilliert, aber nachrangig
+und nur auf Anlass: neue Rechtslage, neue Programmversion, konkreter Projektbedarf.
+
+**Die Pruefungen, die in jedem Lauf laufen** (alle in `wissen/tools/`, alle mit Exit 1 bei
+Befunden, alle KB-uebergreifend):
+
+| Schritt | Werkzeug | Frage | Aufwand |
+|---|---|---|---|
+| 1 | `wiki-konsistenz.sh energie` | Form: Frontmatter, Register, Backlinks | < 1 Min Laufzeit, ~10 Min Durchsicht |
+| 2 | `bezugsgroessen-check.py energie` | Nenner: traegt jede Quote ihre Bezugsgroesse | 15-30 Min, jeder Treffer im Umfeld zu beurteilen |
+| 3 | `datenstand-waechter.py energie` | Alter: kommt die Zahl mit ihrem Alter beim Leser an | ~20 Min; Befunde mit Frist direkt nach `logbuch/fristen.md` |
+| 4 | `kennwert-recompute.sh energie` | Inhalt: gehen die ausgeschriebenen Rechnungen auf | wenige Minuten |
+| 5 | **Rueckwaerts-Diff** (von Hand, kein Werkzeug) | sagt das Erzeugnis, was das Destillat weiss | ~1 Std, der eigentliche Kern |
+
+**Schritt 5 ist der wichtigste und hat noch kein Werkzeug.** Er nimmt die Destillate, die seit
+dem letzten Lauf einen Statuswechsel, eine Korrektur oder einen neuen ⚠-Satz erhalten haben,
+plus zehn rotierende aus dem Bestand, und prueft je Destillat **jede** zitierende Stelle in
+`wiki/` daraufhin, ob der Vorbehalt mitgegangen ist. Zwoelf der 47 Audit-Befunde stammen aus
+genau dieser Luecke, darunter zwei der drei P1.
+
+**Abschlussregel fuer jede Korrektur (verbindlich):** eine Korrektur ist erst fertig, wenn ein
+`grep` auf den alten Wert oder die alte Formulierung ueber `wiki/` und `destillate/` **null**
+Treffer liefert — abgesehen von bewusst gesetzten Korrekturvermerken, die den alten Wortlaut
+zitieren. Der Indach-Fall (Audit 02.4) zeigt, warum: dort wurde an drei Stellen korrigiert und an
+fuenf nicht, und der Widerruf stand achtzehn Zeilen ueber der wiederholten Falschaussage.
+
+**Zusaetzlich, seltener: ein Themenkreis im Volltext, rotierend.** Zwanzig der Themenartikel hat
+das Audit gar nicht beruehrt, die FAQ nur maschinell gefiltert. Je Lauf ein Themenkreis (Fenster
+und Verglasung, Daemmstoffe, Schadstoffe, Lueftung …), Artikel gegen die zitierten Destillate
+gelesen. Ein bis zwei Stunden, und die einzige Pruefung, die einen Fehler ohne Zahlenformat findet.
+
+**Die Blindstelle, die dieser Loop NICHT schliesst.** Keine der sechs Audit-Dimensionen hat eine
+Originalquelle geoeffnet. Das Audit sagt, dass die KB sich selbst widerspricht; es sagt nicht, ob
+ein Destillat sein PDF richtig wiedergibt. **Quartalsweise** sind darum die zwanzig
+meistzitierten Destillate gegen ihr Original zu lesen. Exemplarisch Audit-Befund 02.2: welcher
+Psi-Grenzwert im BFE-Waermebrueckenkatalog 2002 wirklich steht, ist ohne das Original nicht
+entscheidbar.
+
+**Gewichtung nach Ertrag** (aus dem Audit selbst): die ergiebigsten Dimensionen waren
+**Aktualitaet, Widersprueche im Bestand und Belegkante** — alle drei halten den Bestand gegen
+sich selbst. Die Rechenpruefung hat vor allem bewiesen, dass die KB rechnen kann; die Statuskette
+lieferte Praevention statt Korrektur. Der Loop soll entsprechend gewichtet sein.

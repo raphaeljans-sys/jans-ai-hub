@@ -41,6 +41,15 @@ kein Artikel zum SZ-Strassenrecht bestand.
   Minimale Sichtweite A nach Zufahrtsgeschwindigkeit: 20 km/h → 15 m … 80 km/h → 125 m
   (lineare Tabelle im Merkblatt). Sichtfeld muss zwischen 0.60 m und 3.00 m über
   Fahrbahn hindernisfrei bleiben (auch Bepflanzung, Schnee, parkierte Fahrzeuge).
+  ⚠ **Norm-Kante und Beleg-Vorbehalt, nachgetragen 24.08.2026 (Wissens-Chef Run 41).**
+  Diese Sichtweiten-Kennwerte sind materiell wiedergegebener VSS-Norminhalt. **`wissen/normen`
+  fuehrt SN 640 273a nicht** — weder im REGISTER noch als Destillat; die einzige Fundstelle im
+  ganzen normen-Bestand ist eine Literaturangabe der **Vorgaengernorm** SN 640 273. Die Werte
+  oben stammen damit aus dem SZ-Merkblatt, nicht aus einer verifizierten Normfundstelle, und
+  sind bis zur Beschaffung als **Behoerdenwiedergabe** zu zitieren, nicht als «nach VSS SN 640
+  273a». Fuer den Zufahrtstyp und die Geometrie liegt dagegen ein verifiziertes Destillat vor:
+  `wissen/normen/destillate/vss-640050-1993.md` (`established`). Bring-Schuld an `normen`
+  eingetragen (SN 640 273a beschaffen und destillieren).
 - **Ausgestaltung:** Erschliessungsbreite im Einmündungsbereich 5.00 m (≤ 15
   Parkplätze) / 5.50 m (> 15 Parkplätze); Einlenkradius 5.00 / 6.00 m; max.
   Längsneigung ± 5 % innerhalb 5 m ab Strassenrand; max. Gefällsbruch 6 % ohne
