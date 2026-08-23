@@ -4970,3 +4970,22 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   Korrigenda-Check auf die von der 24. Fortsetzung benannte P1-Einkaufsliste, gezielt SIA 384/1
   betreffend — Korrektur eines Nullbefunds derselben Zeile aus der 19. Fortsetzung); Metadaten
   nachgetragen SIA-Sweep, dreissigste Fortsetzung, 23.08.2026.
+
+## N41-1 — VSS SN 640 273a «Sichtverhaeltnisse bei Knoten» fehlt im Bestand (Bring-Schuld, 24.08.2026)
+
+- **Befund (Wissens-Chef Run 41, Cross-KB `normen` ↔ `baurecht`):** Der am 23.08.2026 neu
+  angelegte Artikel `wissen/baurecht/wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md`
+  Z. 38-42 gibt Sichtweiten-Kennwerte **materiell** wieder und schreibt sie «VSS SN 640 273a»
+  zu (Beobachtungsdistanz innerorts 3.00 m bzw. ≥ 2.50 m, ausserorts 5.00 m; Sichtweite A nach
+  Zufahrtsgeschwindigkeit 20 km/h → 15 m bis 80 km/h → 125 m; hindernisfreies Sichtfeld
+  0.60-3.00 m ueber Fahrbahn).
+- **Lage in dieser KB:** SN 640 273a hat **weder eine REGISTER-Zeile noch ein Destillat**. Die
+  einzige Fundstelle im ganzen Bestand ist eine Literaturangabe der **Vorgaengernorm**
+  SN 640 273 (nicht 273a). Die Ausgabe 273a gilt seit dem 1.8.2010.
+- **Zu tun:** SN 640 273a beschaffen (VSS, kostenpflichtig — dieselbe Bring-Schuld-Klasse wie
+  die uebrigen SN-640-Zeilen), Registerzeile anlegen, danach destillieren und die Werte im
+  baurecht-Artikel gegenlesen.
+- **Bis dahin gilt** (Vorbehalt dort bereits gesetzt): die Werte sind als **Behoerden-
+  wiedergabe aus dem SZ-Merkblatt** zu zitieren, nicht als verifizierte VSS-Fundstelle.
+  Verifiziert vorhanden ist fuer Zufahrtstyp und Geometrie allein
+  `destillate/vss-640050-1993.md` (`established`).

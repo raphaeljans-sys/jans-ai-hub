@@ -54,10 +54,12 @@ im Umbau ohne Grenzwert, beim Systemnachweis in Q_H einzurechnen.
 → `[[waermebrueckenkatalog-bfe-balkonplatte]]` (FAQ F48). ⚠ Katalog-Zahlenbasis 2002/SIA 380/1:2001,
 Grenzwert-Grössenordnung gilt weiter, exakter Wert vor Baueingabe an aktueller Norm prüfen.
 
-**Fensteranschluss (Gruppe 4.1):** Ψ 0,08-0,36 W/(m·K) gg. Grenzwert 0,30 — Aussenanschlag mit
-Zwischenleibungsdämmung schneidet klar besser ab als reiner Innenanschlag; Stahlbetonsturz-Malus
-bis +0,14 W/(m·K) bei dünner Sturzdämmung (2 cm), auf +0,02 senkbar mit 6 cm →
-`[[waermebrueckenkatalog-bfe-fensteranschluss]]` (FAQ F49).
+**Fensteranschluss (Gruppe 4.1):** Ψ 0,08-0,36 W/(m·K) — massgebender Grenzwert heute Ψ ≤ 0,15
+(Typ 5, siehe Z. 48 oben); der Katalog von 2002 rechnet gegen die ältere SIA 380/1:2001, der dort
+zitierte Grenzwert 0,30 ist nicht am Original verifiziert (⚠ Audit-Korrektur A-P2 02.2,
+24.08.2026). Aussenanschlag mit Zwischenleibungsdämmung schneidet klar besser ab als reiner
+Innenanschlag; Stahlbetonsturz-Malus bis +0,14 W/(m·K) bei dünner Sturzdämmung (2 cm), auf +0,02
+senkbar mit 6 cm → `[[waermebrueckenkatalog-bfe-fensteranschluss]]` (FAQ F49).
 
 **Sockel (Gruppe 3.4):** bei **unbeheiztem** Keller meist nahe/unter Grenzwert 0,20; bei
 **beheiztem** Keller mit reiner Aussendämmung eine der grössten Wärmebrücken am Gebäude —

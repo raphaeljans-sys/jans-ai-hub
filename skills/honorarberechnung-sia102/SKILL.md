@@ -43,6 +43,16 @@ Bei Spezialplaner-Honoraren den entsprechenden Spezialisten-Code aus der Hauptgr
 1. **Aufwandbestimmende Bausumme zuerst** — Ohne klar definierte Bezugsgrösse keine seriöse Berechnung. BKP 1+2 oder definierte Teilsumme festlegen.
 2. **Phasenanteile transparent** — Jede Honorarposition wird einer SIA-Phase zugeordnet. Pauschalen ohne Phasenbezug vermeiden.
 3. **Schwierigkeitsgrad begründen** — Healthcare/Spital ist Kategorie V (q=1.0-1.1), Bestand/Umbau erhöht den Anpassungsfaktor.
+   ⚠ **Korrektur 24.08.2026 (Wissens-Chef Run 41):** Diese Zeile widerspricht der eigenen
+   Kategorientabelle weiter unten. Dort ist **Kategorie V (sehr anspruchsvoll) = q 1.15-1.2**
+   («Spitäler, Forschungsbauten, denkmalgeschützte Sanierung»); q 1.0-1.1 ist **Kategorie
+   III-IV** (Wohnungsbau Standard bzw. Praxen/Pflegeheime). Die Merkzeile hier führt also für
+   ein Spital einen um 13-17 % zu tiefen Faktor — mit direkter Geldfolge, weil q multiplikativ
+   in den Honorarsatz eingeht und ein zu tiefes q das eigene Angebot unterpreist. **Massgeblich
+   ist die Tabelle** im Abschnitt «Schwierigkeitsgrad — Bauwerkkategorien»; deren
+   Norm-Vorbehalte (Symbol `n` statt `q`, sieben statt sechs Kategorien, Healthcare-Zuordnung
+   der Norm zwei Stufen höher) gelten unverändert und sind weiterhin offener Fachentscheid
+   Raphaels.
 4. **Bandbreite vor Punktwert** — Bei frühen Phasen Honorar-Bandbreite ausweisen, erst bei klarer Aufgabe Pauschale.
 5. **Konsistenz zu bestehenden Angeboten** — Wenn ein Vorangebot des gleichen Projekts existiert, neue Phasen auf gleichem Honorar-Niveau halten.
 

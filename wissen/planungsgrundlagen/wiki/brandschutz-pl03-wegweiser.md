@@ -2186,7 +2186,13 @@ Bauaufgabe). Gliedert sich analog «Wohnbauten» (§ Abschnitt 5), mit schulspez
 - **Tragwerk/Brandabschnitte (Standardlösungstabelle):** Gebäude geringer Höhe (≤ 11 m) baulich
   R30/EI30/EI30/REI30, Löschanlagenkonzept keine Anforderung an Tragwerk; Gebäude mittlerer Höhe
   (≤ 30 m) baulich R60/REI60/EI30/REI60, Löschanlage R30/REI30/EI30/REI30. Reduktion um 30 Min.
-  bei zweigeschossigen Bauten mit Gesamt-Geschossfläche ≤ 2'400 m².
+  bei zweigeschossigen Bauten mit Gesamt-Geschossfläche ≤ 2'400 m². **Zusammenhängende
+  Brandabschnittsfläche ohne Nachweis max. 3'600 m²** (grösser als der generische Wert bei
+  anderen Nutzungen). Schulbetrieb-eigene Nutzungen (Schulzimmer, Gruppenräume, Lehrerzimmer,
+  Aufenthalts-/Ruheräume, Archive, Serverräume, Putzräume) dürfen im gleichen Brandabschnitt
+  zusammengefasst werden; ebenso Turnhallen-Nutzungen (Garderoben, Materialräume,
+  Zuschauertribünen). **Spezialräume (Schulküche, Cafeteria, Werk-/Laborräume) sind eigene
+  Brandabschnitte.**
   ⚠ **Fassungsvorbehalt, nachgetragen 24.08.2026 (Wissens-Chef Run 41).** Der Abschnitt
   beschreibt die Fassung **01.01.2015**; die KB `wissen/normen` führt ein Delta-Destillat zur
   Fassung **01.01.2017** (`destillate/vkf-ah-1002-15-fassung-2017-delta.md`), in dem die
@@ -2195,13 +2201,7 @@ Bauaufgabe). Gliedert sich analog «Wohnbauten» (§ Abschnitt 5), mit schulspez
   an der geltenden Fassung zu prüfen. **Der Delta-Artikel trägt `status: speculative` und ist
   nach Rule `normen-referenz` Ziff. 1b eine Warnkarte, keine Zitierquelle** — seine Werte
   werden hier bewusst nicht übernommen; die geltende Formulierung ist am VKF-Original
-  einzuholen (Arbeit der KB `normen`). **Zusammenhängende
-  Brandabschnittsfläche ohne Nachweis max. 3'600 m²** (grösser als der generische Wert bei
-  anderen Nutzungen). Schulbetrieb-eigene Nutzungen (Schulzimmer, Gruppenräume, Lehrerzimmer,
-  Aufenthalts-/Ruheräume, Archive, Serverräume, Putzräume) dürfen im gleichen Brandabschnitt
-  zusammengefasst werden; ebenso Turnhallen-Nutzungen (Garderoben, Materialräume,
-  Zuschauertribünen). **Spezialräume (Schulküche, Cafeteria, Werk-/Laborräume) sind eigene
-  Brandabschnitte.**
+  einzuholen (Arbeit der KB `normen`).
 - **Fluchtwege — Schulbauten-spezifische Regeln:** Fluchtwege über **Atrien/Innenhöfe** sind
   zulässig, sofern eine RWA-Nachweis-gestützte sichere Begehbarkeit belegt ist (kein pauschales
   Verbot wie bei anderen Nutzungen). **Kindertagesstätten** (Kindergarten-Bestandteil vieler

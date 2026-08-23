@@ -15,6 +15,11 @@ mit Ψ-Werten von **0,18–0,26 W/(m·K)** knapp am Grenzwert von 0,30 W/(m·K) 
 knapp darunter, aber ohne Reserve.
 
 ## Was gemessen wird
+⚠ **Der zitierte Grenzwert 0,30 ist aus der Fensteranschlag-Gruppe übernommen und nicht am
+Original verifiziert** (Audit-Korrektur A-P2 02.2, 24.08.2026, siehe
+`[[waermebrueckenkatalog-bfe-fensteranschluss]]`). Massgebend ist heute ohnehin EN-102 (2018),
+Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K).
+
 Grenz- und Zielwert gemäss SIA 380/1: **0,30 W/(m·K)** (gleicher Grenzwert wie bei der
 Fensterrahmenverbreiterung, Gruppe 4.1). Ablesebeispiel: Stahlbeton-Rollladennische mit
 Holzfenster bei aussen gedämmtem Mauerwerk, U-Wert Wand 0,18 → **Ψ = 0,22 W/(m·K)**.

@@ -248,6 +248,9 @@ Aktuelle KBs (Details in der jeweiligen `<kb>/CLAUDE.md`): `baurecht` (Pilot + B
 `auflagebereinigung`, `planungsgrundlagen`, `energie` (Destillate + BAUHERREN-FAQ), `grobkosten`
 (Kennwerte-Lernmodell), `spec` (Methodik), `architekten-synobsis` (Katalog/Suche, 853 Architekten),
 `entwurfs-referenzen` (JSON-Parameter-Sets), `wettbewerbs-dna`, `twin`, `normen`, `koordination`,
+`architektur-fachwissen` (neu 23.08.2026, Ziel-KB der Korpora `buero-referenzen` +
+`archiv-fachwissen`; bisher nur Inventar, noch kein Destillat — Sperren fuer Vertraege,
+Bewerbungen und Adressdaten siehe deren CLAUDE.md und Rule `auto-verbesserungen` 260823),
 `bauprodukte` (neu 28.07.2026, wird aus `/Volumes/daten/03 Bauprodukte_BKP` destilliert — Skill
 `wissens-destillat`, Reihenfolge in dessen `KORPUS-QUEUE.md`).
 

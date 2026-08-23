@@ -2123,8 +2123,10 @@ identischem Fenster und identischer Wand. Bei Betonstürzen (statisch oft nötig
 grosszügige Sturzdämmung besonders.
 
 **Fachlich:** Der BFE-Wärmebrückenkatalog weist für den Fenster-Wand-Anschluss Ψ-Werte zwischen
-**0,08 und 0,36 W/(m·K)** aus (Grenzwert 0,30). Ein Innenanschlag ohne Zwischenleibungsdämmung
-liegt meist über dem Grenzwert (0,22–0,35), ein Aussenanschlag mit Zwischenleibungsdämmung und
+**0,08 und 0,36 W/(m·K)** aus (massgebender Grenzwert heute Ψ ≤ 0,15 W/(m·K) für den
+Fensteranschlag, Typ 5 nach EN-102 2018; der Katalog von 2002 rechnet gegen die ältere
+SIA 380/1:2001). Ein Innenanschlag ohne Zwischenleibungsdämmung liegt meist über dem Grenzwert
+(0,22–0,35), ein Aussenanschlag mit Zwischenleibungsdämmung und
 Sturzdämmung dagegen klar darunter (bis 0,08). Bei Stahlbetonstürzen erhöht sich der Zuschlag
 gegenüber Backstein um bis zu **+0,14 W/(m·K)** bei dünner Sturzdämmung (2 cm) — mit 6 cm
 Sturzdämmung sinkt dieser Malus auf nur noch +0,02 W/(m·K).
@@ -4392,15 +4394,22 @@ amtlicher Erlasstext).
 
 ## F115 — Was kostet ein Blower-Door-Test, und wann ist er Pflicht?
 
-Ein Blower-Door-Test misst mit einem Ventilator in der Haustür die Luftdichtheit der Gebäudehülle
-(Kennwert n50, Luftwechsel/h bei 50 Pa) nach SIA 180. Für ein EFH rechnen Sie mit einem Testpreis **ab
-rund CHF 1'000** (hausinfo.ch, 2020 — einzige gefundene CH-Zahl); bei einem MFH mit mehreren Wohnungen
+Ein Blower-Door-Test misst mit einem Ventilator in der Haustür die Luftdichtheit der Gebäudehülle.
+Massgebende Kenngrösse ist in der Schweiz die Luftdurchlässigkeit qE50 [m³/(h·m²)], bezogen auf die
+Hüllfläche, gemessen nach SN EN ISO 9972. Für ein EFH rechnen Sie mit einem Testpreis **ab rund
+CHF 1'000** (hausinfo.ch, 2020 — einzige gefundene CH-Zahl); bei einem MFH mit mehreren Wohnungen
 entsprechend mehr, da Schweizer Anbieter praktisch immer individuell offerieren — eine allgemeingültige
-Preistabelle gibt es am Markt nicht. **Pflicht** ist der Test bei Minergie-P und Minergie-A (n50-
-Grenzwert ≤ 0,6 h⁻¹ zwingend nachzuweisen); beim Standard-Minergie-Label genügt ein Luftdichtheits-
-konzept. Richtwerte ohne Label: n50 ≤ 3,0 h⁻¹ bei Fensterlüftung, ≤ 1,5 h⁻¹ bei mechanischer Lüftung.
+Preistabelle gibt es am Markt nicht. **Pflicht** ist die Messung bei Minergie-P und Minergie-A
+(inkl. Leckageortung); der Grenzwert liegt dort bei qE50 ≤ 0,8, beim Minergie-Basisstandard bei ≤ 1,2,
+bei Erneuerungen einheitlich bei ≤ 1,6. Beim Minergie-Basisstandard ist die Messung fakultativ, dafür
+ist das Luftdichtheitskonzept mit dem Zertifizierungsantrag zwingend einzureichen. Der oft zitierte
+Wert n50 ≤ 0,6 h⁻¹ ist der deutsche Passivhaus-Faustwert mit anderer Bezugsgrösse (Innenvolumen statt
+Hüllfläche) und gilt hier nicht. Auch ohne Label gelten Anforderungen: SIA 180:2014 setzt für den
+Neubau qE50 ≤ 2,4 (natürliche Lüftung) beziehungsweise ≤ 1,6 (mechanische Lüftung), beim Umbau 3,6/2,4.
 Empfehlung: Test vor dem Schliessen der Beplankung/Innenverkleidung durchführen, damit Leckstellen noch
-günstig nachgebessert werden können. → `[[blower-door-test-kosten-ch]]`. Datenstand 2026-07-24 (Run 87).
+günstig nachgebessert werden können. → `[[rilumi-minergie-luftdichtheit-n50]]`; `[[blower-door-test-kosten-ch]]`
+bleibt Quelle nur für den Preis (⚠ dort trägt die n50-Tabelle einen Bezugsgrössen-Vorbehalt).
+Datenstand 2026-08-24 (Audit-Korrektur A-P2 02.1).
 
 ## F116 — Ist die Solarpflicht für Dächer über 300 m² im Kanton Zürich schon beschlossen?
 

@@ -22,7 +22,16 @@ weil Schweizer Fachfirmen praktisch ausnahmslos individuell nach Gebäudegrösse
 - Kennwert: **n50** (Luftwechselrate pro Stunde bei 50 Pa Druckdifferenz).
 
 ## n50-Grenzwerte (doppelt belegt, Creoven + Innoplan übereinstimmend)
-| Gebäudetyp | n50-Grenzwert |
+⚠ **Bezugsgrössen-Vorbehalt (Audit-Korrektur A-P2 02.1, 24.08.2026):** n50 bezieht sich auf das
+Innenvolumen und ist der in Deutschland (Passivhaus-Institut) übliche Kennwert. Die in der Schweiz
+massgebende Grösse ist **qE50 [m³/(h·m²)]**, bezogen auf die Hüllfläche, nach SN EN ISO 9972 — siehe
+`[[rilumi-minergie-luftdichtheit-n50]]` für die established-Primärquelle mit den qE50-Grenzwerten
+(Minergie-P/A ≤ 0,8, Minergie-Basis ≤ 1,2, Erneuerung ≤ 1,6; SIA 180:2014 ohne Label ≤ 2,4/1,6 Neubau,
+3,6/2,4 Umbau). Die Tabelle unten (n50) stammt aus einer emerging-Web-Recherche mehrerer
+Firmenwebsites ohne durchgängiges Publikationsdatum und ist NICHT die für Werkvertrag/Messauftrag zu
+vereinbarende Grösse — n50 ≤ 0,6 h⁻¹ für Minergie-P/A ist der falsche (deutsche) Wert.
+
+| Gebäudetyp | n50-Grenzwert (⚠ emerging, siehe Vorbehalt oben) |
 |---|---|
 | Natürliche Fensterlüftung | ≤ 3,0 h⁻¹ |
 | Mechanische Lüftungsanlage | ≤ 1,5 h⁻¹ |

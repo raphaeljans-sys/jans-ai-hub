@@ -1,3 +1,48 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: N29-2 nachtraeglich geschlossen, N29-3 (SIA-180-Kapitel-Luecke) am Original ergaenzt
+
+**Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten (Rule `normen-referenz`: Fundstelle
+mit Norm/Ausgabe/Ziffer, nur `established` zitierfaehig; Rule `wissens-bibliothekar`: nichts raten,
+jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten Laufs (30. SIA-Sweep-
+Fortsetzung, 23.08.2026) zuerst gelesen. Kollisionscheck (`ps aux`) vor Arbeitsbeginn: parallel
+liefen zwei weitere `claude -p`-Prozesse mit eigenen Auftraegen (Baurecht-Reglemente-Queue,
+`energie`-QUESTIONS) — kein weiterer Prozess mit demselben Auftragstext an dieser KB.
+
+**Sondiert:** Die 4944 Zeilen von `QUESTIONS.md` sind zu ueberwiegendem Teil bereits geschlossen
+(60+ Laeufe allein am 23.08.2026). Per Skript alle 57 Abschnitte auf Schliess-Marker geprueft
+(✅/GESCHLOSSEN/ERLEDIGT/bestaetigt/geklaert/etc.) — 10 Abschnitte ohne Marker verblieben. Davon
+kostenpflichtige Bring-Schulden (SIA 380/2, 384/4, NIN-Zugang), zwei Freigabe-/Entscheid-Punkte fuer
+Raphael (N60-1 AFC-Synopse-Duplikat, N60-2 Methodik-Pflicht-Vorschlag — beide nicht selbststaendig
+umsetzbar) und mehrere Alt-Run-Zusammenfassungen ohne offenen Handlungsbedarf ausgeschlossen. Zwei
+echte, selbststaendig loesbare Punkte blieben: **N29-2** und **N29-3** (Wissens-Chef Run 29,
+13.08.2026).
+
+**N29-2 geschlossen (nachtraeglich, kein eigener Edit noetig):** REGISTER-Zeile SIA 382/1
+(2013-Stichtags-Block, jetzt Zeile 465) traegt bereits seit dem 23.08.2026 die verlangte, den
+2013-Wert nicht ueberschreibende Bemerkung zum Fassungsstand 2014→2025. War schlicht nie in
+`QUESTIONS.md` als erledigt nachgezogen worden — mit Beleg geschlossen.
+
+**N29-3 geschlossen:** `destillate/sia-180-2014.md` fehlten trotz `status: VOLLSTAENDIG` Ziff. 2.4.1.3
+(Fig. 6, Geltungsbereich 30-70 % r.F.) und Ziff. 6.4.4 (Feuchtebereich ohne aktive Be-/Entfeuchtung).
+Original `180_2014.pdf` (SN 520180:2014) per M365-Graph-Connector aus SharePoint Site `PL`, Drive
+`02_Recht_Norm`, Pfad `02_Normen/SIA_Norm/SIA_Normen/alle/180_2014.pdf` beschafft (14,5 MB), mit
+`pdftotext -layout` gelesen, beide Ziffern am Original bestaetigt und **ergaenzt, nichts
+ueberschrieben** — je eine neue Bullet-Zeile in Kapitel 2 bzw. Kapitel 6, Frontmatter
+`status`/`last_updated` nachgefuehrt. `git diff --numstat`: Destillat 4 hinzugefuegt/2 ersetzt,
+`QUESTIONS.md` 28 hinzugefuegt/0 entfernt — beide rein additiv, keine fremde Zeile beruehrt.
+
+**Verallgemeinerbare Lehre:** Bei einer derart intensiv bearbeiteten KB liegt der Ertrag nicht mehr
+im Finden neuer Luecken, sondern im **Nachziehen bereits vollzogener Korrekturen**, die nur nie in
+`QUESTIONS.md` geschlossen wurden (N29-2) — ein Skript-Filter auf Schliess-Marker ueber alle
+Abschnitte ist dafuer schneller als sequenzielles Lesen und verhindert, dass ein Alt-Run mangels
+Marker faelschlich als offen gilt.
+
+Kein neuer offener Punkt entdeckt. Verbleibende offene Abschnitte sind entweder kostenpflichtige
+Bring-Schulden Raphaels oder ausdruecklich bei ihm zur Entscheidung liegende Vorschlaege (N60-1,
+N60-2) — beide unveraendert gelassen, wie von Rule `wissens-bibliothekar` verlangt (Pause vor
+Destruktivem/Entscheidungsbeduerftigem).
+
+Report: `outputs/2026-08-24_questions-abarbeitung-n29-2-n29-3.md`.
+
 ## 2026-08-23 — SIA-Sweep, dreissigste Fortsetzung: Metadaten SIA 384/4:2025 nachgetragen (Nullbefund Volltext)
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

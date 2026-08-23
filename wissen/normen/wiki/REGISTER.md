@@ -807,12 +807,19 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | **Fassadengerüste — Sicherheit durch Planung** | **44077.d** | Erstausgabe Dez. 2006, überarbeitete Ausgabe Januar 2022 | `suva-44077-2022-fassadengeruest-verankerung.md`, established | **Neu 23.08.2026 (QUESTIONS-Abarbeitung 21).** Ankerflächen 25/20/10 m² je Verkleidungsart, Ankerabstände nach Gesamthöhe, drei Gerüstgruppen (2,00/3,00/4,50 kN/m²), Dachrand-Staffelung nach Neigung. Zusammen mit 44066.d schliesst dies die frühere `QUESTIONS.md`-Zeile «Keine Suva-/EKAS-Richtlinie zu Fassadengerüst-Verankerung/Dachhaken» vollständig |
 | Checkliste Verkehrswege für Personen | 67001.d | überarbeitete Fassung April 2007 | `suva-67001-checkliste-verkehrswege.md`, established | Reine Selbstkontroll-Checkliste |
 | Checkliste Böden | 67012.d | Ausgabe Oktober 2025 | `suva-67012-checkliste-boeden.md`, established | löst die zuvor undatierte Fassung ~2006/2007 ab |
+| Fassadengerüste — Sicherheit bei der Montage und Demontage | 44078.d | Erstausgabe Dez. 2006, überarbeitete Ausgabe Januar 2022 | `suva-44078-2022-fassadengeruest-montage-demontage.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** Ersteller-Perspektive (Ergänzung zu 44077.d, Planer-Perspektive): Fassadenabstand max. 30 cm, Sicherungspflicht ab 2,0 m Absturzhöhe, betriebsinterne Rettung eines PSAgA-Gesicherten in 15-20 Min. ⚠ Werkzeug-Falle: `www.suva.ch/waswo/44078.D` lieferte per curl die französische Fassung, deutsche Version über Produktseite nachbeschafft |
+| Sicheres Arbeiten im Bereich von Liftschächten | 44046.d | Erstausgabe Juli 1993, überarbeitete Ausgabe Januar 2022 | `suva-44046-2022-liftschachtgeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** Liftschachtgerüst-Tragfähigkeit mind. 3,0 kN/m² statisch, Wandabstand max. 30 cm, Seitenschutz bei gerüstloser Liftmontage max. 47 cm Bauteilabstand. Gleiche Sprachfalle wie 44078.d |
+| Acht zentrale Fragen rund um das Rollgerüst | 84018.d | Erstausgabe Juni 1999, überarbeitete Ausgabe November 2003 | `suva-84018-2003-rollgeruest-acht-fragen.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** ⚠ Älteste Suva-Publikation dieser KB, Aktualitäts-Check auf neuere Ausgabe nicht durchgeführt. Standhöhe max. 8 m aussen/12 m innen — deckt sich wortgleich mit 67150.d, 23 Jahre jüngerer Fassung |
+| Checkliste Fassadengerüste | 67038.d | Ausgabe Februar 2022 | `suva-67038-2022-checkliste-fassadengeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** 22-Fragen-Kontrollraster, Gerüstgruppen-Nutzlasten identisch mit 44077.d |
+| Checkliste Rollgerüste | 67150.d | Ausgabe Juli 2026 | `suva-67150-2026-checkliste-rollgeruest.md`, established | **Neu 24.08.2026 (SIA-Sweep 31. Fortsetzung).** Jüngste Suva-Publikation dieser KB. 19-Fragen-Kontrollraster, Standhöhe max. 8 m aussen/12 m innen (deckt sich mit 84018.d), Montage/Demontage ab 2,0 m gesichert (BauAV Art. 23) |
 
-Nicht destilliert, aber im Merkblatt 44077.d als weiterführende Publikationen genannt (Bring-
-Schuld-Kandidaten, alle kostenlos): 44078.d (Montage/Demontage-Sicherheit), 44046.d
-(Liftschächte), 84018.d (Rollgerüst), 67038.d/67150.d (Checklisten Fassadengerüst/Rollgerüst),
-33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d (Factsheets Auffangnetze, Seitenschutz,
-Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge, PSAgA).
+✅ **Fünf der sieben in der Ziff.-5-Liste von 44077.d/44078.d genannten Bring-Schuld-Kandidaten
+sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** — Ausgangslage war die
+30. Fortsetzung (23.08.2026), die diese Liste als offenen Kandidaten für eine Mandatsausweitung
+über SIA/VKF hinaus benannt hatte. Nicht destilliert, weiterhin Bring-Schuld-Kandidaten (alle
+kostenlos, alle sehr kurz — 1-2 Seiten Factsheet-Format): 33001.d/33017.d/33020.d/33021.d/
+33022.d-33025.d/33029.d (Factsheets Auffangnetze, Seitenschutz, Gerüstbeläge,
+Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge, PSAgA).
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

@@ -17,7 +17,13 @@ Laibung an die Wand stösst) erzeugt Psi-Werte zwischen **0,08 und 0,36 W/(m·K)
 der **Innenanschlag ohne Zwischenleibungsdämmung** (Typ H) am schlechtesten.
 
 ## Grenzwert
-**Ψ ≤ 0,30 W/(m·K)** gemäss SIA 380/1 (Katalog-Stand 2002), analog zur Balkonplatte.
+⚠ **Grenzwert (Audit-Korrektur A-P2 02.2, 24.08.2026):** Der BFE-Katalog 2002 rechnet gegen
+SIA 380/1:2001. Die Einordnungen in der Tabelle unten sind nur mit einem Grenzwert um
+0,20 W/(m·K) stimmig, nicht mit den 0,30 der Balkonplatte (Typ 1) — welcher Wert im Katalog
+selbst steht, ist am Original nachzuprüfen (offener Punkt, siehe QUESTIONS.md). Massgebend ist
+heute ohnehin **EN-102 (2018), Typ 5 Fensteranschlag: Ψ ≤ 0,15 W/(m·K)** →
+`[[enfk-en-102-waermeschutz-2018]]`. Die Zahlenwerte unten sind Grössenordnungen; für die
+Baueingabe gilt die Simulation nach geltender Norm.
 
 ## Anschlagsarten im Überblick (Gruppe 4.1, Zwischenleibungsanschlag)
 Der Katalog unterscheidet nach Lage des Fensterrahmens in der Fensterlaibung:

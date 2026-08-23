@@ -3,6 +3,8 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Wissens-Health-Check (Phase 1): A0 B4 C0 D0 E0 F2 G0 — Top: Umlaut-Ersatzschreibung aus dem 01.08.-Befund weiterhin in ~340 Stellen (23/26 Artikel, Front- und Fliesstext), zwei liegen gebliebene Frontmatter-/Backlink-Befunde aus dem 03.08.-Report (rechtsschutz-und-rechtsmittelverfahren ohne title:, wohnhygiene-Konventionsfehler [[…]] auf raw/-Datei), sonst sehr guter Zustand nach der Bundesrechts-Re-Verifikationskette Runs 90-104 (0 Widersprüche, 0 unbelegte Claims, 0 RAW-Lücken, 0 veraltete Artikel, 0 fällige Promotion). Report outputs/2026-08-24_health-check.md. Nur-Audit, keine Aktionen.
+
 ## 2026-08-23 — Buch-Run 104: BEZ 2019 Nr. 5 (Absturzsicherung Altbau) erstmals im Volltext gelesen — § 358-PBG-Fall statt § 357, 15-%-Schwelle im Entscheid nicht erwähnt
 
 - **Anlass:** Reglemente-Queue 2414 Thalwil (T1-T9) und die Modell-D-Re-Verifikationskette
