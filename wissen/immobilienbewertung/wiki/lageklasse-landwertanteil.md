@@ -129,6 +129,90 @@ Material fuer die unten offene Kalibrierung.
 *Quelle: Statistik Stadt Zuerich / Open Data Zuerich, Datensatz `…od5144`, CSV-Stand
 05.02.2026, Lizenz CC0; heruntergeladen und ausgewertet 23.08.2026.*
 
+## Erste Spiegelung der Methode gegen amtliche Bodenpreise (23.08.2026)
+
+Der unten seit dem 10.06.2026 offene Punkt lautet: «LK-Beispielrechnung an einem realen JANS-Objekt
+gegen Bodenpreis-Vergleichswert spiegeln, um die Methode zu kalibrieren.» Mit den amtlichen
+Bodenpreis-Medianen aus [[amtliche-preisstatistik-zh]] geht das jetzt — nicht an einem Objekt,
+sondern **regional über den ganzen Kanton**, was als Plausibilitätsprüfung der Skala sogar mehr
+aussagt als ein Einzelfall.
+
+### Rechenweg
+
+Die Formel oben, nach dem Landwertanteil aufgelöst und auf einen Quadratmeter **Grundstück**
+bezogen:
+
+```
+Landwert je m² Grundstück  =  Anteil(LK) × Neuwert je m² GF × AZ
+→  Anteil(LK)  =  Bodenpreis je m² Grundstück  /  (Neuwert je m² GF × AZ)
+```
+
+**Neuwert-Ansatz:** Tab. 8 bezieht sich auf **BKP 2, 4 + 5**. Der JANS-Kennwert lautet auf
+**BKP 2 = 3'365 CHF/m² GF** (Preisstand 2025); umgerechnet über die BKP-Anteilsstruktur der
+ZIW-Revision 2025 (BKP 2 = 89.374 %, BKP 4 = 2.808 %, BKP 5 = 1.894 % des Totals) ergibt das
+**BKP 2, 4 + 5 = 3'542 CHF/m² GF** (Faktor 1.053).
+
+### Ergebnis — was der amtliche Bodenpreis für den Landwertanteil bedeutet
+
+Bodenpreis-Mediane Kanton ZH 2021–2025 (effektiv, 5-Jahres-Pool). In Klammern die zugehörige
+Lageklasse nach Tab. 8:
+
+| Region | Bodenpreis-Median | AZ 0.4 | AZ 0.6 | AZ 0.8 | AZ 1.0 |
+|---|---|---|---|---|---|
+| Stadt Zürich | 6'747 | **476 %** (>10) | **317 %** (>10) | **238 %** (>10) | **190 %** (>10) |
+| Seegemeinden | 3'115 | **220 %** (>10) | 147 % (9.5) | 110 % (8.5) | 88 % (7.0) |
+| Stadt Winterthur | 2'087 | 147 % (9.5) | 98 % (8.0) | 74 % (7.0) | 59 % (6.0) |
+| Agglomerationsgemeinden | 2'065 | 146 % (9.5) | 97 % (8.0) | 73 % (7.0) | 58 % (6.0) |
+| Landgemeinden | 1'039 | 73 % (7.0) | 49 % (5.0) | 37 % (4.0) | 29 % (4.0) |
+| **Kanton Zürich** | 1'742 | 123 % (9.0) | 82 % (7.0) | 61 % (6.0) | 49 % (5.0) |
+
+**Tab.-8-Obergrenze: LK 10.0 = 166.67 %.**
+
+### Zwei Befunde
+
+**1 · Für die Stadt Zürich sprengt der amtliche Bodenpreis die Skala — bei jeder Ausnützung.**
+Selbst bei AZ 1.0 verlangt der Median einen Landwertanteil von **190 %**, während Tab. 8 bei
+**166.67 %** (LK 10) endet. Bei einer für Wohnzonen realistischen AZ von 0.6 sind es **317 %** —
+das Doppelte des Skalenmaximums. **Die Lageklassenmethode nach Naegeli kann Stadtzürcher
+Bodenpreise nicht abbilden.** Das deckt sich mit dem Vorbehalt, der oben schon steht («bei
+zentralen/knappen Lagen liefert der Vergleichs- bzw. Residualwert den besseren Landwert»), gibt ihm
+aber erstmals eine Zahl: es ist **kein Genauigkeitsproblem, sondern ein Skalen-Anschlag**.
+
+**2 · Die Verschiebung reicht weiter hinunter als erwartet.** Bei AZ 0.6 landen **gewöhnliche
+Agglomerationsgemeinden bei LK 8.0** — genau dem Punkt, den dieser Artikel oben als «typisch für
+zentrale Stadtlagen mit Ausnützungsreserven» beschreibt, weil dort der Landwert 100 % des Neuwerts
+erreicht. Eine durchschnittliche Zürcher Vorortsgemeinde ist keine zentrale Stadtlage. Wer die LK
+nach den Kriterien von Tab. 6 vergibt (allgemeine Lage, individuelle Lage, Verkehr, Markt) und für
+eine solche Gemeinde etwa **LK 5 bis 6** einstuft, kommt auf einen Landwert von **918 bis 1'211
+CHF/m²** — gegen einen amtlichen Median von **2'065**. **Faktor rund zwei.**
+
+### ⚠ Was diese Rechnung ist und was nicht
+
+Sie ist eine **Sensitivitätsrechnung, kein Kalibrierungsergebnis.** Vier Annahmen tragen sie, und
+alle vier sind zu nennen, wenn man sie zitiert:
+
+1. **Die AZ treibt das Ergebnis linear.** Deshalb ist sie als Band von 0.4 bis 1.0 geführt und
+   nicht als ein Wert. Nur der Stadt-Zürich-Befund ist über das **ganze** Band robust.
+2. **Der Neuwert-Kennwert 3'365 ist ein EFH/ZFH-Wert** (JANS-Kalkulationsblatt) und trägt selbst
+   den offenen Punkt **D16** (der BKP-2-Anteil von 75 % darin weicht von zwei Strukturquellen ab).
+   Für ein MFH läge er anders.
+3. **Median gegen Median.** Der Bodenpreis-Median läuft über alle Zonen einer Region, die AZ
+   variiert damit mit. Es ist kein objektscharfer Vergleich.
+4. **«Anrechenbare» Geschossfläche ≠ ganze GF.** Die AZ bezieht sich auf die anrechenbare
+   Geschossfläche; Untergeschosse und nicht anrechenbare Flächen verschieben das Verhältnis.
+
+**Was daraus folgt — und was nicht.** Es folgt **nicht**, dass Tab. 8 falsch ist: die Tabelle ist
+methodisch stabil und bildet ein Verhältnis ab, das für ihre Entstehungszeit stimmig war. Es folgt
+aber, dass sie **im heutigen Zürcher Markt als eigenständige Landwertermittlung nicht taugt** — sie
+bleibt ein **Plausibilisierungsinstrument**, und die Plausibilisierung muss in der richtigen
+Richtung gelesen werden: liegt der aus Tab. 8 hergeleitete Landwert deutlich **unter** dem
+regionalen Bodenpreis-Median, ist das der Normalfall und kein Warnsignal.
+
+**Offen und an Raphael:** ob für JANS-Bewertungen ein **eigener, kalibrierter Anteilsschlüssel**
+sinnvoll wäre (Tab. 8 nach oben verlängert oder mit einem Regionalfaktor versehen) — oder ob die
+Methode konsequent nur noch als Plausibilisierung geführt und der Landwert grundsätzlich über
+Vergleichs- oder Residualwert bestimmt wird. Das ist ein Methodenentscheid, keine Recherche.
+
 ## Offen / zu vertiefen
 
 - ✓ 2026-06-10: LK→%-Tabelle (Tab. 8) und Lageklassenschluessel Wohnen/Gewerbe (Tab. 6/7)

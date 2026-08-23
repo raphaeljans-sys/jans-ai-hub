@@ -2,6 +2,36 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 7 — acht Gemeinden ohne jede Preisbasis haben jetzt eine)
+
+Die KB fuehrt Marktdatenblaetter fuer sieben ZH-Gemeinden. Fuer **acht weitere
+JANS-Bezugsgemeinden** gab es **keinerlei Preisdaten** — obwohl sie in [[az-gfz-kennwerte]] mit
+Dichtekennwerten gefuehrt werden und damit als Arbeitsgebiet belegt sind: **Horgen, Kilchberg,
+Kuesnacht, Meilen, Adliswil, Richterswil, Oberrieden, Niederhasli**. Aus der kantonalen
+Handaenderungsstatistik sind jetzt **Median und Quartile fuer EFH und Eigentumswohnungen** (Total,
+3 Jahre gepoolt 2025-2023) samt **Fallzahlen** eingearbeitet ([[amtliche-preisstatistik-zh]],
+Abschnitt 4c), mit einem Verweis im Sammel-Index `wiki/marktdaten-gemeinden/README.md`.
+
+**Der wichtigste Lesehinweis ist die Streuung.** Am Seeufer sind die Quartilsbaender riesig:
+**Kilchberg EFH 2.54 bis 6.66 Mio.** (Faktor 2.6), **Kuesnacht 2.80 bis 7.00 Mio.** (Faktor 2.5).
+Ein Median allein sagt dort fast nichts — die Mikrolage entscheidet ueber den Faktor 2, und genau
+das bildet das Quartilsband ab. **Immer mit Quartilen zitieren.**
+
+**Vorbehalte mitgeschrieben:** ⚠ **Oberrieden EFH n = 18** ueber drei Jahre ist die duennste Zeile
+(als Groessenordnung brauchbar, fuer eine Bewertung zu duenn — Nachbargemeinden mitlesen) · es sind
+**Totalpreise, keine CHF/m2**, ein direkter Vergleich mit den UBS-Quantilen ist nur ueber die
+implizite Flaeche moeglich und nur dort, wo ein Fact Sheet existiert · die Bodenpreise dieser
+Gemeinden sind **modelliert** (Abschnitt 2) · der Poolingzeitraum liegt vollstaendig im
+**provisorischen** Bereich der Quelle.
+
+**Was das aendert:** fuer ein Objekt in diesen acht Gemeinden musste bisher auf die Nachbargemeinde
+oder einen Kantonswert ausgewichen werden. Das ist nicht mehr noetig. **Ein Fact Sheet ersetzt das
+nicht** — dort stehen CHF/m2-Quantile, Mietniveau und Angebotsdaten; geschlossen ist die Luecke
+beim **Niveau-Anker**.
+
+Geaenderte Dateien: `wiki/amtliche-preisstatistik-zh.md` (Abschnitt 4c),
+`wiki/marktdaten-gemeinden/README.md`.
+
 ## 2026-08-23 (Vertiefungslauf 6 — D16 neu: der BKP-2-Anteil von 75 % weicht um 15 Prozentpunkte ab)
 
 Beim Abgleich der heute in `grobkosten` eingearbeiteten **amtlichen BKP-Anteilsstruktur** gegen die

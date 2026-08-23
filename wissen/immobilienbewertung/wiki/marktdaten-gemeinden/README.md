@@ -74,3 +74,15 @@ Spaltenlogik der Quantile ist identisch.
 - **Datenquellen je FS**: Preise/Standortratings/Baulandpreise/Angebotsmengen = Wüest Partner;
   Bevölkerung/Bestand/Leerstand/Bauinvestitionen = BFS; Bauland-Zonen = ARE; Steuern = ESTV;
   PLZ = Post. Herausgeber UBS CIO GWM.
+
+## Gemeinden ohne Fact Sheet — amtliche Preisbasis seit 23.08.2026
+
+Für acht JANS-Bezugsgemeinden gibt es **kein UBS-Blatt**, aber seit dem 23.08.2026 eine amtliche,
+gemeindescharfe Preisbasis aus der **Handänderungsstatistik des Kantons Zürich**: **Horgen ·
+Kilchberg · Küsnacht · Meilen · Adliswil · Richterswil · Oberrieden · Niederhasli**. Median und
+Quartile für EFH und Eigentumswohnungen (Verkaufspreise total, 3 Jahre gepoolt) samt Fallzahlen
+stehen in [[amtliche-preisstatistik-zh]], Abschnitt 4c.
+
+⚠ **Sie ersetzt kein Fact Sheet.** Die kantonale Statistik liefert **Totalpreise**, das Fact Sheet
+**CHF/m²-Quantile plus Mietniveau und Angebotsdaten**. Für den Niveau-Anker ist die Lücke
+geschlossen, für eine vollständige Marktbeschreibung nicht.

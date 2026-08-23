@@ -218,6 +218,50 @@ Fallzahlen je Pool: EFH 38–95, EW 99–258 — tragfähig.
    n = 26–33 pro Jahr. In Regensdorf sind 2021–2023 gar nicht publiziert (n = 12–13, unter der
    Publikationsschwelle). **Immer den 3-Jahres-Pool verwenden**, nie ein Einzeljahr.
 
+## 4c · Acht JANS-Gemeinden hatten bisher gar keine Preisdaten in dieser KB (neu 23.08.2026)
+
+Die KB führt Marktdatenblätter für sieben ZH-Gemeinden (Zollikon, Langnau a.A., Thalwil,
+Wädenswil, Maur, Regensdorf, Wald). Für acht weitere JANS-Bezugsgemeinden gab es **keinerlei
+Preisdaten** — obwohl sie in [[az-gfz-kennwerte]] mit Dichtekennwerten geführt werden und damit
+als Arbeitsgebiet belegt sind. Diese Lücke ist geschlossen.
+
+**Verkaufspreise in CHF total, 3 Jahre gepoolt (2025–2023), Median mit Q25 und Q75:**
+
+| Gemeinde | Region | EFH Q25 | **EFH Median** | EFH Q75 | n | EW Q25 | **EW Median** | EW Q75 | n |
+|---|---|---|---|---|---|---|---|---|---|
+| Küsnacht | See | 2'800'000 | **4'350'000** | 7'000'000 | 65 | 1'721'250 | **2'675'000** | 3'387'500 | 134 |
+| Kilchberg | See | 2'537'500 | **3'800'000** | 6'662'500 | 30 | 2'350'000 | **2'920'000** | 4'190'000 | 73 |
+| Oberrieden | See | 2'550'000 | **3'687'500** | 4'560'000 | **18** | 1'285'000 | **1'840'000** | 2'500'000 | 49 |
+| Meilen | See | 2'117'500 | **2'800'000** | 3'505'000 | 55 | 1'585'000 | **2'210'000** | 2'910'000 | 159 |
+| Adliswil | Agglo | 1'875'000 | **2'250'000** | 2'750'000 | 47 | 867'000 | **1'420'000** | 2'000'000 | 109 |
+| Horgen | See | 1'689'550 | **2'070'500** | 2'650'000 | 102 | 1'099'475 | **1'505'000** | 2'028'000 | 294 |
+| Richterswil | See | 1'530'000 | **1'772'500** | 2'634'500 | 74 | 967'000 | **1'350'000** | 1'750'000 | 133 |
+| Niederhasli | Agglo | 1'085'000 | **1'300'000** | 1'550'000 | 91 | 698'750 | **865'000** | 1'020'000 | 60 |
+
+**Wie das zu lesen ist — und wie nicht.**
+
+- **Immer mit Quartilen zitieren.** Die Spannweiten sind gewaltig: in **Kilchberg** reicht das
+  EFH-Quartilsband von 2.54 bis 6.66 Mio. (Faktor 2.6), in **Küsnacht** von 2.80 bis 7.00 Mio.
+  (Faktor 2.5). Ein Median allein sagt an einem Seeufer-Standort fast nichts — dort entscheidet die
+  Mikrolage (Seeanstoss, Hangkante, Aussicht) über den Faktor 2, und genau diese Streuung bildet
+  das Quartilsband ab.
+- ⚠ **Oberrieden EFH: n = 18** über drei Jahre, die dünnste Zeile der Tabelle. Der Median 3'687'500
+  ist als Grössenordnung brauchbar, für eine Bewertung aber zu dünn — dort die Nachbargemeinden
+  (Horgen, Thalwil) mitlesen.
+- **Es sind Totalpreise, keine CHF/m².** Ohne Flächenangabe ist kein Vergleich mit den
+  UBS-Fact-Sheet-Quantilen möglich; der Umweg über die implizite Fläche (Abschnitt 4) funktioniert
+  nur dort, wo ein Fact Sheet existiert.
+- **Die Bodenpreise dieser Gemeinden stehen in Abschnitt 2** — und sind dort **modellierte** Werte;
+  für einen Landwert gilt die regionale 5-Jahres-Reihe aus Abschnitt 1.
+- Der Poolingzeitraum **2023–2025 liegt vollständig im provisorischen Bereich** der Quelle
+  (Abschnitt 5).
+
+**Praktische Folge:** für ein Objekt in Horgen, Kilchberg, Küsnacht, Meilen, Adliswil, Richterswil,
+Oberrieden oder Niederhasli musste bisher auf die Nachbargemeinde oder auf einen Kantonswert
+ausgewichen werden. Das ist nicht mehr nötig — es gibt jetzt eine amtliche, gemeindescharfe
+Preisbasis mit Fallzahlen. Sie **ersetzt kein Fact Sheet** (dort stehen CHF/m²-Quantile,
+Mietniveau und Angebotsdaten), aber sie schliesst die Lücke für den Niveau-Anker.
+
 ## 5 · Vorbehalte der Quelle selbst
 
 1. **Die letzten drei Jahre und das laufende Jahr sind provisorisch.** Die Quelle nennt den Grund:
