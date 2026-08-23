@@ -4,6 +4,30 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-23 (Mac Mini Nachtschicht, 05:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung wie in den Vorlaeufen (Prioritaeten 1-4 leer/gesaettigt: keine pending remote-/
+sync-Tasks; Synobsis Stufe 2 vollstaendig 853/853 verarbeitet, `vectors.npz` zuletzt 22.08.
+13:31 geschrieben, kein neuer Stoff; keine freie KB mit eigenem `training/PROGRAMM.md` ohne
+Taktgeber). Auf Prioritaet 5 ausgewichen, vier weitere offene Identitaetsfragen aus
+`wiki/QUESTIONS.md` per WebSearch geklaert (direkt im Hauptkontext, kein Fan-out):
+
+- **Kai_Fisker / Kay_Fisker** → bestaetigt: Kay Fisker (1893-1965), daenischer Architekt und
+  Silberschmied, Professor an der Kunstakademiets Arkitektskole Kopenhagen; «Kai» ist ein
+  Schreibfehler, kein Doppelname.
+- **Rocha_Tombai** → bestaetigt: Rocha Tombal Architecten, Amsterdam (Ana Rocha, Michel
+  Tombal); Schreibweise «Tombal» bestaetigt.
+- **Reinhard_Fabio** → bestaetigt: Fabio Reinhart (*1942) und Bruno Reichlin (*1941), Schweizer
+  Architekten-Duo Lugano, Tendenza/Neo-Rationalismus (Casa Tonini, Casa Sartori); Vorname-
+  Schreibfehler «Reinhard» statt «Reinhart» bestaetigt.
+- **Sassenroth_Peter_Teitermann** → bestaetigt: Reitermann Sassenroth Architekten Berlin
+  (Rudolf Reitermann, Peter Sassenroth), Kapelle der Versoehnung Bernauer Strasse (2000);
+  Schreibfehler «Teitermann» statt «Reitermann» bestaetigt.
+
+Details je Frage in `wiki/QUESTIONS.md`, Sektion 2, mit Quellenangabe direkt an der jeweiligen
+Frage. Keine Ordnerumbenennung vorgenommen (Umbenennungen bleiben Freigabesache Raphael), kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+
 ## 2026-08-23 (Mac Mini Nachtschicht, 02:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung wie in den Vorlaeufen desselben Formats (Prioritaeten 1-4 leer/gesaettigt:
