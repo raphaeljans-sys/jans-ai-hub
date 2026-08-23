@@ -289,7 +289,9 @@ Dach, Nachbarschaft in Empfindlichkeitsstufe III, 120 m Abstand):
 
 - **Ausgangslage**: 6 mechanisch verbundene Standard-Rückkühler, davon max. 4 gleichzeitig auf
   Volllast (2 Ausfallreserve), rund um die Uhr in Betrieb. Schalldruckpegel nach **EN 13487**
-  (Herstellernorm für Rückkühler), Nennleistung **100 bis 400 kW je Gerät**, Lp in 10 m Abstand
+  (Herstellernorm für Rückkühler; aktuelle Ausgabe **EN 13487:2019**, verifiziert 23.08.2026 in
+  KB `normen`, `wissen/normen/destillate/en-13487-2019.md`), Nennleistung **100 bis 400 kW je Gerät**,
+  Lp in 10 m Abstand
   **51 bis 58 dB(A)**. Bei Volllast (4 Geräte, je 58 dB(A)) ergibt sich ein Summenpegel von
   **64 dB(A)** in 10 m.
 - **Ergebnis ohne Massnahmen**: Beurteilungspegel **Lr = 54,4 dB(A)** in der Nacht — **überschreitet

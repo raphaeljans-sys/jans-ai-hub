@@ -2509,6 +2509,23 @@ der ursprünglichen Fundmeldung.
      eine Fehlabwertung einer als SN übernommenen Schweizer Norm und sachlich gewichtiger als die
      W3-Lücke.
 
+   ⚠ **SCOPE-FRAGE NICHT SELBST ENTSCHIEDEN (23.08.2026, QUESTIONS-Abarbeitung 10).** Der
+   SIA-Sweep, vierzehnte Fortsetzung, hatte diesen Punkt als «Scope-Frage für den nächsten Lauf»
+   vorgemerkt. Geprüft: der Skill `normen` definiert seinen Router-Scope explizit als
+   **«SIA, VKF, DIN, VSS, RAL»** (SKILL.md-Beschreibung) — **SVGW steht nicht in dieser Liste**.
+   Eine eigenmächtige Aufnahme von SVGW-Normen ins REGISTER dieser KB wäre damit eine
+   Scope-Erweiterung, keine reine Bring-Schuld-Erledigung; nach Rule `wissens-bibliothekar`
+   (Pause vor Destruktivem/Umbau) und der Vorsicht bei Struktur-Entscheiden (vgl. Befund 3,
+   Run 31, PL-02-Reichweite «nicht vom Loop zu entscheiden») bleibt das bei Raphael.
+   **Empfehlung, nicht selbst umgesetzt:** (a) SVGW als sechste Familie in den Skill-Scope
+   aufnehmen (dann gehören die oben gelisteten Lücken systematisch hierher) — **oder**
+   (b) SVGW bewusst ausserhalb belassen und die Trinkwasser-/Sanitär-Normen dort führen, wo sie
+   heute schon entstehen (`energie`, ggf. eigene KB `sanitaer`/`haustechnik`). **Sonderfall TPW
+   2001/1 bleibt unabhängig von dieser Scope-Frage tragfähig:** der Volltext liegt bereits in
+   `energie` gelesen vor (Destillat `regenwassernutzung-brauchwasser-trinkwasserersatz-ch`,
+   Run 119) — dort fehlt nur eine Verweiszeile auf die amtliche SVGW-Produktnummer (W10001 d),
+   was `energie` selbst nachtragen kann, ohne dass `normen` seinen Scope erweitert.
+
 ## 2026-07-31 (Cross-KB planungsgrundlagen → normen, Wettbewerbs-Scan Grassenbiwak) — zwei Fundstellen-Schulden BSR 16-15 — BEIDE GESCHLOSSEN 29.07.2026, siehe Run 36 oben
 
 Angemeldet in der **Empfänger-KB** (Regel aus Run 8). Auslöser: Brandschutz-Scan des
@@ -2559,8 +2576,25 @@ Angemeldet in der **Empfänger-KB**, nicht als Notiz in der abgebenden (Regel au
    Herstellernorm für Rückkühler-Schalldruckpegel zitiert — **ohne Ausgabejahr**, und von dort ins
    Wiki `waermepumpen-laermschutz.md:110` übernommen. Ausgabe verifizieren (nicht raten), ins
    REGISTER aufnehmen, Rückverweis setzen.
+   ✅ **AUSGABE GEKLÄRT 23.08.2026 (QUESTIONS-Abarbeitung 10).** DIN-Media-Produktseite
+   `dinmedia.de/en/standard/din-en-13487/306264766` per WebFetch abgerufen: **DIN EN 13487:2019-11**
+   (dt. Fassung EN 13487:2019), ersetzt DIN EN 13487:2004-03 (EN 13487:2003). `wiki/REGISTER.md`
+   (Abschnitt «QUESTIONS-Abarbeitung 10») und neuer Stub `destillate/en-13487-2019.md`
+   (`status: speculative`, nur Ausgabe/Titel belegt, Volltext nicht im Haus) angelegt. Beide
+   Abnehmer-Fundstellen in `energie` (`rueckkuehler-flaechenkonkurrenz-pv-laermschutz.md`,
+   `wiki/waermepumpen-laermschutz.md`) im selben Lauf mit der Ausgabe nachgeführt. **Weiterhin
+   offen:** keine SN-EN-Übernahme geprüft; Volltext-Beschaffung bleibt Bring-Schuld Raphael.
 3. **EN 12102-1 fehlt ebenfalls (P2).** `grep "12102"` = 0 Treffer, obwohl das WP-Destillat der KB
    `energie` sie als Messnorm führt.
+   ✅ **AUSGABE GEKLÄRT 23.08.2026 (QUESTIONS-Abarbeitung 10).** DIN-Media-Produktseite
+   `dinmedia.de/en/standard/din-en-12102-1/349451100` per WebFetch abgerufen, gegenbestätigt über
+   `webstore.ansi.org/standards/din/dinen121022018de`: **DIN EN 12102-1:2023-11** (dt. Fassung
+   EN 12102-1:2022), ersetzt DIN EN 12102-1:2018-02 (EN 12102-1:2017). `wiki/REGISTER.md`
+   (Abschnitt «QUESTIONS-Abarbeitung 10») und neuer Stub `destillate/en-12102-1-2022.md`
+   (`status: speculative`, nur Ausgabe/Titel belegt, Volltext nicht im Haus) angelegt. Abnehmer
+   `energie/destillate/cerclebruit-vollzugshilfe-waermepumpen-laermschutz.md:39` im selben Lauf
+   mit der Ausgabe nachgeführt. **Weiterhin offen:** keine SN-EN-Übernahme geprüft; Volltext-
+   Beschaffung bleibt Bring-Schuld Raphael.
 
 *Abgrenzung:* die **Cercle-Bruit-Vollzugshilfen 6.20/6.21** sind amtsnahe Vollzugshilfen, keine
 Normen — sie bleiben zu Recht in `energie` und gehören nicht ins REGISTER.

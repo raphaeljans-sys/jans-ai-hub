@@ -726,6 +726,17 @@ DIN 4102-1, SN 640 060), Qualität entspricht dem KB-Standard — jetzt nachgezo
 |---|---|---|---|
 | SN EN 520 (DIN EN 520) Gipsplatten — Begriffe, Anforderungen, Prüfverfahren | 2004+A1:2009 (dt. Fassung DIN EN 520:2009-12) | EN 520:2004 (ohne A1) | **nicht im JANS-Bestand** (SharePoint PL-02 02_Normen/DIN_Norm geprüft, 72 Dateien, EN 520 fehlt); nur kostenpflichtig verfügbar (Beuth/DIN Media/SNV) — kein Kauf ohne Freigabe. Öffentliche Vorschau bestätigt Ziffer 4.13 «Definierte Dichte (Typ D)» als Fundstelle; Typenbuchstaben lt. Vorschau A/D/E/F/H1-3/I/P/R (bisheriges Wiki nur A/D/F/H/I/R). Details/Praxis: [[en-520-gipsplattentypen]]. |
 
+## QUESTIONS-Abarbeitung 10 (23.08.2026 — zwei Cross-KB-Bring-Schulden aus `energie` Run 18, nur Ausgabe/Titel verifiziert, kein Kauf)
+
+Beide Normen waren in `energie` seit dem 27.07.2026 (Run 18) ohne Ausgabejahr zitiert; hier zum
+ersten Mal ins REGISTER aufgenommen. Quelle je DIN-Media-Produktseite (WebFetch), Bestandssuche in
+PL-02/PL-03 nicht wiederholt (die Normen wurden schon in Run 18 als fehlend bestätigt).
+
+| Norm | Ausgabe | Ersetzt | Bemerkung |
+|---|---|---|---|
+| DIN EN 13487 Wärmeübertrager — Ventilatorbelüftete Kältemittelverflüssiger und Trockenkühltürme — Schallmessung | **2019-11** (dt. Fassung EN 13487:2019) | DIN EN 13487:2004-03 (dt. Fassung EN 13487:2003) | **nicht im JANS-Bestand**, nur kostenpflichtig verfügbar (DIN Media) — kein Kauf ohne Freigabe. Quelle `dinmedia.de/en/standard/din-en-13487/306264766`, per WebFetch abgerufen 23.08.2026. Herausgeber empfiehlt die Norm ausdrücklich als Ersatz für die zurückgezogene DIN 45635-14:1980-07. Zitiert in `energie` als Herstellernorm für Rückkühler-Schallleistungspegel (Cercle-Bruit-6.20-Fallbeispiel). Details: [[en-13487-2019]] |
+| DIN EN 12102-1 Luftkonditionierer, Flüssigkeitskühlsätze, Wärmepumpen, Prozesskühler und Entfeuchter — Bestimmung des Schallleistungspegels — Teil 1 | **2023-11** (dt. Fassung EN 12102-1:2022) | DIN EN 12102-1:2018-02 (dt. Fassung EN 12102-1:2017) | **nicht im JANS-Bestand**, nur kostenpflichtig verfügbar (DIN Media) — kein Kauf ohne Freigabe. Quelle `dinmedia.de/en/standard/din-en-12102-1/349451100`, gegenbestätigt über `webstore.ansi.org/standards/din/dinen121022018de`, per WebFetch abgerufen 23.08.2026. Zitiert in `energie` als Messnorm für Wärmepumpen-Schallleistungspegel (Cercle-Bruit-6.21-Formel). Details: [[en-12102-1-2022]] |
+
 ## Run-3-Präzisierungen (12.07.2026, MacBook Pro — am Original verifiziert)
 
 P2-SIA-Batch (Tragwerk 260–267, Hindernisfrei/Sicherheit/Boden/Abdichtung/Dach/Fassade).

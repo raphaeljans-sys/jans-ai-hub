@@ -107,7 +107,9 @@ Für Rückkühlwerke von Kälte-/Serverraumanlagen gilt **dieselbe Rechtsgrundla
 aber eine eigene, sehr aktuelle Vollzugshilfe: **Cercle Bruit 6.20 (Ausgabe 23.09.2025)**, nicht
 6.21 (das ist die Vollzugshilfe für kleine Wärmepumpen). Sie nennt Rückkühlanlagen explizit und
 rechnet in Anhang 2 Ziff. 4 ein direkt einschlägiges Fallbeispiel durch: ein Rechenzentrum mit
-4-6 Rückkühlern à 100-400 kW (Normreferenz EN 13487) überschreitet bei Volllast den nächtlichen
+4-6 Rückkühlern à 100-400 kW (Normreferenz EN 13487, aktuelle Ausgabe EN 13487:2019 —
+verifiziert 23.08.2026 in KB `normen`, `wissen/normen/destillate/en-13487-2019.md`) überschreitet
+bei Volllast den nächtlichen
 Planungswert der Empfindlichkeitsstufe III (50 dB(A)) auf 54,4 dB(A); durch **Drehzahlreduktion**
 bei gleichzeitig mehr parallel laufenden Geräten sinkt der Pegel auf 47,4 dB(A) — ein konkretes,
 übertragbares Betriebsmuster für die Nachtabsenkung grosser Kälteanlagen. Ein Schweizer amtlicher

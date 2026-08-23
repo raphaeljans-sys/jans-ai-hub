@@ -36,7 +36,9 @@ Leq = LWA2°C − 11 dB + DC − 20·log(s / s0)
 ```
 - `LWA2°C` = A-bewerteter Schallleistungspegel der Wärmepumpe **bei 2 °C Aussentemperatur**
   (seit 1.11.2024 massgebend, zuvor andere Referenztemperatur) — aus dem Schalldaten-Verzeichnis
-  der FWS, ersatzweise Herstellerangabe nach Messnorm EN 12102-1.
+  der FWS, ersatzweise Herstellerangabe nach Messnorm EN 12102-1 (aktuelle Ausgabe
+  **EN 12102-1:2022**, verifiziert 23.08.2026 in KB `normen`,
+  `wissen/normen/destillate/en-12102-1-2022.md`).
 - `DC` = Richtwirkungsmass, abhängig vom Aufstellungsort: **freistehend (≥3 m zur Wand) +3 dB**,
   **an der Wand +6 dB** (weitere Zuschläge bei einspringender Fassadenecke bzw. wenn Quelle und
   Empfangsort an derselben Fassade liegen).
