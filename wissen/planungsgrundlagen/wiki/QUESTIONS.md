@@ -67,6 +67,69 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
 > allein im Laufbericht verpufft.
 
+## Lauf 2026-08-23 (Vertiefungslauf 7 Revendo, Auftrag Raphael) — die vier bisher ungeprüften Connectoren; OEREB ist auch maschinenlesbar zu haben
+
+**Auftrag:** wie Lauf 6 — Endpunkte, Links und Connector-Wege verifizieren, belegt arbeiten.
+**Winkel:** Lauf 6 hat die Nutzdaten von `geo-zh.mjs` und den Bund-Endpunkten gemessen. Die
+**vier anderen** Connectoren dieses Skills (`geo-sz`, `gwr-bund`, `geoshop-zh`, `behoerden-zh`)
+waren nie auf Nutzdatenebene geprüft. Dieser Lauf hat das nachgeholt.
+
+### Befund 1 (neue Fähigkeit) — beide OEREB-Services liefern auch JSON und XML
+
+Die KB kannte für ZH und SZ nur den **PDF**-Endpunkt. Gemessen am 23.08.2026 antworten beide
+Services zusätzlich login-frei auf `extract/json` (ZH 38'303 B · SZ 28'017 B), `extract/xml`
+(80'495 B · 54'135 B), `capabilities/json` und `versions/json`. Der Standardpfad
+`extract/reduced/json/<EGRID>` gibt bei beiden **404** — nicht verwenden. Der JSON-Auszug führt
+Parzelle, Fläche, jede Beschränkung mit Typ/Flächenanteil/Prozent, zuständige Stelle und die
+Rechtsvorschriften mit Links. Dokumentiert in [[kartenportale-oereb-egrid-bezug]].
+
+### Befund 2 (rechtlich relevant) — «nicht betroffen» ≠ «keine Daten»
+
+Der Auszug kennt **drei** Kategorien; die dritte, `ThemeWithoutData`, ist **keine Aussage über
+die Parzelle**, sondern über die Datenabdeckung der Gemeinde. Gemessen: **Wangen (1349)**,
+**Schwyz (1372)** und **Freienbach (1322)** führen `ch.Gewaesserraum` ohne Daten, **Einsiedeln
+(1301)** und **Langnau a.A. (ZH)** haben alle 26 Themen. Im PDF stehen die zweite und dritte
+Liste direkt untereinander auf Seite 2.
+
+Besonders heikel, weil § 4 Abs. 2 PBG SZ sagt, wo auf die Festlegung des Gewässerraums
+**verzichtet** wurde, sei kein Gewässerabstand einzuhalten — das fehlende Thema sieht also wie
+die Bestätigung genau dieses Falls aus. Vorbehalt in
+[[recht-norm-abstandsvorschriften-wald-gewaesser]] Abschnitt 4 gesetzt; `geo-sz.mjs --oereb`
+warnt seit diesem Lauf selbst (nachgemessen: Wangen warnt, Einsiedeln nicht).
+
+### Befund 3 (Werkzeug-Falle) — ZH und SZ implementieren denselben Standard unterschiedlich
+
+Wrapper `Extract` (ZH) gegen `extract` (SZ), Theme-Code `code` (ZH, zusätzlich `SubCode`) gegen
+`Code` (SZ). Beide Abweichungen sind **stumm**: der falsche Schlüssel liefert `undefined`, keine
+Ausnahme — die Auswertung meldet dann «keine Themen betroffen». Wer ein Script baut: gegen
+**beide** Kantone testen.
+
+### Befund 4 (präzisiert einen Befund vom selben Tag) — das behoerden-Manifest wandert doch
+
+Der Vermerk aus Vertiefungslauf 1 («Vergleichsstand wandert nie zwischen den Stationen») gilt
+nur für den **SSD-Klon**. Der Ablageort ist relativ zum ausgeführten Connector; aus dem
+kanonischen **NAS-Pfad** gestartet — wie es der Scheduled Task tut — liegt das Manifest auf dem
+NAS und ist allen Stationen gemeinsam. Es existiert dort, **Stand 13.08.2026, 33 Einträge**.
+Derselbe `--check` gegen die NAS-Basis meldet **33 aktuell · 0 geändert · 0 neu · 0 TOT**, gegen
+den SSD-Klon «33 neu». Die Änderungserkennung ist also intakt; `--check` legt nur nie selbst
+eine Basis an (nur `--sync` schreibt, Z. 195-197). **Sachbefund:** alle 33 Behördendokumente
+sind seit dem 13.08.2026 byte-identisch, kein toter Link.
+
+### Bestätigt ohne Delta
+
+`gwr-bund --egid 302064023` (KISPI: 18'042 m², 362'570 m³, EBF 78'834 m² — identisch zum
+Artikel), `geo-sz --parzelle` (EGRID `CH379377805305` identisch), `geoshop-zh --list`
+(Produkt 10016, Format 25 = DXF), PDF-Inhalt Wangen 25 (6 Seiten, Wohn- und Gewerbezone 3,
+ES III, Baureglement 410/2014) — Letzteres mit einem eigenen ToUnicode-fähigen Extraktor
+gelesen, weil auf dieser Station weder poppler noch mutool liegt (dieselbe Lage wie bei PIL in
+Lauf 6).
+
+### Nebenbefund — OEREB-Bytezahlen sind kein Vergleichswert
+
+Derselbe SZ-Auszug, dreimal innerhalb einer Stunde bezogen: **509'074 B · 568 KB · 506'977 B**.
+Erstellungszeit und Auszugs-UUID stecken im Dokument. Vergleichbar sind der Themenstand und
+`UpdateDateCS`, nicht die Grösse.
+
 ## Lauf 2026-08-23 (Vertiefungslauf 6 Revendo, Auftrag Raphael) — erste funktionale Endpunktprüfung: zwei stumme Fehler gefunden, einer davon ein echter Connector-Bug
 
 **Auftrag:** wie Vertiefungslauf 1 — Endpunkte, Links und Connector-Wege verifizieren. **Neuer

@@ -1,8 +1,9 @@
 ---
 title: Abstands-Baumasse — Wald- und Gewässerabstand (ZH & SZ)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-23 (Vertiefungslauf 7: ThemeWithoutData-Vorbehalt zum Gewässerraum SZ ergänzt, Abschnitt 4)
 sources: [
+  "eigene OEREB-Messreihe 23.08.2026 (Vertiefungslauf 7): map.geo.sz.ch/oereb/extract/json, ThemeWithoutData an Wangen 1349 / Schwyz 1372 / Freienbach 1322 / Einsiedeln 1301",
   "PL-02/01_Gesetze/02_Zuerich/Wasser/AWEL_Merkblatt_Gewässerraum.pdf (AWEL/ARE, Juli 2014)",
   "zh.ch Merkblatt «Baugesuch im Waldabstand» (Abt. Wald, November 2018)",
   "zh.ch «Bauen im Wald und am Waldrand» (Stand 2026-07)",
@@ -203,6 +204,25 @@ ein Gewässer ökomorphologisch beeinträchtigt ist und damit ein Revitalisierun
 könnte (Art. 41a Abs. 3 GSchV: Gewässerraum kann dafür vergrössert werden) → Detail
 [[kartenportale-naturgefahren-objektschutz]] Abschnitt 6b. Status `emerging` — Layer belegt, aber
 noch keine Parzellen-Attributabfrage validiert.
+
+> ⚠ **Der OEREB-Auszug beantwortet die Gewässerraum-Frage in vielen SZ-Gemeinden NICHT
+> (gemessen 23.08.2026).** Der Auszug führt drei Kategorien: betroffen, nicht betroffen und
+> **«Themen, zu denen noch keine Daten vorhanden sind»**. In **Wangen (1349)**, **Schwyz (1372)**
+> und **Freienbach (1322)** steht `ch.Gewaesserraum` in der **dritten** Liste; in **Einsiedeln
+> (1301)** sind alle 26 Themen abgedeckt. Im PDF stehen die zweite und dritte Liste direkt
+> untereinander auf Seite 2.
+>
+> **Warum das hier besonders heikel ist:** Abs. 2 oben sagt, wo auf die Festlegung des
+> Gewässerraums **verzichtet** wurde, sei kein Gewässerabstand einzuhalten. Ein fehlender
+> Gewässerraum im OEREB-Auszug sieht damit wie die Bestätigung genau dieses Falls aus. **Er ist
+> es nicht:** «keine Daten im Kataster» und «Verzicht auf die Festlegung» sind verschiedene
+> Sachverhalte, und der Auszug unterscheidet sie nicht. Ob eine Gemeinde verzichtet hat oder den
+> Layer bloss noch nicht publiziert, ist aus dem Auszug **nicht** ablesbar und bei der Gemeinde
+> bzw. dem Amt für Wasserbau abzuklären.
+>
+> Maschinell prüfbar über `…/oereb/extract/json?EGRID=<EGRID>`, Feld `ThemeWithoutData`;
+> `geo-sz.mjs --oereb` warnt seit dem 23.08.2026 von sich aus. Endpunkte, Schema-Fallen und die
+> Messreihe: [[kartenportale-oereb-egrid-bezug]].
 
 ## 5. Merksatz für die Baufeld-Bestimmung
 

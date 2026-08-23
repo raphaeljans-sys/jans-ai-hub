@@ -2,6 +2,57 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 7 Revendo) — die vier bisher ungeprüften Connectoren; der OEREB-Auszug ist auch maschinenlesbar zu haben
+
+Lauf 6 hat die Nutzdaten von `geo-zh.mjs` und den Bund-Endpunkten gemessen. Die **vier anderen**
+Connectoren dieses Skills — `geo-sz`, `gwr-bund`, `geoshop-zh`, `behoerden-zh` — waren nie auf
+Nutzdatenebene geprüft. Dieser Lauf hat das nachgeholt. Kein Connector war defekt; gefunden wurde
+eine **nicht genutzte Fähigkeit** und eine **rechtlich heikle Fehllesbarkeit**.
+
+**Beide OEREB-Services liefern neben dem PDF auch JSON und XML.** Die KB kannte für ZH und SZ nur
+den PDF-Endpunkt. Gemessen: `extract/json` (ZH 38'303 B · SZ 28'017 B), `extract/xml`
+(80'495 · 54'135 B), `capabilities/json`, `versions/json` — alle login-frei, HTTP 200. Der im
+Bundesstandard vorgesehene Pfad `extract/reduced/json/<EGRID>` gibt bei **beiden** 404. Der
+JSON-Auszug enthält alles, was sonst aus dem PDF abgelesen wird, samt Rechtsvorschriften-Links.
+
+**«Nicht betroffen» und «keine Daten» sind zwei verschiedene Aussagen.** Der Auszug führt drei
+Kategorien; die dritte (`ThemeWithoutData`) sagt nichts über die Parzelle, sondern über die
+Datenabdeckung der **Gemeinde**. **Wangen (1349)**, **Schwyz (1372)** und **Freienbach (1322)**
+führen `ch.Gewaesserraum` ohne Daten; **Einsiedeln (1301)** und **Langnau a.A. (ZH)** haben alle
+26 Themen. Im PDF stehen die zweite und die dritte Liste direkt untereinander auf Seite 2.
+
+Das ist deshalb heikel, weil **§ 4 Abs. 2 PBG SZ** sagt, wo auf die Festlegung des Gewässerraums
+**verzichtet** wurde, sei kein Gewässerabstand einzuhalten — das fehlende Thema sieht also wie die
+Bestätigung genau dieses Falls aus. Es ist es nicht: ob eine Gemeinde verzichtet hat oder den
+Layer bloss noch nicht publiziert, ist aus dem Auszug **nicht** ablesbar. **Nicht behauptet** wird
+deshalb, welcher der beiden Fälle in Wangen, Schwyz und Freienbach vorliegt; das ist bei der
+Gemeinde abzuklären. Vorbehalt im Gewässer-Artikel gesetzt, `geo-sz.mjs --oereb` warnt seit diesem
+Lauf selbst (nachgemessen: Wangen warnt, Einsiedeln nicht).
+
+**Schema-Falle:** ZH kapselt in `Extract`, SZ in `extract`; der Theme-Code heisst bei ZH `code`
+(plus `SubCode`), bei SZ `Code`. Beide Abweichungen sind **stumm** — der falsche Schlüssel liefert
+`undefined`, und die Auswertung meldet dann «keine Themen betroffen».
+
+**Ein Vermerk vom selben Tag präzisiert:** der `behoerden-zh`-Vergleichsstand wandert doch zwischen
+den Stationen — über das **NAS**, nicht über Git. Aus dem kanonischen NAS-Pfad gestartet, liegt das
+Manifest dort (Stand **13.08.2026**, 33 Einträge) und ist allen Stationen gemeinsam; nur aus dem
+SSD-Klon heraus fehlt es. Gegen die NAS-Basis: **33 aktuell · 0 geändert · 0 neu · 0 TOT** — alle
+33 Behördendokumente seit dem 13.08. byte-identisch, kein toter Link.
+
+**Bestätigt ohne Delta:** `gwr-bund` (KISPI 18'042 m² / 362'570 m³ / EBF 78'834 m², identisch),
+`geo-sz --parzelle` (EGRID identisch), `geoshop-zh --list` (10016 / DXF), PDF-Inhalt Wangen 25
+(6 Seiten, Wohn- und Gewerbezone 3, ES III) — gelesen mit einem eigenen ToUnicode-fähigen
+Extraktor, weil auf dieser Station weder poppler noch mutool liegt.
+
+**Nebenbefund:** derselbe SZ-Auszug dreimal in einer Stunde bezogen ergab **509'074 B · 568 KB ·
+506'977 B**. Bei OEREB-PDF ist die Bytezahl kein Vergleichswert; vergleichbar sind Themenstand und
+`UpdateDateCS`.
+
+Geänderte Dateien: `skills/planungsgrundlagen/connectors/geo-sz.mjs` (Themenstand-Warnung, +51/−1),
+`wiki/kartenportale-oereb-egrid-bezug.md` (+112/−3), `wiki/recht-norm-abstandsvorschriften-wald-gewaesser.md`
+(+21/−1), `wiki/QUESTIONS.md` (Laufeintrag, append-only bestätigt), `CHANGELOG.md`. Alle Umfänge
+mit `git diff --numstat` gegen die Laufbasis `8f7a0da7` gemessen.
+
 ## 2026-08-23 (Vertiefungslauf 6 Revendo) — erste funktionale Endpunktprüfung: zwei stumme Fehler, davon ein echter Connector-Bug seit 06/2026
 
 Sechster Lauf am selben Auftrag, aber mit einem anderen Messmittel. Die bisherigen Endpunktläufe
