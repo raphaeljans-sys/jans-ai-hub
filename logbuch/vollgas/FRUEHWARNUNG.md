@@ -4,6 +4,152 @@ Still-by-default: pro Lauf ein datierter Einzeiler. Mail nur bei echtem Handlung
 Werte in Mio Tokens, «teuer» = input + cache_creation + output (die relevante Grösse;
 «total» ist von billigem cache_read dominiert).
 
+## 2026-08-23 07:15 — STILL (keine Mail)
+
+Messzeitpunkt 23.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
+`subagents/`, 415 Dateien im 9-Tage-Fenster MacBook Pro / 111 Mac Mini, Zeilenfilter
+je `timestamp[:10]`. Mac Mini über den Dual-Pfad-Alias `mini` gemessen (Skript via scp),
+Antwort sofort.
+
+### Verbrauch beide Stationen (Mio Tokens, teuer = in + cache_creation + out)
+
+| Tag | MBP teuer | MBP total | Mini teuer | Mini total | kombiniert teuer |
+|---|---|---|---|---|---|
+| 15.08. | 6.91 | 151.84 | 2.06 | 65.46 | 8.97 |
+| 16.08. | 8.40 | 170.91 | 2.41 | 73.54 | 10.81 |
+| 17.08. | 10.23 | 254.85 | 2.30 | 66.25 | 12.53 |
+| 18.08. | 5.22 | 119.87 | 1.09 | 33.12 | 6.31 |
+| 19.08. | 6.29 | 133.47 | 3.04 | 41.98 | 9.33 |
+| 20.08. | 8.68 | 209.49 | 1.90 | 51.42 | 10.58 |
+| 21.08. | 7.07 | 175.25 | 3.56 | 81.37 | 10.63 |
+| 22.08. | 7.90 | 238.93 | 0.93 | 20.20 | 8.83 |
+| 23.08. (bis 07:15) | 1.35 | 35.40 | 0.32 | 6.08 | 1.67 |
+
+Alle Tageswerte 15.–21.08. reproduzieren den gestrigen Eintrag exakt. Der **22.08.
+schliesst mit 8.83 kombiniert teuer**, der tiefste Vollwert seit dem 18.08. (6.31) und
+unter dem Wochenmittel. Der Mac Mini fiel deutlich zurück (3.56 auf 0.93), der MacBook
+Pro stieg leicht (7.07 auf 7.90). Kriterium (b) an keinem Tag erfüllt: kein Tag über
+35 Mio, keine zwei Folgetage über je 18 Mio.
+
+**Blockade-Status:** 0 echte Usage-/Rate-Limit-Fehlerereignisse in den letzten 24 h auf
+beiden Stationen (strukturelle Prüfung über `isApiErrorMessage` / `type=="error"` /
+`message.type=="error"` / `apiErrorStatus==429`, nicht per Wort-grep). Kein
+5-Stunden-Limit, kein Wochenlimit. Kriterien (a) und (c) nicht erfüllt.
+
+### Operative Briefings (Schritt 3) — alle vier gesund
+
+`logbuch-radar` lief heute 06:55 und hat geliefert: Datumsblock «Logbuch-Radar
+23.08.2026 (06:55, planmässig, Sonntag; ein neuer Befund, sonst still)» samt
+Radar-Briefing in `logbuch/LOGBUCH.md`, Commit `cf43d039`. `hub-chef-taeglich`
+und `zahlungsabgleich-check` haben am 22.08. geliefert (Tagesbriefing GESENDET,
+Regellauf); ihre heutigen Slots (08:39 bzw. 08:23) liegen nach diesem Messzeitpunkt
+und sind kein Ausfall. `mahnwesen-verzugscheck` ist **werktäglich** getaktet und lief
+zuletzt Freitag 21.08. 08:06 — Samstag und Sonntag korrekt still, kein Befund.
+Kriterium (d) nicht erfüllt.
+
+**Messartefakt zum Mitschreiben:** die Opener-Suche schlägt auf die eigene Session an,
+weil das Prüfskript die Muster `scheduled-task name=\"<task>\"` im Klartext enthält und
+der Bash-Aufruf im Transkript landet. Die Treffer 21.08. 07:15, 22.08. 07:15 und
+23.08. 07:15 sind allesamt Frühwarnungs-Läufe, nicht Läufe der gesuchten Tasks. Wer das
+übersieht, meldet einen Radar- oder Briefing-Lauf, den es nicht gab. Ergänzt den
+Messhinweis vom 18.08. (dort das umgekehrte Problem, escaped Muster).
+
+### Radar-Herzschlag (Schritt 4) — steht
+
+Erste `## `-Überschrift in `logbuch/vollgas/RADAR.md`: **2026-08-23 00:58**, also vor
+6.3 h; jüngste echte Radar-Session 22.08. 22:58 UTC, ebenfalls vor 6.3 h. Beide Signale
+deutlich unter der 12-h-Schwelle. Kriterium (e) nicht erfüllt.
+
+### Lern-Loops (Schritt 5) — kein Loop verbrennt Tokens ohne Ertrag
+
+Verbrauch je Task, MacBook Pro, letzte 3 Tage (teuer, Mio): nicht zuordenbar 8.48 (52
+Sessions) · normen-training-nacht 1.03 · twin-fidelity-review 0.95 · twin-mail-training
+0.83 · logbuch-radar 0.69 · vollgas-chef-radar 0.68 · wissens-chef 0.67 ·
+konversations-log 0.61 · hub-chef-taeglich 0.58 · vollgas-fruehwarnung 0.54 ·
+synergie-lauf-taeglich 0.43 · tenant-hygiene-weekly 0.32 · zahlungsabgleich-check 0.28 ·
+mahnwesen-verzugscheck 0.16 · heartbeat-daily 0.11.
+
+Muster (a) «Verbrauch ohne Liefer-Delta» tritt **nicht** auf: jeder Task mit nennenswertem
+Verbrauch hat ein belegtes Delta (normen-Wiki 23.08. 01:57, bauprodukte und
+planungsgrundlagen 22.08. 23:24, Twin-Facetten täglich). Muster (b) «Delta Null in Serie»
+ebenfalls nicht — die stillen Loops verbrauchen gar nichts, sie laufen nicht.
+
+### Destillat-Aufsicht (Schritt 5b) — die Front steht seit sechs Tagen, verbrennt aber nichts
+
+- **(a) Fortschritt:** `inventar.sh buero-projekte --stand` meldet Sektionen **21/21**,
+  813 Dateien inventarisiert, **706 offen**. Gegenüber dem gestrigen Stand unverändert —
+  die Front hat sich nicht bewegt.
+- **(b) Ertrag:** `wissen/projekt-lessons/wiki/` führt **9 Artikel** (4 established,
+  3 emerging, dazu INDEX und QUESTIONS). Jüngste Artikel-mtime **17.08. 23:31**, also
+  sechs Tage alt. Letzter Lauf-Report: `outputs/2026-08-17_destillat-buero-projekte-run1.md`.
+- **(c) Delta-Null-Serie:** nicht anwendbar — es gibt seit run1 keinen weiteren Lauf,
+  also auch keine Serie. Das ist kein Leerlauf, sondern Stillstand.
+- **(d) Stückkosten** (kombiniert teuer je neu geschriebenem oder erweitertem Artikel,
+  Artikelzahl über `git log --name-only`, nicht über mtime):
+
+| Tag | Artikel (git) | ohne Twin-Facetten | Stückkosten total | Stückkosten ohne Twin |
+|---|---|---|---|---|
+| 19.08. | 15 | 9 | 0.62 | 1.04 |
+| 20.08. | 11 | 5 | 0.96 | 2.12 |
+| 21.08. | 13 | 7 | 0.82 | 1.52 |
+| 22.08. | 12 | 6 | **0.74** | 1.47 |
+
+  Der 22.08. ist mit 0.74 Mio je Artikel der günstigste Tag der laufenden Reihe.
+
+- **Spec-Gate:** in Ordnung, `specs/buero-projekte-spec.md` (16.08.2026) liegt vor.
+- **Korpus-Queue:** Korpus 2 `buero-projekte` steht auf **aktiv**, kein
+  «KORPUS-QUEUE KOMPLETT». Kriterium (g) nicht erfüllt.
+- **Mittags-Slot 13:30 der Mini-Nachtschicht:** liefert. Belegte Slots im Logbuch am
+  18.08., 21.08. und 22.08.; das Lauf-Gate `logbuch/speicher/gate-Macmini.log` hat seit
+  dem 15.08. keinen Slot mehr abgewiesen (letzte Abweisungen 09./10.08. wegen
+  Wochenkontingent). Der Versuch ist damit weiterhin positiv zu beurteilen.
+
+**Kriterium (f) ist NICHT erfüllt** — und zwar aus dem entlastenden Grund: der
+Destillat-Loop hat in den letzten vier Tagen auf **beiden** Stationen **null** Tokens
+verbraucht (Opener-Suche `wissens-destillat`, 0 Sessions). Aufwand ohne Wissenszuwachs
+liegt also nicht vor. Es liegt Wissenszuwachs-Verzicht ohne Aufwand vor, was billiger,
+aber nicht besser ist.
+
+### Befund für den Radar: der Destillat-Loop hat keinen greifenden Taktgeber
+
+Die Frühwarnung stellt fest, der Radar handelt darauf. Die Frontmatter von
+`wissens-destillat` sagt «AD-HOC (kein Cron) — getaktet wird der Loop ausschliesslich
+von der Mac-Mini-Nachtschicht». Die Prioritätenliste in `scripts/nachtschicht-run.sh`
+(Zeilen 122–128) nennt den Destillat-Loop jedoch an **keiner** Stelle. Erreichbar wäre er
+allein über Priorität 4 («nächste fällige Trainingslektion unter
+`wissen/*/training/PROGRAMM.md`»), und dort steht `projekt-lessons` mit 5 Tagen in
+Konkurrenz zu deutlich älteren Kandidaten:
+
+| KB | jüngste Artikel-mtime | Alter |
+|---|---|---|
+| wettbewerbs-dna | 13.07. 20:54 | 40 Tage |
+| spec | 30.07. 23:51 | 23 Tage |
+| baurecht / grobkosten / projekt-lessons | 17.08. | 5 Tage |
+| immobilienbewertung | 19.08. | 3 Tage |
+| energie | 21.08. | 2 Tage |
+| bauprodukte / normen / planungsgrundlagen | 22./23.08. | 0 Tage |
+
+Die Nachtschicht meldet seit mehreren Nächten «Prioritäten 1–4 gesättigt» und arbeitet auf
+Priorität 5 (`architekten-synobsis` QUESTIONS). Bei 40 Tagen unberührtem
+`wettbewerbs-dna` und 706 offenen Dateien im aktiven Destillat-Korpus ist «gesättigt»
+schwer zu halten. Möglich ist, dass `wettbewerbs-dna` und `spec` über eigene Tasks
+(`wettbewerbs-dna-training`, `spec-training`) laufen sollen und die Nachtschicht sie
+deshalb übergeht — nur haben auch diese Tasks in den letzten 3 Tagen null Tokens
+verbraucht. Das ist die Kombination, die niemandem auffällt: kein Fehler, kein Verbrauch,
+kein Ertrag. **Keine eigenmächtige Änderung** — weder an der Prioritätenliste noch an
+einem `enabled:`-Feld (Rule modellwahl-routine: Frontmatter ist Dokumentation, nicht
+Live-Zustand). Der Radar prüft, ob der Sättigungs-Befund seiner Prioritäten trägt.
+
+### Meldeentscheid: STILL, keine Mail
+
+Kein Kriterium (a) bis (g) erfüllt. Kein Limit-Ereignis, kein Verbrauchsausschlag, kein
+ausgefallenes Briefing, Radar-Herzschlag steht, kein Loop verbrennt Tokens ohne Ertrag,
+Queue nicht komplett. Der Destillat-Stillstand ist ein struktureller Befund ohne
+Aussenwirkung und ohne Kosten und gehört damit ins Logbuch, nicht ins Postfach
+(Rule auto-verbesserungen 260803: Hub-Interna sind kein Sendegrund).
+
+**Letzte Mail dieser Frühwarnung:** 08.08.2026 07:29. Seither 15 stille Läufe.
+
 ## 2026-08-22 07:15 — STILL (keine Mail)
 
 Messzeitpunkt 22.08.2026 07:15 CEST, NAS gemountet. Rekursives Glob inklusive
