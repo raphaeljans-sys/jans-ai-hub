@@ -39,6 +39,23 @@ Ziff. 1: gilt bei Anwendung von Nachweisverfahren (Brandgefahr-/Brandrisiko-Beur
 ## Zentrale Tabellen / Kennwerte (sinngemäss, nicht kopiert)
 Anhang zu Ziff. 3.2.2 (S. 9-10): Beispielhafte Leistungskriterien für Personensicherheit bei mittleren bis längeren Aufenthaltsdauern (5-30 Min), im Zusammenhang mit einem Mischbrandgut, gleichzeitig zu erfüllen (speculative — genaue Zahlen nicht wörtlich übernommen, siehe Original für exakte Soll-Werte zu Höhe der raucharmen Schicht, Gastemperatur raucharme Schicht, Extinktionskoeffizient, Gastemperatur Rauchschicht). Der Extinktionskoeffizient-Richtwert gilt unter Annahme eines stark rauchenden Brandguts (z. B. Polyurethan); bei anderen Brandgütern sind angepasste Werte zu verwenden, Abweichung mit Begründung möglich (Fussnote 1, S. 10).
 
+⚠ **ABSV-Interpretation FAQ 27-001 ändert genau diese Stelle (Beschlussdatum 24.08.2016,
+Korrektur vorgesehen 2017; nachgetragen 23.08.2026, gelesen am Original-PDF
+`BSPUB-1394520214-1239.pdf`, bsvonline.ch, 2 Seiten):** die ABSV stellte einen Widerspruch
+zwischen dem Einleitungssatz («Werte … im Zusammenhang mit einem Mischbrandgut zu
+verstehen») und der Fussnote 1 (K ≤0.20/m nur bei stark rauchendem Brandgut wie
+Polyurethan) fest. Beschlossene Änderung: der Einleitungssatz verliert den
+Mischbrandgut-Bezug («Die Leistungskriterien müssen gleichzeitig erfüllt sein» statt des
+bisherigen Nebensatzes), Fussnote 1 entfällt ersatzlos, neu steht unter der Tabelle: «Es
+muss jeweils geprüft und begründet werden, ob neben den in der Tabelle genannten
+Leistungskriterien weitere Kriterien ausgewertet werden müssen.» **Diese Korrektur ist im
+hier destillierten Original-PDF (Fassung 01.01.2015, weiterhin `vkgPubVersion` 1 laut
+Portal-Metadaten, Abruf 23.08.2026) NICHT eingearbeitet** — die FAQ ist eine eigenständige,
+separat abrufbare ABSV-Interpretation, keine Neuausgabe der Richtlinie selbst. Für die
+Praxis gilt bei dieser Anhang-Stelle die FAQ-Fassung, nicht der oben zusammengefasste
+Fussnoten-Wortlaut. Quelle: bsvonline.ch, Portal-Rubrik FAQ zu den VKF-Brandschutzvorschriften
+2015, Registereintrag «27-15 - Nachweisverfahren im Brandschutz» → FAQ 27-001.
+
 Bemessungsbrandszenario-Grundsatz (S. 10): sehr unwahrscheinliche Worst-Case-Ereignisse (Flugzeugabsturz, Erdbeben, Terror) und gleichzeitiger Ausfall mehrerer technischer Brandschutzmassnahmen müssen nicht berücksichtigt werden; massgebend sind Worst-Credible-Szenarien mit Bezug zur konkreten Nutzung, auch unter Berücksichtigung von Fehlverhalten.
 
 Prozessgrafik (S. 11): 7-Schritt-Ablauf mit Beteiligten (Bauherr/Fachplaner/Fachperson/Brandschutzbehörde) je Schritt und zugehörigem Dokument (Nutzungsvereinbarung, Grundlagenpapier Schutzziele, Grundlagenpapier Bemessungsszenarien, Bericht Nachweisführung, Schlussbericht, Prüfbericht/Genehmigung).
@@ -62,3 +79,6 @@ Anhang zu Ziff. 5 (S. 12-13): Gliederung der inhaltlichen Anforderungen in Grund
 - Exakte numerische Soll-Werte der Tabelle S. 10 (Höhe raucharme Schicht, Gastemperaturen, Extinktionskoeffizient) bewusst nicht wörtlich übernommen (Urheberrecht); bei Bedarf im Original nachschlagen
 - Verweis-Richtlinie "Qualitätssicherung im Brandschutz" (Ziff. 6) noch nicht destilliert — separates Destillat empfohlen
 - Keine Angabe im Dokument, ob/wie diese BRL durch eine spätere Ausgabe (z. B. Revision 2026) ersetzt wurde — im REGISTER (`ersetzte_normen.pdf`) gegenprüfen
+- FAQ 27-001 (siehe oben) ist die einzige am Portal auffindbare ABSV-Interpretation zu dieser
+  Richtlinie (Abruf 23.08.2026, Rubrik FAQ 2015); ob es zu anderen Ziffern weitere,
+  unpublizierte oder inzwischen entfernte FAQ gibt, ist nicht geprüft

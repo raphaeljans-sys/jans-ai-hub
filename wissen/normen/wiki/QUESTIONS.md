@@ -1,5 +1,33 @@
 # Offene Fragen — KB Normen
 
+## SIA-Sweep, dritte Fortsetzung (23.08.2026) — N-SIASWEEP-2/-3 per offiziellen SIA-Publikationsverzeichnissen datiert
+
+**Ausgangslage:** die Blindzone (Abschnitt A, SIA-Zeilen ohne Datei im Haus) war laut den
+beiden Vorläufen desselben Tages bereits vollständig geschlossen; eigene Prüfung (`ps aux`,
+keine parallele `claude`-Instanz an dieser KB ausser der eigenen) bestätigt das. Statt die
+Blindzone erneut zu scannen, wurden die drei noch offenen N-SIASWEEP-Fragen (-2, -3, -4)
+mit einer neuen Quellenart weiterverfolgt: zwei **offizielle SIA-Publikationsverzeichnisse als
+PDF** (`cms.sia.ch`, Amtsdomain, nicht shop/espazium) mit datierten Ständen **27.10.2023** und
+**03.01.2024** — lokal heruntergeladen und mit `/opt/homebrew/bin/pdftotext -layout` gelesen
+(die WebFetch-Zusammenfassung des binären PDFs allein war unbrauchbar, s. Vorgehen unten).
+
+**N-SIASWEEP-2 (SIA 422):** Rückzugsfenster auf das Jahr 2024 eingeengt (an beiden Stichtagen
+noch regulär gelistet, Shop zeigt am 23.08.2026 bereits archiviert bis 31.12.2024). Nachfolger
+weiterhin nicht benannt — offen.
+**N-SIASWEEP-3, SIA-2025-Hälfte:** das Rückzugsdatum 31.12.2023 ist jetzt durch **zwei**
+unabhängige Primärquellen bracket-bestätigt (27.10.2023 noch gelistet, 03.01.2024 nicht mehr)
+und damit klar vom gescheiterten Rückzugsversuch Ende 2014 getrennt. Die genaue Begründung/
+ZN-Sitzung bleibt offen.
+**N-SIASWEEP-4 (GEO405):** Gegenprobe ohne neuen Fortschritt bei der eigentlichen Frage
+(explizite Ablösungsformel); neuer Nebenbefund: die Kataloge führen SIA 405 mit Ausgabejahr
+**2012**, nicht 2015 wie von der SIA-Webinar-Seite genannt — ungeklärt, nicht weiter verfolgt.
+
+**Keine neuen Destillate** — die drei Fragen betreffen weiterhin Normen ohne Volltext im Haus.
+Details je Frage unten (Abschnitte N-SIASWEEP-2/-3/-4), Fundstellen zusätzlich in
+`wiki/REGISTER.md` an der jeweiligen Zeile. Report: `outputs/2026-08-23_sia-sweep-fortsetzung3.md`.
+
+---
+
 ## SIA-Sweep, Fortsetzung (23.08.2026, späterer Lauf) — N-SIASWEEP-1 geschlossen, -2/-3/-4 vertieft
 
 **Ausgangslage:** Abschnitt A der Blindzone war beim Start dieses Laufs bereits vollständig
@@ -84,8 +112,13 @@ Nachfolgerfeld leer. Eine Sekundärquelle (SNV Swiss National Work Program, Stan
 `switec.info`, nicht am Original geprüft) führte SIA 422:2009 damals noch als «Standard to be
 revised», nicht als zurückgezogen — die angekündigte Revision scheint nicht abgeschlossen,
 sondern die Norm zwischen 2019 und 2024 ganz archiviert worden zu sein. Relevant für
-`machbarkeit`/`baurecht`, falls dort zitiert. Nicht weiter verfolgt (keine weitere freie Quelle
-gefunden).
+`machbarkeit`/`baurecht`, falls dort zitiert. **Fenster präzisiert 23.08.2026 (Fortsetzung 3):**
+zwei offizielle SIA-Publikationsverzeichnisse (`cms.sia.ch/sites/default/files/2024-04/
+SIA-Publikationen.pdf`, Stand 27.10.2023; `cms.sia.ch/sites/default/files/2024-05/
+Inhaltsverzeichnis_Normenwerk.pdf`, Stand 03.01.2024 — beide per `pdftotext -layout` lokal
+gelesen, nicht per WebFetch-Zusammenfassung) führen SIA 422:2009 an **beiden** Stichtagen noch
+regulär. Der Rückzug fällt damit in das Jahr 2024, nach dem 03.01.2024. Nachfolger weiterhin
+nicht benannt, keine weitere freie Quelle gefunden.
 
 ### N-SIASWEEP-3 — SIA 2021 (Glasanteil) und SIA 2025 (Begriffe Bauphysik) archiviert, kein Nachfolger auf der Produktseite
 
@@ -105,7 +138,19 @@ exakte Datum dieser Begründung liess sich nicht eindeutig einer Quelle zuordnen
 direkt abgerufener Espazium-Artikel zum selben Titel nannte einen abweichenden, offenbar
 früheren Rückzugsversuch mit Zieldatum Ende 2014 — vermutlich ein gescheiterter erster
 Anlauf, nicht dieselbe Sitzung wie der tatsächliche Rückzug per 31.12.2023). Nicht als
-Fundstelle zitierfähig, nur als Kontext vermerkt.
+Fundstelle zitierfähig, nur als Kontext vermerkt. **Datum unabhängig bestätigt 23.08.2026
+(Fortsetzung 3):** zwei offizielle SIA-Publikationsverzeichnisse als PDF von `cms.sia.ch`
+(Amtsdomain, nicht espazium/shop) lokal mit `pdftotext -layout` gelesen (WebFetch-Zusammenfassungen
+von Binärdateien waren unzuverlässig, s.u.) — Stand 27.10.2023 führt SIA 2025:2012 noch als
+käufliche Publikation (CHF 100.00, Zeile «2025 2012 Begriffe in Bauphysik, Energie- und
+Gebäudetechnik»), Stand 03.01.2024 führt sie nicht mehr. Das Rückzugsfenster liegt damit
+nachweisbar zwischen 27.10.2023 und 03.01.2024 — deckt sich mit dem Shop-Datum 31.12.2023 und
+trennt den echten Rückzug sauber vom gescheiterten 2014er-Versuch (unterschiedliche Ereignisse,
+nicht dieselbe Meldung zweimal gefunden). Nur die genaue Begründung/ZN-Sitzung des 2023er-
+Rückzugs bleibt offen; das Datum selbst gilt jetzt als belegt (zwei unabhängige Primärquellen).
+Quellen: `https://cms.sia.ch/sites/default/files/2024-04/SIA-Publikationen.pdf` (Stand
+27.10.2023), `https://cms.sia.ch/sites/default/files/2024-05/Inhaltsverzeichnis_Normenwerk.pdf`
+(Stand 03.01.2024).
 
 ### N-SIASWEEP-4 — GEO405-Familie: SIA 2016 UND SIA 2045 nennen beide SIA 405:2025 als Nachfolgenorm
 
@@ -120,7 +165,14 @@ alte Norm SIA 405:2015 sowie die Merkblätter 2015, 2016, 2045 zumindest auszugs
 starkes, aber indirektes Indiz für die Konsolidierungsthese (Aufzählung der Vorgänger als
 Kursvoraussetzung, keine explizite Ablösungsformel). **Weiterhin nicht am Original
 verifiziert** — bei Beschaffung von SIA 405:2025 als erstes prüfen, ob sie tatsächlich alle drei
-Vorgänger ersetzt oder nur zwei von dreien.
+Vorgänger ersetzt oder nur zwei von dreien. **Gegenprobe 23.08.2026 (Fortsetzung 3):** dieselben
+zwei offiziellen Publikationsverzeichnisse (s. N-SIASWEEP-2/-3 oben) führen SIA 405 (Ausgabe
+2012, nicht 2015 — Abweichung zur «SIA 405:2015»-Nennung der Webinar-Seite ungeklärt), SIA
+2015:2012, SIA 2016:2012 und SIA 2045:2012 an **beiden** Stichtagen (27.10.2023 und 03.01.2024)
+noch als eigenständige, reguläre Publikationen — die Konsolidierung fand also frühestens nach
+dem 03.01.2024 statt, passend zum Gültig-ab-Datum 01.08.2025. Kein Fortschritt bei der
+eigentlichen offenen Frage (explizite Ablösungsformel); die Editionsjahr-Abweichung 2012 vs.
+2015 ist ein neuer, ungeklärter Nebenpunkt.
 
 **Nicht geleistet:** kein Volltext wurde gekauft oder gelesen — alle Aussagen oben sind
 Metadaten der freien Shop-Produktseite. Destillate wurden bewusst NICHT angelegt (kein Inhalt
@@ -268,7 +320,7 @@ bekannt. Aufgeworfen Run 59 (22.08.2026).
 
 ---
 
-### ⚠ N58-2 — BRL 103-15 «Cheminées» ist zurückgezogen; Nachfolgeregelung unbekannt
+### ✅ N58-2 — GESCHLOSSEN 23.08.2026: BRL 103-15 «Cheminées» zurückgezogen, Nachfolger ist das feusuisse-Papier «Stand der Technik Teil B», nicht BRL 24-15
 
 Der VKF-Publikationsindex führt die Erläuterung als **«103-15 Cheminées (zurückgezogen am
 31.08.2025)»** (Indexeintrag zuletzt geändert 30.01.2026, Abruf 20.08.2026). Die KB führte das
@@ -300,9 +352,37 @@ Cheminée-Anforderungen überführt wurden.
 > noch einen eigenen VKF-Pfad haben oder ausschliesslich auf EN-13229-Typenprüfung verwiesen
 > werden — beides in diesem Lauf nicht geleistet.
 
+> ✅ **GESCHLOSSEN 23.08.2026, per direkter VKF-Primärquelle statt der vermuteten
+> BRL-24-15-Spur.** Die VKF-Newsseite selbst dokumentiert den Rückzugsgrund: die
+> News-Kachel «Rückzug VKF-Brandschutzerläuterung 103-15 Cheminées» (datiert 8. September
+> 2025) auf `bsvonline.ch/de/aktuell`, verlinkt auf
+> `bsvonline.ch/de/aktuell/erlaeuterung-103-15-zurueckgezogen` — per `curl -sL
+> -A "Mozilla/5.0"` abgerufen und gegen Tag-Strip gelesen (kein WebFetch nötig, die
+> Meldungsseite ist serverseitig gerendert). Wortlaut: **«Mit der Veröffentlichung des 2024
+> überarbeiteten Stand der Technik Papiers Teil B: Ofen- und Cheminéebau des Verbandes
+> feusuisse, wird die VKF-Brandschutzerläuterung 103-15 Cheminéebau materiell abgelöst. Die
+> Technische Kommission Brandschutz (TKB) hat daher entschieden, die
+> Brandschutzerläuterung per 31. August 2025 zurückzuziehen, um eine Doppelspurigkeit zu
+> vermeiden.»**
+>
+> **Ergebnis:** der Nachfolger ist **kein VKF-Dokument und keine BRL** — insbesondere
+> **nicht BRL 24-15** (die Teilprüfung oben bleibt als Nebenbefund gültig: 24-15 verweist
+> für «übrige Cheminées» nur auf das nicht mehr aktuelle TKB-Verzeichnis, hat die
+> 103-15-Masse nie selbst übernommen). Stattdessen tritt das **«Stand der Technik Papier
+> Teil B: Ofen- und Cheminéebau»** des Fachverbands **feusuisse** (Ausgabe 2024) an die
+> Stelle — ein privatrechtliches Verbandsdokument, kein VKF-Erlass, TKB-Beschluss ausdrücklich
+> zur Vermeidung einer Doppelspurigkeit. Praktische Folge: die 103-15-Bauteilmasse (0.12 m
+> Wand/Unterbau, 0.1 m/0.8 m Sicherheitsabstände, 0.4 m Vorbelag) im Bestandes-Destillat
+> gelten nicht mehr als amtliche VKF-Anforderung für neue Cheminées; für laufende Projekte
+> ist das feusuisse-Papier zu beschaffen (Bezugsweg feusuisse.ch, nicht der VKF-Shop — nicht
+> in diesem Lauf getan). Nachtrag im Destillat `vkf-brl-103-15-cheminees.md` gesetzt.
+> **Offen bleibt nur** die zweite unabhängige Bestätigung des Rückzugsdatums 31.08.2025
+> (bisher ein Beleg, VKF-Primärquelle, aber eine einzige Seite) — nachrangig, da die
+> Primärquelle selbst (nicht nur eine Portal-Annotation) den Rückzug samt Grund nennt.
+
 ---
 
-### ⚠ N58-3 — BRL 27-15: Titelblatt und Änderungsliste widersprechen sich (Teilerledigung 23.08.2026)
+### ✅ N58-3 — GESCHLOSSEN 23.08.2026: BRL 27-15 hat keinen Fassungswiderspruch; der «22.03.2017»-Beschluss gehörte zu 14-15
 
 **Ursprüngliche Frage:** Das Titelblatt trägt **01.01.2015**, die Hinweisseite nennt aber einen
 **ABSV-Beschluss vom 22.03.2017**. Entweder wurde das Fassungsdatum nicht nachgeführt, oder die
@@ -340,6 +420,50 @@ ungeklärtem Fassungsstand womöglich zu hoch ist.
 > Matrix-Zeile (`.../BSPUB-1394520214-127.pdf/content`) direkt erneut abrufen und mit der im
 > Bestand liegenden Prüfsumme `72e31ae5a6e7` vergleichen, oder das Portal mit einem
 > JS-faehigen Abruf statt WebFetch prüfen.
+
+> ✅ **GESCHLOSSEN 23.08.2026.** Die Werkzeug-Grenze war keine — `curl` mit einem
+> Browser-User-Agent (statt WebFetch) liefert den Astro-JSON-Payload der bsvonline.ch-Seiten
+> vollständig als Rohtext; die Daten liegen inline im HTML (`<script>`-Payload mit
+> HTML-Escapes `&quot;`), nicht hinter einer separaten JS-Ausführung. Direkter Abruf von
+> `https://www.bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015` UND
+> `.../archiv-bsv-2015` UND `.../faq` (alle drei per `curl -sL -A "Mozilla/5.0" …`, 23.08.2026)
+> ergibt den vollständigen Befund:
+>
+> 1. **Der «22.03.2017»-Beschluss gehört nicht zu 27-15.** Auf der FAQ-Seite steht das Datum
+>    exakt einmal mit vollem Kontext: **FAQ 14-026**, Registerbezeichnung **«14-15 -
+>    Verwendung von Baustoffen»**, Ziffer «3.3.1, Absatz 5, Skizze S. 24», Thema «Nicht
+>    vollflächig geschlossene Terrassenböden». Auf der ganzen FAQ-Seite (299'494 Byte
+>    Rohtext) kommt die Zeichenfolge «27-15» **kein einziges Mal** vor. Die ursprüngliche
+>    Zuordnung «Hinweisseite nennt für 27-15 einen ABSV-Beschluss vom 22.03.2017» (Run-58-
+>    Matrix, Z. 86) war damit eine **Fehlzuordnung** — vermutlich eine Verwechslung zweier
+>    Zeilen beim schnellen Scannen mehrerer FAQ-Einträge, keine Eigenschaft von 27-15. Die
+>    Prämisse der ursprünglichen Frage («Titelblatt und Änderungsliste widersprechen sich»)
+>    ist damit **falsch** — gleiche Fehlerklasse wie Run 36 (BSR 16-15: «die Frage-Prämisse
+>    war falsch»).
+> 2. **27-15 hat trotzdem eine echte, inhaltlich relevante ABSV-Interpretation:** auf
+>    `archiv-bsv-2015` steht unter Registereintrag «27-15 - Nachweisverfahren im Brandschutz»
+>    genau ein Eintrag, **FAQ 27-001** (Beschlussdatum **24.08.2016**, Ziffer «3.2.2, Absätze
+>    3 und 4 - Anhang»). Das zugehörige PDF (`BSPUB-1394520214-1239.pdf`, per `curl`
+>    heruntergeladen, mit `PyMuPDF`/`fitz` gelesen — `pdftotext` ist auf dieser Station nicht
+>    installiert, `fitz` schon) trägt den Titel «Planungsziele und Leistungskriterien für
+>    Entrauchungsnachweise» und ändert genau die Anhang-Stelle, die das Destillat unter
+>    «Zentrale Tabellen / Kennwerte» zusammenfasst (Fussnote zum Extinktionskoeffizienten K,
+>    Mischbrandgut-Bezug des Einleitungssatzes): die Fussnote entfällt ersatzlos, der
+>    Einleitungssatz wird umformuliert. Das Dokument selbst vermerkt am Ende **«Korrektur
+>    (vorgesehen 2017)»** — das erklärt vermutlich, wie die Jahreszahl 2017 in der Sache
+>    überhaupt in Umlauf kam, auch wenn sie an der falschen Norm hängen blieb.
+> 3. **Die Korrektur ist bis heute nicht ins Hauptdokument eingearbeitet.** Die Portal-
+>    Metadaten von 27-15 selbst zeigen weiterhin `vkgPubVersion: "1"` (Abruf 23.08.2026,
+>    zuletzt `modified` am 24.07.2025) — dieselbe Fassung wie das im Haus liegende PDF. Die
+>    ABSV-Interpretation gilt also fachlich, ohne dass sie den Normtext ersetzt hat.
+>
+> **Ergebnis für die KB:** `vkf-brl-nachweisverfahren.md` bleibt `established` (der Normtext
+> ist korrekt wiedergegeben), erhält aber einen Warnhinweis zur Anhangstelle Ziff. 3.2.2 mit
+> Verweis auf FAQ 27-001 (nachgetragen 23.08.2026, siehe Destillat). **Methodische Lehre:**
+> `curl` mit gesetztem User-Agent ist für die bsvonline.ch-Familie ein funktionierender,
+> günstigerer Ersatz für WebFetch, wenn WebFetch nur die Navigationsstruktur zurückgibt —
+> vor dem nächsten «WebFetch liefert kein JSON»-Befund erst `curl -sL -A "Mozilla/5.0" <url>`
+> probieren, bevor ein Browser/Playwright-Zugriff als nötig gilt.
 
 ---
 

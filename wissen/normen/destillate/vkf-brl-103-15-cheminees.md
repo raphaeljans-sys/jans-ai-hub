@@ -21,7 +21,22 @@ links: [[REGISTER]]
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
 > VKF-Publikationsindex abgeglichen hat (Auftrag N27-1).
 > 
-> **Zusätzlich: die Brandschutzerläuterung 103-15 ist laut VKG-Publikationsportal am 31.08.2025 ZURÜCKGEZOGEN worden** (Portal-Titel «103-15 Cheminées (zurückgezogen am 31.08.2025)», Indexeintrag zuletzt geändert 30.01.2026, Abruf 20.08.2026). Die ausgelieferte Datei selbst trägt keinen Rückzugsvermerk; der Beleg ist die Portal-Annotation, nicht das Dokument. Eine Nachfolgeregelung ist in diesem Lauf nicht ermittelt (offen, siehe QUESTIONS N58-2).
+> **Zusätzlich: die Brandschutzerläuterung 103-15 ist laut VKG-Publikationsportal am 31.08.2025 ZURÜCKGEZOGEN worden** (Portal-Titel «103-15 Cheminées (zurückgezogen am 31.08.2025)», Indexeintrag zuletzt geändert 30.01.2026, Abruf 20.08.2026). Die ausgelieferte Datei selbst trägt keinen Rückzugsvermerk; der Beleg ist die Portal-Annotation, nicht das Dokument.
+>
+> **Nachfolgeregelung GEKLÄRT 23.08.2026** (Primärquelle: VKF-Newsmeldung
+> `bsvonline.ch/de/aktuell/erlaeuterung-103-15-zurueckgezogen`, 8. September 2025, per
+> `curl` abgerufen): «Mit der Veröffentlichung des 2024 überarbeiteten Stand der Technik
+> Papiers Teil B: Ofen- und Cheminéebau des Verbandes feusuisse, wird die
+> VKF-Brandschutzerläuterung 103-15 Cheminéebau materiell abgelöst. Die Technische
+> Kommission Brandschutz (TKB) hat daher entschieden, die Brandschutzerläuterung per
+> 31. August 2025 zurückzuziehen, um eine Doppelspurigkeit zu vermeiden.» **Nachfolger ist
+> also kein VKF-Dokument, sondern das «Stand der Technik Papier Teil B: Ofen- und
+> Cheminéebau» des Fachverbands feusuisse** (Fassung 2024). Das feusuisse-Papier selbst
+> liegt nicht im Haus und ist nicht destilliert (kein VKF-Vertriebsweg, andere
+> Bezugsquelle/Herausgeber — bei Bedarf über feusuisse.ch beschaffen). Diese Norm-KB-Zeile
+> bleibt bis dahin `superseded` ohne Nachfolge-Volltext; der Inhalt unten (Fassung
+> 01.01.2015) gilt weiterhin für Bestandesbauten und Verfahren unter der alten Fassung,
+> für laufende Projekte ist das feusuisse-Papier beizuziehen.
 
 
 ## Das Wichtigste in 3 Sätzen
@@ -198,3 +213,6 @@ keine Kopien.
 - Die genauen bemassten Konstruktionsdetails der Anhang-Zeichnungen (S. 8-13) sind
   hier nur textlich zusammengefasst, nicht grafisch reproduziert (Urheberrecht,
   S. 14) — bei Bedarf Original-PDF konsultieren.
+- Nachfolgedokument «Stand der Technik Papier Teil B: Ofen- und Cheminéebau» (feusuisse,
+  2024) ist identifiziert (siehe Warnkasten oben), aber nicht beschafft/destilliert —
+  eigenes Destillat empfohlen, falls Cheminée-Fragen in einem laufenden Projekt anstehen.

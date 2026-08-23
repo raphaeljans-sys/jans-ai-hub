@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 17:22:19
+Stand: 23.08.2026 17:32:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:22)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:32)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 17:22:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 56d2c131 Synergie-Lauf 16 (23.08.): SYN-43 Anrede-Divergenz anrede-kontakte vs jans-dna-facetten, Verweis-Nachtrag gesetzt; vier Kandidaten adversarial verworfen
+- d7ee6005 nas-selfcommit: 2 Datei(en) 2026-08-23 17:30

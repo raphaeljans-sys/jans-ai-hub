@@ -1,3 +1,85 @@
+## 2026-08-23 — SIA-Sweep, dritte Fortsetzung: N-SIASWEEP-2/-3 per offiziellen SIA-Publikationsverzeichnissen bracket-datiert
+
+**Auftrag Raphael:** den SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im
+Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen; zuerst CHANGELOG und letzten Report lesen und dort weitermachen.
+
+**Befund vor der eigenen Arbeit:** die Blindzone (Abschnitt A) war laut den zwei Vorläufen
+desselben Tages bereits vollständig geschlossen (0 von 259 Zeilen ohne Bestand-Abgleich,
+eigene Gegenprobe via `ps aux`: kein konkurrierender `claude`-Prozess an dieser KB). Offen
+blieben nur die drei noch nicht geschlossenen N-SIASWEEP-Fragen (-2, -3, -4).
+
+**Neue Quellenart eingeführt:** zwei amtliche SIA-Publikationsverzeichnisse als PDF
+(`cms.sia.ch`, nicht Shop/Espazium) mit den Ständen **27.10.2023** und **03.01.2024**, lokal
+mit `pdftotext -layout` gelesen (WebFetch-Zusammenfassung des Binär-PDFs allein war
+unbrauchbar). **N-SIASWEEP-2 (SIA 422):** Rückzugsfenster auf «2024, nach dem 03.01.2024»
+eingeengt (weiterhin kein Nachfolger). **N-SIASWEEP-3, SIA-2025-Hälfte:** Rückzugsdatum
+31.12.2023 durch zwei unabhängige amtliche Quellen bracket-bestätigt (27.10.2023 noch
+gelistet, 03.01.2024 nicht mehr) und damit klar vom belegten, gescheiterten
+Rückzugsversuch Ende 2014 getrennt (Espazium-Artikel 01.10.2014 direkt gegengelesen);
+Begründung/ZN-Sitzung bleibt unbelegt. **SIA-2021-Hälfte:** reine Konsistenzprobe, kein neuer
+Fund. **N-SIASWEEP-4 (GEO405):** kein Fortschritt bei der Ablösungsformel; neuer, ungeklärter
+Nebenbefund — beide Kataloge führen SIA 405 mit Ausgabejahr 2012, nicht 2015 wie von der
+Webinar-Seite genannt.
+
+**Keine neuen Destillate** (weiterhin kein Volltext für die drei betroffenen Normen). Register
+(`wiki/REGISTER.md`, drei Zeilen ergänzt) und `wiki/QUESTIONS.md` (neuer Kopfabschnitt + drei
+Unterabschnitte ergänzt) nachgeführt, reine Ergänzungen, keine Streichung bestehenden Texts.
+
+**Hinweis Nebenläufigkeit:** parallel lief eine zweite Session (VKF-Fassungssweep, schliesst
+N58-2/N58-3 in denselben zwei Dateien); nach jedem eigenen Schreibvorgang `git diff` (nicht
+nur `--numstat`) geprüft — fremde Ergänzungen in allen Fällen additiv und unangetastet.
+
+Report: `outputs/2026-08-23_sia-sweep-fortsetzung3.md`.
+
+---
+
+## 2026-08-23 — N58-2 und N58-3 geschlossen: BRL 103-15 (Nachfolger feusuisse) und BRL 27-15 (Fehlzuordnung aufgelöst, echte FAQ 27-001 gefunden)
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage mit Norm/Ausgabe/Ziffer, nur `established` ohne Gegenlesen zitierfähig; zuerst
+CHANGELOG und letzten Report lesen und dort weitermachen.
+
+**Werkzeug-Befund zuerst:** `curl -sL -A "Mozilla/5.0" <url>` liefert den vollständigen
+Astro-JSON-Payload der bsvonline.ch-Seiten als Rohtext (inline im HTML, `&quot;`-escapt) — die
+in zwei Vorläufen als «WebFetch liefert nur die Navigationsstruktur, JS-fähiger Abruf nötig»
+diagnostizierte Werkzeug-Grenze bestand nicht. Für PDF-Text: `curl` + `PyMuPDF` (`import
+fitz`), da `pdftotext` auf dieser Station fehlt.
+
+**N58-2 — BRL 103-15 «Cheminées» — GESCHLOSSEN.** VKF-Newsmeldung (Primärquelle,
+`bsvonline.ch/de/aktuell/erlaeuterung-103-15-zurueckgezogen`, 8.9.2025): Nachfolger ist **kein
+VKF-Dokument**, sondern das «Stand der Technik Papier Teil B: Ofen- und Cheminéebau» des
+Fachverbands **feusuisse** (2024), TKB-Rückzugsbeschluss ausdrücklich zur Vermeidung einer
+Doppelspurigkeit. Bestätigt zugleich die Vorläufer-Teilprüfung: BRL 24-15 war nie der
+Nachfolger. feusuisse-Papier nicht beschafft (eigener Vertriebsweg, offene Bring-Schuld).
+
+**N58-3 — BRL 27-15 «Nachweisverfahren» — GESCHLOSSEN, Prämisse widerlegt, neuer Befund.** Der
+vermutete «ABSV-Beschluss 22.03.2017» gehört laut VKF-FAQ-Seite zu **FAQ 14-026** (BRL 14-15),
+nicht zu 27-15 — Fehlzuordnung aus Run 58, gleiche Fehlerklasse wie Run 36. Echt und neu:
+27-15 hat eine eigene FAQ, **27-001** (ABSV, Beschlussdatum 24.08.2016, Ziff. 3.2.2 Abs. 3-4
+Anhang), die die Extinktionskoeffizient-Fussnote im Entrauchungs-Leistungskriterien-Anhang
+ändert — Korrektur laut Dokument «vorgesehen 2017», bis heute nicht ins Hauptdokument
+eingearbeitet (Portal weiterhin `vkgPubVersion: 1`).
+
+**KB nachgeführt:** `destillate/vkf-brl-103-15-cheminees.md`, `destillate/vkf-brl-
+nachweisverfahren.md` (beide Warnkasten + Offene Punkte, reine Ergänzungen, Status
+unverändert), `wiki/REGISTER.md` (4 Fundstellen), `wiki/QUESTIONS.md` (N58-2/N58-3 auf
+GESCHLOSSEN), `skills/brandschutz/SKILL.md` (Praxis-Hinweis Nachfolger 103-15).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreiben — `vkf-brl-nachweisverfahren.md`
++20/-0, `vkf-brl-103-15-cheminees.md` +19/-1, `QUESTIONS.md` +74/-2, `REGISTER.md` +12/-10 (vier
+gezielte Ersetzungen; Datei zwischenzeitlich durch einen parallelen Prozess an anderer Stelle
+verändert — vor jedem eigenen Edit neu gelesen, keine Kollision), `SKILL.md` +6/-1. Commit via
+`nas-commit-now.sh`, kein direktes `git` über den SMB-Mount.
+
+**Nicht geleistet:** feusuisse-Papier nicht beschafft; N-SIASWEEP-2/3/4 (SIA-Sweep) unverändert
+offen, bewusst kein dritter Anlauf über denselben Zugangsweg; der neue `curl`-Zugangsweg für
+bsvonline.ch ist nicht in `connectors/WEGE.md` festgehalten.
+
+Report: `outputs/2026-08-23_vkf-brl-27-15-103-15-geschlossen.md`.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, zweite Fortsetzung: Blindzone-Statistik aktualisiert, N-SIASWEEP-1 geschlossen, -2/-3/-4 vertieft
 
 **Auftrag Raphael:** den SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im

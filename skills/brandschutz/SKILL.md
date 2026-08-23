@@ -105,7 +105,12 @@ Bei jeder Brandschutz-Anfrage sind diese Quellen primaer auszuwerten — sie sin
   **Vor jeder normativen Auskunft die geltende Fassung pruefen:** Matrix mit Dokumentnummern und
   Fassungsdaten in `wissen/normen/training/n58-vkf-fassungsmatrix-260820.md`, Bezug der geltenden
   PDFs ueber `https://services.vkg.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-<NR>.pdf/content`.
-  Besonders: **BSR 103-15 «Cheminées» ist am 31.08.2025 zurueckgezogen**, und **Pyrotechnik/Feuerwerk
+  Besonders: **BSR 103-15 «Cheminées» ist am 31.08.2025 zurueckgezogen** — Nachfolger ist
+  **kein VKF-Dokument**, sondern das «Stand der Technik Papier Teil B: Ofen- und Cheminéebau»
+  des Fachverbands **feusuisse** (Ausgabe 2024), laut VKF-Newsmeldung materiell abloesend
+  (`bsvonline.ch/de/aktuell/erlaeuterung-103-15-zurueckgezogen`; Beschaffung ueber feusuisse.ch,
+  nicht den VKF-Shop; Details `wissen/normen/destillate/vkf-brl-103-15-cheminees.md`), und
+  **Pyrotechnik/Feuerwerk
   ist seit 01.04.2026 neu geregelt** (Destillat `wissen/normen/destillate/vkf-teilrevision-2026-pyrotechnik.md`:
   F1-Feuerwerk in oeffentlich zugaenglichen Raeumen neu verboten, die Auskunft «Kategorie 1 ist
   ausgenommen» ist seither falsch).
