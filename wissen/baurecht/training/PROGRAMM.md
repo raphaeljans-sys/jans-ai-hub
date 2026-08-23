@@ -331,6 +331,22 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
     weitere QUESTIONS-Restposten (Frage B § 36 Abs. 2 EG GSchG, GSchV Anhang 4 Ziff. 12/13
     direkt am PDF lesen) oder Modell-D-Verifikation der ältesten `verifiziert`-Daten unter
     den `established`-Artikeln.
+  - **Run 83 (2026-08-23, Phase 3, Modell-D Fassungsstand-Check, kein Agent-Fan-out):** schliesst
+    den Fassungsvorbehalt aus Run 73: [[umgebungsgestaltung-und-einfriedungen]] war gegen die
+    2019er-RRB-Erlassfassung der VErV verifiziert, nicht gegen die konsolidierte LS-Fassung.
+    Connector `recht-ch.mjs --erlass VErV` frisch gegen zhlex gelaufen (PATH-Fix noetig,
+    `pdftotext` unter `/opt/homebrew/bin`) → Nachtrag 127, Fassungsstand 1.1.2025
+    (`raw/260823_amtlich_zh_verv.md`). **1 echte Korrektur:** § 27 VErV wurde per RRB
+    14.09.2022 (in Kraft seit 1.12.2024) neu gefasst (Innerorts/Ausserorts-Split 2 m/4 m statt
+    einheitlich 4 m) und um § 27a (Verringerung) ergaenzt — fuer ein Thalwiler Innerorts-
+    Projekt sinkt der praktisch massgebende Grundabstand von 4 m auf **2 m**. §§ 20/23/26/28/29
+    VErV CONFIRMED, keine Drift. Artikel-Status `emerging` → **`established`**. Report
+    `outputs/2026-08-23_buch-run83.md`. **Nächster Schritt:** letzter verbliebener
+    `emerging`-Artikel ist [[negative-vorwirkung-und-bzo-revision]] (Run 72) — dort aber drei
+    genuin offene Überwachungsfragen (Genehmigung/Inkrafttreten revBZO, aktualisierte Synopse,
+    RB-Zitat-Flag), keine reine Fassungsstand-Verifikation; alternativ T-08 (Höhenzahl
+    Kleinbauten Thalwil, Run 74) und T-10 (Fassungsstand-Warnhinweis Buch-Layer, Wissens-Chef
+    Run 36) sind beide Entscheid-/Klärungsfragen an Dritte bzw. Raphael, nicht selbst zu lösen.
   - **Run 82 (2026-08-23, Phase 3, QUESTIONS-Restposten, kein Agent-Fan-out):** klärt Frage B
     aus Run 81s Vorschlag ab: enthält GSchV Anhang 4 Ziff. 12/13 ein Gegenstück zur
     Grundbuch-Anmerkung nach § 36 Abs. 2 EG GSchG? **Werkzeugbefund zuerst:** die

@@ -3,6 +3,54 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 83: Fassungsvorbehalt [[umgebungsgestaltung-und-einfriedungen]] geschlossen — § 27/§ 27a VErV seit 1.12.2024 geändert, `emerging` → `established` (Phase 3, Fortsetzung nach Run 82)
+
+- **Ausgangslage:** Die Reglemente-Queue 2414 Thalwil (T1-T8) bleibt vollständig abgearbeitet
+  (Run 79-82). Run 82 verwies auf die BBV-I-Prüflücke (QUESTIONS.md, 2026-08-18) als nächsten
+  Schritt — die dortige Sachfrage (T-09) ist bereits am 23.08.2026 mit fünf konkreten
+  Fundort-Korrekturen geklärt, T-10 ist eine Strukturfrage an Raphael (bewusst nicht selbst
+  gesetzt). Dieser Lauf nimmt stattdessen den einzigen verbliebenen `emerging`-Artikel mit
+  offenem Fassungsvorbehalt: [[umgebungsgestaltung-und-einfriedungen]] (Run 73, 13.08.2026)
+  hatte den raw-Volltext der VErV explizit als «RRB-Erlassfassung vom 17.04.2019, NICHT die
+  konsolidierte LS-Fassung» gekennzeichnet und den Abgleich als offene Frage vermerkt
+  (Abschnitt 7 «Offen»).
+- **Vorgehen:** `skills/baurecht/connectors/recht-ch.mjs --erlass VErV` frisch gegen zhlex
+  laufen lassen (PATH-Fix nötig: `pdftotext` liegt unter `/opt/homebrew/bin`, nicht im
+  Shell-PATH — gleiche Werkzeugfalle wie beim SZ-Poppler-Fund in Run 81) → konsolidierte
+  Fassung, Nachtrag 127, Fassungsstand 1.1.2025 (`raw/260823_amtlich_zh_verv.md`). Alle im
+  Wiki-Artikel zitierten Paragraphen (§§ 20/23/26/27/28/29 VErV) Wort für Wort gegen die neue
+  Fassung geprüft.
+- **1 echte Korrektur (materielle Fassungsstand-Drift):** **§ 27 VErV wurde per RRB vom
+  14.09.2022 (in Kraft seit 1.12.2024) neu gefasst und um § 27a ergänzt.** Die 2019er-Fassung
+  kannte einen einheitlichen Baumabstand von 4 m mit Reduktionsmöglichkeit auf 2 m «gegenüber
+  Fusswegen, freigeführten Trottoirs, Velowegen und Strassen des Quartier-/Anwohnerverkehrs
+  sowie im Interesse des Ortsbildes». Die geltende Fassung setzt **innerorts 2 m, ausserorts
+  4 m als Grundabstand** (§ 27 Abs. 1) und regelt die Verringerung separat in § 27a (innerorts
+  ohne Ortsbild-Anknüpfung, ausserorts weiterhin auf 2 m im Interesse des Orts-/Landschafts-
+  schutzes). Für ein Thalwiler (Innerorts-)Projekt ist der praktisch massgebende Grundabstand
+  damit **2 m**, nicht 4 m — eine Zahl, die in ein Gesuch übernommen die Genehmigungsfähigkeit
+  beeinflusst.
+- **Restbestand CONFIRMED, keine weiteren Korrekturen:** §§ 20/23/26/28/29 VErV wortgleich
+  gegenüber der 2019er-Fassung, keine Nachträge seit Inkrafttreten. Anhang 6
+  (Ausnahmetransportrouten 4,8/5,2 m) ebenfalls unverändert bestätigt.
+- **GEÄNDERT** `wiki/umgebungsgestaltung-und-einfriedungen.md`: Abschnitt «§ 27 VErV —
+  Pflanzen» vollständig neu gefasst (§ 27/§ 27a getrennt dargestellt, materielle Änderung
+  erläutert), Fassungsvorbehalt in Abschnitt 2 und «Offen» als geschlossen markiert (Wortlaut
+  nicht gelöscht, Rule 260811), Frontmatter (`status: emerging` → **`established`**,
+  `verifiziert`-Historie ergänzt, `sources` um § 27a und den neuen raw-Beleg erweitert).
+- **NEU** `raw/260823_amtlich_zh_verv.md` (konsolidierte VErV, Nachtrag 127).
+- **Nicht geklärt, weiterhin offen:** «Vorsprünge, Türen und Tore an der Strassengrenze»
+  (bisher §§ 11/12 StrAV) — kein Treffer in der VErV (grep negativ), Anschlussnorm in PBG/ABV
+  nicht gefunden; bleibt im Artikel als offene Frage stehen, nicht geraten.
+- **Register:** `raw/_INGESTED.md` (neue Zeile). Kein Eintrag in `wiki/QUESTIONS.md` nötig —
+  die offene Frage lebte ausschliesslich im Artikel selbst (Abschnitt 7) und ist dort
+  geschlossen.
+- Report `outputs/2026-08-23_buch-run83.md`.
+- **Diff-Kontrolle (Rule 260811):** nach jedem Schreibvorgang `git diff --numstat` geprüft —
+  `wiki/umgebungsgestaltung-und-einfriedungen.md` 38+/18- (Abschnittsersatz § 27→§27/§27a plus
+  zwei Statuszeilen, keine Sachaussage ersatzlos entfernt), `raw/_INGESTED.md` 1+/0- (reine
+  Anfügung), `raw/260823_amtlich_zh_verv.md` neue Datei. Keine Massenlöschung.
+
 ## 2026-08-23 — Buch-Run 82: QUESTIONS-Frage B (Grundbuch-Institut GSchV Anhang 4) geklärt — Fedlex-Zugangsweg für GSchV/GSchG-Familie repariert (Phase 3, Fortsetzung nach Run 81)
 
 - **Ausgangslage:** Reglemente-Queue 2414 Thalwil (T1-T8) bleibt seit Run 79 vollständig

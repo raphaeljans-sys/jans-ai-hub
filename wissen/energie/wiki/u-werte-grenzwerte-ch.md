@@ -141,6 +141,7 @@ betriebstechnische Räume, Abstellräume (auch wenn beheizt). Wer die EBF falsch
 Q_H, Minergie-Kennzahl **und** PV-Pflicht (10 W/m² EBF) falsch. Detail → `[[enfk-en-02-waermeschutz-2013]]`.
 
 ⚠ **Fassungsvermerk (Wissens-Chef Run 37, 19.08.2026):** **SIA 416/1:2007 ist zurückgezogen** (gültig 01.07.2007 bis 31.03.2015), ersetzt durch **SIA 380:2015** (SN 504380:2015). Belegt an zwei Primärquellen (SIA-Shop-Produktdatenblatt «archivierter Titel»; Titelblatt der SIA 380:2015 «Ersatz für SIA 416/1:2007»), Normen-Nacht Run 57. **SIA 380:2015 liegt nicht im Haus** (Ticket `N57-2`). Der EBF-**Begriff** lebt in der Nachfolgenorm weiter — überholt ist die **Fundstelle**, nicht zwingend die Abgrenzung. Ob der kantonale Vollzug (EVEN/EnFK) seinen statischen Verweis nachgeführt hat, ist **nicht geprüft**.
+⚠⚠ **KORREKTUR 23.08.2026 (KB `normen`, SIA-Sweep zehnte Fortsetzung):** **SIA 380:2015 ist selbst bereits archiviert** — gültig nur 01.04.2015 bis 31.10.2022 (Primärquelle `shop.sia.ch/normenwerk/architekt/380_2015_d`). Die seither gültige Ausgabe ist **SIA 380:2022** (gültig ab 01.11.2022, 60 S., 180.00 CHF, `shop.sia.ch/normenwerk/architekt/380_2022_d`). Die Bring-Schuld N57-2 zielt jetzt auf SIA 380:2022, nicht mehr auf SIA 380:2015 — weder die eine noch die andere Ausgabe liegt im Haus. Details: KB `normen`, `wiki/REGISTER.md` Zeile SIA 380, `wiki/QUESTIONS.md` N57-2.
 
 ## ⚠ Versionsabgleich EN-2 (2013, SIA 380/1:2009) ↔ EN-102 (2018)
 Zwischen den EnFK-Vollzugshilfen-Ausgaben gibt es Abweichungen — für den Nachweis gilt die im

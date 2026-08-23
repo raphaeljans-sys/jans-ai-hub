@@ -1,11 +1,12 @@
 ---
 title: Umgebungsgestaltung, Einfriedungen und Gartenmauern — die Vierebenen-Prüfung
-status: emerging
-last_updated: 2026-08-13
-sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 28 VErV", "§ 29 VErV", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020"]
+status: established
+last_updated: 2026-08-23
+sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]], [[raumplanung-und-gestaltung]], [[baubewilligungsverfahren]], [[grundlagen-planungs-baurecht]], [[zonenkonformitaet]], [[baulinien-und-abstandslinien]]
 verifiziert:
   - "2026-08-13 (Ersterstellung, Buch-Run 73, Batch T2) — sämtliche §§ wortgetreu gegen die amtlichen raw-Volltexte gegengelesen: § 238/§ 238a/§ 240/§ 257/§ 309 PBG gegen 260607_amtlich_zh_pbg.md; §§ 20/23/26-29 VErV gegen 260803_amtlich_zh_verkehrserschliessungsv.md; §§ 169-179 EG ZGB gegen 260725_amtlich_zh_egzgb.md und gegen das amtliche Merkblatt der Gemeinde Thalwil (Skizzenblatt, S. 1-2 und 4); Art. 27 BZO Thalwil und Art. 50 revBZO gegen die BZO- bzw. Synopsen-Volltexte. Die 1.40-m-Regel am Wortlaut der Wegleitung BZO Thalwil (Nachführung 2020) verifiziert — inklusive der davorstehenden Überschrift, die ihren Rechtscharakter bestimmt."
+  - "2026-08-23 (Buch-Run 83, Modell-D Fassungsstand-Check, Fassungsvorbehalt aus Run 73 geschlossen) — konsolidierte LS-Fassung der VErV frisch von zhlex bezogen (Connector recht-ch.mjs, Nachtrag 127, Fassungsstand 1.1.2025, raw/260823_amtlich_zh_verv.md) und §§ 20/23/26-29 VErV Wort für Wort gegen die bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 CONFIRMED, wortgleich. 1 echte Korrektur: § 27 VErV wurde per RRB vom 14.09.2022 (in Kraft seit 1.12.2024) neu gefasst (Innerorts-/Ausserorts-Split 2 m/4 m statt einheitlich 4 m) und um § 27a (Verringerung) ergänzt — im Artikel korrigiert. Status emerging → established."
 ---
 
 # Umgebungsgestaltung, Einfriedungen und Gartenmauern
@@ -124,16 +125,32 @@ per se unzulässig, sondern nur bei nachgewiesenem Sicherheitsbedürfnis mit ein
 belegen. Wer «an Kurveninnenseiten max. 0,80 m» schreibt, gibt eine Verhandlungsposition
 preis, die das geltende Recht offenlässt.
 
-### § 27 VErV — Pflanzen
+### § 27 / § 27a VErV — Pflanzen (⚠ per 01.12.2024 geändert, siehe Fassungsvorbehalt unten)
 
-- **Bäume 4 m** von der Strassengrenze, gemessen **ab Stammmitte**;
-- andere Pflanzen so, dass sie nicht in den Lichtraum ragen, **Sträucher und Hecken
-  mindestens 0,5 m**;
-- **Reduktion des Baumabstands auf 2 m** gegenüber Fusswegen, freigeführten Trottoirs,
-  Velowegen und Strassen des Quartier-/Anwohnerverkehrs sowie **im Interesse des Ortsbildes**;
-- der Werkträger kann die Reduktion von einem **Unterhaltsvertrag** abhängig machen und im
-  Reduktionsfall die **entschädigungslose Beseitigung** verlangen, wenn die Verkehrssicherheit
-  nicht gewährleistet ist.
+**Seit RRB vom 14.09.2022 (in Kraft seit 01.12.2024) gilt eine neue Struktur** — die
+2019er-Erlassfassung, mit der dieser Artikel am 13.08.2026 ursprünglich verifiziert wurde,
+kannte die Innerorts-/Ausserorts-Unterscheidung noch nicht:
+
+- **§ 27 Abs. 1 (Grundabstand Bäume), gemessen ab Stammmitte:**
+  - lit. a: **2 m** gegenüber der Strassengrenze **innerorts**,
+  - lit. b: **4 m** gegenüber der Strassengrenze **ausserorts**,
+  - lit. c: **0,5 m** gegenüber Fusswegen, freigeführten Trottoirs und Velowegen.
+- **§ 27 Abs. 2:** andere Pflanzen so, dass sie nicht in den Lichtraum ragen, **Sträucher und
+  Hecken mindestens 0,5 m**, gemessen ab Stockmitte.
+- **§ 27a (neu eingefügt) — Verringerung:** sofern Sichtweiten und Lichtraumprofile eingehalten
+  sind, kann der Baumabstand verringert werden: **innerorts** ohne betragliche Untergrenze
+  (sofern Strassenkörper und Leitungen nicht beeinträchtigt sind), **ausserorts im Interesse
+  des Orts- oder Landschaftsschutzes auf 2 m**. Der Werkträger kann die Verringerung von einem
+  **Unterhaltsvertrag** abhängig machen; bei nicht mehr gewährleisteter Verkehrssicherheit ist
+  die **entschädigungslose Beseitigung** anordenbar.
+
+**Was sich materiell ändert:** die alte Fassung kannte einen einheitlichen 4-m-Grundabstand mit
+Reduktionsmöglichkeit auf 2 m «gegenüber Fusswegen, freigeführten Trottoirs, Velowegen und
+Strassen des Quartier-/Anwohnerverkehrs sowie im Interesse des Ortsbildes». Die geltende Fassung
+setzt **innerorts von vornherein 2 m als Grundabstand** (nicht erst als Reduktion) und knüpft die
+Verringerung an andere, engere Kriterien (Orts-/Landschaftsschutz nur noch ausserorts). Für ein
+Thalwiler Projekt (durchweg Innerorts-Lage) ist der praktisch relevante Grundabstand damit **2 m**,
+nicht 4 m.
 
 ### § 20 VErV — Lichtraum (Masse geändert)
 
@@ -155,9 +172,11 @@ Abstandsmassen, soweit die Verkehrssicherheit gewährleistet ist.
 **Bepflanzungen** und sonstige Grundstücknutzungen darf weder der Verkehr behindert oder
 gefährdet noch Bestand und Sicherheit des Strassenkörpers beeinträchtigt werden.
 
-**Fassungsvorbehalt:** Der raw-Volltext ist die RRB-Erlassfassung vom 17.04.2019, nicht die
-konsolidierte LS-Fassung. Vor einem Zitat in einem ausgehenden Dokument gegen zhlex
-konsolidiert gegenprüfen (offen in [[QUESTIONS]]).
+**Fassungsvorbehalt — ✅ geschlossen 2026-08-23 (Buch-Run 83):** die konsolidierte LS-Fassung
+(zhlex, Nachtrag 127, Fassungsstand 1.1.2025, `raw/260823_amtlich_zh_verv.md`) wurde gegen die
+bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 VErV **CONFIRMED**, wortgleich,
+keine Nachträge. **§ 27/§ 27a VErV wurden per RRB vom 14.09.2022 geändert bzw. neu eingefügt (in
+Kraft seit 01.12.2024)** — Korrektur siehe oben.
 
 ## 3 · Ebene Privatrecht — §§ 169 ff. EG ZGB
 
@@ -259,8 +278,9 @@ Herkunft schützt nicht vor Alterung.
 
 ## 7 · Offen
 
-- Konsolidierte LS-Fassung der VErV (allfällige Nachträge seit 01.06.2020) — Fassungsvorbehalt
-  der raw-Datei.
+- ~~Konsolidierte LS-Fassung der VErV (allfällige Nachträge seit 01.06.2020) —
+  Fassungsvorbehalt der raw-Datei.~~ **✅ geschlossen 2026-08-23 (Buch-Run 83),** siehe Ebene 2
+  oben (§ 27/§ 27a-Korrektur).
 - **Vorsprünge, Türen und Tore an der Strassengrenze** (bisher §§ 11/12 StrAV) haben in der
   VErV keine erkennbare Entsprechung; Anschlussnorm in PBG/ABV suchen.
 - Rechtsprechungs-Register zu § 238 Abs. 1 PBG (Ebene 4) im Aufbau.

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 19:27:10
+Stand: 23.08.2026 19:37:28
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:03)
+- keine
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 19:27:10
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 28625564 wissen/normen: SIA-Sweep achte Fortsetzung - N-SIASWEEP-4 geschlossen (SIA 405:2025 ersetzt SIA 405/2015/2016/2045:2012, Primaerquelle), SNV-Webshop als achte Quellenart fuer N-SIASWEEP-2/3 ohne Fortschritt, SharePoint-Bestand SIA_Norm unveraendert
+- 5feaa3f1 wissen/energie: QUESTIONS-Nachlauf zehnte Fortsetzung (Run 155) - E-R129-4 Teilbefund, SIA-2024-Original gegengelesen, Standardwert-Hypothese widerlegt

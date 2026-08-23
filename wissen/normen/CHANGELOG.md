@@ -1,3 +1,109 @@
+## 2026-08-23 — SIA-Sweep, zehnte Fortsetzung: drei fehlende Register-Zeilen (SIA 380, SIA 4013, SIA 242.002) nachgetragen, dabei falsches Bring-Schuld-Ziel N57-2 korrigiert (SIA 380:2015 ist selbst archiviert, aktuell gilt SIA 380:2022)
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und `wissens-bibliothekar`
+beachten, jede Aussage belegen, nichts raten. Vorlauf gelesen: dieser CHANGELOG (Kopf: neunte
+Fortsetzung) und `outputs/2026-08-23_sia-sweep-neunte-fortsetzung.md`.
+
+**Ausgangslage.** Der Blindzone-Sweep (leere Bestand-Abgleich-Zellen) bleibt bei 0 von 187 aktiven
+Zeilen — vollständig, in diesem Lauf nicht neu gescannt. N-SIASWEEP-2/3 (SIA 422, SIA 2021/2025)
+bleiben laut Empfehlung der achten/neunten Fortsetzung unangetastet (acht Quellenarten erschöpft).
+Stattdessen ein systematischer Python-Abgleich aller «ersetzt durch»-Verweise in Abschnitt A gegen
+die dort bereits als eigene Zeile geführten Normnummern (dasselbe Verfahren, das die neunte
+Fortsetzung für die 4000er-Neuzugänge nutzte) — mit dem Ziel, weitere Fälle desselben Musters zu
+finden: eine Zielnorm mehrfach als Nachfolgerin genannt, aber nie selbst als Zeile geführt.
+
+**Drei Treffer, alle Produktseiten direkt bei shop.sia.ch gelesen (WebFetch):**
+- **SIA 4013:2021** «Wegleitung CAD-Datenaustausch — Organisation und Planung», gültig ab
+  01.08.2021, aktuell, 60 S., 150.00 CHF. Löst **beide** SIA 2035:2009 und SIA 2036:2009 zugleich
+  ab (Zeilen oben bereits als Vorgänger vermerkt, aber ohne eigene Zielzeile).
+- **SIA 242.002:2008/2009**, gültig ab 01.01.2009, aktuell, 24 S., 56.00 CHF. Löst den Gips-Teil
+  von SIA 215:1978 ab; im 2013-Register nicht als eigene Dezimal-Unternummer erfasst (nur die
+  Elternzeile SIA 242).
+- **SIA 380:2022** «Grundlagen für energetische Berechnungen von Gebäuden», gültig ab 01.11.2022,
+  60 S., 180.00 CHF.
+
+**Grösster Befund, kein Neuzugang: die bestehende Bring-Schuld N57-2 zielte auf die falsche
+Ausgabe.** Beim Prüfen der Produktseite von SIA 380:2015 (bisher als Nachfolgenorm von
+SIA 416/1:2007 geführt, Register-Zeile SIA 416/1, `QUESTIONS.md` N57-2, seit 19.08.2026 offen)
+zeigt sich: **SIA 380:2015 ist selbst bereits archiviert**, gültig nur vom 01.04.2015 bis zum
+31.10.2022. Die seither gültige Ausgabe ist **SIA 380:2022** (Produktseite bestätigt wörtlich:
+«die 2015er-Version ist archiviert, gültig bis 31.10.2022»). N57-2 hatte seit fünf Tagen die
+Beschaffung von SIA 380:2015 verlangt — ein Kauf hätte eine bereits vier Jahre überholte Fassung
+ins Haus geholt. Korrigiert in `wiki/QUESTIONS.md` (N57-2, additiver Warnkasten, ursprünglicher
+Text unangetastet), `wiki/REGISTER.md` (Zeile SIA 416/1 und neue Zeile SIA 380), `destillate/
+sia-416-1-2007.md` (Warnkasten-Nachtrag) und `destillate/INDEX.md`.
+
+**Cross-KB-Bringschuld (Rule `wissens-bibliothekar`) teilweise erfüllt.** N57-2 nennt fünf
+abnehmende Fremd-KB-Dateien, die SIA 416/1 bzw. die Bring-Schuld zitieren. In diesem Lauf nur
+`wissen/energie/wiki/u-werte-grenzwerte-ch.md` korrigiert (additiver Warnkasten, dringlichster
+Abnehmer wegen aktiver Nutzung im Energie-Skill). Die übrigen vier (`energie` fünf weitere
+Dateien, `immobilienbewertung/wiki/flaechendefinitionen-sia.md`, `planungsgrundlagen/wiki/
+recht-norm-ahb-stadt-zuerich-projektstandards.md`, `baurecht/buecher/band-2/17-…md`) bleiben
+offen — ausserhalb des Scopes dieses SIA-Sweep-Laufs, aber jetzt mit korrigiertem Zielwert in
+N57-2 vorgemerkt.
+
+**Register nachgeführt:** `wiki/REGISTER.md` — neue Zeile SIA 4013 am Ende der bestehenden
+4000er-Reihe-Tabelle; neue Unterüberschnitt «Weitere Neuzugänge nach 2013 (keine 4000er-Nummer)»
+mit den Zeilen SIA 380 und SIA 242.002; FRISCH-GEMELDET-Tabelle um zwei Einträge ergänzt.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — alle Änderungen an
+`wiki/REGISTER.md`, `wiki/QUESTIONS.md`, `destillate/INDEX.md`, `destillate/sia-416-1-2007.md`
+und `wissen/energie/wiki/u-werte-grenzwerte-ch.md` rein additiv (Zeilen-Ersatz nur dort, wo eine
+bestehende Zeile um einen Warnkasten verlängert wurde, Inhalt vollständig erhalten). Die Dateien
+`wiki/QUESTIONS.md`, `destillate/INDEX.md`, `destillate/suva-67012-checkliste-boeden.md` und
+dieser CHANGELOG wurden während des Laufs von einem parallelen Prozess auf dieser Station
+verändert (eigener Auftrag «QUESTIONS-Abarbeitung»); vor jedem eigenen Edit die Zielstelle frisch
+geprüft, nach jedem Edit per `git diff` gegengelesen — keine fremde Ergänzung überschrieben, kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:** kein Volltext von SIA 380 (2015 oder 2022), SIA 4013
+oder SIA 242.002 gekauft — alle bleiben Beschaffungs-Bring-Schulden. Vier von fünf Cross-KB-
+Abnehmern der N57-2-Korrektur nicht nachgeführt (siehe oben). N-SIASWEEP-2/3 unverändert offen,
+bewusst nicht erneut angegangen. Der Blindzone-Sweep bleibt bei 0 von 187 offenen Zeilen.
+
+Report: `outputs/2026-08-23_sia-sweep-zehnte-fortsetzung.md`.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung, achter Lauf: Suva 67012.d «Checkliste Böden» war im Haus veraltet (Ausgabe Oktober 2025 nachgezogen), BRL-16-15-Altfrage bereinigt
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopf: siebter Lauf) und
+`outputs/2026-08-23_sia500-korrigenda-c3-c4-vollstaendig.md`.
+
+**Grösster Befund: die im Haus liegende Suva-Checkliste 67012.d «Böden» war nicht nur
+undatiert, sondern tatsächlich veraltet — die aktuelle Ausgabe ist Oktober 2025.** N-R40-8
+(seit 31.07.2026 offen: Fassungsstand nur über `suva.ch/waswo` klärbar) direkt an der Quelle
+geprüft: `www.suva.ch/de-ch/download/checklisten/boeden/boeden--67012.D` abgerufen (deutsche
+Seite, damit das Datum eindeutig TT.MM.JJJJ ist), die aktuelle PDF-Ausgabe heruntergeladen
+(`curl`+`pdftotext -layout`, alle 4 Seiten) und wortweise gegen die bisherige
+`established`-Fassung (Run 40, 31.07.2026) verglichen. Fussleiste S. 4 nennt wörtlich
+«Ausgabe: Oktober 2025». **Die beiden sicherheitsrelevanten Zahlenwerte (4-mm-Stolperschwelle
+Frage 8, 2-cm-Ablaufrinnentiefe Frage 10) sind unverändert**, damit bleiben die
+JANS-Praxis-Transfer-Kriterien gültig. Neu ist eine eigene Rubrik «Rechtliche Grundlagen»
+(ArGV 3 Art. 14, VUV Art. 14 — fehlte in der Alt-Fassung vollständig), Frage 1 wurde vom
+technischen Beispielkatalog auf den Gesetzesbezug umgestellt, Frage 5 verlangt neu zusätzlich
+«signalisiert», Frage 16 wurde auf «Warnaufsteller» konkretisiert, und die Schuh-Frage ist von
+Position 17 auf Position 20 gewandert. `destillate/suva-67012-checkliste-boeden.md`
+vollständig auf die Ausgabe Oktober 2025 umgestellt, Alt-Fassung im neuen Abschnitt
+«Historische Fassung» archiviert (kein Informationsverlust); `destillate/INDEX.md`
+nachgeführt.
+
+**Stale-Item bereinigt:** der Run-14-Eintrag «VKF BRL 16-15 — Ausgabe klären» war bereits seit
+Run 22 (25.07.2026) durch `wiki/REGISTER.md` erledigt («Ausgabe 2015, Fassung 01.01.2017 mit
+Zusatzvermerk «Stand 01.12.2022»»), aber nie als `[x]` markiert — nachgetragen.
+
+**Verifikationsstand:** Suva-PDF primärquellenfest (offizielle suva.ch-Domain, deutschsprachige
+Seite gegen die mehrdeutige englische Sitecore-Variante gegengeprüft, Ausgabe-Vermerk direkt
+im Dokument gelesen). Nach jedem Schreiben `git diff --numstat` geprüft — reine
+Ergänzung/Ersetzung, keine Bestandslöschung. Report:
+`outputs/2026-08-23_questions-abarbeitung6.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung, siebter Lauf: SIA 500 Korrigenda C3/C4 vollständig ausgewertet, VKF 12-15-Querverweis nachgetragen
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

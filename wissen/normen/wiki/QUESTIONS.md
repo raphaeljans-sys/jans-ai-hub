@@ -719,6 +719,20 @@ der Bestand führt nur SIA 380/1:2016, 380/3:1990 und 380/4 (andere Normen). Bez
 kostenpflichtig, **Bring-Schuld Raphael; Claude tätigt keine Käufe.** Diese Beschaffung ist
 gewichtiger als jede weitere Runde auf der Altnorm.
 
+> ⚠⚠ **KORREKTUR 23.08.2026 (SIA-Sweep, zehnte Fortsetzung) — die oben benannte Bring-Schuld
+> zielt auf die FALSCHE Ausgabe.** Produktseite `shop.sia.ch/normenwerk/architekt/380_2015_d`
+> (direkt abgerufen 23.08.2026): **SIA 380:2015 ist selbst archiviert, gültig nur 01.04.2015 bis
+> 31.10.2022.** Die seither gültige Ausgabe ist **SIA 380:2022** «Grundlagen für energetische
+> Berechnungen von Gebäuden» (gültig ab 01.11.2022, 60 S., 180.00 CHF), Produktseite
+> `shop.sia.ch/normenwerk/architekt/380_2022_d`, die selbst bestätigt: «die 2015er-Version ist
+> archiviert, gültig bis 31.10.2022». **Zu beschaffen und zu destillieren ist SIA 380:2022, nicht
+> SIA 380:2015** — ein Kauf der 2015er-Ausgabe würde eine bereits seit vier Jahren überholte
+> Fassung ins Haus holen. Register-Zeile `SIA 380` neu angelegt (Abschnitt A, Register.md),
+> `destillate/sia-416-1-2007.md` und `destillate/INDEX.md` mit demselben Hinweis ergänzt. Die
+> fünf in der Tabelle oben genannten Fremd-KBs sind über diese Korrektur **noch nicht** informiert
+> (Cross-KB-Bringschuld weiterhin offen, jetzt mit korrigiertem Ziel); `energie/wiki/u-werte-
+> grenzwerte-ch.md` in diesem Lauf als einzige bereits nachgeführt (dringlichster Abnehmer).
+
 **Reichweite über die KB hinaus — bitte prüfen, hier nur gemeldet.** Das Register `wissen/normen`
 ist nachgeführt (REGISTER, INDEX, Inventar, Destillat, Wiki-Artikel). **Nicht angefasst** sind
 Fremd-KBs, die SIA 416/1 zitieren; sie sollten die Fundstelle auf SIA 380:2015 umhängen, sobald
@@ -1964,10 +1978,24 @@ Sie sind unten als Checkboxen unter den korrigierten IDs **N-R40-5..8** geführt
   Legende auf S. 5 kennt keine getönte Variante. Der Effekt ist konsistent (immer Deckschicht +
   Stiel, nie das Dämmstofffeld), seine Bedeutung aus der Quelle nicht ableitbar — grafische
   Hervorhebung oder Druck-/Scan-Effekt. Nicht gedeutet.
-- [ ] **N-R40-8 (P3): Fassungsstand Suva 67012.d «Checkliste Böden».** Im Fliesstext steht kein
+- [x] **N-R40-8 (P3): Fassungsstand Suva 67012.d «Checkliste Böden».** Im Fliesstext steht kein
   Ausgabedatum — am Original bestätigt, kein Übersehen. PDF-Metadaten nennen CreationDate
   23.01.2006 und ModDate 08.08.2007, das ist aber kein Fassungsbeleg. Nur über suva.ch/waswo
   klärbar.
+  Erledigt 23.08.2026, QUESTIONS-Abarbeitung → `outputs/2026-08-23_questions-abarbeitung6.md`.
+  Über `www.suva.ch/waswo/67012.D` bzw. `www.suva.ch/de-ch/download/checklisten/boeden/
+  boeden--67012.D` die **aktuelle Ausgabe Oktober 2025** direkt geladen (curl+pdftotext) und
+  gelesen: Fussleiste S. 4 nennt wörtlich «Ausgabe: Oktober 2025», «Publikationsnummer:
+  67012.d» — damit ist die Frage nicht nur beantwortet, sondern die im Haus liegende Datei ist
+  **veraltet** (~2006/2007). Wortweiser Vergleich zeigt: die beiden sicherheitsrelevanten
+  Zahlenwerte (4-mm-Stolperschwelle Frage 8, 2-cm-Ablaufrinnentiefe Frage 10) sind
+  **unverändert**; neu ist eine Rubrik «Rechtliche Grundlagen» (ArGV 3 Art. 14, VUV Art. 14,
+  fehlte in der Alt-Fassung vollständig), Frage 1 wurde vom technischen Beispielkatalog auf den
+  Gesetzesbezug umgestellt, Frage 5 verlangt neu zusätzlich «signalisiert», und die Schuh-Frage
+  ist von Position 17 auf Position 20 gewandert (bei Zitat der alten Fragenummer beachten). Das
+  Destillat `destillate/suva-67012-checkliste-boeden.md` ist vollständig auf die Ausgabe Oktober
+  2025 umgestellt, die Alt-Fassung bleibt darin als eigener Abschnitt „Historische Fassung"
+  dokumentiert (nichts gelöscht). `destillate/INDEX.md` nachgeführt.
 
 ### Zwei Arbeitsfallen, die diesen Lauf Zeit gekostet haben
 
@@ -2992,10 +3020,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   SIA 112 (Verweis SIA 469 + SIA 269/2 in Modulen 532.2/622/632), SIA 451 (Feld 20 Laufnummer,
   Header-Felder 11/12, Schlussrecord-Datum TTMMJJ), VKF 16-15 (Personenbelegungs-/Treppen-/
   Tuerverschluss-Kennwerte im Anhang). Volltext-Fundstellen je Norm in `destillate/qa/*-fragen.md`.
-- [ ] **VKF BRL 16-15 — Ausgabe klaeren (Run 14):** Der Q&A-Agent liest im PDF
+- [x] **VKF BRL 16-15 — Ausgabe klaeren (Run 14).** Der Q&A-Agent liest im PDF
   `16-15_rev2016_flucht_und_rettungswege.pdf` die **Ausgabe 2017** (inkl. IOTH-Revisionen
   2015/2016). REGISTER/Inventar fuehren die Datei ohne klares Ausgabejahr — Ausgabe-Feld
   am Original verifizieren und in REGISTER nachtragen (2017 statt 2015/2016).
+  Erledigt bereits durch Run 22 (25.07.2026), hier nur nachgetragen (23.08.2026,
+  QUESTIONS-Abarbeitung). `wiki/REGISTER.md` Zeile ~676 führt die Fassung seit Run 22 präzise:
+  «Ausgabe 2015, Fassung 01.01.2017 mit Zusatzvermerk «Stand 01.12.2022» (Änderungsstufen:
+  ABSV 22.03.2017, TKB 09.06.2021, Fehlerkorrektur 01.12.2022 — alle drei laut Änderungsliste
+  S. 2 «im Anhang»)» — die ursprünglich befürchtete Ambiguität 2015/2016/2017 ist damit
+  vollständig aufgelöst, kein offener Rest.
 - [x] Gültigkeitsstand der Verzeichnisse — **beantwortet 11.07.2026 (Run 1):**
   `ersetzte_normen.pdf` = SIA-Rückzugs-/Ersatz-Register, **Stand 25.02.2013**;
   `Gesamtverzeichnis SIA.pdf` = Produkt-/Preiskatalog **~2002** (kein Gültigkeitsregister).
