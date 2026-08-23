@@ -1,5 +1,36 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 7 Revendo) — Rückwirkung eines Quellenbefunds auf den eigenen Flächenblock
+
+In `wissen/immobilienbewertung` hat ein Recompute der Quelltabelle (JANS-8-Objekt-Referenzvergleich,
+alle 24 Zellen) eine **dritte** inkonsistente Zelle zutage gefördert, die D10 bisher nicht kannte:
+**Lanzeln ST-ZH, Spalte CHF/Pflegezimmer** weicht um **12.6 %** ab, während CHF/m³ und CHF/m² GF
+derselben Zeile exakt reproduzieren. **BKP 2, GF und GV sind damit bestätigt — unsicher ist die
+Platzzahl 123** (zurückgerechnet entspräche der Tabellenwert 107.6 Plätzen).
+
+**Auswirkung auf den am selben Tag gefüllten Flächenblock, geprüft statt angenommen:**
+
+| Feld | betroffen? | Begründung |
+|---|---|---|
+| `gf_pro_einheit_m2` [90, 135] | **nein** | die untere Grenze trägt **Herosé**, dessen Platzzahl die eigene CHF/PZ-Spalte bestätigt |
+| `gf_pro_einheit_m2_median` 111 | **nein** | Median verschiebt sich in beiden Fällen nicht |
+| `gv_pro_einheit_m3` [289, 436] | **ja** | die untere Grenze **289 stammt von Lanzeln**; mit 107.6 Plätzen läge sie bei 330, der Bandrand bei **314** (dann Herosé) |
+| `gv_pro_einheit_m3_median` 343 | **nein** | unverändert in beiden Fällen |
+| `gv_gf_faktor` 3.2 | **nein** | Verhältnis GV/GF, von der Platzzahl unabhängig |
+
+**Das Band ist NICHT geändert** — welcher Wert stimmt, ist ohne das Original-Blatt nicht
+entscheidbar. Stattdessen ist die **untere Grenze als unsicher gekennzeichnet**, mit der
+Empfehlung, im Zweifel mit dem Median oder mit 314 zu rechnen. Der bestehende Hinweistext ist
+durch Anhängen erweitert, nichts überschrieben; `validate.py --all`: OK.
+
+**Das ist der Fall, für den die Vorbehalte gedacht waren.** Der Flächenblock wurde heute Morgen
+mit vier ausdrücklichen Vorbehalten angelegt, darunter «zwei Zeilen quellenintern inkonsistent» —
+als heute Abend eine dritte auftauchte, liess sich die Auswirkung in Minuten prüfen, weil
+dokumentiert war, welche Zeile welchen Bandrand trägt. Ohne diese Notiz hätte man das Band neu
+herleiten müssen.
+
+Geänderte Dateien: `wiki/parameter-sets/healthcare-neubau-zh.json` (nur `flaechen.hinweis`).
+
 ## 2026-08-23 (Vertiefungslauf 6 Revendo) — Nachkontrolle: eigener Platzhalter als Fehlalarm entfernt
 
 Nachkontrolle des Konsistenzlaufs, nachdem der NAS-Klon nachgezogen hatte: der Befund

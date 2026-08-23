@@ -2,6 +2,44 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 14 — dieselbe Pruefregel auf die Healthcare-Tabelle: eine DRITTE Abweichung)
+
+Die in `wissen/grobkosten` gewonnene Pruefregel (`Kosten ÷ Bezugsgroesse` selbst nachrechnen und
+gegen den im Dokument genannten Kennwert halten) auf den **JANS-8-Objekt-Referenzvergleich**
+angewendet — **alle drei Kennwertspalten × alle acht Objekte, 24 Zellen**.
+
+**Die beiden bekannten D10-Zeilen sind bestaetigt** (Averecura, Vella). **Neu ist eine dritte
+Abweichung, die bisher nirgends vermerkt war:**
+
+**Lanzeln ST-ZH, Spalte CHF/Pflegezimmer** — Tabelle **272'780**, gerechnet **29.34 Mio ÷ 123 PZ =
+238'537**, **12.6 % Abweichung**.
+
+**Die Fehlerquelle ist eingegrenzt.** Die beiden anderen Spalten derselben Zeile reproduzieren
+**exakt**: 29.34 Mio ÷ 35'531 m³ = 825.8 gegen Tabelle 826, und ÷ 11'184 m² GF = 2'623.4 gegen
+2'623. **BKP 2, GF und GV sind damit bestaetigt** — falsch sein kann nur die **Pflegeplatzzahl 123**
+oder der **CHF/PZ-Wert 272'780**. Zurueckgerechnet entspraeche dieser **107.6 Plaetzen**; erklaerbar,
+wenn die CHF/PZ-Spalte nur **Pflegezimmer** zaehlt und die PZ-Spalte alle **Plaetze** (Doppelzimmer,
+Alterswohnungen) — **belegt ist das nicht**.
+
+**Warum es materiell ist:** **272'780 ist die untere Grenze des gefuehrten CHF/Pflegezimmer-Bands**
+«272'780–530'000». Traefe die Rueckrechnung zu, laege sie bei **238'537** — das Band waere **13 %
+breiter nach unten**. **Nichts geaendert**: welcher Wert stimmt, ist ohne das Original-Blatt nicht
+entscheidbar. Bis zur Klaerung ist der untere Bandrand mit diesem Vorbehalt weiterzugeben.
+
+**Die uebrigen fuenf Objekte sind sauber** — Dankensberg, Trotte, Herose, Mathysweg und St. Anna
+reproduzieren in allen drei Spalten unter 0.6 % (reine Rundung). Von 24 Zellen sind **fuenf
+auffaellig**: die vier bekannten aus D10 plus diese eine.
+
+**Anschluss an die eigene Tagesarbeit geprueft.** Die in `wissen/entwurfs-referenzen` aus dieser
+Tabelle abgeleiteten Flaechenkennwerte: **GF je Pflegeplatz bleibt unveraendert** (90–135,
+Median 111 — die untere Grenze traegt Herose, dessen Platzzahl die eigene CHF/PZ-Spalte bestaetigt).
+**GV je Pflegeplatz ist betroffen** — die untere Bandgrenze 289 m³ stammt von Lanzeln, mit 107.6
+Plaetzen laege sie bei 330 und der Bandrand bei **314** (dann Herose). **Median 343 und GV/GF-Faktor
+bleiben in beiden Faellen unveraendert.**
+
+D10 entsprechend erweitert. Geaenderte Dateien: `wiki/realwert-sachwert.md` (⚠-Nachtrag bei der
+8-Objekt-Tabelle), `wiki/wissensluecken.md` (D10).
+
 ## 2026-08-23 (Vertiefungslauf 13 — Selbst-Recompute: alle Zahlen des Tages gegen die Quelldateien nachgerechnet)
 
 Abschluss der Tagesarbeit mit einem **vollstaendigen Recompute** des groessten neuen Erzeugnisses:

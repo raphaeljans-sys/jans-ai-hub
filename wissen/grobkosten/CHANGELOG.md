@@ -1,5 +1,33 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 9 Revendo) — Prüfregel auf ALLE Einzelfälle angewendet: sieben von acht gehen exakt auf
+
+Die aus dem Reckholdern-Befund gewonnene Prüfregel — `Kosten ÷ Bezugsgrösse` selbst nachrechnen und
+gegen den im Dokument genannten Kennwert halten — ist unmittelbar auf **alle** kennwerttragenden
+Projektbelege dieser KB angewendet worden, nicht nur auf den Verdachtsfall.
+
+| Fall | nachgerechnet | Beleg nennt | Abweichung |
+|---|---|---|---|
+| Niederhasli Seestrasse 64 | 1'031.9 | 1'032 | −0.01 % |
+| Wald Haselstudstrasse (Miete) | 1'538.6 | 1'539 | −0.03 % |
+| Wald Haselstudstrasse (STWE) | 1'764.9 | 1'765 | −0.01 % |
+| Wädenswil Pre-Check | 1'380.0 | 1'380 | ±0.00 % |
+| Wädenswil Pre-Check + Risiko | 1'545.5 | 1'546 | −0.03 % |
+| Haus Deuber Thalwil | 1'086.2 | 1'086 | +0.02 % |
+| Albertstrasse 7, Variante 3 | 2'500.0 | 2'500 | ±0.00 % |
+| **Reckholdern Dokument 2** | **1'725.9** | **1'086** | **+59 %** ✗ |
+
+**Sieben von acht gehen exakt auf** (Abweichungen ≤ 0.03 %, reine Rundung). **Reckholdern
+Dokument 2 bleibt der einzige Ausreisser**, dessen Ursache im Lauf 8 benannt ist. Die
+Kennwert-Basis dieser KB ist damit an ihrer empfindlichsten Stelle systematisch geprüft: **kein
+weiterer Vorlagen-Verdacht, kein Kennwert geändert.**
+
+Das ist die Art Prüfung, die eine Sättigungsmeldung erst belastbar macht — die KB hat seit Run 12
+mehrfach «keine neue Aufgabe» gemeldet, ohne die vorhandenen Werte je gegen ihre eigenen
+Bezugsgrössen zurückgerechnet zu haben.
+
+Geänderte Dateien: `wiki/kennwerte.md` (Prüftabelle im Nachtragsblock).
+
 ## 2026-08-23 (Vertiefungslauf 8 Revendo) — Vorlagen-Kontamination bei Reckholdern nachgewiesen
 
 **Nachgerechnet, nicht vermutet.** Der Roh-Beleg hält fest, in Dokument 2 der Reckholdern-Akte

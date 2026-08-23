@@ -478,6 +478,45 @@ Kennwerten nebeneinander — die belastbare Basis fuer den Healthcare-Neuwert (R
   St.-Anna-**Zentrum** (Ausreisser, hoher Gemein-/Therapieflaechenanteil). Das erweitert den
   frueheren Herosé-Vier-Heim-Vergleich (337'000-418'000) nach unten und oben.
 
+> ### ⚠ Nachtrag 23.08.2026 — ein DRITTER inkonsistenter Wert in dieser Tabelle (D10 erweitert)
+>
+> D10 fuehrt seit Run 18 zwei quellenintern nicht reproduzierbare Zeilen: **Averecura** und
+> **Vella**. Ein vollstaendiger Recompute **aller drei Kennwertspalten × aller acht Objekte**
+> (24 Zellen, 23.08.2026) bestaetigt beide — und findet **eine dritte Abweichung**, die bisher
+> nicht vermerkt war:
+>
+> **Lanzeln ST-ZH, Spalte CHF/Pflegezimmer.** Die Tabelle nennt **272'780**; aus den eigenen
+> Zahlen der Zeile ergibt sich **29.34 Mio ÷ 123 PZ = 238'537** — **12.6 % Abweichung**.
+>
+> **Die Fehlerquelle ist eingegrenzt.** Die beiden anderen Spellen derselben Zeile reproduzieren
+> **exakt**: 29.34 Mio ÷ 35'531 m³ = **825.8** gegen Tabelle 826, und 29.34 Mio ÷ 11'184 m² GF =
+> **2'623.4** gegen Tabelle 2'623. **BKP 2, GF und GV sind damit bestaetigt** — falsch sein kann
+> nur die **Pflegeplatzzahl 123** oder der **CHF/PZ-Wert 272'780**. Aus der Tabelle
+> zurueckgerechnet entspraeche der Wert **107.6 Plaetzen**; ein Unterschied dieser
+> Groessenordnung ist erklaerbar, wenn die CHF/PZ-Spalte nur **Pflegezimmer** zaehlt, die
+> PZ-Spalte dagegen alle **Plaetze** (inkl. Alterswohnungen oder Doppelzimmer) — **belegt ist das
+> nicht**.
+>
+> **Materiell, weil es den Bandrand traegt.** **272'780 ist die untere Grenze des gefuehrten
+> CHF/Pflegezimmer-Bands** «272'780–530'000». Trifft die Rueckrechnung zu, laege sie bei
+> **238'537** — das Band waere **13 % breiter nach unten**. **Nicht geaendert**: welcher der
+> beiden Werte stimmt, ist ohne das Original-Blatt nicht entscheidbar, und Raten ist hier
+> ausgeschlossen. Bis zur Klaerung ist der untere Bandrand **mit diesem Vorbehalt** weiterzugeben.
+>
+> **Die uebrigen fuenf Objekte sind sauber:** Dankensberg, Trotte, Herose, Mathysweg und
+> St. Anna reproduzieren in **allen drei** Spalten mit Abweichungen unter 0.6 % (reine Rundung).
+> Von 24 geprueften Zellen sind damit **fuenf auffaellig** — die vier bekannten aus D10
+> (Averecura CHF/m³ und CHF/m² GF, Vella alle drei) und diese eine neue.
+>
+> **Anschluss:** die am selben Tag in `wissen/entwurfs-referenzen` aus dieser Tabelle abgeleiteten
+> Flaechenkennwerte sind geprueft. **GF je Pflegeplatz bleibt unveraendert** (Band 90–135, Median
+> 111 — die untere Grenze traegt Herose, dessen Platzzahl durch die eigene CHF/PZ-Spalte bestaetigt
+> ist). **GV je Pflegeplatz ist betroffen:** die untere Bandgrenze **289 m³** stammt von Lanzeln;
+> mit 107.6 Plaetzen laege sie bei **330**, der Bandrand also bei **314** (dann Herose). Der
+> **Median 343 bleibt in beiden Faellen gleich**, ebenso der GV/GF-Faktor.
+>
+> *Recompute 23.08.2026, alle 24 Zellen gegen die Rohwerte derselben Tabelle.*
+
 > **Abnehmer dieser Baender (Cross-KB, gesetzt Wissens-Chef Run 16, 26.07.2026).** Dieser Artikel ist
 > laut Rollen-Matrix (`wissen/koordination/QUERBEZUEGE.md`) die **fuehrende** Quelle fuer Healthcare-
 > Kennwerte CHF/m3 GV und CHF je Pflegeplatz. Es konsumieren ihn:
