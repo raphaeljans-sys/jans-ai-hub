@@ -33,7 +33,13 @@ Nur Screenshots je Gemeinde (ZH Waedenswil 2023, Maur 2024, Thalwil 2025, Nieder
 + PROPERTYOWNER + WiMo-Report. **Nicht maschinenlesbar, fragmentarisch.** Keine kantonale/
 gemeindescharfe Statistik. → strukturierte Bodenpreis-Quelle aufbauen (Wissensluecke).
 
-**Neu 23.08.2026 — eine amtliche, maschinenlesbare Quelle ist erschlossen (Stadt Zuerich).**
+**Neu 23.08.2026 — zwei amtliche, maschinenlesbare Quellen erschlossen (Kanton + Stadt Zuerich).**
+
+| Quelle | Zugang | Inhalt | Stand | Bewertung |
+|---|---|---|---|---|
+| **Handaenderungsstatistik Kanton Zuerich** | Amt fuer Statistik und Daten Kt. ZH, OGD ueber opendata.swiss (`immobilienpreise-im-kanton-zurich`) + `daten.statistik.zh.ch`, CSV/JSON/XLSX — kein Abo, kein Gesuch | **Bodenpreise nach Immobilienmarktregion, effektiv, 5 Jahre gepoolt** (1974-1978 bis 2021-2025, 6 Regionen, Q10-Q90) · Wohnbauland-, EFH- und EW-Preise auf **Gemeindeebene** (160 Gebiete) · Zuteilung Gemeinde → Marktregion. Grundlage: **Handaenderungsanzeigen der Grundbuchaemter und Notariate** | Bodenpreise Stand **2025/Q4** (Zeitraum 2021-2025); EFH/EW **2025-2023** gepoolt; Metadaten 23.08.2026 | ⭐⭐ **Die erste von der Wuest-Familie unabhaengige Preisquelle dieser KB** (Grundbuch-Ist statt hedonisches Modell) — beantwortet D14. ⚠ Gemeinde-**Bodenpreise sind modelliert** (0-6 Faelle/Jahr), nur die Regionalreihe ist effektiv gemessen. ⚠ Letzte drei Jahre provisorisch. ⚠ Datenangebot wird 2027 umstrukturiert, Ressourcen-IDs neu aufloesen. Voller Artikel: [[amtliche-preisstatistik-zh]] |
+
+**Und (Stadt Zuerich):**
 
 | Quelle | Zugang | Inhalt | Stand | Bewertung |
 |---|---|---|---|---|

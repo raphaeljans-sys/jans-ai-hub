@@ -2,6 +2,84 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 3 — kantonale Handaenderungsstatistik: D14 beantwortet, D2 fuer Kt. ZH geschlossen)
+
+Zweite Runde durch die vier Wissensbasen, Start bei dieser KB. Angesetzt beim wertvollsten noch
+offenen Punkt: **D14**, «kein von Wuest Partner unabhaengiger Gegencheck der Preis-NIVEAUS». D14
+hatte den Loesungsweg selbst benannt (kantonale Handaenderungsstatistik ZH/SZ) und zugleich als
+Bring-Schuld abgeschrieben — **«beides kostenpflichtig bzw. zugangsgebunden»**. Diese Annahme ist
+geprueft worden.
+
+**Die Annahme war falsch.** Das **Amt fuer Statistik und Daten des Kantons Zuerich** publiziert die
+Handaenderungsstatistik als **Open Government Data** (opendata.swiss `immobilienpreise-im-kanton-zurich`
++ `daten.statistik.zh.ch`, CSV/JSON/XLSX), **ohne Abo und ohne Gesuch**. Grundlage sind die
+**Handaenderungsanzeigen der Grundbuchaemter und Notariate** — effektiv bezahlte Preise aus
+vollzogenen Transaktionen, kein hedonisches Modell, keine Inserate. Damit hat diese KB erstmals
+eine **zweite, methodisch unabhaengige Preisquellenfamilie**.
+
+**Neuer Artikel `wiki/amtliche-preisstatistik-zh.md`** (`established`), Inhalt:
+
+- **Bodenpreise nach Immobilienmarktregion, effektiv, 5 Jahre gepoolt, 2021-2025, Stand 2025/Q4,
+  quartilsaufgeloest:** Stadt Zuerich **6'747** · Seegemeinden **3'115** · Stadt Winterthur
+  **2'087** · Agglomerationsgemeinden **2'065** · Landgemeinden **1'039** · Kanton **1'742** CHF/m2
+  (Median, je mit Q10-Q90 und Fallzahl). Dazu die amtliche **Zuteilung der 15 JANS-Bezugsgemeinden**
+  zu den Regionen (Stand 07.04.2026): See — Kilchberg/Oberrieden/Richterswil/Thalwil/Kuesnacht/
+  Meilen/Zollikon/Waedenswil/Horgen · Agglomeration — Niederhasli/Regensdorf/Adliswil/Langnau a.A./
+  Maur · Land — Wald.
+- **EFH- und EW-Preisniveaus (Verkaufspreise total, Median + Quartile, 3 Jahre gepoolt 2025-2023)
+  fuer 16 Gemeinden**, Fallzahlen 18-294.
+
+**⚠ Wichtigster Warnbefund — die Gemeinde-Bodenpreise sind MODELLIERT, nicht gemessen.** Der
+Datensatz fuehrt `medianEffektiv` und `medianModel` nebeneinander; bei den JANS-Gemeinden ist der
+effektive Median 2025 fast durchgehend leer, weil pro Gemeinde und Jahr nur **0-6**
+Baulandhandaenderungen anfallen. Wo doch einer existiert, weicht er stark ab: **Waedenswil 735
+gegen Modell 1'558** (Faktor 0.47), **Stadt Zuerich 11'169 gegen 7'836** (Faktor 1.43). Kein
+Widerspruch der Quelle, sondern die Streuung eines Medians aus vier bzw. sechs Grundstuecken.
+**Praxisregel im Artikel verankert: auf Gemeindeebene keinen Bodenpreis-Einzeljahreswert
+verwenden** — weder den effektiven (zu wenige Faelle) noch den modellierten (nicht gemessen);
+belastbar ist die regionale 5-Jahres-Reihe.
+
+**Der Gegencheck (D14).** Die beiden Quellen messen verschiedene Groessen — der Kanton
+Verkaufspreise **total**, die Fact-Sheets **CHF je m2**. Ein Zahlenvergleich ist unmoeglich, ein
+Plausibilitaets-Check ueber die **implizite Flaeche** (kantonaler Median / UBS-CHF-je-m2) dagegen
+aussagekraeftig. An **sieben Gemeinden** mit UBS-Blatt gefuehrt: **EFH 132-189 m2** (Median 159),
+**EW 80-128 m2** (Median 115) — ueber ein Preisspektrum von Faktor 2.5 (Wald bis Zollikon) **kein
+einziger unmoeglicher Wert**. **Die beiden Quellenfamilien sind miteinander vereinbar.**
+Ausdruecklich ein **Plausibilitaets-, kein Identitaetsnachweis**; die implizite Flaeche ist zudem
+keine SIA-416-Groesse.
+
+**Ein Ausreisser, bewusst nicht wegerklaert:** **Langnau a.A. EW = 80 m2** liegt deutlich unter dem
+Feld (naechster Wert 100 m2). Ursache nicht entschieden — kleinste Fallzahl (n=44) oder tatsaechlich
+kleinteiligerer Bestand. Als offener Einzelpunkt vermerkt.
+
+**Nebenbefund zu D1:** bei **Regensdorf und Wald** ist der UBS-Stand (12/2023) **aelter** als der
+kantonale Poolingzeitraum 2023-2025; die dort tiefsten impliziten Flaechen (132/138 m2) sind
+wahrscheinlich ein Altersartefakt der UBS-Seite, kein Flaechenbefund — ein weiteres Argument fuer
+die Neubestellung dieser beiden Fact Sheets.
+
+**Vorbehalte der Quelle, mitgefuehrt:** die letzten drei Jahre und das laufende Jahr sind
+**provisorisch** (rueckwirkende Neuklassifizierung bei Abbruch — der ganze Poolingzeitraum
+2023-2025 faellt hinein); die Statistik wird **gerade modernisiert** und das Datenangebot 2027
+neu strukturiert, **Ressourcen-IDs vor der naechsten Verwendung neu aufloesen**; nur Kanton ZH.
+
+**Registerpflege:** **D14** beantwortet — Originaltext **erhalten**, die Antwort ist angehaengt statt
+den Eintrag zu ersetzen; Prioritaet mittel → **niedrig**, nicht durchgestrichen, weil vier
+Teilpunkte offen bleiben (Plausibilitaets- statt Identitaetsnachweis, Langnau-Ausreisser, Kanton SZ,
+Ausweitung auf alle 160 Gemeinden). **D2** fuer den **ganzen Kanton ZH** geschlossen (nach der Stadt
+Zuerich aus Vertiefungslauf 2), Prioritaet hoch → **mittel**, Rest ist nur noch der Kanton Schwyz.
+
+**Selbstkorrektur aus Vertiefungslauf 2:** der verkettete ZIW-Stand 01.04.2026 stand hier mit
+**1'220.8** (Weg ueber 01.10.2025 ≈ 1'213.5 × 1.006), waehrend `grobkosten` auf **1'221.3** rechnet
+(01.04.2025 = 1'210.4 × publizierte Jahresteuerung 1.009). Beide Wege zulaessig, Unterschied
+0.04 %, gerundeter Faktor **1.358 unveraendert** — aber zwei Zahlen fuer denselben Stichtag in zwei
+KBs sind genau die Divergenz, vor der der Doppelfuehrungs-Befund derselben Seite warnt.
+**Vereinheitlicht auf 1'221.3** (ein publizierter Stand mal eine publizierte Rate statt zweier
+Kettenschritte); der andere Weg bleibt als Gegenprobe dokumentiert.
+
+Geaenderte Dateien: `wiki/amtliche-preisstatistik-zh.md` (neu), `wiki/INDEX.md`,
+`wiki/datenquellen-registry.md`, `wiki/wissensluecken.md`, `wiki/realwert-sachwert.md`. Report:
+`outputs/2026-08-23_vertiefungslauf-3-amtliche-preisstatistik-zh.md`.
+
 ## 2026-08-23 (Vertiefungslauf 2 — Teuerungsanker, ZIW-Revision 2025, Bodenpreis-Quelle)
 
 Fortsetzung desselben Auftrags am selben Tag, Schwerpunkt **Belegstand der Anker**, an denen die
