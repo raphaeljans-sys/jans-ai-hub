@@ -1,3 +1,52 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 12: N59-4 (VKF 104-15) geschlossen, unerwarteter Fund FAQ 104-001 als Vorstufe der 2022er-Regel
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage mit Norm/Ausgabe/Ziffer, Verifikationsstatus des Destillats vor Zitat lesen (nur
+`established` zitierfähig). CHANGELOG und Report des letzten Laufs zuerst lesen, dort
+weitermachen. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md` (Kopf: SIA-Sweep fünfzehnte Fortsetzung) und
+`outputs/2026-08-23_questions-abarbeitung11.md`. `ps aux` geprüft: nur der eigene Prozess
+(Lauf-Name `mschub79`) an dieser KB, kein Konkurrent; ein zweiter `claude`-Prozess arbeitet
+parallel an der KB `baurecht` (fremder Scope, keine Kollision).
+
+- Run 11 hatte die KB für eigenständig lösbare QUESTIONS-Punkte für ausgeschöpft erklärt und
+  empfohlen, **nicht** denselben Scan zu wiederholen, sondern gezielt eine der grösseren
+  zurückgestellten Linien anzugehen. Eigene Prüfung bestätigte das für alle Sammelfragen
+  (N-SIASWEEP-2/-3, N59-2/-3, N60-1/-2, SVGW-Scope) — mit einer Ausnahme: N59-4 hatte selbst
+  einen konkreten nächsten Schritt benannt («dieselbe Archivseiten-Technik auf weitere
+  Delta-Destillate mit grossen Fassungssprüngen anwenden»), der noch nicht auf **104-15**
+  (Fassungssprung 2015 → 2022, sieben Jahre) angewendet worden war.
+- **Archivprüfung `bsvonline.ch/de/brandschutzvorschriften/archiv-bsv-2015`** (strukturierte
+  Titel-Suche im eingebetteten JSON, nicht Text-Grep — Lehre aus dem sechsten Lauf): genau ein
+  Treffer «104-15 Spänefeuerungen (gültig bis 30.11.2022)». **N59-4 für 104-15 geschlossen:**
+  lückenloser Übergang 01.01.2015 → 01.12.2022, keine Zwischenausgabe (gleiches Muster wie
+  108-15). Damit ist die Archivtechnik auf alle drei identifizierten grossen Fassungssprünge
+  angewendet (40-15 offen/kein Treffer, 108-15 und 104-15 geschlossen); kein weiterer
+  vergleichbarer Kandidat im Bestand.
+- **Unerwarteter Fund, wichtiger als die Ausgangsfrage:** dieselbe Archivseite listet zu 104-15
+  eine amtliche FAQ, **104-001** (ABSV, Beschlussdatum 16.03.2015, Ziff. 6.2, «Erläuterung /
+  Interpretation», `BSPUB-1394520214-1243.pdf`, per `pdftotext` gelesen). Sie erlaubt bereits
+  **seit 2015** eine Schliessverzögerung der Rückluftkanal-Brandschutzklappe bei nicht dauernd
+  laufendem Förderventilator — **die Vorstufe der 2022 in Ziff. 6.2 Abs. 2 kodifizierten
+  Regel**, die im bestehenden Fassungs-Delta bisher als reine 2022-Neuerung geführt wurde.
+  Nachgetragen in `destillate/vkf-brl-104-15-spaenefeuer.md` (Ziff. 6.2, mit Volltext-Beleg) und
+  `destillate/vkf-brl-104-15-fassung-2022-delta.md` (Tabellenzeile 6.2 + neuer Abschnitt
+  «Herkunft der Ziff.-6.2-Abs.-2-Regel und Archivprüfung»). `last_updated` beider Dateien auf
+  23.08.2026 nachgezogen; Verifikationsstatus unverändert (`established` bzw. `speculative`).
+- **Zahlenwert-Unstimmigkeit dokumentiert, nicht stillschweigend korrigiert:** die FAQ-Antwort
+  nennt wörtlich «120 Minuten» Verzögerung, was der eigenen Fragestellung (Öffnungszeit bis
+  120 Sekunden) und der 2022 kodifizierten Fassung («120 Sekunden») widerspricht — vermutlich
+  ein Schreibversehen im VKF-Original. Als Vorbehalt in beiden Destillaten und in
+  `wiki/QUESTIONS.md` (N59-4) vermerkt; für ein laufendes Projekt gilt die 2022-Fassung mit
+  120 Sekunden.
+- `wiki/QUESTIONS.md`: N59-4 um den Nachtrag ergänzt (additiv, Ursprungstext unverändert).
+- Nach jedem Schreibvorgang `git diff --numstat` geprüft: alle vier Edits (zwei Destillate,
+  QUESTIONS.md, dieser CHANGELOG-Eintrag) rein additiv, keine bestehende Zeile gelöscht ausser
+  den gezielt ersetzten Formulierungen (Tabellenzeile 6.2 Wirkungs-Spalte, `last_updated`).
+- Report: `outputs/2026-08-23_questions-abarbeitung12.md`.
+
 ## 2026-08-23 — SIA-Sweep, fünfzehnte Fortsetzung: SIA 2024:2021 erstmals direkt am Herausgeber verifiziert, neue Korrigenda C2 entdeckt
 
 **Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen

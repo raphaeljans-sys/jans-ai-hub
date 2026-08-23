@@ -1385,6 +1385,23 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   (nicht geraten). **Naechster Schritt fuer einen kuenftigen Lauf:** drittaeltestes
   `verifiziert`-Datum unter den `established`-Artikeln pruefen; oder die GG-Luecke aus Run 85;
   oder die offene Trennsystem-Frage durch WsV-/VSA-Norm-Recherche schliessen.
+- **Buch-Run 87-89 (2026-08-23):** ausserhalb dieser Re-Verifikations-Kette — Korpus-Queue
+  Batch T9 (Restdateien Reglemente-Ordner 2414 Thalwil) sowie zwei Priorität-(d)-Nachtraege
+  in [[umgebungsgestaltung-und-einfriedungen]] (Rechtsprechungs-Register § 238 Abs. 1 PBG,
+  §§ 10-12 StrAV). Damit ist die Reglemente-Queue T1-T9 UND Prioritaet (d) erschoepft — Details
+  in `training/KORPUS-QUEUE-thalwil-reglemente.md` und CHANGELOG.
+- **Buch-Run 90 (2026-08-23):** Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 86,
+  drittaeltestes `verifiziert`-Datum). Drei `established`-Artikel lagen gleichauf auf
+  2026-07-25 ([[ausnuetzungsuebertragung]], [[bestandsumbau-eingriffstiefe]],
+  [[nutzungsziffern]]); gewaehlt wurde [[bestandsumbau-eingriffstiefe]] als unabhaengigster
+  Kandidat (eigener Rechtsraum PBG **Kanton Schwyz**, nicht gemeinsam mit den beiden anderen
+  in Run 55 bereits mitgeprueft). §§ 59-65 + § 72 Abs. 1-4 PBG SZ frisch von sz.ch bezogen
+  (`pdftotext -layout`) und Wort fuer Wort gegen `raw/260725_amtlich_sz_pbg.md` verglichen —
+  CONFIRMED wortgleich, 0 Korrekturen, Fassungsstand weiterhin SRSZ 1.2.2025 (kein Drift seit
+  Run 57). Kein neuer raw-Bezug noetig. **Naechster Schritt fuer einen kuenftigen Lauf:**
+  [[ausnuetzungsuebertragung]] oder [[nutzungsziffern]] (beide noch auf 2026-07-25, viertaeltestes
+  Datum) re-verifizieren; oder die GG-Luecke aus Run 85; oder die offene Trennsystem-Frage aus
+  Run 86.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

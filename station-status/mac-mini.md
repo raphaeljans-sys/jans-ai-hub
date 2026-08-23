@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 20:37:41
+Stand: 23.08.2026 20:47:58
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:33)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 20:37:41
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 630fc0be wissen/normen: QUESTIONS-Abarbeitung 10 - EN 13487/EN 12102-1 Ausgaben geklaert (Cross-KB energie Run 18), INDEX-Fehltitel SIA 2032 nachgezogen, SVGW-Scope-Frage vertagt
+- 21e9fb68 nas-selfcommit: 2 Datei(en) 2026-08-23 20:45

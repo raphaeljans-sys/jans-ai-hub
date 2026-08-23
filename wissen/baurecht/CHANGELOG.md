@@ -3,6 +3,47 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 90: Modell-D-Re-Verifikation [[bestandsumbau-eingriffstiefe]] — §§ 59-65 + § 72 PBG SZ CONFIRMED wortgleich, kein Fassungsstand-Drift (Phase 3, Fortsetzung nach Run 86)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue
+  ist seit Run 87 vollständig T1-T9 abgearbeitet (Run 88/89 haben die beiden letzten offenen
+  Priorität-(d)-Restposten in [[umgebungsgestaltung-und-einfriedungen]] geschlossen — kein
+  Leerlauf-Kandidat aus der Queue selbst mehr vorhanden). Stattdessen den von Run 86
+  vorgeschlagenen nächsten Schritt aus `training/PROGRAMM.md` aufgegriffen: **Modell-D-Re-
+  Verifikation des drittältesten `verifiziert`-Datums unter den `established`-Artikeln.** Ein
+  Abgleich aller `last_updated`/`verifiziert`-Felder zeigt drei Artikel gleichauf auf Platz
+  3-5 (2026-07-25): [[ausnuetzungsuebertragung]], [[bestandsumbau-eingriffstiefe]],
+  [[nutzungsziffern]]. Die beiden erstgenannten wurden bereits gemeinsam in Run 55 (selber
+  PBG/ABV-Abschnitt) geprüft; [[bestandsumbau-eingriffstiefe]] deckt einen eigenständigen
+  Rechtsraum (PBG Kanton **Schwyz**, nicht Zürich) ab und war seit Run 57 nicht mehr
+  angefasst — als unabhängigster Kandidat gewählt.
+- **Buch-Destillate zuerst geprüft:** kein Standardwerk-Kapitel behandelt das SZ-Recht (Werk
+  ist ZH-fokussiert); die massgebliche Quelle ist ausschliesslich der amtliche PBG-SZ-Volltext.
+- **Vorgehen:** frisches PDF des Planungs- und Baugesetzes SZ (SRSZ 400.100) direkt von
+  `sz.ch/public/upload/assets/32971/400_100.pdf` bezogen, mit `pdftotext -layout` extrahiert
+  (`/opt/homebrew/bin/pdftotext`, lag nicht im minimalen Session-`PATH`) und §§ 59/60/61/62/
+  63/64/65 sowie § 72 Abs. 1-4 Wort für Wort gegen den bestehenden Auszug
+  `raw/260725_amtlich_sz_pbg.md` verglichen.
+- **Ergebnis: CONFIRMED, 0 Korrekturen.** Alle sieben Paragraphen (inkl. der im Artikel
+  substanziell verwendeten § 60 Abs. 3 lit. c «Attika-Rücksprung»-Regel und § 72 Abs. 1/3
+  «Bestandesgarantie»/«5-jähriges Wiederaufbaurecht») sind **zeichengleich** mit dem
+  bestehenden Raw-Auszug. Auch die Fusszeile des frischen PDF trägt weiterhin **«SRSZ
+  1.2.2025»** — derselbe Fassungsstand wie beim ursprünglichen Bezug am 25.07.2026, also
+  **kein Drift** in den knapp vier Wochen seither. Die in den Sources gelisteten Art. 27/31/
+  46/54 BauR Wangen SZ tragen im Artikeltext keine eigene wörtliche Behauptung (reine
+  Seed-Provenienz aus dem auslösenden Praxisfall) und wurden darum nicht gesondert
+  nachverifiziert.
+- **Kein neuer `raw/`-Volltext nötig** (frische Extraktion zeichengleich mit Bestand, keine
+  Ergänzung). Kein Wiki-Textkorrektur nötig, nur `verifiziert`-Feld und `last_updated`
+  nachgeführt.
+- **Register:** `wiki/bestandsumbau-eingriffstiefe.md` (Frontmatter `verifiziert` +
+  `last_updated`), `training/PROGRAMM.md` (Tracker-Eintrag Run 90 + Nächster-Schritt-Zeiger),
+  Report `outputs/2026-08-23_buch-run90.md`.
+- **Diff-Kontrolle (Rule 260811):** `git diff --numstat` nativ per SSH (Synology, LAN-IP
+  192.168.1.10, Tailscale-Hostname aus dieser Session nicht auflösbar) geprüft —
+  `bestandsumbau-eingriffstiefe.md` 2+/2− (die beiden Frontmatter-Zeilen `last_updated` und
+  `verifiziert` gezielt ersetzt, additiv verlängert, kein Bestandstext verloren).
+
 ## 2026-08-23 — Buch-Run 89: §§ 10-12 StrAV (Vorsprünge/Türen-Tore/spitze Materialien) ersatzlos entfallen — letzter offener Priorität-(d)-Restposten in [[umgebungsgestaltung-und-einfriedungen]] geschlossen
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Queue seit Run 87

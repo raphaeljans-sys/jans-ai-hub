@@ -500,6 +500,35 @@ bekannt. Aufgeworfen Run 59 (22.08.2026).
 > offen**, weitere freie Quellen dafür sind nicht ersichtlich — kein neuer Web-Recherche-Anlauf
 > mehr gerechtfertigt (gleiche Erschöpfungslogik wie N-SIASWEEP oben).
 
+> **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung, zwölfter Lauf): dieselbe Archivseiten-Technik auf
+> 104-15 angewandt — TEILWEISE GESCHLOSSEN, plus unerwarteter Fund.** 104-15 (Fassungssprung
+> 01.01.2015 → 01.12.2022, sieben Jahre) war der einzige noch ungeprüfte grosse Fassungssprung
+> aus der «Nächster Schritt bei Bedarf»-Empfehlung oben. Strukturierte Titel-Suche im
+> `archiv-bsv-2015`-JSON-Payload: genau **ein** Treffer, «104-15 Spänefeuerungen (gültig bis
+> 30.11.2022)» (`BSPUB-1394520214-825.pdf`) — kein zweiter, mit einem weiteren «(gültig bis …)»
+> betitelter Eintrag. **Damit ist für 104-15 belegt: lückenloser Übergang 01.01.2015 →
+> 01.12.2022, keine unveröffentlichte Zwischenausgabe** (gleiches Befundmuster wie 108-15).
+> **Unerwarteter Nebenfund, wichtiger als die eigentliche Frage:** dieselbe Archivseite listet zu
+> 104-15 auch eine amtliche FAQ, Nummer 104-001 (Beschlussdatum 16.03.2015, Ziff. 6.2,
+> «Erläuterung / Interpretation», `BSPUB-1394520214-1243.pdf`, per `pdftotext` gelesen). Sie
+> erlaubt bereits **seit 2015** eine Schliessverzögerung der Rückluftkanal-Brandschutzklappe bei
+> nicht dauernd laufendem Förderventilator (Grund: Umstellung pneumatischer auf elektrische
+> Klappenantriebe) — **das ist die Vorstufe der 2022 in Ziff. 6.2 Abs. 2 kodifizierten Regel**,
+> die im Fassungs-Delta bisher als reine 2022-Neuerung ausgewiesen war. Nachgetragen in
+> [[vkf-brl-104-15-spaenefeuer]] (Ziff. 6.2) und [[vkf-brl-104-15-fassung-2022-delta]] (Tabellenzeile
+> + neuer Abschnitt). **Zusatzbefund, nicht aufgelöst:** die FAQ-Antwort nennt wörtlich «120
+> Minuten» Verzögerung, was der eigenen Fragestellung (Öffnungszeit bis 120 Sekunden, «nicht 2
+> Minuten warten») und der 2022 kodifizierten Fassung («120 Sekunden») widerspricht — vermutlich
+> ein Schreibversehen im VKF-Original, unverändert zitiert statt stillschweigend korrigiert
+> (Rule `bkp-2017-referenz`, «Sachbezug prüfen, nicht mechanisch ersetzen», sinngemäss auf
+> Zitate übertragen). Für ein laufendes Projekt gilt die kodifizierte 2022-Fassung mit 120
+> Sekunden, das Belegzitat bleibt trotzdem wörtlich stehen. **Damit ist die «Nächster
+> Schritt»-Empfehlung von Run 4 (alle grossen Fassungssprünge mit der Archivtechnik prüfen)
+> vollständig abgearbeitet:** 40-15 (offen, kein Treffer), 108-15 (geschlossen), 104-15
+> (geschlossen). Kein weiterer Kandidat mit vergleichbar grossem Fassungssprung im Bestand
+> identifiziert (Rang-5-Sammelposten ist nur ein Zweijahres-Sprung 2015→2017, deutlich geringere
+> Wahrscheinlichkeit einer Zwischenausgabe, kein eigener Lauf gerechtfertigt).
+
 ---
 
 ### ✅ N58-2 — GESCHLOSSEN 23.08.2026: BRL 103-15 «Cheminées» zurückgezogen, Nachfolger ist das feusuisse-Papier «Stand der Technik Teil B», nicht BRL 24-15

@@ -7,7 +7,7 @@ gelesen: "Fassungs-Delta vollstaendig: beide Fassungen 17 Seiten, Wortlaut-Vergl
 datenstand: "Abruf 22.08.2026, MD5 5a24599ab088"
 status: speculative
 gueltigkeit: "Beschreibt die GELTENDE Fassung 01.12.2022. Die Bestandsfassung 01.01.2015 ist in [[vkf-brl-104-15-spaenefeuer]] destilliert und dort als superseded gefuehrt."
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 links: [[vkf-brl-104-15-spaenefeuer]], [[vkf-brl-105-15-schnitzelfeuerung]], [[vkf-brl-106-15-pelletsfeuerung]], [[vkf-brl-24-15-waermetechnische-anlagen]], [[REGISTER]]
 ---
 
@@ -38,7 +38,7 @@ nach **SN EN 16770** umgestellt (Rohluftbereich-Volumen statt Anschlussdurchmess
 | 5.4 Offene Lagerbehaelter im Freien | **RF1** | **mindestens RF3 (cr)**; 40 m³ Lagermenge unveraendert | gleiche Lockerung wie 5.2 |
 | 5.5 Abs. 1 | Bullet «ereignisbezogene konstruktive Massnahmen» (erhoehte Druck- und Standfestigkeit im Ereignisfall) | **gestrichen** | eine eigenstaendige konstruktive Anforderung entfaellt |
 | **5.5 Abs. 2 (neu)** | Oeffnungen «erforderlich»; Handentleerung ueber Tueren min. 1.2 × 2.0 m mit Jalousiebrettern, Stocheroeffnungen ca. 0.8 × 0.8 m, ortsfeste Leitern und Podeste — alles im Fliesstext | **Silos muessen ein automatisches mechanisches Austragungssystem haben**; Entleerung ohne Oeffnen der Tueren (z. B. Bypass). Verzicht nur **bis 45 m² Silogrundflaeche**, dann zusaetzliche Handentleer-Oeffnungen. Massangaben aus dem Fliesstext entfernt, Verweis auf SN EN 12779 | **neue Regelanforderung** mit beziffertem Ausnahmefall |
-| 6.2 Rueckluftkanaele | eine Bestimmung: EI-30-S-Klappen in brandabschnittsbildenden Waenden, automatisches Schliessen | **neu Abs. 1:** zusaetzlich EI-30-S-Klappe **beim Gebaeudeeintritt** fuer Rueckluftkanaele vom Freien. **Neu Abs. 2:** bei nicht permanent laufendem Foerderventilator duerfen die Klappen mit **120 Sekunden Verzoegerung** schliessen; bei Hauptschalter/Not-Aus **ohne** Verzoegerung | zwei neue, bezifferte Betriebsvorgaben |
+| 6.2 Rueckluftkanaele | eine Bestimmung: EI-30-S-Klappen in brandabschnittsbildenden Waenden, automatisches Schliessen | **neu Abs. 1:** zusaetzlich EI-30-S-Klappe **beim Gebaeudeeintritt** fuer Rueckluftkanaele vom Freien. **Neu Abs. 2:** bei nicht permanent laufendem Foerderventilator duerfen die Klappen mit **120 Sekunden Verzoegerung** schliessen; bei Hauptschalter/Not-Aus **ohne** Verzoegerung | zwei neue, bezifferte Betriebsvorgaben — **Abs. 2 kodifiziert eine bereits seit 2015 geltende Amtsinterpretation, siehe unten** |
 | **7.1 Entstauberanlagen** | Abgrenzung ueber **Luftvolumenstrom ≤ 6'000 m³/h** und **Anschlussdurchmesser** (0.2 m / 0.3 m); Bezug **DIN 8416**; Normcontainer 800 l RF1 oder 6 Saecke à 110 l; Thermosensor ca. 70 °C | Abgrenzung ueber **≤ 8'000 m³/h und/oder Rohluftbereich ≤ 3.5 m³**; Bezug **SN EN 16770**; **Typisierung A / B / C1 / C2 / D** in einer neuen Anhang-Tabelle; die Detailwerte (Container, Saecke, Thermosensor, Durchmesser) entfallen aus dem Fliesstext | **vollstaendig neues Bemessungssystem** |
 | 7.2 Filteranlagen, alter Abs. 1 | Anlagen mit Luftvolumenstrom > 6'000 m³/h nur im Freien oder in separaten Filterraeumen | **entfaellt** | folgerichtig zur neuen typenbasierten Logik |
 | 7.2.2 Filteranlagen im Gebaeude | EI 60 **raumseitig durchgehend RF1**; brennbare Aussenwaende/Dachuntersichten EI 30 aus RF1 | EI 60 abzutrennen; **nur brennbare** Waende/Dachuntersichten mit Brandschutzplatten 30 Min. aus RF1; neu Beispiel «z. B. ueber Abblasrohr» fuer die Druckentlastung | gleiches Muster wie 5.3 |
@@ -115,6 +115,28 @@ Sammelbehaelter) in SN EN 16770 aufgeht oder ersatzlos entfiel — die Norm lag 
 Bedeutung des Klassierungszusatzes **«(cr)»** bei RF3 wurde **nicht** in der BRL 13-15 «Baustoffe
 und Bauteile» nachgeschlagen; ohne diese Klaerung ist der Satz «Lockerung von RF1 auf RF3 (cr)»
 richtig, aber unvollstaendig verstanden. Das ist als Auftrag festgehalten.
+
+## Herkunft der Ziff.-6.2-Abs.-2-Regel und Archivpruefung (Nachtrag 23.08.2026, QUESTIONS-Abarbeitung N59-4)
+
+**Ziff. 6.2 Abs. 2 (120-Sekunden-Schliessverzoegerung) ist keine neue Erfindung der Fassung 2022,
+sondern die Kodifizierung einer bereits seit 2015 geltenden Amtsinterpretation.** Primaerquelle:
+FAQ 104-001 der ABSV, Beschlussdatum 16.03.2015, publiziert unter
+`bsvonline.ch/de/brandschutzvorschriften/archiv-bsv-2015` (Dokument `BSPUB-1394520214-1243.pdf`,
+Abruf 23.08.2026). Anlass war die Umstellung von pneumatischen (5 s) auf elektrische
+Federrücklauf-Brandschutzklappen (bis 120 s Oeffnungszeit); die Antwort erlaubt eine
+Schliessverzoegerung bei nicht dauernd laufendem Foerderventilator, sofern Hauptschalter/Not-Aus
+weiterhin sofort schliessen — inhaltlich identisch mit dem 2022 in den Normtext aufgenommenen
+Abs. 2. Volltext und der Hinweis auf eine Zahlenwert-Unstimmigkeit im FAQ-Original («120 Minuten»
+statt der aus Frage und Fassung 2022 eindeutigen 120 Sekunden) stehen in
+[[vkf-brl-104-15-spaenefeuer]], Ziff. 6.2.
+
+**Archivpruefung auf Zwischenausgaben (N59-4):** dieselbe Archivseiten-Technik wie bei 108-15
+angewandt (strukturierte Titel-Suche im eingebetteten JSON-Payload von `archiv-bsv-2015`, nicht
+nur Text-Grep). Ergebnis: genau **ein** archivierter Titel, «104-15 Spänefeuerungen (gültig bis
+30.11.2022)» (`BSPUB-1394520214-825.pdf`) — das belegt einen lueckenlosen Uebergang von der
+Fassung 01.01.2015 direkt auf 01.12.2022, **keine unveroeffentlichte Zwischenausgabe.** Gleiches
+Befundmuster wie 108-15 (dort archiv-belegt bis 31.12.2019); die 40-15-Zwischenausgaben-Frage
+bleibt weiterhin offen, da deren Archivseite keinen entsprechenden Titel-Treffer liefert.
 
 ## Belege
 
