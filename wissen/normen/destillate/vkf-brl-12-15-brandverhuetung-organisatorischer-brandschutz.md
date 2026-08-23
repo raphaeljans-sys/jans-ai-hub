@@ -9,10 +9,25 @@ status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung ver
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.04.2026 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 393cccfa865bdc4c854d2357d0c05f09). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
 verifiziert: 260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 16/16 Seiten, keine Abweichungen gefunden)
-links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]]
+links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-verwendung-baustoffe]], [[vkf-brl-nachweisverfahren]], [[vkf-teilrevision-2026-pyrotechnik]]
 ---
 
 # VKF-BRL 12-15de — Brandverhütung und organisatorischer Brandschutz
+
+> ⚠ **Querverweis nachgetragen 23.08.2026 (QUESTIONS-Abarbeitung).** Anders als beim
+> Schwesterdestillat `vkf-brl-26-15-gefaehrliche-stoffe.md` fehlte hier bislang jede Verlinkung
+> auf die Teilrevision 2026, obwohl beide Richtlinien vom selben IOTH-Beschluss vom 06.03.2026
+> betroffen sind: hier **Ziff. 3.2 Abs. 10** (Sorgfaltspflichten, S. 5) und **Ziff. 4.5 Abs. 1**
+> (Pyrotechnik, S. 9). Das materielle Delta (Bewilligungspflicht neu nach Kategorien T1-T2/F1-F4
+> statt einheitlich, Verweis auf BRL 26-15 statt Eigenregelung) steht ausschliesslich in
+> [[vkf-teilrevision-2026-pyrotechnik]]. Das Teilrevisions-Destillat ersetzt dieses Destillat
+> **nicht**: es deckt nur die zwei genannten Absätze ab, der übrige Inhalt (Ziff. 1-3, 4.5 Abs.
+> 2-3, Ziff. 5-9, Anhang) bleibt unverändert auf Fassung 2015 verifiziert. Ob die Anhänge beider
+> Richtlinien durch den Beschluss vom 06.03.2026 mitgeändert wurden, ist im Teilrevisions-Destillat
+> selbst als ungeprüft ausgewiesen und bleibt damit auch hier offen. Beleg: Quelle-Feld des
+> Teilrevisions-Destillats (`BSPUB-1394520214-1545`/`-3187`), Änderungsliste S. 2 beider Fassungen.
+> Damit ist der in `wiki/QUESTIONS.md`, N58-1, offene Sonderfall «12-15 und 26-15» für 12-15
+> beantwortet: das Delta-Destillat ersetzt die Bestandsfassung nicht, es ergänzt sie punktuell.
 
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.04.2026**,

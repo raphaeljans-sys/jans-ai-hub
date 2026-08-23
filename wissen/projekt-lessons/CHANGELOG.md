@@ -3,6 +3,33 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (achte Fortsetzung) — Dritte Folgeprüfung ohne Befund: Korpus bleibt abgeschlossen, kein weiterer Lauf ausgelöst
+
+- **Getan:** Dritter unabhängiger Fortsetzungsauftrag in Folge («Triage des Korpus
+  `buero-projekte` weiterführen», wieder mit dem veralteten Zwischenstand «807 Positionen»)
+  erhalten. Vor jeder Handlung Spec (`skills/wissens-destillat/specs/buero-projekte-spec.md`),
+  diesen CHANGELOG und den Kurator-Bericht der fünften Fortsetzung gelesen.
+- **[Verifikation]** Eigene, von den beiden Vorläufen unabhängige Nachzählung:
+  `buero-projekte-inventar.md` zeigt 56 `[x]` + 757 `[-]` = 813 Sachzeilen, 0 `[ ]`/`[t]` —
+  deckungsgleich mit sechster und siebter Fortsetzung. Eigener `find -newermt
+  "2026-08-23 16:00" -type f` auf `/Volumes/daten/04_Buero/02_Projekte` erneut mit **0
+  Treffern** — kein neues Quellmaterial seit Inventarabschluss. Laufender `claude`-Prozess
+  (`ps aux`) trägt einen andersartigen Auftragstext (SIA-Sweep KB `normen`) und ist damit
+  kein Parallellauf an diesem Korpus.
+- **[Pflicht-Zusatzauftrag]** `wissen/bauprodukte/wiki/bevorzugte-systeme-jans.md` weiterhin
+  nicht angelegt — unverändert korrekt (keine projektübergreifende Wiederholung seit der
+  fünften Fortsetzung).
+- **Kein neuer Destillat-/Triage-Schritt ausgeführt**, aus demselben Grund wie in der
+  sechsten und siebten Fortsetzung: es gibt nichts mehr zu triagieren, eine erneute
+  Volltext-Gegenprüfung der bereits zweimal verifizierten Artikel wäre reines
+  Pflicht-Rauschen (Rule `wissens-ruecklauf`). **Hinweis für den nächsten Fortsetzungsauftrag
+  an diesen Korpus:** dies ist die dritte Folge-Bestätigung ohne Befund in Serie; ein
+  vierter identischer Lauf bringt keinen Erkenntnisgewinn mehr. Wer als Nächstes Kapazität
+  für den Wissens-Destillat-Prozess hat, findet in `KORPUS-QUEUE.md` zwei Korpora mit
+  abgeschlossenem Inventar, aber offener Destillat-Phase: `buero-referenzen` (12/32 Sektionen
+  inventarisiert, P1 44/P2 124) und `archiv-fachwissen` (4/23 Sektionen, P1 69/P2 507) — beide
+  ins Ziel-KB `wissen/architektur-fachwissen`, beide Spec noch offen.
+
 ## 2026-08-23 (siebte Fortsetzung) — Erneut geprüft: Korpus weiterhin vollständig, kein Zeilenverlust seit sechster Fortsetzung
 
 - **Getan:** Neuer, unabhängiger Fortsetzungsauftrag («Triage des Korpus `buero-projekte`

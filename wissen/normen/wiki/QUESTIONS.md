@@ -300,10 +300,24 @@ Frontmatter-Aussage des Destillats nachträglich belegt.
 > `vkf-teilrevision-2026-pyrotechnik.md` — zu prüfen ist nur, ob jenes Destillat die
 > Bestandsdestillate ausreichend ersetzt) und **27-15** (N58-3).
 >
+> ✅ **12-15/26-15 GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, siebter Lauf).** Antwort: Nein,
+> `vkf-teilrevision-2026-pyrotechnik.md` ersetzt die Bestandsdestillate nicht, es ergänzt sie
+> punktuell — es deckt ausschliesslich die vier vom IOTH-Beschluss vom 06.03.2026 geänderten
+> Absätze ab (12-15 Ziff. 3.2 Abs. 10 und Ziff. 4.5 Abs. 1; 26-15 Ziff. 11.1.3 Abs. 1-2), nicht
+> den übrigen Inhalt beider Richtlinien; die Anhänge sind laut eigenem Vorbehalt des
+> Teilrevisions-Destillats ungeprüft. Dabei ein echter Bestandsfehler gefunden und behoben: das
+> 26-15-Destillat verlinkt die Teilrevision seit Run 58 im Frontmatter **und** im Fliesstext, das
+> 12-15-Destillat verlinkte sie **nirgends** — dieselbe Ausgangslage, ungleich behandelt. Nachtrag
+> in `destillate/vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md` (Frontmatter-Link
+> + Fliesstext-Box, Formulierung analog zum 26-15-Vorbild). Kein neuer Fachinhalt destilliert,
+> reine Konsistenzkorrektur. Beleg: Gegenlektüre beider Destillate plus
+> `vkf-teilrevision-2026-pyrotechnik.md` Abschnitt «Abgrenzung und Vorbehalte».
+>
 > ⚠ **Der wichtigere Rückstand ist ein anderer.** Destilliert wurde jeweils, *was sich geändert
 > hat*. Ob die Bestands-Destillate ihre eigene Fassung vollständig abbilden, ist auf **keinem**
 > VKF-Destillat geprüft. Nach Methodik-Pflicht 13 kann deshalb keines auf `established`. Die
-> Abdeckungsrichtung ist der nächste grosse Schritt dieser Familie, nicht ein weiterer Delta-Lauf.
+> Abdeckungsrichtung ist der nächste grosse Schritt dieser Familie, nicht ein weiterer Delta-Lauf
+> (unverändert offen, ausserhalb des Umfangs dieses Laufs — reine Einzelfrage, kein Systemaudit).
 
 ---
 
