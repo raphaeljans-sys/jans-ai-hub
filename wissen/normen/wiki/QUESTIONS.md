@@ -772,6 +772,20 @@ Richtlinien mit neuer Fassung.
 > künftigen Lauf, keine Entscheidung getroffen. Quelle: `bsvonline.ch/de/brandschutzvorschriften/
 > vorschriften-2015`, abgerufen 23.08.2026, lokal gesichert unter `/tmp/normsweep-vorschriften2015.html`
 > (nicht Teil des Repos, nur Lauf-Beleg).
+>
+> ✅ **2009-15 (Sicherheitsstromversorgung) destilliert 23.08.2026 (QUESTIONS-Abarbeitung,
+> Fortsetzung nach Run 14).** Original bezogen (`services2.vkf.ch/.../BSPUB-1394520214-3917.pdf`,
+> 21 S., vollständig gelesen), Stand 09.12.2024 (TKB-Änderung zu Ziff. 5.5.2 Lit. b bereits
+> konsolidiert). Kernstoff: drei Schutzsysteme mit unterschiedlicher Ausfalltoleranz
+> (Brandbegrenzung/Personensicherheit/Intervention, Ziff. 4.1-4.3), Aufstellungsraum-
+> Anforderungen (EI 30, Abtrennung EI 60 mit Ausnahmen, Ziff. 5.2), Leistungsschwelle 70 kW für
+> Stromerzeugungsaggregate (Ziff. 5.3.1), Mindestbetriebsdauer 30/60 Min. (Ziff. 5.6/5.6.1),
+> Abnahme nur mit dokumentiertem Blackout-Test (Ziff. 7.2). Neues Destillat
+> `destillate/vkf-merkblatt-2009-15-sicherheitsstromversorgung.md` (established), Register-Zeile
+> ergänzt. **2003-15, 2008-15 und 2011-15 bleiben offen** — die zugehörigen PDFs liegen bereits
+> lokal unter `/tmp/vkf-2003-15.pdf` (73 S., 44 MB, aufwändigstes Dokument), `/tmp/vkf-2008-15.pdf`
+> (35 S.) und `/tmp/vkf-2011-15.pdf` (18 S.), nächster Schritt ist direktes Lesen ohne erneute
+> Recherche.
 
 ---
 

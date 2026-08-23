@@ -1,3 +1,157 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung, Fortsetzung nach Run 14: VKF-Merkblatt 2009-15 (Sicherheitsstromversorgung) destilliert
+
+**Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit Norm,
+Ausgabe und Ziffer; Verifikationsstatus des Destillats vor Zitat lesen (nur `established`
+zitierfähig). CHANGELOG und Report des letzten Laufs zuerst lesen, dort weitermachen. Rule
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Vorlauf gelesen:** `outputs/2026-08-23_questions-abarbeitung14.md` (letzter Stand: N58-4
+Nebenbefund 2006-15 vs. BSE 108-15 geklärt; als nächstliegender Ertrag benannt: vier bereits
+lokal bezogene VKF-Merkblatt-PDFs 2003-15/2008-15/2009-15/2011-15 unter `/tmp/`, noch nicht
+gelesen/destilliert). `ps aux` geprüft: kein weiterer `claude -p`-Lauf auf denselben Dateien
+aktiv.
+
+**Durchgeführt:** `/tmp/vkf-2009-15.txt` (bereits per `pdftotext -layout` extrahiert, 21 Seiten)
+vollständig gelesen. VKF-Brandschutzmerkblatt 2009-15de «Sicherheitsstromversorgung», Stand
+09.12.2024 (TKB-Änderung zu Ziff. 5.5.2 Lit. b bereits konsolidiert). Kernstoff: drei
+Schutzsysteme mit unterschiedlicher Ausfalltoleranz (Brandbegrenzung/Personensicherheit/
+Intervention, Ziff. 4.1-4.3), Standort-/Abtrennungsanforderungen an die Stromquelle (EI 30/
+EI 60 mit Ausnahmen, Ziff. 5.2), Leistungsschwelle 70 kW für Stromerzeugungsaggregate
+(Ziff. 5.3.1), Mindestbetriebsdauer 30/60 Minuten (Ziff. 5.6/5.6.1), Abnahme nur mit
+dokumentiertem Blackout-Test (Ziff. 7.2). Download-URL (`services2.vkf.ch/.../
+BSPUB-1394520214-3917.pdf/content`) aus dem in Run 13 erzeugten Astro-JSON-Cache
+`/tmp/normsweep-vorschriften2015.html` rekonstruiert (Dokument-ID über `fileLeafRef`
+"BSPUB-1394520214-3917.pdf" neben dem Titel "2009-15 Sicherheitsstromversorgung" gefunden).
+
+**Nachgeführt:**
+
+- `destillate/vkf-merkblatt-2009-15-sicherheitsstromversorgung.md` (neu, `established`):
+  Einordnung, Kernziffern mit Fundstelle, JANS-Praxis-Transfer für die Skills `brandschutz`,
+  `ausschreibung`/`werkvertrag`, `unternehmerkontrolle`/`kostenkontrolle`, `auflagebereinigung`.
+- `wiki/REGISTER.md`: neue Zeile in der VKF-Tabelle, direkt vor der bestehenden
+  2001-15-Solaranlagen-Zeile.
+- `destillate/INDEX.md`: neue Zeile, direkt nach `vkf-merkblatt-2006-15-bfs.md`.
+- `wiki/QUESTIONS.md`: additiver ✅-Nachtrag am N58-4-Nebenbefund (Klasse 2), Ursprungswortlaut
+  unangetastet (Rule `wissens-bibliothekar` — kein Löschen). 2003-15, 2008-15 und 2011-15 bleiben
+  als Bring-Schuld benannt; ihre PDFs liegen bereits lokal unter `/tmp/`.
+- `CHANGELOG.md`: eigener Eintrag oben.
+
+**Kollisionsprüfung:** `git diff --numstat` nach jedem Schreibvorgang geprüft — jeweils rein
+additiv (neue Zeile bzw. neue Datei), kein Überschreiben fremden Inhalts. Die KB stand zu
+Sessionbeginn bereits unter einem uncommitteten Stand (95 Zeilen `CHANGELOG.md` aus dem
+vorangegangenen SIA-Sweep-Lauf «neunzehnte Fortsetzung», noch nicht vom `nas-selfcommit`-Cron
+erfasst) — dieser Eintrag wurde unverändert oberhalb des eigenen neuen Eintrags belassen, nicht
+overschrieben. Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / weiterhin offen:**
+
+- **2003-15 (Brandschutzpläne, 73 S./44 MB), 2008-15 (Baustellen-Brandverhütung, 35 S.) und
+  2011-15 (Gebäudebegrünung, 18 S.)** sind als PDF lokal bezogen, aber in diesem Lauf nicht
+  gelesen — nächstliegender Ertrag für eine Fortsetzung, keine erneute Recherche nötig.
+- Anhangbeispiel zu Ziff. 5.2 (Layoutvarianten, S. 19-20) von 2009-15 nicht gesondert
+  ausgewertet (reine Bildinhalte).
+- Kein Abgleich gegen den VKF-Publikationsindex, ob «Stand 09.12.2024» aktuell gültig ist
+  (Bring-Schuld N27-1, gilt für alle 2000er-Merkblätter gleichermassen).
+- Unverändert offen: N58-1 (Systemaudit), N60-1/N60-2 (Entscheid Raphael), SVGW-Scope
+  (Entscheid Raphael), Bezahlschranken-Beschaffungen (Bring-Schuld Raphael),
+  IOTH-Asylsuchende-Reihe (bewusst zurückgestellt).
+
+## 2026-08-23 — SIA-Sweep, neunzehnte Fortsetzung: SIA 2031-C1 (Primärenergiefaktoren) kostenlos beschafft und destilliert, 16 weitere Blindzone-Zeilen auf Korrigenda geprüft (Nullbefund)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` und `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat`
+prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md`-Kopf (zu Sessionbeginn: QUESTIONS-Abarbeitung, Fortsetzung
+nach Run 13) und `outputs/2026-08-23_sia-sweep-achtzehnte-fortsetzung.md` — dessen Empfehlung
+war, die Methode «Produktseite prüfen, ob neben dem Inhaltsverzeichnis ein kostenloser
+Korrigenda-/Ergänzungs-Download existiert» auf die übrigen Blindzone-Zeilen auszuweiten, mit
+Priorität auf SIA 122/123/124/190/205/242/243 (Planungsgrundlagen), die restlichen
+Erhaltungsnormen SIA 269/1/2/4/7 und die Merkblatt-Familie SIA 20xx.
+
+**Kollisionsprüfung:** `ps aux` zu Laufbeginn geprüft — der eigene Prozess läuft unter dem
+Lauf-Namen `mschub94` (PID 26210, Startprompt identisch zu diesem Auftrag); ein weiterer
+paralleler `claude -p`-Lauf (PID 25592, Prompt beginnt mit «Führe die T…», andere Aufgabe/
+KB) läuft gleichzeitig, kein Konkurrent auf denselben Dateien.
+
+**Zwischenbefund vor der eigentlichen Arbeit:** die von der achtzehnten Fortsetzung
+empfohlenen Kandidaten (SIA 122/123/124/190/205/242/243, SIA 269/1-7, die gesamte
+SIA-20xx-Merkblatt-Familie) tragen im Register bereits das Abrufdatum 23.08.2026 aus dem
+**systematischen Katalog-Abgleich** (vierte Fortsetzung) — dort wurde aber nur Titel/Status/
+Gültig-ab-Datum verifiziert, nicht auf kostenlose Korrigenda geprüft. Die Empfehlung der
+achtzehnten Fortsetzung war also am Wortlaut der Zeilen nicht mehr eindeutig von bereits
+erledigter Arbeit zu unterscheiden; erst der Blick auf die konkreten Zeileninhalte (kein
+Korrigenda-Vermerk) bestätigte, dass die Korrigenda-Methode dort tatsächlich noch aussteht.
+
+**Durchgeführt:** 17 Blindzone-Zeilen per WebFetch/`curl` auf der jeweiligen shop.sia.ch-
+Produktseite (Muster `architekt/{nr}_{jahr}_d/D/Product` bzw. `ingenieur/{nr}_{jahr}_d/D/Product`,
+Slug aus Nummer+Ausgabejahr der Register-Zeile korrekt erraten, kein einziger Fehltreffer)
+auf zusätzliche kostenlose Downloads (Preis 0.00 CHF, ausser dem Standard-Inhaltsverzeichnis)
+geprüft: SIA 106, 113, 122, 123, 124, 190, 205, 242, 243, 269, 384/1, 2007, 2029, 2031, 2035,
+2036, 2039.
+
+**1 Treffer: SIA 2031-C1:2009** («Energieausweis für Gebäude», Korrigenda, gültig ab
+01.01.2010, 1 Seite). Volltext-Link aus dem HTML der Produktseite extrahiert (`curl -A
+"Mozilla/5.0"`, Muster `lblAnhangBezeichnung">Korrigenda C1` + zugehöriger
+`DownloadAnhang`-Link), geladen und mit `pdftotext -layout` vollständig gelesen. Inhalt:
+Präzisierung des Bilanzperimeters (Ziff. 3.3.3/3.3.5/3.3.6, Bezug auf SIA 416/1 Ziff. 2.2)
+und eine vollständige Tabelle D.1 mit Primärenergiefaktoren, erneuerbaren Primärenergie-
+anteilen und Treibhausgasemissions-Koeffizienten für 14 Energieträger (Heizöl, Propan,
+Butan, Kohle, Holz/Pellets, Erdgas, Biogas, Elektrizität CH-Verbrauchermix). **Cross-KB-Fund:**
+die KB `wissen/energie` führt eigene Primärenergiefaktor-Destillate, verweist aber nicht auf
+diese Quelle — Abgleich nicht selbst durchgeführt, als N61 in `wiki/QUESTIONS.md` erfasst.
+
+**16 Nullbefunde** (SIA 106, 113, 122, 123, 124, 190, 205, 242, 243, 269, 384/1, 2007, 2029,
+2035, 2036, 2039): jede Produktseite führt ausschliesslich das reguläre (teils kostenpflichtige,
+teils kostenlose) Inhaltsverzeichnis, keinen weiteren Anhang. Kein Destillat-würdiger Fund;
+als Sammelvermerk im Register dokumentiert, damit ein künftiger Lauf diese 16 Zeilen nicht
+erneut auf Korrigenda prüfen muss.
+
+**Nachgeführt:**
+
+- `destillate/sia-2031-korrigenda-c1.md` (neu, established): Bilanzperimeter-Präzisierung,
+  vollständige Tabelle D.1, Cross-KB-Hinweis, offene Punkte.
+- `wiki/REGISTER.md`: Zeile SIA 2031 von Metadaten-Notiz auf gelesenes Destillat angehoben;
+  neuer Sammelabsatz «Korrigenda-Check-Sweep, 23.08.2026» im Blindzone-Abschnitt (16 geprüfte
+  Nullbefund-Zeilen dokumentiert, damit sie nicht doppelt geprüft werden).
+- `destillate/INDEX.md`: neue Zeile.
+- `wiki/QUESTIONS.md`: neuer Eintrag N61 (Cross-KB-Abgleich Primärenergiefaktoren `energie`
+  ↔ SIA 2031-C1, nicht selbst gelöst).
+- Dieser CHANGELOG-Eintrag.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang geprüft, Rule
+`auto-verbesserungen` 260811):
+
+| Datei | Befund |
+|---|---|
+| `destillate/sia-2031-korrigenda-c1.md` | `??` (echte Neuanlage) |
+| `wiki/REGISTER.md` | 1/1 (Zeile SIA 2031, gezielte Ersetzung), dann 14/1 (Sammelabsatz-Einfügung + Zahlenkorrektur im selben, gerade selbst geschriebenen Absatz) — beide Male ausschliesslich eigene Zeilen betroffen |
+| `destillate/INDEX.md` | 1/0 (reine Neuzeile) |
+| `wiki/QUESTIONS.md` | 19/0 (reiner Anhang am Dateiende, keine fremden Zeilen berührt) |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh` bzw. den 15-Min-`nas-selfcommit`-Cron).
+
+**Nicht geleistet / offene Bring-Schulden:**
+
+- Das Basis-Merkblatt SIA 2031:2009 selbst (160.00 CHF) sowie die Nachfolgeausgabe
+  SIA 2031:2016 bleiben kostenpflichtig und nicht im Haus — nur die einseitige Korrigenda ist
+  erschlossen.
+- Cross-KB-Abgleich Primärenergiefaktoren `energie` ↔ SIA 2031-C1 nicht durchgeführt (N61).
+- Von den ~56 (jetzt effektiv 55, SIA 2001 gilt als erledigt) Blindzone-Zeilen sind nach diesem
+  Lauf 1 (SIA 2028, achtzehnte Fortsetzung) + 3 (SIA 269/3/5/8, siebzehnte Fortsetzung) + 1
+  (SIA 118/380, achtzehnte Fortsetzung) + 1 (SIA 2031, dieser Lauf) = 6 Zeilen mit einem echten
+  Korrigenda-Fund versehen; 14 (SIA-118/xxx-Familie, achtzehnte Fortsetzung) + 16 (dieser Lauf)
+  = 30 Zeilen sind auf die Methode geprüft und ergebnislos geblieben. **Für die nächste
+  Fortsetzung offen:** rund 19 Blindzone-Zeilen sind noch nicht auf kostenlose Korrigenda
+  geprüft — Kandidaten mit P1-/Fach-Skill-Nähe zuerst: SIA 215, SIA 232/1, SIA 232/2, SIA 274,
+  SIA 283, SIA 284, SIA 384/6 (Erdwärmesonden, `energie`-relevant), sowie die verbleibende
+  20xx-Merkblatt-Restmenge (2016, 2021, 2027, 2042, 2044, 2045 — diese vier haben zwar bereits
+  Nachfolgenorm-Text im Register, aber keine dedizierte Korrigenda-Prüfung).
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung (Fortsetzung nach Run 13): N58-4-Nebenbefund geklärt, neues Destillat VKF-Merkblatt 2006-15
 
 **Auftrag:** offene Fragen in `wiki/QUESTIONS.md` weiter abarbeiten. Fundstelle je Aussage mit

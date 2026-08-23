@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 21:20:19
+Stand: 23.08.2026 21:40:54
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 21:20:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 790a7bb5 wissen/baurecht: Buch-Run 93 - Trennsystem-Luecke aus Run 86 geschlossen, §§ 97/98 WsV tragen die gebaeudebezogene Meteor-/Schmutzwasser-Trennpflicht
+- 2cf88a97 nas-selfcommit: 9 Datei(en) 2026-08-23 21:30
