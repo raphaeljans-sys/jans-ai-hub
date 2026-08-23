@@ -4,6 +4,28 @@ Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel.
 
 ## Offene Wissenslücken (Coverage-Gaps)
+- **Wissens-Destillat `buero-projekte` Phase 2, dritter Lauf (23.08.2026, P2-Start):** die
+  ersten beiden P2-Cluster von 91 offenen P2-Zeilen gelesen (zwei parallele Lese-Agenten,
+  je nur lesend im Archiv): [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]]
+  neu angelegt (Projekt `1011_Lorrainestr_4`, 20 Zeilen gelesen). Projekt `1602_St_Karli_11`
+  (25 Zeilen, Systemvergleich Metallfenster BKP 221 über sechs Hersteller Forster/Jansen/MHB/
+  Mira Contour/Schweizer/Wicona) ergab **keine Lesson**: 24 der 25 Dateien sind unkommentierte
+  Herstellerprospekte (gehören allenfalls zu `wissen/bauprodukte`, nicht hierher); einziges
+  Dokument mit JANS-eigenem Entscheidungskontext ist ein Fragenkatalog an Metallbauer Hirt
+  (System-/Materialwahl für vier Bauteile plus eine Hochwasserschutz-Rolltor-Sonderlösung),
+  aber ohne dokumentierte Antwort. Eigene Nachprüfung (Orchestrator, nicht der Lese-Agent):
+  die Korrespondenzordner zu den drei tatsächlichen Anbietern im Projekt
+  (`12_Schrift_Datenverkehr/221 Profiel-Systemhersteller Jansen (Mumenthaler Roger)`,
+  `.../221 Profiel-Systemhersteller Wigona (Moser Peter)`, `.../221 Holz-Metall-Fenster
+  (Hr. Naef)`) sind angelegt, aber **leer** — kein Entscheiddokument im gesamten
+  Projektordner auffindbar, welches System am Ende gewählt wurde und warum. **Offene Frage:**
+  falls dieses Wissen anderswo existiert (Gedächtnis Raphael, ein separates Archiv, eine
+  Rechnung), wäre die Ergänzung wertvoll — sowohl als Lesson hier als auch als Datenpunkt für
+  den Pflicht-Zusatzauftrag `bevorzugte-systeme-jans.md` (Spec `buero-projekte-spec.md`).
+  Alle 45 Zeilen im Inventar auf `[x]`/`[-]` gesetzt. **Weiterhin offen:** 46 P2-Zeilen
+  (`00_Allgemein` 17+3P3, `1318_Lorraine_Kueche` 28, `1527 EH Europe GmbH` 3+2P3) sowie
+  26 P3-Zeilen (davon 19 `1012_Ardez`) — nächster Lauf.
+  Bericht: `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-p2-run3.md`.
 - **Wissens-Destillat `buero-projekte` Phase 2, zweiter Lauf (23.08.2026, Fortsetzung):** die
   restlichen 46 P1-Zeilen aus dem ersten Lauf sind jetzt gelesen und trianiert. Ergebnis: Update
   an [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]] (Wandbeläge +177 %, Malerarbeiten

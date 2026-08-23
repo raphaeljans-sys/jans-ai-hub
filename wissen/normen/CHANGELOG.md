@@ -1,3 +1,43 @@
+## 2026-08-23 — SIA-Sweep, fünfte Fortsetzung: SharePoint-Zugangsweg verifiziert + in WEGE.md dokumentiert, Bestandslücke der 55 Blindzone-Zeilen am vollständigen Listing bestätigt
+
+**Auftrag Raphael:** SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen, Destillate
+anlegen; zuerst CHANGELOG und letzte Reports lesen und dort weitermachen.
+
+**Bring-Schuld aus den zwei Vorläufern geschlossen:** der von einer parallelen Mac-Mini-Session
+gefundene SharePoint-Zugangsweg über `connectors/m365-graph.mjs` (trägt auch ohne lokalen
+Finder-Mount der Site **PL**) war noch nicht in `connectors/WEGE.md` festgehalten. Auf dieser
+Station (MacBook Pro) bestand dieselbe Mount-Lücke; der Weg wurde verifiziert (Selbsttest,
+Site-/Drive-ID der Bibliothek `02_Recht_Norm` aufgelöst, Listing- und Download-Pattern getestet
+— `curl -L` auf `/content` folgt dem 302-Redirect, Testdatei `416_2003_dfi.pdf` vollständig und
+unbeschädigt geladen) und mit Beispiel-IDs in `connectors/WEGE.md` (Abschnitt „Weg 2") ergänzt.
+
+**Vollständiges Dateilisting statt Katalog-Abgleich:** mit dem funktionierenden Zugang wurden
+alle 140 Dateien aus `SIA_Norm/SIA_Normen/alle/` plus sieben norm-eigene Unterordner gegen die
+55 verbleibenden „Kein Volltext im Haus"-Nummern (Abschnitt A) geprüft. **0 Treffer** — die
+Bestandslücke ist real, kein Access- oder Scan-Artefakt der drei mount-losen Vorläufer-Läufe.
+
+**`ersetzt:`-Frontmatter-Audit** (von Fortsetzung 4 vorgeschlagen): alle 79 SIA-Destillate mit
+`ersetzt:`-Feld gegen Abschnitt A geprüft, ob ein weiterer „SIA 2001"-Fall (fehlende Nummer,
+bereits durch vorhandenes Destillat abgelöst) existiert — **keiner gefunden**, SIA 2001 bleibt
+der einzige.
+
+**Cross-KB-Bring-Schulden geprüft:** die zwei VSS-Bring-Schulden aus `baurecht` (SN 640 052,
+SN 641 400) im selben Zugang gesucht — weiterhin nicht im Haus, Bring-Schuld unverändert.
+
+**Register/QUESTIONS nachgeführt:** `wiki/REGISTER.md` (neue FRISCH-GEMELDET-Zeile),
+`wiki/QUESTIONS.md` (Nachtrag: die drei N-SIASWEEP-Fragen sind jetzt ausdrücklich als
+Beschaffungs-, nicht Zugangslücke markiert), `connectors/WEGE.md` (neuer Zugangsweg-Abschnitt).
+Alle Edits rein additiv (`git diff --numstat`: WEGE.md 46/0, QUESTIONS.md 10/0, REGISTER.md 1/0).
+
+**Nicht geleistet:** kein Normtext gekauft/gelesen; der Zugangsweg wurde nur für Site PL
+aufgelöst (andere Sites bräuchten eigene IDs); kein Eingriff am lokalen Mount (Klasse
+Cloud-Sync, ohnehin nicht nötig).
+
+Report: `outputs/2026-08-23_sia-sweep-fuenfte-fortsetzung-zugangsweg.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung, zweiter Lauf: BRL-17-15-Querverweis geschlossen, NIN-Sackgasse dokumentiert, BRL-13-15-Duplikat bewusst nicht entschieden
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

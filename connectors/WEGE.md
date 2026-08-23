@@ -228,6 +228,52 @@ Belegte Beispiele, alle am 09.08.2026 gelaufen:
 `connectors/m365-graph.mjs`, holt den Token selbst aus dem Zertifikat. Unabhängig von
 `node_modules` und der CLI. Test: `node connectors/m365-graph.mjs --selbsttest`.
 
+**Loest die Sackgasse „SharePoint-Site lokal nicht gemountet".** Belegt 23.08.2026 (KB
+`normen`, SIA-Sweep-Nachtrag): auf einer Station, auf der die Site **PL** (Planungsportale —
+`02_Recht_Norm`, `03 Brandschutz`, `04 Energie`, `05 Planungsportale`) nicht unter
+`~/Library/CloudStorage/` sichtbar ist (weder OneDrive noch ein Group-Container-Duplikat,
+per `find`/`ls` geprueft), findet dieser Weg jede Datei trotzdem — unabhaengig vom lokalen
+Sync-Zustand, nur per Zertifikats-Token. Gilt vermutlich fuer jede SharePoint-Site, nicht nur
+PL. Node muss im PATH sein (siehe Falle unten Weg 1).
+
+```bash
+export PATH="/opt/homebrew/bin:$PATH"   # falls "node: command not found" im Bash-Tool
+cd ~/Developer/jans-ai-hub
+
+# Site-ID einer Site auflösen (einmalig, dann cachen — siehe Site-IDs unten)
+node connectors/m365-graph.mjs --get "/sites/raphaeljans.sharepoint.com:/sites/PL"
+
+# Drive-IDs (= Bibliotheken) der Site auflisten
+node connectors/m365-graph.mjs --get "/sites/<siteId>/drives"
+
+# Ordnerinhalt per Pfad auflisten (funktioniert mit dem ANGEZEIGTEN Ordnernamen,
+# nicht mit dem oft abweichenden internen Bibliotheksnamen aus Weg 1 — das ist der
+# Vorteil dieses Wegs gegenüber "spo file get")
+node connectors/m365-graph.mjs --get "/drives/<driveId>/root:/<Pfad/Ordner>:/children"
+
+# Datei-Inhalt laden: der Connector selbst liefert nur JSON (kein Binaerdownload,
+# GET auf /content antwortet mit HTTP 302 auf eine tempauth-Download-URL). Mit dem
+# geliehenen Token per curl -L nachladen (verifiziert 23.08.2026, PDF vollstaendig,
+# Seitenzahl korrekt):
+TOKEN="$(node connectors/m365-graph.mjs --token graph)"
+curl -sL -H "Authorization: Bearer $TOKEN" \
+  "https://graph.microsoft.com/v1.0/drives/<driveId>/root:/<Pfad>/<Datei>.pdf:/content" \
+  -o /tmp/<datei>.pdf
+```
+
+**Site-IDs/Drive-IDs, einmal aufgeloest, damit kuenftige Laeufe nicht neu suchen muessen:**
+
+| Site | Site-ID | Zweck |
+|---|---|---|
+| PL (Planungsportale) | `raphaeljans.sharepoint.com,bc0cbde1-7a6d-48e1-9ff6-752f01437ebe,cabb651c-1220-4f25-867d-954b88c6dd27` | Normen, Recht, Energie, Kartenportale |
+
+| Bibliothek (Site PL) | Drive-ID | Pfad-Beispiel |
+|---|---|---|
+| `02_Recht_Norm` | `b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfT25dFWtAPQ7JsQfZ1A7n_` | `/02_Normen/SIA_Norm/SIA_Normen/alle/`, `/02_Normen/SIA_Norm/416_2003_dfi.pdf` |
+
+Fuer andere Sites (`kispi`, `03 Brandschutz`, …) analog per `--get "/sites/<host>:/sites/<name>"`
+auflösen und hier ergänzen, statt bei jedem Lauf neu zu suchen.
+
 ### Weg 3: PnP PowerShell mit geliehenem Token
 
 `pwsh` mit `PnP.PowerShell 3.1.0` ist installiert. Deckt die Tenant- und Site-Eigenschaften

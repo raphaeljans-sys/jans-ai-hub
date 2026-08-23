@@ -4,7 +4,7 @@ status: emerging
 last_updated: 2026-08-23
 sources:
   - /Volumes/daten/04_Buero/02_Projekte/1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstock_Baugesuch_Kostenaufstellung_Kontakte_Okt2003.pdf (24-seitiges Konvolut: Baugesuchspläne, Beitragsgesuch Denkmalpflege 12.12.2003, Energiebeitragsgesuch WEA Kanton Bern 12.12.2003, Verfügung WEA 18.12.2003, Aktennotiz Begehung Denkmalpflege 21.08.2003, BKP-gegliederte Kostenaufstellung, Unternehmerliste)
-links: []
+links: [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]]
 tags:
   fokus: Behörden & Bewilligungen
   bkp: "— (Baubewilligungs-/Fördermittelverfahren, keine einzelne Gewerkeposition im Zentrum; Quelle enthält eine BKP-gegliederte Kostenaufstellung)"

@@ -180,6 +180,16 @@ zum Destillieren ohne den Volltext); die Register-Zeile selbst trägt die Fundst
 Schritt bei Bedarf: gezielte Beschaffung einzelner Normen aus der 23er-Liste oben, priorisiert
 nach Projektbedarf.
 
+> **Nachtrag 23.08.2026 (fünfte Fortsetzung):** der SharePoint-Zugang war in dieser Runde erstmals
+> voll funktionsfähig (Weg über `connectors/m365-graph.mjs`, siehe `connectors/WEGE.md`), damit
+> liess sich die Bestandsfrage direkt am vollständigen Dateilisting prüfen statt nur am Katalog-
+> Abgleich. Ergebnis: **SIA 422, SIA 2021, SIA 2025 sowie die GEO405-Familie (405/2015/2016/2045)
+> haben tatsächlich keine Datei in `SIA_Norm/SIA_Normen/alle/` oder den norm-eigenen
+> Unterordnern** — die drei N-SIASWEEP-Fragen sind damit keine Zugangs-, sondern echte
+> Beschaffungslücken. Ein künftiger Lauf muss dafür nicht erneut den lokalen Mount oder den
+> SharePoint-Zugang prüfen, nur noch kaufen (Bring-Schuld Raphael) oder auf Sekundärquellen
+> ausweichen.
+
 ---
 
 ## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt
