@@ -1724,6 +1724,18 @@ sind die Whitelist-Aktion A1 (Guard verlangt bestandenen `--abgleich`) sowie die
 Personal Access Token muss auf developer.bexio.com erzeugt werden (Scopes `kb_invoice_show` +
 `kb_invoice_edit`). Status: **offen, Aktion Raphael.**
 
+Nachtrag 23.08.2026 (Lauf `zahlungsabgleich-check`, alle Wege nachgemessen): Der Punkt steht
+seit **elf Tagen** unbewegt, das Geld-Monitoring ist damit **fünfzehn Kalendertage** blind
+(letzter verifizierter Zahlstatus 08.08.2026 08:36, seither dreizehn Läufe in Folge mit Exit 2).
+Heute nicht nur wiederholt, sondern gegen das Wege-Register geprüft: MacBook Pro HTTP 401 an API
+**und** am Aussteller, Mac Mini nativ per `ssh mini` nachgemessen — `~/.bexio.env` existiert dort
+weiterhin gar nicht, die Always-On-Station taugt also auch nicht als Rückfallebene. Es fehlt kein
+Werkzeug, sondern eine Anmeldung. Der Tagessnapshot bleibt bewusst auf dem Stand vom 08.08. 08:24
+stehen, damit das aufgelaufene Delta beim ersten Lauf nach dem Tokenwechsel auf einmal sichtbar
+wird. Bericht: `30 JANS AI HUB OUTPUT/zahlungsabgleich/2026/260823_bexio-Hygiene.md`.
+Status: **weiterhin offen, Aktion Raphael** (neuer PAT auf developer.bexio.com, Scopes
+`kb_invoice_show` + `kb_invoice_edit`, auf **beiden** Stationen eintragen).
+
 Eintrag 09.08.2026 (Session Raphael 03:00, beide Aktionen ausgeführt und gegengeprüft —
 **ERLEDIGT, und die Wiederholung ist dauerhaft abgestellt**): Der KISPI-Gastzugriff ist
 wiederhergestellt und die Ursache beseitigt. (1) `kispi-gastzugriff-wiederherstellen.sh` hat
