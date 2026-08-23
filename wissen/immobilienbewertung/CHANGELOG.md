@@ -2,6 +2,67 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 16 — Healthcare-Umbau-Band: zwei Bezugsflaechen vermischt)
+
+Recompute des **Healthcare-Umbau-Kostenbands** («Spektrumskosten»). Die Arithmetik stimmt
+(500'000 / 452 m² HNF = 1'106, gerundet 1'100), aber die **Bezugsflaechen sind nicht einheitlich**.
+
+**Der Befund.** Der bestehende Vorbehalt trennt **NF von GF** — sauber. Er uebersieht, dass
+**innerhalb der NF-Welt** zwei Flaechen im Spiel sind: das **Band** und der **Kispi-Fall** lauten
+auf **CHF/m² NF**, der **Psychiatrie-Fall** und der daraus abgeleitete **Zielkorridor
+1'800–2'500** dagegen auf **CHF/m² HNF**. Nach der eigenen Normverankerung dieser KB gilt
+**NF = HNF + NNF** ([[flaechendefinitionen-sia]], SIA 416:2003) — **NF ist stets groesser als
+HNF**, ein Kennwert je HNF liegt also hoeher als je NF.
+
+**Zwei Folgerungen:**
+1. **«Liegt deutlich unter dem Band» bleibt richtig — sogar erst recht.** Auf NF umgerechnet faellt
+   der Wert weiter, der Abstand waechst. Die qualitative Einordnung ist **a fortiori** gesichert.
+2. **Der Zielkorridor 1'800–2'500 ist NICHT direkt mit dem Band 2'000–3'000 vergleichbar.** Als
+   HNF-Wert wirkt er, als reiche er fast an die Bandunterkante; auf NF umgerechnet laege er
+   darunter. **Wie weit, ist nicht bestimmbar** — der NNF-Anteil des Projekts ist nicht belegt, und
+   ihn zu schaetzen waere Raten. **Der Korridor bleibt unveraendert, aber als HNF-Wert
+   gekennzeichnet und nicht gegen das NF-Band zu halten.**
+
+**Praxisregel im Artikel verankert:** bei jeder Verwendung des Bands die Bezugsflaeche des eigenen
+Projekts ausschreiben und **nur Gleiches mit Gleichem** vergleichen. Wer eine HNF-Zahl gegen das
+NF-Band haelt, bewertet sich **systematisch zu teuer** — umso mehr, je hoeher der NNF-Anteil ist.
+
+**Vierter Fall desselben Musters an einem Tag:** nicht die Zahl ist falsch, sondern die
+**Bezugsgroesse fehlt oder wechselt unbemerkt** — wie beim BKP-Scope (D13, D16, LSV-1-%-Regel) und
+beim Preisstand. **Kein Kennwert geaendert.**
+
+Geaenderte Dateien: `wiki/realwert-sachwert.md` (⚠-Block beim Umbau-Kostenband).
+
+## 2026-08-23 (Vertiefungslauf 15 — Recompute der CRB-Spital-Zeilen: ein Beleg bestaetigt, zwei Punkte offen)
+
+Dieselbe Pruefregel auf die beiden CRB-**werk-material**-Referenzobjekte angewendet.
+
+**✓ Die BKP-2-Aufgliederung des USZ-Baus besteht die Probe.** Die «davon»-Positionen summieren zu
+**2'567** gegen ausgewiesene **BKP 2 = 2'695**; die Differenz von **128 CHF/m² GF (4.75 %)**
+entspricht fast exakt dem erwarteten Anteil der **nicht gelisteten** Positionen **Baugrube und
+Transportanlagen** — nach der ZIW-Struktur 2025 zusammen **5.08 %** (137 CHF/m²). Das «davon» ist
+korrekt als Auswahl zu lesen, und die Auswahl ist vollstaendig erklaert. **Kein Befund.**
+
+⚠ **Der Erstellungskosten-Kennwert ist nicht die Summe der gelisteten Positionen.** BKP 1-5
+summieren zu **3'455**, mit BKP 9 zu **3'628** — ausgewiesen sind **3'767**, also **139 CHF/m²
+(3.7 %) mehr**. Mindestens eine Position ist im Extrakt nicht erfasst (der Groessenordnung nach
+eine Reserve). **Praxisfolge: die BKP-Zeilen dieses Objekts nicht aufsummieren und als
+Erstellungskosten ausgeben.**
+
+⚠ **Die Spalte «Bauwerk» ist nicht definiert und verhaelt sich in den beiden Zeilen
+unterschiedlich.** Bauwerk zu Erstellungskosten: **Frauenklinik 0.89**, **USZ 0.60**. Zusaetzlich
+liegt der USZ-Bauwerk-Wert **2'271 unter dem BKP 2 = 2'695 derselben Zeile** — waere «Bauwerk»
+schlicht BKP 2, muessten sie uebereinstimmen; auch «BKP 2 ohne Honorare» (2'348) trifft es nicht.
+**Vor einer Verwendung an der Quelle zu klaeren; bis dahin nur Erstellungskosten- und BKP-Werte
+verwenden.**
+
+**Dritter Fall desselben Musters an einem Tag:** die Unsicherheit entsteht nicht durch eine falsche
+Zahl, sondern durch eine **fehlende Scope-Definition** — wie bei D13, D16 und der 1-%-Regel der
+LSV. Der Recompute hat heute in dieser KB **zwei** echte Zahlenfehler gefunden (Lanzeln CHF/PZ,
+plus die bekannten D10-Zeilen) und **drei** Scope-Unklarheiten sichtbar gemacht.
+
+Geaenderte Dateien: `wiki/realwert-sachwert.md` (Recompute-Block bei den CRB-Spital-Zeilen).
+
 ## 2026-08-23 (Vertiefungslauf 14 — dieselbe Pruefregel auf die Healthcare-Tabelle: eine DRITTE Abweichung)
 
 Die in `wissen/grobkosten` gewonnene Pruefregel (`Kosten ÷ Bezugsgroesse` selbst nachrechnen und

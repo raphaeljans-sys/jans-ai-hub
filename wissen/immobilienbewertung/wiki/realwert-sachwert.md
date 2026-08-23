@@ -438,6 +438,41 @@ Vorbereitung 315, **BKP 2 Gebaeude 2'695** (davon Rohbau 1 = 966, Rohbau 2 = 312
 HLK/Automation 151, Sanitaer 164, Ausbau 1 = 216, Ausbau 2 = 191, Honorare 347), BKP 3
 Betriebseinrichtungen 265, BKP 4 Umgebung 86, BKP 5 Baunebenkosten 94, BKP 9 Ausstattung 173.
 
+> ### Recompute der CRB-Spital-Zeilen (23.08.2026) — ein Beleg bestaetigt, zwei Punkte offen
+>
+> Dieselbe Pruefregel wie bei der 8-Objekt-Tabelle, auf die beiden CRB-Referenzobjekte angewendet.
+>
+> **✓ Die BKP-2-Aufgliederung des USZ-Baus ist plausibel und vollstaendig erklaerbar.** Die
+> gelisteten «davon»-Positionen (Rohbau 1 = 966, Rohbau 2 = 312, Elektro 220, HLK 151, Sanitaer
+> 164, Ausbau 1 = 216, Ausbau 2 = 191, Honorare 347) summieren zu **2'567** gegen ausgewiesene
+> **BKP 2 = 2'695** — die Differenz von **128 CHF/m² GF (4.75 %)** entspricht fast exakt dem
+> erwarteten Anteil der **nicht gelisteten** Positionen **Baugrube und Transportanlagen**: nach der
+> amtlichen BKP-Struktur der ZIW-Revision 2025 zusammen **5.08 %** von BKP 2, also 137 CHF/m². Das
+> «davon» ist also korrekt als Auswahl zu lesen, und die Auswahl ist vollstaendig erklaert. **Kein
+> Befund — im Gegenteil, die Zeile besteht die Probe.**
+>
+> ⚠ **Der Erstellungskosten-Kennwert ist NICHT die Summe der gelisteten Positionen.** BKP 1–5 der
+> USZ-Zeile summieren zu **3'455**, mit BKP 9 (173) zu **3'628** — der ausgewiesene
+> Erstellungskosten-Kennwert **3'767** liegt **139 CHF/m² GF (3.7 %) darueber**. Es fehlt also
+> mindestens eine im Extrakt nicht erfasste Position (der Groessenordnung nach eine Reserve).
+> **Praxisfolge: die BKP-Zeilen dieses Objekts nicht aufsummieren und als Erstellungskosten
+> ausgeben** — der Kennwert 3'767 steht fuer einen weiteren Scope als die gelistete Auswahl.
+>
+> ⚠ **Was die Spalte «Bauwerk» abgrenzt, ist im Extrakt nicht definiert — und die beiden Zeilen
+> verhalten sich unterschiedlich.** Bauwerk zu Erstellungskosten betraegt bei der **Frauenklinik
+> 3'064/3'426 = 0.89**, beim **USZ dagegen 2'271/3'767 = 0.60**. Zusaetzlich liegt der Bauwerk-Wert
+> des USZ **unter** dem in derselben Zeile ausgewiesenen **BKP 2 = 2'695** — waere «Bauwerk»
+> schlicht BKP 2, muessten die beiden Zahlen uebereinstimmen. Auch «BKP 2 ohne Honorare»
+> (2'695 − 347 = 2'348) trifft es nicht. **Die Spalte ist vor einer Verwendung an der Quelle zu
+> klaeren; bis dahin nur die Erstellungskosten- und die BKP-Werte verwenden.**
+>
+> **Dritter Fall desselben Musters an einem Tag:** auch hier entsteht die Unsicherheit nicht durch
+> eine falsche Zahl, sondern durch eine **fehlende Scope-Definition** — wie bei D13 (BKP-Scope
+> Tab. 2), D16 (BKP-2-Anteil) und der 1-%-Regel der LSV.
+>
+> *Recompute 23.08.2026 gegen die Zahlen dieses Abschnitts; Vergleichsanteile aus der
+> BKP-Anteilsstruktur der ZIW-Revision 2025 (`wissen/grobkosten/wiki/kennwerte.md`).*
+
 **Einordnung Healthcare-Kostenband (alle GF-basiert, ⚠ unterschiedliche Preisstaende):**
 - **Pflegeheim** (Herosé, Preisstand 2021 Nordwestschweiz): BKP 2 = **3'848 CHF/m2 GF**.
 - **Spital** (CRB, Preisstand 2020.04 Ostschweiz): EK **3'426-3'767 CHF/m2 GF** — der USZ-Bau BKP 2
@@ -619,6 +654,41 @@ Einordnungs-Faellen (`Umbaukosten 500K.docx`, `Umbaukosten_CHF_2500K.docx`).
   Paediatrie-Bands (4'000-5'500), also **normal bis eher guenstig/defensiv**, nicht teuer: hoher
   Anteil HLKSE/Lueftung/Sanitaer/Brandschutz, neue Zimmerstruktur mit Nasszellen, erhoehte
   Paediatrie-Anforderungen, Provisorien/Betriebseinschraenkungen; Ausstattung separat ausgewiesen.
+
+> ### ⚠ Innerhalb des Bands werden zwei Bezugsflaechen vermischt (Recompute 23.08.2026)
+>
+> Der Vorbehalt unten trennt **NF von GF** — sauber. Er uebersieht aber, dass **innerhalb der
+> NF-Welt** zwei verschiedene Flaechen im Spiel sind:
+>
+> - Das **Band** und der **Kispi-Fall** lauten auf **CHF/m² NF**.
+> - Der **Psychiatrie-Fall** lautet auf **CHF/m² HNF** (500'000 / 452 m² HNF = 1'106, gerundet
+>   1'100 — arithmetisch korrekt), und der daraus abgeleitete **Zielkorridor 1'800–2'500** ebenso
+>   auf **HNF**.
+>
+> Nach der eigenen Normverankerung dieser KB gilt **NF = HNF + NNF** ([[flaechendefinitionen-sia]],
+> SIA 416:2003). **NF ist also stets groesser als HNF**, und ein Kennwert je HNF liegt fuer
+> dasselbe Projekt entsprechend **hoeher** als je NF.
+>
+> **Was das fuer die beiden Aussagen bedeutet:**
+> 1. **«Liegt deutlich unter dem Band» bleibt richtig** — sogar erst recht. Auf NF umgerechnet
+>    faellt der Wert weiter, der Abstand zum Band waechst. Die qualitative Einordnung ist **a
+>    fortiori** gesichert.
+> 2. **Der Zielkorridor 1'800–2'500 ist NICHT direkt mit dem Band 2'000–3'000 vergleichbar.** Als
+>    HNF-Wert gelesen wirkt er, als reiche er fast an die Bandunterkante heran; auf NF umgerechnet
+>    laege er darunter. **Wie weit, ist nicht bestimmbar** — der NNF-Anteil dieses Projekts ist
+>    nicht belegt, und ihn zu schaetzen waere Raten. **Der Korridor bleibt deshalb unveraendert
+>    stehen, aber als HNF-Wert gekennzeichnet und nicht gegen das NF-Band zu halten.**
+>
+> **Praxisregel:** bei jeder Verwendung dieses Bands die Bezugsflaeche des eigenen Projekts
+> ausschreiben und **nur Gleiches mit Gleichem** vergleichen. Wer eine HNF-Zahl gegen das NF-Band
+> haelt, bewertet sich systematisch zu teuer — und zwar umso mehr, je hoeher der NNF-Anteil ist.
+>
+> **Vierter Fall desselben Musters an einem Tag:** nicht die Zahl ist falsch, sondern die
+> **Bezugsgroesse fehlt oder wechselt unbemerkt** — wie beim BKP-Scope (D13, D16, LSV-1-%-Regel)
+> und beim Preisstand.
+>
+> *Recompute 23.08.2026; Flaechendefinition aus [[flaechendefinitionen-sia]] (SIA 416:2003:
+> NF = HNF + NNF).*
 
 ⚠ Bezugsflaeche beachten: das Band ist **CHF/m2 NF** (nicht GF). Der Teilumbau-Wert 1'100 gilt nur
 bei weitgehendem Bestandserhalt der Struktur; sobald Nasszellen/Tragwerk/Medizintechnik dazukommen,
