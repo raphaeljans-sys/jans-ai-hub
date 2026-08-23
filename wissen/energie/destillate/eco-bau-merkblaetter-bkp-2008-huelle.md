@@ -271,7 +271,7 @@ Ausschlusskriterien, Entsorgungslogik) — nicht der Materialentscheid.
 | **SIA 112/1** «Nachhaltiges Bauen — Hochbau» | **GILT**, aktuelle Ausgabe **2017** (seit 01.09.2017); Fassung 2005 archiviert per 31.08.2017 | shop.sia.ch |
 | **SN EN 206-1** (Beton) | **ERSETZT** durch **SN EN 206, 2. Auflage**, gueltig seit 01.01.2016 | espazium.ch: «Sie ersetzt nicht nur die 1. Auflage, sondern auch die seit dem Januar 2003 gueltige SN EN 206-1:2000» |
 | **SIA 162/4** (Recyclingbeton) | **ARCHIVIERT** seit 31.12.2009. ⚠ Die Ablösung durch SIA-Merkblatt MB 2030 ist nur sekundaerquellengestuetzt → **schwach verifiziert** | shop.sia.ch: «gueltig bis 31.12.2009, archivierter Titel!» |
-| **Gründachrichtlinie + SFG-Label** (Dachbegrünung, BKP 224) | **Das Feld ist normativ neu besetzt.** Seit **01.11.2013** gilt **SIA 312:2013 «Begrünung von Dächern» (SN 564312)**, ABB in **SIA 118/312** (Ziff. 0.2), ergänzend SIA 271 und SIA 318 (Ziff. 0.1.2). Die Gründachrichtlinie ist dort **kein Qualitätsstandard, sondern Prüfverfahren** — Deckungsgrad (Ziff. 2.5.5, «oder gleichwertige Prüfmethoden») und Substrat-Wasserkapazität (Ziff. 4.3.2) — und steht nur im **informativen Anhang C [14]**, zitiert wird ausschliesslich **Teil 1** (1999). **Teil 2 «Labelvergabe und Ökobilanz»** und das **SFG-Label** kommen in der Norm nicht vor. Das Label ist damit **weder aufgehoben noch normativ verbindlich**: freiwillige Zusatzanforderung. Heutiger Bestand von SFG/Richtlinie/Label **nicht** verifiziert | SIA 312:2013 im Original gelesen (Titelblatt, Ziff. 0.1.2/0.2/0.3, 2.5.5, 4.3.2, Anhang C); führend KB `normen`, Destillat `sia-312-2013` — verifiziert 04.08.2026, Wissens-Chef Run 25 |
+| **Gründachrichtlinie + SFG-Label** (Dachbegrünung, BKP 224) | **Das Feld ist normativ neu besetzt.** Seit **01.11.2013** gilt **SIA 312:2013 «Begrünung von Dächern» (SN 564312)**, ABB in **SIA 118/312** (Ziff. 0.2), ergänzend SIA 271 und SIA 318 (Ziff. 0.1.2). Die Gründachrichtlinie ist dort **kein Qualitätsstandard, sondern Prüfverfahren** — Deckungsgrad (Ziff. 2.5.5, «oder gleichwertige Prüfmethoden») und Substrat-Wasserkapazität (Ziff. 4.3.2) — und steht nur im **informativen Anhang C [14]**, zitiert wird ausschliesslich **Teil 1** (1999). **Teil 2 «Labelvergabe und Ökobilanz»** und das **SFG-Label** kommen in der Norm nicht vor. Das Label ist damit **weder aufgehoben noch normativ verbindlich**: freiwillige Zusatzanforderung. Heutiger Bestand von SFG und SFG-Label am 23.08.2026 verifiziert (sfg-gruen.ch, besteht unverändert, Label wird weiterhin vergeben); exaktes Ausgabejahr der Gründachrichtlinie selbst offen, siehe Nachtrag unten | SIA 312:2013 im Original gelesen (Titelblatt, Ziff. 0.1.2/0.2/0.3, 2.5.5, 4.3.2, Anhang C); führend KB `normen`, Destillat `sia-312-2013` — verifiziert 04.08.2026, Wissens-Chef Run 25 |
 | **Energieetikette A++/A+** | **NEU SKALIERT**: seit **01.03.2021** Skala **A-G ohne Pluszeichen** fuer Geschirrspueler, Waschmaschinen/Waschtrockner, Kuehl-/Gefriergeraete und Displays; Beleuchtung ab 01.09.2021. CH-Rechtsgrundlage: **Energieeffizienzverordnung EnEV, SR 730.02** | EnEV Art. 6 Abs. 1 (Fedlex) |
 
 **Nicht geprueft und weiterhin offen:** SIA 431, SIA 380/1, SIA 382/1, SWKI VA104-01, EKAS 6503,
@@ -284,3 +284,18 @@ Zeile in der Tabelle oben hat. Der Selbstwiderspruch ist aufgeloest: SFG ist aus
 herausgenommen; massgeblich ist die Tabellenzeile «Gruendachrichtlinie + SFG-Label». Was dort
 offen bleibt, ist ausschliesslich der **heutige Bestand** von SFG, Richtlinie und Label
 (sfg-gruen.ch nicht geprueft) → `wiki/QUESTIONS.md`, E-R25-1.
+
+✓ **Heutiger Bestand verifiziert 23.08.2026 (schliesst E-R25-1 im Kern).** Die Schweizerische
+Fachvereinigung Gebäudebegrünung (SFG, bilingual SFG/ASVE) besteht 2026 unverändert unter
+demselben Namen, keine Fusion, keine Umbenennung: Website sfg-gruen.ch (abgerufen 23.08.2026,
+aktuell — Jubiläumstagung 2026 angekündigt), Sitz Waisenhausstrasse 2, 3600 Thun. Das
+**SFG-Label** wird weiterhin vergeben (Qualitätssiegel «SFG-Standard» für Begrünungssubstrate,
+Kriterien u.a. Wasser-/Lufthaushalt und Vegetation/Artenvielfalt; Fundstellen Grünstadt Schweiz
+und Substrat-Herstellerseiten, Stand 23.08.2026). Damit darf «SFG-Label» weiterhin als
+freiwillige Zusatzanforderung in einem JANS-LV genannt werden. **Ein Rest bleibt offen:** Titel
+und Ausgabejahr der aktuellen SFG-Gründachrichtlinie selbst liessen sich auf der
+Publikationsseite sfg-gruen.ch/de/Publikationen/Richtlinie nicht eindeutig verifizieren (die
+Seite listet Richtlinien der Partnerverbände BuGG/EFB/VKF/JardinSuisse); für eine exakte
+Fundstelle wäre das PDF direkt bei der SFG zu beziehen. Da die Richtlinie in SIA 312:2013 ohnehin
+nur als Prüfverfahren referenziert ist (siehe oben), ist dieser Rest für die Ausschreibungspraxis
+nachrangig.

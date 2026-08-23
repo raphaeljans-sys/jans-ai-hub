@@ -257,3 +257,16 @@ eine CH-Primärquelle vorliegt (siehe offene Punkte oben).
 und §§-Nummern führt die KB `baurecht`, die Karten-/OEREB-Sicht auf Gewässerschutzbereiche und
 Grundwasserschutzareale (§ 45 WsG, OEREB-Themen 130/132) die KB `planungsgrundlagen`. Die
 Anwendung auf den Eisspeicher bleibt eigene Subsumtion und ist beim AWEL zu bestätigen.
+
+*Ehrlicher Negativbefund, geprüft 23.08.2026 (schliesst E-R20-1 als Recherche, nicht als
+Bestätigung):* Weder die AWEL-Webseiten zu Erdwärmesonden/Energienutzung aus Untergrund und
+Wasser (zh.ch/de/planen-bauen/bauvorschriften/energienutzung-untergrund-wasser, abgerufen
+23.08.2026) noch das AWEL-Gesuchsformular «Oberflächennahe Erdwärme» (PDF, 2 S.) noch die
+gesamtschweizerische BAFU-Vollzugshilfe «Wärmenutzung aus Boden und Untergrund» (2009, 53 S.,
+Geltungsbereich Ziff. abschliessend auf Erdwärmesonden, Grundwasserwärmepumpen, Erdregister,
+Erdwärmekörbe, Energiepfähle/thermoaktive Elemente begrenzt) erwähnen den Eisspeicher/
+Latentwärmespeicher als eigenen oder mitgemeinten Anlagetyp. Die Subsumtion unter § 92 WsV bleibt
+damit **eine eigene Auslegung dieser KB, nicht amtlich bestätigt** — eine verbindliche Klärung
+ist nur über eine direkte Anfrage bei der AWEL-Fachstelle Gewässerschutz/Bewilligungen
+Grundwasser-Wärmenutzung zu erhalten (im konkreten Projektfall, nicht generisch). FAQ F187 bleibt
+deshalb auf `emerging`.

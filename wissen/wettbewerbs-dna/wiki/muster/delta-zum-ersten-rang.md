@@ -1,7 +1,7 @@
 ---
 title: Delta zum 1. Rang — was JANS-Beitraege vom Sieg trennte (Muster ueber alle 7 verfuegbaren Dossiers)
 status: established
-last_updated: 2026-08-03
+last_updated: 2026-08-23
 sources: [teilnahmen/2101-kssg-h14.md, teilnahmen/2102-muttenz.md, teilnahmen/2103-steinhofschule.md, teilnahmen/2205-guggerbach.md, teilnahmen/2206-schoental.md, teilnahmen/2408-biwak-grassen.md, teilnahmen/2507-tkhl-ps-halden.md]
 links: [[2101-kssg-h14]], [[2102-muttenz]], [[2103-steinhofschule]], [[2205-guggerbach]], [[2206-schoental]], [[2408-biwak-grassen]], [[2507-tkhl-ps-halden]]
 ---
@@ -38,6 +38,57 @@ fünf V1-Teilnahmen mit auswertbarem Jurybericht: die bis dahin unausgewerteten
 Kapitel (Kap. 4.3 «Würdigung», die Würdigungen des 2. und 3. Rangs, die Planbeilage
 «Pläne engere Auswahl») tragen die Befunde 12 und 13 sowie Schärfungen an den
 Befunden 2, 3 und 6.
+
+## Priorisierte Liste — was kostet am haeufigsten den Sieg (Verdichtung V3, Etappe 4, 23.08.2026)
+
+Baustein V3 der Etappe 4 (`training/PROGRAMM.md`): dieselben 13 Befunde, neu geordnet nach
+**Haeufigkeit** statt nach Entdeckungsreihenfolge — keine neue Quelle, reine Nachzaehlung gegen
+den Text oben. Befund 1 (die konstant gelobte "Hardware") ist ausgenommen: er ist kein
+Verlustfaktor, sondern die durchgaengig bestaetigte Eintrittsbedingung. Fuer die restlichen 12
+Befunde ist gezaehlt, in wie vielen der 7 Verfahren mit verfuegbarem Jury-Delta (Muttenz,
+Schoental, 2101 KSSG, Steinhof, Guggerbach, BIWAK, Halden/LIMO) das Muster als Ausscheidungs-
+oder Rangverlust-Grund belegt ist.
+
+### Stufe A — haeufigster Kostenfaktor (mind. 3 von 7 Verfahren)
+
+1. **Befund 2 — Betrieb/Nutzerlogik statt reiner Architektur (5/7: Muttenz, Schoental, 2101
+   KSSG, Guggerbach, BIWAK).** Der mit Abstand haeufigste Verlustgrund ueber alle Bauaufgaben
+   hinweg — unabhaengig davon, ob die betriebliche Zielvorgabe paedagogisch, betrieblich-alpin
+   oder pflegerisch gefasst ist.
+2. **Befund 3 — Raeumliche Gesten ohne nachweisbaren Nutzen bzw. mit ueberhoehter
+   Sonderloesungsdichte (3/7: Muttenz, Guggerbach, BIWAK).**
+3. **Befund 5 — Koerper-Gliederung falsch zur Programm-Homogenitaet gewaehlt (3/7: Muttenz,
+   Schoental, Guggerbach)** — zwei gegenlaeufige, aber beide belegte Auspraegungen derselben
+   Regel (Gliederung vs. Einkoerper, je nach Nutzungsmassstab).
+
+### Stufe B — wiederkehrend, aber schmaler belegt (2 von 7 Verfahren)
+
+4. **Befund 4 — Kennwert-Extremwerte im Feld (Muttenz, 2101 KSSG).**
+5. **Befund 6 — Ersatz statt Weiterbauen bei tragfaehigem Bestand (BIWAK, Steinhof).**
+6. **Befund 8 — Terrain/Topografie als Entwurfsgeber ignoriert (Steinhof, Guggerbach).**
+7. **Befund 9 — Bestandeseingriffe nicht minimiert/beziffert (Guggerbach, Steinhof).**
+
+### Stufe C — bislang Einzelbeleg, n=1 (1 von 7 Verfahren) — "fast nie wiederholt", nicht "unwichtig"
+
+8. **Befund 7 — Staedtebau als Passstueck in Luecken-/Randlagen (nur 2101 KSSG).**
+9. **Befund 10 — Verbindende, oeffentlich nutzbare Herzstuecke bei mehrteiligen Anlagen (nur
+   Guggerbach).**
+10. **Befund 11 — Explizite Programmvorgaben als K.-o. statt Vorschlag (nur Halden/LIMO).**
+11. **Befund 12 — Zentrale gewendelte Erschliessung als Eintrittsbillett (nur BIWAK-intern
+    belegt, dort aber bei 4 von 5 Finalisten).**
+12. **Befund 13 — Weiterbearbeitungs-Robustheit entscheidet unter zwei gleichwertigen
+    Projekten (nur BIWAK).**
+
+**Lesart, keine Verwechslung mit Schweregrad:** Die Stufe ist eine **Haeufigkeits-**, keine
+**Schweregrad-Metrik**. Befund 11 (explizite Vorgaben als K.-o.) hat unter allen 12 Befunden die
+haerteste Sanktionsform — Ausschluss, nicht Punktabzug — und steht dennoch in Stufe C, weil er
+bislang nur in einem einzigen Verfahren beobachtet ist. "Fast nie" heisst hier: bisher nicht
+wiederholt belegt, nicht: selten folgenreich, wenn er zutrifft.
+
+**Fuer den Skill `wettbewerb` / Agenten `programm-pruefer`:** Die Pruefreihenfolge sollte der
+Stufe folgen, nicht der Befund-Nummerierung — zuerst Betrieb-/Nutzerlogik-Check (Stufe A), dann
+Kennwert-/Terrain-/Bestandseingriffs-Checks (Stufe B), zuletzt die Einzelbeleg-Checks aus Stufe C
+als Kuer, mit dem ausdruecklichen Vermerk, dass sie (noch) nicht mehrfach bestaetigt sind.
 
 ## Befund 1 — Die JANS-Staerken sind konstant: Setzung und konstruktive Klarheit
 
@@ -364,3 +415,8 @@ Dritterschliessung).
 - Die Rang-Diskrepanzen 2102/2206 (Raphaels Erinnerung «2. Platz» vs. belegtem
   4./3. Rang) sind gemaess `outputs/2026-07-12_rang-klaerung-2102-2206.md` geklaert
   und aendern an den Delta-Befunden nichts.
+- **V3-Verdichtung (23.08.2026):** die Priorisierung oben zaehlt Verfahren, nicht Zitate — ein
+  Befund mit 2 Verfahren-Belegen kann trotzdem mehr Einzelzitate tragen als einer mit 3, wenn
+  ein Verfahren besonders ausfuehrlich dokumentiert ist (z.B. BIWAK/2408 nach Etappe-4-Lauf 01).
+  Die Zaehlung misst bewusst **Verfahrensbreite**, nicht Textmenge. Waechst automatisch, sobald
+  ein achtes Verfahren mit Jury-Delta hinzukommt (2501 Steinfabrik weiterhin ausstehend).

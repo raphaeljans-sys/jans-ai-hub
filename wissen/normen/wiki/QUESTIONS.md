@@ -1,5 +1,76 @@
 # Offene Fragen — KB Normen
 
+## SIA-Sweep, interaktive Session (23.08.2026) — 65 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
+
+**Auftrag:** die im REGISTER.md, Abschnitt A geführten SIA-Zeilen ohne Datei im Haus
+("Blindzone") abarbeiten — Produktdatenblätter mit gültig-ab/gültig-bis beschaffen (nur die
+frei zugängliche Shop-Metadatenseite, **kein Kauf**), Register nachführen. 66 aktive Zeilen
+identifiziert (Gültig-2013-Spalte ≠ «—», Bestand-Abgleich-Spalte leer).
+
+**13 Zeilen intern gelöst** — Bestandsangaben lagen bereits an anderer Stelle im Register
+(Merkblatt-Tabelle Run 16, Run-5-Präzisierungen), waren aber nie in Abschnitt A gespiegelt:
+SIA 282, 380/1, 382/1, 2003, 2006, 2014, 2015, 2017, 2018, 2022, 2023, 2026, 2040. Kein neuer
+Beleg nötig, reiner internal-consistency-Fix.
+
+**N52-5 GESCHLOSSEN.** Für SIA 242 und SIA 274 lagen zuvor keine Shop-Metadaten vor. Jetzt
+belegt: SIA 242:2012 ist weiterhin aktuell (kein Beschaffungsdruck bzgl. Aktualität, Volltext
+bleibt Bring-Schuld); SIA 274:2010 ist archiviert seit 31.10.2021, ersetzt durch SIA 274:2021.
+
+**52 Zeilen extern recherchiert** (shop.sia.ch Produktseite, WebSearch+WebFetch, abgerufen
+23.08.2026, sechs parallele Recherche-Läufe). Ergebnis in `wiki/REGISTER.md`, Abschnitt A,
+je Zeile mit Quelle. Verteilung:
+
+- **25 Normen weiterhin aktuell** auf der 2013-gültigen Ausgabe (kein Aktualitätsproblem,
+  Volltext bleibt Bring-Schuld): SIA 113, 118/232, 118/240, 118/242, 118/251, 118/252,
+  118/318, 118/331, 118/342, 118/343, 118/380, 122, 124, 205, 242, 269, 269/1, 269/3, 269/4,
+  269/5, 269/7, 283, 2007, 2028, 2029.
+- **23 Normen archiviert, Nachfolgenorm benannt** (neue Bring-Schuld: Beschaffung der
+  aktuellen Ausgabe, Raphael/SIA-Shop, Claude tätigt keine Käufe): SIA 106, 118/222, 118/243,
+  118/253, 118/329, 118/370, 123, 190, 243, 269/2, 274, 284, 384/1, 384/6, 2001, 2016, 2031,
+  2035, 2036, 2039, 2042, 2044, 2045. Details je Norm (Gültig-bis-Datum, Nachfolgenorm) in
+  REGISTER.md Abschnitt A.
+- **4 Normen archiviert, KEIN Nachfolger auf der Produktseite genannt** — echte offene Fragen,
+  siehe unten (N-SIASWEEP-1 bis -3).
+
+### N-SIASWEEP-1 — SIA 381/3 «Heizgradtage der Schweiz» archiviert seit 03.03.2015, kein Nachfolger benannt
+
+Produktseite (SN 565381/3) nennt kein Nachfolgeprodukt. Vermutung (nicht belegt): die
+Heizgradtage sind in SIA 2028 «Klimadaten für Bauphysik, Energie- und Gebäudetechnik»
+aufgegangen (dort Korrigenda bis 2023 aktiv, thematisch angrenzend) — am Original nicht
+geprüft. Nächster Schritt: SIA 2028 (falls beschafft) auf ein Heizgradtage-Kapitel prüfen,
+oder direkt beim SIA nachfragen.
+
+### N-SIASWEEP-2 — SIA 422 «Bauzonenkapazität» archiviert seit 31.12.2024, kein Nachfolger benannt
+
+Produktseite (SN 513422) nennt kein Nachfolgeprodukt — möglich, dass die Norm ersatzlos
+zurückgezogen wurde (Bauzonendimensionierung ist zunehmend kantonales/RPG-Recht statt
+SIA-Norm). Relevant für `machbarkeit`/`baurecht`, falls dort zitiert. Nicht weiter verfolgt.
+
+### N-SIASWEEP-3 — SIA 2021 (Glasanteil) und SIA 2025 (Begriffe Bauphysik) archiviert, kein Nachfolger auf der Produktseite
+
+SIA 2021 «Gebäude mit hohem Glasanteil»: archiviert seit 30.11.2017; eine externe
+Sekundärquelle (espazium.ch/SIA-Fachinfo) deutet auf teilweise Integration in eine Wegleitung
+zu SIA 180:2014 hin — **nicht am Original verifiziert**, nicht ohne Gegenprüfung zitieren.
+SIA 2025 «Begriffe in Bauphysik, Energie- und Gebäudetechnik»: archiviert seit 31.12.2023,
+gar kein Hinweis auf eine Nachfolgeregelung gefunden.
+
+### N-SIASWEEP-4 — GEO405-Familie: SIA 2016 UND SIA 2045 nennen beide SIA 405:2025 als Nachfolgenorm
+
+Zwei unabhängig recherchierte Zeilen (SIA 2016 «Datenmodelle Ver-/Entsorgungsleitungen» und
+SIA 2045 «Geodienste») führen beide **SIA 405:2025** als Nachfolgenorm. Vermutung: SIA 405:2025
+konsolidiert die gesamte GEO405-Familie (alte SIA 405:1998/2012 Leitungskataster im Haus + die
+Merkblätter SIA 2015/2016 + SIA 2045) in einer einzigen neuen Norm. **Nicht am Original
+verifiziert** — bei Beschaffung von SIA 405:2025 als erstes prüfen, ob sie tatsächlich alle drei
+Vorgänger ersetzt oder nur zwei von dreien.
+
+**Nicht geleistet:** kein Volltext wurde gekauft oder gelesen — alle Aussagen oben sind
+Metadaten der freien Shop-Produktseite. Destillate wurden bewusst NICHT angelegt (kein Inhalt
+zum Destillieren ohne den Volltext); die Register-Zeile selbst trägt die Fundstelle. Nächster
+Schritt bei Bedarf: gezielte Beschaffung einzelner Normen aus der 23er-Liste oben, priorisiert
+nach Projektbedarf.
+
+---
+
 ## Normen-Lauf Run 58 (20.08.2026) — VKF-Fassungs-Sweep: N27-1 geschlossen, 23 Destillate überholt
 
 **N27-1 — GESCHLOSSEN.** Der seit Run 27 (06.08.2026) offene Auftrag «VKF-Publikationsindex

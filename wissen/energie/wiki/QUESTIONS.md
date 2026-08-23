@@ -30,7 +30,7 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
 ## 2026-08-05 (Cross-KB-Lauf Run 26) — KB-interner Defekt zwischen Wiki und eigenem Destillat
 
-- [ ] **E-R26-1 (P2): `wiki/oekologische-materialvorgaben-beschaffung.md` ist gegenüber den
+- [x] **E-R26-1 (P2): `wiki/oekologische-materialvorgaben-beschaffung.md` ist gegenüber den
   eigenen ecoBKP-2026-Destillaten überholt und trägt eine bereits korrigierte Positionsliste.**
   Zwei Stellen im Artikel, aufzuräumen vom energie-Loop (der Cross-KB-Lauf hat den Artikel
   bewusst nicht angefasst):
@@ -45,6 +45,12 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
     215, 222, 224, 226, 228, 230, 240, 244, 258, 271, 272, 273, 276, 281, 282, 283, 421 — und
     der Quellbegriff lautet «Wiederverwendung von Bauteilen», nicht «Rückbaubarkeit/
     Reversibilität». 213, 216 und 250 gehören nicht dazu, zehn weitere fehlen.
+  ✓ **ERLEDIGT 23.08.2026:** Beide Stellen in `wiki/oekologische-materialvorgaben-beschaffung.md`
+  korrigiert — Abschnitt «Aktualität» führt jetzt die belegten 18 Positionen und den Quellbegriff
+  «Wiederverwendung von Bauteilen» (Beleg CHANGELOG Run 124/05.08.2026 und
+  `[[ecobkp-2026-methodik-und-uebersicht]]` Z. 47-49); der Offene-Punkte-Eintrag zur
+  ecoBKP-2026-Destillation ist als erledigt markiert (sechs Destillate `ecobkp-2026-*.md`
+  existieren seit 05.08.2026). Frontmatter `last_updated` nachgeführt.
   **Warum das zählt:** Der Defekt liegt KB-intern zwischen Wiki und eigenem Destillat, also
   genau dort, wo ein Leser ihn nicht vermutet — der Artikel schickt zu einer Beschaffung, die
   bereits erledigt ist, und führt eine Liste, die der eigene Lauf schon widerlegt hat. Nach
@@ -3304,7 +3310,7 @@ durchfuehrbar.
   eigenes Destillat bestand bereits (`[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]`, Run 123);
   Run 132 hat es nicht gefunden und die Quelle ein zweites Mal gelesen. Ursprünglicher
   Wortlaut zur Nachvollziehbarkeit:
-- [ ] **E-R131-1 (P3): Dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006) gegen
+- [x] **E-R131-1 (P3): Dangling-Link `ahb-zuerich-massstaebe-nachhaltiges-bauen` (Mai 2006) gegen
   das neue Destillat `[[stadt-zuerich-7-meilenschritte-nachhaltiges-bauen]]` (StRB 1094/2008)
   abgleichen.** `[[oekologische-materialvorgaben-beschaffung]]` führt in seinen `sources` einen
   Eintrag mit demselben Titel «Massstäbe für Umwelt- und energiegerechtes Bauen», aber Datum
@@ -3313,6 +3319,13 @@ durchfuehrbar.
   beschaffung.md` auf das neue Destillat umbiegen) oder tatsächlich eine frühere, nie
   eingelesene Mai-2006-Fassung (dann im PL-02-Bestand gezielt danach suchen). Nicht spekulativ
   aufgelöst, kleiner Umfang, für einen künftigen Lauf.
+  ✓ **Nachgetragen 23.08.2026: bereits erledigt, nur die Checkbox war stehen geblieben.** Die
+  Antwort steht direkt oberhalb dieses Eintrags («ERLEDIGT 14.08.2026, Run 132/Wissens-Chef Run
+  32»): die Mai-2006-Fassung existiert als eigene Datei und ist seit 04.08.2026 destilliert
+  (`[[ahb-zuerich-massstaebe-nachhaltiges-bauen]]`), der Quellverweis in
+  `oekologische-materialvorgaben-beschaffung.md` ist korrekt (Abschnitt «Der Quellverweis auf die
+  Mai-2006-Fassung ist korrekt und belegt»), kein Zitierfehler. Dieser Wortlaut blieb «zur
+  Nachvollziehbarkeit» stehen und wurde dabei versehentlich nie auf `[x]` gesetzt.
 
 - [x] **ERLEDIGT 14.08.2026 (Run 132), bis auf einen Rest.** Vier der fünf Quellen sind
   destilliert (Solarstromanlagen, Topten-Haushaltgeräte, Devis-/Baustellenkontrolle gemeinsam,
@@ -3590,7 +3603,7 @@ durchfuehrbar.
   Takt-Entscheid ist damit nicht hinfällig, aber er ist nicht mehr dringend** — es gibt wieder
   Material, und zwar aus dem Kernordner der Task.
 
-- [ ] **E-R149-1 (P2): elf PL-04-Positionen offen, davon eine mit echtem Kennwert-Potenzial.**
+- [x] **E-R149-1 (P2): elf PL-04-Positionen offen, davon eine mit echtem Kennwert-Potenzial.**
   Zehn davon sind Pläne und hashbenannte Restdateien der Projektmappe «Maison Climat» und in
   einem Block mit einer Sichtung zu entscheiden. Die elfte ist es nicht:
   `Solaranlage/solarapp.ch/Willerzell/2024-01-09 Belegungsplan Version 1.pdf` gehört zu einem
@@ -3599,6 +3612,9 @@ durchfuehrbar.
   SharePoint-Ordner ein zugehöriger **SolarReport** liegt (im Basler Fall gab es Report und
   Belegungsplan als Paar). Fände sich einer, wäre er die aktuellere und für SZ einschlägige
   Kennwertquelle und könnte den Basler Fall als Leitbeispiel ablösen.
+  ✓ **Nachgetragen 23.08.2026: bereits erledigt, siehe «Run 150» weiter unten (Z. 3692).** Der
+  SolarReport existiert und stand bereits seit 19.06.2026 destilliert in
+  `[[pv-ertrag-eigenverbrauch-praxis]]` («Beispiel A»); die Checkbox blieb stehen geblieben.
 
 - [x] **E-R149-2 ZURÜCKGEZOGEN am selben Tag — der Punkt beruhte auf einem Prüffehler meinerseits,
   und die Lehre daraus ist wertvoller als der Punkt es gewesen wäre.** Die EIV-Tariftabelle **ist**
@@ -3627,7 +3643,7 @@ durchfuehrbar.
   eine Bauherrschaft regelmässig konkret wissen will, und die kursierende Faustregel «20 bis
   30 % der Investition» stammt aus einem Anbieter-Glossar von 2022.
 
-- [ ] **E-R149-3 (P2): der Neigungseffekt bei Ost-West fehlt in F26 — das neue Fallbeispiel liegt
+- [x] **E-R149-3 (P2): der Neigungseffekt bei Ost-West fehlt in F26 — das neue Fallbeispiel liegt
   unter dem dortigen Richtwert, und zwar aus einem nachvollziehbaren Grund.** ⚠ Die zunächst in
   diesem Lauf notierte Fassung dieses Punktes («kein CH-Beleg für das Verhältnis Ost-West zu
   Süd») war **falsch** und ist hier korrigiert: die KB führt seit längerem CH-Richtwerte in
@@ -3645,6 +3661,9 @@ durchfuehrbar.
   **Näherung**, weil der Richtwert ein CH-Mittel und kein Basler Standortwert ist; sauber
   nachrechnen liesse er sich mit dem in diesem Lauf destillierten
   `[[tachion-solarrechner-energieschweiz]]`, der Ausrichtung und Neigung als Parameter führt.
+  ✓ **Nachgetragen 23.08.2026: bereits erledigt, siehe «Run 150» weiter unten (Z. 3702).** F26 und
+  der Themenartikel `pv-solar-technologien` führen die Neigungsdifferenzierung inzwischen in der
+  Tabelle (flach ~15° = 90-95 %, steil 45° = ~83-85 %); die Checkbox blieb stehen geblieben.
 
 - [ ] **E-R149-4 (P2, Betrieb): die Voraussetzungszeile der Task ist weiterhin sachlich falsch —
   Vorschlag liegt jetzt im Wortlaut vor.** Seit Run 129 gemeldet, seither in jedem Lauf

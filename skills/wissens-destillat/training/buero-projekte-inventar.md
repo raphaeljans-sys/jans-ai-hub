@@ -108,34 +108,34 @@ Status je Datei: `[ ]` offen · `[t]` triagiert (Phase 1) · `[x]` destilliert (
 | [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
 | [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Baugesuch_Technik_Formular_leer.pdf | projekt-lessons | P2 · Baueingabe |
 | [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Baueingabe/Merkblatt_Baueingabe.pdf | projekt-lessons | P2 · Baueingabe |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstock_Baugesuch_Kostenaufstellung_Kontakte_Okt2003.pdf | projekt-lessons | |
+| [t] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstock_Baugesuch_Kostenaufstellung_Kontakte_Okt2003.pdf | projekt-lessons | P1 · Dachstock-Kostenaufstellung |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Dachstock/Dachstocksanierung_Pläne_Oktober2003.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos_Okt08.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110416_Maria_Grundrisse/Dachstock_Plan_16.04.11.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/out/100903_hello_maria.docx | projekt-lessons | |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos_Okt08.pdf | projekt-lessons | Reine Bildablage |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110413_Fotos_Dachstock/PDF_Dachstock_Fotos.pdf | projekt-lessons | Duplikat Bildablage |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/in/110416_Maria_Grundrisse/Dachstock_Plan_16.04.11.pdf | projekt-lessons | Reine Planzeichnung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/out/100903_hello_maria.docx | projekt-lessons | Triviale private Nachricht |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Jans_Maria/out/100920_ich kann mir vorstellen was du auf der skizze terrasse darstellen möchtest.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1437_Ansicht_Sandstein.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1500_Grundriss_1OG_100.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1505_SN_Wohnen_100.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110113_Schnitt.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/13_Recherche/Glasbaustein/100829_Brandverhalten_von_Baustoffen_und_Bauteilen.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/13_Recherche/Glasbaustein/Brandverhalten von Baustoffen und Bauteilen.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/00_Zusammenstellung/110407_Zusammenfassung.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/03_Zuerich/Inhalt_2008_2010.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/04_hotel_waldhaus_sils_maria/PDF/110112_Hotel_Waldhaus_Sils_Maria.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/04_hotel_waldhaus_sils_maria/word_pb/110112_Hotel_Waldhaus_Sils_Maria.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/13_Londeoner_Expressionismus/zusammenfassung.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/20_Dorfbachweg_5_Zuerich/511607.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/godzilla_04.html — archimaera.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/http.docx | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Kaufmann_Herrmann/Architekten Hermann Kaufmann ZT GmbH.pdf | projekt-lessons | |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1437_Ansicht_Sandstein.pdf | projekt-lessons | Reine Planzeichnung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1500_Grundriss_1OG_100.pdf | projekt-lessons | Reine Planzeichnung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110112_1505_SN_Wohnen_100.pdf | projekt-lessons | Reine Planzeichnung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/12_Schriftverkehr/Kotnik_Toni/out/110113_Stand/110113_Schnitt.pdf | projekt-lessons | Reine Planzeichnung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/13_Recherche/Glasbaustein/100829_Brandverhalten_von_Baustoffen_und_Bauteilen.pdf | projekt-lessons | Generisches Norm-Referenzmaterial |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/13_Recherche/Glasbaustein/Brandverhalten von Baustoffen und Bauteilen.docx | projekt-lessons | Duplikat Norm-Referenz |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/00_Zusammenstellung/110407_Zusammenfassung.pdf | projekt-lessons | Generische Referenzzusammenfassung |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/03_Zuerich/Inhalt_2008_2010.pdf | projekt-lessons | Referenzindex |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/04_hotel_waldhaus_sils_maria/PDF/110112_Hotel_Waldhaus_Sils_Maria.pdf | projekt-lessons | Architektur-Referenzobjekt |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/04_hotel_waldhaus_sils_maria/word_pb/110112_Hotel_Waldhaus_Sils_Maria.docx | projekt-lessons | Duplikat Referenzobjekt |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/13_Londeoner_Expressionismus/zusammenfassung.pdf | projekt-lessons | Kunsthistorisches Referenzmaterial |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/20_Dorfbachweg_5_Zuerich/511607.pdf | projekt-lessons | Referenzobjekt-Grundbuch |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/godzilla_04.html — archimaera.pdf | projekt-lessons | Verwaistes Referenzmaterial |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/http.docx | projekt-lessons | URL-Datei Boilerplate |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Kaufmann_Herrmann/Architekten Hermann Kaufmann ZT GmbH.pdf | projekt-lessons | Architektur-Referenzobjekt |
 | [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/SAGEN.at - BRAUCHTUM UND VOLKSKULTUR IN TIROL, Schöpferisches Gestalten, Kunst, Schnitzer, Handarbeiten.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-045.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-047.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-054.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-060.pdf | projekt-lessons | |
-| [ ] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-084.pdf | projekt-lessons | |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-045.pdf | projekt-lessons | Hersteller-Referenzobjekte |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-047.pdf | projekt-lessons | Duplikat Referenzobjekt |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-054.pdf | projekt-lessons | Referenzobjekt-Variante |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-060.pdf | projekt-lessons | Referenzobjekt-Variante |
+| [-] | 1011_Lorrainestr_4 | 1011_Lorrainestr_4/15_Referenzen/Velux_Award/VELUX_Referenzobjekt_F-084.pdf | projekt-lessons | Referenzobjekt-Variante |
 | [ ] | 1012_Ardez | 1012_Ardez/00_Grundlagen/00_Projekthandbuch/00_Organigramm/01_Extern/Gemeinde_Thalwil.pdf | projekt-lessons | |
 | [ ] | 1012_Ardez | 1012_Ardez/00_Grundlagen/00_Projekthandbuch/01_Adressen/PDF/091205_Eberle.pdf | projekt-lessons | |
 | [ ] | 1012_Ardez | 1012_Ardez/00_Grundlagen/00_Projekthandbuch/01_Adressen/PDF/091206_Tel_DLZ_PBV_Thalwil.pdf | projekt-lessons | |

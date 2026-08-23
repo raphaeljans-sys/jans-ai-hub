@@ -1,3 +1,30 @@
+## 2026-08-23 — SIA-Sweep (interaktive Session): 66 Blindzone-Zeilen abgearbeitet, N52-5 geschlossen
+
+**Auftrag Raphael:** die im REGISTER.md, Abschnitt A geführten SIA-Zeilen ohne Datei im Haus
+abarbeiten — Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen.
+
+**13 Zeilen intern gelöst** (SIA 282, 380/1, 382/1, 2003, 2006, 2014, 2015, 2017, 2018, 2022,
+2023, 2026, 2040): Bestandsangaben lagen bereits an anderer Stelle im Register (Merkblatt-
+Tabelle Run 16, Run-5-Präzisierungen), waren nie in Abschnitt A gespiegelt — reiner
+Konsistenz-Fix, kein neuer Beleg nötig.
+
+**52 Zeilen extern recherchiert** über sechs parallele Recherche-Läufe (shop.sia.ch
+Produktseite, frei zugänglich, **kein Kauf**, abgerufen 23.08.2026): 25 weiterhin aktuell auf
+der 2013-gültigen Ausgabe, 23 archiviert mit benannter Nachfolgenorm (neue Bring-Schulden für
+Raphael), 4 archiviert ohne benannten Nachfolger (offene Fragen N-SIASWEEP-1 bis -4,
+`wiki/QUESTIONS.md`). **N52-5 geschlossen** (SIA 242/274-Beschaffungsposten). Auffälligster
+Nebenbefund: SIA 2016 und SIA 2045 nennen unabhängig dieselbe Nachfolgenorm SIA 405:2025 —
+mögliche Konsolidierung der GEO405-Familie (N-SIASWEEP-4, nicht am Original verifiziert).
+
+**Keine Destillate angelegt** — für reine Shop-Metadaten (ohne Volltext) gibt es nichts zu
+destillieren; die Fundstelle steht direkt in der Register-Zeile, wie bei den Präzedenzfällen
+SIA 493 und SIA 380/2 (Run 25 bzw. Run 29). Kein Kauf getätigt (Bring-Schuld bleibt bei
+Raphael, Rule `normen-referenz`/`wege-und-vollmachten`).
+
+Report: `outputs/2026-08-23_sia-sweep-blindzone.md`.
+
+---
+
 ## 2026-08-23 — Run 60: der VKF-Jahrgang 2017 vollstaendig, plus drei Befunde in der KB selbst
 
 **Der Vorrang-Auftrag N58-1 ist bis auf drei Sonderfaelle erledigt.** Sechzehn Fassungspaare

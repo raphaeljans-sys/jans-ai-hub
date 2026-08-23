@@ -1,7 +1,7 @@
 ---
 title: "Ökologische Materialvorgaben — von der Absicht zur gebauten Leistung"
 status: emerging
-last_updated: "2026-08-20 (Run 146: zwei neue Quellen zu Materiallebenszyklus verlinkt — Bodenbeläge-Vergleich, Recyclingprodukte-Rangordnung; zuvor 2026-08-16 Run 137 Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
+last_updated: "2026-08-23 (E-R26-1 geschlossen: 11er-Positionsliste/Begriff «Rückbaubarkeit und Reversibilität» in Abschnitt «Aktualität» auf die am Original belegten 18 Positionen/«Wiederverwendung von Bauteilen» korrigiert, veralteten Offene-Punkte-Eintrag zur ecoBKP-2026-Destillation als erledigt markiert; zuvor 2026-08-20 Run 146: zwei neue Quellen zu Materiallebenszyklus verlinkt — Bodenbeläge-Vergleich, Recyclingprodukte-Rangordnung; 2026-08-16 Run 137 Editionskette 09/2006 → 2008 → 2009 → 2026 belegt, Impressum-Datumsfalle aufgeloest, Fensterrahmen-Abwertung PVC datiert; 2026-08-14 Run 132 Vertragsstufe Werkleistungen, Mai-2006-Quellverweis verifiziert; 2026-08-11 Run 123 neu angelegt, Wissens-Chef Run 25 Vertragshierarchie SIA 118, Run 126 Recyclingbeton-Nomenklatur)"
 sources:
   - "[[ecobkp-editionskette-2006-2009]] — Editions-Abgleich der drei Altausgaben 09/2006, 2008 und 2009 desselben Werks (Run 137)"
   - "[[ecobkp-2009-merkblaetter-nach-bkp]] — Verein eco-bau c/o KBOB, «ECO-BKP 2009», Ausgabe 2009, 51 S. vollständig gelesen"
@@ -185,8 +185,14 @@ selbst lebt jedoch weiter und wird **jährlich fortgeschrieben**: Aktuell ist **
 
 - Sämtliche **Materialempfehlungen** wurden auf die Methodik **«Baumaterialien ecobau 2025»**
   umgestellt.
-- In der Ausgabe 2026 kamen Empfehlungen zu **Rückbaubarkeit und Reversibilität** neu hinzu
-  (ecoBKP 213, 214, 215, 216, 228, 230, 240, 244, 250, 258, 273).
+- In der Ausgabe 2026 kamen Empfehlungen zur **Wiederverwendung von Bauteilen** neu hinzu
+  (ecoBKP 214, 215, 222, 224, 226, 228, 230, 240, 244, 258, 271, 272, 273, 276, 281, 282, 283,
+  421; korrigiert 23.08.2026, schliesst E-R26-1 — die zuvor hier geführte 11er-Liste 213, 214,
+  215, 216, 228, 230, 240, 244, 250, 258, 273 und der Begriff «Rückbaubarkeit und Reversibilität»
+  waren falsch. Am Original (S. III, «Neuerungen auf einen Blick») sind es 18 Positionen mit dem
+  Quellbegriff «Wiederverwendung von Bauteilen»; 213, 216 und 250 gehören nicht dazu. Ursache war
+  eine Web-Suchzusammenfassung statt das Originaldokument, siehe CHANGELOG Run 124/05.08.2026 und
+  `[[ecobkp-2026-methodik-und-uebersicht]]`).
 
 Damit gilt: Die **Systematik und die Vier-Stationen-Mechanik dieses Artikels sind übertragbar**,
 die **konkreten Materialurteile der Ausgabe 2008 sind es nicht**. Der Begriff «ökologisch» hat
@@ -277,9 +283,10 @@ Anschluss an die JANS-Skills: `ausschreibung` (LV-Positionen, Devis), `werkvertr
 
 ## Offene Punkte
 
-- Der **konkrete Inhalt der ecoBKP-Ausgabe 2026** ist noch nicht destilliert — die KB kennt
-  bislang nur die Ausgabe 2008. Das ist die naheliegendste Aufwertung dieses Artikels
-  (öffentlich verfügbares PDF auf ecobau.ch).
+- ✓ **Erledigt 23.08.2026 (schliesst E-R26-1):** Der konkrete Inhalt der ecoBKP-Ausgabe 2026 ist
+  seit dem 05.08.2026 destilliert — sechs Destillate `ecobkp-2026-*.md` (Methodik/Übersicht,
+  Tragwerk und Rohbau, Gebäudehülle, Gebäudetechnik, Ausbau, Baureinigung/Umgebung/Erschliessung).
+  Der Abschnitt «Aktualität» und die Recyclingbeton-Tabelle oben nutzen sie bereits.
 - Der **Nachfolgeweg für SIA 493** (Deklaration ökologischer Merkmale) ist ungeklärt; EPD nach
   EN 15804+A2 / KBOB-Ökobilanzdaten ist nur sekundärquellengestützt und hier bewusst nicht als
   Tatsache gesetzt.
