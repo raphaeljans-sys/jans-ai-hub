@@ -1,3 +1,77 @@
+## 2026-08-23 — SIA-Sweep, fünfzehnte Fortsetzung: SIA 2024:2021 erstmals direkt am Herausgeber verifiziert, neue Korrigenda C2 entdeckt
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register
+nachführen, Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen. `ps aux` zu Laufbeginn geprüft: ein
+`claude`-Prozess mit demselben Startprompt (PID 34776) ist dieser Lauf selbst (headless
+Invocation über die Desktop-App), kein Konkurrent.
+
+**Vorlauf gelesen:** dieser CHANGELOG (Kopf zu Laufbeginn: QUESTIONS-Abarbeitung 11, davor die
+vierzehnte SIA-Sweep-Fortsetzung) und `outputs/2026-08-23_sia-sweep-vierzehnte-fortsetzung.md`.
+Der elfte QUESTIONS-Lauf hatte kurz zuvor einen vollständigen Scan von `wiki/QUESTIONS.md`
+gefahren und ausdrücklich empfohlen, diesen Scan nicht zu wiederholen — die vier verbliebenen
+Klassen (Bezahlschranke, Raphael-Entscheid, Systemaudit-Projekte, Erschöpfungslogik) seien nicht
+durch weitere freie Recherche lösbar. Diese Empfehlung betrifft die QUESTIONS-Abarbeitung, nicht
+den hier verlangten SIA-Sweep; darum stattdessen mit der Methode der vierzehnten Fortsetzung
+weitergesucht: systematischer Marker-Abgleich aller 266 SIA-Zeilen in Abschnitt A gegen die
+Fundstellen-Wörter, die eine echte Direktprüfung anzeigen (`shop.sia.ch`, `Produktseite`,
+`Bestand`, `zurückgezogen`, `connect.snv.ch`, `ersetzte_normen.pdf`, `am Original`,
+`Titelblatt`). Python-Skript gegen `wiki/REGISTER.md` (140-431) gefahren: **eine einzige Zeile**
+ohne einen dieser Marker — **SIA 2024**.
+
+**Befund am Original.** Die Zeile SIA 2024 trug seit dem 14.07.2026 (Wissens-Chef Run 4) nur
+eine **Sekundärquellen-Meldung** aus der KB `energie` («neuere Ausgabe SIA 2024:2021 … Quelle
+SIA-Shop»), nie einen eigenen Abruf der SIA-Produktseite durch `normen`. Direktprüfung
+23.08.2026: `shop.sia.ch/normenwerk/architekt/sia%202024/d/2021/D/Product` (SN 592024), per
+WebFetch abgerufen — «Raumnutzungsdaten für die Energie- und Gebäudetechnik», **gültig ab
+01.12.2021**, 80 S., 130.00 CHF, ersetzt Ausgabe 2015 (gültig bis 30.11.2021). Das bisher nur
+gemeldete Datum ist damit bestätigt.
+
+**Neuer Fund: zweite Korrigenda C2, bisher unbekannt.** Die Produktseite führt «Revision 2»
+(Stand 01.06.2025) sowie zwei Korrigenda-Downloads, **C1 und C2** — in dieser KB und in
+`energie` war bisher nur Korrigenda C1:2024 bekannt (Grundlagenbericht
+`cms.sia.ch/de/api/getMedia/941`). Datum und materieller Inhalt von C2 sind auf der Produktseite
+nicht ausgewiesen (kein Datum im Linktext, Wortlaut hinter Bezahlschranke) — neue Bring-Schuld
+in `wiki/QUESTIONS.md` festgehalten: vor jeder künftigen Verwendung der Kat.-VIII-
+Elektrizitätskennzahlen (Ziff. 4.2.1/4.2.3) aus `energie` prüfen, ob C2 diese betrifft.
+
+**Nebenbefund: toter Backlink korrigiert.** Die Register-Zeile verlinkte weiterhin
+`destillate/sia-2024-nutzungsdaten-gesundheitsbau` in der KB `energie` — diese Datei wurde dort
+bereits am 26.07.2026 in `sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` eingemergt
+(Quelldatei gelöscht laut `energie`-Frontmatter `merge_historie`). In der Register-Zeile auf den
+aktuellen Dateinamen korrigiert.
+
+**Neues Destillat** `destillate/sia-2024-2021.md` (status `speculative`, nur Metadaten
+verifiziert, Volltext inkl. Anhang A/F weiterhin nicht im Haus) nach dem Muster von
+`sia-2032.md` — begründet, weil die Norm bereits inhaltlich in `energie` referenziert wird
+(Analogiefall SIA 2032). `destillate/INDEX.md` nachgeführt.
+
+Nachgeführt: `wiki/REGISTER.md` (Zeile SIA 2024), `wiki/QUESTIONS.md` (additiver Nachtrag beim
+bestehenden Punkt «Nachfolgeausgaben nicht ermittelbar», Ursprungswortlaut unangetastet),
+`destillate/sia-2024-2021.md` (neu), `destillate/INDEX.md` (neue Zeile).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md`
+1/1 (reiner Zeilenersatz, ausschliesslich die eigene SIA-2024-Zeile), `wiki/QUESTIONS.md` 9/0
+(rein additiv, exakt die eigene Einfügung), `destillate/INDEX.md` 1/0 (reine Neuzeile),
+`destillate/sia-2024-2021.md` als `??` (echte Neuanlage, kein Fremdanteil möglich). Kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:** Kein Volltext von SIA 2024:2021 gekauft (CHF 130,
+inkl. Anhang A/F) — bleibt Beschaffungs-Bring-Schuld Raphael. Korrigenda C1:2024 und C2 weder
+am Wortlaut gelesen; C2-Datum ungeklärt. Die drei bereits mehrfach erschöpften Sweep-Zweige
+(N-SIASWEEP-2/3, Blindzone, Register-Vervollständigung) erneut nicht angegangen — dafür bestand
+nach dem Marker-Abgleich kein neuer Ansatzpunkt. Keine weitere SIA-Zeile in Abschnitt A ohne
+Direktprüfungs-Marker gefunden; für die nächste Fortsetzung bleibt kein bekannter,
+selbständig lösbarer SIA-Sweep-Kandidat aus dieser Methode übrig. Eigene, klar abgegrenzte
+Alternativ-Aufträge (N58-1 Abdeckungsrichtung, N58-4 Restindex VKF-Fassungsmatrix) liegen
+ausserhalb des SIA-Sweep-Scopes und wurden hier nicht begonnen, wie vom elften Lauf empfohlen.
+
+Report: `outputs/2026-08-23_sia-sweep-fuenfzehnte-fortsetzung.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 11: Verifikationslauf, kein neuer selbständig lösbarer Punkt gefunden
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
