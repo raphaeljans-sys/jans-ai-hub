@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 18:03:25
+Stand: 23.08.2026 18:13:41
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:37)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 18:03:25
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f2225788 wissen/normen: QUESTIONS-Abarbeitung 23.08. - E_vm-Divergenz SIA 2056/387-4, BRL 17-15 Technikraum-Begriff, VKF 40-15 Kap. 2.17 geschlossen (M365-Graph-Zugang zu SharePoint-Originalen)
+- 83770637 abo-check 23.08. Nachtrag: nas-commit-now.sh ohne LAN-Fallback, Tailscale gestoppt — Zuruf-Commits fallen im LAN still in den 15-Min-Cron

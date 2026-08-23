@@ -1,3 +1,42 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung, zweiter Lauf: BRL-17-15-Querverweis geschlossen, NIN-Sackgasse dokumentiert, BRL-13-15-Duplikat bewusst nicht entschieden
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus vor Zitat lesen. Vorlauf gelesen:
+CHANGELOG (Eintrag darunter) und `outputs/2026-08-23_questions-abarbeitung.md`.
+
+**1. Eintrag 260823 «VKF BRL 17-15: Naechster Schritt» — GESCHLOSSEN.** Der als offen
+geführte Rest (gegenseitige Verlinkung `vkf-brl-10-15-fassung-2019-delta.md` ↔
+`vkf-brl-17-15-fassung-2017-delta.md`, Prüfung ob die 2019er-Begriffsdefinition
+rückwirkend auf die 2017er-Tabelle wirkt) war bereits inhaltlich erledigt, nur nicht
+nachgezogen. «Verkaufsräume» ist kein 2019er-, sondern ein 2016/2017er-Begriff (IOTH-
+Beschluss 22.09.2016, derselbe Beschluss wie die BRL-17-15-Tabellenänderung) — keine
+Rückwirkungsfrage, sondern zeitgleicher Vollzug einer Definition. Rückverlinkung ergänzt
+(`vkf-brl-10-15-fassung-2019-delta.md` Frontmatter + erklärender Querverweis-Absatz nach
+der Sechs-Begriffe-Tabelle), `QUESTIONS.md` mit Schliessungsbox versehen.
+
+**2. Eintrag 260731 (NIN Geschirrspüler-Stromkreis) — weiterhin offen, zweiter
+Recherche-Anlauf dokumentiert.** Vier `WebSearch`-Anfragen + zwei `WebFetch`-Versuche
+(Electrosuisse-PDF `nin_kh_53.pdf` → HTTP 404; freie FAQ-Sammlung `mueller-pe.ch/
+nin_fragen.php` → durchsucht, kein Treffer). Echte Sackgasse: der Normtext liegt hinter
+der kostenpflichtigen `ninonline.electrosuisse.ch`-Anmeldung, frei zugängliche
+Sekundärquellen behandeln die Detailfrage nicht. In `QUESTIONS.md` vermerkt, damit ein
+künftiger Lauf dieselben Quellen nicht erneut abklappert.
+
+**3. Eintrag 260823 (BRL-13-15-Duplikat) — geprüft, bewusst NICHT konsolidiert.**
+Inline-Delta (Run 23, `established`, adversarial verifiziert) und die neue Delta-Datei
+(Run 60, `speculative`, ausführlicher) sind inhaltlich deckungsgleich. Eine Konsolidierung
+wäre eine Kürzung eines verifizierten Abschnitts bzw. das Entfernen eines neuen Artikels —
+«grössere Umstrukturierung» nach Rule `wissens-bibliothekar`, dafür pausiert Claude und
+fragt. Kein Edit an diesem Punkt, gleiches Muster wie N60-1.
+
+**Nicht geleistet:** die drei N-SIASWEEP-Fragen (am selben Tag bereits dreifach vertieft),
+N60-1 und N60-2 (ausdrücklich Entscheid-/Freigabe-Punkte Raphael) wurden nicht erneut
+angefasst.
+
+Report: `outputs/2026-08-23_questions-abarbeitung2.md`.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, vierte Fortsetzung: systematischer Katalog-Abgleich aller 56 Blindzone-Zeilen, SIA 2001 geklärt
 
 **Auftrag Raphael:** den SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im
