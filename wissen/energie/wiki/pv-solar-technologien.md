@@ -64,7 +64,8 @@ Das Dach muss **nicht** nach Süden zeigen — der Ertrag bleibt über einen wei
 |---|---|
 | Süd ~30° (Optimum) | 100 % |
 | Flachdach 0° | ~90 % |
-| Ost oder West (Optimum dann ~15°) | 90–95 % |
+| Ost oder West, **flach geneigt** (Optimum ~15°) | 90–95 % |
+| Ost-West-**Satteldach steil ~45°** | ~83–85 % (Fallbeispiel Basel, Näherung) |
 | Südfassade senkrecht 90° | ~70 % |
 | Fassade vierseitig inkl. Nord, vertikal | ~60–65 % |
 | Nord steil 30–40° | ~40 % |
@@ -90,8 +91,9 @@ Satteldach. Wer die Tabelle zeilenweise liest, rechnet ein steiles Dach zu gut. 
 eine Näherung (der Richtwert ist ein CH-Mittel, kein Basler Standortwert); nachrechnen lässt er
 sich mit dem Solarrechner hinter `[[tachion-solarrechner-energieschweiz]]`, der Ausrichtung und
 Neigung als Parameter führt. Fallbeispiel und die vier internen Inkonsistenzen der Quelle:
-`[[solarreport-solarapp-basel-2022]]`, FAQ F251. Offener Punkt E-R149-3: die Tabelle selbst um
-eine Neigungsdifferenzierung für Ost/West ergänzen.
+`[[solarreport-solarapp-basel-2022]]`, FAQ F251. **E-R149-3 erledigt 23.08.2026 (Run 150):** die
+Neigungsdifferenzierung steht jetzt als eigene Zeile in beiden Tabellen (hier und FAQ F26), und
+F26 trägt sie zusätzlich in der Kurz-Antwort — dort wird sie gelesen, nicht im Fliesstext darunter.
 
 ## Spezialmodule für sichtbare PV (transparent, bifazial)
 Neben dem schwarzen Standardmodul sind zwei Bauarten für architektonisch sichtbare Flächen

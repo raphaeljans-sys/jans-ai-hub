@@ -891,7 +891,8 @@ Fassaden-PV-Technik F20 → `[[greenpv-fassade-pv-begruenung-hslu]]`; Kosten →
 ## F26 — «Mein Dach zeigt nicht nach Süden — wie viel Ertrag verliere ich je nach Ausrichtung und Neigung?»
 
 **Kurz:** Weniger als die meisten denken. Mit **100 %** als gut besontes Süd-Dach (~30°) liefert ein
-**Flachdach noch ~90 %**, ein **Ost- oder West-Dach 90–95 %** und selbst eine **senkrechte Südfassade
+**Flachdach noch ~90 %**, ein **flach geneigtes Ost- oder West-Dach 90–95 %** (ein **steiles**
+Ost-West-Satteldach mit 45° dagegen nur noch **~85 %**) und selbst eine **senkrechte Südfassade
 ~70 %**; deutlich verliert nur die **Nordfläche (~40 %)**. Faustregel: **jede unbeschattete Fläche,
 die höchstens 45° von Süden abweicht, ist sehr gut geeignet** — und ein Ost-West-Dach ist dank
 gleichmässigerem Tagesverlauf für den **Eigenverbrauch** oft sogar im Vorteil.
@@ -902,7 +903,8 @@ gleichmässigerem Tagesverlauf für den **Eigenverbrauch** oft sogar im Vorteil.
 |---|---|
 | Süd, ~30° (Optimum) | 100 % |
 | Flachdach 0° (horizontal) | ~90 % |
-| Ost oder West (Optimum dann ~15°) | 90–95 % |
+| Ost oder West, **flach geneigt** (Optimum ~15°) | 90–95 % |
+| Ost-West-**Satteldach steil ~45°** | ~83–85 % (Fallbeispiel, Näherung — siehe unten) |
 | Südfassade senkrecht 90° | ~70 % |
 | Fassade vierseitig inkl. Nord, vertikal | ~60–65 % |
 | Nord steil (30–40°) | ~40 % |
@@ -917,6 +919,21 @@ Mittagsspitze, die ins Netz geht — vgl. F18). Den **standortgenauen** Wert lie
 (F19) bzw. der Solarrechner von EnergieSchweiz/Swissolar; die Prozentwerte hier sind die
 Grössenordnung fürs erste Gespräch. Reicht das Dach nicht, ist die **Fassade** die nächste
 Reserve (~70 % senkrecht Süd) mit dem Bonus höheren **Winterertrags** (F20/F21).
+
+**⚠ Präzisierung 23.08.2026 — die 90–95 % gelten dem FLACHEN Ost-West-Dach, nicht jedem.** Die
+Zeile «Ost oder West» nannte das Optimum von rund 15° bisher nur als Klammerbemerkung. Wer die
+Tabelle überfliegt, nimmt 90–95 % für jedes Ost-West-Dach mit und rechnet ein **steiles** Dach zu
+gut. Das erste CH-Fallbeispiel der KB zeigt den Unterschied: das MFH Schliengerweg Basel hat ein
+**Ost-West-Satteldach mit 45°** und kommt auf **827–852 kWh/kWp** (Bandbreite, weil der Bericht
+zwei Jahresproduktionen führt) — gegen den KB-Richtwert von rund **1'000 kWh/kWp** für ein gut
+besontes Dach (F18) sind das nur **83–85 %**, also spürbar unter der 90–95-%-Zeile. Der Grund ist
+die Neigung, nicht die Himmelsrichtung: ein steiles Ost-West-Dach steht morgens und abends gut,
+mittags aber schlecht, während das flach geneigte die Mittagssonne mitnimmt. **Für die Beratung:**
+bei Ost-West zuerst nach der Dachneigung fragen. Bis etwa 25° gilt die 90–95-%-Zeile, bei 40–50°
+ist mit **rund 85 %** zu rechnen. Der Vergleich 852 gegen 1'000 ist eine **Näherung** (der
+Richtwert ist ein CH-Mittel, kein Basler Standortwert); projektgenau rechnet
+`[[tachion-solarrechner-energieschweiz]]` bzw. sonnendach.ch/PVGIS mit Azimut und Neigung als
+Parameter. → `[[solarreport-solarapp-basel-2022]]`, `[[pv-ertrag-eigenverbrauch-praxis]]`.
 
 **Quelle:** Swissolar «Anwendung Photovoltaik» (Maximum 115 % bei Süd 30°, Basis Horizontale; «≤45°
 von Süden besonders gut geeignet») + solar-ratgeber.ch «Dach-Ausrichtung» (CH-Prozentwerte je

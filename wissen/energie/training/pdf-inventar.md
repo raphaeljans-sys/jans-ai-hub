@@ -1084,3 +1084,46 @@ statt Dublette (130) · fremder Stempel (132) · Zeilen-Diff statt Wort-Diff (13
 
 **Steuerungsgrösse künftig:** nicht mehr die Zeilen dieses Inventars, sondern die
 Ordner-Vollzählung über den Graph-Weg gegen die Register. Der Zählbefehl steht oben.
+
+## Nachtrag 2026-08-23 (Run 150): PL-04 Restbestand abgeräumt — Maison-Climat-Block und Willerzell
+
+### Vollzählung wiederholt (Kontrolle der Run-149-Zahl)
+
+Gleicher Zählweg wie Run 149 (`m365 spo file list`, Site `/sites/PL`, Bibliothek `04 Energie`,
+`--recursive`), Basenamen-Abgleich gegen `pdf-inventar.md` + `raw/_INGESTED.md` +
+`destillate/INDEX.md`: **325 Dateien, 122 PDF, 63 ohne Registereintrag**, davon 57
+Nachweiskurs-Einzelseiten (bewusst nicht geführt) → **6 reale Lücken**, alle aus der
+Projektmappe `wissen.minergie.ch/Maison_Climat` (die sechs hashbenannten PDF). Die Differenz zur
+Run-149-Zahl (22) ist kein Widerspruch: Run 149 hat 11 Positionen selbst bearbeitet und 5 weitere
+im Nachtrag namentlich eingetragen, womit sie im Basenamen-Abgleich als erfasst gelten. Die
+sechs Hash-Dateien blieben unerfasst, weil Run 149 sie nur mit abgeschnittenem Präfix
+(`77cca976…`) nannte und ein Präfix im Namensabgleich nicht trägt. **Kleine Lehre zur Falle
+Nr. 11: ein Registereintrag zaehlt nur, wenn er den vollen Dateinamen trägt.**
+
+### Maison Climat — zehn Plandateien, ein Block, alle `[-]`
+
+Sichtung durch einen Sonnet-Subagenten, jede Datei einzeln am Original gelesen (je 1 Seite),
+Entscheide im Hauptmodell gegengelesen.
+
+| Status | Quelle (`/sites/PL/04 Energie/wissen.minergie.ch/Maison_Climat/`) | Befund 2026-08-23 (Run 150) |
+|---|---|---|
+| [-] `0_EG.pdf` | EG-Grundriss (5 Wohneinheiten), Massstabsleiste, Nordpfeil, **ohne jede Beschriftung** — keine Raum-, Flächen- oder Bauteilangabe |
+| [-] `1_2_OG.pdf` | Grundriss 1./2. OG, gleicher Gebäudetyp, ebenfalls unbeschriftet |
+| [-] `3_OG.pdf` | Grundriss 3. OG (Mansardgeschoss, reduzierte Fläche durch Dachschräge), unbeschriftet |
+| [-] `AN_Treppe.pdf` | Ansicht Nordwestfassade M 1:200 mit Aussentreppe; Fassadenraster sichtbar, **ohne Materiallegende** |
+| [-] `77cca97666ded7a364d438c92128160b.pdf` | **Die einzige Datei mit Fachinhalt** — Vertikalschnitt mit den drei beschrifteten Aufbauten Steildach Mansarde / Geschossdecke / Aussenwand. Inhaltlich **identisch** mit dem Nachtrag vom 21.08.2026 in `minergie-fallstudie-maison-climat` (Zeile fuer Zeile abgeglichen, inkl. Schreibvariante «Dissco»). Die Aufbauten stehen also doppelt im Ordner: einmal im 7,2-MB-Objektbeschrieb-Poster (`5b68adf1…`, Run 149) und einmal hier als 114-kB-Auszug. **Kein Zugewinn, aber eine Bestaetigung:** die Übernahme aus dem Poster war vollständig und korrekt |
+| [-] `91b4fe04a1399b1b7d04eca875b7dcb9.pdf` | Ansicht Südostfassade M 1:200. Am Attikageschoss durchgehende graue Flächen, an den Brüstungen kreuzschraffierte Panels — **könnte** die im Poster erwähnte PV auf Teilen der Südfassade sein, ist aber **ohne Legende nicht belegbar**. Nicht übernommen (Nichts-erfinden-Regel) |
+| [-] `ef7080280b9e010829249014927ba814.pdf` | Gebäudequerschnitt UG bis 3. OG, Hinterlüftungsschicht sichtbar, ohne Bauteil- oder Kennwertbeschriftung |
+| [-] `efe0e5cb9288402a88b575f5139358fa.pdf` | Ansicht Südwestfassade M 1:200, gleiche Einschraenkung wie Südost |
+| [-] `f26c2ea8a48612fc688b19382c5766bb.pdf` | Zwei Axonometrien «SERIELLE FERTIGUNG & MONTAGE» / «MODULE · ELEMENTE · REPETITION» — Vorfertigungskonzept des Holzbaus, **kein energetischer Kennwert**; fachlich näher an einer Holzbau-KB als an dieser |
+| [-] `f8e7d7d09281f75a5ffd287df0f50f84.pdf` | Situationsplan ohne Beschriftung, Massstab und Nordangabe; klärt insbesondere die offene Adressfrage Seelandweg 15/17 **nicht** |
+
+**Ergebnis des Blocks: null Zugewinn, und das ist der Befund.** Die zwei im Destillat vermerkten
+Lücken (rechnerischer U-Wert, Adress-Diskrepanz) bleiben offen — keine der zehn Dateien liefert
+dazu einen Beleg. Der Block ist damit abgeschlossen und wird nicht erneut geöffnet.
+
+**Übertragbare Lehre (Falle Nr. 12): eine Projektmappe von einer Fachplattform ist eine
+Plan-Ablage, keine Wissensquelle.** Von zehn Dateien trug genau eine Fachinhalt, und der war
+bereits erfasst. Bei künftigen `wissen.<plattform>`-Mappen zuerst die beschrifteten Dokumente
+(Poster, Beschriebe, Datenblätter) lesen und die reinen Planblätter als Block sichten — nicht
+umgekehrt.
