@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 15:48:05
+Stand: 23.08.2026 15:58:22
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 15:48)
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:55)
 - /Users/raphaeljans  (letzte Aktivitaet 15:43)
 
 ## Laufende Arbeits-Prozesse
@@ -13,4 +13,4 @@ Stand: 23.08.2026 15:48:05
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7385ffbd vollgas-radar: Nachtrag 23.08. auf echte Umlaute korrigiert (Rule umlaute-konvention)
+- 8613f446 wettbewerbs-dna: Etappe 4 Lauf 04 — V2 Wohnungsbau unbaubar bestaetigt, V3 Verdichtung (Prioritaeten-Stufung) geliefert und refuter-verifiziert, Etappe 4 inhaltlich abgeschlossen

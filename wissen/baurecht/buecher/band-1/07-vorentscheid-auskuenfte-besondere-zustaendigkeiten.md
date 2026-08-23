@@ -139,7 +139,10 @@ Glauben bindend) und der formlosen **Verhandlungsloesung**.
   § 50 Abs. 3 PBG; S. 464) · **Gewaesser/Grundwasser/Abwasser** → **AWEL** (§ 8 EG GSchG **— Achtung Fassungsstand: per 01.06.2026 aufgehoben, § 126 lit. a WsG; Nachfolge § 44 Abs. 1 lit. a WsG**;
   S. 464-467) · **belastete Standorte** → AWEL-Kataster (S. 467) · **Laerm** → Baudirektion
   (Art. 31 LSV; S. 467) · **Laerm/Luft Gewerbe** Art. 2 LRV, **Arbeitnehmerschutz** Art. 7 ArG,
-  **Deponien/Stoerfall** (S. 468-470) · **technische Anlagen** (Grossfeuerung § 48 BBV I,
+  **Deponien/Stoerfall** (S. 468-470) · **technische Anlagen** (Grossfeuerung ⚠ **§ 48 BBV I ist
+  seit 1.9.2022 aufgehoben** (RRB 14.7.2021, `raw/260607_amtlich_zh_bbv1.md` Z. 908, Fn. 80,
+  Wissens-Chef-Befund T-09 260823) — Buchstand S. 470 war 2019 korrekt, heutige Zustaendigkeit
+  fuer Grossfeuerungen am amtlichen Text noch zu klaeren, nicht geraten;
   Erdwaerme/Sondierbohrungen, **Befoerderungsanlagen/Aufzuege** § 296 PBG, § 3 BBV I; S. 470-471)
   · **diverse** (Luftseilbahnen/Skilifte Art. 41f LFG, Schutzraeume, **Strassenreklamen**
   Art. 99 SSV / Art. 95 PBG, Schiessanlagen, **Eisenbahn-Naeherbereich** Art. 18m EBG/BAV;

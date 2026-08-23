@@ -2,17 +2,34 @@
 
 ## 2026-08-18 (Wissens-Chef Run 36, Cross-KB) — Pruefluecke im BBV-I-Bereich des Buch-Layers
 
-**T-09 · Sind weitere §§ 47b-47n BBV I bzw. EnerG-Paragraphen der 2021er-Novelle als geltend
-gefuehrt, obwohl sie ueberholt sind? — offen, Nachpruefung am amtlichen Volltext noetig.**
-Anlass: Befund M5-1 vom 18.08.2026. § 47a BBV I stand im Buch-Destillat
-`buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` in der Fassung der 6. Aufl. 2019
-(80 % Hoechstanteil nicht erneuerbarer Energien) und damit drei Jahre nach seiner Ablosung noch
-als geltendes Recht. **Der Paragraph fiel durch beide bestehenden Prueframen:** der
-Volltextabgleich des Schwester-Destillats Teil 3 endet bei § 46a BBV I, der zu diesem Teil
-erfasst nur §§ 37-40 BBV I. Zwischen diesen beiden Rahmen liegt eine ungepruefte Zone.
-Zu pruefen: alle §§ des Bandbereichs zwischen 46a und dem Ende des BBV-I-Abschnitts gegen
-`raw/260607_amtlich_zh_bbv1.md`, ebenso die in der Novelle vom 19.04.2021 geaenderten
-EnerG-Paragraphen gegen `raw/260712_amtlich_zh_energ.md`.
+**T-09 · ✅ ERLEDIGT 2026-08-23.** Sind weitere §§ 47b-47n BBV I bzw. EnerG-Paragraphen der
+2021er-Novelle als geltend gefuehrt, obwohl sie ueberholt sind?
+
+**Befund.** Vollstaendiger Wortlautabgleich §§ 46a bis 52 BBV I gegen `raw/260607_amtlich_zh_bbv1.md`:
+**nur zwei Paragraphen im gepruefeten Bereich sind aufgehoben** — § 47 (bereits seit 1.10.1997,
+unabhaengig von der 2021er-Novelle) und § 48 (per 1.9.2022, RRB 14.7.2021, Z. 908/Fn. 80). Alle
+uebrigen — §§ 47a-47n, 48a-48c, 49, 50, 51, 52 — sind geltendes Recht. Die EnerG-Novelle vom
+19.04.2021 (OS 77, 363, in Kraft 1.9.2022) aenderte/ergaenzte §§ 10a, 10c, 11 Abs. 1, 11a, 11b, 12,
+13 (aufgehoben), 13c, 13d, 14 Abs. 1.
+
+**Fuenf konkrete veraltete Fundorte identifiziert und korrigiert (2026-08-23):**
+1. `buecher/band-2/17-gebaeude-und-raeume-teil2-ausruestungen.md` (JANS-Anwendungstransfer): toter
+   «80-%-Riegel § 47a BBV I / § 10a EnerG» ersetzt durch Fossilverbot § 11 Abs. 1 EnerG.
+2. `buecher/band-1/06-baurechtliches-verfahren.md` (Beilagenkatalog Baugesuch, Fliesstext): dieselbe
+   veraltete 80-%-Aussage zu § 10a EnerG korrigiert, Verweis auf Grenzwerttabelle § 47a BBV I gesetzt.
+3. `buecher/band-1/06-baurechtliches-verfahren.md` (Schwellenwert-Tabelle): dieselbe Aussage,
+   mit ⚠-Vermerk versehen.
+4. `buecher/band-1/07-vorentscheid-auskuenfte-besondere-zustaendigkeiten.md` (kant. Zustaendigkeiten):
+   «Grossfeuerung § 48 BBV I» — § 48 ist seit 1.9.2022 aufgehoben, mit ⚠-Vermerk versehen (heutige
+   Zustaendigkeit fuer Grossfeuerungen nicht recherchiert, nicht geraten).
+5. `buecher/band-2/12-baureife-teil3-versorgung-entsorgung.md` (Tabelle 12.4): Zuordnung
+   §§ 9-13 EnerG durchgehend falsch (§ 10a fälschlich «Hoechstanteil nicht erneuerbar» statt
+   allgemeiner Grundsatz, § 10b fälschlich «Waermepumpen» statt Widerstandsheizungsverbot, § 11
+   fälschlich «Klimaanlagen» statt Waermeerzeuger-Fossilverbot, § 12a fälschlich «Abwaerme» statt
+   kompostierbare Abfaelle) — korrigiert mit ⚠-Vermerk.
+
+Bereits korrekt und ohne Handlungsbedarf: `wiki/wohnhygiene-und-raumanforderungen.md`,
+`buecher/band-2/17-haustechnische-anlagen-teil3.md`, alle § 47g-Fundstellen.
 
 **T-10 · Braucht der Buch-Layer einen generellen Fassungsstand-Warnhinweis? — Strukturfrage
 an Raphael, kein Faktenmangel.** Das Standardwerk stammt von 2019, der Skill `baurecht`
