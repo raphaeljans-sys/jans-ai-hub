@@ -4,6 +4,28 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-23 (Mac Mini Nachtschicht, 02:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
+
+Priorisierung wie in den Vorlaeufen desselben Formats (Prioritaeten 1-4 leer/gesaettigt:
+keine pending remote-/sync-Tasks; Synobsis Stufe 2 weiterhin deaktiviert 853/853, kein neuer
+Stoff seit 02.07.2026; keine freie KB mit eigenem `training/PROGRAMM.md` ohne Taktgeber).
+Auf Prioritaet 5 ausgewichen, vier weitere offene Identitaetsfragen aus `wiki/QUESTIONS.md`
+per WebSearch geklaert (direkt im Hauptkontext, kein Fan-out):
+
+- **Van_Gerkan_Meinrad / Gerkan** → bestaetigt: Meinhard von Gerkan (1935-2022), 1965 mit
+  Volkwin Marg Gruendung von gmp, Flughafen Berlin-Tegel und Berlin Hauptbahnhof.
+- **Yorke_Breuer / Yorke_Francis... / Breuer_Marcel** → bestaetigt: Partnerschaft F.R.S. Yorke
+  und Marcel Breuer 1935-1937 (Gane Pavilion, Sea Lane House), danach Breuers Wechsel an die
+  Harvard GSD; alle drei Ordner bleiben korrekt getrennt (Partnerschaftsfenster vs. Einzelwerke).
+- **Gabetti_Robert** → bestaetigt: Roberto Gabetti (1925-2000) und Aimaro Oreglia d'Isola,
+  gemeinsames Studio Turin ab 1950, Schluesselfiguren der Neoliberty-Bewegung.
+- **Siza_Vieira_Àlavaro_Leite** → bestaetigt: Álvaro Leite Siza Vieira, Sohn von Álvaro Siza
+  Vieira, eigenstaendiger Architekt (Casa Tóló Cerva, ab 1999); kein Doppelordner zum Vater.
+
+Details je Frage in `wiki/QUESTIONS.md`, Sektion 2, mit Quellenangabe direkt an der jeweiligen
+Frage. Keine Ordnerumbenennung vorgenommen (Umbenennungen bleiben Freigabesache Raphael), kein
+Fan-out, kein Versand, keine Buchung, keine destruktive Aktion. Budget dieses Zyklus ca. 1.10 USD.
+
 ## 2026-08-22 (Mac Mini Nachtschicht, 23:30-Slot) — Vier weitere offene Identitaetsfragen aus QUESTIONS.md recherchiert
 
 Priorisierung: Prioritaeten 1-4 wie im 13:30-Lauf desselben Tages leer/gesaettigt (keine

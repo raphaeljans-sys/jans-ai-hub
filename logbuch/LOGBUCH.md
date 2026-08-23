@@ -7952,3 +7952,17 @@ Kahn_Adam) — alle bestaetigt, mit Quellenangabe direkt an der jeweiligen Frage
 
 Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
 keine destruktive Aktion. Budget dieses Zyklus: rund 1.3 von 5 USD.
+
+## 2026-08-23 02:30 Nachtschicht Mac Mini — Prioritaeten 1-4 gesaettigt, Prioritaet 5: architekten-synobsis QUESTIONS.md
+
+Remote-/Sync-Task-Queues leer (kein `remote-tasks/pending/`, `sync-tasks/mac-mini/scripts/`
+leer, `sync-tasks/freigabe/` leer). Synobsis Stufe 2 unveraendert komplett (853/853), kein
+neuer Stoff. Keine freie KB mit eigenem `training/PROGRAMM.md` ohne aktiven Taktgeber (gleiche
+Lage wie in den Vorlaeufen desselben Tages). Auf Prioritaet 5 ausgewichen: vier weitere offene
+Identitaetsfragen aus `wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert
+(Van_Gerkan_Meinrad/Gerkan, Yorke_Breuer/Yorke_Francis.../Breuer_Marcel, Gabetti_Robert,
+Siza_Vieira_Àlavaro_Leite) — alle bestaetigt, mit Quellenangabe direkt an der jeweiligen Frage.
+Details: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-23 (02:30-Slot).
+
+Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
+keine destruktive Aktion. Budget dieses Zyklus: rund 1.3 von 5 USD.
