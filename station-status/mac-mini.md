@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 13:13:57
+Stand: 23.08.2026 13:24:14
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 13:13:57
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e653a4b3 vollgas-radar: 23.08. 12:58 FREI, PATH-CLI weiter gewedgt (32h), Swap-Trend Level 2, normen Run 60 mit 55 KB-Dateien
+- f7fe0aac nas-selfcommit: 4 Datei(en) 2026-08-23 13:15
