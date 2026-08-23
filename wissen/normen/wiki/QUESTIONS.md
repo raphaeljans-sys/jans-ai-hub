@@ -2459,6 +2459,16 @@ der ursprünglichen Fundmeldung.
    `wissen/planungsgrundlagen/wiki/energie-uebersicht.md` (Z. 78/160). Nebenbefund derselben Lücke: `[[sia-2032]]` in
    `destillate/sia-2040-2017.md:9` (Frontmatter `links:`) ist ein **dangling link** und bleibt es, bis
    das Destillat existiert.
+   ✅ **AUSGABE GEKLÄRT 23.08.2026 (SIA-Sweep, vierzehnte Fortsetzung):** Produktseite
+   `shop.sia.ch/normenwerk/architekt/sia%202032/d/2020/D/Product` (SN 592032) direkt per WebFetch
+   abgerufen — bestätigt SIA 2032:2020 «Graue Energie — Ökobilanzierung für die Erstellung von
+   Gebäuden», gültig ab 01.08.2020, 44 S., 100.00 CHF, ersetzt SIA 2032:2010 «Graue Energie von
+   Gebäuden» (gültig bis 31.07.2020, Titel damit auch inhaltlich erweitert, nicht nur revidiert).
+   `wiki/REGISTER.md` Zeile SIA 2032 und `destillate/sia-2032.md` (Stub trug bisher einen
+   erfundenen Titel «Ökobilanzen im Bauwesen» — korrigiert) nachgeführt. **Weiterhin offen:** die
+   eigentliche Vollinhalts-Destillation (Volltext nicht im Haus, Kauf Bring-Schuld Raphael) sowie
+   der dangling Link `[[sia-2032]]` in `sia-2040-2017.md` bleiben bestehen, bis ein echter Artikel
+   existiert.
 2. **SIA 390/1 (Klimapfad-Norm) fehlt in `normen` vollständig — Beobachtungsposten, kein
    Destillat-Auftrag (P2).** `grep -rn "390/1"`, `grep -rni "sia 390"` und `grep -rni "klimapfad"` über
    die gesamte KB: je 0 Treffer. `energie` führt die Norm seit **Run 10, 17.06.2026** mit dem Zielwert

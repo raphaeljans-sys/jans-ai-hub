@@ -962,6 +962,14 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   getrennt heute-verbindlich vs. Absicht. Status emerging.
 
 ## Struktur
+- [x] **E-S1 / M2 GESCHLOSSEN 23.08.2026 (Run 157): der eigene Skill existiert bereits.**
+  25+ Läufe in Folge (Run 45 bis mindestens Run 148) haben diesen Punkt als «entscheidungsreif,
+  Loop kann nicht selbst entscheiden» wiederholt, ohne im Skill-Verzeichnis nachzusehen. Er ist
+  entschieden: `/Volumes/daten/jans-ai-hub/skills/energie/SKILL.md` liegt vor (Stand 15.08.2026),
+  ist im Hub-Wegweiser `CLAUDE.md` unter den Skills gelistet («Energie-Router ueber KB
+  wissen/energie: belegte Bauherren-Antworten…») und dieser Session als aufrufbarer Skill
+  `energie` verfuegbar. Kein weiterer Entscheid nötig. Ursprünglicher Wortlaut zur
+  Nachvollziehbarkeit:
 - [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-14 (Run 69): vier weitere Themenpunkte abgearbeitet (E67-E70, FAQ F78-F81 neu):
   SIA 2024 Nutzungsdaten Gesundheitsbau (JANS-Healthcare-Fokus), Netzanschluss-/Netzverstaerkungs-
@@ -3860,6 +3868,18 @@ durchfuehrbar.
   **Nächster Schritt ist eine Entscheidung, keine Recherche** — Normkauf vorlegen, sonst bleibt
   der Punkt beliebig lange offen.
 
+- [x] **E-R148-2 GESCHLOSSEN 23.08.2026 (Run 157): die Steuerungsgrösse existiert bereits, seit
+  vor dieser Frage.** Run 148 hat übersehen, dass der Takt-Entscheid am 26.07.2026 bereits gefallen
+  war: `~/.claude/scheduled-tasks/energie-training/SKILL.md` trägt seit diesem Datum `enabled:
+  false` mit dem Vermerk «EREIGNIS-TRIGGER statt Zeittakt (Entscheid Raphael 26.07.2026) … Einziger
+  Startweg: scripts/wissens-trigger.sh — feuert nur, wenn sich das Quellmaterial tatsächlich
+  geändert hat.» Der tägliche Cron-Takt ist damit bereits deaktiviert, nicht erst zur Entscheidung
+  vorgeschlagen. Die im Vorschlag angesprochene Alternative («fragengetrieben statt
+  dateilisten-getrieben») ist ausserdem bereits gelebte Praxis: alle elf interaktiven
+  Fortsetzungssessions vom 23.08.2026 (Run 149-156) sowie dieser Lauf arbeiten die
+  `QUESTIONS.md`-Liste ab, nicht `pdf-inventar.md`. Kein weiterer Entscheid nötig; die einzige
+  offene technische Restfrage ist E-R149-4 (die VORAUSSETZUNG-Zeile derselben Task-Datei ist
+  weiterhin sachlich falsch, siehe dort). Ursprünglicher Wortlaut zur Nachvollziehbarkeit:
 - [ ] **E-R148-2 (P2, neu): der Loop braucht eine neue Steuerungsgrösse, weil der Korpus PL-02
   erschöpft ist.** Die 24er-Restliste ist mit diesem Lauf vollständig entschieden (7 destilliert,
   8 als `[-]` geprüft, 5 Mess-Artefakte, 3 aus Run 143; `training/pdf-inventar.md`, Nachtrag

@@ -2,11 +2,12 @@
 title: Umgebungsgestaltung, Einfriedungen und Gartenmauern — die Vierebenen-Prüfung
 status: established
 last_updated: 2026-08-23
-sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020"]
+sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]], [[raumplanung-und-gestaltung]], [[baubewilligungsverfahren]], [[grundlagen-planungs-baurecht]], [[zonenkonformitaet]], [[baulinien-und-abstandslinien]]
 verifiziert:
   - "2026-08-13 (Ersterstellung, Buch-Run 73, Batch T2) — sämtliche §§ wortgetreu gegen die amtlichen raw-Volltexte gegengelesen: § 238/§ 238a/§ 240/§ 257/§ 309 PBG gegen 260607_amtlich_zh_pbg.md; §§ 20/23/26-29 VErV gegen 260803_amtlich_zh_verkehrserschliessungsv.md; §§ 169-179 EG ZGB gegen 260725_amtlich_zh_egzgb.md und gegen das amtliche Merkblatt der Gemeinde Thalwil (Skizzenblatt, S. 1-2 und 4); Art. 27 BZO Thalwil und Art. 50 revBZO gegen die BZO- bzw. Synopsen-Volltexte. Die 1.40-m-Regel am Wortlaut der Wegleitung BZO Thalwil (Nachführung 2020) verifiziert — inklusive der davorstehenden Überschrift, die ihren Rechtscharakter bestimmt."
   - "2026-08-23 (Buch-Run 83, Modell-D Fassungsstand-Check, Fassungsvorbehalt aus Run 73 geschlossen) — konsolidierte LS-Fassung der VErV frisch von zhlex bezogen (Connector recht-ch.mjs, Nachtrag 127, Fassungsstand 1.1.2025, raw/260823_amtlich_zh_verv.md) und §§ 20/23/26-29 VErV Wort für Wort gegen die bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 CONFIRMED, wortgleich. 1 echte Korrektur: § 27 VErV wurde per RRB vom 14.09.2022 (in Kraft seit 1.12.2024) neu gefasst (Innerorts-/Ausserorts-Split 2 m/4 m statt einheitlich 4 m) und um § 27a (Verringerung) ergänzt — im Artikel korrigiert. Status emerging → established."
+  - "2026-08-23 (Buch-Run 88, Rechtsprechungs-Register Ebene 4 aufgebaut) — 15 Praxisfundstellen zu § 238 Abs. 1 PBG aus fünf bereits gelesenen Buch-Destillaten (Band 1 UND Band 2 geprüft) themenweise zusammengetragen: Massstab, Begründungspflicht/Beurteilungsspielraum, Verhinderungsverbot, Zonenzugehörigkeit/Verdichtung, Stützmauern/Einfriedungen/Umschwung (der für diesen Artikel direkt einschlägige Block), Sondernutzungsplanung, Randfall. Kein neuer PDF-Bezug nötig — alle Fundstellen stammen aus bereits `verified`/`established` Kapiteln (Kap. 13 Teil 1+2 Band 2, Kap. 1/2/6 Band 1)."
 ---
 
 # Umgebungsgestaltung, Einfriedungen und Gartenmauern
@@ -214,11 +215,77 @@ Die Auffangebene: Bauten, Anlagen **und Umschwung** sind so zu gestalten, dass e
 **Materialien und Farben**. Sie greift, wenn alle Masszahlen eingehalten sind und die Behörde
 das Ergebnis dennoch beanstandet.
 
-Als Verteidigungslinie gilt (Register im Aufbau, siehe [[raumplanung-und-gestaltung]]):
-verlangt ist eine **befriedigende**, nicht die optimale Lösung; der Massstab muss **objektiv**
-und aus der konkreten Umgebung hergeleitet sein; die Klausel darf ein zonenkonformes,
-masshaltiges Vorhaben nicht faktisch verhindern; der ablehnende Entscheid trägt eine erhöhte
-**Begründungspflicht**.
+Als Verteidigungslinie gilt: verlangt ist eine **befriedigende**, nicht die optimale Lösung;
+der Massstab muss **objektiv** und aus der konkreten Umgebung hergeleitet sein; die Klausel
+darf ein zonenkonformes, masshaltiges Vorhaben nicht faktisch verhindern; der ablehnende
+Entscheid trägt eine erhöhte **Begründungspflicht**.
+
+### 4a · Rechtsprechungs-Register § 238 Abs. 1 PBG
+
+Zusammengestellt aus den Buch-Destillaten [[band-1/01-grundlagen]],
+[[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]],
+[[band-1/02-nutzungsplanung-zonenarten-teil2]], [[band-2/13-weitere-grundanforderungen]] und
+[[band-2/13-weitere-grundanforderungen-teil2]] (beide Bände geprüft, Buch-Run 88,
+23.08.2026). Gruppiert nach Verteidigungslinie, nicht chronologisch.
+
+**Massstab — objektiv, nicht schöpferisch:**
+- **RB 1989 Nr. 36** (S. 98): kein schöpferischer Spielraum der Behörde bei ästhetischer
+  Gestaltung; Bewilligung darf nur bei Verletzung des Verhältnismässigkeitsprinzips verweigert
+  werden.
+- **BGer 1P.280/2002; VB.2013.00380 E. 8.1** (S. 810): Beurteilung nach Art, Grösse,
+  architektonischer Gestaltung und Beziehung zur baulichen/landschaftlichen Umgebung —
+  objektiver Massstab, umfassende Würdigung aller massgebenden Gesichtspunkte, kein
+  subjektives Empfinden.
+- **VB.2015.00195 E. 3.2** (S. 810): § 238 Abs. 1 PBG ist **positiv** formuliert (befriedigende
+  Gesamtwirkung), kein blosses Verunstaltungsverbot wie in anderen Kantonen.
+
+**Begründungspflicht und gerichtliche Kontrolle:**
+- **RB 1991 Nr. 2** (S. 836): die Baubehörde trägt eine erhöhte **Begründungspflicht** für ihren
+  Einordnungsentscheid.
+- **BEZ 2007 Nr. 21** (S. 89): die Begründungspflicht bei pflichtgemässer Auslegung der
+  Gestaltungsvorschrift greift spätestens im Rekursverfahren.
+- **BGer 1C_358/2017** vom 5.9.2018, zur Publikation vorgesehen (S. 837 ff.): der örtlichen
+  Bewilligungsbehörde kommt bei § 238 PBG **voller Beurteilungsspielraum** zu — korrigiert die
+  zuvor zurückhaltendere Prüfpraxis des Verwaltungsgerichts (§ 50 Abs. 2 / § 20 Abs. 1 VRG).
+
+**Schranke: darf ein zulässiges Vorhaben nicht verhindern:**
+- **BEZ 2005 Nr. 20** (S. 835): § 238 PBG darf nicht zur Verhinderung eines gerade noch
+  zulässigen Vorhabens dienen.
+- **BGE 114 Ia 345; VB.2014.00314** (S. 820 f.): keine generelle Herabsetzung des zonengemäss
+  zulässigen Bauvolumens allein gestützt auf § 238 PBG; nur in Ausnahmefällen bei klar/krass
+  widersprechender Umgebung.
+
+**Zonenzugehörigkeit und Verdichtung:**
+- **BEZ 2014 Nr. 3** (S. 820): die Zonenzugehörigkeit ist ein massgeblicher Gesichtspunkt der
+  Interessenabwägung.
+- **VB.2014.00511; BEZ 2002 Nr. 18** (S. 820 f.): je stärker die Verdichtungsmöglichkeiten
+  ausgeschöpft werden, desto höher die Anforderungen an die Gestaltung — **kein** genereller
+  Anspruch auf Ausschöpfung allein gestützt auf § 238 PBG.
+
+**Direkt einschlägig für dieses Thema — Stützmauern, Einfriedungen, Umschwung:**
+- **BEZ 1983 Nr. 17** (S. 813): § 238 Abs. 1 und 2 PBG gelten ausdrücklich auch für den
+  **Umschwung**, nicht nur das Gebäude selbst.
+- **VB.2009.00147**: Stützmauern aus Blocksteinen/Natursteinmauern müssen § 238 Abs. 1 PBG
+  einhalten — hinreichend gestaffelt und begrünt.
+- **VB.2017.00018 E. 4; VB.2010.00468 E. 5**: die Einordnung einer Stützmauer wird nach den
+  **bestehenden** Verhältnissen beurteilt, nicht nach dem historischen Geländeverlauf.
+- **BRKE III Nr. 0168/2008**: auch ein Maschendrahtzaun untersteht § 238 Abs. 1 PBG.
+
+**Erhöhte Anforderungen bei Sondernutzungsplanung / Kernzonen:**
+- **VB.2010.00350** (S. 184 f.): bei der **Planverwirklichung** (z.B. Kernzonen, Gestaltungsplan)
+  können eingreifende Gestaltungsvorschriften erlassen werden, die über § 238 Abs. 1 PBG
+  hinausgehen.
+- **BRGE II Nr. 0002/2016; BEZ 2003 Nr. 39**: ortsbildschützerische Anliegen ausserhalb einer
+  Schutzzone können ausschliesslich über § 238 PBG beurteilt werden, kein doppelter
+  Prüfmassstab.
+
+**Randfall:**
+- **RB 1996 Nr. 86**: eine halbfertige, über längere Zeit nicht fertiggestellte Baute ist auch
+  unter dem Einordnungsgebot § 238 PBG polizeiwidrig.
+
+Kein Fund für: Rechtsprechung zu Materialien/Farben **speziell an Einfriedungen und
+Gartenmauern** (die Kap.-13-Sektion 13.2.6 behandelt Fassaden, nicht Umfriedungen) — offene
+Lücke, siehe Ziff. 7.
 
 ## 5 · Die Wegleitungs-Falle — Rechtscharakter vor Masszahl
 
@@ -283,7 +350,11 @@ Herkunft schützt nicht vor Alterung.
   oben (§ 27/§ 27a-Korrektur).
 - **Vorsprünge, Türen und Tore an der Strassengrenze** (bisher §§ 11/12 StrAV) haben in der
   VErV keine erkennbare Entsprechung; Anschlussnorm in PBG/ABV suchen.
-- Rechtsprechungs-Register zu § 238 Abs. 1 PBG (Ebene 4) im Aufbau.
+- **✅ geschlossen 2026-08-23 (Buch-Run 88):** Rechtsprechungs-Register zu § 238 Abs. 1 PBG
+  (Ebene 4), siehe Ziff. 4a. Offen bleibt darin nur ein echter Teilaspekt: Rechtsprechung zu
+  **Materialien/Farben speziell an Einfriedungen und Gartenmauern** (die im Buch destillierte
+  Sektion 13.2.6 behandelt nur Fassaden) — bei Bedarf gezielt im Register nachtragen, sobald
+  ein Fall das verlangt.
 - **Bezugsgrösse der Pflichtbäume** nach Art. 50 lit. d revBZO: die Synopse schreibt «je
   500 m² anrechenbare **Grundfläche** auf dem Grundstück»; der Legalbegriff des PBG ist die
   anrechenbare **Grundstücksfläche** (§ 259 PBG). Ob die revBZO bewusst abweicht oder

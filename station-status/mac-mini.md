@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 20:17:08
+Stand: 23.08.2026 20:27:24
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 19:56)
+- Developer/jans/ai/hub  (letzte Aktivitaet 20:20)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 20:17:08
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d1b0643e nas-selfcommit: 1 Datei(en) 2026-08-23 20:15
+- 931aa7cf wissen/baurecht: Buch-Run 87 - Korpus-Queue Batch T9 (Restdateien Reglemente-Ordner 2414 Thalwil), Kausalkette Abgrabung-Vollgeschoss neu verknuepft, Queue T1-T9 vollstaendig abgearbeitet

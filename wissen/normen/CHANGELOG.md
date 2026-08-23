@@ -1,3 +1,69 @@
+## 2026-08-23 — SIA-Sweep, vierzehnte Fortsetzung: SIA 2032:2010→2020 (Titel- und Fassungswechsel) am Original bestätigt, Stub-Fehltitel korrigiert
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und `wissens-bibliothekar`
+beachten, jede Aussage belegen, nichts raten. Vorlauf gelesen: dieser CHANGELOG (Kopf: dreizehnte
+Fortsetzung) und `outputs/2026-08-23_sia-sweep-zwoelfte-fortsetzung.md` (Empfehlung: systematisch
+Register-Zeilen suchen, deren Bring-Schuld/offene Frage nur auf einer Sekundärquelle beruht statt
+auf einer eigenen Direktprüfung der Produktseite). Der `ps aux`-Check zeigt einen `claude`-Prozess
+mit exakt demselben Startprompt wie dieser Lauf (PID 3140, gestartet 8:21) — das ist dieser Lauf
+selbst (headless `-p`-Invocation), kein Konkurrent, wie der Laufauftrag ausdrücklich vorsieht.
+
+**Ausgangslage:** Die dreizehnte Fortsetzung hatte SIA 500 Korrigenda C1/C2 abgeschlossen und
+empfohlen, die drei erschöpften Sweep-Zweige (Register-Vervollständigung, Blindzone,
+N-SIASWEEP-2/3) nicht erneut anzugehen. Der zwölfte Lauf hatte dasselbe Muster wie hier (SIA
+385/9) bereits einmal bearbeitet und als Positivbeispiel SIA 387/4 genannt (von `energie` selbst
+bereits verifiziert). Systematisch nach demselben Muster («bisher nur … gemeldet» /
+«nicht am Normtext verifiziert») in `wiki/QUESTIONS.md` gesucht: Wissens-Chef Run 20
+(29.07.2026) hatte für **SIA 2032** exakt diesen Fall offen gelassen — REGISTER führte 2010 mit
+einem Fassungsflag, zwei Sekundärquellen der KB `energie` (KBOB-Faktenblatt, MuKEn-2025-Modul-G)
+arbeiteten seit 26.06.2026 mit SIA 2032:2020, aber niemand hatte die Produktseite selbst
+abgerufen.
+
+**Befund am Original:** `shop.sia.ch/normenwerk/architekt/sia%202032/d/2020/D/Product`
+(SN 592032) per WebFetch abgerufen. Bestätigt: **SIA 2032:2020** «Graue Energie —
+Ökobilanzierung für die Erstellung von Gebäuden», gültig ab **01.08.2020**, 44 Seiten,
+100.00 CHF. Ersetzt **SIA 2032:2010** «Graue Energie von Gebäuden», gültig bis 31.07.2020. Der
+Titelwechsel ist inhaltlich, nicht kosmetisch: von der reinen Grauenergie-Bilanzierungshilfe zur
+vollständigen Ökobilanzierungsnorm — relevant für jede künftige Zitierung.
+
+**Nebenbefund beim Destillat-Stub:** `destillate/sia-2032.md` (angelegt 07.08.2026 bei der
+Health-Check-Reparatur toter Backlinks) trug einen erfundenen Titel «Ökobilanzen im Bauwesen» und
+eine unbelegte Kettenaussage zu SIA 2024 (Recyclingbeton) als «Nachfolgequelle». Beides war reine
+Lückenfüllung ohne Quelle — im selben Lauf auf den verifizierten Titel korrigiert, die
+SIA-2024-Verknüpfung als ungeprüft markiert (nicht gelöscht, da der Link technisch besteht).
+
+Nachgeführt: `wiki/REGISTER.md` (Zeile SIA 2032, Fassungskette + Titelwechsel belegt),
+`destillate/sia-2032.md` (Frontmatter-Titel korrigiert, Korrekturvermerk + Phase-2-Auftrag
+präzisiert mit Bezug auf die beiden `energie`-Abnehmer), `wiki/QUESTIONS.md` (Run-20-Punkt 1
+additiv mit ✅-Nachtrag geschlossen, Ursprungswortlaut unangetastet).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md`
+1/1 (reiner Zeilenersatz, eigene Zeile), `destillate/sia-2032.md` 21/7 (vollständige Neufassung
+des Stubs, wie beabsichtigt), `wiki/QUESTIONS.md` 10/0 (rein additiv, exakt die eigene
+Einfügung). Beim Edit an `QUESTIONS.md` meldete das Werkzeug, die Datei sei seit dem letzten
+Lesen extern verändert worden — der Edit hat dennoch sauber angewandt (`old_string` unverändert
+vorgefunden), und der `--numstat`-Wert von 10/0 bestätigt, dass ausschliesslich die eigene
+Einfügung im Diff steht, keine Fremdänderung überschrieben wurde. Kein `git`-Schreibbefehl über
+den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:** Kein Volltext von SIA 2032:2020 (oder :2010)
+gekauft — bleibt Beschaffungs-Bring-Schuld Raphael. Die eigentliche Phase-2-Vollinhalts-
+Destillation (LCA-Kennwerte) bleibt offen, ebenso der dangling Link `[[sia-2032]]` in
+`sia-2040-2017.md`. Die Abgrenzung SIA 2032:2020 vs. SN EN 15978 vs. KBOB/MuKEn-Modul-G (welche
+Grössen sich decken, welche nicht) wurde nicht geprüft — reiner Ausgaben-/Titel-Befund, kein
+Inhaltsvergleich. Die drei bereits erschöpften Sweep-Zweige (Register-Vervollständigung,
+Blindzone, N-SIASWEEP-2/3) erneut nicht angegangen. **Weitere Kandidaten nach demselben Muster**
+(«bisher nur … gemeldet», in `QUESTIONS.md` noch nicht abschliessend geprüft): SVGW-Regelwerk
+(Run 20, Punkt 3 — allerdings andere Norm-Familie, ausserhalb SIA/VKF/DIN/VSS/RAL, Scope-Frage
+für den nächsten Lauf), EN 13487 und EN 12102-1 (Run 18, Punkte 2/3 — noch offen, keine Ausgabe
+verifiziert).
+
+Report: `outputs/2026-08-23_sia-sweep-vierzehnte-fortsetzung.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 9: Dateiname/Inhalt-Mismatch bei `vkf-merkblatt-brandschutzklassifikation-bauteile.md` aufgeklärt
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
