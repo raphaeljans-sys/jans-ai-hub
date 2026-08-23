@@ -138,14 +138,25 @@ Fundstelle geschlossen werden konnte, steht jetzt in der FAQ; offen bleibt:
   AWEL-Vollzugspraxis dazu — die einzige verbleibende Klärung ist eine direkte, projektbezogene
   Anfrage bei der AWEL-Fachstelle, kein weiterer Rechercheweg. Beleg in
   `[[eisspeicher-waermepumpe-latentwaermespeicher]]`, FAQ F187 bleibt auf `emerging`.
-- [ ] **E-R20-2 (P2): Fassungsstand der GebV UR (LS 710.2) verifizieren.** Der Deckel CHF 25'000
+- [x] **E-R20-2 (P2): Fassungsstand der GebV UR (LS 710.2) verifizieren.** Der Deckel CHF 25'000
   (§ 10 GebV UR) und die Aufwandgebuehr (§ 5 GebV UR) werden aus einer Fassung «Stand 1.1.12 /
   Nachtrag 75» zitiert, also aus einem vier Jahre alten Stand. Vor der naechsten Verwendung in
   einem Kundendokument gegen den aktuellen Nachtrag pruefen (FAQ F71).
-- [ ] **E-R20-3 (P2): Gebuehrenordnung fuer die Verwaltungsbehoerden vom 30.06.1966 ist neu
+  ✓ **ERLEDIGT 23.08.2026:** Zur Klarheit — «GebV UR» steht für «Gebührenverordnung zum Vollzug
+  des Umweltrechts» (ZH, LS 710.2), nicht Kanton Uri. Am amtlichen zh.ch-Erlasstext verifiziert:
+  aktueller Stand ist weiterhin **Nachtrag 075** — identisch mit dem hier zitierten Stand «Nachtrag
+  75». Kein neuerer Nachtrag seither, Deckel CHF 25'000 (§ 10) und Aufwandgebühr-Mechanik (§ 5)
+  bleiben geltend. Beleg in `[[erdwaermesonden-bewilligung-zh-sz]]`.
+- [x] **E-R20-3 (P2): Gebuehrenordnung fuer die Verwaltungsbehoerden vom 30.06.1966 ist neu
   einschlaegig, aber ungelesen.** § 209 WsV verweist fuer Amtshandlungen nach Wassergesetz und
   Wasserverordnung nicht nur auf die GebV UR, sondern auch auf diese Gebuehrenordnung. Ob sie fuer
   das Erdwaermesonden-Gesuch eigene Ansaetze oder einen anderen Deckel bringt, ist offen (FAQ F71).
+  ✓ **ERLEDIGT 23.08.2026:** Diese Gebührenordnung (LS 682, ZH) ist weiterhin in Kraft (aktueller
+  Stand Nachtrag 099, am zh.ch-Erlasstext verifiziert) und hat einen **eigenen, von der GebV UR
+  unabhängigen Gebührenrahmen**: Art. 4 allgemeiner Auffangrahmen CHF 5-4'000, Art. 2 lit. c
+  CHF 50-6'000 speziell für Bewilligungen/Konzessionen. § 209 WsV verweist damit auf zwei
+  Gebührengrundlagen nebeneinander; welche die AWEL-Praxis im Einzelfall anwendet, bleibt für ein
+  konkretes Mandat zu klären. Beleg in `[[erdwaermesonden-bewilligung-zh-sz]]`.
 - [ ] **E-R20-4 (P2): Regenwassernutzung ausserhalb ZH.** § 97 Abs. 3 WsG (zulaessig und
   gebuehrenfrei in getrennten Systemen) gilt nur im Kanton Zuerich und erst seit 01.06.2026; das
   Destillat ist CH-weit angelegt. Fuer SZ und die uebrigen Kantone ist die Rechtslage nicht

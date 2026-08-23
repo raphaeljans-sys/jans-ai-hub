@@ -1,8 +1,8 @@
 ---
 title: Gebäudeschadstoffe beim Umbau (Kt. ZH)
 status: established
-last_updated: "2026-08-16 (Mac Mini Nachtschicht 13:30 — PCB-Prozess-Ergänzung)"
-sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md, destillate/kbob-pcb-fugendichtungsmassen-2004-4.md]
+last_updated: "2026-08-23 (E-R25-2 geschlossen: Meldepflicht bei Abbruch ergänzt, § 3a Abs. 1 AbfV ZH LS 712.11 + Art. 86 BauAV am Original verifiziert; zuvor 2026-08-16 Mac Mini Nachtschicht 13:30 — PCB-Prozess-Ergänzung)"
+sources: [destillate/gebaeudeschadstoffe-checkliste-zh.md, destillate/asbest-dimension-jenseits-spritzasbest.md, destillate/ahb-checkliste-schadstoffe-in-bauten.md, destillate/kbob-pcb-fugendichtungsmassen-2004-4.md, "AbfV ZH LS 712.11 § 3a (zh.ch, Nachtrag 101, abgerufen 23.08.2026)", "BauAV SR 832.311.141 Art. 86 (Fedlex, Fassung 18.6.2021, abgerufen 23.08.2026)"]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[private-kontrolle-zh]], [[werkhof29-zirkulaeres-bauen-stroh-lehm]], [[graue-energie]], [[asbest-dimension-jenseits-spritzasbest]], [[ahb-checkliste-schadstoffe-in-bauten]], [[kbob-pcb-fugendichtungsmassen-2004-4]]
 ---
 
@@ -56,6 +56,23 @@ Kindergärten, Horte, Kitas, Schwimm-/Turn-/Sporthallen, **Spitäler** — JANS-
 Ohne Voruntersuchung gelten schadstoffverdächtige Bauteile **ohne Gegenbeweis als haltig** und
 müssen entsprechend teuer saniert/entsorgt werden. Eine **freiwillige Fachperson-Voruntersuchung**
 (Probenahme/Analyse) kann den Verdacht widerlegen und Kosten sparen.
+
+## Meldepflicht bei Abbruch (verifiziert 23.08.2026, schliesst E-R25-1)
+
+Neben der Abklärungspflicht oben gelten beim Abbruch/Rückbau **zwei unabhängige Meldepflichten**
+mit unterschiedlichem Adressat:
+
+| Grundlage | Wer meldet | An wen | Wann |
+|---|---|---|---|
+| **§ 3a Abs. 1 AbfV ZH** (Abfallverordnung Kt. ZH, LS 712.11, eingefügt RRB 4.4.2018, in Kraft seit 1.6.2018) | Bauherrschaft | örtliche Baubehörde (Gemeinde) | rechtzeitig **vor** Beginn der Abbrucharbeiten, auch wenn keine Baubewilligung nötig ist |
+| **Art. 86 BauAV** (Bauarbeitenverordnung, SR 832.311.141, Fassung 18.6.2021) | Asbestsanierungsunternehmen | Suva | mindestens **14 Tage vor** Ausführung der Asbestsanierung |
+
+Die Meldung nach § 3a Abs. 1 AbfV ZH enthält die Angaben nach **Art. 16 Abs. 1 VVEA** (Art, Menge
+und Entsorgung der Bauabfälle); § 3a Abs. 2 AbfV ZH regelt separat den nachträglichen
+Entsorgungsnachweis auf Verlangen der Baubehörde. Das Kürzel «Art. 3a ABV» (teils in anderen
+Quellen verwendet) ist keine existierende Fundstelle. Ein offener Punkt bleibt: ob die Stadt
+Zürich zusätzlich eine kommunale Meldepraxis an den Umwelt- und Gesundheitsschutz (UGZ) kennt —
+das ist nur sekundärquellenbasiert behauptet, nicht amtlich verifiziert.
 
 ## Bauherren-Transfer
 1. **Baujahr** des umzubauenden Teils prüfen — ab 1990 i.d.R. keine Schadstoffabklärung.

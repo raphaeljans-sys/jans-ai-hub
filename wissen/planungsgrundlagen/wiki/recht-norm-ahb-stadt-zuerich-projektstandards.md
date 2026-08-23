@@ -458,6 +458,10 @@ Devis-/Materialdeklarationskontrolle vor Vergabe, Baustellenkontrolle) + Innenra
 `Bauteilkatalog_Energie+Oekologie.pdf` (1 Seite) enthalten je nur eine URL
 (`www.eco-bau.ch/index.cfm?Nav=15&ID=16` bzw. `www.bauteilkatalog.ch`) — bewusste Verweis-Platzhalter
 auf externe, separat zu pflegende Online-Tools, kein eigener Fachinhalt zum Destillieren.
+**Quelle nennt `www.eco-bau.ch/index.cfm?Nav=15&ID=16` (heute 404, alte CFM-Struktur); der
+Verein firmiert seit der Website-Erneuerung unter `ecobau.ch` (die Adresse `eco-bau.ch` leitet
+dorthin weiter, HTTP 200). Gemessen im Link-Frischecheck Wartungslauf 01, 2026-07-30, hier
+nachgetragen als inhaltlicher Vermerk statt stillem Austausch (F-LINKS-REST, 2026-08-23).**
 
 ### 6.6 Verein eco-bau als nationale Trägerschaft + BKP-Merkblatt-System (Run 66, neuer Ordner `PL-02/04_Merkblätter/eco/Nachhaltiges Bauen`)
 

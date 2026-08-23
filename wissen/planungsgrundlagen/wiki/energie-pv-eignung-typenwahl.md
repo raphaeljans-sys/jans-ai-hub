@@ -677,4 +677,7 @@ byte-different, aber inhaltsgleich mit dem bereits in [[energie-uebersicht]]/
 `Solaranlage/prefa.solar/PREFA_Solarfolder_CH-deutsch.pdf` ist dieselbe Datei wie die bereits in
 §1b zitierte PREFA-Solarfolder-Quelle (kein zweiter Kanal), `Solaranlage/energieheld.ch/` und
 `Solaranlage/sonnenverlauf.de/` enthalten je nur einen einzelnen, inhaltlich trivialen Website-
-Screenshot ohne neue Kennzahl.
+Screenshot ohne neue Kennzahl. **Quelle nennt `energieheld.ch`; der Anbieter ist seither von
+CKW übernommen worden, die Domain leitet heute auf `ckw.ch` weiter (Link-Frischecheck
+Wartungslauf 01, 2026-07-30) — der Ordnername bleibt als Provenienz-Vermerk stehen, kein
+aktiver Verweis auf externen Inhalt (F-LINKS-REST, nachgetragen 2026-08-23).**

@@ -4,8 +4,8 @@ herausgeber: Kanton Zürich (AWEL) / Bund (GSchG/GSchV) / Kanton Schwyz (Amt fü
 ausgabe: Web-Recherche, amtliche Kantons-/Stadt-Webseiten
 gelesen: 2026-07-14 (Run 66)
 datenstand: 2026-07-14 (Web-Recherche, keine explizit datierten Formulare ausser Gesuchsformular AWEL 400-003 Stand 06.2024)
-status: established (Kernstruktur; die ZH-Bewilligungs- und Gebührenrechtsgrundlage wurde vom Wissens-Chef in Run 20 auf geltendes Recht umgestellt: § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG, § 92 WsV, Gebühr über § 209 WsV mit Verweis auf die GebV UR. Die in Run 67 verifizierten § 35/§ 69 KGSchV (LS 711.11) sind per 01.01.2022 aufgehoben und nur noch historisch, bis 31.12.2021, einschlägig; Details im Korrekturkasten). Offen: Fassungsstand der GebV UR (hier als «Stand 1.1.12/Nachtrag 75» zitiert, nicht gegen den aktuellen Nachtrag verifiziert), SZ-Kostenpunkt, exakte Verfahrensfrist als verbindliche Norm sowie GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert
-last_updated: 2026-07-29 (Wissens-Chef Run 20; Fachstand Run 67)
+status: established (Kernstruktur; die ZH-Bewilligungs- und Gebührenrechtsgrundlage wurde vom Wissens-Chef in Run 20 auf geltendes Recht umgestellt: § 44 Abs. 1 lit. a Ziff. 3 und lit. f WsG, § 92 WsV, Gebühr über § 209 WsV mit Verweis auf die GebV UR. Die in Run 67 verifizierten § 35/§ 69 KGSchV (LS 711.11) sind per 01.01.2022 aufgehoben und nur noch historisch, bis 31.12.2021, einschlägig; Details im Korrekturkasten). Fassungsstand GebV UR (LS 710.2, Nachtrag 075) und Gebührenordnung für die Verwaltungsbehörden 30.06.1966 (LS 682, Nachtrag 099) am 23.08.2026 gegen die amtliche zh.ch-Erlassseite verifiziert, beide aktuell (schliesst E-R20-2/E-R20-3). Offen: SZ-Kostenpunkt, exakte Verfahrensfrist als verbindliche Norm sowie GSchG/GSchV-Wortlaut weiterhin nicht direkt am Bundes-Primärtext verifiziert
+last_updated: 2026-08-23 (E-R20-2/E-R20-3 geschlossen, GebV UR und Gebührenordnung 1966 am Original verifiziert; zuvor 2026-07-29 Wissens-Chef Run 20; Fachstand Run 67)
 ---
 
 # Erdwärmesonden — Bewilligungsverfahren Kt. Zürich und Kt. Schwyz
@@ -135,11 +135,25 @@ eine Zahl gegenüber dem Bauherrn kommuniziert wird.
   § 35/§ 69 KGSchV + GebV UR verifiziert; die KGSchV ist jedoch per 01.01.2022 aufgehoben, die
   Gebührengrundlage läuft heute über § 209 WsV auf dieselbe GebV UR (Korrektur Run 20, siehe
   Korrekturkasten).
-- **Fassungsstand GebV UR (LS 710.2) offen (Run 20):** hier als «Stand 1.1.12/Nachtrag 75» zitiert,
-  also vier Jahre alt. Der Tarifmechanismus (§ 5) und der Deckel CHF 25'000 (§ 10) sind gegen den
-  aktuellen Nachtrag zu verifizieren, bevor die Zahl weiter als geltend kommuniziert wird. Ebenfalls
-  noch nicht am Volltext gelesen: die von § 209 WsV zusätzlich angerufene Gebührenordnung für die
-  Verwaltungsbehörden vom 30. Juni 1966.
+- ✓ **Fassungsstand GebV UR (LS 710.2) verifiziert 23.08.2026, schliesst E-R20-2:** «GebV UR»
+  steht für «Gebührenverordnung zum Vollzug des **U**mwelt**r**echts» (ZH, nicht Kanton Uri — zur
+  Klarheit hier ausdrücklich festgehalten, weil das Kürzel missverständlich ist). Amtliche Seite
+  zh.ch/.../erlass-710_2-1993_11_03-1994_01_01-075.html (abgerufen 23.08.2026) bestätigt: vom
+  3.11.1993, in Kraft seit 1.1.1994, **aktueller Stand weiterhin Nachtrag 075** — exakt der hier
+  seit Run 67 zitierte Stand «Nachtrag 75». Es gab seither **keinen neueren Nachtrag**; Deckel
+  CHF 25'000 (§ 10) und Aufwandgebühr-Mechanik (§ 5) bleiben damit die geltende Fassung. Der
+  genaue Wortlaut von § 5/§ 10 selbst konnte am PDF-Downloadlink nicht erneut gegengelesen werden
+  (404 bei diesem Abruf) — die Nachtragsnummer als Aktualitätsindikator ist aber eindeutig.
+- ✓ **Gebührenordnung für die Verwaltungsbehörden vom 30.06.1966 gelesen, schliesst E-R20-3:**
+  LS 682 (ZH), weiterhin in Kraft, aktueller Stand Nachtrag 099 (Quelle
+  zh.ch/.../erlass-682-1966_06_30-1966_10_01-099.html, Volltext-PDF, abgerufen 23.08.2026). Sie
+  hat einen **eigenen, von der GebV UR unabhängigen Gebührenrahmen**: Art. 4 allgemeiner
+  Auffangrahmen CHF 5 bis CHF 4'000 für alle nicht anderweitig geregelten Amtshandlungen, Art. 2
+  lit. c CHF 50 bis CHF 6'000 speziell für Bewilligungen und Konzessionen. Für ein
+  Erdwärmesonden-Gesuch bedeutet das: § 209 WsV verweist auf **zwei** Gebührengrundlagen
+  nebeneinander, und die zweite (LS 682) kennt einen eigenen, niedrigeren Rahmen für
+  Bewilligungen — vor einer Kostenangabe gegenüber der Bauherrschaft ist zu klären, welche der
+  beiden Grundlagen die AWEL-Praxis im Einzelfall tatsächlich anwendet.
 - Detaillierter Inhalt des AWEL-PDF «Tiefenbeschränkung von Erdwärmesonden» technisch nicht
   extrahierbar (nur Bild-/komprimierte Datenströme) — die 500-m-Angabe stammt aus dem Haupttext der
   Übersichtsseite, nicht aus diesem Detaildokument.
