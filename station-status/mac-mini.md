@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 17:01:46
+Stand: 23.08.2026 17:12:03
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - /Users/raphaeljans  (letzte Aktivitaet 16:46)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 17:01:46
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1902845d nas-selfcommit: 6 Datei(en) 2026-08-23 17:00
+- 063edde4 Dritte Station macbook-revendo im Vollgas-Betrieb: Konnektor-Registrierung, STATION-Override kontingent-budget.sh, RADAR-Nachtrag

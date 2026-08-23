@@ -875,6 +875,21 @@ Rahmen um ein eingesetztes Fragment) waere damit erstmals mechanisch lokalisierb
 Wrapper. Nach Sperrlisten-Disziplin reicht ein Beleg nicht; Gegenprobe gegen eine vollstaendig
 selbst getippte Outlook-Mail steht aus ([[QUESTIONS]] 260820 #2).
 
+**⚠ Praezisiert 23.08.2026 — der Absatz oben ist keine zweite, neue Frage, sondern eine
+Doppelbelegung derselben bereits beantworteten.** Dieser «Naht-Marker» ist **derselbe Kandidat**
+wie der «Klebe-Marker eingefuegter Bloecke» aus [[QUESTIONS]] Batch 99 #2 — identischer Beleg
+(19.08. 10:53, Hub-Block 01–04 gegen dieselben zwei handgetippten Schlussabsaetze). Jene Frage
+ist **am selben Tag** ueber die Gegenprobe 08.07. 08:00 (vollstaendig selbst getippte
+Outlook-Mail an den Sanitaer, Eigenschaft nirgends) beantwortet worden — Aufloesung weiter oben
+in dieser Datei («Gegenprobe zum text-transform:none-Kandidaten geliefert … damit beantwortet»):
+der Marker gilt eingegrenzt auf Textabsaetze, nicht auf Signatur-/Zitat-Container. Die selbe
+Gegenprobe deckt exakt den hier gestellten Anspruch mit ab. Die Formulierung «Gegenprobe … steht
+aus» oben ist damit **veraltet, nicht falsch** — der Absatz wurde offenbar verfasst, ohne ihn
+gegen die Aufloesung weiter oben in derselben Datei zu lesen. Gleiche Lehre wie die «Neunzehnte
+Falle»: ein spaeterer Abschnitt derselben gewachsenen Datei kann einen bereits geloesten Punkt
+unbemerkt reproduzieren, wenn er nicht gegen den eigenen Bestand gegengeprueft wird. [[QUESTIONS]]
+260820 #2 bleibt auf dem Stand «beantwortet»; es gibt keinen zweiten offenen Naht-Marker-Punkt.
+
 **Achtzehnte Falle, neu 21.08.2026 (Batch 100) — der Zwilling repliziert Raphaels Fehler
 ABSICHTLICH, und die Fehlerdichte hat dadurch ein Loch an genau einer Stelle.** Bisher galt:
 Fehler im Text sprechen fuer Raphaels Hand, Fehlerfreiheit fuer die Maschine — der einzige
@@ -981,6 +996,33 @@ also nicht nur Wissen, sondern Grundkontext-Budget. Geführt und gemessen wird d
 dort nachsehen, wie der Stand ist.
 *(Erst-Verlinkung Wissens-Chef Run 23, 03.08.2026: die KB, die die grösste Datei des
 Grundkontexts erzeugt, kannte die KB nicht, die dieses Budget führt.)*
+
+**⚠ Korrektur 23.08.2026 — der Absatz oben war 22 Minuten lang richtig und ist seither
+veraltet, und das ist die wahrscheinlichste Erklaerung fuer [[QUESTIONS]] 260823 (Batch 102)
+#1.** Er wurde am 03.08.2026 um 22:46 geschrieben und beschrieb den damaligen Stand korrekt. Um
+23:08 desselben Abends verschob Commit `7b54407f` («kontingent-regime …») den kompilierten
+Facetten-Block aus `rules/jans-dna.md` (@-importiert, laedt in **jede** Session) nach
+`rules/jans-dna-facetten.md` (**kein** @-Import, nur lazily vor jedem Texterzeugnis zu lesen).
+`skills/twin/tools/build_dna.py` schreibt seither ausschliesslich dorthin (Kommentar im Script,
+Zeile 23–27: «Ziel seit 03.08.2026 … DNA = ROOT / rules / jans-dna-facetten.md»). Der Satz oben
+wurde in den zwanzig Tagen seither nie nachgezogen und behauptet weiterhin, die Facetten «laden
+in jede Session».
+
+**Praktische Folge, belegt am Bullet-Widerspruch aus Batch 102 ([[QUESTIONS]] 260823 #1):** ein
+Hub-Erzeugnis vom 16.07.2026 (**vor** der Verschiebung) traegt acht «_ »-Bullets, weil die Regel
+damals im immer geladenen Kern stand. Ein Hub-Entwurf vom 20./21.08.2026 (**nach** der
+Verschiebung) traegt keinen einzigen, obwohl Batch 101 dieselbe Woche belegt hat, dass die Regel
+auch im formellen Sie gilt. Ein automatisierter Erzeugungslauf, der `rules/jans-dna-facetten.md`
+nicht explizit nachlaedt — plausibel bei einem unbeaufsichtigten Fruehlauf, der mehrere
+Entwuerfe innerhalb weniger Sekunden ablegt (vgl. das Entwurfs-Duplikat der vierzehnten Falle) —
+sieht die Feinregel schlicht nicht, waehrend der kompakte Kern in `jans-dna.md` weiterhin laedt.
+Gleiche Lehre wie `auto-verbesserungen` 260807 («Konfigurationsfelder erst messen, dann
+glauben»): ein Dokument, das seinen eigenen Bau-Mechanismus beschreibt, muss nach jeder Aenderung
+an diesem Mechanismus mitgezogen werden, sonst wird die Doku selbst zur Fehlerquelle. Beleg:
+`git log -p -- rules/jans-dna.md` im lokalen SSD-Klon zeigt den Verschiebe-Commit `7b54407f`
+(Mo, 03.08.2026 23:08:37); `skills/twin/tools/build_dna.py` Zeilen 23–27 bestaetigen das
+aktuelle Ziel. Der Originalsatz oben bleibt stehen (Rule 260811, kein Loeschen in gewachsenen
+Dateien) — diese Ergaenzung tritt an seine Stelle.**
 
 ## Sync
 

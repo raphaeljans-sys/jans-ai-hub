@@ -4051,6 +4051,20 @@ verderben.
 
 ## 260823 — Batch 102 (Fenster 21.–23.08.2026 sequenziell + Thread-Rueckgriff 2414 Thalwil)
 
+> ✅ **BEANTWORTET am 23.08.2026 — kein Rueckschritt, sondern eine Kontext-Zugriffs-Aenderung:
+> Commit `7b54407f` («kontingent-regime», 03.08.2026 23:08:37) verschob den kompilierten
+> Facetten-Block samt der «_ »-Bullet-Regel aus dem @-importierten `rules/jans-dna.md` (laedt in
+> jede Session) nach dem nicht importierten, nur lazily vor jedem Texterzeugnis zu lesenden
+> `rules/jans-dna-facetten.md`. Der 16.07.-Text entstand VOR, der 20./21.08.-Entwurf NACH der
+> Verschiebung — Hypothese (a) trifft zu, nicht als Skill-vs-Agent-Unterschied, sondern als
+> Aenderung DESSEN, was automatisch geladen ist. Beleg und Einordnung: [[CLAUDE]],
+> Korrektur am Abschnitt «Kontext-Kosten dieser KB» (der bis heute unveraendert behauptete, der
+> Block laede weiterhin «in jede Session»). Nicht geklaert, weil ausserhalb des Korpus-Zugriffs
+> dieses Laufs: WELCHER Erzeugungslauf den 20./21.08.-Entwurf konkret schrieb (drei fast
+> zeitgleiche Fruehmorgen-Drafts an Behoerde/Unternehmer/Briefing, `logbuch/LOGBUCH.md` nennt ihn
+> nicht namentlich) — plausibel ein unbeaufsichtigter Fruehlauf, der `jans-dna-facetten.md` nicht
+> explizit nachlaedt, aber nicht mit letzter Sicherheit benannt.**
+
 **#1 — Warum setzt der Zwilling das «_ »-Bullet mal und mal nicht?** Offen. Facette
 [[stimme]] / [[arbeitsweise]]. Ein Hub-Erzeugnis vom **16.07.2026** (Du, an die Bauherrschaft)
 traegt **acht** «_ »-Bullets, ein Hub-Entwurf vom **20./21.08.2026** (Sie, an einen Unternehmer)

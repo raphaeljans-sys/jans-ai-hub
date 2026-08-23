@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 17:02:49
+Stand: 23.08.2026 17:13:06
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:02)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:13)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 17:02:49
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 1902845d nas-selfcommit: 6 Datei(en) 2026-08-23 17:00
+- 063edde4 Dritte Station macbook-revendo im Vollgas-Betrieb: Konnektor-Registrierung, STATION-Override kontingent-budget.sh, RADAR-Nachtrag

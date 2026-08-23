@@ -4,6 +4,44 @@ Datierte Protokollzeilen (neueste zuoberst). Jede Schreib-/Verlink-/Ingest-Aktio
 hier vermerkt (Rule `wissens-bibliothekar.md`). Vor dieser Zeile war die Datei leer;
 die vollständige Ingest-Historie steht im `raw/_INGESTED.md` (Batch-Register) und den
 
+## 2026-08-23 — Vertiefungslauf: Echo-Katalog-Audit + Batch-102-Raetsel geloest (Kontext-Diaet-Fund)
+
+Vertiefung obendrauf auf die beiden heutigen Regellaeufe (Batch 102, Fidelity-Review Fenster
+28.07.–03.08.), nicht deren Wiederholung. Zwei Ergebnisse:
+
+- **`CLAUDE.md`-Fallen-Katalog vollstaendig gegen `wiki/QUESTIONS.md` gegengelesen** (alle
+  «Kandidat, nicht aufgenommen»/«Gegenprobe steht aus»-Stellen einzeln geprueft). Befund: die
+  Referenz `text-transform:none als Naht-Marker` (Siebzehnte Falle) und die urspruengliche
+  Frage «Klebe-Marker eingefuegter Bloecke» (Batch 99 #2) sind **derselbe Kandidat**, nicht zwei
+  verschiedene — die spaetere Textstelle wurde offenbar geschrieben, ohne gegen die im selben
+  Dokument bereits vorhandene Aufloesung («… damit beantwortet») gelesen zu werden. Praezisierung
+  in `CLAUDE.md` ergaenzt (keine Loeschung), [[QUESTIONS]] 260820 #2 bleibt auf «beantwortet»
+  stehen. `color:rgb(10,10,10)` (260813-Lauf-2 #2) und die ASCII-Transliteration im Betreff
+  (260815 #2, referenziert in `CLAUDE.md`) sind auf beiden Seiten konsistent als offen gefuehrt —
+  keine weitere Doppelbelegung gefunden.
+- **[[QUESTIONS]] 260823 (Batch 102) #1 geloest** (Bullet-Widerspruch 16.07. acht «_ »-Bullets
+  gegen 20./21.08. keines): kein Rueckschritt, sondern eine **Kontext-Zugriffs-Aenderung**.
+  `git log -p -- rules/jans-dna.md` im lokalen SSD-Klon zeigt Commit `7b54407f`
+  («kontingent-regime», 03.08.2026 23:08:37): er verschob den kompilierten Facetten-Block samt
+  der «_ »-Regel aus dem @-importierten `rules/jans-dna.md` (laedt in jede Session) in das
+  **nicht** importierte `rules/jans-dna-facetten.md` (`skills/twin/tools/build_dna.py` Zeile
+  23–27 bestaetigt das aktuelle Ziel). Der 16.07.-Text entstand vor, der 20./21.08.-Entwurf nach
+  der Verschiebung. **Nebenfund dabei:** der Abschnitt «Kontext-Kosten dieser KB» in `CLAUDE.md`
+  wurde 22 Minuten VOR diesem Commit geschrieben und seither nie nachgezogen — er behauptete
+  bis heute faelschlich, der Block laede weiterhin «in jede Session». Korrektur in `CLAUDE.md`
+  ergaenzt (Original stehen gelassen, Rule 260811). `logbuch/LOGBUCH.md` um den 20./21.08. nennt
+  den konkreten Erzeugungslauf des Unternehmer-Entwurfs nicht namentlich; welcher Loop die drei
+  fast zeitgleichen Fruehmorgen-Drafts (Behoerde/Unternehmer/Briefing) genau schrieb, bleibt
+  offen — die Kontext-Erklaerung ist unabhaengig davon belastbar.
+- Nicht geleistet: Korpus-/Mailrecherche fuer die verbleibenden Kandidaten mit nur einem Beleg
+  (`rgb(10,10,10)`, `rgb(252,252,251)` bereits verworfen) — ausserhalb des Auftragsumfangs
+  dieses Laufs (Vertiefung, kein Voll-Audit); sie bleiben in `QUESTIONS.md` korrekt als offen
+  gefuehrt.
+- Schreibkontrolle: `git diff --numstat` nativ per ssh war in dieser Sitzung technisch nicht
+  erreichbar (Sandbox ohne Schluessel-Zugang zur Synology, `Permission denied
+  (publickey,password)`); stattdessen Zeilen-/Textabgleich gegen die vor dem Edit gelesenen
+  Originalpassagen durchgefuehrt (beide Aenderungen bestaetigt rein anhaengend, nichts geloescht).
+
 ## 2026-08-23 — twin-fidelity-review (Fenster 28.07.–03.08.2026)
 
 - Drei Golds gelesen (Behoerden-Sie · Du mit sieben Cc · gestapelt gemischt), **Gesamt-Fidelity 33**
