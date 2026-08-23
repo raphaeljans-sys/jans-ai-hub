@@ -33,6 +33,15 @@ Nur Screenshots je Gemeinde (ZH Waedenswil 2023, Maur 2024, Thalwil 2025, Nieder
 + PROPERTYOWNER + WiMo-Report. **Nicht maschinenlesbar, fragmentarisch.** Keine kantonale/
 gemeindescharfe Statistik. → strukturierte Bodenpreis-Quelle aufbauen (Wissensluecke).
 
+**Neu 23.08.2026 — eine amtliche, maschinenlesbare Quelle ist erschlossen (Stadt Zuerich).**
+
+| Quelle | Zugang | Inhalt | Stand | Bewertung |
+|---|---|---|---|---|
+| **LIMA-Handaenderungsstatistik Stadt Zuerich** | Open Data Zuerich, CSV `BAU514OD5144.csv`, Datensatz `bau_hae_lima_preise_anzahl_hae_art_bebauung_jahr_od5144`, **CC0** — kein Abo, kein Gesuch | Medianpreise + **Fallzahlen** aus **Freihandverkaeufen**, 47 Gebiete (Stadt/Kreise/**Quartiere**) × Jahr × Bebauungsart (EFH/MFH/WHG/uebrige/Nichtwohn/Industrie/unbebaut) × Abgrenzung (ganze Liegenschaft / nur StWE / alle Handaenderungen). Zwei Reihen, darunter **«Preis pro m2 Grundstuecksflaeche abzgl. Versicherungswert» = Bodenpreis-Naeherung** | CSV-Stand **05.02.2026**, Daten **2008-2025**, Aktualisierung jaehrlich; heruntergeladen und ausgewertet 23.08.2026 | ⭐ amtlich, maschinenlesbar, quartierscharf — **aber nur Stadt Zuerich**. Vorbehalte (Fallzahlen auf Quartiersebene, Versicherungswert ohne Alterswertminderung) in [[lageklasse-landwertanteil]] |
+
+Fuer die JANS-Kerngemeinden ausserhalb der Stadt (Seeufer, Bezirk Horgen, Kanton SZ) bleibt
+die Luecke **D2** offen und unveraendert hoch priorisiert.
+
 ## Kennwerte (`IMMO-06`)
 
 | Bereich | Inhalt | Stand | Status |
