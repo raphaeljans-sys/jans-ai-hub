@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 07:14:19
+Stand: 23.08.2026 07:24:35
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 07:14:19
 - keine
 
 ## Hub-Git-Stand (NAS)
-- cf43d039 logbuch-radar 23.08.2026: Radar-Briefing im Logbuch, SharePoint-Zugriff Bajrami neu im Register
+- e7062bb7 vollgas-fruehwarnung 23.08.2026: STILL, keine Mail; Destillat-Front steht seit 17.08. ohne Tokenverbrauch (Befund fuer den Radar)

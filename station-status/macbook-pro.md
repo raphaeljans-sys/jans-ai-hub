@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 07:16:33
+Stand: 23.08.2026 07:26:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:04)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 07:16:33
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 30fc814d nas-selfcommit: 1 Datei(en) 2026-08-23 07:15
+- e7062bb7 vollgas-fruehwarnung 23.08.2026: STILL, keine Mail; Destillat-Front steht seit 17.08. ohne Tokenverbrauch (Befund fuer den Radar)
