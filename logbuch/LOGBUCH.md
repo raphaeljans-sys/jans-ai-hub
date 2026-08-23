@@ -8062,3 +8062,5 @@ Frage. Details: `wissen/architekten-synobsis/CHANGELOG.md` 2026-08-23 (05:30-Slo
 
 Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
 keine destruktive Aktion. Budget dieses Zyklus: rund 1.1 von 5 USD.
+
+- 2026-08-23 08:55 (Widerrufs-Queue) angemeldet 260823-085517-38206 — 3. Nachfassen Massaufnahme innere Verglasung, KISPI PPTS Los 274.01 (Frist Di 25.08.) (faellig 07:00)

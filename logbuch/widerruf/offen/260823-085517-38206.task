@@ -1,0 +1,9 @@
+id=260823-085517-38206
+typ=mail
+was=3. Nachfassen Massaufnahme innere Verglasung, KISPI PPTS Los 274.01 (Frist Di 25.08.)
+an=livdin.bajrami@jegen.ch
+angemeldet=2026-08-23 08:55
+faellig_ts=1787547617
+faellig=2026-08-24 07:00
+station=Macbookpro
+befehl=bash /Volumes/daten/jans-ai-hub/scripts/versand-mail-senden.sh 'KISPI PPTS Los 274.01: Termin Massaufnahme innere Verglasung' /Volumes/daten/jans-ai-hub/logbuch/widerruf/bodies/260823-jegen-massaufnahme.txt livdin.bajrami@jegen.ch
