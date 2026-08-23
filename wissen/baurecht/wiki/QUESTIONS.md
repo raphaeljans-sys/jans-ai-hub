@@ -2337,3 +2337,26 @@ eine andere Rechtsgrundlage; die Bemerkungsspalte der Synopse erklärt lediglich
 7 %-Quote entbehrlich wird. Vollständige Arbeitsanweisung im Korrekturvermerk von
 `outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md`.
 Quelle: outputs/2026-07-31_bzo-thalwil-besondere-gebaeude-art24-art45.md
+
+---
+
+## Adress-Nachtrag 23.08.2026 (Fremdlauf: Vertiefungslauf 8 `planungsgrundlagen`, Station Revendo)
+
+**Betrifft:** die oben genannte Bezugsadresse der VSS-Normen, `mobilityplatform.ch/vss-shop`.
+
+**Gemessen 23.08.2026:** Der Pfad `mobilityplatform.ch/vss-shop` liefert `HTTP 200`, landet aber
+auf der **Startseite** `www.mobilityplatform.ch/de` — das Pfadsegment `vss-shop` allein existiert
+nicht mehr. **Der Shop selbst lebt**, die Produktseiten liegen unter `/de/<produktnr>.html`:
+`mobilityplatform.ch/de/vss-shop/product/640052` leitet auf `www.mobilityplatform.ch/de/640052.html`
+(200, Titel «Mobilityplatform 640052»); eine erfundene Produktnummer beantwortet derselbe Server
+ehrlich mit **404**, es liegt also kein Katchall vor.
+
+**Sachlich ändert das nichts** an der Feststellung oben — VSS-Normen bleiben kostenpflichtig und
+sind weiterhin nur dort zu beziehen. Nur die zitierte Adresse ist als Einstieg untauglich
+geworden. **Nicht selbst korrigiert:** der Satz oben steht in einem abgeschlossenen
+Rechercheergebnis dieser KB, und ein Fremdlauf schreibt darin nicht herum.
+
+**Herkunft des Befunds:** neues Prüfwerkzeug `wissen/tools/link-zielabgleich.sh` (vergleicht
+angefragten gegen tatsächlichen Pfad; ein `curl -L`-Statuscode kann diesen Fall nicht sehen).
+Anlass war der Fund, dass der Host `geoportal.zh.ch` abgeschaltet ist und **jeden** Pfad auf die
+Kantons-Startseite umleitet. Werkzeugbeschreibung: `wissen/tools/README.md`.

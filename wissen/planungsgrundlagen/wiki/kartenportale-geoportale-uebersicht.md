@@ -1,7 +1,8 @@
 ---
 title: Geoportale — welches Portal liefert was
 status: established
-last_updated: 2026-08-01 (Wartungslauf 02: Landschaftsmodell-URL nur mit www. aufrufbar)
+last_updated: 2026-08-23 (Vertiefungslauf 8: Host geoportal.zh.ch abgeschaltet — Katchall-Umleitung
+  auf die Kantons-Startseite, Ersatzweg ueber geolion.zh.ch + Geoshop-API nachgemessen)
 link_status: "Die sources-Liste unten ist ein HISTORISCHES Herkunftsprotokoll (was wann gelesen wurde),
   keine Liste lebender Adressen — sie wird bewusst nicht rueckwirkend umgeschrieben. Stand
   Frischecheck 2026-07-30: `geoglatt.ch` ABGESCHALTET (Domain nicht mehr delegiert),
@@ -184,8 +185,38 @@ Baumkataster-Geoportal, gemeinde-/portalspezifisch zu klären.
 
 ## ZH Geoportal OGD-Bestellportal `geoportal.zh.ch/opendata` — Datensatz-Nummern (K44, Run 51, 2026-07-18)
 
+> ⚠ **Der Host `geoportal.zh.ch` ist abgeschaltet (gemessen 23.08.2026, Vertiefungslauf 8).**
+> Er antwortet auf **jeden** Pfad mit `HTTP 301` auf `www.zh.ch/de.html`, die Startseite des
+> Kantons — auch auf einen frei erfundenen (`/gibtesnichtxyz123` → dasselbe Ziel, Gegenprobe
+> gelaufen). Der unten beschriebene **Warenkorb-Bestellweg existiert nicht mehr**; die
+> **Datensatznummern gelten unverändert weiter** (unten belegt).
+>
+> **Warum das sechs Endpunktläufe überstanden hat:** `curl -L` folgt der Umleitung und meldet
+> `200`. Weder `link-frischecheck.sh` noch eine Sichtprüfung des Statuscodes kann diesen Fall
+> sehen — unter einem solchen Katchall-Host ist **jede** Adresse grün, auch eine erfundene.
+> Der Befund stammt vom Vergleich **angefragter gegen tatsächlicher Pfad**; dafür gibt es seit
+> diesem Lauf `wissen/tools/link-zielabgleich.sh`.
+>
+> **Ersatzweg, vollständig nachgemessen 23.08.2026 — die Nummern tragen weiter:**
+> - **Metadaten je Nummer:** `geolion.zh.ch/geodatensatz/show?gdsid=<Nr>` leitet auf die
+>   Datensatzseite. Inhaltlich verifiziert: `10102` → Seite `3152.html`, Titel «ÖREB-Kataster;
+>   Abstandslinien (öffentlich-rechtliche Eigentumsbeschränkungen)», Datenherr Amt für
+>   Raumentwicklung, Geoinformation/Kataster; `555` → `4269.html`, «Digitales Terrainmodell
+>   (DTM) 2021 bis 2022». ⚠ Auch Geolion hat ein Katchall-Verhalten, aber ein **unterscheidbares**:
+>   eine unbekannte `gdsid` landet auf dem Index (`/meta?activetab=geodatensatzindex`), nicht auf
+>   einer Datensatzseite. Wer prüft, schaut auf den **Titel der Zielseite**, nicht auf den Code.
+> - **Datenbezug:** über die bereits dokumentierte **Geoshop-API** `geoservices.zh.ch/geoshopapi/v1`
+>   und damit über den vorhandenen Connector `geoshop-zh.mjs --list`. Alle vier Nummern stehen
+>   dort mit identischer Bezeichnung und OGD-Kennzeichnung im Katalog (247 Produkte, gemessen
+>   23.08.2026), samt Formatliste — z.B. `10102` als Shapefile/INTERLIS1/DXF/GeoPackage,
+>   `555` als GeoTIFF oder ASCII X,Y,Z, `557` als LAZ.
+>
+> Der Bezugsweg ist damit **nicht verloren, sondern verlagert**: vom interaktiven Warenkorb auf
+> die API, die JANS ohnehin per Connector bedient. Die Aussage «kein bekannter
+> Ein-Klick-Endpunkt» weiter unten ist dadurch überholt.
+
 Neben dem **Live-WFS** (`maps.zh.ch/wfs/OGDZHWFS`, Punktabfrage im Connector) und dem **CH-Portal**
-`geodienste.ch` gibt es als dritten ZH-Bezugsweg das **Bestell-/Download-Portal**
+`geodienste.ch` gab es als dritten ZH-Bezugsweg das **Bestell-/Download-Portal**
 `geoportal.zh.ch/opendata` (Baudirektion, Amt für Raumentwicklung, Fachstelle Geoinformation):
 Warenkorb-Bestellung eines ganzen Datensatzes für einen Perimeter, Lieferung per **Lieferschein +
 Download** an die Bestell-E-Mail (kein Login nötig, OGD = **kostenlos**, keine Preisangabe auf dem
@@ -211,6 +242,14 @@ Grundlagen für 3D-/Massenmodelle) — ZH-lokal als zweite Quelle. Status `estab
 Nummern aus realen amtlichen Lieferscheinen, nicht geraten); ein REST-Direktbezug je Nr. ist **nicht**
 getestet (Bestellung läuft über den interaktiven Warenkorb, kein bekannter Ein-Klick-Endpunkt) →
 **kein** Connector-`--produkt`-Versprechen, nur Referenztabelle.
+
+⚠ **Überholt (23.08.2026, Vertiefungslauf 8):** Der interaktive Warenkorb ist mit dem Host
+`geoportal.zh.ch` weggefallen (siehe Warnblock am Anfang dieses Abschnitts). Alle vier Nummern
+stehen im Katalog der **Geoshop-API** und sind damit sehr wohl maschinell bestellbar —
+`geoshop-zh.mjs` listet sie mit Formaten auf. Ein `--produkt`-Versprechen bleibt trotzdem
+ungedeckt: gemessen ist der **Katalog** (`--list`, read-only), **nicht** eine ausgelöste
+Bestellung. Eine echte Bestellung geht an eine Amtsstelle und ist deshalb bewusst nicht
+probehalber abgesetzt worden.
 
 ## Weitere Kantone/regionale Portale (K17/K18, Run 25 2026-07-13, niedrige Priorität)
 

@@ -53,6 +53,62 @@ Geänderte Dateien: `skills/planungsgrundlagen/connectors/geo-sz.mjs` (Themensta
 (+21/−1), `wiki/QUESTIONS.md` (Laufeintrag, append-only bestätigt), `CHANGELOG.md`. Alle Umfänge
 mit `git diff --numstat` gegen die Laufbasis `8f7a0da7` gemessen.
 
+## 2026-08-23 (Vertiefungslauf 8 Revendo) — ein abgeschalteter Host, den sechs Läufe für erreichbar gehalten haben
+
+Achter Lauf am selben Auftrag. Lauf 6 mass die Nutzdaten von `geo-zh` und den Bund-Endpunkten,
+Lauf 7 die der vier übrigen Connectoren. Ungeprüft war die dritte Gruppe: die **in den Artikeln
+zitierten Adressen** — und deren Messwerkzeug hat eine Lücke derselben Familie.
+
+**Befund, korrigiert — der Host `geoportal.zh.ch` ist abgeschaltet.** Er antwortet auf `/opendata`
+mit `HTTP 301` auf `www.zh.ch/de.html`, die Kantons-Startseite. Gegenprobe mit einem frei
+erfundenen Pfad: **dasselbe Ziel, ebenfalls 200.** Der ganze Host ist ein Katchall, unter dem
+keine einzige Adresse mehr per Statuscode prüfbar ist. Betroffen war der Abschnitt «ZH Geoportal
+OGD-Bestellportal» in [[kartenportale-geoportale-uebersicht]] (K44, Run 51) mit Bestellweg und
+vier GIS-ZH-Datensatznummern — belegt aus echten amtlichen Lieferscheinen und deshalb inhaltlich
+nie verdächtig. **Sechs Endpunktläufe desselben Tages haben es nicht gesehen**, weil `curl -L`
+der Umleitung folgt und `200` meldet.
+
+**Der Bezugsweg ist nicht verloren, sondern verlagert — vollständig nachgemessen.** Die
+Datensatznummern gelten weiter: `geolion.zh.ch/geodatensatz/show?gdsid=<Nr>` liefert die
+Metadaten (inhaltlich verifiziert: `10102` → «ÖREB-Kataster; Abstandslinien», `555` → «Digitales
+Terrainmodell (DTM) 2021 bis 2022»), der Datenbezug läuft über die bereits dokumentierte
+Geoshop-API `geoservices.zh.ch/geoshopapi/v1` — alle vier Nummern stehen dort mit identischer
+Bezeichnung, OGD-Kennung und Formatliste im Katalog und sind mit dem vorhandenen
+`geoshop-zh.mjs --list` abrufbar. **Keine Bestellung ausgelöst**, die ginge an eine Amtsstelle;
+gemessen ist der Katalog, read-only. ⚠ Auch Geolion hat ein Katchall-Verhalten, aber ein
+unterscheidbares: eine unbekannte `gdsid` landet auf dem Index statt auf einer Datensatzseite —
+wer prüft, schaut auf den **Titel** der Zielseite.
+
+**Neues Werkzeug `wissen/tools/link-zielabgleich.sh`** (+ `.py`), viertes im Werkzeugkasten neben
+Form, Zugang und Inhalt: es prüft das **Ziel**. Vergleicht angefragten gegen tatsächlichen Pfad
+und weist einen Katchall durch eine Host-Gegenprobe mit erfundenem Pfad nach. **Abnahme:** findet
+den `geoportal.zh.ch`-Fall wieder; über `energie`, `baurecht` und `normen` **null Fehlalarme** in
+der schweren Klasse. Umleitungen und 404 werden bewusst nur nachrichtlich geführt — beides ist
+Sache der Schwester-Werkzeuge.
+
+**Cross-KB übergeben:** `mobilityplatform.ch/vss-shop` landet auf der Startseite; der VSS-Shop
+lebt, nur das Pfadsegment ist weg (Produktseiten heute `/de/<produktnr>.html`, verifiziert;
+erfundene Nummer → ehrlicher 404). **→ übergeben an `wissen/baurecht`**, dort als
+«Adress-Nachtrag 23.08.2026» in `wiki/QUESTIONS.md` eingetragen (F-UEBERGABE-Klausel).
+
+**Vier Adressen geprüft und ohne Befund bestätigt:** die tote ISOS-Altadresse (in
+[[kartenportale-denkmalschutz-isos]] bereits korrekt vermerkt), der Stadt-Zürcher GeoShop
+(200, faktisch Cookie-/Login-Seite — die Übersicht führt den Account-Zwang schon), die
+praever→bsvonline-Umleitung und die selbstheilende SZ-Weisung unter Asset-Nr. 46976.
+`shop.sia.ch/normenwerk/architekt/380_2022_d` antwortet reproduzierbar **500** — nicht geändert,
+denn ein Serverfehler ist kein Beleg für eine tote Adresse; beim nächsten Wartungslauf erneut
+messen.
+
+**Die verallgemeinerbare Regel:** ein HTTP-200 belegt, dass **irgendeine** Seite ausgeliefert
+wurde, nicht dass es die bestellte ist. Dieselbe Familie wie Lauf 6 (formal gültiges, aber leeres
+WMS-Bild) und Lauf 7 (`ThemeWithoutData`): **eine Antwort ist keine Auskunft.**
+
+Geänderte Dateien: `wissen/tools/link-zielabgleich.sh` + `.py` (neu) · `wissen/tools/README.md`
+(viertes Werkzeug) · `wiki/kartenportale-geoportale-uebersicht.md` (Warnblock, Ersatzweg,
+überholte Ein-Klick-Aussage, Frontmatter) · `wiki/QUESTIONS.md` (Laufeintrag, Werkzeugkasten) ·
+`wissen/baurecht/wiki/QUESTIONS.md` (Cross-KB-Nachtrag) ·
+`outputs/2026-08-23_vertiefung-8-zielabgleich-links.md`.
+
 ## 2026-08-23 (Vertiefungslauf 6 Revendo) — erste funktionale Endpunktprüfung: zwei stumme Fehler, davon ein echter Connector-Bug seit 06/2026
 
 Sechster Lauf am selben Auftrag, aber mit einem anderen Messmittel. Die bisherigen Endpunktläufe

@@ -10,13 +10,22 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > deshalb offen stehen, bis Raphael neues Quellmaterial in die PL-Ordner legt oder ein reales
 > Projekt sie auslöst; sie sind **keine** Aufgaben des Wartungslaufs.
 >
-> **Werkzeuge des Wartungslaufs (seit 23.08.2026 zu dritt):** neu dazugekommen ist
+> **Werkzeuge des Wartungslaufs (seit 23.08.2026 zu viert):** als viertes kam am selben Tag
+> `bash wissen/tools/link-zielabgleich.sh <kb>` dazu — es prüft, ob ein zitierter Link dort
+> **landet**, wo er hinzeigt. Anlass: der Host `geoportal.zh.ch` ist abgeschaltet und leitet
+> **jeden** Pfad auf die Kantons-Startseite um; `link-frischecheck.sh` meldet dafür `200`, weil
+> es dem Redirect folgt und nur den Endstatus misst. **Ein HTTP-200 belegt, dass irgendeine Seite
+> ausgeliefert wurde, nicht dass es die bestellte ist.** Grenzen: es liest die Zielseite nicht
+> inhaltlich, und ein Treffer ist ein Prüfauftrag, kein Fehler. Details:
+> `wissen/tools/README.md`.
+>
+> Das dritte Werkzeug ist
 > `bash wissen/tools/kennwert-recompute.sh <kb> [--raw]` — es rechnet die Kennwerte einer KB
 > gegen ihre eigenen Bezugsgrössen zurück und meldet, wo sie nicht aufgehen. Es hat im
 > Abnahmelauf **beide** Fehler wiedergefunden, die am 23.08.2026 von Hand entdeckt wurden
 > (Vorlagen-Kontamination in `grobkosten`, eine Einzelzelle in `immobilienbewertung`), bei
-> **null Fehlalarmen** über alle vierzehn übrigen Wissensbasen. Übersicht und Grenzen aller drei
-> Werkzeuge: `wissen/tools/README.md` (neu). Für diese KB meldet es **keine Befunde** — sie führt
+> **null Fehlalarmen** über alle vierzehn übrigen Wissensbasen. Übersicht und Grenzen aller vier
+> Werkzeuge: `wissen/tools/README.md`. Für diese KB meldet es **keine Befunde** — sie führt
 > fast nur Rechtsinhalte, kaum eigene Zahlen.
 >
 > **Werkzeuge des Wartungslaufs (seit 01.08.2026):**
@@ -66,6 +75,83 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > §4 verschieben — Quelle `wissen/normen/destillate/vkf-brl-10-15-fassung-2019-delta.md`.
 > Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
 > allein im Laufbericht verpufft.
+
+## Lauf 2026-08-23 (Vertiefungslauf 8 Revendo, Auftrag Raphael) — ein abgeschalteter Host, den sechs Läufe für erreichbar gehalten haben
+
+**Auftrag:** wie Lauf 6 und 7 — Endpunkte, Links und Connector-Wege verifizieren, belegt arbeiten.
+**Winkel:** Lauf 6 hat die Nutzdaten von `geo-zh` und den Bund-Endpunkten gemessen, Lauf 7 die der
+vier übrigen Connectoren. Ungeprüft geblieben ist die dritte Gruppe: die **in den Artikeln
+zitierten Adressen**. Für die gibt es `link-frischecheck.sh` — und genau dessen Messmethode hat
+eine Lücke derselben Familie.
+
+### Befund 1 (schwer) — der Host `geoportal.zh.ch` ist abgeschaltet und verschluckt jeden Pfad
+
+`geoportal.zh.ch/opendata` antwortet mit `HTTP 301` auf `www.zh.ch/de.html`. Gegenprobe mit einem
+frei erfundenen Pfad (`/gibtesnichtxyz123`): **dasselbe Ziel, ebenfalls 200.** Der ganze Host ist
+ein Katchall; unter ihm ist **keine** Adresse mehr per Statuscode prüfbar.
+
+Betroffen ist der Abschnitt «ZH Geoportal OGD-Bestellportal» in
+[[kartenportale-geoportale-uebersicht]] (K44, Run 51) samt dem hier unter K44 protokollierten
+Bezugsweg — beides aus echten amtlichen Lieferscheinen belegt und deshalb inhaltlich nie
+verdächtig gewesen. **Sechs Endpunktläufe desselben Tages haben es nicht gesehen**, weil
+`curl -L` der Umleitung folgt und `200` meldet.
+
+**Ersatzweg nachgemessen, die Datensatznummern gelten weiter:**
+- **Metadaten:** `geolion.zh.ch/geodatensatz/show?gdsid=<Nr>` — inhaltlich verifiziert für `10102`
+  (→ `3152.html`, «ÖREB-Kataster; Abstandslinien») und `555` (→ `4269.html`, «Digitales
+  Terrainmodell (DTM) 2021 bis 2022»).
+- **Datenbezug:** die schon dokumentierte Geoshop-API `geoservices.zh.ch/geoshopapi/v1`. Alle vier
+  Nummern (555 · 557 · 10016 · 10102) stehen im Katalog mit identischer Bezeichnung, OGD-Kennung
+  und Formatliste — abrufbar mit dem vorhandenen `geoshop-zh.mjs --list`. **Keine Bestellung
+  ausgelöst** (die ginge an eine Amtsstelle); gemessen ist der Katalog, read-only.
+
+⚠ Auch Geolion hat ein Katchall-Verhalten, aber ein **unterscheidbares**: eine unbekannte `gdsid`
+landet auf dem Index, nicht auf einer Datensatzseite. Wer prüft, schaut auf den **Titel**.
+
+### Befund 2 (Werkzeug) — neues `wissen/tools/link-zielabgleich.sh`
+
+Die Regel dahinter ist mechanisiert: **ein HTTP-200 belegt, dass irgendeine Seite ausgeliefert
+wurde, nicht dass es die bestellte ist.** Das Werkzeug vergleicht angefragten gegen tatsächlichen
+Pfad und weist einen Katchall durch eine Host-Gegenprobe mit erfundenem Pfad nach. Klassen:
+KATCHALL · STARTSEITE (Befunde) · UMGELEITET · SOFT404 (nachrichtlich, weil Sache der
+Schwester-Werkzeuge). Es nimmt den Hub, in dem es liegt, und schreibt ihn in den Ausgabekopf
+(Muster von `kennwert-recompute`, wegen der NAS/lokal-Falle im Kopf dieser Datei).
+
+**Abnahme:** findet den `geoportal.zh.ch`-Fall wieder; über `energie`, `baurecht` und `normen`
+**null Fehlalarme** in der Klasse KATCHALL. Beschreibung und Grenzen: `wissen/tools/README.md`.
+
+### Befund 3 (Cross-KB, übergeben) — `mobilityplatform.ch/vss-shop` → Startseite
+
+Der VSS-Shop lebt, nur das Pfadsegment ist weg (Produktseiten heute `/de/<produktnr>.html`,
+inhaltlich verifiziert; erfundene Produktnummer → ehrlicher 404, kein Katchall). Betrifft eine
+Bezugsadresse in `wissen/baurecht`. **→ übergeben an `wissen/baurecht`**, dort als
+«Adress-Nachtrag 23.08.2026» in `wiki/QUESTIONS.md` eingetragen (F-UEBERGABE-Klausel, Rule
+`wissens-bibliothekar`). Der abgeschlossene Recherchesatz dort wurde **nicht** von aussen
+umgeschrieben.
+
+### Geprüft und ohne Befund
+
+- **ISOS `www.bak.admin.ch/bak/de/home/baukultur/isos-und-ortsbildschutz/`** (404, 491 KB
+  dekorierte Fehlerseite) ist in [[kartenportale-denkmalschutz-isos]] **bereits korrekt** als tote
+  Altadresse vermerkt (Wartungslauf 01) — kein neuer Fall.
+- **`e-gov.stadt-zuerich.ch/geoshop`** liefert 200, faktisch aber eine Cookie-Fehlerseite; mit
+  Cookie-Jar landet man auf `login.stadt-zuerich.ch`. Die Übersicht führt den Zugang schon als
+  «Account (kostenpflichtig/registriert)» — **bestätigt**, nicht korrigiert.
+- **`praever.ch/de/bs/vs`** leitet sauber auf `bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015`
+  — deckt sich mit dem Vermerk in [[brandschutz-pl03-wegweiser]].
+- **`sz.ch/…/stb_70_20_weisung_…pdf`** (Steuerabzug-Artikel) wird unter derselben Asset-Nr. 46976
+  auf `Weisung_ueber_Liegenschaftskosten_und_Photovoltaik_LKPV.pdf` umgeleitet — der Link heilt
+  sich selbst, der zitierte Titel stimmt bereits.
+- **`shop.sia.ch/normenwerk/architekt/380_2022_d`** antwortet reproduzierbar **HTTP 500** (zweimal
+  gemessen). Nicht geändert: die Fundstelle in [[recht-norm-ahb-stadt-zuerich-projektstandards]]
+  wurde am selben Tag erfolgreich abgerufen, ein 500 ist ein Serverfehler und **kein** Beleg für
+  eine tote Adresse. Beim nächsten Wartungslauf erneut messen.
+
+### Nicht angetastet
+
+Die inhaltlichen K/R/C/D-Punkte (laut Zuständigkeitsvermerk keine Aufgabe eines Endpunktlaufs),
+**C-BSP-2026** (Bring-Schuld an `normen`, unverändert blockiert) und der Nachzug der beiden
+VKF-Fassungs-Vorbehalte.
 
 ## Lauf 2026-08-23 (Vertiefungslauf 7 Revendo, Auftrag Raphael) — die vier bisher ungeprüften Connectoren; OEREB ist auch maschinenlesbar zu haben
 

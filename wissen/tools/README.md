@@ -1,16 +1,17 @@
 # wissen/tools — Prüfwerkzeuge für den Wissens-Layer
 
-Drei Werkzeuge, die je eine andere Frage an eine Wissensbasis stellen. Sie ersetzen einander
-nicht: eine KB kann strukturell tadellos sein, alle Adressen erreichbar haben und trotzdem
-falsche Zahlen führen.
+Vier Werkzeuge, die je eine andere Frage an eine Wissensbasis stellen. Sie ersetzen einander
+nicht: eine KB kann strukturell tadellos sein, alle Adressen erreichbar haben, jeden Link
+sauber ans Ziel bringen und trotzdem falsche Zahlen führen.
 
 | Werkzeug | Frage | Angelegt |
 |---|---|---|
 | `wiki-konsistenz.sh` | **Form** — Frontmatter, INDEX-Registrierung, lösen die Backlinks auf? | 28.07.2026 |
 | `link-frischecheck.sh` | **Zugang** — sind die zitierten Adressen erreichbar? | 01.08.2026 |
 | `kennwert-recompute.sh` | **Inhalt** — gehen die Kennwerte gegen ihre eigenen Bezugsgrössen auf? | 23.08.2026 |
+| `link-zielabgleich.sh` | **Ziel** — landet ein Link dort, wo er hinzeigt? | 23.08.2026 |
 
-Alle drei melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
+Alle vier melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
 also für einen Wartungslauf.
 
 ## Aufruf
@@ -19,6 +20,7 @@ also für einen Wartungslauf.
 bash wissen/tools/wiki-konsistenz.sh    [<kb> …]
 bash wissen/tools/link-frischecheck.sh  <kb> [--out <datei.tsv>]
 bash wissen/tools/kennwert-recompute.sh [<kb> …] [--toleranz <prozent>] [--hub <pfad>] [--raw]
+bash wissen/tools/link-zielabgleich.sh  <kb> [--hub <pfad>] [--out <datei.psv>]
 ```
 
 Ohne `<kb>` prüfen `wiki-konsistenz` und `kennwert-recompute` alle Wissensbasen mit `wiki/`.
@@ -38,11 +40,67 @@ und nachgemessen — der NAS-Klon lag einen Commit zurück, nämlich den mit der
 `git -C /Volumes/daten/jans-ai-hub log --oneline -1` gegen den lokalen Stand. **Ein
 unverändertes Werkzeug-Ergebnis unmittelbar nach einem Edit ist kein Befund, sondern Latenz.**
 
-`kennwert-recompute.sh` macht es bewusst anders: es nimmt den Hub, **in dem es selbst liegt**,
-lässt ihn per `--hub` überschreiben und **schreibt ihn in die erste Zeile der Ausgabe**. Damit
+`kennwert-recompute.sh` und `link-zielabgleich.sh` machen es bewusst anders: sie nehmen den Hub,
+**in dem sie selbst liegen**, lassen ihn per `--hub` überschreiben und **schreiben ihn in die
+erste Zeile der Ausgabe**. Damit
 ist nie unklar, was gemessen wurde. Ein Umbau der beiden älteren Werkzeuge auf dasselbe Muster
 (`HUB="${JANS_HUB:-/Volumes/daten/jans-ai-hub}"`) wäre einzeilig, ist aber ein Eingriff in
 Werkzeuge, die alle Stationen aufrufen — Entscheid Raphaels.
+
+## Warum es `link-zielabgleich` gibt
+
+`link-frischecheck.sh` misst mit `curl -L -o /dev/null` den HTTP-Code der **Endadresse**. Ein
+Server, der jeden unbekannten Pfad per 301 auf seine Startseite schickt, liefert damit für
+**jede** erfundene Adresse ein sauberes `200`.
+
+Belegt am 23.08.2026 (Vertiefungslauf 8 `planungsgrundlagen`): der Host **`geoportal.zh.ch`** ist
+abgeschaltet und leitet **alles** — auch `/gibtesnichtxyz123` — auf `www.zh.ch/de.html`. Die KB
+führte darunter einen ganzen Abschnitt mit Bestellweg und vier GIS-ZH-Datensatznummern, belegt
+aus echten amtlichen Lieferscheinen. **Sechs vorangegangene Endpunktläufe** desselben Tages haben
+das nicht gesehen, weil alle den Statuscode gemessen haben, und der ist grün.
+
+**Die Lehre, die das Werkzeug mechanisiert:** ein HTTP-200 belegt, dass *irgendeine* Seite
+ausgeliefert wurde — nicht, dass es die bestellte ist. Massgeblich ist der Vergleich zwischen
+**angefragtem und tatsächlichem Pfad**. Das ist dieselbe Familie wie der Befund aus
+Vertiefungslauf 6 (leeres, aber formal gültiges WMS-Bild) und aus Lauf 7 (`ThemeWithoutData`):
+**eine Antwort ist keine Auskunft.**
+
+### Was geprüft wird
+
+Nur Adressen **mit Pfad**. Ein blanker Host kann per Definition nicht am falschen Ort landen;
+dafür ist `link-frischecheck` zuständig. Befundklassen:
+
+- **KATCHALL** — der Host schluckt jeden Pfad und liefert die Startseite. Nachgewiesen durch eine
+  **Gegenprobe mit einem frei erfundenen Pfad** je verdächtigem Host; ohne sie wäre jede einzelne
+  tote Unterseite eines gesunden Servers fälschlich ein Katchall. Schwerster Befund: unter einem
+  solchen Host ist **keine** Adresse mehr per Statuscode prüfbar.
+- **STARTSEITE** — Deep-Link landet auf einer Startseite, Host-Gegenprobe unauffällig: die
+  einzelne Seite ist weg, der Server ist gesund.
+- **UMGELEITET** — anderer, weiterhin tiefer Pfad. Nachrichtlich, **kein** Befund und nicht im
+  Exit-Code: bei jedem CMS-Relaunch der Normalfall. Fängt aber auch die stillen Umbenennungen —
+  z.B. dass die Schwyzer Weisung unter derselben Asset-Nummer heute
+  `Weisung_ueber_Liegenschaftskosten_und_Photovoltaik_LKPV.pdf` heisst.
+- **SOFT404** — Status 404 mit grossem Antwortkörper. Ebenfalls nachrichtlich: der Code ist
+  ehrlich und damit Sache von `link-frischecheck`; hier steht es nur, weil die Antwortgrösse
+  leicht als ausgeliefertes Dokument missdeutet wird.
+
+### Bewusste Grenzen
+
+- Es liest die Zielseite **nicht inhaltlich**. Ob dort das richtige Dokument steht, bleibt
+  Handarbeit — die Regel aus Lauf 6 gilt weiter.
+- **Ein Treffer ist ein Prüfauftrag, kein Fehler.** Jeder Befund gehört an seiner Quellzeile
+  geprüft, bevor etwas geändert wird (Prosa-Artefakte werden zwar erkannt, aber nicht alle:
+  verkürzte Zitate wie `zh.ch/energienachweise` statt der vollen Adresse sehen wie Deep-Links aus).
+- Auch das *Ersatz*-Portal kann ein Katchall sein. Geolion etwa beantwortet eine unbekannte
+  `gdsid` mit dem Index statt mit einer Datensatzseite — unterscheidbar, aber nur am **Titel**
+  der Zielseite, nicht am Code.
+
+### Abnahmestand 23.08.2026
+
+Findet den `geoportal.zh.ch`-Fall wieder, der am selben Tag von Hand entdeckt wurde. Läufe über
+`energie`, `baurecht` und `normen`: **null Fehlalarme** in der Klasse KATCHALL, dazu ein echter
+Zusatzfund in `baurecht` (`mobilityplatform.ch/vss-shop` → Startseite; der VSS-Shop lebt, nur
+das Pfadsegment ist weg — Produktseiten liegen heute unter `/de/<produktnr>.html`).
 
 ## Warum es `kennwert-recompute` gibt
 
