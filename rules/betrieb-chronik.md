@@ -19,6 +19,20 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 2026-08-23 21:20 — zweiter stale `.git/index.lock` am selben Tag, nach kollidiertem Rebase (Buch-Run 93)
+
+Waehrend des Baurecht-Buch-Trainings (Run 93, `wissen/baurecht`) kollidierte der ausgeloeste
+`nas-selfcommit.sh`-Lauf (21:19:52) mit dem 15-Min-Cron (21:15) auf `.git/index.lock`: Log zeigte
+«error: could not detach HEAD … rebase fehlgeschlagen — abgebrochen». Der Commit selbst
+(`fd4ef28d`, Run 93) war bereits lokal geschrieben, nur der anschliessende Rebase+Push scheiterten.
+Gegengeprueft: kein `rebase-merge`/`rebase-apply`-Verzeichnis vorhanden (kein echter Rebase-Rest),
+Lock-Datei 0 Byte, ca. 5 Min. alt. Umkehrbar behoben: `mv .git/index.lock
+/tmp/index.lock.buchrun93-<timestamp>` (nicht geloescht), danach lief `nas-selfcommit.sh` sofort
+durch. Ergebnis: Commit `af0e6b2f` gepusht, `git log`/`git status` auf der Synology verifiziert.
+Gleiche Fehlerfamilie wie 16:23 desselben Tages (Eintrag unten) — der 15-Min-Cron und ein manuell
+ausgeloester Lauf kollidieren, sobald beide fast gleichzeitig laufen; bislang kein Schaden, aber
+zweiter Vorfall am selben Tag ist ein Muster, kein Einzelfall.
+
 ## 2026-08-23 16:23 — stale `.git/index.lock` auf der Synology, per `mv` beseitigt
 
 Waehrend der QUESTIONS.md-Abarbeitung in `planungsgrundlagen` blieb `nas-commit-now.sh` mehrfach
