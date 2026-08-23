@@ -3,10 +3,23 @@ quelle: «SI-Saphir M175-M180 — Monokristallines Doppelglasmodul» (SI Module 
 herausgeber: SI Module GmbH, Bötzinger Straße 21c, D-79111 Freiburg; Megasol Energie AG, CH
 ausgabe: SI-Saphir Stand 06/2015; Megasol Version 10/2022 (Art.-Nr. 0322.1580)
 gelesen: SI-Saphir S. 1-2 vollständig; Megasol S. 1-2 vollständig
-datenstand: 2026-08-21 (SI-Saphir 06/2015 ⚠ 10 Jahre alt, Megasol 10/2022)
-status: established
-last_updated: 2026-08-21
+datenstand: 2026-08-21 (SI-Saphir 06/2015 ⚠ 11 Jahre alt, Megasol 10/2022 ⚠ knapp 4 Jahre alt)
+status: emerging
+last_updated: 2026-08-23
 ---
+
+<!-- Statuskorrektur 23.08.2026 (Run 149, Verifikationsstufe Hauptmodell): Der Transfer-Agent
+hatte `established` gesetzt mit der Begruendung, die Kennwerte stammten unveraendert aus
+offiziellen Herstellerdatenblaettern und liessen keinen Interpretationsspielraum. Das trifft die
+Ablesung, nicht die Aussage. `established` bedeutet in dieser KB, dass eine Aussage heute
+verlaesslich verwendbar ist — bei einem Produktdatenblatt haengt daran zwingend, dass es das
+Produkt mit diesen Kennwerten noch gibt. Der Modulmarkt erneuert sein Sortiment in Zyklen von
+wenigen Jahren; ein Datenblatt von 06/2015 belegt zuverlaessig, was damals lieferbar war, und
+gar nichts ueber heute. Der Alterungsvermerk stand zwar bereits im Frontmatter, blieb aber ohne
+Folge fuer den Status — genau die Lage, vor der die Datenstand-Regel der KB warnt. Deshalb
+`emerging`: die Kennwerte sind korrekt abgelesen und als Groessenordnung brauchbar, die
+Lieferbarkeit ist vor jeder Ausschreibung beim Hersteller zu bestaetigen. -->
+
 
 # Destillat — PV-Spezialmodule für sichtbare Anwendungen: transparent (SI-Saphir) und Premium-Bifazial (Megasol M385)
 > Zwei Moduldatenblätter für architektonisch anspruchsvolle PV-Flächen (Fassade, Vordach, sichtbares

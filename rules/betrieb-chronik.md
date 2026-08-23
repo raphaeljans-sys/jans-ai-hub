@@ -21,6 +21,38 @@ automatically or lazily?»). Konzept:
 
 ---
 
+## 260823 — `nas-commit-now.sh` ist im Buero-LAN wirkungslos: er kennt nur den Tailscale-Namen
+
+Befund aus dem Energie-Lauf Run 149 (Mac Mini, 13:5x). Der Sofort-Committer bricht ab mit
+`ssh: Could not resolve hostname diskstation918.tail8265aa.ts.net`, faellt sauber auf den
+15-Min-Cron zurueck und meldet das auch — die Arbeit ging also nicht verloren (der 13:45-Zyklus
+hat sie erfasst). Die Diagnose zeigt aber, dass der Fehler kein Netzausfall ist:
+
+| Weg | Ergebnis |
+|---|---|
+| Tailscale-Name `diskstation918.tail8265aa.ts.net` | DNS loest nicht auf |
+| Tailscale-IP `100.92.246.28` | 1 Paket gesendet, **100 % Verlust** |
+| LAN-IP `192.168.1.10` | **erreichbar, 0.69 ms** |
+
+Die Station stand also im Buero-LAN, **0.69 ms vom NAS entfernt**, und der Committer scheiterte
+trotzdem, weil er ausschliesslich den Tailscale-Weg kennt. Das ist genau die Lage, vor der das
+Wege-Register warnt: ein vorhandener Weg, den das Werkzeug nicht kennt, ist so gut wie keiner
+(Rule `wege-und-vollmachten`, Anlassfall KISPI 09.08.2026).
+
+**Folge, solange das so bleibt:** jeder Lauf, der sofort committen will, wartet faktisch bis zu
+15 Minuten auf den Cron. Fuer die Loops ist das folgenlos, fuer eine interaktive Sitzung, die
+danach am SSD-Klon weiterarbeiten will, nicht.
+
+**Naheliegende Behebung, NICHT ausgefuehrt:** dem Script einen Fallback auf die LAN-IP geben
+(erst Tailscale-Name, dann `192.168.1.10`, beides mit kurzem `ConnectTimeout`). Der Eingriff
+beruehrt einen SSH-Zugangsweg und damit eine der Klassen, die `sync-task-guard.sh` unbeaufsichtigt
+zurueckhaelt — er gehoert deshalb nicht in einen unbeaufsichtigten Lauf, sondern vorgelegt. Offen
+zu klaeren ist ausserdem, **warum** Tailscale auf dieser Station nicht traegt (MagicDNS aus,
+Dienst gestoppt, oder das NAS selbst nicht im Tailnet); erst danach ist entscheidbar, ob der
+Fallback die Loesung oder nur ein Pflaster ueber einem groesseren Ausfall ist. Der Tailscale-Weg
+ist der einzige, der **ausserhalb** des Bueros funktioniert — faellt er unbemerkt aus, merkt es
+niemand, solange die Station im LAN steht.
+
 ## 260817 — Der Auto-Update-Waechter hing 19 h am gewedgeten Binary; Watchdog eingebaut
 
 **Befund (vollgas-radar 17.08. 00:58, MacBook Pro).** `scripts/claude-autoupdate.sh` stand seit dem

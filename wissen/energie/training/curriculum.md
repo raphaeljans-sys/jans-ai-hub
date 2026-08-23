@@ -2532,3 +2532,33 @@ den Falsche-Freunde-Warnblock gewachsen; `[[waermedaemmvorschriften-zh-2022]]` u
 (P1):** Normkauf SIA 380/1:2016 vorlegen; er blockiert die U-Wert-Tabellen **und** die
 Healthcare-Gebäudekategorie (E-R140-1). 2. **E-R148-2 (P2):** Entscheid Raphaels, ob der Loop
 fragengetrieben weiterläuft oder wöchentlich getaktet wird. 3. E-R148-3 (P3).
+
+## Run 149 (21.-23.08.2026) — PL-04 nachgezählt: die Erschöpfung galt nur fürs Register
+
+Der Lauf begann mit der Gegenprüfung der Erschöpfungs-Aussage aus Run 148 und widerlegte sie für
+den Kernordner der Task. Vollzählung `04 Energie` über den Graph-Weg: 122 PDF, 79 ohne
+Registereintrag, davon 57 bewusst nicht geführte Kurs-Einzelseiten und **22 reale, nie erfasste
+Quellen**. Elf davon in diesem Lauf bearbeitet: fünf destilliert bzw. als Nachtrag eingearbeitet,
+sechs als `[-]` entschieden. Neue Falle Nr. 11 im Inventar: **das Register misst sich selbst.**
+
+Fachlich sind drei Dinge dazugekommen. Erstens ein **belegtes Schweizer PV-Fallbeispiel** mit
+vollständiger Kostenstruktur, Wirtschaftlichkeit und Statik-Vorcheck — mit dem Zusatzbefund, dass
+das Dach Ost-West orientiert ist, was den spezifischen Ertrag von rund 830 bis 850 kWh/kWp
+erklärt und ihn als Süddach-Kennwert unbrauchbar macht. Zweitens die **Methodik hinter dem
+EnergieSchweiz-Solarrechner** (Tachion), inklusive Normbezug SIA 380/1, SIA 384/385, ISO 9806 und
+EN 14511 — damit ist ein frei verfügbares Rechenwerkzeug für JANS erschlossen. Drittens
+**Moduldatenblätter für sichtbare PV** (teiltransparent, bifazial).
+
+Verifikationsstufe im Hauptmodell: eine vierte interne Inkonsistenz im SolarReport nachgetragen
+(Jahresproduktion 51'029 gegen 49'579 kWh, woraus die Ertragsbandbreite folgt), ein
+Statusentscheid eines Transfer-Agenten korrigiert (`established` → `emerging` bei einem
+elfjährigen Produktdatenblatt), und die 2021er-Aussage «keine PV-Förderung in ZH» an der
+kantonalen Quelle für 2026 **bestätigt** statt bloss übernommen.
+
+**Nächste Priorität:** 1. **E-R148-1 (P1)** unverändert — Normkauf SIA 380/1:2016, Beschaffungs-
+entscheid Raphaels. 2. **E-R149-1 (P2)** — prüfen, ob zum solarapp-Projekt **Willerzell SZ**
+(Januar 2024) ein SolarReport im Ordner liegt; er wäre die aktuellere und für den Kernkanton
+Schwyz einschlägige Kennwertquelle. 3. **E-R149-2 (P2)** — Pronovo-Richtlinie zur
+Energieförderungsverordnung ziehen, damit die EIV-Tariftabelle in CHF endlich belegt ist.
+4. **E-R149-4 (P2)** — Voraussetzungszeile der Task, Wortlaut liegt in QUESTIONS vor.
+5. Restblock Maison Climat (10 Plandateien) mit einer Sichtung abräumen.

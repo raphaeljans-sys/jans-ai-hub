@@ -172,8 +172,18 @@ Fusszeile vermerkt.
 
 *(Eigene Einordnung JANS, nicht Teil der Quelle)*
 
-Dieser Bericht ist ein automatisiert erzeugtes Vorprojekt eines Anbieter-Tools (SolarApp Beta),
-keine geprüfte Fachplanung. Der Wert für JANS liegt darin, wie ein solches Tool rechnet und in
+**Die fachlich wichtigste Beobachtung steht nicht in den Kennzahlen, sondern in den Inputs
+(Ergänzung Hauptmodell 23.08.2026): dieses Dach ist nach Ost und West orientiert, nicht nach
+Süden.** Anhang 1 gibt für Fläche 1 den Azimut «89° Grad Süd» und für Fläche 2 «-90° Grad Süd»
+an, bei 45° Dachneigung — also die beiden Hälften eines Ost-West-Satteldachs. Damit ist der
+spezifische Ertrag von 827 bis 852 kWh/kWp **kein schlechter Wert, sondern der erwartbare Wert
+für diese Ausrichtung**, und er darf nicht als Schweizer Normalfall gelesen werden. Wer diesen
+Kennwert auf ein Süddach überträgt, rechnet die Anlage zu klein; wer umgekehrt einen
+Süd-Kennwert auf ein Ost-West-Dach anwendet, verspricht dem Bauherrn zu viel. Der Bericht selbst
+kommentiert die Ausrichtung nirgends — sie ist nur aus den Azimut-Zahlen im Anhang zu erkennen.
+
+Dieser Bericht ist im Übrigen ein automatisiert erzeugtes Vorprojekt eines Anbieter-Tools
+(SolarApp Beta), keine geprüfte Fachplanung. Der Wert für JANS liegt darin, wie ein solches Tool rechnet und in
 welcher Bandbreite die Kennwerte bei einer typischen Basler Steildach-Indachanlage liegen (rund
 850 kWh/kWp spezifischer Ertrag, Gestehungskosten rund 9.5 Rp/kWh gegenüber 24 Rp/kWh
 Graustrom, Amortisation um die 20 Jahre bei Eigenfinanzierung). Für eine Bauherren-Antwort ist
@@ -197,6 +207,17 @@ selbst kleinere interne Inkonsistenzen enthält (siehe offene Punkte).
   48'000 kWh. Nicht aufgelöst, welcher Wert der tatsächlichen Verbrauchsannahme entspricht.
 - **CO₂-Reduktion widersprüchlich:** «21'716 kg» in den Kennzahlen (S. 3) vs. «22'351 Kilogramm»
   im Umweltkapitel (S. 7) — vermutlich Rundungs-/Berechnungsvariante, im Dokument nicht erklärt.
+- **⚠ Vierte Inkonsistenz, nachgetragen bei der Verifikation im Hauptmodell (23.08.2026):
+  auch die Jahresproduktion selbst steht doppelt und ungleich im Dokument.** Die
+  Eignungs-Auswertung (S. 4) summiert die beiden Teilflächen auf **51'029 kWh/a**, die
+  Kennzahlen-Kachel (S. 3) und die gesamte Eigenverbrauchs-/Wirtschaftlichkeitsrechnung führen
+  **49'579 kWh/a** — eine Differenz von 1'450 kWh (2.8 %). Das ist nicht bloss ein Schönheits-
+  fehler, weil daran der **spezifische Ertrag** hängt, also genau die Zahl, die aus einem solchen
+  Bericht in eine Bauherren-Antwort wandert: 51'029 / 59.93 kWp ergibt die im Dokument
+  ausgewiesenen **852 kWh/kWp**, 49'579 / 59.93 kWp dagegen nur **827 kWh/kWp**. Wer die
+  Tabellenzahl der Teilflächen zitiert, nennt einen um 3 % höheren Kennwert als die
+  Wirtschaftlichkeitsrechnung desselben Berichts unterstellt. Für die KB gilt daher die
+  **Bandbreite 827 bis 852 kWh/kWp**, nicht der Einzelwert 852.
 - Der Bericht bleibt bei allen Berechnungsgrundlagen bewusst allgemein («PVGIS-Abfrage»,
   «Erfahrungswerte für das gewählte Verbraucherprofil», «Merit Order Effect») — die konkrete
   Rechenmethodik hinter Eigenverbrauchsquote, Amortisation und Rendite ist nicht offengelegt und

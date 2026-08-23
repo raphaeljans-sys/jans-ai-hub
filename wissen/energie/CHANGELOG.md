@@ -1,5 +1,57 @@
 # CHANGELOG
 
+## 2026-08-23 — Run 149: PL-04 nachgezählt, 22 nie erfasste Quellen gefunden, 11 bearbeitet, 3 FAQ neu
+
+Der Lauf begann mit der Gegenprüfung der Erschöpfungs-Aussage aus Run 148 und widerlegte sie für
+den Kernordner der Task. Vollzählung `04 Energie` (Site `/sites/PL`, Graph-Weg, rekursiv):
+**325 Dateien, 122 PDF, 79 ohne Registereintrag** — davon 57 bewusst nicht geführte
+Nachweiskurs-Einzelseiten und **22 reale, nie erfasste Quellen**. Neue Falle Nr. 11 im Inventar:
+**das Register misst sich selbst** — ein Inventar kann nur sagen, was in ihm steht, nie was fehlt.
+Steuerungsgrösse künftig die Ordner-Vollzählung, nicht die Zeilenliste.
+
+**Transfer (11 Positionen, alle am Original gelesen, 4 parallele Sonnet-Subagenten):** neu
+destilliert `solarreport-solarapp-basel-2022` (26 S., Fallbeispiel PV-Vorprojekt MFH Basel mit
+Kostenstruktur, Wirtschaftlichkeit und Statik-Vorcheck SIA 261),
+`tachion-solarrechner-energieschweiz` (28 S., Rechenkern hinter dem EnergieSchweiz-Solarrechner —
+der Dateiname `Usermanual_de.pdf` liess ein Klick-Handbuch vermuten, es ist eine
+Methodik-Dokumentation mit Normbezug SIA 380/1, SIA 384/385, ISO 9806, EN 14511) und
+`pv-spezialmodule-transparent-bifazial-datenblaetter` (teiltransparentes und bifaziales Modul).
+Als Nachtrag eingearbeitet: `sunskin-roof-indach-planung` (Latteneinteilung, Ergänzungsplatten nur
+bis 1'000 m ü. M.) und `minergie-fallstudie-maison-climat` (Objektbeschrieb Biel/Bienne, schliesst
+eine Lücke, die das Destillat selbst vermerkt hatte). Sechs Positionen als `[-]` entschieden.
+Dateinamen-Vermutung «0322 = März 2022» am Megasol-Blatt geprüft und **widerlegt** (Artikelnummer).
+
+**Verifikation im Hauptmodell — drei Korrekturen am Agentenergebnis.** (1) Eine **vierte** interne
+Inkonsistenz im SolarReport nachgetragen: Jahresproduktion 51'029 (S. 4) gegen 49'579 kWh/a
+(S. 3/Wirtschaftlichkeit); daran hängt der spezifische Ertrag, weshalb in der KB nun die
+**Bandbreite 827 bis 852 kWh/kWp** statt des Einzelwerts 852 gilt. (2) Der Azimut-Befund aus
+Anhang 1 («89°» und «-90° Grad Süd» bei 45° Neigung) zeigt ein **Ost-West-Satteldach** — der
+Ertrag ist damit der erwartbare Wert dieser Ausrichtung und kein Süddach-Kennwert; der Bericht
+selbst kommentiert das nirgends. (3) Statusentscheid `established` → **`emerging`** beim
+Moduldatenblatt-Destillat: der Agent hatte die saubere *Ablesung* mit der Verlässlichkeit der
+*Aussage* verwechselt — bei einem Produktdatenblatt von 06/2015 hängt die Verwendbarkeit daran,
+dass es das Produkt noch gibt. Begründung als Kommentar im Frontmatter hinterlegt.
+**Bestätigt statt korrigiert:** die Tachion-Aussage «Förderung in allen Kantonen ausser ZG und ZH»
+(Vermerk «Stand 2021») gilt für ZH weiterhin — Abgleich an zh.ch, Förderprogramm 2026,
+Stand Januar 2026.
+
+**Verdichtung:** **F250** (PV-Förderung ZH: kantonal keine, Bund via Pronovo, KLEIV/GREIV/HEIV,
+Bonus-Erhöhungen per 01.01.2025 — Neigungswinkelbonus integriert 250 → 400 CHF/kW; Transfer: die
+Bonus-Systematik verschiebt die Rechnung zugunsten der Indach-Lösung), **F251** (Ost-West-Dach
+lohnt sich, getragen vom Fallbeispiel und der Eigenverbrauchsmechanik: CHF 178'700 Wert
+eigenverbrauchter gegen CHF 115'015 eingespeister Strom über 40 Jahre, obwohl mengenmässig
+doppelt so viel eingespeist wird), **F252** (transparente und bifaziale Module; das transparente
+Modul rechnet sich dort, wo es ein ohnehin zu bauendes Bauteil ersetzt).
+
+**Nicht getan, bewusst:** die seit Run 129 sachlich falsche Voraussetzungszeile der
+Task-Definition wurde im Wortlaut ausformuliert (QUESTIONS, E-R149-4), aber **nicht** selbst
+geändert — eine unbeaufsichtigte Scheduled Task, die ihre eigene Definition umschreibt, ist der
+Fall für Vorlegen statt Handeln.
+
+Register: `training/pdf-inventar.md`, `destillate/INDEX.md`, `raw/_INGESTED.md`,
+`training/curriculum.md`, `wiki/QUESTIONS.md`, `wiki/BAUHERREN-FAQ.md`.
+Output: `outputs/2026-08-23_energie-run149.md`.
+
 ## 2026-08-23 — Inventar-Reconciliation: 5 liegen gebliebene Stub-Zeilen nachgeführt, 3 Destillate um Vorwärts-Verweis ergänzt
 
 Auftrag war, 5 in `training/pdf-inventar.md` als offen geführte Restpositionen (Zeilen 267,

@@ -1036,3 +1036,51 @@ werthaltigste offene Punkt der KB ist der **Normkauf SIA 380/1:2016** (`logbuch/
 Run 98). Er blockiert zwei Dinge gleichzeitig: die U-Wert-/Q_H,li-Tabellenwerte und — seit Run 148
 belegt — die Gebäudekategorien-Definition, an der die Healthcare-Einstufung E-R140-1 hängt
 (Kat. I mit 35 gegen Kat. VIII mit 70 kWh/m²).
+
+## Nachtrag 2026-08-23 (Run 149): der Korpus PL-04 war NICHT erschoepft — 22 nie erfasste PDF
+
+Run 148 hatte den Korpus fuer erschoepft erklaert. Das galt fuer **PL-02**, und dort stimmt es.
+Fuer **PL-04 Energie** — den Ordner, den die Task ueberhaupt als Quelle nennt — stimmt es nicht.
+Eine frische Vollzaehlung ueber den Graph-Weg (`m365 spo file list --recursive`, Bibliothek
+`04 Energie`, Site `/sites/PL`) ergab **325 Dateien, davon 122 PDF**. Der Abgleich der Basenamen
+gegen `pdf-inventar.md` + `raw/_INGESTED.md` + `destillate/INDEX.md` fand **79 Treffer ohne
+Registereintrag**; davon sind 57 die bekannten Nachweiskurs-Einzelseiten, die nach der
+Kopfregel dieses Inventars bewusst nicht einzeln gefuehrt werden. **Bleiben 22 reale, nie
+erfasste Quellen.**
+
+**Die Lehre ist eine Falle eigener Art (Nr. 11): das Register misst sich selbst.** Seit Run 65
+galt PL-04 als «vollstaendig abgearbeitet», und jeder spaetere Lauf hat diese Aussage aus dem
+Inventar uebernommen, statt sie am Bestand zu pruefen. Ein Inventar kann nur sagen, was in ihm
+steht — nie, was fehlt. Solange die Steuerungsgroesse die Dateiliste ist und nicht der Ordner,
+ist «erschoepft» eine Aussage ueber das Register. Reihe der Fallen jetzt: Dateiname (122) ·
+Ablageort (124/125) · Groesse gegen Seitenzahl (124) · Textextrahierbarkeit (126) · Groesse als
+Dublettenkriterium (128) · Fusszeilenstempel gegen Redaktionsvermerk (129) · spaetere Revision
+statt Dublette (130) · fremder Stempel (132) · Zeilen-Diff statt Wort-Diff (132) · Link-Stub-PDF
+(132) · **Register misst sich selbst (149)**.
+
+### In diesem Lauf bearbeitet (11 von 22)
+
+| Status | Quelle (`/sites/PL/04 Energie/...`) | KB-Datenstand |
+|---|---|---|
+| [x] `Solaranlage/solarapp.ch/Basel/2022-11-05_SolarReport_Version_1-3.pdf` | 2026-08-21 (Run 149; 26 S. vollst.; Fallbeispiel PV-Vorprojekt Schliengerweg Basel, SolarApp-Tool, Richtofferte + Wirtschaftlichkeit + Statik-Vorcheck SIA 261 → `solarreport-solarapp-basel-2022`, status emerging; **vier** interne Inkonsistenzen offengelegt) |
+| [x] `Solaranlage/energieschweiz.ch/Usermanual_de.pdf` | 2026-08-21 (Run 149; 28 S. vollst.; **nicht** ein Klick-Handbuch, sondern die EnergieSchweiz/BFE-Benutzerdoku zum «Tachion-Simulation-Framework», dem Rechenkern hinter dem Solarrechner → `tachion-solarrechner-energieschweiz`, status emerging) |
+| [x] `Solaranlage/C Transparente PV Anlage/Datenblatt_SI-Saphir_M175-M180.pdf` | 2026-08-21 (Run 149; 2 S. vollst.; teiltransparentes Doppelglasmodul, 40 % Lichtdurchlass, Stand 06/2015 → `pv-spezialmodule-transparent-bifazial-datenblaetter`) |
+| [x] `Solaranlage/megasol.ch/1875_0322.1580 M385-HC120-b BF GG U30b_DE.pdf` | 2026-08-21 (Run 149; 2 S. vollst.; bifaziales Glas-Glas-Modul 385 Wp, Version 10/2022 → dasselbe Destillat. ⚠ Die naheliegende Lesart «0322 = Maerz 2022» im Dateinamen ist **widerlegt**: 0322.1580 ist die Artikelnummer) |
+| [x] `Solaranlage/solar-home.ch/Sunskin/Seiten aus sunskinR_roofPlanungUndAusfuehrung_de.pdf` | 2026-08-21 (Run 149; 1 S. vollst.; Montagedetail Latteneinteilung, Ergaenzungsplatten nur bis 1'000 m ue. M. → Nachtrag in `sunskin-roof-indach-planung`) |
+| [~] `wissen.minergie.ch/Maison_Climat/5b68adf1162b93ed5283631899cb38af.pdf` | 2026-08-21 (Run 149; 1 S. vollst.; Objektbeschrieb-Poster «Maison Climat Seelandweg», Biel/Bienne, Buergi Schaerer Architekten, Planung 2020-2021 — Bauteilaufbauten/Kosten/Team als Nachtrag in `minergie-fallstudie-maison-climat` eingearbeitet, das genau diese Luecke selbst vermerkt hatte) |
+| [-] `wissen.minergie.ch/Maison_Climat/612dbe4ccf79ed5f1a876294f708234e.pdf` | 2026-08-21 (Run 149; geprueft: unbeschrifteter Gebaeudequerschnitt ohne Legende/Kennwerte, gleiches Objekt wie oben) |
+| [-] `Solaranlage/prefa.solar/PREFA_Farbsortiment_CH-de.pdf` | 2026-08-21 (Run 149; geprueft: «Farbkarte 2024», reines RAL-/Farbmustersortiment ohne solartechnische Kennwerte; Produktdaten stehen bereits in `prefa-solar-indach-aluminium-dachplatte`) |
+| [-] `Solaranlage/solarapp.ch/Basel/2022-11-05_Belegungsplan_Version_1.pdf` | 2026-08-21 (Run 149; geprueft: Belegungsplan zum selben Projekt APP22-66497, identische Kennwerte → Dublette zu `solarreport-solarapp-basel-2022`) |
+| [-] `endk.ch/Gesuch zur Versickerung von Regenwasser HLS Planer/gesuch_zur_versickerung_von _regenwasser.pdf` | 2026-08-21 (Run 149; geprueft: AWEL-Formular Regenwasser-Versickerung, Grundlage BAFU/UMTEC 2017; einzige Energie-Beruehrung ist eine PV-Checkbox bei den entwaesserten Flaechen — gehoert fachlich in Gewaesserschutz/Baurecht, nicht in diese KB) |
+| [-] `forumenergie.ch/230710_FEZ_Kurse_Fruehling_Sommer_2023_WEB.pdf` | 2026-08-21 (Run 149; geprueft: Kursprogramm-Flyer Fruehling/Sommer 2023, kein Fachinhalt — gleiche Entscheidung wie beim Schwester-Flyer Herbst/Winter 2023 in Run 147) |
+
+### Offen aus diesem Befund (11 Positionen, naechste Prioritaet)
+
+| Status | Quelle (`/sites/PL/04 Energie/...`) | Bemerkung |
+|---|---|---|
+| [ ] `Solaranlage/solarapp.ch/Willerzell/2024-01-09 Belegungsplan Version 1.pdf` | zweites solarapp-Projekt (Willerzell SZ, **Kanton Schwyz** — JANS-Kernkanton), 2024 und damit zwei Jahre juenger als der Basler Bericht. Pruefen, ob ein zugehoeriger SolarReport existiert; der waere die aktuellere Kennwert-Quelle |
+| [ ] `wissen.minergie.ch/Maison_Climat/0_EG.pdf`, `1_2_OG.pdf`, `3_OG.pdf`, `AN_Treppe.pdf` | Geschosspläne des Objekts Maison Climat, mutmasslich ohne energetische Kennwerte — als Block mit einer Sichtung entscheidbar |
+| [ ] `wissen.minergie.ch/Maison_Climat/` — 6 weitere hashbenannte PDF (`77cca976…`, `f26c2ea8…`, `f8e7d7d0…`, `efe0e5cb…`, `ef708028…`, `91b4fe04…`) | Restbestand derselben Projektmappe, 16 bis 114 kB. Nach dem Befund an den zwei gesichteten Dateien mutmasslich Plaene; billig als Block zu entscheiden |
+
+**Steuerungsgroesse kuenftig:** nicht mehr die Zeilen dieses Inventars, sondern die
+Ordner-Vollzaehlung ueber den Graph-Weg gegen die Register. Der Zaehlbefehl steht oben.
