@@ -135,6 +135,84 @@ hier geführt — auch nicht als Einzelfall n=1 mit Kaveat, da die Provenienzket
 sondern in sich widersprüchlich ist. Details: `raw/2202-ackersteinstrasse.md`,
 `raw/2304-reckholdern.md`; offene Klärungsfrage in `wiki/QUESTIONS.md`.
 
+> ### ⚠ Nachtrag 23.08.2026 — die Vorlagen-Kontamination bei Reckholdern reicht weiter als angenommen
+>
+> Der Roh-Beleg `raw/2304-reckholdern.md` beschreibt die interne Inkonsistenz von **Dokument 2**
+> (Grobkostenberechnung, 24.11.2023) so: der **Renditeblock** stamme vermutlich aus einer
+> Thalwil-Vorlage, während die **eBKP-H-Tabelle «rechnerisch konsistent»** und «projektspezifisch
+> gerechnet» sei. **Der zweite Teil dieser Einschätzung hält der Nachrechnung nicht stand.**
+>
+> **Die Messung.** Dokument 2 nennt **GV 1'715 m³** und dazu die Kennwerte
+> **698 / 1'008 / 1'086 CHF/m³**. Gegen das eigene GV gerechnet ergibt derselbe Kostenblock aber:
+>
+> | Position | Betrag | ÷ GV 1'715 (Reckholdern) | Beleg nennt | Abweichung |
+> |---|---|---|---|---|
+> | C–G Bauwerk | 1'903'000 | 1'110 CHF/m³ | **698** | **+59 %** |
+> | B–W Erstellungskosten | 2'748'000 | 1'602 CHF/m³ | **1'008** | **+59 %** |
+> | B–Z Anlagekosten | 2'960'000 | 1'726 CHF/m³ | **1'086** | **+59 %** |
+>
+> **Alle drei um exakt denselben Faktor daneben** — und dieser Faktor ist **2'725 / 1'715 = 1.589**.
+> 2'725 m³ ist das **Gebäudevolumen von Haus Deuber, Thalwil** (`raw/2001-haus-deuber-thalwil.md`).
+> Dort gehen alle vier Kennwerte exakt auf: 1'903'000/2'725 = 698.3 · 2'748'000/2'725 = 1'008.4 ·
+> 2'960'000/2'725 = 1'086.2 · und 2'960'000/**877 m² GF** = 3'375.1.
+>
+> **Und der Flächenblock ist identisch.** Reckholdern Dokument 2 führt **GF 877 · HNF 392 ·
+> NNF 190 · AGF 303 m²** — Zahl für Zahl dieselben Werte wie Haus Deuber Thalwil.
+>
+> **Schlussfolgerung.** Nicht nur der Renditeblock stammt aus der Thalwil-Vorlage, sondern **der
+> gesamte Kosten- und Flächenteil**. Aktualisiert wurde offenbar allein das GV-Feld. Die
+> Einschätzung «eBKP-H-Tabelle rechnerisch konsistent, projektspezifisch gerechnet» ist damit
+> **widerlegt**: die Tabelle ist in sich summenrichtig (die Positionen addieren sich korrekt auf
+> 2'960'000), aber sie beschreibt **ein anderes Gebäude**.
+>
+> **Praxisregel: aus Reckholdern Dokument 2 ist KEIN Kennwert zu ziehen** — weder aus dem
+> Renditeblock noch aus der eBKP-H-Tabelle noch aus dem Flächenblock. Nur das GV-Feld und die
+> qualitativen Angaben (Standard, Konstruktion, Geschosse) sind projektbezogen, und auch das nur
+> unter Vorbehalt.
+>
+> **✓ Der geführte Kennwert ist NICHT betroffen.** Die Tabelle unten führt Reckholdern mit
+> **1'735 CHF/m³** aus **Dokument 5** (KV-Zusammenstellung 31.12.2023, GV 1'986 m³:
+> 3'446'500 / 1'986 = 1'735.4). Dieses Dokument ist von der Kontamination unberührt — Run 4 hat
+> bewusst auf die spätere, in sich geschlossene Quelle umgestellt. **Es ist nichts nachzurechnen.**
+>
+> **✓ Haus Deuber ist ebenfalls nicht betroffen** — die Prüfrichtung wurde ausdrücklich umgekehrt:
+> dort gehen alle vier Kennwerte exakt auf, der Datensatz ist die **Originalquelle** und nicht
+> seinerseits kontaminiert.
+>
+> ⚠ **Neu offen: zwei Gebäudevolumen für dasselbe Haus.** Dokument 2 nennt **1'715 m³**,
+> Dokument 5 **1'986 m³** — **15.8 % Unterschied** innerhalb von fünf Wochen (24.11. gegen
+> 31.12.2023). Erklärbar durch eine Projektänderung in dieser Zeit, aber **nicht belegt**; und
+> nach diesem Befund ist auch nicht auszuschliessen, dass **1'715 ebenfalls ein Vorlagenwert ist**.
+> Der geführte Kennwert nutzt 1'986 aus der jüngeren, in sich konsistenten Quelle und bleibt damit
+> die vertretbare Wahl. Als offener Punkt in `wiki/QUESTIONS.md` registriert.
+>
+> *Nachgerechnet 23.08.2026 gegen `raw/2304-reckholdern.md` und `raw/2001-haus-deuber-thalwil.md`.
+> `raw/` bleibt unangetastet (nur lesend) — die Korrektur der Einschätzung steht hier.*
+>
+> ### ✓ Prüfregel auf ALLE Einzelfälle angewendet — Reckholdern bleibt der einzige Fall
+>
+> Die aus dem Befund gewonnene Prüfregel (`Kosten ÷ Bezugsgrösse` selbst nachrechnen und gegen den
+> im Dokument genannten Kennwert halten) ist unmittelbar auf **alle** kennwerttragenden
+> Projektbelege dieser KB angewendet worden:
+>
+> | Fall | Kosten CHF | Bezugsgrösse | nachgerechnet | Beleg nennt | Abweichung |
+> |---|---|---|---|---|---|
+> | Niederhasli Seestrasse 64 | 3'966'406 | 3'843.8 m³ GV | 1'031.9 | **1'032** | −0.01 % |
+> | Wald Haselstudstrasse (Miete) | 9'110'000 | 5'921 m³ GV | 1'538.6 | **1'539** | −0.03 % |
+> | Wald Haselstudstrasse (STWE) | 10'450'000 | 5'921 m³ GV | 1'764.9 | **1'765** | −0.01 % |
+> | Wädenswil Pre-Check | 16'180'000 | 11'724.5 m³ GV oi | 1'380.0 | **1'380** | ±0.00 % |
+> | Wädenswil Pre-Check + Risiko | 18'120'000 | 11'724.5 m³ GV oi | 1'545.5 | **1'546** | −0.03 % |
+> | Haus Deuber Thalwil | 2'960'000 | 2'725 m³ GV | 1'086.2 | **1'086** | +0.02 % |
+> | Albertstrasse 7, Variante 3 | 875'000 | 350 m³ Umbauvolumen | 2'500.0 | **2'500** | ±0.00 % |
+> | **Reckholdern Dokument 2** | 2'960'000 | **1'715 m³ GV** | **1'725.9** | **1'086** | **+59 %** ✗ |
+>
+> **Sieben von acht gehen exakt auf** (Abweichungen ≤ 0.03 %, reine Rundung). **Reckholdern
+> Dokument 2 ist der einzige Ausreisser** — und dort ist die Ursache oben benannt. Die
+> Kennwert-Basis dieser KB ist damit an ihrer empfindlichsten Stelle geprüft: **kein weiterer
+> Vorlagen-Verdacht.**
+>
+> *Systematischer Recompute 23.08.2026 gegen alle kennwerttragenden Dateien in `raw/`.*
+
 ## Run 4 (26.07.2026) — Reckholdern doch verwertbar (späteres Dokument löst Run-3-Widerspruch auf); Ackersteinstrasse-Ursache geklärt
 
 Ein fünftes, später gelesenes JANS-eigenes Dokument (`2304RE20_Marktwertanalyse_RJ.pdf`, Stand

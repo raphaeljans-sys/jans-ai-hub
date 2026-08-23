@@ -2,6 +2,50 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 7 Revendo) — Vorlagen-Kontamination bei Reckholdern nachgewiesen; ein GV bleibt offen
+
+**Nachgerechnet, nicht vermutet.** Der Roh-Beleg `raw/2304-reckholdern.md` hält fest, in Dokument 2
+(Grobkostenberechnung 24.11.2023) stamme der **Renditeblock** vermutlich aus einer Thalwil-Vorlage,
+die **eBKP-H-Tabelle** sei dagegen «rechnerisch konsistent» und «projektspezifisch gerechnet».
+**Der zweite Teil ist widerlegt.**
+
+Dokument 2 nennt **GV 1'715 m³** und die Kennwerte **698 / 1'008 / 1'086 CHF/m³**. Gegen das eigene
+GV ergeben dieselben Beträge **1'110 / 1'602 / 1'726** — **alle drei um exakt +59 % daneben**. Der
+Faktor ist **2'725 / 1'715 = 1.589**, und **2'725 m³ ist das GV von Haus Deuber, Thalwil**. Dort
+gehen alle vier Kennwerte exakt auf (698.3 / 1'008.4 / 1'086.2 / 3'375.1 CHF/m² GF). **Auch der
+Flächenblock ist Zahl für Zahl identisch** (GF 877 · HNF 392 · NNF 190 · AGF 303 m²).
+
+**Schluss:** nicht nur der Renditeblock, sondern **der gesamte Kosten- und Flächenteil** von
+Dokument 2 stammt aus der Thalwil-Vorlage; aktualisiert wurde offenbar allein das GV-Feld. Die
+Tabelle ist in sich summenrichtig — sie beschreibt nur **ein anderes Gebäude**. **Aus Reckholdern
+Dokument 2 ist kein Kennwert zu ziehen.**
+
+**Zwei Entwarnungen, beide geprüft:**
+- **Der geführte Kennwert 1'735 CHF/m³ ist nicht betroffen** — er stammt aus **Dokument 5**
+  (KV 31.12.2023, GV 1'986: 3'446'500/1'986 = 1'735.4). Run 4 hatte bewusst auf die spätere, in
+  sich geschlossene Quelle umgestellt. Nichts nachzurechnen.
+- **Haus Deuber ist nicht seinerseits kontaminiert** — die Prüfrichtung wurde umgekehrt, dort geht
+  alles auf; der Datensatz ist die Originalquelle.
+
+### NEUE OFFENE FRAGE — zwei Gebäudevolumen für dasselbe Haus
+
+Dokument 2 nennt **1'715 m³**, Dokument 5 **1'986 m³** — **15.8 % Unterschied** innerhalb von fünf
+Wochen (24.11. gegen 31.12.2023). Erklärbar durch eine Projektänderung, **aber nicht belegt** — und
+nach diesem Befund ist nicht auszuschliessen, dass **auch 1'715 ein Vorlagenwert** ist. Der
+geführte Kennwert nutzt 1'986 aus der jüngeren, in sich konsistenten Quelle und bleibt die
+vertretbare Wahl. **Zu klären wäre es nur am Original** (Projektordner `AR - 07 Archiv/01_Projekte/
+2304 Reckholdern/`) — lohnt sich erst, wenn Reckholdern für eine Median-Bildung gebraucht wird.
+
+### Methodenlehre
+
+**Eine in sich summenrichtige Tabelle ist noch kein projektspezifischer Beleg.** Der Fehler war
+hier nicht in den Zahlen zu finden, sondern nur im **Quervergleich mit einem zweiten Projekt** —
+die Kennwerte einer Vorlage sind intern immer konsistent, weil sie aus einem echten Projekt
+stammen. **Prüfregel:** bei jedem Kennwert einmal `Kosten ÷ Bezugsgrösse` selbst nachrechnen und
+gegen den im Dokument genannten Kennwert halten. Stimmen sie nicht überein, gehört mindestens eine
+der beiden Zahlen nicht zum Objekt. Das ist eine Minute Arbeit und hätte diesen Fall im Run 3
+sofort sichtbar gemacht.
+
 ## 2026-08-23 (Vertiefungslauf 6 Revendo) — Muster erkannt: BKP-Zahlen ohne Scope sind die häufigste stille Fehlerquelle im Hub
 
 **Vorschlag an Raphael, nicht selbst ausgeführt.** Im Lauf dieses Tages ist **viermal unabhängig**

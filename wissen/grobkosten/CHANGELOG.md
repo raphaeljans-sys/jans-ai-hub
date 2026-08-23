@@ -1,5 +1,40 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 8 Revendo) — Vorlagen-Kontamination bei Reckholdern nachgewiesen
+
+**Nachgerechnet, nicht vermutet.** Der Roh-Beleg hält fest, in Dokument 2 der Reckholdern-Akte
+stamme der **Renditeblock** vermutlich aus einer Thalwil-Vorlage, die **eBKP-H-Tabelle** sei
+dagegen «rechnerisch konsistent» und «projektspezifisch gerechnet». **Der zweite Teil ist
+widerlegt.**
+
+Dokument 2 nennt **GV 1'715 m³** und die Kennwerte **698 / 1'008 / 1'086 CHF/m³**. Gegen das eigene
+GV ergeben dieselben Beträge **1'110 / 1'602 / 1'726** — **alle drei um exakt +59 % daneben**. Der
+Faktor **2'725/1'715 = 1.589** entspricht dem GV von **Haus Deuber, Thalwil**, wo alle vier
+Kennwerte exakt aufgehen. **Auch der Flächenblock ist Zahl für Zahl identisch** (GF 877 · HNF 392 ·
+NNF 190 · AGF 303 m²). **Nicht nur der Renditeblock, sondern der gesamte Kosten- und Flächenteil
+stammt aus der Vorlage** — aktualisiert wurde offenbar allein das GV-Feld.
+
+**Zwei Entwarnungen, beide geprüft:** der **geführte Kennwert 1'735 CHF/m³ ist nicht betroffen**
+(er stammt aus Dokument 5, KV 31.12.2023, GV 1'986 — Run 4 hatte bewusst auf die spätere Quelle
+umgestellt); und **Haus Deuber ist nicht seinerseits kontaminiert** (Prüfrichtung umgekehrt, dort
+geht alles auf). **Nichts nachzurechnen, kein Kennwert geändert.**
+
+**Neu offen:** zwei Gebäudevolumen für dasselbe Haus — **1'715 gegen 1'986 m³**, 15.8 % innerhalb
+von fünf Wochen. Erklärbar durch eine Projektänderung, aber nicht belegt; nach diesem Befund ist
+auch nicht auszuschliessen, dass 1'715 selbst ein Vorlagenwert ist. Nur am Original zu klären,
+lohnt sich erst bei Bedarf.
+
+**Methodenlehre, in `wiki/QUESTIONS.md` festgehalten:** **eine in sich summenrichtige Tabelle ist
+noch kein projektspezifischer Beleg** — die Kennwerte einer Vorlage sind intern immer konsistent,
+weil sie aus einem echten Projekt stammen. **Prüfregel:** bei jedem Kennwert einmal
+`Kosten ÷ Bezugsgrösse` selbst nachrechnen und gegen den im Dokument genannten Kennwert halten.
+Stimmen sie nicht überein, gehört mindestens eine der beiden Zahlen nicht zum Objekt. Eine Minute
+Arbeit — sie hätte diesen Fall in Run 3 sofort sichtbar gemacht.
+
+`raw/` blieb unangetastet (nur lesend); die Korrektur der Einschätzung steht in `wiki/kennwerte.md`.
+
+Geänderte Dateien: `wiki/kennwerte.md` (⚠-Nachtrag vor dem Run-4-Abschnitt), `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf 7 Revendo) — Muster erkannt: BKP-Zahlen ohne Scope; Regel-Vorschlag an Raphael
 
 Im Lauf dieses Tages ist **viermal unabhängig** dieselbe Fehlerquelle aufgetaucht — eine BKP-Zahl
