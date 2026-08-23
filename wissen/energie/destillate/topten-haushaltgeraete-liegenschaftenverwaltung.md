@@ -5,7 +5,7 @@ ausgabe: "Zürich, November 2008 (3., revidierte Auflage)"
 gelesen: "vollstaendig (4 Seiten), 2026-08-14"
 datenstand: "November 2008 ⚠⚠ Alterskorpus PL-02 — die EU-/CH-Energieetikette wurde 2021 vollständig neu skaliert, die hier genannten Klassen existieren so nicht mehr"
 status: emerging
-last_updated: "2026-08-14 (Run 132 energie-training)"
+last_updated: "2026-08-23 (E-R132-4: Websuchbefund zu möglicher 4. Auflage 2012, nicht primärquellenbelegt; zuvor 2026-08-14 Run 132 energie-training)"
 ---
 
 # Destillat — Professionelle Beschaffung: Haushaltgeräte, Flyer Stadt Zürich/ewz/topten.ch, November 2008 (3., revidierte Auflage)
@@ -109,6 +109,6 @@ Für eine Bauherren-Antwort zur Gerätebeschaffung sind beide Destillate faktisc
 
 ## Offene Punkte
 
-- Ob nach November 2008 (3. revidierte Auflage) weitere, noch neuere Auflagen dieses Merkblatts existieren, ist mit den vorliegenden zwei Quellen nicht geklärt.
+- Ob nach November 2008 (3. revidierte Auflage) weitere, noch neuere Auflagen dieses Merkblatts existieren, ist mit den vorliegenden zwei Quellen nicht geklärt. **⚠ Teilbefund per Websuche, 23.08.2026 (E-R132-4), NICHT primärquellenbelegt:** mehrere unabhängige Websuchen nennen übereinstimmend eine «4., überarbeitete Auflage, Oktober 2012» derselben Reihe (Herausgeber weiterhin Amt für Hochbauten Stadt Zürich/Fachstelle Nachhaltiges Bauen, ewz, Topten Schweiz), ohne dass sich ein direkt abrufbares Original-PDF fand — alle geprüften Kandidaten-URLs (`stadt-zuerich.ch/.../ewz_ratgeber_haushaltgeraete.pdf`, `topten.ch/private/article/haushaltsgeraete-professionell-beschaffen`, die Aargauer Publikationsliste) lieferten 404/403 oder keinen direkten Treffer. Zusätzlich gefunden: eine inhaltlich verwandte, aber eigenständig gebrandete Nachfolge-Broschüre **«Haushaltgeräte professionell beschaffen» von EnergieSchweiz** (PDF-Metadaten: Erstellungsdatum 15.04.2015, `energieeffizienz.ch/dam/ratgeber/2018-Haushaltgeraete-prof.-beschaffen/...`), die auf einen Trägerwechsel von der Stadt-Zürich/ewz/Topten-Reihe zu einer national verlegten EnergieSchweiz-Publikation ab ca. 2015 hindeutet. **Für die Praxis ändert das nichts** (der Wert dieses Destillats liegt in der Beschaffungsmechanik, nicht in den überholten Effizienzklassen), aber die «4. Auflage 2012» ist hier bewusst als unverifizierter Sekundärquellen-Fund und nicht als Faktum festgehalten — vor jeder Verwendung am Original (falls auffindbar) gegenlesen.
 - Die im anderen Destillat erwähnte dritte Datei `2.33.C Haushaltgeraete_Professionelle_Beschaffung.pdf` (SharePoint-Ordner eco) wurde auch in diesem Lauf nicht gelesen/verglichen.
 - Preis- und Tarifangaben (Strompreis 14.5/20 Rp./kWh, ewz-Stromsparfonds-Beiträge, Bezugsquellen-Adresse) sind Stand November 2008 und ungeprüft für heute — vor Zitat in einer aktuellen Bauherren-Antwort separat verifizieren.

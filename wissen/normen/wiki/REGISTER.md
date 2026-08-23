@@ -31,6 +31,7 @@ links: [[sia-register-2013]]
 
 | Gemeldet | Norm | Meldung | Abnehmer nachgeführt? |
 |---|---|---|---|
+| 23.08.2026 (SIA-Sweep, vierte Fortsetzung) | **SIA 2001** | Nummer seit 2018 vollständig **retiriert** — über eine Revision 2015 in **SIA 279:2018 «Wärmedämmende Baustoffe»** aufgegangen (Bestand bereits im Haus, `sia-279-2018.md`, established). Gefunden per systematischem Abgleich aller 56 «Kein Volltext im Haus»-Zeilen gegen zwei amtliche SIA-Kataloge (Stand 27.10.2023/03.01.2024) — die anderen 55 Zeilen bestätigt, keine Änderung nötig | offen — kein Fach-Skill zitiert SIA 2001 bisher aktiv |
 | 23.08.2026 (SIA-Sweep + Fortsetzung) | **69 SIA-Blindzone-Zeilen** (Abschnitt A) | Alle Zeilen ohne Datei im Haus abgearbeitet (66 im ersten Scan, 3 weitere — SIA 215, 232/1, 232/2 — per Nachtrag): 13 intern gelöst (Bestandsangabe lag bereits andernorts im Register), 56 extern über shop.sia.ch-Produktseiten belegt (27 weiterhin aktuell, 25 archiviert mit Nachfolgenorm = neue Bring-Schulden, 4 archiviert ohne benannten Nachfolger = offene Fragen N-SIASWEEP-1 bis -4). Details je Zeile in Abschnitt A, Zusammenfassung `wiki/QUESTIONS.md`. **Fortsetzung 23.08.2026:** die 69 Zeilen waren als fünfspaltige Tabellenzeilen fehlerhaft geschrieben (leere Bestand-Abgleich-Zelle + Text in einer verwaisten Extraspalte) — auf vierspaltig korrigiert, kein Textverlust (`git diff --numstat`: 69/69) | offen — kein Fach-Skill zitiert diese Normen bisher aktiv; bei künftiger Verwendung dort die neue Bemerkungsspalte lesen |
 | 23.08.2026 (Run 60) | **VKF-Jahrgang 2017, 16 Publikationen** | Der Sammelposten 01.01.2017 des Vorrang-Auftrags N58-1 ist vollstaendig destilliert: 15 Delta-Destillate plus die 13-15 als Gegenprobe, alle `speculative`, jede in der Aenderungsliste genannte Tabelle gerendert statt extrahiert. **N59-1 beantwortet** («(cr)» = Anwendungsbeschraenkungs-Flag innerhalb einer RF-Gruppe; E/E-d2 wandern RF4→RF3 (cr)). **Drei Befunde in der KB selbst:** die AFC-Synopse ist **doppelt destilliert** und die aeltere Fassung gab die **Gesamthoehe** falsch wieder (inline korrigiert, N60-1 zum Entscheid); die QSS-Lockerung bei QSS 3 ist neu auf den Beschluss 22.09.2016 **datiert** statt pauschal dem Schritt 2019 zugeschlagen; und bei **AH 1002-15 Schulbauten** wurde ein Agentenbefund **umgekehrt** — das Kriterium «>100 Personen → zwei vertikale Fluchtwege» ist aus der Arbeitshilfe verschwunden, gilt aber unveraendert nach BRL 16-15 Ziff. 2.4.2 Abs. 2 weiter | offen — Skill `brandschutz`: 15-s-Frist Sicherheitsbeleuchtung entfallen, Verkaufsraeume-Einstufung, Schulbau-Fluchtwege (**Richtlinie zitieren, nicht die Arbeitshilfe**); Skill `ausschreibung`: RF3 (cr) statt RF3, Storz-Kupplung kumulativ. Abdeckungsrichtung auf keinem VKF-Destillat gelaufen |
 | 20.08.2026 (Run 58), N58-2 geschlossen 23.08.2026 | **VKF BRL 103-15 «Cheminées»** | **am 31.08.2025 zurückgezogen**; Nachfolger ist **kein VKF-Dokument**, sondern das «Stand der Technik Papier Teil B: Ofen- und Cheminéebau» des Fachverbands **feusuisse** (2024), laut VKF-Newsmeldung (`bsvonline.ch/de/aktuell/erlaeuterung-103-15-zurueckgezogen`) materiell ablösend. Nicht mehr als Fundstelle zitieren; feusuisse-Papier nicht im Haus | ✅ `planungsgrundlagen` §5ai (Run 38). `skills/brandschutz` trug es bereits |
@@ -91,6 +92,22 @@ neuerer Nachfolgenorm — siehe `outputs/2026-08-23_sia-sweep-blindzone.md`); di
 selbst ist für diese 56 jetzt aber belegt und aktuell (Abrufdatum 23.08.2026), nicht mehr
 blind. Der Fall SIA 385/9 (Shop führt eine Ausgabe 2023, Register führte 2011) war der
 Präzedenzfall dieser Klasse und ist damit selbst aufgelöst.
+
+**Systematischer Katalog-Abgleich aller 56 Zeilen, 23.08.2026 (SIA-Sweep, vierte
+Fortsetzung).** Die drei Vorläufe hatten die zwei amtlichen SIA-Publikationsverzeichnisse
+(`cms.sia.ch`, Stand 27.10.2023 und 03.01.2024) nur für die drei offenen N-SIASWEEP-Fragen
+genutzt. Dieser Lauf hat sie gegen **alle 56** «Kein Volltext im Haus»-Zeilen mechanisch
+abgeglichen (SIA-Nummer + gelistetes Ausgabejahr je Stichtag, `pdftotext -layout` +
+gezielter `grep`). **Ergebnis: 55 von 56 Zeilen bestätigt widerspruchsfrei** (das gelistete
+Ausgabejahr an beiden Stichtagen passt exakt zum bereits über shop.sia.ch belegten
+Archivierungs-/Gültigkeitsstand — reine Zweitquellen-Bestätigung, keine neuen Daten).
+**Eine echte Korrektur:** die Zeile **SIA 2001** unten war nur bis zur Ausgabe 2013
+nachgeführt; die Nummer fehlt in beiden Katalogen vollständig, weil sie über eine weitere
+Revision 2015 vollständig in **SIA 279:2018** aufgegangen ist (Beleg: das eigene, bereits
+im Haus liegende Destillat `sia-279-2018.md`, das diesen Zusammenhang im Frontmatter trug,
+aber nicht in Abschnitt A verlinkt war) — dort nachgeführt. Keine Beschaffung nötig, keine
+neuen Destillate: die 56 Zeilen bleiben ohne Volltext im Haus, mit Ausnahme der jetzt als
+faktisch erledigt erkannten SIA-2001-Zeile. Report: `outputs/2026-08-23_sia-sweep-katalogabgleich.md`.
 
 **Verbindliche Regel (angepasst 23.08.2026).** Eine Zeile mit **leerer Bestand-Spalte**
 existiert in Abschnitt A nicht mehr. Bei einer Zeile, deren Bestand-Abgleich **«Kein Volltext
@@ -338,7 +355,7 @@ den recherchierten Stand.
 | SIA 723 | 2001 | 2001✓ | Bestand 2001 = gueltig 2013 ✓ |
 | SIA 752 | —(alle zurueckgezogen) | 2002✗ | Bestand 2002; 2013 kein gueltiger Eintrag |
 | SIA 753 | —(alle zurueckgezogen) | 2002✗ | Bestand 2002; 2013 kein gueltiger Eintrag |
-| SIA 2001 | 2011 | 2011✓ · 2009✗ · 2007✗ · 2005✗ · 2003✗ · 2001✗ · 1998✗ | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 592001), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2011 (gültig ab 01.08.2011) ist **archiviert seit 30.04.2013**, ersetzt durch **SIA 2001:2013**. Titel «Wärmedämmende Baustoffe, deklarierte Werte der Wärmeleitfähigkeit». Nur Metadaten, kein Volltext gelesen — Beschaffung Bring-Schuld |
+| SIA 2001 | 2011 | 2011✓ · 2009✗ · 2007✗ · 2005✗ · 2003✗ · 2001✗ · 1998✗ | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 592001), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2011 (gültig ab 01.08.2011) ist **archiviert seit 30.04.2013**, ersetzt durch **SIA 2001:2013**. Titel «Wärmedämmende Baustoffe, deklarierte Werte der Wärmeleitfähigkeit». Nur Metadaten, kein Volltext gelesen — Beschaffung Bring-Schuld. ⚠ **Vollständige Klärung 23.08.2026 (SIA-Sweep, systematischer Katalog-Abgleich):** die Nummer 2001 fehlt in BEIDEN offiziellen SIA-Publikationsverzeichnissen (`cms.sia.ch`, Stand 27.10.2023 und 03.01.2024) vollständig — kein Eintrag mehr, auch nicht unter «2013». Grund im Bestand selbst bereits belegt, nur nicht hierher verlinkt: das **eigene** Destillat `destillate/sia-279-2018.md` (established) führt in seinem Frontmatter `ersetzt: "SIA 279:2011 und SIA 2001:2015"` — die Norm SIA 2001 wurde nach der 2013er-Ausgabe noch mindestens einmal auf 2015 revidiert und ist dann **vollständig in SIA 279:2018 «Wärmedämmende Baustoffe» aufgegangen** (Bestand vorhanden, established). Damit ist die Nummer 2001 seit 2018 endgültig retiriert, nicht bloss eine offene Beschaffungslücke. Siehe auch die parallele Zeile SIA 279 in Abschnitt A («Bestand 2018 → neuer als Register 2013») und die Merkblatt-Tabelle Run 16 unten (`sia-mb-2001-2005.md`, eine noch frühere Merkblatt-Vorstufe 2005). Beschaffungs-Bring-Schuld damit gegenstandslos — SIA 279:2018 liegt bereits im Haus |
 | SIA 2002 | —(alle zurueckgezogen) | 1990✗ |  |
 | SIA 2003 | 1996 | 1996✓ | ⚠ **Bereits an anderer Stelle belegt, hier nachgeführt (23.08.2026):** Bestand = Merkblatt SIA 2003 «Sanierputze und Sanierputzsysteme», revidierte Ausgabe April 1996 = gültig 2013 ✓. Destillat `sia-mb-2003.md` (established), siehe Merkblatt-Tabelle Run 16 unten |
 | SIA 2004 | —(alle zurueckgezogen) | 1992✗ |  |

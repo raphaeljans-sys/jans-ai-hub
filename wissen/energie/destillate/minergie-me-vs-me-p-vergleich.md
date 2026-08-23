@@ -7,7 +7,7 @@ ausgabe: "Kein Ausgabedatum auf den Dokumenten selbst (keine Fusszeile, kein Tit
 gelesen: "2026-08-15, beide PDF vollständig gelesen: ME-ME-P-Haus.pdf (1 Seite) und Qh+Qww-Haus-Abbildung.pdf (2 Seiten). Zusätzlich pdftotext -layout als Gegenprobe für die reine Text-Extraktion; die massgeblichen Inhalte stecken in den Grafiken selbst und wurden per Bildlektüre erschlossen."
 datenstand: "⚠ Undatiertes Dokument mit klarem Alters-Indiz: Bezugsnorm SIA 380/1:2009 (heute gültig: SIA 380/1:2016) und eine Minergie-Heizwärmebedarf-Systematik als Prozentsatz DIESER SIA-380/1-Grenzwerte (90 % Minergie / 60 % Minergie-P). Diese Bezugsbasis ist seither zweimal abgelöst worden: zunächst durch den Bezug auf MuKEn 2014 (90 % M / 70 % M-P bei Neubau, siehe [[minergie-standards]]), zuletzt durch den Bezug auf MuKEn 2025 (90 % M und M-A / 70 % M-P, siehe [[minergie-produktreglement-2026-1-muken-vergleich]]). Die Zahlen in diesem Destillat sind damit mit hoher Wahrscheinlichkeit über zehn Jahre alt, in jedem Fall älter als 18 Monate. Der lastModifiedDateTime-Wert aus SharePoint (24.03.2025, identisch bei allen drei Dateien im Ordner «Vergleich») ist erkennbar nur ein Migrations-/Kopierzeitpunkt, kein Erstellungsdatum — hier nur als schwaches Indiz vermerkt, nicht als Beleg. Aktueller Bezugspunkt der KB: Produktreglement MINERGIE/-P/-A Version 2026.1, siehe [[minergie-produktreglement-2026-1-muken-vergleich]]."
 status: emerging
-last_updated: 2026-08-15
+last_updated: 2026-08-23
 links:
   - [[minergie-standards]]
   - [[minergie-produktreglement-2026-1-muken-vergleich]]
@@ -123,11 +123,16 @@ einfachere, kleinere Haustechnik reicht — bei Minergie-P laut Tabelle so weit,
   Versionsvermerk nennen ein Datum; die Einordnung «SIA 380/1:2009 als Bezugsnorm, also
   vermutlich 2009 bis 2016 entstanden» ist eine Rückschlussdatierung von JANS, keine Angabe der
   Quelle selbst.
-- **Bezugsgrösse der 38/30 kWh/m²-Energiekennzahl nicht ausgeschrieben.** Auf der Grafik steht
-  nur «kWh/m²», ohne die Fläche zu benennen (EBF ist naheliegend, aber nicht belegt). Vor einer
-  Verwendung in einem Vergleich mit heutigen MKZ-Werten wäre das am Original oder in einer
-  weiteren Minergie-Quelle zu klären — ohnehin nur von historischem Interesse, da der Wert
-  selbst überholt ist.
+- **Bezugsgrösse der 38/30 kWh/m²-Energiekennzahl nicht ausgeschrieben — ✓ geklärt 23.08.2026
+  (E-R134-2), am Dokument selbst weiterhin nicht belegt, an der Systematik ja.** Auf der Grafik
+  steht nur «kWh/m²», ohne die Fläche zu benennen. Der Minergie-Glossar (minergie.ch, Eintrag
+  «Energiekennzahl», abgerufen 23.08.2026) definiert die Grösse unabhängig vom Einzeldokument
+  wörtlich als «Mass für die gesamte, einem Gebäude während eines Jahres netto gelieferte
+  Energie, bezogen auf die Energiebezugsfläche (kWh/m²)» — die Minergie-Energiekennzahl ist
+  also systemisch immer EBF-bezogen, nicht projekt- oder ausgabespezifisch wählbar. Die Annahme
+  «EBF» war damit korrekt, ist aber weiterhin eine Ableitung aus der allgemeinen Systematik, kein
+  Zitat aus ME-ME-P-Haus.pdf selbst — das Dokument nennt die Bezugsfläche nach wie vor nicht
+  namentlich. Bleibt ohnehin nur von historischem Interesse, da der Wert selbst überholt ist.
 - **Autorschaft der Qh/Qww-Abbildung nicht abschliessend geklärt.** Der Firmenvermerk «Reimann
   Fredy, Planungsbüro für Energie- & Gebäudetechnik» auf Seite 1 könnte Ersteller der
   konkreten Grafik-Aufbereitung sein oder nur ein Verweis auf den ursprünglichen

@@ -1,3 +1,49 @@
+## 2026-08-23 — SIA-Sweep, vierte Fortsetzung: systematischer Katalog-Abgleich aller 56 Blindzone-Zeilen, SIA 2001 geklärt
+
+**Auftrag Raphael:** den SIA-Sweep fortsetzen — Register-geführte SIA-Zeilen ohne Datei im
+Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen; zuerst CHANGELOG und letzten Report lesen und dort weitermachen.
+
+**Befund vor der eigenen Arbeit:** die Blindzone (Abschnitt A) war laut den drei Vorläufen
+desselben Tages bereits vollständig geschlossen. Von den 187 aktiven SIA-Zeilen tragen 131
+echten Volltext im Haus, 56 stützen sich nur auf die Shop-Produktseite. Neuer Befund dieser
+Station: die SharePoint-Bibliothek `PL - 02_Recht_Norm` ist über den lokalen Finder-Mount
+nicht erreichbar (geprüft über alle OneDrive-/SharePoint-Mounts) — dadurch war keine Lektüre
+neuer Original-PDFs möglich. Eine parallel gelaufene Session (Mac Mini, siehe Eintrag direkt
+unter diesem) hat im selben Zeitfenster einen Zugangsweg über `connectors/m365-graph.mjs`
+gefunden, der diese Einschränkung für künftige Läufe auflöst.
+
+**Systematischer Katalog-Abgleich (der von der dritten Fortsetzung vorgeschlagene nächste
+Schritt):** alle 56 „Kein Volltext im Haus"-Zeilen gegen die zwei bereits bekannten amtlichen
+SIA-Publikationsverzeichnisse (`cms.sia.ch`, Stand 27.10.2023 und 03.01.2024) mechanisch
+abgeglichen (SIA-Nummer + gelistetes Ausgabejahr, `pdftotext -layout` + `grep`) — ein reiner
+Web-Abgleich, unabhängig vom SharePoint-Zugangsproblem. **55 von 56 Zeilen bestätigt
+widerspruchsfrei** (Zweitquellen-Bestätigung der bereits über shop.sia.ch belegten
+Archivierungs-/Gültigkeitsdaten, keine neuen Daten). **Eine echte Korrektur: SIA 2001** —
+die Nummer fehlt in beiden Katalogen vollständig. Grund lag bereits unverlinkt im eigenen
+Bestand: das Destillat `destillate/sia-279-2018.md` (established) führt im Frontmatter
+`ersetzt: "SIA 279:2011 und SIA 2001:2015"` — SIA 2001 wurde nach der 2013er-Ausgabe (in
+Abschnitt A geführt) noch auf 2015 revidiert und ist dann vollständig in **SIA 279:2018**
+aufgegangen. Die Nummer ist seit 2018 endgültig retiriert, keine offene Beschaffungslücke
+mehr; SIA 279:2018 liegt bereits als Volltext-Destillat im Haus. Dieselbe Fehlerklasse wie
+bei SIA 2016/2027 (Abschnitt A und Merkblatt-Tabelle Run 16 ohne Querverweis).
+
+**Register nachgeführt:** `wiki/REGISTER.md` — neuer Absatz im Blindzone-Abschnitt
+(Zusammenfassung des Katalog-Abgleichs), SIA-2001-Zeile in Abschnitt A um die Klärung
+ergänzt, neue Zeile in der „FRISCH GEMELDET"-Tabelle. Alle drei Edits rein additiv
+(`git diff` ohne `--numstat` nach jedem Schreiben geprüft, keine parallele Kollision).
+
+**Keine neuen Destillate:** kein neuer Volltext im Haus, nichts zu destillieren; SIA 2001 ist
+bereits über SIA 279:2018 abgedeckt.
+
+**Nicht geleistet:** kein Normtext gekauft/gelesen; die drei N-SIASWEEP-Fragen (-2/-3/-4)
+unverändert offen, kein vierter Web-Recherche-Anlauf über denselben Weg; `connectors/WEGE.md`
+noch nicht um den neuen SharePoint-Zugangsweg ergänzt.
+
+Report: `outputs/2026-08-23_sia-sweep-katalogabgleich.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung: drei offene Fragen geschlossen, neuer Zugangsweg SharePoint-Originale via M365-Graph-Connector
 
 Auftrag Raphael: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage
