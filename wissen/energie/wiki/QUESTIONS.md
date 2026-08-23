@@ -4263,6 +4263,27 @@ U-Wert-Rechenweg prüfen — vier Griffe» in `[[u-werte-grenzwerte-ch]]`.
 
 ### Neue offene Punkte
 
+- [x] **E-R161-1 GESCHLOSSEN 23.08.2026 (interaktive Session, achtzehnte Fortsetzung) für den
+  Fall «ruhende Luftschicht» — die «schwach belüftete» Zwischenstufe bleibt offen.** Kein
+  Normkauf nötig: eine amtliche Sekundärquelle war bereits im KB-Bestand, nur nie bis Kap. 2.3.3
+  gelesen. Die Publikation `U-Wert-Berechnung und Bauteilekatalog Neubauten` (Bundesamt für
+  Energie BFE, 2002) — in der KB seit Run 65 (14.07.2026) als `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`
+  destilliert, aber Kap. 2.3.3 nie transkribiert — enthält Tabelle 3 «Wärmedurchlasswiderstand Rg
+  von ruhenden Luftschichten»: 5/10/25/50/100 mm × drei Wärmestromrichtungen (aufwärts/
+  horizontal/abwärts), Originalzitat «Zwischenwerte dürfen interpoliert werden». Für horizontalen
+  Wärmestrom (Wände) ist der Wert von 25 bis 100 mm konstant **0,18 m²K/W** — die für die
+  40-mm-Luftschicht der Korrekturrechnung nötige Zahl, ohne Interpolationsbedarf. Direkt am
+  Original geprüft (PyMuPDF-Extrakt der PDF-Seite, Blockreihenfolge sortiert, nicht die
+  Fliesstext-Reihenfolge der automatischen Extraktion). Eingearbeitet in
+  `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (neuer Abschnitt Kap. 2.3.3), in
+  `[[u-werte-grenzwerte-ch]]` (Griff 02 nachgeführt) und in
+  `[[ki-generierte-fachdokumente-referenzablage]]` (zweite Lesart der Korrekturrechnung jetzt
+  ebenfalls rechenbar: 0,362-0,389 W/m²K, gleiche Grössenordnung wie die hinterlüftete Lesart).
+  **Bewusst nicht geschlossen:** die im ursprünglichen Punkt mitgemeinte «schwach belüftete»
+  Zwischenstufe (weder ruhend noch stark belüftet/hinterlüftet) ist in diesem BFE-Dokument nicht
+  beziffert — nur die beiden Randfälle. Dafür bliebe der Normtext SN EN ISO 6946 selbst nötig,
+  unverändert Beschaffungsentscheid Raphaels, gleiche Klasse wie E-R148-1. Ursprünglicher
+  Wortlaut zur Nachvollziehbarkeit:
 - [ ] **E-R161-1 — Tabellenwert für ruhende/schwach belüftete Luftschichten nach SN EN ISO 6946
   fehlt in der KB.** Aufgefallen bei der Korrekturrechnung: die hinterlüftete Lesart liess sich
   ohne Tabellenwert durchrechnen, die Variante «unbelüftete Luftschicht 40 mm» **nicht**. Bewusst
@@ -4428,3 +4449,56 @@ wird hier nicht doppelt geführt.
 dabei die **Drive-ID der Bibliothek `04 Energie` erstmals aufgelöst** und in
 `training/pdf-inventar.md` gesichert — Weg 2 ist von der Umbenennungs-Falle bei Bibliotheks-URLs
 nicht betroffen und damit der robustere Einstieg, wenn ein Bibliotheksname unklar ist.
+
+## 2026-08-23 (interaktive Session, achtzehnte Fortsetzung) — E-R161-1 geschlossen (ruhende Luftschicht), E-R148-1-Framing nachgeführt
+
+Auftrag: weitere offene Fragen abarbeiten, Anschluss an die siebzehnte Fortsetzung
+(`outputs/2026-08-23_questions-nachlauf-siebzehnte-fortsetzung.md`), die E-R161-3 vollständig
+geschlossen und E-R148-1/E-R161-1/E103/E94 als verbleibend offen (Beschaffungsentscheide
+Raphaels bzw. Recherche nicht möglich) übergeben hatte.
+
+**E-R161-1 war entgegen der eigenen Einschätzung des Vorlaufs doch aus eigener Kraft lösbar** —
+nicht durch Normkauf, sondern weil eine amtliche Sekundärquelle bereits im KB-Bestand lag, nur
+nie bis zum entscheidenden Kapitel gelesen: `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`
+(BFE 2002, seit Run 65/14.07.2026 destilliert) enthält in Kap. 2.3.3 Tabelle 3 den
+Wärmedurchlasswiderstand Rg **ruhender** Luftschichten nach Dicke und Wärmestromrichtung — exakt
+der für die Korrekturrechnung in `[[ki-generierte-fachdokumente-referenzablage]]` fehlende Wert
+(horizontal, 25-100 mm: konstant 0,18 m²K/W). Direkt am PDF geprüft (PyMuPDF, Blockreihenfolge
+sortiert). Vollständiger Beleg beim E-R161-1-Eintrag oben (Z. 4266). Eingearbeitet in drei
+Dateien: `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (neuer Abschnitt), `[[u-werte-grenzwerte-ch]]`
+(Griff 02 des Prüfabschnitts nachgeführt) und `[[ki-generierte-fachdokumente-referenzablage]]`
+(zweite Lesart der Korrekturrechnung jetzt ebenfalls rechenbar, bestätigt den bestehenden Befund
+in derselben Grössenordnung). **Nicht geschlossen:** die «schwach belüftete» Zwischenstufe — dafür
+bliebe der Normtext SN EN ISO 6946 nötig, unverändert Beschaffungsentscheid Raphaels.
+
+**Nebenbefund beim Gegenlesen von E-R148-1 (Normkauf SIA 380/1:2016, P1):** die dort als
+Begründung zitierte Healthcare-Einstufungsfrage **E-R140-1** ist bereits seit demselben Tag
+(Run 153) geschlossen — sachlich geklärt über `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]`
+(Pflegeheim/Altersheim → Kat. VIII.2, 70 kWh/m², nicht Kat. I). E-R148-1 bleibt trotzdem offen
+(die U-Wert-/Q_H,li-Tabellenwerte selbst und die formell zitierfähige Anhang-A-Fundstelle fehlen
+weiterhin), aber die in der Formulierung mitschwingende Dringlichkeit («verdoppelt oder halbiert
+den Grenzwert bei jedem Healthcare-Projekt») ist nicht mehr zutreffend — die Sachfrage ist gelöst,
+nur die Norm-Zitierform fehlt. Keine Änderung am E-R148-1-Eintrag selbst vorgenommen (Muster
+dieser KB: Status-Recaps werden angehängt, nicht historische Einträge überschrieben); dieser
+Absatz ist der Recap für künftige Läufe.
+
+**Cross-KB-Prüfung ohne Fund:** bei der Suche nach dem Rg-Tabellenwert wurde zunächst vermutet,
+ein bisher unbekanntes SIA-Normen-Archiv gefunden zu haben (Site `/sites/PL`, Bibliothek
+`PL Immobilienpreise`/`02_Normen`, über 200 SIA-PDF). Gegenprüfung ergab: **kein neuer Fund** —
+die KB `normen` kennt dieselbe Bibliothek und denselben Pfad bereits vollständig (über 200
+SIA-Destillate, u.a. `[[sia-380-1-2016]]` mit identischer Fundstelle `i380-1_2016_d.pdf`,
+dort bereits als 6-von-60-Seiten-Vorschau erkannt und mit Querbezug zur KB `energie` versehen).
+Kein Cross-KB-Eintrag nötig, da bereits vorhanden.
+
+**Register gepflegt:** `wiki/QUESTIONS.md` (dieser Eintrag + E-R161-1 oben),
+`destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md`, `destillate/ki-generierte-fachdokumente-referenzablage.md`,
+`wiki/u-werte-grenzwerte-ch.md`, `CHANGELOG.md`. Nach jedem Schreibvorgang `git diff --numstat`
+geprüft: alle vier Inhaltsdateien rein additiv bzw. mit genau der erwarteten einen ersetzten
+Zeile (Frontmatter-Datumszeile), keine fremde Löschung.
+
+**Verbleibend offen:** E-R148-1 (P1, Normkauf SIA 380/1:2016 — U-Wert-/Q_H,li-Tabellenwerte und
+formelle Anhang-A-Fundstelle), E103 (Pflegeplatz-Flächenkennwert, Entscheid Raphaels), E94
+(Innendämmungs-Kennwert, Entscheid Raphaels), E-R134-3 (Lambda-Anomalie, Quelle ohne Herausgeber/
+Datum, kein weiterer Recherche-Ansatz), die «schwach belüftete» Luftschicht-Zwischenstufe (neuer
+kleiner Teilaspekt aus diesem Lauf, gleiche Klasse wie E-R148-1), sowie die bereits mehrfach
+bestätigten, nicht erneut geprüften Negativbefunde (E-S1, E-R129-5, E-WC32-1, E-R150-3).

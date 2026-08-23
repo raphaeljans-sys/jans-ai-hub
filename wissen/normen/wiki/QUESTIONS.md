@@ -3883,6 +3883,30 @@ einzeln geprüft:
   `destillate/sia-266-2003.md` bzw. `destillate/sia-267-2003.md`. Der eigentliche
   Ziffer-für-Ziffer-Abgleich gegen DIN 1053/1045-2/1054 (Abschnitt D, Mac-Mini-Scope) wurde
   in diesem Lauf NICHT durchgeführt — das bleibt für den nächsten Cross-Check-Lauf offen.
+- [x] **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung, Cross-Check-Lauf).** Ziffer-für-Ziffer-
+  Abgleich SIA 266 ↔ DIN 1053-1 und SIA 267 ↔ DIN 1054 durchgeführt, dazu Scope-Klärung
+  SIA 262 ↔ DIN 1045-2. Vollständiger Bericht mit allen Fundstellen:
+  `outputs/2026-08-23_cross-check-sia266-267-vs-din1053-1054.md`. Kernbefunde: (1) Mauerwerk —
+  Mindestwanddicke tragender Wände 115 mm stimmt in SIA 266 Ziff. 5.1.3.1 und DIN 1053-1
+  Ziff. 8.1.2.1 exakt überein, trotz unabhängiger Entstehung und unterschiedlicher
+  Bemessungsphilosophie (SIA Grenzzustandsverfahren vs. DIN zulässige Spannungen — der
+  zahlenmässig übereinstimmende Sicherheitsbeiwert γM=γw=2,0 ist deshalb NICHT gleichbedeutend
+  und darf nicht unkommentiert gleichgesetzt werden). (2) Geotechnik — SIA 267 reduziert
+  Bodenkennwerte (tan φ', c', cu, qu) einheitlich über einen Materialpartialfaktor
+  (Tabelle 1, γφ=1,2/γc=1,5); DIN 1054 tut dies für die meisten Regelnachweise (GEO-2, Tabelle
+  A 2.2: γφ'=γc'=1,00) NICHT — der Sicherheitsabschlag sitzt dort auf der Widerstandsseite
+  (γR, Tabelle A 2.3) — und erst bei der Gesamtstandsicherheit (GEO-3, γφ'/γc'=1,10-1,25)
+  vergleichbar zu SIA. Deutsche Geotechnik-Gutachtenwerte sind daher nicht ohne Prüfung des
+  Nachweisverfahrens in eine SIA-267-Bemessung übernehmbar. DIN 1054 bietet zudem mit den
+  Sohlwiderstands-Tabellen A 6.1-A 6.8 eine kodifizierte Praxisabkürzung, die SIA 267 nicht
+  kennt (jede Flachfundation ist nach SIA 267 rechnerisch nachzuweisen). (3) Beton — ein
+  Bemessungsvergleich SIA 262 ↔ DIN 1045-2 ist mit dem Bestand NICHT sinnvoll durchführbar:
+  DIN 1045-2 regelt nur die Betonzusammensetzung (Teil 2 der DIN-1045-Reihe), die zu SIA 262
+  inhaltlich passende Bemessungsnorm wäre DIN 1045-1 («Bemessung und Konstruktion»), die nicht
+  im Bestand ist (kein bekannter Bring-Schuld-Fall, einfach nicht gesucht/beschafft). Zwei
+  kleine Restlücken (SIA-266-Formel für aussteifende Wände, deutsche Zusatz-Expositionsklassen
+  in SIA 262) bewusst nicht als neue Checkbox angelegt — reine Vollständigkeitslücken ohne
+  aktuellen Praxisbedarf, dokumentiert im Report Abschnitt 5.
 - [x] **SIA 331 (Fenster) ↔ DIN EN 12207/DIN 1249-11 Ziffer-für-Ziffer abgeglichen —
   erledigt Mini-Run 31 (260716):** Kernbefund: SIA 331s Beanspruchungsgruppen A/B/C
   (Gebäudehöhe-basiert, Ziff. 2 23 4/2 31, Nachweis über EN 42/EN 86) und DIN EN 12207s
@@ -4884,3 +4908,18 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   einer neueren Quelle stammen, ist ungeprüft.
 - **Herkunft:** SIA-Sweep, neunzehnte Fortsetzung, 23.08.2026; geschlossen QUESTIONS-Abarbeitung
   17, 23.08.2026.
+
+## Neue Bring-Schuld: SIA 384/4:2025 «Klimakälteanlagen in Gebäuden» (unbekannte Norm entdeckt)
+
+- Die kostenlose Korrigenda C1:2025 zu SIA 384/1:2022 (Destillat
+  `destillate/sia-384-1-korrigenda-c1.md`, `wiki/REGISTER.md` Zeile SIA 384/1 und SIA 384/4)
+  nennt eine bisher in dieser KB **völlig unbekannte** Norm: **SIA 384/4:2025 «Klimakälteanlagen
+  in Gebäuden — Grundlagen und Anforderungen»**. Sie löst per 01.03.2025 den bisherigen Anhang E
+  von SIA 384/1:2022 ab. Die Nummer 384/4 war zuvor nur als 1987 zurückgezogene Altnorm im
+  Register geführt (keine sachliche Verbindung, reine Nummernwiederverwendung).
+- **Offen:** Produktseite (shop.sia.ch), Preis, Seitenzahl, exaktes Genehmigungsdatum, Status
+  (aktuell) sind bisher nicht eigenständig recherchiert — nur aus dem Korrigenda-Zitat bekannt.
+  Volltext-Beschaffung ist zusätzlich eine kostenpflichtige Bring-Schuld Raphael.
+- **Herkunft:** SIA-Sweep, neunundzwanzigste Fortsetzung, 23.08.2026 (P1-Leseproben-/
+  Korrigenda-Check auf die von der 24. Fortsetzung benannte P1-Einkaufsliste, gezielt SIA 384/1
+  betreffend — Korrektur eines Nullbefunds derselben Zeile aus der 19. Fortsetzung).

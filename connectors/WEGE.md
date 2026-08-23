@@ -56,6 +56,7 @@ hier der volle Pfad, und darum stehen hier auch die Sackgassen.
 | Hersteller-CAD Armatur LAUFEN/Similor (2D+3D, Massblatt, Produktblatt) | Produktseite `laufen.ch/produkte/<slug>-<ArtNr>`, dann die `LaufenResourceServlet`-Links aus dem Quelltext ziehen (belegt 20.08.2026, CITYPRO HF500922100000) | Download Center `laufen.ch/download-centre` (Login erst ab 10 Dateien) | Handelsnummer beim Fachhandel in die Herstellernummer auflösen | Anfrage bei LAUFEN |
 | CAD: Vektor-PDF oder Fremd-DXF nach DWG | Skill `pdf2dwg` (venv `~/.venvs/pdf2dwg`, ezdxf + LibreDWG) | | | Original-DXF unverändert weitergeben |
 | CAD: 3D-Hersteller-DWG (ACIS) nach 2D-Plan (Grundriss/Ansicht/Schnitt) | **Rhino 8 an der besetzten Station**, Import + `Make2D` (4 Ansichten Europa) + `SimplifyCrv`/`Join` + Export R2013 | Rhino skriptgesteuert via `rhinocode` an der besetzten Station (belegt 20.08.2026, ein Dialogklick beim Erstimport) | Massbild aus dem Hersteller-Datenblatt nachzeichnen | Massblatt beim Lieferanten anfordern |
+| Station erreichen, die per SSH nicht antwortet | Fernsteuerung: auf der Zielstation `claude --remote-control "<name>"` (laeuft ueber den Account-Relay, unabhaengig von LAN und Tailscale) | NAS-Task-Queue `scripts/sync-task-create.sh <station> …` (asynchron) | `remote-tasks/pending/<station>/*.sh` + git push (aus der Cloud) | ssh (LAN, dann Tailscale) — nur wenn die Station im Netz sichtbar ist |
 
 **Zu Zeile «CAD»:** die belegten Sackgassen und die Verifikations-Falle dieses Wegs stehen
 vollständig in `skills/pdf2dwg/SKILL.md` (Abschnitt «Grenzen») und werden hier bewusst nicht
@@ -437,3 +438,65 @@ mitunter einen **ueberholten** Text: die Koordinationssitzung Gruner/Jans/KISPI 
 nachweislich woechentlich (acht Instanzen, jeden Donnerstag 20.08. bis 08.10.2026), waehrend der
 Body ab der Instanz vom 27.08. weiterhin «im Zwei-Wochen-Rhythmus» sagt. **Den Takt an den
 Instanzen messen, nicht am Text.** Beleg: `logbuch/fristen.md`, Nachtrag 22.08.2026.
+
+---
+
+## Nachtrag 23.08.2026 — Fernsteuerung (Remote Control): der Weg an eine Station, wenn LAN und Tailscale nicht tragen
+
+Anlass war eine Anzeige im Claude-Fenster: die Session «Normen training nacht» trug den Hinweis
+«Über Fernsteuerung verbunden», während gleichzeitig **kein** SSH-Weg an den Mac Mini
+funktionierte. Beides stimmte, und genau das ist die Lehre.
+
+**Was Fernsteuerung ist.** Eine Session läuft auf einer Station und wird über den
+Account-Relay von Anthropic durchgereicht, nicht über das eigene Netz. Sie ist damit vom
+Büro-LAN, von Tailscale und vom Zustand des Routers **unabhängig** und aus der Desktop-App,
+von claude.ai und vom Handy erreichbar. Die Session läuft weiter, wenn das Fenster
+geschlossen wird; ein Abbruch der Fernsteuerung trennt die Anzeige, nicht den Lauf.
+
+**Einschalten (belegt am CLI-Hilfetext, 23.08.2026):**
+
+```
+claude --remote-control "<sessionname>"
+claude --remote-control-session-name-prefix "<prefix>"   # Default: hostname
+```
+
+Der Befehl läuft **auf der Zielstation**. Das ist der Haken: ist die Station per SSH nicht
+erreichbar, lässt sich die Fernsteuerung von aussen nicht mehr nachträglich einschalten —
+sie muss vorher laufen. Wer eine Station unbeaufsichtigt lässt, startet die Lern-Läufe
+sinnvollerweise gleich mit dieser Option, dann bleibt ein Draht offen, wenn das Netz stirbt.
+
+**Standard ist aus.** Auf dieser Station steht in `~/.claude/policy-limits.json`
+`"defaults": { "remote_control_at_startup": false }`; `~/.claude/remote-settings.json` ist
+leer, und `~/.claude.json` kennt nur `remoteControlUpsellSeenCount`. Fernsteuerung ist also
+**opt-in je Session**, nicht ein Schalter, der einmal gesetzt für alles gilt.
+
+### Der Messbefund vom 23.08.2026: unerreichbar ist nicht tot
+
+| Prüfung | Ergebnis |
+|---|---|
+| `ssh revendo@100.120.219.12` (Tailscale) | Timeout |
+| `ssh revendo@192.168.1.210` (LAN) | Timeout, `arp` bleibt `incomplete` |
+| `tailscale status` | `macmini … offline, last seen 3d ago` |
+| `dscacheutil -q host -a name Macmini.local` | keine Antwort |
+| `logbuch/laeufe/260823-laeufe.jsonl` | **Macmini: 183 Läufe heute, zuletzt 23:28** |
+| `logbuch/heartbeat/git-auto-sync-Macmini.stamp` | 23:26 desselben Abends |
+
+Der Mac Mini arbeitete also normal weiter und schrieb im Minutentakt aufs NAS, während vier
+Netzprüfungen ihn für tot erklärten. **Die Liveness einer Station wird am NAS-Journal
+gemessen, nie an der Erreichbarkeit per SSH.** Wer aus einem fehlgeschlagenen `ssh` auf einen
+Ausfall schliesst, meldet einen Vorfall, den es nicht gibt — und übersieht den echten, nämlich
+den toten Tailscale-Client.
+
+**Die Subnetz-Falle, im selben Lauf gelaufen.** Die dritte Station lag auf `192.168.1.129`,
+der Mini laut Setup-Konnektor auf `192.168.1.210` — gleiche Nummerierung, **verschiedene
+physische Netze**. Ein `ping` in dieselbe Adressfamilie sieht darum nach «im selben LAN, aber
+tot» aus, obwohl schlicht kein gemeinsames Netz besteht. Erkennbar am `arp`-Eintrag: bleibt er
+`incomplete`, war nie ein Gerät dieser Adresse auf diesem Draht. Nicht weiter debuggen,
+sondern den Weg wechseln.
+
+**Offen, nicht geprüft:** ob sich `claude --remote-control` über die NAS-Task-Queue
+(`scripts/sync-task-create.sh mac-mini …`) auf einer nicht erreichbaren Station nachträglich
+starten lässt. Der Weg ist plausibel, weil die Queue über das NAS und nicht über SSH läuft;
+er dürfte aber an der Freigabe-Schwelle hängen (`scripts/sync-task-guard.sh`, Klasse
+Persistenz/Fernausführung) und wäre damit ein Fall für Raphaels Einzelfreigabe. Wer es
+braucht, prüft es und trägt das Ergebnis hier nach.

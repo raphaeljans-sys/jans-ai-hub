@@ -391,9 +391,17 @@ dessen [[rechtsschutz-und-rechtsmittelverfahren]] gewählt (11 Bundesrechts-Zita
 BV/BGG/RPG/NHG/EMRK/ZPO, bislang keines geprüft). **10/11 CONFIRMED wortgleich, 1 Korrektur:**
 Art. 103 BGG trägt die bisherige Aussage «Bund: keine, ausser Antrag» nicht selbst — die
 Antrags-Möglichkeit für eine vorsorgliche Massnahme steht in **Art. 104 BGG**. Report
-`outputs/2026-08-23_buch-run102.md`. **Nächster Schritt:** [[ausnahmebewilligung-und-bestandesschutz]]
-ist der letzte verbleibende Kandidat mit echter Bundesrechts-Lücke (Art. 24c RPG, Art. 41c GSchV,
-Art. 26 BV, Art. 8 ZGB).
+`outputs/2026-08-23_buch-run102.md`. Run 103 hat den von Run 102 benannten letzten Kandidaten
+abgearbeitet: [[ausnahmebewilligung-und-bestandesschutz]] re-verifiziert, alle vier
+Bundesrechts-Zitate (Art. 24c RPG, Art. 41c GSchV, Art. 26 BV, Art. 8 ZGB) gegen frische
+fedlex-Volltexte geprüft — **4/4 CONFIRMED, 0 Korrekturen**. Nebenbefund: Art. 24c Abs. 1 RPG
+wurde per 1.1.2026 materiell revidiert (neuer Titel «Altrechtliche Bauten und Anlagen»), im
+Wiki als Fassungsstand-Hinweis vermerkt, ohne den (für diesen Artikel nur abgrenzenden) Verweis
+im Detail nachzuvollziehen. Report `outputs/2026-08-23_buch-run103.md`. **Damit ist die
+Re-Verifikationskette (Runs 90-103) am Bundesrechts-Kriterium abgeschlossen** — kein Artikel der
+Kette hat mehr ein ungeprüftes Bundesrechts-Zitat offen. **Nächster Schritt für einen künftigen
+Lauf:** ausserhalb dieser Kette weiterarbeiten (neue KB-Lücken, Health-Check, oder eine zweite
+Re-Verifikationsrunde nach Ablauf der `verifiziert`-Daten der acht re-verifizierten Artikel).
 
 ## Arbeitsregeln je Batch
 

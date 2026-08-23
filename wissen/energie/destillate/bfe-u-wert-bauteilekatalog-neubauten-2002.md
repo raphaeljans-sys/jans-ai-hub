@@ -2,7 +2,7 @@
 quelle: PL - 04 Energie/U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten_d[1].pdf
 herausgeber: Bundesamt fuer Energie BFE (Kurt Marti, Ing.-Buero fuer Energie u. Umwelt, Schuepfen)
 ausgabe: 2002 (Bestell-Nr. 805.150 d)
-gelesen: vollstaendig, Seiten 1-80 von 80 (Run 65, 2026-07-14: Kap. 4.1.3 Daecher/Decken, Kap. 4.2 inhomogene Bauteile, Kap. 5 Fenster+Tueren, Anhang ergaenzt)
+gelesen: vollstaendig, Seiten 1-80 von 80 (Run 65, 2026-07-14: Kap. 4.1.3 Daecher/Decken, Kap. 4.2 inhomogene Bauteile, Kap. 5 Fenster+Tueren, Anhang ergaenzt; 23.08.2026 interaktive Session Kap. 2.3.3 Tabelle 3 Luftschichten nachgetragen, schliesst E-R161-1)
 datenstand: ⚠ 2002 — basiert auf SIA 380/1:2001. SIA 380/1 wurde 2009 + 2016 revidiert; Grenzwerte gegen aktuelle Fassung pruefen (siehe QUESTIONS E-D5).
 status: established
 last_updated: 2026-07-14
@@ -52,6 +52,53 @@ hier nicht konstant angebbar (geometrieabhaengig); braucht Ueberhitzungsschutz.
 ## Normbasis (Stand der Publikation 2002)
 SN EN ISO 6946 (SIA 180.071, U-Wert-Berechnungsverfahren), SN EN ISO 7345, SIA 180 (1999),
 Vornorm SIA 279 (Waermedaemmstoffe), SIA 380/1 (2001) + Doku SIA D0170, BFE-Waermebrueckenkatalog.
+
+## Kapitel 2.3.3 — Waermedurchlasswiderstand Rg von Luftschichten (Tabelle 3) — ergaenzt 23.08.2026, schliesst E-R161-1
+
+**Nur fuer ruhende Luftschichten** (der Luftraum ist von der Umgebung abgeschlossen — nicht
+identisch mit einer hinterluefteten/stark beluefteten Schicht, siehe unten). Buchseite 14
+(PDF-S. 16), Originaltext: *«In der Praxis werden die Daemmeigenschaften mit Hilfe des
+Waermedurchlasswiderstands Rg in m²·K/W angegeben (Tab. 3). In der Formel zur Berechnung des
+U-Werts kann dann anstelle von d/λ der Luftschicht direkt der entsprechende Rg-Wert eingesetzt
+werden.»* Das Original verweist seinerseits auf **SN EN ISO 6946** als Primaerquelle («Ergaenzende
+Angaben … finden sich in der Norm SN EN ISO 6946») — dieses BFE-Dokument ist also eine amtliche
+Sekundaerquelle, keine Norm-Kopie.
+
+**Tabelle 3 — Rg in m²·K/W, nach Dicke und Richtung des Waermestroms:**
+
+| Dicke Luftschicht | aufwaerts | horizontal | abwaerts |
+|---|---|---|---|
+| 5 mm | 0,11 | 0,11 | 0,11 |
+| 10 mm | 0,15 | 0,15 | 0,15 |
+| 25 mm | 0,16 | 0,18 | 0,19 |
+| 50 mm | 0,16 | 0,18 | 0,21 |
+| 100 mm | 0,16 | 0,18 | 0,22 |
+
+*„Zwischenwerte duerfen interpoliert werden"* (Originalzitat). Für **horizontalen** Waermestrom
+(vertikale Bauteile wie Waende) ist der Wert von 25 bis 100 mm konstant **0,18 m²·K/W** — bei
+dieser Richtung ist innerhalb dieser Spanne keine Interpolation noetig, jede Zwischendicke traegt
+denselben Wert.
+
+**Was die Tabelle NICHT abdeckt (bleibt offen, eigener Punkt):** die **schwach belueftete**
+Luftschicht (Zwischenstufe zwischen ruhend und stark belueftet) ist in diesem Dokument nicht
+beziffert — nur «ruhend» (diese Tabelle) und «stark belueftet/hinterlueftet» (Kap. 2.5, dort:
+Luftschicht und alle Schichten aussen davon entfallen, R_se wird durch R_si ersetzt). Der in der
+Fachliteratur gaengige Faustwert (Rg,ruhend halbiert fuer schwach belueftet) steht **nicht** in
+diesem Dokument und ist in der KB nicht belegt — dafuer waere der Normtext SN EN ISO 6946 selbst
+noetig (Beschaffungsentscheid Raphaels, gleiche Klasse wie E-R148-1).
+
+**Anwendungsbeispiel (verifiziert die Tabelle an einem KB-eigenen Fall):** Fuer die in
+`[[ki-generierte-fachdokumente-referenzablage]]` prijfte 40-mm-Luftschicht (dort als «unbelueftet»
+bezeichnet, Wandaufbau also horizontaler Waermestrom) ergibt sich mit dieser Tabelle
+**Rg = 0,18 m²·K/W** (Wert bei 25-100 mm konstant) statt des im Fremddokument frei gegriffenen
+Rechenwegs (dort λ = 0,15 W/(m·K) angesetzt, keine Materialkennzahl fuer Luft).
+
+Quelle: `U-Wert-Berechnung und Bauteilekatalog Neubauten`, Bundesamt fuer Energie BFE, 2002
+(Bestell-Nr. 805.150 d), Kap. 2.3.3, Tabelle 3, PDF-S. 16 von 80. SharePoint-Fundstelle:
+Site `/sites/PL`, Bibliothek `PL Immobilienpreise` (Drive-ID
+`b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SfT25dFWtAPQ7JsQfZ1A7n_`, identisch mit der bereits
+bekannten Drive-ID `02_Recht_Norm`/`02_Normen`), Pfad `02_Normen/SIA_Norm/SIA_Normen/alle/`,
+Item-ID `01XRK3TQ2XTF2THCR26FDL4W2NLOS5M4UY`.
 
 ## Kapitel 4 — Bauteilekatalog (Standardaufbauten zum Ablesen) — ergaenzt 2026-06-10
 

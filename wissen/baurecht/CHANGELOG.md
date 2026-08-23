@@ -3,6 +3,62 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 103: [[ausnahmebewilligung-und-bestandesschutz]] re-verifiziert — letzte offene Bundesrechts-Lücke der Re-Verifikationskette (Runs 90-102) geschlossen, 4/4 CONFIRMED, 0 Korrekturen
+
+- **Ausgangslage:** Fortsetzung des Auftrags «Reglemente-Queue 2414 Thalwil weiterarbeiten».
+  CHANGELOG bis Run 102 und `outputs/2026-08-23_buch-run102.md` gelesen: die Queue selbst
+  (T1-T9) ist seit Run 87 vollständig abgearbeitet, seit Run 90 läuft statt dessen eine
+  Re-Verifikationskette der `established`-Artikel gegen den amtlichen Bundesrechts-Wortlaut.
+  Run 102 benannte [[ausnahmebewilligung-und-bestandesschutz]] als **letzten verbleibenden
+  Kandidaten** mit ungeprüften Bundesrechts-Zitaten (Art. 24c RPG, Art. 41c GSchV, Art. 26 BV,
+  Art. 8 ZGB). Konkurrenz-Check (`ps aux`) bestätigt: nur der eigene Session-Prozess bearbeitet
+  `wissen/baurecht/`.
+- **Vier amtliche Volltexte über Fedlex bezogen** (Filestore-Muster, Rule
+  `docs/referenz/fedlex-volltexte.md`): RPG (SR 700, ELI `1979/1573_1573_1573`, Stand 1.7.2026,
+  `www`-Route, 155'232 Byte), BV (SR 101, ELI `1999/404`, Stand 1.1.2024, `www`-Route, 420'021
+  Byte — 1.1.2025/1.1.2026 liefern nur die 77'151-Byte-App-Hülle), ZGB (SR 210, ELI
+  `24/233_245_233`, Stand 1.1.2026, `www`-Route, 1'959'085 Byte), GSchV (SR 814.201, ELI
+  `1998/2863_2863_2863`, Stand 1.12.2025, `fedlex.data.admin.ch`-Route nötig, 927'081 Byte PDF).
+  Artikel per Python/`re` (HTML) bzw. `pdftotext -layout` (PDF) isoliert und Wort für Wort gegen
+  den Wiki-Text geprüft.
+- **Ergebnis: 4/4 CONFIRMED, 0 Korrekturen.** Art. 24c RPG (altrechtliche Bauten ausserhalb der
+  Bauzonen) korrekt als Abgrenzungs-Verweis geführt. Art. 41c Abs. 1/2 GSchV trägt eine dem
+  § 357 PBG analoge Bestandesschutz-Klausel im Gewässerraum («in ihrem Bestand grundsätzlich
+  geschützt, sofern rechtmässig erstellt und bestimmungsgemäss nutzbar») — wortgleich zur
+  Wiki-Kurzfassung. Art. 26 BV («Das Eigentum ist gewährleistet») trägt die Herleitung «Ausfluss
+  der Eigentumsgarantie». Art. 8 ZGB (allgemeine Beweislastregel) trägt die Anwendung «Beweislast
+  trägt, wer sich auf den Bestandesschutz beruft».
+- **Nebenbefund, kein Korrekturbedarf in diesem Artikel:** Art. 24c Abs. 1 RPG wurde per
+  1.1.2026 materiell revidiert (BG vom 29.9.2023) und trägt seither den neuen Titel
+  «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige Bauten und Anlagen
+  ausserhalb der Bauzonen»). Der genaue Änderungsumfang wurde nicht rekonstruiert — eine
+  Vorfassung war über die `www`-Route für 1.1.2024/1.1.2025/1.7.2025 nicht mehr abrufbar (nur
+  die App-Hülle), und der Artikel führt Art. 24c ohnehin nur als Abgrenzungs-Verweis, nicht als
+  eigenes Destillat. Fassungsstand-Hinweis im Wiki ergänzt, damit ein künftiger SZ-/ZH-Fall mit
+  Bestandesbauten ausserhalb der Bauzone die Fassung ab 1.1.2026 zugrunde legt.
+- **Damit ist die von Buch-Run 90 begonnene Re-Verifikationskette (Runs 90-103) am
+  Bundesrechts-Kriterium abgeschlossen:** kein Wiki-Artikel dieser Kette hat mehr ein
+  ungeprüftes Bundesrechts-Zitat offen ([[raumplanung-und-gestaltung]],
+  [[naturschutz-und-denkmalschutz]], [[enteignung-und-entschaedigung]],
+  [[bauausfuehrung-und-baukontrolle]], [[widerrechtliche-bauten-und-sanktionen]],
+  [[nebenbestimmungen-und-reverse]], [[rechtsschutz-und-rechtsmittelverfahren]],
+  [[ausnahmebewilligung-und-bestandesschutz]] — je re-verifiziert). Empfehlung für einen
+  künftigen Lauf: ausserhalb dieser Kette weiterarbeiten (z.B. neue KB-Lücken, Health-Check,
+  oder eine zweite Re-Verifikationsrunde nach Ablauf der `verifiziert`-Daten).
+- **In die KB eingearbeitet:** `wiki/ausnahmebewilligung-und-bestandesschutz.md` (`last_updated`
+  2026-08-23, `verifiziert`-Feld und `sources` um die vier Bundesrechts-Belege ergänzt, zwei
+  Sätze im Abschnitt «Abgrenzungen» präzisiert — GSchV-Bestandesschutz-Analogie, RPG-Fassungsstand).
+  `training/PROGRAMM.md` (Tracker-Eintrag Run 103). `training/KORPUS-QUEUE-thalwil-reglemente.md`
+  (Fortsetzungs-Absatz ergänzt). Kein neuer `raw/`-Volltext (gleiches Vorgehen wie Runs 97/99-102,
+  Fundstellen über `sources`/`verifiziert` referenziert, Volltexte nur temporär in
+  `/tmp/baurecht-run103/`).
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** `git status --short wissen/baurecht/`
+  vor dem ersten Edit sauber. Nach dem Schreiben `git diff --numstat
+  wissen/baurecht/wiki/ausnahmebewilligung-und-bestandesschutz.md` → 10/4 (additiv/ersetzend);
+  `git diff | grep "^-"` bestätigt: die 4 gelöschten Zeilen sind exakt die 3 ersetzten
+  Frontmatter-Felder plus die 1 erweiterte Abgrenzungs-Zeile, keine fremde Zeile verloren.
+- Report `outputs/2026-08-23_buch-run103.md`.
+
 ## 2026-08-23 — Buch-Run 102: [[rechtsschutz-und-rechtsmittelverfahren]] re-verifiziert — erstmals alle 11 zitierten Bundesrechts-Artikel (BV/BGG/RPG/NHG/EMRK/ZPO) gegen den amtlichen Wortlaut geprüft, 1 Korrektur (Art. 103 BGG traegt die «Antrag»-Ausnahme nicht selbst, das ist Art. 104 BGG); zudem Run-101-Fehlempfehlung korrigiert ([[nebenbestimmungen-und-reverse]] war bereits seit Run 67 vollstaendig verifiziert)
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (Batches T1-T8). Geprüft:

@@ -98,6 +98,27 @@ R_T = R_si 0,13 + Mineralwolle 0,04/0,035 (= 1,143) + CLT 0,14/λ + R_si 0,13
 besser. **Genau das ist die Falle.** Wer nur auf die Schlusszahl schaut, sieht keinen Anlass
 zur Prüfung.
 
+**Nachtrag 23.08.2026 — die zweite Lesart ist jetzt ebenfalls rechenbar (schliesst E-R161-1).**
+Seit dem Tabellenwert-Fund in `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (Kap. 2.3.3,
+Tabelle 3) lässt sich auch die vom Dokument selbst behauptete Lesart **«Luftschicht
+(unbelüftet)»** nachrechnen (Rg für ruhende, horizontal durchströmte Luftschicht 40 mm
+= 0,18 m²K/W, konstant im Bereich 25-100 mm):
+
+R_T = R_se 0,04 + Rg Luftschicht 0,18 + Mineralwolle 1,143 + CLT 0,14/λ + R_si 0,13
+
+| λ CLT | R_T | **U-Wert** |
+|---|---|---|
+| 0,110 | 2,766 | **0,362 W/m²K** |
+| 0,12 | 2,660 | **0,376 W/m²K** |
+| 0,13 (KI-Wert, unbelegt) | 2,570 | 0,389 W/m²K |
+
+Auch diese Lesart bleibt in derselben Grössenordnung wie die drei anderen Rechnungen (0,36 bis
+0,40 W/m²K) — der Befund «das Ergebnis überlebt trotz Methodenfehlern» gilt unabhängig davon,
+ob als hinterlüftete Fassade oder als ruhende Luftschicht gelesen wird. Für die Praxis bleibt
+die hinterlüftete Lesart wahrscheinlicher (Schutzblechverkleidung + Unterkonstruktion ist eine
+gängige Konstruktion), aber der Methodenfehler des Dokuments (λ statt Rg-Tabellenwert für die
+Luftschicht) ist damit in **jeder** Lesart nachweisbar, nicht nur der bisher rechenbaren.
+
 ### Zwei weitere Beanstandungen
 
 - **λ = 0,13 für Stora-Enso-CLT ist nicht belegt.** Das Dokument nennt den Hersteller

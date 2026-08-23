@@ -3,7 +3,8 @@ title: U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 status: established
 last_updated: 2026-08-23 (Run 161: neuer Abschnitt «Einen fremden U-Wert-Rechenweg prüfen —
   vier Griffe», aus der Prüfung einer KI-erzeugten U-Wert-Rechnung in der Referenzablage PL-04;
-  offen E-R161-1, Tabellenwert ruhende Luftschicht nach SN EN ISO 6946 fehlt in der KB)
+  23.08.2026 interaktive Session: Griff 02 nachgeführt, E-R161-1 (ruhende Luftschicht) geschlossen,
+  schwach belüftete Zwischenstufe bleibt offen)
 sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/ki-generierte-fachdokumente-referenzablage.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
@@ -181,8 +182,11 @@ das ausgewiesene Resultat, wurden die Übergangswiderstände vergessen. Das rech
 
 **02 Wie ist eine Luftschicht behandelt?** Ein λ für eine Luftschicht ist immer falsch — nach
 **SN EN ISO 6946** bekommt sie einen tabellierten Wärmedurchlasswiderstand (Dicke,
-Wärmestromrichtung, Belüftungsgrad). ⚠ Dieser Tabellenwert ist in der KB **nicht erfasst**
-(E-R161-1): am Normtext nachschlagen, nicht schätzen.
+Wärmestromrichtung, Belüftungsgrad). Für **ruhende** Luftschichten liegt der Tabellenwert seit
+23.08.2026 belegt in der KB (→ `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`, Kap. 2.3.3,
+Tabelle 3: horizontal 0,18 m²K/W bei 25-100 mm, konstant): E-R161-1 damit geschlossen. Offen
+bleibt nur die **schwach belüftete** Zwischenstufe (weder ruhend noch stark belüftet/hinterlüftet)
+— dafür fehlt weiterhin der Normtext SN EN ISO 6946 selbst.
 
 **03 Steckt eine hinterlüftete Vorsatzschale im Aufbau?** Bei einer **stark belüfteten**
 Luftschicht entfallen nach derselben Norm die Luftschicht **und alle Schichten aussen davon**;

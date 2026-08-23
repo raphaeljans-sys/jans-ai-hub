@@ -6,8 +6,14 @@ gelesen: "alle 8 Seiten (Bild-Scan ohne nutzbaren Textlayer, als 300-dpi-Renderi
 datenstand: "November 2009 (bfu-Fachbroschuere 2.007.01 – 11.2009)"
 status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 10 Befunden, davon 6 Vollstaendigkeitsluecken und 4 formale. Die Vollstaendigkeitsluecken hat der Hauptprozess vor der Uebernahme selbst am 200-dpi-Rendering der S. 3, 4 und 7 nachgeprueft und alle bestaetigt: es fehlten der Kasten 'Behindertengerechte Treppen' (S. 3), ZWEI der sechs Treppenformen (Bogentreppe und Viertel-/halbgewundene Treppe, S. 4), der Einleitungsabsatz zur VSS SN 640 238 (S. 7) sowie die drei eigenstaendigen S.-7-Abschnitte Beleuchtung und Bodenbelag im Aussenraum und die Handlauf-Zusatzanforderungen (nicht als Rutschbahn benutzbar, Kleidungsstuecke duerfen sich nicht verfangen). Alle eingearbeitet. Die zwei Frontmatter-Befunde (gelesen/datenstand trugen das Bearbeitungsdatum) waren bereits vor Eingang des Refuter-Berichts zentral behoben. BESTAETIGT vom Refuter: Publikationsnummer 2.007.01 – 11.2009 am Seitenrand S. 8, saemtliche Zahlenwerte der S. 5-7 (Winkeltabelle 90/75/45/41/30/20/5 Grad mit Prozentwerten, Auftritt 25-29 cm, Steigung 17-19 cm, Schrittmassformel 62-64 cm, Zwischenpodest nach 15-18 Steigungen, Laufbreite 120/90 cm, Handlauf 4-5 cm Durchmesser und 80-90 cm Hoehe, Geländerhoehe 100/90/75 cm, Kugelprobe 12 cm, Rampenneigung 3,5/7 Grad, Treppenwege unter 20 Grad, Aussentreppen 13-18/28-35 cm und 9-12 Stufen, 30/28 Grad). Kein Nulldurchgang)"
 last_updated: 2026-07-30
-links: [[REGISTER]]
+links: [[REGISTER]], [[bfu-treppen-2020]]
 ---
+
+> ⚠ **Überholt 23.08.2026:** die bfu führt seit 12.2020 eine neue, vollständig
+> umstrukturierte Ausgabe dieser Fachdokumentation mit teils geänderten Zahlenwerten
+> (Handlauf-Höhe/-Durchmesser, neuer Absturzhöhen-Schwellenwert). Für aktuelle Projekte
+> `bfu-treppen-2020.md` verwenden, diese Datei nur noch als historischer Stand/Altprojekte.
+
 # bfu-Fachbroschüre «Treppen»
 
 ## Das Wichtigste in 3 Sätzen

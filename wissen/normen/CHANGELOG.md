@@ -1,3 +1,109 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 25 (Cross-Check-Lauf): Ziffer-für-Ziffer-Abgleich SIA 266/267 gegen DIN 1053-1/1054, Scope-Klärung SIA 262 ↔ DIN 1045-2
+
+**Auftrag:** Offene Fragen in `wiki/QUESTIONS.md` abarbeiten (Rule `wissens-bibliothekar`,
+Fundstellenpflicht Norm/Ausgabe/Ziffer, nur `established` zitierfähig, nichts raten). CHANGELOG
+und Report des letzten Laufs (QUESTIONS-Abarbeitung 24) zuerst gelesen. Die dortige Screening-
+Kategorisierung (37 offene Punkte, überwiegend Bring-Schuld/Strukturentscheid) erneut geprüft;
+ein genuin loop-lösbarer, kostenloser Punkt identifiziert und bearbeitet: die 27. Fortsetzung
+SIA-Sweep (23.08.2026) hatte den Ziffer-für-Ziffer-Abgleich SIA 266/262/267 gegen
+DIN 1053/1045-2/1054 (Zeile 3871 `QUESTIONS.md`) ausdrücklich als nächsten offenen Schritt
+benannt, nachdem SIA 266/267 in derselben Fortsetzung vollständig destilliert worden waren.
+
+**Durchgeführt:** Vollständiger Cross-Check-Bericht
+`outputs/2026-08-23_cross-check-sia266-267-vs-din1053-1054.md`, gegen die bereits `established`
+Destillate `sia-266-2003.md`, `sia-267-2003.md`, `sia-262-2003.md`, `din-1053-1-1996.md`,
+`din-1054-2010.md`. Drei Kernbefunde:
+
+1. **Mauerwerk (SIA 266 ↔ DIN 1053-1):** Mindestwanddicke tragender Wände (115 mm) stimmt in
+   SIA 266 Ziff. 5.1.3.1 und DIN 1053-1 Ziff. 8.1.2.1 trotz unabhängiger Normentstehung exakt
+   überein. Der zahlenmässig identische Sicherheitsbeiwert (γM=γw=2,0) beruht dagegen auf
+   grundverschiedenen Bemessungsphilosophien (SIA Grenzzustandsverfahren vs. DIN zulässige
+   Spannungen) — für JANS-Texte nicht unkommentiert gleichsetzen.
+2. **Geotechnik (SIA 267 ↔ DIN 1054), Hauptbefund dieses Laufs:** SIA 267 reduziert
+   Bodenkennwerte (tan φ', c', cu, qu) einheitlich über einen Materialpartialfaktor
+   (Tabelle 1). DIN 1054/Eurocode 7 tut dies für die meisten Regelnachweise (GEO-2 — Grundbruch,
+   Gleiten, Pfahl-/Ankertragfähigkeit) NICHT (γφ'=γc'=1,00, Tabelle A 2.2) — der
+   Sicherheitsabschlag sitzt dort auf der Widerstandsseite (γR, Tabelle A 2.3); nur bei der
+   Gesamtstandsicherheit (GEO-3) wendet DIN 1054 einen zu SIA grössenordnungsmässig
+   vergleichbaren Materialfaktor an. Deutsche Geotechnik-Gutachtenwerte sind daher nicht ohne
+   Prüfung des Nachweisverfahrens in eine SIA-267-Bemessung übernehmbar. Zusätzlich: DIN 1054
+   bietet mit den Sohlwiderstands-Tabellen A 6.1-A 6.8 eine kodifizierte Praxisabkürzung für
+   Flachfundationen, die SIA 267 nicht kennt (dort stets rechnerischer Nachweis nötig).
+3. **Beton (SIA 262 ↔ DIN 1045-2):** Der geforderte Bemessungsvergleich ist mit dem Bestand
+   NICHT durchführbar — DIN 1045-2 regelt nur die Betonzusammensetzung (Teil 2 der
+   vierteiligen DIN-1045-Reihe), die zu SIA 262 inhaltlich passende Bemessungsnorm wäre
+   DIN 1045-1 («Bemessung und Konstruktion»), die nicht im Bestand ist (kein Bring-Schuld-Fall,
+   schlicht nicht gesucht). Dieser Scope-Mismatch ist selbst der wesentliche Befund zu diesem
+   Normpaar.
+
+**Nachgetragen:** `wiki/QUESTIONS.md` Zeile 3871 (Checkbox geschlossen, Kernbefunde inline
+zusammengefasst), `destillate/sia-266-2003.md` und `destillate/sia-267-2003.md` je ein
+Cross-Check-Vermerk in «Offene Punkte» mit Verweis auf den Report. Zwei kleine Restlücken
+(SIA-266-Formel für aussteifende Wände, deutsche Zusatz-Expositionsklassen in SIA 262) bewusst
+NICHT als neue Checkbox angelegt — reine Vollständigkeitslücken ohne aktuellen Praxisbedarf,
+im Report Abschnitt 5 dokumentiert.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `QUESTIONS.md` 24/0
+(reine Ergänzung), `sia-266-2003.md` 1/0, `sia-267-2003.md` 1/0 (je eine neue Zeile, keine
+fremde Zeile berührt). Kein `git`-Schreibbefehl über den SMB-Mount; Commit über den
+15-Minuten-`nas-selfcommit`-Cron bzw. `scripts/nas-commit-now.sh`.
+
+## 2026-08-23 — SIA-Sweep, achtundzwanzigste Fortsetzung: zwei neue kostenlose bfu-Ausgaben (Treppen/Glas 12.2020) beschafft und destilliert
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht).
+
+**Ausgangslage eigenständig verifiziert:** Die 27. Fortsetzung
+(`outputs/2026-08-23_sia-sweep-siebenundzwanzigste-fortsetzung.md`) hatte den engeren
+SIA-Blindzonen-Sweep (SharePoint-Register-Zeilen ohne Datei im Haus) für erschöpft erklärt.
+Eigene Gegenprüfung bestätigt das unabhängig: `training/norm-inventar.md` zeigt 0 offene
+`[ ]`-Positionen; alle 59 REGISTER-Zeilen mit «Kein Volltext im Haus» tragen bereits ein
+Produktdatenblatt mit gültig-ab/gültig-bis von `shop.sia.ch`; die zwei verbliebenen
+N-SIASWEEP-Fragen (SIA 422, SIA 2025 — Nachfolgernorm unbekannt) haben laut `QUESTIONS.md`
+bereits acht unabhängige Quellenarten erschöpft, mit expliziter Empfehlung, sie nicht erneut
+mit denselben Mitteln anzugehen. Der VKF-Teil der Blindzone ist ebenfalls bereits
+abgeschlossen (Fassungsmatrix Run 58).
+
+**Neuer, bisher nicht bearbeiteter Fund statt Wiederholung:** Abschnitt D (Nicht-SIA-
+Familien) führte einen offenen Vorbehalt zu zwei bfu-Publikationen («Glas in der
+Architektur» 2.006.01–10.2010, «Treppen» 2.007.01–11.2009): «bei Verwendung auf eine
+neuere bfu-Fassung prüfen — nicht im Haus». Dieser Vorbehalt war seit Run 38 (30.07.2026)
+nie eingelöst worden. Geprüft: **beide Publikationen liegen seit 12.2020 in einer neuen,
+kostenlosen Ausgabe vor** (bfu.ch/api/publications, kein Kauf nötig), direkt per `curl`
+heruntergeladen (2,2 MB / 2,6 MB, Textlayer via `pdftotext -layout` vollständig gelesen,
+je 24 Seiten).
+
+**Materiell relevante Änderungen gefunden, nicht nur Formalien:**
+- **Treppen 2020:** Handlauf-Höhe **85–90 cm** (statt 80–90 cm 2009), Durchmesser
+  **3,5–4,5 cm** (statt 4–5 cm). Neuer, konkreter Absturzhöhen-Schwellenwert für
+  Geländerpflicht (ab 1,00 m innen; ab 40 cm Prüfschwelle / 1,00 m Randaufbordungspflicht
+  aussen) — dieser Wert war in der 2009er-Fassung eine ausdrücklich offene Frage
+  (`bfu-treppen.md`, Abschnitt «Offene Punkte»). Sieben vierspaltige Vergleichstabellen
+  (BFU/SIA 500/Altersgerechte Wohnbauten/SN 640 075) statt Fliesstext.
+- **Glas in der Architektur 2020:** SIGAB neu als Mitherausgeberin. Erstmals wird die
+  SIA-358-Vorgabe wörtlich mit Zahl zitiert: Floatglas zulässig ab **1,0 m** Höhe der
+  unteren Glasleiste über der begehbaren Fläche, darunter Sicherheitsglas-Pflicht — löst
+  eine ausdrücklich offene Frage der 2010er-Fassung (`bfu-glas-in-der-architektur.md`:
+  «nennt keine konkreten Absturzhöhen-Schwellenwerte»). Markierungen auf transparenten
+  Flächen jetzt bemasst (50 % Fläche transparent bleibend, Markierungsabstand max. 10 cm).
+  Neue Kapitel Personenschutz und Bauteile aus Glas (11 Steckbriefe).
+
+**Zwei neue Destillate** (`destillate/bfu-treppen-2020.md`,
+`destillate/bfu-glas-in-der-architektur-2020.md`), Status `speculative` (Solo-Lektüre,
+keine Refuter-Runde in diesem Lauf — anders als die alten Fassungen, die 2026-07-30
+adversarial verifiziert wurden). Alte Destillate **nicht gelöscht**, sondern mit
+Überholt-Vermerk und Querverweis versehen (bleiben als historischer Stand für Altprojekte
+lesbar). `destillate/INDEX.md` und `wiki/REGISTER.md` (Tabellenzeilen + Zitier-Vorbehalt)
+nachgeführt.
+
+**Kein Fortschritt und keine Wiederholung bei den erschöpften N-SIASWEEP-2/-3-Fragen** —
+wie von der vorigen Fortsetzung empfohlen, nicht erneut mit Web-/Dateisystem-Mitteln
+angegangen.
+
+Report: `outputs/2026-08-23_sia-sweep-achtundzwanzigste-fortsetzung.md`.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 24: Schweizer-Pendants-Punkt geschlossen, Inventar-Scan-Härtung präzisiert
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit

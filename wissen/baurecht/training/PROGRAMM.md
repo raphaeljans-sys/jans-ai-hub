@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 102)
+last_updated: 2026-08-23 (Run 103)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -1624,6 +1624,23 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   [[ausnahmebewilligung-und-bestandesschutz]] (Art. 24c RPG, Art. 41c GSchV, Art. 26 BV, Art. 8 ZGB).
   **Methodischer Hinweis:** vor der Wahl eines Kandidaten aus einer Vorlauf-Empfehlung immer den
   Zielartikel selbst lesen, nicht nur seine Paragraphenliste — die Empfehlung kann veraltet sein.
+- **Buch-Run 103 (2026-08-23):** [[ausnahmebewilligung-und-bestandesschutz]] re-verifiziert —
+  letzter Kandidat der Bundesrechts-Kette. Alle 4 Zitate gegen frische fedlex-Volltexte geprueft
+  (RPG 1.7.2026, BV 1.1.2024, ZGB 1.1.2026, GSchV 1.12.2025 — GSchV nur ueber die
+  `fedlex.data.admin.ch`-Route erreichbar, `www` liefert die App-Huelle). **4/4 CONFIRMED, 0
+  Korrekturen:** Art. 24c RPG korrekt als Abgrenzungs-Verweis; Art. 41c Abs. 1/2 GSchV traegt
+  eine dem § 357 PBG analoge Bestandesschutz-Klausel im Gewaesserraum, wortgleich zur
+  Wiki-Kurzfassung; Art. 26 BV traegt die Eigentumsgarantie-Herleitung; Art. 8 ZGB traegt die
+  Beweislast-Anwendung. **Nebenbefund:** Art. 24c Abs. 1 RPG wurde per 1.1.2026 materiell
+  revidiert (neuer Titel «Altrechtliche Bauten und Anlagen»), Vorfassung ueber `www` nicht mehr
+  abrufbar, Genauumfang nicht rekonstruiert (Artikel fuehrt Art. 24c ohnehin nur als
+  Abgrenzungs-Verweis). Fassungsstand-Hinweis im Wiki ergaenzt. Konkurrenz-Check bestaetigt: nur
+  der eigene Session-Prozess bearbeitet `wissen/baurecht/`. Report
+  `outputs/2026-08-23_buch-run103.md`. **Damit ist die Re-Verifikationskette (Runs 90-103) am
+  Bundesrechts-Kriterium abgeschlossen** — kein Artikel der Kette hat mehr ein ungeprueftes
+  Bundesrechts-Zitat offen. **Naechster Schritt fuer einen kuenftigen Lauf:** ausserhalb dieser
+  Kette weiterarbeiten (neue KB-Luecken, Health-Check, oder eine zweite Re-Verifikationsrunde
+  nach Ablauf der `verifiziert`-Daten).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

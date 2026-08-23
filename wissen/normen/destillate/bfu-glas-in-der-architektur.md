@@ -6,8 +6,14 @@ gelesen: "alle 8 Seiten (Textlayer via pdftotext, Tabellen und Zeichnungen zusae
 datenstand: "Oktober 2010 (bfu-Fachbroschuere 2.006.01 – 10.2010)"
 status: "speculative (Erstdestillat 260730 Run 38; unabhaengige Refuter-Runde am selben Tag: BEANSTANDET mit 4 Befunden, alle formal — Drahtglas-Fundstelle S. 2 statt S. 4, fehlender TVG-Anwendungsfall bei ueblichen Fenstern, fehlende Liste weiterer bfu-Publikationen S. 8, nicht destillierter Absatz 'Eigenschaften von Glas' S. 2. Alle vier eingearbeitet bzw. als Vollstaendigkeits-Ausweis dokumentiert. BESTAETIGT vom Refuter: Publikationsnummer/Ausgabe/Herausgeber, die komplette Anwendungstabelle S. 5 zellenweise (4 Glasarten x 8 Situationen, keine Abweichung), alle Zahlenwerte (4/6/8 mm, 0,5 m2, 2,0 m, 60 cm, 650 Grad C), Glastypen-Absaetze S. 4/6, Halterung/Kanten/Vordaecher S. 7. Kein Nulldurchgang, daher speculative)"
 last_updated: 2026-07-30
-links: [[REGISTER]]
+links: [[REGISTER]], [[bfu-glas-in-der-architektur-2020]]
 ---
+
+> ⚠ **Überholt 23.08.2026:** die bfu führt seit 12.2020 eine neue, deutlich erweiterte
+> Ausgabe (neu mit SIGAB als Mitherausgeberin), die erstmals den in dieser Fassung offen
+> gelassenen 1,0-m-Absturzhöhen-Schwellenwert nach SIA 358 nennt. Für aktuelle Projekte
+> `bfu-glas-in-der-architektur-2020.md` verwenden, diese Datei nur noch als historischer
+> Stand/Altprojekte.
 
 # bfu-Fachbroschüre «Glas in der Architektur»
 

@@ -1,5 +1,53 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (achtzehnte Fortsetzung): E-R161-1 geschlossen (ruhende Luftschicht), E-R148-1-Framing nachgeführt
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die siebzehnte
+Fortsetzung (`outputs/2026-08-23_questions-nachlauf-siebzehnte-fortsetzung.md`), die E-R161-3
+vollständig geschlossen und E-R148-1/E-R161-1/E103/E94 als verbleibend offen übergeben hatte
+(damals als Beschaffungsentscheide Raphaels bzw. nicht recherchierbar eingestuft).
+
+**E-R161-1 liess sich entgegen dieser Einschätzung doch schliessen — kein Normkauf nötig.** Der
+Tabellenwert für den Wärmedurchlasswiderstand Rg **ruhender** Luftschichten (Wärmestromrichtung ×
+Dicke, benötigt für die Korrekturrechnung in `[[ki-generierte-fachdokumente-referenzablage]]`)
+stand bereits im KB-Bestand: `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (Bundesamt für
+Energie BFE, 2002, seit Run 65/14.07.2026 destilliert) enthält in Kap. 2.3.3 Tabelle 3 genau
+diesen Wert — nur wurde dieses Kapitel beim ursprünglichen Destillat nie transkribiert. Direkt
+am PDF geprüft (PyMuPDF-Extrakt, Textblöcke nach Position sortiert statt Lesereihenfolge der
+automatischen Extraktion, weil die zweispaltige Tabellenlayout sonst durcheinandergeriet). Für
+horizontalen Wärmestrom (Wände) ist der Wert von 25 bis 100 mm konstant **0,18 m²K/W** — die für
+die 40-mm-Luftschicht der Korrekturrechnung benötigte Zahl, ohne Interpolationsbedarf.
+Eingearbeitet in drei Dateien: `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]` (neuer Abschnitt
+Kap. 2.3.3), `[[u-werte-grenzwerte-ch]]` (Prüfabschnitt «Vier Griffe», Griff 02 nachgeführt) und
+`[[ki-generierte-fachdokumente-referenzablage]]` (zweite Lesart der Korrekturrechnung jetzt
+ebenfalls rechenbar: 0,362-0,389 W/m²K statt bisher nur die hinterlüftete Lesart 0,374-0,403,
+gleiche Grössenordnung, bestätigt den bestehenden Befund). **Bewusst nicht geschlossen:** die
+«schwach belüftete» Zwischenstufe (weder ruhend noch stark belüftet/hinterlüftet) ist im
+BFE-Dokument nicht beziffert — dafür bliebe der Normtext SN EN ISO 6946 selbst nötig, unverändert
+Beschaffungsentscheid Raphaels, gleiche Klasse wie E-R148-1.
+
+**Nebenbefund:** die als Begründung für E-R148-1 (Normkauf SIA 380/1:2016, P1) zitierte
+Healthcare-Einstufungsfrage E-R140-1 war bereits am selben Tag (Run 153) geschlossen — sachlich
+geklärt über `[[sia-2024-nutzungsrandbedingungen-gesundheitsbau]]` (Pflegeheim/Altersheim gehört
+zu Kat. VIII.2, 70 kWh/m², nicht zu Kat. I). E-R148-1 bleibt offen (U-Wert-/Q_H,li-Tabellenwerte
+und die formell zitierfähige Anhang-A-Fundstelle fehlen weiterhin), aber ohne die frühere
+Dringlichkeits-Formulierung — die Sachfrage ist gelöst, nur die Norm-Zitierform fehlt. Recap in
+`QUESTIONS.md` angehängt, historischer Eintrag nicht überschrieben (Muster dieser KB).
+
+**Cross-KB-Prüfung ohne Fund:** ein zunächst vermutetes «neues» SIA-Normen-Archiv (SharePoint-
+Site `/sites/PL`, Bibliothek `PL Immobilienpreise`/`02_Normen`, über 200 SIA-PDF, entdeckt bei
+der Suche nach dem Rg-Tabellenwert) erwies sich als bereits vollständig durch die KB `normen`
+erschlossen (über 200 SIA-Destillate, u.a. `[[sia-380-1-2016]]` mit identischer Fundstelle
+`i380-1_2016_d.pdf`, bereits korrekt als 6-von-60-Seiten-Vorschau erkannt, samt Querbezug zur KB
+`energie`). Kein neuer Cross-KB-Eintrag nötig.
+
+Alle Schreibvorgänge mit `git diff --numstat` geprüft: `bfe-u-wert-bauteilekatalog-neubauten-2002.md`
++48/-1 (die eine Löschung ist die erwartete Ersetzung der Frontmatter-Datumszeile),
+`u-werte-grenzwerte-ch.md` +7/-3 (zwei Frontmatter-/Fliesstext-Ersetzungen), beide anderen
+Dateien rein additiv (`ki-generierte-fachdokumente-referenzablage.md` +21/-0,
+`QUESTIONS.md` +74/-0 kumuliert über beide Edits) — keine fremde Löschung in einer der vier
+Dateien. Bericht: `outputs/2026-08-23_questions-nachlauf-achtzehnte-fortsetzung.md`.
+
 ## 2026-08-23 — Interaktive Session (siebzehnte Fortsetzung): E-R161-3 abgeschlossen — PL-02/03/05 filterlos gezählt
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo die
