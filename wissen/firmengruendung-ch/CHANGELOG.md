@@ -3,6 +3,49 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (zweiter Lauf, 17:19) — Fedlex-Gegenprobe auf [[nachgruendung-anmeldungen]]: zwei Fristen korrigiert
+- **Auftrag:** identisch zum Lauf von 17:05 desselben Tages (paralleler Prozess,
+  `scripts/claude-run.sh --name vollschub1`) — Verfahrensschritte/Fristen/
+  Belegpflichten gegen den aktuellen Stand prüfen. Der erste Lauf hatte die
+  Provenienz-Frage geklärt und den Rechtsstand als «keine Änderung nötig» bewertet,
+  gestützt auf den Health-Check vom 03.08.2026. Dieser Lauf ging gezielt der einzigen
+  verbliebenen needs-verification-Lücke der KB nach, die genau zu «Fristen/
+  Belegpflichten» gehört und noch nie am Fedlex-Volltext gegengelesen wurde:
+  [[nachgruendung-anmeldungen]] (AHV/BVG/UVG/MWST, bisher nur Sekundärquellen,
+  22.07.2026).
+- **Zwei Fristen falsch belegt, jetzt korrigiert (Fedlex-Filestore-Methode, Rule
+  `auto-verbesserungen.md` 260721, jede Fundstelle zweifach wörtlich abgefragt):**
+  (1) **BVG:** Die zwangsweise Anmeldung eines säumigen Arbeitgebers bei der Stiftung
+  Auffangeinrichtung läuft nach **zwei Monaten** (Art. 11 Abs. 5 BVG: „innerhalb von
+  zwei Monaten"), nicht nach sechs wie zuvor im Artikel gestanden; Kontrollinstanz ist
+  die **Ausgleichskasse der AHV** (Abs. 4), nicht eine kantonale BVG-Aufsichtsbehörde;
+  korrekte Fundstelle Abs. 4–6, nicht Abs. 3/4. (2) **UVG:** Die 14-Tage-Frist in
+  Art. 59 Abs. 1 UVG ist keine allgemeine «Anmeldefrist 14 Tage vor Stellenantritt»,
+  sondern die Nachmelde-Frist der Betriebseröffnung/-einstellung an die Suva, gültig
+  nur für nach Art. 66 UVG Suva-pflichtige Betriebe — für die Raphael Jans AG als
+  Bürobetrieb (freie Wahl nach Art. 68 UVG) nicht einschlägig. AHVG Art. 5/12, BVG
+  Art. 2, UVG Art. 1a/66 und MWSTG Art. 10 wurden im selben Zug geprüft und bestätigt
+  (keine Änderung nötig).
+- **Neu offen statt geschlossen:** Der Wortlaut von Art. 68 UVG (freie
+  Versichererwahl, genaue Anmeldefrist) und von Art. 66 MWSTG liess sich über den
+  Fedlex-Filestore nicht mehr auslesen — das WebFetch-Werkzeug bricht die
+  KI-Zusammenfassung sehr langer HTML-Konsolidierungen vor dem Textende ab (bei UVG
+  nach Art. 59, bei MWSTG nach Art. 44). Statt eine ungeprüfte Übernahme der
+  bisherigen Sekundärquellen-Behauptung stehen zu lassen, ist der Punkt jetzt explizit
+  als needs-verification markiert (`wiki/QUESTIONS.md`, `wiki/INDEX.md`) — die KB
+  soll nichts Unbelegtes als geprüft ausweisen.
+- Geänderte Dateien: `wiki/nachgruendung-anmeldungen.md` (Frontmatter + zwei
+  Abschnitte + Praxis-Reihenfolge), `wiki/QUESTIONS.md` (neuer Archiv-Eintrag + neuer
+  needs-verification-Punkt), `wiki/INDEX.md` (Statistikzeile nachgeführt). `git diff
+  --numstat` nach jedem Schreibvorgang gegen genau diese drei Pfade geprüft
+  (INDEX +3/-2, QUESTIONS +29/-0, nachgruendung-anmeldungen +51/-21) — keine
+  unbeabsichtigte Löschung. Kein neuer Artikel, kein Fan-out.
+- **Hinweis zur Nebenläufigkeit:** Der CHANGELOG-Eintrag von 17:05 desselben Tages
+  stammt aus einem parallel gestarteten Prozess mit identischem Auftrag, nicht aus
+  dieser Session — beide sind eigene, keine konkurrierenden Läufe (per Auftrag
+  ausdrücklich als «eigener Lauf» deklariert). Die Befunde beider Läufe wurden vor
+  diesem Eintrag gegengeprüft, um keine Arbeit zu duplizieren.
+
 ## 2026-08-23 — Pflegelauf gegen den aktuellen Stand: Provenienz korrigiert, Register nachgeführt
 - **Auftrag:** Verfahrensschritte/Fristen/Belegpflichten auf Aktualität prüfen, offene
   Fragen wo belegbar schliessen, Unbelegtes offen lassen (Rules `wissens-bibliothekar`,
