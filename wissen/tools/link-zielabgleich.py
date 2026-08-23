@@ -2,7 +2,7 @@
 """Kern von link-zielabgleich.sh — klassifiziert die Messung.
 
 Eingabe:
-  argv[1]  PSV der Deep-Link-Messung:  angefragt|rohstatus|endstatus|groesse|typ|endadresse
+  argv[1]  PSV der Deep-Link-Messung:  angefragt|rohstatus|endstatus|groesse|endadresse
   argv[2]  PSV der Host-Gegenprobe:    host|status|endadresse   (erfundener Pfad)
 
 Ausgabe: Befundliste auf stdout, Exit 1 wenn Befunde vorhanden.
@@ -58,9 +58,9 @@ def main() -> int:
     with open(mess, encoding="utf-8", errors="replace") as fh:
         for line in fh:
             f = line.rstrip("\n").split("|")
-            if len(f) < 6:
+            if len(f) < 5:
                 continue
-            req, raw, code, size, ctype, eff = f[0], f[1], f[2], f[3], f[4], "|".join(f[5:])
+            req, raw, code, size, eff = f[0], f[1], f[2], f[3], "|".join(f[4:])
             n_total += 1
 
             host = req.split("/")[0]
@@ -129,11 +129,15 @@ def main() -> int:
         print()
 
     if soft404:
-        print(f"SOFT404 — Status 404 mit grossem Antwortkoerper ({len(soft404)}):")
-        print("  Ehrlicher Code, aber die Groesse taeuscht ein Dokument vor.")
+        # Bewusst KEIN Befund und NICHT im Exit-Code: ein 404 ist ein Zugangsproblem und
+        # damit Sache von link-frischecheck.sh. Hier steht es nur, weil die grosse
+        # Antwortgroesse leicht als ausgeliefertes Dokument missdeutet wird. In der Liste
+        # stehen erfahrungsgemaess vor allem verkuerzte Prosa-Zitate ("zh.ch/energienachweise"
+        # statt der vollen Adresse) — an der Quellzeile pruefen, nicht blind ersetzen.
+        print(f"SOFT404 (nachrichtlich, kein Befund) — Status 404 mit grossem "
+              f"Antwortkoerper ({len(soft404)}):")
         for r, s in sorted(soft404):
-            print(f"  ! {r}  ({s} B)")
-        befunde += len(soft404)
+            print(f"  · {r}  ({s} B)")
         print()
 
     if umgeleitet:
@@ -143,8 +147,8 @@ def main() -> int:
         print()
 
     if befunde == 0:
-        print("Keine Zielbefunde." if not umgeleitet else
-              "Keine schweren Zielbefunde (nur Umleitungen, siehe oben).")
+        print("Keine Zielbefunde." if not (umgeleitet or soft404) else
+              "Keine Zielbefunde (nur Umleitungen/404, siehe oben — beides kein Befund).")
         return 0
     return 1
 
