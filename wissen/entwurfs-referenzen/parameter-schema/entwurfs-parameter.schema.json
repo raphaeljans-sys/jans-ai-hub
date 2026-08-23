@@ -3,7 +3,13 @@
   "title": "JANS Entwurfs-Parameter-Set",
   "description": "Maschinenlesbares Parameter-Set für skriptorientiertes Entwerfen. Beschreibt eine Bauaufgabe so, dass Entwurfstools (volumen_generator.py, c4d_szene.py) die Werte direkt lesen können.",
   "type": "object",
-  "required": ["id", "name", "version", "gebaeude", "flaechen"],
+  "required": [
+    "id",
+    "name",
+    "version",
+    "gebaeude",
+    "flaechen"
+  ],
   "properties": {
     "id": {
       "type": "string",
@@ -21,19 +27,37 @@
     },
     "quellen": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Belegte Quellen für die Kennwerte (Bücher, Normen, Projekte)"
+    },
+    "scope_hinweis": {
+      "type": "string",
+      "description": "Auf welche Subtypen/Bauaufgaben dieses Set begrenzt ist und welche ausdruecklich NICHT — Subtypen duerfen nicht quer uebertragen werden. Wird in healthcare-neubau-zh.json und wohnen-mfh-urban.json bereits gefuehrt; hier nachtraeglich deklariert (Vertiefungslauf 23.08.2026)."
     },
     "gebaeude": {
       "type": "object",
       "description": "Geometrie-Parameter des Gebäudes",
       "properties": {
-        "geschosse_min": { "type": "integer", "minimum": 1 },
-        "geschosse_max": { "type": "integer", "minimum": 1 },
-        "geschosshoehe_m": { "type": "number", "minimum": 2.0, "maximum": 8.0 },
+        "geschosse_min": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "geschosse_max": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "geschosshoehe_m": {
+          "type": "number",
+          "minimum": 2.0,
+          "maximum": 8.0
+        },
         "grundriss_tiefe_m": {
           "type": "array",
-          "items": { "type": "number" },
+          "items": {
+            "type": "number"
+          },
           "minItems": 2,
           "maxItems": 2,
           "description": "Bandbreite [min, max] der Gebäudetiefe in Metern"
@@ -44,23 +68,59 @@
         },
         "erschliessung": {
           "type": "string",
-          "enum": ["mittelkorridor", "seitenkorridor", "laubengang", "spänner", "punkthaus-kern", "atrium", "freitreppe"],
+          "enum": [
+            "mittelkorridor",
+            "seitenkorridor",
+            "laubengang",
+            "spänner",
+            "punkthaus-kern",
+            "atrium",
+            "freitreppe"
+          ],
           "description": "Erschliessungstyp"
         },
         "statik_system": {
           "type": "string",
-          "enum": ["skelett", "schottenbau", "massivbau", "holzrahmen", "holzmassiv", "hybridbau", "stahlbau"],
+          "enum": [
+            "skelett",
+            "schottenbau",
+            "massivbau",
+            "holzrahmen",
+            "holzmassiv",
+            "hybridbau",
+            "stahlbau"
+          ],
           "description": "Tragsystem"
         },
         "dachform": {
           "type": "string",
-          "enum": ["flachdach", "satteldach", "pultdach", "walmdach", "mansarddach", "stufendach", "sheddach"],
+          "enum": [
+            "flachdach",
+            "satteldach",
+            "pultdach",
+            "walmdach",
+            "mansarddach",
+            "stufendach",
+            "sheddach"
+          ],
           "description": "Dachform"
         },
         "orientierung_regeln": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Regeln zur Gebäudeorientierung (z.B. 'Zimmer Süd/Ost')"
+        },
+        "lichte_raumhoehe_m": {
+          "type": "number",
+          "minimum": 2.0,
+          "maximum": 8.0,
+          "description": "Belegte lichte Raumhoehe des massgebenden Hauptraums in Metern. NICHT mit geschosshoehe_m gleichsetzen — dazwischen liegen Decken- und Bodenaufbau; eine Umrechnung ohne Beleg waere geraten. Eingefuehrt 23.08.2026, weil die Quellen lichte Raumhoehen belegen, Geschosshoehen aber meist nicht."
+        },
+        "hinweis": {
+          "type": "string",
+          "description": "Freitext-Vorbehalte zu den Geometriewerten: Einzelbelege, Ist-Werte einzelner Wettbewerbsbeitraege, Subtyp-Sperren."
         }
       }
     },
@@ -70,7 +130,9 @@
       "properties": {
         "hnf_pro_einheit_m2": {
           "type": "array",
-          "items": { "type": "number" },
+          "items": {
+            "type": "number"
+          },
           "minItems": 2,
           "maxItems": 2,
           "description": "HNF pro Nutzeinheit [min, max] in m² (z.B. pro Bett, pro Wohnung)"
@@ -96,6 +158,10 @@
           "minimum": 0,
           "maximum": 1,
           "description": "Nutzflächen-Effizienz (NF/GF)"
+        },
+        "hinweis": {
+          "type": "string",
+          "description": "Freitext-Vorbehalte zu den Flaechenkennwerten. Wird bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026)."
         }
       }
     },
@@ -103,16 +169,27 @@
       "type": "object",
       "description": "Material-Vorgaben (Stichworte für Rendering + Kostenklasse)",
       "properties": {
-        "tragwerk": { "type": "string" },
+        "tragwerk": {
+          "type": "string"
+        },
         "fassade": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Fassadenmaterialien (mehrere möglich)"
         },
-        "dach": { "type": "string" },
+        "dach": {
+          "type": "string"
+        },
         "innenausbau_standard": {
           "type": "string",
-          "enum": ["einfach", "mittel", "gehoben", "luxus"],
+          "enum": [
+            "einfach",
+            "mittel",
+            "gehoben",
+            "luxus"
+          ],
           "description": "Ausbaustandard"
         }
       }
@@ -123,25 +200,105 @@
       "properties": {
         "chf_m3_gv_band": {
           "type": "array",
-          "items": { "type": "number" },
+          "items": {
+            "type": "number"
+          },
           "minItems": 2,
           "maxItems": 2,
           "description": "Kostenbandbreite CHF/m³ GV [min, max]"
         },
         "bkp_schwerpunkte": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Relevante BKP-Positionen"
         },
         "quelle_kb": {
           "type": "string",
           "description": "Pfad zur Quell-KB (z.B. wissen/grobkosten/)"
+        },
+        "chf_m2_hnf_band": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2,
+          "description": "Kostenbandbreite CHF/m2 HNF [min, max]. Wird in wohnen-mfh-urban.json bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026). Bezugsgroesse und BKP-Scope zwingend ueber chf_m2_hnf_bkp_scope mitgeben."
+        },
+        "chf_m2_hnf_bkp_scope": {
+          "type": "string",
+          "description": "BKP-Umfang und MwSt-Status des CHF/m2-HNF-Bands, z.B. 'BKP 1-9, inkl. MwSt., exkl. Parkierung'. Ohne diese Angabe ist das Band nicht verwendbar."
+        },
+        "chf_m2_gf_einzelwert": {
+          "type": "number",
+          "description": "Einzelner belegter CHF/m2-GF-Wert, wenn die Quellenlage kein Band hergibt. Bewusst getrennt vom Band gefuehrt, damit ein Einzelfall nicht als Band gelesen wird. Eingefuehrt 23.08.2026."
+        },
+        "chf_je_einheit": {
+          "type": "object",
+          "description": "Kosten je typologischer Einheit (Klassenzimmer, Pflegeplatz, Wohnung) — dort, wo die Quellen diese Groesse belegen, CHF/m3 GV aber strukturell nicht. Eingefuehrt 23.08.2026.",
+          "properties": {
+            "einheit": {
+              "type": "string",
+              "description": "Bezugseinheit, z.B. 'Klassenzimmer'"
+            },
+            "band": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2,
+              "description": "[min, max] in CHF"
+            },
+            "umfang": {
+              "type": "string",
+              "description": "Was der Betrag umfasst (Gesamtanlage, BKP-Scope, MwSt-Status)"
+            }
+          }
+        },
+        "preisstand": {
+          "type": "object",
+          "description": "★ Maschinenlesbarer Preisstand aller Kostenangaben dieses Blocks. Ohne ihn kann ein konsumierendes Werkzeug ein Kostenband nicht auf den Rechnungsstichtag indexieren — bis 23.08.2026 stand der Preisstand nur in Prosa im Feld 'hinweis'.",
+          "properties": {
+            "jahr": {
+              "type": "string",
+              "description": "Preisstand als Jahr oder Zeitraum, z.B. '2018/2019' oder '2011-2025'"
+            },
+            "stichtag": {
+              "type": "string",
+              "description": "Optionaler Stichtag im Format JJJJ-MM-TT, wenn die Quelle einen nennt"
+            },
+            "teuerungsanker": {
+              "type": "string",
+              "description": "Welcher Index zur Aufindexierung zu verwenden ist, inkl. Bauwerksart"
+            },
+            "hinweis": {
+              "type": "string",
+              "description": "Vorbehalte zum Preisstand, z.B. gemischte Staende innerhalb eines Bands"
+            }
+          }
+        },
+        "quelle_kb_m2_nf": {
+          "type": "string",
+          "description": "Zusaetzliche Quell-KB/Skill fuer m2-NF-Kennwerte, wenn diese von einer anderen Stelle gefuehrt werden als quelle_kb. Wird bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026)."
+        },
+        "quelle_kb_nicht_anwendbar": {
+          "type": "string",
+          "description": "Ausdrueckliche Negativ-Zuweisung: welche KB fuer dieses Set NICHT als Kostenquelle verwendet werden darf und warum. Wird bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026)."
+        },
+        "hinweis": {
+          "type": "string",
+          "description": "Freitext-Vorbehalte zu den Kostenangaben. Wird bereits gefuehrt; hier nachtraeglich deklariert (23.08.2026)."
         }
       }
     },
     "entwurfs_regeln": {
       "type": "array",
-      "items": { "type": "string" },
+      "items": {
+        "type": "string"
+      },
       "description": "Textuelle Entwurfsregeln (Zonierung, Besonderheiten, Normen)"
     },
     "referenz_projekte": {
@@ -149,16 +306,32 @@
       "items": {
         "type": "object",
         "properties": {
-          "name": { "type": "string" },
-          "jans_nr": { "type": ["string", "null"], "description": "JANS-Projektnummer oder null bei externen" },
-          "architekt": { "type": "string", "description": "Architekt (bei externen Referenzen)" },
-          "relevanz": { "type": "string" },
+          "name": {
+            "type": "string"
+          },
+          "jans_nr": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "JANS-Projektnummer oder null bei externen"
+          },
+          "architekt": {
+            "type": "string",
+            "description": "Architekt (bei externen Referenzen)"
+          },
+          "relevanz": {
+            "type": "string"
+          },
           "synobsis_slug": {
             "type": "string",
             "description": "Optionaler Verweis auf den Katalog-Slug in wissen/architekten-synobsis/catalog/<slug>.json (Feld 'slug' dort), NUR setzen wenn das im Feld 'architekt' genannte Büro dort eindeutig als eigener Katalogeintrag existiert. Bei mehreren im Feld 'architekt' genannten Büros nicht setzen, wenn nicht alle einen Katalogeintrag haben (kein Teil-Match vortäuschen)."
           }
         },
-        "required": ["name", "relevanz"]
+        "required": [
+          "name",
+          "relevanz"
+        ]
       }
     },
     "rendering": {
@@ -167,12 +340,19 @@
       "properties": {
         "farbpalette": {
           "type": "array",
-          "items": { "type": "string" },
+          "items": {
+            "type": "string"
+          },
           "description": "Hex-Farben oder Materialnamen"
         },
         "stil": {
           "type": "string",
-          "enum": ["weissmodell", "materialmodell", "collage", "strichzeichnung"],
+          "enum": [
+            "weissmodell",
+            "materialmodell",
+            "collage",
+            "strichzeichnung"
+          ],
           "description": "Visualisierungsstil"
         }
       }

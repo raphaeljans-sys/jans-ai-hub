@@ -2,6 +2,74 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf Revendo) — Endpunkte/Links/Connectoren verifiziert: keine Erosion, zwei neue Messbefunde, ein neues VKF-Dokument
+
+Auftrag Raphael: Endpunkte, Links und Connector-Wege verifizieren. Werkzeugkasten **benutzt statt
+nachgebaut** (Regel E18).
+
+**Kernergebnis: keine Endpunkt-Erosion.** Neun Connector-Messungen am JANS-Benchmark identisch zum
+Wartungslauf 02 (01.08.2026) — EGRID CH879777718909 · Parz. 3338 · BFS 136, Zonenplan W/1.5 · BMZ
+1.5 · GH 4.5 · ES_II, 7 Baulinien/116.2 m + Waldgrenze 105.6 m, SZ-EGRID CH527708492462,
+GWR-EGRID CH267999915472, `geoshop-zh --list` 247 Zeilen, `maps.zh.ch/wfs/OGDZHWFS` 200.
+Alle **33 Behörden-URLs erreichbar (0 TOT)**. Der Frischecheck über 265 Adressen liefert
+**keinen neuen** Verdachtsfall: alle 68 Treffer sind dokumentierte Prosa-Artefakte oder bereits
+korrekt als tot/umgezogen vermerkte Altbestände (`bsvonline.vkf.ch`, `geo.lu.ch` ohne www,
+`geodatenshop.lu.ch`, `kanton-luzern.ch`, `geoglatt.ch`, `gwr.admin.ch` — alle stichprobenweise
+an DNS und HTTP nachgemessen, KB-Stand bestätigt).
+
+**Zwei neue Messbefunde** (in `wiki/kartenportale-oereb-egrid-bezug.md` eingearbeitet):
+- **`maps.zh.ch/wms/NaturgefahrenZH`: Login-Pflicht von «vermutet» auf «gemessen» gehoben** —
+  `HTTP/2 401`, Body `HTTP Basic: Access denied.`, auch auf ein korrekt geformtes
+  `GetCapabilities`. Der Run-54-Befund ist damit belegt statt geraten; offener Weg bleibt der WFS.
+  Auch in `wiki/kartenportale-naturgefahren-objektschutz.md` nachgetragen.
+- **`gis.zh.ch` ist kein toter Host, sondern eine SAN-Luecke — und die dokumentierte Erklaerung
+  war zu grob.** `gis.zh.ch` ist ein CNAME auf `maps.zh.ch` (193.246.69.8); `https://` scheitert,
+  weil der Geodienst-Server ein Zertifikat **ohne Wildcard** ausliefert (`CN=maps.zh.ch`, 19
+  explizite SANs, `gis.zh.ch` nicht darunter), waehrend `www.zh.ch`/`zh.ch` ein echtes Wildcard
+  `CN=*.zh.ch` fuehren. **Unter `.zh.ch` gibt es zwei Zertifikatswelten**, der Kopf von
+  `link-frischecheck.sh` erklaert solche Faelle bisher pauschal mit der Wildcard-Label-Regel.
+  `http://gis.zh.ch` leitet sauber auf `www.zh.ch/de/planen-bauen/geoinformation.html` (200).
+  Zitierregel: `gis.zh.ch` nicht mehr als `https://`-Adresse fuehren.
+
+**Werkzeug-Fallstrick dokumentiert:** `behoerden-zh --check` meldet **stationsabhaengig**.
+Wartungslauf 02: «33 aktuell · 0 neu», dieser Lauf: «0 aktuell · **33 neu**». Kein
+Aenderungsbefund — der SHA-Vergleichsstand liegt unter
+`skills/planungsgrundlagen/behoerden-dokumente/`, und dieser Pfad steht in `.gitignore`, wandert
+also nie zwischen den Stationen. **Stationsuebergreifend ist nur `TOT` aussagekraeftig**;
+«aktuell/geaendert/neu» sind nur innerhalb derselben Station ueber die Zeit zu lesen.
+
+**Faelliger Checkpoint geprueft — BSV 2026, politische Vernehmlassung 08/2026.** Der Wegweiser
+hatte ihn selbst gesetzt; er ist erreicht. Ergebnis: **keine Startmeldung publiziert**, die Seite
+«Information BSV 2026» ist im Wortlaut unveraendert (Meilensteine: technische Vernehmlassung
+09/2025-01/2026 · politische Vernehmlassung 08-11/2026 · IOTH-Genehmigung 03/2027), und die
+**Aktuell-Seite von bsvonline.ch endet am 07.05.2026**. Als **Indiz, nicht als Beleg** fuer eine
+weitere Verschiebung festgehalten. Fuer JANS unveraendert: **BSV 2015/17/22 gilt**, keine
+antizipierten Erleichterungen einplanen. Naechster Check **Ende 11/2026**. Sechste
+Refresh-Bestaetigung ohne Delta, erstmals am faelligen Checkpoint selbst.
+
+**Neuer offener Punkt C-BSP-2026 — VKF-Dokument, das diese KB noch nicht kannte.**
+«Brandschutzplatten — Grundlagen, Nachweis und Anwendung», **Version 1-0 vom 10.03.2026**,
+verabschiedet Technische Kommission Brandschutz, Zustaendigkeit Fachkommission Bautechnik, 9 S.,
+publiziert 07.05.2026, Dokument-ID `BSPUB-1394520214-3201` (Bezug ueber `services2.vkf.ch/…`).
+Beschreibt ein **neues Nachweisverfahren** fuer Brandschutzplatten. ⚠ Traegt einen
+**BSV-2026-Vorbehalt aus eigener Feder** und wird nach der IOTH-Genehmigung revidiert — faellt
+damit unter die Regel, keine antizipierten BSV-2026-Inhalte einzuplanen. **Bewusst nicht
+destilliert:** VKF-Primaerdokumente fuehrt nach Rule `normen-referenz` die KB `normen`, und der
+Eintrag dort ist in diesem Lauf **bewusst unterblieben**, weil `normen` am 23.08.2026 parallel auf
+dem Mac Mini bearbeitet wird (Stationsteilung). Abweichung von der F-UEBERGABE-Klausel, in
+`wiki/QUESTIONS.md` begruendet festgehalten und Raphael gemeldet.
+
+**Nicht angetastet:** die inhaltlichen K/R/C/D-Punkte (laut Zustaendigkeitsvermerk keine Aufgabe
+eines Endpunkt-/Link-Laufs) und der Nachzug der beiden VKF-Fassungs-Vorbehalte (BSE 108-15,
+BRL 10-15), der auf `established`-Destillate aus `normen` wartet.
+
+Geaenderte Dateien: `wiki/kartenportale-oereb-egrid-bezug.md`,
+`wiki/kartenportale-naturgefahren-objektschutz.md`, `wiki/brandschutz-pl03-wegweiser.md`,
+`wiki/QUESTIONS.md`. Report: `outputs/2026-08-23_vertiefungslauf-endpunkte-connectoren.md`.
+Alle Schreiboperationen nach Rule `auto-verbesserungen` 260811 per `git diff --numstat` geprueft;
+Loeschungen ausschliesslich an den drei `last_updated`-Zeilen und einer gezielt ersetzten Zeile im
+Naturgefahren-Artikel.
+
 ## 2026-08-23 — QUESTIONS.md-Abarbeitung: neun offene Positionen bearbeitet, sieben geschlossen
 
 - **K68** (revBZO Thalwil, proj-Layer-Verhalten): Live-Connector-Test am Referenzfall Bohlweg 3
