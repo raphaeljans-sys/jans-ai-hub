@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 21:10:02
+Stand: 23.08.2026 21:20:19
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 21:10:02
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8b82519f wissen/baurecht: Buch-Run 92 - Ausnuetzungsuebertragung re-verifiziert, Zitat Art. 40 BO Erlenbach korrigiert (raeumliche Naehe statt direkte Grenznachbarschaft), Rechtsgrundlage auf Paragraf 259 statt Paragraf 254 PBG praezisiert
+- 790a7bb5 wissen/baurecht: Buch-Run 93 - Trennsystem-Luecke aus Run 86 geschlossen, §§ 97/98 WsV tragen die gebaeudebezogene Meteor-/Schmutzwasser-Trennpflicht
