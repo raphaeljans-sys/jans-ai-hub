@@ -3,6 +3,93 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 79: Korpus-Queue Batch T8 (Gegenlesen der Claude-Factsheets) erledigt — Reglemente-Queue 2414 Thalwil vollständig abgearbeitet
+
+- **Letzter Batch der Queue.** Gegengelesen: die beiden verbliebenen datierten Claude-Factsheets
+  vom 03.07.2026 (`260703-Baurecht-Gartenmauern-Thalwil`, `260703-Baurecht-Besondere-Gebaeude-
+  Thalwil`) gegen den amtlichen Bestand. Echo-Schutz gewahrt: beide Dokumente bleiben
+  Prüfmaterial, nichts daraus wurde als Quelle ingestiert.
+- **Schwerwiegender Befund im Gartenmauern-Factsheet:** Abschnitt 2 präsentiert die seit
+  01.06.2020 aufgehobene Strassenabstandsverordnung (StrAV) im Fliesstext unbedingt als
+  geltendes Recht für Thalwil (sechs Einzelbestimmungen im Präsens zitiert); der einzige
+  Vorbehalt steht versteckt in der Quellenzeile. Gleiche Fehlerfamilie wie der bereits in
+  Buch-Run 73 gerügte Fehler 1. Sekundärbefund: die Wiedergabe der Sichtbereichs-Pflicht als
+  reine «Höhe auf 0,80 m begrenzt» verkürzt die materiell andere Freihalte-Pflicht des heute
+  geltenden § 23 VErV. Positiv: die Kurveninnenseiten-Regel ist inhaltlich richtig
+  (Ermessensentscheid statt starrer Grenze), nur der falschen, aufgehobenen Norm zugeordnet.
+- **Kein eigener Fehler, aber eine vererbte Lücke im Besondere-Gebäude-Factsheet:** es zitiert
+  Art. 24 Abs. 3 BZO Thalwil (die in Buch-Run 74 belegte «Klammer-Falle» — die BZO-eigene
+  Klammer gibt § 18 Abs. 1 BBV II in drei Punkten falsch wieder) wortgleich und unkommentiert.
+  Zum Erstellungsdatum 03.07.2026 war der Befund noch nicht bekannt; das Zitat selbst ist
+  korrekt, gibt die Fehlangabe der Gemeinde aber ungefiltert weiter. Alle übrigen Prüfpunkte
+  (§ 49 Abs. 3 PBG, § 273 PBG, Art. 24 Abs. 1/2, Art. 14/15/17/17e/19/30 BZO, ABV §§ 13/25/28,
+  § 290 PBG) **CONFIRMED** wortgleich gegen den amtlichen Bestand.
+- **Methodik-Lehre:** die erste OCR-Extraktion von Art. 14 BZO im Rohdokument
+  (`raw/260607_amtlich_zh_bzo-thalwil.md`) war unvollständig (Abs. 4 fehlte); erst eine zweite,
+  vollständigere Extraktion im selben Rohdokument bestätigte das vom Factsheet zitierte
+  «grün bezeichnete Flächen»-Kriterium. Ohne den zweiten Durchlauf wäre das ein falscher
+  Fehlerbefund gewesen — Gegenlesen gehört gegen alle Fundstellen im Rohdokument, nicht nur
+  die erste.
+- **GESCHÄRFT** [[gebaeudearten-und-abstandssystem]] (weiterhin `established`, reine Ergänzung):
+  ein Satz in der Klammer-Falle-Sektion, der die Verbreitung des Befunds ins
+  Besondere-Gebäude-Factsheet festhält.
+- **NEU** offene Frage in `wiki/QUESTIONS.md`: ob die 10°-Schrägdach-Schwelle (BEZ 1996 Nr. 30,
+  im Standardwerk nur für die Firsthöhen-Berechnung § 281 PBG belegt) auch für die 4-m/5-m-Grenze
+  der besonderen Gebäude (§ 49 Abs. 3 PBG) gilt — nicht als Fehler gewertet, sondern als
+  unbestätigte Übertragung offen gelassen.
+- **Kein neuer `raw/`-Volltext, kein neuer Eintrag in `raw/_INGESTED.md`** (Echo-Schutz: nichts
+  aus den beiden Factsheets wurde übernommen).
+- Queue `training/KORPUS-QUEUE-thalwil-reglemente.md`: T8 auf **erledigt** — **damit ist die
+  Reglemente-Queue 2414 Thalwil (T1-T8) vollständig abgearbeitet.**
+- Report `outputs/2026-08-23_buch-run79.md`.
+
+## 2026-08-23 — Buch-Run 78: Korpus-Queue Batch T7 (Archiv-Sichtung Reglemente 2414 Thalwil) erledigt
+
+- **Kernbefund: ein Kanton-Schwyz-Merkblatt lag fehlabgelegt im ZH-Projektordner Thalwil**
+  (`_Archiv/05 VSS NORM/Merkblatt_zur_Ergaenzung_Formular_Z15.pdf`, Baudepartement Tiefbauamt
+  Schwyz). Gilt nicht für Thalwil/Bohlweg 3, ist aber verallgemeinerbares SZ-Recht (die KB
+  deckt laut `CLAUDE.md` explizit ZH **und** SZ ab) und schliesst eine echte Wiki-Lücke: bisher
+  kein Artikel zum Institut der **Vorteilsabgabe** (kein ZH-Pendant) sowie Strassenabstand/
+  Zufahrten an SZ-Kantonsstrassen.
+- **NEU** `raw/260823_amtlich_sz_merkblatt-z15-strassenabstand-zufahrten.md` (Merkblatt-Text +
+  wörtlich zitierter Gesetzesauszug §§ 38/40/41/42/47/58 StraG SRSZ 442.110, §§ 25/28 StraV
+  SRSZ 442.111, VGE 717/03).
+- **NEU** Wiki-Artikel [[strassenabstand-zufahrten-vorteilsabgabe-sz]] (`status: emerging`,
+  bewusst nicht `established` — Quelle ist ein Merkblatt-Zitat, kein vollständiger
+  Connector-Volltext; offene Frage dazu in `QUESTIONS.md` nachgetragen). Vorteilsabgabe-
+  Staffelung 3/4.5/5 % Zufahrten, 5 % Strassenabstand-Unterschreitung, Ausnahme bei
+  gemeinschaftlicher Feinerschliessung (VGE 717/03), zwei Rechenbeispiele aus dem Merkblatt.
+- **GESCHÄRFT** [[laermschutz-und-nichtionisierende-strahlung]] (weiterhin `established`, reine
+  Ergänzung, keine Korrektur): neuer Abschnitt «Praktische Formulare und GIS-Werkzeug ZH» —
+  Struktur des amtlichen Zusatzformulars «Lärmsituation und Lärmschutz» (FALS) und Formular S
+  (SIA-181-Projektkontrolle), GIS-ZH-Werkzeug «Lärmübersicht für Bauvorhaben» (3 Kategorien).
+  Formular S bestätigt **SIA 181:2020** als ZH-Vollzugsfassung — deckt sich mit dem bereits in
+  `wissen/normen/destillate/sia-181-2006.md` geführten Fassungsvorbehalt (Bring-Schuld dort
+  bleibt offen, hier nur zusätzlich belegt, nicht geschlossen). Neu
+  `raw/260823_amtlich_zh_formulare-laermschutz-fals-formularS.md`.
+- **Naturgefahren-Screenshots (3 Dateien) und die drei PV-Anlage-Merkblätter/Screenshots
+  gehören NICHT in diese KB.** Alle drei Naturgefahren-Screenshots stammen aus einem
+  VKF-BSM-Leitfaden zu Solaranlagen (Wind/Hagel/Schneedruck/Dachlawinen bei PV-Modulen) —
+  inhaltlich deckungsgleich mit dem PV-Anlage-Ordner. Reine Bauprodukt-/Energietechnik, kein
+  Baurecht; Routing-Empfehlung KB `wissen/energie`, kein Ingest hier.
+- **«06 Merkblaetter Konstruktion» (7 Dateien) ist reine Konstruktionsdetail-Literatur**
+  (suissetec-Merkblätter Fassadenanschluss/Geländer/Flachdachdurchdringung/Abdichtung,
+  stichprobenweise an einem vollständig gelesenen Merkblatt verifiziert) — kein Baurecht,
+  kein Ingest. Kandidat für eine allfällige KB `wissen/bauprodukte`, nicht Teil dieses Laufs.
+- **«11 Brandschutz» geroutet, nicht destilliert** (wie in der Queue vorgesehen): Factsheets
+  datieren März 2025 (vor der Hub-Ära) und sind damit vermutlich echte Büro-Arbeitsprodukte,
+  keine Claude-Erzeugnisse — Klassifikation nicht abschliessend geprüft. Gehören inhaltlich zum
+  Skill `brandschutz`, nicht in diese KB; kein Ingest, keine Bewertung der Faktenlage
+  vorgenommen (ausserhalb des Auftrags dieses Laufs).
+- **«05 VSS NORM» Projektplan-PDF ist reine Projektzeichnung** (2414-10 JANS Projektpläne
+  Architektur), projektgebunden, kein Ingest (Abgrenzung `KORPUS-QUEUE`).
+- **Register:** `raw/_INGESTED.md` (2 neue Zeilen), `wiki/INDEX.md` (neue Sektion «Kanton
+  Schwyz — Strassenrecht»), `wiki/QUESTIONS.md` (SZ-StraG/StraV-Verifikationslücke). Queue
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` T7 auf **erledigt**, verbleibend nur noch T8
+  (Gegenlesen der drei Claude-Factsheets Gartenmauern/Besondere Gebäude vom 03.07.2026 — die
+  Brandschutz-Factsheets aus diesem Batch zählen NICHT dazu, sie sind vor-Claude-Datums).
+- Report `outputs/2026-08-23_buch-run78.md`.
+
 ## 2026-08-23 (Buch-Run 77) — Korpus-Queue Batch T6 (PBG-Screenshots + Näherbaurecht NBR2008) erledigt
 
 - [confirm] **§ 293 Abs. 1/2/4 PBG** (Screenshot «ANRECHENBARES UNTERGESCHOSS») CONFIRMED gegen

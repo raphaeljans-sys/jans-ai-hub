@@ -1,5 +1,33 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## 2026-08-23 (Buch-Run 79, T8 Gegenlesen) — Gilt die 10°-Schrägdach-Schwelle (BEZ 1996 Nr. 30) auch für die 4-m/5-m-Grenze der besonderen Gebäude?
+
+Beim Gegenlesen des Factsheets `260703-Baurecht-Besondere-Gebaeude-Thalwil` fiel die Aussage
+«Ein Schrägdach im Sinne der 5-m-Grenze liegt ab rund 10° Dachneigung vor (BEZ 1996 Nr. 30)»
+auf. Das Standardwerk (Bd. 2, Kap. 16, S. 1185, `buecher/band-2/16-gebaeudedimensionen-teil2-
+hoehen-dach.md` Z. 138-140) belegt BEZ 1996 Nr. 30 tatsächlich für die 10°-Schwelle
+Flachdach/Schrägdach — aber ausdrücklich im Kontext der **Firsthöhen-Berechnung nach § 281
+PBG**, nicht für die 4-m/5-m-Höhengrenze der besonderen Gebäude nach § 49 Abs. 3 / § 273 PBG.
+Beide Kontexte verwenden denselben Rechtsbegriff «Schrägdach»; ob dieselbe 10°-Schwelle auch
+dort gilt (naheliegend, aber im Standardwerk nicht ausdrücklich für diesen zweiten Kontext
+bestätigt), ist offen. **Offen:** am Original (Fritzsche/Bösch/Wipf/Kunz, Kap. 15, Abschnitt
+besondere Gebäude) prüfen, ob dort ein eigener Beleg für die Schrägdach-Schwelle bei § 49
+Abs. 3 PBG steht, bevor die Übertragung in einer Kundenberatung als gesichert zitiert wird.
+Quelle: `outputs/2026-08-23_buch-run79.md`, Ziffer 2.
+
+## 2026-08-23 (Buch-Run 78, T7 Archiv-Sichtung) — StraG/StraV SZ noch nicht als Connector-Volltext gezogen
+
+Der neue Artikel [[strassenabstand-zufahrten-vorteilsabgabe-sz]] stützt sich auf den im
+Merkblatt Tiefbauamt SZ (Formular Z15) wörtlich zitierten Gesetzesauszug (§§ 38/40/41/42/47/58
+StraG SRSZ 442.110, §§ 25/28 StraV SRSZ 442.111) — nicht auf einen vollständigen, aktuell
+gezogenen Volltext. Der bestehende SZ-Track des Connectors `recht-ch.mjs` zieht bislang nur
+kommunale Baureglemente (`oereblex.sz.ch`), keine kantonalen Erlasse wie StraG/StraV. **Offen:**
+Connector um den kantonalen SZ-Erlass-Bezug erweitern (analog zum ZH-PBG/ABV-Bezug) und den
+Artikel gegen den vollständigen, aktuellen Wortlaut verifizieren (Status von `emerging` auf
+`established` heben), bevor die Vorteilsabgabe-Sätze in einer Kundenberatung verbindlich
+zitiert werden. Nachgeordnet, kein akuter Fall (kein laufendes SZ-Projekt mit Zufahrt an
+Kantonsstrasse aktuell bekannt).
+
 ## 2026-08-23 (Recherche-Agent) — Frage A geklärt, Frage B bleibt offen: § 15 Abs. 3 / § 36 Abs. 2 EG GSchG (Nachtrag zu 2026-08-03, Buch-Run 71)
 
 Vertiefte Recherche zu den beiden am 03.08.2026 offen gebliebenen Punkten (dort nur WsG/WsV

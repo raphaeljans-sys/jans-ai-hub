@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 18:23:58
+Stand: 23.08.2026 18:44:31
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:42)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 18:23:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- e14bc048 wissen/normen: SIA-Sweep fuenfte Fortsetzung - SharePoint-Zugangsweg via m365-graph.mjs verifiziert und in WEGE.md dokumentiert, Bestandsluecke der 55 Blindzone-Zeilen am vollstaendigen Listing bestaetigt
+- a37dfd24 nas-selfcommit: 27 Datei(en) 2026-08-23 18:30

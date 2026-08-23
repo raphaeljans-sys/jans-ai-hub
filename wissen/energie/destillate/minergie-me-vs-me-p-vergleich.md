@@ -7,7 +7,7 @@ ausgabe: "Kein Ausgabedatum auf den Dokumenten selbst (keine Fusszeile, kein Tit
 gelesen: "2026-08-15, beide PDF vollständig gelesen: ME-ME-P-Haus.pdf (1 Seite) und Qh+Qww-Haus-Abbildung.pdf (2 Seiten). Zusätzlich pdftotext -layout als Gegenprobe für die reine Text-Extraktion; die massgeblichen Inhalte stecken in den Grafiken selbst und wurden per Bildlektüre erschlossen."
 datenstand: "⚠ Undatiertes Dokument mit klarem Alters-Indiz: Bezugsnorm SIA 380/1:2009 (heute gültig: SIA 380/1:2016) und eine Minergie-Heizwärmebedarf-Systematik als Prozentsatz DIESER SIA-380/1-Grenzwerte (90 % Minergie / 60 % Minergie-P). Diese Bezugsbasis ist seither zweimal abgelöst worden: zunächst durch den Bezug auf MuKEn 2014 (90 % M / 70 % M-P bei Neubau, siehe [[minergie-standards]]), zuletzt durch den Bezug auf MuKEn 2025 (90 % M und M-A / 70 % M-P, siehe [[minergie-produktreglement-2026-1-muken-vergleich]]). Die Zahlen in diesem Destillat sind damit mit hoher Wahrscheinlichkeit über zehn Jahre alt, in jedem Fall älter als 18 Monate. Der lastModifiedDateTime-Wert aus SharePoint (24.03.2025, identisch bei allen drei Dateien im Ordner «Vergleich») ist erkennbar nur ein Migrations-/Kopierzeitpunkt, kein Erstellungsdatum — hier nur als schwaches Indiz vermerkt, nicht als Beleg. Aktueller Bezugspunkt der KB: Produktreglement MINERGIE/-P/-A Version 2026.1, siehe [[minergie-produktreglement-2026-1-muken-vergleich]]."
 status: emerging
-last_updated: 2026-08-23
+last_updated: "2026-08-23 (E-R134-4: Negativbefund MFH-/Zweckbau-Fassung ergänzt)"
 links:
   - [[minergie-standards]]
   - [[minergie-produktreglement-2026-1-muken-vergleich]]
@@ -139,6 +139,13 @@ einfachere, kleinere Haustechnik reicht — bei Minergie-P laut Tabelle so weit,
   Schulungskontext (evtl. derselbe Nachweiskurs wie in
   [[minergie-nachweiskurs-2023-mkz-thge]]) — mit den vorliegenden zwei Dokumenten allein nicht
   zu klären.
-- **Nur EFH abgedeckt.** Die Tabelle gilt laut eigener Fussnote ausdrücklich nur für «Wohnen
-  Einfamilienhaus»; ob eine analoge MFH- oder Zweckbau-Fassung existierte, ist mit diesem
-  Fund allein nicht bekannt.
+- **Nur EFH abgedeckt — Negativbefund 23.08.2026 (E-R134-4).** Die Tabelle gilt laut eigener
+  Fussnote ausdrücklich nur für «Wohnen Einfamilienhaus». Der Herkunftsordner
+  `06_Richtlinien/Minergie/Vergleich` (M365-CLI, Site `/sites/PL`) enthält ausser
+  `ME-ME-P-Haus.pdf` nur noch `Qh+Qww-Haus-Abbildung.pdf` und `Unterschied ME 2010-MUKEN.pdf` —
+  keine dritte, MFH- oder zweckbaubezogene Datei. Eine vollständige Namensliste des gesamten
+  Minergie-Ordners (79 Dateien, rekursiv) enthält ebenfalls kein Blatt, das nach Titel oder
+  Pfad auf eine analoge MFH-/Zweckbau-Fassung dieses Bauteilvergleichs hindeutet (`MFH.pdf` im
+  selben Baum ist ein unverwandtes Dokument, siehe `[[heizungsersatz-groessere-mfh-stweg]]`).
+  **Ergebnis: keine analoge Fassung im PL-02-Minergie-Bestand auffindbar** — offen bleibt nur,
+  ob sie ausserhalb dieses Ordners liegt (nicht durchsucht) oder nie erstellt wurde.

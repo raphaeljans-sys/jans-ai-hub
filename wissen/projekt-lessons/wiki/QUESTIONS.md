@@ -4,6 +4,37 @@ Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel.
 
 ## Offene Wissenslücken (Coverage-Gaps)
+- **Wissens-Destillat `buero-projekte` Phase 2, vierter Lauf (23.08.2026, P2/P3-Abschluss):**
+  die restlichen 72 `[t]`-Zeilen (46 P2 + 26 P3, verteilt auf `00_Allgemein`,
+  `1012_Ardez`, `1318_Lorraine_Kueche`, `1527 EH Europe GmbH`) vollständig gelesen (vier
+  parallele Lese-Agenten je Cluster, ausschliesslich lesend). Ergebnis: drei neue Artikel
+  ([[nerves-2015-pentagon-systemwahl-streuung]], [[lorraine-kueche-1318-kuehlschrank-beschaffungsrisiko]],
+  [[eh-europe-1527-mahnkaskade-unbezahlter-zusatzauftrag]]) sowie Nachträge an
+  [[nerves-2015-kv-nebengewerke-unterschaetzt]] (Rohbau-Mietfläche als strukturelle
+  Ursache) und [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]] (Kalkputz-Vorgabe
+  im eigenen Werkplan erklärt die Malerarbeiten-Abweichung). Zwei offene Punkte:
+  1. **Pentagon-Vertragszuordnung ungeklärt:** der im Artikel [[nerves-2015-kv-nebengewerke-unterschaetzt]]
+     genannte Vertragswert BKP 214.1 (CHF 18'596.90) passt preislich nicht zur eigenen
+     Pentagon-Vollofferte von Köfler Holzbau (CHF 40'747.00, s. [[nerves-2015-pentagon-systemwahl-streuung]]),
+     sondern liegt näher an den beiden anderen Systemen (Goger CHF 19'235.47, Atelier Seitz
+     EUR 16'987.00). Ohne weiteren Beleg (z.B. die vollständige `nerves_baukosten_v2.pdf`
+     mit Unternehmerspalte) nicht auflösbar — nicht spekulativ korrigiert.
+  2. **Elektro-Offerte Alpiq widerspricht dem im Nerves-Artikel zitierten Vertragswert:**
+     `00_Allgemein/Nerves_Binz_DatenMisc/Offerten/Elektro - Alpiq - 4789_001.pdf`
+     (06.08.2015, Elektroanlagen, CHF 31'591.65 inkl. MWSt nach 10 % Rabatt) liegt mehr als
+     doppelt so hoch wie der im Artikel zitierte «Vertrag 14'040.40» für BKP 232. Möglich ist
+     ein nur teilweise beauftragter Umfang — im gesichteten Material nicht verifizierbar,
+     da die zugrundeliegende `nerves_baukosten_v2.pdf`-Unternehmerspalte in diesem Lauf nicht
+     erneut gegengelesen wurde. Artikel nicht geändert, Diskrepanz hier vermerkt.
+  Nebenbefund (Datenhygiene, keine Lesson): `1318_Lorraine_Kueche/.../2015-05-05_Bildbemusterung.pdf`
+  ist fehlabgelegt und gehört zu einem fremden Projekt (Villa Groth, München) — im Inventar
+  als `[-]` mit Grund vermerkt, keine weitere Aktion nötig. Cluster `1012_Ardez`
+  (Unterordner `05_Plandokumentation/beispiel`) erwies sich vollständig als fremdes
+  Referenzmaterial (Baueingabeplansatz Seehaldenstrasse 49 Thalwil, Büro Christian Kerez
+  ETH/SIA, 10.01.2010, dort gezeichnet von Raphael Jans als Mitarbeiter) — kein
+  Ardez-eigener Inhalt, keine Lesson, vollständig `[-]`. **Damit ist der Korpus
+  `buero-projekte` inventarseitig vollständig abgearbeitet: 0 `[ ]` offen, 0 `[t]` offen.**
+  Bericht: `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-p2p3-run4.md`.
 - **Wissens-Destillat `buero-projekte` Phase 2, dritter Lauf (23.08.2026, P2-Start):** die
   ersten beiden P2-Cluster von 91 offenen P2-Zeilen gelesen (zwei parallele Lese-Agenten,
   je nur lesend im Archiv): [[vordach-lorrainestrasse4-1011-glasbaustein-denkmalpflege-2010]]

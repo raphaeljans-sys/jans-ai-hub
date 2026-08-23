@@ -123,6 +123,14 @@ verwiesene kantonale Wortlaut (3 m) gilt, ist Auslegungsfrage und am Bauamt zu k
 weit, weil die BZO über privatrechtliche und strassenrechtliche Abstände nicht verfügen kann
 (Vierebenen-Prüfung → [[umgebungsgestaltung-und-einfriedungen]]).
 
+**Die Klammer-Falle hat sich bereits verbreitet (belegt Buch-Run 79, 23.08.2026, T8
+Gegenlesen).** Das Claude-Factsheet `260703-Baurecht-Besondere-Gebaeude-Thalwil` (erstellt
+03.07.2026, also vor dem Befund von Run 74) zitiert Art. 24 Abs. 3 BZO wortgleich und ohne
+diesen Vorbehalt weiter — nicht falsch als BZO-Zitat, aber eine ungefilterte Weitergabe der
+kommunalen Fehlangabe an eine künftige Leserin. Bei jeder weiteren Verwendung dieses
+Factsheets ist der Klammer-Falle-Vorbehalt nachzutragen; Prüfbericht
+`outputs/2026-08-23_buch-run79.md`.
+
 **Art. 24 Abs. 1/2 BZO Thalwil (vervollständigt Buch-Run 76, 23.08.2026, T5 «Besonderes
 Gebäude» — Ordner ohne eigenes Quellmaterial, direkt aus dem bereits ingesteten Bestand
 `raw/260607_amtlich_zh_bzo-thalwil.md` ergänzt, keine neue Divergenz):** Abs. 1 begrenzt

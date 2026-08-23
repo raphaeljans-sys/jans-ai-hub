@@ -1,5 +1,73 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (sechste Fortsetzung): E-R147-1 und E-R134-4 geschlossen, Registerpflege-Umfang E-R138-2 vermessen
+
+Fortsetzung der fünf vorangehenden Interaktiv-Sessions desselben Tages, Station Mac Mini.
+Node/M365-CLI erneut verfügbar (Zertifikats-Auth aktiv, `m365 status` geprüft). Die von der
+fünften Fortsetzung übrig gelassenen, PL-02-abhängigen Punkte E-R147-1 und E-R134-4 bearbeitet.
+
+- **E-R147-1 (P3) geschlossen:** Die Datei `2.33.C HaushaltgerÑte_Professionelle_Beschaffung.pdf`
+  (2004er-Erstausgabe) erneut über die M365-CLI geholt und mit `pdftotext -layout` neu
+  extrahiert — die frühere Layout-Extraktion hatte die Grafiklegende nicht vom Diagramm getrennt
+  und deshalb die kWh/kg-Werte verschluckt. Dort im Fliesstext: «0,32 kWh respektive 0,67 kWh pro
+  kg Wäsche» für den Wärmepumpen-Tumbler-Vergleich (5'000 kg/Jahr, 20 Rp./kWh). Nachgerechnet
+  5'250 CHF ≈ die im Flyer genannten «rund 5'300 Franken». Ursache der Divergenz zur 2008er-Zahl
+  (3'900 CHF) ist damit endgültig die abweichende Verbrauchsannahme (0,35 gegen 0,26 kWh/kg
+  Differenz), nicht der Strompreis (beide Ausgaben 20 Rp./kWh) — kein Redaktionsfehler in keiner
+  der beiden Ausgaben.
+- **E-R134-4 (P4) geschlossen (Negativbefund):** Der Herkunftsordner
+  `06_Richtlinien/Minergie/Vergleich` sowie eine vollständige rekursive Namensliste des gesamten
+  Minergie-Ordners (79 Dateien, M365-CLI) enthalten keine MFH- oder Zweckbau-Fassung des
+  EFH-Bauteilvergleichs `ME-ME-P-Haus.pdf`. `MFH.pdf` im selben Baum ist ein unverwandtes
+  Dokument zum Heizungsersatz.
+- **E-R138-2 (P3) vermessen, nicht geschlossen:** Abgleich aller `[-]`-Dateinamen aus
+  `training/pdf-inventar.md` gegen `raw/_INGESTED.md` per Skript ergibt **64 von 76** Namen ohne
+  Fund in `_INGESTED.md` — deutlich mehr als die in Run 148 vermuteten «mindestens 5». Ein Teil
+  davon sind vermutlich Schreibvarianten desselben Dateinamens (kein exakter String-Match), der
+  echte Umfang ist damit nicht abschliessend beziffert. Zu gross für einen Nebenschritt dieser
+  Session — als präzisierter Befund in `wiki/QUESTIONS.md` festgehalten, damit der nächste Lauf
+  nicht wieder von «mindestens 5» ausgeht.
+- **E-R149-4 erneut versucht, erneut blockiert:** derselbe Wortlautvorschlag wie in der fünften
+  Fortsetzung auf `~/.claude/scheduled-tasks/energie-training/SKILL.md` angewendet — die Datei ist
+  als sensible Systemdatei geschützt und verlangt eine Freigabe ausserhalb der
+  Tool-Berechtigungen dieser Session. Bleibt offen für Raphael.
+- Register: `wiki/QUESTIONS.md` (zwei `[x]`, ein präzisierter Befund zu E-R138-2), zwei
+  Destillate ergänzt (`haushaltgeraete-professionelle-beschaffung-2004-erstausgabe`,
+  `minergie-me-vs-me-p-vergleich`), FAQ F210 nachgeführt. Nach jedem Schreibvorgang
+  `git diff --numstat` geprüft, ausschliesslich additiv (keine unerwarteten Löschungen).
+
+## 2026-08-23 — Interaktive Session (fünfte Fortsetzung): PL-02-Zugang wiederhergestellt, drei stale Checkboxen bereinigt, E-R129-2 geschlossen, E-R129-4/E-R143-2 als Teilbefund
+
+Fortsetzung der vier vorangehenden Interaktiv-Sessions desselben Tages. Anders als die vierte
+Fortsetzung: Node (`/opt/homebrew/bin/node`) und die M365-CLI waren in dieser Session verfügbar,
+PL-02-Zugriff (Site `/sites/PL`, Drive `02_Recht_Norm`, Server-relative URL mit dem
+Zwei-Leerzeichen-Muster `/sites/PL/PL  Immobilienpreise/...`) funktionierte durchgehend.
+
+- **Drei stale Checkboxen bereinigt** (E-R131-2, E-R132-2, E-R132-3): alle drei waren laut
+  `training/pdf-inventar.md` bereits in Run 132/133/137 erledigt, die Checkbox in
+  `wiki/QUESTIONS.md` blieb jeweils auf `[ ]` stehen — dasselbe Muster wie mehrfach an diesem Tag.
+- **E-R129-2 geschlossen:** SIA 2024:2006, Datenblatt 4.1 «Schulzimmer» (Original gelesen, PL-02,
+  S. 42-43) liefert die fehlende Personenbelegung für `[[ahb-raummodul-klassenzimmer]]`:
+  Personenfläche 3,0 m²/P (Auslegung), typischer Raum 70 m² ⇒ rund 23 Personen; Aussenluftrate
+  25 m³/(h·P) deckungsgleich mit dem AHB-Wert. Nachgetragen auch in KB `normen`
+  (`[[sia-mb-2024-2006]]`, dort war das Datenblatt noch nicht gelesen — Compounding statt
+  Duplizieren).
+- **E-R129-4 (P3) als Teilbefund, bleibt offen:** derselbe Abgleich fürs Schwestermodul
+  `[[ahb-raummodul-buero]]` (SIA-2024-Datenblatt 3.1) zeigt das Gegenteil — AHB 25 m³/h/P gegen
+  SIA-2024-Auslegungswert 36 m³/(h·P), rund 30 % Abweichung, Ursache ungeklärt.
+- **E-R143-2 als Teilbefund, bleibt offen:** SIA 387/4:2017, Tabelle 4 (Original gelesen, PL-02,
+  S. 18) bestätigt für Turnhalle nur den 500-lx-Wert der AHB-Beleuchtungstabelle, nicht die
+  750-lx-Fussnote, kennt aber keine eigene Wettkampfsport-Zeile. Die einschlägige Norm SN EN 12193
+  ist nicht im PL-02-Bestand; Cross-KB-Bringschuld in `wissen/normen/wiki/QUESTIONS.md` ergänzt.
+- Register: `wiki/QUESTIONS.md`, `destillate/INDEX.md` (3 Zeilen nachgeführt), vier Destillate
+  ergänzt (`ahb-raummodul-klassenzimmer`, `ahb-raummodul-buero`,
+  `ahb-zuerich-uebersichtstabelle-beleuchtung-en12464`, cross-KB `normen/sia-mb-2024-2006`).
+  Nach jedem Schreibvorgang `git diff --numstat` geprüft, ausschliesslich additiv.
+- **Nicht angefasst:** E-R148-1 (Normkauf SIA 380/1:2016, Beschaffungsentscheid Raphaels),
+  E-R149-4 (Wortlaut für die Scheduled-Task-Voraussetzungszeile liegt bereit, Datei
+  `~/.claude/scheduled-tasks/energie-training/SKILL.md` ist als sensible Systemdatei geschützt
+  und liess sich in dieser Session nicht automatisiert bearbeiten — Edit von Raphael nachzuziehen).
+
 ## 2026-08-23 — Interaktive Session (vierte Fortsetzung): E-R134-2 geschlossen, E-R132-4 als unverifizierter Websuchbefund markiert
 
 Fortsetzung der drei vorangehenden Interaktiv-Sessions desselben Tages. Diese Session ohne

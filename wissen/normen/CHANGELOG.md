@@ -1,3 +1,17 @@
+## 2026-08-23 — Cross-KB-Nachtrag aus `energie`: SIA 2024:2006 Datenblatt 4.1 Schulzimmer ergänzt
+
+**Anlass:** KB `energie` bearbeitete E-R129-2 (Personenbelegung Klassenzimmer für eine
+Lüftungsauslegung) und brauchte dafür das in `[[sia-mb-2024-2006]]` bislang ungelesene
+Datenblatt 4.1 «Schulzimmer» (Original PL-02, S. 42-43, via M365-CLI). Nachgetragen: Personenfläche
+3,0 m²/P (Auslegung) / 4,0 m²/P (Standard), typischer Raum 70 m², Aussenluftvolumenstrom
+25 m³/(h·P) — deckungsgleich mit dem AHB Stadt Zürich «Raummodul Klassenzimmer» (2008), das damit
+nachweislich direkt aus SIA 2024 übernommen wurde. Zusätzlich Cross-KB-Pointer in
+`wiki/QUESTIONS.md` bei der bestehenden SN-EN-12193-Bring-Schuld ergänzt: dieselbe Norm würde
+einen dokumentierten Selbstwiderspruch in einer AHB-Beleuchtungstabelle (Turnhalle Wettkampfsport
+500 gegen 750 lx) auflösen. Details: `wissen/energie/wiki/QUESTIONS.md` E-R129-2/E-R129-4/E-R143-2,
+`wissen/energie/CHANGELOG.md` heutiger Eintrag. Register: `destillate/sia-mb-2024-2006.md`
+(Frontmatter `gelesen`/`last_updated`, neue Kernziffer), `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung, dritter Lauf: N57-4 geschlossen (SIA 416:2003 primärverifiziert), N53-3 teilweise geschlossen (SIA 215:1978 archiviert)
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

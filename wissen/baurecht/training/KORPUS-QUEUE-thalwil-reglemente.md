@@ -56,8 +56,8 @@ Klassen sauber trennen:
 | **T4** | **Merkblätter/Wegleitungen** | `02 BZO Thalwil/00 BZO Merkbaltt Wegleitungen/` (Gebäudehöhen-Messweise, qualitative Beurteilungskriterien, Wegleitung BZO 2020, Merkblatt Abstände) | [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]] | **erledigt** (Run 74, 17.08.2026) |
 | **T5** | **Einzelthemen** | `Kniestock/`, `Massgebendes Terrain/`, `Besonderes Gebäude/`, `Fahrzeugabstellplaetze/`, `Fensterflaechen/`, `Spiel und Ruheflaeche/`, `Baugespann/`, `Wohnungserhebung/` | je bestehender Wiki-Artikel | **erledigt** (Run 76, 23.08.2026) |
 | **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | **erledigt** (Run 77, 23.08.2026) |
-| **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | offen |
-| **T8** | **Gegenlesen der Claude-Factsheets** | die drei datierten Factsheets (siehe Echo-Schutz) | Fehlerbericht in `outputs/`, keine Aufnahme als Quelle | offen |
+| **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | **erledigt** (Run 78, 23.08.2026) |
+| **T8** | **Gegenlesen der Claude-Factsheets** | die drei datierten Factsheets (siehe Echo-Schutz) | Fehlerbericht in `outputs/`, keine Aufnahme als Quelle | **erledigt** (Run 79, 23.08.2026) |
 
 ## Erledigt
 
@@ -257,6 +257,61 @@ Klassen sauber trennen:
   bereits vorhandenem Raw belegbar). 2 Wiki-Artikel geschärft
   ([[zonenkonformitaet]] neue Sektion, [[abstaende-und-hoehen]] zwei Ergänzungen). Report
   `outputs/2026-08-23_buch-run77.md`.
+
+### T7 — Archiv-Sichtung (Run 78, 23.08.2026)
+
+- **VSS NORM (2 Dateien):** Projektplan-PDF ist reine Projektzeichnung, kein Ingest. Das
+  Merkblatt zu Formular Z15 erwies sich als **Kanton-Schwyz-Dokument** (nicht ZH) —
+  fehlabgelegt im Thalwiler Ordner, aber verallgemeinerbares SZ-Recht: neuer Wiki-Artikel
+  [[strassenabstand-zufahrten-vorteilsabgabe-sz]] + neuer `raw/`-Beleg.
+- **Merkblätter Konstruktion (7 Dateien):** stichprobenweise geprüft (ein Merkblatt
+  vollständig gelesen) — reine suissetec-Konstruktionsdetails (Fassadenanschluss/Geländer/
+  Flachdachdurchdringung/Abdichtung), kein Baurecht. Kein Ingest; Kandidat für eine
+  allfällige KB `wissen/bauprodukte`, ausserhalb dieses Laufs.
+- **Lärmschutz (8 Dateien):** GIS-ZH-Lärmübersicht (projektspezifische Karte, Legende
+  generisch übernommen), amtliches Zusatzformular «Lärmsituation und Lärmschutz» (FALS) und
+  Formular S (SIA-181-Projektkontrolle) vollständig gelesen — Formularstruktur ergänzt
+  [[laermschutz-und-nichtionisierende-strahlung]] (bereits `established`, reine Ergänzung).
+  Formular S bestätigt SIA 181:**2020** als ZH-Vollzugsfassung.
+- **Naturgefahren (3 Screenshots):** stammen aus einem VKF-BSM-Solaranlagen-Leitfaden
+  (Wind/Hagel/Schneedruck/Dachlawinen bei PV) — inhaltlich PV/Energie, nicht Baurecht. Kein
+  Ingest, Routing-Hinweis KB `wissen/energie`.
+- **Brandschutz (17 Dateien):** wie in der Queue vorgesehen zum Skill `brandschutz` geroutet,
+  nicht destilliert. Datierung März 2025 (vor Hub-Ära) spricht für echte Büro-Arbeitsprodukte,
+  nicht für Claude-Erzeugnisse — Klassifikation nicht abschliessend geprüft, ausserhalb des
+  Auftrags dieses Laufs.
+- **PV Anlage (22 Dateien):** durchweg PV/Solar-Fachthema, kein Baurecht. Kein Ingest,
+  Routing-Hinweis KB `wissen/energie` (dort ggf. bereits teilweise abgedeckt, nicht geprüft).
+- Report `outputs/2026-08-23_buch-run78.md`.
+
+### T8 — Gegenlesen der Claude-Factsheets (Run 79, 23.08.2026) — Queue vollständig abgearbeitet
+
+- **Gartenmauern-Factsheet (`260703-Baurecht-Gartenmauern-Thalwil`): ein schwerwiegender
+  Befund.** Abschnitt 2 präsentiert die seit 01.06.2020 aufgehobene StrAV im Fliesstext
+  unbedingt als geltendes Recht für Thalwil (sechs Einzelbestimmungen im Präsens zitiert);
+  der einzige Vorbehalt steht versteckt in der Quellenzeile. Gleiche Fehlerfamilie wie
+  Run 73/Fehler 1. Sekundärbefund: «Sichtbereiche … Höhe auf 0.80 m begrenzt» verkürzt die
+  materiell andere Freihalte-Pflicht des heute geltenden § 23 VErV. Positiv: die
+  Kurveninnenseiten-Regel ist inhaltlich richtig (Ermessensentscheid statt starre Grenze),
+  nur falsch zugeordnet. Grundgrenzabstand 5,00 m (Art. 3 BZO, W3) CONFIRMED.
+- **Besondere-Gebäude-Factsheet (`260703-Baurecht-Besondere-Gebaeude-Thalwil`): kein eigener
+  Fehler, aber vererbt die Klammer-Falle.** Zitiert Art. 24 Abs. 3 BZO Thalwil (Klammer-Falle,
+  siehe T4/Run 74) wortgleich und unkommentiert — zum Erstellungsdatum 03.07.2026 war der
+  Befund noch nicht bekannt. Alle übrigen Prüfpunkte (§ 49 Abs. 3 PBG, § 273 PBG, Art. 24
+  Abs. 1/2, Art. 14/15/17/17e/19/30 BZO, ABV §§ 13/25/28, § 290 PBG) CONFIRMED wortgleich
+  gegen den amtlichen Bestand. Eine Methodik-Lehre: die erste OCR-Extraktion von Art. 14 im
+  Rohdokument war unvollständig (fehlte Abs. 4) — erst die zweite, vollständigere Extraktion
+  im selben Rohdokument bestätigte das Factsheet-Zitat. Ohne zweiten Durchlauf wäre das ein
+  falscher Fehlerbefund gewesen.
+- **Offen gelassen, nicht als Fehler gewertet:** die Übertragung der 10°-Schrägdach-Schwelle
+  (BEZ 1996 Nr. 30, im Standardwerk nur für die Firsthöhen-Berechnung § 281 PBG belegt) auf
+  die 4-m/5-m-Grenze der besonderen Gebäude — neue offene Frage in `wiki/QUESTIONS.md`.
+- **Kein Ingest (Echo-Schutz):** beide Factsheets bleiben Prüfmaterial. Ergänzt wurde nur der
+  bereits `established` Artikel [[gebaeudearten-und-abstandssystem]] um einen Warn-Satz, dass
+  sich die Klammer-Falle bereits verbreitet hat.
+- Report `outputs/2026-08-23_buch-run79.md`.
+
+**Damit ist die Reglemente-Queue 2414 Thalwil (T1-T8) vollständig abgearbeitet.**
 
 ## Arbeitsregeln je Batch
 

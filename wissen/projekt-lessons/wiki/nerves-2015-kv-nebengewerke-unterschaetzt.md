@@ -4,7 +4,10 @@ status: established
 last_updated: 2026-08-23
 sources:
   - /Volumes/daten/04_Buero/02_Projekte/00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf (Baukostenübersicht ARCHmark Hofstetter, Stand 21.05.2015, rev. 25.08.2015, 1. Entwurf 15.04.2015)
-links: [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]], [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]]
+  - /Volumes/daten/04_Buero/02_Projekte/00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150715 nerves gmbh baubeschrieb.pdf (Baubeschrieb, Beilage zum Mietvertrag, 15.07.2015)
+  - /Volumes/daten/04_Buero/02_Projekte/00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150715 nerves gmbh mv.pdf (Mietvertrag Swiss Life AG/Livit AG — Nerves GmbH, Mietbeginn 01.09.2015)
+  - /Volumes/daten/04_Buero/02_Projekte/00_Allgemein/Nerves_Binz_DatenMisc/swi08 tic 150724 nerves schnittstelle.pdf (Schnittstellenbeschrieb Grundausbau/Mieterausbau, Stand 10.06.2015)
+links: [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]], [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]], [[nerves-2015-pentagon-systemwahl-streuung]]
 tags:
   fokus: Kosten & Termine
   bkp: "214.1, 232, 254, 258, 271"
@@ -92,3 +95,33 @@ konkret: bei kleinen technischen Nebengewerken ohne Einzelofferte reicht ein pau
 nicht — zusätzlich prüfen, ob die LV-Position überhaupt die richtige Leistung beschreibt (Lesson
 im Lorraine-Artikel, Abschnitt «Ursache», Punkt 2). Ein belastbarer numerischer Zuschlagsfaktor
 bräuchte weitere unabhängige Fälle.
+
+## Update 23.08.2026 (zweite Fortsetzung) — strukturelle Ursache der Nebengewerke-Abweichung: Rohbau-Mietfläche
+
+Wissens-Destillat, Korpus `buero-projekte`, Phase 2, Rest-Cluster `00_Allgemein`: drei bisher
+ungesichtete Dokumente zum Mietverhältnis belegen eine strukturelle Erklärung, warum
+ausgerechnet die «kleinen» technischen Nebengewerke derart unterschätzt wurden. Baubeschrieb
+(15.07.2015) und Mietvertrag (24.07.2015, Mietbeginn 01.09.2015, befristet bis 31.08.2020,
+171 m² à CHF 200.-/m²/Jahr) zeigen: die Mietfläche Räffelstrasse 24 wurde als reiner **Rohbau**
+übergeben (Betondecke, unverkleidete Wände, textiler Bodenbelag als einzige
+Vermieterleistung). Der Nerves-spezifische Schnittstellenbeschrieb (Stand 10.06.2015, Bauherr
+Livit AG) bestätigt tabellarisch je Gewerk (Elektro, Heizung, Lüftung, Kälte, Sanitär): ab
+Etagenverteilung/Steigzone liegt die gesamte Installation in der Pflicht des Mieters.
+
+Das heisst: Elektro, Sanitär und Heizung waren in diesem Projekt kein leichter
+Mieterausbau-Nachtrag an einer bestehenden Infrastruktur, sondern ein vollständiger
+MEP-Erstausbau ab Rohbau — kalkuliert wurde das Projekt aber erkennbar als «kleiner
+Büroumbau» (siehe die runden Pauschalbeträge 5'000/2'000/1'000 oben). Das ergänzt die
+bisherige Ursachenanalyse: die Pauschal-Schätzung war nicht nur methodisch grob (keine
+Einzelofferte), sie unterschätzte zusätzlich den tatsächlichen **Leistungsumfang** der
+Nebengewerke, weil der Rohbau-Charakter der Mietfläche bei der Kostenschätzung nicht
+durchgängig berücksichtigt wurde.
+
+**Ergänzende Regel:** Bei einer Mietfläche vor der Kostenschätzung explizit klären, ob es
+sich um einen Rohbau- oder Ausbau-Zustand handelt (Mietvertrag/Baubeschrieb prüfen) — bei
+Rohbau-Übergabe sind alle Installationsgewerke ab Steigzone/Etagenverteilung als vollständiger
+Erstausbau zu kalkulieren, nicht als kleinere Anpassung an eine bestehende Infrastruktur.
+
+**Zusätzlicher, eigenständiger Befund desselben Clusters:** [[nerves-2015-pentagon-systemwahl-streuung]]
+— derselbe Projektordner, aber ein eigenständiges Muster (Systemwahl-Streuung bei einem
+Sonderbauteil), kein Bestandteil der Nebengewerke-Kostenwahrheit dieses Artikels.

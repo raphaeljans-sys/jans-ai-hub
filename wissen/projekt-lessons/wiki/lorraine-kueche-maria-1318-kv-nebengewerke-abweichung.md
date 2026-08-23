@@ -33,9 +33,11 @@ sources:
   - "/Volumes/daten/04_Buero/02_Projekte/1318_Lorraine_Kueche/03_Kueche_Maria/06_Offerten_Re/285_Innere_Oberflaechenbehandlung/Edulu_Bruegger_Roger/Fwd Küchenrenovation.pdf (Angebot Roger Bruegger/Edulu, weitergeleitet 02.11.2015)"
   - /Volumes/daten/04_Buero/02_Projekte/1318_Lorraine_Kueche/03_Kueche_Maria/06_Offerten_Re/285_Innere_Oberflaechenbehandlung/Edulu_Bruegger_Roger/SBBZB-P163W15110210520.pdf (Angebotsformular Edulu, «Küche Variante 2»)
   - /Volumes/daten/04_Buero/02_Projekte/1318_Lorraine_Kueche/03_Kueche_Maria/06_Offerten_Re/285_Innere_Oberflaechenbehandlung/Opti_Maler/151007_Opti_Maler.pdf (Angebot O15-00131 OptiMaler GmbH, 07.10.2015, «Küche Variante 1»)
+  - /Volumes/daten/04_Buero/02_Projekte/1318_Lorraine_Kueche/04_Plaene/01_Architektenplaene/285_Malerarbeiten/151204_BKP_285_Innere_Oberflaechenbehandlung.pdf (JANS-Werkplan «Gut zur Werkplanung», 03.12.2015, Update 23.08.2026)
 links:
   - nerves-2015-kv-nebengewerke-unterschaetzt
   - lorraine-kueche-1318-elektro-nachtrag-anschlusswerte-kuechenbauer
+  - lorraine-kueche-1318-kuehlschrank-beschaffungsrisiko
 tags:
   fokus: Kosten & Termine
   bkp: "242 Heizungsanlagen, 251/254 Sanitäranlagen, 232 Starkstrominstallationen, 272 Metallbauarbeiten, 273 Schreinerarbeiten, 282 Wandbeläge, 285 Innere Oberflächenbehandlungen (Malerarbeiten) — Korrektur 23.08.2026, siehe Update unten"
@@ -241,3 +243,29 @@ BKP-ähnlich aussieht. Frontmatter `tags.bkp` und die betroffene Textstelle oben
 **Neuer verwandter Artikel:** [[lorraine-kueche-1318-elektro-nachtrag-anschlusswerte-kuechenbauer]]
 — derselbe Elektro-Auftrag (Rolf Gerber AG), aber ein eigenständiger Befund zur
 Ausführungsphase (Nachtrag durch ungeklärte Anschlusswerte), kein KV-Schätzungsfehler.
+
+## Update 23.08.2026 (dritte Fortsetzung) — Ursache der Malerarbeiten-Abweichung: eigene Ausführungsplanung sah von Anfang an Kalkputz vor
+
+Wissens-Destillat, Korpus `buero-projekte`, Phase 2, Rest-Cluster `1318_Lorraine_Kueche`: der
+JANS-Werkplan «Gut zur Werkplanung» vom 03.12.2015 spezifiziert für BKP 285 Innere
+Oberflächenbehandlung explizit «Wand Deckschicht: Kalkputz» statt eines einfachen
+Neuanstrichs. Das liefert eine bisher offene Teilursache für die oben dokumentierte extreme
+Abweichung bei den Malerarbeiten (LV-Pauschale CHF 560.- gegenüber realen Offerten CHF
+4'458.50–5'799.03 inkl. Weissputz-Position, +696 bis +935 %): die eigene
+Ausführungsplanung sah von Beginn an ein aufwendigeres Wandfinish (Kalkputz/Weissputz) vor,
+als die knappe LV-Kurzbezeichnung «komplette Küche neu streichen» abbildete — die
+LV-Schätzung wurde also nicht nur pauschal, sondern auch am eigenen, zum Schätzzeitpunkt
+bereits absehbaren Planungsstand vorbei erstellt (der Werkplan datiert zwar erst 03.12.2015
+und damit nach der LV-Schätzung vom 16.09.2015; dass Kalkputz als hochwertigeres Wandfinish
+bereits vor der Ausschreibung angedacht war, bestätigen die beiden Konkurrenzofferten selbst,
+die beide unabhängig voneinander eine Weissputz-Position anbieten).
+
+**Ergänzende Regel:** Bevor eine Gewerks-Pauschale (insbesondere bei Malerarbeiten/
+Oberflächenbehandlungen) in die Kostenschätzung einfliesst, mit dem eigenen — auch wenn erst
+im Entwurf vorliegenden — Ausführungsplan abgleichen (Materialangabe im Plankopf), nicht nur
+mit der knappen LV-Kurzbezeichnung. Eine LV-Position «neu streichen» kann ein aufwendiges
+Putzsystem verdecken, das im eigenen Büro bereits angedacht ist.
+
+**Neuer verwandter Artikel:** [[lorraine-kueche-1318-kuehlschrank-beschaffungsrisiko]] —
+derselbe Projektordner, anderes Element (Kühlschrank-Beschaffung), kein Bestandteil der
+KV-Abweichungskette dieses Artikels.

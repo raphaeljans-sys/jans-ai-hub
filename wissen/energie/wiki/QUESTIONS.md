@@ -3639,12 +3639,19 @@ durchfuehrbar.
   oder eine kantonale Vollzugshilfe kann sie nicht beantworten. Damit hängt dieser Punkt am
   Normkauf-Entscheid und ist nach **E-R148-1** verschoben — dort weiterverfolgen, hier nicht
   mehr eigenständig recherchieren.
-- [ ] **E-R138-2 (P3, neu): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
-  nachführen.** Der E-R137-1-Befund zeigt, dass mindestens 5 in `pdf-inventar.md` bereits geprüfte
-  und bewusst nicht destillierte Werke (Run 126, 135) in `_INGESTED.md` fehlen und deshalb bei
-  einem künftigen Namensabgleich fälschlich als „unbearbeitet“ erscheinen. Kein Blocker, aber ein
-  Pflegeaufwand, der die nächste Zähler-Messung wieder sauberer macht. Kandidatenliste in
-  `pdf-inventar.md`, Nachtrag 17.08.2026 (Spalte «Einordnung»).
+- [ ] **E-R138-2 (P3): `raw/_INGESTED.md` um die `[-]`-Entscheide aus `pdf-inventar.md`
+  nachführen. Umfang präzisiert 23.08.2026 (Run 151) — grösser als angenommen.** Der
+  ursprüngliche E-R137-1-Befund nannte «mindestens 5» fehlende Einträge. Ein skriptgestützter
+  Abgleich aller Dateinamen aus `[-]`-Zeilen in `pdf-inventar.md` (76 gefunden) gegen den Volltext
+  von `_INGESTED.md` ergibt **64 ohne String-Treffer**. Das ist eine **Obergrenze, kein
+  bereinigter Wert**: ein Teil dürfte an Schreibvarianten desselben Dateinamens liegen (z.B.
+  `4.16Gebaudescreening.pdf` vs. `4.16.C Gebudescreening.pdf`, Leerzeichen-/Umlaut-Transkription),
+  die ein reiner String-Match nicht erkennt — der Fehlertyp, den `E-WC32-1` bereits für die
+  INDEX-Volltextsuche notiert hat, gilt hier ebenso. **Kein Blocker, aber grösser als ein
+  Nebenschritt:** vor der eigentlichen Nachführung erst eine bereinigte Ist-Liste erzeugen
+  (Basenamen normalisieren, dann erst abgleichen), sonst werden bereits erfasste Werke doppelt
+  eingetragen. Kandidatenliste weiterhin in `pdf-inventar.md`, Nachtrag 17.08.2026 (Spalte
+  «Einordnung»).
 - [x] **E-R134-2 (P3) — GESCHLOSSEN 23.08.2026: Bezugsfläche der Energiekennzahl 38/30 kWh/m² im
   EFH-Vergleichsblatt systemisch geklärt.** Auf der Grafik steht nur «kWh/m²»; EBF war naheliegend,
   aber am Dokument selbst nicht belegt. Der Minergie-Glossar (minergie.ch, Eintrag
@@ -3662,6 +3669,16 @@ durchfuehrbar.
   0,04). Vermutlich fehlende Null im Original. **Bewusst nicht korrigiert, nur markiert** — das
   Destillat gibt die Quelle treu wieder. Falls das Papier je als Gesprächsgrundlage dient, vorher
   klären; da Herausgeber und Datum fehlen, ist der Aufwand vermutlich nicht gerechtfertigt.
+- [x] **E-R134-4 (P4) GESCHLOSSEN 23.08.2026 (Run 151, Negativbefund): keine MFH-/Zweckbau-Fassung
+  im PL-02-Minergie-Bestand auffindbar.** Der Herkunftsordner
+  `06_Richtlinien/Minergie/Vergleich` (M365-CLI, Site `/sites/PL`) enthält neben
+  `ME-ME-P-Haus.pdf` nur `Qh+Qww-Haus-Abbildung.pdf` und `Unterschied ME 2010-MUKEN.pdf` — keine
+  dritte Datei. Eine vollständige, rekursive Namensliste des gesamten Minergie-Ordners
+  (79 Dateien) enthält ebenfalls keinen Treffer; `MFH.pdf` im selben Baum ist ein unverwandtes
+  Dokument zum Heizungsersatz (`[[heizungsersatz-groessere-mfh-stweg]]`), kein Bauteilvergleich.
+  Bleibt offen, ob eine solche Fassung ausserhalb des Minergie-Ordners liegt (nicht durchsucht)
+  oder nie erstellt wurde — bei P4-Priorität kein weiterer Aufwand. Eingearbeitet in
+  `destillate/minergie-me-vs-me-p-vergleich.md`. Ursprünglicher Wortlaut:
 - [ ] **E-R134-4 (P4): Existiert eine MFH- oder Zweckbau-Fassung des EFH-Bauteilvergleichs?** Das
   Blatt gilt laut eigener Fussnote ausdrücklich nur für «Wohnen Einfamilienhaus». Die KB deckt
   MFH über die Kennzahlen ab, aber nicht auf derselben Bauteilebene.
@@ -3723,6 +3740,18 @@ durchfuehrbar.
 
 ## 2026-08-21 (Run 147) — Zwei divergente Frankenbeträge in derselben Rechenbeispiel-Familie
 
+- [x] **E-R147-1 (P3) GESCHLOSSEN 23.08.2026 (Run 151): Wärmepumpen-Tumbler-Ersparnis 5'300 CHF
+  (Nov. 2004) gegen 3'900 CHF (Jan. 2008) — beide kWh/kg-Werte am Original nachgelesen, Ursache
+  ist eine abweichende Verbrauchsannahme, kein Redaktionsfehler.** Datei erneut über die M365-CLI
+  beschafft und mit `pdftotext -layout` neu extrahiert; die frühere Extraktion hatte die
+  Grafiklegende nicht sauber vom Diagramm getrennt. Dort steht wörtlich: «Wärmepumpen-Tumbler in
+  einem Mehrfamilienhaus. Annahmen: 30 % Rabatt auf Listenpreis, 5'000 kg Wäsche pro Jahr,
+  **0,32 kWh respektive 0,67 kWh pro kg Wäsche**, 20 Rp. pro kWh Strom.» Nachgerechnet: 5'000 kg ×
+  0,35 kWh/kg × 0,20 CHF/kWh × 15 Jahre = 5'250 CHF, deckt sich mit der ausgewiesenen Rundung
+  «rund 5'300 Franken». Die 2008er-Ausgabe rechnet mit 0,34/0,60 kWh/kg (Differenz 0,26 statt
+  0,35) — unterschiedliche Verbrauchsannahme, gleicher Strompreis (20 Rp./kWh in beiden Ausgaben).
+  Eingearbeitet in `destillate/haushaltgeraete-professionelle-beschaffung-2004-erstausgabe.md`
+  und FAQ F210. Ursprünglicher Wortlaut zur Nachvollziehbarkeit:
 - [~] **E-R147-1 (P3): Wärmepumpen-Tumbler-Ersparnis 5'300 CHF (Nov. 2004) gegen 3'900 CHF
   (Jan. 2008) — Strompreis-Hypothese widerlegt, Ursache eingegrenzt (23.08.2026).** Zwei
   Auflagen desselben Stadt-Zürich/ewz-Flyers «Professionelle Beschaffung: Haushaltgeräte»
@@ -3985,3 +4014,29 @@ durchfuehrbar.
   Tenant-Adresse lautet `https://raphaeljans.sharepoint.com/sites/PL`, nicht
   `raphaeljansarchitekten.sharepoint.com` (erster Versuch scheiterte an `ENOTFOUND`). Der
   Ersatztext trägt bereits die richtige Form.
+  **⚠ Zweimal am Original-Edit gescheitert (fünfte und sechste Fortsetzung, 23.08.2026):**
+  `~/.claude/scheduled-tasks/energie-training/SKILL.md` ist als sensible Systemdatei geschützt und
+  verlangt eine Freigabe ausserhalb der Tool-Berechtigungen einer interaktiven Session. Der
+  Ersatztext bleibt unverändert vorgelegt — nächster Schritt ist ein Edit durch Raphael selbst
+  oder eine explizite Freigabe dieser Datei für Claude, nicht ein weiterer Recherche-/Edit-Versuch.
+
+## Run 151 (23.08.2026, sechste interaktive Fortsetzung desselben Tages) — die beiden letzten reinen PL-02-Rechercheposten des Tages geschlossen
+
+M365-CLI erneut geprüft und funktionsfähig (Zertifikats-Auth, `m365 status`). Zwei der drei von
+Run 150 als "nächste Priorität" benannten Punkte bearbeitet und geschlossen (E-R147-1, E-R134-4);
+der dritte (E-R148-1, Normkauf) bleibt bewusst unberührt, weil er eine Beschaffungsentscheidung
+Raphaels ist, keine Recherchefrage. Zusätzlich E-R138-2 vermessen (Umfang grösser als angenommen,
+64 statt "mindestens 5", siehe oben) und ein zweiter, ebenfalls gescheiterter Versuch an E-R149-4
+dokumentiert.
+
+Mit diesem Lauf sind **alle P1-P3-Punkte der KB entweder geschlossen, an eine Entscheidung
+Raphaels gebunden (E-R148-1, E-R148-2) oder bewusst als nicht abschliessend auflösbar dokumentiert
+(E-R134-3, E-R143-2 Bring-Schuld bei `normen`, E-R150-3, E-R132-4 Sekundärquelle)**. Offen bleiben
+nur: E-R129-5 (P4, bewusst zurückgestellt bis zu einem Submetering-Thema), E-WC32-1 (P3,
+Prozess-Merksatz, keine Recherchefrage), E-R138-2 (P3, Registerpflege, jetzt korrekt bemessen),
+E-R140-1 (hängt an E-R148-1), E-R148-1/E-R148-2 (Entscheidungen Raphaels), E-R149-4 (Betrieb,
+Freigabe nötig), E103/E94 (Entscheid Raphaels zu JANS-eigenen Projektdaten), E-S1
+(Struktur-/Skill-Frage). **Für den nächsten reinen Rechercheauftrag ist der Korpus damit
+tatsächlich erschöpft** — der von Run 148/149 skizzierte Takt-Entscheid (E-R148-2: fragengetrieben
+statt dateilistengetrieben) ist jetzt der naheliegendste nächste Schritt, keine weitere
+Bestandsprüfung.
