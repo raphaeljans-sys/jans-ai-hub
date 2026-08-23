@@ -46,7 +46,7 @@ STATION=$(echo "$STATION" | tr '[:upper:]' '[:lower:]' | tr -cd 'a-z0-9-')
 
 echo ""
 echo "============================================================"
-echo "  JANS AI Hub — Station «$STATION» einbinden"
+echo "  JANS AI Hub — Station «${STATION}» einbinden"
 echo "============================================================"
 
 # --- 1. NAS-Mount -----------------------------------------------------------

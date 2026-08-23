@@ -80,7 +80,13 @@ STALE_STD="${STALE_STD:-8}"          # Stationsdatei aelter als X Std = veraltet
 
 NASDIR="/Volumes/daten/jans-ai-hub"
 STATEDIR="$NASDIR/logbuch/kontingent"
-STATION="$(hostname -s)"
+# Ueberschreibbar (23.08.2026): die dritte Station heisst `MacBookPro` und
+# unterscheidet sich vom Haupt-MacBook `Macbookpro` NUR in der Gross-/Klein-
+# schreibung. Das NAS-Dateisystem unterscheidet die nicht, die Stationsdateien
+# verbrauch-<station>.json waeren also DIESELBE Datei und wuerden sich still
+# gegenseitig ueberschreiben. Mit STATION=<name> laesst sich das aufloesen,
+# ohne an den Systemeinstellungen der Maschine zu drehen.
+STATION="${STATION:-$(hostname -s)}"
 MODUS="${1:-}"
 
 # --- Wochenstart bestimmen: letzter Montag 12:00 LOKAL ------------------------
