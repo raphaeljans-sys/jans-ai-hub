@@ -1,5 +1,63 @@
 # CHANGELOG
 
+## 2026-08-23 — Run 150: PL-04 Restbestand abgeschlossen, Süd-Referenzpunkt gewonnen, Begriffsfalle Deckungsgrad/Autarkie KB-weit bereinigt, 3 FAQ neu
+
+Zwölf Positionen bearbeitet, damit ist der PL-04-Befund aus Run 149 vollständig entschieden.
+Zugang über die M365-CLI (Zertifikats-Auth); mechanische Stufe auf zwei parallelen
+Sonnet-Subagenten, Verifikation im Hauptmodell.
+
+**Der Lauf begann mit einem Befund über die KB selbst.** Die offene Frage aus Run 149 («existiert
+zum Projekt Willerzell ein SolarReport?») war in einem `grep` beantwortet: **der Bericht stand seit
+dem 19.06.2026 als `[x]` in Zeile 52 desselben Inventars**, destilliert als «Beispiel A» in
+`pv-ertrag-eigenverbrauch-praxis`. Neue **Falle Nr. 12: die Antwort stand im selben Register wie
+die Frage** — derselbe Fehlertyp wie die F250-Selbstkorrektur am Ende von Run 149. Erschlossen
+wurde deshalb die nie gelesene **zweite Hälfte S. 13-23** samt Belegungsplan.
+
+**Vier Erträge daraus.** (1) **Der Süd-Referenzpunkt der KB:** Anhang 1 nennt −1 Grad Süd bei 30°
+Neigung, 981 kWh/kWp — damit stammt der Ausrichtungsvergleich zum Basler Ost-West-Satteldach (84
+bis 87 %) aus **demselben Rechenkern** statt aus einem CH-Mittel fremder Herkunft (**E-R149-3
+erledigt**, eigene Tabellenzeile in F26 und `pv-solar-technologien`). (2) **Ein belegter Fall
+negativer PV-Wirtschaftlichkeit:** Rendite **−2,02 %/a**, Gewinn nach Abzug Baukosten CHF −11'315
+über 40 Jahre, kein Break-even, Gestehungskosten 22,56 gegen 24,00 Rp/kWh — und das bei besserem
+spezifischem Ertrag als Basel; der Unterschied ist der Kostenkennwert, nicht die Sonne (**F254**).
+(3) **Kostenkennwert nach Modulformat:** rund **CHF 7'370/kWp** für ein kleinteiliges
+Solarziegel-Indachsystem gegen ein KB-Marktband von 2'400 bis 3'200 CHF/kWp **derselben
+Grössenklasse**, also das 2,3- bis 3,1-Fache; die KB-Faustregel «~doppelt» ist damit die untere
+Grenze und als solche markiert (**F253**, offener Punkt E-R150-2). (4) **Statik SIA 261 in der
+Voralpenlage:** Schneelast 5,80 kN/m² inkl. Sicherheitsfaktor zwingt alle drei Montagezonen in
+«erhöhte Ansprüche» — die Schneelast bestimmt die Befestigung, nicht der Wind.
+
+**Begriffskorrektur mit Reichweite:** beide SolarApp-Berichte nennen den **Deckungsgrad**
+(Produktion/Verbrauch) «Unabhängigkeit», und beide Male wurde er beim Destillieren als **Autarkie**
+geführt — obwohl die richtige Definition in `pv-eigenverbrauch-zev` und
+`wp-pv-eigenverbrauch-lastmanagement` seit je danebensteht («nie 100 %»). Nachgerechnet und an der
+Monatstabelle zeilenweise bestätigt: echte Autarkie Willerzell **23 % statt 53 %**, Basel **34 %
+statt 103 %**. KB-weit bereinigt (`pv-ertrag-eigenverbrauch-praxis`,
+`solarreport-solarapp-basel-2022`, `destillate/INDEX.md`, `pv-eigenverbrauch-zev`, FAQ F18, F251);
+neue **F255** erklärt die drei Kennzahlen samt Prüfregel «jede Prozentzahl über 100 % ist ein
+Deckungsgrad». Der Sweep über alle Destillate mit Autarkie-Angaben ergab keine weiteren Treffer.
+
+**Vier interne Widersprüche des Berichts** dokumentiert (Verbrauch 7'000 gegen 14'500 kWh ·
+Leistung 7,90 kWp gegen 8'424 Wp aus der eigenen Stückliste · erstes Betriebsjahr S. 13 gegen S. 5
+· Glossar-Förderquote 20-30 % gegen tatsächliche 6,3 %). **Korrektur am Agentenergebnis:** der
+Subagent schloss auf einen spezifischen Ertrag von 919 statt 981 kWh/kWp; das gilt nur bei fixer
+Produktion. **Der spezifische Ertrag überlebt beide Lesarten, die absoluten Werte nicht** — als
+Grössenordnung und nicht als Kennwert gekennzeichnet (E-R150-3 bewusst offen).
+
+**Maison-Climat-Block:** zehn Planblätter einzeln gelesen, **alle `[-]`**. Neun ohne Beschriftung
+und Kennwert; das zehnte ist inhaltlich identisch mit dem Nachtrag aus Run 149 und bestätigt
+dessen Vollständigkeit. Lehre: **eine Projektmappe von einer Fachplattform ist eine Plan-Ablage,
+keine Wissensquelle.** Vollzählung wiederholt: 325 Dateien, 122 PDF, 6 reale Lücken (nicht 22 wie
+in Run 149 — die Differenz erklärt sich daraus, dass Run 149 elf Positionen selbst bearbeitet und
+fünf nachgetragen hat; die sechs Hash-Dateien blieben unerfasst, weil sie nur mit abgeschnittenem
+Präfix genannt wurden). Ergänzung zu Falle Nr. 11: **ein Registereintrag zählt nur, wenn er den
+vollen Dateinamen trägt.**
+
+Register: `training/pdf-inventar.md` (zwei Nachträge) · `destillate/INDEX.md` · `raw/_INGESTED.md`
+· `training/curriculum.md` · `wiki/QUESTIONS.md` · `wiki/INDEX.md` (Zählstand nachgezählt: **255
+Fragen F1-F255 lückenlos, 324 Destillate, 37 Themenartikel** — stand seit Run 126 auf 225/267/33;
+E-R149-2 als aufgehoben markiert) · Report `outputs/2026-08-23_energie-run150.md`.
+
 ## 2026-08-23 — Run 149: PL-04 nachgezählt, 22 nie erfasste Quellen gefunden, 11 bearbeitet, 3 FAQ neu
 
 Der Lauf begann mit der Gegenprüfung der Erschöpfungs-Aussage aus Run 148 und widerlegte sie für
