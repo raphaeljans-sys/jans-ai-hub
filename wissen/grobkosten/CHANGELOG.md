@@ -1,5 +1,83 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf Revendo, Auftrag Raphael) — Frage 2 richtig geschlossen; Faktoren auf 01.04.2026; amtliche BKP-Anteilsstruktur MFH Zürich 2025 neu
+
+**Korrektur eines Befunds desselben Tages.** Der Eintrag unten schloss Frage 2 mit «ZIW publiziert
+mutmasslich **jährlich** zum Oktober-Stichtag, 01.04.2026-Stand unbestätigt, nächster Termin
+Sommer 2027». Grundlage war ein **URL-Muster-Test über Nachrichten-Slugs** — eine Heuristik über
+Seitenbenennung, kein Beleg über einen Publikationsrhythmus. An den Primärquellen widerlegt:
+- **halbjährlich**, nicht jährlich (BFS wörtlich: Erhebung April/Oktober, Publikation
+  **Juni/Dezember**; der ZIW folgt mit Versatz — Oktober-Stichtag → ~Januar, April-Stichtag → ~Juli).
+- **Nächster Stichtag 01.10.2026, Publikation ~Januar 2027** — rund ein Jahr früher als angenommen.
+- Der **01.04.2026-Stand ist publiziert** (08.07.2026): Total (BKP 1, 2, 4, 5) **100.6**, Basis
+  **Oktober 2025 = 100**, April 2025 = 99.7, **Jahresteuerung +0.9 %**; erstmals mit
+  BKP-Teilindizes (BKP 1 = 102.2, **BKP 2 = 100.4**, BKP 4 = 100.7, BKP 5 = 101.0).
+- «Kein Hinweis auf Rebasierung/neue Gewichtung» ist widerlegt: **Revision 2025 vollzogen** —
+  Basismonat April → Oktober, Gewichtung komplett neu aus **54 realen Kostenvoranschlägen**
+  Zürcher MFH-Neubauten 2020–2024, Positionsauswahl vom BFS übernommen (BKP 1 wieder
+  aufgenommen), **Honorare nicht mehr aus KBOB** (deren Werte kamen zwei Jahre in Folge zu spät —
+  auch für JANS-Honorarrechnungen relevant), Verkettung über das Basisjahr amtlich gedeckt.
+
+**Warum die Heuristik danebenlag.** Der Wert steht nicht in einer Medienmitteilung, sondern in der
+**Indextabelle der ZIW-Landingpage**, die die frühere Prüfung als «clientseitig gerendert, liefert
+keine Zahlenwerte» abgeschrieben hatte. Tatsächlich liegt sie als JSON im HTML-Quelltext und ist
+mit `curl` plus Parser vollständig lesbar. **Lehre, in QUESTIONS festgehalten:** eine Seite gilt
+erst dann als leer, wenn der **Rohquelltext** geprüft ist — nicht schon, wenn ein
+Markdown-Konverter nichts zurückgibt.
+
+**Faktorentabelle auf 01.04.2026 fortgeschrieben** (letzter Schritt ist kein Kettenglied, sondern
+die publizierte Jahresteuerung 100.6/99.7 = 1.009): 01.04.2004 → **1.3457**, 01.04.2020 →
+**1.1685**, 01.04.2022 → **1.0817**, 01.04.2023 → **1.0252**, 01.04.2024 → **1.0201**,
+01.04.2025 → **1.0090**.
+
+**Zwei Zahlenkollisionen neu dokumentiert**, beide direkt bei der Faktorentabelle:
+(1) der neue Faktor **1.3457** (01.04.2004 → 01.04.2026) ist numerisch fast identisch mit dem
+*anderen* Anker **1.346** (01.04.2003 → 01.04.2025, `immobilienbewertung`) — Zufall, keine
+Konvergenz, der Stützpunktstreit bleibt offen; (2) der Wert **116.1** kommt zweimal vor —
+01.04.2025 auf Basis 1.4.2010 (HEV/archis) und 01.10.2025 auf Basis April 2020 (Medienmitteilung,
+Grundlage des Run-16-Nachtrags). Beide korrekt; ohne Basisangabe verschiebt sich der Stichtag um
+ein halbes Jahr.
+
+**Namensfrage geklärt:** «Zürcher Index der **Wohnbaukosten**» (diese KB, HEV Schwyz, archis.ch)
+und «Zürcher Index der **Wohnbaupreise** (ZIW)» (Statistik Stadt Zürich) sind **derselbe Index** —
+belegt über die Quellenzeile der HEV-Tabelle und über identische Werte bei archis.ch (01.04.2025:
+143.4 / 116.1 / 115.8 auf den Basen 1998 / 2010 / 2020). Die Verbände führen den historischen
+Namen weiter.
+
+**Neuer Kennwert-Block: BKP-Anteilsstruktur MFH Stadt Zürich, Stand 2025 (amtlich).** Der
+ZIW-Methodenbericht publiziert die vollständige BKP-Gewichtung aus 54 realen Kostenvoranschlägen
+(L1-Aggregation, median-artig; plausibilisiert mit acht Bauexpertinnen und -experten; eine
+manuelle Korrektur BKP 531 → 29). Damit hat diese KB erstmals eine aktuelle, amtliche,
+quellenoffene BKP-Kostenstruktur — der moderne Gegenpart zur 1985er-Tabelle 3 der
+Schätzungsanleitung. **Auf BKP 2 = 100 % normiert (1985 → 2025):** Rohbau 1 35.95 → **26.30 %**
+(−9.7 Pp), Honorare 12.55 → **20.11 %** (+7.6 Pp), Rohbau 2 9.42 → 13.97 %, Ausbau 1
+12.60 → 7.87 %. **Kein Like-for-like-Delta** — vier Vorbehalte (andere Grundgesamtheit,
+definitorische Verschiebungen, Indexgewichte statt Vollkostenrechnung, keine Tiefgaragen) sind
+mitgeschrieben; die Tabelle ist als **Plausibilisierungsraster** geführt, nicht als Korrektur.
+**Alle BKP-Codes gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft** (Rule
+`bkp-2017-referenz`); abweichende Beschriftungen des Berichts sind mit der BKP-2017-Bezeichnung
+daneben geführt, namentlich **BKP 17** («Fundation, Sicherung, Abdichtung» im Bericht,
+**Spezialtiefbau** im BKP 2017).
+
+**Nebenbefund zu Frage 1 — Grössenordnung bestätigt, Frage bleibt offen.** BKP 2 beträgt in der
+ZIW-Struktur 2025 **89.4 %** der Gesamtkosten, aus Tabelle 3 (1985) waren **90.6 %** abgeleitet:
+zwei unabhängige Quellen, 40 Jahre auseinander, 1.2 Prozentpunkte Abstand. Das stützt den
+Umrechnungsfaktor BKP 2 → Gesamtkosten belastbar. **Frage 1 selbst** (welchen Scope die m³-Werte
+von Tabelle 2 unterstellen) ist damit **nicht** beantwortet und bleibt unverändert offen.
+
+**Begründete Ankerwahl statt neuer offener Frage:** die Einzelfälle dieser KB werden als
+**BKP 1–5** geführt, deshalb ist der **Total**-Index (+0.9 %) hier der richtige Teuerungsanker —
+anders als in `immobilienbewertung`, wo reine Gebäude-Neuwerte an **BKP 2** (+0.4 %) gehören und
+der Entscheid dort als D15 registriert ist. Zwei Bezugsgrössen, keine Inkonsistenz; auf beiden
+Seiten ausgeschrieben.
+
+**Kein Kennwert promoviert, kein bestehender Wert überschrieben.** Unverändert offen und bewusst
+nicht angetastet: Frage 1 (BKP-Scope), Standard-Label, Teuerungsanker 1.334 gegen 1.346,
+Doppelführung der Neuwert-Richtwerttabelle, T-Regelgeschoss, Estrich/RF1-Einheitspreis.
+
+Geänderte Dateien: `wiki/kennwerte.md` (zwei neue Blöcke), `wiki/QUESTIONS.md`, `wiki/INDEX.md`.
+Report: `outputs/2026-08-23_grobkosten-vertiefung-ziw-bkp-struktur.md`.
+
 ## 2026-08-23 (Interaktive Session, auf Auftrag Raphael) — QUESTIONS.md bearbeitet: zwei Fragen geschlossen, zwei mit Fortschritt, vier strukturelle Fragen an Raphael vorgelegt
 
 - **Geschlossen:** "Thalwil Bohlweg 1"-Projektidentität (eigenständiges reales Bewertungsprojekt

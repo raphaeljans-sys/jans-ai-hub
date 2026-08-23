@@ -2,6 +2,107 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf Revendo, Auftrag Raphael) — Frage 2 richtig geschlossen statt falsch geschlossen; zwei neue amtliche Kennwert-Blöcke
+
+**Anlass.** Der Eintrag desselben Tages (unten) hat Frage 2 (01.04.2026-Indexstand) mit dem
+Befund geschlossen, die Stadt Zürich publiziere den ZIW «mutmasslich jährlich zum
+Oktober-Stichtag», der 01.04.2026-Wert sei «unbestätigt» und werde «bis Sommer 2027 nicht mehr
+aktiv nachverfolgt». Dieser Befund stützt sich auf einen **URL-Muster-Test über
+Nachrichten-Slugs** — eine Heuristik über die Benennung von Webseiten, kein Beleg über einen
+Publikationsrhythmus. Er ist an den Primärquellen widerlegt.
+
+### Was falsch war, und was stattdessen belegt ist
+
+| Behauptung (23.08.2026, früherer Eintrag) | Belegter Stand |
+|---|---|
+| «publiziert mutmasslich **jährlich** zum Oktober-Stichtag» | **halbjährlich** — BFS wörtlich: «Der Baupreisindex wird halbjährlich berechnet (April und Oktober) und die Ergebnisse im Juni und Dezember publiziert.» Der ZIW folgt dem mit Versatz: Oktober-Stichtag → Publikation ~Januar, April-Stichtag → Publikation ~Juli |
+| «nächster Termin voraussichtlich **Sommer 2027**» | **nächster Stichtag 01.10.2026, Publikation ~Januar 2027** — rund ein Jahr früher als angenommen |
+| «01.04.2026-Stand bleibt **unbestätigt**» | **publiziert am 08.07.2026**: Total (BKP 1, 2, 4, 5) = **100.6**, Basis **Oktober 2025 = 100**, April 2025 = 99.7, **Jahresteuerung +0.9 %**; dazu erstmals BKP-Teilindizes (BKP 1 = 102.2, **BKP 2 = 100.4**, BKP 4 = 100.7, BKP 5 = 101.0) |
+| «kein Hinweis auf **Rebasierung/neue Gewichtung**» | **Revision 2025 vollzogen** — Basismonat April → Oktober, Gewichtung komplett neu aus 54 realen Kostenvoranschlägen Zürcher MFH-Neubauten 2020–2024, Positionsauswahl vom BFS übernommen (BKP 1 wieder aufgenommen), Honorare nicht mehr aus KBOB |
+
+**Warum die Heuristik danebenlag.** Der URL-Test suchte nach Medienmitteilungs-Slugs. Die
+April-Mitteilung existiert, war aber unter dem geprüften Muster nicht auffindbar. Der Wert
+selbst steht gar nicht in einer Medienmitteilung, sondern in der **Indextabelle auf der
+ZIW-Landingpage** (`stadt-zuerich.ch/ziw`) — die frühere Prüfung hatte diese Seite als
+«clientseitig gerendert, liefert keine Zahlenwerte» abgeschrieben. Die Tabelle liegt jedoch als
+JSON im HTML-Quelltext und ist mit einem gewöhnlichen `curl` plus Parser vollständig lesbar.
+**Lehre für künftige Läufe:** eine Seite gilt erst dann als «liefert nichts», wenn der
+Rohquelltext geprüft ist, nicht schon, wenn ein Markdown-Konverter nichts zurückgibt.
+
+### Frage 2 damit geschlossen — richtig
+
+Der 01.04.2026-Stand ist belegt und eingearbeitet, die Faktorentabelle in `wiki/kennwerte.md`
+(Abschnitt «Baupreisindex ZH») ist auf **01.04.2026** fortgeschrieben. Der letzte Schritt ist
+**kein Kettenglied**, sondern die publizierte Jahresteuerung (100.6/99.7 = 1.009). Die Verkettung
+über die Revision hinweg ist amtlich gedeckt (Methodenbericht: «Die alten und die neuen
+Indexreihen werden über das Basisjahr verkettet»).
+
+### Zwei Zahlenkollisionen, neu dokumentiert (Fehlerquelle für künftige Läufe)
+
+1. **1.3457 gegen 1.346.** Der neue Faktor 01.04.2004 → 01.04.2026 ist **1.3457** und damit fast
+   identisch mit dem *anderen* Anker **1.346** (01.04.2003 → 01.04.2025, geführt in
+   `immobilienbewertung`). Zufall, keine Konvergenz — der Stützpunktstreit bleibt offen. Bei
+   jeder Verwendung Stützpunkt **und** Zieldatum ausschreiben.
+2. **116.1 zweimal.** Der Wert kommt in dieser Indexfamilie mit zwei Bedeutungen vor:
+   **01.04.2025 auf Basis 1.4.2010** (HEV-/archis-Tabelle) und **01.10.2025 auf Basis April 2020**
+   (Medienmitteilung, Grundlage des Run-16-Nachtrags). Beide korrekt. Ohne Basisangabe
+   verschiebt sich der Stichtag stillschweigend um ein halbes Jahr.
+
+### Namensfrage geklärt (war nie explizit festgehalten)
+
+«Zürcher Index der **Wohnbaukosten**» (so diese KB, HEV Schwyz, archis.ch) und «Zürcher Index der
+**Wohnbaupreise** (ZIW)» (so Statistik Stadt Zürich) bezeichnen **denselben Index**. Belegt: die
+HEV-Tabelle trägt den Titel «Wohnbaukosten», nennt in der Quellenzeile aber «Quelle: Zürcher Index
+der Wohnbaupreise | Stadt Zürich»; archis.ch führt dieselbe Reihe unter «Wohnbaukosten» mit dem
+Vermerk «zusammengestellt aufgrund der Mitteilungen des Statistischen Amtes der Stadt Zürich» und
+identischen Werten (01.04.2025: 143.4 / 116.1 / 115.8 auf den Basen 1998 / 2010 / 2020,
+deckungsgleich mit der HEV-Tabelle). Die Verbände führen den historischen Namen weiter.
+
+### Neuer Kennwert-Block: BKP-Anteilsstruktur MFH Stadt Zürich 2025 (amtlich)
+
+Der **ZIW-Methodenbericht Revision 2025** publiziert die vollständige BKP-Gewichtung, abgeleitet
+aus **54 realen Kostenvoranschlägen** Zürcher MFH-Neubauten 2020–2024 (aus 210 angefragten),
+aggregiert über einen L1-Ansatz und mit acht Bauexpertinnen und -experten plausibilisiert. Damit
+liegt erstmals eine **aktuelle, amtliche, quellenoffene BKP-Kostenstruktur** in dieser KB —
+der moderne Gegenpart zur 1985er-Tabelle 3 der Schätzungsanleitung. Alle BKP-Codes gegen
+`references/bkp-2017/BKP-2017-Liste.md` geprüft (Rule `bkp-2017-referenz`); abweichende
+Beschriftungen des Berichts (z. B. «Fundation, Sicherung, Abdichtung» für BKP 17 Spezialtiefbau)
+sind mit der BKP-2017-Bezeichnung daneben geführt.
+
+**Nebenbefund zu Frage 1 — Bestätigung der Grössenordnung, keine Antwort.** Der BKP-2-Anteil
+beträgt in der ZIW-Struktur 2025 **89.4 %** der Gesamtkosten (BKP 1+2+4+5); aus Tabelle 3 der
+Schätzungsanleitung (1985) waren **90.6 %** abgeleitet. Zwei unabhängige Quellen, 40 Jahre
+auseinander, 1.2 Prozentpunkte Abstand — das stützt den Umrechnungsfaktor BKP 2 → Gesamtkosten
+belastbar. **Frage 1 selbst bleibt offen:** sie betrifft, welchen Scope die m³-Werte von
+Tabelle 2 unterstellen, und dazu sagt eine Anteilsstruktur nichts.
+
+**Auffälligster Strukturbefund (auf BKP 2 = 100 % normiert, 1985 → 2025):** Rohbau 1
+**35.95 % → 26.30 %** (−9.7 Pp), Honorare **12.55 % → 20.11 %** (+7.6 Pp), Rohbau 2
+9.42 % → 13.97 % (+4.6 Pp), Ausbau 1 12.60 % → 7.87 % (−4.7 Pp). **Kein Like-for-like-Delta** —
+vier Gründe (andere Grundgesamtheit, definitorische Verschiebungen der Revision, Indexgewichte
+statt Vollkostenrechnung, keine Tiefgaragen in der Stichprobe) sind im Artikel mitgeschrieben.
+
+### Unverändert offen
+
+Frage 1 (BKP-Scope Tab. 2), Frage «Standard-Label», Teuerungsanker 1.334 gegen 1.346,
+Doppelführung der Neuwert-Richtwerttabelle, T-Regelgeschoss (0.70 gegen 0.75), Estrich/RF1-
+Einheitspreis. Alle sechs sind Entscheide oder Beschaffungen Raphaels, keiner autonom lösbar —
+in diesem Lauf bewusst nicht angetastet.
+
+**Neu vorgelegt:** mit den BKP-Teilindizes des ZIW gibt es für die Teuerungs-Normalisierung
+dieser KB neu die Wahl zwischen **Total** (+0.9 %) und **Gebäude BKP 2** (+0.4 %). Da die
+Einzelfälle dieser KB als **BKP 1–5** geführt werden, ist der **Total**-Index hier der richtige
+Anker — anders als in `immobilienbewertung`, wo reine Gebäude-Neuwerte an BKP 2 gehören (dort als
+D15 registriert). Die Faktorentabelle oben ist deshalb bewusst auf dem **Total** gerechnet; das
+ist eine begründete Wahl, kein übersehener Punkt.
+
+*Quellen: Statistik Stadt Zürich, ZIW-Indextabelle `stadt-zuerich.ch/ziw` (abgerufen 23.08.2026)
+· Statistik Stadt Zürich, «Methodenbericht Revision 2025 — Zürcher Index der Wohnbaupreise»,
+Juni 2026, PDF `2026-07-07_Methodenbericht-ZIW.pdf`, Volltext · BFS, Baupreisindex, Indexseite
+(abgerufen 23.08.2026) · HEV Schwyz, verkettete Reihe 1939–2025, Publikationsstand 01.01.2026,
+Volltext · archis.ch, Baukostenindex (abgerufen 23.08.2026) · nau.ch 08.07.2026 (nur für das
+Publikationsdatum, als Sekundärquelle gekennzeichnet).*
+
 ## 2026-08-23 (Interaktive Session, auf Auftrag Raphael) — vier Recherche-Punkte bearbeitet, vier strukturelle Punkte an Raphael zur Entscheidung vorgelegt
 
 **Auftrag:** die offenen Positionen dieser Datei durchgehen, belegte Antworten mit Quelle
