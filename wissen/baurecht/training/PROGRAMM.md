@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 98)
+last_updated: 2026-08-23 (Run 100)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -1568,6 +1568,29 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   unabhaengigen Rechtsraum waehlen — Empfehlung [[bauausfuehrung-und-baukontrolle]] (aeltestes
   `last_updated` 2026-07-12, nie vollstaendiger Fliesstext-Refresh, nur punktuelle Fassungsstand-
   Nachtraege Run 58/64).
+- **Buch-Run 100 (2026-08-23):** Empfehlung Run 99 gefolgt. [[bauausfuehrung-und-baukontrolle]]
+  gewaehlt (aeltestes `last_updated`, nie vollstaendiger Fliesstext-Refresh). Konkurrenz-Check
+  (`ps aux`) bestaetigt: nur der eigene `-p`-Prozess dieser Session bearbeitet `wissen/baurecht/`.
+  Der Artikel trug bereits einen gruendlichen PBG-/VRG-Wortlautabgleich (Run 30/31/58/64), aber
+  **keinen einzigen** der zitierten Bundesrechts-Artikel (ZGB/BV/USG/LSV) hatte je einen
+  Volltextabgleich — gleiche Luecke wie bei [[raumplanung-und-gestaltung]] (Run 97) und
+  [[naturschutz-und-denkmalschutz]] (Run 99). Art. 8/679/684/836 ZGB (Stand 1.1.2026) und Art. 29a
+  BV (Stand 1.1.2024) frisch bezogen — **CONFIRMED wortgleich, 0 Korrekturen** an allen fuenf
+  Zitaten. **2 echte Befunde bei den USG/LSV-Zitaten:** (1) Art. 32bbis USG ist inhaltlich richtig
+  zitiert, aber die **Geltendmachungsfrist des Rueckforderungsanspruchs (Abs. 3) ist seit
+  1.11.2021 abgelaufen** — die Norm steht unveraendert im Gesetz, der praktische Anwendungsfall
+  ist heute verwirkt; im Artikel als Praezisierung ergaenzt, nicht als Streichung. (2) Der Beleg
+  «Art. 38 Abs. 2 USG» fuer das Vorsorgeprinzip der Baulaerm-Richtlinie war **falsch** — § 38 USG
+  regelt Aufsicht/Vollzugskoordination des Bundes, nicht die Vorsorge. Amtlich richtig: Art. 6 LSV
+  traegt die Erlasskompetenz fuer die Baulaerm-Richtlinien selbst (bestaetigt durch die
+  Ermaechtigungsklausel der LSV, die Art. 38 nicht, aber Art. 5/12/13/16/19/21/23/39/40/45 USG
+  nennt), das Vorsorgeprinzip steht in Art. 11 Abs. 2 USG — Zitat korrigiert. Kein neuer
+  `raw/`-Volltext (gleiches Vorgehen wie Run 97/99). Report `outputs/2026-08-23_buch-run100.md`.
+  **Naechster Schritt fuer einen kuenftigen Lauf:** von den verbleibenden 6 Artikeln
+  ([[ausnahmebewilligung-und-bestandesschutz]], [[baulinien-und-abstandslinien]],
+  [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]) einen
+  unabhaengigen Rechtsraum waehlen.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

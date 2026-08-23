@@ -581,6 +581,17 @@ graue Energie → `[[graue-energie-betriebsenergie]]` / F9; Dämmstoff-λ → `[
 → F16. ⚠ Datenstand 2026-06-11: λ 0,12 ist der Produktwert (EN ISO 10456); CH-Bemessung ggf. mit
 Zuschlag SIA 279 prüfen.
 
+⚠ **Präzisierung 23.08.2026 (Run 161): die KB führt zwei Stora-Enso-λ nebeneinander.** Das oben
+zitierte **0,12 W/(m·K)** stammt aus dem Bauphysikdokument (nach EN ISO 10456), der
+Bauteilkatalog desselben Herstellers nennt für die Tragschicht C3s/L5s dagegen **0,110 W/(m·K)**
+(→ `[[clt-bauteilkatalog-stora-enso]]`). Die Differenz von rund 9 % ist **nicht erklärt** —
+plausibel sind unterschiedliche Produktgüten oder Bemessungsgrundlagen, belegt ist es nicht
+(E-R161-2). **Für eine Bauherren-Aussage ist der Unterschied unerheblich** (bei 140 mm CLT rund
+0,015 W/m²K im Bauteil-U-Wert), **für einen Nachweis gehört der Wert aus dem Datenblatt des
+tatsächlich verbauten Produkts genommen** — nicht aus dieser FAQ. Aufgefallen bei der Prüfung
+einer KI-erzeugten U-Wert-Rechnung, die mit einem dritten, gänzlich unbelegten λ 0,13 rechnete
+→ F257, `[[ki-generierte-fachdokumente-referenzablage]]`.
+
 ---
 
 ## F16 — «Was muss ich beim Brandschutz einer Solaranlage (PV) beachten?»
@@ -8587,3 +8598,25 @@ Am belegten Fall Willerzell: Produktion 7'743 kWh, Verbrauch 14'500 kWh, Eigenve
 **Bauherren-Transfer:** Bei einem MFH-Neubau mit gemeinsamem Hausanschluss ist ein EVG/Solarsplit-Angebot des Standort-Netzbetreibers oft der administrativ einfachste Weg zum vZEV-Vorteil — fragen Sie konkret nach Gebühren und Vertragslaufzeit, das Angebot variiert je Netzbetreiber. Bei mehreren Baukörpern mit getrennten Anschlüssen auf demselben Areal gehört die Prüfung sofort zu LEG oder ZEV, nicht zu einem EVG-Produkt.
 
 **Quelle:** `[[evg-eigenverbrauchsgemeinschaft-solarsplit]]` (Web-Sekundärquellen stromwerk.ch, ews-energie.ch, energie-experten.ch, ewz.ch-Produktteaser, Stand 23.08.2026 — **kein amtlicher Gesetzestext für den Begriff «EVG» selbst gefunden**, Status `emerging`); Rechtsbasis vZEV `[[zev-eigenverbrauch-mfh-her-2025]]` (established, VSE HER-CH 2025); LEG-Abgrenzung `[[leg-lokale-elektrizitaetsgemeinschaft-2026]]`. Aufgenommen 23.08.2026, löst den offenen «Solarsplitvertrag»-Punkt aus `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]`/E12.
+
+---
+
+## F257 — «Ich habe meinen Wandaufbau mit ChatGPT rechnen lassen — kann ich das für die Baueingabe verwenden?»
+
+**Kurz:** Für den **Energienachweis nein** — der wird von einer fachlich verantwortlichen Person unterschrieben, und die haftet für den **Rechenweg**, nicht für das Ergebnis. Als Vorabgefühl für die Grössenordnung ist so eine Rechnung brauchbar, aber sie muss nachgerechnet werden. Wir haben genau so einen Fall geprüft: das Ergebnis lag nur rund 8 % daneben, der Weg dorthin war jedoch an **drei** Stellen falsch — und weil die Fehler in verschiedene Richtungen zeigten, hoben sie sich gegenseitig fast auf. **Ein plausibles Resultat ist kein Beleg für eine richtige Rechnung.**
+
+**Fachlich:** Geprüft wurde eine Chatbot-Antwort zu einem Aufbau Blechverkleidung · Unterkonstruktion 40 mm luftgefüllt · Mineralwolle 40 mm · CLT 140 mm (→ `[[ki-generierte-fachdokumente-referenzablage]]`). Die drei Fehler sind die typischen, und danach lohnt sich das Prüfen bei jeder fremden U-Wert-Rechnung:
+
+**01 Die Wärmeübergangswiderstände fehlten ganz.** Richtig ist U = 1 / (R_si + Σ d/λ + R_se) mit **R_si 0,13 und R_se 0,04 m²K/W**. **Schnelltest:** ergibt der Kehrwert der blossen Schichtsumme exakt das ausgewiesene Resultat, wurden sie vergessen.
+
+**02 Der Luftschicht wurde ein λ zugewiesen** (0,15 W/(m·K)) und daraus ein R-Wert gerechnet. Eine Luftschicht hat keine sinnvolle Wärmeleitfähigkeit als Rechengrösse — sie bekommt nach **SN EN ISO 6946** einen tabellierten Wärmedurchlasswiderstand, abhängig von Dicke, Wärmestromrichtung und Belüftungsgrad.
+
+**03 Die hinterlüftete Vorsatzschale wurde mitgerechnet.** Bei einer **stark belüfteten** Luftschicht entfallen nach derselben Norm die Luftschicht **und alles aussen davon**; aussen wird statt R_se nochmals R_si angesetzt. Blech und Unterkonstruktion tragen dann **null** bei.
+
+**04 Und der stillste Fehler: ein unbelegtes λ.** Das Dokument nannte den Hersteller des Massivholzes ausdrücklich und rechnete dann mit λ 0,13 W/(m·K) — dessen eigene Unterlagen führen **0,110** (Bauteilkatalog) bzw. **0,12** (Bauphysik, nach EN ISO 10456). Ein Rundwert, der in keiner Herstellerunterlage steht, fällt in keiner Plausibilitätsprüfung auf.
+
+Korrigiert ergibt derselbe Aufbau **rund 0,37 bis 0,39 W/m²K** statt der behaupteten 0,40 — je nach angesetztem λ. Nicht geprüft hatte der Chatbot ausserdem die **Wärmebrücken der Unterkonstruktion**, die bei nur 40 mm Dämmung über den effektiven U-Wert mitentscheiden.
+
+**Bauherren-Transfer:** Zwei Dinge auseinanderhalten. Erstens: **wo steht der Wert her?** Jedes λ gehört auf ein Herstellerdatenblatt oder auf SIA 2001 zurückgeführt (→ `[[daemmstoffe-lambda]]`, `[[sia-2001-waermedaemmstoffe-lambda]]`). Zweitens: **wofür reicht die Zahl?** Der geprüfte Aufbau erreichte selbst korrigiert nur rund 0,37 W/m²K und lag damit **mehr als doppelt so hoch wie der Neubau-Grenzwert von 0,17 W/m²K** für opake Bauteile (→ `[[u-werte-grenzwerte-ch]]`, F3). Das war im Ausgangsfall vertretbar, weil es um ein unbeheiztes Biwak ging, das nicht unter SIA 380/1 fällt — nur stand das nirgends im Dokument. **Wenn Sie mit einer KI gerechnet haben, bringen Sie die Rechnung mit; wir prüfen den Weg, das kostet zehn Minuten und ist deutlich günstiger als eine Rückweisung durch die private Kontrolle** (→ `[[private-kontrolle-zh]]`).
+
+**Quelle:** `[[ki-generierte-fachdokumente-referenzablage]]` (eigene Prüfung zweier KI-erzeugter Dokumente aus der JANS-Referenzablage PL-04, 23.08.2026, `established`); R_si/R_se und Rechenformel → `[[clt-bauphysik-stora-enso]]`; λ-Werte Massivholz → `[[clt-bauteilkatalog-stora-enso]]` (0,110) und `[[clt-bauphysik-stora-enso]]` (0,12), Spread nicht erklärt (E-R161-2); Grenzwerte → `[[u-werte-grenzwerte-ch]]`. ⚠ Der Tabellenwert für ruhende Luftschichten nach SN EN ISO 6946 ist in der KB **nicht erfasst** (E-R161-1) — bei einem unbelüfteten Aufbau daher am Normtext nachschlagen, nicht schätzen.

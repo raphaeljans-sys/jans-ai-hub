@@ -358,6 +358,7 @@ den recherchierten Stand.
 | SIA 180/081 | **2017** (EN ISO) / CH-Ausgabe **2018** | SN EN ISO 10077-1:2017✓ · 2006✗ | **Nachtrag Run 37 (260729), am Titelblatt verifiziert:** «Wärmetechnisches Verhalten von Fenstern, Türen und Abschlüssen — Berechnung des Wärmedurchgangskoeffizienten — Teil 1: Allgemeines (ISO 10077-1:2017)». **Ausgabejahr 2017 = EN ISO; CH-Übernahme 1. Auflage 2018-04, gültig ab 2018-04-01** (strikt getrennt führen). Ersetzt SN EN ISO 10077-1:2006. Unveränderte Übernahme ohne nationale Vorbehalte. Reiner Scan ohne Textlayer. Destillat `sia-180-081-2017.md` |
 | SIA 180/082 | **2017** (EN ISO) / CH-Ausgabe **2018** | SN EN ISO 10077-2:2017✓ · 2012✗ | **Nachtrag Run 37 (260729), am Titelblatt verifiziert:** «… Teil 2: Numerisches Verfahren für Rahmen (ISO 10077-2:2017)». **Ausgabejahr 2017 = EN ISO; CH-Übernahme 1. Auflage 2018-04, gültig ab 2018-04-01.** Ersetzt SN EN ISO 10077-2:2012. ⚠ **Falle:** das PDF-interne Title-Metadatenfeld lautet fälschlich «ISO 10077-1-2017» (Teil **1**) — der sichtbare Inhalt ist korrekt Teil 2; metadatenbasierte Suchen führen hier in die Irre. Destillat `sia-180-082-2017.md` |
 | SIA 181 | 2006 | 2006✓ · 1988✗ | Bestand 2006 = gueltig 2013 ✓; **⚠ neuere Ausgabe SIA 181:2020** (in KB energie `wiki/schallschutz-sia181` als aktuell gefuehrt) → Re-Destillat 2020 ausstehend (Wissens-Chef Run 3, 13.07.2026) |
+| SIA 181/1 | **2026** (neu, kein Vorgänger) | n/a — eigenständige neue Norm | **Neu 23.08.2026 (QUESTIONS-Abarbeitung 21).** «Raumakustik» (SN 520181/1), gültig ab 01.02.2026, 24 S., 110 CHF, kein Volltext im Haus. Kein Bestandsfehler, sondern schliesst die bisher unbesetzte Lücke «keine SIA-Raumakustik-Norm» (Mini-Run 30). Ergänzt SIA 181 (baulicher Schallschutz); SIA 181/1 regelt die Raumakustik innerhalb von Räumen. Destillat (Metadaten-Stub) `sia-181-1-2026.md` |
 | SIA 183 | —(alle zurueckgezogen) | 1996✗ |  |
 | SIA 184 | 1972 | 1972✓ | Bestand 1972 = gueltig 2013 ✓ |
 | SIA 190 | 2000 | 2000✓ · 1993✗ | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 533190), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2000 (gültig ab 01.07.2000) ist **archiviert seit 31.08.2017**, ersetzt durch **SIA 190:2017** (gültig ab 01.09.2017). Titel «Kanalisationen». Nur Metadaten, kein Volltext gelesen — Beschaffung Bring-Schuld |
@@ -389,7 +390,7 @@ den recherchierten Stand.
 | SIA 238 | —(alle zurueckgezogen) | 1988✗ |  |
 | SIA 240 | 2012 | 2012✓ · 1988✗ | Bestand 1988 → **veraltet** (2013 gueltig: 2012) |
 | SIA 241 | 1988 | 1988✓ | Bestand 1988 = gueltig 2013 ✓ |
-| SIA 242 | 2012 | 2012✓ | **Löst N52-5 (Teil 1).** Kein Volltext im Haus (nur `242-1_1994` und `242_2`, beides Altausgaben). **Produktseite shop.sia.ch (SN 567242), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2012 (gültig ab 01.10.2012) ist weiterhin **aktuell**, ersetzt SIA V242/1:1994. Nur Metadaten, kein Volltext gelesen — Beschaffung bleibt Bring-Schuld |
+| SIA 242 | 2012 | 2012✓ | **Löst N52-5 (Teil 1).** Kein Volltext im Haus (nur `242-1_1994` und `242_2`, beides Altausgaben). **Produktseite shop.sia.ch (SN 567242), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2012 (gültig ab 01.10.2012) ist weiterhin **aktuell**, ersetzt SIA V242/1:1994. Nur Metadaten, kein Volltext gelesen — Beschaffung bleibt Bring-Schuld. **Nachtrag SIA-Sweep, sechsundzwanzigste Fortsetzung (23.08.2026):** die beiden Altausgaben-PDFs (`242-1_1994_d.pdf` V242/1, `242_2_d.pdf` V242/2, Ordner `alle/xalt/`) waren nur als Bestandsdateien erfasst — jetzt vollständig gelesen und destilliert (`destillate/sia-242-v1994.md`). Beide Teile tragen im Titel «V» = Vernehmlassung, wurden also 1994 nie zur vollen Norm erhoben; die dort enthaltenen Putzdicken-/Toleranztabellen sind praxisrelevant, aber nicht die geltende Fassung. Keine Q1-Q4-Qualitätsstufen-Systematik für Gipsplatten in einem der beiden Texte gefunden (Fehlannahme der bisherigen QUESTIONS-Zeile). |
 | SIA 243 | 2008 | 2008✓ | Kein Volltext im Haus. **Produktseite shop.sia.ch (SN 567243), abgerufen 23.08.2026:** die 2013-gültige Ausgabe 2008 (gültig ab 01.05.2008) ist **archiviert seit 31.01.2026**, ersetzt durch **SIA 243:2026 «Verputzte Aussenwärmedämmung (VAWD)»** (gültig ab 01.02.2026). Nur Metadaten, kein Volltext gelesen — Beschaffung Bring-Schuld |
 | SIA 244 | 2006 | 2006✓ · 1976✗ | Bestand 2006 = gueltig 2013 ✓ |
 | SIA 246 | 2006 | 2006✓ · 1976✗ | Bestand 2006 = gueltig 2013 ✓ |
@@ -787,6 +788,26 @@ Gesetzessammlung zu verifizieren (Rule `normen-referenz` und `identifikatoren-ve
 inzwischen neuere Fassungen publiziert hat — im Haus liegen nur diese. Vor einer Verwendung in
 einem laufenden Projekt ist der aktuelle Stand auf bfu.ch abzugleichen (gleiche Logik wie die
 2013-Blindzone bei SIA, siehe oben).
+
+### Suva-/EKAS-Publikationen (Merkblätter, keine Normen im engeren Sinn)
+
+Frei und kostenlos über `www.suva.ch/<Nr>.d` abrufbar, teils von der EKAS finanziert. Keine
+Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist stets die auf
+`suva.ch` aktuell geführte Ausgabe, im Zweifel Abrufdatum prüfen.
+
+| Suva-Publikation | Nr. | Ausgabe | Bestand/Status | Bemerkung |
+|---|---|---|---|---|
+| Geländer an ortsfesten Zugängen zu maschinellen Anlagen | 44006.d | 7., geänderte Auflage Februar 2007 | `suva-44006-gelaender-maschinenanlagen.md`, established | Konkretisiert VUV, übernimmt im Wesentlichen SN EN ISO 14122-3 |
+| Arbeiten auf Dächern — So bleiben Sie sicher oben | 44066.d | überarbeitete Ausgabe Februar 2015 | `suva-44066-arbeiten-auf-daechern.md`, established | Anschlageinrichtungen (Ankerpunkte, umgangssprachlich «Dachhaken») nach EN 795 ab 3,0 m Absturzhöhe (Ziff. 4.3); zitiert 44077.d als Fassadengerüst-Referenz |
+| **Fassadengerüste — Sicherheit durch Planung** | **44077.d** | Erstausgabe Dez. 2006, überarbeitete Ausgabe Januar 2022 | `suva-44077-2022-fassadengeruest-verankerung.md`, established | **Neu 23.08.2026 (QUESTIONS-Abarbeitung 21).** Ankerflächen 25/20/10 m² je Verkleidungsart, Ankerabstände nach Gesamthöhe, drei Gerüstgruppen (2,00/3,00/4,50 kN/m²), Dachrand-Staffelung nach Neigung. Zusammen mit 44066.d schliesst dies die frühere `QUESTIONS.md`-Zeile «Keine Suva-/EKAS-Richtlinie zu Fassadengerüst-Verankerung/Dachhaken» vollständig |
+| Checkliste Verkehrswege für Personen | 67001.d | überarbeitete Fassung April 2007 | `suva-67001-checkliste-verkehrswege.md`, established | Reine Selbstkontroll-Checkliste |
+| Checkliste Böden | 67012.d | Ausgabe Oktober 2025 | `suva-67012-checkliste-boeden.md`, established | löst die zuvor undatierte Fassung ~2006/2007 ab |
+
+Nicht destilliert, aber im Merkblatt 44077.d als weiterführende Publikationen genannt (Bring-
+Schuld-Kandidaten, alle kostenlos): 44078.d (Montage/Demontage-Sicherheit), 44046.d
+(Liftschächte), 84018.d (Rollgerüst), 67038.d/67150.d (Checklisten Fassadengerüst/Rollgerüst),
+33001.d/33017.d/33020.d/33021.d/33022.d-33025.d/33029.d (Factsheets Auffangnetze, Seitenschutz,
+Gerüstbeläge, Dachdeckerschutzwand, Dachfangwände, Gerüstzugänge, PSAgA).
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

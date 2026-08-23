@@ -1,3 +1,139 @@
+## 2026-08-23 — SIA-Sweep, sechsundzwanzigste Fortsetzung: SIA V 242/1+2:1994 (Altausgabe) vollständig destilliert, Q1-Q4-Fehlannahme korrigiert
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz`, Fundstellenpflicht. CHANGELOG und Report des letzten
+Laufs (25. Fortsetzung) zuerst gelesen, dort weitergemacht. Rule `wissens-bibliothekar` beachten,
+jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben
+`git diff --numstat` prüfen.
+
+**Ausgangslage:** Die 25. Fortsetzung hatte den Section-A-Sweep im engeren Sinn (SIA-Zeilen ohne
+Volltext im Haus, nur Produktdatenblatt beschaffen) für **erschöpft** erklärt — jede kostenlose
+Beschaffungsoption war ausgeschöpft, offen blieben nur kostenpflichtige Bring-Schulden (Raphaels
+Entscheid). Eigene Prüfung bestätigte das (`training/norm-inventar.md`: 0 offene `[ ]`-Positionen).
+Der eigene Beitrag musste daher jenseits der reinen Metadaten-Beschaffung liegen: `wiki/QUESTIONS.md`
+nach SIA-Zeilen durchsucht, die noch echte, kostenlos lösbare Arbeit enthalten — gefunden:
+**SIA 242 «Verputz- und Gipserarbeiten, ist NICHT im Normen-Bestand»** (Zeile 3434).
+
+**Kollisionsprüfung:** Beim Schreiben von `wiki/REGISTER.md` und `wiki/QUESTIONS.md` hatte sich der
+Dateistand zwischen Lesen und Schreiben mehrfach geändert (parallel laufender
+`QUESTIONS-Abarbeitung-21`-Prozess, eigener CHANGELOG-Kopf siehe unten) — alle eigenen Edits als
+gezielte `old_string`→`new_string`-Ersetzung an der bekannten Stelle ausgeführt, nie ein
+vollständiges Überschreiben; nach jedem Schreiben `git diff` geprüft, dass ausschliesslich die
+eigene Zeile verändert wurde.
+
+**Durchgeführt (Details: `outputs/2026-08-23_sia-sweep-sechsundzwanzigste-fortsetzung.md`):**
+
+1. **SharePoint-Bestand geprüft** (M365-Graph-Connector, Site PL, Drive `02_Recht_Norm`, Pfad
+   `02_Normen/SIA_Norm/SIA_Normen/alle/`): keine aktuelle deutsche SIA-242-Datei, aber im
+   Unterordner `xalt/` zwei deutsche **Altausgaben** gefunden — `242-1_1994_d.pdf` (SIA V 242/1)
+   und `242_2_d.pdf` (SIA V 242/2) —, dazu französische Fassungen im Ordner `f/`. Diese Dateien
+   waren im REGISTER bereits als Bestandsnotiz erfasst (Zeile SIA 242, vermutlich vom selben
+   Lauftag), aber inhaltlich nicht destilliert.
+2. **Beide PDFs vollständig gelesen** (`pdftotext -layout`, 20 bzw. 12 Seiten, Modell D): SIA V
+   242/1 «Verputz- und Gipserarbeiten — Aussenputze, Innenputze, Stukkaturen» und SIA V 242/2
+   «Gipserarbeiten — Trockenbau», beide Ausgabe 1994. **Kernbefund:** Beide Teile tragen im Titel
+   ausdrücklich «V» = Vernehmlassung und wurden am 31.05.1994 von der ZNK des SIA nur «zur
+   Verlängerten Vernehmlassung freigegeben» — nie als vollwertige Norm genehmigt, gedacht als
+   Übergangslösung bis zum Inkrafttreten der CEN-Normen. Sie ersetzten die Norm SIA 242 von 1978.
+3. **Destillat erstellt** (`destillate/sia-242-v1994.md`, status `established`): Geltungsbereich,
+   Putzarten-Begriffe (nach Bindemittel/Anforderung), **Putzdicken** (Grundputz innen 10 mm/aussen
+   15 mm u.a.), **Toleranzen** (Lot/Flucht/Ebenheit-Tabellen), Leistungen/Ausmass (Ausschreibung,
+   nicht inbegriffene Leistungen, Ausmassregeln) für beide Teile; Trockenbau-Begriffe und
+   Höhenangaben bei Unterdecken für V242/2.
+4. **Prämisse der QUESTIONS-Zeile widerlegt:** die dort erwähnte «Qualitätsstufen-Systematik
+   Q1–Q4 für gespachtelte Gipsplatten-Oberflächen» kommt in **keinem** der beiden 1994er-Texte
+   vor — beide vollständig auf das Wort «Q1» bis «Q4» geprüft, keine Treffer. Die Fehlannahme in
+   der KB korrigiert, statt sie unbelegt stehen zu lassen.
+5. **SIA-Shop-Produktseite** für die heute gültige Ausgabe SIA 242:2012 war bereits am selben Tag
+   (früherer Lauf) verifiziert (`wiki/REGISTER.md` Zeile SIA 242, SN 567242, gültig ab
+   01.10.2012) — nicht erneut abgefragt, nur referenziert. Volltext 2012 bleibt Bring-Schuld.
+
+**Nachgeführt:** `destillate/sia-242-v1994.md` (neu), `destillate/INDEX.md` (eine Zeile),
+`wiki/REGISTER.md` (additiver Nachtrag an der bestehenden SIA-242-Zeile), `wiki/QUESTIONS.md`
+(Checkbox `[ ]`→`[~]`, additiver Absatz mit Verweis auf das neue Destillat).
+
+**Sicherheitshinweis (Selbstkorrektur während des Laufs):** Beim ersten Beschaffungsversuch wurde
+ein Graph-Access-Token versehentlich in eine Datei (`/tmp/normen-sweep/token.txt`) geschrieben —
+das widerspricht dem im Connector selbst dokumentierten Grundsatz «Token wird NIE in eine Datei
+geschrieben» und den Grenzen der User-CLAUDE.md (Credentials nie in Dateien). Datei sofort
+gelöscht, danach ausschliesslich `TOKEN=$(...)` im Prozessspeicher verwendet und nach Gebrauch
+`unset`. Kein Token verblieb auf der Platte oder wurde committet.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `destillate/INDEX.md`
+rein additiv (3/0), `wiki/REGISTER.md` und `wiki/QUESTIONS.md` je nur an der eigenen Zeile
+verändert (Diff einzeln gegengelesen, die übrigen Änderungen im selben Diff stammen nachweislich
+vom parallelen `QUESTIONS-Abarbeitung-21`-Prozess, nicht angetastet). Kein `git`-Schreibbefehl über
+den SMB-Mount; Commit über `scripts/nas-commit-now.sh` bzw. den 15-Minuten-`nas-selfcommit`-Cron.
+
+**Nicht geleistet / weiterhin offen:** SIA 242:2012 (geltende Ausgabe) bleibt Bring-Schuld
+Raphael; die Q1-Q4-Quelle für die KISPI-Fachfrage LBW-Beschichtung ist weiterhin ungeklärt (jetzt
+aber korrekt als "nicht SIA 242" markiert, statt einer falschen Norm zugeschrieben zu werden);
+Abschnitt D (DIN/VSS/RAL) weiterhin ausserhalb des SIA-Mandats.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 21: zwei neue Web-Funde (SIA 181/1 Raumakustik, Suva 44077 Fassadengerüst-Verankerung), vier weitere Zeilen per Bestandsabgleich geschlossen
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established` ist
+zitierfähig. CHANGELOG und Report des letzten Laufs (Abarbeitung 20) zuerst gelesen, dort
+weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` geprüft (rein additiv, auch
+nach einer während des Laufs erkannten Parallelbearbeitung von `wiki/QUESTIONS.md` durch einen
+anderen Prozess — Edit-Tool meldete „Datei seit dem letzten Lesen verändert", alle eigenen
+`old_string`-Treffer blieben exakt, keine fremde Zeile berührt).
+
+**Neu recherchiert (zwei echte externe Funde, Details `outputs/2026-08-23_questions-abarbeitung21.md`):**
+
+1. **SIA 181/1:2026 «Raumakustik» (SN 520181/1) identifiziert** — eine brandneue, eigenständige
+   Norm, gültig ab 01.02.2026, am Herausgeber verifiziert (WebFetch `shop.sia.ch`). Schliesst die
+   seit Mini-Run 30 offene Lücke „keine SIA-Raumakustik-Norm im Bestand". Metadaten-Stub
+   `destillate/sia-181-1-2026.md`, Registerzeile `wiki/REGISTER.md` Abschnitt A. Volltext (110
+   CHF) bleibt Bring-Schuld; DIN 18041 bleibt bis dahin die einzige zitierfähige
+   Nachhallzeit-Quelle.
+2. **Suva 44077.d «Fassadengerüste — Sicherheit durch Planung» (Ausgabe Januar 2022) vollständig
+   destilliert** — kostenlos, am Original gelesen (PDF-Direktlink über die Suva-Publikationsplattform
+   ermittelt, pymupdf-Textextraktion). Neues Destillat
+   `destillate/suva-44077-2022-fassadengeruest-verankerung.md`, status established: Ankerflächen
+   25/20/10 m² je Verkleidungsart (Ziff. 4.5.1), Gerüstgruppen 2,00/3,00/4,50 kN/m², Dachrand-
+   Staffelung nach Neigung. **Wichtiger Nebenfund:** die KB besass bereits ein weiteres
+   einschlägiges Destillat, `destillate/suva-44066-arbeiten-auf-daechern.md` (established, Run
+   40), das die «Dachhaken»-Teilfrage längst über den fachlich korrekten Begriff
+   «Anschlageinrichtungen gemäss EN 795» beantwortet — nur nie an die QUESTIONS-Zeile
+   zurückgemeldet. Beide Quellen schliessen zusammen die Zeile „Keine Suva-/EKAS-Richtlinie zu
+   Fassadengerüst-Verankerung/Dachhaken" vollständig. Neuer Suva/EKAS-Block in
+   `wiki/REGISTER.md` Abschnitt D mit allen vier bereits vorhandenen Suva-Destillaten plus
+   Liste weiterer kostenloser Bring-Schuld-Kandidaten derselben Publikationsreihe.
+
+**Per Bestandsabgleich geschlossen (bereits anderswo in der KB beantwortet, nur nicht
+zurückverlinkt):**
+
+3. **SIA 279:2018 / 281:2017 / 329:2018 „neuer als 2013-Register"** — Fakt steht bereits doppelt
+   in `wiki/REGISTER.md` (Abschnitt A je Normzeile, Abschnitt D Zeilen 896-899).
+4. **`SIA_Leistungsmodell.pdf` ist kein SIA-Dokument** — das Destillat
+   `destillate/sia-112-leistungsmodell.md` (established) führt Herausgeber und Negativ-Aussage
+   bereits korrekt im Frontmatter und Fliesstext.
+5. **SIA-Merkblatt 2048 ins Inventar** — Checkbox-Status auf `[~]` korrigiert: die
+   Bestandsprüfung war in Abarbeitung 20 bereits vollständig negativ abgeschlossen (kein
+   SharePoint-Fund, 100 CHF Bring-Schuld bei SIA-Shop), nur die Checkbox selbst blieb `[ ]`.
+
+**Recherchiert, aber nur teilweise geklärt:**
+
+6. **«2026 verschärfte kantonale Velo-Abstellpflicht»** — keine bereits in Kraft gesetzte
+   2026er-Verordnung gefunden. Identifiziert wurde ein hängiges kantonales Verfahren (PBG-
+   Revision Vorlage 171a/2020, Kommission des Kantonsrats hat sie laut `gruene-zh.ch`,
+   02.07.2024, «zu Handen des Kantonsrats verabschiedet»); kein Inkrafttretungsdatum, keine
+   bestätigte Ratifizierung. Nicht zitierfähig als geltendes Recht — Checkbox auf `[~]` gesetzt.
+
+**Verifikation (`git diff --numstat` nach jedem Schreibvorgang):** alle Schreibvorgänge in
+`destillate/INDEX.md` (+2/-0), `wiki/REGISTER.md` (+21/-0), `training/norm-inventar.md`
+(+13/-0) und `wiki/QUESTIONS.md` (+48/-6, die 6 Löschungen sind exakt die 6 selbst ersetzten
+`[ ]`-Checkbox-Zeilen, per `git diff | grep "^-"` einzeln gegengeprüft) waren additiv bzw.
+reine Selbstersetzung. Zwei neue Destillate als neue, unversionierte Dateien angelegt
+(`git status --short` bestätigt `??`, kein Überschreiben). Kein `git`-Schreibbefehl über den
+SMB-Mount ausgeführt.
+
 ## 2026-08-23 — SIA-Sweep, fünfundzwanzigste Fortsetzung: SIA-Abo-Weg geprüft und als Sackgasse geschlossen (Fremddokument Meili Peter & Partner)
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne Datei

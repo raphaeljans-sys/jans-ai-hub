@@ -2,10 +2,10 @@
 beschreibung: Die Bauausfuehrungsphase im ZH-Baurecht — Baufreigabe (§ 326 PBG), Meldepflichten + baupolizeiliche Kontrollen (§ 327 PBG), Bezugsbewilligung/Schlusskontrolle, Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG), Sicherheit der Baustelle (§ 239 PBG).
 title: Bauausfuehrung und Baukontrolle (Kt. ZH)
 status: established
-last_updated: 2026-07-12
-sources: [raw/260607_amtlich_zh_pbg.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)"]
-verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestaetigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprueft, wortidentisch, 0 Aenderung; Details [[rechtsschutz-und-rechtsmittelverfahren]])
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684 ZGB; VUV; BauAV; Art. 16 VVEA; Art. 32bbis USG; §§ 2/15/19 KVAV
+last_updated: 2026-08-23
+sources: [raw/260607_amtlich_zh_pbg.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31); Art. 8/679/684/836 ZGB + Art. 29a BV + Art. 32bbis USG + Art. 6 LSV + Art. 11 Abs. 2 USG volltextverifiziert gegen fedlex.data.admin.ch (Modell-D Run 100)"]
+verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestaetigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprueft, wortidentisch, 0 Aenderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprueft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber praezisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg fuer das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt fuer die Baulaerm-Richtlinien-Erlasskompetenz richtig)
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684/836 ZGB; Art. 29a BV; VUV; BauAV; Art. 16 VVEA; Art. 32bbis, Art. 11 Abs. 2 USG; Art. 6 LSV; §§ 2/15/19 KVAV
 quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
 ---
 
@@ -120,9 +120,18 @@ Verantwortung bleibt bei Bauherr/Unternehmer/Planer. Faktenbasis Detail: [[08-au
   (Art. 16 VVEA). Asbestverbot heute ueber § 239 Abs. 1/§ 358 PBG + ChemRRV Anh. 1.6. **«Bauherren-Altlast»:**
   der Standortinhaber kann i.d.R. **2/3 der Mehrkosten** von den Verursachern zurueckfordern (Art. 32bbis
   USG) → Altlasten [[baureife-und-erschliessung]] / [[12-baureife-teil4-gebuehren-abfall-altlasten]].
+  *(Modell-D-Praezisierung Run 100: Art. 32bbis Abs. 1 USG setzt zusaetzlich voraus, dass der Standortinhaber
+  das Grundstueck zwischen dem 1.7.1972 und dem 1.7.1997 erworben hat, und Abs. 3 befristet die
+  Geltendmachung selbst auf laengstens den 1.11.2021 — der Rueckforderungsanspruch ist damit heute
+  praktisch verwirkt, obwohl die Norm unveraendert in Kraft steht. Fuer aktuelle Faelle massgebend sind
+  die allgemeinen Sanierungs-/Kostentragungsregeln Art. 32c ff. USG, hier nicht vertieft.)*
 - **Bauemissionen:** **Baulaerm** wird nicht ueber Grenzwerte, sondern ueber die **Baulaerm-Richtlinie**
-  (drei Massnahmenstufen A/B/C, Vorsorgeprinzip, Art. 6 LSV / Art. 38 Abs. 2 USG) gesteuert; Baustellen-
-  **abwasser** SIA 431 (SN 409 431), AWEL-bewilligungspflichtig.
+  (drei Massnahmenstufen A/B/C, Vorsorgeprinzip Art. 11 Abs. 2 USG, Erlasskompetenz Art. 6 LSV) gesteuert;
+  Baustellen-**abwasser** SIA 431 (SN 409 431), AWEL-bewilligungspflichtig. *(Modell-D-Korrektur Run 100:
+  hier stand «Art. 38 Abs. 2 USG» — § 38 USG regelt Aufsicht/Vollzugskoordination des Bundes, nicht das
+  Vorsorgeprinzip. Die Baulaerm-Richtlinien stuetzen sich amtlich auf Art. 6 LSV; das Vorsorgeprinzip selbst
+  steht in Art. 11 Abs. 2 USG. Bestaetigt gegen den amtlichen Wortlaut, fedlex.data.admin.ch, Stand
+  01.01.2025 LSV / 01.01.2025 USG.)*
 - **Amtliche Vermessung (§§ 2/15/19 KVAV):** neue Bauten sind binnen **1 Jahr** in die amtliche Vermessung
   aufzunehmen (§ 19 Abs. 1 KVAV) — Kap.-8-Schluss.
 

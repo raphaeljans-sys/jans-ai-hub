@@ -360,7 +360,7 @@ entfallen) haben je einen aus dieser Queue offen gelassenen Punkt in
 
 **Fortsetzung ab Run 90 (ausserhalb dieser Queue, gleiche KB):** seit der Queue-Abarbeitung läuft
 die von den Läufen selbst vorgeschlagene Modell-D-Re-Verifikationskette der `established`-Artikel
-nach ältestem `verifiziert`-Datum (Runs 90-99, siehe CHANGELOG). Run 97 (2026-08-23) hat
+nach ältestem `verifiziert`-Datum (Runs 90-100, siehe CHANGELOG). Run 97 (2026-08-23) hat
 [[raumplanung-und-gestaltung]] re-verifiziert — erstmals die Bundesrechts-Zitate (RPG/RPV/BV)
 frisch gegen `fedlex.data.admin.ch` geprüft, 2 Korrekturen (15-Jahre-Regel korrekt Art. 15 Abs. 1
 RPG allein zugeordnet; Art. 15 Abs. 4 lit. e ergänzt). Report `outputs/2026-08-23_buch-run97.md`.
@@ -371,7 +371,13 @@ Höchstsatz 40 % statt Entwurfs-15 %). Report `outputs/2026-08-23_buch-run98.md`
 Kette fortgesetzt: [[naturschutz-und-denkmalschutz]] re-verifiziert — gleiche Lücke wie bei
 Run 97 (Bundesrechts-Zitate, hier Art. 78 BV + neun NHG-Artikel + Art. 17 RPG, noch nie am
 Wortlaut geprüft), diesmal **CONFIRMED wortgleich, 0 Korrekturen**. Report
-`outputs/2026-08-23_buch-run99.md`.
+`outputs/2026-08-23_buch-run99.md`. Run 100 hat [[bauausfuehrung-und-baukontrolle]] re-verifiziert
+— erstmals die dort zitierten ZGB-/BV-/USG-/LSV-Artikel gegen den amtlichen Wortlaut geprüft:
+Art. 8/679/684/836 ZGB und Art. 29a BV **CONFIRMED wortgleich**; Art. 32bbis USG inhaltlich
+CONFIRMED, aber präzisiert (Rückforderungsanspruch seit 1.11.2021 verwirkt); der Beleg
+«Art. 38 Abs. 2 USG» für das Vorsorgeprinzip war **falsch** und wurde auf Art. 11 Abs. 2 USG
+korrigiert (Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig). Report
+`outputs/2026-08-23_buch-run100.md`.
 
 ## Arbeitsregeln je Batch
 

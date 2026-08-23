@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 22:41:09
+Stand: 23.08.2026 22:51:26
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:27)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 22:41:09
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 23cb1740 SIA-Sweep 24. Fortsetzung: Bring-Schulden-Einkaufsliste (P1-P4)
+- 20033481 Buch-Run 99: naturschutz-und-denkmalschutz re-verifiziert (Bundesrecht BV/NHG/RPG erstmals gegen fedlex geprueft, CONFIRMED 0 Korrekturen)

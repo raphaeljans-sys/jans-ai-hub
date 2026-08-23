@@ -3431,11 +3431,19 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Normen-Bestand. Bring-Schuld für den Wettbewerbs-Layer / die maschinelle DXF-Layer-Codierung —
   bei konkreter Layer-Benennung SIA 2014 beiziehen (SIA-Shop, nur auf Zuruf). (Notiert 12.07.2026
   beim Destillieren von SIA 400.)
-- [ ] **SIA 242 «Verputz- und Gipserarbeiten» ist NICHT im Normen-Bestand** (inkl. der
+- [~] **SIA 242 «Verputz- und Gipserarbeiten» ist NICHT im Normen-Bestand** (inkl. der
   Qualitätsstufen-Systematik Q1–Q4 für gespachtelte Gipsplatten-Oberflächen). Bring-Schuld;
   gebraucht am 21.07.2026 für die KISPI-Fachfrage LBW-Beschichtung (Antwort aus Fachpraxis
   erstellt, Projektordner `2619 .../KISPI Trockenbau LBW/260721-LBW-Beschichtung-Antwort.md`) —
   bei Beschaffung das Destillat dagegen verifizieren. (Notiert Dauerschicht-Zyklus 35.)
+  **TEILWEISE GESCHLOSSEN, SIA-Sweep sechsundzwanzigste Fortsetzung (23.08.2026):** Der
+  Ausgangssatz «ist NICHT im Normen-Bestand» stimmt nur für die heute gültige Ausgabe SIA
+  242:2012 (Bring-Schuld bleibt, siehe `wiki/REGISTER.md` Zeile SIA 242). Im Bestand liegen aber
+  zwei Altausgaben-PDFs von 1994 (`alle/xalt/242-1_1994_d.pdf`, `alle/xalt/242_2_d.pdf`,
+  vollständig gelesen und destilliert: `destillate/sia-242-v1994.md`). **Die Q1-Q4-Stufen sind in
+  keinem der beiden Texte enthalten** — die Prämisse dieser QUESTIONS-Zeile war falsch, das
+  System stammt nicht aus SIA 242. Quelle der Q1-Q4-Stufen für die KISPI-Fachfrage bleibt offen zu
+  klären (vermutlich Hersteller- oder DIN/EN-Quelle, nicht SIA).
 
 - [x] **P2-SIA-Batch 1 destilliert — 12.07.2026 (Run 3):** SIA 260–267 (Tragwerk),
   500/358/251/252/253/257/271/281/279/232/329/240 (Hochbau) — 20 Normen am Original
@@ -3465,8 +3473,13 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   1988er-Zeile als «gilt (Bestand)» — ein interner REGISTER-Konsistenzpunkt (welche Zeile
   massgebend ist), keine neue Recherche; und der Volltext 2012 selbst bleibt Bring-Schuld
   Raphael (kein Auto-Web, kein Kauf durch Claude).
-- [ ] **SIA 279:2018 / 281:2017 / 329:2018** sind NEUER als das 2013-Register — als aktuell
+- [x] **SIA 279:2018 / 281:2017 / 329:2018** sind NEUER als das 2013-Register — als aktuell
   geführt (am PDF-Deckblatt belegt), gelten bis zur nächsten Revision.
+  > ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 21, Bestandsabgleich).** Alle drei Fakten
+  > stehen bereits ausführlich in `wiki/REGISTER.md`: Abschnitt A, Zeilen SIA 279/281/329
+  > («Bestand … → neuer als Register 2013»), zusätzlich redundant in Abschnitt D Zeilen 896-899
+  > («gilt; … neuer als 2013-Register (aktuell)»). Keine weitere Recherche nötig, nur die
+  > QUESTIONS-Zeile war nicht zurückverlinkt.
 - [x] **Inventar-Reconcile 13.07.2026 (MacBook Pro, Run 5):** 35 Positionen (7 SIA + 28 VKF)
   standen seit dem 12.07.2026 fälschlich als `[~] in Arbeit (MacBook Session)` im Inventar —
   eine Vorsession war offenbar abgebrochen, NACHDEM die Destillate bereits geschrieben waren,
@@ -3840,26 +3853,57 @@ einzeln geprüft:
   `wiki/synthese-din-vss-ral-fachskills.md` Abschnitt 10.3 + Abschnitt 14 (zwei neue
   Zeilen). Adversarial verifiziert (2 unabhängige Prüf-Agenten gegen die drei
   Quell-Destillate, 0 Fehler gefunden — Details siehe `outputs/2026-07-16_normen-mini-run31.md`).
-- [ ] **Keine SIA-Norm zur Raumakustik in der KB:** `destillate/INDEX.md`-Prüfung (Mini-Run 30)
+- [~] **Keine SIA-Norm zur Raumakustik in der KB:** `destillate/INDEX.md`-Prüfung (Mini-Run 30)
   ergibt keinen Treffer für eine SIA-Raumakustik-/Nachhallzeit-Norm. DIN 18041 dient bis
   dahin als alleinige Zweitquelle für Nachhallzeit-Sollwerte/Absorptionsflächen (Abschnitt 13
   der Synthese). Falls eine einschlägige SIA-Norm existiert und im Bestand liegt, prüfen und
   destillieren.
-- [ ] **Keine Suva-/EKAS-Richtlinie zu Fassadengerüst-Verankerung/Dachhaken in der KB:**
+  > ✅ **TEILWEISE GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 21).** Norm identifiziert und
+  > am Herausgeber verifiziert (WebFetch `shop.sia.ch`): **SIA 181/1:2026 «Raumakustik»** (SN
+  > 520181/1), gültig ab **01.02.2026** — eine brandneue, eigenständige Norm (keine Revision
+  > einer bereits geführten Nummer), die SIA 181 (baulicher Schallschutz) um die Raumakustik
+  > innerhalb von Räumen ergänzt. Metadaten-Stub `destillate/sia-181-1-2026.md`, Registerzeile
+  > `wiki/REGISTER.md` Abschnitt A. **Bleibt offen:** Volltext kostenpflichtig (110 CHF), keine
+  > Nachhallzeit-Zahlenwerte zitierfähig — DIN 18041 bleibt bis zur Beschaffung die einzige
+  > belegbare Zweitquelle dieser KB.
+- [x] **Keine Suva-/EKAS-Richtlinie zu Fassadengerüst-Verankerung/Dachhaken in der KB:**
   DIN 4426 (Abschnitt 12.4) verweist selbst auf SIA 358 + EKAS/Suva — SIA 358 deckt nur
   Geländer/Absturzsicherung allgemein ab, nicht die Gerüstverankerungskräfte oder die
   Dachhaken-Bestückungsregel. Eine Suva-/EKAS-Quelle dazu ist in der KB nicht vorhanden und
   müsste separat beschafft werden (kein SharePoint-Fund im Normen-Inventar).
+  > ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 21).** Beide Teilfragen sind jetzt belegt.
+  > **Verankerungskräfte:** neu destilliert `destillate/suva-44077-2022-fassadengeruest-verankerung.md`
+  > (Suva 44077.d «Fassadengerüste — Sicherheit durch Planung», Ausgabe Januar 2022, kostenlos,
+  > vollständig am Original gelesen) — Ankerfläche max. 25/20/10 m² je Verkleidungsart (Ziff.
+  > 4.5.1, S. 15), Höhenstaffelung ab 40 m Gesamthöhe. **Dachhaken (fachlich: Anschlageinrichtungen
+  > gemäss EN 795):** bereits vorher in der KB destilliert, nur nie hierher zurückverlinkt —
+  > `destillate/suva-44066-arbeiten-auf-daechern.md` (established, Run 40), Ziff. 4.3: Pflicht zu
+  > Anschlageinrichtungen (Ankerpunkten) nach EN 795 ab 3,0 m Absturzhöhe. Beide Quellen zitieren
+  > sich bereits gegenseitig im Originaltext. Neuer Suva/EKAS-Block in `wiki/REGISTER.md`
+  > Abschnitt D, Bring-Schuld-Kandidaten (weitere kostenlose Suva-Publikationen derselben Reihe)
+  > dort gelistet.
 - [x] **VKF-BRL 15-15 (Brandschutzabstände Tragwerke/Brandabschnitte) — ERLEDIGT, Bestandskontrolle
   Run 17 (260721):** das Destillat `vkf-brl-15-15-brandschutzabstaende-tragwerke.md` existiert
   (destilliert 260714). Die Mini-Run-30-Notiz «noch nicht destilliert» war aus DIN/VSS/RAL-Sicht
   (Mac Mini, kein VKF-Zugriff) verfasst und ist veraltet. Die Feuerwiderstands-Anforderungstabelle
   je Nutzung/Gebäudehöhe ist damit direkt in der KB abrufbar, nicht nur über das SZS-Sekundärdokument.
-- [ ] **Keine Bestätigung/Recherche zu einer «2026 verschärften kantonalen Velo-Abstellpflicht»:**
+- [~] **Keine Bestätigung/Recherche zu einer «2026 verschärften kantonalen Velo-Abstellpflicht»:**
   Abschnitt 6b der Synthese (Erschliessung/Velo) hält fest, dass kein geprüftes VSS-Destillat
   (Quellen 1983-2011 bzw. Merkblatt Stadt ZH 1996/1998) eine solche 2026er-Verschärfung
   erwähnt. Falls eine aktuelle kantonale/kommunale Regelung existiert, separat recherchieren
   und nachtragen — nicht aus den bestehenden Quellen ableitbar.
+  > ⚠ **TEILWEISE RECHERCHIERT 23.08.2026 (QUESTIONS-Abarbeitung 21), kein Beleg für eine
+  > bereits geltende 2026er-Verschärfung.** Websuche findet **keine** in Kraft gesetzte
+  > Verordnung mit 2026er-Datum. Gefunden wurde ein **hängiges kantonales Verfahren**: laut
+  > `gruene-zh.ch` (Artikel 02.07.2024) hat die zuständige Kommission des Kantonsrats eine
+  > PBG-Revision zur Neuregelung von Abstellplätzen (mehr Velo-Abstellplätze, erleichtertes
+  > autofreies Wohnen) «zu Handen des Kantonsrats verabschiedet» — **Vorlage 171a/2020**. Der
+  > Artikel nennt kein Inkrafttretungsdatum und keine abschliessende Ratifizierung durch das
+  > Plenum; Stand der Vorlage seit Juli 2024 nicht weiterverfolgt. **Nicht zitierfähig als
+  > geltendes Recht** — vor einer Verwendung in einem Projekt den aktuellen Stand der Vorlage
+  > 171a/2020 direkt beim Kanton (Amt für Mobilität, velo@zh.ch) oder im Kantonsratsprotokoll
+  > verifizieren. Die städtische Übersichtsseite `zh.ch/.../veloparkierung.html` (WebFetch,
+  > 23.08.2026) nennt nur den bestehenden Leitfaden, keine 2026er-Änderung.
 - [x] **RAL-GZ 638 (Gitterroste) BKP-Zuordnung ergänzt — erledigt Mini-Run 31 (260716):**
   gegen `references/bkp-2017/BKP-2017-Liste.md` geprüft: **BKP 221.9** Metallbaufertigteile
   (Rohbau 2, aussen) bzw. **BKP 272.2** Allgemeine Metallbauarbeiten (Ausbau 1, innen), je
@@ -4001,7 +4045,7 @@ einzeln geprüft:
   erschlossen. Niedrigere Priorität als die SIA-266/1-Bring-Schuld, da SIA 410 nur Empfehlungscharakter
   hatte und die JANS-Praxis bereits grösstenteils auf Fachplaner-eigene Pläne abstellt.
   *(Ursprungswortlaut, Teil 1 seither geschlossen — siehe Eintrag direkt darüber.)*
-- [ ] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
+- [~] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
   («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`
   notiert; hier kam sie nie an (grep «2048» in `wissen/normen/`: 0 Treffer — weder REGISTER noch
@@ -4139,9 +4183,15 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   > Belege: `wiki/REGISTER.md`, Abschnitt A, Zeilen SIA 2003/2006/2015/2017/2018/2022/2026
   > (nachgeführt 23.08.2026) sowie die bereits am selben Tag durch den SIA-Sweep geklärten Zeilen
   > SIA 2001/2007/2016/2027/2045.
-- [ ] **`SIA_Leistungsmodell.pdf` ist gar kein SIA-Dokument.** Der Verifier hat festgestellt: es ist
+- [x] **`SIA_Leistungsmodell.pdf` ist gar kein SIA-Dokument.** Der Verifier hat festgestellt: es ist
   ein Merkblatt der **KUNDERT PLANER AG** zur SIA-Ordnung, nicht eine SIA-Publikation. Das Inventar
   führte es als «Hilfsmittel Leistungsmodell». Als Sekundärquelle behandeln, nie als Norm zitieren.
+  > ✅ **GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 21, Bestandsabgleich).** Bereits korrekt
+  > umgesetzt: Destillat `destillate/sia-112-leistungsmodell.md` (status established) führt im
+  > Frontmatter `herausgeber: "KUNDERT PLANER AG ... (Merkblatt eines Dritten, KEIN
+  > SIA-Originaldokument)"` und im Fliesstext ausdrücklich «Das PDF ist kein
+  > SIA-Originaldokument» sowie den Hinweis, dass keine Norm-Ziffern zitiert werden und das
+  > Blatt als Merkhilfe, nicht als belegfähige Norm-Fundstelle taugt. Keine weitere Aktion nötig.
 - [x] **Nachfolgeausgaben nicht ermittelbar.** Für SIA 2001 (Wärmedämmstoff-Kennwerte, Nennwerte
   befristet bis 31.12.2006) und SIA 2024 (Standard-Nutzungsbedingungen, Revision 2021 bekannt) ist
   der Bestand veraltet. SIA 2024 ist über die KB `energie` bereits teilweise erschlossen

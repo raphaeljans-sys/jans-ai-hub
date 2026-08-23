@@ -1,0 +1,216 @@
+---
+title: "Inventar archiv-fachwissen / 01_Staedtebau"
+korpus: archiv-fachwissen
+sektion: /Volumes/daten/02_Architektur_Archiv/01_Staedtebau
+last_updated: 2026-08-23
+status: established
+dateien_gesichtet: 51
+---
+
+# Inventar: 01_Staedtebau (Korpus archiv-fachwissen)
+
+## Kurzbefund
+
+Die Sektion ist die **grösste bisher inventarisierte** dieses Korpus: rund **8'800 Dateien** in
+elf Hauptordnern und mehreren hundert Unterordnern, Jahrgang **2007 bis 2020**, Schwerpunkt
+**2011 bis 2014**. Sie ist das persönliche Städtebau-Archiv aus der ETH-Zeit, gewachsen um die
+Vorlesungsreihe «Geschichte des Städtebaus» (Professur Lampugnani, gta) und um die
+Urbanismus-Lehre (Professur Christiaanse), später eigenständig weitergeführt bis zu einem
+eigenen Manifest 2014.
+
+**Nur rund 914 Dateien sind textführend** (843 PDF, 45 DOCX, 14 Pages, 12 DOC). Der weit
+grössere Rest, gut 7'900 Dateien, sind Bilddateien: Screenshots, Buchscans als TIFF/JPEG/PNG,
+Plan- und Gemäldereproduktionen. Und selbst innerhalb der PDF ist die Ausbeute gemischt: eine
+Stichprobe über 30 PDF quer durch den Bestand ergab **elf ohne jede Textebene** (reine Scans),
+neun mit weniger als 2 kB Text (ILIAS-Testausdrucke, Aufgabenblätter) und zehn mit echtem
+Fliesstext. Wer diese Sektion destilliert, arbeitet also an einer schmalen, aber sehr dichten
+Textschicht in einem sehr breiten Bildarchiv.
+
+**Die eigentliche Substanz liegt in dem, was selbst verfasst wurde, nicht in dem, was gesammelt
+wurde.** Vier Erzeugnisse ragen heraus:
+
+**1. Ein eigenes «Wörterbuch des Städtebaus»** (`10_Glosar`, 2011, 14 Seiten, sieben datierte
+Fassungen zwischen dem 05.08. und dem 08.08.2011). Alphabetisch von Agora bis Zeilenbau, jeder
+Eintrag als ausformulierter Absatz, nicht als Stichwort. Vollständig textführend und damit
+ohne OCR direkt destillierbar.
+
+**2. Eine eigene Methode der Siedlungsstrukturanalyse**
+(`00_Allgemein/Stadtanalyse/06_Siedlungsstrukturanalyse`). Ein Analyseraster in zwei Teilen
+(Terrain, Gebäude) mit je nummerierten Prüfpunkten, zu jedem Punkt Grundsätze, gebaute
+Beispiele und die Leitfragen. Das ist kein Vorlesungsmitschrieb, sondern ein Werkzeug.
+
+**3. Zwei eigene Lehr-Erzeugnisse zur Vorlesung Lampugnani**: ein «Jans Reader» (47 Seiten,
+Textebene vorhanden) und ein «Übungsheft» (61 Seiten, 214 kB Text) mit Kompetenz- und
+Methodenraster über 17 Themenblöcke von den antiken Stadtgründungen bis zum städtischen
+Wohnen in Frankfurt.
+
+**4. Ein eigenes städtebauliches Manifest** (`20_Die_Athmosphaerische_Stadt`, Januar 2014):
+«Die Athmosphärische Stadt», dazu die Texte «Was ist der Blockrand» und «Aufenthaltsqualität
+als Menschenrecht». Das ist die früheste greifbare Fassung der eigenen Haltung zu Stadt,
+Blockrand und öffentlichem Raum.
+
+Daneben zwei fremde, aber unmittelbar brauchbare Raster: das **Handout Plananalyse** der
+Professur (Stand Oktober 2009) mit den Checklisten Plananalyse und Platzanalyse, und die
+**Checkliste Kontext, Programm, Tektonik** (Januar 2011).
+
+Ein erheblicher Teil der Ordnerstruktur ist **leeres Gerüst**: von den 22 Unterordnern in
+`02_Elemente_des_Staedtebaus` sind mindestens fünf (Die_Arkade, Der_Wohnhof,
+Das_Sockelgeschoss, Die_Passage, Die_Hauptstrasse) ohne jede Datei, ebenso
+`09_Staedebauliche_Grundfiguren_Typologie` und `11_Staedtebaumanualistik`. Die Gliederung
+zeigt also eine Absicht, nicht einen Bestand.
+
+**Datenschutz:** eine einzelne Word-Datei in `20_Die_Athmosphaerische_Stadt` enthält eine
+Gruppeneinteilung aus der Studienzeit mit Namen und Hochschul-Mailadressen von Mitstudierenden.
+Diese Datei ist als **X** eingestuft, ihr Inhalt wird hier nicht wiedergegeben und sie gehört
+nicht ins Wiki. Sonst nichts Heikles: keine Verträge, keine Bewerbungen, keine Personal-,
+Lohn- oder Honorardaten, keine Privatunterlagen. Die zahlreichen Personennamen im übrigen
+Bestand sind bibliografische Nennungen von Städtebautheoretikern und Architekten, also
+Literaturangaben.
+
+**Urheberrecht:** ein grosser Teil der PDF und praktisch alle TIFF sind **Buchscans fremder
+Werke** (Sitte, Stübben, Krier, Curdes, Nolli, DTV-Atlas, Zeitschriftenartikel). Sie dürfen
+methodisch ausgewertet und mit Fundstelle zitiert werden, aber nie im Wortlaut ins Wiki
+übernommen werden.
+
+**Gesichtet:** 51 Dateien einzeln geöffnet, davon 21 inhaltlich vollständig gelesen (per
+`pdftotext` bzw. `textutil`) und 30 per Textmengensonde auf Seitenzahl und Textebene geprüft.
+Der Gesamtbestand wurde über eine rekursive Verzeichnis- und Formatanalyse erfasst. Die
+Zahl 8'800 ist eine **untere Schranke**: mehrere Unterordner liefen beim rekursiven Durchlauf
+über den SMB-Mount in Timeouts und sind in der Zählung nicht enthalten.
+
+## Triage
+
+| Datei / Gruppe | Stufe | Begründung |
+|---|---|---|
+| `10_Glosar/PDF/110808_1930_Woerterbuch_Staedtebau.pdf` (14 S., 62 kB Text) | **P1** | Jüngste und vollständigste Fassung des eigenen «Wörterbuchs des Städtebaus». Vollständige Textebene, alphabetisch geordnet, jeder Eintrag ausformuliert. Der einzige Baustein dieser Sektion, der ohne Aufbereitung sofort als Begriffsartikel-Serie ins Wiki kann. |
+| `00_Allgemein/Stadtanalyse/Handout-Plananalyse.pdf` | **P1** | Fremdes, aber sofort einsetzbares Raster der Professur (Stand Oktober 2009): Plananalyse in sieben Schritten, Platzanalyse in acht Schritten, dazu die saubere Trennung Beschreibung / Analyse / Interpretation. Direkt verwendbar als Gliederung des Ortsanalyse-Kapitels in Wettbewerbs- und Machbarkeitsberichten. |
+| `00_Allgemein/Stadtanalyse/06_Siedlungsstrukturanalyse/01_Methodeanalyse/Analyse_Siedlungsstruktur.doc` | **P1** | Eigene Analysemethode. Terrain in sechs Punkten (Erschliessung, Geländeform, Vegetation, Bodenbeschaffenheit, Wasserläufe, Parzellierung), Gebäude in vier Punkten, dazu vier Muster der Situierung im Terrain und acht Muster der Beziehung Gebäude/Umgebung. Jeder Punkt mit Leitfragen. Das Gegenstück zum Handout, aber selbst formuliert und damit im eigenen Ton. |
+| `00_Allgemein/00_Staedtemanual/00_Checkliste/110105_Checkliste.pdf` | **P1** | Checkliste «Kontext, Programm, Tektonik» auf einer Seite: Stadtgewebe, Nutzungsdurchmischung, Tektonik, und als Schlussfrage «Was leistet das Gebäude für die Stadt / den Stadtraum?». Kurz genug, um in eine Projektstartroutine einzugehen. |
+| `02_Elemente_des_Staedtebaus/00_Konzept/PDF/Die_A4.pdf` | **P1** | Verdichtetes Typologieblatt: 15 Stadttypen von der Streifenstadt bis zur Containerstadt, je mit Beispiel, dazu die Systematik der Strassennetze (Raster, deformiertes Raster, Radial, Mischform, organisch). Als Argumentationsraster für die städtebauliche Einordnung eines Bauplatzes verwendbar. |
+| `02_Elemente_des_Staedtebaus/Der_Platz/01_Uebungen_Arbeitsschritte/04_Abgabe_Layout/130214_Text_WBP_Berlin.docx` | **P1** | Ausgearbeitete eigene Platzanalyse mit belegten Massen und einem Vergleich zu einem historischen Referenzplatz. Zeigt die Methode aus dem Handout am fertigen Erzeugnis und dient als Formatvorlage für ein Aussenraumkapitel. |
+| `20_Die_Athmosphaerische_Stadt/Blockrandthematik/Text_Jans/140105_Was_ist_der_Blockrand.docx` | **P1** | Eigene, dichte Begründung des Blockrands vom Gesellschaftsbegriff her. Kurz, argumentativ geschlossen, direkt in Erläuterungsberichte und Bauherrengespräche übertragbar. |
+| `20_Die_Athmosphaerische_Stadt/140112_2_Aufenthaltsqualität als Menschenrecht.docx` | **P1** | Eigener Argumentationstext zu Aufenthaltsqualität, Zersiedelung und dem «Rechenschaftsbericht der Verzichtsleistungen des Status quo». Die inhaltlich stärkste Passage der ganzen Sektion für die Bauherrenkommunikation. |
+| `00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/01_Jans_Reader/PDF/00_Alles/110806_Alles.pdf` (47 S., 91 kB Text) | **P2** | Eigener Reader zur Vorlesungsreihe, Textebene vorhanden, gegliedert in zwei Teile und rund 20 Vorlesungen von der Antike bis zur Moderne. Ordnungsgerüst für die spätere Wiki-Struktur «Geschichte des Städtebaus», Destillat lohnt in einem eigenen Lauf. |
+| `00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/02_Uebungsheft/PDF/110805_Alles.pdf` (61 S., 214 kB Text) | **P2** | Eigenes Übungsheft mit Kompetenz- und Methodenraster (Plananalyse, Textanalyse, wissenschaftliches Arbeiten) über 17 Themenblöcke. Textreichste Einzeldatei der Sektion. Enthält neben Sachwissen auch die Lernmethodik. |
+| `06_Theorie_des_Staedtbaus/00_Literatur/0.0 GRUNDLAGENWERKE_Manualistik/` (Sitte 93 S., Stuebben, Krier, Curdes, Nolli) | **P2** | Die fünf Grundlagenwerke der Städtebau-Manualistik als Scan; der Sitte-Scan trägt eine Textebene (99 kB). Fremdwerke, also nur methodisch auswertbar und mit Fundstelle zu zitieren, aber die Belegbasis hinter dem eigenen Glossar. |
+| `06_Theorie_des_Staedtbaus/` Autorendossiers (33 Ordner, 92 textführende Dateien) | **P2** | Je Theoretiker ein Ordner mit Texten, Auszügen und eigenen Zusammenfassungen; darunter mehrere zum reformierten Stadtblock und zur ästhetischen Nachhaltigkeit, also genau den Themen, die bei Verdichtungsprojekten trägt. Später gezielt destillieren, nicht flächig. |
+| `02_Elemente_des_Staedtebaus/Der_Platz/` (98 textführende Dateien) | **P2** | Der einzige Elementeordner, der wirklich gefüllt ist: Literatur, Seminararbeiten zu einzelnen Plätzen, Plangrundlagen, eigene Übungsschritte. Materialbasis für einen künftigen Wiki-Artikel «Platz» mit belegten Beispielen. |
+| `06_Theorie_des_Staedtbaus/00_Literatur/DTV_Atlas/00_Word/110730_Staedtebau_nach_DTV.docx` | **P2** | Eigene Konkordanz: 25 Städtebau-Kapitel des DTV-Atlas mit exakten Seitenzahlen, von Mesopotamien bis zu den Stadtzentren der Neuzeit. Kein Inhalt, aber ein präziser Wegweiser in ein Standardwerk. Nützlich, sobald eine Epochenfrage schnell belegt werden muss. |
+| `20_Die_Athmosphaerische_Stadt/140129_Die_athmosphaerische_Stadt.docx` | **P2** | Das Manifest selbst. Sprachlich roh und mit offenen Todo-Notizen durchsetzt, inhaltlich aber die Quelle der eigenen Haltung. Vor einer Verwertung redaktionell zu fassen, deshalb nicht P1. |
+| `01_Geschichte/` Epochen-Zusammenfassungen (DOCX/DOC, rund 12 Dateien) | **P2** | Eigene Zusammenfassungen je Vorlesungsthema (Gartenstadt, Stadtmodernisierung, städtisches Grün, Stadtarchitektur, grüne Stadtmitte, Stadtutopien, Haussmann). Kurz, in eigenen Worten, gut destillierbar. |
+| `01_Geschichte/` Bild- und Planmaterial (rund 300 textführende plus mehrere tausend Bilddateien in 30 Epochenordnern) | **P3** | Chronologisch sauber geordnetes Quellenarchiv von der Antike bis 1930. Als Bildbelegquelle für Referenzargumente wertvoll, für eine Textdestillation aber ohne OCR nicht zugänglich. Archivwert. |
+| `05_Staedte/` (39 Länder-/Stadtordner, 184 textführende Dateien) | **P3** | Städtedossiers mit Plänen, Fotos und Aufsätzen; die grössten sind USA, Schweiz und Italien. Referenzsammlung für Beispiele, kein eigenständiges Fachwissen. Der Schweizer Teil ist der einzige mit möglichem Ortsbezug für spätere Projekte. |
+| `00_Allgemein/02_Vorlesungen/Lampugnani_Vittorio/02_Vorlesungsnotizen/Zusammenfassung Städtebau.pdf` (104 S.) | **P3** | Umfangreiche eigene Zusammenfassung, aber **ohne Textebene** (104 Seiten, 104 Zeichen extrahierbar). Inhaltlich vermutlich wertvoll, praktisch erst nach OCR nutzbar. Kandidat für einen gezielten OCR-Lauf, nicht für die normale Destillation. |
+| `11_Der_reformierte_Block/` (5 Fallbeispiele, reine Bilddateien) | **P3** | Fünf europäische Blockrandbeispiele zwischen 1893 und 1938 als Bildsammlung ohne einen einzigen Text. Thematisch einschlägig für Verdichtung im Bestand, aber inhaltlich stumm. |
+| `20_Die_Athmosphaerische_Stadt/00_best/` (Gemäldereproduktionen) | **P3** | Bildbelege zum Manifest, ausschliesslich Reproduktionen fremder Gemälde. Als Stimmungsreferenz brauchbar, urheberrechtlich nicht weiterverwendbar. |
+| `Buch - Handbuch der Stadtbaukunst … .pdf` (3 S.) · `SKM_C30818072009260.pdf` (42 S.) | **P3** | Zwei Scans im Wurzelverzeichnis, beide **ohne Textebene**. Der erste ist ein dreiseitiger Buchauszug, der zweite ein unbenannter 42-seitiger Kopiererscan. Erst nach OCR beurteilbar. |
+| `00_Allgemein/03_Siedlungsstruktur/03_Entwurfskonzepte/01_Stadt_Luzern/bzo_bericht.pdf` (60 S.) | **P3** | Kommunaler Bau- und Zonenordnungsbericht mit Stadtentwicklungsszenarien, Ausgabe 2007. Ausserhalb des JANS-Wirkungsgebiets ZH/SZ und rechtlich überholt; als Beispiel für den Aufbau eines Stadtentwicklungsberichts weiterhin lesbar. Nie als Rechtsquelle verwenden. |
+| ILIAS-Test-, Übungs- und Ergebnisausdrucke (rund 120 PDF quer durch `01_Geschichte`, typisch 1 bis 3 Seiten, unter 2 kB Text) | **X** | Ausdrucke der Online-Lernplattform: Aufgabenstellungen, Multiple-Choice-Fragen, Testergebnisse. Prüfungsbetrieb der ETH von 2010/11, kein Fachinhalt. |
+| «Sicherungskopie von …» (mindestens 7 Dateien) | **X** | Wortgleiche Word-Dubletten der jeweiligen Originaldatei, von der Textverarbeitung automatisch erzeugt. Verdoppeln jeden Fund ohne Mehrwert. |
+| Leere Ordner: `02_Elemente_des_Staedtebaus/{Die_Arkade, Der_Wohnhof, Das_Sockelgeschoss, Die_Passage, Die_Hauptstrasse}`, `00_Allgemein/09_Staedebauliche_Grundfiguren_Typologie`, `00_Allgemein/11_Staedtebaumanualistik` | **X** | Nie befüllte Gliederungshülsen. Sie dokumentieren eine Absicht, tragen aber keinen Inhalt. |
+| `.indd`- und `.band`-Dateien (u.a. 9.7 MB und 37 MB Layoutdateien, mehrere GarageBand-Pakete) | **X** | Proprietäre Binärformate ohne Textebene. Die Layoutdateien liegen als PDF-Export bereits vor; die Audiopakete sind Tonmitschnitte ohne Transkript. |
+| `20_Die_Athmosphaerische_Stadt/FactShets_Staedte.docx` und deren Sicherungskopie | **X** | Gruppeneinteilung aus der Studienzeit mit Namen und Hochschul-Mailadressen. **Nicht ins Wiki, nicht zitieren, nicht weiterverarbeiten.** Der sachliche Gehalt, eine Liste von Stadt- und Zeitraumzuordnungen, ist andernorts vollständig vorhanden. |
+| `00_Allgemein/02_Vorlesungen/Kees_Christiansen/03_Urbanismus/00_admin/InfoWebsite.docx` und weitere Admin-Dateien | **X** | Prüfungsmerkblatt von 2009 und Kursorganisation. Reiner Studienbetrieb. |
+
+Verteilung: **P1 = 8 · P2 = 8 · P3 = 7 · X = 6** (Zeilen, nicht Einzeldateien; jede Zeile fasst
+eine Gruppe zusammen).
+
+## Was hier für JANS drinsteckt
+
+**1. Ein fertiges Analyseraster für die Ortsanalyse, zweifach belegt.**
+Das `Handout-Plananalyse.pdf` gliedert die Plananalyse in sieben Schritte: Form der Stadt und
+äusserer Aufbau einschliesslich Topografie, Grundstruktur und innerer Aufbau, Erschliessungs-
+systeme mit ihrer Hierarchie nach Breite und Verknüpfungshäufigkeit, Blöcke und Parzellen nach
+Grösse, Form und Dichte, Lage und Form der Plätze im Stadtganzen, Lage und Form der Grünräume,
+Lage und Umgebung öffentlicher Gebäude. Die Platzanalyse daneben in acht Schritten: Form,
+Begrenzung mit Platzrand und Platzwand, Erschliessung, Ausrichtung, Gebäude am Platz,
+Gestaltung, Lage im Stadtgefüge, Funktion. Ausdrücklich vorangestellt ist die Regel, zuerst zu
+klären, um welche Art Plan es sich handelt (Schwarzplan, topografische Karte, Kataster, Entwurf,
+Aufnahme, thematische Karte), und Beschreibung, Analyse und Interpretation sauber zu trennen.
+**Verwertung:** direkt als Gliederung des Kapitels «städtebauliche Einordnung» im Skill
+`wettbewerb` (Agent `bericht-autor`) und in Machbarkeitsstudien.
+
+**2. Eine eigene Siedlungsstrukturanalyse, die beim Terrain beginnt.**
+`Analyse_Siedlungsstruktur.doc` teilt die Siedlungsstruktur zuerst in Erschliessungsfläche,
+Naturfläche und Bebauungsfläche und analysiert dann Terrain und Gebäude getrennt. Beim Terrain
+sechs Punkte: Erschliessung und Verkehrsbauten, Geländeform, Geländevegetation,
+Bodenbeschaffenheit, Wasserläufe, Parzellierung. Jeder Punkt trägt Grundsätze, gebaute
+Beispiele und Leitfragen. Beim Verhältnis Gebäude zu Terrain nennt der Text **vier Muster** der
+Situierung: Auflegen und Aufsetzen, Einschneiden, Verschmelzen, Abheben. Dazu **acht Muster**
+der Beziehung zwischen Gebäude und Umgebung, von der Mauer an der Grundstücksgrenze über Hof
+und Atrium bis zur langgestreckten Fassade zur Umgebung.
+**Verwertung:** unmittelbar anschlussfähig an den Skill `massgebendes-terrain` und an
+`machbarkeit`. Die vier Situierungsmuster sind die knappste bekannte Sprache dafür, wie ein
+Baukörper an einer Hanglage aufsitzt, und lassen sich in Bauherrengesprächen ohne
+Vorwissen erklären.
+
+**3. Eine einseitige Projektstart-Checkliste.**
+`110105_Checkliste.pdf` prüft in vier Blöcken: Kontext Stadtgewebe (Nachbarbauten nach Sockel,
+Mittelteil, Abschluss und Öffnungen; Lesbarkeit des Gebäudes nach Struktur, Statik, Tektonik,
+Nutzung und Bezug zum Stadtraum privat / halbprivat / öffentlich; dazu Strassen und Plätze,
+Bepflanzung, Fussgänger, Verkehr), Nutzungsdurchmischung, Tektonik mit Raumgrössen, Raumtypen,
+Tragstruktur, Erschliessung, Gebäudetechnik und Fassade, und schliesst mit der Frage, was das
+Gebäude für die Stadt leistet.
+**Verwertung:** taugt als Eingangsraster für jede Wettbewerbs- und Studienaufgabe. Die
+Schlussfrage ist zugleich ein brauchbares Jurykriterium.
+
+**4. Ein eigenes Städtebau-Wörterbuch, ohne OCR destillierbar.**
+Das Glossar erklärt die Begriffe in ganzen Absätzen, nicht in Stichworten, und hängt jeden
+Begriff an ein gebautes Beispiel. Belegte Beispiele aus der gelesenen Fassung: die Systematik
+der städtebaulichen Einflussgrössen (funktional, sozial, demografisch, ästhetisch, religiös,
+militärisch, ökonomisch, philosophisch, gesellschaftlich, topografisch, bautechnisch, klimatisch)
+mit dem Hinweis, dass die Eigentumsverhältnisse und das Recht eigene Faktoren sind; die
+Herleitung der Arkade in Bologna aus dem Klima; die elf Teilbereiche der Bausteine der
+Stadtstruktur von der Nutzungsanordnung über Block, Hof, Reihe, Zeile, Solitär und Gruppe bis zu
+den Bautypen; die Unterscheidung zwischen der **internen** Wirkung des Bauvolumens
+(Gebäudearchitektur) und der **externen** Wirkung zwischen den Bauvolumen (Stadtarchitektur).
+**Verwertung:** die Begriffsdefinitionen sind die Grundlage für einen Wiki-Bereich
+«Städtebau-Begriffe» und liefern zugleich das Vokabular, in dem sich JANS-Erläuterungsberichte
+bewegen sollten.
+
+**5. Fünfzehn Stadttypen und die Systematik der Strassennetze auf einer A4-Seite.**
+`Die_A4.pdf` listet die Typen von Streifenstadt, Tempelstadt, Burgstadt, Festungsstadt,
+Marktstadt, Stadtstaat, Feudalstadt, Parkstadt, Industriestadt, Gartenstadt, Siedlung,
+Maschinenstadt, Strassenstadt, Zwischenstadt bis Containerstadt, je mit Beispiel. Bei den
+Strassennetzen ist das Raster das Grundmuster, davon abgeleitet das deformierte Raster, die
+Radialform, die Mischform aus Radial und Raster, zuletzt die organische, gekrümmte Form.
+**Verwertung:** hilft, einen Bauplatz in einem Satz einzuordnen, statt ihn zu beschreiben.
+Besonders die Kategorie Zwischenstadt für den suburbanen Raum trifft die Ausgangslage vieler
+Schweizer Projektstandorte.
+
+**6. Eine ausformulierte eigene Haltung zu Blockrand, öffentlichem Raum und Verdichtung.**
+Der Blockrand-Text argumentiert, dass die Blockform nach aussen ein Öffentliches und nach innen
+ein Halbprivates definiert und über das Strassennetz an die nächsthöhere Stufe, die Stadt,
+anschliesst; die Parzellierung gibt dem einzelnen Haus die eigene Fassade, die Gesamtheit der
+Fassaden repräsentiert die Gemeinschaft; die Form stellt individuelle Bedürfnisse wie
+Sonnenstunden, Aussicht, Lärm und Umschwung bewusst hinter die gemeinschaftliche Idee zurück.
+Der Text zur Aufenthaltsqualität dreht die Verzichtsdebatte um und verlangt einen
+«Rechenschaftsbericht der Verzichtsleistungen des Status quo»: auf Ruhe, auf Bewegungsraum, auf
+öffentlichen Raum werde bereits heute verzichtet, zugunsten des motorisierten Verkehrs.
+**Verwertung:** das ist Argumentationsmaterial für genau die Gespräche, in denen ein
+Blockrandprojekt oder eine Verdichtung gegen Einzelinteressen verteidigt werden muss. Der Ton
+gehört in die Twin-Wissensbasis, nicht nur in die Fach-KB.
+
+**7. Zwei Belegwege in Standardwerke.**
+Die DTV-Konkordanz nennt zu 25 Städtebau-Kapiteln die genauen Seitenzahlen in einem
+zweibändigen Standardatlas, von Mesopotamien über die Idealstädte der Renaissance und die
+Plätze der Barockzeit bis zu Zeilen- und Gruppenbau und den Stadtzentren der Neuzeit. Die fünf
+Grundlagenwerke der Manualistik liegen als Scan vor, davon einer mit Textebene.
+**Verwertung:** wenn eine historische Einordnung belegt werden muss, ist der Weg schon
+gebahnt. Zitiert wird mit Fundstelle, nie im Wortlaut.
+
+**8. Was hier bewusst nicht drinsteckt.**
+Die Sektion enthält **kein** Schweizer Baurecht, **keine** Kostenkennwerte, **keine**
+Konstruktionsdetails und **keine** Ausschreibungsunterlagen. Der einzige Rechtsbezug, ein
+kommunaler Bau- und Zonenordnungsbericht von 2007 ausserhalb der Kantone ZH und SZ, ist
+überholt und darf nicht als Rechtsquelle dienen. Wer aus dieser Sektion heraus eine
+baurechtliche Aussage machen will, muss über den Skill `baurecht` und die KB
+`wissen/baurecht` gehen.
+
+**9. Ein OCR-Rückstand, der beziffert werden kann.**
+Mindestens drei umfangreiche Eigenerzeugnisse und Scans liegen ohne Textebene vor: die eigene
+Zusammenfassung mit 104 Seiten, ein Kopiererscan mit 42 Seiten, ein Buchauszug mit 3 Seiten.
+Dazu die Stichprobenquote von rund einem Drittel textloser PDF im Gesamtbestand und mehrere
+hundert TIFF-Buchscans. **Empfehlung:** die 104-seitige eigene Zusammenfassung zuerst OCRen,
+weil sie eigenes Wissen trägt und urheberrechtlich unbedenklich ist; die Fremdscans nur
+gezielt und einzeln, wenn eine konkrete Fundstelle gebraucht wird.

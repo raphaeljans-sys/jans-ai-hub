@@ -1170,3 +1170,67 @@ Belegungsplan.
 **Damit ist der PL-04-Restbestand aus dem Run-149-Befund vollständig entschieden.** Offen bleibt in
 diesem Ordner nichts, was der Basenamen-Abgleich findet; die 57 Nachweiskurs-Einzelseiten bleiben
 nach der Kopfregel bewusst ungeführt.
+
+## Nachtrag 2026-08-23 (Run 161): die 16 Nicht-PDF-Quellen in PL-04 — erstmals gesichtet
+
+### Warum das eine echte Lücke war und kein Versäumnis von Run 149/150
+
+Der Satz direkt darüber ist präzise formuliert und war die ganze Zeit richtig: «Offen bleibt in
+diesem Ordner nichts, **was der Basenamen-Abgleich findet**». Die Einschränkung war tragend.
+Alle bisherigen Vollzählungen (Run 149, Run 150) haben **PDF gezählt** — «325 Dateien, 122 PDF,
+63 ohne Registereintrag», und die 63 lösen sich restlos in 57 Nachweiskurs-Einzelseiten plus
+6 Maison-Climat-Hashdateien auf, alles PDF. Die **203 Nicht-PDF-Dateien** (überwiegend PNG-
+Screenshots, dazu 12 docx, 1 doc, 1 xltx, 1 xlsb, 1 eml) waren in keiner dieser Zählungen
+enthalten.
+
+Gegenprobe in diesem Lauf, damit die Behauptung belegt ist und nicht bloss plausibel: die 16
+Nicht-Bild-Dateinamen wurden gegen **alle 537 Textdateien der KB** (`.md`/`.txt`/`.tsv`,
+8'604'361 Zeichen — also `destillate/`, `wiki/`, `training/`, `raw/`, `outputs/` zusammen)
+geprüft, je auf vollen Dateinamen **und** Namensstamm. Treffer: **null**. Keine dieser Quellen
+war je irgendwo erfasst.
+
+**Übertragbare Lehre (Falle Nr. 13): ein Inventar erbt den Dateityp-Filter seiner ersten
+Zählung.** Diese Datei heisst «PDF-Inventar», und deshalb hat über 20 Läufe hinweg niemand
+gefragt, was in dem Ordner **kein** PDF ist. Der Kopfvermerk zu E-R138-2 hat den Titel bereits
+einmal als «historisch zu eng» korrigiert (Bibliotheksumfang PL-04 → PL-02); zu eng war er ein
+zweites Mal, in einer anderen Dimension. **Für künftige Korpora: die Vollzählung einmal ohne
+jeden Endungsfilter fahren und die Typenverteilung ausweisen, bevor der Restbestand für
+abgeschlossen erklärt wird.**
+
+Zugangsweg in diesem Lauf: Graph-Connector (`connectors/m365-graph.mjs`, Weg 2 in
+`connectors/WEGE.md`), Drive-ID `04 Energie` =
+`b!4b0MvG164Uif9nUvAUN-vhxlu8ogEiVPhn2VS4jG3SeLXwejZ1lrRLNhU-gqy3Xx` — **hier erstmals
+aufgelöst und damit für Folgeläufe gesichert.** Die Bibliothek ist auf dieser Station **nicht**
+unter `~/Library/CloudStorage/` gemountet (geprüft), der Graph-Weg findet sie trotzdem.
+
+### Die 16 Quellen im Einzelnen
+
+| Status | Quelle (`/sites/PL/04 Energie/…`) | Befund 2026-08-23 (Run 161) |
+|---|---|---|
+| [x] `U Wert berechnung/Grassen Biwak/Um den gewünschten Schichtaufbau mit einem U.docx` | **ChatGPT-Antwort, als Fachdokument abgelegt.** U-Wert-Rechnung für einen Biwak-Aufbau (Blechverkleidung · UK 40 mm luftgefüllt · Mineralwolle 40 mm · CLT 140 mm Stora Enso), Ergebnis «ca. 0,40 W/(m²·K)». **Drei Methodenfehler** (R_si/R_se fehlen ganz · Luftschicht mit einem λ statt einem Tabellen-R · hinterlüftete Schale mitgerechnet statt weggelassen) und ein unbelegtes λ 0,13 für ein Produkt, dessen Hersteller 0,110 bzw. 0,12 führt. Korrigiert **rund 0,37-0,39 W/m²K** → `[[ki-generierte-fachdokumente-referenzablage]]`, FAQ **F257** |
+| [x] `_Formulare Kanton ZH Baueingabe/_Du kannst das EN.docx` | **Ebenfalls ChatGPT-Antwort** (zwei der vier Hyperlinks tragen `utm_source=chatgpt.com`). Inhaltlich zutreffend zum EN-ZH-Hauptformular, aber undatiert und **redundant** zu `[[energienachweis-zh]]` / `[[en-zh-nachweis-uebersicht]]` / FAQ F12. Als Warnkarte erfasst, nicht als Quelle → `[[ki-generierte-fachdokumente-referenzablage]]` |
+| [-] `Solaranlage/solarapp.ch/Willerzell/Ihr SolarReport … Willerzell, Schweiz.eml` | **Dublette.** Die Mail von SolarApp (09.01.2024) enthält als Anhang exakt die beiden PDF, die als Einzeldateien im selben Ordner liegen und seit Run 150 vollständig destilliert sind (SolarReport S. 1-23 + Belegungsplan) → `[[pv-ertrag-eigenverbrauch-praxis]]` Beispiel A. Anhänge extrahiert und Byte-/Seitenzahl abgeglichen; **kein Zugewinn** |
+| [-] `wissen.minergie.ch/Maison_Climat/Beschreibung.docx` | **Dublette** zum Objektbeschrieb-Poster, das Run 149 bereits vollständig ausgewertet hat. Der Word-Text ist eine **Teilmenge**: er nennt die Dämmung pauschal «30 Zentimeter mehrschichtig», wo das Destillat den Aufbau schichtweise führt (24 · 2×30 · Dissco 60 · Konstruktion 180 · DP1 · OSB 15 · Installationsrost 50 · GF 12,5 mm). Südfassaden-PV, Erdwärmesonde, Mobilitätskonzept 0,5 PP: **alle schon erfasst**. Die zwei offenen Punkte (rechnerischer U-Wert, Seelandweg 15 gegen 17) bleiben offen — der Text nennt gar keine Hausnummer |
+| [-] `endk.ch/Formular S Schallschutznachweis Aussenlärm/Formular_S_Schallschutznachweis.xltx` | Excel-**Vorlagedatei** (`.xltx`) des amtlichen Formulars S, Blätter «Aussenlärm · Innenlärm · Konstruktion · Kurzinformation · Beispiele». Rechenwerkzeug, kein Fachtext; Thema belegt in `[[sia-181-schallschutz-anforderungswerte]]`, `[[aussenlaerm-schallschutzfenster-strasse-bahn]]`, FAQ F25/F68 |
+| [-] `endk.ch/Formular S Schallschutznachweis Aussenlärm/d8510-aZusatzformularGesuchstellerLaermsituationLaermschutz.doc` | Amtliche **Formularvorlage** des Kt. ZH (Formularnummer d8510-a) zur Lärmsituation. ⚠ Ehrlich vermerkt: aus dem alten `.doc`-Binärformat liess sich hier **nur die eingebettete XML-/SharePoint-Metadatenschicht maschinell lesen, nicht der Fliesstext** — die Einstufung stützt sich auf Dateiname, Formularnummer und Ablagekontext, nicht auf den gelesenen Body. Falls das Thema je vertieft wird, zuerst hier nachlesen |
+| [-] `wissen.minergie.ch/pvopti_MFH_Nachweiskurs-230921-173146.xlsb` | **Arbeitsmappe des Werkzeugs pvopti** (28,7 MB, Binär-Excel) aus dem Minergie-Nachweiskurs 2023 — eine ausgefüllte Kursübung, kein Dokument. Das Werkzeug selbst ist in der KB an fünf Stellen erfasst (u. a. `[[minergie-zertifizierung-workflow]]`, `[[minergie-nachweiskurs-2023-mkz-thge]]`). Nicht destilliert: Binärformat, Kursdaten statt Projektdaten |
+| [-] `U Wert berechnung/Auswahl_Waermedaemmstoffe.docx` | **JANS-eigene Produktnotiz, Raphael Jans, 231101** — kein eigenes Destillat nötig, der Inhalt ist hier vollständig wiedergegeben: «Boden gegen Erdreich Aussenklima · Wand gegen Luft Aussenklima · Flumroc Dämmplatte DUO · Flumroc Dämmplatte DUO/3 **oder** Flumroc Dämmplatte 1 (H 105)». Passt zur Flumroc-Linie im Maison-Climat-Aufbau (Dissco/DP1); λ-Werte nennt die Notiz keine → `[[daemmstoffe-lambda]]` |
+| [-] `endk.ch/Gesuch zur Versickerung von Regenwasser HLS Planer/Auf dem.docx` | Unsortierte Stichwortnotizen (365 Zeichen, Diktat-Fragmente: «KanalTV», «Lüftungskonzept», «ENZH Liste mit allen Formularen», «Baubeschrieb 3 Seiten»). Kein zitierfähiger Fachinhalt; die Themen sind belegt in `[[regenwasserbewirtschaftung-versickerung-zh]]` und `[[en-lueftung-kuehlung-zh]]` |
+| [-] `_Private Kontrolle/https.docx` | Reiner Link-Träger (81 Zeichen): `zh.ch/…/baubewilligung/private-kontrolle.html` → belegt in `[[private-kontrolle-zh]]` |
+| [-] `endk.ch/Allgemein Nachweis … Massnahmen/Allgemein Links.docx` | Reiner Link-Träger (77 Zeichen): `endk.ch/…/energienachweis/Kantonale Hauptformulare` → `[[en-zh-nachweis-uebersicht]]` |
+| [-] `endk.ch/Gesuch zur Versickerung … /Bauvorschriften Versickerung.docx` | Reiner Link-Träger: `zh.ch/…/bauvorschriften-versickerung.html` → `[[regenwasserbewirtschaftung-versickerung-zh]]` |
+| [-] `forumenergie.ch/230710_Kurse.docx` | Reiner Link-Träger: `forumenergie.ch/agenda/kurse-fez/662-minergie-updatekurs-2023-02` — Kursangebot, kein Fachinhalt |
+| [-] `Solaranlage/megasol.ch/Photovotaik_https.docx` | Reiner Link-Träger: `megasol.ch/referenzen/kirchgemeindehaus-spiez/` — Referenzobjekt des Herstellers, keine Kennwerte |
+| [-] `wissen.minergie.ch/Kursunterlagen_230926/LINK_Mingergiekurs.docx` | Reiner Link-Träger auf eine Kurs-Fallstudie «sommerlicher Wärmeschutz» → Thema belegt in `[[sommerlicher-waermeschutz-sia180-nachweisverfahren]]` |
+| [-] `wissen.minergie.ch/https.docx` | Reiner Link-Träger: `wissen.minergie.ch/courses/tipps-und-tricks-zu-den-nachweistools` |
+
+### Ergebnis
+
+**Zwei von 16 tragen Fachsubstanz — und beide sind Warnungen, keine Quellen.** Sieben sind
+blosse Link-Träger, zwei sind Dubletten bereits destillierter Quellen, zwei sind amtliche
+Formularvorlagen, eine ist eine Werkzeug-Arbeitsmappe, eine sind Stichwortnotizen, eine ist
+eine JANS-eigene Produktnotiz (Inhalt oben vollständig gesichert).
+
+**Der PL-04-Bestand ist damit erstmals ohne Dateityp-Filter vollständig entschieden.** Die 76
+PNG-Screenshots und die 57 Nachweiskurs-Einzelseiten bleiben nach der Kopfregel bewusst
+ungeführt.

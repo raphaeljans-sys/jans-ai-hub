@@ -1,8 +1,10 @@
 ---
 title: U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-08-17
-sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md]
+last_updated: 2026-08-23 (Run 161: neuer Abschnitt «Einen fremden U-Wert-Rechenweg prüfen —
+  vier Griffe», aus der Prüfung einer KI-erzeugten U-Wert-Rechnung in der Referenzablage PL-04;
+  offen E-R161-1, Tabellenwert ruhende Luftschicht nach SN EN ISO 6946 fehlt in der KB)
+sources: [destillate/enfk-en-102-waermeschutz-2018.md, destillate/enfk-en-02-waermeschutz-2013.md, destillate/sia-380-1-heizwaermebedarf-berechnung.md, destillate/bauphysik-heizwaermebedarf-kennwerte.md, destillate/bfe-u-wert-bauteilekatalog-neubauten-2002.md, destillate/waermebrueckenkatalog-bfe-balkonplatte.md, destillate/muken-2025-verabschiedet.md, destillate/waermebrueckenkatalog-bfe-flachdach-ohne-vordach.md, destillate/waermebrueckenkatalog-bfe-steildach-traufe-ort.md, destillate/waermebrueckenkatalog-bfe-auskragung.md, destillate/waermebrueckenkatalog-bfe-rollladenkasten.md, destillate/waermebrueckenkatalog-bfe-fensterleibung-bruestung-sturz.md, destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md, destillate/ki-generierte-fachdokumente-referenzablage.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]]
 ---
 
@@ -161,6 +163,43 @@ projektspezifischen Nachweis, nicht aber im Grenzwertvergleich); 16 Himmelsricht
 Umkehrdach-Pauschalzuschlag gestrichen → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`.
 Die konkreten neuen Q_H,li0/ΔQ_H,li-Zahlenwerte je Nutzungskategorie bleiben ohne Norm-Volltext
 weiterhin offen.
+
+## Einen fremden U-Wert-Rechenweg prüfen (vier Griffe)
+
+Neu 23.08.2026 (Run 161). Anlass war eine **KI-erzeugte U-Wert-Rechnung**, die in der
+JANS-Referenzablage lag und deren Ergebnis nur rund 8 % daneben lag — bei drei methodischen
+Fehlern, die sich gegenseitig fast aufhoben (→ `[[ki-generierte-fachdokumente-referenzablage]]`,
+FAQ F257). Weil solche Rechnungen zunehmend von Bauherrschaften und Unternehmern mitgebracht
+werden, hier die Prüfreihenfolge, die den Fall aufgedeckt hat. Sie gilt für **jede** fremde
+Rechnung, nicht nur für KI-erzeugte.
+
+**01 Sind R_si und R_se drin?** Die Formel lautet U = 1 / (R_si + Σ d/λ + R_se), mit
+**R_si 0,13 · R_se 0,04 m²K/W** für eine Aussenwand (belegt →
+`[[clt-bauphysik-stora-enso]]`). *Schnelltest:* ist der Kehrwert der blossen Schichtsumme exakt
+das ausgewiesene Resultat, wurden die Übergangswiderstände vergessen. Das rechnet den Aufbau
+**schlechter**, als er ist.
+
+**02 Wie ist eine Luftschicht behandelt?** Ein λ für eine Luftschicht ist immer falsch — nach
+**SN EN ISO 6946** bekommt sie einen tabellierten Wärmedurchlasswiderstand (Dicke,
+Wärmestromrichtung, Belüftungsgrad). ⚠ Dieser Tabellenwert ist in der KB **nicht erfasst**
+(E-R161-1): am Normtext nachschlagen, nicht schätzen.
+
+**03 Steckt eine hinterlüftete Vorsatzschale im Aufbau?** Bei einer **stark belüfteten**
+Luftschicht entfallen nach derselben Norm die Luftschicht **und alle Schichten aussen davon**;
+aussen wird statt R_se nochmals R_si angesetzt. Vorgehängte Bekleidung, Lattung und
+Hinterlüftung tragen dann **null** bei. Sie trotzdem mitzurechnen macht den Aufbau **besser**,
+als er ist — und kompensiert damit oft genau den Fehler aus Griff 01.
+
+**04 Woher stammt jedes λ?** Der stillste Fehler: ein Produkt namentlich nennen und dann mit
+einem Rundwert rechnen, der in keiner Herstellerunterlage steht. Belegte Werte →
+`[[daemmstoffe-lambda]]`, `[[sia-2001-waermedaemmstoffe-lambda]]`; Bauteilaufbauten →
+`[[vorgehen-bauteilekatalog-u-wert]]`, `[[bfe-u-wert-bauteilekatalog-neubauten-2002]]`.
+
+**Und danach die Frage, die keine Rechnung beantwortet:** ist der Zielwert überhaupt der
+richtige? Im Anlassfall wurde ein U-Wert von 0,5 W/m²K als «gefordert» gesetzt — zulässig für
+ein unbeheiztes Biwak ausserhalb SIA 380/1, für jedes reguläre beheizte Gebäude aber rund
+**dreimal** über dem Grenzwert von 0,17 der Tabelle oben. Woher der Zielwert kommt, gehört in
+jede Rechnung hineingeschrieben.
 
 ## Datenstand / Aktualität
 ⚠ Werte SIA 380/1:**2016** / EN-102 2018 (Ausgabe-Zuordnung korrigiert Run 35, 17.08.2026). Kt. ZH operativ über EnerG seit **1.9.2022** (MuKEn 2014).

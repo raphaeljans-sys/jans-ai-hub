@@ -1561,3 +1561,16 @@ Verifikation, Fundstelle (Herausgeber, Ausgabe, Ziffer) zwingend. Herstellerdoku
 Dubletten werden mit `[-]` und Begruendung geschlossen, nicht destilliert. Herausgeber ausserhalb
 SIA/VKF gehoeren **nicht** ins `wiki/REGISTER.md` der Normfassungen, sofern sie keine SN-Nummer
 tragen — Ausnahme `SN592_Liegenschaftsentwaesserung_d.pdf`, die dort einzutragen ist.
+
+## QUESTIONS-Abarbeitung 21 (23.08.2026) — zwei neue Web-Funde, ausserhalb SharePoint-Bestand
+
+Beide Funde entstanden aus offenen `wiki/QUESTIONS.md`-Zeilen (Raumakustik, Suva/EKAS
+Fassadengerüst-Verankerung), nicht aus dem SharePoint-Scan. Registerpflicht gemäss Regel oben
+("Ausnahme SN592..."): beide tragen keine SN-Nummer bzw. SIA 181/1 hat eine — entsprechend
+zusätzlich in `wiki/REGISTER.md` (Abschnitt A bzw. neuer Suva/EKAS-Block in Abschnitt D)
+eingetragen.
+
+| Status | Prio | Quelle | Bemerkung |
+|---|---|---|---|
+| [~] 260823 | P2 | `shop.sia.ch/normenwerk/architekt/181-1_2026_f` (Web, kein SharePoint-Bestand) | SIA 181/1:2026 «Raumakustik», SN 520181/1, gültig ab 01.02.2026 — neue eigenständige Norm, kein Vorgänger. Nur Produktdatenblatt verifiziert (WebFetch); Volltext kostenpflichtig (110 CHF), Bring-Schuld Raphael. Destillat (Stub) `destillate/sia-181-1-2026.md`. Schliesst QUESTIONS-Lücke „keine SIA-Raumakustik-Norm im Bestand" (Mini-Run 30) |
+| [x] 260823 | P2 | `www.suva.ch/44077.d` (Web, kostenlos, kein SharePoint-Bestand zu erwarten) | Suva 44077.d «Fassadengerüste — Sicherheit durch Planung», Ausgabe Januar 2022. Vollständig gelesen (pymupdf-Extraktion des Original-PDF), Destillat `destillate/suva-44077-2022-fassadengeruest-verankerung.md`, status established. Schliesst zusammen mit dem bereits vorhandenen `suva-44066-arbeiten-auf-daechern.md` die QUESTIONS-Zeile „Keine Suva-/EKAS-Richtlinie zu Fassadengerüst-Verankerung/Dachhaken" vollständig |

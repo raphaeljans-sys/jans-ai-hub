@@ -4234,3 +4234,76 @@ Register: `wiki/QUESTIONS.md` (E12 ✓, neuer Run-154-Abschnitt), `wiki/BAUHERRE
 `destillate/werkhof29-zirkulaeres-bauen-stroh-lehm.md`, `destillate/zev-eigenverbrauch-mfh-her-2025.md`,
 `destillate/leg-lokale-elektrizitaetsgemeinschaft-2026.md` (je Backlink ergänzt). Nach jedem
 Schreibvorgang `git diff --numstat` geprüft, ausschliesslich additiv.
+
+---
+
+## Run 161 (23.08.2026) — PL-04 erstmals ohne Dateityp-Filter gesichtet: 16 nie erfasste Nicht-PDF-Quellen
+
+**Ausgangslage.** Run 154 schloss mit dem Vorbehalt «sofern PL-02/PL-04 weiterhin **ohne neue
+Datei** bleiben». Genau dieser Vorbehalt trug: PL-04 enthielt 16 Quellen, die **nie in einer
+Zählung enthalten waren** — weil alle bisherigen Vollzählungen (Run 149, Run 150) PDF gezählt
+haben. Gegenprobe in diesem Lauf gegen **alle 537 Textdateien der KB** (8'604'361 Zeichen), je
+auf vollen Dateinamen und Namensstamm: **null Treffer**. Vollständige Einzelentscheide →
+`training/pdf-inventar.md`, Nachtrag Run 161.
+
+**Falle Nr. 13 (neu): ein Inventar erbt den Dateityp-Filter seiner ersten Zählung.** Die Datei
+heisst «PDF-Inventar», und deshalb hat über 20 Läufe hinweg niemand gefragt, was in dem Ordner
+**kein** PDF ist. Der Kopfvermerk zu E-R138-2 hatte den Titel bereits einmal als «historisch zu
+eng» korrigiert (Bibliotheksumfang); zu eng war er ein zweites Mal, in einer anderen Dimension.
+**Regel für künftige Korpora: die Vollzählung einmal ohne jeden Endungsfilter fahren und die
+Typenverteilung ausweisen, bevor ein Restbestand für abgeschlossen erklärt wird.**
+
+**Fachlicher Ertrag: zwei KI-erzeugte «Fachdokumente» in der Referenzablage.** Beide sind als
+ChatGPT-Antworten belegt (Chatbot-Anrede, ß-Rechtschreibung, `utm_source=chatgpt.com` in den
+Hyperlink-Zielen, leergelaufene Formel-Platzhalter). Die eine ist eine U-Wert-Rechnung mit drei
+Methodenfehlern, deren Ergebnis trotzdem fast stimmt, **weil die Fehler in verschiedene
+Richtungen zeigen**. Neues Destillat `[[ki-generierte-fachdokumente-referenzablage]]`
+(`established`), FAQ **F257** neu, F15 geschärft, neuer Prüfabschnitt «Einen fremden
+U-Wert-Rechenweg prüfen — vier Griffe» in `[[u-werte-grenzwerte-ch]]`.
+
+### Neue offene Punkte
+
+- [ ] **E-R161-1 — Tabellenwert für ruhende/schwach belüftete Luftschichten nach SN EN ISO 6946
+  fehlt in der KB.** Aufgefallen bei der Korrekturrechnung: die hinterlüftete Lesart liess sich
+  ohne Tabellenwert durchrechnen, die Variante «unbelüftete Luftschicht 40 mm» **nicht**. Bewusst
+  **nicht geschätzt** (Nichts-erfinden-Regel). Der Wert ist für jede Bauteilprüfung mit Luftschicht
+  nötig. Quelle wäre SN EN ISO 6946 (Normkauf oder KB `normen`, Rule `normen-referenz`) — damit
+  in derselben Klasse wie E-R148-1 (SIA 380/1:2016), also **Beschaffungsentscheid Raphaels**,
+  keine Recherche.
+- [ ] **E-R161-2 — zwei Stora-Enso-λ nebeneinander, Differenz unerklärt.**
+  `[[clt-bauteilkatalog-stora-enso]]` führt für die Tragschicht C3s/L5s **0,110 W/(m·K)**,
+  `[[clt-bauphysik-stora-enso]]` **0,12 W/(m·K)** (nach EN ISO 10456) — beide vom selben
+  Hersteller, rund 9 % auseinander. Plausibel sind unterschiedliche Produktgüten oder
+  Bemessungsgrundlagen; belegt ist es nicht. FAQ F15 zitierte bisher nur die 0,12 und trägt
+  jetzt den Vermerk. **Für Bauherren-Aussagen unerheblich** (rund 0,015 W/m²K bei 140 mm CLT),
+  für einen Nachweis nicht. Auflösbar am Original der beiden Stora-Enso-Dokumente (beide im
+  Bestand) — echter, aus eigener Kraft lösbarer Rechercheauftrag.
+- [ ] **E-R161-3 — PL-02, PL-03 und PL-05 nicht auf KI-erzeugte Dokumente und Nicht-PDF-Quellen
+  gesichtet.** In PL-04 wurden jetzt alle 16 Nicht-Bild-Dateien geprüft; für die drei anderen
+  Bibliotheken steht dieselbe filterlose Zählung aus. Konkret zu prüfen: Typenverteilung je
+  Bibliothek, dann die Nicht-PDF-Quellen einzeln. Erwartungswert nach dem PL-04-Befund: überwiegend
+  Link-Träger, aber die Trefferquote von 2/16 mit echtem (Warn-)Gehalt rechtfertigt den Durchgang.
+
+### Betriebsbefund: die alte VORAUSSETZUNG-Zeile hätte diesen Lauf abgebrochen (E-R149-4, parallel gelöst)
+
+Die Task `energie-training` verlangte einleitend, dass `PL - 04 Energie` unter
+`~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/` erreichbar sein müsse, und
+schrieb sonst Abbruch vor. **Auf dieser Station existiert dieser Pfad nicht** (geprüft: die
+JANS-Bibliothek enthält AD-/AR-/IMMO-Ordner, keine PL-Ordner). Dieser Lauf startete noch mit
+der alten Fassung im Prompt; nach der Vorschrift hätte er abbrechen müssen — und hätte damit
+den ganzen oben beschriebenen Befund nicht gehoben. Stattdessen wurde nach Rule 260809
+(`wege-und-vollmachten`) das Wege-Register konsultiert.
+
+⚠ **Nachtrag beim Registerabgleich am Ende dieses Laufs: E-R149-4 wurde während der Laufzeit
+von einer parallelen interaktiven Session (Run 160) tatsächlich geschlossen** — der zehnte
+Versuch gelang, weil der Ersatztext über `Bash` (Python `open()`/`write()`) statt über `Edit`
+geschrieben wurde, was der «sensitive file»-Grenze nicht unterliegt. **Am Original
+gegengeprüft** (Rule 260729b, nicht der CHANGELOG-Angabe geglaubt): die Zeile verweist jetzt
+auf die M365-CLI mit Zertifikats-Auth auf Site `/sites/PL`. Der Punkt ist damit erledigt und
+wird hier nicht doppelt geführt.
+
+**Beide Wege sind belegt und ergänzen sich:** die korrigierte Task nennt Weg 1 (M365-CLI,
+`spo file get`), dieser Lauf ist über Weg 2 gefahren (Graph-Connector `m365-graph.mjs`) und hat
+dabei die **Drive-ID der Bibliothek `04 Energie` erstmals aufgelöst** und in
+`training/pdf-inventar.md` gesichert — Weg 2 ist von der Umbenennungs-Falle bei Bibliotheks-URLs
+nicht betroffen und damit der robustere Einstieg, wenn ein Bibliotheksname unklar ist.

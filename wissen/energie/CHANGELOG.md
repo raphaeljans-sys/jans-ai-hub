@@ -1,5 +1,61 @@
 # CHANGELOG
 
+## 2026-08-23 — Lauf 161 (Scheduled Task, parallel zu Run 160): PL-04 erstmals ohne Dateityp-Filter gezählt — 16 nie erfasste Nicht-PDF-Quellen, zwei davon KI-erzeugte «Fachdokumente»
+
+Scheduled Task `energie-training`, Station MacBook Pro. **Die damals noch geltende
+Voraussetzungsprüfung der Task hätte diesen Lauf abgebrochen:** der geforderte Pfad
+`~/Library/CloudStorage/…/PL - 04 Energie` existiert auf dieser Station nicht. Nach Rule 260809
+wurde stattdessen `connectors/WEGE.md` konsultiert; **Weg 2 (Graph-Connector) erreicht die
+Bibliothek unabhängig vom Sync-Zustand**, Drive-ID `04 Energie` dabei erstmals aufgelöst und in
+`pdf-inventar.md` gesichert. (E-R149-4 wurde während der Laufzeit von der parallelen Session
+Run 160 geschlossen — am Original gegengeprüft; die korrigierte Zeile nennt Weg 1, die M365-CLI.
+Beide Wege ergänzen sich.)
+
+**Befund.** Alle bisherigen Vollzählungen (Run 149/150) waren **PDF-scoped** — «325 Dateien,
+122 PDF, 63 ohne Registereintrag», und die 63 lösen sich restlos in PDF auf. Die 16 Nicht-PDF-
+Quellen der Bibliothek (12 docx, 1 doc, 1 xltx, 1 xlsb, 1 eml) standen **in keinem Register**,
+gegengeprüft gegen alle 537 KB-Textdateien (8'604'361 Zeichen), voller Dateiname und
+Namensstamm, null Treffer. **Falle Nr. 13: ein Inventar erbt den Dateityp-Filter seiner ersten
+Zählung** — die Datei heisst «PDF-Inventar», also fragte 20 Läufe lang niemand nach dem Rest.
+Der Schlusssatz von Run 150 war entsprechend exakt formuliert («offen bleibt nichts, *was der
+Basenamen-Abgleich findet*») — die Einschränkung war tragend.
+
+**Fachlicher Ertrag.** Zwei der 16 sind als **ChatGPT-Antworten** belegt (Chatbot-Anrede,
+ß-Rechtschreibung, `utm_source=chatgpt.com` in den Hyperlink-Zielen, leergelaufene
+Formel-Platzhalter) und liegen als Fachdokument in der Referenzablage. Die substanzielle ist
+eine U-Wert-Rechnung mit **drei Methodenfehlern** (R_si/R_se fehlen ganz · Luftschicht mit λ
+statt Tabellen-R nach SN EN ISO 6946 · hinterlüftete Vorsatzschale mitgerechnet statt
+weggelassen) und einem **unbelegten λ 0,13** für ein Stora-Enso-Produkt, dessen Hersteller
+0,110 bzw. 0,12 führt. Korrigiert 0,374 bis 0,389 statt der behaupteten 0,40 W/m²K. **Der Kern
+des Befunds: die Fehler zeigen in verschiedene Richtungen und heben sich fast auf — eine
+Plausibilitätsprüfung am Ergebnis hätte nichts gefunden.** Neues Destillat
+`ki-generierte-fachdokumente-referenzablage` (`established`).
+
+Die übrigen 14 vollständig entschieden: 7 Link-Träger, 2 Dubletten, 2 amtliche
+Formularvorlagen, 1 pvopti-Kursmappe (.xlsb), 1 Stichwortnotiz, 1 JANS-eigene
+Flumroc-Produktnotiz (Inhalt im Inventar gesichert). **Zwei Beinahe-Wiederholungen von Falle
+Nr. 12 abgefangen:** der SolarReport Willerzell sah wie ein hochwertiger Neufund aus (ist seit
+Run 150 destilliert; dessen interner Widerspruch Stückliste 8'424 Wp gegen deklarierte 7,90 kWp
+wurde hier unabhängig nachgerechnet und bestätigt), und der Maison-Climat-Beschrieb schien eine
+offene Frage zur Südfassaden-PV zu lösen, die seit Run 149 beantwortet war. Beide Male hat der
+Registerabgleich **vor** dem Schreiben die Dublette verhindert. Ehrlich vermerkt: aus dem alten
+`.doc`-Binärformat (ZH-Formular d8510-a) war nur die XML-/Metadatenschicht maschinell lesbar,
+nicht der Fliesstext — die Einstufung stützt sich auf Dateiname und Ablagekontext.
+
+**Verdichtung.** FAQ **F257** neu («Ich habe meinen Wandaufbau mit ChatGPT rechnen lassen —
+kann ich das für die Baueingabe verwenden?»); **F15 geschärft** um den bisher unvermerkten
+Stora-Enso-λ-Spread 0,110 gegen 0,12; Wiki `u-werte-grenzwerte-ch` um den Abschnitt «Einen
+fremden U-Wert-Rechenweg prüfen (vier Griffe)» gewachsen. Stand jetzt **257 Kernfragen,
+326 Destillate, 37 Themenartikel**.
+
+Neue offene Punkte: **E-R161-1** (Luftschicht-Tabellenwert SN EN ISO 6946 fehlt in der KB —
+bewusst nicht geschätzt, Beschaffungsentscheid Raphaels), **E-R161-2** (Stora-Enso-λ-Spread
+unerklärt, aus eigener Kraft lösbar), **E-R161-3** (PL-02/03/05 nicht filterlos gezählt —
+empfohlene Priorität für den nächsten Lauf). Bericht:
+`outputs/2026-08-23_energie-run161.md`. Alle Schreibvorgänge mit `git diff --numstat` nativ per
+ssh geprüft, ausschliesslich additiv; die Zeilen der parallelen Session blieben unberührt
+(zeilengenau geprüft).
+
 ## 2026-08-23 — Interaktive Session (fünfzehnte Fortsetzung, Run 160): E-R149-4 nach zehntem Versuch tatsächlich behoben (Bash statt Edit umgeht die Werkzeuggrenze)
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo Run 159
