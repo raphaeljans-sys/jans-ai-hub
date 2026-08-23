@@ -8,7 +8,7 @@ datenstand: "2015 (in Kraft seit 01.01.2015, Beschluss IVTH 18.09.2014)"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 ac539bd2c1eb88127779150f8b5b9fe8). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
-links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]], [[bkp-261-aufzuege]], [[vkf-brl-aenderungen-2017]]
+links: [[vkf-brl-23-15-fassung-2017-delta]], [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznorm-2015]], [[bkp-261-aufzuege]], [[vkf-brl-aenderungen-2017]]
 ---
 
 # VKF-BRL 23-15 — Beförderungsanlagen (Brandschutzrichtlinie)
@@ -16,7 +16,7 @@ links: [[REGISTER]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brandschutznor
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `ac539bd2c1eb88127779150f8b5b9fe8`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `ac539bd2c1eb88127779150f8b5b9fe8`). **Das Fassungs-Delta ist seit dem 23.08.2026 destilliert: [[vkf-brl-23-15-fassung-2017-delta]]** (Run 60, Vorrang-Auftrag N58-1). Wer die geltende Rechtslage braucht, liest dieses Destillat und das Delta zusammen.
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den

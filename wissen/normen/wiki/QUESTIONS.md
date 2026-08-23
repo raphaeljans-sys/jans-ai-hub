@@ -11,7 +11,29 @@ Frontmatter-Aussage des Destillats nachträglich belegt.
 
 ---
 
-### ⚠ N58-1 — Die Fassungs-Deltas der überholten VKF-Destillate: 5 von 23 erledigt, 18 offen
+### ⚠ N58-1 — Die Fassungs-Deltas der überholten VKF-Destillate: **20 von 23 erledigt, 3 Sonderfälle offen**
+
+> ✅ **Der Sammelposten 01.01.2017 ist mit Run 60 (23.08.2026) vollständig abgearbeitet.** Alle
+> fünfzehn Publikationen des Rangs 5 haben ihr Delta-Destillat: 17-15, 18-15, 20-15, 21-15, 23-15,
+> 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15. Dazu die 13-15
+> als unabhängige Gegenprobe zum Inline-Delta aus Run 23. Alle `speculative`, alle mit
+> Prüfstand-Tabelle; jede in der amtlichen Änderungsliste genannte Tabelle und Zeichnung wurde
+> gerendert statt extrahiert.
+>
+> **Offen bleiben nur drei Sonderfälle, und keiner ist ein gewöhnlicher Delta-Auftrag:**
+> **103-15** (am 31.08.2025 zurückgezogen — nachzuvollziehen ist die Zurückziehung, nicht ein
+> Delta; N58-2), **12-15 und 26-15** (Teilrevision 2026, erfasst in
+> `vkf-teilrevision-2026-pyrotechnik.md` — zu prüfen ist nur, ob jenes Destillat die
+> Bestandsdestillate ausreichend ersetzt) und **27-15** (N58-3).
+>
+> ⚠ **Der wichtigere Rückstand ist ein anderer.** Destilliert wurde jeweils, *was sich geändert
+> hat*. Ob die Bestands-Destillate ihre eigene Fassung vollständig abbilden, ist auf **keinem**
+> VKF-Destillat geprüft. Nach Methodik-Pflicht 13 kann deshalb keines auf `established`. Die
+> Abdeckungsrichtung ist der nächste grosse Schritt dieser Familie, nicht ein weiterer Delta-Lauf.
+
+---
+
+### Ursprünglicher Wortlaut (Stand Run 59)
 
 > ✅ **Teilerledigung Run 59 (22.08.2026).** Die vier vorrangig genannten Publikationen **und**
 > zusätzlich 104-15 sind destilliert: `vkf-brl-10-15-fassung-2019-delta.md`,
@@ -3251,3 +3273,114 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
 - Warum das zaehlt: Jeder Abnehmer, der über den Link auf SIA 416 in 382/2 nachschlaegt, landet auf der falschen Norm (Flaechen/Volumen statt Gebaeudetechnik-Kennzahlen).
 - Herkunft: Refuter-Run 49 (13.08.2026), Nebenbefund zu `destillate/sia-382-2-2011.md`.
 - Naechster Schritt: SIA 416/1:2007 aus dem Original destillieren (falls im Bestand PL-02_Recht_Norm vorhanden) und den Link in `sia-382-2-2011.md` umhaengen.
+
+## 260823 — VKF BRL 13-15: Delta 2015→2017 liegt an zwei Orten (Duplikat, nicht konsolidiert)
+- Frage: `vkf-brl-13-15-baustoffe-bauteile.md` traegt seit 25.07.2026 (Run 23) einen eigenen,
+  `established` gefuehrten Inline-Abschnitt «Fassung 01.01.2017 — Delta». Run 60 (23.08.2026) hat
+  unabhaengig davon, gemaess der seit Run 59 gefuehrten Konvention (eigene Delta-Datei je
+  Publikation, z.B. `vkf-brl-10-15-fassung-2019-delta.md`), zusaetzlich
+  `vkf-brl-13-15-fassung-2017-delta.md` erstellt. Beide kommen unabhaengig zum selben Ergebnis
+  (Gegenprobe bestanden), aber welcher Ort kuenftig kanonisch ist und ob der Inline-Abschnitt in
+  eine reine Verweiszeile gekuerzt werden soll, ist nicht entschieden.
+- Warum das zaehlt: zwei Orte fuer denselben Sachverhalt driften bei der naechsten Aenderung
+  auseinander, wenn nur einer nachgefuehrt wird.
+- Herkunft: Run 60, Auftrag «VKF-Fassungs-Deltas 01.01.2015 → 01.01.2017», Publikation 13-15.
+- Naechster Schritt: Entscheiden, ob der Inline-Abschnitt in `vkf-brl-13-15-baustoffe-bauteile.md`
+  auf eine kurze Verweiszeile zur neuen Delta-Datei gekuerzt wird (Konsistenz mit 10-15/11-15/
+  104-15/108-15/40-15/17-15), oder ob die neue Datei wieder entfernt und stattdessen der bestehende
+  Inline-Abschnitt als Referenz aus dem Register verlinkt wird.
+
+## 260823 — VKF BRL 17-15: Begriffe «Verkaufsraeume» und «Technikraum Sicherheitsstromversorgung» nicht in dieser Richtlinie definiert
+
+> ✅ **TEIL 1 (Verkaufsraeume) GESCHLOSSEN am 23.08.2026 durch den Hauptprozess, Run 60.** Die
+> Vermutung im Fragetext, die Begriffsbildung sei erst 2019 gekommen, trifft **nicht** zu. Die
+> BRL 10-15 definiert «Verkaufsraeume» als Raeume fuer den Warenverkauf, die weder unter «Raeume
+> mit grosser Personenbelegung» noch unter «Verkaufsgeschaefte» fallen, mit der ausdruecklichen
+> Zuweisung «es gelten die nutzungsbezogenen Anforderungen an Gewerbe und Industrie» — und dieser
+> Begriff gehoert zu den zehn Begriffen des **IOTH-Beschlusses vom 22.09.2016**, also zur Fassung
+> **01.01.2017**. Definition und Tabellenanwendung stammen damit aus **demselben Beschluss**: die
+> 17-15 verschiebt «Verkaufsraeume» genau in jene Zeile, der die 10-15 sie definitorisch zuweist.
+> Die Tabellenaenderung ist also kein isoliertes Absenken, sondern der Vollzug einer Definition.
+> Ausgefuehrt und belegt im Destillat `vkf-brl-17-15-fassung-2017-delta.md`, Abschnitt «Offene
+> Punkte»; Tabellenvergleich vom Hauptprozess an eigenen Renderings (200 dpi, gedruckte S. 9)
+> unabhaengig nachgelesen.
+>
+> ⚠ **TEIL 2 (Technikraum Sicherheitsstromversorgung) bleibt offen.** Ob dieser Begriff im Glossar
+> BRL 10-15 gefuehrt wird, wurde in Run 60 nicht geprueft.
+- Frage: Der Anhang zu Ziff. 2.2 (S. 9, Fassung 2017) fuehrt die Nutzungskategorie
+  «Verkaufsraeume» neu getrennt von «Verkaufsgeschaefte», ohne beide Begriffe zu definieren. Der
+  Anhang zu Ziff. 3.3.2 (S. 12) verlangt neu einen Brandabschnitt «Technikraum
+  Sicherheitsstromversorgung», ebenfalls ohne Definition in dieser Richtlinie. `vkf-brl-10-15-
+  fassung-2019-delta.md` fuehrt «Verkaufsraeume» als 2019 neu eingefuehrten Begriff mit Abgrenzung
+  zu «Verkaufsgeschaefte» und «Raeume mit grosser Personenbelegung» — deckt sich das mit der
+  hiesigen 2017er-Tabellenzeile, oder ist die Begriffsbildung 2019 eine Praezisierung, die erst
+  nach der 17-15-Aenderung 2017 kam?
+- Warum das zaehlt: ohne Begriffsklaerung ist die praktisch wichtige Frage «gilt eine Flaeche als
+  Verkaufsraum (Empfehlungszeile) oder Verkaufsgeschaeft (Pflichtzeile)» nicht aus der KB
+  beantwortbar.
+- Herkunft: Run 60, Delta-Destillat `vkf-brl-17-15-fassung-2017-delta.md`.
+- Naechster Schritt: `vkf-brl-10-15-fassung-2019-delta.md` und `vkf-brl-17-15-fassung-2017-delta.md`
+  gegenseitig verlinken und pruefen, ob die 2019er-Begriffsdefinition rueckwirkend auf die
+  2017er-Tabelle anwendbar ist (unterschiedliche Fassungsdaten derselben Fragestellung).
+
+
+---
+
+## 260823 — N60-1: Die AFC-Synopse 2017 ist zweimal destilliert (ENTSCHEID RAPHAEL nötig)
+
+- **Frage:** Dieselbe Quelle — `Aenderungen_Brandschutzrichtlinien_VKF-2017.pdf` (AFC Basel,
+  Autorin Lisa Hugenschmidt) — liegt in dieser KB als **zwei** Destillate vor:
+  `vkf-aenderungen-brandschutzrichtlinien-2017.md` (13.07.2026) und `vkf-brl-aenderungen-2017.md`
+  (21.07.2026). Beide `established`, beide mit denselben vierzehn Abschnitten und denselben
+  Seitenbezügen. Sie sind unabhängig voneinander entstanden. Sollen sie zusammengelegt werden,
+  und wenn ja, welche Fassung ist die Basis?
+- **Warum das zählt:** Zwei Orte für denselben Sachverhalt driften bei der nächsten Änderung
+  auseinander, wenn nur einer nachgeführt wird — und dieser Fall ist bereits eingetreten: die
+  ältere der beiden gab die **Gesamthöhe** der Fassung 2017 falsch wieder («um den Dachrand»
+  statt «um die Dachfläche … über dem tiefst gelegenen Teil des massgebenden Terrains»), die
+  jüngere von Anfang an richtig. Der Fehler betraf die Messvorschrift, an der die Einstufung
+  geringe Höhe / mittlere Höhe / Hochhaus hängt.
+- **Was Run 60 bereits getan hat:** Die falsche Stelle ist **inline korrigiert**
+  (Methodik-Pflicht 9), beide Destillate tragen einen gegenseitig verlinkten
+  Doppelbestand-Kasten, und `vkf-brl-aenderungen-2017.md` ist bis zum Entscheid als **führend**
+  gekennzeichnet (umfangreicher, an den geprüften Stellen genauer).
+- **Warum es nicht selbst entschieden wurde:** Artikel zusammenlegen oder löschen ist destruktiv;
+  nach Rule `wissens-bibliothekar` pausiert Claude dort und fragt.
+- **Nächster Schritt (Vorschlag):** `vkf-brl-aenderungen-2017.md` behalten, das ältere Destillat
+  auf eine Verweiszeile kürzen. Dieselbe Frage stellt sich für das Delta der **BRL 13-15**, das
+  jetzt inline im Bestandsdestillat **und** als eigene Datei geführt wird (Eintrag oben, 260823).
+- **Herkunft:** Run 60, 23.08.2026.
+
+## 260823 — N60-2: Vorschlag Methodik-Pflicht 14 (FREIGABE RAPHAEL, nicht selbständig umgesetzt)
+
+> Verliert eine VKF-**Arbeitshilfe** oder **Brandschutzerläuterung** zwischen zwei Fassungen eine
+> Anforderung, wird das **nicht** als Lockerung protokolliert, bevor die zitierte Ziffer der
+> **Mutterrichtlinie** in der entsprechenden Fassung nachgelesen wurde. Steht die Anforderung dort
+> weiter, lautet der Befund «aus der Wiedergabe entfallen, materiell unverändert in Kraft» — und
+> er ist als **Warnung** zu führen, nicht als Erleichterung.
+
+- **Der Beleg, und er ist nicht konstruiert.** Die AH 1002-15 «Schulbauten» führte 2015 in
+  Ziff. 7.3.2 zwei Auslöser für zwei vertikale Fluchtwege: Geschossfläche über 900 m² (zitiert als
+  «BSR16-15, Z.2.4.2, A1») und Räume mit über 100 Personen (zitiert als «A2»). Die Fassung 2017
+  nennt nur noch das Flächenkriterium und zitiert nur noch «A1»; das Wort «100 Personen» kommt in
+  der ganzen Fassung 2017 kein einziges Mal mehr vor. Der Destillier-Agent meldete das als
+  grössten sicherheitsrelevanten Fund des Laufs — als **Lockerung**. Die Gegenprüfung an der
+  **BRL 16-15, Fassung 01.01.2017** (Hausbestand, Titelblatt abgelesen) zeigt: Ziff. 2.4.2 Abs. 2
+  führt die Anforderung **unverändert**. Ohne diese Prüfung wäre der Befund mit umgekehrtem
+  Vorzeichen ins Register gegangen, und ein Planer, der sich darauf stützt, hätte einen zweiten
+  vertikalen Fluchtweg weggelassen, den die Richtlinie verlangt. Für eine Aula oder Mehrzweckhalle
+  mit über 100 Personen ist das der Regelfall.
+- **Zweiter Ertrag aus demselben Griff:** die im selben Destillat als «nicht angepasster
+  Textbaustein» gemeldete Fussnote «Beherbergungsbetriebe **[a]**» stammt aus **Abs. 3 derselben
+  Richtlinienziffer**. Auch dieser Absatz ist in der Arbeitshilfe nicht wiedergegeben. Es ist
+  dasselbe Muster, nicht ein zweiter Fehler.
+- **Der eingebaute Zeiger:** Diese Publikationen zitieren ihre Grundlage mit Fundstelle. Der
+  **weggefallene Verweis** («A2» steht 2015 da und 2017 nicht mehr) sagt genau, wo nachzulesen
+  ist. Die Pflicht ist damit billig zu erfüllen.
+- **Verhältnis zu den bestehenden Pflichten:** MP 7 verlangt, einen Agentenbefund gegen den
+  **ganzen Bestand** zu prüfen statt nur gegen die Stelle; MP 10 zieht dieselbe Regel für Befunde
+  von aussen. MP 14 zöge sie eine Ebene höher — gegen die **übergeordnete Rechtsquelle**.
+- **Nicht selbständig umgesetzt** gemäss dem Entscheid vom 17.08.2026 (nach Run 54 wurde von drei
+  vorgelegten Pflichten nur MP 13 freigegeben; MP 11 und die MP-12-Erweiterung bleiben Vorschlag).
+  Dieser Vorschlag bringt einen neuen, eigenständigen Beleg mit.
+- **Herkunft:** Run 60, 23.08.2026.

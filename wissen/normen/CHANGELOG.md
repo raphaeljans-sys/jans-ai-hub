@@ -1,4 +1,69 @@
-## 2026-08-23 — Run 60: zwei VKF-Fassungs-Deltas (13-15, 17-15) per Rendering geprueft
+## 2026-08-23 — Run 60: der VKF-Jahrgang 2017 vollstaendig, plus drei Befunde in der KB selbst
+
+**Der Vorrang-Auftrag N58-1 ist bis auf drei Sonderfaelle erledigt.** Sechzehn Fassungspaare
+2015 gegen 2017 beschafft (alle MD5 deckungsgleich mit der Matrix aus Run 58), Fassungsdaten am
+gedruckten Titelblatt abgelesen, amtliche Aenderungsliste je Publikation ausgelesen, Volltext-Diff
+als Kontrolle darueber gelegt, jede gelistete Tabelle und Zeichnung gerendert statt extrahiert
+(Methodik-Pflicht 8).
+
+**Neu — fuenfzehn Delta-Destillate, alle `status: speculative`:**
+`vkf-brl-18-15-`, `-20-15-`, `-21-15-`, `-23-15-`, `-24-15-`, `-25-15-`, `-100-15-`, `-101-15-`,
+`-102-15-`, `-105-15-`, `-106-15-`, `-107-15-fassung-2017-delta.md` sowie
+`vkf-ah-1000-15-` und `vkf-ah-1002-15-fassung-2017-delta.md`; dazu
+`vkf-brl-13-15-fassung-2017-delta.md` als unabhaengige Gegenprobe zum Inline-Delta aus Run 23.
+Alle sechzehn Bestands-Destillate nachgefuehrt (Warnkasten verweist neu auf das Delta,
+`links:`-Zeile ergaenzt).
+
+**N59-1 beantwortet.** «(cr)» steht fuer *comportement critique* und ist ein
+**Anwendungsbeschraenkungs-Flag innerhalb** einer RF-Gruppe, keine eigene Stufe. Die EN-Klassen
+**E und E-d2** (Bauprodukte) sowie **EL und EL-d2** (lineare Rohrdaemmungen) wandern 2017 von
+**RF4 (cr) nach RF3 (cr)**; die RF4-Zeile zeigt seither in allen Produktspalten «–». Praktisch:
+ein Produkt der Klasse E erfuellt eine Anforderung «RF3» **nie**, eine Anforderung «RF3 (cr)»
+seit 2017 **schon**. Vom Hauptprozess am eigenen Rendering beider Fassungen abgelesen.
+
+**Korrigiert — drei Befunde, welche die KB selbst betreffen:**
+
+1. **Doppelbestand.** Die AFC-Synopse 2015↔2017 ist **zweimal** destilliert
+   (`vkf-aenderungen-brandschutzrichtlinien-2017.md` und `vkf-brl-aenderungen-2017.md`), beide
+   `established`, beide mit denselben vierzehn Abschnitten. Und die aeltere gab die
+   **Gesamthoehe** falsch wieder: sie liess die Fassung 2017 «um den Dachrand» messen, wo das
+   Original «um **die Dachflaeche** … ueber dem tiefst gelegenen Teil des massgebenden Terrains»
+   sagt — der Begriff der alten Fassung war in den Satz der neuen gerutscht. An der Gesamthoehe
+   haengt die Einstufung geringe Hoehe / mittlere Hoehe / Hochhaus. Am 200-dpi-Rendering
+   beidseitig abgelesen, **inline korrigiert** (Methodik-Pflicht 9); beide Destillate tragen neu
+   einen Doppelbestand-Kasten. Die Zusammenlegung ist destruktiv und liegt bei Raphael (N60-1).
+2. **Datierung.** `vkf-brl-11-15-fassung-2019-delta.md` verglich die Endpunkte 2015 und 2019 und
+   liess offen, wann was geschah. Die Lockerung **Brandschutzkonzept bei QSS 3 von ● auf ○**
+   stammt aus dem Beschluss **22.09.2016**, gilt also seit der Fassung **01.01.2017**; die
+   Umbenennung in «(Bericht)» und der Wechsel bei QSS 1 stammen aus dem Beschluss 20.09.2018.
+   Zwei unabhaengige Belege (Aenderungsliste der Fassung 2019, die beide Beschluesse getrennt
+   ausweist; AFC-Synopse Folie 5, wo die Zelle QSS 3 die einzige gelb markierte Aenderung ist).
+3. **Umgekehrter Kernbefund, AH 1002-15 Schulbauten.** Ein Agent meldete als groessten
+   sicherheitsrelevanten Fund, das Kriterium «> 100 Personen → zwei vertikale Fluchtwege» sei in
+   Ziff. 7.3.2 ersatzlos entfallen. Die Beobachtung stimmt, die Schlussfolgerung war falsch — und
+   zwar in der gefaehrlichen Richtung: die **BRL 16-15, Fassung 01.01.2017**, fuehrt die
+   Anforderung in Ziff. 2.4.2 Abs. 2 **unveraendert**. Sie ist nicht abgeschafft, sondern nur aus
+   der Arbeitshilfe verschwunden; wer der Arbeitshilfe folgt, laesst einen Fluchtweg weg, den die
+   Richtlinie verlangt. Inline korrigiert samt Kurzfassung.
+
+**Zwei Muster fuer kuenftige Laeufe.** Die **BSE 107-15** liefert den zweiten belegten Fall einer
+**unvollstaendigen Aenderungsliste** (Ziff. 3.2 «1'100 kg» → «1'100 kg netto» steht nicht darauf)
+— der Gegenbeleg der **BRL 24-15**, wo derselbe Verdacht geprueft und **widerlegt** wurde, gehoert
+dazu. Und aus dem Schulbau-Fall folgt die Raphael zur Freigabe vorgelegte **Methodik-Pflicht 14**:
+ein Wegfall in einer Arbeitshilfe wird nicht als Lockerung protokolliert, bevor die zitierte
+Ziffer der Mutterrichtlinie nachgelesen ist.
+
+**Nicht geleistet:** keine Abdeckungsrichtung (nur geprueft, *was sich geaendert hat*, nicht ob
+die Bestands-Destillate ihre Fassung vollstaendig abbilden), keine unabhaengige Refuter-Runde
+ueber die sechzehn neuen Destillate. Deshalb bleibt keines auf `established`. Elf Nachpruefungen
+des Hauptprozesses am Original, davon **zwei Widerlegungen und eine Umkehrung** — alle drei
+betrafen die **Deutung** einer richtig abgelesenen Beobachtung, keinen falschen Zahlenwert.
+
+Lauf-Report: `outputs/2026-08-23_normen-nacht-run60.md`.
+
+---
+
+## 2026-08-23 — Run 60 (Teilprotokoll des Destillier-Agenten): VKF-Fassungs-Deltas 13-15 und 17-15
 
 **Neu:** `vkf-brl-17-15-fassung-2017-delta.md` (`status: speculative`) — schliesst die von Run 58
 offen gelassene Luecke (Warnkasten «Delta NICHT destilliert» im Bestandsdestillat). Drei materielle

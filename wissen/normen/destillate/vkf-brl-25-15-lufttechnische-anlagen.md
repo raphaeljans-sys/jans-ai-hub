@@ -9,7 +9,7 @@ status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung ver
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 80aabbf40ca5c555f8e8cf5fc206d368). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 29/29 Seiten, keine Sachfehler gefunden, 1 Praezisierung Sicherheitsabstaende Ziff. 4.3.1 Anhang S. 27)"
-links: [[vkf-brandschutznorm-2015]] [[vkf-brl-16-15-flucht-rettungswege]] [[vkf-brl-verwendung-baustoffe]] [[vkf-brl-nachweisverfahren]] [[REGISTER]]
+links: [[vkf-brl-25-15-fassung-2017-delta]], [[vkf-brandschutznorm-2015]] [[vkf-brl-16-15-flucht-rettungswege]] [[vkf-brl-verwendung-baustoffe]] [[vkf-brl-nachweisverfahren]] [[REGISTER]]
 ---
 
 # VKF-BRL 25-15 — Lufttechnische Anlagen
@@ -17,7 +17,7 @@ links: [[vkf-brandschutznorm-2015]] [[vkf-brl-16-15-flucht-rettungswege]] [[vkf-
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `80aabbf40ca5c555f8e8cf5fc206d368`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `80aabbf40ca5c555f8e8cf5fc206d368`). **Das Fassungs-Delta ist seit dem 23.08.2026 destilliert: [[vkf-brl-25-15-fassung-2017-delta]]** (Run 60, Vorrang-Auftrag N58-1). Wer die geltende Rechtslage braucht, liest dieses Destillat und das Delta zusammen.
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den

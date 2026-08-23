@@ -31,7 +31,7 @@ links: [[sia-register-2013]]
 
 | Gemeldet | Norm | Meldung | Abnehmer nachgeführt? |
 |---|---|---|---|
-| 23.08.2026 (Run 60) | **VKF BRL 17-15, 13-15** | 17-15: Delta 01.01.2015→01.01.2017 destilliert (`vkf-brl-17-15-fassung-2017-delta.md`), drei materielle Punkte — 15-s-Frist Ziff. 3.2.2 entfallen, «Verkaufsräume» Anhang zu Ziff. 2.2 in die Empfehlungszeile verschoben, Schutzstrecke Anhang zu Ziff. 3.3.2 neu bis Brandabschnitt «Technikraum Sicherheitsstromversorgung». 13-15: unabhängige Gegenprobe des bereits bestehenden Delta (Run 23, 25.07.2026) bestätigt dessen Befund (E/E-d2/EL/EL-d2 RF4(cr)→RF3(cr)); **die beiden Delta-Orte für 13-15 sind dupliziert (inline im Bestandsdestillat UND eigene Datei), nicht konsolidiert** | offen — Skill `brandschutz`/`ausschreibung` (feste 15-s-Prüfgrösse Sicherheitsbeleuchtung, Verkaufsräume-Einstufung) noch nicht auf die 17-15-Änderung geprüft |
+| 23.08.2026 (Run 60) | **VKF-Jahrgang 2017, 16 Publikationen** | Der Sammelposten 01.01.2017 des Vorrang-Auftrags N58-1 ist vollstaendig destilliert: 15 Delta-Destillate plus die 13-15 als Gegenprobe, alle `speculative`, jede in der Aenderungsliste genannte Tabelle gerendert statt extrahiert. **N59-1 beantwortet** («(cr)» = Anwendungsbeschraenkungs-Flag innerhalb einer RF-Gruppe; E/E-d2 wandern RF4→RF3 (cr)). **Drei Befunde in der KB selbst:** die AFC-Synopse ist **doppelt destilliert** und die aeltere Fassung gab die **Gesamthoehe** falsch wieder (inline korrigiert, N60-1 zum Entscheid); die QSS-Lockerung bei QSS 3 ist neu auf den Beschluss 22.09.2016 **datiert** statt pauschal dem Schritt 2019 zugeschlagen; und bei **AH 1002-15 Schulbauten** wurde ein Agentenbefund **umgekehrt** — das Kriterium «>100 Personen → zwei vertikale Fluchtwege» ist aus der Arbeitshilfe verschwunden, gilt aber unveraendert nach BRL 16-15 Ziff. 2.4.2 Abs. 2 weiter | offen — Skill `brandschutz`: 15-s-Frist Sicherheitsbeleuchtung entfallen, Verkaufsraeume-Einstufung, Schulbau-Fluchtwege (**Richtlinie zitieren, nicht die Arbeitshilfe**); Skill `ausschreibung`: RF3 (cr) statt RF3, Storz-Kupplung kumulativ. Abdeckungsrichtung auf keinem VKF-Destillat gelaufen |
 | 20.08.2026 (Run 58) | **VKF BRL 103-15 «Cheminées»** | **am 31.08.2025 zurückgezogen**, keine Nachfolge-Erläuterung bekannt (`N58-2`). Nicht mehr als Fundstelle zitieren | ✅ `planungsgrundlagen` §5ai (Run 38). `skills/brandschutz` trug es bereits |
 | 20.08.2026 (Run 58) | **VKF BRL 12-15 / 26-15** | Teilrevision **01.04.2026** in Kraft: Feuerwerk **F1 in öffentlich zugänglichen Räumen neu verboten**; «Kategorie 1 ist ausgenommen» ist falsch. Delta in [[vkf-teilrevision-2026-pyrotechnik]] | ✅ beidseitige Kante zu `energie` gesetzt (Run 38) |
 | 20.08.2026 (Run 58) | **VKF BRL 17-15**, Ziff. 3.2.2 | Die **15-Sekunden-Frist der Sicherheitsbeleuchtung ist mit der Fassung 01.01.2017 entfallen** («Stand der Technik»). Keine feste Zahl mehr zitierbar | ✅ `planungsgrundlagen` §5r (Run 38) |
@@ -415,7 +415,7 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   Die 23 betroffenen Destillate tragen seit dem 20.08.2026 einen Fassungs-Warnkasten und den
   Status `superseded`.
 
-  ### ✅ Fassungs-Deltas destilliert — 6 von 23 (Run 59 + Run 60, 22.-23.08.2026)
+  ### ✅ Fassungs-Deltas destilliert — 20 von 23 (Run 59 + Run 60, 22.-23.08.2026)
 
   | Publikation | geltende Fassung | Delta-Destillat | Kern der Änderung |
   |---|---|---|---|
@@ -425,6 +425,21 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   | **BSE 104-15** Spänefeuerungen | 01.12.2022 | `vkf-brl-104-15-fassung-2022-delta.md` | Silo-Baustoff **RF1 → RF3 (cr)**; neu **automatisches mechanisches Austragungssystem** (Verzicht nur bis 45 m²); Entstauber-Bemessung auf **SN EN 16770** umgestellt (8'000 m³/h bzw. 3.5 m³ Rohluftbereich) |
   | **Verz. 40-15** Weitere Bestimmungen | 11.06.2025 | `vkf-verz-40-15-fassung-2025-delta.md` | **die Ausgabejahre der SN-/DIN-Referenzen sind entfallen**, dafür SIA-Parallelnummern; neu Eurocode-Serie Brandfall und Abschnitt 2.18 (Literaturbasis Nachweisverfahren); Aufzugs- und Druckgeräteverordnung neu **SR 930.112 / 930.114** |
   | **BRL 17-15** Kennzeichnung Fluchtwege/Sicherheitsbeleuchtung | 01.01.2017 | `vkf-brl-17-15-fassung-2017-delta.md` (Run 60, 23.08.2026) | **15-Sekunden-Frist der Sicherheitsbeleuchtung (Ziff. 3.2.2) entfallen**, ersetzt durch «Stand der Technik»; Nutzungskategorie **«Verkaufsräume» von der Pflichtzeile in die Empfehlungszeile verschoben** (Anhang zu Ziff. 2.2); Schutzstrecke der Anschlussleitung neu **bis zum Brandabschnitt «Technikraum Sicherheitsstromversorgung»** statt bis zur Sicherheitszuleitung (Anhang zu Ziff. 3.3.2) |
+  | **BRL 18-15** Löscheinrichtungen | 01.01.2017 | `vkf-brl-18-15-fassung-2017-delta.md` | Anhangtabelle S. 8: Zeile «Verkaufsräume ≤ 1'200 m²» kehrt das Personenzahl-Kriterium um (**«mehr als 300» → «≤ 300 Personen»**) — Entdopplung gegenüber «Räume mit grosser Personenbelegung», zugleich **neue HFL-Pflicht für kleine Verkaufsräume mit wenig Publikum**; Entnahmestelle neu Feuerhahn 2″ **jeweils mit** Storz 55/75 statt «oder» |
+  | **BRL 20-15** Brandmeldeanlagen | 01.01.2017 | `vkf-brl-20-15-fassung-2017-delta.md` | neuer Ziff. 3.2.2 lit. k «separate Pellets- und Schnitzellager»; Erleichterung im neuen lit. l: bei überschrittener Brandbelastung teils **Bereichsüberwachung entlang der Kabeltrasse** statt Vollüberwachung |
+  | **BRL 21-15** Rauch- und Wärmeabzugsanlagen | 01.01.2017 | `vkf-brl-21-15-fassung-2017-delta.md` | Ziff. 3.4.1: bei Atriumbauten **«Grundfläche» → «Atriumsfläche»** (Schwelle 2'400 m² unverändert, Bezugsfläche neu); Anhangtabelle S. 13: **Fussnote [3] (3'600-m²-Deckelung) wandert von LRWA zu NRWA und MRWA** |
+  | **BRL 23-15** Beförderungsanlagen | 01.01.2017 | `vkf-brl-23-15-fassung-2017-delta.md` | Ziff. 3.6 Abs. 2: Aufzugsschachttüren dürfen bei Anlagen in **nur ein Untergeschoss** direkt in eine Nutzungseinheit münden (E30/E60), bisher zwingend über Schleuse/Fluchtweg/Vorplatz |
+  | **BRL 24-15** Wärmetechnische Anlagen | 01.01.2017 | `vkf-brl-24-15-fassung-2017-delta.md` | nur Anhang: Lagermengen (10 m³ fest bzw. 8'000/4'000 l flüssig) gelten neu ausdrücklich **unabhängig von der Nennwärmeleistung**; Definition «Gleichwertiges Material» sprachlich auf «Brandverhaltensgruppe» umgestellt, Zahlenwerte unverändert |
+  | **BRL 25-15** Lufttechnische Anlagen | 01.01.2017 | `vkf-brl-25-15-fassung-2017-delta.md` | längste Änderungsliste des Jahrgangs. Ziff. 3.7.4 neu strukturiert: Kriterium wechselt vom **Material der Leitung** zur **Lage im horizontalen/vertikalen Fluchtweg**; Ziff. 4.2.2: nach VKF-Absperrvorrichtung genügt **RF3 (cr) statt RF1** in der Küchenabluft, Absperrpflicht neu bei **jedem** Luftaufbereitungsapparat; Anhang 4.3.1 «TL < 100 °C» → **«≤ 100 °C»** |
+  | **BSE 100-15** Brandmauern | 01.01.2017 | `vkf-brl-100-15-fassung-2017-delta.md` | **acht gelistete Fundstellen, keine einzige materiell** — Begriffsvereinheitlichung (Aussenwand→Aussenwandkonstruktion, Bedachung→Dachkonstruktion) und RF3→RF3 (cr). Alle Masse der drei Anhang-Prinzipschnitte am Rendering geprüft und identisch |
+  | **BSE 101-15** Atrien und Innenhöfe | 01.01.2017 | `vkf-brl-101-15-fassung-2017-delta.md` | kleinstes Delta, aber nicht leer: die einzige Änderung liegt in einer **Vektorgrafik ohne Textlayer** (Anhang S. 7), Beschriftung «100 – 300 Personen» → **«> 100 bis ≤ 300 Personen»** |
+  | **BSE 102-15** Doppelfassaden | 01.01.2017 | `vkf-brl-102-15-fassung-2017-delta.md` | Anwendungsbereich von «zwei Aussenfassaden» auf **«mehrere Fassadenebenen»** erweitert; **textile Beschattung neu aus RF4 (cr) zulässig** und bei geschütztem Löschanlagenkonzept von jeder Baustoffanforderung befreit |
+  | **BSE 105-15** Schnitzelfeuerungen | 01.01.2017 | `vkf-brl-105-15-fassung-2017-delta.md` | Ziff. 6.6 Abs. 3: Temperaturüberwachung neu **unmittelbar ausserhalb** des Schnitzellagers statt darin; im Prinzipschema S. 12 nachvollzogen. **Keine** RF-Absenkung analog 104-15 |
+  | **BSE 106-15** Pelletsfeuerungen | 01.01.2017 | `vkf-brl-106-15-fassung-2017-delta.md` | **Geltungsbereich geändert**: die Pellets-Definition verliert den Verweis auf EN 14961-2, nur noch Mass- und Feuchtewerte massgeblich; neue Schrägboden-Anforderung 1.0 × 0.7 m; TÜB entfällt an zwei Stellen des Prinzipschemas (**nur am Rendering auffindbar**) |
+  | **BSE 107-15** Temporäre Flüssiggasanlagen | 01.01.2017 | `vkf-brl-107-15-fassung-2017-delta.md` | ⚠ **Änderungsliste unvollständig** (zweiter Fall nach 108-15): Ziff. 3.2 «1'100 kg» → **«1'100 kg netto»** steht nicht darauf. Tabelle 1 verliert die Bedingung **«zugekehrte Wand öffnungslos»**; Schutzabstandstabelle auf einheitliche m³-Logik umgestellt, Ausnahme «kein Minimalabstand bis 250 kg» entfällt |
+  | **AH 1000-15** Gebäude mit geringen Abmessungen | 01.01.2017 | `vkf-ah-1000-15-fassung-2017-delta.md` | 13 Positionen. Ziff. 4.1: Systemwechsel **Verbotsprinzip → Abdeckungspflicht** mit neuem Katalog von neun cr-Ausnahmen; Ziff. 5.1: **neue Reduktionskategorie «zwischen Einfamilienhäusern»**, unabhängig von der Höhenklasse; Rückverankerungen RF2 → **RF3 (cr) bei allen Gebäudehöhen**. Quellendefekt der Fassung 2015: Ziffer **4.2.2.2 doppelt vergeben**, 2017 korrigiert |
+  | **AH 1002-15** Schulbauten | 01.01.2017, Stand 17.05.2018 | `vkf-ah-1002-15-fassung-2017-delta.md` | grösstes Delta des Laufs, 24 Positionen. ⚠ **Ziff. 7.3.2 gibt das Kriterium «> 100 Personen → zwei vertikale Fluchtwege» nicht mehr wieder — es gilt aber weiter**, unverändert in BRL 16-15 Ziff. 2.4.2 Abs. 2. **Warnung, keine Lockerung.** Real geändert: Ziff. 4.3.2 tragende Bauteile in vertikalen Fluchtwegen **RF1 → RF3** (sichtbar einbaubar); Ziff. 4.2.2.3 punktuelle Befestigungen **RF2 → RF3 (cr)** |
+  | **BRL 13-15** Baustoffe und Bauteile | 01.01.2017 | `vkf-brl-13-15-fassung-2017-delta.md` (Gegenprobe zum Inline-Delta aus Run 23) | **E, E-d2 sowie EL, EL-d2 wandern von RF4 (cr) nach RF3 (cr)**; die RF4-Zeile zeigt 2017 in allen Produktspalten «–». Damit ist **N59-1 beantwortet**: «(cr)» = *comportement critique*, ein **Anwendungsbeschränkungs-Flag innerhalb** einer RF-Gruppe, keine eigene Stufe — ein Produkt der Klasse E erfüllt «RF3» nie, «RF3 (cr)» seit 2017 schon |
 
   **BRL 13-15** Baustoffe und Bauteile (01.01.2017) ist **nicht** Teil dieser 23er-Zählung — ihr
   Delta wurde bereits am 25.07.2026 (Run 23, vor dieser Zählung) inline im Bestandsdestillat
@@ -433,9 +448,22 @@ Altverträge mit Vermerk. Im `training/norm-inventar.md` in der Bemerkung markie
   `vkf-brl-13-15-fassung-2017-delta.md` nachgebaut (Gegenprobe, deckungsgleiches Ergebnis) —
   **die beiden Orte sind damit dupliziert und noch nicht konsolidiert**, siehe Meldung unten.
 
-  **Offen bleiben 17 Destillate**, ganz überwiegend die Fassung 01.01.2017 (18-15, 20-15,
-  21-15, 23-15, 24-15, 25-15, 100-15, 101-15, 102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15),
-  dazu 103-15 (zurückgezogen, N58-2) und 27-15 (N58-3). Alle Quellen frei zugänglich.
+  ✅ **Der Sammelposten 01.01.2017 ist mit Run 60 (23.08.2026) vollständig abgearbeitet** —
+  alle fünfzehn Publikationen (17-15, 18-15, 20-15, 21-15, 23-15, 24-15, 25-15, 100-15, 101-15,
+  102-15, 105-15, 106-15, 107-15, 1000-15, 1002-15) haben ihr Delta, dazu die 13-15 als
+  Gegenprobe.
+
+  **Offen bleiben drei Sonderfälle**, und keiner davon ist ein gewöhnlicher Delta-Auftrag:
+  **103-15** (am 31.08.2025 zurückgezogen — nachzuvollziehen ist die Zurückziehung, nicht ein
+  Delta; N58-2), **12-15 und 26-15** (Teilrevision 2026, bereits erfasst in
+  `vkf-teilrevision-2026-pyrotechnik.md` — zu prüfen ist nur, ob jenes Destillat die
+  Bestandsdestillate ausreichend ersetzt) sowie **27-15** (N58-3). Alle Quellen frei zugänglich.
+
+  ⚠ **Wichtiger als der Rest dieser Zählung: die Deltas sind nur die eine Richtung.** Geprüft
+  wurde jeweils, *was sich geändert hat*. Ob die Bestands-Destillate ihre eigene Fassung
+  vollständig abbilden, ist auf **keinem** VKF-Destillat geprüft. Nach Methodik-Pflicht 13 bleibt
+  darum jedes Delta-Destillat auf `speculative`, und die Abdeckungsrichtung ist der nächste
+  grosse Schritt dieser Familie — nicht ein weiterer Delta-Lauf.
 
   ⚠ **Korrektur an der Matrix aus Run 58:** 108-15 trägt auf dem Titelblatt **zwei** Daten —
   Fassung 01.01.2020 **und** «Stand 01.08.2022». Die Matrix führte nur das erste. Bei den

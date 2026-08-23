@@ -7,7 +7,7 @@ datenstand: "2015"
 status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung verifiziert; geltende Fassung 01.01.2017, Delta NICHT destilliert. Herabgestuft im Fassungs-Sweep Run 58, 20.08.2026)
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 db5fb1aae72b280456547fd2232d90bd). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
-links: [[REGISTER]]
+links: [[vkf-brl-20-15-fassung-2017-delta]], [[REGISTER]]
 ---
 
 # VKF-BRL 20-15de:2015 — Brandmeldeanlagen
@@ -15,7 +15,7 @@ links: [[REGISTER]]
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `db5fb1aae72b280456547fd2232d90bd`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `db5fb1aae72b280456547fd2232d90bd`). **Das Fassungs-Delta ist seit dem 23.08.2026 destilliert: [[vkf-brl-20-15-fassung-2017-delta]]** (Run 60, Vorrang-Auftrag N58-1). Wer die geltende Rechtslage braucht, liest dieses Destillat und das Delta zusammen.
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den

@@ -1,12 +1,12 @@
 ---
 quelle: "PL - 02_Recht_Norm/02_Normen/VKF_Norm/02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf"
 herausgeber: VKF (Vereinigung Kantonaler Feuerversicherungen)
-ausgabe: "VKF-Brandschutzrichtlinie 13-15de: 01.01.2015"
+ausgabe: "VKF-Brandschutzrichtlinie 13-15de. Destillat beruht auf der Fassung 01.01.2015; GELTEND ist 01.01.2017 (Titelblatt abgelesen, MD5 5dc4d5989c41). Das Fassungs-Delta ist inline unten (Nachtrag Run 23) und zusaetzlich als eigenes Destillat [[vkf-brl-13-15-fassung-2017-delta]] gefuehrt (Run 60, 23.08.2026)."
 gelesen: "S. 1-25 komplett (Ziff. 1-6 + Anhang zu Ziff. 2.2.2/2.2.3/2.2.4/2.2.5/2.3.2/2.3.3/3.1.5/3.1.10/3.4). Nachtrag 25.07.2026: Fassung 01.01.2017 (BSPUB-1394520214-71.pdf) komplett gegen Fassung 01.01.2015 volltextverglichen (pdftotext-Diff + Seitenbild-Gegenlesung S. 6, 8-12, 19, 24-25)"
-datenstand: "2015"
+datenstand: "Bestand 2015, Delta 2017 nachgetragen (Run 23) und 2026-08-23 unabhaengig gegengeprueft (Run 60)"
 status: established
 last_updated: 2026-07-25
-links: [[REGISTER]]
+links: [[vkf-brl-13-15-fassung-2017-delta]], [[REGISTER]]
 ---
 
 # VKF-Brandschutzrichtlinie 13-15de — Baustoffe und Bauteile (Klassifikation)

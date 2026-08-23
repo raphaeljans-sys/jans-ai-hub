@@ -157,14 +157,36 @@ Text-Diff unsichtbar geblieben und ist hier nicht ausgeschlossen.
 
 ## Offene Punkte
 
-- Die Begriffe «Verkaufsräume» und «Verkaufsgeschäfte» werden in der BRL 17-15 nicht definiert;
-  die Abgrenzungsfrage (welche Fläche unter welchen Begriff fällt) ist damit über diese
-  Richtlinie allein nicht klärbar. Zu prüfen: ob die Begriffs-KB (BRL 10-15, Fassung 2019,
-  Delta-Destillat `vkf-brl-10-15-fassung-2019-delta.md`) hierzu bereits eine Definition führt —
-  jenes Destillat nennt «Verkaufsräume» als 2019 neu eingeführten Begriff mit Abgrenzung zu
-  «Räume mit grosser Personenbelegung» und «Verkaufsgeschäfte». Eine Verknüpfung dieser beiden
-  Destillate (17-15 Anhang zu Ziff. 2.2 einerseits, 10-15 Begriff «Verkaufsräume» andererseits)
-  wäre für die Praxis wertvoll, ist hier aber nicht Gegenstand des Auftrags.
+- ✅ **GESCHLOSSEN am 23.08.2026 durch den Hauptprozess (Run 60) — und die Antwort ist besser
+  als die Frage.** Die BRL 10-15 definiert «Verkaufsräume» als «Räume für den Warenverkauf, die
+  **weder** unter ‹Räume mit grosser Personenbelegung› **noch** unter ‹Verkaufsgeschäfte› fallen;
+  **es gelten die nutzungsbezogenen Anforderungen an Gewerbe und Industrie**.» Der Begriff stammt
+  **nicht aus der Fassung 2019**, wie oben vermutet, sondern gehört zu den zehn Begriffen des
+  **IOTH-Beschlusses vom 22.09.2016**, also zur Fassung **01.01.2017** — derselbe Beschluss, der
+  die hier destillierte Tabellenänderung trägt.
+
+  **Damit ist die Tabellenverschiebung keine isolierte Lockerung, sondern der Vollzug einer
+  Definition.** Die BRL 10-15 weist Verkaufsräume seit 2017 ausdrücklich den Anforderungen an
+  Gewerbe und Industrie zu; die Anhangtabelle der BRL 17-15 setzt genau das um, indem sie
+  «Verkaufsräume» aus der Zeile «Räume mit grosser Personenbelegung, Verkaufsgeschäfte» in die
+  Zeile «Industrie- und Gewerbebauten» verschiebt. Beides ist am selben Tag beschlossen worden.
+  Wer die 17-15-Änderung für sich liest, sieht eine gesenkte Anforderung; wer beide zusammen
+  liest, sieht eine Kategorienbereinigung, die eine zuvor doppelt erfasste Nutzung eindeutig
+  zuordnet.
+
+  **Was für die Praxis gleichwohl gilt:** für einen Verkaufsraum sinkt der Anforderungsgrad real.
+  Sicherheitsbeleuchtete Rettungszeichen sind seit 2017 nur noch empfehlenswert statt
+  erforderlich, und die Sicherheitsbeleuchtung **für Fluchtwege in Räumen** ebenfalls nur noch
+  empfehlenswert mit Fussnote [3] statt erforderlich. Unverändert erforderlich bleiben nicht
+  sicherheitsbeleuchtete Rettungszeichen und die Sicherheitsbeleuchtung **für Fluchtwege**. Die
+  Abgrenzung entscheidet also über konkrete Installationen und ist im Projekt zu belegen, nicht
+  zu schätzen: ein Verkaufsraum mit mehr als 300 Personen ist definitionsgemäss ein «Raum mit
+  grosser Personenbelegung» und fällt damit **nicht** unter die erleichterte Zeile.
+
+  Belege: Definition und Beschluss-Zuordnung in [[vkf-brl-10-15-fassung-2019-delta]] (Begriff
+  «Verkaufsräume», gedruckte S. 35, Gruppe der zehn Begriffe des Beschlusses 22.09.2016);
+  Tabellenvergleich vom Hauptprozess an eigenen Renderings beider Fassungen (200 dpi, gedruckte
+  S. 9) unabhängig nachgelesen und bestätigt.
 - Der Begriff «Technikraum Sicherheitsstromversorgung» (neu in Ziff. 3.3.2-Anhang, S. 12) ist in
   der BRL 17-15 nicht definiert; ob er im Glossar BRL 10-15 (Fassung 2017 oder 2019) auftaucht,
   wurde in diesem Lauf nicht geprüft.

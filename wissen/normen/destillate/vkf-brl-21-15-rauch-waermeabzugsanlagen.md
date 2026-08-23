@@ -9,7 +9,7 @@ status: superseded (Bestandsfassung 01.01.2015 — Inhalt gegen jene Fassung ver
 gueltigkeit: "Destillat = Fassung 01.01.2015. GELTEND ist 01.01.2017 (VKG-Publikationsportal, Titelblatt abgelesen, Abruf 20.08.2026, MD5 ef46ada4e9f12eb3b48401374127d625). Nicht als geltende Fundstelle zitieren."
 last_updated: 2026-08-20
 verifiziert: "260714, Retro-Verifikation Run 7 MacBook Pro (adversarial gegen Original-PDF, 17/17 Seiten gegengeprueft; 3 Praezisierungen: Ziff. 3.1 Bandbreite, Anhang S.14 Ersteller-/Hersteller-Vorgaben ergaenzt, Urheberrechts-Vermerk praezisiert)"
-links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-nachweisverfahren]]
+links: [[vkf-brl-21-15-fassung-2017-delta]], [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettungswege]], [[vkf-brl-nachweisverfahren]]
 ---
 
 # VKF-BRL 21-15de:2015 — Rauch- und Wärmeabzugsanlagen
@@ -17,7 +17,7 @@ links: [[REGISTER]], [[vkf-brandschutznorm-2015]], [[vkf-brl-16-15-flucht-rettun
 > ⚠ **FASSUNGSSTAND — nicht als geltende Fundstelle verwenden.**
 > Dieses Destillat beruht auf der Fassung **01.01.2015**. Geltend ist die Fassung **01.01.2017**,
 > abgelesen am Titelblatt der vom VKG-Publikationsportal ausgelieferten Datei
-> (Abruf 20.08.2026, MD5 `ef46ada4e9f12eb3b48401374127d625`). **Das Fassungs-Delta ist nicht destilliert.**
+> (Abruf 20.08.2026, MD5 `ef46ada4e9f12eb3b48401374127d625`). **Das Fassungs-Delta ist seit dem 23.08.2026 destilliert: [[vkf-brl-21-15-fassung-2017-delta]]** (Run 60, Vorrang-Auftrag N58-1). Wer die geltende Rechtslage braucht, liest dieses Destillat und das Delta zusammen.
 > Der Inhalt unten beschreibt zutreffend die Fassung 2015 und bleibt für Bestandesbauten und
 > für Verfahren unter jener Fassung brauchbar; **für ein laufendes Projekt ist die geltende
 > Fassung beizuziehen**. Festgestellt im Fassungs-Sweep Run 58 (20.08.2026), der erstmals den
