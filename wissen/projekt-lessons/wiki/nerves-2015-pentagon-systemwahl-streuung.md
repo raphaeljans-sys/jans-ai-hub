@@ -73,3 +73,15 @@ Pentagon-Vollofferte (CHF 40'747.00) — der Vertragswert liegt deutlich näher 
 leichteren Systemen (Goger bzw. Atelier Seitz). Möglich ist eine massive Nachverhandlung,
 ein reduzierter Leistungsumfang oder eine abweichende Anbieterzuordnung im Ursprungsartikel.
 Nicht ohne weiteren Beleg korrigiert — offene Frage in `wiki/QUESTIONS.md` vermerkt.
+
+**Update 23.08.2026:** Die vollständige Unternehmerspalte der Baukostenübersicht
+(`nerves_baukosten_v2.pdf`, Seite 1) wurde gegengelesen. Sie bestätigt die Zeile BKP 214.1
+mit «Köfler Holzbau» und Vertrag CHF 18'596.90 wörtlich — **die Anbieterzuordnung im
+Ursprungsartikel war also korrekt, keine Verwechslung.** Die eigentliche Wertdifferenz zur
+Vollofferte (CHF 40'747.00) bleibt dagegen unerklärt: die Baukostenübersicht selbst enthält
+keinen Hinweis auf Nachverhandlung oder reduzierten Umfang (einzig die Zeile «273
+Schreinerarbeiten: Innentüren aus Holz, Köfler Holzbau, In 214.1» zeigt eine Bündelung
+weiterer Leistungen in denselben Vertrag, keine Erklärung für eine Reduktion). Ohne
+Auftragsbestätigung oder Korrespondenz zum Zuschlag bleibt offen, ob ein Teilumfang
+beauftragt wurde oder Köfler den Preis massiv senkte, um den Zuschlag zu erhalten — beides
+sachlich denkbar, aus dem Archiv nicht belegbar. Status bleibt `emerging`.

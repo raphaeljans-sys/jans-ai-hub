@@ -1,5 +1,51 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
+
+**War offen seit Erstellung von [[enteignung-und-entschaedigung]] (2026-07-04), zuletzt bei
+Buch-Run 68 (27.07.2026, Zeile unten) ausdrücklich als «nicht Gegenstand dieses Laufs»
+zurückgestellt.** Reglemente-Queue 2414 Thalwil bleibt seit Run 87 vollständig T1-T9
+abgearbeitet; die Modell-D-Re-Verifikationskette (Run 90-97) lässt für Run 98 mehrere
+gleichauf liegende `established`-Kandidaten mit Datum 2026-07-27 offen (siehe Run 97). Statt
+eines weiteren blossen Re-Verifikationslaufs an einem bereits extrem gründlich geprüften
+Artikel wurde stattdessen dieser seit Wochen bekannte, konkret benannte Rest-Punkt bearbeitet
+— höherer Erkenntniswert als eine erneute Bestätigung ohne neue Quelle.
+
+**Kein raw/-Volltext des MAG war bisher in der KB vorhanden** — nur der Buch-Zitat-Stand 2019
+(Entwurf, vor Verabschiedung). Volltext frisch von zhlex.zh.ch bezogen: `Erlass.html?Open&Ordnr=700.9`
+→ Redirect zur aktuellen Fassung → PDF (`700.9_28.10.19_134.pdf`, Nachtrag 134) →
+`pdftotext -layout` → treu abgeschrieben in `raw/260823_amtlich_zh_mag.md` (§§ 1-29, alle
+Abschnitte A-G).
+
+**2 echte Korrekturen** (kein Fassungsstand-Drift — der Entwurf 2019 wurde bei der
+Verabschiedung materiell geändert, keine spätere Revision):
+
+1. **Kantonaler Satz:** Buch/Wiki bisher «20 % bei Einzonungen, 5 % bei Auf-/Umzonungen»
+   (Entwurf § 4 Abs. 1 lit. a/b). Erlassener Text: **§ 4 Abs. 1 MAG «Die Mehrwertabgabe
+   beträgt 20% des Mehrwerts»** — fix, kein lit.-a/b-Split. Und **§ 2 Abs. 1 MAG** begrenzt
+   die kantonale Abgabepflicht auf **Einzonung** und **Umzonung einer Zone für öffentliche
+   Bauten** — eine allgemeine Auf-/Umzonung löst beim Kanton **gar keine** Abgabe aus.
+2. **Kommunaler Höchstsatz:** Buch/Wiki bisher «max. 15 % bei Auf-/Umzonungen» (Entwurf § 19).
+   Erlassener Text: **§ 19 Abs. 3 MAG «höchstens 40% des um Fr. 100'000 gekürzten
+   Mehrwerts»** — mehr als das Doppelte des Entwurfswerts, zusätzlich mit eigenem Freibetrag
+   (100'000 Fr.) statt des kantonalen (30'000 Fr.) und einer Flächenschwelle 1'200-2'000 m²
+   je Gemeinde (§ 19 Abs. 2 MAG).
+
+**Bestätigt unverändert:** kantonaler Freibetrag < 30'000 Fr. Mehrwert (§ 4 Abs. 2 MAG,
+CONFIRMED). Die bereits in [[abstaende-und-hoehen]] (Buch-Run 84) korrekt dokumentierte
+MAG-Umsetzungsfrist 1.3.2028 (§ 29 Abs. 4 MAG, geändert per G vom 26.1.2026) ist mit dem
+frisch geladenen Volltext gegengelesen — unverändert korrekt, keine neue Korrektur nötig.
+
+**In die KB eingearbeitet:** `raw/260823_amtlich_zh_mag.md` (neu), `wiki/enteignung-und-
+entschaedigung.md` (Abschnitt 4 korrigiert, Offen-Punkt geschlossen, Frontmatter), `buecher/
+band-1/05-planung-und-entschaedigung.md` (Ziff. 3/5/6 annotiert, Buchtext selbst nicht
+gelöscht — bleibt als historischer Entwurfsstand belegtreu stehen).
+
+**Nächster Schritt:** von den 9 verbleibenden Modell-D-Kandidaten mit Datum 2026-07-27
+(siehe Run 97/CHANGELOG) einen unabhängigen Rechtsraum wählen.
+
+---
+
 ## ⚠ BEOBACHTEN 2026-08-23 (Buch-Run 94) — PBG-Nachtrag 134 amtlich publiziert, tritt erst 01.10.2026 in Kraft
 
 **Kein Fehler, aber Fassungsstand-relevant fuer die ganze KB.** Bei der Re-Verifikation von
@@ -839,9 +885,11 @@ Gesetzesrevision. EG ZGB weiterhin Nachtrag 133, kein Drift gegenüber der letzt
 (2026-07-25).
 
 Status **emerging → established** angehoben, erstmaliges `verifiziert`-Feld ergänzt.
-Weiterhin offen (unverändert seit Erstellung, nicht Gegenstand dieses Laufs): **ZH-
+~~Weiterhin offen (unverändert seit Erstellung, nicht Gegenstand dieses Laufs): **ZH-
 Mehrwertausgleich (MAG)** — Buchstand 2019 = Entwurf/Einzonungsstopp, am heutigen kant.
-Recht gegenprüfen, bevor Prozentsätze extern zitiert werden.
+Recht gegenprüfen, bevor Prozentsätze extern zitiert werden.~~ **erledigt Buch-Run 98
+(2026-08-23, siehe oben):** MAG in Kraft seit 1.1.2021, 2 Korrekturen (kant. fix 20 % statt
+5 %, kommunal max. 40 % statt 15 %).
 
 **Nächster Schritt:** [[grundlagen-planungs-baurecht]] als letzter verbleibender nie
 verifizierter `emerging`-Artikel.

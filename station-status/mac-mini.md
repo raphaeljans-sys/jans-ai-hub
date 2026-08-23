@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 22:30:53
+Stand: 23.08.2026 22:41:09
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 22:27)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 22:30:53
 - keine
 
 ## Hub-Git-Stand (NAS)
-- b1533e82 nas-selfcommit: 13 Datei(en) 2026-08-23 22:30
+- 23cb1740 SIA-Sweep 24. Fortsetzung: Bring-Schulden-Einkaufsliste (P1-P4)

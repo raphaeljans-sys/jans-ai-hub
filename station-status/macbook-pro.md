@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 22:22:06
+Stand: 23.08.2026 22:32:23
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 22:31)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 22:22:06
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f9a17538 nas-selfcommit: 1 Datei(en) 2026-08-23 22:15
+- 23cb1740 SIA-Sweep 24. Fortsetzung: Bring-Schulden-Einkaufsliste (P1-P4)

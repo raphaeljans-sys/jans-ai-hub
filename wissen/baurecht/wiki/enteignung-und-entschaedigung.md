@@ -1,9 +1,9 @@
 ---
 status: established
 title: Enteignung & Entschaedigung (formell / materiell)
-last_updated: 2026-07-27
-sources: [raw/260607_amtlich_zh_pbg.md, "Buch Band 1, Kap. 5, S. 311-334"]
-verifiziert: "2026-07-27 (Buch-Run 68, erster Modell-D-Wortlautabgleich seit Erstellung 2026-07-04): vollstaendiger Abgleich aller PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/202/212/214/235/346) gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133) — alle CONFIRMED, 0 Korrekturen. AbtrG (LS 781) UND EG ZGB (LS 230) live von zhlex.zh.ch geladen (beide erstmals in dieser KB direkt am aktuellen Volltext statt nur am Buchzitat geprueft): AbtrG-Fassungsstand Nachtrag 099 (aktuell), EG ZGB Nachtrag 133 (kein Drift). 2 echte Zitierfehler gefunden und korrigiert: guetliche Einigung steht in § 29 AbtrG (nicht § 28), die vier Schaetzungskommissionen/-kreise in §§ 33/34 AbtrG (nicht §§ 40/41); Zinsenlauf-Satz in § 183bis Abs. 3 EG ZGB (§ 183 EG ZGB selbst seit 2011 aufgehoben). §§ 39/46/54/56 AbtrG sowie § 183ter/§ 183quater EG ZGB CONFIRMED. Register-Sweep: Fehler war auch in buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md (eigene Paragraphenliste) propagiert, dort mitkorrigiert."
+last_updated: 2026-08-23
+sources: [raw/260607_amtlich_zh_pbg.md, raw/260823_amtlich_zh_mag.md, "Buch Band 1, Kap. 5, S. 311-334"]
+verifiziert: "2026-07-27 (Buch-Run 68, erster Modell-D-Wortlautabgleich seit Erstellung 2026-07-04): vollstaendiger Abgleich aller PBG-Fundstellen (§§ 41-43a/62/64/65/102/103/119/122/165/202/212/214/235/346) gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133) — alle CONFIRMED, 0 Korrekturen. AbtrG (LS 781) UND EG ZGB (LS 230) live von zhlex.zh.ch geladen (beide erstmals in dieser KB direkt am aktuellen Volltext statt nur am Buchzitat geprueft): AbtrG-Fassungsstand Nachtrag 099 (aktuell), EG ZGB Nachtrag 133 (kein Drift). 2 echte Zitierfehler gefunden und korrigiert: guetliche Einigung steht in § 29 AbtrG (nicht § 28), die vier Schaetzungskommissionen/-kreise in §§ 33/34 AbtrG (nicht §§ 40/41); Zinsenlauf-Satz in § 183bis Abs. 3 EG ZGB (§ 183 EG ZGB selbst seit 2011 aufgehoben). §§ 39/46/54/56 AbtrG sowie § 183ter/§ 183quater EG ZGB CONFIRMED. Register-Sweep: Fehler war auch in buecher/band-1/09-rechtsschutz-teil2-ablauf-kosten-revision.md (eigene Paragraphenliste) propagiert, dort mitkorrigiert."; "2026-08-23 (Buch-Run 98): letzten offenen Punkt geschlossen — MAG (LS 700.9) erstmals als raw/-Volltext beschafft (Nachtrag 134, live von zhlex.zh.ch). 2 echte Korrekturen: kantonaler Satz fix 20% ohne Auf-/Umzonungs-Variante (§ 4 Abs. 1 MAG, Kanton erhebt bei allgemeiner Auf-/Umzonung gar keine Abgabe, § 2 Abs. 1 MAG) statt der bisherigen 'kant. 5%'; kommunaler Hoechstsatz 40% (§ 19 Abs. 3 MAG) statt 'max. 15%'. Kantonaler Freibetrag 30'000 Fr. bestaetigt unveraendert (§ 4 Abs. 2 MAG). Kein Fassungsstand-Drift — Differenz stammt aus dem Buch-Entwurfsstand 2019, der vom erlassenen Gesetz abweicht."
 backlinks: ["[[05-planung-und-entschaedigung]]", "[[raumplanung-und-gestaltung]]", "[[baulinien-und-abstandslinien]]", "[[widerrechtliche-bauten-und-sanktionen]]", "[[03-quartierplan-landumlegung-teil2]]", "[[09-rechtsschutz-teil2-ablauf-kosten-revision]]"]
 letzte_quelle: "Buch Band 1, Kap. 5, S. 311-334 (Run 21, 2026-07-04)"
 titel: Enteignung & Entschaedigung (formell / materiell)
@@ -66,9 +66,15 @@ aber die **Intensitaet + Sonderopfer**, nicht die blosse Prozentzahl.
 - **Vorkaufsrecht (§ 64 PBG):** an Freihalte-/Erholungszonen-Grundstuecken; Vorkaufsfall Art. 216c OR.
 - **Treu und Glauben (Art. 9 / Art. 5 Abs. 3 BV):** Ersatz nutzlos gewordener Projektierungskosten
   (Architektenhonorare), wenn die Behoerdenabsicht nicht vorhersehbar war.
-- **Mehrwertabschoepfung (Art. 5 RPG):** Kehrseite der Entschaedigung — planungsbedingte **Vorteile**
-  abschoepfen. Einzonungen mind. **20 %**; Auf-/Umzonungen kant. 5 % / kommunal max. 15 %; Freibetrag
-  < 30'000 Fr. (ZH-MAG, **Stand am aktuellen Recht pruefen**). Verknuepft mit [[raumplanung-und-gestaltung]].
+- **Mehrwertabschoepfung (Art. 5 RPG, kantonal konkretisiert im MAG, LS 700.9):** Kehrseite der
+  Entschaedigung — planungsbedingte **Vorteile** abschoepfen. **Kantonaler Mehrwertausgleich**
+  (§§ 2/4 MAG): fixer Satz **20 %** des Mehrwerts, erhoben NUR bei **Einzonung** und **Umzonung
+  einer Zone fuer oeffentliche Bauten** (§ 2 Abs. 1 lit. a/b MAG) — allgemeine Auf-/Umzonungen
+  loesen **keine kantonale** Abgabe aus; Freibetrag Mehrwert **< 30'000 Fr.** (§ 4 Abs. 2 MAG).
+  **Kommunaler Mehrwertausgleich** (§ 19 MAG): die Gemeinden regeln Auf-/Umzonungen selbst in der
+  BZO, hoechstens **40 %** des um **100'000 Fr.** gekuerzten Mehrwerts (§ 19 Abs. 3 MAG),
+  zusaetzliche Freiflaechen-Schwelle **1'200-2'000 m²** je Gemeinde (§ 19 Abs. 2 MAG). Alternativ
+  staedtebauliche Vertraege (§§ 21-22 MAG). Verknuepft mit [[raumplanung-und-gestaltung]].
 
 ## 5. Verfahren & Hoehe (Kt. ZH)
 - **Schaetzungsverfahren:** Anmeldung mat. Enteignung innert **10 Jahren** (§ 183ter EG ZGB, sonst verwirkt);
@@ -91,8 +97,16 @@ aber die **Intensitaet + Sonderopfer**, nicht die blosse Prozentzahl.
   Teilausgleich (Alles-oder-nichts).
 
 ## Offen / needs-verification
-- ZH-**Mehrwertausgleich (MAG)**: Buchstand 2019 = Entwurf/Einzonungsstopp → am **heutigen** kant. Recht
-  gegenpruefen, bevor Prozentsaetze extern zitiert werden.
+- ~~ZH-**Mehrwertausgleich (MAG)**: Buchstand 2019 = Entwurf/Einzonungsstopp → am **heutigen** kant. Recht
+  gegenpruefen, bevor Prozentsaetze extern zitiert werden.~~ **erledigt Buch-Run 98 (2026-08-23):**
+  MAG (LS 700.9) frisch von zhlex.zh.ch geladen (Nachtrag 134, `raw/260823_amtlich_zh_mag.md`) —
+  das Gesetz ist seit 1.1.2021 in Kraft, kein Entwurf mehr. **2 echte Korrekturen** gegenueber dem
+  bisherigen (aus dem Buch-Entwurfsstand 2019 uebernommenen) Zahlenwerk: der kantonale Satz ist
+  fix **20 %** ohne Auf-/Umzonungs-Variante (§ 4 Abs. 1 MAG, nicht «5 %» — der Kanton erhebt bei
+  allgemeiner Auf-/Umzonung gar keine Abgabe, § 2 Abs. 1 MAG); der kommunale Hoechstsatz betraegt
+  **40 %** (§ 19 Abs. 3 MAG, nicht «15 %»), zusaetzlich mit eigenem Freibetrag 100'000 Fr. und
+  Flaechenschwelle 1'200-2'000 m². Der kantonale Freibetrag 30'000 Fr. war korrekt und bleibt
+  unveraendert. Details siehe `raw/260823_amtlich_zh_mag.md`, Abschnitt «Kernbefund».
 - ~~§-Wortlaut §§ 41-43a/62/102/165/202/212/214 PBG und §§ 28/39/46/54/56 AbtrG/§§ 183 ff. EG ZGB
   am amtlichen Volltext bestaetigen~~ **erledigt Buch-Run 68 (2026-07-27):** vollstaendiger Modell-D-
   Wortlautabgleich aller PBG-Fundstellen gegen `raw/260607_amtlich_zh_pbg.md` (Fassungsstand Nachtrag 133)

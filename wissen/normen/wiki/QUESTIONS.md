@@ -3454,8 +3454,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   GESCHLOSSEN. 263/1:2003 und 265/1:2003 ebenfalls dt. übernommen, aber als Altausgaben
   (`alle/xalt/`; gültig sind 263/1:2013 bzw. 265/1:2009 — deren deutsche Fassungen bleiben
   Bring-Schuld). 260/1 weiterhin ohne Bestandsdatei.
-- [ ] **SIA 240:1988 (Metallbauarbeiten)** ist eine sehr alte Ausgabe (ersetzt Norm
-  130:1959); aktuellere Ausgabe (falls vorhanden) am SIA-Shop verifizieren — Bring-Schuld
+- [~] **TEILWEISE GESCHLOSSEN (QUESTIONS-Abarbeitung 23.08.2026, nachgetragen — Verifikation
+  bereits am selben Tag anderswo geleistet).** Ursprungswortlaut: SIA 240:1988
+  (Metallbauarbeiten) sei eine sehr alte Ausgabe (ersetzt Norm 130:1959); aktuellere Ausgabe am
+  SIA-Shop verifizieren. **Geprüft:** `wiki/REGISTER.md` Z. 290 und 379 (SIA-Sweep, 23.08.2026,
+  Produktseite `shop.sia.ch`, SN 507240) bestätigen: **SIA 240/2012 (gültig ab 01.02.2012)** ist
+  die aktuell geltende Ausgabe und ersetzt SIA 240:1988; nur Metadaten geprüft, kein Volltext
+  gelesen. **Fundstelle nennen:** «SIA 240:2012», nicht «SIA 240:1988», sobald diese Norm
+  zitiert wird. **Bleibt offen:** Z. 900 desselben Registers führt SIA 240 noch unter der
+  1988er-Zeile als «gilt (Bestand)» — ein interner REGISTER-Konsistenzpunkt (welche Zeile
+  massgebend ist), keine neue Recherche; und der Volltext 2012 selbst bleibt Bring-Schuld
   Raphael (kein Auto-Web, kein Kauf durch Claude).
 - [ ] **SIA 279:2018 / 281:2017 / 329:2018** sind NEUER als das 2013-Register — als aktuell
   geführt (am PDF-Deckblatt belegt), gelten bis zur nächsten Revision.
@@ -3739,10 +3747,17 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Anh. A3/A4/A6, 44 Aussagen, 3 Befunde korrigiert [Katalog-Zählung, Fernwärme-Trassepunkt, Kolophon-Datum]
   → established; Rest-Bring-Schuld: Grössenordnungszahlen Tab.1 nur als Bandbreiten). **→ 0 offene
   Stufe-a-Positionen; SIA/VKF auf allen vier Vertiefungsstufen (a-d) komplett.**
-- [ ] **Fehlende verlinkte Destillate (Cross-Link-Lücke):** `sia-en-13200-1-2019.md` verweist
-  auf [[sia-500-2009]] (SIA 500 Hindernisfreie Bauten — Rollstuhlplatzzahl) und die VKF-
-  Fluchtweg-Richtlinie; SIA 500 ist noch nicht als eigenes Destillat vorhanden (Bestand
-  `500_2009.pdf` ist destilliert? prüfen) — als logische Anschlussnorm nachziehen.
+- [x] **GESCHLOSSEN (QUESTIONS-Abarbeitung 23.08.2026, nachgetragen — Sachverhalt bereits am
+  25.07.2026 erledigt).** Fehlende verlinkte Destillate (Cross-Link-Lücke), Ursprungswortlaut:
+  `sia-en-13200-1-2019.md` verweist auf [[sia-500-2009]] (SIA 500 Hindernisfreie Bauten —
+  Rollstuhlplatzzahl) und die VKF-Fluchtweg-Richtlinie; SIA 500 sei noch nicht als eigenes
+  Destillat vorhanden. **Geprüft:** `destillate/sia-500-2009.md` existiert, Frontmatter-Link
+  `links: [[REGISTER]], [[sia-500-2009]], [[vkf-brl-16-15-flucht-rettungswege]]` in
+  `sia-en-13200-1-2019.md` Z. 9 ist gesetzt und funktionsfähig, `sia-500-2009.md` trägt Status
+  `established` (verifiziert 260712, seither um Anhang E und alle vier Korrigenda C1-C4
+  erweitert, zuletzt 23.08.2026). Der Abschluss ist bereits in `training/norm-inventar.md`
+  Z. 524 dokumentiert («Run-19-Restnotiz Cross-Link SIA 500 geschlossen», Run 20, 25.07.2026) —
+  nur diese QUESTIONS-Zeile war seither nicht nachgezogen worden. Kein weiterer Handlungsbedarf.
 - [x] **din-1946-6-2009 ↔ SIA 382/1 Methodenvergleich (Teil-Grundlage vorhanden):** SIA 382/1
   ist seit Run 5 (260713) als Destillat verfügbar (`sia-382-1-2014.md`, Kern S.1-63,
   Aussenluft-Volumenstrom/Klassierung AUL/RAL/ABL); der Detailvergleich CH- vs. DE-Modell
@@ -4172,14 +4187,22 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   > Beschaffungsbedarf mehr, da SIA 279:2018 bereits im Haus liegt. Beide Teilfragen der
   > ursprünglichen Checkbox sind damit erledigt.
 
-- [ ] **SN EN 520 (Gipsplatten — Begriffe, Anforderungen, Prüfverfahren) fehlt im Bestand.**
-  Gebraucht für 2619 KISPI (Korrex Brandschutzexperte 21.07.2026: «Rohdichte Gipskartonplatten
-  min. 800 kg/m³» in den BIK-Plänen). Zu klären und mit Fundstelle zu belegen: Plattentypen
-  nach EN 520 (insb. Typ D «Platten mit definierter Dichte» und Typ F «Platten mit verbessertem
-  Gefügezusammenhalt des Kerns bei hohen Temperaturen», Kombination Typ DF = übliche
-  Brandschutzplatte GKF), inkl. exaktem Rohdichte-Kriterium des Typs D (mutmasslich
-  ≥ 800 kg/m³ — bis zum Volltextabgleich NICHT als Norm-Fundstelle zitieren). Volltext
-  beschaffen (SharePoint PL-02 prüfen, sonst SIA/SNV-Shop).
+- [x] **GESCHLOSSEN (QUESTIONS-Abarbeitung 23.08.2026, nachgetragen — Sachverhalt bereits am
+  23.07.2026 erledigt).** Ursprungswortlaut: SN EN 520 (Gipsplatten — Begriffe, Anforderungen,
+  Prüfverfahren) fehle im Bestand; Plattentypen (Typ D «definierte Dichte», Typ F) inkl.
+  Rohdichte-Kriterium seien zu klären und zu belegen, Volltext zu beschaffen. **Geprüft:**
+  Ein Mini-Run (23.07.2026, Mac Mini) hat dieselbe Bestandslücke unabhängig bearbeitet:
+  `wiki/REGISTER.md` Z. 860 führt SN EN 520 mit Bestandsbefund («nicht im JANS-Bestand»,
+  SharePoint PL-02/DIN_Norm geprüft, 72 Dateien) sowie die Typenbuchstaben-Fundstelle Ziff.
+  4.13 der öffentlichen Normvorschau; der Wiki-Artikel `wiki/en-520-gipsplattentypen.md`
+  (status `established`) dokumentiert Typ D (Rohdichte ≥ 800 kg/m³, zwei unabhängige
+  Sekundärquellen: Rigips-Normbroschüre + FeuerTrutz/TÜV-Tabelle, nicht die Norm selbst) und
+  Typ F samt Praxisregeln (LV-Kürzel DFIR, VKF-Anerkennung ≠ Typ-D-Erfüllung). Report
+  `outputs/2026-07-23_en-520-bestandsluecke.md`. **Bleibt offen** (im Wiki-Artikel selbst unter
+  «Offene Punkte» geführt, keine neue Bring-Schuld): der Volltext-Zahlenwert 800 kg/m³ selbst
+  ist nur über Sekundärquellen belegt, nicht über den SN-EN-520-Wortlaut — bei einer
+  Auseinandersetzung mit dem Brandschutzexperten müsste der SNV/DIN-Media-Volltext (CHF/EUR,
+  Bring-Schuld Raphael) gekauft werden.
 
 **Systematische Lehre aus der Verifikation (für kommende Läufe):**
 
@@ -4259,7 +4282,15 @@ aus der Recht-KB hier angekommen.
 > `wissen/baurecht`** (Bringschuld gemäss Rule `wissens-bibliothekar`): die Fundstelle
 > `baureife-und-erschliessung.md:76` sollte einen Vorbehalt zur überholten Norm erhalten, bis der
 > Nachfolger geklärt ist — hier nicht selbst editiert (fremde KB, kein Schreibzugriff in diesem
-> Lauf geprüft). **SN 641 400** bleibt ungeprüft: derselbe URL-Pfad (`.../product/641400`)
+> Lauf geprüft).
+>
+> **Nachtrag QUESTIONS-Abarbeitung 23.08.2026 (Fortsetzung):** Cross-KB-Bringschuld inzwischen
+> erfüllt — `wissen/baurecht/wiki/baureife-und-erschliessung.md` trägt seit demselben Tag
+> (Commit `fd4ef28d` bzw. `b1533e82`, geprüft per `git log`) direkt an der zitierten Stelle den
+> ⚠-Vorbehalt «SN 640 052 seit 31.03.2019 ausser Kraft, Nachfolger nicht verifiziert» mit
+> Rückverweis auf diesen QUESTIONS-Eintrag. Kein weiterer Handlungsbedarf für SN 640 052; der
+> Nachfolger selbst bleibt eine offene Sachfrage (kostenpflichtige VSS-Recherche), aber keine
+> Cross-KB-Lücke mehr. **SN 641 400** bleibt ungeprüft: derselbe URL-Pfad (`.../product/641400`)
 > liefert HTTP 404, kein Ersatzpfad gefunden — weiterhin externe Bring-Schuld.
 >
 > **Weiterer Anlauf 23.08.2026 (QUESTIONS-Abarbeitung 19), Ergebnis weiterhin negativ, aber neuer

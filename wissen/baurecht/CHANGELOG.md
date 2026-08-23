@@ -3,6 +3,65 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 98: ZH-Mehrwertausgleich (MAG) erstmals als raw/-Volltext beschafft — 2 echte Korrekturen (kant. fix 20 % statt 5 %, kommunal max. 40 % statt 15 %), letzter offener Punkt in [[enteignung-und-entschaedigung]] geschlossen
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue
+  ist seit Run 87 vollständig T1-T9 abgearbeitet; seit Run 90 läuft die Modell-D-
+  Re-Verifikationskette der `established`-Artikel. **Kurz nach Sessionstart hatte ein
+  paralleler Lauf bereits Run 97 abgeschlossen** ([[raumplanung-und-gestaltung]], erstmals
+  Bundesrecht RPG/RPV/BV gegen fedlex.data.admin.ch geprüft) — CHANGELOG, `training/
+  PROGRAMM.md` und der Report `outputs/2026-08-23_buch-run97.md` waren beim Prüfen bereits
+  vollständig vorhanden (Zeitstempel 22:30-22:31 Uhr, kein eigener Prozess). Dieser Lauf setzt
+  bei Run 97 fort, ohne ihn zu wiederholen.
+- **Auswahl:** statt eines weiteren Re-Verifikationslaufs an einem der 9 verbleibenden
+  `established`-Kandidaten (alle bereits am 2026-07-27 sehr gründlich mit Modell D geprüft,
+  ein erneuter Blindlauf hätte voraussichtlich nur 0-Korrekturen bestätigt) wurde der seit
+  Erstellung (2026-07-04) offene, konkret benannte Punkt in [[enteignung-und-entschaedigung]]
+  bearbeitet: «ZH-Mehrwertausgleich (MAG): Buchstand 2019 = Entwurf/Einzonungsstopp → am
+  heutigen kant. Recht gegenprüfen, bevor Prozentsätze extern zitiert werden» — bei Buch-Run 68
+  (27.07.2026) ausdrücklich als «nicht Gegenstand dieses Laufs» zurückgestellt. Höherer
+  Erkenntniswert als eine erneute Bestätigung ohne neue Quelle.
+- **Buch-Destillat zuerst geprüft:** `buecher/band-1/05-planung-und-entschaedigung.md`, Ziff.
+  5.4.5 — bestätigt den Verdacht bereits selbst: «Kant. Mehrwertausgleich (MAG-Entwurf): Kanton
+  20 % bei Einzonungen … 5 % bei Auf-/Umzonungen … Kommunaler Mehrwertausgleich: Gemeinden max.
+  15 %». Das Buch (6. Aufl. 2019) zitiert die **Vorlage**, nicht das erlassene Gesetz.
+- **Vorgehen:** kein MAG-Volltext bisher im Hub. Live von zhlex.zh.ch bezogen (Kette wie
+  `skills/baurecht/connectors/recht-ch.mjs`): `Erlass.html?Open&Ordnr=700.9` → Redirect auf die
+  aktuelle Fassung → PDF `700.9_28.10.19_134.pdf` (Nachtrag 134) → `pdftotext -layout` → treu
+  abgeschrieben nach `raw/260823_amtlich_zh_mag.md` (§§ 1-29, vollständig).
+- **Ergebnis: 2 echte Korrekturen, kein Fassungsstand-Drift** (die Differenz stammt aus der
+  Abweichung Entwurf ↔ erlassenes Gesetz, nicht aus einer späteren Revision):
+  1. **Kantonaler Satz:** § 4 Abs. 1 MAG «Die Mehrwertabgabe beträgt 20% des Mehrwerts» — fix,
+     **kein** Auf-/Umzonungs-Satz von 5 % wie im Entwurf. § 2 Abs. 1 MAG begrenzt die
+     kantonale Abgabepflicht auf **Einzonung** und **Umzonung einer Zone für öffentliche
+     Bauten**; eine allgemeine Auf-/Umzonung löst beim Kanton **keine** Abgabe aus.
+  2. **Kommunaler Höchstsatz:** § 19 Abs. 3 MAG «höchstens 40% des um Fr. 100'000 gekürzten
+     Mehrwerts» — mehr als das Doppelte des Entwurfswerts (15 %), mit eigenem Freibetrag
+     (100'000 Fr., nicht der kantonale 30'000-Fr.-Freibetrag) und einer zusätzlichen
+     Flächenschwelle 1'200-2'000 m² je Gemeinde (§ 19 Abs. 2 MAG).
+  **Bestätigt unverändert:** kantonaler Freibetrag < 30'000 Fr. (§ 4 Abs. 2 MAG, CONFIRMED);
+  die bereits in [[abstaende-und-hoehen]] (Buch-Run 84) korrekt dokumentierte
+  MAG-Umsetzungsfrist 1.3.2028 (§ 29 Abs. 4 MAG) — gegen den frisch geladenen Volltext
+  gegengelesen, unverändert korrekt.
+- **In die KB eingearbeitet:** `raw/260823_amtlich_zh_mag.md` (neu, mit Kernbefund-Tabelle
+  Entwurf↔erlassen), `wiki/enteignung-und-entschaedigung.md` (Abschnitt 4 korrigiert, Offen-
+  Punkt geschlossen, Frontmatter `sources`/`verifiziert`/`last_updated`), `buecher/band-1/
+  05-planung-und-entschaedigung.md` (Ziff. 3/5/6 annotiert — Buchtext selbst nicht gelöscht,
+  bleibt als belegtreuer historischer Entwurfsstand stehen, Korrektur jeweils als
+  Zusatzvermerk), `wiki/QUESTIONS.md` (neuer ✅-Eintrag oben + Rückverweis auf den
+  Run-68-Eintrag geschlossen), `training/PROGRAMM.md` (Tracker-Eintrag Run 98). Report
+  `outputs/2026-08-23_buch-run98.md`.
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** vor dem ersten Edit
+  `git status --short wissen/baurecht/` nativ per SSH (LAN-IP `192.168.1.10`, Repo
+  `/volume2/daten/jans-ai-hub` — Tailscale-Hostname in dieser Session nicht auflösbar, auf die
+  LAN-IP ausgewichen) geprüft: nur `training/KORPUS-QUEUE-thalwil-reglemente.md` stand
+  uncommitted (additiver Nachtrag von Run 97, 7 Zeilen, nicht angerührt). Nach dem Schreiben
+  erneut `git status --short` + `git diff --numstat` nativ geprüft: alle Änderungen additiv,
+  keine bestehenden Zeilen entfernt (nur Tilde-Streichung + Zusatzvermerk, Konvention dieser KB).
+- **Konkurrenz-Check:** `ps aux | grep claude` vor und während des Laufs geprüft — nur der
+  eigene `-p`-Prozess dieser Session; Run 97 lag bereits vollständig committet (Commit
+  `23cb17406a4885e33f783eeab99a9bccde00e08c`, 22:31:49 Uhr) vor Beginn dieses Laufs.
+
 ## 2026-08-23 — Buch-Run 97: [[raumplanung-und-gestaltung]] re-verifiziert — erstmals Bundesrecht (RPG/RPV/BV) frisch gegen fedlex.data.admin.ch geprüft; 2 echte Korrekturen, 1 klarstellende Fussnote
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: `CHANGELOG.md`

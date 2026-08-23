@@ -26,6 +26,27 @@ geplante Artikel.
      ein nur teilweise beauftragter Umfang — im gesichteten Material nicht verifizierbar,
      da die zugrundeliegende `nerves_baukosten_v2.pdf`-Unternehmerspalte in diesem Lauf nicht
      erneut gegengelesen wurde. Artikel nicht geändert, Diskrepanz hier vermerkt.
+  **Update 23.08.2026 (Fortsetzung, Triage-Weiterführung): beide Punkte teilweise geklärt —
+  `nerves_baukosten_v2.pdf` jetzt vollständig gegengelesen (Seite 1, Unternehmerspalte).**
+  Zu Punkt 1: die Zeile BKP 214.1 nennt explizit «Köfler Holzbau» als Unternehmer mit
+  Vertrag CHF 18'596.90 — die Zuordnung zu Köfler Holzbau ist damit bestätigt, keine
+  Verwechslung mit Goger oder Atelier Seitz. **Ungeklärt bleibt nur noch**, warum Köfler
+  Holzbau für dieselbe Pentagon-Konstruktion einerseits eine Vollofferte über CHF 40'747.00
+  stellte (`Pentagon - Koeffler - Pentagon_1.pdf`, 07.05.2015) und andererseits laut
+  Baukostenübersicht nur CHF 18'596.90 vertraglich vereinbart wurden — die Zeile «273
+  Schreinerarbeiten: Innentüren aus Holz, Köfler Holzbau, In 214.1» zeigt zwar, dass ein
+  Teil der Innentüren-Kosten im 214.1-Vertrag mitläuft, das erklärt aber keine Reduktion,
+  nur eine Bündelung. Keine Notiz zu Nachverhandlung, Teilumfang oder Scope-Reduktion im
+  gesichteten Material — die Wertdifferenz bleibt ohne weiteren Beleg (z.B. Auftragsbestätigung
+  oder Korrespondenz zum Pentagon-Zuschlag) unauflösbar. Zu Punkt 2: die Zeile BKP 232 nennt
+  explizit «Alpiq» mit Vertrag CHF 14'040.40 — auch diese Zuordnung ist bestätigt. Die
+  Differenz zur separaten Alpiq-Offerte (CHF 31'591.65, 06.08.2015, nach der Baukostenübersicht
+  vom 26.08.2015 datiert) bleibt aus denselben Gründen ungeklärt: kein Hinweis auf Teilumfang
+  oder Ersatzangebot im gesichteten Material. **Beide Restfragen (Wertdifferenz, nicht
+  Zuordnung) bleiben offen** — weiterer Beleg (Auftragsbestätigung, E-Mail-Korrespondenz zum
+  Zuschlag) wäre nötig, im aktuell erschlossenen Material des Ordners `Nerves_Binz_DatenMisc`
+  nicht vorhanden. Nachtrag auch in [[nerves-2015-pentagon-systemwahl-streuung]], Abschnitt
+  «Offene Frage».
   Nebenbefund (Datenhygiene, keine Lesson): `1318_Lorraine_Kueche/.../2015-05-05_Bildbemusterung.pdf`
   ist fehlabgelegt und gehört zu einem fremden Projekt (Villa Groth, München) — im Inventar
   als `[-]` mit Grund vermerkt, keine weitere Aktion nötig. Cluster `1012_Ardez`

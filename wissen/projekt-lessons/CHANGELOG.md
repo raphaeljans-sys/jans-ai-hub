@@ -3,6 +3,44 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (zehnte Fortsetzung) — Zwei seit drei Läufen offene Fragen geklärt: Unternehmerspalte tatsächlich gegengelesen
+
+- **Getan:** Fünfter Fortsetzungsauftrag in Folge («Triage des Korpus `buero-projekte`
+  weiterführen», wieder mit dem veralteten Zwischenstand «807 Positionen») erhalten. Vor
+  jeder Handlung Spec, diesen CHANGELOG und den Report der neunten Fortsetzung gelesen —
+  dort steht explizit, dass eine weitere reine Bestandsprüfung ohne neues Quellmaterial
+  keinen Erkenntnisgewinn mehr bringt. **Anders als die fünfte bis neunte Fortsetzung wurde
+  hier kein reiner Nachzähl-Lauf gefahren**, sondern die einzige in `wiki/QUESTIONS.md`
+  namentlich offene, tatsächlich auflösbare Lücke bearbeitet: drei frühere Destillat-Läufe
+  (Run 2, 3, 4) hatten notiert, ein Preis-/Zuordnungswiderspruch bei den Positionen BKP
+  214.1 (Pentagon, Köfler Holzbau) und BKP 232 (Elektro, Alpiq) im Projekt Nerves 2015 liesse
+  sich nur klären, wenn die Unternehmerspalte von `nerves_baukosten_v2.pdf` erneut gegengelesen
+  würde — das war in keinem der drei Läufe tatsächlich geschehen (jeder verwies nur auf den
+  vorherigen). In diesem Lauf wurde die Quelldatei gelesen (2 Seiten, PDF).
+- **[Klärung, kein neuer Artikel]** Seite 1 der Baukostenübersicht bestätigt beide Zeilen
+  wörtlich: BKP 214.1 → Unternehmer «Köfler Holzbau», Vertrag CHF 18'596.90; BKP 232 →
+  Unternehmer «Alpiq», Vertrag CHF 14'040.40. **Die Anbieterzuordnung in
+  [[nerves-2015-kv-nebengewerke-unterschaetzt]] war damit in beiden Fällen korrekt** — keine
+  Verwechslung mit Goger, Atelier Seitz oder einem anderen Unternehmer. Offen bleibt nur die
+  engere, nicht mehr auf eine Zuordnungsfrage reduzierbare Frage, warum Köfler Holzbaus eigene
+  Pentagon-Vollofferte (CHF 40'747.00) mehr als doppelt so hoch liegt wie der Vertragswert, und
+  warum die separate Alpiq-Elektro-Offerte (CHF 31'591.65, 06.08.2015) über doppelt so hoch wie
+  der Vertragswert liegt — die Baukostenübersicht selbst enthält keinen Hinweis auf Teilumfang
+  oder Nachverhandlung. Nicht spekulativ aufgelöst, sondern als enger gefasste offene Frage in
+  `wiki/QUESTIONS.md` und im Abschnitt «Offene Frage» von
+  [[nerves-2015-pentagon-systemwahl-streuung]] nachgetragen (Status dort unverändert `emerging`).
+- **[Verifikation]** Beide Edits reine Ergänzungen (`git diff --numstat`: `wiki/QUESTIONS.md`
+  +21/−0, `wiki/nerves-2015-pentagon-systemwahl-streuung.md` +12/−0) — kein bestehender Text
+  verändert oder gelöscht, gemäss Rule `auto-verbesserungen` 260811.
+- **Kein sonstiger Destillat-/Triage-Schritt.** Der Korpus bleibt inventarseitig unverändert
+  vollständig (813 Sachzeilen: 56 `[x]`, 757 `[-]`, 0 `[ ]`/`[t]`); der Pflicht-Zusatzauftrag
+  `bevorzugte-systeme-jans.md` bleibt aus denselben, bereits mehrfach dokumentierten Gründen
+  offen. **Hinweis unverändert gültig:** eine weitere reine Nachzähl-Bestätigung ohne neues
+  Quellmaterial oder eine wie hier tatsächlich auflösbare offene Frage bringt keinen weiteren
+  Erkenntnisgewinn — echte offene Arbeit im Wissens-Destillat-Prozess liegt bei den Korpora
+  `buero-referenzen` und `archiv-fachwissen` (Wechsel der Korpus-Reihenfolge ist Entscheid
+  Raphaels, keine eigenmächtige Umschaltung).
+
 ## 2026-08-23 (neunte Fortsetzung) — Vierte Folgeprüfung ohne Befund: Korpus abgeschlossen, keine fünfte Prüfung mehr sinnvoll
 
 - **Getan:** Vierter unabhängiger Fortsetzungsauftrag in Folge («Triage des Korpus

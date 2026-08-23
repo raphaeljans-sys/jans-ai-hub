@@ -1,3 +1,48 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 20: vier bereits anderswo gelöste Punkte auf Bestandsabgleich geschlossen (SIA-500-Cross-Link, SN-640-052-Cross-KB-Nachweis, SN-EN-520, SIA-240)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established` ist
+zitierfähig. CHANGELOG und Report des letzten Laufs (Abarbeitung 19) zuerst gelesen, dort
+weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Methodik:** statt neuer Web-Recherche wurden alle 50 offenen Checkbox-Punkte
+(`grep -n "^- \[ \]"`) gegen den aktuellen Stand von REGISTER, INDEX und Wiki-Artikeln
+gegengeprüft — die KB wächst durch viele parallele Läufe pro Tag schneller, als die
+ursprünglichen QUESTIONS-Zeilen zurückverlinkt werden.
+
+**Geschlossen (Details: `outputs/2026-08-23_questions-abarbeitung20.md`):**
+
+1. **Cross-Link-Lücke `sia-en-13200-1-2019.md` → SIA 500** — Destillat `sia-500-2009.md`
+   existiert längst (`established`), Cross-Link laut `training/norm-inventar.md` Z. 524 bereits
+   am 25.07.2026 geschlossen; nur die QUESTIONS-Zeile war nie nachgezogen.
+2. **SN 640 052 Cross-KB-Bringschuld an `wissen/baurecht`** — der ⚠-Vorbehalt («seit 31.03.2019
+   ausser Kraft») steht bereits in `wissen/baurecht/wiki/baureife-und-erschliessung.md`
+   (git-verifiziert, Commits `fd4ef28d`/`b1533e82`); Bringschuld erfüllt, nur nicht vermerkt.
+3. **SN EN 520 «fehlt im Bestand»** — ein unabhängiger Mini-Run (23.07.2026) hatte die Lücke
+   bereits mit `wiki/en-520-gipsplattentypen.md` (`established`) und `wiki/REGISTER.md` Z. 860
+   geschlossen; nur der Zahlenwert 800 kg/m³ selbst bleibt sekundärquellenbasiert (Bring-Schuld).
+4. **SIA 240:1988 „aktuellere Ausgabe verifizieren"** (teilgeschlossen) — SIA 240/2012 ist laut
+   `wiki/REGISTER.md` Z. 290/379 (SIA-Sweep 23.08.2026) die geltende Ausgabe; ein interner
+   REGISTER-Konsistenzpunkt (Z. 900 führt noch die 1988er-Zeile) bleibt als reine
+   Registerpflege offen, kein neuer Rechercheauftrag.
+
+**Geprüft, unverändert korrekt:** SIA 242 (Bring-Schuld-Status stimmt mit REGISTER Z. 381
+überein); VKF-BRL-16-15-Frage bei Z. 3912 ist im umgebenden Textblock bereits mehrfach
+beantwortet, nur die Ursprungs-Checkbox blieb aus Nachvollziehbarkeitsgründen stehen.
+
+**Nicht geleistet:** NIN-Geschirrspüler, N60-1/N60-2, SIA 491/SN EN 12193, SN 641 400 —
+unverändert offen (Raphael-Entscheide bzw. kostenpflichtige, mehrfach ausgeschöpfte
+Bring-Schulden). ~40 übrige P3/P4-/DIN-VSS-RAL-Punkte nicht einzeln neu geprüft.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang): durchweg additiv, kumulativ
+46 Einfügungen / 15 Löschungen über vier Edits — alle Löschungen sind Ersetzungen des
+ursprünglichen `[ ]`-Blocks durch den erweiterten `[x]`/`[~]`-Block an derselben Stelle, keine
+fremde Löschung. Kein `git`-Schreibbefehl über den SMB-Mount; Commit über
+`scripts/nas-commit-now.sh` bzw. den 15-Minuten-`nas-selfcommit`-Cron.
+
+---
+
 ## 2026-08-23 — SIA-Sweep, vierundzwanzigste Fortsetzung: Bring-Schulden-Einkaufsliste (P1–P4) statt weiterer Beschaffung
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

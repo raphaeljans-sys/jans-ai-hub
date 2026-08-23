@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 89)
+last_updated: 2026-08-23 (Run 98)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -1529,6 +1529,26 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   [[fahrzeugabstellplaetze-und-parkierung]] (2026-07-30) und [[grundlagen-planungs-baurecht]]
   (2026-08-03). Unabhaengig davon: nach dem 01.10.2026 das vollstaendige Aenderungsverzeichnis
   von PBG-Nachtrag 134 gegen `zhlex.zh.ch` ziehen (siehe `wiki/QUESTIONS.md`).
+- **Buch-Run 98 (2026-08-23):** statt eines weiteren Re-Verifikationslaufs an einem der 9 von
+  Run 97 vorgeschlagenen, bereits am 2026-07-27 gruendlich mit Modell D geprueften Kandidaten
+  wurde der seit Erstellung (2026-07-04) offene Punkt in [[enteignung-und-entschaedigung]]
+  geschlossen: **ZH-Mehrwertausgleich (MAG)**, bisher nur als Buchstand 2019 (Entwurf) zitiert,
+  nie als eigener `raw/`-Volltext beschafft. MAG (LS 700.9, Nachtrag 134) frisch von
+  zhlex.zh.ch geladen (`raw/260823_amtlich_zh_mag.md`, neu). **2 echte Korrekturen:** kantonaler
+  Satz ist FIX 20 % ohne Auf-/Umzonungs-Variante (§ 4 Abs. 1 MAG, statt Entwurfs-"5 %"; § 2
+  Abs. 1 MAG begrenzt die kant. Abgabe zudem sachlich auf Einzonung + Umzonung fuer oeffentliche
+  Bauten — allgemeine Auf-/Umzonung loest KEINE kant. Abgabe aus); kommunaler Hoechstsatz 40 %
+  (§ 19 Abs. 3 MAG, statt Entwurfs-"15 %"), mit eigenem 100'000-Fr.-Freibetrag + Flaechenschwelle
+  1'200-2'000 m² (§ 19 Abs. 2 MAG). Kantonaler Freibetrag < 30'000 Fr. CONFIRMED unveraendert.
+  Kein Fassungsstand-Drift — Differenz stammt aus Entwurf-vs-erlassen, nicht aus Revision. Report
+  `outputs/2026-08-23_buch-run98.md`. **Naechster Schritt:** von den verbleibenden 8 Artikeln
+  ([[ausnahmebewilligung-und-bestandesschutz]], [[bauausfuehrung-und-baukontrolle]],
+  [[baulinien-und-abstandslinien]], [[geschosse-und-kniestock]],
+  [[naturschutz-und-denkmalschutz]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]) einen
+  unabhaengigen Rechtsraum waehlen — Empfehlung [[naturschutz-und-denkmalschutz]] (eigener
+  Quellenkreis NHG/KNHV) oder [[bauausfuehrung-und-baukontrolle]] (aeltestes `last_updated`
+  2026-07-12, nie vollstaendiger Fliesstext-Refresh).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

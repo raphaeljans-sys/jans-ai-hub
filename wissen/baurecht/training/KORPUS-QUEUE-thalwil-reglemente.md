@@ -358,6 +358,13 @@ entfallen) haben je einen aus dieser Queue offen gelassenen Punkt in
 [[umgebungsgestaltung-und-einfriedungen]] nachträglich geschlossen — siehe CHANGELOG und
 `outputs/2026-08-23_buch-run88.md` / `outputs/2026-08-23_buch-run89.md`.
 
+**Fortsetzung ab Run 90 (ausserhalb dieser Queue, gleiche KB):** seit der Queue-Abarbeitung läuft
+die von den Läufen selbst vorgeschlagene Modell-D-Re-Verifikationskette der `established`-Artikel
+nach ältestem `verifiziert`-Datum (Runs 90-97, siehe CHANGELOG). Run 97 (2026-08-23) hat
+[[raumplanung-und-gestaltung]] re-verifiziert — erstmals die Bundesrechts-Zitate (RPG/RPV/BV)
+frisch gegen `fedlex.data.admin.ch` geprüft, 2 Korrekturen (15-Jahre-Regel korrekt Art. 15 Abs. 1
+RPG allein zugeordnet; Art. 15 Abs. 4 lit. e ergänzt). Report `outputs/2026-08-23_buch-run97.md`.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
