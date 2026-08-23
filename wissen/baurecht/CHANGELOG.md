@@ -3,6 +3,52 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 81: SZ-Strassenrecht volltextverifiziert (StraG/StraV), Artikel auf `established` — Reglemente-Queue 2414 Thalwil bleibt vollständig abgearbeitet, Fortsetzung Phase 3
+
+- **Ausgangslage:** Die Korpus-Queue 2414 Thalwil (T1-T8) ist seit Run 79 vollständig
+  abgearbeitet (bestätigt erneut in diesem Lauf gegen `training/KORPUS-QUEUE-thalwil-
+  reglemente.md`). Laut `training/PROGRAMM.md` sind künftige Läufe **Phase 3**:
+  QUESTIONS-Restposten, Modell-D-Volltextverifikationen, Aktualitäts-Checks. Dieser Lauf
+  nimmt den obersten offenen Punkt aus `wiki/QUESTIONS.md` auf (Run 78, T7 Archiv-Sichtung):
+  [[strassenabstand-zufahrten-vorteilsabgabe-sz]] stützte sich bislang nur auf einen im
+  Merkblatt Tiefbauamt SZ (Formular Z15) wörtlich zitierten Gesetzesauszug, nicht auf einen
+  vollständigen amtlichen Volltext — Status `emerging`.
+- **Vorgehen:** amtlicher Volltext StraG (SRSZ 442.110) und StraV (SRSZ 442.111) direkt von
+  `sz.ch` bezogen (SRSZ-Stand 1.2.2025), mit `pdftotext -layout` extrahiert (Poppler-Binary
+  lag unter `/opt/homebrew/bin/`, nicht im PATH dieser Shell — Fallpfad notiert). Alle acht
+  im Artikel zitierten Paragraphen (§§ 38/40/41/42/47/58 StraG, §§ 25/28 StraV) wortlautgeprüft.
+- **2 echte Korrekturen** (beide bereits im Merkblatt-Auszug korrekt angelegt, beim
+  Verdichten ins Wiki verlorengegangen — kein Fehler der Primärquelle):
+  1. **§ 41 Abs. 1 lit. a StraG** staffelt den Strassenabstand ohne Baulinie nach
+     Strassenkategorie (§ 4 StraG: Hauptstrassen/Verbindungsstrassen/Nebenstrassen) —
+     **6.00 m / 4.00 m / 3.00 m**, nicht ein einheitlicher 6-m-Wert für alle
+     «Kantonsstrassen», wie die Erstfassung suggerierte.
+  2. **§ 28 Abs. 1/2 StraV** fixiert die Vorteilsabgabe-Staffelung (3/4.5/5 %) nur
+     **an Hauptstrassen**; für Verbindungs-/Nebenstrassen legt der Bezirksrat bzw.
+     Gemeinderat die Höhe selbst fest (§ 28 Abs. 3 StraV, kantonal nicht fixiert) — die
+     Erstfassung präsentierte die Tabelle ohne diesen Vorbehalt, was bei einem
+     SZ-Projekt an einer nicht-Hauptstrasse zu einer falschen Kostenschätzung führen
+     könnte.
+  3. Alle übrigen sechs Paragraphen **CONFIRMED wortgleich**, keine weiteren Korrekturen.
+- **GEÄNDERT** `wiki/strassenabstand-zufahrten-vorteilsabgabe-sz.md`: Status `emerging` →
+  **`established`**, neues `verifiziert`-Feld, beide Korrekturen datiert eingearbeitet
+  (Abschnitte 2 «Strassenabstand» und 3 «Vorteilsabgabe»), Schlussabsatz «Offen/nicht
+  verifiziert» durch Verifikationsvermerk ersetzt.
+- **NEU** `raw/260823_amtlich_sz_strassengesetz.md` (StraG, 69 §§ vollständig) und
+  `raw/260823_amtlich_sz_strassenverordnung.md` (StraV, 31 §§ + Anhang vollständig),
+  beide gemeinfrei (Art. 5 URG), direkt von `sz.ch` bezogen.
+- **Register:** `raw/_INGESTED.md` (2 neue Zeilen), `wiki/INDEX.md` (Statuszeile auf
+  `established` gehoben, Strassenabstand- und Vorteilsabgabe-Kurzfassung korrigiert),
+  `wiki/QUESTIONS.md` (Eintrag Run 78 als ✅ GEKLÄRT markiert, Auflösung dokumentiert).
+  `git diff --numstat` nach jedem Schreibvorgang geprüft: alle vier Dateien rein additiv/
+  gezielt ersetzt, keine Massenlöschung (Rule `auto-verbesserungen` 260811).
+- **Offen, nachgeordnet:** der Connector `skills/baurecht/connectors/recht-ch.mjs` zieht für
+  SZ weiterhin nur kommunale Baureglemente (`oereblex.sz.ch`), keine kantonalen Erlasse. Für
+  die Zitierfähigkeit dieses Artikels ist das kein Hindernis mehr (Volltext liegt direkt in
+  `raw/`); eine Connector-Erweiterung bliebe ein separates Vorhaben, falls SZ-Kantonsrecht
+  künftig häufiger gebraucht wird.
+- Report `outputs/2026-08-23_buch-run81.md`.
+
 ## 2026-08-23 — Buch-Run 80: QUESTIONS-Restposten geklärt — BEZ 1996 Nr. 30 gilt auch für besondere Gebäude (Phase 3, nach Abschluss der Reglemente-Queue)
 
 - **Ausgangslage:** Mit Run 79 ist die Korpus-Queue 2414 Thalwil (T1-T8) vollständig
