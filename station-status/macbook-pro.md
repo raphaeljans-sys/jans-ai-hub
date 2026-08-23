@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 14:59:23
+Stand: 23.08.2026 15:09:40
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- keine
+- Developer/jans/ai/hub  (letzte Aktivitaet 15:02)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 14:59:23
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 0097dd9c fristen: Tailscale-Ausfall Mac Mini nach 3 Tagen unveraendert offen (Run 150), LAN-Umweg fuer nas-commit-now bestaetigt
+- 6f85564a nas-selfcommit: 2 Datei(en) 2026-08-23 15:00
