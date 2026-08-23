@@ -1430,6 +1430,20 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   **Naechster Schritt fuer einen kuenftigen Lauf:** die offene Trennsystem-Rechtsgrundlage aus
   Run 86 (Meteor-/Schmutzwasser-Trennung, vermutet WsG/WsV oder VSA-Norm/SIA 190) recherchieren;
   oder das naechstaelteste `verifiziert`-Datum unter den `established`-Artikeln neu bestimmen.
+- **Buch-Run 93 (2026-08-23):** Trennsystem-Luecke aus Run 86 geschlossen (einer der zwei von
+  Run 92 vorgeschlagenen naechsten Schritte, gewaehlt als konkret benannt und mit vorhandenem
+  Rohbestand loesbar). Fund im bereits ingestierten `raw/260803_amtlich_zh_wsv.md` (WsV, Nachtrag
+  133, in Kraft seit 01.06.2026): **§§ 97/98 WsV** tragen die gebaeudebezogene Trennsystem-Pflicht
+  (getrennte Grundstuecksentwaesserung bei erheblichem Eingriff, lokale Versickerung, Stufenfolge
+  bei technischer Unmoeglichkeit) — WsV, nicht WsG, ist die tragende Norm. Methodische Lehre: die
+  «0 Treffer»-Meldung aus Run 86 liess sich mit einem erneuten `grep` sofort widerlegen — kein
+  Fassungsstand-Drift, sondern eine unvollstaendige Suche im vorangegangenen Lauf. Kein neuer
+  `raw/`-Volltext noetig. [[baureife-und-erschliessung]] ergaenzt, `wiki/QUESTIONS.md` als GEKLAERT
+  markiert. Report `outputs/2026-08-23_buch-run93.md`. **Naechster Schritt fuer einen kuenftigen
+  Lauf:** das naechstaelteste `verifiziert`-Datum unter den `established`-Artikeln neu bestimmen
+  (Re-Verifikations-Kette fortsetzen) — mit Run 92/93 sind alle Artikel bis Datum 2026-07-25
+  abgedeckt, als naechstes zu pruefen waeren Artikel mit `verifiziert`-Datum ab August 2026 oder
+  ganz ohne `verifiziert`-Feld (Bestand einmal durchzaehlen).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

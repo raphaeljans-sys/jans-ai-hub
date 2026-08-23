@@ -85,22 +85,25 @@ Quelle. Verteilung:
 - **4 Normen archiviert, KEIN Nachfolger auf der Produktseite genannt** — echte offene Fragen,
   siehe unten (N-SIASWEEP-1 bis -3).
 
-### N-SIASWEEP-1 — GESCHLOSSEN 23.08.2026 — SIA 381/3 «Heizgradtage der Schweiz» archiviert seit 03.03.2015
+### N-SIASWEEP-1 — GESCHLOSSEN 23.08.2026, AM ORIGINAL VERIFIZIERT 23.08.2026 (SIA-Sweep, achtzehnte Fortsetzung) — SIA 381/3 «Heizgradtage der Schweiz» archiviert seit 03.03.2015
 
-Produktseite (SN 565381/3) nennt kein Nachfolgeprodukt. **Geklärt per Zweitquelle:**
-Espazium-Artikel «SIA: Neue Berechnung der Heizgradtage» (espazium.ch, publiziert 08.05.2015,
-revidiert 10.11.2015) — die Empfehlung SIA 381/3:1982 wurde auf Beschluss der
-Zentralkommission für Normen (Antrag der Kommission für Bautechnik und Energienormen, KGE)
-aus dem Normenwerk zurückgezogen. Der fachliche Inhalt (Heizgradtage) ging **nicht** in eine
-eigenständige Nachfolgenorm über, sondern in die **Corrigenda SIA 2028/C1:2015** zum
-bestehenden Merkblatt SIA 2028 «Klimadaten für Bauphysik, Energie- und Gebäudetechnik»: neue
-Methode nach EN ISO 15927-6 (in der Schweiz als SIA 381.206 geführt), «Accumulated
-Temperature Differences» (ATD) statt der klassischen Heizgradtage HGT 20/12; für eine
-Übergangsfrist blieben beide Kennwerte parallel verfügbar. **Weiterhin nicht am Original**
-(SIA 2028/C1:2015 liegt nicht im Haus) **verifiziert** — die Espazium-Meldung ist eine
-Fachpresse-Sekundärquelle, kein SIA-Primärdokument. Nachtrag in `wiki/REGISTER.md`, Zeile
-SIA 381/3. Nächster Schritt bei Bedarf: SIA 2028 samt Corrigendum C1 beschaffen und den
-Heizgradtage-Abschnitt am Original prüfen.
+Produktseite (SN 565381/3) nennt kein Nachfolgeprodukt. **Zuerst geklärt per Zweitquelle**
+(Espazium-Artikel «SIA: Neue Berechnung der Heizgradtage», publiziert 08.05.2015, revidiert
+10.11.2015): die Empfehlung SIA 381/3:1982 wurde auf Beschluss der Zentralkommission für
+Normen (Antrag KGE) aus dem Normenwerk zurückgezogen, Inhalt ging in die Corrigenda
+SIA 2028/C1:2015 über. **Der zunächst offen gelassene nächste Schritt («SIA 2028 samt
+Corrigendum C1 beschaffen und den Heizgradtage-Abschnitt am Original prüfen») wurde in dieser
+Fortsetzung erledigt:** Korrigenda 2028-C1:2015 ist ein kostenloser Download (Preisgruppe 0,
+kein Kauf des kostenpflichtigen Basis-Merkblatts nötig) und wurde vollständig gelesen. **Am
+SIA-Primärdokument bestätigt, wörtlich:** «[Die ATD] ersetzen die Empfehlung SIA 381/3 …
+Da diese zurückgezogen wird, wird die Definition ins vorliegende Dokument übernommen»
+(Korrigenda C1, Vorwort). Neue Methode: Accumulated Temperature Differences (ATD) nach
+SN EN ISO 15927-6:2007, gefordert von der neuen Norm SIA 380 (revidierte SIA 416/1) Anhang G
+für die Klimakorrektur des Heizenergieverbrauchs; die klassischen Heizgradtage HGT 20/12
+blieben als eigene Tabelle 6 der Korrigenda übergangsweise parallel verfügbar (Formel
+HGT20/12 = Σ(20 − ϑam,j) für alle Tagesmitteltemperaturen ϑam,j ≤ 12 °C). Destillat:
+`destillate/sia-2028-ergaenzung-korrigenda.md`, `wiki/REGISTER.md` Zeilen SIA 2028 und
+SIA 381/3 nachgeführt. Kein weiterer Schritt offen.
 
 ### N-SIASWEEP-2 — SIA 422 «Bauzonenkapazität» archiviert, gültig bis 31.12.2024, kein Nachfolger benannt
 
@@ -724,6 +727,17 @@ Richtlinien mit neuer Fassung.
 > von Run 58. Kein neuer Fassungswechsel entdeckt ausser dem bereits bekannten (12-15/26-15,
 > Teilrevision 2026, `vkf-teilrevision-2026-pyrotechnik.md` — dort bereits vollständig
 > dokumentiert, hier nur gegengeprüft).
+>
+> ✅ **Nebenbefund 2006-15 vs. 108-15 GEKLÄRT (23.08.2026, QUESTIONS-Abarbeitung, Fortsetzung
+> nach Run 13).** Original bezogen (`services2.vkf.ch/.../BSPUB-1394520214-3746.pdf`, 54 S.,
+> vollständig gelesen S. 1-33). Kein Duplikat: 2006-15 ist ein eigenständiges
+> **Brandschutzmerkblatt** («Ergänzung zur gleichnamigen Brandschutzerläuterung 108-15»,
+> Titelblatt/Einleitung S. 5), gültig ab 01.03.2022, das jede Ziffer der Erläuterung 108-15
+> (Fassung 01.01.2020) mit Begründungen, SIA-Phasen-Zuordnung und Beispielen präzisiert —
+> u.a. RACI-Verantwortungsmatrix je SIA-Phase 3/4/5, dreistufige Test-Kaskade Einzeltest
+> (Pflicht) → Linientest (optional) → integraler Test (Pflicht), Funktionserhalt E30 für
+> manuelle-Aktivierung-Übertragungswege, Meldepflicht bei BMA-Ausschaltung > 24 h. Neues
+> Destillat `destillate/vkf-merkblatt-2006-15-bfs.md` (established), Register-Zeile ergänzt.
 >
 > **Klasse 1 (IOTH-Asylsuchende) — geprüft, bewusst zurückgestellt, kein Destillat-Auftrag.** Die
 > Reihe zählt **sechs** Beschlüsse, nicht «fortlaufend bis 2025»: 2015-12-23, 2017-03-03,

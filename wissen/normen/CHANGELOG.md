@@ -1,3 +1,94 @@
+## 2026-08-23 — SIA-Sweep, achtzehnte Fortsetzung: SIA 2028 Ergänzung/Korrigenda C1/C2 kostenlos beschafft, Nachfolgerfrage SIA 381/3 am Original bestätigt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` und `wissens-bibliothekar` beachten, jede Aussage
+belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md` (Kopf zu Sessionbeginn: QUESTIONS-Abarbeitung siebter Lauf)
+und `outputs/2026-08-23_sia-sweep-siebzehnte-fortsetzung.md` — dessen Empfehlung war, die
+Methode «freie Korrigenda-Downloads auf den 56 Blindzone-Zeilen (Status Kein Volltext im Haus)
+systematisch prüfen» mit Priorität auf Normen fortzusetzen, die bereits ein Fach-Skill zitiert
+(SIA 380/x, SIA 118/xxx-Familie, SIA 2028 Klimadaten).
+
+**Kollisionsprüfung:** `ps aux` zu Laufbeginn geprüft — der eigene Prozess (Lauf-Name
+`mschub91`) läuft als der einzige `claude -p`-Prozess mit diesem Startprompt; weitere parallele
+`claude -p`-Läufe (`mschub89` QUESTIONS-Abarbeitung normen, `mschub90` Korpus buero-projekte)
+arbeiten an anderen Aufgaben derselben bzw. anderer KB, kein Konkurrenzrisiko auf denselben
+Dateien.
+
+**Priorisierung:** von 58 in Abschnitt A als «Kein Volltext im Haus» geführten SIA-Zeilen zuerst
+`skills/` nach Zitaten durchsucht: SIA 118/-Familie wird von `ausschreibung`, `werkvertrag`,
+`unternehmerkontrolle` zitiert (konkret aber SIA 118/262 und SIA 118/266, beide bereits im
+Haus); SIA 380 wird von `energie` und `planungsgrundlagen` zitiert (Basisnorm SIA 380/1 bereits
+im Haus, aber SIA 2028 lieferte im Register selbst bereits einen Korrigenda-Hinweis samt
+gültig-ab-Daten C1:2015/C2:2023). SIA 2028 «Klimadaten für Bauphysik, Energie- und
+Gebäudetechnik» als konkreter nächster Kandidat gewählt.
+
+**Durchgeführt:** Produktseite `shop.sia.ch/normenwerk/architekt/2028_2010_d/D/Product` per
+WebSearch lokalisiert (URL-Ratespiel über sechs falsche Bereich-Slugs zuvor erfolglos — das
+Shop-System liefert für jeden falschen Pfad einen HTTP-200-«0 Produkte gefunden»-Suchergebnis
+statt eines 404, daher WebSearch statt Brute-Force). Drei kostenlose Anhänge (Preisgruppe 0.00
+CHF) identifiziert, geladen (`curl -A "Mozilla/5.0"`) und mit `/opt/homebrew/bin/pdftotext
+-layout` vollständig gelesen: **Ergänzung 2010** zum Merkblatt (4 S., Auslegungsdaten
+Gebäudekühlung/-heizung), **Korrigenda C1:2015** (7 S., Befeuchter-Auslegung, Akkumulierte
+Temperaturdifferenzen/Heizgradtage), **Korrigenda C2:2023** (5 S., Betroffene-Normen-Liste,
+Klimaszenarien CH 2018). Das kostenpflichtige Basis-Merkblatt SIA 2028:2010 selbst bleibt nicht
+im Haus.
+
+**Kernbefund 1 (löst eine offene Frage):** Korrigenda C1:2015 bestätigt wörtlich am
+SIA-Primärdokument, was `wiki/QUESTIONS.md` N-SIASWEEP-1 bisher nur über die
+Espazium-Fachpresse-Sekundärquelle wusste — die per 03.03.2015 zurückgezogene Empfehlung
+SIA 381/3 «Heizgradtage der Schweiz» ist inhaltlich in SIA 2028 aufgegangen (Accumulated
+Temperature Differences nach SN EN ISO 15927-6:2007, gefordert vom Anhang G der neuen Norm
+SIA 380/416-1; klassische HGT 20/12 blieben übergangsweise parallel verfügbar). QUESTIONS-Eintrag
+und REGISTER-Zeile SIA 381/3 auf «am Original verifiziert» angehoben.
+
+**Kernbefund 2 (Cross-KB-relevant):** Korrigenda C2:2023 nennt SIA 2028 explizit als
+Klimadaten-Grundlage für SIA 180, SIA 380/1, SIA 380/2, SIA 382/1, SIA 384/1-3 — direkt
+einschlägig für die Skills `energie` und `planungsgrundlagen`. Zusätzlich: kostenlos
+zugängliche, klimawandel-basierte Szenariendaten (Basis CH 2018, DRY/«1 in 10 warmer Sommer»
+je Zeithorizont 2035/2060 und Emissionsszenario RCP2.6/RCP8.5) über einen map.geo.admin.ch-Link;
+Nebenbefund einer bisher nicht geführten Wegleitung SIA 4010 (nur Fundvermerk, keine eigene
+Recherche).
+
+**Neue Destillate und Nachführungen:**
+- `destillate/sia-2028-ergaenzung-korrigenda.md` (neu, `established`).
+- `wiki/REGISTER.md`: zwei Zeilen inhaltlich ergänzt (SIA 2028: von Metadaten-Notiz auf
+  gelesenes Destillat; SIA 381/3: Nachfolgeraussage von Sekundär- auf Primärquelle angehoben).
+- `wiki/QUESTIONS.md`: N-SIASWEEP-1 von «Espazium-Sekundärquelle» auf «SIA-Primärdokument
+  gelesen» angehoben, bleibt geschlossen.
+- `destillate/INDEX.md`: eine neue Zeile.
+- `CHANGELOG.md`: dieser Eintrag oben.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang):
+
+| Datei | Befund |
+|---|---|
+| `destillate/sia-2028-ergaenzung-korrigenda.md` | `??` (echte Neuanlage) |
+| `wiki/REGISTER.md` | 2/2 (zwei gezielte Zeilenersetzungen, ausschliesslich eigene Zeilen betroffen) |
+| `wiki/QUESTIONS.md` | 19/16 (ein Abschnitt erweitert/präzisiert, keine fremden Zeilen berührt) |
+| `destillate/INDEX.md` | 1/0 (reine Neuzeile) |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:**
+- Das Basis-Merkblatt SIA 2028:2010 selbst (Kapitel 1-8, Haupttabellen) bleibt kostenpflichtig
+  und nicht im Haus — nur die drei kostenlosen Zusatzdokumente sind erschlossen.
+- Von den verbleibenden ~55 «Kein Volltext im Haus»-Zeilen wurde nur SIA 2028 bearbeitet;
+  die SIA 118/xxx-Familie (16 Zeilen) wurde stichprobenartig geprüft (SIA 118/232: einziger
+  Anhang ist ein kostenloses Inhaltsverzeichnis, keine Korrigenda, kein Destillat-würdiger
+  Fund) — dieselbe Prüfung steht für die übrigen 15 Zeilen der Familie noch aus.
+- SIA 4010 (Nebenbefund) nicht recherchiert, keine eigene Registerzeile.
+- Cross-KB-Bringschuld an `wissen/energie` nicht in deren eigener QUESTIONS.md nachgetragen
+  (Zeitbudget dieses Laufs) — der Befund (SIA 2028 als Klimadatengrundlage für SIA 380/x,
+  kostenlose CH-2018-Szenariendaten) steht vorerst nur hier und in `wiki/REGISTER.md`.
+- **Empfehlung an den nächsten Lauf:** die Methode «Produktseite per WebSearch statt
+  Bereich-Slug-Raten lokalisieren, dann Anhänge auf mehr als nur Inhaltsverzeichnis prüfen»
+  bleibt der nächstliegende Ertrag für die restlichen ~54 Blindzone-Zeilen. Nächste Kandidaten
+  mit Fach-Skill-Bezug: die verbleibenden 15 SIA 118/xxx-Zeilen (Werkvertrag/Ausschreibung),
+  danach SIA 122/123/124/190/205/242/243 (allgemeine Planungsgrundlagen).
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung (siebter Lauf): SIA 430/118-430 Preise verifiziert und ins REGISTER nachgetragen, vier baurecht-Bring-Schulden als geprüfte externe Bring-Schulden markiert
 
 **Auftrag:** offene Fragen in `wiki/QUESTIONS.md` weiter abarbeiten (Fortsetzung der laufenden

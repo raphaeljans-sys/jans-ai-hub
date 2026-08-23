@@ -35,7 +35,39 @@ korrigiert (§ 44 GG deckt jetzt beide Formen ab, Korrektur-Vermerk im Fliesstex
 `verifiziert`-Eintrag. Neu: `raw/260823_amtlich_zh_gg.md`.
 Quelle: `outputs/2026-08-23_buch-run91.md`.
 
-## OFFEN 2026-08-23 (Buch-Run 86) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 93) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
+
+**War offen seit Buch-Run 86** (Zeile unten). Die Reglemente-Queue 2414 Thalwil ist seit Run 87
+vollstaendig T1-T9 abgearbeitet; als naechster Schritt aus dem von Run 92 vorgeschlagenen Zweier
+(Trennsystem-Frage recherchieren / naechstaeltestes `verifiziert`-Datum neu bestimmen) wurde diese
+Frage gewaehlt, weil sie konkret benannt und mit dem bereits vorhandenen Rohbestand loesbar war.
+
+**Fund:** `raw/260803_amtlich_zh_wsv.md` (WsV, LS 724.11, Nachtrag 133, RRB vom 2. Juli 2025, in
+Kraft seit 01.06.2026 — bereits am 03.08.2026 in Buch-Run 71 beschafft) enthaelt in Abschnitt
+«E. Siedlungsentwaesserung» (Z. 1074-1123) genau die gesuchte Norm: **§ 97 WsV** — Abs. 1: bei
+Neubauten und Umbauten mit erheblichen Eingriffen in die Liegenschaftsentwaesserung sind
+verschmutztes und nicht verschmutztes Abwasser **in getrennten Grundstuecksentwaesserungsanlagen**
+abzuleiten; Abs. 2: das nicht verschmutzte Abwasser ist lokal zu versickern, zu verdunsten oder
+durch Pflanzen aufnehmen zu lassen; Abs. 3: der natuerliche lokale Wasserhaushalt ist zu erhalten
+oder wiederherzustellen. **§ 98 WsV** ergaenzt die Stufenfolge bei technischer Unmoeglichkeit
+(Regenabwasserkanalisation in ein oberirdisches Gewaesser, subsidiaer Anschluss an die zentrale
+Abwasserreinigungsanlage nach Gemeinde-Bewilligung).
+
+**Warum die fruehere Stichwortsuche (Run 86) nichts fand:** der Report von Run 86 vermerkte «0
+Treffer fuer getrennt/Meteorwasser/Niederschlagswasser/unverschmutzt» in beiden WsG-/WsV-Dateien.
+Ein erneuter `grep -n "getrennt"` gegen dieselbe, unveraendert vorliegende Datei
+`raw/260803_amtlich_zh_wsv.md` traf sofort auf Z. 1104 («… in getrennten Grundstuecksentwaesse-
+rungsanlagen …»). Die Datei war seit ihrem Bezug am 03.08.2026 nicht veraendert worden (kein
+Fassungsstand-Drift, nur eine treffsicherere Suche) — vermutlich eine unvollstaendige Voll-
+textsuche im vorangegangenen Lauf, nicht ein technisches Suchproblem. Als Lehre: eine
+Negativ-Meldung («0 Treffer») aus einem fruehen Lauf bei einem thematisch naheliegenden, bereits
+vorhandenen Rohbestand verdient vor der externen Neurecherche einen zweiten, unabhaengigen Versuch.
+
+**In die KB eingearbeitet:** [[baureife-und-erschliessung]], Abschnitt «Versorgung & Entsorgung»
+ergaenzt (Fundstelle nachgetragen, bestehender Text nicht geloescht), neuer `sources`-/
+`verifiziert`-Eintrag. Quelle: `outputs/2026-08-23_buch-run93.md`.
+
+## OFFEN (archiviert) 2026-08-23 (Buch-Run 86) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
 
 **Fund im Zuge der Modell-D-Re-Verifikation von [[baureife-und-erschliessung]]** (zweitaeltestes
 `verifiziert`-Datum unter den `established`-Artikeln nach [[baubewilligungsverfahren]], Vorschlag

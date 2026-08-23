@@ -3,6 +3,40 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 93: Trennsystem-Lücke aus Run 86 geschlossen — §§ 97/98 WsV tragen die gebäudebezogene Meteor-/Schmutzwasser-Trennpflicht, nicht WsG/PBG
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue ist
+  seit Run 87 vollständig T1-T9 abgearbeitet, Priorität (d) seit Run 88/89 erschöpft. Von den zwei
+  in Run 92 vorgeschlagenen nächsten Schritten (Trennsystem-Frage aus Run 86 recherchieren; oder
+  nächstältestes `verifiziert`-Datum unter den `established`-Artikeln neu bestimmen) wurde die
+  Trennsystem-Frage gewählt — konkret benannt, mit bereits vorhandenem Rohbestand lösbar.
+- **Buch-Destillate zuerst geprüft:** kein Kapitel des Standardwerks (6. Aufl. 2019) kennt die WsV
+  (2025), da diese erst nach Bucherscheinung geschaffen wurde; massgeblich ist ausschliesslich der
+  amtliche WsV-Volltext.
+- **Fund:** `raw/260803_amtlich_zh_wsv.md` (bereits am 03.08.2026 in Buch-Run 71 beschafft, Nachtrag
+  133, in Kraft seit 01.06.2026) trägt in Abschnitt «E. Siedlungsentwässerung» exakt die gesuchte
+  Norm: **§ 97 Abs. 1-3 WsV** (getrennte Grundstücksentwässerungsanlagen bei Neu-/Umbauten mit
+  erheblichem Eingriff, lokale Versickerung/Verdunstung des unverschmutzten Abwassers, Erhalt des
+  natürlichen Wasserhaushalts) und **§ 98 WsV** (Stufenfolge bei technischer Unmöglichkeit:
+  Regenabwasserkanalisation → oberirdisches Gewässer, subsidiär Anschluss an die zentrale ARA nach
+  Gemeinde-Bewilligung). Damit ist **WsV**, nicht WsG, die tragende Norm.
+- **Methodische Lehre:** Run 86 hatte «0 Treffer für getrennt/Meteorwasser/Niederschlagswasser/
+  unverschmutzt» in derselben Datei vermerkt. Ein erneuter `grep -n "getrennt"` gegen die
+  unveränderte Datei traf sofort (Z. 1104). Kein Fassungsstand-Drift, sondern vermutlich eine
+  unvollständige Suche im vorangegangenen Lauf — eine Negativ-Meldung bei bereits vorhandenem,
+  thematisch naheliegendem Rohbestand verdient vor der externen Neurecherche einen zweiten,
+  unabhängigen Versuch.
+- **Kein neuer `raw/`-Volltext nötig** (Fund im bereits ingestierten Bestand). **In die KB
+  eingearbeitet:** [[baureife-und-erschliessung]] (Abschnitt «Versorgung & Entsorgung» ergänzt,
+  Frontmatter `sources`/`verifiziert` nachgeführt, bestehender Text nicht gelöscht),
+  `wiki/QUESTIONS.md` (Eintrag als GEKLÄRT markiert, alter Eintrag archiviert statt überschrieben),
+  `training/PROGRAMM.md` (Tracker-Eintrag Run 93). Report `outputs/2026-08-23_buch-run93.md`.
+- **Diff-Kontrolle (Rule 260811):** `git diff --numstat` nativ per SSH (Synology, LAN-IP
+  192.168.1.10, Repo unter `/volume2/daten/jans-ai-hub`) vor dem Edit auf sauberen Stand geprüft
+  (`git status --short` leer, letzter Commit deckungsgleich mit Run 92) und nach dem Schreiben
+  erneut verifiziert — rein additive/ersetzte Änderungen, keine ungewollte Löschung (Details siehe
+  Report).
+
 ## 2026-08-23 — Buch-Run 92: [[ausnuetzungsuebertragung]] re-verifiziert — Zitat Art. 40 BO Erlenbach korrigiert («direkt aneinandergrenzen» → amtlich «räumliche Nähe»), Rechtsgrundlage auf § 259 statt § 254 PBG präzisiert
 
 - **Fortsetzung der Phase-3-Re-Verifikationskette** (Vorschlag Run 90/91): [[ausnuetzungsuebertragung]]
