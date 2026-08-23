@@ -34,7 +34,13 @@
  *   --plz <nnnn>                  schaerft die Adresssuche
  *   --egrid <CHxxxxxxxxxxxx>      EGRID direkt setzen (ueberspringt Suche; ohne Koordinate ->
  *                                 --produkt naturgefahren nicht moeglich, dafuer --parzelle/--adresse nutzen)
- *   --oereb                       OEREB-Auszug als PDF herunterladen
+ *   --oereb                       OEREB-Auszug als PDF herunterladen; meldet zusaetzlich den
+ *                                 Themenstand (betroffen / nicht betroffen / OHNE DATEN) aus
+ *                                 .../oereb/extract/json und WARNT, wenn zu einem Thema in
+ *                                 dieser Gemeinde noch keine Daten vorliegen — dann ist das
+ *                                 Fehlen im Auszug KEIN Negativbefund (Vertiefungslauf 7,
+ *                                 23.08.2026: Wangen/Schwyz/Freienbach ohne ch.Gewaesserraum,
+ *                                 Einsiedeln mit allen 26 Themen)
  *   --produkt naturgefahren       Gefahrenkarte SZ (Run 55) — braucht Koordinate, also nur
  *                                 mit --parzelle/--adresse (nicht mit --egrid allein)
  *   --produkt grundwasser         Grundwasserschutz SZ (Run 55, 2026-07-22) — S1/S2/S3-Zonen +
@@ -267,6 +273,36 @@ async function fetchOereb(egrid) {
   return { buf, url };
 }
 
+// --- OEREB-Themenstand (strukturiert) -----------------------------------------
+// Belegt 23.08.2026 (Vertiefungslauf 7): derselbe SZ-Service liefert neben dem PDF auch
+// einen maschinenlesbaren Auszug unter .../oereb/extract/json?EGRID=<EGRID> (login-frei).
+// WARUM DAS HIER STEHT: der Auszug trennt drei Faelle, das PDF fuehrt sie unauffaellig in
+// zwei benachbarten Listen auf Seite 2 — "betroffen", "nicht betroffen" und "Themen, zu
+// denen noch KEINE DATEN vorhanden sind". Der dritte Fall ist KEINE Aussage ueber die
+// Parzelle, sondern ueber die Datenabdeckung der Gemeinde. Gemessen: Wangen, Schwyz und
+// Freienbach fuehren ch.Gewaesserraum ohne Daten, Einsiedeln hat alle 26 Themen. Wer
+// "kein Gewaesserraum im OEREB-Auszug" als Negativbefund liest, irrt in genau diesen
+// Gemeinden. Rule: identifikatoren-verifizieren (kein Negativbeweis ohne Deckung).
+const OEREB_SZ_JSON = (egrid) =>
+  `https://map.geo.sz.ch/oereb/extract/json?EGRID=${encodeURIComponent(egrid)}`;
+
+async function fetchOerebThemenstand(egrid) {
+  const r = await fetch(OEREB_SZ_JSON(egrid), { headers: { "User-Agent": UA } });
+  if (!r.ok || r.status === 204) return null;
+  const j = await r.json();
+  // Schema-Falle (gemessen 23.08.2026): SZ kapselt in "extract" (klein), ZH in "Extract"
+  // (gross); der Theme-Code heisst bei SZ "Code", bei ZH "code". Beide Schreibweisen lesen.
+  const resp = j?.GetExtractByIdResponse ?? j;
+  const ex = resp?.extract ?? resp?.Extract ?? resp;
+  const codes = (arr) => (arr ?? []).map((t) => t?.Code ?? t?.code).filter(Boolean);
+  return {
+    betroffen: codes(ex?.ConcernedTheme),
+    nicht_betroffen: (ex?.NotConcernedTheme ?? []).length,
+    ohne_daten: codes(ex?.ThemeWithoutData),
+    stand_kataster: ex?.UpdateDateCS ?? null,
+  };
+}
+
 // --- Main ----------------------------------------------------------------------
 (async () => {
   if (willHilfe(process.argv)) { hilfeAusKopf(import.meta.url); return; }
@@ -335,6 +371,20 @@ async function fetchOereb(egrid) {
         result.files.push(dest);
         L(`   -> abgelegt: ${dest} (${(buf.length / 1024).toFixed(0)} KB)`);
       }
+      // Themenstand dazu melden — nie fatal: der PDF-Bezug ist die Hauptleistung.
+      try {
+        const th = await fetchOerebThemenstand(result.egrid);
+        if (th) {
+          result.oereb.themen = th;
+          L(`   -> Themen: ${th.betroffen.length} betroffen · ${th.nicht_betroffen} nicht betroffen`
+            + `${th.ohne_daten.length ? ` · ${th.ohne_daten.length} OHNE DATEN` : ""}`);
+          if (th.ohne_daten.length) {
+            L(`   ! ACHTUNG: zu ${th.ohne_daten.join(", ")} liegen im OEREB-Kataster dieser Gemeinde`);
+            L(`     noch KEINE Daten vor. Das Fehlen im Auszug ist hier KEIN Negativbefund fuer die`);
+            L(`     Parzelle — separat bei der Gemeinde/Fachstelle abklaeren.`);
+          }
+        }
+      } catch { /* optional: Themenstand ist Zusatzinfo, kein Teil des Auszugs */ }
     }
 
     // ---- Produkte (bisher nur naturgefahren) ----

@@ -1,9 +1,9 @@
 ---
 title: OEREB-Auszug und EGRID beziehen (Kt. ZH)
 status: established
-last_updated: 2026-08-23 (Vertiefungslauf Revendo: Connector-Benchmark 9/9 grün, zwei neue Endpunkt-Befunde)
-sources: [GIS-Helpdesk Kt. ZH (Hannah Gies, 2026), api3.geo.admin.ch, maps.zh.ch/oereb/v2, map.geo.sz.ch/oereb, eigene Endpunkt-Messungen 30.07.2026 (Training Run 93)]
-links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-kataster-system-zh]]
+last_updated: 2026-08-23 (Vertiefungslauf 7 Revendo: strukturierte OEREB-Endpunkte json/xml/capabilities für ZH+SZ dokumentiert, ThemeWithoutData-Falle belegt, behoerden-zh-Vermerk präzisiert)
+sources: [GIS-Helpdesk Kt. ZH (Hannah Gies, 2026), api3.geo.admin.ch, maps.zh.ch/oereb/v2, map.geo.sz.ch/oereb, eigene Endpunkt-Messungen 30.07.2026 (Training Run 93), eigene Nutzdaten-Messungen 23.08.2026 (Vertiefungslauf 7: extract/json+xml+capabilities beider Kantone, 5 Parzellen-Benchmarks, PDF-Textextraktion)]
+links: [[kartenportale-geoportale-uebersicht]], [[recht-norm-quellenlandkarte]], [[kartenportale-oereb-kataster-system-zh]], [[recht-norm-abstandsvorschriften-wald-gewaesser]], [[recht-norm-regenwasser-gewaesserraum-zh]]
 ---
 
 # OEREB-Auszug und EGRID beziehen (Kt. ZH)
@@ -185,6 +185,33 @@ Revisions-Delta.
 > «33 neu» als 33 geänderte Behördendokumente liest, jagt ein Phantom.
 > *(Befund 23.08.2026, an `.gitignore` und am Quelltext `behoerden-zh.mjs` Z. 56/98/160-166
 > nachgeprüft.)*
+>
+> ⚠ **Präzisiert am selben Tag (Vertiefungslauf 7): der Vergleichsstand wandert sehr wohl
+> zwischen den Stationen — über das NAS, nicht über Git.** Der Satz «Er wandert also nie
+> zwischen den Stationen» stimmt nur für den **SSD-Klon**. Der Default-Ablageort ist
+> `../behoerden-dokumente` **relativ zum ausgeführten Connector**; wird der Connector aus dem
+> kanonischen NAS-Pfad heraus gestartet — wie es der Scheduled Task `behoerden-zh-check` tut —,
+> liegt das Manifest unter
+> `/Volumes/daten/jans-ai-hub/skills/planungsgrundlagen/behoerden-dokumente/_manifest.json` und
+> ist über den SMB-Mount **allen Stationen gemeinsam**. Es existiert dort, **Stand 13.08.2026,
+> 33 Einträge** (gemessen 23.08.2026).
+>
+> **Nachgemessen, beide Richtungen:** derselbe `--check`, nur mit anderem Ablageort —
+> gegen den SSD-Klon «0 aktuell · **33 neu**», gegen die NAS-Basis «**33 aktuell** · 0 geändert
+> · 0 neu · 0 TOT». Zusätzlich in einem Scratch-Ordner die Mechanik selbst belegt: `--sync`
+> (33 neu, geschrieben) gefolgt von `--check` → **33 aktuell**. Die Änderungserkennung ist also
+> **intakt**; sie braucht nur eine Basis, und `--check` legt selbst **nie** eine an (nur
+> `--sync` schreibt das Manifest, Z. 195-197).
+>
+> **Praxisregel, geschärft:** den Connector aus dem **NAS-Pfad** aufrufen (oder `--out` auf das
+> NAS-Verzeichnis setzen), dann sind «aktuell/geändert» stationsübergreifend belastbar. Nur wer
+> aus dem SSD-Klon startet, bekommt zwangsläufig «33 neu». Die alte Regel «nur `TOT` ist
+> aussagekräftig» gilt damit **nicht mehr uneingeschränkt** — sie gilt für Läufe ohne
+> gemeinsame Basis.
+>
+> **Sachbefund dieses Laufs:** gegen die NAS-Basis vom 13.08.2026 sind alle **33 Dokumente
+> byte-identisch** (0 geändert, 0 TOT) — kein CMS-Relaunch, keine neue Formularfassung in den
+> zehn Tagen dazwischen.
 
 ### Zwei neue Endpunkt-Befunde (beide gemessen, nicht abgeleitet)
 
@@ -225,6 +252,88 @@ nicht.** Gemessen am 23.08.2026:
 
 *Messungen: `curl` mit Browser-User-Agent, `dig`, `openssl s_client`, alle am 23.08.2026;
 Connectoren lokal ausgeführt (node v22.11.0).*
+
+## Der OEREB-Auszug ist auch maschinenlesbar zu haben (belegt 23.08.2026, Vertiefungslauf 7)
+
+Bis hierher führte dieser Artikel für beide Kantone **nur den PDF-Endpunkt**. Beide Services
+liefern denselben Auszug aber auch **strukturiert**, login-frei, über die im Bundesstandard
+vorgesehenen Pfade. Alles gemessen am 23.08.2026:
+
+| Aufruf | ZH (`maps.zh.ch/oereb/v2/…`) | SZ (`map.geo.sz.ch/oereb/…`) |
+|---|---|---|
+| `extract/pdf` bzw. `extract/pdf.pdf?EGRID=` | 200 · PDF | 200 · PDF |
+| `extract/json?EGRID=` | **200 · 38'303 B** | **200 · 28'017 B** |
+| `extract/xml?EGRID=` | **200 · 80'495 B** | **200 · 54'135 B** |
+| `capabilities/json` | **200 · 4'979 B** | **200 · 3'386 B** (26 Themen, Sprache `de`) |
+| `versions/json` | **200 · 124 B** | **200 · 129 B** |
+| `extract/reduced/json/<EGRID>` (Standardpfad) | **404** | **404** |
+
+Der JSON-Auszug enthält alles, was sonst aus dem PDF abgelesen wird: Parzelle, EGRID, Fläche,
+Gemeinde, je Beschränkung Typ, Flächenanteil, Prozentsatz, zuständige Stelle und die
+**Rechtsvorschriften mit Links**. Benchmark Giebelweg 12 (`CH879777718909`): Parz. **3338**,
+**Langnau am Albis (136)**, **768 m²**, drei Beschränkungen (Grundnutzungen `C110111`,
+überlagernde Nutzungen `C690901`, Lärmempfindlichkeitsstufen — je 768 m² / 100 %) und ein
+**31-Einträge-Glossar**. Benchmark Wangen 25 (`CH379377805305`): **751 m²**, **Wohn- und
+Gewerbezone 3**, **ES III**, Baureglement Genehmigung 15.04.2014 (410/2014).
+
+### ⚠ «Nicht betroffen» und «keine Daten» sind zwei verschiedene Aussagen
+
+Der Auszug kennt **drei** Kategorien, nicht zwei: `ConcernedTheme`, `NotConcernedTheme` und
+**`ThemeWithoutData`** — «Öffentlich-rechtliche Eigentumsbeschränkungen, zu denen noch keine
+Daten vorhanden sind». Im PDF stehen die zweite und die dritte Liste **unmittelbar
+untereinander auf Seite 2** und sind beim Überfliegen kaum zu unterscheiden.
+
+**Die Abdeckung ist je Gemeinde verschieden** — gemessen an vier SZ-Parzellen und einer in ZH:
+
+| Parzelle | betroffen | nicht betroffen | **ohne Daten** |
+|---|---|---|---|
+| Wangen 25 (BFS 1349) | 2 | 23 | **`ch.Gewaesserraum`** |
+| Schwyz 1 (BFS 1372) | 3 | 22 | **`ch.Gewaesserraum`** |
+| Freienbach 1 (BFS 1322) | 3 | 22 | **`ch.Gewaesserraum`** |
+| Einsiedeln 1 (BFS 1301) | 2 | **24** | — (alle 26 Themen) |
+| Langnau a.A. 3338 (ZH) | 3 | 23 | — (alle 26 Themen) |
+
+**Praxisfolge.** In Wangen, Schwyz und Freienbach beweist ein OEREB-Auszug **nicht**, dass die
+Parzelle keinen Gewässerraum hat — er beweist, dass die Gemeinde den Layer noch nicht
+publiziert hat. In Einsiedeln und im Kanton ZH ist dasselbe Fehlen ein **echter**
+Negativbefund. Wer den Gewässerraum in einer der drei Gemeinden braucht, klärt ihn separat ab
+(→ [[recht-norm-abstandsvorschriften-wald-gewaesser]],
+[[recht-norm-regenwasser-gewaesserraum-zh]] für die ZH-Systematik).
+
+Das ist dieselbe Regel wie beim leeren WFS-Ergebnis aus Vertiefungslauf 6, hier auf ein
+**Rechtsdokument** angewandt: ein Negativbefund ist erst dann eine Aussage über das Objekt,
+wenn die Quelle für dieses Objekt überhaupt Daten führt.
+
+**Im Connector verankert (23.08.2026):** `geo-sz.mjs --oereb` zieht seit diesem Lauf zusätzlich
+den Themenstand und warnt ausdrücklich, wenn `ThemeWithoutData` nicht leer ist. Gemessen:
+Wangen 25 → «`1 OHNE DATEN`» plus Warntext; Einsiedeln 1 → «`2 betroffen · 24 nicht
+betroffen`», keine Warnung. Der Themenstand steht auch im `--json` unter `oereb.themen`.
+
+### Schema-Falle: ZH und SZ implementieren denselben Standard unterschiedlich
+
+Wer den JSON-Auszug auswertet, kann **nicht** denselben Zugriffspfad für beide Kantone
+verwenden. Gemessen an den beiden Benchmark-Auszügen:
+
+| Stelle | ZH | SZ |
+|---|---|---|
+| Wrapper unter `GetExtractByIdResponse` | **`Extract`** (gross) | **`extract`** (klein) |
+| Theme-Code | **`code`** (klein), zusätzlich **`SubCode`** | **`Code`** (gross), kein SubCode |
+| Grundbuchkreis | — | zusätzlich `SubunitOfLandRegister` |
+
+Beide Fehler sind **stumm**: ein Zugriff auf den falschen Schlüssel liefert `undefined` bzw.
+`None`, keine Ausnahme — die Auswertung meldet dann «keine Themen betroffen». `geo-sz.mjs`
+liest deshalb beide Schreibweisen. Wer ein eigenes Script baut: gegen **beide** Kantone testen,
+nicht gegen einen.
+
+### Bytezahlen taugen hier nicht als Vergleichswert
+
+Derselbe SZ-Auszug (Wangen 25, EGRID `CH379377805305`) wurde an diesem Abend dreimal bezogen:
+**509'074 B · 568 KB · 506'977 B**. Erstellungszeitpunkt und Auszugs-UUID stecken im Dokument,
+die Grösse schwankt also **innerhalb einer Stunde** ohne jede inhaltliche Änderung. Die
+Warnung weiter oben («kleine Grössenschwankungen sind normal») lässt sich damit schärfen: bei
+OEREB-PDF ist die Bytezahl **kein** Vergleichswert, auch nicht grob. Vergleichbar ist der
+Themenstand aus dem JSON und das Feld `UpdateDateCS` (Wangen: **2026-08-10T22:36:16**, deckt
+sich mit dem im PDF genannten «Stand der amtlichen Vermessung 10.08.2026»).
 
 ## Connector
 
