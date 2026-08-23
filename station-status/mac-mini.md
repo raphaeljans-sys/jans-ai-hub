@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 20:47:58
+Stand: 23.08.2026 20:58:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 20:33)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 20:47:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 21e9fb68 nas-selfcommit: 2 Datei(en) 2026-08-23 20:45
+- a7f4acf4 wissen/baurecht: Buch-Run 91 - GG-Luecke aus Run 85 geschlossen, [[baubewilligungsverfahren]] korrigiert (Paragraf 41 GG traegt nicht Bauvorstand/einzelne Mitglieder, das ist Paragraf 44 GG)

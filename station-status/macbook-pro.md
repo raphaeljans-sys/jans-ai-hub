@@ -1,6 +1,6 @@
 # Stations-Status: macbook-pro
 
-Stand: 23.08.2026 20:49:28
+Stand: 23.08.2026 20:59:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 20:49:28
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 8259a2f3 wissen/baurecht: Buch-Run 90 - Modell-D-Re-Verifikation bestandsumbau-eingriffstiefe (PBG SZ SS 59-65+72), CONFIRMED wortgleich kein Drift, Reglemente-Queue T1-T9 bleibt vollstaendig
+- a7f4acf4 wissen/baurecht: Buch-Run 91 - GG-Luecke aus Run 85 geschlossen, [[baubewilligungsverfahren]] korrigiert (Paragraf 41 GG traegt nicht Bauvorstand/einzelne Mitglieder, das ist Paragraf 44 GG)
