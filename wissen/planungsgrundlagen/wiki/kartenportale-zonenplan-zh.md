@@ -1,9 +1,9 @@
 ---
 title: Rechtskräftige kommunale Grundnutzung (Zonenplan/BZO) Kt. ZH — login-frei als Vektor
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-23
 sources:
-  - maps.zh.ch/wfs/OGDZHWFS GetCapabilities + GetFeature (GeoJSON, EPSG:2056) — Stand 06/2026
+  - maps.zh.ch/wfs/OGDZHWFS GetCapabilities + GetFeature (GeoJSON, EPSG:2056) — Stand 06/2026, Achsenreihenfolge nachgemessen 23.08.2026
   - Datensatz ARV Basis Nutzungsplanung 0156 (Grundnutzung), 0154 (Empfindlichkeitsstufen LSV)
   - Benchmark Connector geo-zh.mjs --produkt zonenplan, Langnau a.A. Kat. 3338 + Egg WG60, 2026-06-16
   - A6 proj-Layer 0156_proj validiert: Seuzach Kat. 2304 (laufende BZO-Revision, Auflage 11/2024), 2026-06-24
@@ -39,7 +39,18 @@ GET https://maps.zh.ch/wfs/OGDZHWFS
 - **Mini-BBOX (±2 m)** um den Parzellen-/Gebäudepunkt → genau **eine** Zonenfläche.
   Grössere Fenster (z.B. ±30 m) fangen Nachbarzonen mit (Benchmark Langnau: ±30 m liefert
   zusätzlich die angrenzende «Fk Kantonale Freihaltezone»). Bei >1 Treffer: Punkt präzisieren.
-- Achsen unkritisch hier, weil quadratische BBOX; CRS als `urn:ogc:def:crs:EPSG::2056`.
+- ⚠ **Achsenreihenfolge ist NICHT unkritisch** (berichtigt 23.08.2026, hier stand
+  «Achsen unkritisch hier, weil quadratische BBOX»). Eine quadratische BBOX macht nur die beiden
+  **Halbweiten** gleich, nicht die beiden **Mittelpunktskoordinaten**: wer E und N vertauscht,
+  fragt an einer voellig anderen Stelle. Gemessen am Benchmark Langnau Kat. 3338
+  (E 2682864.25 / N 1238219.125), identischer Aufruf, nur die Reihenfolge getauscht:
+  **E,N → 1 Feature** (`typ_gde_abkuerzung W/1.5`, `baumassenziffer_max 1.5`), **N,E → 0
+  Features**. Der Connector `geo-zh.mjs` (Zeile `bbox = ${e-half},${n-half},…`) liegt richtig;
+  falsch war nur der Satz hier. CRS wie gehabt als `urn:ogc:def:crs:EPSG::2056`.
+- **Auch dieser Fehler waere stumm:** die vertauschte Abfrage antwortet `HTTP 200` mit gueltigem
+  GeoJSON und einer **leeren** `features`-Liste — nicht von einer Parzelle ohne Zonenfestlegung
+  zu unterscheiden. Dieselbe Familie wie die Bauzonen-Kachel in [[kartenportale-bund-geodaten]],
+  die vertauscht ein formal gueltiges, vollstaendig transparentes PNG lieferte.
 
 ## Gelieferte Attribute (GeoJSON properties)
 

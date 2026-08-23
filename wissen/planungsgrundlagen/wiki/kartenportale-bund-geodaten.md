@@ -111,6 +111,29 @@ node geo-zh.mjs --adresse "Giebelweg 12, Langnau am Albis" \
 - `--download` lädt bei `orthofoto`/`dtm` zusätzlich die **höchstaufgelöste** Kachel je Jahrgang.
 - `bauzonen` wird immer als PNG abgelegt (`Bauzonen-CH_<BFS>_<Parzelle>_<JJJJ-MM-TT>.png`).
 
+## Nachmessung 23.08.2026 (funktional, nicht nur Erreichbarkeit)
+
+Alle vier Endpunkte am selben Benchmark Kat. 3338 erneut abgefragt und die **Nutzdaten** mit der
+Dokumentation von 06/2026 verglichen:
+
+| Endpunkt | Messung 23.08.2026 | gegen 06/2026 |
+|---|---|---|
+| `api3.geo.admin.ch/rest/services/height` | `{"height":"549.1"}` | identisch |
+| `api3.../SearchServer` (Adresse) | E 2682864.25 / N 1238219.125 · lon 8.534085 / lat 47.289661 · `featureId 57977_0` | identisch |
+| STAC `swissimage-dop10` | 3 Items: **2019 · 2022 · 2025**, je 2 Assets (0.1 m / 2 m) | identisch, **kein neuer Jahrgang** |
+| STAC `swissalti3d` | 1 Item `swissalti3d_2020_2682-1238`, **4 Assets**: `_0.5_2056_5728.tif`, `_2_2056_5728.tif` und **je eine `.xyz.zip` zu beiden Aufloesungen** | identisch; die Punktwolke gibt es zu **beiden** Aufloesungen, nicht nur einmal |
+| WMS `ch.are.bauzonen` GetMap | 28 KB PNG mit Zoneninhalt — **erst nach der Achsenkorrektur** | Doku war falsch, s. oben |
+
+**STAC v0.9 laeuft weiter, v1 liefert am Benchmark dasselbe.** `data.geo.admin.ch/api/stac/v0.9/`
+antwortet `HTTP 200` und meldet sich weiterhin als `stac_version 0.9.0`, ohne Abkuendigungshinweis
+im Katalog-Root. Die identische Abfrage unter `…/api/stac/v1/…` liefert **exakt dieselben drei
+Items mit denselben IDs**. Der v0.9-Pfad im Connector ist also nicht dringlich, aber **v1 ist der
+zukunftssichere Pfad** und ohne Ergebnisunterschied umstellbar — bewusst **nicht** in diesem Lauf
+geaendert, weil kein Messwert dafuer spricht und die Umstellung sonst ungeprueft mitliefe.
+
+`geodienste.ch/downloads/av/` antwortet `HTTP 200` ohne Umleitung (Bezugsweg unveraendert,
+s. [[kartenportale-geoportale-uebersicht]]).
+
 ## Offen
 - ~~A2: kommunaler ZH-Zonenplan/BZO login-frei~~ **✓ gelöst 2026-06-16** via ZH-OGD-WFS 0156
   → [[kartenportale-zonenplan-zh]] (`--produkt zonenplan`).

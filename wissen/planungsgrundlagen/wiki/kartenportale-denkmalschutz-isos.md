@@ -1,7 +1,7 @@
 ---
 title: Denkmalschutz/Ortsbildschutz als Planungsgrundlage — ISOS (Bund) + Archäologische Zonen/Denkmalschutzobjekte (Kt. ZH) + BILU/KDV (Kt. LU)
 status: established
-last_updated: 2026-07-30 (Wartungslauf 01: BAK-ISOS-URL korrigiert)
+last_updated: 2026-08-23 (Vertiefungslauf 6: beide ZH-WFS-Layer an Positivproben nachgemessen)
 sources:
   - PL-01 Kartenportale/CH Schweiz/gisos.bak.admin.ch/gisos.bak.admin.ch.docx (2 URLs:
     gisos.bak.admin.ch/sites, bak.admin.ch „ISOS in Kürze")
@@ -115,6 +115,29 @@ abfragbar — gefunden per `GetCapabilities` und live verifiziert:
 - Connector-Feature `--produkt denkmalschutz` (default-Fenster ±60 m, `--radius` überschreibbar)
   ist ab sofort in `skills/planungsgrundlagen/connectors/geo-zh.mjs` verfügbar — analog zu
   `zonenplan`/`baulinien` nur für Kt. ZH hinterlegt.
+
+### ⚠ Warum ein «keine Treffer» hier immer gegen eine Positivprobe zu halten ist (23.08.2026)
+
+`fetchDenkmalschutz()` in `geo-zh.mjs` kapselt **beide** Layer-Abfragen in ein `try { … } catch
+{ /* optional */ }`. Ein Netzfehler, ein umbenannter Layer oder eine Zugangsschranke führen damit
+nicht zu einer Fehlermeldung, sondern zur Ausgabe **«keine Treffer im Fenster»** — im Wortlaut
+identisch mit dem echten Negativbefund einer schutzobjektfreien Parzelle. Der Auffangblock ist für
+den Regelbetrieb richtig (ein fehlender Nebenlayer soll den Lauf nicht abbrechen), aber er macht
+den Negativbefund für sich genommen **nicht belastbar**.
+
+**Deshalb beide Layer heute an ihren dokumentierten Positiv-Benchmarks nachgemessen**
+(`GetFeature`, `urn:ogc:def:crs:EPSG::2056`, Achsen E,N):
+
+| Layer | Probe | Ergebnis 23.08.2026 |
+|---|---|---|
+| `…0368_…denkmalschutzobjekte_p` | ±60 m um E 2711892 / N 1236834 (Benchmark Wald ZH, Run 40) | **2 Objekte**: «Ehem. Kaninchenstall» und «Garten», beide Ensemble «Wald (ZH): ‹Montana›», Baujahr 1906-1907, Einstufung regional, GVZ 12001936 |
+| `…0087_arv_kaz_archzonen_f` | ohne BBOX, `COUNT=2` | **2 Zonen**: Feuerthalen (BFS 27, `zonen_nr` 4) und Dachsen (BFS 25, `zonen_nr` 10), Stützpunkte im LV95-Raster |
+
+Beide Layer leben und liefern die dokumentierten Attribute. **Praxisregel:** wer sich in einem
+Dossier auf «keine Schutzobjekte» stützt, hält das Ergebnis einmal gegen einen Punkt, an dem der
+Layer nachweislich Treffer liefert — sonst steht im Bericht eine Aussage über die Parzelle, die in
+Wahrheit eine über den Endpunkt sein kann. Dasselbe Muster wie die stumme Achsvertauschung in
+[[kartenportale-bund-geodaten]].
 
 ## 3. Kt. LU: zweistufiges System BILU/KDV + Kulturdenkmäler als eigenes ÖREB-Thema (Run 65, 2026-07-25)
 

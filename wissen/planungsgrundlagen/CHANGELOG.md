@@ -2,6 +2,57 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 6 Revendo) — erste funktionale Endpunktprüfung: zwei stumme Fehler, davon ein echter Connector-Bug seit 06/2026
+
+Sechster Lauf am selben Auftrag, aber mit einem anderen Messmittel. Die bisherigen Endpunktläufe
+haben **HTTP-Code und Antwortgrösse** gemessen; dieser Lauf hat die **Nutzdaten** gemessen. Genau
+dort lagen zwei Fehler, die jede bisherige Prüfung unbeschadet passiert haben.
+
+**Befund 1, behoben — `--produkt bauzonen` hat seit 06/2026 leere Bilder abgelegt.** Artikel
+[[kartenportale-bund-geodaten]] und Connector `geo-zh.mjs` (`bauzonenMap`) verlangten die WMS-BBOX
+als **N,E**. Richtig ist **E,N**; EPSG:2056 ist mit dem Rechtswert zuerst definiert. Die falsche
+Reihenfolge liefert `HTTP 200`, `image/png`, ein formal gültiges 1000×1000-Bild von **3'957 Bytes,
+zu 100 % transparent** — und genau diese Bytezahl stand im Artikel als Beleg («Validiert:
+1000×1000-PNG, ~4 KB»), während der Connector dazu «bauzonen: … (4 KB)» als Erfolg loggte.
+Entscheidende Gegenprobe per `GetFeatureInfo` (JSON, Pixel `I=500&J=500`, gleiche BBOX): **E,N**
+liefert `bfs_no 136` · Langnau am Albis · `Wohnzonen` · `ch_code_hn 11` · `flaeche 40583` ·
+`kt_kz ZH`, **N,E** eine leere FeatureCollection. Korrigiert und nachgemessen: derselbe
+Connector-Aufruf liefert jetzt **28 KB** mit 51.8 % Zonenfläche statt eines leeren Bildes.
+
+**Befund 2, berichtigt — «Achsen unkritisch, weil quadratische BBOX» ist falsch.** In
+[[kartenportale-zonenplan-zh]] stand dieser Satz zum ZH-OGD-WFS. Eine quadratische BBOX macht nur
+die **Halbweiten** gleich, nicht die **Mittelpunktskoordinaten**. Gemessen, identischer Aufruf, nur
+die Reihenfolge getauscht: **E,N → 1 Feature** (`W/1.5`, BMZ 1.5), **N,E → 0 Features**. Der
+Connector liegt richtig, falsch war der Satz. Auch dieser Fehler wäre stumm: gültiges GeoJSON mit
+leerer `features`-Liste, nicht von einer Parzelle ohne Zonenfestlegung zu unterscheiden.
+
+**Vorsorglich geprüft — der Negativbefund beim Denkmalschutz.** `fetchDenkmalschutz()` fängt beide
+Layer-Abfragen in einem `catch { /* optional */ }` ab und meldet im Fehlerfall «keine Treffer im
+Fenster», im Wortlaut identisch mit dem echten Negativbefund. Beide Layer darum an ihren
+Positiv-Benchmarks nachgemessen: Denkmalschutzobjekte liefern am Benchmark Wald ZH
+(E 2711892 / N 1236834) **2 Objekte** (Ensemble «Montana», 1906-1907, regional, GVZ 12001936),
+archäologische Zonen ohne BBOX **2 Zonen** (Feuerthalen, Dachsen). Beide leben; in
+[[kartenportale-denkmalschutz-isos]] samt Praxisregel verankert.
+
+**Bund-Endpunkte funktional bestätigt, kein Delta zu 06/2026:** `height` → `549.1` · `SearchServer`
+→ E 2682864.25 / N 1238219.125, lon 8.534085 / lat 47.289661 · STAC `swissimage-dop10` → 2019 ·
+2022 · 2025 (kein neuer Jahrgang) · STAC `swissalti3d` → `swissalti3d_2020_2682-1238` mit vier
+Assets (0.5 m und 2 m, je `.tif` **und** `.xyz.zip`) · `geodienste.ch/downloads/av/` → 200 ohne
+Umleitung. **STAC v0.9 läuft weiter** (Root meldet `stac_version 0.9.0`, kein Abkündigungshinweis)
+und **v1 liefert am Benchmark exakt dieselben Item-IDs**; die Umstellung wäre ergebnisneutral,
+wurde aber **bewusst nicht** vorgenommen, weil kein Messwert sie verlangt.
+
+**Die verallgemeinerbare Regel, in beiden Artikeln verankert:** ein Endpunkt ist erst geprüft, wenn
+der **Inhalt** gemessen ist. HTTP-Code, Content-Type und Bytezahl belegen, dass ein Server
+geantwortet hat, nicht dass er das Bestellte geliefert hat.
+
+Geänderte Dateien: `skills/planungsgrundlagen/connectors/geo-zh.mjs` (Achsenreihenfolge
+`bauzonenMap` + Belegkommentar) · `wiki/kartenportale-bund-geodaten.md` (§4 berichtigt,
+Nachmessungstabelle, Frontmatter) · `wiki/kartenportale-zonenplan-zh.md` (Achsen-Berichtigung,
+Frontmatter) · `wiki/kartenportale-denkmalschutz-isos.md` (Positivproben + `catch`-Warnung,
+Frontmatter) · `wiki/QUESTIONS.md` (Laufeintrag) ·
+`outputs/2026-08-23_vertiefung-6-funktionale-endpunktpruefung.md`.
+
 ## 2026-08-23 (Vertiefungslauf 5 Revendo) — Prüfregel angewendet: ein Richtwert wird von den eigenen Beispielen nicht getragen
 
 Die in `wissen/grobkosten` gewonnene Prüfregel — Zahlen gegen ihre eigene Grundlage zurückrechnen —

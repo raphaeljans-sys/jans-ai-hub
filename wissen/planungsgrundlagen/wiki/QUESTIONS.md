@@ -58,6 +58,77 @@ Offene Punkte dieser KB. Erledigtes mit ✓ + Datum.
 > Beides ist Arbeit der KB `normen`, nicht des Wartungslaufs; hier steht es, damit es nicht
 > allein im Laufbericht verpufft.
 
+## Lauf 2026-08-23 (Vertiefungslauf 6 Revendo, Auftrag Raphael) — erste funktionale Endpunktprüfung: zwei stumme Fehler gefunden, einer davon ein echter Connector-Bug
+
+**Auftrag:** wie Vertiefungslauf 1 — Endpunkte, Links und Connector-Wege verifizieren. **Neuer
+Winkel:** die bisherigen Läufe haben Endpunkte an **HTTP-Code und Antwortgrösse** gemessen. Dieser
+Lauf hat die **Nutzdaten** gemessen. Genau dort lagen zwei Fehler, die alle bisherigen Prüfungen
+passiert haben.
+
+### Befund 1 (behoben) — `--produkt bauzonen` legte seit 06/2026 leere Bilder ab
+
+Die Bauzonen-Kachel wird über `wms.geo.admin.ch` GetMap bezogen. Sowohl
+[[kartenportale-bund-geodaten]] als auch der Connector `geo-zh.mjs` (`bauzonenMap`) verlangten die
+BBOX in der Reihenfolge **N,E**. Richtig ist **E,N** — EPSG:2056 ist mit dem Rechtswert zuerst
+definiert.
+
+**Was die falsche Reihenfolge liefert:** `HTTP 200`, `Content-Type: image/png`, ein formal gültiges
+1000×1000-Bild von 3'957 Bytes — **zu 100 % transparent**. Genau diese 3'957 Bytes standen im
+Artikel als Beleg («Validiert: 1000×1000-PNG, ~4 KB»). Der Connector loggte dazu «bauzonen: …
+(4 KB)», also eine Erfolgsmeldung.
+
+**Gegenprobe, die es entscheidet** (`GetFeatureInfo`, `INFO_FORMAT=application/json`, Pixel
+`I=500&J=500`, gleiche BBOX): mit **E,N** kommt `bfs_no 136` · `Langnau am Albis` · `Wohnzonen` ·
+`ch_code_hn 11` · `flaeche 40583` · `kt_kz ZH`; mit **N,E** eine **leere FeatureCollection**.
+
+**Behoben und nachgemessen:** `geo-zh.mjs` Zeile `bauzonenMap` auf E,N korrigiert; derselbe
+Connector-Aufruf liefert jetzt **28 KB** mit 51.8 % Zonenfläche `RGBA(255,166,0)` statt eines
+leeren Bildes. Artikel berichtigt.
+
+### Befund 2 (berichtigt) — «Achsen unkritisch, weil quadratische BBOX» ist falsch
+
+In [[kartenportale-zonenplan-zh]] stand, die Achsenreihenfolge sei beim ZH-OGD-WFS unkritisch,
+weil die BBOX quadratisch ist. Eine quadratische BBOX macht nur die **Halbweiten** gleich, nicht
+die **Mittelpunktskoordinaten**. Gemessen am selben Benchmark, identischer Aufruf, nur die
+Reihenfolge getauscht: **E,N → 1 Feature** (`W/1.5`, BMZ 1.5), **N,E → 0 Features**. Der Connector
+selbst liegt richtig; falsch war der Satz. Auch dieser Fehler wäre stumm — `HTTP 200`, gültiges
+GeoJSON, leere `features`-Liste, nicht von einer Parzelle ohne Zonenfestlegung zu unterscheiden.
+
+### Vorsorglich geprüft: der Negativbefund beim Denkmalschutz
+
+`fetchDenkmalschutz()` fängt beide Layer-Abfragen in einem `catch { /* optional */ }` ab und meldet
+im Fehlerfall **«keine Treffer im Fenster»** — im Wortlaut identisch mit dem echten Negativbefund.
+Beide Layer darum an ihren Positiv-Benchmarks nachgemessen: `…0368_…denkmalschutzobjekte_p` liefert
+am Benchmark Wald ZH (E 2711892 / N 1236834) **2 Objekte** (Ensemble «Montana», 1906-1907,
+regional, GVZ 12001936), `…0087_arv_kaz_archzonen_f` ohne BBOX **2 Zonen** (Feuerthalen, Dachsen).
+Beide leben. In [[kartenportale-denkmalschutz-isos]] verankert.
+
+### Bund-Endpunkte funktional bestätigt (kein Delta zu 06/2026)
+
+`height` → `{"height":"549.1"}` · `SearchServer` → E 2682864.25 / N 1238219.125, lon 8.534085 /
+lat 47.289661 · STAC `swissimage-dop10` → **2019 · 2022 · 2025**, kein neuer Jahrgang · STAC
+`swissalti3d` → `swissalti3d_2020_2682-1238` mit **4 Assets** (0.5 m und 2 m, je `.tif` **und**
+`.xyz.zip`) · `geodienste.ch/downloads/av/` → 200 ohne Umleitung. **STAC v0.9 läuft weiter**
+(Root meldet `stac_version 0.9.0`, kein Abkündigungshinweis) und **v1 liefert am Benchmark exakt
+dieselben Item-IDs** — der Pfad im Connector ist nicht dringlich, v1 wäre ohne Ergebnisunterschied
+umstellbar; **bewusst nicht in diesem Lauf geändert**, weil kein Messwert dafür spricht.
+
+### Die verallgemeinerbare Regel
+
+**Ein Endpunkt ist erst geprüft, wenn der Inhalt gemessen ist.** HTTP-Code, Content-Type und
+Bytezahl belegen, dass ein Server geantwortet hat, nicht dass er das Bestellte geliefert hat. Beide
+heute gefundenen Fehler haben jede bisherige Prüfung überstanden, weil jede bisherige Prüfung auf
+der Transportebene endete. Für Bilder heisst «Inhalt messen» notfalls Pixel zählen (hier: ein
+15-zeiliger PNG-Dekoder aus `zlib`, weil auf dieser Station weder PIL noch ImageMagick liegt), für
+GeoJSON `features > 0` **gegen eine Positivprobe**, für ein PDF die Seitenzahl.
+
+### Weiterhin blockiert: C-BSP-2026
+
+Die Bring-Schuld an `normen` (Destillat VKF «Brandschutzplatten» 1-0/10.03.2026) bleibt offen. Die
+KB `normen` wurde auch während dieses Laufs bearbeitet (Commits um 22:42 und 22:49 desselben
+Abends) — ein Fremdschreiben würde die dortige Arbeit weiterhin kreuzen. Unverändert Raphael
+gemeldet.
+
 ## Lauf 2026-08-23 (Vertiefungslauf Revendo, Auftrag Raphael) — Endpunkte/Links/Connectoren verifiziert, ein neuer offener Punkt
 
 **Auftrag:** Endpunkte, Links und Connector-Wege verifizieren, offene Fragen schliessen. Der
@@ -107,6 +178,50 @@ antizipierten Erleichterungen einplanen. Nächster Check: **Ende 11/2026** oder 
 Aktuell-Eintrag erscheint. Eingearbeitet in [[brandschutz-pl03-wegweiser]].
 
 ### C-BSP-2026 — NEUER OFFENER PUNKT (Bring-Schuld an `normen`, hier zwischengeparkt)
+
+> **Fertiger Ticket-Text für `wissen/normen/wiki/QUESTIONS.md`** (23.08.2026). Nur einsetzen und
+> die Zeile «Eingetragen durch» ergänzen — inhaltlich ist nichts mehr zu recherchieren. Er ist
+> bewusst hier abgelegt und **nicht** drüben eingetragen, weil `normen` am selben Tag auf dem
+> Mac Mini bearbeitet wurde.
+>
+> ---
+>
+> **N-BSP-1 — VKF «Brandschutzplatten — Grundlagen, Nachweis und Anwendung» destillieren**
+>
+> | Feld | Wert |
+> |---|---|
+> | Titel | Brandschutzplatten — Grundlagen, Nachweis und Anwendung |
+> | Herausgeberin | Vereinigung Kantonaler Feuerversicherungen (VKF) |
+> | Version / Datum | **1-0, 10.03.2026** |
+> | Verabschiedet | Technische Kommission Brandschutz, 10.03.2026 |
+> | Zuständigkeit | Fachkommission Bautechnik |
+> | Umfang | 9 Seiten |
+> | Publiziert | 07.05.2026 auf `bsvonline.ch/de/aktuell/brandschutzplatten` |
+> | Dokument-ID | `BSPUB-1394520214-3201` |
+> | Bezugsweg | `services2.vkf.ch/rest/public/georg/bs/publikation/documents/<ID>.pdf/content` |
+>
+> **Inhalt laut Dokument selbst:** erläutert das **Schutzziel** von Brandschutzplatten und das
+> darauf aufbauende **neue Nachweisverfahren**, sowie den aus der notwendigen Brandprüfung
+> abgeleiteten **Anwendungsbereich** im Detail.
+>
+> ⚠ **Vorbehalt aus dem Dokument selbst, wörtlich:** «Einige Textteile wurden mit dem Wissen aus
+> dem Projekt Brandschutzvorschriften 2026 (BSV 2026) erstellt. Diese Textteile werden mit der vom
+> Interkantonalen Organ Technische Handelshemmnisse IOTH genehmigten BSV 2026 überprüft und falls
+> erforderlich angepasst.» → **Destillat mit `status: speculative` führen**, bis die BSV 2026
+> genehmigt ist (geplant IOTH-Plenarversammlung **03/2027**). Das Dokument ist teilweise
+> vorgreifend.
+>
+> **Warum es gebraucht wird:** `wissen/planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md`
+> führt Brandschutzplatten heute über die Register-Gruppe 231 und das Dokument «Allgemein
+> anerkannte …» (2017). Das neue Nachweisverfahren ist dort nicht abgebildet. Nach Rule
+> `normen-referenz` führt `normen` die kanonische Fundstelle; der Wegweiser verlinkt anschliessend
+> auf das Destillat (§5).
+>
+> **Quelle der Angaben:** PDF am 23.08.2026 bezogen, Deckblatt im Volltext gelesen; Publikations-
+> datum von der bsvonline.ch-Aktuell-Seite.
+>
+> ---
+
 
 Am **07.05.2026** hat die VKF ein Fachdokument publiziert, das diese KB noch nicht kennt:
 **«Brandschutzplatten — Grundlagen, Nachweis und Anwendung»**, Version **1-0 vom 10.03.2026**,
