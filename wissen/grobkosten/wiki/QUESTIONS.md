@@ -2,6 +2,55 @@
 
 Offene Fragen / Wissenslücken / ungelöste Spannungen. Neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 2 Revendo) — Holzbau-Zuschlag: amtlicher Index gefunden, Anwendungsgrenze belegt, neue offene Frage
+
+Zweite Runde. Angesetzt beim **Holzbau-Zuschlag**, weil er der einzige Kennwert dieser KB ist, der
+an **einer einzigen Studie** hängt (Wüest/Lignum/BAFU, Indexstand April 2023, 17 Holzbauten) und
+seit dem 30.07.2026 nicht mehr gegengeprüft wurde.
+
+### Neu: es gibt einen amtlichen, laufend fortgeschriebenen Holzbau-Preisindex
+
+Der **BFS-Baupreisindex führt den Holzbau als eigene Bauwerksart** — «Neubau Mehrfamilienhaus aus
+Holz», Gewicht 3.85 neben «Neubau Mehrfamilienhaus» mit Gewicht 18.91. Diese KB kannte ihn nicht.
+Damit ist die Zuschlagsfrage künftig **laufend überprüfbar**, statt an einer Momentaufnahme zu
+hängen. Stand April 2026 (Basis Okt-2025 = 100): Massivbau-Proxy **100.7 / +1.0 % YoY**, Holzbau
+**100.6 / +1.1 % YoY**.
+
+**Was folgt:** über das letzte Jahr laufen die beiden Bauweisen **praktisch parallel** (0.1
+Prozentpunkte Differenz, innerhalb der Publikationsgenauigkeit) — kein Hinweis auf ein
+Auseinanderlaufen. **Was nicht folgt:** die volle Strecke seit dem Studien-Indexstand April 2023
+ist damit **nicht** geprüft. Der Zuschlag ist für das letzte Jahr nicht widerlegt, aber auch nicht
+über die ganze Strecke bestätigt.
+
+### NEUE OFFENE FRAGE — verkettete BFS-Reihe je Bauwerksart ab 2023 beschaffen
+
+Um den Zuschlag unabhängig fortzuschreiben, braucht es die **verkettete Reihe je Bauwerksart
+zurück bis April 2023**. In diesem Lauf **nicht beschaffbar**: die BFS-Indexseite zeigt nur den
+aktuellen Stichtag, und die PX-Web-Schnittstelle des BFS (`pxweb.bfs.admin.ch/api/v1/de`,
+650 Datenbanken geprüft) führt die Baupreis-Datenbank **nicht** — es gibt dort keinen
+`px-x-05…`-Präfix. Nächste zu prüfende Wege: STAT-TAB-Cube-Download über den BFS-Datenkatalog,
+oder die publizierte Excel-Tabelle zur Medienmitteilung. **Kein Rateweg** — ohne die Reihe bleibt
+die Fortschreibung offen.
+
+### ⚠ Neu belegte Anwendungsgrenze: der Zuschlag passt nicht auf Hybridbauten
+
+Der **ZIW-Methodenbericht Revision 2025** (Statistik Stadt Zürich, Juni 2026, Kap. 2.4) begründet,
+warum Statistik Stadt Zürich **auf einen eigenen Holzbauindex verzichtet** — die Begründung stammt
+aus zwei Workshops mit acht Bauexpertinnen und -experten und trifft die Anwendung dieses Kennwerts
+direkt: reine Holzbauten sind im **städtischen MFH-Bau selten**; gebaut wird **überwiegend
+hybrid**, und **je dichter, desto eher Massivbau**; **hybrides Bauen steht dem Massivbau näher als
+dem reinen Holzbau**; die **Abgrenzung ist nicht eindeutig**, weil unklar ist, welcher
+Materialanteil als «Holzbau» gilt.
+
+**Praxisfolge, in `wiki/kennwerte.md` verankert:** den Zuschlag nur auf Projekte mit
+**überwiegendem Holztragwerk** anwenden. Beim Hybridbau — dem Regelfall im städtischen
+Wohnungsbau — ist der Massivbau-Kennwert der nähere Ausgangspunkt, und der Zuschlag ist **nicht
+anteilig interpolierbar**, weil keine Quelle einen Materialanteil-Schwellenwert belegt. Das ist
+keine Einschränkung des Kennwerts, sondern seine bisher fehlende Anwendungsbedingung.
+
+*Quellen: BFS, Baupreisindex, Hauptresultate nach Bauwerksart, Stand April 2026 (abgerufen
+23.08.2026) · Statistik Stadt Zürich, ZIW-Methodenbericht Revision 2025, Kap. 2.4, Volltext.*
+
 ## 2026-08-23 (Vertiefungslauf Revendo, Auftrag Raphael) — Frage 2 richtig geschlossen statt falsch geschlossen; zwei neue amtliche Kennwert-Blöcke
 
 **Anlass.** Der Eintrag desselben Tages (unten) hat Frage 2 (01.04.2026-Indexstand) mit dem

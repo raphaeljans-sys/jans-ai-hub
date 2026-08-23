@@ -264,6 +264,55 @@ Konsistenz-Beleg des neuen Kennwerts bleibt allein der zweite Check: Massivbau-M
 GV innerhalb des eigenen MFH-gehoben-Seed-Bands 850–1'050
 (`raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`).
 
+> ### Nachtrag 23.08.2026 (Vertiefungslauf 2 Revendo) — es gibt einen amtlichen Holzbau-Preisindex
+>
+> Der Zuschlag oben hängt an **einer einmaligen Studie** (Wüest/Lignum/BAFU, Indexstand April
+> 2023, 17 Holzbauten). Neu belegt: der **BFS-Baupreisindex führt den Holzbau als eigene
+> Bauwerksart** — «Neubau Mehrfamilienhaus aus Holz», Gewicht **3.85** neben «Neubau
+> Mehrfamilienhaus» mit Gewicht 18.91. Damit ist die Zuschlagsfrage künftig **laufend
+> überprüfbar**, statt an einer Momentaufnahme zu hängen.
+>
+> **Stand April 2026** (Basis Oktober 2025 = 100, Schweiz, primärverifiziert 23.08.2026):
+>
+> | Reihe | Indexstand Apr. 26 | gg. Okt. 25 | gg. Apr. 25 |
+> |---|---|---|---|
+> | Neubau Mehrfamilienhaus (Massivbau-Proxy) | 100.7 | +0.7 % | **+1.0 %** |
+> | Neubau Mehrfamilienhaus **aus Holz** | 100.6 | +0.6 % | **+1.1 %** |
+>
+> **Was daraus folgt — und was ausdrücklich nicht.** Über das **letzte Jahr** laufen die beiden
+> Bauweisen praktisch parallel; die Differenz von 0.1 Prozentpunkten liegt innerhalb der
+> Publikationsgenauigkeit. Es gibt also **keinen Hinweis**, dass sich der Kostenabstand zwischen
+> Holz- und Massivbau im letzten Jahr verschoben hätte. **Nicht geprüft ist die volle Strecke
+> seit dem Indexstand der Studie (April 2023)** — die bis dorthin verkettete Reihe je Bauwerksart
+> war in diesem Lauf nicht aus einer Primärquelle zu beschaffen (die BFS-Indexseite zeigt nur den
+> aktuellen Stichtag, die PX-Web-Schnittstelle führt die Baupreis-Datenbank nicht). Der Zuschlag
+> ist damit **für das letzte Jahr nicht widerlegt, aber auch nicht über die ganze Strecke
+> bestätigt**. Offener nächster Schritt: die verkettete Reihe je Bauwerksart ab 2023 beschaffen,
+> dann ist der Zuschlag erstmals unabhängig fortschreibbar.
+>
+> **⚠ Neue, belegte Anwendungsgrenze: der Zuschlag passt nicht auf Hybridbauten.** Der
+> **ZIW-Methodenbericht Revision 2025** (Statistik Stadt Zürich, Juni 2026, Kap. 2.4) dokumentiert,
+> warum Statistik Stadt Zürich **auf einen eigenen Holzbauindex verzichtet** — die Begründung
+> stammt aus zwei Workshops mit acht Bauexpertinnen und -experten und trifft die Anwendung dieses
+> Kennwerts direkt:
+> - Reine Holzbauten sind im **städtischen Mehrfamilienhausbau selten**; gebaut wird nach wie vor
+>   mehrheitlich massiv, wenn auch mit unterschiedlichen Materialien.
+> - Im Wohnungsbau wird **überwiegend hybrid** gebaut, und **je dichter gebaut wird, desto eher
+>   kommt Massivbau zum Einsatz**. Hybrides Bauen steht dabei **dem Massivbau näher als dem
+>   reinen Holzbau**.
+> - Die **Abgrenzung des Holzbaus ist nicht eindeutig**, weil es sich meist um Hybridbauten
+>   handelt und unklar ist, welcher Materialanteil als «Holzbau» zu gelten hat.
+>
+> **Praxisfolge für diese KB:** den Holzbau-Zuschlag nur auf **Projekte mit überwiegendem
+> Holztragwerk** anwenden. Bei einem Hybridbau — dem Regelfall im städtischen Wohnungsbau — ist
+> der Massivbau-Kennwert der nähere Ausgangspunkt, und der Zuschlag ist **nicht anteilig
+> interpolierbar**, weil keine Quelle einen Materialanteil-Schwellenwert belegt. Das ist keine
+> Einschränkung des Kennwerts, sondern seine bisher fehlende Anwendungsbedingung.
+>
+> *Quellen: BFS, Baupreisindex, Hauptresultate nach Bauwerksart, Basis Okt-2025 = 100, Stand
+> April 2026 (abgerufen 23.08.2026) · Statistik Stadt Zürich, «Methodenbericht Revision 2025 —
+> Zürcher Index der Wohnbaupreise», Juni 2026, Kap. 2.4, Volltext.*
+
 **Anwendungsgrenze (Datenlage):** Die Stichprobe hinter diesem Zuschlag (17 Holz-Neubauten
 2019–2022, 10+ Wohnungen, BKP 1–5 5–150 Mio.,
 `raw/2025-wueest-lignum-massiv-vs-holzbau-erstellungskosten.md`) weist keine

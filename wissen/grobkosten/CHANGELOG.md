@@ -1,5 +1,36 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 2 Revendo) — Holzbau-Zuschlag: amtlicher Index gefunden, Anwendungsgrenze belegt
+
+Zweite Runde, angesetzt beim **Holzbau-Zuschlag** — dem einzigen Kennwert dieser KB, der an
+**einer einzigen Studie** hängt (Wüest/Lignum/BAFU, Indexstand April 2023, 17 Holzbauten).
+
+- **Neu: der BFS führt den Holzbau als eigene Bauwerksart.** «Neubau Mehrfamilienhaus aus Holz»,
+  Gewicht **3.85**, neben «Neubau Mehrfamilienhaus» (18.91). Diese KB kannte den Index nicht.
+  Damit ist die Zuschlagsfrage **laufend überprüfbar** statt an eine Momentaufnahme gebunden.
+  Stand April 2026 (Basis Okt-2025 = 100): Massivbau-Proxy **100.7 / +1.0 % YoY**, Holzbau
+  **100.6 / +1.1 % YoY** — über das letzte Jahr laufen die beiden Bauweisen **praktisch parallel**
+  (0.1 Pp Differenz, innerhalb der Publikationsgenauigkeit), **kein Hinweis** auf ein
+  Auseinanderlaufen. **Ausdrücklich nicht geprüft** ist die volle Strecke seit dem Studien-Stand
+  April 2023.
+- **Neue offene Frage:** die verkettete BFS-Reihe je Bauwerksart ab 2023 beschaffen. In diesem
+  Lauf nicht möglich — die Indexseite zeigt nur den aktuellen Stichtag, und die PX-Web-Schnittstelle
+  des BFS (650 Datenbanken geprüft) führt die Baupreis-Datenbank nicht. Kein Rateweg; als offener
+  Punkt in `wiki/QUESTIONS.md` mit den nächsten zu prüfenden Wegen hinterlegt.
+- **⚠ Neu belegte Anwendungsgrenze — der Zuschlag passt nicht auf Hybridbauten.** Der
+  ZIW-Methodenbericht Revision 2025 (Kap. 2.4) begründet den Verzicht auf einen eigenen städtischen
+  Holzbauindex mit Argumenten aus zwei Workshops mit acht Bauexpertinnen und -experten: reine
+  Holzbauten sind im städtischen MFH-Bau **selten**, gebaut wird **überwiegend hybrid**, **je
+  dichter desto eher Massivbau**, **hybrides Bauen steht dem Massivbau näher als dem reinen
+  Holzbau**, und die **Abgrenzung ist nicht eindeutig**. **Praxisfolge:** den Zuschlag nur bei
+  **überwiegendem Holztragwerk** anwenden; beim Hybridbau ist der Massivbau-Kennwert der nähere
+  Ausgangspunkt, und der Zuschlag ist **nicht anteilig interpolierbar** (kein belegter
+  Materialanteil-Schwellenwert). Bisher fehlende Anwendungsbedingung, kein neuer Kennwert.
+- **Kein Kennwert geändert**, der Zuschlag selbst (0 % unteres / +13 % oberes Preissegment) bleibt
+  unverändert stehen.
+
+Geänderte Dateien: `wiki/kennwerte.md` (Nachtragsblock beim Holzbau-Zuschlag), `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf Revendo, Auftrag Raphael) — Frage 2 richtig geschlossen; Faktoren auf 01.04.2026; amtliche BKP-Anteilsstruktur MFH Zürich 2025 neu
 
 **Korrektur eines Befunds desselben Tages.** Der Eintrag unten schloss Frage 2 mit «ZIW publiziert
