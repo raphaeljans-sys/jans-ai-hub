@@ -1,5 +1,44 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (zwölfte Fortsetzung, Run 157): zwei der als „Entscheid Raphael nötig" geführten Punkte waren bereits entschieden
+
+Fortsetzung nach Run 156 (Negativbefund: kein selbst lösbarer Rechercheauftrag mehr offen).
+Auftrag: statt einer fünften identischen Durchsicht die als blockiert geführten Punkte einzeln
+gegen den tatsächlichen Bestand prüfen, nicht nur gegen den Registerstand.
+
+**E-S1 / M2 geschlossen:** 25+ Läufe in Folge (Run 45 bis mindestens Run 148) haben den eigenen
+Skill `energie` als „entscheidungsreif, braucht Raphael" geführt, ohne im Skill-Verzeichnis
+nachzusehen. Er existiert: `/Volumes/daten/jans-ai-hub/skills/energie/SKILL.md` (Stand
+15.08.2026), im Hub-Wegweiser `CLAUDE.md` gelistet und in dieser Session als aufrufbarer Skill
+verfügbar. Kein Entscheid mehr nötig — nur niemand hatte nachgesehen.
+
+**E-R148-2 geschlossen:** derselbe Fehlertyp. Der vorgeschlagene Takt-Entscheid («Loop auf
+fragengetrieben umstellen oder auf wöchentlich zurücktakten») war am 26.07.2026 bereits gefallen
+— `~/.claude/scheduled-tasks/energie-training/SKILL.md` trägt seither `enabled: false` mit dem
+Vermerk „Ereignis-Trigger statt Zeittakt (Entscheid Raphael 26.07.2026)", Startweg ist
+`scripts/wissens-trigger.sh`. Die vorgeschlagene Alternative («fragengetrieben») ist ausserdem
+bereits gelebte Praxis: alle elf interaktiven Fortsetzungssessions vom 23.08.2026 (Run 149-156)
+und dieser Lauf arbeiten `QUESTIONS.md` ab, nicht `pdf-inventar.md`.
+
+**E-R149-4 (Betrieb, technischer Fix an der VORAUSSETZUNG-Zeile derselben Task-Datei) bleibt
+offen — nicht inhaltlich, sondern aus einer Werkzeuggrenze dieser Session:** der Editier-Versuch
+an `~/.claude/scheduled-tasks/energie-training/SKILL.md` wurde vom Harness als sensible Datei
+abgelehnt (Berechtigungs-Constraint dieser Session, keine Sachfrage). Der Korrekturvorschlag
+liegt seit Run 129 unverändert im Wortlaut vor (`wiki/QUESTIONS.md`, E-R149-4) und ist inhaltlich
+weiterhin richtig; er muss ausserhalb dieser Session oder mit expliziter Freigabe angewendet
+werden.
+
+**Drei echte, unverändert offene Entscheidungspunkte für Raphael** (keiner davon aus eigener
+Kraft lösbar, alle im laufenden Chat direkt angesprochen): **E103** (JANS-eigene
+Healthcare-Projektdaten für einen Schweizer Pflegeplatz-Flächenkennwert auswerten?), **E94**
+(eine reale JANS-Projektofferte BKP 271 Innendämmung in `wissen/grobkosten/raw/` einspeisen?),
+**E-R148-1** (Normkauf SIA 380/1:2016 — blockiert zugleich die Healthcare-Gebäudekategorien-
+Fundstelle E-R140-1).
+
+Register: `wiki/QUESTIONS.md` (E-S1 ✓, E-R148-2 ✓, beide additiv mit „Ursprünglicher Wortlaut"
+belassen). Output: `outputs/2026-08-23_questions-nachlauf-zwoelfte-fortsetzung.md`. Nach jedem
+Schreibvorgang `git diff --numstat` geprüft: 20 Zeilen hinzugefügt, 0 gelöscht.
+
 ## 2026-08-23 — Interaktive Session (elfte Fortsetzung, Run 156): Negativbefund — kein aus eigener Kraft lösbarer Rechercheauftrag mehr offen
 
 Vierte unabhängige vollständige Durchsicht von `wiki/QUESTIONS.md` in Folge (nach Run 152, 154,
