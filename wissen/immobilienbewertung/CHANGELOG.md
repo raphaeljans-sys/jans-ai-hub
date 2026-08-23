@@ -2,6 +2,41 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 6 — D16 neu: der BKP-2-Anteil von 75 % weicht um 15 Prozentpunkte ab)
+
+Beim Abgleich der heute in `grobkosten` eingearbeiteten **amtlichen BKP-Anteilsstruktur** gegen die
+JANS-Kennwertkette dieser KB ist eine materielle Abweichung aufgefallen.
+
+**Der Befund.** Der Schritt **BKP 2 → BKP 1-5 ueber einen BKP-2-Anteil von 75 %** in
+[[realwert-sachwert]] ist der einzige Rechenschritt der Kette, der **nicht aus einer Preisreihe**
+stammt, sondern aus dem JANS-Kalkulationsblatt selbst (R. Jans, 25.03.2025). Zwei unabhaengige
+Strukturquellen nennen deutlich hoehere Anteile:
+
+| Quelle | Grundgesamtheit | BKP-2-Anteil | daraus BKP 1-5 aus 3'365 |
+|---|---|---|---|
+| JANS-Kalkulationsblatt | EFH/ZFH, Praxisregel | **75.0 %** | **4'485** (gefuehrt) |
+| ZIW Revision 2025 | 54 reale KV Zuercher MFH-Neubauten 2020-2024 | **89.4 %** | **3'765** |
+| Schaetzungsanleitung Tab. 3 | MFH 1985 | **90.6 %** | **3'713** |
+
+**Materiell:** der gefuehrte Ansatz liegt rund **19 % hoeher**. Am eigenen Rechenbeispiel der KB
+(Thalwil Bohlweg 1, 950 m2 GF) sind das **4'262'000 gegen 3'577'000 CHF — rund 686'000 CHF
+Differenz aus diesem einen Faktor**.
+
+**Ausdruecklich kein Fehlerbefund.** Drei Erklaerungen sind offen und keine ausgeschlossen:
+(a) die 75 % gelten fuer **EFH/ZFH**, die Strukturquellen fuer **MFH** — ein Einfamilienhaus traegt
+anteilig mehr Umgebung (BKP 4) und Vorbereitung je m2, ein tieferer Anteil ist plausibel, 15
+Prozentpunkte sind damit aber nicht gezeigt; (b) ein hoeherer BKP-1-5-Ansatz ist fuer einen
+**Neuwert konservativ**; (c) es ist eine gerundete **Praxisregel**, keine Messung.
+
+**Nichts geaendert** — 4'485 bleibt unveraendert stehen. Neu als **D16** registriert
+(Prioritaet **hoch**, weil die Regel jeden EFH-Neuwert dieser KB um rund 19 % bewegt und bisher
+ohne Vorbehalt weitergereicht wurde), mit einer Frage, die Raphael als Autor des Blatts in einem
+Satz beantworten kann. Ein ⚠-Block mit der Vergleichstabelle steht jetzt unmittelbar bei der
+Herleitung in [[realwert-sachwert]], damit der Vorbehalt mitwandert.
+
+Geaenderte Dateien: `wiki/realwert-sachwert.md` (⚠-Block bei der Kennwert-Herleitung),
+`wiki/wissensluecken.md` (D16). Gegenstueck in `wissen/grobkosten/wiki/kennwerte.md`.
+
 ## 2026-08-23 (Vertiefungslauf 5 — Konsistenz-Check der eigenen Tagesarbeit; ein Widerspruch korrigiert)
 
 Nach drei Durchgaengen durch die vier Wissensbasen ein Abgleich der Zahlen, die heute in mehrere

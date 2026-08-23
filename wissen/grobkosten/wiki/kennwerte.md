@@ -859,6 +859,48 @@ Wohnbaupreise», Juni 2026, Tabellen T-1 und T-3, PDF `2026-07-07_Methodenberich
 16 Seiten, im Volltext gelesen und ausgewertet 23.08.2026. BKP-Codes gegen BKP 2017 (CRB)
 geprüft.*
 
+### Zwei Anwendungen, die sich direkt aus dieser Struktur ergeben (nachgetragen 23.08.2026)
+
+**1 · Der JANS-Umrechnungsfaktor BKP 2 → BKP 1–5 steht damit im Widerspruch zu zwei Quellen.**
+`wissen/immobilienbewertung/wiki/realwert-sachwert.md` rechnet den JANS-Wohn-Kennwert mit einem
+**BKP-2-Anteil von 75 %** von BKP 2 (3'365 CHF/m² GF) auf BKP 1–5 (4'485) hoch — die Zahl stammt
+aus dem JANS-Kalkulationsblatt (R. Jans, 25.03.2025), nicht aus einer Messung. Die Struktur oben
+sagt **89.4 %**, die Tabelle 3 von 1985 sagt **90.6 %**. Aus demselben BKP-2-Wert ergäbe das
+**3'713–3'765 statt 4'485** — der geführte Wert liegt rund **19 % höher**, am dortigen
+Rechenbeispiel (950 m² GF) rund **686'000 CHF**.
+
+**Kein Fehlerbefund** — die 75 % gelten für **EFH/ZFH**, die beiden Strukturquellen für **MFH**,
+und ein Einfamilienhaus trägt anteilig mehr Umgebung und Vorbereitung je m². Ob der Unterschied
+15 Prozentpunkte beträgt, ist damit aber nicht gezeigt. Registriert als offene Frage **D16** in
+`wissen/immobilienbewertung/wiki/wissensluecken.md`, dort mit der Frage an Raphael. **Für diese KB
+folgt daraus nichts zu ändern** — sie führt ihre Einzelfälle direkt als BKP 1–5 und braucht den
+Umrechnungsschritt nicht.
+
+**2 · Ein neuer externer Rechtsbezug auf den BKP: die 1-%-Regel der revidierten LSV.**
+Seit **01.04.2026** legt **Art. 32 Abs. 2 LSV** fest, dass die nach Art. 22 Abs. 2 lit. b revUSG
+verlangte Verschärfung des **baulichen Mindestschallschutzes** in der Regel verhältnismässig ist,
+**wenn die Kosten 1 % der Gebäudekosten nicht überschreiten** — und die Gebäudekosten sind
+ausdrücklich **nach Baukostenplan BKP (SN 506 500, CRB)** zu ermitteln. Das macht einen
+BKP-Kennwert dieser KB unmittelbar zu einem **Lärmschutz-Budget**:
+
+| Bezug | Kennwert | 1 % davon | bei 1'000 m² GF |
+|---|---|---|---|
+| BKP 2 (Gebäude) | 3'365 CHF/m² GF | **≈ 34 CHF/m² GF** | ≈ 34'000 CHF |
+| BKP 1–5 | 4'485 CHF/m² GF | **≈ 45 CHF/m² GF** | ≈ 45'000 CHF |
+
+⚠ **Und genau hier kehrt die Scope-Frage dieser KB wieder.** Die LSV-Erläuterungen sagen
+«Gebäudekosten … nach Baukostenplan BKP» und nennen **keinen BKP-Umfang**. Je nach Lesart
+(BKP 2 allein oder BKP 1–5) unterscheidet sich das verhältnismässige Schallschutz-Budget um
+**rund ein Drittel** — bei einem MFH mit 1'000 m² GF also um gut 11'000 CHF. Das ist **dieselbe
+Unschärfe wie in Frage 1** (BKP-Scope der Neuwert-Richtwerte), diesmal in einem Erlass statt in
+einer Tabelle. **Bis zur Klärung bei jeder Anwendung angeben, mit welchem Scope gerechnet wurde**
+— die Zahl entscheidet mit darüber, ob eine Massnahme als zumutbar gilt.
+
+*Belege: Art. 32 Abs. 2 LSV und die zugehörigen «Erläuterungen zur Revision der
+Lärmschutz-Verordnung», UVEK, 25.02.2026, Kap. 4.9 (Volltext, ausgewertet 23.08.2026) —
+eingearbeitet in `wissen/planungsgrundlagen/wiki/recht-norm-quellenlandkarte.md`. JANS-Kennwerte
+aus `wissen/immobilienbewertung/wiki/realwert-sachwert.md` (D8, Run 16).*
+
 ## Umrechnung Baumasse → Gebäudevolumen
 
 Die baurechtliche **Baumasse** (BMZ) zählt meist nur oberirdisch; das **GV SIA 416** schliesst das

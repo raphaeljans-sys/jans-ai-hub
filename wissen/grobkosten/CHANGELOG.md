@@ -1,5 +1,38 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 4 Revendo) — zwei Anwendungen der neuen BKP-Struktur: ein Widerspruch und ein neuer Rechtsbezug
+
+Die am selben Tag eingearbeitete amtliche BKP-Anteilsstruktur ist nicht nur ein Kennwert, sondern
+ein Pruefmittel. Zwei Anwendungen nachgetragen.
+
+**1 · Der JANS-Umrechnungsfaktor BKP 2 → BKP 1-5 steht im Widerspruch zu zwei Quellen.**
+`wissen/immobilienbewertung` rechnet den JANS-Wohn-Kennwert mit einem **BKP-2-Anteil von 75 %**
+(aus dem JANS-Kalkulationsblatt, R. Jans 25.03.2025) von 3'365 auf **4'485 CHF/m2 GF** hoch. Die
+neue Struktur sagt **89.4 %**, Tabelle 3 von 1985 sagt **90.6 %** — daraus ergaebe sich
+**3'713-3'765 statt 4'485**, der gefuehrte Wert liegt rund **19 % hoeher** (am dortigen
+Rechenbeispiel rund **686'000 CHF**). **Kein Fehlerbefund**: die 75 % gelten fuer **EFH/ZFH**, die
+Strukturquellen fuer **MFH**, und ein EFH traegt anteilig mehr Umgebung und Vorbereitung je m2 —
+ob der Unterschied 15 Prozentpunkte betraegt, ist damit aber nicht gezeigt. Als **D16** in der
+Abnehmer-KB registriert. **Fuer diese KB folgt daraus nichts zu aendern** — sie fuehrt ihre
+Einzelfaelle direkt als BKP 1-5 und braucht den Umrechnungsschritt nicht.
+
+**2 · Neuer externer Rechtsbezug auf den BKP — die 1-%-Regel der revidierten LSV.** Seit
+**01.04.2026** legt **Art. 32 Abs. 2 LSV** fest, dass die Verschaerfung des baulichen
+Mindestschallschutzes in der Regel verhaeltnismaessig ist, **wenn die Kosten 1 % der Gebaeudekosten
+nicht ueberschreiten**, ermittelt **nach Baukostenplan BKP (SN 506 500, CRB)**. Damit wird ein
+BKP-Kennwert dieser KB unmittelbar zu einem **Laermschutz-Budget**: 1 % von BKP 2 (3'365) sind
+**rund 34 CHF/m2 GF**, 1 % von BKP 1-5 (4'485) **rund 45 CHF/m2 GF** — bei 1'000 m2 GF also
+34'000 gegen 45'000 CHF.
+
+⚠ **Und genau hier kehrt Frage 1 wieder.** Die LSV-Erlaeuterungen sagen «Gebaeudekosten … nach
+Baukostenplan BKP» und nennen **keinen BKP-Umfang**. Je nach Lesart unterscheidet sich das
+verhaeltnismaessige Budget um **rund ein Drittel** — dieselbe Unschaerfe wie beim BKP-Scope der
+Neuwert-Richtwerte, diesmal **in einem Erlass statt in einer Tabelle**, und mit der Folge, dass
+die Zahl mitentscheidet, ob eine Schallschutzmassnahme als zumutbar gilt. **Bis zur Klaerung bei
+jeder Anwendung den unterstellten Scope angeben.**
+
+Geaenderte Dateien: `wiki/kennwerte.md` (neuer Abschnitt bei der BKP-Anteilsstruktur).
+
 ## 2026-08-23 (Vertiefungslauf 3 Revendo) — eigene offene Frage geschlossen: verkettete BFS-Reihe gefunden, Holzbau-Zuschlag fortgeschrieben
 
 Der Lauf unten hat eine offene Frage eröffnet (verkettete BFS-Reihe je Bauwerksart ab 2023) und die

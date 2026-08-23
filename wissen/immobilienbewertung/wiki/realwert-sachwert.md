@@ -271,6 +271,46 @@ WP-Benchmarks oben (die auf 2021-2023 stehen). Die belegte Herleitung (Run 16):
   EFH/ZFH-Neuwertrechnung auf Preisstand 2025.
 - **Tiefgaragen-Einstellplatz:** **42'000 CHF/SP BKP 1-5** (separat, nicht in der GF-Rechnung).
 
+> ### ⚠ Der Umrechnungsschritt «BKP 2 = 75 %» weicht von zwei anderen Quellen deutlich ab (neu 23.08.2026, D16)
+>
+> Der Schritt **BKP 2 → BKP 1-5 ueber einen BKP-2-Anteil von 75 %** ist der einzige Rechenschritt
+> dieser Kette, der nicht aus einer Preisreihe stammt, sondern aus dem JANS-Kalkulationsblatt
+> selbst. Zwei unabhaengige Strukturquellen nennen einen **deutlich hoeheren** BKP-2-Anteil:
+>
+> | Quelle | Grundgesamtheit | BKP-2-Anteil | daraus BKP 1-5 aus 3'365 |
+> |---|---|---|---|
+> | **JANS-Kalkulationsblatt** (R. Jans, 25.03.2025) | EFH/ZFH, Praxisregel | **75.0 %** | **4'485** (gefuehrter Wert) |
+> | **ZIW Revision 2025** (Statistik Stadt Zuerich) | **54 reale Kostenvoranschlaege** Zuercher MFH-Neubauten 2020-2024, ohne Tiefgarage | **89.4 %** | **3'765** |
+> | **Schaetzungsanleitung Tab. 3** | MFH mittlerer Standard, Baujahr 1985 | **90.6 %** | **3'713** |
+>
+> **Die Konsequenz ist materiell.** Der gefuehrte Ansatz liegt rund **19 % ueber** dem, was die
+> beiden Strukturquellen ergeben. Am eigenen Rechenbeispiel unten (Thalwil Bohlweg 1, 950 m2 GF)
+> sind das **4'262'000 gegen 3'577'000 CHF — eine Differenz von rund 686'000 CHF** allein aus
+> diesem einen Faktor.
+>
+> **Das ist ausdruecklich KEIN Fehlerbefund.** Drei Gruende sprechen fuer die JANS-Zahl, und keiner
+> ist ausgeschlossen:
+> 1. **Andere Bauaufgabe.** Die 75 % gelten fuer **EFH/ZFH**, die beiden Strukturquellen fuer
+>    **MFH**. Ein Einfamilienhaus traegt anteilig mehr Umgebung (BKP 4) und mehr Vorbereitung je m2
+>    als ein Mehrfamilienhaus — ein tieferer BKP-2-Anteil ist plausibel. Ob er 15 Prozentpunkte
+>    tiefer liegt, ist damit aber nicht gezeigt.
+> 2. **Konservativ fuer einen Neuwert.** Ein hoeherer BKP-1-5-Ansatz fuehrt zu einem hoeheren
+>    Neuwert und damit zu einer vorsichtigen Realwertrechnung.
+> 3. **Praxisregel statt Messung.** Das Kalkulationsblatt nennt 75 % als runden Ansatz; eine
+>    gerundete Faustregel mit Sicherheitsmarge ist etwas anderes als ein gemessener Median.
+>
+> **Offene Frage an Raphael (D16, s. [[wissensluecken]]):** gilt fuer EFH/ZFH wirklich ein um rund
+> 15 Prozentpunkte tieferer BKP-2-Anteil als fuer MFH — oder ist die 75-%-Regel eine gerundete
+> Faustregel mit bewusster Marge? Beides ist vertretbar, aber der Unterschied bewegt jeden
+> EFH-Neuwert dieser KB um rund 19 %, und die Regel wird heute ohne diesen Vorbehalt weitergereicht.
+> **Nichts geaendert** — der gefuehrte Wert 4'485 bleibt unveraendert stehen, bis die Frage
+> beantwortet ist.
+>
+> *Belege: ZIW-Anteil aus dem «Methodenbericht Revision 2025» (Statistik Stadt Zuerich, Juni 2026,
+> Tabelle T-1, Volltext), eingearbeitet in `wissen/grobkosten/wiki/kennwerte.md`, Abschnitt
+> «BKP-Anteilsstruktur MFH Stadt Zuerich, Stand 2025»; Tab.-3-Anteil aus derselben KB, Abschnitt
+> «Run 12». Beide am 23.08.2026 gegengelesen.*
+
 **Worked example JANS — Thalwil, Bohlweg 1 (Fall 9568):**
 
 | Position | Menge | Ansatz | Betrag CHF |
