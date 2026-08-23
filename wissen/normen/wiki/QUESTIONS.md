@@ -4495,3 +4495,22 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   vorgelegten Pflichten nur MP 13 freigegeben; MP 11 und die MP-12-Erweiterung bleiben Vorschlag).
   Dieser Vorschlag bringt einen neuen, eigenständigen Beleg mit.
 - **Herkunft:** Run 60, 23.08.2026.
+
+## 260823 — N61: Cross-KB-Abgleich Primärenergiefaktoren `energie` ↔ SIA 2031-C1
+
+> Die kostenlose Korrigenda SIA 2031-C1:2009 (gültig ab 01.01.2010, Destillat
+> `destillate/sia-2031-korrigenda-c1.md`) führt eine vollständige Tabelle D.1 mit
+> Primärenergiefaktoren, erneuerbaren Primärenergieanteilen und Treibhausgasemissions-
+> Koeffizienten je Energieträger (Heizöl, Erdgas, Holz, Elektrizität CH-Verbrauchermix u.a.).
+> Die KB `wissen/energie` führt eigene Primärenergiefaktor-Angaben (u.a. in
+> `destillate/geak-klassengrenzen-relative-klassierung.md`,
+> `destillate/sia-380-1-2016-aenderungen-gegenueber-2009.md`), aber kein dortiges Destillat
+> verweist bisher auf SIA 2031-C1 als Quelle. Ob die Werte übereinstimmen oder aus einer
+> neueren Quelle (z.B. KBOB-Ökobilanzdaten, SIA 380/1:2016-Fassung) stammen, ist ungeprüft.
+
+- **Nicht selbst geprüft** (Zeitbudget SIA-Sweep, neunzehnte Fortsetzung, 23.08.2026) — reiner
+  Fundvermerk aus dem Lesen der Korrigenda, kein Abgleich der beiden KBs durchgeführt.
+- **Nächster Schritt (Vorschlag):** ein Lauf in `wissen/energie` prüft, ob die dort verwendeten
+  Primärenergiefaktoren mit Tabelle D.1 (SIA 2031-C1:2009, Stand 01.01.2010) übereinstimmen,
+  und trägt bei Abweichung die aktuellere Quelle (z.B. SIA 2031:2016, nicht im Haus) nach.
+- **Herkunft:** SIA-Sweep, neunzehnte Fortsetzung, 23.08.2026.

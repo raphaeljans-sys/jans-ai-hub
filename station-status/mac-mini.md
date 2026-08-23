@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 21:18:55
+Stand: 23.08.2026 21:29:11
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 21:14)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 21:18:55
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 7f2c2d1a nas-selfcommit: 4 Datei(en) 2026-08-23 21:15
+- d7c025dd rules/betrieb-chronik: zweiter stale index.lock 21.20 Uhr nach kollidiertem Rebase (Buch-Run 93), umkehrbar per mv beseitigt

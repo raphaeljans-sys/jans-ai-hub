@@ -1,4 +1,81 @@
-## 2026-08-23 — SIA-Sweep, achtzehnte Fortsetzung: SIA 2028 Ergänzung/Korrigenda C1/C2 kostenlos beschafft, Nachfolgerfrage SIA 381/3 am Original bestätigt
+## 2026-08-23 — QUESTIONS-Abarbeitung (Fortsetzung nach Run 13): N58-4-Nebenbefund geklärt, neues Destillat VKF-Merkblatt 2006-15
+
+**Auftrag:** offene Fragen in `wiki/QUESTIONS.md` weiter abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats vor Zitat lesen (nur `established`
+zitierfähig). CHANGELOG und Report des letzten Laufs zuerst gelesen, dort weitergemacht. Eigener
+Prozess (PID 23048, Lauf-Name `mschub94`) über `ps aux` bestätigt; parallel liefen `mschub91`
+(SIA-Sweep, andere Zeilen des Registers, Kollision beim Schreiben auf `REGISTER.md`/
+`QUESTIONS.md` beobachtet und über `git diff`/erneutes Lesen sauber getrennt) und `mschub93`
+(Baurecht-Reglemente-Queue, fremde KB) — kein Konkurrent, siehe Kollisionsprüfung unten.
+
+**Vorlauf gelesen:** `CHANGELOG.md` (Kopf zu Beginn: QUESTIONS-Abarbeitung «siebter Lauf»,
+SIA-430-Preise) und, weil die Datei-Nummerierung der `outputs/`-Reports (`ls -t`) einen
+jüngeren, noch nicht am CHANGELOG-Kopf sichtbaren Stand zeigte,
+`outputs/2026-08-23_questions-abarbeitung13.md` (nach Mtime der jüngste QUESTIONS-Report,
+20:56 Uhr) — dort war die klare Empfehlung hinterlegt, den in N58-4 offen gelassenen
+Nebenbefund «2006-15 vs. 108-15» zuerst zu klären.
+
+**Durchgeführt:** Das VKF-Brandschutzmerkblatt 2006-15 direkt von der VKG-Publikationsplattform
+bezogen (`services2.vkf.ch/rest/public/georg/bs/publikation/documents/BSPUB-1394520214-3746.pdf/
+content`, per `curl`, URL aus dem bereits vorhandenen Astro-JSON-Payload-Cache
+`/tmp/normsweep-vorschriften2015.html` extrahiert), 54 Seiten, Volltext S. 1-33 vollständig mit
+`pdftotext -layout` gelesen (Anhang S. 34-54 nur Struktur aus dem Inhaltsverzeichnis, reine
+Plan-/Bildinhalte, nicht gelesen).
+
+**Befund: kein Duplikat.** 2006-15 ist ein eigenständiges **Brandschutzmerkblatt**
+(«Ergänzung zur gleichnamigen Brandschutzerläuterung 108-15», Titelblatt und Einleitung S. 5),
+gültig ab **01.03.2022** (genehmigt TKB VKF 08.12.2021), das die Erläuterung 108-15 in der
+**Fassung 01.01.2020** ziffernweise präzisiert («zu BSE108-15 Ziffer …» durchgängig im
+Inhaltsverzeichnis). Mit 54 Seiten deutlich umfangreicher als die referenzierte Erläuterung
+(29 S.) und mit eigenem, dort nicht vorhandenem Stoff: verbindliche SIA-Phasen-Zuordnung mit
+RACI-Verantwortungsmatrix (Konzepterstellung in Phase 3 = Sache des Gesamtverantwortlichen BFS,
+Tabellen 2/3 für Phase 3/4), eine dreistufige Test-Kaskade Einzeltest (Pflicht, Ziff. 3.4.3.2)
+→ Linientest (optional, empfohlen zur Vermeidung von Verzögerungen bei integralen Tests,
+Ziff. 3.4.3.3) → integraler Test inkl. Blackout-Test (Pflicht, Ziff. 3.4.3.4), Funktionserhalt
+E30 für die Übertragungswege der manuellen Aktivierung (Ziff. 1.5.6) und eine Meldepflicht für
+BMA-Ausschaltungen über 24 Stunden (VKF-Formular «BMA Ausser- und Inbetriebsetzung», 3 Tage
+Vorlauf, Ziff. 4.7).
+
+**Nachgeführt:**
+
+- `destillate/vkf-merkblatt-2006-15-bfs.md` (neu, established): Einordnung/Duplikat-Klärung,
+  Kernziffern mit Fundstelle (Ziff. 1, 3, 4, 5), JANS-Praxis-Transfer, offene Punkte (Anhang
+  nicht ausgewertet, kein Abgleich gegen den VKF-Publikationsindex auf eine jüngere Fassung).
+- `wiki/REGISTER.md`: neue Zeile für VKF-Merkblatt 2006-15 in der VKF-Tabelle, direkt nach der
+  bestehenden 2005-15-Zeile.
+- `destillate/INDEX.md`: neue Zeile, direkt nach `vkf-brl-108-15-betriebsbereitschaft-bfs.md`.
+- `wiki/QUESTIONS.md`: additiver ✅-Nachtrag am N58-4-Nebenbefund (Run-13-Vertiefung),
+  Ursprungswortlaut unangetastet.
+- Dieser CHANGELOG-Eintrag.
+
+**Kollisionsprüfung und Verifikation** (`git diff --numstat`/`git diff` nach jedem
+Schreibvorgang geprüft, wie in Rule `auto-verbesserungen` 260811 verlangt):
+
+| Datei | Befund |
+|---|---|
+| `destillate/vkf-merkblatt-2006-15-bfs.md` | `??` (echte Neuanlage) |
+| `wiki/REGISTER.md` | erster Check 3/2 additiv (eigene Zeile plus zwei fremde Zeilenersetzungen von `mschub91`, per `git diff` einzeln gegengelesen: SIA 381/3- und SIA 2028-Zeilen, keine Überschneidung mit der eigenen Bearbeitungsstelle); nach dem `nas-selfcommit`-Fenster 21:15 Uhr verbleibender Diff nur noch 1/1, eigene Zeile unverändert vorhanden |
+| `destillate/INDEX.md` | 2/0, rein additiv; von `nas-selfcommit` bereits mitgenommen |
+| `wiki/QUESTIONS.md` | 30/16 kurz vor dem `nas-selfcommit`-Fenster (paralleler `mschub91`-Edit im selben Zeitfenster), voller `git diff` zeigte keine Überschneidung mit der eigenen Einfügestelle bei N58-4; nach dem Commit `fd4ef28d` verifiziert: eigener Text unverändert unter Zeile 731 vorhanden |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh` bzw. den 15-Min-`nas-selfcommit`-Cron).
+
+**Nicht geleistet / weiterhin offen:**
+
+- Die drei übrigen von Run 13 priorisierten Merkblätter (2003-15 Brandschutzpläne, 2008-15
+  Brandverhütung Baustellen, 2009-15 Sicherheitsstromversorgung, 2011-15 Gebäudebegrünung) sind
+  bereits als PDF bezogen (`/tmp/vkf-2003-15.pdf`, `/tmp/vkf-2008-15.pdf`,
+  `/tmp/vkf-2009-15.pdf`, `/tmp/vkf-2011-15.pdf`, Downloads aus derselben Sitzung, nicht Teil
+  des Repos), aber in diesem Lauf **nicht gelesen oder destilliert** — nächster Schritt für eine
+  Fortsetzung.
+- Anhang A1-A9 von 2006-15 (S. 34-54) nicht inhaltlich ausgewertet.
+- Kein Abgleich gegen den VKF-Publikationsindex, ob 01.03.2022 die aktuell gültige Fassung des
+  Merkblatts ist (gleiche offene Bring-Schuld N27-1 wie bei den übrigen 2000er-Merkblättern).
+- N58-1 (Systemaudit), N60-1/N60-2 (Entscheid Raphael), SVGW-Scope (Entscheid Raphael) und die
+  bekannten Bezahlschranken-Beschaffungen bleiben unverändert offen.
+
+## 2026-08-23 — SIA-Sweep, achtzehnte Fortsetzung: SIA 2028 Ergänzung/Korrigenda C1/C2 und SIA 118/380-C1 kostenlos beschafft, Nachfolgerfrage SIA 381/3 am Original bestätigt, SIA-118/xxx-Familie systematisch geprüft
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
 Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
@@ -52,13 +129,31 @@ je Zeithorizont 2035/2060 und Emissionsszenario RCP2.6/RCP8.5) über einen map.g
 Nebenbefund einer bisher nicht geführten Wegleitung SIA 4010 (nur Fundvermerk, keine eigene
 Recherche).
 
+**Zweiter Fund — SIA-118/xxx-Familie systematisch geprüft:** die verbleibenden 14 (von 16)
+Register-Zeilen SIA 118/222 bis 118/380 per Python-Script automatisiert auf die Anhänge-Labels
+ihrer Produktseite abgefragt (SIA 118/262, 118/266 bereits im Haus, daher nicht Teil der
+Prüfung). **13 von 14 führen ausschliesslich ein kostenloses Inhaltsverzeichnis** (kein
+Destillat-würdiger Fund, exemplarisch an SIA 118/232 per Volltext-Check bestätigt: reine
+TOC-Datei ohne Ziffern-Inhalt). **Eine Ausnahme: SIA 118/380** führt zusätzlich eine
+kostenlose **Korrigenda C1:2017** (SN 507380-C1:2017, 3 S., gültig ab 01.09.2017, genehmigt
+31.08.2017) — geladen und vollständig gelesen. Inhalt: Begriffskorrektur in Ziff. 0.3.1/2.3.3/
+6.1.2 der Norm «Allgemeine Bedingungen für Gebäudetechnik» — der bisherige Begriff
+«Integrierte Tests» wird auf die **gewerkeinterne** Funktionsprüfung verengt, ein **neuer**
+Begriff «Integrale Tests» für die **gewerkeübergreifende** System-/Schnittstellenprüfung
+eingeführt. Relevant für TGA-Ausschreibungen und -Abnahmen, die SIA 118/380 als AVB
+referenzieren (kein Fach-Skill zitiert die Norm bisher aktiv — Stichprobe
+`grep -rl "SIA 118/" skills/` findet nur SIA 118/262 und SIA 118/266 in `ausschreibung`/
+`werkvertrag`/`unternehmerkontrolle`).
+
 **Neue Destillate und Nachführungen:**
 - `destillate/sia-2028-ergaenzung-korrigenda.md` (neu, `established`).
-- `wiki/REGISTER.md`: zwei Zeilen inhaltlich ergänzt (SIA 2028: von Metadaten-Notiz auf
-  gelesenes Destillat; SIA 381/3: Nachfolgeraussage von Sekundär- auf Primärquelle angehoben).
+- `destillate/sia-118-380-korrigenda-c1.md` (neu, `established`).
+- `wiki/REGISTER.md`: drei Zeilen inhaltlich ergänzt (SIA 2028: von Metadaten-Notiz auf
+  gelesenes Destillat; SIA 381/3: Nachfolgeraussage von Sekundär- auf Primärquelle angehoben;
+  SIA 118/380: von Metadaten-Notiz auf gelesenes Korrigenda-Destillat).
 - `wiki/QUESTIONS.md`: N-SIASWEEP-1 von «Espazium-Sekundärquelle» auf «SIA-Primärdokument
   gelesen» angehoben, bleibt geschlossen.
-- `destillate/INDEX.md`: eine neue Zeile.
+- `destillate/INDEX.md`: zwei neue Zeilen.
 - `CHANGELOG.md`: dieser Eintrag oben.
 
 **Verifikation** (`git diff --numstat` nach jedem Schreibvorgang):
@@ -66,28 +161,36 @@ Recherche).
 | Datei | Befund |
 |---|---|
 | `destillate/sia-2028-ergaenzung-korrigenda.md` | `??` (echte Neuanlage) |
-| `wiki/REGISTER.md` | 2/2 (zwei gezielte Zeilenersetzungen, ausschliesslich eigene Zeilen betroffen) |
+| `destillate/sia-118-380-korrigenda-c1.md` | `??` (echte Neuanlage) |
+| `wiki/REGISTER.md` | 2/2 dann 1/1 (je Schreibvorgang gezielte Zeilenersetzung, ausschliesslich eigene Zeilen betroffen; ein Fremd-Schreibvorgang eines parallelen Laufs zwischen den beiden eigenen Edits erkannt und respektiert, siehe Kollisionshinweis unten) |
 | `wiki/QUESTIONS.md` | 19/16 (ein Abschnitt erweitert/präzisiert, keine fremden Zeilen berührt) |
-| `destillate/INDEX.md` | 1/0 (reine Neuzeile) |
+| `destillate/INDEX.md` | 1/0 dann 1/0 (reine Neuzeilen) |
 
 Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
 
+**Kollisionshinweis:** beim zweiten `wiki/REGISTER.md`-Edit meldete das Werkzeug, die Datei sei
+seit dem letzten eigenen Lesevorgang extern verändert worden (paralleler Lauf schreibt
+ebenfalls in derselben KB). Der Edit wurde dennoch sauber angewendet; `git diff --numstat`
+direkt danach zeigte exakt `1/1` — ausschliesslich die eigene Zeile betroffen, keine fremde
+Arbeit überschrieben (Rule `auto-verbesserungen` 260811 befolgt: kein globales Ersetzen, Umfang
+nach jedem Schreiben gemessen).
+
 **Nicht geleistet / offene Bring-Schulden:**
-- Das Basis-Merkblatt SIA 2028:2010 selbst (Kapitel 1-8, Haupttabellen) bleibt kostenpflichtig
-  und nicht im Haus — nur die drei kostenlosen Zusatzdokumente sind erschlossen.
-- Von den verbleibenden ~55 «Kein Volltext im Haus»-Zeilen wurde nur SIA 2028 bearbeitet;
-  die SIA 118/xxx-Familie (16 Zeilen) wurde stichprobenartig geprüft (SIA 118/232: einziger
-  Anhang ist ein kostenloses Inhaltsverzeichnis, keine Korrigenda, kein Destillat-würdiger
-  Fund) — dieselbe Prüfung steht für die übrigen 15 Zeilen der Familie noch aus.
-- SIA 4010 (Nebenbefund) nicht recherchiert, keine eigene Registerzeile.
+- Die Basisnormen SIA 2028:2010 und SIA 118/380:2007 selbst bleiben kostenpflichtig und nicht
+  im Haus — nur die kostenlosen Zusatzdokumente sind erschlossen.
+- Von den verbleibenden ~54 «Kein Volltext im Haus»-Zeilen wurden 15 bearbeitet (SIA 2028 +
+  14 der SIA-118/xxx-Familie); SIA 4010 (Nebenbefund aus der SIA-2028-Korrigenda C2) ist nicht
+  recherchiert, keine eigene Registerzeile.
 - Cross-KB-Bringschuld an `wissen/energie` nicht in deren eigener QUESTIONS.md nachgetragen
   (Zeitbudget dieses Laufs) — der Befund (SIA 2028 als Klimadatengrundlage für SIA 380/x,
   kostenlose CH-2018-Szenariendaten) steht vorerst nur hier und in `wiki/REGISTER.md`.
-- **Empfehlung an den nächsten Lauf:** die Methode «Produktseite per WebSearch statt
-  Bereich-Slug-Raten lokalisieren, dann Anhänge auf mehr als nur Inhaltsverzeichnis prüfen»
-  bleibt der nächstliegende Ertrag für die restlichen ~54 Blindzone-Zeilen. Nächste Kandidaten
-  mit Fach-Skill-Bezug: die verbleibenden 15 SIA 118/xxx-Zeilen (Werkvertrag/Ausschreibung),
-  danach SIA 122/123/124/190/205/242/243 (allgemeine Planungsgrundlagen).
+- **Empfehlung an den nächsten Lauf:** die SIA-118/xxx-Familie ist für die Korrigenda-Methode
+  jetzt erschöpft (14/14 geprüft, nur 118/380 hatte einen Fund). Nächstliegender Ertrag: die
+  Methode «Produktseite per WebSearch lokalisieren, Anhänge-Labels automatisiert per
+  Python-Script abfragen» auf die übrigen ~39 Blindzone-Zeilen anwenden — Kandidaten mit
+  Fach-Skill-Bezug zuerst: SIA 122/123/124/190/205/242/243 (allgemeine Planungsgrundlagen,
+  keine direkte Skill-Zitierung gefunden, aber P1-Basisnormen), danach die Erhaltungsnormen
+  SIA 269/1/2/4/7 (Fortsetzung der siebzehnten Fortsetzung, dort nur 269/3/5/8 geprüft).
 
 ## 2026-08-23 — QUESTIONS-Abarbeitung (siebter Lauf): SIA 430/118-430 Preise verifiziert und ins REGISTER nachgetragen, vier baurecht-Bring-Schulden als geprüfte externe Bring-Schulden markiert
 
