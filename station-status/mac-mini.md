@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 03:48:44
+Stand: 23.08.2026 03:59:00
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 03:48:44
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f543e38b nas-selfcommit: 4 Datei(en) 2026-08-23 03:45
+- f62bc666 twin-mail-training Batch 102: 21.-23.08.2026 + Thread-Rueckgriff 2414 (korrektur-delta im Hub-Text, Betreff-Probe)
