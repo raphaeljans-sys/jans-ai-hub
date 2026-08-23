@@ -3,9 +3,9 @@ quelle: "Merkblatt Kontrollierte Wohnungslüftung — SharePoint PL - 02_Recht_N
 herausgeber: "Stadt Zürich, Amt für Hochbauten (AHB), Lindenhofstrasse 21, Postfach, 8021 Zürich"
 ausgabe: "Dateistempel Fusszeile: 26.02.2007/AHBALLG/Kontrollierte_Wohnungslüftung.doc — im Dokument selbst kein weiteres/abweichendes Datum und keine Versionsnummer ersichtlich (Titelblatt und Text tragen keine eigene Datierung, nur der Fusszeilen-Dateistempel auf Seite 2)"
 gelesen: "2026-08-13 (vollst., 2 S., pdftotext -layout)"
-datenstand: "2007 ⚠⚠ Alterskorpus (rund 19 Jahre) — das Merkblatt selbst nennt keine Norm-Referenz und keinen einzigen Zahlen-Kennwert ausser dem Raumschall-Grenzwert 25 dB(A); dieser Wert ist gegen die heute geltende Fassung von SIA 181 nicht geprüft. Prozesslogik (Rollenmatrix V/D/M, Phasengliederung, IBS-Disziplin) ist unabhängig vom Alter und trägt weiter; Zahlenwerte zu WRG/Formularen (EVEN, EN-105, SIA 382/1:2025) kommen NICHT aus dieser Quelle, sondern aus dem bestehenden KB-Wissen (siehe Bauherren-Transfer)"
+datenstand: "2007 ⚠ Alterskorpus (rund 19 Jahre) — das Merkblatt selbst nennt keine Norm-Referenz und keinen einzigen Zahlen-Kennwert ausser dem Raumschall-Grenzwert 25 dB(A). Dieser Wert ist seit 23.08.2026 gegen SIA 181:2020 verifiziert: er entspricht der erhöhten (Komfort-)Anforderung für Dauergeräusche in Wohnräumen mittlerer Lärmempfindlichkeit (Kleinstwert 25 dB(A) laut Norm), nicht der Mindestanforderung (28 dB(A)) — siehe Offene Punkte. Prozesslogik (Rollenmatrix V/D/M, Phasengliederung, IBS-Disziplin) ist unabhängig vom Alter und trägt weiter; Zahlenwerte zu WRG/Formularen (EVEN, EN-105, SIA 382/1:2025) kommen NICHT aus dieser Quelle, sondern aus dem bestehenden KB-Wissen (siehe Bauherren-Transfer)"
 status: emerging
-last_updated: 2026-08-13
+last_updated: 2026-08-23
 ---
 
 # Destillat — Kontrollierte Wohnungslüftung, Merkblatt «Was ist zu beachten» (Stadt Zürich AHB, 2007)
@@ -79,8 +79,22 @@ Dazu soll die Liegenschaftenverwaltung einen Vorschlag erarbeiten.
 ## Offene Punkte
 
 - Keine Norm-Referenz im Dokument (weder SIA 382/1 noch eine Vorgängerfassung wird genannt) — Bezug zur damals gültigen Normfassung nicht rekonstruierbar aus dieser Quelle allein.
-- Der Grenzwert 25 dB(A) für Raumschall-Emissionen ist nicht gegen die heute gültige SIA-181-Fassung abgeglichen; bei Bedarf über den Skill `normen` verifizieren.
+- ✓ **Grenzwert 25 dB(A) gegen SIA 181:2020 abgeglichen (23.08.2026, E-R129-1).** Kontrollierte
+  Wohnungslüftung fällt unter Kategorie «Haustechnik-Geräusche, Dauergeräusch, Lärmempfindlichkeit
+  mittel (Wohnen)» (`[[sia-181-schallschutz-anforderungswerte]]`, Tabelle Haustechnik). Dort gilt
+  Mindestanforderung **28 dB(A)**, erhöhte Anforderung **−4 dB = 24 dB(A)**, gekappt am in der Norm
+  selbst definierten **Kleinstwert 25 dB(A)**. **Die 25 dB(A) des AHB-Merkblatts von 2007 entsprechen
+  damit exakt der heute geltenden SIA-181:2020-erhöhten Anforderung (Komfortniveau) für
+  Dauergeräusche in Wohnräumen — nicht der gesetzlichen Mindestanforderung (28 dB(A)).** Der
+  2007er-Wert war also schon damals ein Komfort-, kein Minimalwert; er bleibt als Zielgrösse für ein
+  KWL-Pflichtenheft weiterhin verwendbar, muss aber als «erhöhte Anforderung» benannt werden, nicht
+  als «Mindestanforderung», wenn er in eine Ausschreibung oder einen Werkvertrag übernommen wird —
+  sonst wird ein Komfortziel unbemerkt zum Vertragsminimum erklärt oder umgekehrt ein vermeintliches
+  Minimum tatsächlich zu streng angesetzt. Quelle: `[[sia-181-schallschutz-anforderungswerte]]`
+  (Ausgabe SIA 181:2020, Büro-Zusammenfassung baumann akustik, Datenstand 2026-06-24) — für den
+  projektverbindlichen Nachweis weiterhin die Original-Norm beiziehen (Ausgaben-Vorbehalt gilt
+  unverändert, siehe dortiger Warnkasten Wissens-Chef Run 16).
 - Unklar, ob dieses Merkblatt seit 2007 durch eine aktualisierte AHB-Fassung ersetzt wurde — nicht Teil dieser Quelle, bei Bedarf über die AHB-Fachstelle beziehungsweise `stadt-zuerich.ch/hochbau` zu prüfen.
 - Die Dichtigkeitsklasse Kanalnetz wird nur als Beispiel «z.B. C» genannt, nicht als verbindliche Vorgabe — im Projekt jeweils neu festzulegen.
 
-**Backlinks:** [[komfortlueftung-wrg-sia382-luftwechsel]] · [[komfortlueftung-wohnungslueftung-ch]] · [[komfortlueftung-filterklassen-epm-stromverbrauch]] · [[bfe-komfortlueftung-dimensionierungshilfe-1]] · [[ahb-zuerich-gt-rl5-lueftungsanlagen]]
+**Backlinks:** [[komfortlueftung-wrg-sia382-luftwechsel]] · [[komfortlueftung-wohnungslueftung-ch]] · [[komfortlueftung-filterklassen-epm-stromverbrauch]] · [[bfe-komfortlueftung-dimensionierungshilfe-1]] · [[ahb-zuerich-gt-rl5-lueftungsanlagen]] · [[sia-181-schallschutz-anforderungswerte]]

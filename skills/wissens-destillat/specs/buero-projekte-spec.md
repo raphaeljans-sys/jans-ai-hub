@@ -196,8 +196,14 @@ Nachbar-KB (Cross-KB-Output, keine Ausnahme von der Ziel-KB-Zuordnung des Korpus
       (48/62) mit dichter Kosten-Ist/Soll- und Offertenpruefungs-Kette ueber mehrere Gewerke.
       Bericht: `wissen/projekt-lessons/outputs/2026-08-23_triage-buero-projekte-phase1-vollstaendig.md`,
       Protokoll: `training/buero-projekte-triage-20260823-1546.md`.
-- [ ] Erster Destillat-Lauf Phase 2 (Sonnet) auf dem ergiebigsten bereits inventarisierten
-      Projekt mit echtem Entscheidungs-/Konfliktgehalt.
+- [x] **Erster Destillat-Lauf Phase 2 abgeschlossen (23.08.2026):** 16 Quelldateien aus
+      `1318_Lorraine_Kueche` gelesen (Kostenschätzungs-Kette + vier Gewerke-Offerten).
+      Neuer Artikel `lorraine-kueche-maria-1318-kv-nebengewerke-abweichung` (emerging);
+      bestehender Artikel `nerves-2015-kv-nebengewerke-unterschaetzt` durch unabhängigen
+      Zweitbeleg auf `established` gehoben. Inventar: 16 Zeilen `[t]`→`[x]`. Bericht:
+      `wissen/projekt-lessons/outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run1.md`.
+      Rest des Clusters (46 P1-Zeilen) sowie übrige P1/P2/P3-Zeilen offen — weitere
+      Destillat-Läufe folgen.
 - [ ] Parallel dazu, sobald genug Material aus mehreren Projekten vorliegt: Entwurf
       `bevorzugte-systeme-jans.md` gemäss Pflicht-Zusatzauftrag oben anstossen.
 - [ ] Kurator-Stufe (Opus, jede Sitzung) je Lauf gemäss SKILL.md Schritt 4.

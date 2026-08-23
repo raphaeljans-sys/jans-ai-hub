@@ -13,7 +13,8 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 
 ### Kosten & Termine
 - [[kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087]] — KISPI RE-00087 (CHF 15'000) steht seit über drei Monaten auf Mahnstufe 2, ohne dass der Mahnwesen-Automatismus je die Ursache diagnostiziert; erst Raphaels eigenes Nachfassen (21.07.) benennt die fehlende Auftragsbestätigung als Kern, ein Muster, das sich bei Gruner (kein Vertrag mit JANS) und TeKoSi (Türfachplanung) wiederholt; Lesson: bei anhaltendem Verzug über eine Mahnstufe hinaus aktiv die Auftragsgrundlage prüfen, nicht nur Tage zählen
-- [[nerves-2015-kv-nebengewerke-unterschaetzt]] — Nerves Büroumbau 2015 (Referenzfall ARCHmark Hofstetter): Holzbau und Küche trafen die KV fast exakt, Elektro/Sanitär/Gipser lagen 76–322 % über der KV, die Gesamtsumme driftete nur moderat (+8,8 %) und verdeckte das; Lesson: Nebengewerke ohne Einzelofferte in der KV explizit kennzeichnen und mit Faktor 2–4 Sicherheitszuschlag versehen, nicht auf den Gesamt-Drift verlassen
+- [[nerves-2015-kv-nebengewerke-unterschaetzt]] — Nerves Büroumbau 2015 (Referenzfall ARCHmark Hofstetter): Holzbau und Küche trafen die KV fast exakt, Elektro/Sanitär/Gipser lagen 76–322 % über der KV, die Gesamtsumme driftete nur moderat (+8,8 %) und verdeckte das; Lesson: Nebengewerke ohne Einzelofferte in der KV explizit kennzeichnen, kein pauschaler Zuschlagsfaktor (zweiter Beleg 23.08.2026 streut zu weit) — zusätzlich das Leistungsbild der Position selbst prüfen
+- [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]] — Küchenumbau Lorrainestrasse (Projekt 1318, 2015): Hauptgewerk Schreinerarbeiten nahe der LV-Schätzung (+15–22 %), Nebengewerke Sanitär/Elektro +48–95 %, Heizung sogar Faktor ≈ 31,6 (weil die LV-Position die falsche Leistung beschrieb); zweiter unabhängiger Beleg desselben Musters wie [[nerves-2015-kv-nebengewerke-unterschaetzt]]; Lesson: bei kleinen Nebengewerke-Positionen zusätzlich zum Preis das Leistungsbild gegen die spätere Ausführung prüfen
 - [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]] — Offerte Lorrainestrasse 2011: die SIA-102-Phasenofferte bepreist Planung bis Ausschreibung (6'000.-), lässt die Realisierungsphase (Bauleitung) aber mit einem blossen Strich unpreist, während die parallele Stundenvariante für eine einzige Woche mehr kostet (6'720.-) als die vier Planungsphasen zusammen; Lesson: nie eine SIA-102-Phase ohne Preis oder Preismechanismus offerieren, insbesondere die Realisierungsphase, und Stunden-/Pauschalvarianten im selben Dokument auf Plausibilität gegeneinander prüfen
 
 ### Behörden & Bewilligungen
@@ -22,8 +23,8 @@ Inhaltsverzeichnis aller Lesson-Artikel. Vom Bibliothekar gepflegt.
 ### Koordination & Kommunikation
 - [[kispi-behoerden-zustaendigkeitswechsel-1171-26]] — KISPI 1171/26: UGZ- und AFB-Zuständigkeiten wechseln mitten im Verfahren (Fallgrösse bzw. Gebiets-/Team-Zuteilung), ohne Mitteilung ans Projekt; Lesson: bei länger laufenden Verfahren die aktuelle Zuständigkeit aktiv verifizieren statt am zuletzt bekannten Kontakt festzuhalten
 
-## Statistik (Stand 2026-08-17)
-- Artikel im Wiki: 7 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26 — status established; kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087, nerves-2015-kv-nebengewerke-unterschaetzt, lorrainestrasse-2011-realisierungsphase-honorar-unpreist — status emerging)
+## Statistik (Stand 2026-08-23)
+- Artikel im Wiki: 8 (kispi-lbw-rohdichte-800, roethlisberger-geraetepreis-pruefung-273-35, sbb-naeherbaurecht-thalwil-2414-vordach, kispi-behoerden-zustaendigkeitswechsel-1171-26, nerves-2015-kv-nebengewerke-unterschaetzt — status established; kispi-fehlende-auftragsbestaetigung-mahnkaskade-re00087, lorrainestrasse-2011-realisierungsphase-honorar-unpreist, lorraine-kueche-maria-1318-kv-nebengewerke-abweichung — status emerging)
 - Letzter Health-Check: 2026-07-25 (siehe outputs/2026-07-25_health-check.md)
 
 > Befüllung: Roh-Material in `raw/` ablegen → kompilieren lassen. Siehe `CLAUDE.md`.

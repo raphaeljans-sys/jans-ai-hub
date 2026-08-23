@@ -1188,6 +1188,22 @@ Ausgabe steht. Dieselbe Frage stellt sich für die übrigen 16 VL-Dateien im xal
   aktualisiert 2023») — dort als eigener Punkt zu vermerken (Run 28 hat nur in `normen`
   geschrieben, die Rückrichtung in `energie` ist nicht ausgeführt).
 
+  ✓ **Auftrag erfüllt 23.08.2026 (Cross-KB, KB `energie`, interaktive Session).** Beide
+  SIA-Shop-Produktseiten direkt abgerufen: **SIA 387/4:2017**
+  (`shop.sia.ch/normenwerk/architekt/387-4_2017_d`) — gültig ab 01.05.2017, **gültig bis
+  31.07.2023, Status archiviert**, mit Korrigenda C1 vom 01.04.2020; **SIA 387/4:2023**
+  (`.../387-4_2023_d`) — gültig ab 01.08.2023, Status **aktiv**, führt SIA 387/4:2017 und
+  SIA 387/4-C1:2020 ausdrücklich als archivierte Vorgänger. **Damit ist belegt: 387/4:2023 ist
+  eine eigenständige neue Ausgabe, keine blosse Aktualisierung der 2017er-Fassung.** Die
+  KB-interne Divergenz in `energie` ist aufgelöst — die abweichende Formulierung «Ausgabe 2017,
+  aktualisiert 01.08.2023» stand nur in `wissen/energie/destillate/aufzug-energieeffizienz-vdi4707.md`
+  und ist dort am 23.08.2026 korrigiert; die übrigen fünf Fundstellen führten bereits korrekt
+  «SIA 387/4:2023». Nachtrag auch in `wiki/REGISTER.md` Zeile 315. **Weiterhin offen (neuer,
+  eigener Auftrag, nicht mehr Teil dieser Bring-Schuld):** Beschaffung und Re-Destillat der
+  Norm SIA 387/4:2023 selbst (Bestand im Haus ist weiterhin die 2017er-PDF); der ZH-Vollzugs-
+  Vorbehalt (BBV I ZH nennt für EN-111 die Ausgabe 2017 als beachtliche Richtlinie) bleibt
+  unverändert bestehen.
+
 ## Run 45 (06.08.2026) — vier Rückstände geschlossen, drei Statusfragen am Herausgeber belegt
 
 ### GESCHLOSSEN

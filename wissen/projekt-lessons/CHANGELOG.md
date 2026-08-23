@@ -3,6 +3,36 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (Fortsetzung) — Wissens-Destillat `buero-projekte` Phase 2, erster Destillat-Lauf: neuer Artikel + Zweitbeleg hebt bestehenden Artikel auf `established`
+
+- **Getan:** 16 der 62 P1-Zeilen aus dem Cluster `1318_Lorraine_Kueche` gelesen (Subagent,
+  Read-Tool, nur lesend im Archiv) — die vollständige Kostenschätzungs-Kette (ORCA-Stufen
+  15./16.09.2015) plus vier reale Gewerke-Offerten (Heizung/Sanitär/Elektro/Schreiner,
+  01.–06.10.2015) eines privaten Küchenumbau-Mandats (Projekt 1318, Lorrainestrasse 4, Bern).
+- **[neu]** `wiki/lorraine-kueche-maria-1318-kv-nebengewerke-abweichung.md` (status emerging):
+  Hauptgewerk Schreinerarbeiten traf die LV-Schätzung vergleichsweise gut (+15–22 %), die
+  kleinen technischen Nebengewerke Sanitär/Elektro wichen um +48–95 % ab, Heizung um Faktor
+  ≈ 31,6 (weil die LV-Position dort die falsche Leistung — Repositionierung statt Neubeschaffung
+  — beschrieb). Lesson: LV-Einzelpositionen kleiner Nebengewerke vor der Schätzung inhaltlich UND
+  preislich verifizieren, vorliegende Vergleichsofferten einarbeiten statt eines tieferen eigenen
+  Schätzwerts.
+- **[korrektur/promotion]** `wiki/nerves-2015-kv-nebengewerke-unterschaetzt.md`: Status
+  `emerging` → **`established`** — der neue Fall ist eine unabhängige Zweitbelegung desselben
+  qualitativen Musters (grosses Hauptgewerk trifft die Schätzung, kleine technische
+  Nebengewerke werden massiv unterschätzt), zwei verschiedene Projekte/Bauherrschaften, beide
+  2015 (Rule 260714, nie ohne echten Zweitfall heben). **Bewusst nicht** übernommen: der zuvor
+  dort genannte Zuschlags-Erfahrungswert «Faktor 2–4» — der zweite Fall streut deutlich weiter
+  (Faktor 1,5–2 bei Sanitär/Elektro, Faktor ≈ 31,6 bei Heizung) und stützt keinen einzelnen
+  Kennwert, nur das qualitative Muster. Update-Abschnitt im Artikel ergänzt, `links` und
+  `sources` nachgeführt.
+- **[INDEX]** Statistik auf 8 Artikel aktualisiert (5 established, 3 emerging), beide Zeilen
+  Bauleitung/Kosten & Termine nachgeführt.
+- **[QUESTIONS]** Fortschritt und offener Rest (46 weitere P1-Zeilen desselben Projekts,
+  91 P2, 26 P3) vermerkt.
+- **[Inventar]** `skills/wissens-destillat/training/buero-projekte-inventar.md`: die 16
+  gelesenen Quellzeilen von `[t]` auf `[x]` gesetzt, Bemerkung mit Artikel-Backlink.
+- Bericht: `outputs/2026-08-23_destillat-buero-projekte-lorraine-kueche-run1.md`.
+
 ## 2026-08-23 — Triage Phase 1 des Korpus `buero-projekte` vollständig abgeschlossen
 
 - **Getan:** Alle 706 verbliebenen offenen Inventarzeilen (Sektion+Dateiname-basierte

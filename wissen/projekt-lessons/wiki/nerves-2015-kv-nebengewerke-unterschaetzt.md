@@ -1,10 +1,10 @@
 ---
 title: "Nerves Büroumbau 2015: die grobe Kostenschätzung traf beim Hauptgewerk fast exakt, bei den technischen Nebengewerken lag sie um 75–320 % daneben"
-status: emerging
-last_updated: 2026-08-17
+status: established
+last_updated: 2026-08-23
 sources:
   - /Volumes/daten/04_Buero/02_Projekte/00_Allgemein/Nerves_Binz_DatenMisc/nerves_baukosten_v2.pdf (Baukostenübersicht ARCHmark Hofstetter, Stand 21.05.2015, rev. 25.08.2015, 1. Entwurf 15.04.2015)
-links: [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]]
+links: [[lorrainestrasse-2011-realisierungsphase-honorar-unpreist]], [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]]
 tags:
   fokus: Kosten & Termine
   bkp: "214.1, 232, 254, 258, 271"
@@ -70,5 +70,25 @@ Wissens-Chef Run 35 (17.08.2026) hat den verallgemeinerbaren Kern in zwei Skills
 `skills/kostenschaetzung/SKILL.md` («Wichtige Hinweise» — nach Beleglage differenzieren statt
 pauschal bandbreiten) und `skills/kostenkontrolle/SKILL.md` (Schritt 4 — nie nur die kumulierte
 Abweichung kommentieren). Bewusst **nicht** uebernommen wurde der hier genannte Zuschlags-
-Erfahrungswert Faktor 2 bis 4: er ist einzelbelegt (`status: emerging`) und darf erst als Kennwert
-gelten, wenn ein zweiter unabhaengiger Fall ihn stuetzt.
+Erfahrungswert Faktor 2 bis 4: er war zum Zeitpunkt Run 35 einzelbelegt (`status: emerging`)
+und sollte erst als Kennwert gelten, wenn ein zweiter unabhaengiger Fall ihn stuetzt.
+
+## Update 23.08.2026 — Zweiter unabhängiger Beleg, Status auf `established` gehoben
+
+Wissens-Destillat, Korpus `buero-projekte`, Phase 2: [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]]
+(Küchenumbau Lorrainestrasse 4, Projekt 1318, ebenfalls 2015, andere Bauherrschaft, anderes
+Büro-Mandat) zeigt dasselbe **qualitative** Muster — grosses Hauptgewerk (dort Schreinerarbeiten,
++15 bis +22 %) vergleichsweise treffsicher geschätzt, kleine technische Nebengewerke (Heizung,
+Sanitär, Elektro) massiv unterschätzt (+48 % bis Faktor ≈ 31,6 bei Heizung). Damit ist das
+Kernmuster («kleine technische Nebengewerke ohne Einzelofferte werden in frühen Schätzungen
+systematisch unterschätzt, das grosse Hauptgewerk vergleichsweise treffsicher») zweifach
+unabhängig belegt — Status von `emerging` auf `established` gehoben.
+
+**Der konkrete Zuschlags-Erfahrungswert «Faktor 2 bis 4» bleibt dagegen bewusst unbestätigt und
+wird NICHT als Kennwert übernommen:** der zweite Fall streut deutlich weiter (Sanitär/Elektro
+liegen bei Faktor 1,5–2, Heizung bei Faktor ≈ 31,6, weil dort zusätzlich das Leistungsbild selbst
+falsch geschätzt war, nicht nur der Preis). Für `kostenschaetzung`/`kostenkontrolle` heisst das
+konkret: bei kleinen technischen Nebengewerken ohne Einzelofferte reicht ein pauschaler Faktor
+nicht — zusätzlich prüfen, ob die LV-Position überhaupt die richtige Leistung beschreibt (Lesson
+im Lorraine-Artikel, Abschnitt «Ursache», Punkt 2). Ein belastbarer numerischer Zuschlagsfaktor
+bräuchte weitere unabhängige Fälle.

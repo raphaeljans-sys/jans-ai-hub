@@ -4,7 +4,7 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
 ## 2026-08-15 (Wissens-Chef Run 33) — nachgeholte Rueckrichtung aus `normen`
 
-- [ ] **E-R33-1 (P2): KB-interne Divergenz zur Ausgabebezeichnung von SIA 387/4 —
+- [x] **E-R33-1 (P2): KB-interne Divergenz zur Ausgabebezeichnung von SIA 387/4 —
   «SIA 387/4:2023» gegen «Ausgabe 2017, aktualisiert 01.08.2023».** Beide Formulierungen
   stehen nebeneinander in dieser KB und meinen moeglicherweise dasselbe Dokument, sagen aber
   Verschiedenes ueber die **Ausgabe**, und genau die wird in Nachweis und Devis zitiert.
@@ -27,6 +27,18 @@ Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
   offen und wurde von Run 32 als Zuwachs an Run 33 uebergeben. Belegt damit erneut das
   Struktur-Muster «Uebergabe verpufft im abgebenden KB» — Uebergaben gehoeren in die
   QUESTIONS der **Empfaenger**-KB.
+  ✓ **GESCHLOSSEN 23.08.2026 (interaktive Session).** Beide SIA-Shop-Produktseiten direkt
+  abgerufen: **SIA 387/4:2017** (`shop.sia.ch/normenwerk/architekt/387-4_2017_d`) gültig ab
+  01.05.2017, **gültig bis 31.07.2023, archiviert** (Korrigenda C1 vom 01.04.2020); **SIA
+  387/4:2023** (`.../387-4_2023_d`) gültig ab 01.08.2023, aktiv, führt 2017 und C1:2020
+  ausdrücklich als archivierte Vorgänger. **Es ist eine eigenständige neue Ausgabe, keine
+  blosse Aktualisierung** — die Formulierung «Ausgabe 2017, aktualisiert 01.08.2023» in
+  `destillate/aufzug-energieeffizienz-vdi4707.md` war falsch und ist dort korrigiert; die
+  übrigen fünf Fundstellen mit «SIA 387/4:2023» waren bereits richtig. Der offene Auftrag aus
+  `wissen/normen/wiki/QUESTIONS.md` (N27-2, Cross-KB Run 28) ist damit erfüllt und dort
+  zurückgemeldet (Cross-KB-Bringschuld, Rule `wissens-bibliothekar`). Unverändert bestehen
+  bleibt der ZH-Vollzugs-Vorbehalt: BBV I ZH nennt für EN-111 weiterhin die Ausgabe 2017 als
+  **beachtliche** (nicht verordnungsverbindliche) Richtlinie nach § 360 Abs. 3 PBG.
 
 ## 2026-08-05 (Cross-KB-Lauf Run 26) — KB-interner Defekt zwischen Wiki und eigenem Destillat
 
@@ -3340,13 +3352,24 @@ durchfuehrbar.
 
 ## 2026-08-13 (Run 129) — offene Punkte aus dem AHB-Korpus 14
 
-- [ ] **E-R129-1 (P2): Raumschall-Grenzwert 25 dB(A) für Lüftungsanlagen gegen die geltende
+- [x] **E-R129-1 (P2): Raumschall-Grenzwert 25 dB(A) für Lüftungsanlagen gegen die geltende
   SIA 181 prüfen.** Das AHB-Merkblatt von 2007 nennt diesen Wert als einzige eigene Zahl
   (`[[ahb-merkblatt-kontrollierte-wohnungslueftung]]`), ohne Normbezug. Die KB hat mit
   `[[schallschutz-sia181]]` und `[[sia-181-schallschutz-anforderungswerte]]` bereits die
   Anforderungswerte destilliert — der Abgleich wurde in diesem Lauf nicht gemacht. Bis dahin darf
   25 dB(A) nicht als geltende Anforderung zitiert werden, nur als AHB-Praxiswert von 2007.
   Erledigt der Loop über den Skill `normen`.
+  ✓ **ERLEDIGT 23.08.2026 (interaktive Session):** KB-intern abgeglichen, keine externe Quelle
+  nötig. `[[sia-181-schallschutz-anforderungswerte]]`, Tabelle Haustechnik-Geräusche, Kategorie
+  «Lärmempfindlichkeit mittel (Wohnen), Dauergeräusch»: Mindestanforderung **28 dB(A)**, erhöhte
+  Anforderung rechnerisch 24 dB(A), gekappt am in der Norm selbst definierten **Kleinstwert
+  25 dB(A)**. Die 25 dB(A) des AHB-Merkblatts entsprechen damit exakt der heute geltenden
+  SIA-181:2020-**erhöhten** (Komfort-)Anforderung, nicht der Mindestanforderung — ein Unterschied
+  von 3 dB, der bei Übernahme in eine Ausschreibung/einen Werkvertrag zu benennen ist (sonst wird
+  ein Komfortziel unbemerkt zum Vertragsminimum oder umgekehrt). Eingearbeitet in
+  `destillate/ahb-merkblatt-kontrollierte-wohnungslueftung.md` (Offene Punkte + Frontmatter
+  `datenstand` + Backlink). Ausgaben-Vorbehalt der Quelle (Büro-Zusammenfassung SIA 181:2020,
+  nicht Originalnorm) bleibt unverändert bestehen.
 
 - [ ] **E-R129-2 (P2): Personenbelegung eines Klassenzimmers fehlt — die 25 m³/h pro Person sind
   ohne sie nicht in eine Anlagengrösse übersetzbar.** `[[ahb-raummodul-klassenzimmer]]` nennt

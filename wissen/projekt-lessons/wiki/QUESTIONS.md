@@ -4,6 +4,15 @@ Vom Bibliothekar gepflegt. Hier landen Wissenslücken, ungelöste Spannungen und
 geplante Artikel.
 
 ## Offene Wissenslücken (Coverage-Gaps)
+- **Wissens-Destillat `buero-projekte` Phase 2, erster Lauf (23.08.2026):** aus den 62 P1-Zeilen
+  des Inventars wurden 16 Quelldateien des Clusters `1318_Lorraine_Kueche` gelesen und daraus
+  [[lorraine-kueche-maria-1318-kv-nebengewerke-abweichung]] destilliert (zugleich zweiter Beleg
+  für [[nerves-2015-kv-nebengewerke-unterschaetzt]], dort auf `established` gehoben). Die
+  restlichen rund 46 P1-Zeilen desselben Projekts (Metallbau BKP 272, Wandbeläge BKP 282,
+  Malerarbeiten BKP 285, Elektroschemata dreier Teilprojekte 1321/1508/1543) sind weiterhin
+  `[t]` und nicht gelesen — möglicher nächster Fokus, da im selben Projektordner. Ausserdem
+  weiterhin offen: die 91 P2- und 26 P3-Zeilen sowie die restlichen P1-Zeilen aus
+  `1603_Steinhof`, `1011_Lorrainestr_4`, `1115_Kostenberechnung`.
 - **Fokus-Bereich «Bauen im Betrieb» weiterhin ohne Kandidat (05.08.2026, Nachtschicht Mac
   Mini) — dritte Quelle (Truninger-DS3) gemäss Empfehlung geprüft, wieder Nullbefund.**
   Projektraum-Baum systematisch nach den plausibelsten Fundorten durchsucht: Volltextsuche

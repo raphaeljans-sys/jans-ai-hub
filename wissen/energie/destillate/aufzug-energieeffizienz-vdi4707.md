@@ -1,11 +1,11 @@
 ---
 quelle: "Web-Synthese aus mehreren Sekundärquellen (VDI 4707 selbst ist kostenpflichtig bei Beuth Verlag und wurde NICHT im Volltext gelesen): (1) tga-fachplaner.de, Fachartikel «VDI 4707 - Aufzüge: Bewertung der Energieeffizienz»; (2) TÜV SÜD, Leistungsseite «Energieverbrauch von Aufzügen nach VDI-Richtlinie 4707»; (3) KONE Schweiz, Fachartikel «Wie viel Strom verbraucht ein Aufzug?» (kone.ch/de-ch, Herstellerseite); (4) David Eppenberger (Schindler-Hauszeitschrift «Service & Unterhalt»), Artikel «Bis 40 Prozent Einsparung durch Energierückspeisung», 15.10.2011, Fallbeispiel Novartis Pharma AG Basel; (5) Schindler Schweiz, Medienmitteilung «Der Aufzug als Kraftwerk», 11.05.2021, Fallbeispiel Männedorf ZH/Watt d'Or 2021; (6) aufzugsberatung.com, Fachartikel «Energieeffizienz von Aufzügen»; (7) baulinks.de, Artikel «Energielabel für Aufzüge», 2007; (8) i-f-s.eu (Immobilien Facility Services), Artikel «Best Practices Aufzugsmanagement: Energieeinsparungen», 23.03.2023; (9) SIA-Shop-Produktseiten und Sekundärquellen zu SIA 380/4:2006, SIA 2056:2019 und SIA 387/4:2017/2023 (Normtexte selbst NICHT gelesen, nur Produktbeschreibungen/Fachartikel-Zusammenfassungen)"
 herausgeber: "diverse — VDI (Verein Deutscher Ingenieure, Normherausgeber, Quelle 1+2 referieren die Norm, sind aber selbst Fachpresse/Prüfdienstleister); TÜV SÜD (Prüf-/Zertifizierungsdienstleister, hat kommerzielles Interesse an Zertifizierungsaufträgen); KONE Schweiz (Aufzughersteller, Eigenwerbung für EcoDisc-Technologie — Herstellerzahlen mit Vorbehalt lesen); Schindler (Aufzughersteller, Quelle 4+5 sind Eigenpublikationen — Fallbeispiele plausibel, aber Herstellerinteresse an Rekuperations-Feature); aufzugsberatung.com und baulinks.de (Fachportale, Herausgeber nicht eindeutig identifizierbar, wirken herstellerneutral); i-f-s.eu (Facility-Management-Dienstleister); SIA (Schweizerischer Ingenieur- und Architektenverein, Normherausgeber, neutral)"
-ausgabe: "VDI 4707 Blatt 1 Ausgabe 2009 (Ersterscheinung, gemäss mehreren Sekundärquellen); SIA 380/4:2006 (zurückgezogen, ersetzt durch SIA 2056:2019 und SIA 387/4:2017); SIA 387/4 Ausgabe 2017, aktualisiert 01.08.2023; SIA 2056:2019; Eppenberger-Artikel 15.10.2011; Schindler-Medienmitteilung 11.05.2021; alle Web-Fachartikel ohne verifizierbares Publikationsdatum (Stand Abruf 2026-07-31)"
+ausgabe: "VDI 4707 Blatt 1 Ausgabe 2009 (Ersterscheinung, gemäss mehreren Sekundärquellen); SIA 380/4:2006 (zurückgezogen, ersetzt durch SIA 2056:2019 und SIA 387/4:2017); SIA 387/4:2023 (gültig ab 01.08.2023, eigenständige Ausgabe — löst SIA 387/4:2017 ab, korrigiert 23.08.2026, siehe Offene-Punkte-Nachtrag); SIA 2056:2019; Eppenberger-Artikel 15.10.2011; Schindler-Medienmitteilung 11.05.2021; alle Web-Fachartikel ohne verifizierbares Publikationsdatum (Stand Abruf 2026-07-31)"
 gelesen: "Alle neun Quellen per WebSearch/WebFetch am 2026-07-31 als Sekundärquellen gelesen; die Primärnormen VDI 4707, SIA 2056:2019, SIA 387/4 und das ehemalige SIA 380/4:2006 wurden NICHT im Volltext gelesen (kostenpflichtig bei Beuth/SIA-Shop) — alle Norm-Aussagen in diesem Destillat sind Sekundärquellen-Aussagen und entsprechend als vorläufig zu behandeln"
-datenstand: 2026-07-31
+datenstand: "2026-07-31; SIA-387/4-Ausgabenfrage am 2026-08-23 direkt an beiden SIA-Shop-Produktseiten nachverifiziert (siehe Offene Punkte)"
 status: emerging
-last_updated: 2026-07-31
+last_updated: 2026-08-23
 ---
 
 # Destillat — Aufzug-Energieeffizienz: VDI 4707, Energierückspeisung, Standby und Energienachweis-Bezug (CH)
@@ -41,7 +41,7 @@ Ein Bettenaufzug im Pflegeheim/Spital mit durchgehendem Betrieb, Personal-, Besu
 | SIA 380/1 | gültig, Wärmenachweis | Erfasst NUR den Heizwärmebedarf der Gebäudehülle — der Aufzug als Betriebselektrizität ist dort **kein Bestandteil** (keine der geprüften Quellen ordnet den Aufzug SIA 380/1 zu) |
 | SIA 380/4:2006 «Elektrische Energie im Hochbau» | zurückgezogen, aufgeteilt | War die frühere Sammelnorm für Betriebselektrizität inkl. Aufzug (Motorleistung ab Typenschild, Standby-Anteil je Gebäudetyp) — gemäss SIA-Shop-Produktseite ersetzt durch SIA 2056:2019 |
 | SIA 2056:2019 «Elektrizität in Gebäuden — Energie- und Leistungsbedarf» | gültig | Erfasst den Aufzug ausdrücklich in Ziff. 6.23 (S. 60-64, ausführlichstes Kapitel): Energiebedarf = Bereitschafts- + Betriebsenergie × Rekuperationsfaktor f_rec × Hydraulikzuschlag f_hyd (Gl. 107). Die Stufung läuft über **vier** Nutzungsintensitätsstufen sehr gering/gering/mittel/stark **nach Gebäudetyp** (Tab. 78; Krankenhaus = «stark»), **nicht** über die fünf VDI-4707-Kategorien nach täglicher Fahrzeit. VDI 4707-1:2009 erscheint in SIA 2056 nur als informativer Publikationshinweis (Anhang G, S. 125). Führende Fundstelle: `wissen/normen/destillate/sia-592-056.md` (S. 1-130 gelesen, established, verifiziert 24.07.2026) — **korrigiert 31.07.2026, Wissens-Chef Run 22** |
-| SIA 387/4:2017 (aktualisiert 2023) «Elektrizität in Gebäuden — Beleuchtung» | gültig, MuKEn-relevant | Deckt NUR die Beleuchtung ab (Büro/Schule/Verkauf/Verkehrsflächen); ist die Norm, auf die sich der verbindliche kantonale Elektrizitätsnachweis für Grossbauten (EBF > 1'000 m², MuKEn 2014/2025) stützt — **nicht** der Aufzugsantrieb selbst |
+| SIA 387/4:2023 «Elektrizität in Gebäuden — Beleuchtung» (löst SIA 387/4:2017 ab, gültig ab 01.08.2023 — korrigiert 23.08.2026, war zuvor fälschlich als «2017, aktualisiert 2023» geführt) | gültig, MuKEn-relevant | Deckt NUR die Beleuchtung ab (Büro/Schule/Verkauf/Verkehrsflächen); ist die Norm, auf die sich der verbindliche kantonale Elektrizitätsnachweis für Grossbauten (EBF > 1'000 m², MuKEn 2014/2025) stützt — **nicht** der Aufzugsantrieb selbst. Für den ZH-Nachweis EN-111 nennt die BBV I ZH, Anhang Ziff. 2.3382, weiterhin die Ausgabe 2017 als **beachtliche** (nicht verordnungsverbindliche) Richtlinie nach § 360 Abs. 3 PBG — Abweichung «aus wichtigen Gründen» zulässig (Quelle: `wissen/normen/wiki/REGISTER.md` Zeile 315, Wissens-Chef Run 32) |
 
 **Praxis-Kennzahlen kWh/Jahr (Herstellerangaben, mit Vorbehalt)**
 
@@ -87,3 +87,20 @@ Ein Bettenaufzug im Pflegeheim/Spital mit durchgehendem Betrieb, Personal-, Besu
 - **KONE-Kennzahlen (Tabelle «Praxis-Kennzahlen») sind reine Herstellerangaben** ohne unabhängige Zweitquelle — Grössenordnung plausibel, aber nicht neutral verifiziert.
 - **Bezug zum Energienachweis eines konkreten Kantons (ZH/SZ)** wurde in dieser Recherche nicht spezifisch für den Aufzug geklärt — ob und wie ein Aufzugsstromverbrauch in einem ZH- oder SZ-Energienachweisformular explizit auftaucht, bleibt offen und sollte bei Bedarf über die Skills `normen`/`planungsgrundlagen` bzw. die dortigen EN-ZH-Formulare nachrecherchiert werden.
 - **VDI 4707 Blatt 2/3** (Komponenten-Effizienz bzw. vereinfachte Klassierung nach Maschinenrichtlinie) wurden nur namentlich erwähnt, inhaltlich nicht vertieft.
+- ✓ **GESCHLOSSEN 23.08.2026 (E-R33-1, interaktive Session):** Die hausinterne Divergenz zur
+  Ausgabebezeichnung SIA 387/4 («2023» gegen «2017, aktualisiert 2023») ist aufgelöst. Direkter
+  Abruf beider SIA-Shop-Produktseiten (23.08.2026): **SIA 387/4:2017** (`shop.sia.ch/normenwerk/
+  architekt/387-4_2017_d`) — gültig ab 01.05.2017, **gültig bis 31.07.2023, Status archiviert**,
+  mit Korrigenda C1 vom 01.04.2020; **SIA 387/4:2023** (`.../387-4_2023_d`) — gültig ab
+  01.08.2023, Status aktiv, führt SIA 387/4:2017 (archiviert) und SIA 387/4-C1:2020 (archiviert)
+  ausdrücklich als Vorgänger. **Es handelt sich also um eine eigenständige neue Ausgabe, nicht um
+  eine blosse Aktualisierung der 2017er-Fassung** — die in dieser Quelle bislang geführte
+  Formulierung «Ausgabe 2017, aktualisiert 01.08.2023» war falsch und ist oben korrigiert; die KB
+  `energie` führte an den übrigen fünf Fundstellen bereits korrekt «SIA 387/4:2023». Damit ist
+  auch der in `wissen/normen/wiki/QUESTIONS.md` (Cross-KB Run 28, Eintrag N27-2) hinterlegte
+  Auftrag «eigener, datierter Abruf der 387/4-Produktseite» erfüllt — Fundstelle an `normen`
+  zurückgemeldet (Rule `wissens-bibliothekar`, Cross-KB-Bringschuld), dort in `REGISTER.md`
+  Zeile 315 und `QUESTIONS.md` N27-2 nachgetragen. Unverändert gültig bleibt der ZH-Vollzugs-
+  Vorbehalt: die BBV I ZH nennt für den Nachweis EN-111 weiterhin die Ausgabe 2017 als
+  **beachtliche** Richtlinie (§ 360 Abs. 3 PBG, Wissens-Chef Run 32), nicht als automatisch
+  überholt.

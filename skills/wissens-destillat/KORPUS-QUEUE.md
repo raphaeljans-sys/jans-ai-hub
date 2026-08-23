@@ -12,7 +12,7 @@ eigene Lern-Aufgabe statt ausgebaut zu werden.
 | # | Korpus | Quelle | Ziel-KB | Spec | Stand |
 |---|---|---|---|---|---|
 | 1 | `bauprodukte` | `/Volumes/daten/03 Bauprodukte_BKP` (37 Gewerke-Sektionen nach BKP) | `wissen/bauprodukte` | `specs/bauprodukte-spec.md` (28.07.2026) | **erledigt** 15.08.2026 — Inventar komplett: 214 inventarisiert, 26 destilliert, 188 verworfen, 0 offen / 0 triagiert |
-| 2 | `buero-projekte` | `/Volumes/daten/04_Buero/02_Projekte` (22 Projekte) | `wissen/projekt-lessons` (bestehend) | `specs/buero-projekte-spec.md` (16.08.2026) | **aktiv** — Inventar Phase 0 abgeschlossen 16.08.2026, Triage Phase 1 abgeschlossen 23.08.2026 (813 Zeilen, 0 offen, 632 uebersprungen, 179 fuer Phase 2 vorgemerkt: 62 P1 / 91 P2 / 26 P3, 2 bereits destilliert), Destillat Phase 2 offen (Schwerpunkt `1318_Lorraine_Kueche`) |
+| 2 | `buero-projekte` | `/Volumes/daten/04_Buero/02_Projekte` (22 Projekte) | `wissen/projekt-lessons` (bestehend) | `specs/buero-projekte-spec.md` (16.08.2026) | **aktiv** — Inventar Phase 0 abgeschlossen 16.08.2026, Triage Phase 1 abgeschlossen 23.08.2026 (813 Zeilen, 0 offen, 632 uebersprungen, 179 fuer Phase 2 vorgemerkt: 62 P1 / 91 P2 / 26 P3), Destillat Phase 2 Run 1 abgeschlossen 23.08.2026 (16 Zeilen `1318_Lorraine_Kueche` destilliert, 18 `[x]` gesamt, 163 `[t]` offen: 46 P1 aus demselben Cluster + Rest P1/91 P2/26 P3) |
 | 3 | `buero-referenzen` | `/Volumes/daten/04_Buero/10_Referenzenbibliothek` | `wissen/architektur-fachwissen` (neu) | offen | wartet |
 | 4 | `archiv-fachwissen` | `/Volumes/daten/02_Architektur_Archiv` (23 Themensektionen) | `wissen/architektur-fachwissen` | offen | wartet |
 

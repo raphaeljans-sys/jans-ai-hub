@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 17:32:35
+Stand: 23.08.2026 17:42:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 17:32)
+- Developer/jans/ai/hub  (letzte Aktivitaet 17:37)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 23.08.2026 17:32:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- d7ee6005 nas-selfcommit: 2 Datei(en) 2026-08-23 17:30
+- ffe18448 wissen/normen: SIA-Sweep dritte Fortsetzung - N-SIASWEEP-2/-3 per offiziellen SIA-Publikationsverzeichnissen bracket-datiert
