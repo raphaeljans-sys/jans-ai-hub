@@ -616,6 +616,25 @@ empfehlung. Belegtes Vorgehen (gemischtes MFH, EG Arztpraxis + 2 Whg. + Maisonet
    2'358 / Top 3'891). Synthese **Marktwert Halten 2.6–2.8 Mio** — Ertragswert fuehrt, die anderen
    Anker rahmen.
 
+> **✓ Vollstaendig nachgerechnet (23.08.2026).** Dieser Fall ist das Vorzeige-Rechenbeispiel der KB
+> und geht an Kunden — deshalb Zeile fuer Zeile gegengelesen. **Jeder Schritt reproduziert:**
+>
+> | Schritt | nachgerechnet | im Artikel |
+> |---|---|---|
+> | Sollertrag aus den drei Nutzungen | 35'080 + 42'560 + 45'990 = **123'629** | + Garagen → 129'000 (Garagen-Rest 5'371, plausibel) |
+> | Ertragswert 4.75 % | 129'000 / 0.0475 = **2'715'789** | 2.72 Mio ✓ |
+> | Ertragswert 5.00 % | 129'000 / 0.0500 = **2'580'000** | 2.58 Mio ✓ |
+> | Ertragswert 5.25 % | 129'000 / 0.0525 = **2'457'143** | 2.46 Mio ✓ |
+> | implizite Bruttorendite | 129'000 / 3'100'000 = **4.16 %** | 4.2 % ✓ |
+> | Zinssensitivitaet +25 Bps | **−4.76 %** | «≈ −5 %» ✓ |
+> | Landwert Lageklasse-Anker | 751 × 2'702 = **2'029'202** | ~2.03 Mio ✓ |
+> | STWE-Einzelverkauf Wohnteil | 362.6 × 9'616 = **3'486'762** | ~3.5 Mio ✓ |
+>
+> **Acht von acht Rechenschritten exakt.** Der einzige nicht direkt belegte Posten ist der
+> Garagen-Ertrag (5'371 CHF/J als Rest zum ausgewiesenen Sollertrag) — der Artikel weist ihn
+> ohnehin nur als «+ Garagen» aus, die Groessenordnung ist fuer zwei bis drei Einstellplaetze
+> plausibel.
+
 **Durabel:** Renditeobjekt ⇒ **Ertragswert fuehrt**, dargestellt als **Band (3 Kapitalisierungs-
 saetze)**, und die Bewertung muendet in eine **Kaufpreispruefung** (impl. Bruttorendite vs.
 Schwelle → Verhandlungsrichtung). Die Bruttoanfangsrendite-Schwelle 4.5 % der JANS-Bewertungs-

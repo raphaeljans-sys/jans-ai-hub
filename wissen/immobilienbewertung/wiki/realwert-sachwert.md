@@ -604,7 +604,54 @@ oben. Das bestaetigt und praezisiert den Healthcare-Ansatz **~3'850-4'000+ CHF/m
 ⚠ Die genaue Normierungsmechanik der Index-115-Spalte ist aus dem Blatt nicht vollstaendig
 rekonstruierbar (die Abweichung zur reinen Baupreisindex-Rescale deutet auf eine zusaetzliche
 Standard-/Standortkorrektur hin); die **Rohwerte je Baujahr** sind der harte Beleg, die
-Index-Spalte die JANS-interne Vergleichslesart. Hotellerietaxen der Objekte 150-153 CHF/Tag
+Index-Spalte die JANS-interne Vergleichslesart.
+
+> ### ✓ Die Normierungsmechanik ist rekonstruiert (23.08.2026) — es braucht KEINE Zusatzkorrektur
+>
+> Der Vorbehalt oben vermutet hinter der Index-115-Spalte eine **zusaetzliche Standard-/
+> Standortkorrektur**, weil eine reine Baupreisindex-Rescale nicht aufzugehen schien. Mit der jetzt
+> beschafften **verketteten BFS-Reihe je Grossregion und Objekttyp** laesst sich das pruefen —
+> und die Vermutung ist **entkraeftet**.
+>
+> **Test.** Fuer die vier Objekte, bei denen dieser Artikel **beide** Werte nennt (roh und
+> bereinigt), ergibt sich aus `Zielindex = Index(Baujahr) × bereinigt/roh`:
+>
+> | Objekt | Baujahr | roh | bereinigt | implizierter Zielindex |
+> |---|---|---|---|---|
+> | Lanzeln ST-ZH | 2011 | 2'623 | 3'042 | **116.1** |
+> | Trotte ZH-ZH | 2019 | 3'907 | 4'485 | **115.8** |
+> | St. Anna LU-LU | 2021 | 3'783 | 4'300 | **115.1** |
+> | Herosé AA-AR | 2022 | 3'848 | 4'129 | **116.5** |
+>
+> Gerechnet mit **einem einheitlichen Index** (BFS, Grossregion Zuerich, «Neubau
+> Mehrfamilienhaus», Basis Oktober 2020 = 100). **Alle vier liegen zwischen 115.1 und 116.5 —
+> eine Spanne von 1.4 Indexpunkten.** Das ist die Genauigkeit, die man bei auf 10er gerundeten
+> CHF/m²-Werten erwarten muss. **Eine reine Baupreisindex-Rescale auf einen gemeinsamen Zielstand
+> von rund 115–116.5 erklaert die Spalte vollstaendig; die vermutete Standard-/Standortkorrektur
+> ist nicht noetig.**
+>
+> **Methodenbefund zum Blatt selbst: es hat NICHT regional differenziert.** Rechnet man je Objekt
+> mit dem Index **seiner eigenen** Grossregion, springt die Spanne auf **6.6 Punkte** (114.1 bis
+> 120.7) — Herosé (Aargau, Nordwestschweiz) reisst dann aus. Mit einem **einheitlichen Zuercher**
+> Index passt es. Das Blatt normiert also alle acht Objekte ueber **eine** Reihe, unabhaengig vom
+> Standort. Vergleich der Varianten: ZH Neubau MFH **1.4** · ZH Hochbau 2.5 · CH Hochbau 2.6 ·
+> regional 6.6 Punkte Spanne.
+>
+> **Praxisfolge.** Die Index-115-Spalte ist damit **nachvollziehbar und nachrechenbar** — sie darf
+> als teuerungsbereinigte Lesart verwendet werden, nicht nur als «JANS-interne Vergleichslesart».
+> Bei der Weiterverwendung ist mitzugeben, dass sie auf einen **Zuercher** Index normiert ist; fuer
+> ein Objekt ausserhalb der Grossregion Zuerich ist das eine Naeherung (bei Herosé betraegt der
+> Unterschied rund 4 Indexpunkte).
+>
+> ⚠ **Grenzen des Tests.** Er stuetzt sich auf **vier** Objekte — nur bei diesen nennt der Artikel
+> beide Werte. Fuer Averecura, Dankensberg, Vella und Mathysweg ist der bereinigte Wert hier nicht
+> ausgewiesen; sie sind **nicht** geprueft. **Und: der Test sagt nichts darueber, ob die Rohwerte
+> stimmen** — die D10-Vorbehalte zu Averecura und Vella bleiben unberuehrt.
+>
+> *Geprueft 23.08.2026 gegen die BFS-Multibasen-Reihe (Datenstand 21.08.2026, Basis Okt-2020 = 100),
+> siehe `wissen/grobkosten/wiki/kennwerte.md`.*
+
+Hotellerietaxen der Objekte 150-153 CHF/Tag
 (Averecura/Dankensberg 150, Herosé 153) → [[ertragswert-dcf]]. Die Wirtschaftlichkeits-/
 Flaechenfaktoren (Betten, GF/Bett, NF/Bett, Bauvolumen/HNF, optimale Betriebsgroesse) aus
 demselben Blatt: [[projektstruktur-deliverables]] (T19-Raster).

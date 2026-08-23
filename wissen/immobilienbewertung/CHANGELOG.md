@@ -2,6 +2,84 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 18 — Recompute-Sweep abgeschlossen: Bilanz ueber die ganze KB)
+
+Der Wangen-Fall (LB Bahnhofstrasse 27) ist das **Vorzeige-Rechenbeispiel** dieser KB und geht an
+Kunden — deshalb Zeile fuer Zeile gegengelesen. **Acht von acht Rechenschritten reproduzieren
+exakt:** Sollertrag aus den drei Nutzungen (123'629 + Garagen = 129'000), Ertragswert-Band ueber
+drei Kapitalisierungssaetze (2'715'789 / 2'580'000 / 2'457'143 gegen 2.72 / 2.58 / 2.46 Mio),
+implizite Bruttorendite (4.16 % gegen 4.2 %), Zinssensitivitaet (−4.76 % gegen «≈ −5 %»),
+Landwert-Anker (751 × 2'702 = 2'029'202) und STWE-Vergleich (362.6 × 9'616 = 3'486'762). Einziger
+nicht direkt belegter Posten ist der Garagen-Ertrag als Rest (5'371 CHF/J) — im Artikel ohnehin nur
+als «+ Garagen» ausgewiesen, Groessenordnung plausibel. Verifikationsvermerk gesetzt.
+
+### Bilanz des Recompute-Sweeps ueber diese KB (Laeufe 14–18)
+
+| Geprueft | Umfang | Ergebnis |
+|---|---|---|
+| JANS-8-Objekt-Referenzvergleich | 3 Spalten × 8 Objekte = **24 Zellen** | **5 auffaellig**: 4 bekannte (D10) + **1 neue** (Lanzeln CHF/PZ) |
+| Herose-Baukredit-Block | 3 Kennwerte | ✓ alle exakt, bestaetigt zugleich die Zimmerzahl 116 |
+| CRB-Spital-Zeilen (werk-material) | BKP-Aufgliederung + Summenproben | ✓ BKP-2-«davon» vollstaendig erklaert · ⚠ 2 Scope-Unklarheiten |
+| Healthcare-Umbau-Band | 2 Einordnungsfaelle | ✓ Arithmetik · ⚠ **HNF gegen NF vermischt** |
+| Index-115-Normierung | 4 Objekte, 4 Indexvarianten | ✓ **rekonstruiert** — reine Rescale, keine Zusatzkorrektur |
+| LB Wangen Bahnhofstrasse 27 | **8 Rechenschritte** | ✓ alle exakt |
+| Neuer Artikel `amtliche-preisstatistik-zh` | **196 Zahlen** | ✓ alle identisch (Lauf 13) |
+
+**Damit ist jeder kennwerttragende Block dieser KB einmal gegen seine eigenen Bezugsgroessen
+zurueckgerechnet.** Ausbeute: **ein neuer Zahlenfehler** (Lanzeln), **drei neue
+Scope-/Bezugsgroessen-Unklarheiten** (CRB-«Bauwerk», CRB-Erstellungskosten-Summe, HNF/NF im
+Umbau-Band), **eine geschlossene Methodenfrage** (Index-115) — und die Bestaetigung, dass die
+tragenden Rechenketten **halten**.
+
+**Kein einziger Kennwert wurde geaendert.** Alle Befunde sind als Vorbehalt, Praezisierung oder
+offene Frage gesetzt; wo ein Wert strittig ist, stehen beide Lesarten sichtbar nebeneinander.
+
+Geaenderte Dateien: `wiki/ertragswert-dcf.md` (Verifikationsvermerk beim Wangen-Fall).
+
+## 2026-08-23 (Vertiefungslauf 17 — die Index-115-Normierung ist rekonstruiert; eine offene Frage geschlossen)
+
+Der Artikel fuehrte seit Run 14 einen Vorbehalt: hinter der **Index-115-Spalte** des
+JANS-Referenzblatts stecke vermutlich eine **zusaetzliche Standard-/Standortkorrektur**, weil eine
+reine Baupreisindex-Rescale nicht aufzugehen schien; die Spalte sei deshalb nur die
+«JANS-interne Vergleichslesart». Mit der heute beschafften **verketteten BFS-Reihe je Grossregion
+und Objekttyp** ist das pruefbar geworden — **die Vermutung ist entkraeftet.**
+
+**Test.** Fuer die vier Objekte, bei denen der Artikel **beide** Werte nennt, ergibt
+`Zielindex = Index(Baujahr) × bereinigt/roh`:
+
+| Objekt | Baujahr | roh | bereinigt | implizierter Zielindex |
+|---|---|---|---|---|
+| Lanzeln ST-ZH | 2011 | 2'623 | 3'042 | **116.1** |
+| Trotte ZH-ZH | 2019 | 3'907 | 4'485 | **115.8** |
+| St. Anna LU-LU | 2021 | 3'783 | 4'300 | **115.1** |
+| Herosé AA-AR | 2022 | 3'848 | 4'129 | **116.5** |
+
+Gerechnet mit **einem einheitlichen Index** (BFS, Grossregion Zuerich, «Neubau Mehrfamilienhaus»,
+Basis Oktober 2020 = 100). **Alle vier zwischen 115.1 und 116.5 — Spanne 1.4 Indexpunkte**, also
+im Rahmen der Rundung auf 10er-CHF/m². **Eine reine Baupreisindex-Rescale auf rund 115–116.5
+erklaert die Spalte vollstaendig; die vermutete Zusatzkorrektur ist nicht noetig.**
+
+**Methodenbefund zum Blatt: es hat NICHT regional differenziert.** Mit dem Index der **jeweils
+eigenen** Grossregion springt die Spanne auf **6.6 Punkte** (Herosé reisst aus, Aargau); mit einem
+einheitlichen Zuercher Index passt es. Variantenvergleich: **ZH Neubau MFH 1.4** · ZH Hochbau 2.5 ·
+CH Hochbau 2.6 · regional 6.6 Punkte.
+
+**Praxisfolge:** die Index-115-Spalte ist **nachvollziehbar und nachrechenbar** und darf als
+teuerungsbereinigte Lesart verwendet werden — nicht nur als interne Vergleichslesart. Mitzugeben
+ist, dass sie auf einen **Zuercher** Index normiert ist; ausserhalb der Grossregion Zuerich ist das
+eine Naeherung (bei Herosé rund 4 Indexpunkte).
+
+⚠ **Grenzen, ausdruecklich:** der Test stuetzt sich auf **vier** Objekte — nur dort nennt der
+Artikel beide Werte; Averecura, Dankensberg, Vella und Mathysweg sind **nicht** geprueft. **Und er
+sagt nichts darueber, ob die Rohwerte stimmen** — die D10-Vorbehalte bleiben unberuehrt.
+
+**Eigene Zwischenkorrektur, transparent:** ein erster Durchgang rechnete Averecura mit, wobei der
+bereinigte Wert 4'485 unterstellt war — der steht im Artikel aber fuer **Trotte**, Averecuras
+bereinigter Wert ist gar nicht ausgewiesen. Beim Gegenlesen aufgefallen und die Zeile entfernt;
+ohne diese Korrektur haette der Test einen Ausreisser gemeldet, den es nicht gibt.
+
+Geaenderte Dateien: `wiki/realwert-sachwert.md` (✓-Block bei der Index-115-Notiz).
+
 ## 2026-08-23 (Vertiefungslauf 16 — Healthcare-Umbau-Band: zwei Bezugsflaechen vermischt)
 
 Recompute des **Healthcare-Umbau-Kostenbands** («Spektrumskosten»). Die Arithmetik stimmt
