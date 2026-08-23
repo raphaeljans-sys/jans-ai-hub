@@ -2,6 +2,47 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 11 — D17: der Gutachten-Standard steht auf einer ueberholten Auflage)
+
+Der Artikel [[svs-svkg-standard]] — der **verbindliche Rahmen fuer jedes JANS-Bewertungsgutachten** —
+beruft sich durchgehend auf das «Schweizerische Schaetzerhandbuch SVKG/SEK/SVIT **2012**», die
+Marktwert-Definition auf dessen S. 367. **Es gibt seit 2019 eine neuere Auflage.**
+
+**Primaerquelle SVKG (svkg.ch, abgerufen 23.08.2026):** massgebend ist die **5. Auflage, «Das
+Schweizerische Schaetzerhandbuch», 2019**, **CHF 185.– zzgl. Versand**, direkt bei der SVKG
+bestellbar (`info@svkg.ch`, T +41 62 835 43 80), deutsch und franzoesisch.
+
+**Drei Beruehrungspunkte, alle zentral fuer diese KB:**
+1. **Der Swiss Valuation Standard (SVS) ist erst in der 5. Auflage kodifiziert.** Die
+   Wording-Regel des Artikels erklaert «nach Schweizer Schaetzungsstandard (SVS)» fuer zulaessig —
+   der Standard, auf den sie sich beruft, steht damit in einer Auflage, die **nicht im Haus ist**.
+2. **Die Lageklassifizierungsmethode ist ueberarbeitet.** Genau die Methode, die die Spiegelung
+   gegen amtliche Bodenpreise am selben Tag als fuer den heutigen Zuercher Markt **zu eng**
+   erwiesen hat. **Folge fuer den dortigen offenen Punkt:** ein eigener kalibrierter
+   Anteilsschluessel waere **erst nach Einsicht in die 5. Auflage** sinnvoll — sonst baut JANS
+   nach, was der Standard moeglicherweise bereits regelt. Entsprechender Vorbehalt in
+   [[lageklasse-landwertanteil]] gesetzt.
+3. **Die Seitenangabe S. 367 gilt fuer 2012** und duerfte fuer die rund 450-seitige, erweiterte
+   5. Auflage falsch sein.
+
+**Was bis dahin gilt** (im Artikel verankert): die Marktwert-Definition inhaltlich weiter
+verwenden — sie ist die international uebliche und duerfte unveraendert gelten, **das ist aber eine
+Annahme, kein Beleg** — und im Gutachten die Fundstelle **entweder ohne Auflagenjahr oder mit dem
+belegten Stand 2012** zitieren, **ohne Seitenzahl**, die fuer die aktuelle Auflage nicht geprueft
+ist. **Keine Aussage ueber den Inhalt der 5. Auflage**, die nicht aus ihr selbst stammt.
+
+⚠ **Beleggrenze sauber gezogen:** primaer belegt sind **Auflage, Jahr, Preis, Bezugsweg**
+(svkg.ch). Die **Liste der Neuerungen** (mathematische/statistische Grundlagen, Rundungsregeln,
+Lageklassifizierungsmethode, Swiss Valuation Standard, Hotellerie, Waldbewertung, Rechte und
+Lasten) stammt aus **Buchhandels-Listungen** (ISBN 9783033071438, rund 450 Seiten) — als
+Sekundaerquelle gekennzeichnet und **kein Inhaltsbeleg**.
+
+Neu als **D17** registriert, Prioritaet **hoch**: es ist die guenstigste Bring-Schuld des Registers
+(CHF 185.–) und beruehrt zugleich den Gutachten-Rahmen, den SVS und die Lageklassenmethode.
+
+Geaenderte Dateien: `wiki/svs-svkg-standard.md` (Fassungsvermerk + `last_updated`),
+`wiki/lageklasse-landwertanteil.md` (Vorbehalt beim offenen Punkt), `wiki/wissensluecken.md` (D17).
+
 ## 2026-08-23 (Vertiefungslauf 10 — warum es fuer den risikofreien Basiszins keine maschinenlesbare Reihe mehr gibt)
 
 [[investorenmarkt-makro]] fuehrt seit dem 20.08.2026 einen offenen Punkt: die Recherche zur Rendite

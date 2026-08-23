@@ -1,5 +1,25 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 6 Revendo) — Nachkontrolle: eigener Platzhalter als Fehlalarm entfernt
+
+Nachkontrolle des Konsistenzlaufs, nachdem der NAS-Klon nachgezogen hatte: der Befund
+`[[architekten-synobsis]]` ist **weg**, die Umstellung auf Pfadnotation hat gegriffen.
+
+**Ein Rest war selbstverursacht.** Die Erklärnotiz, die ich zur Umstellung geschrieben hatte,
+enthielt die Wiki-Link-Syntax als **Beispiel in doppelten eckigen Klammern** — und das Werkzeug
+liest jedes solche Vorkommen als Link, auch ein zitiertes. Der eigene Erklärtext erzeugte also
+genau den Fehlalarm, den er erklären sollte. Die Beispiele sind jetzt ausgeschrieben
+(«in doppelten eckigen Klammern», «Wiki-Link»), `wiki/INDEX.md` enthält **kein einziges** Vorkommen
+der Syntax mehr.
+
+**Kleine Lehre, die über den Fall hinausgeht:** in einer Datei, die von einem Link-Prüfer gelesen
+wird, darf Link-Syntax nicht als Beispiel zitiert werden — der Prüfer unterscheidet nicht zwischen
+Verwendung und Erwähnung. Dasselbe gilt für jede andere maschinell ausgewertete Auszeichnung.
+
+Damit melden alle vier heute bearbeiteten Wissensbasen **keine echten Struktur-Befunde** mehr.
+
+Geänderte Dateien: `wiki/INDEX.md` (zwei Formulierungen).
+
 ## 2026-08-23 (Vertiefungslauf 5 Revendo) — Scope-Warnung beim Wohnen-Kostenband
 
 Beim Versuch, das indexierte CHF/m²-HNF-Band des Wohnen-Sets gegen die Kennwerte der

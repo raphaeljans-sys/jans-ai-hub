@@ -208,6 +208,15 @@ bleibt ein **Plausibilisierungsinstrument**, und die Plausibilisierung muss in d
 Richtung gelesen werden: liegt der aus Tab. 8 hergeleitete Landwert deutlich **unter** dem
 regionalen Bodenpreis-Median, ist das der Normalfall und kein Warnsignal.
 
+> ⚠ **Bevor ein eigener Schlüssel gebaut wird — die Methode ist bereits amtlich überarbeitet.**
+> Die **5. Auflage des Schweizerischen Schätzerhandbuchs (2019)** führt die
+> **Lageklassifizierungsmethode** laut Verlagsbeschrieb als überarbeitetes Kapitel. Diese KB
+> arbeitet mit der Fassung **2012**; ob die Überarbeitung genau den hier gezeigten Skalen-Anschlag
+> adressiert, ist **ohne das Buch nicht feststellbar**. Ein eigener Anteilsschlüssel wäre deshalb
+> erst nach Einsicht in die 5. Auflage sinnvoll — sonst baut JANS etwas nach, was der Standard
+> möglicherweise bereits regelt. Beschaffung als [[wissensluecken]] **D17** registriert
+> (CHF 185.– direkt bei der SVKG), Herleitung in [[svs-svkg-standard]].
+
 **Offen und an Raphael:** ob für JANS-Bewertungen ein **eigener, kalibrierter Anteilsschlüssel**
 sinnvoll wäre (Tab. 8 nach oben verlängert oder mit einem Regionalfaktor versehen) — oder ob die
 Methode konsequent nur noch als Plausibilisierung geführt und der Landwert grundsätzlich über
