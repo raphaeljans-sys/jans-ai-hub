@@ -630,6 +630,46 @@ Deckt sich grössenordnungsmässig mit dem bereits geführten BFS-Baupreisindex-
 > verkettete Reihe 1939–2025, Publikationsstand 01.01.2026, Volltext · archis.ch, Baukostenindex
 > (abgerufen 23.08.2026).*
 
+> ### ⚠ Regionenwahl: die Faktorentabelle oben ist ein **Zürcher** Index (nachgetragen 23.08.2026, Vertiefungslauf 4)
+>
+> Der ZIW misst die Preise beim **Neubau eines Mehrfamilienhauses in der Stadt Zürich** — die
+> Einzelfälle dieser KB liegen aber in Wädenswil, Thalwil, Niederhasli, Wald und **Davos (GR)**.
+> Mit der jetzt beschafften verketteten BFS-Reihe lässt sich beziffern, wie viel die Regionenwahl
+> ausmacht.
+>
+> **Neubau Mehrfamilienhaus je Grossregion, Basis Oktober 2020 = 100:**
+>
+> | Grossregion | Apr. 20 | Apr. 23 | Apr. 26 | **Apr. 20 → Apr. 26** | Apr. 23 → Apr. 26 |
+> |---|---|---|---|---|---|
+> | Nordwestschweiz (BS, BL, AG) | 100.7 | 118.1 | 119.8 | **+19.0 %** | +1.4 % |
+> | Zentralschweiz (LU, UR, SZ, OW, NW, ZG) | 99.6 | 115.5 | 118.2 | **+18.7 %** | +2.3 % |
+> | Ostschweiz (GL, SH, AR, AI, SG, GR, TG) | 99.8 | 114.6 | 118.2 | **+18.4 %** | +3.1 % |
+> | **Zürich (ZH)** | 100.1 | 115.2 | 118.4 | **+18.3 %** | +2.8 % |
+> | **Schweiz** | 100.2 | 114.9 | 117.6 | **+17.4 %** | +2.3 % |
+> | Genferseeregion (VD, VS, GE) | 100.6 | 114.0 | 116.9 | **+16.2 %** | +2.5 % |
+> | Espace Mittelland (BE, FR, SO, NE, JU) | 100.4 | 113.9 | 116.0 | **+15.5 %** | +1.8 % |
+> | Tessin (TI) | 100.2 | 111.8 | 114.5 | **+14.3 %** | +2.4 % |
+>
+> **Die Spannweite beträgt 4.7 Prozentpunkte** über sechs Jahre (Tessin gegen Nordwestschweiz).
+> Wer einen Tessiner Kennwert mit dem Zürcher Faktor aufindexiert, liegt am Ende um rund vier
+> Prozent daneben — mehr als die gesamte Bauteuerung eines Jahres.
+>
+> **Für die heute geführten Einzelfälle ändert das nichts.** Sie liegen in **Zürich (+18.3 %)**
+> und mit Davos in der **Ostschweiz (+18.4 %)** — die beiden Regionen laufen über den ganzen
+> Zeitraum praktisch deckungsgleich (0.1 Prozentpunkte). Die in Run 9 vorgenommene Normalisierung
+> bleibt damit gültig, es ist **nichts nachzurechnen**.
+>
+> **Regel für künftige Fälle:** ausserhalb der Grossregion Zürich **nicht** mit dem ZIW
+> normalisieren, sondern mit der **BFS-Reihe der zutreffenden Grossregion**. Innerhalb der
+> Grossregion Zürich ist der ZIW vertretbar — er ist laut ZIW-Methodenbericht derselbe BFS-Index
+> für diese Region, nur mit einer eigenen, **stadtzürcherischen** Gewichtung; für ein Objekt in
+> Wald oder Niederhasli ist die regionale BFS-Reihe die sauberere Wahl, der Unterschied liegt
+> aber unter der Rundungsgenauigkeit dieser KB.
+>
+> *Quelle: BFS, «Schweizerischer Baupreisindex — Entwicklung der Baupreise (Multibasen),
+> Indexwerte pro Grossregion und pro Objekttyp», XLSX über opendata.swiss, Datenstand 21.08.2026,
+> Blatt «2020», ausgewertet 23.08.2026.*
+
 **Anwendung (ab sofort möglich, in diesem Lauf noch nicht auf alle Einzelfälle angewendet):**
 Die in dieser KB geführten Einzelfälle mit Preisstand vor 2025 (z.B. Reckholdern 12/2023,
 Haus Deuber 10/2020, Wald/Niederhasli 07/2025) können mit obiger Tabelle auf einen

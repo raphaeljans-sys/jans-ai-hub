@@ -1,5 +1,33 @@
 # CHANGELOG — wissen/grobkosten
 
+## 2026-08-23 (Vertiefungslauf 5 Revendo) — Regionenwahl beziffert: die Faktorentabelle ist ein Zürcher Index
+
+Der ZIW misst die Preise beim **Neubau eines Mehrfamilienhauses in der Stadt Zürich** — die
+Einzelfälle dieser KB liegen aber in Wädenswil, Thalwil, Niederhasli, Wald und **Davos (GR)**. Mit
+der heute beschafften verketteten BFS-Reihe ist jetzt beziffert, was die Regionenwahl ausmacht.
+
+**Neubau Mehrfamilienhaus, April 2020 → April 2026, je Grossregion:** Nordwestschweiz **+19.0 %** ·
+Zentralschweiz +18.7 % · Ostschweiz +18.4 % · **Zürich +18.3 %** · Schweiz +17.4 % ·
+Genferseeregion +16.2 % · Espace Mittelland +15.5 % · **Tessin +14.3 %**.
+
+**Die Spannweite beträgt 4.7 Prozentpunkte** über sechs Jahre. Wer einen Tessiner Kennwert mit dem
+Zürcher Faktor aufindexiert, liegt am Ende um rund vier Prozent daneben — mehr als die gesamte
+Bauteuerung eines Jahres.
+
+**Für die heute geführten Einzelfälle ändert das nichts.** Sie liegen in **Zürich (+18.3 %)** und
+mit Davos in der **Ostschweiz (+18.4 %)** — die beiden Regionen laufen über den ganzen Zeitraum
+praktisch deckungsgleich (0.1 Prozentpunkte). Die Normalisierung aus Run 9 bleibt gültig,
+**nichts nachzurechnen**.
+
+**Neue Regel für künftige Fälle, in `wiki/kennwerte.md` verankert:** ausserhalb der Grossregion
+Zürich **nicht** mit dem ZIW normalisieren, sondern mit der **BFS-Reihe der zutreffenden
+Grossregion**. Innerhalb der Grossregion Zürich bleibt der ZIW vertretbar — er ist laut
+ZIW-Methodenbericht derselbe BFS-Index für diese Region, nur mit **stadtzürcherischer**
+Gewichtung; für ein Objekt in Wald oder Niederhasli wäre die regionale BFS-Reihe sauberer, der
+Unterschied liegt aber unter der Rundungsgenauigkeit dieser KB.
+
+Geänderte Dateien: `wiki/kennwerte.md` (Regionaltabelle + Regel im Abschnitt «Baupreisindex ZH»).
+
 ## 2026-08-23 (Vertiefungslauf 4 Revendo) — zwei Anwendungen der neuen BKP-Struktur: ein Widerspruch und ein neuer Rechtsbezug
 
 Die am selben Tag eingearbeitete amtliche BKP-Anteilsstruktur ist nicht nur ein Kennwert, sondern

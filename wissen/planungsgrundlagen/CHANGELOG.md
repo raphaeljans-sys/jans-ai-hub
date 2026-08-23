@@ -2,6 +2,35 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 3 Revendo) — Folgewirkung der LSV-Novelle im eigenen Bestand: Fassungsvermerk SIA 382/1
+
+Dritte Runde. Statt einer neuen Recherche die **Folgewirkung** der am selben Tag vertieften
+LSV-Novelle im eigenen Artikelbestand geprüft: welche Normen macht die revidierte LSV verbindlich,
+und in welcher Ausgabe zitiert diese KB sie?
+
+**Befund.** [[recht-norm-ahb-stadt-zuerich-projektstandards]] zitiert dreimal **SIA 382/1:2007**
+(§12.1 thermisch aktive Speichermasse und Sonnenschutz, §13.2 Bedarfsnachweis Raumkühlung
+Ziff. 4.4.4, §13.3 Lüftungskonzept-Pflicht). Seit dem **01.04.2026** verlangt **Art. 31 Abs. 1bis
+LSV** für den «Stand der Technik» kontrollierter Wohnraumlüftungen in lärmbelasteten Gebieten
+ausdrücklich die **Ausgabe 2025** (Raumluftqualität IDA 2 nach **SIA 382/1:2025, Tabelle 18**).
+Zwischen dem, was die AHB-Standards nennen, und dem, was seit April 2026 gilt, liegen **18 Jahre**.
+
+**Wie behandelt.** Die Zitate sind **quellentreu und unverändert stehen geblieben** — die
+AHB-Projektstandards nennen nun einmal die Ausgabe 2007, und sie umzuschreiben würde die Quelle
+verfälschen. Stattdessen ein **Fassungsvermerk** unmittelbar davor: welche Ausgabe die AHB-Standards
+nennen, welche die LSV verlangt, und die Praxisfolge — wer an lärmexponierter Lage den KWL-Weg
+beschreiten will, muss gegen die **Ausgabe 2025** nachweisen, und bei jedem Nachweis ist die
+unterstellte Ausgabe auszuschreiben, weil die **Ziffernnummerierung zwischen Ausgaben abweichen
+kann** (ein Verweis auf «Ziff. 4.4.4» ohne Jahrgang ist nicht eindeutig).
+
+**Ausdrücklich nicht behauptet:** welche Ziffern sich zwischen 2007 und 2025 materiell geändert
+haben. **SIA 382/1:2025 liegt nicht im Haus**; das Delta wäre über die KB `normen` zu beschaffen
+(Rule `normen-referenz`). Hier steht nur der Fassungsvermerk, **kein Inhaltsvergleich** — dieselbe
+Zurückhaltung wie bei den beiden VKF-Fassungs-Vorbehalten aus dem Wissens-Chef-Lauf 40.
+
+Geänderte Dateien: `wiki/recht-norm-ahb-stadt-zuerich-projektstandards.md` (Fassungsvermerk +
+`last_updated`).
+
 ## 2026-08-23 (Vertiefungslauf 2 Revendo) — LSV-Novelle 01.04.2026 an der Primärquelle vertieft, offener Punkt geschlossen
 
 Zweite Runde. Angesetzt am einzigen inhaltlichen Punkt, der ohne neues Projektmaterial und ohne
