@@ -6,7 +6,7 @@ ersetzt: null
 gelesen: "1/1 Seiten (vollständig, reine Tabelle)"
 datenstand: "2015 (Bezug BSV 2015)"
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-23
 links: [[REGISTER]]
 ---
 
@@ -57,6 +57,17 @@ Systematik der Kurzbezeichnungen (europäische Klassifikation, sinngemäss zusam
 - Ergänzt `vkf-brl-verwendung-baustoffe.md` (dort die Einschränkungen zu brennbaren Oberflächen in Fluchtwegen, hier referenziert aber nicht im Detail wiederholt) und `vkf-brl-16-15-flucht-rettungswege.md` (dort EI 30/E 30 für Brandschutzabschlüsse in Fluchtwegen bereits im Kontext der Fluchtweg-Anforderungen erwähnt).
 
 ## Offene Punkte
+- **Dateiname/Inhalt-Mismatch aufgeklärt (23.08.2026, QUESTIONS-Abarbeitung):** Der Dateiname
+  `Brandschutz-Praevention.pdf` stammt vom Kopfzeilen-Brand des Dokuments selbst — das Blatt trägt
+  oben rechts «Brandschutz + Prävention / Merkblatt» als Serientitel der herausgebenden regionalen
+  Fachstellen, darunter erst den eigentlichen Inhaltstitel «Brandschutz-Klassifikation von häufig
+  verwendeten Bauteilen». Die PDF-Metadaten bestätigen den Inhaltstitel separat (`Title:
+  Merkblatt_Klassifikation Bauteile_V.1`). Am Original per M365-Graph-Connector nachgelesen
+  (`pdftotext -layout`, vollständige Seite 1) — Tabelleninhalt deckt sich Zeile für Zeile mit
+  diesem Destillat. Kein inhaltlicher Fehler, keine Umbenennung nötig; die Datei
+  `Brandverhuetung & organisatorischer Brandschutz.pdf` (Quelle von
+  `vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md`) liegt im selben Ordner
+  eigenständig daneben — beide sind tatsächlich zwei verschiedene PDFs, kein Merge-Fall.
 - Die vollständige Brandschutzrichtlinie «Baustoffe und Bauteile» (BSV 2015, BSR 13-15), aus der dieses Merkblatt einen Auszug bildet, liegt als eigene Datei `02_Brandschutzrichtlinien 2015/Baustoff & Bauteile.pdf` im Inventar (Stand 260713: separat in Bearbeitung) — bei Fertigstellung dorthin verlinken und prüfen, ob Redundanzen zu bereinigen sind.
 - Kein Erscheinungsdatum auf dem Merkblatt selbst vermerkt; die PDF-Metadaten weisen Version «V.1» und Erstellungsdatum 11.12.2014 aus (Autor «NSV05»), passend zum Bezug auf die per 1.1.2015 in Kraft getretenen BSV-2015-Richtlinien.
 - Kategorien-/Beispiel-Liste ist nicht abschliessend («häufig verwendete Bauteile») — bei selteneren Bauteiltypen (z.B. Sonderkonstruktionen) auf die volle BSR 13-15 zurückgreifen.

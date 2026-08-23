@@ -58,6 +58,7 @@ Klassen sauber trennen:
 | **T6** | **PBG-Screenshots + Näherbaurecht** | `03 PBG Zuerich/` (Vordach § 260 Abs. 3/4, anrechenbares UG), `Näherbaurecht NBR2008/` | [[abstaende-und-hoehen]] (Näherbaurecht § 270 Abs. 3) | **erledigt** (Run 77, 23.08.2026) |
 | **T7** | **Archiv-Sichtung** | `_Archiv/` (91 Dateien: VSS-Norm, Merkblätter Konstruktion, Lärmschutz, Naturgefahren, Brandschutz, PV) | Triage; Brandschutz → Skill `brandschutz`, Lärm → [[laermschutz-und-nichtionisierende-strahlung]] | **erledigt** (Run 78, 23.08.2026) |
 | **T8** | **Gegenlesen der Claude-Factsheets** | die drei datierten Factsheets (siehe Echo-Schutz) | Fehlerbericht in `outputs/`, keine Aufnahme als Quelle | **erledigt** (Run 79, 23.08.2026) |
+| **T9** | **Restdateien (nicht in der ursprünglichen Ordnerliste erfasst)** | `13 Verfügungen/`, `14 Liegenschaftsentwaesserung/`, `Anrechenbares Untergeschoss Abgrabunge/Hoi Stefan.docx`, lose Dateien `_BZO Revision Abstimmung.docx` + `IMG_0316.jpeg` | [[abstaende-und-hoehen]] ergänzt; Restliches geroutet, kein Ingest | **erledigt** (Run 87, 23.08.2026) |
 
 ## Erledigt
 
@@ -311,7 +312,45 @@ Klassen sauber trennen:
   sich die Klammer-Falle bereits verbreitet hat.
 - Report `outputs/2026-08-23_buch-run79.md`.
 
-**Damit ist die Reglemente-Queue 2414 Thalwil (T1-T8) vollständig abgearbeitet.**
+### T9 — Restdateien (Run 87, 23.08.2026)
+
+- **Anlass:** Der Ordner zählt heute 234 Dateien statt der 243 aus dem Queue-Kopf (angelegt
+  03.08.2026) — fünf Dateien/Screenshots liegen in Ordnern, die in keiner T1-T8-Zeile
+  auftauchen (`13 Verfügungen/`, `14 Liegenschaftsentwaesserung/`, ein zweiter Fund im bereits
+  in T6 teilweise ausgewerteten `Anrechenbares Untergeschoss Abgrabunge/`, zwei lose Dateien
+  auf oberster Ebene). Vor dem Abschluss der Queue-Sichtung geprüft, ob dort noch
+  Verallgemeinerbares liegt.
+- **`Anrechenbares Untergeschoss Abgrabunge/Hoi Stefan.docx` — der wertvollste Fund, echter
+  Wiki-Zuwachs.** Raphaels eigene, undatierte Bauherren-Erklärung (authentisch, Echo-Schutz-
+  Klasse Gold, kein Claude-Datumsschema) an Stefan Tschopp (Du-Kontakt 2414 Thalwil): «Zu viel
+  Abgraben macht aus einem Untergeschoss ein Vollgeschoss.» Die Kausalkette war im Wiki bereits
+  in Einzelteilen vorhanden (§ 293 PBG Freilegungsgrenze, § 276 PBG Anrechenbarkeits-Zählung,
+  Art. 6 Abs. 5 BZO Thalwil Freilegungsflächen-Deckel), aber nie explizit verknüpft. Alle drei
+  Fundstellen einzeln gegen `raw/260607_amtlich_zh_pbg.md` und
+  `raw/260607_amtlich_zh_bzo-thalwil.md` wortlautverifiziert (§ 276 Abs. 1/2: «Als Geschosse
+  zählen Voll-, Dach-, Attika- und Untergeschosse … zusammengerechnet dürfen sie jedoch die
+  erlaubte Zahl der Vollgeschosse nicht überschreiten»). Neu in [[abstaende-und-hoehen]] als
+  Sektion «Praxisfolge einer zu weiten Abgrabung» ergänzt.
+- **`IMG_0316.jpeg`** (Screenshot Art. 24/25 BZO Thalwil): CONFIRMED, wortgleich mit
+  `raw/260607_amtlich_zh_bzo-thalwil.md` Z. 1608-1645. Bereits vollständig im Bestand, kein
+  neuer Fund, kein Edit.
+- **`_BZO Revision Abstimmung.docx`** (reiner Link auf `thalwil.ch/medienmitteilungen/2904355`):
+  abgerufen, bestätigt exakt die bereits in [[negative-vorwirkung-und-bzo-revision]] geführten
+  Werte (14.06.2026, 78,81 % Ja, 4'546:1'222 Stimmen). Kein neuer Fund.
+- **`13 Verfügungen/WDV_700.211_Waermedaemmvorschriften_8.6.22_oBgr.pdf`:** kantonale
+  Wärmedämmvorschriften — Energiethema, nicht Baurecht i.e.S. Trotz Ordnername («Verfügungen»,
+  laut Abgrenzung projektgebunden) ist der Inhalt eine generische kantonale Vorschrift, keine
+  projektspezifische Verfügung — gleiche Fehlablage-Familie wie der SZ-Formular-Fund in T7. Kein
+  Ingest in `baurecht`; Routing-Hinweis für die KB `wissen/energie` gesetzt (dort nicht geprüft,
+  ausserhalb dieses Laufs).
+- **`14 Liegenschaftsentwaesserung/GEO Geomorphologische Landeskarte.pdf`:** geologische
+  Übersichtskarte, kein baurechtlicher Inhalt. Kein Ingest, keine Routing-Empfehlung (reine
+  Grundlagenkarte ohne destillierbare Aussage).
+- **Kein neuer `raw/`-Volltext.** Ein bestehender Artikel geschärft ([[abstaende-und-hoehen]]).
+  Bericht `outputs/2026-08-23_buch-run87.md`.
+
+**Damit ist die Reglemente-Queue 2414 Thalwil (T1-T9) vollständig abgearbeitet**, inklusive der
+erst nachträglich im Ordner aufgetauchten Restdateien.
 
 ## Arbeitsregeln je Batch
 

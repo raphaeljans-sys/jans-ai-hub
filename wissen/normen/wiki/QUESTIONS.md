@@ -3253,7 +3253,20 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
     `wissen/energie/destillate/pv-blitzschutz-gebaeudeversicherung-ch.md`); (c)
     `vkf-merkblatt-2001-15-solaranlagen.md` bleibt als Zeiger-Datei bestehen und wird nicht gelöscht,
     da die geltende Fassung den Namensstamm `vkf-merkblatt-2001-15-solaranlagen-2022.md` trägt.
-- [ ] **Dateiname/Inhalt-Mismatch:** `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
+- [x] **Dateiname/Inhalt-Mismatch — GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung), kein Mismatch.**
+  `Brandschutz-Praevention.pdf` am Original beschafft (M365-Graph-Connector, Site PL, Drive
+  `02_Recht_Norm`, `pdftotext -layout` vollständige Seite 1) und gegen das Destillat gelesen: die
+  Kopfzeile des Blatts trägt den Serien-/Herausgeber-Brand «Brandschutz + Prävention / Merkblatt»
+  der herausgebenden regionalen Fachstellen, darunter erst den Inhaltstitel
+  «Brandschutz-Klassifikation von häufig verwendeten Bauteilen» — von den PDF-Metadaten bestätigt
+  (`Title: Merkblatt_Klassifikation Bauteile_V.1`). Der Dateiname stammt vom Serien-Brand, nicht
+  vom Inhalt; die Tabelle im Destillat deckt sich Zeile für Zeile mit dem Original. Keine
+  Umbenennung nötig. `Brandverhuetung & organisatorischer Brandschutz.pdf`
+  (`vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md`) liegt im selben
+  SharePoint-Ordner tatsächlich als eigenständige, zweite Datei daneben — bestätigt per
+  Ordnerlisting (`/children`), kein Merge-Fall. Nachtrag im Destillat selbst,
+  Abschnitt «Offene Punkte». Ursprungswortlaut bleibt unten stehen.
+- [ ] ~~Dateiname/Inhalt-Mismatch~~ (Ursprungswortlaut, siehe Schliessung oben): `vkf-merkblatt-brandschutzklassifikation-bauteile.md` hat als
   Quelle `Brandschutz-Praevention.pdf`, der Dateiname passt aber nicht zum Inhalt (Klassifikation
   von Bauteilen statt Prävention). Prüfen, ob der Inhalt wirklich zur Quelle passt, ggf. umbenennen
   auf ein passendes Muster (z.B. `vkf-brl-praevention-organisatorischer-brandschutz.md` — kollidiert
@@ -4041,6 +4054,29 @@ das geht nur bei korrekter Zuordnung auf.
 > zitiert, nicht gegen den vollständigen Anhangstext geprüft — vermerkt in den Offenen Punkten
 > des Destillats. C1/C2 bleiben unverändert offen (nur sekundär über `sia-500-auslegung.md`
 > belegt). Report: `outputs/2026-08-23_sia500-korrigenda-c3-c4-vollstaendig.md`.
+>
+> ✅ **C1/C2 ZUSÄTZLICH GESCHLOSSEN 23.08.2026 (SIA-Sweep, dreizehnte Fortsetzung).** Auch
+> C1:2009 (SN 521500-C1:2009 de, 6 S.) und C2:2011 (SN 521500-C2:2011 de, gültig ab 01.06.2011,
+> 5 S.) jetzt am amtlichen Wortlaut beschafft (`shop.sia.ch/…/DownloadAnhang`, Preisgruppe 0)
+> und vollständig ausgewertet — **damit sind alle vier Korrigenda der Norm im Destillat
+> nachgeführt.** Materiell wichtigster Fund: **Ziff. 10.2.1 lässt seit C2:2011 für
+> Kleinwohnungen mit einem einzigen Sanitärraum 3,60 statt 3,80 m² Nutzfläche zu.** Zusätzlich
+> eine **Fehlzuschreibung im Destillat korrigiert**: die oben (C3-Absatz) genannte Korrektur
+> «Kabinentüren→Schachttüren» an Ziff. 3.7.2/9.5.1 wurde bisher allein C3:2013 zugeschrieben —
+> sie steht aber bereits wortgleich in C1:2009; C3 wiederholt denselben Diff gegen die
+> 1. Auflage 2009-01 (Beleg: die «bisher»-Spalte beider Korrigenda-PDFs zitiert identisch
+> «Kabinentüren», was nur Sinn ergibt, wenn jedes Korrigendum durchgehend gegen die
+> Originalfassung difft, nicht kumulativ gegen den zuletzt korrigierten Stand — Methodik-Hinweis
+> für künftige SIA-Korrigenda-Läufe). Weitere nachgeführte Ziffern: 3.3.1.2/9.2.2
+> (Terminologie «Türanschläge»→«Absätze»), 3.5.2/3.5.3.1 (Podest/Freiflächen-Formel, C1 und C2
+> stufenweise), 4.4/D.1.4 (Lichtnorm-Vorstufe zu C3), 9.2.3/9.2.4 (C2 streicht die alte 9.2.4
+> ersatzlos, C3 vergibt dieselbe Nummer später neu — nicht verwechseln), 9.3.2 (Korridorbreite
+> differenziert), 10.1.1 (Wort «horizontal» + neue 1,0-m-Mindestbreite), 11.2 (Wort
+> «stufenlos» ergänzt), 11.5 (Singular→Plural bei rollstuhlgerechten Parkplätzen). Alle mit
+> Fundstelle in `destillate/sia-500-2009.md` nachgeführt, `wiki/REGISTER.md` FRISCH-GEMELDET
+> ergänzt. Kein Cross-KB-Abnehmer zitiert Ziff. 10.2.1 bisher aktiv (geprüft: 0 Treffer für
+> «10.2.1» ausserhalb dieser Datei). Report:
+> `outputs/2026-08-23_sia500-korrigenda-c1-c2-vollstaendig.md`.
 
 **Was der Chef-Lauf geleistet hat.** Der Verifikator hat die Basisausgabe `500_2009.pdf` sowie die
 Korrigenda **C3:2013** und **C4:2019** am Original beschafft und ausgewertet (shop.sia.ch,

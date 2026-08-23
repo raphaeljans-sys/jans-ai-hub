@@ -3,6 +3,37 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 87: Korpus-Queue Batch T9 — Restdateien Reglemente-Ordner 2414 Thalwil, Kausalkette Abgrabung→Vollgeschoss neu verknüpft (Queue T1-T9 damit vollständig abgearbeitet)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue weiterarbeiten». Die Queue galt seit Run 79 als
+  T1-T8 vollständig abgearbeitet; ein Abgleich des aktuellen Ordnerbestands (234 Dateien) gegen
+  den Queue-Kopf (243 Dateien, Stand 03.08.2026) deckte fünf bislang nicht erfasste Objekte auf
+  (`13 Verfügungen/`, `14 Liegenschaftsentwaesserung/`, ein zweiter Fund in `Anrechenbares
+  Untergeschoss Abgrabunge/`, zwei lose Dateien) — neu als Batch T9 definiert und abgearbeitet.
+- **Wertvollster Fund:** `Anrechenbares Untergeschoss Abgrabunge/Hoi Stefan.docx`, Raphaels
+  eigene authentische Erklärung an einen Bauherren-Partner (Echo-Schutz Gold): «Zu viel Abgraben
+  macht aus einem Untergeschoss ein Vollgeschoss.» Die Kausalkette war im Wiki bereits in
+  Einzelteilen vorhanden (§ 293 Abs. 1 PBG Freilegungsgrenze 1,5 m über gestaltetem Boden,
+  § 276 Abs. 1/2 PBG Anrechenbarkeits-Zählung zur Vollgeschosszahl, Art. 6 Abs. 5 BZO Thalwil
+  Freilegungsflächen-Deckel), aber nie explizit verknüpft — alle drei Fundstellen einzeln gegen
+  `raw/260607_amtlich_zh_pbg.md` und `raw/260607_amtlich_zh_bzo-thalwil.md` wortlautverifiziert.
+  Neu in [[abstaende-und-hoehen]] als Sektion «Praxisfolge einer zu weiten Abgrabung» ergänzt.
+- **Übrige T9-Funde ohne Wiki-Zuwachs:** `IMG_0316.jpeg` (Art. 24/25 BZO Thalwil) CONFIRMED
+  bereits vollständig im Bestand; `_BZO Revision Abstimmung.docx` (Link) bestätigt die bereits
+  geführten Abstimmungswerte (14.06.2026, 78,81 %) ohne neue Information; `WDV_700.211`
+  Wärmedämmvorschriften und die geomorphologische Landeskarte sind kein Baurecht i.e.S. — kein
+  Ingest, Ersteres mit Routing-Hinweis für `wissen/energie`.
+- **Nummerierungs-Hinweis:** Der Bericht läuft als Run 87, weil Run 86 beim Schreiben bereits
+  durch einen zeitgleich aktiven, anderen Prozess an derselben KB belegt war
+  ([[baureife-und-erschliessung]]-Re-Verifikation). Vor jedem Schreibvorgang wurde der
+  Frischestand von CHANGELOG und Queue-Datei per SSH erneut geprüft.
+- **Register:** `wiki/abstaende-und-hoehen.md` (neue Sektion, Frontmatter nachgeführt),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (T9-Zeile + Detailabschnitt, Fazit auf T1-T9
+  präzisiert), Report `outputs/2026-08-23_buch-run87.md`.
+- **Diff-Kontrolle (Rule 260811):** nach jedem Schreibvorgang `git diff --numstat` nativ per SSH
+  (Synology, kein SMB-git) geprüft — `abstaende-und-hoehen.md` 26+/3−, Queue-Datei 40+/1−, beide
+  rein additiv, keine ungewollte Löschung.
+
 ## 2026-08-23 — Buch-Run 86: Modell-D-Re-Verifikation [[baureife-und-erschliessung]] — §§ 233-237 PBG CONFIRMED, falsche Fundstelle «§ 232 PBG / Art. 11 GSchG» für die Trennsystem-Pflicht korrigiert (Phase 3, Fortsetzung nach Run 85)
 
 - **Ausgangslage:** Reglemente-Queue 2414 Thalwil (T1-T8) bleibt seit Run 79 vollständig

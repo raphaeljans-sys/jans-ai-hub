@@ -1,3 +1,135 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 9: Dateiname/Inhalt-Mismatch bei `vkf-merkblatt-brandschutzklassifikation-bauteile.md` aufgeklärt
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage (Norm, Ausgabe, Ziffer), Verifikationsstatus des Destillats vor Zitat lesen. Vorlauf
+gelesen: dieser CHANGELOG (Kopf: QUESTIONS-Abarbeitung 8) und
+`outputs/2026-08-23_questions-abarbeitung8.md`. Zwei weitere `claude`-Prozesse derselben Station
+liefen echt parallel an derselben KB (`ps aux` geprüft: ein zweiter, eigenständiger
+QUESTIONS-Abarbeitungs-Prozess und ein SIA-Sweep-Prozess) — unterschiedlicher Themenzweig
+gewählt, um Kollision zu vermeiden.
+
+**Ausgangslage:** Die meisten in `wiki/QUESTIONS.md` sichtbaren offenen Punkte waren nach acht
+QUESTIONS-Abarbeitungen und dreizehn SIA-Sweep-Fortsetzungen desselben Tages bereits geschlossen
+oder ausdrücklich auf Raphael/Kaufentscheide vertagt (N60-1 Duplikat-Merge, N60-2
+Methodik-Pflicht-Vorschlag, NIN-Frage hinter Bezahlschranke). Ein Punkt blieb tragfähig offen und
+ohne SharePoint-Volltext-Zugriffsproblem lösbar: der seit 13.07.2026 offene Verdacht «Dateiname
+passt nicht zum Inhalt» bei `vkf-merkblatt-brandschutzklassifikation-bauteile.md`
+(Quelle laut Frontmatter `Brandschutz-Praevention.pdf`, Inhalt aber eine
+Bauteil-Klassifikationstabelle).
+
+**Befund: kein Mismatch.** `Brandschutz-Praevention.pdf` am Original beschafft — Site `PL`,
+Drive `02_Recht_Norm` via M365-Graph-Connector aufgelöst (`--site pl`, `--get
+/sites/<id>/drives`), Datei über `@microsoft.graph.downloadUrl` per `curl` geladen (52 369 Byte,
+1 Seite), mit `pdftotext -layout` vollständig gelesen. Die Kopfzeile des Blatts trägt den
+Serien-/Herausgeber-Brand **«Brandschutz + Prävention» / «Merkblatt»** der herausgebenden
+regionalen Fachstellen (NSV, Gebäudeversicherung Luzern, Kt. Schwyz, Kt. Obwalden, Kt. Uri) —
+erst darunter folgt der eigentliche Inhaltstitel «Brandschutz-Klassifikation von häufig
+verwendeten Bauteilen». Die PDF-Metadaten (`pdfinfo`) bestätigen das unabhängig: `Title:
+Merkblatt_Klassifikation Bauteile_V.1`. Der Dateiname stammt also vom Serien-Brand des
+Dokuments selbst, nicht von einer Fehlablage; die Tabelle im Original deckt sich Zeile für
+Zeile mit dem Destillat (REI/EI/R/E-Klassen, Kapselungsregel K 30-RF1, Brandschutzabschlüsse
+EI 30/E 30).
+
+**Zweite Teilfrage mitgeprüft:** Ob `Brandverhuetung & organisatorischer Brandschutz.pdf`
+(Quelle von `vkf-brl-12-15-brandverhuetung-organisatorischer-brandschutz.md`) und
+`Brandschutz-Praevention.pdf` in Wahrheit dieselbe Datei sind. Ordnerlisting des SharePoint-
+Ordners `VKF_Norm/02_Brandschutzrichtlinien 2015` (`--get .../children`) bestätigt: beide
+Dateinamen existieren dort unabhängig nebeneinander — zwei verschiedene PDFs, kein Merge-Fall.
+
+Nachgeführt: `destillate/vkf-merkblatt-brandschutzklassifikation-bauteile.md` (additiver Absatz
+in «Offene Punkte», `last_updated` auf 2026-08-23 gesetzt), `wiki/QUESTIONS.md` (Eintrag mit
+✅-Schliessung versehen, Ursprungswortlaut unangetastet als durchgestrichene Zeile darunter
+stehen gelassen, Rule `wissens-bibliothekar` — kein Löschen).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft —
+`destillate/vkf-merkblatt-brandschutzklassifikation-bauteile.md` 12/1 (rein eigener Edit,
+1 Löschzeile ist die bewusste `last_updated`-Ersetzung). `wiki/QUESTIONS.md` zeigte beim zweiten
+Edit 37/1 statt der erwarteten ~17/1 — per `git diff` (nicht nur `--numstat`) gegengelesen: der
+zusätzliche Block (23 Zeilen, SIA-500-Korrigenda C1/C2) stammt nachweislich vom parallel
+laufenden SIA-Sweep-Prozess («dreizehnte Fortsetzung», eigener Datei-Hunk an anderer Stelle,
+Zeile ~4054), keine Überschneidung mit der eigenen Bearbeitungsstelle. Kein `git`-Schreibbefehl
+über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / weiterhin offen:** Die Nachbar-Teilfrage in der alten Sammel-Notiz (Zeile
+~3393, «Verify-Abschluss MacBook») zur K-30-RF1-Definition (bisher nur sinngemäss aus BSR 13-15,
+speculative) ist NICHT mitgeklärt — dafür wäre das BSR-13-15-Original selbst
+(`Baustoff & Bauteile.pdf`) nötig, nicht nur das Merkblatt. N60-1/N60-2 unverändert bei Raphael;
+NIN-Frage unverändert hinter Bezahlschranke.
+
+**Selbstkorrektur während dieses Laufs (Beleg für Rule 260811):** Der erste Schreibversuch dieses
+CHANGELOG-Eintrags hat versehentlich die Kopfzeile des direkt darüberliegenden, fremden Eintrags
+(«SIA-Sweep, dreizehnte Fortsetzung») gelöscht — `old_string` traf nur die Kopfzeile, `new_string`
+gab sie nicht zurück, wodurch deren Fliesstext kopflos hinter meinem eigenen Eintrag stand.
+Sofort per `git diff --numstat` bemerkt (121/0 statt der erwarteten ~48/0) und mit `git diff`
+(nicht nur `--numstat`) lokalisiert; die Kopfzeile wurde im selben Lauf wortgleich wiederhergestellt
+und mit einem `---`-Trenner sauber von diesem Eintrag abgegrenzt. Kein Inhalt des fremden Laufs
+ging verloren, nur die Kopfzeile war kurzzeitig weg. Lehre: bei additiven Edits an Dateien mit
+gleichzeitig aktiven Parallelläufen `old_string` niemals auf eine alleinstehende Kopfzeile ohne
+Kontext davor/danach beschränken, wenn `new_string` sie nicht selbst wieder mit ausgibt.
+
+---
+
+## 2026-08-23 — SIA-Sweep, dreizehnte Fortsetzung: SIA 500 Korrigenda C1:2009/C2:2011 am Original ausgewertet, Fehlzuschreibung an Ziff. 3.7.2/9.5.1 korrigiert
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und `wissens-bibliothekar`
+beachten, jede Aussage belegen, nichts raten. Vorlauf gelesen: dieser CHANGELOG (Kopf: zwölfte
+Fortsetzung) und `outputs/2026-08-23_sia-sweep-zwoelfte-fortsetzung.md`.
+
+Die zwölfte Fortsetzung hatte drei Zweige des Sweeps als erschöpft vermerkt und empfohlen, gezielt
+nach Register-/QUESTIONS-Einträgen mit nur sekundär belegter Bring-Schuld zu suchen. Fündig
+geworden bei einem bereits konkret formulierten, noch offenen Auftrag: `wiki/QUESTIONS.md`,
+Eintrag «Wissens-Chef Run 19» (28.07.2026), hatte C3:2013 und C4:2019 am 23.08.2026 (siebter
+QUESTIONS-Lauf) vollständig ausgewertet, C1:2009 und C2:2011 aber ausdrücklich «unverändert offen
+(nur sekundär über `sia-500-auslegung.md`, Stand April 2012, belegt)» stehen lassen — mit dem
+expliziten Auftrag im vorausgehenden Text: «danach C1/C2 im Volltext beschaffen».
+
+**Direktprüfung 23.08.2026:** Produktseite `shop.sia.ch/normenwerk/architekt/sia%20500/d/D/Product`
+bestätigt nur eine Ausgabe 2009 (eine WebSearch-Zusammenfassung hatte fälschlich eine 2./3. Auflage
+suggeriert — am Original widerlegt, nicht übernommen). C1 (76'368 Bytes) und C2 (85'747 Bytes, per
+Kolophon als deutsche Fassung bestätigt trotz `/F/`-Suffix in der URL) über
+`shop.sia.ch/…/DownloadAnhang` (Preisgruppe 0, kostenlos) geladen und vollständig mit
+`pdftotext -layout` gelesen (6 bzw. 5 Seiten).
+
+**Materiell wichtigster Fund:** Ziff. 10.2.1 lässt seit C2:2011 für **Kleinwohnungen mit einem
+einzigen Sanitärraum 3,60 statt 3,80 m²** Nutzfläche zu (bisher unbedingt 3,80 m²). Weitere
+nachgeführte Korrekturen: Ziff. 3.3.1.2/9.2.2 (Terminologie), 3.5.2/3.5.3.1 (Podest-Formel,
+C1+C2 zweistufig), 4.4/D.1.4 (Lichtnorm-Vorstufe zu C3), 9.2.3/9.2.4 (C2 streicht die alte 9.2.4
+ersatzlos, C3 vergibt dieselbe Nummer später neu — nicht verwechseln), 9.3.2, 10.1.1, 11.2, 11.5.
+
+**Fehlzuschreibung korrigiert:** die Korrektur «Kabinentüren→Schachttüren» an Ziff. 3.7.2/9.5.1
+stand im Destillat bisher allein bei C3:2013. Der C1-Volltext zeigt: dieselbe Korrektur steht
+bereits wortgleich in C1:2009 — beide Korrigenda-PDFs zitieren identisch «Kabinentüren» in der
+«bisher»-Spalte, was nur Sinn ergibt, wenn jedes Korrigendum gegen die ursprüngliche 1. Auflage
+2009-01 difft, nicht kumulativ gegen den zuletzt korrigierten Stand. Für die Zitierpraxis ändert
+das nichts, wohl aber für die korrekte Fundstellen-Angabe — als Methodik-Hinweis für künftige
+SIA-Korrigenda-Läufe im Destillat vermerkt.
+
+Nachgeführt: `destillate/sia-500-2009.md` (Frontmatter + sieben Kernziffern-Bullets + Offene
+Punkte), `wiki/REGISTER.md` (SIA-500-Zeile + neue FRISCH-GEMELDET-Zeile), `wiki/QUESTIONS.md`
+(additiver Abschluss-Nachtrag am bestehenden Run-19-Eintrag).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft. `destillate/sia-500-2009.md`:
+ein Teil der Edits wurde zwischen den Schreibvorgängen bereits vom nativen `nas-selfcommit`
+(`d1b0643e`, 20:15) gesichert — per `git show HEAD:… | grep` verifiziert, dass die früheren Edits
+vollständig in HEAD enthalten sind, kein Verlust. `wiki/REGISTER.md`: 2/1, exakt eigene Edits.
+`wiki/QUESTIONS.md`: 23/0, rein additiv; Datei war zwischen Lesen und Schreiben von einem
+parallelen Prozess derselben Station verändert worden (eigener QUESTIONS-Abarbeitungs-Lauf, kein
+Konkurrent), Edit hat sauber angewandt, keine Fremdlöschung im Diff. Kein `git`-Schreibbefehl über
+den SMB-Mount.
+
+**Nicht geleistet:** Anhang B/C/D/F/G/H der Basisausgabe weiterhin nicht vollständig gelesen,
+dadurch «Kleinwohnung» (C2, Ziff. 10.2.1) norm-intern nicht definiert und ein Doppelbefund
+Anhang A.8.6 (C2, Hallen-/Freibäder-Handlauf) vs. A.8.7 (C3, Fluss-/Seebäder-Handlauf, identische
+Masszahl 0,60-0,65 m) nicht am vollständigen Anhang-A-Text verifiziert — beide als offene Punkte
+im Destillat vermerkt. Die drei bereits erschöpften Sweep-Zweige (Register-Vervollständigung,
+Blindzone, N-SIASWEEP-2/3) nicht erneut angegangen.
+
+Report: `outputs/2026-08-23_sia500-korrigenda-c1-c2-vollstaendig.md`.
+
+---
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 8: N-R40-1/N-R40-2 (Aufzugs-Cluster) über öffentliche Behörden-/Verbandsquellen geschlossen
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

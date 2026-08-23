@@ -1,8 +1,13 @@
 ---
 title: Abstände und Höhen — Kanton Zürich
 status: established
-last_updated: 2026-08-23c
-verifiziert: 2026-08-23c (Buch-Run 84, Phase 3: Zusatzbefund «26.01.2026 Fristverlängerung
+last_updated: 2026-08-23d
+verifiziert: 2026-08-23d (Buch-Run 87, Korpus-Queue Batch T9: neu aufgetauchte Restdateien im
+Reglemente-Ordner 2414 Thalwil geprüft. Neue Sektion «Praxisfolge einer zu weiten Abgrabung»
+ergänzt — Kausalkette § 293 PBG → § 276 PBG → Art. 6 Abs. 5 BZO Thalwil, Quelle Raphaels eigene
+authentische Bauherren-Erklärung, gegen `raw/260607_amtlich_zh_pbg.md` und
+`raw/260607_amtlich_zh_bzo-thalwil.md` wortlautverifiziert. Bericht
+`outputs/2026-08-23_buch-run87.md`.) — vorher: 2026-08-23c (Buch-Run 84, Phase 3: Zusatzbefund «26.01.2026 Fristverlängerung
 29.02.2028» im Abschnitt Harmonisierungsvorlage aufgeklärt — Quellenverwechslung mit dem
 Mehrwertausgleichsgesetz [MAG], nicht der IVHB-Baubegriffe-Harmonisierung; Primärquellen zh.ch
 und HEV Kanton Zürich live geprüft. IVHB-Fristverlängerung selbst weiterhin unbeschlossen.
@@ -13,7 +18,7 @@ ergänzt (Art. 738 ZGB, Buch Bd 2 Kap. 22.9.3, S. 1534 — echte Lücke, bislang
 («Anrechenbares Untergeschoss»-Screenshot) und § 260 Abs. 3 (alt/Anhang, «Vordach»-Screenshots)
 gegen Bestand CONFIRMED, keine Textänderung nötig — beide bereits seit Buch-Run 31/32 verifiziert.
 Bericht `outputs/2026-08-23_buch-run77.md`.) — vorher: 2026-07-27 (Buch-Run 59, Festigungsmodus Prioritaet a: Cross-KB-Flag Wissens-Chef Run 16/energie-KB geschlossen — § 260 Abs. 4 PBG [Minibau, 1,5 m/2 m², vollstaendig abstandsfrei, bereits geltender Hauptteil] war in diesem Artikel bislang gar nicht enthalten, nur in [[gebaeudearten-und-abstandssystem]] und der Harmonisierungs-Sektion weiter unten; jetzt explizit im Hauptabschnitt «Grenzabstand» ergaenzt und klar von der «Besonderes Gebaeude»/§ 273-Erleichterung [4 m/5 m, nur reduzierter Gebaeudeabstand] abgegrenzt. Gegen raw/260607_amtlich_zh_pbg.md Z. 2747-2748 [§ 260 Abs. 4, harmonisiert] und Z. 1272-1274 [§ 2 Abs. 2 ABV, Anhang] wortlautverifiziert. 0 Halluzinationen, 1 echte Luecke geschlossen, kein Fehler in bestehendem Text); 2026-07-17 (Buch-Run 47, Modell-D Nachlauf Gewaesserraum: Fliesstext Art. 41a/41b GSchV erneut CONFIRMED — kein Aenderungsbedarf hier; die Divergenz lag in der Kennzahlen-Tabelle des Destillats [[15-lage-von-gebaeuden]], dort korrigiert); 2026-07-13 (Modell-D-Volltextabgleich adversarial § 282/§ 284/§ 292/§ 293 PBG + § 28/§ 30 ABV gegen raw/260607_amtlich_zh_pbg.md + raw/260607_amtlich_zh_abv.md, beide Fassungen Haupt-/Anhangteil geprueft: Hochhaus-Schwelle 25 m, Dachaufbauten 1/2 harmonisiert vs. 1/3 alt, Freilegung UG 1,5 m, Schattenwurf 3 Std. alle CONFIRMED; § 28 ABV „≤ 0,5 m"-Regel als Gerichtspraxis statt Gesetzeswortlaut praezisiert) — vorher: 2026-07-13 (Querverweis-Aktualisierung nach Modell-D-Verifikation von [[geschosse-und-kniestock]], Buch-Run 33) — vorher: 2026-07-12 (Modell-D §§ 278-293 PBG, Buch-Run 32; zusaetzlich Modell-D Art. 41a/41b GSchV gegen raw/260712_amtlich_ch_gschv.md, Buch-Run 32 — Gewaesserraum-Schwellen als zwei Absaetze bestaetigt, kein Widerspruch) — vorher: 2026-07-12 (Modell-D-Volltextabgleich §§ 269-274/292 gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 31 — Fassungsstand harmonisiert=geltend korrigiert, § 273/§ 292 Doppelwerte)
-sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 28 Abs. 1/2/3 ABV", "§ 28 Abs. 1/2 ABV alt", "§ 30 Abs. 1 lit. a/b ABV", "§ 2c ABV", "VB.2005.00519", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "§ 260 Abs. 4 PBG", "§ 2 Abs. 2 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md", "Merkblatt über die Messweise im Zusammenhang mit Neu- oder Umbauten, Gemeinde Thalwil DLZ Bau Energie und Umwelt, Stand 20.01.2022", "Art. 738 ZGB", "Buch Bd 2 S. 1534 (Kap. 22.9.3)"]
+sources: [260602_docs-baurecht-begriffe.md, 260602_docs-baurecht-pbg-zh.md, "§§ 260-274 PBG", "§ 260 Abs. 1/3 PBG", "§ 262 PBG", "§ 269 PBG", "§ 270 Abs. 1/2/3 PBG", "§ 271 PBG", "§ 272 PBG", "§ 273 PBG", "§ 49 Abs. 2 lit. b PBG", "§ 49 Abs. 3 PBG", "§ 253a PBG", "§ 218 Abs. 2 PBG", "§ 220 PBG", "§ 275 Abs. 1/3/4 PBG", "§ 275 Abs. 3 PBG alt", "§ 276 PBG", "§ 278 Abs. 1/2 PBG", "§ 278 Abs. 1/3 PBG alt", "§ 279 Abs. 1/2 PBG", "§ 279 Abs. 1 PBG alt", "§ 280 Abs. 1/2/4 PBG", "§ 280 Abs. 1 PBG alt", "§ 281 PBG", "§ 281 PBG alt", "§ 282 PBG", "§ 282 PBG alt", "§ 283 PBG (aufgehoben)", "§ 284 PBG", "§ 21 Abs. 1 ABV", "§ 22 Abs. 2 ABV", "§ 23 Abs. 1 ABV", "§ 24 ABV", "§ 27 ABV", "§ 28 ABV", "§ 29 ABV", "§ 30 Abs. 1 lit. a/b ABV", "§ 33a ABV", "§ 5 lit. l BVV", "Art. 17 WaG", "§ 66 Abs. 2 PBG", "Art. 36a GSchG", "Art. 41a GSchV", "Art. 41b GSchV", "Art. 680 Abs. 2 ZGB", "§ 14 ABV", "§ 292 PBG", "§ 292 PBG alt", "§ 293 Abs. 1/2/4 PBG", "§ 28 Abs. 1/2/3 ABV", "§ 28 Abs. 1/2 ABV alt", "§ 30 Abs. 1 lit. a/b ABV", "§ 2c ABV", "VB.2005.00519", "§ 6 nABV", "§ 6a nABV", "§ 6b nABV", "§ 6c nABV", "§ 6d nABV", "§ 7 nABV", "§ 2a nABV", "§ 260 nPBG", "§ 269 nPBG", "§ 273 nPBG", "§ 100 nPBG", "§ 260 Abs. 4 PBG", "§ 2 Abs. 2 ABV", "Buch Bd 2 S. 995-1013", "Buch Bd 2 S. 1062-1085", "Buch Bd 2 S. 1086-1111", "Buch Bd 2 S. 1124-1133", "Buch Bd 2 S. 1194-1229", "raw/260712_amtlich_ch_gschv.md", "Merkblatt über die Messweise im Zusammenhang mit Neu- oder Umbauten, Gemeinde Thalwil DLZ Bau Energie und Umwelt, Stand 20.01.2022", "Art. 738 ZGB", "Buch Bd 2 S. 1534 (Kap. 22.9.3)", "§ 276 Abs. 1/2 PBG", "Art. 6 Abs. 5 BZO Thalwil", "raw/260607_amtlich_zh_bzo-thalwil.md"]
 links: [[gebaeudearten-und-abstandssystem]], [[baulinien-und-abstandslinien]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2c]], [[15-lage-von-gebaeuden-teil2d]], [[15-lage-von-gebaeuden-teil3-harmonisierung]], [[16-gebaeudedimensionen-teil2-hoehen-dach]], [[16-gebaeudedimensionen-teil3-umgebung]], [[kap16-10_gebaeudedimensionen-harmonisierung]], [[nutzungsziffern]], [[baubewilligungsverfahren]], [[zonenkonformitaet]], [[geschosse-und-kniestock]]
 ---
 
@@ -390,6 +395,24 @@ Buchsynthese: [[16-gebaeudedimensionen-teil3-umgebung]] (Bd 2, S. 1194-1229).
   das *gewachsene*** — bei Hanglagen auseinanderhalten. Die Gemeinde kann die Freilegung von
   Untergeschossen näher regeln, auch strenger (§ 293 Abs. 4 PBG; z.B. 1,0 m in Küsnacht).
   → Hangbauten/Terrainführung: Skill `massgebendes-terrain`.
+- **Praxisfolge einer zu weiten Abgrabung: aus dem Untergeschoss wird ein Vollgeschoss**
+  (Musterfall Thalwil, Reglemente-Queue T9, Buch-Run 80, 23.08.2026, Quelle: Raphaels eigene
+  Bauherren-Erklärung, authentisch, Echo-Schutz-Klasse Gold). Die Kausalkette, bislang nur in
+  Einzelteilen im Wiki verstreut: (1) das **gestaltete** Terrain ist die Bezugsebene für die
+  Freilegungsgrenze **§ 293 Abs. 1 PBG** (1,5 m), nicht die Gebäudehöhe selbst — diese bleibt
+  unverändert, weil sie ab **gewachsenem** Boden (§ 280 PBG) gemessen wird. (2) Wird bei der
+  Umgebungsgestaltung so weit abgegraben, dass das gestaltete Terrain gegenüber dem
+  ursprünglichen Bezugspunkt sinkt, ragt das Untergeschoss stärker über diese abgesenkte
+  Ebene hinaus und überschreitet die 1,5-m-Schwelle — es verliert damit seinen Status als
+  **nicht anrechenbares** Untergeschoss. (3) Ein **anrechenbares** Untergeschoss zählt gemäss
+  **§ 276 Abs. 1/2 PBG** («Als Geschosse zählen Voll-, Dach-, Attika- und Untergeschosse …») zur
+  **Vollgeschosszahl** und kann deren zulässiges Maximum überschreiten. In Thalwil verschärft
+  sich das Risiko zusätzlich durch **Art. 6 Abs. 5 BZO** (Freilegung von anrechenbaren
+  Untergeschossen auf den halben Gebäudeumfang beschränkt) — die Gemeinde begrenzt hier
+  zusätzlich die Freilegungs**fläche**, unabhängig von der Höhenfrage nach § 293 PBG. Beide
+  Mechanismen sind gegen `raw/260607_amtlich_zh_pbg.md` (§§ 276, 293) und
+  `raw/260607_amtlich_zh_bzo-thalwil.md` (Art. 6 Abs. 5) wortlautverifiziert, die Verknüpfung
+  selbst ist neu und schliesst eine Lücke zwischen den bereits einzeln bestehenden Fundstellen.
 - **Gewachsener Boden — Bezugspunkt-Bestimmung (kommunale Vollzugshilfe, Musterfall Thalwil,
   Buch-Run 76, 23.08.2026):** Für nicht harmonisierte Gemeinden (→ gewachsener Boden statt
   massgebendes Terrain, siehe Run 74) klärt Thalwils Merkblatt über die Gebäudehöhen-Messweise
