@@ -3955,6 +3955,16 @@ einzeln geprüft:
   folgt: die geltende Fassung ist im Bestand nicht vorhanden. 16 Seiten, CHF 30.-, SIA-Shop
   (shop.sia.ch/normenwerk/ingenieur/266-1_2015_d). Bis zur Beschaffung ist die Prüf-/
   Deklarationsnorm zu SIA 266 nur in der überholten 2003er-Fassung belegt.
+- [~] **TEIL (1) GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung).** Aktualität von SIA 400:2000
+  gegen den suissetec-Hinweis geprüft: `shop.sia.ch/normenwerk/architekt/400_2000_d/D/Product`
+  (`curl -A "Mozilla/5.0"`, Abruf 23.08.2026) führt SIA 400 D-400, Jahr 2000, gültig ab
+  01.10.2000, **Revision 1, Revisions-Datum 18.08.2015** — die Produktseite listet nur einen
+  Vorgänger (1985), keinen Nachfolger. SIA 400:2000 (Rev. 1/2015) bleibt damit die aktuell
+  gültige Ausgabe für die Aussparungsdarstellung; nachgetragen in
+  `destillate/sia-400-2000.md`, Abschnitt «Offene Punkte». **Teil (2) bleibt offen** — die
+  suissetec-Planungsrichtlinien (Heizung, Lüftung/Klima, Sanitär) sind weiterhin nicht im
+  Bestand und nicht in dieser KB erschlossen; Beschaffung über den suissetec-Shop bleibt
+  Bring-Schuld.
 - [ ] **NEU 23.08.2026 — BRING-SCHULD P2 — Nachfolgewerke des zurückgezogenen SIA 410/410-1/2
   beschaffen.** Aus dem Web-verifizierten Rückzug (siehe oben) folgt Bedarf an zwei
   Nachfolgequellen: (1) **SIA 400 «Planbearbeitung im Hochbau»** für die Aussparungsdarstellung
@@ -3964,6 +3974,7 @@ einzeln geprüft:
   Ordner/E-Books im suissetec-Shop erhältlich, bisher nicht im Bestand und nicht in dieser KB
   erschlossen. Niedrigere Priorität als die SIA-266/1-Bring-Schuld, da SIA 410 nur Empfehlungscharakter
   hatte und die JANS-Praxis bereits grösstenteils auf Fachplaner-eigene Pläne abstellt.
+  *(Ursprungswortlaut, Teil 1 seither geschlossen — siehe Eintrag direkt darüber.)*
 - [ ] **P2 — SIA-Merkblatt 2048 «Energetische Betriebsoptimierung» ins Inventar aufnehmen.**
   *Eingegangen ueber den Wissens-Chef Run 8 (18.07.2026).* Die KB `energie` hat die Uebergabe
   («Kandidat fuer den Skill/die KB `normen`») in `destillate/muken-2025-modul-7-betriebsoptimierung-hlkkse.md`
