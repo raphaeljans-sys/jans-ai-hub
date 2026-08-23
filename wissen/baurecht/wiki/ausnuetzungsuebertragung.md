@@ -1,14 +1,18 @@
 ---
 title: Ausnützungsübertragung — Kanton Zürich
 status: established
-last_updated: 2026-07-25
-sources: ["§ 251 PBG", "§ 254 PBG", "§ 259 PBG", "§ 72 Abs. 3 PBG", "§ 17 ABV (aufgehoben seit 1.2.1992, keine Grundlage der Nutzweisen-Uebertragung)", "Art. 646 ZGB", "Buch Bd 2 Kap. 14.1.2.5 S. 928-935", "Buch Bd 2 Kap. 14.2.6 S. 987", "ZBl 1999 S. 218", "BGer 1P.256/2006", "BEZ 1996 Nr. 17", "Art. 40 BO Erlenbach", "Art. 6 BO Zürich", 260607_amtlich_zh_abv.md]
+last_updated: 2026-08-23
+sources: ["§ 251 PBG", "§ 254 PBG", "§ 259 PBG", "§ 72 Abs. 3 PBG", "§ 17 ABV (aufgehoben seit 1.2.1992, keine Grundlage der Nutzweisen-Uebertragung)", "Art. 646 ZGB", "Buch Bd 2 Kap. 14.1.2.5 S. 928-935", "Buch Bd 2 Kap. 14.2.6 S. 987", "ZBl 1999 S. 218", "BGer 1P.256/2006", "BEZ 1996 Nr. 17", "Art. 40 BO Erlenbach (amtlich, oerebdocs.zh.ch docid=7864, frisch bezogen 2026-08-23)", "Art. 6 BZO Zürich-Stadt (amtlich, oerebdocs.zh.ch docid=6, frisch bezogen 2026-08-23)", 260607_amtlich_zh_abv.md, 260607_amtlich_zh_bzo-erlenbach-zh.md, 260607_amtlich_zh_bzo-zurich-stadt.md]
 links: [[nutzungsziffern]], [[14-nutzungsdichte-ausnuetzung]], [[zonenkonformitaet]]
 verifiziert:
   - datum: 2026-07-25
     methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 55, Stichproben-Re-Verifikation (Prioritaet c, PROGRAMM.md)"
     umfang: "§ 17 Abs. 2 ABV (Nutzweisen-Uebertragung) gegen raw/260607_amtlich_zh_abv.md"
     ergebnis: "KORRIGIERT: § 17 ABV seit 1.2.1992 aufgehoben (RRB 25.9.1991), enthaelt keinen Abs. 2 - Fundstelle nicht bestaetigbar; Nutzweisen-Uebertragung beruht nach geltendem Recht ausschliesslich auf kommunalem Recht. Kernaussagen zur Ausnuetzungsuebertragung selbst (§ 251/§ 254/§ 259/§ 72 Abs. 3 PBG) unveraendert CONFIRMED"
+  - datum: 2026-08-23
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 92, Fortsetzung der Re-Verifikations-Kette (Vorschlag Run 91); Art. 40 BO Erlenbach und Art. 6 BZO Zuerich-Stadt frisch von oerebdocs.zh.ch bezogen (PyMuPDF, layout-treu) und gegen raw/ sowie den Wiki-Wortlaut gegengelesen"
+    umfang: "Zitat Art. 40 BO Erlenbach (Kommunaler Schwellenwert), Rechtsgrundlagen-Zuordnung § 254 vs. § 259 PBG, Zitat Art. 6 Abs. 3 BZO Zuerich-Stadt (Wohnanteil-Verlegung)"
+    ergebnis: "KORRIGIERT: das Wiki-Zitat von Art. 40 BO Erlenbach gab faelschlich eine direkte Grenznachbarschaft wieder - die amtliche Fassung verlangt nur raeumliche Naehe (deutlich weniger streng); zusaetzlich bestaetigt die amtliche Gemeinde-Wegleitung zu Art. 40 selbst '§ 259 Abs. 1 PBG' als kantonale Anknuepfungsnorm, nicht § 254 PBG (das im Hauptteil ohnehin nur Abschnittstitel ohne eigenen Absatz ist, siehe [[nutzungsziffern]] Run 55). CONFIRMED: Art. 6 Abs. 3 BZO Zuerich-Stadt (150 m/300 m-Verlegungsradius) trotz einer Absatz-Nummerierungsverschiebung in raw/260607_amtlich_zh_bzo-zurich-stadt.md wortgleich richtig zitiert."
 ---
 
 # Ausnützungsübertragung (Kanton Zürich)
@@ -18,6 +22,16 @@ einer Parzelle (belastet) auf ein benachbartes Grundstück (begünstigt), damit 
 **dichter bebaut** werden darf. Rechtsgrundlage: **§ 251 lit. a i.V.m. § 254 PBG**;
 Bezugsgrösse bleibt die massgebliche Grundstücksfläche **§ 259 PBG** (siehe
 [[nutzungsziffern]]). Quelle: Buch Bd 2 Kap. 14.1.2.5, S. 928-935.
+
+> **Präzisierung (Run 92, 23.08.2026, Modell-D-Volltextabgleich).** § 254 PBG ist im
+> heute geltenden Hauptteil nur noch **Abschnittstitel ohne eigenen Absatz** (siehe
+> [[nutzungsziffern]], Run 55) — trägt also keine eigene materielle Aussage zur
+> Übertragung. Die tragende **kantonale** Anknüpfungsnorm ist **§ 259 Abs. 1 PBG**
+> (massgebliche/anrechenbare Grundstücksfläche): die Gemeinde-Wegleitung zu Art. 40
+> BO Erlenbach nennt bei ihrer eigenen Ausnützungsübertragungs-Bestimmung selbst
+> «§ 259 Abs. 1 PBG» als Fundstelle (amtlich, frisch bezogen, s.u.). § 251 lit. a PBG
+> bleibt als Einordnung gültig (Ausnützung wird «durch Ziffern» festgelegt), § 254 PBG
+> ist dagegen kein eigenständiger Beleg mehr.
 
 ## Zwei harte Schranken
 
@@ -36,9 +50,20 @@ Bezugsgrösse bleibt die massgebliche Grundstücksfläche **§ 259 PBG** (siehe
 
 Konkrete kommunale Regelung (Beispiel, S. 932) — **Art. 40 BO Erlenbach**:
 > «Die Ausnützungsübertragung innerhalb der gleichen Zone ist gegen Revers gestattet,
-> wenn die betroffenen Grundstücke direkt aneinandergrenzen. Die Erhöhung der
+> wenn sich die betroffenen Grundstücke in räumlicher Nähe befinden. Die Erhöhung der
 > Ausnützung in den begünstigten Parzellen darf **ein Fünftel der Grundausnützung**
 > nicht übersteigen.»
+
+> **Korrektur (Run 92, 23.08.2026).** Frühere Fassungen dieses Artikels zitierten hier
+> «wenn die betroffenen Grundstücke **direkt aneinandergrenzen**». Das ist am amtlichen
+> Wortlaut **nicht haltbar**: der frisch von `oerebdocs.zh.ch` bezogene Volltext der BO
+> Erlenbach (docid=7864, Wegleitung und Begründung, zu Art. 40) verlangt **«räumliche
+> Nähe»**, keine direkte Grenznachbarschaft — ein spürbar **weniger strenger** Massstab.
+> Die kantonale Doktrin selbst verlangt ohnehin nur ein allgemeines Nähe-Erfordernis
+> (siehe Abschnitt oben, «Verbot der unerwünschten Bauverdichte»); die vorherige
+> Artikel-Fassung stand damit auch intern im Widerspruch zu sich selbst. Für die
+> JANS-Praxis relevant: eine Nachbarparzelle muss nach dieser Gemeindenorm **nicht**
+> an die begünstigte Parzelle angrenzen, um als Übertragungsquelle in Frage zu kommen.
 
 → Daumenwert **max. 1/5 (20 %) der Grundausnützung** — aber **kommunal**, nicht
 kantonal einheitlich. Das Bundesgericht (ZBl 1999 S. 218 f.) anerkennt **strengere**
@@ -87,6 +112,17 @@ infrage stellen. Beispiel **BO Zürich Art. 6 Abs. 3 (Wohnanteil):** «Die Wohnf
 des Gebäudes und innerhalb eines Kreises mit einem Radius von **150 m in der Kern- und von 300 m in den
 übrigen Zonen** verlegt werden. … Diese Beschränkung ist **vor Baubeginn im Grundbuch anzumerken**.»
 
+> **Fussnote (Run 92, 23.08.2026).** Die Absatz-Nummerierung von Art. 6 BZO Zürich-Stadt in
+> `raw/260607_amtlich_zh_bzo-zurich-stadt.md` ist an dieser Stelle durch die PDF-Extraktion
+> verschoben (die Fussnote «25» verschmilzt mit der Artikelnummer zu «Art. 625», der
+> Abs.-2-Marker fehlt sichtbar). Gegen den frisch von `oerebdocs.zh.ch` bezogenen Volltext
+> (docid=6, layout-treu via PyMuPDF) ist die Struktur eindeutig: Abs. 1 Grundsatz, Abs. 2
+> Dachgeschoss-Zweckbindung, **Abs. 3 die hier zitierte 150-m/300-m-Verlegung**, Abs. 4 Tabelle
+> Minimalwerte, Abs. 5 Kinderbetreuung, Abs. 6 Etappierung. Das Wiki-Zitat «Abs. 3» ist damit
+> **CONFIRMED**, obwohl die rohe Extraktion missverständlich ist — bei künftigen Zitaten aus
+> diesem Raw-Abschnitt nicht auf die dortigen Ziffern verlassen, sondern gegen den Wortlaut
+> gegenlesen.
+
 **Kein Mischrechnungsverbot als eigene Doktrin:** Ein «Mischrechnungsverbot» (Quervergütung
 verschiedener Nutzungsziffern) ist in Kap. 14 nicht als benannte Doktrin geregelt. Der Sache nach
 bindet jede Ziffer (AZ/BMZ/ÜZ/Grünflächenziffer) **eigenständig und abschliessend** (§ 251 PBG); die
@@ -100,8 +136,9 @@ einzigen zulässigen Verschiebungen sind die Ausnützungsübertragung und die Nu
   das ist ein **anderer** Hebel als die Ausnützungsübertragung und in Zürich über den
   150-m-/300-m-Radius (BO Art. 6) verfügbar. Grundbuch-Anmerkung vor Baubeginn.
 - Eine «kaufbare» Ausnützungsreserve auf der Nachbarparzelle ist **nur** verwertbar,
-  wenn sie in **derselben Zone** liegt und **direkt angrenzt** — sonst scheitert sie an
-  § 72 Abs. 3 PBG.
+  wenn sie in **derselben Zone** liegt und in **räumlicher Nähe** (nicht zwingend
+  direkt angrenzend, konkrete Schwelle nach kommunalem Recht, siehe Korrektur oben) —
+  sonst scheitert sie am allgemeinen Nähe-Erfordernis bzw. an § 72 Abs. 3 PBG.
 - Vor jeder Annahme: konkrete **BZO/BO der Gemeinde** prüfen (gibt es überhaupt eine
   Übertragungsregelung? welche Obergrenze?). Fehlt eine kommunale Norm, greift nur das
   allgemeine Nähe-/Verdichtungsverbot.

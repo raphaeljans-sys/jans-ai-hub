@@ -3,6 +3,40 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 92: [[ausnuetzungsuebertragung]] re-verifiziert — Zitat Art. 40 BO Erlenbach korrigiert («direkt aneinandergrenzen» → amtlich «räumliche Nähe»), Rechtsgrundlage auf § 259 statt § 254 PBG präzisiert
+
+- **Fortsetzung der Phase-3-Re-Verifikationskette** (Vorschlag Run 90/91): [[ausnuetzungsuebertragung]]
+  war neben [[nutzungsziffern]] das viertälteste `verifiziert`-Datum (2026-07-25) unter den
+  `established`-Artikeln. Modell-D-Volltextabgleich gegen frisch von `oerebdocs.zh.ch` bezogene
+  amtliche Volltexte (Art. 40 BO Erlenbach docid=7864, Art. 6 BZO Zürich-Stadt docid=6;
+  Extraktion via PyMuPDF/`fitz`, da `pdftotext` auf dieser Station nicht installiert ist).
+- **Korrektur 1 (materiell):** Der Artikel zitierte Art. 40 BO Erlenbach bisher mit «wenn die
+  betroffenen Grundstücke **direkt aneinandergrenzen**». Der amtliche Wortlaut (Wegleitung und
+  Begründung zu Art. 40) verlangt nur, dass «sich die betroffenen Grundstücke **in räumlicher
+  Nähe** befinden» — ein spürbar weniger strenger Massstab (keine Grenznachbarschaft nötig). Der
+  Fehler war zweifach im Artikel propagiert (Zitatblock + «Anwendungs-Transfer JANS»-Abschnitt),
+  beide Stellen korrigiert; die Artikel-Fassung stand damit auch intern im Widerspruch zum
+  bereits vorhandenen allgemeinen Nähe-Erfordernis im Abschnitt «Verbot der unerwünschten
+  Bauverdichte».
+- **Korrektur 2 (Rechtsgrundlage):** Die amtliche Gemeinde-Wegleitung zu Art. 40 BO Erlenbach
+  nennt selbst **«§ 259 Abs. 1 PBG»** als kantonale Anknüpfungsnorm. Der Artikel führte bisher
+  «§ 251 lit. a i.V.m. § 254 PBG» als Rechtsgrundlage — § 254 PBG ist im heute geltenden
+  Hauptteil aber nur Abschnittstitel ohne eigenen Absatz (bereits in [[nutzungsziffern]], Run 55,
+  festgestellt, hier erstmals auf die Ausnützungsübertragung selbst angewendet). Neue Präzisierung
+  im Artikel ergänzt, ohne die bestehenden Quellenangaben zu löschen.
+- **CONFIRMED trotz Extraktions-Fussfalle:** Die Zuordnung «Art. 6 **Abs. 3** BZO Zürich-Stadt»
+  für die 150-m/300-m-Wohnflächen-Verlegung ist richtig, obwohl die Absatz-Nummerierung im
+  bestehenden `raw/260607_amtlich_zh_bzo-zurich-stadt.md` an dieser Stelle durch die
+  PDF-Extraktion verschoben ist (Fussnote 25 verschmilzt mit der Artikelnummer zu «Art. 625», der
+  Abs.-2-Marker fehlt sichtbar). **Kein Raw-Edit** (Rule `wissens-bibliothekar`: raw/ wird nie
+  editiert) — stattdessen eine Fussnote im Wiki-Artikel gesetzt, die vor der rohen Nummerierung
+  an dieser Stelle warnt.
+- **Kein neuer `raw/`-Volltext, kein Statuswechsel** (bleibt `established`). Frontmatter
+  `sources`/`verifiziert` von [[ausnuetzungsuebertragung]] ergänzt (additiv). Diff nativ per SSH
+  auf der Synology (LAN-IP `192.168.1.10`, Tailscale-Hostname aus dieser Session nicht
+  auflösbar) geprüft: `+42/-5` auf `wiki/ausnuetzungsuebertragung.md`, rein additiv/ersetzend,
+  keine unerwartete Löschung. Report `outputs/2026-08-23_buch-run92.md`.
+
 ## 2026-08-23 — Buch-Run 91: GG-Lücke aus Run 85 geschlossen — §§ 38-52 + 170-171 Gemeindegesetz frisch bezogen, [[baubewilligungsverfahren]] korrigiert (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»)
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die

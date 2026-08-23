@@ -3985,7 +3985,10 @@ durchfuehrbar.
   Tabelle (flach ~15° = 90-95 %, steil 45° = ~83-85 %); die Checkbox blieb stehen geblieben.
 
 - [ ] **E-R149-4 (P2, Betrieb): die Voraussetzungszeile der Task ist weiterhin sachlich falsch —
-  Vorschlag liegt jetzt im Wortlaut vor.** Seit Run 129 gemeldet, seither in jedem Lauf
+  Vorschlag liegt jetzt im Wortlaut vor.** ⚠ Erneut versucht und erneut an derselben
+  Werkzeuggrenze gescheitert (Run 158, 23.08.2026): Read gelang, Edit wurde vom Harness als
+  sensible Datei abgelehnt — identisch zu Run 149/154. Muss ausserhalb der Session-Berechtigung
+  angewendet werden. Seit Run 129 gemeldet, seither in jedem Lauf
   bestätigt: die Task verlangt den lokalen OneDrive-Pfad
   `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 04 Energie` und schreibt
   einen Abbruch vor, wenn er fehlt. Er fehlt strukturell — unter der Bibliothekswurzel liegen nur

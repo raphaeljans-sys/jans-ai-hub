@@ -1673,6 +1673,17 @@ nicht der ursprünglichen Fundmeldung.
    es hat im `REGISTER` bis heute keine Zeile. Primär einschlägig für den Skill `werkvertrag`
    (SIA-118-Familie), nicht nur für `normen`. Zu beschaffen, zu destillieren und ins REGISTER
    aufzunehmen.
+
+> **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung).** REGISTER-Lücke aus Punkt 2 geschlossen: beide
+> Normen tragen jetzt eine eigene Zeile in `wiki/REGISTER.md` (SIA 430 ergänzt, SIA 118/430 neu
+> angelegt). Preise am Herausgeber direkt nachverifiziert (shop.sia.ch, Produktseiten
+> `architekt/430_2023_d` bzw. `architekt/118-430_2023_d`, Abruf 23.08.2026): **SIA 430:2023
+> CHF 90.00** (28 S., Papier oder Download/SRD, nur das Inhaltsverzeichnis frei), **SIA 118/430:2023
+> CHF 80.00** (16 S.). Kein kostenloser Volltext-/Leseprobe-Zugang gefunden (anders als bei den
+> zuletzt in dieser KB gefundenen freien SIA-2024-Korrigenda — dort war die Publikationsart
+> «Corrigenda», hier «Norm»/«Allgemeine Bedingungen», beide regulär kostenpflichtig). Punkt 1 und
+> Punkt 2 bleiben damit inhaltlich **offen** (Beschaffung + Destillat, Bring-Schuld Raphael); ein
+> weiterer freier Web-Recherche-Anlauf für den Volltext verspricht keinen Mehrwert.
 3. **E-123-2 — Nachfolgeweg für SIA 493 ungeklärt (Übergabe aus `energie`, P2).** Der
    *Gültigkeitsstatus* ist mit diesem Lauf geklärt und in `normen` nachgeführt: SIA 493:1997
    ist seit **30.06.2022 archiviert** (shop.sia.ch, Produktseite SIA 493, selbst abgerufen

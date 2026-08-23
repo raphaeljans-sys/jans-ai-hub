@@ -1,5 +1,20 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (dreizehnte Fortsetzung, Run 158): sechste unabhängige Negativbestätigung, E-R149-4-Fix erneut an Werkzeuggrenze gescheitert
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo Run 157
+aufgehört hat. Eigene vollständige zeilenweise Durchsicht (sechste unabhängige Prüfung in Folge
+nach Run 152/154/155/156/157) bestätigt denselben Befund: kein aus eigener Kraft lösbarer
+Rechercheauftrag mehr offen. Der seit Run 129 dokumentierte Korrekturvorschlag für die
+VORAUSSETZUNG-Zeile in `~/.claude/scheduled-tasks/energie-training/SKILL.md` (falscher lokaler
+OneDrive-Pfad statt M365-CLI) wurde erneut versucht und erneut vom Harness als sensible Datei
+abgelehnt — unverändert gegenüber Run 149/154, kein neuer Sachverhalt. Drei echte offene Punkte
+bleiben, alle an eine Entscheidung Raphaels gebunden: E103 (Pflegeplatz-Flächenkennwert aus
+JANS-eigenen Projektdaten), E94 (Innendämmungs-Kennwert aus einer realen JANS-Offerte), E-R148-1
+(Normkauf SIA 380/1:2016, löst zugleich E-R140-1). Keine Wiki-/Destillat-Änderung, es gab nichts
+Neues zu belegen. Output: `outputs/2026-08-23_questions-nachlauf-dreizehnte-fortsetzung.md`. Nach
+dem Schreibvorgang `git diff --numstat` geprüft, ausschliesslich additiv.
+
 ## 2026-08-23 — Interaktive Session (zwölfte Fortsetzung, Run 157): zwei der als „Entscheid Raphael nötig" geführten Punkte waren bereits entschieden
 
 Fortsetzung nach Run 156 (Negativbefund: kein selbst lösbarer Rechercheauftrag mehr offen).

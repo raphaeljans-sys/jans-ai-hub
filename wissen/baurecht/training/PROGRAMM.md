@@ -1411,6 +1411,25 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   CONFIRMED wortgleich. Neu: `raw/260823_amtlich_zh_gg.md`. **Naechster Schritt fuer einen
   kuenftigen Lauf:** [[ausnuetzungsuebertragung]] oder [[nutzungsziffern]] re-verifizieren
   (weiterhin viertaeltestes Datum); oder die offene Trennsystem-Frage aus Run 86.
+- **Buch-Run 92 (2026-08-23):** [[ausnuetzungsuebertragung]] re-verifiziert (Vorschlag Run 90/91,
+  viertaeltestes `verifiziert`-Datum). Art. 40 BO Erlenbach und Art. 6 BZO Zuerich-Stadt frisch
+  von `oerebdocs.zh.ch` bezogen (PyMuPDF, layout-treu, da kein `pdftotext` auf dieser Station
+  verfuegbar war) und gegengelesen. **2 Korrekturen:** (1) das Wiki-Zitat von Art. 40 BO
+  Erlenbach gab bislang eine direkte Grenznachbarschaft wieder («direkt aneinandergrenzen») —
+  die amtliche Fassung verlangt nur **raeumliche Naehe**, ein spuerbar weniger strenger Massstab,
+  zweifach im Artikel propagiert (Zitatblock + Anwendungs-Transfer-Abschnitt), beide Stellen
+  korrigiert. (2) Praezisierung der Rechtsgrundlage: die amtliche Gemeinde-Wegleitung zu Art. 40
+  selbst nennt **§ 259 Abs. 1 PBG** als kantonale Anknuepfungsnorm, nicht § 254 PBG (das im
+  Hauptteil ohnehin nur Abschnittstitel ohne eigenen Absatz ist, siehe [[nutzungsziffern]] Run
+  55). **1 CONFIRMED trotz Extraktions-Fussfalle:** Art. 6 Abs. 3 BZO Zuerich-Stadt
+  (150 m/300 m-Wohnflaechen-Verlegung) ist richtig zitiert, obwohl die Absatz-Nummerierung in
+  `raw/260607_amtlich_zh_bzo-zurich-stadt.md` an dieser Stelle durch die PDF-Extraktion
+  verschoben ist (Fussnote 25 verschmilzt mit der Artikelnummer, Abs.-2-Marker fehlt sichtbar) —
+  Fussnote im Wiki-Artikel gesetzt, kein Raw-Edit (Rule `wissens-bibliothekar`: raw/ wird nie
+  editiert). Kein neuer `raw/`-Volltext, kein Status-Wechsel. Report `outputs/2026-08-23_buch-run92.md`.
+  **Naechster Schritt fuer einen kuenftigen Lauf:** die offene Trennsystem-Rechtsgrundlage aus
+  Run 86 (Meteor-/Schmutzwasser-Trennung, vermutet WsG/WsV oder VSA-Norm/SIA 190) recherchieren;
+  oder das naechstaelteste `verifiziert`-Datum unter den `established`-Artikeln neu bestimmen.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

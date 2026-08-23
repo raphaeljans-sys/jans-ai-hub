@@ -1,3 +1,81 @@
+## 2026-08-23 — SIA-Sweep, siebzehnte Fortsetzung: neue Sweep-Methode (freie Korrigenda-Downloads), drei Destillate SIA 269/3, 269/5, 269/8
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register
+nachführen, Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen. Ein `claude`-Prozess mit demselben
+Startprompt ist dieser Lauf selbst (dieser Prozess, PID 17924, gestartet 20:57); ein zweiter,
+identischer Prozess (PID 13981, gestartet 20:47) hatte den Lauf bereits abgeschlossen (Ergebnis:
+die sechzehnte Fortsetzung, siehe Eintrag darunter) — kein Konkurrent, reine zeitliche
+Überschneidung der Scheduler-Task-Läufe. Zwei weitere parallele Prozesse (PID 18397 `energie`,
+PID 18653 `baurecht`-Reglemente) arbeiteten an fremden KBs.
+
+**Ausgangslage:** Die sechzehnte Fortsetzung hatte die Marker-Abgleich-Methode (Abschnitt A)
+für erschöpft erklärt (0 offene Zeilen) und empfohlen, entweder auf eine neue Cross-KB-Bring-
+Schuld zu warten oder eine andere Norm-Familie zu bearbeiten. Dieser Lauf hat stattdessen eine
+**neue, bisher nicht systematisch angewandte Methode** auf die bestehenden 56 SIA-Zeilen mit
+Status «Kein Volltext im Haus» (Abschnitt A) angewendet: die `shop.sia.ch`-Produktseite jeder
+Zeile wurde nicht nur auf Gültigkeits-Metadaten (bereits vollständig erledigt), sondern auf
+**freie Korrigenda-/Beiblatt-Downloads** (Preisgruppe 0.00 CHF) geprüft — dieselbe Technik, mit
+der die sechzehnte Fortsetzung den SIA-2024-Fund und die achte Fortsetzung die SIA-405-Leseprobe
+gemacht hatten, hier erstmals systematisch statt punktuell auf mehrere Zeilen angewendet.
+
+**Durchgeführt:** Drei Produktseiten aus der Erhaltungsnormen-Familie SIA 269/x geprüft (Auswahl
+nach JANS-Healthcare-Relevanz: Bestandsbauten/Erdbebenüberprüfung), alle drei mit freien
+Korrigenda-PDFs:
+
+- **SIA 269/8-C1:2022** (8 S., gültig ab 01.11.2022) vollständig gelesen. **JANS-relevanter
+  Kernbefund:** Tabelle 1 macht den Mindesterfüllungsfaktor 0,40 für Bauwerksklasse II-s
+  (Schulen/Kindergärten) neu **bedingt** («sofern PBmax nach SIA 261 > 10 Personen»); Ziff.
+  10.3.7/Tabelle 2 referenziert für Personenbelegungs-Richtwerte neu **SIA 261:2020 Tabelle 26**,
+  darunter «Spital: 1,5–2,5 Personen/Bett»; Formel (26) der Gebrauchstauglichkeits-Überprüfung
+  verschärft sich (Faktor 0,5 im Nenner entfällt). Neues Destillat
+  `destillate/sia-269-8-korrigenda-c1.md` (established) — Erstanlage dieser Norm in der KB.
+- **SIA 269/3-C1:2017 + -C2:2022** und **SIA 269/5-C1:2022** gelesen (je 3 S.): rein technische
+  Detailkorrekturen (Formelfehler, Ausgaben-Referenzen SIA 265:2003→2021, Normverweis SN EN
+  335-2→SN EN 335), keine JANS-Praxisrelevanz. Nebenbefund im korrigierten Vorwort von
+  269/5-C1: **SIA 269/6 wurde in 269/6-1 (Naturstein) und 269/6-2 (künstliche Steine)
+  aufgespalten**; SIA 269/8 wird dort von «vorgesehene Ergänzung» zu fester Aufzählungszeile —
+  Datierungsbeleg, dass SIA 269/8 zwischen 2011 und der Korrigenda-Gültigkeit 01.08.2022 zur
+  Normfamilie hinzukam. Neues, kombiniertes Destillat `destillate/sia-269-3-5-korrigenda.md`
+  (established).
+
+**Nachgeführt:**
+
+- `wiki/REGISTER.md`: drei Zeilen (SIA 269/3, 269/5, 269/8) inhaltlich ergänzt (reiner
+  Zeilenersatz, Kern-Metadatenaussage unverändert, Korrigenda-Befund + Verweis auf neue
+  Destillate angefügt); zwei neue Zeilen in der «FRISCH GEMELDET»-Tabelle oben.
+- `destillate/INDEX.md`: zwei neue Zeilen für die beiden neuen Destillate.
+- Dieser CHANGELOG-Eintrag.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang geprüft):
+
+| Datei | Befund |
+|---|---|
+| `destillate/sia-269-8-korrigenda-c1.md` | `??` (echte Neuanlage) |
+| `destillate/sia-269-3-5-korrigenda.md` | `??` (echte Neuanlage) |
+| `wiki/REGISTER.md` | 5/3 (drei gezielte Zeilenersetzungen + zwei neue Tabellenzeilen, keine fremden Zeilen betroffen) |
+| `destillate/INDEX.md` | 2/0 (reine Neuzeilen) |
+
+Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über
+`scripts/nas-commit-now.sh`).
+
+**Nicht geleistet / offene Bring-Schulden:**
+
+- Die Basisnormen SIA 269/3:2011, SIA 269/5:2011 und SIA 269/8:2017 selbst liegen weiterhin
+  nicht im Haus (kostenpflichtig, Beschaffung Bring-Schuld Raphael) — nur die je frei
+  verfügbaren Korrigenda wurden gelesen, sie zeigen ausschliesslich die geänderten Ausschnitte.
+- Die neue Methode («freie Korrigenda-Downloads systematisch prüfen») wurde nur auf 3 der 56
+  «Kein Volltext im Haus»-Zeilen angewendet, ausgewählt nach JANS-Relevanz. Für einen
+  künftigen Lauf: die übrigen 53 Zeilen sind nicht geprüft — insbesondere die anderen
+  Erhaltungsnormen (SIA 269, 269/1, 269/2, 269/4, 269/7) und die Merkblatt-Familie SIA 20xx
+  sind naheliegende nächste Kandidaten mit vermutlich ähnlicher Korrigenda-Struktur.
+- SIA 269/6-1 und SIA 269/6-2 (Nebenbefund aus dem Vorwort) sind noch nicht als eigene
+  Register-Zeilen geführt — reiner Fundvermerk, keine eigene Recherche in diesem Lauf.
+- Cross-KB-Bringschuld: kein Fach-Skill (`brandschutz`, `ankaufspruefung`) zitiert SIA 269/8
+  bisher aktiv — keine Nachführung in fremden KBs nötig, da noch kein Abnehmer existiert.
+
 ## 2026-08-23 — SIA-Sweep, sechzehnte Fortsetzung: Korrigenda C1/C2 zu SIA 2024 vollständig gelesen (kostenlose Downloads), Kategorie-8-Werte C1↔C2 identisch
 
 **Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
