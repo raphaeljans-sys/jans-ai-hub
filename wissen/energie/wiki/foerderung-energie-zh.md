@@ -1,7 +1,7 @@
 ---
 title: Förderung Energie — Kanton Zürich (2026)
 status: established
-last_updated: 2026-07-25
+last_updated: 2026-08-23
 datenstand: 2026-06-26 (Förderprogramm Energie ZH, Version 01.01.2026, PDF S. 1-37 vollst.; 2026 unverändert bestätigt 24.10.2025); Bund-/HFM-Mechanik 2026-06-28; Kantonsrats-Verfahrensstand Solarpflicht/Langzeitspeicher 2026-07-24 (Run 87)
 sources: [destillate/foerderprogramm-energie-zh-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/zh-energiegesetz-revision-solarpflicht-2026.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]], [[zh-energiegesetz-revision-solarpflicht-2026]]
@@ -9,9 +9,13 @@ links: [[INDEX]], [[BAUHERREN-FAQ]], [[energienachweis-zh]], [[gebaeudeprogramm-
 
 # Förderung Energie — Kanton Zürich
 
-> ⚠ **Datenstand 2026-06-23** (Programm-Version 01.01.2026). Fördersätze altern — vor jeder
+> ⚠ **Datenstand 2026-06-26** (Programm-Version 01.01.2026). Fördersätze altern — vor jeder
 > Zusage gegen `zh.ch` / `portal.dasgebaeudeprogramm.ch/zh` prüfen. **2026 unverändert ggü. 2025**
-> bestätigt (Baudirektion-Mitteilung 24.10.2025); befristet bis Ende 2026 bzw. bis Budget erschöpft.
+> bestätigt (Baudirektion-Mitteilung 24.10.2025). Befristet ist das Programm auf den
+> **Rahmenkredit 2023–2026 bzw. bis zur Budgeterschöpfung**; der Regierungsrat datiert den
+> Anschlussbedarf in seiner Mitteilung vom **15.01.2026** ausdrücklich auf **«Mitte 2026 bis
+> Ende 2029»** — der laufende Kredit trägt also **nicht zwingend bis Jahresende**. Gesuch darum
+> nicht auf das 2. Halbjahr 2026 schieben → F7.
 
 ## Das Wichtigste
 Der Kanton ZH fördert den Weg weg von fossiler Wärme und hin zur besseren Hülle mit
@@ -75,7 +79,7 @@ selbst → darum kantonal verschieden). Bauherr: **ein** Gesuch beim **Standortk
 `[[gebaeudeprogramm-bund-hfm-2015]]`, Bauherren-Antwort F27.
 
 ## Abgrenzung: laufende Solarpflicht-Gesetzesrevision (noch kein geltendes Recht)
-Die obige «befristet bis Ende 2026 bzw. bis Budget erschöpft»-Aussage betrifft ausschliesslich das
+Die obige «Befristung auf den Rahmenkredit 2023–2026 bzw. die Budgeterschöpfung»-Aussage betrifft ausschliesslich das
 **heutige Förderprogramm** (freiwillige Pauschalen). Davon zu unterscheiden ist eine **separate,
 noch nicht in Kraft gesetzte Gesetzesrevision**: der Regierungsrat hat dem Kantonsrat am 06.01.2026
 zwei Vorlagen zur Änderung des Energiegesetzes vorgelegt, eine **Solarpflicht für Dächer über
@@ -95,9 +99,15 @@ Für ein heute eingereichtes Baugesuch ändert sich dadurch nichts — es gilt w
 3. **Gemeinde + Bund zusätzlich prüfen:** kommunale Beiträge + Energieversorger-Boni standortgenau
    über `energiefranken.ch` (PLZ eingeben → alle Ebenen) → `[[energiefranken-foerder-suchmaschine-ch]]`,
    FAQ F29; PV-Einmalvergütung des Bundes über `pronovo.ch` (nicht Teil des kantonalen Hefts).
-4. **Heizungsersatz fossil:** auch die schweizweite **Klimaprämie** (Stiftung KliK, ~CHF 360/kW, keine
-   Obergrenze) prüfen — aber **meist alternativ** zur kantonalen WP-Förderung, nicht zusätzlich: die
-   höhere Variante rechnen → `[[energiefranken-foerder-suchmaschine-ch]]`.
+4. **Heizungsersatz fossil:** auch die schweizweite **Klimaprämie** (Stiftung KliK; Fördersatz
+   18 Rp./kWh Jahresverbrauch bzw. CHF 1.80 je Liter ersetztes Heizöl — die kursierenden ~CHF 360/kW
+   sind eine daraus abgeleitete Faustregel bei rund 2'000 Volllaststunden, kein zugesicherter Satz)
+   prüfen — aber **meist alternativ** zur kantonalen WP-Förderung, nicht zusätzlich: die höhere
+   Variante rechnen → `[[energiefranken-foerder-suchmaschine-ch]]`. ⚠ Beim Wärmepumpen-Ersatz gilt
+   eine Mindestleistung von 40 kW, und der Heizungsersatz in Einfamilienhäusern ist ausdrücklich
+   ausgeschlossen (Förderkriterien Wärmepumpen, Version 26.03.2026, Ziff. 1). Für ein EFH ist die
+   Klimaprämie damit kein Weg — dort den kantonalen Beitrag ohne Alternativrechnung und vor
+   Baubeginn beantragen.
 5. **Altbau-Schwelle Baujahr < 2000** im Hinterkopf behalten.
 
 ## Bezug

@@ -1,7 +1,8 @@
 ---
 title: Graue Energie & THGE — das CO₂ im Bauteil
 status: established
-last_updated: 2026-08-11
+last_updated: 2026-08-23
+datenstand: 2006-12 (ältester zitierter Quellenstand: KBOB-Ökobilanzdaten-Gründungsempfehlung 2007, Datenstand Dezember 2006 — im Artikel als Methodik-Illustration ohne geltende Rechenwerte gekennzeichnet; aktuelle Datenbasis KBOB-Ökobilanzdaten v8.0, 20.02.2026; KBOB-Faktenblatt Graue THGE, Stand 04.04.2025)
 sources: [destillate/graue-energie-betriebsenergie.md, destillate/minergie-besser-planen-bauen.md, destillate/clt-bauphysik-stora-enso.md, destillate/minergie-nachweiskurs-2023-mkz-thge.md, destillate/minergie-fallstudie-maison-climat.md, destillate/kbob-graue-treibhausgasemissionen-2025.md, destillate/muken-2025-verabschiedet.md, destillate/kbob-bauteilkatalog-co2-je-aufbau.md, destillate/kbob-massivbau-bauteilaufbau-co2.md, destillate/kbob-oekobilanzdaten-baubereich-2007.md]
 links: [[INDEX]], [[minergie-standards]], [[minergie-nachweiskurs-2023-mkz-thge]], [[daemmstoffe-lambda]], [[u-werte-grenzwerte-ch]], [[holzbau-bauphysik-clt]], [[kbob-graue-treibhausgasemissionen-2025]], [[muken-2025-verabschiedet]], [[kbob-bauteilkatalog-co2-je-aufbau]], [[kbob-massivbau-bauteilaufbau-co2]], [[kbob-oekobilanzdaten-baubereich-2007]]
 ---
@@ -40,21 +41,21 @@ tieferen grauen Energie der Tragstruktur und der CO₂-Bindung im Holz. Bauphysi
 energetisch hoch rentabel (Lehrbeispiel: 20 MJ/m²·a mehr graue Energie → 180 MJ/m²·a weniger
 Gesamtenergie, ≈ 1 : 9). Quelle/Vorbehalt → `[[graue-energie-betriebsenergie]]`.
 
-## Regulatorischer Anker: THGE-Grenzwerte je Gebäudekategorie (Minergie 2023)
+## Regulatorischer Anker: THGE-Grenzwerte je Gebäudekategorie (Minergie, Stand 2026.1)
 Minergie begrenzt seit der Überarbeitung 09/2023 die **Treibhausgasemissionen der Erstellung
-(THGE)** — die erste verbindliche Limite für graue Energie im Schweizer Label-Kontext. Der oft
-zitierte Wert **11 kg CO₂-eq/m²·a gilt für Wohn-MFH**; das Produktreglement differenziert je
-**Gebäudekategorie** (Basiswert für Anteil EBF/GF = 80 %), gleiche Methodik wie Minergie-ECO:
+(THGE)** — die erste verbindliche Limite für graue Energie im Schweizer Label-Kontext. Massgebend
+ist der Basisgrenzwert GW_EBF je m² EBF: Wohnen MFH **12,4** (MuKEn 2025 / Minergie 2023) bzw.
+**11,5** (Minergie 2026.1), Spital **19,9** bzw. **18,5**. Der objektspezifische Grenzwert ist
+GW_OBJ = [GW_EBF·EBF + 5,5·(GF−EBF) + Zuschläge] / EBF und beträgt bei EBF/GF = 80 % rund **13,8**
+bzw. **12,9** (MFH) und **21,3** bzw. **19,9** (Spital). Die früher geführten **11 (MFH) und
+17 (Spital)** waren GF-gewichtete Mittel und gelten je m² Geschossfläche, **nicht** je m² EBF
+(korrigiert 23.08.2026, Audit 01.1). Zuschläge: Erdsonde +0,3, PV +7,1 je m² Panelfläche,
+Solarthermie +5,6 je m² Kollektorfläche. Nachweise nach Version 2025.1 sind noch bis 31.12.2026
+einreichbar.
 
-| Kat | Gebäudekategorie | THGE kg CO₂-eq/m² EBF·a |
-|---|---|---|
-| I Wohnen MFH | 11 | IV Schulen | 11 |
-| II Wohnen EFH | 12 | III Verwaltung | 12 |
-| VI Restaurant | 14 | VII/IX/X/XI/XII Versamml./Industrie/Lager/Sport/Hallenbad | 15 |
-| **V Verkauf** | **17** | **VIII Spitäler** | **17** |
-
-- **Healthcare-relevant:** Spitäler (Kat. VIII) **17 kg** — technik-/materialintensiver, daher höher
-  als Wohnen. Konkretes Planungsziel im JANS-Healthcare-Geschäft.
+- **Healthcare-relevant:** Spitäler liegen beim Basisgrenzwert GW_EBF bei **19,9 (Minergie 2023)
+  bzw. 18,5 (Minergie 2026.1) kg CO₂-eq/m² EBF·a** — technik-/materialintensiver, daher höher als
+  Wohnen. Konkretes Planungsziel im JANS-Healthcare-Geschäft.
 - **Strenger:** Klimapfad-Norm **SIA 390/1** (in Vernehmlassung) verlangt für Kat. I–VI **9 kg/m²·a
   inkl. PV/Erdsonde/Solarthermie**.
 - **Bauliche Reduktionshebel** (grösster → kleinster, ~18 → ~3 kg): geringe **Spannweiten** →
@@ -179,9 +180,14 @@ geltenden Rechenwerte** → `[[kbob-oekobilanzdaten-baubereich-2007]]`, FAQ F225
   auffindbar, siehe Negativbefund `[[graue-energie-sanieren-vs-neubau-amortisation]]`.
 
 ## Gesamtgebäude-Synthese Holzbau vs. Massivbau (ergänzt Run 119, 2026-07-29)
-Über 35 real verglichene Schweizer Objektpaare (Wüest Partner/Lignum-Studie, Branchenauftrag
-explizit gekennzeichnet) liegt Holzbau bei der grauen Energie der Erstellung **im Median rund
-23 % tiefer** als vergleichbarer Massivbau (Median Gesamtgebäude **7,5 vs. 9,8 kg CO₂-eq/m² EBF·a**),
+⚠ **Messgrösse THGE, nicht graue Energie in MJ** (korrigiert 23.08.2026, Audit 01.2): die 23 %
+unten sind Treibhausgasemissionen (kg CO₂-eq) aus dem Holz-Massiv-Vergleich und nicht zu
+verwechseln mit den ≈20 % «graue Energie als Anteil der Betriebsenergie» aus dem Abschnitt
+„Grössenordnung" oben (dort MJ, andere Bezugsgrösse) — die beiden Zahlen sind nicht ineinander
+umrechenbar. Über 35 real verglichene Schweizer Objektpaare (Wüest Partner/Lignum-Studie,
+Branchenauftrag explizit gekennzeichnet) liegt Holzbau bei den Treibhausgasemissionen der
+Erstellung (THGE) **im Median rund 23 % tiefer** als vergleichbarer Massivbau (Median
+Gesamtgebäude **7,5 vs. 9,8 kg CO₂-eq/m² EBF·a**),
 als **Planungsgrösse 20–25 %**; grösster Hebel ist nicht die Aussenwand (siehe Bauteilaufbau-Zahlen oben),
 sondern **Dach** (bis 38–45 % weniger) und Tragstruktur insgesamt. Der Effekt kommt nicht von
 besserer Dämmung (Massivholz dämmt schlechter als Mineralwolle), sondern von geringerer

@@ -3395,6 +3395,16 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Mechanismus, den Run 16 für die vier `baurecht`-Bring-Schulden diagnostiziert hat. Seit Run 16
   tragen beide Destillate (`sia-181-2006.md` hier, das Körperschall-Destillat in `energie`) ein
   ⚠-Ausgaben-Flag +3 dB (2006) gegen +4 dB (2020), das den Zustand sichtbar hält, aber nicht auflöst.
+  **Teilfortschritt 23.08.2026 (QUESTIONS-Abarbeitung):** Der eigentliche Volltext-Re-Destillat-
+  Auftrag bleibt Bring-Schuld (kostenpflichtig, unverändert). Neu gefunden und vollständig
+  destilliert wurde aber das kostenlose SIA-FAQ-Dokument «Fragen und Antworten zur Norm
+  SIA 181:2020» (16 amtliche Auslegungsfragen, September 2025, `shop.sia.ch/normenwerk/
+  architekt/181_2020_d`, Preisgruppe 0) — `destillate/sia-181-2020-faq.md`, `established`. Es
+  löst insbesondere die Raumakustik-Übergangsregel (bis SIA 181/1 vorliegt: SIA 500 → DIN 18041,
+  SN EN ISO 3382-3, VDI 2569) und klärt Ziff. 0.1.1/0.1.2/0.3/2.3/3.1-3.4/A.3/A.4 amtlich. Das
+  +3dB/+4dB-Delta wird davon NICHT berührt (andere Ziffern betroffen). Checkbox bleibt `[ ]`,
+  da der Kern des Auftrags (Volltext-Re-Destillat, REGISTER Zeile 109 auf 2020 heben) weiterhin
+  offen ist.
 - [x] **GEKLÄRT Run 22 (260725), soweit ohne Beschaffung möglich: die 2022er-Fassung ist NICHT im
   Bestand.** Die Dateien in PL-02 und PL-03 sind byte-identisch (MD5 `56fb4bab…`, 11 S.) — trotz
   Ordnername «2015-17-22» liegt dort nur eine Kopie der 2015er. Belegt: Ausgabe/Fassung **06.03.2015**
@@ -4917,9 +4927,18 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   in Gebäuden — Grundlagen und Anforderungen»**. Sie löst per 01.03.2025 den bisherigen Anhang E
   von SIA 384/1:2022 ab. Die Nummer 384/4 war zuvor nur als 1987 zurückgezogene Altnorm im
   Register geführt (keine sachliche Verbindung, reine Nummernwiederverwendung).
-- **Offen:** Produktseite (shop.sia.ch), Preis, Seitenzahl, exaktes Genehmigungsdatum, Status
-  (aktuell) sind bisher nicht eigenständig recherchiert — nur aus dem Korrigenda-Zitat bekannt.
-  Volltext-Beschaffung ist zusätzlich eine kostenpflichtige Bring-Schuld Raphael.
+- ✅ **Metadaten-Teil geschlossen (SIA-Sweep, dreissigste Fortsetzung, 23.08.2026).** Produktseite
+  shop.sia.ch (`architekt/384-4_2025_d`, SN 546384/4), abgerufen 23.08.2026, zweifach gegengelesen:
+  108 Seiten, A4 broschiert, **gültig ab 01.05.2025**, Status aktuell, Preis 230.00 CHF (Papier
+  wie Download). Einziger kostenloser Download: Inhaltsverzeichnis (89.729 KB PDF) — kein freier
+  Volltext, keine freie Korrigenda. ⚠ Auffällig: die Korrigenda C1:2025 zu SIA 384/1 nennt für die
+  Ablösung von Anhang E das Datum 01.03.2025, die eigene Produktseite von SIA 384/4 dagegen
+  01.05.2025 als Gültig-ab — zwei Monate Differenz, Ursache nicht recherchiert, hier nur
+  festgehalten (nicht spekuliert; möglich wäre z.B. ein früheres Genehmigungs-/Ankündigungsdatum
+  in der Korrigenda gegenüber dem späteren Inkrafttreten der Norm selbst — ungeprüft).
+- **Weiterhin offen (kostenpflichtige Bring-Schuld Raphael):** Volltext-Beschaffung SIA 384/4:2025
+  (230 CHF) — dann Destillat möglich.
 - **Herkunft:** SIA-Sweep, neunundzwanzigste Fortsetzung, 23.08.2026 (P1-Leseproben-/
   Korrigenda-Check auf die von der 24. Fortsetzung benannte P1-Einkaufsliste, gezielt SIA 384/1
-  betreffend — Korrektur eines Nullbefunds derselben Zeile aus der 19. Fortsetzung).
+  betreffend — Korrektur eines Nullbefunds derselben Zeile aus der 19. Fortsetzung); Metadaten
+  nachgetragen SIA-Sweep, dreissigste Fortsetzung, 23.08.2026.

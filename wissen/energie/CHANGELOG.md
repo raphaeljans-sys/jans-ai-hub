@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (zwanzigste Fortsetzung): Vollständige Verifikation — kein neuer Rechercheansatz mehr offen
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die neunzehnte
+Fortsetzung. Alle 14 verbleibenden `- [ ]`-Zeilen einzeln im Kontext gelesen (nicht nur gezählt,
+da diese KB Auflösungen als neue `[x]`-Zeile oberhalb der historischen Originalzeile ablegt).
+Acht der 14 waren bereits gelöst, nur die historische Zeile stand noch als `[ ]` (KB-eigenes
+Muster, kein Fehler). Die verbleibenden sechs echt offenen Punkte (E103, E94, E-R134-3,
+E-R148-1, E-R150-3, E-R161-1) sind exakt die Menge, die der Report der neunzehnten Fortsetzung
+bereits als ausgeschöpft übergeben hatte — bestätigt durch Einzelprüfung statt Übernahme. Alle
+sechs fallen in eine von drei nicht durch eigene Recherche lösbaren Klassen: Beschaffungsentscheid
+Raphael (Normkauf SIA 380/1:2016 bzw. SN EN ISO 6946), Freigabe-Entscheid Raphael (Auswertung
+eigener JANS-Projektdaten für E103/E94) oder sachliche Sackgasse ohne externe Quelle (Lambda-
+Anomalie ohne Herausgeber, Widerspruch im Willerzell-Originaldokument selbst). Keine Bestandsdatei
+geändert — reiner Verifikationslauf, keine `git diff --numstat`-Pflicht ausser für diese beiden
+Dateien. Bericht: `outputs/2026-08-23_questions-nachlauf-zwanzigste-fortsetzung.md`.
+
 ## 2026-08-23 — Interaktive Session (neunzehnte Fortsetzung): E-R129-5 geschlossen, KKS-analoges Kennzeichnungssystem der Stadt Zürich destilliert
 
 Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, Anschluss an die achtzehnte

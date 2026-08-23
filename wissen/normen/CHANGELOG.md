@@ -1,3 +1,104 @@
+## 2026-08-23 — SIA-Sweep, dreissigste Fortsetzung: Metadaten SIA 384/4:2025 nachgetragen (Nullbefund Volltext)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht).
+
+**Ausgangslage geprüft:** Die 29. Fortsetzung hatte den SIA-Blindzonen-Sweep erneut als erschöpft
+bestätigt (`training/norm-inventar.md`: 0 offene Positionen) und als einziges konkretes Element
+für den nächsten Lauf benannt: die Metadaten-Recherche zu **SIA 384/4:2025** — einer bisher in
+dieser KB unbekannten Norm, nur aus einem Zitat der kostenlosen Korrigenda C1:2025 zu
+SIA 384/1:2022 bekannt. Kollisionscheck (`ps aux`) vor Arbeitsbeginn: parallel läuft ein
+eigenständiger Prozess «QUESTIONS-Abarbeitung» (anderer Auftragstext, `mschub179`), der ebenfalls
+in `wiki/QUESTIONS.md` schreibt, aber an anderer Stelle — kein Zeilenkonflikt festgestellt.
+
+**Durchgeführt:** Produktseite `shop.sia.ch/normenwerk/architekt/384-4_2025_d/D/Product`
+(SN 546384/4) per WebFetch zweifach mit unterschiedlichem Extraktionsprompt gegengelesen, beide
+Abrufe deckungsgleich: «Klimakälteanlagen in Gebäuden — Grundlagen und Anforderungen», 108 Seiten,
+A4 broschiert, **gültig ab 01.05.2025**, Status aktuell, Preis 230.00 CHF (Papier wie Download).
+Einziger kostenloser Download: Inhaltsverzeichnis (89.729 KB PDF) — **kein freier Volltext, keine
+freie Korrigenda** (Nullbefund, gleiche Methode wie die 5 Nullbefunde der 29. Fortsetzung). Kein
+neues Destillat, konsistent mit dieser Konvention.
+
+**Nebenbefund, nicht aufgelöst:** Die Korrigenda C1:2025 zu SIA 384/1 datiert die Ablösung des
+Anhangs E auf 01.03.2025, die eigene Produktseite von SIA 384/4:2025 nennt 01.05.2025 als
+Gültig-ab — zwei Monate Differenz. Ursache nicht recherchiert (reine Spekulation ohne Drittquelle),
+im Register als offene Beobachtung markiert, nicht als Widerspruch behauptet.
+
+**Nachgeführt:** `wiki/REGISTER.md` Zeile SIA 384/4 (Ausgabejahr-Spalte «—(alle zurueckgezogen)»
+auf **2025** korrigiert, Bemerkungsspalte um vollständige Metadaten ergänzt); `wiki/QUESTIONS.md`
+Abschnitt «Neue Bring-Schuld: SIA 384/4:2025» — Metadaten-Teilfrage ✅ geschlossen, kostenpflichtige
+Volltext-Beschaffung (230 CHF) bleibt offen. Report:
+`outputs/2026-08-23_sia-sweep-dreissigste-fortsetzung.md`.
+
+**Offen für den nächsten Lauf:** Die SIA/VKF-Blindzone bleibt erschöpft (drei Läufe in Folge
+bestätigt). Weiterer Fortschritt braucht entweder Raphaels Kaufentscheide zu den fünf verbliebenen
+kostenpflichtigen Bring-Schulden (SIA 380/1, 385/1, 266/1, 384/1, 384/4) oder eine Mandatsausweitung
+über SIA/VKF hinaus (Abschnitt D «Nicht-SIA-Familien» trägt noch unbearbeitete Altvorbehalte).
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md` 2/2
+(eine Zeile ersetzt, keine fremde Zeile berührt; die einzige weitere Diff-Änderung im Datei-
+Kontext, Zeile SIA 181, stammt nachweislich vom parallelen Prozess), `wiki/QUESTIONS.md` 23/4
+(eigener Block ersetzt 4 Zeilen durch 23 neue; ein disjunkter zweiter Diff-Hunk bei Zeile ~3395
+stammt vom parallelen `mschub179`-Prozess, keine Zeilenüberschneidung). Kein `git`-Schreibbefehl
+über den SMB-Mount; Commit über den 15-Minuten-`nas-selfcommit`-Cron bzw. `scripts/nas-commit-now.sh`.
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 26: kostenloses SIA-FAQ zu SIA 181:2020 destilliert (Volltext bleibt Bring-Schuld)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established`
+zitierfähig. CHANGELOG und Report des letzten Laufs (SIA-Sweep 29 bzw. QUESTIONS-Abarbeitung 25
+Cross-Check) zuerst gelesen, dort weitergemacht. Rule `wissens-bibliothekar` beachten, nichts
+raten, CHANGELOG-Eintrag gesetzt, nach jedem Schreiben `git diff --numstat` geprüft.
+
+**Kollisionscheck:** eigener Prozess (`ps aux`, identischer Auftragstext, PID 89008) als einziger
+Treffer auf dieser KB zum Startzeitpunkt — kein Konkurrent.
+
+**Ausgangslage:** 35 offene `- [ ]`-Punkte, davon der überwiegende Teil bereits mehrfach
+(24 vorherige QUESTIONS-Abarbeitungen) als Bring-Schuld oder Strukturentscheid gescreent. Der
+Cross-Check-Lauf (Abarbeitung 25, 23:46) hatte den einzigen zuvor identifizierten
+loop-lösbaren Punkt bereits erledigt (SIA 266/267 ↔ DIN 1053/1054, Zeile 3871 jetzt `[x]`).
+Gezielt geprüft, ob die seit der 19./24. Fortsetzung etablierte Methode «freier Korrigenda-/
+Zusatz-Download neben dem kostenpflichtigen Volltext auf shop.sia.ch?» auch auf die Bring-Schuld
+**SIA 181:2020** (Zeile 3388, `wissen/normen/wiki/QUESTIONS.md`) anwendbar ist — dieser konkrete
+Produktseiten-Check war für 181:2020 noch nicht dokumentiert.
+
+**Treffer:** Produktseite `shop.sia.ch/normenwerk/architekt/181_2020_d/D/Product` führt neben
+dem Inhaltsverzeichnis einen zweiten kostenlosen Download (Preisgruppe 0): **«FAQ» — «Schallschutz
+im Hochbau — Fragen und Antworten (FAQ) zur Norm SIA 181:2020», Deckblatt September 2025, 10
+Seiten.** Per WebFetch geladen, mit `pdftotext -layout` vollständig extrahiert und gelesen: 16
+amtliche Auslegungsfragen der Kommission SIA 181 zu den Ziffern 0.1.1/0.1.2/0.3/1.1.4.5/2.2.3/
+2.3/3.1.1/3.1.2.1/3.2.1/3.2.2.1/3.2.2.2/3.4.1/3.4.3.3/A.3.2/A.4.3. Praxisrelevantester Fund: die
+Übergangsregel Raumakustik (bis SIA 181/1 vorliegt gelten SIA 500 → DIN 18041, SN EN ISO
+3382-3:2012, VDI 2569:2019) sowie die Klarstellung, dass Schallschutz **innerhalb** von
+Nutzungseinheiten von SIA 181:2020 explizit nicht geregelt wird (Ziff. 0.1.2, stattdessen
+informativer Anhang G der Vorgängernorm SIA 181:2006).
+
+**Nebenbefund (dokumentiert, nicht aufgelöst):** Das FAQ-Dokument widerspricht sich selbst zur
+Auflagen-Nummer — Deckblatt/Fusszeile «2. Auflage», Einleitungstext S. 3 «In dieser 3. Auflage
+wurden…». Keine externe Quelle zur Auflösung gefunden; als offene Diskrepanz im Frontmatter
+vermerkt, nicht geraten.
+
+**Wichtige Abgrenzung:** Der eigentliche Auftrag der QUESTIONS-Zeile («SIA 181:2020
+re-destillieren», REGISTER Zeile 109 auf 2020 heben) bleibt **nicht erledigt** — der Volltext
+der Norm ist weiterhin nicht im Haus (150 CHF, Bring-Schuld Raphael). Das FAQ ist ein
+eigenständiges, amtliches Zweitdokument, kein Ersatz für den Normtext; die Ziffern-Referenzen
+stammen aus dem FAQ, nicht aus einer Gegenprüfung am Normtext selbst. Checkbox bleibt darum
+bewusst `[ ]`, nur mit Teilfortschritt-Vermerk ergänzt — kein Fehlschluss «Bring-Schuld
+erledigt».
+
+**Nachgeführt:** neues Destillat `destillate/sia-181-2020-faq.md` (established); `wiki/
+REGISTER.md` Zeile SIA 181 ergänzt (FAQ-Fund vermerkt, Bring-Schuld-Status unverändert);
+`wiki/QUESTIONS.md` Zeile 3388 mit Teilfortschritt-Absatz ergänzt (Checkbox weiterhin `[ ]`);
+`destillate/INDEX.md` neue Zeile. Report: `outputs/2026-08-23_questions-abarbeitung26.md`.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — `wiki/REGISTER.md`
+1/1 (genau die eine Zeile SIA 181 erweitert, kein Zeilenverlust), `wiki/QUESTIONS.md` 10/0
+(reine Ergänzung an bestehender Stelle), `destillate/INDEX.md` 1/0 (eine neue Zeile), neues
+Destillat additiv (neue Datei). Kein `git`-Schreibbefehl über den SMB-Mount; Commit über den
+15-Minuten-`nas-selfcommit`-Cron bzw. `scripts/nas-commit-now.sh`.
+
 ## 2026-08-23 — SIA-Sweep, neunundzwanzigste Fortsetzung: Korrigenda SIA 384/1-C1:2025 gefunden, neue Norm SIA 384/4:2025 entdeckt
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

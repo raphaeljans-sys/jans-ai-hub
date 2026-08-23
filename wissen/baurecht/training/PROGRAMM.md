@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 103)
+last_updated: 2026-08-23 (Run 104)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -1641,6 +1641,20 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Bundesrechts-Zitat offen. **Naechster Schritt fuer einen kuenftigen Lauf:** ausserhalb dieser
   Kette weiterarbeiten (neue KB-Luecken, Health-Check, oder eine zweite Re-Verifikationsrunde
   nach Ablauf der `verifiziert`-Daten).
+- **Buch-Run 104 (2026-08-23):** Reglemente-Queue 2414 Thalwil (T1-T9) und die Re-Verifikationskette
+  (Runs 90-103) sind laut ihren eigenen Abschlussvermerken vollstaendig; als naechster Schritt daher
+  Option 1 aus Run 103 gewaehlt — die in `wiki/QUESTIONS.md` (Wissens-Chef Run 21, 03.08.2026) offen
+  gebliebene Rest-Frage zu BEZ 2019 Nr. 5 bearbeitet. Entscheid (BRGE III Nr. 0170/2018) erstmals im
+  Volltext bezogen (Baurekursgericht-ZH-Entscheiddatenbank, Rubrik «Absturzsicherungen», dort
+  einziger Treffer), da `pdftotext` auf dieser Station fehlt via PyMuPDF extrahiert. **Ergebnis:**
+  der Entscheid ist ein **§ 358-PBG-Fall** (baupolizeiliche Kontrolle ausserhalb eines Baugesuchs),
+  zitiert § 357 PBG an keiner Stelle und erwaehnt die 15-%-Schwelle der Stadt-Zuercher Richtlinie
+  ebenfalls nicht — die Schwelle ist damit durch Rechtsprechung **weder bestaetigt noch verworfen**.
+  Neuer `raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md`, eingearbeitet in
+  [[ausnahmebewilligung-und-bestandesschutz]] (Frontmatter + Fliesstext), `wiki/QUESTIONS.md`
+  Rest-Frage geschlossen. Report `outputs/2026-08-23_buch-run104.md`. **Naechster Schritt:** keine
+  offene Frage mehr aus der Thalwil-Queue oder der Bundesrechts-Kette; naechster Lauf frei fuer
+  Health-Check, neue KB-Luecken aus `QUESTIONS.md`, oder eine zweite Re-Verifikationsrunde.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

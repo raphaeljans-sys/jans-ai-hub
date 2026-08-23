@@ -500,3 +500,68 @@ starten lässt. Der Weg ist plausibel, weil die Queue über das NAS und nicht ü
 er dürfte aber an der Freigabe-Schwelle hängen (`scripts/sync-task-guard.sh`, Klasse
 Persistenz/Fernausführung) und wäre damit ein Fall für Raphaels Einzelfreigabe. Wer es
 braucht, prüft es und trägt das Ergebnis hier nach.
+
+## Nachtrag 23.08.2026 — DOCX zu PDF ohne LibreOffice: Microsoft Word per osascript
+
+**Anlass.** Auf `station-03` (macbook-revendo) fehlen sowohl LibreOffice als auch `pandoc`;
+`scripts/docx2pdf.sh` bricht dort mit «soffice nicht gefunden» ab. Ein LV des Skills
+`ausschreibung` musste trotzdem als PDF ausgegeben werden. Microsoft Word ist auf der Station
+installiert und trägt den Weg.
+
+**Der Weg, in dieser Reihenfolge:**
+
+1. `scripts/docx2pdf.sh` (LibreOffice) — der Standardweg, überall wo `soffice` existiert.
+2. **Microsoft Word per osascript** — wenn LibreOffice fehlt.
+3. Auslagern an eine Station mit LibreOffice (Mac Mini) via `arbeits-weiche.sh`.
+
+**Word-Weg, funktionierende Fassung:**
+
+```bash
+cp "<quelle>.docx" ~/Documents/tmp.docx
+osascript <<'AS'
+set outP to (POSIX path of (path to documents folder)) & "tmp.pdf"
+tell application id "com.microsoft.Word"
+  activate
+  open (POSIX path of (path to documents folder)) & "tmp.docx"
+  delay 3
+  set theDoc to active document
+  save as theDoc file name outP file format format PDF
+  delay 2
+  close theDoc saving no
+end tell
+AS
+cp ~/Documents/tmp.pdf "<ziel>.pdf" && rm -f ~/Documents/tmp.docx ~/Documents/tmp.pdf
+```
+
+**Drei Fallen, alle am 23.08.2026 belegt:**
+
+- **Word schreibt nicht nach `/tmp`.** Die App-Sandbox lässt nur benutzereigene Ordner zu.
+  Quelle und Ziel gehören nach `~/Documents`, danach ins eigentliche Ziel kopieren und
+  aufräumen. Mit `/tmp` scheitert der Aufruf mit «versteht die Nachricht save as nicht».
+- **`save as active document …` scheitert**, `set theDoc to active document` gefolgt von
+  `save as theDoc …` trägt. Der Unterschied ist nicht kosmetisch, die erste Form wirft
+  denselben `-1708`-Fehler.
+- **Ein hängendes Word blockiert jeden Folgelauf** und liefert dann «missing value versteht
+  die Nachricht save as nicht». Vor dem nächsten Versuch `close every document saving no`,
+  sonst die App beenden. Bundle-ID verwenden, nie `application "Microsoft Word"`
+  (Rule `osascript-apple-apps`).
+
+**Sichtkontrolle ohne poppler.** `pdftotext`, `pdftoppm`, `mutool` und `qpdf` fehlen auf der
+Station, das Read-Tool kann PDF-Seiten deshalb nicht rendern. `qlmanage -t -s 2000 -o <dir>
+<datei>` erzeugt ein PNG — **auch direkt aus einer `.docx`**, was den Word-Umweg für die
+Layoutkontrolle ganz erspart. Einschränkung: QuickLook rendert nur die erste Seite und wertet
+Feldfunktionen nicht aus, «Seite X von Y» erscheint dort leer. Für eine Tabelle auf Seite 5
+baut man einen Prüfabzug, der nur diese Tabelle enthält, und rendert dessen erste Seite.
+
+**Sackgassen dieser Station (nicht erneut laufen):** M365-Zertifikat
+`~/.cli-m365-cert-combined.pem` fehlt und `node_modules/.bin/m365` existiert nicht, damit
+tragen weder `m365-graph.mjs` noch die CLI; `ssh` zum Mac Mini und zum Haupt-MacBook
+scheitert (Mini seit drei Tagen offline, MacBook ohne hinterlegten Schlüssel dieser Station);
+der KISPI-Projektordner ist hier leer synchronisiert und die Bibliothek
+`JANS - 2619-KISPI - Dokumente` fehlt ganz.
+
+**Nachtrag zur selben Station, 23.08.2026:** auch `scripts/nas-commit-now.sh` trägt hier nicht
+(`raphaeljans@diskstation918…: Permission denied (publickey,password)`) — der SSH-Schlüssel
+dieser Station liegt nicht in den `authorized_keys` der Synology. Der 15-Minuten-Cron
+`nas-selfcommit.sh` fängt die Edits auf, der Sofort-Commit ist von hier aus schlicht nicht
+verfügbar. Kein Ersatzweg suchen, sondern den Cron abwarten.

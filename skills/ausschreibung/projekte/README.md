@@ -24,3 +24,4 @@ und hier festhalten.
 |---|---|---|
 | 2620 | MFH Albertstrasse 7, 8005 Zürich | `2620-albertstrasse-7.md` |
 | 2414 | Umbau + Aufstockung ZFH, Bohlweg 3, 8800 Thalwil | `2414-thalwil.md` |
+| 2619 | Universitäts-Kinderspital Zürich, Lenggstrasse 30, 8008 Zürich (Akutspital / PPTS Umnutzung Etage B) | `2619-kispi.md` |

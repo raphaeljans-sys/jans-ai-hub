@@ -1,6 +1,6 @@
 # wissen/tools — Prüfwerkzeuge für den Wissens-Layer
 
-Vier Werkzeuge, die je eine andere Frage an eine Wissensbasis stellen. Sie ersetzen einander
+Sechs Werkzeuge, die je eine andere Frage an eine Wissensbasis stellen. Sie ersetzen einander
 nicht: eine KB kann strukturell tadellos sein, alle Adressen erreichbar haben, jeden Link
 sauber ans Ziel bringen und trotzdem falsche Zahlen führen.
 
@@ -10,9 +10,39 @@ sauber ans Ziel bringen und trotzdem falsche Zahlen führen.
 | `link-frischecheck.sh` | **Zugang** — sind die zitierten Adressen erreichbar? | 01.08.2026 |
 | `kennwert-recompute.sh` | **Inhalt** — gehen die Kennwerte gegen ihre eigenen Bezugsgrössen auf? | 23.08.2026 |
 | `link-zielabgleich.sh` | **Ziel** — landet ein Link dort, wo er hinzeigt? | 23.08.2026 |
+| `bezugsgroessen-check.py` | **Nenner** — trägt jede Quote ihre Bezugsgrösse, und ist der Wert überhaupt möglich? | 23.08.2026 |
+| `datenstand-waechter.py` | **Alter** — kommt die Zahl mit ihrem Alter beim Leser an? | 23.08.2026 |
 
-Alle vier melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
+Alle sechs melden mit `Exit 1`, wenn es Befunde gibt, und mit `0`, wenn nicht — sie eignen sich
 also für einen Wartungslauf.
+
+## Warum die zwei neuen (23.08.2026, aus dem Audit der KB energie)
+
+`kennwert-recompute` prüft, ob eine **ausgeschriebene Rechnung aufgeht** (a × b = c). Das Audit
+vom 23.08.2026 (`wissen/energie/outputs/2026-08-23_energie-audit-qualitaetsoffensive.md`) hat
+gezeigt, dass die teuersten Fehler anders aussehen: **die Rechnung stimmt, und der Nenner ist
+ein anderer als angenommen.** «Unabhängigkeit 53 %» war Produktion/Verbrauch und wurde als
+Autarkie geführt (echte Autarkie 23 %); ein Minergie-Grenzwert wurde je m² Geschossfläche
+gerechnet und je m² EBF ausgegeben, 25 % zu streng, in einem zweimal verifizierten
+`established`-Destillat. Dafür ist `bezugsgroessen-check` da. Und keines der vier bestehenden
+Werkzeuge fragte je nach dem **Alter** einer Zahl — 35 von 37 Themenartikeln hatten kein Feld
+`datenstand`, Preisstände von 2019 wurden als heutige CHF-Zahl zitiert, ein selbst gesetzter
+Prüfstichtag verstrich unbemerkt in einem abgehakten Eintrag. Dafür ist `datenstand-waechter` da.
+
+Beide sind reines Python ohne `.sh`-Wrapper: sie brauchen weder parallele `curl`-Aufrufe noch
+eine Trennung von Messung und Klassifikation, die bei `kennwert-recompute` und
+`link-zielabgleich` den Wrapper rechtfertigt.
+
+**Beide melden Kandidaten, keine Urteile.** Jeder Treffer ist am Umfeld zu beurteilen; ein
+geprüft-unbedenklicher Treffer gehört mit einer Zeile Begründung in die `wiki/QUESTIONS.md` der
+KB, damit ihn der nächste Lauf nicht erneut aufgreift. Verstrichene Termine gehören nach
+`logbuch/fristen.md`, nicht in einen Laufbericht (Rule `auto-verbesserungen` 260805).
+
+⚠ **Wer hier ein siebtes Werkzeug bauen will, liest zuerst diese Tabelle.** Beim Audit vom
+23.08.2026 entstand zunächst ein KB-lokales Prüfscript, das Form, Nenner und Alter in einem
+prüfte — und dessen Link-Check 24 tote Links meldete, wo `wiki-konsistenz.sh` 7 findet: genau
+der KB-übergreifende Fehlalarm, vor dem dessen Kopfkommentar seit dem 28.07.2026 warnt. Das
+Script wurde verworfen und auf die zwei Fragen reduziert, die hier wirklich fehlten.
 
 ## Aufruf
 

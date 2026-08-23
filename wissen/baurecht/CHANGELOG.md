@@ -3,6 +3,40 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 104: BEZ 2019 Nr. 5 (Absturzsicherung Altbau) erstmals im Volltext gelesen — § 358-PBG-Fall statt § 357, 15-%-Schwelle im Entscheid nicht erwähnt
+
+- **Anlass:** Reglemente-Queue 2414 Thalwil (T1-T9) und die Modell-D-Re-Verifikationskette
+  (Runs 90-103) sind laut ihren eigenen Abschlussvermerken vollständig abgearbeitet. Als
+  nächster Schritt (Option 1 aus Run 103) die seit Wissens-Chef Run 21 (03.08.2026) in
+  `wiki/QUESTIONS.md` offene Rest-Frage zu BEZ 2019 Nr. 5 bearbeitet — bislang nur als
+  Buchzitat (Fritzsche/Bösch/Wipf/Kunz, Bd. 2, S. 1291) erfasst, der Entscheidtext selbst
+  ungelesen.
+- **Entscheid beschafft:** BRGE III Nr. 0170/2018 vom 21.11.2018 (BEZ 2019 Nr. 5) direkt von
+  der Entscheiddatenbank des Baurekursgerichts ZH bezogen (Rubrik «Absturzsicherungen» —
+  dort der **einzige** publizierte Entscheid, Stand 23.08.2026, Seite 1/1). PDF-Extraktion via
+  PyMuPDF (`pdftotext` auf dieser Station nicht installiert). Neuer `raw/260823_amtlich_zh_
+  brge-iii-0170-2018_bez-2019-nr5.md` mit dem vollständigen publizierten Auszug (Erwägungen
+  4.3.1-4.4.3).
+- **Kernbefund: der Entscheid ist kein § 357-PBG-Fall.** Eine baupolizeiliche Kontrolle stellte
+  fehlende Handläufe in einem 80-jährigen Treppenhaus fest — **ausserhalb** jedes Baugesuchs.
+  Das Gericht stützt die Nachrüstungs-Anordnung auf **§ 358 PBG** (Behebung erheblicher
+  polizeilicher Missstände unabhängig von Änderungsbegehren) und leitet die Besitzstandsgarantie
+  direkt aus **Art. 26 BV** her — **§ 357 PBG wird im publizierten Auszug an keiner Stelle
+  zitiert.** Materiell wendet das Gericht SIA 358:2010 (Ziff. 2.2.1 f., 3.1.5, 3.1.6) über
+  § 239 Abs. 1 PBG/§ 2 und § 20 BBV I unmittelbar an und prüft die Verhältnismässigkeit
+  Fall für Fall (einseitiger Handlauf zur Kellertreppe genügt, beidseitiger bei der
+  Fluchttreppe zwingend) — **ohne jede Prozentschwelle**.
+- **Zweite offene Frage beantwortet:** die 15-%-Schwelle der Stadt-Zürcher Richtlinie
+  «Absturzsicherungen im Hochbau» kommt im Entscheid **nicht vor** — in der einschlägigen
+  Rechtsprechungsrubrik weder bestätigt noch verworfen, sondern schlicht unbelegt durch
+  Rechtsprechung.
+- **In die KB eingearbeitet:** `wiki/ausnahmebewilligung-und-bestandesschutz.md` (Absatz
+  «Offen: BEZ 2019 Nr. 5» durch die Auflösung ersetzt, Frontmatter `sources`/`verifiziert`/
+  `paragraphen` um § 358 PBG und den Entscheid ergänzt), `wiki/QUESTIONS.md` (Rest-Frage aus
+  Run 21 geschlossen), `training/PROGRAMM.md` (Tracker-Eintrag Run 104), `training/
+  KORPUS-QUEUE-thalwil-reglemente.md` (Fortsetzungs-Absatz ergänzt).
+- Report `outputs/2026-08-23_buch-run104.md`.
+
 ## 2026-08-23 — Buch-Run 103: [[ausnahmebewilligung-und-bestandesschutz]] re-verifiziert — letzte offene Bundesrechts-Lücke der Re-Verifikationskette (Runs 90-102) geschlossen, 4/4 CONFIRMED, 0 Korrekturen
 
 - **Ausgangslage:** Fortsetzung des Auftrags «Reglemente-Queue 2414 Thalwil weiterarbeiten».

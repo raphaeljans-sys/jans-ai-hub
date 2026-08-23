@@ -1,7 +1,8 @@
 ---
 title: Förderung Energie Kanton Schwyz (Förderprogramm 2026)
 status: established
-last_updated: 2026-06-29
+last_updated: 2026-08-23
+datenstand: 2025-11-27 (ältester zitierter Quellenstand: BFE-Faktenblatt PV-Einmalvergütung, publ. 27.11.2025; Förderprogramm Energie SZ, Vollzugshilfe 2026, Ausgabe 01.01.2026, gegengeprüft 2026-07-23; Bund-/HFM-Mechanik gelesen 2026-06-28)
 sources: [destillate/foerderprogramm-energie-sz-2026.md, destillate/gebaeudeprogramm-bund-hfm-2015.md, destillate/pv-einmalverguetung-bund-bfe.md]
 links: [[INDEX]], [[foerderung-energie-zh]], [[gebaeudeprogramm-bund-hfm-2015]], [[pv-einmalverguetung-bund-bfe]], [[energiefranken-foerder-suchmaschine-ch]]
 ---
@@ -41,8 +42,14 @@ Verbesserung ≥ 0,07, Baubewilligung vor 2000, GEAK Plus ab Förderbeitrag CHF 
   15 kW FWS-Gütesiegel + Leistungsgarantie.
 - **Klimaprämie + kantonale Beiträge nicht kombinierbar** (CO₂-Wirkung nicht doppelt anrechenbar) —
   beim fossilen Heizungsersatz die kantonale WP-Förderung **gegen** die schweizweite Klimaprämie
-  (Stiftung KliK, ~CHF 360/kW, keine Obergrenze) rechnen und die **höhere** Variante wählen →
-  `[[energiefranken-foerder-suchmaschine-ch]]`, FAQ F29.
+  (Stiftung KliK; Fördersatz 18 Rp./kWh Jahresverbrauch bzw. CHF 1.80 je Liter ersetztes Heizöl —
+  die kursierenden ~CHF 360/kW sind eine daraus abgeleitete Faustregel bei rund 2'000
+  Volllaststunden, kein zugesicherter Satz) rechnen und die **höhere** Variante wählen →
+  `[[energiefranken-foerder-suchmaschine-ch]]`, FAQ F29. ⚠ Beim Wärmepumpen-Ersatz gilt eine
+  Mindestleistung von 40 kW, und der Heizungsersatz in Einfamilienhäusern ist ausdrücklich
+  ausgeschlossen (Förderkriterien Wärmepumpen, Version 26.03.2026, Ziff. 1). Für ein EFH ist die
+  Klimaprämie damit kein Weg — dort den kantonalen Beitrag ohne Alternativrechnung und vor
+  Baubeginn beantragen.
 - **PV fördert NICHT der Kanton**, sondern der Bund über die **Pronovo-Einmalvergütung** (nach
   Inbetriebnahme) → `[[pv-einmalverguetung-bund-bfe]]`.
 - Eigenleistung möglich, aber nur **Materialkosten** zahlbar.
@@ -50,8 +57,9 @@ Verbesserung ≥ 0,07, Baubewilligung vor 2000, GEAK Plus ab Förderbeitrag CHF 
 ## SZ ↔ ZH im Vergleich
 - **WP-Mechanik:** ZH zahlt **Pauschale je Stufe** (Luft/Wasser CHF 2'900 ≤ 15 kW + 160/zusätzl. kW;
   Erdsonde 6'800 + 420), SZ rechnet **Grundbeitrag + CHF/kW_th linear** (Luft/Wasser 3'200 + 120;
-  Erdsonde 4'800 + 360). Bei kleinen Anlagen (EFH ~8 kW) liegt ZH bei der Luft/Wasser-WP höher
-  (~2'900 vs. SZ ~4'160 — SZ hier sogar günstiger), bei Erdsonden vergleichbar.
+  Erdsonde 4'800 + 360). Bei kleinen Anlagen (EFH ~8 kW_th) zahlt SZ bei der Luft/Wasser-WP
+  **CHF 4'160 gegen ZH CHF 2'900, also 43 % mehr**; die Kurven schneiden sich erst bei rund
+  67 kW_th (Erdsonde rund 72 kW_th) — erst darüber wird SZ günstiger.
 - **Dämmung:** SZ **60/m²** (einheitlich), ZH **40/m²** Einzelmassnahme **+ 60/m² Vollsanierungsbonus
   (bis 100/m²)**; SZ-Bonus ist +40/m². → bei reiner Einzeldämmung SZ höher, bei Vollsanierung ZH höher.
 - **Deckel:** SZ **CHF 300'000/Gesuch**, ZH **CHF 500'000/Gesuch**.

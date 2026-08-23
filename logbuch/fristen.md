@@ -4,6 +4,30 @@ Zentral gepflegt vom Agenten `logbuch`. Eine Zeile pro Frist/Pendenz. Sortiert n
 (naechste zuoberst). Status: offen / beobachten / erledigt / nachfassen / zu pruefen.
 
 
+**NEU 23.08.2026, 23:5x (Session Ausschreibung) — Das Submissionsdossier LOS 281.21 Linoleum
+Therapiekueche ist fertig, liegt aber noch NICHT in der Projektstruktur; Eingabefrist 11.09.2026.**
+Auf Auftrag Raphaels entstand das vollstaendige Anbieterpaket fuer die Bodenbelagsarbeiten in der
+Therapiekueche 2.339 und im Hauswirtschaftsraum 2.338 der Umnutzung Etage B (Begleitschreiben, LV
+mit 21 Positionen in sechs Bereichen, Antwortformular, Adressblatt; DOCX und PDF). Empfaenger ist
+die **INEVO AG** (M. Baldauf), ausgeschrieben ist **FB50 Linoleum** nach der Abklaerung
+Konstruktionsaufbau und Materialisierung vom 21.08.2026, Position C, Mengen ca. 32 m2 und
+10.21 m2. **Warum es hier steht und nicht als erledigt gilt:** die Station macbook-revendo hat
+KEINEN Schreibweg in die Projektablage — der SharePoint-MCP antwortet auf Schreibzugriffe mit 403
+(Files.ReadWrite.All nicht consented), das M365-Zertifikat fehlt auf dieser Station, die m365-CLI
+ist hier nicht installiert, die OneDrive-Projektordner sind leer (nur Ordnergeruest, kein Inhalt),
+und der Mac Mini ist seit drei Tagen offline. Das Paket liegt darum auf dem NAS unter
+`/Volumes/daten/04_Buero/_claude-transfer/260823-2619-LOS281.21-Linoleum-Therapiekueche/`, und der
+Sync-Task `20260823-235423_Ablage-LOS-281.21-Linoleum-Therapiekueche-KISPI.md` in der Mac-Mini-Queue
+kopiert es nach `03_BKP/LOS_281.21 .../281.21 03 AS versand/INEVO AG/`, sobald der Mini wieder
+laeuft. **Zwei Punkte, die vor dem Versand zu klaeren sind:** (1) die Planrevision zum
+Kuechenbelag steht aus — der Ausfuehrungsgrundriss vom 17.08. traegt fuer den Kuechenbereich
+weiterhin FB70 und der Raumstempel 2.338 traegt FB56, beide Diskrepanzen sind im LV als Vorbehalt
+benannt; (2) die Flaeche 32 m2 stammt aus der Raumbeschriftung des Grundrisses, nicht aus einem
+Raumstempel, und die Sockellaenge ist ab Plan geschaetzt. Status: **offen, Ablage wartet auf den
+Mac Mini; Versandfreigabe Raphael.**
+| Dossier am Original erzeugt und Text gegengelesen 23.08.2026 23:5x; Schreibwege einzeln gemessen (403 SharePoint, Zertifikat fehlt, Mini seit 3 Tagen offline laut tailscale status) | 2619 KISPI, Los 281.21 | mittel | offen — Frist 11.09.2026
+
+
 **NEU 23.08.2026, 08:5x (Hub-Chef) — Der Jegen-Entwurf ist zum Versand terminiert; er geht Montag
 07:00 automatisch hinaus, wenn kein Veto kommt.** Der Entwurf zur Massaufnahme der inneren
 Verglasung lag den dritten Tag unversandt im Postfach und wäre morgen zum dritten Mal an seiner

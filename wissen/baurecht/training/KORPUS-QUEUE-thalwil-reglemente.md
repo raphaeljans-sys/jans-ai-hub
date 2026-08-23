@@ -403,6 +403,18 @@ Kette hat mehr ein ungeprüftes Bundesrechts-Zitat offen. **Nächster Schritt f�
 Lauf:** ausserhalb dieser Kette weiterarbeiten (neue KB-Lücken, Health-Check, oder eine zweite
 Re-Verifikationsrunde nach Ablauf der `verifiziert`-Daten der acht re-verifizierten Artikel).
 
+**Run 104 (2026-08-23, ausserhalb T1-T9 und ausserhalb der Bundesrechts-Kette):** Reglemente-Queue
+und Re-Verifikationskette laut eigenen Abschlussvermerken vollständig; stattdessen die seit
+Wissens-Chef Run 21 (03.08.2026) in `wiki/QUESTIONS.md` offene Rest-Frage zu BEZ 2019 Nr. 5
+bearbeitet — Entscheid (BRGE III Nr. 0170/2018) erstmals im Volltext gelesen (Baurekursgericht-ZH-
+Entscheiddatenbank, Rubrik «Absturzsicherungen», dort einziger Treffer): ein § 358-PBG-Fall
+(baupolizeiliche Kontrolle ausserhalb eines Baugesuchs), § 357 PBG nirgends zitiert, 15-%-Schwelle
+der Stadt-Zürcher Richtlinie im Entscheid nicht erwähnt — damit weder bestätigt noch verworfen.
+Neuer `raw/260823_amtlich_zh_brge-iii-0170-2018_bez-2019-nr5.md`, eingearbeitet in
+[[ausnahmebewilligung-und-bestandesschutz]]. Report `outputs/2026-08-23_buch-run104.md`.
+**Nächster Schritt:** keine offene Frage mehr aus der Thalwil-Queue oder der Bundesrechts-Kette;
+frei für Health-Check, neue KB-Lücken aus `QUESTIONS.md`, oder eine zweite Re-Verifikationsrunde.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

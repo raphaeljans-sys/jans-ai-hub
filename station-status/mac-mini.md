@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 23.08.2026 23:42:58
+Stand: 23.08.2026 23:53:25
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 23:34)
@@ -12,4 +12,4 @@ Stand: 23.08.2026 23:42:58
 - keine
 
 ## Hub-Git-Stand (NAS)
-- fb1cc1ba nas-selfcommit: 20 Datei(en) 2026-08-23 23:30
+- 90adad28 wissen/energie: E-R129-5 geschlossen, Kennzeichnungssystem-Destillat

@@ -14,7 +14,7 @@ last_updated: 2026-08-23
 Wer eine **fossile Heizung (Öl/Gas)** durch eine **Wärmepumpe oder Holzheizung** ersetzt, kann von der **Stiftung KliK** die **Klimaprämie** von **ca. CHF 360.– pro kW** neuer Heizleistung beziehen — **ohne Obergrenze** (linear mit der Anlagengrösse) — schweizweit einheitlich, aber in der Regel **alternativ statt zusätzlich** zur kantonalen Heizungsförderung.
 
 ## Kernfakten
-- **Höhe:** **ca. CHF 360.– pro kW** Leistung der neuen Heizung (Beispiel Programmseiten: 100 kW → ca. **CHF 36'000.–**). **Keine Obergrenze** — die Förderung steigt **linear** mit der Heizleistung; sie berechnet sich an der **erzielten CO2-Einsparung** (Grössenvorteil für mittlere/grosse Anlagen).
+- **Höhe:** **ca. CHF 360.– pro kW** Leistung der neuen Heizung (Beispiel Programmseiten: 100 kW → ca. **CHF 36'000.–**). **Keine Obergrenze** — die Förderung steigt **linear** mit der Heizleistung; sie berechnet sich an der **erzielten CO2-Einsparung** (Grössenvorteil für mittlere/grosse Anlagen). ⚠ **abgeleitete Faustregel, kein zugesicherter Satz:** der Foerdersatz ist 18 Rp./kWh Jahresverbrauch bzw. CHF 1.80 je Liter ersetztes Heizoel; die 360 CHF/kW ergeben sich daraus bei rund 2'000 Volllaststunden (100 kW × 2'000 h × 0,18 = CHF 36'000). Bei abweichender Betriebsstundenzahl stimmt die Zahl nicht.
 - **Förderfähig:** Ersatz eines **fossilen** Systems (**Heizöl oder Erdgas**) durch:
   - **Wärmepumpe** (Luft/Wasser, Wasser/Wasser, Sole/Wasser), oder
   - **Holzheizung** (Pellets, Schnitzel, Stückholz — Programmpartner u. a. SFIH Holzfeuerungen).
