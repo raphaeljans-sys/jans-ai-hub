@@ -2,7 +2,7 @@
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
 last_updated: 2026-08-23
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004"]
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004"]
 links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]]
 verifiziert:
   - datum: 2026-07-13
@@ -17,6 +17,10 @@ verifiziert:
     methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 85, Phase 3 (aeltestes verifiziert-Datum unter den established-Artikeln; Reglemente-Queue 2414 Thalwil T1-T8 unveraendert vollstaendig abgearbeitet seit Run 79)"
     umfang: "§§ 311/312/313/314/315/316/318/319/320/321/322/328/329 PBG gegen raw/260607_amtlich_zh_pbg.md (Fassungsstand Nachtrag 133)"
     ergebnis: "CONFIRMED mit 1 Korrektur: § 315 Abs. 1 PBG verlangt seit 1.4.2024 (G vom 23.10.2023, Fussnote 68) die Zustellbegehren-Geltendmachung elektronisch ueber die Plattform, nicht mehr schriftlich; Register-Sweep-Luecke zu [[bauausfuehrung-und-baukontrolle]] (dort fuer § 326 PBG bereits erfasst, Run 30) geschlossen. Uebrige Paragraphen wortgleich, 0 weitere Korrekturen. §§ 41/44/45/48/50/51 GG (Zustaendigkeits-Abschnitt) bleiben ausserhalb Scope, da GG nicht in raw/ vorliegt (Luecke in QUESTIONS.md vermerkt)."
+  - datum: 2026-08-23e
+    methode: "Modell-D-Volltextabgleich (adversarial), Buch-Run 91, GG-Luecke aus Run 85 geschlossen (Reglemente-Queue 2414 Thalwil T1-T9 unveraendert vollstaendig abgearbeitet)"
+    umfang: "§§ 38-52 GG (Behoerden-Abschnitt) + §§ 170-171 GG (Neubeurteilung) frisch von zhlex bezogen (LS 131.1, Nachtrag 132, Stand 1.4.2026) gegen die Zustaendigkeits-Aufzaehlung im Abschnitt 'Zustaendigkeit: wer ist die Baubehoerde' gegengelesen"
+    ergebnis: "CONFIRMED mit 1 Korrektur: § 41 GG (Praesidialentscheide bei dringenden/geringfuegigen Angelegenheiten) traegt NICHT die Aussage 'Bauvorstand/einzelne Mitglieder' als eigener Delegationskanal; die Delegation an einzelne Mitglieder ODER Ausschuesse (z.B. Bauvorstand) steht einheitlich in § 44 GG. Begriff 'Bauvorstand' kommt im GG-Wortlaut nicht vor (0 Treffer), ist kommunale Bezeichnung. Uebrige Fundstellen (§ 48 Abs. 3, § 50, § 51, § 45, § 170 GG) CONFIRMED wortgleich. Neuer raw-Beleg raw/260823_amtlich_zh_gg.md."
 ---
 
 # Baubewilligungsverfahren
@@ -219,14 +223,33 @@ Gewässerabstand vergessen.
 ## Zuständigkeit: wer ist «die Baubehörde»?
 Über Baugesuche entscheidet die örtliche Baubehörde, soweit die Verordnung nichts
 anderes bestimmt (§ 318 PBG). Wer das konkret ist, regelt das **Gemeindegesetz**: im
-Regelfall der Gemeindevorstand (§ 48 Abs. 3 GG), der seine Zuständigkeit aber an eine
-eigenständige Kommission (§ 51 GG), eine unterstellte Kommission (§ 50 GG), einen
-Ausschuss (§ 44 GG), den Bauvorstand/einzelne Mitglieder (§ 41 GG) oder an
-Gemeindeangestellte (§ 45 GG, **Anzeigeverfahren**) delegieren kann. Vor der Baueingabe
-lohnt der Blick in **Gemeindeordnung + Behördenerlass** (richtiger Adressat, richtiges
-Verfahren). Ein **gemeindeinternes** Überprüfungs-/Einspracheverfahren gibt es in
-Bausachen nicht (§ 315 Abs. 3 PBG geht § 170 GG vor); gegen den Entscheid wird **direkt
-ans Baurekursgericht** rekurriert (§ 329 PBG). Belege: [[07-zustaendigkeiten-entscheide-auskuenfte]] (Bd 1, S. 424-429).
+Regelfall der Gemeindevorstand (§ 48 Abs. 3 GG: er «besorgt alle Angelegenheiten, soweit
+das kantonale Recht oder die Gemeindeordnung sie keinem anderen Organ zuweist»), der
+seine Zuständigkeit aber an eine eigenständige Kommission (§ 51 GG), eine unterstellte
+Kommission (§ 50 GG) oder an einzelne Mitglieder bzw. einen Ausschuss — z.B. den
+**Bauvorstand** — (§ 44 GG, **eine** Norm für beide Formen) oder an Gemeindeangestellte
+(§ 45 GG, **Anzeigeverfahren**) delegieren kann. Vor der Baueingabe lohnt der Blick in
+**Gemeindeordnung + Behördenerlass** (richtiger Adressat, richtiges Verfahren). Ein
+**gemeindeinternes** Überprüfungs-/Einspracheverfahren gibt es in Bausachen nicht
+(§ 315 Abs. 3 PBG geht § 170 GG vor); gegen den Entscheid wird **direkt ans
+Baurekursgericht** rekurriert (§ 329 PBG). Belege: [[07-zustaendigkeiten-entscheide-auskuenfte]]
+(Bd 1, S. 424-429).
+
+> **Korrektur (Modell-D-Volltextabgleich, Buch-Run 91, 23.08.2026):** die frühere Fassung
+> führte «den Bauvorstand/einzelne Mitglieder (§ 41 GG)» als eigenen fünften Delegations-
+> kanal neben Kommission/Ausschuss/Gemeindeangestellte. **§ 41 GG trägt diese Aussage
+> nicht** — er regelt ausschliesslich **Präsidialentscheide** (dringende, in der Behörde
+> nicht rechtzeitig behandelbare Angelegenheiten sowie, auf Ermächtigung, Angelegenheiten
+> von geringer Bedeutung), nicht die Delegation an einzelne Mitglieder oder ein Gremium wie
+> den Bauvorstand. Die Delegation an «einzelne Mitglieder oder Ausschüsse aus ihrer Mitte»
+> steht in **§ 44 GG** — derselben Norm, die zuvor schon für «Ausschuss» zitiert war. Der
+> Begriff «Bauvorstand» kommt im GG-Volltext selbst nicht vor (0 Treffer, geprüft); er ist
+> eine kommunale Bezeichnung (Gemeindeordnung) für einen nach § 44 GG oder § 50/51 GG
+> bestellten Ausschuss bzw. eine Kommission. Amtlicher Beleg: `raw/260823_amtlich_zh_gg.md`
+> (LS 131.1, Nachtrag 132, Stand 1.4.2026). Die übrigen vier Fundstellen (§ 48 Abs. 3, § 51,
+> § 50, § 45 GG) sowie § 170 GG (Neubeurteilung) sind **CONFIRMED wortgleich**. Schliesst die
+> in `wiki/QUESTIONS.md` (Buch-Run 85) offene GG-Lücke — das GG lag bislang in keinem
+> Connector/`raw/`-Bestand.
 
 ## Inhalt des Entscheids & Nebenbestimmungen
 Der Entscheid gliedert sich in **Rubrum, Begründung und Dispositiv**; **Baubeschrieb und

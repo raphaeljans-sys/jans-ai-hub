@@ -1,3 +1,165 @@
+## 2026-08-23 — SIA-Sweep, sechzehnte Fortsetzung: Korrigenda C1/C2 zu SIA 2024 vollständig gelesen (kostenlose Downloads), Kategorie-8-Werte C1↔C2 identisch
+
+**Auftrag Raphael:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen
+ohne Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register
+nachführen, Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht) und
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen. Ein `claude`-Prozess mit demselben
+Startprompt (PID 13981, gestartet über `scripts/claude-run.sh --name mschub81`) ist dieser Lauf
+selbst; parallel lief ein zweiter Lauf derselben KB (`mschub79`, QUESTIONS-Abarbeitung, PID
+11101) — kein Konkurrent, siehe Kollisionsprüfung unten.
+
+**Vorlauf gelesen:** `CHANGELOG.md` (Kopf: SIA-Sweep fünfzehnte Fortsetzung) und
+`outputs/2026-08-23_sia-sweep-fuenfzehnte-fortsetzung.md`. Jener Lauf hatte den Marker-Abgleich
+von Abschnitt A (266 SIA-Zeilen) auf 0 offene Zeilen gebracht und als letzten offenen Punkt eine
+neu entdeckte **zweite Korrigenda C2** zu SIA 2024:2021 hinterlassen (Datum/Inhalt ungeklärt,
+Bezahlschranke vermutet) sowie explizit vermerkt: aus der Marker-Methode selbst kein weiterer
+Kandidat mehr bekannt.
+
+**Eigene Verifikation vor Beginn:** Python-Scan von `wiki/REGISTER.md` Abschnitt A (Zeilen
+141-431) auf die acht Direktprüfungs-Marker bestätigt unabhängig **0 Zeilen ohne Marker** — der
+Befund der fünfzehnten Fortsetzung war korrekt, kein neuer Sweep-Kandidat aus dieser Methode.
+Statt die drei mehrfach erschöpften Zweige (N-SIASWEEP-2/3, Blindzone, Register-Vervollständigung)
+erneut zu versuchen, wurde der von der fünfzehnten Fortsetzung offen gelassene, noch nicht
+erschöpfte Punkt weiterverfolgt: die C2-Korrigenda zu SIA 2024.
+
+**Durchbruch: beide Korrigenda sind kostenlose Downloads.** Anders als angenommen verlangen
+weder C1 noch C2 einen Kauf — WebSearch fand die deutsche Produktseite für C2
+(`shop.sia.ch/normenwerk/architekt/sia%202024-c2/d/D/Product`), deren HTML per `curl -A
+"Mozilla/5.0"` geladen und nach dem eingebetteten `DownloadAnhang`-UUID-Link durchsucht wurde
+(dieselbe Technik wie beim SIA-405-Leseprobe-Fund der achten Fortsetzung). Beide PDFs
+vollständig heruntergeladen und mit `/opt/homebrew/bin/pdftotext -layout` gelesen (27 Seiten
+je Datei; `pdftotext` ohne vollen Pfad ist auf dieser Station nicht im `PATH`, nur unter
+`/opt/homebrew/bin/`).
+
+**C1:2024** (SNR 592024:2021-C1:2024 de): von der SIA-Kommission für Gebäudetechnik- und
+Energienormen am **14. Mai 2024** genehmigt, **gültig ab 1. Juni 2024** (Titelblatt-Wortlaut).
+Ändert 11 Definitionsziffern (0.2.1.1, 0.2.4, 1.1.2.14, 1.1.4.6, 1.1.4.10, 1.1.4.11, 1.1.5.6,
+1.1.6.1, 1.1.6.2, 1.1.6.3, 1.2), ersetzt vollständig die Tabellen 4-9 (Energie-/Leistungsbedarf
+pro Raumnutzung), das Bürobeispiel Ziff. 3.2 und Anhang A.
+
+**C2:2025** (SNR 592024:2021-C2:2025 de): von derselben Kommission am **6. Mai 2025**
+genehmigt, **gültig ab 1. Juni 2025**. Ändert 3 Definitionsziffern (1.1.2.12 neu, 1.1.6.1 und
+1.1.6.3 als erneute Nachkorrektur derselben Formeln, die schon C1 angefasst hatte) und ersetzt
+erneut vollständig dieselben Tabellen 4-9.
+
+**Zentraler Sachbefund (löst die eigentliche Bring-Schuld):** direkter Zeilenvergleich der
+Kategorie-8-Zeilen (8.01 Bettenzimmer, 8.02 Stationszimmer, 8.03 Behandlungsraum) in allen
+sechs Tabellen (4-9) zwischen den beiden vollständigen Textextraktion: **zeichenidentisch** in
+C1 und C2. Die von der KB `energie` zitierten Kat.-VIII-Elektrizitätskennzahlen (Ziff.
+4.2.1/4.2.3 im dortigen Grundlagenbericht-Numbering, VIII.1=36/VIII.2≈30 kWh/m²EBF·a, Run 80)
+sind von C2 gegenüber C1:2024 damit **nicht** betroffen — die bereits in `energie` geschlossene
+Frage bleibt auch unter C2:2025 gültig. Nicht geklärt: ob C1 gegenüber dem Basistext 2021
+selbst (weiterhin nicht im Haus) echte Wertänderungen vornahm.
+
+**Neues Destillat** `destillate/sia-2024-korrigenda-c1-c2.md` (status `established` — Modell D,
+beide Volltexte vollständig direkt gelesen, kein Kauf nötig). `destillate/sia-2024-2021.md`
+nachgeführt (Verweis auf das neue Destillat statt der bisherigen offenen Bring-Schuld,
+`links`-Frontmatter ergänzt). `wiki/REGISTER.md` Zeile SIA 2024 um den Abschluss-Absatz
+ergänzt. `wiki/QUESTIONS.md` additiver Nachtrag beim bestehenden Punkt, Ursprungswortlaut
+unangetastet. `destillate/INDEX.md` neue Zeile.
+
+**Cross-KB-Bringschuld an `energie` ausgeführt** (Rule `wissens-bibliothekar`, nicht wie im
+Destillat ursprünglich als „noch offen" vermerkt — im selben Lauf nachgeholt): additiver
+Nachtrag in `wissen/energie/wiki/QUESTIONS.md` bei Run 80/«SIA-2024-Normstand für die
+Healthcare-EBF-Schwelle (F100)», mit Verweis auf das neue `normen`-Destillat.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft — Neuanlage
+`destillate/sia-2024-korrigenda-c1-c2.md` (`??`, echte Neuanlage), `sia-2024-2021.md` 13/12
+(zwei gezielte Absatzersetzungen plus Frontmatter-Link), `wiki/REGISTER.md` 1/1 (reiner
+Zeilenersatz der eigenen SIA-2024-Zeile), `destillate/INDEX.md` 1/0 (reine Neuzeile),
+`wiki/QUESTIONS.md` 66/0 — davon 45 Zeilen ein additiver Nachtrag des parallel laufenden
+QUESTIONS-Abarbeitung-13-Laufs (Diff einzeln gegengelesen: eigener Block unangetastet,
+korrekt platziert, keine Kollision), 21 Zeilen der eigene Nachtrag; `wissen/energie/wiki/
+QUESTIONS.md` 9/0 (rein additiv). Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet / offene Bring-Schulden:**
+- Der Basistext SIA 2024:2021 selbst bleibt kostenpflichtig (CHF 130.–) und nicht im Haus —
+  Beschaffung weiterhin Raphaels Entscheid.
+- Ob C1 gegenüber der Erstausgabe 2021 echte Wertänderungen an Kategorie 8 vornahm, ist ohne
+  den Basistext nicht feststellbar.
+- Die Formelkorrektur in C2 Ziff. 1.1.6.1 (gestrichener Schlusszusatz «ohne Berücksichtigung
+  der Gleichzeitigkeit») ist nur textlich, nicht an einem Rendering mit korrekt dargestellten
+  griechischen Indizes/Subskripten geprüft — Vorbehalt im Destillat vermerkt.
+- Die drei mehrfach erschöpften Sweep-Zweige (N-SIASWEEP-2/3, Blindzone, Register-
+  Vervollständigung) erneut nicht angegangen; kein neuer Ansatzpunkt entstanden.
+- **Aus der Marker-Abgleich-Methode (Abschnitt A) bleibt weiterhin kein neuer, selbständig
+  lösbarer SIA-Sweep-Kandidat bekannt.** Für eine Fortsetzung ohne neue Bring-Schuld als
+  Ausgangspunkt bräuchte es eine andere Methode als in den letzten sechzehn Läufen.
+
+Report: `outputs/2026-08-23_sia-sweep-sechzehnte-fortsetzung.md`.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 13: N58-4 (VKF-Restindex) von vager Sammelfrage zu präzisem Zehn-Positionen-Rückstand
+
+**Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je
+Aussage mit Norm/Ausgabe/Ziffer, Verifikationsstatus des Destillats vor Zitat lesen (nur
+`established` zitierfähig). CHANGELOG und Report des letzten Laufs zuerst lesen, dort
+weitermachen. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag setzen, nach jedem Schreiben `git diff --numstat` prüfen. Hinweis: ein
+`claude`-Prozess mit demselben Lauf-Namen ist der eigene Lauf, kein Konkurrent.
+
+**`ps aux` zu Laufbeginn geprüft:** eigener Prozess korrekt erkannt. Ein zweiter
+`claude -p`-Prozess läuft parallel an derselben KB (`normen`, Auftrag «SIA-Sweep fortsetzen»,
+PID 13981) — kein Konkurrent auf denselben Abschnitt (SIA-Sweep vs. hier VKF-Restindex), beide
+schreiben additiv; nach diesem Lauf `git diff --numstat` gezielt nur auf die eigenen zwei Dateien
+geprüft. Ein dritter Prozess arbeitet an der KB `baurecht` (fremder Scope).
+
+**Vorlauf gelesen:** `CHANGELOG.md` (Kopf: QUESTIONS-Abarbeitung 12) und
+`outputs/2026-08-23_questions-abarbeitung12.md`. Run 12 hatte die selbständig lösbaren
+QUESTIONS-Punkte für ausgeschöpft erklärt und auf drei grössere, bewusst zurückgestellte Linien
+verwiesen: N58-1 (Abdeckungsrichtung, Systemaudit), N58-4 (Restindex, 35 von 83 Indexeinträgen
+gesweept) oder ein neuer Bring-Schuld-/Sweep-Fund. Eigene Prüfung des gesamten `QUESTIONS.md`
+(Grep aller `### `/`## `-Abschnitte) bestätigt: kein weiterer selbständig lösbarer Punkt neben
+den bereits genannten drei Linien. N58-1 bleibt ein Systemaudit (Abdeckung jedes
+Bestandsdestillats gegen die eigene Fassung) und damit ausserhalb des Formats eines einzelnen
+QUESTIONS-Laufs. N58-4 dagegen liess sich auf einen bounded, primärquellen-gestützten Schritt
+verengen — dort angesetzt.
+
+**Durchgeführt.** `bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015` direkt abgerufen
+(`curl -sL -A "Mozilla/5.0"`, Astro-JSON-Payload, Extraktion über das Feld `"title"` — dieselbe
+Technik wie in Run 42 etabliert). Der Index ist seit dem ursprünglichen Run-58-Snapshot
+gewachsen: **94 aktuelle deutschsprachige Einträge** in elf Kategorien (a–k), nicht mehr 83.
+Kein neuer, bisher unbekannter Fassungswechsel gefunden — der einzige laufende (BRL 12-15/26-15,
+Teilrevision 2026, IOTH-Beschluss 06.03.2026) ist bereits vollständig in
+`destillate/vkf-teilrevision-2026-pyrotechnik.md` dokumentiert, hier nur gegengeprüft (Titel
+tragen im Index korrekt «Gültig ab 01.04.2026» bzw. «Gültig bis 31.03.2026»).
+
+Die vage Sammelfrage in zwei präzise Teile aufgelöst:
+
+1. **IOTH-Beschlüsse «temporäre Unterbringung von Asylsuchenden»**: exakt sechs Beschlüsse
+   (2015-12-23, 2017-03-03, 2019-09-19, 2021-09-23, 2023-09-21, 2025-09-18), rund zweijährlicher
+   Rhythmus, identischer Titel — Muster einer befristeten Verwaltungsmassnahme, kein
+   bauordnungsrelevantes Dauerrecht für die üblichen JANS-Projekttypen. Bewusst zurückgestellt,
+   keine Destillation beauftragt (eigene Einschätzung, keine Primärtext-Lektüre).
+2. **«2000er-Reihe» präzisiert**: der Index führt 2000-15 bis 2011-15 durchgehend (12 Positionen),
+   die KB nur 2001-15 und 2005-15. Zehn benannte Lücken mit Titel dokumentiert (Details in
+   `wiki/QUESTIONS.md`, N58-4); als praxisrelevanteste vier markiert (2003-15 Brandschutzpläne,
+   2008-15 Baustellen-Brandschutz, 2009-15 Sicherheitsstromversorgung, 2011-15 Gebäudebegrünung).
+   Nebenbefund: **2006-15 trägt denselben Titel wie die bereits destillierte BRL 108-15**
+   («Gewährleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS)») — ob eigenständiges
+   Merkblatt oder Arbeitshilfe zu 108-15, ist ungeklärt und als Erstprüfung für eine künftige
+   Destillation vermerkt (Verwechslungsgefahr analog N57-2 SIA 416/416-1).
+
+**Nicht destilliert.** Keine der zehn Lücken wurde in diesem Lauf am Volltext gelesen oder
+destilliert — reine Index-/Metadaten-Recherche, keine Norm-Aussage mit Fundstelle Norm/Ausgabe/
+Ziffer daraus abgeleitet. Ein künftiger Destillat-Lauf kann direkt mit der priorisierten Liste
+starten, statt den Index erneut zu sweepen.
+
+**Nachgeführt:** `wiki/QUESTIONS.md` (additiver Nachtrag bei N58-4, Ursprungswortlaut
+unangetastet), dieser CHANGELOG-Eintrag, `outputs/2026-08-23_questions-abarbeitung13.md`.
+
+**Verifikation:** `git diff --numstat` nach dem Schreibvorgang: `wiki/QUESTIONS.md` 45/0 (rein
+additiv). Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit über
+`scripts/nas-commit-now.sh`).
+
+**Weiterhin offen, unverändert gegenüber Run 12:** N58-1 (Abdeckungsrichtung, Systemaudit),
+N60-1/N60-2 (Entscheid Raphael), SVGW-Scope (Entscheid Raphael), Bezahlschranken-Beschaffungen
+(SIA 380:2022 u.a., Bring-Schuld Raphael). N58-4 ist mit diesem Lauf nicht geschlossen, aber vom
+vagen Sammelposten zu einer konkret abarbeitbaren Zehner-Liste verengt — das ist der Ertrag
+dieses Laufs.
+
 ## 2026-08-23 — QUESTIONS-Abarbeitung 12: N59-4 (VKF 104-15) geschlossen, unerwarteter Fund FAQ 104-001 als Vorstufe der 2022er-Regel
 
 **Auftrag Raphael:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je

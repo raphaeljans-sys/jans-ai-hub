@@ -1,5 +1,40 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ GEKLÄRT 2026-08-23 (Buch-Run 91) — GG-Lücke aus Run 85 geschlossen: §§ 38-52 + 170-171 GG frisch bezogen, 1 Korrektur (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»)
+
+**War offen seit Buch-Run 85** (Zeile unten, «Offen bleibt … §§ 41/44/45/48/50/51 GG»).
+Reglemente-Queue 2414 Thalwil T1-T9 bleibt seit Run 87 vollständig abgearbeitet; als
+nächster Schritt aus dem von Run 90 vorgeschlagenen Dreier (Re-Verifikationskette
+fortsetzen / GG-Lücke schliessen / Trennsystem-Frage aus Run 86 recherchieren) wurde die
+GG-Lücke gewählt, weil sie am konkretesten und ohne weitere Recherche-Unsicherheit lösbar
+war.
+
+Das GG (LS 131.1) liegt nicht im Connector `skills/baurecht/connectors/recht-ch.mjs`
+(`--list` bestätigt keinen Erlass-Key). Volltext (Nachtrag 132, Stand 1.4.2026) direkt von
+`notes.zh.ch` bezogen (analog VErV in Run 83), mit `pdftotext -layout` extrahiert, Auszug
+§§ 38-52 (Abschnitt Behörden) und §§ 170-171 (Neubeurteilung) gegen die
+Zuständigkeits-Aufzählung in [[baubewilligungsverfahren]] gegengelesen.
+
+**1 Korrektur:** die alte Fassung führte «den Bauvorstand/einzelne Mitglieder (§ 41 GG)»
+als eigenen Delegationskanal neben Kommission/Ausschuss/Gemeindeangestellte. **§ 41 GG
+regelt ausschliesslich Präsidialentscheide** (dringende, nicht rechtzeitig behandelbare
+Angelegenheiten; auf Ermächtigung auch Angelegenheiten von geringer Bedeutung) — nicht die
+Delegation an einzelne Mitglieder. Die Delegation an «einzelne Mitglieder oder Ausschüsse
+aus ihrer Mitte» (worunter auch ein kommunaler Bauvorstand fällt) steht einheitlich in
+**§ 44 GG**, derselben Norm, die zuvor schon für «Ausschuss» zitiert war. Der Begriff
+«Bauvorstand» kommt im GG-Wortlaut selbst nicht vor (0 Treffer, grep-geprüft) — er ist eine
+kommunale Bezeichnung (Gemeindeordnung), keine GG-Kategorie.
+
+**Übrige Fundstellen CONFIRMED wortgleich:** § 48 Abs. 3 GG (Auffangzuständigkeit
+Gemeindevorstand), § 51 GG (eigenständige Kommission), § 50 GG (unterstellte Kommission),
+§ 45 GG (Gemeindeangestellte), § 170 GG (Neubeurteilung, gemeindeinternes Rechtsmittel bei
+Delegation).
+
+**In die KB eingearbeitet:** [[baubewilligungsverfahren]], Abschnitt «Zuständigkeit»
+korrigiert (§ 44 GG deckt jetzt beide Formen ab, Korrektur-Vermerk im Fliesstext), neuer
+`verifiziert`-Eintrag. Neu: `raw/260823_amtlich_zh_gg.md`.
+Quelle: `outputs/2026-08-23_buch-run91.md`.
+
 ## OFFEN 2026-08-23 (Buch-Run 86) — welche Rechtsgrundlage traegt heute die gebaeudebezogene Trennsystem-Pflicht (Meteor-/Schmutzwasser getrennt ableiten)?
 
 **Fund im Zuge der Modell-D-Re-Verifikation von [[baureife-und-erschliessung]]** (zweitaeltestes
@@ -73,6 +108,9 @@ Connector `recht-ch.mjs` das GG (LS 131.1) nicht als Erlass-Key kennt (`--list` 
 23.08.2026). Bei einem künftigen Lauf: GG-Volltext frisch von zhlex beschaffen (analog VErV
 in Run 83) und die dortigen §-Zitate gegenlesen.
 Quelle: `outputs/2026-08-23_buch-run85.md`.
+
+**⚠ Geschlossen durch Buch-Run 91 (23.08.2026), siehe Eintrag oben:** GG frisch bezogen, 1
+Korrektur (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»).
 
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 80) — Gilt die 10°-Schrägdach-Schwelle (BEZ 1996 Nr. 30) auch für die 4-m/5-m-Grenze der besonderen Gebäude?
 

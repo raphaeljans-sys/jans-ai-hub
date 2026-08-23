@@ -3,6 +3,54 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 91: GG-Lücke aus Run 85 geschlossen — §§ 38-52 + 170-171 Gemeindegesetz frisch bezogen, [[baubewilligungsverfahren]] korrigiert (§ 41 GG trägt nicht «Bauvorstand/einzelne Mitglieder»)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die
+  Queue ist seit Run 87 vollständig T1-T9 abgearbeitet, Priorität (d) seit Run 88/89
+  erschöpft (siehe `training/KORPUS-QUEUE-thalwil-reglemente.md`). Statt Leerlauf einen der
+  drei von Run 90 vorgeschlagenen nächsten Schritte aufgegriffen: die seit Run 85 offene
+  GG-Lücke (§§ 41/44/45/48/50/51 Gemeindegesetz im Abschnitt «Zuständigkeit» von
+  [[baubewilligungsverfahren]] waren nicht Modell-D-verifizierbar, weil das GG weder in
+  `raw/` noch im Connector `skills/baurecht/connectors/recht-ch.mjs` als Erlass-Key vorlag)
+  — gewählt statt der beiden Alternativen (weitere Re-Verifikationsrunde
+  [[ausnuetzungsuebertragung]]/[[nutzungsziffern]], bereits zweimal in Run 55 geprüft; offene
+  Trennsystem-Rechtsgrundlage aus Run 86, reine Recherche ohne sicheren Fund), weil sie am
+  konkretesten und direkt lösbar war.
+- **Buch-Destillate zuerst geprüft:** kein Kapitel des Standardwerks behandelt das
+  Gemeindegesetz im Detail der Zuständigkeitsdelegation; massgeblich ist der amtliche
+  GG-Volltext.
+- **Vorgehen:** GG (LS 131.1, Nachtrag 132, Stand 1.4.2026) direkt von `notes.zh.ch` bezogen
+  (analog VErV in Run 83, da kein Connector-Key existiert), mit `pdftotext -layout`
+  extrahiert (42 Seiten, `/opt/homebrew/bin/pdftotext` — lag nicht im minimalen
+  Session-`PATH`, gleiche Falle wie in Run 83/89/90 dokumentiert). §§ 38-52 (4. Abschnitt
+  «Behörden») und §§ 170-171 (Neubeurteilung) Wort für Wort gegen die Zuständigkeits-
+  Aufzählung in [[baubewilligungsverfahren]] gegengelesen.
+- **1 Korrektur:** die alte Fassung führte «den Bauvorstand/einzelne Mitglieder (§ 41 GG)»
+  als eigenen fünften Delegationskanal. **§ 41 GG regelt ausschliesslich Präsidialentscheide**
+  (dringende, in der Behörde nicht rechtzeitig behandelbare Angelegenheiten; auf
+  Ermächtigung auch Angelegenheiten von geringer Bedeutung) — keine Delegation an einzelne
+  Mitglieder. Die Delegation an «einzelne Mitglieder oder Ausschüsse aus ihrer Mitte» (worunter
+  auch ein kommunaler Bauvorstand fällt) steht einheitlich in **§ 44 GG**, derselben Norm,
+  die zuvor schon für «Ausschuss» zitiert war. Der Begriff «Bauvorstand» kommt im GG-Wortlaut
+  selbst nicht vor (0 Treffer, grep-geprüft) — kommunale Bezeichnung, keine GG-Kategorie.
+- **Übrige Fundstellen CONFIRMED wortgleich:** § 48 Abs. 3 GG (Auffangzuständigkeit
+  Gemeindevorstand), § 51 GG (eigenständige Kommission), § 50 GG (unterstellte Kommission),
+  § 45 GG (Gemeindeangestellte), § 170 GG (Neubeurteilung als gemeindeinternes Rechtsmittel
+  bei Delegation, stützt die im Artikel bereits stehende Aussage «§ 315 Abs. 3 PBG geht
+  § 170 GG vor»).
+- **Neu:** `raw/260823_amtlich_zh_gg.md` (Auszug §§ 38-52 + 170-171, nicht Volltext — die
+  übrigen 5 Teile des GG betreffen Stimmberechtigte/Finanzhaushalt/Rechnungsprüfung/
+  Gebietsänderungen und tragen keine im Artikel zitierte Aussage).
+- **Register:** `wiki/baubewilligungsverfahren.md` (Fliesstext-Korrektur + Korrektur-Vermerk
+  + Frontmatter `sources`/`verifiziert`), `wiki/QUESTIONS.md` (neuer GEKLÄRT-Eintrag +
+  Korrekturvermerk am alten Run-85-Eintrag, nichts überschrieben), `raw/260823_amtlich_zh_gg.md`
+  neu, Report `outputs/2026-08-23_buch-run91.md`.
+- **Diff-Kontrolle (Rule 260811):** `git diff --numstat` nativ per SSH geprüft (Synology,
+  LAN-IP 192.168.1.10) — `baubewilligungsverfahren.md` additiv (neuer Fliesstext-Absatz +
+  neuer Frontmatter-Eintrag, bestehender Text vollständig erhalten), `QUESTIONS.md` additiv
+  (neuer Abschnitt oben + angehängter Korrekturvermerk am bestehenden Run-85-Eintrag), CHANGELOG
+  und `raw/260823_amtlich_zh_gg.md` reine Anfügung/Neuanlage. Kein Bestandstext gelöscht.
+
 ## 2026-08-23 — Buch-Run 90: Modell-D-Re-Verifikation [[bestandsumbau-eingriffstiefe]] — §§ 59-65 + § 72 PBG SZ CONFIRMED wortgleich, kein Fassungsstand-Drift (Phase 3, Fortsetzung nach Run 86)
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten». Geprüft: die Queue

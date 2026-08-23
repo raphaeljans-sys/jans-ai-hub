@@ -1402,6 +1402,15 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   [[ausnuetzungsuebertragung]] oder [[nutzungsziffern]] (beide noch auf 2026-07-25, viertaeltestes
   Datum) re-verifizieren; oder die GG-Luecke aus Run 85; oder die offene Trennsystem-Frage aus
   Run 86.
+- **Buch-Run 91 (2026-08-23):** GG-Luecke aus Run 85 geschlossen (einer der drei von Run 90
+  vorgeschlagenen naechsten Schritte, gewaehlt als konkretester ohne Recherche-Unsicherheit).
+  GG (LS 131.1, Nachtrag 132) frisch von zhlex bezogen (kein Connector-Key), §§ 38-52 +
+  170-171 gegen [[baubewilligungsverfahren]] gegengelesen. **1 Korrektur:** § 41 GG regelt
+  Praesidialentscheide, nicht «Bauvorstand/einzelne Mitglieder» — diese Delegation steht in
+  § 44 GG (derselben Norm wie «Ausschuss»). Uebrige Fundstellen (§§ 45/48/50/51/170 GG)
+  CONFIRMED wortgleich. Neu: `raw/260823_amtlich_zh_gg.md`. **Naechster Schritt fuer einen
+  kuenftigen Lauf:** [[ausnuetzungsuebertragung]] oder [[nutzungsziffern]] re-verifizieren
+  (weiterhin viertaeltestes Datum); oder die offene Trennsystem-Frage aus Run 86.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

@@ -1257,6 +1257,15 @@ Dateiänderung prüfen, bevor das Register nachgeführt wird.
   Korrigenda C1:2024 (SIA-Grundlagenbericht zur Revision 2021, Ziff. 4.2.1/4.2.3). Das ⚠-Flag des
   Wissens-Chefs Run 8 ist damit erledigt. Restvorbehalt bleibt vermerkt: der bezahlte Normvolltext
   Anhang F lag nicht vor, die Werte sind aus dem offiziellen Grundlagenbericht rekonstruiert.
+  > **Cross-KB-Nachtrag 23.08.2026 (KB `normen`, SIA-Sweep sechzehnte Fortsetzung).** Die KB `normen`
+  > hat inzwischen eine **zweite** Korrigenda entdeckt und beide Korrigenda-Volltexte vollständig
+  > gelesen (kostenlose SRD-Downloads, keine Bezahlschranke): **C1:2024** gültig ab 01.06.2024,
+  > **C2:2025** gültig ab 01.06.2025. Direkter Zeilenvergleich der Kategorie-8-Zeilen (Bettenzimmer,
+  > Stationszimmer, Behandlungsraum) in den Tabellen 4-9 zwischen C1 und C2: **zeichenidentisch** —
+  > C2 ändert die hier zitierten Elektrizitätskennzahlen gegenüber C1:2024 nicht. Diese geschlossene
+  > Frage bleibt also auch unter C2:2025 gültig. Nicht geprüft: ob C1 gegenüber der Erstausgabe 2021
+  > selbst (Basistext weiterhin nicht im Haus) echte Wertänderungen vornahm. Details/Volltext-Fundstellen:
+  > `wissen/normen/destillate/sia-2024-korrigenda-c1-c2.md` (status `established`).
 
 - [ ] **E103 — Schweizer Flächenkennwert je Pflegeplatz (m²EBF/Platz).** Neu eröffnet. Es existiert
   weder in dieser KB noch in den Skills `healthcare-wirtschaftlichkeit`/`kostenschaetzung` noch

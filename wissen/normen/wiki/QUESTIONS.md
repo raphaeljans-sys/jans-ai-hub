@@ -714,6 +714,51 @@ temporären Unterbringung von Asylsuchenden** (fortlaufend bis 2025-09-18) und d
 Ebenfalls ungeprüft: die französischen und italienischen Fassungen sowie die **Anhänge** aller
 Richtlinien mit neuer Fassung.
 
+> ⚠ **Vertieft 23.08.2026 (QUESTIONS-Abarbeitung 13) — die vage Sammelfrage in zwei präzise
+> Teile aufgelöst, kein Systemaudit gefahren.** Direktabruf von
+> `bsvonline.ch/de/brandschutzvorschriften/vorschriften-2015` (Astro-JSON-Payload, wie in Run 42
+> etabliert; `curl -sL -A "Mozilla/5.0"`, Extraktion über das Feld `"title"`, nicht `grep` auf
+> sichtbaren Text). Der Index ist gewachsen: **94 aktuelle deutschsprachige Einträge** in den elf
+> Kategorien a–k (IOTH/Norm/Richtlinien/Verzeichnisse/Erläuterungen/Arbeitshilfen/Merkblätter/
+> Musterweisungen/Reglemente/Formulare/Checklisten), nicht mehr 83 wie beim ursprünglichen Stand
+> von Run 58. Kein neuer Fassungswechsel entdeckt ausser dem bereits bekannten (12-15/26-15,
+> Teilrevision 2026, `vkf-teilrevision-2026-pyrotechnik.md` — dort bereits vollständig
+> dokumentiert, hier nur gegengeprüft).
+>
+> **Klasse 1 (IOTH-Asylsuchende) — geprüft, bewusst zurückgestellt, kein Destillat-Auftrag.** Die
+> Reihe zählt **sechs** Beschlüsse, nicht «fortlaufend bis 2025»: 2015-12-23, 2017-03-03,
+> 2019-09-19, 2021-09-23, 2023-09-21, 2025-09-18 (Titel exakt aus dem Index). Das Muster (rund
+> zweijährlicher Rhythmus, immer derselbe Titel) zeigt eine **befristete Verwaltungsmassnahme**
+> zur temporären Unterbringung, kein bauordnungsrelevantes Dauerrecht für die üblichen
+> JANS-Projekttypen (Gesundheitsbau, Wohnbau, Gewerbe). Eigene Einschätzung, nicht am
+> Beschlusstext selbst verifiziert (kein PDF gelesen) — falls ein konkretes Projekt je
+> Asylunterkünfte betrifft, zuerst den jüngsten Beschluss (2025-09-18) beschaffen und dann prüfen,
+> ob er noch in Kraft ist.
+>
+> **Klasse 2 (2000er-Merkblätter) — präzisiert: 12 Positionen, nicht «die 2000er-Reihe» vage.**
+> Der Index führt **2000-15 bis 2011-15** durchgehend (12 Titel), die KB nur zwei davon
+> (2001-15 Solaranlagen, 2005-15 Lithium-Ionen-Batterien). **Zehn echte Lücken, mit Titel:**
+> 2000-15 Brandschutzanwendung im Einzelfall, 2002-15 Zeltbauten für temporäre Veranstaltungen,
+> 2003-15 Brandschutzpläne/Flucht- und Rettungswegpläne/Feuerwehrpläne (plus eigene
+> Musterpläne/Symbole-Unterpositionen), 2004-15 Durchführungen durch brandabschnittbildende
+> Bauteile, 2006-15 Gewährleistung der Betriebsbereitschaft von Brandfallsteuerungen (BFS),
+> 2007-15 Lagerung von Munition, 2008-15 Brandverhütung auf Baustellen (mit neun
+> Checklisten/Handouts A1–A9 als Unterpositionen, praktische Arbeitshilfen ohne eigenen
+> Normcharakter), 2009-15 Sicherheitsstromversorgung, 2010-15 Brandschutz in Kompaktlagern,
+> 2011-15 Gebäudebegrünung. **Nebenbefund, nicht aufgelöst:** 2006-15 trägt denselben Titel wie
+> die bereits destillierte Richtlinie BRL 108-15 («Gewährleistung der Betriebsbereitschaft von
+> Brandfallsteuerungen (BFS)») — ob 2006-15 ein eigenständiges Merkblatt mit anderem Fokus ist
+> oder nur die Arbeitshilfe zu 108-15, ist ungeklärt und sollte vor einer Destillation als Erstes
+> geprüft werden (Verwechslungsgefahr wie bei N57-2 SIA 416/416-1).
+>
+> **Nicht destilliert** (Bring-Schuld/nächster Schritt, kein einzelnes Projekt liest hier mit):
+> 2003-15, 2008-15, 2009-15 und 2011-15 sind für die Praxis am ehesten relevant (Brandschutzpläne,
+> Baustellen-Brandschutz, Sicherheitsstromversorgung, Fassadenbegrünung — Letzteres mit
+> direktem Bezug zu aktuellen Gebäudebegrünungs-Projekten). Priorisierungsvorschlag für einen
+> künftigen Lauf, keine Entscheidung getroffen. Quelle: `bsvonline.ch/de/brandschutzvorschriften/
+> vorschriften-2015`, abgerufen 23.08.2026, lokal gesichert unter `/tmp/normsweep-vorschriften2015.html`
+> (nicht Teil des Repos, nur Lauf-Beleg).
+
 ---
 
 ## Normen-Lauf Run 57 (19.08.2026) — N56-1 geschlossen; die Norm ist zurückgezogen
@@ -3941,6 +3986,27 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   > der Kat.-VIII-Kennzahlen (Elektrizität Ziff. 4.2.1/4.2.3) prüfen, ob C2 diese betrifft. Der
   > Volltext (inkl. Anhang A/F) bleibt unverändert nicht im Haus. Details:
   > `wiki/REGISTER.md`, Zeile SIA 2024; neuer Metadaten-Stub `destillate/sia-2024-2021.md`.
+  >
+  > ✅ **GESCHLOSSEN 23.08.2026 (SIA-Sweep, sechzehnte Fortsetzung).** Beide Korrigenda C1 und
+  > C2 waren entgegen der Annahme im Nachtrag oben **kostenlose Downloads** (0.00 CHF, SRD,
+  > keine Bezahlschranke) und wurden vollständig gelesen (je 27 S., `pdftotext -layout`).
+  > **C1:2024** gültig ab 01.06.2024 (genehmigt 14.05.2024 von der SIA-Kommission für
+  > Gebäudetechnik- und Energienormen), **C2:2025** gültig ab 01.06.2025 (genehmigt
+  > 06.05.2025, dieselbe Kommission) — beide Angaben direkt am Titelblatt/Genehmigungstext
+  > des jeweiligen Originals gelesen, nicht aus einer Sekundärquelle. **Antwort auf die
+  > eigentliche Frage:** C2 ändert drei Definitionsziffern (1.1.2.12 neu, 1.1.6.1 und 1.1.6.3
+  > erneute Korrektur derselben Formeln, die schon C1 angefasst hatte) und ersetzt erneut
+  > vollständig die Tabellen 4-9. Direkter Zeilenvergleich der Kategorie-8-Zeilen (Bettenzimmer
+  > 8.01, Stationszimmer 8.02, Behandlungsraum 8.03) in allen sechs Tabellen zwischen C1 und C2:
+  > **zeichenidentisch** — die von `energie` zitierten Kat.-VIII-Elektrizitätskennzahlen sind
+  > von C2 gegenüber C1:2024 nicht betroffen. **Nicht geprüft:** ob C1 gegenüber der
+  > Erstausgabe 2021 selbst (Volltext weiterhin nicht im Haus) echte Wertänderungen an
+  > Kategorie 8 vornahm — nur der Schritt C1→C2 ist belegt. Neues Destillat
+  > `destillate/sia-2024-korrigenda-c1-c2.md` (status `established`). **Cross-KB-Bringschuld an
+  > `energie`:** der Befund selbst gehört als Nachtrag in
+  > `wissen/energie/destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` bzw. die
+  > dortige `QUESTIONS.md` — in diesem Lauf aus Zeitgründen nicht mehr ausgeführt, siehe
+  > CHANGELOG.
 
 - [ ] **SN EN 520 (Gipsplatten — Begriffe, Anforderungen, Prüfverfahren) fehlt im Bestand.**
   Gebraucht für 2619 KISPI (Korrex Brandschutzexperte 21.07.2026: «Rohdichte Gipskartonplatten
