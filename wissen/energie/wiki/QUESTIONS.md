@@ -3578,82 +3578,98 @@ durchfuehrbar.
   dass die Punktwerte eine freie Setzung ohne Normbezug sind. Kein Duplizieren des Inhalts,
   nur ein Cross-Link vom Skill zur KB — die KB bleibt die einzige Quelle.
 
-## 2026-08-23 (Run 149) — die Erschoepfung war eine Aussage ueber das Register, nicht ueber den Bestand
+## 2026-08-23 (Run 149) — die Erschöpfung war eine Aussage über das Register, nicht über den Bestand
 
-- [x] **Befund, der den Takt-Entscheid E-R148-2 veraendert.** Run 148 hat den Korpus fuer
-  erschoepft erklaert und daraus die Frage abgeleitet, ob der Loop auf fragengetrieben umgestellt
-  oder auf woechentlich zurueckgetaktet werden soll. Die Vollzaehlung dieses Laufs zeigt: fuer
-  PL-02 stimmt die Erschoepfung, fuer **PL-04 Energie** — den Ordner, den die Task als Quelle
-  nennt — nicht. 122 PDF im Bestand, 79 ohne Registereintrag, davon 57 bewusst nicht gefuehrte
+- [x] **Befund, der den Takt-Entscheid E-R148-2 verändert.** Run 148 hat den Korpus für
+  erschöpft erklärt und daraus die Frage abgeleitet, ob der Loop auf fragengetrieben umgestellt
+  oder auf wöchentlich zurückgetaktet werden soll. Die Vollzählung dieses Laufs zeigt: für
+  PL-02 stimmt die Erschöpfung, für **PL-04 Energie** — den Ordner, den die Task als Quelle
+  nennt — nicht. 122 PDF im Bestand, 79 ohne Registereintrag, davon 57 bewusst nicht geführte
   Nachweiskurs-Einzelseiten und **22 reale, nie erfasste Quellen**. Elf davon sind in diesem Lauf
   bearbeitet, elf bleiben offen (Liste in `training/pdf-inventar.md`, Nachtrag Run 149). **Der
-  Takt-Entscheid ist damit nicht hinfaellig, aber er ist nicht mehr dringend** — es gibt wieder
+  Takt-Entscheid ist damit nicht hinfällig, aber er ist nicht mehr dringend** — es gibt wieder
   Material, und zwar aus dem Kernordner der Task.
 
 - [ ] **E-R149-1 (P2): elf PL-04-Positionen offen, davon eine mit echtem Kennwert-Potenzial.**
-  Zehn davon sind Plaene und hashbenannte Restdateien der Projektmappe «Maison Climat» und in
+  Zehn davon sind Pläne und hashbenannte Restdateien der Projektmappe «Maison Climat» und in
   einem Block mit einer Sichtung zu entscheiden. Die elfte ist es nicht:
-  `Solaranlage/solarapp.ch/Willerzell/2024-01-09 Belegungsplan Version 1.pdf` gehoert zu einem
+  `Solaranlage/solarapp.ch/Willerzell/2024-01-09 Belegungsplan Version 1.pdf` gehört zu einem
   zweiten solarapp-Projekt in **Willerzell SZ** — Kanton Schwyz, also JANS-Kernkanton, und mit
-  Januar 2024 gut ein Jahr juenger als der Basler Bericht. Zu pruefen ist, ob im selben
-  SharePoint-Ordner ein zugehoeriger **SolarReport** liegt (im Basler Fall gab es Report und
-  Belegungsplan als Paar). Faende sich einer, waere er die aktuellere und fuer SZ einschlaegige
-  Kennwertquelle und koennte den Basler Fall als Leitbeispiel abloesen.
+  Januar 2024 gut ein Jahr jünger als der Basler Bericht. Zu prüfen ist, ob im selben
+  SharePoint-Ordner ein zugehöriger **SolarReport** liegt (im Basler Fall gab es Report und
+  Belegungsplan als Paar). Fände sich einer, wäre er die aktuellere und für SZ einschlägige
+  Kennwertquelle und könnte den Basler Fall als Leitbeispiel ablösen.
 
-- [ ] **E-R149-2 (P2): die exakte EIV-Tariftabelle ist in der KB nicht belegt.** FAQ F250 kann
-  heute die Gefaesse (KLEIV unter 100 kW, GREIV ab 100 kW, HEIV 2 bis 149.99 kW ohne
+- [x] **E-R149-2 ZURÜCKGEZOGEN am selben Tag — der Punkt beruhte auf einem Prüffehler meinerseits,
+  und die Lehre daraus ist wertvoller als der Punkt es gewesen wäre.** Die EIV-Tariftabelle **ist**
+  belegt, und zwar besser als das, was ich im Web gefunden habe:
+  `[[pv-einmalverguetung-bund-bfe]]` führt sie seit dem 23.07.2026 mit Status `established` aus der
+  **Pronovo-Richtlinie Photovoltaik 2026 v4.1 vom 03.06.2026** (56 Seiten vollständig gelesen) plus
+  dem BFE-Faktenblatt vom 27.11.2025 — inklusive der Tatsache, dass der **Grundbeitrag seit dem
+  01.04.2024 CHF 0** beträgt, der Leistungsbeitrag 360/300/400 CHF/kWp lautet, der Deckel bei 30 %
+  der Referenz-Investitionskosten liegt und der Neigungswinkelbonus erst **ab 75 Grad Modulneigung**
+  greift. Meine erste Fassung von F250 hat alle drei Punkte falsch dargestellt und ist korrigiert
+  (Korrekturvermerk dort). **Ursache:** extern recherchiert, ohne zuerst den eigenen Bestand zu
+  prüfen — ein Verstoss gegen die KB-Regel «Kompoundieren statt duplizieren», und derselbe Fehlertyp
+  wie der Anlass dieses ganzen Laufs: eine Aussage über den Bestand treffen, ohne den Bestand
+  anzusehen. Beim Korpus war es das Register, das sich selbst mass; hier war es die Annahme, die
+  Lücke sei aussen statt innen. **Merksatz für die Folgeläufe: die öffentliche Übersichtsseite eines
+  Herausgebers ist regelmässig dünner als das eigene Destillat seiner Vollzugsrichtlinie.**
+
+- [ ] **E-R149-2 (aufgehoben, Text zur Nachvollziehbarkeit belassen): die exakte EIV-Tariftabelle ist in der KB nicht belegt.** FAQ F250 kann
+  heute die Gefässe (KLEIV unter 100 kW, GREIV ab 100 kW, HEIV 2 bis 149.99 kW ohne
   Eigenverbrauch) und die Bonus-Aenderungen per 01.01.2025 belegen (Neigungswinkelbonus
-  integriert 250 → 400 CHF/kW, angebaut/freistehend 100 → 200 CHF/kW, Parkflaechenbonus
+  integriert 250 → 400 CHF/kW, angebaut/freistehend 100 → 200 CHF/kW, Parkflächenbonus
   250 CHF/kW ab 100 kW), **nicht aber Grundbeitrag und Leistungsbeitrag in CHF je
-  Leistungsklasse**. Die Uebersichtsseite von Pronovo fuehrt sie nicht; sie stehen im
-  Tarifrechner und in der «Richtlinie zur Energiefoerderungsverordnung Photovoltaik» (PDF). Diese
+  Leistungsklasse**. Die Übersichtsseite von Pronovo führt sie nicht; sie stehen im
+  Tarifrechner und in der «Richtlinie zur Energieförderungsverordnung Photovoltaik» (PDF). Diese
   Richtlinie ist zu ziehen und zu destillieren — es ist die einzige Zahl in der PV-Beratung, die
-  eine Bauherrschaft regelmaessig konkret wissen will, und die kursierende Faustregel «20 bis
+  eine Bauherrschaft regelmässig konkret wissen will, und die kursierende Faustregel «20 bis
   30 % der Investition» stammt aus einem Anbieter-Glossar von 2022.
 
 - [ ] **E-R149-3 (P2): der Neigungseffekt bei Ost-West fehlt in F26 — das neue Fallbeispiel liegt
-  unter dem dortigen Richtwert, und zwar aus einem nachvollziehbaren Grund.** ⚠ Die zunaechst in
-  diesem Lauf notierte Fassung dieses Punktes («kein CH-Beleg fuer das Verhaeltnis Ost-West zu
-  Sued») war **falsch** und ist hier korrigiert: die KB fuehrt seit laengerem CH-Richtwerte in
-  **F26** (Sued ~30° = 100 %, Flachdach ~90 %, **Ost oder West 90-95 %**, Suedfassade ~70 %, Nord
-  ~40 %). Der Befund ist ein anderer und interessanter. F26 nennt fuer Ost/West ausdruecklich das
+  unter dem dortigen Richtwert, und zwar aus einem nachvollziehbaren Grund.** ⚠ Die zunächst in
+  diesem Lauf notierte Fassung dieses Punktes («kein CH-Beleg für das Verhältnis Ost-West zu
+  Süd») war **falsch** und ist hier korrigiert: die KB führt seit längerem CH-Richtwerte in
+  **F26** (Süd ~30° = 100 %, Flachdach ~90 %, **Ost oder West 90-95 %**, Südfassade ~70 %, Nord
+  ~40 %). Der Befund ist ein anderer und interessanter. F26 nennt für Ost/West ausdrücklich das
   **Optimum bei rund 15° Neigung**; das Basler Fallbeispiel hat aber **45°**, und sein
   spezifischer Ertrag von 827 bis 852 kWh/kWp entspricht gegen den KB-Richtwert von rund
   1'000 kWh/kWp (F18) nur etwa **83 bis 85 %** — er liegt also **unter** der 90-95-%-Zeile.
-  Die Erklaerung ist die Neigung: ein steiles Ost-West-Satteldach verliert deutlich mehr als ein
-  flach geneigtes, weil es morgens und abends zwar gut, mittags aber schlecht steht. **F26 fuehrt
+  Die Erklärung ist die Neigung: ein steiles Ost-West-Satteldach verliert deutlich mehr als ein
+  flach geneigtes, weil es morgens und abends zwar gut, mittags aber schlecht steht. **F26 führt
   die Ausrichtung als Zeile und die Neigung nur als Klammerbemerkung** — wer die Tabelle liest,
-  nimmt 90-95 % fuer jedes Ost-West-Dach mit und rechnet ein steiles Dach zu gut. Zu tun: F26 um
-  eine Neigungsdifferenzierung fuer Ost/West ergaenzen und den Datenpunkt aus dem Fallbeispiel
+  nimmt 90-95 % für jedes Ost-West-Dach mit und rechnet ein steiles Dach zu gut. Zu tun: F26 um
+  eine Neigungsdifferenzierung für Ost/West ergänzen und den Datenpunkt aus dem Fallbeispiel
   dort verankern (F251 verweist bereits auf F26). Der Vergleich 852 gegen 1'000 ist dabei eine
-  **Naeherung**, weil der Richtwert ein CH-Mittel und kein Basler Standortwert ist; sauber
+  **Näherung**, weil der Richtwert ein CH-Mittel und kein Basler Standortwert ist; sauber
   nachrechnen liesse er sich mit dem in diesem Lauf destillierten
-  `[[tachion-solarrechner-energieschweiz]]`, der Ausrichtung und Neigung als Parameter fuehrt.
+  `[[tachion-solarrechner-energieschweiz]]`, der Ausrichtung und Neigung als Parameter führt.
 
 - [ ] **E-R149-4 (P2, Betrieb): die Voraussetzungszeile der Task ist weiterhin sachlich falsch —
   Vorschlag liegt jetzt im Wortlaut vor.** Seit Run 129 gemeldet, seither in jedem Lauf
-  bestaetigt: die Task verlangt den lokalen OneDrive-Pfad
+  bestätigt: die Task verlangt den lokalen OneDrive-Pfad
   `~/Library/CloudStorage/OneDrive-FreigegebeneBibliotheken–JANS/PL - 04 Energie` und schreibt
   einen Abbruch vor, wenn er fehlt. Er fehlt strukturell — unter der Bibliothekswurzel liegen nur
   AD/AR/IMMO-Ordner, `PL - 04 Energie` erscheint auf dieser Station gar nicht. Der belegte Weg ist
-  die M365-CLI mit Zertifikats-Auth, in diesem Lauf zum wiederholten Mal bestaetigt.
-  **Dieser Lauf hat die Aenderung bewusst NICHT selbst vorgenommen:** eine unbeaufsichtigt
+  die M365-CLI mit Zertifikats-Auth, in diesem Lauf zum wiederholten Mal bestätigt.
+  **Dieser Lauf hat die Änderung bewusst NICHT selbst vorgenommen:** eine unbeaufsichtigt
   laufende Scheduled Task, die ihre eigene Definition umschreibt, ist der Fall, in dem der
-  fertige Befehl vorgelegt und nicht ausgefuehrt wird. Vorgeschlagener Ersatz fuer die
+  fertige Befehl vorgelegt und nicht ausgeführt wird. Vorgeschlagener Ersatz für die
   VORAUSSETZUNG-Zeile in `~/.claude/scheduled-tasks/energie-training/SKILL.md`:
 
   > VORAUSSETZUNG: NAS gemountet (`/Volumes/daten`) UND die SharePoint-Bibliothek `04 Energie`
   > auf Site `/sites/PL` erreichbar. Zugangsweg ist die M365-CLI mit Zertifikats-Auth
-  > (`~/Developer/jans-ai-hub/node_modules/.bin/m365`, Status pruefen mit `m365 status`,
+  > (`~/Developer/jans-ai-hub/node_modules/.bin/m365`, Status prüfen mit `m365 status`,
   > Dateien holen mit `m365 spo file get --webUrl https://raphaeljans.sharepoint.com/sites/PL
   > --url "<ServerRelativeUrl>" --asFile --path <ziel>`). Der lokale OneDrive-Pfad
   > `~/Library/CloudStorage/…/PL - 04 Energie` existiert auf den Stationen NICHT und ist kein
   > Abbruchgrund. Abbrechen erst, wenn auch der Graph-Weg versagt (Rule
   > `wege-und-vollmachten`: erst wenn jeder Weg im Register versagt hat).
 
-- [ ] **E-R148-1 (P1) bleibt unveraendert offen: Normkauf SIA 380/1:2016.** Von diesem Lauf nicht
-  beruehrt, aber durch ihn bestaetigt: der neu destillierte
+- [ ] **E-R148-1 (P1) bleibt unverändert offen: Normkauf SIA 380/1:2016.** Von diesem Lauf nicht
+  berührt, aber durch ihn bestätigt: der neu destillierte
   `[[tachion-solarrechner-energieschweiz]]` nennt SIA 380/1 als Normgrundlage seiner
-  Gebaeudesimulation, ohne die Tabellenwerte wiederzugeben. Die Norm blockiert seit Run 98 die
-  U-Wert-/Q_H,li-Werte und die Gebaeudekategorien-Definition, an der die Healthcare-Einstufung
-  E-R140-1 haengt. Es ist eine Beschaffungsentscheidung Raphaels, keine Recherche.
+  Gebäudesimulation, ohne die Tabellenwerte wiederzugeben. Die Norm blockiert seit Run 98 die
+  U-Wert-/Q_H,li-Werte und die Gebäudekategorien-Definition, an der die Healthcare-Einstufung
+  E-R140-1 hängt. Es ist eine Beschaffungsentscheidung Raphaels, keine Recherche.

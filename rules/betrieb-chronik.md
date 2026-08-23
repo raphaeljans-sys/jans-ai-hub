@@ -21,36 +21,75 @@ automatically or lazily?»). Konzept:
 
 ---
 
-## 260823 — `nas-commit-now.sh` ist im Buero-LAN wirkungslos: er kennt nur den Tailscale-Namen
+## 260823 — ⚠ Tailscale auf dem Mac Mini ist GESTOPPT — die Always-On-Station ist von aussen blind
+
+**Das ist die korrigierte Fassung des Eintrags direkt darunter.** Der erste Befund lautete, der
+Sofort-Committer `nas-commit-now.sh` sei mangelhaft, weil er nur den Tailscale-Weg kennt. Die
+Gegenprüfung am Dienst zeigt: **das Script ist in Ordnung, der Dienst ist aus.**
+
+```
+/Applications/Tailscale.app/Contents/MacOS/Tailscale status   →  "Tailscale is stopped."
+```
+
+Die App läuft (PID 1786), die Netzwerk-Systemextension ist geladen — aber die Verbindung ins
+Tailnet ist nicht aufgebaut. Damit erklären sich alle drei Messungen desselben Laufs zwanglos:
+der Tailscale-Name löst nicht auf, die Tailscale-IP `100.92.246.28` antwortet nicht, und ein
+`ssh mini` auf `100.120.219.12` lief zu Beginn des Laufs in einen Timeout. Kein DNS-Problem,
+kein Script-Mangel, kein NAS-Ausfall — **eine gestoppte VPN-Verbindung.**
+
+**Tragweite, und sie ist grösser als der verpasste Commit.** Der Mac Mini ist die
+Always-On-Station. Solange Tailscale steht, ist er **von ausserhalb des Büros nicht
+erreichbar**: kein `ssh mini` vom MacBook unterwegs, kein Dispatch vom Handy
+(`scripts/dispatch-run.sh` zielt auf den Mac Mini), kein externer NAS-Mount über
+`diskstation918.tail8265aa.ts.net`. Im LAN fällt das nicht auf, weil dort alles über
+`192.168.1.10` weiterläuft (gemessen 0.69 ms) — **der Ausfall ist unsichtbar, bis jemand von
+aussen zugreifen will.** Genau deshalb gehört er ins Fristen-Register und nicht nur hierhin.
+
+**Nicht behoben, und zwar bewusst:** Tailscale wieder zu starten heisst, einen Systemdienst
+anzufassen, der einen Fernzugriffsweg öffnet (Klasse «Systemdienste» und «Persistenz» nach Rule
+`interaktive-eingriffe`, vom Sync-Task-Guard unbeaufsichtigt zurückgehalten). Das gehört nicht
+in einen unbeaufsichtigten Lern-Loop. Offen ist ausserdem die Ursache — von Hand gestoppt, nach
+einem Neustart nicht wieder hochgekommen, oder Auth-Key abgelaufen; der Neustart allein wäre
+sonst nur ein Pflaster. **Aktion Raphael:** Tailscale-Menuleistensymbol, «Connect», und prüfen,
+ob der Dienst beim Systemstart automatisch verbindet.
+
+**Die Lehre gehört zur Familie «erst messen, dann deuten».** Der naheliegende erste Schluss
+(«das Script kennt zu wenige Wege») war plausibel, belegbar formuliert — und falsch. Er hätte zu
+einem LAN-Fallback im Committer geführt, der den eigentlichen Ausfall **dauerhaft kaschiert**
+hätte: der Sofort-Commit hätte wieder funktioniert, und niemand hätte bemerkt, dass die
+Station von aussen unerreichbar ist. Eine Reparatur am Symptom kann einen Befund unsichtbar
+machen, statt ihn zu beheben.
+
+## 260823 (überholt, siehe Eintrag darüber) — `nas-commit-now.sh` scheiterte im Büro-LAN
 
 Befund aus dem Energie-Lauf Run 149 (Mac Mini, 13:5x). Der Sofort-Committer bricht ab mit
-`ssh: Could not resolve hostname diskstation918.tail8265aa.ts.net`, faellt sauber auf den
-15-Min-Cron zurueck und meldet das auch — die Arbeit ging also nicht verloren (der 13:45-Zyklus
+`ssh: Could not resolve hostname diskstation918.tail8265aa.ts.net`, fällt sauber auf den
+15-Min-Cron zurück und meldet das auch — die Arbeit ging also nicht verloren (der 13:45-Zyklus
 hat sie erfasst). Die Diagnose zeigt aber, dass der Fehler kein Netzausfall ist:
 
 | Weg | Ergebnis |
 |---|---|
-| Tailscale-Name `diskstation918.tail8265aa.ts.net` | DNS loest nicht auf |
+| Tailscale-Name `diskstation918.tail8265aa.ts.net` | DNS löst nicht auf |
 | Tailscale-IP `100.92.246.28` | 1 Paket gesendet, **100 % Verlust** |
 | LAN-IP `192.168.1.10` | **erreichbar, 0.69 ms** |
 
-Die Station stand also im Buero-LAN, **0.69 ms vom NAS entfernt**, und der Committer scheiterte
+Die Station stand also im Büro-LAN, **0.69 ms vom NAS entfernt**, und der Committer scheiterte
 trotzdem, weil er ausschliesslich den Tailscale-Weg kennt. Das ist genau die Lage, vor der das
 Wege-Register warnt: ein vorhandener Weg, den das Werkzeug nicht kennt, ist so gut wie keiner
 (Rule `wege-und-vollmachten`, Anlassfall KISPI 09.08.2026).
 
 **Folge, solange das so bleibt:** jeder Lauf, der sofort committen will, wartet faktisch bis zu
-15 Minuten auf den Cron. Fuer die Loops ist das folgenlos, fuer eine interaktive Sitzung, die
+15 Minuten auf den Cron. Für die Loops ist das folgenlos, für eine interaktive Sitzung, die
 danach am SSD-Klon weiterarbeiten will, nicht.
 
-**Naheliegende Behebung, NICHT ausgefuehrt:** dem Script einen Fallback auf die LAN-IP geben
+**Naheliegende Behebung, NICHT ausgeführt:** dem Script einen Fallback auf die LAN-IP geben
 (erst Tailscale-Name, dann `192.168.1.10`, beides mit kurzem `ConnectTimeout`). Der Eingriff
-beruehrt einen SSH-Zugangsweg und damit eine der Klassen, die `sync-task-guard.sh` unbeaufsichtigt
-zurueckhaelt — er gehoert deshalb nicht in einen unbeaufsichtigten Lauf, sondern vorgelegt. Offen
-zu klaeren ist ausserdem, **warum** Tailscale auf dieser Station nicht traegt (MagicDNS aus,
+berührt einen SSH-Zugangsweg und damit eine der Klassen, die `sync-task-guard.sh` unbeaufsichtigt
+zurückhält — er gehört deshalb nicht in einen unbeaufsichtigten Lauf, sondern vorgelegt. Offen
+zu klären ist ausserdem, **warum** Tailscale auf dieser Station nicht trägt (MagicDNS aus,
 Dienst gestoppt, oder das NAS selbst nicht im Tailnet); erst danach ist entscheidbar, ob der
-Fallback die Loesung oder nur ein Pflaster ueber einem groesseren Ausfall ist. Der Tailscale-Weg
-ist der einzige, der **ausserhalb** des Bueros funktioniert — faellt er unbemerkt aus, merkt es
+Fallback die Lösung oder nur ein Pflaster über einem grösseren Ausfall ist. Der Tailscale-Weg
+ist der einzige, der **ausserhalb** des Büros funktioniert — fällt er unbemerkt aus, merkt es
 niemand, solange die Station im LAN steht.
 
 ## 260817 — Der Auto-Update-Waechter hing 19 h am gewedgeten Binary; Watchdog eingebaut

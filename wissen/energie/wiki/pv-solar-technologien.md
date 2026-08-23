@@ -1,8 +1,8 @@
 ---
 title: PV- & Solartechnologien — Typen, Eignung, Integration
 status: established
-last_updated: 2026-07-25
-sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md]
+last_updated: 2026-08-23
+sources: [destillate/tec21-solares-bauen-pv-typen-2012.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/swissolar-stp-vkf-brandschutz-solaranlagen.md, destillate/pv-ertrag-eigenverbrauch-praxis.md, destillate/sunskin-roof-indach-planung.md, destillate/prefa-solar-indach-aluminium-dachplatte.md, destillate/sonnendach-solarpotenzial-bfe.md, destillate/greenpv-fassade-pv-begruenung-hslu.md, destillate/pv-kosten-amortisation-praxis-ewz.md, destillate/pv-marktzahlen-kosten-ch-2025.md, destillate/pv-ertrag-ausrichtung-neigung-ch.md, destillate/gvz-photovoltaik-melde-versicherungspflicht.md, destillate/vkf-richtlinie-gefaehrliche-stoffe.md, destillate/solarreport-solarapp-basel-2022.md, destillate/pv-spezialmodule-transparent-bifazial-datenblaetter.md, destillate/tachion-solarrechner-energieschweiz.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[minergie-standards]], [[holzbau-bauphysik-clt]], [[gvz-photovoltaik-melde-versicherungspflicht]], [[vkf-richtlinie-gefaehrliche-stoffe]], [[vkf-richtlinie-22-15-blitzschutzsysteme]], [[batteriespeicher]]
 ---
 
@@ -75,6 +75,44 @@ Mindestneigung **~15°** (Selbstreinigung); Swissolar — **≤45° von Süden b
 (Morgen-/Abendstrom statt Mittagsspitze). Wichtiger als die Himmelsrichtung sind **Verschattung** und
 **Eigenverbrauch**; projektgenau via sonnendach.ch/PVGIS. Details → [[BAUHERREN-FAQ]] F26,
 `[[pv-ertrag-ausrichtung-neigung-ch]]`.
+
+**⚠ Präzisierung Run 149 (23.08.2026): die Zeile «Ost oder West 90–95 %» gilt für die dort
+genannte flache Neigung, nicht für jedes Ost-West-Dach.** Ein belegtes Schweizer Fallbeispiel
+zeigt den Unterschied. Das MFH-Vorprojekt am Schliengerweg Basel hat ein Ost-West-Satteldach mit
+**45°** Neigung (Azimute 89° und -90° zu Süd, aus den Inputs im Anhang) und kommt auf einen
+spezifischen Ertrag von **827 bis 852 kWh/kWp** — gegen den Richtwert von rund 1'000 kWh/kWp
+(F18) also etwa **83 bis 85 %** und damit **unter** der Tabellenzeile. Der Grund steht schon in
+der Regelzeile darüber: das Ost-West-Optimum liegt bei rund 15°, nicht bei 45°. Ein steiles
+Ost-West-Satteldach steht morgens und abends gut, mittags aber schlecht.
+
+**Praktisch:** 90 bis 95 % für flach geneigte Ost-West-Flächen, gegen 85 % für ein steiles
+Satteldach. Wer die Tabelle zeilenweise liest, rechnet ein steiles Dach zu gut. Der Vergleich ist
+eine Näherung (der Richtwert ist ein CH-Mittel, kein Basler Standortwert); nachrechnen lässt er
+sich mit dem Solarrechner hinter `[[tachion-solarrechner-energieschweiz]]`, der Ausrichtung und
+Neigung als Parameter führt. Fallbeispiel und die vier internen Inkonsistenzen der Quelle:
+`[[solarreport-solarapp-basel-2022]]`, FAQ F251. Offener Punkt E-R149-3: die Tabelle selbst um
+eine Neigungsdifferenzierung für Ost/West ergänzen.
+
+## Spezialmodule für sichtbare PV (transparent, bifazial)
+Neben dem schwarzen Standardmodul sind zwei Bauarten für architektonisch sichtbare Flächen
+relevant, beide als Serienprodukt mit Leistungsgarantie:
+
+- **Teiltransparent** (Beispiel SI-Saphir M175-M180, Stand 06/2015): 175–180 Wp, **40 %
+  Lichtdurchlass** (Herstellerangabe), 2 × 4 mm ESG-Glas-Glas, 1'500 × 1'000 × 9 mm, 30 kg, DIBt
+  Z-70.3-204, 10 J. Produkt-/30 J. Leistungsgarantie. ⚠ **Kein normierter g-Wert und kein
+  U-Wert** im Datenblatt — für die bauphysikalische Rechnung am Wintergarten reicht die
+  Prozentangabe nicht. Der wirtschaftliche Ort ist dort, wo das Modul **ein ohnehin zu bauendes
+  Bauteil ersetzt** (Vordach, Pergola, Sitzplatzüberdachung), nicht als Kraftwerk.
+- **Bifazial** (Beispiel Megasol M385-HC120, Version 10/2022): 385 Wp, Modulwirkungsgrad 21.1 %,
+  Glas-Glas Full Black, 1'755 × 1'038 × 30 mm, 23.5 kg, Bifazialitätsfaktor ≥ 90 %, **Mehrertrag
+  5–35 % je nach Reflexion des Untergrunds** (heller Kies/weisse Flachdachbahn oben, dunkle
+  Bitumenbahn unten), 15 J. Produkt-/30 J. lineare Leistungsgarantie, IEC/EN 61215 und 61730.
+
+Beides sind Herstellerangaben aus Datenblättern und gehören vor einer Zusage mit einer
+Ertragssimulation fürs konkrete Objekt hinterlegt; das SI-Saphir-Blatt ist elf Jahre alt, die
+Lieferbarkeit ist vor einer Ausschreibung zu bestätigen. Quelle
+`[[pv-spezialmodule-transparent-bifazial-datenblaetter]]` (status emerging), FAQ F252.
+Brandschutzanschluss unverändert über `[[swissolar-stp-vkf-brandschutz-solaranlagen]]`.
 
 ## Indach in der Ausführung (zwei Systemtypen)
 Indach ersetzt die Eindeckung und ist die gestalterisch sauberste Art, die PV-Pflicht zu erfüllen.

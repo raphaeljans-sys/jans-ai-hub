@@ -48,9 +48,30 @@ Task-Definition wurde im Wortlaut ausformuliert (QUESTIONS, E-R149-4), aber **ni
 geändert — eine unbeaufsichtigte Scheduled Task, die ihre eigene Definition umschreibt, ist der
 Fall für Vorlegen statt Handeln.
 
+**Selbstkorrektur am Schluss desselben Laufs — F250 war an drei Stellen falsch.** Beim Nachführen
+von `foerderung-energie-zh` fiel auf, dass `[[pv-einmalverguetung-bund-bfe]]` (status
+`established`, Pronovo-Richtlinie PV 2026 v4.1 vom 03.06.2026, 56 S. vollständig gelesen) genau
+die Tarife führt, die ich zuvor per Web gesucht und als «in der KB nicht belegt» notiert hatte.
+Korrigiert: der **Grundbeitrag beträgt seit dem 01.04.2024 CHF 0** (die EIV ist faktisch reiner
+Leistungsbeitrag); die Tabelle lautet **360 / 300 / 400 CHF/kWp** mit Deckel 30 % der
+Referenz-Investitionskosten; und der **Neigungswinkelbonus greift erst ab 75 Grad Modulneigung**,
+meint also Fassade oder Steilanlage und **nicht** ein Steildach — die erste Fassung hätte einer
+Bauherrschaft einen Bonus versprochen, auf den ihr Dach keinen Anspruch hat. F250 trägt einen
+offenen Korrekturvermerk, E-R149-2 ist zurückgezogen. **Ursache und Lehre:** extern recherchiert,
+ohne zuerst den eigenen Bestand zu prüfen — derselbe Fehlertyp wie der Hauptbefund dieses Laufs.
+Merksatz: die öffentliche Übersichtsseite eines Herausgebers ist regelmässig dünner als das eigene
+Destillat seiner Vollzugsrichtlinie; vor jeder externen Recherche zuerst `destillate/INDEX.md`.
+
+Themenartikel gewachsen: `wiki/pv-solar-technologien.md` um die **Neigungs-Präzisierung** der
+Ausrichtungstabelle (die Zeile «Ost/West 90-95 %» gilt für rund 15°, nicht für ein 45°-Satteldach)
+und einen neuen Abschnitt **Spezialmodule für sichtbare PV**; Frontmatter `sources`/`last_updated`
+nachgeführt.
+
 Register: `training/pdf-inventar.md`, `destillate/INDEX.md`, `raw/_INGESTED.md`,
-`training/curriculum.md`, `wiki/QUESTIONS.md`, `wiki/BAUHERREN-FAQ.md`.
+`training/curriculum.md`, `wiki/QUESTIONS.md`, `wiki/BAUHERREN-FAQ.md`, `wiki/INDEX.md`,
+`wiki/pv-solar-technologien.md`.
 Output: `outputs/2026-08-23_energie-run149.md`.
+Ausserhalb der KB: `rules/betrieb-chronik.md` und `logbuch/fristen.md` (Tailscale-Befund, siehe unten).
 
 ## 2026-08-23 — Inventar-Reconciliation: 5 liegen gebliebene Stub-Zeilen nachgeführt, 3 Destillate um Vorwärts-Verweis ergänzt
 
