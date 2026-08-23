@@ -1,8 +1,8 @@
 ---
 title: Realwert / Sachwert — Bodenwert plus Gebaeude-Zeitwert
 status: established
-last_updated: 2026-07-14
-sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web), Zuercher Index der Wohnbaupreise 1939-2025 (Stadt Zuerich Statistik, Publikationsstand 01.01.2026, via hev-sz.ch, Run 31)]
+last_updated: 2026-08-23
+sources: [IMMO-03 Schaetzungen (schaetzungsanleitung_kap5.pdf, Tab. 2 Neuwert-Richtwerte, Tab. 3 BKP-Anteile, Tab. 9 Lebensdauer, Tab. 10 wirtschaftliches Alter, Tab. 11 Wertminderung), IMMO-06 Kennwerte (`_Kennwerte Jans.docx` R. Jans 25.03.2025 — JANS-Erstellungskosten-Kennwert Wohnen EFH/ZFH indexiert 2'900→3'365 BKP2 / 4'485 BKP1-5 CHF/m2 GF + Thalwil-Bohlweg-Rechenbeispiel + HNF-Faktor 7'350, D8, Run 16; Healthcare `Spektrumskosten.docx`/`Umbaukosten 500K.docx`/`Umbaukosten_CHF_2500K.docx` R. Jans 2025 — Spitalumbau-Kostenband CHF/m2 NF + 2 reale Faelle, Run 16), IMMO-06 Healthcare (Baukredit-Bericht Neubau Pflegeheim Herosé Aarau, Stadtrat Aarau GV 2018-2021/285, 13.12.2021 — Anlagekosten/BKP-Kennwerte CHF/m3-GV/m2-GF/Zimmer + 4-Heim-Vergleich, Run 12), JANS 8-Objekt-Referenzvergleich «Kennwerte Altersheime Gesundheitszentren.pdf» (WALD-2410-Arbeitsgrundlagen, R. Jans — 8 CH-Heime 2011-2025: BKP-2-Kennwerte CHF/m2-GF/m3-GV/PZ + Teuerungsbereinigung Index-115, Run 14 2026-07-06), IMMO-04 Marktpreise CRB (Spital_210522_Kostenkennwerte_Referenzprojekte.pdf, werk-material — 2 CH-Spital-Referenzobjekte Frauenklinik KSL 3'426 / USZ 3'767 CHF/m2 GF + BKP-Aufgliederung, Preisstand 2020.04 Ostschweiz, Run 13), IMMO-01 LB/MA-Projekte (Thalwil 9568 MA 241126 S. 3-5 Benchmarks + BKP-1-5-Kennwerttabelle, Ebmatingen 3932 LB), Wuest-Kurs "Immobilien entwickeln" 06.2023 (Erstellungskosten-Benchmarks S. 31-38), BFS Baupreisindex Apr/Okt-2025 (Web), Zuercher Index der Wohnbaupreise 1939-2025 (Stadt Zuerich Statistik, Publikationsstand 01.01.2026, via hev-sz.ch, Run 31 — Volltext gegengelesen 23.08.2026), Statistik Stadt Zuerich «Methodenbericht Revision 2025 — Zuercher Index der Wohnbaupreise» (Juni 2026, PDF 2026-07-07, Volltext, Vertiefungslauf 2), Statistik Stadt Zuerich ZIW-Indextabelle Stichtag 01.04.2026 (Basis Okt-2025=100, publ. 08.07.2026, abgerufen 23.08.2026), BFS Baupreisindex Hauptresultate nach Bauwerksart April 2026 (Basis Okt-2025=100, abgerufen 23.08.2026)]
 links: [[bewertungsverfahren-ueberblick]], [[lageklasse-landwertanteil]], [[flaechendefinitionen-sia]], [[datenquellen-registry]], [[residualwertmethode]]
 ---
 
@@ -110,12 +110,59 @@ Damit lassen sich die Tab.-2-Richtwerte direkt hochrechnen:
 > als offener Punkt in `wiki/QUESTIONS.md` eingetragen. Bis dahin ist bei jeder Verwendung
 > anzugeben, mit welchem Anker gerechnet wurde.
 
-⚠ Der Faktor 1.346 basiert auf der 1939er-Ankerreihe der amtlichen ZIW-Publikation (nicht mit
-dem BFS-Baupreisindex zu verwechseln, der eine andere Basis/Methodik hat). Für eine Bewertung
-nach 2025 den naechsten publizierten ZIW-Wert nachziehen (naechste Publikation ~04-06/2026,
-Faustregel: Index steigt seit 2022 ~1-3 %/Jahr). Fuer HNF-basierte Schaetzungen bleiben die
+⚠ Der Faktor 1.346 basiert auf der 1939er-Ankerreihe der amtlichen ZIW-Publikation.
+Für eine Bewertung nach 2025 den naechsten publizierten ZIW-Wert nachziehen
+(Faustregel: Index steigt seit 2022 ~1-3 %/Jahr). Fuer HNF-basierte Schaetzungen bleiben die
 aktuellen CHF/m2-HNF-Benchmarks (oben, Wuest 2021-2023) der praezisere Ansatz; die m3-Klassen
 dienen primaer der **Sachwert-Plausibilisierung** und der Einordnung der Bauqualitaet (Klasse I-VI).
+
+> **Fassungsvermerk ZIW — Vertiefungslauf 2 vom 23.08.2026 (Primaerquellen direkt gegengelesen).**
+> Drei Punkte der Zeilen oben sind nachzufuehren; **kein Kennwert dieses Artikels ist geaendert**.
+>
+> 1. **Die vermisste Publikation liegt vor.** Statistik Stadt Zuerich hat den ZIW am **08.07.2026**
+>    zum Stichtag **01.04.2026** publiziert: **Total (BKP 1, 2, 4, 5) = 100.6 Punkte**, Basis
+>    **Oktober 2025 = 100**, Vorstichtag Oktober 2025 = 100, April 2025 = 99.7,
+>    **Jahresteuerung April 2025 → April 2026 = +0.9 %**. Erstmals sind auch **BKP-Teilindizes**
+>    publiziert: Vorbereitung (BKP 1) 102.2 / **+2.2 %**, **Gebaeude (BKP 2) 100.4 / +0.4 %**,
+>    Umgebung (BKP 4) 100.7 / +0.7 %, Baunebenkosten (BKP 5) 101.0 / +1.0 %.
+>    *Quelle: Statistik Stadt Zuerich, Landingpage ZIW (`stadt-zuerich.ch/ziw`), Indextabelle,
+>    abgerufen 23.08.2026; Publikationsdatum 08.07.2026 aus der Medienmitteilung (Reproduktion
+>    nau.ch 08.07.2026 — die Medienmitteilung selbst war am Prueftag nicht direkt auffindbar).*
+>
+> 2. **Der Klammersatz «andere Basis/Methodik» als pauschale Abgrenzung ist ueberholt.** Der
+>    **Methodenbericht Revision 2025** (Statistik Stadt Zuerich, Juni 2026, PDF
+>    `2026-07-07_Methodenbericht-ZIW.pdf`, im Volltext gelesen) haelt fest: die eigenstaendige
+>    Zuercher Baupreiserhebung wurde **2020 nach 100 Jahren eingestellt**; seither gilt
+>    «Grundsaetzlich entspricht der ZIW ab Basisjahr 2020 dem **BFS-Baupreisindex ‹Neubau
+>    Mehrfamilienhaus› der Region Zuerich**… Anpassungen zum BFS-Baupreisindex gibt es lediglich
+>    bei der **Gewichtung**.» Die beiden Reihen sind seit 2021 also **methodisch dieselbe
+>    Erhebung mit unterschiedlicher Gewichtung**, nicht zwei unabhaengige Indizes — deshalb auch
+>    derselbe Basismonat und im April 2026 derselbe Stand 100.6 (Total). Die Abgrenzung bleibt
+>    inhaltlich richtig **fuer die Reihe vor 2021** (Offertenmethode, ~200 Bauunternehmen, eigenes
+>    Zuercher Indexhaus, MwSt in den Preisen beruecksichtigt) — und genau auf dieser Reihe liegt
+>    der Stuetzpunkt 01.04.2003 = 899.2, der den Faktor 1.346 traegt. Der Vermerk ist damit auf
+>    die Vor-2021-Reihe einzugrenzen, nicht zu streichen.
+>
+> 3. **Die 1939er-Langreihe ist amtlich gedeckt.** Derselbe Methodenbericht: «Die alten und die
+>    neuen Indexreihen werden **ueber das Basisjahr verkettet**, sodass trotz der methodischen
+>    Anpassungen eine durchgehende und vergleichbare lange Zeitreihe bestehen bleibt.» Die
+>    Verkettung ueber die Revisionen 2020 und 2025 hinweg ist damit die amtlich vorgesehene
+>    Lesart und kein Behelf dieser KB. **Rechnerische Fortschreibung** (als Verkettung
+>    gekennzeichnet, **kein publizierter Wert**): 01.10.2025 ≈ 1'213.5 (Wissens-Chef Run 35)
+>    × 1.006 ≈ **1'220.8** auf Basis 1939 = 100 → Faktor 2003→2026 ≈ **1.358**. Der amtliche
+>    1939-Wert zum 01.04.2026 ist damit **nicht** belegt; die HEV-Schwyz-Reproduktion der
+>    verketteten Reihe (Publikationsstand 01.01.2026, im Volltext geprueft 23.08.2026) endet bei
+>    **01.04.2025 = 1210.4** und bestaetigt zugleich beide strittigen Stuetzpunkte des
+>    Doppelfuehrungs-Befunds oben: **01.04.2003 = 899.2** und **01.04.2004 = 907.6**.
+>
+> **Neue Entscheidfrage an Raphael (T-Teuerungsanker, s. [[wissensluecken]] D15).** Mit den
+> BKP-Teilindizes gibt es fuer die Neuwert-Indexierung neu **drei** vertretbare Anker, die im
+> Jahr 2025/26 um **0.6 Prozentpunkte** auseinanderliegen: ZIW-**Total** (+0.9 %), ZIW-**Gebaeude
+> BKP 2** (+0.4 %) und BFS-**Neubau Mehrfamilienhaus CH** (+1.0 %). Fuer einen reinen
+> **Gebaeude-Neuwert** ist der **BKP-2-Teilindex** der sachlich naechste Anker — die Tab.-2-
+> Richtwerte sind Baukosten je m3 umbauter Raum, also Gebaeude, waehrend das Total auch BKP 1/4/5
+> traegt (und im letzten Jahr vor allem von BKP 1 mit +2.2 % gehoben wurde). Das ist **nicht**
+> eigenmaechtig umgestellt: der Entscheid haengt am selben offenen Punkt wie 1.346 vs. 1.334.
 
 #### BKP-Anteile am Gebaeude (Tab. 3, MFH mittlerer Standard, Baujahr 1985)
 
@@ -525,6 +572,39 @@ Instandsetzungskosten decken koennen.
 
 ## Offen / zu vertiefen
 
+- ✓ 2026-08-23 (Vertiefungslauf 2): **Bau-Teuerungsanker vollstaendig auf Primaerquellen
+  gestellt und um die Bauwerksart-Teilindizes erweitert.** Der Artikel hat bisher nur den
+  BFS-Gesamtwert («Baugewerbe Total» 100.6) gefuehrt. Direkt bei der BFS-Indexseite abgelesen
+  (23.08.2026), **Basis Oktober 2025 = 100, Stichtag April 2026** — Spalten: Indexstand /
+  Veraenderung gg. Okt. 25 / Veraenderung gg. Apr. 25:
+
+  | Reihe (BFS-Baupreisindex CH) | Gewicht | Apr. 26 | gg. Okt. 25 | gg. Apr. 25 |
+  |---|---|---|---|---|
+  | Baugewerbe Total | 100.00 | 100.6 | +0.6 % | **+1.0 %** |
+  | Hochbau | 76.46 | 100.5 | +0.5 % | +0.9 % |
+  | Neubau | 35.89 | 100.6 | +0.6 % | +1.0 % |
+  | **Neubau Mehrfamilienhaus** | 18.91 | **100.7** | +0.7 % | **+1.0 %** |
+  | Neubau Mehrfamilienhaus aus Holz | 3.85 | 100.6 | +0.6 % | +1.1 % |
+  | **Neubau Einfamilienhaus** | 5.19 | **100.6** | +0.6 % | **+1.0 %** |
+  | Neubau Buerogebaeude | 4.40 | **99.9** | **−0.1 %** | +0.8 % |
+  | Neubau Lagerhalle | 3.54 | 100.3 | +0.3 % | +0.6 % |
+  | Renovation, Umbau | 40.57 | 100.5 | +0.5 % | +0.8 % |
+  | **Renovation Mehrfamilienhaus** | 25.30 | **100.4** | +0.4 % | **+0.6 %** |
+  | Renovation Buerogebaeude | 15.27 | 100.7 | +0.7 % | +1.2 % |
+  | Tiefbau | 23.54 | 100.9 | +0.9 % | +1.2 % |
+
+  **Anwendung in dieser KB:** fuer Wohn-Neuwerte ist **Neubau Mehrfamilienhaus** bzw.
+  **Neubau Einfamilienhaus** der sachlich naechste Anker (beide +1.0 % YoY), fuer Sanierungs-
+  und Umbaukosten (Healthcare-Umbau, TDD-Nachfuehrung) **Renovation Mehrfamilienhaus**
+  (+0.6 % YoY) — dieser laeuft rund **0.4 Prozentpunkte unter** dem Neubau-Anker, eine pauschale
+  Indexierung von Umbaukennwerten mit dem Neubau- oder Totalwert ueberzeichnet die Teuerung
+  also leicht. Bemerkenswert: **Neubau Buerogebaeude ist im Halbjahr leicht ruecklaeufig**
+  (99.9, −0.1 %) — der einzige negative Halbjahreswert der Tabelle.
+  **Publikationsrhythmus primaerverifiziert:** «Der Baupreisindex wird halbjaehrlich berechnet
+  (April und Oktober) und die Ergebnisse im **Juni und Dezember** publiziert» (BFS-Indexseite).
+  Die im Eintrag vom 13.08.2026 notierte naechste Nachfuehrung **Dez-2026** ist damit bestaetigt.
+  *Quelle: BFS, Baupreisindex, Hauptresultate nach Bauwerksart, Basis Oktober 2025 = 100,
+  Stand April 2026 (publiziert Juni 2026), abgerufen 23.08.2026.*
 - ✓ 2026-06-09: Neuwert-/Erstellungskosten-Kennwerte je Nutzung/Standard (CHF/m2 HNF,
   BKP 1-5) aus dem Wuest-Kurs als belegte Tabelle eingearbeitet (T6 teilerfuellt).
 - ✓ 2026-06-10: CHF/m3-Neuwert-Richtwerte (Tab. 2, Bauklasse I-VI), BKP-Anteile (Tab. 3)
