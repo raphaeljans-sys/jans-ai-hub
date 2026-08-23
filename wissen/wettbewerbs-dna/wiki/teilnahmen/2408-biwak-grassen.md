@@ -38,6 +38,18 @@ Text-Extrakte: `wissen/wettbewerbs-dna/raw/2408-biwak_*.txt` (Seitenangaben «S.
 - **Material/Tragwerk:** vier Tragwerkselemente — bestehende Betonrundpfeiler d=30 cm, neuer Trägerrost aus **Fiberglas** (Fibrolux HEA 20, gewichtsoptimiert für weniger Helikopterflüge), Rahmenträger Fichte 18×32 cm (andere Planstellen nennen 18/36 — Widerspruch im Original), fünflagige CLT-Platten 12 cm (Spannweite 2.32 m, horizontale Aussteifung); Dämmung 7 cm **Stroh**; Fassade/Dach hinterlüftetes **Falzblech** (Prefa Prefalz, Farbe 07 P.10 Hellgrau); PV-Anlage 6 m2 (Avancis Skala Dünnschichtmodule) in der geneigten, ganzjährig schneefreien Frontfassade; Vorfabrikation in Elementen mit Maximalgewicht 700 kg für den Helitransport, Bauzeit vor Ort rund eine Woche (`-Babuschka- p A2 Plaene.pdf`, «Konstruktion und Material», «Bauablauf», «Energie, Ökologie und Nachhaltigkeit»).
 - **Kennzahlen (belegt):** GF total **87.1 m2** (UG 14.8 / EG 34.1 / OG 38.2), GV total **260.0 m3** (UG 50.5 / EG 103.5 / OG 106.0), 18 Schlafplätze, **4.8 m2 GF/Schlafplatz**, **14.4 m3 GV/Schlafplatz** (`-Babuschka- f A4 Berechnungsschemas.pdf`, S. 1–2; `-Babuschka- f 6_Tabelle Mengenermittlung nach SIA 416.pdf`). Flächen je Raum gemäss Raumprogramm-Formular: Total Fläche Biwak (Räume 1–9) **51.7 m2**, u.a. Schuh-/Skiraum 7.8, Aufenthalt/Küche 17.7, Schlafraum 11.0, Trockentoilette 1.7, Fäkalienraum 1.9 (`-Babuschka- f 2_Raumprogramm.pdf`).
 
+> **Kante zur KB `energie` / `planungsgrundlagen` (Entwertungs-Sweep 24.08.2026):** Der unter
+> «Material/Tragwerk» belegte Aufbau dieses Beitrags (CLT 120 mm, 70 mm Stroh, hinterlueftetes
+> Falzblech) ist **die** Referenz fuer jede Energie-/U-Wert-Betrachtung des Projekts. In
+> `wissen/planungsgrundlagen/wiki/energie-uebersicht.md` stand bis zum 24.08.2026 ein davon
+> abweichender Aufbau (CLT 140 mm, 40 mm Mineralwolle) als «Realer JANS-Benchmark — Biwak
+> Grassen»; er stammt aus einer ChatGPT-Antwort in der Referenzablage und ist dort als Warnkarte
+> entwertet (`wissen/energie/destillate/ki-generierte-fachdokumente-referenzablage.md`). **Fuer
+> das Projekt gilt der Aufbau dieses Artikels, nicht jener.** Ein belegter U-Wert fuer den
+> Beitrag existiert bisher nicht — er waere aus diesem Aufbau neu zu rechnen (Stroh-Bemessungswert
+> 0,052 W/(m·K) quer zur Halmrichtung, `wissen/energie/destillate/strohdaemmung-bemessungswert-brandschutz.md`).
+
+
 ### Goldstandard-Struktur der beiden Nachweis-Tabellen (für Agent flaechen-nachweis)
 
 - **Raumprogramm-Formular** (`-Babuschka- f 2_Raumprogramm.xlsx`, Blatt «Tabelle1»): eine Zeile pro Raum (Nr. 1–12), gruppiert in «Bereich Gäste» und «Bereich Hüttenchef»; Spalten: Raum-Nr. · Bezeichnung · beheizt (ja/nein) · Techn. Lüftung (ja/nein) · **Fläche Programm m2** (Soll, teils «projektabhängig») · Anforderungstext des Auslobers · **Fläche Projekt m2** («projektspezifisch von den Architekturbüros auszufüllen» = Ist) · Summenzeile «Total Fläche Biwak». Logik: der Soll/Ist-Vergleich läuft zeilenweise über die zwei Flächenspalten; Sonderpositionen tragen Werte mit Einheit im Textfeld («2.40 / 3.00m3», «12.30 / 2000l»). Die Arbeitsdatei enthält zusätzlich interne Spalten (Bemerkungen «in finaler Version löschen») und stammt erkennbar aus einer wiederverwendeten SAC-Vorlage (Restbezug «Neubau Doldenhornhütte» in einer verdeckten Spalte) — die abgegebene PDF-Fassung ist bereinigt.

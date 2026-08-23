@@ -2,6 +2,41 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-24 — Entwertungs-Sweep (Uebergabepunkt 2 aus Wissens-Chef Run 41), 2 additive Eingriffe
+
+Run 41 hat den Grassen-Biwak-Benchmark aus **rechnerischen** Gruenden aufgehoben und dabei die
+Uebergabe formuliert, die Bringschuld bei **Entwertung einer Quelle** sei in Rule
+`wissens-bibliothekar` ungeregelt: wer ein Destillat herabstuft, muesse im selben Lauf nach dem
+Quell-/Objektnamen ueber `wissen/**` und `skills/**` greppen. Genau das ist hier nachgeholt
+worden — mit zwei Treffern, die Run 41 nicht gesehen hat.
+
+- **`wiki/energie-uebersicht.md` — dritter Nachtrag: die Zuordnung haelt nicht.** Der entwertete
+  Abschnitt beschreibt einen Wandaufbau, der **nicht der des eingereichten Wettbewerbsprojekts
+  ist**. Gegengelesen in `wissen/wettbewerbs-dna/wiki/teilnahmen/2408-biwak-grassen.md`
+  (`established`, Quellen Jurybericht 23.05.2025 + eigene Abgabeplaene): der Beitrag
+  «-Babuschka-» hat **CLT 120 mm** (nicht 140), **70 mm Stroh** als ausgefuehrte Daemmung (nicht
+  40 mm Mineralwolle) und **hinterlueftetes Falzblech** (nicht eine unbelueftet gerechnete
+  Luftschicht). **Keine Schicht stimmt ueberein.** Folge: auch die von Run 41 korrigierten
+  **0,374-0,389 W/m²K** sind kein U-Wert des Grassenbiwaks, sondern die richtige Rechnung fuer
+  eine Wand, die so nie geplant war. Zweiter Fund: die Stroh-Variante der Quelldatei rechnet mit
+  λ ≈ 0,045, waehrend die KB `energie` **0,049 allgemein / 0,052 quer zur Halmrichtung** fuehrt
+  (`strohdaemmung-bemessungswert-brandschutz.md`) — und Stroh ist im Projekt der real verbaute
+  Daemmstoff, also die praxisrelevante und zugleich am guenstigsten gerechnete Variante. **+32 −0.**
+- **`training/curriculum.md` E41 — die gespeicherte Lehre war ueberholt.** Der Eintrag vom
+  22.07.2026 fuehrt den Fall als reines Beleg-Delta («λ=0.13 statt 0.12»). Das ist der kleinste
+  der Fehler, und der Eintrag ist der **Antrieb kuenftiger Laeufe** — Run 41 hat den
+  Wiki-Artikel korrigiert, den Lehrsatz im Curriculum aber stehen lassen. Ueberholt-Vermerk
+  gesetzt, Lehre umgekehrt formuliert: ein plausibles Ergebnis ist kein Beleg fuer eine richtige
+  Rechnung, ein auffaelliger Einzelkennwert ist Anlass, den ganzen Rechenweg zu pruefen. **+11 −0.**
+
+**Methodische Lehre fuer die Rule-Frage aus Run 41:** der Grep nach dem Objektnamen genuegt nicht.
+Er fand `energie-uebersicht.md` (dort schon erledigt) und `curriculum.md` (offen) — den
+Zuordnungsfehler fand erst der Gegenlesen-Schritt in einer **dritten** KB, die den Objektnamen
+fuehrt, ohne die entwertete Quelle je zitiert zu haben. Wer eine Quelle entwertet, sollte darum
+nicht nur nach ihren Zitaten greppen, sondern auch nach dem **Objekt**, ueber das sie eine
+Aussage macht.
+
+
 ## 2026-08-24 — Wissens-Chef Run 41 (Cross-KB), 3 additive Eingriffe — darunter ein aufgehobener Benchmark
 
 - **`wiki/energie-uebersicht.md` — der Grassen-Biwak-Benchmark ist aufgehoben.** Der Abschnitt

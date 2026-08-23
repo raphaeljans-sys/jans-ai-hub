@@ -1,5 +1,25 @@
 # CHANGELOG
 
+## 2026-08-24 — Entwertungs-Sweep: die eigene Warnkarte praezisiert (Cross-KB aus `wettbewerbs-dna`)
+
+- **`destillate/ki-generierte-fachdokumente-referenzablage.md` — Nachtrag unter «Offene Punkte».**
+  Der dritte offene Punkt fragte, ob der Aufbau «Grassen Biwak» hinterlueftet ist (Textlage
+  widerspruechlich). Die Praemisse loest sich auf: der **eingereichte** Wettbewerbsbeitrag traegt
+  laut `wissen/wettbewerbs-dna/wiki/teilnahmen/2408-biwak-grassen.md` (`established`, Jurybericht
+  + eigene Abgabeplaene) **hinterlueftetes Falzblech**, **CLT 120 mm** und **70 mm Stroh** — der
+  in der Warnkarte beschriebene Aufbau ist also gar nicht der des Projekts. Die Frage betrifft
+  eine Wand, die so nie geplant war; fuer das Projekt ist die hinterlueftete Lesart belegt.
+  **Zweiter Fund im selben Zug:** die Stroh-Variante der ChatGPT-Datei rechnet mit λ ≈ 0,045,
+  waehrend diese KB fuer Stroh **0,049 W/(m·K) allgemein und 0,052 quer zur Halmrichtung** fuehrt
+  (`strohdaemmung-bemessungswert-brandschutz.md`, ETA-17/0247 bzw. Sekundaerzitat). Da Stroh im
+  Projekt der real verbaute Daemmstoff ist, ist die vermeintliche Nebenrechnung der Datei die
+  praxisrelevante — und die am deutlichsten zu guenstig gerechnete (rund 16 %). **+17 −0.**
+
+Anlass: Uebergabepunkt 2 aus `wissen/koordination/outputs/2026-08-24_wissens-chef-run41.md`
+(Bringschuld bei Entwertung einer Quelle). Die Warnkarte selbst bleibt `established`; keine Zahl
+aus einem `speculative`-Destillat uebernommen.
+
+
 ## 2026-08-23/24 — Qualitaets-Audit: 47 belegte Befunde, drei P1 korrigiert, zwei neue Pruefwerkzeuge im Wissens-Layer
 
 Multiagenten-Audit auf Zuruf Raphaels («das Wissen auf ein neues Level heben»): 13 Agenten, sechs

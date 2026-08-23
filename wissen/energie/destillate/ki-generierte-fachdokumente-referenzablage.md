@@ -178,6 +178,23 @@ und die haftet für den Rechenweg, nicht für das Ergebnis. → FAQ **F257**.
 
 ## Offene Punkte
 
+> **Nachtrag 24.08.2026 (Entwertungs-Sweep, KB `wettbewerbs-dna` gegengelesen) — die Praemisse
+> des dritten offenen Punkts loest sich auf.** Der eingereichte Wettbewerbsbeitrag
+> «-Babuschka-» fuer das Grassenbiwak 2027 traegt laut Jurybericht und eigenen Abgabeplaenen
+> **hinterlueftetes Falzblech** (Prefa Prefalz) als Fassade, **fuenflagige CLT-Platten 120 mm**
+> und **70 mm Stroh** als Daemmung
+> (`wissen/wettbewerbs-dna/wiki/teilnahmen/2408-biwak-grassen.md`, `status: established`).
+> **Der in dieser Datei beschriebene Aufbau ist also gar nicht der des Projekts** — weder die
+> CLT-Staerke (140 statt 120 mm) noch die Daemmung (40 mm Mineralwolle statt 70 mm Stroh) noch
+> die Aussenschicht stimmen. Die Frage «ist DIESER Aufbau hinterlueftet» betrifft damit eine
+> Wand, die so nie geplant war; fuer das Projekt ist die hinterlueftete Lesart belegt.
+> **Zweiter Fund im selben Zug:** die Stroh-Variante der Datei rechnet mit λ ≈ 0,045, waehrend
+> diese KB fuer Stroh **0,049 allgemein und 0,052 quer zur Halmrichtung** fuehrt
+> (`strohdaemmung-bemessungswert-brandschutz.md`) — und Stroh ist im Projekt der real verbaute
+> Daemmstoff, nicht die Variante. Damit ist die vermeintliche Nebenrechnung der Datei die
+> praxisrelevante und zugleich die am deutlichsten zu guenstig gerechnete.
+
+
 - **Der Tabellenwert für ruhende/schwach belüftete Luftschichten nach SN EN ISO 6946 fehlt in
   der KB.** Deshalb ist oben nur die hinterlüftete Lesart durchgerechnet; die Variante
   «unbelüftete Luftschicht» liesse sich mit einem belegten Tabellenwert ergänzen (E-R160-1).

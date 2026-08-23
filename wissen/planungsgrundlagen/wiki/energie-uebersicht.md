@@ -91,6 +91,38 @@ duplizieren:
   FAQ F257. Der Abschnitt bleibt als **Lehrbeispiel für eine plausibel aussehende Falschrechnung**
   stehen, nicht als Kennwertquelle.
 
+  ⚠⚠⚠ **Dritter Nachtrag — der Aufbau ist gar nicht der des Projekts (Entwertungs-Sweep,
+  24.08.2026).** Der Vermerk darüber hebt den Benchmark-Status aus **rechnerischen** Gründen auf.
+  Die **Zuordnung** blieb dabei ungeprüft, und sie hält nicht: Der oben beschriebene Wandaufbau
+  ist nicht der Wandaufbau, den JANS im Wettbewerb «Grassenbiwak 2027» eingereicht hat.
+
+  | | Abschnitt oben (aus der ChatGPT-Datei) | Wettbewerbsbeitrag «-Babuschka-» (belegt) |
+  |---|---|---|
+  | Tragschale | 140 mm CLT | **fünflagige CLT-Platten 120 mm** |
+  | Dämmung | 40 mm Mineralwolle, Stroh nur als «Alternative Optimierung» | **70 mm Stroh** als ausgeführte Dämmung |
+  | Aussenschicht | «Schutzblechverkleidung (Aluminium)», Luftschicht als **unbelüftet** gerechnet | **hinterlüftetes Falzblech** (Prefa Prefalz) |
+
+  Beleg: `wissen/wettbewerbs-dna/wiki/teilnahmen/2408-biwak-grassen.md` (`status: established`,
+  Abschnitt «Material/Tragwerk», Quellen Jurybericht 23.05.2025 + eigene Abgabepläne
+  «-Babuschka- p A2 Plaene.pdf»). **Keine Schicht stimmt überein**, und das Material, das die
+  ChatGPT-Datei als ökologische Kür behandelt, ist im Projekt das tatsächlich verbaute — in
+  nahezu doppelter Stärke.
+
+  **Zwei Folgen, die über den Rechenfehler hinausgehen.** Erstens: auch die *korrigierten*
+  0,374 bis 0,389 W/m²K sind **kein U-Wert des Grassenbiwaks**; sie sind die richtige Rechnung
+  für eine Wand, die so nie geplant war. Wer diesen Abschnitt als Projektreferenz zitiert,
+  zitiert eine erfundene Konstruktion — auch nach der Korrektur. Zweitens: die Behauptung, die
+  Stroh-Variante halte den Zielwert «weiterhin ein», stützt sich auf λ ≈ 0,045. Die KB `energie`
+  führt für Stroh einen **Bemessungswert von 0,049 W/(m·K)** allgemein und **0,052 quer zur
+  Halmrichtung**, also in der Standard-Bauausführung
+  (`wissen/energie/destillate/strohdaemmung-bemessungswert-brandschutz.md`). Die eine Variante,
+  die im Projekt real gebaut wurde, rechnet die Datei damit um rund 16 % zu günstig.
+
+  **Der Abschnitt bleibt stehen** — er ist jetzt ein Lehrbeispiel für zwei Fehlerarten
+  gleichzeitig: eine plausibel aussehende Falschrechnung **und** eine Fehlzuordnung, die auch die
+  korrigierte Zahl unbrauchbar macht. Für die reale Energiebetrachtung des Projekts ist der
+  Aufbau aus `wettbewerbs-dna` zu nehmen und neu zu rechnen; das ist bisher nicht geschehen.
+
 ## Betriebsenergie — reales Sanierungs-Fallbeispiel EFH (PL-04/`_Betriebsenergie`)
 
 > Abgrenzung: **Betriebsenergie** meint hier den effektiven Jahresverbrauch/-kosten eines

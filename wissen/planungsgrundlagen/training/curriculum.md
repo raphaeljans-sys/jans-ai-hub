@@ -309,6 +309,17 @@ das Ergebnis in den passenden Wiki-Artikel.
   nach Dateinamen/Themenstichwort durchsuchen, nicht nur nach Artikel-Dateinamen. Offen:
   Feuchte-/Luftdichtheits-Kapitel-Detailtiefe (S. 14-37) bereits in Run 34 (E-Vollzugshilfen)
   ausgewertet — keine weitere Luecke mehr in diesem Dokument.
+  **⚠ Die Lehre dieses Eintrags ist ueberholt (Entwertungs-Sweep 24.08.2026).** Der Eintrag
+  fuehrt den Grassen-Biwak-Fall als reines Beleg-Delta («rechnet mit λ=0.13 statt dem
+  herstellerbelegten 0.12»). Das ist der kleinste der Fehler. Die Quelle ist als **ChatGPT-Antwort**
+  belegt und rechnet in **drei** Punkten methodisch falsch (R_si/R_se fehlen · Luftschicht mit λ
+  statt Tabellen-R nach SN EN ISO 6946 · hinterlueftete Vorsatzschale mitgerechnet); zusaetzlich
+  entspricht der Aufbau **nicht** dem eingereichten Wettbewerbsprojekt. Warnkarte:
+  `wissen/energie/destillate/ki-generierte-fachdokumente-referenzablage.md` (`established`),
+  Zuordnungs-Befund in [[energie-uebersicht]] §U-Wert, dritter Nachtrag. **Fuer kuenftige Laeufe
+  gilt die Lehre daher umgekehrt:** ein Ergebnis, das plausibel aussieht, ist kein Beleg fuer eine
+  richtige Rechnung — ein einzelner auffaelliger Kennwert ist Anlass, den ganzen Rechenweg zu
+  pruefen, nicht ihn als Randnotiz abzulegen.
 - [x] E42 (Run 61, 2026-07-25) Run-53-EDEADLK-Backlog `_Private Kontrolle/https.docx` +
   `endk.ch/.../Auf dem.docx` + `.../Bauvorschriften Versickerung.docx` — inzwischen lesbar?
   (JA, Lock aufgeloest. `https.docx` = bareURL zh.ch/Private-Kontrolle-Seite, bestaetigter

@@ -1,5 +1,22 @@
 # CHANGELOG — KB wettbewerbs-dna
 
+## 2026-08-24 — Kante zur Energie-Betrachtung gesetzt (Entwertungs-Sweep, Cross-KB)
+
+- **[inhalt]** **`wiki/teilnahmen/2408-biwak-grassen.md`:** Kante nach `wissen/energie` und
+  `wissen/planungsgrundlagen` gesetzt. Anlass ist ein Fund in umgekehrter Richtung: in
+  `planungsgrundlagen/wiki/energie-uebersicht.md` stand seit dem 13.07.2026 ein Wandaufbau als
+  «Realer JANS-Benchmark — Biwak Grassen», der **nicht der eingereichte Aufbau dieses Beitrags
+  ist** (dort CLT 140 mm + 40 mm Mineralwolle, hier belegt CLT 120 mm + 70 mm Stroh +
+  hinterlueftetes Falzblech). Die Quelle jenes Abschnitts ist eine ChatGPT-Antwort aus der
+  Referenzablage und in `energie/destillate/ki-generierte-fachdokumente-referenzablage.md` als
+  Warnkarte entwertet. Diese KB fuehrt damit die **belegte** Referenz fuer jede Energie-/U-Wert-
+  Betrachtung des Projekts; der Vermerk sagt das ausdruecklich und nennt den
+  Stroh-Bemessungswert 0,052 W/(m·K) quer zur Halmrichtung fuer eine Neuberechnung. **+12 −0.**
+- **[offen]** Ein belegter U-Wert fuer den Beitrag «-Babuschka-» existiert nicht. Er waere aus
+  dem hier dokumentierten Aufbau neu zu rechnen, wenn das Projekt als Energie-Referenz verwendet
+  werden soll. Bisher ist das nicht geschehen.
+
+
 ## 2026-08-23 — ETAPPE 4, VERTIEFUNGSLAUF 04 (V2 Wohnungsbau geprueft, V3 Verdichtung) — ETAPPE 4 ABGESCHLOSSEN
 
 - **[befund]** **V2 Wohnungsbau als strukturell unbaubar bestaetigt** (Vorwarnung aus
