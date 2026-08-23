@@ -54,6 +54,15 @@ Diese Liste pflegt alle bekannten Kontakte und ihre Anredeform. Sie wird laufend
   darum: den belegten Opener desselben Kontakts halten. Belege:
   `wissen/twin/wiki/QUESTIONS.md` 260822b #1, `wissen/twin/wiki/beziehungsregister.md` Z. 445
   und 1248. Nachgetragen vom Wissens-Chef Run 40.
+  ⚠ **Praezisere Fassung seit 23.08.2026 in `rules/jans-dna-facetten.md`** (nicht importiert,
+  vor jedem ausgehenden Texterzeugnis zu lesen): dort ist die Stufe als **Trajektorie, kein
+  Standbild** gefasst — der Kanalwechsel wirkt **verzoegert**, nicht sofort (Furrer 24.07. →
+  28.07., Stadelmann 22.07. trotz Telefonat → 03.08.), und der belegte Opener gilt **innerhalb**
+  des Vorgangs, nicht ueber Wochen. Die Handlungsanweisung oben («Kalender des laufenden Tages
+  pruefen, die Anrede des letzten Threads ist ueberholt») unterstellt dagegen Sofortwirkung und
+  ist am selben Korpus mit 3/3 verfehlt gemessen (260822). Bis zum Entscheid Raphaels im Zweifel
+  die Facetten-Fassung. Verweis-Nachtrag Synergie-Lauf 16 (active-with-flagging), Sachfrage
+  offen als SYN-43; der Wortlaut der Klausel selbst ist unveraendert.
 
 ## Kontaktliste
 

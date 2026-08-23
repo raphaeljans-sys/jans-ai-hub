@@ -1,6 +1,34 @@
 # CHANGELOG — KB koordination (Wissens-Chef)
 
 Jede Aktion der Koordinationsinstanz, datiert, neueste zuoberst.
+
+## 2026-08-23 — Synergie-Lauf 16 (Tagestakt): SYN-43 Anrede-Divergenz, vier Kandidaten verworfen
+
+Delta-Basis 22.08.2026 17:10, Fenster 24,0 Stunden, 126 Commits. Uhr-Check bestanden (17:10 CEST
+gegen Synology-Log 17:05:20), Gegenprobe bestanden (juengster Treffer = HEAD `063edde4`).
+Strukturell 0 neue Bausteine und keine neue KB, aber vier geaenderte Rules — damit greift der
+Frueh-Ausstieg nach Schritt 2 nicht.
+
+**Neu: SYN-43** — `rules/anrede-kontakte.md` (importiert) und `rules/jans-dna-facetten.md` (nicht
+importiert) haben sich sieben Stunden versetzt zur selben Anrede-Frage bewegt. Die immer geladene
+Fassung traegt die Treffen-Klausel mit Sofortwirkung («Kalender des laufenden Tages pruefen»),
+die nicht importierte fasst die Stufe als Trajektorie mit **verzoegerter** Wirkung und misst die
+Sofortwirkung am selben Korpus mit **3/3 verfehlt** (260822). Richtungsprobe: Kante nur vom
+Zulieferer her (`jans-dna-facetten` Z. 235 → `anrede-kontakte`, zurueck 0). Verweis-Nachtrag
+gesetzt (active-with-flagging, 9/0); die Zusammenfuehrung bleibt Raphaels Entscheid, weil beide
+Dateien die Klausel als «Entscheid ausstehend» fuehren.
+
+**Verworfen mit Beleg:** (a) Cross-KB-Bringschuld in `wissens-bibliothekar` — beide Rules
+importiert, Mechanismus gelebt belegt funktionierend (F-UEBERGABE `planungsgrundlagen` Z. 1515
+geschlossen, energie→`normen` SIA 493 drueben angekommen); (b) `nas-commit-now.sh` im Buero-LAN —
+Chronik-Eintrag ausdruecklich als ueberholt markiert, Ursache gestopptes Tailscale, Script in
+Ordnung; (c) dritte Station `macbook-revendo` — kein Baustein, Betriebssache; (d) neue
+energie-Antworten (Asbest ZH, Seewasser SZ/ZG) — kein Skill traegt einen widersprechenden Wert,
+die offene Kante ist bereits SYN-20.
+
+Bericht: `outputs/2026-08-23_synergie-lauf-16.md`. Schreib-Kontrolle: `anrede-kontakte` 9/0
+(106/115), Register 1/0 + 67/0 (639/706, 42→43 Tabellenzeilen), keine Datei hat Zeilen verloren.
+Keine Mail (still by default).
 Im Zweifel, was geaendert wurde: dieses CHANGELOG ist die Wahrheit.
 
 ## 2026-08-22 — Wissens-Chef Run 40 (Abendlauf)

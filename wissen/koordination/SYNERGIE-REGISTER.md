@@ -51,6 +51,7 @@ Neueste Laeufe ergaenzen unten je Eintrag; abgeschlossene Eintraege bleiben steh
 | SYN-40 | rules/auto-verbesserungen.md (Eintrag 260820) · rules/dokument-layout-standard.md · agents/layout | 3 | **Die neue Laengenregel benennt die Datei, die sie ergaenzt — und steht dort mit null Treffern.** Der Eintrag 260820 «Abklaerungen kurz halten» (Commit `0d5c11fa`, 16 Zeilen, Vorgabe Raphael zum Erzeugnis «Montagehoehe Wandmischbatterie 2619 KISPI») schliesst woertlich mit «Ergaenzt `dokument-layout-standard.md` (Form) um die Laenge». Gegenprobe in `rules/dokument-layout-standard.md`: 0 Treffer auf «Laenge», «Abklaerung», «kurz». Auch `agents/layout.md` — der mechanische Formpruefer, der genau gegen diesen Standard prueft — hat 0 Treffer. Die haeufigste Figur dieses Skills (SYN-10, SYN-14, SYN-16, SYN-20, SYN-38), hier wieder mit dem Zusatz, dass der Zulieferer die Kante selbst behauptet. **Ehrliche Abgrenzung, darum Typ 3 und nicht Typ 1:** beide Rules sind importierter Grundkontext, die Laengenregel erreicht also jede Session ohnehin — es gibt keine harte Kappung. Verschoben hat sich der Auffindeweg: wer vom Formstandard herkommt (Generator-Vorlage `templates/dokument-layout/`, Korrektur-Harness, Agent `dokument`), findet dort Schrift, Raender, Tabellen und Listen, aber nichts zur Laenge. **Kein Konflikt mit SYN-24:** dort wurde entschieden, einen Vorbehalt nicht in elf Skill-Kopien zu schreiben; hier geht es um einen Querverweis zwischen zwei Rules, den die eine Seite bereits behauptet. | Kurzer Abschnitt «Laenge (nicht hier geregelt)» in `rules/dokument-layout-standard.md` gesetzt, der auf den Eintrag 260820 zeigt und die Abgrenzung (Abklaerung kurz, Studien/Berichte/Offerten/Protokolle ausfuehrlich) mitnennt. Bewusst **kein** Kopieren des Regeltextes und **keine** Laengenpruefung in `agents/layout.md` — die Vorgabe ist inhaltlich («drei Saetze plus Skizze»), nicht mechanisch messbar, und ein Pruefer, der Laenge zaehlt, erzeugt genau die Fehlbefunde aus SYN-31. | umgesetzt (active-with-flagging, Lauf 14) |
 | SYN-41 | wissen/normen (5 Fassungs-Delta-Destillate · wiki/synthese-sia-vkf-fachskills · wiki/REGISTER) · skills/brandschutz | 1 | **Der Skill wurde nachgezogen, die `established`-Synthese zwischen Destillat und Skill nicht — und genau sie traegt das Guetesiegel, das ohne Gegenlesen zitierfaehig macht.** Der Normen-Lauf 59 destillierte am 22.08.2026 fuenf VKF-Fassungs-Deltas (Commits `d4f0e294`, `69027822`). `skills/brandschutz/SKILL.md` ist im selben Commit `69027822` nachgezogen (+25/0, Pflichtlektuere-Block: Gesamthoehe am Flachdach, QSS-Tabelle, ueberhohe Raeume, neue Begriffe). `wissen/normen/wiki/synthese-sia-vkf-fachskills.md` wurde im ganzen Fenster **null Mal** angefasst (gemessen `git log --since` = 0 Commits), steht auf `last_updated: 2026-07-17` und traegt die Ueberschrift «## 4. Skill `brandschutz` — VKF-Brandschutzvorschriften **2015**». Zwei Stellen widersprechen dem Delta konkret: Z. 269-271 klassifiziert geringe/mittlere Hoehe/Hochhaus ueber die **Gesamthoehe**, deren Messweise am Flachdach mit der Fassung 01.01.2019 gewechselt hat (neu ab Dachflaeche ueber dem tiefstgelegenen massgebenden Terrain); Z. 331 gewaehrt die Fluchtweg-Erleichterung «bei ueberhohen Raeumen … bis 50 m», waehrend dieselbe Fassung das Flaechenkriterium > 4'800 m² fuer «ueberhohe Raeume» **gestrichen** hat (es genuegt Raumhoehe > 6.0 m) — die Erleichterung erfasst damit ein Vielfaches an Raeumen. Der Artikel ist `status: established`, also nach Rule `normen-referenz` Ziff. 1b ohne Gegenlesen zitierfaehig, und wird ueber `wissen/koordination/QUERBEZUEGE.md` sowie zwei normen-Wiki-Artikel referenziert. **Adversariale Gegenpruefung:** Der naheliegende Einwand, der Artikel sei als 2015-Korpus-Schnappschuss gemeint, traegt nicht — er fuehrt bereits vier eigene Fassungs-Annotationen inline (Z. 303, 316, 323, 329, 332) und wurde laut `wissen/normen/CHANGELOG.md` Z. 3763 bei einer frueheren Fassungsaenderung (Personenbelegung Verkauf, Stand 01.12.2022) genau so nachgefuehrt. Nachfuehren ist hier die Konvention, nicht die Ausnahme. **Zweiter gepruefter, aber verworfener Kandidat:** die naheliegende Forderung, jedes der fuenf Delta-Destillate solle `brandschutz` als Abnehmer zurueckbenennen, ist **kein** Befund — gemessen tragen nur 3 von 376 normen-Destillaten und 5 von 325 energie-Destillaten ueberhaupt einen Abnehmer-Vermerk; die Rueckkante liegt in dieser Architektur bewusst im REGISTER, nicht im Destillat. | Fassungs-Vorbehalt an den Anfang von Abschnitt 4 gesetzt (16 Zeilen), der die fuenf Delta-Destillate namentlich nennt, die beiden beruehrten Stellen benennt und ausdruecklich festhaelt, dass der `status: established` sie **nicht** ohne Gegenlesen zitierfaehig macht. Bewusst **keine** Korrektur der Tabellenwerte selbst: das verlangt das Original-PDF und ist Arbeit der KB `normen` (Run 59 fuehrt sie unter «18 der 23 bleiben offen»), nicht eines Aufsichtslaufs. | umgesetzt bis zum Vorbehalt (active-with-flagging, Lauf 15); Nachfuehrung der Tabellen offen bei `normen` |
 | SYN-42 | wissen/normen/wiki/REGISTER.md (Zeile 37) · skills/brandschutz | 6 | **Die Statuszelle war schon in dem Commit ueberholt, der sie schrieb.** `wissen/normen/wiki/REGISTER.md` Z. 37 (Run 59, 22.08.2026) fuehrte die fuenf Fassungs-Deltas mit dem Status «offen — die Abnehmer-Skills sind noch nicht nachgezogen (v.a. `brandschutz`: QSS-Tabelle, Gesamthoehe, BFS-Pruefintervalle)». Gegenprobe am Commit-Inhalt: `git show 69027822 --name-only` enthaelt **sowohl** `wissen/normen/wiki/REGISTER.md` **als auch** `skills/brandschutz/SKILL.md` (+25/0, exakt die drei genannten Punkte). Der Zulieferer meldete also eine Bringschuld als offen, die er im selben Zug erfuellt hatte. Folge: der naechste Leser — Mensch wie Loop — haelt den Skill fuer veraltet und zieht ihn ein zweites Mal nach, oder er misstraut ihm ohne Anlass. **Kein Vorwurf an den Lauf:** ein Selfcommit buendelt 15 Minuten Dateiarbeit, die Reihenfolge innerhalb des Bundles ist nicht sichtbar; genau deshalb gehoert der Status am Ende des Laufs gegen den eigenen Arbeitsstand geprueft und nicht beim Schreiben der Zeile gesetzt. | Statuszelle zeilenindiziert korrigiert (1/1, keine Zeile verloren, kein globales Ersetzen): «teilweise erledigt», Commit-Hash genannt, und der real verbliebene offene Rest benannt — der Synthese-Artikel aus SYN-41. | umgesetzt (active-with-flagging, Lauf 15) |
+| SYN-43 | rules/anrede-kontakte.md (importiert) · rules/jans-dna-facetten.md (nicht importiert) · agents/email · agents/twin-beziehung · skills/korrektur | 1 | **Dieselbe Anrede-Frage steht in zwei Dateien, und die operative Anweisung der importierten Fassung ist am selben Korpus als verfehlt gemessen.** `rules/anrede-kontakte.md` (Commit `fe6224f0`, 22.08. 23:30, 10/0) traegt die Treffen-Klausel weiterhin mit Sofortwirkung: «die neue Stufe bleibt danach» und als praktische Folge «vor einer Mail an einen Fachplaner den Kalender des laufenden Tages pruefen; hat ein Treffen stattgefunden, ist die Anrede des letzten Threads ueberholt» (Z. 41-47). Der am selben Tag angehaengte Gegenbeleg korrigiert nur die Achse (kein Wechsel Sie → Du), nicht die Sofortwirkung. Sieben Stunden spaeter praezisiert `rules/jans-dna-facetten.md` (Commit `d4d79ced`, 23.08. 06:00, 26/26) dieselbe Frage eine Ebene tiefer: die Stufe sei eine **Trajektorie, kein Standbild**, der Kanalwechsel wirke **verzoegert, nicht sofort** (Furrer 24.07. → 28.07.; Stadelmann 22.07. trotz Telefonat unveraendert → erst 03.08.), und der belegte Opener gelte **innerhalb** des Vorgangs, nicht ueber Wochen; die Ausloeser Cc, Gewicht und Telefonat heben im selben Vorgang nicht automatisch (**260822, 3/3 verfehlt**). **Richtungsprobe:** `jans-dna-facetten` nennt `anrede-kontakte` (Z. 235), zurueck verweist nichts (`grep -c` = 0). Damit traegt die **immer geladene** Datei die groebere Fassung und die **nicht importierte** die belegte Praezisierung — die Asymmetrie zeigt in die ungeguenstige Richtung. Betroffen sind besonders die neun Bausteine ohne Facetten-Zeiger aus SYN-22. **Ehrliche Abgrenzung:** keine harte Kappung — der importierte Kern `jans-dna.md` weist jede Session an, die Facetten vor einem ausgehenden Text zu lesen; wer das tut, sieht die neuere Fassung. Verschoben hat sich die Verlaesslichkeit, nicht die Erreichbarkeit. | Verweis-Nachtrag in `rules/anrede-kontakte.md` gesetzt (9/0, 106→115 Zeilen, kein globales Ersetzen, Anker vorher auf 1 Treffer geprueft): zeigt auf die praezisere Fassung, benennt die gemessene 3/3-Verfehlung und laesst den Wortlaut der Klausel unangetastet. **Offen bleibt die Sachfrage** — die beiden Fassungen zusammenzufuehren heisst, den Regeltext zu aendern, und beide Dateien fuehren die Klausel ausdruecklich als «Entscheid Raphael ausstehend» (`wissen/twin/wiki/QUESTIONS.md` 260821 #1, 260822b #1). Wieder aufzurollen, sobald dieser Entscheid vorliegt. | teilweise umgesetzt (active-with-flagging, Lauf 16) |
 
 Erstlauf: 15.07.2026 (Lauf 01, Session Synergie-Orchestrator-Einrichtung).
 Lauf 02: 25.07.2026 (monatlicher Lauf, vorgezogen auf den Task-Termin; Delta-Basis Git-Log +
@@ -637,3 +638,69 @@ und Suffix vorher assertiert), Zeilenzahl 741/741; Register **2/0** fuer die bei
 **40/42 Tabellenzeilen**, 565/567, diese Fussnote haengt zusaetzlich an. Kein globales
 Suchen-und-Ersetzen, keine Datei hat Zeilen verloren. Laufbericht:
 `outputs/2026-08-22_synergie-lauf-15.md`.
+
+
+Lauf 16: 23.08.2026 17:10-17:45 (Tagestakt, Delta-Basis 22.08.2026 17:10, Fenster 24,0
+Stunden, 126 Commits). Uhr-Check bestanden: Stationsuhr 17:10 CEST, juengster nativer
+Synology-Log-Eintrag 17:05:20 — Abweichung im Minutenbereich, kein Uhr-Vorbehalt.
+Gegenprobe bestanden: juengster Treffer im Fenster ist der HEAD `063edde4` selbst,
+aeltester `8ebd5566` (22.08. 17:15) schliesst lueckenlos an die Delta-Basis an.
+Strukturelles Delta: **0 neue** Skills/Agenten/Connectoren/Commands/Services/Rules und
+**keine neue KB**; einziger Neuzugang unter den Bausteinpfaden ist eine Trainingsdatei
+(`skills/wissens-destillat/training/buero-projekte-triage-20260823-1546.md`), kein Baustein.
+Geaendert: vier Rules — `betrieb-chronik` (4 Commits, nicht importiert), `wissens-bibliothekar`
+(`9646355d`, 15/0, importiert), `jans-dna-facetten` (`d4d79ced`, 26/26, nicht importiert),
+`anrede-kontakte` (`fe6224f0`, 10/0, importiert). Damit greift der Frueh-Ausstieg nach
+Schritt 2 nicht.
+
+**Geprueft und als Befund aufgenommen:** die Anrede-Divergenz zwischen `anrede-kontakte`
+und `jans-dna-facetten` (SYN-43) — beide Dateien haben sich im Fenster sieben Stunden
+versetzt zur selben Sachfrage bewegt, die Richtungsprobe ergab eine einseitige Kante
+(`jans-dna-facetten` → `anrede-kontakte` Z. 235, zurueck 0 Treffer).
+
+**Adversarial gegengeprueft und bewusst verworfen:** (a) **Cross-KB-Bringschuld** — die neue
+Klausel in `rules/wissens-bibliothekar.md` (`9646355d`) sah nach einer klassischen Ketten-Luecke
+aus, weil weder `rules/wissens-ruecklauf.md` noch `wissen/WISSEN-CLAUDE.md` sie kennen (je 0
+Treffer). Zwei Gegenbefunde am Objekt entkraeften das: beide Rules sind **importiert**, wer die
+eine liest, hat die andere im Kontext; und der Mechanismus ist gelebt belegt funktionierend —
+der Anlassfall `F-UEBERGABE` in `wissen/planungsgrundlagen/wiki/QUESTIONS.md` Z. 1515 ist am
+23.08. **geschlossen**, und die energie→normen-Uebergabe zu SIA 493 ist drueben angekommen
+(`wissen/normen/wiki/QUESTIONS.md` Z. 1037 «E-123-2 … geschlossen», `wiki/REGISTER.md` Z. 721).
+Die Klausel kodifiziert eine funktionierende Praxis; ein Querverweis waere Rauschen.
+(b) **`nas-commit-now.sh` im Buero-LAN** — der Chronik-Eintrag 260823 las sich wie eine
+Sackgasse, die weder `rules/sync-kanonische-quelle`, `rules/git-auto-push` noch
+`connectors/WEGE.md` kennen (je 0 Treffer). Am Objekt weitergelesen: der Eintrag ist
+ausdruecklich als **ueberholt** markiert, die korrigierte Fassung darueber weist gestopptes
+Tailscale auf dem Mac Mini als Ursache aus, «das Script ist in Ordnung, der Dienst ist aus».
+Kein Rule-Befund; der Punkt ist als Betriebssache im Fristen-Register verankert. Genau die
+Falle, vor der der Eintrag selbst warnt («erst messen, dann deuten»).
+(c) **Dritte Station `macbook-revendo`** (HEAD `063edde4`): in der kanonischen Quelle
+`connectors/hub-setup-daten.json`, in `docs/stationen.md`, im Vollgas-RADAR und im
+Kontingent-Journal registriert — nur `station-status/macbook-revendo.md` fehlt. Stationen sind
+keine Bausteine im Sinne dieses Skills und keine Zeile in `rollen-map.tsv`; die Statusdatei
+entsteht beim ersten Lauf des Status-Jobs. Betriebssache, kein Registereintrag.
+(d) **Neue energie-Antworten mit moeglichen Abnehmern** (Asbest-Meldepflicht ZH, Konzessionsdauer
+Seewasser SZ/ZG): Abnehmer-Gegenprobe ueber `skills/` und `agents/` ergab nur
+`skills/ankaufspruefung/SKILL.md`, und der fuehrt Asbest ausdruecklich als «Abklaerungsbedarf
+benennen, kein Laborbefund» (Z. 52-53, 75-76) — **kein widersprechender Wert**, also nicht der
+SYN-41-Typ. Die fehlende Verdrahtung `ankaufspruefung` ↔ `wissen/energie` ist bereits SYN-20,
+nicht gedoppelt.
+
+**Gemessen, aber nicht aufgerollt:** reine KB-Inhaltsarbeit ohne neue Bausteine in `energie`
+(64), `normen` (61), `baurecht` (24), `twin` (19), `planungsgrundlagen` (16),
+`architekten-synobsis` (6), `wettbewerbs-dna` (5), `immobilienbewertung` (5),
+`firmengruendung-ch` (4), `entwurfs-referenzen` (4), `grobkosten` (3), `projekt-lessons` (2),
+`bauprodukte` (2). Fuer die beiden grossen wurde die Ausnahme geprueft, weil offene Eintraege
+sie nennen (SYN-24/37 `normen`, SYN-07/20/21/30 `energie`): das normen-Delta ist
+Register-Formatkorrektur und Vollstaendigkeitsverifikation, ausdruecklich «keine neuen
+Destillate»; das energie-Delta schliesst 15 offene Fragen, ohne eine bestehende Aussage zu
+kippen — in beiden Faellen hat sich kein Abnehmer-Baustein bewegt. Nicht neu aufgerollt
+(Compounding, kein Beteiligter bewegt): SYN-01 bis SYN-42. Kein neuer Service-ENTWURF, kein
+Katalog-Bezug.
+
+Schreib-Kontrolle nach Rule `auto-verbesserungen` 260811, alle Werte mit `git diff --numstat`
+gemessen: `rules/anrede-kontakte.md` **9/0** (Einsetzen an einem eindeutigen Anker, Trefferzahl
+vor dem Schreiben auf 1 assertiert), Zeilenzahl 106/115; Register **1/0** fuer die SYN-43-Zeile,
+**42/43 Tabellenzeilen**, 639/640, diese Fussnote haengt zusaetzlich an. Kein globales
+Suchen-und-Ersetzen, keine Datei hat Zeilen verloren. Laufbericht:
+`outputs/2026-08-23_synergie-lauf-16.md`.
