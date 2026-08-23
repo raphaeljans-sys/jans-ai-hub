@@ -5,7 +5,7 @@ ausgabe: Version 06.2021
 gelesen: Kap. 4 — Aussenwaende V1-9 (S. 40-57) + Daecher V1-6 (S. 166-176) + Inhaltsverzeichnis Kap. 4 (S. 39); Innenwaende/Trennwaende/Deckenelement noch offen
 datenstand: 2026-06-12 (Produktdoku 06.2021; CH-Bemessung/Brandschutz separat pruefen)
 status: established
-last_updated: 2026-06-12
+last_updated: 2026-08-23
 ---
 
 # Destillat — CLT-Bauteilkatalog (Stora Enso, Kap. 4)
@@ -32,7 +32,14 @@ typische Aussenwaende erreichen so **U 0,10-0,18** bei **REI 60-120** und **Rw 3
 
 ## Grundbausteine (durchgehend)
 - **Tragschicht CLT C3s/L5s:** λ **0,110** W/(m·K), ρ 470 kg/m³, μ 50, Brennbarkeitsklasse **D**.
-  Wand: CLT 100 oder 120 mm. Dach: CLT 140 mm.
+  Wand: CLT 100 oder 120 mm. Dach: CLT 140 mm. ⚠ **Praezisierung 23.08.2026 (E-R161-2):**
+  Kap. 1 desselben Hefts (`[[clt-bauphysik-stora-enso]]`, S. 6) nennt fuer «CLT» stattdessen
+  **λ 0,12** unter Berufung auf EN ISO 10456 — dort als Norm-Pauschalwert fuer illustrative
+  U-Wert-Beispiele verwendet, hier (Kap. 4, S. 41ff., 27 von 56 geprueften Seiten) als
+  Bemessungswert des Bauteilkatalogs, identisch fuer die Wandtragschicht C3s und die
+  Dachtragschicht L5s (S. 167). Keine Fussnote im Dokument loest den Unterschied auf. Fuer die
+  Bauteiltabellen dieses Katalogs gilt **0,110** (wie hier durchgehend gerechnet); fuer ein
+  konkretes verbautes Produkt geht dessen eigenes Datenblatt/EPD vor.
 - **Aussenputz** (inkl. Spachtelung/Gewebe): 0,5 cm, λ 1,000, Klasse A1.
 - **Daemmstoffe:** EPS λ **0,031** (Klasse E) · Mineralwolle λ **0,035** (Klasse **A1**, nicht
   brennbar) · Holzfaser «Homatherm HDP-Q11 protect» λ **0,039** (Dach, Klasse E).
@@ -101,5 +108,3 @@ aussenseitig der CLT) · CLT 140 · ggf. innen GKF / abgehaengte Decke.
 - **CH-Einordnung (eigene Markierung):** Doku ist herstellerseitig DE; **REI ≈ EI/EI-Klassen der
   VKF** (CH-Brandschutz → Skill `brandschutz`), λ-Werte sind **Produkt-/Bemessungswerte** — fuer
   den CH-Nachweis ggf. Zuschlag **SIA 279** und VKF-Anerkennung der Daemmung pruefen.
-</content>
-</invoke>

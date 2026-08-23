@@ -56,4 +56,3 @@ Regeln aus dem swissolar-STP zitiert. CH-Einordnung markiert: Stora-Enso-Doku is
 Skill `brandschutz`, Energierecht/PV-Pflicht → Skill `baurecht` (verlinkt, nicht gedoppelt).
 Echte Umlaute ä/ö/ü, Schweizer Hochdeutsch. Kompoundiert (Bauteilkatalog ↔ Holzbau-Bauphysik F15;
 PV-Brandschutz ↔ pv-solar-technologien/Holzbau-DC-Fuehrung; Daemmstoff-λ ↔ daemmstoffe-lambda).
-</content>

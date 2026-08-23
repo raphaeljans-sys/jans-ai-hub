@@ -5,7 +5,7 @@ frequenz_phase1: taeglich (Aufbau, ~erste 4 Wochen)
 frequenz_phase2: alle 2 Tage (Festigung)
 frequenz_phase3: woechentlich (Erhaltung + Anwendungs-Drills)
 scheduled_task: baurecht-buch-training
-last_updated: 2026-08-23 (Run 100)
+last_updated: 2026-08-23 (Run 101)
 ---
 
 # Trainingsprogramm — Buch-Lernen Baurecht-Harness
@@ -1586,11 +1586,26 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Ermaechtigungsklausel der LSV, die Art. 38 nicht, aber Art. 5/12/13/16/19/21/23/39/40/45 USG
   nennt), das Vorsorgeprinzip steht in Art. 11 Abs. 2 USG — Zitat korrigiert. Kein neuer
   `raw/`-Volltext (gleiches Vorgehen wie Run 97/99). Report `outputs/2026-08-23_buch-run100.md`.
-  **Naechster Schritt fuer einen kuenftigen Lauf:** von den verbleibenden 6 Artikeln
-  ([[ausnahmebewilligung-und-bestandesschutz]], [[baulinien-und-abstandslinien]],
-  [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
-  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]) einen
-  unabhaengigen Rechtsraum waehlen.
+- **Buch-Run 101 (2026-08-23):** [[widerrechtliche-bauten-und-sanktionen]] gewaehlt — von den 6
+  verbleibenden Kandidaten der Artikel mit den meisten unverifizierten Bundesrechts-Zitaten (RPG,
+  BV, StGB, OR, ZGB, StPO ueber 6 verschiedene Erlasse). Konkurrenz-Check (`ps aux`) bestaetigt: nur
+  der eigene `-p`-Prozess dieser Session bearbeitet `wissen/baurecht/`. Alle 12 Bundesrechts-Zitate
+  gegen frische fedlex-Volltexte geprueft (RPG Stand 1.7.2026, BV 1.1.2024, StGB 1.1.2026, OR
+  1.1.2026, StPO 1.7.2024). **11/12 CONFIRMED wortgleich.** **1 echte Korrektur:** Art. 229 Abs. 1
+  StGB (Vorsatz) ist seit 1.7.2023 Freiheitsstrafe bis **5** Jahre, nicht 3 — die 3-Jahres-Grenze
+  gilt nur fuer Abs. 2 (Fahrlaessigkeit); die bisherige Wiki-Angabe hatte die Faelle verwechselt.
+  **1 substanzieller Neubefund:** Art. 25 Abs. 3-5 RPG (in Kraft seit 1.1.2026) kodifiziert die
+  30-Jahre-Verwirkungsfrist des Wiederherstellungsanspruchs erstmals bundesrechtlich — aber nur fuer
+  Bauvorhaben ausserhalb der Bauzonen; innerhalb der Bauzone bleibt es bei der bisherigen kantonalen
+  Praxis/Rechtsprechung. Art. 836 ZGB nicht neu abgerufen, sondern aus Run 100 (gleiche Norm, gleiche
+  Einordnung) uebernommen. Report `outputs/2026-08-23_buch-run101.md`. **Naechster Schritt fuer einen
+  kuenftigen Lauf:** von den verbleibenden 5 Artikeln ([[ausnahmebewilligung-und-bestandesschutz]],
+  [[baulinien-und-abstandslinien]], [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]]) einen unabhaengigen Rechtsraum waehlen — Empfehlung:
+  [[nebenbestimmungen-und-reverse]] (zitiert Art. 962 ZGB/Art. 164 GBV, ebenfalls noch nie gegen
+  fedlex geprueft) oder [[rechtsschutz-und-rechtsmittelverfahren]] (aeltestes `verifiziert`-Datum,
+  2026-07-12, aber rein kantonales VRG/PBG ohne Bundesrechts-Luecke — geringere Prioritaet nach
+  diesem Muster).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

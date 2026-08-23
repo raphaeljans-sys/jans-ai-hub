@@ -146,4 +146,3 @@ Standort** (nicht in Flucht-/feuer-/explosionsgefaehrdeten Raeumen).
 - **Abgrenzung:** brandschutztechnische **Bewertung/Anwendung** (EI-Klassen, Bauteilnachweis,
   Feuerpolizei-Akzeptanz) → Skill `brandschutz`; **PV-Pflicht/Energierecht** → Skill `baurecht` /
   F10. Hier nur die Energie-/Solar-Schnittstelle dokumentiert (nicht doppeln).
-</content>

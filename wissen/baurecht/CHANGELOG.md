@@ -3,6 +3,86 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 — Buch-Run 101: [[widerrechtliche-bauten-und-sanktionen]] re-verifiziert — erstmals alle 12 zitierten Bundesrechts-Artikel (RPG/BV/StGB/OR/ZGB/StPO) gegen den amtlichen Wortlaut geprüft, 1 echte Korrektur (Art. 229 StGB Strafrahmen), 1 substanzieller Neubefund (Art. 25 Abs. 5 RPG kodifiziert die 30-Jahre-Regel seit 1.1.2026)
+
+- **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (Batches T1-T8). Geprüft:
+  CHANGELOG bis Run 100 und der Report `outputs/2026-08-23_buch-run100.md`. Bestätigt: die Queue
+  selbst (T1-T9) ist seit Run 87 vollständig abgearbeitet; seit Run 90 läuft statt dessen die
+  Modell-D-Re-Verifikationskette der `established`-Artikel. Run 100 benannte 6 verbleibende
+  Kandidaten und empfahl, einen unabhängigen Rechtsraum zu wählen. Vor dem ersten Edit
+  `git status --short wissen/baurecht/` geprüft (sauber) und `ps aux | grep "claude -p"`: der
+  einzige Prozess mit identischem Auftragstext ist der eigene `-p`-Prozess dieser Session (PID
+  63503); zwei weitere `-p`-Prozesse bearbeiten unabhängig `wissen/normen` bzw. `wissen/energie`
+  — kein Konflikt auf `wissen/baurecht/`.
+- **Auswahl:** [[widerrechtliche-bauten-und-sanktionen]] — von den 6 Kandidaten der Artikel mit den
+  mit Abstand meisten unverifizierten Bundesrechts-Zitaten (RPG, BV, StGB, OR, ZGB, StPO über sechs
+  verschiedene Erlasse), die bisherige Verifikation (Run 30/31/58/64) deckte nur die kantonalen
+  §§ PBG/VRG ab.
+- **Vorgehen:** amtliche Volltexte über das Filestore-Muster (Rule `docs/referenz/fedlex-volltexte.md`)
+  bezogen: RPG (SR 700, ELI `1979/1573_1573_1573`, Stand 1.7.2026 — bereits aus Run 97/99 bekannt),
+  BV (SR 101, ELI `1999/404`, Stand 1.1.2024 — bereits bekannt), StGB (SR 311.0, ELI
+  `54/757_781_799`, Stand 1.1.2026, `fedlex.data.admin.ch`, 1'850'282 Byte PDF), OR (SR 220, ELI
+  `27/317_321_377`, Stand 1.1.2026, 4'862'033 Byte PDF), StPO (SR 312.0, ELI `2010/267`; die
+  Kandidatendaten 20250101/20241001/20250701/20250301/20240301 lieferten je nur die 9'148-Byte-
+  Fehlerseite, erst **20240701** ein echtes PDF, 1'529'897 Byte, Stand 1.7.2024). Jeder Artikel per
+  `pdftotext -layout` extrahiert und im Volltext aufgesucht.
+- **Ergebnis: 11/12 Zitate CONFIRMED wortgleich.** Art. 24 RPG (Abschnittsüberschrift «2a. Abschnitt:
+  Ausnahmebewilligungen ausserhalb der Bauzonen» bestätigt die Wiki-Einordnung), Art. 25 Abs. 2 RPG
+  (kantonale Zuständigkeit für den Zonenkonformitäts-/Ausnahmebewilligungsentscheid — die
+  Wiki-Angabe «Baudirektion» ist eine ZH-spezifische Organisationszuweisung innerhalb dieser
+  bundesrechtlichen Kompetenzdelegation, kein RPG-Wortlaut, daher kein Fehler), Art. 5 Abs. 2 BV
+  (Verhältnismässigkeit), Art. 9 BV (Willkürverbot/Treu-und-Glauben als Grundlage des
+  Vertrauensschutzes), Art. 290 StGB (Siegelbruch), Art. 292 StGB (Ungehorsam gegen amtliche
+  Verfügungen), Art. 70/71 StGB (Einziehung/Ersatzforderung), Art. 109 StGB (3-Jahres-Regelverjährung
+  als Kontrastnorm zur PBG-Sonderfrist), Art. 137 Abs. 2 OR (analog: «die neue Verjährungsfrist
+  [ist] stets die zehnjährige»), Art. 354 StPO (10-Tage-Einsprachefrist gegen den Strafbefehl,
+  wortgleich), Art. 357 StPO (Übertretungsstrafverfahren — Verwaltungsbehörden erhalten die
+  Befugnisse der Staatsanwaltschaft, Verfahren sinngemäss nach Strafbefehlsregeln; bislang nur in
+  den `sources` geführt, jetzt auch im Fliesstext verankert). Art. 836 ZGB **nicht neu abgerufen**
+  — bereits in Run 100 für [[bauausfuehrung-und-baukontrolle]] wortlautverifiziert, gleiche Norm
+  und gleiche Einordnung (gesetzliches Grundpfandrecht des kantonalen Rechts), hier übernommen.
+- **1 echte Korrektur: Art. 229 Abs. 1 StGB.** Der Straftatbestand «Gefährdung durch Verletzung der
+  Regeln der Baukunde» ist seit der Strafrahmenharmonisierung per 1.7.2023 bei **Vorsatz (Abs. 1)
+  Freiheitsstrafe bis zu FÜNF Jahren** oder Geldstrafe — nicht drei, wie der Artikel bisher
+  undifferenziert angab. Die Drei-Jahres-Obergrenze gilt nur für **Abs. 2 (Fahrlässigkeit)**. Der
+  Fehler betraf damit den praktisch massgeblicheren, weil regelmässig einschlägigen Vorsatzfall
+  (Architekt/Bauleiter, der die Regeln der Baukunde bewusst missachtet).
+- **1 substanzieller Neubefund, kein Fehler: Art. 25 Abs. 3-5 RPG.** Eingefügt durch das
+  Bundesgesetz vom 29.9.2023, in Kraft erst seit **1.1.2026** — kodifiziert die 30-Jahre-Verwirkung
+  des Wiederherstellungsanspruchs (inkl. der identischen Polizeigüter-Ausnahme) erstmals
+  **bundesrechtlich**, deckungsgleich mit der bisherigen rein kantonal/bundesgerichtlich
+  hergeleiteten Praxis (BGer 1C_726/2013). Die Norm steht im Abschnitt «Ausnahmebewilligungen
+  ausserhalb der Bauzonen» und gilt ihrem Wortlaut nach **nur** für Bauvorhaben **ausserhalb** der
+  Bauzone; innerhalb bleibt die 30-Jahre-Regel weiterhin richterrechtlich, nicht gesetzlich,
+  verankert — die bisherige Wiki-Tabellenzeile «auch ausserhalb Bauzone» wird durch diesen Fund
+  präzisiert, nicht widerlegt. Ergänzend verpflichtet Art. 25 Abs. 3 RPG (gleiche Novelle) die
+  Kantone, unbewilligte Nutzungen «innert nützlicher Frist» festzustellen und ohne Verzug zu
+  untersagen/rückzubauen — konkretisiert das bisherige «von Amtes wegen»-Prinzip zusätzlich
+  bundesrechtlich.
+- **In die KB eingearbeitet:**
+  - **GEÄNDERT** `wiki/widerrechtliche-bauten-und-sanktionen.md`: neuer `verifiziert`-Eintrag
+    angehängt, `last_updated: 2026-08-23`, `sources` um alle zwölf geprüften Bundesrechts-Zitate mit
+    Prüfvermerk ergänzt; Art.-229-Passage korrigiert und erläutert; neue Fussnote zur 30-Jahre-Tabelle
+    (Art. 25 Abs. 3-5 RPG); Art. 357 StPO neu im Fliesstext verankert; JANS-Anwendung um einen
+    Hinweis zum bundesrechtlich verstärkten Argument ausserhalb Bauzone ergänzt — bestehender Text
+    vollständig erhalten, keine Zeile entfernt (nur ersetzt, wo der Fehler sass).
+  - **GEÄNDERT** `training/PROGRAMM.md`: Tracker-Eintrag Run 101 angehängt, `last_updated` auf
+    Run 101 nachgeführt.
+  - **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md`: Fortsetzungs-Absatz um Run 101
+    ergänzt.
+  - **Kein neuer `raw/`-Volltext** (gleiches Vorgehen wie Run 97/99/100 — die frischen PDFs wurden
+    nur temporär in `/tmp` geladen, Fundstellen über `sources`/`verifiziert` referenziert).
+- **Diff-Kontrolle (Rule `auto-verbesserungen` 260811):** `git status --short wissen/baurecht/` vor
+  dem ersten Edit geprüft (sauber). Nach jedem Schreiben `git diff --numstat` geprüft: Wiki-Artikel
+  35/9 (additiv/ersetzend), PROGRAMM.md 21/6, KORPUS-QUEUE 8/1 — keine Zeile unbeabsichtigt verloren.
+- Report `outputs/2026-08-23_buch-run101.md`. **Nächster Schritt:** von den verbleibenden 5 Artikeln
+  ([[ausnahmebewilligung-und-bestandesschutz]], [[baulinien-und-abstandslinien]],
+  [[geschosse-und-kniestock]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]]) einen unabhängigen Rechtsraum wählen — Empfehlung
+  [[nebenbestimmungen-und-reverse]] (zitiert Art. 962 ZGB/Art. 164 GBV, noch nie gegen fedlex
+  geprüft).
+
+
 ## 2026-08-23 — Buch-Run 100: [[bauausfuehrung-und-baukontrolle]] re-verifiziert — erstmals ZGB/BV/USG/LSV-Zitate gegen fedlex.data.admin.ch geprüft, 2 Korrekturen an den USG/LSV-Belegen
 
 - **Ausgangslage:** Auftrag «Reglemente-Queue 2414 Thalwil weiterarbeiten» (Batches T1-T8). Geprüft:

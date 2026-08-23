@@ -377,7 +377,14 @@ Art. 8/679/684/836 ZGB und Art. 29a BV **CONFIRMED wortgleich**; Art. 32bbis USG
 CONFIRMED, aber präzisiert (Rückforderungsanspruch seit 1.11.2021 verwirkt); der Beleg
 «Art. 38 Abs. 2 USG» für das Vorsorgeprinzip war **falsch** und wurde auf Art. 11 Abs. 2 USG
 korrigiert (Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig). Report
-`outputs/2026-08-23_buch-run100.md`.
+`outputs/2026-08-23_buch-run100.md`. Run 101 hat [[widerrechtliche-bauten-und-sanktionen]]
+re-verifiziert — erstmals alle 12 zitierten Bundesrechts-Artikel (RPG/BV/StGB/OR/ZGB/StPO) gegen
+den amtlichen Wortlaut geprüft: 11/12 **CONFIRMED wortgleich**. **1 echte Korrektur:** Art. 229
+Abs. 1 StGB (Vorsatz) ist seit 1.7.2023 Freiheitsstrafe bis **5** statt 3 Jahre (3 Jahre gilt nur
+für Abs. 2, fahrlässig). **1 substanzieller Neubefund:** Art. 25 Abs. 5 RPG kodifiziert seit
+1.1.2026 die 30-Jahre-Verwirkung des Wiederherstellungsanspruchs erstmals bundesrechtlich, aber nur
+für Bauvorhaben ausserhalb der Bauzonen — innerhalb bleibt es bei der bisherigen kantonalen
+Praxis/Rechtsprechung (BGer 1C_726/2013). Report `outputs/2026-08-23_buch-run101.md`.
 
 ## Arbeitsregeln je Batch
 

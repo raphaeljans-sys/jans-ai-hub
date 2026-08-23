@@ -78,5 +78,3 @@ zum **provisorischen** und nach Bauausfuehrung zum **definitiven Zertifikat**.
 - **Abgrenzung:** Zertifizierungs-/Plattform-Bedienung im Detail → Online-Manual Minergie;
   Energierecht/Vollzug → Skill `baurecht`. WPesti als WP-Entscheidungsgrundlage → F6 /
   `[[waermepumpe-systemvergleich]]`.
-</content>
-</invoke>

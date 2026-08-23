@@ -581,16 +581,25 @@ graue Energie → `[[graue-energie-betriebsenergie]]` / F9; Dämmstoff-λ → `[
 → F16. ⚠ Datenstand 2026-06-11: λ 0,12 ist der Produktwert (EN ISO 10456); CH-Bemessung ggf. mit
 Zuschlag SIA 279 prüfen.
 
-⚠ **Präzisierung 23.08.2026 (Run 161): die KB führt zwei Stora-Enso-λ nebeneinander.** Das oben
-zitierte **0,12 W/(m·K)** stammt aus dem Bauphysikdokument (nach EN ISO 10456), der
-Bauteilkatalog desselben Herstellers nennt für die Tragschicht C3s/L5s dagegen **0,110 W/(m·K)**
-(→ `[[clt-bauteilkatalog-stora-enso]]`). Die Differenz von rund 9 % ist **nicht erklärt** —
-plausibel sind unterschiedliche Produktgüten oder Bemessungsgrundlagen, belegt ist es nicht
-(E-R161-2). **Für eine Bauherren-Aussage ist der Unterschied unerheblich** (bei 140 mm CLT rund
-0,015 W/m²K im Bauteil-U-Wert), **für einen Nachweis gehört der Wert aus dem Datenblatt des
-tatsächlich verbauten Produkts genommen** — nicht aus dieser FAQ. Aufgefallen bei der Prüfung
-einer KI-erzeugten U-Wert-Rechnung, die mit einem dritten, gänzlich unbelegten λ 0,13 rechnete
-→ F257, `[[ki-generierte-fachdokumente-referenzablage]]`.
+⚠ **Präzisierung 23.08.2026 (Run 161, am Original geklärt E-R161-2): die KB führt zwei
+Stora-Enso-λ nebeneinander — aus demselben, einzigen Dokument.** Das oben zitierte
+**0,12 W/(m·K)** steht auf S. 6 des Hefts «CLT by Stora Enso — Bauphysik» (Version 06.2021),
+wörtlich als Normwert eingeführt («Laut Norm EN ISO 10456 beträgt die Wärmeleitfähigkeit λ von
+CLT 0,12 W/mK») und in dessen Kap. 1 für alle Beispielrechnungen verwendet. Derselbe Hersteller
+nennt im **Bauteilkatalog desselben Hefts** (Kap. 4, S. 41ff.) für die Tragschicht
+**C3s** (Wand) **und** **L5s** (Dach) durchgehend **0,110 W/(m·K)** zusammen mit ρ 470 kg/m³ und
+μ 50 (→ `[[clt-bauteilkatalog-stora-enso]]`) — ein Dokument, zwei Kapitel, keine Auflösung
+dazwischen (kein Glossar, keine Fussnote). **Einordnung (plausibel, nicht ausdrücklich im
+Dokument bestätigt):** 0,12 ist der **normative Pauschalwert** für die illustrativen
+Rechenbeispiele in Kap. 1; 0,110 ist der Wert, mit dem Stora Enso in seinem **eigenen
+Bauteilkatalog** tatsächlich rechnet — für zwei verschiedene Sortierklassen identisch, daher
+eher ein herstellerinterner Bemessungswert als ein Tippfehler. **Für eine Bauherren-Aussage ist
+der Unterschied unerheblich** (bei 140 mm CLT rund 0,015 W/m²K im Bauteil-U-Wert), **für einen
+konkreten Bauteilnachweis ist 0,110 aus dem Bauteilkatalog die dem Produkt näherliegende Zahl**,
+sofern kein aktuelles Datenblatt/EPD des tatsächlich verbauten CLT-Produkts vorliegt — dessen
+Wert hat dann Vorrang. Aufgefallen bei der Prüfung einer KI-erzeugten U-Wert-Rechnung, die mit
+einem dritten, gänzlich unbelegten λ 0,13 rechnete → F257,
+`[[ki-generierte-fachdokumente-referenzablage]]`.
 
 ---
 

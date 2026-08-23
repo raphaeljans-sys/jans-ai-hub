@@ -186,5 +186,3 @@ laufen; alle neuen Nachweise ab 2026 verwenden zwingend die Tabelle oben.
 Verwandt: `[[minergie-besser-planen-bauen]]`, `[[graue-energie-betriebsenergie]]`,
 `[[enfk-en-104-eigenstromerzeugung]]`, `[[tec21-solares-bauen-pv-typen-2012]]`. Brandschutz Fassaden-/
 Dach-PV → Skill `brandschutz`; Energierecht/MuKEn-ZH-Vollzug → Skill `baurecht`.
-</content>
-</invoke>

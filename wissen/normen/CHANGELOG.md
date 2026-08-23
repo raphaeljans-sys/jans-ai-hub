@@ -1,3 +1,39 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 22: DIN-EN-12101-2-Checkbox nachgezogen, SVAS↔VSA-Recherche negativ dokumentiert
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established` ist
+zitierfähig. CHANGELOG und Report des letzten Laufs (Abarbeitung 21) zuerst gelesen, dort
+weitergemacht. Rule `wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten,
+CHANGELOG-Eintrag gesetzt, nach jedem Schreiben `git diff --numstat` geprüft.
+
+**Ausgangslage:** Diese KB wird heute extrem intensiv parallel bearbeitet (21 vorherige
+„Abarbeitung"-Läufe plus über 25 „SIA-Sweep"-Fortsetzungen). Die meisten frei recherchierbaren
+Punkte waren bereits gelöst oder als kostenpflichtige externe Bring-Schuld mehrfach bestätigt.
+
+**Bearbeitet (zwei Punkte):**
+
+1. **„DIN EN 12101-2 im VKF-Ordner" — Checkbox nachgezogen.** Der Fliesstext dokumentierte
+   bereits vollständig, dass die Datei eine beim Reconcile referenzierte Dublette der
+   destillierten `din-en-12101-2-2003.md` ist (keine Aktion nötig) — nur die Checkbox stand noch
+   auf `[ ]`. Auf `[x]` gesetzt.
+2. **N-R40-4 (P4): Verhältnis SVAS ↔ VSA — recherchiert, Ergebnis negativ.** `aufzuege.ch` (VSA,
+   WebFetch) erwähnt SVAS nicht. Die vermutete SVAS-Eigenseite `svas-assa.ch` ist nicht
+   erreichbar (`getaddrinfo ENOTFOUND`), ein Cache-Spiegel liefert `ECONNREFUSED`. Keine
+   zitierfähige Quelle zum Verhältnis gefunden; Checkbox auf `[~]` gesetzt mit Vermerk, dass die
+   tote Domain eher für eine nicht mehr aktive Organisation spricht (ausdrücklich als Vermutung,
+   nicht als Beleg markiert), damit kein künftiger Lauf denselben toten Pfad erneut probiert.
+
+**Geprüft, kein neuer Ansatzpunkt:** N-R21-2 (VA 105-01 Volltext), SN 640 052/641 400 (VSS,
+bereits heute mehrfach bis zur Erschöpfung recherchiert), Merkblatt SIA 2014, SIA 491,
+SN EN 12193, Wegleitung SIA 271 — alles bestätigte, kostenpflichtige Bring-Schulden ohne neuen
+Zugangsweg. Die „VERIFIKATION AUSSTEHEND"-Zeile (vier Artefakte, adversariale Gegenprüfung gegen
+Original-PDFs) ist der ergiebigste nächste Einzellauf, wurde hier aber aus Aufwandsgründen nicht
+begonnen.
+
+**Verifikation:** `wiki/QUESTIONS.md` +17/-2 (die 2 Löschzeilen exakt die 2 selbst ersetzten
+Checkbox-Zeilen, per `git diff | grep "^-"` gegen die eigene Editierliste geprüft). Voller
+Report: `outputs/2026-08-23_questions-abarbeitung22.md`.
+
 ## 2026-08-23 — SIA-Sweep, sechsundzwanzigste Fortsetzung: SIA V 242/1+2:1994 (Altausgabe) vollständig destilliert, Q1-Q4-Fehlannahme korrigiert
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

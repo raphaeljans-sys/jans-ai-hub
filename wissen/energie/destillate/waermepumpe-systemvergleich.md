@@ -91,4 +91,3 @@ ZH am aktuellen Foerderprogramm/EVEN pruefen, nicht aus DE-Quellen uebernehmen.
   Fussbodenheizung, aber traege Regelung) → F138 / `[[betonkernaktivierung-tabs-energieeffizienz]]`;
   Legionellenschutz vs. WP-Effizienz bei der Warmwasserbereitung → F137 /
   `[[trinkwassererwaermung-legionellenschutz-energieeffizienz]]`.
-</content>

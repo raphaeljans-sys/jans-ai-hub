@@ -85,3 +85,15 @@ weiterer Leistungen in denselben Vertrag, keine Erklärung für eine Reduktion).
 Auftragsbestätigung oder Korrespondenz zum Zuschlag bleibt offen, ob ein Teilumfang
 beauftragt wurde oder Köfler den Preis massiv senkte, um den Zuschlag zu erhalten — beides
 sachlich denkbar, aus dem Archiv nicht belegbar. Status bleibt `emerging`.
+
+**Update 23.08.2026 (elfte Fortsetzung):** Gezielt nach einer möglichen Korrespondenz- oder
+Auftragsbestätigungs-Ablage zum Projekt gesucht (`find /Volumes/daten/04_Buero/02_Projekte
+-iname "*Nerves*"`, gesamter Korpus). Ergebnis: Das Projekt liegt ausschliesslich als flache
+Sammelablage `00_Allgemein/Nerves_Binz_DatenMisc/` vor (Pläne, Offerten, Renders) — **es
+existiert kein eigener Projektordner mit `02_Korrespondenz` oder vergleichbarer Mail-/
+Auftragsablage**, weder unter diesem noch unter einem anderen Namen im Korpus. Die
+Wertdifferenz ist damit nicht bloss in diesem Lauf ungeklärt geblieben, sondern **aus dem
+vorliegenden Korpus grundsätzlich nicht mehr auflösbar** — der Beleg, der sie klären könnte,
+ist im Archiv schlicht nicht vorhanden. Offene Frage bleibt in `wiki/QUESTIONS.md`
+dokumentiert, aber als endgültig (nicht weiter durch erneutes Suchen im selben Korpus zu
+bearbeiten) markiert.

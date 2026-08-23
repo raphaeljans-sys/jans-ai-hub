@@ -146,4 +146,3 @@ Erdsonden-Laenge oben), Sicker- und retensionsfaehige Boeden im Aussenraum.
 
 Verwandt: `[[minergie-nachweiskurs-2023-mkz-thge]]` (Anforderungen/MKZ/THGE), `[[graue-energie-betriebsenergie]]`,
 `[[clt-bauphysik-stora-enso]]` (Holzbau), `[[werkhof29-zirkulaeres-bauen-stroh-lehm]]` (zweites Praxisbeispiel).
-</content>

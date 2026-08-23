@@ -3,6 +3,44 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-23 (elfte Fortsetzung) — Korpus bestätigt vollständig; letzte offene Wertdifferenz als aus diesem Korpus unauflösbar markiert
+
+- **Getan:** Sechster Fortsetzungsauftrag in Folge («Triage des Korpus `buero-projekte`
+  weiterführen», erneut mit dem veralteten Zwischenstand «807 Positionen»/Verweis auf
+  `projekt-triage2`) erhalten. Vor jeder Handlung Spec, diesen CHANGELOG und den Report der
+  zehnten Fortsetzung gelesen — dort ist die verbleibende offene Frage (Wertdifferenz
+  Köfler-Pentagon-Vollofferte CHF 40'747.00 vs. Vertragswert CHF 18'596.90, sowie die analoge
+  Alpiq-Differenz) bereits auf «weiterer Beleg im Ordner `Nerves_Binz_DatenMisc` nicht
+  vorhanden» eingegrenzt.
+- **[Verifikation]** Eigene Nachzählung: `buero-projekte-inventar.md` unverändert 813
+  Sachzeilen (56 `[x]`, 757 `[-]`, 0 `[ ]`/`[t]`). `KORPUS-QUEUE.md` führt den Korpus
+  weiterhin als **erledigt** (23.08.2026). Laufende `claude`-Prozesse geprüft: der Prozess mit
+  demselben Auftragstext wie diese Session ist der eigene Lauf (kein Konkurrent), zwei weitere
+  bearbeiten andere KBs (`normen`).
+- **[Klärung, kein neuer Artikel]** Statt einer weiteren reinen Bestandsprüfung wurde die
+  einzige noch offene, potenziell auflösbare Frage bearbeitet: existiert im Korpus überhaupt
+  noch unerschlossenes Material, das die Wertdifferenz klären könnte? `find
+  /Volumes/daten/04_Buero/02_Projekte -iname "*Nerves*"` über den gesamten Korpus zeigt: das
+  Projekt liegt ausschliesslich als flache Sammelablage `00_Allgemein/Nerves_Binz_DatenMisc/`
+  vor (Pläne, Offerten, Renders) — **kein eigener Projektordner, keine
+  `02_Korrespondenz`-Ablage, keine Auftragsbestätigungen**. Die Wertdifferenz ist damit nicht
+  mehr «in diesem Lauf nicht gegengelesen», sondern **aus dem vorliegenden Korpus
+  grundsätzlich nicht auflösbar** — der fehlende Beleg existiert im Archiv nicht. In
+  [[nerves-2015-pentagon-systemwahl-streuung]] und `wiki/QUESTIONS.md` entsprechend als
+  endgültig offen (nicht weiter im selben Korpus zu bearbeiten) nachgetragen.
+- **[Verifikation]** Beide Edits reine Ergänzungen (`git diff --numstat`:
+  `wiki/nerves-2015-pentagon-systemwahl-streuung.md` +11/−0, `wiki/QUESTIONS.md` +8/−0) — kein
+  bestehender Text verändert oder gelöscht, gemäss Rule `auto-verbesserungen` 260811.
+  CHANGELOG-Diff separat geprüft (reiner Anhang).
+- **Kein sonstiger Destillat-/Triage-Schritt.** Der Pflicht-Zusatzauftrag
+  `bevorzugte-systeme-jans.md` bleibt aus denselben, mehrfach dokumentierten Gründen offen
+  (keine projektübergreifende System-Wiederholung belegt). **Hinweis für künftige
+  Fortsetzungsaufträge an diesen Korpus, unverändert seit der neunten Fortsetzung:** der
+  Korpus ist inventarseitig und jetzt auch bei der letzten offenen Einzelfrage abgeschlossen —
+  eine weitere reine Nachzähl-Bestätigung bringt keinen Erkenntnisgewinn mehr. Echte offene
+  Arbeit im Wissens-Destillat-Prozess liegt bei den Korpora `buero-referenzen` und
+  `archiv-fachwissen` (Ziel-KB `wissen/architektur-fachwissen`, Spec dort jeweils noch offen).
+
 ## 2026-08-23 (zehnte Fortsetzung) — Zwei seit drei Läufen offene Fragen geklärt: Unternehmerspalte tatsächlich gegengelesen
 
 - **Getan:** Fünfter Fortsetzungsauftrag in Folge («Triage des Korpus `buero-projekte`

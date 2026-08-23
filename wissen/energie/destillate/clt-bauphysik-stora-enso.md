@@ -5,7 +5,7 @@ ausgabe: Version 06.2021
 gelesen: "Kap. 1 Waermeschutz (S. 4-13), Kap. 2 Luftdichtheit (S. 14-29), Kap. 3 Feuchte (S. 30-37) — vollst.; Kap. 4 Bauteilaufbauten S. 38-178 offen"
 datenstand: "2021 (Produktdoku); zugrunde gelegte Normen EN ISO 10456, OENORM B 8110-1:2008, OENORM EN 12114:2000"
 status: established
-last_updated: 2026-06-11
+last_updated: 2026-08-23
 ---
 
 # CLT / Brettsperrholz — Bauphysik (Stora Enso)
@@ -122,3 +122,13 @@ normal, Wohnraumlueftung trocknet im Winter zusaetzlich aus.
   Folgelaeufe erschliessen (hoher Praxisnutzen fuer Variantenwahl).
 - **Schallschutz** von CLT (Decken/Trennwaende) — eigenes Thema, noch nicht erfasst.
 - λ 0,12 ist der Produktwert; CH-Bemessung ggf. mit Zuschlag (SIA 279) pruefen.
+
+⚠ **Praezisierung 23.08.2026 (E-R161-2, am Original S. 6 gegengeprueft):** das hier zitierte
+λ = 0,12 W/(m·K) ist wortwoertlich der **Norm-Pauschalwert nach EN ISO 10456** aus Kap. 1
+dieses Hefts, verwendet fuer die illustrativen Beispielrechnungen S. 6-13. Kap. 4 desselben
+Dokuments (Bauteilkatalog, siehe `[[clt-bauteilkatalog-stora-enso]]`) rechnet fuer die
+Tragschicht C3s/L5s durchgehend mit einem anderen Wert: **λ 0,110** (zusammen mit ρ 470 kg/m³,
+μ 50). Keine Fussnote/kein Glossar in diesem Heft loest den Unterschied auf. Fuer eine konkrete
+Bauteilpruefung/einen Nachweis ist der Bauteilkatalog-Wert (0,110) die dem tatsaechlichen
+Produkt naeherliegende Zahl; 0,12 bleibt korrekt fuer ueberschlaegige Rechnungen ohne
+Produktbezug, wie sie in diesem Kapitel vorgefuehrt werden.

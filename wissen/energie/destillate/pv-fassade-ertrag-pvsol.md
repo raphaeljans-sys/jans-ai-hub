@@ -85,5 +85,3 @@ Winteranteil) und sehr hohem Anlagennutzungsgrad (kuehle, hinterlueftete Module)
 - Fassaden-PV-Technik & Begruenung: `[[greenpv-fassade-pv-begruenung-hslu]]` (F20)
 - Kosten/Amortisation: `[[pv-kosten-amortisation-praxis-ewz]]`
 - Dach-Eignung amtlich: `[[sonnendach-solarpotenzial-bfe]]` (F19)
-</content>
-</invoke>

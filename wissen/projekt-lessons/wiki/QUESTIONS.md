@@ -47,6 +47,15 @@ geplante Artikel.
   Zuschlag) wäre nötig, im aktuell erschlossenen Material des Ordners `Nerves_Binz_DatenMisc`
   nicht vorhanden. Nachtrag auch in [[nerves-2015-pentagon-systemwahl-streuung]], Abschnitt
   «Offene Frage».
+  **Update 23.08.2026 (elfte Fortsetzung): Frage endgültig unauflösbar aus diesem Korpus.**
+  Gesamter Korpus nach einer Korrespondenz-/Auftragsbestätigungs-Ablage zum Projekt durchsucht
+  (`find /Volumes/daten/04_Buero/02_Projekte -iname "*Nerves*"`) — das Projekt existiert nur
+  als flache Sammelablage `00_Allgemein/Nerves_Binz_DatenMisc/` (Pläne, Offerten, Renders),
+  ohne eigenen Projektordner und ohne `02_Korrespondenz` oder vergleichbare Mail-Ablage. Der
+  Beleg, der die Wertdifferenz (Punkt 1) auflösen könnte, ist im Korpus damit nicht nur nicht
+  gegengelesen, sondern **nicht vorhanden**. Nachtrag in
+  [[nerves-2015-pentagon-systemwahl-streuung]]. Für Punkt 2 (Alpiq-Differenz) gilt dieselbe
+  Einschränkung sinngemäss — dieselbe Ablage, dieselbe Lücke.
   Nebenbefund (Datenhygiene, keine Lesson): `1318_Lorraine_Kueche/.../2015-05-05_Bildbemusterung.pdf`
   ist fehlabgelegt und gehört zu einem fremden Projekt (Villa Groth, München) — im Inventar
   als `[-]` mit Grund vermerkt, keine weitere Aktion nötig. Cluster `1012_Ardez`

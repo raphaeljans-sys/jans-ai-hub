@@ -1,5 +1,62 @@
 # CHANGELOG
 
+## 2026-08-23 — Interaktive Session (sechzehnte Fortsetzung): E-R161-2 am Original geklärt, plus KB-weiter Korruptur-Fund (12 Dateien mit leaked Tool-Tags)
+
+Auftrag: weitere offene Fragen in `QUESTIONS.md` abarbeiten, dort weitermachen, wo Run 161
+aufgehört hat (dessen Bericht `outputs/2026-08-23_energie-run161.md` zuerst gelesen). Von den
+drei dort neu eröffneten Punkten war **E-R161-2** («zwei Stora-Enso-λ nebeneinander») explizit
+als «aus eigener Kraft lösbar» markiert; E-R161-1 und E-R161-3 sind Beschaffungsentscheid
+Raphaels bzw. eine grössere, eigenständige Audit-Aufgabe (empfohlen für einen dedizierten
+Folgelauf, gleicher Umfang wie der PL-04-Durchgang von Run 161) und wurden hier nicht
+angefasst.
+
+**Nebenfund vor der eigentlichen Recherche:** beim Lesen von `[[clt-bauteilkatalog-stora-enso]]`
+fiel am Dateiende der wörtliche Text `</content>` und `</invoke>` auf — leaked XML-Tags eines
+Tool-Aufrufs, die offenbar bei einem früheren Schreibvorgang (Commit `7b4c0777`, 25.07.2026,
+Massen-Commit «3185 Datei(en)») versehentlich mit in den Artikeltext geschrieben wurden.
+Gezielter Grep über die ganze KB (`grep -rl '^</content>$\|^</invoke>$'`) fand **12 betroffene
+Dateien** — 8 im zitierfähigen `destillate/`-Bestand
+(`clt-bauteilkatalog-stora-enso`, `swissolar-stp-vkf-brandschutz-solaranlagen`,
+`minergie-zertifizierung-workflow`, `pv-fassade-ertrag-pvsol`, `en-lueftung-kuehlung-zh`,
+`minergie-nachweiskurs-2023-mkz-thge`, `waermepumpe-systemvergleich`,
+`minergie-fallstudie-maison-climat`), 4 in `outputs/` (Run 8, 10, 11, 14, alle Juni 2026). In
+jeder Datei stand die Garbage-Zeile ausschliesslich am Dateiende, nie mitten im Fliesstext —
+Ursache vermutlich ein damaliges Werkzeug, das den eigenen Tool-Aufruf-Rahmen beim Schreiben
+nicht vollständig abgetrennt hat. Alle 12 Dateien bereinigt (gezielter `Edit` je Datei, keine
+globale Ersetzung, Rule 260811); `git diff --numstat` je Datei geprüft — jede zeigt exakt 1-2
+gelöschte Zeilen, 0 hinzugefügte, wie erwartet. Kein `wissenscheck`-Lauf hatte dieses Muster
+bisher aufgedeckt; die betroffenen Artikel sind seit Juni/Juli 2026 zitierfähig im Bestand und
+wurden in dieser Form auch schon in FAQ-Verweisen und Cross-Links referenziert.
+
+**E-R161-2 geklärt.** Beide Destillate lesen entgegen der eigenen Annahme in der QUESTIONS-Notiz
+(«beide Stora-Enso-Dokumente») nicht zwei, sondern **ein einziges** PDF («CLT by Stora Enso —
+Technische Dokumentation: Bauphysik», Version 06.2021, 178 Seiten; Bestand im Dropbox-Archiv
+`YORCK/_Archiv/2408 WB BIWAK/07 Referenzen/_clt/`, per `mdfind` gefunden, mit PyMuPDF extrahiert
+— kein `pdftotext` auf der Station installiert). Direkt am Original: S. 6 (Kap. 1) nennt wörtlich
+«Laut Norm EN ISO 10456 beträgt die Wärmeleitfähigkeit λ von CLT 0,12 W/mK» und verwendet diesen
+Wert für alle illustrativen U-Wert-Beispiele S. 6-13. Kap. 4 (Bauteilkatalog, S. 41-96 für
+Aussenwände, S. 167 fürs Dach) nennt für die Tragschicht **C3s** (Wand) und **L5s** (Dach)
+durchgehend **λ 0,110, ρ 470 kg/m³, μ 50** — exakt dasselbe Zahlentripel für zwei verschiedene
+Sortierklassen, 27 von 56 geprüften Seiten. Kein Glossar, keine Fussnote im Dokument löst den
+Unterschied auf (Suchbegriffe ohne Treffer: «Leistungserklärung», «Deklarationswert»,
+«Festigkeitsklasse», «Sortierklasse», Front- und Kapitelseiten S. 1-5/38-39 geprüft). **Lesart
+(plausibel, nicht im Dokument ausdrücklich bestätigt):** 0,12 ist der Norm-Pauschalwert für die
+Illustration in Kap. 1, 0,110 der Wert, mit dem Stora Enso im eigenen Bauteilkatalog tatsächlich
+rechnet — für zwei Sortierklassen identisch, eher ein herstellerinterner Bemessungswert als ein
+Tippfehler. Für einen konkreten Bauteilnachweis ist 0,110 die dem Produkt näherliegende Zahl,
+sofern kein Datenblatt/EPD des tatsächlich verbauten Produkts vorliegt. Eingearbeitet in
+`[[clt-bauphysik-stora-enso]]`, `[[clt-bauteilkatalog-stora-enso]]` (beide `last_updated`
+nachgeführt) und `BAUHERREN-FAQ.md` F15 (Präzisierung ersetzt). `QUESTIONS.md` E-R161-2 auf
+`[x]` gesetzt mit vollem Beleg.
+
+Alle Schreibvorgänge mit `git diff --numstat` geprüft (additiv bzw. gezielte Löschung der
+Garbage-Zeilen, keine fremden Zeilen berührt). Bericht:
+`outputs/2026-08-23_questions-nachlauf-sechzehnte-fortsetzung.md`. Verbleibend offen:
+E-R161-1 (Beschaffungsentscheid Raphaels), E-R161-3 (grösserer Audit-Auftrag, empfohlen für
+eigenen Lauf), sowie die seit mehreren Fortsetzungen bestätigten Negativbefunde E-S1, E103, E94,
+E-R129-5, E-WC32-1, E-R134-3, E-R134-4, E-R148-1, E-R148-2, E-R150-3 (nicht erneut geprüft —
+keine neue Information seit Run 160/159 vorhanden, die eine Wiederholung rechtfertigen würde).
+
 ## 2026-08-23 — Lauf 161 (Scheduled Task, parallel zu Run 160): PL-04 erstmals ohne Dateityp-Filter gezählt — 16 nie erfasste Nicht-PDF-Quellen, zwei davon KI-erzeugte «Fachdokumente»
 
 Scheduled Task `energie-training`, Station MacBook Pro. **Die damals noch geltende

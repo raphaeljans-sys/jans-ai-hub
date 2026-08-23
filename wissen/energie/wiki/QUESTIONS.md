@@ -4270,7 +4270,7 @@ U-Wert-Rechenweg prüfen — vier Griffe» in `[[u-werte-grenzwerte-ch]]`.
   nötig. Quelle wäre SN EN ISO 6946 (Normkauf oder KB `normen`, Rule `normen-referenz`) — damit
   in derselben Klasse wie E-R148-1 (SIA 380/1:2016), also **Beschaffungsentscheid Raphaels**,
   keine Recherche.
-- [ ] **E-R161-2 — zwei Stora-Enso-λ nebeneinander, Differenz unerklärt.**
+- [x] **E-R161-2 — zwei Stora-Enso-λ nebeneinander, Differenz unerklärt.**
   `[[clt-bauteilkatalog-stora-enso]]` führt für die Tragschicht C3s/L5s **0,110 W/(m·K)**,
   `[[clt-bauphysik-stora-enso]]` **0,12 W/(m·K)** (nach EN ISO 10456) — beide vom selben
   Hersteller, rund 9 % auseinander. Plausibel sind unterschiedliche Produktgüten oder
@@ -4278,6 +4278,45 @@ U-Wert-Rechenweg prüfen — vier Griffe» in `[[u-werte-grenzwerte-ch]]`.
   jetzt den Vermerk. **Für Bauherren-Aussagen unerheblich** (rund 0,015 W/m²K bei 140 mm CLT),
   für einen Nachweis nicht. Auflösbar am Original der beiden Stora-Enso-Dokumente (beide im
   Bestand) — echter, aus eigener Kraft lösbarer Rechercheauftrag.
+  ✓ **GESCHLOSSEN 23.08.2026 (interaktive Session, sechzehnte Fortsetzung).** **Korrektur zur
+  eigenen Prämisse zuerst:** es sind **keine zwei Dokumente**, sondern ein **einziges** PDF
+  (`CLT by Stora Enso – Technische Dokumentation: Bauphysik`, Version 06.2021, 178 Seiten,
+  Bestand: `~/…/Dropbox/YORCK/_Archiv/2408 WB BIWAK/07 Referenzen/_clt/CLT by Stora Enso-Technical
+  documentation - Building physics-2021-DE.pdf`) — beide Destillate lesen daraus nur
+  verschiedene Kapitel (Kap. 1 bzw. Kap. 4 desselben Hefts). Direkt am Original (PyMuPDF-Extrakt,
+  nicht der Sekundärliteratur) geprüft:
+  - **S. 6 (Kap. 1, «Wärmeschutz»):** wörtlich «Laut Norm EN ISO 10456 beträgt die
+    Wärmeleitfähigkeit λ von CLT **0,12 W/mK**.» Dieser Wert wird auf S. 6-13 in **allen**
+    Beispielrechnungen (U-Wert 100 mm CLT pur, gedämmte Varianten, Vergleichstabelle S. 10-11)
+    als Materialkonstante «CLT von Stora Enso» verwendet, ohne Bezug zu einer Sortier-/
+    Produktklasse.
+  - **S. 41-96 (Kap. 4, Bauteilkatalog, alle 9 geprüften Aussenwand-Varianten V1-V9) und S. 167
+    (Dach V1, Element «CLT 140 L5s»):** die Schichttabelle nennt durchgehend **λ 0,110 W/(m·K),
+    μ 50, ρ 470 kg/m³** — für die Wandtragschicht «CLT 100/120 **C3s**» ebenso wie für die
+    Dachtragschicht «CLT 140 **L5s**» exakt dasselbe Zahlentripel. 27 von 56 durchsuchten Seiten
+    im Aussenwand-Abschnitt (S. 40-96) enthalten diesen Wert.
+  - **Keine Auflösung im Dokument selbst:** weder ein Glossar/Legende (S. 1-5, 38-39 geprüft)
+    noch eine Fussnote erklärt die Sortierklassen «C3s»/«L5s» oder nennt eine Leistungserklärung/
+    ein Prüfzeugnis als Grundlage der 0,110. Suchbegriffe ohne Treffer im ganzen Dokument:
+    «Leistungserklärung», «Deklarationswert», «Festigkeitsklasse», «Sortierklasse»,
+    «Bemessungswert» (ausser S. 6 im Fliesstext, s.o.).
+  - **Damit bleibt die Differenz sachlich unaufgelöst, aber die Herkunft ist jetzt exakt
+    lokalisiert und die beiden Zahlen sind klar zwei verschiedenen Verwendungszwecken
+    zuzuordnen:** 0,12 ist der **normative Pauschalwert** (EN ISO 10456), mit dem das Dokument
+    in Kap. 1 nur **illustriert**, wie ein U-Wert überhaupt gerechnet wird; 0,110/470/470-Set
+    (mit ρ und μ in gleicher Präzision danebengestellt) ist der Wert, mit dem Stora Enso in
+    seinem eigenen **Bauteilkatalog** tatsächlich rechnet — für zwei verschiedene Sortierklassen
+    (Wand C3s, Dach L5s) identisch, was für einen herstellerinternen Bemessungswert spricht,
+    nicht für einen zufälligen Tippfehler. **Praktische Konsequenz, die FAQ F15 und beide
+    Destillate jetzt tragen:** für eine konkrete Bauteilprüfung/einen Nachweis ist **0,110 aus
+    dem Bauteilkatalog** die dem tatsächlich verbauten Produkt nähere Zahl, sofern kein aktuelles
+    Datenblatt/EPD des tatsächlich verbauten CLT-Produkts vorliegt (dann gilt dessen Wert);
+    0,12 bleibt der korrekt zitierte Norm-Pauschalwert für überschlägige Rechnungen ohne
+    Produktbezug. Diese Einordnung ist eine **plausible, aus den beobachteten Fakten begründete
+    Lesart**, keine im Dokument ausdrücklich bestätigte Aussage — als solche in FAQ F15 und
+    beiden Destillaten gekennzeichnet.
+  Eingearbeitet in `[[clt-bauphysik-stora-enso]]` (Offene Punkte), `[[clt-bauteilkatalog-stora-enso]]`
+  (Grundbausteine) und `BAUHERREN-FAQ.md` F15 (Präzisierung vom 23.08.2026 ersetzt/ergänzt).
 - [ ] **E-R161-3 — PL-02, PL-03 und PL-05 nicht auf KI-erzeugte Dokumente und Nicht-PDF-Quellen
   gesichtet.** In PL-04 wurden jetzt alle 16 Nicht-Bild-Dateien geprüft; für die drei anderen
   Bibliotheken steht dieselbe filterlose Zählung aus. Konkret zu prüfen: Typenverteilung je

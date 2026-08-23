@@ -2294,9 +2294,21 @@ mit dem Fund prominent in Frontmatter, Titel und eigenem Abschnitt jeder Datei:
 - [ ] **N-R40-3 (P4):** Zehn nicht destillierte Teile der EN-81-Reihe (81-1, -2, -3, -11,
   -21, -70, -71, -72, -73, 115-1, 115-2) — nur bei konkretem Projektbedarf (Aufzugsthema
   in Ankaufsprüfung/Ausschreibung) destillieren, kein systematischer Nachzieh-Auftrag.
-- [ ] **N-R40-4 (P4):** Verhältnis SVAS (Schweizerische Vereinigung für Aufzugssicherheit,
+- [~] **N-R40-4 (P4):** Verhältnis SVAS (Schweizerische Vereinigung für Aufzugssicherheit,
   laut SNEL-Quelle Herausgeberin der Broschüre «SNEL, ESBA etc.») zum VSA (Verband
   Schweizerischer Aufzugsunternehmen, Betreiber der archivierten Website) ungeklärt.
+  **Anlauf 23.08.2026 (QUESTIONS-Abarbeitung 22), Ergebnis negativ, kein neuer Beleg.**
+  `www.aufzuege.ch` (VSA, WebFetch geprüft) erwähnt SVAS an keiner Stelle — keine dokumentierte
+  Beziehung dort. Die vermutete SVAS-Eigenseite `svas-assa.ch` (bzw. `www.svas-assa.ch`) ist
+  **nicht erreichbar**: DNS-Auflösung schlägt fehl (`getaddrinfo ENOTFOUND`), ein Cache-Spiegel
+  (`urlmetriken.ch`) liefert ebenfalls `ECONNREFUSED`. Einzige verwertbare Web-Fundstelle ist ein
+  Domain-Statistik-Snippet, das den Vereinsnamen bestätigt, aber weder Zweck noch Trägerschaft
+  noch ein Verhältnis zum VSA belegt. **Vorläufiger Schluss (nicht zitierfähig, nur Arbeitsnotiz):**
+  die tote Domain spricht eher für eine nicht mehr aktive oder in einen anderen Verband
+  aufgegangene Organisation als für eine aktuell bestehende Schwesterorganisation des VSA — reine
+  Vermutung, keine Quelle dafür. Checkbox auf `[~]` (recherchiert, weiterhin offen) gesetzt, damit
+  kein künftiger Lauf denselben toten Domain-Pfad erneut probiert. Bleibt P4 (kein Projektbedarf
+  ersichtlich).
 
 
 ## 2026-07-31 (Entscheid Raphael, Wissens-Chef Run 21) — SWKI ist zugeordnet, ein Auftrag folgt daraus
@@ -3535,9 +3547,12 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   hat: beide Destillate zu `Brandverhuetung & organisatorischer Brandschutz.pdf` bzw.
   `Brandschutz-Praevention.pdf` — evtl. sind das zwei verschiedene PDFs mit ähnlichem Thema, am
   Original gegenlesen bevor gemerged wird.
-- [ ] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
+- [x] **DIN EN 12101-2 im VKF-Ordner:** `VKF_Norm/02_Brandschutzrichtlinien 2015/DIN EN 12101-2.pdf`
   ist eine Dublette der bereits unter DIN destillierten `din-en-12101-2-2003.md` (Mac Mini) — beim
   Reconcile referenziert statt neu destilliert, keine Aktion nötig.
+  **Checkbox nachgezogen 23.08.2026 (QUESTIONS-Abarbeitung 22):** Inhaltlich war der Punkt bereits
+  beim Reconcile erledigt, nur äusserlich nicht abgehakt — analog dem SIA-2048-Fund in
+  Abarbeitung 21.
 - [x] **VKF-Verzeichnis 40-15 (Weitere Bestimmungen) — ERLEDIGT, Bestandskontrolle Run 17 (260721):**
   das Destillat `vkf-verz-40-15-weitere-bestimmungen.md` ist am Bestand als vollständig belegt
   (Frontmatter `gelesen: S. 1-22 komplett (Titelblatt bis Ziffer 4 Abkürzungsverzeichnis, gesamtes
@@ -3842,6 +3857,12 @@ einzeln geprüft:
   Erdbauwerke). Ohne diese Kapitel bleibt der DIN-Zahlenvergleich (Partialfaktoren,
   M-Klassen ↔ deklariertes Mauerwerk, Sohlwiderstand ↔ Flachfundationsbemessung)
   ungeprüft. Nachziehen sobald SIA 266/267 (Station MacBook Pro) vertieft destilliert sind.
+  **Bringschuld erfüllt, Cross-Check bleibt offen für Abschnitt D (260823, 27. Fortsetzung
+  SIA-Sweep):** SIA 266/267 sind jetzt vollständig destilliert — genau die hier genannten
+  Lücken (SIA 266 Ziff. 3.2-3.6/4.1-4.5, SIA 267 Ziff. 6-7/8.5-8.6/9-16) stehen jetzt in
+  `destillate/sia-266-2003.md` bzw. `destillate/sia-267-2003.md`. Der eigentliche
+  Ziffer-für-Ziffer-Abgleich gegen DIN 1053/1045-2/1054 (Abschnitt D, Mac-Mini-Scope) wurde
+  in diesem Lauf NICHT durchgeführt — das bleibt für den nächsten Cross-Check-Lauf offen.
 - [x] **SIA 331 (Fenster) ↔ DIN EN 12207/DIN 1249-11 Ziffer-für-Ziffer abgeglichen —
   erledigt Mini-Run 31 (260716):** Kernbefund: SIA 331s Beanspruchungsgruppen A/B/C
   (Gebäudehöhe-basiert, Ziff. 2 23 4/2 31, Nachweis über EN 42/EN 86) und DIN EN 12207s
