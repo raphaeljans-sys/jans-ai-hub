@@ -199,6 +199,48 @@ der einundzwanzigsten Fortsetzung ist damit auf die Korrigenda-Methode geprüft.
 Destillat angelegt (Rule `wissens-bibliothekar`: Nullbefund erhält keinen Wiki-Artikel). Report:
 `outputs/2026-08-23_sia-sweep-zweiundzwanzigste-fortsetzung.md`.
 
+**Korrigenda-Check-Sweep, 23.08.2026 (SIA-Sweep, dreiundzwanzigste Fortsetzung) — Abschluss der
+Section-A-Blindzone.** Zuerst die drei von der 22. Fortsetzung benannten Restkandidaten
+**SIA 381/3, SIA 422, SIA 2025** mit der präzisen `lblAnhangBezeichnung`-Methode (Produktseite
+`shop.sia.ch`, `<meta name="description">` gegen den erwarteten Titel verifiziert) geprüft —
+**3 von 3 Nullbefunde**, je genau ein Anhang «Inhaltsverzeichnis», kein zusätzlicher
+Korrigenda-Download: **SIA 381/3** (ingenieur/sia381-3_1982_d, SN 565381/3 — bestätigt bereits
+zuvor über SIA 2028-Korrigenda gelöst, hier nur die Produktseite selbst gegengeprüft),
+**SIA 422** (architekt/sia422_2009_d, SN 513422 — N-SIASWEEP-2 bleibt als Klärungsposten offen,
+kein Nachfolger benannt), **SIA 2025** (architekt/sia2025_2012_d, SN 592025 — N-SIASWEEP-3
+bleibt offen, kein Nachfolger benannt). **SIA 118/430** war zum Laufbeginn bereits durch einen
+parallelen QUESTIONS-Abarbeitung-Lauf mit demselben Befund («kein kostenloser Zugang gefunden»)
+versehen — keine eigene Prüfung nötig, per `git diff`-Frischestand vor dem eigenen Edit
+bestätigt. Danach systematischer Abgleich per `grep "Kein Volltext im Haus"` gegen Abschnitt A
+(54 Zeilen) und Kreuzprüfung gegen alle Sweep-Fortsetzungen 7 bis 23: **jede der 54 Zeilen ist
+inzwischen entweder über eine benannte Fortsetzung, ein eigenes Korrigenda-Destillat
+(269/3, 269/5, 269/8) oder eine eigene mehrfach verifizierte Zeile (381/3, 422, 2025, 118/430)
+auf die Korrigenda-Methode geprüft** — keine unbehandelte Zeile mehr gefunden. Ergänzend die
+sechs Neuzugänge aus den beiden 4000er-Abschnitten unten (**SIA 4008, SIA 4018, SIA 4020,
+SIA 4013, SIA 380:2022, SIA 242.002**) — bislang nur mit Metadaten, aber nie auf einen
+Zusatz-Anhang geprüft — mit derselben Methode nachgezogen: **5 von 6 mit genau einem Anhang
+«Inhaltsverzeichnis»** (4008, 4018, 4020, 4013, 380:2022 — keine dieser fünf hat einen
+kostenlosen Zusatz-Download), **SIA 242.002 mit null Anhängen** (kein Inhaltsverzeichnis-Download
+vorhanden, reines Bestellprodukt ohne jeden kostenlosen Auszug). Kein neues Destillat angelegt
+(Rule `wissens-bibliothekar`: neun Nullbefunde erhalten keinen Wiki-Artikel). **Damit ist die
+systematische Section-A-Blindzone-Sweep (Fortsetzungen 7 bis 23) abgeschlossen**: alle
+Register-geführten SIA-Zeilen ohne Volltext im Haus tragen ein Produktdatenblatt mit
+gültig-ab/gültig-bis UND einen geprüften Corrigenda-Befund. Verbleibende offene Punkte sind
+keine Suchlücken mehr, sondern echte Bring-Schulden (kostenpflichtige Volltext-Beschaffung) bzw.
+zwei ungeklärte Nachfolger-Fragen (SIA 422, SIA 2025), beide bereits in `wiki/QUESTIONS.md`
+erfasst. Report: `outputs/2026-08-23_sia-sweep-dreiundzwanzigste-fortsetzung.md`.
+
+**Bring-Schulden-Einkaufsliste, 23.08.2026 (SIA-Sweep, vierundzwanzigste Fortsetzung).** Da die
+Section-A-Sweep laut der 23. Fortsetzung abgeschlossen ist und `training/norm-inventar.md` 0
+offene Positionen führt, ist der einzige innerhalb des SIA-Mandats verbleibende sinnvolle
+Schritt eine Priorisierung der Bring-Schulden. Alle 59 SIA-Zeilen ohne Volltext im Haus (54
+Blindzone-Zeilen oben + 5 weitere Neuzugänge mit derselben «nur Metadaten»-Formulierung) nach
+Bezug zu aktiven JANS-Fach-Skills in vier Stufen (P1 Fach-Skill-Kernnormen bis P4 geringe
+Relevanz) sortiert — reine Synthese ohne neue Web-Recherche, jede Aussage bereits in den Zeilen
+oben belegt. Sechs Zeilen als gegenstandslos markiert (Norminhalt bereits über eine andere
+Bestandsquelle abgedeckt: SIA 381/3, 2001, 2027, 2035, 2036, 422). Report:
+`outputs/2026-08-23_sia-sweep-vierundzwanzigste-fortsetzung.md`.
+
 **Verbindliche Regel (angepasst 23.08.2026).** Eine Zeile mit **leerer Bestand-Spalte**
 existiert in Abschnitt A nicht mehr. Bei einer Zeile, deren Bestand-Abgleich **«Kein Volltext
 im Haus»** vermerkt, gilt weiterhin: das Ausgabejahr aus der Shop-Metadatenzeile ist die

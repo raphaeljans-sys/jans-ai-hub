@@ -1,3 +1,276 @@
+## 2026-08-23 — QUESTIONS-Abarbeitung 19: SIA 2001/2024-Zeile geschlossen (Verweis auf bereits vorhandene REGISTER-Antwort + bestätigte Cross-KB-Bringschuld), SN 641 400 weiterer Anlauf ohne Ablösungsbeleg
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats lesen, nur `established` ist
+zitierfähig. CHANGELOG und Report des letzten Laufs zuerst lesen, dort weitermachen. Rule
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Kollisionsprüfung:** ein `claude -p`-Prozess mit identischem Lauf-Namen/Auftragstext lief laut
+`ps aux` parallel (PID 45812) — als Reflexion der eigenen Session behandelt, nicht als
+Konkurrent. Ein echter Parallelprozess ergänzte während der Bearbeitung zusätzliche, nicht
+selbst verfasste Nachträge (SIA 2048, SN 640 052) in derselben Datei — additiv, nicht angefasst.
+
+**Bearbeitet (Details: `outputs/2026-08-23_questions-abarbeitung19.md`):**
+
+1. **SIA 2001/SIA 2024 «Nachfolgeausgaben nicht ermittelbar»** — Checkbox auf `[x]` gesetzt.
+   SIA 2024: die offene Cross-KB-Bringschuld an `energie` ist bereits erfüllt (paralleler
+   `energie`-Lauf, Run 80, 23.08.2026, verifiziert per `grep`). SIA 2001: die Antwort stand
+   bereits in `wiki/REGISTER.md` (aufgegangen in SIA 279:2018, `sia-279-2018.md` Frontmatter
+   `ersetzt: "SIA 279:2011 und SIA 2001:2015"`), war nur nicht von dieser QUESTIONS-Zeile aus
+   verlinkt. Eigene Zusatzprobe an der SIA-Shop-Produktseite (SN 592001) bestätigt: letzte
+   geführte Ausgabe 2003, archiviert seit 31.05.2005, shop-eigenes «Nachfolger»-Feld verweist
+   nur auf sich selbst mit unbekanntem Jahr.
+2. **SN 641 400** — zweiter Anlauf über die ZH-Vollzugshilfe (`pp_wegleitung.pdf`, `pdftotext
+   -layout`) fand nur einen Klammerverweis ohne Titel. VSS-Shop-Direktpfade weiterhin 404
+   (`641400`, `641-400`, `00641400`); Shop-Suche ist eine JS-SPA ohne statische API-Route.
+   Neuer, ausdrücklich nicht als Ablösungsbeleg verwendbarer Teilbefund: `SN 640290` («Parkieren;
+   Grenzbedarf, reduzierter Bedarf, Angebot», 1993, archiviert seit 01.02.2006) behandelt
+   dasselbe Themenfeld, nennt aber keinen Vorgänger «SN 641 400» — reine thematische/numerische
+   Nähe (VSS-Umnummerierung 641.xxx → 640.28x/29x in den 1990ern), kein Zitat-Ersatz. Bleibt
+   externe Bring-Schuld, Web-Zugangsweg jetzt zweimal unabhängig ausgeschöpft.
+
+**Nachgeführt:** `wiki/QUESTIONS.md` (zwei additive Nachträge + eine Checkbox-Schliessung);
+dieser CHANGELOG-Eintrag; Report `outputs/2026-08-23_questions-abarbeitung19.md`.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang): durchweg additiv (55→78
+Einfügungen, 3 Löschungen — die Löschungen sind Kontextverschiebungen durch den Parallelprozess,
+keine eigene inhaltliche Löschung). Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt.
+
+**Nicht geleistet:** NIN-Geschirrspüler, N60-1/N60-2, SIA 491/SN EN 12193 unverändert offen
+(Raphael-Entscheide bzw. kostenpflichtige Bring-Schulden ohne neuen Anlauf). Details und
+Empfehlung für den nächsten Lauf im Output-Report.
+
+---
+
+## 2026-08-23 — SIA-Sweep, dreiundzwanzigste Fortsetzung: Section-A-Blindzone-Sweep abgeschlossen (9 Nullbefunde, keine unbehandelte Zeile mehr)
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz`, Fundstellenpflicht. Rule `wissens-bibliothekar`
+beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen, nach jedem Schreiben
+`git diff --numstat` prüfen.
+
+**Vorlauf gelesen:** `CHANGELOG.md`-Kopf und `outputs/2026-08-23_sia-sweep-zweiundzwanzigste-fortsetzung.md`
+(deren offen benannte Restliste: SIA 381/3, SIA 422, SIA 2025, SIA 118/430, danach
+Vollständigkeitsabgleich gegen alle Fortsetzungen 7–22).
+
+**Kollisionsprüfung:** `ps aux` zeigte zu Laufbeginn drei parallele `claude -p`-Prozesse: den
+eigenen (PID 43810, identischer Lauf-Prompt — laut Anleitung der eigene Prozess, kein
+Konkurrent) sowie zwei weitere an `wiki/QUESTIONS.md` derselben KB (QUESTIONS-Abarbeitung-
+Läufe, andere Zeilen/Abschnitte). `wiki/REGISTER.md` und `CHANGELOG.md` unmittelbar vor dem
+eigenen Schreibvorgang frisch gelesen: SIA 118/430 trug bereits den Befund eines parallelen
+Laufs («kein kostenloser Zugang gefunden») — nicht erneut geprüft, nur übernommen.
+
+### Durchgeführt
+
+**1. Die drei benannten Restkandidaten SIA 381/3, SIA 422, SIA 2025** mit der in der 22.
+Fortsetzung etablierten präzisen Methode geprüft: Produktseite `shop.sia.ch` per
+`curl -A "Mozilla/5.0"` abgerufen, Titel über `<meta name="description">` gegen die erwartete
+Norm verifiziert, `lblAnhangBezeichnung`-Feld ausgezählt. **3 von 3 Nullbefunde** — je genau ein
+Anhang «Inhaltsverzeichnis», kein zusätzlicher Korrigenda-Download (SIA 381/3
+architekt/ingenieur/sia381-3_1982_d SN 565381/3; SIA 422 architekt/sia422_2009_d SN 513422;
+SIA 2025 architekt/sia2025_2012_d SN 592025).
+
+**2. Vollständigkeitsabgleich Abschnitt A.** Alle 54 Zeilen mit Bestand-Status «Kein Volltext im
+Haus» in Abschnitt A extrahiert und gegen die Sweep-Fortsetzungen 7–23 kreuzgeprüft (Norm-Namen
+in den Fortsetzungs-Absätzen der «2013-Blindzone»-Sektion sowie in den einzelnen Zeilen selbst
+gesucht). Ergebnis: **jede der 54 Zeilen ist inzwischen auf die Korrigenda-Methode geprüft** —
+entweder über eine benannte Fortsetzung, ein eigenes Korrigenda-Destillat (269/3, 269/5, 269/8)
+oder eine eigene, mehrfach verifizierte Zeile (381/3, 422, 2025, 118/430). Keine unbehandelte
+Zeile gefunden.
+
+**3. Sechs Neuzugänge aus den 4000er-Abschnitten nachgezogen.** SIA 4008, SIA 4018, SIA 4020,
+SIA 4013, SIA 380:2022 und SIA 242.002 trugen bereits Metadaten (aus der 8./9./10. Fortsetzung),
+waren aber nie auf einen zusätzlichen kostenlosen Anhang geprüft worden. Mit derselben Methode
+nachgeholt: **5 von 6 mit genau einem Anhang «Inhaltsverzeichnis»** (4008, 4018, 4020, 4013,
+380:2022), **SIA 242.002 mit null Anhängen** (kein Inhaltsverzeichnis-Download vorhanden, reines
+Bestellprodukt).
+
+**4. Section-A-Blindzone-Sweep für abgeschlossen erklärt.** Alle Register-geführten SIA-Zeilen
+ohne Volltext im Haus tragen jetzt ein Produktdatenblatt mit gültig-ab/gültig-bis UND einen
+geprüften Corrigenda-Befund. Offene Punkte sind keine Suchlücken mehr, sondern echte
+Bring-Schulden (kostenpflichtige Volltext-Beschaffung, Raphael) bzw. zwei ungeklärte
+Nachfolger-Fragen (SIA 422, SIA 2025), beide bereits als N-SIASWEEP-2/3 in `wiki/QUESTIONS.md`
+erfasst.
+
+### Nachgeführt
+
+- `wiki/REGISTER.md`: neuer Sammelabsatz «Korrigenda-Check-Sweep, 23.08.2026 (SIA-Sweep,
+  dreiundzwanzigste Fortsetzung) — Abschluss der Section-A-Blindzone» im Blindzone-Abschnitt,
+  direkt nach dem Absatz der 22. Fortsetzung eingefügt (rein additiv).
+- Kein neues Destillat — neun echte Nullbefunde erhalten keinen Wiki-Artikel (Rule
+  `wissens-bibliothekar`).
+- Report: `outputs/2026-08-23_sia-sweep-dreiundzwanzigste-fortsetzung.md`.
+
+### Verifikation
+
+`git diff --numstat` nach dem Schreibvorgang geprüft: `wiki/REGISTER.md` rein additiv (31
+Einfügungen, 0 Löschungen). Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft
+über `scripts/nas-commit-now.sh` bzw. den 15-Minuten-`nas-selfcommit`-Cron).
+
+### Nicht geleistet / weiterhin offen
+
+- SIA 422 und SIA 2025: Nachfolger-Namen weiterhin nicht offiziell bestätigt (N-SIASWEEP-2/3,
+  Bring-Schuld Raphael oder amtliche SIA-Auskunft).
+- Keine der neun heute geprüften Zeilen wurde auf einen tatsächlichen Volltext-Kauf hin
+  weiterverfolgt — das bleibt Bring-Schuld Raphael für alle 54 Zeilen der Blindzone.
+- Die systematische **Section-A**-Sweep gilt hiermit als abgeschlossen. Ein sinnvoller nächster
+  Schritt für einen künftigen Lauf wäre entweder (a) dieselbe Korrigenda-Methode auf Abschnitt D
+  (Nicht-SIA-Familien: DIN/VSS/RAL) auszuweiten, sofern dort ebenfalls Zeilen mit «Kein Volltext
+  im Haus» ohne Anhang-Prüfung bestehen, oder (b) die im Sweep wiederholt aufgefallenen
+  Bring-Schulden (Volltext-Käufe) zu einer priorisierten Einkaufsliste zu bündeln.
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 18: SIA 400 Aktualität bestätigt, SIA-Merkblatt 2048 Bestand negativ verifiziert, SN 640 052 als ausser Kraft entdeckt (Cross-KB-Nachtrag in `baurecht`)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats vor Zitat lesen (nur `established`
+zitierfähig). CHANGELOG und Report des letzten Laufs zuerst lesen, dort weitermachen. Rule
+`wissens-bibliothekar` beachten, `git diff --numstat` nach jedem Schreiben prüfen.
+
+**Kollisionsprüfung:** `ps aux` zeigte zwei weitere parallele `claude -p`-Prozesse — einer mit
+identischem Auftragstext an derselben `wiki/QUESTIONS.md` (PID 39144, gemäss Auftrag als eigener,
+nicht konkurrierender Lauf behandelt), einer an `wissen/baurecht` (PID 41593). Die Datei wuchs
+während dieses Laufs mehrfach durch den Parallelprozess (4582 → 4675 Zeilen); vor jedem Edit
+wurde die Zielzeile frisch neu gelesen statt auf zuvor gelesene Zeilennummern zu vertrauen.
+
+**Bearbeitet (Details: `outputs/2026-08-23_questions-abarbeitung18.md`):**
+
+1. SIA 400:2000 — Aktualität gegen den suissetec-Hinweis via `shop.sia.ch` geprüft: weiterhin
+   aktuell (Revision 1, 18.08.2015, kein Nachfolger gelistet). Nachgetragen in
+   `destillate/sia-400-2000.md` und `wiki/QUESTIONS.md` (Teilschliessung).
+2. SIA-Merkblatt 2048 — SharePoint-Bestand (M365-Graph-Connector, Drive-Suche) negativ, Preis
+   via `shop.sia.ch` verifiziert (100 CHF, kein Gratis-Volltext). Bring-Schuld bleibt offen.
+3. SN 640 052 (VSS) — via `mobilityplatform.ch`-Direktpfad `/vss-shop/product/<nummer>` (Fund:
+   URL-Pfad = Norm-Nummer, kein Umweg über Sucheingabe nötig) als **seit 31.03.2019 ausser Kraft**
+   identifiziert; ein WebSearch-Sekundärquellen-Treffer zu einer angeblichen Nachfolgenorm
+   (SN 640060) wurde direkt gegengeprüft und widerlegt. Cross-KB-Nachtrag additiv in
+   `wissen/baurecht/wiki/baureife-und-erschliessung.md` gesetzt (Zeile mit SN-640-052-Zitat).
+4. N61 und mehrere weitere Punkte waren beim zweiten Lesen bereits vom Parallelprozess
+   geschlossen — nicht doppelt bearbeitet.
+
+**Nachgeführt:**
+
+- `destillate/sia-400-2000.md`: Offener-Punkt-Zeile ersetzt, `last_updated` auf 2026-08-23.
+- `wiki/QUESTIONS.md`: drei additive Teilschliessungen/Nachträge (SIA-410-Nachfolgewerke Teil 1,
+  SIA-Merkblatt-2048-Bestandsfrage, SN-640-052-Fund).
+- `wissen/baurecht/wiki/baureife-und-erschliessung.md`: additive Warnzeile zu SN 640 052.
+- Dieser CHANGELOG-Eintrag; Report `outputs/2026-08-23_questions-abarbeitung18.md`.
+
+**Verifikation** (`git diff --numstat` nach jedem Schreibvorgang, Rule `auto-verbesserungen`
+260811): alle vier Dateien zeigten ausschliesslich additive Änderungen (die von `git diff`
+gemeldeten wenigen „Deletions" sind stets die letzte Zeile eines erweiterten Absatzes, keine
+inhaltliche Löschung). Kein `git`-Schreibbefehl über den SMB-Mount ausgeführt — Commit lief
+mehrfach während dieses Laufs über den 15-Minuten-`nas-selfcommit`-Cron.
+
+**Nicht geleistet:** SN 641 400 bleibt ungeprüft (VSS-Shop-URL-Pfad liefert 404 für diese
+Nummer); NIN-Geschirrspüler-Frage, N60-1/N60-2 (Raphael-Entscheide) und die kostenpflichtigen
+Bring-Schulden SIA 491/SN EN 12193 unverändert offen. Details und Empfehlung für den nächsten
+Lauf im Output-Report.
+
+---
+
+## 2026-08-23 — QUESTIONS-Abarbeitung 17: alle zehn N58-4-Klasse-2-Lücken (2000er-VKF-Merkblätter) geschlossen, Dokument-ID-Verwechslung 2003-15/2007-15 korrigiert, Cross-KB-Frage N61 aufgelöst
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. Fundstelle je Aussage mit
+Norm, Ausgabe und Ziffer; Verifikationsstatus des Destillats vor Zitat lesen (nur `established`
+zitierfähig). CHANGELOG und Report des letzten Laufs zuerst lesen, dort weitermachen. Rule
+`wissens-bibliothekar` beachten, jede Aussage belegen, nichts raten, CHANGELOG-Eintrag setzen,
+nach jedem Schreiben `git diff --numstat` prüfen.
+
+**Kollisionsprüfung:** `ps aux` zu Sessionbeginn und im Verlauf geprüft — zwei weitere,
+eigenständige `claude -p`-Prozesse liefen parallel: einer mit identischem Lauf-Namen/Prompt an
+derselben KB (laut Anleitung als eigener, nicht als Konkurrent zu behandeln), einer an der KB
+`wissen/baurecht` (Buch-Runs 93-96). Während der Session landete durch den baurecht-Lauf ein
+repo-weiter `nas-commit-now`-Commit (`233767e3`, 22:13:01), der sämtliche zu diesem Zeitpunkt
+im Arbeitsbaum stehenden Änderungen — auch die eigenen, bereits geschriebenen Dateien dieser
+Session — mit übernahm, obwohl die Commit-Message nur die baurecht-Arbeit nennt. Geprüft: alle
+eigenen Dateien sind im Commit enthalten (per `git log -1 -- <datei>` und Grep der erwarteten
+Textmarker im aktuellen Stand bestätigt), keine eigene Änderung verloren. Ein danach
+verbleibender, nicht von dieser Session stammender 11-Zeilen-Diff in `QUESTIONS.md` (SIA
+400/410, Bring-Schuld-Nachtrag) wurde identifiziert, geprüft und **nicht angefasst** — additiv,
+kein Konflikt mit eigenen Edits.
+
+**Vorlauf gelesen:** `outputs/2026-08-23_questions-abarbeitung16.md` (jüngster
+QUESTIONS-Report). Dessen «Nicht geleistet»-Liste nannte fünf verbleibende Klasse-2-Lücken
+(2000-15, 2002-15, 2004-15, 2007-15, 2010-15, siehe N58-4) und einen offenen Cross-KB-Fund
+(N61, Primärenergiefaktoren SIA 2031-C1 ↔ `wissen/energie`) als nächste Schritte.
+
+### Durchgeführt
+
+**1. Alle fünf verbleibenden Klasse-2-Lücken destilliert** — damit sind sämtliche zehn in
+N58-4 benannten VKF-Merkblätter der 2000er-Reihe abgedeckt. Alle fünf PDFs kompakt (7-16
+Seiten) und über dieselbe Astro-JSON-Katalog-Methode (bsvonline.ch, Cache
+`/tmp/normsweep-vorschriften2015.html`, korrekt zugeordnete `fileLeafRef`-ID) beziehbar — keine
+echte Bring-Schuld, entgegen der vorherigen Einschätzung. Neu: **2000-15** Brandschutzanwendung
+im Einzelfall (8 S., vierstufige Nachweisstellen-Tabelle Ziff. 3.4), **2002-15** Zeltbauten für
+temporäre Veranstaltungen (12 S., Ausgangsbreiten-Formel 0.6 m/100 Personen), **2004-15**
+Durchführungen durch brandabschnittbildende Bauteile (12 S., zitiert VKF-BSR 15-15 Ziff. 3.5 im
+Wortlaut), **2007-15** Lagerung von Munition (7 S., fünf Lagerklassen nach Bruttogewicht),
+**2010-15** Brandschutz in Kompaktlagern (16 S., vierstufige Massnahmenkategorie nach Tabelle 1
+— letzte der zehn Lücken).
+
+**2. Dokument-ID-Verwechslung 2003-15/2007-15 gefunden und korrigiert.** Beim Beschaffen von
+2007-15 zeigte die direkte Titelblatt-Verifikation, dass die Dokument-ID
+`BSPUB-1394520214-3749` tatsächlich zu 2007-15 gehört (7 S., «Lagerung von Munition»), nicht zu
+2003-15, wie im bestehenden Destillat `vkf-merkblatt-2003-15-brandschutzplaene.md` und der
+zugehörigen REGISTER-Zeile aus einem früheren Lauf zitiert. Gegenprobe: `BSPUB-1394520214-203`
+ist die tatsächliche 2003-15-Quelle (73 S., exakt der im Destillat beschriebene Umfang). Ursache
+ein Zitierfehler-Artefakt einer zu naiven JSON-Feld-Extraktion in einem früheren Lauf; der
+**Inhalt** des 2003-15-Destillats war durchgehend korrekt, nur die Quell-URL im Frontmatter und
+die REGISTER-Zeile falsch — beide in diesem Lauf berichtigt (nicht destruktiv, reine
+Zitat-Korrektur).
+
+**3. N61 (Cross-KB Primärenergiefaktoren) geschlossen — Prämisse war falsch, kein
+Korrekturbedarf.** Die beiden ursprünglich vermuteten Fundstellen in `wissen/energie`
+(`geak-klassengrenzen-relative-klassierung.md`, `sia-380-1-2016-aenderungen-gegenueber-2009.md`)
+enthalten keine Primärenergiefaktoren. Die tatsächlich einschlägige Stelle ist
+`destillate/geak-normierung-berechnungsmethodik.md`, Tab. 35 — dort werden **nationale
+Gewichtungsfaktoren f_CH** (EnDK/GEAK-Normierung 2.1.0) geführt, eine andere, energiepolitisch
+begründete Grösse als der physikalisch hergeleitete SIA-2031-Primärenergiefaktor. Beide Werte
+weichen für jeden Energieträger deutlich voneinander ab (z.B. Elektrizität 2,0 gegen 2,97) —
+kein Fehler, sondern zwei unterschiedliche, beide korrekt zitierte Grössen für unterschiedliche
+Zwecke. Cross-KB-Bringschuld erfüllt: Abgrenzungs-Fussnote direkt bei Tab. 35 in
+`wissen/energie/destillate/geak-normierung-berechnungsmethodik.md` nachgetragen (inkl.
+`last_updated` und CHANGELOG-Eintrag in jener KB), Cross-KB-Hinweis im eigenen Destillat
+`sia-2031-korrigenda-c1.md` auf das Ergebnis nachgeführt.
+
+### Nachgeführt
+
+- Fünf neue Destillate: `vkf-merkblatt-2000-15-brandschutzanwendung-einzelfall.md`,
+  `vkf-merkblatt-2002-15-zeltbauten.md`,
+  `vkf-merkblatt-2004-15-durchfuehrungen-brandabschnittsbildende-bauteile.md`,
+  `vkf-merkblatt-2007-15-lagerung-munition.md`, `vkf-merkblatt-2010-15-kompaktlager.md`
+  (alle established, Volltext vollständig gelesen)
+- `wiki/REGISTER.md`: fünf neue Zeilen plus Korrektur der 2003-15-Zeile (ID -3749 → -203)
+- `destillate/INDEX.md`: fünf neue Zeilen
+- `destillate/vkf-merkblatt-2003-15-brandschutzplaene.md`: Frontmatter `quelle` korrigiert
+- `destillate/sia-2031-korrigenda-c1.md`: Cross-KB-Hinweis auf das Ergebnis nachgeführt
+- `wiki/QUESTIONS.md`: N58-4 (Sammelnachtrag, alle zehn Lücken geschlossen) und N61 (vollständig
+  geschlossen mit Tabellenvergleich) nachgetragen
+- `wissen/energie/destillate/geak-normierung-berechnungsmethodik.md`: Abgrenzungs-Fussnote bei
+  Tab. 35, `last_updated` aktualisiert
+- `wissen/energie/CHANGELOG.md`: eigener Cross-KB-Nachtrag oben eingefügt
+- Report: `outputs/2026-08-23_questions-abarbeitung17.md`
+
+### Verifikation
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft; sämtliche Diffs rein additiv oder
+gezielte Ein-Feld-Korrekturen (Frontmatter-URL, REGISTER-Zeile) ohne fremden Textverlust. Kein
+`git`-Schreibbefehl über den SMB-Mount ausgeführt (Commit läuft über `scripts/nas-commit-now.sh`
+bzw. den 15-Minuten-`nas-selfcommit`-Cron — in dieser Session traf das repo-weite
+Commit-Ereignis eines parallelen Laufs ein, siehe Kollisionsprüfung oben).
+
+### Nicht geleistet / weiterhin offen
+
+- Keine der fünf neuen 2000er-Merkblätter gegen eine neuere Fassung im VKF-Publikationsindex
+  geprüft (Bring-Schuld N27-1, gilt für alle zehn 2000er-Merkblätter gleichermassen).
+- Verweisnormen der neuen Destillate (SN EN 1627, SN EN 16750, EN 1634-1/1364-1/1363-1, SNR
+  464022) selbst nicht beschafft — Zitate stammen ausschliesslich aus der Wiedergabe in den
+  Merkblättern.
+- Unverändert offen: N56-1 (SIA 416/1 S. 6/S. 27), N57-2 (Nachfolgenorm SIA 416/1), N60-1/N60-2
+  (Entscheid Raphael), SVGW-Scope, Bezahlschranken-Beschaffungen (Bring-Schuld Raphael).
+
 ## 2026-08-23 — SIA-Sweep, zweiundzwanzigste Fortsetzung: SIA-118/xxx-AVB-Restliste komplett auf Korrigenda-Methode geprüft (12 Nullbefunde)
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

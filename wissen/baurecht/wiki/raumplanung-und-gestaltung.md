@@ -1,9 +1,9 @@
 ---
 title: Raumplanung & Gestaltungsvorschriften — Kanton Zürich
 status: established
-last_updated: 2026-07-27
-verifiziert: 2026-07-27 (Buch-Run 63, Modell-D Volltextabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/253/320/346 PBG gegen raw/260607_amtlich_zh_pbg.md — Zonentypen-Enumeration, Fristen (60-Tage-Auflage § 7, Planungszone 3+2 Jahre § 346), numerus clausus § 48 Abs. 2/3 alle CONFIRMED; §§ 83-89/44a PBG bereits in Buch-Run 43 CONFIRMED. 1 echte Korrektur: § 253 PBG war faelschlich als alleinige Anspruchsnorm fuer "Anspruch auf Bewilligung" zitiert — regelt tatsaechlich nur die Nutzweise/Zonenkonformitaet; die Anspruchsnorm ist § 320 PBG (im uebrigen Wiki-Bestand bereits korrekt gefuehrt, hier nachgezogen))
-sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 253 PBG", "§ 320 PBG", "§ 346 PBG", "§§ 4/10 VDNP", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
+last_updated: 2026-08-23
+verifiziert: 2026-07-27 (Buch-Run 63, Modell-D Volltextabgleich §§ 7/18/19/39/46 Abs. 3/48/49-65/69-73/253/320/346 PBG gegen raw/260607_amtlich_zh_pbg.md — Zonentypen-Enumeration, Fristen (60-Tage-Auflage § 7, Planungszone 3+2 Jahre § 346), numerus clausus § 48 Abs. 2/3 alle CONFIRMED; §§ 83-89/44a PBG bereits in Buch-Run 43 CONFIRMED. 1 echte Korrektur: § 253 PBG war faelschlich als alleinige Anspruchsnorm fuer "Anspruch auf Bewilligung" zitiert — regelt tatsaechlich nur die Nutzweise/Zonenkonformitaet; die Anspruchsnorm ist § 320 PBG (im uebrigen Wiki-Bestand bereits korrekt gefuehrt, hier nachgezogen)) · 2026-08-23 (Buch-Run 97, Modell-D-Re-Verifikation: erstmals die Bundesrechts-Zitate Art. 1/4/9/15/21/25a/26 RPG, Art. 33 RPV, Art. 75 BV frisch von fedlex.data.admin.ch bezogen (RPG konsolidiert 01.07.2026, RPV 01.01.2026, BV 01.01.2024) und wortlautverifiziert; zusaetzlich §§ 44a/49b/82-89/238 PBG gegen raw/260607_amtlich_zh_pbg.md (Nachtrag 133, unveraendert seit Run 94/95/96) erneut CONFIRMED. 2 echte Korrekturen: (1) die 15-Jahre-Bauzonenregel war Art. 15 Abs. 1 RPG, § 18 lit. b PBG und Art. 75 Abs. 1 BV gebuendelt zugeschrieben — nur Art. 15 Abs. 1 RPG enthaelt die Zahl, jetzt getrennt zugeordnet; (2) Art. 15 Abs. 4 RPG nannte nur lit. a-d, lit. e (Richtplankonformitaet) fehlte. 1 klarstellende Fussnote: die "≥10 Gebaeude"-Schwelle der Weilerzone steht nicht im Wortlaut von Art. 33 RPV, sondern ist Buch-/Praxiskriterium)
+sources: [260602_docs-baurecht-pbg-zh.md, "260607_amtlich_zh_pbg.md", "§ 238 PBG", "§§ 238 ff. PBG", "RPG (SR 700)", "Art. 1 RPG", "Art. 4 RPG", "Art. 9 RPG", "Art. 15 RPG", "Art. 21 RPG", "Art. 25a RPG", "Art. 26 RPG", "Art. 33 RPV", "Art. 75 BV", "§ 7 PBG", "§ 18 PBG", "§ 19 PBG", "§ 44a PBG", "§ 48 PBG", "§ 48 Abs. 3 PBG", "§ 49b PBG", "§§ 50-65 PBG", "§§ 69-73 PBG", "§§ 82-89 PBG", "§ 87a PBG", "§ 253 PBG", "§ 320 PBG", "§ 346 PBG", "§§ 4/10 VDNP", "fedlex.data.admin.ch RPG SR 700 (Stand 1.7.2026, eli/cc/1979/1573_1573_1573)", "fedlex.data.admin.ch RPV SR 700.1 (Stand 1.1.2026, eli/cc/2000/310)", "fedlex.data.admin.ch BV SR 101 (Stand 1.1.2024, eli/cc/1999/404)", 01-grundlagen.md, 02-raumplanung-richtplanung-nutzungsplanung.md, 02-nutzungsplanung-zonenarten-teil2.md, 02-nutzungsplanung-sondernutzung-verfahren-teil3.md]
 links: [[zonenkonformitaet]], [[baubewilligungsverfahren]], [[nutzungsziffern]], [[grundlagen-planungs-baurecht]], [[baureife-und-erschliessung]]
 ---
 
@@ -17,9 +17,15 @@ die Gestaltungsvorschriften ab. Die parzellenscharfen Regeln stehen in
 
 Raumplanung ist der **Oberbegriff** von Richt- und Nutzungsplanung; die
 grundeigentümerverbindliche Kontrolle erfolgt erst im Baubewilligungsverfahren
-(Bd 1, Kap. 2, S. 112). Leitziel ist die haushälterische Bodennutzung: **Bauzonen
-dürfen sich nicht über den voraussichtlichen Bedarf von 15 Jahren erstrecken**
-(Art. 15 Abs. 1 RPG / § 18 lit. b PBG / Art. 75 Abs. 1 BV, S. 114). Über allem steht
+(Bd 1, Kap. 2, S. 112). Leitziel ist die haushälterische Bodennutzung
+(Art. 1 Abs. 1 RPG; § 18 lit. b PBG), mit dem Grundsatz der Trennung von Bau- und
+Nichtbaugebiet (Art. 75 Abs. 1 BV, S. 114): **Bauzonen dürfen sich nicht über den
+voraussichtlichen Bedarf von 15 Jahren erstrecken** — das ist einzig **Art. 15 Abs. 1
+RPG** zu entnehmen, weder § 18 lit. b PBG noch Art. 75 Abs. 1 BV enthalten die
+Zahl selbst (Buch-Run 97, Modell-D-Fund: die frühere Fassung zitierte alle drei
+Normen gebündelt für die 15-Jahre-Zahl, am amtlichen RPG-Wortlaut Art. 15 Abs. 1
+[«Die Bauzonen sind so festzulegen, dass sie dem voraussichtlichen Bedarf für
+15 Jahre entsprechen»] gegen § 18 PBG und Art. 75 BV geprüft). Über allem steht
 das **Koordinationsgebot** — Lebensraum als Einheit, materielle und formelle Koordination
 über alle Planungsstufen (Art. 25a RPG; BGE 117 Ib 28, S. 117).
 
@@ -70,13 +76,20 @@ Kap. 2, S. 156–167; Detailwerte → [[zonenkonformitaet]]):
   Landwirtschaftszone** (§ 46 Abs. 3 PBG), **Reservezone** (Art. 18 Abs. 2 RPG / § 65 PBG;
   kein absoluter Einzonungsanspruch, BEZ 2009 Nr. 10), **Weilerzone** (Art. 33 RPV;
   ≥ 10 bewohnte Gebäude in geschlossenem Siedlungsbild; ZH-Verzeichnis are.zh.ch).
+  ⚠ Der Verordnungswortlaut selbst (Art. 33 RPV, amtlich geprüft Buch-Run 97) nennt nur, dass
+  besondere Zonen nach Art. 18 RPG «zur Erhaltung bestehender Kleinsiedlungen ausserhalb der
+  Bauzonen» festgelegt werden können, sofern der kantonale Richtplan dies vorsieht — die
+  Zehner-Schwelle ist eine Buch-/Praxis-Konkretisierung (Bd 1, Kap. 2, S. 165), keine
+  Verordnungsziffer. Nicht als wörtliches RPV-Zitat verwenden.
 
 #### Neueinzonungs-Kriterien (Art. 15 RPG)
 Bauzonen entsprechen dem **voraussichtlichen Bedarf für 15 Jahre** (Art. 15 Abs. 1 RPG);
 **überdimensionierte Bauzonen sind zu reduzieren** (Art. 15 Abs. 2 RPG; BGer 1C_315/2015).
-Neueinzonung nur bei **kumulativer** Erfüllung von Art. 15 Abs. 4 lit. a–d RPG: Eignung +
+Neueinzonung nur bei **kumulativer** Erfüllung von Art. 15 Abs. 4 lit. a–e RPG: Eignung +
 Bedarf/Erschliessung/Überbauung innert 15 J. + kein Kulturland-Zerstückeln + rechtlich
-gesicherte Verfügbarkeit (S. 163 f.).
+gesicherte Verfügbarkeit + **Umsetzung der Richtplan-Vorgaben (lit. e)** (S. 163 f.;
+Buch-Run 97, Modell-D-Fund gegen den amtlichen Fedlex-Wortlaut: die frühere Fassung
+führte nur lit. a–d und liess lit. e — Richtplankonformität — aus).
 
 #### Sondernutzungsplanung — Gestaltungsplan (§§ 83–89 PBG)
 Der **Gestaltungsplan (GP, § 83 PBG)** ist das schärfste Verdichtungsinstrument: mit ihm werden

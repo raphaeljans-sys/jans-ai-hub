@@ -79,6 +79,13 @@ Anhang-ZN-Tabelle (Bd 2, S. 726) Fahrbahnbreite, Kurvenradius und lichte Höhe:
 
 - **Kehrplatz/Kehrmöglichkeit** bei Stichstrassen (VSS-Norm SN 640 052); muss Anstössern *und*
   öffentlichen Diensten (Kehricht) rechtlich gesichert offenstehen (VB.2010.00107; VB.2016.00566).
+  ⚠ **SN 640 052 «Wendeanlagen» (Ausgabe 1977) ist seit 31.03.2019 ausser Kraft** (verifiziert
+  23.08.2026, `mobilityplatform.ch/de/vss-shop/product/640052`, offizieller VSS-Shop); ein
+  Nachfolgetitel ist nicht verifiziert (ein WebSearch-Treffer nannte SN 640060 fälschlich als
+  Nachfolger — direkt widerlegt, siehe `wissen/normen/wiki/QUESTIONS.md`, Nachtrag 23.08.2026 im
+  Run-15-Abschnitt). Bis zur Klärung des Nachfolgers gilt die materielle Anforderung
+  (Kehrplatzpflicht) über die zitierten Gerichtsentscheide weiter, die Normfundstelle selbst ist
+  aber zu prüfen, bevor sie in einem ausgehenden Dokument zitiert wird.
 - **Fussgängerschutz:** Bankett ≥ 30 cm, Trottoir ≥ 1 m; bei EFH/übersichtlicher Zufahrt verzichtbar,
   Trottoir durch Begegnungszone ersetzbar (VB.2010.00184; VB.2014.00510; BEZ 2010 Nr. 4).
 - **Erleichterungen (§ 11 ZN):** geringere Anforderungen bei Hanglage, Natur-/Heimatschutz, Innen-

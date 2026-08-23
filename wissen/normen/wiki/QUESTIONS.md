@@ -3981,8 +3981,18 @@ einzeln geprüft:
   notiert; hier kam sie nie an (grep «2048» in `wissen/normen/`: 0 Treffer — weder REGISTER noch
   `training/norm-inventar.md`). SIA 2048 ist die von MuKEn 2025 Modul 7 in Bezug genommene Methodik;
   energie hat sie bisher nur ueber EnFK EN-142 + Sekundaerquellen erschlossen. Fuer die Methodik-Frage
-  (Anhang E.2 Berichtsvorgaben) braucht es den Volltext. Pruefen, ob das Merkblatt im SharePoint-Bestand
-  liegt, sonst Beschaffung ueber das SIA-Abo.
+  (Anhang E.2 Berichtsvorgaben) braucht es den Volltext.
+  > ✅ **Bestandsfrage GEPRÜFT 23.08.2026 (QUESTIONS-Abarbeitung), negativ.** (1) SharePoint-Bestand
+  > (Site PL, Drive `02_Recht_Norm`) per M365-Graph-Connector durchsucht: Volltextsuche
+  > `/drives/{id}/root/search(q='2048')` über den ganzen Drive sowie gezielt in `SIA_Norm:` und
+  > `04_Merkblätter:` — kein Treffer mit Bezug zu SIA 2048. Das Merkblatt liegt **nicht** im
+  > SharePoint-Bestand. (2) Produktseite `shop.sia.ch/normenwerk/architekt/sia%202048/d/D/Product`
+  > (WebFetch, Abruf 23.08.2026) bestätigt: **SIA 2048/2015 D, aktuell (nicht archiviert), gültig ab
+  > 01.07.2015, Preis 100.00 CHF** (Papier oder Download SRD) — **kein kostenloser Volltext**, nur
+  > das Inhaltsverzeichnis ist gratis. Eine ältere IFMA-Ankündigung eines kostenlosen Downloads
+  > (Suchtreffer-Titel, Link inzwischen 404) liess sich nicht verifizieren und widerspricht dem
+  > aktuellen Shop-Preis — nicht belastbar. **Bring-Schuld bleibt vollumfänglich offen**, nur über
+  > SIA-Abo/Kauf (100 CHF) schliessbar; Inventar-Eintrag erst nach Beschaffung sinnvoll.
 - [ ] **Z1/Z2-Koeffizienten des SIA-103-Grundfaktors fehlen** (p = Z1 + Z2/∛Bp, Ziff. 7.2.2). Sie
   werden laut Norm periodisch vom SIA publiziert, stehen aber nicht im PDF. Folge: **Honorar nach
   Baukosten ist nach SIA 103 derzeit nicht durchrechenbar.** Fuer SIA 102 liefert das neue Destillat
@@ -4106,7 +4116,7 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
 - [ ] **`SIA_Leistungsmodell.pdf` ist gar kein SIA-Dokument.** Der Verifier hat festgestellt: es ist
   ein Merkblatt der **KUNDERT PLANER AG** zur SIA-Ordnung, nicht eine SIA-Publikation. Das Inventar
   führte es als «Hilfsmittel Leistungsmodell». Als Sekundärquelle behandeln, nie als Norm zitieren.
-- [ ] **Nachfolgeausgaben nicht ermittelbar.** Für SIA 2001 (Wärmedämmstoff-Kennwerte, Nennwerte
+- [x] **Nachfolgeausgaben nicht ermittelbar.** Für SIA 2001 (Wärmedämmstoff-Kennwerte, Nennwerte
   befristet bis 31.12.2006) und SIA 2024 (Standard-Nutzungsbedingungen, Revision 2021 bekannt) ist
   der Bestand veraltet. SIA 2024 ist über die KB `energie` bereits teilweise erschlossen
   (Grundlagenbericht Revision 2021 + Korrigenda C1:2024, siehe CHANGELOG 2026-07-19 Wissens-Chef Run 9).
@@ -4140,6 +4150,27 @@ koennten. Bearbeitungsstand Mini-Run 33 (20.07.2026):
   > `wissen/energie/destillate/sia-2024-nutzungsrandbedingungen-gesundheitsbau.md` bzw. die
   > dortige `QUESTIONS.md` — in diesem Lauf aus Zeitgründen nicht mehr ausgeführt, siehe
   > CHANGELOG.
+  >
+  > ✅ **BEIDE TEILE GESCHLOSSEN 23.08.2026 (QUESTIONS-Abarbeitung 19).** (1) **Cross-KB-Bringschuld
+  > an `energie` bereits erfüllt** — nicht durch diesen Lauf, sondern durch einen zeitgleichen
+  > `energie`-Lauf: `wissen/energie/wiki/QUESTIONS.md`, Run 80 (18.07.2026), Punkt
+  > «SIA-2024-Normstand für die Healthcare-EBF-Schwelle (F100)», trägt seit 23.08.2026 exakt diesen
+  > Cross-KB-Nachtrag mit Verweis auf `wissen/normen/destillate/sia-2024-korrigenda-c1-c2.md`
+  > (Zeile 1260-1268 dort, verifiziert per `grep`). Kein weiterer Schreibvorgang in `energie`
+  > nötig. (2) **SIA 2001 — Nachfolgeausgabe war bereits vollständig ermittelt, nur nicht an
+  > diese Stelle verlinkt.** `wiki/REGISTER.md`, Zeile SIA 2001 (Abschnitt A), dokumentiert
+  > bereits seit dem SIA-Sweep-Katalogabgleich vom 23.08.2026: die Nummer fehlt in beiden
+  > amtlichen SIA-Publikationsverzeichnissen (Stand 27.10.2023/03.01.2024) vollständig; sie ist
+  > über eine Zwischenrevision 2013/2015 **vollständig in SIA 279:2018 «Wärmedämmende Baustoffe»
+  > aufgegangen** (Frontmatter-Beleg im eigenen Bestand: `destillate/sia-279-2018.md`,
+  > `ersetzt: "SIA 279:2011 und SIA 2001:2015"`, status `established`). Eigene Zusatzprobe heute:
+  > die Produktseite `shop.sia.ch/normenwerk/architekt/sia%202001/d/D/Product` (SN 592001) zeigt
+  > die letzte im Shop geführte Ausgabe 2003 als seit 31.05.2005 archiviert und listet im
+  > eigenen Datenbankfeld «Nachfolger» nur einen Verweis auf sich selbst mit unbekanntem Jahr
+  > («?») — der SIA-Shop selbst kennt also keinen strukturierten Nachfolgepfad; die einzige
+  > belastbare Fundstelle bleibt der Frontmatter-Beleg in `sia-279-2018.md`. Kein Volltext-
+  > Beschaffungsbedarf mehr, da SIA 279:2018 bereits im Haus liegt. Beide Teilfragen der
+  > ursprünglichen Checkbox sind damit erledigt.
 
 - [ ] **SN EN 520 (Gipsplatten — Begriffe, Anforderungen, Prüfverfahren) fehlt im Bestand.**
   Gebraucht für 2619 KISPI (Korrex Brandschutzexperte 21.07.2026: «Rohdichte Gipskartonplatten
@@ -4209,6 +4240,50 @@ aus der Recht-KB hier angekommen.
 > weiterer eigener Beschaffungsversuch ohne Kaufberechtigung verspricht keinen Mehrwert. Die
 > Checkboxen sind bewusst nicht angehakt — «geprüft, extern zu beschaffen» ist nicht dasselbe wie
 > «erledigt».
+
+> **Nachtrag 23.08.2026 (QUESTIONS-Abarbeitung, zweiter Anlauf) — SN 640 052 ist ausser Kraft,
+> Preis jetzt verifiziert.** Der zuvor gescheiterte Zugangsweg über die Sucheingabe ist nicht
+> nötig: `mobilityplatform.ch/de/vss-shop/product/640052` (offizieller VSS-Shop, WebFetch,
+> Abruf 23.08.2026) liefert die Produktseite direkt über die Norm-Nummer als URL-Pfad. Ergebnis:
+> **SN 640 052 «Wendeanlagen», Ausgabe 1977, gültig 01.01.1977 bis 31.03.2019, seither AUSSER
+> KRAFT, Preis CHF 45.20.** Die Norm, die `baurecht/wiki/baureife-und-erschliessung.md:76` als
+> Beleg für «Kehrplatz/Kehrmöglichkeit bei Stichstrassen» zitiert, ist damit seit über sieben
+> Jahren zurückgezogen — **keine unmittelbare Bring-Schuld-Beschaffung mehr sinnvoll, sondern ein
+> Zitierproblem in der KB `baurecht`.** ⚠ **Ein Nachfolger ist NICHT verifiziert**: Ein
+> WebSearch-Treffer benannte ungeprüft SN 640060 als Nachfolgenorm — direkt gegengeprüft
+> (`mobilityplatform.ch/de/vss-shop/product/640060`) und **widerlegt**: SN 640060 heisst
+> «Leichter Zweiradverkehr; Grundlagen» (1995, ebenfalls seit 31.03.2019 ausser Kraft) und hat
+> mit Wendeanlagen thematisch nichts zu tun — reines Zufallstreffer-Muster gleicher Rückzugsdatum,
+> keine Nachfolgebeziehung. Der tatsächliche Nachfolger (falls vorhanden, im Zuge der
+> VSS-Strukturanpassung März 2019) ist unbekannt und bleibt offen. **Cross-KB-Hinweis für
+> `wissen/baurecht`** (Bringschuld gemäss Rule `wissens-bibliothekar`): die Fundstelle
+> `baureife-und-erschliessung.md:76` sollte einen Vorbehalt zur überholten Norm erhalten, bis der
+> Nachfolger geklärt ist — hier nicht selbst editiert (fremde KB, kein Schreibzugriff in diesem
+> Lauf geprüft). **SN 641 400** bleibt ungeprüft: derselbe URL-Pfad (`.../product/641400`)
+> liefert HTTP 404, kein Ersatzpfad gefunden — weiterhin externe Bring-Schuld.
+>
+> **Weiterer Anlauf 23.08.2026 (QUESTIONS-Abarbeitung 19), Ergebnis weiterhin negativ, aber neuer
+> Befund.** (1) `mobilityplatform.ch/de/vss-shop/product/641400` erneut mit HTTP 404 bestätigt
+> (`curl -L`, Endziel `www.mobilityplatform.ch`); auch die Varianten `641-400` und `00641400`
+> liefern denselben 404. Die shop-eigene Volltextsuche ist eine JS-Single-Page-App ohne
+> statisch erreichbare API-Route (keine `algolia`/`elastic`-Endpunkte im HTML), darum per `curl`
+> nicht durchsuchbar. (2) **Primärquelle statt Shop-Suche:** die ZH-Vollzugshilfe selbst
+> (`zh.ch/…/pp_wegleitung.pdf`, lokal mit `pdftotext -layout` gelesen) nennt SN 641 400 nur als
+> Klammerverweis («gemäss VSS-Norm SN 641 400», S. 3) ohne eigenen Titel — kein Volltext-Zitat
+> möglich, nur der Verweis selbst ist belegt. (3) **Thematische Näherung, ausdrücklich nicht als
+> Ablösungsbeleg zu verwenden:** `mobilityplatform.ch/de/vss-shop/product/640290` (per WebFetch
+> gelesen) trägt den Titel **„Parkieren; Grenzbedarf, reduzierter Bedarf, Angebot, inkl. Beilage
+> mit Erfahrungswerten", Ausgabe 1993, archiviert seit 01.02.2006** — exakt dasselbe Themenfeld
+> „Grenzbedarf" wie das ZH-Zitat zu SN 641 400. Die Produktseite selbst nennt jedoch **keinen**
+> Vorgänger «SN 641 400» (explizit geprüft im WebFetch-Prompt, keine Erwähnung gefunden) — die
+> Nähe ist rein thematisch/numerisch (VSS-Normenwerk wechselte in den 1990ern von der alten
+> 641.xxx- in die neue 640.28x/29x-Nummerierung für die Parkierungsnormen; `640281`/`640291`
+> als Nachbarnummern sind ebenfalls „Parkieren"-Titel, beide zwischenzeitlich selbst archiviert).
+> **Kein Zitat-Ersatz**: SN 640290 darf NICHT als Nachfolgenorm von SN 641 400 in einen
+> Fach-Skill oder in `baurecht` übernommen werden, solange keine explizite Ablösungsformel
+> gefunden ist. Bleibt externe Bring-Schuld — nächster sinnvoller Schritt wäre eine direkte
+> Anfrage beim VSS-Kundendienst (kein Web-Zugangsweg mehr offen) oder Einsicht in ein
+> gedrucktes/älteres VSS-Normenverzeichnis mit Ablösungstabelle.
 
 **Gegenrichtung, ebenfalls Run 15:** die hier geführte Bring-Schuld «Volltext SIA 380/1:2016
 beschaffen» (QUESTIONS `:558`) nennt als Adressaten nur `energie-berater`/`planungsgrundlagen` —

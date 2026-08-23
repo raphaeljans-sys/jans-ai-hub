@@ -1506,6 +1506,29 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   [[fahrzeugabstellplaetze-und-parkierung]] (2026-07-30) und [[grundlagen-planungs-baurecht]]
   (2026-08-03). Unabhaengig davon: nach dem 01.10.2026 das vollstaendige Aenderungsverzeichnis
   von PBG-Nachtrag 134 gegen `zhlex.zh.ch` ziehen (siehe `wiki/QUESTIONS.md`).
+- **Buch-Run 97 (2026-08-23):** Fortsetzung der Re-Verifikations-Kette (Empfehlung Run 95/96).
+  [[raumplanung-und-gestaltung]] gewaehlt (eigener Quellenkreis: erstmals in dieser Kette primaer
+  Bundesrecht RPG/RPV/BV statt kantonalem PBG allein). Art. 1/4/9/15/21/25a/26 RPG (Stand
+  1.7.2026), Art. 33 RPV (Stand 1.1.2026) und Art. 75 BV (Stand 1.1.2024) frisch von
+  `fedlex.data.admin.ch` bezogen und wortlautgeprueft — diese sieben Bundesrechts-Zitate waren
+  bislang **nie** gegen den amtlichen Volltext verifiziert. Zusaetzlich §§ 44a/49b/82-89/238 PBG
+  gegen `raw/260607_amtlich_zh_pbg.md` (Nachtrag 133, unveraendert) erneut CONFIRMED. **2 echte
+  Korrekturen:** (1) die 15-Jahre-Bauzonenregel war Art. 15 Abs. 1 RPG, § 18 lit. b PBG und
+  Art. 75 Abs. 1 BV gebuendelt zugeschrieben, obwohl nur Art. 15 Abs. 1 RPG die Zahl enthaelt —
+  jetzt getrennt zugeordnet, analog dem Buch-Destillat selbst (das die drei Aussagen bereits
+  getrennt fuehrt); (2) Art. 15 Abs. 4 RPG hat FUENF kumulative Kriterien (lit. a-e), der Artikel
+  nannte nur lit. a-d und liess lit. e (Richtplankonformitaet) aus. **1 klarstellende Fussnote:**
+  die "≥10 Gebaeude"-Schwelle der Weilerzone steht nicht im Verordnungswortlaut von Art. 33 RPV
+  (nur die Ermaechtigung dazu), sondern ist eine Buch-/Praxis-Konkretisierung. Report
+  `outputs/2026-08-23_buch-run97.md`. **Naechster Schritt fuer einen kuenftigen Lauf:** von den
+  verbleibenden 9 Artikeln mit `verifiziert`-Datum 2026-07-27 einen unabhaengigen Rechtsraum
+  waehlen ([[ausnahmebewilligung-und-bestandesschutz]], [[bauausfuehrung-und-baukontrolle]],
+  [[baulinien-und-abstandslinien]], [[enteignung-und-entschaedigung]], [[geschosse-und-kniestock]],
+  [[naturschutz-und-denkmalschutz]], [[nebenbestimmungen-und-reverse]],
+  [[rechtsschutz-und-rechtsmittelverfahren]], [[widerrechtliche-bauten-und-sanktionen]]); danach
+  [[fahrzeugabstellplaetze-und-parkierung]] (2026-07-30) und [[grundlagen-planungs-baurecht]]
+  (2026-08-03). Unabhaengig davon: nach dem 01.10.2026 das vollstaendige Aenderungsverzeichnis
+  von PBG-Nachtrag 134 gegen `zhlex.zh.ch` ziehen (siehe `wiki/QUESTIONS.md`).
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 
