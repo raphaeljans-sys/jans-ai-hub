@@ -66,8 +66,10 @@ Zuschlag Aufzug Fr. 15-20/m3.
 **Stand 2003, aufindexiert auf 2025 (D11 geschlossen, Run 31 2026-07-14):** die amtliche Reihe
 **Zuercher Index der Wohnbaupreise (ZIW)**, Basis 01.06.1939 = 100, liegt jetzt vollstaendig vor
 (Quelle: Stadt Zuerich, Statistik und Daten, Publikationsstand 01.01.2026, Reproduktion HEV
-Schwyz). Wert 01.04.2003 = 899.2, Wert 01.04.2025 = 1210.4 (juengste publizierte Halbjahresreihe;
-naechste Publikation ~04/06.2026). **Index-Faktor 2003→2025 = 1210.4/899.2 = 1.346 (+34.6 %).**
+Schwyz). Wert 01.04.2003 = 899.2, Wert 01.04.2025 = 1210.4 (juengster Wert **dieser
+Reproduktion**; die Erwartung «naechste Publikation ~04/06.2026» ist eingetroffen — publiziert am
+**08.07.2026** zum Stichtag 01.04.2026, s. Fassungsvermerk unten. Die HEV-Reproduktion selbst endet
+weiterhin bei 01.04.2025). **Index-Faktor 2003→2025 = 1210.4/899.2 = 1.346 (+34.6 %).**
 
 > ⚠ **Indexstand ueberholt — Wissens-Chef Run 35 (17.08.2026).** Die hier gefuehrte Stuetzstelle
 > 01.04.2025 ist nicht mehr die juengste. `wissen/grobkosten/wiki/kennwerte.md` Z. 361-363 hat am

@@ -334,3 +334,35 @@ bestätigte Teil, neu deklariertes Feld), `chf_m3_gv_median` 1100, `chf_je_einhe
 `bkp_scope`. **Welcher Band gilt, ist der offene Entscheid D10 bei Raphael** — hier bewusst nicht
 vorweggenommen, sondern **beides sichtbar gemacht**, statt einen Rand stillschweigend mitwandern
 zu lassen.
+
+## Vertiefungslauf 3, 23.08.2026 (Revendo) — Schul-Teuerungsanker geschlossen; zweimal am selben Tag «nicht beschaffbar» widerlegt
+
+**Selbstkorrektur.** Vertiefungslauf 1 hat den Teuerungsanker des Schul-Sets bewusst offen gelassen
+mit der Begründung, es liege «keine bis 2021 zurückreichende verkettete Reihe» des
+BFS-Baupreisindex vor. **Das war falsch.** Die Reihe liegt als **Publikationstabelle im
+BFS-Datenkatalog** («Schweizerischer Baupreisindex — Entwicklung der Baupreise (Multibasen),
+Indexwerte pro Grossregion und pro Objekttyp», XLSX über opendata.swiss, Datenstand 21.08.2026,
+Blatt «2020», Basis Oktober 2020 = 100, Halbjahresschritte ab 1998, je Grossregion und Objekttyp) —
+nicht in der PX-Web-Schnittstelle, wo zuerst gesucht wurde.
+
+**Anker gesetzt:** Grossregion **Ostschweiz** (das Objekt Kantonsschule Wattwil liegt im Kanton
+St. Gallen), Bauwerksart **«Neubau»**: 01.04.2021 = 101.6 → 01.04.2026 = 118.2, Faktor **1.1634
+(+16.3 %)**. Bandbreite über die plausiblen Nachbar-Bauwerksarten: Hochbau 1.1509 bis Neubau MFH
+1.1668.
+
+**Indexiert:** 4'250 → rund **4'940 CHF/m² GF** auf Stand 01.04.2026 (Band 4'890–4'960). Im Block
+`indexiert` als **gekennzeichnete Ableitung** geführt; der **Rohwert 4'250 bleibt unverändert** auf
+seinem Preisstand 2021. Er bleibt auch, was er war: ein **abgeleiteter Einzelwert aus einem
+Kostenziel**, kein Ist-Kostenwert und kein Band — **die Indexierung macht ihn aktueller, nicht
+belastbarer.**
+
+### Lehre, die über diesen Fall hinausgeht
+
+Zweimal am selben Tag ist ein «nicht beschaffbar» widerlegt worden: hier der Teuerungsanker, und in
+`wissen/grobkosten` die verkettete Reihe je Bauwerksart für den Holzbau-Zuschlag. Beide Male lag
+die Ursache **nicht** in der Datenlage, sondern im gewählten Zugriffsweg (PX-Web-API statt
+Publikationstabelle). **Regel für künftige Läufe:** ein Negativbefund über eine amtliche Reihe gilt
+erst, wenn **opendata.swiss und der Publikationskatalog** der Stelle geprüft sind — eine leere API
+ist kein Beleg für fehlende Daten. Dieselbe Lehre in anderer Form steht in
+`wissen/planungsgrundlagen/wiki/QUESTIONS.md` (eine Seite gilt erst als leer, wenn der Rohquelltext
+geprüft ist).

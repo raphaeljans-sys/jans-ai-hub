@@ -1,5 +1,31 @@
 # CHANGELOG — Entwurfs-Referenzen
 
+## 2026-08-23 (Vertiefungslauf 3 Revendo) — Schul-Teuerungsanker geschlossen (Selbstkorrektur)
+
+- **Selbstkorrektur zu Vertiefungslauf 1:** der Teuerungsanker des Schul-Sets war offen gelassen
+  worden mit der Begründung, es liege «keine bis 2021 zurückreichende verkettete Reihe» des
+  BFS-Baupreisindex vor. **Das war falsch** — die Reihe liegt als Publikationstabelle im
+  BFS-Datenkatalog (XLSX über opendata.swiss, Datenstand 21.08.2026, Basis Oktober 2020 = 100,
+  Halbjahresschritte ab 1998, je Grossregion und Objekttyp), nicht in der PX-Web-Schnittstelle,
+  wo zuerst gesucht wurde.
+- **Anker gesetzt:** Grossregion **Ostschweiz** (Kantonsschule Wattwil liegt im Kanton St. Gallen),
+  Bauwerksart **«Neubau»**: 01.04.2021 = 101.6 → 01.04.2026 = 118.2, Faktor **1.1634 (+16.3 %)**;
+  Bandbreite über die plausiblen Nachbar-Bauwerksarten Hochbau 1.1509 bis Neubau MFH 1.1668.
+- **Indexiert:** 4'250 → rund **4'940 CHF/m² GF** auf 01.04.2026 (Band 4'890–4'960), im Block
+  `indexiert` als **gekennzeichnete Ableitung**. Der **Rohwert 4'250 bleibt unverändert** auf
+  Preisstand 2021, und er bleibt ein **abgeleiteter Einzelwert aus einem Kostenziel** — die
+  Indexierung macht ihn **aktueller, nicht belastbarer**.
+- **Lehre über den Fall hinaus, in `wiki/QUESTIONS.md` festgehalten:** zweimal am selben Tag wurde
+  ein «nicht beschaffbar» widerlegt (hier der Anker, in `wissen/grobkosten` die verkettete Reihe
+  für den Holzbau-Zuschlag), beide Male wegen des **Zugriffswegs**, nicht der Datenlage. Ein
+  Negativbefund über eine amtliche Reihe gilt erst, wenn **opendata.swiss und der
+  Publikationskatalog** der Stelle geprüft sind — eine leere API ist kein Beleg für fehlende Daten.
+- Am Set sind gegenüber HEAD ausschliesslich `preisstand.teuerungsanker` und `preisstand.hinweis`
+  verändert (Hinweis durch Anhängen, Originaltext erhalten) plus der neue Block `indexiert`.
+  `validate.py --all`: OK.
+
+Geänderte Dateien: `wiki/parameter-sets/schule-volksschule-ch.json`, `wiki/QUESTIONS.md`.
+
 ## 2026-08-23 (Vertiefungslauf 2 Revendo) — Healthcare-Flächenblock gefüllt; die Geometrie-Brücke ist doch belegbar
 
 Zweite Runde, angesetzt an der grössten verbliebenen Lücke: der **`flaechen`-Block des

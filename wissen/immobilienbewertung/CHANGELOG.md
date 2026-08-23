@@ -2,6 +2,48 @@
 
 Jede Änderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-23 (Vertiefungslauf 5 — Konsistenz-Check der eigenen Tagesarbeit; ein Widerspruch korrigiert)
+
+Nach drei Durchgaengen durch die vier Wissensbasen ein Abgleich der Zahlen, die heute in mehrere
+KBs geschrieben wurden.
+
+**Sauber:** der verkettete ZIW-Stand **01.04.2026 = 1'221.3** steht jetzt einheitlich in
+`immobilienbewertung` (fuehrend), `grobkosten` (implizit ueber die Faktorentabelle) und
+`entwurfs-referenzen` (Teuerungsanker des Wohnen-Sets); der abgeloeste Weg ueber 1'220.8 ist als
+Gegenprobe dokumentiert. Der Stuetzpunktstreit **1.346 gegen 1.334** ist in beiden KBs unveraendert
+und gleichlautend gefuehrt.
+
+**Zwei Korrekturen:**
+
+1. **Stehengebliebene Erwartung in [[realwert-sachwert]].** Die D11-Zeile fuehrte «juengste
+   publizierte Halbjahresreihe; naechste Publikation ~04/06.2026» — das las sich wie eine offene
+   Erwartung, obwohl die Publikation am **08.07.2026** erfolgt ist. Praezisiert: 1210.4 ist der
+   juengste Wert **dieser Reproduktion** (die HEV-Reihe endet dort weiterhin), die Erwartung ist
+   eingetroffen, Verweis auf den Fassungsvermerk. Kein Wert geaendert.
+
+2. **Widerspruch im eigenen Artikel [[investorenmarkt-makro]].** Der Eintrag vom 20.08.2026 nannte
+   als naechsten BFS-Publikationstermin **«Okt-2026»**, der vom 13.08.2026 dagegen
+   **«Dez-2026, Oktober-Erhebung»** — dieselbe Reihe, zwei Termine. **Richtig ist Dez-2026**,
+   primaerverifiziert an der BFS-Indexseite: «Der Baupreisindex wird **halbjaehrlich berechnet
+   (April und Oktober)** und die Ergebnisse im **Juni und Dezember** publiziert.» Die Fehlangabe
+   verwechselte den **Erhebungs**monat mit dem **Publikations**monat — eine Verwechslung, die einen
+   Marktpuls zwei Monate zu frueh ansetzt und den Wert dann faelschlich als «noch nicht publiziert»
+   verbucht. Die falsche Angabe ist **durchgestrichen stehen gelassen** statt geloescht, damit die
+   Korrektur nachvollziehbar bleibt. Ohne Wirkung auf Werte — der Indexstand 100.6 (+1.0 % YoY) ist
+   in beiden Eintraegen identisch und heute an der Primaerquelle bestaetigt.
+
+**Nebenbefund, der einen ⚠-Vermerk entschaerft:** [[investorenmarkt-makro]] fuehrt bereits den
+**massgebenden Durchschnittszinssatz 1.31 % per 31.03.2026**. Der in [[ertragswert-dcf]] mit ⚠
+geflaggte **Basiszinssatz** (5-Jahres-Durchschnitt der variablen ersten Hypotheken) ist damit
+naeherungsweise abgedeckt — der Vermerk «bei Anwendung aktuellen Stand pruefen» bleibt richtig,
+aber der Stand ist **in dieser KB vorhanden und nicht erst zu beschaffen**. Der in Vertiefungslauf
+2 gemeldete Fehlschlag beim SNB-Datenwuerfel ist damit weniger gravierend als dort dargestellt;
+ein zweiter Versuch ueber opendata.swiss (nach der an anderer Stelle gelernten Regel) blieb
+ebenfalls ohne Treffer — die SNB-Zinsreihen liegen dort nicht.
+
+Geaenderte Dateien: `wiki/realwert-sachwert.md` (eine Zeile praezisiert),
+`wiki/investorenmarkt-makro.md` (Korrektur + `last_updated`).
+
 ## 2026-08-23 (Vertiefungslauf 4 — D1 beziffert: «veraltet» heisst nicht «zu tief»)
 
 Dritte Runde. D1 fuehrte vier UBS-Fact-Sheets seit Monaten mit einem ⚠ «veraltet», **ohne zu sagen,
