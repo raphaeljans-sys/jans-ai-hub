@@ -503,6 +503,16 @@ Motivation fortgesetzt werden, oder gilt der jetzige Stand als Abschlusspunkt di
 **Punkt 3 (33045.d) nicht bearbeitet** — kein neuer Fortschritt in diesem Lauf, bleibt offen für
 eine künftige Runde.
 
+> ✅ **Punkt 3 GESCHLOSSEN, nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung).** Zwischenzeitlich
+> durch SIA-Sweep, 38. Fortsetzung, geklärt (Beleg oben in dieser Datei, Abschnitt
+> «2026-08-24 — SIA-Sweep, 38. Fortsetzung», Z. 130-135): **33045.d existiert nicht**
+> (`www.suva.ch/waswo/33045.d` → HTTP 404, ebenso Nachbarnummer 33046.d; die Nachbarnummern
+> 33042.d-33044.d/33047.d sind Asbest-Fensterkitt-Factsheets, kein Vorgänger der
+> Ortsfeste-Leitern-Reihe). Reiner Konsolidierungs-Nachtrag, keine eigene Recherche in diesem
+> Lauf — der offene Punkt hier war durch einen späteren, unabhängigen Lauf bereits erledigt,
+> aber nie zurückverlinkt worden. Report der Erstklärung:
+> `outputs/2026-08-24_sia-sweep-achtunddreissigste-fortsetzung.md`.
+
 Nachgeführt: `wiki/REGISTER.md` Abschnitt D (zwei neue Registerzeilen + Status «erschlossen»),
 `destillate/INDEX.md` (zwei neue Zeilen), `training/norm-inventar.md` (eine neue additive
 `[x]`-Log-Zeile). Report: `outputs/2026-08-24_questions-abarbeitung-ekas-richtlinien.md`.
