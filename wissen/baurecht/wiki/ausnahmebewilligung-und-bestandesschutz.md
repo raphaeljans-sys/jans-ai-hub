@@ -353,6 +353,16 @@ Beleg `raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`. Kein Ingest o
   trägt seither den Titel «Altrechtliche Bauten und Anlagen» (zuvor «Bestehende, zonenwidrige
   Bauten und Anlagen ausserhalb der Bauzonen») — bei einem SZ-/ZH-Fall mit Bestandesbauten
   ausserhalb der Bauzone die Fassung ab 1.1.2026 zugrunde legen.
+  **Änderungsumfang geklärt (Buch-Run 140, 2026-08-24):** der in Buch-Run 103 offen gelassene
+  Punkt ist geschlossen. Die Vorfassung ist über die Route `fedlex.data.admin.ch` mit dem
+  Snapshot-Datum **20190101** als echtes PDF abrufbar (die `www`-Route liefert für dieses
+  Datum nur die App-Hülle). Der Abgleich Wort für Wort zeigt: **Abs. 1 bis 5 sind zwischen
+  der Fassung 1.1.2019 und der Fassung 1.1.2026 unverändert**; die Revision vom 29.9.2023
+  (AS 2025 640) hat **nur die Sachüberschrift** ausgewechselt. Praktische Folge: für die
+  materielle Beurteilung ändert sich nichts, nur die Zitierweise des Artikeltitels.
+  **Die Voraussetzungen des Wiederaufbaus stehen nicht in Abs. 2, sondern in Art. 42 Abs. 4
+  RPV** (bestimmungsgemässe Nutzbarkeit im Zeitpunkt der Zerstörung oder des Abbruchs **und**
+  ununterbrochenes Nutzungsinteresse; `raw/260824_amtlich_ch_rpv-art41-43a.md`).
 - **Gewässerraum:** Art. 41c Abs. 1/2 GSchV — Abs. 2 trägt eine eigene, § 357 PBG analoge
   Bestandesschutz-Klausel («in ihrem Bestand grundsätzlich geschützt, sofern rechtmässig
   erstellt und bestimmungsgemäss nutzbar»), volltextverifiziert Buch-Run 103.

@@ -2581,3 +2581,41 @@ verifizierte `emerging`-Artikel ([[enteignung-und-entschaedigung]],
   zitiert werden, aber als Praxis, nicht als Rechtssatz. **Lehre:** Beim Zitieren aus einem Merkblatt
   immer trennen, was Gesetzeswortlaut, was Auslegung und was blosse Verwaltungspraxis ist — dieselbe
   Dreiteilung wie bei der Wegleitungs-Falle aus Run 73. _[2026-08-17]_
+
+- **F (Modell A / Schwellenwerte, Fall Bestandsbaute ausserhalb der Bauzone):** Eine Bauherrschaft
+  will ein zonenwidrig gewordenes Wohnhaus ausserhalb der Bauzone erweitern. Sie verlangt eine
+  Auskunft zum Spielraum. In der KB stand jahrelang: «Art. 42 Abs. 3 RPV — max. 30 % Erweiterung
+  bezogen auf die anrechenbare Bruttogeschossfläche bzw. max. 100 m² absolut; Erweiterungen
+  ausserhalb des bestehenden Gebäudevolumens nur zur Hälfte angerechnet.» Wie viel davon trägt? —
+  **A: Die Zahlen sind da, aber falsch verknüpft — der Satz beschreibt genau die Hälfte des
+  Spielraums.** Art. 42 Abs. 3 RPV kennt **zwei getrennte Schwellen**. **lit. a — innerhalb** des
+  bestehenden Gebäudevolumens: die aBGF darf um **nicht mehr als 60 %** erweitert werden (seit
+  1.1.2026 überschreitbar bis 100 m² aBGF bei altrechtlicher Erstwohnung, sofern voll erschlossen
+  und Erstwohnungsnutzung gesichert). **lit. b — ausserhalb** des Gebäudevolumens, und nur unter
+  den Voraussetzungen von Art. 24c Abs. 4 RPG: die gesamte Erweiterung darf **weder 30 % noch
+  100 m²** überschreiten, gemessen an aBGF **und** Gesamtfläche — und dabei werden **die
+  Erweiterungen INNERHALB des bestehenden Gebäudevolumens nur halb angerechnet**, nicht die
+  äusseren. Wer den alten Satz einer Bauherrschaft gibt, halbiert ihr den Innenausbau-Spielraum
+  (60 % statt 30 %) und rechnet zugleich den Anbau zu günstig. **Kein Fassungsstandsfehler:** die
+  Vergleichsfassung Stand 1.3.2020 trägt lit. b wortgleich und lit. a ebenfalls mit 60 %. **Lehre:**
+  Wenn ein Destillat zwei Zahlen einer Norm zu einem Satz verschmilzt, ist zuerst zu prüfen, ob die
+  Norm sie überhaupt auf denselben Bezugsraum bezieht. `raw/260824_amtlich_ch_rpv-art41-43a.md`,
+  RPV Stand 1.1.2026 (Fedlex ELI cc/2000/310). _[2026-08-24]_
+
+- **F (Modell D / Normebene, Fall Brandstattrecht ausserhalb der Bauzone):** Ein Destillat behauptet:
+  «Ausserhalb der Bauzonen gilt Art. 24c Abs. 2 RPG, der den Wiederaufbau auch bei freiwilligem
+  Abbruch zulässt.» Die Volltextprüfung am RPG ergibt: das Wort «Abbruch» kommt im ganzen Gesetz nur
+  in Art. 5a (Abbruchprämie) vor. Ist die Aussage damit widerlegt? — **A: Nein — sie ist auf der
+  falschen Normebene gesucht worden.** Die Wiederaufbau-Voraussetzungen stehen in **Art. 42 Abs. 4
+  RPV**, und dort steht «Zerstörung **oder des Abbruchs**» ausdrücklich. Der Wortlaut: Eine Baute
+  darf **nur** wieder aufgebaut werden, wenn sie im Zeitpunkt der Zerstörung oder des Abbruchs
+  **noch bestimmungsgemäss nutzbar war UND an ihrer Nutzung ein ununterbrochenes Interesse
+  besteht** — zwei kumulative Voraussetzungen. **Inhaltlich trifft die alte Formel trotzdem
+  nicht:** Art. 42 Abs. 4 RPV unterscheidet freiwilligen und unfreiwilligen Abbruch gar nicht,
+  sondern stellt für beide dieselben zwei Voraussetzungen auf. Die Freiwilligkeits-Unterscheidung
+  ist Buchsynthese/Rechtsprechung und muss als solche gekennzeichnet werden. **Lehre:** Ein am
+  Gesetz nicht auffindbarer Rechtssatz ist zuerst **eine Ebene tiefer** zu suchen (Verordnung,
+  kantonale Ausführungsvorschrift), bevor er als unbelegt oder als Fehler eingestuft wird — ein
+  Delegationsgesetz wie das RPG verlagert Schwellenwerte und Voraussetzungen systematisch in die
+  Verordnung. Vgl. Buch-Run 137 (Befund «nicht verifizierbar») und Buch-Run 140 (Auflösung).
+  _[2026-08-24]_

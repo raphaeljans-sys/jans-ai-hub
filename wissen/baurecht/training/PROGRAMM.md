@@ -1231,7 +1231,7 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   Fernwaerme, §4 ABV, §§239a/239b BehiG, Schutzraeume) · **Kap. 19** (S. 1357-1403, USG/LRV/LSV, Laerm
   ES I-IV, Art.31/32 LSV, SIA 181) · **Kap. 20 Rest** (S. 1450-1455, §357 Abs.4 Verbesserungen) · **Kap. 15
   §274** (S. 1112-1123, Grenzbaurecht + §27 Abs.2 ABV) · **Kap. 21** (S. 1459-1503, Art.16/16a/24/24a-e RPG,
-  Art.42 RPV 30%/100m², Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
+  Art.42 RPV innen +60 %/aussen 30 % bzw. 100 m² mit halber Anrechnung der INNEREN Erweiterung — korrigiert Run 140, Stichtag 1.7.1972) · **Kap. 22** (S. 1517-1534, Nachbarrecht ZGB Art.679/684/685 ff.
   + §§169-178 EG ZGB Pflanzenabstaende) · **Kap. 23** (S. 1537-1549, Glossar mit §-Belegen). Alle
   `emerging`. Damit **Band 2 weitgehend komplett**; Tail = Band 1 Kap. 1-5/10 + Kap. 12-Rest §236.
 - **Letzter Lauf:** Run 21, 2026-07-04 (regulaer, 1 Kapitel, 13 Doppelseiten) — **Kap. 5 Planung und
@@ -1834,6 +1834,27 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   regulaerer `wissenscheck`-Health-Check-Turnus, eine weitere Modell-D-Re-Verifikationsrunde, oder
   gezielt das «Gebuehrenreglement Bauwesen Thalwil» direkt bei der Gemeinde abklaeren
   (hochbau@thalwil.ch).
+
+- **Run 140 (2026-08-24):** Die von Run 137 offen gelassene Diskrepanz «Art. 24c Abs. 2 RPG laesst
+  den Wiederaufbau auch bei freiwilligem Abbruch zu» **aufgeloest** — die Regel steht eine
+  **Normebene tiefer**, in **Art. 42 Abs. 4 RPV** («Zerstoerung **oder des Abbruchs**» woertlich).
+  Neuer amtlicher Volltext `raw/260824_amtlich_ch_rpv-art41-43a.md` (RPV SR 700.1, Art. 41-43a,
+  Fedlex ELI **cc/2000/310**, Stand 1.1.2026, plus Vergleichsfassung 1.3.2020). **Zwei echte
+  Schwellenwert-Korrekturen als Nebenbefund, beide dieselbe Verwechslung:** die Halb-Anrechnung
+  gilt fuer die Erweiterung **innerhalb**, nicht ausserhalb des bestehenden Gebaeudevolumens
+  (Art. 42 Abs. 3 lit. b UND Art. 43 Abs. 2 RPV) — dazu fehlte die **60-%-Innenschwelle** des
+  Art. 42 Abs. 3 lit. a ganz. Kein Fassungsstands-, sondern ein Destillationsfehler (die Fassung
+  1.3.2020 ist wortgleich). Vier echte Fassungsstands-Nachtraege aus der RPV-Revision per 1.1.2026
+  (Art. 42 Abs. 3 lit. a, Abs. 4, **Abs. 5 neu**, **Art. 43a Abs. 2 neu**). **Zusatz:** der in
+  Run 103 offen gelassene RPG-Aenderungsumfang ist geklaert (nur die Sachueberschrift, Abs. 1-5
+  wortgleich) — Vorfassung Stand 1.1.2019 ueber `fedlex.data.admin.ch` beschafft.
+  **Werkzeug-Ruecklauf** in `docs/referenz/fedlex-volltexte.md`: ELI nicht aus der AS-Fundstelle
+  ableitbar, Snapshots liegen auf Inkrafttretensdaten. Report `outputs/2026-08-24_buch-run140.md`.
+  **Naechster Schritt:** Kap.-22-Restabschnitte (22.1/22.2/22.5-22.7/22.9.2-22.9.3) und Kap. 23
+  ueber den in Run 139 dokumentierten M365-Graph-Screenshot-Weg; dazu die noch ungepruefte
+  RPV-Schwellengruppe 35 %/5000 m², 20 cm, 70 % Trockensubstanz (Art. 36/37/37a RPV).
+  *(Tracker-Hinweis: die Eintraege fuer Run 116-139 fehlen hier; ihre Belege stehen im CHANGELOG
+  und in `outputs/`. Nicht rekonstruiert, nur vermerkt — gleiche Luecken-Familie wie bei Run 41.)*
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 

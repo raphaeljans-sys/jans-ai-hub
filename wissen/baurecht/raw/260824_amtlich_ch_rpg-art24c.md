@@ -50,3 +50,41 @@ Kap. 21) stammt, handelt es sich allenfalls um Buchsynthese/Rechtsprechungskomme
 um Gesetzestext, und ist als solche zu kennzeichnen. Ohne Zugriff auf die Buch-Screenshots
 an dieser Station (SharePoint-Bibliothek `PL - 02_Recht_Norm` nicht gemountet) nicht
 abschliessend aufloesbar.
+
+---
+
+## Nachtrag 2026-08-24 (Buch-Run 140) — Vorfassung Stand 1.1.2019 beschafft, Aenderungsumfang der Revision per 1.1.2026 geklaert
+
+Buch-Run 103 hatte offen gelassen, was die Revision vom 29.9.2023 (AS 2025 640, in Kraft seit
+1.1.2026) materiell geaendert hat, weil ueber die `www`-Route keine Vorfassung mehr abrufbar war.
+
+**Weg:** Route `fedlex.data.admin.ch` (ohne `www`), Format `de/pdf-a`, Snapshot-Datum **20190101** —
+`https://fedlex.data.admin.ch/filestore/fedlex.data.admin.ch/eli/cc/1979/1573_1573_1573/20190101/de/pdf-a/fedlex-data-admin-ch-eli-cc-1979-1573_1573_1573-20190101-de-pdf-a.pdf`
+(159'185 Byte, echtes PDF). Die RPG-Snapshots liegen auf **Aenderungsdaten**, nicht auf jedem
+1. Januar; getestet und erfolglos: 20250101, 20240701, 20240101, 20230901, 20230101, 20220701,
+20220101, 20210101, 20200101. Belegte funktionierende Daten: 20121101, 20140501, 20190101, 20260401.
+
+**Wortlaut Stand 1.1.2019** (Titel damals: «Bestehende zonenwidrige Bauten und Anlagen ausserhalb
+der Bauzonen»):
+
+1. Bestimmungsgemäss nutzbare Bauten und Anlagen ausserhalb der Bauzonen, die nicht mehr
+   zonenkonform sind, werden in ihrem Bestand grundsätzlich geschützt.
+2. Solche Bauten und Anlagen können mit Bewilligung der zuständigen Behörde erneuert, teilweise
+   geändert, massvoll erweitert oder wiederaufgebaut werden, sofern sie rechtmässig erstellt oder
+   geändert worden sind.
+3. Dies gilt auch für landwirtschaftliche Wohnbauten sowie angebaute Ökonomiebauten, die
+   rechtmässig erstellt oder geändert worden sind, bevor das betreffende Grundstück Bestandteil
+   des Nichtbaugebietes im Sinne des Bundesrechts wurde. Der Bundesrat erlässt Vorschriften, um
+   negative Auswirkungen auf die Landwirtschaft zu vermeiden.
+4. Veränderungen am äusseren Erscheinungsbild müssen für eine zeitgemässe Wohnnutzung oder eine
+   energetische Sanierung nötig oder darauf ausgerichtet sein, die Einpassung in die Landschaft
+   zu verbessern.
+5. In jedem Fall bleibt die Vereinbarkeit mit den wichtigen Anliegen der Raumplanung vorbehalten.
+
+**Ergebnis des Abgleichs: Abs. 1 bis 5 sind wortgleich mit der Fassung Stand 1.7.2026.** Die
+Revision per 1.1.2026 hat ausschliesslich die **Sachueberschrift** ersetzt. Materiell aendert sich
+fuer die Bestandesbeurteilung nichts.
+
+**Ergaenzung zum Befund oben:** Die gesuchte Wiederaufbau-Regel steht in **Art. 42 Abs. 4 RPV**
+(`raw/260824_amtlich_ch_rpv-art41-43a.md`). Der Befund «am Gesetzeswortlaut nicht auffindbar» war
+richtig gemessen, aber auf der falschen Normebene gesucht.

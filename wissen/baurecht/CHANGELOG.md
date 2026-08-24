@@ -3,6 +3,72 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 140: die Wiederaufbau-Regel steht in Art. 42 Abs. 4 RPV, nicht im RPG — dazu zwei vertauschte Schwellenwerte im Bestandesrecht ausserhalb der Bauzone
+
+Buch-Run 137 hatte die Aussage «Art. 24c Abs. 2 RPG lässt den Wiederaufbau auch bei freiwilligem
+Abbruch zu» am RPG-Volltext geprüft, korrekt als **am Gesetzeswortlaut nicht auffindbar** befunden
+und als offene Diskrepanz markiert — auflösbar angeblich erst mit Buch-Screenshot-Zugriff. **Die
+Auflösung brauchte keinen Screenshot, sondern eine Normebene tiefer:** die
+Wiederaufbau-Voraussetzungen stehen in **Art. 42 Abs. 4 RPV**, wo «Zerstörung **oder des
+Abbruchs**» ausdrücklich im Wortlaut steht. Neuer amtlicher Volltext
+`raw/260824_amtlich_ch_rpv-art41-43a.md` (RPV SR 700.1, Art. 41-43a, Fedlex ELI **cc/2000/310**,
+Stand 1.1.2026, plus Vergleichsfassung Stand 1.3.2020).
+
+**Inhaltlich trifft die alte Formel ebenfalls nicht:** Art. 42 Abs. 4 RPV unterscheidet
+freiwilligen und unfreiwilligen Abbruch gar nicht, sondern knüpft den Wiederaufbau an **zwei
+kumulative** Voraussetzungen — bestimmungsgemässe Nutzbarkeit im Zeitpunkt der Zerstörung oder des
+Abbruchs **und** ununterbrochenes Interesse an der Nutzung. Beide KB-Formeln («lässt auch bei
+freiwilligem Abbruch zu» in Kap. 20, «freiwillig abgebrochene Gebäude nur ausnahmsweise» in
+Kap. 21) sind Buchsynthesen und sind jetzt als solche gekennzeichnet.
+
+**Zwei echte Schwellenwert-Korrekturen als Nebenbefund des Volltexts, beide praxisrelevant:**
+
+1. **Art. 42 Abs. 3 RPV** (Bestandesbauten ausserhalb der Bauzone) — das Destillat führte «max.
+   30 % bezogen auf die aBGF bzw. max. 100 m² absolut; Erweiterungen **ausserhalb** des
+   bestehenden Gebäudevolumens nur zur Hälfte angerechnet». Der Wortlaut kennt **zwei getrennte
+   Schwellen**: **lit. a innerhalb** des Volumens **+60 %** der aBGF; **lit. b ausserhalb** des
+   Volumens weder **30 %** noch **100 m²** — und dabei werden **die Erweiterungen INNERHALB des
+   Volumens nur halb angerechnet**. Die Anrechnungsrichtung war umgekehrt und die
+   60-%-Innenschwelle fehlte ganz. Wer den alten Satz einer Bauherrschaft gibt, halbiert ihr den
+   Innenausbau-Spielraum und rechnet den Anbau zu günstig.
+2. **Art. 43 Abs. 2 RPV** (altrechtliche Gewerbebauten, Art. 37a RPG) — **dieselbe Verwechslung
+   ein zweites Mal**: «ausserhalb des Gebäudekubus nur zur Hälfte angerechnet» statt korrekt
+   «Erweiterungen **innerhalb** des bestehenden Gebäudevolumens werden nur zur Hälfte
+   angerechnet». Dazu präzisiert: die 100 m² in Abs. 3 beziehen sich ausdrücklich auf die
+   Erweiterung **ausserhalb** des Gebäudevolumens.
+
+**Kein Fassungsstandsfehler, sondern ein Destillationsfehler:** die Vergleichsfassung Stand
+1.3.2020 (also zur Zeit der Buchausgabe 6. Aufl. 2019) trägt Art. 42 Abs. 3 lit. b wortgleich und
+lit. a ebenfalls mit 60 %; Art. 43 Abs. 2 ist seit 1.11.2012 unverändert.
+
+**Echte Fassungsstands-Nachträge (RPV-Revision per 1.1.2026, V vom 15.10.2025, AS 2025 659):**
+Art. 42 Abs. 3 lit. a neu mit Überschreitungsmöglichkeit bis 100 m² aBGF bei altrechtlicher
+Erstwohnung; Art. 42 Abs. 4 neu gefasst (Standort-Abweichung bei «objektiven Gründen», Bezug auf
+Abs. 3 lit. b); **Art. 42 Abs. 5 neu** (Solaranlagen nach Art. 18a Abs. 1 RPG bei der Beurteilung
+nach Art. 24c RPG unbeachtlich, Aussenisolation/Dachanhebung auch über die Grenzen hinaus
+bewilligungsfähig); **Art. 43a Abs. 2 neu** (energetische Sanierungen mit überwiegendem
+öffentlichem Interesse im Einzelfall bewilligungsfähig).
+
+**Zusatzbefund — offener Punkt aus Buch-Run 103 (23.08.2026) geschlossen.** Dort blieb offen, was
+die RPG-Revision per 1.1.2026 an Art. 24c materiell geändert hat, weil keine Vorfassung abrufbar
+war. Die Vorfassung Stand **1.1.2019** ist über die Route `fedlex.data.admin.ch` als echtes PDF
+verfügbar; der Abgleich Wort für Wort zeigt: **Abs. 1 bis 5 sind unverändert, die Revision hat nur
+die Sachüberschrift ausgewechselt**. Nachgetragen in `raw/260824_amtlich_ch_rpg-art24c.md` und in
+[[ausnahmebewilligung-und-bestandesschutz]].
+
+**Werkzeug-Rücklauf (`docs/referenz/fedlex-volltexte.md`, Nachtrag Buch-Run 140):** zwei Fallen,
+die den Zugriff scheitern lassen, obwohl der Erlass online steht — (1) **die ELI ist nicht aus der
+AS-Fundstelle ableitbar** (RPG `1979/1573_1573_1573` = AS 1979 1573, aber RPV = **`2000/310`**,
+nicht AS 2000 2047; falsche ELI liefert HTTP 200 mit App-Hülle, also keinen erkennbaren Fehler);
+(2) **Snapshot-Daten liegen auf Inkrafttretensdaten, nicht auf jedem 1. Januar** (RPG belegt:
+20121101, 20140501, 20190101, 20260401; RPV: 20200301, 20260101). Dazu die `-1`-Suffix-Variante.
+
+**Register-Sweep** (`buecher/INDEX.md` 2×, `training/curriculum.md` 2×, `training/PROGRAMM.md`,
+die drei Destillate, `wiki/ausnahmebewilligung-und-bestandesschutz.md`, `wiki/QUESTIONS.md`,
+`raw/_INGESTED.md`) durchgeführt; Gegenprobe auf die alten Formulierungen ist leer. Zwei neue
+Drill-Karten (Schwellenwert-Verschmelzung, Normebene). Report
+`outputs/2026-08-24_buch-run140.md`.
+
 ## 2026-08-24 — Wissens-Chef Run 42: SN-Nummer der SIA-Empfehlung 431 berichtigt (SN 409 431 → SN 509 431)
 
 `wiki/bauausfuehrung-und-baukontrolle.md` Z. 161 fuehrte «Baustellen-**abwasser** SIA 431

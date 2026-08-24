@@ -58,3 +58,14 @@ jeder Eintrag von mindestens einem Wiki-Artikel zitiert wird.
 zwingend in Wiki-Artikel absorbiert. Der Health-Check (Audit D) soll sie NICHT als Coverage-Lücke
 werten — Referenzkorpus, kein Roh-Dump zum Verdichten. Aktualisieren: Connector neu laufen lassen
 (zieht stets die geltende Fassung). Register/Details: [[QUELLEN]].
+
+## Nachtrag 2026-08-24 (Buch-Run 140)
+
+- `260824_amtlich_ch_rpv-art41-43a.md` — **Primärquelle-Volltext** (Auszug RPV SR 700.1,
+  Art. 41-43a, Stand 1.1.2026 + Vergleichsfassung 1.3.2020). Eingearbeitet in
+  [[21-bauen-ausserhalb-bauzonen]], [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]],
+  [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]] und
+  [[wiki/ausnahmebewilligung-und-bestandesschutz]]. Status: **eingearbeitet**.
+- `260824_amtlich_ch_rpg-art24c.md` — um den Nachtrag «Vorfassung Stand 1.1.2019» erweitert
+  (Änderungsumfang der Revision per 1.1.2026 geklärt: nur die Sachüberschrift). Eingearbeitet in
+  [[wiki/ausnahmebewilligung-und-bestandesschutz]]. Status: **eingearbeitet**.

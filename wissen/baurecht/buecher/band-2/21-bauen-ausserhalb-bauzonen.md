@@ -7,7 +7,12 @@ shots: 733-755 (Shot 732 = Kap.-20-Ende S. 1456/1457)
 paragraphen: "RPG Art. 16, 16a, 16abis, 16b, 18, 22, 24, 24a, 24b, 24c, 24d, 24e, 25, 25a, 34 ff., 36 ff., 37a, 39, 39 Abs. 1-3, 43, 43a, 44, 45; RPV Art. 4a, 16b, 34, 34a, 34b, 36, 37, 37a; BV Art. 9, 26, 75; ZGB; BGBB Art. 5, 7, 58-60; PBG ZH §341, §357"
 status: emerging
 gelesen: 2026-06-29
-last_updated: 2026-06-29
+last_updated: 2026-08-24
+verifiziert:
+  - datum: 2026-08-24
+    methode: "Modell-D-Wortlautabgleich (Buch-Run 140) gegen den amtlichen RPV-Volltext, Fedlex-Filestore ELI cc/2000/310, Stand 1.1.2026, plus Vergleichsfassung Stand 1.3.2020 (raw/260824_amtlich_ch_rpv-art41-43a.md)"
+    umfang: "Art. 41, 42, 43, 43a RPV — die Bestandesgarantie-Schwellen und die Wiederaufbau-Regel; das uebrige Kapitel unveraendert auf dem Stand 2026-06-29"
+    ergebnis: "2 echte Korrekturen (Art. 42 Abs. 3: 60-%-Innenschwelle fehlte, Halb-Anrechnung war von innen nach aussen vertauscht) und 1 Fundstellen-Richtigstellung (Wiederaufbau: Art. 42 Abs. 4 RPV statt Art. 24c Abs. 2 RPG; die Formel 'freiwilliger Abbruch nur ausnahmsweise' steht nicht im Wortlaut). Kein Fassungsstandsfehler: beide Schwellen galten bereits 2020."
 ---
 
 # Kap. 21 — Bauen ausserhalb der Bauzonen
@@ -182,16 +187,38 @@ Uebersicht der Ausnahmetatbestaende des RPG (Grafik S. 1483):
   - **Erneuerung:** zeitgemaesse Instandstellung, ohnehin zulaessig (S. 1499).
   - **Teilweise Aenderung / massvolle Erweiterung (Art. 42 Abs. 3 RPV):** Identitaet der
     Baute in den **wesentlichen Zuegen** muss gewahrt bleiben; Verbesserung der
-    Wohnverhaeltnisse zulaessig. **Schwellenwert: max. 30 % Erweiterung** bezogen auf die
-    anrechenbare Bruttogeschossflaeche bzw. **max. 100 m²** absolut; Erweiterungen
-    ausserhalb des bestehenden Gebaeudevolumens nur zur **Haelfte** angerechnet
-    (Art. 42 Abs. 3 lit. a/b RPV) (S. 1499/1500).
+    Wohnverhaeltnisse zulaessig. **KORRIGIERT 2026-08-24 (Buch-Run 140)** gegen den amtlichen
+    Wortlaut (`raw/260824_amtlich_ch_rpv-art41-43a.md`, RPV Stand 1.1.2026, Fedlex ELI cc/2000/310
+    — die frueher hier gefuehrte Fassung «max. 30 % bezogen auf die aBGF bzw. max. 100 m² absolut;
+    Erweiterungen ausserhalb des bestehenden Gebaeudevolumens nur zur Haelfte angerechnet» war in
+    zwei Punkten falsch): Art. 42 Abs. 3 RPV kennt **zwei getrennte Schwellen**.
+    **lit. a — innerhalb** des bestehenden Gebaeudevolumens: die anrechenbare
+    Bruttogeschossflaeche darf um **nicht mehr als 60 %** erweitert werden (seit 1.1.2026 mit
+    Ueberschreitungsmoeglichkeit bis 100 m² aBGF bei altrechtlicher Erstwohnung, sofern voll
+    erschlossen und Erstwohnungsnutzung gesichert).
+    **lit. b — ausserhalb** des bestehenden Gebaeudevolumens (nur unter den Voraussetzungen von
+    Art. 24c Abs. 4 RPG): die gesamte Erweiterung darf **weder 30 % noch 100 m²** ueberschreiten,
+    gemessen sowohl an der aBGF als auch an der Gesamtflaeche (aBGF + Brutto-Nebenflaeche); dabei
+    werden **die Erweiterungen INNERHALB des bestehenden Gebaeudevolumens nur halb angerechnet**
+    — nicht, wie bisher hier vermerkt, die aeusseren. **Kein Fassungsstandsfehler:** die
+    Vergleichsfassung Stand 1.3.2020 (also zur Zeit der Buchausgabe) traegt lit. b wortgleich und
+    lit. a ebenfalls mit 60 %. (S. 1499/1500)
   - **Identitaet:** anhand Gesamtbetrachtung (Aussehen, Zweckbestimmung, Auswirkungen
     auf Nutzungsordnung/Erschliessung/Umwelt) (BGer 1C_128/2018) (S. 1500).
-- **Wiederaufbau (Art. 24c Abs. 2 RPG / Art. 42 RPV):** zulaessig, sofern weitgehend
-  gleiche Nutzung, Standort/Aussehen im Wesentlichen, freiwillig abgebrochene Gebaeude
-  nur ausnahmsweise (Art. 42 Abs. 4 RPV); **kein Kubaturtransfer** auf anderes Grundstueck
-  (ZBl 2005 S. 490) (S. 1503).
+- **Wiederaufbau — massgebend ist Art. 42 Abs. 4 RPV, nicht Art. 24c Abs. 2 RPG**
+  (**PRAEZISIERT 2026-08-24, Buch-Run 140**, gegen `raw/260824_amtlich_ch_rpv-art41-43a.md`):
+  Eine Baute darf **nur** wieder aufgebaut werden, wenn sie **im Zeitpunkt der Zerstoerung oder
+  des Abbruchs noch bestimmungsgemaess nutzbar war UND an ihrer Nutzung ein ununterbrochenes
+  Interesse besteht** (zwei kumulative Voraussetzungen). Das Gebaeudevolumen darf nur so weit
+  wieder aufgebaut werden, dass es die nach Abs. 3 lit. b zulaessige Flaeche umfassen kann; der
+  Standort darf **geringfuegig** abweichen, wenn es dafuer **objektive Gruende** gibt (Fassung
+  seit 1.1.2026; bis 31.12.2025 lautete der Standort-Vorbehalt «sofern dies objektiv geboten
+  erscheint» und Abs. 3 lit. a war ausdruecklich nicht anwendbar).
+  **Die Formulierung «freiwillig abgebrochene Gebaeude nur ausnahmsweise» steht so NICHT im
+  Verordnungstext** — Art. 42 Abs. 4 RPV unterscheidet gar nicht zwischen freiwilligem und
+  unfreiwilligem Abbruch, sondern stellt fuer beide dieselben zwei Voraussetzungen auf. Wo die
+  Aussage weiterverwendet wird, ist sie als **Buchsynthese/Rechtsprechung** zu kennzeichnen, nicht
+  als Wortlaut. **Kein Kubaturtransfer** auf ein anderes Grundstueck (ZBl 2005 S. 490) (S. 1503).
 - **Umnutzung Hotelbetrieb → private Ferienwohnung:** Identitaet/Bestandesgarantie verneint
   (BGer 1A.78/2004) (S. 1502/1503).
 
@@ -203,10 +230,13 @@ folgt nach S. 1503)
 - **Bestandesgarantie Art. 24c RPG — Stichtag:** rechtmaessig erstellt **vor dem 1. Juli
   1972** (Inkrafttreten GSchG / Trennung Bau-/Nichtbaugebiet), seither zonenwidrig
   (Art. 41 Abs. 1 RPV) (S. 1497).
-- **Massvolle Erweiterung (Art. 42 Abs. 3 RPV):** zonengemaess genutzte Flaeche darf
-  insgesamt um **max. 30 %** erweitert werden; **bzw. max. 100 m²** absolut; Erweiterungen
-  **ausserhalb** des bestehenden Gebaeudevolumens nur zur **Haelfte** angerechnet
-  (S. 1499/1500).
+- **Massvolle Erweiterung (Art. 42 Abs. 3 RPV) — amtlicher Wortlaut, korrigiert 2026-08-24
+  (Buch-Run 140):** **innerhalb** des bestehenden Gebaeudevolumens hoechstens **+60 %** der
+  anrechenbaren Bruttogeschossflaeche (lit. a); **ausserhalb** des bestehenden Gebaeudevolumens
+  weder **30 %** noch **100 m²** (lit. b), wobei die **inneren** Erweiterungen **nur halb
+  angerechnet** werden. Die frueher hier gefuehrte Fassung («max. 30 % insgesamt; aeussere
+  Erweiterungen nur zur Haelfte») kehrte die Anrechnungsrichtung um und liess die
+  60-%-Innenschwelle weg (S. 1499/1500; Beleg `raw/260824_amtlich_ch_rpv-art41-43a.md`).
 - **Identitaetswahrung:** Aenderung in den **wesentlichen Zuegen** der Baute (S. 1499/1500).
 - **Innere Aufstockung — Trockensubstanzkriterium (Art. 36 RPV):** Deckungsbeitrag der
   bodenunabhaengigen Produktion **kleiner** als der der bodenabhaengigen; bzw.
@@ -269,7 +299,12 @@ folgt nach S. 1503)
 - **Shot 732 = Kap.-20-Ende** (S. 1456/1457: §357 PBG energetische Verbesserung,
   Wiederaufbau §307 PBG, bauliche Missstaende §358 PBG) — gehoert in Kap.-20-Destillat,
   hier nicht aufgenommen.
-- **RPV-Schwellenwerte (30 %/100 m², 35 %/5000 m², 20 cm, 70 %):** vor jeder
-  Mandatsanwendung am aktuellen RPV-Volltext gegenpruefen (Buchstand 2019).
+- ~~**RPV-Schwellenwerte (30 %/100 m², 35 %/5000 m², 20 cm, 70 %):** vor jeder
+  Mandatsanwendung am aktuellen RPV-Volltext gegenpruefen (Buchstand 2019).~~
+  **Teilweise erledigt 2026-08-24 (Buch-Run 140):** Art. 41, 42, 43 und 43a RPV sind am amtlichen
+  Volltext Stand 1.1.2026 gegengeprueft (`raw/260824_amtlich_ch_rpv-art41-43a.md`) — zwei
+  Korrekturen (60-%-Innenschwelle, Anrechnungsrichtung), Wiederaufbau-Fundstelle richtiggestellt.
+  **Noch offen:** die uebrigen genannten Schwellen (35 %/5000 m² Art. 37/37a RPV, 20 cm, 70 %
+  Trockensubstanz Art. 36 RPV) sind in diesem Lauf **nicht** geprueft worden.
 - **Konkrete RPV-Artikelnummern** einzelner Detailregelungen (Art. 34/34a/34b/36/42/43a)
   bei Bedarf am Volltext praezisieren.

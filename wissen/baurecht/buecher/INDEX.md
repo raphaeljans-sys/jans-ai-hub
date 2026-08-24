@@ -89,11 +89,12 @@ Trainingslauf (`../training/PROGRAMM.md`).
   bei 80 % AGW). 14 Doppelseiten (Shots 706-719). Status: `emerging`. **SCHLIESST Kap. 19.** Speist
   [[wohnhygiene-und-raumanforderungen]] + [[baubewilligungsverfahren]] + [[raumplanung-und-gestaltung]].
 - [[21-bauen-ausserhalb-bauzonen]] — Kap. 21 (S. 1459-1503): **Bauen ausserhalb der Bauzonen** —
-  **Art. 16/16a/24/24a-e RPG**, **Art. 42 RPV** (30 % / 100 m²), **Stichtag 1.7.1972**. 23 Doppelseiten.
+  **Art. 16/16a/24/24a-e RPG**, **Art. 42 RPV** (innen +60 %, aussen weder 30 % noch 100 m², innere Erweiterung halb angerechnet — korrigiert Buch-Run 140), **Stichtag 1.7.1972**. 23 Doppelseiten.
   Status: `emerging` (Rest > Shot 755 offen: Art. 24d/24e/37a). Teil 2 siehe unten.
 - [[21-ausserhalb-bauzonen-teil2-art37a-24d-24e-wald]] — Kap. 21 Teil 2 / **Schluss** (S. 1504-1513):
   **zonenfremde Gewerbebauten Art. 37a RPG / Art. 43 RPV** (Stichtag **1.1.1980**, Erweiterung **max. 30 %**
-  der zonenwidrigen Flaeche, ausserhalb Kubus halb, ueber 100 m² nur betriebsnotwendig BEZ 2009 Nr. 7,
+  der zonenwidrigen Flaeche, **innere** Erweiterung halb angerechnet (korrigiert Buch-Run 140, vorher
+  faelschlich «ausserhalb Kubus»), ueber 100 m² ausserhalb des Volumens nur betriebsnotwendig BEZ 2009 Nr. 7,
   «Gewerbe bleibt Gewerbe» BGE 140 II 509, restriktiver Baubegriff BGer 1A.186/2004), **landwirtschaftsfremde
   Wohnnutzung Art. 24d Abs. 1 RPG** («Wohnen bleibt Wohnen», Art. 42a RPV) + **schutzenswerte Bauten Art. 24d
   Abs. 2 RPG** (Rustico, in ZH kaum nutzbar wegen § 207 Abs. 2 PBG, ZBl 2015 S. 614), **gemeinsame Voraus-
@@ -476,7 +477,7 @@ Trainingslauf (`../training/PROGRAMM.md`).
 | 17 | Gebaeude und Raeume | 🟡 teilweise (Wohnhygiene §§299-306 S.1241-1255 + Ausruestungen §§295-298/§4 ABV/Heizung-Fernwaerme + Hindernisfreiheit §§239a/239b BehiG + Schutzraeume S.1256-1303; Garagen §§37-39 BBV I offen) |
 | 19 | Baulicher Umweltschutz | 🟡 teilweise (USG/LRV/LSV, Laerm ES I-IV, Art.31/32 LSV, SIA 181, S.1357-1403; Rest ab Shot 706 offen) |
 | 20 | Ausnahmen/Bestandesschutz | 🟢 vollstaendig (§ 220 Ausnahmebewilligung + § 357 Besitzstandsgarantie + § 357 Abs.4/5 Verbesserungen/Milderung (§253a Aussendaemmung) + § 358 baupolizeil. Missstaende + Brandstattrecht § 307 (3-J-Wiederaufbau) S.1433-1457) |
-| 21 | Bauen ausserhalb Bauzonen | 🟢 vollstaendig (Art.16/16a/24/24a-c RPG, Art.42 RPV 30%/100m², Stichtag 1.7.1972 S.1459-1503; Teil 2 **Art.37a RPG** Gewerbe Stichtag 1.1.1980/30% + **Art.24d Abs.1/2 RPG** landwirtsch.fremdes Wohnen/Rustico + **Art.24d Abs.3 lit.a-e** + **Art.24e RPG** Hobby-Tierhaltung + **Bauen im Wald** §358a PBG S.1504-1513) |
+| 21 | Bauen ausserhalb Bauzonen | 🟢 vollstaendig (Art.16/16a/24/24a-c RPG, Art.42 RPV innen +60 %/aussen 30 % bzw. 100 m², innere Erweiterung halb (korrigiert Run 140), Stichtag 1.7.1972 S.1459-1503; Teil 2 **Art.37a RPG** Gewerbe Stichtag 1.1.1980/30% + **Art.24d Abs.1/2 RPG** landwirtsch.fremdes Wohnen/Rustico + **Art.24d Abs.3 lit.a-e** + **Art.24e RPG** Hobby-Tierhaltung + **Bauen im Wald** §358a PBG S.1504-1513) |
 | 22 | Privatrechtliche Bauvorschriften | 🟡 teilweise (Nachbarrecht ZGB Art.679/684/685 ff. + §§169-178 EG ZGB Pflanzenabstaende, S.1517-1534) |
 | 23 | Glossar Architektur | 🟡 teilweise (Begriffe mit §-Belegen, S.1537-1549) |
 | 12 | Baureife | 🟢 vollstaendig (12.1-12.3 Baureife/planungsrechtl. Baureife §234/Zugaenglichkeit §§234-237 inkl. Anhang-ZN-Tabelle/Kehrplatz/Erleichterungen/OEV §237 Abs.1 Satz 2 + 12.3.6 Rechtl. Sicherung §237 Abs.4 + 12.4 Wasser/Energie §236/Loeschwasser §16 FeuerwehrV + 12.5 Abwasser GSchG/Kanalisationsanschluss + 12.6 Abfall/Kehricht Art.30-32b USG/VVEA + 12.7 Altlasten Art.32c/32d USG/AltlV/KbS + Anschlussgebuehren Art.60a GSchG, S.707-807) |

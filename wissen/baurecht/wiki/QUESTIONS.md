@@ -2491,6 +2491,26 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   verifizierbar** (RPG-weite Suche nach «Abbruch» trifft nur die sachfremde Abbruchprämie Art. 5a)
   und bleibt als offene Diskrepanz markiert, auflösbar erst mit Buch-Screenshot-Zugriff Kap. 21
   (S. 1503 ff., an dieser Station nicht verfügbar).
+  → **ERLEDIGT 2026-08-24 (Buch-Run 140), und zwar ohne Screenshot.** Die gesuchte Regel steht
+  **eine Normebene tiefer**: **Art. 42 Abs. 4 RPV** (`raw/260824_amtlich_ch_rpv-art41-43a.md`,
+  RPV Stand 1.1.2026, Fedlex ELI cc/2000/310) nennt «Zerstörung **oder des Abbruchs**»
+  ausdrücklich und knüpft den Wiederaufbau an zwei **kumulative** Voraussetzungen —
+  bestimmungsgemässe Nutzbarkeit im Zeitpunkt der Zerstörung oder des Abbruchs **und**
+  ununterbrochenes Interesse an der Nutzung. Eine Unterscheidung freiwillig/unfreiwillig
+  kennt auch die Verordnung nicht; beide KB-Formeln («lässt auch bei freiwilligem Abbruch zu» /
+  «freiwillig abgebrochene Gebäude nur ausnahmsweise») sind Buchsynthesen und sind jetzt als
+  solche gekennzeichnet. Korrigiert in [[20-ausnahmen-teil2-milderung-missstaende-brandstatt]]
+  und [[21-bauen-ausserhalb-bauzonen]]. **Methodische Lehre:** Ein am Gesetz nicht auffindbarer
+  Rechtssatz ist zuerst in der Ausführungsverordnung zu suchen, bevor er als unbelegt gilt —
+  Run 137 hatte ausschliesslich das RPG geprüft und daraus auf «nicht belegbar» geschlossen.
+
+- **Neu 2026-08-24 (Buch-Run 140) — noch offen: die übrigen RPV-Schwellenwerte.** Geprüft und
+  korrigiert sind Art. 41, 42, 43 und 43a RPV. **Nicht** am Volltext geprüft sind die im
+  Destillat [[21-bauen-ausserhalb-bauzonen]] ebenfalls genannten Schwellen **35 % / 5000 m²**
+  (innere Aufstockung, Art. 37/37a RPV), **20 cm** und **70 % Trockensubstanz** (Art. 36 RPV) —
+  sie stehen weiterhin auf Buchstand 2019. Weg ist bekannt und dokumentiert
+  (`docs/referenz/fedlex-volltexte.md`, Nachtrag Buch-Run 140: ELI cc/2000/310, Snapshot
+  20260101, de/html).
 - ~~**needs-verification — Wortlaut § 220 / § 357 Abs. 1 PBG:** im Destillat
   [[20-ausnahmen-bestandesschutz]] nach Buch S. 1434/1444 sinngemäss wiedergegeben; am amtlichen
   PBG-Volltext (raw/) gegenprüfen (Modell D nächster Lauf).~~ → **stale, bereits erledigt

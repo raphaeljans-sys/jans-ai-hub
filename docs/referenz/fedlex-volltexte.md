@@ -75,3 +75,33 @@ SR-Fundstelle ausgeben). Beleg: `wissen/baurecht/raw/260824_amtlich_at_emrk-art7
 
 - Rule `normen-referenz.md` — Fundstellenpflicht bei Normen (importiert).
 - Rule `auto-verbesserungen.md`, Eintrag 260721 — verweist hierher.
+
+## Nachtrag 24.08.2026 (Buch-Run 140) — die ELI ist NICHT aus der AS-Fundstelle ableitbar; Snapshots liegen auf Aenderungsdaten
+
+Zwei Fallen, die einen Beschaffungsversuch scheitern lassen, obwohl der Erlass online steht:
+
+**1. Die ELI folgt keinem Muster.** Beim RPG (SR 700) lautet sie `1979/1573_1573_1573` und
+entspricht der AS-Fundstelle AS 1979 1573 — daraus laesst sich leicht die Regel «ELI = AS-Nummer
+dreifach» ableiten. Diese Regel ist falsch. Die **RPV (SR 700.1)** ist am selben Tag mit AS 2000
+2047 publiziert worden, ihre ELI lautet aber **`2000/310`**. Alle daraus konstruierten Varianten
+(`2000/2047`, `2000/2047_2047_2047`) liefern auf beiden Routen nur die App-Huelle bzw. eine
+Angular-Fehlerseite — und zwar mit **HTTP 200**, also ohne erkennbaren Fehler. **Praxisregel: die
+ELI eines unbekannten Erlasses zuerst suchen (Websuche nach «fedlex <SR-Nummer> filestore pdf-a»
+liefert in der Regel eine fertige Filestore-URL), nie konstruieren.** Ein Fehlschlag ist hier
+zuerst eine Aussage ueber die geratene ELI, nicht ueber die Verfuegbarkeit.
+
+**2. Snapshot-Daten liegen auf Aenderungsdaten, nicht auf jedem 1. Januar.** Fuer das RPG sind
+`20121101`, `20140501`, `20190101` und `20260401` belegte Treffer; erfolglos getestet wurden
+`20250101`, `20240701`, `20240101`, `20230901`, `20230101`, `20220701`, `20220101`, `20210101`,
+`20200101`. Wer eine **Vorfassung** zum Fassungsvergleich braucht, probiert daher die
+**Inkrafttretensdaten der bekannten Revisionen** (sie stehen in den Fussnoten der aktuellen
+Fassung), nicht Jahresanfaenge. Dasselbe gilt fuer die RPV: `20200301` und `20260101` treffen,
+`20250101` nicht.
+
+**3. Manche Snapshots tragen ein Suffix `-1`** im Dateinamen (`…-de-pdf-a-1.pdf` statt
+`…-de-pdf-a.pdf`) — beim Fehlschlag beide Varianten probieren.
+
+Konkreter Nutzen des Nachtrags: mit diesen drei Punkten liess sich die seit Buch-Run 103
+(23.08.2026) offene Frage schliessen, was die RPG-Revision per 1.1.2026 an Art. 24c materiell
+geaendert hat (Antwort: nur die Sachueberschrift, Abs. 1-5 wortgleich) — Beleg
+`wissen/baurecht/raw/260824_amtlich_ch_rpg-art24c.md`, Nachtrag.

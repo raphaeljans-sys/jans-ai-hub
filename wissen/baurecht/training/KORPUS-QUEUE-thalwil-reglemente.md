@@ -478,6 +478,25 @@ Artikel um amtlichen Verfahrensstand + erstes `verifiziert`-Feld ergänzt. Repor
 (Run 137) mit Screenshot-Zugriff auflösen, sobald verfügbar; sonst STWE-Wachposten weiter
 beobachten (analog Baulinien-Wachposten) oder regulärer `wissenscheck`-Turnus.
 
+**Run 140 (2026-08-24, ausserhalb T1-T9) — die Art.-24c-Diskrepanz aus Run 137 aufgelöst, ohne
+Screenshot:** Run 139 hatte als nächsten Schritt vorgemerkt, die Diskrepanz «Art. 24c Abs. 2 RPG
+lässt den Wiederaufbau auch bei freiwilligem Abbruch zu» über den neu gefundenen Screenshot-Weg
+(Kap. 21, S. 1503 ff.) zu klären. Die Prüfung ging kürzer: die gesuchte Regel steht **eine
+Normebene tiefer**, in **Art. 42 Abs. 4 RPV**, wo «Zerstörung oder des Abbruchs» ausdrücklich im
+Wortlaut steht. Neuer amtlicher Volltext `raw/260824_amtlich_ch_rpv-art41-43a.md` (RPV SR 700.1,
+Art. 41-43a, Fedlex ELI cc/2000/310, Stand 1.1.2026, plus Vergleichsfassung 1.3.2020).
+**Zwei echte Schwellenwert-Korrekturen als Nebenbefund**, beide dieselbe Verwechslung: die
+Halb-Anrechnung gilt für die Erweiterung **innerhalb**, nicht ausserhalb des bestehenden
+Gebäudevolumens (Art. 42 Abs. 3 lit. b und Art. 43 Abs. 2 RPV), und die 60-%-Innenschwelle des
+Art. 42 Abs. 3 lit. a fehlte ganz. Kein Fassungsstands-, sondern ein Destillationsfehler (die
+Vergleichsfassung 1.3.2020 ist wortgleich). Dazu vier echte Fassungsstands-Nachträge aus der
+RPV-Revision per 1.1.2026 und der in Run 103 offen gelassene RPG-Änderungsumfang (Antwort: nur die
+Sachüberschrift). Werkzeug-Rücklauf in `docs/referenz/fedlex-volltexte.md` (ELI nicht aus der
+AS-Nummer ableitbar; Snapshots liegen auf Inkrafttretensdaten). Report
+`outputs/2026-08-24_buch-run140.md`. **Nächster Schritt unverändert offen:** Kap.-22-Restabschnitte
+(22.1/22.2/22.5-22.7/22.9.2-22.9.3) und Kap. 23 über den in Run 139 dokumentierten
+M365-Graph-Screenshot-Weg.
+
 **Run 139 (2026-08-24, ausserhalb T1-T9) — Kap.-22/23-Blockade aufgelöst:** die seit über zehn
 Läufen (130-138) als "kein Screenshot-Zugriff" geführte Sperre war kein echter Zugriffsverlust,
 sondern eine ungefundene Route — die Bibliothek `PL - 02_Recht_Norm` war nur nie über den
