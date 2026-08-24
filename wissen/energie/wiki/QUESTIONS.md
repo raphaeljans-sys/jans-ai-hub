@@ -4914,4 +4914,32 @@ die KB widerspricht sich selbst.
   Frontmatter-Daten der Quellen, um den tatsächlich tragenden (nicht den historisch zitierten)
   Datenstand zu bestimmen. Sauberer eigener Lauf statt Rateübernahme.
   Beleg: `git diff --numstat` nach jedem Schreibvorgang geprüft, alle zehn Dateien `+1/-0`
+
+## 2026-08-24 (interaktive Session, Fortsetzung «02.17 Themenartikel-Nachrüstung», Abschluss) — verbleibende 16 Themenartikel nachgerüstet, A-P2 02.17 vollständig geschlossen
+
+- [x] **Restliche 16 Themenartikel ohne `datenstand`-Feld nachgerüstet** (Liste aus dem
+  vorangehenden Abschnitt: `abwaermenutzung-gebaeude`, `fenster-uw-g-wert-zielkonflikt`,
+  `geak-gebaeudeenergieausweis`, `gebaeudetechnik-pflichtenheft`, `heizleistung-und-
+  waermeerzeuger`, `holzbau-bauphysik-clt`, `komfortlueftung`, `oekologische-materialvorgaben-
+  beschaffung`, `pv-eigenverbrauch-zev`, `pv-solar-technologien`, `schallschutz-sia181`,
+  `solarpflicht-schweiz-kantone`, `sommerlicher-waermeschutz`, `umweltwaerme-gewaesser`,
+  `waermeplanung-kommunal-zh-sz`, `waermepumpen-laermschutz`). Vier parallele Agenten, je mit
+  vollständiger Lesung des Artikeltextes (nicht nur der Frontmatter), um überholte von noch
+  tragenden Quellen zu trennen — genau die Lesung, die die vorangehende Session als Grund für
+  den Stopp bei zehn Artikeln nannte. Details und gewählte Datenstände je Artikel: CHANGELOG-
+  Eintrag vom selben Tag («verbleibende 16 Themenartikel …»).
+  **A-P2 02.17 ist damit vollständig umgesetzt**, kein offener Artikel mehr.
+  Drei Randbefunde aus der Bearbeitung, keine eigene Handlung nötig, hier nur vermerkt: (1) in
+  `holzbau-bauphysik-clt.md` trägt die Quelle `graue-energie-betriebsenergie.md` kein
+  auffindbares Ausgabedatum — bewusst nicht als Anker verwendet, keine Korrektur der Quelle
+  selbst vorgenommen; (2) in `komfortlueftung.md` referenziert der Fliesstext einen
+  Vollzugsordner-Abschnitt EN-4 (Januar 2009), der nicht in der `sources`-Liste geführt wird —
+  unkritisch für den Datenstand, aber ein Kandidat, die Quellenliste bei Gelegenheit zu
+  vervollständigen; (3) in `umweltwaerme-gewaesser.md` nennt das Quelldestillat selbst ein
+  ungesichertes, nur grob geschätztes älteres Datum (~2004/2005) für die im Artikel zitierten
+  Grundwasser-JAZ-Werte Zwingen/Basel-Allschwil — bewusst nicht als Datenstand-Anker verwendet,
+  bliebe aber ein lohnender Recherchepunkt, sollte die Quelle je genauer datiert werden.
+  Beleg: `git diff --numstat` **nativ per ssh** (`raphaeljans@192.168.1.10`, nie über den
+  SMB-Mount) nach jedem Schreibvorgang und final gebündelt für alle 16 Dateien geprüft — jede
+  Zeile `1 0`, keine Löschung, keine fremde Arbeit berührt.
   (reine Zeilenergänzung, keine Löschung von Bestand).
