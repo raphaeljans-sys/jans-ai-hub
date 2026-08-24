@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 1.3 «Flachdach mit Brüstung» (S. 33-39), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 33-38 vollst. via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 33-38 vollst. via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstelle (S. 35) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 links: [[waermebrueckenkatalog-bfe-flachdach-vordach]], [[waermebrueckenkatalog-bfe-balkonplatte]], [[waermebrueckenkatalog-bfe-sockel]]
 ---
 
@@ -19,6 +19,9 @@ dagegen fast immer deutlich darüber**, selbst mit zusätzlicher Dämmung.
 ## Grenzwert
 **Ψ ≤ 0,30 W/(m·K)** gemäss SIA 380/1 (Katalog-Stand 2002). Die Tabellen für Stahlbeton-
 Brüstungen gelten für Brüstungsdicken von 18-20 cm.
+✓ **Am Original verifiziert (24.08.2026):** Katalog-S. 35, Textlayer direkt mit PyMuPDF gelesen
+(`pubdb.bfe.admin.ch/de/publication/download/465`), Wortlaut «Grenz- und Zielwert des W-Werts
+gemäss der Norm SIA 380/1: 0.30 W/(m · K)».
 
 ## Konstruktionsvarianten im Überblick (U-Wand/U-Dach im mittleren Bereich ~0,20-0,25)
 

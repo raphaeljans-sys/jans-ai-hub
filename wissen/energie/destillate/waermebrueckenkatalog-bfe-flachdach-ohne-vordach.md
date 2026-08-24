@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 3.1 «Flachdach ohne Vordach» (S. 49-53), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 49-53 vollständig via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 49-53 vollständig via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstelle (S. 51) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither mehrfach revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Flachdach ohne Vordach (Gruppe 3.1)
@@ -18,6 +18,9 @@ bis zum Dreifachen des Grenzwerts 0,20 W/(m·K) —, während eine **durchgehend
 ## Was gemessen wird
 Grenz- und Zielwert gemäss SIA 380/1: **0,20 W/(m·K)**. Die Decken-Dämmeinlagen (falls
 vorhanden) besitzen 2 × 50 cm.
+✓ **Am Original verifiziert (24.08.2026):** Katalog-S. 51, Textlayer direkt mit PyMuPDF gelesen
+(`pubdb.bfe.admin.ch/de/publication/download/465`), Wortlaut «Grenz- und Zielwert des W-Werts
+gemäss der Norm SIA 380/1: 0.20 W/(m · K)».
 
 ## Kernwerte (Ψ in W/(m·K), U-Wert Wand/Dach je 0,20/0,20)
 - **3.1-A1 Ohne Vordach** (Referenzfall, keine Attika-Aufkantung): −0,06 bis −0,09 —

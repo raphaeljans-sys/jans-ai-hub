@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 3.5 «Auskragung» (S. 80-82), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 80-82 vollständig via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 80-82 vollständig via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstelle (S. 82) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither mehrfach revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Auskragung (Gruppe 3.5)
@@ -18,6 +18,11 @@ Unterlagsbodendämmung klar überschritten, ist aber mit steigender Dämmdicke g
 erreichbar.
 
 ## Was gemessen wird
+✓ **Am Original verifiziert (24.08.2026):** Katalog-S. 82, Textlayer direkt mit PyMuPDF gelesen
+(`pubdb.bfe.admin.ch/de/publication/download/465`), Wortlaut «Grenz- und Zielwert des W-Werts
+gemäss der Norm SIA 380/1: 0.20 W/(m · K)» — schliesst den in `QUESTIONS.md` offen gehaltenen
+Punkt zu dieser Gruppe.
+
 Grenz- und Zielwert gemäss SIA 380/1: **0,20 W/(m·K)**. Anders als bei der Balkonplatte
 (Gruppe 1.1, thermisch trennbare Systeme wie Stahlkorb/Dorne) kennt diese Gruppe nur den
 **durchbetonierten** Fall — der Hebel ist hier die **Unterlagsbodendämmung** (Dämmung auf

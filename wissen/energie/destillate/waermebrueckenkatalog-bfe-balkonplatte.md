@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Kapitel 3 «Benutzung des Katalogs» + Detailgruppe 1.1 «Balkonplatte» (S. 15, 20-22), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001, SIA 180:1999 — ⚠ ältere Normausgaben, aktuelle Editionen SIA 380/1 (zuletzt 2016) und SIA 180:2014 sind neuer
-gelesen: 2026-07-12 (S. 1, 3-6, 15-22 vollst. via Read/PDF-Bildextraktion, da Textlayer nicht extrahierbar)
+gelesen: 2026-07-12 (S. 1, 3-6, 15-22 vollst. via Read/PDF-Bildextraktion, da Textlayer nicht extrahierbar); 2026-08-24 Grenzwertstelle (S. 22) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither mehrfach revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-12
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Balkonplatte (Gruppe 1.1)
@@ -25,6 +25,9 @@ Rollladenkasten, 5 Fensterleibung/-brüstung/-sturz, 6 Stützen/Fassadenanker).
 ## Grenz- und Zielwert Balkonplatte (SIA 380/1, Katalog-Stand 2002)
 **Ψ ≤ 0,30 W/(m·K)** — Balkonplatten, die diesen Wert überschreiten, verletzen den
 Wärmedämmnachweis, sofern sie nicht durch entsprechend bessere andere Bauteile kompensiert werden.
+✓ **Am Original verifiziert (24.08.2026):** Katalog-S. 22, Textlayer direkt mit PyMuPDF gelesen
+(`pubdb.bfe.admin.ch/de/publication/download/465`), Wortlaut «Grenz- und Zielwert des W-Werts
+gemäss der Norm SIA 380/1: 0.30 W/(m · K)».
 ⚠ Dieser konkrete Zahlenwert stammt aus der Katalog-Ausgabe 2002 (Bezug SIA 380/1:2001) und wurde
 nicht gegen die heute geltende SIA-380/1-Ausgabe gegengeprüft — als Grössenordnung verlässlich,
 für die verbindliche Nachweisrechnung die aktuelle Norm-Edition/Software verwenden.

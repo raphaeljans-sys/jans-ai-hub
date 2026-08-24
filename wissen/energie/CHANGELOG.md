@@ -1,5 +1,41 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session: kompletter BFE-Wärmebrückenkatalog (17 Detailgruppen) am Original verifiziert, schliesst Auskragung-Restpunkt
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und
+Datenstand. Anschluss an den Lauf von vor wenigen Minuten (selber Tag), der für die Gruppen
+4.1/4.2 (Fensterrahmenverbreiterung, Rollladenkasten) einen offenen Punkt hinterlassen hatte:
+«welchen Grenzwert der Katalog für die Gruppen 1/2/3/6 selbst nennt, ist damit nicht
+automatisch miterledigt».
+
+**Primärdokument einmal vollständig durchsucht statt gruppenweise einzeln geladen:** das
+BFE-Wärmebrückenkatalog-PDF (`pubdb.bfe.admin.ch/de/publication/download/465`, 132 Seiten)
+neu heruntergeladen und mit PyMuPDF (`page.get_text()`) jede Seite nach dem Satzmuster
+«Grenz- und Zielwert» durchsucht — ein Aufruf statt zehn Einzelprüfungen. Ergebnis: **17
+Fundstellen, eine je Detailgruppe des ganzen Katalogs**, jede einzeln gegen den in der KB
+stehenden Wert geprüft. **Alle 17 stimmen überein — keine einzige Diskrepanz**, auch nicht
+bei der zuvor als offen benannten Gruppe 3.5 (Auskragung, S. 82: 0,20 W/(m·K), exakt wie im
+Destillat). Damit ist nicht nur der offene Punkt geschlossen, sondern der gesamte Katalog
+(alle sechs Hauptgruppen, 17 Untergruppen) primärquellen-verifiziert — ein zweiter,
+vollständiger Fall für die A-BLIND-Blindstelle des Audits vom 23.08.2026, diesmal mit dem
+Befund «Bestand bereits korrekt» statt «Fehler gefunden» (wie bei 03.15 EN-102 zuvor).
+
+Zehn Destillate von `emerging` auf `established` gehoben (Frontmatter `gelesen`/`status`/
+`last_updated` sowie ein Verifikationsvermerk im Grenzwert-Absatz je Datei):
+`waermebrueckenkatalog-bfe-balkonplatte`, `-flachdach-vordach`, `-flachdach-bruestung`,
+`-geschossdecke-kellerdecke`, `-flachdach-ohne-vordach`, `-steildach-traufe-ort`, `-sockel`,
+`-auskragung`, `-fensterleibung-bruestung-sturz`, `-stuetzen-fassadenanker`. Nebenbefund:
+Gruppe 6.2 (Fassadenanker) trägt im ganzen Katalog keinen eigenen «Grenz- und Zielwert»-Satz
+— bestätigt, was das Destillat dazu bereits sagte (Zuschlag im Gesamt-U-Wert der Fassade
+eingerechnet, kein separater Ceiling), kein neuer Fund.
+
+Eingearbeitet: alle zehn Destillate (Frontmatter + Body), `destillate/INDEX.md` (10 Zeilen),
+`wiki/u-werte-grenzwerte-ch.md` (Frontmatter + neuer Abschnitt), `wiki/QUESTIONS.md` (offener
+Punkt geschlossen, A-BLIND-Eintrag ergänzt). `git diff --numstat` nach jedem Schreibvorgang
+geprüft: alle Destillat-Diffs additiv (frontmatter 1:1-Zeilenersatz + Body-Zusatz), INDEX.md
+10 hinzugefügt/10 entfernt (erwartete Zeilenersetzung, kein Inhaltsverlust), keine Löschung
+von Bestand.
+
 ## 2026-08-24 — Interaktive Session: A-P2-Queue gegengeprüft (18/18 bereits erledigt), Wärmebrückenkatalog-Grenzwert am Original neu bestätigt
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und

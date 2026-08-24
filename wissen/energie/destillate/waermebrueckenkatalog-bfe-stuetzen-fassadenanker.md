@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 6 «Stützen/Fassadenanker», Kap. 6.1 Stützen (S. 113-116) + Kap. 6.2 Fassadenanker Ausschnitt (S. 117-118), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 113-126 vollst. via Read/PDF-Bildextraktion, da Textlayer nicht extrahierbar; Gruppe 6.2 mit allen 22 Ausführungsvarianten U1-U22 komplett gelesen)
+gelesen: 2026-07-13 (S. 113-126 vollst. via Read/PDF-Bildextraktion, da Textlayer nicht extrahierbar; Gruppe 6.2 mit allen 22 Ausführungsvarianten U1-U22 komplett gelesen); 2026-08-24 Grenzwertstelle Gruppe 6.1 (S. 116) am Textlayer erneut verifiziert; Volltext-Scan des gesamten Katalogs (132 Seiten) bestätigt, dass Gruppe 6.2 keinen eigenen «Grenz- und Zielwert»-Satz trägt (Zuschlag wird in den Gesamt-U-Wert der Fassade eingerechnet, kein separater Ψ/C-Wert-Grenzwert)
 datenstand: 2002 (Kennwerte-Tabellen); Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert Gruppe 6.1 am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Stützen und Fassadenanker (Gruppe 6)
@@ -21,6 +21,10 @@ thermischer Trennung unkritisch und liegen deutlich unter den jeweiligen Grenzwe
 Anders als Balkonplatte/Fenster (lineare Ψ-Werte, W/(m·K)) wird eine durchstossende Stütze als
 **punktförmige Wärmebrücke** mit einem **X-Wert in W/K** (nicht pro Laufmeter) erfasst. Grenz- und
 Zielwert gemäss SIA 380/1: **X ≤ 0,30 W/K** je Durchstossung.
+✓ **Am Original verifiziert (24.08.2026):** Katalog-S. 116, Textlayer direkt mit PyMuPDF gelesen
+(`pubdb.bfe.admin.ch/de/publication/download/465`), Wortlaut «Grenz- und Zielwert des C-Werts
+gemäss der Norm SIA 380/1: 0.30 W/K» (Katalog nennt den Punktwert «C-Wert», die KB folgt der
+FAQ-Konvention «X-Wert» — derselbe Kennwert).
 
 | Ausführung | Durchmesser 10 cm | 12 cm | 15 cm |
 |---|---|---|---|

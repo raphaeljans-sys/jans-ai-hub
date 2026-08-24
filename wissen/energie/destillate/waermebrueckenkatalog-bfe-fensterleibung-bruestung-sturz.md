@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppen 5.1 «Fensterleibung» (S. 94-98), 5.2 «Fensterbrüstung» (S. 99-107) und 5.3 «Fenstersturz» (S. 108-112), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 94-112 grösstenteils via Read/PDF-Bildextraktion; nicht jede Einzeltabelle transkribiert, Wertebereiche aus repräsentativer Auswahl)
+gelesen: 2026-07-13 (S. 94-112 grösstenteils via Read/PDF-Bildextraktion; nicht jede Einzeltabelle transkribiert, Wertebereiche aus repräsentativer Auswahl); 2026-08-24 Grenzwertstellen (S. 96, 101, 110) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither mehrfach revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Fensterleibung, -brüstung, -sturz (Gruppen 5.1–5.3)
@@ -18,6 +18,11 @@ Mauerwerk (Backstein vs. Stahlbeton) entscheiden, ob der Wert knapp drunter oder
 merklich drüber liegt.
 
 ## Was gemessen wird
+✓ **Am Original verifiziert (24.08.2026):** alle drei Untergruppen einzeln am Textlayer geprüft
+(`pubdb.bfe.admin.ch/de/publication/download/465`) — Katalog-S. 96 (Leibung), S. 101 (Brüstung),
+S. 110 (Sturz), jede mit wortgleichem Satz «Grenz- und Zielwert des W-Werts gemäss der Norm
+SIA 380/1: 0.10 W/(m · K)».
+
 Grenz- und Zielwert gemäss SIA 380/1 für alle drei Gruppen: **0,10 W/(m·K)** — deutlich
 strenger als bei der Fensterrahmenverbreiterung (0,30) oder dem Rollladenkasten (0,30),
 weil hier von einer «normalen» (nicht verbreiterten) Fensterlaibung ausgegangen wird.

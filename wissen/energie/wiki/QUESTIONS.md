@@ -4650,6 +4650,13 @@ die KB widerspricht sich selbst.
   BFE-Waermebrueckenkatalog 2002 wirklich steht, ist ohne das Original nicht entscheidbar (02.2).
   **Erster Fall aus dieser Blindstelle ist mit 03.15 oben jetzt geschlossen** — als Beleg, dass
   sich der Aufwand lohnt: es war tatsaechlich ein echter Fehler im Bestand, keine falsche Warnung.
+  **Zweiter Fall (24.08.2026, Fortsetzung desselben Tages): der komplette BFE-Waermebrueckenkatalog
+  2002 (17 Detailgruppen, 132 Seiten) ist jetzt primaerquellen-verifiziert** — nicht nur die
+  Stichprobe 4.1/4.2 vom Vortag. Ergebnis diesmal: keine Diskrepanz, alle 17 Grenzwerte stimmten
+  bereits. Zusammen mit 03.15 zeigt das: die Blindstelle traegt sowohl echte Fehler als auch
+  bestaetigte Bestaende — beides ist ein Ergebnis, das nur das Original liefert. Naechste
+  Kandidaten fuer die zwanzig meistzitierten Destillate: noch nicht ausgewaehlt, das bleibt ein
+  eigener Lauf.
 
 - [ ] **A-WERKZEUG: die zwei neuen Pruefwerkzeuge sind gebaut, ihre Trefferlisten nicht
   abgearbeitet.** `wissen/tools/bezugsgroessen-check.py` (120 Kandidaten fuer energie) und
@@ -4774,11 +4781,35 @@ die KB widerspricht sich selbst.
   verifiziert, Kennwerte-Tabellen bleiben Katalog-Stand 2002). Eingearbeitet in beide Destillate,
   `wiki/u-werte-grenzwerte-ch.md`, `wiki/BAUHERREN-FAQ.md` F49-Quellenzeile, `destillate/INDEX.md`
   (beide Zeilen).
-- [ ] **Neu offen: welchen Grenzwert der BFE-Wärmebrückenkatalog 2002 für die Gruppen 1
-  (Auskragung, per `[[waermebrueckenkatalog-bfe-auskragung]]`) sowie 2/3/6 selbst nennt, ist mit
-  diesem Fund nicht automatisch miterledigt** — nur 4.1/4.2 wurden am Original geprüft. Sollte ein
-  künftiger Lauf an diesen Gruppen arbeiten, den Textlayer direkt lesen (funktioniert, kein
-  Bildextraktions-Umweg nötig), nicht aus der Balkonplatten-Gruppe pauschal übertragen.
+- [x] **Geschlossen (24.08.2026, Fortsetzung desselben Tages): der gesamte BFE-Wärmebrückenkatalog
+  2002 ist jetzt primärquellen-verifiziert, nicht nur die Gruppen 4.1/4.2.** Primärdokument neu
+  heruntergeladen (`pubdb.bfe.admin.ch/de/publication/download/465`, 132 Seiten) und der komplette
+  Textlayer mit PyMuPDF durchsucht (ein Aufruf, `page.get_text()` je Seite, kein
+  Bildextraktions-Umweg nötig — bestätigt für alle 132 Seiten, nicht nur die zwei Fenster-Gruppen
+  vom Vortag). **Alle 17 im Katalog vorkommenden «Grenz- und Zielwert»-Sätze gefunden und einzeln
+  gegen den in der KB stehenden Wert geprüft — 17 von 17 stimmen überein:** Balkonplatte (1.1,
+  S. 22) 0,30 · Flachdach mit Vordach (1.2, S. 26) 0,30 · Flachdach mit Brüstung (1.3, S. 35) 0,30
+  · Geschossdecke/Wandanschluss Kellerdecke/Innenwandanschluss (2.1-2.3, S. 42/44/46) je 0,20 ·
+  Flachdach ohne Vordach (3.1, S. 51) 0,20 · Steildach Traufe (3.2, S. 56) 0,20 · Steildach Ort
+  (3.3, S. 60) 0,20 · Sockel (3.4, S. 64) 0,20 · **Auskragung (3.5, S. 82) 0,20 — schliesst den
+  bisher offenen Restpunkt zu dieser Gruppe** · Fensterrahmenverbreiterung (4.1, S. 86) 0,30 und
+  Rollladenkasten (4.2, S. 93) 0,30 (bereits am Vortag verifiziert, jetzt im selben Durchgang
+  reproduziert) · Fensterleibung (5.1, S. 96), Fensterbrüstung (5.2, S. 101), Fenstersturz
+  (5.3, S. 110) je 0,10 · Stützen (6.1, S. 116) 0,30 W/K. Fassadenanker (6.2) trägt im ganzen
+  Katalog keinen eigenen «Grenz- und Zielwert»-Satz (Zuschlag wird in den Gesamt-U-Wert der
+  Fassade eingerechnet, kein separater Ceiling) — das bestätigt, was die KB dazu bereits sagte,
+  kein neuer Fund. **Kein einziger Zahlenfehler gefunden**, anders als bei 4.1/4.2 war die
+  frühere Vermutung eines abweichenden Werts hier nie aufgestellt worden — reine Verifikation.
+  Alle zehn betroffenen Destillate (`waermebrueckenkatalog-bfe-balkonplatte`,
+  `-flachdach-vordach`, `-flachdach-bruestung`, `-geschossdecke-kellerdecke`,
+  `-flachdach-ohne-vordach`, `-steildach-traufe-ort`, `-sockel`, `-auskragung`,
+  `-fensterleibung-bruestung-sturz`, `-stuetzen-fassadenanker`) von `emerging` auf `established`
+  gehoben, Frontmatter (`gelesen`/`status`/`last_updated`) und Grenzwert-Absatz je mit
+  Verifikationsvermerk ergänzt; `destillate/INDEX.md` (10 Zeilen) und
+  `wiki/u-werte-grenzwerte-ch.md` (Frontmatter + neuer Abschnitt) nachgeführt. Damit ist der
+  BFE-Wärmebrückenkatalog als **einzelne Quelle vollständig gegen A-BLIND abgesichert** — ein
+  konkreter Fortschritt an der grösseren Blindstelle unten (20 meistzitierte Destillate),
+  auch wenn diese als Programm weiterhin offen bleibt.
 - **02.3-Restfrage («drei Definitionen der 75-%-Schwelle») ist bereits gelöst, nur nicht als
   erledigt vermerkt:** Audit-Korrektur A-P3 03.3 (`wiki/komfortlueftung.md`, 24.08.2026) klärt,
   dass es **zwei**, nicht drei unabhängige Kennzahlen sind — Temperatur-Wärmerückgewinnung

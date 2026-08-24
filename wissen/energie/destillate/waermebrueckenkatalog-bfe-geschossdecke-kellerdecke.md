@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 2 vollständig: Kap. 2.1 Geschossdecke (S. 40-41), Kap. 2.2 Wandanschluss an Kellerdecke (S. 42-43), Kap. 2.3 Innenwandanschluss an Aussenwand (S. 44), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 39-44 vollständig via Read/PDF-Bildextraktion, da Textlayer nicht extrahierbar — Gruppe 2 ist mit 3 Untergruppen die kleinste Detailgruppe des Katalogs, vollständig erfasst)
+gelesen: 2026-07-13 (S. 39-44 vollständig via Read/PDF-Bildextraktion, da Textlayer nicht extrahierbar — Gruppe 2 ist mit 3 Untergruppen die kleinste Detailgruppe des Katalogs, vollständig erfasst); 2026-08-24 Grenzwertstellen (S. 42, 44, 46) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Geschossdecke, Kellerdecken-Anschluss, Innenwandanschluss (Gruppe 2)
@@ -19,6 +19,10 @@ Grenzwerts), während ein **Stahlkorb**-System die Wärmebrücke praktisch löst
 **Ψ ≤ 0,20 W/(m·K)** für alle drei Untergruppen (Geschossdecke, Wandanschluss an Kellerdecke,
 Innenwandanschluss an Aussenwand) — strenger als der Balkonplatten-Grenzwert (0,30), da diese
 Details im Gegensatz zum Balkon oft eine sehr grosse Anschlusslänge im Gebäude aufweisen.
+✓ **Am Original verifiziert (24.08.2026):** alle drei Untergruppen einzeln am Textlayer geprüft
+(`pubdb.bfe.admin.ch/de/publication/download/465`) — Katalog-S. 42 (Geschossdecke), S. 44
+(Wandanschluss an Kellerdecke), S. 46 (Innenwandanschluss an Aussenwand), jede mit wortgleichem
+Satz «Grenz- und Zielwert des W-Werts gemäss der Norm SIA 380/1: 0.20 W/(m · K)».
 
 ## 2.1 Geschossdecke — Innenwand-Auflager auf Geschossdecke
 Betrifft eine Innenwand (nicht Aussenwand), die auf einer Geschossdecke aufliegt, welche ihrerseits

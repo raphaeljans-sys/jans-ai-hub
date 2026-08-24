@@ -1,7 +1,9 @@
 ---
 title: U-Werte & Heizwärmebedarf — Grenzwerte Schweiz
 status: established
-last_updated: 2026-08-24 (Fensteranschluss-Grenzwert 0,30 W/(m·K) am BFE-Original verifiziert,
+last_updated: 2026-08-24 (alle 17 Grenzwerte des BFE-Wärmebrückenkatalogs 2002 am Original
+  verifiziert, keine Diskrepanz, schliesst den Auskragung-Restpunkt aus dem Audit-Nachlauf;
+  zuvor am selben Tag: Fensteranschluss-Grenzwert 0,30 W/(m·K) am BFE-Original verifiziert,
   Restfrage aus Audit A-P2 02.2 geschlossen; 2026-08-23 Run 161: neuer Abschnitt «Einen fremden
   U-Wert-Rechenweg prüfen — vier Griffe», aus der Prüfung einer KI-erzeugten U-Wert-Rechnung in
   der Referenzablage PL-04; 23.08.2026 interaktive Session: Griff 02 nachgeführt, E-R161-1
@@ -52,6 +54,16 @@ Quelle/Detail: `[[enfk-en-102-waermeschutz-2018]]`.
 Grenzwerte Ψ: Typ 1 (Auskragung) 0,30 · Typ 2/3 (Dämmunterbrechung / Kanten) 0,20 ·
 Typ 5 (Fensteranschlag) 0,15 · χ Typ 6 (Punktdurchdringung) 0,30 W/K. Beim Einzelbauteilnachweis
 im Umbau ohne Grenzwert, beim Systemnachweis in Q_H einzurechnen.
+
+✓ **Alle Grenzwerte des BFE-Wärmebrückenkatalogs 2002 am Original verifiziert (24.08.2026).**
+Primärdokument vollständig heruntergeladen (`pubdb.bfe.admin.ch/de/publication/download/465`,
+132 Seiten) und der Textlayer mit PyMuPDF durchsucht (kein Bildextraktions-Umweg nötig, entgegen
+den früheren Notizen vom Juli 2026). Jede der im Katalog enthaltenen 17 «Grenz- und Zielwert»-
+Fundstellen wurde gegen den in der jeweiligen KB-Zeile stehenden Wert geprüft — **alle 17
+stimmen überein, keine einzige Diskrepanz.** Damit ist der gesamte Wärmebrückenkatalog (nicht
+nur die Gruppen 4.1/4.2 aus dem Vortag) primärquellen-verifiziert, inkl. des zuvor offen
+gehaltenen Punkts zu Gruppe 3.5 Auskragung (`wiki/QUESTIONS.md`, Audit-Nachlauf 24.08.2026).
+Betroffene Destillate von `emerging` auf `established` gehoben.
 
 **Konkretes Beispiel Typ 1 (Balkonplatte), BFE-Wärmebrückenkatalog 2002:** durchbetoniert
 (keine thermische Trennung) Ψ 0,6-1,05 W/(m·K) — 2-3x über dem Grenzwert 0,30; Stahlkorb-Anschluss

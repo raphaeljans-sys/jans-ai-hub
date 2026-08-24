@@ -25,6 +25,85 @@ Zeilen hinzugefügt, 0 entfernt, `git diff --numstat` geprüft). Kein inhaltlich
 den beiden eigentlichen Fragen, aber zwei weitere Sackgassen dokumentiert und strukturell erklärt
 — reduziert künftigen Doppelaufwand. Report: `outputs/2026-08-24_questions-abarbeitung-0336uhr.md`.
 
+## 2026-08-24 — SIA-Sweep, 37. Fortsetzung: restlicher 8-Titel-Suva-Block vollständig erschlossen, EKAS-Kostenstatus geklärt
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`
+(nichts raten, jede Aussage belegen, CHANGELOG-Pflicht). CHANGELOG-Kopf und Report des letzten
+SIA-Sweep-Laufs (36. Fortsetzung) zuerst gelesen.
+
+**Kollisionscheck:** `ps aux` vor Arbeitsbeginn geprüft — eigener Prozess (PID 88413, exakt
+dieser Auftragstext) und ein unabhängiger, aber ebenfalls interaktiver Claude-Desktop-Prozess
+ohne Bezug zu dieser KB. Kein Sibling-Lauf auf `wissen/normen` gefunden.
+
+**Bestandsaufnahme:** Der wörtlich beauftragte SIA-Teilauftrag bleibt seit der 34. Fortsetzung
+gesättigt (0 offene `[ ]`-SIA-Zeilen). Sinnvolle Fortsetzung war weiterhin der Suva-/EKAS-
+Bring-Schuld-Block (Abschnitt D des Registers), aus dem die 36. Fortsetzung die
+«Ortsfeste Leitern»-Reihe erschlossen und einen Rest von 8 Suva-Titeln + 2 EKAS-Richtlinien
+zurückgelassen hatte.
+
+**Durchgeführt:** Alle **8 verbleibenden Suva-Titel** vollständig gelesen und destilliert:
+**33071.d** (Sicher arbeiten auf Bäumen, Stand August 2013 — doppelte Sicherung in
+Arbeitsposition zwingend), **33072.d** (Arbeiten auf der Leiter an Bäumen, Stand November
+2022 — Sicherungspflicht ab 2,0 m), **44062.d** (Sicher arbeiten in Schächten, Gruben und
+Kanälen, 23-seitige Grundlagenpublikation, überarbeitete Ausgabe Juni 2026 — Grenzwert-Tabelle
+Gasmessung, PSAgA-Pflicht ab 5 m/80 cm; **jüngste Suva-Publikation dieser KB nach 67150.d**),
+**44095.d** (Sicher zu Energie vom Dach/Solaranlagen, 24 S. inkl. 2 Anhänge, überarbeitete
+Ausgabe Juli 2024 — Asbest-Warnung Dächer vor 1990, 2,5-m-Abstandsregel Flachdach),
+**44096.d** (Anschlageinrichtungen auf Dächern wollen geplant sein, 26 S. inkl. 3 Anhänge,
+überarbeitete Ausgabe Januar 2022 — D-A-CH-S-Arbeitsgruppe, vier Ausstattungsklassen,
+Flächenkennzahlen 5,36-126,69 m²), **88816.d/84044.d** (Acht lebenswichtige Regeln
+Anseilschutz, Instruktionshilfe 31 S. + Faltprospekt 12 S., beide überarbeitete Ausgabe
+Januar 2022 — Rettung 10-20 Min., EKAS-Richtlinie 6508 verlangt Dokumentation), **67064-1.d/
+67064-2.d** (Checkliste Hubarbeitsbühnen, Teil 1 Planung Dezember 2018 + Teil 2 Kontrolle
+März 2024 — Kategorien SN EN 280, Anfahrschutz min. 1/3 Raddurchmesser).
+
+**Beschaffungsweg:** Alle neun über die Produktseite `www.suva.ch/waswo/<Nr>.d` (HTML) mit
+dem etablierten «PDF Deutsch»-Dropdown-Link (`sitecorecontenthub.cloud`) beschafft — bei
+keinem der neun trat die Sprach- oder die HTML-statt-PDF-Falle früherer Fortsetzungen auf,
+direkter valider deutscher PDF-Download bei allen (Titel/Metadaten verifiziert).
+
+**Zusätzlich EKAS-Kostenstatus geklärt:** Beide EKAS-Richtlinien (2134 Forstarbeiten, 76 S.;
+6512 Arbeitsmittel, 32 S.) waren in den Registern der 34./36. Fortsetzung als «kostenpflichtig
+ungeprüft» geführt. Tatsächlich sind beide **kostenlos** direkt als PDF verfügbar
+(`ekas.admin.ch/fileadmin/Dokumente/Richtlinien/gueltig/02134_d.pdf` bzw.
+`.../06512_d_2017_01_01.pdf`), gefunden über die JSON-Struktur der EKAS-Publikationsseite
+(die direkten `.d`-Kurzlinks wie bei Suva funktionieren bei EKAS nicht, sie leiten auf eine
+generische Übersichtsseite). Beide sind aber umfangreiche Rechtsgrundlagen-Dokumente, kein
+Factsheet-Format — **in diesem Lauf nicht mehr destilliert**, eigener Aufwand für den
+nächsten Lauf.
+
+**Neuer, breiterer Cross-Referenzen-Rest:** Die neun Destillate selbst nennen 16 weitere,
+noch nicht destillierte Suva-Titel in drei neuen Themenfeldern (Baumpflege 67156.d;
+Solar/Asbest 33027.d/33031.d/33068.d/84041.d-88815.d/84042.d-88814.d; Hubarbeitsbühnen/Krane
+88180.d/66138.d; Schächte/Rettung 44026.d/2153.d/67061.d/67153.d/66089.d; Ausbildung
+66109.d/66110.d/66112.d; ungeklärt 33045.d) — deutlich breiter als der ursprüngliche, von
+44002.d Kap. 8 ausgehende Block. Vollständige Liste: `wiki/REGISTER.md` Abschnitt D.
+
+**Nachgeführt:** 8 neue Destillate (`destillate/suva-33071-…md` bis `suva-67064-2-…md`, alle
+`established`); `destillate/INDEX.md` (9 neue Zeilen nach der bestehenden `suva-67055`-Zeile);
+`wiki/REGISTER.md` Abschnitt D (9 neue Tabellenzeilen + Bring-Schuld-Absatz komplett auf
+«erschlossen» umgestellt, neuer erweiterter Cross-Referenzen-Absatz); `training/norm-
+inventar.md` (1 neue additive Log-Zeile). Report: `outputs/2026-08-24_sia-sweep-
+siebenunddreissigste-fortsetzung.md`.
+
+**Offen für den nächsten Lauf:** (1) Beide EKAS-Richtlinien (2134, 6512) destillieren —
+kostenlos verfügbar, aber umfangreich (76+32 S.), eigener Aufwand. (2) Der neue,
+16-Titel-Cross-Referenzen-Rest reicht spürbar über den ursprünglichen SIA-Teilauftrag hinaus
+(Baumpflege, Solar/Asbest, Hubarbeitsbühnen/Krane, Ausbildung) — vor einer weiteren Runde
+ggf. Rückfrage an Raphael, ob der Sweep-Fokus so weit fortgesetzt werden soll, oder ob mit dem
+jetzt vollständig erschlossenen ursprünglichen Block (Ziff.-5-Liste + neun Factsheets + vier
+Bring-Schuld-Kandidaten + Seil-/Kletter-Reihe + Ortsfeste-Leitern-Reihe + 8-Titel-Rest) ein
+sinnvoller Abschluss erreicht ist.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft: 8 neue Destillate
+(je 1/0, reine Neuanlage), `destillate/INDEX.md` additiv (9/0), `wiki/REGISTER.md` additiv
+(37/14 — Ersatz des alten «noch nicht erschlossen»-Absatzes durch den neuen
+«erschlossen»-Absatz plus 9 neue Tabellenzeilen, keine fremde Zeile berührt, Diff geprüft),
+`training/norm-inventar.md` additiv (1/0). Kein `git`-Schreibbefehl über den SMB-Mount
+ausgeführt; Commit über den 15-Minuten-`nas-selfcommit`-Cron bzw. `scripts/nas-commit-now.sh`.
+
 ## 2026-08-24 — SIA-Sweep, 36. Fortsetzung: vierteilige Suva-Reihe «Ortsfeste Leitern» erschlossen (33102/33103/33104/67055.d)
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

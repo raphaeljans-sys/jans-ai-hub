@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppe 3.4 «Sockel» (S. 62-70), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-12 (S. 62-68 vollst. via Read/PDF-Bildextraktion)
+gelesen: 2026-07-12 (S. 62-68 vollst. via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstelle (S. 64) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-12
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 links: [[waermebrueckenkatalog-bfe-balkonplatte]], [[waermebrueckenkatalog-bfe-fensteranschluss]]
 ---
 
@@ -17,6 +17,9 @@ von **Ψ ≈ 0,54-0,63 W/(m·K)** bei nur 20 cm Dämmtiefe auf **Ψ ≈ 0,11-0,3
 
 ## Grenzwert
 **Ψ ≤ 0,20 W/(m·K)** gemäss SIA 380/1 (Katalog-Stand 2002).
+✓ **Am Original verifiziert (24.08.2026):** Katalog-S. 64, Textlayer direkt mit PyMuPDF gelesen
+(`pubdb.bfe.admin.ch/de/publication/download/465`), Wortlaut «Grenz- und Zielwert des W-Werts
+gemäss der Norm SIA 380/1: 0.20 W/(m · K)».
 
 ## Die zwei grundverschiedenen Fälle
 

@@ -833,6 +833,15 @@ Norm-Ausgabenlogik (kein Ausgabenblindzonen-Problem wie bei SIA); massgebend ist
 | Ortsfeste Leitern an Gebäuden | 33103.d | Stand September 2023 | `suva-33103-2023-ortsfeste-leitern-gebaeude.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** Bemessungsanker DIN 18799 (nicht SN EN 14396); seit 01.01.2024 Durchgangssperre am oberen Zugang bei Rückenschutz-Leitern zwingend |
 | Ortsfeste Leitern an maschinellen Anlagen | 33104.d | Stand September 2024 | `suva-33104-2024-ortsfeste-leitern-maschinelle-anlagen.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** Bemessungsanker ISO 14122-4; strengere Werte als Gebäude/Schacht: Absturzsicherung bereits ab 3 m, Ausstiegssperre ab 0,5 m, Holmüberstand 1100 mm |
 | Checkliste Ortsfeste Leitern | 67055.d | Ausgabe Juli 2024 | `suva-67055-2024-checkliste-ortsfeste-leitern.md`, established | **Neu 24.08.2026 (SIA-Sweep 36. Fortsetzung).** 21-Fragen-Kontrollraster, konsolidiert die Masstabellen aller drei Leitertypen (33102/33103/33104.d); Rundsprossen-Verbot seit Okt. 2016 (Maschinen)/Juni 2019 (bauliche Anlagen) |
+| Sicher arbeiten auf Bäumen | 33071.d | Stand August 2013 | `suva-33071-2013-sicher-arbeiten-auf-baeumen.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** Doppelte Sicherung in Arbeitsposition zwingend, Ausbildung mind. 1 Tag (Steigeisen)/mehrere Tage (Seilklettertechnik); älteste Publikation dieser Bring-Schuld-Reihe |
+| Arbeiten auf der Leiter an Bäumen | 33072.d | Stand November 2022 | `suva-33072-2022-arbeiten-auf-der-leiter-an-baeumen.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** Sicherung ab 2,0 m Absturzhöhe, Ausnahme bis 5 m bei kurzer Sicherungsdauer; neue Cross-Referenz 67156.d (Checkliste Baumkronen) entdeckt |
+| Sicher arbeiten in Schächten, Gruben und Kanälen | 44062.d | Erstausgabe Okt. 1996, überarbeitete Ausgabe Juni 2026 | `suva-44062-2026-schaechte-gruben-kanaele.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** 23-seitige Grundlagenpublikation, Grenzwert-Tabelle Gasmessung, PSAgA-Pflicht ab 5 m/80 cm; **jüngste Suva-Publikation dieser KB nach 67150.d** (Juli 2026 > Juni 2026) |
+| Sicher zu Energie vom Dach — Solaranlagen | 44095.d | Erstausgabe Dez. 2015, überarbeitete Ausgabe Juli 2024 | `suva-44095-2024-solaranlagen-montage-instandhaltung.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** Asbest-Warnung Dächer vor 1990, Absturzsicherung ab 2,0/3,0 m, 2,5-m-Abstandsregel Flachdach; fünf neue Cross-Referenzen entdeckt (33027/33031/33068/84041-88815/84042-88814) |
+| Anschlageinrichtungen auf Dächern wollen geplant sein | 44096.d | Erstausgabe März 2016, überarbeitete Ausgabe Jan. 2022 | `suva-44096-2022-anschlageinrichtungen-auf-daechern.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** D-A-CH-S-Arbeitsgruppe, vier Ausstattungsklassen, 2,5-m-Idealabstand, Flächenkennzahlen 5,36-126,69 m² |
+| Acht lebenswichtige Regeln Anseilschutz, Faltprospekt | 84044.d | Erstausgabe Mai 2012, überarbeitete Ausgabe Jan. 2022 | `suva-84044-2022-acht-regeln-anseilschutz-faltprospekt.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** Kurzfassung von 88816.d |
+| Acht lebenswichtige Regeln Anseilschutz, Instruktionshilfe | 88816.d | Erstausgabe Mai 2012, überarbeitete Ausgabe Jan. 2022 | `suva-88816-2022-acht-regeln-anseilschutz-instruktionshilfe.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** 31 S., acht Regeln inkl. Instruktionsnachweis-Formularen (EKAS-Richtlinie 6508), Rettung 10-20 Min. |
+| Checkliste Hubarbeitsbühnen, Teil 1: Planung | 67064-1.d | Ausgabe Dezember 2018 | `suva-67064-1-2018-checkliste-hubarbeitsbuehnen-planung.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** 11-Fragen-Kontrollraster, Kategorien SN EN 280 (1a/1b/3a/3b) |
+| Checkliste Hubarbeitsbühnen, Teil 2: Kontrolle am Einsatzort | 67064-2.d | Ausgabe März 2024 | `suva-67064-2-2024-checkliste-hubarbeitsbuehnen-kontrolle.md`, established | **Neu 24.08.2026 (SIA-Sweep 37. Fortsetzung).** 16-Fragen-Kontrollraster, Anfahrschutz min. 1/3 Raddurchmesser |
 
 ✅ **Alle fünf namentlich benannten Publikationen der Ziff.-5-Liste (44078.d, 44046.d, 84018.d,
 67038.d, 67150.d) sind mit dem 24.08.2026 (SIA-Sweep 31. Fortsetzung) erschlossen** —
@@ -861,20 +870,34 @@ Schacht / DIN 18799 Gebäude / ISO 14122-4 Maschine) mit teils abweichenden Schw
 (Absturzsicherung ab 3 m bei Maschinen, sonst 5 m), von der Checkliste 67055.d in einer
 gemeinsamen Kontrolltabelle zusammengeführt.
 
-**Verbleibender Rest des Blocks (8 Suva-Titel + 2 EKAS-Richtlinien), noch nicht erschlossen:**
-33071.d (Sicher arbeiten auf Bäumen), 33072.d (Arbeiten auf der Leiter an Bäumen), 44062.d
-(Sicheres Einsteigen in Schächten/Gruben/Kanälen — von 33102.d als Cross-Referenz benannt),
-44095.d (Solaranlagen-Montage), 44096.d (Anschlageinrichtungen auf Dächern), 88816.d/84044.d
-(Acht lebenswichtige Regeln zum Anseilschutz, zwei Formate — von 67055.d als Cross-Referenz
-benannt), 67064/1.d + 67064/2.d (Checkliste Hubarbeitsbühnen, zweiteilig; Web-Titelcheck
-24.08.2026 bestätigt «Teil 1: Planung des Einsatzes» / «Teil 2: Kontrolle am Einsatzort») —
-alle vermutlich kostenlos, gleiche Beschaffungsroute (HTML-Produktseite mit «PDF Deutsch»-
-Dropdown, kein direkter waswo-PDF-Link); dazu zwei EKAS-Richtlinien (2134 Forstarbeiten, 6512
-Arbeitsmittel), Status kostenpflichtig ungeprüft. Aus den vier Titeln der 34. Fortsetzung
-zusätzlich referenziert, aber noch **nicht** im ursprünglichen 44002.d-Verzeichnis benannt:
-67061.d (Notfallplanung), 67154.d (Gebirgsbaustellen), 33019.d (Naturgefahren), 33062.d
-(Kettensäge), 33076.d (Warnkleider) — Kandidatenliste vollständig in den vier Destillaten der
-34. Fortsetzung unter „Offene Punkte"/„Verweisstruktur".
+✅ **Auch die acht namentlich benannten Titel des Restblocks (33071.d, 33072.d, 44062.d,
+44095.d, 44096.d, 88816.d/84044.d, 67064-1.d/67064-2.d) sind mit dem 24.08.2026 (SIA-Sweep
+37. Fortsetzung) erschlossen** — alle kostenlos über dieselbe HTML-Produktseiten-Route mit
+«PDF Deutsch»-Dropdown beschafft, keine Sprachfalle, keine HTML-statt-PDF-Falle. Zwei
+EKAS-Richtlinien geprüft: **beide entgegen der bisherigen Vermutung kostenlos** als PDF
+verfügbar (`ekas.admin.ch/fileadmin/Dokumente/Richtlinien/gueltig/02134_d.pdf` bzw.
+`.../06512_d_2017_01_01.pdf`), aber mit 76 bzw. 32 Seiten deutlich umfangreichere
+Rechtsgrundlagen-Dokumente als die übrigen Suva-Factsheets — **noch nicht destilliert**,
+eigener Aufwand für den nächsten Lauf.
+
+**Neue Cross-Referenzen aus den acht Titeln der 37. Fortsetzung, noch nicht destilliert:**
+67156.d (Checkliste Baumkronen pflegen/zurückschneiden, aus 33072.d), 44026.d (Sicher
+arbeiten mit tragbaren Leitern und Tritten, aus 44062.d), 2153.d (Merkblatt Explosionsschutz,
+aus 44062.d), 67061.d (Checkliste Notfallplanung, aus 44062.d — bereits als Kandidat aus der
+34. Fortsetzung bekannt), 67153.d (Checkliste Bauarbeiten am/im/über Wasser, aus 44062.d),
+66089.d (Gefährdungsermittlung/Massnahmenplanung Kleinbetriebe, aus 44062.d), 33027.d
+(Durchbruchsichere Dachflächen, aus 44095.d und 44096.d), 33031.d (Entfernen asbesthaltiger
+Faserzementplatten, aus 44095.d), 33068.d (Installationsarbeiten auf asbesthaltigen
+Faserzementdachplatten, aus 44095.d), 84041.d/88815.d (Neun lebenswichtige Regeln
+Dächer/Fassaden, aus 44095.d), 84042.d/88814.d (5+5 lebenswichtige Regeln Elektrizität, aus
+44095.d), 33045.d (Factsheet Ortsfeste Leitern — ungeklärte Nummer, ggf. Vorgänger der
+33102/33103/33104-Reihe, aus 44096.d und 88816.d), 66109.d/66110.d/66112.d
+(Ausbildungs-/Motivations-Publikationen, aus 88816.d), 88180.d (Checkliste Kranführer
+Fahrzeugkrane, aus 67064-2.d), 66138.d (Merkblatt Freileitungen, aus 67064-1.d und
+67064-2.d). Dieser Rest ist deutlich breiter als der ursprüngliche, von 44002.d ausgehende
+Block und reicht nun in drei neue Themenfelder (Baumpflege, Solar/Asbest, Hubarbeitsbühnen/
+Krane) — vor einer weiteren Runde ggf. Rückfrage, ob der Sweep-Fokus so weit über den
+ursprünglichen SIA-Teilauftrag hinaus fortgesetzt werden soll.
 
 ---
 *Aufgebaut im Nacht-Loop `normen-training-nacht`, Run 1 (Sonderprogramm), 11.07.2026.

@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 03:39:37
+Stand: 24.08.2026 03:49:53
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 03:14)
+- Developer/jans/ai/hub  (letzte Aktivitaet 03:44)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 03:39:37
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 2b244dcb nas-selfcommit: 4 Datei(en) 2026-08-24 03:30
+- a0193020 wissen/baurecht: Buch-Run 110 - Stale-Flag-Sweep Kap. 7 T1/T2, zwei echte Luecken neu belegt (Ausstand VRG, Solidarhaftung-Praezisierung, Zustellfiktion ZPO, Rechtsmittelbelehrung BGG)

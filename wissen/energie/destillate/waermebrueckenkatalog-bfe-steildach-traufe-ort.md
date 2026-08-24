@@ -2,10 +2,10 @@
 quelle: «Wärmebrückenkatalog» (BFE, ausgearbeitet durch Infomind GmbH, 2002) — Detailgruppen 3.2 «Steildach Traufe» (S. 54-57) und 3.3 «Steildach Ort» (S. 58-59), Primärdokument via pubdb.bfe.admin.ch/de/publication/download/465
 herausgeber: Bundesamt für Energie BFE
 ausgabe: 2002 (Bestellnummer 805.159 d), Grundlage SIA 380/1:2001 — ⚠ ältere Normausgabe, aktuelle Edition SIA 380/1 (zuletzt 2016) ist neuer
-gelesen: 2026-07-13 (S. 54-59 vollständig via Read/PDF-Bildextraktion)
+gelesen: 2026-07-13 (S. 54-59 vollständig via Read/PDF-Bildextraktion); 2026-08-24 Grenzwertstellen (S. 56, 60) am Textlayer erneut verifiziert
 datenstand: 2002 (Kennwerte-Tabellen); Grenzwert-Bezug SIA 380/1 seither mehrfach revidiert — Zahlenwerte als Grössenordnung/Bauherren-Transfer verwenden, für Baueingabe aktuelle Softwaresimulation nach geltender Norm nötig
-status: emerging
-last_updated: 2026-07-13
+status: established (Grenzwert am Original verifiziert 24.08.2026; Zahlenwerte weiterhin Katalog-Stand 2002)
+last_updated: 2026-08-24
 ---
 
 # Wärmebrückenkatalog BFE — Steildach Traufe + Ort (Gruppen 3.2 + 3.3)
@@ -16,6 +16,11 @@ Sparren-Dämmung liegen die Ψ-Werte in **allen** geprüften Varianten bei null 
 deutlich im negativen Bereich, weit unter dem Grenzwert 0,20 W/(m·K).
 
 ## Was gemessen wird
+✓ **Am Original verifiziert (24.08.2026):** beide Untergruppen einzeln am Textlayer geprüft
+(`pubdb.bfe.admin.ch/de/publication/download/465`) — Katalog-S. 56 (Traufe) und S. 60 (Ort),
+jede mit wortgleichem Satz «Grenz- und Zielwert des W-Werts gemäss der Norm SIA 380/1:
+0.20 W/(m · K)».
+
 Grenz- und Zielwert gemäss SIA 380/1: **0,20 W/(m·K)** (beide Gruppen). Die Konstruktions-
 details wurden «aus Vollständigkeitsgründen» in den Katalog aufgenommen — im Wärmedämm-
 nachweis müssen sie **nicht berücksichtigt werden**, weil die Konstruktionen durchgehend

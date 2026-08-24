@@ -1,10 +1,23 @@
 ---
 title: Umgebungsgestaltung, Einfriedungen und Gartenmauern — die Vierebenen-Prüfung
 status: established
-last_updated: 2026-08-23
-sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 19 VErV", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "§§ 10-12 StrAV (aufgehoben)", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260823_amtlich_zh_strav-1978.md, 260823_amtlich_zh_verv-erläuterungsbericht.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
+last_updated: 2026-08-24
+sources: ["§ 238 PBG", "§ 238 a PBG", "§ 240 PBG", "§ 241 PBG", "§ 257 PBG", "§ 309 Abs. 1 lit. h PBG", "§ 19 VErV", "§ 20 VErV", "§ 23 VErV", "§ 26 VErV", "§ 27 VErV", "§ 27a VErV", "§ 28 VErV", "§ 29 VErV", "Anhang 3 VErV", "Anhang 4 VErV", "§§ 10-12 StrAV (aufgehoben)", "§ 16 StrAV (aufgehoben)", "§ 169 EG ZGB", "§ 170 EG ZGB", "§ 174 EG ZGB", "§ 177 EG ZGB", "§ 178 EG ZGB", "§ 179 EG ZGB", "§ 2a ABV", "Art. 6 SVG", "Art. 95 SSV", "Art. 96 SSV", "Art. 97 SSV", "Art. 98 SSV", "Art. 99 SSV", "Art. 15 FrSV", "BZO Thalwil Art. 17", "BZO Thalwil Art. 27", "revBZO Thalwil Art. 50", 260607_amtlich_zh_pbg.md, 260803_amtlich_zh_verkehrserschliessungsv.md, 260823_amtlich_zh_verv.md, 260823_amtlich_zh_strav-1978.md, 260823_amtlich_zh_verv-erläuterungsbericht.md, 260725_amtlich_zh_egzgb.md, 260607_amtlich_zh_bzo-thalwil.md, 260803_amtlich_zh_bzo-thalwil-revision-synopse.md, 260607_amtlich_zh_abv.md, 260824_amtlich_ch_svg-art6.md, 260824_amtlich_ch_ssv-art95-99.md, 260824_amtlich_ch_frsv-art15.md, "Merkblatt Abstände zu Pflanzen, Mauern und Einfriedungen, Gemeinde Thalwil, 11.12.2013", "Wegleitung BZO Thalwil Nachführung 2020, PBK 19.11.2020", "buecher/band-1/01-grundlagen.md (S. 89/97/98)", "buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md (S. 184 f.)", "buecher/band-1/02-nutzungsplanung-zonenarten-teil2.md", "buecher/band-2/13-weitere-grundanforderungen.md (S. 810-857)", "buecher/band-2/13-weitere-grundanforderungen-teil2.md (S. 858-891)"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[nutzungsziffern]], [[negative-vorwirkung-und-bzo-revision]], [[raumplanung-und-gestaltung]], [[baubewilligungsverfahren]], [[grundlagen-planungs-baurecht]], [[zonenkonformitaet]], [[baulinien-und-abstandslinien]]
 verifiziert:
+  - "2026-08-24 (Buch-Run 111, Stale-Flag-Sweep QUESTIONS.md Kap. 13 T2/Kap. 16 T3) — vier bislang
+    ungeprüfte Buch-Fundstellen aus derselben Kap.-13-Sektion (13.4.3-13.4.4) neu eingearbeitet:
+    § 241 PBG (Ersatzzufahrt/Enteignung) CONFIRMED gegen raw/260607_amtlich_zh_pbg.md; Art. 6 SVG +
+    Art. 95-99 SSV (Strassenreklamen) sowie Art. 15 FrSV (Neobiota) erstmals von Fedlex bezogen und
+    CONFIRMED (neue Primärquellen raw/260824_amtlich_ch_svg-art6.md,
+    raw/260824_amtlich_ch_ssv-art95-99.md, raw/260824_amtlich_ch_frsv-art15.md). **1 echte
+    Korrektur:** die bestehende Konkordanz-Zeile «Sichtbereiche freihalten — § 23 VErV — neu
+    gefasst» war irreführend verkürzt — § 23 VErV selbst nennt keine Masszahl, die
+    Sichtbereichs-Werte stehen in Anhang 3 (Fahrbahn, geschwindigkeitsabhängig, nicht mehr der
+    feste StrAV-Wert 90/150 m) und Anhang 4 (Velowege, längsneigungsabhängig 30-50 m statt fest
+    50 m) — Regimewechsel, nicht nur Nummernwechsel, analog zur bereits dokumentierten
+    §§-10-12-StrAV-Falle (Run 89). Anhang 3 bleibt in der Quelle formatierungsgestört (Icon-/
+    Grafikzellen statt Zahlen) und wird als offene Restlücke geführt, nicht geraten."
   - "2026-08-13 (Ersterstellung, Buch-Run 73, Batch T2) — sämtliche §§ wortgetreu gegen die amtlichen raw-Volltexte gegengelesen: § 238/§ 238a/§ 240/§ 257/§ 309 PBG gegen 260607_amtlich_zh_pbg.md; §§ 20/23/26-29 VErV gegen 260803_amtlich_zh_verkehrserschliessungsv.md; §§ 169-179 EG ZGB gegen 260725_amtlich_zh_egzgb.md und gegen das amtliche Merkblatt der Gemeinde Thalwil (Skizzenblatt, S. 1-2 und 4); Art. 27 BZO Thalwil und Art. 50 revBZO gegen die BZO- bzw. Synopsen-Volltexte. Die 1.40-m-Regel am Wortlaut der Wegleitung BZO Thalwil (Nachführung 2020) verifiziert — inklusive der davorstehenden Überschrift, die ihren Rechtscharakter bestimmt."
   - "2026-08-23 (Buch-Run 83, Modell-D Fassungsstand-Check, Fassungsvorbehalt aus Run 73 geschlossen) — konsolidierte LS-Fassung der VErV frisch von zhlex bezogen (Connector recht-ch.mjs, Nachtrag 127, Fassungsstand 1.1.2025, raw/260823_amtlich_zh_verv.md) und §§ 20/23/26-29 VErV Wort für Wort gegen die bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 CONFIRMED, wortgleich. 1 echte Korrektur: § 27 VErV wurde per RRB vom 14.09.2022 (in Kraft seit 1.12.2024) neu gefasst (Innerorts-/Ausserorts-Split 2 m/4 m statt einheitlich 4 m) und um § 27a (Verringerung) ergänzt — im Artikel korrigiert. Status emerging → established."
   - "2026-08-23 (Buch-Run 88, Rechtsprechungs-Register Ebene 4 aufgebaut) — 15 Praxisfundstellen zu § 238 Abs. 1 PBG aus fünf bereits gelesenen Buch-Destillaten (Band 1 UND Band 2 geprüft) themenweise zusammengetragen: Massstab, Begründungspflicht/Beurteilungsspielraum, Verhinderungsverbot, Zonenzugehörigkeit/Verdichtung, Stützmauern/Einfriedungen/Umschwung (der für diesen Artikel direkt einschlägige Block), Sondernutzungsplanung, Randfall. Kein neuer PDF-Bezug nötig — alle Fundstellen stammen aus bereits `verified`/`established` Kapiteln (Kap. 13 Teil 1+2 Band 2, Kap. 1/2/6 Band 1)."
@@ -56,6 +69,20 @@ Die Norm ist bewusst unbestimmt («in angemessenem Umfang», «nach Möglichkeit
 ihr Mass erst durch die kommunale Konkretisierung nach Abs. 4 oder durch die
 Grünflächenziffer (§ 257 PBG, siehe [[nutzungsziffern]]).
 
+### Gebietsfremde Organismen / Neobiota (Art. 15 FrSV) — ergänzt Buch-Run 111
+
+Die Begrünungspflicht nach § 238a PBG steht nicht im rechtsfreien Raum: **Art. 15 Abs. 1 und 2
+der Freisetzungsverordnung (FrSV, SR 814.911)** verlangt, dass der Umgang mit gebietsfremden
+Organismen weder Menschen/Tiere/Umwelt gefährdet noch die biologische Vielfalt beeinträchtigt
+(Abs. 1, sechs Teilkriterien), und untersagt den **direkten Umgang mit invasiven gebietsfremden
+Organismen nach Anhang 2** — ausgenommen Bekämpfungsmassnahmen (Abs. 2). Praxisrelevant für die
+Umgebungsgestaltung: **Pflanzverbot** für invasive Arten wie Kirschlorbeer (BEZ 2012 Nr. 14),
+Feuerbrand-Wirte, Zwergmispeln/Cotoneaster und Lorbeermispel/Photinia davidiana (SR
+916.205.1-Anhang). Die «Schwarze Liste»/«Watch List» von infoflora.ch sind **Empfehlungen ohne
+Gesetzeskraft** — bindend ist nur Art. 15 Abs. 2 FrSV i.V.m. Anhang 2. CONFIRMED (Struktur) gegen
+`raw/260824_amtlich_ch_frsv-art15.md`, frisch von Fedlex bezogen; die einzelnen in Anhang 2.1
+gelisteten Arten wurden für diesen Verifikationslauf nicht am Anhang selbst nachgeprüft.
+
 ### Die kommunale Ebene (Beispiel Thalwil)
 
 **Geltendes Recht — Art. 27 BZO Thalwil «Umgebungsgestaltung»** ist knapp und regelt gerade
@@ -97,7 +124,7 @@ noch stimmt.
 | Kurveninnenseite | (Skizze zu § 7: max. 0,80 m) | **§ 28** | **nein** — Regime gewechselt |
 | Lichtraumprofil | § 17 | **§ 20** | **nein** — Masse geändert |
 | Befreiung von festen Abstandsmassen | — | **§ 29** | neu gefasst |
-| Sichtbereiche freihalten | — | **§ 23** | neu gefasst |
+| Sichtbereiche freihalten | § 16 (fest 90/150/50 m) | **§ 23 + Anhang 3/4** | **nein** — von fest auf geschwindigkeits-/neigungsabhängig gewechselt |
 | Gestaltung/Konstruktion (§ 238 PBG-Verweis) | § 10 | — | **entfallen, siehe unten** |
 | Vorsprünge, Türen/Tore in den Abstandsbereich | § 11 | — | **entfallen, siehe unten** |
 | Spitze/scharfe Materialien bis 2,5 m | § 12 | — | **entfallen, siehe unten** |
@@ -209,9 +236,34 @@ unterschreitet das geltende Mass. Die StrAV-Sonderwerte für Versorgungs- und Ex
 (4,8 / 5,2 m) sind in der VErV in Anhang 6 gewandert.
 
 **§ 23 VErV:** Die erforderlichen Sichtbereiche sind **dauernd freizuhalten** — die
-Auffangnorm, die auch eine an sich zulässige Mauer nachträglich angreifbar macht.
+Auffangnorm, die auch eine an sich zulässige Mauer nachträglich angreifbar macht. § 23 selbst
+nennt **keine** Masszahl; die Werte stehen in den **Anhängen 3 und 4** der Verordnung.
 **§ 29 VErV** befreit Strassenausstattungen und inventarisierte Schutzobjekte von festen
 Abstandsmassen, soweit die Verkehrssicherheit gewährleistet ist.
+
+**Ergänzt Buch-Run 111 (2026-08-24) — dieselbe Fassungsstand-Falle wie bei §§ 10-12 StrAV, hier
+mit anderem Ausgang:** die alte **§ 16 StrAV** kannte feste Sichtbereichs-Masse (innerorts
+**90 m**, ausserorts **150 m**, begleitender Radweg **50 m**, Pflanzenhöhe im Sichtbereich
+**0,8 m**, S. 883/888 Buch-Destillat `buecher/band-2/13-weitere-grundanforderungen-teil2.md`).
+Die Nachfolgenorm ist **nicht** § 23 VErV allein, sondern **Anhang 3** (Sichtbereiche auf
+Fahrbahn) und **Anhang 4** (Sichtbereiche auf Velowege) — und das Regime hat strukturell
+gewechselt, nicht nur die Fundstelle: statt eines einzigen festen Werts je Strassentyp
+(innerorts/ausserorts) verlangt **Anhang 3** einen **von der signalisierten Geschwindigkeit
+abhängigen** Sichtbereich (die amtliche Tabelle staffelt nach km/h-Klassen und weist für den
+oberen Geschwindigkeitsbereich Bandbreiten von **70-90 m bis 110-140 m** aus; die exakten
+Werte der unteren Geschwindigkeitsklassen liessen sich aus dem amtlichen PDF nicht
+verlässlich extrahieren — Tabelle enthält Formatierungsartefakte, „±"-Platzhalter statt
+Zahlen — vor einer harten Zitierung im Einzelfall am Original nachmessen, nicht raten).
+**Anhang 4** ist dagegen **vollständig lesbar** und ersetzt den einen StrAV-Fixwert (50 m
+Radweg) durch eine **von der Längsneigung abhängige** Staffel: ≥ −5 % → ≥ 50 m, −4 % → 45 m,
+−2 % → 35 m, 0 ≤ → 30 m (Sichtbereich vertikal frei zwischen 0,8 m und 2,65 m). **Praktische
+Folge:** die Faustzahlen «90/150/50 m» aus dem Standardwerk (Stand 2019, zitiert die
+aufgehobene StrAV) sind für Projekte nach dem 01.06.2020 **nicht mehr direkt verwendbar** —
+weder als fixe Grösse noch als Näherung, weil das Anhang-3-Regime geschwindigkeitsabhängig
+ist und je nach Strassentyp deutlich über 90/150 m liegen kann. Primärquelle: `raw/260803_amtlich_zh_verkehrserschliessungsv.md` (Anhang 3/4, Erlassfassung
+2019, `pdf_url` in der Frontmatter), frisch erneut mit `pdftotext -layout` extrahiert —
+Anhang 4 sauber lesbar, Anhang 3 weiterhin formatierungsgestört (Werte als Icon-/Grafikzellen
+im Original, nicht als Text hinterlegt).
 
 **Kantonale Auffangnorm über allem:** **§ 240 Abs. 1 PBG** — durch Bauten, Anlagen,
 **Bepflanzungen** und sonstige Grundstücknutzungen darf weder der Verkehr behindert oder
@@ -222,6 +274,32 @@ gefährdet noch Bestand und Sicherheit des Strassenkörpers beeinträchtigt werd
 bisherige 2019er-Erlassfassung abgeglichen. §§ 20/23/26/28/29 VErV **CONFIRMED**, wortgleich,
 keine Nachträge. **§ 27/§ 27a VErV wurden per RRB vom 14.09.2022 geändert bzw. neu eingefügt (in
 Kraft seit 01.12.2024)** — Korrektur siehe oben.
+
+### § 241 PBG und Strassenreklamen (Art. 6 SVG, Art. 95-99 SSV) — ergänzt Buch-Run 111
+
+Zwei Nachbarthemen aus derselben Buch-Sektion (13.4.3.3/13.4.4), bislang nicht im Wiki geführt:
+
+- **§ 241 PBG — Ersatzzufahrt bei Zutrittsuntersagung:** Bei Strassen für den grossen
+  Durchgangsverkehr kann der Regierungsrat (in den Städten Zürich/Winterthur der Stadtrat) den
+  seitlichen Zutritt allgemein untersagen (Abs. 1). Das anordnende Gemeinwesen muss dafür eine
+  für die Grundstücknutzung **unerlässliche Ersatzzufahrt** schaffen — in der Benützbarkeit der
+  bisherigen Zufahrt entsprechend, höchstens aber der erlaubten Grundstücknutzung — und hat dafür
+  das **Enteignungsrecht** (Abs. 2). CONFIRMED wortgleich gegen `raw/260607_amtlich_zh_pbg.md`.
+- **Strassenreklamen (Art. 6 SVG, Art. 95-99 SSV):** Bundesrecht, nicht kantonales PBG. **Art. 6
+  Abs. 1 SVG** untersagt Reklamen, die Verkehrssicherheit beeinträchtigen «**könnten**» — der
+  tiefe Beweismassstab trägt die strenge Praxis (VB.2014.00155 E. 4, BGr 1C_4/2014). **Art. 96
+  SSV** konkretisiert mit einem Katalog (Erschweren des Erkennens anderer
+  Verkehrsteilnehmender, Behinderung auf Fussgängerflächen, Verwechslungsgefahr mit
+  Signalen/Markierungen, Herabsetzen ihrer Wirkung) plus einem Katalog stets untersagter Fälle
+  (Lichtraumprofil, Fahrbahn ausser Fussgängerzone, Tunnel/Unterführungen ohne Trottoir,
+  Signal-/Wegweiser-Elemente). **Art. 97/98 SSV** verbieten Strassenreklamen an Signalen bzw.
+  auf Autobahnen/Autostrassen, mit eng gefassten Ausnahmenkatalogen. **Art. 99 Abs. 2 SSV**
+  erlaubt den Kantonen, innerorts Ausnahmen von der Bewilligungspflicht festzulegen — der
+  Ansatzpunkt für kommunale Erleichterungen. Zuständigkeit im Kt. ZH nach § 26 KSigV
+  (Kantonspolizei für Autobahnen/-strassen, sonst Gemeinden). Baulinienbereich: § 100 Abs. 3
+  PBG (Beseitigungsrevers) bleibt zusätzlich einschlägig, siehe [[baulinien-und-abstandslinien]].
+  Alle drei Bundesnormen frisch von Fedlex bezogen und **CONFIRMED wortgleich** gegen das
+  Buch-Destillat (`raw/260824_amtlich_ch_svg-art6.md`, `raw/260824_amtlich_ch_ssv-art95-99.md`).
 
 ## 3 · Ebene Privatrecht — §§ 169 ff. EG ZGB
 
