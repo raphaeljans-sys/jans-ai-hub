@@ -2,10 +2,10 @@
 quelle: «Handbuch Eigenverbrauchsregelung (HER) — Umsetzung der Eigenverbrauchsregelung», HER-CH 2025
 herausgeber: Verband Schweizerischer Elektrizitätsunternehmen VSE (Netzwirtschaftskommission), Aarau; Branchendokument (Werkzeug/Software) zum VSE-Regelwerk
 ausgabe: HER-CH 2025, verabschiedet durch VSE-Geschäftsleitung 10.02.2025
-gelesen: 2026-07-04 (S. 1-12: Ziel, Definitionen, Ausgangslage/Entwicklung ZEV↔vZEV; Rechte/Pflichten + Anschluss-Beispiele S. 13-39 überflogen)
+gelesen: 2026-07-04 (S. 1-12: Ziel, Definitionen, Ausgangslage/Entwicklung ZEV↔vZEV); 2026-08-24 (S. 13-39 vollständig nachgelesen, A-BLIND-Verifikation: Erheblichkeitsschwelle, Rechte/Pflichten, Kostentragung, Anschluss-Beispiele A1-A3, Checkliste)
 datenstand: Rechtsbasis EnG (30.09.2016) + revidierte EnV, beide Stand 01.01.2025 (Stromgesetz/«Mantelerlass»); ⚠ schnell alternd (LEG-Einführung)
 status: established
-last_updated: 2026-07-04
+last_updated: 2026-08-24
 ---
 
 # ZEV / vZEV — Solarstrom im Mehrfamilienhaus vermarkten (VSE HER-CH 2025)

@@ -1,9 +1,9 @@
 # Stations-Status: macbook-pro
 
-Stand: 24.08.2026 06:57:24
+Stand: 24.08.2026 07:09:49
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 06:46)
+- Developer/jans/ai/hub  (letzte Aktivitaet 07:10)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 06:57:24
 - keine
 
 ## Hub-Git-Stand (NAS)
-- 505a40cd nas-selfcommit: 26 Datei(en) 2026-08-24 06:46
+- fbd15200 baurecht-buch-training Run 126: Kniestock-/Anrechenbarkeits-Rechtsprechung in geschosse-und-kniestock verifiziert (VB.2003.00370 korrigiert, VB.2007.00383 bestaetigt, VB.2003.00051 unauffindbar)

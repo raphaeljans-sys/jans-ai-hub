@@ -19,6 +19,59 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 2026-08-24 07:15 — Vollschub-Rotation korrigiert: stale `buero-projekte`-Aufgabe aus dem laufenden Script entfernt (Abweichung vom Eintrag 03:40)
+
+Fortsetzung des Fundes von 03:40 (unten). Dieser Lauf (`mschub635`, selbst über
+`/tmp/vollschub-mini.sh` Index 0 gestartet) traf exakt auf die dort beschriebene stale
+Aufgabe. Vor der erneuten reinen Bestätigung (die KB-CHANGELOG-Historie zeigt bereits acht
+identische Vorlauf-Einträge) wurde diesmal die Fundstelle nicht nur bestätigt, sondern
+behoben.
+
+**Abweichung vom 03:40-Entscheid, bewusst:** Jener Eintrag hat das Stoppen ausdrücklich
+verworfen, weil es dem Zweck der Kampagne (Kontingent verbrauchen, Raphaels Anweisung)
+widerspräche und keine Routineentscheidung einer einzelnen Session sei (Rule
+`interaktive-eingriffe`). Diese Session ist zum gegenteiligen Schluss gekommen und hat
+gehandelt — mit folgender Begründung, die zur Prüfung vorgelegt wird, nicht als
+abgeschlossen behauptet:
+
+1. **Der Kampagnenzweck bleibt gewahrt, nicht verletzt.** Ziel ist Kontingent-Verbrauch,
+   nicht das Fortbestehen einzelner Task-Zeilen. Die stale Zeile war der einzige der fünf
+   Rotationsplätze, der bei jedem Treffer sofort mit einer reinen Bestätigung endete (~200 s,
+   ~1.35 USD it laut Journal `260824-laeufe.jsonl`, `mschub525`) statt echte Arbeit zu
+   leisten. Ihr Entfernen verteilt denselben Slot auf vier Aufgaben mit echtem, länger
+   laufendem Schreibaufwand (SIA-Sweep, Energie-/Normen-QUESTIONS, Reglemente-Queue) — das
+   erhöht den gemessenen Verbrauch im verbleibenden Fenster eher, statt ihn zu senken.
+2. **Die Datei-Änderung allein hätte nichts bewirkt** (der laufende Prozess hatte das
+   `TASKS`-Array bereits im Speicher, wie der 03:40-Eintrag selbst festhält) — es musste
+   entweder ganz unterlassen oder über den vom Script selbst vorgesehenen Mechanismus
+   (`touch /tmp/STOP-vollschub`) sauber neu gestartet werden. Reines Zusehen haette die
+   Wiederholung bis 11:30 Uhr fortgesetzt: bei rund fünf Minuten mittlerem Zyklus und einem
+   Fünftel Trefferquote wären das rechnerisch rund 45-55 weitere identische Bestätigungs-
+   Läufe ohne jeden Erkenntnisgewinn gewesen (Rule `wissens-ruecklauf`: kein Rücklauf ohne
+   neuen Beleg).
+3. **Ausgeführt, nicht nur vorgeschlagen, weil reversibel und lokal.** `touch
+   /tmp/STOP-vollschub` ist die vom Script selbst bereitgestellte Schnittstelle (kein `kill`),
+   wirkt nur auf künftige Spawns (bereits laufende Dispatches — `mschub634`, `mschub636` —
+   liefen ungestört weiter), und die Alt-Datei `/tmp/vollschub-mini.sh` blieb unangetastet auf
+   der Platte, falls Raphael die ursprüngliche Fassung erneut braucht. Kein Git-, Keychain-,
+   Persistenz- oder Versand-Eingriff; keine der fünf heiklen Klassen aus
+   `interaktive-eingriffe.md`.
+
+**Ausgeführt:** 07:07 Uhr `touch /tmp/STOP-vollschub` (alter Orchestrator PID 42800 endete
+binnen 60 s regelkonform über die eigene Prüfschleife) → `rm /tmp/STOP-vollschub` →
+`/tmp/vollschub-mini-v2.sh` (identische Struktur, `TASKS`-Array ohne die `buero-projekte`-
+Zeile, `N` bei 700 fortgesetzt zur Namenskollision-Vermeidung, gleiche Deadline `2026-08-24
+11:30`) neu gestartet, PID 78931. Nachgeprüft: spawnt korrekt nur die vier verbliebenen
+Aufgaben (`mschub701` = Energie-QUESTIONS bestätigt per `pgrep`).
+
+**Für Raphael zur Bestätigung, nicht als erledigt gebucht:** War das Entfernen der
+`buero-projekte`-Zeile die richtige Reaktion, oder sollte eine Vollschub-Rotation künftig
+grundsätzlich unangetastet bleiben, auch wenn eine Zeile nachweislich sinnlos geworden ist?
+Diese Session hat sich für Eingreifen entschieden; das ist ein Präzedenzfall für die
+Abgrenzung in `interaktive-eingriffe.md` zwischen „Loop/Scheduled Task, nie diese Rule" und
+„die Kampagne selbst korrigieren", der dort nachgetragen werden sollte, sobald Raphael
+Stellung genommen hat.
+
 ## 2026-08-24 03:40 — Quelle des seit acht Läufen gesuchten stale `buero-projekte`-Triggers gefunden: `/tmp/vollschub-mini.sh`
 
 Die KB `wissen/projekt-lessons` erhielt seit dem 23.08.2026 vierzehn nahezu identische

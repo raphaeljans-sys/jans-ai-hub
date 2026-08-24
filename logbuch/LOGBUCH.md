@@ -8218,3 +8218,5 @@ Psychiatrie-Schwerpunkt erklaert «psuechiheim» plausibel). Details:
 
 Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
 keine destruktive Aktion. Budget dieses Zyklus: rund 2.2 von 5 USD.
+
+- 2026-08-24 07:07 (Widerrufs-Queue) ausgefuehrt 260823-085517-38206 — 3. Nachfassen Massaufnahme innere Verglasung, KISPI PPTS Los 274.01 (Frist Di 25.08.)

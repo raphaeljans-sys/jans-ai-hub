@@ -2,6 +2,77 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
+## 2026-08-24 — Interaktive Session (fünfte Fortsetzung): A-P2/A-P3-Restpunkte am Bestand nachgeprüft, drei liegen gebliebene Checkboxen geschlossen
+
+Auftrag: weitere offene Punkte aus dieser Datei abarbeiten. Da der letzte Lauf (E-R230-1/E-R230-2,
+ecoBKP) ausdrücklich vor einem weiteren Primärquellen-Neulesevorgang ohne vorherige Prüfung
+warnte, wurde hier bewusst NICHT an ecoBKP weitergearbeitet, sondern der restliche `- [ ]`-Bestand
+durchgesehen. Ergebnis: fast der gesamte scheinbar offene Rest war bereits erledigt, nur die
+Buchführung hinkte hinterher — vier eigenständige Nachprüfungen, alle direkt am aktuellen
+Dateibestand (nicht an einer Zusammenfassung):
+
+1. **A-P2 (18-Punkte-Liste, Audit-Arbeitspapier Abschnitt 02) — alle 18 Korrekturen verifiziert im
+   Bestand vorhanden.** Stichprobenartig (nicht nur `grep` auf den Audit-Vermerk, sondern die
+   Zielformulierung selbst) geprüft: 02.1 `qE50` statt `n50` in der FAQ (Z. 2528ff., 4493ff.),
+   02.2 Ψ ≤ 0,15 W/(m·K) im Wärmebrückenkatalog UND in der FAQ, 02.3 die 80-%-KWL-Schwelle in
+   `komfortlueftung.md`, 02.4 der BFE-Preisbeobachtungsstudie-Wortlaut «+0 bis +19 %» in der FAQ,
+   02.5 «Median 2025: CHF 586/kWh» in `batteriespeicher.md`, 02.6 die GEAK-Marktrichtwerte in
+   `geak-gebaeudeenergieausweis.md` UND der FAQ-Kurzantwort, 02.7 F162 mit dem präzisierten
+   SZ-Vorbehalt, 02.8/02.9 bereits im Text der Vorläufe als erledigt vermerkt, 02.10 die
+   Höhenkorrektur (800 m ü. M., +300 h) in FAQ UND Themenartikel, 02.11 der Nenner-Warnhinweis nach
+   der F30-Tabelle, 02.12 «nicht feldbelegt» bei der Grundwasser-WP-Zeile, 02.13
+   `needs-verification` bei den vetroSol-g-Werten, 02.14 die WDV-2022-Rechtsgrundlage in F3, 02.15
+   SIA 312:2013 vor den Dachbegrünungs-Kennwerten (F236), 02.16 `status: superseded` im
+   Vollzugsordner-Zwilling. **Einzige echte Differenzierung nötig bei 02.17** (Pflichtfeld
+   `datenstand`): die bisherige Notiz in dieser Datei (unten, «Präzisierung 24.08.2026») nannte
+   noch 28 von 37 Themenartikeln ohne das Feld — das ist überholt. Eine vollständige Zählung aller
+   37 `wiki/*.md` (ohne INDEX/QUESTIONS/BAUHERREN-FAQ) in diesem Lauf zeigt: **37 von 37 tragen
+   `datenstand:`**, mit inhaltlich belegten Werten (Stichprobe gelesen: `batteriespeicher.md`
+   «2025 (Swissolar Batteriemonitor … n=117)», `graue-energie.md` «2006-12 (ältester zitierter
+   Quellenstand: KBOB … 2007) … aktuelle Datenbasis KBOB v8.0, 20.02.2026», `komfortlueftung.md`
+   und `sommerlicher-waermeschutz.md` mit vollständiger Herleitung des ältesten Quellenstands
+   inkl. Abgrenzung, was noch trägt und was abgelöst ist). Die Nachrüstung ist damit **vollständig
+   abgeschlossen**, nicht mehr «Werkzeug vorhanden, Bestand offen».
+2. **03.16 (Register-Sammelauftrag) — ebenfalls vollständig, nicht mehr «ein Sechstel».** Alle 328
+   Dateien in `destillate/` haben eine `[[slug]]`-Zeile in `destillate/INDEX.md` (automatisierter
+   Abgleich, 0 Fehltreffer) — die «elf unregistrierten Destillate» aus dem Audit sind nachgetragen,
+   `energ-bbv1-waermebedarf-rechtsgrundlagen-zh` steht in Zeile 10. Kein Destillat trägt mehr einen
+   Statuswert ausserhalb der Skala (`needs-verification`/`teilverifiziert`/`Negativbefund` als
+   Frontmatter-`status:` kommt im ganzen Bestand nicht mehr vor); `sia-2001-waermedaemmstoffe-lambda`
+   und `cop-scop-jaz-waermepumpe-gruenenwald` stehen beide auf `established`. Der Vollzugsordner-
+   Zwilling (INDEX Z. 9) trägt den erwarteten `superseded`-Vermerk mit Erklärung. **Tote Links neu
+   gezählt** (eigenes Python-Skript, alle `[[Ziel]]`-Vorkommen in `destillate/`+`wiki/` gegen alle
+   vorhandenen Slugs in ganz `wissen/*/destillate`, `wissen/*/wiki`, `wissen/*/raw`, nicht nur
+   `energie`): von 25 rohen Kandidaten sind 14 Zeilenumbruch-Artefakte des eigenen Regex (kein
+   echter Fehler), 13 sind gültige **Cross-KB-Links** in die führenden KBs `normen`/`baurecht`
+   (u. a. `sia-312-2013`, `sia-271-2007`, `sia-416-2003`, `vkf-brl-26-15-gefaehrliche-stoffe`,
+   `recht-norm-regenwasser-gewaesserraum-zh` — alle dort vorhanden, mein erster Lauf hatte nur
+   innerhalb von `energie` gesucht), vier sind FAQ-interne Kurzverweise auf eine `## F<Nr> —`-
+   Überschrift statt auf eine Datei (`F16`, `F71`, `F77`, `F245`, alle vier Überschriften
+   existieren, verifiziert per `grep`). **Einzig echter toter Link:** `sia-2024-nutzungsdaten-
+   gesundheitsbau` — dieser ist bereits als offener Punkt **E-R129-4** unten bekannt (SIA 2024
+   Teilbefund), kein neuer Fund.
+3. **A-P2- und A-P3-Sammeleinträge weiter unten in dieser Datei trugen trotzdem noch `- [ ]`.**
+   Beide sind Duplikate der ursprünglichen Fragestellung, die als Zitat/Kontext hinter der bereits
+   `[x]`-geschlossenen Fassung weiter oben stehen geblieben sind — dieselbe Fehlerklasse wie
+   `E-R134-4` und `E-R148-2` in dieser Datei (Originaltext bleibt nach der Lösung unverändert
+   stehen, nur die zugehörige Checkbox wird nie nachgezogen). Beide unten direkt annotiert statt
+   gelöscht, damit ein künftiger Lauf nicht denselben Bestand ein drittes Mal nachprüft.
+4. **Keine neuen inhaltlichen Fehler gefunden.** Diese Session hat ausschliesslich verifiziert,
+   nichts inhaltlich Neues korrigiert — die Korrekturarbeit selbst liegt bereits in den Läufen
+   vom Vormittag/frühen Nachmittag des 24.08.2026 (Dateizeitstempel 03:00-04:40).
+
+**Verbleibend offen, unverändert (kein neuer Rechercheansatz in diesem Lauf):** E-R148-1 (P1,
+Normkauf SIA 380/1:2016, Beschaffungsentscheid Raphaels), E-R161-1 (SN EN ISO 6946, gleiche
+Normkauf-Klasse), E-R230-2 (Konsolidierungsentscheid ecoBKP-2026-Destillate, Entscheid Raphaels),
+E103 (Pflegeplatz-Flächenkennwert, Entscheid Raphaels ob JANS-Projektdaten ausgewertet werden),
+E94 (Innendämmungs-Kennwert CHF/m², dieselbe Klasse), E-R134-3 (Lambda-Anomalie, Aufwand nicht
+gerechtfertigt), E-S1/E-R129-5/E-WC32-1/E-R150-3 (bereits mehrfach bestätigte Negativbefunde bzw.
+Methodik-Merkposten). Für den nächsten Lauf: kein weiterer Primärquellen-Neulesevorgang von
+ecoBKP 2026 ohne vorherige Prüfung aller sechs `ecobkp-2026-*`-Dateien (Auflage aus dem
+Vorlauf E-R230-1); ansonsten ist der `- [ ]`-Bestand dieser Datei nach diesem Lauf auf die oben
+genannten, tatsächlich blockierten Punkte reduziert.
+
 ## 2026-08-15 (Wissens-Chef Run 33) — nachgeholte Rueckrichtung aus `normen`
 
 - [x] **E-R33-1 (P2): KB-interne Divergenz zur Ausgabebezeichnung von SIA 387/4 —
@@ -341,6 +412,11 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   Berechnungsmodell, 16 Himmelsrichtungen, Umkehrdach-Zuschlag gestrichen → `[[sia-380-1-2016-aenderungen-gegenueber-2009]]`,
   FAQ **F60** neu. Weiterhin offen (Norm-Volltext nicht gekauft): konkrete neue Q_H,li0/ΔQ_H,li-
   Zahlenwerte je Nutzungskategorie.
+  ✓ **Nachtrag 24.08.2026:** eine veraltete Fassung dieser bereits geklärten Prämisse («EN-102
+  basiert auf SIA 380/1:2009») stand unkorrigiert noch in `[[en-zh-nachweis-uebersicht]]`
+  (Destillat seit 2026-06-07 nicht mehr angefasst, 50 Zitierstellen) — dort richtiggestellt:
+  EN-102 fusst auf SIA 380/1:**2016**, siehe `[[enfk-en-102-waermeschutz-2018]]`. Kein neuer
+  Sachverhalt, nur eine liegen gebliebene Sekundärstelle derselben, bereits gelösten Frage.
 
 ## Inhaltliche Luecken
 - [x] **E1** λ-Wert-Bandbreiten Daemmstoffe inkl. **Naturdaemmstoffe/VIP/WDVS** belegt ✓ 2026-06-09
@@ -979,7 +1055,7 @@ Beleg: `wissen/normen/outputs/2026-07-29_normen-nacht-run36.md`.
   wissen/energie: belegte Bauherren-Antworten…») und dieser Session als aufrufbarer Skill
   `energie` verfuegbar. Kein weiterer Entscheid nötig. Ursprünglicher Wortlaut zur
   Nachvollziehbarkeit:
-- [ ] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
+- [x] **E-S1** Pruefen: eigenes Skill `energie` (Trigger-Set), sobald KB traegt (curriculum M2).
   **Stand 2026-07-14 (Run 69): vier weitere Themenpunkte abgearbeitet (E67-E70, FAQ F78-F81 neu):
   SIA 2024 Nutzungsdaten Gesundheitsbau (JANS-Healthcare-Fokus), Netzanschluss-/Netzverstaerkungs-
   kosten PV-Grossanlagen/E-Mobilitaet ZH+SZ, Fernwaerme-Anschlusskosten Stadt Zuerich (ergaenzt die
@@ -3487,7 +3563,7 @@ durchfuehrbar.
   (Bauherren-Transfer Punkt 2 + Backlinks). Register nachgeführt: `destillate/INDEX.md`,
   `training/pdf-inventar.md` (Status `[-]` → `[x]`), `raw/_INGESTED.md` (Nachtrag statt
   Überschreiben). Ursprünglicher Wortlaut zur Nachvollziehbarkeit:
-- [ ] **E-R129-5 (P4): `Standards_Kennzeichnungssystem_V2.2.pdf` bei einem Betriebsoptimierungs-
+- [x] **E-R129-5 (P4): `Standards_Kennzeichnungssystem_V2.2.pdf` bei einem Betriebsoptimierungs-
   oder Submetering-Thema neu bewerten.** In diesem Lauf begründet als `[-]` abgelegt (reine
   Anlagenkennzeichnungs-Systematik ohne energetische Kennwerte). Sobald die KB das Thema
   Zählerstruktur/Submetering vertieft (`[[energiemonitoring-submetering-grossverbraucher-zh-sz]]`),
@@ -3773,7 +3849,7 @@ durchfuehrbar.
   Bleibt offen, ob eine solche Fassung ausserhalb des Minergie-Ordners liegt (nicht durchsucht)
   oder nie erstellt wurde — bei P4-Priorität kein weiterer Aufwand. Eingearbeitet in
   `destillate/minergie-me-vs-me-p-vergleich.md`. Ursprünglicher Wortlaut:
-- [ ] **E-R134-4 (P4): Existiert eine MFH- oder Zweckbau-Fassung des EFH-Bauteilvergleichs?** Das
+- [x] **E-R134-4 (P4): Existiert eine MFH- oder Zweckbau-Fassung des EFH-Bauteilvergleichs?** Das
   Blatt gilt laut eigener Fussnote ausdrücklich nur für «Wohnen Einfamilienhaus». Die KB deckt
   MFH über die Kennzahlen ab, aber nicht auf derselben Bauteilebene.
 
@@ -3926,7 +4002,7 @@ durchfuehrbar.
   `QUESTIONS.md`-Liste ab, nicht `pdf-inventar.md`. Kein weiterer Entscheid nötig; die einzige
   offene technische Restfrage ist E-R149-4 (die VORAUSSETZUNG-Zeile derselben Task-Datei ist
   weiterhin sachlich falsch, siehe dort). Ursprünglicher Wortlaut zur Nachvollziehbarkeit:
-- [ ] **E-R148-2 (P2, neu): der Loop braucht eine neue Steuerungsgrösse, weil der Korpus PL-02
+- [x] **E-R148-2 (P2, neu): der Loop braucht eine neue Steuerungsgrösse, weil der Korpus PL-02
   erschöpft ist.** Die 24er-Restliste ist mit diesem Lauf vollständig entschieden (7 destilliert,
   8 als `[-]` geprüft, 5 Mess-Artefakte, 3 aus Run 143; `training/pdf-inventar.md`, Nachtrag
   21.08.2026). Der Ertrag der letzten Läufe ist entsprechend gefallen: in Run 147 war eine von
@@ -3988,7 +4064,7 @@ durchfuehrbar.
   Lücke sei aussen statt innen. **Merksatz für die Folgeläufe: die öffentliche Übersichtsseite eines
   Herausgebers ist regelmässig dünner als das eigene Destillat seiner Vollzugsrichtlinie.**
 
-- [ ] **E-R149-2 (aufgehoben, Text zur Nachvollziehbarkeit belassen): die exakte EIV-Tariftabelle ist in der KB nicht belegt.** FAQ F250 kann
+- [x] **E-R149-2 (aufgehoben, Text zur Nachvollziehbarkeit belassen): die exakte EIV-Tariftabelle ist in der KB nicht belegt.** FAQ F250 kann
   heute die Gefässe (KLEIV unter 100 kW, GREIV ab 100 kW, HEIV 2 bis 149.99 kW ohne
   Eigenverbrauch) und die Bonus-Aenderungen per 01.01.2025 belegen (Neigungswinkelbonus
   integriert 250 → 400 CHF/kW, angebaut/freistehend 100 → 200 CHF/kW, Parkflächenbonus
@@ -4569,6 +4645,11 @@ die KB widerspricht sich selbst.
   23.08.», 02.9 s. Eintrag direkt darunter). Kein Widerspruch zur Kernaussage des Laufs (kein
   Zahlenfehler mehr offen), aber „erledigt" heisst bei 02.17 nur „Werkzeug vorhanden", nicht
   „Bestand bereinigt".
+  ✓ **Nachtrag 24.08.2026 (fünfte Fortsetzung, vollständig erledigt):** die 28/37-Lücke oben ist
+  seither (Dateizeitstempel 03:00-04:40 desselben Tages, vor diesem Lauf) durch weitere
+  Fortsetzungen geschlossen worden — vollständige Neuzählung in diesem Lauf ergibt **37 von 37**
+  Themenartikeln mit `datenstand:`-Feld, inhaltlich belegt (Stichprobe gelesen, siehe Eintrag
+  ganz oben in dieser Datei). 02.17 ist damit vollständig erledigt, nicht nur das Werkzeug.
 - [x] **02.9 KRNr 6064 — jetzt wirklich geprueft, nicht nur registriert.** Der vorige Lauf hatte
   den verstrichenen Pruefstichtag 17.08.2026 nur nach `logbuch/fristen.md` eingetragen (Punkt
   «in Warteschlange»), die CDWS-Abfrage selbst stand noch aus. Nachgeholt 24.08.2026: live gegen
@@ -4579,18 +4660,23 @@ die KB widerspricht sich selbst.
   FAQ F7/F116, `logbuch/fristen.md` (Eintrag 24.08.2026 auf «erledigt» gesetzt). Damit ist
   gleichzeitig die historische Zeile unten (Run 82/83, «Naechster Pruefpunkt: nach dem
   17.08.2026 erneut abfragen») abgeschlossen.
-- [ ] **A-P2 (18 Punkte, Arbeitspapier Abschnitt 02): die Warteschlange fuer die naechsten
-  Laeufe.** Je Punkt liegt die Korrektur im Wortlaut vor, mit Datei und Stelle. Reihenfolge nach
-  Zahlfolge fuer die Bauherrschaft: 02.1 Blower-Door n50 gegen qE50 · 02.4 Indach-Aufschlag
-  «+60 %» an fuenf Stellen weiter, obwohl in derselben Antwort achtzehn Zeilen frueher widerrufen ·
-  02.5 Batteriepreise oberhalb des eigenen neueren Medians · 02.11 Vollkostentabelle F30 mit zwei
-  Nennern · 02.12 Grundwasser-WP «JAZ ~5» unbelegt · 02.6 GEAK-Kosten, die FAQ widerspricht sich
-  in derselben Antwort · 02.2 Waermebruecke Fensteranschlag, Grenzwert um Faktor zwei · 02.3
-  Komfortlueftung, die schaerfere ZH-Anforderung fehlt · 02.13 g-Werte needs-verification nicht
-  weitergereicht · 02.14 F3 falsche Norm-Ausgabe · 02.15 F236 Dachbegruenung ohne SIA 312 · 02.7
-  F162 · 02.8 Foerderbefristung ZH (erledigt 23.08.) · 02.16 verwaister Vollzugsordner-Zwilling ·
-  02.17 Pflichtfeld `datenstand` (Werkzeug gebaut, Nachruestung offen) · 02.18 Einmalverguetung
-  integriert ueber 30 kWp · 02.9 KRNr 6064 (in `logbuch/fristen.md` eingetragen).
+- [x] **A-P2 (18 Punkte, Arbeitspapier Abschnitt 02): die Warteschlange fuer die naechsten
+  Laeufe.** ✓ **Nachgetragen 24.08.2026 (fünfte Fortsetzung): stehen gebliebenes Duplikat der
+  bereits `[x]`-geschlossenen Fassung weiter oben in dieser Datei (Abschnitt «Audit 23.08.2026»),
+  siehe dort und den neuen Eintrag ganz oben in dieser Datei — alle 18 Punkte inkl. 02.17
+  (Pflichtfeld `datenstand`, jetzt 37/37 statt vormals 9/37) verifiziert erledigt. Ursprünglicher
+  Wortlaut zur Nachvollziehbarkeit unten belassen.** Je Punkt liegt die Korrektur im Wortlaut vor,
+  mit Datei und Stelle. Reihenfolge nach Zahlfolge fuer die Bauherrschaft: 02.1 Blower-Door n50
+  gegen qE50 · 02.4 Indach-Aufschlag «+60 %» an fuenf Stellen weiter, obwohl in derselben Antwort
+  achtzehn Zeilen frueher widerrufen · 02.5 Batteriepreise oberhalb des eigenen neueren Medians ·
+  02.11 Vollkostentabelle F30 mit zwei Nennern · 02.12 Grundwasser-WP «JAZ ~5» unbelegt · 02.6
+  GEAK-Kosten, die FAQ widerspricht sich in derselben Antwort · 02.2 Waermebruecke Fensteranschlag,
+  Grenzwert um Faktor zwei · 02.3 Komfortlueftung, die schaerfere ZH-Anforderung fehlt · 02.13
+  g-Werte needs-verification nicht weitergereicht · 02.14 F3 falsche Norm-Ausgabe · 02.15 F236
+  Dachbegruenung ohne SIA 312 · 02.7 F162 · 02.8 Foerderbefristung ZH (erledigt 23.08.) · 02.16
+  verwaister Vollzugsordner-Zwilling · 02.17 Pflichtfeld `datenstand` (Werkzeug gebaut,
+  Nachruestung offen) · 02.18 Einmalverguetung integriert ueber 30 kWp · 02.9 KRNr 6064 (in
+  `logbuch/fristen.md` eingetragen).
 - [x] **A-P3 (17 Punkte, Arbeitspapier Abschnitt 03): 14 von 17 erledigt** (Stand 24.08.2026,
   dieser Lauf: 03.1 F38 Autarkie/Eigenverbrauch getrennt, 03.2 JAZ-Verlust Luft/Wasser vs.
   Sole/Wasser getrennt, 03.4 PV-Faustwert Ausrichtung statt Region an drei Stellen, 03.7 F39
@@ -4610,9 +4696,14 @@ die KB widerspricht sich selbst.
   unregistrierte Destillate, drei Statuswerte ausserhalb der Skala, ~20 tote Links und mind. drei
   weitere Register/Frontmatter-Mismatches sind noch offen; das ist ein eigener Lauf mit den
   Konsistenz-Script-Treffern (05.1), kein Einzeleinsatz.
-- [ ] **A-P3 (17 Punkte, Arbeitspapier Abschnitt 03): Sammellauf, keine Einzeleinsaetze.**
-  Sie aendern keine Zahl, die eine Bauherrschaft in eine Rechnung stellt, oder sind Hausordnung
-  (Registerhygiene, tote Verweise, Statuswerte ausserhalb der Skala, ein Tippfehler in Z. 84).
+- [x] **A-P3 (17 Punkte, Arbeitspapier Abschnitt 03): Sammellauf, keine Einzeleinsaetze.**
+  ✓ **Nachgetragen 24.08.2026 (fünfte Fortsetzung): stehen gebliebenes Duplikat, siehe die bereits
+  `[x]`-geschlossene «14 von 17 erledigt»-Fassung unmittelbar oberhalb sowie den 03.16-Befund im
+  neuen Eintrag ganz oben in dieser Datei — Register-Sammelauftrag inzwischen vollständig
+  (328/328 Destillate im INDEX, keine Statuswerte ausserhalb der Skala mehr, toter Rest-Link auf
+  E-R129-4 zurückgeführt).** Sie aendern keine Zahl, die eine Bauherrschaft in eine Rechnung
+  stellt, oder sind Hausordnung (Registerhygiene, tote Verweise, Statuswerte ausserhalb der Skala,
+  ein Tippfehler in Z. 84).
 
 - [x] **03.15 EN-102-Ausgabestand geloest (24.08.2026, interaktive Session) — Original-PDF-Abgleich
   nachgeholt, damit auch der erste A-BLIND-Fall geschlossen.** Die tote TG-Quell-URL (301 auf

@@ -11,6 +11,18 @@ links: [[REGISTER]]
 
 # VKF — Erläuternder Bericht Gesamtrevision Schweizerische Brandschutzvorschriften (BSV 2015)
 
+> ⚠ **Duplikat-Hinweis (24.08.2026, QUESTIONS-Abarbeitung, `wiki/QUESTIONS.md` N60-1-Block).**
+> Dieselbe Quelle (`BSV2015-Bericht und Änderungen.pdf`) liegt **zweimal** destilliert vor: hier
+> und in [[vkf-bsv2015-vernehmlassungsbericht]]. Beide `established`, beide S. 1-21 vollständig
+> gelesen, dieselben Kernaussagen (Hochhausgrenze 25→30 m, Fluchtwegdistanz 20/35 m→35 m,
+> Entkopplung Treppenanlagen bis 900 m², RF1-RF4/287 SN-EN-Klassifizierungen, Gebäude geringer
+> Abmessungen ≤600 m², 8 Geschosse Holzbau) — vollständiger Inhaltsabgleich am 24.08.2026 ergab
+> **keinen einzigen Zahlen- oder Sachwiderspruch**. [[vkf-bsv2015-vernehmlassungsbericht]] ist
+> rund doppelt so umfangreich (200 vs. 90 Zeilen: mehr Kapitel-Detail zu den einzelnen
+> Richtlinien-Änderungen, ausführlicherer JANS-Praxis-Transfer) und **gilt bis zum
+> Zusammenlegungs-Entscheid als führend** — Raphael entscheidet, Claude legt Artikel nicht
+> selbständig zusammen (Rule `wissens-bibliothekar`).
+
 ## Das Wichtigste in 3 Sätzen
 Der Bericht erläutert die Gesamtrevision der Schweizerischen Brandschutzvorschriften VKF (bisher gültig seit 1.1.2005), die der VKF im Auftrag des IOTH (Interkantonale Vereinbarung zum Abbau technischer Handelshemmnisse) durchgeführt hat und die per 1. Januar 2015 in Kraft trat. Kernänderung ist der Wechsel von einer geschosszahl-basierten zu einer gebäudehöhen-/gebäudegeometrie-basierten, schutzzielorientierten Differenzierung der Brandschutzanforderungen, verbunden mit einer generellen Liberalisierung (v.a. Fluchtwege, Brandabschnittsgrössen Industrie/Gewerbe, Holzbau bis 8 Geschosse) bei gleichzeitiger Einführung von zwei neuen, verbindlichen Richtlinien "Qualitätssicherung im Brandschutz" und "Nachweisverfahren im Brandschutz" als Kompensation für den steigenden Anteil an technischem/organisatorischem statt baulichem Brandschutz. Die Hochhausgrenze wurde von 25 m auf 30 m angehoben (neue IVHB-Messweise), die Richtlinien wurden von 20 auf weniger reduziert (Zusammenlegung z.B. Tragwerk+Brandabschnitte, Gefährliche Stoffe+Brennbare Flüssigkeiten) und europäische Baustoffklassifizierungen (RF1-RF4, ca. 287 SN-EN-Klassifizierungen) wurden integriert.
 

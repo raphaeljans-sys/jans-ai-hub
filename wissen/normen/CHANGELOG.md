@@ -1,3 +1,110 @@
+## 2026-08-24 — SIA-Sweep-Fortsetzung (07:07 Uhr): siebte unabhängige Sättigungsbestätigung, Ursache der Minutentakt-Respawns identifiziert
+
+**Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne
+Datei im Haus, Produktdatenblätter mit gültig-ab/gültig-bis beschaffen, Register nachführen,
+Destillate anlegen. Rule `normen-referenz` (Fundstellenpflicht), Rule `wissens-bibliothekar`.
+CHANGELOG-Kopf und Report der sechsten Sättigungs-Verifikation
+(`outputs/2026-08-24_sia-sweep-sechste-unabhaengige-saettigungsverifikation-0620uhr.md`, ~06:20 Uhr)
+zuerst gelesen.
+
+**Eigene Nachmessung — unverändert gegenüber den sechs Vorläufen:** `training/norm-inventar.md`
+0 offene Zeilen; `wiki/REGISTER.md` 59 Zeilen „Kein Volltext im Haus" (alle SIA-Familie, alle mit
+shop.sia.ch-Produktdatenblatt-Beleg); N60-1/N60-2 weiterhin korrekt in `logbuch/fristen.md` als
+„offen, hoch" bei Raphael erfasst. Kein fachlicher Ertrag möglich, der über die sechs Vorläufe
+hinausgeht — deshalb **kein weiterer voller Sweep-Report**, nur dieser Kurzeintrag.
+
+**Neu gegenüber den Vorläufen: Ursache der wiederholten Minutentakt-Respawns lokalisiert.** Die
+34./38./39. Fortsetzung hatten das Muster nur beschrieben, nie die Quelle gefunden. Eigene
+Prozessanalyse (`ps -o pid,ppid,command`): der laufende `claude-run.sh --name mschub636`-Prozess
+dieses Laufs (PID 77364) hängt an einem Elternprozess `bash /tmp/vollschub-mini.sh` (PID 42800,
+gestartet 23.08.2026 17:20:46, PPID 1). Das Script (gelesen, nicht verändert) ist ein
+**zeitlich begrenzter Ad-hoc-Burst-Runner** (nicht der am 29.07.2026 stillgelegte
+`scripts/vollgas-runner.sh` — der bleibt inaktiv): fester Rotations-Array aus fünf Task-Prompts
+(u.a. `buero-projekte`-Triage, dieser SIA-Sweep, `energie`-QUESTIONS, Thalwil-Reglemente-Queue,
+`normen`-QUESTIONS), max. 5 parallele `claude-run.sh`-Läufe, Rotation ohne Sättigungs-Erkennung,
+**Selbstende `SCHLUSS="2026-08-24 11:30"`**, Nothalt via `touch /tmp/STOP-vollschub`. Der
+SIA-Sweep-Prompt ist als fixer Listeneintrag verankert und wird bei jeder freien Prozess-Slot-
+Runde erneut gezogen, unabhängig vom Sättigungsstand des Registers — daher die dichte Folge
+von Sweep-Reports seit ~00:00 Uhr.
+
+**Keine Intervention am Runner.** Der Runner endet in rund 4 Stunden von selbst; ein Eingriff
+(Kill, Edit der laufenden Task-Liste — wirkungslos, da das Array bereits vor dem Start der
+While-Schleife ins Bash-Gedächtnis geladen ist) wäre ein Taktungsentscheid ausserhalb dieses
+fachlichen Auftrags und wurde bereits von der 39. Fortsetzung bewusst nicht selbst getroffen.
+Diese Begründung bleibt gültig; neu ist nur, dass die Ursache jetzt benannt und nicht mehr nur
+vermutet ist.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (Register
+Abschnitt A, u.a. P1 SIA 380/1, 385/1, 266/1; plus N60-1/N60-2) pausieren. Praktisch löst sich
+die Redundanz um 11:30 Uhr heute von selbst, wenn `/tmp/vollschub-mini.sh` endet.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — rein additiv (neuer Eintrag
+oberhalb des bestehenden Kopfs, kein fremder Inhalt verändert). Kein `git commit`/`push`/`pull`/
+`rebase` über den SMB-Mount ausgeführt.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung: drittes VKF-Duplikat-Paar (BSV2015-Bericht) gegengelesen, KB-Sättigung erneut bestätigt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des
+letzten Laufs (SIA-271-Fund, unmittelbar vorangehender Eintrag) zuerst gelesen.
+
+**Kollisionscheck:** `ps aux` geprüft — eigener Prozess (`mschub634`, Wrapper PID 76443/76436,
+Hauptprozess PID 76444, identischer Auftragstext) ist dieser Lauf selbst; parallel läuft PID 73410
+gegen `wissen/energie/wiki/QUESTIONS.md` (andere KB, kein Konkurrenzlauf).
+
+**Vorgehen:** Systematischer Scan aller 33 verbleibenden `[ ]`-Zeilen in `wiki/QUESTIONS.md`
+(Zeilen 2623-5065). Rund zwei Dutzend Kandidaten geprüft (SIA 181:2020, SIA 118:2013,
+VA 105-01:2015, DIN EN 1627, Merkblatt SIA 2014 Layerkatalog, SN 640 052/641 400,
+SIA 491/SN EN 12193, Verify-Abschluss-Punkte MacBook/Mac Mini, Duplikate-Block u.a.): alle sind
+bereits mehrfach bearbeitet und bestätigt entweder (a) externe Bring-Schuld Raphael
+(kostenpflichtiger Normenkauf), (b) Strukturentscheid Raphael (Duplikat-Merge ist destruktiv,
+Rule `wissens-bibliothekar` verlangt Rückfrage), oder (c) methodische/Betriebs-Notizen ohne
+eigene Fundstellen-Aussage.
+
+**Ein genuiner, bisher unbeantworteter Punkt bearbeitet:** Der Reconcile-Duplikate-Block
+(`wiki/QUESTIONS.md` Z. 4009-4022) listet vier offene Datei-Paare; für drei davon (Brandmauern,
+Solaranlagen, AFC-Synopse 2017/N60-1) hatten frühere Läufe bereits einen vollständigen
+Inhaltsabgleich gefahren. Für das vierte Paar stand der Vermerk seit dem Reconcile unverändert
+auf «evtl. inhaltlich verschieden … vor dem Merge kurz gegenlesen»:
+`destillate/vkf-bsv2015-bericht-aenderungen.md` (13.07.2026, 90 Zeilen) ↔
+`destillate/vkf-bsv2015-vernehmlassungsbericht.md` (21.07.2026, 200 Zeilen), gleiche Quelle
+`BSV2015-Bericht und Änderungen.pdf`, beide `established`.
+
+**Vollständiger Inhaltsabgleich beider Dateien** (Frontmatter, Kapitelstruktur, alle genannten
+Kennwerte): Hochhausgrenze 25 m → 30 m, Fluchtwegdistanz 20/35 m → einheitlich 35 m, Entkopplung
+Treppenanlagen bis 900 m², RF1-RF4/287 SN-EN-Klassifizierungen, Gebäude geringer Abmessungen
+≤600 m², 8 Geschosse Holzbau, wörtliches Zitat «Das Feuer brennt in allen Kantonen gleich!» —
+**kein einziger Zahlen- oder Sachwiderspruch gefunden.** Anders als beim Solaranlagen-Paar (dort
+hatte Wissens-Chef Run 28 einen realen Seitenzahlfehler in einer der beiden Dateien gefunden und
+korrigiert) sind beide BSV2015-Destillate inhaltlich deckungsgleich; sie unterscheiden sich nur
+im Detailgrad. `vernehmlassungsbericht.md` ist mehr als doppelt so umfangreich (mehr
+Kapitel-Detail je Einzelrichtlinie, ausführlicherer JANS-Praxis-Transfer, zusätzliche Backlinks
+zu `vkf-brandschutznorm-2015`/`vkf-brl-16-15-flucht-rettungswege`/`vkf-brl-verwendung-baustoffe`/
+`vkf-brl-nachweisverfahren`) und wird — analog zum bereits etablierten AFC-Synopse-Muster
+(N60-1) — bis zum Merge-Entscheid als **führend** markiert.
+
+**Nachgeführt (alle additiv, Ursprungswortlaut vollständig erhalten):** Gegenseitiger
+Duplikat-Hinweis mit Kennwerte-Beleg oben in beiden Destillaten ergänzt; `wiki/QUESTIONS.md` an
+zwei Stellen nachgetragen — direkt im Reconcile-Block (Z. 4009 ff.) und als eigener Absatz beim
+N60-1-Eintrag (Z. 5383 ff.), mit Verweis in beide Richtungen. **Damit sind jetzt alle vier im
+Reconcile-Block benannten Duplikat-Paare inhaltlich gegengelesen** (Brandmauern bereits gemergt;
+Solaranlagen, AFC-Synopse 2017 und BSV2015-Bericht je mit dokumentiertem Führend-Kandidaten). Der
+physische Merge selbst bleibt für die drei verbleibenden Paare destruktiv (Löschen einer Datei)
+und liegt bei Raphael — nichts wurde gelöscht oder zusammengelegt, Rule `wissens-bibliothekar`
+Punkt 4.
+
+**Für den Rest der KB: erneute, unabhängige Sättigungsbestätigung.** `training/norm-inventar.md`
+weiterhin 0 offene Zeilen (23 Treffer auf `[ ]` sind Formatierungs-/Legenden-Zeichen, keine
+offenen Positionen — Handzählung stichprobenartig gegen den Dateikopf verifiziert). Über die
+33 `[ ]`-Zeilen in `wiki/QUESTIONS.md` hinaus existiert kein ungeprüfter, kostenloser
+Beschaffungsweg mehr; dieselbe Beobachtung wie in den sechs vorangegangenen SIA-Sweep-Läufen
+und den drei vorangegangenen QUESTIONS-Abarbeitungen des heutigen Tages.
+
+**Verifikation:** `git diff --numstat` nach jedem Schreibvorgang geprüft —
+`vkf-bsv2015-bericht-aenderungen.md` +12/-0, `vkf-bsv2015-vernehmlassungsbericht.md` +11/-0,
+`wiki/QUESTIONS.md` +30/-0 — alle drei rein additiv, keine fremde Zeile berührt, kein globales
+Ersetzen verwendet. Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: SIA 271 seit 2021 überholt entdeckt (REGISTER trug fälschlich «gilt» für die archivierte Ausgabe 2007)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit

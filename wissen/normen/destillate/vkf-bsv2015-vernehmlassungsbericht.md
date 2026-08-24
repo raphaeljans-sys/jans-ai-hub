@@ -12,6 +12,17 @@ last_updated: "2026-07-21"
 
 # VKF — Erläuternder Bericht für die Vernehmlassung: Gesamtrevision Schweizerische Brandschutzvorschriften (BSV 2015)
 
+> ⚠ **Duplikat-Hinweis (24.08.2026, QUESTIONS-Abarbeitung, `wiki/QUESTIONS.md` N60-1-Block).**
+> Dieselbe Quelle (`BSV2015-Bericht und Änderungen.pdf`) liegt **zweimal** destilliert vor: hier
+> und in [[vkf-bsv2015-bericht-aenderungen]]. Beide `established`, beide S. 1-21 vollständig
+> gelesen, dieselben Kernaussagen (Hochhausgrenze 25→30 m, Fluchtwegdistanz 20/35 m→35 m,
+> Entkopplung Treppenanlagen bis 900 m², RF1-RF4/287 SN-EN-Klassifizierungen, Gebäude geringer
+> Abmessungen ≤600 m², 8 Geschosse Holzbau) — vollständiger Inhaltsabgleich am 24.08.2026 ergab
+> **keinen einzigen Zahlen- oder Sachwiderspruch**. Diese Datei ist rund doppelt so umfangreich
+> wie [[vkf-bsv2015-bericht-aenderungen]] (200 vs. 90 Zeilen) und **gilt bis zum
+> Zusammenlegungs-Entscheid als führend** — Raphael entscheidet, Claude legt Artikel nicht
+> selbständig zusammen (Rule `wissens-bibliothekar`).
+
 ## Das Wichtigste in 3 Sätzen
 Dieses Dokument ist KEINE eigenständige Norm, sondern der erläuternde Vernehmlassungsbericht
 (Stand 01.11.2013) der VKF zur Gesamtrevision der Schweizerischen Brandschutzvorschriften, die

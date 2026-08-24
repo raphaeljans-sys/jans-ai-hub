@@ -4020,6 +4020,13 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   Quelldatei; vor dem Merge kurz gegenlesen). Je Paar den besseren/vollständigeren Stand behalten,
   den anderen löschen und aus `destillate/INDEX.md` entfernen — NICHT automatisch, da Löschen
   destruktiv ist (Rule `wissens-bibliothekar`).
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung):** «vor dem Merge kurz gegenlesen» für das
+  > BSV2015-Paar ist erledigt — kein Sachwiderspruch, `vernehmlassungsbericht.md` (200 Zeilen)
+  > deutlich vollständiger als `bericht-aenderungen.md` (90 Zeilen) und bis zum Merge-Entscheid
+  > als führend markiert. Details, Kennwerte-Abgleich und gegenseitige Duplikat-Hinweise in
+  > beiden Destillaten: Nachtrag beim N60-1-Block oben. Damit sind alle vier verbleibenden Paare
+  > inhaltlich gegengelesen; der physische Merge bleibt bei allen destruktiv und liegt bei
+  > Raphael.
   - **Nachtrag Wissens-Chef Run 28, 07.08.2026 (nur Paar 2001-15 Solaranlagen):** weiterhin offen,
     keine Statusänderung, kein Merge. Die inhaltliche Divergenz der beiden Destillate ist in diesem
     Lauf geschlossen worden: `vkf-merkblatt-2001-15-solaranlagen.md` führte Tabelle 1 fälschlich auf
@@ -5404,6 +5411,29 @@ Bei jedem SIA-Destillat gehört ein Blick in die Korrigenda-Liste des SIA-Shops 
   auf eine Verweiszeile kürzen. Dieselbe Frage stellt sich für das Delta der **BRL 13-15**, das
   jetzt inline im Bestandsdestillat **und** als eigene Datei geführt wird (Eintrag oben, 260823).
 - **Herkunft:** Run 60, 23.08.2026.
+
+> **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung) — drittes Duplikat-Paar aus demselben
+> Reconcile-Block gegengelesen, Lücke geschlossen.** Der Duplikate-Block weiter unten (Zeile
+> ~4009-4022) führt neben der AFC-Synopse 2017 noch ein zweites, bis heute nicht inhaltlich
+> geprüftes Paar mit demselben offenen «vor dem Merge kurz gegenlesen»-Vermerk:
+> `vkf-bsv2015-bericht-aenderungen.md` (13.07.2026, 90 Zeilen) ↔
+> `vkf-bsv2015-vernehmlassungsbericht.md` (21.07.2026, 200 Zeilen), beide `established`, gleiche
+> Quelle `BSV2015-Bericht und Änderungen.pdf`. Vollständiger Inhaltsabgleich beider Dateien
+> (Kapitelstruktur, alle genannten Kennwerte: Hochhausgrenze 25→30 m, Fluchtwegdistanz 20/35 m→
+> einheitlich 35 m, Entkopplung Treppenanlagen bis 900 m², RF1-RF4/287 SN-EN-Klassifizierungen,
+> Gebäude geringer Abmessungen ≤600 m², 8 Geschosse Holzbau, Zitat «Das Feuer brennt in allen
+> Kantonen gleich») ergab **keinen Zahlen- oder Sachwiderspruch** — anders als beim
+> Solaranlagen-Paar (dort hatte Wissens-Chef Run 28 einen echten Seitenzahlfehler gefunden).
+> `vkf-bsv2015-vernehmlassungsbericht.md` ist mehr als doppelt so ausführlich (mehr
+> Kapitel-Detail je Einzelrichtlinie, ausführlicherer JANS-Praxis-Transfer, zusätzliche
+> Backlinks) und wird analog zum AFC-Synopse-Muster bis zum Merge-Entscheid als **führend**
+> markiert. Gegenseitiger Duplikat-Hinweis in beiden Destillaten ergänzt (additiv, kein
+> Original-Wortlaut entfernt). **Damit sind jetzt alle vier benannten Paare des Reconcile-Blocks
+> inhaltlich gegengelesen** (Brandmauern: identisch, gemergt; Solaranlagen: Fehler gefunden und
+> korrigiert, Merge vorgemerkt; AFC-Synopse 2017: Fehler gefunden und korrigiert, N60-1;
+> Anerkennungsverfahren: Run 12 abgeschlossen). Der physische Merge selbst bleibt für alle vier
+> Paare destruktiv und liegt bei Raphael — nichts wurde gelöscht oder zusammengelegt.
+> Herkunft: QUESTIONS-Abarbeitung, 24.08.2026.
 
 ## 260823 — N60-2: Vorschlag Methodik-Pflicht 14 (FREIGABE RAPHAEL, nicht selbständig umgesetzt)
 

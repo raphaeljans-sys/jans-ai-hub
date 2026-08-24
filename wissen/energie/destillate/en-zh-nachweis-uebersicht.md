@@ -5,7 +5,9 @@ ausgabe: "EN-ZH-005, Version Juli 2022 (gueltig bis 31.12.2025)"
 gelesen: 2026-06-07
 datenstand: "PDF-Formular Juli 2022; ⚠ seit 1.1.2026 abgeloest durch elektronischen Vollzug EVEN (energievollzug.ch) — Web-Stand 2026-06-07"
 status: established
-last_updated: 2026-06-07
+last_updated: 2026-08-24 (Korrektur: veraltete SIA-380/1-2009-Prämisse in «Offene Punkte»
+  richtiggestellt, EVEN-Verweis auf `planungsgrundlagen` nachgetragen — inhaltliche Kennwerte
+  selbst unverändert)
 quelle_pfad: "PL - 04 Energie/_Formulare Kanton ZH Baueingabe/EN-ZH.pdf"
 ---
 
@@ -53,6 +55,16 @@ weiter — nur das Medium hat gewechselt.
 - **Praxis 2026:** Energienachweis im Kt. ZH = `energievollzug.ch` (EVEN), nicht mehr PDF.
 
 ## Offene Punkte
-- EVEN-Detailablauf (Rollen, Fristen, Schnittstelle zur eBaugesuch-Plattform) noch nicht im Detail belegt.
-- SIA 380/1 **Ausgabe 2016** ist im Formular referenziert — unsere U-Wert-Destillate basieren auf
-  EN-102 (SIA 380/1:2009); Differenz 2009↔2016 noch abzugleichen (offener Punkt E-D8).
+- EVEN-Detailablauf (Rollen, Fristen, Schnittstelle zur eBaugesuch-Plattform): mittlerweile in
+  `wissen/planungsgrundlagen/wiki/energie-even-plattform-bedienung` und
+  `energie-private-kontrolle-zh` geführt (siehe `[[energienachweis-zh]]`, das diesen Artikel als
+  aktuelleres Deckblatt ablöst) — hier nicht mehr offen, nur der Verweis fehlte.
+- ~~SIA 380/1 Ausgabe 2016 ist im Formular referenziert — unsere U-Wert-Destillate basieren auf
+  EN-102 (SIA 380/1:2009); Differenz 2009↔2016 noch abzugleichen (offener Punkt E-D8).~~
+  **Korrigiert 24.08.2026:** diese Prämisse war falsch und ist seit Wissens-Chef Run 35
+  (17.08.2026) bereits richtiggestellt — EN-102 fusst selbst auf **SIA 380/1:2016**, nicht 2009;
+  die auf 2009 gestützte Vollzugshilfe ist das andere Dokument EN-2 (Feb. 2013). Belegt in
+  `[[enfk-en-102-waermeschutz-2018]]` (Fusszeile jeder PDF-Seite) und `[[u-werte-grenzwerte-ch]]`.
+  Dieser Artikel wurde seit 2026-06-07 nicht mehr angefasst und hatte die Korrektur deshalb nicht
+  nachgezogen. E-D8 (`wiki/QUESTIONS.md`) bleibt nur insofern offen, als die konkreten
+  Q_H,li0/ΔQ_H,li-Zahlenwerte der Norm 2016 selbst nicht gekauft sind (gleiche Klasse wie E-R148-1).

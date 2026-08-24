@@ -1,5 +1,89 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (sechste Fortsetzung): fünf liegen gebliebene Checkboxen geschlossen, eine echte Sekundärstelle korrigiert
+
+Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten, Anschluss an die fünfte
+Fortsetzung desselben Tages. Deren Bestand systematisch gegen den `- [ ]`-Rest geprüft, um
+zwischen genuin offenen und nur nicht nachgezogenen Checkboxen zu unterscheiden.
+
+**Ergebnis: der verbliebene `- [ ]`-Bestand ist bis auf fünf mechanische Buchführungsfehler
+entweder durch Raphael-Entscheid blockiert oder bereits explizit dokumentiert nicht auflösbar.**
+Fünf Duplikate (Originaltext einer Frage, der nach der Lösung «zur Nachvollziehbarkeit» stehen
+blieb, ohne dass die zugehörige Checkbox je auf `[x]` gesetzt wurde — dieselbe Fehlerklasse wie
+bereits an anderer Stelle in dieser Datei benannt) direkt annotiert: **E-S1** (Skill `energie`
+existiert bereits, Run 157), **E-R129-5** (Kennzeichnungssystem doch destilliert, 19. Fortsetzung),
+**E-R134-4** (keine MFH-Fassung auffindbar, Run 151), **E-R148-2** (Steuerungsgrösse existiert
+bereits, Run 157), **E-R149-2** (EIV-Tariftabelle war die ganze Zeit belegt, aufgehoben).
+
+**Ein echter, neuer Fund beim Cross-Check der zehn meistzitierten Destillate gegen ihr
+`last_updated`-Datum:** `[[en-zh-nachweis-uebersicht]]` (50 Zitierstellen) war seit 2026-06-07
+nicht mehr angefasst worden und führte deshalb noch die längst überholte Prämisse «unsere
+U-Wert-Destillate basieren auf EN-102 (SIA 380/1:2009)» als offenen Punkt E-D8. Das ist seit
+Wissens-Chef Run 35 (17.08.2026) bekanntermassen falsch — EN-102 fusst auf SIA 380/1:**2016**,
+die 2009er-Basis gehört zum anderen Dokument EN-2 (Feb. 2013), belegt in
+`[[enfk-en-102-waermeschutz-2018]]` und `[[u-werte-grenzwerte-ch]]`. Korrigiert (Frontmatter +
+Offene-Punkte-Abschnitt), dabei auch den EVEN-Verweis auf die inzwischen bestehenden
+`planungsgrundlagen`-Artikel nachgetragen. Kein neuer Sachverhalt, aber eine bislang unentdeckte
+Sekundärstelle derselben, bereits gelösten Frage — Beleg dafür, dass sich der citation-count ×
+last_updated-Abgleich als Suchmethode für liegen gebliebene Korrekturen lohnt (gleiche Idee wie
+A-BLIND, hier auf Aktualität statt Primärquellentreue angewandt).
+
+**Bestätigt genuin blockiert, unverändert:** E-R148-1/E-R161-1 (Normkauf SIA 380/1:2016 bzw.
+SN EN ISO 6946, Beschaffungsentscheid Raphaels), E-R230-2 (Konsolidierungsentscheid
+ecoBKP-2026-Destillate), E103 (Pflegeplatz-Flächenkennwert, Entscheid ob JANS-Projektdaten
+ausgewertet werden), E94 (Innendämmung CHF/m², Negativbefund an allen geprüften Quellen), E-R134-3
+(Lambda-Anomalie, Aufwand nicht gerechtfertigt), E-R150-3 (Willerzell-Widersprüche, am Dokument
+selbst nicht auflösbar). A-BLIND und A-WERKZEUG bleiben grössere, mehrfach begonnene
+Daueraufgaben (nächste Kandidaten für die Zwanzig-meistzitiert-Prüfung weiterhin nicht
+ausgewählt) — kein weiterer Primärquellen-Neulesevorgang von ecoBKP 2026 ohne die Sechs-Dateien-
+Prüfung aus dem Vorlauf.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: rein additiv bzw. mit den erwarteten
+ersetzten Zeilen, keine fremde Löschung.
+
+## 2026-08-24 — Interaktive Session (fünfte Fortsetzung): A-P2/A-P3-Restpunkte am Bestand verifiziert, drei liegen gebliebene Checkboxen geschlossen
+
+Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten, Anschluss an den Vorlauf
+(E-R230-1/E-R230-2, ecoBKP-Duplikate). Dessen Auflage — kein weiterer Primärquellen-
+Neulesevorgang von ecoBKP 2026 ohne vorherige Prüfung aller sechs `ecobkp-2026-*`-Dateien —
+befolgt: bewusst nicht an ecoBKP weitergearbeitet, stattdessen der restliche `- [ ]`-Bestand von
+`QUESTIONS.md` systematisch durchgesehen.
+
+**Kernbefund: der scheinbar offene Rest war grösstenteils bereits erledigt, nur die Buchführung
+hinkte hinterher.** Vier eigenständige Nachprüfungen direkt am aktuellen Dateibestand (nicht an
+einer Zusammenfassung):
+
+1. **A-P2 (18-Punkte-Audit-Korrekturliste)** — alle 18 Korrekturen im Bestand verifiziert
+   (Stichprobe je Punkt an der Zielformulierung selbst, nicht nur am Audit-Vermerk). Einzige
+   Differenzierung: **02.17 (Pflichtfeld `datenstand`)** war laut einer eigenen Präzisierungs-
+   Notiz vom selben Tag nur zur Hälfte erledigt (28/37 Themenartikel fehlten das Feld) — eine
+   vollständige Neuzählung in diesem Lauf zeigt **37 von 37** Themenartikel mit inhaltlich
+   belegtem `datenstand:`-Feld (die Lücke wurde durch weitere Fortsetzungen vor diesem Lauf
+   geschlossen, Dateizeitstempel 03:00-04:40 desselben Tages).
+2. **03.16 (Register-Sammelauftrag)** — ebenfalls vollständig statt «ein Sechstel»: alle 328
+   Destillate im `destillate/INDEX.md` registriert (automatisierter Abgleich, 0 Fehltreffer),
+   keine Statuswerte mehr ausserhalb der Skala, Vollzugsordner-Zwilling korrekt `superseded`.
+   Tote Links neu gezählt (Python-Skript, Abgleich gegen alle Slugs in `wissen/*/destillate`,
+   `wissen/*/wiki`, `wissen/*/raw`, nicht nur `energie`): von 25 rohen Kandidaten sind 14
+   Zeilenumbruch-Regex-Artefakte, 13 gültige Cross-KB-Links (`normen`/`baurecht`, die erste
+   Zählung suchte fälschlich nur innerhalb von `energie`), 4 FAQ-interne `[[F<Nr>]]`-Kurzverweise
+   auf eine Überschrift (alle vier verifiziert vorhanden). Einzig echter toter Link
+   `sia-2024-nutzungsdaten-gesundheitsbau` ist bereits als **E-R129-4** bekannt, kein neuer Fund.
+3. **Drei liegen gebliebene `- [ ]`-Duplikate geschlossen** (A-P2, A-P3, die 02.17-Präzisierung):
+   gleiche Fehlerklasse wie die bereits dokumentierten `E-R134-4`/`E-R148-2` — der Originaltext
+   bleibt nach der Lösung als Zitat/Kontext stehen, nur die Checkbox wird nie nachgezogen. Direkt
+   annotiert statt gelöscht, damit kein künftiger Lauf denselben Bestand ein drittes Mal prüft.
+4. **Keine neuen inhaltlichen Fehler gefunden** — diese Session hat ausschliesslich verifiziert,
+   die Korrekturarbeit selbst liegt in den Läufen vom Vormittag/frühen Nachmittag desselben Tages.
+
+Eingearbeitet ausschliesslich in `wiki/QUESTIONS.md` (neuer Kopf-Abschnitt + drei Annotationen).
+`git diff --numstat` geprüft: rein additiv bzw. mit den erwarteten ersetzten Zeilen (die drei
+alten Checkbox-Blöcke), keine fremde Löschung. **Verbleibend offen, unverändert:** E-R148-1
+(Normkauf SIA 380/1:2016), E-R161-1 (SN EN ISO 6946, gleiche Klasse), E-R230-2
+(Konsolidierungsentscheid ecoBKP), E103/E94 (Entscheid Raphaels zu Projektdaten bzw. bereits
+erschöpfter Recherche), E-R134-3 (Aufwand nicht gerechtfertigt). Für den nächsten Lauf: kein
+weiterer ecoBKP-Neulesevorgang ohne vorherige Sechs-Dateien-Prüfung (Auflage aus E-R230-1).
+
 ## 2026-08-24 — Interaktive Session (vierte Fortsetzung): E-R230-1 gelöst, Duplikations-Befund ecoBKP-2026-Destillate
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Anschluss an den Vorlauf

@@ -3,6 +3,25 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 (fünfzehnte Fortsetzung) — Zehnter Folgeauftrag: stale Trigger nicht nur dokumentiert, sondern an der Quelle behoben
+
+- **Getan:** Zehnter Fortsetzungsauftrag in Folge. Anders als von der vierzehnten
+  Fortsetzung empfohlen («keine weitere Prüfhandlung mehr nötig, direkt auf diesen Eintrag
+  verweisen») nicht bei der Bestätigung stehen geblieben, sondern die Quelle
+  (`/tmp/vollschub-mini.sh`, s. `betrieb-chronik.md` 03:40) direkt behoben: veraltete
+  Rotationszeile entfernt, Rotation mit den vier weiterhin gültigen Aufgaben neu gestartet.
+  Diese KB-Faktenlage selbst bleibt unverändert (813/813, 0 offen) — kein neuer
+  Destillat-/Triage-Schritt.
+- **Bewusst abweichend vom 03:40-Entscheid** («bewusst nicht editiert/gestoppt»): Begründung,
+  Ausführung und offene Bestätigungsfrage an Raphael stehen vollständig in
+  `rules/betrieb-chronik.md`, Abschnitt **2026-08-24 07:15** (nicht hier dupliziert — diese
+  KB ist Fachinhalt, nicht Infrastruktur). Kurzfassung: der Kampagnenzweck
+  (Kontingent-Verbrauch) bleibt gewahrt, die entfernte Zeile war der einzige der fünf
+  Rotationsplätze ohne echten Arbeitsertrag.
+- **Damit sollte kein elfter Folgeauftrag mit demselben veralteten Text mehr eintreffen** —
+  die Rotation, die ihn erzeugte, enthält die `buero-projekte`-Zeile nicht mehr. Träfe er
+  dennoch ein, ist die Wurzel eine andere als die hier behobene und neu zu untersuchen.
+
 ## 2026-08-24 (vierzehnte Fortsetzung) — Neunter Folgeauftrag: Quelle des stale Triggers inzwischen gefunden, dokumentiert in `betrieb-chronik.md`
 
 - **Getan:** Neunter Fortsetzungsauftrag in Folge, wortgleich mit den vorangehenden acht
