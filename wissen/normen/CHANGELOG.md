@@ -1,3 +1,40 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: S42-2 geschlossen — SWKI Tab. 7 Q/S>1 gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 verifiziert
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
+abarbeiten, Fundstelle je Aussage mit Norm/Ausgabe/Ziffer, nur `established` zitierfähig).
+
+**Kollisionscheck:** `ps aux | grep "claude -p"` zeigte einen zweiten Prozess (PID 58959) mit
+identischem Auftragstext, der zum Zeitpunkt des Sessionstarts bereits 7 Minuten aktiv in
+denselben Dateien schrieb (L41-4-Abschluss, siehe Eintrag unten). Gewartet, bis dieser Prozess
+committet hat (Commit `161170672`), erst danach eigene Bearbeitung begonnen — kein
+gleichzeitiges Schreiben in dieselben Dateien.
+
+**Bearbeiteter Punkt:** S42-2 (Run 42) — SWKI VA103-01:2017, Tab. 7 (S. 42), Spalte Q/S > 1:
+ist der am Scan gelesene Wert «Firsthöhe + 1,0 m» ein eigenständiger vierter Wert oder Teil
+der bereits destillierten Maximum-Bildung (a: mind. 1 m, b: 0,2×Gebäudebreite max. 5 m, c:
+1×Q/S in m)? Die Quellnorm selbst konnte nicht neu gelesen werden (SharePoint-Pfad
+`PL - 02_Recht_Norm/06_Richtlinien/SWKI/` auf dieser Station ohne NAS-Mount nicht erreichbar),
+aber die vom Destillat zitierte Bemessungsgrundlage (BAFU-Vollzugshilfe UV-1318-D) ist
+öffentlich zugänglich und wurde direkt am Original geprüft.
+
+**Vorgehen:** `WebSearch` fand den offiziellen BAFU-Volltext (Umwelt-Vollzug Nr. 1318
+«Mindesthöhe von Kaminen über Dach. Kamin-Empfehlungen», Erstausgabe 2013, 1. aktualisierte
+Auflage Dezember 2018); der in `wissen/normen/wiki/QUESTIONS.md` zuvor verlinkte
+`bafu.admin.ch/dam/bafu/...`-Pfad lieferte HTTP 502, der Alternativpfad
+`bafu.admin.ch/dam/de/sd-web/x0hJtl7AkYcm/...` lieferte das PDF (1,28 MB, `curl`), `pdftotext
+-layout` extrahiert (sauberer Textlayer), Ziff. 5.2/5.3 (S. 13-14) wortgenau gelesen.
+
+**Ergebnis:** Ziff. 5.3 Abs. 1 Bst. a) verlangt für Q/S > 1 «den höchsten Gebäudeteil (z. B.
+Dachfirst) um mindestens 1 m … überragen» — das ist für ein Schrägdach wortgleich mit
+«Firsthöhe + 1,0 m», exakt parallel zur Ziff. 5.2 Bst. a) (0,5 m) im Normalfall. Der Wert ist
+damit **keine eigenständige vierte Grösse**, sondern die dachtypspezifische Lesart von
+Kriterium a) der bereits destillierten Maximum-Bildung. Kein Korrekturbedarf am bestehenden
+Destillat-Text zu a)/b)/c) — die SWKI-Tabelle bildet die Vollzugshilfe korrekt ab.
+
+**Eingearbeitet:** `destillate/swki-va103-01-2017.md` (Abschnitt Fortluft, `gelesen`-Feld),
+`wiki/QUESTIONS.md` (S42-2 als geschlossen markiert, Run-42-Kopfzeile nachgeführt) — beide
+additiv. Report: `outputs/2026-08-24_questions-abarbeitung-s42-2-swki-bafu-kaminhoehe.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 abgeschlossen — Lignatec Tabelle 4 zellenweise gegen Original geprüft, fünf Nutzungszeilen nachgetragen
 
 **Auftrag:** Fortsetzung derselben Aufgabe (weitere offene Fragen in `wiki/QUESTIONS.md`

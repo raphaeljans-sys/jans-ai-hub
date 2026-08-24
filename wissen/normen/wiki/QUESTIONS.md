@@ -2208,7 +2208,7 @@ Aussage weiterführt, liest ein Nutzer zuerst den Fehler — dieselbe Mechanik w
 Absturzsicherungs-Destillat aus Run 42, wo die Kurzfassung falsch und der Fliesstext richtig
 war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worden.
 
-## Run 42 (03.08.2026) — neu offen
+## Run 42 (03.08.2026) — neu offen ⚠ S42-2 GESCHLOSSEN 24.08.2026 (BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 direkt geprueft: «Firsthoehe + 1,0 m» ist Kriterium a) der Maximum-Bildung, kein eigenstaendiger Wert)
 
 ### KL Hochbau, Sanitäre Anlagen ([[kl-hochbau-sanitaer-katalogblaetter]])
 - **K42-1 Herausgeber/Werktitel/Ausgabedatum unbekannt.** Keine der acht gelesenen Seiten
@@ -2279,6 +2279,18 @@ war. In Run 43 sind deshalb neun Stellen zusätzlich **inline** korrigiert worde
 - **S42-2** Tab. 7: die Spalte Q/S > 1 ist am Scan nicht zweifelsfrei aufloesbar — ist
   «Firsthoehe + 1,0 m» ein eigenstaendiger dachtypspezifischer Wert oder Teil der
   Maximum-Bildung? Gegen BAFU-Vollzugshilfe UV-1318-D Ziff. 5.3 zu verifizieren.
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** «Firsthoehe + 1,0 m» ist kein
+  > eigenstaendiger Wert, sondern die dachtyp-spezifische Auspraegung von Kriterium a) der
+  > Maximum-Bildung selbst. Beleg: BAFU, Umwelt-Vollzug Nr. 1318 «Mindesthoehe von Kaminen
+  > ueber Dach. Kamin-Empfehlungen», Erstausgabe 2013, 1. aktualisierte Auflage Dezember 2018,
+  > Ziff. 5.3 Abs. 1+2 (S. 13-14), selbst heruntergeladen
+  > (`bafu.admin.ch/dam/de/sd-web/x0hJtl7AkYcm/mindesthoehe_vonkaminenueberdach.pdf`) und mit
+  > `pdftotext` geprueft: Kriterium a) verlangt «den hoechsten Gebaeudeteil (z. B. Dachfirst)
+  > um mindestens 1 m ... ueberragen» — fuer ein Schraegdach identisch mit «Firsthoehe + 1,0 m»,
+  > exakt parallel zum Normalfall Q/S ≤ 1 (Ziff. 5.2 Bst. a, 0,5 m statt 1 m). Details und
+  > vollstaendiger Formelvergleich (a/b/c) in `destillate/swki-va103-01-2017.md`, Abschnitt
+  > Fortluft. Kein Korrekturbedarf am bestehenden Destillat-Text.
 - **S42-3** Fuer den Kanton Schwyz enthaelt Tab. 16 (Anhang A) **keinen** eigenen
   Stationseintrag; naechstgelegen sind Altdorf und Luzern. Eine Zuordnung ist nicht belegt.
 
