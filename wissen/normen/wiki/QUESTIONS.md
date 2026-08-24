@@ -4264,6 +4264,22 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   1999) — nur mit ECCS-Original auflösbar. (5) BRL 100-15 Brandmauern: Gegenprüfung des
   REGISTERs auf eine allfällig spätere Ausgabe. Details:
   `outputs/2026-07-13_normen-verify-abschluss-macbook.md`.
+
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung): Teilpunkt (2) GESCHLOSSEN.** sia-104-2003
+  > Ziff. 3.4.1 gegen die Originale SIA 111:2014 und SIA 112:2014 gegengeprüft (beide bereits
+  > `status: established` im eigenen Bestand, kein Neu-Destillat nötig). Befund: kein blosser
+  > Ähnlichkeitsbefund, sondern ein Zielverweis — SIA 111:2014 (Begriffe S. 7) nennt SIA 104
+  > Art. 3.4 ausdrücklich als eine der Quellen, auf die SIA 111 selbst für die
+  > Gesamtleitungs-Leistungen verweist («in SIA 104, 105 und 110 unter Art. 3.4 bzw. 3.8
+  > beschrieben»); SIA 112:2014 (Begriffe S. 6) verweist ebenso ausdrücklich auf
+  > «SIA 102/103/104/105/108 Art. 3.4». Die speculative-Markierung in
+  > `destillate/sia-104-2003.md` Ziff. 3.4.1 ist aufgehoben, Fundstelle nachgetragen,
+  > `verifiziert`/`last_updated` auf 2026-08-24 gesetzt. **Teilpunkte (1) Duplikat-Merges,
+  > (3) NSV-Merkblatt K-30-RF1 gegen BSR-13-15, (4) steeldoc-ECCS-Diskrepanz und (5)
+  > BRL-100-15-Register-Gegenprüfung bleiben offen** — (1) ist destruktiv (Rückfrage Raphael,
+  > siehe Abschnitt «Duplikate aus dem Reconcile» oben), (3)/(4)/(5) sind eigene, von diesem
+  > Fund unabhängige Sachfragen ohne im Haus liegende Original-Volltexte (BSR 13-15, ECCS-Heft),
+  > die diesen Lauf ebenfalls nicht ausgeräumt haben.
 - [x] **Mac Mini Run 10 (13.07.2026): Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe
   komplett, 8/8 beanstandet-korrigiert.** Alle 4 verbleibenden DIN-5034-Destillate
   (5034-1/2/4/6) und alle 4 verbleibenden DIN-1053-Destillate (1053-1/2/3/100) adversarial

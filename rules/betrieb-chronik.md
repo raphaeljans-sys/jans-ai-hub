@@ -2193,3 +2193,29 @@ diese Chronik-Notiz und Beendigung ohne Fachbeitrag.
 in der aufrufenden Rotation/Cron-Konfiguration finden — gleiche Fehlerfamilie wie der
 Stale-Runner-Vorfall PID 68866 (27.07.2026) und die stale `buero-projekte`-Wiederholung
 (`/tmp/vollschub-mini.sh`, s.o.), hier aber ein doppelter statt eines veralteten Aufrufs.
+
+## 260824 — 5h-Session-Sperren gelten kontoweit, nicht je Station
+
+**Befund (vollgas-fruehwarnung 07:36).** In der Nacht auf den 24.08.2026 erzeugte der
+`/tmp`-Vollgas-Schub auf dem **Mac Mini** zwischen 00:00 und 02:40 genau 437 Laeufe mit rc=1 und
+Kosten null. Mitgerissen wurden vier Lern-Loops auf dem **MacBook Pro** (wissens-chef 22:24,
+vollgas-chef-radar 22:59, normen-training-nacht 23:29, wettbewerbs-dna-training 00:29), alle mit
+demselben Text «You've hit your session limit · resets 2:40am». Der Mini hatte seine eigene Sperre
+mit Reset 21:40 des Vortages.
+
+**Lehre fuer die Aufsicht:** Eine Lastquelle auf einer Station kann Laeufe auf der **anderen**
+Station blockieren — beide Stationen trinken aus demselben Abo-Kontingent. Wer den Verbrauch je
+Station misst und daraus auf die Gefaehrdung je Station schliesst, unterschaetzt das Risiko.
+Ebenso: eine Kontingent-Hochrechnung auf das **Wochenlimit** sagt nichts ueber die **5h-Sperre**,
+die frueher und unberechenbarer zuschlaegt. Am 24.08. lag die Wochenauslastung bei 88.9 % mit
+Reset um 12:00, waehrend die 5h-Sperre bereits in derselben Nacht 437 Laeufe gekillt hatte. Die
+beiden Grenzen sind getrennt zu bewerten, gerade wenn operative Briefings im Fenster liegen.
+
+**Messweg:** Limit-Ereignisse strukturell suchen (`isApiErrorMessage`, `type=="error"`,
+`apiErrorStatus==429`) und den Fehlertext lesen — «session limit» gegen «weekly limit» trennt die
+beiden Faelle. Ertrag je Tag ueber `git log --since/--until --name-only`, nie ueber mtime.
+
+⚠ **Werkzeugfalle im selben Lauf:** Die Artikelzaehlung im SSD-Klon lieferte 0 fuer alle Tage,
+weil das Remote `origin` heisst und nicht `github`. Ein leeres Ergebnis ist zuerst eine Aussage
+ueber das Werkzeug (Familie 260730b / 260807 / `wege-und-vollmachten`). Gegenprobe ueber einen
+zweiten Weg deckte es auf.

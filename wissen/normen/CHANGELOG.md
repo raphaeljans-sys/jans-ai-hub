@@ -1,3 +1,32 @@
+## 2026-08-24 — SIA-Sweep-Fortsetzung (07:53 Uhr): elfte unabhängige Sättigungsbestätigung, Kurzeintrag
+
+**Auftrag:** identisch zum Sweep-Auftrag der zehn Vorläufe desselben Tages (letzter Sweep-Eintrag
+07:34 Uhr, seither noch die QUESTIONS-Läufe H41-3/H41-4/L41-3 und die DIN-EN-1627-Klärung).
+CHANGELOG-Kopf zuerst gelesen.
+
+**Eigene Nachmessung, unverändert seit 07:34 Uhr:** `training/norm-inventar.md` weiterhin 0
+offene `[ ]`-Zeilen; `wiki/REGISTER.md` weiterhin 59 Zeilen „Kein Volltext im Haus" (Abschnitt A
+Z. 45/46 dokumentiert, dass alle 55 SIA-Nummern plus die zwei VSS-Bring-Schulden bereits gegen
+den vollständigen SharePoint-Bestand — 140 Dateien in `SIA_Norm/SIA_Normen/alle/` plus sieben
+norm-eigene Unterordner — abgeglichen sind: keine Datei im Haus, reine Kaufentscheide);
+`wiki/QUESTIONS.md` weiterhin 33 offene Zeilen (letzte 20 Zeilen gelesen: SN 640 273a, dieselbe
+Bring-Schuld-Klasse wie die übrigen VSS-Zeilen, nichts Neues seit dem letzten Report). Kein
+`git status --short` auf den vier KB-Kerndateien zum Messzeitpunkt.
+
+**Kollisionscheck (`ps aux`):** eigener Prozess `mschub720` (PID-Kette 15978/15979/15971) trägt
+denselben Auftragstext — dieser Lauf selbst, kein Konkurrent. Parallel: `mschub719`
+(QUESTIONS-Abarbeitung `normen`, andere PID-Kette) — anderes Deliverable, keine Kollision.
+
+**Einordnung unverändert:** kein neuer fachlicher Ertrag ohne Raphaels Kauf-/Freigabeentscheide
+(REGISTER Abschnitt A, u.a. P1 SIA 380/1, 385/1, 266/1; VSS-Shop für SN 640 052/641 400/640 273a)
+möglich. Bewusst nur Kurzeintrag statt Volltext-Wiederholung (Rule `wissens-ruecklauf`: kein
+Pflicht-Rauschen ohne neuen Inhalt).
+
+**Empfehlung unverändert:** SIA-Sweep bis zu den genannten Kauf-/Freigabeentscheiden pausieren.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — rein additiv, 0 Löschungen.
+Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: DIN-EN-1627-Beschaffungsweg via SharePoint ausgeschöpft, restliche 33 offene Punkte gegengelesen (weiterhin gesättigt)
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
