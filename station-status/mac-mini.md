@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 25.08.2026 00:10:29
+Stand: 25.08.2026 00:20:45
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - keine
@@ -15,4 +15,4 @@ Stand: 25.08.2026 00:10:29
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- c2c5024f6 baurecht Buch-Run 140: Diskrepanz aus Run 137 aufgeloest — die Wiederaufbau-Regel steht in Art. 42 Abs. 4 RPV, nicht in Art. 24c Abs. 2 RPG; zwei vertauschte Schwellenwerte korrigiert (Halb-Anrechnung gilt INNEN, 60-%-Innenschwelle fehlte, Art. 42 Abs. 3 lit. a/b + Art. 43 Abs. 2 RPV); vier Fassungsstands-Nachtraege RPV-Revision 1.1.2026; RPG-Aenderungsumfang aus Run 103 geklaert (nur Sachueberschrift); Fedlex-Werkzeugfallen dokumentiert
+- 9dd8e8737 nas-selfcommit: 2 Datei(en) 2026-08-25 00:15
