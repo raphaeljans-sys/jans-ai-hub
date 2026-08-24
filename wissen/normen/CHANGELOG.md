@@ -1,3 +1,32 @@
+## 2026-08-24 — SIA-Sweep: vierzehnte unabhängige Sättigungsverifikation (10:05 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). CHANGELOG und
+Report des letzten SIA-Sweep-Laufs (dreizehnte Sättigungsverifikation, 09:58 Uhr, nur 7 Min.
+zuvor) zuerst gelesen — dessen Empfehlung folgend nur den dort vorgeschlagenen
+Modifikationsdatum-/Bring-Schuld-Check wiederholt statt eines vollen Sweeps (Rule
+`wissens-ruecklauf`: kein Pflicht-Rauschen bei unveränderter Lage).
+
+**Kollisionscheck:** eigener Prozess PID 70874 hostet diese Session; PID 70711
+(QUESTIONS-Abarbeitung derselben KB) und PID 69010 (Energie-KB) laufen parallel, keine
+Dateiüberschneidung mit `wiki/REGISTER.md`, `destillate/` oder `training/norm-inventar.md`.
+
+**Befund:** SharePoint-Ordner `SIA_Norm/SIA_Normen/alle/` via `connectors/m365-graph.mjs`
+nach `lastModifiedDateTime` geprüft — weiterhin keine Datei neuer als
+2026-08-07T09:18:20Z, unverändert seit dem elften bis dreizehnten Lauf (17 Tage).
+`wiki/REGISTER.md` weiterhin 59 „Kein Volltext im Haus"-Zeilen, `training/norm-inventar.md`
+weiterhin genau 6 echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193, SN 640 052, SN 641 400,
+SN 640 273a, SIA 181:2020-Re-Destillat), alle bereits mit Produktdatenblatt/Preis/
+Gültigkeitsdatum belegt und ausnahmslos Beschaffungs-Bring-Schuld. Commit-Historie seit dem
+dreizehnten Lauf betrifft nur `wiki/QUESTIONS.md`, keine der sweep-relevanten Dateien.
+
+**Kein Register-, Inventar- oder Destillat-Schreibvorgang.** Report:
+`outputs/2026-08-24_sia-sweep-vierzehnte-saettigungsverifikation-1005uhr.md`.
+Empfehlung unverändert: SIA-Sweep bleibt pausiert bis neues Rohmaterial im SharePoint-Ordner
+erscheint oder Raphael einen der sechs Kauf-/Beschaffungsentscheide trifft.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung (neunter Lauf): Verify-Abschluss-Teilpunkt (5) BRL 100-15 geschlossen, breiter Sättigungsbefund für den Rest der offenen Checkboxen
 
 **Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
