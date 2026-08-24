@@ -27,6 +27,63 @@ erscheint oder Raphael einen der sechs Kauf-/Beschaffungsentscheide trifft.
 
 ---
 
+## 2026-08-24 — QUESTIONS-Abarbeitung (zehnter Lauf, 10:06 Uhr): zwei vermutete Bookkeeping-Lücken geprüft, beide bereits korrekt geschlossen — Sättigung erneut bestätigt
+
+**Auftrag:** Fortsetzung derselben Daueraufgabe. CHANGELOG-Kopf und Report des letzten Laufs
+(neunter Lauf, BRL-100-15-Teilpunkt-5-Schliessung + Sättigungsbefund) zuerst gelesen.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 70711 (identischer
+Auftragstext) ist Host dieser Session. Parallel läuft PID 69010 gegen
+`wissen/energie/wiki/QUESTIONS.md` (andere KB, kein Overlap).
+
+**NAS-Hinweis:** `/Volumes/daten` beim Sessionstart nicht gemountet; `wissen/normen` liegt als
+versionierter Repo-Inhalt vor, keine Blockade.
+
+**Vorgehen:** 32 verbleibende `- [ ]`-Zeilen gezählt (Vorlauf: 37 → 36 → 32, konsistent mit dem
+Neuntlauf-Ergebnis). Zwei Kandidaten vertieft geprüft, die auf den ersten Blick wie ungezogene
+Bookkeeping-Checkboxen aussahen (Muster: Antwort bereits andernorts vorhanden, Checkbox nie auf
+`[x]` gesetzt — wie beim BRL-100-15-Fund des Neuntlaufs):
+
+1. **Z1/Z2-Koeffizienten SIA 103** (`- [ ]` bei „Z1/Z2-Koeffizienten des SIA-103-Grundfaktors
+   fehlen"): Am Original geprüft, `destillate/sia-103-2003.md` Ziff. 7.2.2 führt die Werte
+   bereits inline (Z1 = 0.075, Z2 = 7.23, Beleg `sia-honorar-hilfsmittel.md`, seit
+   Commit `b52a94b27`/heutigem Selfcommit). In `wiki/QUESTIONS.md` selbst existiert bereits ein
+   eigener `[x]`-Schliessungs-Bullet **eine Zeile darüber** («GESCHLOSSEN 24.08.2026 —
+   Z1/Z2-Koeffizienten…»); die geprüfte `[ ]`-Zeile ist der bewusst unveränderte
+   Ursprungswortlaut, den die KB-Konvention («Ursprungswortlaut bleibt unten stehen») nach einer
+   Schliessung stehen lässt. **Kein Handlungsbedarf, kein Fehler.**
+2. **Folgeprüfung zur 2015er-BRL-Serie** (`- [ ]` bei „Dieselbe Verwechslung Fassungsdatum ↔
+   Ausgabejahr…"): Gegen `wiki/REGISTER.md` Abschnitt D (VKF-Fassungsmatrix, Run 58-60) geprüft
+   — die dort geforderte systematische Durchsicht der ganzen revidierten Serie ist mit dem
+   VKF-Fassungs-Sweep (20/23 Delta-Destillate, alle 01.01.2017er-Publikationen 15/15) bereits
+   geleistet. Auch hier existiert bereits ein eigener `[x]`-Schliessungs-Bullet unmittelbar
+   darüber («GESCHLOSSEN 23.08.2026»); die geprüfte Zeile ist ebenfalls bewusst erhaltener
+   Ursprungswortlaut derselben Konvention. **Kein Handlungsbedarf, kein Fehler.**
+
+**Korrigierte Annahme für künftige Läufe:** Nicht jede `[ ]`-Zeile mit vorausgehendem
+`[x]`-Schliessungstext ist eine ungezogene Bookkeeping-Lücke — die KB kennt zwei verschiedene
+Nachtrags-Muster: (a) Checkbox wird bei Schliessung direkt auf `[x]` gezogen (z.B. „P1 — Fassung
+Stand 01.12.2022" weiter unten in derselben Datei), (b) der Ursprungswortlaut bleibt bewusst als
+`[ ]` stehen und die Schliessung steht als eigener `[x]`-Bullet unmittelbar davor. **Vor jeder
+vermuteten „vergessenen Checkbox" zuerst die 1-2 Zeilen unmittelbar darüber lesen**, nicht nur
+den Bullet-Text selbst — sonst droht doppelte Schliessungsarbeit an bereits erledigten Punkten.
+
+**Stichprobe der übrigen 30 offenen Zeilen (Kurzcheck, keine Vertiefung):** N-R40-3 (EN-81-Reihe,
+bewusst „kein systematischer Nachzieh-Auftrag" bis Projektbedarf), N-R40-7 (Lignatec-Grauton,
+Quelle selbst nicht auflösbar), Dateiname-Diskrepanzen 592056/564_282 (dokumentiert, Rename
+destruktiv → Raphael), SIA 491/SN EN 12193/SN 640 052/SN 641 400 (REGISTER Abschnitt D bzw. Zeile
+45/940/941: mehrfach erfolglose Web-Beschaffung, VSS-Kundendienst als einziger Restweg, externe
+Bring-Schuld), DIN EN 1627 (Teilbestand 4/44 S., Lücke seit 260713 dokumentiert, kein Vollbestand
+im Haus), DIN-Sonstiges-Ordner (laut Inventar vollständig destilliert und retro-verifiziert) —
+durchgehend bereits korrekt klassifiziert, kein neuer Fund.
+
+**Fazit:** zehnte Bestätigung in Folge (nach neun Vorläufen desselben Tages), dass die
+verbleibenden `wiki/QUESTIONS.md`-Checkboxen keinen mit Primärquellenlektüre lösbaren Rest mehr
+enthalten. Keine Datei geändert ausser diesem CHANGELOG-Eintrag (additiv).
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — nur `CHANGELOG.md` geändert,
+rein additiv, keine bestehende Zeile gelöscht.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung (neunter Lauf): Verify-Abschluss-Teilpunkt (5) BRL 100-15 geschlossen, breiter Sättigungsbefund für den Rest der offenen Checkboxen
 
 **Auftrag:** Fortsetzung derselben Daueraufgabe (offene Fragen in `wiki/QUESTIONS.md`
