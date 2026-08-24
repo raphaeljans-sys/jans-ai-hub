@@ -3,6 +3,49 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 134: Stale-Note Kap. 2 korrigiert — Teil-2-Destillat deckte S.152-169 (BZO-Grundlagen 2.3.7 + vollständige Arealüberbauung) bereits ab, Kap. 2 auf VOLLSTAENDIG gehoben
+- ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (zuletzt bestätigt Run 133).
+  Zwei parallele Baurecht-Konkurrenzläufe zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft: eigener
+  Lauf `mschub766`, PID 53452, gestartet 09:17; zweiter Lauf `mschub770`, PID 54781, gestartet 09:20,
+  identischer Prompt) — bewusst ein von Run 133 noch nicht behandeltes, kollisionsarmes Thema gewählt
+  (Band 1 statt Band 2), wie schon bei `mschub714`/`mschub718` (Run 130) vorgemacht. Fortsetzung des
+  Auftrags «Buch-Destillate zuerst, beide Bände prüfen»: Run 133 hatte nur Band 2 (`buecher/band-2/`)
+  gegen `curriculum.md` geprüft, Band 1 stand noch aus.
+- **Befund:** Die Kap.-2-Zeile in `curriculum.md` führte Status **[~]** mit dem Vermerk «Rest:
+  BZO-Grundlagen 2.3.7/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set». Diese Notiz stammt
+  aus der eigenen «Offene Punkte»-Sektion von
+  [[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] (Run 18, 2026-07-02): «Das
+  Screenshot-Set springt von S.151 direkt auf S.170 … nur teilweise erfasst». Das ist falsch — das
+  **zwei Tage früher** erstellte [[band-1/02-nutzungsplanung-zonenarten-teil2]] (Run 17, 2026-06-30,
+  Shots 73-85, S.144-169) deckt genau diese Spanne bereits **vollständig** ab: Abschnitt
+  «Kommunale Bauzonen — Bauzonentypen im Allgemeinen (2.3.7.2)» bis «Besondere Instrumente der
+  kommunalen BZO — Arealueberbauung (2.3.7.5)», inklusive der **vollständigen** Arealüberbauung
+  (§§ 69-73 PBG, nicht nur deren Anfang). Gegen `buecher/seiten-inventar.md` verifiziert: Shots 77-85
+  (S.152-169) sind durchgehend `[x]` und auf `02-nutzungsplanung-zonenarten-teil2` verlinkt — die
+  Teil-3-Notiz wurde offenbar ohne Abgleich gegen das bereits existierende Teil-2-Destillat verfasst.
+  Dieselbe Zeiger-Fehlerfamilie wie Run 133 (Kap. 16) und Run 117 (Kap. 17), diesmal in Band 1.
+- **Nicht behauptet:** S.205 f. (Shot 104, S.206/207, direkt an der Kap.-3-Grenze S.207) wurde an
+  dieser Station nicht separat gegen die Original-Screenshots geprüft — Teil 3 dokumentiert im
+  Fliesstext nur bis S.204 (2.3.10 Planungsverträge), der Shot selbst ist zwar als `[x]` erfasst und
+  auf Teil 3 verlinkt, sein Inhalt aber nicht im Destillat-Text nachvollziehbar. Kap. 2 daher als
+  inhaltlich vollständig geführt, mit explizit offenem Zwei-Seiten-Rest statt einer erfundenen
+  Vollständigkeitsbehauptung (Rule `identifikatoren-verifizieren`/`nichts raten`).
+- GEÄNDERT `buecher/band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3.md` (Offene-Punkte-Eintrag
+  «Screenshot-Lücke S.152-169» durchgestrichen + Korrekturvermerk), `training/curriculum.md`
+  (Kap.-2-Zeile: Status [~] → **[x] VOLLSTAENDIG**, Stale-Note-Vermerk ergänzt).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: `02-nutzungsplanung-sondernutzung-
+  verfahren-teil3.md` 1/1, `curriculum.md` 1/1 — beide reine Ein-Zeilen-Ersetzungen, keine
+  unerwartete Löschung.
+- REPORT `outputs/2026-08-24_buch-run134.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch diesen
+  Lauf. Buch-Abdeckung Band 1 nach diesem Fund: alle zehn Kapitel (1-10) vollständig/established.
+  Band 2: Kap. 11-17/19-21 vollständig/established, Kap. 18 bewusst nur Querverweis, **Kap. 22/23
+  bleiben `emerging`/P3** (Run 133, Zugriff auf Original-Screenshots an dieser Station weiterhin
+  fehlend). Sonst unverändert: die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate
+  (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77), der Baulinien-Wachposten (PBG-Teilrevision
+  «Baulinien», weiterhin nicht in Kraft) und [[geschosse-und-kniestock]] als fachlich
+  zurückgestellter Modell-D-Kandidat.
+
 ## 2026-08-24 — Buch-Run 133: Stale-Note Kap. 16 korrigiert — `kap16-10_gebaeudedimensionen-harmonisierung.md` deckt die seit 13.06.2026 fällige Restspanne bereits ab, Kap. 16 auf VOLLSTAENDIG gehoben
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (zuletzt bestätigt Run 132).
   Kein paralleler Baurecht-Konkurrenzlauf zum Zeitpunkt dieses Laufs aktiv (`ps aux` geprüft; der
