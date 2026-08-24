@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 23:29:23
+Stand: 24.08.2026 23:39:39
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 23:00)
+- Developer/jans/ai/hub  (letzte Aktivitaet 23:36)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -15,4 +15,4 @@ Stand: 24.08.2026 23:29:23
 - 1 Datei(en): AR - 01 Projekte / .849C9593-D756-4E56-8D6E-42412F2A707B
 
 ## Hub-Git-Stand (NAS)
-- 9c18ad5fb nas-selfcommit: 2 Datei(en) 2026-08-24 23:15
+- e7124426d wissens-chef Run 42: Brandschutz-Wegweiser erstmals ganzflaechig gegen normen geprueft (4 Befunde, u.a. Blitzschutz III/III statt III/II und ein Selbstwiderspruch in §5ac); SIA 2040 abgeloest durch SIA 390/1:2025 vierfach nachgetragen; SN 409 431 -> SN 509 431 samt Ursprung im Buch-Destillat; E-R161-3-Diagnose widerlegt; Giebelweg-Reserve 8 -> 105 m3
