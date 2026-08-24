@@ -23,9 +23,9 @@
 #   E9 Rueckkanal   sync-tasks/ und remote-tasks/ je Station sichtbar
 #
 # Aufruf:
-#   bash scripts/vermaschungs-test.sh            volle Matrix (rund 60-90 s)
-#   bash scripts/vermaschungs-test.sh --kurz     nur die Ampel je Ebene
+#   bash scripts/vermaschungs-test.sh            volle Matrix (rund 30-60 s)
 #   bash scripts/vermaschungs-test.sh --netz     nur E1+E2 (schnell, rund 20 s)
+#   bash scripts/vermaschungs-test.sh --hilfe    diesen Kopf zeigen
 #
 # Nur lesend. Einzige Schreibvorgaenge: je eine Testdatei im NAS-Ordner
 # zettel/.vermaschung/, die derselbe Lauf wieder entfernt.
@@ -35,6 +35,11 @@
 set -uo pipefail
 
 MODUS="${1:-}"
+case "$MODUS" in
+    --hilfe|-h|--help) sed -n '2,40p' "$0" | sed 's/^# \{0,1\}//'; exit 0 ;;
+    ""|--netz) ;;
+    *) echo "Unbekannte Option: $MODUS  (--netz oder --hilfe)"; exit 2 ;;
+esac
 NAS="/Volumes/daten/jans-ai-hub"
 DATEN="$NAS/connectors/hub-setup-daten.json"
 TESTDIR="$NAS/zettel/.vermaschung"
@@ -125,7 +130,13 @@ if [ -d "$R/.git" ]; then
   echo "repo=$R"
   echo "head=$(git -C "$R" rev-parse HEAD 2>/dev/null)"
   echo "branch=$(git -C "$R" rev-parse --abbrev-ref HEAD 2>/dev/null)"
+  echo "headdatum=$(git -C "$R" log -1 --format=%cd --date=format:'%d.%m. %H:%M' 2>/dev/null)"
   echo "dirty=$(git -C "$R" status --porcelain 2>/dev/null | wc -l | tr -d ' ')"
+  # ahead/behind gegen den zuletzt bekannten Upstream-Stand (ohne fetch: kein
+  # Netzverkehr, kein Eingriff — misst die Spaltungsgefahr, nicht die Aktualitaet)
+  ab=$(git -C "$R" rev-list --left-right --count '@{u}...HEAD' 2>/dev/null)
+  echo "behind=$(echo "$ab" | awk '{print $1+0}')"
+  echo "ahead=$(echo "$ab" | awk '{print $2+0}')"
 else
   echo "repo=fehlt"
 fi
@@ -180,6 +191,8 @@ else
         *) ampel ok "Tailscale hier verbunden ($MEINE_IP)" ;;
     esac
 fi
+ERREICHBAR=()
+for i in $(seq 0 $((N-1))); do ERREICHBAR[$i]=1; done
 for i in $(seq 0 $((N-1))); do
     name="${NAMEN[$i]}"; ip="${IPS[$i]}"; lan="${LANIPS[$i]}"
     if ist_selbst "$ip"; then
@@ -196,6 +209,7 @@ for i in $(seq 0 $((N-1))); do
         ampel ok "$(printf '%-16s Tailnet-SSH %-5s  LAN-SSH %s' "$name" "$tnet" "$lanz")"
     else
         ampel befund "$(printf '%-16s Tailnet-SSH %-5s  LAN-SSH %s  — Station nicht erreichbar' "$name" "$tnet" "$lanz")"
+        ERREICHBAR[$i]=0
     fi
 done
 
@@ -221,7 +235,15 @@ for i in $(seq 0 $((N-1))); do
             printf '%-18s' "ok"
         else
             printf '%-18s' "FEHLT"
-            MF_ANZ=$((MF_ANZ+1)); MF_LISTE="$MF_LISTE${NAMEN[$i]} -> ${NAMEN[$j]}\n"
+            MF_ANZ=$((MF_ANZ+1))
+            if [ "${ERREICHBAR[$j]}" = "0" ]; then
+                grund="Ziel von hier aus nicht erreichbar (offline/schlafend?) — erst E1 klaeren"
+            elif [ "${ERREICHBAR[$i]}" = "0" ]; then
+                grund="Quelle nicht erreichbar — Richtung nicht messbar"
+            else
+                grund="beide Stationen erreichbar, also fehlt der SCHLUESSEL: Publickey von ${NAMEN[$i]} in authorized_keys auf ${NAMEN[$j]} nachtragen"
+            fi
+            MF_LISTE="$MF_LISTE${NAMEN[$i]} -> ${NAMEN[$j]}: $grund\n"
         fi
     done
     echo ""
@@ -230,7 +252,7 @@ if [ "$MF_ANZ" -eq 0 ]; then
     ampel ok "alle $((N*N-N)) Richtungen passwortlos offen — vollvermascht"
 else
     printf '%b' "$MF_LISTE" | while IFS= read -r f; do
-        [ -n "$f" ] && printf '  [BEFUND] Richtung fehlt: %s  (Schluessel der Quellstation in authorized_keys der Zielstation nachtragen)\n' "$f"
+        [ -n "$f" ] && printf '  [BEFUND] Richtung fehlt: %s\n' "$f"
     done
     BEFUNDE=$((BEFUNDE+MF_ANZ))
 fi
@@ -299,7 +321,8 @@ fi
 # E5 — Git: divergieren die Klone?
 # ============================================================================
 echo ""
-echo "E5  GIT-STAND JE KLON"
+echo "E5  GIT-STAND JE KLON (Latenz ist harmlos, ungepushte Commits sind es nicht)"
+SCHREIBER=0
 HEADLISTE=""
 for i in $(seq 0 $((N-1))); do
     h=$(feld $i head); b=$(feld $i branch); d=$(feld $i dirty); r=$(feld $i repo)
@@ -308,18 +331,24 @@ for i in $(seq 0 $((N-1))); do
         continue
     fi
     HEADLISTE="$HEADLISTE$h\n"
-    txt=$(printf '%-16s HEAD %s auf %s' "${NAMEN[$i]}" "$(printf '%s' "$h" | cut -c1-9)" "$b")
-    if [ "${d:-0}" -gt 0 ] 2>/dev/null; then
-        ampel unklar "$txt, $d ungesicherte Aenderungen"
+    hd=$(feld $i headdatum); ah=$(feld $i ahead); bh=$(feld $i behind)
+    txt=$(printf '%-16s %s vom %s' "${NAMEN[$i]}" "$(printf '%s' "$h" | cut -c1-9)" "${hd:-?}")
+    if [ "${ah:-0}" -gt 0 ] 2>/dev/null; then
+        ampel befund "$txt — $ah Commit(s) NUR HIER, nicht auf GitHub (Spaltungsgefahr: zwei Schreiber auf main)"
+        SCHREIBER=$((SCHREIBER+1))
+    elif [ "${d:-0}" -gt 0 ] 2>/dev/null; then
+        ampel unklar "$txt, $d ungesicherte Aenderungen im Arbeitsbaum"
     else
-        ampel ok "$txt, sauber"
+        ampel ok "$txt, sauber und gepusht"
     fi
 done
 ANZ_HEADS=$(printf '%b' "$HEADLISTE" | sed '/^$/d' | sort -u | wc -l | tr -d ' ')
 if [ "${ANZ_HEADS:-0}" -le 1 ]; then
     ampel ok "alle Klone auf demselben Commit"
+elif [ "$SCHREIBER" -ge 2 ]; then
+    ampel befund "$ANZ_HEADS verschiedene HEADs UND $SCHREIBER Stationen mit eigenen Commits — echte Spaltung, nicht blosse Latenz"
 else
-    ampel unklar "$ANZ_HEADS verschiedene HEADs — eine Station hinkt nach (git pull; NAS-Committer laeuft alle 15 Min)"
+    ampel ok "$ANZ_HEADS verschiedene HEADs, aber nur Latenz (kein Klon haelt eigene Commits zurueck; Selfcommit alle 15 Min, auto-sync alle 5 Min)"
 fi
 
 # ============================================================================

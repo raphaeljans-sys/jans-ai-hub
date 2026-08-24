@@ -46,15 +46,61 @@ if ! ssh -o ConnectTimeout=5 -o StrictHostKeyChecking=no -p 443 -T git@ssh.githu
     exit 0
 fi
 
-# 1. Pull mit Rebase
+# Fehlzaehler + Eskalationsschwelle (Symmetrie zu nas-selfcommit.sh, Chronik 260824e/f).
+# Anlass 24.08.2026: BEIDE Sync-Scripts kannten genau EINEN Abgleichweg. Scheiterte er,
+# liefen sie im Kreis, still, ohne Meldung — auf der NAS-Seite sechs Stunden lang mit
+# 26/51 divergierenden Commits. Was den einen Waechter heilt, muss auch den anderen heilen,
+# sonst verschiebt man den blinden Fleck nur auf die Gegenseite.
+FEHLZAEHLER="$REPO_DIR/.git/auto-sync-fehlversuche"
+ESKALATION_AB=3
+
+eskalieren() {
+    # $1 = Kurzbegruendung, $2 = Divergenz lokal, $3 = Divergenz remote
+    N=$(cat "$FEHLZAEHLER" 2>/dev/null || echo 0)
+    case "$N" in ''|*[!0-9]*) N=0 ;; esac
+    N=$((N + 1))
+    printf '%s' "$N" > "$FEHLZAEHLER" 2>/dev/null
+    log "ABGLEICH FEHLGESCHLAGEN ($1) — Versuch $N, Divergenz ${2} lokal / ${3} remote"
+    if [ "$N" -eq "$ESKALATION_AB" ]; then
+        log "WARNUNG: Abgleich seit $N Laeufen blockiert — Divergenz ${2} lokal / ${3} remote"
+        REG="/Volumes/daten/jans-ai-hub/logbuch/fristen.md"
+        if [ -f "$REG" ]; then
+            TMP="$(mktemp)" || return 1
+            {
+                head -4 "$REG"
+                printf '\n**NEU %s (git-auto-sync auf %s, automatisch) — Der Abgleich SSD-Klon/GitHub ist seit %s Laeufen blockiert.**\n' \
+                    "$(date '+%d.%m.%Y, %H:%M')" "$(scutil --get LocalHostName 2>/dev/null || hostname -s)" "$N"
+                printf 'Divergenz aktuell: **%s Commits nur lokal, %s nur auf GitHub.** Weder Rebase noch Merge gehen\n' "$2" "$3"
+                printf 'automatisch durch. **Wichtig: der SSD-Klon ist fuer einen Teil der Lern-Laeufe der EINZIGE Weg\n'
+                printf 'nach draussen** (gemessen 24.08.2026: 40 von 83 Dateien in 14 Tagen kamen nur ueber diesen Kanal) —\n'
+                printf 'die Arbeit liegt also ungesichert, solange das steht. Konflikte von Hand zusammenfuehren (Merge,\n'
+                printf 'nicht Rebase), vorher einen Sicherungszweig setzen. Vorgehen: `rules/betrieb-chronik.md` 260824e/f.\n'
+                printf 'Diese Zeile wird erst wieder geschrieben, wenn der Abgleich zwischenzeitlich lief. | Hub-Infrastruktur (Git-Sync) | hoch | offen\n'
+                tail -n +5 "$REG"
+            } > "$TMP" && mv "$TMP" "$REG" \
+                && log "Fristen-Register ergaenzt"
+        fi
+    fi
+}
+
+# 1. Pull mit Rebase — bei Fehlschlag Merge als Rueckfall (statt Abbruch)
 PULL_OUTPUT=$(git pull --rebase --autostash 2>&1)
 PULL_EXIT=$?
 
 if [ $PULL_EXIT -ne 0 ]; then
-    log "FEHLER bei pull: $PULL_OUTPUT"
-    # Rebase abbrechen falls gestartet
     git rebase --abort 2>/dev/null
-    exit 1
+    log "PULL-Rebase fehlgeschlagen — versuche Merge. Ausgabe: $PULL_OUTPUT"
+    git fetch -q 2>/dev/null
+    D_VOR=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)
+    D_ZUR=$(git rev-list --count HEAD..@{u} 2>/dev/null || echo 0)
+    if git merge --no-edit -q @{u} 2>>"$LOG"; then
+        log "MERGE: Rueckfall gegriffen ($(git log --oneline -1 | cut -c1-60))"
+    else
+        # NIE einen Merge-Zustand hinterlassen — der Guard oben wuerde alle Folgelaeufe stoppen.
+        git merge --abort 2>/dev/null
+        eskalieren "Rebase und Merge, Konflikte brauchen ein Urteil" "$D_VOR" "$D_ZUR"
+        exit 1
+    fi
 fi
 
 if echo "$PULL_OUTPUT" | grep -q "Already up to date"; then
@@ -95,9 +141,15 @@ if [ "$LOCAL" != "$REMOTE" ]; then
     PUSH_EXIT=$?
     if [ $PUSH_EXIT -eq 0 ]; then
         log "PUSH: OK"
+        printf '0' > "$FEHLZAEHLER" 2>/dev/null
     else
-        log "FEHLER bei push: $PUSH_OUTPUT"
+        git fetch -q 2>/dev/null
+        D_VOR=$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)
+        D_ZUR=$(git rev-list --count HEAD..@{u} 2>/dev/null || echo 0)
+        eskalieren "push: $(echo "$PUSH_OUTPUT" | tail -1)" "$D_VOR" "$D_ZUR"
     fi
+else
+    printf '0' > "$FEHLZAEHLER" 2>/dev/null
 fi
 
 # >>> REMOTE-TASK-RUNNER-HOOK (installiert von remote-tasks/install.sh)

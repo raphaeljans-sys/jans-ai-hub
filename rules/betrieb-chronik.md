@@ -19,6 +19,55 @@ Ausgelagert am 29.07.2026 (Kontext-Diaet 2.0, Anthropic-Lecture-Prinzip «tune c
 automatically or lazily?»). Konzept:
 `docs/konzepte/260729-Anthropic-Lecture-Prinzipien/`.
 
+## 260824f — Die Vermaschung ist jetzt messbar statt nacherzaehlbar: `scripts/vermaschungs-test.sh`
+
+**Anlass.** Der Eintrag 260824d schliesst mit dem Satz «eine Vermaschung wird als Matrix gemessen,
+nicht als Liste von Handgriffen». Die Messung selbst war aber eine Handarbeit: sechs SSH-Aufrufe,
+von Hand gefahren, in eine Tabelle geschrieben. Beim naechsten Mal — neue Station, getauschter
+Schluessel, geaenderter Benutzername — muss dieselbe Arbeit erneut von Hand geleistet werden, und
+genau dann wird wieder eine Richtung ausgelassen. Das Script macht die Matrix wiederholbar.
+
+**Was es misst, in neun Ebenen.** E1 Netzweg (Tailnet und LAN getrennt, plus der Tailscale-Zustand
+der eigenen Station), E2 die volle SSH-Matrix aller sechs Richtungen (die Gegenrichtungen laufen
+verschachtelt: `ssh A "ssh B hostname"`), E3 NAS-Mount mit Lese- UND Schreibprobe je Station,
+E4 einen echten Datenumlauf (eine Station schreibt ein Zufallstoken in `zettel/.vermaschung/`,
+alle anderen lesen es zurueck und vergleichen den Inhalt), E5 Git-Stand je Klon, E6 die drei
+Skill-Symlinks, E7 Uhrendrift, E8 Claude-CLI und Rueckkanaele.
+
+**Warum E4 der eigentliche Test ist.** E1 bis E3 messen Wege. Erst E4 beweist, dass alle drei
+Stationen wirklich **dieselbe** Bibliothek sehen: ein Mount kann bestehen, lesbar sein und
+trotzdem auf ein anderes Volume zeigen. Der Vergleich des Token-Inhalts trennt «gemountet» von
+«dasselbe gemountet».
+
+**Zwei eigene Messfehler, im Bau gefunden und behoben** — beide von der Art, die eine gruene
+Ampel vortaeuschen oder einen Fehlalarm ausloesen:
+1. `git rev-parse --short HEAD` kuerzt **je Repo verschieden** (`25664e71` gegen `25664e71e`,
+   `core.abbrev` haengt an der Objektzahl). Der erste Lauf meldete deshalb drei verschiedene
+   HEADs, wo zwei Stationen auf demselben Commit standen. Verglichen wird jetzt der volle Hash,
+   gekuerzt wird erst in der Anzeige.
+2. Verschiedene HEADs sind im Normalbetrieb **Latenz, kein Befund** — der Selfcommit laeuft alle
+   15 Min, der auto-sync alle 5. Gemeldet wird darum nicht die Hash-Differenz, sondern das, was
+   wirklich weh tut: `ahead > 0`, also Commits, die nur auf einer Station liegen. Stehen zwei
+   Stationen gleichzeitig `ahead`, ist das die Spaltung aus 260824e und wird als Befund gemeldet.
+
+**Diagnose nach Ursache getrennt.** Faellt eine Richtung aus, unterscheidet der Bericht, ob das
+Ziel gar nicht erreichbar war (offline, schlafend) oder ob beide Stationen laufen und nur der
+Schluessel fehlt. Das ist dieselbe Trennung wie in 260824c: «laeuft» und «ist erreichbar» sind
+zwei Messungen — auch im Befundtext, sonst schickt der Bericht bei einem schlafenden MacBook
+jemanden auf die Suche nach einem `authorized_keys`-Eintrag, der laengst da ist.
+
+**Aufruf:** `bash scripts/vermaschungs-test.sh` (voll, rund 30-60 s), `--netz` (nur E1+E2, rund
+20 s), Slash-Command `/vermaschung`. Exit 0 vollvermascht, 1 Befund, 2 nicht pruefbar. Nur lesend;
+einziger Schreibvorgang ist das Umlauf-Token, das derselbe Lauf wieder entfernt.
+
+**Erster Lauf (24.08.2026 18:33, von Macbookpro):** alle neun Ebenen ohne Befund, alle sechs
+SSH-Richtungen offen, NAS auf allen drei Stationen les- und schreibbar, Token auf allen drei
+identisch, Uhrendrift 1 s.
+
+**Bash 3.2.** macOS liefert `/bin/bash` 3.2 — kein `mapfile`, keine assoziativen Arrays, und ein
+leeres Array gilt unter `set -u` als unset. Das Script kommt ohne alle drei aus; wer es erweitert,
+haelt das durch, sonst stirbt es ausgerechnet im launchd-Kontext.
+
 ## 260824e — NAS-Repo und GitHub liefen 6 h auseinander; der Selbstheilungsweg des Committers WAR der Fehler
 
 **Befund.** Von 08:21 bis 18:20 Uhr divergierten NAS-Repo und GitHub: 26 Commits nur auf dem NAS,
