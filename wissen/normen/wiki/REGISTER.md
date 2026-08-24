@@ -873,12 +873,26 @@ gemeinsamen Kontrolltabelle zusammengeführt.
 ✅ **Auch die acht namentlich benannten Titel des Restblocks (33071.d, 33072.d, 44062.d,
 44095.d, 44096.d, 88816.d/84044.d, 67064-1.d/67064-2.d) sind mit dem 24.08.2026 (SIA-Sweep
 37. Fortsetzung) erschlossen** — alle kostenlos über dieselbe HTML-Produktseiten-Route mit
-«PDF Deutsch»-Dropdown beschafft, keine Sprachfalle, keine HTML-statt-PDF-Falle. Zwei
-EKAS-Richtlinien geprüft: **beide entgegen der bisherigen Vermutung kostenlos** als PDF
-verfügbar (`ekas.admin.ch/fileadmin/Dokumente/Richtlinien/gueltig/02134_d.pdf` bzw.
-`.../06512_d_2017_01_01.pdf`), aber mit 76 bzw. 32 Seiten deutlich umfangreichere
-Rechtsgrundlagen-Dokumente als die übrigen Suva-Factsheets — **noch nicht destilliert**,
-eigener Aufwand für den nächsten Lauf.
+«PDF Deutsch»-Dropdown beschafft, keine Sprachfalle, keine HTML-statt-PDF-Falle.
+
+✅ **Beide EKAS-Richtlinien (2134 Forstarbeiten, 6512 Arbeitsmittel) sind mit dem 24.08.2026
+(QUESTIONS-Abarbeitung) destilliert.** Beide entgegen der bisherigen Vermutung kostenlos als
+PDF verfügbar (`ekas.admin.ch/fileadmin/Dokumente/Richtlinien/gueltig/02134_d.pdf` bzw.
+`.../06512_d_2017_01_01.pdf`; Direktlinks über die JSON-Struktur der generischen EKAS-
+Publikationsübersicht ermittelt, die direkten Kurzlinks `ekas.admin.ch/<nr>.d` funktionieren
+anders als bei Suva nicht). 6512 (32 S.) vollständig gelesen, Destillat
+`ekas-6512-arbeitsmittel.md`, established — zentrale Kennzahl für JANS-Bauleitung: Baugerüste,
+Rollgerüste und Baustellenaufzüge müssen nach jeder Montage überprüft und dies dokumentiert
+werden (Ziff. 5.3, Art. 32a Abs. 3 VUV). 2134 (76 S.) Hauptteil + Anhang 7/12-14 vollständig
+gelesen, Anhänge 2-6/8-11 nur über Inhaltsverzeichnis erschlossen, Destillat
+`ekas-2134-forstarbeiten.md`, established — für JANS nur bei Baufeldräumung mit
+Baumfällung relevant; zentrale Kennzahl Fall- und Gefahrenbereich = doppelte Baumlänge
+(Ziff. 6.1.5), Rechtsgrundlage der bereits destillierten Suva-33071.d/33072.d.
+
+| Publikation | Nr. | Ausgabe | Destillat | Bemerkung |
+|---|---|---|---|---|
+| Richtlinie Arbeitsmittel | EKAS 6512 | vom 19.10.2001, Stand 01.01.2017 | `ekas-6512-arbeitsmittel.md`, established | **Neu 24.08.2026 (QUESTIONS-Abarbeitung).** Allgemeines Pflichtenraster (Instruktion, Instandhaltung, Schutzeinrichtungen, Steuer-/Schalteinrichtungen); Ziff. 5.3 verlangt dokumentierte Überprüfung von Baugerüsten/Rollgerüsten/Baustellenaufzügen nach jeder Montage |
+| Richtlinie Forstarbeiten | EKAS 2134 | vom 06.12.2017, Stand 27.06.2025 | `ekas-2134-forstarbeiten.md`, established | **Neu 24.08.2026 (QUESTIONS-Abarbeitung).** Fall- und Gefahrenbereich = doppelte Baumlänge (Ziff. 6.1.5); Rechtsgrundlage zu 33071.d/33072.d. Anhänge 2-6/8-11 nicht im Detail gelesen |
 
 **Neue Cross-Referenzen aus den acht Titeln der 37. Fortsetzung, noch nicht destilliert:**
 67156.d (Checkliste Baumkronen pflegen/zurückschneiden, aus 33072.d), 44026.d (Sicher

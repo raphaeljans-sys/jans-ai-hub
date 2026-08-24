@@ -1,10 +1,14 @@
 ---
 title: Baubewilligungsverfahren — Kanton Zürich
 status: established
-last_updated: 2026-08-23
-sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§§ 309 ff. PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004"]
-links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]]
+last_updated: 2026-08-24
+sources: [260602_docs-baurecht-verfahren.md, 260602_docs-baurecht-pbg-zh.md, "§ 309 Abs. 1 lit. a-o PBG", "§ 315 PBG", "§ 316 PBG", "§ 322 PBG", "§ 325 PBG", "§ 325a PBG", "§ 328 PBG", "§ 1 BVV", "§§ 2a-2e BVV", "§§ 13-18 BVV", "§§ 4-7 BBV I", "BVV", "BBV I", "§§ 38-52 GG", "§§ 170-171 GG", 06-baurechtliches-verfahren.md, 06-baurechtliches-verfahren-teil2.md, 260607_amtlich_zh_pbg.md, 260607_amtlich_zh_bvv.md, 260607_amtlich_zh_bbv1.md, 260823_amtlich_zh_gg.md, "Wegleitung für das Baugesuch, Baukommission Thalwil, September 2004"]
+links: [[nutzungsziffern]], [[abstaende-und-hoehen]], [[zonenkonformitaet]], [[nebenbestimmungen-und-reverse]], [[baurechtlicher-vorentscheid-und-voranfrage]], [[raumplanung-und-gestaltung]], [[07-zustaendigkeiten-entscheide-auskuenfte]], [[06-baurechtliches-verfahren-teil2]], [[umgebungsgestaltung-und-einfriedungen]], [[fahrzeugabstellplaetze-und-parkierung]]
 verifiziert:
+  - datum: 2026-08-24
+    methode: "Stale-Flag-Sweep QUESTIONS.md (Buch-Run 111) — Modell-D-Volltextabgleich § 309 Abs. 1 PBG"
+    umfang: "vollständiger Bewilligungspflicht-Katalog § 309 Abs. 1 lit. a-o PBG gegen raw/260607_amtlich_zh_pbg.md; bislang nur pauschal als «§§ 309 ff. PBG» referenziert"
+    ergebnis: "CONFIRMED wortgleich, vollständige lit.-a-o-Tabelle neu ergänzt. Nebenbefund: die QUESTIONS.md-Arbeitsannahme «§ 242 PBG = Antennen, § 248 PBG = Camping/Fahrnisbauten» (Flag 2026-07-09) war unzutreffend — § 242/§ 248 PBG regeln tatsächlich Fahrzeugabstellplätze/Spiel-Ruheflächen (bereits seit Buch-Run 70 in [[fahrzeugabstellplaetze-und-parkierung]] established); Aussenantennen stehen stattdessen in § 309 Abs. 1 lit. l PBG (Bewilligungstatbestand, keine eigene materielle Norm)."
   - datum: 2026-07-13
     methode: "Modell-D-Volltextabgleich (adversarial)"
     umfang: "Anzeigeverfahren: § 325 PBG, § 325a PBG, §§ 13-15 BVV, §§ 4-7 BBV I"
@@ -27,8 +31,38 @@ verifiziert:
 
 Grundsatz: Bauten und Anlagen bedürfen einer Bewilligung (§§ 309 ff. PBG).
 Zuständig ist im Regelfall die kommunale Baubehörde; Rechtsmittelinstanz ist das
-Baurekursgericht, danach das Verwaltungsgericht. Die materielle Beurteilung stützt
-sich u.a. auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltung]]).
+Baurekursgericht, danach das Verwaltungsgericht. Die materielle Beurteilung stützt sich u.a.
+auf das Einordnungsgebot (§ 238 PBG, siehe [[raumplanung-und-gestaltung]]).
+
+## Bewilligungspflicht-Katalog § 309 Abs. 1 PBG (vollständig, ergänzt Buch-Run 111)
+
+Der Katalog war bislang nur als «§§ 309 ff. PBG» referenziert, ohne die einzelnen Tatbestände.
+Vollständiger Wortlaut (lit. a-o), CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md`:
+
+| lit. | Tatbestand |
+|---|---|
+| a | Erstellung neuer / bauliche Veränderung bestehender Gebäude und gleichgestellter Bauwerke |
+| b | Nutzungsänderungen bei Räumlichkeiten/Flächen mit baurechtlicher Bedeutung |
+| c | Abbruch von Gebäuden **in Kernzonen** |
+| d | Anlagen, Ausstattungen und Ausrüstungen |
+| e | Unterteilung von Grundstücken nach Bewilligung/Überbauung (ausser Zwangsabtretung) |
+| f | wesentliche Geländeänderungen (auch Materialgewinnung/-ablagerung) |
+| g | Änderungen Bewirtschaftung/Gestaltung in der Freihaltezone (ausser Felderbewirtschaftung/Gartenbau) |
+| h | **Mauern und Einfriedigungen** — siehe [[umgebungsgestaltung-und-einfriedungen]] |
+| i | **Fahrzeugabstellplätze, Werk- und Lagerplätze** — siehe [[fahrzeugabstellplaetze-und-parkierung]] |
+| k | Seilbahnen und andere Transportanlagen (soweit nicht Bundesrecht) |
+| l | **Aussenantennen** |
+| m | Reklameanlagen — siehe [[umgebungsgestaltung-und-einfriedungen]] (Strassenreklamen SVG/SSV) |
+| n | Fällen erhaltungspflichtiger Bäume |
+| o | wesentliche Veränderung der Umgebungsgestaltung, sofern die Begrünung beeinträchtigt wird |
+
+**Einordnung:** Aussenantennen (lit. l) sind bewilligungspflichtig **kraft dieser Aufzählung
+selbst**, nicht kraft einer eigenen materiellen Norm im Kap.-13-Bereich der §§ 242 ff. PBG —
+jene Paragraphen regeln, entgegen einer älteren, ungeprüften Arbeitsannahme in
+`wiki/QUESTIONS.md` (Flag 2026-07-09), tatsächlich **Fahrzeugabstellplätze (§ 242) und
+Spiel-/Ruheflächen (§ 248)**, siehe [[fahrzeugabstellplaetze-und-parkierung]]. Ein eigener
+materieller Antennen-Artikel existiert im PBG nicht; Mobilfunk-Antennen werden über die NISV
+geregelt, siehe [[laermschutz-und-nichtionisierende-strahlung]].
 
 ## Verfahrensarten
 - **Ordentliches Verfahren:** mit Baugespann (Aussteckung § 311 PBG) und öffentlicher

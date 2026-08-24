@@ -4,8 +4,8 @@ title: Bauausführung und Baukontrolle (Kt. ZH)
 status: established
 last_updated: 2026-08-24
 sources: [raw/260607_amtlich_zh_pbg.md, raw/260824_amtlich_zh_vb-2014-00026.md, "Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31); Art. 8/679/684/836 ZGB + Art. 29a BV + Art. 32bbis USG + Art. 6 LSV + Art. 11 Abs. 2 USG volltextverifiziert gegen fedlex.data.admin.ch (Modell-D Run 100); VB.2014.00026/BEZ 2014 Nr. 46 volltextverifiziert gegen entscheidsuche.ch (Run 108)"]
-verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestätigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprüft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber präzisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg für das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig); 2026-08-24 (Run 108 — VB.2014.00026/BEZ 2014 Nr. 46 E. 3.1.2 erstmals im Volltext gelesen (entscheidsuche.ch): das bisher zitierte Wort «zaegig» kam im Original nicht vor, korrigiert auf den wörtlichen Befund «derart langsam gearbeitet», Rechtsfolge-Massstab präzisiert)
-paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I/II; Art. 3a ABV; Art. 8/679/684/836 ZGB; Art. 29a BV; VUV; BauAV; Art. 16 VVEA; Art. 32bbis, Art. 11 Abs. 2 USG; Art. 6 LSV; §§ 2/15/19 KVAV
+verifiziert: 2026-07-25 (Run 58, Modell D — §§ 326-329 PBG + §§ 10c/30 VRG Bestand aus Run 30/31 bestätigt; Register-Sweep-Nachzug: Geisterbezeichnung «Art. 32bis USG» korrigiert zu «Art. 32bbis USG» — Run 47 hatte diesen Fundort beim ersten Sweep verfehlt); 2026-07-27 (Run 64, Register-Sweep-Nachtrag: VRG-Basisquelle war auf Nachtrag 129 datiert, aktuell Nachtrag 133 — §§ 8/9/10c/15/30 VRG frisch gegen Nachtrag 133 geprüft, wortidentisch, 0 Änderung; Details [[rechtsschutz-und-rechtsmittelverfahren]]); 2026-08-23 (Run 100, Modell D — erstmals die Bundesrechts-Zitate gegen den amtlichen Wortlaut geprüft: Art. 8/679/684/836 ZGB und Art. 29a BV CONFIRMED wortgleich; Art. 32bbis USG CONFIRMED, aber präzisiert (Geltendmachungsfrist Abs. 3 seit 1.11.2021 abgelaufen); Art. «38 Abs. 2 USG» als Beleg für das Vorsorgeprinzip war FALSCH — korrigiert auf Art. 11 Abs. 2 USG, Art. 6 LSV bleibt für die Baulärm-Richtlinien-Erlasskompetenz richtig); 2026-08-24 (Run 108 — VB.2014.00026/BEZ 2014 Nr. 46 E. 3.1.2 erstmals im Volltext gelesen (entscheidsuche.ch): das bisher zitierte Wort «zaegig» kam im Original nicht vor, korrigiert auf den wörtlichen Befund «derart langsam gearbeitet», Rechtsfolge-Massstab präzisiert); 2026-08-24 (Run 111, Stale-Flag-Sweep QUESTIONS.md Kap.-8-Block — § 239 Abs. 1 PBG + § 309 Abs. 1 lit. c PBG CONFIRMED; §§ 3/23 BVV bereits korrekt zitiert; § 24 BVV als echte Lücke neu ergänzt (elektronische Protokollierung, qualifizierte Signatur); § 12a BBV I CONFIRMED — Suchfehler eines früheren Laufs behoben, Fundstelle im Raw als «§ 12 a.» mit Leerzeichen erfasst; Attribution «Sanitäreinrichtungen → BBV II» war FALSCH, BBV II kennt kein § 12a, beide Kriterien [Austrocknung + Sanitär] stehen im selben § 12a BBV I, korrigiert. Art. 3a ABV bleibt trotz Suche NICHT verifizierbar — Zitat unverändert stehen gelassen, als offene Diskrepanz in QUESTIONS.md geführt, nicht ohne Gegenbeleg entfernt)
+paragraphen: §§ 239, 309, 322, 326, 327, 328, 328a, 329 PBG; §§ 8, 9, 10c, 15, 30 VRG; §§ 3, 23, 24 BVV; § 12a BBV I; Art. 3a ABV (Zitat ungeprüft, siehe QUESTIONS.md); Art. 8/679/684/836 ZGB; Art. 29a BV; VUV; BauAV; Art. 16 VVEA; Art. 32bbis, Art. 11 Abs. 2 USG; Art. 6 LSV; §§ 2/15/19 KVAV
 quelle_buch: Bd. 1 Kap. 8, S. 485-535 ([[08-ausfuehrung-von-bauarbeiten]] + [[08-ausfuehrung-teil2-baustellensicherheit]]); §§ 326-329 volltextverifiziert gegen raw/260607_amtlich_zh_pbg.md (Modell-D Run 30); §§ 10c/30 VRG volltextverifiziert gegen raw/260712_amtlich_zh_vrg.md (Run 31)
 ---
 
@@ -66,13 +66,25 @@ baupolizeilich (§ 327 PBG); am Ende steht die **Bezugsbewilligung/Schlusskontro
 ## 4. Bezugsbewilligung und Schlusskontrolle
 
 - **Bezugsbewilligung** (§ 327 Abs. 1 PBG, § 23 BVV): erteilt, wenn die Baute den Geboten der **Wohn-/
-  Arbeitshygiene** entspricht (§ 12a BBV II). Geprüft: **genügende Austrocknung** (SIA-Norm 180),
-  **Benutzbarkeit Sanitäreinrichtungen** (§ 12a BBV I), **energetische Anforderungen** (§ 239 Abs. 3 PBG;
-  Formulare awel.zh.ch), **Sicherheit** Geländer/Brüstungen (SIA-Norm 358; § 239 Abs. 1 PBG).
+  Arbeitshygiene** entspricht (**§ 12a BBV I** — «2. Abschnitt: Bezug neuerstellter Wohn- und
+  Arbeitsräume»: «Wohn- und Arbeitsräume in Neubauten, An-, Auf- und Umbauten dürfen erst bezogen
+  werden, nachdem die Gemeindebehörde sie besichtigt und als bezugsfähig erklärt hat. Das Bauwerk muss
+  genügend ausgetrocknet und die sanitären Einrichtungen müssen benützbar sein.»). Geprüft: **genügende
+  Austrocknung** (SIA-Norm 180) UND **Benutzbarkeit Sanitäreinrichtungen** — **beide Kriterien stehen im
+  selben § 12a BBV I**, nicht «Austrocknung BBV I / Sanitär BBV II» wie zuvor getrennt zitiert (Korrektur
+  Buch-Run 111, 2026-08-24: die BBV II kennt gar kein § 12a; Fundstelle war im Raw-Volltext als «§ 12 a.»
+  mit Leerzeichen erfasst, ein früherer Suchlauf hatte das übersehen). **Energetische Anforderungen**
+  (§ 239 Abs. 3 PBG; Formulare awel.zh.ch), **Sicherheit** Geländer/Brüstungen (SIA-Norm 358;
+  § 239 Abs. 1 PBG).
   → Wohnhygiene-Mindestmasse: [[wohnhygiene-und-raumanforderungen]].
 - **Schlusskontrolle:** Übereinstimmung Ausführung ↔ bewilligte Pläne. **Vertrauensschutz begrenzt:**
   Auch nach der Abnahme darf die Behörde materielle Mängel beanstanden; Treu und Glauben weicht
   überwiegenden öffentlichen Interessen (BGer 1C_333/2017).
+- **Dokumentationspflicht (§ 24 BVV, ergänzt Buch-Run 111):** Die Ergebnisse der Baukontrollen sind
+  **elektronisch zu protokollieren** und mit einer **qualifizierten elektronischen Signatur** gemäss
+  Bundesgesetz über die elektronische Signatur zu versehen. Das örtliche Bauamt zieht weitere Stellen,
+  die Bewilligungen erteilt haben, auf deren Verlangen zu den sie betreffenden Kontrollen bei. CONFIRMED
+  gegen `raw/260607_amtlich_zh_bvv.md`.
 
 ## 5. Unterbruch der Bauarbeiten / «ewige Baustelle» (§ 328 PBG)
 

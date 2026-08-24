@@ -502,6 +502,36 @@ Rechtsmittelbelehrung, Gültigkeitsdauer der Bewilligung» in
 offene Lücken (z.B. §§ 120/150/264/346 PBG in Kap. 12), nicht nur veraltete Zeiger; sonst regulärer
 Health-Check-Turnus oder zweite Re-Verifikationsrunde.
 
+**Run 111 (2026-08-24, ausserhalb T1-T9):** Stale-Flag-Sweep fortgesetzt — Block «2026-07-09, Kap. 8
+T2/13 T2/16 T3» vollständig, Teile von «2026-06-22, Kap. 8» geprüft. **Kap. 16 T3 (§ 282/§ 284/§ 30
+ABV/§ 28 ABV/§ 292/§ 293 PBG): komplett stale**, bereits seit Buch-Run 32/33 CONFIRMED. **Kap. 13 T2:
+vier echte Neubefunde** — § 241 PBG (Ersatzzufahrt/Enteignung) CONFIRMED gegen
+`raw/260607_amtlich_zh_pbg.md`; Art. 6 SVG, Art. 95-99 SSV (Strassenreklamen) und Art. 15 FrSV
+(Neobiota) erstmals von Fedlex bezogen und CONFIRMED (neue Primärquellen
+`raw/260824_amtlich_ch_svg-art6.md`, `raw/260824_amtlich_ch_ssv-art95-99.md`,
+`raw/260824_amtlich_ch_frsv-art15.md`). **Echte Fassungsstand-Falle:** § 16 StrAV (fest 90/150/50 m)
+ist nicht schlicht durch § 23 VErV ersetzt — § 23 trägt keine Masszahl, die Werte liegen in Anhang 3
+(Fahrbahn, jetzt geschwindigkeitsabhängig, Tabelle in der Quelle formatierungsgestört, nicht
+geraten) und Anhang 4 (Velowege, neigungsabhängig 30-50 m, sauber extrahiert) — Regimewechsel, nicht
+nur Nummernwechsel. **Die «NEU Kap. 13 §§ 242/248»-Flag hatte eine falsche Prämisse:** § 242 PBG =
+Fahrzeugabstellplätze, § 248 PBG = Spiel-/Ruheflächen (beide seit Run 70 established), nicht
+Antennen/Camping — Aussenantennen stehen in § 309 Abs. 1 lit. l PBG, jetzt als vollständiger
+Bewilligungspflicht-Katalog (lit. a-o) in [[baubewilligungsverfahren]] ergänzt. **Kap.-8-Block
+teilweise:** § 239/§ 309 Abs. 1 lit. c CONFIRMED; **§ 12a BBV I war ein Suchfehler eines früheren
+Laufs** (Fundstelle im Raw als «§ 12 a.» mit Leerzeichen erfasst), jetzt CONFIRMED — dabei eine
+falsche Attribution korrigiert («Sanitäreinrichtungen → BBV II» stimmte nicht, BBV II kennt kein
+§ 12a, beide Kriterien stehen im selben § 12a BBV I; § 24 BVV als echte Lücke ergänzt (elektronische
+Protokollierung, qualifizierte Signatur). **Art. 3a ABV bleibt trotz Suche NICHT verifizierbar** —
+im etablierten Artikel unverändert stehen gelassen (nicht ohne Gegenbeleg entfernt), als offene
+Diskrepanz in `QUESTIONS.md` geführt. Geänderte Wiki-Artikel:
+[[umgebungsgestaltung-und-einfriedungen]], [[baubewilligungsverfahren]],
+[[bauausfuehrung-und-baukontrolle]]. Report `outputs/2026-08-24_buch-run111.md`.
+**Nächster Schritt:** «16.9-Schluss» (S. 1230 f., kleine Buch-Restlücke, keine reine Zeiger-Prüfung),
+§ 8 Abs. 2 IDG ZH, Art. 3a ABV (Alternativquelle prüfen); sonst Stale-Flag-Sweep an den restlichen
+Blöcken (Kap. 12/1/2/3/6, `QUESTIONS.md` ab ca. Zeile 2140) fortsetzen — Kap. 12 enthält bekannte
+echte Lücken (§§ 120/150/264/346 PBG bereits über [[baulinien-und-abstandslinien]] teilweise
+mitverifiziert, gegenprüfen ob vollständig).
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme

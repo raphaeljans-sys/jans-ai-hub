@@ -2090,21 +2090,50 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Art. 32bbis USG (2/3-Rückgriff), Baulärm-Richtlinie (Stufen A/B/C), amtl. Vermessung § 19 KVAV. Wiki
   [[bauausfuehrung-und-baukontrolle]] Abschn. 6 geschärft. **Kap. 8 endet S. 535 → Band 1 komplett (ausser
   Kap. 18 Brandschutz).**
-- **NEU Kap. 13 offen — §§ 242 (Antennen) / 248 (Camping/Fahrnisbauten):** stehen erst **nach S. 891**
-  (Folge-Shots ab ~449), nicht im gelesenen Kap.-13-Teil-2-Bereich (S. 858-891). Bei Gelegenheit nachholen.
-- **needs-verification — Kap. 13 Teil 2 (§§/Erlasse):** § 238 Abs. 3 PBG (Umgebung/Umschwung ohne
+- ~~**NEU Kap. 13 offen — §§ 242 (Antennen) / 248 (Camping/Fahrnisbauten):** stehen erst **nach S. 891**
+  (Folge-Shots ab ~449), nicht im gelesenen Kap.-13-Teil-2-Bereich (S. 858-891). Bei Gelegenheit nachholen.~~
+  → **erledigt 2026-08-24 (Buch-Run 111) — Prämisse war falsch, kein neuer Ingest nötig.** Der amtliche
+  PBG-Volltext zeigt: **§ 242 PBG = Fahrzeugabstellplätze (Zahl)**, **§ 248 PBG = Spiel- und
+  Ruheflächen (bei MFH)** — nicht Antennen/Camping. Beide Themen sind bereits seit Buch-Run 70
+  (30.07.2026) vollständig in [[fahrzeugabstellplaetze-und-parkierung]] `established` und wortlautverifiziert.
+  «Aussenantennen» stehen tatsächlich in **§ 309 Abs. 1 lit. l PBG** (Bewilligungstatbestand, kein
+  eigener materieller Paragraph) — jetzt im neuen Katalog in [[baubewilligungsverfahren]] erfasst.
+  «Camping/Fahrnisbauten» als PBG-Begriff **nicht gefunden** (0 Treffer für «Fahrnisbau»/«Camping» im
+  gesamten `raw/260607_amtlich_zh_pbg.md`) — die Klammer-Labels der ursprünglichen Flag waren eine
+  ungeprüfte Vermutung, kein Buchbefund.
+- ~~**needs-verification — Kap. 13 Teil 2 (§§/Erlasse):** § 238 Abs. 3 PBG (Umgebung/Umschwung ohne
   Ausnützungswirkung, BEZ 2011 Nr. 6), § 239 Abs. 1/2 PBG (Regeln der Baukunde / Baumaterialien; Art. 229
   StGB, Art. 58 OR, BauPG, PrSG), § 240/§ 241 PBG (Verkehrssicherheit), **§ 16 StrAV Sichtbereiche 90/150/50 m**,
-  §§ 11/12 StrAV (Einfriedungen) **[AUFGEHOBEN per 01.06.2020 — Nachfolgerin: Verkehrserschliessungsverordnung, RRB 17.04.2019, gleiche LS 700.4; Mauern/Einfriedigungen neu § 26, Pflanzen § 27, Kurven-Innenseite § 28, Sichtbereiche § 23. Belegt zhlex-Erlassseite LS 700.4 (Aufhebungsdatum 01.06.2020) + raw/260803_amtlich_zh_verkehrserschliessungsv.md. Das Buch (6. Aufl. 2019) und das Merkblatt der Gemeinde Thalwil zitieren noch die alte StrAV — Triage 03.08.2026] ⚠ KORRIGIERT 2026-08-23 (Buch-Run 89): diese Zeile hatte §§ 11/12 StrAV fälschlich unter dieselben Nachfolgeparagraphen (§§ 26/27/28/23) wie §§ 7/8/14/16 StrAV subsumiert. §§ 11/12 StrAV regeln aber einen anderen Sachverhalt (Vorsprünge/Türen-Tore in den Abstandsbereich, spitze/scharfe Materialien) und haben KEINE VErV-Entsprechung — amtlich belegt über den VErV-Erläuterungsbericht (raw/260823_amtlich_zh_verv-erlaeuterungsbericht.md), der jede übernommene StrAV-Norm einzeln zuordnet und §§ 10-12 StrAV nirgends erwähnt. Vollständig aufgelöst in [[umgebungsgestaltung-und-einfriedungen]] Ziff. 2, Abschnitt «§§ 10-12 StrAV»]**, Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
-  sinngemäss nach Buch S. 858-891, am amtlichen Volltext gegenprüfen (Modell D). **§§ 239a-d (hindernisfrei)
-  hier nur verwiesen → Buch S. 1269.**
-- **needs-verification — Kap. 16 Teil 3 (§§/Erlasse):** § 282/§ 284 PBG (Hochhaus > 25 m Gebäudehöhe, keine
-  erhöhte Ausnützung), **§ 30 Abs. 1 lit. a ABV Schattenwurf > 2 h** (Vernehmlassung 2018: 3 h), § 28 ABV
-  (Gebäudelänge/-breite flächenkleinstes Rechteck, ≤ 0,5 m nicht eingerechnet), **§ 292 PBG Dachaufbauten
-  ≤ 1/3 Fassadenlänge** (Kamine/Solar/Kreuzfirst zählen nicht, BEZ 2014 Nr. 9), § 293 PBG (Freilegung UG
-  ≤ 1,5 m über *gestaltetem* Boden; § 280 = *gewachsenes* Terrain) — am amtlichen PBG-/ABV-Volltext prüfen.
+  §§ 11/12 StrAV (Einfriedungen) [...], Art. 6 SVG / Art. 95-99 SSV (Strassenreklamen), Art. 15 FrSV (Neobiota) —
+  sinngemäss nach Buch S. 858-891, am amtlichen Volltext gegenprüfen (Modell D). §§ 239a-d (hindernisfrei)
+  hier nur verwiesen → Buch S. 1269.~~ → **erledigt 2026-08-24 (Buch-Run 111).** § 238 Abs. 3 PBG bereits
+  über [[baulinien-und-abstandslinien]] geklärt (aufgehoben, Nachfolge § 238a PBG). § 239 Abs. 1/2 PBG und
+  § 240 Abs. 1 PBG bereits CONFIRMED in [[bauausfuehrung-und-baukontrolle]] bzw.
+  [[umgebungsgestaltung-und-einfriedungen]]. **Vier echte Neubefunde:** § 241 PBG (Ersatzzufahrt/
+  Enteignungsrecht) CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md`; Art. 6 SVG + Art. 95-99 SSV
+  (Strassenreklamen) und Art. 15 FrSV (Neobiota) erstmals von Fedlex bezogen und CONFIRMED (neue
+  Primärquellen `raw/260824_amtlich_ch_svg-art6.md`, `raw/260824_amtlich_ch_ssv-art95-99.md`,
+  `raw/260824_amtlich_ch_frsv-art15.md`) — alle vier neu in [[umgebungsgestaltung-und-einfriedungen]].
+  **§ 16 StrAV war KEINE reine Zeiger-Korrektur, sondern eine echte Fassungsstand-Falle:** die
+  Konkordanz-Tabelle führte «Sichtbereiche → § 23 VErV, neu gefasst» bereits, ohne zu prüfen, dass § 23
+  VErV selbst keine Masszahl trägt — die Werte stehen in **Anhang 3** (Fahrbahn, jetzt
+  geschwindigkeitsabhängig statt fest 90/150 m — Anhang 3 bleibt in der Quelle formatierungsgestört,
+  Icon-/Grafikzellen statt Zahlen, **nicht geraten**) und **Anhang 4** (Velowege, neigungsabhängig
+  30-50 m statt fest 50 m, sauber extrahiert). Regimewechsel, nicht Nummernwechsel — analog zur
+  §§-10-12-StrAV-Falle aus Run 89. §§ 239a-d bleiben Verweis auf S. 1269, keine eigene Lücke.
+- ~~**needs-verification — Kap. 16 Teil 3 (§§/Erlasse):** § 282/§ 284 PBG (Hochhaus > 25 m Gebäudehöhe, keine
+  erhöhte Ausnützung), § 30 Abs. 1 lit. a ABV Schattenwurf > 2 h (Vernehmlassung 2018: 3 h), § 28 ABV
+  (Gebäudelänge/-breite flächenkleinstes Rechteck, ≤ 0,5 m nicht eingerechnet), § 292 PBG Dachaufbauten
+  ≤ 1/3 Fassadenlänge (Kamine/Solar/Kreuzfirst zählen nicht, BEZ 2014 Nr. 9), § 293 PBG (Freilegung UG
+  ≤ 1,5 m über gestaltetem Boden; § 280 = gewachsenes Terrain) — am amtlichen PBG-/ABV-Volltext prüfen.~~
+  → **erledigt 2026-08-24 (Buch-Run 111, vollständig stale.)** Alle fünf Punkte bereits am 2026-07-13
+  per Modell-D-Volltextabgleich (Buch-Run 32/33) gegen `raw/260607_amtlich_zh_pbg.md` +
+  `raw/260607_amtlich_zh_abv.md` CONFIRMED — siehe `verifiziert`-Feld [[abstaende-und-hoehen]] («2026-07-13,
+  Modell-D-Volltextabgleich adversarial § 282/§ 284/§ 292/§ 293 PBG + § 28/§ 30 ABV»). Der Zeiger hier war
+  seit über einem Monat veraltet, kein neuer Fachbefund.
 - **NEU Kap. 16 offen — 16.9-Schluss (S. 1230 f.):** Abgrabungen/Freilegung UG endet nicht auf S. 1229;
-  läuft in den bereits distillierten Teil 16.10 (Harmonisierung, Shot 619). Kleiner Rest, bei Gelegenheit.
+  läuft in den bereits distillierten Teil 16.10 (Harmonisierung, Shot 619). Kleiner Rest, **weiterhin
+  offen** (nicht Teil des Buch-Run-111-Sweeps — Buch-Seitenlektüre, kein reiner Zeiger-Check).
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-22, aus Buch-Run Kap. 8)
 - ~~**Rest Kap. 8 offen (Restschuld):** ab S. 510 — 8.3 Sicherheit der Baustelle Detail~~ → **erledigt
@@ -2113,11 +2142,39 @@ Drei needs-verification-Komplexe adversarisch gegen `raw/260607_amtlich_zh_pbg.m
   Meldepflichten/Kontrollen, Unterbruch + die lit. a-d des § 328 Abs. 2)~~ → **erledigt 2026-07-12 (Run 30):**
   §§ 326-329 volltextverifiziert (Run-30-Sektion oben) — § 328 Abs. 2 lit. b (Förderung, nicht Abbruch),
   Abs. 3 (Kostenträger Grundeigentümer), § 326-Plattform-Fassung korrigiert, § 328a ergänzt, § 329 Abs. 1
-  (BRG-Anfechtung) bestätigt. **Offen** nur noch (nicht im PBG-Kern): § 239 PBG (anerkannte Regeln der
-  Baukunde), § 309 Abs. 1 lit. c, §§ 8/9/10c/15/30 VRG, § 12a BBV I/II, §§ 3/23/24 BVV — am jeweiligen Volltext.
-- **Art. 3a ABV + Art. 16 VVEA (Asbest-Meldepflicht seit 1.6.2018):** Wortlaut/Verweiskette am amtlichen
-  ABV-/VVEA-Volltext sichern — praxisrelevant für Umbau/Abbruch im Bestand.
-- **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** auf das aktuelle ZH-IDG verweisbar prüfen.
+  (BRG-Anfechtung) bestätigt. ~~**Offen** nur noch (nicht im PBG-Kern): § 239 PBG (anerkannte Regeln der
+  Baukunde), § 309 Abs. 1 lit. c, §§ 8/9/10c/15/30 VRG, § 12a BBV I/II, §§ 3/23/24 BVV — am jeweiligen
+  Volltext.~~ → **teil-erledigt 2026-08-24 (Buch-Run 111).** § 239 Abs. 1 PBG («anerkannte Regeln der
+  Baukunde») CONFIRMED wortgleich, bereits in [[bauausfuehrung-und-baukontrolle]] zitiert. § 309 Abs. 1
+  lit. c PBG («Abbruch von Gebäuden in Kernzonen») CONFIRMED, jetzt im vollständigen lit.-a-o-Katalog in
+  [[baubewilligungsverfahren]]. §§ 8/9/10c/15/30 VRG bereits am 27.07.2026 (Run 64) gegen Nachtrag 133
+  geprüft — Zeiger hier war veraltet. §§ 3/23 BVV bereits im Artikel zitiert und CONFIRMED; **§ 24 BVV
+  (elektronische Protokollierungspflicht der Baukontrollen, qualifizierte elektronische Signatur) war
+  eine echte, bislang nicht gezogene Lücke** — Wortlaut lag bereits in `raw/260607_amtlich_zh_bvv.md`
+  Z. 621 vor, nur nie in den Wiki-Artikel übernommen; **noch nicht nachgetragen, für nächsten Lauf**.
+  **§ 12a BBV I war ein Suchfehler, kein Fehlbestand — nachkorrigiert im selben Lauf:** die erste
+  Grep-Suche nach «12a» (ohne Leerzeichen) fand nichts, weil der amtliche Raw-Volltext die Fundstelle
+  als **«§ 12 a.»** mit Leerzeichen erfasst (`raw/260607_amtlich_zh_bbv1.md` Z. 179: «2. Abschnitt: Bezug
+  neuerstellter Wohn- und Arbeitsräume» — Austrocknung UND Sanitäreinrichtungen in einem Absatz).
+  **§ 12a BBV I CONFIRMED**, im Wiki korrigiert (siehe [[bauausfuehrung-und-baukontrolle]]). **§ 12a
+  BBV II existiert dagegen tatsächlich nicht** (auch mit Leerzeichen-Suche 0 Treffer) — der Artikel
+  zitierte «Sanitäreinrichtungen → BBV II», das war falsch, korrigiert auf «beides § 12a BBV I».
+- **Art. 3a ABV — weiterhin NICHT verifizierbar**, auch mit Leerzeichen-Suchvariante «3 a.» geprüft
+  (0 Treffer, kein «Asbest» im gesamten `raw/260607_amtlich_zh_abv.md`) — geprüft 2026-08-24 (Buch-Run
+  111). **Anders als bei § 12a BBV I ist das hier kein Suchartefakt:** der bestehende, `established`
+  Wiki-Artikel [[bauausfuehrung-und-baukontrolle]] zitiert «Art. 3a ABV» zweimal (Asbest-Meldepflicht
+  seit 1.6.2018) — dieses Zitat bleibt vorerst unverändert stehen (nicht ohne Gegenbeleg entfernt), ist
+  aber am aktuellen ABV-Volltext **nicht bestätigbar**. Mögliche Erklärung noch ungeprüft: andere
+  Fassung/anderer Erlass (Suva/EKAS-Asbestregeln, Bauabfallverordnung) statt ABV — **für nächsten Lauf**.
+  **Art. 16 VVEA dagegen bereits erledigt:** Buch-Run 24 (09.07.2026) hat «Baustellenentsorgung Art. 16
+  VVEA (Konzept ab > 200 m³)» bereits in [[bauausfuehrung-und-baukontrolle]] Abschn. 6 eingearbeitet
+  (siehe Eintrag oben, 2026-07-09). Die Asbest-Meldepflicht **speziell** bleibt offen.
+- **§ 24 BVV (elektronische Protokollierungspflicht der Baukontrollen)** — echte Lücke, Wortlaut lag
+  bereits in `raw/260607_amtlich_zh_bvv.md` Z. 621 vor, jetzt in [[bauausfuehrung-und-baukontrolle]]
+  ergänzt (Buch-Run 111): Ergebnisse elektronisch protokolliert, qualifizierte elektronische Signatur,
+  Beizug weiterer Bewilligungsstellen auf Verlangen.
+- **§ 8 Abs. 2 IDG ZH (Drohnen-Datenschutz, KGer LU Horw):** weiterhin offen, nicht Teil dieses Laufs
+  (tangentiales Thema, kein Kernbaurecht).
 
 ## Offene Wissenslücken / needs-verification — neu (2026-06-26, aus Buch-Run Kap. 12)
 - ~~**Baureife / Erschliessung / Zugänglichkeit nicht im Wiki**~~ → **erledigt 2026-06-26** (Run 14):

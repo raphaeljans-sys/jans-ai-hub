@@ -3,6 +3,47 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 111: Stale-Flag-Sweep Kap. 8 T2/13 T2/16 T3 — Kap. 16 T3 komplett stale, vier echte Neubefunde Kap. 13 T2 (§ 241 PBG, Art. 6 SVG, Art. 95-99 SSV, Art. 15 FrSV), Fassungsstand-Falle § 16 StrAV → Anhang 3/4 VErV, falsche Prämisse §§ 242/248-Flag aufgelöst, § 12a BBV I korrigiert (Suchfehler behoben)
+- **NEU** `raw/260824_amtlich_ch_svg-art6.md`, `raw/260824_amtlich_ch_ssv-art95-99.md`,
+  `raw/260824_amtlich_ch_frsv-art15.md` — Art. 6 SVG (Reklamen), Art. 95-99 SSV (Strassenreklamen),
+  Art. 15 FrSV (Neobiota) frisch von Fedlex bezogen (ELI per WebSearch ermittelt), alle drei
+  **CONFIRMED wortgleich** gegen das Buch-Destillat `buecher/band-2/13-weitere-grundanforderungen-
+  teil2.md`.
+- **GEÄNDERT** `wiki/umgebungsgestaltung-und-einfriedungen.md`: neue Sektion «§ 241 PBG und
+  Strassenreklamen» (Ersatzzufahrt/Enteignungsrecht CONFIRMED gegen `raw/260607_amtlich_zh_pbg.md`,
+  Strassenreklamen-Bundesrecht CONFIRMED), neue Sektion «Gebietsfremde Organismen/Neobiota»; **§ 23
+  VErV/Anhang-3-4-Ergänzung mit echter Korrektur:** die Konkordanz-Tabelle führte «Sichtbereiche
+  freihalten → § 23 VErV, neu gefasst» bereits, ohne zu prüfen, dass § 23 selbst keine Masszahl
+  trägt — Anhang 3 (Fahrbahn, jetzt geschwindigkeitsabhängig statt fest 90 m innerorts/150 m
+  ausserorts, Tabelle im Original formatierungsgestört, nicht geraten) und Anhang 4 (Velowege,
+  neigungsabhängig 30-50 m statt fest 50 m, sauber extrahiert) ersetzen den StrAV-§-16-Fixwert
+  strukturell, nicht nur nummernweise — analog zur §§-10-12-StrAV-Falle aus Run 89.
+- **GEÄNDERT** `wiki/baubewilligungsverfahren.md`: vollständiger Bewilligungspflicht-Katalog
+  § 309 Abs. 1 lit. a-o PBG neu als Tabelle (bislang nur pauschal «§§ 309 ff. PBG»), CONFIRMED
+  gegen `raw/260607_amtlich_zh_pbg.md`. Löst dabei die QUESTIONS.md-Flag «§§ 242 (Antennen)/248
+  (Camping/Fahrnisbauten)» auf: die Prämisse war falsch — § 242/§ 248 PBG regeln tatsächlich
+  Fahrzeugabstellplätze bzw. Spiel-/Ruheflächen (beide bereits seit Buch-Run 70 in
+  [[fahrzeugabstellplaetze-und-parkierung]] established), Aussenantennen stehen in § 309 Abs. 1
+  lit. l PBG als reiner Bewilligungstatbestand ohne eigene materielle Norm.
+- **GEÄNDERT** `wiki/bauausfuehrung-und-baukontrolle.md`: § 24 BVV (elektronische
+  Protokollierungspflicht der Baukontrollen, qualifizierte elektronische Signatur) als echte
+  Lücke ergänzt. **Korrektur:** § 12a BBV I/II war fälschlich als «Austrocknung → BBV I /
+  Sanitäreinrichtungen → BBV II» aufgeteilt zitiert — ein früherer Suchlauf hatte die Fundstelle
+  im Raw-Volltext übersehen, weil sie dort als **«§ 12 a.» mit Leerzeichen** erfasst ist; beide
+  Kriterien stehen tatsächlich im selben § 12a BBV I, die BBV II kennt kein § 12a. Art. 3a ABV
+  bleibt trotz erneuter Suche (inkl. Leerzeichen-Variante) NICHT im amtlichen ABV-Volltext
+  verifizierbar — unverändert stehen gelassen, als offene Diskrepanz in `QUESTIONS.md` geführt,
+  nicht ohne Gegenbeleg entfernt.
+- **GEÄNDERT** `wiki/QUESTIONS.md`: Block «2026-07-09» (Kap. 8 T2/13 T2/16 T3) vollständig
+  abgearbeitet (Kap. 16 T3 als stale geschlossen, Kap. 13 T2 mit vier Neubefunden + einer echten
+  Fassungsstand-Korrektur geschlossen, «16.9-Schluss» bleibt offen); Block «2026-06-22» (Kap. 8)
+  teilweise abgearbeitet (§ 239/§ 309 Abs. 1 lit. c/§ 12a BBV I/§ 24 BVV/Art. 16 VVEA geschlossen,
+  Art. 3a ABV und § 8 Abs. 2 IDG ZH bleiben offen).
+- **GEÄNDERT** `training/KORPUS-QUEUE-thalwil-reglemente.md`, `training/PROGRAMM.md` — Run-111-
+  Nachtrag mit vollständiger Befundliste und nächstem Schritt (weitere Blöcke Kap. 12/1/2/3/6).
+- REPORT `outputs/2026-08-24_buch-run111.md`.
+
+
 ## 2026-08-24 — Buch-Run 110: Stale-Flag-Sweep Kap. 7 T1/T2 — zwei stale Zeiger geschlossen, zwei echte Lücken neu belegt (§§ 5a/13/14 VRG, Art. 138 ZPO, Art. 49 BGG, § 20 BVV)
 
 - **Ausgangslage:** Fortsetzung von Run 109 (Stale-Flag-Sweep in `wiki/QUESTIONS.md`); nächstältere

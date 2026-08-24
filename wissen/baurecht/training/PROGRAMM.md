@@ -1733,6 +1733,32 @@ nach Kapazität. Die Erst-Verifikations-Liste aus (c) ist mit Run 71 abgearbeite
   **Naechster Schritt:** Stale-Flag-Sweep fortsetzen (Bloecke Kap. 8/12/1/2/3/6, Zeilen ~2060-2190,
   noch nicht durchgesehen — einige enthalten echte, noch offene Luecken, z.B. §§ 120/150/264/346
   PBG in Kap. 12), sonst regulaerer Health-Check-Turnus oder zweite Re-Verifikationsrunde.
+- **Buch-Run 111 (2026-08-24):** Stale-Flag-Sweep fortgesetzt, Block «2026-07-09, Kap. 8 T2/13 T2/
+  16 T3» sowie Teile des Blocks «2026-06-22, Kap. 8» abgearbeitet. **Kap. 16 T3 komplett stale:**
+  alle fuenf Flags (§ 282/§ 284/§ 30 ABV/§ 28 ABV/§ 292/§ 293 PBG) bereits seit Buch-Run 32/33
+  (13.07.2026) CONFIRMED, nur der Zeiger war veraltet. **Kap. 13 T2 gemischt:** § 238/§ 239/§ 240
+  PBG bereits anderswo CONFIRMED; **vier echte Neubefunde** — § 241 PBG (Ersatzzufahrt/
+  Enteignung) sowie erstmals von Fedlex bezogen Art. 6 SVG + Art. 95-99 SSV (Strassenreklamen) und
+  Art. 15 FrSV (Neobiota), neue Primaerquellen `raw/260824_amtlich_ch_svg-art6.md`,
+  `raw/260824_amtlich_ch_ssv-art95-99.md`, `raw/260824_amtlich_ch_frsv-art15.md`. **Echte
+  Fassungsstand-Falle bei § 16 StrAV:** die Konkordanz-Tabelle hatte «Sichtbereiche → § 23 VErV»
+  bereits als Zeiger, aber § 23 selbst traegt keine Masszahl — die Werte liegen in Anhang 3
+  (Fahrbahn, jetzt geschwindigkeitsabhaengig statt fest 90/150 m, Tabelle in der Quelle
+  formatierungsgestoert, nicht geraten) und Anhang 4 (Velowege, neigungsabhaengig 30-50 m statt
+  fest 50 m, sauber extrahiert). **Der «NEU Kap. 13 §§ 242/248»-Flag war eine falsche Praemisse:**
+  § 242 PBG regelt Fahrzeugabstellplaetze, § 248 PBG Spiel-/Ruheflaechen — nicht Antennen/Camping;
+  beide seit Run 70 bereits established. Aussenantennen stehen in § 309 Abs. 1 lit. l PBG, neu als
+  vollstaendiger Bewilligungspflicht-Katalog (lit. a-o) in [[baubewilligungsverfahren]] ergaenzt.
+  **Kap.-8-Block (2026-06-22) teilweise:** § 239/§ 309 Abs. 1 lit. c CONFIRMED; § 12a BBV I war ein
+  Suchfehler eines frueheren Laufs (Fundstelle im Raw als «§ 12 a.» mit Leerzeichen), jetzt
+  CONFIRMED und im Artikel korrigiert (die falsche Attribution «Sanitaer → BBV II» behoben, BBV II
+  kennt kein § 12a); § 24 BVV als echte Luecke ergaenzt (elektronische Protokollierung); Art. 3a
+  ABV bleibt trotz Suche NICHT verifizierbar, unveraendert stehen gelassen, als offene Diskrepanz
+  gefuehrt. Geaenderte Wiki-Artikel: [[umgebungsgestaltung-und-einfriedungen]],
+  [[baubewilligungsverfahren]], [[bauausfuehrung-und-baukontrolle]]. Report
+  `outputs/2026-08-24_buch-run111.md`. **Naechster Schritt:** «16.9-Schluss» (S. 1230 f., kleine
+  Buch-Restluecke), § 8 Abs. 2 IDG ZH, Art. 3a ABV (Alternativquelle pruefen) — sonst Stale-Flag-
+  Sweep an den restlichen Bloecken (Kap. 12/1/2/3/6, Zeilen ~2140-2260) fortsetzen.
 
 ## Verifikations-Stufe (PFLICHT ab 12.07.2026, Rule auto-verbesserungen 260712)
 
