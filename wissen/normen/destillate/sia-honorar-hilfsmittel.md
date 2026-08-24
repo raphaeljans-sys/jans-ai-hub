@@ -7,10 +7,11 @@ hinweis_ausgabe: "ACHTUNG — dies sind KEINE SIA-Normen, sondern (a) eine Besch
 gelesen: "BEIDE PDF vollständig. (1) Honorarempf_SIA2009_d.pdf: alle 6 Seiten (pdftotext -layout Volltext; S. 3 und S. 5 zusätzlich als Bild-Read visuell gegengeprüft). (2) z-werte 2015.pdf: alle 11 Seiten (pdftotext -layout Volltext; S. 1 und S. 10 zusätzlich als Bild-Read visuell gegengeprüft, weil die Layout-Extraktion bei den mehrspaltigen Blöcken SIA 103/105 die Zeilen vermischt — die Zuordnung Z1/Z2 je LHO wurde am Bild verifiziert)."
 datenstand: "KBOB-Empfehlung: 01.12.2008, Ansätze/Faktoren für das Anwendungsjahr 2009 · Z-Werte: Blatt 2015 (Werte gemäss Tabellenkopf «Z-Werte 2014»), Rückblick-Jahrgänge bis 2005"
 status: established
-last_updated: 2026-07-17
+last_updated: 2026-08-24
 sources:
   - "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Vertraege/Honorarberechnung/Honorarempf_SIA2009_d.pdf"
   - "PL - 02_Recht_Norm/02_Normen/SIA_Norm/SIA_Vertraege/Honorarberechnung/z-werte 2015.pdf"
+  - "https://vd.sia.ch/sites/vd.sia.ch/files/services_coefficientsz_2016_0.pdf (SIA Sektion Vaud, Jahrgänge 2005-2016, gelesen 24.08.2026 als unabhängige Zusatzquelle/Korroboration, kein Ersatz der beiden Primärquellen oben)"
 links: [[INDEX]] · [[sia-102-2014]] · [[sia-102-2020]] · [[sia-103-2003]] · [[sia-105-2020]] · [[sia-108-2014]] · [[sia-142-2009]]
 ---
 
@@ -212,6 +213,7 @@ Zwei belegte Beobachtungen aus der Reihe:
 
 ## Offene Punkte
 - **Aktualität — die grösste Lücke.** Beide Dokumente sind alt (2009 bzw. 2015). Es fehlen im Bestand: die **aktuelle KBOB-Honorarempfehlung** (Ansätze, Preisänderungsfaktoren, Nebenkosten) und das **aktuelle Z-Werte-Blatt**. Bring-Schuld: beide von kbob.admin.ch bzw. sia.ch nachziehen und dieses Destillat um eine Ist-Spalte ergänzen. Bis dahin dürfen die hier belegten Zahlen **nur historisch/als Herleitungsraster** verwendet werden, nie als aktueller Ansatz.
+- **Ergänzung 24.08.2026 (QUESTIONS-Abarbeitung, unabhängige Zusatzquelle gefunden):** Freier, offizieller Alternativ-Zugang identifiziert und per PyMuPDF-Volltextextraktion gelesen: `https://vd.sia.ch/sites/vd.sia.ch/files/services_coefficientsz_2016_0.pdf` (SIA-Sektion Vaud, viersprachig D/F/I/E, Jahrgänge 2005-2016, je eine Seite pro Jahrgang). Die dort ausgewiesenen Z1/Z2-Werte sind für **alle** Jahrgänge 2009-2016 identisch mit dem hier destillierten Blatt 2015: **SIA 102/105 Z1 0.062 / Z2 10.58 · SIA 103 Z1 0.075 / Z2 7.23 · SIA 108 Z1 0.066 / Z2 11.28** (Jahrgänge 2005-2008 abweichend und niedriger, ebenfalls deckungsgleich mit der bereits destillierten Zeitreihe unten). Die «Aktualität»-Lücke oben verkleinert sich damit um ein bestätigtes Jahr (unverändert bis Jahrgang 2016), bleibt aber offen für 2017 und danach — kein neuerer Jahrgang auf dieser Quelle gefunden. Nutzen: zweiter, unabhängiger und kostenloser Zugangsweg zu den Z-Werten, falls die interne PL-02-Kopie einmal nicht erreichbar ist oder ein aktuelleres Blatt gesucht wird.
 - **Kartellrechtliche Einordnung (status: speculative):** Im PDF nicht adressiert. Die verbreitete Aussage, Verbands-Honorarempfehlungen seien kartellrechtlich problematisch, ist hier **nicht belegbar** und wurde bewusst nicht als Fundstelle geführt. Zu klären an aktueller Quelle (WEKO-Praxis, SIA-Publikationen), bevor sie in einem Kundendokument auftaucht.
 - **Jahresangabe-Inkonsistenz Z-Werte-Blatt:** Titelseite «2015» vs. Tabellenkopf «Z-Werte 2014» (alle vier Sprachblöcke). Ob Nachführungsfehler oder gewollt, ist offen; die Werte sind seit Jahrgang 2009 ohnehin unverändert. Beim aktuellen Blatt gegenprüfen.
 - **Kategorien-Zuordnungstabelle (KBOB Ziff. 3) nur sinngemäss destilliert.** Die exakte Buchstaben-/Stufen-Matrix (Funktion × LHO × Stufe 1/2/3) wurde aus Urheberrechtsgründen nicht 1:1 übernommen. Für eine konkrete Einstufung ist S. 4 des Originals beizuziehen.

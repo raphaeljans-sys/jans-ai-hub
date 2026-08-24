@@ -1,5 +1,34 @@
 # CHANGELOG
 
+## 2026-08-24 — Interaktive Session (siebte Fortsetzung): A-BLIND-Fall 4 — Erheblichkeitsschwelle Art. 15 EnV in `zev-eigenverbrauch-mfh-her-2025` nachgetragen
+
+Auftrag: weitere offene Fragen aus `wiki/QUESTIONS.md` abarbeiten. Die A-BLIND-Methode («nächste
+Kandidaten für die 20 meistzitierten Destillate: noch nicht ausgewählt») zum ersten Mal
+systematisch angewandt: Top-20-Destillate nach Backlink-Zahl (`grep -c [[slug]]`) ermittelt und
+je Status/`gelesen`-Feld geprüft. Die meisten sind bereits primärquellen-verifiziert (established,
+vollständiger Seiten-Read) oder ihre offene Einstufung ist bereits an einen bekannten Blocker
+gebunden (SIA-380/1:2016-Normkauf, Web-Synthesen ohne Feldbeleg — beides schon in QUESTIONS
+dokumentiert, kein neuer Fund).
+
+**Eine echte Lücke:** `zev-eigenverbrauch-mfh-her-2025` (17 Backlinks, `status: established`) trug
+seit 04.07.2026 im `gelesen`-Feld den Vermerk «S. 13-39 überflogen» — 27 von 39 Quellenseiten waren
+nie im Volltext gelesen. PDF erneut von swissolar.ch geladen (39 S. bestätigt), S. 13-39 vollständig
+per PyPDF2 gelesen. **Fund: die 10-%-Erheblichkeitsschwelle nach Art. 15 EnV** — ein ZEV/vZEV mit
+mehreren Verbrauchsstellen ist nur zulässig, wenn die Produktionsleistung mindestens 10 % der
+Anschlussleistung erreicht — war weder im Destillat noch in FAQ F32 erwähnt; beide beantworteten
+«lohnt sich ZEV auf dem MFH» bisher uneingeschränkt mit Ja, ohne diese bindende
+Zulässigkeitsvoraussetzung. Bei grosser Hausanschlussleistung und kleiner Dach-PV kann sie verfehlt
+werden. Zusätzlich ergänzt: 3-Monats-Melde-/Kündigungsfrist, Kostentragungsregel (Grundeigentümer
+trägt Bildungskosten inkl. Entschädigung nicht mehr genutzter VNB-Anlagen), Kaskadierungsregel
+(vZEV kann nicht in vZEV kaskadieren), präzisierte Mieter-/Pächter-Austrittsregel.
+
+Eingearbeitet: `destillate/zev-eigenverbrauch-mfh-her-2025.md` (Frontmatter + zwei neue Abschnitte),
+`wiki/BAUHERREN-FAQ.md` F32, `destillate/INDEX.md` Z. 112, `raw/_INGESTED.md` Z. 32,
+`wiki/QUESTIONS.md` (neuer Abschnitt). `git diff --numstat` nach jedem Schreibvorgang geprüft: rein
+additiv, keine fremde Löschung. Methodische Notiz: das `gelesen`-Feld («überflogen» vs. vollständige
+Seitenzahl) ist der zuverlässigere Indikator für Blindstellen als der Backlink-Zähler allein — im
+Rest der Top-20 keine weiteren Treffer dieses Musters gefunden.
+
 ## 2026-08-24 — Interaktive Session (sechste Fortsetzung): fünf liegen gebliebene Checkboxen geschlossen, eine echte Sekundärstelle korrigiert
 
 Auftrag: weitere offene Punkte aus `wiki/QUESTIONS.md` abarbeiten, Anschluss an die fünfte

@@ -1,3 +1,76 @@
+## 2026-08-24 — SIA-Sweep-Fortsetzung (07:19 Uhr): achte unabhängige Sättigungsbestätigung, Runner läuft bis 11:30 Uhr weiter
+
+**Auftrag:** identisch zu den sieben Vorläufen desselben Tages. CHANGELOG-Kopf (07:07-Uhr-Eintrag)
+zuerst gelesen.
+
+**Eigene Nachmessung — unverändert:** `training/norm-inventar.md` 0 offene `[ ]`-Zeilen;
+`wiki/REGISTER.md` weiterhin nur bezahlpflichtige Bring-Schulden bzw. bereits erschöpfte
+Web-Recherchewege in der Rubrik „Kein Volltext im Haus" (u.a. SIA 491/SN EN 12193 P2, SN 640 052/
+SN 641 400/SN 640 273a VSS). Der einzige seit dem letzten Eintrag neu hinzugekommene Punkt,
+SN 640 273a (VSS «Sichtverhältnisse bei Knoten», QUESTIONS N41-1), ist bereits vollständig
+bearbeitet: REGISTER-Zeile angelegt, Bring-Schuld dokumentiert, kein offener Rest.
+
+**Ursache bestätigt und präzisiert:** Der Auslöser ist nicht `/tmp/vollschub-mini.sh` (v1, wie im
+07:07-Eintrag vermutet), sondern **`/tmp/vollschub-mini-v2.sh`** — eine neuere Fassung desselben
+Ad-hoc-Burst-Runners (PID 78931 zum Zeitpunkt dieses Laufs, `SCHLUSS="2026-08-24 11:30"`,
+`MAXP=5`, vier rotierende Task-Prompts, dieser SIA-Sweep an Position 1). Script gelesen, nicht
+verändert. Es endet nach eigener Logik in gut vier Stunden von selbst; ein Eingriff (Kill,
+STOP-Flag) läge ausserhalb des fachlichen Auftrags dieses Laufs, gleiche Begründung wie in der
+39. Fortsetzung. **Erwartung:** weitere, inhaltlich identische Kurzbestätigungen bis 11:30 Uhr,
+solange der Runner aktiv ist — das ist kein KB-Befund mehr, sondern eine Betriebsfrage
+(Taktung/Kontingent), die bei Raphael liegt.
+
+**Empfehlung unverändert:** SIA-Sweep bis zu Raphaels Kauf-/Freigabeentscheiden (REGISTER
+Abschnitt A, u.a. P1 SIA 380/1, 385/1, 266/1; plus N60-1/N60-2 in `logbuch/fristen.md`) pausieren.
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft — rein additiv. Kein
+`git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt. Fremde unstaged Änderung
+(`destillate/sia-honorar-hilfsmittel.md`, paralleler Lauf) unangetastet gelassen.
+
+## 2026-08-24 — QUESTIONS-Abarbeitung (07:16 Uhr): achte unabhängige Sättigungsbestätigung, freie Zusatzquelle für Z-Werte gefunden
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established`-Destillate zitierfähig. CHANGELOG-Kopf und Report des
+letzten Laufs (siebte unabhängige Sättigungsverifikation, 07:07 Uhr) zuerst gelesen.
+
+**Kollisionscheck (`ps aux`):** eigener Prozess `mschub703` (PID-Kette 83050/83062), Kind von
+`bash /tmp/vollschub-mini-v2.sh` — derselbe Ad-hoc-Burst-Runner, den die 07:07-Uhr-Analyse bereits
+identifiziert hat, jetzt als **v2**-Fassung neu gestartet (eigener Prozess `vollschub-mini-v2.sh`
+PID 78931, seit 07:09 Uhr aktiv), weiterhin **ohne Sättigungs-Erkennung** im Rotations-Array.
+Parallel liefen `mschub701` (`wissen/energie` QUESTIONS) und `mschub702` (Baurecht-Reglemente-Queue)
+— beide andere Deliverables, keine Kollision.
+
+**Vorgehen:** `wiki/QUESTIONS.md` zeigt unverändert 33 `[ ]`-Zeilen (Stand 07:08 Uhr identisch).
+Stichprobenartig drei Kandidaten geprüft, die in den bisherigen Sweep-Klassifikationen nicht
+einzeln benannt waren: (1) N-R40-7 Lignatec-Grauton — bereits in der Quelle selbst als nicht
+ableitbar dokumentiert, genuin unlösbar ohne neue Quelle. (2) Dateiname-↔-Norm-Nummer-Diskrepanz
+(592056/564_282) — reine Dokumentationsnotiz, Umbenennung ist destruktiv und liegt bei Raphael.
+(3) **Z1/Z2-Koeffizienten SIA 103** (Zeile 4666) — beim Nachlesen zeigte sich, dass dieser Punkt
+bereits am 24.08.2026 von einem früheren Lauf geschlossen wurde (`[x]`-Bullet Zeile 4655 ff.,
+Verweis auf `destillate/sia-honorar-hilfsmittel.md`); die ursprüngliche Formulierung blieb darunter
+als Ursprungswortlaut stehen (Konvention dieser KB). Kein neuer Handlungsbedarf, aber eigene
+unabhängige Web-Recherche (WebSearch + PyMuPDF-Extraktion, da `pdftotext` auf dieser Station fehlt)
+bestätigte die dort geführten Werte **SIA 103 Z1 = 0.075 / Z2 = 7.23** exakt gegen eine bisher nicht
+zitierte, frei zugängliche Quelle: `https://vd.sia.ch/sites/vd.sia.ch/files/services_coefficientsz_2016_0.pdf`
+(SIA Sektion Vaud, viersprachig, Jahrgänge 2005–2016). Diese Quelle bestätigt zusätzlich, dass die
+Werte auch im Jahrgang 2016 (ein Jahr über den bisher destillierten Stand 2015 hinaus) unverändert
+sind — echte, wenn auch kleine Kompoundierung. Als zweite, kostenlose Quelle und Korroboration in
+`destillate/sia-honorar-hilfsmittel.md` ergänzt (neuer Bullet unter «Offene Punkte», neuer Eintrag
+in `sources:`, `last_updated` nachgeführt). Kein bestehender Satz verändert, nur additiv ergänzt.
+
+**Für den Rest der KB: erneute, unabhängige Sättigungsbestätigung — die achte insgesamt** (siebter
+SIA-Sweep plus mehrere QUESTIONS-Abarbeitungen heute). `training/norm-inventar.md` weiterhin 0
+offene Zeilen. Die verbleibenden 33 `[ ]`-Zeilen in `wiki/QUESTIONS.md` sind durchgehend entweder
+Bring-Schuld (kostenpflichtiger Normenkauf), Strukturentscheide bei Raphael (Duplikat-Merges,
+Dateiumbenennungen), genuin unlösbare Quell-Ambiguitäten oder methodische/Betriebs-Notizen ohne
+eigene Fundstellen-Aussage — kein weiterer eigenständiger Ertrag über die sieben Vorläufe hinaus
+identifizierbar. Der Ad-hoc-Runner `/tmp/vollschub-mini-v2.sh` bleibt unangetastet (Taktungsentscheid
+ausserhalb dieses fachlichen Auftrags, siehe Begründung der 39. SIA-Sweep-Fortsetzung).
+
+**Verifikation:** `git diff --numstat` nach dem Schreiben geprüft: `destillate/sia-honorar-hilfsmittel.md`
+rein additiv (Ergänzungs-Bullet + Source-Zeile + Datum), keine bestehende Zeile gelöscht oder
+verändert. Kein `git commit`/`push`/`pull`/`rebase` über den SMB-Mount ausgeführt.
+
 ## 2026-08-24 — SIA-Sweep-Fortsetzung (07:07 Uhr): siebte unabhängige Sättigungsbestätigung, Ursache der Minutentakt-Respawns identifiziert
 
 **Auftrag:** SIA-Sweep der KB `wissen/normen` fortsetzen — Register-geführte SIA-Zeilen ohne

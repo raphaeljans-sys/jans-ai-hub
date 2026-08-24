@@ -3,6 +3,44 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 127: Zugriffsweg für VB 94/0016 (RB 1994 Nr. 72) abschliessend geprüft — Jahrgang 1994 im Suchindex entscheidsuche.ch statistisch nicht vorhanden (0 Treffer 1991-1995), kein freier digitaler Weg mehr offen
+- ANLASS: Buch-Run 126 empfahl als einen von drei möglichen nächsten Schritten eine gezielte
+  Suche nach einem alternativen Zugriffsweg für vor-2000/nicht-indexierte VB-Entscheide, analog
+  dem Fund von `zentraleserien.zh.ch` in Run 123. Gewählt: **VB 94/0016 (RB 1994 Nr. 72)**, seit
+  Buch-Run 120/121 unverifiziert in [[ausnahmebewilligung-und-bestandesschutz]] geführt (Beleg
+  für die «technische Abbruchreife als eigene Grenze» des Bestandesschutzes).
+- GEPRÜFT: die in Run 126 rekonstruierte interne Such-API von `entscheidsuche.ch`
+  (`_searchV2.php`, Feld `reference`) liefert für «VB.1994.00016»/«VB.94.00016» 0 Treffer;
+  Kontrollprobe mit bekanntem Fall (VB.2003.00118) bestätigt die Methode. Eine
+  Datums-Aggregation über den gesamten ZH-Verwaltungsgerichts-Bestand zeigt: **der Jahrgang
+  1994 ist im Index vollständig unvertreten** (0 Treffer 1991-1995 durchgehend, nur vereinzelte
+  Ausreisser 1990/1996-1999 mit 1-3 Treffern gegenüber 200+ ab 2000) — kein Format-, sondern ein
+  Abdeckungsproblem, statistisch belegt statt nur vermutet. Drei Alternativwege zusätzlich
+  geprüft, alle ohne freien Zugriff: offizielle VGr-ZH-Entscheiddatenbank (kein Hinweis auf
+  Erfassung vor 2000, aber offizielle Option einer kostenpflichtigen Urteilskopie-Bestellung
+  beim Gericht selbst), Rechenschaftsberichte Gerichte ZH (nur Obergericht, online erst ab
+  2005, falscher Gerichtszweig), e-periodica.ch (keine Digitalisate gefunden).
+- EINORDNUNG: kein Ersatzzitat, keine Bestätigung des ursprünglichen Fallzitats — aber die
+  bisherige Vermutung «Datenbank deckt vermutlich erst ab 2000» ist jetzt mit Zahlen belegt statt
+  nur behauptet. Verhindert, dass ein künftiger Lauf denselben Weg erneut ergebnislos versucht.
+  Die kostenpflichtige Bestellung beim Gericht liegt ausserhalb der Kompetenz dieses Laufs (keine
+  Zahlungen ohne Einzelfreigabe) und ist nur als Option im Wiki-Artikel vermerkt.
+- NEU `raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`. GEÄNDERT
+  `wiki/ausnahmebewilligung-und-bestandesschutz.md` (Fallpraxis-Vertiefung präzisiert,
+  Frontmatter nachgeführt), `wiki/QUESTIONS.md` (neuer Block oben + Nachtrag am
+  Run-123-Block), `raw/_INGESTED.md` (neue Registerzeile).
+- `git diff --numstat` (nativ) nach jedem Schreibvorgang geprüft: nur additive/gezielte
+  Änderungen (ausnahmebewilligung-und-bestandesschutz.md +31/-6, QUESTIONS.md +34/-0,
+  _INGESTED.md +1/-0), keine unerwarteten Löschungen.
+- REPORT `outputs/2026-08-24_buch-run127.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Kein Fachpunkt mehr
+  offen ausser VB 94/0016 selbst (jetzt abschliessend dokumentiert, kein weiterer freier
+  Zugriffsversuch sinnvoll) und der registrierten PBG-Teilrevision «Baulinien» als
+  Fassungsstand-Wachposten. Nächste Kandidaten: `wissenscheck`-Turnus, Modell-D-Stichprobe an
+  [[ausnuetzungsuebertragung]]/[[nutzungsziffern]] (zuletzt 2026-07-25/Run 55) oder
+  [[nebenbestimmungen-und-reverse]] (zuletzt 2026-07-27/Run 67, nie erneut geprüft seit
+  Ersterstellung), oder `connectors/WEGE.md`-Nachtrag für die `entscheidsuche.ch`-Such-API.
+
 ## 2026-08-24 — Buch-Run 126: Kniestock-/Anrechenbarkeits-Rechtsprechung in [[geschosse-und-kniestock]] verifiziert — Fehlzitat VB.2003.00370 korrigiert (Galerie bei 1,5 m Breite NICHT anrechenbar, nicht «Richtwert ab 1,5 m»), VB.2007.00383 CONFIRMED wortgleich, VB.2003.00051 im Suchindex nicht auffindbar
 - ANLASS: Reglemente-Queue 2414 Thalwil (T1-T9) und die Stale-Flag-/Cross-KB-Kette (Run 90-125)
   sind laut eigenen Abschlussvermerken vollständig. Buch-Run 125 empfahl als nächsten

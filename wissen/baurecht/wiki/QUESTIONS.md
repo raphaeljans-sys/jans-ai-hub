@@ -1,5 +1,33 @@
 # QUESTIONS — offene Fragen & Wissenslücken (Baurecht)
 
+## ✅ ZUGRIFFSWEG ABSCHLIESSEND GEPRÜFT 2026-08-24 (Buch-Run 127) — VB 94/0016 (RB 1994 Nr. 72): kein freier digitaler Weg, Jahrgang 1994 statistisch nicht im Index
+
+**War offen seit Buch-Run 120/121** (`[[ausnahmebewilligung-und-bestandesschutz]]`, Abschnitt
+«Fallpraxis-Vertiefung»): VB 94/0016, zitiert für die «technische Abbruchreife als eigene
+Grenze» des Bestandesschutzes, liess sich nie am Original prüfen. Buch-Run 125/126 empfahlen
+als möglichen nächsten Schritt, einen alternativen Zugriffsweg zu suchen (analog dem Fund von
+`zentraleserien.zh.ch` für RRB-Recherchen in Run 123).
+
+**Ergebnis: kein Ersatzzitat, aber ein belastbarer Negativbefund statt einer Vermutung.** Die
+in Buch-Run 126 erfolgreich genutzte interne Such-API von `entscheidsuche.ch`
+(`_searchV2.php`, Feld `reference`) liefert für «VB.1994.00016»/«VB.94.00016» 0 Treffer. Eine
+Datums-Aggregation über den gesamten ZH-Verwaltungsgerichts-Index zeigt: der **gesamte
+Jahrgang 1994 ist nicht indexiert** (0 Einträge 1991-1995 durchgehend, nur vereinzelte
+Ausreisser 1990/1996-1999 mit 1-3 Treffern gegenüber 200+ ab 2000) — die Methode ist damit
+verlässlich, das Zitat fehlt tatsächlich im Bestand, kein Abfragefehler. Zusätzlich geprüft:
+die offizielle Entscheiddatenbank des Verwaltungsgerichts ZH (kein Hinweis auf Erfassung vor
+2000, aber offizielle Option: kostenpflichtige Urteilskopie direkt beim Gericht bestellen),
+die Rechenschaftsberichte der Gerichte ZH (nur Obergericht, online erst ab 2005, falscher
+Gerichtszweig), e-periodica.ch (keine Digitalisate gefunden).
+
+**Damit bleibt VB 94/0016 unverifiziert, aber die Frage ist geschlossen im Sinn von:** kein
+weiterer freier Zugriffsversuch lohnt sich, ohne einen neuen Weg zu kennen. Der einzige
+verbleibende Weg (kostenpflichtige Bestellung beim Gericht) liegt ausserhalb der Kompetenz
+eines Wissens-Layer-Laufs und ist als Option für Raphael im Wiki-Artikel vermerkt, nicht
+ausgelöst. Neue Primärquelle
+`raw/260824_amtlich_zh_entscheidsuche-abdeckung-vb-1994.md`. Report
+`outputs/2026-08-24_buch-run127.md`.
+
 ## ✅ TEILWEISE GEKLÄRT 2026-08-24 (Buch-Run 126) — Kniestock-/Anrechenbarkeits-Rechtsprechung in [[geschosse-und-kniestock]] verifiziert, ein Fehlzitat korrigiert, ein Zitat unauffindbar
 
 **War offen seit Buch-Run 125** (dessen empfohlener nächster Schritt): der Kniestock-Teil von
@@ -250,6 +278,12 @@ für diesen Fall ist damit kein neuer Zugriffsweg gefunden. Neue Primärquelle
 **Der neue Zugriffsweg selbst ist der grössere Ertrag dieses Laufs** — er schliesst eine Lücke
 im Wege-Register für vor-2000-Verwaltungsentscheide des Regierungsrates (nicht der Gerichte) und
 sollte in `connectors/WEGE.md` nachgetragen werden (ausserhalb des Mandats dieser KB).
+
+**→ Zugriffsweg abschliessend geprüft Buch-Run 127, 2026-08-24** (eigener Block ganz oben in
+dieser Datei): der ZH-Verwaltungsgerichts-Suchindex `entscheidsuche.ch` enthält den Jahrgang
+1994 statistisch nachweisbar nicht (0 Treffer im Datums-Histogramm 1991-1995) — VB 94/0016
+bleibt unverifiziert, aber der freie digitale Zugriffsweg ist damit ausgeschöpft, nicht nur
+ergebnislos versucht.
 
 ## ✅ GEKLÄRT 2026-08-23 (Buch-Run 98) — ZH-Mehrwertausgleich (MAG): Buchstand 2019 war Entwurf, erlassener Text weicht in den Prozentsätzen ab
 

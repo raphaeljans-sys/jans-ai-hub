@@ -3089,3 +3089,20 @@ GUI-Login am Schlüsselbund angemeldet ist (am Mac Mini mit entzogenem Token geg
 lesende SSH-Befehle funktionieren uneingeschränkt. Station und beide Fallen sind in
 `connectors/hub-setup-daten.json` (Station `macbook-revendo`) und im RADAR-Nachtrag 23.08. 17:35
 festgehalten. | Gespräch MacBook Pro 23.08.2026 | Infrastruktur/Zugang | hoch | offen
+
+
+**NEU 24.08.2026 (vollgas-radar Nachlauf 07:20) — Der Swap des MacBook Pro ist auf das Vierfache
+gewachsen und gibt den Platz nicht von allein zurueck.** Gemessene Reihe der Swap-Belegung:
+1.09 GB (22.08. 00:58) → 1.20 GB (22.08. 12:58) → 3.22 GB (23.08. 12:58) → **6.94 GB** (24.08.
+07:20). Zugleich hat macOS die **Swap-Gesamtgroesse von 2.05 GB auf 8.19 GB** erhoeht, weil sie
+anders nicht mehr reichte, und `kern.memorystatus_vm_pressure_level` steht zum dritten Mal in
+Folge auf 2 (warn); frei + inactive + purgeable liegt bei 3.18 GB. Der Anstieg faellt zeitlich
+mit dem Vollgas-Schub vom 23./24.08. zusammen, laeuft aber **nicht** auf dieser Station: das
+MacBook Pro trug im Messzeitpunkt keinen einzigen `claude -p`-Lauf, die Last ist interaktive
+Arbeit plus die Session-Prozesse der App. **AKTION Raphael: nach dem Wochen-Reset (Montag
+24.08. 12:00) den Swap-Wert erneut ansehen und die Station bei Bedarf einmal durchstarten** —
+ein auf das Vierfache gewachsener Swap schrumpft nicht von selbst, und die Probenlaufzeit des
+Radars hat sich im selben Fenster von 68 s auf 151 s mehr als verdoppelt. Kein Eingriff durch
+Claude: systemseitige Schalter und Neustarts bedient Raphael selbst (Rule `auto-verbesserungen`
+260814). Messwerte und Herleitung im RADAR-Eintrag 24.08. 07:20. | vollgas-radar 24.08.2026 |
+Infrastruktur/Station | mittel | offen

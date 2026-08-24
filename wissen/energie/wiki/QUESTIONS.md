@@ -2,7 +2,7 @@
 
 Abgearbeitet vom taeglichen Loop. Erledigtes mit ✓ + Datum.
 
-## 2026-08-24 — Interaktive Session (sechste Fortsetzung): A-BLIND-Fall 4 — `zev-eigenverbrauch-mfh-her-2025` (17 Backlinks) auf S. 13-39 nachgelesen, echte Regelungslücke geschlossen
+## 2026-08-24 — Interaktive Session (siebte Fortsetzung): A-BLIND-Fall 4 — `zev-eigenverbrauch-mfh-her-2025` (17 Backlinks) auf S. 13-39 nachgelesen, echte Regelungslücke geschlossen
 
 Auftrag: weitere offene Fragen abarbeiten. Auswahl nach der im Audit offen benannten Methode
 («naechste Kandidaten fuer die zwanzig meistzitierten Destillate: noch nicht ausgewaehlt»): die
