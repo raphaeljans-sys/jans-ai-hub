@@ -2314,7 +2314,7 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
 - **FW42-1** Herkunft und Projektbezug des handschriftlichen Blatts ungeklaert (Indiz
   Healthcare-Raumprogramm).
 
-## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, restliche PAVIDENSA-Punkte) unveraendert offen
+## Run 41 (MacBook Pro, 01.08.2026) — neu offen ⚠ SWKI-Block S41-1 bis S41-7 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt); S41-8 bleibt offen; PAVIDENSA P41-1 GESCHLOSSEN 24.08.2026 (Kreuzmatrix nachgetragen); GVZ RWA G41-3 GESCHLOSSEN 24.08.2026 (DIN-18232-2-Abgleich); Lignatec L41-1/L41-2 GESCHLOSSEN 24.08.2026 (Fussnote [a] nachgetragen, REI90-Zeile zugeordnet); H41-1 GESCHLOSSEN 24.08.2026 (SIA 500:2009 loest SN 521 500:1988 seit 1.7.2009 ab, am aktuell geltenden ZH-Lex-Text 700.21 Nachtrag 133 verifiziert); M41-1 GESCHLOSSEN 24.08.2026 (deckt sich mit der laengst bestehenden Methodik-Pflicht 8, kein neuer Auftrag noetig); H41-3 GESCHLOSSEN 24.08.2026 (Adressueberschneidung war organisatorische Beziehung BKZ = Zuercher Regionalstelle der Fachstelle, Nebenbefund Adresskorrektur nachgetragen); H41-4 Web-Anlauf ohne Fund (echte Sackgasse, Wayback nicht abrufbar), bleibt Bring-Schuld/Rueckfrage; L41-3 GESCHLOSSEN 24.08.2026 (nachgetragen, war im Destillat laengst erledigt, Grauton = Legendenfarbe Baustoff brennbar, eigene Gegenpruefung am lokalen Spiegel bestaetigt); H41-2 Fundstelle identifiziert 24.08.2026 (SIA 500:2009 Anhang H nennt «Merkblatt Nr. 7, Rollstuhlgaengigkeit bei Sonderbauten» der Fachstelle FABB — Zahlenwert bleibt Bring-Schuld/Rueckfrage, kein SIA-Kauf); S41-8 GESCHLOSSEN 24.08.2026 (Praemisse falsch — Deutsch/Franzoesisch stehen zweispaltig auf denselben Seiten, Tabellenwerte strukturell bilingual-einheitlich, Struktur-Fund in Destillat nachgetragen); die uebrigen Bestaende (L41-4, GVZ G41-1/G41-2, restliche PAVIDENSA-Punkte) unveraendert offen
 
 ### Lignatec / Lignum
 - **L41-1 Fussnote [a] der Tab. 3/4/5 nennt drei Nutzungen, die im Destillat nirgends vorkommen:**
@@ -2495,6 +2495,27 @@ offen unter P41-1** (Run 41, Abschnitt «PAVIDENSA» oben) — kein neuer Eintra
   *(Weiterhin offen — Stichprobe an Ziff. 2.5.3 im Rahmen der S41-7-Prüfung 24.08.2026 zeigt
   inhaltliche Deckungsgleichheit, ist aber kein systematischer Diff und schliesst die Frage
   nicht.)*
+
+  > ✅ **GESCHLOSSEN 24.08.2026 (QUESTIONS-Abarbeitung).** Die bisherige Fragestellung ging von
+  > einer falschen Prämisse aus: es gibt keine separate französische „Parallelfassung" als
+  > eigener Textblock, die man gegen die deutsche diffen müsste. Original neu geladen (SharePoint
+  > Site PL, Drive `02_Recht_Norm`, `06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für
+  > Parkhäuser.pdf`, per M365-Graph-Connector, `pdftoppm -r 200` gerendert, Scan ohne Textlayer)
+  > und visuell geprüft: das Dokument ist **zweispaltig auf denselben physischen Seiten** gesetzt
+  > (Deutsch links, Französisch rechts), mit **gemeinsamer** gedruckter Seitenzahl für beide
+  > Sprachen. Geprüft: vollständiges Inhaltsverzeichnis (Druckseite 2) sowie Ziff. 2.8.2-2.8.7
+  > im Fliesstext (Druckseiten 48-50) — wortgetreue Übersetzung, sprachparallele Querverweise
+  > (VKF-BSR 25-15de = AEAI-DPI 25-15fr, VKF-BSR 21-15de = AEAI-DPI 21-15fr), identische
+  > Zahlenwerte (5 Min. Nachlaufzeit, 2'000 m³/h, 2 kW, 60 s/180 s Alarmzeiten). **Entscheidender
+  > Struktur-Fund:** Tab. 9 (Messparameter CO/NO/NO2) und Tab. 10 (Schaltwerte CO/NO, Druckseiten
+  > 49-50) sind **bilinguale Einzelobjekte** — die Zellbeschriftung trägt Deutsch/Französisch
+  > übereinander, aber jeder Zahlenwert steht nur **einmal** in der Zelle (z.B. 50 ppm CO
+  > Einschaltwert, 200 ppm Alarm). Eine sprachbedingte Werteabweichung bei Tabellen ist damit
+  > **strukturell ausgeschlossen**, nicht nur ungeprüft unwahrscheinlich. Kein vollständiger
+  > Diff aller 110 Seiten, aber die Prämisse „zwei zu vergleichende Texte" trifft nicht zu, und
+  > die geprüfte Stichprobe (TOC + ein kompletter Fliesstext-/Tabellenblock) zeigt keine
+  > Abweichung. Nachgetragen in `destillate/swki-va103-01-2017.md`, neuer Abschnitt
+  > «Sprachfassung Deutsch/Französisch».
 - **S41-9 (P2, Korrektur 01.08.2026, Ultra-Code-Review): Grenzfall exakt 100 m².**
 
   > ✅ **GESCHLOSSEN 23.08.2026.** Original beschafft (SharePoint Site PL, Drive `02_Recht_Norm`,

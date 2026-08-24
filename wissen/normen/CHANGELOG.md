@@ -1,3 +1,58 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: S41-8 (SWKI VA103-01, Sprachfassung D/F) geschlossen — Prämisse widerlegt
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht (H41-2,
+unmittelbar darunter) zuerst gelesen, dort weitergemacht.
+
+**Kollisionscheck (`ps aux | grep "claude -p"`):** eigener Prozess PID 46568 (identischer
+Auftragstext, Startzeit 8:58) ist der hostende Prozess dieser Session. PID 45591 arbeitet an
+`wissen/baurecht` (Reglemente-Queue), PID 45040 an `wissen/energie` — keine Berührung von
+`wissen/normen`. Kein paralleler SIA-Sweep-Prozess aktiv (anders als in den beiden Vorläufen)
+— deshalb diesmal nicht nur additiv in `wiki/QUESTIONS.md`, sondern auch das Destillat
+`destillate/swki-va103-01-2017.md` direkt ergänzt.
+
+**Frage bearbeitet: S41-8** (Run 41, SWKI VA103-01) — ob die französische Parallelfassung
+inhaltlich von der deutschen abweicht, bislang nur an einer einzelnen Ziffer (2.5.3, im Rahmen
+von S41-7) stichprobenartig, nicht systematisch geprüft.
+
+**Vorgehen:** Original neu von SharePoint geladen (Site PL, Drive `02_Recht_Norm`,
+`06_Richtlinien/SWKI/SWKI VA 103-1 Lüftungsanlagen für Parkhäuser.pdf`, per M365-Graph-
+Connector, PATH-Fix für `/opt/homebrew/bin` nötig da Node/pdftotext/pdftoppm/tesseract in der
+Session-Shell zunächst nicht im PATH standen). Datei ist ein Scan ohne Textlayer (110 S.,
+KONICA-MINOLTA-Scan, `pdftotext` liefert null Wörter) — per `pdftoppm -r 200` gerendert und
+visuell gelesen, zuerst Inhaltsverzeichnis (Druckseite 2), danach der komplette Ziff.-2.8.2-
+bis-2.8.7-Block (Druckseiten 48-50, inkl. Tab. 9 Messparameter und Tab. 10 Schaltwerte).
+
+**Ergebnis: die Fragestellung ging von einer falschen Prämisse aus.** Es gibt keine separate
+französische „Parallelfassung" als eigenen Textblock hinter dem deutschen Teil — das Dokument
+ist **zweispaltig auf denselben physischen Seiten** gesetzt (Deutsch links, Französisch
+rechts), mit **einer gemeinsamen** gedruckten Seitenzahl für beide Sprachen. Fliesstext-
+Stichprobe (TOC + fünf Unterziffern): wortgetreue Übersetzung, sprachparallele Querverweise
+(VKF-BSR 25-15de = AEAI-DPI 25-15fr, VKF-BSR 21-15de = AEAI-DPI 21-15fr), identische
+Schwellenwerte (5 Min. Nachlaufzeit, 2'000 m³/h, 2 kW). **Struktureller Zusatzbefund:** Tab. 9
+und Tab. 10 sind bilinguale Einzelobjekte — Kopf-/Zeilenbeschriftung zweisprachig übereinander,
+aber jeder Zahlenwert (z.B. 50/70/200 ppm CO) steht nur **einmal** in der Zelle. Eine
+sprachbedingte Werteabweichung bei Tabellen ist damit strukturell ausgeschlossen, nicht nur
+ungeprüft unwahrscheinlich. Kein vollständiger Diff aller 110 Seiten, aber die Prämisse „zwei
+zu vergleichende Texte" trifft nicht zu.
+
+**Eingearbeitet:** `wiki/QUESTIONS.md` S41-8 als geschlossen markiert (additiv) + Kopfzeile
+Run 41 nachgeführt; `destillate/swki-va103-01-2017.md` neuer Abschnitt «Sprachfassung
+Deutsch/Französisch» zwischen «Geltungsbereich» und «Kernziffern» (Status bleibt `speculative`,
+unverändert — dieser Fund betrifft die Sprachstruktur, nicht die Bemessungskette).
+
+**Diff-Gegenprobe (`git diff --numstat`):** `wiki/QUESTIONS.md` 22/1, `destillate/
+swki-va103-01-2017.md` 19/0. Beide Änderungen rein additiv, keine bestehende Aussage entfernt
+oder überschrieben.
+
+**Einordnung:** echter primärquellenfester Fund, der eine seit Run 41 (01.08.2026) stehende
+Frage nicht nur beantwortet, sondern deren Grundannahme korrigiert — nützlich für jede künftige
+Frage zu diesem Dokument, da die zweispaltige Struktur erklärt, warum bisherige Renderings
+(die immer die volle Seite abbilden) beide Sprachen ohnehin schon mit erfasst haben, ohne dass
+das bisher explizit festgehalten war.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: H41-2 (Sonderbauten-Anforderungen) — Fundstelle identifiziert, kein SIA-Kauf nötig
 
 **Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
