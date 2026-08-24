@@ -815,6 +815,27 @@ Kap. 22/23 der naheliegendste nächste Buch-Kandidat, sonst unverändert die dre
 Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der Baulinien-Wachposten und
 [[geschosse-und-kniestock]].
 
+**Run 134 (2026-08-24, ausserhalb T1-T9):** denselben Abgleich für **Band 1** nachgeholt (Run 133
+hatte nur Band 2 geprüft). Zwei parallele Baurecht-Läufe mit identischem Prompt liefen zum
+Zeitpunkt dieses Laufs (`ps aux`: eigener Lauf `mschub766`, zweiter unabhängiger Lauf `mschub770`)
+— bewusst Band 1 statt einer weiteren Band-2-Stichprobe gewählt (kollisionsarmes Thema, Vorbild
+Run 130). **Stale-Note gefunden und korrigiert:** die Kap.-2-Zeile führte weiterhin **[~]** mit
+«Rest: BZO-Grundlagen 2.3.7/Arealueberbauung-Anfang S.152-169 nicht im Screenshot-Set» — eine
+Notiz aus der «Offene Punkte»-Sektion von
+[[band-1/02-nutzungsplanung-sondernutzung-verfahren-teil3]] (Teil 3, Run 18, 2026-07-02). Die
+Notiz war seit ihrer Entstehung falsch: das **zwei Tage früher** erstellte
+[[band-1/02-nutzungsplanung-zonenarten-teil2]] (Teil 2, Run 17, 2026-06-30, Shots 73-85) deckt
+S.152-169 bereits vollständig ab — 2.3.7.2 (numerus clausus Bauzonentypen, alle Zonentypen)
+bis 2.3.7.5 (vollständige Arealüberbauung §§ 69-73 PBG, nicht nur deren Anfang) — gegen
+`buecher/seiten-inventar.md` verifiziert (Shots 77-85 durchgehend `[x]`, auf Teil 2 verlinkt).
+Dieselbe Zeiger-Fehlerfamilie wie Run 133 (Kap. 16) und Run 117 (Kap. 17), diesmal in Band 1.
+Kap. 2 auf **[x] VOLLSTAENDIG** gehoben; S.205 f. (Shot 104, an der Kap.-3-Grenze) bleibt mangels
+Screenshot-Zugriff explizit ungeprüft. Report `outputs/2026-08-24_buch-run134.md`. **Nächster
+Schritt:** kein Fachpunkt aus Band 1 mehr offen — Band 1 vollständig `[x]`/`established`; für die
+KB als Ganzes bleibt Kap. 22/23 (Band 2) der naheliegendste nächste Buch-Kandidat, sonst
+unverändert die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate, der Baulinien-Wachposten
+und [[geschosse-und-kniestock]].
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
