@@ -1,3 +1,39 @@
+## 2026-08-24 — SIA-Sweep, Fortsetzung ~09:36 Uhr — zwölfte unabhängige Sättigungsverifikation, Bedingung des Vorlaufs geprüft statt nur nachgemessen
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). NAS bei
+Session-Start nicht gemountet; `wissen/` und `rules/` liegen als echte git-Ordner im
+SSD-Repo vor, dort gearbeitet (Rule `sync-kanonische-quelle`).
+
+**Kollisionscheck:** eigener Prozess PID 59236, kein Konkurrent. PID 58959 arbeitet parallel
+an `wiki/QUESTIONS.md` derselben KB (etablierter Split), PID 57911 an `wissen/baurecht` —
+keine Berührung von `wiki/REGISTER.md`/`destillate/`/`training/norm-inventar.md`.
+
+**Unterschied zu den Vorläufen:** der elfte Sweep-Lauf (08:54 Uhr) hatte einen weiteren
+vollen Durchlauf nur bei neuem Rohmaterial (SharePoint-Zugang wiederhergestellt, neue PDFs)
+oder Raphaels Kaufentscheid für sinnvoll erklärt — diese Bedingung wurde diesmal direkt
+geprüft statt nur die Zeilenzahl nachgemessen: SharePoint-Zugang (Graph-API, Site PL,
+`02_Recht_Norm`) funktioniert unverändert (kein neuer Weg), und der Ordner `SIA_Norm/
+SIA_Normen/alle/` zeigt nach `lastModifiedDateTime` sortiert keine Datei jünger als
+**2026-08-07T09:18:20Z** — 17 Tage vor diesem Lauf, klar vor dem Vorlauf. Damit ist «kein
+neues Rohmaterial» diesmal ein verifizierter Fund, keine Wiederholung derselben Vermutung.
+
+**Nachmessung:** `wiki/REGISTER.md` weiterhin **59** „Kein Volltext im Haus"-Zeilen,
+`training/norm-inventar.md` weiterhin **6** echte offene `[ ]`-Zeilen (SIA 491, SN EN 12193,
+SN 640 052, SN 641 400, SN 640 273a, SIA 181:2020-Re-Destillat) — unverändert, jede bereits
+mit Produktdatenblatt/Preis/Gültigkeitsdatum belegt, ausnahmslos Beschaffungs-Bring-Schuld.
+
+**Diff-Gegenprobe (`git diff --numstat`):** keine Änderung an `wiki/REGISTER.md`,
+`destillate/` oder `training/norm-inventar.md`. Bericht:
+`outputs/2026-08-24_sia-sweep-zwoelfte-unabhaengige-saettigungsverifikation-0936uhr.md`.
+
+**Empfehlung unverändert:** SIA-Sweep bleibt bei 59 Register-/6 Inventarzeilen pausiert, bis
+Raphael Kauf-/Freigabeentscheide trifft oder neues Rohmaterial im SharePoint-Ordner erscheint
+(künftig direkt per `lastModifiedDateTime` prüfbar). Ein dreizehnter Lauf sollte sich auf
+denselben Modifikationsdatum-Check beschränken, solange keine der beiden Bedingungen eintritt.
+
+---
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: L41-4 Fortsetzung — Lignatec Tab. 5 zellenweise gegen Original geprüft, Spalte «Tragwerke nbb» nachgetragen
 
 **Auftrag:** Fortsetzung derselben Aufgabe (weitere offene Fragen in `wiki/QUESTIONS.md`
