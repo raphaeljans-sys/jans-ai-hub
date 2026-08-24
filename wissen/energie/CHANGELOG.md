@@ -1,5 +1,62 @@
 # CHANGELOG
 
+## 2026-08-24g — A-BLIND: MuKEn-2025-Art.-1.23-Wortlaut am amtlichen EnDK-Basismodul-PDF verifiziert, Artikelnummer und siebte Monitoring-Funktion korrigiert
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** `ps aux` zeigte beim Start keinen
+parallelen Lauf desselben Prompts (nur dieser Prozess). Vorab CHANGELOG + letzten Lauf gelesen
+(«Für den nächsten Lauf»: E-R230-2 weiterhin Raphael vorzulegen, 393/394 OCR-Werkzeug nötig,
+A-BLIND-Bestand rund 20 von ~40 Kandidaten im 18-29-Backlink-Bereich weiterhin einzeln zu prüfen).
+Backlink-Zählung selbst nachgebaut (`[[...]]`-Referenzen in `wiki/*.md`+`destillate/*.md`, gefiltert
+auf existierende Destillate): 39 Kandidaten im 18-29-Bereich, davon acht bereits in Vorläufen
+einzeln geprüft (siehe `outputs/2026-08-24_a-blind-schwelle-18-29-backlinks-krnr-6062-6063.md`) —
+`[[sia-386-bacs-gebaeudeautomation]]` (29 Backlinks) war unter den noch ungeprüften.
+
+**Konkret benannter, primärquellen-gestützt schliessbarer offener Punkt gefunden und geschlossen:**
+`[[sia-386-bacs-gebaeudeautomation]]` führte den Literal-Wortlaut von «MuKEn 2025 Art. D.1.23»
+bislang als offenen Punkt («Basismodul-PDF auf endk.ch technisch nicht auffindbar», nur zwei
+konvergierende Sekundärquellen). Das amtliche EnDK-Basismodul-PDF («Projekt MuKEn 2025, Stand
+29.08.2025», 117 Seiten) wurde jetzt über `endk.ch/publikationen/` gefunden
+(`endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf`), heruntergeladen und vollständig
+mit PyPDF2 gelesen. **Zwei primärquellenbelegte Korrekturen:**
+1. Die amtliche Artikelnummer lautet **«Art. 1.23»** (fortlaufende Nummerierung im Basismodul),
+   nicht «Art. D.1.23» — «D» bezeichnet nur den Teil-Buchstaben («Teil D Anforderungen an
+   gebäudetechnische Anlagen»), ist aber nicht Bestandteil der Artikelnummer.
+2. Der Artikel nennt **sieben** Überwachungsfunktionen (a–g), nicht sechs: die bisherige, aus
+   zwei Sekundärquellen (energiehub-gebaeude.ch, offizielle Minergie-Vergleichstabelle)
+   rekonstruierte Liste hatte Funktion c) «Ermittlung der Energieeffizienz-Kennzahlen von
+   Wärmerückgewinnungs- und Abwärmenutzungsanlagen» **vollständig ausgelassen** und bei
+   Funktion e) die Aussentemperatur nicht genannt. Beide Sekundärquellen waren in den
+   übernommenen Punkten korrekt, aber unvollständig — kein Widerspruch, sondern eine Auslassung,
+   die erst durch die Volltext-Lektüre auffiel.
+
+Eingearbeitet: `destillate/sia-386-bacs-gebaeudeautomation.md` (Frontmatter `quelle`/`gelesen`/
+`datenstand`/`last_updated`, «Das Wichtigste in 1 Satz», Abschnitt 1 der «Schweizer Praxisbezug»-
+Liste mit vollem Wortlaut a–g, Bauherren-Transfer, Offene Punkte geschlossen),
+`destillate/INDEX.md` (Registerzeile), `wiki/INDEX.md` (Registerzeile), `wiki/BAUHERREN-FAQ.md`
+(F153 Kerntext + Quelle/Datenstand), `destillate/ahb-zuerich-gt-rl9-gebaeudeautomation.md`
+(Artikelnummer-Verweis).
+
+**Für den nächsten Lauf:** unverändert E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert,
+OCR-Werkzeug nötig). A-BLIND-Bestand: von den 39 aktuell gezählten 18-29-Backlink-Kandidaten sind
+jetzt 9 einzeln geprüft (8 aus dem Vorlauf + `sia-386-bacs-gebaeudeautomation` heute); rund 30
+verbleiben — u. a. `kaeltemittel-r290-waermepumpen-ch` (29), `minergie-besser-planen-bauen` (27),
+`rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh` (24, eigener Offener-Punkt-Absatz bereits
+gegen den RRB-Primärtext gegengeprüft in diesem Lauf, siehe unten — kein neuer Fund, Nuance
+bereits korrekt dokumentiert), `ecobkp-2026-methodik-und-uebersicht` (24), `minergie-
+zertifizierung-workflow` (23), `innendaemmung-altbau-bauphysik-ch` (23, SMGV-Merkblatt 70
+kostenpflichtig, nicht lösbar ohne Kauf) als nächste Kandidaten mit am ehesten primärquellen-
+schliessbaren offenen Punkten.
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/sia-386-bacs-gebaeudeautomation.md`
++45/-31 (Frontmatter präzisiert, Kernabschnitt mit vollem Wortlaut ersetzt, Offener Punkt
+geschlossen — additiv/präzisierend, keine Löschung von Bestand ausserhalb der korrigierten
+Textstellen selbst), `destillate/INDEX.md` +1/-1, `destillate/ahb-zuerich-gt-rl9-
+gebaeudeautomation.md` +1/-1, `wiki/INDEX.md` +1/-1, `wiki/BAUHERREN-FAQ.md` +6/-6 (jeweils
+gezielte Zahlen-/Wortlaut-Korrektur, keine Struktur geändert). Keine der editierten Dateien war
+zum Bearbeitungszeitpunkt gleichzeitig durch einen Sibling-Lauf verändert (kein weiterer `claude
+-p`-Prozess laut `ps aux` beim Start und danach).
+
 ## 2026-08-24f — SIA 2024-C2:2025-Korrigenda gefunden: freie Energie-/Leistungsbedarfswerte für Bettenzimmer/Stationszimmer/Behandlungsraum
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** ein weiterer

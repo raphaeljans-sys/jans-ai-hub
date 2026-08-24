@@ -6175,3 +6175,50 @@ durchgehend additiv/präzisierend (Ersetzungen sind Text-Präzisierungen an bere
 selbst geschriebenen Stellen bzw. explizite «Nachtrag»-Ergänzungen ohne Verlust der Historie),
 keine Löschung von Bestand. Keine der editierten Dateien war zum Prüfzeitpunkt gleichzeitig durch
 einen Sibling-Lauf verändert.
+
+## 2026-08-24 (Fortsetzung, A-BLIND-Folgelauf) — `sia-386-bacs-gebaeudeautomation`: MuKEn-2025-Art.-1.23-Wortlaut jetzt am amtlichen EnDK-PDF gelesen
+
+Anschluss an `outputs/2026-08-24_a-blind-schwelle-18-29-backlinks-krnr-6062-6063.md`: dessen acht
+geprüfte 27-29-Backlink-Kandidaten hatten keinen neuen Fall ergeben; Backlink-Zählung selbst
+wiederholt (39 Kandidaten im 18-29-Bereich), `[[sia-386-bacs-gebaeudeautomation]]` (29 Backlinks)
+war unter den noch nicht einzeln geprüften.
+
+- [x] **Offener Punkt «Literal-Wortlaut MuKEn 2025 Art. D.1.23 nicht am EnDK-Originaldokument
+  selbst gelesen» geschlossen.** Das Basismodul-PDF war entgegen der bisherigen Notiz auffindbar:
+  `endk.ch/publikationen/` listet unter «Grundlagendokumente Gebäudepolitik» das Dokument
+  «MuKEn 2025» (dat. 29.08.2025) mit direktem Download-Link
+  `endk.ch/wp-content/uploads/2026/04/MuKEn2025_d-2025-08-29.pdf` — 117 Seiten, vollständig mit
+  PyPDF2 gelesen. Titel im Dokument selbst: «Projekt MuKEn 2025, Stand 29.08.2025».
+- [x] **Zwei primärquellenbelegte Korrekturen am bisherigen Sekundärquellen-Stand:**
+  1. Amtliche Artikelnummer ist **«Art. 1.23»**, nicht «Art. D.1.23» — der Artikel steht zwar in
+     «Teil D Anforderungen an gebäudetechnische Anlagen», aber die Basismodul-Artikel sind
+     fortlaufend nummeriert (Art. 1.1 bis 1.49 im ganzen Dokument), der Teil-Buchstabe ist nicht
+     Bestandteil der Artikelnummer.
+  2. Der Original-Wortlaut («Neubauten der Kategorien III bis XII (Norm SIA 380/1) mit mindestens
+     2000 m² EBF sind mit Einrichtungen zur Gebäudeautomation auszurüsten, die folgende
+     Überwachungsfunktionen aufweisen») zählt **sieben** Funktionen a–g, nicht sechs: Funktion
+     c) «Ermittlung der Energieeffizienz-Kennzahlen von Wärmerückgewinnungs- und
+     Abwärmenutzungsanlagen» fehlte in der aus energiehub-gebaeude.ch + der offiziellen
+     Minergie-Vergleichstabelle rekonstruierten Liste vollständig; Funktion e) nannte die
+     Aussentemperatur nicht. Beide Sekundärquellen waren in den übernommenen sechs Punkten
+     wortgleich und korrekt — die Lücke war eine Auslassung, kein Zitierfehler.
+- [x] **Nebenbefund geprüft, kein Handlungsbedarf: `[[rrb-2025-1082-klimaanlagen-bewilligungspraxis-zh]]`
+  Offener Punkt «RRB-Aussage zu aktiven Kälteelementen nur Sekundärquelle».** Das amtliche
+  RRB-2025-1082-PDF (zh.ch) erneut vollständig gelesen (PyPDF2): Der Wortlaut «Sobald aktive
+  Elemente zur Kälteabgabe installiert werden sollen, muss zurzeit ein Bewilligungsverfahren
+  durchgeführt werden» steht tatsächlich im RRB selbst — das Destillat zitiert diesen Satz bereits
+  korrekt. Der verbliebene, weiterhin zutreffende Vorbehalt betrifft eine andere Ebene: dieser Satz
+  ist eine RRB-**Praxisauskunft**, nicht im **§ 2a-BVV-Erlasstext** selbst verankert (der
+  differenziert laut Schwesterdestillat `[[bvv-zh-meldeverfahren-klimaanlagen-waermepumpen]]` nicht
+  nach Kühlfunktion). Kein neuer Fund, keine Änderung nötig — die bestehende Formulierung ist
+  bereits präzise.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — von 39 aktuell gezählten 18-29-Backlink-Kandidaten
+sind 9 einzeln geprüft; rund 30 verbleiben. Nächste Kandidaten mit potenziell primärquellen-
+schliessbaren offenen Punkten: `kaeltemittel-r290-waermepumpen-ch` (29, CHF-Mehrkosten/SCOP-
+Heizbetrieb-Werte R290 weiterhin ohne Quelle — evtl. FWS-Rohdaten prüfen), `minergie-besser-
+planen-bauen` (27, aktuelles Minergie-Reglement/Nichtwohnbau-Limiten auf minergie.ch gegenprüfen),
+`ecobkp-2026-methodik-und-uebersicht` (24, mehrere kleinere Merkblatt-Lücken), `sia-386-bacs-
+gebaeudeautomation` selbst hat weiterhin offene Punkte zu Nichtwohngebäude-Effizienzfaktoren und
+CH-Investitionskosten (beide hinter Normkosten/fehlender CH-Studie, nicht kurzfristig lösbar).
+Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug).
