@@ -1,7 +1,7 @@
 ---
 title: Energienachweis Kanton Zürich (EN-ZH / EVEN)
 status: established
-last_updated: 2026-08-21 (Run 148 — Nachweiswege je Gebäudekategorie, § 8 Rechenweg, «11 gegen 11»-Falle, E-R140-1 als Normfrage geschärft)
+last_updated: 2026-08-24 (EN-105-WRG-Schwelle korrigiert: 75 % gilt für Anlagen mit Bypass, nicht feuchtebezogen — Vorlauf 2026-08-21 Run 148 — Nachweiswege je Gebäudekategorie, § 8 Rechenweg, «11 gegen 11»-Falle, E-R140-1 als Normfrage geschärft)
 datenstand: "2021 (ältester tragend zitierter Quellenstand: EnerG-Änderung vom 19.04.2021 bzw. RRB BBV I vom 14.07.2021, beide in Kraft seit 01.09.2022 — Grundlage [[energ-bbv1-waermebedarf-rechtsgrundlagen-zh]] und [[waermedaemmvorschriften-zh-2022]]. Die ältere EN-ZH-005-PDF-Formularsammlung (Juli 2022) ist seit 1.1.2026 durch EVEN abgelöst und im Artikeltext selbst als überholt markiert, daher nicht als Anker verwendet; ebenso bewusst ausgeschlossen die ausdrücklich als «historisch»/«superseded» geführten Quellen von 2009/2011/2013.)"
 sources: [destillate/en-zh-nachweis-uebersicht.md, destillate/enfk-en-104-eigenstromerzeugung.md, destillate/enfk-en-102-waermeschutz-2018.md, destillate/waermedaemmvorschriften-zh-2022.md, destillate/waermedaemmvorschriften-zh-2009-historisch.md, destillate/vollzugsordner-energie-zh-abschnitt1-2.md, destillate/energ-bbv1-waermebedarf-rechtsgrundlagen-zh.md, destillate/vollzugsordner-energie-zh-abschnitt3-1-3-2-en1.md, destillate/energ-zh-nachtrag72-2011-historisch.md]
 links: [[INDEX]], [[BAUHERREN-FAQ]], [[u-werte-grenzwerte-ch]], [[minergie-standards]], [[muken-2025-verabschiedet]]
@@ -55,7 +55,7 @@ Beide Module vervollständigen die Formularmatrix (Details `[[en-lueftung-kuehlu
 > energetische Sanierungen der Gebäudehülle (Fassadendämmung/Fensterersatz im Bestand,
 > der häufigste JANS-Energiefall) **zwingend dem Anzeigeverfahren** zuordnet, sowie die
 > Beilagepflicht des Energienachweises. Recht = baurecht, Nachweisphysik = diese KB.
-- **EN-105 Lüftung:** Wärmerückgewinnung Temperatur-Änderungsgrad **≥ 70 %** *oder* feuchtebezogen **≥ 75 %**; Luftgeschwindigkeit
+- **EN-105 Lüftung:** Wärmerückgewinnung Temperatur-Änderungsgrad **≥ 70 %**, bei Anlagen mit Bypass **≥ 75 %** (korrigiert 24.08.2026, s. [[komfortlueftung-wrg-sia382-luftwechsel]]); Luftgeschwindigkeit
   Ansaug/Ausblas **≤ 2 m/s**, in Kanälen volumenstromabhängig 3–7 m/s; Kanaldämmung nach
   Temperaturdifferenz (5–10 K ≥ 3 cm / 10–15 K ≥ 6 cm / > 15 K ≥ 10 cm).
 - **EN-110-ZH Kühlung/Befeuchtung (Bestand):** eine von drei Anforderungen — spez. Leistung

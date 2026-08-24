@@ -2,10 +2,10 @@
 quelle: Reglement MINERGIE-Modul Komfortlüftung, Version 2.0 (14.09.2023, in Kraft seit 07.08.2023 — korrigiert nach Adversarial-Verify, ursprünglich fälschlich Stand 2011 zitiert) + Merkblatt «Informationen zur Norm SIA 382/5: Mechanische Lüftung in Wohngebäuden», suissetec, Juni 2025 + Merkblatt «Information zur Norm SIA 382/1 — Mechanische Lüftung in Gebäuden – Grundlagen und Anforderungen», suissetec, September/November 2025 (Norm SIA 382/1:2025 in Kraft seit 1.2.2025)
 herausgeber: Verein MINERGIE (AMI) + suissetec (Schweizerisch-Liechtensteinischer Gebäudetechnikverband)
 ausgabe: Minergie-Reglement v2.0 (2023); suissetec-Merkblätter Juni/November 2025; Norm SIA 382/1:2025
-gelesen: 2026-07-12 (Web via WebSearch/WebFetch) — Adversarial verifiziert 2026-07-12; **2026-07-13 (Run 53): SIA-382/1-Merkblatt vollständig lokal per pdftotext gelesen (12 S., vorher nur Web-Fetch-Zusammenfassung ohne Tabellenwerte) — Tab. 1-3 der Norm neu ergänzt**
+gelesen: 2026-07-12 (Web via WebSearch/WebFetch) — Adversarial verifiziert 2026-07-12; **2026-07-13 (Run 53): SIA-382/1-Merkblatt vollständig lokal per pdftotext gelesen (12 S., vorher nur Web-Fetch-Zusammenfassung ohne Tabellenwerte) — Tab. 1-3 der Norm neu ergänzt**; **2026-08-24: ZH-EN-105-Vergleich gegen die primärquellenweise gelesene Fassung in [[en-lueftung-kuehlung-zh]] korrigiert**
 datenstand: 2023-2025 (Normen aktuell in Kraft, Stand Juli 2026)
 status: established
-last_updated: 2026-07-13
+last_updated: 2026-08-24
 ---
 
 # Komfortlüftung: WRG-Wirkungsgrad + Auslegungs-Luftvolumenströme (SIA 382/1 · SIA 382/5)
@@ -37,10 +37,14 @@ für Wohnbauten NICHT, wie eine erste Recherche fälschlich annahm.
   Methode ≥ 83 % (aus früherer Reglementsfassung übernommen, in Version 2.0 gegen Feuchte-
   Verhältnis-Kriterium geprüfen).
 - ⚠ Eine erste Recherche zitierte fälschlich das veraltete Reglement Stand 3.3.2011 — korrigiert.
-- Vergleich ZH-Formular EN-105: Schwelle **70 % Temperatur-Änderungsgrad ODER 75 % feuchtebezogen**
-  (siehe [[en-lueftung-kuehlung-zh]]) — die Minergie-Anforderung (≥80 %/≥60 %) ist strenger beim
-  Temperatur-Verhältnis, das ZH-Formular kennt keine direkte 60%-Feuchte-Vorgabe im selben Format;
-  Formulierungen nicht 1:1 vergleichbar, beide separat prüfen.
+- **Vergleich ZH-Formular EN-105 (korrigiert 24.08.2026, am Original-Formular gegengeprüft):**
+  Schwelle **70 % Temperatur-Änderungsgrad, bzw. 75 % bei Anlagen mit Bypass** — die 75 % beziehen
+  sich laut EN-105-Formular selbst auf die **Bypass-Bauart**, nicht auf einen Feuchtewert (siehe
+  [[en-lueftung-kuehlung-zh]], EN-105 dort primärquellenweise gelesen). Frühere Formulierung in
+  diesem Destillat («75 % feuchtebezogen») war eine unbelegte Fehlübertragung und ist damit
+  korrigiert. Das ZH-Formular kennt ohnehin keine eigene Feuchte-Rückgewinnungsschwelle — die
+  Minergie-Anforderung (≥80 % Temperatur/≥60 % Feuchte) bleibt beim Temperatur-Verhältnis strenger
+  als beide ZH-Werte; Formulierungen/Prüfmethodik bleiben sonst nicht 1:1 vergleichbar.
 
 ## Offizielle WRG-Grenzwerte der Norm SIA 382/1:2025 selbst (neu, Run 53)
 Die Norm SIA 382/1:2025 setzt für NWLA (Nicht-Wohnraumlüftungsanlagen, aber methodisch
@@ -101,9 +105,10 @@ typischen Wohnung ergibt das rund 90 m³/h Gesamtluftmenge. Zwei Normen (SIA 382
 382/5 Wohnbau-Ergänzung) gelten gemeinsam.
 
 ## Offene Punkte
-- ZH-EN-105-Schwelle (70 %/75 %) nicht direkt am aktuellen Original-Formular gegengeprüft in
-  diesem Lauf — Querverweis [[en-lueftung-kuehlung-zh]] nutzen.
-- Genauer Vergleich Minergie-Feuchte-Verhältnis-Kriterium (60 %) vs. ZH-Formular-Logik offen.
+- [x] **ZH-EN-105-Schwelle (70 %/75 %) am Original-Formular gegengeprüft (24.08.2026)** — Befund
+  und Korrektur siehe Abschnitt «Wärmerückgewinnungsgrad» oben.
+- Genauer Vergleich Minergie-Feuchte-Verhältnis-Kriterium (60 %) vs. ZH-Formular-Logik offen
+  (ZH-EN-105 kennt keine eigene Feuchte-Schwelle, s.o. — Vergleich bleibt damit strukturell offen).
 - SFP-Grenzwertformel (Ziff. 5.11.2, spezifische Ventilatorleistung) nur qualitativ erfasst,
   keine konkreten W/(m³/h)-Grenzwerte extrahiert (Formel ist parametrisch, keine einfache Zahl) —
   bei Bedarf vertiefen.

@@ -1,3 +1,27 @@
+## 2026-08-24 — SIA-Sweep: fünfzehnte Sättigungsverifikation (10:38 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
+
+**Auftrag:** SIA-Sweep fortsetzen (Register-geführte SIA-Zeilen ohne Datei im Haus,
+Produktdatenblätter beschaffen, Register nachführen, Destillate anlegen). Report des letzten
+SIA-Sweep-Laufs (vierzehnte Sättigungsverifikation, 10:05 Uhr, 33 Min. zuvor) zuerst gelesen.
+
+**Frisch nachgeprüft statt aus dem Vorlauf übernommen:** SharePoint-Ordner
+`02_Normen/SIA_Norm/SIA_Normen/alle/` live via `connectors/m365-graph.mjs --get`
+(Drive-Children-API, `$orderby=lastModifiedDateTime desc`) abgefragt — jüngste Datei
+weiterhin 2026-08-07T09:18:20Z (17 Tage keine neue Datei). `wiki/REGISTER.md` weiterhin 59
+„Kein Volltext im Haus"-Zeilen, `training/norm-inventar.md` weiterhin genau 6 offene
+`[ ]`-Zeilen (SIA 491, SN EN 12193, SN 640 052, SN 641 400, SN 640 273a,
+SIA 181:2020-Re-Destillat) — alle sechs bereits mit Produktdatenblatt/Preis/Gültigkeitsdatum
+belegt, ausnahmslos Beschaffungs-Bring-Schuld (SIA-Shop/VSS-Shop), kein Kaufentscheid
+Raphaels seit Lauf 14. Commit-Historie seit Lauf 14 geprüft: keine neuen Commits an
+`wiki/REGISTER.md`/`training/norm-inventar.md`/`destillate/`.
+
+**Ergebnis:** Kein Register-, Inventar- oder Destillat-Schreibvorgang. Auffällig: 19. Report
+dieses Sweeps heute (00:27–10:38 Uhr) ohne neues Rohmaterial seit dem 07.08.2026 —
+Eskalationsempfehlung an Raphael, den wiederkehrenden Trigger zu prüfen (Loop/Scheduled Task)
+und/oder die sechs offenen Positionen per Kaufentscheid zu bewegen.
+
+Report: `outputs/2026-08-24_sia-sweep-fuenfzehnte-saettigungsverifikation-1038uhr.md`.
+
 ## 2026-08-24 — QUESTIONS-Abarbeitung: vierzehnter Lauf — zwei weitere Alt-Punkte nachgezogen, Sättigung bestätigt
 
 **Auftrag:** Fortsetzung der Daueraufgabe `wiki/QUESTIONS.md` abarbeiten. CHANGELOG und Report
