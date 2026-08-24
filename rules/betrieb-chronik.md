@@ -72,8 +72,36 @@ Mac Mini und MacBook Pro nachgezogen, alle drei Repos auf `9bb81668`.
    Aufgabe (SSH-Vermaschung, Eintrag `260824d`) mit rc=1 quittierte. **Ein rc, den man wegsieht, ist
    ein Befund, den man verliert.**
 
-**Offen:** Die Zweitursache ist nicht behoben — Mac Mini und NAS pushen weiterhin beide auf `main`.
-Solange das so bleibt, kann die Spaltung wiederkehren.
+**Behoben am selben Abend (Schritt 1 von 2), `nas-selfcommit.sh`:** Der Committer misst die
+Divergenz jetzt in **beide** Richtungen (`git rev-list --count`), statt nur «ungleich» festzustellen,
+und faehrt vier getrennte Pfade — nur wir voraus (push), nur die Gegenseite voraus (fast-forward),
+echte Divergenz (erst Rebase, **bei dessen Fehlschlag Merge als Rueckfall**), deckungsgleich (nichts).
+Scheitern beide, wird abgebrochen ohne Merge-/Rebase-Rest (der Guard weiter oben wuerde sonst alle
+Folgelaeufe stoppen) und ein Fehlzaehler hochgezaehlt; **ab der dritten erfolglosen Runde** schreibt
+er den Befund samt aktueller Divergenz in `logbuch/fristen.md` und loggt eine `WARNUNG:`-Zeile
+(grep-bar fuer heartbeat Check 7). Erfolg setzt den Zaehler zurueck, die Meldung kommt also je
+Vorfall einmal, nicht im Minutentakt.
+
+**Getestet, nicht nur gebaut** — in einem Wegwerf-Repo auf der Synology, vier Szenarien:
+nur-lokal-voraus, nur-remote-voraus, **Rebase scheitert und Merge greift** (der Fall von heute:
+ein Zwischen-Commit kollidiert beim Nachspielen, der Endstand ist konfliktfrei — Rebase scheiterte,
+Merge ging durch, Divergenz danach 0/0, kein Rest), sowie unaufloesbarer Konflikt ueber drei Laeufe
+(Zaehler 1/2/3, Registereintrag exakt bei 3, kein `MERGE_HEAD` hinterlassen).
+
+**Nebenbefund aus dem Test, lehrreich:** Der Registereintrag schien im Test zu fehlen. Ursache war
+nicht das Script, sondern der Anzeigefilter der pruefenden Session — sie unterdrueckte Zeilen, die
+mit `**` beginnen (um die Post-Quantum-Warnung der Synology auszublenden), und der Eintrag beginnt
+genau so. **Ein leeres Ergebnis ist zuerst eine Aussage ueber das Werkzeug**, wieder einmal
+(`auto-verbesserungen` 260730b, `wege-und-vollmachten`).
+
+**Offen bleibt Schritt 2, die Zweitursache:** Mac Mini und NAS pushen weiterhin beide auf `main`.
+Gemessen ueber 14 Tage: 1554 Commits gesamt, davon 1127 `nas-selfcommit`, 398 benannt und nur **29**
+`auto-sync [Macmini]` — und diese 29 schreiben ausgerechnet in `wissen/energie|baurecht|normen|
+grobkosten`, also in Pfade, die laut Rule `sync-kanonische-quelle` ausschliesslich auf dem NAS
+editiert werden duerfen. Das ist kein zweiter legitimer Weg, sondern das Symptom aus Eintrag
+`260823c` (Laeufe schreiben in den SSD-Klon statt in die NAS-Quelle), das der Auto-Sync still nach
+GitHub wusch. Vor dem Abschalten ist zu pruefen, ob in diesen 29 Commits Arbeit steckt, die es
+sonst nirgends gibt. Bis dahin faengt Schritt 1 den Schaden auf, statt ihn zu verhindern.
 
 ## 260824d — SSH-Vollvermaschung der drei Macs hergestellt; der Zettel deckte nur eine Richtung ab
 

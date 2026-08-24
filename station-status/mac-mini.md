@@ -1,9 +1,9 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 18:21:58
+Stand: 24.08.2026 18:32:15
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
-- Developer/jans/ai/hub  (letzte Aktivitaet 18:21)
+- Developer/jans/ai/hub  (letzte Aktivitaet 18:25)
 
 ## Laufende Arbeits-Prozesse
 - keine
@@ -12,4 +12,4 @@ Stand: 24.08.2026 18:21:58
 - 3 Datei(en): AR - 01 Projekte / 2619_KINDERSPITAL
 
 ## Hub-Git-Stand (NAS)
-- 85c4596b hub-setup: Revendo-Station hostname korrigiert (MacBook-Pro-von-Revendo, live gemessen 24.08.) — Namenskollisions-Warnung nicht bestaetigt, STATION-Anweisung bleibt
+- 25664e71 nas-selfcommit: Divergenz-Check, Merge-Rueckfall und Eskalation ins Fristen-Register (Chronik 260824e)
