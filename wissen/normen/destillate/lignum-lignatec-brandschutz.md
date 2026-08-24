@@ -650,6 +650,40 @@ werden.
     Konzeptzeile (Fussnote ①: bei Einfamilienhäusern keine Anforderung an den Feuerwiderstand
     von raumabschliessenden Bauteilen gegenüber Fluchtwegen). Vorhanden sind für diese Zeile
     nur die Spalten bis «4» (siehe Abdeckungsgrenze oben).
+  - ⚠ **Fünf Nutzungszeilen ohne eigene Eckwerte, nachgetragen 24.08.2026 (QUESTIONS-
+    Abarbeitung, Fund L41-4, letzte Teilrunde — Zellwerte am Original S. 12-13 spaltengenau
+    gelesen, `pdftoppm -r 400`, Halbseiten S. 12/S. 13 nebeneinander gehalten):**
+    - **Industrie-/Gewerbebauten q ≤ 1000 MJ/m²**: Struktur identisch zu Wohnbauten
+      MFH/Büro/Schulbauten bis Spalte 3 (Treppenhaus REI60/EI30(nbb) grau ab Spalte «2 bis
+      600», Korridor EI30-nbb grau), **weicht aber ab Spalte 4 (4 Geschosse) ab**: Treppenhaus
+      REI60(nbb) blau (beide Konzepte), Korridor Baulich bereits ab 5-6 Geschossen EI60(nbb)
+      **blau** (keine Holzbauteile), Sprinkler bei 5-6 Geschossen noch EI60-EI30(nbb)②③ grau
+      (fluchtwegseitig verkleidet); ab 7-8 Geschossen beide Konzepte EI60(nbb) blau. Damit
+      eskaliert diese Nutzung beim Korridor eine Geschossstufe früher als Wohnbauten MFH — exakt
+      die spiegelbildliche Eskalation, die das Destillat für dieselbe Nutzungszeile bereits in
+      Tabelle 3 (Tragwerk/Brandabschnitt) dokumentiert.
+    - **Bauten mit Räumen grosser Personenbelegung / Verkaufsgeschäfte [c]**: ab Spalte 3
+      (3 Geschosse) durchgehend REI60(nbb)/EI60(nbb) blau, für **beide Konzepte identisch**, bis
+      7-8 Geschosse — deckt sich mit dem bereits in Tabelle 3 dokumentierten Befund «in beiden
+      Konzepten ab 3 Geschossen durchgehend blau» für dieselbe Nutzung.
+    - **Parkhäuser/Einstellräume für Motorfahrzeuge**: Treppenhaus REI60(nbb) blau ab Spalte 4
+      (beide Konzepte identisch), Korridor dagegen konzeptabhängig — Baulich EI60(nbb) blau
+      bereits ab Spalte 5-6, Sprinkler bis Spalte 5-6 noch EI60-EI30(nbb)②③ grau und erst ab
+      7-8 Geschossen EI60(nbb) blau. Bis Spalte 3 durchgehend REI60/EI30(nbb) grau bzw.
+      EI30-nbb grau (beide Konzepte gleich). Der Korridor-Unterschied Baulich/Sprinkler bei
+      5-6 Geschossen deckt sich mit dem in Tabelle 3 dokumentierten Befund für dieselbe Nutzung
+      («baulich ab 5-6 Geschossen blau, im Sprinklerkonzept erst ab 7-8 Geschossen»).
+    - **‹Verkaufsgeschäfte› (Verkaufsfläche ≤ 1200 m² und Personenbelegung ≤ 100 P)**: bis
+      Spalte 3 durchgehend REI60/EI30(nbb) grau / EI30-nbb grau (beide Konzepte gleich), Spalte 4
+      (letzte vorhandene Spalte) Treppenhaus REI60(nbb) blau (beide Konzepte), Korridor Baulich
+      EI60-EI30(nbb)② grau, Sprinkler EI30-nbb② grau. **Zeile endet nach Spalte 4** — für 5-6
+      und 7-8 Geschosse existieren keine Zellen (Abdeckungsgrenze wie in Tabelle 3, dort für
+      dieselbe Nutzung bereits dokumentiert, gilt hier gleichermassen für Tabelle 4).
+    - **Landwirtschaftliche Bauten**: Werte und Struktur **identisch** zu «‹Verkaufsgeschäfte›
+      (Verkaufsfläche ≤ 1200 m² …)» direkt darüber (bis Spalte 3 REI60/EI30(nbb) grau / EI30-nbb
+      grau beide Konzepte, Spalte 4 Treppenhaus REI60(nbb) blau, Korridor Baulich
+      EI60-EI30(nbb)② grau / Sprinkler EI30-nbb② grau), Zeile endet ebenfalls nach Spalte 4 —
+      spiegelt den in Tabelle 3 für dieselbe Nutzung dokumentierten Befund.
   - Fussnote ⑥: Das Treppenhaus hat im obersten Geschoss den gleichen Feuerwiderstand zu
     gewährleisten wie in den darunterliegenden Geschossen. Übrige Fussnoten ②③④⑤ analog
     Tabelle 3.

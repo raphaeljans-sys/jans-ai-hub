@@ -2,8 +2,13 @@
 title: Baulinien und Abstandslinien — Kanton Zürich
 status: established
 last_updated: 2026-08-24
-verifiziert: 2026-08-24 (Buch-Run 135 — Fassungsstand-Wachposten PBG-Teilrevision «Baulinien»
-  nachgeführt: Kommissionsberatung abgeschlossen statt "weiterhin in Kommissionsberatung", Beleg
+verifiziert: 2026-08-24 (Buch-Run 136 — Fassungsstand-Wachposten PBG-Teilrevision «Baulinien»
+  amtlich bestätigt: der Web-Service des Kantonsrats-Geschäftsverwaltungssystems
+  (parlzhcdws.cmicloud.ch, via opendata.swiss) bestätigt den von Buch-Run 135 nur sekundär
+  belegten Verfahrensstand wortgleich, Beleg
+  raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md); 2026-08-24 (Buch-Run 135 —
+  Fassungsstand-Wachposten PBG-Teilrevision «Baulinien» nachgeführt: Kommissionsberatung
+  abgeschlossen statt "weiterhin in Kommissionsberatung", Beleg
   raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md, nur sekundär); 2026-08-24
   (RAW-Coverage-Nachtrag, Wissens-Health-Check — Abschnitt 1b «Festsetzungsgrundsätze
   bei Staatsstrassen» aus RRB 39/2010 ergänzt; Inhalt war seit Buch-Run 116 bereits amtlich beschafft und
@@ -15,7 +20,7 @@ verifiziert: 2026-08-24 (Buch-Run 135 — Fassungsstand-Wachposten PBG-Teilrevis
   zur laufenden PBG-Teilrevision «Baulinien» [`raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md`].
   Neuer aktiver Fassungsstand-Wachposten: die Revision [RRB 1319/2024, seit Jan. 2025 im
   Kantonsrat] ist noch nicht in Kraft und würde die Regel wieder einschränken); 2026-07-27 (Buch-Run 62, Festigungsmodus Priorität c, Stichproben-Re-Verifikation — vollständiger Wortlautabgleich §§ 90-122 PBG gegen raw/260607_amtlich_zh_pbg.md Z. 978-1237, CONFIRMED, 0 Korrekturen an diesem Kernbestand; Fassungsstand PBG weiterhin Nachtrag 133, keine Drift. 2 echte Korrekturen gefunden: (1) § 33a ABV ist seit RRB 11.5.2016 aufgehoben, korrekte Fundstelle für die 35-cm-Aussendämmung ist § 253a PBG — Register-Sweep-Nachzug, an anderer Stelle der KB [[ausnahmebewilligung-und-bestandesschutz]] bereits korrigiert, aber nie hierher gesweept; (2) Klarstellung Haupt- vs. Anhang-Fassung § 260 Abs. 3 PBG für die per Gerichtspraxis analog herangezogene 1/3-Fassadenlänge-Regel bei Baulinien-Vorsprüngen — die harmonisierte Hauptteil-Fassung von § 260 Abs. 3 hat einen anderen Regelungsgegenstand, offene Frage markiert statt stillschweigend übernommen; (3) StrG-Fassungsstand-Vermerk aus Run 53 nachgezogen, Nachtrag 133 statt 109, Inhalt unverändert); 2026-07-14 (Modell-D § 238→§ 238a PBG Divergenz-Fix gegen raw/260607_amtlich_zh_pbg.md, Buch-Run 44); 2026-07-13 (Modell-D-Volltextabgleich §§ 90-95 PBG (Erschliessungsplan-Inhalt, § 93 Ersatzvornahme), §§ 96-101/106/111 PBG (Baulinien/Niveau-/Skilinien-Ergänzung), §§ 114-122 PBG (Werkplan, vorsorgliches Bauverbot § 120, Heimschlag) gegen raw/260607_amtlich_zh_pbg.md, Modell-D Kap. 3 Teil 1; § 62 StrG volltextverifiziert gegen raw/260713_amtlich_zh_strg.md — Buch-Angabe ¼-½ KORRIGIERT (amtlich: lit. c Einzelbeitrag max. ½ der Wertvermehrung/Summe max. ¾ der Kosten, lit. d Trottoir-Anstösserbeiträge Summe max. ½ der Kosten); vorherige Verifikation 2026-07-12: § 264/§ 272/§§ 96-101/§ 266)
-sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 94 PBG", "§ 95 PBG", "§ 96 PBG", "§ 97 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 107 PBG", "§ 108 PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§ 112 PBG", "§ 113 PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§ 121 PBG", "§ 122 PBG", "§ 220 PBG", "§ 234 PBG", "§ 235 PBG", "§ 238a PBG", "§ 253a PBG", "§ 260 Abs. 3 PBG (alt/Anhang)", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV (aufgehoben 11.5.2016)", "§ 15m HWSchV (aufgehoben 01.06.2026)", "§ 20 WsG", "§ 62 lit. c/d StrG", "RRB 39/2010", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_abv.md", "raw/260713_amtlich_zh_strg.md", "raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md", "raw/260824_amtlich_zh_rrb-39-2010-baulinienrevision.md", "raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md", "Buch Bd 2 S. 1022-1061", "Buch Bd 1 Kap. 3, S. 208-239, 221"]
+sources: ["§ 51 Abs. 2 PBG", "§ 66 PBG", "§ 67 PBG", "§ 90 PBG", "§ 91 PBG", "§ 92 PBG", "§ 93 PBG", "§ 94 PBG", "§ 95 PBG", "§ 96 PBG", "§ 97 PBG", "§ 98 PBG", "§ 99 PBG", "§ 100 PBG", "§ 101 PBG", "§ 105 PBG", "§ 106 PBG", "§ 107 PBG", "§ 108 PBG", "§ 110 PBG", "§ 110a PBG", "§ 111 PBG", "§ 112 PBG", "§ 113 PBG", "§ 114 PBG", "§ 115 PBG", "§ 116 PBG", "§ 117 PBG", "§ 118 PBG", "§ 119 PBG", "§ 120 PBG", "§ 121 PBG", "§ 122 PBG", "§ 220 PBG", "§ 234 PBG", "§ 235 PBG", "§ 238a PBG", "§ 253a PBG", "§ 260 Abs. 3 PBG (alt/Anhang)", "§ 264 PBG", "§ 265 PBG", "§ 266 PBG", "§ 267 PBG", "§ 272 PBG", "§ 357 PBG", "§ 33a ABV (aufgehoben 11.5.2016)", "§ 15m HWSchV (aufgehoben 01.06.2026)", "§ 20 WsG", "§ 62 lit. c/d StrG", "RRB 39/2010", "raw/260607_amtlich_zh_pbg.md", "raw/260607_amtlich_zh_abv.md", "raw/260713_amtlich_zh_strg.md", "raw/260824_amtlich_zh_ve-pbg-baulinien-bericht.md", "raw/260824_amtlich_zh_rrb-39-2010-baulinienrevision.md", "raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md", "raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md", "Buch Bd 2 S. 1022-1061", "Buch Bd 1 Kap. 3, S. 208-239, 221"]
 links: [[abstaende-und-hoehen]], [[gebaeudearten-und-abstandssystem]], [[15-lage-von-gebaeuden]], [[15-lage-von-gebaeuden-teil2b]], [[zonenkonformitaet]], [[raumplanung-und-gestaltung]], [[baureife-und-erschliessung]]
 ---
 
@@ -143,9 +148,13 @@ Sicherung bestehender und geplanter Anlagen und Flächen sowie der **baulichen G
   abgeschlossen (KPB-Antrag 02.12.2025, 10:5 für Verabschiedung), die 1. Lesung ist seit
   15.06.2026 abgeschlossen (115:59 Stimmen), die Redaktionskommission wurde am 02.07.2026
   befasst — Schlussabstimmung/Referendumsfrist/Inkraftsetzung im geprüften Bestand noch nicht
-  sichtbar. Quelle nur sekundär (`raw/260824_sekundaer_zh_kantonsrat-geschaeft-6000-baulinien.md`
-  — die offizielle Geschäftsseite `kantonsrat.zh.ch` ist clientseitig gerendert und per WebFetch
-  nicht auslesbar), bei Gelegenheit gegen die Primärquelle nachzuprüfen. Tritt die Vorlage in
+  sichtbar. **Amtlich bestätigt (Buch-Run 136):** der offizielle Web-Service des
+  Kantonsrats-Geschäftsverwaltungssystems (`parlzhcdws.cmicloud.ch`, veröffentlicht über
+  opendata.swiss, Dataset «Organisation und Geschäfte des Zürcher Kantonsrats») liefert die
+  Verfahrensschritte als servergerendertes XML statt der clientseitig gerenderten HTML-Seite
+  und bestätigt alle vier Schritte samt Daten und Abstimmungszahlen wortgleich
+  (`raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md`; Zugriffsweg dokumentiert in
+  `connectors/WEGE.md`). Tritt die Vorlage in
   Kraft, gilt im Baulinienbereich künftig wieder eine eigenständige, engere Regel
   (1. Vollgeschoss und Untergeschosse grundsätzlich freizuhalten, geschlossene Vorsprünge mit
   «untergeordnetem Charakter»). In `wiki/QUESTIONS.md` als aktiv zu überwachender Punkt geführt,

@@ -3,6 +3,46 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 136: Baulinien-Wachposten (KR-Geschäft 6000) amtlich bestätigt über den offiziellen Kantonsrats-Webservice statt des privaten Aggregators
+- ANLASS: Run 135 hatte den Verfahrensstand der PBG-Teilrevision «Baulinien» nur sekundär
+  (Aggregator `inzh.ch`) belegen können, weil die offizielle Geschäftsseite
+  `kantonsrat.zh.ch/geschaefte/geschaeft/` clientseitig gerendert ist und per WebFetch nicht
+  auslesbar war — als «bei Gelegenheit gegen die Primärquelle nachzuprüfen» offen gelassen.
+  Kap. 22/23 (Band 2, letzte echte Buch-Destillat-Lücke) blieben an dieser Station weiterhin
+  ohne Screenshot-Zugriff (SharePoint-Bibliothek `PL - 02_Recht_Norm` unter
+  `~/Library/CloudStorage/` nicht gemountet, beide OneDrive-Wurzeln geprüft) — dieselbe
+  Sackgasse wie in Run 135, deshalb bewusst das offene Baulinien-Thema gewählt.
+  `ps aux`/Elternprozesskette geprüft: kein unabhängiger Konkurrenzlauf aktiv, nur der eigene
+  Prozess (`mschub774`).
+- GEFUNDEN: opendata.swiss führt unter dem Dataset
+  `organisation-und-geschafte-des-zurcher-kantonsrats` den amtlichen XML-Webservice des
+  Kantonsrats-Geschäftsverwaltungssystems (`parlzhcdws.cmicloud.ch`) — anders als die JS-Seite
+  per `curl` direkt abrufbar, keine Anmeldung nötig. Abfrage `krnr=6000` bestätigt **alle vier
+  Ablaufschritte des Run-135-Befunds wortgleich** (Antrag Regierungsrat 18.12.2024, Antrag KPB
+  02.12.2025 10:5 für Verabschiedung, 1. Lesung abgeschlossen 15.06.2026 115:59, Antrag REDKO
+  02.07.2026); keine weiteren Schritte sichtbar, die Vorlage bleibt **nicht in Kraft**. Die
+  bisherige Sekundärquelle war damit inhaltlich bereits richtig, jetzt aber amtlich bestätigt.
+- NEU `raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md` (amtliche Primärquelle,
+  XML-Auszug + Provenienz).
+- GEÄNDERT `wiki/baulinien-und-abstandslinien.md` (Frontmatter `verifiziert`+`sources`,
+  Abschnitt 1a Fassungsstand-Wachposten auf amtlichen Beleg gehoben), `wiki/QUESTIONS.md`
+  (T-NEU-Eintrag amtlich bestätigt, Prüfweg für künftige Sweeps ergänzt),
+  `training/KORPUS-QUEUE-thalwil-reglemente.md` (Run-136-Eintrag).
+- REGISTRIERT `connectors/WEGE.md` (neuer Nachtrag: amtlicher Kantonsrats-Webservice als Weg
+  für Verfahrensstände von KR-Geschäften, mit Testbefehl und Grenze) — Zugriffsweg für
+  künftige Läufe nachschlagbar statt neu zu suchen.
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: durchgehend additiv (neue Raw-Datei
+  ungetrackt; `QUESTIONS.md` 13/7, `baulinien-und-abstandslinien.md` 15/6 — Löschungen sind
+  die ersetzten Wachposten-/Frontmatter-Sätze selbst; `WEGE.md` 41/0 rein additiv;
+  `KORPUS-QUEUE...` 22/0 rein additiv).
+- REPORT `outputs/2026-08-24_buch-run136.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9), unverändert durch
+  diesen Lauf. Verbleibend offen: Kap. 22/23 (Band 2, weiterhin ohne Screenshot-Zugriff an
+  dieser Station), die drei Datenbank-bedingt unverifizierbaren Alt-Fallzitate (VB 94/0016,
+  VB.2003.00051, RB 1992 Nr. 77), [[geschosse-und-kniestock]] als fachlich zurückgestellter
+  Modell-D-Kandidat. Der Baulinien-Wachposten selbst bleibt aktiv zu überwachen (Vorlage noch
+  nicht in Kraft), aber jetzt amtlich statt nur sekundär belegt.
+
 ## 2026-08-24 — Buch-Run 135: Fassungsstand-Wachposten PBG-Teilrevision «Baulinien» (KR-Geschäft 6000) nachgeführt — Kommissionsberatung bereits abgeschlossen, Notiz «weiterhin in Kommissionsberatung» war stale
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen. Zwei parallele
   Baurecht-Läufe mit identischem Prompt liefen zum Zeitpunkt dieses Laufs (`ps aux`: eigener

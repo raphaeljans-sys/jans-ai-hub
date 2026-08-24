@@ -857,6 +857,28 @@ Screenshot-Zugriff distillieren, sonst unverändert die drei Datenbank-bedingt u
 Alt-Fallzitate, [[geschosse-und-kniestock]] und eine Primärquellen-Nachprüfung des
 Baulinien-Wachpostens.
 
+**Run 136 (2026-08-24, ausserhalb T1-T9):** die von Run 135 offen gelassene
+Primärquellen-Nachprüfung des Baulinien-Wachpostens erledigt. Die Screenshot-Quelle für Kap.
+22/23 (Band 2) blieb wie in Run 135 unerreichbar — an dieser Station ist die SharePoint-
+Bibliothek `PL - 02_Recht_Norm` (enthält `SM Planungs und Baurecht`) unter
+`~/Library/CloudStorage/` nicht gemountet, geprüft über beide vorhandenen OneDrive-Wurzeln.
+Stattdessen über opendata.swiss (CKAN-API `package_show`) den offiziellen XML-Webservice des
+Kantonsrats-Geschäftsverwaltungssystems (`parlzhcdws.cmicloud.ch`) gefunden — anders als die
+clientseitig gerenderte Geschäftsseite per `curl` direkt abrufbar. Abfrage `krnr=6000`
+bestätigt **alle vier Verfahrensschritte des Run-135-Befunds wortgleich** (Antrag
+Regierungsrat 18.12.2024, Antrag KPB 02.12.2025 10:5, 1. Lesung 15.06.2026 115:59, Antrag
+REDKO 02.07.2026), keine weiteren Schritte sichtbar — die Vorlage bleibt nicht in Kraft. Die
+bisherige Sekundärquelle (`inzh.ch`) ist damit nachträglich amtlich bestätigt, nicht
+widerlegt. Neue Primärquelle `raw/260824_amtlich_zh_kr-geschaeft-6000-baulinien-cdws.md`,
+eingearbeitet in [[baulinien-und-abstandslinien]] (Frontmatter `verifiziert`+`sources`,
+Abschnitt 1a) und `wiki/QUESTIONS.md` (T-NEU-Eintrag). Zugriffsweg dokumentiert in
+`connectors/WEGE.md` (Nachtrag 24.08.2026), damit künftige Läufe ihn nicht neu suchen müssen.
+Report `outputs/2026-08-24_buch-run136.md`. **Nächster Schritt:** Kap. 22/23 (Band 2) bleiben
+der letzte offene Buch-Destillat-Punkt, weiterhin nur mit Screenshot-Zugriff lösbar (Kandidat
+für eine Station mit gemounteter `PL`-Bibliothek); sonst unverändert die drei
+Datenbank-bedingt unverifizierbaren Alt-Fallzitate und [[geschosse-und-kniestock]] als
+fachlich zurückgestellter Modell-D-Kandidat.
+
 ## Arbeitsregeln je Batch
 
 1. **Fassungsstand zuerst.** Kommunales Recht altert wie kantonales. Vor jeder Übernahme
