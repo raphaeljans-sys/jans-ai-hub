@@ -69,7 +69,7 @@ beziffert), aber ein **anschauliches Referenzbeispiel** für:
    Erdwärmesonde konzeptionell aussieht, inkl. gestalterischer PV-Integration (kein
    "aufgesetztes" PV-Feld).
 2. Suffizienz (kompakte Grundrisse, tiefer Flächenbedarf) als gleichwertigen Hebel neben
-   Bauteil-/Haustechnik-Optimierung — passend zur SIA-2040-Denkweise in `[[energie-uebersicht]]`
+   Bauteil-/Haustechnik-Optimierung — passend zur SIA-2040-Denkweise (SIA 2040:2017, abgeloest per 01.02.2025 durch SIA 390/1:2025) in `[[energie-uebersicht]]`
    (Effizienzpfad Energie, Standardpersonenfläche).
 3. Vorfabrikation (Holzelemente + fertige Bad-/Kuechenmodule) als Zeit-/Kostenhebel bei
    ambitioniertem Energiestandard.

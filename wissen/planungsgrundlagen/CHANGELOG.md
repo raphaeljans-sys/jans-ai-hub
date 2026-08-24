@@ -2,6 +2,58 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-24 — Wissens-Chef Run 42: Brandschutz-Wegweiser-Sweep (erstmals ganzflaechig) + Energie-Editionen
+
+Erster systematischer Durchgang des gesamten Artikels `wiki/brandschutz-pl03-wegweiser.md`
+(rund 2'200 Zeilen, `established`) gegen die KB `normen` — der Uebergabepunkt 1 aus Run 41.
+Fuenf additive Vermerke, keine Zeile verloren (`--numstat` 45/0):
+
+- **§4b, nach Z. 572 — Abstandbefreiung 3'600 m² praezisiert.** Der Wegweiser gab VKF-BSR 15-15
+  Ziff. 2.3.4 verkuerzt wieder: es fehlten **«eingeschossig»** und **«untereinander»**. So gelesen
+  wirkte die Befreiung auch fuer mehrgeschossige Bauten und gegenueber grundstuecksfremden Bauten.
+  Beleg `normen/destillate/vkf-brl-15-15-brandschutzabstaende-tragwerke.md` Ziff. 2.3.4 (S. 6,
+  `established`, beide Fassungen 2015/2017 verifiziert). **Geldfolge:** der Abstand geht direkt in
+  Brandschutznachweis und Baueingabe; §4b traegt bereits einen realen JANS-Anwendungsfall.
+- **§5w, nach Z. 1896 — Blitzschutz Hochhaeuser > 30 m: III/III war der Wert der Ausgabe 2015.**
+  Seit 01.01.2017 lautet Spalte B (innerer Blitzschutz/LEMP) **II**, die einzige geaenderte Zahl
+  der Anhang-Tabelle; Referenznorm neu SNR 464022. Doppelt belegt
+  (`energie/destillate/vkf-richtlinie-22-15-blitzschutzsysteme.md` am VKF-Primaer-PDF 2017,
+  `normen/destillate/vkf-brl-aenderungen-2017.md` S. 28). Der Wegweiser nannte die **zu schwache**
+  Klasse.
+- **§5ac, nach Z. 2052 — der Artikel widersprach seiner eigenen Belegquelle.** §5ac erklaerte die
+  Aenderungen 2017 pauschal fuer «durchgaengig redaktionelle Praezisierungen»; dieselbe
+  AFC-Gegenueberstellung fuehrt «Blitzschutz Hochhaeuser verschaerft» ausdruecklich unter den
+  materiellen Aenderungen. Das ist die gefaehrlichere der beiden Stellen, weil sie das Nachpruefen
+  generell abschaltet.
+- **§5l, nach Z. 1568 — kantonaler Vollzugs-Vorbehalt ZH ergaenzt** (GVZ-Merkblatt 30.17.3 «RWA in
+  Parkhaeusern und Einstellraeumen», gesprinklerte Einstellhallen 1'201-3'600 m²). Bewusst **ohne**
+  Zahlenuebernahme: das Quell-Destillat traegt `status: speculative` und ist nach Rule
+  `normen-referenz` Ziff. 1b Warnkarte, keine Zitierquelle; zudem stuetzt sich das Merkblatt von
+  2011 auf die abgeloeste VKF-RWA-Ausgabe 2003.
+- **§5ac, nach Z. 1999 — Kante zu den beiden BSV-2015-Destillaten** der Normen-KB gesetzt
+  (Auffindbarkeit, spart Doppel-Destillation; macht zugleich die offene Duplikat-Frage sichtbar).
+
+Zusaetzlich zwei Energie-Editionsbefunde (Delta-Paar `energie` ↔ `planungsgrundlagen`):
+
+- **`wiki/energie-heizwaermebedarf-waermeerzeugerleistung.md`, nach Z. 189 (17/0):** EN-102
+  Editionsklaerung. Die hier ausgewertete Vorauflage **Dez. 2018** ist kein Irrtum und keine
+  Verwechslung mit EN-112 — geltend ist **Jan. 2020**, die Grenzwert-Kapitel 2/5/6/7 sind
+  wortgleich. Materiell geaendert hat sich **nur Kapitel 8**, genau das hier zusammengefasste
+  Delta (c): **Free-Cooling ueber Erdsonde/Grundwasser gilt nicht als aktive Kuehlung**, die
+  automatische Sonnenschutzsteuerung ist nur bei eingebauter Kaeltemaschine Pflicht. Diese
+  Erleichterung fehlte in der KB vollstaendig (0 Treffer auf «Free-Cooling»).
+- **`wiki/energie-uebersicht.md` (4/4) und `wiki/energie-minergie-referenzprojekt-maison-climat.md`
+  (1/1):** **SIA 2040:2017 ist seit 01.02.2025 durch SIA 390/1:2025 «Klimapfad» abgeloest.** Die
+  KB fuehrte die Zielwerttabelle mit einem Hedge, der vor der falschen *Auflage* warnte, nicht vor
+  der *Abloesung*, und nannte SIA 390/1 als gleichrangigen Parallelweg statt als Nachfolgenorm.
+  **Geldfolge:** die Tabelle steht unmittelbar neben dem realen JANS-Deliverable (Oekobilanz
+  Wettbewerb «Schlierenweg 31») und ist damit Vorlage fuer Wettbewerbs- und Machbarkeitsbeitraege.
+  Keine Zahl aus SIA 390/1 uebernommen — der Normtext ist kostenpflichtig und nicht eingesehen.
+
+Nullbefund festgehalten: der Vorwurf, die Feuerwehr-Bewegungsflaechen (§ mit 6×11 m / 60 m / 18 t)
+seien unbelegt, ist **widerlegt** — der Vorbehalt steht bereits an vier Stellen, davon einer in der
+Empfaenger-KB `normen`. Kein Eingriff.
+
 ## 2026-08-24 — Entwertungs-Sweep (Uebergabepunkt 2 aus Wissens-Chef Run 41), 2 additive Eingriffe
 
 Run 41 hat den Grassen-Biwak-Benchmark aus **rechnerischen** Gruenden aufgehoben und dabei die

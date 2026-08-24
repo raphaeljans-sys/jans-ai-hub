@@ -4,6 +4,27 @@ Tool-KB (Katalog statt Wiki): dieses Changelog protokolliert Laeufe, Blocker
 und Strukturaenderungen. Der Gesundheits-Indikator ist der Scan-Fortschritt
 (`synobsis_scan.py --status`), nicht die 7 Standard-Audits.
 
+## 2026-08-24 23:30 (Mac Mini Nachtschicht, zweiter Lauf) — Sechs weitere offene Fragen aus QUESTIONS.md recherchiert (Giannaci_Paolo, Hancock_John, Guidotti_Architetti, Killer_Hermes, Kiel_Andrew, Nimbus_Architekten, architectuul)
+
+Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 2
+weiterhin vollstaendig 853/853, `vectors.npz` unveraendert seit 22.08.; Fristen-Register
+fuehrt nur den offenen Git-Sync-Stau als «AKTION Raphael», nichts fuer diesen Lauf).
+Prioritaet 4: `bauprodukte` ist seit 15.08. formal erledigt (kein gueltiges Ziel mehr),
+`energie` wurde im eigenen taeglichen Loop bereits um ~23:15 aktualisiert (Run 162, frische
+Wiki-/Destillate-Mtimes 18:21-23:31) — kein Doppellauf noetig. Auf Prioritaet 5 ausgewichen:
+sieben weitere offene Identitaets-/Sachfragen aus `wiki/QUESTIONS.md` per WebSearch geklaert
+(direkt im Hauptkontext, kein Fan-out).
+
+Fuenf von sieben Fragen mit belastbarem Ergebnis geklaert (Hancock_John als SOM-Gebaeude
+bestaetigt, Guidotti_Architetti als reales Buero Monte Carasso bestaetigt, Kiel_Andrew als
+Sauerbruch-Hutton-Partner bestaetigt, Nimbus_Architekten-Dateiumfang durch das mehrjaehrige
+Einzelprojekt erklaert, architectuul als Architektur-Plattform statt Person bestaetigt); zwei
+bleiben ohne belastbaren Treffer offen (Giannaci_Paolo, Killer_Hermes). Details je Frage mit
+Quellenangabe direkt in `wiki/QUESTIONS.md`. Keine Ordnerumbenennung vorgenommen
+(Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung, keine destruktive Aktion.
+`git diff --numstat` nativ geprueft: 7 Zeilen geaendert / 7 Zeilen (dieselben sieben
+Bulletzeilen additiv erweitert), keine Loeschung von Bestand.
+
 ## 2026-08-24 (Mac Mini Nachtschicht) — Vier weitere offene Fragen aus QUESTIONS.md recherchiert, darunter der moegliche Familienbezug «Haus Jans»
 
 Prioritaeten 1-3 leer/nicht umsetzbar (keine pending remote-/sync-Tasks; Synobsis Stufe 2

@@ -3,6 +3,30 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Wissens-Chef Run 42: SN-Nummer der SIA-Empfehlung 431 berichtigt (SN 409 431 → SN 509 431)
+
+`wiki/bauausfuehrung-und-baukontrolle.md` Z. 161 fuehrte «Baustellen-**abwasser** SIA 431
+(SN 409 431), AWEL-bewilligungspflichtig». Amtlich gilt **SN 509 431**: der Anhang BBV I nennt im
+Wortlaut «Empfehlung SIA 431, Ausgabe 1997, Entwaesserung von Baustellen (Norm SN 509 431)» —
+`raw/260607_amtlich_zh_bbv1.md` Z. 1080; dieselbe amtliche Liste fuehrt zwei Zeilen darueber
+SIA 430 = SN 509 430, eine «SN 409 …» kommt darin nirgends vor. Die Wiki-Zeile widersprach damit
+**ihrem eigenen raw-Beleg**, auf den sie sich ausdruecklich beruft. Bestaetigt durch das
+established-Destillat `normen/destillate/sia-431-1997.md` (Volltext 28 S. gegen Original geprueft
+13.07.2026).
+
+**Ursprung mitkorrigiert, sonst schreibt ihn der naechste Buch-Lauf zurueck:**
+`buecher/band-1/08-ausfuehrung-teil2-baustellensicherheit.md` Z. 71 traegt denselben Dreher. Die
+Buchwiedergabe bleibt unveraendert stehen (offen, ob das Standardwerk ihn selbst druckt — die
+Screenshots liegen auf SharePoint und sind nicht gegengelesen), darunter ein Korrekturvermerk mit
+Nichtzurueckschreib-Auflage. `--numstat`: wiki 9/1 (die eine Loeschung ist die Zeilenersetzung
+selbst), Buch 2/0.
+
+**Aussenwirkung:** SIA 431 ist ueber Ziff. 2.71 Anhang BBV I verbindlich erklaert; die SN-Nummer
+wandert typischerweise in das Normenverzeichnis eines Devis (BKP 130), in einen Werkvertrag
+SIA 118 und in Entwaesserungskonzepte gegenueber dem AWEL. Kein Kostenfehler, aber eine falsche
+Norm-Referenz im Sinne der Rule `normen-referenz`. Kante in `normen/wiki/REGISTER.md` gesetzt,
+damit kuenftige Zitate die geprueften Nummer dort ziehen.
+
 ## 2026-08-24 — Buch-Run 133: [[geschosse-und-kniestock]] — die beiden letzten `speculative`-Fragen der KB geschlossen (IVHB-Leitfaden der Baudirektion Kt. ZH, Kniestockhöhe/Untergeschoss-Messweise)
 - ANLASS: Reglemente-Queue T1-T9 weiterhin vollständig abgeschlossen (Run 87, zuletzt bestätigt
   Run 132). Buch-Run 132 nannte als letzten fachlich zurückgestellten Modell-D-Kandidaten

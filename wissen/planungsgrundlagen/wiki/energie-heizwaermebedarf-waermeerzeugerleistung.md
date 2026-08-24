@@ -188,6 +188,23 @@ Grenzwert), bisher nicht erfasst; (b) **Wärmebrücken-Grenzwerte** Typ 1/2/3/5/
 klassen SIA 342, Verfahren 1-3 nach SIA 180) — komplett neu gegenüber der bereits dokumentierten
 Winterlichen Formelkette.
 
+> ⚠ **Editionsklärung EN-102, 24.08.2026 (Wissens-Chef Run 42, Quelle KB `energie`).** Diese
+> §5-Auswertung stützt sich auf die **Vorauflage Dezember 2018**. Geltend ist die **Ausgabe
+> Januar 2020** (Basis unverändert SIA 380/1:2016). Die Dez.-2018-Fassung war **kein Irrtum und
+> keine Verwechslung mit EN-112 «Kühlräume»** — sie ist eine echte Vorauflage von EN-102 selbst;
+> beide Ausgaben liegen nebeneinander vor (TG-Spiegel = Dez. 2018, energiehub-gebaeude.ch =
+> Jan. 2020). Der Volltext-Diff zeigt: **Kapitel 2, 5, 6 und 7 sind wortgleich, kein einziger
+> U-Wert- und kein Q_H,li-Grenzwert ist betroffen** — die Umbau- und Wärmebrückenwerte oben
+> bleiben gültig. Geändert hat sich **ausschliesslich Kapitel 8**, also genau das oben unter
+> Delta (c) zusammengefasste: **(8.1)** eine automatische Sonnenschutzsteuerung ist nur bei
+> **eingebauter Kältemaschine** Pflicht; **Free-Cooling** über Erdsonde oder Grundwasser sowie
+> das blosse Betreiben von Umwälz- und Förderpumpen gelten **nicht** als aktive Kühlung;
+> **(8.4)** die im Ablaufdiagramm genannten Punkte sind ausdrücklich «Vereinfachungen»,
+> Massstab bleibt der volle SIA-180-Nachweis. Führend: `wissen/energie/destillate/enfk-en-102-waermeschutz-2018.md`,
+> Abschnitt «Zwei Ausgaben — Editionsklärung», und `wissen/energie/destillate/sommerlicher-waermeschutz-sia180-nachweisverfahren.md`
+> (Bauherren-Antwort F258). **Nicht** auf `wissen/energie/outputs/2026-08-24_en-102-ausgabedatum-korrektur.md`
+> abstellen — jenes Dokument trägt die von der eigenen KB zurückgezogene EN-112-Begründung.
+
 **VoHi_EN02 «Wärmeschutz von Gebäuden», Vollzugshilfe Feb. 2013 (Vorgänger von EN-102-d)** —
 kein eigenständiges Delta (durch EN-102-d ersetzt, MJ/m² statt kWh/m², U-Wert-Grenzen weniger
 streng 0.20 statt 0.17); nur für Altbauten mit Baubewilligung vor 2018 relevant. Einzige noch

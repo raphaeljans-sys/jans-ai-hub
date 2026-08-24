@@ -1,6 +1,32 @@
 # CHANGELOG
 
 
+## 2026-08-24 — Wissens-Chef Run 42: Entwertungs-Bringschuld E-R161-3 richtiggestellt (Diagnose umgekehrt)
+
+Der Melde-Agent des Wissens-Chefs hielt die 11 docx + 1 EML aus PL-03 fuer bis heute ungesichtet
+und wollte einen Folgeeintrag «E-R161-3b» oeffnen. Der Verifikations-Agent hat das **widerlegt**:
+PL-03 wurde bereits am **28.07.2026** von `wissen/planungsgrundlagen` als **Vollinventar aller 153
+Dateien** geprueft, jeder Nicht-Treffer inhaltlich geoeffnet
+(`planungsgrundlagen/outputs/2026-07-28_nachaudit-pl03-brandschutz-vollinventar.md`, 145/153
+verarbeitet), Korpus seither unveraendert (`find -newer`, 0 Aenderungen). Es sind exakt dieselben
+153 Dateien. `08 QS/Die feuerpolizeilichen Bedingungen.docx` ist sogar schon am **13.07.2026** als
+private ChatGPT-Notiz zu QSS 1 erkannt und als Nicht-Fund dokumentiert. **Ein neuer offener Punkt
+haette eine abgeschlossene Doppelarbeit bestellt.**
+
+Was vom Befund bleibt, liegt auf der anderen Seite: «vollstaendig geschlossen» ueberzeichnet
+**PL-02**, nicht PL-03 — dort sind fuenf von rund 20 Energie-Kandidaten geoeffnet, die uebrigen
+sind Analogieschluss. Beides als additiver Nachtrag in `wiki/QUESTIONS.md` gesetzt (25/0), samt
+Klarstellung, dass der Zielort fuer PL-03 sehr wohl existiert
+(`planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md`) — dass `brandschutz` nur ein Skill und
+keine `wissen/`-KB ist, heisst nicht, dass kein Zielort da waere.
+
+**Zwei Abnehmer der eigenen Aktualisierungen nachgefuehrt** (Gegenrichtung, in
+`planungsgrundlagen` gesetzt): die **EN-102-Editionsklaerung** aus Run 162 — inklusive der
+Free-Cooling-Erleichterung aus Kapitel 8, die dort vollstaendig fehlte — und die **Abloesung
+SIA 2040:2017 durch SIA 390/1:2025**, die in `planungsgrundlagen` an vier Stellen unvermerkt
+stand. Damit ist der Grassen-Mechanismus aus Run 41 zum zweiten Mal in dieselbe Richtung
+angewandt: die fuehrende KB sucht ihre Abnehmer selbst.
+
 ## 2026-08-24 — Run 162 (automatischer Nachtlauf): A-BLIND auf die zwanzig meistzitierten Destillate — zwei echte Fehler, eine Editionsklärung, ein neuer Fachfund
 
 **Ausgangslage.** Beide PDF-Korpora erschöpft (PL-04 seit Run 150/161, PL-02 seit Run 148); Block 1

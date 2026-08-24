@@ -5768,6 +5768,31 @@ die KB widerspricht sich selbst.
   nachweislich vom zeitgleich laufenden SIA-Sweep dieser KB, ein eigener Checkbox-Abschluss,
   nicht von diesem Edit), `energie/wiki/QUESTIONS.md` dieser Eintrag rein additiv.
 
+  ⚠ **Nachtrag 24.08.2026 (Wissens-Chef Run 42, Verifikation).** Die Formulierung «keine
+  inhaltliche Sichtung» und die Prämisse, der Fund bleibe **ohne Zielort**, sind für **PL-03
+  überholt**. PL-03 wurde bereits am **28.07.2026** von `wissen/planungsgrundlagen` als
+  **Vollinventar aller 153 Dateien** geprüft, jeder Nicht-Treffer inhaltlich geöffnet
+  (`planungsgrundlagen/outputs/2026-07-28_nachaudit-pl03-brandschutz-vollinventar.md`, Z. 5-19:
+  145/153 verarbeitet); der Korpus ist seither unverändert (`find -newer`, 0 Änderungen, belegt
+  `planungsgrundlagen/wiki/QUESTIONS.md` Z. 847/851). Es sind exakt dieselben 153 Dateien.
+  Zuständiger Zielort ist der Artikel `planungsgrundlagen/wiki/brandschutz-pl03-wegweiser.md`
+  (`established`) samt Abschnitt «C — Brandschutz» in jener QUESTIONS — dass `brandschutz` nur
+  ein Skill und keine `wissen/`-KB ist, heisst nicht, dass kein Zielort existiert. Namentlich
+  erledigt: `08 QS/Die feuerpolizeilichen Bedingungen.docx` ist am **13.07.2026** als private
+  ChatGPT-Erklärungsnotiz zu QSS 1 erkannt und als Nicht-Fund dokumentiert
+  (`planungsgrundlagen/outputs/2026-07-13_training-run28.md` B22, gespiegelt in dessen
+  QUESTIONS Z. 1364); `Re- Biwak.eml` am 28.07.2026 als reine Terminabsprache, Fachinhalt im
+  längst ausgewerteten Anhang. **Keine offene Sichtungspflicht, kein Folgeeintrag.** Ungeprüft
+  bleibt einzig `00 Brandschutznachweis.ch/LINK_Brandschutznachweise.docx`, ein Link-Träger.
+
+  ⚠ **Präzisierung zum «vollständig geschlossen» oben (24.08.2026, Run 42).** Das Wort
+  «vollständig» trägt für die **filterlose Zählung** aller drei Bibliotheken. Die zweite Hälfte
+  des Auftrags («dann die Nicht-PDF-Quellen einzeln») ist für **PL-02** bewusst nur
+  repräsentativ erfüllt — fünf von rund 20 Energie-Kandidaten geöffnet, die unter «Nicht
+  geöffnet» gelisteten Dateien und die Formularfamilie sind Analogieschluss, kein Einzelbeleg
+  (siehe Z. 5195-5201 desselben Eintrags). Der Rest-Vorbehalt liegt also bei PL-02, nicht bei
+  PL-03.
+
 ## 2026-08-24 (interaktive Session, Fortsetzung) — zwei übersehene Themenartikel nachgerüstet, Backlink-Hygiene-Register (Run 123) abschliessend bereinigt
 
 - [x] **A-P2 02.17 war entgegen der vorigen Abschlussmeldung noch nicht ganz vollständig: zwei

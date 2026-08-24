@@ -1,3 +1,20 @@
+## 2026-08-24 — Wissens-Chef Run 42: SN 509 431 im REGISTER nachgetragen (Bring-Schuld aus KB `baurecht`)
+
+Die Zeile SIA 431 fuehrte bisher keine SN-Nummer. Nachgetragen: **SN 509 431**, belegt am
+amtlichen Wortlaut des Anhangs BBV I Ziff. 2.71 (`baurecht/raw/260607_amtlich_zh_bbv1.md` Z. 1080).
+Anlass: `baurecht/wiki/bauausfuehrung-und-baukontrolle.md` fuehrte «SN 409 431» — ein Zahlendreher
+aus dem Buch-Destillat, dort und in der Wiki-Zeile im selben Lauf berichtigt. Damit zieht jedes
+kuenftige Zitat die Nummer aus dem Register statt aus dem Buchtext. `--numstat` 1/1
+(Zeilenersetzung).
+
+Ausserdem in diesem Lauf **gegen** die KB gemessen, ohne Eingriff hier: der
+Brandschutz-Wegweiser der KB `planungsgrundlagen` wurde erstmals ganzflaechig gegen die
+Destillate dieser KB geprueft (BSR 15-15 Ziff. 2.3.4, BSR 22-15 Blitzschutz-Anhang,
+BSV-2015-Vernehmlassungsbericht, GVZ-RWA). Vier Befunde, alle auf der Wegweiser-Seite korrigiert;
+Einzelheiten im `planungsgrundlagen`-CHANGELOG desselben Datums. Bestaetigt hat sich dabei die
+Wirksamkeit der `speculative`-Sperre nach Rule `normen-referenz` Ziff. 1b: das GVZ-Destillat
+durfte den Vorbehalt begruenden, aber keine Zahl liefern.
+
 ## 2026-08-24 — SIA-Sweep: fünfzehnte Sättigungsverifikation (10:38 Uhr) — weiterhin 59 Register-/6 Inventar-Zeilen offen, keine Änderung
 
 

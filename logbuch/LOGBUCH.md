@@ -8347,3 +8347,23 @@ Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, kei
 keine destruktive Aktion. Budget dieses Zyklus: rund 2.2 von 5 USD.
 
 - 2026-08-24 07:07 (Widerrufs-Queue) ausgefuehrt 260823-085517-38206 — 3. Nachfassen Massaufnahme innere Verglasung, KISPI PPTS Los 274.01 (Frist Di 25.08.)
+
+## Nachtschicht Mac Mini 24.08.2026 (23:30-Fenster)
+
+Prioritaeten 1-3 leer/nicht umsetzbar: kein `remote-tasks/pending/`, `sync-tasks/mac-mini/`
+leer; Synobsis Stufe 2 weiterhin vollstaendig (853/853, `vectors.npz` seit 22.08. unveraendert);
+Fristen-Register fuehrt nur den offenen Git-Sync-Stau NAS↔GitHub als «AKTION Raphael» (Merge-
+Entscheid ueber fremde unbestaetigte Arbeit, kein Claude-Handlungsspielraum nach Rule
+`auto-verbesserungen` 260811). Prioritaet 4: `bauprodukte` seit 15.08. formal erledigt (kein
+gueltiges Ziel mehr), `energie` bereits im eigenen taeglichen Loop um ~23:15 aktualisiert
+(Run 162, committet) — kein Doppellauf.
+
+Auf Prioritaet 5 ausgewichen: sieben weitere offene Fragen aus
+`wissen/architekten-synobsis/wiki/QUESTIONS.md` per WebSearch geklaert (Giannaci_Paolo,
+Hancock_John, Guidotti_Architetti, Killer_Hermes, Kiel_Andrew, Nimbus_Architekten,
+architectuul). Fuenf mit belastbarem Ergebnis bestaetigt, zwei (Giannaci_Paolo, Killer_Hermes)
+ohne Treffer offen geblieben. Details: `wissen/architekten-synobsis/CHANGELOG.md`
+2026-08-24 23:30 (Mac Mini Nachtschicht, zweiter Lauf).
+
+Keine Ordnerumbenennung (Freigabesache Raphael), kein Fan-out, kein Versand, keine Buchung,
+keine destruktive Aktion. Budget dieses Zyklus: rund 1.6 von 5 USD.

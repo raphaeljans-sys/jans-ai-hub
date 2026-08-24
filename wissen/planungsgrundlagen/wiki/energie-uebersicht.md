@@ -30,7 +30,7 @@ Feuerwehr ≥30 kW, Hagel/Schnee SIA 261); Bauteil-Klassen → Skill `brandschut
 Grenzwerte, Q_H und Bauteilkatalog liegen **belegt in der KB `wissen/energie/`** — nicht hier
 duplizieren:
 - U-Wert-Grenzwerte je Bauteil (Einzelbauteil- vs. Systemnachweis) → `[[u-werte-grenzwerte-ch]]`
-  (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102 2018 / SIA 380/1:2016 — Werte
+  (Neubau opak 0,17 · Fenster 1,0 W/m²K usw., EnFK EN-102, geltende Ausgabe Jan. 2020 — die hier ausgewertete Vorauflage Dez. 2018 ist in den Grenzwert-Kapiteln zahlengleich, Editionsklärung → `wissen/energie/destillate/enfk-en-102-waermeschutz-2018.md` — / SIA 380/1:2016 — Werte
   unverändert; Ausgabe korrigiert, Wissens-Chef Run 15 25.07.2026, PDF-Kopfzeile).
 - Minergie-Standards → `[[minergie-standards]]`. Bauteilkatalog/Dämmstoffwahl, CLT/Holz
   (Stora Enso) → PL-04/`U Wert berechnung`. Reales Minergie-A-Referenzprojekt (Holzbau,
@@ -210,7 +210,7 @@ Hebel — und sie kommt **rechtlich**: Pa.Iv. 20.433 verpflichtet die Kantone, k
 Abs. 3 lit. e EnG) **Grenzwerte für graue Energie** festzulegen (kommende MuKEn 2025-Umsetzung).
 Heute im Vollzug nur über Labels: **Minergie-ECO** (THGE-Nachweis vereinfacht im Minergie-Tool
 **oder** rechnerisch via Minergie-ECO-Tool; Basis **SIA 2032 + KBOB-Ökobilanzdaten**, Lebensdauer
-60 J), **SNBS**, **SIA 390/1 Klimapfad**. **Methodik/Kennwerte/9 Reduktionshebel → KB
+60 J), **SNBS**, **SIA 390/1:2025 «Klimapfad»** (seit 01.02.2025 in Kraft, **Nachfolgenorm von SIA 2040:2017**, kein Parallelweg). **Methodik/Kennwerte/9 Reduktionshebel → KB
 `wissen/energie/`** (`[[graue-energie]]`, `[[minergie-standards]]`) — hier kein Doppel, nur die
 beschaffbare Planungsgrundlage + das reale JANS-Deliverable:
 
@@ -218,7 +218,7 @@ beschaffbare Planungsgrundlage + das reale JANS-Deliverable:
   kWh/m²·a Primärenergie nicht erneuerbar):** Erstellung **30** (Neubau) / 20 (Umbau) · Betrieb
   **60 / 70** · Mobilität **30 / 30**; Zielwert E+B-Zusatzanforderung **~90**. Bei Belegungs-
   vorschriften höher (Erstellung 30/20 · Betrieb 90/100 · Mobilität 40/40). Quelle PL-04/
-  `_Heizwaermebedarf` (SIA 2040 Tab. 3/4) — ⚠ Edition vor Zitat verifizieren, Tiefe → `[[graue-energie]]`.
+  `_Heizwaermebedarf` (SIA 2040 Tab. 3/4) — ⚠⚠ **SIA 2040:2017 ist abgeloest**: die Norm **SIA 390/1:2025 «Klimapfad — Treibhausgasbilanz über den Lebenszyklus von Gebäuden»** ist seit **01.02.2025** publiziert und ersetzt SIA 2040:2017 samt Korrigendum SIA 2040-C1 (Zentralkommission Normen SIA, 05.12.2024). Die Zielwerte oben **nicht mehr als geltende Anforderung zitieren** — sie bleiben als historischer Bezugsrahmen und für laufende Vorgaben stehen. Fundstelle und Verifikationsstand: `wissen/normen/wiki/REGISTER.md` Z. 1082/1083 (am Herausgeber geprüft 24.08.2026); Tiefe → `[[graue-energie]]`. ⚠ Der Normtext SIA 390/1 ist kostenpflichtig und **nicht eingesehen** — belegt sind nur Status und Bibliografie, **keine Zahlenwerte**. *(Wissens-Chef Run 42, 24.08.2026.)*
 - **JANS-Benchmark — Ökobilanz Wettbewerb «Schlierenweg 31»** (ZPF Ingenieure, Remo Thalmann,
   28.03.2022): Ziel = **rechnerische Amortisation der grauen Energie aus der Erstellung mittels
   PV-Ertrags-Überschuss in unter 30 Jahren**. Zielwerte Erstellung inkl. PV-Anteil **THGE
@@ -251,7 +251,7 @@ kantonsrat.zh.ch oder ein AWEL-Faktenblatt diesen «2027»-Zielwert amtlich best
 - ✓ **D7 erledigt** (2026-06-26): Private Kontrolle Energie ZH → `[[energie-private-kontrolle-zh]]`.
 - ~ **D5 teil-erledigt** (2026-06-18): Benchmark-Tabelle Typ A/E/Flachdach belegt; Typ B/C/D offen.
 - ~ **D8/D1 teil** (2026-07-04): graue-Energie-Planungsgrundlage + MuKEn-2025-Neuerungen belegt
-  (SIA 2040 + JANS-Benchmark; MuKEn 2025 = THG-Grenzwert nach Minergie-Reglement, Eigenstrom
+  (SIA 2040:2017 — abgeloest per 01.02.2025 durch SIA 390/1:2025 — + JANS-Benchmark; MuKEn 2025 = THG-Grenzwert nach Minergie-Reglement, Eigenstrom
   20 W/m²); konkreter **ZH-Grenzwert** nachziehen, sobald kant. Gesetz/Verordnung publiziert.
   **Refresh 2026-07-14 (Run 38):** weiterhin kein amtlich publizierter ZH-Grenzwert (gekoppelt an
   die ebenfalls unverändert ausstehende ZH-Überführung der MuKEn 2025, siehe §Datenstand oben);

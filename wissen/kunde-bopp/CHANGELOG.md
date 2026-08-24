@@ -2,6 +2,34 @@
 
 Jede Aenderung des Bibliothekars, datiert, neueste zuoberst.
 
+## 2026-08-24 — Wissens-Chef Run 42: Giebelweg-12-Baumassenreserve in QUESTIONS.md berichtigt
+
+`wiki/QUESTIONS.md` fuehrte in der **«beantwortet»-Sektion** den Stand «volle Attika
+budgetkonform, **Reserve 8 m³**» — das ist der am 12.06.2026 **verworfene** Zwischenstand ueber ein
+ausgemitteltes massgebendes Terrain. Die Ausmittelung ueber den Fussabdruck ist unzulaessig, weil
+sie die talseitigen Ecken schoent; `wiki/projekt-giebelweg12.md` Z. 18-24 haelt genau das fest und
+nennt den geltenden Endstand vom 13.06.2026 (Nachweis Version 3): Attika **128.9 m²**,
+**1'162 m³ anrechenbar, Reserve 105 m³**. Beleg am Original, nicht am Destillat: PROJEKT-STAND.md
+im Projektordner (Z. 56, 95-96) nach Rule `projekt-ablage-stand`.
+
+Die Nachfuehrung vom 30.07.2026 (Run 21) hatte nur `wiki/projekt-giebelweg12.md` und den Output
+erfasst, **diese Datei nicht** — die falsche Zahl stand seither an der Stelle, die ein spaeterer
+Lauf als gesicherte Antwort zitiert. Erschwerend: derselbe Absatz wurde am 24.08.2026 angefasst
+(Nachtrag zur ausstehenden Gemeindeantwort), die Zahl daneben blieb stehen. Korrektur additiv
+(14/0), der alte Eintrag bleibt als Historie.
+
+**Aussenwirkung:** die Reserve ist die Kernzahl der Machbarkeitsstudie und der Grundlage, auf der
+am 30.06.2026 die Einwendung gegen die Baulinien-Festsetzung an die Gemeinde Langnau a/A
+eingereicht wurde. 8 m³ statt 105 m³ ist der Unterschied zwischen «am Anschlag» und «belastbarer
+Spielraum»; die dahinterliegende Ausmittelungs-Methode waere gegenueber der Behoerde nicht haltbar.
+
+Cross-KB-Nullbefund im selben Lauf bestaetigt: `kunde-bopp` ↔ `projekt-lessons` beruehren sich
+inhaltlich nicht (0 Treffer beidseitig). Das ist korrekte Scope-Trennung, kein Mangel — der
+Rueckfluss aus Giebelweg 12 ist an den Skill `massgebendes-terrain` gegangen, nicht an
+`projekt-lessons`. ⚠ Die Begruendung «projekt-lessons ist auf Bauleitung/Healthcare **begrenzt**»
+ueberzeichnet allerdings dessen CLAUDE.md («**Schwerpunkt**», dazu «Kosten & Termine» und
+«Behoerden & Bewilligungen») und darf kuenftig nicht als Ausschlussgrund zitiert werden.
+
 ## 2026-08-19 (Wissenscheck, Nachtschicht Mac Mini, Phase 1) — A1 · B5 · C0 · D0 · E0 · F1 · G2
 
 - Health-Check-Report abgelegt: `outputs/2026-08-19_health-check.md`. KB seit 03.08.

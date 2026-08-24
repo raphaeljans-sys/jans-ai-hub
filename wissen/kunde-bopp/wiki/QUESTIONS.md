@@ -64,6 +64,20 @@
   per 24.07.2026 noch aus, und war auch bei erneuter Prüfung am 24.08.2026 weiterhin nicht
   eingetroffen** (kein neuer Ordner/keine neue Datei im Korrespondenzordner seit 30.06.2026).
   Details in [[projekt-giebelweg12]], Report `outputs/2026-07-24_giebelweg12-projektstand.md`.
+  ⚠ **Korrektur 24.08.2026 (Wissens-Chef Run 42).** Die oben genannte Zahl «volle Attika
+  budgetkonform, Reserve 8 m³» ist der am 12.06.2026 **verworfene** Zwischenstand über ein
+  **ausgemitteltes** massgebendes Terrain; eine Ausmittelung über den Fussabdruck ist unzulässig,
+  weil sie die talseitigen Ecken schönt. Geltend ist der Endstand vom 13.06.2026 (Nachweis
+  Version 3): Attika regelkonform **128.9 m²**, **1'162 m³ anrechenbar, Reserve 105 m³** — siehe
+  [[projekt-giebelweg12]] Z. 18-24 und die Projekt-Wahrheit `AR - 03 Studien/2621 Giebelweg 12/
+  09_Dokumente/CLAUDE/Berichtsskelett UND PROJEKT-STAND/PROJEKT-STAND.md` (Z. 56, 95-96) gemäss
+  Rule `projekt-ablage-stand`. Der Eintrag oben bleibt als Historie stehen. Die Nachführung vom
+  30.07.2026 (CHANGELOG, Run 21) hatte nur `wiki/projekt-giebelweg12.md` und den Output erfasst,
+  diese Datei nicht — die falsche Zahl stand seither in der «beantwortet»-Sektion, also genau
+  dort, wo ein späterer Lauf sie als gesicherte Antwort zitiert. Relevanz: die Reserve ist die
+  Kernzahl der Machbarkeitsstudie und der Grundlage der Einwendung vom 30.06.2026 an die
+  Gemeinde Langnau a/A; 8 m³ statt 105 m³ ist der Unterschied zwischen «am Anschlag» und
+  «belastbarer Spielraum».
 - **Drittes/viertes KMU-Vehikel** — beantwortet 2026-07-21: **Feag Facility Engineering AG**,
   Zürich (UID CHE-108.531.313), Familienunternehmen (Bauphysik/-akustik/Energie, Facility
   Management). Christoph Bopp seit Jan. 2003 im Vorstand (Wiedereintritt Juli 2010), seit
