@@ -1,5 +1,52 @@
 # CHANGELOG
 
+## 2026-08-24i — A-BLIND: `minergie-besser-planen-bauen` Nichtwohnbau-Limiten am Produktreglement 2026.1 gelesen, `ecobkp-2026-methodik-und-uebersicht` + E-R161-2 gegengeprüft (kein neuer Fund)
+
+Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, belegt mit Quelle und Datenstand,
+danach in die Wiki-Artikel einarbeiten. **Betriebslage:** `ps aux` zeigte beim Start mehrere
+parallele `claude -p`-Läufe, davon mindestens einen weiteren `energie`-Lauf mit eigenem, aktiv auf
+dieselben Dateien (`CHANGELOG.md`/`QUESTIONS.md`) schreibendem Prozess (anderer Laufname als der
+eigene) — dessen fertig geschriebener, aber noch unversionierter Stand («h», A-WERKZEUG) wurde beim
+Start dieses Laufs zuerst committet, um ihn vor Kollisionen zu sichern. Anschliessend bewusst einen
+anderen Faden gewählt: den A-BLIND-Kandidaten `minergie-besser-planen-bauen` (27 Backlinks) aus der
+Kandidatenliste des Vorlaufs «g», statt des vermutlich vom Sibling zuerst gegriffenen
+`kaeltemittel-r290-waermepumpen-ch`.
+
+**Vorab zwei Kandidaten gegengeprüft, kein neuer Fund:** `ecobkp-2026-methodik-und-uebersicht` ist
+bereits seit drei Läufen desselben Tages vollständig geschlossen (alle Offene-Punkte-Einträge ✓,
+nur E-R230-2/Raphael-Entscheid offen); E-R161-2 (Stora-Enso-λ-Diskrepanz 0,12 vs. 0,110 W/mK) am
+Original selbst (178-S.-PDF, Dropbox-Kopie, PyPDF2 vollständig gelesen) bestätigt exakt den bereits
+in FAQ F15 seit Run 161 dokumentierten Befund — beide Werte stehen im selben Dokument, S. 6 (Normzitat)
+vs. S. 41ff. (Bauteilkatalog-Tabellenwert).
+
+**Hauptfund:** `minergie-besser-planen-bauen` — Primärquelle «Produktreglement Gebäudestandards
+MINERGIE/-P/-A», Version 2026.1 (Ausgabe 08.01.2026, gültig ab 01.01.2026, minergie.ch, 52 S.,
+vollständig mit PyPDF2 gelesen). Drei Befunde: (1) keine fixe MKZ-kWh/m²-Tabelle je
+Nichtwohnbau-Kategorie — die Kennzahl ist stets projektspezifisch berechnet; (2) Heizwärmebedarf-
+Prozentsatz (90/70/90 %) gilt einheitlich für alle Kategorien, nicht gestaffelt; (3) der
+Elektrizitäts-Standardbedarf (Beleuchtung/allg. Gebäudetechnik/Geräte) ist dagegen klar
+kategorieabhängig — vollständige Tabellen Kat. III-XI eingearbeitet, Kat. XII (Hallenbad) ohne
+Standardwert. Nicht lösbar: q_E50-Luftdichtheitstabelle für Zweckbauten (S. 13) aus der
+PDF-Textextraktion nicht sauber auslesbar (Tabellenlayout-Grafik) — bewusst nicht geschätzt, als
+neuer offener Punkt vermerkt statt erfunden.
+
+Eingearbeitet: `destillate/minergie-besser-planen-bauen.md` (neuer Abschnitt, Frontmatter
+`last_updated`, Offene-Punkte-Liste aktualisiert), `destillate/INDEX.md` (Registerzeile ergänzt),
+`wiki/minergie-standards.md` (neuer Kurzabschnitt mit Verweis, keine Volltabellen-Dopplung).
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — `kaeltemittel-r290-waermepumpen-ch` (29) und
+`minergie-zertifizierung-workflow` (23) weiterhin ungeprüft (vor Bearbeitung `git log`/`ps aux`
+prüfen wegen paralleler Läufe); `innendaemmung-altbau-bauphysik-ch` (23) unverändert blockiert
+(SMGV-Merkblatt 70 kostenpflichtig). Neuer eigenständiger Punkt: q_E50 Nichtwohnbau-Luftdichtheit
+im Produktreglement 2026.1 S. 13 direkt am Bildschirm statt per Textextraktion prüfen. Unverändert
+blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016 (Normkauf).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/minergie-besser-planen-bauen.md`
++57/-2, `destillate/INDEX.md` +1/-1, `wiki/minergie-standards.md` +11/-0, `wiki/QUESTIONS.md`
++~50/-0 — durchgehend additiv/präzisierend, keine Löschung von Bestand. `git status`/`git fetch` vor
+jedem Schreibvorgang geprüft: keine gleichzeitige Fremdänderung an den editierten Dateien während
+der Bearbeitung.
+
 ## 2026-08-24h — A-WERKZEUG: 14 Alterskorpus-Kandidaten gegen FAQ-Zitierstellen geprüft, eine echte Propagations-Lücke (Duschwasser-WRG-Kosten) behoben
 
 Auftrag: weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten. **Betriebslage:** `ps aux` zeigte

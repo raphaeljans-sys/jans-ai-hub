@@ -6278,3 +6278,132 @@ Bestand ausserhalb der korrigierten Stelle). Die Datei wurde von diesem Lauf zwi
 den launchd-Auto-Sync committet (`auto-sync [Macmini]`, gemeinsam mit unabhängigen Änderungen des
 parallelen `normen`-Laufs) — Edit vor dem Commit über `grep` im committeten Stand verifiziert, kein
 Verlust.
+
+## 2026-08-24i — A-BLIND: `minergie-besser-planen-bauen` — Nichtwohnbau-Limiten am Produktreglement 2026.1 gelesen (Beleuchtungs-/AGT-/Geräte-Standardbedarf je Kategorie)
+
+Anschluss an den offenen A-BLIND-Kandidaten `minergie-besser-planen-bauen` (27 Backlinks, aus dem
+Vorlauf «g» als nächster Kandidat benannt). **Betriebslage:** `ps aux` zeigte beim Start mindestens
+einen weiteren parallelen `energie`-Lauf (andere PID/Laufname) sowie einen `normen`-Lauf — bewusst
+den zuletzt im CHANGELOG genannten dritten Kandidaten (`ecobkp-2026-methodik-und-uebersicht`) zuerst
+geprüft, bevor dieser hier gewählt wurde, um eine Kollision zu vermeiden.
+
+- [x] **`ecobkp-2026-methodik-und-uebersicht` geprüft, kein neuer Fund:** das Destillat ist bereits
+  seit dem 24.08.2026 (drei Läufen desselben Tages) vollständig geschlossen — alle «Offene
+  Punkte»-Einträge tragen ✓, einzig E-R230-2 (Raphael-Entscheid) bleibt offen. Keine Bearbeitung nötig.
+- [x] **E-R161-2 (Stora-Enso-λ-Diskrepanz) am Original bestätigt, kein neuer Fund:** die im
+  Bauteilkatalog-Destillat verlinkte PDF («CLT by Stora Enso — Technical documentation — Building
+  physics», Ausgabe 06.2021, 178 S., Dropbox-Kopie `YORCK/_Archiv/2408 WB BIWAK/07 Referenzen/_clt/`
+  vollständig mit PyPDF2 gelesen) bestätigt exakt, was die FAQ F15 seit Run 161 (23.08.2026) bereits
+  präzise dokumentiert: S. 6 nennt **0,12 W/mK** als EN-ISO-10456-Normzitat (Kap. 1, Einleitungstext),
+  S. 41ff. führt für die Tragschicht C3s/L5s im Bauteilkatalog (Kap. 4) durchgehend **0,110 W/(mK)**
+  — ein Dokument, zwei Kapitel, keine Auflösung dazwischen. Kein Widerspruch zur bestehenden
+  KB-Aussage, keine Änderung nötig.
+- [x] **`minergie-besser-planen-bauen` — Nichtwohnbau-Limiten geschlossen.** Primärquelle: «Produkt-
+  reglement Gebäudestandards MINERGIE®/MINERGIE-P®/MINERGIE-A®», Version 2026.1, Ausgabe 08.01.2026,
+  gültig ab 01.01.2026 (`minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf`, 52 S.,
+  vollständig mit PyPDF2 gelesen). **Drei Befunde:**
+  1. Es existiert **keine fixe kWh/m²-MKZ-Grenzwerttabelle je Nichtwohnbau-Kategorie** — die MKZ wird
+     stets projektspezifisch berechnet (Anhang B1/B2, S. 9f.). Das deckt sich mit dem bereits am
+     21.07.2026 in `[[minergie-standards]]` dokumentierten Befund für Wohnen MFH (51/46/29 als
+     Planungsbroschüren-Richtwert) — gilt also auch für Zweckbauten, war für diese aber noch nicht
+     explizit belegt.
+  2. **Heizwärmebedarf-Prozentsatz (90 %/70 %/90 % Neubau) gilt einheitlich für alle Gebäudekategorien**
+     (S. 12f.) — nicht nach Nutzung gestaffelt, einzige Ausnahme Kat. XII Hallenbäder.
+  3. **Elektrizitäts-Standardbedarf ist dagegen klar kategorieabhängig** (S. 30f., Basis SIA 387/4:2022
+     bzw. SIA 2056:2019): vollständige Tabellen für Beleuchtung/allg. Gebäudetechnik/Geräte je
+     Kategorie III (Verwaltung) bis XI (Sportbauten), Kat. XII (Hallenbad) ohne Standardwert.
+     Eingearbeitet in `destillate/minergie-besser-planen-bauen.md` (neuer Abschnitt, Frontmatter
+     `last_updated`), `destillate/INDEX.md` (Zeile ergänzt), `wiki/minergie-standards.md` (neuer
+     Kurzabschnitt mit Verweis, keine Volltabellen-Dopplung).
+  **Nicht lösbar:** die q_E50-Luftdichtheitstabelle für Zweckbauten (S. 13) liess sich aus der
+  PDF-Textextraktion nicht sauber auslesen (Tabellenlayout-Grafik) — bewusst nicht geschätzt, als
+  neuer offener Punkt im Destillat vermerkt statt erfunden.
+
+**Für den nächsten Lauf:** A-BLIND-Bestand — `kaeltemittel-r290-waermepumpen-ch` (29) und
+`minergie-zertifizierung-workflow` (23) weiterhin ungeprüft (sofern nicht bereits vom parallelen
+Lauf gegriffen — vor Bearbeitung `git log`/`ps aux` prüfen); `innendaemmung-altbau-bauphysik-ch`
+(23) unverändert blockiert (SMGV-Merkblatt 70 kostenpflichtig). Neuer, eigenständiger Punkt: q_E50
+Nichtwohnbau-Luftdichtheit im Produktreglement 2026.1 S. 13 direkt am Bildschirm statt per
+Textextraktion prüfen. Unverändert blockiert: E-R230-2 (Raphael), 393/394 (OCR-Werkzeug), SIA 380/1:2016
+(Normkauf).
+
+`git diff --numstat` nach jedem Schreibvorgang geprüft: `destillate/minergie-besser-planen-bauen.md`
++57/-2, `destillate/INDEX.md` +1/-1, `wiki/minergie-standards.md` +11/-0 — durchgehend
+additiv/präzisierend, keine Löschung von Bestand. Vor dem Schreiben `git status`/`git fetch` geprüft:
+keine gleichzeitige Fremdänderung an den editierten Dateien während der Bearbeitung.
+
+## 2026-08-24i — A-WERKZEUG-Alterskorpus-Liste: die sechs reinen Themenartikel-Kandidaten geprüft, Koordinationslücke zwischen zwei Parallelläufen dokumentiert
+
+Auftrag: weitere offene Fragen abarbeiten, belegt mit Quelle und Datenstand. **Betriebslage:** `ps
+aux` zeigte beim Start zwei weitere `claude -p`-Prozesse mit demselben energie-Prompt (eine davon
+länger laufend, PID mit mehr CPU-Zeit) sowie einen dritten für `wissen/normen` — bewusst nicht
+denselben Faden wie der andere laufende energie-Prozess gewählt, um keine Kollision auf denselben
+Dateien zu erzeugen.
+
+Anschluss an den zuletzt committeten Eintrag («2026-08-24h», 14 von ~30 Alterskorpus-Kandidaten aus
+`datenstand-waechter.py` einzeln geprüft, 16 Kandidaten für den nächsten Lauf benannt: `2000-watt-
+gesellschaft-sieben-thesen-ahb`, `ahb-bedingungen-werkleistungen-nachhaltiges-bauen`,
+`ahb-checkliste-raumluftmessungen`, `ahb-checkliste-solarstromanlagen-2008`,
+`glasbauten-hoher-glasanteil-sia2021`, `sonnendach-solarpotenzial-bfe`, `sunskin-roof-indach-
+planung`, `zev-eigenverbrauch-mfh-her-2025`, `elektromobilitaet-ladeinfrastruktur`,
+`solarwaerme-warmwasser`, `notstromversorgung-sicherheitsstromversorgung`, `innendaemmung`,
+`geak-gebaeudeenergieausweis`, `pv-eigenverbrauch-zev`, `pv-ertrag-eigenverbrauch-praxis`,
+`gebaeudeschadstoffe-checkliste-zh`).
+
+**Beim Abarbeiten zeigte sich eine Koordinationslücke:** acht der 16 benannten Kandidaten
+(`ahb-checkliste-solarstromanlagen-2008`, `ahb-bedingungen-werkleistungen-nachhaltiges-bauen`,
+`ahb-checkliste-raumluftmessungen`, `glasbauten-hoher-glasanteil-sia2021`,
+`sonnendach-solarpotenzial-bfe`, `sunskin-roof-indach-planung`, `zev-eigenverbrauch-mfh-her-2025`,
+`gebaeudeschadstoffe-checkliste-zh`) waren bereits am selben Tag in einem früheren, eigenen Eintrag
+weiter oben in dieser Datei («A-WERKZEUG-Alterskorpus-Liste gegen FAQ-Propagation geprüft: kein
+neuer Fund») einzeln gegen ihre FAQ-Zitierstellen geprüft und als sauber dokumentiert worden — der
+h-Lauf hatte diese frühere, ebenfalls heutige Session nicht gegen seine eigene Fundliste
+abgeglichen (vermutlich weil er nur den zuletzt committeten CHANGELOG-Stand las, nicht den vollen
+Tagesbestand dieser Datei). Ich habe alle acht trotzdem nochmals mit `grep -n "\[\[<slug>\]\]"
+wiki/BAUHERREN-FAQ.md` und Kontext geprüft — **Ergebnis bestätigt: clean, kein neuer Fund** — aber
+keine Datei verändert, da bereits erledigt.
+
+**Die verbleibenden sechs Kandidaten sind reine Wiki-Themenartikel** (liegen nur unter `wiki/`, kein
+eigenes Destillat gleichen Namens): `geak-gebaeudeenergieausweis`, `innendaemmung`,
+`notstromversorgung-sicherheitsstromversorgung`, `pv-eigenverbrauch-zev`, `solarwaerme-warmwasser`,
+`elektromobilitaet-ladeinfrastruktur`. Das Werkzeug meldet sie unabhängig von einer FAQ-Zitierstelle
+allein wegen ihres Alters (Regel 2, `sammlung is wiki` greift ohne Zitat-Bedingung). Genau dieser
+Fall — «ob die Warnungen an den Wiki-Themenartikel-Zitierstellen ebenso vollständig sind» — war in
+der 5353-Session ausdrücklich als eigener, kleinerer Nachlauf offen gelassen worden (Zitat dort:
+«bliebe ein eigener, kleinerer Nachlauf»). Alle sechs einzeln geprüft, an ihrer jeweils ältesten
+Quellenangabe:
+- `innendaemmung.md` (datenstand 2002, BFE-Wärmebrückenkatalog): Z. 93 trägt ein ⚠ direkt am Wert
+  im Fliesstext («Katalogwerte fussen auf SIA 380/1:2001»).
+- `solarwaerme-warmwasser.md` (datenstand 2020, hausinfo.ch): Z. 52 nennt «hausinfo.ch 2020» inline
+  mit Jahreszahl; keine FAQ-Zitierstelle (`[[solarwaerme-warmwasser]]` kommt in `BAUHERREN-FAQ.md`
+  nicht vor), also keine Propagationslücke möglich.
+- `geak-gebaeudeenergieausweis.md` (datenstand 2023, GEAK-Basisbroschüre/Normierung): keine direkte
+  `[[…]]`-Zitierstelle in der FAQ, aber F36 nennt «GEAK-Basisbroschüre (Ausgabe 02/2023)» und
+  «Normierung des GEAK … 30.03.2023» explizit mit Jahr im Fliesstext plus eigenem ⚠ Datenstand
+  2026-07-25 am Antwortende.
+- `notstromversorgung-sicherheitsstromversorgung.md` (datenstand 2020, BFE Fact-Sheet 45): F164
+  zitiert sowohl das VKF-Merkblatt (Stand 09.12.2024, die massgebende Fassung) als auch das
+  BFE-Fact-Sheet (01.05.2020) mit Jahr im Quellenblock.
+- `pv-eigenverbrauch-zev.md` (datenstand 2023, Zogg-Planungsgrundlagen): mehrere FAQ-Zitierstellen
+  (u. a. Z. 1392/1505/1837/1973/8740/8798/8816), an allen geprüften Stellen entweder ein
+  unmittelbares ⚠ Datenstand oder ein explizites Jahr/Datum im selben Absatz.
+- `elektromobilitaet-ladeinfrastruktur.md` (datenstand 2023, Zogg 2023): F39-Quellenblock nennt
+  EnergieSchweiz/Swiss-eMobility-Quellen mit Datum (Nov 2024, Sept 2025) und Zogg «Juli 2023»
+  explizit, plus eigenes ⚠ zu SIA 2060.
+
+**Kein neuer Fund in allen sechs.** `2000-watt-gesellschaft-sieben-thesen-ahb` bleibt bestätigt ohne
+FAQ-Zitierstelle (nur in `QUESTIONS.md`/`INDEX.md` referenziert, dort mit vollem ⚠⚠-Vorbehalt) —
+Einordnung aus der 5353-Session unverändert gültig, keine erneute Prüfung nötig.
+
+**Einordnung:** Damit ist die gesamte A-WERKZEUG-Alterskorpus-Liste aus `datenstand-waechter.py`
+(destillate- UND wiki-Ebene, ~30 Kandidaten) jetzt mindestens einmal einzeln gegen ihre
+Zitierstellen geprüft. Über alle Läufe hinweg genau ein echter Fund (Duschwasser-WRG F133, im
+h-Lauf behoben), sonst durchweg saubere Propagation — die Datenstand-Disziplin dieser KB trägt.
+
+**Für den nächsten Lauf — Prozessbeobachtung statt Inhaltsfund:** parallel laufende Sessions am
+selben Tag sollten vor dem Formulieren einer «Für den nächsten Lauf»-Liste den vollen Tagesbestand
+dieser Datei durchsuchen (nicht nur den zuletzt committeten CHANGELOG-Eintrag lesen), sonst entsteht
+Doppelarbeit wie hier (acht von 16 Kandidaten waren bereits erledigt). Inhaltlich unverändert
+blockiert: E-R230-2 (Raphael vorzulegen), 393/394 (beide bildbasiert, OCR-Werkzeug nötig), SIA
+380/1:2016 (Normkauf). Nächster sinnvoller Einstieg: die verbleibenden ~20 der 39 Backlink-Kandidaten
+im A-BLIND-Bestand (siehe h-Lauf-Liste) oder die Prüfwarteschlange vom 23.08.2026-Audit.

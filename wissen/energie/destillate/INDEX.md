@@ -54,7 +54,7 @@ fuellt diese Liste aus `training/pdf-inventar.md`.
 | [[enfk-en-102-waermeschutz-2018]] | U Wert berechnung/EN-102-d_Waermeschutz_3801_2009_2018Dez | established (S. 1-16, vollst.; **Tab. 5 + Datenstand korrigiert Run 76/77, am Original gegengeprüft; Ausgabedatum korrigiert 24.08.2026**) | **Jan 2020** / **SIA 380/1:2016** (Ausgabedatum vorher irrtümlich Dez 2018, SIA-Basis vorher irrtümlich 2009) |
 | [[enfk-en-02-waermeschutz-2013]] | U Wert berechnung/VoHi_EN02_de | established (S. 1-12, vollst.) | ⚠ Feb 2013 / SIA 380/1:2009 |
 | [[enfk-en-104-eigenstromerzeugung]] | Solaranlage/EN104/26_EN-104 | established | ⚠ Formular bis 31.12.2024 |
-| [[minergie-besser-planen-bauen]] | wissen.minergie.ch/minergiewissen_planer_d_2023 | established (S. 1-16, Ausg. 2023) | Ueberarbeitung 09/2023 / MuKEn 2014 |
+| [[minergie-besser-planen-bauen]] | wissen.minergie.ch/minergiewissen_planer_d_2023 + Produktreglement 2026.1 (Nichtwohnbau-Nachtrag) | established (S. 1-16, Ausg. 2023) | Ueberarbeitung 09/2023 / MuKEn 2014; Nichtwohnbau-Abschnitt Datenstand 2026.1 |
 | [[bauphysik-heizwaermebedarf-kennwerte]] | _Heizwaermebedarf/Heizwärmebedarf Kennwert pro EBF | emerging (S. 146-147) | SIA 380/1:2009 |
 | [[sia-380-1-heizwaermebedarf-berechnung]] | _Heizwaermebedarf/Heizwärmebedarf Berechnung SIA 380_1 | emerging (Audit A-P3 03.14, 24.08.2026) | SIA 380/1:2016 |
 | [[bfe-u-wert-bauteilekatalog-neubauten-2002]] | U Wert berechnung/U-Wert-Berechnung_und_Bauteilekatalog_Neubauten | established (vollst. S. 1-80/80; Kap. 4 Boeden/Waende/Daecher/inhomogen + Kap. 5 Fenster/Tueren, Run 65) | ⚠ 2002 |

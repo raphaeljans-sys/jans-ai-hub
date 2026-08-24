@@ -5,7 +5,7 @@ ausgabe: "Veroeffentlichung 2018, Ueberarbeitung September 2023 (web-Ausgabe min
 gelesen: "2026-06-06 (S. 1-16, Ausgabe ~2017); 2026-06-09 (S. 1-16, Ueberarbeitung 2023)"
 datenstand: "Minergie-Standard Ueberarbeitung 09/2023 (Basis MuKEn 2014, mit neuem Kriterium THGE Erstellung). ⚠ Minergie-Reglement/Kennzahlen werden periodisch revidiert — konkrete Limiten vor Zitieren auf minergie.ch verifizieren."
 status: established
-last_updated: 2026-06-09
+last_updated: 2026-08-24
 quelle_pfad: "PL - 04 Energie/wissen.minergie.ch/minergiewissen_planer_d_2023_web_1-231002-143235.pdf"
 ---
 
@@ -102,8 +102,63 @@ bzw. vereinfachbar; Minergie-ECO deckt grosse Teile der SNBS-Kriterien zu Energi
 - Der Mehrpreis steckt v.a. in Huelle + Lueftung + PV; er amortisiert sich ueber Betriebskosten,
   Wohnwert und Vermiet-/Verkaufbarkeit — und schuetzt vor kuenftiger CO₂-/Klima-Regulierung.
 
+## Nichtwohnbau — konkrete Limiten (Nachtrag 24.08.2026, am Produktreglement 2026.1 gelesen)
+
+**Quelle:** «Produktreglement Gebäudestandards MINERGIE®/MINERGIE-P®/MINERGIE-A®», Version 2026.1,
+Ausgabe 08.01.2026, gültig ab 01.01.2026, `minergie.ch/media/produktreglement-minergie-p-a-v2026-1.pdf`
+(52 Seiten, vollständig mit PyPDF2 gelesen). Datenstand dieses Abschnitts **2026.1**, unabhängig
+vom älteren Planungsheft-Datenstand oben.
+
+- **Es gibt keine einfache fixe kWh/m²-Grenzwerttabelle je Nichtwohnbau-Kategorie** — anders als es
+  die vereinfachte Wohnen-MFH-Tabelle oben (51/46/29 kWh/m²) nahelegen könnte. Die Minergie-Kennzahl
+  (MKZ) ist **projektabhängig** und wird über Formeln aus mehreren Parametern berechnet (Kap. 5.1,
+  S. 9f.): Wohnungsgrösse bei MFH, Standort/Besonnung, Dachfläche (PV-Potenzial), bei Zweckbauten
+  zusätzlich der projektspezifische Beleuchtungsnachweis nach SIA 387/4 bei EBF > 1'000 m². Auch die
+  51/46/29-Werte der Planungsheft-Tabelle oben sind daher **Referenzwerte für einen typischen Fall**,
+  kein universeller Fixgrenzwert.
+- **Heizwärmebedarf Q_H (Standard, SIA 380/1:2016) gilt einheitlich für ALLE Gebäudekategorien**
+  (S. 12f.), als Prozentsatz der jeweiligen kategorie-eigenen MuKEn-2025-Neubau-Grenzwerte Q_H,li —
+  nicht selbst nach Kategorie gestaffelt:
+
+  | Standard | Neubau | Erneuerung |
+  |---|---|---|
+  | Minergie | 90 % | keine Anforderung |
+  | Minergie-P | 70 % | 90 % |
+  | Minergie-A | 90 % | keine Anforderung |
+
+  Ausnahmen für Kategorie XII Hallenbäder (eigene Zusatzanforderungen); die Anforderung ist nach
+  unten auf 15 kWh/(m²a) begrenzt, auch wenn die Grenzwert-Berechnung tiefer läge. Nachweis zwingend
+  mit EnDK-zertifiziertem EDV-Programm.
+- **Elektrizität Zweckbauten wird — anders als bei Wohnbauten — nach Kategorie differenziert**, je
+  in drei separaten Standardbedarfs-Teilkennzahlen (gewichtet, kWh/(m²a), S. 30f., Basis Grenzwerte
+  SIA 387/4:2022 bzw. SIA 2056:2019):
+
+  | Kategorie | Beleuchtung | Allg. Gebäudetechnik | Geräte |
+  |---|---|---|---|
+  | III Verwaltung | 12 | 7 | 33 |
+  | IV Schule | 10 | 6 | 10 |
+  | V Verkauf | 43 | 15* | 10* |
+  | VI Restaurant | 14 | 17 | 9 |
+  | VII Versammlungslokal | 22 | 8 | 8 |
+  | VIII Spital | 16 | 16 | 17 |
+  | IX Industrie | 13 | 13** | 14** |
+  | X Lager | 17 | 3 | 8 |
+  | XI Sportbauten | 18 | 6 | 4 |
+  | XII Hallenbad | kein Standardwert | kein Standardwert | kein Standardwert |
+
+  \* ohne gewerbliche Kälte · \** ohne Produktionsmittel. Beleuchtung kann mit Faktor 0,8 vermindert
+  werden bei Effizienzklasse-C-Leuchtmitteln+Steuerung bzw. bei Einsatz Minergie-Modul Leuchten.
+  Bei Erneuerungen sind die AGT-Werte mit Faktor 1,3 zu multiplizieren. Kategorie XII (Hallenbäder)
+  ist generell von der MKZ-Pflicht ausgenommen (Spezialzertifizierung statt Standardnachweis).
+- **Luftdichtheit q_E50:** eigene Tabelle Neubau/Erneuerung im Reglement referenziert (S. 13), die
+  konkreten m³/(h·m²)-Werte liessen sich aus der PDF-Tabellenlayout-Extraktion nicht zuverlässig
+  auslesen (Kap. 6.2) — **nicht übernommen, um nichts zu erfinden**; die oben stehenden Werte für
+  Wohnen MFH (1,2/1,6 Minergie, 0,8 gemessen P/A) bleiben unverändert nur für diese Kategorie belegt.
+
 ## Offene Punkte / zu pruefen
-- ⚠ Konkrete Limiten je Gebaeudekategorie (Nichtwohnbau) + aktuelles Minergie-Reglement auf minergie.ch.
+- ⚠ Luftdichtheit q_E50 für Zweckbauten/Nichtwohnkategorien: Tabellenwerte im Produktreglement
+  2026.1 S. 13 nicht sauber extrahierbar (Layout-Grafik) — bei Bedarf PDF direkt am Bildschirm statt
+  per Textextraktion prüfen.
 - THGE-Bilanzierung (welche Bauteile, welche Datenbank/KBOB) als eigene Quelle vertiefen (→ FAQ F9 graue Energie).
 
 Verwandt: `[[enfk-en-102-waermeschutz-2018]]`, `[[enfk-en-02-waermeschutz-2013]]`,

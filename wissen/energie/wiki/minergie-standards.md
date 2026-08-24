@@ -89,6 +89,17 @@ Netzeinspeisung.
 Neubau: **EBF × 10 W/m², max. 30 kW**. Fläche ~8 m²/kW (kristallin) / 16 m²/kW (Dünnschicht).
 Ersatzabgabe kantonsabhängig möglich. Detail/JANS-Beispiel → `[[enfk-en-104-eigenstromerzeugung]]`.
 
+## Nichtwohnbau (Zweckbauten Kat. III-XII) — konkrete Limiten (Nachtrag 24.08.2026)
+
+Anders als bei Wohnbauten gibt es **keine fixe MKZ-Tabelle je Kategorie** — die Kennzahl wird stets
+projektspezifisch berechnet (s. Hinweis oben). Zwei Anforderungen sind aber am Produktreglement
+2026.1 als fixe, kategorieunabhängige bzw. -abhängige Werte belegt:
+- **Heizwärmebedarf-Prozentsatz gilt einheitlich für alle Kategorien** (90 % Minergie/-A,
+  70 % Minergie-P Neubau) — nicht nach Nutzung gestaffelt.
+- **Elektrizitäts-Standardbedarf (Beleuchtung/allg. Gebäudetechnik/Geräte) ist dagegen stark
+  kategorieabhängig**, z. B. Beleuchtung Verkauf 43 vs. Schule 10 kWh/(m²a). Volle Tabelle je
+  Kategorie III-XII → `[[minergie-besser-planen-bauen]]`.
+
 ## Andere Labels
 GEAK (Klasse ≠ automatisch Minergie), GEAK-Plus (Beratung), SNBS, 2000-Watt-Areal — kombinierbar.
 
