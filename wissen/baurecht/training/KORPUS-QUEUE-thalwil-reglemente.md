@@ -740,13 +740,27 @@ Zuständigkeits-Vorbehaltsnorm, richtig ist § 17 Abs. 2 VRG, Parteientschädigu
 Datenbank-Gründen offen (gleiche Fallfamilie wie VB 94/0016). Neue Primärquelle
 `raw/260824_amtlich_zh_vrg-par3-par17.md`. Report `outputs/2026-08-24_buch-run128.md`.
 
-**Nächster Schritt:** kein Fachpunkt mehr offen ausser den drei aus Datenbank-Gründen
-unverifizierbaren Zitaten (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77) und der registrierten
-PBG-Teilrevision «Baulinien» als Fassungsstand-Wachposten. Kandidaten: regulärer
+**Nächster Schritt (Stand Run 129):** kein Fachpunkt mehr offen ausser den drei aus
+Datenbank-Gründen unverifizierbaren Zitaten (VB 94/0016, VB.2003.00051, RB 1992 Nr. 77) und der
+registrierten PBG-Teilrevision «Baulinien» als Fassungsstand-Wachposten. Kandidaten: regulärer
 `wissenscheck`-Turnus, Modell-D-Stichprobe an [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]
 (zuletzt 2026-07-25/Run 55) oder an `wiki/geschosse-und-kniestock.md` (Restteile ausserhalb der
 in Run 126 geprüften Kniestock-Rechtsprechung), oder ein `connectors/WEGE.md`-Nachtrag für die
-in Run 126 gefundene `entscheidsuche.ch`-Such-API (bisher nicht registriert).
+in Run 126 gefundene `entscheidsuche.ch`-Such-API (bisher nicht registriert; **erledigt Run 129**).
+
+**Run 130 (2026-08-24, ausserhalb T1-T9):** die von Run 55 in [[nutzungsziffern]] offen gelassene
+`needs-verification`-Frage «Unterniveaubauten neu bei der Überbauungsziffer angerechnet?» (Buch
+S. 990 f.) geklärt. Der reine PBG-Wortlaut (§ 256 Hauptteil) schweigt bewusst dazu — Auflösung
+über den amtlichen Leitfaden der Baudirektion Kt. ZH «Harmonisierung der Baubegriffe» (1.3.2017,
+IVHB Ziff. 8.4/8.5, per WebSearch/WebFetch bezogen, neu `raw/260824_amtlich_zh_ivhb-
+leitfaden-baudirektion.md`): **bestätigt**, Unterniveaubauten zählen seit der Harmonisierung zur
+anrechenbaren Gebäudefläche der ÜZ, unabhängig gegenbestätigt über die Grünflächenziffer-Passage
+desselben Dokuments. Kein Buchkommentar-Fehler. Zwei parallele Läufe (`mschub714`/`mschub718`)
+liefen zeitgleich an einem anderen Wiki-Artikel — bewusst ein kollisionsfreies Thema gewählt.
+Report `outputs/2026-08-24_buch-run130.md`. **Nächster Schritt:** die drei Datenbank-bedingt
+unverifizierbaren Zitate und der Baulinien-Wachposten bleiben unverändert offen; als nächster
+Modell-D-Kandidat nach `last_updated` steht [[geschosse-und-kniestock]] (2026-07-27) oder
+[[grundlagen-planungs-baurecht]] (2026-08-03) an; sonst regulärer `wissenscheck`-Turnus.
 
 ## Arbeitsregeln je Batch
 

@@ -3,6 +3,56 @@
 Jede Änderung des Bibliothekars, datiert (JJJJ-MM-TT), **neueste zuoberst**.
 Im Zweifel, was geändert wurde: dieses CHANGELOG ist die Wahrheit.
 
+## 2026-08-24 — Buch-Run 130: needs-verification «Unterniveaubauten neu bei der Überbauungsziffer angerechnet?» (Buch-Run 55) geschlossen — amtlicher IVHB-Leitfaden der Baudirektion Kt. ZH bestätigt die Buch-Aussage
+- ANLASS: Buch-Run 129 nannte als verbleibenden Kandidaten die Modell-D-Stichprobe an
+  [[ausnuetzungsuebertragung]]/[[nutzungsziffern]]. Diese wurden bereits am 23.08.2026 (Run 92)
+  bzw. am 23.08.2026 (Run 94) vollständig volltextgeprüft; einzig eine seit Buch-Run 55
+  (25.07.2026) offene `needs-verification`-Flagge in [[nutzungsziffern]] war noch unerledigt: ob
+  Unterniveaubauten unter dem geltenden § 256 PBG neu zur Überbauungsziffer (ÜZ) zählen, wie es
+  das Buch (S. 990 f.) behauptet — am reinen PBG-Wortlaut (nur 2 Absätze) liess sich das bisher
+  nicht bestätigen.
+- **Zwei parallele Läufe zum Zeitpunkt dieses Laufs aktiv** (`mschub714`, `mschub718`, identischer
+  Prompt, laut `ps`/`git status` mitten in einem eigenen, inzwischen committeten Edit an
+  `wiki/baureife-und-erschliessung.md`) — bewusst ein anderes Thema gewählt, um keine
+  Wiki-Kollision zu riskieren (gleiches Vorgehen wie Buch-Run 129).
+- GEPRÜFT: § 256 PBG Hauptteil (geltend) vs. Anhang (alt) wörtlich gegenübergestellt
+  (`raw/260607_amtlich_zh_pbg.md`, Z. 2704-2706 Hauptteil / Z. 4300-4302 Anhang) — die Anhang-
+  Fassung verlangt explizit die «grösste **oberirdische** Gebäudeumfassung», der geltende
+  Hauptteil nur noch «die Fläche innerhalb der projizierten Fassadenlinie» (kein
+  Oberirdisch-Vorbehalt mehr im Gesetzeswortlaut selbst). Da der reine Wortlaut damit keine
+  abschliessende Antwort gibt, amtliche Vollzugshilfe beigezogen: **Leitfaden der Baudirektion
+  Kanton Zürich «Harmonisierung der Baubegriffe» (1.3.2017, Generalsekretariat Stab Recht)**,
+  per WebSearch lokalisiert (zh.ch) und per WebFetch/PyMuPDF ausgewertet (`pdftotext` auf dieser
+  Station nicht installiert, wie in den meisten vorangehenden Läufen). **IVHB Ziff. 8.4 (§ 256
+  PBG, S. 42) bestätigt wörtlich:** «Im Gegensatz zur bisherigen Regelung sind neu auch
+  Unterniveaubauten anzurechnen» und «Auch Kleinbauten, Anbauten und Unterniveaubauten zählen
+  zur anrechenbaren Gebäudefläche.» **Unabhängig gegenbestätigt** in Ziff. 8.5 (§ 257 PBG
+  Grünflächenziffer, S. 44): eine Unterniveaubaute kann gleichzeitig zur ÜZ zählen und als
+  Grünfläche gelten. Als Erklärung, warum der PBG-Wortlaut selbst offenbleibt: der Leitfaden
+  stellt zu Ziff. 3.1 (§ 6 ABV, Fassadenflucht, S. 13) klar, dass der Begriff Fassadenflucht auf
+  Unterniveaubauten «nicht direkt anwendbar» ist — für sie gilt nur «sinngemäss» dieselbe Logik;
+  diese Analogie steht ausschliesslich im Leitfaden, nicht im Gesetzestext. **Ergebnis:
+  BESTÄTIGT, kein Buchkommentar-Fehler.**
+- NEU `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md` (Auszug: Unterirdische Bauten,
+  Unterniveaubauten, Fassadenflucht, projizierte Fassadenlinie, Untergeschosse, Überbauungsziffer,
+  Grünflächenziffer, Wintergärten/§ 11 ABV — 7 der insgesamt 49 Seiten, Provenienz-Frontmatter mit
+  Bezugsdatum/-methode).
+- GEÄNDERT `wiki/nutzungsziffern.md` (neuer `verifiziert`-Eintrag, `sources` ergänzt,
+  `last_updated` → 2026-08-24, ÜZ-Abschnitt: needs-verification-Klammer durch Auflösungs-Absatz
+  ersetzt), `wiki/QUESTIONS.md` (Run-55-Flagge durchgestrichen + Auflösung nachgetragen),
+  `buecher/band-2/14-nutzungsdichte-ausnuetzung.md` (offene-Punkte-Abschnitt: Flagge auf ERLEDIGT).
+- `git diff --numstat` nach jedem Schreibvorgang geprüft: alle drei bestehenden Dateien
+  netto-additiv (6/3, 7/4, 17/3 Zeilen), keine unerwartete Löschung; neue Raw-Datei ungetrackt/neu.
+- REPORT `outputs/2026-08-24_buch-run130.md`.
+- STATUS Reglemente-Queue: weiterhin vollständig abgeschlossen (T1-T9). Offene Kandidaten für
+  einen künftigen Lauf: regulärer `wissenscheck`-Turnus, `connectors/WEGE.md`-Nachtrag für die in
+  Run 126/127 gefundene `entscheidsuche.ch`-Such-API ist bereits erledigt (Run 129); als nächster
+  Modell-D-Kandidat nach `last_updated` bleibt [[geschosse-und-kniestock]] (2026-07-27, nur die
+  Kniestock-Rechtsprechung wurde in Run 126 geprüft — die drei `speculative`-Fragen zur
+  Übertragbarkeit auf die harmonisierte Fassung sind echte Auslegungsfragen ohne Praxis, kein
+  reiner Beleg-Nachvollzug, daher zurückgestellt) oder [[grundlagen-planungs-baurecht]]
+  (last_updated 2026-08-03, zweitältester Artikel).
+
 ## 2026-08-24 — Wissens-Health-Check baurecht (Phase 1+2 interaktiv): 2 INDEX-Status-Drifts, 2 echte RAW-Coverage-Lücken geschlossen, 16 Register-Nachträge
 - ANLASS: Reglemente-Queue T1-T9 laut `training/KORPUS-QUEUE-thalwil-reglemente.md` weiterhin
   vollständig abgeschlossen (zuletzt Buch-Run 129); da parallel ein weiterer automatischer Lauf

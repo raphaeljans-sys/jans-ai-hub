@@ -1,6 +1,6 @@
 # Stations-Status: mac-mini
 
-Stand: 24.08.2026 07:46:35
+Stand: 24.08.2026 07:56:52
 
 ## Aktive Claude-Sessions (Transkript-Aktivitaet < 30 Min)
 - Developer/jans/ai/hub  (letzte Aktivitaet 07:33)
@@ -12,4 +12,4 @@ Stand: 24.08.2026 07:46:35
 - keine
 
 ## Hub-Git-Stand (NAS)
-- f56de822 nas-selfcommit: 10 Datei(en) 2026-08-24 07:45
+- dec380c2 vollgas-fruehwarnung 24.08. 07:36: gemeldet (Kriterium b, 71.67 Mio am 23.08.); Zusatzbefund 5h-Sperre kontoweit gefaehrdet Briefing-Block, Ertrag 77/83 Artikel rechtfertigt den Schub

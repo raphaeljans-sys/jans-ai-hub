@@ -1678,12 +1678,15 @@ last_updated je 2026-07-10 — vor der Entdeckung der Fassungsstand-Umkehr-Falle
   auf eine vor 1992 geltende ABV-Fassung, evtl. Verwechslung). Praktisch ändert sich nichts an der
   Kernaussage: die Übertragung beruht bereits nach den Buch-Beispielen (BO Zürich Art. 6) auf
   kommunalem Recht, nicht auf einer kantonalen ABV-Norm.
-- **needs-verification (neu):** ÜZ-Neuregelung «neu sind Unterniveaubauten anzurechnen» (Buch
+- ~~**needs-verification (neu):** ÜZ-Neuregelung «neu sind Unterniveaubauten anzurechnen» (Buch
   S. 990 f., zitiert in [[nutzungsziffern]] und `training/drills.md`) liess sich am gelesenen
   Wortlaut von § 256 PBG (Hauptteil, nur 2 Absätze: Definition + 35-cm-Kappung) nicht wörtlich
-  bestätigen. Der Begriff «Unterniveaubauten» kommt im Volltext nur als ABV-Definition (§ 2c ABV)
-  vor, nicht erkennbar mit § 256 PBG verknüpft. Könnte Buchkommentar statt Gesetzeswortlaut sein —
-  nicht als Fehler behandelt, sondern offen ausgewiesen.
+  bestätigen.~~ — **✅ BESTÄTIGT (Buch-Run 130, 24.08.2026).** Der reine Gesetzeswortlaut schweigt
+  bewusst; die Anschlussregel steht im amtlichen Leitfaden der Baudirektion Kt. ZH
+  («Harmonisierung der Baubegriffe», 1.3.2017, IVHB Ziff. 8.4): «Im Gegensatz zur bisherigen
+  Regelung sind neu auch Unterniveaubauten anzurechnen.» Unabhängig bestätigt in Ziff. 8.5
+  (Grünflächenziffer). Neue Primärquelle `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md`;
+  Auflösung im Artikel [[nutzungsziffern]], Abschnitt Überbauungsziffer. Kein Buchkommentar-Fehler.
 - **Nächster Kandidat für Priorität (c):** [[zonenkonformitaet]] (last_updated 2026-06-02, älteste
   noch offene Stichprobe, ausschliesslich Buch-/BZO-Quellen ohne einen einzigen PBG-§-Beleg —
   nächststehender Kandidat für einen vollständigen Modell-D-Durchlauf). Weitere Kandidaten ohne

@@ -6,8 +6,8 @@ ersetzt: null
 gelesen: "1/1 Seiten (vollständig, reine Tabelle)"
 datenstand: "2015 (Bezug BSV 2015)"
 status: established
-last_updated: 2026-08-23
-links: [[REGISTER]]
+last_updated: 2026-08-24
+links: [[REGISTER]], [[vkf-brl-13-15-baustoffe-bauteile]], [[lignum-4-1-decken-waende-bekleidungen-feuerwiderstand]]
 ---
 
 # VKF-Merkblatt «Brandschutz-Klassifikation von häufig verwendeten Bauteilen» (Auszug BSR 13-15)
@@ -47,8 +47,8 @@ Systematik der Kurzbezeichnungen (europäische Klassifikation, sinngemäss zusam
 - **R** — Tragfähigkeit allein (z.B. Stützen ohne Raumabschlussfunktion).
 - **EI** — Raumabschluss mit Wärmedämmungsanforderung (z.B. nichttragende Wände, Brandschutzabschlüsse mit Wärmedämmung).
 - **E** — Raumabschluss ohne Wärmedämmungsanforderung (z.B. Brandschutzabschlüsse zwischen horizontalem und vertikalem Fluchtweg).
-- **RF1** — Reaktion-auf-Feuer-Klasse für Baustoffe mit «keinem Brandbeitrag» (umgangssprachlich: nicht brennbar). Das Merkblatt selbst definiert RF1 nicht; Definition gemäss BSR 13-15.
-- **K 30-RF1** — Kapselungsklasse: Bekleidung aus RF1-Baustoffen, die dahinterliegende brennbare Schichten während 30 Minuten vor Entzündung schützt (Definition nicht im Merkblatt, sinngemäss aus BSR 13-15; dort im Vollwortlaut nachprüfen — speculative im Detail).
+- **RF1** — Reaktion-auf-Feuer-Klasse für Baustoffe mit «keinem Brandbeitrag» (umgangssprachlich: nicht brennbar). Das Merkblatt selbst definiert RF1 nicht. **Fundstelle nachgetragen 24.08.2026 (QUESTIONS-Abarbeitung):** VKF-Brandschutzrichtlinie 13-15 «Baustoffe und Bauteile», Ziff. 2.1 Abs. 1, S. 5 (established, [[vkf-brl-13-15-baustoffe-bauteile]]) — vier Brandverhaltensgruppen RF1 (kein Brandbeitrag) bis RF4 (unzulässiger Brandbeitrag).
+- **K 30-RF1** — Kapselungsklasse. **Korrektur 24.08.2026 (QUESTIONS-Abarbeitung, Fundstelle am Original nachgeprüft):** Die bisherige Formulierung («Bekleidung aus RF1-Baustoffen, die dahinterliegende brennbare Schichten während 30 Minuten vor Entzündung schützt», als speculative geführt) war eine plausible, aber ungenaue Absolut-Paraphrase. Nach BRL 13-15 Ziff. 3.1.5 Abs. 1-3, S. 14 (established, [[vkf-brl-13-15-baustoffe-bauteile]]) ist K **relativ**, nicht absolut definiert: der Kapselungs-Feuerwiderstand muss mindestens 30 Minuten **weniger** betragen als der Feuerwiderstand des Gesamtbauteils, wobei K30-RF1 die praktische Mindestanforderung bildet (Bekleidung aus RF1-Baustoffen, Zwischenräume hohlraumfrei mit RF1-Baustoffen gefüllt). Dieselbe relative Logik bestätigt unabhängig [[lignum-4-1-decken-waende-bekleidungen-feuerwiderstand]] (K30-RF1 als Minimum sowohl bei R30-RF1 als auch bei R60-RF1, K60-RF1 erst ab R90-RF1).
 
 ## JANS-Praxis-Transfer
 - Skill `brandschutz`: schnelle Übersetzungstabelle für Bauleitungs-Factsheets, wenn eine Bestand- oder Neubauwand/-decke/-stütze in eine REI/EI/R/E-Klasse eingeordnet werden muss (z.B. «EI30-Wand» vs. «EI30-RF1-Wand» Unterscheidung inkl. Kapselungsanforderung K 30-RF1).

@@ -107,9 +107,23 @@ Abzüge für geschlossene Vorsprünge (≤ 1,5 m Tiefe), Balkone (≤ 2 m) und p
 Erker/Laubengänge (≤ ⅓ der Fassade) — diese Ausnahmen fehlen im heute geltenden Hauptteil;
 dort zählt grundsätzlich **jeder** oberirdische Vorsprung zur anrechenbaren Gebäudefläche.
 Die ÜZ ist damit unter dem harmonisierten Recht tendenziell **strenger** als unter der
-Anhang-Fassung. (Ob im geltenden Recht Unterniveaubauten neu mitgerechnet werden — so das
-Buch S. 990 f. — liess sich am gelesenen Gesetzeswortlaut von § 256 PBG nicht wörtlich
-bestätigen; *needs-verification*, evtl. Buchkommentar statt Gesetzestext.)
+Anhang-Fassung.
+
+> **Geklärt (Run 130, 24.08.2026): Unterniveaubauten zählen neu zur ÜZ.** Die Buch-Aussage
+> (S. 990 f.) ist **bestätigt**, nicht nur Buchkommentar. Am reinen § 256-PBG-Wortlaut allein
+> liess sich das nicht ablesen — der Grund liegt in einer stillen Anschlussregel: der Begriff
+> **Fassadenflucht** (§ 6 ABV), auf den die «projizierte Fassadenlinie» der ÜZ zurückgeht, ist
+> auf Unterniveaubauten **nicht direkt anwendbar** (sie überragen das Terrain per Definition,
+> § 2c ABV, um höchstens 0,5 m). Der amtliche **Leitfaden der Baudirektion Kt. ZH**
+> («Harmonisierung der Baubegriffe», 1.3.2017, IVHB Ziff. 8.4) macht die Anschlussregel
+> ausdrücklich: «Im Gegensatz zur bisherigen Regelung sind neu auch Unterniveaubauten
+> anzurechnen» und «Auch Kleinbauten, Anbauten und Unterniveaubauten zählen zur
+> anrechenbaren Gebäudefläche.» Unabhängig bestätigt in Ziff. 8.5 (Grünflächenziffer, S. 44):
+> eine Unterniveaubaute kann zugleich zur ÜZ zählen **und** unter genügender bepflanzter
+> Überdeckung als Grünfläche gelten — zwei Ziffern greifen auf dieselbe Baute unabhängig
+> voneinander zu. Unter der **alten** Anhang-Fassung (§ 256 Abs. 1 «grösste oberirdische
+> Gebäudeumfassung») war das explizit ausgeschlossen. Quelle:
+> `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md`.
 
 ## Baumassenziffer (BMZ)
 Verhältnis des Bauvolumens über dem massgebenden Terrain zur anrechenbaren

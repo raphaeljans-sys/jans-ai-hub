@@ -1,3 +1,71 @@
+## 2026-08-24 — QUESTIONS-Abarbeitung: zwei speculative-Flags gegen bereits im Haus liegende established-Destillate geschlossen (sia-104/SIA-111-112, VKF-Merkblatt K30-RF1/BRL-13-15)
+
+**Auftrag:** weitere offene Fragen in `wiki/QUESTIONS.md` abarbeiten, Fundstelle je Aussage mit
+Norm/Ausgabe/Ziffer, nur `established` zitierfähig; CHANGELOG und letzten Laufbericht zuerst lesen,
+dort weitermachen. Kollisionscheck (`ps aux`): kein Konkurrenzprozess mit demselben Auftragstext
+gefunden.
+
+**Ausgangslage:** Der unmittelbar vorangehende Eintrag (heute 07:46/07:53 Uhr) hatte alle 33
+verbleibenden `[ ]`-Zeilen bereits einzeln gegengelesen und als gesättigt eingestuft
+(Bring-Schuld/Strukturentscheid/genuine Sackgasse). Eigene stichprobenartige Nachprüfung von rund
+der Hälfte der Zeilen (Cross-Contamination/doppelte Run-Nummer, Duplikate-Merge, DIN EN 1627,
+Mac-Mini-Runs 3-10, SIA-181/SIA-118/VKF-Normkonzept/Wegleitung-SIA-271) bestätigte den Befund —
+bis auf zwei Detailpunkte innerhalb des mehrteiligen Eintrags «Verify-Abschluss MacBook (13.07.2026)»
+(Zeile ~4253 ff.), die bislang nur als «speculative, am Original nachprüfen» offen standen und deren
+Original-Belege sich beim genaueren Hinsehen bereits **im eigenen, established Bestand** befanden —
+die pauschale Sättigungsdiagnose hatte diese beiden übersehen.
+
+**Fund 1 — sia-104-2003.md Ziff. 3.4.1 (Gesamtleitung) gegen SIA 111/112 gegengeprüft:**
+Beide Quellnormen liegen bereits `status: established` vor (`sia-111-2014.md`, `sia-112-2014.md`),
+ein Neu-Destillat war nicht nötig. Befund präziser als die ursprüngliche Vermutung: SIA 111:2014
+(Begriffe S. 7) und SIA 112:2014 (Begriffe S. 6) enthalten **keine eigene** Gesamtleitungs-
+Leistungsliste, sondern verweisen beide ausdrücklich auf SIA 102/103/**104**/105/(108/110) Art. 3.4 —
+die hier destillierte Ziff. 3.4.1 ist also (mit) die Quelle, auf die SIA 111/112 zeigen, keine
+zufällig ähnliche Parallel-Definition. speculative-Flag aufgehoben, Fundstelle nachgetragen,
+`verifiziert`/`last_updated` auf 2026-08-24 gesetzt.
+
+**Fund 2 — vkf-merkblatt-brandschutzklassifikation-bauteile.md, Begriffe RF1 und K 30-RF1:**
+Der Ursprungswortlaut nannte «BSR 13-15» als Quelle, ohne dass diese im Bestand identifiziert war.
+Tatsächlich ist «BSR 13-15» (Eigenabkürzung des Merkblatts) identisch mit der bereits destillierten,
+`status: established` VKF-Brandschutzrichtlinie 13-15 «Baustoffe und Bauteile»
+(`vkf-brl-13-15-baustoffe-bauteile.md`). Gegen deren Ziff. 2.1 Abs. 1 (S. 5) und Ziff. 3.1.5
+Abs. 1-3 (S. 14) geprüft: RF1 jetzt mit Fundstelle belegt. **K 30-RF1 war sachlich ungenau
+paraphrasiert** — das Merkblatt-Destillat behauptete eine Absolutdefinition («schützt … während
+30 Minuten vor Entzündung»), das Original definiert K jedoch **relativ**: Kapselungs-Feuerwiderstand
+mindestens 30 Minuten weniger als das Gesamtbauteil, K30-RF1 als praktisches Minimum — unabhängig
+bestätigt durch `lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` (K30-RF1 als Minimum
+sowohl bei R30-RF1 als auch bei R60-RF1). Beide Begriffe korrigiert/belegt, speculative-Flag
+aufgehoben, Links ergänzt, `last_updated` auf 2026-08-24 gesetzt.
+
+**QUESTIONS.md nachgeführt:** Der mehrteilige Eintrag «Verify-Abschluss MacBook (13.07.2026)»
+(5 Teilpunkte) trägt jetzt zwei Nachträge (Teilpunkt 2 und 3 geschlossen); Teilpunkte 1
+(Duplikat-Merge, destruktiv, Rückfrage Raphael), 4 (steeldoc-ECCS, kein Original im Haus) und 5
+(BRL-100-15-Register-Gegenprüfung) bleiben offen. Datei bewusst nur ergänzt, keine fremde
+Historie überschrieben (`git diff` gegengelesen: reine Anfügungen plus Ersetzung der eigenen,
+im selben Lauf zunächst fehlerhaft eingefügten Zwischenversion — siehe unten).
+
+**Nebenbefund (Selbstkorrektur im selben Lauf):** Ein erster Editierversuch am
+«Verify-Abschluss»-Eintrag hat versehentlich einen Textblock dupliziert und einen unsinnigen
+Platzhalter eingefügt (Edit-Tool traf nicht eindeutig genug an). Sofort bemerkt (Zeilenzahl-Check
+`wc -l` gegen den Ausgangsstand 5637, `git diff --numstat`), der komplette fehlerhafte Block
+entfernt und die Datei auf den Originalstand zurückgesetzt, bevor der korrekte, kleinere Edit an
+der richtigen Stelle (direkt nach dem 5-Punkte-Eintrag, nicht mitten im nachfolgenden
+Mac-Mini-Run-10-Eintrag) gesetzt wurde. Kein Datenverlust, da vor dem zweiten Anlauf verifiziert.
+
+**Verbleibende offene Punkte laut Vorlauf weiterhin gültig, kein weiterer Anlauf heute sinnvoll:**
+16 Bring-Schulden Raphael (SIA-380/1, 385/1, 266/1, 181/1:2026, SIA-118:2013, SIA-2001-Nachfolge
+bereits geschlossen, DIN-EN-1627-Vollnorm, SIA-491/SN-EN-12193/SN-641-400, Wegleitung-SIA-271
+u.a., alle mit verifiziertem Preis/Bezugsquelle), 3 destruktive Merge-/Rename-Entscheide
+(Rückfrage Raphael), 2 reine Prozessnotizen ohne Norm-Fundstellenbezug (Cross-Contamination,
+doppelte Run-Nummer — beide stale, mehrfach als «keine Sachfrage» eingestuft), 1
+Strukturentscheid (Reichweite-Erweiterung des Inventars, Run 31/32).
+
+**Diff-Gegenprobe (`git diff --numstat`):** `sia-104-2003.md` 3/3 (Zeile-für-Zeile-Ersetzung,
+keine Netto-Löschung), `vkf-merkblatt-brandschutzklassifikation-bauteile.md` 4/4 (Frontmatter
+last_updated/links + zwei Begriffs-Zeilen), `wiki/QUESTIONS.md` netto +20 Zeilen (append plus
+Ersetzung der eigenen fehlerhaften Zwischenversion aus demselben Lauf, keine fremde Historie
+betroffen).
+
 ## 2026-08-24 — SIA-Sweep-Fortsetzung (07:53 Uhr): elfte unabhängige Sättigungsbestätigung, Kurzeintrag
 
 **Auftrag:** identisch zum Sweep-Auftrag der zehn Vorläufe desselben Tages (letzter Sweep-Eintrag

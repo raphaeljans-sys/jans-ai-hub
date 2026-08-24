@@ -4275,11 +4275,31 @@ Grunddestillation des erfassten Bestands, war aber **kein** Beleg dafür, dass n
   > «SIA 102/103/104/105/108 Art. 3.4». Die speculative-Markierung in
   > `destillate/sia-104-2003.md` Ziff. 3.4.1 ist aufgehoben, Fundstelle nachgetragen,
   > `verifiziert`/`last_updated` auf 2026-08-24 gesetzt. **Teilpunkte (1) Duplikat-Merges,
-  > (3) NSV-Merkblatt K-30-RF1 gegen BSR-13-15, (4) steeldoc-ECCS-Diskrepanz und (5)
-  > BRL-100-15-Register-Gegenprüfung bleiben offen** — (1) ist destruktiv (Rückfrage Raphael,
-  > siehe Abschnitt «Duplikate aus dem Reconcile» oben), (3)/(4)/(5) sind eigene, von diesem
-  > Fund unabhängige Sachfragen ohne im Haus liegende Original-Volltexte (BSR 13-15, ECCS-Heft),
-  > die diesen Lauf ebenfalls nicht ausgeräumt haben.
+  > (4) steeldoc-ECCS-Diskrepanz und (5) BRL-100-15-Register-Gegenprüfung bleiben offen** —
+  > (1) ist destruktiv (Rückfrage Raphael, siehe Abschnitt «Duplikate aus dem Reconcile» oben),
+  > (4)/(5) sind eigene, von diesem Fund unabhängige Sachfragen ohne im Haus liegenden
+  > ECCS-Volltext bzw. ohne bereits geprüftes REGISTER-Datum.
+  >
+  > **Nachtrag 24.08.2026 (QUESTIONS-Abarbeitung, Fortsetzung): Teilpunkt (3) ebenfalls
+  > GESCHLOSSEN.** Die Annahme «kein im Haus liegender Original-Volltext» oben war falsch —
+  > die VKF-Brandschutzrichtlinie 13-15 «Baustoffe und Bauteile» (vom Merkblatt selbst als
+  > «BSR 13-15» abgekürzt, im eigenen Bestand unter dem KB-Dateinamen `BRL` geführt) liegt
+  > bereits vollständig destilliert und `status: established` vor
+  > (`destillate/vkf-brl-13-15-baustoffe-bauteile.md`). Gegen deren Ziff. 2.1 Abs. 1 (S. 5)
+  > und Ziff. 3.1.5 Abs. 1-3 (S. 14) geprüft: (a) RF1 ist dort mit Fundstelle definiert (eine
+  > von vier Brandverhaltensgruppen, «kein Brandbeitrag»); (b) K 30-RF1 ist entgegen der
+  > bisherigen Merkblatt-Paraphrase («schützt … während 30 Minuten vor Entzündung», als
+  > Absolutwert formuliert) tatsächlich **relativ** definiert — der Kapselungs-Feuerwiderstand
+  > muss mindestens 30 Minuten weniger betragen als der Feuerwiderstand des Gesamtbauteils,
+  > K30-RF1 ist die praktische Mindestanforderung. Unabhängig bestätigt durch
+  > `destillate/lignum-4-1-decken-waende-bekleidungen-feuerwiderstand.md` (K30-RF1 als Minimum
+  > sowohl bei R30-RF1 als auch bei R60-RF1). Beide Begriffe in
+  > `destillate/vkf-merkblatt-brandschutzklassifikation-bauteile.md` korrigiert/mit Fundstelle
+  > versehen, speculative-Flag aufgehoben, `last_updated` auf 2026-08-24 gesetzt, Links
+  > ergänzt. Der zweite Teil des ursprünglichen Punkts («Rename wegen Dateiname/Inhalt-
+  > Mismatch») war bereits am 23.08.2026 an anderer Stelle dieser Datei geschlossen (Abschnitt
+  > «Dateiname/Inhalt-Mismatch — GESCHLOSSEN 23.08.2026» oben). Damit sind von den ursprünglich
+  > fünf Teilpunkten nur noch (1) [destruktiv, Rückfrage Raphael], (4) und (5) offen.
 - [x] **Mac Mini Run 10 (13.07.2026): Retro-Verifikation DIN-5034-Reihe + DIN-1053-Reihe
   komplett, 8/8 beanstandet-korrigiert.** Alle 4 verbleibenden DIN-5034-Destillate
   (5034-1/2/4/6) und alle 4 verbleibenden DIN-1053-Destillate (1053-1/2/3/100) adversarial

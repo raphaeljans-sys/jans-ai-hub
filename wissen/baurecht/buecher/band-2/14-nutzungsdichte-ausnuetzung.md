@@ -488,9 +488,12 @@ Zentrumszonen** in den meisten Gemeinden **ueblich**.
   gegengelesen (`raw/260607_amtlich_zh_pbg.md`, `raw/260607_amtlich_zh_abv.md`). Ergebnis:
   Fassungsstand-Umkehr korrigiert (siehe Hinweis bei «Harmonisierungsvorlage» oben) + 3
   Einzelkorrekturen (§ 9 ABV, § 10 lit. c ABV Prozentsatz, § 17 ABV existiert nicht) — nachgezogen
-  in [[nutzungsziffern]] und [[ausnuetzungsuebertragung]]. Verbleibend unverifiziert: die
-  «Unterniveaubauten»-Neuregelung bei der ÜZ (Buch S. 990 f.) liess sich am gelesenen § 256-PBG-
-  Wortlaut nicht woertlich bestaetigen (evtl. Buchkommentar statt Gesetzestext) — needs-verification.
+  in [[nutzungsziffern]] und [[ausnuetzungsuebertragung]]. Die «Unterniveaubauten»-Neuregelung
+  bei der ÜZ (Buch S. 990 f.) liess sich am gelesenen § 256-PBG-Wortlaut allein nicht woertlich
+  bestaetigen — **ERLEDIGT (Buch-Run 130, 2026-08-24):** Buch-Aussage bestaetigt durch den
+  amtlichen Leitfaden der Baudirektion Kt. ZH («Harmonisierung der Baubegriffe», 1.3.2017,
+  IVHB Ziff. 8.4/8.5, `raw/260824_amtlich_zh_ivhb-leitfaden-baudirektion.md`) — kein
+  Buchkommentar-Fehler, siehe Aufloesung in [[nutzungsziffern]].
 - Vollgeschoss-/Dachgeschoss-Abgrenzung (§ 276 PBG) → Kap. 16 distillieren und [[backlink]].
 - ~~**§ 9 ABV needs-verification**~~ → **ERLEDIGT (Buch-Run 55):** siehe Korrektur oben — im
   Hauptteil (geltendes Recht seit 1.3.2017) ist der Passus tatsaechlich gestrichen, nicht nur
